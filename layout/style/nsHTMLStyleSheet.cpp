@@ -2935,7 +2935,6 @@ sizeof
 (
 MappedAttrTableEntry
 )
-16
 )
 ;
 }
@@ -3116,7 +3115,6 @@ sizeof
 (
 LangRuleTableEntry
 )
-16
 )
 ;
 }

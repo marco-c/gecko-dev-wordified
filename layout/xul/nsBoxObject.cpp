@@ -1641,7 +1641,7 @@ nsStringHashKey
 nsISupports
 >
 (
-8
+4
 )
 ;
 }

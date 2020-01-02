@@ -435,7 +435,7 @@ explicit
 nsBaseHashtable
 (
 uint32_t
-aInitSize
+aInitLength
 )
 :
 nsTHashtable
@@ -443,7 +443,7 @@ nsTHashtable
 EntryType
 >
 (
-aInitSize
+aInitLength
 )
 {
 }

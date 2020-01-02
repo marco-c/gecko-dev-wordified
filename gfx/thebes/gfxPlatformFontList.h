@@ -1777,11 +1777,11 @@ ExtraNames
 :
 mFullnames
 (
-100
+64
 )
 mPostscriptNames
 (
-100
+64
 )
 {
 }

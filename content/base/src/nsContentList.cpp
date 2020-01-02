@@ -1016,7 +1016,6 @@ sizeof
 (
 ContentListHashEntry
 )
-16
 )
 ;
 }
@@ -1510,7 +1509,6 @@ sizeof
 (
 FuncStringContentListHashEntry
 )
-16
 )
 ;
 }

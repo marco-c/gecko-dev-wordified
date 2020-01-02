@@ -4061,7 +4061,6 @@ sizeof
 (
 ResourceHashEntry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 PL_DHashTableInit
@@ -4075,7 +4074,6 @@ sizeof
 (
 LiteralHashEntry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 PL_DHashTableInit
@@ -4089,7 +4087,6 @@ sizeof
 (
 IntHashEntry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 PL_DHashTableInit
@@ -4103,7 +4100,6 @@ sizeof
 (
 DateHashEntry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 PL_DHashTableInit
@@ -4117,7 +4113,6 @@ sizeof
 (
 BlobHashEntry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 mDefaultResourceFactory

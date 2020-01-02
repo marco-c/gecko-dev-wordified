@@ -83,11 +83,11 @@ RedirectChannelRegistrar
 :
 mRealChannels
 (
-64
+32
 )
 mParentChannels
 (
-64
+32
 )
 mId
 (

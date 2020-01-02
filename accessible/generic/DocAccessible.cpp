@@ -692,11 +692,11 @@ size
 ?
 mAccessibleCache
 (
-kDefaultCacheSize
+kDefaultCacheLength
 )
 mNodeToAccessibleMap
 (
-kDefaultCacheSize
+kDefaultCacheLength
 )
 mDocumentNode
 (

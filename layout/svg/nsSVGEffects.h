@@ -1725,7 +1725,7 @@ nsSVGRenderingObserverList
 :
 mObservers
 (
-5
+4
 )
 {
 MOZ_COUNT_CTOR

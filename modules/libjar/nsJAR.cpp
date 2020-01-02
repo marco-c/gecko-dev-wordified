@@ -702,7 +702,7 @@ nsZipArchive
 )
 mManifestData
 (
-10
+8
 )
 mParsedManifest
 (
@@ -7178,7 +7178,6 @@ mLock
 )
 mZips
 (
-16
 )
 mMustCacheFd
 (

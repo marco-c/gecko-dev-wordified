@@ -3603,7 +3603,7 @@ nsTHashtable
 FontTableHashEntry
 >
 (
-10
+8
 )
 ;
 }
@@ -3701,7 +3701,7 @@ nsTHashtable
 FontTableHashEntry
 >
 (
-10
+8
 )
 ;
 }

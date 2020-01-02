@@ -1498,7 +1498,6 @@ nsCounterManager
 :
 mNames
 (
-16
 )
 {
 }

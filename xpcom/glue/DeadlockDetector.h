@@ -3192,7 +3192,7 @@ T
 :
 kDefaultNumBuckets
 =
-64
+32
 ;
 }
 /

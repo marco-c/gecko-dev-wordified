@@ -2712,7 +2712,6 @@ nsURIHashKey
 nsXBLDocumentInfo
 >
 (
-16
 )
 ;
 }
@@ -2839,7 +2838,6 @@ nsURIHashKey
 nsIStreamListener
 >
 (
-16
 )
 ;
 }

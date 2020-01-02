@@ -1719,7 +1719,6 @@ sizeof
 (
 PropertyListMapEntry
 )
-16
 )
 ;
 }

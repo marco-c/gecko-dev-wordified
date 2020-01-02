@@ -198,9 +198,9 @@ nsIScrollableView
 ;
 const
 uint32_t
-kDefaultCacheSize
+kDefaultCacheLength
 =
-256
+128
 ;
 namespace
 mozilla

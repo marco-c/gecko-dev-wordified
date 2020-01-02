@@ -2576,7 +2576,7 @@ sizeof
 (
 PropertyTableEntry
 )
-20
+16
 )
 ;
 PL_INIT_ARENA_POOL

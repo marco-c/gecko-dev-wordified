@@ -23725,7 +23725,7 @@ false
 )
 mBookmarkFolderObservers
 (
-128
+64
 )
 mBatchInProgress
 (

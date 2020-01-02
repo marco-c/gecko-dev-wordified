@@ -365,12 +365,12 @@ observers
 .
 #
 define
-VISIT_OBSERVERS_INITIAL_CACHE_SIZE
-128
+VISIT_OBSERVERS_INITIAL_CACHE_LENGTH
+64
 /
 /
 Initial
-size
+length
 for
 the
 visits
@@ -379,8 +379,8 @@ hash
 .
 #
 define
-VISITS_REMOVAL_INITIAL_HASH_SIZE
-128
+VISITS_REMOVAL_INITIAL_HASH_LENGTH
+64
 using
 namespace
 mozilla
@@ -9210,7 +9210,7 @@ aPlaces
 :
 mPlaces
 (
-VISITS_REMOVAL_INITIAL_HASH_SIZE
+VISITS_REMOVAL_INITIAL_HASH_LENGTH
 )
 mHistory
 (
@@ -9852,7 +9852,7 @@ PlaceHashKey
 >
 places
 (
-VISITS_REMOVAL_INITIAL_HASH_SIZE
+VISITS_REMOVAL_INITIAL_HASH_LENGTH
 )
 ;
 nsresult
@@ -11338,7 +11338,7 @@ mShutdownMutex
 )
 mObservers
 (
-VISIT_OBSERVERS_INITIAL_CACHE_SIZE
+VISIT_OBSERVERS_INITIAL_CACHE_LENGTH
 )
 mRecentlyVisitedURIsNextIndex
 (

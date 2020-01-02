@@ -3382,7 +3382,7 @@ nsUint32HashKey
 int32_t
 >
 (
-200
+128
 )
 ;
 }

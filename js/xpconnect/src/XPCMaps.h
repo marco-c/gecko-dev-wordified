@@ -289,7 +289,7 @@ JSObject2WrappedJSMap
 newMap
 (
 int
-size
+length
 )
 {
 JSObject2WrappedJSMap
@@ -313,7 +313,7 @@ mTable
 .
 init
 (
-size
+length
 )
 )
 return
@@ -752,7 +752,7 @@ Native2WrappedNativeMap
 newMap
 (
 int
-size
+length
 )
 ;
 inline
@@ -1144,7 +1144,7 @@ IID2WrappedJSClassMap
 newMap
 (
 int
-size
+length
 )
 ;
 inline
@@ -1430,7 +1430,7 @@ IID2NativeInterfaceMap
 newMap
 (
 int
-size
+length
 )
 ;
 inline
@@ -1733,7 +1733,7 @@ ClassInfo2NativeSetMap
 newMap
 (
 int
-size
+length
 )
 ;
 inline
@@ -2065,7 +2065,7 @@ ClassInfo2WrappedNativeProtoMap
 newMap
 (
 int
-size
+length
 )
 ;
 inline
@@ -2373,7 +2373,7 @@ NativeSetMap
 newMap
 (
 int
-size
+length
 )
 ;
 inline
@@ -2787,7 +2787,7 @@ IID2ThisTranslatorMap
 newMap
 (
 int
-size
+length
 )
 ;
 inline
@@ -3101,7 +3101,7 @@ XPCNativeScriptableSharedMap
 newMap
 (
 int
-size
+length
 )
 ;
 bool
@@ -3269,7 +3269,7 @@ XPCWrappedNativeProtoMap
 newMap
 (
 int
-size
+length
 )
 ;
 inline
@@ -3550,7 +3550,7 @@ JSObject2JSObjectMap
 newMap
 (
 int
-size
+length
 )
 {
 JSObject2JSObjectMap
@@ -3574,7 +3574,7 @@ mTable
 .
 init
 (
-size
+length
 )
 )
 return

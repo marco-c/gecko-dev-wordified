@@ -438,7 +438,7 @@ DocManager
 :
 mDocAccessibleCache
 (
-4
+2
 )
 {
 }

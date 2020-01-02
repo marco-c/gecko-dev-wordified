@@ -3985,7 +3985,7 @@ aPrefs
 >
 SetCapacity
 (
-PL_DHASH_TABLE_SIZE
+PL_DHASH_TABLE_CAPACITY
 (
 &
 gHashTable

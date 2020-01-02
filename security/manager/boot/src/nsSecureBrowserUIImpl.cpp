@@ -2296,7 +2296,6 @@ sizeof
 (
 RequestHashEntry
 )
-16
 )
 ;
 }

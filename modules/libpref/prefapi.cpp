@@ -965,8 +965,8 @@ flags
 ;
 #
 define
-PREF_HASHTABLE_INITIAL_SIZE
-2048
+PREF_HASHTABLE_INITIAL_LENGTH
+1024
 nsresult
 PREF_Init
 (
@@ -994,10 +994,10 @@ sizeof
 (
 PrefHashEntry
 )
-PREF_HASHTABLE_INITIAL_SIZE
 fallible_t
 (
 )
+PREF_HASHTABLE_INITIAL_LENGTH
 )
 )
 {

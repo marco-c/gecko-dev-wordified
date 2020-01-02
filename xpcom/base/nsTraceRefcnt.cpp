@@ -1354,7 +1354,7 @@ CodeAddressServiceStringTable
 :
 mSet
 (
-64
+32
 )
 {
 }

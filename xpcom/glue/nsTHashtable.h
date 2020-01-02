@@ -691,7 +691,7 @@ constructors
 instead
 of
 default
-aInitSize
+aInitLength
 parameter
 since
 /
@@ -714,7 +714,7 @@ nsTHashtable
 {
 Init
 (
-PL_DHASH_MIN_SIZE
+PL_DHASH_DEFAULT_INITIAL_LENGTH
 )
 ;
 }
@@ -722,12 +722,12 @@ explicit
 nsTHashtable
 (
 uint32_t
-aInitSize
+aInitLength
 )
 {
 Init
 (
-aInitSize
+aInitLength
 )
 ;
 }
@@ -2264,7 +2264,7 @@ table
 .
 *
 param
-aInitSize
+aInitLength
 the
 initial
 number
@@ -2279,7 +2279,7 @@ void
 Init
 (
 uint32_t
-aInitSize
+aInitLength
 )
 ;
 /
@@ -2506,7 +2506,7 @@ EntryType
 Init
 (
 uint32_t
-aInitSize
+aInitLength
 )
 {
 static
@@ -2551,7 +2551,7 @@ sizeof
 (
 EntryType
 )
-aInitSize
+aInitLength
 )
 ;
 }

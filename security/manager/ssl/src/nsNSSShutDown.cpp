@@ -268,7 +268,6 @@ sizeof
 (
 ObjectHashEntry
 )
-16
 )
 ;
 PL_DHashTableInit
@@ -282,7 +281,6 @@ sizeof
 (
 ObjectHashEntry
 )
-16
 )
 ;
 }

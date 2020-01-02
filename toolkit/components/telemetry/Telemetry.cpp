@@ -574,9 +574,9 @@ public
 AutoHashtable
 (
 uint32_t
-initSize
+initLength
 =
-PL_DHASH_MIN_SIZE
+PL_DHASH_DEFAULT_INITIAL_LENGTH
 )
 ;
 typedef
@@ -674,7 +674,7 @@ EntryType
 AutoHashtable
 (
 uint32_t
-initSize
+initLength
 )
 :
 nsTHashtable
@@ -682,7 +682,7 @@ nsTHashtable
 EntryType
 >
 (
-initSize
+initLength
 )
 {
 }

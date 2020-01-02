@@ -483,7 +483,7 @@ aDoc
 )
 mAccessibleCache
 (
-kDefaultTreeCacheSize
+kDefaultTreeCacheLength
 )
 {
 mType

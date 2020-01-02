@@ -647,7 +647,6 @@ sizeof
 (
 nsRequestInfo
 )
-16
 )
 ;
 ClearInternalProgress

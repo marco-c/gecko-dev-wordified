@@ -4485,7 +4485,6 @@ RememberCertErrorsTable
 :
 mErrorHosts
 (
-16
 )
 mMutex
 (

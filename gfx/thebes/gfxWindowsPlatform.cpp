@@ -1594,7 +1594,7 @@ false
 )
 mPrefFonts
 (
-50
+32
 )
 {
 mUseClearTypeForDownloadableFonts

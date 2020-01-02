@@ -2759,9 +2759,6 @@ nsCString
 >
 hdrHash
 (
-1
-+
-(
 mTransaction
 -
 >
@@ -2776,9 +2773,6 @@ Headers
 .
 Count
 (
-)
-*
-2
 )
 )
 ;

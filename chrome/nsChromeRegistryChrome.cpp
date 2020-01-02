@@ -824,7 +824,6 @@ sizeof
 (
 PackageEntry
 )
-16
 )
 ;
 bool

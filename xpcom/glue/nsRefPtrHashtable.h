@@ -256,7 +256,7 @@ explicit
 nsRefPtrHashtable
 (
 uint32_t
-aInitSize
+aInitLength
 )
 :
 nsBaseHashtable
@@ -270,7 +270,7 @@ RefPtr
 *
 >
 (
-aInitSize
+aInitLength
 )
 {
 }

@@ -158,9 +158,9 @@ kMaxTreeColumns
 ;
 const
 uint32_t
-kDefaultTreeCacheSize
+kDefaultTreeCacheLength
 =
-256
+128
 ;
 /
 *

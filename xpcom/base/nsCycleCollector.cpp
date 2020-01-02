@@ -5255,7 +5255,7 @@ sizeof
 (
 PtrToNodeEntry
 )
-32768
+16384
 )
 ;
 }

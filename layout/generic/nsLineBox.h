@@ -1855,7 +1855,7 @@ mHasHashedFrames
 1
 ;
 uint32_t
-minSize
+minLength
 =
 std
 :
@@ -1865,7 +1865,7 @@ max
 kMinChildCountForHashtable
 uint32_t
 (
-PL_DHASH_MIN_SIZE
+PL_DHASH_DEFAULT_INITIAL_LENGTH
 )
 )
 ;
@@ -1886,7 +1886,7 @@ std
 max
 (
 count
-minSize
+minLength
 )
 )
 ;

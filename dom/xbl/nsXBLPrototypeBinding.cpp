@@ -3262,7 +3262,7 @@ nsUint32HashKey
 InnerAttributeTable
 >
 (
-4
+2
 )
 ;
 }
@@ -3311,7 +3311,7 @@ attributesNS
 new
 InnerAttributeTable
 (
-4
+2
 )
 ;
 mAttributeTable

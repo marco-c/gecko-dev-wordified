@@ -2401,6 +2401,8 @@ kHashType
 void
 ConvertChildrenToHash
 (
+int32_t
+aNumKids
 )
 ;
 nsCachedStyleData

@@ -124,7 +124,7 @@ gfxFontFeatureValueSet
 :
 mFontFeatureValues
 (
-10
+8
 )
 {
 }
