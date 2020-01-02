@@ -1625,12 +1625,15 @@ aFileList
 ErrorResult
 rv
 ;
+NS_IF_ADDREF
+(
 *
 aFileList
 =
 GetFiles
 (
 rv
+)
 )
 ;
 return
