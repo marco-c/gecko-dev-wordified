@@ -16290,7 +16290,6 @@ false
 ;
 /
 /
-Enable
 CustomizableUI
 debug
 logging
@@ -16304,6 +16303,6 @@ uiCustomization
 .
 debug
 "
-true
+false
 )
 ;
