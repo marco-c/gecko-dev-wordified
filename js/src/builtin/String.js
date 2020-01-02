@@ -1730,8 +1730,8 @@ length
 var
 outputStr
 =
-'
-'
+"
+"
 ;
 var
 chunkStart
