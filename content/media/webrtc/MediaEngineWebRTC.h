@@ -206,13 +206,6 @@ MediaEngineWrapper
 .
 h
 "
-#
-include
-"
-MediaEngineTabVideoSource
-.
-h
-"
 /
 /
 WebRTC
@@ -2292,12 +2285,6 @@ nsStringHashKey
 MediaEngineWebRTCAudioSource
 >
 mAudioSources
-;
-nsRefPtr
-<
-MediaEngineTabVideoSource
->
-mTabVideoSource
 ;
 }
 ;

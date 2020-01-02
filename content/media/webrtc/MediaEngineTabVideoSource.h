@@ -57,12 +57,6 @@ MPL
 *
 /
 #
-ifndef
-MEDIAENGINETABVIDEOSOURCE_H_
-#
-define
-MEDIAENGINETABVIDEOSOURCE_H_
-#
 include
 "
 nsIDOMEventListener
@@ -417,10 +411,3 @@ mTabSource
 }
 ;
 }
-#
-endif
-/
-*
-MEDIAENGINETABVIDEOSOURCE_H_
-*
-/
