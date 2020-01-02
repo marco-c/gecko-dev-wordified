@@ -448,6 +448,11 @@ mOCSPGETEnabled
 ;
 }
 ;
+void
+InitCertVerifierLog
+(
+)
+;
 }
 }
 /
