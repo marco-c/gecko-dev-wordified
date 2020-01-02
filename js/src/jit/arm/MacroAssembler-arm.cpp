@@ -27129,7 +27129,8 @@ or
 the
 result
 is
-negative
+non
+positive
 ma_mov
 (
 output
@@ -27141,6 +27142,12 @@ ma_b
 (
 bail
 Signed
+)
+;
+ma_b
+(
+bail
+Zero
 )
 ;
 bind
@@ -27537,7 +27544,8 @@ or
 the
 result
 is
-negative
+non
+positive
 ma_mov
 (
 output
@@ -27549,6 +27557,12 @@ ma_b
 (
 bail
 Signed
+)
+;
+ma_b
+(
+bail
+Zero
 )
 ;
 bind
