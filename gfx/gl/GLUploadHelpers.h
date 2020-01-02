@@ -518,7 +518,7 @@ gfx
 :
 :
 SurfaceFormat
-UploadSurfaceToTexture
+DeprecatedUploadSurfaceToTexture
 (
 GLContext
 *
