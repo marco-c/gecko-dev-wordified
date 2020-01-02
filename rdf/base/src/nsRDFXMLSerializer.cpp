@@ -6285,6 +6285,12 @@ aParent
 }
 private
 :
+~
+QNameCollector
+(
+)
+{
+}
 nsRDFXMLSerializer
 *
 mParent

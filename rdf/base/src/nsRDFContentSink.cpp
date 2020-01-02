@@ -700,12 +700,6 @@ RDFContentSinkImpl
 (
 )
 ;
-virtual
-~
-RDFContentSinkImpl
-(
-)
-;
 /
 /
 nsISupports
@@ -912,6 +906,12 @@ ContainerInfo
 ;
 protected
 :
+virtual
+~
+RDFContentSinkImpl
+(
+)
+;
 /
 /
 Text
