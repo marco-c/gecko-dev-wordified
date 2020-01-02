@@ -1929,7 +1929,7 @@ pc
 sc
 -
 >
-bindingsAccessedDynamically
+allLocalsAliased
 (
 )
 &
