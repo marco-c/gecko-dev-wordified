@@ -1461,7 +1461,8 @@ approximate
 stream
 latency
 in
-ms
+frames
+.
 retval
 CUBEB_OK
 retval
