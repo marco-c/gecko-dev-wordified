@@ -794,6 +794,13 @@ autoconfigSb
 ref
 (
 )
+/
+*
+returnStringOnly
+=
+*
+/
+false
 &
 v
 )
