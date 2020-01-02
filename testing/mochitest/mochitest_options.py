@@ -4152,24 +4152,6 @@ specified
 "
 )
         
-if
-options
-.
-profilePath
-is
-None
-:
-            
-options
-.
-profilePath
-=
-tempfile
-.
-mkdtemp
-(
-)
-        
 #
 allow
 relative
