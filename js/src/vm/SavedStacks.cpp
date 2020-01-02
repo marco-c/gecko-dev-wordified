@@ -2795,6 +2795,16 @@ filename
 (
 )
 ;
+if
+(
+!
+filename
+)
+filename
+=
+"
+"
+;
 RootedAtom
 source
 (
