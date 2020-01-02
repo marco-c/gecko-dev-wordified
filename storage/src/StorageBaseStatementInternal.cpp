@@ -1302,6 +1302,7 @@ execute
 (
 stmts
 mDBConnection
+mNativeConnection
 aCallback
 _stmt
 )
