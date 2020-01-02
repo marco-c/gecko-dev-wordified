@@ -2545,7 +2545,7 @@ the
 case
 /
 /
-ASSERT
+JS_ASSERT
 (
 JSReturnReg_Type
 .

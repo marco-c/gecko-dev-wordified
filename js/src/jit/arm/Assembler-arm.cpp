@@ -7552,7 +7552,7 @@ for
 d16
 -
 d31
-ASSERT
+JS_ASSERT
 (
 _code
 <
@@ -7623,7 +7623,7 @@ for
 d16
 -
 d31
-ASSERT
+JS_ASSERT
 (
 _code
 <
