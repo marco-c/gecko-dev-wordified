@@ -1061,6 +1061,8 @@ kOSVersion
 hasWebGL
 :
 function
+(
+)
 {
 return
 kHasWebGL
