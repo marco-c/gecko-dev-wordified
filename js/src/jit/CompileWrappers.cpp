@@ -778,7 +778,6 @@ allocKind
 )
 {
 return
-&
 zone
 (
 )
@@ -794,7 +793,9 @@ allocKind
 )
 -
 >
-first
+addressOfFirst
+(
+)
 ;
 }
 const
@@ -813,7 +814,6 @@ allocKind
 )
 {
 return
-&
 zone
 (
 )
@@ -829,7 +829,9 @@ allocKind
 )
 -
 >
-last
+addressOfLast
+(
+)
 ;
 }
 JSCompartment
