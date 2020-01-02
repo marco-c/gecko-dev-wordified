@@ -1240,8 +1240,8 @@ aFrameMetrics
 ;
 protected
 :
-float
-mOldViewportWidth
+CSSSize
+mOldViewportSize
 ;
 bool
 mContentDocumentIsDisplayed
