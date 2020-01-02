@@ -3501,8 +3501,11 @@ switchToTabHavingURI
 (
 preferencesURL
 true
-undefined
+{
+ignoreFragment
+:
 true
+}
 )
 ;
 let
