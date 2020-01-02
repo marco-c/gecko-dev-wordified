@@ -248,6 +248,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 GLContext
 .
 h
@@ -2922,7 +2929,13 @@ char
 *
 )
 vaddr
+gfx
+:
+:
+ThebesIntSize
+(
 size
+)
 byteStride
 format
 )
