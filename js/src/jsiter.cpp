@@ -9774,9 +9774,7 @@ runtime
 )
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putWholeCell
 (

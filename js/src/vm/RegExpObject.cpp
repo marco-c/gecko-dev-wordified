@@ -4594,9 +4594,7 @@ gcNumberWhenUsed
 rt
 -
 >
-gc
-.
-startNumber
+gcStartNumber
 )
 {
 js_delete

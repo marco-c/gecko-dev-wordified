@@ -8378,9 +8378,7 @@ UnbarrieredMap
 rt
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putGeneric
 (
@@ -8439,9 +8437,7 @@ UnbarrieredSet
 rt
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putGeneric
 (

@@ -364,9 +364,7 @@ gcNumber
 rt
 -
 >
-gc
-.
-number
+gcNumber
 )
 {
 clear
@@ -374,9 +372,7 @@ clear
 rt
 -
 >
-gc
-.
-number
+gcNumber
 )
 ;
 return

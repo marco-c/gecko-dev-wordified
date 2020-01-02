@@ -10597,9 +10597,7 @@ runtime
 )
 -
 >
-gc
-.
-incrementalState
+gcIncrementalState
 =
 =
 gc
@@ -18254,9 +18252,7 @@ MarkValueUnbarriered
 rt
 -
 >
-gc
-.
-marker
+gcMarker
 vp
 "
 write
@@ -18289,9 +18285,7 @@ MarkShapeUnbarriered
 rt
 -
 >
-gc
-.
-marker
+gcMarker
 shapep
 "
 write

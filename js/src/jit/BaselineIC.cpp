@@ -5548,9 +5548,7 @@ runtime
 )
 -
 >
-gc
-.
-nursery
+gcNursery
 ;
 Label
 skipBarrier
@@ -22680,9 +22678,7 @@ runtime
 )
 -
 >
-gc
-.
-nursery
+gcNursery
 .
 isInside
 (
@@ -22698,9 +22694,7 @@ runtime
 )
 -
 >
-gc
-.
-nursery
+gcNursery
 .
 isInside
 (
@@ -23495,9 +23489,7 @@ runtime
 )
 -
 >
-gc
-.
-nursery
+gcNursery
 .
 isInside
 (
@@ -23513,9 +23505,7 @@ runtime
 )
 -
 >
-gc
-.
-nursery
+gcNursery
 .
 isInside
 (

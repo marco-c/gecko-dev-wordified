@@ -3076,9 +3076,7 @@ runtime
 )
 -
 >
-gc
-.
-nursery
+gcNursery
 .
 isEmpty
 (
