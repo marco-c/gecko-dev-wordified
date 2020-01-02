@@ -100,12 +100,12 @@ int8_t
 int16_t
 ;
 *
-3
+4
 -
 int32_t
 ;
 *
-4
+8
 -
 int64_t
 ;
@@ -518,7 +518,7 @@ a
 key
 that
 says
-lenght
+length
 unknown
 }
 void
