@@ -428,7 +428,7 @@ top
 textureClient
 -
 >
-WaitForBufferOwnership
+WaitReleaseFence
 (
 )
 ;
