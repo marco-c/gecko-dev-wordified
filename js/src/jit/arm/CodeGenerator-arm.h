@@ -822,6 +822,15 @@ ins
 ;
 virtual
 bool
+visitNotF
+(
+LNotF
+*
+ins
+)
+;
+virtual
+bool
 visitMathD
 (
 LMathD
