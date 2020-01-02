@@ -944,7 +944,7 @@ dep
 startswith
 (
 "
-icudt
+icu
 "
 )
 :
