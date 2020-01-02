@@ -5317,7 +5317,7 @@ if
 !
 this
 .
-browser
+window
 )
 {
 /
@@ -5397,7 +5397,7 @@ if
 !
 this
 .
-browser
+window
 )
 {
 /
