@@ -9058,7 +9058,7 @@ MachineState
 machine
 )
 :
-SnapshotReader
+snapshot_
 (
 ionScript
 -
@@ -9117,7 +9117,7 @@ IonFrameIterator
 iter
 )
 :
-SnapshotReader
+snapshot_
 (
 iter
 .
@@ -9193,7 +9193,7 @@ SnapshotIterator
 (
 )
 :
-SnapshotReader
+snapshot_
 (
 nullptr
 0
