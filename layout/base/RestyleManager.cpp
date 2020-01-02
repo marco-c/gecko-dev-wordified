@@ -16737,7 +16737,7 @@ nsCSSPseudoElements
 :
 PseudoElementSupportsStyleAttribute
 (
-pseudoTag
+pseudoType
 )
 |
 |
@@ -16746,7 +16746,7 @@ nsCSSPseudoElements
 :
 PseudoElementSupportsUserActionState
 (
-pseudoTag
+pseudoType
 )
 ?
 aSelf
