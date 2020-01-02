@@ -2248,7 +2248,7 @@ types
 :
 TypeObject
 *
-getLazyType
+getSingletonType
 (
 const
 Class
