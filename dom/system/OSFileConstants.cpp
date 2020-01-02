@@ -4299,7 +4299,12 @@ cx
 aObject
 aProperty
 nullptr
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 JSPROP_ENUMERATE
 )
 ;

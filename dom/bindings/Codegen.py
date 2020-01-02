@@ -39278,8 +39278,6 @@ index
 }
 tmp
                                       
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -53917,18 +53915,18 @@ value
                                        
 desc
 .
+attributes
+(
+)
+                                       
+desc
+.
 getter
 (
 )
 desc
 .
 setter
-(
-)
-                                       
-desc
-.
-attributes
 (
 )
 )
@@ -69149,18 +69147,18 @@ value
                                          
 objDesc
 .
+attributes
+(
+)
+                                         
+objDesc
+.
 getter
 (
 )
 objDesc
 .
 setter
-(
-)
-                                         
-objDesc
-.
-attributes
 (
 )
 )
@@ -83813,8 +83811,6 @@ atomsCache
 %
 s
 temp
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 '

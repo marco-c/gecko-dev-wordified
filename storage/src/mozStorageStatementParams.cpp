@@ -1094,9 +1094,10 @@ JS_DefineElement
 aCtx
 scope
 idx
-JSVAL_VOID
-nullptr
-nullptr
+JS
+:
+:
+UndefinedHandleValue
 JSPROP_ENUMERATE
 )
 ;
@@ -1214,9 +1215,10 @@ JS_DefinePropertyById
 aCtx
 scope
 id
-JSVAL_VOID
-nullptr
-nullptr
+JS
+:
+:
+UndefinedHandleValue
 JSPROP_ENUMERATE
 )
 ;

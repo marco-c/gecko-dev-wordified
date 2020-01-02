@@ -919,15 +919,7 @@ JS_DefineElement
 aCx
 array
 i
-JS
-:
-:
-StringValue
-(
 str
-)
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -1218,8 +1210,6 @@ aCx
 array
 i
 value
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )

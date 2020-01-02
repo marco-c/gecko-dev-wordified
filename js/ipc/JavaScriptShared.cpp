@@ -2677,8 +2677,6 @@ Length
 (
 )
 v
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
