@@ -331,9 +331,9 @@ value
 or
 the
 magic
-value
 *
-JS_FORWARD_TO_CALL_OBJECT
+forwarding
+value
 .
 The
 latter
@@ -380,8 +380,8 @@ the
 arguments
 object
 should
-*
 load
+*
 the
 value
 out
@@ -394,7 +394,6 @@ is
 pointed
 to
 by
-*
 MAYBE_CALL_SLOT
 )
 .
@@ -1524,7 +1523,10 @@ when
 the
 value
 is
-JS_FORWARD_TO_CALL_OBJECT
+the
+magic
+forwarding
+value
 ;
 *
 -
@@ -1546,7 +1548,10 @@ the
 value
 is
 not
-JS_FORWARD_TO_CALL_OBJECT
+the
+magic
+forwarding
+value
 (
 since
 if
@@ -1561,6 +1566,7 @@ should
 have
 emitted
 JSOP_GETALIASEDVAR
+)
 .
 *
 /
@@ -1633,7 +1639,6 @@ v
 .
 isMagic
 (
-JS_FORWARD_TO_CALL_OBJECT
 )
 )
 ;
@@ -1685,7 +1690,6 @@ lhs
 .
 isMagic
 (
-JS_FORWARD_TO_CALL_OBJECT
 )
 )
 ;
