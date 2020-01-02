@@ -140,6 +140,8 @@ emit
 true
 )
 ;
+/
+/
 Services
 .
 prefs
@@ -344,6 +346,8 @@ registerCleanupFunction
 =
 >
 {
+/
+/
 Services
 .
 prefs
@@ -612,7 +616,7 @@ inspector
 .
 sidebar
 .
-getTab
+getWindowForTab
 (
 name
 )
