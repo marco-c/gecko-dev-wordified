@@ -2743,9 +2743,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-if
-(
-!
 queue
 -
 >
@@ -2753,9 +2750,6 @@ PutEvent
 (
 event
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 nsCOMPtr

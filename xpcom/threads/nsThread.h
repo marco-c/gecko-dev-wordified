@@ -511,7 +511,7 @@ event
 )
 ;
 }
-bool
+void
 PutEvent
 (
 nsIRunnable
@@ -519,7 +519,6 @@ nsIRunnable
 event
 )
 {
-return
 mQueue
 .
 PutEvent
