@@ -859,6 +859,15 @@ cleanup
 "
 "
         
+manifest
+=
+self
+.
+build_profile
+(
+options
+)
+        
 self
 .
 leak_report_file
@@ -877,15 +886,6 @@ runtests_leaks
 .
 log
 "
-)
-        
-manifest
-=
-self
-.
-build_profile
-(
-options
 )
         
 if

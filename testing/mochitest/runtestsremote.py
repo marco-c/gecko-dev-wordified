@@ -2823,11 +2823,7 @@ options
 .
 profilePath
 =
-tempfile
-.
-mkdtemp
-(
-)
+None
         
 def
 fixup
@@ -5888,11 +5884,7 @@ options
 .
 profilePath
 =
-tempfile
-.
-mkdtemp
-(
-)
+None
                 
 mochitest
 .

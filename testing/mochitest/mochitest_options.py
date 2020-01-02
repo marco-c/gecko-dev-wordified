@@ -4188,6 +4188,12 @@ options
 xrePath
 )
         
+if
+options
+.
+profilePath
+:
+            
 options
 .
 profilePath
