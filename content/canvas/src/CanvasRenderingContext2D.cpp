@@ -1071,6 +1071,9 @@ aEndRadius
 CanvasGradient
 (
 aContext
+Type
+:
+:
 RADIAL
 )
 mCenter1
@@ -1131,6 +1134,9 @@ aEnd
 CanvasGradient
 (
 aContext
+Type
+:
+:
 LINEAR
 )
 mBegin
