@@ -311,6 +311,9 @@ for
 controlled
 *
 /
+UCHAR
+controlling_conflict_resolved
+;
 UINT8
 tiebreaker
 ;
@@ -568,6 +571,14 @@ pctx
 nr_ice_candidate
 *
 cand
+)
+;
+void
+nr_ice_peer_ctx_switch_controlling_role
+(
+nr_ice_peer_ctx
+*
+pctx
 )
 ;
 #
