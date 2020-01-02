@@ -17051,8 +17051,11 @@ NS_OK
 }
 /
 *
-void
-getDebugObject
+[
+implicit_jscontext
+]
+jsval
+getJSTestingFunctions
 (
 )
 ;
