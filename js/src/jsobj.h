@@ -6087,7 +6087,7 @@ FreeOp
 fop
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 finalize
 (
@@ -9140,7 +9140,7 @@ overload
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 operator
 =
@@ -9166,7 +9166,7 @@ rhs
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 operator
 !
@@ -11259,7 +11259,7 @@ functions
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSObject
 *
 ToObject
@@ -11307,7 +11307,7 @@ objects
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSObject
 *
 ToObjectFromStack

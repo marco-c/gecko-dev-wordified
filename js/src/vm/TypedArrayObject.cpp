@@ -809,7 +809,7 @@ size
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsArrayBuffer
 (
@@ -841,7 +841,7 @@ class_
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ArrayBufferObject
 :

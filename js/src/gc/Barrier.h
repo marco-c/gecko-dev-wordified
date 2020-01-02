@@ -1812,7 +1812,7 @@ Cell
 {
 public
 :
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :
@@ -1829,7 +1829,7 @@ tenuredZone
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :
@@ -1861,7 +1861,7 @@ zone
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :
@@ -1878,7 +1878,7 @@ tenuredZoneFromAnyThread
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :
@@ -1911,7 +1911,7 @@ zoneFromAnyThread
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 readBarrier
 (
@@ -2025,7 +2025,7 @@ thing
 endif
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 needWriteBarrierPre
 (
@@ -2069,7 +2069,7 @@ false
 endif
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isNullLike
 (
@@ -2084,7 +2084,7 @@ thing
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 writeBarrierPre
 (
@@ -2378,7 +2378,7 @@ tenuredZone
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :
@@ -2550,7 +2550,7 @@ tenuredZoneFromAnyThread
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :

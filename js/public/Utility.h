@@ -600,7 +600,7 @@ define
 JS_OOM_BACKTRACE_SIZE
 32
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 PrintBacktrace
 (
@@ -3092,7 +3092,7 @@ JS_DECLARE_NEW_METHODS
 js_new
 js_malloc
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 )
 template
 <
@@ -3100,7 +3100,7 @@ class
 T
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 js_delete
 (
@@ -3135,7 +3135,7 @@ class
 T
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 js_delete_poison
 (
@@ -3180,7 +3180,7 @@ class
 T
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 T
 *
 js_pod_malloc
@@ -3207,7 +3207,7 @@ class
 T
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 T
 *
 js_pod_calloc
@@ -3234,7 +3234,7 @@ class
 T
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 T
 *
 js_pod_malloc
@@ -3289,7 +3289,7 @@ class
 T
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 T
 *
 js_pod_calloc

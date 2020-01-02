@@ -26124,7 +26124,7 @@ true
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 CallResolveOp
 (
@@ -26562,7 +26562,7 @@ AllowGC
 allowGC
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 LookupOwnPropertyWithFlagsInline
 (
@@ -26973,7 +26973,7 @@ AllowGC
 allowGC
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 LookupPropertyWithFlagsInline
 (
@@ -28377,7 +28377,7 @@ AllowGC
 allowGC
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 NativeGetInline
 (
@@ -29265,7 +29265,7 @@ AllowGC
 allowGC
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 GetPropertyHelperInline
 (
@@ -30182,7 +30182,7 @@ vp
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 LookupPropertyPureInline
 (
@@ -30388,7 +30388,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 NativeGetPureInline
 (
@@ -31003,7 +31003,7 @@ vp
 }
 static
 bool
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 GetElementPure
 (
 ThreadSafeContext

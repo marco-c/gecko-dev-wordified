@@ -5932,7 +5932,7 @@ false
 #
 if
 JS_HAS_TOSOURCE
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsArray
 (
@@ -5962,7 +5962,7 @@ ArrayObject
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 array_toSource_impl
 (
@@ -20513,7 +20513,7 @@ bool
 allocateCapacity
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 ArrayObject
 *
 NewArray

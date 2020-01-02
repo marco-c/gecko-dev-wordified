@@ -1332,7 +1332,7 @@ argv_
 =
 argc
 )
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 CallJSNative
 (
@@ -1438,7 +1438,7 @@ argv_
 =
 argc
 )
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 CallNativeImpl
 (
@@ -1528,7 +1528,7 @@ argv_
 =
 argc
 )
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 CallJSNativeConstructor
 (
@@ -1840,7 +1840,7 @@ return
 true
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 CallJSPropertyOp
 (
@@ -1897,7 +1897,7 @@ return
 ok
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 CallJSPropertyOpSetter
 (

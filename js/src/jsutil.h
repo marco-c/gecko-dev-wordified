@@ -158,7 +158,7 @@ Utility
 h
 "
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 *
 js_memcpy
@@ -791,7 +791,7 @@ T
 class
 U
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 T
 &
 ImplicitCast
@@ -973,7 +973,7 @@ alignment
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 size_t
 UnsignedPtrDiff
 (

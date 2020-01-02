@@ -2747,7 +2747,7 @@ valueOf
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSString
 *
 ThisToStringForStringProto
@@ -2986,7 +2986,7 @@ return
 str
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsString
 (
@@ -3130,7 +3130,7 @@ return
 true
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 str_toSource_impl
 (
@@ -3320,7 +3320,7 @@ endif
 JS_HAS_TOSOURCE
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 str_toString_impl
 (
@@ -3444,7 +3444,7 @@ methods
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ValueToIntegerRange
 (
@@ -5996,7 +5996,7 @@ uint32_t
 Extent
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Extent
 computeExtent
 (
@@ -6021,7 +6021,7 @@ jschar
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 match
 (
@@ -6061,7 +6061,7 @@ jschar
 Extent
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Extent
 computeExtent
 (
@@ -6080,7 +6080,7 @@ patlen
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 match
 (
@@ -6679,7 +6679,7 @@ return
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 int
 StringMatch
 (

@@ -1749,7 +1749,7 @@ visit
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 insertIntoFixupList
 (
@@ -2844,7 +2844,7 @@ count
 }
 }
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 js
 :
@@ -2976,7 +2976,7 @@ dynEnd
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 js
 :
@@ -3006,7 +3006,7 @@ nslots
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 js
 :
@@ -3046,7 +3046,7 @@ vp
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 js
 :

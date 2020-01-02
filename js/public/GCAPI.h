@@ -2628,7 +2628,7 @@ black
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 ExposeGCThingToActiveJS
 (
@@ -2766,7 +2766,7 @@ kind
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 ExposeValueToActiveJS
 (
@@ -2800,7 +2800,7 @@ gcKind
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 ExposeObjectToActiveJS
 (
@@ -2833,7 +2833,7 @@ black
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 MarkGCThingAsLive
 (
@@ -2925,7 +2925,7 @@ kind
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 MarkStringAsLive
 (

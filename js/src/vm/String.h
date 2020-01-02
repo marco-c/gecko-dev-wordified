@@ -2118,7 +2118,7 @@ length
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 size_t
 length
 (
@@ -2134,7 +2134,7 @@ lengthAndFlags
 LENGTH_SHIFT
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 empty
 (
@@ -2490,7 +2490,7 @@ checked
 casts
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isRope
 (
@@ -2510,7 +2510,7 @@ FLAGS_MASK
 ROPE_FLAGS
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSRope
 &
 asRope
@@ -2534,7 +2534,7 @@ JSRope
 this
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isLinear
 (
@@ -2548,7 +2548,7 @@ isRope
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSLinearString
 &
 asLinear
@@ -2575,7 +2575,7 @@ JSLinearString
 this
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isDependent
 (
@@ -2595,7 +2595,7 @@ FLAGS_MASK
 DEPENDENT_FLAGS
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSDependentString
 &
 asDependent
@@ -2619,7 +2619,7 @@ JSDependentString
 this
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isFlat
 (
@@ -2638,7 +2638,7 @@ isDependent
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSFlatString
 &
 asFlat
@@ -2662,7 +2662,7 @@ JSFlatString
 this
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isExtensible
 (
@@ -2682,7 +2682,7 @@ FLAGS_MASK
 EXTENSIBLE_FLAGS
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSExtensibleString
 &
 asExtensible
@@ -2706,7 +2706,7 @@ JSExtensibleString
 this
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isInline
 (
@@ -2739,7 +2739,7 @@ inlineStorage
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSInlineString
 &
 asInline
@@ -2769,7 +2769,7 @@ isShort
 )
 const
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSStableString
 &
 asStable
@@ -2812,7 +2812,7 @@ isExternal
 )
 const
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSExternalString
 &
 asExternal
@@ -2836,7 +2836,7 @@ JSExternalString
 this
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isUndepended
 (
@@ -2856,7 +2856,7 @@ FLAGS_MASK
 UNDEPENDED_FLAGS
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isAtom
 (
@@ -2873,7 +2873,7 @@ ATOM_BIT
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSAtom
 &
 asAtom
@@ -3509,7 +3509,7 @@ MOZ_DELETE
 ;
 public
 :
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const
 jschar
 *
@@ -3767,7 +3767,7 @@ const
 ;
 public
 :
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const
 jschar
 *
@@ -3964,7 +3964,7 @@ place
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSAtom
 *
 morphAtomizedStringIntoAtom
@@ -4065,7 +4065,7 @@ size_t
 length
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :
@@ -4103,7 +4103,7 @@ length
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :
@@ -4622,7 +4622,7 @@ MOZ_DELETE
 ;
 public
 :
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 size_t
 capacity
 (
@@ -4967,7 +4967,7 @@ kind
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 finalize
 (
@@ -6355,7 +6355,7 @@ JSString
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 jsid
 NameToId
 (
@@ -6477,7 +6477,7 @@ getChars
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const
 jschar
 *
@@ -6517,7 +6517,7 @@ return
 nullptr
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 JSString
 :
@@ -6726,7 +6726,7 @@ return
 true
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const
 jschar
 *
@@ -6766,7 +6766,7 @@ return
 nullptr
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const
 jschar
 *
@@ -6795,7 +6795,7 @@ chars
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const
 jschar
 *
@@ -6824,7 +6824,7 @@ charsZ
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 JSString
 :
@@ -6869,7 +6869,7 @@ out
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 JSString
 :
@@ -6931,7 +6931,7 @@ out
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSLinearString
 *
 JSString
@@ -6967,7 +6967,7 @@ cx
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSFlatString
 *
 JSString
@@ -7016,7 +7016,7 @@ cx
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSStableString
 *
 JSString

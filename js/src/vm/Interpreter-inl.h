@@ -909,7 +909,7 @@ stack
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSObject
 *
 ValuePropertyBearer
@@ -2148,7 +2148,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 NegOperation
 (
@@ -2284,7 +2284,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToIdOperation
 (
@@ -2380,7 +2380,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 GetObjectElementOperation
 (
@@ -2786,7 +2786,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 GetElemOptimizedArguments
 (
@@ -2932,7 +2932,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 GetElementOperation
 (
@@ -3084,7 +3084,7 @@ res
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSString
 *
 TypeOfOperation
@@ -3157,7 +3157,7 @@ atomState
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 InitElemOperation
 (
@@ -3223,7 +3223,7 @@ JSPROP_ENUMERATE
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 InitArrayElemOperation
 (
@@ -3656,7 +3656,7 @@ true
 \
 JS_END_MACRO
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 LessThanOperation
 (
@@ -3679,7 +3679,7 @@ RELATIONAL_OP
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 LessThanOrEqualOperation
 (
@@ -3703,7 +3703,7 @@ RELATIONAL_OP
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 GreaterThanOperation
 (
@@ -3726,7 +3726,7 @@ RELATIONAL_OP
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 GreaterThanOrEqualOperation
 (
@@ -3750,7 +3750,7 @@ RELATIONAL_OP
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 BitNot
 (
@@ -3792,7 +3792,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 BitXor
 (
@@ -3848,7 +3848,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 BitOr
 (
@@ -3904,7 +3904,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 BitAnd
 (
@@ -3960,7 +3960,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 BitLsh
 (
@@ -4024,7 +4024,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 BitRsh
 (
@@ -4085,7 +4085,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 UrshOperation
 (

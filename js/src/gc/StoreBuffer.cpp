@@ -180,7 +180,7 @@ SlotEdge
 *
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 HeapSlot
 *
 StoreBuffer
@@ -261,7 +261,7 @@ offset
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 *
 StoreBuffer
@@ -306,7 +306,7 @@ toGCThing
 nullptr
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 *
 StoreBuffer
@@ -366,7 +366,7 @@ deref
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 StoreBuffer
 :

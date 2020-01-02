@@ -299,7 +299,7 @@ pointer
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 Debug_SetValueRangeToCrashOnTouch
 (
@@ -351,7 +351,7 @@ JSObject
 endif
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 Debug_SetValueRangeToCrashOnTouch
 (
@@ -377,7 +377,7 @@ len
 endif
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 Debug_SetValueRangeToCrashOnTouch
 (
@@ -9616,7 +9616,7 @@ gc
 template
 <
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Zone
 *
 BarrieredCell
@@ -9677,7 +9677,7 @@ zone
 template
 <
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Zone
 *
 BarrieredCell

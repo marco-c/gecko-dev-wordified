@@ -5028,7 +5028,7 @@ JS_FS_END
 }
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSString
 *
 NewUCString
@@ -5093,7 +5093,7 @@ of
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 size_t
 Align
 (
@@ -9396,7 +9396,7 @@ struct
 ConvertImpl
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 TargetType
 Convert
 (
@@ -9459,7 +9459,7 @@ double
 >
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uint64_t
 Convert
 (
@@ -9574,7 +9574,7 @@ double
 >
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uint64_t
 Convert
 (
@@ -9609,7 +9609,7 @@ double
 >
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 int64_t
 Convert
 (
@@ -9643,7 +9643,7 @@ class
 FromType
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 TargetType
 Convert
 (
@@ -9673,7 +9673,7 @@ class
 FromType
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsAlwaysExact
 (
@@ -9917,7 +9917,7 @@ struct
 IsExactImpl
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Test
 (
@@ -9978,7 +9978,7 @@ true
 >
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Test
 (
@@ -10045,7 +10045,7 @@ false
 >
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Test
 (
@@ -10124,7 +10124,7 @@ class
 FromType
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ConvertExact
 (
@@ -10274,7 +10274,7 @@ struct
 IsNegativeImpl
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Test
 (
@@ -10309,7 +10309,7 @@ true
 >
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 Test
 (
@@ -10342,7 +10342,7 @@ class
 Type
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsNegative
 (
@@ -37403,7 +37403,7 @@ result
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsEllipsis
 (

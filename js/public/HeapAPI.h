@@ -634,7 +634,7 @@ namespace
 gc
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uintptr_t
 *
 GetGCThingMarkBitmap
@@ -693,7 +693,7 @@ addr
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :
@@ -766,7 +766,7 @@ addr
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 GetGCThingMarkWordAndMask
 (
@@ -880,7 +880,7 @@ nbits
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :
@@ -933,7 +933,7 @@ addr
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsInsideNursery
 (
@@ -1005,7 +1005,7 @@ namespace
 JS
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Zone
 *
 GetGCThingZone
@@ -1037,7 +1037,7 @@ zone
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Zone
 *
 GetObjectZone
@@ -1055,7 +1055,7 @@ obj
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 GCThingIsMarkedGray
 (
@@ -1191,7 +1191,7 @@ mask
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsIncrementalBarrierNeededOnGCThing
 (

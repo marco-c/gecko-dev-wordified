@@ -4003,7 +4003,7 @@ JS_DECLARE_NEW_METHODS
 (
 new_
 malloc_
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 )
 }
 ;
@@ -11389,7 +11389,7 @@ removeActiveCompilation
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 MakeRangeGCSafe
 (
@@ -11411,7 +11411,7 @@ len
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 MakeRangeGCSafe
 (
@@ -11436,7 +11436,7 @@ beg
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 MakeRangeGCSafe
 (
@@ -11475,7 +11475,7 @@ INT_TO_JSID
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 MakeRangeGCSafe
 (
@@ -11496,7 +11496,7 @@ len
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 MakeRangeGCSafe
 (
@@ -11523,7 +11523,7 @@ beg
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 MakeRangeGCSafe
 (
@@ -11546,7 +11546,7 @@ len
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 SetValueRangeToUndefined
 (
@@ -11584,7 +11584,7 @@ setUndefined
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 SetValueRangeToUndefined
 (
@@ -11605,7 +11605,7 @@ len
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 SetValueRangeToNull
 (
@@ -11643,7 +11643,7 @@ setNull
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 SetValueRangeToNull
 (

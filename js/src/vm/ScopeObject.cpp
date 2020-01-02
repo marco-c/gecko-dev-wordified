@@ -10915,7 +10915,7 @@ singleton
 static
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 DebugScopes
 :
@@ -11245,7 +11245,7 @@ endif
 static
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 DebugScopes
 :
@@ -11308,7 +11308,7 @@ endif
 static
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 DebugScopes
 :

@@ -1041,7 +1041,7 @@ value
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToNumber
 (
@@ -1317,7 +1317,7 @@ namespace
 js
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ValueFitsInInt32
 (
@@ -1465,7 +1465,7 @@ method
 *
 /
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsDefinitelyIndex
 (
@@ -1904,7 +1904,7 @@ use
 ExclusiveContext
 directly
 .
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToNumber
 (
@@ -2101,7 +2101,7 @@ uint32_t
 out
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 NonObjectToUint32
 (

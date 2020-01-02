@@ -908,7 +908,7 @@ nullptr
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsNullTaggedPointer
 (

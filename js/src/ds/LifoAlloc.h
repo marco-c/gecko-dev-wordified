@@ -255,7 +255,7 @@ LIFO_ALLOC_ALIGN
 =
 8
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 char
 *
 AlignPtr
@@ -854,7 +854,7 @@ if
 not
 possible
 .
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 *
 tryAlloc
@@ -1610,7 +1610,7 @@ freeAll
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 *
 alloc
@@ -1668,7 +1668,7 @@ n
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 *
 allocInfallible
@@ -1768,7 +1768,7 @@ of
 N
 bytes
 .
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ensureUnusedApproximate
 (
@@ -2449,7 +2449,7 @@ template
 typename
 T
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 T
 *
 newPod
@@ -2477,7 +2477,7 @@ JS_DECLARE_NEW_METHODS
 (
 new_
 alloc
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 )
 /
 /

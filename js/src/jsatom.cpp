@@ -1640,7 +1640,7 @@ memory
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 static
 JSAtom
 *
@@ -1973,7 +1973,7 @@ string
 .
 *
 /
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 static
 JSAtom
 *

@@ -132,7 +132,7 @@ template
 typename
 T
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 CopyNonEmptyArray
 (
@@ -202,7 +202,7 @@ T
 typename
 Comparator
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 MergeArrayRuns
 (

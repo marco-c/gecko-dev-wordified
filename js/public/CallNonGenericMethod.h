@@ -898,7 +898,7 @@ Test
 NativeImpl
 Impl
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 CallNonGenericMethod
 (
@@ -945,7 +945,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 CallNonGenericMethod
 (

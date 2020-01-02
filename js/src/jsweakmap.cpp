@@ -743,7 +743,7 @@ toObject
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsWeakMap
 (
@@ -773,7 +773,7 @@ WeakMapObject
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 WeakMap_has_impl
 (
@@ -953,7 +953,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 WeakMap_clear_impl
 (
@@ -1082,7 +1082,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 WeakMap_get_impl
 (
@@ -1333,7 +1333,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 WeakMap_delete_impl
 (
@@ -1840,7 +1840,7 @@ key
 #
 endif
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 WeakMap_set_impl
 (

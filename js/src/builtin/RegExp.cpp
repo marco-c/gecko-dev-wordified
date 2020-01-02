@@ -2155,7 +2155,7 @@ return
 true
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsRegExp
 (
@@ -2185,7 +2185,7 @@ RegExpObject
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 regexp_compile_impl
 (
@@ -2411,7 +2411,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 regexp_toString_impl
 (
