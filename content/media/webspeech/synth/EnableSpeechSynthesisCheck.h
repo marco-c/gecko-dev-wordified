@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+mozilla_dom_EnableSpeechSynthesisCheck_h
+#
+define
+mozilla_dom_EnableSpeechSynthesisCheck_h
 namespace
 mozilla
 {
@@ -167,3 +170,5 @@ PrefEnabled
 ;
 }
 }
+#
+endif

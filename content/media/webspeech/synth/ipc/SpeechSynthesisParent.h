@@ -57,8 +57,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+mozilla_dom_SpeechSynthesisParent_h
+#
+define
+mozilla_dom_SpeechSynthesisParent_h
 #
 include
 "
@@ -390,3 +393,5 @@ dom
 /
 namespace
 mozilla
+#
+endif

@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+mozilla_dom_SpeechSynthesisUtterance_h
+#
+define
+mozilla_dom_SpeechSynthesisUtterance_h
 #
 include
 "
@@ -484,3 +487,5 @@ dom
 /
 namespace
 mozilla
+#
+endif

@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+nsPicoService_h
+#
+define
+nsPicoService_h
 #
 include
 "
@@ -364,3 +367,5 @@ dom
 /
 namespace
 mozilla
+#
+endif

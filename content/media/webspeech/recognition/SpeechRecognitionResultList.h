@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+mozilla_dom_SpeechRecognitionResultList_h
+#
+define
+mozilla_dom_SpeechRecognitionResultList_h
 #
 include
 "
@@ -299,3 +302,5 @@ dom
 /
 namespace
 mozilla
+#
+endif

@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+mozilla_dom_FakeSpeechRecognitionService_h
+#
+define
+mozilla_dom_FakeSpeechRecognitionService_h
 #
 include
 "
@@ -232,3 +235,5 @@ BuildMockResultList
 /
 namespace
 mozilla
+#
+endif
