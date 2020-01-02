@@ -803,10 +803,10 @@ str
 (
 e
 )
-)
 self
 .
 connection_lost_msg
+)
 )
                 
 else
