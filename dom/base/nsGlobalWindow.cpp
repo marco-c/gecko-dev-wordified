@@ -3273,6 +3273,10 @@ mMayHaveMouseEnterLeaveEventListener
 (
 false
 )
+mMayHavePointerEnterLeaveEventListener
+(
+false
+)
 mIsModalContentWindow
 (
 false
