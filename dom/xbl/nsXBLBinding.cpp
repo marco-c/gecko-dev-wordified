@@ -4373,10 +4373,10 @@ child
 aPoint
 -
 >
-mInsertedChildren
-[
+InsertedChild
+(
 i
-]
+)
 ;
 MOZ_ASSERT
 (
