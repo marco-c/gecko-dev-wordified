@@ -2709,9 +2709,9 @@ py
 program
 =
 [
-sys
+self
 .
-executable
+python_path
 setup
 ]
         
