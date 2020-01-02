@@ -322,6 +322,10 @@ IsValid
 ;
 }
 ;
+typedef
+int64_t
+Microseconds
+;
 class
 MP4Sample
 {
@@ -355,10 +359,10 @@ MediaBuffer
 *
 mMediaBuffer
 ;
-int64_t
+Microseconds
 composition_timestamp
 ;
-int64_t
+Microseconds
 duration
 ;
 int64_t
