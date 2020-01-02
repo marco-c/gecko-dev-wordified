@@ -486,13 +486,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsUnicodeScriptCodes
 .
 h

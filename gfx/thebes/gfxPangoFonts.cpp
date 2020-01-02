@@ -102,13 +102,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 prlink
 .
 h
