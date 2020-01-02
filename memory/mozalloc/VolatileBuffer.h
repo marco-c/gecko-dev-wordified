@@ -530,6 +530,7 @@ VolatileBufferPtr_base
 {
 public
 :
+explicit
 VolatileBufferPtr_base
 (
 VolatileBuffer
@@ -633,6 +634,7 @@ VolatileBufferPtr_base
 {
 public
 :
+explicit
 VolatileBufferPtr
 (
 VolatileBuffer
