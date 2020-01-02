@@ -4837,7 +4837,7 @@ Conversely
 Value
 :
 :
-asObject
+toObject
 returns
 a
 *
