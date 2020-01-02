@@ -576,30 +576,6 @@ include
 algorithm
 >
 #
-include
-"
-PowerWakeLock
-.
-h
-"
-#
-define
-LOG
-(
-args
-.
-.
-.
-)
-__android_log_print
-(
-ANDROID_LOG_INFO
-"
-Gonk
-"
-args
-)
-#
 define
 NsecPerMsec
 1000000LL
@@ -3751,10 +3727,6 @@ SetEnabled
 (
 aEnabled
 )
-;
-gPowerWakelock
-=
-nullptr
 ;
 sScreenEnabled
 =
@@ -8169,7 +8141,8 @@ if
 errno
 )
 {
-LOG
+HAL_LOG
+(
 (
 "
 Unable
@@ -8193,6 +8166,7 @@ bailing
 aPid
 errno
 )
+)
 ;
 return
 ;
@@ -8212,7 +8186,8 @@ if
 rv
 )
 {
-LOG
+HAL_LOG
+(
 (
 "
 Unable
@@ -8235,6 +8210,7 @@ bailing
 "
 aPid
 errno
+)
 )
 ;
 return
@@ -8360,7 +8336,8 @@ if
 tasksDir
 )
 {
-LOG
+HAL_LOG
+(
 (
 "
 Unable
@@ -8379,6 +8356,7 @@ bailing
 .
 "
 aPid
+)
 )
 ;
 return
@@ -8656,7 +8634,8 @@ if
 errno
 )
 {
-LOG
+HAL_LOG
+(
 (
 "
 Unable
@@ -8701,6 +8680,7 @@ condition
 tid
 aPid
 errno
+)
 )
 ;
 continue
@@ -8789,7 +8769,8 @@ if
 rv
 )
 {
-LOG
+HAL_LOG
+(
 (
 "
 Unable
@@ -8835,12 +8816,14 @@ tid
 aPid
 errno
 )
+)
 ;
 continue
 ;
 }
 }
-LOG
+HAL_LOG
+(
 (
 "
 Changed
@@ -8860,6 +8843,7 @@ d
 aPid
 origProcPriority
 aNice
+)
 )
 ;
 closedir
@@ -9216,7 +9200,8 @@ get
 }
 else
 {
-LOG
+HAL_ERR
+(
 (
 "
 Unable
@@ -9241,6 +9226,7 @@ up
 ProcessPriorityToString
 (
 aPriority
+)
 )
 )
 ;
@@ -9330,7 +9316,8 @@ nice
 }
 else
 {
-LOG
+HAL_ERR
+(
 (
 "
 Unable
@@ -9357,6 +9344,7 @@ ProcessPriorityToString
 aPriority
 )
 )
+)
 ;
 MOZ_ASSERT
 (
@@ -9376,7 +9364,8 @@ rv
 )
 )
 {
-LOG
+HAL_LOG
+(
 (
 "
 Setting
@@ -9391,6 +9380,7 @@ d
 "
 aPid
 nice
+)
 )
 ;
 SetNiceForPid
@@ -9461,7 +9451,8 @@ aThreadPriority
 0
 )
 ;
-LOG
+HAL_LOG
+(
 (
 "
 Setting
@@ -9486,6 +9477,7 @@ aThreadPriority
 )
 aValue
 )
+)
 ;
 int
 rv
@@ -9502,7 +9494,8 @@ if
 rv
 )
 {
-LOG
+HAL_LOG
+(
 (
 "
 Failed
@@ -9529,6 +9522,7 @@ aThreadPriority
 strerror
 (
 errno
+)
 )
 )
 ;
@@ -9590,7 +9584,8 @@ priorities
 requires
 using
 sched_setscheduler
-LOG
+HAL_LOG
+(
 (
 "
 Setting
@@ -9608,6 +9603,8 @@ Time
 priority
 %
 d
+"
+"
 Schedule
 FIFO
 "
@@ -9617,6 +9614,7 @@ ThreadPriorityToString
 aThreadPriority
 )
 aValue
+)
 )
 ;
 sched_param
@@ -9644,7 +9642,8 @@ if
 rv
 )
 {
-LOG
+HAL_LOG
+(
 (
 "
 Failed
@@ -9673,6 +9672,7 @@ aThreadPriority
 strerror
 (
 errno
+)
 )
 )
 ;
@@ -9764,7 +9764,8 @@ break
 ;
 default
 :
-LOG
+HAL_ERR
+(
 (
 "
 Unrecognized
@@ -9777,6 +9778,7 @@ Doing
 nothing
 "
 aThreadPriority
+)
 )
 ;
 return
@@ -10064,7 +10066,8 @@ break
 }
 default
 :
-LOG
+HAL_LOG
+(
 (
 "
 Unrecognized
@@ -10077,6 +10080,7 @@ Doing
 nothing
 "
 aThreadPriority
+)
 )
 ;
 return
