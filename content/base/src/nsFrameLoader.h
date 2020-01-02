@@ -623,6 +623,8 @@ nsFrameLoader
 aFrameLoader
 ViewID
 aScrollId
+bool
+aIsRoot
 ViewConfig
 aConfig
 =
@@ -661,6 +663,10 @@ mScrollId
 (
 aScrollId
 )
+mIsRoot
+(
+aIsRoot
+)
 mConfig
 (
 aConfig
@@ -672,7 +678,11 @@ IsRoot
 (
 )
 const
+{
+return
+mIsRoot
 ;
+}
 ViewID
 GetId
 (
@@ -725,6 +735,9 @@ aConfig
 ;
 ViewID
 mScrollId
+;
+bool
+mIsRoot
 ;
 ViewConfig
 mConfig
