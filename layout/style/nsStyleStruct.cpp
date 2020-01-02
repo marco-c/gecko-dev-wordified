@@ -10118,7 +10118,7 @@ nsStyleImage
 :
 SetImageData
 (
-imgIRequest
+imgRequestProxy
 *
 aImage
 )
