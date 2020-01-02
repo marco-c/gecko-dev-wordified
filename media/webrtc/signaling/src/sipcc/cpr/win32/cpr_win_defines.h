@@ -217,13 +217,6 @@ uint32_t
 bufferSize
 )
 ;
-uint16_t
-cprGetDepth
-(
-cprMsgQueue_t
-msgQueue
-)
-;
 void
 cprDisableSwap
 (
