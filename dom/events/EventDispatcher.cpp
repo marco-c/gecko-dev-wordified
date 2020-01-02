@@ -4398,7 +4398,7 @@ AsTouchEvent
 )
 ;
 case
-NS_TRANSITION_EVENT
+eTransitionEventClass
 :
 return
 NS_NewDOMTransitionEvent

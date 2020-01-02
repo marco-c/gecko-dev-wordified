@@ -1940,7 +1940,7 @@ WidgetEvent
 (
 aIsTrusted
 aMessage
-NS_TRANSITION_EVENT
+eTransitionEventClass
 )
 elapsedTime
 (
@@ -1970,7 +1970,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_TRANSITION_EVENT
+eTransitionEventClass
 "
 Duplicate
 (

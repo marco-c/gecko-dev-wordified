@@ -461,7 +461,7 @@ eClipboardEventClass
 /
 /
 InternalClipboardEvent
-NS_TRANSITION_EVENT
+eTransitionEventClass
 /
 /
 InternalTransitionEvent
