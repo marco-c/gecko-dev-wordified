@@ -7434,6 +7434,14 @@ aBuilder
 aLists
 )
 ;
+if
+(
+IsVisibleForPainting
+(
+aBuilder
+)
+)
+{
 aLists
 .
 BorderBackground
@@ -7464,6 +7472,7 @@ TYPE_COLUMN_RULE
 )
 )
 ;
+}
 /
 /
 Our
