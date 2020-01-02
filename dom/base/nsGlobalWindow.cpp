@@ -21526,6 +21526,13 @@ CreatePerformanceObjectIfNeeded
 (
 )
 {
+MOZ_ASSERT
+(
+IsInnerWindow
+(
+)
+)
+;
 if
 (
 mPerformance

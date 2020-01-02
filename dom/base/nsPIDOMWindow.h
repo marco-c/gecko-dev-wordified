@@ -3904,6 +3904,12 @@ creating
 performance
 objects
 .
+/
+/
+Inner
+windows
+only
+.
 void
 CreatePerformanceObjectIfNeeded
 (
