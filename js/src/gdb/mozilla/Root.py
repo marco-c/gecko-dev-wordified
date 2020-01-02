@@ -667,6 +667,27 @@ member
 '
 value
 '
+pretty_printer
+(
+"
+js
+:
+:
+BarrieredValue
+"
+)
+class
+BarrieredValue
+(
+Common
+)
+:
+    
+member
+=
+'
+value
+'
 #
 Return
 the
@@ -704,6 +725,7 @@ tag
         
 raise
 TypeError
+(
 "
 Can
 '
@@ -723,6 +745,7 @@ s
 root
 .
 type
+)
 )
     
 elif
