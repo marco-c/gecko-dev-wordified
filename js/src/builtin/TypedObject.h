@@ -4264,7 +4264,7 @@ const
 return
 getReservedSlot
 (
-JS_TYPEDOBJ_SLOT_BYTEOFFSET
+JS_BUFVIEW_SLOT_BYTEOFFSET
 )
 .
 toInt32
@@ -4282,7 +4282,7 @@ const
 return
 getReservedSlot
 (
-JS_TYPEDOBJ_SLOT_OWNER
+JS_BUFVIEW_SLOT_OWNER
 )
 .
 toObject
@@ -4348,7 +4348,7 @@ const
 return
 getReservedSlot
 (
-JS_TYPEDOBJ_SLOT_LENGTH
+JS_BUFVIEW_SLOT_LENGTH
 )
 .
 toInt32
