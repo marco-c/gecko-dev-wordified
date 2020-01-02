@@ -1093,7 +1093,10 @@ double
 d
 ;
 extern
+JS_PUBLIC_API
+(
 bool
+)
 ToNumberSlow
 (
 JSContext
@@ -1658,7 +1661,10 @@ toDouble
 else
 {
 extern
+JS_PUBLIC_API
+(
 bool
+)
 ToNumberSlow
 (
 JSContext
