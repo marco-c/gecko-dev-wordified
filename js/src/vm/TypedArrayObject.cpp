@@ -620,9 +620,9 @@ TypedArrayObject
 :
 neuter
 (
-JSContext
+void
 *
-cx
+newData
 )
 {
 setSlot
@@ -654,7 +654,7 @@ Int32Value
 ;
 setPrivate
 (
-nullptr
+newData
 )
 ;
 }
@@ -15652,6 +15652,9 @@ DataViewObject
 :
 neuter
 (
+void
+*
+newData
 )
 {
 setSlot
@@ -15674,7 +15677,7 @@ Int32Value
 ;
 setPrivate
 (
-nullptr
+newData
 )
 ;
 }
