@@ -1040,7 +1040,7 @@ for
 more
 info
 .
-void
+bool
 TransformRefPoint
 (
 const
