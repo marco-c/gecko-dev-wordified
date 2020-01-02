@@ -45126,7 +45126,16 @@ this
 clamp
 (
 maxScale
+(
+isNaN
+(
 minScale
+)
+?
+kViewportMinScale
+:
+minScale
+)
 kViewportMaxScale
 )
 ;
