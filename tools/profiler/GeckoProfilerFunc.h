@@ -274,6 +274,9 @@ void
 mozilla_sampler_responsiveness
 (
 const
+mozilla
+:
+:
 TimeStamp
 &
 time
@@ -449,6 +452,9 @@ double
 mozilla_sampler_time
 (
 const
+mozilla
+:
+:
 TimeStamp
 &
 aTime
