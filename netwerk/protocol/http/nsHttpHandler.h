@@ -671,15 +671,6 @@ mEnableSpdy
 ;
 }
 bool
-IsSpdyV2Enabled
-(
-)
-{
-return
-mSpdyV2
-;
-}
-bool
 IsSpdyV3Enabled
 (
 )
@@ -2207,9 +2198,6 @@ mSpdyInfo
 ;
 bool
 mEnableSpdy
-;
-bool
-mSpdyV2
 ;
 bool
 mSpdyV3
