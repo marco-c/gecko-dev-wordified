@@ -1755,12 +1755,16 @@ rh
 Telemetry
 .
 registeredHistograms
+(
+[
+]
+)
 ;
 for
 (
 let
 name
-in
+of
 rh
 )
 {
