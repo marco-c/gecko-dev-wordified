@@ -7979,6 +7979,13 @@ lwtheme
 [
 focused
 ]
+:
+not
+(
+[
+readonly
+]
+)
 .
 searchbar
 -
