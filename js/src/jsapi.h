@@ -29973,13 +29973,11 @@ JS_PUBLIC_API
 (
 bool
 )
-CreateError
+CreateTypeError
 (
 JSContext
 *
 cx
-JSExnType
-type
 HandleString
 stack
 HandleString
