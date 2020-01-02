@@ -901,7 +901,10 @@ errorObject
 bool
 usable
 =
-true
+!
+HasDecoderError
+(
+)
 ;
 if
 (
