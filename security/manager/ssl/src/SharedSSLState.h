@@ -245,12 +245,6 @@ NoteCertOverrideServiceInstantiated
 (
 )
 ;
-static
-void
-NoteCertDBServiceInstantiated
-(
-)
-;
 bool
 IsOCSPStaplingEnabled
 (
