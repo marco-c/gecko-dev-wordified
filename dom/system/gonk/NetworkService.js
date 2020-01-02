@@ -1587,7 +1587,7 @@ ip
 !
 network
 .
-netmask
+prefixLength
 )
 {
 if
@@ -1600,7 +1600,7 @@ debug
 Either
 ip
 or
-netmask
+prefixLength
 is
 null
 .
@@ -1634,11 +1634,11 @@ ip
 network
 .
 ip
-netmask
+prefixLength
 :
 network
 .
-netmask
+prefixLength
 }
 ;
 this
