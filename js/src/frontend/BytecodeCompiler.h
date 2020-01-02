@@ -415,6 +415,9 @@ MarkParser
 JSTracer
 *
 trc
+JS
+:
+:
 AutoGCRooter
 *
 parser

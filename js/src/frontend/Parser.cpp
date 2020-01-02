@@ -371,6 +371,12 @@ mozilla
 :
 Maybe
 ;
+using
+JS
+:
+:
+AutoGCRooter
+;
 namespace
 js
 {

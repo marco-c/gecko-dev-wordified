@@ -2016,6 +2016,12 @@ mozilla
 :
 Swap
 ;
+using
+JS
+:
+:
+AutoGCRooter
+;
 /
 *
 Perform

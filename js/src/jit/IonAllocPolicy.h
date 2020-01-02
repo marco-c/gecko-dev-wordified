@@ -421,6 +421,9 @@ class
 AutoTempAllocatorRooter
 :
 private
+JS
+:
+:
 AutoGCRooter
 {
 public
@@ -437,6 +440,9 @@ temp
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
+JS
+:
+:
 AutoGCRooter
 (
 cx
@@ -452,6 +458,9 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 }
 friend
 void
+JS
+:
+:
 AutoGCRooter
 :
 :
