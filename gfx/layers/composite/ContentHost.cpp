@@ -770,7 +770,7 @@ BeginTileIteration
 }
 if
 (
-mTextureHostOnWhite
+sourceOnWhite
 )
 {
 iterOnWhite
@@ -1415,10 +1415,6 @@ GetFlags
 TEXTURE_ON_WHITE
 )
 {
-mTextureHost
-=
-nullptr
-;
 mTextureHostOnWhite
 =
 aTexture
@@ -1436,10 +1432,6 @@ GetCompositor
 }
 else
 {
-mTextureHostOnWhite
-=
-nullptr
-;
 mTextureHost
 =
 aTexture
