@@ -840,6 +840,7 @@ char16_t
 (
 chars
 )
+length
 )
 ;
 #
