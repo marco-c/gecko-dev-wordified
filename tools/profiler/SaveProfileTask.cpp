@@ -103,7 +103,7 @@ h
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "

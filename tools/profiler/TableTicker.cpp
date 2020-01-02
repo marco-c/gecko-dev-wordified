@@ -118,7 +118,7 @@ sstream
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "
