@@ -2191,7 +2191,7 @@ and
 access
 must
 be
-sychronized
+synchronized
 via
 the
 runtime
