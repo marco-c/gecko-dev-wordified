@@ -119,13 +119,6 @@ nsServiceManagerUtils
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kCharsetConverterManagerCID
-NS_ICHARSETCONVERTERMANAGER_CID
-)
-;
 NS_IMETHODIMP
 nsISO2022KRToUnicode
 :
@@ -147,6 +140,13 @@ int32_t
 aDestLen
 )
 {
+static
+NS_DEFINE_CID
+(
+kCharsetConverterManagerCID
+NS_ICHARSETCONVERTERMANAGER_CID
+)
+;
 const
 unsigned
 char

@@ -137,13 +137,6 @@ Assertions
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kCharsetConverterManagerCID
-NS_ICHARSETCONVERTERMANAGER_CID
-)
-;
 #
 ifdef
 XP_OS2
@@ -2525,6 +2518,13 @@ int32_t
 aDestLen
 )
 {
+static
+NS_DEFINE_CID
+(
+kCharsetConverterManagerCID
+NS_ICHARSETCONVERTERMANAGER_CID
+)
+;
 static
 const
 uint16_t
