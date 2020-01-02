@@ -150,9 +150,6 @@ AnalyzeLsh
 TempAllocator
 &
 alloc
-MBasicBlock
-*
-block
 MLsh
 *
 lsh
@@ -693,7 +690,12 @@ replaceAllUsesWith
 eaddr
 )
 ;
+last
+-
+>
 block
+(
+)
 -
 >
 insertAfter
@@ -993,8 +995,6 @@ graph_
 alloc
 (
 )
-*
-block
 i
 -
 >
