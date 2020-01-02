@@ -1837,6 +1837,17 @@ mRedirectChannelId
 0
 ;
 }
+if
+(
+!
+redirectChannel
+)
+{
+succeeded
+=
+false
+;
+}
 nsCOMPtr
 <
 nsIParentRedirectingChannel
