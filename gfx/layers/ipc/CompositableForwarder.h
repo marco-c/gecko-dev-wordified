@@ -332,10 +332,6 @@ DeprecatedTextureClientShmem
 ;
 public
 :
-typedef
-gfxContentType
-gfxContentType
-;
 CompositableForwarder
 (
 )

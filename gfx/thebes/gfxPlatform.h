@@ -588,10 +588,6 @@ UNINITIALIZED_VALUE
 -
 1
 )
-typedef
-gfxImageFormat
-gfxImageFormat
-;
 inline
 const
 char

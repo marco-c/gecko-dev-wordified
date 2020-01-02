@@ -280,10 +280,6 @@ aImageFormat
 ;
 public
 :
-typedef
-gfxImageFormat
-gfxImageFormat
-;
 struct
 Header
 {
@@ -551,10 +547,6 @@ Image
 public
 ISharedImage
 {
-typedef
-gfxImageFormat
-gfxImageFormat
-;
 public
 :
 SharedRGBImage
