@@ -12623,6 +12623,15 @@ aDesiredStretchSize
 ascent
 ;
 }
+if
+(
+glyphFound
+)
+{
+return
+NS_OK
+;
+}
 /
 /
 stretchy
@@ -12827,10 +12836,6 @@ char
 .
 if
 (
-!
-glyphFound
-&
-&
 largeop
 )
 {
