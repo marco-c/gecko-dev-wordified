@@ -3454,15 +3454,6 @@ with_SetGenericAttributes
 with_DeleteProperty
 with_DeleteElement
 with_DeleteSpecial
-nullptr
-nullptr
-/
-*
-watch
-/
-unwatch
-*
-/
 with_Enumerate
 with_ThisObject
 }

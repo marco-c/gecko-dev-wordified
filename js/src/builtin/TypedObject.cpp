@@ -12282,13 +12282,6 @@ TypedDatum
 :
 :
 obj_deleteSpecial
-nullptr
-nullptr
-/
-/
-watch
-/
-unwatch
 TypedDatum
 :
 :
@@ -12754,13 +12747,6 @@ TypedDatum
 :
 :
 obj_deleteSpecial
-nullptr
-nullptr
-/
-/
-watch
-/
-unwatch
 TypedDatum
 :
 :
