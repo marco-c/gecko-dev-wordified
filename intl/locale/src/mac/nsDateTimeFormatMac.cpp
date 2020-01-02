@@ -1373,8 +1373,6 @@ UniChar
 >
 stringBuffer
 ;
-if
-(
 stringBuffer
 .
 SetLength
@@ -1383,8 +1381,7 @@ stringLen
 +
 1
 )
-)
-{
+;
 CFStringGetCharacters
 (
 formattedDate
@@ -1419,7 +1416,6 @@ Elements
 stringLen
 )
 ;
-}
 CFRelease
 (
 formattedDate
