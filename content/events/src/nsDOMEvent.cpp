@@ -3704,13 +3704,11 @@ InternalAnimationEvent
 *
 oldAnimationEvent
 =
-static_cast
-<
-InternalAnimationEvent
-*
->
-(
 mEvent
+-
+>
+AsAnimationEvent
+(
 )
 ;
 InternalAnimationEvent

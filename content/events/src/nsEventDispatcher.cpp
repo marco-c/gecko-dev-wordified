@@ -4390,13 +4390,11 @@ NS_NewDOMAnimationEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-InternalAnimationEvent
-*
->
-(
 aEvent
+-
+>
+AsAnimationEvent
+(
 )
 )
 ;
