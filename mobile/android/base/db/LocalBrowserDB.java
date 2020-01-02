@@ -427,6 +427,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 Utils
@@ -538,10 +549,6 @@ Log
 public
 class
 LocalBrowserDB
-implements
-BrowserDB
-.
-BrowserDBIface
 {
 /
 /
@@ -1051,7 +1058,6 @@ offset
 .
 *
 /
-Override
 public
 int
 addDefaultBookmarks
@@ -1740,7 +1746,6 @@ offset
 .
 *
 /
-Override
 public
 int
 addDistributionBookmarks
@@ -3244,7 +3249,6 @@ null
 Invalidate
 cached
 data
-Override
 public
 void
 invalidateCachedState
@@ -3949,7 +3953,6 @@ c
 )
 ;
 }
-Override
 public
 int
 getCount
@@ -4209,7 +4212,7 @@ return
 count
 ;
 }
-Override
+RobocopTarget
 public
 Cursor
 filter
@@ -4363,7 +4366,6 @@ selectionArgs
 )
 ;
 }
-Override
 public
 Cursor
 getTopSites
@@ -4537,7 +4539,6 @@ selectionArgs
 )
 ;
 }
-Override
 public
 void
 updateVisitedHistory
@@ -4635,7 +4636,6 @@ uri
 )
 ;
 }
-Override
 public
 void
 updateHistoryTitle
@@ -4690,7 +4690,6 @@ uri
 )
 ;
 }
-Override
 public
 void
 updateHistoryEntry
@@ -4862,7 +4861,7 @@ uri
 )
 ;
 }
-Override
+RobocopTarget
 public
 Cursor
 getAllVisitedHistory
@@ -4908,7 +4907,6 @@ c
 )
 ;
 }
-Override
 public
 Cursor
 getRecentHistory
@@ -4983,7 +4981,6 @@ c
 )
 ;
 }
-Override
 public
 void
 expireHistory
@@ -5033,7 +5030,6 @@ null
 )
 ;
 }
-Override
 public
 void
 removeHistoryEntry
@@ -5072,7 +5068,7 @@ id
 )
 ;
 }
-Override
+RobocopTarget
 public
 void
 removeHistoryEntry
@@ -5106,7 +5102,6 @@ url
 )
 ;
 }
-Override
 public
 void
 clearHistory
@@ -5125,7 +5120,7 @@ null
 )
 ;
 }
-Override
+RobocopTarget
 public
 Cursor
 getBookmarksInFolder
@@ -5472,7 +5467,6 @@ c
 )
 ;
 }
-Override
 public
 Cursor
 getReadingList
@@ -5720,7 +5714,6 @@ return
 mDesktopBookmarksExist
 ;
 }
-Override
 public
 int
 getReadingListCount
@@ -5784,7 +5777,7 @@ close
 }
 }
 }
-Override
+RobocopTarget
 public
 boolean
 isBookmark
@@ -5909,7 +5902,6 @@ return
 false
 ;
 }
-Override
 public
 boolean
 isReadingListItem
@@ -6064,7 +6056,6 @@ queries
 .
 *
 /
-Override
 public
 int
 getItemFlags
@@ -6153,7 +6144,6 @@ close
 ;
 }
 }
-Override
 public
 String
 getUrlForKeyword
@@ -6875,7 +6865,7 @@ time
 )
 ;
 }
-Override
+RobocopTarget
 public
 void
 addBookmark
@@ -6908,7 +6898,6 @@ folderId
 )
 ;
 }
-Override
 public
 void
 removeBookmark
@@ -6993,7 +6982,7 @@ idArgs
 )
 ;
 }
-Override
+RobocopTarget
 public
 void
 removeBookmarksWithURL
@@ -7086,7 +7075,6 @@ urlArgs
 )
 ;
 }
-Override
 public
 void
 addReadingListItem
@@ -7248,7 +7236,6 @@ time
 )
 ;
 }
-Override
 public
 void
 removeReadingListItemWithURL
@@ -7282,7 +7269,6 @@ uri
 )
 ;
 }
-Override
 public
 void
 removeReadingListItem
@@ -7321,7 +7307,6 @@ id
 )
 ;
 }
-Override
 public
 void
 registerBookmarkObserver
@@ -7342,7 +7327,6 @@ observer
 )
 ;
 }
-Override
 public
 void
 registerHistoryObserver
@@ -7363,7 +7347,7 @@ observer
 )
 ;
 }
-Override
+RobocopTarget
 public
 void
 updateBookmark
@@ -7548,7 +7532,6 @@ stored
 .
 *
 /
-Override
 public
 LoadFaviconResult
 getFaviconForUrl
@@ -7694,7 +7677,6 @@ b
 )
 ;
 }
-Override
 public
 String
 getFaviconUrlForHistoryUrl
@@ -7790,7 +7772,6 @@ return
 null
 ;
 }
-Override
 public
 void
 updateFaviconForUrl
@@ -7899,7 +7880,6 @@ faviconUri
 )
 ;
 }
-Override
 public
 void
 updateThumbnailForUrl
@@ -8103,7 +8083,7 @@ uri
 )
 ;
 }
-Override
+RobocopTarget
 public
 byte
 [
@@ -8292,7 +8272,6 @@ null
 .
 *
 /
-Override
 public
 Cursor
 getThumbnailsForUrls
@@ -8416,7 +8395,7 @@ null
 )
 ;
 }
-Override
+RobocopTarget
 public
 void
 removeThumbnails
@@ -9578,7 +9557,6 @@ mIndexOffset
 ;
 }
 }
-Override
 public
 int
 getCount
@@ -9595,7 +9573,6 @@ getCount
 mIndexOffset
 ;
 }
-Override
 public
 boolean
 moveToPosition
@@ -9631,7 +9608,6 @@ mIndexOffset
 )
 ;
 }
-Override
 public
 long
 getLong
@@ -9677,7 +9653,6 @@ return
 1
 ;
 }
-Override
 public
 int
 getInt
@@ -9741,7 +9716,6 @@ return
 1
 ;
 }
-Override
 public
 String
 getString
@@ -9930,7 +9904,6 @@ return
 columnName
 ;
 }
-Override
 public
 int
 getColumnIndex
@@ -9951,7 +9924,6 @@ columnName
 )
 ;
 }
-Override
 public
 int
 getColumnIndexOrThrow
@@ -9973,7 +9945,6 @@ columnName
 ;
 }
 }
-Override
 public
 void
 pinSite
@@ -10207,7 +10178,6 @@ FIXED_PINNED_LIST_ID
 )
 ;
 }
-Override
 public
 Cursor
 getPinnedSites
@@ -10278,7 +10248,6 @@ ASC
 )
 ;
 }
-Override
 public
 void
 unpinSite
@@ -10336,7 +10305,6 @@ position
 )
 ;
 }
-Override
 public
 void
 unpinAllSites
@@ -10376,7 +10344,6 @@ FIXED_PINNED_LIST_ID
 )
 ;
 }
-Override
 public
 boolean
 isVisited
@@ -10490,6 +10457,7 @@ count
 )
 ;
 }
+RobocopTarget
 public
 Cursor
 getBookmarkForUrl
