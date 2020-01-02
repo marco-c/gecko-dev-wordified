@@ -843,13 +843,10 @@ aEffects
 .
 mSecondaryEffects
 [
-size_t
-(
 EffectTypes
 :
 :
 MASK
-)
 ]
 =
 effect
