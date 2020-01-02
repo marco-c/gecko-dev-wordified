@@ -76,15 +76,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-DebugOnly
-.
-h
-"
-#
-include
 <
 stdint
 .
@@ -95,12 +86,6 @@ mozilla
 :
 :
 Atomic
-;
-using
-mozilla
-:
-:
-DebugOnly
 ;
 using
 mozilla
@@ -149,7 +134,7 @@ atomic
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -169,7 +154,7 @@ initialize
 Test
 atomic
 increment
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 +
 +
@@ -189,7 +174,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 +
@@ -211,7 +196,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -236,7 +221,7 @@ work
 Test
 atomic
 decrement
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 -
 -
@@ -253,7 +238,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 -
@@ -272,7 +257,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -295,10 +280,7 @@ Test
 other
 arithmetic
 .
-DebugOnly
-<
 T
->
 result
 ;
 result
@@ -313,7 +295,7 @@ T
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -332,7 +314,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -364,7 +346,7 @@ T
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -383,7 +365,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -418,7 +400,7 @@ T
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -434,7 +416,7 @@ failed
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -471,7 +453,7 @@ T
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -490,7 +472,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -522,7 +504,7 @@ T
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -541,7 +523,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -573,7 +555,7 @@ T
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -592,7 +574,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -624,7 +606,7 @@ T
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -643,7 +625,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -675,7 +657,7 @@ T
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -694,7 +676,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -735,7 +717,7 @@ exchange
 42
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -753,7 +735,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -784,10 +766,7 @@ T
 1
 )
 ;
-DebugOnly
-<
 bool
->
 boolResult
 =
 atomic
@@ -798,7 +777,7 @@ compareExchange
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 boolResult
@@ -812,7 +791,7 @@ false
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -843,7 +822,7 @@ compareExchange
 42
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 boolResult
 "
@@ -855,7 +834,7 @@ succeeded
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -908,7 +887,7 @@ atomic
 array1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -928,7 +907,7 @@ initialize
 Test
 atomic
 increment
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 +
 +
@@ -947,7 +926,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 +
@@ -968,7 +947,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -992,7 +971,7 @@ work
 Test
 atomic
 decrement
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 -
 -
@@ -1011,7 +990,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 -
@@ -1032,7 +1011,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1055,11 +1034,8 @@ Test
 other
 arithmetic
 operations
-DebugOnly
-<
 T
 *
->
 result
 ;
 result
@@ -1071,7 +1047,7 @@ atomic
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1089,7 +1065,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -1117,7 +1093,7 @@ atomic
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1135,7 +1111,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -1166,7 +1142,7 @@ atomic
 array1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1181,7 +1157,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -1216,7 +1192,7 @@ exchange
 array1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1231,7 +1207,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -1253,10 +1229,7 @@ atomic
 =
 array1
 ;
-DebugOnly
-<
 bool
->
 boolResult
 =
 atomic
@@ -1271,7 +1244,7 @@ array1
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 boolResult
@@ -1285,7 +1258,7 @@ false
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1315,7 +1288,7 @@ array1
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 boolResult
 "
@@ -1327,7 +1300,7 @@ succeeded
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1387,7 +1360,7 @@ atomic
 EnumType_2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1406,10 +1379,7 @@ initialize
 /
 Test
 assignment
-DebugOnly
-<
 EnumType
->
 result
 ;
 result
@@ -1420,7 +1390,7 @@ atomic
 EnumType_3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1433,7 +1403,7 @@ failed
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -1467,7 +1437,7 @@ exchange
 EnumType_2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1482,7 +1452,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -1507,10 +1477,7 @@ atomic
 =
 EnumType_1
 ;
-DebugOnly
-<
 bool
->
 boolResult
 =
 atomic
@@ -1521,7 +1488,7 @@ EnumType_0
 EnumType_2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 boolResult
@@ -1535,7 +1502,7 @@ false
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1563,7 +1530,7 @@ EnumType_1
 EnumType_3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 boolResult
 "
@@ -1575,7 +1542,7 @@ succeeded
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1616,7 +1583,7 @@ atomic
 false
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1635,10 +1602,7 @@ initialize
 /
 Test
 assignment
-DebugOnly
-<
 bool
->
 result
 ;
 result
@@ -1649,7 +1613,7 @@ atomic
 true
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1662,7 +1626,7 @@ failed
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -1696,7 +1660,7 @@ exchange
 true
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1711,7 +1675,7 @@ work
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -1736,10 +1700,7 @@ atomic
 =
 false
 ;
-DebugOnly
-<
 bool
->
 boolResult
 =
 atomic
@@ -1750,7 +1711,7 @@ true
 false
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 boolResult
@@ -1764,7 +1725,7 @@ false
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =
@@ -1792,7 +1753,7 @@ false
 true
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 boolResult
 "
@@ -1804,7 +1765,7 @@ succeeded
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 atomic
 =

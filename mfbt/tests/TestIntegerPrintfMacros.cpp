@@ -253,7 +253,7 @@ int8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -283,7 +283,7 @@ int8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -320,7 +320,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -350,7 +350,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -387,7 +387,7 @@ int32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -417,7 +417,7 @@ int32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -457,7 +457,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -490,7 +490,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -550,7 +550,7 @@ int_least8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -580,7 +580,7 @@ int_least8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -617,7 +617,7 @@ int_least16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -647,7 +647,7 @@ int_least16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -684,7 +684,7 @@ int_least32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -714,7 +714,7 @@ int_least32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -754,7 +754,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -787,7 +787,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -847,7 +847,7 @@ int_fast8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -877,7 +877,7 @@ int_fast8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -914,7 +914,7 @@ int_fast16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -944,7 +944,7 @@ int_fast16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -981,7 +981,7 @@ int_fast32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1011,7 +1011,7 @@ int_fast32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1051,7 +1051,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1084,7 +1084,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1147,7 +1147,7 @@ INTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1180,7 +1180,7 @@ INTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1223,7 +1223,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1259,7 +1259,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1382,7 +1382,7 @@ uint8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1411,7 +1411,7 @@ uint8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1440,7 +1440,7 @@ uint8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1469,7 +1469,7 @@ uint8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1505,7 +1505,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1534,7 +1534,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1563,7 +1563,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1592,7 +1592,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1628,7 +1628,7 @@ uint32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1657,7 +1657,7 @@ uint32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1686,7 +1686,7 @@ uint32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1715,7 +1715,7 @@ uint32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1754,7 +1754,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1786,7 +1786,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1818,7 +1818,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1850,7 +1850,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1909,7 +1909,7 @@ uint_least8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1938,7 +1938,7 @@ uint_least8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1967,7 +1967,7 @@ uint_least8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -1996,7 +1996,7 @@ uint_least8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2032,7 +2032,7 @@ uint_least16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2061,7 +2061,7 @@ uint_least16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2090,7 +2090,7 @@ uint_least16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2119,7 +2119,7 @@ uint_least16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2155,7 +2155,7 @@ uint_least32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2184,7 +2184,7 @@ uint_least32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2213,7 +2213,7 @@ uint_least32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2242,7 +2242,7 @@ uint_least32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2281,7 +2281,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2313,7 +2313,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2345,7 +2345,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2377,7 +2377,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2436,7 +2436,7 @@ uint_fast8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2465,7 +2465,7 @@ uint_fast8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2494,7 +2494,7 @@ uint_fast8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2523,7 +2523,7 @@ uint_fast8_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2559,7 +2559,7 @@ uint_fast16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2588,7 +2588,7 @@ uint_fast16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2617,7 +2617,7 @@ uint_fast16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2646,7 +2646,7 @@ uint_fast16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2682,7 +2682,7 @@ uint_fast32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2711,7 +2711,7 @@ uint_fast32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2740,7 +2740,7 @@ uint_fast32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2769,7 +2769,7 @@ uint_fast32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2808,7 +2808,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2840,7 +2840,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2872,7 +2872,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2904,7 +2904,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2966,7 +2966,7 @@ UINTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -2998,7 +2998,7 @@ UINTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -3030,7 +3030,7 @@ UINTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -3062,7 +3062,7 @@ UINTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -3105,7 +3105,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -3141,7 +3141,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -3177,7 +3177,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -3213,7 +3213,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 strcmp
@@ -3746,7 +3746,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -3757,7 +3757,7 @@ i
 17
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -3785,7 +3785,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -3795,7 +3795,7 @@ i
 042
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -3839,7 +3839,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -3850,7 +3850,7 @@ i
 1742
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -3878,7 +3878,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -3888,7 +3888,7 @@ i
 04217
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -3930,7 +3930,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -3941,7 +3941,7 @@ i
 174257
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -3969,7 +3969,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -3979,7 +3979,7 @@ i
 0423571
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4021,7 +4021,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4035,7 +4035,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4063,7 +4063,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4076,7 +4076,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4144,7 +4144,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4155,7 +4155,7 @@ i
 17
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4183,7 +4183,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4193,7 +4193,7 @@ i
 042
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4237,7 +4237,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4248,7 +4248,7 @@ i
 1742
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4276,7 +4276,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4286,7 +4286,7 @@ i
 04217
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4328,7 +4328,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4339,7 +4339,7 @@ i
 174257
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4367,7 +4367,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4377,7 +4377,7 @@ i
 0423571
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4419,7 +4419,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4433,7 +4433,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4461,7 +4461,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4474,7 +4474,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4542,7 +4542,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4553,7 +4553,7 @@ i
 17
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4581,7 +4581,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4591,7 +4591,7 @@ i
 042
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4635,7 +4635,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4646,7 +4646,7 @@ i
 1742
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4674,7 +4674,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4684,7 +4684,7 @@ i
 04217
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4726,7 +4726,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4737,7 +4737,7 @@ i
 174257
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4765,7 +4765,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4775,7 +4775,7 @@ i
 0423571
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4817,7 +4817,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4831,7 +4831,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4859,7 +4859,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4872,7 +4872,7 @@ INT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4937,7 +4937,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4951,7 +4951,7 @@ INTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -4979,7 +4979,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -4992,7 +4992,7 @@ INTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5033,7 +5033,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5053,7 +5053,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5081,7 +5081,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5101,7 +5101,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5226,7 +5226,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5236,7 +5236,7 @@ i
 017
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5264,7 +5264,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5274,7 +5274,7 @@ i
 42
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5302,7 +5302,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5312,7 +5312,7 @@ i
 0x2A
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5355,7 +5355,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5365,7 +5365,7 @@ i
 01742
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5393,7 +5393,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5403,7 +5403,7 @@ i
 4217
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5431,7 +5431,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5441,7 +5441,7 @@ i
 0x2ABC
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5482,7 +5482,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5492,7 +5492,7 @@ i
 017421742
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5520,7 +5520,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5530,7 +5530,7 @@ i
 4217867
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5558,7 +5558,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5568,7 +5568,7 @@ i
 0x2ABCBEEF
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5609,7 +5609,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5622,7 +5622,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5650,7 +5650,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5663,7 +5663,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5691,7 +5691,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5704,7 +5704,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5771,7 +5771,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5781,7 +5781,7 @@ i
 017
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5809,7 +5809,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5819,7 +5819,7 @@ i
 42
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5847,7 +5847,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5857,7 +5857,7 @@ i
 0x2A
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5900,7 +5900,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5910,7 +5910,7 @@ i
 01742
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5938,7 +5938,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5948,7 +5948,7 @@ i
 4217
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -5976,7 +5976,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -5986,7 +5986,7 @@ i
 0x2ABC
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6027,7 +6027,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6037,7 +6037,7 @@ i
 017421742
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6065,7 +6065,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6075,7 +6075,7 @@ i
 4217867
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6103,7 +6103,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6113,7 +6113,7 @@ i
 0x2ABCBEEF
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6154,7 +6154,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6167,7 +6167,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6195,7 +6195,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6208,7 +6208,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6236,7 +6236,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6249,7 +6249,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6316,7 +6316,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6326,7 +6326,7 @@ i
 017
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6354,7 +6354,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6364,7 +6364,7 @@ i
 42
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6392,7 +6392,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6402,7 +6402,7 @@ i
 0x2A
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6445,7 +6445,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6455,7 +6455,7 @@ i
 01742
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6483,7 +6483,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6493,7 +6493,7 @@ i
 4217
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6521,7 +6521,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6531,7 +6531,7 @@ i
 0x2ABC
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6572,7 +6572,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6582,7 +6582,7 @@ i
 017421742
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6610,7 +6610,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6620,7 +6620,7 @@ i
 4217867
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6648,7 +6648,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6658,7 +6658,7 @@ i
 0x2ABCBEEF
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6699,7 +6699,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6712,7 +6712,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6740,7 +6740,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6753,7 +6753,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6781,7 +6781,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6794,7 +6794,7 @@ UINT64_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6858,7 +6858,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6871,7 +6871,7 @@ UINTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6899,7 +6899,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6912,7 +6912,7 @@ UINTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6940,7 +6940,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -6953,7 +6953,7 @@ UINTMAX_C
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -6994,7 +6994,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -7014,7 +7014,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -7042,7 +7042,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -7062,7 +7062,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (
@@ -7090,7 +7090,7 @@ u
 i
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 u
 .
@@ -7110,7 +7110,7 @@ void
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ExtraBitsUntouched
 (

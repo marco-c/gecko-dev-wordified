@@ -132,7 +132,7 @@ TestLeadingZeroes32
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -143,7 +143,7 @@ CountLeadingZeroes32
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -154,7 +154,7 @@ CountLeadingZeroes32
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -165,7 +165,7 @@ CountLeadingZeroes32
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -176,7 +176,7 @@ CountLeadingZeroes32
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -187,7 +187,7 @@ CountLeadingZeroes32
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -198,7 +198,7 @@ CountLeadingZeroes32
 9
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -209,7 +209,7 @@ CountLeadingZeroes32
 16
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -220,7 +220,7 @@ CountLeadingZeroes32
 17
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -231,7 +231,7 @@ CountLeadingZeroes32
 24
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -242,7 +242,7 @@ CountLeadingZeroes32
 25
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes32
 (
@@ -260,7 +260,7 @@ TestLeadingZeroes64
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -271,7 +271,7 @@ CountLeadingZeroes64
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -282,7 +282,7 @@ CountLeadingZeroes64
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -293,7 +293,7 @@ CountLeadingZeroes64
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -304,7 +304,7 @@ CountLeadingZeroes64
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -315,7 +315,7 @@ CountLeadingZeroes64
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -326,7 +326,7 @@ CountLeadingZeroes64
 9
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -337,7 +337,7 @@ CountLeadingZeroes64
 16
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -348,7 +348,7 @@ CountLeadingZeroes64
 17
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -359,7 +359,7 @@ CountLeadingZeroes64
 24
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -370,7 +370,7 @@ CountLeadingZeroes64
 25
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -381,7 +381,7 @@ CountLeadingZeroes64
 32
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -392,7 +392,7 @@ CountLeadingZeroes64
 33
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -403,7 +403,7 @@ CountLeadingZeroes64
 40
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -414,7 +414,7 @@ CountLeadingZeroes64
 41
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -425,7 +425,7 @@ CountLeadingZeroes64
 48
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -436,7 +436,7 @@ CountLeadingZeroes64
 49
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -447,7 +447,7 @@ CountLeadingZeroes64
 56
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -458,7 +458,7 @@ CountLeadingZeroes64
 57
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountLeadingZeroes64
 (
@@ -476,7 +476,7 @@ TestTrailingZeroes32
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -487,7 +487,7 @@ CountTrailingZeroes32
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -498,7 +498,7 @@ CountTrailingZeroes32
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -509,7 +509,7 @@ CountTrailingZeroes32
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -520,7 +520,7 @@ CountTrailingZeroes32
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -531,7 +531,7 @@ CountTrailingZeroes32
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -542,7 +542,7 @@ CountTrailingZeroes32
 9
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -553,7 +553,7 @@ CountTrailingZeroes32
 16
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -564,7 +564,7 @@ CountTrailingZeroes32
 17
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -575,7 +575,7 @@ CountTrailingZeroes32
 24
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -586,7 +586,7 @@ CountTrailingZeroes32
 25
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes32
 (
@@ -604,7 +604,7 @@ TestTrailingZeroes64
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -615,7 +615,7 @@ CountTrailingZeroes64
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -626,7 +626,7 @@ CountTrailingZeroes64
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -637,7 +637,7 @@ CountTrailingZeroes64
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -648,7 +648,7 @@ CountTrailingZeroes64
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -659,7 +659,7 @@ CountTrailingZeroes64
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -670,7 +670,7 @@ CountTrailingZeroes64
 9
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -681,7 +681,7 @@ CountTrailingZeroes64
 16
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -692,7 +692,7 @@ CountTrailingZeroes64
 17
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -703,7 +703,7 @@ CountTrailingZeroes64
 24
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -714,7 +714,7 @@ CountTrailingZeroes64
 25
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -725,7 +725,7 @@ CountTrailingZeroes64
 32
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -736,7 +736,7 @@ CountTrailingZeroes64
 33
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -747,7 +747,7 @@ CountTrailingZeroes64
 40
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -758,7 +758,7 @@ CountTrailingZeroes64
 41
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -769,7 +769,7 @@ CountTrailingZeroes64
 48
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -780,7 +780,7 @@ CountTrailingZeroes64
 49
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -791,7 +791,7 @@ CountTrailingZeroes64
 56
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (
@@ -802,7 +802,7 @@ CountTrailingZeroes64
 57
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountTrailingZeroes64
 (

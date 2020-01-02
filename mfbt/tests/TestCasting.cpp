@@ -169,7 +169,7 @@ test
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BitwiseCast
 <
@@ -222,7 +222,7 @@ TestBitwiseCast
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BitwiseCast
 <
@@ -262,7 +262,7 @@ TestSameSize
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -279,7 +279,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -296,7 +296,7 @@ INT16_MIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -313,7 +313,7 @@ INT16_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -330,7 +330,7 @@ UINT16_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -347,7 +347,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -366,7 +366,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -385,7 +385,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -402,7 +402,7 @@ INT16_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -420,7 +420,7 @@ INT16_MIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -437,7 +437,7 @@ INT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -462,7 +462,7 @@ TestToBiggerSize
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -479,7 +479,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -496,7 +496,7 @@ INT16_MIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -513,7 +513,7 @@ INT16_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -530,7 +530,7 @@ UINT16_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -547,7 +547,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -565,7 +565,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -584,7 +584,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -601,7 +601,7 @@ INT16_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -619,7 +619,7 @@ INT16_MIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -636,7 +636,7 @@ INT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -661,7 +661,7 @@ TestToSmallerSize
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -678,7 +678,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -696,7 +696,7 @@ INT16_MIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -714,7 +714,7 @@ INT16_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -732,7 +732,7 @@ UINT16_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -749,7 +749,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -768,7 +768,7 @@ uint16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -787,7 +787,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -805,7 +805,7 @@ INT16_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -823,7 +823,7 @@ INT16_MIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -841,7 +841,7 @@ INT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -863,7 +863,7 @@ INT32_MIN
 /
 Boundary
 cases
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -883,7 +883,7 @@ INT32_MIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -900,7 +900,7 @@ INT32_MIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -919,7 +919,7 @@ INT32_MIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -938,7 +938,7 @@ INT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -955,7 +955,7 @@ INT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -975,7 +975,7 @@ INT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !
@@ -994,7 +994,7 @@ int64_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -1011,7 +1011,7 @@ int64_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -1028,7 +1028,7 @@ int64_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -1047,7 +1047,7 @@ UINT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 IsInBounds
@@ -1064,7 +1064,7 @@ UINT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 !

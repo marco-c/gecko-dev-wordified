@@ -277,7 +277,7 @@ mean
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -309,7 +309,7 @@ insert
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -327,7 +327,7 @@ clear
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -343,7 +343,7 @@ insert
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -378,7 +378,7 @@ insert
 10
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -397,7 +397,7 @@ insert
 20
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -416,7 +416,7 @@ insert
 35
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -435,7 +435,7 @@ insert
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -454,7 +454,7 @@ insert
 10
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -492,7 +492,7 @@ MyClass
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -513,7 +513,7 @@ clear
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -549,7 +549,7 @@ uint64_t
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -568,7 +568,7 @@ insert
 10
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
@@ -619,7 +619,7 @@ insert
 60
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mean
 .
