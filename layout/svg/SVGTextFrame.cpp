@@ -31839,9 +31839,6 @@ SVGContentUtils
 :
 CoordToFloat
 (
-PresContext
-(
-)
 static_cast
 <
 nsSVGElement

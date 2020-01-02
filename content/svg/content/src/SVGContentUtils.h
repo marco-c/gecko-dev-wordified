@@ -1659,9 +1659,6 @@ static
 float
 CoordToFloat
 (
-nsPresContext
-*
-aPresContext
 nsSVGElement
 *
 aContent

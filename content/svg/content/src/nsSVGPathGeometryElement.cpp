@@ -770,12 +770,6 @@ SVGContentUtils
 :
 CoordToFloat
 (
-styleContext
--
->
-PresContext
-(
-)
 this
 styleContext
 -
