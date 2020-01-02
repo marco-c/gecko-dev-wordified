@@ -169,6 +169,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+runnable_utils
+.
+h
+"
 template
 <
 >
