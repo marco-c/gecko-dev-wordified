@@ -304,7 +304,7 @@ efficiently
 ;
 static
 size_t
-ADestructorCalls
+gADestructorCalls
 =
 0
 ;
@@ -329,7 +329,7 @@ A
 (
 )
 {
-ADestructorCalls
+gADestructorCalls
 +
 +
 ;
@@ -341,7 +341,7 @@ mX
 ;
 static
 size_t
-BDestructorCalls
+gBDestructorCalls
 =
 0
 ;
@@ -368,7 +368,7 @@ B
 (
 )
 {
-BDestructorCalls
+gBDestructorCalls
 +
 +
 ;
@@ -861,7 +861,7 @@ A
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 0
@@ -894,7 +894,7 @@ mX
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 0
@@ -909,7 +909,7 @@ bp1
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 1
@@ -935,7 +935,7 @@ nullptr
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 2
@@ -943,7 +943,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 1
@@ -977,7 +977,7 @@ b1
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 2
@@ -985,7 +985,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 1
@@ -1006,7 +1006,7 @@ nullptr
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 3
@@ -1014,7 +1014,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 2
@@ -1076,7 +1076,7 @@ mX
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 3
@@ -1084,7 +1084,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 2
@@ -1113,7 +1113,7 @@ b3
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 4
@@ -1121,7 +1121,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 2
@@ -1133,7 +1133,7 @@ ReturnUniqueA
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 5
@@ -1141,7 +1141,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 3
@@ -1153,7 +1153,7 @@ ReturnLocalA
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 6
@@ -1161,7 +1161,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 3
@@ -1181,7 +1181,7 @@ nullptr
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 7
@@ -1189,7 +1189,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 3
@@ -1218,7 +1218,7 @@ c1
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 8
@@ -1226,7 +1226,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 4
@@ -1251,7 +1251,7 @@ c1
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 8
@@ -1259,7 +1259,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 4
@@ -1314,7 +1314,7 @@ TestDefaultFreeGuts
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 12
@@ -1322,7 +1322,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 8
@@ -1878,11 +1878,11 @@ TestReferenceDeleter
 (
 )
 {
-ADestructorCalls
+gADestructorCalls
 =
 0
 ;
-BDestructorCalls
+gBDestructorCalls
 =
 0
 ;
@@ -1895,7 +1895,7 @@ TestReferenceDeleterGuts
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 4
@@ -1903,17 +1903,17 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 3
 )
 ;
-ADestructorCalls
+gADestructorCalls
 =
 0
 ;
-BDestructorCalls
+gBDestructorCalls
 =
 0
 ;
@@ -2676,7 +2676,7 @@ numAppended
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 0
@@ -2684,7 +2684,7 @@ ADestructorCalls
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 0
@@ -2700,11 +2700,11 @@ TestVector
 (
 )
 {
-ADestructorCalls
+gADestructorCalls
 =
 0
 ;
-BDestructorCalls
+gBDestructorCalls
 =
 0
 ;
@@ -2717,7 +2717,7 @@ TestVectorGuts
 ;
 CHECK
 (
-ADestructorCalls
+gADestructorCalls
 =
 =
 3
@@ -2729,7 +2729,7 @@ BAfter
 ;
 CHECK
 (
-BDestructorCalls
+gBDestructorCalls
 =
 =
 2
