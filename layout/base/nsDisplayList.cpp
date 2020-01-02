@@ -25551,7 +25551,7 @@ StyleDisplay
 >
 mSpecifiedTransform
 )
-mToMozOrigin
+mToTransformOrigin
 (
 GetDeltaToMozTransformOrigin
 (
@@ -26239,7 +26239,7 @@ mToPerspectiveOrigin
 -
 aProperties
 .
-mToMozOrigin
+mToTransformOrigin
 perspective
 )
 ;
@@ -26379,7 +26379,7 @@ rounded
 +
 aProperties
 .
-mToMozOrigin
+mToTransformOrigin
 result
 )
 *
@@ -26396,7 +26396,7 @@ rounded
 +
 aProperties
 .
-mToMozOrigin
+mToTransformOrigin
 result
 )
 ;
