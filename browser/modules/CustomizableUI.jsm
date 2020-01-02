@@ -1100,7 +1100,7 @@ history
 const
 kMaxResults
 =
-10
+15
 ;
 let
 doc
