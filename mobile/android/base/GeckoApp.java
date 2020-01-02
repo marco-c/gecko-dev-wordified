@@ -7700,7 +7700,7 @@ mJavaUiStartupTimer
 new
 Telemetry
 .
-Timer
+UptimeTimer
 (
 "
 FENNEC_STARTUP_TIME_JAVAUI
@@ -7712,7 +7712,7 @@ mGeckoReadyStartupTimer
 new
 Telemetry
 .
-Timer
+UptimeTimer
 (
 "
 FENNEC_STARTUP_TIME_GECKOREADY

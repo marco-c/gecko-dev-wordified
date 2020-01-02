@@ -3265,6 +3265,15 @@ PREFERENCES_GET
 PREFERENCES_REMOVE_OBSERVERS
 =
 41
+TELEMETRY_UI_SESSION_START
+=
+42
+TELEMETRY_UI_SESSION_STOP
+=
+43
+TELEMETRY_UI_EVENT
+=
+44
 dummy_java_enum_list_end
 }
 ;
@@ -3273,9 +3282,11 @@ enum
 /
 /
 Memory
-pressue
+pressure
 levels
-keep
+.
+Keep
+these
 in
 sync
 with
@@ -3284,6 +3295,7 @@ in
 MemoryMonitor
 .
 java
+.
 MEMORY_PRESSURE_NONE
 =
 0
