@@ -1733,7 +1733,7 @@ forms
 .
 color
 "
-false
+true
 )
 ;
 /
