@@ -2945,6 +2945,16 @@ extend
 C
 '
 directory
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
 ]
 )
         
