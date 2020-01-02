@@ -6817,7 +6817,7 @@ UnloadLoadableRoots
 ;
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 CleanupIdentityInfo
 (
 )
@@ -9935,11 +9935,6 @@ SharedCertVerifier
 )
 {
 }
-/
-/
-#
-ifndef
-NSS_NO_LIBPKIX
 TemporaryRef
 <
 SharedCertVerifier

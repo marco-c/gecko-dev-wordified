@@ -512,6 +512,15 @@ pkix
 ScopedCERTCertList
 *
 validationChain
+/
+*
+optional
+out
+*
+/
+SECOidTag
+*
+evOidPolicy
 )
 ;
 }

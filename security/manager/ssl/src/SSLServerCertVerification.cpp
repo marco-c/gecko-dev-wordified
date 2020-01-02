@@ -8227,7 +8227,7 @@ SECFailure
 }
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 class
 InitializeIdentityInfo
 :
@@ -8288,7 +8288,7 @@ EnsureServerVerificationInitialized
 {
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 /
 /
 Should
