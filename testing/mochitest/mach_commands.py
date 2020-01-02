@@ -5210,6 +5210,10 @@ XUL
 )
 .
 '
+        
+parser
+=
+_st_parser
 )
     
 MochitestCommand
@@ -5279,6 +5283,10 @@ browser
 )
 .
 '
+        
+parser
+=
+_st_parser
 )
     
 MochitestCommand
@@ -5353,6 +5361,10 @@ frame
 )
 .
 '
+        
+parser
+=
+_st_parser
 )
     
 MochitestCommand
@@ -5422,6 +5434,10 @@ interface
 )
 .
 '
+        
+parser
+=
+_st_parser
 )
     
 MochitestCommand
@@ -5485,6 +5501,10 @@ tests
 )
 .
 '
+        
+parser
+=
+_st_parser
 )
     
 MochitestCommand
@@ -5556,6 +5576,10 @@ chrome
 )
 .
 '
+        
+parser
+=
+_st_parser
 )
     
 MochitestCommand
@@ -5629,6 +5653,10 @@ Runtime
 )
 .
 '
+        
+parser
+=
+_st_parser
 )
     
 MochitestCommand
@@ -5693,6 +5721,10 @@ test
 )
 .
 '
+        
+parser
+=
+_st_parser
 )
     
 MochitestCommand
