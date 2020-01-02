@@ -43945,7 +43945,7 @@ realTargetCount
 k
 )
 {
-nsMutationEvent
+InternalMutationEvent
 mutation
 (
 true

@@ -659,13 +659,6 @@ mozilla
 WidgetPluginEvent
 nsPluginEvent
 ;
-typedef
-mozilla
-:
-:
-InternalMutationEvent
-nsMutationEvent
-;
 #
 endif
 /

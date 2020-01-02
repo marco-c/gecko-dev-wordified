@@ -9710,7 +9710,7 @@ if
 aFireMutation
 )
 {
-nsMutationEvent
+InternalMutationEvent
 mutation
 (
 true
@@ -10607,7 +10607,7 @@ if
 hasMutationListeners
 )
 {
-nsMutationEvent
+InternalMutationEvent
 mutation
 (
 true
