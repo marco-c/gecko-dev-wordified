@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-CameraRecorderProfiles
+jsapi
 .
 h
 "
 #
 include
 "
-jsapi
+CameraRecorderProfiles
 .
 h
 "
