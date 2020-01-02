@@ -922,7 +922,7 @@ APZ
 void
 ApplyAsyncTransformToScrollbar
 (
-ContainerLayer
+Layer
 *
 aLayer
 )
