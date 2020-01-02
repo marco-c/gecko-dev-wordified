@@ -497,6 +497,10 @@ onclick
 let
 HomeBanner
 =
+Object
+.
+freeze
+(
 {
 /
 /
@@ -1031,6 +1035,7 @@ Click
 }
 }
 }
+)
 ;
 function
 Panel
@@ -1106,6 +1111,10 @@ views
 let
 HomePanels
 =
+Object
+.
+freeze
+(
 {
 /
 /
@@ -1117,6 +1126,10 @@ panel
 .
 Layout
 :
+Object
+.
+freeze
+(
 {
 FRAME
 :
@@ -1124,6 +1137,7 @@ FRAME
 frame
 "
 }
+)
 /
 /
 Valid
@@ -1136,6 +1150,10 @@ dataset
 .
 View
 :
+Object
+.
+freeze
+(
 {
 LIST
 :
@@ -1148,6 +1166,7 @@ GRID
 grid
 "
 }
+)
 /
 /
 Holds
@@ -1722,6 +1741,7 @@ false
 ;
 }
 }
+)
 ;
 /
 /
@@ -1731,6 +1751,10 @@ this
 .
 Home
 =
+Object
+.
+freeze
+(
 {
 banner
 :
@@ -1786,3 +1810,5 @@ break
 }
 }
 }
+)
+;
