@@ -2931,8 +2931,6 @@ nsIFile
 *
 inFile
 bool
-recur
-bool
 *
 _retval
 )
@@ -2944,7 +2942,6 @@ mFile
 Contains
 (
 inFile
-recur
 _retval
 )
 ;

@@ -3404,7 +3404,6 @@ mAppData
 Contains
 (
 rootDir
-true
 &
 isRelative
 )
@@ -4303,7 +4302,6 @@ cur
 -
 >
 mRootDir
-true
 &
 isRelative
 )
