@@ -968,6 +968,10 @@ _neon
 '
     
 '
+SkThreadUtils_pthread_
+'
+    
+'
 SkImage_Codec
 '
     
@@ -1300,19 +1304,6 @@ src
 utils
 /
 SkThreadUtils_pthread
-.
-cpp
-'
-      
-#
-'
-trunk
-/
-src
-/
-utils
-/
-SkThreadUtils_pthread_other
 .
 cpp
 '
