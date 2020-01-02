@@ -1028,6 +1028,7 @@ copyTo
 }
 )
 {
+return
 copyTo
 (
 this
@@ -1047,6 +1048,10 @@ this
 _closeFile
 (
 )
+;
+return
+{
+}
 ;
 }
 )
