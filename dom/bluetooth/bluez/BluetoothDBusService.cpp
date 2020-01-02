@@ -1922,14 +1922,11 @@ pairing
 requests
 .
 static
-Atomic
-<
-int32_t
->
+unsigned
+int
 sIsPairing
-(
+=
 0
-)
 ;
 static
 nsDataHashtable
