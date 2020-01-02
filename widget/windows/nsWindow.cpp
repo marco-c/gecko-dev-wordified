@@ -4226,7 +4226,7 @@ if
 mIsRTL
 &
 &
-nsUXThemeData
+WinUtils
 :
 :
 dwmSetWindowAttributePtr
@@ -4237,7 +4237,7 @@ dwAttribute
 =
 TRUE
 ;
-nsUXThemeData
+WinUtils
 :
 :
 dwmSetWindowAttributePtr
@@ -18826,7 +18826,7 @@ CheckForCompositor
 )
 )
 {
-nsUXThemeData
+WinUtils
 :
 :
 dwmExtendFrameIntoClientAreaPtr
@@ -18836,7 +18836,7 @@ mWnd
 margins
 )
 ;
-nsUXThemeData
+WinUtils
 :
 :
 dwmSetWindowAttributePtr
@@ -31079,7 +31079,7 @@ CheckForCompositor
 )
 &
 &
-nsUXThemeData
+WinUtils
 :
 :
 dwmDwmDefWindowProcPtr
