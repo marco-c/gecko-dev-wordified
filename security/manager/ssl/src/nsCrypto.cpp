@@ -10097,9 +10097,6 @@ fileName
 )
 scriptSample
 lineNum
-EmptyString
-(
-)
 )
 ;
 }

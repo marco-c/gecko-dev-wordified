@@ -1008,9 +1008,6 @@ NS_ConvertUTF8toUTF16
 mURL
 )
 0
-EmptyString
-(
-)
 )
 ;
 }
