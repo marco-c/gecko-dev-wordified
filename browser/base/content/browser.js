@@ -9345,6 +9345,12 @@ CustomizationHandler
 false
 )
 ;
+gCustomizeMode
+.
+init
+(
+)
+;
 /
 /
 End
@@ -10008,6 +10014,12 @@ AddonsMgrListener
 )
 ;
 SocialUI
+.
+uninit
+(
+)
+;
+gCustomizeMode
 .
 uninit
 (
