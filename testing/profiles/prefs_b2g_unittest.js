@@ -156,3 +156,15 @@ local
 true
 )
 ;
+user_pref
+(
+"
+touchcaret
+.
+expiration
+.
+time
+"
+0
+)
+;
