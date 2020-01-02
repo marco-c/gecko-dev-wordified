@@ -178,5 +178,8 @@ reportException
 makeInfallible
 :
 makeInfallible
+yieldingEach
+:
+yieldingEach
 }
 ;
