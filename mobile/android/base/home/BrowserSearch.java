@@ -1863,7 +1863,7 @@ TextUtils
 .
 isEmpty
 (
-mSearchTerm
+searchTerm
 )
 )
 {
