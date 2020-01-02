@@ -300,6 +300,9 @@ return
 Failure
 ;
 }
+namespace
+internal
+{
 /
 /
 Too
@@ -619,6 +622,11 @@ length
 )
 ;
 }
+}
+/
+/
+namespace
+internal
 }
 }
 }
