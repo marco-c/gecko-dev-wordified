@@ -242,6 +242,11 @@ Repeat
 (
 )
 ;
+bool
+IsComposing
+(
+)
+;
 uint32_t
 CharCode
 (
