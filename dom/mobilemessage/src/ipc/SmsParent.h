@@ -204,16 +204,6 @@ protected
 :
 virtual
 bool
-RecvHasSupport
-(
-bool
-*
-aHasSupport
-)
-MOZ_OVERRIDE
-;
-virtual
-bool
 RecvAddSilentNumber
 (
 const
