@@ -2472,7 +2472,7 @@ AssertStyleStructMaxDifferenceValid
 ;
 #
 endif
-protected
+private
 :
 void
 AddChild
