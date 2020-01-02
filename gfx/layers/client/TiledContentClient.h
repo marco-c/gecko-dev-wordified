@@ -2068,7 +2068,7 @@ Release
 )
 ;
 void
-DiscardBackBuffers
+DiscardBuffers
 (
 )
 ;
