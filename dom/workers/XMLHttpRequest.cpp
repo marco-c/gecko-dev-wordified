@@ -4931,8 +4931,11 @@ xhr
 GetResponse
 (
 aCx
-&
 response
+.
+address
+(
+)
 )
 ;
 if
@@ -6336,6 +6339,10 @@ JSValToVariant
 (
 cx
 body
+.
+address
+(
+)
 getter_AddRefs
 (
 variant

@@ -3999,6 +3999,10 @@ JSValToVariant
 (
 aCx
 dataVal
+.
+address
+(
+)
 getter_AddRefs
 (
 data
@@ -4116,8 +4120,11 @@ GetWrapper
 (
 )
 oldData
-&
 result
+.
+address
+(
+)
 )
 ;
 return
@@ -4272,8 +4279,11 @@ GetWrapper
 (
 )
 data
-&
 result
+.
+address
+(
+)
 )
 ;
 return

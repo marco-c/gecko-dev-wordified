@@ -321,8 +321,11 @@ aRv
 GetFrameBuffer
 (
 aCx
-&
 dummy
+.
+address
+(
+)
 )
 ;
 return

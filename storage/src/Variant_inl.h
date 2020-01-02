@@ -771,13 +771,8 @@ GetAsJSVal
 JS
 :
 :
-MutableHandle
-<
-JS
-:
-:
 Value
->
+*
 )
 {
 return

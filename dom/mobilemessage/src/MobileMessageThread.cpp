@@ -891,13 +891,8 @@ aCx
 JS
 :
 :
-MutableHandle
-<
-JS
-:
-:
 Value
->
+*
 aParticipants
 )
 {
@@ -939,7 +934,8 @@ rv
 )
 ;
 aParticipants
-.
+-
+>
 setObject
 (
 *

@@ -4369,13 +4369,8 @@ cx
 JS
 :
 :
-MutableHandle
-<
-JS
-:
-:
 Value
->
+*
 aLastModifiedDate
 )
 MOZ_OVERRIDE
@@ -4388,7 +4383,8 @@ IsDateUnknown
 )
 {
 aLastModifiedDate
-.
+-
+>
 setNull
 (
 )
@@ -4417,7 +4413,8 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 aLastModifiedDate
-.
+-
+>
 setObject
 (
 *
