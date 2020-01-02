@@ -10976,7 +10976,7 @@ readline
 (
 )
 .
-strip
+rstrip
 (
 )
         
