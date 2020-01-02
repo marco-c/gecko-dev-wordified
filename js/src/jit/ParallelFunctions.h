@@ -239,7 +239,7 @@ thread
 local
 objects
 .
-ParallelResult
+bool
 SetPropertyPar
 (
 ForkJoinSlice
@@ -258,7 +258,7 @@ jsbytecode
 pc
 )
 ;
-ParallelResult
+bool
 SetElementPar
 (
 ForkJoinSlice
@@ -295,7 +295,8 @@ take
 a
 ThreadSafeContext
 .
-ParallelResult
+JSString
+*
 ConcatStringsPar
 (
 ForkJoinSlice
@@ -305,11 +306,10 @@ HandleString
 left
 HandleString
 right
-MutableHandleString
-out
 )
 ;
-ParallelResult
+JSFlatString
+*
 IntToStringPar
 (
 ForkJoinSlice
@@ -317,11 +317,10 @@ ForkJoinSlice
 slice
 int
 i
-MutableHandleString
-out
 )
 ;
-ParallelResult
+JSString
+*
 DoubleToStringPar
 (
 ForkJoinSlice
@@ -329,11 +328,9 @@ ForkJoinSlice
 slice
 double
 d
-MutableHandleString
-out
 )
 ;
-ParallelResult
+bool
 StringToNumberPar
 (
 ForkJoinSlice
@@ -370,7 +367,7 @@ values
 are
 objects
 .
-ParallelResult
+bool
 StrictlyEqualPar
 (
 ForkJoinSlice
@@ -384,7 +381,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 StrictlyUnequalPar
 (
 ForkJoinSlice
@@ -398,7 +395,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 LooselyEqualPar
 (
 ForkJoinSlice
@@ -412,7 +409,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 LooselyUnequalPar
 (
 ForkJoinSlice
@@ -426,7 +423,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 LessThanPar
 (
 ForkJoinSlice
@@ -440,7 +437,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 LessThanOrEqualPar
 (
 ForkJoinSlice
@@ -454,7 +451,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 GreaterThanPar
 (
 ForkJoinSlice
@@ -468,7 +465,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 GreaterThanOrEqualPar
 (
 ForkJoinSlice
@@ -482,7 +479,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 StringsEqualPar
 (
 ForkJoinSlice
@@ -496,7 +493,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 StringsUnequalPar
 (
 ForkJoinSlice
@@ -510,7 +507,7 @@ bool
 *
 )
 ;
-ParallelResult
+bool
 BitNotPar
 (
 ForkJoinSlice
@@ -523,7 +520,7 @@ int32_t
 out
 )
 ;
-ParallelResult
+bool
 BitXorPar
 (
 ForkJoinSlice
@@ -538,7 +535,7 @@ int32_t
 out
 )
 ;
-ParallelResult
+bool
 BitOrPar
 (
 ForkJoinSlice
@@ -553,7 +550,7 @@ int32_t
 out
 )
 ;
-ParallelResult
+bool
 BitAndPar
 (
 ForkJoinSlice
@@ -568,7 +565,7 @@ int32_t
 out
 )
 ;
-ParallelResult
+bool
 BitLshPar
 (
 ForkJoinSlice
@@ -583,7 +580,7 @@ int32_t
 out
 )
 ;
-ParallelResult
+bool
 BitRshPar
 (
 ForkJoinSlice
@@ -598,7 +595,7 @@ int32_t
 out
 )
 ;
-ParallelResult
+bool
 UrshValuesPar
 (
 ForkJoinSlice
@@ -623,7 +620,8 @@ parameter
 in
 parallel
 .
-ParallelResult
+JSObject
+*
 InitRestParameterPar
 (
 ForkJoinSlice
@@ -638,8 +636,6 @@ HandleObject
 templateObj
 HandleObject
 res
-MutableHandleObject
-out
 )
 ;
 /

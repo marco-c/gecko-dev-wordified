@@ -5824,7 +5824,10 @@ static
 bool
 reportReadOnly
 (
-JSContext
+js
+:
+:
+ThreadSafeContext
 *
 cx
 jsid
@@ -5838,7 +5841,10 @@ JSREPORT_ERROR
 bool
 reportNotConfigurable
 (
-JSContext
+js
+:
+:
+ThreadSafeContext
 *
 cx
 jsid
@@ -5852,7 +5858,10 @@ JSREPORT_ERROR
 bool
 reportNotExtensible
 (
-JSContext
+js
+:
+:
+ThreadSafeContext
 *
 cx
 unsigned

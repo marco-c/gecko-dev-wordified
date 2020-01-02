@@ -468,10 +468,7 @@ parallel
 *
 /
 typedef
-js
-:
-:
-ParallelResult
+bool
 (
 *
 JSParallelNative
@@ -587,10 +584,7 @@ JSThreadSafeNative
 threadSafeNative
 >
 inline
-js
-:
-:
-ParallelResult
+bool
 JSParallelNativeThreadSafeWrapper
 (
 js
