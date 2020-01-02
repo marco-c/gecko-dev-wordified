@@ -2839,16 +2839,6 @@ JSVERSION_DEFAULT
 ;
 options
 .
-setSourcePolicy
-(
-CompileOptions
-:
-:
-NO_SOURCE
-)
-;
-options
-.
 forceAsync
 =
 true
