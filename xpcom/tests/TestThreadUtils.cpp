@@ -139,7 +139,7 @@ TestSuicide
 public
 nsRunnable
 {
-nsresult
+NS_IMETHOD
 Run
 (
 )
