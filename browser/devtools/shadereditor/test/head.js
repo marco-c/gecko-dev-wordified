@@ -897,14 +897,6 @@ isWebGLSupported
 let
 supported
 =
-!
-TiltGL
-.
-isWebGLForceEnabled
-(
-)
-&
-&
 TiltGL
 .
 isWebGLSupported
