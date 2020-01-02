@@ -164,6 +164,9 @@ engine
 namespace
 js
 {
+class
+MatchConduit
+;
 /
 /
 Whether

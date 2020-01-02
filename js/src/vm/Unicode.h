@@ -476,7 +476,7 @@ CharacterInfo
 *
 upperCase
 and
-loweCase
+lowerCase
 normally
 store
 the

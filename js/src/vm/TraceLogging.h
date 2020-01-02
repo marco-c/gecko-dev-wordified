@@ -1091,6 +1091,16 @@ YarrJIT
 \
 _
 (
+IrregexpCompile
+)
+\
+_
+(
+IrregexpExecute
+)
+\
+_
+(
 VM
 )
 \
