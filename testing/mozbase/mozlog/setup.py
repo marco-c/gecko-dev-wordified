@@ -183,19 +183,6 @@ zip_safe
 =
 False
       
-install_requires
-=
-[
-"
-blessings
->
-=
-1
-.
-3
-"
-]
-      
 tests_require
 =
 [
