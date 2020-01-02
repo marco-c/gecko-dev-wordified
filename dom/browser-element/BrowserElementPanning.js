@@ -2991,6 +2991,10 @@ current
 =
 root
 ;
+firstScroll
+=
+true
+;
 while
 (
 current
