@@ -8898,3 +8898,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+dom
+.
+downloads
+.
+max_retention_days
+"
+7
+)
+;
