@@ -302,7 +302,7 @@ in
 ms
 .
 void
-nsCycleCollector_scheduledCollect
+nsCycleCollector_collectSlice
 (
 int64_t
 aSliceTime
