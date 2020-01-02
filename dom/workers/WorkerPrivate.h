@@ -3323,6 +3323,8 @@ JS
 RuntimeStats
 *
 aRtStats
+bool
+aAnonymize
 )
 ;
 #

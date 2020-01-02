@@ -1171,6 +1171,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 ;
 friend

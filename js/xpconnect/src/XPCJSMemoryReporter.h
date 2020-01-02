@@ -203,6 +203,8 @@ cb
 nsISupports
 *
 closure
+bool
+anonymize
 )
 ;
 }

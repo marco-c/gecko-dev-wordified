@@ -591,6 +591,13 @@ dumpMemoryInfoToTempDir
 aLabel
 /
 *
+anonymize
+=
+*
+/
+false
+/
+*
 minimize
 =
 *

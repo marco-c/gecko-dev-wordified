@@ -9113,6 +9113,17 @@ ReportStorageMemoryData
 aClosure
 )
 ;
+/
+/
+These
+key
+names
+are
+not
+privacy
+-
+sensitive
+.
 data
 .
 mHandleReport
@@ -9213,6 +9224,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 nsresult

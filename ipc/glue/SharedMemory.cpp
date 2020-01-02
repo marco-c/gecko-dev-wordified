@@ -194,6 +194,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 nsresult

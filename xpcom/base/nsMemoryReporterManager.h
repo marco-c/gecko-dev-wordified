@@ -1417,6 +1417,9 @@ GetReportsState
 uint32_t
 mGeneration
 ;
+bool
+mAnonymize
+;
 nsCOMPtr
 <
 nsITimer
@@ -1463,6 +1466,8 @@ GetReportsState
 (
 uint32_t
 aGeneration
+bool
+aAnonymize
 nsITimer
 *
 aTimer
@@ -1489,6 +1494,10 @@ aDMDDumpIdent
 mGeneration
 (
 aGeneration
+)
+mAnonymize
+(
+aAnonymize
 )
 mTimer
 (

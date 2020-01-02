@@ -9917,6 +9917,8 @@ aCb
 nsISupports
 *
 aClosure
+bool
+aAnonymize
 )
 {
 FontCacheSizes

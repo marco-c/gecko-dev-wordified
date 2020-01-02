@@ -2371,6 +2371,8 @@ cb
 nsISupports
 *
 closure
+bool
+anonymize
 size_t
 *
 rtTotal

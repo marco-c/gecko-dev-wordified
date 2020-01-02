@@ -18572,6 +18572,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 size_t

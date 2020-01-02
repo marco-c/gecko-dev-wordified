@@ -1183,6 +1183,13 @@ getReportsForThisProcess
 (
 logReporter
 null
+/
+*
+anonymize
+=
+*
+/
+false
 )
 ;
 var
@@ -2870,6 +2877,13 @@ getReportsForThisProcess
 (
 logReporter
 null
+/
+*
+anonymize
+=
+*
+/
+false
 )
 ;
 return

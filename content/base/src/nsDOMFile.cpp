@@ -3479,6 +3479,8 @@ aCallback
 nsISupports
 *
 aClosure
+bool
+aAnonymize
 )
 {
 typedef
@@ -3705,6 +3707,14 @@ owner
 -
 >
 mLength
+aAnonymize
+?
+"
+<
+anonymized
+>
+"
+:
 digestString
 .
 get

@@ -360,6 +360,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 map

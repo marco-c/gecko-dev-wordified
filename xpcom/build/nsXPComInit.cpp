@@ -1921,6 +1921,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 return
@@ -2008,6 +2010,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 return
@@ -2101,6 +2105,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 return
@@ -2198,6 +2204,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 return
