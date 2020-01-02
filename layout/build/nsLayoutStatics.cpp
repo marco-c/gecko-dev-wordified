@@ -1912,7 +1912,7 @@ ShutdownLibrary
 AsyncLatencyLogger
 :
 :
-Shutdown
+ShutdownLogger
 (
 )
 ;
