@@ -15226,7 +15226,10 @@ compartmentPrivate
 xpc
 :
 :
-GetCompartmentPrivate
+CompartmentPrivate
+:
+:
+Get
 (
 aObj
 )

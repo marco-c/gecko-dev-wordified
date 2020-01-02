@@ -15477,7 +15477,7 @@ scope
 xpc
 :
 :
-GetObjectScope
+ObjectScope
 (
 outerObject
 )

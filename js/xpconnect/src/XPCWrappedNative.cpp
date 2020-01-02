@@ -1423,7 +1423,10 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetCompartmentPrivate
+CompartmentPrivate
+:
+:
+Get
 (
 global
 )
@@ -2923,7 +2926,7 @@ XPCWrappedNativeScope
 *
 betterScope
 =
-GetObjectScope
+ObjectScope
 (
 parent
 )
@@ -9278,11 +9281,11 @@ wn
 >
 ReparentWrapperIfFound
 (
-GetObjectScope
+ObjectScope
 (
 parentObj
 )
-GetObjectScope
+ObjectScope
 (
 realParent
 )
