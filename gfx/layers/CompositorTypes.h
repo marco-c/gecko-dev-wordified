@@ -962,6 +962,15 @@ DIAGNOSTIC_COMPONENT_ALPHA
 <
 7
 ;
+const
+DiagnosticFlags
+DIAGNOSTIC_REGION_RECT
+=
+1
+<
+<
+8
+;
 /
 *
 *
