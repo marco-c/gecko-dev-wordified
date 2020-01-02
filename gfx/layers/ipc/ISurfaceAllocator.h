@@ -731,6 +731,17 @@ return
 nullptr
 ;
 }
+virtual
+bool
+IPCOpen
+(
+)
+const
+{
+return
+true
+;
+}
 /
 /
 Returns
