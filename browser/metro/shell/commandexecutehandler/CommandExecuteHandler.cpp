@@ -223,7 +223,7 @@ request
 #
 define
 HEARTBEAT_MSEC
-1000
+250
 /
 /
 Total
