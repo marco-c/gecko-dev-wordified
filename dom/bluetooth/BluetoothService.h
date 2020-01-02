@@ -567,10 +567,14 @@ method
 *
 *
 return
-NS_OK
+Default
+adapter
+path
+/
+name
 on
 success
-NS_ERROR_FAILURE
+NULL
 otherwise
 *
 /
@@ -1237,6 +1241,9 @@ aRunnable
 =
 0
 ;
+#
+ifdef
+MOZ_B2G_RIL
 virtual
 void
 AnswerWaitingCall
@@ -1270,6 +1277,8 @@ aRunnable
 =
 0
 ;
+#
+endif
 virtual
 void
 SendMetaData

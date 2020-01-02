@@ -598,6 +598,9 @@ aRunnable
 )
 MOZ_OVERRIDE
 ;
+#
+ifdef
+MOZ_B2G_RIL
 virtual
 void
 AnswerWaitingCall
@@ -625,6 +628,8 @@ BluetoothReplyRunnable
 aRunnable
 )
 ;
+#
+endif
 virtual
 void
 SendMetaData

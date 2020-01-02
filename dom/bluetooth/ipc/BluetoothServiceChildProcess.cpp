@@ -1254,6 +1254,9 @@ IsScoConnectedRequest
 )
 ;
 }
+#
+ifdef
+MOZ_B2G_RIL
 void
 BluetoothServiceChildProcess
 :
@@ -1314,6 +1317,11 @@ ToggleCallsRequest
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_B2G_RIL
 void
 BluetoothServiceChildProcess
 :

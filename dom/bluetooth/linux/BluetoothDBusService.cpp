@@ -3120,7 +3120,7 @@ char
 *
 property
 =
-nullptr
+NULL
 ;
 uint32_t
 array_type
@@ -5086,7 +5086,7 @@ dbus_connection_send
 (
 conn
 reply
-nullptr
+NULL
 )
 ;
 dbus_message_unref
@@ -5144,7 +5144,7 @@ if
 dbus_message_get_args
 (
 msg
-nullptr
+NULL
 DBUS_TYPE_OBJECT_PATH
 &
 objectPath
@@ -5357,7 +5357,7 @@ dbus_connection_send
 (
 conn
 reply
-nullptr
+NULL
 )
 ;
 dbus_message_unref
@@ -5412,7 +5412,7 @@ if
 dbus_message_get_args
 (
 msg
-nullptr
+NULL
 DBUS_TYPE_OBJECT_PATH
 &
 objectPath
@@ -5568,7 +5568,7 @@ if
 dbus_message_get_args
 (
 msg
-nullptr
+NULL
 DBUS_TYPE_OBJECT_PATH
 &
 objectPath
@@ -5699,7 +5699,7 @@ if
 dbus_message_get_args
 (
 msg
-nullptr
+NULL
 DBUS_TYPE_OBJECT_PATH
 &
 objectPath
@@ -5879,7 +5879,7 @@ dbus_connection_send
 (
 conn
 reply
-nullptr
+NULL
 )
 ;
 dbus_message_unref
@@ -6237,7 +6237,7 @@ GetConnection
 )
 KEY_REMOTE_AGENT
 mAgentVTable
-nullptr
+NULL
 )
 )
 {
@@ -6308,12 +6308,12 @@ DBusObjectPathVTable
 sAgentVTable
 =
 {
-nullptr
+NULL
 AgentEventFilter
-nullptr
-nullptr
-nullptr
-nullptr
+NULL
+NULL
+NULL
+NULL
 }
 ;
 MOZ_ASSERT
@@ -6690,7 +6690,7 @@ GetConnection
 )
 KEY_LOCAL_AGENT
 aAgentVTable
-nullptr
+NULL
 )
 )
 {
@@ -7187,7 +7187,7 @@ aMsg
 )
 =
 =
-nullptr
+NULL
 )
 {
 BT_WARNING
@@ -9080,8 +9080,8 @@ GetConnection
 (
 )
 EventFilter
-nullptr
-nullptr
+NULL
+NULL
 )
 )
 {
@@ -13734,6 +13734,9 @@ IsConnected
 )
 ;
 }
+#
+ifdef
+MOZ_B2G_RIL
 void
 BluetoothDBusService
 :
@@ -13881,6 +13884,11 @@ EmptyString
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_B2G_RIL
 class
 OnUpdateSdpRecordsRunnable
 :
