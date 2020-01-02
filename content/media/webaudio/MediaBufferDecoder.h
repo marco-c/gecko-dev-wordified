@@ -472,6 +472,16 @@ WebAudioDecodeJob
 aDecodeJob
 )
 ;
+~
+MediaBufferDecoder
+(
+)
+{
+Shutdown
+(
+)
+;
+}
 void
 Shutdown
 (
