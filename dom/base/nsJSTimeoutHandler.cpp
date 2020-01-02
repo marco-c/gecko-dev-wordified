@@ -1102,6 +1102,9 @@ VIOLATION_TYPE_EVAL
 fileNameString
 scriptSample
 lineNum
+EmptyString
+(
+)
 )
 ;
 }

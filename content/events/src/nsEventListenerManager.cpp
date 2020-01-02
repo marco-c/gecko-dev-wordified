@@ -4226,6 +4226,9 @@ asciiSpec
 )
 scriptSample
 0
+EmptyString
+(
+)
 )
 ;
 }

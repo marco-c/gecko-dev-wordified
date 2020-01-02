@@ -1495,6 +1495,7 @@ nsStyleUtil
 :
 CSPAllowsInlineStyle
 (
+nullptr
 NodePrincipal
 (
 )
