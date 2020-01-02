@@ -2072,16 +2072,11 @@ LBlock
 *
 lirsuccessor
 =
-graph
-.
-getBlock
-(
 successor
 -
 >
-id
+lir
 (
-)
 )
 ;
 for
