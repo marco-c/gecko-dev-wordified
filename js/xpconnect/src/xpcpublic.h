@@ -916,12 +916,12 @@ JSObject
 *
 xpc_FastGetCachedWrapper
 (
+JSContext
+*
+cx
 nsWrapperCache
 *
 cache
-JSObject
-*
-scope
 JS
 :
 :
@@ -962,9 +962,9 @@ wrapper
 js
 :
 :
-GetObjectCompartment
+GetContextCompartment
 (
-scope
+cx
 )
 )
 {
