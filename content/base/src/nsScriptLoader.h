@@ -1234,6 +1234,9 @@ thread
 nsresult
 ProcessOffThreadRequest
 (
+nsScriptLoadRequest
+*
+aRequest
 void
 *
 *
@@ -1785,12 +1788,6 @@ nsTArray
 PreloadInfo
 >
 mPreloads
-;
-nsCOMPtr
-<
-nsScriptLoadRequest
->
-mOffThreadScriptRequest
 ;
 nsCOMPtr
 <
