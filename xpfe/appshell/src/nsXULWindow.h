@@ -154,6 +154,13 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+nsRect
+.
+h
+"
 /
 /
 Interfaces

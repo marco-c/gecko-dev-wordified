@@ -137,6 +137,17 @@ h
 #
 include
 "
+nsWidgetInitData
+.
+h
+"
+/
+/
+for
+nsWindowType
+#
+include
+"
 nsIWidgetListener
 .
 h
