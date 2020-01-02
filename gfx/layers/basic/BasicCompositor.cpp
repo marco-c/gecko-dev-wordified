@@ -1718,10 +1718,13 @@ aEffectChain
 .
 mSecondaryEffects
 [
+size_t
+(
 EffectTypes
 :
 :
 MASK
+)
 ]
 )
 {
@@ -1739,10 +1742,13 @@ aEffectChain
 .
 mSecondaryEffects
 [
+size_t
+(
 EffectTypes
 :
 :
 MASK
+)
 ]
 .
 get
