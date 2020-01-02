@@ -245,6 +245,10 @@ DOMCI_CLASS
 (
 XPathNSResolver
 )
+DOMCI_CLASS
+(
+XPathResult
+)
 /
 /
 WhatWG
@@ -276,10 +280,6 @@ Window
 DOMCI_CLASS
 (
 ModalContentWindow
-)
-DOMCI_CLASS
-(
-MozMobileMessageManager
 )
 DOMCI_CLASS
 (
