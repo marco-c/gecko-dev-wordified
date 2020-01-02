@@ -143,6 +143,13 @@ nsIX509CertDB
 .
 h
 "
+#
+include
+"
+ScopedNSSTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -317,12 +324,6 @@ non
 -
 owning
 !
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 mTrustedRoot
 ;

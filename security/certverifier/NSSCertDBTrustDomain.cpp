@@ -212,6 +212,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 secerr
 .
 h
@@ -223,6 +230,10 @@ secmod
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -4648,6 +4659,12 @@ void
 SaveIntermediateCerts
 (
 const
+mozilla
+:
+:
+pkix
+:
+:
 ScopedCERTCertList
 &
 certList

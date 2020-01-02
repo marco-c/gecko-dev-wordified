@@ -2676,12 +2676,6 @@ return
 false
 ;
 }
-mozilla
-:
-:
-pkix
-:
-:
 ScopedPLArenaPool
 arena
 (
@@ -3128,12 +3122,6 @@ params
 nsresult
 rv
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 nssCert
 (

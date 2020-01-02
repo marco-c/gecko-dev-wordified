@@ -1585,12 +1585,6 @@ as
 a
 CERTCertificate
 XXX
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 nssCert
 (

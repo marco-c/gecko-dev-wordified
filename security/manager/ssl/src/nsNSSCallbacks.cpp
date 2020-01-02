@@ -6540,12 +6540,6 @@ SSL
 )
 ;
 }
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 serverCert
 (

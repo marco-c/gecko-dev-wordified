@@ -856,12 +856,6 @@ during
 path
 building
 .
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 certs
 (
@@ -908,12 +902,6 @@ i
 i
 )
 {
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 cert
 (
@@ -970,7 +958,7 @@ SECSuccess
 {
 cert
 .
-release
+forget
 (
 )
 ;

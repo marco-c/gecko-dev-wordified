@@ -3598,12 +3598,6 @@ PipUIContext
 (
 )
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 certList
 (
@@ -4623,12 +4617,6 @@ but
 remove
 the
 trust
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 nsscert
 (

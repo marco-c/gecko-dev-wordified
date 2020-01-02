@@ -1535,12 +1535,6 @@ return
 false
 ;
 }
-mozilla
-:
-:
-pkix
-:
-:
 ScopedPLArenaPool
 arena
 (

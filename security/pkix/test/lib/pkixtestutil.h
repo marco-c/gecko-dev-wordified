@@ -375,6 +375,14 @@ true
 unnamed
 namespace
 typedef
+ScopedPtr
+<
+CERTCertificate
+CERT_DestroyCertificate
+>
+ScopedCERTCertificate
+;
+typedef
 mozilla
 :
 :
