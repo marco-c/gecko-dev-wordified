@@ -14485,6 +14485,16 @@ eStyleUnit_Integer
 )
 |
 |
+(
+disp
+-
+>
+mWillChangeBitField
+&
+NS_STYLE_WILL_CHANGE_STACKING_CONTEXT
+)
+|
+|
 isVisuallyAtomic
 |
 |
