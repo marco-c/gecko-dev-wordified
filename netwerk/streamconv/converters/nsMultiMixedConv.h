@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsILoadInfo
+.
+h
+"
+#
+include
+"
 nsIMultiPartChannel
 .
 h

@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -152,6 +152,13 @@ h
 include
 "
 nsILoadGroup
+.
+h
+"
+#
+include
+"
+nsILoadInfo
 .
 h
 "
@@ -1973,6 +1980,12 @@ nsCOMPtr
 nsISupports
 >
 mOwner
+;
+nsCOMPtr
+<
+nsILoadInfo
+>
+mLoadInfo
 ;
 nsCOMPtr
 <

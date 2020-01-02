@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsILoadInfo
+.
+h
+"
+#
+include
+"
 nsIThreadRetargetableRequest
 .
 h
@@ -428,6 +435,12 @@ nsCOMPtr
 nsISupports
 >
 mOwner
+;
+nsCOMPtr
+<
+nsILoadInfo
+>
+mLoadInfo
 ;
 nsCOMPtr
 <

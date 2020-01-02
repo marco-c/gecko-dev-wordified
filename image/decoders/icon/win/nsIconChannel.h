@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsILoadInfo
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -253,6 +260,12 @@ nsCOMPtr
 nsISupports
 >
 mOwner
+;
+nsCOMPtr
+<
+nsILoadInfo
+>
+mLoadInfo
 ;
 nsCOMPtr
 <
