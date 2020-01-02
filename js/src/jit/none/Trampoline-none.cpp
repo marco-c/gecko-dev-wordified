@@ -443,6 +443,7 @@ MacroAssembler
 PushRegsInMask
 (
 RegisterSet
+FloatRegisterSet
 )
 {
 MOZ_CRASH
@@ -473,6 +474,7 @@ PopRegsInMaskIgnore
 (
 RegisterSet
 RegisterSet
+FloatRegisterSet
 )
 {
 MOZ_CRASH
