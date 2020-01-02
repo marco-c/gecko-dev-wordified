@@ -6462,6 +6462,12 @@ _updateResetButton
 ;
 this
 .
+_updateEmptyPaletteNotice
+(
+)
+;
+this
+.
 _showPanelCustomizationPlaceholders
 (
 )
@@ -7129,6 +7135,14 @@ _changed
 =
 true
 ;
+if
+(
+!
+this
+.
+resetting
+)
+{
 this
 .
 _updateResetButton
@@ -7141,6 +7155,7 @@ _updateEmptyPaletteNotice
 (
 )
 ;
+}
 this
 .
 dispatchToolboxEvent
