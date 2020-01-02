@@ -2312,6 +2312,8 @@ duration
 ea
 -
 >
+mTiming
+.
 mIterationDuration
 ;
 animation
@@ -2324,6 +2326,8 @@ numIterations
 ea
 -
 >
+mTiming
+.
 mIterationCount
 !
 =
@@ -2334,6 +2338,8 @@ NS_IEEEPositiveInfinity
 ea
 -
 >
+mTiming
+.
 mIterationCount
 :
 -
@@ -2349,6 +2355,8 @@ direction
 ea
 -
 >
+mTiming
+.
 mDirection
 ;
 animation

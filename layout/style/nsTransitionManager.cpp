@@ -411,6 +411,8 @@ range
 double
 duration
 =
+mTiming
+.
 mIterationDuration
 .
 ToSeconds
@@ -5116,6 +5118,8 @@ delay
 pt
 -
 >
+mTiming
+.
 mIterationDuration
 =
 TimeDuration
@@ -5129,6 +5133,8 @@ duration
 pt
 -
 >
+mTiming
+.
 mIterationCount
 =
 1
@@ -5136,6 +5142,8 @@ mIterationCount
 pt
 -
 >
+mTiming
+.
 mDirection
 =
 NS_STYLE_ANIMATION_DIRECTION_NORMAL
@@ -5143,6 +5151,8 @@ NS_STYLE_ANIMATION_DIRECTION_NORMAL
 pt
 -
 >
+mTiming
+.
 mFillMode
 =
 NS_STYLE_ANIMATION_FILL_MODE_BACKWARDS
@@ -6717,6 +6727,8 @@ mDelay
 pt
 -
 >
+mTiming
+.
 mIterationDuration
 <
 =
@@ -6827,6 +6839,8 @@ prop
 pt
 -
 >
+mTiming
+.
 mIterationDuration
 ep
 =

@@ -2045,6 +2045,8 @@ IsPaused
 )
 |
 |
+mTiming
+.
 mIterationDuration
 .
 ToMilliseconds
@@ -2076,6 +2078,8 @@ ElapsedDurationAt
 aTime
 )
 /
+mTiming
+.
 mIterationDuration
 ;
 return
@@ -2089,6 +2093,8 @@ iterationsElapsed
 &
 iterationsElapsed
 <
+mTiming
+.
 mIterationCount
 ;
 }
