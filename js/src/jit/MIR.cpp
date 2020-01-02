@@ -1464,7 +1464,7 @@ void
 MTest
 :
 :
-infer
+cacheOperandMightEmulateUndefined
 (
 )
 {
@@ -13644,7 +13644,7 @@ void
 MTypeOf
 :
 :
-infer
+cacheInputMaybeCallableOrEmulatesUndefined
 (
 )
 {
@@ -16524,7 +16524,7 @@ void
 MNot
 :
 :
-infer
+cacheOperandMightEmulateUndefined
 (
 )
 {
