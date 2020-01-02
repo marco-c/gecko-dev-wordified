@@ -983,9 +983,7 @@ MOZ_CONSTEXPR
 explicit
 CodePosition
 (
-const
 uint32_t
-&
 bits
 )
 :
@@ -1159,9 +1157,7 @@ bool
 operator
 <
 (
-const
 CodePosition
-&
 other
 )
 const
@@ -1179,9 +1175,7 @@ operator
 <
 =
 (
-const
 CodePosition
-&
 other
 )
 const
@@ -1200,9 +1194,7 @@ operator
 !
 =
 (
-const
 CodePosition
-&
 other
 )
 const
@@ -1221,9 +1213,7 @@ operator
 =
 =
 (
-const
 CodePosition
-&
 other
 )
 const
@@ -1241,9 +1231,7 @@ bool
 operator
 >
 (
-const
 CodePosition
-&
 other
 )
 const
@@ -1261,9 +1249,7 @@ operator
 >
 =
 (
-const
 CodePosition
-&
 other
 )
 const
@@ -1563,9 +1549,7 @@ operator
 [
 ]
 (
-const
 CodePosition
-&
 pos
 )
 {
