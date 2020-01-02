@@ -6908,6 +6908,15 @@ index
 ]
 ;
 }
+JSObject
+*
+getBlockScope
+(
+jsbytecode
+*
+pc
+)
+;
 /
 *
 *
