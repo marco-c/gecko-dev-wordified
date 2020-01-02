@@ -82,13 +82,13 @@ serialVersionUID
 public
 NonArrayJSONException
 (
-Object
-object
+String
+detailMessage
 )
 {
 super
 (
-object
+detailMessage
 )
 ;
 }
