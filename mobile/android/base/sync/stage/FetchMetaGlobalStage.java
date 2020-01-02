@@ -486,7 +486,7 @@ metaURL
 )
 session
 .
-credentials
+getAuthHeaderProvider
 (
 )
 )
@@ -606,7 +606,7 @@ metaURL
 )
 session
 .
-credentials
+getAuthHeaderProvider
 (
 )
 )
