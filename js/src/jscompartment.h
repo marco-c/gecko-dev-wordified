@@ -1527,6 +1527,11 @@ checkNewTypeObjectTableAfterMovingGC
 (
 )
 ;
+void
+checkInitialShapesTableAfterMovingGC
+(
+)
+;
 #
 endif
 /

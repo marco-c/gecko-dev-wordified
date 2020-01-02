@@ -4023,6 +4023,13 @@ checkNewTypeObjectTableAfterMovingGC
 (
 )
 ;
+c
+-
+>
+checkInitialShapesTableAfterMovingGC
+(
+)
+;
 if
 (
 c
