@@ -1333,9 +1333,8 @@ nsIRequest
 IsPending
 (
 )
-virtual
 bool
-Pending
+IsPending
 (
 )
 const

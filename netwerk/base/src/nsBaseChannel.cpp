@@ -934,7 +934,7 @@ const
 NS_ASSERTION
 (
 !
-Pending
+IsPending
 (
 )
 "
@@ -1191,7 +1191,7 @@ as
 pending
 (
 see
-Pending
+IsPending
 )
 .
 It
@@ -1776,7 +1776,7 @@ result
 *
 result
 =
-Pending
+IsPending
 (
 )
 ;
@@ -3784,7 +3784,7 @@ status
 /
 /
 Cause
-Pending
+IsPending
 to
 return
 false
