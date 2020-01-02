@@ -1481,7 +1481,7 @@ Append
 if
 (
 mDefaultFontType
-!
+=
 =
 eFamily_serif
 )
