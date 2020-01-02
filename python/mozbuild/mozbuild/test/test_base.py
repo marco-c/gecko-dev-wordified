@@ -204,6 +204,18 @@ MOZCONFIG
 '
 None
 )
+        
+os
+.
+environ
+.
+pop
+(
+'
+MOZ_OBJDIR
+'
+None
+)
     
 def
 tearDown
