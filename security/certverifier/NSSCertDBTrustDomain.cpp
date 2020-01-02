@@ -1508,7 +1508,7 @@ trust
 SECSuccess
 )
 {
-PRUint32
+uint32_t
 flags
 =
 SEC_GET_TRUST_FLAGS
@@ -1580,7 +1580,7 @@ considered
 /
 distrusted
 .
-PRUint32
+uint32_t
 relevantTrustBit
 =
 endEntityOrCA

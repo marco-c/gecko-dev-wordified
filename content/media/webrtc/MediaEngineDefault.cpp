@@ -1029,7 +1029,7 @@ should
 be
 made
 async
-PRInt16
+int16_t
 dialogReturn
 ;
 rv

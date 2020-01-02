@@ -343,7 +343,7 @@ associated
 with
 the
 XMLHTTPRequest
-PRUint64
+uint64_t
 innerWindowID
 =
 0
