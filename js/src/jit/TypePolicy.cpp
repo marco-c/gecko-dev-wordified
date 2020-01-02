@@ -2420,10 +2420,14 @@ to
 null
 /
 undefined
+/
+lazyargs
 .
 So
 keep
 output
+/
+/
 also
 a
 value
@@ -2439,7 +2443,7 @@ outputType
 outputType
 =
 =
-MIRType_Magic
+MIRType_MagicOptimizedArguments
 )
 {
 JS_ASSERT
