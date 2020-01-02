@@ -1223,12 +1223,6 @@ ResidentFast
 (
 )
 ;
-#
-if
-defined
-(
-XP_LINUX
-)
 /
 /
 Convenience
@@ -1261,8 +1255,6 @@ ResidentUnique
 (
 )
 ;
-#
-endif
 /
 /
 Functions
