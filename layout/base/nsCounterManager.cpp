@@ -690,6 +690,9 @@ stack
 i
 ]
 ;
+bool
+isTextRTL
+;
 nsBulletFrame
 :
 :
@@ -701,6 +704,7 @@ n
 >
 mValueAfter
 aResult
+isTextRTL
 )
 ;
 if
