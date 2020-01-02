@@ -1303,7 +1303,6 @@ si
 -
 >
 cert
-nullptr
 certificateUsageEmailSigner
 PR_Now
 (
@@ -1313,6 +1312,12 @@ nullptr
 *
 XXX
 pinarg
+*
+/
+nullptr
+/
+*
+hostname
 *
 /
 )
