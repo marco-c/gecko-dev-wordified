@@ -213,13 +213,13 @@ DemuxAudioSample
 and
 DemuxVideoSample
 functions
+/
+/
 return
 nullptr
 on
 end
 of
-/
-/
 stream
 or
 error

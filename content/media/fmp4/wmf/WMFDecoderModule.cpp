@@ -442,6 +442,7 @@ WMFMediaDataDecoder
 new
 WMFVideoOutputSource
 (
+aConfig
 aLayersBackend
 aImageContainer
 sDXVAEnabled
