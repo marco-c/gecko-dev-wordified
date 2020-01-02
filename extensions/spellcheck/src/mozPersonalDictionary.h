@@ -253,12 +253,6 @@ mozPersonalDictionary
 (
 )
 ;
-virtual
-~
-mozPersonalDictionary
-(
-)
-;
 nsresult
 Init
 (
@@ -266,6 +260,12 @@ Init
 ;
 protected
 :
+virtual
+~
+mozPersonalDictionary
+(
+)
+;
 /
 *
 has

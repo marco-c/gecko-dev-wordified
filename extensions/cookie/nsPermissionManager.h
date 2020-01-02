@@ -883,12 +883,6 @@ nsPermissionManager
 (
 )
 ;
-virtual
-~
-nsPermissionManager
-(
-)
-;
 static
 nsIPermissionManager
 *
@@ -1012,6 +1006,12 @@ AppClearDataObserverInit
 ;
 private
 :
+virtual
+~
+nsPermissionManager
+(
+)
+;
 int32_t
 GetTypeIndex
 (

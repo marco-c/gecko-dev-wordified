@@ -1225,12 +1225,6 @@ mozInlineSpellChecker
 (
 )
 ;
-virtual
-~
-mozInlineSpellChecker
-(
-)
-;
 /
 /
 spell
@@ -1549,6 +1543,12 @@ aStatus
 ;
 protected
 :
+virtual
+~
+mozInlineSpellChecker
+(
+)
+;
 /
 /
 called

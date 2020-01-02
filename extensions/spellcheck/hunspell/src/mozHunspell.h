@@ -690,12 +690,6 @@ mozHunspell
 (
 )
 ;
-virtual
-~
-mozHunspell
-(
-)
-;
 nsresult
 Init
 (
@@ -780,6 +774,12 @@ engine
 }
 protected
 :
+virtual
+~
+mozHunspell
+(
+)
+;
 nsCOMPtr
 <
 mozIPersonalDictionary

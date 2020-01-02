@@ -228,6 +228,8 @@ int64_t
 aExpireTime
 )
 ;
+protected
+:
 virtual
 ~
 nsPermission
@@ -236,8 +238,6 @@ nsPermission
 {
 }
 ;
-protected
-:
 nsCString
 mHost
 ;

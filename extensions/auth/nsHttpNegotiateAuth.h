@@ -153,6 +153,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIHTTPAUTHENTICATOR
 private
 :
+~
+nsHttpNegotiateAuth
+(
+)
+{
+}
 /
 /
 returns

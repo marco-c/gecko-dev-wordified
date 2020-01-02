@@ -144,12 +144,6 @@ nsReadConfig
 (
 )
 ;
-virtual
-~
-nsReadConfig
-(
-)
-;
 nsresult
 Init
 (
@@ -157,6 +151,12 @@ Init
 ;
 protected
 :
+virtual
+~
+nsReadConfig
+(
+)
+;
 nsresult
 readConfigFile
 (

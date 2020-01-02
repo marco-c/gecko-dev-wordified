@@ -134,13 +134,6 @@ false
 )
 {
 }
-virtual
-~
-nsCookiePermission
-(
-)
-{
-}
 bool
 Init
 (
@@ -158,6 +151,13 @@ char
 ;
 private
 :
+virtual
+~
+nsCookiePermission
+(
+)
+{
+}
 bool
 EnsureInitialized
 (

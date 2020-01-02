@@ -478,6 +478,12 @@ kContractID
 ;
 private
 :
+~
+mozHunspellDirProvider
+(
+)
+{
+}
 class
 AppendingEnumerator
 MOZ_FINAL
@@ -498,6 +504,12 @@ aBase
 ;
 private
 :
+~
+AppendingEnumerator
+(
+)
+{
+}
 nsCOMPtr
 <
 nsISimpleEnumerator

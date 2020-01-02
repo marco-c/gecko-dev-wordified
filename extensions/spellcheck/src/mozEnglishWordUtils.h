@@ -166,12 +166,6 @@ mozEnglishWordUtils
 (
 )
 ;
-virtual
-~
-mozEnglishWordUtils
-(
-)
-;
 /
 *
 additional
@@ -189,6 +183,12 @@ HuhCap
 ;
 protected
 :
+virtual
+~
+mozEnglishWordUtils
+(
+)
+;
 mozEnglishWordUtils
 :
 :
