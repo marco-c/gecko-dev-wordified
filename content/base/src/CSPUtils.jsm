@@ -3707,7 +3707,7 @@ CSPLocalizer
 getFormatStr
 (
 "
-reportURInotHttpsOrHttp
+reportURInotHttpsOrHttp2
 "
 [
 uri
@@ -5800,7 +5800,7 @@ CSPLocalizer
 getFormatStr
 (
 "
-reportURInotHttpsOrHttp
+reportURInotHttpsOrHttp2
 "
 [
 uri
