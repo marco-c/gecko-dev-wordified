@@ -3002,7 +3002,7 @@ aRepeatEndFactor
 aRepeatStartFactor
 ;
 uint32_t
-numStops
+stopCount
 =
 aStops
 -
@@ -3043,7 +3043,7 @@ colors
 .
 reserve
 (
-numStops
+stopCount
 *
 repeatCount
 *
@@ -3054,7 +3054,7 @@ offsets
 .
 reserve
 (
-numStops
+stopCount
 *
 repeatCount
 )
@@ -3099,7 +3099,7 @@ i
 ;
 i
 <
-numStops
+stopCount
 ;
 i
 +
@@ -3111,7 +3111,7 @@ stopIndex
 =
 isReflected
 ?
-numStops
+stopCount
 -
 i
 -
@@ -3258,7 +3258,7 @@ front
 )
 repeatCount
 *
-numStops
+stopCount
 )
 ;
 CGColorSpaceRelease
