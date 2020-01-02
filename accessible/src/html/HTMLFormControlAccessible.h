@@ -628,16 +628,6 @@ NativeState
 (
 )
 ;
-virtual
-already_AddRefed
-<
-nsIPersistentProperties
->
-NativeAttributes
-(
-)
-MOZ_OVERRIDE
-;
 /
 /
 ActionAccessible

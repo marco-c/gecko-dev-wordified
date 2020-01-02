@@ -16345,17 +16345,6 @@ indent
 )
 GK_ATOM
 (
-textInputType
-"
-text
--
-input
--
-type
-"
-)
-GK_ATOM
-(
 textLineThroughColor
 "
 text
