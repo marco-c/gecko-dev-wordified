@@ -9515,7 +9515,11 @@ length
 ;
 args2
 [
-argc
+args
+.
+length
+(
+)
 ]
 .
 setObject
