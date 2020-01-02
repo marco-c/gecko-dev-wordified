@@ -95,6 +95,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 ;
 import
 org

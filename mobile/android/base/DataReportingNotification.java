@@ -103,6 +103,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferences
 ;
 import
@@ -111,6 +113,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 GeckoPreferenceFragment
 ;

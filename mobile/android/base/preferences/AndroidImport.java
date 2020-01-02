@@ -95,6 +95,17 @@ org
 mozilla
 .
 gecko
+.
+preferences
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+GeckoProfile
 ;
 import
 org
