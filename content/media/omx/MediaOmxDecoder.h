@@ -192,9 +192,14 @@ virtual
 void
 MetadataLoaded
 (
-MediaInfo
-*
-aInfo
+int
+aChannels
+int
+aRate
+bool
+aHasAudio
+bool
+aHasVideo
 MetadataTags
 *
 aTags
