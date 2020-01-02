@@ -4925,6 +4925,12 @@ isString
 )
 )
 {
+if
+(
+!
+fuzzingSafe
+)
+{
 JSString
 *
 str
@@ -4996,6 +5002,7 @@ fileName
 return
 false
 ;
+}
 }
 +
 +
