@@ -558,6 +558,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 /
 /
 String
