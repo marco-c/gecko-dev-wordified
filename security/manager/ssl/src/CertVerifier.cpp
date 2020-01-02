@@ -402,7 +402,7 @@ certificateUsageSSLServer
 )
 {
 /
-*
+/
 SSL
 server
 cert
@@ -413,7 +413,8 @@ used
 CERT_VerifyCert
 so
 we
-*
+/
+/
 continue
 to
 use
@@ -427,7 +428,8 @@ minimize
 the
 risk
 of
-*
+/
+/
 there
 being
 any
@@ -437,11 +439,10 @@ results
 between
 CERT_VerifyCert
 and
-*
+/
+/
 CERT_VerifyCertificate
 .
-*
-/
 rv
 =
 CERT_VerifyCert

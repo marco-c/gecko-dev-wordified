@@ -213,11 +213,6 @@ nsINSSComponent
 class
 nsIASN1Sequence
 ;
-/
-*
-Certificate
-*
-/
 class
 nsNSSCertificate
 :
@@ -260,14 +255,6 @@ nsNSSCertificate
 (
 )
 ;
-/
-*
-from
-a
-request
-?
-*
-/
 virtual
 ~
 nsNSSCertificate
@@ -827,7 +814,5 @@ bb20
 #
 endif
 /
-*
-_NS_NSSCERTIFICATE_H_
-*
 /
+_NS_NSSCERTIFICATE_H_
