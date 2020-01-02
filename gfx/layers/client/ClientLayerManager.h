@@ -985,6 +985,12 @@ Composite
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+DidComposite
+(
+)
+;
 protected
 :
 enum
