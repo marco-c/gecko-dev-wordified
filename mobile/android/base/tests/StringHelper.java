@@ -891,17 +891,6 @@ public
 static
 final
 String
-SEARCH_SETTINGS_LABEL
-=
-"
-Search
-settings
-"
-;
-public
-static
-final
-String
 IMPORT_FROM_ANDROID_LABEL
 =
 "
@@ -1059,8 +1048,7 @@ CLEAR_PRIVATE_DATA_LABEL
 =
 "
 Clear
-private
-data
+now
 "
 ;
 /
