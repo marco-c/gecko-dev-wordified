@@ -2126,7 +2126,10 @@ gl
 >
 ResizeOffscreen
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 width
 height

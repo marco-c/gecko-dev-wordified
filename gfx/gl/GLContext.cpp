@@ -9935,11 +9935,8 @@ mScreen
 >
 PublishFrame
 (
-ThebesIntSize
-(
 OffscreenSize
 (
-)
 )
 )
 )

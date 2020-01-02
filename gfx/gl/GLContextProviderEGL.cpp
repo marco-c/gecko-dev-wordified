@@ -2882,10 +2882,7 @@ aNewSize
 return
 ResizeScreenBuffer
 (
-ThebesIntSize
-(
 aNewSize
-)
 )
 ;
 }
@@ -4160,7 +4157,10 @@ glContext
 >
 InitOffscreen
 (
+ToIntSize
+(
 size
+)
 caps
 )
 )
