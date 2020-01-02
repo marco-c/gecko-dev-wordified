@@ -6800,10 +6800,6 @@ outstandingRequests
 )
 #
 endif
-resolveFlags
-(
-0
-)
 iterValue
 (
 MagicValue
