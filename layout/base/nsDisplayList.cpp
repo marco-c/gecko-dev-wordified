@@ -12935,8 +12935,6 @@ mFrame
 flags
 borderArea
 aClipRect
-*
-mBackgroundStyle
 layer
 )
 ;
@@ -13124,8 +13122,6 @@ mFrame
 flags
 borderArea
 borderArea
-*
-mBackgroundStyle
 layer
 )
 ;
@@ -14768,8 +14764,6 @@ GetSize
 (
 )
 )
-*
-mBackgroundStyle
 mBackgroundStyle
 -
 >
@@ -15484,8 +15478,6 @@ presContext
 mFrame
 borderBox
 clipRect
-*
-mBackgroundStyle
 layer
 aBuilder
 -
