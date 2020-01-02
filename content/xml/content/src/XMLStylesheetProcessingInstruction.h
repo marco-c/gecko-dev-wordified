@@ -360,6 +360,7 @@ return
 UpdateStyleSheetInternal
 (
 nullptr
+nullptr
 true
 )
 ;

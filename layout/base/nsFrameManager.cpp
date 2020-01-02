@@ -4196,11 +4196,12 @@ if
 parentContent
 &
 &
-parentContent
--
->
-IsActiveChildrenElement
+nsContentUtils
+:
+:
+IsContentInsertionPoint
 (
+parentContent
 )
 )
 {
