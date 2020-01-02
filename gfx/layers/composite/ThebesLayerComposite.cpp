@@ -1013,7 +1013,7 @@ mBuffer
 nullptr
 ;
 }
-LayerSize
+gfxSize
 ThebesLayerComposite
 :
 :
@@ -1087,7 +1087,7 @@ on
 each
 layer
 .
-LayerSize
+gfxSize
 resolution
 (
 1
@@ -1237,7 +1237,7 @@ tiles
 gfxRect
 displayPort
 ;
-LayerSize
+gfxSize
 parentResolution
 =
 GetEffectiveResolution

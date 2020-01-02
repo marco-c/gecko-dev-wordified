@@ -535,7 +535,7 @@ bool
 CanUseCanvasLayerForSize
 (
 const
-LayerIntSize
+gfxIntSize
 &
 aSize
 )
@@ -544,7 +544,7 @@ return
 aSize
 <
 =
-LayerIntSize
+gfxIntSize
 (
 MAX_TEXTURE_SIZE
 MAX_TEXTURE_SIZE

@@ -304,13 +304,6 @@ LayerOGL
 GLContext
 etc
 #
-include
-"
-gfx2DGlue
-.
-h
-"
-#
 ifdef
 XP_MACOSX
 #
@@ -2286,7 +2279,7 @@ CanvasLayerOGL
 GetTempSurface
 (
 const
-LayerIntSize
+gfxIntSize
 &
 aSize
 const
@@ -2331,14 +2324,7 @@ mCachedTempSurface
 new
 gfxImageSurface
 (
-ThebesIntSize
-(
 aSize
-.
-ToUnknownSize
-(
-)
-)
 aFormat
 )
 ;

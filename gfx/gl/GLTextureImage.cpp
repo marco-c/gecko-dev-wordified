@@ -1461,7 +1461,10 @@ GLContext
 *
 aGL
 const
-LayerIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 TextureImage
@@ -1485,10 +1488,6 @@ aGL
 ThebesIntSize
 (
 aSize
-.
-ToUnknownSize
-(
-)
 )
 aContentType
 aWrapMode

@@ -1246,10 +1246,7 @@ pixel
 aspect
 ratio
 .
-gfx
-:
-:
-IntSize
+gfxIntSize
 frameSize
 =
 container

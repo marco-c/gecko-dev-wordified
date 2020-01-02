@@ -145,6 +145,17 @@ LayerOGL
 #
 include
 "
+gfxPoint
+.
+h
+"
+/
+/
+for
+gfxIntSize
+#
+include
+"
 mozilla
 /
 Assertions
@@ -609,7 +620,7 @@ aTexture
 TextureType
 aType
 const
-LayerIntSize
+gfxIntSize
 &
 aSize
 )
@@ -620,7 +631,7 @@ GetTexture
 TextureType
 aType
 const
-LayerIntSize
+gfxIntSize
 &
 aSize
 GLContext
@@ -663,7 +674,7 @@ mRecycledTextures
 2
 ]
 ;
-LayerIntSize
+gfxIntSize
 mRecycledTextureSizes
 [
 2
@@ -726,10 +737,7 @@ LoadAsTexture
 (
 GLuint
 aTextureUnit
-gfx
-:
-:
-IntSize
+gfxIntSize
 *
 aSize
 )
@@ -892,7 +900,7 @@ mTextures
 3
 ]
 ;
-LayerIntSize
+gfxIntSize
 mYSize
 mCbCrSize
 ;
@@ -926,10 +934,7 @@ mTexture
 ShaderProgramType
 mLayerProgram
 ;
-gfx
-:
-:
-IntSize
+gfxIntSize
 mTextureSize
 ;
 }

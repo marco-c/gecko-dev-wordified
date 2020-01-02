@@ -405,13 +405,6 @@ h
 /
 for
 PR_GetEnv
-#
-include
-"
-gfx2DGlue
-.
-h
-"
 using
 namespace
 mozilla
@@ -853,10 +846,7 @@ ISurfaceAllocator
 PlatformAllocSurfaceDescriptor
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 aSize
 gfxContentType
@@ -972,10 +962,7 @@ platform
 >
 CreateOffscreenSurface
 (
-ThebesIntSize
-(
 aSize
-)
 aContent
 )
 ;

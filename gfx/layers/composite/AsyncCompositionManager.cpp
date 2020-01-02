@@ -214,6 +214,7 @@ h
 /
 for
 gfxPoint
+gfxSize
 #
 include
 "
@@ -4725,10 +4726,7 @@ Translate
 overscrollTranslation
 )
 ;
-gfx
-:
-:
-Size
+gfxSize
 underZoomScale
 (
 1

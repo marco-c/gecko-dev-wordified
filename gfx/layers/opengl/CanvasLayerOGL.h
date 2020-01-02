@@ -156,6 +156,17 @@ h
 #
 include
 "
+gfxPoint
+.
+h
+"
+/
+/
+for
+gfxIntSize
+#
+include
+"
 mozilla
 /
 Preferences
@@ -417,7 +428,7 @@ gfxImageSurface
 >
 mCachedTempSurface
 ;
-LayerIntSize
+gfxIntSize
 mCachedSize
 ;
 gfxImageFormat
@@ -428,7 +439,7 @@ gfxImageSurface
 GetTempSurface
 (
 const
-LayerIntSize
+gfxIntSize
 &
 aSize
 const

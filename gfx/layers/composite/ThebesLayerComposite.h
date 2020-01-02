@@ -118,6 +118,17 @@ etc
 #
 include
 "
+gfxPoint
+.
+h
+"
+/
+/
+for
+gfxSize
+#
+include
+"
 gfxRect
 .
 h
@@ -492,7 +503,7 @@ GetDisplayPort
 (
 )
 ;
-LayerSize
+gfxSize
 GetEffectiveResolution
 (
 )

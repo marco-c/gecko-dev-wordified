@@ -163,6 +163,17 @@ h
 #
 include
 "
+gfxPoint
+.
+h
+"
+/
+/
+for
+gfxSize
+#
+include
+"
 mozilla
 /
 Assertions
@@ -693,7 +704,7 @@ nsIntRegion
 &
 aInvalidateRegion
 const
-LayerSize
+gfxSize
 &
 aResolution
 )
@@ -737,7 +748,7 @@ layers
 FrameMetrics
 .
 const
-LayerSize
+gfxSize
 &
 GetFrameResolution
 (
@@ -832,7 +843,7 @@ BasicTiledLayerBuffer
 *
 mMainMemoryTiledBuffer
 ;
-LayerSize
+gfxSize
 mFrameResolution
 ;
 }

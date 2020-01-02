@@ -646,13 +646,6 @@ RestyleManager
 .
 h
 "
-#
-include
-"
-gfx2DGlue
-.
-h
-"
 using
 namespace
 mozilla
@@ -30563,10 +30556,7 @@ container
 return
 result
 ;
-gfx
-:
-:
-IntSize
+gfxIntSize
 size
 ;
 nsRefPtr
@@ -30591,14 +30581,6 @@ surf
 )
 return
 result
-;
-gfxIntSize
-gfxSize
-=
-ThebesIntSize
-(
-size
-)
 ;
 if
 (
@@ -30625,7 +30607,7 @@ imgSurf
 new
 gfxImageSurface
 (
-gfxSize
+size
 gfxImageFormatARGB32
 )
 ;
@@ -30658,7 +30640,7 @@ ctx
 DrawSurface
 (
 surf
-gfxSize
+size
 )
 ;
 surf
@@ -30690,7 +30672,7 @@ result
 .
 mSize
 =
-gfxSize
+size
 ;
 result
 .

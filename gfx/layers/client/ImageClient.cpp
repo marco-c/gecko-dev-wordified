@@ -1113,7 +1113,10 @@ FORMAT_YUV
 TEXTURE_FLAGS_DEFAULT
 )
 ;
-LayerIntSize
+gfx
+:
+:
+IntSize
 ySize
 (
 data
@@ -1130,7 +1133,10 @@ mYSize
 height
 )
 ;
-LayerIntSize
+gfx
+:
+:
+IntSize
 cbCrSize
 (
 data

@@ -2835,10 +2835,7 @@ PGrallocBufferChild
 AllocGrallocBuffer
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 aSize
 uint32_t

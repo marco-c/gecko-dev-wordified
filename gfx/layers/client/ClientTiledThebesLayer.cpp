@@ -124,6 +124,17 @@ gfxPlatform
 #
 include
 "
+gfxPoint
+.
+h
+"
+/
+/
+for
+gfxSize
+#
+include
+"
 gfxRect
 .
 h

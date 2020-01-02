@@ -222,10 +222,7 @@ gl
 SharedTextureShareType
 mShareType
 ;
-gfx
-:
-:
-IntSize
+gfxIntSize
 mSize
 ;
 bool
@@ -259,10 +256,7 @@ return
 mData
 ;
 }
-gfx
-:
-:
-IntSize
+gfxIntSize
 GetSize
 (
 )
