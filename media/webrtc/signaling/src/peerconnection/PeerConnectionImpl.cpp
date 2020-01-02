@@ -679,7 +679,7 @@ XRE_GetProcessType
 GeckoProcessType_Content
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Must
@@ -690,6 +690,9 @@ content
 process
 "
 )
+;
+return
+NS_ERROR_FAILURE
 ;
 }
 static
