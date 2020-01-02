@@ -1864,8 +1864,7 @@ TextureHost
 *
 aTexture
 )
-{
-}
+;
 /
 /
 If
