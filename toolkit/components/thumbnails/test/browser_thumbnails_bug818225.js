@@ -103,13 +103,6 @@ exist
 )
 ;
 yield
-addVisitsAndRepopulateNewTabLinks
-(
-URL
-next
-)
-;
-yield
 createThumbnail
 (
 URL
