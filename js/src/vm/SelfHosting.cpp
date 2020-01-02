@@ -3444,6 +3444,15 @@ ArrayObject
 obj
 -
 >
+hasLazyType
+(
+)
+&
+&
+!
+obj
+-
+>
 type
 (
 )
