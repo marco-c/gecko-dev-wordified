@@ -806,10 +806,6 @@ TransformScrollableLayer
 Layer
 *
 aLayer
-const
-LayoutDeviceToLayerScale
-&
-aResolution
 )
 ;
 /
