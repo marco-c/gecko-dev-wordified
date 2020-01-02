@@ -445,6 +445,13 @@ NS_OK
 }
 virtual
 void
+StopStream
+(
+)
+{
+}
+virtual
+void
 Periodic
 (
 )
@@ -975,6 +982,7 @@ mStop
 is
 true
 .
+virtual
 void
 StopStream
 (
