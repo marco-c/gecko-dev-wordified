@@ -102,13 +102,6 @@ nsStringBundleService_h__
 #
 include
 "
-plarena
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -275,9 +268,6 @@ LinkedList
 bundleCacheEntry_t
 >
 mBundleCache
-;
-PLArenaPool
-mCacheEntryPool
 ;
 nsCOMPtr
 <
