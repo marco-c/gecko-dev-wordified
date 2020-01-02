@@ -1276,10 +1276,6 @@ TypedObjectElements
 )
 SAFE_OP
 (
-SetTypedObjectOffset
-)
-SAFE_OP
-(
 InitializedLength
 )
 WRITE_GUARDED_OP
