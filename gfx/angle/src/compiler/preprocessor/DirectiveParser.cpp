@@ -7,6 +7,8 @@ Copyright
 c
 )
 2011
+-
+2013
 The
 ANGLE
 Project
@@ -129,11 +131,6 @@ DIRECTIVE_VERSION
 DIRECTIVE_LINE
 }
 ;
-}
-/
-/
-namespace
-static
 DirectiveType
 getDirective
 (
@@ -347,7 +344,6 @@ kDirectiveDefine
 return
 DIRECTIVE_DEFINE
 ;
-else
 if
 (
 token
@@ -361,7 +357,6 @@ kDirectiveUndef
 return
 DIRECTIVE_UNDEF
 ;
-else
 if
 (
 token
@@ -375,7 +370,6 @@ kDirectiveIf
 return
 DIRECTIVE_IF
 ;
-else
 if
 (
 token
@@ -389,7 +383,6 @@ kDirectiveIfdef
 return
 DIRECTIVE_IFDEF
 ;
-else
 if
 (
 token
@@ -403,7 +396,6 @@ kDirectiveIfndef
 return
 DIRECTIVE_IFNDEF
 ;
-else
 if
 (
 token
@@ -417,7 +409,6 @@ kDirectiveElse
 return
 DIRECTIVE_ELSE
 ;
-else
 if
 (
 token
@@ -431,7 +422,6 @@ kDirectiveElif
 return
 DIRECTIVE_ELIF
 ;
-else
 if
 (
 token
@@ -445,7 +435,6 @@ kDirectiveEndif
 return
 DIRECTIVE_ENDIF
 ;
-else
 if
 (
 token
@@ -459,7 +448,6 @@ kDirectiveError
 return
 DIRECTIVE_ERROR
 ;
-else
 if
 (
 token
@@ -473,7 +461,6 @@ kDirectivePragma
 return
 DIRECTIVE_PRAGMA
 ;
-else
 if
 (
 token
@@ -487,7 +474,6 @@ kDirectiveExtension
 return
 DIRECTIVE_EXTENSION
 ;
-else
 if
 (
 token
@@ -501,7 +487,6 @@ kDirectiveVersion
 return
 DIRECTIVE_VERSION
 ;
-else
 if
 (
 token
@@ -519,7 +504,6 @@ return
 DIRECTIVE_NONE
 ;
 }
-static
 bool
 isConditionalDirective
 (
@@ -572,7 +556,6 @@ End
 Of
 Directive
 .
-static
 bool
 isEOD
 (
@@ -617,7 +600,6 @@ LAST
 )
 ;
 }
-static
 void
 skipUntilEOD
 (
@@ -654,7 +636,6 @@ token
 ;
 }
 }
-static
 bool
 isMacroNameReserved
 (
@@ -733,7 +714,6 @@ return
 false
 ;
 }
-static
 bool
 isMacroPredefined
 (
@@ -789,6 +769,11 @@ predefined
 false
 ;
 }
+}
+/
+/
+namespace
+anonymous
 namespace
 pp
 {
@@ -948,7 +933,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 token
 -
 >
@@ -1043,7 +1028,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 token
 -
 >
@@ -1248,7 +1233,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_UNTERMINATED
+PP_CONDITIONAL_UNTERMINATED
 block
 .
 location
@@ -1402,7 +1387,7 @@ report
 Diagnostics
 :
 :
-DIRECTIVE_INVALID_NAME
+PP_DIRECTIVE_INVALID_NAME
 token
 -
 >
@@ -1589,7 +1574,7 @@ report
 Diagnostics
 :
 :
-EOF_IN_DIRECTIVE
+PP_EOF_IN_DIRECTIVE
 token
 -
 >
@@ -1654,7 +1639,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 token
 -
 >
@@ -1689,7 +1674,7 @@ report
 Diagnostics
 :
 :
-MACRO_PREDEFINED_REDEFINED
+PP_MACRO_PREDEFINED_REDEFINED
 token
 -
 >
@@ -1722,7 +1707,7 @@ report
 Diagnostics
 :
 :
-MACRO_NAME_RESERVED
+PP_MACRO_NAME_RESERVED
 token
 -
 >
@@ -1891,7 +1876,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 token
 -
 >
@@ -2119,7 +2104,7 @@ report
 Diagnostics
 :
 :
-MACRO_REDEFINED
+PP_MACRO_REDEFINED
 token
 -
 >
@@ -2202,7 +2187,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 token
 -
 >
@@ -2264,7 +2249,7 @@ report
 Diagnostics
 :
 :
-MACRO_PREDEFINED_UNDEFINED
+PP_MACRO_PREDEFINED_UNDEFINED
 token
 -
 >
@@ -2420,7 +2405,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_ELSE_WITHOUT_IF
+PP_CONDITIONAL_ELSE_WITHOUT_IF
 token
 -
 >
@@ -2492,7 +2477,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_ELSE_AFTER_ELSE
+PP_CONDITIONAL_ELSE_AFTER_ELSE
 token
 -
 >
@@ -2569,7 +2554,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_UNEXPECTED_TOKEN
+PP_CONDITIONAL_UNEXPECTED_TOKEN
 token
 -
 >
@@ -2627,7 +2612,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_ELIF_WITHOUT_IF
+PP_CONDITIONAL_ELIF_WITHOUT_IF
 token
 -
 >
@@ -2699,7 +2684,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_ELIF_AFTER_ELSE
+PP_CONDITIONAL_ELIF_AFTER_ELSE
 token
 -
 >
@@ -2826,7 +2811,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_ENDIF_WITHOUT_IF
+PP_CONDITIONAL_ENDIF_WITHOUT_IF
 token
 -
 >
@@ -2888,7 +2873,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_UNEXPECTED_TOKEN
+PP_CONDITIONAL_UNEXPECTED_TOKEN
 token
 -
 >
@@ -3297,7 +3282,7 @@ report
 Diagnostics
 :
 :
-UNRECOGNIZED_PRAGMA
+PP_UNRECOGNIZED_PRAGMA
 token
 -
 >
@@ -3460,7 +3445,7 @@ report
 Diagnostics
 :
 :
-INVALID_EXTENSION_NAME
+PP_INVALID_EXTENSION_NAME
 token
 -
 >
@@ -3518,7 +3503,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 token
 -
 >
@@ -3566,7 +3551,7 @@ report
 Diagnostics
 :
 :
-INVALID_EXTENSION_BEHAVIOR
+PP_INVALID_EXTENSION_BEHAVIOR
 token
 -
 >
@@ -3610,7 +3595,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 token
 -
 >
@@ -3661,7 +3646,7 @@ report
 Diagnostics
 :
 :
-INVALID_EXTENSION_DIRECTIVE
+PP_INVALID_EXTENSION_DIRECTIVE
 token
 -
 >
@@ -3730,7 +3715,7 @@ report
 Diagnostics
 :
 :
-VERSION_NOT_FIRST_STATEMENT
+PP_VERSION_NOT_FIRST_STATEMENT
 token
 -
 >
@@ -3754,6 +3739,8 @@ enum
 State
 {
 VERSION_NUMBER
+VERSION_PROFILE
+VERSION_ENDLINE
 }
 ;
 bool
@@ -3781,6 +3768,9 @@ token
 ;
 while
 (
+valid
+&
+&
 (
 token
 -
@@ -3812,18 +3802,12 @@ LAST
 switch
 (
 state
-+
-+
 )
 {
 case
 VERSION_NUMBER
 :
 if
-(
-valid
-&
-&
 (
 token
 -
@@ -3836,7 +3820,6 @@ Token
 :
 CONST_INT
 )
-)
 {
 mDiagnostics
 -
@@ -3846,7 +3829,7 @@ report
 Diagnostics
 :
 :
-INVALID_VERSION_NUMBER
+PP_INVALID_VERSION_NUMBER
 token
 -
 >
@@ -3886,7 +3869,7 @@ report
 Diagnostics
 :
 :
-INTEGER_OVERFLOW
+PP_INTEGER_OVERFLOW
 token
 -
 >
@@ -3902,13 +3885,52 @@ valid
 false
 ;
 }
-break
-;
-default
-:
 if
 (
 valid
+)
+{
+state
+=
+(
+version
+<
+300
+)
+?
+VERSION_ENDLINE
+:
+VERSION_PROFILE
+;
+}
+break
+;
+case
+VERSION_PROFILE
+:
+if
+(
+token
+-
+>
+type
+!
+=
+Token
+:
+:
+IDENTIFIER
+|
+|
+token
+-
+>
+text
+!
+=
+"
+es
+"
 )
 {
 mDiagnostics
@@ -3919,7 +3941,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_INVALID_VERSION_DIRECTIVE
 token
 -
 >
@@ -3935,6 +3957,37 @@ valid
 false
 ;
 }
+state
+=
+VERSION_ENDLINE
+;
+break
+;
+default
+:
+mDiagnostics
+-
+>
+report
+(
+Diagnostics
+:
+:
+PP_UNEXPECTED_TOKEN
+token
+-
+>
+location
+token
+-
+>
+text
+)
+;
+valid
+=
+false
+;
 break
 ;
 }
@@ -3956,9 +4009,7 @@ valid
 state
 !
 =
-VERSION_NUMBER
-+
-1
+VERSION_ENDLINE
 )
 )
 {
@@ -3970,7 +4021,7 @@ report
 Diagnostics
 :
 :
-INVALID_VERSION_DIRECTIVE
+PP_INVALID_VERSION_DIRECTIVE
 token
 -
 >
@@ -3990,6 +4041,7 @@ if
 (
 valid
 )
+{
 mDirectiveHandler
 -
 >
@@ -4002,6 +4054,7 @@ location
 version
 )
 ;
+}
 }
 void
 DirectiveParser
@@ -4132,7 +4185,7 @@ report
 Diagnostics
 :
 :
-INVALID_LINE_NUMBER
+PP_INVALID_LINE_NUMBER
 token
 -
 >
@@ -4172,7 +4225,7 @@ report
 Diagnostics
 :
 :
-INTEGER_OVERFLOW
+PP_INTEGER_OVERFLOW
 token
 -
 >
@@ -4220,7 +4273,7 @@ report
 Diagnostics
 :
 :
-INVALID_FILE_NUMBER
+PP_INVALID_FILE_NUMBER
 token
 -
 >
@@ -4260,7 +4313,7 @@ report
 Diagnostics
 :
 :
-INTEGER_OVERFLOW
+PP_INTEGER_OVERFLOW
 token
 -
 >
@@ -4293,7 +4346,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 token
 -
 >
@@ -4351,7 +4404,7 @@ report
 Diagnostics
 :
 :
-INVALID_LINE_DIRECTIVE
+PP_INVALID_LINE_DIRECTIVE
 token
 -
 >
@@ -4746,7 +4799,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_UNEXPECTED_TOKEN
+PP_CONDITIONAL_UNEXPECTED_TOKEN
 token
 -
 >
@@ -4833,7 +4886,7 @@ report
 Diagnostics
 :
 :
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 token
 -
 >
@@ -4925,7 +4978,7 @@ report
 Diagnostics
 :
 :
-CONDITIONAL_UNEXPECTED_TOKEN
+PP_CONDITIONAL_UNEXPECTED_TOKEN
 token
 -
 >

@@ -142,6 +142,15 @@ isResultAvailable
 =
 0
 ;
+virtual
+bool
+isStarted
+(
+)
+const
+=
+0
+;
 GLenum
 getType
 (

@@ -74,15 +74,6 @@ debug
 .
 h
 "
-#
-include
-"
-common
-/
-system
-.
-h
-"
 namespace
 egl
 {
@@ -218,6 +209,8 @@ Context
 *
 glCreateContext
 (
+int
+clientVersion
 const
 gl
 :

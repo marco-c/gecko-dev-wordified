@@ -152,7 +152,6 @@ ios
 hex
 ;
 }
-else
 if
 (
 (

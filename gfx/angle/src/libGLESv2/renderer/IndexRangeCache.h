@@ -82,6 +82,11 @@ angleutils
 .
 h
 "
+#
+include
+<
+map
+>
 namespace
 rx
 {
@@ -95,7 +100,8 @@ addRange
 (
 GLenum
 type
-intptr_t
+unsigned
+int
 offset
 GLsizei
 count
@@ -115,7 +121,8 @@ findRange
 (
 GLenum
 type
-intptr_t
+unsigned
+int
 offset
 GLsizei
 count
@@ -158,7 +165,8 @@ IndexRange
 GLenum
 type
 ;
-intptr_t
+unsigned
+int
 offset
 ;
 GLsizei

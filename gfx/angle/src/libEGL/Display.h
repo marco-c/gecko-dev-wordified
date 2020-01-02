@@ -99,15 +99,6 @@ define
 LIBEGL_DISPLAY_H_
 #
 include
-"
-common
-/
-system
-.
-h
-"
-#
-include
 <
 set
 >
@@ -230,6 +221,8 @@ createContext
 (
 EGLConfig
 configHandle
+EGLint
+clientVersion
 const
 gl
 :
