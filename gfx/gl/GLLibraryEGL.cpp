@@ -141,7 +141,7 @@ static
 const
 char
 *
-sExtensionNames
+sEGLExtensionNames
 [
 ]
 =
@@ -1792,7 +1792,7 @@ InitializeExtensionsBitSet
 (
 mAvailableExtensions
 extensions
-sExtensionNames
+sEGLExtensionNames
 firstRun
 &
 &
