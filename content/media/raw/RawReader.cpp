@@ -1633,7 +1633,7 @@ rv
 ;
 mVideoQueue
 .
-Erase
+Reset
 (
 )
 ;
