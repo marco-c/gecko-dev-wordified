@@ -7747,6 +7747,15 @@ short
 button
 :
 {
+icon
+:
+"
+drawable
+:
+/
+/
+undo_button_icon
+"
 label
 :
 Strings
@@ -7758,7 +7767,7 @@ GetStringFromName
 "
 undoCloseToast
 .
-action
+action2
 "
 )
 callback
