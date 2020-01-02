@@ -367,9 +367,9 @@ properties
 )
 ;
 function
-log
+debug
 (
-message
+aMessage
 )
 {
 /
@@ -457,11 +457,16 @@ e
 logcat
 )
 .
+#
+ifdef
+MOZ_DEBUG
 dump
 (
-message
+aMessage
 )
 ;
+#
+endif
 }
 function
 sendMessageToJava
@@ -701,7 +706,7 @@ KO
 aMessage
 )
 ;
-log
+debug
 (
 "
 error
@@ -757,7 +762,7 @@ function
 aManifestUrl
 )
 {
-log
+debug
 (
 "
 _downloadApk
@@ -889,7 +894,7 @@ join
 "
 )
 ;
-log
+debug
 (
 "
 downloading
@@ -978,7 +983,7 @@ FileUtils
 PERMS_FILE
 )
 ;
-log
+debug
 (
 "
 downloading
@@ -1067,7 +1072,7 @@ type
 "
 failure
 "
-log
+debug
 (
 "
 error
@@ -1264,7 +1269,7 @@ app
 manifest
 )
 {
-log
+debug
 (
 "
 deleting
@@ -1408,7 +1413,7 @@ origin
 }
 )
 {
-log
+debug
 (
 "
 launchWebapp
@@ -1445,7 +1450,7 @@ function
 aData
 )
 {
-log
+debug
 (
 "
 uninstall
@@ -1566,7 +1571,7 @@ to
 report
 errors
 .
-log
+debug
 (
 "
 sendAsyncMessage
@@ -1839,7 +1844,7 @@ function
 (
 )
 {
-log
+debug
 (
 "
 _autoUpdate
@@ -1942,7 +1947,7 @@ function
 (
 )
 {
-log
+debug
 (
 "
 checkForUpdates
@@ -1997,7 +2002,7 @@ this
 _checkingForUpdates
 )
 {
-log
+debug
 (
 "
 already
@@ -3598,7 +3603,7 @@ catch
 ex
 )
 {
-log
+debug
 (
 "
 error
@@ -3921,7 +3926,7 @@ apkPackageName
 1
 )
 {
-log
+debug
 (
 "
 attempting
@@ -3945,7 +3950,7 @@ function
 (
 )
 {
-log
+debug
 (
 "
 success
@@ -3963,7 +3968,7 @@ function
 error
 )
 {
-log
+debug
 (
 "
 error
@@ -4171,7 +4176,7 @@ onError
 reason
 )
 {
-log
+debug
 (
 "
 Error
