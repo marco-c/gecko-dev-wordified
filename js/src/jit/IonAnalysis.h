@@ -189,14 +189,6 @@ observe
 )
 ;
 bool
-MakeLoopsContiguous
-(
-MIRGraph
-&
-graph
-)
-;
-bool
 EliminateDeadResumePointOperands
 (
 MIRGenerator

@@ -1137,11 +1137,6 @@ PhiAnalysis
 \
 _
 (
-MakeLoopsContiguous
-)
-\
-_
-(
 ApplyTypes
 )
 \
