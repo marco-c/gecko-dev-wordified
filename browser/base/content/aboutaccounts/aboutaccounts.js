@@ -480,9 +480,7 @@ sb
 GetStringFromName
 (
 "
-relink
-.
-verify
+relinkVerify
 .
 title
 "
@@ -496,9 +494,7 @@ sb
 formatStringFromName
 (
 "
-relink
-.
-verify
+relinkVerify
 .
 description
 "
@@ -516,9 +512,7 @@ sb
 GetStringFromName
 (
 "
-relink
-.
-verify
+relinkVerify
 .
 heading
 "
