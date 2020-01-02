@@ -303,8 +303,9 @@ netId
 true
 1234
 4321
-new
 Date
+.
+now
 (
 )
 )
@@ -367,8 +368,9 @@ netId
 false
 1234
 4321
-new
 Date
+.
+now
 (
 )
 )

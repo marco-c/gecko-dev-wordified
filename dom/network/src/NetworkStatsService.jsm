@@ -4705,7 +4705,7 @@ aNetId
 aResult
 aRxBytes
 aTxBytes
-aDate
+aTimestamp
 )
 {
 if
@@ -4770,7 +4770,11 @@ network
 type
 date
 :
-aDate
+new
+Date
+(
+aTimestamp
+)
 rxBytes
 :
 aTxBytes
