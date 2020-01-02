@@ -219,7 +219,7 @@ h
 #
 include
 "
-nsXPathResult
+XPathResult
 .
 h
 "
@@ -3551,7 +3551,7 @@ NS_ERROR_DOM_SECURITY_ERR
 /
 Clone
 the
-nsXPathResult
+XPathResult
 so
 that
 mutations

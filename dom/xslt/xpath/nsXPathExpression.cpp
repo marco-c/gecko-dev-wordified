@@ -154,7 +154,7 @@ h
 #
 include
 "
-nsXPathResult
+XPathResult
 .
 h
 "
@@ -172,6 +172,13 @@ txXPathTreeWalker
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 using
 mozilla
 :
@@ -771,7 +778,7 @@ ours
 xpathResult
 =
 new
-nsXPathResult
+XPathResult
 (
 )
 ;
