@@ -518,7 +518,7 @@ BigInteger
 (
 Utils
 .
-byte2hex
+byte2Hex
 (
 first
 )
@@ -533,7 +533,7 @@ BigInteger
 (
 Utils
 .
-byte2hex
+byte2Hex
 (
 second
 )
