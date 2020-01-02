@@ -417,11 +417,31 @@ kwargs
 )
 :
         
+capabilities
+=
+self
+.
+marionette
+.
+session_capabilities
+        
 if
 not
 self
 .
 _device_manager
+and
+capabilities
+[
+'
+device
+'
+]
+!
+=
+'
+desktop
+'
 :
             
 self
