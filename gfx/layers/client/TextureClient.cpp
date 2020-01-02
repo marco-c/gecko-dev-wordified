@@ -1539,6 +1539,16 @@ sync
 proxy
 if
 needed
+if
+(
+actor
+-
+>
+GetForwarder
+(
+)
+)
+{
 actor
 -
 >
@@ -1552,6 +1562,7 @@ RemoveTexture
 this
 )
 ;
+}
 /
 /
 The
