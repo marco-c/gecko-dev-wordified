@@ -7711,6 +7711,13 @@ srclang
 )
 GK_ATOM
 (
+srcset
+"
+srcset
+"
+)
+GK_ATOM
+(
 stack
 "
 stack
