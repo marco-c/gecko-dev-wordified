@@ -244,9 +244,6 @@ again
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -397,9 +394,6 @@ again
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -574,9 +568,6 @@ id
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 ]
 ;
@@ -585,6 +576,11 @@ asyncCleanup
 (
 )
 {
+yield
+endCustomizing
+(
+)
+;
 Services
 .
 prefs
