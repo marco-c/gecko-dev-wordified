@@ -190,7 +190,7 @@ a
 weak
 pointer
 to
-MediaResouce
+MediaResource
 .
 It
 '

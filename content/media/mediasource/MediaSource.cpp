@@ -1508,7 +1508,7 @@ nsIRunnable
 event
 =
 new
-AsyncEventRunnner
+AsyncEventRunner
 <
 MediaSource
 >
