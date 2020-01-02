@@ -790,6 +790,10 @@ finishTest
 {
 doc
 =
+inspector
+=
+view
+=
 null
 ;
 gBrowser

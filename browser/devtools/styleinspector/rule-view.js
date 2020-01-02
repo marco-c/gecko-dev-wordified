@@ -823,6 +823,12 @@ window
 document
 )
 ;
+frame
+.
+remove
+(
+)
+;
 }
 false
 )
@@ -7822,6 +7828,10 @@ this
 clear
 (
 )
+;
+gDummyPromise
+=
+null
 ;
 gDevTools
 .

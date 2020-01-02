@@ -2083,6 +2083,10 @@ finishTest
 {
 doc
 =
+view
+=
+inspector
+=
 null
 ;
 gBrowser

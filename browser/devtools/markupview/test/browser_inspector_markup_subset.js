@@ -877,6 +877,8 @@ doc
 =
 inspector
 =
+markup
+=
 null
 ;
 gBrowser

@@ -609,6 +609,12 @@ value
 =
 false
 ;
+inspector
+=
+doc
+=
+null
+;
 gBrowser
 .
 removeCurrentTab

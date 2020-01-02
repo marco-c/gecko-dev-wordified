@@ -8382,6 +8382,12 @@ uninit
 (
 )
 ;
+CloseObserver
+.
+uninit
+(
+)
+;
 this
 .
 editor
