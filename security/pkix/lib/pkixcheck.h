@@ -310,8 +310,6 @@ BackCert
 cert
 PRTime
 time
-EndEntityOrCA
-endEntityOrCA
 KeyUsage
 requiredKeyUsageIfPresent
 KeyPurposeId
@@ -343,6 +341,8 @@ const
 BackCert
 &
 cert
+KeyPurposeId
+requiredEKUIfPresent
 )
 ;
 }
