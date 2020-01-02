@@ -1228,6 +1228,7 @@ NS_ABORT_IF_FALSE
 (
 0
 <
+=
 *
 subprops
 &
