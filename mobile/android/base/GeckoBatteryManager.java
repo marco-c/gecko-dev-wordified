@@ -234,15 +234,11 @@ private
 static
 long
 sLastLevelChange
-=
-0
 ;
 private
 static
 boolean
 sNotificationsEnabled
-=
-false
 ;
 private
 static

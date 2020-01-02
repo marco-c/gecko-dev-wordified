@@ -189,8 +189,6 @@ protected
 static
 FxAccountSyncStatusHelper
 sInstance
-=
-null
 ;
 public
 synchronized
@@ -233,8 +231,6 @@ listener
 protected
 Object
 handle
-=
-null
 ;
 /
 /

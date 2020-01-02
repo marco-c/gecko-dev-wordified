@@ -363,8 +363,6 @@ data
 private
 int
 rowCount
-=
-0
 ;
 private
 final

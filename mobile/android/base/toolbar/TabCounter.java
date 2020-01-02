@@ -281,8 +281,6 @@ mInflater
 private
 int
 mCount
-=
-0
 ;
 private
 enum

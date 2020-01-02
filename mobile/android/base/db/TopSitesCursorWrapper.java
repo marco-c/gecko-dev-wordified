@@ -413,8 +413,6 @@ position
 private
 int
 pinnedBefore
-=
-0
 ;
 /
 /

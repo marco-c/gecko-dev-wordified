@@ -1961,8 +1961,6 @@ choices
 private
 boolean
 mReadShareHistoryCalled
-=
-false
 ;
 /
 *
@@ -2053,8 +2051,6 @@ intent
 private
 boolean
 mReloadActivities
-=
-false
 ;
 /
 *

@@ -436,8 +436,6 @@ private
 volatile
 Locale
 currentLocale
-=
-null
 ;
 private
 volatile
@@ -463,8 +461,6 @@ false
 private
 boolean
 systemLocaleDidChange
-=
-false
 ;
 private
 BroadcastReceiver

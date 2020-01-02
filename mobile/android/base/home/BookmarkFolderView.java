@@ -153,8 +153,6 @@ state_open
 private
 boolean
 mIsOpen
-=
-false
 ;
 public
 BookmarkFolderView

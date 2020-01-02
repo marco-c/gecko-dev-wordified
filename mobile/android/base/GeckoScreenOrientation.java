@@ -369,8 +369,6 @@ private
 static
 GeckoScreenOrientation
 sInstance
-=
-null
 ;
 /
 /

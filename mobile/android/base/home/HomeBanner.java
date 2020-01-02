@@ -404,8 +404,6 @@ panel
 private
 boolean
 mActive
-=
-false
 ;
 /
 /
@@ -420,8 +418,6 @@ pages
 private
 boolean
 mScrollingPages
-=
-false
 ;
 /
 /
@@ -452,8 +448,6 @@ page
 private
 boolean
 mUserSwipedDown
-=
-false
 ;
 /
 /

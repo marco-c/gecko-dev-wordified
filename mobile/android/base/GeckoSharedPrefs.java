@@ -483,8 +483,6 @@ static
 volatile
 boolean
 migrationDone
-=
-false
 ;
 public
 enum

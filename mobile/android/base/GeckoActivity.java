@@ -110,8 +110,6 @@ activity
 private
 boolean
 mGeckoActivityOpened
-=
-false
 ;
 /
 *

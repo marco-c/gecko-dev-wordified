@@ -355,14 +355,10 @@ mOrigin
 private
 TextView
 mTitlebarText
-=
-null
 ;
 private
 View
 mTitlebar
-=
-null
 ;
 private
 View

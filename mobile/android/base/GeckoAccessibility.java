@@ -333,8 +333,6 @@ private
 static
 boolean
 sEnabled
-=
-false
 ;
 /
 /
@@ -358,15 +356,11 @@ private
 static
 JSONObject
 sEventMessage
-=
-null
 ;
 private
 static
 AccessibilityNodeInfo
 sVirtualCursorNode
-=
-null
 ;
 /
 /
@@ -395,8 +389,6 @@ private
 static
 SelfBrailleClient
 sSelfBrailleClient
-=
-null
 ;
 private
 static

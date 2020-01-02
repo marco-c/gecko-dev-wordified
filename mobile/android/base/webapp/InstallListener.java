@@ -199,8 +199,6 @@ GeckoWebappInstallListener
 private
 JSONObject
 mData
-=
-null
 ;
 private
 String
@@ -209,8 +207,6 @@ mManifestUrl
 private
 boolean
 mReceived
-=
-false
 ;
 private
 File

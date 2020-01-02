@@ -179,8 +179,6 @@ title
 public
 boolean
 isFolder
-=
-false
 ;
 public
 int

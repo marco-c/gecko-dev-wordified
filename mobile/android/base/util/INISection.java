@@ -133,8 +133,6 @@ to
 private
 String
 mName
-=
-null
 ;
 public
 String
@@ -169,8 +167,6 @@ logging
 private
 boolean
 mDebug
-=
-false
 ;
 /
 /

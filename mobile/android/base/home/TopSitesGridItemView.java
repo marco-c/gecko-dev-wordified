@@ -508,8 +508,6 @@ state
 private
 boolean
 mIsDirty
-=
-false
 ;
 /
 /

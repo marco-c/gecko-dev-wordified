@@ -432,8 +432,6 @@ changes
 private
 boolean
 mShouldBeListening
-=
-false
 ;
 /
 /
@@ -456,8 +454,6 @@ happened
 private
 boolean
 mShouldNotify
-=
-false
 ;
 /
 /

@@ -837,8 +837,6 @@ private
 volatile
 SessionInformation
 session
-=
-null
 ;
 public
 void

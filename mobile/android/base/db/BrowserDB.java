@@ -335,8 +335,6 @@ private
 static
 BrowserDBIface
 sDb
-=
-null
 ;
 private
 static

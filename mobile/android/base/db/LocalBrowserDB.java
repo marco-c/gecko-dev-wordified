@@ -928,8 +928,6 @@ Integer
 private
 int
 counter
-=
-0
 ;
 private
 final
@@ -9554,8 +9552,6 @@ mDesktopBookmarksIndex
 private
 boolean
 mAtDesktopBookmarksPosition
-=
-false
 ;
 public
 SpecialFoldersCursorWrapper

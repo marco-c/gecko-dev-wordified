@@ -360,8 +360,6 @@ attached
 private
 boolean
 isListening
-=
-false
 ;
 public
 RemoteTabsContainerPanel
@@ -777,8 +775,6 @@ protected
 volatile
 long
 lastSyncStarted
-=
-0
 ;
 Override
 public

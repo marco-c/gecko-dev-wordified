@@ -393,8 +393,6 @@ private
 static
 boolean
 mInitialized
-=
-false
 ;
 private
 static

@@ -275,14 +275,10 @@ mTitleCondensed
 private
 boolean
 mCheckable
-=
-false
 ;
 private
 boolean
 mChecked
-=
-false
 ;
 private
 boolean

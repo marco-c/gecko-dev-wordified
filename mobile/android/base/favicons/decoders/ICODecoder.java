@@ -3014,8 +3014,6 @@ Bitmap
 private
 int
 mIndex
-=
-0
 ;
 Override
 public

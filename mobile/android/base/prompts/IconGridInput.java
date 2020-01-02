@@ -364,8 +364,6 @@ grid
 private
 int
 mSelected
-=
-0
 ;
 /
 /

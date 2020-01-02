@@ -354,14 +354,10 @@ private
 static
 Drawable
 mCheckDrawable
-=
-null
 ;
 private
 int
 mSelected
-=
-0
 ;
 final
 private

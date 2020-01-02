@@ -116,8 +116,6 @@ private
 static
 Handler
 sHandler
-=
-null
 ;
 private
 SynchronousQueue

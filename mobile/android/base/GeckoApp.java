@@ -1419,8 +1419,6 @@ mShouldRestore
 protected
 boolean
 mInitialized
-=
-false
 ;
 private
 Telemetry
@@ -1442,15 +1440,11 @@ private
 volatile
 HealthRecorder
 mHealthRecorder
-=
-null
 ;
 private
 volatile
 Locale
 mLastLocale
-=
-null
 ;
 private
 EventListener

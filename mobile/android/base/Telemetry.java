@@ -365,8 +365,6 @@ private
 volatile
 boolean
 mHasFinished
-=
-false
 ;
 private
 volatile

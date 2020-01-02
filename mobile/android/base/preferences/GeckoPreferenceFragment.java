@@ -389,8 +389,6 @@ GeckoPreferenceFragment
 private
 int
 mPrefsRequestId
-=
-0
 ;
 private
 Locale

@@ -318,8 +318,6 @@ mDatabasePerProfile
 protected
 Context
 mContext
-=
-null
 ;
 private
 final

@@ -1302,8 +1302,6 @@ mActionMode
 private
 boolean
 mShowActionModeEndAnimation
-=
-false
 ;
 private
 static
@@ -1342,14 +1340,10 @@ icon
 public
 boolean
 checkable
-=
-false
 ;
 public
 boolean
 checked
-=
-false
 ;
 public
 boolean
@@ -1370,8 +1364,6 @@ parent
 public
 boolean
 added
-=
-false
 ;
 /
 /
@@ -1515,8 +1507,6 @@ changed
 private
 int
 mToolbarHeight
-=
-0
 ;
 /
 /
@@ -1538,8 +1528,6 @@ scrolling
 private
 boolean
 mDynamicToolbarCanScroll
-=
-false
 ;
 private
 SharedPreferencesHelper
@@ -1568,8 +1556,6 @@ exit
 private
 Integer
 mTargetTabForEditingMode
-=
-null
 ;
 /
 /
@@ -1647,8 +1633,6 @@ end
 private
 boolean
 mHideWebContentOnAnimationEnd
-=
-false
 ;
 private
 DynamicToolbar
@@ -13331,8 +13315,6 @@ TouchEventInterceptor
 private
 boolean
 mIsHidingTabs
-=
-false
 ;
 private
 final

@@ -183,8 +183,6 @@ private
 static
 boolean
 sRegistered
-=
-false
 ;
 private
 static

@@ -261,8 +261,6 @@ MAX_ACTION_ITEMS
 private
 int
 mActionButtonsWidth
-=
-0
 ;
 public
 ActionModeCompatView
