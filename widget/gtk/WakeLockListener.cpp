@@ -110,6 +110,9 @@ MPL
 *
 /
 #
+ifdef
+MOZ_ENABLE_DBUS
+#
 include
 <
 dbus
@@ -138,9 +141,6 @@ WakeLockListener
 .
 h
 "
-#
-ifdef
-MOZ_ENABLE_DBUS
 #
 define
 FREEDESKTOP_SCREENSAVER_TARGET
