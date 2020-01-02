@@ -125,7 +125,9 @@ h
 #
 include
 "
-nsStyleAnimation
+mozilla
+/
+StyleAnimationValue
 .
 h
 "
