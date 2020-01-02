@@ -54703,11 +54703,6 @@ urlclassifier
 download_block_table
 "
 "
-goog
--
-badbinurl
--
-shavar
 "
 )
 ;
@@ -54719,11 +54714,6 @@ urlclassifier
 download_allow_table
 "
 "
-goog
--
-downloadwhite
--
-digest256
 "
 )
 ;
