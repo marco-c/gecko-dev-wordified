@@ -1099,6 +1099,17 @@ Drain
 (
 )
 {
+MOZ_ASSERT
+(
+!
+mAudioStream
+-
+>
+IsPaused
+(
+)
+)
+;
 AssertCurrentThreadInMonitor
 (
 )
