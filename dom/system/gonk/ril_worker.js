@@ -33394,7 +33394,10 @@ prototype
 [
 REQUEST_DIAL
 ]
+.
+call
 (
+this
 length
 options
 )
