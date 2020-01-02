@@ -13447,6 +13447,11 @@ buttonClass
 command
 -
 button
+command
+-
+button
+-
+invertable
 "
 state
 :
@@ -15451,6 +15456,11 @@ buttonClass
 command
 -
 button
+command
+-
+button
+-
+invertable
 "
 tooltipText
 :

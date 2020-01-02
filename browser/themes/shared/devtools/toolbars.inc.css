@@ -5537,6 +5537,11 @@ light
 devtools
 -
 tab
+[
+icon
+-
+invertable
+]
 >
 image
 .
@@ -5561,6 +5566,8 @@ light
 command
 -
 button
+-
+invertable
 >
 image
 .
@@ -5571,6 +5578,8 @@ light
 command
 -
 button
+-
+invertable
 :
 active
 >
@@ -5737,6 +5746,8 @@ light
 command
 -
 button
+-
+invertable
 [
 checked
 =
@@ -5759,6 +5770,11 @@ devtools
 -
 tab
 [
+icon
+-
+invertable
+]
+[
 selected
 ]
 >
@@ -5771,6 +5787,11 @@ light
 devtools
 -
 tab
+[
+icon
+-
+invertable
+]
 [
 highlighted
 ]
