@@ -330,6 +330,17 @@ mInverted
 =
 aInverted
 ;
+if
+(
+mInverted
+)
+{
+AddFlags
+(
+TEXTURE_NEEDS_Y_FLIP
+)
+;
+}
 }
 bool
 SharedTextureClientOGL
