@@ -28972,7 +28972,7 @@ thisv
 =
 iter
 .
-thisv
+computedThisValue
 (
 )
 ;
@@ -31782,7 +31782,7 @@ thisv
 iter
 -
 >
-thisv
+computedThisValue
 (
 )
 ;
