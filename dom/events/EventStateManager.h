@@ -5249,6 +5249,12 @@ mIsMouseDown
 bool
 mResetFMMouseButtonHandlingState
 ;
+nsCOMPtr
+<
+nsIDocument
+>
+mMouseButtonEventHandlingDocument
+;
 private
 :
 /
