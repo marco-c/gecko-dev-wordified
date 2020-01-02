@@ -318,16 +318,6 @@ start
 startLine
 )
 ;
-CHECK_EQUAL
-(
-JS_GetScriptLineExtent
-(
-cx
-script
-)
-11u
-)
-;
 CHECK
 (
 strcmp
