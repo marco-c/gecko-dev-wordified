@@ -347,9 +347,6 @@ layers
 class
 ColorTextureLayerProgram
 ;
-class
-LayerManagerOGL
-;
 }
 }
 namespace
