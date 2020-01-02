@@ -489,6 +489,13 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvForceComposite
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvGetOpacity
 (
 PLayerParent

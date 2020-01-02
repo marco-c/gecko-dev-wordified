@@ -170,6 +170,16 @@ return
 nullptr
 ;
 }
+virtual
+void
+ForceComposite
+(
+LayerTransactionParent
+*
+aLayerTree
+)
+{
+}
 }
 ;
 }
