@@ -1100,7 +1100,7 @@ SetTimestampOffset
 aTimestampOffset
 =
 %
-f
+d
 )
 "
 this
@@ -1438,7 +1438,7 @@ SetAppendWindowStart
 aAppendWindowStart
 =
 %
-f
+d
 )
 "
 this
@@ -1529,7 +1529,7 @@ SetAppendWindowEnd
 aAppendWindowEnd
 =
 %
-f
+d
 )
 "
 this
