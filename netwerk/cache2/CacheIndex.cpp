@@ -8900,7 +8900,6 @@ CacheFileIOManager
 :
 :
 CREATE
-true
 mIndexFileOpener
 )
 ;
@@ -11091,7 +11090,6 @@ CacheFileIOManager
 :
 :
 OPEN
-true
 mIndexFileOpener
 )
 ;
@@ -11176,7 +11174,6 @@ CacheFileIOManager
 :
 :
 OPEN
-true
 mJournalFileOpener
 )
 ;
@@ -11259,7 +11256,6 @@ CacheFileIOManager
 :
 :
 OPEN
-true
 mTmpFileOpener
 )
 ;
@@ -11500,7 +11496,6 @@ mIndexHandle
 0
 mRWBuf
 mRWBufPos
-true
 this
 )
 ;
@@ -12295,7 +12290,6 @@ mRWBuf
 +
 pos
 toRead
-true
 this
 )
 ;
@@ -12516,7 +12510,6 @@ mJournalHandle
 0
 mRWBuf
 mRWBufPos
-true
 this
 )
 ;
@@ -12991,7 +12984,6 @@ mRWBuf
 +
 pos
 toRead
-true
 this
 )
 ;
