@@ -2284,8 +2284,8 @@ rect
 .
 metrics
 .
-mDisplayPort
-=
+SetDisplayPortMargins
+(
 AsyncPanZoomController
 :
 :
@@ -2349,6 +2349,13 @@ ScreenPoint
 0
 .
 0
+)
+)
+;
+metrics
+.
+SetUseDisplayPortMargins
+(
 )
 ;
 /
