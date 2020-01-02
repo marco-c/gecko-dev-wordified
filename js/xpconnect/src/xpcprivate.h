@@ -13029,17 +13029,6 @@ JSObject
 obj
 )
 ;
-void
-TraceXPCGlobal
-(
-JSTracer
-*
-trc
-JSObject
-*
-obj
-)
-;
 /
 *
 *
@@ -14104,6 +14093,9 @@ mFlatJSObject
 )
 )
 {
+xpc
+:
+:
 TraceXPCGlobal
 (
 trc
