@@ -13419,8 +13419,10 @@ SurfaceCaps
 caps
 )
 {
+UniquePtr
+<
 GLScreenBuffer
-*
+>
 newScreen
 =
 GLScreenBuffer
@@ -13453,9 +13455,6 @@ size
 )
 )
 {
-delete
-newScreen
-;
 return
 false
 ;
@@ -13493,7 +13492,10 @@ this
 ;
 mScreen
 =
+Move
+(
 newScreen
+)
 ;
 return
 true
@@ -13540,9 +13542,6 @@ DestroyScreenBuffer
 (
 )
 {
-delete
-mScreen
-;
 mScreen
 =
 nullptr
