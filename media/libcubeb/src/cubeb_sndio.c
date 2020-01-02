@@ -2027,7 +2027,7 @@ CUBEB_OK
 ;
 }
 int
-sndio_stream_set_volume
+sndio_stream_set_panning
 (
 cubeb_stream
 *
@@ -2038,7 +2038,7 @@ panning
 {
 assert
 (
-0
+false
 &
 &
 "
@@ -2046,6 +2046,9 @@ not
 implemented
 "
 )
+;
+return
+CUBEB_OK
 ;
 }
 static
