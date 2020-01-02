@@ -475,7 +475,7 @@ watchdog
 .
 timeoutSecs
 "
-5
+10
 )
 ;
 }
