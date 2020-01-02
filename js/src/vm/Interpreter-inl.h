@@ -1853,7 +1853,7 @@ SetPropertyHelper
 directly
 and
 pass
-DNP_UNQUALIFIED
+Unqualified
 .
 *
 /
@@ -1907,7 +1907,10 @@ cx
 scope
 scope
 id
-DNP_UNQUALIFIED
+baseops
+:
+:
+Unqualified
 &
 valCopy
 strict

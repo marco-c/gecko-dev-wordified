@@ -7297,10 +7297,6 @@ StrictPropertyOp
 setter
 unsigned
 attrs
-unsigned
-defineHow
-=
-0
 )
 {
 Rooted
@@ -7326,7 +7322,6 @@ value
 getter
 setter
 attrs
-defineHow
 )
 ;
 }

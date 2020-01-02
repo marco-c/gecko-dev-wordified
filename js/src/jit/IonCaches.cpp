@@ -18350,7 +18350,10 @@ cx
 obj
 obj
 id
-0
+baseops
+:
+:
+Qualified
 &
 v
 cache
@@ -18473,7 +18476,10 @@ cx
 obj
 obj
 id
-0
+baseops
+:
+:
+Qualified
 &
 v
 cache
@@ -18641,7 +18647,10 @@ cx
 obj
 obj
 id
-0
+baseops
+:
+:
+Qualified
 &
 v
 cache
@@ -18651,9 +18660,11 @@ strict
 )
 )
 )
+{
 return
 false
 ;
+}
 bool
 checkTypeset
 ;
