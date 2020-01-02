@@ -646,6 +646,15 @@ jobject
 jstring
 '
 )
+or
+returnType
+.
+endswith
+(
+'
+Array
+'
+)
 :
                     
 returnValue
