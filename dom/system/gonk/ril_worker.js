@@ -86538,8 +86538,15 @@ mcc
 mnc
 |
 |
-!
 lac
+=
+=
+null
+|
+|
+lac
+<
+0
 )
 {
 return
