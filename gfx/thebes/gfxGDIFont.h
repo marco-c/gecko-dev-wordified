@@ -511,8 +511,6 @@ aScript
 gfxShapedText
 *
 aShapedText
-bool
-aPreferPlatformShaping
 )
 ;
 void
