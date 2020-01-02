@@ -1473,9 +1473,10 @@ JSObject
 *
 obj
 =
-JSVAL_TO_OBJECT
-(
 wrapper
+.
+toObjectOrNull
+(
 )
 ;
 if

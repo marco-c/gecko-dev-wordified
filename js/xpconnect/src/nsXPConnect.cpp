@@ -5127,9 +5127,10 @@ XPCJSObjectHolder
 :
 newHolder
 (
-JSVAL_TO_OBJECT
-(
 rval
+.
+toObjectOrNull
+(
 )
 )
 ;

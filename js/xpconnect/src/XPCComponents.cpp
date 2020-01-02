@@ -14669,9 +14669,10 @@ xpc
 GetWrappedNativeOfJSObject
 (
 cx
-JSVAL_TO_OBJECT
-(
 val
+.
+toObjectOrNull
+(
 )
 getter_AddRefs
 (

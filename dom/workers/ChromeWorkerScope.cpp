@@ -364,9 +364,10 @@ UnicodeToNative
 ;
 JS_SetCTypesCallbacks
 (
-JSVAL_TO_OBJECT
-(
 ctypes
+.
+toObjectOrNull
+(
 )
 &
 callbacks

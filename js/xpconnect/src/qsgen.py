@@ -5194,12 +5194,13 @@ xpc_qsThrowBadSetterValue
 (
 cx
 rv
-JSVAL_TO_OBJECT
-(
 vp
 [
 1
 ]
+.
+toObjectOrNull
+(
 )
 (
 uint16_t
@@ -8733,12 +8734,13 @@ rv
 +
                     
 "
-JSVAL_TO_OBJECT
-(
 vp
 [
 1
 ]
+.
+toObjectOrNull
+(
 )
 (
 uint16_t

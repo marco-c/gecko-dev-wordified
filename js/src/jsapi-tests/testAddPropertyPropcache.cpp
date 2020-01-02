@@ -392,9 +392,10 @@ RootedObject
 arrObj
 (
 cx
-JSVAL_TO_OBJECT
-(
 arr
+.
+toObjectOrNull
+(
 )
 )
 ;

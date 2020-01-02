@@ -11668,9 +11668,10 @@ NS_strdup
 (
 JS_GetClass
 (
-JSVAL_TO_OBJECT
-(
 aObject
+.
+toObjectOrNull
+(
 )
 )
 -
@@ -15606,9 +15607,10 @@ JSObject
 *
 obj
 =
-JSVAL_TO_OBJECT
-(
 aFile
+.
+toObjectOrNull
+(
 )
 ;
 file

@@ -759,9 +759,10 @@ RootedObject
 obj2
 (
 cx
-JSVAL_TO_OBJECT
-(
 v2
+.
+toObjectOrNull
+(
 )
 )
 ;
@@ -1011,9 +1012,10 @@ RootedObject
 obj2
 (
 cx
-JSVAL_TO_OBJECT
-(
 v2
+.
+toObjectOrNull
+(
 )
 )
 ;

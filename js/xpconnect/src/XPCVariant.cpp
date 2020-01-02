@@ -669,9 +669,10 @@ cb
 .
 NoteJSChild
 (
-JSVAL_TO_OBJECT
-(
 val
+.
+toObjectOrNull
+(
 )
 )
 ;

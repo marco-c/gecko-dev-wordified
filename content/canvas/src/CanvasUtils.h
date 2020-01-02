@@ -720,9 +720,10 @@ JSObject
 obj
 (
 cx
-JSVAL_TO_OBJECT
-(
 patternArray
+.
+toObjectOrNull
+(
 )
 )
 ;

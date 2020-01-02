@@ -13441,9 +13441,10 @@ JSObject
 obj
 (
 cx
-JSVAL_TO_OBJECT
-(
 realVal
+.
+toObjectOrNull
+(
 )
 )
 ;

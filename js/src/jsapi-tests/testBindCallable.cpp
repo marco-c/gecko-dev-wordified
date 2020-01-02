@@ -150,9 +150,10 @@ RootedObject
 funcObj
 (
 cx
-JSVAL_TO_OBJECT
-(
 func
+.
+toObjectOrNull
+(
 )
 )
 ;
@@ -163,9 +164,10 @@ RootedObject
 vObj
 (
 cx
-JSVAL_TO_OBJECT
-(
 v
+.
+toObjectOrNull
+(
 )
 )
 ;

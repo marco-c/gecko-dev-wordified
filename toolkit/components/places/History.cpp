@@ -1853,9 +1853,10 @@ xpc
 GetWrappedNativeOfJSObject
 (
 aCtx
-JSVAL_TO_OBJECT
-(
 aValue
+.
+toObjectOrNull
+(
 )
 getter_AddRefs
 (
@@ -17057,9 +17058,10 @@ visitsVal
 {
 visits
 =
-JSVAL_TO_OBJECT
-(
 visitsVal
+.
+toObjectOrNull
+(
 )
 ;
 NS_ENSURE_ARG

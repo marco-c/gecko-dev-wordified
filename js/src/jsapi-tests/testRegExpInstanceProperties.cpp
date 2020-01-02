@@ -168,9 +168,10 @@ JSObject
 *
 regexpProto
 =
-JSVAL_TO_OBJECT
-(
 regexpProtoVal
+.
+toObjectOrNull
+(
 )
 ;
 if
@@ -221,9 +222,10 @@ JSObject
 *
 robj
 =
-JSVAL_TO_OBJECT
-(
 regexp
+.
+toObjectOrNull
+(
 )
 ;
 CHECK

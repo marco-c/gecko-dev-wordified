@@ -526,9 +526,10 @@ RootedObject
 Array
 (
 cx
-JSVAL_TO_OBJECT
-(
 v
+.
+toObjectOrNull
+(
 )
 )
 ;
