@@ -3221,17 +3221,6 @@ ignoreCase
 StringHasRegExpMetaChars
 (
 pattern
--
->
-chars
-(
-)
-pattern
--
->
-length
-(
-)
 )
 )
 {

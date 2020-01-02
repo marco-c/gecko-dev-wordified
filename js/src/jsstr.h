@@ -1483,12 +1483,9 @@ extern
 bool
 StringHasRegExpMetaChars
 (
-const
-jschar
+JSLinearString
 *
-chars
-size_t
-length
+str
 )
 ;
 }
