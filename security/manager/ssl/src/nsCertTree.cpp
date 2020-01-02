@@ -540,6 +540,7 @@ CompareCacheHashEntryPtr
 ;
 }
 static
+const
 PLDHashTableOps
 gMapOps
 =

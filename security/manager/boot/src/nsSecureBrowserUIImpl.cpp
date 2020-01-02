@@ -567,6 +567,7 @@ true
 ;
 }
 static
+const
 PLDHashTableOps
 gMapOps
 =

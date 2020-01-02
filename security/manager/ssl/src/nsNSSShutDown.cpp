@@ -201,6 +201,7 @@ true
 ;
 }
 static
+const
 PLDHashTableOps
 gSetOps
 =
