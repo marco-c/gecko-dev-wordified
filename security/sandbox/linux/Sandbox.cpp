@@ -430,6 +430,9 @@ args
 )
 PR_LOG
 (
+mozilla
+:
+:
 gSeccompSandboxLog
 PR_LOG_ERROR
 (
