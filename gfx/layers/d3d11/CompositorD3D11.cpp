@@ -3711,6 +3711,10 @@ CompositorD3D11
 BeginFrame
 (
 const
+nsIntRegion
+&
+aInvalidRegion
+const
 Rect
 *
 aClipRectIn

@@ -1441,6 +1441,10 @@ void
 BeginFrame
 (
 const
+nsIntRegion
+&
+aInvalidRegion
+const
 gfx
 :
 :

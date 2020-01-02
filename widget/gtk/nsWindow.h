@@ -1088,14 +1088,6 @@ gpointer
 aData
 )
 ;
-#
-if
-(
-MOZ_WIDGET_GTK
-=
-=
-2
-)
 mozilla
 :
 :
@@ -1114,8 +1106,6 @@ StartRemoteDrawing
 )
 MOZ_OVERRIDE
 ;
-#
-endif
 private
 :
 void
