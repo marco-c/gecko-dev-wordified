@@ -10763,6 +10763,8 @@ nsCSSRendering
 :
 PaintBackgroundColor
 (
+gfxRGBA
+aColor
 nsPresContext
 *
 aPresContext
@@ -10971,6 +10973,7 @@ StyleContext
 }
 PaintBackgroundColorWithSC
 (
+aColor
 aPresContext
 aRenderingContext
 aForFrame
@@ -20387,6 +20390,8 @@ nsCSSRendering
 :
 PaintBackgroundColorWithSC
 (
+gfxRGBA
+aColor
 nsPresContext
 *
 aPresContext
@@ -20580,9 +20585,6 @@ drawBackgroundImage
 bool
 drawBackgroundColor
 ;
-nscolor
-bgColor
-=
 DetermineBackgroundColor
 (
 aPresContext
@@ -20919,10 +20921,7 @@ ctx
 >
 SetColor
 (
-gfxRGBA
-(
-bgColor
-)
+aColor
 )
 ;
 gfxContextAutoSaveRestore

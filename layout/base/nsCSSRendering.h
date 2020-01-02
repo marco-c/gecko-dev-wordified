@@ -2865,6 +2865,8 @@ static
 void
 PaintBackgroundColor
 (
+gfxRGBA
+aColor
 nsPresContext
 *
 aPresContext
@@ -3024,6 +3026,8 @@ static
 void
 PaintBackgroundColorWithSC
 (
+gfxRGBA
+aColor
 nsPresContext
 *
 aPresContext
