@@ -601,13 +601,6 @@ NS_WARNING
 #
 include
 "
-nsEvent
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h

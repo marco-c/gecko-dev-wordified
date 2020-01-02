@@ -120,6 +120,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -140,9 +149,6 @@ h
 "
 class
 nsBaseContentList
-;
-class
-nsGUIEvent
 ;
 class
 nsRangeFrame

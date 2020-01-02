@@ -358,6 +358,14 @@ window
 open
 }
 ;
+enum
+UIStateChangeType
+{
+UIStateChangeType_NoChange
+UIStateChangeType_Set
+UIStateChangeType_Clear
+}
+;
 #
 define
 NS_PIDOMWINDOW_IID

@@ -156,9 +156,6 @@ class
 nsHTMLFramesetBorderFrame
 ;
 class
-nsGUIEvent
-;
-class
 nsHTMLFramesetFrame
 ;
 #

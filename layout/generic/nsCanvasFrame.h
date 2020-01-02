@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -149,9 +158,6 @@ nsPresContext
 ;
 class
 nsRenderingContext
-;
-class
-nsEvent
 ;
 /
 *

@@ -150,6 +150,15 @@ nsError
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EventForwards
+.
+h
+"
 class
 gfxASurface
 ;
@@ -167,9 +176,6 @@ nsIntSize
 ;
 class
 nsNPAPIPlugin
-;
-class
-nsGUIEvent
 ;
 namespace
 mozilla

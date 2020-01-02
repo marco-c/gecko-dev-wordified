@@ -111,13 +111,6 @@ h
 #
 include
 "
-nsEvent
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h
@@ -210,9 +203,6 @@ nsDOMDataTransfer
 ;
 class
 MouseEnterLeaveDispatcher
-;
-class
-nsEventStates
 ;
 class
 nsIMarkupDocumentViewer
