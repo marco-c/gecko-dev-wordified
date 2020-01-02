@@ -9121,7 +9121,7 @@ NS_OK
 }
 else
 {
-NS_Free
+moz_free
 (
 const_cast
 <

@@ -4524,7 +4524,7 @@ if
 aFontData
 )
 {
-NS_Free
+moz_free
 (
 (
 void
