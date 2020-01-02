@@ -816,6 +816,9 @@ ssl_next_proto_nego_xtn
 ssl_renegotiation_info_xtn
 =
 0xff01
+ssl_tls13_draft_version_xtn
+=
+0xff02
 /
 *
 experimental
@@ -828,7 +831,7 @@ SSLExtensionType
 #
 define
 SSL_MAX_EXTENSIONS
-10
+11
 /
 *
 doesn
