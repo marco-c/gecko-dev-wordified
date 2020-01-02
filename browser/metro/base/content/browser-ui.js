@@ -3105,6 +3105,15 @@ user
 action
 .
 *
+See
+Browser
+.
+addTab
+for
+more
+documentation
+.
+*
 /
 addAndShowTab
 :
