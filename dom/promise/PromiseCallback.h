@@ -194,9 +194,6 @@ virtual
 void
 Call
 (
-const
-Optional
-<
 JS
 :
 :
@@ -207,8 +204,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 )
 =
@@ -312,9 +307,6 @@ PromiseCallback
 void
 Call
 (
-const
-Optional
-<
 JS
 :
 :
@@ -325,8 +317,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 )
 MOZ_OVERRIDE
@@ -391,9 +381,6 @@ PromiseCallback
 void
 Call
 (
-const
-Optional
-<
 JS
 :
 :
@@ -404,8 +391,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 )
 MOZ_OVERRIDE
@@ -480,9 +465,6 @@ PromiseCallback
 void
 Call
 (
-const
-Optional
-<
 JS
 :
 :
@@ -493,8 +475,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 )
 MOZ_OVERRIDE
@@ -560,9 +540,6 @@ PromiseCallback
 void
 Call
 (
-const
-Optional
-<
 JS
 :
 :
@@ -573,8 +550,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 )
 MOZ_OVERRIDE
