@@ -192,12 +192,7 @@ nsIconChannel
 )
 {
 }
-~
-nsIconChannel
-(
-)
-{
-}
+;
 /
 *
 *
@@ -251,6 +246,13 @@ aURI
 ;
 private
 :
+~
+nsIconChannel
+(
+)
+{
+}
+;
 /
 *
 *

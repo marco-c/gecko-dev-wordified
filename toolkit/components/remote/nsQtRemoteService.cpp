@@ -338,6 +338,15 @@ mServerWindow
 )
 {
 }
+nsQtRemoteService
+:
+:
+~
+nsQtRemoteService
+(
+)
+{
+}
 NS_IMETHODIMP
 nsQtRemoteService
 :

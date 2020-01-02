@@ -136,6 +136,8 @@ nsBidiKeyboard
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsBidiKeyboard

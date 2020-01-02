@@ -148,12 +148,6 @@ nsPrintSettingsQt
 (
 )
 ;
-virtual
-~
-nsPrintSettingsQt
-(
-)
-;
 NS_IMETHOD
 GetPrintRange
 (
@@ -414,6 +408,12 @@ aHeight
 ;
 protected
 :
+virtual
+~
+nsPrintSettingsQt
+(
+)
+;
 nsPrintSettingsQt
 (
 const

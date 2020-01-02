@@ -432,12 +432,6 @@ nsWindow
 (
 )
 ;
-virtual
-~
-nsWindow
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
@@ -913,6 +907,12 @@ event
 ;
 protected
 :
+virtual
+~
+nsWindow
+(
+)
+;
 nsWindow
 *
 mParent
