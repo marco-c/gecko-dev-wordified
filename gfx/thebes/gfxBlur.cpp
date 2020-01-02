@@ -827,9 +827,9 @@ gfxCornerSizes
 *
 aCornerRadii
 const
-gfxIntSize
+gfxPoint
 &
-aBlurRadius
+aBlurStdDev
 const
 gfxRGBA
 &
@@ -844,6 +844,14 @@ gfxRect
 aSkipRect
 )
 {
+gfxIntSize
+blurRadius
+=
+CalculateBlurRadius
+(
+aBlurStdDev
+)
+;
 /
 /
 Create
@@ -867,7 +875,7 @@ aRect
 gfxIntSize
 (
 )
-aBlurRadius
+blurRadius
 &
 aDirtyRect
 &
