@@ -1623,7 +1623,10 @@ success
 =
 false
 ;
-GLuint
+gl
+:
+:
+GLProgram
 *
 programPtr
 ;
@@ -1728,7 +1731,10 @@ return
 false
 ;
 }
-GLuint
+gl
+:
+:
+GLProgram
 &
 program
 =
@@ -2961,7 +2967,10 @@ mTex2DBlit_Program
 ;
 mTex2DBlit_Program
 =
+GLProgram
+(
 0
+)
 ;
 }
 if
@@ -2979,7 +2988,10 @@ mTex2DRectBlit_Program
 ;
 mTex2DRectBlit_Program
 =
+GLProgram
+(
 0
+)
 ;
 }
 if
@@ -3033,7 +3045,10 @@ mTexExternalBlit_Program
 ;
 mTexExternalBlit_Program
 =
+GLProgram
+(
 0
+)
 ;
 }
 if
@@ -3051,7 +3066,10 @@ mTexYUVPlanarBlit_Program
 ;
 mTexYUVPlanarBlit_Program
 =
+GLProgram
+(
 0
+)
 ;
 }
 }

@@ -3848,7 +3848,10 @@ fragmentShader
 return
 false
 ;
-GLint
+gl
+:
+:
+GLProgram
 result
 =
 mGL

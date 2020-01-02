@@ -190,10 +190,6 @@ mGL
 (
 gl
 )
-mBlitProgram
-(
-0
-)
 mBlitFramebuffer
 (
 0

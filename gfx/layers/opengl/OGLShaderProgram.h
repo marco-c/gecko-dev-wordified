@@ -1176,7 +1176,13 @@ currentProgram
 \
 NS_ASSERTION
 (
+gl
+:
+:
+GLProgram
+(
 currentProgram
+)
 =
 =
 mProgram
@@ -2167,7 +2173,10 @@ id
 of
 the
 program
-GLuint
+gl
+:
+:
+GLProgram
 mProgram
 ;
 ProgramProfileOGL

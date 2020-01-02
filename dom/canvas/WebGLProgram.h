@@ -220,7 +220,10 @@ Clear
 )
 ;
 }
-GLuint
+gl
+:
+:
+GLProgram
 GLName
 (
 )
@@ -662,7 +665,10 @@ DeleteOnce
 )
 ;
 }
-GLuint
+gl
+:
+:
+GLProgram
 mGLName
 ;
 bool
