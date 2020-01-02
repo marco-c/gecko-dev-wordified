@@ -11566,11 +11566,6 @@ endHTOffset
 =
 0
 ;
-nsresult
-rv
-=
-NS_OK
-;
 for
 (
 int32_t
