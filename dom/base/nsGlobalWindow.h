@@ -1370,7 +1370,7 @@ if
 aSubject
 -
 >
-Subsumes
+SubsumesConsideringDomain
 (
 mOrigin
 )
