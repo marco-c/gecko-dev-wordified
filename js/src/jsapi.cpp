@@ -24917,6 +24917,15 @@ element
 )
 )
 ;
+setElementAttributeName
+(
+rhs
+.
+elementAttributeName
+(
+)
+)
+;
 return
 (
 setFileAndLine
