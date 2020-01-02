@@ -607,8 +607,6 @@ error
 aDownload
 .
 error
-.
-name
 ;
 }
 res

@@ -1977,6 +1977,8 @@ DownloadError
 aDownload
 .
 error
+.
+result
 )
 ;
 }
