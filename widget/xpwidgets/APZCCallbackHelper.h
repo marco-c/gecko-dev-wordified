@@ -376,7 +376,7 @@ GetDOMWindowUtils
 (
 nsIDocument
 *
-doc
+aDoc
 )
 ;
 /
@@ -392,7 +392,6 @@ to
 the
 givent
 content
-*
 element
 .
 This
@@ -417,7 +416,7 @@ GetDOMWindowUtils
 (
 nsIContent
 *
-content
+aContent
 )
 ;
 }
