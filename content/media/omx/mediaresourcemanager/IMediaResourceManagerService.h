@@ -258,6 +258,13 @@ supported
 currently
 .
 HW_VIDEO_ENCODER
+HW_AUDIO_ENCODER
+/
+/
+Not
+supported
+currently
+.
 HW_CAMERA
 /
 /
