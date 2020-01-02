@@ -2247,7 +2247,7 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
-nsresult
+void
 ReflowTable
 (
 nsHTMLReflowMetrics
@@ -3308,7 +3308,7 @@ nscoord
 aDesiredHeight
 )
 ;
-nsresult
+void
 ReflowChildren
 (
 nsTableReflowState

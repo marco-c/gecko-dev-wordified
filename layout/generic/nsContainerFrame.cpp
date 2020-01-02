@@ -6255,7 +6255,7 @@ DeleteNextInFlowChild
 )
 *
 /
-nsresult
+void
 nsContainerFrame
 :
 :
@@ -6531,9 +6531,6 @@ true
 ;
 }
 }
-return
-NS_OK
-;
 }
 /
 *
@@ -6951,7 +6948,7 @@ s
 view
 *
 /
-nsresult
+void
 nsContainerFrame
 :
 :
@@ -7171,7 +7168,6 @@ aKidFrame
 ;
 }
 }
-return
 aKidFrame
 -
 >
@@ -7217,11 +7213,6 @@ null
 pointer
 "
 )
-;
-nsresult
-rv
-=
-NS_OK
 ;
 nsFrameList
 *
@@ -7696,8 +7687,6 @@ frameStatus
 /
 /
 Reflow
-rv
-=
 ReflowChild
 (
 frame
@@ -7712,12 +7701,6 @@ aFlags
 frameStatus
 &
 tracker
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 /
@@ -7749,8 +7732,6 @@ prevRect
 .
 width
 ;
-rv
-=
 FinishReflowChild
 (
 frame
@@ -7763,12 +7744,6 @@ prevRect
 x
 0
 aFlags
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 /
@@ -7948,6 +7923,7 @@ from
 the
 child
 list
+nsresult
 rv
 =
 static_cast

@@ -1326,7 +1326,7 @@ implies
 NS_FRAME_NO_MOVE_VIEW
 *
 /
-nsresult
+void
 ReflowChild
 (
 nsIFrame
@@ -1525,7 +1525,7 @@ view
 *
 /
 static
-nsresult
+void
 FinishReflowChild
 (
 nsIFrame
