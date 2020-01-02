@@ -834,8 +834,8 @@ stops
 going
 to
 the
-textare
-whever
+textarea
+whenever
 this
 fires
 .

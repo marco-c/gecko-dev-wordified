@@ -1021,14 +1021,6 @@ CodeMirror
 Pass
 ;
 }
-electricChars
-:
-"
-/
-{
-}
-:
-"
 innerMode
 :
 function
