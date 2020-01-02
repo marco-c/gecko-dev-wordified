@@ -342,7 +342,7 @@ mEditor
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditorEventListener
 :
 :
@@ -486,7 +486,7 @@ aMouseEvent
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditorEventListener
 :
 :
@@ -1321,7 +1321,7 @@ aMouseEvent
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditorEventListener
 :
 :
