@@ -464,6 +464,8 @@ bool
 aIsFirstPaint
 bool
 aScheduleComposite
+uint32_t
+aPaintSequenceNumber
 )
 MOZ_OVERRIDE
 ;

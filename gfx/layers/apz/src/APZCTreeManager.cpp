@@ -748,6 +748,8 @@ bool
 aIsFirstPaint
 uint64_t
 aFirstPaintLayersId
+uint32_t
+aPaintSequenceNumber
 )
 {
 if
@@ -2583,6 +2585,7 @@ aParent
 next
 aIsFirstPaint
 aFirstPaintLayersId
+aPaintSequenceNumber
 aApzcsToDestroy
 )
 ;

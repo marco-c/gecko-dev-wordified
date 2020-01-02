@@ -8258,6 +8258,11 @@ gfx3DMatrix
 transformToGecko
 )
 ;
+uint32_t
+paintSequenceNumber
+=
+0
+;
 /
 /
 Now
@@ -8289,6 +8294,9 @@ nullptr
 root
 false
 0
+paintSequenceNumber
++
++
 )
 ;
 hit
@@ -8409,6 +8417,9 @@ nullptr
 root
 false
 0
+paintSequenceNumber
++
++
 )
 ;
 EXPECT_NE
@@ -8598,6 +8609,9 @@ nullptr
 root
 false
 0
+paintSequenceNumber
++
++
 )
 ;
 hit
@@ -9110,6 +9124,7 @@ UpdatePanZoomControllerTree
 nullptr
 root
 false
+0
 0
 )
 ;

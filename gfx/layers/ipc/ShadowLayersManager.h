@@ -152,6 +152,8 @@ bool
 aIsFirstPaint
 bool
 aScheduleComposite
+uint32_t
+aPaintSequenceNumber
 )
 =
 0

@@ -2454,6 +2454,8 @@ nsIntRegion
 aRegionToClear
 bool
 aScheduleComposite
+uint32_t
+aPaintSequenceNumber
 bool
 *
 aSent
@@ -3471,6 +3473,7 @@ cset
 targetConfig
 mIsFirstPaint
 aScheduleComposite
+aPaintSequenceNumber
 aReplies
 )
 )
@@ -3582,6 +3585,7 @@ SendUpdateNoSwap
 cset
 targetConfig
 mIsFirstPaint
+aPaintSequenceNumber
 aScheduleComposite
 )
 )
