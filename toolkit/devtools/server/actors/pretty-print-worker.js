@@ -299,6 +299,8 @@ modules
 devtools
 /
 acorn
+/
+acorn
 .
 js
 "

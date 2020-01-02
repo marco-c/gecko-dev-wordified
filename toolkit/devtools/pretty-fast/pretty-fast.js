@@ -126,6 +126,8 @@ require
 (
 "
 acorn
+/
+acorn
 "
 )
 ;
