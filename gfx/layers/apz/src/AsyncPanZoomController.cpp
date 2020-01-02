@@ -7836,7 +7836,7 @@ mPanDirRestricted
 =
 false
 ;
-ScreenIntPoint
+ScreenPoint
 point
 =
 GetFirstTouchScreenPoint
@@ -9994,10 +9994,6 @@ aEvent
 mPanStartPoint
 .
 x
-.
-Truncated
-(
-)
 aEvent
 .
 mTime
@@ -10012,10 +10008,6 @@ aEvent
 mPanStartPoint
 .
 y
-.
-Truncated
-(
-)
 aEvent
 .
 mTime
@@ -10153,10 +10145,6 @@ aEvent
 mPanStartPoint
 .
 x
-.
-Truncated
-(
-)
 aEvent
 .
 mTime
@@ -10171,10 +10159,6 @@ aEvent
 mPanStartPoint
 .
 y
-.
-Truncated
-(
-)
 aEvent
 .
 mTime
@@ -10373,10 +10357,6 @@ aEvent
 mPanStartPoint
 .
 x
-.
-Truncated
-(
-)
 aEvent
 .
 mTime
@@ -10391,10 +10371,6 @@ aEvent
 mPanStartPoint
 .
 y
-.
-Truncated
-(
-)
 aEvent
 .
 mTime
@@ -12083,7 +12059,7 @@ lock
 mMonitor
 )
 ;
-ScreenIntPoint
+ScreenPoint
 point
 =
 GetFirstTouchScreenPoint
@@ -12314,7 +12290,7 @@ MultiTouchInput
 aEvent
 )
 {
-ScreenIntPoint
+ScreenPoint
 point
 =
 GetFirstTouchScreenPoint
@@ -13438,7 +13414,7 @@ MultiTouchInput
 aEvent
 )
 {
-ScreenIntPoint
+ScreenPoint
 prevTouchPoint
 (
 mX
@@ -13453,7 +13429,7 @@ GetPos
 )
 )
 ;
-ScreenIntPoint
+ScreenPoint
 touchPoint
 =
 GetFirstTouchScreenPoint
@@ -13522,8 +13498,7 @@ GetOverscrollHandoffChain
 ;
 }
 }
-ScreenIntPoint
-&
+ScreenPoint
 AsyncPanZoomController
 :
 :

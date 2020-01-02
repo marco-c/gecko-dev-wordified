@@ -482,7 +482,7 @@ velocity
 void
 UpdateWithTouchAtDevicePoint
 (
-ScreenIntCoord
+ScreenCoord
 aPos
 uint32_t
 aTimestampMs
@@ -527,7 +527,7 @@ pan
 void
 StartTouch
 (
-ScreenIntCoord
+ScreenCoord
 aPos
 uint32_t
 aTimestampMs
@@ -952,7 +952,7 @@ position
 float
 PanDistance
 (
-ScreenIntCoord
+ScreenCoord
 aPos
 )
 ;
@@ -1497,7 +1497,7 @@ GetPageEnd
 )
 const
 ;
-ScreenIntCoord
+ScreenCoord
 GetPos
 (
 )
@@ -1548,13 +1548,13 @@ const
 ;
 protected
 :
-ScreenIntCoord
+ScreenCoord
 mPos
 ;
 uint32_t
 mPosTimeMs
 ;
-ScreenIntCoord
+ScreenCoord
 mStartPos
 ;
 float

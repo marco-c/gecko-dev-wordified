@@ -3440,9 +3440,6 @@ GetVelocityVector
 *
 *
 Gets
-a
-reference
-to
 the
 first
 touch
@@ -3452,9 +3449,9 @@ a
 MultiTouchInput
 .
 This
-*
 gets
 only
+*
 the
 first
 one
@@ -3467,13 +3464,11 @@ either
 missing
 or
 not
-*
 relevant
 .
 *
 /
-ScreenIntPoint
-&
+ScreenPoint
 GetFirstTouchScreenPoint
 (
 const

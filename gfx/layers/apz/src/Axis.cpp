@@ -341,7 +341,7 @@ Axis
 :
 UpdateWithTouchAtDevicePoint
 (
-ScreenIntCoord
+ScreenCoord
 aPos
 uint32_t
 aTimestampMs
@@ -449,6 +449,8 @@ newVelocity
 mAxisLocked
 ?
 0
+.
+0f
 :
 (
 float
@@ -571,7 +573,7 @@ Axis
 :
 StartTouch
 (
-ScreenIntCoord
+ScreenCoord
 aPos
 uint32_t
 aTimestampMs
@@ -1558,7 +1560,7 @@ Axis
 :
 PanDistance
 (
-ScreenIntCoord
+ScreenCoord
 aPos
 )
 {
