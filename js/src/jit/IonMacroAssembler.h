@@ -7294,6 +7294,15 @@ finish
 )
 ;
 void
+assume_unreachable
+(
+const
+char
+*
+output
+)
+;
+void
 printf
 (
 const
