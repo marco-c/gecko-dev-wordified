@@ -3399,7 +3399,7 @@ saveBodies
 addEventListener
 (
 "
-click
+command
 "
 reverseSaveBodiesPref
 )
@@ -3446,7 +3446,7 @@ saveBodiesContextMenu
 addEventListener
 (
 "
-click
+command
 "
 reverseSaveBodiesPref
 )
