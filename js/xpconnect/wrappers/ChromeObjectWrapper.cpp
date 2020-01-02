@@ -639,6 +639,8 @@ id
 GET
 |
 SET
+|
+GET_PROPERTY_DESCRIPTOR
 )
 ;
 /
@@ -1962,6 +1964,15 @@ Wrapper
 :
 :
 ENUMERATE
+|
+|
+act
+=
+=
+Wrapper
+:
+:
+GET_PROPERTY_DESCRIPTOR
 ;
 if
 (
