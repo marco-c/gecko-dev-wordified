@@ -2358,6 +2358,13 @@ NotLiveGCThing
 typePool
 )
 \
+macro
+(
+Other
+NotLiveGCThing
+baselineStubsOptimized
+)
+\
 ZoneStats
 (
 )
@@ -2906,13 +2913,6 @@ macro
 Other
 NotLiveGCThing
 baselineStubsFallback
-)
-\
-macro
-(
-Other
-NotLiveGCThing
-baselineStubsOptimized
 )
 \
 macro

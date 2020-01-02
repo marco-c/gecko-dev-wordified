@@ -1445,6 +1445,10 @@ mallocSizeOf_
 zStats
 .
 typePool
+&
+zStats
+.
+baselineStubsOptimized
 )
 ;
 }
@@ -1594,10 +1598,6 @@ regexpCompartment
 cStats
 .
 debuggeesSet
-&
-cStats
-.
-baselineStubsOptimized
 )
 ;
 }
