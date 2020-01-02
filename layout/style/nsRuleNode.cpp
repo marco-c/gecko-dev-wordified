@@ -5455,10 +5455,11 @@ GetUnit
 ;
 if
 (
-eCSSUnit_RGBAColor
-=
-=
-unit
+aValue
+.
+IsNumericColorUnit
+(
+)
 )
 {
 aResult
