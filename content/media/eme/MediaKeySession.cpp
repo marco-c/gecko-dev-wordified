@@ -165,7 +165,7 @@ mozilla
 /
 dom
 /
-MediaKeyNeededEvent
+MediaEncryptedEvent
 .
 h
 "

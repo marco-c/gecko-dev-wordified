@@ -1089,7 +1089,7 @@ MOZ_EME
 Dispatches
 a
 "
-needkey
+encrypted
 "
 event
 to
@@ -1111,7 +1111,7 @@ only
 .
 virtual
 void
-DispatchNeedKey
+DispatchEncrypted
 (
 const
 nsTArray
