@@ -219,11 +219,15 @@ USE_WORD
 endif
 #
 if
-(
 defined
 (
 IS_64
 )
+|
+|
+defined
+(
+NSS_BEVAND_ARCFOUR
 )
 typedef
 PRUint64

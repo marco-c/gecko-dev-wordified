@@ -4909,7 +4909,7 @@ return
 cs_int
 =
 =
-SSL_NULL_WITH_NULL_NULL
+TLS_NULL_WITH_NULL_NULL
 )
 ;
 }
@@ -4927,7 +4927,7 @@ return
 cs_int
 =
 =
-SSL_RSA_WITH_NULL_MD5
+TLS_RSA_WITH_NULL_MD5
 )
 |
 |
@@ -4935,7 +4935,7 @@ SSL_RSA_WITH_NULL_MD5
 cs_int
 =
 =
-SSL_RSA_WITH_NULL_SHA
+TLS_RSA_WITH_NULL_SHA
 )
 |
 |
