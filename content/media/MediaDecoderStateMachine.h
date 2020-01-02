@@ -1011,10 +1011,6 @@ MediaDecoderStateMachine
 (
 )
 ;
-/
-/
-nsDecoderStateMachine
-interface
 nsresult
 Init
 (
@@ -2108,8 +2104,7 @@ state
 machine
 thread
 .
-static
-nsIThread
+nsIEventTarget
 *
 GetStateMachineThread
 (
@@ -4723,6 +4718,12 @@ RefPtr
 MediaTaskQueue
 >
 mDecodeTaskQueue
+;
+RefPtr
+<
+SharedThreadPool
+>
+mStateMachineThreadPool
 ;
 /
 /
