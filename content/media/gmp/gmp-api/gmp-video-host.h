@@ -329,6 +329,8 @@ include
 "
 gmp
 -
+video
+-
 errors
 .
 h
@@ -399,7 +401,7 @@ for
 deleting
 .
 virtual
-GMPErr
+GMPVideoErr
 CreateFrame
 (
 GMPVideoFrameFormat
@@ -413,7 +415,7 @@ aFrame
 0
 ;
 virtual
-GMPErr
+GMPVideoErr
 CreatePlane
 (
 GMPPlane

@@ -154,7 +154,7 @@ GMPVideoHostImpl
 )
 {
 }
-GMPErr
+GMPVideoErr
 GMPVideoHostImpl
 :
 :
@@ -175,7 +175,7 @@ mSharedMemMgr
 )
 {
 return
-GMPGenericErr
+GMPVideoGenericErr
 ;
 }
 if
@@ -185,7 +185,7 @@ aFrame
 )
 {
 return
-GMPGenericErr
+GMPVideoGenericErr
 ;
 }
 *
@@ -211,7 +211,7 @@ this
 )
 ;
 return
-GMPNoErr
+GMPVideoNoErr
 ;
 case
 kGMPEncodedVideoFrame
@@ -226,7 +226,7 @@ this
 )
 ;
 return
-GMPNoErr
+GMPVideoNoErr
 ;
 default
 :
@@ -242,10 +242,10 @@ format
 ;
 }
 return
-GMPGenericErr
+GMPVideoGenericErr
 ;
 }
-GMPErr
+GMPVideoErr
 GMPVideoHostImpl
 :
 :
@@ -264,7 +264,7 @@ mSharedMemMgr
 )
 {
 return
-GMPGenericErr
+GMPVideoGenericErr
 ;
 }
 if
@@ -274,7 +274,7 @@ aPlane
 )
 {
 return
-GMPGenericErr
+GMPVideoGenericErr
 ;
 }
 *
@@ -297,7 +297,7 @@ aPlane
 p
 ;
 return
-GMPNoErr
+GMPVideoNoErr
 ;
 }
 GMPSharedMemManager

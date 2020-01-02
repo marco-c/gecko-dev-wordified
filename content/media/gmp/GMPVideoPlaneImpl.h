@@ -263,7 +263,7 @@ aPlaneData
 /
 GMPPlane
 virtual
-GMPErr
+GMPVideoErr
 CreateEmptyPlane
 (
 int32_t
@@ -276,7 +276,7 @@ aPlaneSize
 MOZ_OVERRIDE
 ;
 virtual
-GMPErr
+GMPVideoErr
 Copy
 (
 const
@@ -287,7 +287,7 @@ aPlane
 MOZ_OVERRIDE
 ;
 virtual
-GMPErr
+GMPVideoErr
 Copy
 (
 int32_t
@@ -369,7 +369,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-GMPErr
+GMPVideoErr
 MaybeResize
 (
 int32_t
