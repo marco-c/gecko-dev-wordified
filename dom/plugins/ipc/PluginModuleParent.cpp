@@ -184,7 +184,7 @@ mozilla
 /
 ipc
 /
-SyncChannel
+MessageChannel
 .
 h
 "
@@ -383,7 +383,7 @@ mozilla
 ipc
 :
 :
-SyncChannel
+MessageChannel
 ;
 using
 mozilla
@@ -1468,7 +1468,7 @@ aChildTimeout
 aChildTimeout
 )
 :
-SyncChannel
+MessageChannel
 :
 :
 kNoTimeout

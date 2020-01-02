@@ -456,7 +456,7 @@ start
 with
 /
 /
-RPCChannel
+MessageChannel
 code
 on
 the

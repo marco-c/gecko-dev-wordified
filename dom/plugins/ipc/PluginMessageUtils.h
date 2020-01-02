@@ -132,7 +132,7 @@ mozilla
 /
 ipc
 /
-RPCChannel
+MessageChannel
 .
 h
 "
@@ -278,9 +278,6 @@ mozilla
 ipc
 :
 :
-RPCChannel
-:
-:
 RacyRPCPolicy
 MediateRace
 (
@@ -291,7 +288,7 @@ mozilla
 ipc
 :
 :
-RPCChannel
+MessageChannel
 :
 :
 Message
@@ -304,7 +301,7 @@ mozilla
 ipc
 :
 :
-RPCChannel
+MessageChannel
 :
 :
 Message

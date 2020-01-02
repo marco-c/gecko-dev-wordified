@@ -769,7 +769,7 @@ mozilla
 ipc
 :
 :
-AsyncChannel
+MessageChannel
 *
 childChannel
 =
@@ -792,9 +792,6 @@ mozilla
 ipc
 :
 :
-AsyncChannel
-:
-:
 Side
 parentSide
 =
@@ -807,10 +804,7 @@ mozilla
 ipc
 :
 :
-AsyncChannel
-:
-:
-Parent
+ParentSide
 ;
         
 (

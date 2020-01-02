@@ -194,7 +194,7 @@ mozilla
 /
 ipc
 /
-SyncChannel
+MessageChannel
 .
 h
 "

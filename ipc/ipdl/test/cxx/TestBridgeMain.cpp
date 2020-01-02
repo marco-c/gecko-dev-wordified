@@ -250,10 +250,10 @@ h
 XRE_GetIOMessageLoop
 (
 )
-AsyncChannel
+ipc
 :
 :
-Parent
+ParentSide
 )
 )
 {
@@ -1091,10 +1091,10 @@ h
 XRE_GetIOMessageLoop
 (
 )
-AsyncChannel
+ipc
 :
 :
-Child
+ChildSide
 )
 )
 {

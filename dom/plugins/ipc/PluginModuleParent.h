@@ -765,9 +765,6 @@ mozilla
 ipc
 :
 :
-RPCChannel
-:
-:
 RacyRPCPolicy
 MediateRPCRace
 (
