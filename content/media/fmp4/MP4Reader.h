@@ -666,7 +666,7 @@ The
 platform
 decoder
 .
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 >
@@ -696,7 +696,7 @@ decoder
 is
 created
 .
-RefPtr
+nsRefPtr
 <
 MediaTaskQueue
 >
