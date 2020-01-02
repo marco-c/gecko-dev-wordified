@@ -12061,7 +12061,7 @@ NS_STYLE_HINT_REFLOW
 )
 ;
 }
-bool
+void
 nsPresContext
 :
 :
@@ -12105,7 +12105,6 @@ to
 do
 .
 return
-true
 ;
 }
 MOZ_ASSERT
@@ -12126,9 +12125,6 @@ nsChangeHint
 0
 )
 )
-;
-return
-true
 ;
 }
 void
