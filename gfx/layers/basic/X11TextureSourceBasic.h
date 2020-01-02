@@ -198,6 +198,12 @@ SourceSurface
 *
 GetSurface
 (
+gfx
+:
+:
+DrawTarget
+*
+aTarget
 )
 MOZ_OVERRIDE
 ;
