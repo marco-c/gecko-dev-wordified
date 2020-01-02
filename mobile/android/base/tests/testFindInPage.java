@@ -94,6 +94,16 @@ loadAndPaint
 url
 )
 ;
+/
+/
+Select
+the
+upper
+left
+corner
+of
+the
+screen
 height
 =
 mDriver
@@ -112,7 +122,7 @@ getGeckoWidth
 (
 )
 /
-2
+8
 ;
 /
 /
