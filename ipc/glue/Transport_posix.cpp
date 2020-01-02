@@ -246,7 +246,7 @@ fd1
 =
 t
 .
-GetServerFileDescriptor
+GetFileDescriptor
 (
 )
 ;
