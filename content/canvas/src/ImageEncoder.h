@@ -155,6 +155,9 @@ h
 class
 nsICanvasRenderingContextInternal
 ;
+class
+nsIGlobalObject
+;
 namespace
 mozilla
 {
@@ -420,9 +423,9 @@ aSize
 nsICanvasRenderingContextInternal
 *
 aContext
-nsIScriptContext
+nsIGlobalObject
 *
-aScriptContext
+aGlobal
 FileCallback
 &
 aCallback
