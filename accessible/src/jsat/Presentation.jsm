@@ -1056,7 +1056,7 @@ accessible
 :
 aContext
 .
-accessible
+accessibleForBounds
 startOffset
 :
 aContext
@@ -1075,7 +1075,7 @@ if
 !
 aContext
 .
-accessible
+accessibleForBounds
 )
 return
 {
@@ -1099,7 +1099,7 @@ try
 {
 aContext
 .
-accessible
+accessibleForBounds
 .
 scrollTo
 (
@@ -1144,7 +1144,7 @@ getTextBounds
 (
 aContext
 .
-accessible
+accessibleForBounds
 aContext
 .
 startOffset
