@@ -442,13 +442,6 @@ h
 #
 include
 "
-nsSVGTextContainerFrame
-.
-h
-"
-#
-include
-"
 nsTextFrame
 .
 h
