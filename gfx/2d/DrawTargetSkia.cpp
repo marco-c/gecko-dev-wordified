@@ -2456,6 +2456,7 @@ aOffset
 .
 y
 aSigma
+aSigma
 ColorToSkColor
 (
 aColor
