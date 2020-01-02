@@ -471,6 +471,7 @@ define
 COPY_SEQUENCE_FIELD
 (
 prop
+type
 )
 \
 if
@@ -493,7 +494,7 @@ dom
 :
 Sequence
 <
-nsString
+type
 >
 const
 &
@@ -535,7 +536,7 @@ idx
 )
 {
 \
-mHostnames
+prop
 .
 AppendElement
 (
@@ -712,6 +713,7 @@ EmptyString
 COPY_SEQUENCE_FIELD
 (
 mHostnames
+nsString
 )
 COPY_OPT_STRING_FIELD
 (
@@ -827,6 +829,7 @@ EmptyString
 COPY_SEQUENCE_FIELD
 (
 mInterfaceList
+nsString
 )
 COPY_OPT_STRING_FIELD
 (
@@ -1041,7 +1044,7 @@ mLink
 ;
 nsTArray
 <
-nsCString
+nsString
 >
 mInterfaceList
 ;
