@@ -592,14 +592,7 @@ set
 (
 {
 }
-1024
-)
-;
-set
-(
-{
-}
-1024
+256
 )
 ;
 function
@@ -612,7 +605,7 @@ set
 (
 new
 Foo
-1024
+256
 )
 ;
 function
@@ -649,9 +642,7 @@ foo
 set
 (
 a1
-i
-+
-1
+32
 )
 ;
 return
