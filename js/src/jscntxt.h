@@ -2490,6 +2490,11 @@ addPendingCompileError
 (
 )
 ;
+void
+addPendingOverRecursed
+(
+)
+;
 }
 ;
 inline
