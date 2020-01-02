@@ -18698,6 +18698,10 @@ mOverrideZIndex
 (
 0
 )
+mHasZIndexOverride
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -19065,6 +19069,10 @@ aFrame
 mOverrideZIndex
 (
 0
+)
+mHasZIndexOverride
+(
+false
 )
 {
 MOZ_COUNT_CTOR
