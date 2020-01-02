@@ -494,7 +494,7 @@ kind
 )
 !
 =
-TypeDescr
+type
 :
 :
 X4
@@ -828,7 +828,7 @@ kind
 )
 !
 =
-TypeDescr
+type
 :
 :
 X4
@@ -1609,7 +1609,7 @@ initReservedSlot
 JS_DESCR_SLOT_KIND
 Int32Value
 (
-TypeDescr
+type
 :
 :
 X4
@@ -2845,7 +2845,7 @@ kind
 )
 !
 =
-TypeDescr
+type
 :
 :
 X4

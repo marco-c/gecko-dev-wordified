@@ -697,7 +697,7 @@ const
 bool
 allOfKind
 (
-TypeDescr
+type
 :
 :
 Kind
@@ -946,7 +946,7 @@ non
 empty
 set
 :
-TypeDescr
+type
 :
 :
 Kind
@@ -1092,7 +1092,7 @@ kind
 )
 =
 =
-TypeDescr
+type
 :
 :
 Scalar
@@ -1219,7 +1219,7 @@ kind
 )
 =
 =
-TypeDescr
+type
 :
 :
 Reference
@@ -1346,7 +1346,7 @@ kind
 )
 =
 =
-TypeDescr
+type
 :
 :
 X4
@@ -1473,7 +1473,7 @@ kind
 )
 =
 =
-TypeDescr
+type
 :
 :
 SizedArray
@@ -1649,7 +1649,7 @@ kind
 )
 =
 =
-TypeDescr
+type
 :
 :
 Struct

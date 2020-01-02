@@ -10123,7 +10123,7 @@ kind
 )
 !
 =
-TypeDescr
+type
 :
 :
 Scalar
