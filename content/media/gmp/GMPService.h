@@ -246,6 +246,11 @@ UnloadPlugins
 )
 ;
 void
+CrashPlugins
+(
+)
+;
+void
 LoadFromEnvironment
 (
 )

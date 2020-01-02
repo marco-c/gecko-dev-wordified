@@ -321,6 +321,13 @@ aActor
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RecvCrashPluginNow
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 ActorDestroy
 (
