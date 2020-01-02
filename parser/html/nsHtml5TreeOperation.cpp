@@ -5453,14 +5453,11 @@ IsEmpty
 {
 klass
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 error
 "
-)
 )
 ;
 node

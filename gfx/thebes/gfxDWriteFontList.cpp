@@ -1103,11 +1103,8 @@ fullID
 .
 Append
 (
-NS_LITERAL_STRING
-(
-"
-"
-)
+'
+'
 )
 ;
 fullID
@@ -9139,11 +9136,8 @@ fullID
 .
 Append
 (
-NS_LITERAL_STRING
-(
-"
-"
-)
+'
+'
 )
 ;
 fullID

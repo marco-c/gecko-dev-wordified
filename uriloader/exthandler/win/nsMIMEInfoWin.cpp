@@ -4566,16 +4566,13 @@ no
 period
 openWithListPath
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 \
 \
 OpenWithList
 "
-)
 )
 ;
 nsresult

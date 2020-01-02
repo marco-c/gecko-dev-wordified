@@ -1518,14 +1518,11 @@ aPoolName
 ;
 name
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 #
 "
-)
 )
 ;
 name

@@ -555,9 +555,7 @@ path
 ;
 mBuf
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 HTTP
@@ -574,7 +572,6 @@ r
 \
 n
 "
-)
 )
 ;
 }

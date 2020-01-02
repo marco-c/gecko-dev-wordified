@@ -4661,16 +4661,13 @@ scheme
 ;
 dispHost
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 :
 /
 /
 "
-)
 )
 ;
 dispHost

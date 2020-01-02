@@ -1019,9 +1019,7 @@ aName
 ;
 errMsg
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 is
@@ -1032,7 +1030,6 @@ named
 parameter
 .
 "
-)
 )
 ;
 closureThunk

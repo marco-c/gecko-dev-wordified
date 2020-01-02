@@ -24845,13 +24845,10 @@ formatStrs
 0
 ]
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 "
-)
 )
 ;
 AppendASCIItoUTF16

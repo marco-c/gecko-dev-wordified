@@ -6792,9 +6792,7 @@ warningMsg
 ;
 warningMsg
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 Unsupported
@@ -6802,7 +6800,6 @@ AT
 command
 :
 "
-)
 )
 ;
 warningMsg
@@ -6814,16 +6811,13 @@ msg
 ;
 warningMsg
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 reply
 with
 ERROR
 "
-)
 )
 ;
 BT_WARNING

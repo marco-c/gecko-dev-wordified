@@ -1361,12 +1361,9 @@ tmpStr
 .
 Append
 (
-NS_LITERAL_STRING
-(
-"
+'
 )
-"
-)
+'
 )
 ;
 break

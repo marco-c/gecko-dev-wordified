@@ -2589,13 +2589,10 @@ IsEmpty
 {
 funcParams
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 "
-)
 )
 ;
 }

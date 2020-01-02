@@ -1767,11 +1767,8 @@ appArgs
 .
 Append
 (
-NS_LITERAL_STRING
-(
-"
-"
-)
+'
+'
 )
 ;
 nsAutoString

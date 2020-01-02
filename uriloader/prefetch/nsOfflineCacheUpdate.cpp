@@ -694,15 +694,12 @@ uriSpec
 ;
 messageUTF16
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 URL
 =
 "
-)
 )
 ;
 messageUTF16

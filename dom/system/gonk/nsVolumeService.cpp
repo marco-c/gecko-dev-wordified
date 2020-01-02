@@ -1408,12 +1408,9 @@ volMountPointSlash
 .
 Append
 (
-NS_LITERAL_CSTRING
-(
-"
+'
 /
-"
-)
+'
 )
 ;
 nsDependentCSubstring

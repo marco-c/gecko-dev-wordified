@@ -8821,12 +8821,9 @@ key
 .
 Append
 (
-NS_LITERAL_STRING
-(
-"
+'
 :
-"
-)
+'
 )
 ;
 key

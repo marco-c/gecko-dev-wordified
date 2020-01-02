@@ -2810,15 +2810,12 @@ isPrivate
 )
 sessionName
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 -
 private
 "
-)
 )
 ;
 }

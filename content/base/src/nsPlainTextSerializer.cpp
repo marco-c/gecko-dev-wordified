@@ -9192,13 +9192,10 @@ aBreakBySpace
 )
 mCurrentLine
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 "
-)
 )
 ;
 else

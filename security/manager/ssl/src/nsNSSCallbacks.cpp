@@ -6522,9 +6522,7 @@ hostName
 ;
 msg
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 :
@@ -6541,7 +6539,6 @@ CVE
 -
 3555
 "
-)
 )
 ;
 nsContentUtils

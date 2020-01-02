@@ -9775,15 +9775,12 @@ application
 .
 tempLeafName
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 .
 part
 "
-)
 )
 ;
 rv

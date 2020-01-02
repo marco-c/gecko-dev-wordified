@@ -3041,14 +3041,11 @@ fixed
 .
 s
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 B
 "
-)
 )
 ;
 APPEND_ROW

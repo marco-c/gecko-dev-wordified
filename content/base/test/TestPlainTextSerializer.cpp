@@ -504,9 +504,7 @@ Append
 }
 result
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 \
@@ -514,7 +512,6 @@ r
 \
 n
 "
-)
 )
 ;
 for
@@ -543,9 +540,7 @@ Append
 }
 result
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 \
@@ -553,7 +548,6 @@ r
 \
 n
 "
-)
 )
 ;
 if

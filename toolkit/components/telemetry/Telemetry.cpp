@@ -8671,12 +8671,9 @@ ret
 .
 Append
 (
-NS_LITERAL_CSTRING
-(
-"
+'
 :
-"
-)
+'
 )
 ;
 ret

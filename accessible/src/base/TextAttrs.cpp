@@ -3929,14 +3929,11 @@ pts
 ;
 value
 .
-Append
-(
-NS_LITERAL_STRING
+AppendLiteral
 (
 "
 pt
 "
-)
 )
 ;
 nsAccUtils
