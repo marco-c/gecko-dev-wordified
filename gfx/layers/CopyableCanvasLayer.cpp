@@ -688,7 +688,7 @@ SourceSurface
 >
 resultSurf
 ;
-SharedSurface
+SharedSurface_GL
 *
 sharedSurf
 =
@@ -1270,7 +1270,7 @@ gfxASurface
 >
 resultSurf
 ;
-SharedSurface
+SharedSurface_GL
 *
 sharedSurf
 =

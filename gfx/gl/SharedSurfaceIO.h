@@ -158,6 +158,7 @@ void
 LockProdImpl
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -165,6 +166,7 @@ void
 UnlockProdImpl
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -172,12 +174,14 @@ void
 Fence
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 WaitSync
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -207,10 +211,10 @@ MOZ_OVERRIDE
 ;
 virtual
 GLuint
-Texture
+ProdTexture
 (
 )
-const
+MOZ_OVERRIDE
 {
 return
 mTexture
@@ -218,10 +222,11 @@ mTexture
 }
 virtual
 GLenum
-TextureTarget
+ProdTextureTarget
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 LOCAL_GL_TEXTURE_RECTANGLE_ARB

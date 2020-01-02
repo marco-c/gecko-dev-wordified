@@ -2612,7 +2612,7 @@ mTextureHandle
 glTexSurf
 -
 >
-Texture
+ProdTexture
 (
 )
 ;
@@ -2621,7 +2621,7 @@ mTextureTarget
 glTexSurf
 -
 >
-TextureTarget
+ProdTextureTarget
 (
 )
 ;
@@ -2739,7 +2739,7 @@ mTextureHandle
 glTexSurf
 -
 >
-Texture
+ProdTexture
 (
 )
 ;
@@ -2748,7 +2748,7 @@ mTextureTarget
 glTexSurf
 -
 >
-TextureTarget
+ProdTextureTarget
 (
 )
 ;

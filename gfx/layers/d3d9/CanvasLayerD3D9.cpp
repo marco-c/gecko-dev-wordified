@@ -475,7 +475,7 @@ if
 mGLContext
 )
 {
-SharedSurface
+SharedSurface_GL
 *
 surf
 =
