@@ -7591,7 +7591,7 @@ uint64_t
 aObj
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -7672,7 +7672,8 @@ gfxUtils
 :
 sDumpPaintFile
 )
-fprintf
+{
+fprintf_stderr
 (
 gfxUtils
 :
@@ -7699,6 +7700,7 @@ BeginReading
 )
 )
 ;
+}
 aSurf
 -
 >
@@ -7717,7 +7719,8 @@ gfxUtils
 :
 sDumpPaintFile
 )
-fprintf
+{
+fprintf_stderr
 (
 gfxUtils
 :
@@ -7730,6 +7733,7 @@ sDumpPaintFile
 "
 )
 ;
+}
 }
 void
 WriteSnapshotToDumpFile
@@ -7828,7 +7832,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -7879,7 +7883,7 @@ aFile
 }
 #
 endif
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -7939,7 +7943,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -8020,7 +8024,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -8050,7 +8054,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -8068,7 +8072,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -8125,37 +8129,7 @@ str
 aPrefix
 )
 ;
-if
-(
-!
-aFile
-|
-|
-aFile
-=
-=
-stderr
-)
-{
-printf_stderr
-(
-"
-%
-s
-\
-n
-"
-str
-.
-get
-(
-)
-)
-;
-}
-else
-{
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -8171,7 +8145,6 @@ get
 )
 )
 ;
-}
 }
 void
 Layer
@@ -9306,7 +9279,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 file
 "
@@ -9327,7 +9300,7 @@ this
 file
 )
 ;
-fprintf
+fprintf_stderr
 (
 file
 "
@@ -9352,7 +9325,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 file
 "
@@ -9386,7 +9359,7 @@ GetRoot
 )
 )
 {
-fprintf
+fprintf_stderr
 (
 file
 "
@@ -9408,7 +9381,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 file
 "
@@ -9432,7 +9405,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 file
 "
@@ -9464,7 +9437,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 file
 "
@@ -9518,7 +9491,7 @@ str
 aPrefix
 )
 ;
-fprintf
+fprintf_stderr
 (
 FILEOrDefault
 (

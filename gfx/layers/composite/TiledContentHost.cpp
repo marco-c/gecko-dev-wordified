@@ -2085,7 +2085,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -2109,7 +2109,7 @@ stop
 it
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -2119,7 +2119,7 @@ s
 aPrefix
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 aDumpHtml
@@ -2148,7 +2148,7 @@ it
 mDeprecatedTextureHost
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 aDumpHtml
@@ -2176,7 +2176,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "

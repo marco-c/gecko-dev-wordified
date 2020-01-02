@@ -12439,9 +12439,9 @@ if
 gDumpEventList
 )
 {
-fprintf
+fprintf_stderr
 (
-stdout
+stderr
 "
 Event
 handling
@@ -13794,7 +13794,7 @@ gfxUtils
 :
 sDumpPaintFile
 =
-stdout
+stderr
 ;
 }
 if
@@ -13805,7 +13805,7 @@ gfxUtils
 sDumpPaintingToFile
 )
 {
-fprintf
+fprintf_stderr
 (
 gfxUtils
 :
@@ -13858,7 +13858,7 @@ body
 )
 ;
 }
-fprintf
+fprintf_stderr
 (
 gfxUtils
 :
@@ -13926,7 +13926,7 @@ gfxUtils
 sDumpPaintingToFile
 )
 {
-fprintf
+fprintf_stderr
 (
 gfxUtils
 :
@@ -14229,7 +14229,7 @@ gfxUtils
 sDumpPaintingToFile
 )
 {
-fprintf
+fprintf_stderr
 (
 gfxUtils
 :
@@ -14244,7 +14244,7 @@ script
 )
 ;
 }
-fprintf
+fprintf_stderr
 (
 gfxUtils
 :
@@ -14281,7 +14281,7 @@ gfxUtils
 sDumpPaintingToFile
 )
 ;
-fprintf
+fprintf_stderr
 (
 gfxUtils
 :
@@ -18016,7 +18016,7 @@ nsFrame
 :
 IndentBy
 (
-stdout
+stderr
 gNoiseIndent
 )
 ;
@@ -18032,10 +18032,10 @@ aFrame
 >
 ListTag
 (
-stdout
+stderr
 )
 ;
-printf
+printf_stderr
 (
 "
 %
@@ -18581,7 +18581,7 @@ nsFrame
 :
 IndentBy
 (
-stdout
+stderr
 gNoiseIndent
 )
 ;
@@ -18597,10 +18597,10 @@ aFrame
 >
 ListTag
 (
-stdout
+stderr
 )
 ;
-printf
+printf_stderr
 (
 "
 %
@@ -19834,7 +19834,7 @@ nsFrame
 :
 IndentBy
 (
-stdout
+stderr
 gNoiseIndent
 )
 ;
@@ -19850,10 +19850,10 @@ aFrame
 >
 ListTag
 (
-stdout
+stderr
 )
 ;
-printf
+printf_stderr
 (
 "
 %

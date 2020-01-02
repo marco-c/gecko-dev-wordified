@@ -3024,9 +3024,8 @@ if
 gDumpCompositorTree
 )
 {
-fprintf
+printf_stderr
 (
-stdout
 "
 Painting
 -
@@ -3046,10 +3045,6 @@ mLayerManager
 >
 Dump
 (
-stdout
-"
-"
-false
 )
 ;
 }

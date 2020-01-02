@@ -7234,7 +7234,7 @@ InvalidationDebuggingIsEnabled
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Starting
@@ -7340,7 +7340,7 @@ InvalidationDebuggingIsEnabled
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Ending

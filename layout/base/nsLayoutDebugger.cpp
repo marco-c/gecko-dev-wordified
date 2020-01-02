@@ -523,7 +523,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -566,7 +566,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -599,7 +599,7 @@ indent
 +
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -776,7 +776,7 @@ uint64_t
 i
 )
 ;
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -807,7 +807,7 @@ BeginReading
 )
 ;
 }
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -972,7 +972,7 @@ Next
 )
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -1028,7 +1028,7 @@ Painted
 )
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -1076,7 +1076,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -1108,7 +1108,7 @@ layer
 }
 else
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -1185,7 +1185,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -1210,7 +1210,7 @@ if
 aDumpHtml
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "

@@ -1140,7 +1140,7 @@ aPrefix
 "
 )
 {
-printf
+printf_stderr
 (
 "
 %
@@ -5584,7 +5584,7 @@ str
 rgn
 )
 ;
-printf
+printf_stderr
 (
 "
 Invalidating
@@ -6033,7 +6033,7 @@ rootData
 mParent
 ;
 }
-printf
+printf_stderr
 (
 "
 Removing
@@ -6580,7 +6580,7 @@ InvalidationDebuggingIsEnabled
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Invalidating
@@ -6996,7 +6996,7 @@ str
 n
 "
 ;
-printf
+printf_stderr
 (
 "
 %
@@ -7023,7 +7023,7 @@ prefix
 "
 "
 ;
-printf
+printf_stderr
 (
 "
 %
@@ -8436,7 +8436,7 @@ InvalidationDebuggingIsEnabled
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Invalidating
@@ -8818,7 +8818,7 @@ InvalidationDebuggingIsEnabled
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Invalidating
@@ -8878,7 +8878,7 @@ data
 mRegionToInvalidate
 )
 ;
-printf
+printf_stderr
 (
 "
 Invalidating
@@ -13394,7 +13394,7 @@ uint64_t
 aItem
 )
 ;
-fprintf
+fprintf_stderr
 (
 gfxUtils
 :
@@ -13432,7 +13432,7 @@ gfxUtils
 sDumpPaintFile
 )
 ;
-fprintf
+fprintf_stderr
 (
 gfxUtils
 :
@@ -15732,7 +15732,7 @@ InvalidationDebuggingIsEnabled
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Display
@@ -16036,7 +16036,7 @@ InvalidationDebuggingIsEnabled
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Display
@@ -16170,7 +16170,7 @@ InvalidationDebuggingIsEnabled
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Display
@@ -16391,7 +16391,7 @@ IsEmpty
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Display
@@ -17089,7 +17089,7 @@ InvalidationDebuggingIsEnabled
 )
 )
 {
-printf
+printf_stderr
 (
 "
 Inactive

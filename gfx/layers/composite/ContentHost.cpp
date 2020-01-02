@@ -1570,7 +1570,7 @@ aFile
 stderr
 ;
 }
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -1585,7 +1585,7 @@ if
 mDeprecatedTextureHost
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -1595,7 +1595,7 @@ s
 aPrefix
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -1615,7 +1615,7 @@ aFile
 mDeprecatedTextureHost
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -1639,7 +1639,7 @@ if
 mDeprecatedTextureHostOnWhite
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -1649,7 +1649,7 @@ s
 aPrefix
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -1669,7 +1669,7 @@ aFile
 mDeprecatedTextureHostOnWhite
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -1690,7 +1690,7 @@ li
 )
 ;
 }
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -4874,7 +4874,7 @@ aFile
 stderr
 ;
 }
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -4889,7 +4889,7 @@ if
 mBackHost
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -4899,7 +4899,7 @@ s
 aPrefix
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -4919,7 +4919,7 @@ aFile
 mBackHost
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -4943,7 +4943,7 @@ if
 mBackHostOnWhite
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -4953,7 +4953,7 @@ s
 aPrefix
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -4973,7 +4973,7 @@ aFile
 mBackHostOnWhite
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -4994,7 +4994,7 @@ li
 )
 ;
 }
-fprintf
+fprintf_stderr
 (
 aFile
 "
