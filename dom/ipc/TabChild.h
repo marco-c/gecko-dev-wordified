@@ -1720,7 +1720,7 @@ bool
 RecvUpdateDimensions
 (
 const
-nsRect
+nsIntRect
 &
 rect
 const
@@ -2939,11 +2939,6 @@ Init
 .
 void
 NotifyTabContextUpdated
-(
-)
-;
-bool
-UseDirectCompositor
 (
 )
 ;

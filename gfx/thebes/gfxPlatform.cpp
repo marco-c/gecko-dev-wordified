@@ -2775,11 +2775,6 @@ Initialize
 ;
 if
 (
-UsesOffMainThreadCompositing
-(
-)
-&
-&
 XRE_GetProcessType
 (
 )
@@ -2882,11 +2877,6 @@ false
 ;
 if
 (
-UsesOffMainThreadCompositing
-(
-)
-&
-&
 XRE_GetProcessType
 (
 )
