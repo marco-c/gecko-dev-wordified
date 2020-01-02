@@ -1431,7 +1431,10 @@ event
 bool
 SendSelectionEvent
 (
-nsSelectionEvent
+mozilla
+:
+:
+WidgetSelectionEvent
 &
 event
 )

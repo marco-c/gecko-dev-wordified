@@ -8212,7 +8212,7 @@ Set
 selection
 to
 delete
-nsSelectionEvent
+WidgetSelectionEvent
 selectionEvent
 (
 true

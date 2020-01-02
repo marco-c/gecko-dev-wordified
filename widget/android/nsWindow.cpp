@@ -10569,7 +10569,7 @@ RemoveIMEComposition
 )
 ;
 {
-nsSelectionEvent
+WidgetSelectionEvent
 event
 (
 true
@@ -10853,7 +10853,7 @@ RemoveIMEComposition
 (
 )
 ;
-nsSelectionEvent
+WidgetSelectionEvent
 selEvent
 (
 true
@@ -11308,7 +11308,7 @@ Length
 )
 ;
 {
-nsSelectionEvent
+WidgetSelectionEvent
 event
 (
 true

@@ -5258,7 +5258,7 @@ TabParent
 :
 SendSelectionEvent
 (
-nsSelectionEvent
+WidgetSelectionEvent
 &
 event
 )

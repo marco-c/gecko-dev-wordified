@@ -466,13 +466,6 @@ typedef
 mozilla
 :
 :
-WidgetSelectionEvent
-nsSelectionEvent
-;
-typedef
-mozilla
-:
-:
 WidgetMouseEventBase
 nsMouseEvent_base
 ;

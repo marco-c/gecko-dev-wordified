@@ -2444,7 +2444,7 @@ to
 manipulate
 selection
 (
-nsSelectionEvent
+WidgetSelectionEvent
 )
 #
 define

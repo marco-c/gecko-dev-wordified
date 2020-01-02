@@ -5721,7 +5721,7 @@ composition
 replaces
 the
 range
-nsSelectionEvent
+WidgetSelectionEvent
 selectionSet
 (
 true
@@ -6969,7 +6969,7 @@ mSelectionReversed
 )
 )
 ;
-nsSelectionEvent
+WidgetSelectionEvent
 selectionSet
 (
 true
