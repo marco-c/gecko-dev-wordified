@@ -3745,6 +3745,13 @@ kBoxAlignKTable
 static
 const
 KTableValue
+kBoxDecorationBreakKTable
+[
+]
+;
+static
+const
+KTableValue
 kBoxDirectionKTable
 [
 ]
