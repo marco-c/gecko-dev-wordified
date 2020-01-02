@@ -182,17 +182,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-/
-/
-for
-gfxSize
-#
-include
-"
 mozilla
 /
 Attributes

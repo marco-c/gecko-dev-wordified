@@ -163,17 +163,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-/
-/
-for
-gfxSize
-#
-include
-"
 mozilla
 /
 Assertions
