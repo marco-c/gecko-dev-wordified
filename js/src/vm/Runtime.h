@@ -280,6 +280,15 @@ h
 #
 endif
 #
+include
+"
+gc
+/
+Tracer
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
