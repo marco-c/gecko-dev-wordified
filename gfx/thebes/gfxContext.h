@@ -4053,7 +4053,7 @@ stdout
 *
 /
 void
-DumpAsDataURL
+DumpAsDataURI
 (
 )
 ;
@@ -4074,7 +4074,7 @@ clipboard
 *
 /
 void
-CopyAsDataURL
+CopyAsDataURI
 (
 )
 ;
