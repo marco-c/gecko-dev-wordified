@@ -286,8 +286,8 @@ PromptListItem
 ]
 aMenuList
 final
-boolean
-aMultipleSelection
+int
+aChoiceMode
 final
 Prompt
 .
@@ -342,7 +342,7 @@ show
 aTitle
 aText
 aMenuList
-aMultipleSelection
+aChoiceMode
 )
 ;
 }
