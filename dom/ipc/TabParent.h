@@ -679,6 +679,16 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvReplyKeyEvent
+(
+const
+WidgetKeyboardEvent
+&
+event
+)
+;
+virtual
+bool
 RecvPRenderFrameConstructor
 (
 PRenderFrameParent
