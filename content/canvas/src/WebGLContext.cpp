@@ -5662,7 +5662,7 @@ colorAttachmentsMask
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 ]
 =
 {
@@ -5803,7 +5803,7 @@ const
 bool
 colorAttachmentsMask
 [
-sMaxColorAttachments
+kMaxColorAttachments
 ]
 )
 {
@@ -5864,7 +5864,7 @@ currentDrawBuffers
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 ]
 ;
 /
@@ -6368,7 +6368,7 @@ drawBuffersCommand
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 ]
 =
 {

@@ -1322,7 +1322,7 @@ const
 static
 const
 size_t
-sMaxColorAttachments
+kMaxColorAttachments
 =
 16
 ;
@@ -1389,7 +1389,7 @@ const
 bool
 colorAttachmentsMask
 [
-sMaxColorAttachments
+kMaxColorAttachments
 ]
 )
 ;
