@@ -336,6 +336,8 @@ AAC
 codec
 specific
 data
+AMR_AUDIO_CSD
+AMR_AUDIO_FRAME
 UNKNOWN
 /
 /

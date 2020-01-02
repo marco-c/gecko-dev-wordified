@@ -1159,7 +1159,6 @@ FragmentBuffer
 (
 Audio_Track
 FRAG_DURATION
-aMetadata
 )
 ;
 mControl
@@ -1205,7 +1204,6 @@ FragmentBuffer
 (
 Video_Track
 FRAG_DURATION
-aMetadata
 )
 ;
 mControl
