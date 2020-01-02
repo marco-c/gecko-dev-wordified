@@ -91,6 +91,12 @@ test
 common
 import
 MockConfig
+import
+mozpack
+.
+path
+as
+mozpath
 if
 sys
 .
@@ -117,15 +123,11 @@ str
 '
 data_path
 =
-os
-.
-path
+mozpath
 .
 abspath
 (
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -134,9 +136,7 @@ __file__
 )
 data_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -167,9 +167,7 @@ kwargs
         
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -246,9 +244,7 @@ args
 :
         
 return
-os
-.
-path
+mozpath
 .
 join
 (
@@ -322,9 +318,7 @@ simple
         
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (

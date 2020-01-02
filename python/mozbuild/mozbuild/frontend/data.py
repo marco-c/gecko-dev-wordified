@@ -160,6 +160,12 @@ shell_quote
     
 StrictOrderingOnAppendList
 )
+import
+mozpack
+.
+path
+as
+mozpath
 from
 .
 sandbox_symbols
@@ -1002,9 +1008,7 @@ self
 .
 basename
 =
-os
-.
-path
+mozpath
 .
 basename
 (
@@ -2254,9 +2258,7 @@ self
 .
 directory
 =
-os
-.
-path
+mozpath
 .
 dirname
 (

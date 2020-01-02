@@ -115,6 +115,12 @@ backend
 common
 import
 BackendTester
+import
+mozpack
+.
+path
+as
+mozpath
 class
 TestRecursiveMakeTraversal
 (
@@ -1526,9 +1532,7 @@ path
 .
 exists
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1555,9 +1559,7 @@ path
 .
 exists
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1629,9 +1631,7 @@ expected
             
 out_makefile
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1646,9 +1646,7 @@ Makefile
             
 out_backend
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1727,9 +1725,7 @@ RecursiveMakeBackend
         
 p
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1916,9 +1912,7 @@ RecursiveMakeBackend
         
 p
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -2041,9 +2035,7 @@ RecursiveMakeBackend
         
 p
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -2163,9 +2155,7 @@ RecursiveMakeBackend
         
 makefile_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -2179,9 +2169,7 @@ Makefile
         
 backend_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -2322,9 +2310,7 @@ RecursiveMakeBackend
         
 backend_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -2446,9 +2432,7 @@ RecursiveMakeBackend
         
 p
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -2550,9 +2534,7 @@ RecursiveMakeBackend
         
 backend_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3121,9 +3103,7 @@ InstallManifest
 (
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3236,9 +3216,7 @@ RecursiveMakeBackend
         
 tests_dir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3252,9 +3230,7 @@ _tests
         
 m_master
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3277,9 +3253,7 @@ ini
         
 x_master
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3399,9 +3373,7 @@ ini
         
 all_tests_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3545,9 +3517,7 @@ InstallManifest
 (
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3683,9 +3653,7 @@ entries
         
 install_dir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3711,9 +3679,7 @@ path
 .
 isfile
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3735,9 +3701,7 @@ path
 .
 isfile
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3755,9 +3719,7 @@ InstallManifest
 (
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3809,9 +3771,7 @@ InstallManifest
 (
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3857,9 +3817,7 @@ InstallManifest
 (
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3884,9 +3842,7 @@ m
         
 p
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3926,9 +3882,7 @@ path
 .
 isfile
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3979,9 +3933,7 @@ stub0
         
 purge_dir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3998,9 +3950,7 @@ install
         
 manifest_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4133,9 +4083,7 @@ objs
         
 man_dir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4180,9 +4128,7 @@ expected
             
 full
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4260,9 +4206,7 @@ RecursiveMakeBackend
         
 manifest_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4486,9 +4430,7 @@ RecursiveMakeBackend
         
 backend_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4643,9 +4585,7 @@ RecursiveMakeBackend
         
 backend_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4787,9 +4727,7 @@ RecursiveMakeBackend
         
 backend_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5015,9 +4953,7 @@ topobjdir
         
 expected
 [
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5050,9 +4986,7 @@ final_target_rule
         
 expected
 [
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5081,9 +5015,7 @@ final_target_rule
         
 expected
 [
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5112,9 +5044,7 @@ final_target_rule
         
 expected
 [
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5160,9 +5090,7 @@ iteritems
             
 backend_path
 =
-os
-.
-path
+mozpath
 .
 join
 (

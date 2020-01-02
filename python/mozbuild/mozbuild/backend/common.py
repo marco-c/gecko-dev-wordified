@@ -669,9 +669,7 @@ test
         
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (

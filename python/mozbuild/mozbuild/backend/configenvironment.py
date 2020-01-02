@@ -83,6 +83,12 @@ mozbuild
 preprocessor
 import
 Preprocessor
+import
+mozpack
+.
+path
+as
+mozpath
 from
 .
 .
@@ -764,13 +770,23 @@ self
 .
 topsrcdir
 =
+mozpath
+.
+normsep
+(
 topsrcdir
+)
         
 self
 .
 topobjdir
 =
+mozpath
+.
+normsep
+(
 topobjdir
+)
         
 global_defines
 =
@@ -1596,9 +1612,7 @@ relpath
 self
 .
 topobjdir
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -1665,15 +1679,11 @@ basestring
 )
         
 return
-os
-.
-path
+mozpath
 .
 normpath
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1810,9 +1820,7 @@ output
 name
         
 if
-os
-.
-path
+mozpath
 .
 basename
 (

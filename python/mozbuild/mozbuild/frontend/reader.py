@@ -255,6 +255,12 @@ backend
 configenvironment
 import
 ConfigEnvironment
+import
+mozpack
+.
+path
+as
+mozpath
 from
 .
 data
@@ -457,9 +463,7 @@ topsrcdir
     
 path
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -468,9 +472,7 @@ path
     
 topsrcdir
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -530,9 +532,7 @@ external
             
 external
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -544,9 +544,7 @@ external
         
 external
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -763,9 +761,7 @@ metadata
         
 topobjdir
 =
-os
-.
-path
+mozpath
 .
 abspath
 (
@@ -782,9 +778,7 @@ topsrcdir
         
 norm_topsrcdir
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -828,9 +822,7 @@ external_dirs
                 
 external
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -851,9 +843,7 @@ external
                     
 external
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -865,9 +855,7 @@ external
                 
 external
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -955,9 +943,7 @@ topobjdir
                 
 topobjdir
 =
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -1005,9 +991,7 @@ ConfigEnvironment
 from_config_status
 (
                     
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1036,31 +1020,17 @@ topsrcdir
         
 relpath
 =
-os
-.
-path
+mozpath
 .
 relpath
 (
 path
 topsrcdir
 )
-.
-replace
-(
-os
-.
-sep
-'
-/
-'
-)
         
 reldir
 =
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -1113,24 +1083,12 @@ SRCDIR
 '
 ]
 =
-os
-.
-path
+mozpath
 .
 join
 (
 topsrcdir
 reldir
-)
-.
-replace
-(
-os
-.
-sep
-'
-/
-'
 )
 .
 rstrip
@@ -1147,24 +1105,12 @@ OBJDIR
 '
 ]
 =
-os
-.
-path
+mozpath
 .
 join
 (
 topobjdir
 reldir
-)
-.
-replace
-(
-os
-.
-sep
-'
-/
-'
 )
 .
 rstrip
@@ -1439,15 +1385,11 @@ filesystem_absolute
                 
 path
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1477,22 +1419,16 @@ _execution_stack
                 
 path
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
-os
-.
-path
+mozpath
 .
 join
 (
                     
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -1514,15 +1450,11 @@ else
                 
 path
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1562,9 +1494,7 @@ omitted
         
 normalized_path
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -5180,9 +5110,7 @@ returned
         
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5668,9 +5596,7 @@ metadata
         
 path
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -6381,9 +6307,7 @@ DIRS
         
 curdir
 =
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -6403,9 +6327,7 @@ items
             
 child_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -6486,9 +6408,7 @@ much
             
 child_path
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
