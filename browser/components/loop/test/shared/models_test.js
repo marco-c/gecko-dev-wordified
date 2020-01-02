@@ -89,6 +89,13 @@ strict
 "
 ;
 var
+sharedModels
+=
+loop
+.
+shared
+.
+models
 sandbox
 fakeXHR
 requests
@@ -205,11 +212,7 @@ function
 conversation
 =
 new
-loop
-.
-shared
-.
-models
+sharedModels
 .
 ConversationModel
 (

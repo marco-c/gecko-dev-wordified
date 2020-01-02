@@ -136,7 +136,7 @@ localhost
 :
 3000
 /
-static
+content
 /
 "
 )
