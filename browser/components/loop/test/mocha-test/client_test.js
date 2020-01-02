@@ -318,7 +318,7 @@ client
 requestCallUrl
 (
 "
-fakeSimplepushUrl
+foo
 "
 callback
 )
@@ -419,7 +419,7 @@ client
 requestCallUrl
 (
 "
-fakeSimplepushUrl
+foo
 "
 callback
 )
