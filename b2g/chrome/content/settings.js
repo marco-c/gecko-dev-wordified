@@ -5677,15 +5677,6 @@ false
 '
 ril
 .
-cellbroadcast
-.
-disabled
-'
-:
-false
-'
-ril
-.
 radio
 .
 disabled
