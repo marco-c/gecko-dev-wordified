@@ -2305,6 +2305,17 @@ pwd
 the
 pwd
 *
+param
+[
+in
+]
+icelite
+-
+is
+peer
+ice
+lite
+*
 *
 return
 0
@@ -2326,6 +2337,8 @@ ufrag
 char
 *
 pwd
+cc_boolean
+icelite
 )
 ;
 /
