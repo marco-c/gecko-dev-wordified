@@ -184,7 +184,7 @@ T
 struct
 BasePoint
 {
-Coord
+T
 x
 y
 ;
@@ -544,11 +544,7 @@ return
 hypot
 (
 x
-.
-value
 y
-.
-value
 )
 ;
 }

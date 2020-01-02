@@ -3288,8 +3288,6 @@ x
 br
 .
 x
-.
-value
 ywrap
 ?
 WrapTexCoord
@@ -3302,8 +3300,6 @@ y
 br
 .
 y
-.
-value
 )
 ;
 /
