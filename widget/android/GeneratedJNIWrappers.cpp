@@ -12218,7 +12218,7 @@ nio
 /
 ByteBuffer
 ;
-IZ
+IZZ
 )
 V
 "
@@ -12279,6 +12279,8 @@ int32_t
 a1
 bool
 a2
+bool
+a3
 )
 {
 JNIEnv
@@ -12330,7 +12332,7 @@ crash
 jvalue
 args
 [
-3
+4
 ]
 ;
 args
@@ -12359,6 +12361,15 @@ args
 z
 =
 a2
+;
+args
+[
+3
+]
+.
+z
+=
+a3
 ;
 env
 -

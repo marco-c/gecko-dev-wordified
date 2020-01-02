@@ -1031,6 +1031,9 @@ int32_t
 tabId
 jobject
 buffer
+bool
+&
+shouldStore
 )
 ;
 void

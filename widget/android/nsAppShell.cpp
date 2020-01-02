@@ -586,6 +586,7 @@ SendThumbnail
 buffer
 mTabId
 false
+false
 )
 ;
 return
@@ -626,6 +627,7 @@ SendThumbnail
 buffer
 mTabId
 false
+false
 )
 ;
 return
@@ -652,6 +654,11 @@ enough
 coordinates
 "
 )
+;
+bool
+shouldStore
+=
+true
 ;
 nsresult
 rv
@@ -681,6 +688,7 @@ mPoints
 y
 mTabId
 buffer
+shouldStore
 )
 ;
 mozilla
@@ -703,6 +711,7 @@ NS_SUCCEEDED
 (
 rv
 )
+shouldStore
 )
 ;
 return
