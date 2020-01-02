@@ -490,9 +490,6 @@ Value
 >
 &
 aData
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -511,9 +508,6 @@ Value
 >
 &
 aData
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -1053,9 +1047,6 @@ Value
 >
 &
 aData
-ErrorResult
-&
-aRv
 )
 ;
 JS
