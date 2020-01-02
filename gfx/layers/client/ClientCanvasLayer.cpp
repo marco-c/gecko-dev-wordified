@@ -390,6 +390,11 @@ ClientManager
 )
 -
 >
+AsShadowForwarder
+(
+)
+-
+>
 GetCompositorBackendType
 (
 )
@@ -500,6 +505,11 @@ Caps
 (
 )
 ClientManager
+(
+)
+-
+>
+AsShadowForwarder
 (
 )
 )
@@ -749,6 +759,11 @@ GetCanvasClientType
 ClientManager
 (
 )
+-
+>
+AsShadowForwarder
+(
+)
 flags
 )
 ;
@@ -776,6 +791,11 @@ Connect
 )
 ;
 ClientManager
+(
+)
+-
+>
+AsShadowForwarder
 (
 )
 -

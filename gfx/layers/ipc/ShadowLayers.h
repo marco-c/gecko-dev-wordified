@@ -335,6 +335,9 @@ class
 PLayerTransactionParent
 ;
 class
+LayerTransactionChild
+;
+class
 RefLayerComposite
 ;
 class
@@ -1117,6 +1120,10 @@ DeprecatedTextureClientShmem
 friend
 class
 ContentClientIncremental
+;
+friend
+class
+ClientLayerManager
 ;
 public
 :
@@ -2289,12 +2296,7 @@ PLayerTransactionChild
 *
 aShadowManager
 )
-{
-mShadowManager
-=
-aShadowManager
 ;
-}
 /
 *
 *
@@ -2322,7 +2324,7 @@ return
 mShadowManager
 ;
 }
-PLayerTransactionChild
+LayerTransactionChild
 *
 GetShadowManager
 (
@@ -2847,7 +2849,7 @@ const
 endif
 RefPtr
 <
-PLayerTransactionChild
+LayerTransactionChild
 >
 mShadowManager
 ;

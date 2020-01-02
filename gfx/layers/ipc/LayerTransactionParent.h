@@ -258,11 +258,6 @@ public
 PLayerTransactionParent
 public
 CompositableParentManager
-public
-AtomicRefCounted
-<
-LayerTransactionParent
->
 {
 typedef
 mozilla

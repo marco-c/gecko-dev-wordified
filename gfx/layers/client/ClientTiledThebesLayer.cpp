@@ -936,6 +936,11 @@ ClientManager
 )
 -
 >
+AsShadowForwarder
+(
+)
+-
+>
 Attach
 (
 mContentClient
