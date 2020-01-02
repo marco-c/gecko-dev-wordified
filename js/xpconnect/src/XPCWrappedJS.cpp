@@ -2395,6 +2395,11 @@ clasp
 nullptr
 )
 ;
+NS_ADDREF
+(
+wrapper
+)
+;
 *
 wrapperResult
 =
@@ -2449,6 +2454,11 @@ cx
 rootJSObj
 rootClasp
 nullptr
+)
+;
+NS_ADDREF
+(
+root
 )
 ;
 NS_RELEASE
@@ -2518,6 +2528,11 @@ cx
 jsObj
 clasp
 root
+)
+;
+NS_ADDREF
+(
+wrapper
 )
 ;
 if
@@ -2625,10 +2640,6 @@ more
 /
 details
 .
-NS_ADDREF_THIS
-(
-)
-;
 NS_ADDREF_THIS
 (
 )
