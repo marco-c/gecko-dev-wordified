@@ -1721,11 +1721,13 @@ null
 &
 &
 (
+(
 targetInfo
 .
 event
 &
 event
+)
 !
 =
 =
@@ -3492,7 +3494,7 @@ gMessageManager
 .
 notifyPeerEvent
 (
-this
+gMessageManager
 .
 currentPeerAppId
 NFC
