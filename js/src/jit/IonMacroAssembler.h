@@ -5131,6 +5131,8 @@ temp
 JSObject
 *
 templateObj
+bool
+initFixedSlots
 )
 ;
 public
@@ -5172,6 +5174,10 @@ initialHeap
 Label
 *
 fail
+bool
+initFixedSlots
+=
+true
 )
 ;
 void
@@ -5204,6 +5210,10 @@ temp
 JSObject
 *
 templateObj
+bool
+initFixedSlots
+=
+true
 )
 ;
 void

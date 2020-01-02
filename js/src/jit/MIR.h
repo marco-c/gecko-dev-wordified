@@ -33461,11 +33461,15 @@ needsBarrier_
 void
 setNeedsBarrier
 (
+bool
+needsBarrier
+=
+true
 )
 {
 needsBarrier_
 =
-true
+needsBarrier
 ;
 }
 }
