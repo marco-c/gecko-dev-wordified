@@ -267,8 +267,10 @@ GLenum
 format
 GLenum
 type
-uint16_t
-tileSize
+int32_t
+tileWidth
+int32_t
+tileHeight
 )
 ;
 NS_IMETHOD

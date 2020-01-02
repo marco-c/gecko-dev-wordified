@@ -190,17 +190,6 @@ etc
 #
 include
 "
-TiledLayerBuffer
-.
-h
-"
-/
-/
-for
-TILEDLAYERBUFFER_TILE_SIZE
-#
-include
-"
 gfx2DGlue
 .
 h
