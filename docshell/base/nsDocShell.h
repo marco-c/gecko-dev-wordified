@@ -5373,6 +5373,9 @@ endif
 bool
 mAffectPrivateSessionLifetime
 ;
+bool
+mInvisible
+;
 uint64_t
 mHistoryID
 ;

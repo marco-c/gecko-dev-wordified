@@ -46253,6 +46253,9 @@ mPaintingSuppressed
 |
 !
 mIsActive
+|
+|
+mIsNeverPainting
 ;
 }
 void
