@@ -1666,6 +1666,15 @@ nsIXPConnectJSObjectHolder
 >
 sandbox
 ;
+/
+/
+Important
+:
+Use
+a
+null
+principal
+here
 rv
 =
 xpc
@@ -1674,7 +1683,7 @@ xpc
 CreateSandbox
 (
 cx
-principal
+nullptr
 getter_AddRefs
 (
 sandbox
