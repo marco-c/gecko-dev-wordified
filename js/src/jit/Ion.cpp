@@ -10073,7 +10073,7 @@ logger
 TraceLogger
 :
 :
-IonLink
+IonLinking
 )
 ;
 /
@@ -10759,7 +10759,7 @@ logger
 TraceLogger
 :
 :
-IonCompile
+IonCompilation
 )
 ;
 JS_ASSERT
