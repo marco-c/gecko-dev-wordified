@@ -51934,9 +51934,9 @@ stub
 /
 that
 handles
-everthing
+everything
 even
-when
+after
 the
 callee
 becomes
