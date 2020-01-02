@@ -21152,6 +21152,15 @@ package
 "
 +
 e
++
+"
+\
+n
+"
++
+e
+.
+stack
 )
 ;
 throw
