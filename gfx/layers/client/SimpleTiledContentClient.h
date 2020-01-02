@@ -288,6 +288,9 @@ mTileBuffer
 GetIPDLActor
 (
 )
+null_t
+(
+)
 0
 )
 ;
