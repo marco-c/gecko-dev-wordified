@@ -267,10 +267,6 @@ const
 nsAString
 &
 a2
-const
-nsAString
-&
-a3
 )
 ;
 static

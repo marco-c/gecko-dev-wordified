@@ -4835,10 +4835,7 @@ createShortcut
 (
 title
 url
-url
 favicon
-"
-"
 )
 ;
 }

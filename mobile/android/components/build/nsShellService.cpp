@@ -210,7 +210,6 @@ CreateShortcut
 aTitle
 aURI
 aIconData
-aIntent
 )
 ;
 return
