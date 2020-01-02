@@ -461,6 +461,11 @@ include
 search
 .
 js
+#
+include
+customize
+.
+js
 /
 /
 Everything
