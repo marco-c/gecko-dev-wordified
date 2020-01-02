@@ -119,7 +119,7 @@ Tests
 whether
 RawResource
 .
-get
+getAsString
 (
 )
 produces
@@ -301,7 +301,7 @@ result
 =
 RawResource
 .
-get
+getAsString
 (
 context
 RAW_RESOURCE_ID
