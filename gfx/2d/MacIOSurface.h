@@ -457,8 +457,7 @@ void
 CGLError
 CGLTexImageIOSurface2D
 (
-void
-*
+CGLContextObj
 ctxt
 )
 ;

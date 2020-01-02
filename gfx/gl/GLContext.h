@@ -11999,6 +11999,7 @@ NativeDataType
 NativeGLContext
 NativeImageSurface
 NativeThebesSurface
+NativeCGLContext
 NativeDataTypeMax
 }
 ;
