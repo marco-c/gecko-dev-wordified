@@ -1800,7 +1800,7 @@ mDrawAboveRegion
 .
 SimplifyOutward
 (
-4
+8
 )
 ;
 }
@@ -1832,7 +1832,7 @@ mVisibleAboveRegion
 .
 SimplifyOutward
 (
-4
+8
 )
 ;
 }
@@ -1889,7 +1889,7 @@ mVisibleAboveRegion
 .
 SimplifyOutward
 (
-4
+8
 )
 ;
 mDrawAboveRegion
@@ -1918,7 +1918,7 @@ mDrawAboveRegion
 .
 SimplifyOutward
 (
-4
+8
 )
 ;
 }
