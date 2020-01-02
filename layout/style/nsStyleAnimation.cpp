@@ -1771,7 +1771,7 @@ Like
 nsStyleCoord
 :
 :
-Calc
+CalcValue
 but
 with
 length
@@ -1779,6 +1779,8 @@ in
 float
 pixels
 instead
+/
+/
 of
 nscoord
 .
@@ -2302,7 +2304,7 @@ const
 nsStyleCoord
 :
 :
-Calc
+CalcValue
 *
 aCalc
 nsCSSValue
@@ -19521,7 +19523,7 @@ canStoreInRuleTree
 nsStyleCoord
 :
 :
-Calc
+CalcValue
 c2
 ;
 c2

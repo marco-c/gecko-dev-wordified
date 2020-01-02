@@ -2246,7 +2246,7 @@ typedef
 nsStyleCoord
 :
 :
-Calc
+CalcValue
 PositionCoord
 ;
 PositionCoord
@@ -2394,7 +2394,7 @@ public
 nsStyleCoord
 :
 :
-Calc
+CalcValue
 {
 nscoord
 ResolveLengthPercentage

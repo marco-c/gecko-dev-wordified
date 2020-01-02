@@ -9115,7 +9115,7 @@ const
 nsStyleCoord
 :
 :
-Calc
+CalcValue
 *
 aCalc
 nsROCSSPrimitiveValue
