@@ -3613,7 +3613,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 dbg
@@ -5337,11 +5337,8 @@ JSContext
 cx
 =
 ac
-.
-ref
-(
-)
-.
+-
+>
 context
 (
 )
@@ -5477,7 +5474,7 @@ clearPendingException
 }
 ac
 .
-destroy
+reset
 (
 )
 ;
@@ -5880,11 +5877,8 @@ JSContext
 cx
 =
 ac
-.
-ref
-(
-)
-.
+-
+>
 context
 (
 )
@@ -5916,7 +5910,7 @@ value
 ;
 ac
 .
-destroy
+reset
 (
 )
 ;
@@ -5984,7 +5978,7 @@ isUndefined
 {
 ac
 .
-destroy
+reset
 (
 )
 ;
@@ -6003,7 +5997,7 @@ isNull
 {
 ac
 .
-destroy
+reset
 (
 )
 ;
@@ -6036,11 +6030,8 @@ JSContext
 cx
 =
 ac
-.
-ref
-(
-)
-.
+-
+>
 context
 (
 )
@@ -6273,7 +6264,7 @@ callHook
 ;
 ac
 .
-destroy
+reset
 (
 )
 ;
@@ -6480,7 +6471,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 object
@@ -6632,7 +6623,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 object
@@ -6816,7 +6807,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 object
@@ -6934,7 +6925,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 object
@@ -8188,7 +8179,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 dbg
@@ -9012,7 +9003,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 dbg
@@ -9157,7 +9148,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 object
@@ -29965,7 +29956,7 @@ isScriptFrameIterData
 \
 maybeIter
 .
-construct
+emplace
 (
 *
 (
@@ -29991,7 +29982,7 @@ else
 \
 maybeIter
 .
-construct
+emplace
 (
 cx
 ScriptFrameIter
@@ -30010,11 +30001,8 @@ ScriptFrameIter
 &
 iter
 =
+*
 maybeIter
-.
-ref
-(
-)
 ;
 \
 while
@@ -30082,11 +30070,8 @@ ScriptFrameIter
 &
 iter
 =
+*
 maybeIter
-.
-ref
-(
-)
 #
 define
 THIS_FRAME_OWNER
@@ -33546,7 +33531,7 @@ iter
 )
 ac
 .
-construct
+emplace
 (
 cx
 iter
@@ -33560,7 +33545,7 @@ scopeChain
 else
 ac
 .
-construct
+emplace
 (
 cx
 scope
@@ -36867,7 +36852,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 obj
@@ -37094,7 +37079,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 obj
@@ -37455,7 +37440,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 obj
@@ -37715,7 +37700,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 obj
@@ -37923,7 +37908,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 obj
@@ -38017,7 +38002,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 obj
@@ -38276,7 +38261,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 obj
@@ -38906,7 +38891,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 obj
@@ -41588,7 +41573,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 env
@@ -41805,7 +41790,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 env
@@ -41989,7 +41974,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 env
@@ -42248,7 +42233,7 @@ ac
 ;
 ac
 .
-construct
+emplace
 (
 cx
 env

@@ -6976,7 +6976,7 @@ mWatchdog
 )
 lock
 .
-construct
+emplace
 (
 mWatchdog
 )
@@ -7135,7 +7135,7 @@ mWatchdog
 )
 maybeLock
 .
-construct
+emplace
 (
 mWatchdog
 )
@@ -7187,7 +7187,7 @@ mWatchdog
 )
 maybeLock
 .
-construct
+emplace
 (
 mWatchdog
 )

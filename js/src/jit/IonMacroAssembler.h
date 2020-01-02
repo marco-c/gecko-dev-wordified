@@ -1115,7 +1115,7 @@ cx
 ;
 alloc_
 .
-construct
+emplace
 (
 cx
 )
@@ -1224,7 +1224,7 @@ cx
 ;
 ionContext_
 .
-construct
+emplace
 (
 cx
 (
@@ -1242,7 +1242,7 @@ nullptr
 ;
 alloc_
 .
-construct
+emplace
 (
 cx
 )
@@ -1253,11 +1253,8 @@ setAllocator
 (
 *
 ionContext_
-.
-ref
-(
-)
-.
+-
+>
 temp
 )
 ;
@@ -1344,7 +1341,7 @@ pc
 ;
 spsInstrumentation_
 .
-construct
+emplace
 (
 &
 cx
@@ -1364,7 +1361,7 @@ sps_
 =
 spsInstrumentation_
 .
-addr
+ptr
 (
 )
 ;
@@ -1477,7 +1474,7 @@ cx
 {
 autoRooter_
 .
-construct
+emplace
 (
 cx
 this

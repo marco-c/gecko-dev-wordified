@@ -1902,11 +1902,8 @@ Key
 )
 {
 return
+*
 mKey
-.
-ref
-(
-)
 ;
 }
 nsresult
@@ -1921,7 +1918,7 @@ ResolvedURI
 ;
 mKey
 .
-construct
+emplace
 (
 )
 ;
@@ -1931,11 +1928,8 @@ mResolvedURI
 >
 GetSpec
 (
+*
 mKey
-.
-ref
-(
-)
 )
 ;
 }
@@ -6157,7 +6151,7 @@ targetObject
 {
 ac
 .
-construct
+emplace
 (
 cx
 targetObject

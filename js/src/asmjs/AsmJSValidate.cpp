@@ -13005,7 +13005,7 @@ lifo_
 ;
 ionContext_
 .
-construct
+emplace
 (
 m_
 .
@@ -13349,10 +13349,9 @@ hasAlreadyReturned
 const
 {
 return
-!
 alreadyReturned_
 .
-empty
+isSome
 (
 )
 ;
@@ -13364,11 +13363,8 @@ returnedType
 const
 {
 return
+*
 alreadyReturned_
-.
-ref
-(
-)
 ;
 }
 void
@@ -13380,7 +13376,7 @@ retType
 {
 alreadyReturned_
 .
-construct
+emplace
 (
 retType
 )

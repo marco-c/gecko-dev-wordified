@@ -336,7 +336,7 @@ cx
 {
 mAutoRequest
 .
-construct
+emplace
 (
 cx
 )
@@ -384,7 +384,7 @@ compartmentObject
 )
 mAutoCompartment
 .
-construct
+emplace
 (
 cx
 compartmentObject
@@ -412,13 +412,13 @@ popping
 .
 mAutoCompartment
 .
-destroyIfConstructed
+reset
 (
 )
 ;
 mAutoRequest
 .
-destroyIfConstructed
+reset
 (
 )
 ;
@@ -723,7 +723,7 @@ GetSafeJSContext
 ;
 mPusher
 .
-construct
+emplace
 (
 mCx
 )
@@ -767,7 +767,7 @@ nullptr
 ;
 mAutoJSContext
 .
-construct
+emplace
 (
 )
 ;
@@ -791,7 +791,7 @@ GetCurrentThreadJSContext
 ;
 mRequest
 .
-construct
+emplace
 (
 mCx
 )
@@ -820,11 +820,8 @@ mCx
 else
 {
 return
+*
 mAutoJSContext
-.
-ref
-(
-)
 ;
 }
 }
@@ -886,7 +883,7 @@ nullptr
 ;
 mAutoSafeJSContext
 .
-construct
+emplace
 (
 )
 ;
@@ -910,7 +907,7 @@ GetCurrentThreadJSContext
 ;
 mRequest
 .
-construct
+emplace
 (
 mCx
 )
@@ -939,11 +936,8 @@ mCx
 else
 {
 return
+*
 mAutoSafeJSContext
-.
-ref
-(
-)
 ;
 }
 }

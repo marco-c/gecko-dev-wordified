@@ -1810,7 +1810,7 @@ tokenStream
 {
 dummyOptions
 .
-construct
+emplace
 (
 cx
 -
@@ -1822,14 +1822,11 @@ asJSContext
 ;
 dummyTokenStream
 .
-construct
+emplace
 (
 cx
+*
 dummyOptions
-.
-ref
-(
-)
 (
 const
 jschar
@@ -1851,7 +1848,7 @@ tokenStream
 =
 dummyTokenStream
 .
-addr
+ptr
 (
 )
 ;

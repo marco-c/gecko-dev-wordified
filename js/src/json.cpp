@@ -2189,7 +2189,7 @@ length
 ;
 ids
 .
-construct
+emplace
 (
 cx
 )
@@ -2204,7 +2204,7 @@ obj
 JSITER_OWNONLY
 ids
 .
-addr
+ptr
 (
 )
 )
@@ -2216,7 +2216,7 @@ props
 =
 ids
 .
-addr
+ptr
 (
 )
 ;
