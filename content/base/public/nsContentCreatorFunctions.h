@@ -299,7 +299,13 @@ aFromParser
 nsresult
 NS_NewMathMLElement
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aResult

@@ -114,6 +114,13 @@ nsMathMLElement
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 MathML
@@ -129,7 +136,7 @@ h
 nsresult
 NS_NewMathMLElement
 (
-nsIContent
+Element
 *
 *
 aResult
