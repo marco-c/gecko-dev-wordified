@@ -1829,6 +1829,9 @@ stderr
 )
 ;
 }
+#
+ifdef
+DEBUG
 size_t
 MDefinition
 :
@@ -1940,6 +1943,8 @@ return
 count
 ;
 }
+#
+endif
 bool
 MDefinition
 :

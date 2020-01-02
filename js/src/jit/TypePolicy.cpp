@@ -2448,15 +2448,13 @@ MIRType_MagicOptimizedArguments
 {
 JS_ASSERT
 (
+!
 ins
 -
 >
-defUseCount
+hasDefUses
 (
 )
-=
-=
-0
 )
 ;
 ins

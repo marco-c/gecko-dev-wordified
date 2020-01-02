@@ -3613,15 +3613,13 @@ later
 .
 if
 (
+!
 ins
 -
 >
-useCount
+hasUses
 (
 )
-=
-=
-0
 )
 return
 true

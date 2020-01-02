@@ -4575,11 +4575,9 @@ JS_ASSERT
 lhs
 -
 >
-defUseCount
+hasDefUses
 (
 )
->
-0
 )
 ;
 JS_ASSERT
@@ -4587,11 +4585,9 @@ JS_ASSERT
 rhs
 -
 >
-defUseCount
+hasDefUses
 (
 )
->
-0
 )
 ;
 if
