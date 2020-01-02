@@ -3755,6 +3755,15 @@ NS_STYLE_TOUCH_ACTION_PAN_Y
 <
 3
 )
+#
+define
+NS_STYLE_TOUCH_ACTION_MANIPULATION
+(
+1
+<
+<
+4
+)
 /
 /
 See

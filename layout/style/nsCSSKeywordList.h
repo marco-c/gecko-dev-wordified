@@ -2660,6 +2660,11 @@ luminosity
 )
 CSS_KEY
 (
+manipulation
+manipulation
+)
+CSS_KEY
+(
 manual
 manual
 )
