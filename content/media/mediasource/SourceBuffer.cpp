@@ -210,6 +210,15 @@ SubBufferDecoder
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Preferences
+.
+h
+"
 struct
 JSContext
 ;
