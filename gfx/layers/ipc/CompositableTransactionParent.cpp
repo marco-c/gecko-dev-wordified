@@ -1706,7 +1706,7 @@ GetCompositor
 /
 /
 set
-CompositableQuirks
+CompositableBackendSpecificData
 /
 /
 on
