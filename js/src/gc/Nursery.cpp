@@ -1258,11 +1258,6 @@ return
 obj
 -
 >
-zone
-(
-)
--
->
 pod_malloc
 <
 HeapSlot
@@ -1412,11 +1407,6 @@ return
 obj
 -
 >
-zone
-(
-)
--
->
 pod_realloc
 <
 HeapSlot
@@ -1441,11 +1431,6 @@ HeapSlot
 newSlots
 =
 obj
--
->
-zone
-(
-)
 -
 >
 pod_realloc

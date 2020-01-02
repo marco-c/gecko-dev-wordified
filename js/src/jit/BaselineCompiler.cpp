@@ -1196,7 +1196,7 @@ BaselineScript
 :
 New
 (
-cx
+script
 prologueOffset_
 .
 offset
