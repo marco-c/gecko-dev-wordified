@@ -95,9 +95,7 @@ process_
 )
 return
 ;
-:
-:
-CloseHandle
+CloseProcessHandle
 (
 process_
 )

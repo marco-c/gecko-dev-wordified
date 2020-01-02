@@ -390,7 +390,10 @@ StopWatching
 (
 )
 ;
-CloseHandle
+base
+:
+:
+CloseProcessHandle
 (
 process_
 )
@@ -633,7 +636,10 @@ process
 INFINITE
 )
 ;
-CloseHandle
+base
+:
+:
+CloseProcessHandle
 (
 process
 )
@@ -663,7 +669,10 @@ process
 WAIT_OBJECT_0
 )
 {
-CloseHandle
+base
+:
+:
+CloseProcessHandle
 (
 process
 )
