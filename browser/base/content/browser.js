@@ -16170,6 +16170,14 @@ if
 (
 !
 isTopFrame
+|
+|
+aEvent
+.
+button
+!
+=
+0
 )
 {
 return
