@@ -145,7 +145,7 @@ nsIFrame
 FindFrameTargetedByInputEvent
 (
 const
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsIFrame

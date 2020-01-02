@@ -2350,7 +2350,7 @@ nsWindow
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -33528,7 +33528,7 @@ nsWindow
 :
 BeginResizeDrag
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 int32_t

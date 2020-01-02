@@ -9035,7 +9035,7 @@ static
 void
 InitEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 LayoutDeviceIntPoint

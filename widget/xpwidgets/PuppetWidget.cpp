@@ -1212,7 +1212,7 @@ PuppetWidget
 :
 InitEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 event
 nsIntPoint
@@ -1295,7 +1295,7 @@ PuppetWidget
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 nsEventStatus

@@ -11203,7 +11203,7 @@ nsBaseWidget
 :
 BeginResizeDrag
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 int32_t
@@ -12029,7 +12029,7 @@ nsBaseWidget
 :
 debug_GuiEventToString
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aGuiEvent
 )
@@ -13473,7 +13473,7 @@ aFileOut
 nsIWidget
 *
 aWidget
-nsGUIEvent
+WidgetGUIEvent
 *
 aGuiEvent
 const

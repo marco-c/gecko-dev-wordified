@@ -782,7 +782,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -4712,7 +4712,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -8219,7 +8219,7 @@ aPresContext
 nsHTMLFramesetBorderFrame
 *
 aBorder
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -8361,7 +8361,7 @@ MouseDrag
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -10110,7 +10110,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

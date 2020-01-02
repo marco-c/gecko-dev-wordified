@@ -3560,7 +3560,7 @@ MetroWidget
 :
 DispatchKeyboardEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -6547,7 +6547,7 @@ MetroWidget
 :
 InitEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 event
 nsIntPoint
@@ -6618,7 +6618,7 @@ MetroWidget
 :
 DispatchWindowEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -6654,7 +6654,7 @@ MetroWidget
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 nsEventStatus

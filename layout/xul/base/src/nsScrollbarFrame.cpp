@@ -558,7 +558,7 @@ HandlePress
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -579,7 +579,7 @@ HandleMultiplePress
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -602,7 +602,7 @@ HandleDrag
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -623,7 +623,7 @@ HandleRelease
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

@@ -2785,7 +2785,7 @@ nsRangeFrame
 :
 GetValueAtEventPoint
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

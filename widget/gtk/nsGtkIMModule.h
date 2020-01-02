@@ -1847,7 +1847,10 @@ event
 void
 InitEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 &
 aEvent
 )

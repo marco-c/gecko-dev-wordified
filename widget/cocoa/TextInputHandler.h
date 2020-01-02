@@ -1814,7 +1814,7 @@ FALSE
 bool
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 )

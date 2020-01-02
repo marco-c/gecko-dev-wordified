@@ -11750,7 +11750,7 @@ zLevel
 /
 translate
 from
-nsGUIEvent
+WidgetGUIEvent
 to
 nsIWindowMediator
 constants

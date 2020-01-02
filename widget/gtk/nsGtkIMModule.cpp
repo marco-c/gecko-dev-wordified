@@ -8516,7 +8516,7 @@ nsGtkIMModule
 :
 InitEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 )

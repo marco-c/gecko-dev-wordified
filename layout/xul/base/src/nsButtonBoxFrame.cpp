@@ -318,7 +318,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -711,7 +711,7 @@ nsButtonBoxFrame
 :
 DoMouseClick
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 bool

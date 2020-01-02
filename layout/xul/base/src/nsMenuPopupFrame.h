@@ -1521,7 +1521,10 @@ nsMenuFrame
 *
 Enter
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 )

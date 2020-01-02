@@ -351,6 +351,10 @@ works
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 layers
@@ -4253,7 +4257,7 @@ nsViewManager
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsView

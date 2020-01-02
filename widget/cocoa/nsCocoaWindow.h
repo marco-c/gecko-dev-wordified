@@ -1642,9 +1642,12 @@ nullptr
 NS_IMETHOD
 DispatchEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
-event
+aEvent
 nsEventStatus
 &
 aStatus

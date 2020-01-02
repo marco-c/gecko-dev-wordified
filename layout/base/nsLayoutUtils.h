@@ -2904,7 +2904,7 @@ DOM
 events
 generated
 by
-nsGUIEvents
+WidgetGUIEvents
 .
 *
 param

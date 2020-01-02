@@ -151,6 +151,10 @@ nsIContent
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsAutoRepeatBoxFrame
 :
@@ -200,7 +204,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -214,7 +218,7 @@ HandlePress
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -228,7 +232,7 @@ HandleRelease
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -405,7 +409,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -597,7 +601,7 @@ HandlePress
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -646,7 +650,7 @@ HandleRelease
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

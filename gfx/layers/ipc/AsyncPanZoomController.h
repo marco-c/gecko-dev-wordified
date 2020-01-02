@@ -282,7 +282,7 @@ can
 *
 optionally
 handle
-nsGUIEvent
+WidgetGUIEvent
 -
 derived
 touch
@@ -292,8 +292,8 @@ this
 must
 be
 done
-on
 *
+on
 the
 main
 thread

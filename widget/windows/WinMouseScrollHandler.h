@@ -378,7 +378,7 @@ DispatchEvent
 nsWindowBase
 *
 aWidget
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 )
@@ -418,7 +418,7 @@ InitEvent
 nsWindowBase
 *
 aWidget
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 nsIntPoint

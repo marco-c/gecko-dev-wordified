@@ -3232,9 +3232,12 @@ nsEventStatus_eConsumeNoDefault
 NS_IMETHOD
 DispatchEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
-event
+aEvent
 nsEventStatus
 &
 aStatus
@@ -3521,7 +3524,10 @@ virtual
 bool
 DispatchWindowEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 &
 event
 )

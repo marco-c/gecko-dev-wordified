@@ -3139,13 +3139,13 @@ EnsureTextCompositionArray
 (
 )
 ;
-nsGUIEvent
+WidgetGUIEvent
 *
 GUIEvent
 =
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (

@@ -2749,7 +2749,10 @@ virtual
 nsEventStatus
 HandleEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 bool

@@ -15167,7 +15167,7 @@ static
 uint32_t
 GetDropEffect
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -15246,7 +15246,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -26527,7 +26527,7 @@ nsTreeBodyFrame
 :
 ComputeDropPosition
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 int32_t
@@ -27463,7 +27463,7 @@ Forget
 (
 )
 ;
-nsGUIEvent
+WidgetGUIEvent
 event
 (
 true

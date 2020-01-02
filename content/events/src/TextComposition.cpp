@@ -359,7 +359,7 @@ aPresContext
 nsINode
 *
 aNode
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -471,7 +471,7 @@ TextComposition
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

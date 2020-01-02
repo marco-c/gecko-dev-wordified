@@ -172,6 +172,10 @@ BasicEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 Interface
@@ -402,7 +406,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -1115,7 +1119,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

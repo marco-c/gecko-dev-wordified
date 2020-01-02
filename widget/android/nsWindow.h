@@ -328,7 +328,10 @@ aSize
 void
 InitEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 &
 event
 nsIntPoint
@@ -557,7 +560,10 @@ WidgetToScreenOffset
 NS_IMETHOD
 DispatchEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -568,7 +574,10 @@ aStatus
 nsEventStatus
 DispatchEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 )
@@ -765,7 +774,10 @@ NS_ERROR_NOT_IMPLEMENTED
 NS_IMETHOD
 BeginResizeDrag
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 int32_t

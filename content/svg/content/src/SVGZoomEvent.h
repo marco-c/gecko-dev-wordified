@@ -169,7 +169,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

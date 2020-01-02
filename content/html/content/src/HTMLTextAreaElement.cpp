@@ -724,7 +724,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsGUIEvent
+WidgetGUIEvent
 event
 (
 true

@@ -975,7 +975,10 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -2503,7 +2506,10 @@ region
 void
 ComputeDropPosition
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 int32_t

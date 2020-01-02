@@ -246,7 +246,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -260,7 +260,7 @@ aEvent
 aEvent
 :
 new
-nsGUIEvent
+WidgetGUIEvent
 (
 false
 NS_SVG_ZOOM
@@ -724,7 +724,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 )

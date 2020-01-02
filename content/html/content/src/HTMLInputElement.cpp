@@ -16519,7 +16519,7 @@ HTMLInputElement
 :
 StartRangeThumbDrag
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -16574,7 +16574,7 @@ HTMLInputElement
 :
 FinishRangeThumbDrag
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

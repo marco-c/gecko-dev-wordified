@@ -3706,7 +3706,7 @@ widget
 creation
 process
 .
-nsGUIEvent
+WidgetGUIEvent
 event
 (
 true
@@ -14750,7 +14750,7 @@ mWindowState
 =
 nsWindowState_eClosing
 ;
-nsGUIEvent
+WidgetGUIEvent
 event
 (
 true
@@ -23992,7 +23992,7 @@ nsWindow
 :
 InitEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 event
 nsIntPoint
@@ -24247,7 +24247,7 @@ nsWindow
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 nsEventStatus
@@ -24489,7 +24489,7 @@ nsWindow
 :
 DispatchWindowEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 )
@@ -24518,7 +24518,7 @@ nsWindow
 :
 DispatchWindowEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 nsEventStatus
@@ -24958,7 +24958,7 @@ space
 for
 the
 desktop
-nsGUIEvent
+WidgetGUIEvent
 event
 (
 true
@@ -26115,7 +26115,7 @@ uint32_t
 aEventType
 )
 {
-nsGUIEvent
+WidgetGUIEvent
 event
 (
 true

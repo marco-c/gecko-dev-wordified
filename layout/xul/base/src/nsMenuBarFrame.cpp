@@ -2118,7 +2118,7 @@ nsMenuBarFrame
 :
 Enter
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

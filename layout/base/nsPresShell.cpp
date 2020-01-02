@@ -3367,13 +3367,16 @@ HandleEvent
 aVisitor
 .
 mPresContext
-(
-nsGUIEvent
+static_cast
+<
+WidgetGUIEvent
 *
-)
+>
+(
 aVisitor
 .
 mEvent
+)
 &
 aVisitor
 .
@@ -20587,7 +20590,7 @@ PresShell
 :
 DispatchSynthMouseMove
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 bool
@@ -35698,7 +35701,7 @@ PresShell
 :
 RetargetEventToParent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -35896,7 +35899,7 @@ PresShell
 :
 RecordMouseLocation
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -36756,7 +36759,7 @@ HandleEvent
 nsIFrame
 *
 aFrame
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 bool
@@ -40487,7 +40490,7 @@ HandlePositionedEvent
 nsIFrame
 *
 aTargetFrame
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

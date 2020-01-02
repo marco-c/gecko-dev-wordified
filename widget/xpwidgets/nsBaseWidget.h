@@ -1149,7 +1149,10 @@ aDataType
 NS_IMETHOD
 BeginResizeDrag
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 int32_t
@@ -2415,7 +2418,10 @@ static
 nsAutoString
 debug_GuiEventToString
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aGuiEvent
 )
@@ -2458,7 +2464,10 @@ aFileOut
 nsIWidget
 *
 aWidget
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aGuiEvent
 const

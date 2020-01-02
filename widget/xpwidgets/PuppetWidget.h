@@ -699,9 +699,9 @@ nsIntPoint
 void
 InitEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
-event
+aEvent
 nsIntPoint
 *
 aPoint
@@ -712,9 +712,9 @@ nullptr
 NS_IMETHOD
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
-event
+aEvent
 nsEventStatus
 &
 aStatus

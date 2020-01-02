@@ -12163,7 +12163,7 @@ nsBoxFrame
 :
 GetEventPoint
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsPoint
@@ -12205,7 +12205,7 @@ nsBoxFrame
 :
 GetEventPoint
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsIntPoint

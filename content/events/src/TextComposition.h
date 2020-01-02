@@ -242,7 +242,7 @@ aPresContext
 nsINode
 *
 aNode
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -624,7 +624,7 @@ event
 void
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

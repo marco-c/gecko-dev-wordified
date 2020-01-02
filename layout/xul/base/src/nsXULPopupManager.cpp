@@ -3324,7 +3324,7 @@ NS_WHEEL_EVENT
 (
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (
@@ -11704,7 +11704,7 @@ nullptr
 }
 }
 static
-nsGUIEvent
+WidgetGUIEvent
 *
 DOMKeyEventToGUIEvent
 (
@@ -11742,7 +11742,7 @@ NS_KEY_EVENT
 ?
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (
@@ -11831,7 +11831,7 @@ if
 action
 )
 {
-nsGUIEvent
+WidgetGUIEvent
 *
 evt
 =
@@ -13224,7 +13224,7 @@ menuToOpen
 =
 nullptr
 ;
-nsGUIEvent
+WidgetGUIEvent
 *
 GUIEvent
 =

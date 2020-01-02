@@ -2020,7 +2020,7 @@ dispatching
 void
 DispatchEventIgnoreStatus
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

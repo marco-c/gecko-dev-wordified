@@ -2169,7 +2169,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -4600,13 +4600,13 @@ eCaseMatters
 return
 NS_OK
 ;
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 =
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (
@@ -5171,7 +5171,7 @@ nsSliderFrame
 :
 ShouldScrollForEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -5254,7 +5254,7 @@ nsSliderFrame
 :
 ShouldScrollToClickForEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -5408,7 +5408,7 @@ nsSliderFrame
 :
 IsEventOverThumb
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -5531,7 +5531,7 @@ HandlePress
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -5710,7 +5710,7 @@ HandleRelease
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

@@ -1147,10 +1147,12 @@ by
 whoever
 handled
 the
-nsGUIEvent
+WidgetGUIEvent
 or
 nsIDOMEvent
 on
+/
+/
 drags
 .
 bool

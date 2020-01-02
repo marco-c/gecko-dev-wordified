@@ -1536,7 +1536,7 @@ nsWindow
 :
 DispatchInputEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 bool
@@ -2326,7 +2326,7 @@ nsWindow
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

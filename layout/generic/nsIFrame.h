@@ -10290,7 +10290,7 @@ widgets
 *
 *
 see
-nsGUIEvent
+WidgetGUIEvent
 *
 see
 nsEventStatus
@@ -10302,7 +10302,10 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

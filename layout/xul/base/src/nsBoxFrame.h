@@ -1322,7 +1322,10 @@ false
 bool
 GetEventPoint
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsPoint
@@ -1361,7 +1364,10 @@ found
 bool
 GetEventPoint
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsIntPoint

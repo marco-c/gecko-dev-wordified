@@ -12209,7 +12209,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 anEvent
 nsEventStatus
