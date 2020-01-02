@@ -2364,6 +2364,10 @@ klass
 .
 get_output_samplingrate
 (
+(
+int32_t
+*
+)
 rate
 3
 /
@@ -2446,7 +2450,7 @@ stm
 int32_t
 channels
 ;
-int32_t
+uint32_t
 min_frame_count
 ;
 assert
