@@ -1079,6 +1079,11 @@ SetAudioFormat
 )
 ;
 void
+ReleaseDecoder
+(
+)
+;
+void
 NotifyDataArrived
 (
 const

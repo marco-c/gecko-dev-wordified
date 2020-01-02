@@ -313,6 +313,13 @@ ReleaseMediaResources
 )
 ;
 virtual
+void
+ReleaseDecoder
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 nsresult
 ReadMetadata
 (
