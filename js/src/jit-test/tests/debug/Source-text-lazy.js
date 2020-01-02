@@ -214,9 +214,11 @@ BanalBivalve
 .
 jsm
 "
-sourceIsLazy
+sourcePolicy
 :
-true
+"
+LAZY_SOURCE
+"
 }
 )
 ;
