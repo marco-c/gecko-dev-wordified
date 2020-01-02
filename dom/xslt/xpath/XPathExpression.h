@@ -373,12 +373,6 @@ aRv
 ;
 private
 :
-~
-nsXPathExpression
-(
-)
-{
-}
 nsAutoPtr
 <
 Expr

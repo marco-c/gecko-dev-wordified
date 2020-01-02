@@ -409,15 +409,6 @@ nsXMLBinding
 aBinding
 )
 ;
-private
-:
-~
-nsXMLBindingSet
-(
-)
-{
-}
-;
 }
 ;
 /
