@@ -352,6 +352,10 @@ ResolvePromiseCallback
 ;
 friend
 class
+ThenableResolverMixin
+;
+friend
+class
 WorkerPromiseResolverTask
 ;
 friend
