@@ -8959,7 +8959,7 @@ Padding
 LogicalMargin
 margin
 (
-frameWM
+aLineWM
 aFrame
 -
 >
@@ -8980,7 +8980,7 @@ margin
 .
 IStart
 (
-frameWM
+aLineWM
 )
 ;
 }
@@ -9319,7 +9319,7 @@ margin
 .
 IEnd
 (
-frameWM
+aLineWM
 )
 ;
 }
@@ -9483,20 +9483,10 @@ GetUsedMargin
 Border
 /
 Padding
-WritingMode
-frameWM
-=
-aFirstChild
--
->
-GetWritingMode
-(
-)
-;
 LogicalMargin
 margin
 (
-frameWM
+aLineWM
 aFirstChild
 -
 >
@@ -9530,7 +9520,7 @@ margin
 .
 IStart
 (
-frameWM
+aLineWM
 )
 ;
 nscoord
