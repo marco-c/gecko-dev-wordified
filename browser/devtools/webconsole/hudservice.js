@@ -423,6 +423,11 @@ filter
 .
 "
 ;
+let
+gHudId
+=
+0
+;
 /
 /
 /
@@ -2013,11 +2018,9 @@ hudId
 hud_
 "
 +
-Date
-.
-now
-(
-)
++
++
+gHudId
 ;
 this
 .
