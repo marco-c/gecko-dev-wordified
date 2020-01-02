@@ -522,6 +522,7 @@ CERTSubjectPublicKeyInfo
 *
 SECKEY_CreateSubjectPublicKeyInfo
 (
+const
 SECKEYPublicKey
 *
 k
@@ -598,6 +599,7 @@ SECItem
 *
 SECKEY_EncodeDERSubjectPublicKeyInfo
 (
+const
 SECKEYPublicKey
 *
 pubk

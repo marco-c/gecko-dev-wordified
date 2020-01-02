@@ -13037,6 +13037,11 @@ wincx
 ;
 default
 :
+PORT_SetError
+(
+SEC_ERROR_BAD_KEY
+)
+;
 break
 ;
 }

@@ -1,14 +1,11 @@
 /
 *
 *
-crypto
+cryptohi
 .
 h
 -
 public
-data
-structures
-and
 prototypes
 for
 the

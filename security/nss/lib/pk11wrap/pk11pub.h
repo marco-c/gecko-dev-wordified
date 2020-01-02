@@ -5671,6 +5671,7 @@ SECItem
 *
 PK11_DEREncodePublicKey
 (
+const
 SECKEYPublicKey
 *
 pubk
@@ -7644,6 +7645,7 @@ flags
 *
 *
 /
+const
 PK11DefaultArrayEntry
 *
 PK11_GetDefaultArray

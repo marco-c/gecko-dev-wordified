@@ -937,7 +937,7 @@ PK11CertListType
 Entry
 into
 the
-Array
+array
 which
 lists
 all
@@ -960,11 +960,12 @@ PKCS
 #
 11
 mechanism
-the
+they
 represent
+.
 *
 Always
-Statically
+statically
 allocated
 .
 *
@@ -972,6 +973,7 @@ allocated
 struct
 PK11DefaultArrayEntryStr
 {
+const
 char
 *
 name
