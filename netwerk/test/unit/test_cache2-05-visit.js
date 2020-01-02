@@ -34,17 +34,6 @@ function
 (
 )
 {
-var
-expectedConsumption
-=
-newCacheBackEndUsed
-(
-)
-?
-4096
-:
-48
-;
 storage
 .
 asyncVisitStorage
@@ -60,7 +49,7 @@ new
 VisitCallback
 (
 4
-expectedConsumption
+48
 [
 "
 http
@@ -119,7 +108,7 @@ new
 VisitCallback
 (
 4
-expectedConsumption
+48
 null
 function
 (

@@ -113,9 +113,6 @@ nsString
 .
 h
 "
-class
-nsICacheEntryMetaDataVisitor
-;
 namespace
 mozilla
 {
@@ -206,9 +203,7 @@ aFrecency
 uint32_t
 )
 (
-(
 aFrecency
-)
 *
 CacheObserver
 :
@@ -835,14 +830,6 @@ const
 char
 *
 aValue
-)
-;
-nsresult
-Visit
-(
-nsICacheEntryMetaDataVisitor
-*
-aVisitor
 )
 ;
 CacheHash
