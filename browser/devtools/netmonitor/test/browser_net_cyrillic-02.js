@@ -89,7 +89,7 @@ test
 let
 {
 document
-SourceEditor
+Editor
 NetMonitorView
 }
 =
@@ -261,11 +261,11 @@ aEditor
 getMode
 (
 )
-SourceEditor
+Editor
 .
-MODES
+modes
 .
-HTML
+html
 "
 The
 mode
