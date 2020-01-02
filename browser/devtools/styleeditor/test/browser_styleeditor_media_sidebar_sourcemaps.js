@@ -116,8 +116,8 @@ const
 LINE_NOS
 =
 [
-4
-4
+5
+8
 ]
 ;
 waitForExplicitFinish
