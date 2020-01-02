@@ -1167,6 +1167,10 @@ bool
 append
 =
 false
+bool
+binary
+=
+false
 )
 ;
 void
