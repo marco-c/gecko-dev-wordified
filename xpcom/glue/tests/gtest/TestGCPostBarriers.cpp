@@ -412,7 +412,7 @@ rt
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -565,7 +565,7 @@ expect
 /
 for
 (
-int
+size_t
 i
 =
 0
@@ -630,7 +630,13 @@ isInt32
 ;
 ASSERT_EQ
 (
+static_cast
+<
+int32_t
+>
+(
 i
+)
 value
 .
 toInt32
