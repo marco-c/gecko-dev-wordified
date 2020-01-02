@@ -65,6 +65,7 @@ Services
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -84,6 +85,7 @@ XPCOMUtils
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -103,6 +105,7 @@ ThirdPartyCookieProbe
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -128,6 +131,7 @@ promise
 .
 js
 "
+this
 )
 ;
 Cu
@@ -147,6 +151,7 @@ TelemetryPing
 .
 jsm
 "
+this
 )
 ;
 let

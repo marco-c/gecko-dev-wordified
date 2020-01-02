@@ -110,6 +110,7 @@ TelemetryPing
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -129,6 +130,7 @@ XPCOMUtils
 .
 jsm
 "
+this
 )
 /
 *
