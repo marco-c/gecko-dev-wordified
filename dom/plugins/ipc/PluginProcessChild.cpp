@@ -888,6 +888,7 @@ return
 false
 ;
 }
+return
 mPlugin
 .
 Init
@@ -909,9 +910,6 @@ channel
 (
 )
 )
-;
-return
-true
 ;
 }
 void
