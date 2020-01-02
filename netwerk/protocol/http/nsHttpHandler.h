@@ -806,12 +806,12 @@ mParallelSpeculativeConnectLimit
 ;
 }
 bool
-CritialRequestPrioritization
+CriticalRequestPrioritization
 (
 )
 {
 return
-mCritialRequestPrioritization
+mCriticalRequestPrioritization
 ;
 }
 double
@@ -2426,7 +2426,7 @@ elements
 load
 .
 bool
-mCritialRequestPrioritization
+mCriticalRequestPrioritization
 ;
 /
 /

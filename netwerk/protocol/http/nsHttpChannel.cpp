@@ -29879,7 +29879,7 @@ if
 gHttpHandler
 -
 >
-CritialRequestPrioritization
+CriticalRequestPrioritization
 (
 )
 )

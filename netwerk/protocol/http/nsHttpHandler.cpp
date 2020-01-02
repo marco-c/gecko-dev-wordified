@@ -1430,7 +1430,7 @@ mRequestTokenBucketBurst
 (
 32
 )
-mCritialRequestPrioritization
+mCriticalRequestPrioritization
 (
 true
 )
@@ -8759,7 +8759,7 @@ NS_SUCCEEDED
 rv
 )
 )
-mCritialRequestPrioritization
+mCriticalRequestPrioritization
 =
 cVar
 ;
