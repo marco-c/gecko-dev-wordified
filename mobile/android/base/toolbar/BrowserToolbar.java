@@ -1243,6 +1243,16 @@ id
 tabs_counter
 )
 ;
+mTabsCounter
+.
+setLayerType
+(
+View
+.
+LAYER_TYPE_HARDWARE
+null
+)
+;
 mBack
 =
 (
