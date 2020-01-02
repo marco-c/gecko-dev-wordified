@@ -642,6 +642,14 @@ isOpaque
 =
 0
 ;
+virtual
+bool
+GetIsOpaque
+(
+)
+=
+0
+;
 /
 /
 Invalidate
