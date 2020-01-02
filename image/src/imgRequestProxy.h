@@ -265,6 +265,10 @@ imgRequestProxy
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+imgRequestProxy
+)
 typedef
 mozilla
 :

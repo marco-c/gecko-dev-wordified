@@ -431,6 +431,10 @@ CompositableBackendSpecificData
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+CompositableBackendSpecificData
+)
 CompositableBackendSpecificData
 (
 )
@@ -616,6 +620,10 @@ CompositableHost
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+CompositableHost
+)
 CompositableHost
 (
 const

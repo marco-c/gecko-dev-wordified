@@ -660,6 +660,10 @@ CompositableClient
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+CompositableClient
+)
 CompositableClient
 (
 CompositableForwarder

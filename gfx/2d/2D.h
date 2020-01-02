@@ -895,6 +895,10 @@ GradientStops
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+GradientStops
+)
 virtual
 ~
 GradientStops
@@ -1679,6 +1683,10 @@ SourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+SourceSurface
+)
 virtual
 ~
 SourceSurface
@@ -2084,6 +2092,10 @@ PathSink
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+PathSink
+)
 virtual
 ~
 PathSink
@@ -2377,6 +2389,10 @@ Path
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+Path
+)
 virtual
 ~
 Path
@@ -3048,6 +3064,10 @@ ScaledFont
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+ScaledFont
+)
 virtual
 ~
 ScaledFont
@@ -3419,6 +3439,10 @@ GlyphRenderingOptions
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+GlyphRenderingOptions
+)
 virtual
 ~
 GlyphRenderingOptions
@@ -3515,6 +3539,10 @@ DrawTarget
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+DrawTarget
+)
 DrawTarget
 (
 )
@@ -5846,6 +5874,10 @@ DrawEventRecorder
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+DrawEventRecorder
+)
 virtual
 ~
 DrawEventRecorder

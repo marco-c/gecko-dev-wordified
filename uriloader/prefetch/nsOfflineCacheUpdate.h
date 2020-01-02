@@ -883,6 +883,10 @@ nsOfflineCacheUpdateOwner
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+nsOfflineCacheUpdateOwner
+)
 virtual
 ~
 nsOfflineCacheUpdateOwner
@@ -918,6 +922,10 @@ nsOfflineCacheUpdateOwner
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+nsOfflineCacheUpdate
+)
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOFFLINECACHEUPDATE
 NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER

@@ -1288,6 +1288,10 @@ Compositor
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+Compositor
+)
 Compositor
 (
 PCompositorParent
