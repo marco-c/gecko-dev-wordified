@@ -479,6 +479,9 @@ assertEnteredPolicy
 cx
 wrapper
 id
+GET
+|
+SET
 )
 ;
 /
@@ -706,6 +709,7 @@ assertEnteredPolicy
 cx
 wrapper
 id
+GET
 )
 ;
 /
@@ -886,6 +890,7 @@ assertEnteredPolicy
 cx
 wrapper
 id
+GET
 )
 ;
 vp
@@ -1363,6 +1368,7 @@ policy
 cx
 wrapper
 id
+act
 )
 ;
 return
