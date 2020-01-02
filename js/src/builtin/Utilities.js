@@ -513,6 +513,15 @@ Std_String
 String
 ;
 var
+std_String_charCodeAt
+=
+String
+.
+prototype
+.
+charCodeAt
+;
+var
 std_String_indexOf
 =
 String

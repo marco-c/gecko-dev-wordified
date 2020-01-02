@@ -24080,7 +24080,7 @@ JS_SELF_HOSTED_FN
 iterator
 "
 "
-ArrayValues
+String_iterator
 "
 0
 0
