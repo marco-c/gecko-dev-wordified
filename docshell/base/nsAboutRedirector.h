@@ -121,13 +121,6 @@ nsAboutRedirector
 )
 {
 }
-virtual
-~
-nsAboutRedirector
-(
-)
-{
-}
 static
 nsresult
 Create
@@ -145,6 +138,13 @@ aResult
 ;
 protected
 :
+virtual
+~
+nsAboutRedirector
+(
+)
+{
+}
 }
 ;
 #

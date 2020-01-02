@@ -2835,11 +2835,6 @@ loadGroup
 )
 {
 }
-~
-nsPingListener
-(
-)
-;
 nsresult
 StartTimeout
 (
@@ -2847,6 +2842,11 @@ StartTimeout
 ;
 private
 :
+~
+nsPingListener
+(
+)
+;
 bool
 mRequireSameHost
 ;
@@ -51298,6 +51298,12 @@ nullptr
 }
 private
 :
+~
+nsCopyFaviconCallback
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIURI

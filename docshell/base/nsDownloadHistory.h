@@ -158,6 +158,14 @@ NS_DEFINE_STATIC_CID_ACCESSOR
 (
 NS_DOWNLOADHISTORY_CID
 )
+private
+:
+~
+nsDownloadHistory
+(
+)
+{
+}
 }
 ;
 #

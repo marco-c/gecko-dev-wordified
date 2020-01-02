@@ -570,6 +570,12 @@ endif
 }
 private
 :
+~
+LoadContext
+(
+)
+{
+}
 nsWeakPtr
 mTopFrameElement
 ;
