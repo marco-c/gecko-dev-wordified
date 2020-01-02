@@ -2995,6 +2995,14 @@ if
 IsPasswordEditor
 (
 )
+&
+&
+mEditor
+-
+>
+GetRoot
+(
+)
 )
 {
 \
