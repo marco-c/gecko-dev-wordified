@@ -5831,7 +5831,6 @@ value
 =
 curValue
 )
-{
 ins
 -
 >
@@ -5841,11 +5840,6 @@ valueOperand
 value
 )
 ;
-curValue
-=
-value
-;
-}
 return
 true
 ;
