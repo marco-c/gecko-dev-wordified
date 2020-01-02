@@ -679,7 +679,6 @@ util
 .
 Vector
 ;
-abstract
 public
 class
 BrowserApp
