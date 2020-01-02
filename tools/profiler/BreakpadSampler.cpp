@@ -816,7 +816,7 @@ if
 (
 entry
 .
-js
+isJs
 (
 )
 )
