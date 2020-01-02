@@ -167,14 +167,6 @@ CSSStyleSheet
 )
 /
 /
-Range
-classes
-DOMCI_CLASS
-(
-Selection
-)
-/
-/
 XUL
 classes
 #
