@@ -10598,7 +10598,6 @@ SynchronizeAndResume
 (
 cx
 aWindow
-scx
 )
 )
 {
