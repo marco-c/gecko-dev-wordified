@@ -872,8 +872,6 @@ error
 {
 printf_stderr
 (
-nsPrintfCString
-(
 "
 WyciwygChannelParent
 :
@@ -889,11 +887,6 @@ s
 n
 "
 error
-)
-.
-get
-(
-)
 )
 ;
 return
