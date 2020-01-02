@@ -802,9 +802,11 @@ target
 if
 (
 !
+(
 video
 instanceof
 HTMLVideoElement
+)
 )
 {
 return
@@ -892,9 +894,11 @@ target
 if
 (
 !
+(
 video
 instanceof
 HTMLVideoElement
+)
 )
 {
 return
@@ -1200,9 +1204,11 @@ aElement
 if
 (
 !
+(
 aElement
 instanceof
 HTMLVideoElement
+)
 )
 {
 return
