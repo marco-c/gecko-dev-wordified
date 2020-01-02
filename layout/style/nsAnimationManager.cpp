@@ -319,6 +319,12 @@ case
 ComputedTiming
 :
 :
+AnimationPhase_Null
+:
+case
+ComputedTiming
+:
+:
 AnimationPhase_Before
 :
 /
