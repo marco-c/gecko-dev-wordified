@@ -1709,6 +1709,14 @@ ReleaseWrapper
 aNode
 )
 ;
+FragmentOrElement
+:
+:
+RemoveBlackMarkedNode
+(
+aNode
+)
+;
 }
 struct
 MOZ_STACK_CLASS

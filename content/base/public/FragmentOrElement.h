@@ -1229,6 +1229,15 @@ aNode
 ;
 static
 void
+RemoveBlackMarkedNode
+(
+nsINode
+*
+aNode
+)
+;
+static
+void
 MarkNodeChildren
 (
 nsINode
