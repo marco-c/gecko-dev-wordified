@@ -272,14 +272,14 @@ Clear
 ;
 }
 ;
-double
-CurrentDelayFrames
+int
+MaxDelayFrames
 (
 )
 const
 {
 return
-mCurrentDelay
+mMaxDelayFrames
 ;
 }
 int
