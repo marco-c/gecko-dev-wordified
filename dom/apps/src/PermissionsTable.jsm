@@ -1139,7 +1139,7 @@ privileged
 PROMPT_ACTION
 certified
 :
-PROMPT_ACTION
+ALLOW_ACTION
 }
 "
 nfc
@@ -1230,7 +1230,7 @@ privileged
 PROMPT_ACTION
 certified
 :
-PROMPT_ACTION
+ALLOW_ACTION
 }
 "
 feature
