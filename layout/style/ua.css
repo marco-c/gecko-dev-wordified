@@ -1603,8 +1603,15 @@ important
 ;
 position
 :
-relative
+inherit
 ;
+/
+*
+relative
+or
+sticky
+*
+/
 top
 :
 inherit
