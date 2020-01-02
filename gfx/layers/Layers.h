@@ -230,7 +230,6 @@ h
 /
 for
 gfxPoint
-gfxIntSize
 #
 include
 "
@@ -2936,7 +2935,10 @@ gfxASurface
 CreateOptimalSurface
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 gfxImageFormat
@@ -3001,7 +3003,10 @@ gfxASurface
 CreateOptimalMaskSurface
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )
@@ -3069,7 +3074,10 @@ bool
 CanUseCanvasLayerForSize
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )
