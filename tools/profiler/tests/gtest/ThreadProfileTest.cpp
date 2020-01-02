@@ -388,7 +388,7 @@ mEntries
 readPos
 ]
 .
-mTagLine
+mTagInt
 =
 =
 readPos
@@ -585,7 +585,7 @@ mEntries
 readPos
 ]
 .
-mTagLine
+mTagInt
 =
 =
 ctr
