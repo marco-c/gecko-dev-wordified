@@ -1384,10 +1384,6 @@ MarkEventQueueForPurge
 (
 )
 {
-LogFunction
-(
-)
-;
 sWillEmptyThreadQueue
 =
 true
@@ -1453,10 +1449,6 @@ sWillEmptyThreadQueue
 return
 ;
 }
-LogFunction
-(
-)
-;
 NS_ASSERTION
 (
 NS_IsMainThread
