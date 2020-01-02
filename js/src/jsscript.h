@@ -2892,6 +2892,13 @@ element
 )
 const
 ;
+void
+initElement
+(
+HandleObject
+element
+)
+;
 const
 Value
 &
