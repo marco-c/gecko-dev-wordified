@@ -3357,11 +3357,6 @@ START
 Context
 (
 )
--
->
-DestinationStream
-(
-)
 aWhen
 )
 ;
@@ -3878,11 +3873,6 @@ SetStreamTimeParameter
 (
 STOP
 Context
-(
-)
--
->
-DestinationStream
 (
 )
 std
