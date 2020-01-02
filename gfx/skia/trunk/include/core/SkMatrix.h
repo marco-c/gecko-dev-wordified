@@ -4317,16 +4317,8 @@ dump
 const
 ;
 )
-SkDEVCODE
+SK_TO_STRING_NONVIRT
 (
-void
-toString
-(
-SkString
-*
-)
-const
-;
 )
 /
 *

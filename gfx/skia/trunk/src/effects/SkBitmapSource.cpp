@@ -287,9 +287,9 @@ const
 SkBitmap
 &
 const
-SkMatrix
+Context
 &
-matrix
+ctx
 SkBitmap
 *
 result
@@ -311,7 +311,11 @@ getBounds
 bounds
 )
 ;
-matrix
+ctx
+.
+ctm
+(
+)
 .
 mapRect
 (
@@ -545,7 +549,7 @@ kNone_FilterLevel
 SkPaint
 :
 :
-kMedium_FilterLevel
+kHigh_FilterLevel
 )
 ;
 canvas

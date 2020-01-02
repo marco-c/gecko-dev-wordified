@@ -7109,7 +7109,7 @@ GrQuadEffect
 :
 Create
 (
-kHairAA_GrBezierEdgeType
+kHairlineAA_GrEffectEdgeType
 *
 target
 -
@@ -7245,7 +7245,7 @@ GrConicEffect
 :
 Create
 (
-kHairAA_GrBezierEdgeType
+kHairlineAA_GrEffectEdgeType
 *
 target
 -

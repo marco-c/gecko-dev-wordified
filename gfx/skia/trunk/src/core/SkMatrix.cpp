@@ -13405,6 +13405,11 @@ c_str
 )
 ;
 }
+#
+endif
+#
+ifndef
+SK_IGNORE_TO_STRING
 void
 SkMatrix
 :

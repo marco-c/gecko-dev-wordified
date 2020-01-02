@@ -135,8 +135,10 @@ return
 NULL
 ;
 return
-new
 SkDashPathEffect
+:
+:
+Create
 (
 intervals
 .

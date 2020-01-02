@@ -668,8 +668,8 @@ SkMatrix
 )
 ;
 #
-ifdef
-SK_DEVELOPER
+ifndef
+SK_IGNORE_TO_STRING
 matrix
 .
 toString
@@ -704,8 +704,8 @@ new
 SkString
 ;
 #
-ifdef
-SK_DEVELOPER
+ifndef
+SK_IGNORE_TO_STRING
 paint
 .
 toString

@@ -80,11 +80,6 @@ SK_DECLARE_INST_COUNT
 (
 SkRasterizer
 )
-SkRasterizer
-(
-)
-{
-}
 /
 *
 *
@@ -140,6 +135,11 @@ SkRasterizer
 )
 protected
 :
+SkRasterizer
+(
+)
+{
+}
 SkRasterizer
 (
 SkReadBuffer

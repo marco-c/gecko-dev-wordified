@@ -968,7 +968,7 @@ TODO
 consider
 supporting
 other
-configs
+colortypes
 (
 e
 .
@@ -982,15 +982,12 @@ if
 fBitmap
 -
 >
-config
+colorType
 (
 )
 !
 =
-SkBitmap
-:
-:
-kARGB_8888_Config
+kPMColor_SkColorType
 )
 {
 return

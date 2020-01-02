@@ -58,12 +58,12 @@ createBBoxHierarchy
 const
 {
 return
+SkNEW_ARGS
+(
 SkQuadTree
-:
-:
-Create
 (
 fBounds
+)
 )
 ;
 }

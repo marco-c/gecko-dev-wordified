@@ -2182,8 +2182,10 @@ SkPathEffect
 *
 composite
 =
-new
 SkComposePathEffect
+:
+:
+Create
 (
 e1
 e2
@@ -2301,8 +2303,10 @@ getPathEffect
 )
 {
 return
-new
 SkCornerPathEffect
+:
+:
+Create
 (
 radius
 )

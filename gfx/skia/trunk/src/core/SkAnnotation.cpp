@@ -387,13 +387,13 @@ paint
 .
 setAnnotation
 (
-SkNEW_ARGS
-(
 SkAnnotation
+:
+:
+Create
 (
 key
 value
-)
 )
 )
 -

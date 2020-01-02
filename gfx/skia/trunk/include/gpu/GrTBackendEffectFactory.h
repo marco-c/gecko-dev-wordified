@@ -518,7 +518,7 @@ object
 *
 /
 virtual
-GLEffect
+GrGLEffect
 *
 createGLInstance
 (

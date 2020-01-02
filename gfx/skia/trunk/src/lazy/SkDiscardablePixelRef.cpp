@@ -494,15 +494,12 @@ SkASSERT
 dst
 -
 >
-config
+colorType
 (
 )
 !
 =
-SkBitmap
-:
-:
-kNo_Config
+kUnknown_SkColorType
 )
 ;
 if

@@ -720,6 +720,7 @@ heapSize
 UNLIMITED_SIZE
 )
 ;
+virtual
 ~
 SkBitmapHeap
 (

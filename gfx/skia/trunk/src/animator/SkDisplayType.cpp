@@ -1969,7 +1969,17 @@ matchPtr
 {
 int
 infoCount
+=
+0
 ;
+/
+/
+Initialize
+to
+remove
+a
+warning
+.
 const
 SkMemberInfo
 *
