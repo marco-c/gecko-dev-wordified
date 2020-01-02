@@ -568,7 +568,7 @@ mozilla
 jsipc
 :
 :
-IsCPOW
+IsWrappedCPOW
 (
 mainObj
 )
