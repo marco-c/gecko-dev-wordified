@@ -2200,16 +2200,6 @@ return
 js
 :
 :
-IsReadOnlyDateMethod
-(
-test
-impl
-)
-|
-|
-js
-:
-:
 IsTypedArrayThisCheck
 (
 test
