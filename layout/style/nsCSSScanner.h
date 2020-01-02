@@ -1767,7 +1767,7 @@ the
 /
 parser
 .
-bool
+void
 NextURL
 (
 nsCSSToken
