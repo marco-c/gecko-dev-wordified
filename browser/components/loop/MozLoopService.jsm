@@ -2026,9 +2026,16 @@ this
 openChatWindow
 (
 null
+this
+.
+localizedStrings
+[
 "
-LooP
+incoming_call_title
 "
+]
+.
+textContent
 "
 about
 :
