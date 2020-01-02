@@ -4400,13 +4400,14 @@ value
 {
 FloatRegister
 reg
-=
+(
 FloatRegister
 :
 :
 FromName
 (
 desc
+)
 )
 ;
 if
