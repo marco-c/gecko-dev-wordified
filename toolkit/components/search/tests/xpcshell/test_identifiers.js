@@ -54,13 +54,6 @@ strict
 "
 ;
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 SEARCH_APP_DIR
 =
 1
