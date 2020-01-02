@@ -574,9 +574,15 @@ _receiveMessageAPI
 aMessage
 )
 ;
-break
-;
 }
+return
+undefined
+;
+/
+/
+Avoid
+warning
+.
 }
 ;
 ChromePowers
