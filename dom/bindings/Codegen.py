@@ -102798,10 +102798,6 @@ self
 .
 descriptor
 .
-interface
-.
-identifier
-.
 name
 )
             
