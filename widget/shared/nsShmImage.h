@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 X11Util

@@ -138,6 +138,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsSize
+.
+h
+"
 class
 gfxXlibSurface
 :

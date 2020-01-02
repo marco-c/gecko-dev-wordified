@@ -176,6 +176,13 @@ min
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

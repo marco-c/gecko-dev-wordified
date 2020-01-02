@@ -111,6 +111,13 @@ AndroidDirectTexture
 .
 h
 "
+#
+include
+"
+nsRect
+.
+h
+"
 typedef
 gfxASurface
 :
