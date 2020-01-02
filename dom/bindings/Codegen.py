@@ -32526,7 +32526,7 @@ post
 declArgs
 =
 "
-retval
+aRetVal
 "
         
 elif
@@ -84625,7 +84625,7 @@ void
 "
 "
 "
-retval
+aRetVal
 =
 {
 declName
@@ -84674,7 +84674,7 @@ void
 "
 "
 "
-retval
+aRetVal
 =
 {
 declName
@@ -85297,7 +85297,7 @@ n
 "
                               
 "
-retval
+aRetVal
 .
 SetNull
 (
@@ -85316,7 +85316,7 @@ n
 "
                               
 "
-retval
+aRetVal
 .
 SetValue
 (
@@ -85348,7 +85348,7 @@ else
 returnCode
 =
 "
-retval
+aRetVal
 .
 SwapElements
 (
@@ -85654,7 +85654,7 @@ nsString
 &
 "
 "
-retval
+aRetVal
 "
 )
 )
@@ -85678,7 +85678,7 @@ nsCString
 &
 "
 "
-retval
+aRetVal
 "
 )
 )
@@ -85774,7 +85774,7 @@ define
 (
 )
 "
-retval
+aRetVal
 "
 )
 )
@@ -85851,7 +85851,7 @@ define
 (
 )
 "
-retval
+aRetVal
 "
 )
 )
@@ -85886,7 +85886,7 @@ True
 )
                                  
 "
-retval
+aRetVal
 "
 )
 )
@@ -98928,7 +98928,7 @@ isByteString
             
 return
 "
-retval
+aRetVal
 =
 "
 +
@@ -99067,7 +99067,7 @@ isUnion
             
 return
 "
-retval
+aRetVal
 =
 "
 +
