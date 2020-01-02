@@ -1301,6 +1301,7 @@ MIRType_Int32
 MIRType_Double
 MIRType_Float32
 MIRType_String
+MIRType_Symbol
 MIRType_Object
 MIRType_MagicOptimizedArguments
 /

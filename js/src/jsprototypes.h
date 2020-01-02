@@ -925,6 +925,21 @@ DataView
 )
 )
 \
+real
+(
+Symbol
+36
+js_InitSymbolClass
+&
+js
+:
+:
+SymbolObject
+:
+:
+class_
+)
+\
 IF_SAB
 (
 real
@@ -932,7 +947,7 @@ imaginary
 )
 (
 SharedArrayBuffer
-36
+37
 js_InitSharedArrayBufferClass
 &
 js
@@ -951,7 +966,7 @@ imaginary
 )
 (
 Intl
-37
+38
 js_InitIntlClass
 CLASP
 (
@@ -966,7 +981,7 @@ imaginary
 )
 (
 TypedObject
-38
+39
 js_InitTypedObjectModuleObject
 OCLASP
 (
@@ -977,7 +992,7 @@ TypedObjectModule
 imaginary
 (
 GeneratorFunction
-39
+40
 js_InitIteratorClasses
 dummy
 )
@@ -989,7 +1004,7 @@ imaginary
 )
 (
 SIMD
-40
+41
 js_InitSIMDClass
 OCLASP
 (
