@@ -1450,6 +1450,16 @@ TOOLS_LABEL
 Tools
 "
 ;
+public
+static
+final
+String
+PAGE_LABEL
+=
+"
+Page
+"
+;
 /
 /
 Android
