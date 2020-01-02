@@ -10099,9 +10099,8 @@ aDefer
 true
 ;
 return
-GetListenerManager
+GetOrCreateListenerManager
 (
-true
 )
 ;
 }

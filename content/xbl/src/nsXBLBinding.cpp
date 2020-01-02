@@ -3144,9 +3144,8 @@ manager
 mBoundElement
 -
 >
-GetListenerManager
+GetOrCreateListenerManager
 (
-true
 )
 ;
 if
@@ -3954,9 +3953,8 @@ manager
 mBoundElement
 -
 >
-GetListenerManager
+GetExistingListenerManager
 (
-false
 )
 ;
 if
