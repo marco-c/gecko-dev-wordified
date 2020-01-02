@@ -309,8 +309,6 @@ CheckKeyUsage
 (
 EndEntityOrCA
 endEntityOrCA
-bool
-isTrustAnchor
 const
 SECItem
 *
@@ -331,6 +329,10 @@ encodedKeyUsage
 /
 /
 TODO
+(
+bug
+970196
+)
 :
 Reject
 certificates
@@ -340,9 +342,9 @@ being
 used
 to
 verify
+/
+/
 certificate
-/
-/
 signatures
 unless
 the
@@ -352,10 +354,10 @@ a
 trust
 anchor
 to
+/
+/
 reduce
 the
-/
-/
 chances
 of
 an
@@ -368,6 +370,8 @@ abused
 as
 a
 CA
+/
+/
 certificate
 .
 /
@@ -3338,7 +3342,6 @@ rv
 CheckKeyUsage
 (
 endEntityOrCA
-isTrustAnchor
 cert
 .
 encodedKeyUsage
