@@ -247,6 +247,7 @@ mAgent
 >
 InitWithVideo
 (
+nullptr
 mType
 this
 true
@@ -262,6 +263,7 @@ mAgent
 >
 InitWithWeakCallback
 (
+nullptr
 mType
 this
 )
