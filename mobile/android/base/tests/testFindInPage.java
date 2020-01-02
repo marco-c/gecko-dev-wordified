@@ -125,6 +125,13 @@ getGeckoWidth
 8
 ;
 /
+*
+Disabled
+by
+bug
+958111
+.
+/
 /
 Search
 that
@@ -241,6 +248,8 @@ close
 )
 ;
 }
+*
+/
 /
 /
 Search
@@ -252,6 +261,9 @@ therefor
 pans
 the
 page
+Actions
+.
+RepeatedEventExpecter
 paintExpecter
 =
 mActions
@@ -268,6 +280,7 @@ Robocop
 3
 )
 ;
+PaintedSurface
 painted
 =
 waitForPaint
