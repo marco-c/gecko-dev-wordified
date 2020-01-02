@@ -1059,15 +1059,6 @@ requiredPolicy
 CERTCertificate
 *
 potentialIssuerCertToDup
-/
-*
-optional
-*
-/
-const
-SECItem
-*
-stapledOCSPResponse
 unsigned
 int
 subCACount
@@ -1850,7 +1841,6 @@ n
 -
 >
 cert
-stapledOCSPResponse
 subCACount
 results
 )
