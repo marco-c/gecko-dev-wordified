@@ -28040,6 +28040,12 @@ resize
 none
 "
 "
+grab
+"
+"
+grabbing
+"
+"
 zoom
 -
 in
