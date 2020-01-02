@@ -149,7 +149,7 @@ h
 namespace
 stagefright
 {
-struct
+class
 SampleTable
 ;
 struct

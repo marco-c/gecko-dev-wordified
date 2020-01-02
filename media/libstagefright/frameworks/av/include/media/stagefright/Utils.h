@@ -295,7 +295,7 @@ uint64_t
 x
 )
 ;
-struct
+class
 MetaData
 ;
 struct
