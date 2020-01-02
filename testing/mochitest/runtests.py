@@ -3254,7 +3254,7 @@ active_tests
 (
 disabled
 =
-False
+True
 *
 *
 mozinfo
