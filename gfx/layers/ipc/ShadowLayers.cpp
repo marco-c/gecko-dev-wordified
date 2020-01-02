@@ -2577,6 +2577,10 @@ EditReply
 >
 *
 aReplies
+const
+nsIntRegion
+&
+aRegionToClear
 bool
 aScheduleComposite
 bool
@@ -3505,6 +3509,7 @@ mTxn
 -
 >
 mTargetOrientation
+aRegionToClear
 )
 ;
 MOZ_LAYERS_LOG

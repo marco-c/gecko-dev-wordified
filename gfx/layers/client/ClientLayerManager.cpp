@@ -2009,6 +2009,7 @@ EndTransaction
 (
 &
 replies
+mRegionToClear
 aScheduleComposite
 &
 sent
