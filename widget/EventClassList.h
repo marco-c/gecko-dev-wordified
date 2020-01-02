@@ -375,11 +375,9 @@ MutationEvent
 .
 h
 (
-content
+dom
 /
 events
-/
-public
 )
 NS_EVENT_CLASS
 (

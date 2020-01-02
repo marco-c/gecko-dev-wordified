@@ -482,11 +482,9 @@ MutationEvent
 .
 h
 (
-content
+dom
 /
 events
-/
-public
 )
 NS_MUTATION_EVENT
 /
