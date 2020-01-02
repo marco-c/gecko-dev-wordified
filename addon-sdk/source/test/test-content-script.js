@@ -5019,6 +5019,7 @@ proxy
 code
 assert
 (
+new
 window
 .
 XMLHttpRequest

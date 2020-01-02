@@ -5527,6 +5527,7 @@ try
 var
 decoder
 =
+new
 TextDecoder
 (
 label
@@ -5647,6 +5648,7 @@ null
 var
 decoder
 =
+new
 TextDecoder
 (
 test
@@ -6098,6 +6100,7 @@ true
 }
 is
 specified
+(
 new
 TextDecoder
 (
@@ -6108,6 +6111,7 @@ iso
 -
 jp
 "
+)
 )
 .
 decode
