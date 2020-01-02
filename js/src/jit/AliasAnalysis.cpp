@@ -1064,7 +1064,7 @@ stores
 .
 append
 (
-OldMove
+Move
 (
 defs
 )
