@@ -277,13 +277,6 @@ h
 #
 include
 "
-nsIDOMApplicationRegistry
-.
-h
-"
-#
-include
-"
 nsIBaseWindow
 .
 h
