@@ -10035,17 +10035,6 @@ sParentProcessManager
 "
 )
 ;
-NS_ENSURE_TRUE
-(
-XRE_GetProcessType
-(
-)
-=
-=
-GeckoProcessType_Default
-NS_ERROR_NOT_AVAILABLE
-)
-;
 nsRefPtr
 <
 nsFrameMessageManager
