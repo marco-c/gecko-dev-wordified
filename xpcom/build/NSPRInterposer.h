@@ -62,9 +62,6 @@ NSPRINTERPOSER_H_
 #
 define
 NSPRINTERPOSER_H_
-#
-ifdef
-MOZ_ENABLE_PROFILER_SPS
 namespace
 mozilla
 {
@@ -176,11 +173,6 @@ ClearNSPRIOInterposing
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_ENABLE_PROFILER_SPS
 #
 endif
 /
