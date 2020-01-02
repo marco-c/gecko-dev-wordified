@@ -4254,9 +4254,6 @@ code
 )
 )
 ;
-enoughMemory_
-&
-=
 append
 (
 AsmJSAbsoluteLink

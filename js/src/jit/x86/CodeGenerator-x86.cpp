@@ -2207,7 +2207,6 @@ size
 (
 )
 ;
-return
 masm
 .
 append
@@ -2223,6 +2222,9 @@ out
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -2805,7 +2807,6 @@ rejoin
 )
 )
 ;
-return
 masm
 .
 append
@@ -2826,6 +2827,9 @@ offset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -3117,7 +3121,7 @@ template
 typename
 T
 >
-bool
+void
 CodeGeneratorX86
 :
 :
@@ -3163,7 +3167,6 @@ size
 (
 )
 ;
-return
 masm
 .
 append
@@ -3452,13 +3455,15 @@ toInt32
 )
 )
 ;
-return
 storeAndNoteViewTypeElement
 (
 vt
 value
 dstAddr
 )
+;
+return
+true
 ;
 }
 Register
@@ -3485,7 +3490,7 @@ skipBoundsCheck
 (
 )
 )
-return
+{
 storeAndNoteViewTypeElement
 (
 vt
@@ -3493,6 +3498,10 @@ value
 dstAddr
 )
 ;
+return
+true
+;
+}
 CodeOffsetLabel
 cmp
 =
@@ -3555,7 +3564,6 @@ bind
 rejoin
 )
 ;
-return
 masm
 .
 append
@@ -3571,6 +3579,9 @@ offset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -3692,7 +3703,6 @@ output
 )
 )
 ;
-return
 masm
 .
 append
@@ -3715,6 +3725,9 @@ globalDataOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -3841,7 +3854,6 @@ PatchedAbsoluteAddress
 )
 )
 ;
-return
 masm
 .
 append
@@ -3864,6 +3876,9 @@ globalDataOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -3929,7 +3944,6 @@ TimesFour
 out
 )
 ;
-return
 masm
 .
 append
@@ -3952,6 +3966,9 @@ globalDataOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -4002,7 +4019,6 @@ PatchedAbsoluteAddress
 out
 )
 ;
-return
 masm
 .
 append
@@ -4025,6 +4041,9 @@ globalDataOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 void

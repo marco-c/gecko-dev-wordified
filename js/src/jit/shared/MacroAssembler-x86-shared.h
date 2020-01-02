@@ -4291,9 +4291,6 @@ call
 label
 )
 ;
-enoughMemory_
-&
-=
 append
 (
 desc
@@ -4320,9 +4317,6 @@ call
 reg
 )
 ;
-enoughMemory_
-&
-=
 append
 (
 desc

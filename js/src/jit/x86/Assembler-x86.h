@@ -1876,9 +1876,6 @@ code
 )
 )
 ;
-enoughMemory_
-&
-=
 append
 (
 AsmJSAbsoluteLink
@@ -2447,9 +2444,6 @@ void
 1
 )
 ;
-enoughMemory_
-&
-=
 append
 (
 AsmJSAbsoluteLink

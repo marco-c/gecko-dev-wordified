@@ -256,7 +256,7 @@ template
 typename
 T
 >
-bool
+void
 storeAndNoteViewTypeElement
 (
 ArrayBufferView

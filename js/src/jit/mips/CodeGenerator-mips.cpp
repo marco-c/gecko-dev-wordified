@@ -14040,7 +14040,6 @@ bind
 done
 )
 ;
-return
 masm
 .
 append
@@ -14054,6 +14053,9 @@ getOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -14623,7 +14625,6 @@ bind
 rejoin
 )
 ;
-return
 masm
 .
 append
@@ -14637,6 +14638,9 @@ getOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
