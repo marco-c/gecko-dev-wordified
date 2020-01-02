@@ -1074,6 +1074,9 @@ false
 isPackage
 :
 isPackage
+forceSuccessAck
+:
+true
 }
 ;
 if
