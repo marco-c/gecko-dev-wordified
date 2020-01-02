@@ -32993,7 +32993,10 @@ serif
 ko
 "
 "
-AppleGothic
+Apple
+SD
+Gothic
+Neo
 "
 )
 ;
@@ -33009,7 +33012,10 @@ monospace
 ko
 "
 "
-AppleGothic
+Apple
+SD
+Gothic
+Neo
 "
 )
 ;
@@ -33047,6 +33053,10 @@ serif
 ko
 "
 "
+Apple
+SD
+Gothic
+Neo
 AppleGothic
 "
 )
@@ -33065,6 +33075,10 @@ monospace
 ko
 "
 "
+Apple
+SD
+Gothic
+Neo
 AppleGothic
 "
 )
