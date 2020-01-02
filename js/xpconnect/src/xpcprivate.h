@@ -18472,8 +18472,10 @@ rest
 NS_DECL_NSIJSIID
 NS_DECL_NSIXPCSCRIPTABLE
 static
+already_AddRefed
+<
 nsJSIID
-*
+>
 NewID
 (
 nsIInterfaceInfo
