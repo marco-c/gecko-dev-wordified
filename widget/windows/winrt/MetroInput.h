@@ -1414,8 +1414,11 @@ mIsFirstTouchMove
 bool
 mCancelable
 ;
-bool
-mTouchCancelSent
+nsTArray
+<
+uint32_t
+>
+mCanceledIds
 ;
 /
 /
@@ -2058,6 +2061,9 @@ aEvent
 void
 DispatchTouchCancel
 (
+WidgetTouchEvent
+*
+aEvent
 )
 ;
 nsDeque
