@@ -202,13 +202,6 @@ namespace
 js
 :
 :
-gc
-;
-using
-namespace
-js
-:
-:
 gcstats
 ;
 using
@@ -3611,7 +3604,7 @@ reason
 PRMJ_Now
 (
 )
-SystemPageAllocator
+gc
 :
 :
 GetPageFaultCount
@@ -3756,7 +3749,7 @@ back
 .
 endFaults
 =
-SystemPageAllocator
+gc
 :
 :
 GetPageFaultCount
