@@ -586,12 +586,6 @@ n
 =
 (
 gc
-=
-=
-js
-:
-:
-IsLiveGCThing
 )
 ?
 mSize
@@ -618,8 +612,12 @@ t
 .
 enum
 {
-IsLiveGCThing
 NotLiveGCThing
+=
+false
+IsLiveGCThing
+=
+true
 }
 ;
 struct
