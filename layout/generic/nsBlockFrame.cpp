@@ -29868,7 +29868,7 @@ true
 }
 aLineLayout
 .
-BlockDirAlignLine
+VerticalAlignLine
 (
 )
 ;
@@ -30375,7 +30375,7 @@ aLine
 ;
 aLineLayout
 .
-InlineDirAlignFrames
+TextAlignLine
 (
 aLine
 isLastLine
