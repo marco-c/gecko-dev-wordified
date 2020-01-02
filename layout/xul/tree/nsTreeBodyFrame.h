@@ -2909,7 +2909,7 @@ The
 event
 supports
 *
-nsIDOMDataContainerEvent
+nsIDOMCustomEvent
 interface
 that
 is
@@ -2986,7 +2986,7 @@ The
 event
 supports
 *
-nsIDOMDataContainerEvent
+nsIDOMCustomEvent
 interface
 that
 is
