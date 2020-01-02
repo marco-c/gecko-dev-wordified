@@ -212,6 +212,14 @@ return
 true
 ;
 }
+virtual
+JSObject
+*
+defaultScope
+(
+)
+MOZ_OVERRIDE
+;
 }
 ;
 }
