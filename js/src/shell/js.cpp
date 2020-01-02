@@ -1731,7 +1731,7 @@ tmp
 char
 *
 )
-realloc
+js_realloc
 (
 buffer
 size
@@ -1943,7 +1943,7 @@ data
 JSShellContextData
 *
 )
-calloc
+js_calloc
 (
 sizeof
 (
@@ -31005,7 +31005,7 @@ static
 bool
 ShellBuildId
 (
-mozilla
+js
 :
 :
 Vector
@@ -31084,7 +31084,7 @@ a
 big
 deal
 .
-No
+Not
 so
 /
 /

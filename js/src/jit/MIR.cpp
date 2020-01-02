@@ -5045,7 +5045,7 @@ of
 which
 may
 call
-realloc
+realloc_
 (
 )
 .
@@ -6076,7 +6076,7 @@ use
 lists
 in
 case
-realloc
+realloc_
 (
 )
 moves

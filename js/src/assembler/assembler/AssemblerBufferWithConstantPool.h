@@ -800,7 +800,7 @@ uint32_t
 *
 >
 (
-malloc
+js_malloc
 (
 maxPoolSize
 )
@@ -814,7 +814,7 @@ char
 *
 >
 (
-malloc
+js_malloc
 (
 maxPoolSize
 /
@@ -831,12 +831,12 @@ AssemblerBufferWithConstantPool
 (
 )
 {
-free
+js_free
 (
 m_mask
 )
 ;
-free
+js_free
 (
 m_pool
 )

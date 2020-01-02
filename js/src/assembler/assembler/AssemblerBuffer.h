@@ -531,7 +531,7 @@ m_buffer
 =
 m_inlineBuffer
 )
-free
+js_free
 (
 m_buffer
 )
@@ -1292,7 +1292,7 @@ char
 *
 >
 (
-malloc
+js_malloc
 (
 newCapacity
 )
@@ -1333,7 +1333,7 @@ char
 *
 >
 (
-realloc
+js_realloc
 (
 m_buffer
 newCapacity

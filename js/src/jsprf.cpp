@@ -2225,7 +2225,7 @@ not
 reported
 *
 and
-malloc
+js_malloc
 (
 )
 is
@@ -2233,7 +2233,6 @@ used
 to
 allocate
 the
-buffer
 buffer
 .
 *
@@ -2665,7 +2664,7 @@ struct
 NumArgState
 *
 )
-malloc
+js_malloc
 (
 number
 *
@@ -6123,7 +6122,7 @@ that
 automatically
 grows
 the
-malloc
+js_malloc
 '
 d
 output
@@ -6335,7 +6334,7 @@ return
 sprintf
 into
 a
-malloc
+js_malloc
 '
 d
 buffer

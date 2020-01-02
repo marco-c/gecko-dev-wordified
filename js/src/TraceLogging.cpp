@@ -726,7 +726,7 @@ flush
 (
 )
 ;
-free
+js_free
 (
 entries
 )
@@ -768,7 +768,7 @@ nentries
 Entry
 *
 )
-realloc
+js_realloc
 (
 entries
 numEntries
@@ -888,7 +888,7 @@ entries
 Entry
 *
 )
-malloc
+js_malloc
 (
 numEntries
 *
@@ -1547,7 +1547,7 @@ text
 nullptr
 )
 {
-free
+js_free
 (
 entries
 [

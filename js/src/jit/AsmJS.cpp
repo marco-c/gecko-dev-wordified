@@ -8394,8 +8394,9 @@ offset
 ;
 errorString_
 =
-strdup
+js_strdup
 (
+cx_
 str
 )
 ;
