@@ -3084,10 +3084,9 @@ removeSection
 mName
 )
 ;
-return
-true
-;
 }
+break
+;
 }
 parser
 .
