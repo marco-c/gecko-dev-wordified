@@ -1211,7 +1211,7 @@ registers
 .
 masm
 .
-mov
+movePtr
 (
 ImmWord
 (
@@ -1818,7 +1818,7 @@ load_char_start_regexp
 ;
 masm
 .
-mov
+movePtr
 (
 ImmWord
 (
@@ -1942,7 +1942,7 @@ num_saved_registers_
 {
 masm
 .
-mov
+movePtr
 (
 ImmWord
 (
@@ -2294,7 +2294,7 @@ later
 .
 masm
 .
-mov
+movePtr
 (
 temp0
 current_character
@@ -2678,7 +2678,7 @@ else
 {
 masm
 .
-mov
+movePtr
 (
 ImmWord
 (
@@ -2944,7 +2944,7 @@ grow_failed
 ;
 masm
 .
-mov
+movePtr
 (
 ImmPtr
 (
@@ -3257,7 +3257,7 @@ exception
 .
 masm
 .
-mov
+movePtr
 (
 ImmWord
 (
@@ -4080,9 +4080,9 @@ else
 {
 masm
 .
-mov
+move32
 (
-ImmWord
+Imm32
 (
 and_with
 )
@@ -4187,9 +4187,9 @@ else
 {
 masm
 .
-mov
+move32
 (
-ImmWord
+Imm32
 (
 and_with
 )
@@ -4568,7 +4568,7 @@ input
 .
 masm
 .
-mov
+movePtr
 (
 current_position
 temp1
@@ -4877,7 +4877,7 @@ match
 .
 masm
 .
-mov
+movePtr
 (
 backtrack_stack_pointer
 current_position
@@ -5111,7 +5111,7 @@ input
 .
 masm
 .
-mov
+movePtr
 (
 current_position
 temp0
@@ -5748,7 +5748,7 @@ here
 .
 masm
 .
-mov
+movePtr
 (
 ImmPtr
 (
@@ -5759,9 +5759,9 @@ temp0
 ;
 masm
 .
-mov
+move32
 (
-ImmWord
+Imm32
 (
 kTableSize
 -
@@ -5833,7 +5833,7 @@ global
 )
 masm
 .
-mov
+movePtr
 (
 ImmWord
 (
@@ -6700,7 +6700,7 @@ it
 .
 masm
 .
-mov
+movePtr
 (
 StackPointer
 temp2
@@ -7720,7 +7720,7 @@ and
 )
 masm
 .
-mov
+move32
 (
 current_character
 temp0
@@ -7950,7 +7950,7 @@ char
 .
 masm
 .
-mov
+movePtr
 (
 ImmPtr
 (
@@ -8066,7 +8066,7 @@ char
 .
 masm
 .
-mov
+movePtr
 (
 ImmPtr
 (
@@ -8190,7 +8190,7 @@ of
 .
 masm
 .
-mov
+move32
 (
 current_character
 temp0
