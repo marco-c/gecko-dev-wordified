@@ -1029,7 +1029,7 @@ call
 *
 /
 function
-safeCallback
+makeSafe
 (
 aCallback
 )
@@ -1046,10 +1046,10 @@ aArgs
 try
 {
 aCallback
-.
-apply
 (
-null
+.
+.
+.
 aArgs
 )
 ;
@@ -6921,7 +6921,7 @@ asyncMap
 (
 addonList
 getRepositoryAddon
-safeCallback
+makeSafe
 (
 aCallback
 )
@@ -6946,7 +6946,7 @@ failed
 e
 )
 ;
-safeCallback
+makeSafe
 (
 aCallback
 )
@@ -7043,7 +7043,7 @@ _findAddon
 addonDB
 aFilter
 )
-safeCallback
+makeSafe
 (
 aCallback
 )
@@ -7068,7 +7068,7 @@ failed
 e
 )
 ;
-safeCallback
+makeSafe
 (
 aCallback
 )
@@ -7247,7 +7247,7 @@ aLocation
 +
 aId
 )
-safeCallback
+makeSafe
 (
 aCallback
 )

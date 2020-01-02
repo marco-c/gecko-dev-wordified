@@ -13363,6 +13363,17 @@ UPDATE_STATUS_SECURITY_ERROR
 5
 /
 /
+The
+update
+was
+cancelled
+.
+UPDATE_STATUS_CANCELLED
+:
+-
+6
+/
+/
 Constants
 to
 indicate
