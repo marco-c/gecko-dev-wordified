@@ -173,7 +173,7 @@ String
 LOGTAG
 =
 "
-MediaCastingBar
+GeckoMediaCastingBar
 "
 ;
 private
