@@ -809,6 +809,12 @@ ImageURL
 aURI
 )
 ;
+nsresult
+GetImageErrorCode
+(
+void
+)
+;
 private
 :
 friend
@@ -1461,6 +1467,9 @@ CORS_NONE
 .
 int32_t
 mCORSMode
+;
+nsresult
+mImageErrorCode
 ;
 /
 /
