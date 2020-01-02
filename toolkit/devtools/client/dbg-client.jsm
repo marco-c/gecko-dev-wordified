@@ -8211,7 +8211,7 @@ to
 paused
 state
 .
-self
+this
 .
 _state
 =
