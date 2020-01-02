@@ -5034,8 +5034,9 @@ has
 no
 uses
 .
-JS_ASSERT
+JS_ASSERT_IF
 (
+forLSRA
 inputOf
 (
 *
