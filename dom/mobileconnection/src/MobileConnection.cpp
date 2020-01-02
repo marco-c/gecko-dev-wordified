@@ -753,9 +753,14 @@ nsIPermissionManager
 >
 permMgr
 =
-do_GetService
+mozilla
+:
+:
+services
+:
+:
+GetPermissionManager
 (
-NS_PERMISSIONMANAGER_CONTRACTID
 )
 ;
 NS_ENSURE_TRUE

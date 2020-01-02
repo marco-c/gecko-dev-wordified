@@ -6984,9 +6984,11 @@ nsIPermissionManager
 >
 permissionManagerIface
 =
-do_GetService
+services
+:
+:
+GetPermissionManager
 (
-NS_PERMISSIONMANAGER_CONTRACTID
 )
 ;
 nsPermissionManager

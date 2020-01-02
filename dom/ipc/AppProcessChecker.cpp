@@ -1211,9 +1211,11 @@ nsIPermissionManager
 >
 pm
 =
-do_GetService
+services
+:
+:
+GetPermissionManager
 (
-NS_PERMISSIONMANAGER_CONTRACTID
 )
 ;
 NS_ENSURE_TRUE
