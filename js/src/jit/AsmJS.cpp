@@ -36772,6 +36772,13 @@ outerpc
 -
 >
 blockidGen
+/
+*
+blockScopeDepth
+=
+*
+/
+0
 )
 ;
 if
