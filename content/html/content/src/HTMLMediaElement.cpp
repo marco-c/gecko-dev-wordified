@@ -18833,6 +18833,11 @@ mDecoder
 >
 UpdateSameOriginStatus
 (
+!
+principal
+|
+|
+(
 NS_SUCCEEDED
 (
 NodePrincipal
@@ -18850,6 +18855,7 @@ subsumes
 &
 &
 subsumes
+)
 )
 ;
 for
