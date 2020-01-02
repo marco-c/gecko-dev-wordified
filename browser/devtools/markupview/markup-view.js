@@ -1331,6 +1331,7 @@ this
 .
 _hideBoxModel
 (
+true
 )
 ;
 if
@@ -1393,6 +1394,7 @@ _hideBoxModel
 :
 function
 (
+forceHide
 )
 {
 this
@@ -1405,6 +1407,7 @@ highlighterUtils
 .
 unhighlight
 (
+forceHide
 )
 ;
 }
