@@ -900,6 +900,7 @@ FindUpdate
 manifestURI
 mAppId
 mIsInBrowserElement
+nullptr
 getter_AddRefs
 (
 update

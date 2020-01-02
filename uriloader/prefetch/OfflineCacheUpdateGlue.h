@@ -585,6 +585,9 @@ nsOfflineCacheUpdate
 >
 mUpdate
 ;
+bool
+mCoalesced
+;
 /
 *
 Document

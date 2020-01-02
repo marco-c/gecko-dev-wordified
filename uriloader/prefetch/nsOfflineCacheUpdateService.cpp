@@ -3185,6 +3185,9 @@ uint32_t
 aAppID
 bool
 aInBrowser
+nsIFile
+*
+aCustomProfileDir
 nsOfflineCacheUpdate
 *
 *
@@ -3312,6 +3315,15 @@ update
 IsForGroupID
 (
 groupID
+)
+&
+&
+update
+-
+>
+IsForProfile
+(
+aCustomProfileDir
 )
 )
 {
