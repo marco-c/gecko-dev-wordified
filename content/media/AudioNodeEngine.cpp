@@ -980,8 +980,9 @@ aScale
 AudioBufferInPlaceScale
 (
 aBlock
-aChannelCount
 aScale
+aChannelCount
+*
 WEBAUDIO_BLOCK_SIZE
 )
 ;
@@ -992,8 +993,6 @@ AudioBufferInPlaceScale
 float
 *
 aBlock
-uint32_t
-aChannelCount
 float
 aScale
 uint32_t
@@ -1029,7 +1028,6 @@ supports_neon
 AudioBufferInPlaceScale_NEON
 (
 aBlock
-aChannelCount
 aScale
 aSize
 )
@@ -1049,8 +1047,6 @@ i
 i
 <
 aSize
-*
-aChannelCount
 ;
 +
 +

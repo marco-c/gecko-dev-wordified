@@ -879,8 +879,6 @@ AudioBufferInPlaceScale
 float
 *
 aBlock
-uint32_t
-aChannelCount
 float
 aScale
 uint32_t

@@ -1301,7 +1301,6 @@ minusOne
 AudioBufferInPlaceScale
 (
 imagP
-1
 minusOne
 halfSize
 )
@@ -1577,7 +1576,6 @@ scale
 AudioBufferInPlaceScale
 (
 data
-1
 normalizationScale
 m_periodicWaveSize
 )
