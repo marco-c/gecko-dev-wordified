@@ -693,6 +693,9 @@ aLineStartPosition
 SingleLineCrossAxisPositionTracker
 &
 aLineCrossAxisPosnTracker
+FlexLine
+&
+aLine
 FlexItem
 &
 aItem
