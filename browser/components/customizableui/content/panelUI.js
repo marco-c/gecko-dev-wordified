@@ -1082,6 +1082,16 @@ dispatchEvent
 evt
 )
 ;
+if
+(
+evt
+.
+defaultPrevented
+)
+{
+return
+;
+}
 let
 tempPanel
 =
