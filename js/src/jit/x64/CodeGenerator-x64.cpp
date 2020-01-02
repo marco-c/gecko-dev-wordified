@@ -454,7 +454,7 @@ MIRType_Float32
 {
 masm
 .
-convertFloatToDouble
+convertFloat32ToDouble
 (
 reg
 ScratchFloatReg
@@ -2811,7 +2811,7 @@ TYPE_FLOAT32
 :
 masm
 .
-loadFloat
+loadFloat32
 (
 srcAddr
 ToFloatRegister
@@ -3313,7 +3313,7 @@ TYPE_FLOAT32
 :
 masm
 .
-storeFloat
+storeFloat32
 (
 ToFloatRegister
 (

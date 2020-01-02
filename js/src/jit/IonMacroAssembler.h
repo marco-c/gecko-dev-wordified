@@ -2428,7 +2428,7 @@ type
 MIRType_Float32
 )
 {
-convertFloatToDouble
+convertFloat32ToDouble
 (
 reg
 ScratchFloatReg
@@ -3510,7 +3510,7 @@ type
 MIRType_Float32
 )
 {
-convertFloatToDouble
+convertFloat32ToDouble
 (
 reg
 ScratchFloatReg

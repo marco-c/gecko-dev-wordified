@@ -2587,7 +2587,7 @@ dest
 ;
 }
 void
-convertFloatToDouble
+convertFloat32ToDouble
 (
 const
 FloatRegister
@@ -2607,7 +2607,7 @@ dest
 ;
 }
 void
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 const
 FloatRegister
@@ -2709,7 +2709,7 @@ FloatRegister
 dest
 )
 {
-loadFloat
+loadFloat32
 (
 src
 dest
@@ -2723,7 +2723,7 @@ dest
 ;
 }
 void
-loadFloat
+loadFloat32
 (
 const
 Address
@@ -2741,7 +2741,7 @@ dest
 ;
 }
 void
-loadFloat
+loadFloat32
 (
 const
 BaseIndex
@@ -2759,7 +2759,7 @@ dest
 ;
 }
 void
-loadFloat
+loadFloat32
 (
 const
 Operand
@@ -2784,7 +2784,7 @@ Operand
 :
 MEM_REG_DISP
 :
-loadFloat
+loadFloat32
 (
 src
 .
@@ -2802,7 +2802,7 @@ Operand
 :
 MEM_SCALE
 :
-loadFloat
+loadFloat32
 (
 src
 .
@@ -2828,7 +2828,7 @@ kind
 }
 }
 void
-storeFloat
+storeFloat32
 (
 FloatRegister
 src
@@ -2846,7 +2846,7 @@ dest
 ;
 }
 void
-storeFloat
+storeFloat32
 (
 FloatRegister
 src
@@ -2864,7 +2864,7 @@ dest
 ;
 }
 void
-storeFloat
+storeFloat32
 (
 FloatRegister
 src
@@ -2889,7 +2889,7 @@ Operand
 :
 MEM_REG_DISP
 :
-storeFloat
+storeFloat32
 (
 src
 dest
@@ -2907,7 +2907,7 @@ Operand
 :
 MEM_SCALE
 :
-storeFloat
+storeFloat32
 (
 src
 dest
@@ -2933,7 +2933,7 @@ kind
 }
 }
 void
-moveFloat
+moveFloat32
 (
 FloatRegister
 src

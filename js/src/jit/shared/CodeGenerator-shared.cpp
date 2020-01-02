@@ -5216,7 +5216,7 @@ src
 ;
 masm
 .
-convertFloatToDouble
+convertFloat32ToDouble
 (
 src
 src
