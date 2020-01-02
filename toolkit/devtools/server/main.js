@@ -3114,7 +3114,7 @@ connections
 *
 *
 param
-aPortOrPath
+portOrPath
 int
 string
 *
@@ -3147,9 +3147,8 @@ on
 openListener
 :
 function
-DS_openListener
 (
-aPortOrPath
+portOrPath
 )
 {
 if
@@ -3272,7 +3271,7 @@ port
 =
 Number
 (
-aPortOrPath
+portOrPath
 )
 ;
 if
@@ -3298,7 +3297,7 @@ file
 =
 nsFile
 (
-aPortOrPath
+portOrPath
 )
 ;
 if
@@ -3364,7 +3363,7 @@ on
 '
 "
 +
-aPortOrPath
+portOrPath
 +
 "
 '
@@ -3405,7 +3404,7 @@ listener
 *
 *
 param
-aForce
+force
 boolean
 [
 optional
@@ -3435,9 +3434,8 @@ connections
 closeListener
 :
 function
-DS_closeListener
 (
-aForce
+force
 )
 {
 if
@@ -3477,7 +3475,7 @@ if
 the
 /
 /
-aForce
+force
 flag
 is
 passed
@@ -3494,7 +3492,7 @@ _socketConnections
 0
 |
 |
-aForce
+force
 )
 {
 this
