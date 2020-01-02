@@ -133,6 +133,10 @@ files
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 math
 import
@@ -518,6 +522,7 @@ stfu
 :
         
 print
+(
 '
 Runs
 :
@@ -532,15 +537,19 @@ ms
 in
 milliseconds
 ]
+)
         
 print
+(
 '
 Mean
 :
 '
 mean
+)
         
 print
+(
 '
 Stddev
 :
@@ -565,6 +574,7 @@ sigma
 mean
 *
 100
+)
 )
     
 return
@@ -640,6 +650,7 @@ stfu
 :
             
 print
+(
 '
 Parsemarking
 %
@@ -650,6 +661,7 @@ s
 '
 %
 filename
+)
         
 bench_map
 [
@@ -662,9 +674,11 @@ filepath
 )
     
 print
+(
 '
 {
 '
+)
     
 for
 i
@@ -750,6 +764,7 @@ s
 filename
         
 print
+(
 fmt
 %
 (
@@ -757,11 +772,14 @@ filename_str
 avg
 stddev
 )
+)
     
 print
+(
 '
 }
 '
+)
     
 return
 dict
@@ -1053,19 +1071,23 @@ print_help
 )
         
 print
+(
+)
         
 print
->
->
-sys
-.
-stderr
+(
 '
 error
 :
 shellpath
 required
 '
+file
+=
+sys
+.
+stderr
+)
         
 return
 -
@@ -1094,19 +1116,23 @@ print_help
 )
         
 print
+(
+)
         
 print
->
->
-sys
-.
-stderr
+(
 '
 error
 :
 dirpath
 required
 '
+file
+=
+sys
+.
+stderr
+)
         
 return
 -
@@ -1128,11 +1154,7 @@ shellpath
 :
         
 print
->
->
-sys
-.
-stderr
+(
 '
 error
 :
@@ -1143,6 +1165,12 @@ shell
 :
 '
 shellpath
+file
+=
+sys
+.
+stderr
+)
         
 return
 -
@@ -1169,11 +1197,7 @@ baseline_path
 :
             
 print
->
->
-sys
-.
-stderr
+(
 '
 error
 :
@@ -1183,6 +1207,12 @@ does
 not
 exist
 '
+file
+=
+sys
+.
+stderr
+)
             
 return
 -
@@ -1194,11 +1224,7 @@ compare_bench
 :
             
 print
->
->
-sys
-.
-stderr
+(
 '
 error
 :
@@ -1210,6 +1236,12 @@ cannot
 compare
 benchmarks
 '
+file
+=
+sys
+.
+stderr
+)
             
 return
 -

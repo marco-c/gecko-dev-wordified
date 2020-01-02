@@ -14,6 +14,10 @@ collect
 model
 .
 from
+__future__
+import
+print_function
+from
 threading
 import
 Thread
@@ -145,7 +149,9 @@ self
 .
 verbose
 :
+            
 print
+(
 '
 [
 P
@@ -154,6 +160,7 @@ Starting
 workers
 .
 '
+)
         
 for
 w
@@ -188,7 +195,9 @@ self
 .
 verbose
 :
+            
 print
+(
 '
 [
 P
@@ -196,6 +205,7 @@ P
 Finished
 .
 '
+)
         
 return
 ans
@@ -428,6 +438,7 @@ dd
 microseconds
             
 print
+(
 '
 [
 W
@@ -447,6 +458,7 @@ self
 id
 dt
 msg
+)
 )
     
 def

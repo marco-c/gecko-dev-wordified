@@ -16,11 +16,12 @@ parsing
 JS
 manifests
 .
+from
+__future__
+import
+print_function
 import
 os
-os
-.
-path
 re
 sys
 from
@@ -1444,6 +1445,7 @@ else
 :
             
 print
+(
 '
 warning
 :
@@ -1461,6 +1463,7 @@ parts
 [
 pos
 ]
+)
             
 pos
 +
