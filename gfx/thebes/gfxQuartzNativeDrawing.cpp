@@ -275,7 +275,10 @@ GetType
 )
 =
 =
-BACKEND_COREGRAPHICS
+BackendType
+:
+:
+COREGRAPHICS
 )
 {
 if
@@ -327,7 +330,10 @@ Factory
 :
 CreateDrawTarget
 (
-BACKEND_COREGRAPHICS
+BackendType
+:
+:
+COREGRAPHICS
 backingSize
 SurfaceFormat
 :

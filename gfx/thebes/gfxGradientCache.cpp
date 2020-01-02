@@ -296,10 +296,13 @@ hash
 AddToHash
 (
 hash
+int
+(
 aKey
 -
 >
 mBackendType
+)
 )
 ;
 hash

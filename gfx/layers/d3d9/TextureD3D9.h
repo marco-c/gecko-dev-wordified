@@ -2950,7 +2950,10 @@ return
 gfx
 :
 :
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 ;
 }
 virtual
@@ -3149,7 +3152,10 @@ return
 gfx
 :
 :
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 ;
 }
 virtual

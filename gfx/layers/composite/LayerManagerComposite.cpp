@@ -4275,7 +4275,10 @@ Factory
 :
 CreateDrawTarget
 (
-BACKEND_COREGRAPHICS_ACCELERATED
+BackendType
+:
+:
+COREGRAPHICS_ACCELERATED
 aSize
 aFormat
 )

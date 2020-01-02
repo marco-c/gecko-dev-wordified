@@ -354,7 +354,10 @@ Paths
 will
 always
 return
-BACKEND_COREGRAPHICS
+BackendType
+:
+:
+COREGRAPHICS
 but
 note
 that
@@ -364,7 +367,10 @@ they
 are
 compatible
 with
-BACKEND_COREGRAPHICS_ACCELERATED
+BackendType
+:
+:
+COREGRAPHICS_ACCELERATED
 backend
 .
 virtual
@@ -375,7 +381,10 @@ GetBackendType
 const
 {
 return
-BACKEND_COREGRAPHICS
+BackendType
+:
+:
+COREGRAPHICS
 ;
 }
 virtual

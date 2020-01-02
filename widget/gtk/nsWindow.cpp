@@ -11450,7 +11450,10 @@ GetPlatform
 >
 SupportsAzureContentForType
 (
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 )
 )
 {
@@ -11509,7 +11512,10 @@ GetPlatform
 >
 SupportsAzureContentForType
 (
-BACKEND_SKIA
+BackendType
+:
+:
+SKIA
 )
 &
 &

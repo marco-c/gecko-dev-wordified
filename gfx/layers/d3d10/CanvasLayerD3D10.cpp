@@ -509,7 +509,10 @@ mDrawTarget
 >
 GetNativeSurface
 (
-NATIVE_SURFACE_D3D10_TEXTURE
+NativeSurfaceType
+:
+:
+D3D10_TEXTURE
 )
 ;
 if
@@ -1057,7 +1060,10 @@ Factory
 :
 CreateDrawTargetForData
 (
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 (
 uint8_t
 *

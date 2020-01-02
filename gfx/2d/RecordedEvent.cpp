@@ -145,7 +145,10 @@ aType
 )
 {
 case
-BACKEND_NONE
+BackendType
+:
+:
+NONE
 :
 return
 "
@@ -153,7 +156,10 @@ None
 "
 ;
 case
-BACKEND_DIRECT2D
+BackendType
+:
+:
+DIRECT2D
 :
 return
 "

@@ -144,7 +144,10 @@ Factory
 :
 CreateDrawTarget
 (
-BACKEND_DIRECT2D
+BackendType
+:
+:
+DIRECT2D
 IntSize
 (
 DT_WIDTH

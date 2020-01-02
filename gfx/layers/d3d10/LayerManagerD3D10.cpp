@@ -2724,7 +2724,10 @@ GetPreferredCanvasBackend
 )
 !
 =
-BACKEND_DIRECT2D
+BackendType
+:
+:
+DIRECT2D
 )
 {
 return

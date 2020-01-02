@@ -307,7 +307,10 @@ GetBackendType
 const
 {
 return
-BACKEND_SKIA
+BackendType
+:
+:
+SKIA
 ;
 }
 virtual

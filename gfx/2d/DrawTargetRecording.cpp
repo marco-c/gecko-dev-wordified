@@ -314,7 +314,10 @@ GetBackendType
 const
 {
 return
-BACKEND_RECORDING
+BackendType
+:
+:
+RECORDING
 ;
 }
 RefPtr
@@ -395,7 +398,10 @@ GetBackendType
 )
 !
 =
-BACKEND_RECORDING
+BackendType
+:
+:
+RECORDING
 )
 {
 return
@@ -1454,7 +1460,10 @@ GetBackendType
 )
 !
 =
-BACKEND_RECORDING
+BackendType
+:
+:
+RECORDING
 )
 {
 return
@@ -3246,7 +3255,10 @@ GetBackendType
 )
 !
 =
-BACKEND_RECORDING
+BackendType
+:
+:
+RECORDING
 )
 {
 gfxWarning

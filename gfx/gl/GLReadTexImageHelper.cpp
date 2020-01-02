@@ -2338,7 +2338,10 @@ Factory
 :
 CreateDrawTargetForData
 (
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 temp
 -
 >

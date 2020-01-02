@@ -1495,7 +1495,10 @@ GetType
 )
 !
 =
-BACKEND_DIRECT2D
+BackendType
+:
+:
+DIRECT2D
 )
 {
 return
@@ -1585,7 +1588,10 @@ if
 aBackendType
 !
 =
-BACKEND_DIRECT2D
+BackendType
+:
+:
+DIRECT2D
 )
 {
 ScaledFontBase

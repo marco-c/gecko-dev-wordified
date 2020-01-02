@@ -1266,7 +1266,10 @@ mozilla
 gfx
 :
 :
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 |
 |
 mContext

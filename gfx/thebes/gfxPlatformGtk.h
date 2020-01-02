@@ -474,7 +474,10 @@ mozilla
 gfx
 :
 :
-BACKEND_NONE
+BackendType
+:
+:
+NONE
 &
 &
 GetContentBackend
@@ -488,7 +491,10 @@ mozilla
 gfx
 :
 :
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 )
 return
 false

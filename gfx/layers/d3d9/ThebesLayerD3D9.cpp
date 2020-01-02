@@ -3001,7 +3001,10 @@ GetPlatform
 >
 SupportsAzureContentForType
 (
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 )
 )
 {
