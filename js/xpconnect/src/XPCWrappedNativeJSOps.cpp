@@ -4450,10 +4450,6 @@ lookupElement
 nullptr
 /
 /
-lookupSpecial
-nullptr
-/
-/
 defineGeneric
 nullptr
 /
@@ -4463,10 +4459,6 @@ nullptr
 /
 /
 defineElement
-nullptr
-/
-/
-defineSpecial
 nullptr
 /
 /
@@ -4482,10 +4474,6 @@ getElement
 nullptr
 /
 /
-getSpecial
-nullptr
-/
-/
 setGeneric
 nullptr
 /
@@ -4495,10 +4483,6 @@ nullptr
 /
 /
 setElement
-nullptr
-/
-/
-setSpecial
 nullptr
 /
 /
@@ -4515,10 +4499,6 @@ nullptr
 /
 /
 deleteElement
-nullptr
-/
-/
-deleteSpecial
 nullptr
 nullptr
 /
