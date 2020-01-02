@@ -172,7 +172,7 @@ mozilla
 /
 dom
 /
-CryptoKey
+Key
 .
 h
 "
@@ -491,7 +491,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-CryptoKey
+Key
 &
 aKey
 const
@@ -514,7 +514,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-CryptoKey
+Key
 &
 aKey
 const
@@ -543,7 +543,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-CryptoKey
+Key
 &
 aKey
 const
@@ -575,7 +575,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-CryptoKey
+Key
 &
 aKey
 const
@@ -607,7 +607,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-CryptoKey
+Key
 &
 aKey
 const
@@ -650,7 +650,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-CryptoKey
+Key
 &
 aKey
 const
@@ -733,7 +733,7 @@ const
 nsAString
 &
 aFormat
-CryptoKey
+Key
 &
 aKey
 )
@@ -773,7 +773,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-CryptoKey
+Key
 &
 aBaseKey
 const
@@ -803,7 +803,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-CryptoKey
+Key
 &
 aKey
 uint32_t

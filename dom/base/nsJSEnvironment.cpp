@@ -485,7 +485,7 @@ mozilla
 /
 dom
 /
-CryptoKey
+Key
 .
 h
 "
@@ -15233,12 +15233,12 @@ cx
 {
 nsRefPtr
 <
-CryptoKey
+Key
 >
 key
 =
 new
-CryptoKey
+Key
 (
 global
 )
@@ -15462,7 +15462,7 @@ arrayValue
 Handle
 Key
 cloning
-CryptoKey
+Key
 *
 key
 ;
@@ -15472,7 +15472,7 @@ NS_SUCCEEDED
 (
 UNWRAP_OBJECT
 (
-CryptoKey
+Key
 obj
 key
 )

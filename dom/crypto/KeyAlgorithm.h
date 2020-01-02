@@ -182,7 +182,7 @@ namespace
 dom
 {
 class
-CryptoKey
+Key
 ;
 class
 KeyAlgorithm
