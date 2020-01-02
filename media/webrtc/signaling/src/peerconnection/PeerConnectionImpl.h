@@ -1345,7 +1345,7 @@ Initialize
 PeerConnectionObserver
 &
 aObserver
-nsGlobalWindow
+nsIDOMWindow
 *
 aWindow
 const
@@ -1387,8 +1387,8 @@ Initialize
 PeerConnectionObserver
 &
 aObserver
-nsGlobalWindow
-&
+nsIDOMWindow
+*
 aWindow
 const
 RTCConfiguration
@@ -1408,7 +1408,6 @@ r
 Initialize
 (
 aObserver
-&
 aWindow
 nullptr
 &
@@ -2260,7 +2259,7 @@ Initialize
 PeerConnectionObserver
 &
 aObserver
-nsGlobalWindow
+nsIDOMWindow
 *
 aWindow
 const

@@ -918,7 +918,7 @@ if
 win
 -
 >
-Length
+GetLength
 (
 )
 >

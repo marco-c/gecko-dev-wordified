@@ -319,7 +319,7 @@ void
 MessagePort
 :
 :
-PostMessageMoz
+PostMessage
 (
 JSContext
 *

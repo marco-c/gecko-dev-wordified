@@ -238,6 +238,7 @@ try
 {
 setTimeout
 (
+2
 )
 ;
 }

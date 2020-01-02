@@ -235,16 +235,7 @@ else
 expect
 =
 /
-TypeError
-:
-Not
-enough
-arguments
-to
-Window
-.
-showModalDialog
-.
+NS_ERROR_XPC_NOT_ENOUGH_ARGS
 /
 ;
 window

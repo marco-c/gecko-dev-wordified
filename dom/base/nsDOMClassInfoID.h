@@ -498,14 +498,6 @@ nsDOMEventBase
 11
 _extra
 )
-\
-DOMCI_CASTABLE_INTERFACE
-(
-nsGlobalWindow
-nsIDOMEventTarget
-12
-_extra
-)
 /
 /
 Make
