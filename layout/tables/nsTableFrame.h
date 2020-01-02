@@ -1991,7 +1991,7 @@ functions
 .
 virtual
 nscoord
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -2001,7 +2001,7 @@ MOZ_OVERRIDE
 ;
 virtual
 nscoord
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -2079,7 +2079,7 @@ calls
 a
 different
 *
-GetPrefWidth
+GetPrefISize
 since
 tables
 have

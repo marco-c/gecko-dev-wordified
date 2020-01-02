@@ -218,7 +218,7 @@ nscoord
 FixedTableLayoutStrategy
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -319,7 +319,7 @@ with
 the
 use
 of
-GetMinWidth
+GetMinISize
 by
 /
 /
@@ -942,7 +942,7 @@ nscoord
 FixedTableLayoutStrategy
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -1854,7 +1854,7 @@ symmetry
 /
 /
 with
-GetMinWidth
+GetMinISize
 above
 just
 in

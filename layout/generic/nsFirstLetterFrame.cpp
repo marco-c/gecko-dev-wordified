@@ -746,7 +746,7 @@ nscoord
 nsFirstLetterFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -783,7 +783,7 @@ nscoord
 nsFirstLetterFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

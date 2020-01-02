@@ -698,7 +698,7 @@ nscoord
 nsHTMLButtonControlFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -760,7 +760,7 @@ nscoord
 nsHTMLButtonControlFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -1489,7 +1489,7 @@ left
 nscoord
 extrawidth
 =
-GetMinWidth
+GetMinISize
 (
 aButtonReflowState
 .

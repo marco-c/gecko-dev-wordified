@@ -654,7 +654,7 @@ nscoord
 nsLeafBoxFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -769,7 +769,7 @@ nscoord
 nsLeafBoxFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

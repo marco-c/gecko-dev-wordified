@@ -172,7 +172,7 @@ Implement
 nsIFrame
 :
 :
-GetMinWidth
+GetMinISize
 for
 the
 table
@@ -180,7 +180,7 @@ table
 /
 virtual
 nscoord
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -196,7 +196,7 @@ Implement
 nsIFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 for
 the
 table
@@ -204,7 +204,7 @@ table
 /
 virtual
 nscoord
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

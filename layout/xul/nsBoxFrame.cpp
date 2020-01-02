@@ -3330,7 +3330,7 @@ nscoord
 nsBoxFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -3456,7 +3456,7 @@ nscoord
 nsBoxFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

@@ -671,7 +671,7 @@ nscoord
 nsHTMLCanvasFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -737,7 +737,7 @@ nscoord
 nsHTMLCanvasFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

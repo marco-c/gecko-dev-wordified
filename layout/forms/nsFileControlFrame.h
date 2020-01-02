@@ -234,7 +234,7 @@ MOZ_OVERRIDE
 ;
 virtual
 nscoord
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *

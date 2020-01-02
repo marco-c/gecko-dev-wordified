@@ -2508,7 +2508,7 @@ nscoord
 nsTextControlFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -2560,7 +2560,7 @@ nscoord
 nsTextControlFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -2594,7 +2594,7 @@ result
 ;
 result
 =
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )

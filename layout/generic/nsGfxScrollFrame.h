@@ -3001,7 +3001,7 @@ aRadii
 }
 virtual
 nscoord
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -3011,7 +3011,7 @@ MOZ_OVERRIDE
 ;
 virtual
 nscoord
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -4584,7 +4584,7 @@ if
 0
 virtual
 nscoord
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *

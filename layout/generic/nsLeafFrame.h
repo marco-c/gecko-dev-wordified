@@ -240,9 +240,9 @@ aLists
 *
 *
 Both
-GetMinWidth
+GetMinISize
 and
-GetPrefWidth
+GetPrefISize
 will
 return
 whatever
@@ -254,7 +254,7 @@ returns
 /
 virtual
 nscoord
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -264,7 +264,7 @@ MOZ_OVERRIDE
 ;
 virtual
 nscoord
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

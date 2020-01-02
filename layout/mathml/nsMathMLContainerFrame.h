@@ -738,9 +738,9 @@ MOZ_OVERRIDE
 *
 *
 Both
-GetMinWidth
+GetMinISize
 and
-GetPrefWidth
+GetPrefISize
 use
 the
 intrinsic
@@ -758,7 +758,7 @@ overflow
 /
 virtual
 nscoord
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -768,7 +768,7 @@ MOZ_OVERRIDE
 ;
 virtual
 nscoord
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -2348,7 +2348,7 @@ Stretch
 (
 )
 and
-GetPrefWidth
+GetPrefISize
 (
 )
 .

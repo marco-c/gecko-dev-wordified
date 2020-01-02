@@ -4855,7 +4855,7 @@ nscoord
 nsHTMLScrollFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -4870,7 +4870,7 @@ mHelper
 mScrolledFrame
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -4899,7 +4899,7 @@ nscoord
 nsHTMLScrollFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -4914,7 +4914,7 @@ mHelper
 mScrolledFrame
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )

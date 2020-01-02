@@ -9877,7 +9877,7 @@ nscoord
 nsTableFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -9905,7 +9905,7 @@ LayoutStrategy
 )
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -9920,7 +9920,7 @@ nscoord
 nsTableFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -9948,7 +9948,7 @@ LayoutStrategy
 )
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 false
@@ -10129,7 +10129,7 @@ width
 nscoord
 minWidth
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -10204,7 +10204,7 @@ result
 nscoord
 minWidth
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -10288,7 +10288,7 @@ we
 ve
 already
 called
-GetMinWidth
+GetMinISize
 we
 don
 '
@@ -10303,7 +10303,7 @@ of
 the
 other
 stuff
-GetPrefWidth
+GetPrefISize
 does
 .
 nscoord
@@ -10314,7 +10314,7 @@ LayoutStrategy
 )
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 true
@@ -11162,10 +11162,10 @@ calculation
 is
 done
 using
-GetMinWidth
+GetMinISize
 *
 and
-GetPrefWidth
+GetPrefISize
 .
 This
 used
@@ -24697,7 +24697,7 @@ as
 FixedTableLayoutStrategy
 :
 :
-GetPrefWidth
+GetPrefISize
 returns
 /
 /

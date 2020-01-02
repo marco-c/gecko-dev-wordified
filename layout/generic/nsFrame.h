@@ -1639,7 +1639,7 @@ MOZ_OVERRIDE
 ;
 virtual
 nscoord
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -1649,7 +1649,7 @@ MOZ_OVERRIDE
 ;
 virtual
 nscoord
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -1945,13 +1945,13 @@ Return
 *
 max
 (
-GetMinWidth
+GetMinISize
 (
 )
 min
 (
 aWidthInCB
-GetPrefWidth
+GetPrefISize
 (
 )
 )

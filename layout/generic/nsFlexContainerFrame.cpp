@@ -10446,7 +10446,7 @@ Frame
 )
 -
 >
-GetMinWidth
+GetMinISize
 (
 rctx
 )
@@ -28988,7 +28988,7 @@ nscoord
 nsFlexContainerFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -29172,7 +29172,7 @@ nscoord
 nsFlexContainerFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

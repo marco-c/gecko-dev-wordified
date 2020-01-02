@@ -3950,7 +3950,7 @@ nscoord
 nsSubDocumentFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -3984,7 +3984,7 @@ result
 subDocRoot
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -4012,7 +4012,7 @@ nscoord
 nsSubDocumentFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -4046,7 +4046,7 @@ result
 subDocRoot
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )

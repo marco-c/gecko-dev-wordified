@@ -3945,7 +3945,7 @@ nscoord
 nsBulletFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -4006,7 +4006,7 @@ nscoord
 nsBulletFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

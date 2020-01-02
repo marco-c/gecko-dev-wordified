@@ -8693,7 +8693,7 @@ Implement
 nsIFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 in
 terms
 of
@@ -8719,7 +8719,7 @@ Implement
 nsIFrame
 :
 :
-GetMinWidth
+GetMinISize
 in
 terms
 of

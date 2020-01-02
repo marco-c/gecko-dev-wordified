@@ -25131,7 +25131,7 @@ nscoord
 nsFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -25162,7 +25162,7 @@ nscoord
 nsFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -28058,7 +28058,7 @@ result
 nscoord
 minWidth
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -28080,7 +28080,7 @@ else
 nscoord
 prefWidth
 =
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )
@@ -52663,7 +52663,7 @@ mBlockPrefSize
 .
 width
 =
-GetPrefWidth
+GetPrefISize
 (
 rendContext
 )
@@ -52681,7 +52681,7 @@ mBlockMinSize
 .
 width
 =
-GetMinWidth
+GetMinISize
 (
 rendContext
 )

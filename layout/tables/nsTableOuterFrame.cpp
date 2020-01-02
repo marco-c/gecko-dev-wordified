@@ -488,7 +488,7 @@ result
 .
 width
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -586,7 +586,7 @@ harder
 nscoord
 min
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -2390,7 +2390,7 @@ nscoord
 nsTableOuterFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -2492,7 +2492,7 @@ nscoord
 nsTableOuterFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -3032,11 +3032,11 @@ not
 reflected
 in
 our
-GetMinWidth
+GetMinISize
 and
 /
 /
-GetPrefWidth
+GetPrefISize
 .
 See
 bug

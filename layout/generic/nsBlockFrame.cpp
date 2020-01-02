@@ -4063,7 +4063,7 @@ nscoord
 nsBlockFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -4089,7 +4089,7 @@ return
 firstInFlow
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -4137,7 +4137,7 @@ printf
 (
 "
 :
-GetMinWidth
+GetMinISize
 \
 n
 "
@@ -4616,7 +4616,7 @@ nscoord
 nsBlockFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -4642,7 +4642,7 @@ return
 firstInFlow
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )
@@ -4690,7 +4690,7 @@ printf
 (
 "
 :
-GetPrefWidth
+GetPrefISize
 \
 n
 "

@@ -23716,7 +23716,7 @@ aResult
 aFrame
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )
@@ -23727,7 +23727,7 @@ aResult
 aFrame
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -24468,7 +24468,7 @@ result
 aFrame
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -24479,7 +24479,7 @@ result
 aFrame
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )
@@ -25117,7 +25117,7 @@ min
 aFrame
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -26210,7 +26210,7 @@ result
 aFrame
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )
@@ -26239,7 +26239,7 @@ result
 aFrame
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -26270,7 +26270,7 @@ pref
 aFrame
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )
@@ -26279,7 +26279,7 @@ min
 aFrame
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )

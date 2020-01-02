@@ -1769,7 +1769,7 @@ nscoord
 nsFieldSetFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -1806,7 +1806,7 @@ nscoord
 nsFieldSetFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -1930,7 +1930,7 @@ this
 nscoord
 minWidth
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )

@@ -1405,7 +1405,7 @@ nscoord
 nsMeterFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -1496,7 +1496,7 @@ nscoord
 nsMeterFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -1504,7 +1504,7 @@ aRenderingContext
 )
 {
 return
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )

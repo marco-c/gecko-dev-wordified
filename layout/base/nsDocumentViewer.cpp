@@ -18918,7 +18918,7 @@ prefWidth
 root
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 rcx
 )

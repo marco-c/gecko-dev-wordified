@@ -5213,7 +5213,7 @@ nscoord
 nsRangeFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -5279,7 +5279,7 @@ nscoord
 nsRangeFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
