@@ -394,6 +394,11 @@ hadOutOfMemory
 (
 )
 ;
+bool
+profilingScripts
+(
+)
+;
 const
 JSAtomState
 &
