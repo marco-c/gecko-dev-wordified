@@ -115,7 +115,7 @@ loadTab
 "
 about
 :
-credits
+config
 "
 )
 ;
