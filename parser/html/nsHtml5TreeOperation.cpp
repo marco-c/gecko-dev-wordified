@@ -698,7 +698,7 @@ aLength
 nsIContent
 *
 aTextNode
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -842,7 +842,7 @@ aLength
 nsIContent
 *
 aParent
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -974,7 +974,7 @@ aNode
 nsIContent
 *
 aParent
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -1169,7 +1169,7 @@ AppendToDocument
 nsIContent
 *
 aNode
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -1404,7 +1404,7 @@ Detach
 nsIContent
 *
 aNode
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -1505,7 +1505,7 @@ aNode
 nsIContent
 *
 aParent
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -1645,7 +1645,7 @@ aParent
 nsIContent
 *
 aTable
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -1758,7 +1758,7 @@ aNode
 nsHtml5HtmlAttributes
 *
 aAttributes
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -1969,7 +1969,7 @@ nsHtml5HtmlAttributes
 aAttributes
 bool
 aFromNetwork
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -2904,7 +2904,7 @@ AppendIsindexPrompt
 nsIContent
 *
 parent
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -3006,7 +3006,7 @@ aLength
 nsIContent
 *
 aTable
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -3210,7 +3210,7 @@ char16_t
 aBuffer
 int32_t
 aLength
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -3288,7 +3288,7 @@ char16_t
 aBuffer
 int32_t
 aLength
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -3371,7 +3371,7 @@ const
 nsAString
 &
 aSystemId
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
@@ -3547,7 +3547,7 @@ DoneAddingChildren
 nsIContent
 *
 aNode
-nsHtml5TreeOpExecutor
+nsHtml5DocumentBuilder
 *
 aBuilder
 )
