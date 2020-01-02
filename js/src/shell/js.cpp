@@ -19702,6 +19702,14 @@ scriptRelative
 )
 )
 ;
+if
+(
+!
+str
+)
+return
+false
+;
 JSAutoByteString
 filename
 (
