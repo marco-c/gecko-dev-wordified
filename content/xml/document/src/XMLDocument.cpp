@@ -356,13 +356,6 @@ h
 #
 include
 "
-nsIScriptGlobalObjectOwner
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h
