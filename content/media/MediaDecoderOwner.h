@@ -1081,6 +1081,9 @@ ResetConnectionState
 =
 0
 ;
+#
+ifdef
+MOZ_EME
 /
 /
 Dispatches
@@ -1125,6 +1128,8 @@ aInitDataType
 =
 0
 ;
+#
+endif
 }
 ;
 }

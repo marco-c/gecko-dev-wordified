@@ -1679,6 +1679,9 @@ config
 h
 "
 #
+ifdef
+MOZ_EME
+#
 include
 "
 mozilla
@@ -1687,6 +1690,8 @@ CDMProxy
 .
 h
 "
+#
+endif
 class
 nsIStreamListener
 ;
@@ -6251,6 +6256,9 @@ IsLogicallyPlaying
 (
 )
 ;
+#
+ifdef
+MOZ_EME
 /
 /
 This
@@ -6285,6 +6293,8 @@ GetCDMProxy
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 #
 ifdef
 MOZ_RAW
@@ -7811,12 +7821,17 @@ object
 RestrictedAccessMonitor
 mReentrantMonitor
 ;
+#
+ifdef
+MOZ_EME
 nsRefPtr
 <
 CDMProxy
 >
 mProxy
 ;
+#
+endif
 protected
 :
 /

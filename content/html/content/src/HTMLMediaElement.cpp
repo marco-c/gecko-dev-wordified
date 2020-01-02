@@ -15168,6 +15168,9 @@ SetPlaybackRate
 mPlaybackRate
 )
 ;
+#
+ifdef
+MOZ_EME
 if
 (
 mMediaKeys
@@ -15187,6 +15190,8 @@ GetCDMProxy
 )
 ;
 }
+#
+endif
 if
 (
 mPreloadAction

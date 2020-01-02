@@ -8565,6 +8565,9 @@ mPlaybackPosition
 readAheadMargin
 ;
 }
+#
+ifdef
+MOZ_EME
 nsresult
 MediaDecoder
 :
@@ -8646,6 +8649,8 @@ return
 mProxy
 ;
 }
+#
+endif
 #
 ifdef
 MOZ_RAW

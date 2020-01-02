@@ -165,6 +165,9 @@ Preferences
 h
 "
 #
+ifdef
+MOZ_EME
+#
 include
 "
 EMEDecoderModule
@@ -180,6 +183,8 @@ CDMProxy
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -429,6 +434,9 @@ forget
 )
 ;
 }
+#
+ifdef
+MOZ_EME
 /
 *
 static
@@ -579,6 +587,8 @@ CreateTaskQueue
 )
 ;
 }
+#
+endif
 /
 *
 static

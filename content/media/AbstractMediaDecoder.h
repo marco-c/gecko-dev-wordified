@@ -180,9 +180,14 @@ TimedMetadata
 class
 MediaDecoderOwner
 ;
+#
+ifdef
+MOZ_EME
 class
 CDMProxy
 ;
+#
+endif
 typedef
 nsDataHashtable
 <
@@ -1027,6 +1032,9 @@ mDecoded
 ;
 }
 ;
+#
+ifdef
+MOZ_EME
 virtual
 nsresult
 SetCDMProxy
@@ -1051,6 +1059,8 @@ return
 nullptr
 ;
 }
+#
+endif
 }
 ;
 class

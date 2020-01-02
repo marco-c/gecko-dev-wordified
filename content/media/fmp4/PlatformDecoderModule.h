@@ -528,6 +528,9 @@ Create
 (
 )
 ;
+#
+ifdef
+MOZ_EME
 /
 /
 Creates
@@ -614,6 +617,8 @@ MediaTaskQueue
 aTaskQueue
 )
 ;
+#
+endif
 /
 /
 Called

@@ -189,6 +189,9 @@ CreateStateMachine
 (
 )
 ;
+#
+ifdef
+MOZ_EME
 virtual
 nsresult
 SetCDMProxy
@@ -199,6 +202,8 @@ aProxy
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 /
 /
 Returns
