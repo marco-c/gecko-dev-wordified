@@ -4674,7 +4674,9 @@ name_
 #
 include
 "
-nsEventNameList
+mozilla
+/
+EventNameList
 .
 h
 "

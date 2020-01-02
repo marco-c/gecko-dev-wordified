@@ -3415,7 +3415,9 @@ EVENT
 #
 include
 "
-nsEventNameList
+mozilla
+/
+EventNameList
 .
 h
 "
@@ -3640,7 +3642,9 @@ _struct
 #
 include
 "
-nsEventNameList
+mozilla
+/
+EventNameList
 .
 h
 "

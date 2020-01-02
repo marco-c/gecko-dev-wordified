@@ -565,7 +565,9 @@ OnBeforeUnloadEventHandlerNonNull
 #
 include
 "
-nsEventNameList
+mozilla
+/
+EventNameList
 .
 h
 "

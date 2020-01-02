@@ -4798,7 +4798,9 @@ FORWARDED_EVENT
 #
 include
 "
-nsEventNameList
+mozilla
+/
+EventNameList
 .
 h
 "
@@ -5582,7 +5584,9 @@ handler
 #
 include
 "
-nsEventNameList
+mozilla
+/
+EventNameList
 .
 h
 "
