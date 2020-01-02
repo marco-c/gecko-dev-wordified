@@ -2884,7 +2884,10 @@ here
 js
 :
 :
-AutoDisableCompactingGC
+gc
+:
+:
+AutoSuppressGC
 nogc
 (
 zone

@@ -160,9 +160,6 @@ class
 LazyScript
 ;
 class
-NestedScopeObject
-;
-class
 SavedFrame
 ;
 class
@@ -939,11 +936,6 @@ DeclMarker
 (
 Object
 JSFunction
-)
-DeclMarker
-(
-Object
-NestedScopeObject
 )
 DeclMarker
 (
