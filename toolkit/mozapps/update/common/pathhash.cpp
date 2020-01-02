@@ -288,7 +288,7 @@ hProv
 nullptr
 nullptr
 PROV_RSA_FULL
-0
+CRYPT_VERIFYCONTEXT
 )
 )
 {
@@ -329,6 +329,8 @@ hProv
 nullptr
 nullptr
 PROV_RSA_FULL
+CRYPT_VERIFYCONTEXT
+|
 CRYPT_NEWKEYSET
 )
 )
