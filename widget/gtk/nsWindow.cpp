@@ -18351,14 +18351,6 @@ GDK_WINDOW_STATE_FULLSCREEN
 return
 ;
 }
-CheckForRollup
-(
-0
-0
-false
-true
-)
-;
 if
 (
 aEvent
