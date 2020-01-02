@@ -4805,7 +4805,7 @@ ComputeFingerprint
 "
 sha
 -
-1
+256
 "
 fingerprint
 sizeof
@@ -4856,7 +4856,7 @@ mFingerprint
 "
 sha
 -
-1
+256
 "
 +
 mIdentity
@@ -7550,6 +7550,8 @@ NS_ERROR_FAILURE
 ;
 }
 }
+*
+/
 NS_IMETHODIMP
 PeerConnectionImpl
 :
@@ -7634,8 +7636,6 @@ return
 NS_OK
 ;
 }
-*
-/
 NS_IMETHODIMP
 PeerConnectionImpl
 :
