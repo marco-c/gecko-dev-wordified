@@ -581,12 +581,6 @@ MultiTouchInput
 :
 MULTITOUCH_START
 :
-case
-MultiTouchInput
-:
-:
-MULTITOUCH_ENTER
-:
 mTouches
 .
 Clear
@@ -679,12 +673,6 @@ MultiTouchInput
 :
 :
 MULTITOUCH_END
-:
-case
-MultiTouchInput
-:
-:
-MULTITOUCH_LEAVE
 :
 for
 (
