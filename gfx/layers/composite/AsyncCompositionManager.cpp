@@ -3236,7 +3236,13 @@ ElementAnimation
 :
 GetComputedTimingAt
 (
+Nullable
+<
+TimeDuration
+>
+(
 elapsedDuration
+)
 timing
 )
 ;
