@@ -132,6 +132,10 @@ aRecorder
 DrawTarget
 *
 aDT
+bool
+aHasData
+=
+false
 )
 ;
 ~

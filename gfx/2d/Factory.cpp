@@ -1634,6 +1634,7 @@ DrawTargetRecording
 (
 mRecorder
 retVal
+true
 )
 ;
 return
@@ -2150,6 +2151,7 @@ DrawTargetRecording
 (
 mRecorder
 retVal
+true
 )
 ;
 }
@@ -2764,6 +2766,7 @@ DrawTargetRecording
 (
 mRecorder
 retVal
+true
 )
 ;
 return
