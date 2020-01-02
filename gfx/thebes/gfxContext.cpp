@@ -9836,6 +9836,10 @@ y
 }
 else
 {
+EnsurePath
+(
+)
+;
 return
 mPath
 -
@@ -9846,7 +9850,9 @@ ToPoint
 (
 pt
 )
-mTransform
+Matrix
+(
+)
 )
 ;
 }
@@ -9883,6 +9889,10 @@ y
 }
 else
 {
+EnsurePath
+(
+)
+;
 return
 mPath
 -
@@ -9898,7 +9908,9 @@ ToPoint
 (
 pt
 )
-mTransform
+Matrix
+(
+)
 )
 ;
 }
@@ -9951,6 +9963,10 @@ ymin
 }
 else
 {
+EnsurePath
+(
+)
+;
 return
 ThebesRect
 (
@@ -10012,6 +10028,10 @@ ymin
 }
 else
 {
+EnsurePath
+(
+)
+;
 return
 ThebesRect
 (
@@ -10073,6 +10093,10 @@ ymin
 }
 else
 {
+EnsurePath
+(
+)
+;
 return
 ThebesRect
 (
