@@ -1904,8 +1904,14 @@ MutableHandle
 JSPropertyDescriptor
 >
 aDesc
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aClassObject
 )
 {

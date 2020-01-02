@@ -17046,10 +17046,10 @@ setCompileAndGo
 true
 )
 ;
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 JS
 :
 :
@@ -17066,6 +17066,7 @@ input
 -
 >
 length
+)
 )
 ;
 if
