@@ -10907,9 +10907,15 @@ if
 (
 !
 mGestureDownContent
+|
+|
+!
+mPresContext
 )
+{
 return
 ;
+}
 #
 ifdef
 XP_MACOSX
