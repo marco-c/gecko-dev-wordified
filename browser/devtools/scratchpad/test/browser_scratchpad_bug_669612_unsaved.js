@@ -186,7 +186,7 @@ aWin
 )
 "
 show
-start
+star
 if
 scratchpad
 text
@@ -195,8 +195,6 @@ changes
 )
 ;
 aScratchpad
-.
-editor
 .
 dirty
 =
@@ -256,8 +254,6 @@ changes
 )
 ;
 aScratchpad
-.
-editor
 .
 dirty
 =

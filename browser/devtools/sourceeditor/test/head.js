@@ -1039,6 +1039,10 @@ resource
 /
 modules
 /
+devtools
+/
+sourceeditor
+/
 source
 -
 editor

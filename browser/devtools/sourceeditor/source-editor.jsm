@@ -136,6 +136,10 @@ resource
 /
 modules
 /
+devtools
+/
+sourceeditor
+/
 source
 -
 editor
@@ -234,6 +238,10 @@ resource
 /
 /
 modules
+/
+devtools
+/
+sourceeditor
 /
 source
 -
@@ -335,6 +343,10 @@ resource
 /
 /
 modules
+/
+devtools
+/
+sourceeditor
 /
 source
 -
