@@ -5483,6 +5483,13 @@ nsIRequest
 .
 INHIBIT_CACHING
 ;
+if
+(
+this
+.
+window
+)
+{
 let
 docShell
 =
@@ -5515,6 +5522,7 @@ enable
 disable
 ;
 }
+}
 /
 *
 *
@@ -5533,6 +5541,13 @@ _setJavascriptEnabled
 function
 (
 allow
+)
+{
+if
+(
+this
+.
+window
 )
 {
 let
@@ -5562,6 +5577,7 @@ allowJavascript
 =
 allow
 ;
+}
 }
 /
 *
