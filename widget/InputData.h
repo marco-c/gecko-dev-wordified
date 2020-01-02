@@ -153,6 +153,9 @@ E
 struct
 already_AddRefed
 ;
+class
+nsIWidget
+;
 namespace
 mozilla
 {
@@ -748,6 +751,7 @@ Touch
 ToNewDOMTouch
 (
 )
+const
 ;
 /
 /
@@ -1080,6 +1084,15 @@ WidgetTouchEvent
 &
 aTouchEvent
 )
+;
+WidgetTouchEvent
+ToWidgetTouchEvent
+(
+nsIWidget
+*
+aWidget
+)
+const
 ;
 /
 /
