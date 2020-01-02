@@ -17338,6 +17338,11 @@ DOMMediaStream
 :
 :
 HINT_CONTENTS_UNKNOWN
+dom
+:
+:
+AudioChannel
+aChannel
 )
 :
 mDriverHolder
@@ -17486,6 +17491,7 @@ new
 AudioCallbackDriver
 (
 this
+aChannel
 )
 ;
 mDriverHolder
@@ -17670,6 +17676,11 @@ DOMMediaStream
 :
 TrackTypeHints
 aHint
+dom
+:
+:
+AudioChannel
+aChannel
 )
 {
 NS_ASSERTION
@@ -17732,6 +17743,7 @@ PreferredSampleRate
 (
 )
 aHint
+aChannel
 )
 ;
 STREAM_LOG

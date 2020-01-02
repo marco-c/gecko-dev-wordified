@@ -2510,6 +2510,10 @@ mStarted
 (
 false
 )
+mAudioChannel
+(
+aChannel
+)
 {
 }
 AudioCallbackDriver
@@ -2591,7 +2595,7 @@ CubebUtils
 :
 ConvertChannelToCubebType
 (
-aChannels
+mAudioChannel
 )
 ;
 #
@@ -2626,6 +2630,13 @@ type
 return
 ;
 }
+#
+else
+(
+void
+)
+mAudioChannel
+;
 #
 endif
 params
