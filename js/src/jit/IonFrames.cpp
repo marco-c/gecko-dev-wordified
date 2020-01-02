@@ -12380,16 +12380,7 @@ GetJSContextFromJitCode
 (
 )
 d
-d
-.
-i_
-numActualArgs
-(
-)
--
-d
-.
-i_
+ReadFrame_Overflown
 )
 ;
 }
