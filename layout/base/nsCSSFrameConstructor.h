@@ -5445,7 +5445,7 @@ called
 .
 inline
 bool
-SkipItemsThatNeedAnonFlexItem
+SkipItemsThatNeedAnonFlexOrGridItem
 (
 const
 nsFrameConstructorState
@@ -5498,7 +5498,7 @@ called
 .
 inline
 bool
-SkipItemsThatDontNeedAnonFlexItem
+SkipItemsThatDontNeedAnonFlexOrGridItem
 (
 const
 nsFrameConstructorState
@@ -6420,16 +6420,18 @@ whether
 when
 in
 a
-flexbox
+flex
+or
+grid
 container
 )
 this
 item
 needs
+/
+/
 to
 be
-/
-/
 wrapped
 in
 an
@@ -6437,7 +6439,7 @@ anonymous
 block
 .
 bool
-NeedsAnonFlexItem
+NeedsAnonFlexOrGridItem
 (
 const
 nsFrameConstructorState
@@ -7253,6 +7255,8 @@ create
 the
 anonymous
 flex
+or
+grid
 items
 that
 we
@@ -7265,7 +7269,10 @@ is
 not
 a
 nsFlexContainerFrame
+or
+nsGridContainerFrame
 then
+*
 this
 method
 is
@@ -7292,7 +7299,7 @@ frame
 *
 /
 void
-CreateNeededAnonFlexItems
+CreateNeededAnonFlexOrGridItems
 (
 nsFrameConstructorState
 &
