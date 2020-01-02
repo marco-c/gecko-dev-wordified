@@ -11715,6 +11715,13 @@ nsIDocument
 aNewDocument
 )
 {
+MOZ_ASSERT
+(
+IsOuterWindow
+(
+)
+)
+;
 /
 /
 We

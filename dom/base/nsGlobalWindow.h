@@ -2461,6 +2461,12 @@ mTimeoutFiringDepth
 0
 ;
 }
+/
+/
+Outer
+windows
+only
+.
 virtual
 NS_HIDDEN_
 (

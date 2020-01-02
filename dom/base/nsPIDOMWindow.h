@@ -1768,6 +1768,12 @@ IsInnerWindow
 )
 ;
 }
+/
+/
+Outer
+windows
+only
+.
 virtual
 bool
 WouldReuseInnerWindow
