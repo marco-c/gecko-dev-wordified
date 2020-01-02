@@ -527,6 +527,19 @@ above
 /
 Bug
 750713
+if
+(
+MOZ_LIKELY
+(
+AndroidBridge
+:
+:
+HasEnv
+(
+)
+)
+)
+{
 did_work
 |
 =
@@ -537,6 +550,7 @@ PumpMessageLoop
 (
 )
 ;
+}
 #
 endif
 did_work
