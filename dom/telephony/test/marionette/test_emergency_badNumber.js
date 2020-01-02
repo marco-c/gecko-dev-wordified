@@ -124,7 +124,7 @@ BadNumberError
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
