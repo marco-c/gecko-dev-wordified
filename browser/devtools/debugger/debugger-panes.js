@@ -3060,6 +3060,13 @@ DebuggerView
 .
 showEditor
 )
+.
+then
+(
+this
+.
+updateToolbarButtonsState
+)
 ;
 }
 /
