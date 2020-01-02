@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-CacheFileInputStream
+CacheLog
 .
 h
 "
 #
 include
 "
-CacheLog
+CacheFileInputStream
 .
 h
 "
