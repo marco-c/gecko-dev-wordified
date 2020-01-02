@@ -2602,7 +2602,7 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-BlobEventInit
+BlobEventInitInitializer
 init
 ;
 init

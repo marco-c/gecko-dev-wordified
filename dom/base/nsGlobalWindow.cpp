@@ -27161,7 +27161,7 @@ cx
 mJSObject
 )
 ;
-DOMWindowResizeEventDetail
+DOMWindowResizeEventDetailInitializer
 detail
 ;
 detail

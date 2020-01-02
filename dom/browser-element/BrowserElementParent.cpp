@@ -821,7 +821,7 @@ s
 detail
 object
 .
-OpenWindowEventDetail
+OpenWindowEventDetailInitializer
 detail
 ;
 detail
@@ -1847,7 +1847,7 @@ s
 detail
 object
 .
-AsyncScrollEventDetail
+AsyncScrollEventDetailInitializer
 detail
 ;
 detail
