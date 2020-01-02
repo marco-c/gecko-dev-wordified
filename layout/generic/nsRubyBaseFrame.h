@@ -281,6 +281,14 @@ aWritingMode
 const
 MOZ_OVERRIDE
 ;
+virtual
+bool
+CanContinueTextRun
+(
+)
+const
+MOZ_OVERRIDE
+;
 #
 ifdef
 DEBUG_FRAME_DUMP
