@@ -595,6 +595,11 @@ aProperty
 nsAString
 &
 aResult
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 const
 {
@@ -661,6 +666,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 return
@@ -724,6 +730,11 @@ aValues
 nsAString
 &
 aString
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 {
 const
@@ -796,6 +807,7 @@ aProperties
 0
 ]
 aString
+aSerialization
 )
 ;
 if
@@ -855,6 +867,7 @@ aProperties
 1
 ]
 aString
+aSerialization
 )
 ;
 if
@@ -908,6 +921,7 @@ aProperties
 2
 ]
 aString
+aSerialization
 )
 ;
 if
@@ -955,6 +969,7 @@ aProperties
 3
 ]
 aString
+aSerialization
 )
 ;
 }
@@ -972,6 +987,61 @@ aProperty
 nsAString
 &
 aValue
+)
+const
+{
+GetValue
+(
+aProperty
+aValue
+nsCSSValue
+:
+:
+eNormalized
+)
+;
+}
+void
+Declaration
+:
+:
+GetAuthoredValue
+(
+nsCSSProperty
+aProperty
+nsAString
+&
+aValue
+)
+const
+{
+GetValue
+(
+aProperty
+aValue
+nsCSSValue
+:
+:
+eAuthorSpecified
+)
+;
+}
+void
+Declaration
+:
+:
+GetValue
+(
+nsCSSProperty
+aProperty
+nsAString
+&
+aValue
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 const
 {
@@ -1005,6 +1075,7 @@ AppendValueToString
 (
 aProperty
 aValue
+aSerialization
 )
 ;
 return
@@ -1637,6 +1708,10 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aValue
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 return
@@ -1671,6 +1746,10 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aValue
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 return
@@ -1705,6 +1784,10 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aValue
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 return
@@ -2043,6 +2126,7 @@ AppendSidesShorthandToString
 subprops
 vals
 aValue
+aSerialization
 )
 ;
 break
@@ -2264,6 +2348,7 @@ AppendSidesShorthandToString
 subprops
 xVals
 aValue
+aSerialization
 )
 ;
 if
@@ -2285,6 +2370,7 @@ AppendSidesShorthandToString
 subprops
 yVals
 aValue
+aSerialization
 )
 ;
 }
@@ -2363,6 +2449,7 @@ AppendValueToString
 (
 eCSSProperty_border_image_source
 aValue
+aSerialization
 )
 ;
 bool
@@ -2424,6 +2511,7 @@ AppendValueToString
 (
 eCSSProperty_border_image_slice
 aValue
+aSerialization
 )
 ;
 if
@@ -2469,6 +2557,7 @@ AppendValueToString
 (
 eCSSProperty_border_image_width
 aValue
+aSerialization
 )
 ;
 }
@@ -2494,6 +2583,7 @@ AppendValueToString
 (
 eCSSProperty_border_image_outset
 aValue
+aSerialization
 )
 ;
 }
@@ -2530,6 +2620,7 @@ AppendValueToString
 (
 eCSSProperty_border_image_repeat
 aValue
+aSerialization
 )
 ;
 }
@@ -3036,6 +3127,7 @@ subprops
 0
 ]
 aValue
+aSerialization
 )
 |
 |
@@ -3058,6 +3150,7 @@ subprops
 1
 ]
 aValue
+aSerialization
 )
 )
 |
@@ -3107,6 +3200,7 @@ subprops
 2
 ]
 aValue
+aSerialization
 )
 )
 )
@@ -3225,6 +3319,7 @@ subprops
 0
 ]
 aValue
+aSerialization
 )
 ;
 break
@@ -3472,6 +3567,7 @@ AppendToString
 (
 eCSSProperty_background_image
 aValue
+aSerialization
 )
 ;
 aValue
@@ -3494,6 +3590,7 @@ AppendToString
 (
 eCSSProperty_background_repeat
 aValue
+aSerialization
 )
 ;
 if
@@ -3520,6 +3617,7 @@ AppendToString
 (
 eCSSProperty_background_repeat
 aValue
+aSerialization
 )
 ;
 }
@@ -3543,6 +3641,7 @@ AppendToString
 (
 eCSSProperty_background_attachment
 aValue
+aSerialization
 )
 ;
 aValue
@@ -3565,6 +3664,7 @@ AppendToString
 (
 eCSSProperty_background_position
 aValue
+aSerialization
 )
 ;
 if
@@ -3638,6 +3738,7 @@ AppendToString
 (
 eCSSProperty_background_size
 aValue
+aSerialization
 )
 ;
 aValue
@@ -3660,6 +3761,7 @@ AppendToString
 (
 eCSSProperty_background_size
 aValue
+aSerialization
 )
 ;
 }
@@ -3816,6 +3918,7 @@ AppendToString
 (
 eCSSProperty_background_origin
 aValue
+aSerialization
 )
 ;
 if
@@ -3852,6 +3955,7 @@ AppendToString
 (
 eCSSProperty_background_clip
 aValue
+aSerialization
 )
 ;
 }
@@ -4044,6 +4148,7 @@ AppendValueToString
 (
 eCSSProperty_background_color
 aValue
+aSerialization
 )
 ;
 break
@@ -4650,6 +4755,7 @@ AppendToString
 (
 eCSSProperty__x_system_font
 aValue
+aSerialization
 )
 ;
 }
@@ -4876,6 +4982,7 @@ AppendToString
 (
 eCSSProperty_font_style
 aValue
+aSerialization
 )
 ;
 aValue
@@ -4921,6 +5028,7 @@ AppendToString
 (
 eCSSProperty_font_variant
 aValue
+aSerialization
 )
 ;
 aValue
@@ -4966,6 +5074,7 @@ AppendToString
 (
 eCSSProperty_font_weight
 aValue
+aSerialization
 )
 ;
 aValue
@@ -4987,6 +5096,7 @@ AppendToString
 (
 eCSSProperty_font_size
 aValue
+aSerialization
 )
 ;
 if
@@ -5021,6 +5131,7 @@ AppendToString
 (
 eCSSProperty_line_height
 aValue
+aSerialization
 )
 ;
 }
@@ -5042,6 +5153,7 @@ AppendToString
 (
 eCSSProperty_font_family
 aValue
+aSerialization
 )
 ;
 }
@@ -5057,8 +5169,10 @@ AppendValueToString
 (
 eCSSProperty_list_style_type
 aValue
+aSerialization
 )
 )
+{
 aValue
 .
 Append
@@ -5070,14 +5184,17 @@ PRUnichar
 )
 )
 ;
+}
 if
 (
 AppendValueToString
 (
 eCSSProperty_list_style_position
 aValue
+aSerialization
 )
 )
+{
 aValue
 .
 Append
@@ -5089,10 +5206,12 @@ PRUnichar
 )
 )
 ;
+}
 AppendValueToString
 (
 eCSSProperty_list_style_image
 aValue
+aSerialization
 )
 ;
 break
@@ -5142,6 +5261,7 @@ AppendToString
 (
 eCSSProperty_overflow_x
 aValue
+aSerialization
 )
 ;
 break
@@ -5287,6 +5407,7 @@ AppendValueToString
 (
 eCSSProperty_text_decoration_line
 aValue
+aSerialization
 )
 ;
 break
@@ -5600,6 +5721,7 @@ AppendToString
 (
 eCSSProperty_transition_property
 aValue
+aSerialization
 )
 ;
 aValue
@@ -5622,6 +5744,7 @@ AppendToString
 (
 eCSSProperty_transition_duration
 aValue
+aSerialization
 )
 ;
 aValue
@@ -5644,6 +5767,7 @@ AppendToString
 (
 eCSSProperty_transition_timing_function
 aValue
+aSerialization
 )
 ;
 aValue
@@ -5666,6 +5790,7 @@ AppendToString
 (
 eCSSProperty_transition_delay
 aValue
+aSerialization
 )
 ;
 aValue
@@ -5765,6 +5890,7 @@ AppendToString
 (
 eCSSProperty_transition_property
 aValue
+aSerialization
 )
 ;
 aValue
@@ -5787,6 +5913,7 @@ AppendToString
 (
 eCSSProperty_transition_duration
 aValue
+aSerialization
 )
 ;
 aValue
@@ -5809,6 +5936,7 @@ AppendToString
 (
 eCSSProperty_transition_timing_function
 aValue
+aSerialization
 )
 ;
 aValue
@@ -5831,6 +5959,7 @@ AppendToString
 (
 eCSSProperty_transition_delay
 aValue
+aSerialization
 )
 ;
 pro
@@ -6176,6 +6305,7 @@ subprops
 i
 ]
 aValue
+aSerialization
 )
 ;
 lists
@@ -6361,6 +6491,7 @@ AppendValueToString
 (
 eCSSProperty_marker_end
 aValue
+aSerialization
 )
 ;
 break
@@ -6406,6 +6537,7 @@ subprops
 0
 ]
 aValue
+aSerialization
 )
 ;
 aValue
@@ -6426,6 +6558,7 @@ subprops
 1
 ]
 aValue
+aSerialization
 )
 ;
 break
@@ -6470,6 +6603,7 @@ subprops
 0
 ]
 aValue
+aSerialization
 )
 ;
 aValue
@@ -6490,6 +6624,7 @@ subprops
 1
 ]
 aValue
+aSerialization
 )
 ;
 aValue
@@ -6510,6 +6645,7 @@ subprops
 2
 ]
 aValue
+aSerialization
 )
 ;
 break
@@ -6569,6 +6705,7 @@ subprops
 0
 ]
 aValue
+aSerialization
 )
 ;
 aValue
@@ -6589,6 +6726,7 @@ subprops
 1
 ]
 aValue
+aSerialization
 )
 ;
 break
@@ -6647,6 +6785,7 @@ subprops
 0
 ]
 aValue
+aSerialization
 )
 ;
 break
@@ -7028,6 +7167,10 @@ AppendValueToString
 (
 aProperty
 aResult
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 else
@@ -7822,6 +7965,10 @@ AppendToString
 (
 eCSSProperty__x_system_font
 value
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 AppendPropertyAndValueToString

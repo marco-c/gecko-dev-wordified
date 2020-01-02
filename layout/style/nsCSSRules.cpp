@@ -7767,6 +7767,10 @@ AppendToString
 (
 eCSSProperty_font_style
 aResult
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 return
@@ -7781,6 +7785,10 @@ AppendToString
 (
 eCSSProperty_font_weight
 aResult
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 return
@@ -7795,6 +7803,10 @@ AppendToString
 (
 eCSSProperty_font_stretch
 aResult
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 return
@@ -7824,6 +7836,10 @@ AppendToString
 (
 eCSSProperty_font_language_override
 aResult
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 return
