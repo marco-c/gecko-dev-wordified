@@ -3259,6 +3259,10 @@ _getRect
 function
 _formHelperGetRect
 (
+aOptions
+=
+{
+}
 )
 {
 const
@@ -3281,6 +3285,13 @@ getBoundingContentRect
 element
 )
 ;
+if
+(
+aOptions
+.
+alignToLabel
+)
+{
 let
 labels
 =
@@ -3421,6 +3432,7 @@ expandToIntegers
 (
 )
 ;
+}
 }
 }
 }
