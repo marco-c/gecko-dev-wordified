@@ -7135,9 +7135,9 @@ mallocSizeOf
 void
 MarkInterpreterActivations
 (
-PerThreadData
+JSRuntime
 *
-ptd
+rt
 JSTracer
 *
 trc
