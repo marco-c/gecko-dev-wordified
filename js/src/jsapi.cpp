@@ -3232,6 +3232,10 @@ JS_Init
 "
 )
 ;
+PRMJ_NowInit
+(
+)
+;
 #
 ifdef
 DEBUG
