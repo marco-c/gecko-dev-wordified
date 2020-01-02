@@ -32779,16 +32779,6 @@ x
 y
 )
 ;
-element
-=
-ElementTouchHelper
-.
-anyElementFromPoint
-(
-x
-y
-)
-;
 }
 /
 /
