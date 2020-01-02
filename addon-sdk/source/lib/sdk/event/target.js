@@ -95,7 +95,7 @@ core
 const
 {
 method
-chain
+chainable
 }
 =
 require
@@ -349,7 +349,7 @@ data
 /
 on
 :
-chain
+chainable
 (
 method
 (
@@ -413,7 +413,7 @@ event
 /
 once
 :
-chain
+chainable
 (
 method
 (
