@@ -183,6 +183,15 @@ bt_uuid_t
 p_uuid
 )
 ;
+uint16_t
+UuidToServiceClassInt
+(
+const
+BluetoothUuid
+&
+mUuid
+)
+;
 bool
 SetJsObject
 (
