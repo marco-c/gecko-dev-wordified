@@ -18106,7 +18106,7 @@ JS_ASSERT
 JSFatInlineString
 :
 :
-twoByteLengthFits
+lengthFits
 (
 outputLen
 )
@@ -18383,7 +18383,7 @@ length
 JSFatInlineString
 :
 :
-MAX_LENGTH_TWO_BYTE
+MAX_FAT_INLINE_LENGTH
 )
 break
 ;
@@ -26949,7 +26949,7 @@ if
 JSFatInlineString
 :
 :
-twoByteLengthFits
+lengthFits
 (
 n
 )
@@ -27098,7 +27098,7 @@ if
 JSFatInlineString
 :
 :
-twoByteLengthFits
+lengthFits
 (
 n
 )
@@ -27237,7 +27237,7 @@ if
 JSFatInlineString
 :
 :
-twoByteLengthFits
+lengthFits
 (
 n
 )

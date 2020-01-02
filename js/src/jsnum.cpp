@@ -3944,7 +3944,7 @@ buffer
 JSFatInlineString
 :
 :
-MAX_LENGTH_TWO_BYTE
+MAX_FAT_INLINE_LENGTH
 +
 1
 ]
@@ -3963,7 +3963,7 @@ buffer
 JSFatInlineString
 :
 :
-MAX_LENGTH_TWO_BYTE
+MAX_FAT_INLINE_LENGTH
 +
 1
 &
@@ -4074,7 +4074,7 @@ buffer
 JSFatInlineString
 :
 :
-MAX_LENGTH_TWO_BYTE
+MAX_FAT_INLINE_LENGTH
 +
 1
 ]
@@ -4093,7 +4093,7 @@ buffer
 JSFatInlineString
 :
 :
-MAX_LENGTH_TWO_BYTE
+MAX_FAT_INLINE_LENGTH
 +
 1
 &
@@ -9018,7 +9018,7 @@ buffer
 JSFatInlineString
 :
 :
-MAX_LENGTH_TWO_BYTE
+MAX_FAT_INLINE_LENGTH
 +
 1
 ]
@@ -9034,12 +9034,12 @@ buffer
 JSFatInlineString
 :
 :
-MAX_LENGTH_TWO_BYTE
+MAX_FAT_INLINE_LENGTH
 buffer
 JSFatInlineString
 :
 :
-MAX_LENGTH_TWO_BYTE
+MAX_FAT_INLINE_LENGTH
 +
 1
 )

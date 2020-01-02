@@ -358,7 +358,7 @@ JS_STATIC_ASSERT
 JSFatInlineString
 :
 :
-MAX_LENGTH_TWO_BYTE
+MAX_FAT_INLINE_LENGTH
 <
 CharBuffer
 :
@@ -371,7 +371,7 @@ if
 JSFatInlineString
 :
 :
-twoByteLengthFits
+lengthFits
 (
 length
 )
