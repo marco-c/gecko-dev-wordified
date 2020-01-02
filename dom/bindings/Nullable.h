@@ -439,17 +439,6 @@ aOtherNullable
 )
 ;
 }
-operator
-bool
-(
-)
-const
-{
-return
-!
-mIsNull
-;
-}
 /
 /
 Make
