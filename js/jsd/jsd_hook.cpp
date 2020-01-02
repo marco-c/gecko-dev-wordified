@@ -822,7 +822,7 @@ rval
 )
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 JSD_HOOK_THROW
 =
@@ -835,7 +835,7 @@ JSTRAP_THROW
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )

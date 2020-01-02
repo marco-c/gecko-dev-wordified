@@ -311,7 +311,7 @@ JSDContext
 jsdc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jsdc
 -
@@ -319,7 +319,7 @@ jsdc
 inited
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jsdc
 -
@@ -327,7 +327,7 @@ jsdc
 jsrt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jsdc
 -
@@ -1308,12 +1308,12 @@ jsd_DebuggerOn
 void
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 _jsrt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 _validateUserCallbacks
 (
@@ -1894,7 +1894,7 @@ if
 jsdc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -2091,7 +2091,7 @@ false
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )

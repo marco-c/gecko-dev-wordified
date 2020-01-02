@@ -492,12 +492,12 @@ barrierTracer
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 needsBarrier_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -519,7 +519,7 @@ runtimeFromMainThread
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -645,7 +645,7 @@ void
 thing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 )
@@ -710,7 +710,7 @@ void
 thing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 )
@@ -818,7 +818,7 @@ CellSize
 +
 color
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bit
 <
@@ -1015,7 +1015,7 @@ void
 thing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 )
