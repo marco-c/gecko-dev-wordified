@@ -1966,7 +1966,7 @@ while
 (
 stack
 .
-size
+currentId
 (
 )
 >
@@ -4124,6 +4124,17 @@ return
 ;
 }
 }
+JS_ASSERT
+(
+stack
+.
+currentId
+(
+)
+>
+0
+)
+;
 stack
 .
 pop
