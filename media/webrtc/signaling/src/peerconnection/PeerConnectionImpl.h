@@ -619,6 +619,13 @@ std
 string
 &
 pwd
+const
+std
+:
+:
+string
+&
+transport
 )
 {
 /
@@ -682,6 +689,7 @@ addr
 port
 username
 password
+transport
 )
 )
 ;
