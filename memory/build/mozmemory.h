@@ -243,7 +243,7 @@ imports
 *
 /
 static
-MOZ_INLINE
+inline
 size_t
 _malloc_good_size
 (
