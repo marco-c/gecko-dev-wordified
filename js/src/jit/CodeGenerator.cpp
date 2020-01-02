@@ -5815,9 +5815,8 @@ HandleObject
 regexp
 HandleString
 input
-Value
-*
-vp
+MutableHandleValue
+output
 )
 ;
 static
@@ -29663,8 +29662,7 @@ JSContext
 *
 MutableHandleValue
 MutableHandleValue
-Value
-*
+MutableHandleValue
 )
 ;
 typedef
@@ -29678,8 +29676,7 @@ ForkJoinContext
 *
 HandleValue
 HandleValue
-Value
-*
+MutableHandleValue
 )
 ;
 static
