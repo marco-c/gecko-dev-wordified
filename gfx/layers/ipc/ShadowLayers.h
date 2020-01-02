@@ -2833,6 +2833,16 @@ aHandle
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+DeallocGrallocBuffer
+(
+PGrallocBufferChild
+*
+aChild
+)
+MOZ_OVERRIDE
+;
 #
 endif
 private
