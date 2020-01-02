@@ -2926,7 +2926,7 @@ hysteresis
 pref
 (
 "
-apzc
+apz
 .
 axis_lock_mode
 "
