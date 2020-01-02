@@ -589,6 +589,7 @@ MediaEngineWebRTCVideoSource
 (
 mCameraManager
 i
+mWindowId
 )
 ;
 mVideoSources
