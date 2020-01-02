@@ -2924,6 +2924,14 @@ destroy
 )
 ;
 }
+this
+.
+widgets
+.
+clear
+(
+)
+;
 }
 }
 ;
