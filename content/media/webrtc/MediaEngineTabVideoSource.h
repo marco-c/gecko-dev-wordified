@@ -141,6 +141,9 @@ nsresult
 Allocate
 (
 const
+VideoTrackConstraintsN
+&
+const
 mozilla
 :
 :

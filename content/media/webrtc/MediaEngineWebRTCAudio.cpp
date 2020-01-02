@@ -84,6 +84,13 @@ Assertions
 .
 h
 "
+#
+include
+"
+MediaTrackConstraints
+.
+h
+"
 /
 /
 scoped_ptr
@@ -1408,6 +1415,10 @@ MediaEngineWebRTCAudioSource
 :
 Allocate
 (
+const
+AudioTrackConstraintsN
+&
+aConstraints
 const
 MediaEnginePrefs
 &

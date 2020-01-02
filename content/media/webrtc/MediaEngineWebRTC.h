@@ -835,6 +835,10 @@ nsresult
 Allocate
 (
 const
+VideoTrackConstraintsN
+&
+aConstraints
+const
 MediaEnginePrefs
 &
 aPrefs
@@ -1464,6 +1468,10 @@ void
 ChooseCapability
 (
 const
+VideoTrackConstraintsN
+&
+aConstraints
+const
 MediaEnginePrefs
 &
 aPrefs
@@ -1643,6 +1651,10 @@ virtual
 nsresult
 Allocate
 (
+const
+AudioTrackConstraintsN
+&
+aConstraints
 const
 MediaEnginePrefs
 &

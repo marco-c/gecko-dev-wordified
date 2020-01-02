@@ -328,6 +328,10 @@ MediaEngineDefaultVideoSource
 Allocate
 (
 const
+VideoTrackConstraintsN
+&
+aConstraints
+const
 MediaEnginePrefs
 &
 aPrefs
@@ -1906,6 +1910,10 @@ MediaEngineDefaultAudioSource
 :
 Allocate
 (
+const
+AudioTrackConstraintsN
+&
+aConstraints
 const
 MediaEnginePrefs
 &
