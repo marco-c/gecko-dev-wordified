@@ -2035,6 +2035,18 @@ String
 faviconURL
 )
 {
+if
+(
+faviconURL
+=
+=
+null
+)
+{
+return
+true
+;
+}
 startRead
 (
 )
@@ -2246,7 +2258,7 @@ unhandled
 )
 ;
 return
-false
+true
 ;
 }
 finally
