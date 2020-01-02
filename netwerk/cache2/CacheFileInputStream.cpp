@@ -1570,7 +1570,7 @@ newPos
 ;
 EnsureCorrectChunk
 (
-true
+false
 )
 ;
 LOG
