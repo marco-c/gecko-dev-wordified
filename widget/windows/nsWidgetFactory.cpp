@@ -1135,10 +1135,6 @@ kNS_SCREENMANAGER_CID
 false
 nullptr
 nsScreenManagerWinConstructor
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 {
 &
@@ -1439,10 +1435,6 @@ screenmanager
 "
 &
 kNS_SCREENMANAGER_CID
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 {
 "

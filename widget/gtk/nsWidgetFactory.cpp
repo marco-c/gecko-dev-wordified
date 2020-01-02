@@ -1063,10 +1063,6 @@ kNS_SCREENMANAGER_CID
 false
 nullptr
 nsScreenManagerGtkConstructor
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 {
 &
@@ -1404,10 +1400,6 @@ screenmanager
 "
 &
 kNS_SCREENMANAGER_CID
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 {
 "

@@ -206,14 +206,6 @@ nsScreenWin
 (
 )
 ;
-NS_IMETHOD
-GetId
-(
-uint32_t
-*
-aId
-)
-;
 /
 /
 These
@@ -348,9 +340,6 @@ private
 :
 HMONITOR
 mScreen
-;
-uint32_t
-mId
 ;
 }
 ;
