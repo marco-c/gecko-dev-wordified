@@ -1827,10 +1827,8 @@ module
 aResource
 +
 "
-:
+.
 "
-+
-ex
 )
 ;
 throw
