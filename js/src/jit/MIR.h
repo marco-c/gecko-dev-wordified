@@ -31979,12 +31979,9 @@ bounds
 accesses
 are
 handled
-using
-/
-/
-a
-VM
-call
+in
+-
+line
 .
 class
 MLoadTypedArrayElementHole
