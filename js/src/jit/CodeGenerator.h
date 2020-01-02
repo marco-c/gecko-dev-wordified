@@ -636,6 +636,14 @@ lir
 )
 ;
 bool
+visitRegExpReplace
+(
+LRegExpReplace
+*
+lir
+)
+;
+bool
 visitLambda
 (
 LLambda

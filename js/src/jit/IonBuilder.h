@@ -4094,6 +4094,14 @@ CallInfo
 callInfo
 )
 ;
+InliningStatus
+inlineStrReplaceRegExp
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 RegExp
