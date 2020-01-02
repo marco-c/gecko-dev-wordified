@@ -928,6 +928,15 @@ bool
 DoRequest
 (
 const
+IsConnectedRequest
+&
+aRequest
+)
+;
+bool
+DoRequest
+(
+const
 SendFileRequest
 &
 aRequest
