@@ -10,6 +10,7 @@ getBuildConfiguration
 FIXME
 :
 ASAN
+and
 debug
 builds
 run
@@ -32,16 +33,15 @@ lands
 if
 (
 !
-(
 config
 .
 debug
 &
 &
+!
 config
 .
 asan
-)
 )
 {
 let
