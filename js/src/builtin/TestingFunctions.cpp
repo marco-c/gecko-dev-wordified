@@ -1777,6 +1777,14 @@ args
 value
 )
 )
+return
+false
+;
+if
+(
+!
+value
+)
 {
 JS_ReportError
 (
