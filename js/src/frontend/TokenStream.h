@@ -4163,7 +4163,7 @@ Position
 pos
 )
 ;
-void
+bool
 seek
 (
 const
@@ -4899,7 +4899,7 @@ uint32_t
 lineStartOffset
 )
 ;
-void
+bool
 fill
 (
 const
