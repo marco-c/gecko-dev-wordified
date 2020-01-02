@@ -313,6 +313,13 @@ uint32_t
 aKey
 )
 ;
+int32_t
+GetParameterInt32
+(
+uint32_t
+aKey
+)
+;
 void
 GetParameter
 (
