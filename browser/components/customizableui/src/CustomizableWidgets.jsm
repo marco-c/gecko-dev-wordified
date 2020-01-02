@@ -314,6 +314,9 @@ description
 "
 History
 "
+removable
+:
+true
 defaultArea
 :
 CustomizableUI
@@ -835,6 +838,9 @@ Private
 Browsing
 window
 "
+removable
+:
+true
 defaultArea
 :
 CustomizableUI
@@ -1001,6 +1007,9 @@ Save
 this
 page
 "
+removable
+:
+true
 defaultArea
 :
 CustomizableUI
@@ -1156,6 +1165,9 @@ in
 this
 page
 "
+removable
+:
+true
 defaultArea
 :
 CustomizableUI
@@ -1303,6 +1315,9 @@ description
 Open
 file
 "
+removable
+:
+true
 defaultArea
 :
 CustomizableUI
@@ -1452,6 +1467,9 @@ Toggle
 Developer
 Tools
 "
+removable
+:
+true
 defaultArea
 :
 CustomizableUI
@@ -1607,6 +1625,9 @@ Add
 ons
 Manager
 "
+removable
+:
+true
 defaultArea
 :
 CustomizableUI
@@ -1758,6 +1779,9 @@ Preferences
 \
 u2026
 "
+removable
+:
+true
 defaultArea
 :
 CustomizableUI
