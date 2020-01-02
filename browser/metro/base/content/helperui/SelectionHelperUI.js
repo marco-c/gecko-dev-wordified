@@ -1886,6 +1886,9 @@ Browser
 SelectionUpdate
 "
 {
+isInitiatedByAPZC
+:
+true
 }
 )
 ;
