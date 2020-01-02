@@ -5190,6 +5190,12 @@ expireType
 expireTime
 )
 ;
+aPluginInfo
+.
+pluginPermissionType
+=
+expireType
+;
 }
 /
 /
