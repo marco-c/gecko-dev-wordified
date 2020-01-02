@@ -885,6 +885,9 @@ audioChannelAgent
 >
 InitWithWeakCallback
 (
+GetOwner
+(
+)
 nsIAudioChannelAgent
 :
 :
