@@ -4142,7 +4142,7 @@ make_deps_target
 '
 codegen
 .
-done
+pp
 '
     
 )
