@@ -285,7 +285,7 @@ uint8_t
 >
 &
 aCodecSpecific
-GMPVideoEncoderCallback
+GMPVideoEncoderCallbackProxy
 *
 aCallback
 int32_t
@@ -393,7 +393,10 @@ GMPVideoi420Frame
 *
 aInputFrame
 const
-GMPCodecSpecificInfo
+nsTArray
+<
+uint8_t
+>
 &
 aCodecSpecificInfo
 const
@@ -1039,7 +1042,14 @@ GMPVideoEncodedFrameData
 &
 aEncodedFrame
 const
-GMPCodecSpecificInfo
+GMPBufferType
+&
+aBufferType
+const
+nsTArray
+<
+uint8_t
+>
 &
 aCodecSpecificInfo
 )
@@ -1090,6 +1100,7 @@ mCallback
 Encoded
 (
 f
+aBufferType
 aCodecSpecificInfo
 )
 ;
