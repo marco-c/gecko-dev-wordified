@@ -1365,6 +1365,16 @@ PCompositableChild
 aActor
 )
 ;
+TextureFlags
+GetTextureFlags
+(
+)
+const
+{
+return
+mTextureFlags
+;
+}
 protected
 :
 CompositableChild
