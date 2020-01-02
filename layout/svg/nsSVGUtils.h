@@ -494,6 +494,7 @@ true
 )
 {
 }
+MOZ_IMPLICIT
 SVGBBox
 (
 const
@@ -512,6 +513,7 @@ false
 )
 {
 }
+MOZ_IMPLICIT
 SVGBBox
 (
 const

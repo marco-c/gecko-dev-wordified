@@ -200,6 +200,7 @@ nsAtomList
 {
 public
 :
+explicit
 nsAtomList
 (
 nsIAtom
@@ -207,6 +208,7 @@ nsIAtom
 aAtom
 )
 ;
+explicit
 nsAtomList
 (
 const
@@ -317,6 +319,7 @@ nsPseudoClassList
 {
 public
 :
+explicit
 nsPseudoClassList
 (
 nsCSSPseudoClasses
@@ -1943,6 +1946,7 @@ nsIStyleRule
 {
 public
 :
+explicit
 ImportantRule
 (
 Declaration

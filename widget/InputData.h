@@ -1077,6 +1077,7 @@ mTouches
 )
 ;
 }
+explicit
 MultiTouchInput
 (
 const
@@ -1175,6 +1176,7 @@ and
 rotation
 angle
 .
+explicit
 MultiTouchInput
 (
 const

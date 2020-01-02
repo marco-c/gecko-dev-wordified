@@ -353,6 +353,7 @@ Takes
 ownership
 of
 aInnerTransformTextRunFactory
+explicit
 nsCaseTransformTextRunFactory
 (
 nsTransformingTextRunFactory
