@@ -10487,7 +10487,10 @@ NullPtr
 nullptr
 aScriptURL
 false
-true
+WorkerPrivate
+:
+:
+WorkerTypeShared
 aName
 &
 loadInfo
