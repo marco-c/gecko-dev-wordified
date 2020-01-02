@@ -214,7 +214,7 @@ jsm
 "
 true
 "
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_FILE_NOT_FOUND
 "
 )
 ;
