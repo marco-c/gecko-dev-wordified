@@ -50687,6 +50687,16 @@ favicon
 "
 )
 ;
+if
+(
+bytes
+&
+&
+bytes
+.
+length
+)
+{
 favicon
 =
 "
@@ -50694,7 +50704,9 @@ data
 :
 image
 /
-png
+x
+-
+icon
 ;
 base64
 "
@@ -50712,6 +50724,7 @@ bytes
 )
 )
 ;
+}
 }
 handleCompletion
 :
