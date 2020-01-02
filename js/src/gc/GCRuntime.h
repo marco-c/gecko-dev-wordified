@@ -2152,6 +2152,14 @@ Reason
 reason
 )
 ;
+gcstats
+:
+:
+ZoneGCStats
+scanZonesBeforeGC
+(
+)
+;
 void
 budgetIncrementalGC
 (
