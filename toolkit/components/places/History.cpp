@@ -1710,7 +1710,6 @@ JS_NewArrayObject
 (
 aCtx
 0
-nullptr
 )
 )
 ;

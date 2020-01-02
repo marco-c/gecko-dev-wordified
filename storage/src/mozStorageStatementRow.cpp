@@ -680,7 +680,6 @@ JS_NewArrayObject
 (
 aCtx
 length
-nullptr
 )
 ;
 if

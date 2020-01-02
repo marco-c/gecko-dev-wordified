@@ -6791,15 +6791,6 @@ JS_NewArrayObject
 (
 mContext
 args
-.
-length
-(
-)
-args
-.
-begin
-(
-)
 )
 ;
 if

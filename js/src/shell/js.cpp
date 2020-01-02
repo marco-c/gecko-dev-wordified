@@ -14081,7 +14081,6 @@ JS_NewArrayObject
 (
 cx
 0
-nullptr
 )
 )
 ;
@@ -32697,7 +32696,6 @@ JS_NewArrayObject
 (
 cx
 0
-nullptr
 )
 ;
 if

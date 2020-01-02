@@ -294,7 +294,6 @@ JS_NewArrayObject
 (
 cx
 0
-nullptr
 )
 ;
 CHECK

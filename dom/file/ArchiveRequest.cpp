@@ -812,7 +812,6 @@ aFileList
 Length
 (
 )
-nullptr
 )
 )
 ;
@@ -1142,7 +1141,6 @@ aFileList
 Length
 (
 )
-nullptr
 )
 )
 ;

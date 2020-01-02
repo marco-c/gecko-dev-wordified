@@ -37416,7 +37416,6 @@ JS_NewArrayObject
 (
 cx
 length
-nullptr
 )
 )
 ;

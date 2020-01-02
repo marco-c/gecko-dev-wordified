@@ -3289,7 +3289,6 @@ JS_NewArrayObject
 (
 cx
 aCountdown
-nullptr
 )
 ;
 mozilla
@@ -3859,7 +3858,6 @@ JS_NewArrayObject
 (
 aCx
 0
-nullptr
 )
 )
 ;

@@ -861,7 +861,6 @@ JS_NewArrayObject
 (
 cx
 aSize
-nullptr
 )
 )
 ;

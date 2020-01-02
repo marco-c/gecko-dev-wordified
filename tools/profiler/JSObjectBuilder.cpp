@@ -683,7 +683,6 @@ JS_NewArrayObject
 (
 mCx
 0
-nullptr
 )
 ;
 if
