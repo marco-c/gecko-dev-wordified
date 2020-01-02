@@ -903,9 +903,7 @@ Unicode
 path
 directly
 .
-const
-char16_t
-*
+char16ptr_t
 pathChars
 =
 JS_GetFlatStringChars
