@@ -161,15 +161,6 @@ aNode
 ;
 static
 bool
-IsBreak
-(
-nsINode
-*
-aNode
-)
-;
-static
-bool
 IsMozBR
 (
 nsIDOMNode
