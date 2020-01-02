@@ -524,6 +524,15 @@ MDefinition
 mir
 )
 ;
+inline
+LAllocation
+useOrConstantAtStart
+(
+MDefinition
+*
+mir
+)
+;
 /
 /
 "
