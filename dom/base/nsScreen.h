@@ -133,7 +133,7 @@ include
 "
 mozilla
 /
-Hal
+HalScreenConfiguration
 .
 h
 "
