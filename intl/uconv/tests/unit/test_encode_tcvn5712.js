@@ -651,7 +651,7 @@ run_test
 (
 )
 {
-testEncodeAliases
+testEncodeAliasesInternal
 (
 )
 ;

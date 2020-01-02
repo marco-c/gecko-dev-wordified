@@ -170,11 +170,6 @@ nsISO2022KRToUnicode
 (
 )
 {
-NS_IF_RELEASE
-(
-mEUCKRDecoder
-)
-;
 }
 NS_IMETHOD
 Convert
@@ -268,8 +263,10 @@ run
 uint32_t
 mRunLength
 ;
+nsCOMPtr
+<
 nsIUnicodeDecoder
-*
+>
 mEUCKRDecoder
 ;
 }

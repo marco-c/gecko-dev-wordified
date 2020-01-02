@@ -121,6 +121,13 @@ nsISaveAsCharset
 h
 "
 #
+include
+"
+nsCOMPtr
+.
+h
+"
+#
 define
 MASK_FALLBACK
 (

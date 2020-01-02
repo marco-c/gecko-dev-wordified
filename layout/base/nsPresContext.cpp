@@ -7137,10 +7137,6 @@ mLangService
 LookupCharSet
 (
 aCharSet
-.
-get
-(
-)
 )
 ;
 /

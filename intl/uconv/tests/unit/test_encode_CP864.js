@@ -586,6 +586,8 @@ xfd
 xfe
 "
 ;
+/
+/
 const
 aliases
 =
@@ -609,6 +611,15 @@ csibm864
 ibm
 -
 864
+"
+]
+;
+const
+aliases
+=
+[
+"
+IBM864
 "
 ]
 ;

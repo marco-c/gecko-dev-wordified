@@ -156,9 +156,6 @@ class
 nsITextToSubURI
 ;
 class
-nsIUnicodeEncoder
-;
-class
 nsIndexedToHTML
 :
 public
@@ -292,12 +289,6 @@ nsCOMPtr
 nsITextToSubURI
 >
 mTextToSubURI
-;
-nsCOMPtr
-<
-nsIUnicodeEncoder
->
-mUnicodeEncoder
 ;
 private
 :

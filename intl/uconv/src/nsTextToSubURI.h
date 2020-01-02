@@ -104,6 +104,13 @@ nsITextToSubURI
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 /
 /
 =

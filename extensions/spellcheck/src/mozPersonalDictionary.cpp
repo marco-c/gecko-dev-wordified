@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsICharsetConverterManager
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
