@@ -2667,11 +2667,9 @@ callback_
 {
 /
 /
-Keep
-at
-least
+Drop
 the
-last
+first
 1
 /
 4
@@ -2726,6 +2724,8 @@ n
 n
 <
 WEBRTC_TRACE_MAX_QUEUE
+*
+3
 /
 4
 ;
@@ -2739,7 +2739,7 @@ int
 last_quarter_offset
 =
 (
-3
+1
 *
 WEBRTC_TRACE_MAX_QUEUE
 /
@@ -2776,6 +2776,8 @@ active_queue_
 ]
 =
 WEBRTC_TRACE_MAX_QUEUE
+*
+3
 /
 4
 ;
