@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsIScrollbarMediator
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -218,6 +225,8 @@ nsIScrollableFrame
 :
 public
 nsIScrollbarOwner
+public
+nsIScrollbarMediator
 {
 public
 :
