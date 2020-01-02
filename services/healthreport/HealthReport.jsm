@@ -82,6 +82,9 @@ CrashesProvider
 HealthReportProvider
 "
 "
+HotfixProvider
+"
+"
 Metrics
 "
 "
