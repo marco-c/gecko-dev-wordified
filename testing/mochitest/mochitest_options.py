@@ -6814,6 +6814,23 @@ specialpowers
 "
 ]
         
+#
+See
+dependencies
+of
+bug
+1038943
+.
+        
+defaults
+[
+"
+leakThreshold
+"
+]
+=
+5200
+        
 self
 .
 set_defaults

@@ -10291,6 +10291,9 @@ options
 debugger
 =
 False
+env
+=
+None
 )
 :
     
@@ -10345,15 +10348,19 @@ xrePath
 options
 .
 xrePath
+env
+=
+env
+                                  
 debugger
 =
 debugger
-                                  
 dmdPath
 =
 options
 .
 dmdPath
+                                  
 lsanPath
 =
 lsanPath
