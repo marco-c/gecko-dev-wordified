@@ -2940,6 +2940,25 @@ enabled
 False
                    
 #
+Dismiss
+first
+run
+content
+overlay
+                   
+'
+browser
+.
+firstrun
+-
+content
+.
+dismissed
+'
+:
+True
+                   
+#
 Don
 '
 t
