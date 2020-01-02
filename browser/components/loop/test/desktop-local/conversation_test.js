@@ -978,7 +978,7 @@ value
 return
 TestUtils
 .
-isComponentOfType
+isDescriptorOfType
 (
 value
 loop
@@ -1260,7 +1260,7 @@ value
 return
 TestUtils
 .
-isComponentOfType
+isDescriptorOfType
 (
 value
 loop
@@ -1652,7 +1652,7 @@ value
 return
 TestUtils
 .
-isComponentOfType
+isDescriptorOfType
 (
 value
 loop

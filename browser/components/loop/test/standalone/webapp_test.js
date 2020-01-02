@@ -1026,7 +1026,7 @@ addons
 .
 TestUtils
 .
-isComponentOfType
+isDescriptorOfType
 (
 value
 loop
@@ -1160,7 +1160,7 @@ addons
 .
 TestUtils
 .
-isComponentOfType
+isDescriptorOfType
 (
 value
 loop
@@ -1336,7 +1336,7 @@ addons
 .
 TestUtils
 .
-isComponentOfType
+isDescriptorOfType
 (
 value
 loop
