@@ -695,6 +695,15 @@ return
 NS_OK
 ;
 }
+if
+(
+!
+imgDoc
+-
+>
+mObservingImageLoader
+)
+{
 nsCOMPtr
 <
 nsIImageLoadingContent
@@ -742,6 +751,7 @@ mNextStream
 )
 )
 ;
+}
 return
 MediaDocumentStreamListener
 :
@@ -2033,8 +2043,10 @@ if
 !
 shell
 )
+{
 return
 ;
+}
 nsIScrollableFrame
 *
 sf
@@ -2051,8 +2063,10 @@ if
 !
 sf
 )
+{
 return
 ;
+}
 nsRect
 portRect
 =
