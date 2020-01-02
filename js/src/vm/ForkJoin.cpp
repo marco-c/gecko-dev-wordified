@@ -3682,6 +3682,7 @@ MOZ_ASSERT
 (
 sliceStart
 <
+=
 sliceEnd
 )
 ;
