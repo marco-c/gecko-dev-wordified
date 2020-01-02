@@ -12566,6 +12566,14 @@ away
 if
 (
 mCrypto
+&
+&
+XRE_GetProcessType
+(
+)
+!
+=
+GeckoProcessType_Content
 )
 {
 nsresult
