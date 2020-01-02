@@ -1654,12 +1654,7 @@ jsid
 %
 s
 =
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 ;
 \
 n

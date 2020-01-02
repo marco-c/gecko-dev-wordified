@@ -1326,12 +1326,7 @@ bp
 id
 =
 =
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 )
 return
 false

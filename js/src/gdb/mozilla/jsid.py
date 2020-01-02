@@ -349,12 +349,7 @@ TYPE_VOID
             
 return
 "
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 "
         
 elif

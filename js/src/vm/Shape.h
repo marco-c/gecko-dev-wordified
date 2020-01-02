@@ -10793,12 +10793,7 @@ base
 )
 propid_
 (
-jsid
-:
-:
-emptyId
-(
-)
+JSID_EMPTY
 )
 slotInfo
 (

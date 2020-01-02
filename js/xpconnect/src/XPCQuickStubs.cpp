@@ -1358,12 +1358,7 @@ cx
 str
 )
 :
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 )
 ;
 GetMemberInfo
@@ -2140,12 +2135,7 @@ ThrowBadArg
 cx
 rv
 ifaceName
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 memberName
 paramnum
 )

@@ -4390,12 +4390,7 @@ ids
 .
 append
 (
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 )
 )
 return

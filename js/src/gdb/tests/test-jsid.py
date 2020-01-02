@@ -54,12 +54,7 @@ assert_pretty
 void_id
 '
 '
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 '
 )
 assert_pretty

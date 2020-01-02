@@ -202,12 +202,7 @@ dom
 jsid
 s_length_id
 =
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 ;
 bool
 DefineStaticJSVals

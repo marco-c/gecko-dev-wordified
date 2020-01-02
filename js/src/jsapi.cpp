@@ -21444,12 +21444,7 @@ isEmptyShape
 *
 idp
 =
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 ;
 }
 else
@@ -21558,12 +21553,7 @@ i
 *
 idp
 =
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 ;
 }
 else

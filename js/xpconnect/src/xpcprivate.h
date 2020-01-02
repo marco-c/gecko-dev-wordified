@@ -22269,12 +22269,7 @@ options
 defineAs
 (
 cx
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 )
 {
 }
@@ -22337,12 +22332,7 @@ options
 defineAs
 (
 cx
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 )
 {
 }

@@ -9196,12 +9196,7 @@ pref
 .
 Put
 a
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 in
 on
 the
@@ -9220,12 +9215,7 @@ pref
 *
 ids
 =
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 ;
 +
 +

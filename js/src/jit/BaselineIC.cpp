@@ -10793,12 +10793,7 @@ isNative
 ;
 id
 =
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 ;
 types
 :
