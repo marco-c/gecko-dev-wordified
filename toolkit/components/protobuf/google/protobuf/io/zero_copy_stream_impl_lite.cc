@@ -391,6 +391,11 @@ inl
 .
 h
 >
+#
+include
+<
+algorithm
+>
 namespace
 google
 {
