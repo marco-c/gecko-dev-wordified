@@ -5346,6 +5346,16 @@ function
 (
 )
 {
+if
+(
+this
+.
+_closed
+)
+{
+return
+;
+}
 this
 .
 _queueOrRun
