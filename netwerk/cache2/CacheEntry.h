@@ -1017,9 +1017,10 @@ void
 RememberCallback
 (
 Callback
-const
 &
 aCallback
+bool
+aBypassIfBusy
 )
 ;
 void
