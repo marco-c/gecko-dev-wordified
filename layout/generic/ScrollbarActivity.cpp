@@ -110,6 +110,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsIDOMEvent
 .
 h

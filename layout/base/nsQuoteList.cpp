@@ -137,6 +137,13 @@ nsReadableUtils
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 bool
 nsQuoteNode
 :

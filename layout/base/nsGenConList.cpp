@@ -133,6 +133,13 @@ nsLayoutUtils
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 void
 nsGenConList
 :

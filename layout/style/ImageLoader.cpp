@@ -137,6 +137,13 @@ nsSVGEffects
 .
 h
 "
+#
+include
+"
+imgIContainer
+.
+h
+"
 namespace
 mozilla
 {

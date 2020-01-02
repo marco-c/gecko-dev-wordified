@@ -582,6 +582,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences

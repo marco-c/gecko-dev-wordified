@@ -126,6 +126,13 @@ SVGFEMergeNodeElement
 .
 h
 "
+#
+include
+"
+gfxContext
+.
+h
+"
 NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT
 (
 FEMerge

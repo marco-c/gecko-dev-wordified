@@ -433,6 +433,13 @@ h
 "
 #
 include
+"
+nsIFrameInlines
+.
+h
+"
+#
+include
 <
 algorithm
 >

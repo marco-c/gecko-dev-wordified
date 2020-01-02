@@ -1121,6 +1121,13 @@ nsIDragSession
 h
 "
 #
+include
+"
+nsIFrameInlines
+.
+h
+"
+#
 ifdef
 ANDROID
 #

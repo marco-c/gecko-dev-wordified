@@ -168,6 +168,13 @@ endif
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions

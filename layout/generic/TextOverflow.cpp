@@ -209,6 +209,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Util

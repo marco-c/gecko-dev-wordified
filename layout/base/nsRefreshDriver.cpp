@@ -414,6 +414,13 @@ Layers
 .
 h
 "
+#
+include
+"
+imgIContainer
+.
+h
+"
 using
 namespace
 mozilla

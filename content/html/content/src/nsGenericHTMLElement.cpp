@@ -330,7 +330,7 @@ h
 #
 include
 "
-nsIFrame
+nsIFrameInlines
 .
 h
 "
@@ -791,6 +791,13 @@ mozilla
 dom
 /
 HTMLBodyElement
+.
+h
+"
+#
+include
+"
+imgIContainer
 .
 h
 "

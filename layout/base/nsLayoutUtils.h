@@ -145,6 +145,9 @@ class
 nsBlockFrame
 ;
 class
+gfxASurface
+;
+class
 gfxDrawable
 ;
 class
