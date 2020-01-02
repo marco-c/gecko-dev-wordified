@@ -322,7 +322,7 @@ get_default_logger
 component
 =
 "
-DeviceManager
+mozdevice
 "
 )
             
@@ -352,7 +352,7 @@ mozlog
 getLogger
 (
 "
-DeviceManager
+mozdevice
 "
 )
                 
