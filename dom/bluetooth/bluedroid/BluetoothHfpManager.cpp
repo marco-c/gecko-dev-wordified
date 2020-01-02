@@ -4888,6 +4888,9 @@ aNumber
 const
 bool
 aIsOutgoing
+const
+bool
+aIsConference
 bool
 aSend
 )

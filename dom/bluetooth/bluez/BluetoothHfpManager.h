@@ -348,6 +348,9 @@ false
 :
 outgoing
 call
+bool
+mIsConference
+;
 nsString
 mNumber
 ;
@@ -648,6 +651,9 @@ aNumber
 const
 bool
 aIsOutgoing
+const
+bool
+aIsConference
 bool
 aSend
 )
