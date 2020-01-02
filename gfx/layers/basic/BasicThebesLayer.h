@@ -404,6 +404,13 @@ mInvalidRegion
 aRegion
 )
 ;
+mInvalidRegion
+.
+SimplifyOutward
+(
+20
+)
+;
 mValidRegion
 .
 Sub

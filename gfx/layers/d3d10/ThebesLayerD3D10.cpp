@@ -308,7 +308,7 @@ mInvalidRegion
 .
 SimplifyOutward
 (
-10
+20
 )
 ;
 mValidRegion
