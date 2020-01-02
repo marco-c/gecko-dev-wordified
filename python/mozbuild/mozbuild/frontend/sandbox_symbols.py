@@ -2400,9 +2400,13 @@ libxul
 .
         
 Implies
-MOZILLA_INTERNAL_API
-and
 FORCE_STATIC_LIB
+and
+the
+MOZILLA_INTERNAL_API
+        
+preprocessor
+macro
 .
         
 "
