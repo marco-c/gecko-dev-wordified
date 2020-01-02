@@ -11850,6 +11850,9 @@ poppedValues
 break
 ;
 case
+JSOP_MUTATEPROTO
+:
+case
 JSOP_INITPROP
 :
 case
