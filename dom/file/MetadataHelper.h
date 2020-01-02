@@ -311,8 +311,13 @@ aCx
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 aVal
 )
 MOZ_OVERRIDE

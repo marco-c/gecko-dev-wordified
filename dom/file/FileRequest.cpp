@@ -518,11 +518,8 @@ aFileHelper
 GetSuccessResult
 (
 cx
+&
 result
-.
-address
-(
-)
 )
 ;
 if
