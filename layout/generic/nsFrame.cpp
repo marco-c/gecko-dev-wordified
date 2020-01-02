@@ -13659,8 +13659,6 @@ buildingDisplayList
 SetDirtyRect
 (
 aDirtyRect
-+
-offsetToReferenceFrame
 )
 ;
 if
