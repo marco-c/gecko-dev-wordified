@@ -10813,11 +10813,6 @@ REGS
 fp
 (
 )
--
->
-hasPushedSPSFrame
-(
-)
 )
 ;
 #
@@ -21276,11 +21271,6 @@ function
 REGS
 .
 fp
-(
-)
--
->
-hasPushedSPSFrame
 (
 )
 )
