@@ -1277,7 +1277,7 @@ this
 .
 _nfcContentHelper
 .
-setSessionToken
+checkSessionToken
 (
 sessionToken
 )
@@ -1322,7 +1322,7 @@ this
 .
 _nfcContentHelper
 .
-setSessionToken
+checkSessionToken
 (
 sessionToken
 )
