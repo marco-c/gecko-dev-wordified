@@ -908,7 +908,7 @@ frames
 .
 virtual
 int
-GetSendCodecStastistics
+GetSendCodecStatistics
 (
 const
 int
@@ -944,7 +944,7 @@ frames
 .
 virtual
 int
-GetReceiveCodecStastistics
+GetReceiveCodecStatistics
 (
 const
 int

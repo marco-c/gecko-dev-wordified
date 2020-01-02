@@ -2924,7 +2924,7 @@ int
 ViECodecImpl
 :
 :
-GetSendCodecStastistics
+GetSendCodecStatistics
 (
 const
 int
@@ -3079,7 +3079,7 @@ int
 ViECodecImpl
 :
 :
-GetReceiveCodecStastistics
+GetReceiveCodecStatistics
 (
 const
 int
