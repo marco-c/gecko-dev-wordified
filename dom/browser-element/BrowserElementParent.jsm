@@ -1802,6 +1802,13 @@ this
 .
 _fireEventFromMsg
 "
+manifestchange
+"
+:
+this
+.
+_fireEventFromMsg
+"
 metachange
 "
 :
