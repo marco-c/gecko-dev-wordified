@@ -1652,6 +1652,14 @@ GetNullableSelf
 (
 )
 ;
+already_AddRefed
+<
+TestInterface
+>
+CachedSelf
+(
+)
+;
 void
 SetNullableSelf
 (
