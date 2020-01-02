@@ -8126,7 +8126,7 @@ HTTP_TRANSACTION_IS_SSL
 mConnectionInfo
 -
 >
-UsingSSL
+EndToEndSSL
 (
 )
 )
@@ -8150,7 +8150,7 @@ HTTP_PAGELOAD_IS_SSL
 mConnectionInfo
 -
 >
-UsingSSL
+EndToEndSSL
 (
 )
 )
@@ -8872,7 +8872,7 @@ httpStatus
 mConnectionInfo
 -
 >
-UsingSSL
+EndToEndSSL
 (
 )
 &
@@ -23890,7 +23890,7 @@ IsPersistentHttpsCachingEnabled
 mConnectionInfo
 -
 >
-UsingSSL
+EndToEndSSL
 (
 )
 )
@@ -29750,6 +29750,13 @@ proxyInfo
 usingSSL
 )
 ;
+mRequestHead
+.
+SetHTTPS
+(
+usingSSL
+)
+;
 mAuthProvider
 =
 do_CreateInstance
@@ -32287,7 +32294,7 @@ aIsSSL
 mConnectionInfo
 -
 >
-UsingSSL
+EndToEndSSL
 (
 )
 ;

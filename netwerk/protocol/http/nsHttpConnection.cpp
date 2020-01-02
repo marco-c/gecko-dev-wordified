@@ -2672,7 +2672,7 @@ if
 mConnInfo
 -
 >
-UsingSSL
+EndToEndSSL
 (
 )
 )
@@ -6110,7 +6110,7 @@ proxy
 CONNECT
 succeeded
 !
-ssl
+endtoendssl
 =
 %
 s
@@ -6120,7 +6120,7 @@ n
 mConnInfo
 -
 >
-UsingSSL
+EndToEndSSL
 (
 )
 ?
@@ -6147,7 +6147,7 @@ if
 mConnInfo
 -
 >
-UsingSSL
+EndToEndSSL
 (
 )
 )
@@ -6255,7 +6255,7 @@ proxy
 CONNECT
 failed
 !
-ssl
+endtoendssl
 =
 %
 s
@@ -6265,7 +6265,7 @@ n
 mConnInfo
 -
 >
-UsingSSL
+EndToEndSSL
 (
 )
 ?
