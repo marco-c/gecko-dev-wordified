@@ -140,6 +140,17 @@ nsNameSpaceManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+NameSpaceConstants
+.
+h
+"
 template
 <
 >

@@ -895,9 +895,15 @@ nullptr
 create
 the
 cell
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 nodeInfo
 ;

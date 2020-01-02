@@ -117,7 +117,11 @@ h
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "

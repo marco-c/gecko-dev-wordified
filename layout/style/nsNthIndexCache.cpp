@@ -136,6 +136,17 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+NodeInfoInlines
+.
+h
+"
 nsNthIndexCache
 :
 :

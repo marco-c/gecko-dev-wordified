@@ -10750,7 +10750,13 @@ GetNextSibling
 )
 )
 {
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 *
 ni
 =

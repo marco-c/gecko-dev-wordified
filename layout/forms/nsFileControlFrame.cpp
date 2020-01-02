@@ -124,7 +124,11 @@ h
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "
@@ -757,9 +761,9 @@ the
 selected
 files
 .
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+NodeInfo
 >
 nodeInfo
 ;

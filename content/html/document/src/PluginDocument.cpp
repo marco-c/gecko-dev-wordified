@@ -1132,9 +1132,15 @@ false
 make
 plugin
 content
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 nodeInfo
 ;

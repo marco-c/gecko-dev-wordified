@@ -289,13 +289,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

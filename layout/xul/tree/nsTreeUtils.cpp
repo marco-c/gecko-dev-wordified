@@ -142,13 +142,6 @@ nsGkAtoms
 .
 h
 "
-#
-include
-"
-nsINodeInfo
-.
-h
-"
 using
 namespace
 mozilla

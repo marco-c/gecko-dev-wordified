@@ -159,13 +159,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h

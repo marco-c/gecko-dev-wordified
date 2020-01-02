@@ -388,9 +388,15 @@ aIndex
 create
 the
 row
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 nodeInfo
 ;

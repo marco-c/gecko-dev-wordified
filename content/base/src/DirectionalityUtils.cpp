@@ -2354,7 +2354,13 @@ Element
 aElement
 )
 {
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 *
 nodeInfo
 =

@@ -159,9 +159,6 @@ class
 nsIDocument
 ;
 class
-nsINodeInfo
-;
-class
 nsPIDOMWindow
 ;
 class
@@ -219,7 +216,13 @@ nsIContent
 aContent
 already_AddRefed
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 &
 &

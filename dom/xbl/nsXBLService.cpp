@@ -5337,7 +5337,7 @@ true
 ;
 }
 }
-nsINodeInfo
+NodeInfo
 *
 ni
 =

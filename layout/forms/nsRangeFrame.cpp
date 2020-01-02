@@ -177,13 +177,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

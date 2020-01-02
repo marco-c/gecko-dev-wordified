@@ -546,9 +546,15 @@ NS_ERROR_FAILURE
 /
 make
 content
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 nodeInfo
 ;

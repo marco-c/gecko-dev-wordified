@@ -397,7 +397,13 @@ nsIContent
 aContent
 already_AddRefed
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 &
 &

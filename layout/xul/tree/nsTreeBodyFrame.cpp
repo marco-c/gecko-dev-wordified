@@ -422,7 +422,11 @@ h
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "
@@ -25892,7 +25896,10 @@ if
 content
 )
 {
-nsINodeInfo
+dom
+:
+:
+NodeInfo
 *
 ni
 =

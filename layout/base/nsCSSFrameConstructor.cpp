@@ -1124,7 +1124,11 @@ aContext
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "
@@ -10558,9 +10562,9 @@ handle
 .
 .
 .
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+NodeInfo
 >
 nodeInfo
 ;
@@ -11544,9 +11548,9 @@ property
 for
 us
 .
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+NodeInfo
 >
 nodeInfo
 ;

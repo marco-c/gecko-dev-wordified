@@ -135,7 +135,11 @@ NS_IMPL_ELEMENT_CLONE
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "

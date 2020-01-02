@@ -138,7 +138,11 @@ h
 #
 include
 "
-nsNameSpaceManager
+mozilla
+/
+dom
+/
+NameSpaceConstants
 .
 h
 "

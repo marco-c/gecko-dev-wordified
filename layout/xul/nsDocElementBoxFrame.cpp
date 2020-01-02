@@ -180,7 +180,11 @@ h
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "
@@ -608,9 +612,9 @@ node
 .
 shhhhh
 !
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+NodeInfo
 >
 nodeInfo
 ;
