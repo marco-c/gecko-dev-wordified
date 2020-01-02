@@ -6628,7 +6628,7 @@ GetCustomElementData
 /
 Enqueue
 an
-enteredView
+attached
 callback
 for
 the
@@ -6643,7 +6643,7 @@ EnqueueLifecycleCallback
 nsIDocument
 :
 :
-eEnteredView
+eAttached
 this
 )
 ;
@@ -7656,7 +7656,7 @@ GetCustomElementData
 /
 Enqueue
 a
-leftView
+detached
 callback
 for
 the
@@ -7671,7 +7671,7 @@ EnqueueLifecycleCallback
 nsIDocument
 :
 :
-eLeftView
+eDetached
 this
 )
 ;

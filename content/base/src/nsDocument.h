@@ -1814,7 +1814,7 @@ of
 callback
 (
 eCreated
-eEnteredView
+eAttached
 etc
 .
 )
