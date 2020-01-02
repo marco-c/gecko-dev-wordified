@@ -399,12 +399,14 @@ shadereditor
 properties
 "
 const
-HIGHLIGHT_COLOR
+HIGHLIGHT_TINT
 =
 [
 1
 0
 0
+.
+25
 1
 ]
 ;
@@ -2144,7 +2146,7 @@ programActor
 .
 highlight
 (
-HIGHLIGHT_COLOR
+HIGHLIGHT_TINT
 )
 ;
 if
