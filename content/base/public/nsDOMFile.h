@@ -2023,6 +2023,16 @@ nsIInputStream
 )
 MOZ_OVERRIDE
 ;
+NS_IMETHOD_
+(
+bool
+)
+IsMemoryFile
+(
+void
+)
+MOZ_OVERRIDE
+;
 protected
 :
 /
