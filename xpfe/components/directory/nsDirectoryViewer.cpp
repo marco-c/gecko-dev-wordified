@@ -192,13 +192,6 @@ h
 #
 include
 "
-nsCRT
-.
-h
-"
-#
-include
-"
 nsEnumeratorUtils
 .
 h
@@ -7150,8 +7143,10 @@ rv
 bool
 viewSource
 =
-(
-PL_strstr
+aContentType
+&
+&
+strstr
 (
 aContentType
 "
@@ -7159,10 +7154,6 @@ view
 -
 source
 "
-)
-!
-=
-0
 )
 ;
 if
