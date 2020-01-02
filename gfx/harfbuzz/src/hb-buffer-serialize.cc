@@ -1250,8 +1250,10 @@ x_advance
 if
 (
 pos
--
->
+[
+i
+]
+.
 y_advance
 )
 p

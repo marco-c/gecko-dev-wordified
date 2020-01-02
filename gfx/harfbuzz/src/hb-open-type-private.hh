@@ -227,15 +227,6 @@ private
 .
 hh
 "
-#
-include
-"
-hb
--
-blob
-.
-h
-"
 namespace
 OT
 {
@@ -4333,7 +4324,7 @@ this
 )
 ;
 }
-private
+protected
 :
 LONG
 major

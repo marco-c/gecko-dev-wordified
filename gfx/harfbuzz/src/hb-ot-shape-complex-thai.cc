@@ -2482,12 +2482,7 @@ data_destroy
 *
 /
 preprocess_text_thai
-NULL
-/
-*
-normalization_preference
-*
-/
+HB_OT_SHAPE_NORMALIZATION_MODE_DEFAULT
 NULL
 /
 *
@@ -2506,7 +2501,7 @@ NULL
 setup_masks
 *
 /
-HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_UNICODE_LATE
+HB_OT_SHAPE_ZERO_WIDTH_MARKS_DEFAULT
 false
 /
 *
