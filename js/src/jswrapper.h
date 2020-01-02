@@ -492,6 +492,7 @@ handler
 )
 ;
 static
+const
 Wrapper
 *
 wrapperHandler
