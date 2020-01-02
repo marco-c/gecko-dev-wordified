@@ -8155,11 +8155,8 @@ if
 JS_WrapValue
 (
 aCx
+&
 prop_val
-.
-address
-(
-)
 )
 )
 {

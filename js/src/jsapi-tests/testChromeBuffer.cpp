@@ -444,11 +444,8 @@ CHECK
 JS_WrapValue
 (
 cx
+&
 v
-.
-address
-(
-)
 )
 )
 ;
@@ -738,11 +735,8 @@ CHECK
 JS_WrapValue
 (
 cx
+&
 v
-.
-address
-(
-)
 )
 )
 ;

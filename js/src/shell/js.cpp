@@ -6611,7 +6611,11 @@ return
 JS_WrapValue
 (
 cx
-vp
+args
+.
+rval
+(
+)
 )
 ;
 }
@@ -21825,7 +21829,11 @@ return
 JS_WrapValue
 (
 cx
-vp
+args
+.
+rval
+(
+)
 )
 ;
 }

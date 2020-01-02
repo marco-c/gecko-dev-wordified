@@ -2059,11 +2059,8 @@ if
 JS_WrapValue
 (
 cx
+&
 v
-.
-address
-(
-)
 )
 )
 {

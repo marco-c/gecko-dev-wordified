@@ -6367,11 +6367,8 @@ if
 JS_WrapValue
 (
 aCx
+&
 txVal
-.
-address
-(
-)
 )
 )
 {

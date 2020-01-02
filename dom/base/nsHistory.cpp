@@ -741,11 +741,8 @@ if
 JS_WrapValue
 (
 aCx
+&
 jsData
-.
-address
-(
-)
 )
 )
 {

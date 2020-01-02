@@ -2588,11 +2588,8 @@ if
 JS_WrapValue
 (
 cx
+&
 realVal
-.
-address
-(
-)
 )
 )
 return
@@ -2661,11 +2658,8 @@ if
 JS_WrapValue
 (
 cx
+&
 realVal
-.
-address
-(
-)
 )
 )
 return

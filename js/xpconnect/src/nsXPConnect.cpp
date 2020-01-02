@@ -5604,7 +5604,6 @@ RootedValue
 rval
 (
 cx
-JSVAL_VOID
 )
 ;
 SandboxOptions
@@ -5616,11 +5615,8 @@ rv
 CreateSandboxObject
 (
 cx
+&
 rval
-.
-address
-(
-)
 principal
 options
 )

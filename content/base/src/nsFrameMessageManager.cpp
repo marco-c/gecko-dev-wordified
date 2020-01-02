@@ -5162,11 +5162,8 @@ if
 JS_WrapValue
 (
 ctx
+&
 argv
-.
-address
-(
-)
 )
 )
 {

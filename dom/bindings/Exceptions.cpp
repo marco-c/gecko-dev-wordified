@@ -555,11 +555,8 @@ if
 JS_WrapValue
 (
 aCx
+&
 thrown
-.
-address
-(
-)
 )
 )
 {

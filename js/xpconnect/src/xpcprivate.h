@@ -24019,8 +24019,10 @@ CreateSandboxObject
 JSContext
 *
 cx
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 vp
 nsISupports
 *
