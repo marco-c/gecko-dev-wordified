@@ -345,7 +345,7 @@ mRemoteStackDepthGuess
 (
 false
 )
-mSawRPCOutMsg
+mSawInterruptOutMsg
 (
 false
 )
@@ -1603,7 +1603,7 @@ return
 Regardless
 of
 the
-RPC
+Interrupt
 stack
 if
 we
@@ -1965,7 +1965,7 @@ are
 waiting
 on
 an
-RPC
+Interrupt
 reply
 -
 main
@@ -2059,7 +2059,7 @@ again
 /
 if
 (
-AwaitingRPCReply
+AwaitingInterruptReply
 (
 )
 |
@@ -2084,7 +2084,7 @@ Always
 wake
 up
 our
-RPC
+Interrupt
 waiter
 and
 wake
@@ -2122,7 +2122,7 @@ an
 /
 /
 incoming
-RPC
+Interrupt
 that
 raced
 with
@@ -2314,7 +2314,7 @@ and
 the
 new
 followup
-RPC
+Interrupt
 protocol
 land
 .
@@ -2503,7 +2503,7 @@ nest
 IPC_ASSERT
 (
 !
-AwaitingRPCReply
+AwaitingInterruptReply
 (
 )
 "
@@ -2513,7 +2513,7 @@ cannot
 be
 issued
 within
-RPC
+Interrupt
 calls
 "
 )
@@ -3036,7 +3036,7 @@ aReply
 )
 ;
 return
-RPCCall
+InterruptCall
 (
 aMsg
 aReply
@@ -3047,7 +3047,7 @@ bool
 MessageChannel
 :
 :
-RPCCall
+InterruptCall
 (
 Message
 *
@@ -3162,7 +3162,7 @@ AwaitingUrgentReply
 "
 cannot
 issue
-RPC
+Interrupt
 call
 whiel
 blocked
@@ -3210,7 +3210,7 @@ IPC_ASSERT
 aMsg
 -
 >
-is_rpc
+is_interrupt
 (
 )
 "
@@ -3219,7 +3219,7 @@ only
 Call
 (
 )
-RPC
+Interrupt
 messages
 here
 "
@@ -3247,7 +3247,7 @@ NextSeqno
 msg
 -
 >
-set_rpc_remote_stack_depth_guess
+set_interrupt_remote_stack_depth_guess
 (
 mRemoteStackDepthGuess
 )
@@ -3255,16 +3255,16 @@ mRemoteStackDepthGuess
 msg
 -
 >
-set_rpc_local_stack_depth
+set_interrupt_local_stack_depth
 (
 1
 +
-RPCStackDepth
+InterruptStackDepth
 (
 )
 )
 ;
-mRPCStack
+mInterruptStack
 .
 push
 (
@@ -3361,7 +3361,7 @@ ReportConnectionError
 MessageChannel
 :
 :
-RPCCall
+InterruptCall
 "
 )
 ;
@@ -3404,7 +3404,7 @@ occur
 while
 (
 !
-RPCEventOccurred
+InterruptEventOccurred
 (
 )
 )
@@ -3413,7 +3413,7 @@ bool
 maybeTimedOut
 =
 !
-WaitForRPCNotify
+WaitForInterruptNotify
 (
 )
 ;
@@ -3446,7 +3446,7 @@ process
 .
 if
 (
-RPCEventOccurred
+InterruptEventOccurred
 (
 )
 |
@@ -3526,7 +3526,7 @@ mOutOfTurnReplies
 .
 find
 (
-mRPCStack
+mInterruptStack
 .
 top
 (
@@ -3660,7 +3660,7 @@ the
 message
 is
 not
-RPC
+Interrupt
 we
 can
 dispatch
@@ -3673,7 +3673,7 @@ if
 !
 recvd
 .
-is_rpc
+is_interrupt
 (
 )
 )
@@ -3766,7 +3766,7 @@ the
 message
 is
 an
-RPC
+Interrupt
 reply
 either
 process
@@ -3809,14 +3809,14 @@ is_reply
 IPC_ASSERT
 (
 !
-mRPCStack
+mInterruptStack
 .
 empty
 (
 )
 "
 invalid
-RPC
+Interrupt
 stack
 "
 )
@@ -3859,7 +3859,7 @@ Message
 &
 outcall
 =
-mRPCStack
+mInterruptStack
 .
 top
 (
@@ -4020,7 +4020,7 @@ return
 the
 reply
 .
-mRPCStack
+mInterruptStack
 .
 pop
 (
@@ -4068,7 +4068,7 @@ empty
 IPC_ASSERT
 (
 !
-mRPCStack
+mInterruptStack
 .
 empty
 (
@@ -4108,7 +4108,7 @@ is_reply_error
 /
 Dispatch
 an
-RPC
+Interrupt
 in
 -
 call
@@ -4129,7 +4129,7 @@ monitor
 size_t
 stackDepth
 =
-RPCStackDepth
+InterruptStackDepth
 (
 )
 ;
@@ -4151,7 +4151,7 @@ IN_MESSAGE
 recvd
 )
 ;
-DispatchRPCMessage
+DispatchInterruptMessage
 (
 recvd
 stackDepth
@@ -4172,7 +4172,7 @@ ReportConnectionError
 MessageChannel
 :
 :
-DispatchRPCMessage
+DispatchInterruptMessage
 "
 )
 ;
@@ -4189,7 +4189,7 @@ bool
 MessageChannel
 :
 :
-RPCEventOccurred
+InterruptEventOccurred
 (
 )
 {
@@ -4206,7 +4206,7 @@ AssertCurrentThreadOwns
 ;
 IPC_ASSERT
 (
-RPCStackDepth
+InterruptStackDepth
 (
 )
 >
@@ -4251,7 +4251,7 @@ mOutOfTurnReplies
 .
 find
 (
-mRPCStack
+mInterruptStack
 .
 top
 (
@@ -4392,7 +4392,7 @@ IsOnCxxStack
 &
 recvd
 .
-is_rpc
+is_interrupt
 (
 )
 &
@@ -4420,7 +4420,7 @@ for
 an
 /
 /
-RPC
+Interrupt
 call
 sent
 before
@@ -4506,11 +4506,11 @@ if
 (
 aMsg
 .
-is_rpc
+is_interrupt
 (
 )
 )
-DispatchRPCMessage
+DispatchInterruptMessage
 (
 aMsg
 0
@@ -4782,7 +4782,7 @@ MOZ_ASSERT
 !
 aMsg
 .
-is_rpc
+is_interrupt
 (
 )
 &
@@ -4845,7 +4845,7 @@ void
 MessageChannel
 :
 :
-DispatchRPCMessage
+DispatchInterruptMessage
 (
 const
 Message
@@ -4870,7 +4870,7 @@ IPC_ASSERT
 (
 aMsg
 .
-is_rpc
+is_interrupt
 (
 )
 &
@@ -4902,7 +4902,7 @@ mRemoteStackDepthGuess
 in
 /
 /
-RPCChannel
+MessageChannel
 .
 h
 .
@@ -4929,7 +4929,7 @@ if
 (
 aMsg
 .
-rpc_remote_stack_depth_guess
+interrupt_remote_stack_depth_guess
 (
 )
 !
@@ -4942,7 +4942,7 @@ stackDepth
 {
 /
 /
-RPC
+Interrupt
 in
 -
 calls
@@ -4984,7 +4984,7 @@ switch
 mListener
 -
 >
-MediateRPCRace
+MediateInterruptRace
 (
 (
 mSide
@@ -4995,7 +4995,7 @@ ChildSide
 ?
 aMsg
 :
-mRPCStack
+mInterruptStack
 .
 top
 (
@@ -5007,7 +5007,7 @@ mSide
 ChildSide
 )
 ?
-mRPCStack
+mInterruptStack
 .
 top
 (
@@ -5018,7 +5018,7 @@ aMsg
 )
 {
 case
-RRPChildWins
+RIPChildWins
 :
 winner
 =
@@ -5038,7 +5038,7 @@ ChildSide
 break
 ;
 case
-RRPParentWins
+RIPParentWins
 :
 winner
 =
@@ -5058,7 +5058,7 @@ ChildSide
 break
 ;
 case
-RRPError
+RIPError
 :
 NS_RUNTIMEABORT
 (
@@ -5068,7 +5068,7 @@ NYI
 '
 Error
 '
-RPC
+Interrupt
 race
 policy
 "
@@ -5288,7 +5288,7 @@ MaybeHandleError
 (
 rv
 "
-DispatchRPCMessage
+DispatchInterruptMessage
 "
 )
 )
@@ -5306,7 +5306,7 @@ Message
 reply
 -
 >
-set_rpc
+set_interrupt
 (
 )
 ;
@@ -5392,7 +5392,7 @@ return
 size_t
 stackDepth
 =
-RPCStackDepth
+InterruptStackDepth
 (
 )
 ;
@@ -5420,7 +5420,7 @@ top
 (
 )
 .
-rpc_remote_stack_depth_guess
+interrupt_remote_stack_depth_guess
 (
 )
 <
@@ -5441,7 +5441,7 @@ top
 (
 )
 .
-rpc_remote_stack_depth_guess
+interrupt_remote_stack_depth_guess
 (
 )
 <
@@ -5515,7 +5515,7 @@ void
 MessageChannel
 :
 :
-FlushPendingRPCQueue
+FlushPendingInterruptQueue
 (
 )
 {
@@ -5573,7 +5573,7 @@ if
 !
 last
 .
-is_rpc
+is_interrupt
 (
 )
 |
@@ -5613,7 +5613,7 @@ OnExitedCxxStack
 ;
 if
 (
-mSawRPCOutMsg
+mSawInterruptOutMsg
 )
 {
 MonitorAutoLock
@@ -5636,7 +5636,7 @@ EnqueuePendingMessages
 (
 )
 ;
-mSawRPCOutMsg
+mSawInterruptOutMsg
 =
 false
 ;
@@ -5947,7 +5947,7 @@ bool
 MessageChannel
 :
 :
-WaitForRPCNotify
+WaitForInterruptNotify
 (
 )
 {
@@ -6168,7 +6168,7 @@ can
 only
 block
 on
-RPC
+interrupt
 messages
 to
 the
@@ -6186,7 +6186,7 @@ are
 enqueued
 to
 the
-RPC
+interrupt
 /
 /
 channel
@@ -6791,7 +6791,7 @@ AssertCurrentThreadOwns
 ;
 if
 (
-RPCStackDepth
+InterruptStackDepth
 (
 )
 >
@@ -7580,7 +7580,7 @@ printf_stderr
 !
 !
 [
-RPCChannel
+MessageChannel
 ]
 [
 %
@@ -7652,7 +7652,7 @@ we
 re
 dying
 anyway
-DumpRPCStack
+DumpInterruptStack
 (
 "
 "
@@ -7662,7 +7662,7 @@ printf_stderr
 (
 "
 remote
-RPC
+Interrupt
 stack
 guess
 :
@@ -7701,7 +7701,7 @@ out
 of
 -
 turn
-RPC
+Interrupt
 replies
 stack
 size
@@ -7774,12 +7774,12 @@ front
 (
 )
 .
-is_rpc
+is_interrupt
 (
 )
 ?
 "
-rpc
+intr
 "
 :
 (
@@ -7836,7 +7836,7 @@ void
 MessageChannel
 :
 :
-DumpRPCStack
+DumpInterruptStack
 (
 const
 char
@@ -7876,7 +7876,7 @@ printf_stderr
 (
 "
 %
-sRPCChannel
+sMessageChannel
 '
 backtrace
 '

@@ -1069,6 +1069,10 @@ include
 '
         
 '
+intr
+'
+        
+'
 manager
 '
         
@@ -1106,10 +1110,6 @@ recv
         
 '
 returns
-'
-        
-'
-rpc
 '
         
 '
@@ -1764,6 +1764,11 @@ name
     
 else
 :
+        
+print
+tu
+.
+filetype
         
 assert
 tu
@@ -4935,7 +4940,7 @@ SendSemanticsQual
 ASYNC
                          
 |
-RPC
+INTR
                          
 |
 URGENT
@@ -4970,7 +4975,7 @@ ASYNC
     
 elif
 '
-rpc
+intr
 '
 =
 =
@@ -4981,7 +4986,7 @@ p
 0
 ]
 =
-RPC
+INTR
     
 elif
 '

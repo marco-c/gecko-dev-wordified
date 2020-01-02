@@ -278,7 +278,7 @@ mozilla
 ipc
 :
 :
-RacyRPCPolicy
+RacyInterruptPolicy
 MediateRace
 (
 const

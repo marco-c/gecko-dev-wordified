@@ -1,7 +1,7 @@
 #
 include
 "
-TestRPCRaces
+TestInterruptRaces
 .
 h
 "
@@ -38,7 +38,7 @@ mozilla
 _ipdltest
 :
 :
-TestRPCRacesParent
+TestInterruptRacesParent
 >
 {
 static
@@ -51,7 +51,7 @@ mozilla
 _ipdltest
 :
 :
-TestRPCRacesParent
+TestInterruptRacesParent
 *
 obj
 )
@@ -67,7 +67,7 @@ mozilla
 _ipdltest
 :
 :
-TestRPCRacesParent
+TestInterruptRacesParent
 *
 obj
 )
@@ -84,7 +84,7 @@ _ipdltest
 ipc
 :
 :
-RacyRPCPolicy
+RacyInterruptPolicy
 MediateRace
 (
 const
@@ -105,7 +105,7 @@ child
 {
 return
 (
-PTestRPCRaces
+PTestInterruptRaces
 :
 :
 Msg_Child__ID
@@ -121,12 +121,12 @@ type
 ipc
 :
 :
-RRPParentWins
+RIPParentWins
 :
 ipc
 :
 :
-RRPChildWins
+RIPChildWins
 ;
 }
 /
@@ -212,7 +212,7 @@ RRPChildWins
 /
 parent
 void
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 Main
@@ -238,7 +238,7 @@ Start
 ;
 }
 bool
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 RecvStartRace
@@ -260,7 +260,7 @@ NewRunnableMethod
 (
 this
 &
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 OnRaceTime
@@ -272,7 +272,7 @@ true
 ;
 }
 void
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 OnRaceTime
@@ -336,7 +336,7 @@ NewRunnableMethod
 (
 this
 &
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 Test2
@@ -345,7 +345,7 @@ Test2
 ;
 }
 bool
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 AnswerRace
@@ -367,7 +367,7 @@ the
 parent
 won
 the
-RPC
+Interrupt
 race
 !
 "
@@ -383,7 +383,7 @@ true
 ;
 }
 void
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 Test2
@@ -456,7 +456,7 @@ NewRunnableMethod
 (
 this
 &
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 Test3
@@ -465,7 +465,7 @@ Test3
 ;
 }
 bool
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 AnswerStackFrame
@@ -541,7 +541,7 @@ true
 ;
 }
 void
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 Test3
@@ -590,7 +590,7 @@ Close
 ;
 }
 bool
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 AnswerStackFrame3
@@ -642,7 +642,7 @@ true
 ;
 }
 bool
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 AnswerParent
@@ -658,7 +658,7 @@ true
 ;
 }
 bool
-TestRPCRacesParent
+TestInterruptRacesParent
 :
 :
 RecvGetAnsweredParent
@@ -760,7 +760,7 @@ true
 /
 child
 bool
-TestRPCRacesChild
+TestInterruptRacesChild
 :
 :
 RecvStart
@@ -825,7 +825,7 @@ true
 ;
 }
 bool
-TestRPCRacesChild
+TestInterruptRacesChild
 :
 :
 AnswerRace
@@ -848,7 +848,7 @@ the
 child
 lost
 the
-RPC
+Interrupt
 race
 !
 "
@@ -864,7 +864,7 @@ true
 ;
 }
 bool
-TestRPCRacesChild
+TestInterruptRacesChild
 :
 :
 AnswerStackFrame
@@ -924,7 +924,7 @@ true
 ;
 }
 bool
-TestRPCRacesChild
+TestInterruptRacesChild
 :
 :
 RecvWakeup
@@ -965,7 +965,7 @@ true
 ;
 }
 bool
-TestRPCRacesChild
+TestInterruptRacesChild
 :
 :
 AnswerStackFrame3
@@ -997,7 +997,7 @@ true
 ;
 }
 bool
-TestRPCRacesChild
+TestInterruptRacesChild
 :
 :
 RecvWakeup3
@@ -1029,7 +1029,7 @@ true
 ;
 }
 bool
-TestRPCRacesChild
+TestInterruptRacesChild
 :
 :
 AnswerChild

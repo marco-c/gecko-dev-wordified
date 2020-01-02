@@ -570,7 +570,8 @@ aReply
 /
 Make
 an
-RPC
+Interrupt
+call
 to
 the
 other
@@ -612,7 +613,7 @@ empty
 ;
 }
 void
-FlushPendingRPCQueue
+FlushPendingInterruptQueue
 (
 )
 ;
@@ -776,7 +777,7 @@ MessageChannel
 *
 channel
 bool
-rpc
+interrupt
 )
 ;
 ~
@@ -785,7 +786,7 @@ SyncStackFrame
 )
 ;
 bool
-mRPC
+mInterrupt
 ;
 bool
 mSpinNestedEvents
@@ -909,7 +910,7 @@ sStaticTopFrame
 public
 :
 void
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterruptCall
 (
 )
 ;
@@ -1148,7 +1149,7 @@ aReply
 )
 ;
 bool
-RPCCall
+InterruptCall
 (
 Message
 *
@@ -1170,7 +1171,7 @@ aReply
 )
 ;
 bool
-RPCEventOccurred
+InterruptEventOccurred
 (
 )
 ;
@@ -1271,7 +1272,7 @@ aMsg
 )
 ;
 void
-DispatchRPCMessage
+DispatchInterruptMessage
 (
 const
 Message
@@ -1398,7 +1399,7 @@ WaitForSyncNotify
 )
 ;
 bool
-WaitForRPCNotify
+WaitForInterruptNotify
 (
 )
 ;
@@ -1452,7 +1453,7 @@ receive
 one
 our
 actual
-RPC
+Interrupt
 stack
 depth
 doesn
@@ -1590,8 +1591,7 @@ it
 invokes
 /
 /
-an
-RPCChannel
+a
 callback
 and
 similarly
@@ -1601,8 +1601,6 @@ the
 depth
 goes
 from
-/
-/
 non
 -
 zero
@@ -1676,9 +1674,9 @@ OUT_MESSAGE
 }
 ;
 struct
-RPCFrame
+InterruptFrame
 {
-RPCFrame
+InterruptFrame
 (
 Direction
 direction
@@ -1699,7 +1697,7 @@ msg
 {
 }
 bool
-IsRPCIncall
+IsInterruptIncall
 (
 )
 const
@@ -1708,7 +1706,7 @@ return
 mMsg
 -
 >
-is_rpc
+is_interrupt
 (
 )
 &
@@ -1720,7 +1718,7 @@ mDirection
 ;
 }
 bool
-IsRPCOutcall
+IsInterruptOutcall
 (
 )
 const
@@ -1729,7 +1727,7 @@ return
 mMsg
 -
 >
-is_rpc
+is_interrupt
 (
 )
 &
@@ -1798,12 +1796,12 @@ sems
 mMsg
 -
 >
-is_rpc
+is_interrupt
 (
 )
 ?
 "
-rpc
+intr
 "
 :
 mMsg
@@ -1894,7 +1892,7 @@ mCxxStackFrames
 .
 push_back
 (
-RPCFrame
+InterruptFrame
 (
 direction
 msg
@@ -1902,7 +1900,7 @@ msg
 )
 ;
 const
-RPCFrame
+InterruptFrame
 &
 frame
 =
@@ -1918,7 +1916,7 @@ if
 (
 frame
 .
-IsRPCIncall
+IsInterruptIncall
 (
 )
 )
@@ -1930,12 +1928,12 @@ EnteredCall
 ;
 mThat
 .
-mSawRPCOutMsg
+mSawInterruptOutMsg
 |
 =
 frame
 .
-IsRPCOutcall
+IsInterruptOutcall
 (
 )
 ;
@@ -1956,7 +1954,7 @@ back
 (
 )
 .
-IsRPCIncall
+IsInterruptIncall
 (
 )
 ;
@@ -2121,7 +2119,7 @@ threads
 paused
 .
 void
-DumpRPCStack
+DumpInterruptStack
 (
 const
 char
@@ -2143,7 +2141,7 @@ from
 both
 threads
 size_t
-RPCStackDepth
+InterruptStackDepth
 (
 )
 const
@@ -2156,7 +2154,7 @@ AssertCurrentThreadOwns
 )
 ;
 return
-mRPCStack
+mInterruptStack
 .
 size
 (
@@ -2216,7 +2214,7 @@ mPendingUrgentReplies
 ;
 }
 bool
-AwaitingRPCReply
+AwaitingInterruptReply
 (
 )
 const
@@ -2230,7 +2228,7 @@ AssertCurrentThreadOwns
 ;
 return
 !
-mRPCStack
+mInterruptStack
 .
 empty
 (
@@ -3128,7 +3126,7 @@ C
 |
 be
 an
-RPC
+Interrupt
 in
 -
 call
@@ -3140,7 +3138,7 @@ R
 |
 be
 an
-RPC
+Interrupt
 reply
 .
 /
@@ -3284,7 +3282,7 @@ C
 <
 |
 an
-RPC
+Interrupt
 in
 -
 call
@@ -3455,7 +3453,7 @@ than
 /
 /
 one
-RPC
+Interrupt
 call
 on
 our
@@ -3555,7 +3553,7 @@ stack
 <
 Message
 >
-mRPCStack
+mInterruptStack
 ;
 /
 /
@@ -3565,7 +3563,7 @@ what
 we
 think
 the
-RPC
+Interrupt
 stack
 depth
 is
@@ -3579,7 +3577,7 @@ of
 this
 /
 /
-RPC
+Interrupt
 channel
 .
 We
@@ -3592,14 +3590,14 @@ we
 can
 detect
 racy
-RPC
+Interrupt
 /
 /
 calls
 .
 With
 each
-RPC
+Interrupt
 out
 -
 call
@@ -3629,7 +3627,7 @@ it
 will
 receive
 the
-RPC
+Interrupt
 call
 .
 /
@@ -3737,7 +3735,7 @@ detected
 /
 /
 racy
-RPC
+Interrupt
 calls
 .
 /
@@ -3927,7 +3925,7 @@ std
 :
 vector
 <
-RPCFrame
+InterruptFrame
 >
 mCxxStackFrames
 ;
@@ -3937,7 +3935,7 @@ Did
 we
 process
 an
-RPC
+Interrupt
 out
 -
 call
@@ -3961,7 +3959,7 @@ is
 reset
 .
 bool
-mSawRPCOutMsg
+mSawInterruptOutMsg
 ;
 /
 /
@@ -3976,7 +3974,7 @@ turn
 "
 because
 of
-RPC
+Interrupt
 /
 /
 in
@@ -4019,7 +4017,7 @@ mOutOfTurnReplies
 /
 Stack
 of
-RPC
+Interrupt
 in
 -
 calls

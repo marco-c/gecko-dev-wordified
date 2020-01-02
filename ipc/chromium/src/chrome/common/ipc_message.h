@@ -511,7 +511,7 @@ synchronous
 message
 .
 bool
-is_rpc
+is_interrupt
 (
 )
 const
@@ -525,7 +525,7 @@ header
 >
 flags
 &
-RPC_BIT
+INTERRUPT_BIT
 )
 !
 =
@@ -900,7 +900,7 @@ new_id
 ;
 }
 uint32_t
-rpc_remote_stack_depth_guess
+interrupt_remote_stack_depth_guess
 (
 )
 const
@@ -911,11 +911,11 @@ header
 )
 -
 >
-rpc_remote_stack_depth_guess
+interrupt_remote_stack_depth_guess
 ;
 }
 void
-set_rpc_remote_stack_depth_guess
+set_interrupt_remote_stack_depth_guess
 (
 uint32_t
 depth
@@ -923,7 +923,7 @@ depth
 {
 DCHECK
 (
-is_rpc
+is_interrupt
 (
 )
 )
@@ -933,13 +933,13 @@ header
 )
 -
 >
-rpc_remote_stack_depth_guess
+interrupt_remote_stack_depth_guess
 =
 depth
 ;
 }
 uint32_t
-rpc_local_stack_depth
+interrupt_local_stack_depth
 (
 )
 const
@@ -950,11 +950,11 @@ header
 )
 -
 >
-rpc_local_stack_depth
+interrupt_local_stack_depth
 ;
 }
 void
-set_rpc_local_stack_depth
+set_interrupt_local_stack_depth
 (
 uint32_t
 depth
@@ -962,7 +962,7 @@ depth
 {
 DCHECK
 (
-is_rpc
+is_interrupt
 (
 )
 )
@@ -972,7 +972,7 @@ header
 )
 -
 >
-rpc_local_stack_depth
+interrupt_local_stack_depth
 =
 depth
 ;
@@ -1711,7 +1711,7 @@ SYNC_BIT
 ;
 }
 void
-set_rpc
+set_interrupt
 (
 )
 {
@@ -1723,7 +1723,7 @@ header
 flags
 |
 =
-RPC_BIT
+INTERRUPT_BIT
 ;
 }
 void
@@ -1779,7 +1779,7 @@ PUMPING_MSGS_BIT
 HAS_SENT_TIME_BIT
 =
 0x0080
-RPC_BIT
+INTERRUPT_BIT
 =
 0x0100
 COMPRESS_BIT
@@ -1901,7 +1901,7 @@ depth
 is
 .
 uint32_t
-rpc_remote_stack_depth_guess
+interrupt_remote_stack_depth_guess
 ;
 /
 /
@@ -1912,7 +1912,7 @@ stack
 depth
 .
 uint32_t
-rpc_local_stack_depth
+interrupt_local_stack_depth
 ;
 /
 /

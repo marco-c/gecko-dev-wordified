@@ -643,7 +643,7 @@ will
 be
 processed
 during
-RPC
+Interrupt
 calls
 if
 *
@@ -654,7 +654,7 @@ api
 calls
 block
 an
-RPC
+Interrupt
 in
 -
 call
@@ -3611,12 +3611,12 @@ MessageChannel
 *
 channel
 bool
-rpc
+interrupt
 )
 :
-mRPC
+mInterrupt
 (
-rpc
+interrupt
 )
 mSpinNestedEvents
 (
@@ -3719,7 +3719,7 @@ mChannel
 mTopFrame
 "
 Mismatched
-RPC
+interrupt
 stack
 frames
 "
@@ -3734,7 +3734,7 @@ sStaticTopFrame
 "
 Mismatched
 static
-RPC
+Interrupt
 stack
 frames
 "
@@ -3809,7 +3809,7 @@ and
 there
 is
 an
-RPC
+Interrupt
 Incall
 active
 we
@@ -3857,7 +3857,7 @@ is
 only
 valid
 for
-RPC
+Interrupt
 channels
 if
 (
@@ -3903,7 +3903,7 @@ Listener
 )
 -
 >
-ProcessRemoteNativeEventsInRPCCall
+ProcessRemoteNativeEventsInInterruptCall
 (
 )
 ;
@@ -3928,7 +3928,7 @@ void
 MessageChannel
 :
 :
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterruptCall
 (
 )
 {
@@ -3946,7 +3946,7 @@ logic
 error
 :
 no
-RPC
+Interrupt
 frame
 "
 )
@@ -4004,7 +4004,7 @@ enabled
 for
 a
 particular
-RPC
+Interrupt
 frame
 by
 the
@@ -4015,7 +4015,7 @@ calling
 MessageChannel
 :
 :
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterrupt
 (
 )
 .
@@ -4028,7 +4028,7 @@ be
 nested
 for
 multiple
-RPC
+Interrupt
 frames
 in
 a
@@ -4413,7 +4413,7 @@ mTopFrame
 mTopFrame
 -
 >
-mRPC
+mInterrupt
 "
 Top
 frame
@@ -5230,7 +5230,7 @@ bool
 MessageChannel
 :
 :
-WaitForRPCNotify
+WaitForInterruptNotify
 (
 )
 {
@@ -5244,7 +5244,7 @@ AssertCurrentThreadOwns
 if
 (
 !
-RPCStackDepth
+InterruptStackDepth
 (
 )
 )
@@ -5304,7 +5304,7 @@ mTopFrame
 mTopFrame
 -
 >
-mRPC
+mInterrupt
 "
 Top
 frame

@@ -447,8 +447,8 @@ mozilla
 ipc
 :
 :
-RacyRPCPolicy
-MediateRPCRace
+RacyInterruptPolicy
+MediateInterruptRace
 (
 const
 Message
@@ -778,7 +778,7 @@ QuickExit
 ;
 virtual
 bool
-RecvProcessNativeEventsInRPCCall
+RecvProcessNativeEventsInInterruptCall
 (
 )
 MOZ_OVERRIDE
@@ -2484,7 +2484,7 @@ event
 loop
 within
 this
-RPC
+interrupt
 call
 .
 struct

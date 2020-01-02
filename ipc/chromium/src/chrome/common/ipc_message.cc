@@ -335,7 +335,7 @@ header
 )
 -
 >
-rpc_remote_stack_depth_guess
+interrupt_remote_stack_depth_guess
 =
 static_cast
 <
@@ -351,7 +351,7 @@ header
 )
 -
 >
-rpc_local_stack_depth
+interrupt_local_stack_depth
 =
 static_cast
 <

@@ -1257,13 +1257,13 @@ cls
 .
 pretty
 class
-RPC
+INTR
 :
     
 pretty
 =
 '
-rpc
+intr
 '
     
 classmethod
@@ -1551,11 +1551,11 @@ SyncRecv
 '
             
 '
-rpc
+intr
 '
 :
 '
-RpcAnswer
+IntrAnswer
 '
             
 '
@@ -1587,11 +1587,11 @@ SyncSend
 '
             
 '
-rpc
+intr
 '
 :
 '
-RpcCall
+IntrCall
 '
             
 '
@@ -2106,7 +2106,7 @@ self
 .
 sendSemantics
 is
-RPC
+INTR
 class
 Transition
 (
