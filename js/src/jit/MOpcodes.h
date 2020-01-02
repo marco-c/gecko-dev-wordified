@@ -994,6 +994,11 @@ AsmJSUnsignedToDouble
 \
 _
 (
+AsmJSUnsignedToFloat32
+)
+\
+_
+(
 AsmJSLoadHeap
 )
 \

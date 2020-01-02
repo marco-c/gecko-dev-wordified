@@ -447,6 +447,14 @@ LAsmJSUInt32ToDouble
 lir
 )
 ;
+bool
+visitAsmJSUInt32ToFloat32
+(
+LAsmJSUInt32ToFloat32
+*
+lir
+)
+;
 void
 postAsmJSCall
 (

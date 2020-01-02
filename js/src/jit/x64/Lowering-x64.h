@@ -372,6 +372,14 @@ ins
 )
 ;
 bool
+visitAsmJSUnsignedToFloat32
+(
+MAsmJSUnsignedToFloat32
+*
+ins
+)
+;
+bool
 visitAsmJSLoadHeap
 (
 MAsmJSLoadHeap
