@@ -929,7 +929,7 @@ downloadDirAfter
 Tests
 that
 the
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 returns
 a
 valid
@@ -944,7 +944,7 @@ object
 add_task
 (
 function
-test_getUserDownloadsDirectory
+test_getPreferredDownloadsDirectory
 (
 )
 {
@@ -1034,7 +1034,7 @@ downloadDir
 yield
 DownloadIntegration
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;
@@ -1080,7 +1080,7 @@ downloadDir
 yield
 DownloadIntegration
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;
@@ -1149,7 +1149,7 @@ downloadDir
 yield
 DownloadIntegration
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;
@@ -1248,7 +1248,7 @@ downloadDir
 yield
 DownloadIntegration
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;
@@ -1374,7 +1374,7 @@ downloadDir
 yield
 DownloadIntegration
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;
@@ -1420,7 +1420,7 @@ downloadDir
 yield
 DownloadIntegration
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;
@@ -1496,12 +1496,12 @@ Ci
 )
 {
 let
-userDownloadDir
+preferredDownloadDir
 =
 yield
 DownloadIntegration
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;
@@ -1510,7 +1510,7 @@ do_check_eq
 downloadDir
 .
 path
-userDownloadDir
+preferredDownloadDir
 .
 path
 )

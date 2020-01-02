@@ -2510,10 +2510,10 @@ directory
 .
 *
 /
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 :
 function
-DI_getUserDownloadsDirectory
+DI_getPreferredDownloadsDirectory
 (
 )
 {
@@ -2768,7 +2768,7 @@ directory
 yield
 this
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;

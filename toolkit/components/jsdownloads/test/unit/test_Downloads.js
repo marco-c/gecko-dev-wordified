@@ -1037,7 +1037,7 @@ nsIFile
 Tests
 that
 the
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 returns
 a
 valid
@@ -1052,7 +1052,7 @@ object
 add_task
 (
 function
-test_getUserDownloadsDirectory
+test_getPreferredDownloadsDirectory
 (
 )
 {
@@ -1062,7 +1062,7 @@ downloadDir
 yield
 Downloads
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;
