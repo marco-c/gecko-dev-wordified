@@ -2552,7 +2552,7 @@ return
 Type
 (
 '
-InfallibleTArray
+nsTArray
 '
 T
 =
