@@ -451,6 +451,7 @@ panel
 p
 function
 (
+editor
 )
 {
 currentCount
@@ -470,7 +471,14 @@ count
 "
 editors
 opened
+:
 "
++
+editor
+.
+styleSheet
+.
+href
 )
 ;
 if
