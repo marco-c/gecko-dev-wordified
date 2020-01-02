@@ -89,9 +89,10 @@ icc
 '
 s
 mcc
-and
 mnc
 codes
+and
+spn
 .
 is
 (
@@ -102,6 +103,8 @@ lastKnownHomeNetwork
 310
 -
 260
+-
+Android
 "
 )
 ;
