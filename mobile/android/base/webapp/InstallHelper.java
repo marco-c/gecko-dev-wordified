@@ -500,7 +500,13 @@ e
 ;
 }
 }
-private
+/
+*
+inner
+-
+access
+*
+/
 void
 install
 (

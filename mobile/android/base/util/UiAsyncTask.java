@@ -184,7 +184,13 @@ volatile
 boolean
 mCancelled
 ;
-private
+/
+*
+inner
+-
+access
+*
+/
 final
 Handler
 mBackgroundThreadHandler

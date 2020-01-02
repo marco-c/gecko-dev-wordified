@@ -294,7 +294,13 @@ PropertyAnimationListener
 >
 mListeners
 ;
-private
+/
+*
+inner
+-
+access
+*
+/
 FramePoster
 mFramePoster
 ;

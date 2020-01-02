@@ -1188,7 +1188,13 @@ private
 int
 len
 ;
-private
+/
+*
+inner
+-
+access
+*
+/
 IconDirectoryEntry
 [
 ]
