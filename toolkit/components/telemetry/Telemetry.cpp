@@ -15533,7 +15533,6 @@ mPrivateSQL
 .
 SizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;
@@ -15544,7 +15543,6 @@ mSanitizedSQL
 .
 SizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;
@@ -15556,7 +15554,6 @@ mTrackedDBs
 .
 SizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;
