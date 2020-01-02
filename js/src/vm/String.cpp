@@ -1967,7 +1967,7 @@ s
 .
 u2
 .
-nonInlineChars
+nonInlineCharsTwoByte
 =
 left
 .
@@ -2048,7 +2048,7 @@ s
 .
 u2
 .
-nonInlineChars
+nonInlineCharsTwoByte
 =
 left
 .
@@ -2268,7 +2268,7 @@ s
 .
 u2
 .
-nonInlineChars
+nonInlineCharsTwoByte
 =
 pos
 ;
@@ -2527,7 +2527,7 @@ s
 .
 u2
 .
-nonInlineChars
+nonInlineCharsTwoByte
 =
 wholeChars
 ;
@@ -2629,7 +2629,7 @@ s
 .
 u2
 .
-nonInlineChars
+nonInlineCharsTwoByte
 ;
 str
 -
@@ -2923,7 +2923,7 @@ if
 JSFatInlineString
 :
 :
-lengthFits
+twoByteLengthFits
 (
 wholeLength
 )
@@ -3325,7 +3325,7 @@ s
 .
 u2
 .
-nonInlineChars
+nonInlineCharsTwoByte
 =
 s
 ;
