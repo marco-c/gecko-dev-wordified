@@ -2602,6 +2602,15 @@ destinationSurface
 mD2DSurface
 ;
 }
+aRegion
+.
+SimplifyOutwardByArea
+(
+100
+*
+100
+)
+;
 MOZ_ASSERT
 (
 mDrawTarget
