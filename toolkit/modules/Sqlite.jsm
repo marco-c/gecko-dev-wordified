@@ -4750,7 +4750,7 @@ defer
 )
 ;
 let
-options
+dbOptions
 =
 null
 ;
@@ -4760,7 +4760,7 @@ if
 sharedMemoryCache
 )
 {
-options
+dbOptions
 =
 Cc
 [
@@ -4786,7 +4786,7 @@ Ci
 nsIWritablePropertyBag
 )
 ;
-options
+dbOptions
 .
 setProperty
 (
@@ -4804,7 +4804,7 @@ storage
 openAsyncDatabase
 (
 file
-options
+dbOptions
 function
 (
 status

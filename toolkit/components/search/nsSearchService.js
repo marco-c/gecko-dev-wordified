@@ -31388,6 +31388,7 @@ currentTime
 for
 each
 (
+let
 engine
 in
 this
