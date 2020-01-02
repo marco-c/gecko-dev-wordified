@@ -17688,10 +17688,8 @@ _retval
 {
 _retval
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 const

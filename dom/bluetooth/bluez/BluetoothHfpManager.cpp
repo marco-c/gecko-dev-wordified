@@ -9326,10 +9326,8 @@ mCLIP
 {
 number
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 }

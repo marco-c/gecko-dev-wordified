@@ -2949,10 +2949,8 @@ aAdapterRAM
 {
 aAdapterRAM
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 return
@@ -3005,10 +3003,8 @@ aAdapterDriver
 {
 aAdapterDriver
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 return
@@ -3119,10 +3115,8 @@ aAdapterDriverDate
 {
 aAdapterDriverDate
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 return

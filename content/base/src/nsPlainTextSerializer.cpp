@@ -10605,10 +10605,8 @@ bol
 }
 mCurrentLine
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 if
