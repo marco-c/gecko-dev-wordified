@@ -2196,7 +2196,7 @@ aType
 (
 void
 )
-update
+updateGLContext
 ;
 -
 (
