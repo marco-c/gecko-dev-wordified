@@ -604,6 +604,7 @@ preferences
 xml
 private
 static
+final
 String
 PREFS_SEARCH_RESTORE_DEFAULTS
 =
@@ -617,6 +618,7 @@ restore_defaults
 ;
 private
 static
+final
 String
 PREFS_ANNOUNCEMENTS_ENABLED
 =
@@ -632,6 +634,7 @@ enabled
 ;
 private
 static
+final
 String
 PREFS_DATA_REPORTING_PREFERENCES
 =
@@ -645,6 +648,7 @@ preferences
 ;
 private
 static
+final
 String
 PREFS_TELEMETRY_ENABLED
 =
@@ -658,6 +662,7 @@ enabled
 ;
 private
 static
+final
 String
 PREFS_CRASHREPORTER_ENABLED
 =
@@ -671,6 +676,7 @@ submitEnabled
 ;
 private
 static
+final
 String
 PREFS_MENU_CHAR_ENCODING
 =
@@ -684,6 +690,7 @@ showCharacterEncoding
 ;
 private
 static
+final
 String
 PREFS_MP_ENABLED
 =
@@ -697,6 +704,7 @@ enabled
 ;
 private
 static
+final
 String
 PREFS_UPDATER_AUTODOWNLOAD
 =
@@ -710,6 +718,7 @@ autodownload
 ;
 private
 static
+final
 String
 PREFS_GEO_REPORTING
 =
@@ -723,6 +732,7 @@ reportdata
 ;
 private
 static
+final
 String
 PREFS_HEALTHREPORT_LINK
 =
@@ -736,6 +746,7 @@ link
 ;
 private
 static
+final
 String
 PREFS_DEVTOOLS_REMOTE_ENABLED
 =
@@ -751,6 +762,7 @@ enabled
 ;
 private
 static
+final
 String
 PREFS_DISPLAY_REFLOW_ON_ZOOM
 =
@@ -764,6 +776,7 @@ reflowOnZoom
 ;
 private
 static
+final
 String
 PREFS_SYNC
 =
@@ -775,6 +788,7 @@ sync
 ;
 public
 static
+final
 String
 PREFS_RESTORE_SESSION
 =
@@ -800,6 +814,7 @@ constants
 .
 private
 static
+final
 int
 REQUEST_CODE_PREF_SCREEN
 =
@@ -807,6 +822,7 @@ REQUEST_CODE_PREF_SCREEN
 ;
 private
 static
+final
 int
 RESULT_CODE_EXIT_SETTINGS
 =
