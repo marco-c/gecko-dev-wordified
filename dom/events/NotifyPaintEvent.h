@@ -294,6 +294,14 @@ PaintRequests
 (
 )
 ;
+protected
+:
+~
+NotifyPaintEvent
+(
+)
+{
+}
 private
 :
 nsRegion

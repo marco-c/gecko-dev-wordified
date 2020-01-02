@@ -540,6 +540,12 @@ nullptr
 ;
 protected
 :
+~
+TouchEvent
+(
+)
+{
+}
 nsRefPtr
 <
 TouchList

@@ -259,6 +259,14 @@ aClickCount
 )
 ;
 }
+protected
+:
+~
+SimpleGestureEvent
+(
+)
+{
+}
 }
 ;
 }

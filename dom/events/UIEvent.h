@@ -804,6 +804,12 @@ const
 ;
 protected
 :
+~
+UIEvent
+(
+)
+{
+}
 /
 /
 Internal

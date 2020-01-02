@@ -264,6 +264,14 @@ aAxis
 )
 ;
 }
+protected
+:
+~
+MouseScrollEvent
+(
+)
+{
+}
 }
 ;
 }

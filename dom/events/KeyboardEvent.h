@@ -349,6 +349,14 @@ aCharCode
 )
 ;
 }
+protected
+:
+~
+KeyboardEvent
+(
+)
+{
+}
 private
 :
 /

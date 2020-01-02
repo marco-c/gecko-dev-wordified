@@ -223,14 +223,14 @@ EventTarget
 aOwner
 )
 ;
+protected
+:
 virtual
 ~
 StorageEvent
 (
 )
 ;
-protected
-:
 nsString
 mKey
 ;

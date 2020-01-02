@@ -249,6 +249,14 @@ ErrorResult
 aError
 )
 ;
+protected
+:
+~
+ClipboardEvent
+(
+)
+{
+}
 }
 ;
 }

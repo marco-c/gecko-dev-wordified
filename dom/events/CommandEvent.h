@@ -228,6 +228,14 @@ aCommand
 )
 ;
 }
+protected
+:
+~
+CommandEvent
+(
+)
+{
+}
 }
 ;
 }

@@ -245,6 +245,14 @@ ErrorResult
 aError
 )
 ;
+protected
+:
+~
+DragEvent
+(
+)
+{
+}
 }
 ;
 }

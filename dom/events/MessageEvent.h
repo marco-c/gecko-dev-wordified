@@ -232,11 +232,6 @@ WidgetEvent
 aEvent
 )
 ;
-~
-MessageEvent
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
@@ -373,6 +368,13 @@ aEventInit
 ErrorResult
 &
 aRv
+)
+;
+protected
+:
+~
+MessageEvent
+(
 )
 ;
 private

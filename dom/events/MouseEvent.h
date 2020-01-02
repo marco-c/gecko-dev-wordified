@@ -502,6 +502,12 @@ aInputSource
 }
 protected
 :
+~
+MouseEvent
+(
+)
+{
+}
 nsresult
 InitMouseEvent
 (

@@ -209,6 +209,12 @@ aRv
 ;
 protected
 :
+~
+FocusEvent
+(
+)
+{
+}
 nsresult
 InitFocusEvent
 (

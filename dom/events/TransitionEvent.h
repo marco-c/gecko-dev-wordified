@@ -223,6 +223,14 @@ ElapsedTime
 (
 )
 ;
+protected
+:
+~
+TransitionEvent
+(
+)
+{
+}
 }
 ;
 }

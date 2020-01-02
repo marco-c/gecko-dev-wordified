@@ -201,6 +201,12 @@ Interface
 NS_DECL_NSIDOMBEFOREUNLOADEVENT
 protected
 :
+~
+BeforeUnloadEvent
+(
+)
+{
+}
 nsString
 mText
 ;

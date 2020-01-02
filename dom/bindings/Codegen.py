@@ -110162,6 +110162,9 @@ nativeType
 parentType
 }
 )
+            
+protected
+:
               
 virtual
 ~
@@ -110171,9 +110174,6 @@ nativeType
 (
 )
 ;
-            
-protected
-:
               
 {
 nativeType

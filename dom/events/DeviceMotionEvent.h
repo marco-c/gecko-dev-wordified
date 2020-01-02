@@ -540,6 +540,12 @@ aRv
 ;
 protected
 :
+~
+DeviceMotionEvent
+(
+)
+{
+}
 nsRefPtr
 <
 DeviceAcceleration
