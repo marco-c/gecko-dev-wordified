@@ -2925,7 +2925,7 @@ displayVal
 }
 /
 /
-Computer
+Compute
 User
 Interface
 style
