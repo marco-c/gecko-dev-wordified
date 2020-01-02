@@ -23419,12 +23419,6 @@ XRE_Main
 "
 )
 ;
-mozilla
-:
-:
-IOInterposerInit
-ioInterposerGuard
-;
 nsresult
 rv
 =
@@ -23472,6 +23466,12 @@ mAppData
 ;
 ScopedLogging
 log
+;
+mozilla
+:
+:
+IOInterposerInit
+ioInterposerGuard
 ;
 #
 if
