@@ -1247,6 +1247,10 @@ GuardShape
 )
 SAFE_OP
 (
+GuardShapePolymorphic
+)
+SAFE_OP
+(
 GuardObjectType
 )
 SAFE_OP

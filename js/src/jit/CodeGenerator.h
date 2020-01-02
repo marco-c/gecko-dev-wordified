@@ -798,6 +798,14 @@ guard
 )
 ;
 bool
+visitGuardShapePolymorphic
+(
+LGuardShapePolymorphic
+*
+lir
+)
+;
+bool
 visitTypeBarrierV
 (
 LTypeBarrierV
