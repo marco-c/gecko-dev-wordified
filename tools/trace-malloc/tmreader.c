@@ -106,6 +106,13 @@ h
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 .
 h
@@ -3878,6 +3885,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 event
 .
 serial
@@ -3986,6 +3996,9 @@ key
 const
 void
 *
+)
+(
+uintptr_t
 )
 event
 .
@@ -4123,6 +4136,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 event
 .
 serial
@@ -4236,6 +4252,9 @@ sourcekey
 const
 void
 *
+)
+(
+uintptr_t
 )
 event
 .
@@ -4487,6 +4506,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 event
 .
 u
@@ -4630,6 +4652,9 @@ key
 const
 void
 *
+)
+(
+uintptr_t
 )
 event
 .
@@ -4857,6 +4882,9 @@ mkey
 const
 void
 *
+)
+(
+uintptr_t
 )
 event
 .
@@ -5674,6 +5702,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 serial
 ;
 hash
@@ -5725,6 +5756,9 @@ key
 const
 void
 *
+)
+(
+uintptr_t
 )
 serial
 ;
@@ -5818,6 +5852,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 serial
 ;
 hash
@@ -5869,6 +5906,9 @@ key
 const
 void
 *
+)
+(
+uintptr_t
 )
 serial
 ;
