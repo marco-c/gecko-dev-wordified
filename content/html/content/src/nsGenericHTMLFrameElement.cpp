@@ -434,7 +434,7 @@ GetSubjectPrincipal
 )
 -
 >
-Subsumes
+SubsumesConsideringDomain
 (
 doc
 -

@@ -19329,7 +19329,7 @@ GetSubjectPrincipal
 )
 -
 >
-Subsumes
+SubsumesConsideringDomain
 (
 sub_doc
 -
