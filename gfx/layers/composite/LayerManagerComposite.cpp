@@ -4094,6 +4094,9 @@ GetEffectiveTransform
 transform
 )
 ;
+if
+(
+!
 mCompositable
 -
 >
@@ -4103,7 +4106,13 @@ aEffects
 transform
 aIs3D
 )
+)
+{
+mCompositable
+=
+nullptr
 ;
+}
 }
 LayerManagerComposite
 :
