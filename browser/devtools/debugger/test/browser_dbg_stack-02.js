@@ -381,14 +381,6 @@ default
 "
 )
 ;
-/
-*
-DISABLED
-FOR
-CACHE2
-FAILURES
-bug
-948566
 is
 (
 gClassicFrames
@@ -411,8 +403,6 @@ view
 "
 )
 ;
-*
-/
 isnot
 (
 gFrames
