@@ -4691,20 +4691,6 @@ vp
 JS
 :
 :
-ContextOptions
-oldContextOptions
-=
-JS
-:
-:
-ContextOptionsRef
-(
-cx
-)
-;
-JS
-:
-:
 RuntimeOptions
 oldRuntimeOptions
 =
@@ -4805,7 +4791,7 @@ strict
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
@@ -4934,7 +4920,7 @@ if
 names
 &
 &
-oldContextOptions
+oldRuntimeOptions
 .
 extraWarnings
 (
@@ -35158,7 +35144,7 @@ s
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )

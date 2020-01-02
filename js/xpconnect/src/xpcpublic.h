@@ -2997,6 +2997,11 @@ nsIAddonInterposition
 interposition
 )
 ;
+bool
+ExtraWarningsForSystemJS
+(
+)
+;
 }
 /
 /

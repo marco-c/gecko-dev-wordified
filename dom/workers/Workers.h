@@ -425,12 +425,6 @@ JSContentChromeSettings
 JS
 :
 :
-ContextOptions
-contextOptions
-;
-JS
-:
-:
 CompartmentOptions
 compartmentOptions
 ;
@@ -441,9 +435,6 @@ JSContentChromeSettings
 (
 )
 :
-contextOptions
-(
-)
 compartmentOptions
 (
 )

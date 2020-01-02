@@ -2829,14 +2829,6 @@ argc
 vp
 )
 ;
-ContextOptions
-oldContextOptions
-=
-ContextOptionsRef
-(
-cx
-)
-;
 RuntimeOptions
 oldRuntimeOptions
 =
@@ -2918,7 +2910,7 @@ strict
 =
 0
 )
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
@@ -3027,7 +3019,7 @@ nullptr
 ;
 if
 (
-oldContextOptions
+oldRuntimeOptions
 .
 extraWarnings
 (
@@ -6325,7 +6317,7 @@ case
 s
 '
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
