@@ -542,6 +542,14 @@ GMPMutex
 aMutex
 )
 ;
+/
+/
+Call
+on
+main
+thread
+only
+.
 typedef
 GMPErr
 (
