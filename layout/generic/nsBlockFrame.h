@@ -3976,7 +3976,7 @@ marked
 dirty
 *
 /
-nsresult
+void
 ReflowDirtyLines
 (
 nsBlockReflowState

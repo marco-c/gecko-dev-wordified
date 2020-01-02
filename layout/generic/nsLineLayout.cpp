@@ -4639,7 +4639,7 @@ return
 false
 ;
 }
-nsresult
+void
 nsLineLayout
 :
 :
@@ -7445,9 +7445,6 @@ aReflowStatus
 ;
 #
 endif
-return
-NS_OK
-;
 }
 void
 nsLineLayout
