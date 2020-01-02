@@ -516,6 +516,14 @@ templateObject
 )
 )
 ;
+if
+(
+!
+arr
+)
+return
+false
+;
 /
 *
 Set
