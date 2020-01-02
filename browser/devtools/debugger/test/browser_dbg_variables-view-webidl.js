@@ -478,7 +478,7 @@ contains
 "
 token
 -
-other
+domnode
 "
 )
 "
@@ -715,7 +715,7 @@ contains
 "
 token
 -
-other
+domnode
 "
 )
 "
@@ -1896,7 +1896,7 @@ contains
 "
 token
 -
-other
+domnode
 "
 )
 "

@@ -170,6 +170,8 @@ startPickerAndAssertSwitchToInspector
 yield
 toolbox
 .
+highlighterUtils
+.
 stopPicker
 (
 )

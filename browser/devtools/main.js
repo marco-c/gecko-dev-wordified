@@ -1286,6 +1286,8 @@ panel
 .
 toolbox
 .
+highlighterUtils
+.
 togglePicker
 (
 )

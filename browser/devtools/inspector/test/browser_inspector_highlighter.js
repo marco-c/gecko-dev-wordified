@@ -654,6 +654,8 @@ inspector
 .
 toolbox
 .
+highlighterUtils
+.
 startPicker
 (
 )
@@ -1068,6 +1070,8 @@ finishUp
 inspector
 .
 toolbox
+.
+highlighterUtils
 .
 stopPicker
 (

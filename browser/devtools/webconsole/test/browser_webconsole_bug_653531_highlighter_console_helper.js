@@ -494,6 +494,8 @@ inspector
 .
 toolbox
 .
+highlighterUtils
+.
 startPicker
 (
 )

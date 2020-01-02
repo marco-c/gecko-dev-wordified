@@ -406,7 +406,7 @@ defaultView
 ;
 inspector
 .
-markup
+toolbox
 .
 once
 (

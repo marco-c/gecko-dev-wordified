@@ -1092,7 +1092,7 @@ contains
 "
 token
 -
-other
+domnode
 "
 )
 "
