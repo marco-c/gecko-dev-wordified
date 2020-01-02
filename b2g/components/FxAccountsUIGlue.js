@@ -397,7 +397,7 @@ let
 detail
 =
 {
-method
+eventName
 :
 "
 openFlow
@@ -434,7 +434,7 @@ shell
 sendCustomEvent
 (
 "
-mozFxAccountsRPChromeEvent
+mozFxAccountsUnsolChromeEvent
 "
 detail
 )
