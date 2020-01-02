@@ -7639,6 +7639,15 @@ options
 namespace
 gc
 {
+extern
+void
+GCIfNeeded
+(
+JSContext
+*
+cx
+)
+;
 /
 *
 Tries
