@@ -1453,7 +1453,7 @@ InstDTR
 i
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -1515,7 +1515,7 @@ InstLDR
 i
 ;
 return
-NULL
+nullptr
 ;
 }
 InstNOP
@@ -1548,7 +1548,7 @@ i
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -1638,7 +1638,7 @@ InstBranchReg
 i
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1743,7 +1743,7 @@ InstBranchImm
 i
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1823,7 +1823,7 @@ InstBXReg
 i
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -1882,7 +1882,7 @@ InstBLXReg
 i
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -1941,7 +1941,7 @@ InstBImm
 i
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -1999,7 +1999,7 @@ InstBLImm
 i
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -2060,7 +2060,7 @@ InstMovWT
 i
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -2217,7 +2217,7 @@ i
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 InstMovT
@@ -2251,7 +2251,7 @@ i
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -2312,7 +2312,7 @@ i
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -2529,7 +2529,7 @@ i
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -2615,7 +2615,7 @@ i
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -4119,8 +4119,8 @@ getPtr32Target
 (
 &
 iter
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 return
@@ -8133,7 +8133,7 @@ if
 dest
 =
 =
-NULL
+nullptr
 )
 return
 m_buffer
@@ -8173,7 +8173,7 @@ JS_ASSERT
 dest
 !
 =
-NULL
+nullptr
 )
 ;
 *
@@ -11204,7 +11204,7 @@ entry
 /
 should
 be
-NULL
+nullptr
 so
 it
 will
@@ -15683,7 +15683,7 @@ i
 )
 )
 return
-NULL
+nullptr
 ;
 return
 static_cast
@@ -16429,7 +16429,7 @@ if
 count
 !
 =
-NULL
+nullptr
 )
 *
 count
@@ -16562,7 +16562,7 @@ return
 ph
 !
 =
-NULL
+nullptr
 ;
 }
 static
@@ -18065,7 +18065,7 @@ runtime_
 >
 setFlusher
 (
-NULL
+nullptr
 )
 ;
 }
@@ -18143,7 +18143,7 @@ ExecutableAllocator
 :
 cacheFlush
 (
-NULL
+nullptr
 0xff000000
 )
 ;
@@ -18234,5 +18234,5 @@ Assembler
 :
 dummy
 =
-NULL
+nullptr
 ;

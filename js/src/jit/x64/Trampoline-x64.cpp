@@ -2126,7 +2126,7 @@ returnLabel
 )
 )
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3409,7 +3409,7 @@ loadBaselineOrIonRaw
 rax
 rax
 mode
-NULL
+nullptr
 )
 ;
 masm
@@ -5043,7 +5043,7 @@ if
 wrapper
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -5097,7 +5097,7 @@ wrapper
 )
 )
 return
-NULL
+nullptr
 ;
 return
 wrapper
@@ -5423,7 +5423,7 @@ stub
 frame
 has
 a
-NULL
+nullptr
 ICStub
 pointer
 since
@@ -5442,7 +5442,7 @@ movePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 BaselineStubReg
 )
@@ -5481,7 +5481,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 masm
 .

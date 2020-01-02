@@ -1307,7 +1307,7 @@ tempPointer
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1442,7 +1442,7 @@ tempPointer
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }

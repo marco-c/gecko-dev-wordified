@@ -3803,7 +3803,7 @@ loadBaselineOrIonRaw
 r3
 r3
 mode
-NULL
+nullptr
 )
 ;
 masm
@@ -6142,7 +6142,7 @@ if
 wrapper
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -6183,7 +6183,7 @@ wrapper
 )
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -6534,16 +6534,16 @@ stub
 frame
 has
 a
-NULL
+nullptr
 ICStub
 pointer
 since
 this
 pointer
 is
+/
+/
 marked
-/
-/
 during
 GC
 .
@@ -6553,7 +6553,7 @@ movePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 BaselineStubReg
 )
@@ -6592,7 +6592,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 masm
 .

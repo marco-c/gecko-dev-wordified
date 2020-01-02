@@ -223,7 +223,7 @@ if
 enoughMemory_
 )
 return
-NULL
+nullptr
 ;
 }
 size_t
@@ -296,7 +296,7 @@ if
 enoughMemory_
 )
 return
-NULL
+nullptr
 ;
 }
 Double
@@ -518,7 +518,7 @@ if
 enoughMemory_
 )
 return
-NULL
+nullptr
 ;
 }
 size_t
@@ -591,7 +591,7 @@ if
 enoughMemory_
 )
 return
-NULL
+nullptr
 ;
 }
 Float

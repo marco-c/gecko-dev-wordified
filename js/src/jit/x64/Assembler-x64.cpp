@@ -589,7 +589,7 @@ target
 value
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -725,7 +725,7 @@ src
 offset
 (
 )
-NULL
+nullptr
 reloc
 )
 )
@@ -1148,7 +1148,7 @@ The
 patch
 target
 is
-NULL
+nullptr
 for
 jumps
 that
@@ -1156,9 +1156,9 @@ have
 been
 linked
 to
+/
+/
 a
-/
-/
 label
 within
 the
@@ -1170,9 +1170,9 @@ may
 be
 repatched
 later
+/
+/
 to
-/
-/
 jump
 to
 a

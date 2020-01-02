@@ -686,7 +686,7 @@ Instruction
 *
 i
 =
-NULL
+nullptr
 )
 ;
 void
@@ -707,7 +707,7 @@ Instruction
 *
 i
 =
-NULL
+nullptr
 )
 ;
 /

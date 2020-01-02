@@ -283,7 +283,7 @@ canBeNegativeOverflow
 NegativeOverflow
 "
 :
-NULL
+nullptr
 ;
 }
 const
@@ -591,7 +591,7 @@ isTruncated
 Truncated
 "
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1395,7 +1395,7 @@ canBeNegativeZero
 CanBeNegativeZero
 "
 :
-NULL
+nullptr
 )
 ;
 }

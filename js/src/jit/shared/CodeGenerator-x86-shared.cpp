@@ -5441,7 +5441,7 @@ ReturnZero
 *
 ool
 =
-NULL
+nullptr
 ;
 /
 /
@@ -6503,13 +6503,13 @@ ReturnZero
 *
 ool
 =
-NULL
+nullptr
 ;
 ModOverflowCheck
 *
 overflow
 =
-NULL
+nullptr
 ;
 /
 /

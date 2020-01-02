@@ -534,7 +534,7 @@ ictx
 compartment
 =
 =
-NULL
+nullptr
 ;
 }
 #
@@ -880,7 +880,7 @@ PatchedImmPtr
 :
 value
 (
-NULL
+nullptr
 )
 {
 }
@@ -1230,7 +1230,7 @@ PatchedAbsoluteAddress
 :
 addr
 (
-NULL
+nullptr
 )
 {
 }
@@ -2822,7 +2822,7 @@ CodeLocationJump
 {
 raw_
 =
-NULL
+nullptr
 ;
 setUninitialized
 (
@@ -2914,7 +2914,7 @@ MacroAssembler
 *
 masm
 =
-NULL
+nullptr
 )
 ;
 uint8_t
@@ -3065,7 +3065,7 @@ CodeLocationLabel
 {
 raw_
 =
-NULL
+nullptr
 ;
 setUninitialized
 (
@@ -3182,7 +3182,7 @@ MacroAssembler
 *
 masm
 =
-NULL
+nullptr
 )
 ;
 #

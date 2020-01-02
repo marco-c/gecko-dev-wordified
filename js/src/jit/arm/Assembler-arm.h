@@ -7760,7 +7760,7 @@ i
 poolData
 =
 =
-NULL
+nullptr
 )
 {
 m_buffer
@@ -7998,12 +7998,12 @@ Register
 *
 dest
 =
-NULL
+nullptr
 RelocStyle
 *
 rs
 =
-NULL
+nullptr
 )
 ;
 bool
@@ -8214,7 +8214,7 @@ address
 If
 dest
 is
-NULL
+nullptr
 (
 the
 default
@@ -8267,7 +8267,7 @@ uint32_t
 *
 dest
 =
-NULL
+nullptr
 )
 ;
 /
@@ -8301,7 +8301,7 @@ use
 the
 dummy
 (
-NULL
+nullptr
 )
 object
 .
@@ -8361,7 +8361,7 @@ Instruction
 *
 instdest
 =
-NULL
+nullptr
 )
 ;
 BufferOffset
@@ -8383,7 +8383,7 @@ Instruction
 *
 instdest
 =
-NULL
+nullptr
 )
 ;
 BufferOffset
@@ -8705,7 +8705,7 @@ Instruction
 *
 pos
 =
-NULL
+nullptr
 )
 ;
 BufferOffset
@@ -8723,7 +8723,7 @@ Instruction
 *
 pos
 =
-NULL
+nullptr
 )
 ;
 BufferOffset
@@ -8986,7 +8986,7 @@ uint32_t
 *
 dest
 =
-NULL
+nullptr
 )
 ;
 /
@@ -9039,7 +9039,7 @@ uint32_t
 *
 dest
 =
-NULL
+nullptr
 )
 ;
 BufferOffset
@@ -9110,7 +9110,7 @@ PoolEntry
 *
 pe
 =
-NULL
+nullptr
 Condition
 c
 =
@@ -9148,7 +9148,7 @@ PoolEntry
 *
 pe
 =
-NULL
+nullptr
 Condition
 c
 =
@@ -9184,7 +9184,7 @@ PoolEntry
 *
 pe
 =
-NULL
+nullptr
 Condition
 c
 =
@@ -9220,7 +9220,7 @@ PoolEntry
 *
 pe
 =
-NULL
+nullptr
 Condition
 c
 =
@@ -9545,7 +9545,7 @@ uint32_t
 *
 dest
 =
-NULL
+nullptr
 )
 ;
 /
@@ -10043,7 +10043,7 @@ uint32_t
 *
 dest
 =
-NULL
+nullptr
 )
 ;
 /
@@ -11331,7 +11331,7 @@ uint32_t
 *
 count
 =
-NULL
+nullptr
 )
 ;
 /

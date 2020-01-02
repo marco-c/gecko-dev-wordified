@@ -2988,7 +2988,7 @@ dest
 imm
 .
 value
-NULL
+nullptr
 c
 )
 ;
@@ -3025,7 +3025,7 @@ ScratchRegister
 imm
 .
 value
-NULL
+nullptr
 c
 )
 ;
@@ -3156,10 +3156,10 @@ if
 i
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 return
 i
@@ -3302,7 +3302,7 @@ i
 i
 can
 be
-NULL
+nullptr
 here
 .
 that
@@ -3331,11 +3331,11 @@ when
 it
 is
 passed
-NULL
+nullptr
 so
+/
+/
 two
-/
-/
 consecutive
 instructions
 will
@@ -3375,13 +3375,13 @@ if
 i
 =
 =
-NULL
+nullptr
 )
 as_Imm32Pool
 (
 dest
 imm
-NULL
+nullptr
 c
 )
 ;
@@ -9303,7 +9303,7 @@ as_Imm32Pool
 (
 ScratchRegister
 trg
-NULL
+nullptr
 c
 )
 ;
@@ -9325,7 +9325,7 @@ as_Imm32Pool
 (
 pc
 trg
-NULL
+nullptr
 c
 )
 ;
@@ -10091,7 +10091,7 @@ as_FImm64Pool
 (
 dest
 value
-NULL
+nullptr
 cc
 )
 ;
@@ -10252,7 +10252,7 @@ as_FImm32Pool
 (
 vd
 value
-NULL
+nullptr
 cc
 )
 ;

@@ -885,7 +885,7 @@ runtime_
 >
 setFlusher
 (
-NULL
+nullptr
 )
 ;
 }
