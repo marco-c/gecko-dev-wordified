@@ -116,6 +116,11 @@ test
 "
 "
 hostname
+should
+be
+mochi
+.
+test
 "
 )
 ;
@@ -126,6 +131,9 @@ new
 XMLHttpRequest
 (
 {
+mozAnon
+:
+true
 mozSystem
 :
 true
