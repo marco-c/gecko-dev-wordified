@@ -465,6 +465,16 @@ GetCompositor
 )
 )
 ;
+mFrontBuffer
+-
+>
+SetCompositableBackendSpecificData
+(
+GetCompositableBackendSpecificData
+(
+)
+)
+;
 AutoLockTextureHost
 autoLock
 (
