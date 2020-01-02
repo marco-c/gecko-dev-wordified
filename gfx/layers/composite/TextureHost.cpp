@@ -388,6 +388,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 ISurfaceAllocator
 *
