@@ -914,9 +914,6 @@ SourceSurface
 >
 GetSurfaceSnapshot
 (
-bool
-*
-aPremultAlpha
 )
 MOZ_OVERRIDE
 ;
