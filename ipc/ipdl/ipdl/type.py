@@ -3488,7 +3488,7 @@ builtin
 .
 Types
 ]
-builtinIncludes
+builtinHeaderIncludes
 =
 [
 CxxInclude
@@ -3501,7 +3501,7 @@ f
 in
 builtin
 .
-Includes
+HeaderIncludes
 ]
 def
 errormsg
@@ -4200,7 +4200,7 @@ tu
 .
 cxxIncludes
 =
-builtinIncludes
+builtinHeaderIncludes
 +
 tu
 .
