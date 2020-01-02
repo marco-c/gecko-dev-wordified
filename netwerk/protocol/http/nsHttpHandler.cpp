@@ -167,13 +167,6 @@ h
 #
 include
 "
-nsIDOMConnection
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -13578,7 +13571,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMMozConnection
+nsISupports
 >
 mozConnection
 ;
@@ -13831,7 +13824,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMMozConnection
+nsISupports
 >
 mozConnection
 ;

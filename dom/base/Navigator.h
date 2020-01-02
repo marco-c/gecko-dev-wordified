@@ -1055,7 +1055,10 @@ ErrorResult
 aRv
 )
 ;
-nsIDOMMozConnection
+network
+:
+:
+Connection
 *
 GetMozConnection
 (

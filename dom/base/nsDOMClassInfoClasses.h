@@ -358,10 +358,6 @@ DOMCI_CLASS
 (
 MozMobileMessageThread
 )
-DOMCI_CLASS
-(
-MozConnection
-)
 #
 ifdef
 MOZ_B2G_RIL
