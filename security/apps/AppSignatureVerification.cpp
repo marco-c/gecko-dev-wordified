@@ -3878,7 +3878,10 @@ EndEntityOrCA
 :
 :
 MustBeEndEntity
-KU_DIGITAL_SIGNATURE
+KeyUsage
+:
+:
+digitalSignature
 KeyPurposeId
 :
 :

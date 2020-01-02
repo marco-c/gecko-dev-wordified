@@ -1022,13 +1022,8 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
-/
-*
-optional
-*
-/
-KeyUsages
-requiredKeyUsagesIfPresent
+KeyUsage
+requiredKeyUsageIfPresent
 KeyPurposeId
 requiredEKUIfPresent
 const
