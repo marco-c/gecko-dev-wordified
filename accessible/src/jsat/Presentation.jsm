@@ -2771,10 +2771,10 @@ type
 '
 Haptic
 '
-PIVOT_CHANGE_PATTHERN
+PIVOT_CHANGE_PATTERN
 :
 [
-20
+40
 ]
 pivotChanged
 :
@@ -2799,7 +2799,7 @@ pattern
 :
 this
 .
-PIVOT_CHANGE_PATTHERN
+PIVOT_CHANGE_PATTERN
 }
 }
 ;
