@@ -108,6 +108,12 @@ MPL
 *
 /
 #
+ifndef
+gfxFailure_h_
+#
+define
+gfxFailure_h_
+#
 include
 "
 nsString
@@ -176,3 +182,8 @@ failure
 }
 }
 }
+#
+endif
+/
+/
+gfxFailure_h_
