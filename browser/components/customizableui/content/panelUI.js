@@ -2866,3 +2866,9 @@ promise
 }
 }
 ;
+PanelUI
+.
+init
+(
+)
+;
