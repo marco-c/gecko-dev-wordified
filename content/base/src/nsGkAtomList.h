@@ -5275,6 +5275,13 @@ ondblclick
 )
 GK_ATOM
 (
+ondeleted
+"
+ondeleted
+"
+)
+GK_ATOM
+(
 ondeliverysuccess
 "
 ondeliverysuccess
