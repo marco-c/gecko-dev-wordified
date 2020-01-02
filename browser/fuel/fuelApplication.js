@@ -4659,9 +4659,6 @@ include
 .
 .
 /
-.
-.
-/
 toolkit
 /
 components
