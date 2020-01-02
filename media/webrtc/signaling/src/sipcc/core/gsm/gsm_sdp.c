@@ -7071,6 +7071,18 @@ added_fmtp
 =
 1
 ;
+(
+void
+)
+sdp_attr_set_fmtp_payload_type
+(
+sdp_p
+level
+0
+a_inst
+payload_number
+)
+;
 {
 char
 buffer
@@ -7361,7 +7373,6 @@ added_fmtp
 =
 1
 ;
-}
 (
 void
 )
@@ -7374,6 +7385,7 @@ a_inst
 payload_number
 )
 ;
+}
 if
 (
 max_fs
