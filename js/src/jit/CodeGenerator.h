@@ -696,6 +696,14 @@ lir
 )
 ;
 bool
+visitLambdaArrow
+(
+LLambdaArrow
+*
+lir
+)
+;
+bool
 visitLambdaForSingleton
 (
 LLambdaForSingleton

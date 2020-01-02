@@ -609,6 +609,11 @@ Lambda
 \
 _
 (
+LambdaArrow
+)
+\
+_
+(
 ImplicitThis
 )
 \
