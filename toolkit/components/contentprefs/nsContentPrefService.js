@@ -7781,6 +7781,9 @@ warnDeprecated
 (
 )
 {
+let
+Deprecated
+=
 Cu
 .
 import
@@ -7798,7 +7801,11 @@ Deprecated
 .
 jsm
 "
+{
+}
 )
+.
+Deprecated
 ;
 Deprecated
 .
