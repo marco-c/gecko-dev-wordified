@@ -1200,7 +1200,7 @@ void
 static
 const
 uint32_t
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 =
 sizeof
 (

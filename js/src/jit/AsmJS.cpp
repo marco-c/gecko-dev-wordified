@@ -42018,7 +42018,7 @@ masm
 JS_ASSERT
 (
 (
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 +
 masm
 .
@@ -42171,7 +42171,7 @@ instruction
 unsigned
 alreadyPushed
 =
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 +
 masm
 .
@@ -44517,7 +44517,7 @@ array
 unsigned
 offsetToCallerStackArgs
 =
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 +
 masm
 .

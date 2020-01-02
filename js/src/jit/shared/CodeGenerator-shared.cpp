@@ -552,7 +552,7 @@ forceAlign
 unsigned
 alignmentAtCall
 =
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 +
 frameDepth_
 ;
