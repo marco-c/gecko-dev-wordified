@@ -21498,7 +21498,7 @@ OwningCompileOptions
 *
 /
 class
-JS_PUBLIC_API
+JS_FRIEND_API
 (
 ReadOnlyCompileOptions
 )
@@ -22002,7 +22002,7 @@ freed
 *
 /
 class
-JS_PUBLIC_API
+JS_FRIEND_API
 (
 OwningCompileOptions
 )
@@ -22538,7 +22538,7 @@ it
 /
 class
 MOZ_STACK_CLASS
-JS_PUBLIC_API
+JS_FRIEND_API
 (
 CompileOptions
 )
