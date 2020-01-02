@@ -10760,7 +10760,7 @@ if
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 d
 &

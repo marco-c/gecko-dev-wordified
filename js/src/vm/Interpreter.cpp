@@ -435,7 +435,7 @@ using
 mozilla
 :
 :
-DoubleEqualsInt32
+NumberEqualsInt32
 ;
 using
 mozilla
@@ -17415,7 +17415,7 @@ Use
 mozilla
 :
 :
-DoubleEqualsInt32
+NumberEqualsInt32
 to
 treat
 -
@@ -17439,7 +17439,7 @@ isDouble
 |
 |
 !
-DoubleEqualsInt32
+NumberEqualsInt32
 (
 rref
 .

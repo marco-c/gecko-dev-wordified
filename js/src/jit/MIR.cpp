@@ -228,7 +228,7 @@ using
 mozilla
 :
 :
-DoublesAreIdentical
+NumbersAreIdentical
 ;
 using
 mozilla
@@ -7286,7 +7286,7 @@ return
 false
 ;
 return
-DoublesAreIdentical
+NumbersAreIdentical
 (
 def
 -

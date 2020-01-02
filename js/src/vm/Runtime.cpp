@@ -1179,6 +1179,9 @@ negativeInfinityValue
 DoubleValue
 (
 NegativeInfinity
+<
+double
+>
 (
 )
 )
@@ -1188,6 +1191,9 @@ positiveInfinityValue
 DoubleValue
 (
 PositiveInfinity
+<
+double
+>
 (
 )
 )

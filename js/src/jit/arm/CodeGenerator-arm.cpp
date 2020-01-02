@@ -7832,6 +7832,9 @@ masm
 ma_vimm
 (
 NegativeInfinity
+<
+double
+>
 (
 )
 ScratchFloatReg

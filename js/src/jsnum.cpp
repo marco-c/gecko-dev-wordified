@@ -308,7 +308,7 @@ using
 mozilla
 :
 :
-MinDoubleValue
+MinNumberValue
 ;
 using
 mozilla
@@ -7201,6 +7201,9 @@ mozilla
 :
 :
 PositiveInfinity
+<
+double
+>
 (
 )
 ;
@@ -7215,6 +7218,9 @@ mozilla
 :
 :
 NegativeInfinity
+<
+double
+>
 (
 )
 ;
@@ -7225,7 +7231,10 @@ NC_MIN_VALUE
 .
 dval
 =
-MinDoubleValue
+MinNumberValue
+<
+double
+>
 (
 )
 ;
@@ -7964,7 +7973,7 @@ JS_ASSERT
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 d
 &
@@ -8140,7 +8149,7 @@ return
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 d
 &
@@ -8281,7 +8290,7 @@ if
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 d
 &
@@ -8682,7 +8691,7 @@ if
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 d
 &
@@ -11124,10 +11133,16 @@ d
 negative
 ?
 NegativeInfinity
+<
+double
+>
 (
 )
 :
 PositiveInfinity
+<
+double
+>
 (
 )
 ;

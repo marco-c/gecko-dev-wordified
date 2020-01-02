@@ -341,7 +341,7 @@ using
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 ;
 using
 mozilla
@@ -16405,7 +16405,7 @@ pc
 ;
 if
 (
-DoubleIsInt32
+NumberIsInt32
 (
 dval
 &
@@ -17509,7 +17509,7 @@ i
 if
 (
 !
-DoubleIsInt32
+NumberIsInt32
 (
 pn4
 -

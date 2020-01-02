@@ -21664,6 +21664,9 @@ addGlobalConstant
 (
 varName
 PositiveInfinity
+<
+double
+>
 (
 )
 field

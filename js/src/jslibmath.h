@@ -406,6 +406,9 @@ mozilla
 :
 :
 NegativeInfinity
+<
+double
+>
 (
 )
 ;
@@ -414,6 +417,9 @@ mozilla
 :
 :
 PositiveInfinity
+<
+double
+>
 (
 )
 ;
