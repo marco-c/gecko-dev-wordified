@@ -2795,6 +2795,14 @@ Run
 (
 )
 ;
+protected
+:
+virtual
+~
+DecodeJob
+(
+)
+;
 private
 :
 nsRefPtr
