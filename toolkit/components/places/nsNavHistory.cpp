@@ -22713,10 +22713,6 @@ state
 of
 this
 container
-in
-localstore
-.
-rdf
 nsresult
 CreatePlacesPersistURN
 (
