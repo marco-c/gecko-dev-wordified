@@ -152,7 +152,6 @@ eTreeOpRunScriptAsyncDefer
 eTreeOpPreventScriptExecution
 eTreeOpDoneAddingChildren
 eTreeOpDoneCreatingElement
-eTreeOpFlushPendingAppendNotifications
 eTreeOpSetDocumentCharset
 eTreeOpNeedsCharsetSwitchTo
 eTreeOpUpdateStyleSheet
@@ -698,9 +697,6 @@ DoneAddingChildren
 nsIContent
 *
 aNode
-nsHtml5DocumentBuilder
-*
-aBuilder
 )
 ;
 static

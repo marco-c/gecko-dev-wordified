@@ -162,6 +162,10 @@ nsINodeInfo
 >
 &
 aNodeInfo
+FromParser
+aFromParser
+=
+NOT_FROM_PARSER
 )
 ;
 virtual
@@ -246,6 +250,15 @@ aValue
 nsAttrValue
 &
 aResult
+)
+MOZ_OVERRIDE
+;
+virtual
+void
+DoneAddingChildren
+(
+bool
+aHaveNotified
 )
 MOZ_OVERRIDE
 ;
@@ -510,6 +523,9 @@ eModeValue
 ;
 ValueModeFlag
 mValueModeFlag
+;
+bool
+mIsDoneAddingChildren
 ;
 nsString
 mDefaultValue
