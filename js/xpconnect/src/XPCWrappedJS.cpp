@@ -1629,21 +1629,6 @@ refcnt
 "
 )
 ;
-nsISupports
-*
-base
-=
-NS_CYCLE_COLLECTION_CLASSNAME
-(
-nsXPCWrappedJS
-)
-:
-:
-Upcast
-(
-this
-)
-;
 nsrefcnt
 cnt
 =
@@ -1651,7 +1636,6 @@ mRefCnt
 .
 incr
 (
-base
 )
 ;
 NS_LOG_ADDREF
@@ -1825,7 +1809,6 @@ mRefCnt
 .
 incr
 (
-base
 )
 ;
 Destroy
