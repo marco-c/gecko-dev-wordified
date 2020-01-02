@@ -44755,11 +44755,18 @@ returnType
 arguments
 extendedAttributes
 considerTypes
+           
+static
+=
+False
 )
 :
     
 return
 (
+not
+static
+and
 considerTypes
 and
             
@@ -47489,6 +47496,24 @@ extended
 #
 attributes
 .
+Also
+JSContext
+is
+not
+needed
+for
+the
+static
+case
+        
+#
+since
+GlobalObject
+already
+contains
+the
+context
+.
         
 needsCx
 =
@@ -47508,19 +47533,11 @@ interface
 isJSImplemented
 (
 )
+static
 )
         
 if
 needsCx
-and
-not
-(
-static
-and
-descriptor
-.
-workers
-)
 :
             
 argsPre
@@ -93221,6 +93238,13 @@ extendedAttrs
 self
 .
 passJSBitsAsNeeded
+self
+.
+member
+.
+isStatic
+(
+)
 )
 :
             
@@ -108084,6 +108108,11 @@ arguments
 )
 [
 ]
+considerTypes
+=
+True
+static
+=
 True
 )
 :
@@ -108659,6 +108688,11 @@ arguments
 )
 [
 ]
+considerTypes
+=
+True
+static
+=
 True
 )
 :

@@ -362,9 +362,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 nsAString
 &

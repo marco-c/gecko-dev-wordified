@@ -1559,21 +1559,6 @@ aGlobal
 eventname
 )
     
-if
-hasVariant
-:
-        
-fd
-.
-write
-(
-"
-JSContext
-*
-aCx
-"
-)
-    
 fd
 .
 write
@@ -4685,22 +4670,6 @@ aGlobal
 eventname
 )
     
-if
-hasVariant
-:
-        
-fd
-.
-write
-(
-"
-JSContext
-*
-aCx
-"
-)
-;
-    
 fd
 .
 write
@@ -4862,7 +4831,11 @@ fd
 write
 (
 "
-aCx
+aGlobal
+.
+Context
+(
+)
 "
 )
 ;

@@ -803,9 +803,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 JS
 :
 :
@@ -833,9 +830,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 JS
 :
 :
@@ -865,9 +859,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 JS
 :
 :
@@ -897,9 +888,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 JS
 :
 :
