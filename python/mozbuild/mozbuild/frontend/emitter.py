@@ -111,6 +111,8 @@ IPDLFile
     
 LocalInclude
     
+PreprocessedTestWebIDLFile
+    
 PreprocessedWebIDLFile
     
 Program
@@ -1199,6 +1201,13 @@ IPDLFile
 LOCAL_INCLUDES
 '
 LocalInclude
+)
+            
+(
+'
+PREPROCESSED_TEST_WEBIDL_FILES
+'
+PreprocessedTestWebIDLFile
 )
             
 (
