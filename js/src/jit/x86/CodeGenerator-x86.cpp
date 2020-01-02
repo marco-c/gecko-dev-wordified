@@ -1828,7 +1828,6 @@ Operand
 (
 AbsoluteAddress
 (
-&
 GetIonContext
 (
 )
@@ -1837,7 +1836,9 @@ GetIonContext
 runtime
 -
 >
-interrupt
+addressOfInterrupt
+(
+)
 )
 )
 Imm32
