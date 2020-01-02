@@ -92,6 +92,12 @@ MPL
 *
 /
 #
+ifndef
+nsDocShellEnumerator_h___
+#
+define
+nsDocShellEnumerator_h___
+#
 include
 "
 nsISimpleEnumerator
@@ -462,3 +468,8 @@ inItemArray
 ;
 }
 ;
+#
+endif
+/
+/
+nsDocShellEnumerator_h___
