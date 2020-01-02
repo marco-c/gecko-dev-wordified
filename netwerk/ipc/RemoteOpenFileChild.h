@@ -443,7 +443,7 @@ NS_DECL_NSIFILE
 NS_DECL_NSIHASHABLE
 /
 /
-URI
+aRemoteOpenUri
 must
 be
 scheme
@@ -457,6 +457,8 @@ remoteopenfile
 otherwise
 looks
 like
+/
+/
 a
 file
 :
@@ -470,6 +472,9 @@ Init
 nsIURI
 *
 aRemoteOpenUri
+nsIURI
+*
+aAppUri
 )
 ;
 /
@@ -620,6 +625,12 @@ nsCOMPtr
 nsIURI
 >
 mURI
+;
+nsCOMPtr
+<
+nsIURI
+>
+mAppURI
 ;
 nsCOMPtr
 <
