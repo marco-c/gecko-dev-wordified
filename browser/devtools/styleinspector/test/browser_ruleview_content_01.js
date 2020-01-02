@@ -56,11 +56,14 @@ strict
 /
 /
 Test
+that
 the
 rule
 -
 view
 content
+is
+correct
 let
 test
 =
@@ -86,7 +89,7 @@ charset
 utf
 -
 8
-browser_ruleview_ui
+browser_ruleview_content
 .
 js
 "
