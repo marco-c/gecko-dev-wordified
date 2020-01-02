@@ -798,8 +798,6 @@ reflect
 /
 xptcall
 /
-public
-/
 genstubs
 .
 pl
