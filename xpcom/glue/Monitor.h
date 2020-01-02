@@ -214,7 +214,6 @@ MonitorAutoUnlock
 *
 /
 class
-NS_COM_GLUE
 Monitor
 {
 public
@@ -423,7 +422,6 @@ created
 *
 /
 class
-NS_COM_GLUE
 MOZ_STACK_CLASS
 MonitorAutoLock
 {
@@ -610,7 +608,6 @@ created
 *
 /
 class
-NS_COM_GLUE
 MOZ_STACK_CLASS
 MonitorAutoUnlock
 {

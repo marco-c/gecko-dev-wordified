@@ -324,7 +324,6 @@ aPtr
 ;
 }
 static
-NS_COM_GLUE
 nsresult
 HeapMinimize
 (
@@ -333,7 +332,6 @@ aImmediate
 )
 ;
 static
-NS_COM_GLUE
 void
 *
 Clone
@@ -347,7 +345,6 @@ aSize
 )
 ;
 static
-NS_COM_GLUE
 nsIMemory
 *
 GetGlobalMemoryService

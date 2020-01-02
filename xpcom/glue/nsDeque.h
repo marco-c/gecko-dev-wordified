@@ -553,7 +553,6 @@ class
 nsDequeIterator
 ;
 class
-NS_COM_GLUE
 nsDeque
 {
 friend
@@ -1440,7 +1439,6 @@ class
 *
 /
 class
-NS_COM_GLUE
 nsDequeIterator
 {
 public

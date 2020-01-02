@@ -763,7 +763,6 @@ singleton
 *
 /
 class
-NS_COM_GLUE
 GenericClassInfo
 :
 public

@@ -232,7 +232,6 @@ nsTArray
 *
 /
 class
-NS_COM_GLUE
 nsTObserverArray_base
 {
 public

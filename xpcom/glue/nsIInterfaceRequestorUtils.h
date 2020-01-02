@@ -219,7 +219,6 @@ aDestination
 ;
 }
 class
-NS_COM_GLUE
 nsGetInterface
 :
 public

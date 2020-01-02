@@ -314,7 +314,6 @@ asynchronous
 *
 /
 extern
-NS_COM_GLUE
 void
 NS_SetThreadName
 (
@@ -356,7 +355,6 @@ size_t
 LEN
 >
 inline
-NS_COM_GLUE
 void
 NS_SetThreadName
 (
@@ -484,7 +482,6 @@ unique
 *
 /
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_NewThread
 (
@@ -688,7 +685,6 @@ object
 *
 /
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_GetCurrentThread
 (
@@ -734,7 +730,6 @@ null
 *
 /
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_DispatchToCurrentThread
 (
@@ -796,7 +791,6 @@ null
 *
 /
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_DispatchToMainThread
 (
@@ -942,7 +936,6 @@ timeout
 *
 /
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_ProcessPendingEvents
 (
@@ -1044,7 +1037,6 @@ queue
 *
 /
 extern
-NS_COM_GLUE
 bool
 NS_HasPendingEvents
 (
@@ -1172,7 +1164,6 @@ processed
 *
 /
 extern
-NS_COM_GLUE
 bool
 NS_ProcessNextEvent
 (
@@ -1476,7 +1467,6 @@ current
 thread
 .
 extern
-NS_COM_GLUE
 nsIThread
 *
 NS_GetCurrentThread
@@ -1567,13 +1557,6 @@ endif
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
-#
-undef
-IMETHOD_VISIBILITY
-#
-define
-IMETHOD_VISIBILITY
-NS_COM_GLUE
 /
 /
 This
@@ -1585,7 +1568,6 @@ be
 subclassed
 .
 class
-NS_COM_GLUE
 nsRunnable
 :
 public
@@ -1622,7 +1604,6 @@ be
 subclassed
 .
 class
-NS_COM_GLUE
 nsCancelableRunnable
 :
 public
@@ -1649,12 +1630,6 @@ nsCancelableRunnable
 }
 }
 ;
-#
-undef
-IMETHOD_VISIBILITY
-#
-define
-IMETHOD_VISIBILITY
 /
 /
 An

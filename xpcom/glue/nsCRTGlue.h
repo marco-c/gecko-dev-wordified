@@ -193,7 +193,6 @@ terminated
 )
 *
 /
-NS_COM_GLUE
 const
 char
 *
@@ -371,7 +370,6 @@ returned
 .
 *
 /
-NS_COM_GLUE
 char
 *
 NS_strtok
@@ -398,7 +396,6 @@ char16_t
 strings
 *
 /
-NS_COM_GLUE
 uint32_t
 NS_strlen
 (
@@ -420,7 +417,6 @@ char16_t
 strings
 *
 /
-NS_COM_GLUE
 int
 NS_strcmp
 (
@@ -451,7 +447,6 @@ allocator
 .
 *
 /
-NS_COM_GLUE
 char16_t
 *
 NS_strdup
@@ -477,7 +472,6 @@ allocator
 .
 *
 /
-NS_COM_GLUE
 char
 *
 NS_strdup
@@ -520,7 +514,6 @@ allocator
 .
 *
 /
-NS_COM_GLUE
 char16_t
 *
 NS_strndup
@@ -574,7 +567,6 @@ these
 directly
 .
 class
-NS_COM_GLUE
 nsLowerUpperUtils
 {
 public
@@ -649,7 +641,6 @@ aChar
 ]
 ;
 }
-NS_COM_GLUE
 bool
 NS_IsUpper
 (
@@ -657,7 +648,6 @@ char
 aChar
 )
 ;
-NS_COM_GLUE
 bool
 NS_IsLower
 (
@@ -665,7 +655,6 @@ char
 aChar
 )
 ;
-NS_COM_GLUE
 bool
 NS_IsAscii
 (
@@ -673,7 +662,6 @@ char16_t
 aChar
 )
 ;
-NS_COM_GLUE
 bool
 NS_IsAscii
 (
@@ -683,7 +671,6 @@ char16_t
 aString
 )
 ;
-NS_COM_GLUE
 bool
 NS_IsAsciiAlpha
 (
@@ -691,7 +678,6 @@ char16_t
 aChar
 )
 ;
-NS_COM_GLUE
 bool
 NS_IsAsciiDigit
 (
@@ -699,7 +685,6 @@ char16_t
 aChar
 )
 ;
-NS_COM_GLUE
 bool
 NS_IsAsciiWhitespace
 (
@@ -707,7 +692,6 @@ char16_t
 aChar
 )
 ;
-NS_COM_GLUE
 bool
 NS_IsAscii
 (
@@ -717,7 +701,6 @@ char
 aString
 )
 ;
-NS_COM_GLUE
 bool
 NS_IsAscii
 (
@@ -732,7 +715,6 @@ aLength
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
-NS_COM_GLUE
 void
 NS_MakeRandomString
 (

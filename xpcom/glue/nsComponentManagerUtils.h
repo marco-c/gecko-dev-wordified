@@ -141,7 +141,6 @@ nsIFactory
 .
 h
 "
-NS_COM_GLUE
 nsresult
 CallCreateInstance
 (
@@ -162,7 +161,6 @@ void
 aResult
 )
 ;
-NS_COM_GLUE
 nsresult
 CallCreateInstance
 (
@@ -183,7 +181,6 @@ void
 aResult
 )
 ;
-NS_COM_GLUE
 nsresult
 CallGetClassObject
 (
@@ -201,7 +198,6 @@ void
 aResult
 )
 ;
-NS_COM_GLUE
 nsresult
 CallGetClassObject
 (
@@ -220,7 +216,6 @@ aResult
 )
 ;
 class
-NS_COM_GLUE
 nsCreateInstanceByCID
 :
 public
@@ -290,7 +285,6 @@ mErrorPtr
 }
 ;
 class
-NS_COM_GLUE
 nsCreateInstanceByContractID
 :
 public
@@ -360,7 +354,6 @@ mErrorPtr
 }
 ;
 class
-NS_COM_GLUE
 nsCreateInstanceFromFactory
 :
 public
@@ -585,7 +578,6 @@ aError
 ;
 }
 class
-NS_COM_GLUE
 nsGetClassObjectByCID
 :
 public
@@ -644,7 +636,6 @@ mErrorPtr
 }
 ;
 class
-NS_COM_GLUE
 nsGetClassObjectByContractID
 :
 public

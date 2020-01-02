@@ -198,7 +198,6 @@ the
 XPCOM
 dll
 class
-NS_COM_GLUE
 nsCOMArray_base
 {
 friend

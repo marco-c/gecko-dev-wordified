@@ -302,7 +302,6 @@ you
 *
 /
 class
-NS_COM_GLUE
 OffTheBooksMutex
 :
 BlockingResourceBase
@@ -627,7 +626,6 @@ directly
 *
 /
 class
-NS_COM_GLUE
 Mutex
 :
 public
@@ -735,7 +733,6 @@ typename
 T
 >
 class
-NS_COM_GLUE
 MOZ_STACK_CLASS
 BaseAutoLock
 {
@@ -941,7 +938,6 @@ typename
 T
 >
 class
-NS_COM_GLUE
 MOZ_STACK_CLASS
 BaseAutoUnlock
 {

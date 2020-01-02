@@ -166,7 +166,6 @@ object
 *
 /
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_GetMainThread
 (
@@ -237,7 +236,6 @@ current
 thread
 .
 extern
-NS_COM_GLUE
 nsIThread
 *
 NS_GetCurrentThread
@@ -292,7 +290,6 @@ otherwise
 *
 /
 extern
-NS_COM_GLUE
 bool
 NS_IsMainThread
 (

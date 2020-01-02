@@ -294,7 +294,6 @@ CrossProcessMutexHandle
 #
 endif
 class
-NS_COM_GLUE
 CrossProcessMutex
 {
 public

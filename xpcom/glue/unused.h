@@ -154,7 +154,6 @@ SomeFuncDeclaredWarnUnusedReturnValue
 /
 /
 struct
-NS_COM_GLUE
 unused_t
 {
 }
@@ -162,7 +161,6 @@ unused_t
 extern
 const
 unused_t
-NS_COM_GLUE
 unused
 ;
 template

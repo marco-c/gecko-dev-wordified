@@ -275,7 +275,6 @@ builds
 *
 /
 class
-NS_COM_GLUE
 BlockingResourceBase
 {
 public

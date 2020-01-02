@@ -529,7 +529,6 @@ success
 .
 *
 /
-NS_COM_GLUE
 bool
 fallocate
 (
@@ -590,7 +589,6 @@ shared
 library
 *
 /
-NS_COM_GLUE
 void
 ReadAheadLib
 (
@@ -697,7 +695,6 @@ it
 .
 *
 /
-NS_COM_GLUE
 void
 ReadAheadFile
 (
@@ -778,7 +775,6 @@ shared
 library
 *
 /
-NS_COM_GLUE
 void
 ReadAheadLib
 (
@@ -882,7 +878,6 @@ it
 .
 *
 /
-NS_COM_GLUE
 void
 ReadAheadFile
 (
@@ -1016,7 +1011,6 @@ size
 )
 *
 /
-NS_COM_GLUE
 void
 ReadAhead
 (

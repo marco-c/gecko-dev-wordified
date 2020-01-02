@@ -164,7 +164,6 @@ to
 the
 array
 .
-NS_COM_GLUE
 nsresult
 NS_NewArrayEnumerator
 (
@@ -228,7 +227,6 @@ objects
 going
 away
 .
-NS_COM_GLUE
 nsresult
 NS_NewArrayEnumerator
 (

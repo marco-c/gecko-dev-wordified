@@ -193,7 +193,6 @@ nsXPCOM
 h
 "
 class
-NS_COM_GLUE
 nsCategoryObserver
 MOZ_FINAL
 :

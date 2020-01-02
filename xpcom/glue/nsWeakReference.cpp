@@ -355,7 +355,6 @@ return
 status
 ;
 }
-NS_COM_GLUE
 nsIWeakReference
 *
 /
@@ -459,7 +458,6 @@ return
 result
 ;
 }
-NS_COM_GLUE
 nsresult
 nsSupportsWeakReference
 :

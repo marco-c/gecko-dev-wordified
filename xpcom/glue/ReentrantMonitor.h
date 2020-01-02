@@ -249,7 +249,6 @@ directly
 *
 /
 class
-NS_COM_GLUE
 ReentrantMonitor
 :
 BlockingResourceBase
@@ -713,7 +712,6 @@ Exit
 *
 /
 class
-NS_COM_GLUE
 MOZ_STACK_CLASS
 ReentrantMonitorAutoEnter
 {

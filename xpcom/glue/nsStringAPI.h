@@ -5990,7 +5990,6 @@ aDest
 )
 ;
 }
-NS_COM_GLUE
 char
 *
 ToNewUTF8String
@@ -6829,7 +6828,6 @@ substrings
 *
 /
 class
-NS_COM_GLUE
 nsDependentSubstring
 :
 public
@@ -6958,7 +6956,6 @@ MOZ_DELETE
 }
 ;
 class
-NS_COM_GLUE
 nsDependentCSubstring
 :
 public

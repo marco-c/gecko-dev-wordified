@@ -239,7 +239,6 @@ aDestination
 ;
 }
 class
-NS_COM_GLUE
 nsQueryReferent
 :
 public
@@ -333,7 +332,6 @@ instead
 *
 /
 extern
-NS_COM_GLUE
 nsIWeakReference
 *
 NS_GetWeakReference

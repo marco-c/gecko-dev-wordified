@@ -267,7 +267,6 @@ its
 own
 memory
 class
-NS_COM_GLUE
 nsVoidArray
 {
 public
@@ -1326,7 +1325,6 @@ ptr
 overhead
 .
 class
-NS_COM_GLUE
 nsSmallVoidArray
 :
 private

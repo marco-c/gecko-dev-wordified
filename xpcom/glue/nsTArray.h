@@ -1530,7 +1530,6 @@ is
 empty
 .
 struct
-NS_COM_GLUE
 nsTArrayHeader
 {
 static

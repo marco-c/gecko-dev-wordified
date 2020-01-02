@@ -3244,7 +3244,6 @@ C
 {
 #
 endif
-NS_COM_GLUE
 void
 printf_stderr
 (
@@ -3257,7 +3256,6 @@ aFmt
 .
 )
 ;
-NS_COM_GLUE
 void
 vprintf_stderr
 (
@@ -3282,7 +3280,6 @@ print
 to
 the
 console
-NS_COM_GLUE
 void
 fprintf_stderr
 (
@@ -3323,7 +3320,6 @@ display
 layers
 visualization
 .
-NS_COM_GLUE
 void
 set_stderr_callback
 (

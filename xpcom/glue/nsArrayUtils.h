@@ -141,7 +141,6 @@ class
 for
 do_QueryElementAt
 class
-NS_COM_GLUE
 nsQueryArrayElementAt
 :
 public

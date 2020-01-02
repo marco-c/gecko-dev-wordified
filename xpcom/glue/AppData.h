@@ -170,7 +170,6 @@ the
 destructor
 .
 class
-NS_COM_GLUE
 ScopedAppData
 :
 public

@@ -430,7 +430,6 @@ release
 .
 *
 /
-NS_COM_GLUE
 nsresult
 NS_ProxyRelease
 (

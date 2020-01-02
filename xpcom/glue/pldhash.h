@@ -2924,7 +2924,6 @@ ops
 .
 *
 /
-NS_COM_GLUE
 void
 *
 PL_DHashAllocTable
@@ -2936,7 +2935,6 @@ uint32_t
 aNBytes
 )
 ;
-NS_COM_GLUE
 void
 PL_DHashFreeTable
 (
@@ -2948,7 +2946,6 @@ void
 aPtr
 )
 ;
-NS_COM_GLUE
 PLDHashNumber
 PL_DHashStringKey
 (
@@ -2991,7 +2988,6 @@ key
 ;
 }
 ;
-NS_COM_GLUE
 PLDHashNumber
 PL_DHashVoidPtrKeyStub
 (
@@ -3004,7 +3000,6 @@ void
 aKey
 )
 ;
-NS_COM_GLUE
 bool
 PL_DHashMatchEntryStub
 (
@@ -3021,7 +3016,6 @@ void
 aKey
 )
 ;
-NS_COM_GLUE
 bool
 PL_DHashMatchStringKey
 (
@@ -3038,7 +3032,6 @@ void
 aKey
 )
 ;
-NS_COM_GLUE
 void
 PL_DHashMoveEntryStub
 (
@@ -3054,7 +3047,6 @@ PLDHashEntryHdr
 aTo
 )
 ;
-NS_COM_GLUE
 void
 PL_DHashClearEntryStub
 (
@@ -3066,7 +3058,6 @@ PLDHashEntryHdr
 aEntry
 )
 ;
-NS_COM_GLUE
 void
 PL_DHashFreeStringKey
 (
@@ -3078,7 +3069,6 @@ PLDHashEntryHdr
 aEntry
 )
 ;
-NS_COM_GLUE
 void
 PL_DHashFinalizeStub
 (
@@ -3128,7 +3118,6 @@ operations
 .
 *
 /
-NS_COM_GLUE
 const
 PLDHashTableOps
 *
@@ -3188,7 +3177,6 @@ callback
 .
 *
 /
-NS_COM_GLUE
 PLDHashTable
 *
 PL_NewDHashTable
@@ -3245,7 +3233,6 @@ heap
 .
 *
 /
-NS_COM_GLUE
 void
 PL_DHashTableDestroy
 (
@@ -3343,7 +3330,6 @@ large
 .
 *
 /
-NS_COM_GLUE
 void
 PL_DHashTableInit
 (
@@ -3395,7 +3381,6 @@ failure
 *
 /
 MOZ_WARN_UNUSED_RESULT
-NS_COM_GLUE
 bool
 PL_DHashTableInit
 (
@@ -3484,7 +3469,6 @@ memset
 .
 *
 /
-NS_COM_GLUE
 void
 PL_DHashTableFinish
 (
@@ -3781,7 +3765,6 @@ value
 .
 *
 /
-NS_COM_GLUE
 PLDHashEntryHdr
 *
 PL_DHASH_FASTCALL
@@ -3883,7 +3866,6 @@ either
 .
 *
 /
-NS_COM_GLUE
 void
 PL_DHashTableRawRemove
 (
@@ -3895,7 +3877,6 @@ PLDHashEntryHdr
 aEntry
 )
 ;
-NS_COM_GLUE
 uint32_t
 PL_DHashTableEnumerate
 (
@@ -3972,7 +3953,6 @@ opaque
 .
 *
 /
-NS_COM_GLUE
 size_t
 PL_DHashTableSizeOfExcludingThis
 (
@@ -4010,7 +3990,6 @@ this
 .
 *
 /
-NS_COM_GLUE
 size_t
 PL_DHashTableSizeOfIncludingThis
 (
@@ -4148,7 +4127,6 @@ assertions
 .
 *
 /
-NS_COM_GLUE
 void
 PL_DHashMarkTableImmutable
 (
@@ -4162,7 +4140,6 @@ endif
 #
 ifdef
 PL_DHASHMETER
-NS_COM_GLUE
 void
 PL_DHashTableDumpMeter
 (

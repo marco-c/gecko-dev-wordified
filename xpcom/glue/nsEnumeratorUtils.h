@@ -133,7 +133,6 @@ nsISupports
 class
 nsISimpleEnumerator
 ;
-NS_COM_GLUE
 nsresult
 NS_NewEmptyEnumerator
 (
@@ -143,7 +142,6 @@ nsISimpleEnumerator
 aResult
 )
 ;
-NS_COM_GLUE
 nsresult
 NS_NewSingletonEnumerator
 (
@@ -156,7 +154,6 @@ nsISupports
 aSingleton
 )
 ;
-NS_COM_GLUE
 nsresult
 NS_NewUnionEnumerator
 (

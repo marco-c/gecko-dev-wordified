@@ -198,7 +198,6 @@ API
 *
 /
 class
-NS_COM_GLUE
 CondVar
 :
 BlockingResourceBase

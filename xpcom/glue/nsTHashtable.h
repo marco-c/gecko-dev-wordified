@@ -202,7 +202,6 @@ nsTHashtable
 Clear
 (
 )
-NS_COM_GLUE
 PLDHashOperator
 PL_DHashStubEnumRemove
 (

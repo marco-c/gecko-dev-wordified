@@ -414,7 +414,6 @@ an
 nsID
 *
 /
-NS_COM_GLUE
 bool
 Parse
 (
@@ -476,7 +475,6 @@ BELOW
 .
 *
 /
-NS_COM_GLUE
 char
 *
 ToString
@@ -531,7 +529,6 @@ stack
 .
 *
 /
-NS_COM_GLUE
 void
 ToProvidedString
 (
