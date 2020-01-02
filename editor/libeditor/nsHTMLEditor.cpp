@@ -19281,15 +19281,15 @@ aNode
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :
 DeleteText
 (
-nsIDOMCharacterData
-*
-aTextNode
+nsGenericDOMDataNode
+&
+aCharData
 uint32_t
 aOffset
 uint32_t
@@ -19298,7 +19298,7 @@ aLength
 {
 /
 /
-do
+Do
 nothing
 if
 the
@@ -19312,7 +19312,8 @@ if
 !
 IsModifiableNode
 (
-aTextNode
+&
+aCharData
 )
 )
 {
@@ -19326,7 +19327,7 @@ nsEditor
 :
 DeleteText
 (
-aTextNode
+aCharData
 aOffset
 aLength
 )
