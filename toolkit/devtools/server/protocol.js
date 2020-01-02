@@ -6898,9 +6898,7 @@ deferred
 .
 reject
 (
-packet
-.
-error
+message
 )
 ;
 }
