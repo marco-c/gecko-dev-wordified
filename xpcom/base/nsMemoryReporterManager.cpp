@@ -463,7 +463,7 @@ HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
 nsresult
-GetVsize
+VsizeDistinguishedAmount
 (
 int64_t
 *
@@ -480,7 +480,7 @@ aN
 }
 static
 nsresult
-GetResident
+ResidentDistinguishedAmount
 (
 int64_t
 *
@@ -497,7 +497,7 @@ aN
 }
 static
 nsresult
-GetResidentFast
+ResidentFastDistinguishedAmount
 (
 int64_t
 *
@@ -505,7 +505,7 @@ aN
 )
 {
 return
-GetResident
+ResidentDistinguishedAmount
 (
 aN
 )
@@ -1178,7 +1178,7 @@ HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
 nsresult
-GetVsize
+VsizeDistinguishedAmount
 (
 int64_t
 *
@@ -1218,7 +1218,7 @@ rv
 }
 static
 nsresult
-GetResident
+ResidentDistinguishedAmount
 (
 int64_t
 *
@@ -1258,7 +1258,7 @@ rv
 }
 static
 nsresult
-GetResidentFast
+ResidentFastDistinguishedAmount
 (
 int64_t
 *
@@ -1266,7 +1266,7 @@ aN
 )
 {
 return
-GetResident
+ResidentDistinguishedAmount
 (
 aN
 )
@@ -1588,7 +1588,7 @@ HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
 nsresult
-GetVsize
+VsizeDistinguishedAmount
 (
 int64_t
 *
@@ -1629,7 +1629,7 @@ NS_OK
 }
 static
 nsresult
-GetResident
+ResidentDistinguishedAmount
 (
 int64_t
 *
@@ -1670,7 +1670,7 @@ NS_OK
 }
 static
 nsresult
-GetResidentFast
+ResidentFastDistinguishedAmount
 (
 int64_t
 *
@@ -1678,7 +1678,7 @@ aN
 )
 {
 return
-GetResident
+ResidentDistinguishedAmount
 (
 aN
 )
@@ -1803,7 +1803,7 @@ HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
 nsresult
-GetVsize
+VsizeDistinguishedAmount
 (
 int64_t
 *
@@ -1945,7 +1945,7 @@ first
 .
 static
 nsresult
-GetResident
+ResidentDistinguishedAmountHelper
 (
 int64_t
 *
@@ -2009,7 +2009,7 @@ NS_OK
 }
 static
 nsresult
-GetResidentFast
+ResidentFastDistinguishedAmount
 (
 int64_t
 *
@@ -2017,7 +2017,7 @@ aN
 )
 {
 return
-GetResident
+ResidentDistinguishedAmountHelper
 (
 aN
 /
@@ -2032,7 +2032,7 @@ false
 }
 static
 nsresult
-GetResident
+ResidentDistinguishedAmount
 (
 int64_t
 *
@@ -2040,7 +2040,7 @@ aN
 )
 {
 return
-GetResident
+ResidentDistinguishedAmountHelper
 (
 aN
 /
@@ -2084,7 +2084,7 @@ HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
 nsresult
-GetVsize
+VsizeDistinguishedAmount
 (
 int64_t
 *
@@ -2134,7 +2134,7 @@ NS_OK
 }
 static
 nsresult
-GetResident
+ResidentDistinguishedAmount
 (
 int64_t
 *
@@ -2187,7 +2187,7 @@ NS_OK
 }
 static
 nsresult
-GetResidentFast
+ResidentFastDistinguishedAmount
 (
 int64_t
 *
@@ -2195,7 +2195,7 @@ aN
 )
 {
 return
-GetResident
+ResidentDistinguishedAmount
 (
 aN
 )
@@ -2207,7 +2207,7 @@ HAVE_VSIZE_MAX_CONTIGUOUS_REPORTER
 1
 static
 nsresult
-GetVsizeMaxContiguous
+VsizeMaxContiguousDistinguishedAmount
 (
 int64_t
 *
@@ -2391,7 +2391,7 @@ aAmount
 )
 {
 return
-GetVsizeMaxContiguous
+VsizeMaxContiguousDistinguishedAmount
 (
 aAmount
 )
@@ -2665,7 +2665,7 @@ aAmount
 )
 {
 return
-GetVsize
+VsizeDistinguishedAmount
 (
 aAmount
 )
@@ -2791,7 +2791,7 @@ aAmount
 )
 {
 return
-GetResident
+ResidentDistinguishedAmount
 (
 aAmount
 )
@@ -7335,9 +7335,7 @@ aVsize
 ifdef
 HAVE_VSIZE_AND_RESIDENT_REPORTERS
 return
-:
-:
-GetVsize
+VsizeDistinguishedAmount
 (
 aVsize
 )
@@ -7370,9 +7368,7 @@ aAmount
 ifdef
 HAVE_VSIZE_MAX_CONTIGUOUS_REPORTER
 return
-:
-:
-GetVsizeMaxContiguous
+VsizeMaxContiguousDistinguishedAmount
 (
 aAmount
 )
@@ -7405,9 +7401,7 @@ aAmount
 ifdef
 HAVE_VSIZE_AND_RESIDENT_REPORTERS
 return
-:
-:
-GetResident
+ResidentDistinguishedAmount
 (
 aAmount
 )
@@ -7440,9 +7434,7 @@ aAmount
 ifdef
 HAVE_VSIZE_AND_RESIDENT_REPORTERS
 return
-:
-:
-GetResidentFast
+ResidentFastDistinguishedAmount
 (
 aAmount
 )
