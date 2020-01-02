@@ -3582,9 +3582,6 @@ stackBytesConsumedSoFar
 }
 ;
 typedef
-js
-:
-:
 Vector
 <
 MIRType
@@ -3600,9 +3597,6 @@ MIRTypeVector
 ABIArgMIRTypeIter
 ;
 typedef
-js
-:
-:
 Vector
 <
 VarType
@@ -6047,9 +6041,6 @@ false
 namespace
 {
 typedef
-js
-:
-:
 Vector
 <
 PropertyName
@@ -6059,9 +6050,6 @@ PropertyName
 LabelVector
 ;
 typedef
-js
-:
-:
 Vector
 <
 MBasicBlock
@@ -7325,9 +7313,6 @@ constant_
 }
 ;
 typedef
-js
-:
-:
 Vector
 <
 const
@@ -7543,9 +7528,6 @@ i
 }
 ;
 typedef
-js
-:
-:
 Vector
 <
 FuncPtrTable
@@ -7804,9 +7786,6 @@ Global
 GlobalMap
 ;
 typedef
-js
-:
-:
 Vector
 <
 Func
@@ -7815,9 +7794,6 @@ Func
 FuncVector
 ;
 typedef
-js
-:
-:
 Vector
 <
 AsmJSGlobalAccess
@@ -7825,9 +7801,6 @@ AsmJSGlobalAccess
 GlobalAccessVector
 ;
 typedef
-js
-:
-:
 Vector
 <
 SlowFunction
@@ -12398,9 +12371,6 @@ Local
 LocalMap
 ;
 typedef
-js
-:
-:
 Vector
 <
 Value
@@ -12426,9 +12396,6 @@ BlockVector
 UnlabeledBlockMap
 ;
 typedef
-js
-:
-:
 Vector
 <
 ParseNode
@@ -15024,9 +14991,6 @@ MAsmJSCall
 Args
 regArgs_
 ;
-js
-:
-:
 Vector
 <
 MAsmJSPassStackArg
@@ -35297,9 +35261,6 @@ WorkerThreadState
 &
 state
 ;
-js
-:
-:
 Vector
 <
 AsmJSParallelTask
@@ -35324,9 +35285,6 @@ ParallelGroupState
 WorkerThreadState
 &
 state
-js
-:
-:
 Vector
 <
 AsmJSParallelTask
@@ -36582,9 +36540,6 @@ memory
 for
 compilation
 .
-js
-:
-:
 Vector
 <
 AsmJSParallelTask

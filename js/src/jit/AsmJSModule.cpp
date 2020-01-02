@@ -2667,9 +2667,6 @@ return
 cursor
 ;
 }
-js
-:
-:
 Vector
 <
 jschar
@@ -2812,9 +2809,6 @@ size_t
 SerializedVectorSize
 (
 const
-js
-:
-:
 Vector
 <
 T
@@ -2881,9 +2875,6 @@ uint8_t
 *
 cursor
 const
-js
-:
-:
 Vector
 <
 T
@@ -2961,9 +2952,6 @@ const
 uint8_t
 *
 cursor
-js
-:
-:
 Vector
 <
 T
@@ -4663,9 +4651,6 @@ begin_
 uint32_t
 isFunCtor_
 ;
-js
-:
-:
 Vector
 <
 PropertyNameWrapper
