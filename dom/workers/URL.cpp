@@ -1313,6 +1313,9 @@ AssertIsOnMainThread
 (
 )
 ;
+ErrorResult
+rv
+;
 switch
 (
 mType
@@ -1332,6 +1335,7 @@ URL
 GetHref
 (
 mValue
+rv
 )
 ;
 break
@@ -1350,6 +1354,7 @@ URL
 GetOrigin
 (
 mValue
+rv
 )
 ;
 break
@@ -1368,6 +1373,7 @@ URL
 GetProtocol
 (
 mValue
+rv
 )
 ;
 break
@@ -1386,6 +1392,7 @@ URL
 GetUsername
 (
 mValue
+rv
 )
 ;
 break
@@ -1404,6 +1411,7 @@ URL
 GetPassword
 (
 mValue
+rv
 )
 ;
 break
@@ -1422,6 +1430,7 @@ URL
 GetHost
 (
 mValue
+rv
 )
 ;
 break
@@ -1440,6 +1449,7 @@ URL
 GetHostname
 (
 mValue
+rv
 )
 ;
 break
@@ -1458,6 +1468,7 @@ URL
 GetPort
 (
 mValue
+rv
 )
 ;
 break
@@ -1476,6 +1487,7 @@ URL
 GetPathname
 (
 mValue
+rv
 )
 ;
 break
@@ -1494,6 +1506,7 @@ URL
 GetSearch
 (
 mValue
+rv
 )
 ;
 break
@@ -1512,11 +1525,22 @@ URL
 GetHash
 (
 mValue
+rv
 )
 ;
 break
 ;
 }
+MOZ_ASSERT
+(
+!
+rv
+.
+Failed
+(
+)
+)
+;
 return
 true
 ;
@@ -1672,6 +1696,7 @@ URL
 SetProtocol
 (
 mValue
+mRv
 )
 ;
 break
@@ -1690,6 +1715,7 @@ URL
 SetUsername
 (
 mValue
+mRv
 )
 ;
 break
@@ -1708,6 +1734,7 @@ URL
 SetPassword
 (
 mValue
+mRv
 )
 ;
 break
@@ -1726,6 +1753,7 @@ URL
 SetHost
 (
 mValue
+mRv
 )
 ;
 break
@@ -1744,6 +1772,7 @@ URL
 SetHostname
 (
 mValue
+mRv
 )
 ;
 break
@@ -1762,6 +1791,7 @@ URL
 SetPort
 (
 mValue
+mRv
 )
 ;
 break
@@ -1780,6 +1810,7 @@ URL
 SetPathname
 (
 mValue
+mRv
 )
 ;
 break
@@ -1798,6 +1829,7 @@ URL
 SetSearch
 (
 mValue
+mRv
 )
 ;
 break
@@ -1816,6 +1848,7 @@ URL
 SetHash
 (
 mValue
+mRv
 )
 ;
 break
@@ -2266,6 +2299,9 @@ GetHref
 nsString
 &
 aHref
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -2392,6 +2428,9 @@ GetOrigin
 nsString
 &
 aOrigin
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -2451,6 +2490,9 @@ GetProtocol
 nsString
 &
 aProtocol
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -2511,6 +2553,9 @@ const
 nsAString
 &
 aProtocol
+ErrorResult
+&
+aRv
 )
 {
 ErrorResult
@@ -2573,6 +2618,9 @@ GetUsername
 nsString
 &
 aUsername
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -2633,6 +2681,9 @@ const
 nsAString
 &
 aUsername
+ErrorResult
+&
+aRv
 )
 {
 ErrorResult
@@ -2695,6 +2746,9 @@ GetPassword
 nsString
 &
 aPassword
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -2755,6 +2809,9 @@ const
 nsAString
 &
 aPassword
+ErrorResult
+&
+aRv
 )
 {
 ErrorResult
@@ -2817,6 +2874,9 @@ GetHost
 nsString
 &
 aHost
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -2877,6 +2937,9 @@ const
 nsAString
 &
 aHost
+ErrorResult
+&
+aRv
 )
 {
 ErrorResult
@@ -2939,6 +3002,9 @@ GetHostname
 nsString
 &
 aHostname
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -2999,6 +3065,9 @@ const
 nsAString
 &
 aHostname
+ErrorResult
+&
+aRv
 )
 {
 ErrorResult
@@ -3061,6 +3130,9 @@ GetPort
 nsString
 &
 aPort
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -3121,6 +3193,9 @@ const
 nsAString
 &
 aPort
+ErrorResult
+&
+aRv
 )
 {
 ErrorResult
@@ -3183,6 +3258,9 @@ GetPathname
 nsString
 &
 aPathname
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -3243,6 +3321,9 @@ const
 nsAString
 &
 aPathname
+ErrorResult
+&
+aRv
 )
 {
 ErrorResult
@@ -3305,6 +3386,9 @@ GetSearch
 nsString
 &
 aSearch
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -3365,6 +3449,9 @@ const
 nsAString
 &
 aSearch
+ErrorResult
+&
+aRv
 )
 {
 SetSearchInternal
@@ -3527,6 +3614,9 @@ GetHash
 nsString
 &
 aHash
+ErrorResult
+&
+aRv
 )
 const
 {
@@ -3587,6 +3677,9 @@ const
 nsAString
 &
 aHash
+ErrorResult
+&
+aRv
 )
 {
 ErrorResult
@@ -3977,9 +4070,13 @@ mSearchParams
 nsString
 search
 ;
+ErrorResult
+rv
+;
 GetSearch
 (
 search
+rv
 )
 ;
 mSearchParams
