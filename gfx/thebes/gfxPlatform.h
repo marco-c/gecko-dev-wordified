@@ -3666,6 +3666,17 @@ PurgeSkiaCache
 (
 )
 ;
+virtual
+bool
+IsInGonkEmulator
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 gfxPlatform
