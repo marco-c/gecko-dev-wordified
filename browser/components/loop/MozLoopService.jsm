@@ -1810,6 +1810,11 @@ save
 the
 callback
 .
+if
+(
+callback
+)
+{
 this
 .
 registrationCallbacks
@@ -1819,6 +1824,7 @@ push
 callback
 )
 ;
+}
 /
 /
 If
