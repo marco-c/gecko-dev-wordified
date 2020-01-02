@@ -1466,6 +1466,10 @@ SineWaveGenerator
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+SineWaveGenerator
+)
 static
 const
 int

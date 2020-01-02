@@ -243,6 +243,10 @@ MediaTaskQueue
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+MediaTaskQueue
+)
 MediaTaskQueue
 (
 TemporaryRef

@@ -413,6 +413,10 @@ RunMonitorThread
 ;
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+BackgroundHangManager
+)
 static
 StaticRefPtr
 <
@@ -640,6 +644,10 @@ mThreadID
 ;
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+BackgroundHangThread
+)
 static
 BackgroundHangThread
 *

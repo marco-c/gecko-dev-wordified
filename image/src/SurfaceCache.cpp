@@ -999,6 +999,10 @@ CachedSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+CachedSurface
+)
 CachedSurface
 (
 DrawTarget
@@ -1247,6 +1251,10 @@ ImageSurfaceCache
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+ImageSurfaceCache
+)
 typedef
 nsRefPtrHashtable
 <
