@@ -7119,15 +7119,6 @@ rtcp_mux
 ;
 attrs
 .
-audio_level
-=
-media
--
->
-audio_level
-;
-attrs
-.
 is_video
 =
 FALSE
