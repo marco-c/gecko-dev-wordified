@@ -156,12 +156,6 @@ WidgetInputEvent
 aEvent
 )
 ;
-virtual
-~
-nsDOMMouseScrollEvent
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 /
 /

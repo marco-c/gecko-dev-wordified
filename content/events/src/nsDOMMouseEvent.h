@@ -165,12 +165,6 @@ WidgetInputEvent
 aEvent
 )
 ;
-virtual
-~
-nsDOMMouseEvent
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 /
 /

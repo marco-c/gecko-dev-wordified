@@ -129,12 +129,6 @@ WidgetSimpleGestureEvent
 *
 )
 ;
-virtual
-~
-nsDOMSimpleGestureEvent
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSIMPLEGESTUREEVENT
 /

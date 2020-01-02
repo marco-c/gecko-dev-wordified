@@ -272,11 +272,6 @@ EventTarget
 aRelatedTarget
 )
 ;
-~
-nsDOMFocusEvent
-(
-)
-;
 }
 ;
 #
