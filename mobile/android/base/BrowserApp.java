@@ -13406,7 +13406,7 @@ R
 .
 id
 .
-subscribe
+save_subscribe
 )
 ;
 MenuItem
@@ -15350,6 +15350,16 @@ R
 id
 .
 subscribe
+|
+|
+itemId
+=
+=
+R
+.
+id
+.
+save_subscribe
 )
 {
 subscribeToFeeds
