@@ -2270,6 +2270,8 @@ nsISupports
 info
 bool
 withNewLocation
+bool
+withNewSink
 )
 {
 /
@@ -2562,6 +2564,9 @@ UpdateSecurityState
 (
 aRequest
 withNewLocation
+withNewSink
+|
+|
 updateStatus
 )
 ;
@@ -6189,6 +6194,7 @@ EvaluateAndUpdateSecurityState
 aRequest
 securityInfo
 false
+sinkChanged
 )
 ;
 }
@@ -7542,6 +7548,7 @@ EvaluateAndUpdateSecurityState
 aRequest
 securityInfo
 true
+false
 )
 ;
 }

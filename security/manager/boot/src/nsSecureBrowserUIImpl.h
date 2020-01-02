@@ -502,6 +502,8 @@ nsISupports
 info
 bool
 withNewLocation
+bool
+withNewSink
 )
 ;
 void
