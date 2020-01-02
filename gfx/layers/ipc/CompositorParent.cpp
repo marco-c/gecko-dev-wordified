@@ -2011,6 +2011,10 @@ Cancel
 (
 )
 ;
+mCurrentCompositeTask
+=
+nullptr
+;
 ForceComposeToTarget
 (
 nullptr
