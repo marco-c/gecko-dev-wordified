@@ -796,6 +796,17 @@ nsString
 aUsage
 )
 ;
+nsresult
+AddUsageIntersecting
+(
+const
+nsString
+&
+aUsage
+uint32_t
+aUsageMask
+)
+;
 void
 AddUsage
 (
