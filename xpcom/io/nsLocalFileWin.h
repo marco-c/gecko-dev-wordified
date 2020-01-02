@@ -472,7 +472,7 @@ SetModDate
 int64_t
 aLastModifiedTime
 const
-char16_t
+wchar_t
 *
 filePath
 )
