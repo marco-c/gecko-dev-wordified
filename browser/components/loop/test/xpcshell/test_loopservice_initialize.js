@@ -320,7 +320,7 @@ correctly
 .
 MozLoopService
 .
-_startInitializeTimer
+initializeTimerFunc
 =
 function
 (
