@@ -660,13 +660,6 @@ dom
 :
 EncodingUtils
 ;
-static
-NS_DEFINE_CID
-(
-kUnicharUtilCID
-NS_UNICHARUTIL_CID
-)
-;
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 mozHunspell
