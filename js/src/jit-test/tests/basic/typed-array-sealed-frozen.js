@@ -442,10 +442,11 @@ undefined
 /
 Watch
 for
-overly
+really
 large
 indexed
 properties
+too
 .
 a
 [
@@ -474,9 +475,7 @@ pow
 53
 )
 ]
-"
-twelve
-"
+undefined
 )
 ;
 /
