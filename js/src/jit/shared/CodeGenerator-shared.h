@@ -2204,8 +2204,6 @@ const
 LAllocation
 *
 index
-MIRType
-type
 )
 ;
 void
@@ -2213,8 +2211,6 @@ emitPreBarrier
 (
 Address
 address
-MIRType
-type
 )
 ;
 /

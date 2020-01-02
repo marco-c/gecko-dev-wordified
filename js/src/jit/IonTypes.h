@@ -1972,6 +1972,13 @@ A
 Shape
 pointer
 .
+MIRType_TypeObject
+/
+/
+A
+TypeObject
+pointer
+.
 MIRType_ForkJoinContext
 /
 /
