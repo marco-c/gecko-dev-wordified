@@ -241,7 +241,7 @@ namespace
 dom
 {
 class
-ContentParent
+nsIContentParent
 ;
 class
 PBlobChild
@@ -551,7 +551,7 @@ static
 nsresult
 ConvertBlobsToActors
 (
-ContentParent
+nsIContentParent
 *
 aContentParent
 FileManager

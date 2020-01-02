@@ -161,7 +161,7 @@ mozilla
 /
 dom
 /
-ContentParent
+nsIContentParent
 .
 h
 "
@@ -355,7 +355,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 ;
 using
 mozilla
@@ -864,7 +864,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aContentParent
 )
