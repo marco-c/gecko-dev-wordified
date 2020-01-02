@@ -600,11 +600,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-DOMSVGPreserveAspectRatio
-(
-)
-;
 /
 /
 WebIDL
@@ -662,6 +657,11 @@ rv
 ;
 protected
 :
+~
+DOMSVGPreserveAspectRatio
+(
+)
+;
 SVGAnimatedPreserveAspectRatio
 *
 mVal

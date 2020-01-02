@@ -314,6 +314,15 @@ aNodeInfo
 )
 {
 }
+SVGGraphicsElement
+:
+:
+~
+SVGGraphicsElement
+(
+)
+{
+}
 }
 /
 /

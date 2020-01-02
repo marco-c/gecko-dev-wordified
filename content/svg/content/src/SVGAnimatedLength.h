@@ -168,11 +168,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-SVGAnimatedLength
-(
-)
-;
 /
 /
 WebIDL
@@ -215,6 +210,11 @@ AnimVal
 ;
 protected
 :
+~
+SVGAnimatedLength
+(
+)
+;
 nsSVGLength2
 *
 mVal

@@ -392,6 +392,12 @@ mParent
 }
 protected
 :
+~
+SVGRect
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIContent

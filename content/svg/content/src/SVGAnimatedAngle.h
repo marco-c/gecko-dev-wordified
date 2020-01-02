@@ -175,11 +175,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-SVGAnimatedAngle
-(
-)
-;
 /
 /
 WebIDL
@@ -222,6 +217,11 @@ AnimVal
 ;
 protected
 :
+~
+SVGAnimatedAngle
+(
+)
+;
 nsSVGAngle
 *
 mVal

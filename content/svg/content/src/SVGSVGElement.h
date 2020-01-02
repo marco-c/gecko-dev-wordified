@@ -575,6 +575,11 @@ aFromParser
 )
 )
 ;
+~
+SVGSVGElement
+(
+)
+;
 public
 :
 /

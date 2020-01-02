@@ -157,6 +157,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+~
+SVGGraphicsElement
+(
+)
+;
 public
 :
 /

@@ -187,11 +187,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-SVGAngle
-(
-)
-;
 /
 /
 WebIDL
@@ -298,6 +293,11 @@ rv
 ;
 protected
 :
+~
+SVGAngle
+(
+)
+;
 nsSVGAngle
 *
 mVal

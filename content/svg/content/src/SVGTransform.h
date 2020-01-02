@@ -361,11 +361,6 @@ nsSVGTransform
 aMatrix
 )
 ;
-~
-SVGTransform
-(
-)
-;
 /
 *
 *
@@ -836,6 +831,11 @@ rv
 ;
 protected
 :
+~
+SVGTransform
+(
+)
+;
 /
 /
 Interface

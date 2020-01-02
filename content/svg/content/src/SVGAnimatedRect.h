@@ -185,12 +185,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-virtual
-~
-SVGAnimatedRect
-(
-)
-;
 nsSVGElement
 *
 GetParentObject
@@ -231,6 +225,12 @@ GetAnimVal
 ;
 private
 :
+virtual
+~
+SVGAnimatedRect
+(
+)
+;
 nsSVGViewBox
 *
 mVal

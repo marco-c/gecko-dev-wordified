@@ -412,12 +412,6 @@ aVal
 )
 {
 }
-virtual
-~
-DOMAnimatedString
-(
-)
-;
 nsSVGString
 *
 mVal
@@ -497,6 +491,14 @@ mSVGElement
 )
 ;
 }
+private
+:
+virtual
+~
+DOMAnimatedString
+(
+)
+;
 }
 ;
 struct

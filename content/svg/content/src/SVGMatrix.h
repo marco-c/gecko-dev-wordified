@@ -997,6 +997,12 @@ rv
 ;
 private
 :
+~
+SVGMatrix
+(
+)
+{
+}
 void
 SetMatrix
 (

@@ -174,11 +174,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-SVGAnimatedBoolean
-(
-)
-;
 /
 /
 WebIDL
@@ -260,6 +255,11 @@ GetAnimValue
 }
 protected
 :
+~
+SVGAnimatedBoolean
+(
+)
+;
 nsSVGBoolean
 *
 mVal
