@@ -437,10 +437,6 @@ mWidget
 (
 aWidget
 )
-mLatestTransactionId
-(
-0
-)
 mTargetRotation
 (
 ROTATION_0
@@ -489,17 +485,6 @@ ClientLayerManager
 (
 )
 {
-if
-(
-mTransactionIdAllocator
-)
-{
-DidComposite
-(
-mLatestTransactionId
-)
-;
-}
 ClearCachedResources
 (
 )
@@ -2423,7 +2408,8 @@ mPhase
 =
 PHASE_FORWARD
 ;
-mLatestTransactionId
+uint64_t
+pendingTransactionId
 =
 mTransactionIdAllocator
 -
@@ -2468,7 +2454,7 @@ EndTransaction
 &
 replies
 mRegionToClear
-mLatestTransactionId
+pendingTransactionId
 aScheduleComposite
 mPaintSequenceNumber
 &
@@ -2834,7 +2820,7 @@ mTransactionIdAllocator
 >
 RevokeTransactionId
 (
-mLatestTransactionId
+pendingTransactionId
 )
 ;
 }
