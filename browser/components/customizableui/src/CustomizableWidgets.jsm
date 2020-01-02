@@ -3804,7 +3804,7 @@ zoomFactor
 =
 Math
 .
-floor
+round
 (
 window
 .
