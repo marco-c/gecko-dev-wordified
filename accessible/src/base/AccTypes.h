@@ -217,6 +217,7 @@ eMenuPopupType
 eProgressType
 eRootType
 eXULLabelType
+eXULListItemType
 eXULTabpanelsType
 eXULTreeType
 eLastAccType
