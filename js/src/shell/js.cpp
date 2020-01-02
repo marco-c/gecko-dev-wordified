@@ -22191,7 +22191,7 @@ options
 ;
 options
 .
-setCallable
+selectDefaultClass
 (
 obj
 -
