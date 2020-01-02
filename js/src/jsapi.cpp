@@ -35167,7 +35167,7 @@ JS_PUBLIC_API
 (
 void
 )
-JS_SetOffthreadIonCompilation
+JS_SetOffthreadIonCompilationEnabled
 (
 JSRuntime
 *
