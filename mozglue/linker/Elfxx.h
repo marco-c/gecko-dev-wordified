@@ -135,7 +135,7 @@ system
 /
 #
 ifdef
-HAVE_64BIT_OS
+__LP64__
 #
 define
 Elf_
