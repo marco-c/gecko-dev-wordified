@@ -169,7 +169,7 @@ nsIntMargin
 #
 include
 "
-nsString
+nsStringGlue
 .
 h
 "
