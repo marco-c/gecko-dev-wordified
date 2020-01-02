@@ -3021,6 +3021,12 @@ enabledEngineNames
 if
 (
 declinedEngineNames
+=
+=
+null
+|
+|
+declinedEngineNames
 .
 isEmpty
 (
