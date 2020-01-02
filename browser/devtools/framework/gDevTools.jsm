@@ -2799,8 +2799,8 @@ appMgrEnabled
 /
 /
 Enable
-Chrome
-Debugger
+Browser
+Toolbox
 ?
 let
 chromeEnabled
@@ -2871,7 +2871,7 @@ toggleCmd
 "
 Tools
 :
-ChromeDebugger
+BrowserToolbox
 "
 remoteEnabled
 )

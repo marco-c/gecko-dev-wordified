@@ -146,7 +146,13 @@ content
 /
 devtools
 /
-debugger
+framework
+/
+toolbox
+-
+process
+-
+window
 .
 xul
 "
@@ -248,7 +254,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-BrowserDebuggerProcess
+BrowserToolboxProcess
 "
 ]
 ;
@@ -266,7 +272,7 @@ will
 hold
 a
 chrome
-debugger
+toolbox
 .
 *
 *
@@ -307,10 +313,10 @@ running
 /
 this
 .
-BrowserDebuggerProcess
+BrowserToolboxProcess
 =
 function
-BrowserDebuggerProcess
+BrowserToolboxProcess
 (
 aOnClose
 aOnRun
@@ -366,7 +372,7 @@ and
 starts
 a
 chrome
-debugger
+toolbox
 process
 .
 *
@@ -374,7 +380,7 @@ return
 object
 *
 /
-BrowserDebuggerProcess
+BrowserToolboxProcess
 .
 init
 =
@@ -386,7 +392,7 @@ aOnRun
 {
 return
 new
-BrowserDebuggerProcess
+BrowserToolboxProcess
 (
 aOnClose
 aOnRun
@@ -394,7 +400,7 @@ aOnRun
 ;
 }
 ;
-BrowserDebuggerProcess
+BrowserToolboxProcess
 .
 prototype
 =
@@ -422,7 +428,7 @@ dumpn
 Initializing
 the
 chrome
-debugger
+toolbox
 server
 .
 "
@@ -597,7 +603,7 @@ Finished
 initializing
 the
 chrome
-debugger
+toolbox
 server
 .
 "
@@ -646,7 +652,7 @@ dumpn
 Initializing
 the
 chrome
-debugger
+toolbox
 user
 profile
 .
@@ -713,7 +719,7 @@ dumpn
 "
 Using
 chrome
-debugger
+toolbox
 profile
 name
 :
@@ -811,7 +817,7 @@ dumpn
 "
 Using
 chrome
-debugger
+toolbox
 profile
 object
 :
@@ -942,7 +948,7 @@ The
 already
 existing
 chrome
-debugger
+toolbox
 profile
 was
 invalid
@@ -1035,7 +1041,7 @@ Finished
 creating
 the
 chrome
-debugger
+toolbox
 user
 profile
 .
@@ -1218,7 +1224,7 @@ dumpn
 (
 "
 Chrome
-debugger
+toolbox
 is
 now
 running
@@ -1332,7 +1338,7 @@ dumpn
 (
 "
 Chrome
-debugger
+toolbox
 is
 now
 closed
