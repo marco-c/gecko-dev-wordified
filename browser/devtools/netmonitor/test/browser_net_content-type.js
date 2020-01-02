@@ -50,7 +50,7 @@ test
 {
 initNetMonitor
 (
-CONTENT_TYPE_URL
+CONTENT_TYPE_WITHOUT_CACHE_URL
 )
 .
 then
@@ -463,6 +463,9 @@ GET
 "
 TEST_IMAGE
 {
+fuzzyUrl
+:
+true
 status
 :
 200
