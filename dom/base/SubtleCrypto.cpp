@@ -319,7 +319,7 @@ const
 ObjectOrString
 &
 algorithm
-Key
+CryptoKey
 &
 key
 const
@@ -353,7 +353,7 @@ const
 ObjectOrString
 &
 algorithm
-Key
+CryptoKey
 &
 key
 const
@@ -387,7 +387,7 @@ const
 ObjectOrString
 &
 algorithm
-Key
+CryptoKey
 &
 key
 const
@@ -421,7 +421,7 @@ const
 ObjectOrString
 &
 algorithm
-Key
+CryptoKey
 &
 key
 const
@@ -533,7 +533,7 @@ const
 nsAString
 &
 format
-Key
+CryptoKey
 &
 key
 )
@@ -597,7 +597,7 @@ const
 ObjectOrString
 &
 algorithm
-Key
+CryptoKey
 &
 baseKey
 const
@@ -642,7 +642,7 @@ const
 ObjectOrString
 &
 algorithm
-Key
+CryptoKey
 &
 baseKey
 uint32_t

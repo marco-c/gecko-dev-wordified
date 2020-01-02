@@ -140,7 +140,7 @@ mozilla
 /
 dom
 /
-Key
+CryptoKey
 .
 h
 "
@@ -174,21 +174,21 @@ dom
 {
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
-Key
+CryptoKey
 mGlobal
 mAlgorithm
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-Key
+CryptoKey
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
-Key
+CryptoKey
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-Key
+CryptoKey
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY
@@ -203,7 +203,7 @@ const
 nsString
 &
 aUsage
-Key
+CryptoKey
 :
 :
 KeyUsage
@@ -223,7 +223,7 @@ WEBCRYPTO_KEY_USAGE_ENCRYPT
 {
 aUsageOut
 =
-Key
+CryptoKey
 :
 :
 ENCRYPT
@@ -242,7 +242,7 @@ WEBCRYPTO_KEY_USAGE_DECRYPT
 {
 aUsageOut
 =
-Key
+CryptoKey
 :
 :
 DECRYPT
@@ -261,7 +261,7 @@ WEBCRYPTO_KEY_USAGE_SIGN
 {
 aUsageOut
 =
-Key
+CryptoKey
 :
 :
 SIGN
@@ -280,7 +280,7 @@ WEBCRYPTO_KEY_USAGE_VERIFY
 {
 aUsageOut
 =
-Key
+CryptoKey
 :
 :
 VERIFY
@@ -299,7 +299,7 @@ WEBCRYPTO_KEY_USAGE_DERIVEKEY
 {
 aUsageOut
 =
-Key
+CryptoKey
 :
 :
 DERIVEKEY
@@ -318,7 +318,7 @@ WEBCRYPTO_KEY_USAGE_DERIVEBITS
 {
 aUsageOut
 =
-Key
+CryptoKey
 :
 :
 DERIVEBITS
@@ -337,7 +337,7 @@ WEBCRYPTO_KEY_USAGE_WRAPKEY
 {
 aUsageOut
 =
-Key
+CryptoKey
 :
 :
 WRAPKEY
@@ -356,7 +356,7 @@ WEBCRYPTO_KEY_USAGE_UNWRAPKEY
 {
 aUsageOut
 =
-Key
+CryptoKey
 :
 :
 UNWRAPKEY
@@ -372,10 +372,10 @@ return
 NS_OK
 ;
 }
-Key
+CryptoKey
 :
 :
-Key
+CryptoKey
 (
 nsIGlobalObject
 *
@@ -407,11 +407,11 @@ SetIsDOMBinding
 )
 ;
 }
-Key
+CryptoKey
 :
 :
 ~
-Key
+CryptoKey
 (
 )
 {
@@ -440,7 +440,7 @@ calledFromObject
 }
 JSObject
 *
-Key
+CryptoKey
 :
 :
 WrapObject
@@ -451,7 +451,7 @@ aCx
 )
 {
 return
-KeyBinding
+CryptoKeyBinding
 :
 :
 Wrap
@@ -462,7 +462,7 @@ this
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 GetType
@@ -524,7 +524,7 @@ break
 }
 }
 bool
-Key
+CryptoKey
 :
 :
 Extractable
@@ -542,7 +542,7 @@ EXTRACTABLE
 }
 KeyAlgorithm
 *
-Key
+CryptoKey
 :
 :
 Algorithm
@@ -555,7 +555,7 @@ mAlgorithm
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 GetUsages
@@ -714,11 +714,11 @@ WEBCRYPTO_KEY_USAGE_UNWRAPKEY
 ;
 }
 }
-Key
+CryptoKey
 :
 :
 KeyType
-Key
+CryptoKey
 :
 :
 GetKeyType
@@ -729,7 +729,7 @@ const
 return
 static_cast
 <
-Key
+CryptoKey
 :
 :
 KeyType
@@ -742,7 +742,7 @@ TYPE_MASK
 ;
 }
 nsresult
-Key
+CryptoKey
 :
 :
 SetType
@@ -824,12 +824,12 @@ NS_OK
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 SetType
 (
-Key
+CryptoKey
 :
 :
 KeyType
@@ -848,7 +848,7 @@ aType
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 SetExtractable
@@ -875,7 +875,7 @@ EXTRACTABLE
 }
 }
 void
-Key
+CryptoKey
 :
 :
 SetAlgorithm
@@ -891,7 +891,7 @@ aAlgorithm
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 ClearUsages
@@ -905,7 +905,7 @@ CLEAR_USAGES
 ;
 }
 nsresult
-Key
+CryptoKey
 :
 :
 AddUsage
@@ -925,7 +925,7 @@ USAGES_MASK
 ;
 }
 nsresult
-Key
+CryptoKey
 :
 :
 AddUsageIntersecting
@@ -978,12 +978,12 @@ NS_OK
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 AddUsage
 (
-Key
+CryptoKey
 :
 :
 KeyUsage
@@ -997,12 +997,12 @@ aUsage
 ;
 }
 bool
-Key
+CryptoKey
 :
 :
 HasUsage
 (
-Key
+CryptoKey
 :
 :
 KeyUsage
@@ -1020,7 +1020,7 @@ aUsage
 ;
 }
 bool
-Key
+CryptoKey
 :
 :
 HasUsageOtherThan
@@ -1043,7 +1043,7 @@ aUsages
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 SetSymKey
@@ -1060,7 +1060,7 @@ aSymKey
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 SetPrivateKey
@@ -1100,7 +1100,7 @@ aPrivateKey
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 SetPublicKey
@@ -1142,7 +1142,7 @@ aPublicKey
 const
 CryptoBuffer
 &
-Key
+CryptoKey
 :
 :
 GetSymKey
@@ -1156,7 +1156,7 @@ mSymKey
 }
 SECKEYPrivateKey
 *
-Key
+CryptoKey
 :
 :
 GetPrivateKey
@@ -1195,7 +1195,7 @@ get
 }
 SECKEYPublicKey
 *
-Key
+CryptoKey
 :
 :
 GetPublicKey
@@ -1233,7 +1233,7 @@ get
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 virtualDestroyNSSReference
@@ -1246,7 +1246,7 @@ destructorSafeDestroyNSSReference
 ;
 }
 void
-Key
+CryptoKey
 :
 :
 destructorSafeDestroyNSSReference
@@ -1275,7 +1275,7 @@ convenience
 methods
 SECKEYPrivateKey
 *
-Key
+CryptoKey
 :
 :
 PrivateKeyFromPkcs8
@@ -1385,7 +1385,7 @@ privKey
 }
 SECKEYPublicKey
 *
-Key
+CryptoKey
 :
 :
 PublicKeyFromSpki
@@ -1458,7 +1458,7 @@ get
 ;
 }
 nsresult
-Key
+CryptoKey
 :
 :
 PrivateKeyToPkcs8
@@ -1519,7 +1519,7 @@ NS_OK
 ;
 }
 nsresult
-Key
+CryptoKey
 :
 :
 PublicKeyToSpki
@@ -1579,7 +1579,7 @@ NS_OK
 ;
 }
 bool
-Key
+CryptoKey
 :
 :
 WriteStructuredClone
@@ -1670,7 +1670,7 @@ if
 mPrivateKey
 )
 {
-Key
+CryptoKey
 :
 :
 PrivateKeyToPkcs8
@@ -1686,7 +1686,7 @@ if
 mPublicKey
 )
 {
-Key
+CryptoKey
 :
 :
 PublicKeyToSpki
@@ -1737,7 +1737,7 @@ aWriter
 ;
 }
 bool
-Key
+CryptoKey
 :
 :
 ReadStructuredClone
@@ -1861,7 +1861,7 @@ Length
 {
 mPrivateKey
 =
-Key
+CryptoKey
 :
 :
 PrivateKeyFromPkcs8
@@ -1884,7 +1884,7 @@ Length
 {
 mPublicKey
 =
-Key
+CryptoKey
 :
 :
 PublicKeyFromSpki
