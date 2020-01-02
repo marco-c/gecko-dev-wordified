@@ -1091,6 +1091,8 @@ JSContext
 cx
 uint32_t
 size
+bool
+clear
 )
 ;
 void
