@@ -5509,6 +5509,15 @@ OnNavigation
 )
 nsCOMPtr
 <
+nsIDOMGetUserMediaSuccessCallback
+>
+success
+(
+mSuccess
+)
+;
+nsCOMPtr
+<
 nsIDOMGetUserMediaErrorCallback
 >
 error
