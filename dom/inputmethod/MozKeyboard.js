@@ -514,7 +514,7 @@ testExactPermissionFromPrincipal
 (
 principal
 "
-inputmethod
+input
 -
 manage
 "

@@ -779,7 +779,7 @@ has
 the
 /
 /
-keyboard
+input
 permission
 .
 if
@@ -888,7 +888,7 @@ mm
 assertPermission
 (
 "
-keyboard
+input
 "
 )
 )
@@ -912,7 +912,7 @@ process
 with
 no
 '
-keyboard
+input
 '
 privileges
 .

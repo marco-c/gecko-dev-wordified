@@ -9583,7 +9583,7 @@ CheckPermission
 (
 win
 "
-keyboard
+input
 "
 )
 )
