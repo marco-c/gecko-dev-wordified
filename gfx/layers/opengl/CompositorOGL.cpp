@@ -2518,6 +2518,10 @@ ShaderProgramOGL
 *
 aProg
 const
+Rect
+&
+aRect
+const
 gfx3DMatrix
 &
 aTextureTransform
@@ -3039,6 +3043,7 @@ transform
 BindAndDrawQuad
 (
 aProg
+aRect
 )
 ;
 }
@@ -3059,6 +3064,14 @@ aProg
 SetTextureTransform
 (
 transform
+)
+;
+aProg
+-
+>
+SetLayerQuadRect
+(
+aRect
 )
 ;
 DrawQuads
@@ -6218,14 +6231,6 @@ mProjMatrix
 program
 -
 >
-SetLayerQuadRect
-(
-aRect
-)
-;
-program
--
->
 SetLayerTransform
 (
 aTransform
@@ -6426,6 +6431,7 @@ blendMode
 BindAndDrawQuad
 (
 program
+aRect
 )
 ;
 }
@@ -6649,6 +6655,7 @@ maskQuadTransform
 BindAndDrawQuadWithTextureRect
 (
 program
+aRect
 textureTransform
 texturedEffect
 -
@@ -6864,6 +6871,7 @@ blendMode
 BindAndDrawQuadWithTextureRect
 (
 program
+aRect
 gfx3DMatrix
 (
 )
@@ -7149,6 +7157,7 @@ blendMode
 BindAndDrawQuad
 (
 program
+aRect
 )
 ;
 }
@@ -7381,6 +7390,7 @@ false
 BindAndDrawQuadWithTextureRect
 (
 program
+aRect
 gfx3DMatrix
 (
 )
@@ -7423,6 +7433,7 @@ true
 BindAndDrawQuadWithTextureRect
 (
 program
+aRect
 gfx3DMatrix
 (
 )
@@ -8933,6 +8944,10 @@ BindAndDrawQuad
 ShaderProgramOGL
 *
 aProg
+const
+Rect
+&
+aRect
 )
 {
 NS_ASSERTION
@@ -8950,6 +8965,14 @@ not
 correctly
 initialized
 "
+)
+;
+aProg
+-
+>
+SetLayerQuadRect
+(
+aRect
 )
 ;
 GLuint
