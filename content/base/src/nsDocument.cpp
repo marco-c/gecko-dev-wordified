@@ -8789,6 +8789,7 @@ mRefCnt
 .
 incr
 (
+base
 )
 ;
 nsNodeUtils
