@@ -235,6 +235,11 @@ DataStore
 RegisterForMessages
 "
 "
+DataStore
+:
+UnregisterForMessages
+"
+"
 child
 -
 process
@@ -710,6 +715,13 @@ child
 process
 -
 shutdown
+"
+:
+case
+"
+DataStore
+:
+UnregisterForMessages
 "
 :
 debug
