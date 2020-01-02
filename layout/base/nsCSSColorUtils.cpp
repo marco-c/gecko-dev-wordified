@@ -1593,9 +1593,6 @@ undef
 INTENSITY_FACTOR
 #
 undef
-LIGHT_FACTOR
-#
-undef
 LUMINOSITY_FACTOR
 #
 undef
@@ -1624,12 +1621,6 @@ LIGHT_GRAY
 #
 undef
 DARK_GRAY
-#
-undef
-WHITE
-#
-undef
-BLACK
 #
 undef
 MAX_BRIGHTNESS
