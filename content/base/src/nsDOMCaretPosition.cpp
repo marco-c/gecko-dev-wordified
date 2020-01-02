@@ -265,6 +265,7 @@ domRange
 >
 GetBoundingClientRect
 (
+false
 )
 ;
 return

@@ -2291,6 +2291,7 @@ range
 EndOffset
 (
 )
+true
 )
 ;
 nsIFrame
