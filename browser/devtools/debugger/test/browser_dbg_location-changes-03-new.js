@@ -443,6 +443,8 @@ document
 querySelectorAll
 (
 "
+#
+sources
 .
 side
 -
@@ -488,6 +490,8 @@ document
 querySelectorAll
 (
 "
+#
+sources
 .
 side
 -
@@ -531,6 +535,8 @@ document
 querySelector
 (
 "
+#
+sources
 .
 side
 -

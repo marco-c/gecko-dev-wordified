@@ -1366,6 +1366,7 @@ click
 }
 gButton
 )
+;
 }
 function
 triggerInputChange
