@@ -5265,16 +5265,6 @@ function
 aWidgetId
 )
 {
-let
-widget
-=
-gPalette
-.
-get
-(
-aWidgetId
-)
-;
 for
 (
 let
