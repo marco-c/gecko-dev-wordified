@@ -310,7 +310,7 @@ PR_LOGGING
 static
 PRLogModuleInfo
 *
-gLog
+gCommandLog
 ;
 #
 endif
@@ -411,9 +411,9 @@ PR_LOGGING
 if
 (
 !
-gLog
+gCommandLog
 )
-gLog
+gCommandLog
 =
 PR_NewLogModule
 (
@@ -1465,7 +1465,7 @@ if
 (
 PR_LOG_TEST
 (
-gLog
+gCommandLog
 PR_LOG_NOTICE
 )
 )
@@ -1510,7 +1510,7 @@ atargetsC
 ;
 PR_LOG
 (
-gLog
+gCommandLog
 PR_LOG_NOTICE
 (
 "
@@ -1648,7 +1648,7 @@ if
 (
 PR_LOG_TEST
 (
-gLog
+gCommandLog
 PR_LOG_NOTICE
 )
 )
@@ -1671,7 +1671,7 @@ atargetsC
 ;
 PR_LOG
 (
-gLog
+gCommandLog
 PR_LOG_NOTICE
 (
 "
@@ -1825,7 +1825,7 @@ if
 (
 PR_LOG_TEST
 (
-gLog
+gCommandLog
 PR_LOG_NOTICE
 )
 )
@@ -1856,7 +1856,7 @@ mTargets
 ;
 PR_LOG
 (
-gLog
+gCommandLog
 PR_LOG_NOTICE
 (
 "
@@ -2213,7 +2213,7 @@ if
 (
 PR_LOG_TEST
 (
-gLog
+gCommandLog
 PR_LOG_NOTICE
 )
 )
@@ -2229,7 +2229,7 @@ aeventnameC
 ;
 PR_LOG
 (
-gLog
+gCommandLog
 PR_LOG_NOTICE
 (
 "

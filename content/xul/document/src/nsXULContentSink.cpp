@@ -465,7 +465,7 @@ PR_LOGGING
 static
 PRLogModuleInfo
 *
-gLog
+gContentSinkLog
 ;
 #
 endif
@@ -1014,9 +1014,9 @@ PR_LOGGING
 if
 (
 !
-gLog
+gContentSinkLog
 )
-gLog
+gContentSinkLog
 =
 PR_NewLogModule
 (
@@ -2854,7 +2854,7 @@ eInScript
 :
 PR_LOG
 (
-gLog
+gContentSinkLog
 PR_LOG_WARNING
 (
 "
@@ -4251,7 +4251,7 @@ kNameSpaceID_XUL
 {
 PR_LOG
 (
-gLog
+gContentSinkLog
 PR_LOG_ERROR
 (
 "
@@ -4306,7 +4306,7 @@ if
 (
 PR_LOG_TEST
 (
-gLog
+gContentSinkLog
 PR_LOG_ERROR
 )
 )
@@ -4324,7 +4324,7 @@ anodeC
 ;
 PR_LOG
 (
-gLog
+gContentSinkLog
 PR_LOG_ERROR
 (
 "
@@ -4513,7 +4513,7 @@ if
 (
 PR_LOG_TEST
 (
-gLog
+gContentSinkLog
 PR_LOG_ERROR
 )
 )
@@ -4531,7 +4531,7 @@ anodeC
 ;
 PR_LOG
 (
-gLog
+gContentSinkLog
 PR_LOG_ERROR
 (
 "
@@ -5879,7 +5879,7 @@ if
 (
 PR_LOG_TEST
 (
-gLog
+gContentSinkLog
 PR_LOG_DEBUG
 )
 )
@@ -5939,7 +5939,7 @@ aAttributes
 ;
 PR_LOG
 (
-gLog
+gContentSinkLog
 PR_LOG_DEBUG
 (
 "
