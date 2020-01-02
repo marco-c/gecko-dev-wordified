@@ -1925,7 +1925,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CYCLIC_VALUE
 js_object_str
 )
@@ -2595,7 +2595,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CYCLIC_VALUE
 js_object_str
 )
@@ -4287,7 +4287,7 @@ else
 {
 replacer
 =
-NULL
+nullptr
 ;
 }
 }
@@ -5806,7 +5806,7 @@ toObject
 (
 )
 :
-NULL
+nullptr
 )
 ;
 RootedValue
@@ -6088,7 +6088,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 JSON
@@ -6099,7 +6099,7 @@ NewObjectWithClassProto
 cx
 &
 JSONClass
-NULL
+nullptr
 global
 SingletonObject
 )
@@ -6111,7 +6111,7 @@ if
 JSON
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6131,7 +6131,7 @@ JS_StrictPropertyStub
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6144,7 +6144,7 @@ json_static_methods
 )
 )
 return
-NULL
+nullptr
 ;
 MarkStandardClassInitializedNoProto
 (

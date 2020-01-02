@@ -3362,7 +3362,7 @@ space
 for
 a
 trailing
-NULL
+nullptr
 byte
 )
 .

@@ -379,7 +379,7 @@ d
 buffer
 on
 success
-NULL
+nullptr
 on
 failure
 .
@@ -493,7 +493,7 @@ realloc
 If
 last
 is
-NULL
+nullptr
 JS_sprintf_append
 *
 *
@@ -518,7 +518,7 @@ for
 subsequent
 calls
 or
-NULL
+nullptr
 if
 there
 is

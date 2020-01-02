@@ -2607,7 +2607,7 @@ obj
 getClass
 (
 )
-NULL
+nullptr
 )
 ;
 if
@@ -2874,7 +2874,7 @@ extantSlots
 /
 *
 =
-NULL
+nullptr
 *
 /
 )
@@ -3110,7 +3110,7 @@ if
 slots
 )
 return
-NULL
+nullptr
 ;
 js
 :
@@ -3152,7 +3152,7 @@ slots
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -3269,7 +3269,7 @@ numFixedSlots
 )
 )
 =
-NULL
+nullptr
 ;
 size_t
 span
@@ -3571,7 +3571,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -3598,7 +3598,7 @@ obj
 >
 slots
 =
-NULL
+nullptr
 ;
 obj
 -
@@ -5337,7 +5337,7 @@ PropDesc
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -5977,8 +5977,8 @@ NewObjectWithClassProto
 (
 cx
 clasp
-NULL
-NULL
+nullptr
+nullptr
 allocKind
 newKind
 )
@@ -6183,7 +6183,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 metadata
@@ -6223,7 +6223,7 @@ lastProp
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6242,7 +6242,7 @@ metadata
 )
 )
 return
-NULL
+nullptr
 ;
 return
 obj
@@ -6887,7 +6887,7 @@ JSObject
 *
 ctorp
 =
-NULL
+nullptr
 gc
 :
 :
@@ -7307,7 +7307,7 @@ JSObject
 *
 ctorp
 =
-NULL
+nullptr
 js
 :
 :

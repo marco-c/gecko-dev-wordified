@@ -3584,7 +3584,7 @@ ToCStringBuf
 :
 dbuf
 (
-NULL
+nullptr
 )
 {
 JS_STATIC_ASSERT
@@ -3634,7 +3634,7 @@ isExclusiveContext
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3677,7 +3677,7 @@ str
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 JS_ALWAYS_INLINE
@@ -3956,7 +3956,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 jschar
 buffer
@@ -4148,7 +4148,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 CacheNumber
 (
@@ -4203,7 +4203,7 @@ Returns
 a
 non
 -
-NULL
+nullptr
 pointer
 to
 inside
@@ -4557,7 +4557,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_RADIX
 )
 ;
@@ -5729,7 +5729,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_PRECISION_RANGE
 numStr
 )
@@ -7774,7 +7774,7 @@ if
 numberProto
 )
 return
-NULL
+nullptr
 ;
 numberProto
 -
@@ -7823,7 +7823,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7836,7 +7836,7 @@ numberProto
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -7868,7 +7868,7 @@ number_constants
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7877,12 +7877,12 @@ DefinePropertiesAndBrand
 (
 cx
 ctor
-NULL
+nullptr
 number_static_methods
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7891,12 +7891,12 @@ DefinePropertiesAndBrand
 (
 cx
 numberProto
-NULL
+nullptr
 number_methods
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7909,7 +7909,7 @@ number_functions
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 valueNaN
@@ -8011,7 +8011,7 @@ JSPROP_READONLY
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -8027,7 +8027,7 @@ numberProto
 )
 )
 return
-NULL
+nullptr
 ;
 return
 numberProto
@@ -8309,7 +8309,7 @@ from
 trace
 *
 returning
-NULL
+nullptr
 here
 will
 cause
@@ -8347,7 +8347,7 @@ base
 36
 )
 return
-NULL
+nullptr
 ;
 JSCompartment
 *
@@ -8372,7 +8372,7 @@ compartment
 (
 )
 :
-NULL
+nullptr
 ;
 int32_t
 i
@@ -8607,7 +8607,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT_IF
@@ -8854,7 +8854,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT
@@ -8912,7 +8912,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 CacheNumber
 (
@@ -9001,7 +9001,7 @@ asFlat
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSFlatString
@@ -9090,7 +9090,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 jschar
 buffer

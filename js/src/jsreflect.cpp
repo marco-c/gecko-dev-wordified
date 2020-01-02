@@ -673,7 +673,7 @@ tbl
 #
 undef
 ASTDEF
-NULL
+nullptr
 }
 ;
 static
@@ -705,7 +705,7 @@ tbl
 #
 undef
 ASTDEF
-NULL
+nullptr
 }
 ;
 enum
@@ -804,7 +804,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_PARSE_NODE
 )
 ;
@@ -835,7 +835,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_PARSE_NODE
 )
 ;
@@ -1104,7 +1104,7 @@ c
 )
 tokenStream
 (
-NULL
+nullptr
 )
 saveLoc
 (
@@ -1384,8 +1384,8 @@ funv
 NullPtr
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 return
@@ -9980,7 +9980,7 @@ isUsed
 (
 )
 ?
-NULL
+nullptr
 :
 pn
 -
@@ -10091,7 +10091,7 @@ pn
 ;
 pnright
 =
-NULL
+nullptr
 ;
 }
 RootedValue
@@ -10816,7 +10816,7 @@ pn
 -
 >
 pn_kid1
-NULL
+nullptr
 &
 var
 )
@@ -12024,7 +12024,7 @@ head
 -
 >
 pn_kid2
-NULL
+nullptr
 &
 var
 )
@@ -12309,7 +12309,7 @@ return
 optIdentifier
 (
 pnAtom
-NULL
+nullptr
 &
 label
 )
@@ -12408,7 +12408,7 @@ return
 identifier
 (
 pnAtom
-NULL
+nullptr
 &
 label
 )
@@ -12895,7 +12895,7 @@ in
 -
 >
 pn_kid2
-NULL
+nullptr
 &
 patt
 )
@@ -13951,7 +13951,7 @@ pn
 -
 >
 pn_left
-NULL
+nullptr
 &
 lhs
 )
@@ -14541,7 +14541,7 @@ expr
 identifier
 (
 pnAtom
-NULL
+nullptr
 &
 id
 )
@@ -14853,7 +14853,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_OBJECT_INIT
 )
 ;
@@ -16290,7 +16290,7 @@ if
 optIdentifier
 (
 funcAtom
-NULL
+nullptr
 &
 id
 )
@@ -16448,7 +16448,7 @@ else
 {
 pnargs
 =
-NULL
+nullptr
 ;
 pnbody
 =
@@ -16540,7 +16540,7 @@ else
 {
 pndestruct
 =
-NULL
+nullptr
 ;
 }
 /
@@ -16580,7 +16580,7 @@ functionArgs
 (
 pn
 pnargs
-NULL
+nullptr
 pnbody
 args
 defaults
@@ -16777,7 +16777,7 @@ pnargs
 >
 pn_head
 :
-NULL
+nullptr
 ;
 ParseNode
 *
@@ -16790,7 +16790,7 @@ pndestruct
 >
 pn_head
 :
-NULL
+nullptr
 ;
 RootedValue
 node
@@ -16912,7 +16912,7 @@ destruct
 -
 >
 pn_left
-NULL
+nullptr
 &
 node
 )
@@ -17385,7 +17385,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 Reflect
@@ -17498,7 +17498,7 @@ not
 an
 object
 "
-NULL
+nullptr
 )
 ;
 return
@@ -17872,7 +17872,7 @@ not
 an
 object
 "
-NULL
+nullptr
 )
 ;
 return
@@ -18017,8 +18017,8 @@ foldConstants
 *
 /
 false
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 serialize
@@ -18037,7 +18037,7 @@ parser
 .
 parse
 (
-NULL
+nullptr
 )
 ;
 if
@@ -18150,7 +18150,7 @@ JSObject
 :
 :
 class_
-NULL
+nullptr
 obj
 SingletonObject
 )
@@ -18162,7 +18162,7 @@ if
 Reflect
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -18185,7 +18185,7 @@ JS_StrictPropertyStub
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -18199,7 +18199,7 @@ static_methods
 )
 )
 return
-NULL
+nullptr
 ;
 return
 Reflect
