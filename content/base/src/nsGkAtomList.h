@@ -817,6 +817,13 @@ self
 )
 GK_ATOM
 (
+anchor
+"
+anchor
+"
+)
+GK_ATOM
+(
 _and
 "
 and
