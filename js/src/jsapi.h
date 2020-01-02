@@ -32208,6 +32208,16 @@ compilation
 enable
 "
 )
+\
+Register
+(
+SIGNALS_ENABLE
+"
+signals
+.
+enable
+"
+)
 typedef
 enum
 JSJitCompilerOption
