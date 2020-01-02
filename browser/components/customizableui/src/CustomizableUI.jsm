@@ -12877,6 +12877,7 @@ registerToolbar
 function
 (
 aToolbar
+aIsOverlayed
 )
 {
 CustomizableUIInternal
@@ -12884,6 +12885,7 @@ CustomizableUIInternal
 registerToolbar
 (
 aToolbar
+aIsOverlayed
 )
 ;
 }
