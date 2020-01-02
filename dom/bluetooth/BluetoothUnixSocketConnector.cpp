@@ -255,9 +255,6 @@ socket
 h
 >
 #
-ifdef
-MOZ_B2G_BT_BLUEZ
-#
 include
 <
 bluetooth
@@ -293,8 +290,6 @@ sco
 .
 h
 >
-#
-endif
 #
 include
 "
@@ -369,9 +364,6 @@ L2CAP_MAX_MTU
 =
 65000
 ;
-#
-ifdef
-MOZ_B2G_BT_BLUEZ
 static
 int
 get_bdaddr
@@ -547,8 +539,6 @@ b
 )
 ;
 }
-#
-endif
 BluetoothUnixSocketConnector
 :
 :
@@ -592,9 +582,6 @@ int
 aFd
 )
 {
-#
-ifdef
-MOZ_B2G_BT_BLUEZ
 int
 lm
 =
@@ -1103,8 +1090,6 @@ false
 }
 }
 }
-#
-endif
 return
 true
 ;
@@ -1131,9 +1116,6 @@ fd
 -
 1
 ;
-#
-ifdef
-MOZ_B2G_BT_BLUEZ
 switch
 (
 mType
@@ -1264,8 +1246,6 @@ return
 1
 ;
 }
-#
-endif
 return
 fd
 ;
@@ -1290,9 +1270,6 @@ char
 aAddress
 )
 {
-#
-ifdef
-MOZ_B2G_BT_BLUEZ
 /
 /
 Set
@@ -1555,8 +1532,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;
@@ -1576,9 +1551,6 @@ nsAString
 aAddrStr
 )
 {
-#
-ifdef
-MOZ_B2G_BT_BLUEZ
 char
 addr
 [
@@ -1695,6 +1667,4 @@ AssignASCII
 addr
 )
 ;
-#
-endif
 }
