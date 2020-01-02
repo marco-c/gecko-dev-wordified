@@ -1278,8 +1278,6 @@ LayerManagerDataProperty
 )
 ;
 }
-namespace
-{
 /
 /
 a
@@ -5000,11 +4998,6 @@ gThebesDisplayItemLayerUserData
 )
 ;
 }
-}
-/
-/
-anonymous
-namespace
 /
 *
 static
