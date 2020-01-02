@@ -932,6 +932,10 @@ UNSAFE_OP
 (
 Atan2
 )
+UNSAFE_OP
+(
+Hypot
+)
 CUSTOM_OP
 (
 MathFunction
