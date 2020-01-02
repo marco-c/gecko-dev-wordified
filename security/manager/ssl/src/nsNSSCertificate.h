@@ -457,12 +457,15 @@ nsNSSCertList
 public
 nsIX509CertList
 public
+nsISerializable
+public
 nsNSSShutDownObject
 {
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIX509CERTLIST
+NS_DECL_NSISERIALIZABLE
 /
 /
 certList
