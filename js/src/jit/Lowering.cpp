@@ -3280,7 +3280,10 @@ type
 (
 )
 ;
+DebugOnly
+<
 bool
+>
 checkIsFloat32
 =
 assertion
@@ -12941,7 +12944,10 @@ type
 (
 )
 ;
+DebugOnly
+<
 MIRType
+>
 outputType
 =
 ins
@@ -16411,7 +16417,10 @@ isFloatArray
 )
 )
 {
+DebugOnly
+<
 bool
+>
 optimizeFloat32
 =
 allowFloat32Optimizations
@@ -16676,7 +16685,10 @@ isFloatArray
 )
 )
 {
+DebugOnly
+<
 bool
+>
 optimizeFloat32
 =
 allowFloat32Optimizations

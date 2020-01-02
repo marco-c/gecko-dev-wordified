@@ -13034,8 +13034,11 @@ argslot
 )
 )
 ;
+DebugOnly
+<
 JSFunction
 *
+>
 target
 =
 call
