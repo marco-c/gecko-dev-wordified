@@ -1829,6 +1829,10 @@ ShaderProgramOGL
 *
 aProg
 const
+gfx3DMatrix
+&
+aTextureTransform
+const
 gfx
 :
 :
