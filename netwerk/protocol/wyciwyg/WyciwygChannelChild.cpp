@@ -2959,10 +2959,15 @@ an
 /
 /
 owner
+or
+loadinfo
 .
 NS_PRECONDITION
 (
 mOwner
+|
+|
+mLoadInfo
 "
 Must
 have
@@ -2974,6 +2979,9 @@ principal
 NS_ENSURE_STATE
 (
 mOwner
+|
+|
+mLoadInfo
 )
 ;
 NS_ENSURE_ARG_POINTER
