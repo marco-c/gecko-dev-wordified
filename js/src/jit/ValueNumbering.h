@@ -465,7 +465,7 @@ def
 )
 ;
 bool
-pushDeadPhiOperands
+discardPhiOperands
 (
 MPhi
 *
@@ -477,7 +477,7 @@ phiBlock
 )
 ;
 bool
-pushDeadInsOperands
+discardInsOperands
 (
 MInstruction
 *
