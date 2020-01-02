@@ -51,9 +51,6 @@ of
 SessionStartup
 is
 complete
-let
-afterSessionStartupInitialization
-=
 function
 afterSessionStartupInitialization
 (
