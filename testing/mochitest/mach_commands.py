@@ -1008,6 +1008,9 @@ elif
 conditions
 .
 is_b2g_desktop
+(
+self
+)
 :
             
 options
