@@ -2684,6 +2684,7 @@ CRMFPOPOPrivKey
 ;
 if
 (
+*
 destKey
 =
 =
