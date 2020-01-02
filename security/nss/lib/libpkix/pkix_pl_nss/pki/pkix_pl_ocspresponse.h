@@ -119,6 +119,13 @@ ocspi
 h
 "
 #
+include
+"
+plbase64
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -217,6 +224,10 @@ pkix_pl_OcspResponse_Create
 PKIX_PL_OcspRequest
 *
 request
+const
+char
+*
+httpMechanism
 void
 *
 responder
@@ -306,6 +317,8 @@ cid
 PKIX_PL_OcspResponse
 *
 response
+PKIX_Boolean
+allowCachingOfFailures
 PKIX_PL_Date
 *
 validity

@@ -7626,6 +7626,7 @@ PK11_GetDefaultArray
 (
 int
 *
+size
 )
 ;
 SECStatus
@@ -7633,9 +7634,12 @@ PK11_UpdateSlotAttribute
 (
 PK11SlotInfo
 *
+slot
 PK11DefaultArrayEntry
 *
+entry
 PRBool
+add
 )
 ;
 /

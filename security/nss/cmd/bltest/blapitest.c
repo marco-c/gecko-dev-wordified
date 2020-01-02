@@ -6202,16 +6202,9 @@ rv
 =
 SECSuccess
 )
-{
-PR_Close
-(
-file
-)
-;
 return
 SECFailure
 ;
-}
 in
 =
 &
@@ -19561,6 +19554,7 @@ if
 (
 file
 )
+{
 setupIO
 (
 arena
@@ -19570,6 +19564,12 @@ NULL
 0
 )
 ;
+PR_Close
+(
+file
+)
+;
+}
 }
 void
 get_params
