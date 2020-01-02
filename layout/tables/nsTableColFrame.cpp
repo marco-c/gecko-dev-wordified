@@ -330,6 +330,7 @@ eColContent
 mState
 |
 =
+nsFrameState
 (
 type
 <
