@@ -606,6 +606,11 @@ output
 '
 Array
 [
+<
+5
+empty
+slots
+>
 "
 test
 "
