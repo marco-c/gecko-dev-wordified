@@ -784,16 +784,6 @@ idl
 xpidl_module
 )
         
-exclusions
-=
-(
-'
-toolkit
-/
-crashreporter
-'
-)
-        
 if
 sandbox
 [
@@ -801,19 +791,6 @@ sandbox
 CPP_SOURCES
 '
 ]
-and
-not
-sandbox
-[
-'
-RELATIVEDIR
-'
-]
-.
-startswith
-(
-exclusions
-)
 and
 os
 .
