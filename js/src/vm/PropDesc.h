@@ -2386,16 +2386,6 @@ PropDesc
 ;
 }
 static
-ThingRootKind
-kind
-(
-)
-{
-return
-THING_ROOT_PROP_DESC
-;
-}
-static
 bool
 poisoned
 (
