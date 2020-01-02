@@ -900,13 +900,11 @@ WidgetMouseEventBase
 &
 mouseEvent
 =
-static_cast
-<
-WidgetMouseEventBase
-&
->
-(
+*
 aMouseEvent
+.
+AsMouseEventBase
+(
 )
 ;
 mouseEvent

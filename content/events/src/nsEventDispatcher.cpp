@@ -4150,13 +4150,11 @@ NS_NewDOMMouseEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-WidgetInputEvent
-*
->
-(
 aEvent
+-
+>
+AsMouseEvent
+(
 )
 )
 ;
