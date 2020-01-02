@@ -2233,6 +2233,16 @@ blocklist
 "
 )
 ;
+pref
+(
+"
+extensions
+.
+showMismatchUI
+"
+false
+)
+;
 /
 *
 block
