@@ -4571,6 +4571,13 @@ aFontList
 .
 AppendElement
 (
+kFontNirmalaUI
+)
+;
+aFontList
+.
+AppendElement
+(
 kFontUtsaah
 )
 ;
