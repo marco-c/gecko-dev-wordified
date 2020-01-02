@@ -7663,7 +7663,7 @@ lifting
 xpc
 :
 :
-SystemErrorReporterExternal
+SystemErrorReporter
 (
 cx
 message
