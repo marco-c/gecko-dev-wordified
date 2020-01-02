@@ -159,6 +159,7 @@ ComponentType
 {
 ABOUTHOME
 APPMENU
+GECKOVIEW
 TOOLBAR
 }
 public
