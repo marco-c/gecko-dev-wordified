@@ -94,7 +94,7 @@ INCLUDE_LIBYUV_VERSION_H_
 #
 define
 LIBYUV_VERSION
-389
+971
 #
 endif
 /
