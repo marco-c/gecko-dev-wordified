@@ -113,6 +113,12 @@ MPL
 *
 /
 #
+ifndef
+WMFUtils_h
+#
+define
+WMFUtils_h
+#
 include
 "
 WMF
@@ -587,3 +593,5 @@ pattern
 /
 namespace
 mozilla
+#
+endif
