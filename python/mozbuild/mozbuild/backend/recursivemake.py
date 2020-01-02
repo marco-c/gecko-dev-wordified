@@ -4985,6 +4985,19 @@ as
 f
 :
                 
+f
+.
+write
+(
+'
+#
+define
+MOZ_UNIFIED_BUILD
+\
+n
+'
+)
+                
 includeTemplate
 =
 '
