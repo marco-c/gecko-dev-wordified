@@ -2128,6 +2128,7 @@ ScrollableLayerGuid
 *
 aGuidOut
 )
+const
 ;
 /
 *
@@ -2147,6 +2148,7 @@ ScrollableLayerGuid
 GetGuid
 (
 )
+const
 ;
 /
 *
@@ -3520,6 +3522,7 @@ FrameMetrics
 GetFrameMetrics
 (
 )
+const
 ;
 /
 *
