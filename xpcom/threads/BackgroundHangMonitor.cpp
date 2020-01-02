@@ -238,12 +238,6 @@ BackgroundHangThread
 /
 class
 BackgroundHangManager
-:
-public
-AtomicRefCounted
-<
-BackgroundHangManager
->
 {
 private
 :
@@ -413,7 +407,7 @@ RunMonitorThread
 ;
 public
 :
-MOZ_DECLARE_REFCOUNTED_TYPENAME
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 BackgroundHangManager
 )
