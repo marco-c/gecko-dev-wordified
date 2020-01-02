@@ -154,6 +154,11 @@ h
 >
 #
 include
+<
+limits
+>
+#
+include
 "
 mozilla
 /
@@ -2995,12 +3000,7 @@ GET_CHAR
 (
 mIfname
 )
-atoll
-(
-"
-0xffffffffffffffff
-"
-)
+LLONG_MAX
 )
 ;
 doCommand
