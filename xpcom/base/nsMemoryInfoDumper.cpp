@@ -1055,9 +1055,8 @@ bool
 doMMUMemoryReport
 =
 aInputStr
-=
-=
-NS_LITERAL_CSTRING
+.
+EqualsLiteral
 (
 "
 minimize
@@ -1129,9 +1128,8 @@ bool
 doAllTracesGCCCDump
 =
 aInputStr
-=
-=
-NS_LITERAL_CSTRING
+.
+EqualsLiteral
 (
 "
 gc

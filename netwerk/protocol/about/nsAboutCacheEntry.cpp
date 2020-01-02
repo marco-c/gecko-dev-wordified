@@ -1224,9 +1224,8 @@ IsPrivate
 &
 &
 mStorageName
-=
-=
-NS_LITERAL_CSTRING
+.
+EqualsLiteral
 (
 "
 disk
@@ -2012,9 +2011,8 @@ IsPrivate
 &
 &
 mStorageName
-=
-=
-NS_LITERAL_CSTRING
+.
+EqualsLiteral
 (
 "
 memory

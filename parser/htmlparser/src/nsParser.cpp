@@ -7623,9 +7623,8 @@ PARSE_DTD_HAVE_INTERNAL_SUBSET
 &
 &
 sysIDUCS2
-=
-=
-NS_LITERAL_STRING
+.
+EqualsLiteral
 (
 "
 http
