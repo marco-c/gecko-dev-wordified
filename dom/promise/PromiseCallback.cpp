@@ -1403,10 +1403,9 @@ if
 JS
 :
 :
-CreateError
+CreateTypeError
 (
 aCx
-JSEXN_TYPEERR
 stack
 fn
 lineNumber
