@@ -4569,7 +4569,7 @@ shift
 {
 ma_sll
 (
-dest
+ScratchRegister
 address
 .
 index
@@ -4585,7 +4585,7 @@ dest
 address
 .
 base
-dest
+ScratchRegister
 )
 ;
 }
