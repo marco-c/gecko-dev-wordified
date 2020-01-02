@@ -857,10 +857,13 @@ function
 .
 *
 /
+/
+*
 #
-define
+undef
 _EVENT_HAVE_ISSETUGID
-1
+*
+/
 /
 *
 Define
