@@ -239,6 +239,20 @@ config
 '
     
 '
+dom
+/
+bindings
+'
+    
+'
+dom
+/
+bindings
+/
+parser
+'
+    
+'
 other
 -
 licenses
@@ -409,6 +423,16 @@ MACH_MODULES
 addon
 -
 sdk
+/
+mach_commands
+.
+py
+'
+    
+'
+dom
+/
+bindings
 /
 mach_commands
 .
