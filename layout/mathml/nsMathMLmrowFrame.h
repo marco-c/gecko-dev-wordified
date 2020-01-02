@@ -189,6 +189,13 @@ TransmitAutomaticDataForMrowLikeElement
 )
 ;
 }
+virtual
+eMathMLFrameType
+GetMathMLFrameType
+(
+)
+MOZ_OVERRIDE
+;
 bool
 IsMrowLike
 (
