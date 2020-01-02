@@ -5805,6 +5805,16 @@ WidgetMouseEvent
 eNormal
 )
 ;
+event
+-
+>
+exit
+=
+WidgetMouseEvent
+:
+:
+eTopLevel
+;
 UpdateInputLevel
 (
 LEVEL_PRECISE
