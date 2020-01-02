@@ -73,12 +73,6 @@ options
 -
 panel
 {
-overflow
--
-y
-:
-auto
-;
 display
 :
 block
@@ -139,7 +133,7 @@ min
 -
 width
 :
-400px
+350px
 ;
 -
 moz
