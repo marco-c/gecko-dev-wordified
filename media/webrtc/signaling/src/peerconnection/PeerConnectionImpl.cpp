@@ -694,9 +694,8 @@ mozilla
 psm
 :
 :
-ConfigureMD5
+DisableMD5
 (
-false
 )
 ;
 nssStarted
