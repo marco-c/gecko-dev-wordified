@@ -442,7 +442,7 @@ TextTrackList
 RemoveTextTrack
 (
 TextTrack
-&
+*
 aTrack
 )
 {
@@ -452,14 +452,12 @@ mTextTracks
 .
 RemoveElement
 (
-&
 aTrack
 )
 )
 {
 CreateAndDispatchTrackEventRunner
 (
-&
 aTrack
 NS_LITERAL_STRING
 (
