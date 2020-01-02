@@ -4759,7 +4759,7 @@ focusring
 .
 enabled
 "
-false
+true
 )
 ;
 pref
