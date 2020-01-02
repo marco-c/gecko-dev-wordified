@@ -42617,7 +42617,7 @@ win
 =
 installInfo
 .
-originatingWindow
+originator
 ;
 let
 tab
