@@ -3626,6 +3626,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -3712,6 +3715,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -3756,6 +3762,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -3816,6 +3825,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -3868,6 +3880,9 @@ MStart
 :
 New
 (
+alloc
+(
+)
 MStart
 :
 :
@@ -3891,6 +3906,9 @@ MFunctionBoundary
 :
 New
 (
+alloc
+(
+)
 script
 (
 )
@@ -4347,6 +4365,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 MagicValue
 (
 JS_OPTIMIZED_ARGUMENTS
@@ -4877,6 +4898,9 @@ MFunctionBoundary
 :
 New
 (
+alloc
+(
+)
 script
 (
 )
@@ -4898,6 +4922,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 current
 )
 )
@@ -4944,6 +4971,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -4990,6 +5020,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -5046,6 +5079,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -5277,6 +5313,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -5390,6 +5429,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -5519,6 +5561,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 MagicValue
 (
 JS_OPTIMIZED_ARGUMENTS
@@ -5609,7 +5654,7 @@ MDefinition
 *
 actual
 =
-EnsureDefiniteType
+ensureDefiniteType
 (
 param
 definiteType
@@ -5964,7 +6009,7 @@ thisValue
 (
 )
 )
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -5985,6 +6030,9 @@ MParameter
 :
 New
 (
+alloc
+(
+)
 MParameter
 :
 :
@@ -6100,7 +6148,7 @@ argv
 i
 ]
 )
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -6119,6 +6167,9 @@ MParameter
 :
 New
 (
+alloc
+(
+)
 i
 types
 )
@@ -6359,6 +6410,9 @@ MCallee
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -6381,6 +6435,9 @@ MFunctionEnvironment
 :
 New
 (
+alloc
+(
+)
 callee
 )
 ;
@@ -6468,6 +6525,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 script
@@ -6569,6 +6629,9 @@ MCreateArgumentsObject
 :
 New
 (
+alloc
+(
+)
 current
 -
 >
@@ -6689,6 +6752,9 @@ MTypeBarrier
 :
 New
 (
+alloc
+(
+)
 def
 typeSet
 )
@@ -6790,7 +6856,7 @@ type
 ;
 typeSet
 =
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -6826,6 +6892,9 @@ MTypeBarrier
 :
 New
 (
+alloc
+(
+)
 def
 typeSet
 )
@@ -6901,6 +6970,9 @@ MUnbox
 :
 New
 (
+alloc
+(
+)
 def
 type
 MUnbox
@@ -6952,6 +7024,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 NullValue
 (
 )
@@ -7000,6 +7075,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -7958,7 +8036,7 @@ for
 if
 (
 !
-temp
+alloc
 (
 )
 .
@@ -9492,6 +9570,9 @@ MGetArgumentsObjectArg
 :
 New
 (
+alloc
+(
+)
 current
 -
 >
@@ -10345,6 +10426,9 @@ MCallee
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -11359,6 +11443,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 state
 .
 branch
@@ -11379,6 +11466,9 @@ ifFalse
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 )
@@ -11699,6 +11789,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 join
 )
 )
@@ -11718,6 +11811,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 join
 )
 )
@@ -11730,6 +11826,9 @@ join
 >
 addPredecessor
 (
+alloc
+(
+)
 other
 )
 )
@@ -12024,6 +12123,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 block
 )
 )
@@ -12036,6 +12138,9 @@ block
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 )
@@ -12464,6 +12569,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 block
 )
 )
@@ -12476,6 +12584,9 @@ block
 >
 addPredecessor
 (
+alloc
+(
+)
 successor
 )
 )
@@ -12947,6 +13058,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 header
 )
 )
@@ -13112,6 +13226,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 vins
 state
 .
@@ -13273,6 +13390,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 ins
 body
 state
@@ -13290,6 +13410,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 ins
 state
 .
@@ -13389,6 +13512,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 state
 .
 loop
@@ -13522,6 +13648,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 ins
 body
 state
@@ -13754,6 +13883,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 state
 .
 loop
@@ -14017,6 +14149,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 update
 )
 )
@@ -14029,6 +14164,9 @@ update
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 )
@@ -14067,6 +14205,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 update
 )
 )
@@ -14100,6 +14241,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 update
 )
 )
@@ -14112,6 +14256,9 @@ update
 >
 addPredecessor
 (
+alloc
+(
+)
 edge
 -
 >
@@ -14232,6 +14379,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 successor
 )
 )
@@ -14268,6 +14418,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 successor
 )
 )
@@ -14280,6 +14433,9 @@ successor
 >
 addPredecessor
 (
+alloc
+(
+)
 edge
 -
 >
@@ -14461,6 +14617,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 successor
 )
 )
@@ -14470,6 +14629,9 @@ successor
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 ;
@@ -14657,6 +14819,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 state
 .
 branch
@@ -14677,6 +14842,9 @@ ifFalse
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 )
@@ -14839,6 +15007,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 successor
 )
 )
@@ -14848,6 +15019,9 @@ successor
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 ;
@@ -14929,6 +15103,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 state
 .
 try_
@@ -14949,6 +15126,9 @@ successor
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 )
@@ -15924,6 +16104,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 successor
 )
 )
@@ -15937,6 +16120,9 @@ successor
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 ;
@@ -16663,6 +16849,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 preheader
 )
 )
@@ -16702,6 +16891,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 header
 )
 )
@@ -17061,6 +17253,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 preheader
 )
 )
@@ -17100,6 +17295,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 header
 )
 )
@@ -17614,6 +17812,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 preheader
 )
 )
@@ -17653,6 +17854,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 header
 )
 )
@@ -18158,6 +18362,9 @@ MTableSwitch
 :
 New
 (
+alloc
+(
+)
 ins
 low
 high
@@ -18345,6 +18552,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 defaultcase
 )
 )
@@ -18354,6 +18564,9 @@ defaultcase
 >
 addPredecessor
 (
+alloc
+(
+)
 caseblock
 )
 ;
@@ -19523,7 +19736,7 @@ MBasicBlock
 builder
 -
 >
-temp_
+alloc_
 -
 >
 allocate
@@ -20438,6 +20651,9 @@ MCompare
 :
 New
 (
+alloc
+(
+)
 switchOperand
 caseOperand
 JSOP_STRICTEQ
@@ -20481,6 +20697,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 cmpResult
 bodyBlock
 caseBlock
@@ -20521,6 +20740,9 @@ bodyBlock
 >
 addPredecessorPopN
 (
+alloc
+(
+)
 current
 1
 )
@@ -20600,6 +20822,9 @@ caseBlock
 >
 addPredecessorPopN
 (
+alloc
+(
+)
 current
 1
 )
@@ -20658,6 +20883,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 bodyBlock
 )
 )
@@ -20674,6 +20902,9 @@ bodyBlock
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 )
@@ -21080,6 +21311,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 nextBody
 )
 )
@@ -21089,6 +21323,9 @@ nextBody
 >
 addPredecessor
 (
+alloc
+(
+)
 current
 )
 ;
@@ -21282,6 +21519,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 lhs
 evalRhs
 join
@@ -21292,6 +21532,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 lhs
 join
 evalRhs
@@ -21419,6 +21662,9 @@ MInterruptCheck
 :
 New
 (
+alloc
+(
+)
 )
 )
 ;
@@ -21575,6 +21821,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 ins
 ifTrue
 ifFalse
@@ -22453,6 +22702,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 BooleanValue
 (
 true
@@ -22477,6 +22729,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 true_
 tryBlock
 successor
@@ -22500,6 +22755,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 tryBlock
 )
 )
@@ -22664,6 +22922,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -22734,6 +22995,9 @@ MFunctionBoundary
 :
 New
 (
+alloc
+(
+)
 script
 (
 )
@@ -22753,6 +23017,9 @@ MReturn
 :
 New
 (
+alloc
+(
+)
 def
 )
 ;
@@ -23056,6 +23323,9 @@ MNop
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -23087,6 +23357,9 @@ MThrow
 :
 New
 (
+alloc
+(
+)
 def
 )
 ;
@@ -23158,6 +23431,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 v
 )
 ;
@@ -23209,6 +23485,9 @@ MBitNot
 :
 New
 (
+alloc
+(
+)
 input
 )
 ;
@@ -23314,6 +23593,9 @@ MBitAnd
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23330,6 +23612,9 @@ MBitOr
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23346,6 +23631,9 @@ MBitXor
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23362,6 +23650,9 @@ MLsh
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23378,6 +23669,9 @@ MRsh
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23394,6 +23688,9 @@ MUrsh
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23615,6 +23912,9 @@ MConcat
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23660,6 +23960,9 @@ MAdd
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23676,6 +23979,9 @@ MSub
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23692,6 +23998,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23708,6 +24017,9 @@ MDiv
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23724,6 +24036,9 @@ MMod
 :
 New
 (
+alloc
+(
+)
 left
 right
 )
@@ -23755,6 +24070,9 @@ ins
 >
 infer
 (
+alloc
+(
+)
 inspector
 pc
 )
@@ -23898,6 +24216,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 1
@@ -23966,6 +24287,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 -
@@ -24067,6 +24391,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 def
 )
 ;
@@ -24348,6 +24675,9 @@ MResumePoint
 :
 New
 (
+alloc
+(
+)
 current
 pc
 callerResumePoint_
@@ -24497,6 +24827,9 @@ MTypeBarrier
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -24507,7 +24840,7 @@ types
 >
 clone
 (
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -24540,9 +24873,9 @@ inlining
 .
 LifoAlloc
 *
-alloc
+lifoAlloc
 =
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -24553,7 +24886,7 @@ CompileInfo
 *
 info
 =
-alloc
+lifoAlloc
 -
 >
 new_
@@ -24629,7 +24962,7 @@ inlineBuilder
 analysisContext
 compartment
 &
-temp
+alloc
 (
 )
 &
@@ -24835,6 +25168,9 @@ MFunctionBoundary
 :
 New
 (
+alloc
+(
+)
 nullptr
 MFunctionBoundary
 :
@@ -24981,6 +25317,9 @@ returnBlock
 >
 initEntrySlots
 (
+alloc
+(
+)
 )
 )
 return
@@ -25109,6 +25448,9 @@ MReturnFromCtor
 :
 New
 (
+alloc
+(
+)
 rdef
 callInfo
 .
@@ -25208,6 +25550,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 bottom
 )
 ;
@@ -25324,6 +25669,9 @@ MPhi
 :
 New
 (
+alloc
+(
+)
 bottom
 -
 >
@@ -26922,6 +27270,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 *
@@ -27112,6 +27463,9 @@ fallbackInfo
 .
 wrapArgs
 (
+alloc
+(
+)
 fallbackBlock
 )
 ;
@@ -27431,6 +27785,9 @@ MResumePoint
 :
 New
 (
+alloc
+(
+)
 dispatchBlock
 pc
 callerResumePoint_
@@ -27510,6 +27867,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -27702,6 +28062,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 getPropBlock
 )
 )
@@ -27947,6 +28310,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 preCallBlock
 )
 )
@@ -28002,6 +28368,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 current
 )
 )
@@ -28279,6 +28648,9 @@ MTypeObjectDispatch
 :
 New
 (
+alloc
+(
+)
 maybeCache
 -
 >
@@ -28314,6 +28686,9 @@ MFunctionDispatch
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 fun
@@ -28411,6 +28786,9 @@ MPhi
 :
 New
 (
+alloc
+(
+)
 returnBlock
 -
 >
@@ -28451,6 +28829,9 @@ returnBlock
 >
 initEntrySlots
 (
+alloc
+(
+)
 )
 ;
 /
@@ -28808,6 +29189,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 *
@@ -28944,6 +29328,9 @@ inlineInfo
 .
 wrapArgs
 (
+alloc
+(
+)
 inlineBlock
 )
 ;
@@ -29207,6 +29594,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 returnBlock
 )
 )
@@ -29616,6 +30006,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 returnBlock
 )
 )
@@ -29852,6 +30245,9 @@ MNewDeclEnvObject
 :
 New
 (
+alloc
+(
+)
 templateObj
 )
 ;
@@ -29931,6 +30327,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 declEnvObj
 DeclEnvObject
 :
@@ -29952,6 +30351,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 declEnvObj
 DeclEnvObject
 :
@@ -30067,6 +30469,9 @@ MNewSlots
 :
 New
 (
+alloc
+(
+)
 nslots
 )
 ;
@@ -30080,6 +30485,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 NullValue
 (
 )
@@ -30151,6 +30559,9 @@ MNewCallObject
 :
 New
 (
+alloc
+(
+)
 templateObj
 script
 (
@@ -30218,6 +30629,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 callObj
 )
 )
@@ -30258,6 +30672,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 callObj
 CallObject
 :
@@ -30279,6 +30696,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 callObj
 CallObject
 :
@@ -30372,6 +30792,9 @@ MStoreSlot
 :
 New
 (
+alloc
+(
+)
 slots
 slot
 -
@@ -30396,6 +30819,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 callObj
 slot
 param
@@ -30550,6 +30976,9 @@ MGetPropertyCache
 :
 New
 (
+alloc
+(
+)
 callee
 names
 (
@@ -30581,6 +31010,9 @@ MCallGetProperty
 :
 New
 (
+alloc
+(
+)
 callee
 names
 (
@@ -30631,6 +31063,9 @@ MCreateThisWithProto
 :
 New
 (
+alloc
+(
+)
 callee
 getProto
 )
@@ -31050,6 +31485,9 @@ MCreateThisWithTemplate
 :
 New
 (
+alloc
+(
+)
 templateObject
 )
 ;
@@ -31102,6 +31540,9 @@ MCreateThis
 :
 New
 (
+alloc
+(
+)
 callee
 )
 ;
@@ -31159,6 +31600,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 MagicValue
 (
 JS_IS_CONSTRUCTING
@@ -31613,6 +32057,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -31635,6 +32082,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 undef
 )
 ;
@@ -32401,6 +32851,9 @@ MArgumentsLength
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -32420,6 +32873,9 @@ MApplyArgs
 :
 New
 (
+alloc
+(
+)
 target
 argFunc
 numArgs
@@ -32826,6 +33282,9 @@ callInfo
 .
 wrapArgs
 (
+alloc
+(
+)
 current
 )
 ;
@@ -32923,7 +33382,7 @@ Type
 Int32Type
 (
 )
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -33000,7 +33459,7 @@ Type
 DoubleType
 (
 )
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -33440,6 +33899,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 *
@@ -33515,6 +33977,9 @@ MCallsiteCloneCache
 :
 New
 (
+alloc
+(
+)
 fun
 pc
 )
@@ -34365,6 +34830,9 @@ MCall
 :
 New
 (
+alloc
+(
+)
 target
 targetArgs
 +
@@ -34453,6 +34921,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -34475,6 +34946,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 undef
 )
 ;
@@ -34759,6 +35233,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 create
 )
 ;
@@ -35318,7 +35795,7 @@ types
 ;
 replace
 =
-EnsureDefiniteType
+ensureDefiniteType
 (
 call
 jitinfo
@@ -35929,6 +36406,9 @@ MGetDynamicName
 :
 New
 (
+alloc
+(
+)
 scopeChain
 name
 )
@@ -35950,6 +36430,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 thisValue
 )
 ;
@@ -36028,6 +36511,9 @@ MFilterArgumentsOrEval
 :
 New
 (
+alloc
+(
+)
 string
 )
 ;
@@ -36048,6 +36534,9 @@ MCallDirectEval
 :
 New
 (
+alloc
+(
+)
 scopeChain
 string
 thisValue
@@ -36152,6 +36641,9 @@ MCompare
 :
 New
 (
+alloc
+(
+)
 left
 right
 op
@@ -36363,9 +36855,14 @@ MNewArray
 *
 ins
 =
-new
 MNewArray
+:
+:
+New
 (
+alloc
+(
+)
 count
 templateObject
 MNewArray
@@ -36478,6 +36975,9 @@ MNewObject
 :
 New
 (
+alloc
+(
+)
 templateObject
 /
 *
@@ -36563,6 +37063,9 @@ MInitElem
 :
 New
 (
+alloc
+(
+)
 obj
 id
 value
@@ -36813,6 +37316,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 obj
 value
 )
@@ -36832,6 +37338,9 @@ MCallInitElementArray
 :
 New
 (
+alloc
+(
+)
 obj
 GET_UINT24
 (
@@ -36864,6 +37373,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 GET_UINT24
@@ -36897,6 +37409,9 @@ MElements
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -36937,6 +37452,9 @@ MToDouble
 :
 New
 (
+alloc
+(
+)
 value
 )
 ;
@@ -36968,6 +37486,9 @@ MStoreElement
 :
 New
 (
+alloc
+(
+)
 elements
 id
 value
@@ -37003,6 +37524,9 @@ MSetInitializedLength
 :
 New
 (
+alloc
+(
+)
 elements
 id
 )
@@ -37118,6 +37642,9 @@ MInitProp
 :
 New
 (
+alloc
+(
+)
 obj
 name
 value
@@ -37142,6 +37669,9 @@ if
 (
 PropertyWriteNeedsTypeBarrier
 (
+alloc
+(
+)
 constraints
 (
 )
@@ -37180,6 +37710,9 @@ MInitProp
 :
 New
 (
+alloc
+(
+)
 obj
 name
 value
@@ -37220,6 +37753,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 obj
 value
 )
@@ -37341,6 +37877,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 obj
 shape
 -
@@ -37386,6 +37925,9 @@ MSlots
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -37422,6 +37964,9 @@ MStoreSlot
 :
 New
 (
+alloc
+(
+)
 slots
 slot
 value
@@ -37497,6 +38042,9 @@ MInitPropGetterSetter
 :
 New
 (
+alloc
+(
+)
 obj
 name
 value
@@ -37569,6 +38117,9 @@ MInitElemGetterSetter
 :
 New
 (
+alloc
+(
+)
 obj
 id
 value
@@ -38031,6 +38582,9 @@ MOsrEntry
 :
 New
 (
+alloc
+(
+)
 )
 ;
 osrBlock
@@ -38082,6 +38636,9 @@ MOsrScopeChain
 :
 New
 (
+alloc
+(
+)
 entry
 )
 ;
@@ -38127,6 +38684,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -38180,6 +38740,9 @@ MOsrReturnValue
 :
 New
 (
+alloc
+(
+)
 entry
 )
 ;
@@ -38191,6 +38754,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -38265,6 +38831,9 @@ MOsrArgumentsObject
 :
 New
 (
+alloc
+(
+)
 entry
 )
 ;
@@ -38276,6 +38845,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -38333,6 +38905,9 @@ MParameter
 :
 New
 (
+alloc
+(
+)
 MParameter
 :
 :
@@ -38582,6 +39157,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -38595,6 +39173,9 @@ MGetArgumentsObjectArg
 :
 New
 (
+alloc
+(
+)
 argsObj
 i
 )
@@ -38628,6 +39209,9 @@ MParameter
 :
 New
 (
+alloc
+(
+)
 i
 nullptr
 )
@@ -38711,6 +39295,9 @@ MOsrValue
 :
 New
 (
+alloc
+(
+)
 entry
 offset
 )
@@ -38812,6 +39399,9 @@ MOsrValue
 :
 New
 (
+alloc
+(
+)
 entry
 offset
 )
@@ -38855,6 +39445,9 @@ MStart
 :
 New
 (
+alloc
+(
+)
 MStart
 :
 :
@@ -39243,6 +39836,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 preheader
 )
 )
@@ -39252,6 +39848,9 @@ preheader
 >
 addPredecessor
 (
+alloc
+(
+)
 osrBlock
 )
 ;
@@ -39772,7 +40371,7 @@ TemporaryTypeSet
 *
 typeSet
 =
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -40103,6 +40702,9 @@ MResumePoint
 :
 New
 (
+alloc
+(
+)
 ins
 -
 >
@@ -40320,6 +40922,9 @@ MNop
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -41600,7 +42205,7 @@ MDefinition
 *
 replace
 =
-EnsureDefiniteType
+ensureDefiniteType
 (
 def
 type
@@ -41670,6 +42275,9 @@ MTypeBarrier
 :
 New
 (
+alloc
+(
+)
 def
 observed
 )
@@ -41739,7 +42347,7 @@ MDefinition
 IonBuilder
 :
 :
-EnsureDefiniteType
+ensureDefiniteType
 (
 MDefinition
 *
@@ -41774,6 +42382,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -41798,6 +42409,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 NullValue
 (
 )
@@ -41859,6 +42473,9 @@ MUnbox
 :
 New
 (
+alloc
+(
+)
 def
 replaceType
 MUnbox
@@ -42405,6 +43022,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 *
@@ -42970,6 +43590,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 obj
 value
 )
@@ -43105,6 +43728,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 script
@@ -43181,6 +43807,9 @@ MGetNameCache
 :
 New
 (
+alloc
+(
+)
 object
 name
 MGetNameCache
@@ -43197,6 +43826,9 @@ MGetNameCache
 :
 New
 (
+alloc
+(
+)
 object
 name
 MGetNameCache
@@ -43328,6 +43960,9 @@ MCallGetIntrinsicValue
 :
 New
 (
+alloc
+(
+)
 name
 )
 ;
@@ -43433,6 +44068,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 vp
 )
 ;
@@ -43498,6 +44136,9 @@ MBindNameCache
 :
 New
 (
+alloc
+(
+)
 scopeChain
 name
 script
@@ -43900,6 +44541,9 @@ MCallGetElement
 :
 New
 (
+alloc
+(
+)
 obj
 index
 )
@@ -44226,6 +44870,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 int32_t
@@ -44265,6 +44912,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 index
 )
 ;
@@ -44349,6 +44999,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 index
 constantInt
 (
@@ -44410,6 +45063,9 @@ MLoadTypedArrayElement
 :
 New
 (
+alloc
+(
+)
 elements
 scaledOffset
 elemTypeRepr
@@ -44673,6 +45329,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 int32_t
@@ -44712,6 +45371,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 index
 )
 ;
@@ -44769,6 +45431,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 elemSize
@@ -44818,6 +45483,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 index
 alignment
 MIRType_Int32
@@ -45277,6 +45945,9 @@ MLoadTypedArrayElementStatic
 :
 New
 (
+alloc
+(
+)
 tarr
 ptr
 )
@@ -45654,6 +46325,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 index
 )
 ;
@@ -45678,6 +46352,9 @@ MStringLength
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -45706,6 +46383,9 @@ MCharCodeAt
 :
 New
 (
+alloc
+(
+)
 obj
 index
 )
@@ -45727,6 +46407,9 @@ MFromCharCode
 :
 New
 (
+alloc
+(
+)
 charCode
 )
 ;
@@ -45867,6 +46550,9 @@ MArgumentsLength
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -45894,6 +46580,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 index
 )
 ;
@@ -45950,6 +46639,9 @@ MGetFrameArgument
 :
 New
 (
+alloc
+(
+)
 index
 analysis_
 .
@@ -46497,6 +47189,9 @@ MGetElementCache
 :
 New
 (
+alloc
+(
+)
 obj
 index
 barrier
@@ -46852,6 +47547,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 index
 )
 ;
@@ -46883,6 +47581,9 @@ MElements
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -46940,6 +47641,9 @@ MInitializedLength
 :
 New
 (
+alloc
+(
+)
 elements
 )
 ;
@@ -47184,6 +47888,9 @@ MLoadElement
 :
 New
 (
+alloc
+(
+)
 elements
 index
 needsHoleCheck
@@ -47252,6 +47959,9 @@ MLoadElementHole
 :
 New
 (
+alloc
+(
+)
 elements
 index
 initLength
@@ -47439,6 +48149,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 length
@@ -47452,6 +48165,9 @@ MTypedArrayLength
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -47596,6 +48312,9 @@ MConstantElements
 :
 New
 (
+alloc
+(
+)
 data
 )
 ;
@@ -47606,6 +48325,9 @@ MTypedArrayElements
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -47733,6 +48455,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 index
@@ -47887,6 +48612,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 ~
@@ -47916,6 +48644,9 @@ MBitAnd
 :
 New
 (
+alloc
+(
+)
 id
 -
 >
@@ -48207,6 +48938,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 index
 )
 ;
@@ -48391,6 +49125,9 @@ MLoadTypedArrayElement
 :
 New
 (
+alloc
+(
+)
 elements
 index
 arrayType
@@ -48668,6 +49405,9 @@ MLoadTypedArrayElementHole
 :
 New
 (
+alloc
+(
+)
 obj
 index
 arrayType
@@ -48884,6 +49624,9 @@ MCallSetElement
 :
 New
 (
+alloc
+(
+)
 object
 index
 value
@@ -49123,6 +49866,9 @@ MClampToUint8
 :
 New
 (
+alloc
+(
+)
 value
 )
 ;
@@ -49149,6 +49895,9 @@ MStoreTypedArrayElementStatic
 :
 New
 (
+alloc
+(
+)
 tarr
 ptr
 toWrite
@@ -49315,6 +50064,9 @@ if
 (
 PropertyWriteNeedsTypeBarrier
 (
+alloc
+(
+)
 constraints
 (
 )
@@ -49687,6 +50439,9 @@ if
 (
 PropertyWriteNeedsTypeBarrier
 (
+alloc
+(
+)
 constraints
 (
 )
@@ -49801,6 +50556,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 object
 value
 )
@@ -49820,6 +50578,9 @@ MSetElementCache
 :
 New
 (
+alloc
+(
+)
 object
 index
 value
@@ -49981,6 +50742,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 obj
 value
 )
@@ -50003,6 +50767,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 id
 )
 ;
@@ -50034,6 +50801,9 @@ MElements
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -50099,6 +50869,9 @@ MToDouble
 :
 New
 (
+alloc
+(
+)
 value
 )
 ;
@@ -50149,6 +50922,9 @@ MMaybeToDoubleElement
 :
 New
 (
+alloc
+(
+)
 elements
 value
 )
@@ -50293,6 +51069,9 @@ MStoreElementHole
 :
 New
 (
+alloc
+(
+)
 obj
 elements
 id
@@ -50342,6 +51121,9 @@ MInitializedLength
 :
 New
 (
+alloc
+(
+)
 elements
 )
 ;
@@ -50398,6 +51180,9 @@ MStoreElement
 :
 New
 (
+alloc
+(
+)
 elements
 id
 newValue
@@ -50608,6 +51393,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 id
 )
 ;
@@ -50732,6 +51520,9 @@ MClampToUint8
 :
 New
 (
+alloc
+(
+)
 value
 )
 ;
@@ -50771,6 +51562,9 @@ MStoreTypedArrayElementHole
 :
 New
 (
+alloc
+(
+)
 elements
 length
 id
@@ -50790,6 +51584,9 @@ MStoreTypedArrayElement
 :
 New
 (
+alloc
+(
+)
 elements
 id
 toWrite
@@ -50975,6 +51772,9 @@ MStringLength
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -51075,6 +51875,9 @@ MElements
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -51301,6 +52104,9 @@ MArgumentsLength
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -51418,6 +52224,9 @@ MArgumentsLength
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -51466,6 +52275,9 @@ MRest
 :
 New
 (
+alloc
+(
+)
 numActuals
 info
 (
@@ -51556,9 +52368,14 @@ MNewArray
 *
 array
 =
-new
 MNewArray
+:
+:
+New
 (
+alloc
+(
+)
 numRest
 templateObject
 MNewArray
@@ -51604,6 +52421,9 @@ MElements
 :
 New
 (
+alloc
+(
+)
 array
 )
 ;
@@ -51666,6 +52486,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 i
@@ -51705,6 +52528,9 @@ MStoreElement
 :
 New
 (
+alloc
+(
+)
 elements
 index
 arg
@@ -51735,6 +52561,9 @@ MSetInitializedLength
 :
 New
 (
+alloc
+(
+)
 elements
 index
 )
@@ -51915,6 +52744,9 @@ MRunOncePrologue
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -52835,6 +53667,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 *
@@ -53032,6 +53867,9 @@ getPropCache
 >
 initInlinePropertyTable
 (
+alloc
+(
+)
 pc
 )
 ;
@@ -53247,6 +54085,9 @@ inlinePropTable
 >
 addEntry
 (
+alloc
+(
+)
 baseTypeObj
 &
 singleton
@@ -53430,6 +54271,9 @@ MResumePoint
 :
 New
 (
+alloc
+(
+)
 current
 pc
 callerResumePoint_
@@ -53576,6 +54420,9 @@ MLoadFixedSlot
 :
 New
 (
+alloc
+(
+)
 obj
 slot
 )
@@ -53622,6 +54469,9 @@ MSlots
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -53642,6 +54492,9 @@ MLoadSlot
 :
 New
 (
+alloc
+(
+)
 slots
 slot
 -
@@ -53791,6 +54644,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 obj
 slot
 value
@@ -53839,6 +54695,9 @@ MSlots
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -53859,6 +54718,9 @@ MStoreSlot
 :
 New
 (
+alloc
+(
+)
 slots
 slot
 -
@@ -54162,6 +55024,9 @@ MCallGetProperty
 :
 New
 (
+alloc
+(
+)
 obj
 name
 *
@@ -54497,6 +55362,9 @@ MCallGetProperty
 :
 New
 (
+alloc
+(
+)
 obj
 name
 *
@@ -54781,6 +55649,9 @@ MGuardObject
 :
 New
 (
+alloc
+(
+)
 obj
 )
 )
@@ -54800,6 +55671,9 @@ MGuardString
 :
 New
 (
+alloc
+(
+)
 obj
 )
 )
@@ -54821,6 +55695,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 *
@@ -55169,6 +56046,9 @@ MLoadTypedArrayElement
 :
 New
 (
+alloc
+(
+)
 elements
 scaledOffset
 fieldTypeRepr
@@ -55505,6 +56385,9 @@ MGuardObject
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -55530,6 +56413,9 @@ MLoadFixedSlot
 :
 New
 (
+alloc
+(
+)
 useObj
 property
 .
@@ -55773,6 +56659,9 @@ MGetDOMProperty
 :
 New
 (
+alloc
+(
+)
 jitinfo
 obj
 guard
@@ -55826,7 +56715,7 @@ MDefinition
 *
 replace
 =
-EnsureDefiniteType
+ensureDefiniteType
 (
 get
 jitinfo
@@ -55916,6 +56805,9 @@ MGuardObject
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -55960,6 +56852,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -56428,6 +57323,9 @@ MGetPropertyPolymorphic
 :
 New
 (
+alloc
+(
+)
 obj
 name
 )
@@ -56699,6 +57597,9 @@ MGetPropertyCache
 :
 New
 (
+alloc
+(
+)
 obj
 name
 )
@@ -57208,6 +58109,9 @@ MCallSetProperty
 :
 New
 (
+alloc
+(
+)
 obj
 value
 name
@@ -57270,6 +58174,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 obj
 value
 )
@@ -57326,6 +58233,9 @@ barrier
 =
 PropertyWriteNeedsTypeBarrier
 (
+alloc
+(
+)
 constraints
 (
 )
@@ -57481,6 +58391,9 @@ MCallSetProperty
 :
 New
 (
+alloc
+(
+)
 obj
 value
 name
@@ -57733,6 +58646,9 @@ MGuardObject
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -57838,6 +58754,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -57866,6 +58785,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 value
 )
 ;
@@ -58149,6 +59071,9 @@ MSetDOMProperty
 :
 New
 (
+alloc
+(
+)
 setter
 -
 >
@@ -58493,6 +59418,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 obj
 property
 .
@@ -58829,6 +59757,9 @@ MSetPropertyPolymorphic
 :
 New
 (
+alloc
+(
+)
 obj
 value
 )
@@ -59009,6 +59940,9 @@ MSetPropertyCache
 :
 New
 (
+alloc
+(
+)
 obj
 value
 name
@@ -59115,6 +60049,9 @@ MDeleteProperty
 :
 New
 (
+alloc
+(
+)
 obj
 name
 )
@@ -59181,6 +60118,9 @@ MDeleteElement
 :
 New
 (
+alloc
+(
+)
 obj
 index
 )
@@ -59503,6 +60443,9 @@ MRegExp
 :
 New
 (
+alloc
+(
+)
 reobj
 prototype
 mustClone
@@ -59607,6 +60550,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 0
@@ -59630,6 +60576,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 regexp
 RegExpObject
 :
@@ -59673,6 +60622,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 *
@@ -59782,6 +60734,9 @@ MLambda
 :
 New
 (
+alloc
+(
+)
 current
 -
 >
@@ -59957,6 +60912,9 @@ MSetArgumentsObjectArg
 :
 New
 (
+alloc
+(
+)
 current
 -
 >
@@ -60119,6 +61077,9 @@ MSetFrameArgument
 :
 New
 (
+alloc
+(
+)
 arg
 val
 )
@@ -60410,7 +61371,7 @@ Type
 UnknownType
 (
 )
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -60548,6 +61509,9 @@ MDefVar
 :
 New
 (
+alloc
+(
+)
 name
 attrs
 current
@@ -60649,6 +61613,9 @@ MDefFun
 :
 New
 (
+alloc
+(
+)
 fun
 current
 -
@@ -61051,6 +62018,9 @@ MComputeThis
 :
 New
 (
+alloc
+(
+)
 def
 )
 ;
@@ -61120,6 +62090,9 @@ MTypeOf
 :
 New
 (
+alloc
+(
+)
 input
 input
 -
@@ -61218,6 +62191,9 @@ MToId
 :
 New
 (
+alloc
+(
+)
 current
 -
 >
@@ -61293,6 +62269,9 @@ MIteratorStart
 :
 New
 (
+alloc
+(
+)
 obj
 flags
 )
@@ -61363,6 +62342,9 @@ MIteratorNext
 :
 New
 (
+alloc
+(
+)
 iter
 )
 ;
@@ -61416,6 +62398,9 @@ MUnbox
 :
 New
 (
+alloc
+(
+)
 ins
 MIRType_String
 MUnbox
@@ -61478,6 +62463,9 @@ MIteratorMore
 :
 New
 (
+alloc
+(
+)
 iter
 )
 ;
@@ -61532,6 +62520,9 @@ MIteratorEnd
 :
 New
 (
+alloc
+(
+)
 iter
 )
 ;
@@ -61604,6 +62595,9 @@ MEnclosingScope
 :
 New
 (
+alloc
+(
+)
 scope
 )
 ;
@@ -62225,6 +63219,9 @@ MSlots
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -62243,6 +63240,9 @@ MLoadSlot
 :
 New
 (
+alloc
+(
+)
 slots
 sc
 .
@@ -62266,6 +63266,9 @@ MLoadFixedSlot
 :
 New
 (
+alloc
+(
+)
 obj
 sc
 .
@@ -62443,6 +63446,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 *
@@ -62601,6 +63607,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 obj
 rval
 )
@@ -62634,6 +63643,9 @@ MSlots
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -62652,6 +63664,9 @@ MStoreSlot
 :
 NewBarriered
 (
+alloc
+(
+)
 slots
 sc
 .
@@ -62676,6 +63691,9 @@ MStoreFixedSlot
 :
 NewBarriered
 (
+alloc
+(
+)
 obj
 sc
 .
@@ -62865,6 +63883,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 id
 )
 ;
@@ -62896,6 +63917,9 @@ MElements
 :
 New
 (
+alloc
+(
+)
 obj
 )
 ;
@@ -62916,6 +63940,9 @@ MInitializedLength
 :
 New
 (
+alloc
+(
+)
 elements
 )
 ;
@@ -62952,6 +63979,9 @@ MInArray
 :
 New
 (
+alloc
+(
+)
 elements
 id
 initLength
@@ -63270,6 +64300,9 @@ MConvertElementsToDoubles
 :
 New
 (
+alloc
+(
+)
 elements
 )
 ;
@@ -63309,6 +64342,9 @@ MBoundsCheck
 :
 New
 (
+alloc
+(
+)
 index
 length
 )
@@ -63380,6 +64416,9 @@ MGuardShape
 :
 New
 (
+alloc
+(
+)
 obj
 shape
 bailoutKind
@@ -63478,7 +64517,7 @@ TypeRepresentationSetHash
 *
 hash
 =
-temp_
+alloc_
 -
 >
 lifoAlloc
@@ -63841,6 +64880,9 @@ MLoadFixedSlot
 :
 New
 (
+alloc
+(
+)
 typedObj
 JS_DATUM_SLOT_TYPE_OBJ
 )
@@ -64082,6 +65124,9 @@ MAdd
 :
 NewAsmJS
 (
+alloc
+(
+)
 ins
 -
 >
@@ -64253,6 +65298,9 @@ MTypedObjectElements
 :
 New
 (
+alloc
+(
+)
 owner
 )
 ;
@@ -64295,6 +65343,9 @@ MDiv
 :
 NewAsmJS
 (
+alloc
+(
+)
 ownerOffset
 constantInt
 (
@@ -64575,6 +65626,9 @@ MLoadFixedSlot
 :
 New
 (
+alloc
+(
+)
 typeObj
 JS_TYPEOBJ_SLOT_ARRAY_ELEM_TYPE
 )
@@ -64596,6 +65650,9 @@ MUnbox
 :
 New
 (
+alloc
+(
+)
 elemType
 MIRType_Object
 MUnbox
@@ -64648,6 +65705,9 @@ MLoadFixedSlot
 :
 New
 (
+alloc
+(
+)
 typeObj
 JS_TYPEOBJ_SLOT_STRUCT_FIELD_TYPES
 )
@@ -64669,6 +65729,9 @@ MUnbox
 :
 New
 (
+alloc
+(
+)
 fieldTypes
 MIRType_Object
 MUnbox
@@ -64704,6 +65767,9 @@ MElements
 :
 New
 (
+alloc
+(
+)
 unboxFieldTypes
 )
 ;
@@ -64733,6 +65799,9 @@ MLoadElement
 :
 New
 (
+alloc
+(
+)
 fieldTypesElements
 fieldIndexDef
 false
@@ -64756,6 +65825,9 @@ MUnbox
 :
 New
 (
+alloc
+(
+)
 fieldType
 MIRType_Object
 MUnbox
@@ -64869,6 +65941,9 @@ MClampToUint8
 :
 New
 (
+alloc
+(
+)
 value
 )
 ;
@@ -64895,6 +65970,9 @@ MStoreTypedArrayElement
 :
 New
 (
+alloc
+(
+)
 elements
 scaledOffset
 toWrite
@@ -64940,6 +66018,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 v
 )
 ;

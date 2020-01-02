@@ -147,6 +147,9 @@ static
 void
 AnalyzeLsh
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 block
@@ -675,6 +678,7 @@ MEffectiveAddress
 :
 New
 (
+alloc
 base
 index
 scale
@@ -984,6 +988,11 @@ isLsh
 )
 AnalyzeLsh
 (
+graph_
+.
+alloc
+(
+)
 *
 block
 i

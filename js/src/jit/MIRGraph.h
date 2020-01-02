@@ -270,6 +270,9 @@ from
 bool
 inherit
 (
+TempAllocator
+&
+alloc
 BytecodeAnalysis
 *
 analysis
@@ -1243,6 +1246,9 @@ needed
 bool
 addPredecessor
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 pred
@@ -1251,6 +1257,9 @@ pred
 bool
 addPredecessorPopN
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 pred
@@ -1285,6 +1294,9 @@ parent
 bool
 initEntrySlots
 (
+TempAllocator
+&
+alloc
 )
 ;
 /

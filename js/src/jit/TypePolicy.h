@@ -119,6 +119,15 @@ include
 "
 jit
 /
+IonAllocPolicy
+.
+h
+"
+#
+include
+"
+jit
+/
 IonTypes
 .
 h
@@ -240,6 +249,9 @@ virtual
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -262,6 +274,9 @@ MDefinition
 *
 boxAt
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 at
@@ -277,6 +292,9 @@ MDefinition
 *
 alwaysBoxAt
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 at
@@ -289,6 +307,9 @@ virtual
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -359,6 +380,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -377,6 +401,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -447,6 +474,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -473,6 +503,9 @@ BoxInputsPolicy
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -498,6 +531,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -516,6 +552,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -534,6 +573,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -582,6 +624,9 @@ specialization
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -625,6 +670,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -633,6 +681,9 @@ def
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -641,6 +692,7 @@ def
 return
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -683,6 +735,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -691,6 +746,9 @@ def
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -699,6 +757,7 @@ def
 return
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -738,6 +797,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -746,6 +808,9 @@ def
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -754,6 +819,7 @@ def
 return
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -796,6 +862,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -804,6 +873,9 @@ def
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -812,6 +884,7 @@ def
 return
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -854,6 +927,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -862,6 +938,9 @@ def
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -870,6 +949,7 @@ def
 return
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -931,6 +1011,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -952,6 +1035,7 @@ Op
 :
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -964,6 +1048,7 @@ Op
 :
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -999,6 +1084,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -1007,6 +1095,9 @@ def
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -1015,6 +1106,7 @@ def
 return
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -1047,6 +1139,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -1055,6 +1150,9 @@ def
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -1063,6 +1161,7 @@ def
 return
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -1095,6 +1194,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -1103,6 +1205,9 @@ def
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -1111,6 +1216,7 @@ def
 return
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
@@ -1134,6 +1240,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1142,6 +1251,9 @@ ins
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1150,6 +1262,7 @@ ins
 return
 staticAdjustInputs
 (
+alloc
 ins
 )
 ;
@@ -1212,6 +1325,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1220,6 +1336,9 @@ ins
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1228,6 +1347,7 @@ ins
 return
 staticAdjustInputs
 (
+alloc
 ins
 )
 ;
@@ -1259,6 +1379,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1270,6 +1393,7 @@ Lhs
 :
 staticAdjustInputs
 (
+alloc
 ins
 )
 &
@@ -1279,6 +1403,7 @@ Rhs
 :
 staticAdjustInputs
 (
+alloc
 ins
 )
 ;
@@ -1287,6 +1412,9 @@ virtual
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1295,6 +1423,7 @@ ins
 return
 staticAdjustInputs
 (
+alloc
 ins
 )
 ;
@@ -1328,6 +1457,9 @@ static
 bool
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1339,6 +1471,7 @@ Policy1
 :
 staticAdjustInputs
 (
+alloc
 ins
 )
 &
@@ -1348,6 +1481,7 @@ Policy2
 :
 staticAdjustInputs
 (
+alloc
 ins
 )
 &
@@ -1357,6 +1491,7 @@ Policy3
 :
 staticAdjustInputs
 (
+alloc
 ins
 )
 ;
@@ -1365,6 +1500,9 @@ virtual
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1373,6 +1511,7 @@ ins
 return
 staticAdjustInputs
 (
+alloc
 ins
 )
 ;
@@ -1390,6 +1529,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -1439,6 +1581,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -1457,6 +1602,9 @@ protected
 bool
 adjustValueInput
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1474,6 +1622,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1492,6 +1643,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1510,6 +1664,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -1540,6 +1697,9 @@ public
 bool
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins

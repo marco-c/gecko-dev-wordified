@@ -2210,7 +2210,7 @@ case
 .
 MDefinition
 *
-EnsureDefiniteType
+ensureDefiniteType
 (
 MDefinition
 *
@@ -5665,6 +5665,9 @@ true
 void
 wrapArgs
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 current
@@ -5674,6 +5677,7 @@ thisArg_
 =
 wrap
 (
+alloc
 current
 thisArg_
 )
@@ -5702,6 +5706,7 @@ i
 =
 wrap
 (
+alloc
 current
 args_
 [
@@ -5939,6 +5944,9 @@ MDefinition
 *
 wrap
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 current
@@ -5967,6 +5975,7 @@ MPassArg
 :
 New
 (
+alloc
 arg
 )
 ;

@@ -1037,10 +1037,9 @@ loop_
 =
 new
 (
-mir
--
->
-temp
+graph_
+.
+alloc
 (
 )
 )

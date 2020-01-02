@@ -3858,7 +3858,7 @@ asmData
 mir
 -
 >
-temp
+alloc
 (
 )
 )
@@ -4186,7 +4186,7 @@ compartment
 ionBuilder
 -
 >
-temp
+alloc
 (
 )
 )

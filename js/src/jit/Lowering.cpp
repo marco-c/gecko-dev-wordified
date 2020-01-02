@@ -15114,6 +15114,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 1

@@ -12577,6 +12577,18 @@ return
 m_
 ;
 }
+TempAllocator
+&
+alloc
+(
+)
+const
+{
+return
+*
+alloc_
+;
+}
 LifoAlloc
 &
 lifo
@@ -13211,6 +13223,9 @@ MAsmJSCheckOverRecursed
 :
 New
 (
+alloc
+(
+)
 &
 m_
 .
@@ -13248,6 +13263,9 @@ MAsmJSParameter
 :
 New
 (
+alloc
+(
+)
 *
 i
 i
@@ -13324,6 +13342,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 varInitializers_
 [
 i
@@ -13720,6 +13741,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 v
 )
 ;
@@ -13766,6 +13790,9 @@ T
 :
 NewAsmJS
 (
+alloc
+(
+)
 op
 )
 ;
@@ -13814,6 +13841,9 @@ T
 :
 NewAsmJS
 (
+alloc
+(
+)
 op
 type
 )
@@ -13864,6 +13894,9 @@ T
 :
 New
 (
+alloc
+(
+)
 lhs
 rhs
 )
@@ -13916,6 +13949,9 @@ T
 :
 NewAsmJS
 (
+alloc
+(
+)
 lhs
 rhs
 type
@@ -13969,6 +14005,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 lhs
 rhs
 type
@@ -14021,6 +14060,9 @@ T
 :
 NewAsmJS
 (
+alloc
+(
+)
 lhs
 rhs
 )
@@ -14068,6 +14110,9 @@ T
 :
 NewAsmJS
 (
+alloc
+(
+)
 op
 )
 ;
@@ -14119,6 +14164,9 @@ MCompare
 :
 NewAsmJS
 (
+alloc
+(
+)
 lhs
 rhs
 op
@@ -14208,6 +14256,9 @@ MAsmJSLoadHeap
 :
 New
 (
+alloc
+(
+)
 vt
 ptr
 )
@@ -14273,6 +14324,9 @@ MAsmJSStoreHeap
 :
 New
 (
+alloc
+(
+)
 vt
 ptr
 v
@@ -14354,6 +14408,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 global
 .
 litConstValue
@@ -14411,6 +14468,9 @@ MAsmJSLoadGlobalVar
 :
 New
 (
+alloc
+(
+)
 type
 globalDataOffset
 global
@@ -14480,6 +14540,9 @@ MAsmJSStoreGlobalVar
 :
 New
 (
+alloc
+(
+)
 globalDataOffset
 v
 )
@@ -15045,6 +15108,9 @@ MAsmJSPassStackArg
 :
 New
 (
+alloc
+(
+)
 arg
 .
 offsetFromArgBase
@@ -15303,6 +15369,9 @@ MAsmJSCall
 :
 New
 (
+alloc
+(
+)
 callee
 call
 .
@@ -15444,6 +15513,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 table
@@ -15471,6 +15543,9 @@ MBitAnd
 :
 NewAsmJS
 (
+alloc
+(
+)
 index
 mask
 )
@@ -15492,6 +15567,9 @@ MAsmJSLoadFuncPtr
 :
 New
 (
+alloc
+(
+)
 table
 .
 globalDataOffset
@@ -15609,6 +15687,9 @@ MAsmJSLoadFFIFunc
 :
 New
 (
+alloc
+(
+)
 globalDataOffset
 )
 ;
@@ -15746,6 +15827,9 @@ MAsmJSReturn
 :
 New
 (
+alloc
+(
+)
 expr
 )
 ;
@@ -15783,6 +15867,9 @@ MAsmJSVoidReturn
 :
 New
 (
+alloc
+(
+)
 )
 ;
 curBlock_
@@ -15872,6 +15959,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 cond
 *
 thenBlock
@@ -15980,6 +16070,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 joinBlock
 )
 )
@@ -15989,6 +16082,9 @@ joinBlock
 >
 addPredecessor
 (
+alloc
+(
+)
 thenBlocks
 [
 i
@@ -16111,6 +16207,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 join
 )
 )
@@ -16148,6 +16247,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 join
 )
 )
@@ -16169,6 +16271,9 @@ join
 >
 addPredecessor
 (
+alloc
+(
+)
 thenBlocks
 [
 i
@@ -16415,6 +16520,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 *
 loopEntry
 )
@@ -16530,6 +16638,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 body
 )
 )
@@ -16568,6 +16679,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 cond
 body
 *
@@ -16754,6 +16868,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 loopEntry
 )
 )
@@ -16924,6 +17041,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 loopEntry
 )
 )
@@ -16977,6 +17097,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 afterLoop
 )
 )
@@ -17017,6 +17140,9 @@ MTest
 :
 New
 (
+alloc
+(
+)
 cond
 loopEntry
 afterLoop
@@ -17273,6 +17399,9 @@ MTableSwitch
 :
 New
 (
+alloc
+(
+)
 expr
 low
 high
@@ -17350,6 +17479,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 *
 next
 )
@@ -17363,6 +17495,9 @@ next
 >
 addPredecessor
 (
+alloc
+(
+)
 curBlock_
 )
 ;
@@ -17578,6 +17713,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 next
 )
 )
@@ -18021,6 +18159,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 curBlock_
 )
 )
@@ -18030,6 +18171,9 @@ curBlock_
 >
 addPredecessor
 (
+alloc
+(
+)
 pred
 )
 ;
@@ -18064,6 +18208,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 next
 )
 )
@@ -18083,6 +18230,9 @@ MGoto
 :
 New
 (
+alloc
+(
+)
 next
 )
 )
@@ -18092,6 +18242,9 @@ next
 >
 addPredecessor
 (
+alloc
+(
+)
 curBlock_
 )
 ;
@@ -34470,7 +34623,7 @@ cx
 mir
 -
 >
-temp
+alloc
 (
 )
 )
@@ -35167,7 +35320,7 @@ task
 mir
 -
 >
-temp
+alloc
 (
 )
 )
@@ -35222,7 +35375,7 @@ task
 mir
 -
 >
-temp
+alloc
 (
 )
 ;

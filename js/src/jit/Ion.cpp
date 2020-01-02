@@ -2921,7 +2921,7 @@ js_delete
 builder
 -
 >
-temp
+alloc
 (
 )
 .
@@ -8166,7 +8166,7 @@ lir
 mir
 -
 >
-temp
+alloc
 (
 )
 .
@@ -8833,7 +8833,7 @@ cx
 builder
 -
 >
-temp
+alloc
 (
 )
 )
@@ -8912,7 +8912,7 @@ cx
 builder
 -
 >
-temp
+alloc
 (
 )
 )
