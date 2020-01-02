@@ -402,6 +402,10 @@ JS_ASSERT
 (
 isInside
 (
+(
+void
+*
+)
 *
 ref
 )
