@@ -7789,6 +7789,7 @@ key
 run
 "
 )
+true
 )
 ShortcutUtils
 .
@@ -7806,6 +7807,7 @@ key
 inspect
 "
 )
+true
 )
 ShortcutUtils
 .
@@ -7823,6 +7825,7 @@ key
 display
 "
 )
+true
 )
 ]
 3
