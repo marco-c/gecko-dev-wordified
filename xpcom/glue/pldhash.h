@@ -193,15 +193,6 @@ define
 PL_DHASH_FASTCALL
 #
 endif
-#
-ifdef
-DEBUG_XXXbrendan
-#
-define
-PL_DHASHMETER
-1
-#
-endif
 /
 *
 *
