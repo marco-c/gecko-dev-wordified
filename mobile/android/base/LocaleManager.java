@@ -1551,6 +1551,10 @@ we
 update
 Java
 .
+final
+String
+resultant
+=
 updateLocale
 (
 localeCode
@@ -1597,7 +1601,7 @@ ms
 )
 ;
 return
-localeCode
+resultant
 ;
 }
 /
