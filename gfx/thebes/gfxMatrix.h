@@ -697,9 +697,7 @@ cairo_matrix_invert
 ?
 *
 /
-const
-gfxMatrix
-&
+bool
 Invert
 (
 )
