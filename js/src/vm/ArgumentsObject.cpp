@@ -4140,12 +4140,6 @@ finalize
 nullptr
 /
 *
-checkAccess
-*
-/
-nullptr
-/
-*
 call
 *
 /
@@ -4287,12 +4281,6 @@ ArgumentsObject
 :
 :
 finalize
-nullptr
-/
-*
-checkAccess
-*
-/
 nullptr
 /
 *

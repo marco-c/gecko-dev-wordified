@@ -857,7 +857,6 @@ SafeFinalize
 nullptr
 nullptr
 nullptr
-nullptr
 TraceXPCGlobal
 }
 ;

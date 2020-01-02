@@ -10017,12 +10017,6 @@ FinalizeStub
 nullptr
 /
 *
-checkAccess
-*
-/
-nullptr
-/
-*
 call
 *
 /

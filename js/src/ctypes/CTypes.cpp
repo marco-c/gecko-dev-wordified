@@ -3363,7 +3363,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 nullptr
-nullptr
 ConstructAbstract
 nullptr
 ConstructAbstract
@@ -3447,7 +3446,6 @@ CType
 :
 :
 Finalize
-nullptr
 CType
 :
 :
@@ -3496,7 +3494,6 @@ CData
 :
 :
 Finalize
-nullptr
 FunctionType
 :
 :
@@ -3534,7 +3531,6 @@ CClosure
 :
 :
 Finalize
-nullptr
 nullptr
 nullptr
 nullptr

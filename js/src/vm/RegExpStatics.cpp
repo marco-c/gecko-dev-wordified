@@ -333,12 +333,6 @@ resc_finalize
 nullptr
 /
 *
-checkAccess
-*
-/
-nullptr
-/
-*
 call
 *
 /

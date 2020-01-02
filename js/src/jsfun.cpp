@@ -4014,12 +4014,6 @@ finalize
 nullptr
 /
 *
-checkAccess
-*
-/
-nullptr
-/
-*
 call
 *
 /

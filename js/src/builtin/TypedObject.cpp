@@ -2092,7 +2092,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 nullptr
-nullptr
 ScalarType
 :
 :
@@ -2549,7 +2548,6 @@ setProperty
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-nullptr
 nullptr
 ReferenceType
 :
@@ -3378,7 +3376,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-nullptr
 nullptr
 nullptr
 nullptr
@@ -4943,12 +4940,6 @@ nullptr
 /
 *
 finalize
-*
-/
-nullptr
-/
-*
-checkAccess
 *
 /
 nullptr
@@ -12923,12 +12914,6 @@ obj_finalize
 nullptr
 /
 *
-checkAccess
-*
-/
-nullptr
-/
-*
 call
 *
 /
@@ -13851,12 +13836,6 @@ TypedDatum
 :
 :
 obj_finalize
-nullptr
-/
-*
-checkAccess
-*
-/
 nullptr
 /
 *

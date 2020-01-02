@@ -20958,12 +20958,6 @@ prop_iter_finalize
 nullptr
 /
 *
-checkAccess
-*
-/
-nullptr
-/
-*
 call
 *
 /

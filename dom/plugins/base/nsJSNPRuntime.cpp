@@ -1079,12 +1079,6 @@ JSResolveOp
 NPObjWrapper_NewResolve
 NPObjWrapper_Convert
 NPObjWrapper_Finalize
-nullptr
-/
-*
-checkAccess
-*
-/
 NPObjWrapper_Call
 nullptr
 /
@@ -1231,7 +1225,6 @@ JS_EnumerateStub
 JS_ResolveStub
 NPObjectMember_Convert
 NPObjectMember_Finalize
-nullptr
 NPObjectMember_Call
 nullptr
 nullptr

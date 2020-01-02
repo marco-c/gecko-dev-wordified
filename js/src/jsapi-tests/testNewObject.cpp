@@ -841,7 +841,6 @@ JS_ConvertStub
 nullptr
 nullptr
 nullptr
-nullptr
 constructHook
 }
 ;

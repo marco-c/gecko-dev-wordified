@@ -2376,12 +2376,6 @@ AsmJSModuleObject_finalize
 nullptr
 /
 *
-checkAccess
-*
-/
-nullptr
-/
-*
 call
 *
 /

@@ -7541,10 +7541,6 @@ finalize
 nullptr
 /
 /
-checkAccess
-nullptr
-/
-/
 call
 nullptr
 /
@@ -11301,10 +11297,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 finalize
-nullptr
-/
-/
-checkAccess
 nullptr
 /
 /

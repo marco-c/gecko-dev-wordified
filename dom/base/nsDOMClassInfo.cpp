@@ -19814,12 +19814,6 @@ nsHTMLDocumentSH
 :
 :
 ReleaseDocument
-nullptr
-/
-*
-checkAccess
-*
-/
 nsHTMLDocumentSH
 :
 :

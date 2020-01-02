@@ -19936,13 +19936,6 @@ finalize
 *
 /
 \
-nullptr
-/
-*
-checkAccess
-*
-/
-\
 callOp
 /
 *
@@ -20160,12 +20153,6 @@ proxy_Finalize
 /
 *
 finalize
-*
-/
-nullptr
-/
-*
-checkAccess
 *
 /
 nullptr

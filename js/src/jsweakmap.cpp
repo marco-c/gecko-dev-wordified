@@ -2681,12 +2681,6 @@ WeakMap_finalize
 nullptr
 /
 *
-checkAccess
-*
-/
-nullptr
-/
-*
 call
 *
 /
