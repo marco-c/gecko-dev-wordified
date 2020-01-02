@@ -7065,7 +7065,7 @@ value
 ;
 if
 (
-std_isNaN
+Number_isNaN
 (
 value
 )

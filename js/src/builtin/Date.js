@@ -163,7 +163,7 @@ this
 ;
 if
 (
-std_isNaN
+Number_isNaN
 (
 x
 )
@@ -425,7 +425,7 @@ this
 ;
 if
 (
-std_isNaN
+Number_isNaN
 (
 x
 )
@@ -687,7 +687,7 @@ this
 ;
 if
 (
-std_isNaN
+Number_isNaN
 (
 x
 )
