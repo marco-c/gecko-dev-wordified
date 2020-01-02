@@ -3313,6 +3313,8 @@ ApplyDecodeFlags
 (
 uint32_t
 aNewFlags
+uint32_t
+aWhichFrame
 )
 ;
 already_AddRefed
