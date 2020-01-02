@@ -2334,6 +2334,10 @@ const
 nsAString
 &
 anImage
+const
+nsAString
+&
+aCookie
 )
 {
 /
@@ -2432,6 +2436,7 @@ DisplayNotification
 title
 msg
 imagePath
+aCookie
 )
 ;
 return
