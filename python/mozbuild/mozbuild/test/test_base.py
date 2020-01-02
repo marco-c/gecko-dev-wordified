@@ -1461,7 +1461,7 @@ context
 .
 topdir
 =
-topobjdir
+topsrcdir
             
 context
 .

@@ -90,9 +90,6 @@ def
 __init__
 (
 self
-topdir
-=
-None
 cwd
 =
 None
@@ -108,12 +105,6 @@ commands
 None
 )
 :
-        
-self
-.
-topdir
-=
-topdir
         
 self
 .
