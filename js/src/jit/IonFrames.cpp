@@ -570,7 +570,7 @@ cx
 perThreadData
 -
 >
-ionTop
+jitTop
 )
 type_
 (
@@ -4006,6 +4006,11 @@ runtime
 )
 -
 >
+jitRuntime
+(
+)
+-
+>
 hasIonReturnOverride
 (
 )
@@ -4014,6 +4019,11 @@ cx
 -
 >
 runtime
+(
+)
+-
+>
+jitRuntime
 (
 )
 -
@@ -4796,7 +4806,7 @@ the
 frame
 by
 updating
-ionTop
+jitTop
 .
 This
 is
@@ -4867,7 +4877,7 @@ mainThread
 (
 )
 .
-ionTop
+jitTop
 =
 (
 uint8_t
@@ -4942,7 +4952,7 @@ cx
 perThreadData
 -
 >
-ionTop
+jitTop
 ParallelExecution
 )
 ;
@@ -9040,7 +9050,7 @@ rt
 >
 mainThread
 .
-ionTop
+jitTop
 SequentialExecution
 )
 ;

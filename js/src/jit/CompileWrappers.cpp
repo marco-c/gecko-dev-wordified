@@ -231,7 +231,7 @@ void
 CompileRuntime
 :
 :
-addressOfIonTop
+addressOfJitTop
 (
 )
 {
@@ -244,7 +244,7 @@ runtime
 >
 mainThread
 .
-ionTop
+jitTop
 ;
 }
 const

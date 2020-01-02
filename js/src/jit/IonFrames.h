@@ -1601,7 +1601,7 @@ GetTopIonJSScript
 (
 uint8_t
 *
-ionTop
+jitTop
 void
 *
 *
@@ -1613,7 +1613,7 @@ mode
 JitFrameIterator
 iter
 (
-ionTop
+jitTop
 mode
 )
 ;

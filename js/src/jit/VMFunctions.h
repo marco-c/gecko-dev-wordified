@@ -4051,6 +4051,11 @@ runtime
 )
 -
 >
+jitRuntime
+(
+)
+-
+>
 setIonReturnOverride
 (
 *

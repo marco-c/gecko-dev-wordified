@@ -2487,7 +2487,7 @@ Activation
 {
 uint8_t
 *
-prevIonTop_
+prevJitTop_
 ;
 /
 /

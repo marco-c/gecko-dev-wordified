@@ -46444,7 +46444,7 @@ true
 /
 act
 .
-prevIonTop_
+prevJitTop_
 =
 cx
 -
@@ -46453,7 +46453,7 @@ mainThread
 (
 )
 .
-ionTop
+jitTop
 ;
 /
 /
@@ -46518,7 +46518,7 @@ offsetOfActivation
 )
 ;
 size_t
-offsetOfIonTop
+offsetOfJitTop
 =
 offsetof
 (
@@ -46529,7 +46529,7 @@ mainThread
 offsetof
 (
 PerThreadData
-ionTop
+jitTop
 )
 ;
 size_t
@@ -46620,7 +46620,7 @@ loadPtr
 Address
 (
 reg0
-offsetOfIonTop
+offsetOfJitTop
 )
 reg2
 )
@@ -46636,7 +46636,7 @@ reg1
 JitActivation
 :
 :
-offsetOfPrevIonTop
+offsetOfPrevJitTop
 (
 )
 )
@@ -46828,9 +46828,9 @@ mainThread
 (
 )
 .
-ionTop
+jitTop
 =
-prevIonTop_
+prevJitTop_
 ;
 /
 /
@@ -46880,7 +46880,7 @@ offsetOfActivation
 )
 ;
 size_t
-offsetOfIonTop
+offsetOfJitTop
 =
 offsetof
 (
@@ -46891,7 +46891,7 @@ mainThread
 offsetof
 (
 PerThreadData
-ionTop
+jitTop
 )
 ;
 size_t
@@ -46985,7 +46985,7 @@ reg1
 JitActivation
 :
 :
-offsetOfPrevIonTop
+offsetOfPrevJitTop
 (
 )
 )
@@ -47000,7 +47000,7 @@ reg2
 Address
 (
 reg0
-offsetOfIonTop
+offsetOfJitTop
 )
 )
 ;

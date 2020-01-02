@@ -8337,7 +8337,7 @@ Activation
 {
 uint8_t
 *
-prevIonTop_
+prevJitTop_
 ;
 JSContext
 *
@@ -8375,7 +8375,7 @@ i
 .
 e
 .
-ionTop
+jitTop
 )
 to
 a
@@ -8538,13 +8538,13 @@ true
 ;
 uint8_t
 *
-prevIonTop
+prevJitTop
 (
 )
 const
 {
 return
-prevIonTop_
+prevJitTop_
 ;
 }
 bool
@@ -8559,7 +8559,7 @@ firstFrameIsConstructing_
 }
 static
 size_t
-offsetOfPrevIonTop
+offsetOfPrevJitTop
 (
 )
 {
@@ -8567,7 +8567,7 @@ return
 offsetof
 (
 JitActivation
-prevIonTop_
+prevJitTop_
 )
 ;
 }

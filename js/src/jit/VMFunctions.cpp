@@ -5268,7 +5268,7 @@ this
 frame
 by
 updating
-ionTop
+jitTop
 so
 that
 the
@@ -5307,7 +5307,7 @@ mainThread
 (
 )
 .
-ionTop
+jitTop
 =
 (
 uint8_t

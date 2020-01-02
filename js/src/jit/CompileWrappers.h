@@ -242,11 +242,11 @@ mainThread
 &
 mainThread
 .
-ionTop
+jitTop
 const
 void
 *
-addressOfIonTop
+addressOfJitTop
 (
 )
 ;

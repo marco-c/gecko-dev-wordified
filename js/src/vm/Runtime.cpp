@@ -494,7 +494,7 @@ runtime_
 (
 runtime
 )
-ionTop
+jitTop
 (
 nullptr
 )
@@ -1041,13 +1041,6 @@ nullptr
 forkJoinWarmup
 (
 0
-)
-ionReturnOverride_
-(
-MagicValue
-(
-JS_ARG_POISON
-)
 )
 useHelperThreads_
 (

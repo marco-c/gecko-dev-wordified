@@ -8243,10 +8243,10 @@ pointer
 to
 /
 /
-ThreadData
+PerThreadData
 :
 :
-ionTop
+jitTop
 of
 the
 main
@@ -8272,7 +8272,7 @@ GetIonContext
 runtime
 -
 >
-addressOfIonTop
+addressOfJitTop
 (
 )
 )
@@ -8404,7 +8404,7 @@ pt
 offsetof
 (
 PerThreadData
-ionTop
+jitTop
 )
 )
 )
