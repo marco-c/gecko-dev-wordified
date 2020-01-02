@@ -584,15 +584,9 @@ virtual
 bool
 GetRootZoomConstraints
 (
-bool
+ZoomConstraints
 *
-aOutAllowZoom
-CSSToScreenScale
-*
-aOutMinZoom
-CSSToScreenScale
-*
-aOutMaxZoom
+aOutConstraints
 )
 {
 return

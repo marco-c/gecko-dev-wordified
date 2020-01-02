@@ -8512,6 +8512,8 @@ sAPZC
 UpdateZoomConstraints
 (
 guid
+ZoomConstraints
+(
 false
 CSSToScreenScale
 (
@@ -8524,6 +8526,7 @@ CSSToScreenScale
 1
 .
 0f
+)
 )
 )
 ;

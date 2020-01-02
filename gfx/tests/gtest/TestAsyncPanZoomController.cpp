@@ -3689,6 +3689,8 @@ apzc
 >
 UpdateZoomConstraints
 (
+ZoomConstraints
+(
 false
 CSSToScreenScale
 (
@@ -3701,6 +3703,7 @@ CSSToScreenScale
 1
 .
 0
+)
 )
 )
 ;
@@ -3830,6 +3833,8 @@ apzc
 >
 UpdateZoomConstraints
 (
+ZoomConstraints
+(
 false
 CSSToScreenScale
 (
@@ -3842,6 +3847,7 @@ CSSToScreenScale
 1
 .
 0
+)
 )
 )
 ;
@@ -3968,6 +3974,8 @@ apzc
 >
 UpdateZoomConstraints
 (
+ZoomConstraints
+(
 false
 CSSToScreenScale
 (
@@ -3980,6 +3988,7 @@ CSSToScreenScale
 1
 .
 0
+)
 )
 )
 ;
