@@ -512,6 +512,15 @@ include
 "
 mozilla
 /
+Endian
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -22051,8 +22060,8 @@ use
 here
 ?
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 uint8_t
 b
 =
@@ -22977,8 +22986,8 @@ from
 getImageData
 )
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 *
 dst
 +

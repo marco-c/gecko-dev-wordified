@@ -331,6 +331,15 @@ ImageData
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Endian
+.
+h
+"
 using
 namespace
 mozilla
@@ -14542,8 +14551,8 @@ rowp
 row
 ;
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 /
 /
 offset

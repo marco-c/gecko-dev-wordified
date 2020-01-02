@@ -199,6 +199,15 @@ include
 "
 mozilla
 /
+Endian
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -7256,8 +7265,8 @@ format
 ifdef
 MOZ_SAMPLE_TYPE_FLOAT32
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 format
 =
 "
@@ -7283,8 +7292,8 @@ MOZ_SAMPLE_TYPE_FLOAT32
 *
 /
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 format
 =
 "
