@@ -1505,13 +1505,6 @@ void
 ;
 static
 const
-uint32_t
-AlignmentMidPrologue
-=
-AlignmentAtPrologue
-;
-static
-const
 Scale
 ScalePointer
 =

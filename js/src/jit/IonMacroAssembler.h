@@ -1377,7 +1377,7 @@ compilation
 handles
 its
 own
-IonContet
+IonContext
 -
 pushing
 struct

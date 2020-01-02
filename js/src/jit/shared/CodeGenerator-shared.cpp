@@ -552,7 +552,7 @@ forceAlign
 unsigned
 alignmentAtCall
 =
-AlignmentMidPrologue
+AlignmentAtPrologue
 +
 frameDepth_
 ;
