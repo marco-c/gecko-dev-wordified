@@ -3251,6 +3251,15 @@ if
 info
 -
 >
+maxPings
+>
+-
+1
+&
+&
+info
+-
+>
 numPings
 >
 =
