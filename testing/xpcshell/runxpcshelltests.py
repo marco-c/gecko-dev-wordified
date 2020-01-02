@@ -4758,6 +4758,12 @@ tests_root_dir
 )
             
 if
+os
+.
+path
+.
+normpath
+(
 self
 .
 test_object
@@ -4766,6 +4772,7 @@ test_object
 here
 '
 ]
+)
 .
 find
 (
