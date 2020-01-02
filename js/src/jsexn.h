@@ -549,7 +549,7 @@ scope
 )
 ;
 static
-JS_INLINE
+inline
 JSProtoKey
 GetExceptionProtoKey
 (

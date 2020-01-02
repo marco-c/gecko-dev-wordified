@@ -865,7 +865,7 @@ DEBUG
 *
 /
 static
-JS_INLINE
+inline
 void
 *
 js_malloc
@@ -886,7 +886,7 @@ bytes
 ;
 }
 static
-JS_INLINE
+inline
 void
 *
 js_calloc
@@ -908,7 +908,7 @@ bytes
 ;
 }
 static
-JS_INLINE
+inline
 void
 *
 js_calloc
@@ -932,7 +932,7 @@ size
 ;
 }
 static
-JS_INLINE
+inline
 void
 *
 js_realloc
@@ -957,7 +957,7 @@ bytes
 ;
 }
 static
-JS_INLINE
+inline
 void
 js_free
 (
