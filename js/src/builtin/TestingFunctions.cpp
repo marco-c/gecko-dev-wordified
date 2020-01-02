@@ -5309,9 +5309,8 @@ rval
 (
 )
 .
-setObject
+setObjectOrNull
 (
-*
 stack
 )
 ;
