@@ -919,14 +919,6 @@ Ci
 nsIUrlClassifierStreamUpdater
 )
 ;
-streamUpdater
-.
-updateUrl
-=
-URL
-+
-safebrowsingUpdatePath
-;
 function
 onSuccess
 (
@@ -989,6 +981,9 @@ simple
 "
 "
 "
+URL
++
+safebrowsingUpdatePath
 onSuccess
 onUpdateError
 onDownloadError

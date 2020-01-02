@@ -231,6 +231,12 @@ trigger
 the
 backoff
 behavior
+(
+0
+to
+disable
+maxRequests
+)
 *
 param
 timeoutIncrement
@@ -357,6 +363,14 @@ the
 object
 for
 reuse
+.
+This
+deliberately
+doesn
+'
+t
+clear
+requestTimes_
 .
 *
 /

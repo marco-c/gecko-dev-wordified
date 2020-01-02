@@ -1234,12 +1234,6 @@ failure
 ;
 streamUpdater
 .
-updateUrl
-=
-dataUpdate
-;
-streamUpdater
-.
 downloadUpdates
 (
 "
@@ -1256,6 +1250,7 @@ simple
 "
 "
 "
+dataUpdate
 success
 failure
 downloadFailure
