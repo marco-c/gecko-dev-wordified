@@ -177,7 +177,6 @@ private
 nsGConfService
 (
 )
-NS_HIDDEN
 ;
 GConfClient
 *

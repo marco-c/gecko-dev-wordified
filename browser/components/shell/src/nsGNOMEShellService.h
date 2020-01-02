@@ -151,7 +151,6 @@ nsresult
 Init
 (
 )
-NS_HIDDEN
 ;
 private
 :

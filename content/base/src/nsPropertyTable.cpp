@@ -379,13 +379,11 @@ aDtorData
 bool
 aTransfer
 )
-NS_HIDDEN
 ;
 ~
 PropertyList
 (
 )
-NS_HIDDEN
 ;
 /
 /

@@ -482,13 +482,11 @@ Release
 nsIOService
 (
 )
-NS_HIDDEN
 ;
 ~
 nsIOService
 (
 )
-NS_HIDDEN
 ;
 nsresult
 TrackNetworkLinkStatusForOffline

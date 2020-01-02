@@ -752,7 +752,6 @@ aDocument
 nsPresContextType
 aType
 )
-NS_HIDDEN
 ;
 /
 *
@@ -7284,7 +7283,6 @@ virtual
 nsPresContext
 (
 )
-NS_HIDDEN
 ;
 /
 /
@@ -7382,7 +7380,6 @@ aDocument
 nsPresContextType
 aType
 )
-NS_HIDDEN
 ;
 virtual
 ~

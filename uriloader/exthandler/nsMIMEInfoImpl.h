@@ -511,7 +511,6 @@ aMIMEType
 "
 "
 )
-NS_HIDDEN
 ;
 nsMIMEInfoBase
 (
@@ -520,7 +519,6 @@ nsACString
 &
 aMIMEType
 )
-NS_HIDDEN
 ;
 nsMIMEInfoBase
 (
@@ -531,7 +529,6 @@ aType
 HandlerClass
 aClass
 )
-NS_HIDDEN
 ;
 virtual
 ~

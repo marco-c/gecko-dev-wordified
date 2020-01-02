@@ -557,7 +557,6 @@ someMethod
 SomeCtor
 (
 )
-NS_HIDDEN
 ;
 *
 /
