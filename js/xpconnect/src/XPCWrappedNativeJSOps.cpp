@@ -4583,10 +4583,6 @@ getElement
 nullptr
 /
 /
-getElementIfPresent
-nullptr
-/
-/
 getSpecial
 nullptr
 /
