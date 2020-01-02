@@ -733,13 +733,6 @@ const
 gfx
 :
 :
-Point
-&
-aOffset
-const
-gfx
-:
-:
 Filter
 &
 aFilter

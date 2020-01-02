@@ -919,13 +919,6 @@ const
 gfx
 :
 :
-Point
-&
-aOffset
-const
-gfx
-:
-:
 Filter
 &
 aFilter
@@ -1036,7 +1029,6 @@ GetValidRegion
 )
 aEffectChain
 aOpacity
-aOffset
 aFilter
 aClipRect
 aLayerProperties
@@ -1056,7 +1048,6 @@ aLayerProperties
 mValidRegion
 aEffectChain
 aOpacity
-aOffset
 aFilter
 aClipRect
 nsIntRegion
@@ -1089,13 +1080,6 @@ gfx
 Matrix4x4
 &
 aTransform
-const
-gfx
-:
-:
-Point
-&
-aOffset
 const
 gfx
 :
@@ -1308,7 +1292,6 @@ aClipRect
 aEffectChain
 aOpacity
 aTransform
-aOffset
 )
 ;
 mCompositor
@@ -1322,7 +1305,6 @@ DIAGNOSTIC_TILE
 graphicsRect
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
@@ -1354,13 +1336,6 @@ EffectChain
 aEffectChain
 float
 aOpacity
-const
-gfx
-:
-:
-Point
-&
-aOffset
 const
 gfx
 :
@@ -1853,7 +1828,6 @@ tileTexture
 aEffectChain
 aOpacity
 aTransform
-aOffset
 aFilter
 aClipRect
 tileDrawRegion
@@ -1918,7 +1892,6 @@ DIAGNOSTIC_CONTENT
 rect
 aClipRect
 aTransform
-aOffset
 )
 ;
 }

@@ -189,10 +189,6 @@ ContainerRender
 ContainerT
 *
 aContainer
-const
-nsIntPoint
-&
-aOffset
 LayerManagerComposite
 *
 aManager
@@ -249,10 +245,6 @@ virtual
 void
 RenderLayer
 (
-const
-nsIntPoint
-&
-aOffset
 const
 nsIntRect
 &
@@ -360,10 +352,6 @@ ContainerRender
 ContainerT
 *
 aContainer
-const
-nsIntPoint
-&
-aOffset
 LayerManagerComposite
 *
 aManager
@@ -421,10 +409,6 @@ virtual
 void
 RenderLayer
 (
-const
-nsIntPoint
-&
-aOffset
 const
 nsIntRect
 &

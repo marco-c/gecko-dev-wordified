@@ -735,13 +735,6 @@ const
 gfx
 :
 :
-Point
-&
-aOffset
-const
-gfx
-:
-:
 Filter
 &
 aFilter
@@ -1649,13 +1642,6 @@ const
 gfx
 :
 :
-Point
-&
-aOffset
-const
-gfx
-:
-:
 Filter
 &
 aFilter
@@ -1691,7 +1677,6 @@ Composite
 aEffectChain
 aOpacity
 aTransform
-aOffset
 aFilter
 aClipRect
 aVisibleRegion

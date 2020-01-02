@@ -1705,12 +1705,6 @@ gfx
 Matrix4x4
 (
 )
-gfx
-:
-:
-Point
-(
-)
 )
 ;
 }
@@ -2035,11 +2029,6 @@ RootLayer
 >
 RenderLayer
 (
-nsIntPoint
-(
-0
-0
-)
 clipRect
 )
 ;

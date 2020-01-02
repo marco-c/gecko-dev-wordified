@@ -6141,10 +6141,6 @@ gfx
 Matrix4x4
 &
 aTransform
-const
-Point
-&
-aOffset
 )
 {
 PROFILER_LABEL

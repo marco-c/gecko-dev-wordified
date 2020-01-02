@@ -350,13 +350,6 @@ gfx
 Matrix4x4
 &
 aTransform
-const
-gfx
-:
-:
-Point
-&
-aOffset
 )
 {
 if
@@ -414,7 +407,6 @@ rect
 )
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
@@ -432,7 +424,6 @@ GetBounds
 )
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
@@ -465,13 +456,6 @@ gfx
 Matrix4x4
 &
 aTransform
-const
-gfx
-:
-:
-Point
-&
-aOffset
 )
 {
 if
@@ -492,7 +476,6 @@ aFlags
 aVisibleRect
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
@@ -525,13 +508,6 @@ gfx
 Matrix4x4
 &
 aTransform
-const
-gfx
-:
-:
-Point
-&
-aOffset
 )
 {
 #
@@ -850,7 +826,6 @@ aClipRect
 effects
 opacity
 aTransform
-aOffset
 )
 ;
 /
@@ -887,7 +862,6 @@ aClipRect
 effects
 opacity
 aTransform
-aOffset
 )
 ;
 /
@@ -924,7 +898,6 @@ aClipRect
 effects
 opacity
 aTransform
-aOffset
 )
 ;
 /
@@ -967,7 +940,6 @@ aClipRect
 effects
 opacity
 aTransform
-aOffset
 )
 ;
 }
