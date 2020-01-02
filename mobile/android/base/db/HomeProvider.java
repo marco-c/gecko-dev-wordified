@@ -220,7 +220,7 @@ IOException
 ;
 public
 class
-HomeListsProvider
+HomeProvider
 extends
 SQLiteBridgeContentProvider
 {
@@ -231,7 +231,7 @@ String
 LOGTAG
 =
 "
-GeckoHomeListsProvider
+GeckoHomeProvider
 "
 ;
 /
@@ -374,7 +374,7 @@ ITEMS_ID
 ;
 }
 public
-HomeListsProvider
+HomeProvider
 (
 )
 {
