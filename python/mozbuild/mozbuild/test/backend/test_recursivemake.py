@@ -2966,21 +2966,6 @@ host_bar
 ]
             
 '
-LIBRARY_NAME
-'
-:
-[
-                
-'
-LIBRARY_NAME
-:
-=
-lib_name
-'
-            
-]
-            
-'
 LIBXUL_LIBRARY
 '
 :
