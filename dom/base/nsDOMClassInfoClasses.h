@@ -274,10 +274,6 @@ MozSmsFilter
 )
 DOMCI_CLASS
 (
-MozSmsSegmentInfo
-)
-DOMCI_CLASS
-(
 MozMobileMessageThread
 )
 /
