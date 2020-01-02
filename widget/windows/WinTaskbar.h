@@ -169,13 +169,13 @@ MOZ_FINAL
 public
 nsIWinTaskbar
 {
-public
-:
+~
 WinTaskbar
 (
 )
 ;
-~
+public
+:
 WinTaskbar
 (
 )

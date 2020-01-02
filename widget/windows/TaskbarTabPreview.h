@@ -141,6 +141,12 @@ nsITaskbarTabPreview
 public
 TaskbarPreview
 {
+virtual
+~
+TaskbarTabPreview
+(
+)
+;
 public
 :
 TaskbarTabPreview
@@ -156,12 +162,6 @@ aHWND
 nsIDocShell
 *
 aShell
-)
-;
-virtual
-~
-TaskbarTabPreview
-(
 )
 ;
 NS_DECL_ISUPPORTS

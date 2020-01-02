@@ -760,6 +760,12 @@ MOZ_FINAL
 public
 nsITaskbarPreviewController
 {
+~
+DefaultController
+(
+)
+{
+}
 HWND
 mWnd
 ;

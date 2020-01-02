@@ -185,6 +185,12 @@ nsITaskbarPreviewButton
 public
 nsSupportsWeakReference
 {
+virtual
+~
+TaskbarPreviewButton
+(
+)
+;
 public
 :
 TaskbarPreviewButton
@@ -194,12 +200,6 @@ TaskbarWindowPreview
 preview
 uint32_t
 index
-)
-;
-virtual
-~
-TaskbarPreviewButton
-(
 )
 ;
 NS_DECL_ISUPPORTS
