@@ -759,7 +759,13 @@ const
 ;
 already_AddRefed
 <
-nsIDOMDOMStringList
+mozilla
+:
+:
+dom
+:
+:
+DOMStringList
 >
 GetObjectStoreNames
 (

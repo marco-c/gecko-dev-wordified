@@ -9358,7 +9358,7 @@ flavors
 list
 of
 type
-nsIDOMDOMStringList
+DOMStringList
 .
 *
 /

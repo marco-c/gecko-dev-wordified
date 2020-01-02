@@ -218,14 +218,6 @@ XULTreeBuilder
 )
 #
 endif
-/
-/
-DOMStringList
-object
-DOMCI_CLASS
-(
-DOMStringList
-)
 #
 ifdef
 MOZ_XUL

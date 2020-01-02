@@ -1020,7 +1020,7 @@ error
 )
 already_AddRefed
 <
-nsIDOMDOMStringList
+DOMStringList
 >
 GetObjectStoreNames
 (

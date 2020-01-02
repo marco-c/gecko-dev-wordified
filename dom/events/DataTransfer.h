@@ -200,6 +200,9 @@ namespace
 dom
 {
 class
+DOMStringList
+;
+class
 Element
 ;
 template
@@ -759,7 +762,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIDOMDOMStringList
+DOMStringList
 >
 Types
 (
@@ -897,7 +900,7 @@ auto
 }
 already_AddRefed
 <
-nsIDOMDOMStringList
+DOMStringList
 >
 MozTypesAt
 (
