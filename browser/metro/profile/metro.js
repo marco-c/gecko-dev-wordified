@@ -6218,16 +6218,6 @@ alwaysAskBeforeHandling
 false
 )
 ;
-pref
-(
-"
-shumway
-.
-disabled
-"
-true
-)
-;
 /
 /
 The
