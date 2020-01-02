@@ -314,6 +314,29 @@ EditorSourceErrorShown
 /
 /
 When
+the
+editor
+has
+shown
+a
+source
+and
+set
+the
+line
+/
+column
+position
+EDITOR_LOCATION_SET
+:
+"
+Debugger
+:
+EditorLocationSet
+"
+/
+/
+When
 scopes
 variables
 properties
@@ -9021,6 +9044,7 @@ message
 source
 :
 text
+contentType
 }
 )
 =
@@ -9094,6 +9118,7 @@ resolve
 [
 aSource
 text
+contentType
 ]
 )
 ;
@@ -9442,6 +9467,7 @@ message
 source
 :
 text
+contentType
 }
 )
 =
@@ -9488,6 +9514,7 @@ resolve
 [
 aSource
 text
+contentType
 ]
 )
 ;
@@ -9748,6 +9775,7 @@ onFetch
 [
 aSource
 aText
+aContentType
 ]
 )
 {
@@ -9800,6 +9828,7 @@ aSource
 .
 url
 aText
+aContentType
 ]
 )
 ;
