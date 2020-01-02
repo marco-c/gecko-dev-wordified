@@ -4048,6 +4048,11 @@ aBuilder
 child
 &
 content
+content
+.
+GetVisibleRect
+(
+)
 :
 :
 ComputePageTransform
