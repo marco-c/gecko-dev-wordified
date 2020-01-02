@@ -34628,20 +34628,6 @@ nsCSSShadowArray
 aShadow
 )
 {
-if
-(
-aFrame
--
->
-IsSVGText
-(
-)
-)
-{
-return
-false
-;
-}
 switch
 (
 aType
@@ -36569,7 +36555,6 @@ textStyle
 >
 GetTextShadow
 (
-this
 )
 ;
 GetSelectionTextShadow
@@ -38924,7 +38909,6 @@ textStyle
 >
 HasTextShadow
 (
-this
 )
 )
 {
