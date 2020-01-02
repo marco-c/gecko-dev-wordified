@@ -12339,11 +12339,6 @@ c_str
 )
 )
 ;
-if
-(
-internalStats
-)
-{
 std
 :
 :
@@ -12609,7 +12604,6 @@ AppendElement
 s
 )
 ;
-}
 }
 std
 :
