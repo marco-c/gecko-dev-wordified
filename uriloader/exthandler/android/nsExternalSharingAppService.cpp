@@ -185,9 +185,14 @@ Bridge
 )
 )
 return
-GeckoAppShell
+AndroidBridge
 :
 :
+Bridge
+(
+)
+-
+>
 OpenUriExternal
 (
 data
