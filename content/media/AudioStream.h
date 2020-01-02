@@ -1831,6 +1831,15 @@ return
 mChannels
 ;
 }
+int
+GetOutChannels
+(
+)
+{
+return
+mOutChannels
+;
+}
 /
 /
 This
@@ -2233,6 +2242,9 @@ mOutRate
 ;
 int
 mChannels
+;
+int
+mOutChannels
 ;
 /
 /
