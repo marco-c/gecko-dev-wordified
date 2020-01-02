@@ -225,6 +225,15 @@ aTextTrackManager
 )
 {
 }
+TextTrackList
+:
+:
+~
+TextTrackList
+(
+)
+{
+}
 void
 TextTrackList
 :
