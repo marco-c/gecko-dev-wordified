@@ -20248,6 +20248,19 @@ endif
 XP_MACOSX
 *
 /
+if
+(
+getenv
+(
+"
+MOZ_PROCESS_UPDATES
+"
+)
+=
+=
+nullptr
+)
+{
 LaunchCallbackApp
 (
 argv
@@ -20263,6 +20276,7 @@ callbackIndex
 sUsingService
 )
 ;
+}
 }
 return
 gSucceeded
