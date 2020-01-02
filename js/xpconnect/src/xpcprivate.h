@@ -1572,17 +1572,6 @@ XPC_REPORT_SHADOWED_WRAPPED_NATIVE_MEMBERS
 define
 XPC_CHECK_CLASSINFO_CLAIMS
 #
-if
-defined
-(
-DEBUG_jst
-)
-#
-define
-XPC_ASSERT_CLASSINFO_CLAIMS
-#
-endif
-#
 endif
 /
 *
