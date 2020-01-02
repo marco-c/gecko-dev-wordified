@@ -490,7 +490,16 @@ _activeView
 .
 eql
 (
+{
+type
+:
+"
+backbone
+"
 view
+:
+view
+}
 )
 ;
 }
