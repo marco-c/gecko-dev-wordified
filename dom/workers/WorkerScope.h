@@ -260,8 +260,10 @@ forget
 )
 ;
 }
+already_AddRefed
+<
 Console
-*
+>
 GetConsole
 (
 )
