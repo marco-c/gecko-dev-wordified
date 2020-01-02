@@ -254,6 +254,15 @@ HandleValue
 priv
 )
 ;
+void
+setSameCompartmentPrivate
+(
+const
+Value
+&
+priv
+)
+;
 HeapSlot
 *
 slotOfPrivate
