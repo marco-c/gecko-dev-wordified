@@ -863,9 +863,7 @@ ReportIsNotFunction
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 int
 numToSkip

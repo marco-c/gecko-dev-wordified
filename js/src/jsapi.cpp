@@ -22845,7 +22845,8 @@ cx
 funobj
 )
 ;
-ReportIsNotFunction
+RootedValue
+v
 (
 cx
 ObjectValue
@@ -22853,6 +22854,12 @@ ObjectValue
 *
 funobj
 )
+)
+;
+ReportIsNotFunction
+(
+cx
+v
 )
 ;
 return
