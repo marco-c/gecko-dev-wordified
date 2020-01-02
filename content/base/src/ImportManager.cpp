@@ -705,14 +705,14 @@ aCanBubble
 =
 *
 /
-true
+false
 /
 *
 aCancelable
 =
 *
 /
-true
+false
 )
 ;
 }
