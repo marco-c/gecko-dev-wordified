@@ -1412,11 +1412,8 @@ JS_GetClassPrototype
 (
 cx
 key
+&
 homeProto
-.
-address
-(
-)
 )
 )
 return

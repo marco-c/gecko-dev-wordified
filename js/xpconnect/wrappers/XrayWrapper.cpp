@@ -5075,11 +5075,8 @@ JS_GetClassObject
 cx
 target
 key
+&
 constructor
-.
-address
-(
-)
 )
 )
 return
