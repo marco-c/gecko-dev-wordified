@@ -1027,6 +1027,7 @@ AutoCacheWaitFlags
 {
 public
 :
+explicit
 AutoCacheWaitFlags
 (
 nsHttpChannel

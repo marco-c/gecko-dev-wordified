@@ -483,6 +483,7 @@ nsAsyncRedirectAutoCallback
 {
 public
 :
+explicit
 nsAsyncRedirectAutoCallback
 (
 nsIAsyncVerifyRedirectCallback

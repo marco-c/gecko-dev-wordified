@@ -774,6 +774,7 @@ nsRunnable
 {
 public
 :
+explicit
 NotifyNetworkActivity
 (
 NetworkActivityMonitor

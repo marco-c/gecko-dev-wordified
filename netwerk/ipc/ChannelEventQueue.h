@@ -275,6 +275,7 @@ ChannelEventQueue
 )
 public
 :
+explicit
 ChannelEventQueue
 (
 nsISupports
@@ -954,6 +955,7 @@ AutoEventEnqueuer
 {
 public
 :
+explicit
 AutoEventEnqueuer
 (
 ChannelEventQueue

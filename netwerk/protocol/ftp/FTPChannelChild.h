@@ -311,6 +311,7 @@ Resume
 (
 )
 ;
+explicit
 FTPChannelChild
 (
 nsIURI

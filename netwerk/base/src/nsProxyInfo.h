@@ -297,6 +297,7 @@ friend
 class
 nsProtocolProxyService
 ;
+explicit
 nsProxyInfo
 (
 const
