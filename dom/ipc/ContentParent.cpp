@@ -170,7 +170,7 @@ h
 endif
 #
 ifdef
-XP_UNIX
+MOZ_WIDGET_GONK
 #
 include
 <
@@ -5575,7 +5575,7 @@ fallback
 .
 #
 ifdef
-XP_UNIX
+MOZ_WIDGET_GONK
 siginfo_t
 info
 ;
