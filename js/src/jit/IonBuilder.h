@@ -1324,8 +1324,9 @@ canInlineTarget
 JSFunction
 *
 target
-bool
-constructing
+CallInfo
+&
+callInfo
 )
 ;
 void
