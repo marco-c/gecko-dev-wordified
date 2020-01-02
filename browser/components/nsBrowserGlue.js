@@ -366,7 +366,7 @@ defineLazyModuleGetter
 (
 this
 "
-WebappManager
+webappsUI
 "
 "
 resource
@@ -376,7 +376,7 @@ resource
 /
 modules
 /
-WebappManager
+webappsUI
 .
 jsm
 "
@@ -3645,7 +3645,7 @@ _syncSearchEngines
 (
 )
 ;
-WebappManager
+webappsUI
 .
 init
 (
@@ -5026,7 +5026,7 @@ uninit
 (
 )
 ;
-WebappManager
+webappsUI
 .
 uninit
 (
