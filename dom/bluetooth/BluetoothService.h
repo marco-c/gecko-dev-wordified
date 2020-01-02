@@ -1065,15 +1065,11 @@ aRunnable
 0
 ;
 virtual
-void
+bool
 IsConnected
 (
-const
 uint16_t
 aServiceUuid
-BluetoothReplyRunnable
-*
-aRunnable
 )
 =
 0

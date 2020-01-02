@@ -247,6 +247,16 @@ ErrorResult
 aRv
 )
 ;
+bool
+IsConnected
+(
+uint16_t
+aProfileId
+ErrorResult
+&
+aRv
+)
+;
 already_AddRefed
 <
 DOMRequest

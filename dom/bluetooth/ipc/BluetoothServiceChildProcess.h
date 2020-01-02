@@ -437,15 +437,11 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-void
+bool
 IsConnected
 (
-const
 uint16_t
 aServiceUuid
-BluetoothReplyRunnable
-*
-aRunnable
 )
 MOZ_OVERRIDE
 ;
