@@ -2607,7 +2607,7 @@ builds
 because
 of
 the
-PR_NOT_REACHED
+NotReached
 #
 ifndef
 DEBUG
