@@ -1241,6 +1241,13 @@ nargs
 )
 HTML5_ATOM
 (
+keysystem
+"
+keysystem
+"
+)
+HTML5_ATOM
+(
 media
 "
 media
