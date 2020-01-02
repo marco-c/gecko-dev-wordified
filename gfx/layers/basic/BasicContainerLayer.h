@@ -262,7 +262,7 @@ aRegion
 ;
 }
 virtual
-void
+bool
 InsertAfter
 (
 Layer
@@ -273,8 +273,9 @@ Layer
 aAfter
 )
 {
-NS_ASSERTION
+if
 (
+!
 BasicManager
 (
 )
@@ -283,6 +284,10 @@ BasicManager
 InConstruction
 (
 )
+)
+{
+NS_ERROR
+(
 "
 Can
 only
@@ -294,6 +299,11 @@ phase
 "
 )
 ;
+return
+false
+;
+}
+return
 ContainerLayer
 :
 :

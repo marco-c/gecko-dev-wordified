@@ -574,7 +574,7 @@ aChild
 )
 {
 }
-void
+bool
 InsertAfter
 (
 Layer
@@ -585,6 +585,9 @@ Layer
 aAfter
 )
 {
+return
+true
+;
 }
 void
 ComputeEffectiveTransforms
