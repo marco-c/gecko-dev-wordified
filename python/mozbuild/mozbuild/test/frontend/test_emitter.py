@@ -1319,6 +1319,21 @@ VISIBILITY_FLAGS
 =
 '
 '
+            
+DELAYLOAD_DLLS
+=
+[
+'
+foo
+.
+dll
+'
+'
+bar
+.
+dll
+'
+]
         
 )
         
