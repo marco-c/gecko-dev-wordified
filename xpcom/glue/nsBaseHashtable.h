@@ -395,6 +395,15 @@ DataType
 >
 EntryType
 ;
+using
+nsTHashtable
+<
+EntryType
+>
+:
+:
+Contains
+;
 nsBaseHashtable
 (
 )
