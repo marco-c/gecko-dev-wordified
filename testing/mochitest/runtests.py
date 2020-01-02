@@ -3131,6 +3131,25 @@ runSlower
 true
 "
 )
+      
+if
+options
+.
+debugOnFailure
+:
+        
+self
+.
+urlOpts
+.
+append
+(
+"
+debugOnFailure
+=
+true
+"
+)
   
 def
 buildTestPath
