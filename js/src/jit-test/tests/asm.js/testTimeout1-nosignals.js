@@ -40,13 +40,6 @@ asmCompile
 USE_ASM
 +
 "
-/
-*
-no
--
-signals
-*
-/
 function
 f
 (
