@@ -779,6 +779,8 @@ transformed
 x
 -
 1
+.
+f
 )
 )
 int32_t
@@ -790,6 +792,8 @@ transformed
 y
 -
 1
+.
+f
 )
 )
 int32_t
@@ -801,6 +805,8 @@ transformed
 x
 +
 1
+.
+f
 )
 )
 int32_t
@@ -812,6 +818,8 @@ transformed
 y
 +
 1
+.
+f
 )
 )
 )
@@ -968,6 +976,8 @@ transformed
 x
 -
 1
+.
+f
 )
 )
 int32_t
@@ -979,6 +989,8 @@ transformed
 y
 -
 1
+.
+f
 )
 )
 int32_t
@@ -990,6 +1002,8 @@ transformed
 x
 +
 1
+.
+f
 )
 )
 int32_t
@@ -1001,6 +1015,8 @@ transformed
 y
 +
 1
+.
+f
 )
 )
 )

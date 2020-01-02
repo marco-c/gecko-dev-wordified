@@ -340,6 +340,8 @@ i
 mTileOrigin
 .
 x
+.
+value
 )
 ;
 mRect
@@ -359,6 +361,8 @@ i
 mTileOrigin
 .
 y
+.
+value
 )
 ;
 mRect
