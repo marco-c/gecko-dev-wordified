@@ -1310,7 +1310,6 @@ chain
 *
 bp
 =
-(
 act
 =
 =
@@ -1318,7 +1317,15 @@ Wrapper
 :
 :
 GET
-)
+|
+|
+act
+=
+=
+Wrapper
+:
+:
+ENUMERATE
 ;
 if
 (

@@ -1689,7 +1689,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
-GET
+ENUMERATE
 )
 ;
 JS_ASSERT
@@ -1888,7 +1888,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
-GET
+ENUMERATE
 )
 ;
 AutoIdVector
@@ -2875,7 +2875,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
-GET
+ENUMERATE
 )
 ;
 RootedObject
@@ -2986,7 +2986,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
-GET
+ENUMERATE
 )
 ;
 JS_ASSERT
@@ -4018,7 +4018,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
-GET
+ENUMERATE
 )
 ;
 RootedObject
@@ -4073,7 +4073,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
-GET
+ENUMERATE
 )
 ;
 JS_ASSERT
@@ -15269,7 +15269,7 @@ JSID_VOIDHANDLE
 BaseProxyHandler
 :
 :
-GET
+ENUMERATE
 true
 )
 ;
@@ -15612,7 +15612,7 @@ JSID_VOIDHANDLE
 BaseProxyHandler
 :
 :
-GET
+ENUMERATE
 true
 )
 ;
@@ -16561,7 +16561,7 @@ JSID_VOIDHANDLE
 BaseProxyHandler
 :
 :
-GET
+ENUMERATE
 true
 )
 ;
@@ -16673,7 +16673,7 @@ JSID_VOIDHANDLE
 BaseProxyHandler
 :
 :
-GET
+ENUMERATE
 true
 )
 ;

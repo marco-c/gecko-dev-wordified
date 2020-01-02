@@ -1155,6 +1155,13 @@ CALL
 =
 0x04
 ;
+static
+const
+Action
+ENUMERATE
+=
+0x08
+;
 virtual
 bool
 enter
