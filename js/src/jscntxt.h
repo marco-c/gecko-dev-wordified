@@ -3571,6 +3571,7 @@ trusted
 .
 *
 /
+inline
 bool
 runningWithTrustedPrincipals
 (
