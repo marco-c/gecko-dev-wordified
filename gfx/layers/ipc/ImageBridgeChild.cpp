@@ -4222,12 +4222,6 @@ PGrallocBufferChild
 aChild
 )
 {
-MOZ_ASSERT
-(
-!
-mShuttingDown
-)
-;
 #
 ifdef
 MOZ_WIDGET_GONK
