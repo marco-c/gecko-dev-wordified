@@ -264,7 +264,7 @@ PR_LOGGING
 /
 #
 define
-LOG
+FONTSET_LOG
 (
 args
 )
@@ -278,7 +278,7 @@ args
 )
 #
 define
-LOG_ENABLED
+FONTSET_LOG_ENABLED
 (
 )
 PR_LOG_TEST
@@ -1050,12 +1050,12 @@ ifdef
 PR_LOGGING
 if
 (
-LOG_ENABLED
+FONTSET_LOG_ENABLED
 (
 )
 )
 {
-LOG
+FONTSET_LOG
 (
 (
 "
@@ -3056,7 +3056,7 @@ if
 fe
 )
 {
-LOG
+FONTSET_LOG
 (
 (
 "
@@ -3218,7 +3218,7 @@ STATUS_LOADED
 }
 else
 {
-LOG
+FONTSET_LOG
 (
 (
 "
@@ -3566,7 +3566,7 @@ ifdef
 PR_LOGGING
 if
 (
-LOG_ENABLED
+FONTSET_LOG_ENABLED
 (
 )
 )
@@ -3584,7 +3584,7 @@ GetSpec
 fontURI
 )
 ;
-LOG
+FONTSET_LOG
 (
 (
 "
@@ -3771,7 +3771,7 @@ fallback
 will
 occur
 )
-LOG
+FONTSET_LOG
 (
 (
 "
@@ -4285,7 +4285,7 @@ ifdef
 PR_LOGGING
 if
 (
-LOG_ENABLED
+FONTSET_LOG_ENABLED
 (
 )
 )
@@ -4312,7 +4312,7 @@ GetSpec
 fontURI
 )
 ;
-LOG
+FONTSET_LOG
 (
 (
 "
@@ -4403,7 +4403,7 @@ ifdef
 PR_LOGGING
 if
 (
-LOG_ENABLED
+FONTSET_LOG_ENABLED
 (
 )
 )
@@ -4430,7 +4430,7 @@ GetSpec
 fontURI
 )
 ;
-LOG
+FONTSET_LOG
 (
 (
 "
