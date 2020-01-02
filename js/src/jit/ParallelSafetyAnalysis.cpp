@@ -776,6 +776,10 @@ SAFE_OP
 (
 SimdExtractElement
 )
+SAFE_OP
+(
+SimdBinaryArith
+)
 UNSAFE_OP
 (
 CloneLiteral
