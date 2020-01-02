@@ -346,12 +346,6 @@ nsHTMLEditRules
 (
 )
 ;
-virtual
-~
-nsHTMLEditRules
-(
-)
-;
 /
 /
 nsIEditRules
@@ -724,6 +718,12 @@ aSelection
 ;
 protected
 :
+virtual
+~
+nsHTMLEditRules
+(
+)
+;
 enum
 RulesEndpoint
 {

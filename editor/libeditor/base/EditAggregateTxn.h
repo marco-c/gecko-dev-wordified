@@ -260,6 +260,12 @@ aName
 ;
 protected
 :
+virtual
+~
+EditAggregateTxn
+(
+)
+;
 nsTArray
 <
 nsRefPtr

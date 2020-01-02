@@ -284,6 +284,12 @@ RedoTransaction
 ;
 protected
 :
+virtual
+~
+ChangeAttributeTxn
+(
+)
+;
 /
 *
 *

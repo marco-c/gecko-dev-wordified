@@ -300,6 +300,12 @@ aNewNode
 ;
 protected
 :
+virtual
+~
+CreateElementTxn
+(
+)
+;
 /
 *
 *

@@ -312,6 +312,12 @@ aNewNode
 ;
 protected
 :
+virtual
+~
+SplitElementTxn
+(
+)
+;
 /
 *
 *

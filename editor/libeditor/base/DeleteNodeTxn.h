@@ -223,6 +223,12 @@ RedoTransaction
 ;
 protected
 :
+virtual
+~
+DeleteNodeTxn
+(
+)
+;
 /
 *
 *

@@ -374,6 +374,12 @@ aResult
 ;
 protected
 :
+virtual
+~
+InsertTextTxn
+(
+)
+;
 /
 *
 *

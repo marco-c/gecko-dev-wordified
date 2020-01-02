@@ -319,12 +319,6 @@ nsPlaintextEditor
 (
 )
 ;
-virtual
-~
-nsPlaintextEditor
-(
-)
-;
 /
 *
 -
@@ -982,6 +976,12 @@ aCaretStyle
 ;
 protected
 :
+virtual
+~
+nsPlaintextEditor
+(
+)
+;
 NS_IMETHOD
 InitRules
 (

@@ -387,6 +387,12 @@ RememberEndingSelection
 ;
 protected
 :
+virtual
+~
+PlaceholderTxn
+(
+)
+;
 /
 *
 *

@@ -236,6 +236,15 @@ EditTxn
 )
 {
 }
+SplitElementTxn
+:
+:
+~
+SplitElementTxn
+(
+)
+{
+}
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 SplitElementTxn

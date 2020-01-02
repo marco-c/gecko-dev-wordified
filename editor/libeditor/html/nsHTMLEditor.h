@@ -478,12 +478,6 @@ nsHTMLEditor
 (
 )
 ;
-virtual
-~
-nsHTMLEditor
-(
-)
-;
 bool
 GetReturnInParagraphCreatesNewParagraph
 (
@@ -1904,6 +1898,12 @@ aIsBlock
 ;
 protected
 :
+virtual
+~
+nsHTMLEditor
+(
+)
+;
 using
 nsEditor
 :
