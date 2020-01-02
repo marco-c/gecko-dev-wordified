@@ -162,6 +162,17 @@ nsIContent
 aTemplate
 )
 ;
+nsIContent
+*
+*
+getFormPointerForContext
+(
+nsIContent
+*
+*
+aContext
+)
+;
 /
 *
 *
