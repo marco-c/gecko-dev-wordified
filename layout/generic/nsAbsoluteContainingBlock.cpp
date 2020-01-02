@@ -2399,7 +2399,7 @@ frames
 to
 split
 .
-nsresult
+void
 nsAbsoluteContainingBlock
 :
 :
@@ -2908,9 +2908,6 @@ top
 Do
 the
 reflow
-nsresult
-rv
-=
 aKidFrame
 -
 >
@@ -3595,7 +3592,4 @@ TopLeft
 )
 ;
 }
-return
-rv
-;
 }

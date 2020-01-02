@@ -616,7 +616,7 @@ child
 .
 .
 .
-nsresult
+void
 nsMathMLSelectedFrame
 :
 :
@@ -741,9 +741,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 /

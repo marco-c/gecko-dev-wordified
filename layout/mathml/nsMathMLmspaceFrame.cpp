@@ -544,7 +544,7 @@ mStyleContext
 ;
 }
 }
-nsresult
+void
 nsMathMLmspaceFrame
 :
 :
@@ -669,9 +669,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 /

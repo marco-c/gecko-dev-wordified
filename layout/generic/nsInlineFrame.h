@@ -431,7 +431,7 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext
@@ -745,7 +745,7 @@ nullptr
 const
 MOZ_OVERRIDE
 ;
-nsresult
+void
 ReflowFrames
 (
 nsPresContext
@@ -766,7 +766,7 @@ nsReflowStatus
 aStatus
 )
 ;
-nsresult
+void
 ReflowInlineFrame
 (
 nsPresContext
@@ -1157,7 +1157,7 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

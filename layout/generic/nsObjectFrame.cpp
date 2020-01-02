@@ -3015,7 +3015,7 @@ all
 cases
 .
 }
-nsresult
+void
 nsObjectFrame
 :
 :
@@ -3131,7 +3131,6 @@ aStatus
 NS_FRAME_COMPLETE
 ;
 return
-NS_OK
 ;
 }
 /
@@ -3167,7 +3166,6 @@ aStatus
 NS_FRAME_COMPLETE
 ;
 return
-NS_OK
 ;
 }
 nsRect
@@ -3294,9 +3292,6 @@ aStatus
 aReflowState
 aMetrics
 )
-;
-return
-NS_OK
 ;
 }
 /

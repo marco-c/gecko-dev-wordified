@@ -587,7 +587,7 @@ floatWidth
 ;
 }
 }
-nsresult
+void
 nsPlaceholderFrame
 :
 :
@@ -936,9 +936,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 void

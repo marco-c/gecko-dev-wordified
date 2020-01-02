@@ -717,7 +717,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsMathMLTokenFrame
 :
 :
@@ -907,9 +907,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 /

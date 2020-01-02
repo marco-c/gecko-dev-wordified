@@ -808,7 +808,7 @@ aDesiredSize
 )
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

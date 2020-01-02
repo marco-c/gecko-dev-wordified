@@ -366,7 +366,7 @@ to
 *
 /
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext
