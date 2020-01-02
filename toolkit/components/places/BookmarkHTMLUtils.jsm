@@ -1579,6 +1579,7 @@ aFilePath
 )
 )
 )
+{
 throw
 new
 Error
@@ -1590,9 +1591,13 @@ from
 nonexisting
 html
 file
+:
 "
++
+aFilePath
 )
 ;
+}
 let
 importer
 =
