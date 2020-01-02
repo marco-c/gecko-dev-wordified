@@ -128,7 +128,7 @@ h
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 #
 include
@@ -147,7 +147,7 @@ h
 elif
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 #
 include
@@ -166,7 +166,7 @@ h
 elif
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 #
 include
@@ -1049,7 +1049,7 @@ temp
 ;
 #
 ifdef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 initWithAllocator
 (
 )
@@ -1171,7 +1171,7 @@ temp
 ;
 #
 ifdef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 initWithAllocator
 (
 )
@@ -1243,7 +1243,7 @@ nullptr
 {
 #
 ifdef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 initWithAllocator
 (
 )

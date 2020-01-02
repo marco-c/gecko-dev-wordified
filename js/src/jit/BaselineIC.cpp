@@ -4574,7 +4574,7 @@ masm
 ;
 #
 ifdef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 masm
 .
 setSecondScratchReg
@@ -5395,7 +5395,7 @@ obj
 ;
 #
 ifdef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 saveRegs
 .
 add

@@ -55595,14 +55595,14 @@ mir
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 &
 &
 !
 defined
 (
-JS_CPU_ARM_HARDFP
+JS_CODEGEN_ARM_HARDFP
 )
 if
 (

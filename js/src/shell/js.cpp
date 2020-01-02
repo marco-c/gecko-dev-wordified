@@ -37136,7 +37136,7 @@ true
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 &
 &
@@ -37174,13 +37174,13 @@ if
 (
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 |
 |
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 )
 &

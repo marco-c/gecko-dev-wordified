@@ -350,7 +350,7 @@ nullptr
 {
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 JS_ASSERT
 (
 (
@@ -468,7 +468,7 @@ nullptr
 {
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 JS_ASSERT
 (
 (

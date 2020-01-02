@@ -22102,7 +22102,7 @@ passedArgs_
 ;
 #
 ifdef
-JS_CPU_ARM_HARDFP
+JS_CODEGEN_ARM_HARDFP
 usedIntSlots_
 =
 0
@@ -22235,7 +22235,7 @@ scratch
 }
 #
 ifdef
-JS_CPU_ARM_HARDFP
+JS_CODEGEN_ARM_HARDFP
 void
 MacroAssemblerARMCompat
 :
@@ -22890,7 +22890,7 @@ inCall_
 ;
 #
 ifdef
-JS_CPU_ARM_HARDFP
+JS_CODEGEN_ARM_HARDFP
 *
 stackAdjust
 =
@@ -23371,7 +23371,7 @@ DOUBLE
 :
 #
 ifndef
-JS_CPU_ARM_HARDFP
+JS_CODEGEN_ARM_HARDFP
 /
 /
 Move
@@ -23403,7 +23403,7 @@ FLOAT32
 :
 #
 ifndef
-JS_CPU_ARM_HARDFP
+JS_CODEGEN_ARM_HARDFP
 /
 /
 Move

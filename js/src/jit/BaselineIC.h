@@ -7421,7 +7421,7 @@ BaselineStackReg
 ;
 #
 ifdef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 JS_ASSERT
 (
 !
@@ -7458,7 +7458,7 @@ BaselineStubReg
 ;
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 regs
 .
 take

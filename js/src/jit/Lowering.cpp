@@ -14765,7 +14765,7 @@ bug
 .
 #
 ifndef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 if
 (
 GetIonContext

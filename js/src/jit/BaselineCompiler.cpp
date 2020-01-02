@@ -2847,7 +2847,7 @@ takeAny
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 /
 /

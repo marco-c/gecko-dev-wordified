@@ -321,7 +321,7 @@ byteLength
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 uint8_t
 *
@@ -471,7 +471,7 @@ disp
 elif
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 uint32_t
 heapLength
@@ -1139,7 +1139,7 @@ argv
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 extern
 "
@@ -1340,7 +1340,7 @@ DisableActivationFromAsmJS
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 case
 AsmJSImm_aeabi_idivmod
@@ -4296,7 +4296,7 @@ ARCH_BITS
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 JS_ASSERT
 (
@@ -4349,7 +4349,7 @@ true
 elif
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 JS_ASSERT
 (
@@ -4402,7 +4402,7 @@ true
 elif
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 JS_ASSERT
 (

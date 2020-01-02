@@ -1277,7 +1277,7 @@ lir
 {
 #
 ifndef
-JS_CPU_ARM_HARDFP
+JS_CODEGEN_ARM_HARDFP
 if
 (
 lir
