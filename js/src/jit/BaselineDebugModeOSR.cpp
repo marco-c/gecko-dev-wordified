@@ -1492,7 +1492,7 @@ epilogue
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 bad
@@ -4046,7 +4046,7 @@ undef
 CASE_KIND
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -4732,7 +4732,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad

@@ -4914,7 +4914,7 @@ undef
 DEF_KIND_STR
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -7851,7 +7851,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -17542,7 +17542,7 @@ holderShape
 )
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -17550,6 +17550,9 @@ kind
 .
 "
 )
+;
+return
+nullptr
 ;
 }
 }
