@@ -784,13 +784,8 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-const
-nsTArray
-<
-FlexLine
->
-&
-aLines
+nscoord
+aSumLineCrossSizes
 nscoord
 aAvailableHeightForContent
 bool
