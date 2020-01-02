@@ -280,6 +280,19 @@ delete
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+/
+/
+for
+UniquePtr
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -3349,6 +3362,8 @@ MOZ_OVERRIDE
 ;
 protected
 :
+UniquePtr
+<
 mozilla
 :
 :
@@ -3356,7 +3371,7 @@ ipc
 :
 :
 Shmem
-*
+>
 mShmem
 ;
 RefPtr

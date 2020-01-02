@@ -3255,11 +3255,13 @@ aFlags
 )
 mShmem
 (
-new
+MakeUnique
+<
 ipc
 :
 :
 Shmem
+>
 (
 aShmem
 )
@@ -3287,8 +3289,9 @@ DeallocateDeviceData
 (
 )
 ;
-delete
 mShmem
+=
+nullptr
 ;
 MOZ_COUNT_DTOR
 (
@@ -3332,9 +3335,6 @@ DeallocShmem
 mShmem
 )
 ;
-delete
-mShmem
-;
 mShmem
 =
 nullptr
@@ -3354,9 +3354,6 @@ if
 mShmem
 )
 {
-delete
-mShmem
-;
 mShmem
 =
 nullptr
@@ -3371,9 +3368,6 @@ OnShutdown
 (
 )
 {
-delete
-mShmem
-;
 mShmem
 =
 nullptr
