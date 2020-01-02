@@ -1929,6 +1929,8 @@ actualDiskCacheSizeCalculated
 "
 )
 ;
+try
+{
 var
 cacheService
 =
@@ -1971,6 +1973,13 @@ this
 observer
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 /
 /
@@ -2060,6 +2069,8 @@ sizeStr
 }
 }
 ;
+try
+{
 var
 cacheService
 =
@@ -2114,6 +2125,13 @@ visitor
 false
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 updateCacheSizeUI
 :
@@ -2366,6 +2384,8 @@ function
 (
 )
 {
+try
+{
 var
 cache
 =
@@ -2399,8 +2419,6 @@ interfaces
 nsICacheStorageService
 )
 ;
-try
-{
 cache
 .
 clear
