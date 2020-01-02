@@ -982,6 +982,10 @@ close
 (
 )
 ;
+gNewWindow
+=
+null
+;
 finish
 (
 )
