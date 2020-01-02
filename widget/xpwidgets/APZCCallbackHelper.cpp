@@ -2002,8 +2002,8 @@ gfx
 :
 IntSize
 (
-1
-1
+0
+0
 )
 ;
 LayerMargin
@@ -2351,8 +2351,8 @@ gfx
 :
 IntSize
 (
-1
-1
+0
+0
 )
 ;
 LayerMargin
