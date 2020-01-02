@@ -301,6 +301,15 @@ include
 "
 mozilla
 /
+TouchEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FileUtils
 .
 h

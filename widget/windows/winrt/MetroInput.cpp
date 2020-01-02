@@ -193,6 +193,15 @@ MetroAppShell
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TouchEvents
+.
+h
+"
 /
 /
 System

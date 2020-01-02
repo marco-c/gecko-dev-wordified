@@ -114,6 +114,15 @@ include
 "
 mozilla
 /
+TouchEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h

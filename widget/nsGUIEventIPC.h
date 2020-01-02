@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+TouchEvents
+.
+h
+"
+#
+include
+"
 nsGUIEvent
 .
 h

@@ -310,6 +310,15 @@ InputData
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TouchEvents
+.
+h
+"
 using
 namespace
 Microsoft

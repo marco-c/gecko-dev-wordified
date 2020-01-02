@@ -145,15 +145,6 @@ TextEvents
 h
 "
 #
-include
-"
-mozilla
-/
-TouchEvents
-.
-h
-"
-#
 endif
 /
 /

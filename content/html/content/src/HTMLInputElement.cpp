@@ -472,6 +472,15 @@ h
 #
 include
 "
+mozilla
+/
+TouchEvents
+.
+h
+"
+#
+include
+"
 nsEventListenerManager
 .
 h

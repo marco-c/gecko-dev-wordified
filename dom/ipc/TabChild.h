@@ -320,6 +320,15 @@ TabContext
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EventForwards
+.
+h
+"
 struct
 gfxMatrix
 ;

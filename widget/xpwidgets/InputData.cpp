@@ -132,6 +132,15 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TouchEvents
+.
+h
+"
 namespace
 mozilla
 {
