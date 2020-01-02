@@ -163,9 +163,6 @@ class
 MediaDecoderStateMachine
 ;
 class
-MediaSourceReader
-;
-class
 SubBufferDecoder
 ;
 namespace
@@ -278,6 +275,11 @@ nsACString
 aType
 )
 ;
+nsresult
+EnqueueDecoderInitialization
+(
+)
+;
 private
 :
 /
@@ -316,12 +318,6 @@ dom
 MediaSource
 *
 mMediaSource
-;
-nsRefPtr
-<
-MediaSourceReader
->
-mReader
 ;
 }
 ;
