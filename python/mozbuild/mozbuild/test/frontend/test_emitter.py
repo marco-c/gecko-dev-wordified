@@ -1375,7 +1375,7 @@ USE_STATIC_LIBS
 =
 True
             
-CFLAGS
+MOZBUILD_CFLAGS
 =
 [
 '
@@ -1390,7 +1390,7 @@ w
 '
 ]
             
-CXXFLAGS
+MOZBUILD_CXXFLAGS
 =
 [
 '
@@ -1408,7 +1408,7 @@ h
 '
 ]
             
-LDFLAGS
+MOZBUILD_LDFLAGS
 =
 [
 '
