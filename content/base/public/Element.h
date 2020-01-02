@@ -3866,6 +3866,17 @@ GetBoundingClientRect
 (
 )
 ;
+already_AddRefed
+<
+ShadowRoot
+>
+CreateShadowRoot
+(
+ErrorResult
+&
+aError
+)
+;
 void
 ScrollIntoView
 (
@@ -6548,7 +6559,6 @@ id
 cache
 *
 /
-inline
 void
 AddToIdTable
 (
@@ -6557,7 +6567,6 @@ nsIAtom
 aId
 )
 ;
-inline
 void
 RemoveFromIdTable
 (

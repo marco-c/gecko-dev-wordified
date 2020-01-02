@@ -844,7 +844,7 @@ nsIdentifierMapEntry
 void
 AddNameElement
 (
-nsIDocument
+nsINode
 *
 aDocument
 Element
