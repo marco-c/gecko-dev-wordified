@@ -401,6 +401,9 @@ mIsLocked
 bool
 mNeedsClear
 ;
+bool
+mNeedsClearWhite
+;
 }
 ;
 /
