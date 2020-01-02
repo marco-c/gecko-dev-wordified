@@ -1087,7 +1087,9 @@ DoReflow
 ;
 aDesiredSize
 .
-width
+Width
+(
+)
 =
 aReflowState
 .
@@ -1097,7 +1099,9 @@ ComputedWidth
 ;
 aDesiredSize
 .
-height
+Height
+(
+)
 =
 aReflowState
 .
@@ -3881,6 +3885,13 @@ NS_UNCONSTRAINEDSIZE
 ;
 nsHTMLReflowMetrics
 desiredSize
+(
+reflowState
+.
+GetWritingMode
+(
+)
+)
 ;
 nsReflowStatus
 status
@@ -4021,7 +4032,9 @@ width
 =
 desiredSize
 .
-width
+Width
+(
+)
 &
 &
 mRect
@@ -4031,7 +4044,9 @@ height
 =
 desiredSize
 .
-height
+Height
+(
+)
 "
 unexpected
 size

@@ -621,7 +621,9 @@ xmost
 >
 aDesiredSize
 .
-width
+Width
+(
+)
 )
 {
 mPD
@@ -744,7 +746,9 @@ desired
 size
 aDesiredSize
 .
-width
+Width
+(
+)
 =
 aReflowState
 .
@@ -766,7 +770,9 @@ NS_UNCONSTRAINEDSIZE
 {
 aDesiredSize
 .
-height
+Height
+(
+)
 =
 aReflowState
 .

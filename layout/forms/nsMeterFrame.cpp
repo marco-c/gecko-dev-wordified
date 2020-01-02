@@ -706,7 +706,9 @@ aStatus
 ;
 aDesiredSize
 .
-width
+Width
+(
+)
 =
 aReflowState
 .
@@ -726,7 +728,9 @@ LeftRight
 ;
 aDesiredSize
 .
-height
+Height
+(
+)
 =
 aReflowState
 .
@@ -1137,6 +1141,13 @@ top
 ;
 nsHTMLReflowMetrics
 barDesiredSize
+(
+reflowState
+.
+GetWritingMode
+(
+)
+)
 ;
 ReflowChild
 (

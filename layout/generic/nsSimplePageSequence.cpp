@@ -742,7 +742,9 @@ scrollbar
 .
 aDesiredSize
 .
-width
+Width
+(
+)
 =
 std
 :
@@ -771,7 +773,9 @@ GetPrintPreviewScale
 ;
 aDesiredSize
 .
-height
+Height
+(
+)
 =
 std
 :
@@ -1424,6 +1428,13 @@ pages
 vertically
 nsHTMLReflowMetrics
 kidSize
+(
+aReflowState
+.
+GetWritingMode
+(
+)
+)
 ;
 for
 (
@@ -1622,7 +1633,9 @@ y
 =
 kidSize
 .
-height
+Height
+(
+)
 ;
 y
 +
@@ -1643,7 +1656,9 @@ x
 +
 kidSize
 .
-width
+Width
+(
+)
 +
 pageCSSMargin
 .

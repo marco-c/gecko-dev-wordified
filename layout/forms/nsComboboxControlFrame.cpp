@@ -3049,6 +3049,13 @@ GetRect
 ;
 nsHTMLReflowMetrics
 desiredSize
+(
+aReflowState
+.
+GetWritingMode
+(
+)
+)
 ;
 nsReflowStatus
 ignoredStatus

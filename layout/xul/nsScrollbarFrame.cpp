@@ -411,7 +411,9 @@ AvailableWidth
 {
 aDesiredSize
 .
-width
+Width
+(
+)
 =
 0
 ;
@@ -430,7 +432,9 @@ AvailableHeight
 {
 aDesiredSize
 .
-height
+Height
+(
+)
 =
 0
 ;
