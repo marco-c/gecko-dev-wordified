@@ -25137,14 +25137,13 @@ inline
 .
 if
 (
+!
 targetScript
 -
 >
 shouldInline
 )
-return
-true
-;
+{
 /
 /
 Cap
@@ -25534,6 +25533,7 @@ lineno
 return
 false
 ;
+}
 }
 JS_ASSERT
 (
