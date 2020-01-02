@@ -9273,7 +9273,7 @@ subjectPrincipal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;

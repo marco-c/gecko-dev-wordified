@@ -5448,7 +5448,7 @@ Init
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 )

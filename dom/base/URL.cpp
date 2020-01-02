@@ -785,7 +785,7 @@ principal
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 aGlobal
 .
@@ -959,7 +959,7 @@ principal
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 aGlobal
 .

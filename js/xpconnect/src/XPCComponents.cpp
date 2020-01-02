@@ -21064,7 +21064,7 @@ prin
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 obj
 )

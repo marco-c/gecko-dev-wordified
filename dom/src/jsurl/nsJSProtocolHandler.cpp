@@ -1460,7 +1460,7 @@ objectPrincipal
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 globalJSObject
 )

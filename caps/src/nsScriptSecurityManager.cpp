@@ -2043,7 +2043,7 @@ subjectPrincipal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -2347,7 +2347,7 @@ sourcePrincipal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -2766,7 +2766,7 @@ principal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -5969,7 +5969,7 @@ subjectPrincipal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;

@@ -1043,7 +1043,7 @@ owner
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -4679,7 +4679,7 @@ rv
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 -

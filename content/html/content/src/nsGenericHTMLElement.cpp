@@ -10569,7 +10569,7 @@ prin
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;

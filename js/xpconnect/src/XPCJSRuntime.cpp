@@ -8105,14 +8105,8 @@ chrome
 nsContentUtils
 :
 :
-IsSystemPrincipal
+IsCallerChrome
 (
-nsContentUtils
-:
-:
-GetSubjectPrincipal
-(
-)
 )
 ;
 const

@@ -12077,7 +12077,7 @@ principal
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 aGlobal
 )

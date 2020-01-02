@@ -13349,7 +13349,7 @@ principal
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 aObj
 )
@@ -13449,7 +13449,7 @@ principal
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 aObj
 )

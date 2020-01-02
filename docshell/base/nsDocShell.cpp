@@ -50858,7 +50858,7 @@ if
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 -

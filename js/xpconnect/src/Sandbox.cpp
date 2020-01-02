@@ -1218,7 +1218,7 @@ Init
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 nullptr

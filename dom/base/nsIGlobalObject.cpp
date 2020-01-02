@@ -160,7 +160,7 @@ return
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 global
 )

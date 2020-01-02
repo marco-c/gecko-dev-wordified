@@ -3040,7 +3040,7 @@ principal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -3299,7 +3299,7 @@ principal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -3690,7 +3690,7 @@ aIndex
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 )
@@ -3962,7 +3962,7 @@ principal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;

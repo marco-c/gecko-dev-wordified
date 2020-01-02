@@ -16146,7 +16146,7 @@ if
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 -

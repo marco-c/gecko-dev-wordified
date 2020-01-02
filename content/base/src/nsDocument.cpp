@@ -34170,7 +34170,7 @@ GetCurrentJSContext
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 :

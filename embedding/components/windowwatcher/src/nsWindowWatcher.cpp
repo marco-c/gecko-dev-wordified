@@ -5180,7 +5180,7 @@ GetCurrentJSContext
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 :

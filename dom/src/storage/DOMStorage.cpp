@@ -1166,7 +1166,7 @@ subjectPrincipal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
