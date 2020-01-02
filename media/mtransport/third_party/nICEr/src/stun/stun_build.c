@@ -1995,7 +1995,7 @@ username
 r_log
 (
 NR_LOG_STUN
-LOG_ERR
+LOG_WARNING
 "
 STUN
 authentication
@@ -2027,7 +2027,7 @@ len
 r_log
 (
 NR_LOG_STUN
-LOG_ERR
+LOG_WARNING
 "
 STUN
 authentication
@@ -2057,7 +2057,7 @@ realm
 r_log
 (
 NR_LOG_STUN
-LOG_ERR
+LOG_WARNING
 "
 STUN
 authentication
@@ -2087,7 +2087,7 @@ nonce
 r_log
 (
 NR_LOG_STUN
-LOG_ERR
+LOG_WARNING
 "
 STUN
 authentication
@@ -3165,7 +3165,7 @@ number
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_INFO
 "
 Responding
 with

@@ -1683,7 +1683,7 @@ retry_ct
 r_log
 (
 NR_LOG_TURN
-LOG_ERR
+LOG_WARNING
 "
 TURN
 (
@@ -1727,7 +1727,7 @@ nonce
 r_log
 (
 NR_LOG_TURN
-LOG_ERR
+LOG_WARNING
 "
 TURN
 (
@@ -1770,7 +1770,7 @@ realm
 r_log
 (
 NR_LOG_TURN
-LOG_ERR
+LOG_WARNING
 "
 TURN
 (
@@ -2343,7 +2343,7 @@ label
 r_log
 (
 NR_LOG_TURN
-LOG_ERR
+LOG_INFO
 "
 TURN
 (
@@ -2617,7 +2617,7 @@ return
 r_log
 (
 NR_LOG_TURN
-LOG_ERR
+LOG_WARNING
 "
 TURN
 (
@@ -3102,7 +3102,7 @@ arg
 r_log
 (
 NR_LOG_TURN
-LOG_ERR
+LOG_WARNING
 "
 TURN
 (
@@ -4143,7 +4143,7 @@ turn_server_addr
 r_log
 (
 NR_LOG_TURN
-LOG_ERR
+LOG_WARNING
 "
 TURN
 (
@@ -4247,7 +4247,7 @@ NR_TRANSPORT_ADDR_CMP_MODE_ALL
 r_log
 (
 NR_LOG_TURN
-LOG_DEBUG
+LOG_WARNING
 "
 TURN
 (
@@ -4394,7 +4394,7 @@ R_NOT_FOUND
 r_log
 (
 NR_LOG_TURN
-LOG_INFO
+LOG_WARNING
 "
 TURN
 (

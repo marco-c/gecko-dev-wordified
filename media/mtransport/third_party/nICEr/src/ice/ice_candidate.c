@@ -1150,7 +1150,7 @@ priority
 r_log
 (
 LOG_ICE
-LOG_WARNING
+LOG_ERR
 "
 ICE
 (
@@ -2374,7 +2374,7 @@ next_automatic_preference
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_ERR
 "
 Out
 of
@@ -3016,6 +3016,14 @@ r_log
 LOG_ICE
 LOG_ERR
 "
+ICE
+-
+CANDIDATE
+(
+%
+s
+)
+:
 Can
 '
 t
@@ -3026,6 +3034,10 @@ without
 a
 resolver
 "
+cand
+-
+>
+label
 )
 ;
 ABORT
@@ -3078,9 +3090,9 @@ s
 :
 Could
 not
-resolve
-domain
-name
+invoke
+DNS
+resolver
 "
 cand
 -
@@ -3212,7 +3224,7 @@ else
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_WARNING
 "
 ICE
 (
@@ -4845,7 +4857,7 @@ NR_TURN_CLIENT_STATE_CANCELLED
 r_log
 (
 NR_LOG_TURN
-LOG_ERR
+LOG_WARNING
 "
 ICE
 -
@@ -4930,7 +4942,7 @@ _status
 r_log
 (
 NR_LOG_TURN
-LOG_ERR
+LOG_WARNING
 "
 ICE
 -

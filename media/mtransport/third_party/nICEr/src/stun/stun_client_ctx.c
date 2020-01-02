@@ -1276,7 +1276,7 @@ maximum_transmits
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_INFO
 "
 STUN
 -
@@ -1506,7 +1506,7 @@ maximum_transmits
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_INFO
 "
 STUN
 -
@@ -3162,7 +3162,7 @@ password
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 STUN
 -
@@ -3718,7 +3718,7 @@ ADDRESS
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_INFO
 "
 STUN
 -
