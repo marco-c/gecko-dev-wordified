@@ -882,6 +882,15 @@ lir
 ;
 virtual
 bool
+visitRoundF
+(
+LRoundF
+*
+lir
+)
+;
+virtual
+bool
 visitTruncateDToInt32
 (
 LTruncateDToInt32

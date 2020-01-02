@@ -861,6 +861,15 @@ lir
 ;
 virtual
 bool
+visitRoundF
+(
+LRoundF
+*
+lir
+)
+;
+virtual
+bool
 visitGuardShape
 (
 LGuardShape

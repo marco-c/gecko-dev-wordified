@@ -4768,10 +4768,10 @@ InliningStatus_Inlined
 }
 if
 (
+IsFloatingPointType
+(
 argType
-=
-=
-MIRType_Double
+)
 &
 &
 returnType
@@ -4828,10 +4828,10 @@ InliningStatus_Inlined
 }
 if
 (
+IsFloatingPointType
+(
 argType
-=
-=
-MIRType_Double
+)
 &
 &
 returnType
