@@ -1277,7 +1277,6 @@ funScript
 *
 *
 /
-inline
 void
 ScopeObject
 :

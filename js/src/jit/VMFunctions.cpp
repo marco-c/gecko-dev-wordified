@@ -3213,6 +3213,14 @@ type
 slots
 )
 ;
+if
+(
+!
+obj
+)
+return
+nullptr
+;
 #
 ifdef
 JSGC_GENERATIONAL

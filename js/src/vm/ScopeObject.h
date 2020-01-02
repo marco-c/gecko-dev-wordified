@@ -1457,7 +1457,6 @@ toObject
 )
 ;
 }
-inline
 void
 setEnclosingScope
 (
