@@ -11455,6 +11455,14 @@ return
 -
 1
 ;
+bool
+in_order
+=
+IsPacketInOrder
+(
+header
+)
+;
 rtp_receive_statistics_
 -
 >
@@ -11465,6 +11473,7 @@ length
 IsPacketRetransmitted
 (
 header
+in_order
 )
 )
 ;
@@ -11482,10 +11491,7 @@ ReceivePacket
 received_packet
 length
 header
-IsPacketInOrder
-(
-header
-)
+in_order
 )
 ?
 0
@@ -11827,6 +11833,8 @@ const
 RTPHeader
 &
 header
+bool
+in_order
 )
 const
 {
@@ -11909,10 +11917,7 @@ NULL
 ;
 return
 !
-IsPacketInOrder
-(
-header
-)
+in_order
 &
 &
 statistician

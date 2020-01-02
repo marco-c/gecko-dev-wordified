@@ -1485,6 +1485,14 @@ payload_type_frequency
 =
 kVideoPayloadTypeFrequency
 ;
+bool
+in_order
+=
+IsPacketInOrder
+(
+header
+)
+;
 rtp_receive_statistics_
 -
 >
@@ -1495,6 +1503,7 @@ received_packet_length
 IsPacketRetransmitted
 (
 header
+in_order
 )
 )
 ;
@@ -1512,10 +1521,7 @@ ReceivePacket
 received_packet
 received_packet_length
 header
-IsPacketInOrder
-(
-header
-)
+in_order
 )
 ?
 0
@@ -2755,6 +2761,8 @@ const
 RTPHeader
 &
 header
+bool
+in_order
 )
 const
 {
@@ -2837,10 +2845,7 @@ NULL
 ;
 return
 !
-IsPacketInOrder
-(
-header
-)
+in_order
 &
 &
 statistician
