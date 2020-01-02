@@ -811,7 +811,7 @@ dns
 {
 dns1
 dns2
-NULL
+nullptr
 }
 ;
 char

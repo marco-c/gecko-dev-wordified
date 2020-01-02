@@ -2891,7 +2891,7 @@ mass_storage
 )
 !
 =
-NULL
+nullptr
 ;
 }
 else
@@ -4296,7 +4296,7 @@ XRE_GetIOMessageLoop
 ;
 sAutoMounter
 =
-NULL
+nullptr
 ;
 ShutdownVolumeManager
 (
@@ -4998,7 +4998,7 @@ vol_name_cstr
 =
 strtok_r
 (
-NULL
+nullptr
 delim
 &
 save_ptr
@@ -5033,7 +5033,7 @@ mount_point_cstr
 =
 strtok_r
 (
-NULL
+nullptr
 delim
 &
 save_ptr
@@ -5326,11 +5326,11 @@ ShutdownAutoMounter
 {
 sAutoMounterSetting
 =
-NULL
+nullptr
 ;
 sUsbCableObserver
 =
-NULL
+nullptr
 ;
 XRE_GetIOMessageLoop
 (

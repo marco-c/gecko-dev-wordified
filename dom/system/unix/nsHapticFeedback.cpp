@@ -289,7 +289,7 @@ dbus_connection_send
 (
 connection
 msg
-NULL
+nullptr
 )
 )
 {

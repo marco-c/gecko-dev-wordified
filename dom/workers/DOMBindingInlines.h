@@ -389,7 +389,7 @@ aGlobal
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -430,7 +430,7 @@ proto
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -460,7 +460,7 @@ wrapper
 )
 {
 return
-NULL
+nullptr
 ;
 }
 js

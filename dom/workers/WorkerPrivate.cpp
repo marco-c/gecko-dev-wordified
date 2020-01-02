@@ -11478,7 +11478,7 @@ Derived
 *
 extraSelfRef
 =
-NULL
+nullptr
 ;
 if
 (

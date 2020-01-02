@@ -909,7 +909,7 @@ GetResponseXML
 const
 {
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -920,7 +920,7 @@ GetChannel
 const
 {
 return
-NULL
+nullptr
 ;
 }
 JS

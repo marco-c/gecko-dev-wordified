@@ -457,7 +457,7 @@ XRE_GetIOMessageLoop
 ;
 sVolumeServiceIOThread
 =
-NULL
+nullptr
 ;
 }
 }

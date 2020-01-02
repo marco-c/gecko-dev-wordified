@@ -342,8 +342,8 @@ Construct
 0
 sProperties
 sFunctions
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -354,7 +354,7 @@ proto
 )
 {
 return
-NULL
+nullptr
 ;
 }
 js
@@ -420,7 +420,7 @@ if
 constructor
 )
 return
-NULL
+nullptr
 ;
 js
 :
@@ -617,7 +617,7 @@ isUndefined
 {
 parent
 =
-NULL
+nullptr
 ;
 }
 else
@@ -1845,10 +1845,10 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 Finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 Trace
 }
 {
@@ -2182,10 +2182,10 @@ ProtoClass
 )
 Construct
 0
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -2196,7 +2196,7 @@ proto
 )
 {
 return
-NULL
+nullptr
 ;
 }
 js
@@ -2262,7 +2262,7 @@ if
 constructor
 )
 return
-NULL
+nullptr
 ;
 js
 :
@@ -2567,10 +2567,10 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 Finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 Trace
 }
 {
@@ -2786,7 +2786,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 Class
 (
@@ -2802,7 +2802,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -3238,7 +3238,7 @@ aWorker
 )
 {
 return
-NULL
+nullptr
 ;
 }
 WorkerPrivate
@@ -3267,7 +3267,7 @@ w
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

@@ -1199,7 +1199,7 @@ called
 ;
 sTestObserver
 =
-NULL
+nullptr
 ;
 #
 endif

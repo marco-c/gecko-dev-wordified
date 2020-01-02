@@ -745,7 +745,7 @@ Paths
 *
 gPaths
 =
-NULL
+nullptr
 ;
 }
 /
@@ -1655,7 +1655,7 @@ ConstantSpec
 define
 PROP_END
 {
-NULL
+nullptr
 JS
 :
 :
@@ -3675,7 +3675,7 @@ val
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3710,7 +3710,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 aProperty
 "
@@ -3721,7 +3721,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3730,8 +3730,8 @@ JS_DefineObject
 cx
 aObject
 aProperty
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -3917,7 +3917,7 @@ if
 gPaths
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -3946,7 +3946,7 @@ but
 gPaths
 =
 =
-NULL
+nullptr
 |
 .
 We
@@ -3977,7 +3977,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_OPEN
 "
 OSFileConstants

@@ -617,8 +617,8 @@ Construct
 0
 sProperties
 sFunctions
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -1305,7 +1305,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_WRONG_CONSTRUCTOR
 sClass
 .
@@ -1932,7 +1932,7 @@ event
 preventDefault
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -4223,8 +4223,8 @@ Construct
 0
 sProperties
 sFunctions
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -4949,7 +4949,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 Class
 (
@@ -4965,7 +4965,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -4986,7 +4986,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_WRONG_CONSTRUCTOR
 Class
 (
@@ -5069,7 +5069,7 @@ get
 (
 )
 :
-NULL
+nullptr
 )
 ;
 return

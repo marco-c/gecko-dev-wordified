@@ -596,7 +596,7 @@ sVolumeManager
 )
 {
 return
-NULL
+nullptr
 ;
 }
 VolumeArray
@@ -662,7 +662,7 @@ vol
 }
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2408,7 +2408,7 @@ XRE_GetIOMessageLoop
 ;
 sVolumeManager
 =
-NULL
+nullptr
 ;
 }
 /
