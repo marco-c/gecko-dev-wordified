@@ -665,6 +665,7 @@ PROFILER_LABEL
 (
 name_space
 info
+category
 )
 do
 {
@@ -736,6 +737,7 @@ PROFILER_LABEL_PRINTF
 (
 name_space
 info
+category
 format
 .
 .
@@ -846,6 +848,7 @@ PROFILER_MAIN_THREAD_LABEL
 (
 name_space
 info
+category
 )
 do
 {
@@ -860,6 +863,7 @@ PROFILER_MAIN_THREAD_LABEL_PRINTF
 (
 name_space
 info
+category
 format
 .
 .
