@@ -248,8 +248,13 @@ aAc
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 aJSVal
 )
 ;
