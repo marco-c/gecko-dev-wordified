@@ -2039,7 +2039,7 @@ deletePendingIntent
 ;
 GeckoAppShell
 .
-sNotificationClient
+notificationClient
 .
 add
 (
@@ -2276,7 +2276,7 @@ id
 {
 GeckoAppShell
 .
-sNotificationClient
+notificationClient
 .
 remove
 (
