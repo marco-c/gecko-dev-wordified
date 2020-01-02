@@ -4893,7 +4893,7 @@ true
 NetworkStats
 #
 ifdef
-MOZ_B2G_RIL
+MOZ_WIDGET_GONK
 pref
 (
 "

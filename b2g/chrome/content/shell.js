@@ -377,7 +377,7 @@ jsm
 ;
 #
 ifdef
-MOZ_B2G_RIL
+MOZ_WIDGET_GONK
 Cu
 .
 import
@@ -4539,7 +4539,7 @@ ContentStart
 ;
 #
 ifdef
-MOZ_B2G_RIL
+MOZ_WIDGET_GONK
 Cu
 .
 import
