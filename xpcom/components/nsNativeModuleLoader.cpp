@@ -674,7 +674,7 @@ NS_ASSERTION
 (
 data
 .
-module
+mModule
 "
 Corrupt
 mLibraries
@@ -715,7 +715,7 @@ get
 return
 data
 .
-module
+mModule
 ;
 }
 /
@@ -747,7 +747,7 @@ Load
 &
 data
 .
-library
+mLibrary
 )
 ;
 }
@@ -939,7 +939,7 @@ PR_FindSymbol
 (
 data
 .
-library
+mLibrary
 "
 NSModule
 "
@@ -981,7 +981,7 @@ PR_UnloadLibrary
 (
 data
 .
-library
+mLibrary
 )
 ;
 return
@@ -990,7 +990,7 @@ nullptr
 }
 data
 .
-module
+mModule
 =
 *
 (
@@ -1018,7 +1018,7 @@ kVersion
 =
 data
 .
-module
+mModule
 -
 >
 mVersion
@@ -1058,7 +1058,7 @@ get
 )
 data
 .
-module
+mModule
 -
 >
 mVersion
@@ -1075,7 +1075,7 @@ PR_UnloadLibrary
 (
 data
 .
-library
+mLibrary
 )
 ;
 return
@@ -1096,7 +1096,7 @@ infallible
 return
 data
 .
-module
+mModule
 ;
 }
 PLDHashOperator
@@ -1117,7 +1117,7 @@ void
 {
 aLoadData
 .
-module
+mModule
 =
 nullptr
 ;
@@ -1246,7 +1246,7 @@ PR_UnloadLibrary
 (
 aLoadData
 .
-library
+mLibrary
 )
 ;
 NS_ASSERTION
