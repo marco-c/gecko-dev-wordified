@@ -1941,6 +1941,10 @@ top
 document
 )
 ;
+if
+(
+browser
+)
 this
 .
 _setPluginNotificationIcon
@@ -2114,6 +2118,13 @@ top
 .
 document
 )
+;
+if
+(
+!
+browser
+)
+return
 ;
 switch
 (
