@@ -473,11 +473,9 @@ selectedTab
 tab
 ;
 yield
-whenBrowserLoaded
+whenTabRestored
 (
 tab
-.
-linkedBrowser
 )
 ;
 /
