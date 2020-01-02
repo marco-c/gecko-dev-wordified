@@ -5265,7 +5265,8 @@ AssertCurrentThreadIn
 )
 ;
 mPlaybackStatistics
-.
+-
+>
 Start
 (
 )
@@ -5317,7 +5318,8 @@ AssertCurrentThreadIn
 )
 ;
 mPlaybackStatistics
-.
+-
+>
 Stop
 (
 )
@@ -8520,7 +8522,10 @@ video
 frame
 )
 .
+nsRefPtr
+<
 MediaChannelStatistics
+>
 mPlaybackStatistics
 ;
 /

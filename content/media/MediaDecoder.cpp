@@ -2451,6 +2451,13 @@ mOwner
 (
 nullptr
 )
+mPlaybackStatistics
+(
+new
+MediaChannelStatistics
+(
+)
+)
 mPinnedForSeek
 (
 false
@@ -5018,7 +5025,8 @@ mDuration
 }
 return
 mPlaybackStatistics
-.
+-
+>
 GetRateAtLastStop
 (
 aReliable
@@ -5413,7 +5421,8 @@ mDecoderPosition
 )
 {
 mPlaybackStatistics
-.
+-
+>
 AddBytes
 (
 aBytes
