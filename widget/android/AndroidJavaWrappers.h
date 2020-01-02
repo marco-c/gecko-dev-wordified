@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsIAndroidBridge
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

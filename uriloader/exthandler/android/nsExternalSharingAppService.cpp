@@ -175,6 +175,15 @@ EmptyString
 (
 )
 ;
+if
+(
+AndroidBridge
+:
+:
+Bridge
+(
+)
+)
 return
 GeckoAppShell
 :
@@ -191,6 +200,9 @@ title
 ?
 NS_OK
 :
+NS_ERROR_FAILURE
+;
+return
 NS_ERROR_FAILURE
 ;
 }
