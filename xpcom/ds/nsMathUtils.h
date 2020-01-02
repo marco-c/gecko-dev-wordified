@@ -288,6 +288,13 @@ defined
 (
 __GNUC__
 )
+&
+&
+!
+defined
+(
+__clang__
+)
 inline
 int32_t
 NS_lroundup30
