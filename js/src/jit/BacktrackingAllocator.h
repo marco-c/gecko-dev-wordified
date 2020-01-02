@@ -1261,6 +1261,9 @@ LiveIntervalVector
 intervals
 uint32_t
 vreg
+LiveInterval
+*
+spillInterval
 CodePosition
 from
 CodePosition
