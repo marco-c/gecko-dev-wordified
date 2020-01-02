@@ -4196,6 +4196,15 @@ kwargs
 )
 :
         
+from
+mozbuild
+.
+controller
+.
+building
+import
+BuildDriver
+        
 self
 .
 _ensure_state_subdir_exists
@@ -4203,6 +4212,24 @@ _ensure_state_subdir_exists
 '
 .
 '
+)
+        
+driver
+=
+self
+.
+_spawn
+(
+BuildDriver
+)
+        
+driver
+.
+install_tests
+(
+remove
+=
+False
 )
         
 mochitest
@@ -4416,6 +4443,15 @@ kwargs
 )
 :
         
+from
+mozbuild
+.
+controller
+.
+building
+import
+BuildDriver
+        
 self
 .
 _ensure_state_subdir_exists
@@ -4423,6 +4459,24 @@ _ensure_state_subdir_exists
 '
 .
 '
+)
+        
+driver
+=
+self
+.
+_spawn
+(
+BuildDriver
+)
+        
+driver
+.
+install_tests
+(
+remove
+=
+False
 )
         
 mochitest
@@ -4506,6 +4560,15 @@ kwargs
 )
 :
         
+from
+mozbuild
+.
+controller
+.
+building
+import
+BuildDriver
+        
 self
 .
 _ensure_state_subdir_exists
@@ -4513,6 +4576,24 @@ _ensure_state_subdir_exists
 '
 .
 '
+)
+        
+driver
+=
+self
+.
+_spawn
+(
+BuildDriver
+)
+        
+driver
+.
+install_tests
+(
+remove
+=
+False
 )
         
 mochitest

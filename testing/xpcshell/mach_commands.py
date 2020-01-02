@@ -1850,6 +1850,15 @@ params
 )
 :
         
+from
+mozbuild
+.
+controller
+.
+building
+import
+BuildDriver
+        
 #
 We
 should
@@ -1901,6 +1910,24 @@ _ensure_state_subdir_exists
 '
 .
 '
+)
+        
+driver
+=
+self
+.
+_spawn
+(
+BuildDriver
+)
+        
+driver
+.
+install_tests
+(
+remove
+=
+False
 )
         
 xpcshell
