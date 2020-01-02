@@ -791,25 +791,6 @@ sandbox
 CPP_SOURCES
 '
 ]
-and
-os
-.
-path
-.
-join
-(
-'
-js
-'
-'
-src
-'
-)
-not
-in
-sandbox
-.
-main_path
 :
             
 for
