@@ -1556,6 +1556,9 @@ Range
 :
 NewInt32Range
 (
+alloc
+(
+)
 JSVAL_INT_MIN
 JSVAL_INT_MAX
 -
@@ -1621,6 +1624,9 @@ Range
 :
 NewInt32Range
 (
+alloc
+(
+)
 JSVAL_INT_MIN
 +
 1
@@ -1989,6 +1995,11 @@ alloc
 )
 val
 new
+(
+alloc
+(
+)
+)
 Range
 (
 comp
@@ -2786,6 +2797,9 @@ Range
 :
 intersect
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -2823,6 +2837,9 @@ lhs
 )
 return
 new
+(
+alloc
+)
 Range
 (
 *
@@ -2836,6 +2853,9 @@ rhs
 )
 return
 new
+(
+alloc
+)
 Range
 (
 *
@@ -3492,6 +3512,9 @@ nullptr
 }
 return
 new
+(
+alloc
+)
 Range
 (
 newLower
@@ -4308,6 +4331,9 @@ Range
 :
 add
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -4492,6 +4518,9 @@ IncludesInfinityAndNaN
 ;
 return
 new
+(
+alloc
+)
 Range
 (
 l
@@ -4521,6 +4550,9 @@ Range
 :
 sub
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -4704,6 +4736,9 @@ IncludesInfinityAndNaN
 ;
 return
 new
+(
+alloc
+)
 Range
 (
 l
@@ -4733,6 +4768,9 @@ Range
 :
 and_
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -4806,6 +4844,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 INT32_MIN
 Max
 (
@@ -4958,6 +4997,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 lower
 upper
 )
@@ -4970,6 +5010,9 @@ Range
 :
 or_
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -5089,6 +5132,9 @@ lower
 )
 return
 new
+(
+alloc
+)
 Range
 (
 *
@@ -5110,6 +5156,9 @@ lower
 )
 return
 new
+(
+alloc
+)
 Range
 (
 *
@@ -5150,6 +5199,9 @@ lower
 )
 return
 new
+(
+alloc
+)
 Range
 (
 *
@@ -5171,6 +5223,9 @@ lower
 )
 return
 new
+(
+alloc
+)
 Range
 (
 *
@@ -5555,6 +5610,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 lower
 upper
 )
@@ -5567,6 +5623,9 @@ Range
 :
 xor_
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -6097,6 +6156,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 lower
 upper
 )
@@ -6109,6 +6169,9 @@ Range
 :
 not_
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -6131,6 +6194,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 ~
 op
 -
@@ -6155,6 +6219,9 @@ Range
 :
 mul
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -6354,6 +6421,9 @@ rhs
 )
 return
 new
+(
+alloc
+)
 Range
 (
 NoInt32LowerBound
@@ -6456,6 +6526,9 @@ upper
 ;
 return
 new
+(
+alloc
+)
 Range
 (
 Min
@@ -6496,6 +6569,9 @@ Range
 :
 lsh
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -6630,6 +6706,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 uint32_t
 (
 lhs
@@ -6663,6 +6740,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 INT32_MIN
 INT32_MAX
 )
@@ -6675,6 +6753,9 @@ Range
 :
 rsh
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -6706,6 +6787,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 lhs
 -
 >
@@ -6734,6 +6816,9 @@ Range
 :
 ursh
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -6849,6 +6934,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 uint32_t
 (
 lhs
@@ -6894,6 +6980,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 UINT32_MAX
 >
@@ -6909,6 +6996,9 @@ Range
 :
 lsh
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -6945,6 +7035,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 INT32_MIN
 INT32_MAX
 )
@@ -6957,6 +7048,9 @@ Range
 :
 rsh
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -6993,6 +7087,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 Min
 (
 lhs
@@ -7023,6 +7118,9 @@ Range
 :
 ursh
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -7100,6 +7198,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 lhs
 -
@@ -7126,6 +7225,9 @@ Range
 :
 abs
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -7150,6 +7252,9 @@ upper_
 ;
 return
 new
+(
+alloc
+)
 Range
 (
 Max
@@ -7227,6 +7332,9 @@ Range
 :
 min
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -7271,6 +7379,9 @@ nullptr
 ;
 return
 new
+(
+alloc
+)
 Range
 (
 Min
@@ -7346,6 +7457,9 @@ Range
 :
 max
 (
+TempAllocator
+&
+alloc
 const
 Range
 *
@@ -7390,6 +7504,9 @@ nullptr
 ;
 return
 new
+(
+alloc
+)
 Range
 (
 Max
@@ -7828,6 +7945,9 @@ MPhi
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -8026,6 +8146,9 @@ else
 range
 =
 new
+(
+alloc
+)
 Range
 (
 input
@@ -8044,6 +8167,9 @@ MBeta
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 bool
@@ -8069,6 +8195,7 @@ Range
 :
 intersect
 (
+alloc
 &
 opRange
 comparison_
@@ -8123,6 +8250,9 @@ MConstant
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -8154,6 +8284,7 @@ Range
 :
 NewDoubleRange
 (
+alloc
 d
 d
 )
@@ -8190,6 +8321,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 b
 b
 )
@@ -8203,6 +8335,9 @@ MCharCodeAt
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 /
@@ -8230,6 +8365,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 0
 65535
 )
@@ -8242,6 +8378,9 @@ MClampToUint8
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 setRange
@@ -8251,6 +8390,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 255
 )
@@ -8263,6 +8403,9 @@ MBitAnd
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -8302,6 +8445,7 @@ Range
 :
 and_
 (
+alloc
 &
 left
 &
@@ -8316,6 +8460,9 @@ MBitOr
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -8355,6 +8502,7 @@ Range
 :
 or_
 (
+alloc
 &
 left
 &
@@ -8369,6 +8517,9 @@ MBitXor
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -8408,6 +8559,7 @@ Range
 :
 xor_
 (
+alloc
 &
 left
 &
@@ -8422,6 +8574,9 @@ MBitNot
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -8446,6 +8601,7 @@ Range
 :
 not_
 (
+alloc
 &
 op
 )
@@ -8458,6 +8614,9 @@ MLsh
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -8517,6 +8676,7 @@ Range
 :
 lsh
 (
+alloc
 &
 left
 &
@@ -8553,6 +8713,7 @@ Range
 :
 lsh
 (
+alloc
 &
 left
 c
@@ -8566,6 +8727,9 @@ MRsh
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -8625,6 +8789,7 @@ Range
 :
 rsh
 (
+alloc
 &
 left
 &
@@ -8661,6 +8826,7 @@ Range
 :
 rsh
 (
+alloc
 &
 left
 c
@@ -8674,6 +8840,9 @@ MUrsh
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -8808,6 +8977,7 @@ Range
 :
 ursh
 (
+alloc
 &
 left
 &
@@ -8844,6 +9014,7 @@ Range
 :
 ursh
 (
+alloc
 &
 left
 c
@@ -8873,6 +9044,9 @@ MAbs
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -8908,6 +9082,7 @@ Range
 :
 abs
 (
+alloc
 &
 other
 )
@@ -8935,6 +9110,9 @@ MMinMax
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -8981,6 +9159,7 @@ Range
 :
 max
 (
+alloc
 &
 left
 &
@@ -8992,6 +9171,7 @@ Range
 :
 min
 (
+alloc
 &
 left
 &
@@ -9006,6 +9186,9 @@ MAdd
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -9054,6 +9237,7 @@ Range
 :
 add
 (
+alloc
 &
 left
 &
@@ -9085,6 +9269,9 @@ MSub
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -9133,6 +9320,7 @@ Range
 :
 sub
 (
+alloc
 &
 left
 &
@@ -9164,6 +9352,9 @@ MMul
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -9231,6 +9422,7 @@ Range
 :
 mul
 (
+alloc
 &
 left
 &
@@ -9271,6 +9463,9 @@ MMod
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -9726,6 +9921,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 Min
 (
@@ -10088,6 +10284,9 @@ absBound
 setRange
 (
 new
+(
+alloc
+)
 Range
 (
 lower
@@ -10127,6 +10326,9 @@ MDiv
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -10259,6 +10461,9 @@ lower
 setRange
 (
 new
+(
+alloc
+)
 Range
 (
 0
@@ -10399,6 +10604,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 UINT32_MAX
 )
@@ -10412,6 +10618,9 @@ MSqrt
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -10514,6 +10723,9 @@ input
 setRange
 (
 new
+(
+alloc
+)
 Range
 (
 0
@@ -10538,11 +10750,17 @@ MToDouble
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 setRange
 (
 new
+(
+alloc
+)
 Range
 (
 getOperand
@@ -10559,11 +10777,17 @@ MToFloat32
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 setRange
 (
 new
+(
+alloc
+)
 Range
 (
 getOperand
@@ -10580,6 +10804,9 @@ MTruncateToInt32
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -10587,6 +10814,9 @@ Range
 output
 =
 new
+(
+alloc
+)
 Range
 (
 getOperand
@@ -10614,6 +10844,9 @@ MToInt32
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -10621,6 +10854,9 @@ Range
 output
 =
 new
+(
+alloc
+)
 Range
 (
 getOperand
@@ -10647,6 +10883,9 @@ Range
 *
 GetTypedArrayRange
 (
+TempAllocator
+&
+alloc
 int
 type
 )
@@ -10674,6 +10913,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 UINT8_MAX
 )
@@ -10690,6 +10930,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 UINT16_MAX
 )
@@ -10706,6 +10947,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 UINT32_MAX
 )
@@ -10722,6 +10964,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 INT8_MIN
 INT8_MAX
 )
@@ -10738,6 +10981,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 INT16_MIN
 INT16_MAX
 )
@@ -10754,6 +10998,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 INT32_MIN
 INT32_MAX
 )
@@ -10783,6 +11028,9 @@ MLoadTypedArrayElement
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 /
@@ -10824,6 +11072,7 @@ setRange
 (
 GetTypedArrayRange
 (
+alloc
 arrayType
 (
 )
@@ -10837,6 +11086,9 @@ MLoadTypedArrayElementStatic
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 /
@@ -10889,6 +11141,7 @@ setRange
 (
 GetTypedArrayRange
 (
+alloc
 typedArray_
 -
 >
@@ -10905,6 +11158,9 @@ MArrayLength
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 /
@@ -10948,6 +11204,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 INT32_MAX
 )
@@ -10960,6 +11217,9 @@ MInitializedLength
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 setRange
@@ -10969,6 +11229,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 JSObject
 :
@@ -10984,6 +11245,9 @@ MTypedArrayLength
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 setRange
@@ -10993,6 +11257,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 INT32_MAX
 )
@@ -11005,6 +11270,9 @@ MStringLength
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 static_assert
@@ -11032,6 +11300,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 JSString
 :
@@ -11047,6 +11316,9 @@ MArgumentsLength
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 /
@@ -11101,6 +11373,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 SNAPSHOT_MAX_NARGS
 )
@@ -11113,6 +11386,9 @@ MBoundsCheck
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 /
@@ -11161,6 +11437,9 @@ here
 setRange
 (
 new
+(
+alloc
+)
 Range
 (
 index
@@ -11176,6 +11455,9 @@ MArrayPush
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 /
@@ -11194,6 +11476,7 @@ Range
 :
 NewUInt32Range
 (
+alloc
 0
 UINT32_MAX
 )
@@ -11206,6 +11489,9 @@ MMathFunction
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 Range
@@ -11246,6 +11532,7 @@ Range
 :
 NewDoubleRange
 (
+alloc
 -
 1
 .
@@ -11357,6 +11644,7 @@ Range
 :
 NewInt32Range
 (
+alloc
 lower
 upper
 )
@@ -11377,6 +11665,9 @@ MRandom
 :
 computeRange
 (
+TempAllocator
+&
+alloc
 )
 {
 setRange
@@ -11386,6 +11677,7 @@ Range
 :
 NewDoubleRange
 (
+alloc
 0
 .
 0
@@ -13384,6 +13676,11 @@ nullptr
 }
 return
 new
+(
+alloc
+(
+)
+)
 LoopIterationBound
 (
 header
@@ -13652,6 +13949,11 @@ phi
 setRange
 (
 new
+(
+alloc
+(
+)
+)
 Range
 (
 )
@@ -14032,9 +14334,14 @@ range
 >
 setSymbolicLower
 (
-new
 SymbolicBound
+:
+:
+New
 (
+alloc
+(
+)
 nullptr
 initialSum
 )
@@ -14050,9 +14357,14 @@ range
 >
 setSymbolicUpper
 (
-new
 SymbolicBound
+:
+:
+New
 (
+alloc
+(
+)
 loopBound
 limitSum
 )
@@ -14101,9 +14413,14 @@ range
 >
 setSymbolicUpper
 (
-new
 SymbolicBound
+:
+:
+New
 (
+alloc
+(
+)
 nullptr
 initialSum
 )
@@ -14119,9 +14436,14 @@ range
 >
 setSymbolicLower
 (
-new
 SymbolicBound
+:
+:
+New
 (
+alloc
+(
+)
 loopBound
 limitSum
 )
@@ -14449,6 +14771,7 @@ def
 >
 computeRange
 (
+alloc
 )
 ;
 }
@@ -14518,6 +14841,7 @@ def
 >
 computeRange
 (
+alloc
 )
 ;
 }
@@ -14571,6 +14895,7 @@ def
 >
 computeRange
 (
+alloc
 )
 ;
 }
@@ -14660,6 +14985,7 @@ mul
 >
 computeRange
 (
+alloc
 )
 ;
 if
@@ -14715,6 +15041,7 @@ def
 >
 computeRange
 (
+alloc
 )
 ;
 }
@@ -14771,6 +15098,7 @@ def
 >
 computeRange
 (
+alloc
 )
 ;
 }
@@ -15430,6 +15758,9 @@ def
 >
 computeRange
 (
+alloc
+(
+)
 )
 ;
 IonSpew
@@ -16048,6 +16379,11 @@ alloc
 )
 ins
 new
+(
+alloc
+(
+)
+)
 Range
 (
 r

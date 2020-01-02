@@ -726,10 +726,16 @@ LAllocation
 *
 New
 (
+TempAllocator
+&
+alloc
 )
 {
 return
 new
+(
+alloc
+)
 LAllocation
 (
 )
@@ -745,6 +751,9 @@ LAllocation
 *
 New
 (
+TempAllocator
+&
+alloc
 const
 T
 &
@@ -753,6 +762,9 @@ other
 {
 return
 new
+(
+alloc
+)
 LAllocation
 (
 other
@@ -3343,7 +3355,7 @@ class
 LInstruction
 :
 public
-TempObject
+OldTempObject
 public
 InlineListNode
 <

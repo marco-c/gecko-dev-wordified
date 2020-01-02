@@ -3065,7 +3065,7 @@ MUST_REUSE_INPUT
 {
 LAllocation
 *
-alloc
+inputAlloc
 =
 reg
 -
@@ -3094,14 +3094,17 @@ LAllocation
 :
 New
 (
-*
 alloc
+(
+)
+*
+inputAlloc
 )
 ;
 JS_ASSERT
 (
 !
-alloc
+inputAlloc
 -
 >
 isUse
@@ -3110,7 +3113,7 @@ isUse
 )
 ;
 *
-alloc
+inputAlloc
 =
 *
 interval
@@ -3135,7 +3138,7 @@ ins
 )
 )
 origAlloc
-alloc
+inputAlloc
 )
 )
 return
