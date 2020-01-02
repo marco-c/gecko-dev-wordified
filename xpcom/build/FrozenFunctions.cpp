@@ -231,8 +231,7 @@ post
 4
 &
 NS_GetDebug
-&
-NS_GetTraceRefcnt
+nullptr
 /
 /
 these
