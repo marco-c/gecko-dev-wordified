@@ -780,6 +780,16 @@ write
 "
 ]
 }
+"
+wifip2p
+-
+pairing
+-
+request
+"
+:
+{
+}
 }
 ;
 this
