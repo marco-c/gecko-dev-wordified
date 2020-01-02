@@ -141,6 +141,17 @@ mozilla
 /
 plugins
 /
+ScopedMethodFactory
+.
+h
+"
+#
+include
+"
+mozilla
+/
+plugins
+/
 PluginProcessParent
 .
 h
@@ -1732,7 +1743,7 @@ nsNPAPIPlugin
 *
 mPlugin
 ;
-ScopedRunnableMethodFactory
+ScopedMethodFactory
 <
 PluginModuleParent
 >
