@@ -31,7 +31,6 @@ zero
 /
 Tests
 that
-line
 graphs
 properly
 handle
