@@ -346,7 +346,11 @@ BaselineScript
 uint32_t
 prologueOffset
 uint32_t
+epilogueOffset
+uint32_t
 spsPushToggleOffset
+uint32_t
+postDebugPrologueOffset
 )
 :
 method_
@@ -364,6 +368,10 @@ prologueOffset_
 (
 prologueOffset
 )
+epilogueOffset_
+(
+epilogueOffset
+)
 #
 ifdef
 DEBUG
@@ -376,6 +384,10 @@ endif
 spsPushToggleOffset_
 (
 spsPushToggleOffset
+)
+postDebugPrologueOffset_
+(
+postDebugPrologueOffset
 )
 flags_
 (
@@ -1545,7 +1557,8 @@ BaselineCompile
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 )
 {
@@ -2535,7 +2548,11 @@ cx
 uint32_t
 prologueOffset
 uint32_t
+epilogueOffset
+uint32_t
 spsPushToggleOffset
+uint32_t
+postDebugPrologueOffset
 size_t
 icEntries
 size_t
@@ -2691,7 +2708,9 @@ script
 BaselineScript
 (
 prologueOffset
+epilogueOffset
 spsPushToggleOffset
+postDebugPrologueOffset
 )
 ;
 size_t
@@ -4028,7 +4047,8 @@ BaselineScript
 :
 copyICEntries
 (
-HandleScript
+JSScript
+*
 script
 const
 ICEntry

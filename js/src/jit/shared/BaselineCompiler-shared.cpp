@@ -161,7 +161,8 @@ cx
 TempAllocator
 &
 alloc
-HandleScript
+JSScript
+*
 script
 )
 :
@@ -171,7 +172,6 @@ cx
 )
 script
 (
-cx
 script
 )
 pc
@@ -244,7 +244,6 @@ script
 )
 frame
 (
-cx
 script
 masm
 )
@@ -743,7 +742,10 @@ pcToOffset
 (
 pc
 )
-false
+ICEntry
+:
+:
+Kind_CallVM
 )
 ;
 entry
