@@ -291,6 +291,10 @@ const
 nsAString
 &
 aCookie
+const
+nsAString
+&
+aAppId
 )
 ;
 void
@@ -304,6 +308,10 @@ const
 nsAString
 &
 aCookie
+const
+nsAString
+&
+aAppId
 )
 ;
 HRESULT
@@ -345,6 +353,10 @@ CreateWindowsNotificationFromXml
 IXmlDocument
 *
 toastXml
+const
+nsAString
+&
+aAppId
 )
 ;
 ComPtr
