@@ -1386,6 +1386,12 @@ DOMWindowClose
 "
 )
 ;
+aEvent
+.
+preventDefault
+(
+)
+;
 }
 false
 )
