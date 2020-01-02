@@ -1506,7 +1506,7 @@ data
 const
 ;
 inline
-Value
+HandleValue
 returnValue
 (
 )
@@ -5307,8 +5307,7 @@ HAS_RVAL
 )
 ;
 }
-Value
-&
+MutableHandleValue
 returnValue
 (
 )
@@ -5329,7 +5328,14 @@ setUndefined
 )
 ;
 return
+MutableHandleValue
+:
+:
+fromMarkedLocation
+(
+&
 rval_
+)
 ;
 }
 void

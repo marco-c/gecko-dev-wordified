@@ -2643,8 +2643,11 @@ gc
 MarkValueUnbarriered
 (
 trc
-&
 returnValue
+(
+)
+.
+address
 (
 )
 "
@@ -6827,7 +6830,6 @@ isBaselineJS
 )
 )
 return
-*
 data_
 .
 ionFrames_

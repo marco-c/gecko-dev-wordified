@@ -5558,7 +5558,7 @@ AutoCompartment
 ac
 bool
 ok
-Value
+HandleValue
 val
 MutableHandleValue
 vp
