@@ -1165,6 +1165,9 @@ mLastSwitchOffset
 ;
 }
 ;
+class
+MediaStreamGraphInitThreadRunnable
+;
 /
 *
 *
@@ -1231,6 +1234,9 @@ void
 RunThread
 (
 )
+;
+friend
+MediaStreamGraphInitThreadRunnable
 ;
 private
 :
