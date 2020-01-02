@@ -269,7 +269,7 @@ XP_MACOSX
 !
 defined
 (
-ANDROID
+HAVE_ARC4RANDOM
 )
 /
 *
@@ -478,6 +478,9 @@ XP_WIN
 and
 non
 XP_MACOSX
+and
+non
+ARC4RANDOM
 *
 /
 return
@@ -740,7 +743,7 @@ values
 /
 #
 ifndef
-ANDROID
+HAVE_ARC4RANDOM
 setstate
 (
 mState
@@ -765,7 +768,7 @@ bytesLeft
 {
 #
 ifdef
-ANDROID
+HAVE_ARC4RANDOM
 long
 rval
 =
@@ -969,7 +972,7 @@ m3
 ;
 #
 ifndef
-ANDROID
+HAVE_ARC4RANDOM
 /
 *
 Restore

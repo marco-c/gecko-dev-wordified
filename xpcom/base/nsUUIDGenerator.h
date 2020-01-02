@@ -199,7 +199,7 @@ XP_MACOSX
 !
 defined
 (
-ANDROID
+HAVE_ARC4RANDOM
 )
 char
 mState
