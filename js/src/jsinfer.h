@@ -6736,7 +6736,8 @@ ArrayPrototypeHasIndexedProperty
 CompilerConstraintList
 *
 constraints
-HandleScript
+JSScript
+*
 script
 )
 ;

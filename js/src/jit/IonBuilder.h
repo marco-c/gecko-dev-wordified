@@ -3855,6 +3855,8 @@ TemporaryTypeSet
 ctorTypes
 uint32_t
 discards
+Native
+native
 )
 ;
 /
