@@ -62,6 +62,17 @@ mozilla_dom_apps_InterAppComm_h
 #
 define
 mozilla_dom_apps_InterAppComm_h
+#
+include
+"
+mozilla
+/
+dom
+/
+MozInterAppMessageEvent
+.
+h
+"
 /
 /
 Forward
