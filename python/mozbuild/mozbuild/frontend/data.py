@@ -1934,6 +1934,10 @@ basename
 '
 static_libraries
 '
+        
+'
+refcount
+'
     
 )
     
@@ -1959,6 +1963,12 @@ self
 basename
 =
 basename
+        
+self
+.
+refcount
+=
+0
         
 self
 .
