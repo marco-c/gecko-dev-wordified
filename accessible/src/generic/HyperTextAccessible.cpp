@@ -230,7 +230,7 @@ h
 #
 include
 "
-nsIFrame
+nsContainerFrame
 .
 h
 "
@@ -8396,7 +8396,7 @@ no
 line
 iterator
 }
-nsIFrame
+nsContainerFrame
 *
 parentFrame
 =

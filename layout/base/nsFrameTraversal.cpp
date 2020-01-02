@@ -128,6 +128,13 @@ nsPlaceholderFrame
 .
 h
 "
+#
+include
+"
+nsContainerFrame
+.
+h
+"
 class
 nsFrameIterator
 :

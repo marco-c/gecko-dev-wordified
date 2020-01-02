@@ -6845,7 +6845,7 @@ corresponding
 overflow
 list
 .
-nsIFrame
+nsContainerFrame
 *
 parent
 =

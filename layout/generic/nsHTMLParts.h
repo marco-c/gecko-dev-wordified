@@ -310,7 +310,10 @@ block
 "
 layout
 behavior
-nsIFrame
+class
+nsBlockFrame
+;
+nsBlockFrame
 *
 NS_NewBlockFrame
 (
@@ -435,7 +438,7 @@ formatting
 context
 blockframe
 inline
-nsIFrame
+nsBlockFrame
 *
 NS_NewBlockFormattingContext
 (
@@ -711,7 +714,10 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+class
+nsFirstLineFrame
+;
+nsFirstLineFrame
 *
 NS_NewFirstLineFrame
 (

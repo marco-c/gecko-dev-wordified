@@ -3179,7 +3179,7 @@ nsMathMLmathBlockFrame
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmathBlockFrame
 (
@@ -3648,7 +3648,7 @@ nsMathMLmathInlineFrame
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmathInlineFrame
 (

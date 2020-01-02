@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsContainerFrame
+.
+h
+"
+#
+include
+"
 nsIImageLoadingContent
 .
 h

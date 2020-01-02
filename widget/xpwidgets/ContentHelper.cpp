@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsQueryFrame
+nsContainerFrame
 .
 h
 "

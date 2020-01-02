@@ -324,6 +324,13 @@ nsIStatefulFrame
 h
 "
 #
+include
+"
+nsContainerFrame
+.
+h
+"
+#
 ifdef
 DEBUG
 /

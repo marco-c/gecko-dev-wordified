@@ -1119,7 +1119,7 @@ public
 :
 NS_DECL_FRAMEARENA_HELPERS
 friend
-nsIFrame
+nsFirstLineFrame
 *
 NS_NewFirstLineFrame
 (

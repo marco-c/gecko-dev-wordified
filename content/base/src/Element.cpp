@@ -271,7 +271,7 @@ h
 #
 include
 "
-nsIFrame
+nsContainerFrame
 .
 h
 "
@@ -1419,7 +1419,7 @@ if
 rootFrame
 )
 {
-nsIFrame
+nsContainerFrame
 *
 parentFrame
 =

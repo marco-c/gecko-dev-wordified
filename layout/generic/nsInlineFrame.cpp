@@ -6828,7 +6828,7 @@ endif
 /
 nsLineFrame
 implementation
-nsIFrame
+nsFirstLineFrame
 *
 NS_NewFirstLineFrame
 (

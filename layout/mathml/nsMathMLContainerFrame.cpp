@@ -10593,7 +10593,7 @@ argv
 =
 =
 =
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmathBlockFrame
 (
@@ -10648,7 +10648,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsBlockFrame
 )
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmathInlineFrame
 (
