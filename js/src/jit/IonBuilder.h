@@ -2901,14 +2901,6 @@ types
 TypeRepresentationSet
 *
 out
-types
-:
-:
-TypeTypedObject
-:
-:
-Kind
-kind
 )
 ;
 bool
