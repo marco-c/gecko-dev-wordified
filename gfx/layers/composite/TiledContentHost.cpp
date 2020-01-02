@@ -2349,16 +2349,11 @@ layer
 .
 for
 (
-ContainerLayer
+Layer
 *
 ancestor
 =
 GetLayer
-(
-)
--
->
-GetParent
 (
 )
 ;

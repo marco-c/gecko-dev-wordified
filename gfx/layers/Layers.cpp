@@ -1205,6 +1205,13 @@ mAnimationGeneration
 (
 0
 )
+mBackgroundColor
+(
+0
+0
+0
+0
+)
 {
 }
 Layer
@@ -5026,13 +5033,6 @@ mInheritedYScale
 .
 0f
 )
-mBackgroundColor
-(
-0
-0
-0
-0
-)
 mUseIntermediateSurface
 (
 false
@@ -5873,8 +5873,6 @@ mPreXScale
 mPreYScale
 mInheritedXScale
 mInheritedYScale
-mBackgroundColor
-mContentDescription
 )
 ;
 }
