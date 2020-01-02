@@ -885,8 +885,12 @@ nsIFrame
 *
 box
 =
+nsBox
+:
+:
 GetChildBox
 (
+this
 )
 ;
 nscoord
@@ -921,11 +925,9 @@ box
 ;
 box
 =
-box
--
->
 GetNextBox
 (
+box
 )
 ;
 count

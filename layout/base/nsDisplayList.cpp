@@ -9809,11 +9809,12 @@ false
 }
 frame
 =
-frame
--
->
+nsBox
+:
+:
 GetParentBox
 (
+frame
 )
 ;
 }

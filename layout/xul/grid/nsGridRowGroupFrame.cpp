@@ -331,8 +331,12 @@ nsIFrame
 *
 child
 =
+nsBox
+:
+:
 GetChildBox
 (
+this
 )
 ;
 while
@@ -353,11 +357,9 @@ aState
 ;
 child
 =
-child
--
->
 GetNextBox
 (
+child
 )
 ;
 }

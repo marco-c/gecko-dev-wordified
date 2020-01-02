@@ -2574,8 +2574,12 @@ scrollframe
 =
 do_QueryFrame
 (
+nsBox
+:
+:
 GetChildBox
 (
+this
 )
 )
 ;
