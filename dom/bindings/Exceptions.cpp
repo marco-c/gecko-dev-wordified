@@ -607,6 +607,16 @@ if
 glob
 )
 {
+/
+/
+XXXbz
+Can
+this
+actually
+be
+null
+here
+?
 return
 false
 ;
@@ -617,7 +627,6 @@ if
 WrapNewBindingObject
 (
 aCx
-glob
 aException
 &
 thrown
