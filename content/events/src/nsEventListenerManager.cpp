@@ -3504,9 +3504,6 @@ mTarget
 &
 !
 same
-&
-&
-aName
 )
 {
 mTarget
