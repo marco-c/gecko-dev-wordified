@@ -19035,15 +19035,6 @@ ignore
 page
 load
 errors
-aTab
-.
-removeAttribute
-(
-"
-busy
-"
-)
-;
 didStartLoad
 =
 false
