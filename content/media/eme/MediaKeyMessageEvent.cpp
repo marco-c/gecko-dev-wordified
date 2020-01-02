@@ -628,8 +628,7 @@ forget
 )
 ;
 }
-JSObject
-*
+void
 MediaKeyMessageEvent
 :
 :
@@ -638,6 +637,15 @@ GetMessage
 JSContext
 *
 cx
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aMessage
 ErrorResult
 &
 aRv
@@ -684,7 +692,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-nullptr
 ;
 }
 mRawMessage
@@ -702,8 +709,12 @@ ExposeObjectToActiveJS
 mMessage
 )
 ;
-return
+aMessage
+.
+set
+(
 mMessage
+)
 ;
 }
 void

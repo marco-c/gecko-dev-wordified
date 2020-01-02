@@ -347,8 +347,7 @@ this
 )
 ;
 }
-JSObject
-*
+void
 FileReaderSync
 :
 :
@@ -375,6 +374,15 @@ JSObject
 *
 >
 aBlob
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 ErrorResult
 &
 aRv
@@ -406,7 +414,6 @@ NS_ERROR_INVALID_ARG
 )
 ;
 return
-nullptr
 ;
 }
 uint64_t
@@ -440,7 +447,6 @@ rv
 )
 ;
 return
-nullptr
 ;
 }
 JS
@@ -507,7 +513,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-nullptr
 ;
 }
 uint32_t
@@ -542,7 +547,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-nullptr
 ;
 }
 nsCOMPtr
@@ -580,7 +584,6 @@ rv
 )
 ;
 return
-nullptr
 ;
 }
 uint32_t
@@ -619,7 +622,6 @@ rv
 )
 ;
 return
-nullptr
 ;
 }
 NS_ASSERTION
@@ -636,8 +638,12 @@ data
 "
 )
 ;
-return
+aRetval
+.
+set
+(
 jsArrayBuffer
+)
 ;
 }
 void

@@ -379,8 +379,7 @@ Float32Array
 .
 *
 /
-JSObject
-*
+void
 GetChannelData
 (
 JSContext
@@ -388,6 +387,15 @@ JSContext
 aJSContext
 uint32_t
 aChannel
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 ErrorResult
 &
 aRv

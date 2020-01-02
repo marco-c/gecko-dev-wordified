@@ -267,8 +267,7 @@ this
 )
 ;
 }
-JSObject
-*
+void
 Crypto
 :
 :
@@ -281,6 +280,15 @@ const
 ArrayBufferView
 &
 aArray
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 ErrorResult
 &
 aRv
@@ -382,7 +390,6 @@ NS_ERROR_DOM_TYPE_MISMATCH_ERR
 )
 ;
 return
-nullptr
 ;
 }
 aArray
@@ -420,8 +427,14 @@ continue
 "
 )
 ;
-return
+aRetval
+.
+set
+(
 view
+)
+;
+return
 ;
 }
 else
@@ -440,7 +453,6 @@ NS_ERROR_DOM_QUOTA_EXCEEDED_ERR
 )
 ;
 return
-nullptr
 ;
 }
 uint8_t
@@ -524,7 +536,6 @@ NS_ERROR_FAILURE
 )
 ;
 return
-nullptr
 ;
 }
 NS_ASSERTION
@@ -585,7 +596,6 @@ NS_ERROR_FAILURE
 )
 ;
 return
-nullptr
 ;
 }
 memcpy
@@ -601,8 +611,12 @@ buf
 )
 ;
 }
-return
+aRetval
+.
+set
+(
 view
+)
 ;
 }
 SubtleCrypto

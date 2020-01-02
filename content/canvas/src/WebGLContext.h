@@ -1678,8 +1678,7 @@ nsString
 retval
 )
 ;
-JSObject
-*
+void
 GetExtension
 (
 JSContext
@@ -1689,6 +1688,15 @@ const
 nsAString
 &
 aName
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 ErrorResult
 &
 rv

@@ -184,8 +184,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 Crypto
 )
-JSObject
-*
+void
 GetRandomValues
 (
 JSContext
@@ -195,6 +194,15 @@ const
 ArrayBufferView
 &
 aArray
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 ErrorResult
 &
 aRv
