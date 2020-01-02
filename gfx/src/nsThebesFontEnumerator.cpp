@@ -203,7 +203,7 @@ nsMemory
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

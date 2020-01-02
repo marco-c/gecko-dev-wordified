@@ -400,7 +400,7 @@ do_GetService
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

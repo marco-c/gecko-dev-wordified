@@ -130,7 +130,7 @@ nsDeviceContext
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

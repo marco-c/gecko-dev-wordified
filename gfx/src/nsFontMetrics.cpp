@@ -235,7 +235,7 @@ nsRenderingContext
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

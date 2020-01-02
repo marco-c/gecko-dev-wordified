@@ -178,7 +178,7 @@ nsSubstring
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

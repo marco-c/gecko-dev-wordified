@@ -205,7 +205,7 @@ h
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

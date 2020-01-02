@@ -158,7 +158,7 @@ nsRect
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

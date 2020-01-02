@@ -245,7 +245,7 @@ etc
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "
