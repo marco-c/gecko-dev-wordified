@@ -342,7 +342,7 @@ ProfileEntry
 (
 char
 aTagName
-double
+float
 aTagFloat
 )
 :
@@ -3582,6 +3582,11 @@ ProfileEntry
 '
 t
 '
+static_cast
+<
+float
+>
+(
 (
 mozilla
 :
@@ -3598,6 +3603,7 @@ sStartTime
 .
 ToMilliseconds
 (
+)
 )
 )
 )
