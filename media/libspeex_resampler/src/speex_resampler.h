@@ -275,8 +275,13 @@ SPEEX_RESAMPLER_H
 define
 SPEEX_RESAMPLER_H
 #
-ifdef
+if
+1
+/
+*
 OUTSIDE_SPEEX
+*
+/
 /
 *
 *
@@ -351,6 +356,10 @@ name
 here
 *
 /
+#
+define
+RANDOM_PREFIX
+moz_speex
 #
 ifndef
 RANDOM_PREFIX
