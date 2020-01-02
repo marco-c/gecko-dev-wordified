@@ -11608,7 +11608,14 @@ value
 ;
 JS_ASSERT
 (
+MaybeForwarded
+(
 frameobj
+.
+get
+(
+)
+)
 -
 >
 getPrivate
@@ -12084,6 +12091,7 @@ front
 (
 )
 )
+{
 e
 .
 rekeyFront
@@ -12091,6 +12099,7 @@ rekeyFront
 global
 )
 ;
+}
 }
 }
 }
