@@ -956,7 +956,6 @@ AsSharedImage
 >
 GetTextureClient
 (
-this
 )
 )
 {
@@ -991,7 +990,6 @@ AsSharedImage
 >
 GetTextureClient
 (
-this
 )
 ;
 if

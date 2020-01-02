@@ -2370,9 +2370,6 @@ GrallocImage
 :
 GetTextureClient
 (
-CompositableClient
-*
-aClient
 )
 {
 if

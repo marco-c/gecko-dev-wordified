@@ -1683,6 +1683,11 @@ SetLayer
 nullptr
 )
 ;
+SetCompositor
+(
+nullptr
+)
+;
 mAttached
 =
 false
