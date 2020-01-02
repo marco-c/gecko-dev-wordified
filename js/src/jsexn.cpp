@@ -5749,16 +5749,8 @@ ErrorObject
 *
 >
 err
-HandleObject
-scope
 )
 {
-assertSameCompartment
-(
-cx
-scope
-)
-;
 js
 :
 :
