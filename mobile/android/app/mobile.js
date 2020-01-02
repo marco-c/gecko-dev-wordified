@@ -8627,7 +8627,7 @@ pref
 "
 layers
 .
-force
+enable
 -
 tiles
 "
