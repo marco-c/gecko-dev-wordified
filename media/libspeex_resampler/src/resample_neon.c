@@ -288,6 +288,13 @@ DAMAGE
 /
 #
 include
+"
+simd_detect
+.
+h
+"
+#
+include
 <
 arm_neon
 .
@@ -475,8 +482,6 @@ len
 0
 *
 /
-static
-inline
 int32_t
 inner_product_single
 (
@@ -1186,8 +1191,6 @@ len
 0
 *
 /
-static
-inline
 float
 inner_product_single
 (
