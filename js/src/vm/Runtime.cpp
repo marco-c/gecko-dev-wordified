@@ -2781,7 +2781,7 @@ jitRuntime
 {
 if
 (
-JSC
+jit
 :
 :
 ExecutableAllocator
@@ -3029,7 +3029,7 @@ mode
 ;
 }
 }
-JSC
+jit
 :
 :
 ExecutableAllocator
@@ -3067,7 +3067,7 @@ execAlloc_
 =
 js_new
 <
-JSC
+jit
 :
 :
 ExecutableAllocator
