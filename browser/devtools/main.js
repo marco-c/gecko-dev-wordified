@@ -1391,15 +1391,6 @@ shift
 ordinal
 :
 3
-visibilityswitch
-:
-"
-devtools
-.
-debugger
-.
-enabled
-"
 icon
 :
 "
