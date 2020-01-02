@@ -4023,12 +4023,9 @@ isRootWrappedJS
 wrappedJS
 -
 >
-GetRootWrapper
+IsRootWrapper
 (
 )
-=
-=
-wrappedJS
 ;
 if
 (
