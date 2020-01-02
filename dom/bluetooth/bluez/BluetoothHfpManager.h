@@ -376,8 +376,6 @@ BatteryObserver
 {
 public
 :
-NS_DECL_ISUPPORTS
-NS_DECL_NSIOBSERVER
 BT_DECL_HFP_MGR_BASE
 virtual
 void
