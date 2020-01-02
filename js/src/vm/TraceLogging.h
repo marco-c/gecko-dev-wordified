@@ -169,7 +169,7 @@ Vector
 .
 h
 "
-class
+struct
 PRThread
 ;
 struct
