@@ -5733,6 +5733,12 @@ window
 =
 null
 ;
+this
+.
+topFrame
+=
+null
+;
 }
 }
 ;
@@ -6344,7 +6350,7 @@ netmonitor
 action
 :
 "
-stop
+disconnect
 "
 }
 )
@@ -7014,7 +7020,6 @@ case
 start
 "
 :
-{
 if
 (
 !
@@ -7054,7 +7059,6 @@ init
 }
 break
 ;
-}
 case
 "
 setPreferences
@@ -7119,7 +7123,6 @@ case
 stop
 "
 :
-{
 if
 (
 this
@@ -7144,7 +7147,19 @@ null
 }
 break
 ;
-}
+case
+"
+disconnect
+"
+:
+this
+.
+destroy
+(
+)
+;
+break
+;
 }
 }
 )
