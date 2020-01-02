@@ -986,6 +986,16 @@ true
 ;
 editor
 .
+putBoolean
+(
+GeckoApp
+.
+PREFS_CRASHED
+true
+)
+;
+editor
+.
 commit
 (
 )
