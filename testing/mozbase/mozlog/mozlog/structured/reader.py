@@ -81,6 +81,26 @@ a
 structured
 log
 file
+.
+    
+Note
+that
+the
+caller
+must
+not
+close
+the
+file
+whilst
+the
+generator
+is
+still
+    
+in
+use
+.
     
 :
 param
@@ -92,8 +112,9 @@ like
 object
 containing
 the
+raw
 log
-enteries
+entries
 one
 per
 line
