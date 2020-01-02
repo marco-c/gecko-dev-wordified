@@ -183,7 +183,7 @@ namespace
 {
 BluetoothServiceChildProcess
 *
-gBluetoothService
+sBluetoothService
 ;
 }
 /
@@ -374,7 +374,7 @@ BluetoothChild
 MOZ_ASSERT
 (
 !
-gBluetoothService
+sBluetoothService
 )
 ;
 MOZ_ASSERT
@@ -382,7 +382,7 @@ MOZ_ASSERT
 aBluetoothService
 )
 ;
-gBluetoothService
+sBluetoothService
 =
 aBluetoothService
 ;
@@ -402,7 +402,7 @@ BluetoothChild
 ;
 MOZ_ASSERT
 (
-gBluetoothService
+sBluetoothService
 )
 ;
 MOZ_ASSERT
@@ -413,7 +413,7 @@ mShutdownState
 Dead
 )
 ;
-gBluetoothService
+sBluetoothService
 =
 nullptr
 ;
@@ -473,10 +473,10 @@ aWhy
 {
 MOZ_ASSERT
 (
-gBluetoothService
+sBluetoothService
 )
 ;
-gBluetoothService
+sBluetoothService
 -
 >
 NoteDeadActor
@@ -507,10 +507,10 @@ aSignal
 {
 MOZ_ASSERT
 (
-gBluetoothService
+sBluetoothService
 )
 ;
-gBluetoothService
+sBluetoothService
 -
 >
 DistributeSignal
@@ -536,10 +536,10 @@ aEnabled
 {
 MOZ_ASSERT
 (
-gBluetoothService
+sBluetoothService
 )
 ;
-gBluetoothService
+sBluetoothService
 -
 >
 SetEnabled
