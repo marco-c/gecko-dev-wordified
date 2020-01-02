@@ -1172,10 +1172,15 @@ re
 throw
 if
 (
+(
+mCompartment
+&
+&
 mExceptionHandling
 =
 =
 eRethrowContentExceptions
+)
 |
 |
 mExceptionHandling
