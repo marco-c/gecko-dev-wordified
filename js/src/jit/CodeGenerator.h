@@ -2599,6 +2599,8 @@ ConstantOrRegister
 value
 bool
 strict
+bool
+guardHoles
 )
 ;
 bool
