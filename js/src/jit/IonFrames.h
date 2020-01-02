@@ -983,20 +983,6 @@ FRAMETYPE_BITS
 =
 4
 ;
-static
-const
-uintptr_t
-FRAMETYPE_MASK
-=
-(
-1
-<
-<
-FRAMETYPE_BITS
-)
--
-1
-;
 /
 /
 Ion
@@ -2510,7 +2496,6 @@ marked
 static
 JitCode
 *
-const
 BareToken
 (
 )
@@ -2869,7 +2854,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )
@@ -3041,7 +3025,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )
@@ -3260,7 +3243,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )
@@ -3497,7 +3479,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )
@@ -3678,7 +3659,6 @@ public
 static
 JitCode
 *
-const
 GetterToken
 (
 )
@@ -3694,7 +3674,6 @@ JitCode
 static
 JitCode
 *
-const
 SetterToken
 (
 )
@@ -3876,7 +3855,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )

@@ -275,13 +275,13 @@ scheduled
 inline
 Allocator
 *
-const
 ThreadSafeContext
 :
 :
 allocator
 (
 )
+const
 {
 JS_ASSERT_IF
 (

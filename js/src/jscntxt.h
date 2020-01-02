@@ -1405,10 +1405,10 @@ allocator_
 inline
 Allocator
 *
-const
 allocator
 (
 )
+const
 ;
 /
 /

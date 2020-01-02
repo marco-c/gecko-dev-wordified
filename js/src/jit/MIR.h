@@ -152,13 +152,6 @@ h
 #
 include
 "
-jsinfer
-.
-h
-"
-#
-include
-"
 jit
 /
 CompilerRoot
@@ -265,7 +258,6 @@ class
 Range
 ;
 static
-const
 inline
 MIRType
 MIRTypeFromValue
@@ -6319,7 +6311,6 @@ return
 value_
 ;
 }
-const
 bool
 valueToBoolean
 (
@@ -40634,7 +40625,6 @@ New
 TempAllocator
 &
 alloc
-const
 JSJitSetterOp
 func
 MDefinition
@@ -40658,11 +40648,11 @@ val
 )
 ;
 }
-const
 JSJitSetterOp
 fun
 (
 )
+const
 {
 return
 func_
@@ -40945,11 +40935,11 @@ guard
 )
 ;
 }
-const
 JSJitGetterOp
 fun
 (
 )
+const
 {
 return
 info_

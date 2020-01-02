@@ -4598,7 +4598,10 @@ st
 .
 st_size
 <
+off_t
+(
 offset
+)
 )
 {
 JS_ReportErrorNumber
