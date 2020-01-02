@@ -2351,6 +2351,13 @@ mChannelState
 =
 ChannelClosing
 ;
+if
+(
+LoggingEnabled
+(
+)
+)
+{
 printf
 (
 "
@@ -2383,6 +2390,7 @@ parent
 "
 )
 ;
+}
 return
 true
 ;
