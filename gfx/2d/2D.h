@@ -6087,6 +6087,11 @@ const
 IntSize
 &
 aSize
+SurfaceFormat
+*
+aFormat
+=
+nullptr
 )
 ;
 static
