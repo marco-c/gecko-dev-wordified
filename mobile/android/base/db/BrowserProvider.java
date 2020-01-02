@@ -1924,27 +1924,6 @@ map
 )
 ;
 }
-static
-final
-String
-qualifyColumn
-(
-String
-table
-String
-column
-)
-{
-return
-table
-+
-"
-.
-"
-+
-column
-;
-}
 private
 static
 boolean
@@ -5711,6 +5690,7 @@ int
 )
 *
 /
+private
 int
 updateBookmarkPositions
 (
@@ -6364,6 +6344,7 @@ selectionArgs
 )
 ;
 }
+private
 long
 insertBookmark
 (
@@ -6577,6 +6558,7 @@ values
 )
 ;
 }
+private
 int
 updateOrInsertBookmark
 (
@@ -6663,6 +6645,7 @@ return
 0
 ;
 }
+private
 int
 updateBookmarks
 (
@@ -6841,6 +6824,7 @@ null
 )
 ;
 }
+private
 long
 insertHistory
 (
@@ -6978,6 +6962,7 @@ values
 )
 ;
 }
+private
 int
 updateOrInsertHistory
 (
@@ -7099,6 +7084,7 @@ return
 0
 ;
 }
+private
 int
 updateHistory
 (
@@ -7446,6 +7432,7 @@ pageUrl
 )
 ;
 }
+private
 long
 insertFavicon
 (
@@ -7466,6 +7453,7 @@ values
 )
 ;
 }
+private
 long
 insertFavicon
 (
@@ -7475,28 +7463,6 @@ ContentValues
 values
 )
 {
-/
-/
-This
-method
-is
-a
-duplicate
-of
-BrowserDatabaseHelper
-.
-insertFavicon
-.
-/
-/
-If
-changes
-are
-needed
-please
-update
-both
-.
 String
 faviconUrl
 =
@@ -7703,6 +7669,7 @@ return
 faviconId
 ;
 }
+private
 int
 updateOrInsertFavicon
 (
@@ -7736,6 +7703,7 @@ needed
 )
 ;
 }
+private
 int
 updateExistingFavicon
 (
@@ -7770,6 +7738,7 @@ insert
 )
 ;
 }
+private
 int
 updateFavicon
 (
@@ -8479,6 +8448,7 @@ write
 .
 *
 /
+private
 int
 deleteHistory
 (
@@ -8784,6 +8754,7 @@ return
 updated
 ;
 }
+private
 int
 deleteBookmarks
 (
@@ -8989,6 +8960,7 @@ return
 updated
 ;
 }
+private
 int
 deleteFavicons
 (
@@ -9035,6 +9007,7 @@ selectionArgs
 )
 ;
 }
+private
 int
 deleteThumbnails
 (
@@ -9081,6 +9054,7 @@ selectionArgs
 )
 ;
 }
+private
 int
 deleteUnusedImages
 (
