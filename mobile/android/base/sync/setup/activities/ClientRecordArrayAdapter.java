@@ -962,7 +962,7 @@ R
 .
 drawable
 .
-mobile
+sync_mobile
 ;
 }
 return
@@ -970,7 +970,7 @@ R
 .
 drawable
 .
-desktop
+sync_desktop
 ;
 }
 private
