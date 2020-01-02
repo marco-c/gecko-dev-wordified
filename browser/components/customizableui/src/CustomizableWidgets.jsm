@@ -6535,7 +6535,7 @@ endif
 endif
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 /
 *
 *

@@ -321,6 +321,9 @@ key_privatebrowsing
 "
 /
 >
+#
+ifdef
+E10S_TESTING_ONLY
 <
 menuitem
 id
@@ -379,6 +382,8 @@ NonRemoteWindow
 "
 /
 >
+#
+endif
 #
 ifdef
 MAC_NON_BROWSER_WINDOW
