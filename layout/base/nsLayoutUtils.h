@@ -145,6 +145,9 @@ class
 nsBlockFrame
 ;
 class
+gfxASurface
+;
+class
 gfxDrawable
 ;
 class
@@ -230,7 +233,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -386,7 +389,6 @@ class
 nsLayoutUtils
 {
 typedef
-gfxPattern
 :
 :
 GraphicsFilter
