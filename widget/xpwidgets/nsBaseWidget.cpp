@@ -7111,7 +7111,7 @@ tell_me_once
 }
 #
 ifdef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 NS_RUNTIMEABORT
 (
 "

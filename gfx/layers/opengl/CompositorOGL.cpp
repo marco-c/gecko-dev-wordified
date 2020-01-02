@@ -531,7 +531,7 @@ h
 "
 #
 if
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -5187,7 +5187,7 @@ mPixelsFilled
 ;
 #
 if
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 TexturePoolOGL
 :
 :
@@ -5399,7 +5399,7 @@ LayerRenderer
 java
 #
 ifndef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 mGLContext
 -
 >

@@ -4307,7 +4307,7 @@ transformToScreen
 }
 #
 ifdef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 static
 float
 GetDisplayportCoverage
@@ -4418,7 +4418,7 @@ return
 endif
 /
 /
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 float
 LayerManagerComposite
 :
@@ -4525,7 +4525,7 @@ highPrecisionMultiplier
 ;
 #
 ifdef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 /
 /
 Use
@@ -4903,7 +4903,7 @@ return
 endif
 /
 /
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 nsIntRegion
 screenRegion
 (
