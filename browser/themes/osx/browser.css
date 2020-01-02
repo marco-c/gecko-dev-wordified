@@ -16172,7 +16172,7 @@ background
 color
 :
 #
-d4dde5
+e2e7ed
 ;
 }
 #
@@ -16258,7 +16258,7 @@ end
 1px
 solid
 #
-404040
+bdbdbd
 ;
 min
 -
@@ -16691,6 +16691,12 @@ label
 margin
 :
 0
+;
+text
+-
+align
+:
+center
 ;
 }
 .
