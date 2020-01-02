@@ -265,6 +265,16 @@ mResizeImageByDefault
 )
 ;
 }
+void
+AddDecodedClass
+(
+)
+;
+void
+RemoveDecodedClass
+(
+)
+;
 /
 /
 WebIDL
