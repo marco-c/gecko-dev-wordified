@@ -317,6 +317,16 @@ ClientLayerManager
 *
 const
 aManager
+ClientLayerManager
+:
+:
+ThebesLayerCreationHint
+aCreationHint
+=
+LayerManager
+:
+:
+NONE
 )
 ;
 ~

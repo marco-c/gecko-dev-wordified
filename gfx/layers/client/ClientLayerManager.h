@@ -530,6 +530,17 @@ aLayer
 )
 ;
 virtual
+bool
+IsOptimizedFor
+(
+ThebesLayer
+*
+aLayer
+ThebesLayerCreationHint
+aHint
+)
+;
+virtual
 already_AddRefed
 <
 ThebesLayer
