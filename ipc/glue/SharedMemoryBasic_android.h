@@ -168,6 +168,7 @@ ipc
 {
 class
 SharedMemoryBasic
+MOZ_FINAL
 :
 public
 SharedMemory
@@ -191,12 +192,6 @@ const
 Handle
 &
 aHandle
-)
-;
-virtual
-~
-SharedMemoryBasic
-(
 )
 ;
 virtual
@@ -288,6 +283,11 @@ aNewHandle
 ;
 private
 :
+~
+SharedMemoryBasic
+(
+)
+;
 void
 Unmap
 (

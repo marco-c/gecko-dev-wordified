@@ -396,6 +396,12 @@ ret
 }
 private
 :
+~
+SharedMemoryBasic
+(
+)
+{
+}
 base
 :
 :
