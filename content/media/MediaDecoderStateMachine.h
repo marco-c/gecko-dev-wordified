@@ -1000,11 +1000,6 @@ aRealTime
 false
 )
 ;
-~
-MediaDecoderStateMachine
-(
-)
-;
 nsresult
 Init
 (
@@ -2553,6 +2548,12 @@ SetMinimizePrerollUntilPlaybackStarts
 ;
 protected
 :
+virtual
+~
+MediaDecoderStateMachine
+(
+)
+;
 void
 AssertCurrentThreadInMonitor
 (
@@ -2571,8 +2572,6 @@ AssertCurrentThreadIn
 )
 ;
 }
-private
-:
 class
 WakeDecoderRunnable
 :
