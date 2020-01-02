@@ -910,6 +910,7 @@ grallocSurf
 >
 GetTextureClient
 (
+this
 )
 )
 ;
