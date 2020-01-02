@@ -213,6 +213,9 @@ nsIPrincipal
 class
 nsIXPConnectJSObjectHolder
 ;
+class
+ComponentLoaderInfo
+;
 /
 *
 6bd13476
@@ -407,12 +410,12 @@ aRealFile
 nsresult
 ObjectForLocation
 (
+ComponentLoaderInfo
+&
+aInfo
 nsIFile
 *
 aComponentFile
-nsIURI
-*
-aComponent
 JS
 :
 :
