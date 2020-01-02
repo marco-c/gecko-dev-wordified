@@ -62,7 +62,7 @@ PACKAGE_VERSION
 '
 0
 .
-10
+12
 '
 setup
 (

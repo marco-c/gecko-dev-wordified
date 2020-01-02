@@ -140,6 +140,7 @@ a
 profile
 including
 :
+    
 installing
 and
 cleaning
@@ -154,6 +155,9 @@ __init__
 (
 self
 profile
+restore
+=
+True
 )
 :
         
@@ -176,6 +180,22 @@ we
 install
 addons
         
+:
+param
+restore
+:
+whether
+to
+reset
+to
+the
+previous
+state
+on
+instance
+garbage
+collection
+        
 "
 "
 "
@@ -185,6 +205,12 @@ self
 profile
 =
 profile
+        
+self
+.
+restore
+=
+restore
         
 #
 information
@@ -249,7 +275,7 @@ cleanup
         
 self
 .
-_addon_dirs
+_addons
 =
 [
 ]
@@ -342,15 +368,6 @@ addons
 addons
 ]
             
-self
-.
-installed_addons
-.
-extend
-(
-addons
-)
-            
 for
 addon
 in
@@ -398,15 +415,6 @@ self
 install_from_manifest
 (
 manifest
-)
-            
-self
-.
-installed_manifests
-.
-extend
-(
-manifests
 )
     
 def
@@ -660,6 +668,15 @@ install_from_path
 (
 install_path
 )
+        
+self
+.
+installed_manifests
+.
+append
+(
+filepath
+)
     
 classmethod
     
@@ -894,25 +911,6 @@ addon
 "
 "
 "
-        
-#
-TODO
-:
-We
-don
-'
-t
-use
-the
-unpack
-variable
-yet
-but
-we
-should
-:
-bug
-662683
         
 details
 =
@@ -1644,7 +1642,7 @@ listdir
 path
 )
 if
-                    
+                      
 os
 .
 path
@@ -1993,6 +1991,14 @@ to
 restore
 later
                 
+addon_path
++
+=
+'
+.
+xpi
+'
+                
 if
 os
 .
@@ -2001,11 +2007,6 @@ path
 exists
 (
 addon_path
-+
-'
-.
-xpi
-'
 )
 :
                     
@@ -2028,11 +2029,6 @@ shutil
 copy
 (
 addon_path
-+
-'
-.
-xpi
-'
 self
 .
 backup_dir
@@ -2044,11 +2040,6 @@ copy
 (
 xpifile
 addon_path
-+
-'
-.
-xpi
-'
 )
             
 else
@@ -2110,10 +2101,10 @@ preserve_symlinks
 =
 1
 )
-                
+            
 self
 .
-_addon_dirs
+_addons
 .
 append
 (
@@ -2137,6 +2128,15 @@ dir_util
 remove_tree
 (
 tmpdir
+)
+            
+self
+.
+installed_addons
+.
+append
+(
+addon
 )
         
 #
@@ -2178,12 +2178,20 @@ profile
 "
 "
         
+#
+remove
+addons
+installed
+by
+this
+instance
+        
 for
 addon
 in
 self
 .
-_addon_dirs
+_addons
 :
             
 if
@@ -2200,6 +2208,24 @@ addon
 dir_util
 .
 remove_tree
+(
+addon
+)
+            
+elif
+os
+.
+path
+.
+isfile
+(
+addon
+)
+:
+                
+os
+.
+remove
 (
 addon
 )
@@ -2314,7 +2340,52 @@ ignore_errors
 =
 True
 )
-    
-__del__
+        
+#
+reset
+instance
+variables
+to
+defaults
+via
+__init__
+        
+self
+.
+__init__
+(
+self
+.
+profile
+restore
 =
+self
+.
+restore
+)
+    
+def
+__del__
+(
+self
+)
+:
+        
+if
+self
+.
+restore
+:
+            
+self
+.
 clean_addons
+(
+)
+#
+reset
+to
+pre
+-
+instance
+state

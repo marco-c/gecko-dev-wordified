@@ -62,7 +62,7 @@ PACKAGE_VERSION
 '
 0
 .
-9
+10
 '
 #
 dependencies
@@ -75,7 +75,7 @@ mozfile
 =
 0
 .
-3
+12
 '
         
 '

@@ -629,14 +629,14 @@ clean_profile
 clean_profile
 kp_kwargs
 =
-None
+kp_kwargs
                                                
 process_class
 =
 process_class
 env
 =
-None
+env
 )
         
 #
@@ -862,7 +862,6 @@ last
 see
             
 #
--
 https
 :
 /
@@ -881,8 +880,54 @@ id
 =
 625614
             
-#
+self
+.
+cmdargs
+=
+_cmdargs
+            
+self
+.
+cmdargs
+.
+append
+(
+'
 -
+foreground
+'
+)
+        
+if
+mozinfo
+.
+isMac
+and
+'
+-
+foreground
+'
+not
+in
+self
+.
+cmdargs
+:
+            
+#
+runner
+should
+specify
+'
+-
+foreground
+'
+on
+Mac
+;
+see
+            
+#
 https
 :
 /
@@ -899,13 +944,7 @@ cgi
 ?
 id
 =
-626826
-            
-self
-.
-cmdargs
-=
-_cmdargs
+916512
             
 self
 .

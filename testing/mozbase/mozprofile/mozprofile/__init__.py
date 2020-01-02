@@ -110,6 +110,10 @@ cli
 import
 *
 from
+diff
+import
+*
+from
 permissions
 import
 *
@@ -119,6 +123,10 @@ import
 *
 from
 profile
+import
+*
+from
+view
 import
 *
 from
