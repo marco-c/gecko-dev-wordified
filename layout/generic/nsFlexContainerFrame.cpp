@@ -7982,13 +7982,6 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-const
-nsTArray
-<
-FlexItem
->
-&
-aItems
 )
 ;
 void
@@ -12379,13 +12372,6 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-const
-nsTArray
-<
-FlexItem
->
-&
-aItems
 )
 :
 PositionTracker
@@ -17671,7 +17657,6 @@ lineCrossAxisPosnTracker
 (
 this
 axisTracker
-items
 )
 ;
 lineCrossAxisPosnTracker
