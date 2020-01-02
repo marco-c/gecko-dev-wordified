@@ -89,7 +89,6 @@ os
 IBinder
 ;
 public
-abstract
 class
 FxAccountSyncService
 extends
