@@ -352,7 +352,7 @@ via
 *
 Robocop
 :
-Status
+JS
 messages
 .
 *
@@ -555,7 +555,7 @@ type
 "
 Robocop
 :
-Status
+JS
 "
 innerType
 :
