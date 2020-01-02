@@ -436,6 +436,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -5426,7 +5435,7 @@ StateSelector
 >
 mStateSelectors
 ;
-nsEventStates
+EventStates
 mSelectorDocumentStates
 ;
 PLDHashTable
@@ -7245,7 +7254,7 @@ endif
 static
 *
 /
-nsEventStates
+EventStates
 nsCSSRuleProcessor
 :
 :
@@ -7260,7 +7269,7 @@ TreeMatchContext
 aTreeMatchContext
 )
 {
-nsEventStates
+EventStates
 state
 =
 aElement
@@ -7391,7 +7400,7 @@ Element
 aElement
 )
 {
-nsEventStates
+EventStates
 state
 =
 aElement
@@ -7417,7 +7426,7 @@ NS_EVENT_STATE_UNVISITED
 static
 *
 /
-nsEventStates
+EventStates
 nsCSSRuleProcessor
 :
 :
@@ -7439,7 +7448,7 @@ bool
 aIsRelevantLink
 )
 {
-nsEventStates
+EventStates
 contentState
 =
 GetContentState
@@ -7781,7 +7790,7 @@ unset
 )
 .
 const
-nsEventStates
+EventStates
 mStateMask
 ;
 /
@@ -7907,7 +7916,7 @@ mIsRelevantLink
 ;
 NodeMatchContext
 (
-nsEventStates
+EventStates
 aStateMask
 bool
 aIsRelevantLink
@@ -9164,7 +9173,7 @@ pseudoclasses
 .
 static
 const
-nsEventStates
+EventStates
 sPseudoClassStateDependences
 [
 ]
@@ -9179,7 +9188,7 @@ _value
 _pref
 )
 \
-nsEventStates
+EventStates
 (
 )
 #
@@ -9235,17 +9244,17 @@ no
 matter
 what
 .
-nsEventStates
+EventStates
 (
 )
-nsEventStates
+EventStates
 (
 )
 }
 ;
 static
 const
-nsEventStates
+EventStates
 sPseudoClassStates
 [
 ]
@@ -9260,7 +9269,7 @@ _value
 _pref
 )
 \
-nsEventStates
+EventStates
 (
 )
 #
@@ -9316,10 +9325,10 @@ no
 matter
 what
 .
-nsEventStates
+EventStates
 (
 )
-nsEventStates
+EventStates
 (
 )
 }
@@ -9373,7 +9382,7 @@ bool
 *
 const
 aDependence
-nsEventStates
+EventStates
 aStatesToCheck
 )
 {
@@ -9666,7 +9675,7 @@ true
 }
 else
 {
-nsEventStates
+EventStates
 contentState
 =
 nsCSSRuleProcessor
@@ -9745,7 +9754,7 @@ pseudoClass
 mNext
 )
 {
-nsEventStates
+EventStates
 statesToCheck
 =
 sPseudoClassStates
@@ -10468,7 +10477,7 @@ pseudoClass
 mNext
 )
 {
-nsEventStates
+EventStates
 statesToCheck
 =
 sPseudoClassStates
@@ -12119,7 +12128,7 @@ if
 aDependence
 )
 {
-nsEventStates
+EventStates
 states
 =
 sPseudoClassStateDependences
@@ -12247,7 +12256,7 @@ ltr
 )
 matches
 .
-nsEventStates
+EventStates
 state
 =
 aElement
@@ -13829,7 +13838,7 @@ false
 NodeMatchContext
 nodeContext
 (
-nsEventStates
+EventStates
 (
 )
 aLookForRelevantLink
@@ -14752,7 +14761,7 @@ cascade
 NodeMatchContext
 nodeContext
 (
-nsEventStates
+EventStates
 (
 )
 nsCSSRuleProcessor
@@ -14840,7 +14849,7 @@ ruleHash
 NodeMatchContext
 nodeContext
 (
-nsEventStates
+EventStates
 (
 )
 nsCSSRuleProcessor
@@ -15097,7 +15106,7 @@ entry
 NodeMatchContext
 nodeContext
 (
-nsEventStates
+EventStates
 (
 )
 nsCSSRuleProcessor
@@ -15269,7 +15278,7 @@ nsCSSPseudoElements
 :
 Type
 aPseudoType
-nsEventStates
+EventStates
 aStateMask
 )
 {
@@ -15520,7 +15529,7 @@ iter
 >
 mSelector
 ;
-nsEventStates
+EventStates
 states
 =
 iter
@@ -16210,7 +16219,7 @@ change
 NodeMatchContext
 nodeContext
 (
-nsEventStates
+EventStates
 (
 )
 false
@@ -17586,7 +17595,7 @@ moz
 any
 .
 inline
-nsEventStates
+EventStates
 ComputeSelectorStateDependence
 (
 nsCSSSelector
@@ -17594,7 +17603,7 @@ nsCSSSelector
 aSelector
 )
 {
-nsEventStates
+EventStates
 states
 ;
 for
@@ -18001,7 +18010,7 @@ break
 Build
 mStateSelectors
 .
-nsEventStates
+EventStates
 dependentStates
 =
 ComputeSelectorStateDependence
@@ -21251,7 +21260,7 @@ called
 NodeMatchContext
 nodeContext
 (
-nsEventStates
+EventStates
 (
 )
 false

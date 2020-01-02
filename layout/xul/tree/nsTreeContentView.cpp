@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsINodeInfo
 .
 h

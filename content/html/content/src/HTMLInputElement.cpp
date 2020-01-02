@@ -362,13 +362,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
@@ -493,6 +486,15 @@ include
 mozilla
 /
 EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStates
 .
 h
 "
@@ -32392,7 +32394,7 @@ mShouldInitChecked
 false
 ;
 }
-nsEventStates
+EventStates
 HTMLInputElement
 :
 :
@@ -32429,7 +32431,7 @@ case
 in
 AfterSetAttr
 .
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLFormElementWithState
@@ -32929,7 +32931,7 @@ HTMLInputElement
 :
 AddStates
 (
-nsEventStates
+EventStates
 aStates
 )
 {
@@ -32941,7 +32943,7 @@ mType
 NS_FORM_INPUT_TEXT
 )
 {
-nsEventStates
+EventStates
 focusStates
 (
 aStates
@@ -33002,7 +33004,7 @@ HTMLInputElement
 :
 RemoveStates
 (
-nsEventStates
+EventStates
 aStates
 )
 {
@@ -33014,7 +33016,7 @@ mType
 NS_FORM_INPUT_TEXT
 )
 {
-nsEventStates
+EventStates
 focusStates
 (
 aStates

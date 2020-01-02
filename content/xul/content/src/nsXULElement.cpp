@@ -305,6 +305,15 @@ h
 #
 include
 "
+mozilla
+/
+EventStates
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h
@@ -10370,7 +10379,7 @@ return
 NS_OK
 ;
 }
-nsEventStates
+EventStates
 nsXULElement
 :
 :
@@ -10379,7 +10388,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsStyledElement

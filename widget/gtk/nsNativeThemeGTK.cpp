@@ -217,6 +217,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h
@@ -265,6 +274,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS_INHERITED2
 (
 nsNativeThemeGTK
@@ -1279,7 +1292,7 @@ GetParent
 )
 ;
 }
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -2981,7 +2994,7 @@ GetParent
 (
 )
 ;
-nsEventStates
+EventStates
 eventStates
 =
 GetContentState

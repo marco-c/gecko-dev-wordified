@@ -255,7 +255,9 @@ h
 #
 include
 "
-nsEventStates
+mozilla
+/
+EventStates
 .
 h
 "
@@ -1569,7 +1571,7 @@ false
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLOptionElement
 :
 :
@@ -1578,7 +1580,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLElement

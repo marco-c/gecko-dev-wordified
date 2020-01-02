@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 mozilla
 /
 BasicEvents
@@ -154,6 +147,15 @@ include
 mozilla
 /
 EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStates
 .
 h
 "
@@ -270,7 +272,7 @@ aNullParent
 )
 ;
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )
@@ -547,7 +549,7 @@ aNullParent
 )
 ;
 }
-nsEventStates
+EventStates
 nsGenConImageContent
 :
 :
@@ -556,7 +558,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsXMLElement
@@ -566,7 +568,7 @@ IntrinsicState
 (
 )
 ;
-nsEventStates
+EventStates
 imageState
 =
 nsImageLoadingContent

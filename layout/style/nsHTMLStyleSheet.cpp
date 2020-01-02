@@ -207,7 +207,9 @@ h
 #
 include
 "
-nsEventStates
+mozilla
+/
+EventStates
 .
 h
 "
@@ -1654,7 +1656,7 @@ mVisitedRule
 mActiveRule
 )
 {
-nsEventStates
+EventStates
 state
 =
 nsCSSRuleProcessor

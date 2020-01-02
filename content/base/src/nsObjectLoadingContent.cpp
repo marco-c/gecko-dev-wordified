@@ -220,13 +220,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsIObjectFrame
 .
 h
@@ -618,6 +611,15 @@ include
 mozilla
 /
 EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStates
 .
 h
 "
@@ -6646,7 +6648,7 @@ NS_OK
 <
 public
 >
-nsEventStates
+EventStates
 nsObjectLoadingContent
 :
 :
@@ -6715,7 +6717,7 @@ for
 plugins
 .
 return
-nsEventStates
+EventStates
 (
 )
 ;
@@ -11622,7 +11624,7 @@ NotifyStateChanged
 (
 )
 ;
-nsEventStates
+EventStates
 oldState
 =
 ObjectState
@@ -15148,7 +15150,7 @@ NotifyStateChanged
 (
 ObjectType
 aOldType
-nsEventStates
+EventStates
 aOldState
 bool
 aSync
@@ -15370,7 +15372,7 @@ Nothing
 to
 do
 }
-nsEventStates
+EventStates
 newState
 =
 ObjectState
@@ -15405,7 +15407,7 @@ confused
 "
 )
 ;
-nsEventStates
+EventStates
 changedBits
 =
 aOldState
@@ -16932,7 +16934,7 @@ bool
 aNotify
 )
 {
-nsEventStates
+EventStates
 oldState
 =
 ObjectState

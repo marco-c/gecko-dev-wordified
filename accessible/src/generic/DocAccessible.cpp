@@ -379,6 +379,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 DocumentType
@@ -7160,7 +7169,7 @@ aDocument
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aStateMask
 )
 {
@@ -7383,7 +7392,7 @@ DocumentStatesChanged
 nsIDocument
 *
 aDocument
-nsEventStates
+EventStates
 aStateMask
 )
 {

@@ -255,6 +255,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FloatingPoint
 .
 h
@@ -1678,7 +1687,7 @@ NativeState
 (
 )
 ;
-nsEventStates
+EventStates
 elmState
 =
 mContent

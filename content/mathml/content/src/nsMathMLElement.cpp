@@ -170,13 +170,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -222,6 +215,15 @@ include
 mozilla
 /
 EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStates
 .
 h
 "
@@ -6550,7 +6552,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 nsMathMLElement
 )
-nsEventStates
+EventStates
 nsMathMLElement
 :
 :
@@ -6579,7 +6581,7 @@ mIncrementScriptLevel
 ?
 NS_EVENT_STATE_INCREMENT_SCRIPT_LEVEL
 :
-nsEventStates
+EventStates
 (
 )
 )

@@ -116,6 +116,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLFormElement
@@ -144,13 +153,6 @@ h
 include
 "
 nsDOMSettableTokenList
-.
-h
-"
-#
-include
-"
-nsEventStates
 .
 h
 "
@@ -431,7 +433,7 @@ aResult
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLOutputElement
 :
 :
@@ -440,7 +442,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 states
 =
 nsGenericHTMLFormElement

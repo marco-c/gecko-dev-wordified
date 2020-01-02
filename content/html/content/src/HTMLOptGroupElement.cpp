@@ -107,6 +107,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLOptGroupElement
@@ -163,13 +172,6 @@ h
 include
 "
 nsIFormControlFrame
-.
-h
-"
-#
-include
-"
-nsEventStates
 .
 h
 "
@@ -709,7 +711,7 @@ aNotify
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLOptGroupElement
 :
 :
@@ -718,7 +720,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLElement

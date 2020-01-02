@@ -679,6 +679,9 @@ CharacterDataChangeInfo
 namespace
 mozilla
 {
+class
+EventStates
+;
 namespace
 layers
 {
@@ -10350,11 +10353,13 @@ virtual
 void
 ContentStatesChanged
 (
-nsEventStates
+mozilla
+:
+:
+EventStates
 aStates
 )
-{
-}
+;
 /
 *
 *

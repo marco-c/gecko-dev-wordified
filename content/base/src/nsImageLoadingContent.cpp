@@ -278,13 +278,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h
@@ -351,6 +344,15 @@ include
 mozilla
 /
 AsyncEventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStates
 .
 h
 "
@@ -4761,7 +4763,7 @@ ForceImageState
 (
 bool
 aForce
-nsEventStates
+EventStates
 :
 :
 InternalType
@@ -4774,7 +4776,7 @@ aForce
 ;
 mForcedImageState
 =
-nsEventStates
+EventStates
 (
 aState
 )
@@ -4783,7 +4785,7 @@ return
 NS_OK
 ;
 }
-nsEventStates
+EventStates
 nsImageLoadingContent
 :
 :
@@ -4801,7 +4803,7 @@ return
 mForcedImageState
 ;
 }
-nsEventStates
+EventStates
 states
 ;
 if

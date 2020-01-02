@@ -636,7 +636,9 @@ states
 are
 defined
 in
-nsEventStates
+mozilla
+/
+EventStates
 .
 h
 .

@@ -130,6 +130,15 @@ h
 #
 include
 "
+mozilla
+/
+EventStates
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -6292,7 +6301,7 @@ ContentStateChanged
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aStateMask
 )
 {

@@ -165,7 +165,7 @@ HTMLProgressElement
 (
 )
 ;
-nsEventStates
+EventStates
 IntrinsicState
 (
 )

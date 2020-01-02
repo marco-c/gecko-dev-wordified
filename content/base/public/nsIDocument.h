@@ -340,9 +340,6 @@ class
 nsDOMNavigationTiming
 ;
 class
-nsEventStates
-;
-class
 nsFrameLoader
 ;
 class
@@ -491,6 +488,9 @@ mozilla
 {
 class
 ErrorResult
+;
+class
+EventStates
 ;
 namespace
 css
@@ -6426,7 +6426,10 @@ ContentStateChanged
 nsIContent
 *
 aContent
-nsEventStates
+mozilla
+:
+:
+EventStates
 aStateMask
 )
 =
@@ -6471,7 +6474,10 @@ virtual
 void
 DocumentStatesChanged
 (
-nsEventStates
+mozilla
+:
+:
+EventStates
 aStateMask
 )
 =
@@ -10776,7 +10782,10 @@ h
 *
 /
 virtual
-nsEventStates
+mozilla
+:
+:
+EventStates
 GetDocumentState
 (
 )

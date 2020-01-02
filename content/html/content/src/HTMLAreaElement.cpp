@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -1169,7 +1178,7 @@ GetHrefURIForAnchors
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLAreaElement
 :
 :

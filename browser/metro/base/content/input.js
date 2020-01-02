@@ -168,7 +168,9 @@ Same
 as
 NS_EVENT_STATE_ACTIVE
 from
-nsIEventStateManager
+mozilla
+/
+EventStates
 .
 h
 const

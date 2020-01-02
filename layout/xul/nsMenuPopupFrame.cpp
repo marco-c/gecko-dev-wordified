@@ -421,6 +421,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -5048,7 +5057,7 @@ element
 "
 )
 ;
-nsEventStates
+EventStates
 state
 =
 mContent

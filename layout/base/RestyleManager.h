@@ -166,6 +166,9 @@ TreeMatchContext
 namespace
 mozilla
 {
+class
+EventStates
+;
 namespace
 dom
 {
@@ -342,7 +345,7 @@ ContentStateChanged
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aStateMask
 )
 ;

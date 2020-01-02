@@ -375,6 +375,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
@@ -16376,7 +16385,7 @@ IsWindowActive
 (
 )
 {
-nsEventStates
+EventStates
 docState
 =
 mFrame

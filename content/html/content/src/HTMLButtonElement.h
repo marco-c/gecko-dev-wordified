@@ -369,7 +369,7 @@ MOZ_OVERRIDE
 /
 /
 Element
-nsEventStates
+EventStates
 IntrinsicState
 (
 )

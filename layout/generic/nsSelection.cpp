@@ -145,6 +145,15 @@ h
 #
 include
 "
+mozilla
+/
+EventStates
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

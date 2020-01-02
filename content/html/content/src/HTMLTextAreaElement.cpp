@@ -172,6 +172,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -5085,7 +5094,7 @@ return
 false
 ;
 }
-nsEventStates
+EventStates
 HTMLTextAreaElement
 :
 :
@@ -5094,7 +5103,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLFormElementWithState

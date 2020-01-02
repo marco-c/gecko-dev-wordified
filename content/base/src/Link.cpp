@@ -113,6 +113,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -125,13 +134,6 @@ mozilla
 dom
 /
 Element
-.
-h
-"
-#
-include
-"
-nsEventStates
 .
 h
 "
@@ -433,7 +435,7 @@ true
 )
 ;
 }
-nsEventStates
+EventStates
 Link
 :
 :
@@ -708,7 +710,7 @@ NS_EVENT_STATE_UNVISITED
 ;
 }
 return
-nsEventStates
+EventStates
 (
 )
 ;
@@ -2755,7 +2757,7 @@ mElement
 >
 UpdateLinkState
 (
-nsEventStates
+EventStates
 (
 )
 )

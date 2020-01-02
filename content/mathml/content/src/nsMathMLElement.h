@@ -434,7 +434,10 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-nsEventStates
+mozilla
+:
+:
+EventStates
 IntrinsicState
 (
 )

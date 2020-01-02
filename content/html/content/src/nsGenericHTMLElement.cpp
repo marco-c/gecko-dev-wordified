@@ -155,6 +155,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -3211,7 +3220,7 @@ aNotify
 )
 ;
 }
-nsEventStates
+EventStates
 nsGenericHTMLElement
 :
 :
@@ -3220,7 +3229,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLElementBase
@@ -13694,7 +13703,7 @@ return
 false
 ;
 }
-nsEventStates
+EventStates
 nsGenericHTMLFormElement
 :
 :
@@ -13747,7 +13756,7 @@ by
 that
 attribute
 .
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLElement

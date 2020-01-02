@@ -143,6 +143,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -200,13 +209,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsEventStates
 .
 h
 "
@@ -8093,7 +8095,7 @@ aVisitor
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLSelectElement
 :
 :
@@ -8102,7 +8104,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLFormElementWithState

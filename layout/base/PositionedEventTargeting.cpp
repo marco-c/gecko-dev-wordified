@@ -77,6 +77,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -2545,7 +2554,7 @@ State
 .
 HasState
 (
-nsEventStates
+EventStates
 (
 NS_EVENT_STATE_VISITED
 )

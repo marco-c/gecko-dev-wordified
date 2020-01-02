@@ -145,6 +145,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -255,13 +264,6 @@ h
 include
 "
 nsAnimationManager
-.
-h
-"
-#
-include
-"
-nsEventStates
 .
 h
 "
@@ -11473,7 +11475,7 @@ aPresContext
 Element
 *
 aElement
-nsEventStates
+EventStates
 aStateMask
 TreeMatchContext
 &
@@ -11516,7 +11518,7 @@ aPresContext
 Element
 *
 aElement
-nsEventStates
+EventStates
 aStateMask
 nsCSSPseudoElements
 :
@@ -11635,7 +11637,7 @@ aPresContext
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aStateMask
 )
 {
@@ -11846,7 +11848,7 @@ aPresContext
 Element
 *
 aElement
-nsEventStates
+EventStates
 aStateMask
 )
 {
@@ -11915,7 +11917,7 @@ aPseudoType
 Element
 *
 aPseudoElement
-nsEventStates
+EventStates
 aStateMask
 )
 {

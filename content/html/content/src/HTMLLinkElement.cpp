@@ -136,9 +136,7 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLLinkElementBinding
+EventStates
 .
 h
 "
@@ -148,6 +146,17 @@ include
 mozilla
 /
 MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+HTMLLinkElementBinding
 .
 h
 "
@@ -2253,7 +2262,7 @@ crossorigin
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLLinkElement
 :
 :

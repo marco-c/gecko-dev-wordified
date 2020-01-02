@@ -863,6 +863,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 InternalMutationEvent
 .
 h
@@ -26673,7 +26682,7 @@ ContentStateChanged
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aStateMask
 )
 {
@@ -26711,7 +26720,7 @@ nsDocument
 :
 DocumentStatesChanged
 (
-nsEventStates
+EventStates
 aStateMask
 )
 {
@@ -50299,7 +50308,7 @@ request
 ;
 }
 }
-nsEventStates
+EventStates
 nsDocument
 :
 :

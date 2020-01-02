@@ -252,6 +252,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -2874,7 +2883,7 @@ return
 false
 ;
 }
-nsEventStates
+EventStates
 HTMLButtonElement
 :
 :
@@ -2883,7 +2892,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLFormElementWithState

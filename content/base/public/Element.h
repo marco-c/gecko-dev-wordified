@@ -172,7 +172,9 @@ enum
 #
 include
 "
-nsEventStates
+mozilla
+/
+EventStates
 .
 h
 "
@@ -776,11 +778,13 @@ this
 element
 .
 See
-nsEventStates
+mozilla
+/
+EventStates
 .
 h
-for
 *
+for
 the
 possible
 bits
@@ -792,7 +796,7 @@ here
 .
 *
 /
-nsEventStates
+EventStates
 State
 (
 )
@@ -959,7 +963,7 @@ notify
 void
 UpdateLinkState
 (
-nsEventStates
+EventStates
 aState
 )
 ;
@@ -1042,7 +1046,7 @@ inspecting
 .
 *
 /
-nsEventStates
+EventStates
 StyleState
 (
 )
@@ -1081,7 +1085,7 @@ element
 .
 *
 /
-nsEventStates
+EventStates
 LockedStyleStates
 (
 )
@@ -1105,7 +1109,7 @@ element
 void
 LockStyleStates
 (
-nsEventStates
+EventStates
 aStates
 )
 ;
@@ -1127,7 +1131,7 @@ element
 void
 UnlockStyleStates
 (
-nsEventStates
+EventStates
 aStates
 )
 ;
@@ -1969,7 +1973,9 @@ State
 )
 .
 See
-nsEventStates
+mozilla
+/
+EventStates
 .
 h
 for
@@ -1986,7 +1992,7 @@ here
 *
 /
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )
@@ -2042,7 +2048,7 @@ change
 void
 AddStatesSilently
 (
-nsEventStates
+EventStates
 aStates
 )
 {
@@ -2102,7 +2108,7 @@ change
 void
 RemoveStatesSilently
 (
-nsEventStates
+EventStates
 aStates
 )
 {
@@ -2170,14 +2176,14 @@ Link
 void
 NotifyStateChange
 (
-nsEventStates
+EventStates
 aStates
 )
 ;
 void
 NotifyStyleStateChange
 (
-nsEventStates
+EventStates
 aStates
 )
 ;
@@ -2195,7 +2201,7 @@ and
 style
 locks
 .
-nsEventStates
+EventStates
 StyleStateFromLocks
 (
 )
@@ -2244,7 +2250,7 @@ virtual
 void
 AddStates
 (
-nsEventStates
+EventStates
 aStates
 )
 {
@@ -2285,7 +2291,7 @@ virtual
 void
 RemoveStates
 (
-nsEventStates
+EventStates
 aStates
 )
 {
@@ -6953,7 +6959,7 @@ true
 /
 Data
 members
-nsEventStates
+EventStates
 mState
 ;
 }

@@ -173,7 +173,7 @@ HTMLMeterElement
 )
 ;
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )
@@ -529,7 +529,7 @@ element
 .
 *
 /
-nsEventStates
+EventStates
 GetOptimumState
 (
 )

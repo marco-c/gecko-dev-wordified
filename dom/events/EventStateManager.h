@@ -215,6 +215,9 @@ class
 EnterLeaveDispatcher
 ;
 class
+EventStates
+;
+class
 ScrollbarsForWheel
 ;
 class
@@ -726,7 +729,7 @@ SetContentState
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aState
 )
 ;
@@ -4469,7 +4472,7 @@ dom
 Element
 *
 aElement
-nsEventStates
+EventStates
 aState
 bool
 aAddState
@@ -4483,7 +4486,7 @@ DoStateChange
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aState
 bool
 aAddState
@@ -4499,7 +4502,7 @@ aStartNode
 nsIContent
 *
 aStopBefore
-nsEventStates
+EventStates
 aState
 bool
 aAddState

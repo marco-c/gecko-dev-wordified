@@ -105,6 +105,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TouchEvents
 .
 h
@@ -1486,7 +1495,7 @@ painted
 return
 ;
 }
-nsEventStates
+EventStates
 eventStates
 =
 mContent

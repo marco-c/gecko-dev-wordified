@@ -365,7 +365,7 @@ MOZ_OVERRIDE
 /
 nsIContent
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )

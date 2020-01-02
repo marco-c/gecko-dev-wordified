@@ -497,7 +497,7 @@ OK
 for
 us
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )

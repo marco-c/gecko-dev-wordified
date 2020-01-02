@@ -116,6 +116,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLFieldSetElement
@@ -1863,7 +1872,7 @@ aElementValidity
 return
 ;
 }
-nsEventStates
+EventStates
 HTMLFieldSetElement
 :
 :
@@ -1872,7 +1881,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLFormElement

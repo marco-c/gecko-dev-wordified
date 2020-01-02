@@ -703,7 +703,10 @@ object
 .
 *
 /
-nsEventStates
+mozilla
+:
+:
+EventStates
 ObjectState
 (
 )
@@ -2841,7 +2844,10 @@ NotifyStateChanged
 (
 ObjectType
 aOldType
-nsEventStates
+mozilla
+:
+:
+EventStates
 aOldState
 bool
 aSync

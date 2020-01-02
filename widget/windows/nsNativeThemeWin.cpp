@@ -105,6 +105,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WindowsVersion
 .
 h
@@ -169,13 +178,6 @@ h
 include
 "
 nsIFrame
-.
-h
-"
-#
-include
-"
-nsEventStates
 .
 h
 "
@@ -308,6 +310,10 @@ mozilla
 :
 :
 IsVistaOrLater
+;
+using
+namespace
+mozilla
 ;
 using
 namespace
@@ -571,7 +577,7 @@ GetWindowFrameButtonState
 nsIFrame
 *
 aFrame
-nsEventStates
+EventStates
 eventState
 )
 {
@@ -690,7 +696,7 @@ static
 int32_t
 GetClassicWindowFrameButtonState
 (
-nsEventStates
+EventStates
 eventState
 )
 {
@@ -4439,7 +4445,7 @@ paint
 return
 ;
 }
-nsEventStates
+EventStates
 eventStates
 =
 GetContentState
@@ -5205,7 +5211,7 @@ bool
 wantFocused
 )
 {
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -5479,7 +5485,7 @@ return
 NS_OK
 ;
 }
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -5664,7 +5670,7 @@ inputState
 INDETERMINATE
 ;
 }
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -5784,7 +5790,7 @@ case
 NS_THEME_TEXTFIELD_MULTILINE
 :
 {
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -6187,7 +6193,7 @@ GetParent
 (
 )
 ;
-nsEventStates
+EventStates
 eventStates
 =
 GetContentState
@@ -6264,7 +6270,7 @@ return
 NS_OK
 ;
 }
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -6415,7 +6421,7 @@ NS_THEME_SCROLLBAR_BUTTON_UP
 *
 4
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -6461,7 +6467,7 @@ GetParent
 (
 )
 ;
-nsEventStates
+EventStates
 parentState
 =
 GetContentState
@@ -6593,7 +6599,7 @@ SP_THUMBHOR
 :
 SP_THUMBVERT
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -6809,7 +6815,7 @@ TKP_THUMB
 TKP_THUMBVERT
 ;
 }
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -6943,7 +6949,7 @@ SPNP_UP
 :
 SPNP_DOWN
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -7289,7 +7295,7 @@ return
 NS_OK
 ;
 }
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -7463,7 +7469,7 @@ IsMenuListEditable
 aFrame
 )
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -7704,7 +7710,7 @@ aFrame
 =
 parentFrame
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -8206,7 +8212,7 @@ do_QueryFrame
 aFrame
 )
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -8365,7 +8371,7 @@ aPart
 =
 MENU_POPUPSUBMENU
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -8400,7 +8406,7 @@ NS_THEME_MENURADIO
 bool
 isChecked
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -10064,7 +10070,7 @@ bgState
 =
 MCB_NORMAL
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -10878,7 +10884,7 @@ aWidgetType
 NS_THEME_SCALE_VERTICAL
 )
 {
-nsEventStates
+EventStates
 contentState
 =
 GetContentState
@@ -17502,7 +17508,7 @@ case
 NS_THEME_BUTTON
 :
 {
-nsEventStates
+EventStates
 contentState
 ;
 aPart
@@ -17685,7 +17691,7 @@ case
 NS_THEME_RADIO
 :
 {
-nsEventStates
+EventStates
 contentState
 ;
 aFocused
@@ -17898,7 +17904,7 @@ do_QueryFrame
 aFrame
 )
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -18093,7 +18099,7 @@ aState
 =
 0
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -18360,7 +18366,7 @@ aFrame
 =
 parentFrame
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -18511,7 +18517,7 @@ case
 NS_THEME_SCROLLBAR_BUTTON_RIGHT
 :
 {
-nsEventStates
+EventStates
 contentState
 =
 GetContentState
@@ -18611,7 +18617,7 @@ case
 NS_THEME_SPINNER_DOWN_BUTTON
 :
 {
-nsEventStates
+EventStates
 contentState
 =
 GetContentState
@@ -20937,7 +20943,7 @@ BF_RECT
 BF_ADJUST
 )
 ;
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -21313,7 +21319,7 @@ case
 NS_THEME_SCALE_THUMB_HORIZONTAL
 :
 {
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -21752,7 +21758,7 @@ GetParent
 (
 )
 ;
-nsEventStates
+EventStates
 eventStates
 =
 GetContentState

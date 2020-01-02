@@ -202,6 +202,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -599,7 +608,7 @@ element
 "
 )
 ;
-nsEventStates
+EventStates
 buttonState
 =
 mContent

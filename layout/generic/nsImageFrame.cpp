@@ -127,6 +127,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -362,13 +371,6 @@ h
 include
 "
 nsIDOMRange
-.
-h
-"
-#
-include
-"
-nsEventStates
 .
 h
 "
@@ -2894,7 +2896,7 @@ nsStyleContext
 aStyleContext
 )
 {
-nsEventStates
+EventStates
 state
 =
 aElement
@@ -5570,7 +5572,7 @@ SetOverflowAreasToDesiredBounds
 (
 )
 ;
-nsEventStates
+EventStates
 contentState
 =
 mContent
@@ -6906,7 +6908,7 @@ nsImageFrame
 mFrame
 )
 ;
-nsEventStates
+EventStates
 state
 =
 f
@@ -9073,7 +9075,7 @@ currentRequest
 )
 ;
 }
-nsEventStates
+EventStates
 contentState
 =
 mContent

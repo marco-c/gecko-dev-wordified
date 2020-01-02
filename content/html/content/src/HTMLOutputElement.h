@@ -249,7 +249,7 @@ aResult
 )
 MOZ_OVERRIDE
 ;
-nsEventStates
+EventStates
 IntrinsicState
 (
 )
