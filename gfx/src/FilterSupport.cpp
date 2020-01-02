@@ -10180,6 +10180,10 @@ mType
 (
 aType
 )
+mIsTainted
+(
+false
+)
 {
 }
 FilterPrimitiveDescription
@@ -10228,6 +10232,12 @@ mOutputColorSpace
 aOther
 .
 mOutputColorSpace
+)
+mIsTainted
+(
+aOther
+.
+mIsTainted
 )
 {
 }
@@ -10289,6 +10299,12 @@ mOutputColorSpace
 aOther
 .
 mOutputColorSpace
+;
+mIsTainted
+=
+aOther
+.
+mIsTainted
 ;
 }
 return

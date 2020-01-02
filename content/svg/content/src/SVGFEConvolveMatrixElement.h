@@ -260,6 +260,13 @@ const
 IntRect
 &
 aFilterSubregion
+const
+nsTArray
+<
+bool
+>
+&
+aInputsAreTainted
 nsTArray
 <
 mozilla
