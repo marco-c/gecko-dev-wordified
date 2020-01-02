@@ -693,6 +693,9 @@ addressHead
 BLUETOOTH_ADDRESS_LENGTH
 =
 =
+(
+int
+)
 address
 .
 Length

@@ -1541,6 +1541,9 @@ IsEmpty
 ;
 MOZ_ASSERT
 (
+(
+int
+)
 mBatches
 [
 0

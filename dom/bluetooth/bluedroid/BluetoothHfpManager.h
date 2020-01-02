@@ -407,6 +407,7 @@ Get
 (
 )
 ;
+virtual
 ~
 BluetoothHfpManager
 (

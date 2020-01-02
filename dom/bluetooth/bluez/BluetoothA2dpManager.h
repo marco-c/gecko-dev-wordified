@@ -186,6 +186,7 @@ Get
 (
 )
 ;
+virtual
 ~
 BluetoothA2dpManager
 (
