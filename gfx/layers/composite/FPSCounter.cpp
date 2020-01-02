@@ -2219,15 +2219,6 @@ FontWidth
 .
 f
 ;
-static
-const
-float
-FontStride
-=
-4
-.
-f
-;
 /
 /
 Scale
