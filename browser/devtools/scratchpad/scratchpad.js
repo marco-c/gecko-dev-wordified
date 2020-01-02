@@ -5233,6 +5233,11 @@ stack
 "
 string
 "
+&
+&
+error
+.
+stack
 )
 {
 stack
@@ -5252,7 +5257,7 @@ fileName
 =
 =
 "
-number
+string
 "
 )
 {
