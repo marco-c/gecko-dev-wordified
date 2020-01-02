@@ -599,6 +599,13 @@ NSView
 )
 trackingAreaView
 ;
+-
+(
+ChildView
+*
+)
+mainChildView
+;
 end
 interface
 NSWindow
@@ -1204,13 +1211,6 @@ setDrawsContentsIntoWindowFrame
 BOOL
 )
 aState
-;
--
-(
-ChildView
-*
-)
-mainChildView
 ;
 end
 class
