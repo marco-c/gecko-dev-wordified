@@ -100,7 +100,7 @@ BaseBootstrapper
 HOMEBREW_BOOTSTRAP
 =
 '
-http
+https
 :
 /
 /
@@ -110,11 +110,13 @@ github
 .
 com
 /
-mxcl
+Homebrew
 /
 homebrew
 /
 go
+/
+install
 '
 XCODE_APP_STORE
 =
