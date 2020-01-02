@@ -13180,6 +13180,11 @@ new_
 MIRGenerator
 >
 (
+CompileCompartment
+:
+:
+get
+(
 cx
 (
 )
@@ -13187,6 +13192,7 @@ cx
 >
 compartment
 (
+)
 )
 alloc_
 graph_
