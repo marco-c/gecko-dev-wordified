@@ -708,12 +708,6 @@ js
 :
 :
 gc
-=
-=
-js
-:
-:
-IsLiveGCThing
 )
 ?
 mSize
