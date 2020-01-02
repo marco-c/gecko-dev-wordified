@@ -602,6 +602,27 @@ time
 +
 =
 delta
+        
+for
+marker
+in
+thread
+[
+'
+markers
+'
+]
+:
+            
+marker
+[
+'
+time
+'
+]
++
+=
+delta
     
 result
 =
