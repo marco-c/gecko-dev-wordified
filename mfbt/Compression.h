@@ -263,7 +263,7 @@ is
 provided
 by
 function
-LZ4_compressBound
+maxCompressedSize
 (
 )
 *
