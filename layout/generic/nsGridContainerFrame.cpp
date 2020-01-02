@@ -494,7 +494,7 @@ bp
 nscoord
 contentHeight
 =
-GetEffectiveComputedHeight
+GetEffectiveComputedBSize
 (
 aReflowState
 )

@@ -1648,7 +1648,7 @@ IsBlock
 &
 &
 !
-GetCarriedOutBottomMargin
+GetCarriedOutBEndMargin
 (
 )
 .
@@ -1668,7 +1668,7 @@ bm
 %
 d
 "
-GetCarriedOutBottomMargin
+GetCarriedOutBEndMargin
 (
 )
 .
@@ -2765,7 +2765,7 @@ nsCollapsingMargin
 nsLineBox
 :
 :
-GetCarriedOutBottomMargin
+GetCarriedOutBEndMargin
 (
 )
 const
@@ -2776,7 +2776,7 @@ IsBlock
 (
 )
 "
-GetCarriedOutBottomMargin
+GetCarriedOutBEndMargin
 called
 on
 non
@@ -2800,7 +2800,7 @@ mBlockData
 mBlockData
 -
 >
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 :
 nsCollapsingMargin
 (
@@ -2811,7 +2811,7 @@ bool
 nsLineBox
 :
 :
-SetCarriedOutBottomMargin
+SetCarriedOutBEndMargin
 (
 nsCollapsingMargin
 aValue
@@ -2864,12 +2864,12 @@ aValue
 mBlockData
 -
 >
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 ;
 mBlockData
 -
 >
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 =
 aValue
 ;
@@ -2888,12 +2888,12 @@ aValue
 mBlockData
 -
 >
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 ;
 mBlockData
 -
 >
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 =
 aValue
 ;
@@ -2974,7 +2974,7 @@ if
 mBlockData
 -
 >
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 .
 IsZero
 (

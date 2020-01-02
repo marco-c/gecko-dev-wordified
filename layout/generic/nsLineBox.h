@@ -2397,10 +2397,10 @@ NS_STYLE_CLEAR_NONE
 }
 /
 /
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 value
 nsCollapsingMargin
-GetCarriedOutBottomMargin
+GetCarriedOutBEndMargin
 (
 )
 const
@@ -2414,7 +2414,7 @@ the
 margin
 changed
 bool
-SetCarriedOutBottomMargin
+SetCarriedOutBEndMargin
 (
 nsCollapsingMargin
 aValue
@@ -3740,13 +3740,13 @@ ExtraData
 (
 aBounds
 )
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 (
 )
 {
 }
 nsCollapsingMargin
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 ;
 }
 ;
