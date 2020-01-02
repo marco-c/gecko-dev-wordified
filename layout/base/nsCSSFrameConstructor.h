@@ -9642,7 +9642,7 @@ scrollframe
 will
 have
 .
-nsresult
+void
 BuildScrollFrame
 (
 nsFrameConstructorState
