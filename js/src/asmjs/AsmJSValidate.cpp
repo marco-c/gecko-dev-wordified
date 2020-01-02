@@ -27333,7 +27333,7 @@ true
 }
 static
 bool
-CheckCall
+CheckCoercedCall
 (
 FunctionCompiler
 &
@@ -27382,7 +27382,7 @@ PNK_CALL
 )
 )
 return
-CheckCall
+CheckCoercedCall
 (
 f
 arg
@@ -28452,7 +28452,7 @@ true
 }
 static
 bool
-CheckCall
+CheckCoercedCall
 (
 FunctionCompiler
 &
@@ -28777,7 +28777,7 @@ PNK_CALL
 )
 )
 return
-CheckCall
+CheckCoercedCall
 (
 f
 operand
@@ -29609,7 +29609,7 @@ PNK_CALL
 if
 (
 !
-CheckCall
+CheckCoercedCall
 (
 f
 pn
@@ -32132,7 +32132,7 @@ PNK_CALL
 )
 )
 return
-CheckCall
+CheckCoercedCall
 (
 f
 lhs
@@ -32969,7 +32969,7 @@ PNK_CALL
 )
 )
 return
-CheckCall
+CheckCoercedCall
 (
 f
 expr
