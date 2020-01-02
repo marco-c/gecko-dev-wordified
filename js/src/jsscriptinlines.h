@@ -951,6 +951,14 @@ baseline
 ;
 #
 endif
+MOZ_ASSERT
+(
+!
+hasIonScript
+(
+)
+)
+;
 baseline
 =
 baselineScript
