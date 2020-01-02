@@ -19715,13 +19715,6 @@ obj
 id
 )
 ;
-JSAutoResolveFlags
-rf
-(
-cx
-JSRESOLVE_ASSIGNING
-)
-;
 return
 JSObject
 :
@@ -19768,13 +19761,6 @@ assertSameCompartment
 cx
 obj
 vp
-)
-;
-JSAutoResolveFlags
-rf
-(
-cx
-JSRESOLVE_ASSIGNING
 )
 ;
 return
