@@ -1013,6 +1013,12 @@ the
 graph
 nsCOMPtr
 <
+nsISupports
+>
+supports
+;
+nsCOMPtr
+<
 nsISupportsCString
 >
 entry
@@ -1026,7 +1032,7 @@ GetNext
 (
 getter_AddRefs
 (
-entry
+supports
 )
 )
 ;
@@ -1038,6 +1044,13 @@ rv
 )
 )
 {
+entry
+=
+do_QueryInterface
+(
+supports
+)
+;
 /
 /
 get
@@ -1143,7 +1156,7 @@ GetNext
 (
 getter_AddRefs
 (
-entry
+supports
 )
 )
 ;

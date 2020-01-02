@@ -29550,6 +29550,12 @@ hasMore
 {
 nsCOMPtr
 <
+nsISupports
+>
+supports
+;
+nsCOMPtr
+<
 nsICookie
 >
 cookie
@@ -29563,7 +29569,7 @@ GetNext
 (
 getter_AddRefs
 (
-cookie
+supports
 )
 )
 ;
@@ -29571,6 +29577,13 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+cookie
+=
+do_QueryInterface
+(
+supports
 )
 ;
 nsAutoCString
