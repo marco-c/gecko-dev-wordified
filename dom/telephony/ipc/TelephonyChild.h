@@ -246,9 +246,9 @@ uint32_t
 &
 aClientId
 const
-nsString
+IPCCdmaWaitingCallData
 &
-aNumber
+aData
 )
 MOZ_OVERRIDE
 ;
