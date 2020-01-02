@@ -1859,6 +1859,9 @@ status
 )
 {
 case
+SIGSYS
+:
+case
 SIGSEGV
 :
 case
