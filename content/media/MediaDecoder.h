@@ -2728,6 +2728,7 @@ NotifyWaitingForResourcesStatusChanged
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetPlaybackRate
 (
@@ -5583,6 +5584,7 @@ main
 thread
 only
 .
+virtual
 void
 ChangeState
 (
@@ -5692,6 +5694,7 @@ main
 thread
 only
 .
+virtual
 void
 MetadataLoaded
 (
@@ -5926,6 +5929,7 @@ Main
 thread
 only
 .
+virtual
 void
 UpdateReadyStateForData
 (
