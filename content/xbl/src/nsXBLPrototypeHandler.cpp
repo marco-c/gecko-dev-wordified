@@ -2191,6 +2191,7 @@ rv
 =
 NS_NewJSEventListener
 (
+nullptr
 globalObject
 scriptTarget
 onEventAtom

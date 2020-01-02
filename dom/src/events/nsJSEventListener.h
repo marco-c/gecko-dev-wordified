@@ -194,6 +194,9 @@ public
 :
 nsJSEventListener
 (
+nsIScriptContext
+*
+aContext
 JSObject
 *
 aScopeObject
