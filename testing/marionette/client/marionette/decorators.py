@@ -263,7 +263,10 @@ kwargs
 )
         
 except
+(
 MarionetteException
+IOError
+)
 :
             
 exc
