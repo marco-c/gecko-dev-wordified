@@ -221,6 +221,15 @@ aFrame
 >
 mIntrinsicSize
 ;
+mForceBlack
+=
+aFrame
+-
+>
+GetForceBlack
+(
+)
+;
 }
 VideoChunk
 :
