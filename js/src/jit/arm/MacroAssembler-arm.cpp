@@ -14075,9 +14075,7 @@ MacroAssemblerARMCompat
 :
 load32
 (
-const
 AbsoluteAddress
-&
 address
 Register
 dest
@@ -14206,9 +14204,7 @@ MacroAssemblerARMCompat
 :
 loadPtr
 (
-const
 AbsoluteAddress
-&
 address
 Register
 dest
@@ -15149,9 +15145,7 @@ store32
 (
 Register
 src
-const
 AbsoluteAddress
-&
 address
 )
 {
@@ -15433,9 +15427,7 @@ storePtr
 (
 Register
 src
-const
 AbsoluteAddress
-&
 dest
 )
 {

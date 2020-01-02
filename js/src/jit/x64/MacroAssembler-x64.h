@@ -3995,9 +3995,7 @@ branch32
 (
 Condition
 cond
-const
 AbsoluteAddress
-&
 lhs
 Imm32
 rhs
@@ -4066,9 +4064,7 @@ branch32
 (
 Condition
 cond
-const
 AbsoluteAddress
-&
 lhs
 Register
 rhs
@@ -4143,9 +4139,7 @@ branchPtr
 (
 Condition
 cond
-const
 AbsoluteAddress
-&
 addr
 Register
 ptr
@@ -4728,9 +4722,7 @@ dest
 void
 loadPtr
 (
-const
 AbsoluteAddress
-&
 address
 Register
 dest
@@ -4877,9 +4869,7 @@ dest
 void
 load32
 (
-const
 AbsoluteAddress
-&
 address
 Register
 dest
@@ -5105,9 +5095,7 @@ storePtr
 (
 Register
 src
-const
 AbsoluteAddress
-&
 address
 )
 {
@@ -5167,9 +5155,7 @@ store32
 (
 Register
 src
-const
 AbsoluteAddress
-&
 address
 )
 {
