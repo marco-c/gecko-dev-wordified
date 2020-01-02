@@ -7721,6 +7721,7 @@ GetSingleton
 SetProcessName
 (
 appName
+true
 )
 ;
 }
