@@ -512,7 +512,7 @@ AutoFocus
 )
 ;
 virtual
-void
+int
 CancelAutoFocus
 (
 )

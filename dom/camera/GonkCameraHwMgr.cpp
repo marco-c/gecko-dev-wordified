@@ -1606,7 +1606,7 @@ autoFocus
 )
 ;
 }
-void
+int
 GonkCameraHardware
 :
 :
@@ -1625,6 +1625,7 @@ n
 __func__
 )
 ;
+return
 mCamera
 -
 >

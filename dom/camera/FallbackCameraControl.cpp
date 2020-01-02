@@ -507,6 +507,7 @@ nsresult
 StartPreviewImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -517,6 +518,7 @@ nsresult
 StopPreviewImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -526,9 +528,8 @@ virtual
 nsresult
 AutoFocusImpl
 (
-bool
-aCancelExistingCall
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -539,6 +540,7 @@ nsresult
 StartFaceDetectionImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -549,6 +551,7 @@ nsresult
 StopFaceDetectionImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -559,6 +562,7 @@ nsresult
 TakePictureImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -578,6 +582,7 @@ aOptions
 =
 nullptr
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -588,6 +593,18 @@ nsresult
 StopRecordingImpl
 (
 )
+MOZ_OVERRIDE
+{
+return
+NS_ERROR_FAILURE
+;
+}
+virtual
+nsresult
+ResumeContinuousFocusImpl
+(
+)
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -598,6 +615,7 @@ nsresult
 PushParametersImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -608,6 +626,7 @@ nsresult
 PullParametersImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -621,6 +640,7 @@ RecorderProfileManager
 GetRecorderProfileManagerImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 nullptr
