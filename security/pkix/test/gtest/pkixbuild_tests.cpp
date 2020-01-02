@@ -701,13 +701,13 @@ CA7
 ;
 static_assert
 (
-PR_ARRAY_SIZE
+MOZILLA_PKIX_ARRAY_LENGTH
 (
 names
 )
 =
 =
-PR_ARRAY_SIZE
+MOZILLA_PKIX_ARRAY_LENGTH
 (
 certChainTail
 )
@@ -751,7 +751,7 @@ i
 ;
 i
 <
-PR_ARRAY_SIZE
+MOZILLA_PKIX_ARRAY_LENGTH
 (
 names
 )
@@ -1242,7 +1242,7 @@ const
 return
 certChainTail
 [
-PR_ARRAY_SIZE
+MOZILLA_PKIX_ARRAY_LENGTH
 (
 certChainTail
 )
