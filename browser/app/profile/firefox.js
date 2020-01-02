@@ -9935,7 +9935,7 @@ pver
 .
 2
 &
-apikey
+key
 =
 %
 GOOGLE_API_KEY
@@ -10311,7 +10311,7 @@ clientreport
 /
 download
 &
-apikey
+key
 =
 %
 GOOGLE_API_KEY
