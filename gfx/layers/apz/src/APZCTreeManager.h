@@ -2636,6 +2636,14 @@ CancelAnimationsForOverscrollHandoffChain
 (
 )
 ;
+void
+SnapBackOverscrolledApzc
+(
+AsyncPanZoomController
+*
+aStart
+)
+;
 /
 *
 *
