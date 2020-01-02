@@ -4793,7 +4793,7 @@ Main
 thread
 only
 .
-void
+nsresult
 SetupChannelHeaders
 (
 )
