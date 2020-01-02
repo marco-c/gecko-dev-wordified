@@ -2637,7 +2637,7 @@ arm
 -
 specific
 code
-void
+BufferOffset
 ma_b
 (
 Label
