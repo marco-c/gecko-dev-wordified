@@ -5432,6 +5432,13 @@ PR_NEXT_LINK
 next
 )
 ;
+collection
+-
+>
+Tick
+(
+)
+;
 bool
 canThrottleTick
 =

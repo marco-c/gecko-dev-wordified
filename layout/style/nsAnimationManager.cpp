@@ -2290,6 +2290,13 @@ mNeedsRefreshes
 =
 true
 ;
+collection
+-
+>
+Tick
+(
+)
+;
 TimeStamp
 refreshTime
 =
@@ -5054,6 +5061,13 @@ AnimationPlayerCollection
 >
 (
 l
+)
+;
+collection
+-
+>
+Tick
+(
 )
 ;
 bool

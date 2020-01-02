@@ -765,6 +765,11 @@ Animation
 aSource
 )
 ;
+void
+Tick
+(
+)
+;
 /
 /
 FIXME
