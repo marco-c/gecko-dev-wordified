@@ -6078,7 +6078,9 @@ isTablet
 )
 &
 &
-mOrientation
+getOrientation
+(
+)
 =
 =
 Configuration
