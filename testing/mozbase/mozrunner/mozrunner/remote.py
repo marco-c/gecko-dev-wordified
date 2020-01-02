@@ -228,12 +228,18 @@ restore
         
 self
 .
+added_files
+=
+set
+(
+)
+        
+self
+.
 backup_files
 =
 set
 (
-[
-]
 )
     
 def
@@ -298,6 +304,18 @@ remote_path
 self
 .
 backup_files
+.
+add
+(
+remote_path
+)
+        
+else
+:
+            
+self
+.
+added_files
 .
 add
 (
@@ -458,9 +476,24 @@ remount
 Restore
 the
 original
-profiles
+profile
+        
+for
+added_file
+in
+self
 .
-ini
+added_files
+:
+            
+self
+.
+dm
+.
+removeFile
+(
+added_file
+)
         
 for
 backup_file
