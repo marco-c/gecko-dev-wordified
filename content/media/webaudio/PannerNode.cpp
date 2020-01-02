@@ -2157,10 +2157,6 @@ M_PI
 *
 normalizedAzimuth
 )
-*
-aInput
-.
-mVolume
 ;
 gainR
 =
@@ -2174,10 +2170,6 @@ M_PI
 *
 normalizedAzimuth
 )
-*
-aInput
-.
-mVolume
 ;
 /
 /
@@ -2220,6 +2212,10 @@ aOutput
 distanceGain
 *
 coneGain
+*
+aInput
+.
+mVolume
 )
 ;
 }
