@@ -12980,7 +12980,7 @@ script
 if
 (
 !
-stub
+doubleStub
 )
 return
 false
