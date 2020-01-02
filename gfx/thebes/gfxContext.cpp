@@ -627,6 +627,10 @@ gfxContext
 DrawTarget
 *
 aTarget
+const
+Point
+&
+aDeviceOffset
 )
 :
 mPathIsRect
@@ -681,6 +685,14 @@ CurrentState
 drawTarget
 =
 mDT
+;
+CurrentState
+(
+)
+.
+deviceOffset
+=
+aDeviceOffset
 ;
 mDT
 -
