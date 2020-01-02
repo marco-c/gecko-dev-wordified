@@ -2853,7 +2853,7 @@ SilentFailure
 cx
 id
 "
-Object
+object
 is
 not
 safely
@@ -3487,7 +3487,7 @@ SilentFailure
 cx
 id
 "
-Property
+property
 has
 accessor
 "
@@ -3578,7 +3578,7 @@ SilentFailure
 cx
 id
 "
-Value
+value
 not
 same
 -
@@ -3632,7 +3632,7 @@ SilentFailure
 cx
 id
 "
-Value
+value
 not
 Xrayable
 "
@@ -3666,7 +3666,7 @@ SilentFailure
 cx
 id
 "
-Value
+value
 is
 callable
 "
@@ -3752,7 +3752,7 @@ SilentFailure
 cx
 id
 "
-Value
+value
 shadows
 a
 property
