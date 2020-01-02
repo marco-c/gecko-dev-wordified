@@ -1493,13 +1493,15 @@ DetachSharedHandle
 (
 )
 ;
+virtual
 void
 SetCompositor
 (
-CompositorOGL
+Compositor
 *
 aCompositor
 )
+MOZ_OVERRIDE
 ;
 gl
 :
