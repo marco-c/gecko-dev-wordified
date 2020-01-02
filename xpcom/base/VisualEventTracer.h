@@ -125,12 +125,12 @@ at
 run
 time
 export
-MOZ_PROFILING_FILE
+MOZ_TRACE_FILE
 env
 var
 with
-*
 a
+*
 path
 to
 the
@@ -147,6 +147,7 @@ all
 you
 need
 to
+*
 produce
 *
 the
@@ -160,12 +161,12 @@ the
 mozilla
 code
 .
-*
 Check
+*
 MOZ_EVENT_TRACER_
 *
 macros
-bellow
+below
 to
 add
 your
