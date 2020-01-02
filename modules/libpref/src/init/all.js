@@ -23788,7 +23788,9 @@ plugins
 enumerable_names
 "
 "
-*
+Java
+QuickTime
+Shockwave
 "
 )
 ;
