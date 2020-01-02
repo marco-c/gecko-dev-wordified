@@ -1736,7 +1736,7 @@ aMessage
 messageID
 aPage
 .
-uri
+pageURL
 aPage
 .
 manifestURL
@@ -1925,7 +1925,7 @@ push
 type
 :
 aType
-uri
+pageURL
 :
 pageURL
 manifestURL
@@ -2039,7 +2039,7 @@ function
 aTarget
 aManifestURL
 aRemoveListener
-aUri
+aPageURL
 )
 {
 let
@@ -2126,14 +2126,14 @@ index
 ;
 if
 (
-aUri
+aPageURL
 &
 &
 target
 .
 winCounts
 [
-aUri
+aPageURL
 ]
 !
 =
@@ -2147,7 +2147,7 @@ target
 .
 winCounts
 [
-aUri
+aPageURL
 ]
 =
 =
@@ -2160,7 +2160,7 @@ target
 .
 winCounts
 [
-aUri
+aPageURL
 ]
 ;
 }
@@ -2438,7 +2438,7 @@ from
 +
 msg
 .
-uri
+pageURL
 +
 "
 "
@@ -2449,11 +2449,11 @@ manifestURL
 )
 ;
 let
-uri
+pageURL
 =
 msg
 .
-uri
+pageURL
 ;
 let
 targets
@@ -2484,7 +2484,7 @@ winCounts
 ;
 winCounts
 [
-uri
+pageURL
 ]
 =
 1
@@ -2543,7 +2543,7 @@ winCounts
 ;
 winCounts
 [
-uri
+pageURL
 ]
 =
 1
@@ -2581,7 +2581,7 @@ if
 (
 winCounts
 [
-uri
+pageURL
 ]
 =
 =
@@ -2591,7 +2591,7 @@ undefined
 {
 winCounts
 [
-uri
+pageURL
 ]
 =
 1
@@ -2601,7 +2601,7 @@ else
 {
 winCounts
 [
-uri
+pageURL
 ]
 +
 +
@@ -2746,7 +2746,7 @@ manifestURL
 false
 msg
 .
-uri
+pageURL
 )
 ;
 break
@@ -2779,7 +2779,7 @@ for
 +
 msg
 .
-uri
+pageURL
 +
 "
 "
@@ -2831,7 +2831,7 @@ msg
 type
 msg
 .
-uri
+pageURL
 msg
 .
 manifestURL
@@ -2967,11 +2967,11 @@ manifestURL
 msg
 .
 manifestURL
-uri
+pageURL
 :
 msg
 .
-uri
+pageURL
 msgQueue
 :
 pendingMessages
@@ -3008,7 +3008,7 @@ for
 +
 msg
 .
-uri
+pageURL
 +
 "
 "
@@ -3060,7 +3060,7 @@ msg
 type
 msg
 .
-uri
+pageURL
 msg
 .
 manifestURL
@@ -3124,7 +3124,7 @@ for
 +
 msg
 .
-uri
+pageURL
 +
 "
 "
@@ -3176,7 +3176,7 @@ msg
 type
 msg
 .
-uri
+pageURL
 msg
 .
 manifestURL
@@ -3279,7 +3279,7 @@ for
 +
 msg
 .
-uri
+pageURL
 +
 "
 "
@@ -3827,11 +3827,11 @@ let
 page
 =
 {
-uri
+pageURL
 :
 aPage
 .
-uri
+pageURL
 manifestURL
 :
 aPage
@@ -3905,7 +3905,7 @@ function
 (
 aPage
 aType
-aPageURI
+aPageURL
 aManifestURL
 )
 {
@@ -3931,11 +3931,11 @@ aManifestURL
 &
 aPage
 .
-uri
+pageURL
 =
 =
 =
-aPageURI
+aPageURL
 )
 }
 _createKeyForPage
@@ -4016,7 +4016,10 @@ SHA1
 /
 /
 add
-uri
+manifest
+/
+page
+URL
 and
 action
 to
@@ -4030,7 +4033,7 @@ type
 manifestURL
 "
 "
-uri
+pageURL
 "
 ]
 .
@@ -4085,7 +4088,7 @@ function
 aType
 aMessage
 aMessageID
-aPageURI
+aPageURL
 aManifestURL
 aExtra
 )
@@ -4116,7 +4119,7 @@ SystemMessagePermissionsChecker
 isSystemMessagePermittedToSend
 (
 aType
-aPageURI
+aPageURL
 aManifestURL
 )
 )
@@ -4144,9 +4147,9 @@ aType
 manifestURL
 :
 aManifestURL
-uri
+pageURL
 :
-aPageURI
+aPageURL
 }
 )
 ;
@@ -4236,7 +4239,7 @@ target
 .
 winCounts
 [
-aPageURI
+aPageURL
 ]
 =
 =
@@ -4380,9 +4383,9 @@ aMessage
 manifestURL
 :
 aManifestURL
-uri
+pageURL
 :
-aPageURI
+aPageURL
 msgID
 :
 aMessageID
