@@ -380,7 +380,7 @@ def
 run_test
 (
 self
-test_file
+test_paths
 interactive
 =
 False
@@ -496,12 +496,14 @@ build_path
 )
         
 if
-test_file
+test_paths
 =
 =
+[
 '
 all
 '
+]
 :
             
 self
@@ -557,9 +559,9 @@ resolver
 .
 resolve_tests
 (
-path
+paths
 =
-test_file
+test_paths
 flavor
 =
 '
@@ -1634,7 +1636,7 @@ run_test
 (
 self
                  
-test_file
+test_paths
 keep_going
                  
 devicemanager
@@ -2025,12 +2027,14 @@ APK
 )
         
 if
-test_file
+test_paths
 =
 =
+[
 '
 all
 '
+]
 :
             
 testdirs
@@ -2053,15 +2057,48 @@ False
 else
 :
             
+if
+len
+(
+test_paths
+)
+>
+1
+:
+                
+print
+(
+'
+Warning
+:
+only
+the
+first
+test
+path
+argument
+will
+be
+used
+.
+'
+)
+            
 testdirs
 =
-test_file
+test_paths
+[
+0
+]
             
 options
 .
 testPath
 =
-test_file
+test_paths
+[
+0
+]
             
 options
 .
@@ -2501,7 +2538,7 @@ def
 run_test
 (
 self
-test_file
+test_paths
 b2g_home
 =
 None
@@ -2585,8 +2622,34 @@ test_path
 None
         
 if
-test_file
+test_paths
 :
+            
+if
+len
+(
+test_paths
+)
+>
+1
+:
+                
+print
+(
+'
+Warning
+:
+Only
+the
+first
+test
+path
+will
+be
+used
+.
+'
+)
             
 test_path
 =
@@ -2594,7 +2657,10 @@ self
 .
 _wrap_path_argument
 (
-test_file
+test_paths
+[
+0
+]
 )
 .
 relpath
@@ -2941,7 +3007,7 @@ tests
 CommandArgument
 (
 '
-test_file
+test_paths
 '
 default
 =
@@ -2951,7 +3017,7 @@ all
 nargs
 =
 '
-?
+*
 '
 metavar
 =
