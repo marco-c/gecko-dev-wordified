@@ -14697,6 +14697,11 @@ ComputeVisibilityForRoot
 builder
 &
 visibleRegion
+usingDisplayPort
+?
+rootScrollFrame
+:
+nullptr
 )
 ;
 uint32_t
