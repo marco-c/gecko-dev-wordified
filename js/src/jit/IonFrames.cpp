@@ -8756,7 +8756,7 @@ GC
 .
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 rt
 -

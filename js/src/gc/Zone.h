@@ -1711,7 +1711,7 @@ nbytes
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 isTooMuchMalloc
 (

@@ -1305,7 +1305,7 @@ scopeChain
 ;
 while
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 pobj
@@ -1496,7 +1496,7 @@ MAX_FRAMES
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 frameCount_
 >

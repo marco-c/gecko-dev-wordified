@@ -414,7 +414,7 @@ bytes
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 p
@@ -451,7 +451,7 @@ bytes
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 p
@@ -494,7 +494,7 @@ bytes
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 p2

@@ -897,7 +897,7 @@ overflow
 .
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 newBump
 <

@@ -4328,7 +4328,7 @@ getElementsHeader
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 elements
 -
@@ -7162,7 +7162,7 @@ cx
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 obj
 -
@@ -7509,7 +7509,7 @@ maybeJSContext
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 (
 size_t

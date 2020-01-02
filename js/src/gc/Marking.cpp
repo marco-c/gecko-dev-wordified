@@ -3111,7 +3111,7 @@ str
 else
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 JSID_IS_OBJECT
 (
@@ -5692,7 +5692,7 @@ id
 else
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 JSID_IS_OBJECT
 (

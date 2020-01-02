@@ -2675,7 +2675,7 @@ table
 .
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 maybeEOL
 [
@@ -7209,7 +7209,7 @@ retry
 :
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 userbuf
@@ -7292,7 +7292,7 @@ faster
 .
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 c
 >

@@ -205,7 +205,7 @@ true
 }
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 JSID_IS_STRING

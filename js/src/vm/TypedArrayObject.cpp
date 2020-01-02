@@ -14459,7 +14459,7 @@ ArrayTypeIsFloatingPoint
 )
 &
 &
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 IsNaN
 (

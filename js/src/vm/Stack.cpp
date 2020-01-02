@@ -1993,7 +1993,7 @@ isForEval
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -2244,7 +2244,7 @@ scopeChain
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -2412,7 +2412,7 @@ cx
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -

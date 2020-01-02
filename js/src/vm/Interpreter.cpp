@@ -1738,7 +1738,7 @@ op
 JSOP_CALLPROP
 &
 &
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 vp
 .
@@ -2894,7 +2894,7 @@ functions
 /
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 clasp
 !
@@ -2912,7 +2912,7 @@ if
 JS_HAS_NO_SUCH_METHOD
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 clasp
 =
@@ -6293,7 +6293,7 @@ hooks
 /
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -9757,7 +9757,7 @@ blockDepth
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 REGS
 .
@@ -9936,7 +9936,7 @@ entryFrame
 }
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -11575,7 +11575,7 @@ SCRIPT_STOP
 endif
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -16690,7 +16690,7 @@ error
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -20898,7 +20898,7 @@ bug
 .
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -21406,7 +21406,7 @@ exit
 :
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -21733,7 +21733,7 @@ if
 JS_HAS_NO_SUCH_METHOD
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 vp
 .

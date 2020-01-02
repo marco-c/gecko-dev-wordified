@@ -1294,7 +1294,7 @@ utf8Buffer
 }
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 ucs4Char
 <

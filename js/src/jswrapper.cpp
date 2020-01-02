@@ -612,7 +612,7 @@ WrapperObject
 )
 |
 |
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 stopAtOuter
 &
@@ -767,7 +767,7 @@ WrapperObject
 )
 |
 |
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 !

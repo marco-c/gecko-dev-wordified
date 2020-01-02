@@ -11061,7 +11061,7 @@ strict
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 obj
 -
@@ -11152,7 +11152,7 @@ strict
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 obj
 -
@@ -32117,7 +32117,7 @@ DNP_UNQUALIFIED
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 obj
 -
@@ -39591,7 +39591,7 @@ getElementsHeader
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 elements
 -
