@@ -250,7 +250,7 @@ object
 )
 :
     
-default_env
+extra_env
 =
 {
         
@@ -3023,20 +3023,13 @@ logfile
 )
         
 #
-Make
-a
-copy
-of
+Copy
 the
-default
+system
 env
 variables
 and
-preferences
-and
 update
-        
-#
 them
 for
 custom
@@ -3046,13 +3039,31 @@ self
 .
 env
 =
-self
+os
 .
-default_env
+environ
 .
 copy
 (
 )
+        
+self
+.
+env
+.
+update
+(
+self
+.
+extra_env
+)
+        
+#
+Update
+preferences
+for
+custom
+settings
         
 self
 .
