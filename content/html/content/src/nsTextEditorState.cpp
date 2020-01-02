@@ -7200,6 +7200,10 @@ mEditorInitialized
 false
 ;
 }
+ClearValueCache
+(
+)
+;
 }
 void
 nsTextEditorState
