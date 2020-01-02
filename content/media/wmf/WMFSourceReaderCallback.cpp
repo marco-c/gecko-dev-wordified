@@ -141,7 +141,7 @@ nullptr
 ;
 #
 define
-LOG
+WMF_CB_LOG
 (
 .
 .
@@ -159,7 +159,7 @@ __VA_ARGS__
 else
 #
 define
-LOG
+WMF_CB_LOG
 (
 .
 .
@@ -185,7 +185,7 @@ void
 aInterface
 )
 {
-LOG
+WMF_CB_LOG
 (
 "
 WMFSourceReaderCallback
@@ -528,7 +528,7 @@ IMFSample
 aSample
 )
 {
-LOG
+WMF_CB_LOG
 (
 "
 WMFSourceReaderCallback
@@ -581,7 +581,7 @@ Cancel
 (
 )
 {
-LOG
+WMF_CB_LOG
 (
 "
 WMFSourceReaderCallback
@@ -656,7 +656,7 @@ mon
 mMonitor
 )
 ;
-LOG
+WMF_CB_LOG
 (
 "
 WMFSourceReaderCallback
@@ -687,7 +687,7 @@ mReadFinished
 =
 false
 ;
-LOG
+WMF_CB_LOG
 (
 "
 WMFSourceReaderCallback

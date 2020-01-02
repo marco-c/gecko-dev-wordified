@@ -231,7 +231,7 @@ nullptr
 ;
 #
 define
-LOG
+WMF_BS_LOG
 (
 .
 .
@@ -249,7 +249,7 @@ __VA_ARGS__
 else
 #
 define
-LOG
+WMF_BS_LOG
 (
 .
 .
@@ -817,7 +817,7 @@ WMFByteStream
 }
 #
 endif
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -906,7 +906,7 @@ event
 NS_DISPATCH_NORMAL
 )
 ;
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -1276,7 +1276,7 @@ hr
 NS_ERROR_FAILURE
 )
 ;
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -1359,7 +1359,7 @@ void
 aInterface
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -1599,7 +1599,7 @@ void
 aInterface
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 ReadRequest
@@ -1768,7 +1768,7 @@ mon
 mReentrantMonitor
 )
 ;
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2211,7 +2211,7 @@ MFInvokeCallback
 aResult
 )
 ;
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2280,7 +2280,7 @@ S_OK
 )
 ;
 }
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2372,7 +2372,7 @@ IUnknown
 *
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2401,7 +2401,7 @@ Close
 (
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2527,7 +2527,7 @@ requestState
 >
 mBytesRead
 ;
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2609,7 +2609,7 @@ ULONG
 *
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2638,7 +2638,7 @@ Flush
 (
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2670,7 +2670,7 @@ DWORD
 aCapabilities
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2885,7 +2885,7 @@ GetLength
 :
 mOffset
 ;
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -2942,7 +2942,7 @@ GetLength
 (
 )
 ;
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -3035,7 +3035,7 @@ IsEOS
 (
 )
 ;
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -3102,7 +3102,7 @@ request
 )
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -3143,7 +3143,7 @@ request
 mBytesRead
 ;
 }
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -3205,7 +3205,7 @@ QWORD
 aCurrentPosition
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -3331,7 +3331,7 @@ mon
 mReentrantMonitor
 )
 ;
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -3404,7 +3404,7 @@ SetLength
 QWORD
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [
@@ -3439,7 +3439,7 @@ ULONG
 *
 )
 {
-LOG
+WMF_BS_LOG
 (
 "
 [

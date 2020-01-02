@@ -287,7 +287,7 @@ gMediaDecoderLog
 ;
 #
 define
-LOG
+DECODER_LOG
 (
 .
 .
@@ -305,7 +305,7 @@ __VA_ARGS__
 else
 #
 define
-LOG
+DECODER_LOG
 (
 .
 .
@@ -1304,7 +1304,7 @@ GetGUIDName
 subType
 )
 ;
-LOG
+DECODER_LOG
 (
 "
 ConfigureSourceReaderStream
@@ -1992,7 +1992,7 @@ mPictureRegion
 =
 pictureRegion
 ;
-LOG
+DECODER_LOG
 (
 "
 WMFReader
@@ -2161,7 +2161,7 @@ hr
 )
 )
 {
-LOG
+DECODER_LOG
 (
 "
 Failed
@@ -2247,7 +2247,7 @@ return
 hr
 ;
 }
-LOG
+DECODER_LOG
 (
 "
 Successfully
@@ -2591,7 +2591,7 @@ mHasAudio
 =
 true
 ;
-LOG
+DECODER_LOG
 (
 "
 Successfully
@@ -2654,7 +2654,7 @@ thread
 "
 )
 ;
-LOG
+DECODER_LOG
 (
 "
 WMFReader
@@ -2747,7 +2747,7 @@ hr
 )
 )
 {
-LOG
+DECODER_LOG
 (
 "
 Failed
@@ -2968,7 +2968,7 @@ hr
 )
 )
 {
-LOG
+DECODER_LOG
 (
 "
 Failed
@@ -3081,7 +3081,7 @@ HasVideo
 )
 )
 {
-LOG
+DECODER_LOG
 (
 "
 Using
@@ -3357,7 +3357,7 @@ hr
 )
 )
 {
-LOG
+DECODER_LOG
 (
 "
 WMFReader
@@ -3450,7 +3450,7 @@ MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
 )
 )
 {
-LOG
+DECODER_LOG
 (
 "
 WMFReader
@@ -3883,7 +3883,7 @@ mAudioChannels
 #
 ifdef
 LOG_SAMPLE_DECODE
-LOG
+DECODER_LOG
 (
 "
 Decoded
@@ -4834,7 +4834,7 @@ hr
 )
 )
 {
-LOG
+DECODER_LOG
 (
 "
 WMFReader
@@ -4971,7 +4971,7 @@ MF_SOURCE_READERF_ENDOFSTREAM
 )
 )
 {
-LOG
+DECODER_LOG
 (
 "
 WMFReader
@@ -4992,7 +4992,7 @@ return
 false
 ;
 }
-LOG
+DECODER_LOG
 (
 "
 WMFReader
@@ -5025,7 +5025,7 @@ MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
 )
 )
 {
-LOG
+DECODER_LOG
 (
 "
 WMFReader
@@ -5203,7 +5203,7 @@ v
 #
 ifdef
 LOG_SAMPLE_DECODE
-LOG
+DECODER_LOG
 (
 "
 Decoded
@@ -5254,7 +5254,7 @@ End
 of
 stream
 .
-LOG
+DECODER_LOG
 (
 "
 End
@@ -5288,7 +5288,7 @@ int64_t
 aCurrentTime
 )
 {
-LOG
+DECODER_LOG
 (
 "
 WMFReader
