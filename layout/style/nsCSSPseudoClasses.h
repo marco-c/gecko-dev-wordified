@@ -216,6 +216,14 @@ aType
 ePseudoClass_any
 ;
 }
+static
+bool
+IsUserActionPseudoClass
+(
+Type
+aType
+)
+;
 /
 /
 Should
