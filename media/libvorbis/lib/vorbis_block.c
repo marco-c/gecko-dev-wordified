@@ -6645,6 +6645,7 @@ large
 large
 *
 /
+const
 float
 *
 w
@@ -6741,6 +6742,7 @@ large
 small
 *
 /
+const
 float
 *
 w
@@ -6854,6 +6856,7 @@ small
 large
 *
 /
+const
 float
 *
 w
@@ -6985,6 +6988,7 @@ small
 small
 *
 /
+const
 float
 *
 w
@@ -9025,6 +9029,7 @@ pcm_returned
 )
 ;
 }
+const
 float
 *
 vorbis_window

@@ -326,6 +326,7 @@ _V_WINDOW_
 define
 _V_WINDOW_
 extern
+const
 float
 *
 _vorbis_window_get
