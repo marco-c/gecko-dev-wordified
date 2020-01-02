@@ -172,7 +172,7 @@ mozilla
 /
 dom
 /
-nsIContentParent
+ContentParent
 .
 h
 "
@@ -455,7 +455,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 ;
 using
 mozilla
@@ -689,7 +689,7 @@ const
 nsACString
 &
 aASCIIOrigin
-nsIContentParent
+ContentParent
 *
 aContentParent
 IDBFactory
@@ -1101,7 +1101,7 @@ JSObject
 *
 >
 aOwningObject
-nsIContentParent
+ContentParent
 *
 aContentParent
 IDBFactory
@@ -1398,7 +1398,7 @@ IDBFactory
 :
 Create
 (
-nsIContentParent
+ContentParent
 *
 aContentParent
 IDBFactory

@@ -177,7 +177,7 @@ mozilla
 /
 dom
 /
-nsIContentParent
+ContentParent
 .
 h
 "
@@ -8383,7 +8383,7 @@ IDBObjectStore
 :
 ConvertBlobsToActors
 (
-nsIContentParent
+ContentParent
 *
 aContentParent
 FileManager
@@ -18384,7 +18384,7 @@ null
 "
 )
 ;
-nsIContentParent
+ContentParent
 *
 contentParent
 =
@@ -20756,7 +20756,7 @@ null
 "
 )
 ;
-nsIContentParent
+ContentParent
 *
 contentParent
 =
@@ -24683,7 +24683,7 @@ null
 "
 )
 ;
-nsIContentParent
+ContentParent
 *
 contentParent
 =
