@@ -1899,7 +1899,6 @@ return
 true
 ;
 }
-static
 void
 DeferredDeleteCompositorParentOnMainThread
 (
@@ -1914,6 +1913,13 @@ NS_IsMainThread
 (
 )
 )
+;
+aNowReadyToDie
+-
+>
+mCompositorThreadHolder
+=
+nullptr
 ;
 aNowReadyToDie
 -
