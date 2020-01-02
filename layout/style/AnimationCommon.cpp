@@ -288,7 +288,7 @@ aPresContext
 PR_INIT_CLIST
 (
 &
-mElementData
+mElementCollections
 )
 ;
 }
@@ -334,7 +334,7 @@ or
 animation
 manager
 .
-RemoveAllElementData
+RemoveAllElementCollections
 (
 )
 ;
@@ -347,7 +347,7 @@ void
 CommonAnimationManager
 :
 :
-RemoveAllElementData
+RemoveAllElementCollections
 (
 )
 {
@@ -357,7 +357,7 @@ while
 PR_CLIST_IS_EMPTY
 (
 &
-mElementData
+mElementCollections
 )
 )
 {
@@ -374,7 +374,7 @@ ElementAnimationCollection
 PR_LIST_HEAD
 (
 &
-mElementData
+mElementCollections
 )
 )
 ;
@@ -702,7 +702,7 @@ worthwhile
 /
 /
 -
-mElementData
+mElementCollections
 /
 /
 /
