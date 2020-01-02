@@ -106,7 +106,7 @@ container
 %
 define
 conditionalForwardWithUrlbarWidth
-27
+30
 %
 define
 spaceAboveTabbar
@@ -3901,7 +3901,7 @@ vertical
 ;
 height
 :
-22px
+24px
 ;
 padding
 :
@@ -12433,11 +12433,11 @@ index
 ;
 width
 :
-30px
+32px
 ;
 height
 :
-30px
+32px
 ;
 padding
 :
@@ -12469,7 +12469,7 @@ lwtheme
 {
 height
 :
-31px
+33px
 ;
 padding
 :
@@ -12559,7 +12559,7 @@ background
 -
 size
 :
-90px
+96px
 ;
 }
 }
@@ -12589,7 +12589,7 @@ background
 position
 :
 -
-60px
+64px
 0
 ;
 }
@@ -12647,7 +12647,7 @@ background
 position
 :
 -
-30px
+32px
 0
 ;
 }
@@ -12680,6 +12680,10 @@ margin
 end
 :
 0
+;
+width
+:
+32px
 ;
 clip
 -
@@ -14598,6 +14602,7 @@ margin
 ;
 padding
 :
+1px
 0
 ;
 border
