@@ -2606,7 +2606,7 @@ goodAddition
 ;
 as_addu
 (
-SecondScratchReg
+rd
 rs
 rt
 )
@@ -2652,7 +2652,7 @@ as_xor
 (
 ScratchRegister
 rs
-SecondScratchReg
+rd
 )
 ;
 ma_b
@@ -2673,12 +2673,6 @@ bind
 (
 &
 goodAddition
-)
-;
-ma_move
-(
-rd
-SecondScratchReg
 )
 ;
 }
@@ -2746,7 +2740,7 @@ goodAddition
 ;
 as_addiu
 (
-SecondScratchReg
+rd
 rs
 imm
 .
@@ -2796,7 +2790,7 @@ as_xor
 (
 ScratchRegister
 rs
-SecondScratchReg
+rd
 )
 ;
 ma_b
@@ -2817,12 +2811,6 @@ bind
 (
 &
 goodAddition
-)
-;
-ma_move
-(
-rd
-SecondScratchReg
 )
 ;
 }
@@ -2990,7 +2978,7 @@ register
 .
 ma_subu
 (
-SecondScratchReg
+rd
 rs
 rt
 )
@@ -3036,7 +3024,7 @@ as_xor
 (
 ScratchRegister
 rs
-SecondScratchReg
+rd
 )
 ;
 ma_b
@@ -3057,12 +3045,6 @@ bind
 (
 &
 goodSubtraction
-)
-;
-ma_move
-(
-rd
-SecondScratchReg
 )
 ;
 }
