@@ -1063,10 +1063,10 @@ ERROR
 TIMEOUT
 "
 "
-CRASH
-"
-"
 ASSERT
+"
+"
+NOTRUN
 "
 ]
 class
