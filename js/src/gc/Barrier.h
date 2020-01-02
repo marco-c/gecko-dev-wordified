@@ -6642,6 +6642,14 @@ ReadBarrieredTypeObject
 typedef
 ReadBarriered
 <
+JSAtom
+*
+>
+ReadBarrieredAtom
+;
+typedef
+ReadBarriered
+<
 Value
 >
 ReadBarrieredValue
