@@ -2730,7 +2730,6 @@ StyleAnimation
 *
 anim
 =
-&
 aAnimations
 [
 animIdx
