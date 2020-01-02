@@ -219,6 +219,7 @@ nullptr
 ;
 }
 }
+}
 /
 /
 We
@@ -241,7 +242,6 @@ CreatePolicy
 (
 )
 ;
-}
 }
 bool
 SandboxBroker
