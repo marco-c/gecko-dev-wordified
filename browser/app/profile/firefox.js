@@ -15100,7 +15100,7 @@ devtools
 theme
 "
 "
-dark
+light
 "
 )
 ;
