@@ -3387,18 +3387,6 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_JSVAL_MEMBER_CALLBACK
 _field
 )
 \
-if
-(
-JSVAL_IS_TRACEABLE
-(
-tmp
--
->
-_field
-)
-)
-{
-\
 aCallbacks
 .
 Trace
@@ -3413,8 +3401,6 @@ _field
 aClosure
 )
 ;
-\
-}
 /
 /
 NB
