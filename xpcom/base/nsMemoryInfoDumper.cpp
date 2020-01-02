@@ -6563,6 +6563,16 @@ rv
 rv
 )
 ;
+if
+(
+!
+mFinishDumping
+)
+{
+return
+NS_OK
+;
+}
 return
 mFinishDumping
 -
