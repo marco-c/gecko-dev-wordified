@@ -1380,7 +1380,7 @@ scrollIdentifiersValid
 APZCCallbackHelper
 :
 :
-GetScrollIdentifiers
+GetOrCreateScrollIdentifiers
 (
 document
 -
@@ -4779,7 +4779,7 @@ if
 APZCCallbackHelper
 :
 :
-GetScrollIdentifiers
+GetOrCreateScrollIdentifiers
 (
 doc
 -
