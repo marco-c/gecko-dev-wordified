@@ -222,6 +222,13 @@ h
 #
 include
 "
+jsscriptinlines
+.
+h
+"
+#
+include
+"
 vm
 /
 ScopeObject
