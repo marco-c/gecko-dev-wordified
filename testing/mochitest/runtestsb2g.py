@@ -395,6 +395,64 @@ buildTestPath
 options
 )
         
+#
+For
+B2G
+emulators
+buildURLOptions
+has
+been
+called
+        
+#
+without
+calling
+buildTestPath
+first
+and
+that
+        
+#
+causes
+manifestFile
+not
+to
+be
+set
+        
+if
+not
+"
+manifestFile
+=
+tests
+.
+json
+"
+in
+self
+.
+urlOpts
+:
+            
+self
+.
+urlOpts
+.
+append
+(
+"
+manifestFile
+=
+%
+s
+"
+%
+options
+.
+manifestFile
+)
+        
 if
 len
 (
@@ -441,17 +499,32 @@ options
 )
 :
         
-#
-Skip
-over
-the
-manifest
-building
-that
-happens
-on
-desktop
+if
+options
 .
+manifestFile
+!
+=
+'
+tests
+.
+json
+'
+:
+            
+super
+(
+B2GMochitest
+self
+)
+.
+buildTestPath
+(
+options
+disabled
+=
+False
+)
         
 return
 self
@@ -1176,6 +1249,7 @@ class
 B2GDeviceMochitest
 (
 B2GMochitest
+Mochitest
 )
 :
     
@@ -1213,6 +1287,13 @@ True
 profile_data_dir
 =
 profile_data_dir
+)
+        
+Mochitest
+.
+__init__
+(
+self
 )
         
 self
@@ -1585,8 +1666,6 @@ profile
 .
 profile
         
-retVal
-=
 super
 (
 B2GDeviceMochitest
@@ -1621,9 +1700,6 @@ logFile
 self
 .
 local_log
-        
-return
-retVal
 class
 B2GDesktopMochitest
 (
@@ -1843,8 +1919,6 @@ env
 )
 :
         
-retVal
-=
 super
 (
 B2GDesktopMochitest
@@ -1972,9 +2046,6 @@ bundlesDir
 filename
 )
 )
-        
-return
-retVal
     
 def
 buildProfile
