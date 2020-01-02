@@ -109,6 +109,13 @@ PeerConnectionImpl
 .
 h
 "
+#
+include
+"
+PeerConnectionMedia
+.
+h
+"
 namespace
 mozilla
 {

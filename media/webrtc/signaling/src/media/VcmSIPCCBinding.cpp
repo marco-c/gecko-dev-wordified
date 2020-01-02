@@ -136,6 +136,13 @@ h
 #
 include
 "
+PeerConnectionMedia
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -392,6 +399,10 @@ SIPSDP_ILBC_MODE20
 static
 *
 /
+using
+namespace
+mozilla
+;
 using
 namespace
 CSF
