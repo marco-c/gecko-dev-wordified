@@ -349,7 +349,7 @@ mView
 }
 Override
 public
-Object
+String
 getValue
 (
 )
