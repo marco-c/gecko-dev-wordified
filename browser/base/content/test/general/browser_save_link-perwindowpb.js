@@ -291,7 +291,7 @@ pageShown
 false
 )
 ;
-executeSoon
+waitForFocus
 (
 function
 (
@@ -382,6 +382,9 @@ clicked
 )
 ;
 }
+testBrowser
+.
+contentWindow
 )
 ;
 }
