@@ -437,6 +437,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h
