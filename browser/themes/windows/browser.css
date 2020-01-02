@@ -462,6 +462,13 @@ sizemode
 normal
 "
 ]
+:
+not
+(
+[
+inFullscreen
+]
+)
 [
 chromehidden
 ~
@@ -491,6 +498,13 @@ sizemode
 normal
 "
 ]
+:
+not
+(
+[
+inFullscreen
+]
+)
 #
 toolbar
 -
