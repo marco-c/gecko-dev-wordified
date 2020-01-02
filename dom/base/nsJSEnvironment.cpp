@@ -11264,6 +11264,18 @@ IsNull
 )
 )
 {
+/
+/
+TimeBetween
+returns
+milliseconds
+but
+we
+want
+to
+report
+seconds
+.
 uint32_t
 timeBetween
 =
@@ -11274,6 +11286,8 @@ gCCStats
 .
 mBeginTime
 )
+/
+1000
 ;
 Telemetry
 :
