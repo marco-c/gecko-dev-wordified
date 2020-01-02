@@ -287,7 +287,6 @@ UndisplayedNode
 )
 ;
 }
-NS_HIDDEN
 ~
 UndisplayedNode
 (
@@ -497,7 +496,6 @@ nsStyleSet
 *
 aStyleSet
 )
-NS_HIDDEN
 {
 mPresShell
 =

@@ -178,7 +178,6 @@ the
 nsPipe
 class
 nsresult
-NS_HIDDEN
 nsPipeConstructor
 (
 nsISupports
