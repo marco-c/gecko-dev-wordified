@@ -7255,10 +7255,6 @@ iter
 if
 (
 iter
-.
-activation
-(
-)
 -
 >
 cx
@@ -7272,10 +7268,6 @@ this
 if
 (
 iter
-.
-activation
-(
-)
 -
 >
 hasSavedFrameChain

@@ -16845,10 +16845,6 @@ iter
 if
 (
 iter
-.
-activation
-(
-)
 -
 >
 compartment
@@ -19607,10 +19603,6 @@ JSCompartment
 comp
 =
 iter
-.
-activation
-(
-)
 -
 >
 compartment
