@@ -10922,8 +10922,13 @@ accessibles
 aContainer
 -
 >
-UpdateChildren
+InvalidateChildren
 (
+)
+;
+CacheChildrenInSubtree
+(
+aContainer
 )
 ;
 }
