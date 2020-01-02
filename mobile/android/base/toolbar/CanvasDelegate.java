@@ -123,7 +123,6 @@ os
 .
 Build
 ;
-public
 class
 CanvasDelegate
 {
@@ -148,7 +147,6 @@ of
 the
 background
 .
-public
 static
 interface
 DrawManager
@@ -162,7 +160,6 @@ cavas
 )
 ;
 }
-public
 CanvasDelegate
 (
 DrawManager
@@ -221,7 +218,6 @@ setStrokeWidth
 )
 ;
 }
-public
 void
 draw
 (
@@ -479,7 +475,6 @@ count
 )
 ;
 }
-public
 void
 setShader
 (

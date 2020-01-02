@@ -455,7 +455,7 @@ Remove
 )
 ;
 }
-public
+private
 void
 setNumberShown
 (
@@ -783,7 +783,7 @@ ex
 ;
 }
 }
-public
+private
 void
 addPageAction
 (
@@ -910,7 +910,7 @@ refreshPageActionIcons
 )
 ;
 }
-public
+private
 void
 removePageAction
 (
@@ -2060,7 +2060,7 @@ show
 )
 ;
 }
-public
+private
 static
 interface
 OnPageActionClickListeners
