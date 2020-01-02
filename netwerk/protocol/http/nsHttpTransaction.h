@@ -683,16 +683,6 @@ responseBody
 /
 /
 attributes
-nsHttpConnectionInfo
-*
-ConnectionInfo
-(
-)
-{
-return
-mConnInfo
-;
-}
 nsHttpResponseHead
 *
 ResponseHead

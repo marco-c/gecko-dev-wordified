@@ -209,16 +209,6 @@ NullHttpTransaction
 (
 )
 ;
-nsHttpConnectionInfo
-*
-ConnectionInfo
-(
-)
-{
-return
-mConnectionInfo
-;
-}
 /
 /
 Overload
