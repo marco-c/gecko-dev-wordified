@@ -176,7 +176,7 @@ return
 SurfaceStreamType
 :
 :
-TripleBuffer_Async
+TripleBuffer
 ;
 }
 else
