@@ -851,6 +851,11 @@ case
 signUp
 "
 :
+case
+"
+refreshAuthentication
+"
+:
 FxAccountsManager
 [
 data
