@@ -1944,7 +1944,7 @@ layers
 CompositorParent
 :
 :
-StartUpCompositorThread
+StartUp
 (
 )
 ;
@@ -2929,7 +2929,7 @@ layers
 CompositorParent
 :
 :
-AllowShutdownOfCompositorThreadWhenUnreferenced
+ShutDown
 (
 )
 ;
