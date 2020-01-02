@@ -1833,7 +1833,7 @@ cx
 xpc
 :
 :
-GetXBLScope
+GetXBLScopeOrGlobal
 (
 cx
 globalObject
@@ -2406,7 +2406,7 @@ cx
 xpc
 :
 :
-GetXBLScope
+GetXBLScopeOrGlobal
 (
 cx
 globalObject
