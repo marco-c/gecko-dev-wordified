@@ -226,6 +226,13 @@ aPACScript
 )
 ;
 void
+SetThreadLocalIndex
+(
+uint32_t
+index
+)
+;
+void
 Shutdown
 (
 )
