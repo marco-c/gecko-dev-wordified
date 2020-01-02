@@ -97,8 +97,8 @@ function
 createToolbarWithPlacements
 (
 kTestToolbarId
-"
-"
+[
+]
 )
 ;
 }
