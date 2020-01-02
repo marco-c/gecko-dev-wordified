@@ -508,7 +508,7 @@ CacheEntry
 }
 #
 ifdef
-MOZ_LOGGING
+PR_LOG
 char
 const
 *
