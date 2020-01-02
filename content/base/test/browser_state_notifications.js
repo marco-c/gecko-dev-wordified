@@ -598,6 +598,13 @@ script
 >
 setTimeout
 (
+SpecialPowers
+.
+wrap
+(
+window
+)
+.
 back
 100
 )
