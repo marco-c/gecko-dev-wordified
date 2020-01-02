@@ -7154,9 +7154,9 @@ scriptAndCountsVector
 (
 nullptr
 )
-helperState
+inUnsafeRegion
 (
-rt
+0
 )
 alwaysPreserveCode
 (
@@ -7179,9 +7179,9 @@ lockOwner
 (
 nullptr
 )
-inUnsafeRegion
+helperState
 (
-0
+rt
 )
 {
 }
