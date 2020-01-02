@@ -1282,6 +1282,14 @@ lir
 )
 ;
 bool
+visitTypedObjectProto
+(
+LTypedObjectProto
+*
+ins
+)
+;
+bool
 visitStringLength
 (
 LStringLength
