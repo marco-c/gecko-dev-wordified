@@ -5451,6 +5451,15 @@ aWidth
 aAtEnd
 )
 {
+if
+(
+!
+aItem
+)
+{
+return
+;
+}
 let
 node
 =
