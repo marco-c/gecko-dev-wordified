@@ -441,9 +441,6 @@ h
 #
 endif
 class
-gfx3DMatrix
-;
-class
 nsIWidget
 ;
 namespace

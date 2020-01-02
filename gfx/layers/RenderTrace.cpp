@@ -205,7 +205,10 @@ char
 *
 aColor
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 aRootTransform
 bool
 aReset
@@ -218,7 +221,10 @@ aLayer
 )
 return
 ;
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 trans
 =
 aRootTransform
@@ -250,7 +256,7 @@ GetBounds
 (
 )
 ;
-gfxRect
+Rect
 rect
 (
 clipRect

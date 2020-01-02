@@ -113,17 +113,6 @@ etc
 #
 include
 "
-gfx3DMatrix
-.
-h
-"
-/
-/
-for
-gfx3DMatrix
-#
-include
-"
 gfxPlatform
 .
 h
