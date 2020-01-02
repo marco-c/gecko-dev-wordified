@@ -2179,7 +2179,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -2703,7 +2703,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 expandoObject
 =
@@ -4132,7 +4132,7 @@ object
 .
 set
 (
-NULL
+nullptr
 )
 ;
 /
@@ -4380,14 +4380,14 @@ desc
 .
 setGetter
 (
-NULL
+nullptr
 )
 ;
 desc
 .
 setSetter
 (
-NULL
+nullptr
 )
 ;
 desc
@@ -4940,7 +4940,7 @@ object
 .
 set
 (
-NULL
+nullptr
 )
 ;
 RootedObject
@@ -6143,7 +6143,7 @@ holder
 JSSLOT_RESOLVING
 PrivateValue
 (
-NULL
+nullptr
 )
 )
 ;
@@ -8466,7 +8466,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CHANGE_EXTENSIBILITY
 )
 ;
@@ -8554,7 +8554,7 @@ object
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8691,7 +8691,7 @@ desc
 .
 setSetter
 (
-NULL
+nullptr
 )
 ;
 desc
@@ -9360,14 +9360,14 @@ desc
 .
 setGetter
 (
-NULL
+nullptr
 )
 ;
 desc
 .
 setSetter
 (
-NULL
+nullptr
 )
 ;
 desc
@@ -9813,7 +9813,7 @@ object
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return

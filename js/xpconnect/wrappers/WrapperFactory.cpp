@@ -482,7 +482,7 @@ scope
 mWaiverWrapperMap
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -4886,7 +4886,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -5001,7 +5001,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -5403,7 +5403,7 @@ newIdentity
 )
 )
 return
-NULL
+nullptr
 ;
 return
 newIdentity
@@ -5501,7 +5501,7 @@ newIdentity
 )
 )
 return
-NULL
+nullptr
 ;
 return
 newSameCompartmentWrapper

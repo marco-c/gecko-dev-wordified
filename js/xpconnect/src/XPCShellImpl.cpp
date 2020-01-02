@@ -649,21 +649,21 @@ FILE
 *
 gOutFile
 =
-NULL
+nullptr
 ;
 static
 FILE
 *
 gErrFile
 =
-NULL
+nullptr
 ;
 static
 FILE
 *
 gInFile
 =
-NULL
+nullptr
 ;
 static
 int
@@ -767,7 +767,7 @@ JS_DescribeScriptedCaller
 cx
 &
 script
-NULL
+nullptr
 )
 ;
 const
@@ -829,7 +829,7 @@ CP_ACP
 filename
 -
 1
-NULL
+nullptr
 0
 )
 ;
@@ -2537,7 +2537,7 @@ void
 *
 startThing
 =
-NULL
+nullptr
 ;
 JSGCTraceKind
 startTraceKind
@@ -2548,7 +2548,7 @@ void
 *
 thingToFind
 =
-NULL
+nullptr
 ;
 size_t
 maxDepth
@@ -2563,7 +2563,7 @@ void
 *
 thingToIgnore
 =
-NULL
+nullptr
 ;
 FILE
 *
@@ -3319,7 +3319,7 @@ msg
 =
 JS_sprintf_append
 (
-NULL
+nullptr
 "
 unknown
 option
@@ -3585,7 +3585,7 @@ optset
 ;
 names
 =
-NULL
+nullptr
 ;
 found
 =
@@ -5391,7 +5391,7 @@ evp
 )
 !
 =
-NULL
+nullptr
 ;
 evp
 +
@@ -5457,8 +5457,8 @@ STRING_TO_JSVAL
 (
 valstr
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -5611,8 +5611,8 @@ STRING_TO_JSVAL
 (
 valstr
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -5835,7 +5835,7 @@ errorNumber
 JSShellErr_Limit
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -6412,7 +6412,7 @@ older
 JS_SetErrorReporter
 (
 cx
-NULL
+nullptr
 )
 ;
 str
@@ -6571,7 +6571,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_CANT_OPEN
 filename
 strerror
@@ -6923,7 +6923,7 @@ char
 *
 filename
 =
-NULL
+nullptr
 ;
 bool
 isInteractive
@@ -7183,7 +7183,7 @@ JS_NewArrayObject
 (
 cx
 0
-NULL
+nullptr
 )
 ;
 if
@@ -7208,8 +7208,8 @@ OBJECT_TO_JSVAL
 (
 argsObj
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )
@@ -7274,8 +7274,8 @@ STRING_TO_JSVAL
 (
 str
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -8235,7 +8235,7 @@ requiredLength
 GetCurrentDirectoryW
 (
 0
-NULL
+nullptr
 )
 ;
 workingDirectory
@@ -9830,7 +9830,7 @@ environment
 "
 &
 env_class
-NULL
+nullptr
 0
 )
 ;
@@ -9879,7 +9879,7 @@ __LOCATION__
 "
 JSVAL_VOID
 GetLocationProperty
-NULL
+nullptr
 0
 )
 ;
@@ -9984,7 +9984,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-NULL
+nullptr
 )
 ;
 MOZ_ASSERT
@@ -10487,7 +10487,7 @@ FAILED
 (
 SHGetSpecialFolderLocation
 (
-NULL
+nullptr
 CSIDL_LOCAL_APPDATA
 &
 pItemIDList

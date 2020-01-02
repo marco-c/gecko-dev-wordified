@@ -10811,7 +10811,7 @@ size_t
 *
 gcTotalOut
 =
-NULL
+nullptr
 )
 {
 const
@@ -12299,7 +12299,7 @@ size_t
 *
 gcTotalOut
 =
-NULL
+nullptr
 )
 {
 static
@@ -19140,7 +19140,7 @@ rawLen
 EmptyString
 (
 )
-NULL
+nullptr
 decoded
 )
 ;
@@ -19294,7 +19294,7 @@ length
 *
 src
 =
-NULL
+nullptr
 ;
 *
 length

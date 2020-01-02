@@ -503,7 +503,7 @@ object
 .
 set
 (
-NULL
+nullptr
 )
 ;
 if
@@ -596,7 +596,7 @@ object
 .
 set
 (
-NULL
+nullptr
 )
 ;
 /

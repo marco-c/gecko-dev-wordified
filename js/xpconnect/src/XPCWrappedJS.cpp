@@ -2275,7 +2275,7 @@ root
 ;
 wrapper
 =
-NULL
+nullptr
 ;
 }
 goto

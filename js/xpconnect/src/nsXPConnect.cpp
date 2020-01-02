@@ -8401,9 +8401,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -8453,8 +8453,8 @@ obj
 setProto
 "
 v
-NULL
-NULL
+nullptr
+nullptr
 attrs
 )
 )
@@ -8486,8 +8486,8 @@ obj
 customIter
 "
 v
-NULL
-NULL
+nullptr
+nullptr
 attrs
 )
 )

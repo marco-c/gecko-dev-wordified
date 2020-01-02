@@ -255,7 +255,7 @@ XPCONNECT_CIDENTRIES
 &
 kNS_JS_ID_CID
 false
-NULL
+nullptr
 nsJSIDConstructor
 }
 \
@@ -263,7 +263,7 @@ nsJSIDConstructor
 &
 kNS_XPCONNECT_CID
 false
-NULL
+nullptr
 nsIXPConnectConstructor
 }
 \
@@ -271,7 +271,7 @@ nsIXPConnectConstructor
 &
 kNS_SCRIPTERROR_CID
 false
-NULL
+nullptr
 nsScriptErrorConstructor
 }
 \
@@ -279,7 +279,7 @@ nsScriptErrorConstructor
 &
 kMOZJSCOMPONENTLOADER_CID
 false
-NULL
+nullptr
 mozJSComponentLoaderConstructor
 }
 \
@@ -287,7 +287,7 @@ mozJSComponentLoaderConstructor
 &
 kMOZ_JSSUBSCRIPTLOADER_CID
 false
-NULL
+nullptr
 mozJSSubScriptLoaderConstructor
 }
 #

@@ -10587,7 +10587,7 @@ trigger
 by
 leaving
 this
-NULL
+nullptr
 in
 the
 parser
@@ -10603,7 +10603,7 @@ data
 (
 defaults
 to
-NULL
+nullptr
 )
 .
 *
@@ -17086,7 +17086,7 @@ iter
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -17875,7 +17875,7 @@ JS_NewArrayObject
 (
 cx
 0
-NULL
+nullptr
 )
 ;
 if
@@ -18466,7 +18466,7 @@ toObject
 )
 )
 :
-NULL
+nullptr
 ;
 /
 /

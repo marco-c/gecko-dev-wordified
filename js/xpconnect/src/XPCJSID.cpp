@@ -1511,7 +1511,7 @@ nsJSCID
 NS_IMPL_CLASSINFO
 (
 nsJSCID
-NULL
+nullptr
 nsIClassInfo
 :
 :
@@ -4108,7 +4108,7 @@ obj
 .
 set
 (
-NULL
+nullptr
 )
 ;
 nsXPConnect
@@ -4126,7 +4126,7 @@ nsAXPCNativeCallContext
 *
 ccxp
 =
-NULL
+nullptr
 ;
 xpc
 -

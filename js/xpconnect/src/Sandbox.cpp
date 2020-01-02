@@ -3498,10 +3498,10 @@ sandbox_enumerate
 sandbox_resolve
 sandbox_convert
 sandbox_finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 TraceXPCGlobal
 }
 ;
@@ -7424,7 +7424,7 @@ out
 *
 out
 =
-NULL
+nullptr
 ;
 nsXPConnect
 *
@@ -8215,7 +8215,7 @@ found
 *
 prop
 =
-NULL
+nullptr
 ;
 return
 NS_OK
@@ -10769,8 +10769,8 @@ metadata
 address
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 return

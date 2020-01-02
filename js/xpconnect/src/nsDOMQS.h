@@ -542,7 +542,7 @@ rv
 *
 ppThis
 =
-NULL
+nullptr
 ;
 /
 *

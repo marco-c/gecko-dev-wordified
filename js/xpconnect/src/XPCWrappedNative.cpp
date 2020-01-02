@@ -5558,15 +5558,15 @@ GetRuntime
 )
 will
 be
-NULL
+nullptr
 is
 if
 Destroy
 is
 called
 a
-second
 *
+second
 time
 on
 a
@@ -5578,9 +5578,9 @@ we
 already
 unregistered
 the
+*
 pointer
 the
-*
 first
 time
 there
@@ -5592,10 +5592,10 @@ to
 unregister
 again
 .
+*
 Unregistration
 is
 safe
-*
 the
 first
 time
@@ -5605,6 +5605,7 @@ isn
 '
 t
 used
+*
 afterwards
 .
 *
@@ -9322,7 +9323,7 @@ will
 be
 set
 to
-NULL
+nullptr
 .
 |
 flat
@@ -9371,8 +9372,8 @@ propertyHolder
 JS_NewObjectWithGivenProto
 (
 cx
-NULL
-NULL
+nullptr
+nullptr
 aNewParent
 )
 ;
@@ -13235,7 +13236,7 @@ MOZ_ASSERT
 wrapper
 =
 =
-NULL
+nullptr
 )
 ;
 return
@@ -13348,7 +13349,7 @@ if
 wrapper
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -13386,7 +13387,7 @@ if
 wrapper
 )
 return
-NULL
+nullptr
 ;
 }
 /

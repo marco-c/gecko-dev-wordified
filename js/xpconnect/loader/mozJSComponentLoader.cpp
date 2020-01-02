@@ -2171,7 +2171,7 @@ rv
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2193,7 +2193,7 @@ rv
 )
 )
 return
-NULL
+nullptr
 ;
 }
 ModuleEntry
@@ -2266,7 +2266,7 @@ rv
 )
 {
 return
-NULL
+nullptr
 ;
 }
 nsCOMPtr
@@ -2290,7 +2290,7 @@ rv
 )
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -2316,7 +2316,7 @@ rv
 )
 )
 return
-NULL
+nullptr
 ;
 JSCLContextHelper
 cx
@@ -2413,7 +2413,7 @@ rv
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -2452,7 +2452,7 @@ n
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 nsCOMPtr
@@ -2493,7 +2493,7 @@ rv
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -2514,7 +2514,7 @@ file_jsobj
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JSCLAutoErrorReporterSetter
@@ -2558,7 +2558,7 @@ NSGetFactory_val
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2607,7 +2607,7 @@ get
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -2641,7 +2641,7 @@ properly
 *
 /
 return
-NULL
+nullptr
 ;
 }
 rv
@@ -2706,7 +2706,7 @@ n
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 /
@@ -5297,7 +5297,7 @@ JS_ExecuteScriptVersion
 cx
 obj
 script
-NULL
+nullptr
 JSVERSION_LATEST
 )
 ;
@@ -5549,7 +5549,7 @@ mModules
 Enumerate
 (
 ClearModules
-NULL
+nullptr
 )
 ;
 JS_DestroyContextNoGC
