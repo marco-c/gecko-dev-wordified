@@ -1005,8 +1005,8 @@ Clone
 (
 )
 ;
-int32_t
-Count
+uint32_t
+Length
 (
 )
 {
