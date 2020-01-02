@@ -748,7 +748,7 @@ aChannelNumber
 ]
 )
 ;
-PodCopy
+PodMove
 (
 aDestination
 .
@@ -897,7 +897,7 @@ NS_ERROR_OUT_OF_MEMORY
 return
 ;
 }
-PodCopy
+PodMove
 (
 JS_GetFloat32ArrayData
 (
