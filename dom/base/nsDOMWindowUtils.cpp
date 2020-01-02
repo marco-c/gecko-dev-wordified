@@ -744,11 +744,6 @@ kAppShellCID
 NS_APPSHELL_CID
 )
 ;
-DOMCI_DATA
-(
-WindowUtils
-nsDOMWindowUtils
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMWindowUtils
@@ -765,10 +760,6 @@ nsIDOMWindowUtils
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupportsWeakReference
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-WindowUtils
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_ADDREF
