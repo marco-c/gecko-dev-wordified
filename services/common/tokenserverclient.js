@@ -1756,9 +1756,7 @@ setHeader
 Authorization
 "
 "
-Browser
--
-ID
+BrowserID
 "
 +
 assertion
