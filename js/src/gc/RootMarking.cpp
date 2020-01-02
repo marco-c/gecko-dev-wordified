@@ -1829,6 +1829,9 @@ return
 CGCT_VALID
 ;
 }
+#
+ifndef
+JSGC_USE_EXACT_ROOTING
 static
 void
 MarkWordConservatively
@@ -1917,9 +1920,6 @@ w
 )
 ;
 }
-#
-ifndef
-JSGC_USE_EXACT_ROOTING
 MOZ_ASAN_BLACKLIST
 static
 void
