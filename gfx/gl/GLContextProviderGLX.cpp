@@ -3163,7 +3163,7 @@ i
 Serial
 :
 %
-lu
+i
 "
 buffer
 sErrorEvent

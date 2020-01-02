@@ -2542,10 +2542,6 @@ n
 ;
 printf_stderr
 (
-"
-%
-s
-"
 aMessage
 .
 get

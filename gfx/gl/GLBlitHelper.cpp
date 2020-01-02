@@ -4650,6 +4650,13 @@ good
 printf_stderr
 (
 "
+[
+%
+s
+:
+%
+d
+]
 Fatal
 Error
 :
