@@ -2062,6 +2062,9 @@ new
 Function
 (
 funobj
+GetIncumbentGlobal
+(
+)
 )
 ;
 /
