@@ -742,22 +742,6 @@ start
 )
     
 def
-check_for_crashes
-(
-self
-)
-:
-        
-return
-self
-.
-runner
-.
-check_for_crashes
-(
-)
-    
-def
 close
 (
 self
