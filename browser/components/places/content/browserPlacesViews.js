@@ -2354,7 +2354,7 @@ setAttribute
 "
 image
 "
-PlacesUIUtils
+PlacesUtils
 .
 getImageURLForResolution
 (
@@ -3377,7 +3377,7 @@ setAttribute
 "
 image
 "
-PlacesUIUtils
+PlacesUtils
 .
 getImageURLForResolution
 (
@@ -6896,7 +6896,7 @@ setAttribute
 "
 image
 "
-PlacesUIUtils
+PlacesUtils
 .
 getImageURLForResolution
 (
@@ -12349,7 +12349,7 @@ setAttribute
 "
 image
 "
-PlacesUIUtils
+PlacesUtils
 .
 getImageURLForResolution
 (
