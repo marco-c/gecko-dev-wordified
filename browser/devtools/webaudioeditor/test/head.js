@@ -1663,6 +1663,10 @@ checkVariableView
 view
 index
 hash
+description
+=
+"
+"
 )
 {
 let
@@ -1775,6 +1779,11 @@ for
 "
 +
 variable
++
+"
+"
++
+description
 )
 ;
 }
