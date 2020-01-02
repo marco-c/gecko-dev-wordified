@@ -2095,6 +2095,11 @@ BrowserProvider
 "
 AUTHORITY
 "
+"
+browser
+.
+db
+"
 )
 ;
 loadContractInfo

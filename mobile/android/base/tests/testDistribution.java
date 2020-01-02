@@ -2313,6 +2313,11 @@ BrowserProvider
 "
 AUTHORITY
 "
+"
+browser
+.
+db
+"
 )
 ;
 }
