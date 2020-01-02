@@ -65,6 +65,24 @@ MPL
 0
 /
 .
+#
+We
+don
+'
+t
+import
+all
+modules
+at
+the
+top
+for
+performance
+reasons
+.
+See
+Bug
+1008943
 from
 contextlib
 import
@@ -74,23 +92,11 @@ errno
 import
 os
 import
-shutil
-import
 stat
-import
-tarfile
-import
-tempfile
 import
 time
 import
-urlparse
-import
-urllib2
-import
 warnings
-import
-zipfile
 __all__
 =
 [
@@ -161,6 +167,9 @@ file
 "
 "
     
+import
+tarfile
+    
 bundle
 =
 tarfile
@@ -220,6 +229,9 @@ file
 "
 "
 "
+    
+import
+zipfile
     
 if
 isinstance
@@ -480,6 +492,12 @@ extracted
 "
 "
 "
+    
+import
+zipfile
+    
+import
+tarfile
     
 assert
 os
@@ -882,6 +900,9 @@ removed
 "
 "
 "
+    
+import
+shutil
     
 def
 _call_with_windows_retry
@@ -2135,6 +2156,9 @@ True
 )
 :
         
+import
+tempfile
+        
 fd
 path
 =
@@ -2418,6 +2442,12 @@ data
 "
 "
     
+import
+tempfile
+    
+import
+shutil
+    
 tempdir
 =
 tempfile
@@ -2472,6 +2502,9 @@ URL
 "
 "
 "
+    
+import
+urlparse
     
 parsed
 =
@@ -2572,6 +2605,9 @@ urlopen
 "
 "
 "
+    
+import
+urllib2
     
 #
 handle
