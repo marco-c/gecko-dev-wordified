@@ -134,6 +134,9 @@ waitForExplicitFinish
 (
 )
 ;
+var
+notification
+=
 new
 Notification
 (
@@ -169,6 +172,12 @@ crash
 "
 )
 ;
+notification
+.
+close
+(
+)
+;
 SimpleTest
 .
 finish
@@ -194,6 +203,12 @@ in
 promise
 callback
 "
+)
+;
+notification
+.
+close
+(
 )
 ;
 }
