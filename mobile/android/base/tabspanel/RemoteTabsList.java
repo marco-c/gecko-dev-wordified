@@ -203,7 +203,7 @@ view
 of
 {
 link
-RemoteTabsContainer
+RemoteTabsContainerPanel
 }
 *
 so

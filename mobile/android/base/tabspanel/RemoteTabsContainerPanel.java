@@ -206,7 +206,7 @@ RemoteTabsList
 /
 public
 class
-RemoteTabsContainer
+RemoteTabsContainerPanel
 extends
 GeckoSwipeRefreshLayout
 implements
@@ -247,7 +247,7 @@ RemoteTabsList
 list
 ;
 public
-RemoteTabsContainer
+RemoteTabsContainerPanel
 (
 Context
 context
@@ -442,6 +442,8 @@ show
 {
 setVisibility
 (
+View
+.
 VISIBLE
 )
 ;
@@ -470,6 +472,8 @@ hide
 {
 setVisibility
 (
+View
+.
 GONE
 )
 ;
@@ -561,7 +565,7 @@ getContext
 )
 {
 return
-RemoteTabsContainer
+RemoteTabsContainerPanel
 .
 this
 .
