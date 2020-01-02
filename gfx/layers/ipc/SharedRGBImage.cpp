@@ -1210,6 +1210,12 @@ mTextureClient
 GetBuffer
 (
 )
+mTextureClient
+-
+>
+GetBufferSize
+(
+)
 )
 ;
 return

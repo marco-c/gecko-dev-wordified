@@ -2208,6 +2208,9 @@ serializer
 GetBuffer
 (
 )
+GetBufferSize
+(
+)
 )
 ;
 if
@@ -2475,6 +2478,9 @@ serializer
 GetBuffer
 (
 )
+GetBufferSize
+(
+)
 )
 ;
 if
@@ -2626,6 +2632,9 @@ serializer
 GetBuffer
 (
 )
+GetBufferSize
+(
+)
 )
 ;
 serializer
@@ -2710,6 +2719,9 @@ ImageDataSerializer
 serializer
 (
 GetBuffer
+(
+)
+GetBufferSize
 (
 )
 )
@@ -3097,6 +3109,9 @@ ImageDataSerializer
 serializer
 (
 GetBuffer
+(
+)
+GetBufferSize
 (
 )
 )
