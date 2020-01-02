@@ -1053,7 +1053,8 @@ nsIMemoryReporterManager
 ;
 /
 /
-XXX
+Bug
+916501
 :
 this
 code
