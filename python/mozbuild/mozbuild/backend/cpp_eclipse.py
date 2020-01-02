@@ -3122,6 +3122,13 @@ builder
 arguments
 =
 "
+-
+-
+log
+-
+no
+-
+times
 build
 "
 buildPath
