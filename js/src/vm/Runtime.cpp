@@ -738,10 +738,6 @@ selfHostingGlobal_
 (
 nullptr
 )
-selfHostedClasses_
-(
-nullptr
-)
 nativeStackBase
 (
 0
