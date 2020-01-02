@@ -6707,8 +6707,13 @@ nscoord
 nsInlineFrame
 :
 :
-GetBaseline
+GetLogicalBaseline
 (
+mozilla
+:
+:
+WritingMode
+aWritingMode
 )
 const
 {

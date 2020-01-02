@@ -2023,6 +2023,15 @@ nsHTMLReflowMetrics
 ASK_FOR_BASELINE
 )
 {
+WritingMode
+wm
+=
+aButtonReflowState
+.
+GetWritingMode
+(
+)
+;
 contentsDesiredSize
 .
 SetBlockStartAscent
@@ -2030,8 +2039,9 @@ SetBlockStartAscent
 aFirstKid
 -
 >
-GetBaseline
+GetLogicalBaseline
 (
+wm
 )
 )
 ;

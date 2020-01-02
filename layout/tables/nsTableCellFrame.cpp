@@ -4271,6 +4271,9 @@ nsLayoutUtils
 :
 GetFirstLineBaseline
 (
+GetWritingMode
+(
+)
 inner
 &
 result

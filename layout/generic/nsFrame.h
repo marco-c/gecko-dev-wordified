@@ -1032,8 +1032,13 @@ MOZ_OVERRIDE
 ;
 virtual
 nscoord
-GetBaseline
+GetLogicalBaseline
 (
+mozilla
+:
+:
+WritingMode
+aWritingMode
 )
 const
 MOZ_OVERRIDE

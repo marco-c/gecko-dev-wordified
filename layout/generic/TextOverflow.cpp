@@ -4575,6 +4575,13 @@ clipState
 mBuilder
 )
 ;
+/
+/
+XXX
+Needs
+vertical
+text
+love
 nsRect
 markerRect
 =
@@ -4646,7 +4653,7 @@ markerRect
 aLine
 -
 >
-GetAscent
+GetLogicalAscent
 (
 )
 mLeft
@@ -4746,7 +4753,7 @@ markerRect
 aLine
 -
 >
-GetAscent
+GetLogicalAscent
 (
 )
 mRight

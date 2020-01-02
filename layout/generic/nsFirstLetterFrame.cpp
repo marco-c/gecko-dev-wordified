@@ -2397,8 +2397,10 @@ nscoord
 nsFirstLetterFrame
 :
 :
-GetBaseline
+GetLogicalBaseline
 (
+WritingMode
+aWritingMode
 )
 const
 {

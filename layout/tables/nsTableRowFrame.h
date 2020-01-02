@@ -711,6 +711,11 @@ ascent
 nscoord
 GetRowBaseline
 (
+mozilla
+:
+:
+WritingMode
+aWritingMode
 )
 ;
 /
