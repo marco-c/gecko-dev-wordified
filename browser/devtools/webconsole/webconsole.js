@@ -25797,7 +25797,12 @@ last
 non
 -
 alphanumeric
+other
+than
+_
+or
 if
+it
 exists
 .
 let
@@ -25816,7 +25821,7 @@ zA
 -
 Z0
 -
-9
+9_
 ]
 [
 a
@@ -25825,7 +25830,7 @@ zA
 -
 Z0
 -
-9
+9_
 ]
 *
 /
