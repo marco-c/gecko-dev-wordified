@@ -7964,7 +7964,6 @@ spsProfiler
 .
 enter
 (
-cx
 script
 func
 )
@@ -8091,7 +8090,6 @@ profiler
 >
 profileString
 (
-cx
 script
 func
 )

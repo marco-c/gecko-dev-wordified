@@ -3498,7 +3498,6 @@ spsProfiler
 .
 enter
 (
-cx
 script
 script
 -
@@ -3531,7 +3530,6 @@ spsProfiler
 .
 exit
 (
-cx
 script
 script
 -
@@ -4813,7 +4811,6 @@ spsProfiler
 .
 exit
 (
-cx
 frame
 -
 >

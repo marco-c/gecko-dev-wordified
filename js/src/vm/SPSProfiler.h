@@ -1214,9 +1214,6 @@ char
 *
 allocProfileString
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -1465,9 +1462,6 @@ made
 bool
 enter
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -1479,9 +1473,6 @@ maybeFun
 void
 exit
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -1623,9 +1614,6 @@ char
 *
 profileString
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -2616,9 +2604,6 @@ emitted
 bool
 push
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -2649,7 +2634,6 @@ profiler_
 >
 profileString
 (
-cx
 script
 script
 -
