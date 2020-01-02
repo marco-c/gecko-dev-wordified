@@ -3594,7 +3594,7 @@ ResetLastPos
 :
 this
 .
-_onClickCoords
+onClickCoords
 (
 json
 .
