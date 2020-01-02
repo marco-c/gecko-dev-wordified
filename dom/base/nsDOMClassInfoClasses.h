@@ -270,10 +270,6 @@ MozMmsMessage
 )
 DOMCI_CLASS
 (
-MozSmsFilter
-)
-DOMCI_CLASS
-(
 MozMobileMessageThread
 )
 /
