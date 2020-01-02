@@ -222,6 +222,13 @@ Decimal
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 class
 nsDOMFileList
 ;
@@ -7481,6 +7488,12 @@ NS_FORM_INPUT_
 /
 uint8_t
 mType
+;
+nsContentUtils
+:
+:
+AutocompleteAttrState
+mAutocompleteAttrState
 ;
 bool
 mDisabledChanged
