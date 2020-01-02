@@ -447,7 +447,6 @@ forget
 NS_DispatchToMainThread
 (
 metadataUpdatedEvent
-NS_DISPATCH_NORMAL
 )
 ;
 delete

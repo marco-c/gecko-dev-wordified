@@ -715,11 +715,6 @@ mFeature
 NS_DispatchToMainThread
 (
 r
-.
-get
-(
-)
-NS_DISPATCH_NORMAL
 )
 ;
 }

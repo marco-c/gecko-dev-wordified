@@ -768,7 +768,6 @@ thread
 NS_DispatchToMainThread
 (
 mDoWorkEvent
-NS_DISPATCH_NORMAL
 )
 ;
 }

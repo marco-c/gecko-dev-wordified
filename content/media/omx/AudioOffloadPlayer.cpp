@@ -1909,10 +1909,9 @@ MediaDecoder
 SeekingStarted
 )
 ;
-NS_DispatchToMainThread
+NS_DispatchToCurrentThread
 (
 nsEvent
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -2001,10 +2000,9 @@ MediaDecoder
 SeekingStopped
 )
 ;
-NS_DispatchToMainThread
+NS_DispatchToCurrentThread
 (
 nsEvent
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -2218,7 +2216,6 @@ PlaybackEnded
 NS_DispatchToMainThread
 (
 nsEvent
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -2249,7 +2246,6 @@ PlaybackPositionChanged
 NS_DispatchToMainThread
 (
 nsEvent
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -2280,7 +2276,6 @@ AudioOffloadTearDown
 NS_DispatchToMainThread
 (
 nsEvent
-NS_DISPATCH_NORMAL
 )
 ;
 }

@@ -800,7 +800,6 @@ NS_DispatchToMainThread
 (
 &
 sFlushEvent
-NS_DISPATCH_NORMAL
 )
 ;
 }

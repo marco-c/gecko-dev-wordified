@@ -2809,7 +2809,6 @@ rv
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 if
@@ -2931,7 +2930,6 @@ rv
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 if

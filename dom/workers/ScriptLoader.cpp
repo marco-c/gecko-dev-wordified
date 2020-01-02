@@ -1330,7 +1330,6 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 )
 )
@@ -4301,7 +4300,6 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 loader
-NS_DISPATCH_NORMAL
 )
 )
 )
@@ -4503,7 +4501,6 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 getter
-NS_DISPATCH_NORMAL
 )
 )
 )

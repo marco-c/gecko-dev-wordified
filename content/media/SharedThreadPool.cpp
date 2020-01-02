@@ -1089,7 +1089,6 @@ new
 ShutdownPoolsEvent
 (
 )
-NS_DISPATCH_NORMAL
 )
 ;
 }

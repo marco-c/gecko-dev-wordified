@@ -634,7 +634,6 @@ MediaDecodeTask
 :
 Cleanup
 )
-NS_DISPATCH_NORMAL
 )
 ;
 nsCOMPtr
@@ -658,7 +657,6 @@ aErrorCode
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -2204,7 +2202,6 @@ UnknownContent
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 return
@@ -2242,7 +2239,6 @@ UnknownError
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 return
@@ -2304,7 +2300,6 @@ UnknownError
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }

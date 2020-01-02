@@ -445,7 +445,6 @@ ShareMainThread
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 return

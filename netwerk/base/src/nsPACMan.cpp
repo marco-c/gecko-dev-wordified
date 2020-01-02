@@ -1290,7 +1290,6 @@ mPACMan
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 ;
 return
@@ -1526,7 +1525,6 @@ mOnMainThreadOnly
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 ;
 else
@@ -1585,7 +1583,6 @@ mOnMainThreadOnly
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 ;
 else
@@ -1794,7 +1791,6 @@ mPACThread
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 ;
 }

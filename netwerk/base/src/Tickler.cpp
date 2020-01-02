@@ -769,7 +769,6 @@ Tickler
 :
 MaybeStartTicklerUnlocked
 )
-NS_DISPATCH_NORMAL
 )
 ;
 return

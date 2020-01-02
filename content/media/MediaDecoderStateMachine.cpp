@@ -7877,7 +7877,6 @@ DurationChanged
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -7945,7 +7944,6 @@ PlaybackPositionChanged
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -8447,7 +8445,6 @@ DurationChanged
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -12214,7 +12211,6 @@ tags
 NS_DispatchToMainThread
 (
 metadataLoadedEvent
-NS_DISPATCH_NORMAL
 )
 ;
 if
@@ -13109,7 +13105,6 @@ Invalidate
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -17498,7 +17493,6 @@ UpdateReadyStateForData
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }

@@ -2460,7 +2460,6 @@ rv
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2910,7 +2909,6 @@ rv
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5680,7 +5678,6 @@ return
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -6443,7 +6440,6 @@ rv
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6752,7 +6748,6 @@ return
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }

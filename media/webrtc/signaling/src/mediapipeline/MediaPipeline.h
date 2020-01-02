@@ -2437,7 +2437,6 @@ forget
 (
 )
 )
-NS_DISPATCH_NORMAL
 )
 ;
 MOZ_ASSERT
@@ -3222,7 +3221,6 @@ forget
 (
 )
 )
-NS_DISPATCH_NORMAL
 )
 ;
 MOZ_ASSERT

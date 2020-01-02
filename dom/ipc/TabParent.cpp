@@ -1054,7 +1054,6 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 this
-NS_DISPATCH_NORMAL
 )
 )
 )

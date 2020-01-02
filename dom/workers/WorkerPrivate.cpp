@@ -3955,7 +3955,6 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 )
 )
@@ -20918,7 +20917,6 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 )
 )

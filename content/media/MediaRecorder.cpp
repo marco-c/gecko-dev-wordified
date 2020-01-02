@@ -3806,7 +3806,6 @@ GetEncodedData
 )
 this
 )
-NS_DISPATCH_NORMAL
 )
 ;
 }

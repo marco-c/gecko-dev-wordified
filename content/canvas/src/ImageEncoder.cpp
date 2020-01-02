@@ -705,7 +705,6 @@ rv
 NS_DispatchToMainThread
 (
 mEncodingCompleteEvent
-NS_DISPATCH_NORMAL
 )
 ;
 if
