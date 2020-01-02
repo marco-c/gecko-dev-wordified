@@ -892,11 +892,6 @@ const
 aCallback
 )
 ;
-bool
-PendingCallbacks
-(
-)
-;
 void
 InvokeCallbacksLock
 (
