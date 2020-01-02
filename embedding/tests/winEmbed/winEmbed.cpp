@@ -6112,8 +6112,9 @@ be
 /
 immediately
 released
-CallQueryInterface
-(
+*
+aNewWindow
+=
 static_cast
 <
 nsIWebBrowserChrome
@@ -6121,8 +6122,6 @@ nsIWebBrowserChrome
 >
 (
 chrome
-)
-aNewWindow
 )
 ;
 /
