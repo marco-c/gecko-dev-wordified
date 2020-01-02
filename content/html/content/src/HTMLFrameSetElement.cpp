@@ -1234,7 +1234,7 @@ bug
 576447
 )
 .
-PR_STATIC_ASSERT
+static_assert
 (
 NS_MAX_FRAMESET_SPEC_COUNT
 *
@@ -1249,6 +1249,15 @@ nsFramesetSpec
 <
 30
 )
+"
+Too
+many
+frameset
+specs
+allowed
+to
+allocate
+"
 )
 ;
 int32_t
