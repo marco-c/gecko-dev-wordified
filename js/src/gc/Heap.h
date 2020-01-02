@@ -5685,6 +5685,7 @@ gcBytes_
 ;
 public
 :
+explicit
 HeapUsage
 (
 HeapUsage

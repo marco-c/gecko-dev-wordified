@@ -797,6 +797,7 @@ index_
 ;
 public
 :
+explicit
 UniqueScriptOSREntryIter
 (
 const

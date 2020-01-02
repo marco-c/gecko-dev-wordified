@@ -6783,6 +6783,7 @@ runtime
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
+explicit
 AutoMaybeStartBackgroundAllocation
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM

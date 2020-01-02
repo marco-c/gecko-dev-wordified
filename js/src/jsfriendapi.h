@@ -7619,6 +7619,7 @@ ownsChars_
 ;
 public
 :
+explicit
 AutoStableStringChars
 (
 JSContext
@@ -7939,6 +7940,7 @@ JS_FRIEND_API
 ErrorReport
 )
 {
+explicit
 ErrorReport
 (
 JSContext

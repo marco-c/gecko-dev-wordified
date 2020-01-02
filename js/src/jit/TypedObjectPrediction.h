@@ -1044,6 +1044,7 @@ kind_
 Empty
 ;
 }
+explicit
 TypedObjectPrediction
 (
 const
@@ -1058,6 +1059,7 @@ proto
 )
 ;
 }
+explicit
 TypedObjectPrediction
 (
 const

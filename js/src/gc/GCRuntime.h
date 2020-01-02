@@ -330,6 +330,7 @@ Enum
 {
 public
 :
+explicit
 Enum
 (
 ChunkPool

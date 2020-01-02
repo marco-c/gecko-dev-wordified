@@ -11056,6 +11056,7 @@ SingleObjectPolicy
 {
 private
 :
+explicit
 MTypedObjectProto
 (
 MDefinition
@@ -11570,6 +11571,7 @@ numSlots_
 uint32_t
 numFixedSlots_
 ;
+explicit
 MObjectState
 (
 MDefinition
@@ -14194,6 +14196,7 @@ MNullaryInstruction
 {
 protected
 :
+explicit
 MBail
 (
 BailoutKind
@@ -51010,6 +51013,7 @@ skipBoundsCheck_
 ;
 public
 :
+explicit
 MAsmJSHeapAccess
 (
 Scalar
