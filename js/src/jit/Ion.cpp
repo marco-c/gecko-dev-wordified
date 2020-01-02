@@ -7828,11 +7828,8 @@ runtime
 else
 logger
 =
-TraceLoggerForThread
+TraceLoggerForCurrentThread
 (
-PR_GetCurrentThread
-(
-)
 )
 ;
 if
