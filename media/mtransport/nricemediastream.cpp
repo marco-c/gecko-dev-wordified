@@ -1854,7 +1854,7 @@ selected
 p1
 -
 >
-local
+remote
 -
 >
 component
@@ -1863,7 +1863,7 @@ component
 p1
 -
 >
-local
+remote
 -
 >
 component
