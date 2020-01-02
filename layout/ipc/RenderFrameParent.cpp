@@ -6637,10 +6637,7 @@ GetApzcTreeManager
 >
 UpdateZoomConstraints
 (
-ScrollableLayerGuid
-(
 mLayersId
-)
 aAllowZoom
 aMinZoom
 aMaxZoom
