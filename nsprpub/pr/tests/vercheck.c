@@ -175,7 +175,7 @@ release
 .
 10
 .
-1
+2
 )
 is
 backward
@@ -234,10 +234,15 @@ x
 9
 .
 x
+4
+.
+10
 and
 4
 .
 10
+.
+1
 releases
 .
 *
@@ -573,6 +578,13 @@ compatible_version
 .
 10
 "
+"
+4
+.
+10
+.
+1
+"
 PR_VERSION
 }
 ;
@@ -683,7 +695,7 @@ incompatible_version
 .
 10
 .
-2
+3
 "
 "
 4
