@@ -14597,6 +14597,17 @@ hasDefined
 (
 0
 )
+&
+&
+!
+args
+[
+0
+]
+.
+isNull
+(
+)
 )
 {
 RootedString
