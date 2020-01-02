@@ -6633,7 +6633,7 @@ byte
 .
 if
 (
-issuerCert
+cert
 -
 >
 serialNumber
