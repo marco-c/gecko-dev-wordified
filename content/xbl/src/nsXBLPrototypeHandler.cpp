@@ -2168,6 +2168,13 @@ new
 EventHandlerNonNull
 (
 bound
+/
+*
+aIncumbentGlobal
+=
+*
+/
+nullptr
 )
 ;
 nsEventHandler
