@@ -4589,6 +4589,13 @@ H
 2
 }
 ;
+/
+/
+mozilla
+:
+Add
+module
+support
 exports
 .
 QRErrorCorrectLevel
@@ -8541,7 +8548,7 @@ _this
 ;
 /
 /
-jryans
+mozilla
 :
 Add
 module
@@ -12338,7 +12345,7 @@ qrcode
 ;
 /
 /
-jryans
+mozilla
 :
 Add
 module

@@ -100,7 +100,7 @@ toolkit
 /
 qrcode
 /
-qrcode
+index
 "
 )
 ;
