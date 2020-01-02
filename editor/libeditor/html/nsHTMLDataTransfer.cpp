@@ -143,6 +143,15 @@ include
 "
 mozilla
 /
+BasicEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
