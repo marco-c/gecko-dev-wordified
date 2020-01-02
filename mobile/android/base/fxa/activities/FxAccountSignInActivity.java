@@ -549,6 +549,10 @@ createShowPasswordButton
 (
 )
 ;
+linkifyPolicy
+(
+)
+;
 View
 createAccountInsteadLink
 =
