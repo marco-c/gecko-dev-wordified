@@ -2505,6 +2505,14 @@ FrameIter
 iter
 (
 cx
+FrameIter
+:
+:
+ALL_CONTEXTS
+FrameIter
+:
+:
+GO_THROUGH_SAVED
 )
 ;
 return
