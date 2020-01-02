@@ -714,6 +714,9 @@ size
 uint32_t
 duration
 ;
+uint32_t
+ctsOffset
+;
 uint8_t
 iv
 [
@@ -17343,6 +17346,12 @@ duration
 =
 sampleDuration
 ;
+tmp
+.
+ctsOffset
+=
+sampleCtsOffset
+;
 mCurrentSamples
 .
 add
@@ -19619,6 +19628,11 @@ size
 cts
 =
 mCurrentTime
++
+smpl
+-
+>
+ctsOffset
 ;
 duration
 =
