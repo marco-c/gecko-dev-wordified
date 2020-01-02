@@ -403,7 +403,7 @@ NS_OK
 }
 nsRefPtr
 <
-CacheEntry
+CacheEntryHandle
 >
 entry
 ;
@@ -455,6 +455,11 @@ the
 callback
 synchronously
 entry
+-
+>
+Entry
+(
+)
 -
 >
 AsyncOpen
