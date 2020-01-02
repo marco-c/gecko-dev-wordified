@@ -578,6 +578,13 @@ inherit
 Ruby
 *
 /
+supports
+(
+display
+:
+ruby
+)
+{
 *
 |
 *
@@ -676,6 +683,7 @@ text
 -
 container
 ;
+}
 }
 /
 *
