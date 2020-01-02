@@ -1325,11 +1325,17 @@ uint8_t
 *
 code
 =
+Assembler
+:
+:
+BailoutTableStart
+(
 deoptTable_
 -
 >
 raw
 (
+)
 )
 +
 snapshot

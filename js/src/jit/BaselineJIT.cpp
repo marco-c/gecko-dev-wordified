@@ -1212,6 +1212,9 @@ MacroAssembler
 :
 ToggledCallSize
 (
+data
+.
+jitcode
 )
 ;
 data
