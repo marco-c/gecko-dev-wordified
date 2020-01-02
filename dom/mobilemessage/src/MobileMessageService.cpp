@@ -433,6 +433,10 @@ aTimestamp
 const
 nsAString
 &
+aLastMessageSubject
+const
+nsAString
+&
 aBody
 uint64_t
 aUnreadCount
@@ -458,6 +462,7 @@ Create
 aId
 aParticipants
 aTimestamp
+aLastMessageSubject
 aBody
 aUnreadCount
 aLastMessageType
