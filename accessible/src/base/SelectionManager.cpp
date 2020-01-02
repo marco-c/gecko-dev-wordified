@@ -832,7 +832,7 @@ GetFocusNode
 sel
 -
 >
-GetFocusOffset
+FocusOffset
 (
 )
 )
