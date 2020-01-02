@@ -5569,12 +5569,9 @@ GetApzcTreeManager
 )
 -
 >
-UpdateCompositionBounds
-(
-ScrollableLayerGuid
+UpdateRootCompositionBounds
 (
 mLayersId
-)
 ScreenIntRect
 (
 ScreenIntPoint
