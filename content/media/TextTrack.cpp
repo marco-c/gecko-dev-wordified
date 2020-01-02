@@ -549,6 +549,13 @@ AddCue
 aCue
 )
 ;
+aCue
+.
+SetTrack
+(
+this
+)
+;
 if
 (
 mTextTrackList
