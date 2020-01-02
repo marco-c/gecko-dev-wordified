@@ -97,9 +97,7 @@ self
 .
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
         
 self
 .

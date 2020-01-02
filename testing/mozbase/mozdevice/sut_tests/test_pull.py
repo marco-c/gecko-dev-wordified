@@ -161,9 +161,7 @@ self
 .
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
         
 remote_test_file
 =

@@ -105,9 +105,7 @@ self
 .
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
 '
 infratest
 '

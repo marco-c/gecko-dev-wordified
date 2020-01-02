@@ -175,9 +175,7 @@ self
 .
 device
 .
-getDeviceRoot
-(
-)
+deviceRoot
 +
 "
 /

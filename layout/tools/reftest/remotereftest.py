@@ -1016,9 +1016,7 @@ automation
 .
 _devicemanager
 .
-getDeviceRoot
-(
-)
+deviceRoot
 +
 '
 /
@@ -4032,9 +4030,7 @@ self
 .
 _devicemanager
 .
-getDeviceRoot
-(
-)
+deviceRoot
         
 except
 devicemanager
