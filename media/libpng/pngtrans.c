@@ -28,11 +28,11 @@ libpng
 .
 6
 .
-2
+9
 [
-April
-25
-2013
+February
+6
+2014
 ]
 *
 Copyright
@@ -41,7 +41,7 @@ c
 )
 1998
 -
-2013
+2014
 Glenn
 Randers
 -
@@ -324,6 +324,9 @@ transformations
 =
 PNG_PACK
 ;
+#
+ifdef
+PNG_WRITE_SUPPORTED
 png_ptr
 -
 >
@@ -331,6 +334,8 @@ usr_bit_depth
 =
 8
 ;
+#
+endif
 }
 }
 #

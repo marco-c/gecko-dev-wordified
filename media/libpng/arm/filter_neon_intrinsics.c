@@ -58,10 +58,10 @@ libpng
 .
 6
 .
-7
+8
 [
-November
-14
+December
+19
 2013
 ]
 *
@@ -130,6 +130,10 @@ PNG_ARM_NEON_IMPLEMENTATION
 *
 intrinsics
 code
+from
+pngpriv
+.
+h
 *
 /
 #
@@ -182,7 +186,8 @@ it
 is
 done
 )
-this
+.
+This
 code
 uses
 *
