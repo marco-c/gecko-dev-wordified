@@ -122,12 +122,16 @@ bool
 aAddNew
 )
 ;
+protected
+:
 virtual
 ~
 CacheIndexIterator
 (
 )
 ;
+public
+:
 /
 /
 Returns

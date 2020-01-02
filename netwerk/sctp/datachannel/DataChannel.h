@@ -1873,11 +1873,15 @@ connection
 )
 ;
 }
+private
+:
 ~
 DataChannel
 (
 )
 ;
+public
+:
 void
 Destroy
 (
