@@ -1454,7 +1454,13 @@ queued
 for
 the
 GMPThread
-RUN_ON_THREAD
+mozilla
+:
+:
+SyncRunnable
+:
+:
+DispatchToThread
 (
 thread
 WrapRunnableNM
@@ -1462,7 +1468,6 @@ WrapRunnableNM
 &
 GMPDummy
 )
-NS_DISPATCH_SYNC
 )
 ;
 return
