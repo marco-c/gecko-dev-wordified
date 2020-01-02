@@ -281,7 +281,7 @@ TouchAdapter_start
 {
 Logger
 .
-info
+debug
 (
 '
 TouchAdapter
@@ -378,7 +378,7 @@ TouchAdapter_stop
 {
 Logger
 .
-info
+debug
 (
 '
 TouchAdapter
