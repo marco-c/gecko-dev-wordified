@@ -299,6 +299,9 @@ CLSID
 ifndef
 CLSID_CMSAACDecMFT
 extern
+"
+C
+"
 const
 CLSID
 CLSID_CMSAACDecMFT
