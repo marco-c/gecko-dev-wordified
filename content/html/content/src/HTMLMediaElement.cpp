@@ -11838,6 +11838,14 @@ mStatsShowing
 (
 false
 )
+mAllowCasting
+(
+false
+)
+mIsCasting
+(
+false
+)
 mAudioCaptured
 (
 false
