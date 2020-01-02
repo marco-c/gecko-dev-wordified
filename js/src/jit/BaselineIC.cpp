@@ -21137,7 +21137,7 @@ scratchReg
 offsetof
 (
 ExpandoAndGeneration
-expando
+generation
 )
 )
 scratch

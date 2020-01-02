@@ -4331,9 +4331,11 @@ tempVal
 scratchReg
 (
 )
-sizeof
+ExpandoAndGeneration
+:
+:
+offsetOfGeneration
 (
-Value
 )
 )
 Imm32
@@ -4365,7 +4367,12 @@ tempVal
 scratchReg
 (
 )
-0
+ExpandoAndGeneration
+:
+:
+offsetOfExpando
+(
+)
 )
 tempVal
 )
