@@ -1546,7 +1546,7 @@ XPC_JS_CLASS_MAP_LENGTH
 #
 define
 XPC_NATIVE_MAP_LENGTH
-8
+32
 #
 define
 XPC_NATIVE_PROTO_MAP_LENGTH
@@ -21884,6 +21884,11 @@ TextEncoder
 ;
 bool
 URL
+:
+1
+;
+bool
+URLSearchParams
 :
 1
 ;
