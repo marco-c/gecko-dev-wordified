@@ -2057,7 +2057,7 @@ main
 thread
 nsCOMPtr
 <
-AsyncApplyBufferingPolicyEvent
+nsIRunnable
 >
 event
 =

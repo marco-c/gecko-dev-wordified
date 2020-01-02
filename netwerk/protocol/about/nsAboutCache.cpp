@@ -1283,10 +1283,7 @@ directly
 .
 nsCOMPtr
 <
-nsRunnableMethod
-<
-nsAboutCache
->
+nsIRunnable
 >
 event
 =

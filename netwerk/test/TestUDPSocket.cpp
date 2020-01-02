@@ -1797,7 +1797,7 @@ return
 1
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 MulticastTimerCallback
 >
