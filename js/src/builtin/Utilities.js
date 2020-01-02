@@ -399,6 +399,13 @@ Math
 min
 ;
 var
+std_Math_abs
+=
+Math
+.
+abs
+;
+var
 std_Math_imul
 =
 Math
