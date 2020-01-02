@@ -1766,10 +1766,12 @@ DependentAsmJSModuleExit
 exit
 )
 {
-JS_ASSERT
+if
 (
+!
 dependentAsmJSModules
 )
+return
 ;
 for
 (
