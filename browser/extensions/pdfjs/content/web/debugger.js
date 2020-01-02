@@ -200,11 +200,6 @@ var
 fonts
 ;
 var
-panelWidth
-=
-300
-;
-var
 active
 =
 false
@@ -2423,6 +2418,11 @@ updateOperatorList
 operatorList
 )
 {
+var
+self
+=
+this
+;
 function
 cboxOnClick
 (
@@ -2505,11 +2505,6 @@ MAX_OPERATORS_COUNT
 return
 ;
 }
-var
-self
-=
-this
-;
 var
 chunk
 =
