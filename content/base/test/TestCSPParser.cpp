@@ -766,7 +766,6 @@ AppendPolicy
 policyStr
 nullptr
 false
-true
 )
 ;
 NS_ENSURE_SUCCESS

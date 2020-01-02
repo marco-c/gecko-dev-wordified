@@ -634,7 +634,6 @@ appendPolicy
 policy
 selfuri
 useReportOnlyPolicy
-true
 )
 ;
 /

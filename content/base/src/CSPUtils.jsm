@@ -1910,7 +1910,6 @@ _docURI
 this
 .
 _reportOnly
-true
 )
 ;
 }
@@ -1995,7 +1994,6 @@ _docURI
 this
 .
 _reportOnly
-true
 )
 ;
 }
@@ -2185,8 +2183,6 @@ CSP
 1
 .
 0
-spec
-compliant
 implementation
 .
 CSPRep

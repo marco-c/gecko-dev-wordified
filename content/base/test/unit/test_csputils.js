@@ -5786,7 +5786,6 @@ appendPolicy
 testPolicy
 aChildUri
 false
-false
 )
 ;
 let
@@ -7635,7 +7634,9 @@ policy
 :
 *
 "
-allow
+default
+-
+src
 '
 self
 '
@@ -7649,7 +7650,9 @@ policy
 :
 *
 "
-allow
+default
+-
+src
 https
 :
 /
@@ -8074,10 +8077,14 @@ Bug
 634773
 is
 that
-allow
+default
+-
+src
 *
 and
-allow
+default
+-
+src
 '
 none
 '
@@ -8376,7 +8383,6 @@ appendPolicy
 policy
 selfURI
 false
-true
 )
 ;
 /
@@ -9122,7 +9128,9 @@ CSPRep
 fromString
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -9169,7 +9177,9 @@ CSPRep
 fromString
 (
 "
-allow
+default
+-
+src
 *
 ;
 "
@@ -9196,7 +9206,9 @@ uri
 is
 mixed
 with
-allow
+default
+-
+src
 directive
 "
 do_check_equivalent

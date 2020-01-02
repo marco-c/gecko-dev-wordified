@@ -14398,8 +14398,6 @@ nsIURI
 aSelfURI
 bool
 aReportOnly
-bool
-aSpecCompliant
 )
 {
 /
@@ -14482,7 +14480,6 @@ AppendPolicy
 policy
 aSelfURI
 aReportOnly
-aSpecCompliant
 )
 ;
 NS_ENSURE_SUCCESS
@@ -15504,7 +15501,6 @@ AppendPolicy
 appCSP
 selfURI
 false
-true
 )
 ;
 }
@@ -15545,7 +15541,6 @@ AppendPolicy
 appManifestCSP
 selfURI
 false
-true
 )
 ;
 }
@@ -15587,7 +15582,6 @@ csp
 cspHeaderValue
 selfURI
 false
-true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -15634,7 +15628,6 @@ AppendCSPFromHeader
 csp
 cspROHeaderValue
 selfURI
-true
 true
 )
 ;
