@@ -2625,7 +2625,7 @@ isGetProp_CallScripted
 stub
 -
 >
-isGetProp_CallNative
+isGetProp_CallNativePrototype
 (
 )
 )
