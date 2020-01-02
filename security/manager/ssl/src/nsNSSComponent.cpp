@@ -377,6 +377,13 @@ h
 #
 include
 "
+NSSErrorsService
+.
+h
+"
+#
+include
+"
 nss
 .
 h
@@ -7067,6 +7074,10 @@ LaunchSmartCardThreads
 ;
 #
 endif
+RegisterPSMErrorTable
+(
+)
+;
 PR_LOG
 (
 gPIPNSSLog

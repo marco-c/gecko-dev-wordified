@@ -138,6 +138,13 @@ h
 #
 include
 "
+NSSErrorsService
+.
+h
+"
+#
+include
+"
 OCSPRequestor
 .
 h
@@ -2842,7 +2849,7 @@ SECSuccess
 }
 PR_SetError
 (
-SEC_ERROR_APPLICATION_CALLBACK_ERROR
+PSM_ERROR_KEY_PINNING_FAILURE
 0
 )
 ;
