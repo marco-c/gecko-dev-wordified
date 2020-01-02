@@ -116,16 +116,6 @@ javascript
 .
 options
 .
-strict
-'
-:
-True
-    
-'
-javascript
-.
-options
-.
 showInConsole
 '
 :
