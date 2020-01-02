@@ -5493,10 +5493,6 @@ callerLanguage
 JSContext
 *
 cx
-=
-GetDefaultJSContext
-(
-)
 JS
 :
 :

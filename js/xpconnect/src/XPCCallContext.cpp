@@ -170,14 +170,6 @@ callerLanguage
 JSContext
 *
 cx
-/
-*
-=
-GetDefaultJSContext
-(
-)
-*
-/
 HandleObject
 obj
 /
