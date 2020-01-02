@@ -1038,9 +1038,6 @@ NextTextureID
 (
 )
 ;
-uint64_t
-mNextTextureID
-;
 CompositableChild
 *
 mCompositableChild

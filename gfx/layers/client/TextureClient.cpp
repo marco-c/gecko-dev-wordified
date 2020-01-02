@@ -1065,10 +1065,6 @@ mActor
 (
 nullptr
 )
-mID
-(
-0
-)
 mFlags
 (
 aFlags
