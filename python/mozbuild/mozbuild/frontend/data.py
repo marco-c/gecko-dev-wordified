@@ -3361,6 +3361,10 @@ referenced_projects
 '
 _classpathentries
 '
+        
+'
+filtered_resources
+'
     
 )
     
@@ -3440,6 +3444,13 @@ referenced_projects
 self
 .
 _classpathentries
+=
+[
+]
+        
+self
+.
+filtered_resources
 =
 [
 ]
