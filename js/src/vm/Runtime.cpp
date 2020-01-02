@@ -3702,16 +3702,6 @@ onTooMuchMalloc
 (
 )
 {
-if
-(
-!
-CurrentThreadCanAccessRuntime
-(
-this
-)
-)
-return
-;
 gc
 .
 onTooMuchMalloc
