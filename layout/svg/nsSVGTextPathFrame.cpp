@@ -128,13 +128,6 @@ h
 #
 include
 "
-gfxPath
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
