@@ -5010,6 +5010,25 @@ contact
 ;
 }
 private
+boolean
+bool
+(
+int
+integer
+)
+{
+return
+integer
+!
+=
+0
+?
+true
+:
+false
+;
+}
+private
 void
 getGenericDataAsJSONObject
 (
@@ -5304,6 +5323,8 @@ put
 "
 pref
 "
+bool
+(
 cursor
 .
 getInt
@@ -5315,6 +5336,7 @@ getColumnIndex
 Data
 .
 IS_SUPER_PRIMARY
+)
 )
 )
 )
@@ -5643,6 +5665,8 @@ put
 "
 pref
 "
+bool
+(
 cursor
 .
 getInt
@@ -5654,6 +5678,7 @@ getColumnIndex
 Phone
 .
 IS_SUPER_PRIMARY
+)
 )
 )
 )
@@ -6120,6 +6145,8 @@ put
 "
 pref
 "
+bool
+(
 cursor
 .
 getInt
@@ -6131,6 +6158,7 @@ getColumnIndex
 StructuredPostal
 .
 IS_SUPER_PRIMARY
+)
 )
 )
 )
@@ -9314,12 +9342,16 @@ Data
 IS_SUPER_PRIMARY
 address
 .
-getInt
+getBoolean
 (
 "
 pref
 "
 )
+?
+1
+:
+0
 )
 ;
 }
@@ -9493,7 +9525,7 @@ typeConstant
 type
 phone
 .
-optInt
+optBoolean
 (
 "
 pref
@@ -9560,7 +9592,7 @@ value
 null
 phone
 .
-optInt
+optBoolean
 (
 "
 pref
@@ -9771,7 +9803,7 @@ typeConstant
 type
 email
 .
-optInt
+optBoolean
 (
 "
 pref
@@ -9806,7 +9838,7 @@ value
 null
 email
 .
-optInt
+optBoolean
 (
 "
 pref
@@ -10108,7 +10140,7 @@ typeConstant
 type
 website
 .
-optInt
+optBoolean
 (
 "
 pref
@@ -10143,7 +10175,7 @@ value
 null
 website
 .
-optInt
+optBoolean
 (
 "
 pref
@@ -10320,7 +10352,7 @@ typeConstant
 type
 im
 .
-optInt
+optBoolean
 (
 "
 pref
@@ -10355,7 +10387,7 @@ value
 null
 im
 .
-optInt
+optBoolean
 (
 "
 pref
@@ -10887,7 +10919,7 @@ final
 String
 type
 final
-int
+boolean
 preferredValue
 )
 {
@@ -10927,6 +10959,10 @@ Data
 .
 IS_SUPER_PRIMARY
 preferredValue
+?
+1
+:
+0
 )
 ;
 if
