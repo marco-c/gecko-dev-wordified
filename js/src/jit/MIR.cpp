@@ -19848,14 +19848,8 @@ maybeTypes
 >
 clone
 (
-GetIonContext
-(
-)
--
->
-temp
--
->
+alloc
+.
 lifoAlloc
 (
 )
