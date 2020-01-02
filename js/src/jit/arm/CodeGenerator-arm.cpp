@@ -8168,13 +8168,9 @@ emitTableSwitchDispatch
 MTableSwitch
 *
 mir
-const
 Register
-&
 index
-const
 Register
-&
 base
 )
 {
@@ -9450,9 +9446,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 Label
 *
@@ -13328,9 +13322,7 @@ MIRType
 valueType
 MIRType
 elementType
-const
 Register
-&
 elements
 const
 LAllocation

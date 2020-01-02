@@ -360,9 +360,7 @@ operator
 =
 =
 (
-const
 Register
-&
 other
 )
 const
@@ -381,9 +379,7 @@ operator
 !
 =
 (
-const
 Register
-&
 other
 )
 const

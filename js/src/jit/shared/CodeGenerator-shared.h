@@ -1947,9 +1947,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 )
 ;
@@ -1960,9 +1958,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 )
 ;
@@ -1973,9 +1969,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 )
 ;
@@ -2537,9 +2531,7 @@ endif
 void
 storeResultTo
 (
-const
 Register
-&
 reg
 )
 {
@@ -3986,9 +3978,7 @@ public
 :
 StoreRegisterTo
 (
-const
 Register
-&
 out
 )
 :

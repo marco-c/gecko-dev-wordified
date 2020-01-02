@@ -10364,13 +10364,9 @@ emitTableSwitchDispatch
 MTableSwitch
 *
 mir
-const
 Register
-&
 index
-const
 Register
-&
 base
 )
 {

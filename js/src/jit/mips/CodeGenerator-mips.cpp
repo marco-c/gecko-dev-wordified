@@ -7464,13 +7464,9 @@ emitTableSwitchDispatch
 MTableSwitch
 *
 mir
-const
 Register
-&
 index
-const
 Register
-&
 address
 )
 {
@@ -13097,9 +13093,7 @@ MIRType
 valueType
 MIRType
 elementType
-const
 Register
-&
 elements
 const
 LAllocation

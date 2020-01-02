@@ -1507,9 +1507,7 @@ MIRType
 valueType
 MIRType
 elementType
-const
 Register
-&
 elements
 const
 LAllocation

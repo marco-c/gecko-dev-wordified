@@ -254,9 +254,7 @@ MoveOperand
 explicit
 MoveOperand
 (
-const
 Register
-&
 reg
 )
 :
@@ -299,9 +297,7 @@ code
 }
 MoveOperand
 (
-const
 Register
-&
 reg
 int32_t
 disp

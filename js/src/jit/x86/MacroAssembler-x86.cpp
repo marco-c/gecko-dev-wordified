@@ -1010,9 +1010,7 @@ setupUnalignedABICall
 (
 uint32_t
 args
-const
 Register
-&
 scratch
 )
 {
@@ -1181,9 +1179,7 @@ MacroAssemblerX86
 :
 passABIArg
 (
-const
 Register
-&
 reg
 )
 {
