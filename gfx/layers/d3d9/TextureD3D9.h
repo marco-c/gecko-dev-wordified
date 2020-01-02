@@ -319,9 +319,9 @@ const
 gfx
 :
 :
-IntSize
+IntRect
 &
-aSize
+aRect
 )
 ;
 /
@@ -350,9 +350,9 @@ const
 gfx
 :
 :
-IntSize
+IntRect
 &
-aSize
+aRect
 )
 ;
 ~

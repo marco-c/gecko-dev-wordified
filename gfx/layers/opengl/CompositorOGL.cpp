@@ -4427,6 +4427,11 @@ new
 CompositingRenderTargetOGL
 (
 this
+aRect
+.
+TopLeft
+(
+)
 tex
 fbo
 )
@@ -4558,6 +4563,11 @@ new
 CompositingRenderTargetOGL
 (
 this
+aRect
+.
+TopLeft
+(
+)
 tex
 fbo
 )
