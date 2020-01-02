@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsICache
-.
-h
-"
-#
-include
-"
 nsICachingChannel
 .
 h
