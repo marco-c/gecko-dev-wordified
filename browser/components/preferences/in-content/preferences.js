@@ -172,6 +172,12 @@ instantApply
 =
 true
 ;
+gSubDialog
+.
+init
+(
+)
+;
 gMainPane
 .
 init
