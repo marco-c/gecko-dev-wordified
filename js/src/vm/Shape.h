@@ -1117,7 +1117,7 @@ const
 uint32_t
 MIN_ENTRIES
 =
-7
+11
 ;
 /
 /
