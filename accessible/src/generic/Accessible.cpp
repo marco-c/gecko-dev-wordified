@@ -8932,7 +8932,7 @@ NS_IMETHODIMP
 Accessible
 :
 :
-GroupPosition
+ScriptableGroupPosition
 (
 int32_t
 *
