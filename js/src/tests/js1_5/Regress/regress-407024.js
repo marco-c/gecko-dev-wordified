@@ -203,12 +203,13 @@ isString
 )
 |
 |
-JSVAL_IS_BOOLEAN
-(
 pn3
 -
 >
 pn_val
+.
+isBoolean
+(
 )
 '
 ;

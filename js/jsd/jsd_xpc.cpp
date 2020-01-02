@@ -11298,9 +11298,10 @@ TYPE_NULL
 else
 if
 (
-JSVAL_IS_BOOLEAN
-(
 val
+.
+isBoolean
+(
 )
 )
 *

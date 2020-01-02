@@ -2109,9 +2109,10 @@ variant
 else
 if
 (
-JSVAL_IS_BOOLEAN
-(
 val
+.
+isBoolean
+(
 )
 )
 {
