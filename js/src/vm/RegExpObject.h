@@ -2086,7 +2086,10 @@ faster
 .
 *
 /
-HeapPtrObject
+ReadBarriered
+<
+JSObject
+>
 matchResultTemplateObject_
 ;
 public
@@ -2197,8 +2200,8 @@ on
 .
 *
 /
-HeapPtrObject
-&
+JSObject
+*
 getOrCreateMatchResultTemplateObject
 (
 JSContext
