@@ -3036,14 +3036,13 @@ endif
 )
 )
 {
-png_chunk_report
+png_chunk_error
 (
 png_ptr
 "
 Invalid
 palette
 "
-PNG_CHUNK_ERROR
 )
 ;
 return
