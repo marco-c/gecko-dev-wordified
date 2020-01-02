@@ -1601,12 +1601,6 @@ Empty
 )
 )
 {
-UniquePtr
-<
-SharedSurface
->
-cur
-=
 mScraps
 .
 Pop
