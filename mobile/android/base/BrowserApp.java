@@ -5054,7 +5054,9 @@ setAnchor
 (
 mBrowserToolbar
 .
-mFavicon
+getDoorHangerAnchor
+(
+)
 )
 ;
 /
