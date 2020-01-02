@@ -11210,7 +11210,10 @@ walker
 (
 aContainer
 aChildNode
-true
+TreeWalker
+:
+:
+eWalkCache
 )
 ;
 while
