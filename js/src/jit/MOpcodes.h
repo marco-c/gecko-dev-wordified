@@ -1244,7 +1244,7 @@ FORWARD_DECLARE
 undef
 FORWARD_DECLARE
 class
-MInstructionVisitor
+MDefinitionVisitor
 /
 /
 interface
@@ -1290,10 +1290,10 @@ VISIT_INS
 }
 ;
 class
-MInstructionVisitorWithDefaults
+MDefinitionVisitorWithDefaults
 :
 public
-MInstructionVisitor
+MDefinitionVisitor
 {
 public
 :
