@@ -3355,9 +3355,11 @@ AsLayer
 (
 )
 ;
-*
-aTransform
-=
+gfx
+:
+:
+To3DMatrix
+(
 layer
 -
 >
@@ -3368,6 +3370,9 @@ AsLayerComposite
 >
 GetShadowTransform
 (
+)
+*
+aTransform
 )
 ;
 if
