@@ -658,11 +658,6 @@ DeinitHfpInterface
 )
 ;
 void
-Reset
-(
-)
-;
-void
 HandleShutdown
 (
 )

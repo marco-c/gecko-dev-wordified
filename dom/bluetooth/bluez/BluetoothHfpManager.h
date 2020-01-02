@@ -776,11 +776,6 @@ BatteryInformation
 aBatteryInfo
 )
 ;
-void
-Reset
-(
-)
-;
 #
 ifdef
 MOZ_B2G_RIL

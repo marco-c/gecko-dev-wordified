@@ -8189,3 +8189,17 @@ false
 )
 ;
 }
+void
+BluetoothOppManager
+:
+:
+Reset
+(
+)
+{
+MOZ_ASSERT
+(
+false
+)
+;
+}

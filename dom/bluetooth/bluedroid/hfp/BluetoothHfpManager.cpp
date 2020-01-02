@@ -5991,6 +5991,12 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+mController
+)
+;
 NS_ENSURE_TRUE_VOID
 (
 sBluetoothHfpInterface
@@ -6019,12 +6025,6 @@ disconnect
 &
 deviceBdAddress
 )
-)
-;
-MOZ_ASSERT
-(
-!
-mController
 )
 ;
 mController
