@@ -350,15 +350,6 @@ aMediaSeekable
 MOZ_OVERRIDE
 ;
 virtual
-void
-SetTransportSeekable
-(
-bool
-aTransportSeekable
-)
-MOZ_OVERRIDE
-;
-virtual
 VideoFrameContainer
 *
 GetVideoFrameContainer

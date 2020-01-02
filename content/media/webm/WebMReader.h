@@ -813,6 +813,13 @@ int64_t
 aOffset
 )
 ;
+virtual
+bool
+IsMediaSeekable
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 /

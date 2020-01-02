@@ -407,6 +407,13 @@ GetImageContainer
 )
 ;
 }
+virtual
+bool
+IsMediaSeekable
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 void

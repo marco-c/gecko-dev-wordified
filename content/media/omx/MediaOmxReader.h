@@ -474,6 +474,13 @@ aCurrentTime
 )
 ;
 virtual
+bool
+IsMediaSeekable
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 SetIdle
 (

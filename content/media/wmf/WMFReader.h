@@ -289,6 +289,12 @@ aCurrentTime
 )
 MOZ_OVERRIDE
 ;
+bool
+IsMediaSeekable
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 HRESULT
