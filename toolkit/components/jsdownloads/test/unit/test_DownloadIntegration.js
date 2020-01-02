@@ -1669,10 +1669,6 @@ enableObserversTestMode
 (
 )
 ;
-mustInterruptResponses
-(
-)
-;
 for
 (
 let
@@ -1684,6 +1680,10 @@ true
 ]
 )
 {
+mustInterruptResponses
+(
+)
+;
 let
 list
 =
