@@ -842,6 +842,9 @@ array
 options
 .
 bytes
+|
+|
+null
 )
 ;
 if
