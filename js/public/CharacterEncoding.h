@@ -402,7 +402,7 @@ aBytes
 aLength
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 aBytes
 [
@@ -433,7 +433,7 @@ aBytes
 aLength
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 aBytes
 [
@@ -648,7 +648,7 @@ aBytes
 aLength
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 aBytes
 [
@@ -679,7 +679,7 @@ aBytes
 aLength
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 aBytes
 [
@@ -952,7 +952,7 @@ chars
 length
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 chars
 [

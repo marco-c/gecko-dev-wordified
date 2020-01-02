@@ -337,12 +337,12 @@ JSDObject
 jsdobj
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdobj
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 JS_CLIST_IS_EMPTY
@@ -355,7 +355,7 @@ links
 )
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdobj
 -
@@ -378,7 +378,7 @@ JSDObject
 jsdobj
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_OBJECTS_LOCKED
 (
@@ -844,7 +844,7 @@ jsdobj
 *
 iterp
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_OBJECTS_LOCKED
 (

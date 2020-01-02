@@ -1987,7 +1987,7 @@ T
 newPtr
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js
@@ -2084,7 +2084,7 @@ T
 newPtr
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js
@@ -2135,7 +2135,7 @@ post
 #
 ifdef
 JSGC_GENERATIONAL
-MOZ_ASSERT
+JS_ASSERT
 (
 js
 :
@@ -2745,7 +2745,7 @@ T
 newPtr
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 (
 reinterpret_cast
@@ -2763,7 +2763,7 @@ flagsMask
 0
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js
@@ -2814,7 +2814,7 @@ uintptr_t
 flagsToSet
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 (
 flagsToSet
@@ -2840,7 +2840,7 @@ uintptr_t
 flagsToUnset
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 (
 flagsToUnset
@@ -2868,7 +2868,7 @@ flag
 )
 const
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 (
 flag
@@ -4176,7 +4176,7 @@ T
 v
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js
@@ -5381,7 +5381,7 @@ void
 this
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js
@@ -5755,7 +5755,7 @@ Rooted
 (
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 *
 stack
@@ -5915,7 +5915,7 @@ T
 value
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js
@@ -5967,7 +5967,7 @@ T
 value
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js
@@ -6487,7 +6487,7 @@ SkipRoot
 (
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 *
 stack
@@ -7267,7 +7267,7 @@ T
 value
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 GCMethods
@@ -7308,7 +7308,7 @@ T
 other
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 GCMethods
@@ -7469,7 +7469,7 @@ T
 v
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js
@@ -8937,7 +8937,7 @@ T
 value
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js
@@ -8989,7 +8989,7 @@ T
 value
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 js

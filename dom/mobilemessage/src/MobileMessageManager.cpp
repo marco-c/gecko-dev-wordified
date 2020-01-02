@@ -2200,7 +2200,7 @@ toObject
 )
 )
 ;
-MOZ_ALWAYS_TRUE
+JS_ALWAYS_TRUE
 (
 JS_GetArrayLength
 (

@@ -981,7 +981,7 @@ if
 obj
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 from
 =

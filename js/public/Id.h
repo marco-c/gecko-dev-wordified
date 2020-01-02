@@ -463,7 +463,7 @@ jsid
 id
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 JSID_IS_STRING
 (
@@ -532,7 +532,7 @@ jsid
 id
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 JSID_IS_INT
 (
@@ -591,7 +591,7 @@ i
 jsid
 id
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 INT_FITS_IN_JSID
 (
@@ -664,7 +664,7 @@ jsid
 id
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 JSID_IS_OBJECT
 (
@@ -704,7 +704,7 @@ obj
 jsid
 id
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 obj
 !
@@ -712,7 +712,7 @@ obj
 nullptr
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 (
 (
@@ -806,7 +806,7 @@ jsid
 id
 )
 {
-MOZ_ASSERT_IF
+JS_ASSERT_IF
 (
 (
 (

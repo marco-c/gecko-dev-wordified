@@ -8713,7 +8713,7 @@ Value
 vp
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 hint
 =

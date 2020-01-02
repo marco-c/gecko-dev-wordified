@@ -535,7 +535,7 @@ obj
 TYPE_OBJECT
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 &
 obj
@@ -544,7 +544,7 @@ obj
 nullptr
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 (
 uintptr_t
@@ -591,7 +591,7 @@ toObject
 )
 const
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 isObject
 (
@@ -629,7 +629,7 @@ sid
 TYPE_OBJECT
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 sid
 .
@@ -672,7 +672,7 @@ sid
 TYPE_VOID
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 sid
 .
@@ -723,7 +723,7 @@ sid
 .
 bits_
 ;
-MOZ_ASSERT_IF
+JS_ASSERT_IF
 (
 sid
 .
@@ -749,7 +749,7 @@ toObject
 )
 )
 ;
-MOZ_ASSERT_IF
+JS_ASSERT_IF
 (
 sid
 .
@@ -762,7 +762,7 @@ id
 )
 )
 ;
-MOZ_ASSERT_IF
+JS_ASSERT_IF
 (
 sid
 .
@@ -816,7 +816,7 @@ jsid
 id
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 JSID_IS_SPECIAL
 (
@@ -856,7 +856,7 @@ empty
 (
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSID_IS_VOID
 (

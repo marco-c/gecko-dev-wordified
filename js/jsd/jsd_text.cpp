@@ -152,12 +152,12 @@ JSDSourceText
 jsdsrc
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdsrc
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdsrc
 -
@@ -640,7 +640,7 @@ JSDSourceText
 jsdsrc
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 nullptr
 =
@@ -2687,7 +2687,7 @@ if
 #
 ifndef
 JSD_LOWLEVEL_SOURCE
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 jsdsrc
@@ -2790,7 +2790,7 @@ set
 )
 *
 /
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdsrc
 -

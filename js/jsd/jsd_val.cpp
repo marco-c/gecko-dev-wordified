@@ -173,12 +173,12 @@ JSDValue
 jsdval
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdval
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdval
 -
@@ -201,7 +201,7 @@ props
 )
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 CHECK_BIT_FLAG
 (
@@ -213,7 +213,7 @@ GOT_PROPS
 )
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 JSVAL_IS_PRIMITIVE
@@ -234,7 +234,7 @@ jsdval
 proto
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 CHECK_BIT_FLAG
 (
@@ -246,7 +246,7 @@ GOT_PROTO
 )
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdval
 -
@@ -268,7 +268,7 @@ jsdval
 parent
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 CHECK_BIT_FLAG
 (
@@ -280,7 +280,7 @@ GOT_PARENT
 )
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdval
 -
@@ -302,7 +302,7 @@ jsdval
 ctor
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 CHECK_BIT_FLAG
 (
@@ -314,7 +314,7 @@ GOT_CTOR
 )
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdval
 -
@@ -337,12 +337,12 @@ JSDProperty
 jsdprop
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdprop
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdprop
 -
@@ -350,7 +350,7 @@ jsdprop
 name
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdprop
 -
@@ -363,7 +363,7 @@ nref
 0
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdprop
 -
@@ -371,7 +371,7 @@ jsdprop
 val
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdprop
 -
@@ -391,7 +391,7 @@ jsdprop
 >
 alias
 )
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdprop
 -
@@ -731,7 +731,7 @@ false
 :
 true
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 fun
 )
@@ -1616,7 +1616,7 @@ JSDValue
 jsdval
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdval
 -
@@ -2010,7 +2010,7 @@ jsdprop
 )
 ;
 }
-MOZ_ASSERT
+JS_ASSERT
 (
 JS_CLIST_IS_EMPTY
 (
@@ -2062,7 +2062,7 @@ pda
 unsigned
 i
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JS_CLIST_IS_EMPTY
 (
@@ -2074,7 +2074,7 @@ props
 )
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 (
@@ -2089,7 +2089,7 @@ GOT_PROPS
 )
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 JSVAL_IS_PRIMITIVE
@@ -2686,7 +2686,7 @@ GOT_PROPS
 )
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 jsdprop
@@ -2755,7 +2755,7 @@ links
 .
 next
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdprop
 )
@@ -3400,7 +3400,7 @@ proto
 cx
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 jsdval
@@ -3550,7 +3550,7 @@ parent
 cx
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 jsdval
@@ -3712,7 +3712,7 @@ ctor
 cx
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 jsdval
@@ -4324,7 +4324,7 @@ JSDProperty
 jsdprop
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdprop
 -
@@ -4347,7 +4347,7 @@ jsdprop
 nref
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 JS_CLIST_IS_EMPTY
 (
