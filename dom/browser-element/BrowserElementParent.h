@@ -801,9 +801,8 @@ s
 detail
 is
 an
-instance
-of
-nsIAsyncScrollEventDetail
+AsyncScrollEventDetail
+dictionary
 .
 *
 *
