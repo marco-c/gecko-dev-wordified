@@ -2675,10 +2675,6 @@ nsRect
 aBorderArea
 const
 nsStyleBackground
-&
-aBackground
-const
-nsStyleBackground
 :
 :
 Layer
@@ -2710,10 +2706,6 @@ const
 nsRect
 &
 aBGClipRect
-const
-nsStyleBackground
-&
-aBackground
 const
 nsStyleBackground
 :
@@ -3108,10 +3100,6 @@ const
 nsRect
 &
 aClipRect
-const
-nsStyleBackground
-&
-aBackground
 const
 nsStyleBackground
 :
