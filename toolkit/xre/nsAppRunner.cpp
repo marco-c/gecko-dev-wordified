@@ -3921,7 +3921,7 @@ them
 :
 static_assert
 (
-GeckoProcessType_GMPlugin
+GeckoProcessType_IPDLUnitTest
 +
 1
 =

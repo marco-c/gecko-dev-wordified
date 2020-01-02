@@ -2204,12 +2204,6 @@ GeckoProcessType_Default
 GeckoProcessType_Plugin
 GeckoProcessType_Content
 GeckoProcessType_IPDLUnitTest
-GeckoProcessType_GMPlugin
-/
-/
-Gecko
-Media
-Plugin
 GeckoProcessType_End
 GeckoProcessType_Invalid
 =
@@ -2237,9 +2231,6 @@ tab
 "
 "
 ipdlunittest
-"
-"
-geckomediaplugin
 "
 }
 ;
