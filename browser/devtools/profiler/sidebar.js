@@ -235,9 +235,7 @@ true
 ;
 this
 .
-widget
-.
-notice
+emptyText
 =
 L10N
 .
