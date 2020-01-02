@@ -2938,6 +2938,9 @@ LOAD_ERROR
 case
 LOADED
 :
+case
+STOP
+:
 flags
 .
 add
@@ -2975,9 +2978,6 @@ getLoadProgress
 }
 break
 ;
-case
-STOP
-:
 case
 SELECTED
 :
