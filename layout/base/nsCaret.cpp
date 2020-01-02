@@ -7890,7 +7890,7 @@ isCaretRTL
 ;
 nsCOMPtr
 <
-nsISelection
+nsISelectionPrivate
 >
 domSelection
 =
