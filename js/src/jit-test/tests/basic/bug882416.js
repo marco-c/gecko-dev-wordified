@@ -7,10 +7,7 @@ test
 |
 error
 :
-can
-'
-t
-convert
+SyntaxError
 Error
 .
 prototype
