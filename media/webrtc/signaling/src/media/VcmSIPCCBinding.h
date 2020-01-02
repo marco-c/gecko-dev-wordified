@@ -378,12 +378,6 @@ gVideoCodecGmpMask
 ;
 private
 :
-static
-bool
-scanForGmpCodecs
-(
-)
-;
 void
 CandidateReady
 (
