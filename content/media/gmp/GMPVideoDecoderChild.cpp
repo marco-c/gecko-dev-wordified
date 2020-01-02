@@ -594,10 +594,6 @@ bool
 &
 aMissingFrames
 const
-GMPBufferType
-&
-aBufferType
-const
 nsTArray
 <
 uint8_t
@@ -657,7 +653,6 @@ Decode
 (
 f
 aMissingFrames
-aBufferType
 aCodecSpecificInfo
 .
 Elements

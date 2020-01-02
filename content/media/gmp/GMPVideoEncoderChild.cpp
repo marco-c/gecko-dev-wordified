@@ -238,8 +238,6 @@ Encoded
 GMPVideoEncodedFrame
 *
 aEncodedFrame
-GMPBufferType
-aBufferType
 const
 uint8_t
 *
@@ -306,7 +304,6 @@ aCodecSpecificInfoLength
 SendEncoded
 (
 frameData
-aBufferType
 codecSpecific
 )
 ;

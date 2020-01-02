@@ -666,16 +666,6 @@ call
 /
 /
 -
-aBufferType
-:
-type
-of
-frame
-to
-encode
-/
-/
--
 aCodecSpecificInfo
 :
 codec
@@ -737,8 +727,6 @@ GMPVideoEncodedFrame
 aInputFrame
 bool
 aMissingFrames
-GMPBufferType
-aBufferType
 const
 uint8_t
 *
