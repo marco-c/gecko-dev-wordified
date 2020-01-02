@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsIProtocolProxyCallback
+.
+h
+"
+#
+include
+"
 nsIChannelEventSink
 .
 h
@@ -370,6 +377,8 @@ nsITimerCallback
 public
 nsIDNSListener
 public
+nsIProtocolProxyCallback
+public
 nsIInterfaceRequestor
 public
 nsIChannelEventSink
@@ -384,6 +393,7 @@ NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSIOUTPUTSTREAMCALLBACK
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSIDNSLISTENER
+NS_DECL_NSIPROTOCOLPROXYCALLBACK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICHANNELEVENTSINK
 /
@@ -650,6 +660,11 @@ ApplyForAdmission
 )
 ;
 nsresult
+DoAdmissionDNS
+(
+)
+;
+nsresult
 StartWebsocketData
 (
 )
@@ -796,7 +811,7 @@ nsCOMPtr
 <
 nsICancelable
 >
-mDNSRequest
+mCancelable
 ;
 nsCOMPtr
 <
