@@ -8364,6 +8364,13 @@ minimizeMemoryUsage
 *
 /
 false
+/
+*
+dumpChildProcesses
+=
+*
+/
+false
 )
 ;
 }
