@@ -2864,6 +2864,8 @@ defaultIndex
 {
 if
 (
+this
+.
 entries
 .
 length
