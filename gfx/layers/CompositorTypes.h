@@ -474,14 +474,6 @@ TEXTURE_RB_SWAPPED
 <
 6
 ;
-/
-/
-A
-texture
-host
-that
-supports
-tiling
 const
 TextureFlags
 TEXTURE_FRONT
