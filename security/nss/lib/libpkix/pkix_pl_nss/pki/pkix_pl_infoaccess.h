@@ -147,6 +147,9 @@ void
 plContext
 )
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 PKIX_Error
 *
 pkix_pl_InfoAccess_ParseLocation
@@ -169,6 +172,14 @@ void
 plContext
 )
 ;
+#
+endif
+/
+*
+!
+NSS_PKIX_NO_LDAP
+*
+/
 #
 ifdef
 __cplusplus

@@ -770,6 +770,9 @@ void
 plContext
 )
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 /
 *
 PKIX_PL_LdapCertStore
@@ -1802,6 +1805,14 @@ void
 plContext
 )
 ;
+#
+endif
+/
+*
+!
+NSS_PKIX_NO_LDAP
+*
+/
 /
 *
 PKIX_PL_NssContext
