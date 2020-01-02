@@ -372,6 +372,16 @@ char
 argv
 )
 {
+if
+(
+!
+JS_Init
+(
+)
+)
+return
+1
+;
 JSRuntime
 *
 runtime
