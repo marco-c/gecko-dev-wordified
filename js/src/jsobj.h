@@ -9395,6 +9395,7 @@ JSValueArray
 {
 public
 :
+const
 jsval
 *
 array
@@ -9404,6 +9405,7 @@ length
 ;
 JSValueArray
 (
+const
 jsval
 *
 v

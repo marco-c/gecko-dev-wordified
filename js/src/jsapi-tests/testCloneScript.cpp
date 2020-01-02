@@ -763,12 +763,10 @@ cx
 JS
 :
 :
-Value
-args
-[
-]
-=
-{
+RootedValue
+arg
+(
+cx
 JS
 :
 :
@@ -776,7 +774,7 @@ Int32Value
 (
 1
 )
-}
+)
 ;
 CHECK
 (
@@ -792,8 +790,7 @@ ObjectValue
 *
 cloned
 )
-1
-args
+arg
 v
 .
 address

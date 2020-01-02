@@ -5762,12 +5762,7 @@ JS_CallFunctionValue
 cx
 thisObject
 funval
-1
 argv
-.
-address
-(
-)
 rval
 .
 address
@@ -7834,8 +7829,10 @@ JS_CallFunctionValue
 cx
 global
 methodVal
-0
-nullptr
+JS
+:
+:
+EmptyValueArray
 rval
 .
 address

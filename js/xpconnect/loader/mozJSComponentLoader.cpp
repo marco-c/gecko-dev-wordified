@@ -5239,8 +5239,10 @@ JS_CallFunction
 cx
 obj
 function
-0
-nullptr
+JS
+:
+:
+EmptyValueArray
 rval
 .
 address

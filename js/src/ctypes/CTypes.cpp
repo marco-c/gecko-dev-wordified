@@ -42822,15 +42822,7 @@ OBJECT_TO_JSVAL
 (
 jsfnObj
 )
-cif
--
->
-nargs
 argv
-.
-begin
-(
-)
 rval
 .
 address

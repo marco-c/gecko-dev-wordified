@@ -2203,8 +2203,10 @@ JS_CallFunction
 cx
 targetObj
 function
-0
-nullptr
+JS
+:
+:
+EmptyValueArray
 retval
 .
 address

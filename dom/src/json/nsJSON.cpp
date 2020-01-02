@@ -1397,8 +1397,10 @@ JS_CallFunctionValue
 cx
 obj
 toJSON
-0
-nullptr
+JS
+:
+:
+EmptyValueArray
 val
 .
 address
