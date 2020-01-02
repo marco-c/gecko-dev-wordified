@@ -130,7 +130,11 @@ h
 #
 include
 "
-nsXPathExpression
+mozilla
+/
+dom
+/
+XPathExpression
 .
 h
 "
@@ -648,7 +652,7 @@ mDocument
 aResult
 =
 new
-nsXPathExpression
+XPathExpression
 (
 Move
 (
