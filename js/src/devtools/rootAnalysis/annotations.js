@@ -262,7 +262,7 @@ var
 CheckCallArgs
 =
 "
-AsmJS
+AsmJSValidate
 .
 cpp
 :

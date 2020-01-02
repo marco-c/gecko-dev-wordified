@@ -111,7 +111,7 @@ MPL
 #
 include
 "
-jit
+asmjs
 /
 AsmJSModule
 .

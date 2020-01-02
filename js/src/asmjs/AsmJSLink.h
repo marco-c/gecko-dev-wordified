@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_AsmJSLink_h
+asmjs_AsmJSLink_h
 #
 define
-jit_AsmJSLink_h
+asmjs_AsmJSLink_h
 #
 include
 "
@@ -380,4 +380,4 @@ js
 endif
 /
 /
-jit_AsmJS_h
+asmjs_AsmJSLink_h

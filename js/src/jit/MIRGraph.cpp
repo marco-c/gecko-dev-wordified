@@ -120,9 +120,9 @@ h
 #
 include
 "
-jit
+asmjs
 /
-AsmJS
+AsmJSValidate
 .
 h
 "
