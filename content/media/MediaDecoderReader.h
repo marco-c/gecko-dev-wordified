@@ -1389,6 +1389,15 @@ int64_t
 aTarget
 )
 ;
+MediaInfo
+GetMediaInfo
+(
+)
+{
+return
+mInfo
+;
+}
 protected
 :
 /
