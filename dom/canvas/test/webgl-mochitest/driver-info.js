@@ -221,7 +221,7 @@ identification
 /
 Stolen
 from
-content
+dom
 /
 canvas
 /

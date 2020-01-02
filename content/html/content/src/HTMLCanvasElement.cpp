@@ -352,13 +352,6 @@ MOZ_WEBGL
 #
 include
 "
-.
-.
-/
-canvas
-/
-src
-/
 WebGL2Context
 .
 h
