@@ -513,9 +513,9 @@ mBlobReady
 /
 Combination
 of
-HAS_AUDIO
+Audio_Track
 or
-HAS_VIDEO
+Video_Track
 .
 uint32_t
 mType

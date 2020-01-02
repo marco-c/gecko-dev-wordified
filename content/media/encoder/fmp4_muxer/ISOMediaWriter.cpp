@@ -223,18 +223,6 @@ mType
 0
 )
 {
-/
-/
-TODO
-:
-replace
-Audio_Track
-/
-Video_Track
-with
-HAS_AUDIO
-/
-HAS_VIDEO
 if
 (
 aType
@@ -1028,7 +1016,7 @@ false
 }
 if
 (
-mAudioFragmentBuffer
+mVideoFragmentBuffer
 -
 >
 EOS

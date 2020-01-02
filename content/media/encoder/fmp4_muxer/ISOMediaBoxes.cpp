@@ -2390,8 +2390,7 @@ aBoxSize
 {
 /
 /
-fragmented
-we
+We
 don
 '
 t
@@ -2400,6 +2399,10 @@ time
 to
 sample
 table
+in
+fragmented
+mp4
+.
 entry_count
 =
 0
@@ -2508,8 +2511,7 @@ aBoxSize
 {
 /
 /
-fragmented
-we
+We
 don
 '
 t
@@ -2518,6 +2520,9 @@ time
 to
 sample
 table
+in
+fragmented
+mp4
 entry_count
 =
 0
@@ -2626,8 +2631,7 @@ aBoxSize
 {
 /
 /
-fragmented
-we
+We
 don
 '
 t
@@ -2636,6 +2640,10 @@ time
 to
 sample
 table
+in
+fragmented
+mp4
+.
 entry_count
 =
 0
