@@ -3409,6 +3409,11 @@ ScheduleStateMachineThread
 mMediaSource
 -
 >
+GetDecoder
+(
+)
+-
+>
 NotifyGotData
 (
 )
