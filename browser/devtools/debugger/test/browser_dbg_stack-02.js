@@ -276,7 +276,6 @@ attachment
 .
 depth
 0
-TAB_URL
 "
 Oldest
 frame
@@ -353,7 +352,6 @@ attachment
 .
 depth
 1
-TAB_URL
 "
 Newest
 frame
