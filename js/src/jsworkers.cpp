@@ -6262,7 +6262,7 @@ threadLoop
 JS
 :
 :
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 nogc
 ;
 AutoLockWorkerThreadState

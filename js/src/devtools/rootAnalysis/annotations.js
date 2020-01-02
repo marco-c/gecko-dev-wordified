@@ -1035,7 +1035,7 @@ FIXME
 :
 mark
 with
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 instead
 "
 uint8
@@ -1191,7 +1191,7 @@ with
 an
 /
 /
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 .
 AutoSafeJSContext
 is
@@ -1760,7 +1760,7 @@ indexOf
 "
 :
 :
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 "
 )
 !

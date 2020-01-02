@@ -4031,7 +4031,7 @@ subsumes
 JS
 :
 :
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 nogc
 ;
 if

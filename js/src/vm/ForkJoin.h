@@ -3813,7 +3813,7 @@ context
 JS
 :
 :
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 nogc_
 ;
 }

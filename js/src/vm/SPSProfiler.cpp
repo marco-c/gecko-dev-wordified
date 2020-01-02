@@ -853,7 +853,7 @@ eventMarker_
 JS
 :
 :
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 nogc
 ;
 eventMarker_
