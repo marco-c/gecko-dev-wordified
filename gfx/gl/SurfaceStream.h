@@ -151,6 +151,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 SurfaceTypes
 .
 h
