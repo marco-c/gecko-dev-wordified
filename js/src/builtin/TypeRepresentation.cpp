@@ -1920,8 +1920,8 @@ now
 we
 always
 use
-an
-int32_t
+a
+uint32_t
 for
 /
 /
@@ -1930,7 +1930,7 @@ across
 build
 environments
 .
-int32_t
+uint32_t
 totalSize
 =
 0
@@ -2005,7 +2005,7 @@ opaque_
 =
 true
 ;
-int32_t
+uint32_t
 alignedSize
 =
 alignTo
@@ -2073,7 +2073,7 @@ alignment
 )
 )
 ;
-int32_t
+uint32_t
 incrementedSize
 =
 alignedSize
@@ -2109,7 +2109,7 @@ totalSize
 incrementedSize
 ;
 }
-int32_t
+uint32_t
 alignedSize
 =
 alignTo
