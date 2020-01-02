@@ -1424,6 +1424,13 @@ chromeOnlyContent
 )
 GK_ATOM
 (
+exposeToUntrustedContent
+"
+exposeToUntrustedContent
+"
+)
+GK_ATOM
+(
 circ
 "
 circ
