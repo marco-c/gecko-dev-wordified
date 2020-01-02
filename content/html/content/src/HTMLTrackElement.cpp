@@ -1758,10 +1758,10 @@ mTrack
 )
 {
 return
-TextTrack
+TextTrackReadyState
 :
 :
-READY_STATE_NONE
+NotLoaded
 ;
 }
 return
