@@ -1292,11 +1292,6 @@ gfxContext
 aContext
 )
 ;
-void
-RenderDebugOverlay
-(
-)
-;
 /
 /
 Widget
