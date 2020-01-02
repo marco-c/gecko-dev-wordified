@@ -389,9 +389,6 @@ SpdyPush3TransactionBuffer
 *
 mBufferedPush
 ;
-mozilla
-:
-:
 TimeStamp
 mLastRead
 ;

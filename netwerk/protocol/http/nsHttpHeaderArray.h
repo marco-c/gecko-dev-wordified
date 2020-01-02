@@ -141,6 +141,12 @@ h
 class
 nsIHttpHeaderVisitor
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsHttpHeaderArray
 {
@@ -1299,5 +1305,14 @@ return
 retval
 ;
 }
+}
+}
+/
+/
+namespace
+mozilla
+:
+:
+net
 #
 endif

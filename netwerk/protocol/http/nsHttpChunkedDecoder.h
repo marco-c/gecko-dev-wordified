@@ -120,6 +120,12 @@ nsHttpHeaderArray
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsHttpChunkedDecoder
 {
@@ -273,5 +279,14 @@ mWaitEOF
 ;
 }
 ;
+}
+}
+/
+/
+namespace
+mozilla
+:
+:
+net
 #
 endif
