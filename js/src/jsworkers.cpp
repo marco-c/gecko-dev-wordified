@@ -3109,7 +3109,6 @@ isLocked
 )
 ;
 return
-(
 !
 asmJSWorklist
 (
@@ -3122,7 +3121,6 @@ empty
 &
 !
 numAsmJSFailedJobs
-)
 ;
 }
 bool

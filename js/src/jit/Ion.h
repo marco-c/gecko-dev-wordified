@@ -1033,7 +1033,6 @@ nargs
 )
 {
 return
-(
 nargs
 >
 =
@@ -1045,7 +1044,6 @@ nargs
 js_JitOptions
 .
 maxStackArgs
-)
 ;
 }
 void

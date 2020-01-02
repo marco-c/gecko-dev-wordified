@@ -8319,7 +8319,6 @@ kind
 )
 {
 return
-(
 hasArrayBits
 &
 (
@@ -8327,7 +8326,6 @@ hasArrayBits
 <
 <
 kind
-)
 )
 ;
 }

@@ -415,9 +415,7 @@ result
 lower
 ;
 return
-(
 result
-)
 ;
 }
 #

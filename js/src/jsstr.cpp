@@ -20814,12 +20814,10 @@ isFailure
 const
 {
 return
-(
 endIndex_
 =
 =
 SIZE_MAX
-)
 ;
 }
 size_t

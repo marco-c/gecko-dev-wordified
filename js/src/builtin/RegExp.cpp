@@ -4519,12 +4519,10 @@ RegExpRunStatus_Success
 )
 ;
 return
-(
 status
 !
 =
 RegExpRunStatus_Error
-)
 ;
 }
 /
@@ -4589,12 +4587,10 @@ RegExpRunStatus_Success
 )
 ;
 return
-(
 status
 !
 =
 RegExpRunStatus_Error
-)
 ;
 }
 bool
@@ -4758,11 +4754,9 @@ RegExpRunStatus_Success
 )
 ;
 return
-(
 status
 !
 =
 RegExpRunStatus_Error
-)
 ;
 }

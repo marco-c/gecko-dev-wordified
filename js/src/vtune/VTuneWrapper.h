@@ -130,14 +130,12 @@ IsVTuneProfilingActive
 )
 {
 return
-(
 iJIT_IsProfilingActive
 (
 )
 =
 =
 iJIT_SAMPLING_ON
-)
 ;
 }
 #

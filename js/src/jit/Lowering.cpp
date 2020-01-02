@@ -3349,7 +3349,6 @@ tmpReg
 )
 ;
 return
-(
 defineReturn
 (
 lir
@@ -3361,7 +3360,6 @@ assignSafepoint
 (
 lir
 call
-)
 )
 ;
 }

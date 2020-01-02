@@ -5172,7 +5172,6 @@ rt
 )
 {
 return
-(
 rt
 -
 >
@@ -5190,7 +5189,6 @@ rt
 -
 >
 gcVerifyPreData
-)
 ;
 }
 JS_FRIEND_API
@@ -5444,7 +5442,6 @@ rt
 )
 {
 return
-(
 rt
 -
 >
@@ -5463,7 +5460,6 @@ rt
 >
 isHeapBusy
 (
-)
 )
 ;
 }
