@@ -2878,7 +2878,10 @@ write
 "
 NS_ENSURE_STATE
 (
-JS_ValueToNumber
+JS
+:
+:
+ToNumber
 (
 aCx
 v
@@ -2930,7 +2933,10 @@ write
 "
 NS_ENSURE_STATE
 (
-JS_ValueToNumber
+JS
+:
+:
+ToNumber
 (
 aCx
 v
