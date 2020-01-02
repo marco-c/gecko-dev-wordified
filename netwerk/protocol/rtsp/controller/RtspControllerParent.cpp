@@ -157,6 +157,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -246,6 +255,9 @@ i
 )
 {
 \
+unused
+<
+<
 SendOnDisconnected
 (
 i
