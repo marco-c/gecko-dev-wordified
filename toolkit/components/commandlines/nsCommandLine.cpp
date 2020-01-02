@@ -2709,7 +2709,7 @@ clh
 {
 LogConsoleMessage
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 Contract
@@ -2738,10 +2738,6 @@ be
 created
 .
 "
-)
-.
-get
-(
 )
 contractID
 .

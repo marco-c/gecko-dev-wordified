@@ -5725,15 +5725,11 @@ shellBundle
 >
 GetStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 desktopBackgroundLeafNameWin
 "
-)
-.
-get
-(
 )
 getter_Copies
 (

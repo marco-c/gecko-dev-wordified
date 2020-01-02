@@ -9847,15 +9847,11 @@ stringBundle
 >
 GetStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 RepostFormData
 "
-)
-.
-get
-(
 )
 getter_Copies
 (

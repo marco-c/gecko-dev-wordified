@@ -4016,15 +4016,11 @@ mStringBundle
 >
 FormatStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 ScaledImage
 "
-)
-.
-get
-(
 )
 formatString
 1

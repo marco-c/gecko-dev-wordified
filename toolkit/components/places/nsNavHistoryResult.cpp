@@ -27412,7 +27412,7 @@ history
 >
 GetStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 finduri
@@ -27423,10 +27423,6 @@ is
 -
 0
 "
-)
-.
-get
-(
 )
 todayLabel
 )

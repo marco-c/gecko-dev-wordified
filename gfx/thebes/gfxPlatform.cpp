@@ -807,7 +807,7 @@ NS_ASSERTION
 NS_strcmp
 (
 someData
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 gfx
@@ -816,10 +816,6 @@ color_mangement
 .
 force_srgb
 "
-)
-.
-get
-(
 )
 )
 "

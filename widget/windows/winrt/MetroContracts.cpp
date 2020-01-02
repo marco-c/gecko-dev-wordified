@@ -3019,15 +3019,11 @@ brandBundle
 >
 GetStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 brandFullName
 "
-)
-.
-get
-(
 )
 getter_Copies
 (

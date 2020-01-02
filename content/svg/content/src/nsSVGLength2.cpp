@@ -595,16 +595,12 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 %
 g
 "
-)
-.
-get
-(
 )
 (
 double

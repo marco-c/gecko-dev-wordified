@@ -2565,7 +2565,7 @@ nsTextFormatter
 ssprintf
 (
 osVersion
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 %
@@ -2574,10 +2574,6 @@ ld
 %
 ld
 "
-)
-.
-get
-(
 )
 info
 .
@@ -2632,7 +2628,7 @@ nsTextFormatter
 ssprintf
 (
 osVersion
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 %
@@ -2641,10 +2637,6 @@ ld
 %
 ld
 "
-)
-.
-get
-(
 )
 majorVersion
 minorVersion
@@ -2663,7 +2655,7 @@ nsTextFormatter
 ssprintf
 (
 osVersion
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 %
@@ -2672,10 +2664,6 @@ ld
 %
 ld
 "
-)
-.
-get
-(
 )
 gtk_major_version
 gtk_minor_version

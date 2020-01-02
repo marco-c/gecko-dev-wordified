@@ -582,15 +582,11 @@ brandBundle
 >
 GetStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 brandShortName
 "
-)
-.
-get
-(
 )
 &
 mBrandName

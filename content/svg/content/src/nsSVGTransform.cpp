@@ -232,7 +232,7 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 translate
@@ -243,10 +243,6 @@ g
 g
 )
 "
-)
-.
-get
-(
 )
 mMatrix
 .
@@ -272,7 +268,7 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 translate
@@ -281,10 +277,6 @@ translate
 g
 )
 "
-)
-.
-get
-(
 )
 mMatrix
 .
@@ -328,7 +320,7 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 rotate
@@ -341,10 +333,6 @@ g
 g
 )
 "
-)
-.
-get
-(
 )
 mAngle
 mOriginX
@@ -367,7 +355,7 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 rotate
@@ -376,10 +364,6 @@ rotate
 g
 )
 "
-)
-.
-get
-(
 )
 mAngle
 )
@@ -415,7 +399,7 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 scale
@@ -426,10 +410,6 @@ g
 g
 )
 "
-)
-.
-get
-(
 )
 mMatrix
 .
@@ -455,7 +435,7 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 scale
@@ -464,10 +444,6 @@ scale
 g
 )
 "
-)
-.
-get
-(
 )
 mMatrix
 .
@@ -494,7 +470,7 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 skewX
@@ -503,10 +479,6 @@ skewX
 g
 )
 "
-)
-.
-get
-(
 )
 mAngle
 )
@@ -531,7 +503,7 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 skewY
@@ -540,10 +512,6 @@ skewY
 g
 )
 "
-)
-.
-get
-(
 )
 mAngle
 )
@@ -568,7 +536,7 @@ sizeof
 (
 PRUnichar
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 matrix
@@ -587,10 +555,6 @@ g
 g
 )
 "
-)
-.
-get
-(
 )
 mMatrix
 .
