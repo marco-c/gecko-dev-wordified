@@ -3582,10 +3582,7 @@ extendedSlots
 *
 sizeof
 (
-extendedSlots
-[
-0
-]
+HeapValue
 )
 ;
 }
