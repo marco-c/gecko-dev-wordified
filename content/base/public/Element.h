@@ -4231,16 +4231,12 @@ aError
 )
 {
 }
-virtual
-void
+NS_IMETHOD
 GetInnerHTML
 (
 nsAString
 &
 aInnerHTML
-ErrorResult
-&
-aError
 )
 ;
 virtual
@@ -4262,9 +4258,6 @@ GetOuterHTML
 nsAString
 &
 aOuterHTML
-ErrorResult
-&
-aError
 )
 ;
 void
@@ -6861,7 +6854,7 @@ aFlushLayout
 true
 )
 ;
-nsresult
+void
 GetMarkup
 (
 bool
