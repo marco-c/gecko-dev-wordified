@@ -6462,6 +6462,16 @@ showHideScrollbars
 1
 )
 ;
+pref
+(
+"
+ui
+.
+useOverlayScrollbars
+"
+1
+)
+;
 /
 /
 Enable
