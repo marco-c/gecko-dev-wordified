@@ -3158,6 +3158,12 @@ module
 >
 "
 ;
+SafeMutexAutoUnlock
+unlock
+(
+mLock
+)
+;
 LogMessage
 (
 "
