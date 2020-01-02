@@ -504,7 +504,7 @@ textPath
 .
 *
 /
-gfxFloat
+float
 GetPathLengthScale
 (
 PathLengthScaleForType

@@ -2019,7 +2019,7 @@ aCtx
 )
 ;
 }
-gfxFloat
+float
 SVGPathElement
 :
 :
