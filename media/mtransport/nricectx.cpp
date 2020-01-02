@@ -4322,7 +4322,7 @@ return
 ;
 MOZ_MTLOG
 (
-ML_DEBUG
+ML_INFO
 "
 NrIceCtx
 (
