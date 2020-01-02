@@ -2093,7 +2093,6 @@ state
 &
 tstate
 )
-NS_DISPATCH_SYNC
 )
 ;
 return

@@ -1727,7 +1727,6 @@ stream
 &
 v
 )
-NS_DISPATCH_SYNC
 )
 ;
 return

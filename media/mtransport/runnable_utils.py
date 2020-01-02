@@ -606,6 +606,15 @@ class_suffix
 "
 _ret
 "
+        
+enum_specializer
+=
+"
+detail
+:
+:
+ReturnsResult
+"
     
 else
 :
@@ -613,6 +622,15 @@ else
 class_suffix
 =
 "
+"
+        
+enum_specializer
+=
+"
+detail
+:
+:
+NoResult
 "
     
 return
@@ -631,6 +649,7 @@ nm
 args
 class_suffix
 )
+enum_specializer
 def
 generate_class_template
 (
@@ -658,6 +677,7 @@ arguments
 args
     
 class_name
+specializer
 =
 runnable_class_name
 (
@@ -665,6 +685,21 @@ args
 ret
 member
 )
+    
+base_class
+=
+"
+detail
+:
+:
+runnable_args_base
+<
+%
+s
+>
+"
+%
+specializer
     
 if
 not
@@ -690,11 +725,15 @@ class
 s
 :
 public
-runnable_args_base
+%
+s
 {
 "
 %
+(
 class_name
+base_class
+)
     
 else
 :
@@ -720,11 +759,15 @@ class
 s
 :
 public
-runnable_args_base
+%
+s
 {
 "
 %
+(
 class_name
+base_class
+)
     
 print
 "
@@ -812,21 +855,6 @@ member
 +
 "
 {
-}
-"
-        
-print
-"
-virtual
-bool
-returns_value
-(
-)
-const
-{
-return
-true
-;
 }
 "
     
@@ -1022,6 +1050,7 @@ NM
 ;
     
 class_name
+_
 =
 runnable_class_name
 (
@@ -1168,6 +1197,7 @@ NM
 ;
     
 class_name
+_
 =
 runnable_class_name
 (
