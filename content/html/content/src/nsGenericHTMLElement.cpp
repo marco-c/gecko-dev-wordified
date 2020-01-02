@@ -4306,7 +4306,7 @@ nsGenericHTMLElement
 :
 CheckHandleEventForAnchorsPreconditions
 (
-nsEventChainVisitor
+EventChainVisitor
 &
 aVisitor
 )
