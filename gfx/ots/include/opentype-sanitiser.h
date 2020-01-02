@@ -1677,6 +1677,9 @@ DisableDebugOutput
 (
 )
 ;
+#
+ifdef
+MOZ_OTS_WOFF2
 /
 /
 Enable
@@ -1691,6 +1694,8 @@ EnableWOFF2
 (
 )
 ;
+#
+endif
 }
 /
 /
