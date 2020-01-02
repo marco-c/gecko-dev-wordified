@@ -1334,12 +1334,6 @@ gfxContext
 >
 mTarget
 ;
-nsRefPtr
-<
-gfxContext
->
-mDummyTarget
-;
 /
 /
 Image
