@@ -7368,6 +7368,8 @@ GetPropertyNames
 cx
 props
 JSITER_OWNONLY
+|
+JSITER_SYMBOLS
 ids
 )
 )
@@ -8000,6 +8002,8 @@ obj
 JSITER_HIDDEN
 |
 JSITER_OWNONLY
+|
+JSITER_SYMBOLS
 &
 props
 )
@@ -8843,6 +8847,8 @@ obj
 JSITER_HIDDEN
 |
 JSITER_OWNONLY
+|
+JSITER_SYMBOLS
 &
 props
 )
@@ -12519,6 +12525,8 @@ obj
 JSITER_OWNONLY
 |
 JSITER_HIDDEN
+|
+JSITER_SYMBOLS
 &
 props
 )
