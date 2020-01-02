@@ -1327,6 +1327,10 @@ const
 bool
 &
 aIsFormatting
+const
+bool
+&
+aIsFake
 )
 MOZ_OVERRIDE
 ;
