@@ -32940,9 +32940,10 @@ static
 bool
 InstanceClassHasProtoAtDepth
 (
-JSObject
+const
+Class
 *
-protoObject
+clasp
 uint32_t
 protoID
 uint32_t
