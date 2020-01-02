@@ -2742,7 +2742,6 @@ if
 (
 r
 =
-=
 nr_ice_ctx_pair_new_trickle_candidates
 (
 ctx
