@@ -6597,10 +6597,9 @@ if
 showThisProps
 &
 &
-!
 thisVal
 .
-isPrimitive
+isObject
 (
 )
 )
