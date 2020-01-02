@@ -377,6 +377,16 @@ nsTableRowGroupFrame
 (
 )
 ;
+virtual
+void
+DestroyFrom
+(
+nsIFrame
+*
+aDestructRoot
+)
+MOZ_OVERRIDE
+;
 /
 *
 *
