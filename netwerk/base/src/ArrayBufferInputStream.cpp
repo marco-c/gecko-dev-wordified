@@ -232,7 +232,7 @@ NS_ERROR_FAILURE
 }
 mArrayBuffer
 .
-construct
+emplace
 (
 aCx
 aBuffer
@@ -423,12 +423,7 @@ mPos
 ;
 if
 (
-!
 mArrayBuffer
-.
-empty
-(
-)
 )
 {
 JSObject
@@ -437,11 +432,8 @@ buf
 =
 &
 mArrayBuffer
-.
-ref
-(
-)
-.
+-
+>
 get
 (
 )
