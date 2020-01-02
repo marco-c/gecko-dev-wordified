@@ -129,6 +129,7 @@ Copyright
 2006
 2010
 2012
+2013
 by
 *
 /
@@ -4734,15 +4735,6 @@ y_delta
 {
 PSH_Dimension
 dim
-=
-&
-globals
--
->
-dimension
-[
-0
-]
 ;
 dim
 =

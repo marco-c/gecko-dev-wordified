@@ -112,6 +112,7 @@ body
 *
 Copyright
 2009
+2013
 by
 *
 /
@@ -337,8 +338,6 @@ pic_container
 ;
 FT_Error
 error
-=
-FT_Err_Ok
 ;
 FT_MEM_SET
 (

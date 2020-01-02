@@ -2164,11 +2164,11 @@ h
 /
 PUT_EMBEDDED_BITMAPS
 (
-tt_face_load_eblc
+tt_face_load_sbit
 )
 PUT_EMBEDDED_BITMAPS
 (
-tt_face_free_eblc
+tt_face_free_sbit
 )
 PUT_EMBEDDED_BITMAPS
 (

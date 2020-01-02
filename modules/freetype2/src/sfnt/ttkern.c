@@ -129,15 +129,10 @@ moment
 Copyright
 1996
 -
-2001
-2002
-2003
-2004
-2005
-2006
 2007
 2009
 2010
+2013
 by
 *
 /
@@ -1133,8 +1128,6 @@ result
 FT_UInt
 count
 mask
-=
-1
 ;
 FT_Byte
 *
@@ -1205,8 +1198,6 @@ p
 FT_Byte
 *
 next
-=
-base
 ;
 FT_UInt
 version

@@ -312,7 +312,7 @@ FT_LOCAL
 (
 FT_Error
 )
-tt_face_load_eblc
+tt_face_load_sbit
 (
 TT_Face
 face
@@ -324,7 +324,7 @@ FT_LOCAL
 (
 void
 )
-tt_face_free_eblc
+tt_face_free_sbit
 (
 TT_Face
 face

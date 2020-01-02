@@ -5253,8 +5253,6 @@ face
 {
 FT_Error
 error
-=
-FT_Err_Ok
 ;
 FT_Memory
 memory

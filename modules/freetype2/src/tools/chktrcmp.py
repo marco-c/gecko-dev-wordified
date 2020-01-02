@@ -23,6 +23,7 @@ Author
 suzuki
 toshiya
 2009
+2013
 #
 #
 This
@@ -64,8 +65,6 @@ TRACE_DEF_FILES
 [
 "
 include
-/
-freetype
 /
 internal
 /

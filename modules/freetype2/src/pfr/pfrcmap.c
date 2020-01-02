@@ -507,12 +507,6 @@ cmap
 >
 num_chars
 ;
-FT_UInt
-mid
-;
-PFR_Char
-gchar
-;
 while
 (
 min
@@ -520,6 +514,12 @@ min
 max
 )
 {
+PFR_Char
+gchar
+;
+FT_UInt
+mid
+;
 mid
 =
 min

@@ -1113,8 +1113,6 @@ file
 <
 include
 /
-freetype
-/
 internal
 /
 fttrace

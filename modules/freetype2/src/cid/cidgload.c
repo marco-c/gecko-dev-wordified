@@ -569,7 +569,7 @@ incremental_interface
 ;
 #
 endif
-FT_TRACE4
+FT_TRACE1
 (
 (
 "

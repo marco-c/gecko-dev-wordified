@@ -14003,10 +14003,6 @@ max_char
 ;
 FT_Byte
 *
-char_name
-;
-FT_Byte
-*
 glyph_name
 ;
 /
@@ -14097,6 +14093,10 @@ charcode
 +
 )
 {
+FT_Byte
+*
+char_name
+;
 type1
 -
 >

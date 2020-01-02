@@ -117,6 +117,7 @@ Copyright
 2006
 2010
 2012
+2013
 by
 *
 /
@@ -1613,6 +1614,16 @@ slot
 metrics
 .
 vertAdvance
++
+=
+ystr
+;
+slot
+-
+>
+metrics
+.
+horiBearingY
 +
 =
 ystr

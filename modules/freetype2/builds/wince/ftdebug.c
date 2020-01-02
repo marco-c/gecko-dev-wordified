@@ -113,7 +113,6 @@ body
 Copyright
 1996
 -
-2001
 2002
 2005
 2008
@@ -1146,8 +1145,6 @@ See
 the
 file
 <
-freetype
-/
 internal
 /
 fttrace
@@ -1158,12 +1155,12 @@ for
 details
 of
 the
-*
-/
-/
-*
 available
 toggle
+*
+/
+/
+*
 names
 .
 *

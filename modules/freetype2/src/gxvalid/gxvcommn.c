@@ -9423,6 +9423,9 @@ valid
 ;
 else
 {
+#
+if
+0
 maxState
 =
 1
@@ -9443,6 +9446,8 @@ are
 predefined
 *
 /
+#
+endif
 maxEntry
 =
 0
@@ -11117,6 +11122,9 @@ classTable_length
 valid
 )
 ;
+#
+if
+0
 if
 (
 valid
@@ -11133,6 +11141,8 @@ valid
 >
 subtable_length
 ;
+#
+endif
 }
 else
 {
@@ -11202,6 +11212,9 @@ valid
 ;
 else
 {
+#
+if
+0
 maxState
 =
 1
@@ -11222,6 +11235,8 @@ are
 predefined
 *
 /
+#
+endif
 maxEntry
 =
 0
@@ -11884,6 +11899,9 @@ length
 )
 )
 {
+#
+ifdef
+FT_DEBUG_LEVEL_TRACE
 if
 (
 odtect
@@ -11969,6 +11987,8 @@ name
 )
 )
 ;
+#
+endif
 FT_INVALID_OFFSET
 ;
 }

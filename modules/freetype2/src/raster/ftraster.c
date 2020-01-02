@@ -469,8 +469,6 @@ directory
 copy
 include
 /
-freetype
-/
 ftimage
 .
 h
@@ -484,13 +482,13 @@ ftmisc
 .
 h
 '
-*
-/
-/
-*
 to
 your
 current
+*
+/
+/
+*
 directory
 *
 /

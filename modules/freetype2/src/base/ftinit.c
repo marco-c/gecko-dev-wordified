@@ -436,8 +436,6 @@ file
 /
 /
 *
-freetype
-/
 config
 /
 ftmodule
@@ -452,11 +450,11 @@ FreeType
 2
 .
 0
-*
-/
-/
-*
 Build
+*
+/
+/
+*
 System
 '
 for

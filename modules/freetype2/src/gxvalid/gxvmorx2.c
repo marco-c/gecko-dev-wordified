@@ -121,6 +121,7 @@ subtable
 *
 Copyright
 2005
+2013
 by
 suzuki
 toshiya
@@ -1985,6 +1986,9 @@ limit
 valid
 )
 ;
+#
+if
+0
 p
 +
 =
@@ -1993,6 +1997,8 @@ valid
 >
 subtable_length
 ;
+#
+endif
 gxv_morx_subtable_type2_ligatureTable_validate
 (
 table
