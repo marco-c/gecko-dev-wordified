@@ -169,15 +169,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScope
 )
 {
 return
@@ -187,7 +178,6 @@ StyleSheetListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
