@@ -5578,13 +5578,6 @@ subviewbutton
 "
 )
 ;
-addShortcut
-(
-item
-aDocument
-elem
-)
-;
 containerElem
 .
 appendChild
