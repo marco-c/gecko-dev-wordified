@@ -634,13 +634,6 @@ aOutEvent
 )
 ;
 void
-NotifyDimensionsChanged
-(
-ScreenIntSize
-size
-)
-;
-void
 ZoomToRect
 (
 uint32_t
