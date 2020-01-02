@@ -2152,6 +2152,11 @@ AppUnitsPerDevPixel
 nsRect
 dirty
 ;
+bool
+haveDisplayPort
+=
+false
+;
 if
 (
 subdocRootFrame
@@ -2207,6 +2212,10 @@ displayPort
 )
 )
 {
+haveDisplayPort
+=
+true
+;
 dirty
 =
 displayPort
@@ -2355,6 +2364,9 @@ constructResolutionItem
 |
 |
 constructZoomItem
+|
+|
+haveDisplayPort
 |
 |
 presContext
