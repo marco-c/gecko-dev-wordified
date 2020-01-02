@@ -1184,6 +1184,12 @@ image
 with
 single
 buffering
+IMAGE_OVERLAY
+/
+/
+image
+without
+buffer
 CONTENT_SINGLE
 /
 /

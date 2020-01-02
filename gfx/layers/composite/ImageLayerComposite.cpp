@@ -465,6 +465,12 @@ CompositableType
 :
 IMAGE
 :
+case
+CompositableType
+:
+:
+IMAGE_OVERLAY
+:
 mImageHost
 =
 aHost
