@@ -2723,10 +2723,6 @@ toa
 rules
 .
 serviceClass
-Ci
-.
-nsIDOMMozMobileCFInfo
-.
 CALL_FORWARD_REASON_UNCONDITIONAL
 /
 /
@@ -2854,10 +2850,6 @@ rules
 ]
 .
 reason
-Ci
-.
-nsIDOMMozMobileCFInfo
-.
 CALL_FORWARD_REASON_UNCONDITIONAL
 )
 ;
