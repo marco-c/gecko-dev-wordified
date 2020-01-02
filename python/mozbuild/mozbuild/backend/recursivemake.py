@@ -3193,17 +3193,22 @@ obj
 wrapped
 backend_file
 )
+            
+else
+:
+                
+return
         
-self
-.
-_backend_files
-[
+else
+:
+            
+return
+        
 obj
 .
-srcdir
-]
-=
-backend_file
+ack
+(
+)
     
 def
 _fill_root_mk
