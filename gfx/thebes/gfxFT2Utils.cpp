@@ -848,6 +848,12 @@ else
 Not
 scalable
 .
+emHeight
+=
+ftMetrics
+.
+y_ppem
+;
 /
 /
 FT_Face
@@ -942,12 +948,6 @@ head
 -
 >
 Units_Per_EM
-;
-emHeight
-=
-ftMetrics
-.
-y_ppem
 ;
 yScale
 =
