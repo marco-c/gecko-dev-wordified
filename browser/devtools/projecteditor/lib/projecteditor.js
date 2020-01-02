@@ -1482,6 +1482,8 @@ querySelector
 "
 #
 sources
+>
+vbox
 "
 )
 ;
