@@ -194,6 +194,11 @@ OsrScopeChain
 \
 _
 (
+OsrReturnValue
+)
+\
+_
+(
 OsrArgumentsObject
 )
 \

@@ -793,6 +793,10 @@ OsrScopeChain
 )
 UNSAFE_OP
 (
+OsrReturnValue
+)
+UNSAFE_OP
+(
 OsrArgumentsObject
 )
 UNSAFE_OP
