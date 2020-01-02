@@ -266,13 +266,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

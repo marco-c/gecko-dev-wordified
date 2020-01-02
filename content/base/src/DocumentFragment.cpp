@@ -135,13 +135,6 @@ NS_IMPL_ELEMENT_CLONE
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsINodeInfo
 .
 h

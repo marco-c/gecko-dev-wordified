@@ -212,13 +212,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
