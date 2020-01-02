@@ -58,14 +58,6 @@ MPL
 /
 /
 *
-jshint
-esnext
-:
-true
-*
-/
-/
-*
 global
 loop
 :
