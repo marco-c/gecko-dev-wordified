@@ -790,6 +790,11 @@ aIID
 info
 )
 ;
+NS_ADDREF
+(
+clazz
+)
+;
 if
 (
 !
@@ -862,10 +867,6 @@ mDescriptors
 nullptr
 )
 {
-NS_ADDREF_THIS
-(
-)
-;
 mRuntime
 -
 >
