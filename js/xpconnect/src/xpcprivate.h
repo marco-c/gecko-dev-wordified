@@ -3954,6 +3954,15 @@ JSContext
 cx
 )
 ;
+static
+void
+OutOfMemoryCallback
+(
+JSContext
+*
+cx
+)
+;
 size_t
 SizeOfIncludingThis
 (
