@@ -2197,10 +2197,13 @@ mCharsetListIndex
 }
 nsCWhitespaceTokenizer
 tokenizer
-=
+(
+(
 nsDependentCString
 (
 charsetList
+)
+)
 )
 ;
 while

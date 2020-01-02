@@ -1802,6 +1802,7 @@ nsIDumpGCAndCCLogsCallback
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 nsDumpGCAndCCLogsCallbackHolder
 (
 nsIDumpGCAndCCLogsCallback
@@ -2290,6 +2291,7 @@ nsIHandleReportCallback
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 DumpReportCallback
 (
 nsGZFileWriter

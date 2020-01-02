@@ -683,6 +683,7 @@ explicitly
 .
 *
 /
+explicit
 nsExpirationTracker
 (
 uint32_t
@@ -1808,6 +1809,7 @@ mIndex
 ;
 public
 :
+explicit
 Iterator
 (
 nsExpirationTracker

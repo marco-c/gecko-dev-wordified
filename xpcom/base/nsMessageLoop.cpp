@@ -430,6 +430,7 @@ nsITimerCallback
 {
 public
 :
+explicit
 MessageLoopTimerCallback
 (
 MessageLoopIdleTask
