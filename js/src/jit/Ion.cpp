@@ -4595,7 +4595,7 @@ ionCodeProtected
 memset
 (
 code_
-JS_FREE_PATTERN
+JS_SWEPT_CODE_PATTERN
 bufferSize_
 )
 ;
