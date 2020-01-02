@@ -282,14 +282,9 @@ self
 dist_id
 =
 dist_id
-    
-def
-install_system_packages
-(
-self
-)
-:
         
+self
+.
 packages
 =
 self
@@ -299,12 +294,21 @@ COMMON_PACKAGES
 self
 .
 DISTRO_PACKAGES
+    
+def
+install_system_packages
+(
+self
+)
+:
         
 self
 .
 apt_install
 (
 *
+self
+.
 packages
 )
     

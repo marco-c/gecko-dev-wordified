@@ -227,11 +227,26 @@ bootstrap
 "
     
 def
-bootstrap
+__init__
 (
 self
+finished
+=
+FINISHED
 )
 :
+        
+self
+.
+instance
+=
+None
+        
+self
+.
+finished
+=
+finished
         
 cls
 =
@@ -585,6 +600,8 @@ OS
 '
 )
         
+self
+.
 instance
 =
 cls
@@ -593,19 +610,32 @@ cls
 *
 args
 )
+    
+def
+bootstrap
+(
+self
+)
+:
         
+self
+.
 instance
 .
 install_system_packages
 (
 )
         
+self
+.
 instance
 .
 ensure_mercurial_modern
 (
 )
         
+self
+.
 instance
 .
 ensure_python_modern
@@ -614,5 +644,7 @@ ensure_python_modern
         
 print
 (
-FINISHED
+self
+.
+finished
 )

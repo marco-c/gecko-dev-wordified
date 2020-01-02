@@ -95,18 +95,12 @@ self
 dist_id
 =
 dist_id
-    
-def
-install_system_packages
-(
-self
-)
-:
         
 self
 .
-yum_groupinstall
-(
+group_packages
+=
+[
             
 '
 Development
@@ -123,12 +117,14 @@ GNOME
 Software
 Development
 '
-)
+        
+]
         
 self
 .
-yum_install
-(
+packages
+=
+[
             
 '
 alsa
@@ -217,6 +213,34 @@ devel
 '
 yasm
 '
+        
+]
+    
+def
+install_system_packages
+(
+self
+)
+:
+        
+self
+.
+yum_groupinstall
+(
+*
+self
+.
+group_packages
+)
+        
+self
+.
+yum_install
+(
+*
+self
+.
+packages
 )
     
 def
