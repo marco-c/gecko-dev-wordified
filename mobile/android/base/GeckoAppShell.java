@@ -2560,6 +2560,9 @@ calls
 /
 WrapElementForJNI
 (
+allowMultithread
+=
+true
 generateStatic
 =
 true
