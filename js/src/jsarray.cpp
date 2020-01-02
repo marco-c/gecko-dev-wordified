@@ -19637,6 +19637,17 @@ ArrayFindIndex
 JS_SELF_HOSTED_FN
 (
 "
+fill
+"
+"
+ArrayFill
+"
+3
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 iterator
 "
 "
