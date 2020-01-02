@@ -287,6 +287,8 @@ GonkNativeWindow
 :
 GonkNativeWindow
 (
+int
+bufferCount
 )
 :
 GonkConsumerBase
@@ -303,10 +305,7 @@ mBufferQueue
 >
 setMaxAcquiredBufferCount
 (
-GonkBufferQueue
-:
-:
-MIN_UNDEQUEUED_BUFFERS
+bufferCount
 )
 ;
 }
