@@ -1035,7 +1035,7 @@ GetNext
 ;
 nsCOMPtr
 <
-nsISVGFilterProperty
+nsISVGFilterReference
 >
 filter
 =

@@ -32272,7 +32272,7 @@ StyleSVGReset
 )
 -
 >
-SingleFilter
+HasFilters
 (
 )
 )
