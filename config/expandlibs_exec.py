@@ -3121,6 +3121,10 @@ flush
 def
 main
 (
+args
+proc_callback
+=
+None
 )
 :
     
@@ -3292,6 +3296,7 @@ parser
 .
 parse_args
 (
+args
 )
     
 with
@@ -3377,6 +3382,15 @@ subprocess
 .
 STDOUT
 )
+            
+if
+proc_callback
+:
+                
+proc_callback
+(
+proc
+)
         
 except
 Exception
@@ -3456,12 +3470,13 @@ proc
 returncode
 :
             
-exit
-(
+return
 proc
 .
 returncode
-)
+        
+return
+0
 if
 __name__
 =
@@ -3471,6 +3486,16 @@ __main__
 '
 :
     
+exit
+(
 main
 (
+sys
+.
+argv
+[
+1
+:
+]
+)
 )
