@@ -12190,6 +12190,11 @@ mHasRootAbsPosContainingBlock
 :
 1
 ;
+bool
+mAlwaysCreateFramesForIgnorableWhitespace
+:
+1
+;
 nsCOMPtr
 <
 nsILayoutHistoryState
