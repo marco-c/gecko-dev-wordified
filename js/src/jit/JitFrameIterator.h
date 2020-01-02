@@ -3282,6 +3282,7 @@ script
 (
 )
 unreadablePlaceholder
+silentFailure
 )
 ;
 }
