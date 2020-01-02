@@ -2709,6 +2709,9 @@ elem
 !
 CheckProperty
 <
+PrimitiveProperty
+:
+:
 InValue
 >
 (
