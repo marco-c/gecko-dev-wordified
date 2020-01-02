@@ -3712,6 +3712,16 @@ if
 (
 !
 blankProto
+|
+|
+!
+blankProto
+-
+>
+setDelegate
+(
+cx
+)
 )
 return
 nullptr
