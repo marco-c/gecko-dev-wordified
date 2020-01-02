@@ -31625,11 +31625,6 @@ to
 web
 content
 .
-nsresult
-rv
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIDocShellTreeOwner
@@ -31669,8 +31664,6 @@ to
 become
 nullptr
 .
-rv
-=
 siteWindow
 -
 >
@@ -31761,7 +31754,7 @@ this
 }
 }
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP
