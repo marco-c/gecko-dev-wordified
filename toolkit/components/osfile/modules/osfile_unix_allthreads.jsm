@@ -383,6 +383,13 @@ libc
 so
 "
 "
+libSystem
+.
+B
+.
+dylib
+"
+"
 a
 .
 out
