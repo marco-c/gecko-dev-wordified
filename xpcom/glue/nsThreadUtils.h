@@ -3366,11 +3366,6 @@ oldPriority
 endif
 }
 ;
-void
-NS_SetMainThread
-(
-)
-;
 #
 endif
 /
