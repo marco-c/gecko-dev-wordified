@@ -150,11 +150,6 @@ ShapedButton
 private
 final
 Path
-mPath
-;
-private
-final
-Path
 mBorderPath
 ;
 private
@@ -243,13 +238,6 @@ Path
 is
 masked
 .
-mPath
-=
-new
-Path
-(
-)
-;
 mBorderPath
 =
 new
