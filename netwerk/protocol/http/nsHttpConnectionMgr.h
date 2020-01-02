@@ -4647,6 +4647,9 @@ mTimeoutTick
 bool
 mTimeoutTickArmed
 ;
+uint32_t
+mTimeoutTickNext
+;
 /
 /
 /
