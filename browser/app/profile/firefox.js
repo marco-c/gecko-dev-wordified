@@ -15832,7 +15832,7 @@ styleeditor
 .
 showMediaSidebar
 "
-false
+true
 )
 ;
 /
