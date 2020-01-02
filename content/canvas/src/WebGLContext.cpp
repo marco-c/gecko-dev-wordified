@@ -761,7 +761,7 @@ mFakeVertexAttrib0BufferObject
 ;
 mFakeVertexAttrib0BufferStatus
 =
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 Default
