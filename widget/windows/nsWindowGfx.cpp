@@ -1352,8 +1352,15 @@ utilities
 *
 *
 /
+/
+*
 static
+*
+/
 bool
+nsWindow
+:
+:
 IsRenderMode
 (
 gfxWindowsPlatform
