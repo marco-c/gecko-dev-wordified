@@ -1289,6 +1289,10 @@ mozilla
 WidgetKeyboardEvent
 &
 event
+const
+MaybeNativeKeyBinding
+&
+aBindings
 )
 MOZ_OVERRIDE
 ;
