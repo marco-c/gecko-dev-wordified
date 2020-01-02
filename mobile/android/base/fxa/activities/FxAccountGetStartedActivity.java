@@ -129,7 +129,7 @@ gecko
 .
 fxa
 .
-FxAccountConstants
+FirefoxAccounts
 ;
 import
 org
@@ -140,9 +140,7 @@ gecko
 .
 fxa
 .
-authenticator
-.
-FxAccountAuthenticator
+FxAccountConstants
 ;
 import
 org
@@ -480,7 +478,7 @@ class
 else
 if
 (
-FxAccountAuthenticator
+FirefoxAccounts
 .
 firefoxAccountsExist
 (
