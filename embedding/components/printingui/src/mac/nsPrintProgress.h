@@ -166,6 +166,8 @@ nsPrintProgress
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsPrintProgress

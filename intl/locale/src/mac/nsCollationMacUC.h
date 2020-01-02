@@ -202,11 +202,6 @@ nsCollationMacUC
 (
 )
 ;
-~
-nsCollationMacUC
-(
-)
-;
 /
 /
 nsISupports
@@ -219,6 +214,11 @@ interface
 NS_DECL_NSICOLLATION
 protected
 :
+~
+nsCollationMacUC
+(
+)
+;
 nsresult
 ConvertLocale
 (

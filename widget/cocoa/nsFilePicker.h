@@ -157,12 +157,6 @@ nsFilePicker
 (
 )
 ;
-virtual
-~
-nsFilePicker
-(
-)
-;
 NS_DECL_ISUPPORTS
 /
 /
@@ -313,6 +307,12 @@ GetFilterList
 ;
 protected
 :
+virtual
+~
+nsFilePicker
+(
+)
+;
 virtual
 void
 InitNative

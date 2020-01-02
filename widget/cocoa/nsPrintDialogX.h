@@ -147,12 +147,6 @@ nsPrintDialogServiceX
 (
 )
 ;
-virtual
-~
-nsPrintDialogServiceX
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHODIMP
 Init
@@ -182,6 +176,14 @@ aParent
 nsIPrintSettings
 *
 aSettings
+)
+;
+protected
+:
+virtual
+~
+nsPrintDialogServiceX
+(
 )
 ;
 }

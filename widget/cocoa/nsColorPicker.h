@@ -241,6 +241,11 @@ Done
 ;
 private
 :
+~
+nsColorPicker
+(
+)
+;
 static
 NSColor
 *

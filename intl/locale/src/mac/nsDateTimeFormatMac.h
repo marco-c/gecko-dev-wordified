@@ -261,6 +261,8 @@ nsDateTimeFormatMac
 )
 {
 }
+protected
+:
 virtual
 ~
 nsDateTimeFormatMac

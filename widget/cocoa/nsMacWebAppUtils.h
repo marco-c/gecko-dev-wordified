@@ -102,6 +102,10 @@ nsMacWebAppUtils
 )
 {
 }
+NS_DECL_ISUPPORTS
+NS_DECL_NSIMACWEBAPPUTILS
+protected
+:
 virtual
 ~
 nsMacWebAppUtils
@@ -109,8 +113,6 @@ nsMacWebAppUtils
 )
 {
 }
-NS_DECL_ISUPPORTS
-NS_DECL_NSIMACWEBAPPUTILS
 }
 ;
 #
