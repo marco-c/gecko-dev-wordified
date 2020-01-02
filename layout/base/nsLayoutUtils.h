@@ -12645,6 +12645,16 @@ return
 sCSSVariablesEnabled
 ;
 }
+static
+bool
+InterruptibleReflowEnabled
+(
+)
+{
+return
+sInterruptibleReflowEnabled
+;
+}
 /
 *
 *
@@ -14172,6 +14182,10 @@ sInvalidationDebuggingIsEnabled
 static
 bool
 sCSSVariablesEnabled
+;
+static
+bool
+sInterruptibleReflowEnabled
 ;
 }
 ;

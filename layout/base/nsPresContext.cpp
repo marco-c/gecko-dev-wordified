@@ -14609,6 +14609,14 @@ aInterruptible
 IsPaginated
 (
 )
+&
+&
+nsLayoutUtils
+:
+:
+InterruptibleReflowEnabled
+(
+)
 ;
 /
 /
