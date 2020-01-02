@@ -358,6 +358,12 @@ case
 BluetoothServiceClass
 :
 :
+A2DP_SINK
+:
+case
+BluetoothServiceClass
+:
+:
 HANDSFREE
 :
 case

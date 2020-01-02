@@ -182,6 +182,14 @@ nsAString
 aRetBdAddress
 )
 ;
+uint16_t
+UuidToServiceClassInt
+(
+bt_uuid_t
+*
+p_uuid
+)
+;
 bool
 SetJsObject
 (
