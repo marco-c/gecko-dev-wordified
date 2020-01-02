@@ -9158,6 +9158,12 @@ rootedParent
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+xblScope
+nullptr
+)
+;
 JSAutoCompartment
 ac
 (

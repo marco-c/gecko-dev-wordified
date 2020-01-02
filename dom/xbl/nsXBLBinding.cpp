@@ -6059,6 +6059,12 @@ proto
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+scope
+nullptr
+)
+;
 JS
 :
 :
@@ -6522,6 +6528,12 @@ GetXBLScopeOrGlobal
 cx
 global
 )
+)
+;
+NS_ENSURE_TRUE
+(
+xblScope
+NS_ERROR_UNEXPECTED
 )
 ;
 JS
