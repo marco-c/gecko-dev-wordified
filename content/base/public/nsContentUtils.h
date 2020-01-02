@@ -10282,6 +10282,7 @@ CanAccessNativeAnon
 (
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 static
 nsresult
 WrapNative
@@ -10353,6 +10354,7 @@ nsISupports
 '
 IID
 .
+MOZ_WARN_UNUSED_RESULT
 static
 nsresult
 WrapNative
@@ -10402,6 +10404,7 @@ aAllowWrapping
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 static
 nsresult
 WrapNative
