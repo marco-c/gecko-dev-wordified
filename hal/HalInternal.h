@@ -203,7 +203,7 @@ be
 included
 except
 by
-HalInternal
+HalImpl
 .
 h
 and
