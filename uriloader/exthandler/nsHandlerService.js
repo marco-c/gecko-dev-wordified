@@ -4165,7 +4165,7 @@ return
 null
 ;
 let
-interface
+iface
 =
 this
 .
@@ -4178,7 +4178,7 @@ NC_INTERFACE
 if
 (
 !
-interface
+iface
 )
 return
 null
@@ -4233,7 +4233,7 @@ handlerApp
 .
 dBusInterface
 =
-interface
+iface
 ;
 }
 else
