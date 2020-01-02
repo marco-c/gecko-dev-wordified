@@ -2067,7 +2067,7 @@ mSlcConnected
 =
 false
 ;
-mHspConnected
+mIsHsp
 =
 false
 ;
@@ -10057,6 +10057,10 @@ MOZ_ASSERT
 mSocket
 )
 ;
+mIsHsp
+=
+false
+;
 mHandsfreeSocket
 .
 swap
@@ -10091,7 +10095,7 @@ MOZ_ASSERT
 mSocket
 )
 ;
-mHspConnected
+mIsHsp
 =
 true
 ;
@@ -10513,6 +10517,13 @@ ERR_NO_AVAILABLE_RESOURCE
 )
 ;
 }
+else
+{
+mIsHsp
+=
+true
+;
+}
 return
 ;
 }
@@ -10871,7 +10882,7 @@ mSlcConnected
 &
 &
 !
-mHspConnected
+mIsHsp
 )
 {
 mConnectScoRequest

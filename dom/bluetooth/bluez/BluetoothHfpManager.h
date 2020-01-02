@@ -954,7 +954,7 @@ bool
 mSlcConnected
 ;
 bool
-mHspConnected
+mIsHsp
 ;
 #
 ifdef
