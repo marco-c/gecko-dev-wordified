@@ -1645,7 +1645,8 @@ defined
 (
 MOZ_VTUNE
 )
-or
+|
+|
 defined
 (
 JS_ION_PERF
@@ -1938,7 +1939,8 @@ defined
 (
 MOZ_VTUNE
 )
-or
+|
+|
 defined
 (
 JS_ION_PERF
@@ -2003,7 +2005,8 @@ defined
 (
 MOZ_VTUNE
 )
-or
+|
+|
 defined
 (
 JS_ION_PERF
