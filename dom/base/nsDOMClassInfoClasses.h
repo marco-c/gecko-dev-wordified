@@ -474,10 +474,6 @@ UserDataHandler
 )
 DOMCI_CLASS
 (
-LoadStatus
-)
-DOMCI_CLASS
-(
 XPathNamespace
 )
 DOMCI_CLASS
