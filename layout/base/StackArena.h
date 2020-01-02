@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+StackArena_h
+#
+define
+StackArena_h
+#
 include
 "
 nsError
@@ -483,3 +489,5 @@ mOwnsStackArena
 /
 namespace
 mozilla
+#
+endif

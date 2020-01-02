@@ -109,6 +109,12 @@ MPL
 .
 *
 /
+#
+ifndef
+SpanningCellSorter_h
+#
+define
+SpanningCellSorter_h
 /
 *
 *
@@ -628,3 +634,5 @@ nullptr
 }
 }
 ;
+#
+endif
