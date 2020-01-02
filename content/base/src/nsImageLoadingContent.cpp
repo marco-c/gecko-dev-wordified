@@ -2773,7 +2773,7 @@ presContext
 presContext
 -
 >
-PresShell
+GetPresShell
 (
 )
 :
