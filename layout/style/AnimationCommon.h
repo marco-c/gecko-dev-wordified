@@ -2201,14 +2201,6 @@ aTiming
 nsString
 mName
 ;
-/
-/
-empty
-string
-for
-'
-none
-'
 AnimationTiming
 mTiming
 ;
