@@ -1240,16 +1240,6 @@ nullptr
 )
 MOZ_OVERRIDE
 ;
-virtual
-void
-DestroyThebesBuffer
-(
-CompositableClient
-*
-aCompositable
-)
-MOZ_OVERRIDE
-;
 /
 *
 *

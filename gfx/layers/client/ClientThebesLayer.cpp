@@ -1194,10 +1194,9 @@ g
 .
 in
 CreateBuffer
-/
-/
-DestroyThebesBuffer
 )
+/
+/
 so
 deleting
 this
