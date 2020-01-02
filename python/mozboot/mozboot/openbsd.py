@@ -134,10 +134,6 @@ pulseaudio
 '
             
 '
-libIDL
-'
-            
-'
 gmake
 '
             

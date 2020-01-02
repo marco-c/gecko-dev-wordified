@@ -2489,10 +2489,6 @@ yasm
 '
                     
 '
-libidl
-'
-                    
-'
 autoconf213
 '
 ]
