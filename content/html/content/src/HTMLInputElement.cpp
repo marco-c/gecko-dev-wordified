@@ -14887,6 +14887,16 @@ mParserCreating
 }
 else
 {
+nsMemory
+:
+:
+Free
+(
+mInputData
+.
+mValue
+)
+;
 mInputData
 .
 mValue
