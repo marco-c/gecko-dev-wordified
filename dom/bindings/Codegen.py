@@ -2785,6 +2785,7 @@ return
 "
 "
 static
+const
 DOMIfaceAndProtoJSClass
 PrototypeClass
 =
@@ -3150,6 +3151,7 @@ return
 "
 "
 static
+const
 DOMIfaceAndProtoJSClass
 InterfaceObjectClass
 =
