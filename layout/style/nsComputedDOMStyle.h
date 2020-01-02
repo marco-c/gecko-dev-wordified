@@ -440,12 +440,6 @@ nsComputedDOMStyle
 (
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 virtual
 nsINode
 *
