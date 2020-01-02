@@ -136,6 +136,10 @@ nsWinMetroUtils
 (
 )
 ;
+static
+bool
+sUpdatePending
+;
 }
 ;
 }
