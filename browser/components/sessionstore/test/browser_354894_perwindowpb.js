@@ -1772,7 +1772,7 @@ TEST_URLS
 .
 length
 +
-1
+2
 "
 Restored
 window
@@ -1951,7 +1951,7 @@ TEST_URLS
 .
 length
 +
-1
+2
 "
 Restored
 after
@@ -2212,7 +2212,7 @@ TEST_URLS
 .
 length
 +
-1
+2
 "
 Restored
 window
