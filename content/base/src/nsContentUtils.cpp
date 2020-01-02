@@ -1022,6 +1022,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsIMIMEService
 .
 h
