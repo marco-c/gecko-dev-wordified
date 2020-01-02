@@ -2185,6 +2185,7 @@ navigate
 *
 /
 true
+nullptr
 argv
 _retval
 )
@@ -2385,6 +2386,9 @@ bool
 aDialog
 bool
 aNavigate
+nsITabParent
+*
+aOpeningTab
 nsISupports
 *
 aArguments
@@ -2495,6 +2499,7 @@ aFeatures
 aCalledFromScript
 dialog
 aNavigate
+aOpeningTab
 argv
 _retval
 )
@@ -2527,6 +2532,9 @@ bool
 aDialog
 bool
 aNavigate
+nsITabParent
+*
+aOpeningTab
 nsIArray
 *
 argv
@@ -4503,6 +4511,7 @@ parentChrome
 chromeFlags
 contextFlags
 uriToLoad
+aOpeningTab
 &
 cancel
 getter_AddRefs

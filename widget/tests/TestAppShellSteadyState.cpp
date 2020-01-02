@@ -1896,6 +1896,7 @@ uri
 flags
 100
 100
+nullptr
 getter_AddRefs
 (
 xulWindow

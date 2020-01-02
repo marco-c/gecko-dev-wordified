@@ -143,6 +143,13 @@ nsIWidgetListener
 .
 h
 "
+#
+include
+"
+nsITabParent
+.
+h
+"
 /
 *
 Forward
@@ -221,6 +228,9 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
+nsITabParent
+*
+aOpeningTab
 nsWidgetInitData
 &
 widgetInitData

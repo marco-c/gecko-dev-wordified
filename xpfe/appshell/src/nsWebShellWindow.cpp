@@ -597,6 +597,9 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
+nsITabParent
+*
+aOpeningTab
 nsWidgetInitData
 &
 widgetInitData
@@ -1135,6 +1138,14 @@ NS_ENSURE_TRUE
 (
 mDocShell
 NS_ERROR_FAILURE
+)
+;
+mDocShell
+-
+>
+SetOpener
+(
+aOpeningTab
 )
 ;
 /

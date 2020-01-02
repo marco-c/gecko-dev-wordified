@@ -63469,6 +63469,7 @@ aCalledFromScript
 true
 aDialog
 aNavigate
+nullptr
 argv
 getter_AddRefs
 (
@@ -63639,6 +63640,7 @@ aCalledFromScript
 false
 aDialog
 aNavigate
+nullptr
 aExtraArgument
 getter_AddRefs
 (
