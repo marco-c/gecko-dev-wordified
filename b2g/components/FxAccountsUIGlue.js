@@ -303,7 +303,8 @@ log
 debug
 (
 "
-Got
+UIGlue
+got
 content
 event
 "
