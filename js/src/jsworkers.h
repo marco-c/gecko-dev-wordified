@@ -1337,7 +1337,7 @@ JSContext
 *
 cx
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 const
@@ -1911,7 +1911,7 @@ ExclusiveContext
 *
 cx
 ;
-CompileOptions
+ReadOnlyCompileOptions
 options
 ;
 const
@@ -2056,7 +2056,7 @@ ExclusiveContext
 *
 cx
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 const

@@ -10850,7 +10850,7 @@ enclosingScope
 bool
 savedCallerFun
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 unsigned

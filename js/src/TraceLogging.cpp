@@ -1055,7 +1055,7 @@ const
 JS
 :
 :
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 )

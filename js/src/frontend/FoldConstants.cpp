@@ -1465,7 +1465,7 @@ FullParseHandler
 &
 handler
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 bool

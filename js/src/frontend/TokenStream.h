@@ -2673,7 +2673,7 @@ ExclusiveContext
 *
 cx
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 const
@@ -5029,7 +5029,7 @@ cx
 ;
 }
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 (
@@ -5863,7 +5863,7 @@ parsing
 tokenizing
 .
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options_
 ;
