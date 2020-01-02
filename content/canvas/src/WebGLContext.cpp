@@ -145,7 +145,7 @@ h
 #
 include
 "
-WebGLMemoryReporterWrapper
+WebGLMemoryTracker
 .
 h
 "
@@ -1038,7 +1038,7 @@ mPixelStoreUnpackAlignment
 =
 4
 ;
-WebGLMemoryReporterWrapper
+WebGLMemoryTracker
 :
 :
 AddWebGLContext
@@ -1191,7 +1191,7 @@ DestroyResourcesAndContext
 (
 )
 ;
-WebGLMemoryReporterWrapper
+WebGLMemoryTracker
 :
 :
 RemoveWebGLContext
@@ -3936,14 +3936,14 @@ UpdateLastUseIndex
 (
 )
 ;
-WebGLMemoryReporterWrapper
+WebGLMemoryTracker
 :
 :
 ContextsArrayType
 &
 contexts
 =
-WebGLMemoryReporterWrapper
+WebGLMemoryTracker
 :
 :
 Contexts
