@@ -193,11 +193,7 @@ isObject
 )
 )
 ;
-JS
-:
-:
-RootedObject
-obj
+JS_GetProperty
 (
 cx
 &
@@ -206,12 +202,6 @@ v
 toObject
 (
 )
-)
-;
-JS_GetProperty
-(
-cx
-obj
 "
 stack
 "
