@@ -847,16 +847,6 @@ additions
 case
 HB_SCRIPT_ARABIC
 :
-/
-*
-Unicode
--
-3
-.
-0
-additions
-*
-/
 case
 HB_SCRIPT_MONGOLIAN
 :

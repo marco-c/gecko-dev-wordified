@@ -265,7 +265,7 @@ head
 static
 const
 hb_tag_t
-tableTag
+Tag
 =
 HB_OT_TAG_head
 ;
