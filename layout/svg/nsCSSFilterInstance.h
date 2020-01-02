@@ -493,6 +493,14 @@ FilterPrimitiveDescription
 aDescr
 )
 ;
+nsresult
+SetAttributesForSepia
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
 /
 *
 *
