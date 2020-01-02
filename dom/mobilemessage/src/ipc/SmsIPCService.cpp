@@ -155,13 +155,6 @@ h
 #
 include
 "
-DictionaryHelpers
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h
