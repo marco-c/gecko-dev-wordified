@@ -913,7 +913,10 @@ aSegments
 nsCSSProperty
 aProperty
 const
-nsAnimation
+mozilla
+:
+:
+StyleAnimation
 &
 aAnimation
 float

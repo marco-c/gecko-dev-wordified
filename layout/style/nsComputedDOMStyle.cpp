@@ -26453,7 +26453,7 @@ i
 do
 {
 const
-nsAnimation
+StyleAnimation
 *
 animation
 =
@@ -26613,7 +26613,7 @@ i
 do
 {
 const
-nsAnimation
+StyleAnimation
 *
 animation
 =
@@ -26731,7 +26731,7 @@ i
 do
 {
 const
-nsAnimation
+StyleAnimation
 *
 animation
 =
@@ -26933,7 +26933,7 @@ i
 do
 {
 const
-nsAnimation
+StyleAnimation
 *
 animation
 =
@@ -27053,7 +27053,7 @@ i
 do
 {
 const
-nsAnimation
+StyleAnimation
 *
 animation
 =
@@ -27173,7 +27173,7 @@ i
 do
 {
 const
-nsAnimation
+StyleAnimation
 *
 animation
 =
@@ -27365,7 +27365,7 @@ i
 do
 {
 const
-nsAnimation
+StyleAnimation
 *
 animation
 =
