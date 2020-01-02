@@ -3255,7 +3255,7 @@ _
 .
 Times
 (
-3
+4
 )
 ;
 EXPECT_CALL
