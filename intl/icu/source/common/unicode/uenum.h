@@ -87,7 +87,7 @@ C
 )
 2002
 -
-2012
+2013
 International
 Business
 Machines
@@ -1315,9 +1315,6 @@ ec
 ;
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1440,12 +1437,12 @@ memory
 see
 uenum_close
 *
-draft
+stable
 ICU
 50
 *
 /
-U_DRAFT
+U_STABLE
 UEnumeration
 *
 U_EXPORT2
@@ -1465,8 +1462,6 @@ UErrorCode
 ec
 )
 ;
-#
-endif
 /
 *
 Note
@@ -1619,12 +1614,12 @@ memory
 see
 uenum_close
 *
-draft
+stable
 ICU
 50
 *
 /
-U_DRAFT
+U_STABLE
 UEnumeration
 *
 U_EXPORT2

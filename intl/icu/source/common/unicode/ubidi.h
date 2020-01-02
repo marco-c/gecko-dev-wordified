@@ -86,7 +86,7 @@ C
 )
 1999
 -
-2012
+2013
 International
 Business
 Machines
@@ -3052,7 +3052,7 @@ ICU
 #
 define
 UBIDI_MAX_EXPLICIT_LEVEL
-61
+125
 /
 *
 *

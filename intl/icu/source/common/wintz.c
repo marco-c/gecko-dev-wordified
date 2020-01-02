@@ -87,7 +87,7 @@ C
 )
 2005
 -
-2012
+2013
 International
 Business
 Machines
@@ -1682,11 +1682,6 @@ MAX_LENGTH_ID
 ]
 ;
 int32_t
-apiStdLength
-=
-0
-;
-int32_t
 len
 ;
 int
@@ -1878,8 +1873,7 @@ u_strFromWCS
 (
 apiStd
 MAX_LENGTH_ID
-&
-apiStdLength
+NULL
 apiTZI
 .
 StandardName
@@ -1893,7 +1887,12 @@ u_austrncpy
 (
 apiStdName
 apiStd
-apiStdLength
+sizeof
+(
+apiStdName
+)
+-
+1
 )
 ;
 tmpid

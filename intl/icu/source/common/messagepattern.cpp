@@ -8452,10 +8452,6 @@ length
 0
 ;
 }
-UOBJECT_DEFINE_NO_RTTI_IMPLEMENTATION
-(
-MessagePattern
-)
 /
 /
 MessageImpl

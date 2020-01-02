@@ -536,7 +536,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -583,7 +583,7 @@ ICU
 #
 define
 U_ICU_VERSION_MAJOR_NUM
-50
+52
 /
 *
 *
@@ -653,7 +653,7 @@ ICU
 #
 define
 U_ICU_VERSION_PATCHLEVEL_NUM
-2
+0
 /
 *
 *
@@ -729,7 +729,7 @@ ICU
 #
 define
 U_ICU_VERSION_SUFFIX
-_50
+_52
 /
 *
 *
@@ -960,11 +960,9 @@ ICU
 define
 U_ICU_VERSION
 "
-50
+52
 .
 1
-.
-2
 "
 /
 *
@@ -1010,7 +1008,7 @@ ICU
 define
 U_ICU_VERSION_SHORT
 "
-50
+52
 "
 #
 ifndef
@@ -1039,7 +1037,7 @@ Only
 define
 U_ICU_DATA_VERSION
 "
-50
+52
 .
 1
 "

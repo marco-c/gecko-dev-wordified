@@ -87,7 +87,7 @@ C
 )
 2005
 -
-2011
+2013
 International
 Business
 Machines
@@ -875,7 +875,6 @@ dateStyle
 )
 fLocale
 (
-&
 locale
 )
 fZoneID
@@ -1034,6 +1033,15 @@ fDateStyle
 other
 .
 fDateStyle
+;
+this
+-
+>
+fLocale
+=
+other
+.
+fLocale
 ;
 this
 -
@@ -1379,6 +1387,7 @@ getTimeDateFormat
 (
 &
 cal
+&
 fLocale
 status
 )
@@ -1545,6 +1554,7 @@ fDateTimeMsg
 getTimeDateFormat
 (
 newCalendar
+&
 fLocale
 status
 )

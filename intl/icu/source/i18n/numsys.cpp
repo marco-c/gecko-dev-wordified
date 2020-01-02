@@ -86,7 +86,7 @@ C
 )
 2010
 -
-2012
+2013
 International
 Business
 Machines
@@ -1408,6 +1408,7 @@ NumberingSystem
 getRadix
 (
 )
+const
 {
 return
 radix
@@ -1420,6 +1421,7 @@ NumberingSystem
 getDescription
 (
 )
+const
 {
 return
 desc
@@ -1434,6 +1436,7 @@ NumberingSystem
 getName
 (
 )
+const
 {
 return
 name

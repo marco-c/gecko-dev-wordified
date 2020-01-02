@@ -87,7 +87,7 @@ C
 )
 1998
 -
-2011
+2014
 International
 Business
 Machines
@@ -328,8 +328,6 @@ initalisation
 void
 initParser
 (
-UBool
-omitCollationRules
 )
 ;
 /
@@ -358,7 +356,9 @@ char
 *
 outputDir
 UBool
-omitBinaryCollation
+makeBinaryCollation
+UBool
+omitCollationRules
 UErrorCode
 *
 status

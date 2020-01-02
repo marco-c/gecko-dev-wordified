@@ -84,7 +84,7 @@ C
 )
 1996
 -
-2012
+2013
 International
 Business
 Machines
@@ -358,9 +358,6 @@ times
 if
 !
 UCONFIG_NO_COLLATION
-#
-ifndef
-U_HIDE_DEPRECATED_API
 #
 include
 "
@@ -1491,6 +1488,9 @@ const
 ;
 #
 endif
+#
+ifndef
+U_HIDE_DEPRECATED_API
 /
 *
 *
@@ -1581,6 +1581,13 @@ target
 )
 const
 ;
+#
+endif
+/
+*
+U_HIDE_DEPRECATED_API
+*
+/
 /
 *
 *
@@ -2448,13 +2455,6 @@ getBytes
 ;
 }
 U_NAMESPACE_END
-#
-endif
-/
-*
-U_HIDE_DEPRECATED_API
-*
-/
 #
 endif
 /

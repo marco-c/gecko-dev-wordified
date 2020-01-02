@@ -87,7 +87,7 @@ C
 )
 2003
 -
-2012
+2013
 International
 Business
 Machines
@@ -545,7 +545,7 @@ UTRACE_UCOL_STRCOLLUTF8
 *
 *
 <
-draft
+stable
 ICU
 50
 *

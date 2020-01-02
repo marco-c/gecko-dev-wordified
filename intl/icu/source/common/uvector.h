@@ -77,7 +77,7 @@ C
 )
 1999
 -
-2011
+2013
 International
 Business
 Machines
@@ -2103,7 +2103,8 @@ ec
 *
 *
 *
-Sort
+Stable
+sort
 the
 contents
 of
@@ -2129,7 +2130,7 @@ more
 flexibility
 *
 than
-uvector
+UVector
 :
 :
 sort
@@ -2139,7 +2140,6 @@ because
 an
 additional
 user
--
 parameter
 can
 be

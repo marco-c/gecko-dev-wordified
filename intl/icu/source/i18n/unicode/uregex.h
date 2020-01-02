@@ -77,7 +77,7 @@ C
 )
 2004
 -
-2012
+2013
 International
 Business
 Machines
@@ -377,6 +377,11 @@ UREGEX_CANON_EQ
 128
 #
 endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 /
 *
 *
@@ -10905,8 +10910,7 @@ stack
 A
 value
 of
--
-1
+zero
 means
 no
 limit
@@ -10918,10 +10922,10 @@ must
 be
 greater
 than
-zero
 or
--
-1
+equal
+to
+zero
 .
 *
 param

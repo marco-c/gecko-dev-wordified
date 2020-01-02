@@ -81,7 +81,7 @@ C
 )
 1999
 -
-2005
+2012
 International
 Business
 Machines
@@ -1914,6 +1914,7 @@ ICU
 4
 *
 /
+inline
 Replaceable
 (
 )
@@ -2109,6 +2110,15 @@ const
 ;
 }
 ;
+inline
+Replaceable
+:
+:
+Replaceable
+(
+)
+{
+}
 inline
 int32_t
 Replaceable

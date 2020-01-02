@@ -77,7 +77,7 @@ C
 )
 1999
 -
-2012
+2013
 International
 Business
 Machines
@@ -10929,6 +10929,11 @@ t
 }
 #
 endif
+/
+*
+U_HIDE_INTERNAL_API
+*
+/
 U_NAMESPACE_END
 #
 endif

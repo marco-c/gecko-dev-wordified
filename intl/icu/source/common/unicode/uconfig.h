@@ -77,7 +77,7 @@ C
 )
 2002
 -
-2012
+2013
 International
 Business
 Machines
@@ -695,7 +695,7 @@ inside
 ICU
 .
 *
-draft
+stable
 ICU
 49
 *

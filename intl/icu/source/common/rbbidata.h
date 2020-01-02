@@ -87,7 +87,7 @@ C
 )
 1999
 -
-2011
+2013
 International
 Business
 Machines
@@ -430,6 +430,13 @@ include
 unicode
 /
 unistr
+.
+h
+"
+#
+include
+"
+umutex
 .
 h
 "
@@ -1398,7 +1405,7 @@ fTrie
 ;
 private
 :
-int32_t
+u_atomic_int32_t
 fRefCount
 ;
 UDataMemory
