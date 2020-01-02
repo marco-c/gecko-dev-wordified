@@ -117,15 +117,6 @@ vm_StringBuffer_h
 #
 include
 "
-mozilla
-/
-DebugOnly
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
