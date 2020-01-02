@@ -4230,6 +4230,9 @@ LMoveGroup
 *
 exitMoveGroup_
 ;
+Label
+label_
+;
 LBlock
 (
 TempAllocator
@@ -4555,7 +4558,12 @@ Label
 label
 (
 )
+{
+return
+&
+label_
 ;
+}
 LMoveGroup
 *
 getEntryMoveGroup
