@@ -23459,6 +23459,12 @@ TextDecoder
 bool
 TextEncoder
 ;
+bool
+atob
+;
+bool
+btoa
+;
 }
 ;
 SandboxOptions
