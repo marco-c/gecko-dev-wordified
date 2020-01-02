@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+nsPrefBranch_h
+#
+define
+nsPrefBranch_h
+#
 include
 "
 nsCOMPtr
@@ -1050,7 +1056,7 @@ aObserver
 )
 ;
 static
-nsresult
+void
 NotifyObserver
 (
 const
@@ -1358,3 +1364,5 @@ mRelativeToKey
 ;
 }
 ;
+#
+endif
