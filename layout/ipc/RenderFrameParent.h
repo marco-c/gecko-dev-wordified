@@ -534,6 +534,10 @@ size
 void
 ZoomToRect
 (
+uint32_t
+aPresShellId
+ViewID
+aViewId
 const
 CSSRect
 &
