@@ -5037,7 +5037,6 @@ removeActorPool
 this
 .
 _tabActorPool
-true
 )
 ;
 this

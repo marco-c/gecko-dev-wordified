@@ -6761,11 +6761,17 @@ remove
 *
 param
 boolean
-aCleanup
+aNoCleanup
+[
+optional
+]
 *
 True
 if
 you
+don
+'
+t
 want
 to
 disconnect
@@ -6786,7 +6792,7 @@ function
 DSC_removeActorPool
 (
 aActorPool
-aCleanup
+aNoCleanup
 )
 {
 let
@@ -6824,7 +6830,8 @@ index
 ;
 if
 (
-aCleanup
+!
+aNoCleanup
 )
 {
 pool
