@@ -4754,6 +4754,9 @@ JSFinalizeStatus
 status
 bool
 isCompartmentGC
+void
+*
+data
 )
 {
 XPCJSRuntime
@@ -9462,12 +9465,12 @@ nullptr
 nullptr
 )
 ;
-JS_SetFinalizeCallback
+JS_RemoveFinalizeCallback
 (
 Runtime
 (
 )
-nullptr
+FinalizeCallback
 )
 ;
 /
@@ -21072,10 +21075,11 @@ runtime
 GCSliceCallback
 )
 ;
-JS_SetFinalizeCallback
+JS_AddFinalizeCallback
 (
 runtime
 FinalizeCallback
+nullptr
 )
 ;
 JS_SetWrapObjectCallbacks
