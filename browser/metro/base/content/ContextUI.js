@@ -1037,7 +1037,7 @@ aDelay
 aDelay
 |
 |
-kNewTabAnimationDelayMsec
+kForegroundTabAnimationDelay
 ;
 this
 .
