@@ -2663,6 +2663,13 @@ mMemoryPressureObserver
 =
 nullptr
 ;
+gPlatform
+-
+>
+mSkiaGlue
+=
+nullptr
+;
 }
 #
 ifdef
