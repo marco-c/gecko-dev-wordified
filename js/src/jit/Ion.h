@@ -1040,7 +1040,7 @@ before
 we
 stop
 inlining
-any
+large
 functions
 in
 that
