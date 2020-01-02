@@ -641,8 +641,8 @@ example
 *
 class
 FooBar
-{
 *
+{
 *
 MOZ_BEGIN_NESTED_ENUM_CLASS
 (
@@ -660,7 +660,6 @@ MOZ_END_NESTED_ENUM_CLASS
 (
 Enum
 )
-*
 *
 }
 ;
@@ -2486,8 +2485,8 @@ to
 be
 of
 type
-T
 *
+T
 but
 on
 non
@@ -2506,9 +2505,9 @@ type
 not
 an
 integer
+*
 type
 so
-*
 it
 is
 not
@@ -2522,9 +2521,9 @@ constant
 template
 parameter
 .
+*
 One
 would
-*
 then
 want
 to
@@ -2538,9 +2537,9 @@ that
 doesn
 '
 t
+*
 work
 either
-*
 as
 T
 depends
@@ -2552,10 +2551,10 @@ more
 specifically
 here
 T
+*
 _is_
 a
 template
-*
 parameter
 )
 so
@@ -2566,6 +2565,7 @@ T
 )
 expands
 to
+*
 T
 :
 :
@@ -2573,7 +2573,6 @@ Enum
 we
 are
 missing
-*
 the
 required
 "
@@ -2583,8 +2582,8 @@ keyword
 .
 So
 here
-MOZ_TEMPLATE_ENUM_CLASS_ENUM_TYPE
 *
+MOZ_TEMPLATE_ENUM_CLASS_ENUM_TYPE
 is
 needed
 .

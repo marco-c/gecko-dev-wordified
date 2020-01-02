@@ -806,10 +806,10 @@ that
 data
 actually
 be
+*
 WCHAR
 *
 .
-*
 Supporting
 this
 requires
@@ -818,9 +818,9 @@ operators
 to
 support
 the
+*
 requisite
 explicit
-*
 casts
 .
 *

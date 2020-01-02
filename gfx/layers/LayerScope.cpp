@@ -1389,7 +1389,7 @@ digest
 SHA1Sum
 :
 :
-HashSize
+kHashSize
 ]
 ;
 /
@@ -1422,7 +1422,7 @@ digest
 SHA1Sum
 :
 :
-HashSize
+kHashSize
 )
 ;
 Base64Encode

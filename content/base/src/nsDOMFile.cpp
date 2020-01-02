@@ -4968,7 +4968,7 @@ digest
 SHA1Sum
 :
 :
-HashSize
+kHashSize
 ]
 ;
 /

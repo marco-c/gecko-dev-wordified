@@ -571,12 +571,12 @@ MOZ_CONSTEXPR
 CastableTypedEnumResult
 (
 E
-value
+aValue
 )
 :
 mValue
 (
-value
+aValue
 )
 {
 }

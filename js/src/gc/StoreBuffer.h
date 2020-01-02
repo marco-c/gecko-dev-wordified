@@ -2678,7 +2678,7 @@ DebugOnly
 <
 bool
 >
-entered
+mEntered
 ;
 /
 *
@@ -2738,7 +2738,7 @@ enabled_
 (
 false
 )
-entered
+mEntered
 (
 false
 )

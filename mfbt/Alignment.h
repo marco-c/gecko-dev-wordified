@@ -409,6 +409,7 @@ doesn
 '
 t
 like
+*
 __attribute__
 (
 (
@@ -419,7 +420,6 @@ foo
 )
 )
 where
-*
 foo
 is
 a

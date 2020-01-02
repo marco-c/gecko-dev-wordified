@@ -284,7 +284,7 @@ SHA1Sum
 union
 {
 uint32_t
-w
+mW
 [
 16
 ]
@@ -296,16 +296,16 @@ buffer
 *
 /
 uint8_t
-b
+mB
 [
 64
 ]
 ;
 }
-u
+mU
 ;
 uint64_t
-size
+mSize
 ;
 /
 *
@@ -317,7 +317,7 @@ bytes
 *
 /
 unsigned
-H
+mH
 [
 22
 ]
@@ -347,7 +347,7 @@ SHA1Sum
 static
 const
 size_t
-HashSize
+kHashSize
 =
 20
 ;
@@ -355,7 +355,7 @@ typedef
 uint8_t
 Hash
 [
-HashSize
+kHashSize
 ]
 ;
 /
@@ -381,9 +381,9 @@ update
 const
 void
 *
-dataIn
+aData
 uint32_t
-len
+aLength
 )
 ;
 /
@@ -409,7 +409,7 @@ SHA1Sum
 :
 Hash
 &
-hashOut
+aHashOut
 )
 ;
 }

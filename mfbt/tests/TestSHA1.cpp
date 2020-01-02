@@ -1232,12 +1232,13 @@ i
 SHA1Sum
 :
 :
-HashSize
+kHashSize
 ;
 i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 hash
@@ -1252,6 +1253,7 @@ i
 ]
 )
 ;
+}
 return
 0
 ;

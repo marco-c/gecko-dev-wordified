@@ -1071,7 +1071,7 @@ Ptr
 *
 T
 *
-ptr
+mPtr
 ;
 *
 MOZ_EXPLICIT_CONVERSION
@@ -1080,10 +1080,11 @@ bool
 (
 )
 const
+*
 {
 *
 return
-ptr
+mPtr
 !
 =
 nullptr
@@ -1386,6 +1387,7 @@ file
 int
 ln
 )
+*
 MOZ_PRETEND_NORETURN_FOR_STATIC_ANALYSIS
 *
 *
