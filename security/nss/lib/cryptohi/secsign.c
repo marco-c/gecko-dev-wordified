@@ -255,11 +255,11 @@ it
 may
 just
 support
-CKM_SHA1_RSA_PKCS
+CKM_RSA_PKCS_WITH_SHA1
 and
 /
 or
-CKM_MD5_RSA_PKCS
+CKM_RSA_PKCS_WITH_MD5
 .
 *
 /

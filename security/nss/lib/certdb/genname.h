@@ -224,16 +224,6 @@ name
 )
 ;
 extern
-CERTGeneralNameType
-CERT_GetGeneralNameTypeFromString
-(
-const
-char
-*
-string
-)
-;
-extern
 SECStatus
 cert_EncodeNameConstraints
 (

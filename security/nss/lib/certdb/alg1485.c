@@ -236,7 +236,7 @@ SUPPORT
 "
 CN
 "
-640
+64
 SEC_OID_AVA_COMMON_NAME
 SEC_ASN1_DS
 }
@@ -252,7 +252,7 @@ SEC_ASN1_DS
 "
 O
 "
-128
+64
 SEC_OID_AVA_ORGANIZATION_NAME
 SEC_ASN1_DS
 }
@@ -260,7 +260,7 @@ SEC_ASN1_DS
 "
 OU
 "
-128
+64
 SEC_OID_AVA_ORGANIZATIONAL_UNIT_NAME
 SEC_ASN1_DS
 }
@@ -3123,7 +3123,7 @@ tagBuf
 char
 valBuf
 [
-1024
+384
 ]
 ;
 PORT_Assert
@@ -6756,7 +6756,7 @@ strict
 #
 define
 TMPBUF_LEN
-2048
+384
 const
 NameToKind
 *
