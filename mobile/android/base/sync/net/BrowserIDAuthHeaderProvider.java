@@ -144,9 +144,7 @@ Authorization
 header
 for
 *
-Browser
--
-ID
+BrowserID
 assertions
 in
 the
