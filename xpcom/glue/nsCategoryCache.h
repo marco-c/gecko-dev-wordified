@@ -306,6 +306,7 @@ if
 (
 mObserver
 )
+{
 mObserver
 -
 >
@@ -313,6 +314,7 @@ ListenerDied
 (
 )
 ;
+}
 }
 void
 GetEntries
@@ -322,7 +324,7 @@ nsCOMArray
 T
 >
 &
-result
+aResult
 )
 {
 /
@@ -352,6 +354,7 @@ if
 !
 mObserver
 )
+{
 mObserver
 =
 new
@@ -364,6 +367,7 @@ get
 )
 )
 ;
+}
 mObserver
 -
 >
@@ -375,7 +379,7 @@ EnumerateRead
 (
 EntriesToArray
 &
-result
+aResult
 )
 ;
 }
@@ -404,13 +408,13 @@ EntriesToArray
 const
 nsACString
 &
-key
+aKey
 nsISupports
 *
-entry
+aEntry
 void
 *
-arg
+aArg
 )
 {
 nsCOMArray
@@ -430,7 +434,7 @@ T
 *
 >
 (
-arg
+aArg
 )
 ;
 nsCOMPtr
@@ -441,7 +445,7 @@ service
 =
 do_QueryInterface
 (
-entry
+aEntry
 )
 ;
 if

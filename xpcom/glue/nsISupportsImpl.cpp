@@ -79,7 +79,7 @@ aInstancePtr
 const
 QITableEntry
 *
-entries
+aEntries
 )
 {
 do
@@ -91,7 +91,7 @@ aIID
 Equals
 (
 *
-entries
+aEntries
 -
 >
 iid
@@ -117,7 +117,7 @@ char
 aThis
 )
 +
-entries
+aEntries
 -
 >
 offset
@@ -139,12 +139,12 @@ NS_OK
 }
 +
 +
-entries
+aEntries
 ;
 }
 while
 (
-entries
+aEntries
 -
 >
 iid

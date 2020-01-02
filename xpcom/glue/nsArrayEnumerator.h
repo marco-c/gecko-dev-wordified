@@ -150,10 +150,10 @@ NS_NewArrayEnumerator
 nsISimpleEnumerator
 *
 *
-result
+aResult
 nsIArray
 *
-array
+aArray
 )
 ;
 /

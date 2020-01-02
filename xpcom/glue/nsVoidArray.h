@@ -300,7 +300,7 @@ operator
 const
 nsVoidArray
 &
-other
+aOther
 )
 ;
 inline
@@ -383,10 +383,10 @@ const
 {
 NS_ASSERTION
 (
-0
-<
-=
 aIndex
+>
+=
+0
 &
 &
 aIndex
@@ -477,10 +477,10 @@ const
 {
 NS_ASSERTION
 (
-0
-<
-=
 aIndex
+>
+=
+0
 &
 &
 aIndex
@@ -538,6 +538,7 @@ Count
 )
 )
 )
+{
 /
 /
 handles
@@ -545,7 +546,6 @@ aIndex
 <
 0
 too
-{
 return
 nullptr
 ;
@@ -615,7 +615,7 @@ InsertElementsAt
 const
 nsVoidArray
 &
-other
+aOther
 int32_t
 aIndex
 )
@@ -951,7 +951,7 @@ SetArray
 (
 Impl
 *
-newImpl
+aNewImpl
 int32_t
 aSize
 int32_t
@@ -973,7 +973,7 @@ nsVoidArray
 const
 nsVoidArray
 &
-other
+aOther
 )
 ;
 }
@@ -1340,7 +1340,7 @@ operator
 (
 nsSmallVoidArray
 &
-other
+aOther
 )
 ;
 void
@@ -1442,10 +1442,10 @@ const
 {
 NS_ASSERTION
 (
-0
-<
-=
 aIndex
+>
+=
+0
 &
 &
 aIndex
@@ -1511,6 +1511,7 @@ Count
 )
 )
 )
+{
 /
 /
 handles
@@ -1518,7 +1519,6 @@ aIndex
 <
 0
 too
-{
 return
 nullptr
 ;
@@ -1555,7 +1555,7 @@ InsertElementsAt
 const
 nsVoidArray
 &
-other
+aOther
 int32_t
 aIndex
 )

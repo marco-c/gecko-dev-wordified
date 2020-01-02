@@ -165,9 +165,9 @@ bool
 IsTwiceTheRequiredBytesRepresentableAsUint32
 (
 size_t
-capacity
+aCapacity
 size_t
-elemSize
+aElemSize
 )
 {
 using
@@ -181,10 +181,10 @@ return
 (
 CheckedUint32
 (
-capacity
+aCapacity
 )
 *
-elemSize
+aElemSize
 )
 *
 2

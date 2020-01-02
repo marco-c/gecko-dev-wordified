@@ -208,7 +208,7 @@ nsCOMArray_base
 const
 nsCOMArray_base
 &
-other
+aOther
 )
 ;
 ~
@@ -762,6 +762,7 @@ Length
 >
 aNewLength
 )
+{
 RemoveElementsAt
 (
 aNewLength
@@ -774,6 +775,7 @@ Length
 aNewLength
 )
 ;
+}
 }
 /
 /
@@ -1168,7 +1170,7 @@ operator
 const
 nsCOMArray_base
 &
-other
+aOther
 )
 MOZ_DELETE
 ;
@@ -2818,7 +2820,7 @@ T
 *
 *
 *
-elements
+aElements
 )
 {
 return
@@ -2835,7 +2837,7 @@ nsISupports
 *
 >
 (
-elements
+aElements
 )
 )
 ;
@@ -2864,7 +2866,7 @@ nsCOMArray
 T
 >
 &
-other
+aOther
 )
 MOZ_DELETE
 ;

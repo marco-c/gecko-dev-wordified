@@ -301,7 +301,7 @@ public
 *
 *
 param
-name
+aName
 A
 name
 which
@@ -341,12 +341,12 @@ OffTheBooksMutex
 const
 char
 *
-name
+aName
 )
 :
 BlockingResourceBase
 (
-name
+aName
 eMutex
 )
 {
@@ -361,6 +361,7 @@ if
 !
 mLock
 )
+{
 NS_RUNTIMEABORT
 (
 "
@@ -375,6 +376,7 @@ Mutex
 "
 )
 ;
+}
 }
 ~
 OffTheBooksMutex
@@ -624,12 +626,12 @@ Mutex
 const
 char
 *
-name
+aName
 )
 :
 OffTheBooksMutex
 (
-name
+aName
 )
 {
 MOZ_COUNT_CTOR

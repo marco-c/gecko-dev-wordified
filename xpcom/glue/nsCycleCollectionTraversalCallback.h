@@ -162,11 +162,11 @@ void
 DescribeRefCountedNode
 (
 nsrefcnt
-refcount
+aRefcount
 const
 char
 *
-objname
+aObjName
 )
 =
 0
@@ -189,11 +189,11 @@ void
 DescribeGCedNode
 (
 bool
-ismarked
+aIsMarked
 const
 char
 *
-objname
+aObjName
 uint64_t
 aCompartmentAddress
 =
@@ -210,7 +210,7 @@ NoteXPCOMChild
 (
 nsISupports
 *
-child
+aChild
 )
 =
 0
@@ -223,7 +223,7 @@ NoteJSChild
 (
 void
 *
-child
+aChild
 )
 =
 0
@@ -236,10 +236,10 @@ NoteNativeChild
 (
 void
 *
-child
+aChild
 nsCycleCollectionParticipant
 *
-helper
+aHelper
 )
 =
 0
@@ -290,7 +290,7 @@ NoteNextEdgeName
 const
 char
 *
-name
+aName
 )
 =
 0

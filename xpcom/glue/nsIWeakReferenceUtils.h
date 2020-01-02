@@ -231,7 +231,7 @@ nsIWeakReference
 aWeakPtr
 nsresult
 *
-error
+aError
 )
 :
 mWeakPtr
@@ -240,16 +240,9 @@ aWeakPtr
 )
 mErrorPtr
 (
-error
+aError
 )
 {
-/
-/
-nothing
-else
-to
-do
-here
 }
 virtual
 nsresult
@@ -290,7 +283,7 @@ nsIWeakReference
 aRawPtr
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -299,7 +292,7 @@ return
 nsQueryReferent
 (
 aRawPtr
-error
+aError
 )
 ;
 }
@@ -431,7 +424,7 @@ nsISupports
 aRawPtr
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -442,7 +435,7 @@ dont_AddRef
 NS_GetWeakReference
 (
 aRawPtr
-error
+aError
 )
 )
 ;
@@ -456,7 +449,7 @@ nsIWeakReference
 aRawPtr
 nsresult
 *
-error
+aError
 =
 0
 )

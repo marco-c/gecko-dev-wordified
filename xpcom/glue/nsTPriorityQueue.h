@@ -531,6 +531,7 @@ if
 !
 elem
 )
+{
 return
 false
 ;
@@ -539,6 +540,7 @@ false
 Out
 of
 memory
+}
 /
 /
 Sift

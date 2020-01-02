@@ -154,7 +154,7 @@ thread
 *
 *
 param
-result
+aResult
 *
 The
 resulting
@@ -171,7 +171,7 @@ NS_GetMainThread
 nsIThread
 *
 *
-result
+aResult
 )
 ;
 #

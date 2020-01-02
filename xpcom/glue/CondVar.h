@@ -203,7 +203,7 @@ The
 CALLER
 owns
 |
-lock
+aLock
 |
 .
 *
@@ -287,7 +287,7 @@ CondVar
 /
 /
 |
-lock
+aLock
 |
 must
 necessarily
@@ -313,6 +313,7 @@ if
 !
 mCvar
 )
+{
 NS_RUNTIMEABORT
 (
 "
@@ -327,6 +328,7 @@ CondVar
 "
 )
 ;
+}
 }
 /
 *
@@ -409,7 +411,7 @@ nsresult
 Wait
 (
 PRIntervalTime
-interval
+aInterval
 =
 PR_INTERVAL_NO_TIMEOUT
 )
@@ -436,7 +438,7 @@ return
 PR_WaitCondVar
 (
 mCvar
-interval
+aInterval
 )
 =
 =
@@ -453,7 +455,7 @@ nsresult
 Wait
 (
 PRIntervalTime
-interval
+aInterval
 =
 PR_INTERVAL_NO_TIMEOUT
 )

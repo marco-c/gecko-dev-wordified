@@ -268,7 +268,7 @@ nsresult
 Wait
 (
 PRIntervalTime
-interval
+aInterval
 =
 PR_INTERVAL_NO_TIMEOUT
 )
@@ -278,7 +278,7 @@ mCondVar
 .
 Wait
 (
-interval
+aInterval
 )
 ;
 }
@@ -456,7 +456,7 @@ nsresult
 Wait
 (
 PRIntervalTime
-interval
+aInterval
 =
 PR_INTERVAL_NO_TIMEOUT
 )
@@ -467,7 +467,7 @@ mMonitor
 >
 Wait
 (
-interval
+aInterval
 )
 ;
 }

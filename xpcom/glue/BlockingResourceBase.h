@@ -429,7 +429,7 @@ blocking
 resource
 to
 |
-out
+aOut
 |
 .
 If
@@ -572,7 +572,7 @@ is
 written
 into
 |
-out
+aOut
 |
 *
 /
@@ -588,7 +588,7 @@ ResourceAcquisition
 aFirstSeen
 nsACString
 &
-out
+aOut
 bool
 aPrintFirstSeenCx
 =
@@ -967,7 +967,7 @@ PrintCycle
 Append
 to
 |
-out
+aOut
 |
 detailed
 information
@@ -978,7 +978,7 @@ circular
 dependency
 in
 |
-cycle
+aCycle
 |
 .
 Returns
@@ -1067,7 +1067,7 @@ is
 written
 into
 |
-out
+aOut
 |
 *
 /
@@ -1081,10 +1081,10 @@ DDT
 :
 ResourceAcquisitionArray
 *
-cycle
+aCycle
 nsACString
 &
-out
+aOut
 )
 ;
 /
@@ -1632,6 +1632,7 @@ if
 !
 sDeadlockDetector
 )
+{
 NS_RUNTIMEABORT
 (
 "
@@ -1644,6 +1645,7 @@ detector
 "
 )
 ;
+}
 return
 PR_SUCCESS
 ;

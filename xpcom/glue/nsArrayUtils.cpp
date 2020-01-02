@@ -149,11 +149,13 @@ if
 (
 mErrorPtr
 )
+{
 *
 mErrorPtr
 =
 status
 ;
+}
 return
 status
 ;

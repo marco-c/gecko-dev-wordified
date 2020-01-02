@@ -163,8 +163,10 @@ if
 !
 catMan
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 nsISimpleEnumerator
@@ -193,8 +195,10 @@ NS_FAILED
 rv
 )
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 nsIUTF8StringEnumerator
@@ -412,8 +416,10 @@ if
 (
 mObserversRemoved
 )
+{
 return
 ;
+}
 mObserversRemoved
 =
 true
@@ -542,9 +548,11 @@ mCategory
 )
 )
 )
+{
 return
 NS_OK
 ;
+}
 nsAutoCString
 str
 ;
@@ -564,6 +572,7 @@ if
 (
 strWrapper
 )
+{
 strWrapper
 -
 >
@@ -572,6 +581,7 @@ GetData
 str
 )
 ;
+}
 if
 (
 strcmp
@@ -657,9 +667,11 @@ GetWeak
 str
 )
 )
+{
 return
 NS_OK
 ;
+}
 nsCOMPtr
 <
 nsICategoryManager
@@ -676,9 +688,11 @@ if
 !
 catMan
 )
+{
 return
 NS_OK
 ;
+}
 nsCString
 entryValue
 ;

@@ -284,9 +284,11 @@ if
 !
 f
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 return
 f
 -
@@ -378,6 +380,7 @@ cid
 +
 e
 )
+{
 r
 -
 >
@@ -396,6 +399,7 @@ aLoaderStr
 aType
 )
 ;
+}
 for
 (
 const
@@ -423,6 +427,7 @@ contractid
 +
 e
 )
+{
 r
 -
 >
@@ -444,6 +449,7 @@ aLoaderStr
 aType
 )
 ;
+}
 nsCOMPtr
 <
 nsICategoryManager
@@ -483,6 +489,7 @@ if
 !
 catman
 )
+{
 catman
 =
 do_GetService
@@ -490,6 +497,7 @@ do_GetService
 NS_CATEGORYMANAGER_CONTRACTID
 )
 ;
+}
 nsAutoCString
 r
 ;

@@ -209,7 +209,7 @@ nsISupports
 aSource
 nsresult
 *
-error
+aError
 )
 :
 mSource
@@ -218,16 +218,9 @@ aSource
 )
 mErrorPtr
 (
-error
+aError
 )
 {
-/
-/
-nothing
-else
-to
-do
-here
 }
 virtual
 nsresult
@@ -267,7 +260,7 @@ nsISupports
 aSource
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -276,7 +269,7 @@ return
 nsGetInterface
 (
 aSource
-error
+aError
 )
 ;
 }

@@ -153,13 +153,6 @@ mErrorPtr
 aErrorPtr
 )
 {
-/
-/
-nothing
-else
-to
-do
-here
 }
 virtual
 nsresult

@@ -108,12 +108,12 @@ nsProxyReleaseEvent
 (
 nsISupports
 *
-doomed
+aDoomed
 )
 :
 mDoomed
 (
-doomed
+aDoomed
 )
 {
 }
@@ -146,12 +146,12 @@ NS_ProxyRelease
 (
 nsIEventTarget
 *
-target
+aTarget
 nsISupports
 *
-doomed
+aDoomed
 bool
-alwaysProxy
+aAlwaysProxy
 )
 {
 nsresult
@@ -160,7 +160,7 @@ rv
 if
 (
 !
-doomed
+aDoomed
 )
 {
 /
@@ -175,12 +175,12 @@ NS_OK
 if
 (
 !
-target
+aTarget
 )
 {
 NS_RELEASE
 (
-doomed
+aDoomed
 )
 ;
 return
@@ -190,7 +190,7 @@ NS_OK
 if
 (
 !
-alwaysProxy
+aAlwaysProxy
 )
 {
 bool
@@ -200,7 +200,7 @@ false
 ;
 rv
 =
-target
+aTarget
 -
 >
 IsOnCurrentThread
@@ -222,7 +222,7 @@ onCurrentThread
 {
 NS_RELEASE
 (
-doomed
+aDoomed
 )
 ;
 return
@@ -239,7 +239,7 @@ ev
 new
 nsProxyReleaseEvent
 (
-doomed
+aDoomed
 )
 ;
 if
@@ -254,7 +254,7 @@ we
 do
 not
 release
-doomed
+aDoomed
 here
 since
 it
@@ -281,7 +281,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 rv
 =
-target
+aTarget
 -
 >
 Dispatch
@@ -319,7 +319,7 @@ better
 to
 leak
 the
-doomed
+aDoomed
 object
 than
 risk
