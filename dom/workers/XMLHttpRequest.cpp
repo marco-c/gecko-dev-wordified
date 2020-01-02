@@ -3945,6 +3945,10 @@ mWorkerPrivate
 =
 nullptr
 ;
+mSyncLoopTarget
+=
+nullptr
+;
 mOutstandingSendCount
 =
 0
@@ -4692,6 +4696,13 @@ mProxy
 -
 >
 mWorkerPrivate
+=
+nullptr
+;
+mProxy
+-
+>
+mSyncLoopTarget
 =
 nullptr
 ;
