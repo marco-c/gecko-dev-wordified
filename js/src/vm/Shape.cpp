@@ -6483,7 +6483,7 @@ if
 types
 :
 :
-IsTypePropertyIdMarkedConfigured
+IsTypePropertyIdMarkedNonData
 (
 obj
 shape
@@ -6503,7 +6503,7 @@ else
 types
 :
 :
-MarkTypePropertyConfigured
+MarkTypePropertyNonData
 (
 cx
 -

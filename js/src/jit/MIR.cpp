@@ -19566,7 +19566,7 @@ if
 (
 property
 .
-configured
+nonData
 (
 constraints
 )
