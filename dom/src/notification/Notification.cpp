@@ -3814,9 +3814,6 @@ if
 mIsClosed
 )
 {
-nsresult
-rv
-;
 /
 /
 Don
@@ -3863,6 +3860,7 @@ notificationStorage
 nsString
 origin
 ;
+nsresult
 rv
 =
 GetOrigin
@@ -3908,14 +3906,6 @@ if
 alertService
 )
 {
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 alertService
 -
 >
@@ -3927,7 +3917,6 @@ GetPrincipal
 )
 )
 ;
-}
 }
 }
 }
