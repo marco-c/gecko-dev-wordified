@@ -633,12 +633,6 @@ ClientLayerManager
 >
 mLayerManager
 ;
-nsCOMPtr
-<
-nsIObserver
->
-mMemoryPressureObserver
-;
 /
 /
 The
