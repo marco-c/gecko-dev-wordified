@@ -1850,8 +1850,8 @@ isTenured
 }
 ProfiledBlocksFunction
 (
-const
 ProfiledBlocksFunction
+&
 &
 copy
 )
@@ -3339,7 +3339,13 @@ perfProfiledBlocksFunctions_
 .
 append
 (
+mozilla
+:
+:
+Move
+(
 func
+)
 )
 ;
 }
