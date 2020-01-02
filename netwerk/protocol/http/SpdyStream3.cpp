@@ -2894,7 +2894,7 @@ if
 (
 name
 .
-Equals
+EqualsLiteral
 (
 "
 connection
@@ -2904,7 +2904,7 @@ connection
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 keep
@@ -2916,7 +2916,7 @@ alive
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 host
@@ -2926,7 +2926,7 @@ host
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 accept
@@ -2938,7 +2938,7 @@ encoding
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 te
@@ -2948,7 +2948,7 @@ te
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 transfer
@@ -3068,7 +3068,7 @@ if
 (
 name
 .
-Equals
+EqualsLiteral
 (
 "
 content

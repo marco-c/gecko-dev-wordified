@@ -1759,7 +1759,7 @@ nameValuePair
 1
 ]
 .
-Equals
+EqualsLiteral
 (
 "
 24
@@ -1781,7 +1781,7 @@ nameValuePair
 1
 ]
 .
-Equals
+EqualsLiteral
 (
 "
 32

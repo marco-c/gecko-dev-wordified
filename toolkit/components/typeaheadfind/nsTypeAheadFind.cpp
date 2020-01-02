@@ -1338,7 +1338,7 @@ if
 (
 mNotFoundSoundURL
 .
-Equals
+EqualsLiteral
 (
 "
 beep
@@ -1366,7 +1366,7 @@ if
 (
 mNotFoundSoundURL
 .
-Equals
+EqualsLiteral
 (
 "
 default

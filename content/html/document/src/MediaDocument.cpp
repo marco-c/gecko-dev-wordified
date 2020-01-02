@@ -890,7 +890,7 @@ IsEmpty
 !
 charset
 .
-Equals
+EqualsLiteral
 (
 "
 UTF

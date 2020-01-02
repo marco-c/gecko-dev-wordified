@@ -6320,7 +6320,7 @@ if
 (
 name
 .
-Equals
+EqualsLiteral
 (
 "
 connection
@@ -6330,7 +6330,7 @@ connection
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 host
@@ -6340,7 +6340,7 @@ host
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 keep
@@ -6352,7 +6352,7 @@ alive
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 proxy
@@ -6364,7 +6364,7 @@ connection
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 te
@@ -6374,7 +6374,7 @@ te
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 transfer
@@ -6386,7 +6386,7 @@ encoding
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 upgrade
@@ -6396,7 +6396,7 @@ upgrade
 |
 name
 .
-Equals
+EqualsLiteral
 (
 "
 accept
@@ -6507,7 +6507,7 @@ if
 (
 name
 .
-Equals
+EqualsLiteral
 (
 "
 expect
@@ -6662,7 +6662,7 @@ if
 (
 name
 .
-Equals
+EqualsLiteral
 (
 "
 content
@@ -6707,7 +6707,7 @@ if
 (
 name
 .
-Equals
+EqualsLiteral
 (
 "
 cookie
@@ -6811,7 +6811,7 @@ value
 )
 name
 .
-Equals
+EqualsLiteral
 (
 "
 authorization

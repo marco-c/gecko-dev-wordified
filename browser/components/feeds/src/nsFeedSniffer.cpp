@@ -1270,7 +1270,7 @@ if
 !
 method
 .
-Equals
+EqualsLiteral
 (
 "
 GET

@@ -4663,7 +4663,7 @@ allowURLExt
 !
 requestMethod
 .
-Equals
+EqualsLiteral
 (
 "
 POST

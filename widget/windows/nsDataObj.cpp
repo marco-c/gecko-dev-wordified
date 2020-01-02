@@ -9654,7 +9654,7 @@ if
 (
 aDataFlavor
 .
-Equals
+EqualsLiteral
 (
 "
 text

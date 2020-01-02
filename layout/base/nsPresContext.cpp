@@ -3108,7 +3108,7 @@ if
 (
 cvalue
 .
-Equals
+EqualsLiteral
 (
 "
 px
@@ -3126,7 +3126,7 @@ if
 (
 cvalue
 .
-Equals
+EqualsLiteral
 (
 "
 pt
@@ -4904,7 +4904,7 @@ if
 (
 animatePref
 .
-Equals
+EqualsLiteral
 (
 "
 normal
@@ -4923,7 +4923,7 @@ if
 (
 animatePref
 .
-Equals
+EqualsLiteral
 (
 "
 none
@@ -4942,7 +4942,7 @@ if
 (
 animatePref
 .
-Equals
+EqualsLiteral
 (
 "
 once

@@ -580,7 +580,7 @@ if
 (
 name
 .
-Equals
+EqualsLiteral
 (
 "
 font

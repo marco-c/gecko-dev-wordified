@@ -1335,7 +1335,7 @@ if
 (
 aFilePath
 .
-Equals
+EqualsLiteral
 (
 "
 ~
@@ -7445,7 +7445,7 @@ if
 (
 mPath
 .
-Equals
+EqualsLiteral
 (
 "
 /

@@ -3547,7 +3547,7 @@ if
 (
 name
 .
-Equals
+EqualsLiteral
 (
 "
 content

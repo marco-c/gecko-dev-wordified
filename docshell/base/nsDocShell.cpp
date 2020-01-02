@@ -65351,7 +65351,7 @@ if
 (
 buf
 .
-Equals
+EqualsLiteral
 (
 "
 about
@@ -65383,7 +65383,7 @@ if
 (
 buf
 .
-Equals
+EqualsLiteral
 (
 "
 blank
@@ -69525,7 +69525,7 @@ method
 return
 method
 .
-Equals
+EqualsLiteral
 (
 "
 POST

@@ -1689,7 +1689,7 @@ if
 (
 mCommandStr
 .
-Equals
+EqualsLiteral
 (
 "
 view
@@ -1709,7 +1709,7 @@ if
 (
 mCommandStr
 .
-Equals
+EqualsLiteral
 (
 "
 view

@@ -15194,7 +15194,7 @@ if
 (
 name
 .
-Equals
+EqualsLiteral
 (
 "
 about

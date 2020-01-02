@@ -549,7 +549,7 @@ NS_OK
 &
 proxyMode
 .
-Equals
+EqualsLiteral
 (
 "
 auto
@@ -2782,7 +2782,7 @@ if
 !
 proxyMode
 .
-Equals
+EqualsLiteral
 (
 "
 manual

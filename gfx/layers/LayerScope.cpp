@@ -1244,7 +1244,7 @@ if
 (
 version
 .
-Equals
+EqualsLiteral
 (
 "
 7
@@ -1254,7 +1254,7 @@ Equals
 |
 version
 .
-Equals
+EqualsLiteral
 (
 "
 8
@@ -1264,7 +1264,7 @@ Equals
 |
 version
 .
-Equals
+EqualsLiteral
 (
 "
 13

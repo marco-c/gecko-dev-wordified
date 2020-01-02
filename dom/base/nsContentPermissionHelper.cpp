@@ -1435,7 +1435,7 @@ type
 (
 )
 .
-Equals
+EqualsLiteral
 (
 "
 audio
@@ -1499,7 +1499,7 @@ type
 (
 )
 .
-Equals
+EqualsLiteral
 (
 "
 video
