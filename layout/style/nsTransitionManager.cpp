@@ -220,7 +220,9 @@ h
 #
 include
 "
-nsGUIEvent
+mozilla
+/
+ContentEvents
 .
 h
 "

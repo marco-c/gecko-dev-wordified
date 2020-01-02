@@ -172,6 +172,15 @@ include
 "
 mozilla
 /
+ContentEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MiscEvents
 .
 h

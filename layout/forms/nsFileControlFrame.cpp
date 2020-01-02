@@ -181,6 +181,13 @@ h
 #
 include
 "
+nsIDOMDataTransfer
+.
+h
+"
+#
+include
+"
 nsIDOMDOMStringList
 .
 h

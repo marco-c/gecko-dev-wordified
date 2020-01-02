@@ -144,6 +144,15 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 DOMError

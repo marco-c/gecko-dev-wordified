@@ -98,6 +98,15 @@ include
 "
 mozilla
 /
+ContentEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 AnimationEventBinding

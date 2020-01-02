@@ -420,6 +420,15 @@ include
 "
 mozilla
 /
+ContentEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h

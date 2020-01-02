@@ -111,6 +111,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsIDOMScrollAreaEvent
 .
 h

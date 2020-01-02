@@ -118,6 +118,15 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ClipboardEventBinding
