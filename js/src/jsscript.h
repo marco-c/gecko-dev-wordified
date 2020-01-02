@@ -1453,11 +1453,11 @@ ScriptCounts
 :
 pcCountsVector
 (
-NULL
+nullptr
 )
 ionCounts
 (
-NULL
+nullptr
 )
 {
 }
@@ -1687,7 +1687,7 @@ union
 /
 has
 a
-NULL
+nullptr
 pointer
 .
 When
@@ -1882,15 +1882,15 @@ compressedLength_
 )
 filename_
 (
-NULL
+nullptr
 )
 sourceURL_
 (
-NULL
+nullptr
 )
 sourceMapURL_
 (
-NULL
+nullptr
 )
 originPrincipals_
 (
@@ -1913,7 +1913,7 @@ data
 .
 source
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2186,7 +2186,7 @@ return
 sourceURL_
 !
 =
-NULL
+nullptr
 ;
 }
 /
@@ -2222,7 +2222,7 @@ return
 sourceMapURL_
 !
 =
-NULL
+nullptr
 ;
 }
 JSPrincipals
@@ -2803,8 +2803,8 @@ raw
 (
 )
 or
-NULL
 *
+nullptr
 if
 there
 '
@@ -4947,7 +4947,7 @@ a
 function
 .
 *
-NULL
+nullptr
 for
 global
 and
@@ -5317,7 +5317,7 @@ if
 isCallsiteClone
 )
 return
-NULL
+nullptr
 ;
 return
 enclosingScopeOrOriginalFunction_
@@ -6657,7 +6657,7 @@ pc
 code
 ]
 :
-NULL
+nullptr
 ;
 }
 js
@@ -7619,7 +7619,7 @@ LazyScript
 If
 non
 -
-NULL
+nullptr
 the
 script
 has
@@ -7668,7 +7668,7 @@ script
 is
 nested
 or
-NULL
+nullptr
 .
 HeapPtrObject
 enclosingScope_
@@ -7679,7 +7679,7 @@ Source
 code
 object
 or
-NULL
+nullptr
 if
 the
 script
@@ -7688,9 +7688,9 @@ which
 this
 is
 nested
+/
+/
 has
-/
-/
 not
 been
 compiled
@@ -8596,7 +8596,7 @@ if
 natoms
 )
 return
-NULL
+nullptr
 ;
 return
 reinterpret_cast
@@ -8972,7 +8972,7 @@ unsigned
 *
 columnp
 =
-NULL
+nullptr
 )
 ;
 extern
@@ -8994,7 +8994,7 @@ unsigned
 *
 columnp
 =
-NULL
+nullptr
 )
 ;
 /
@@ -9047,11 +9047,11 @@ by
 setTimeout
 )
 )
-NULL
+nullptr
 and
 0
-are
 *
+are
 returned
 as
 the
@@ -9064,8 +9064,8 @@ this
 function
 avoids
 the
-full
 *
+full
 linear
 scan
 to
@@ -9170,7 +9170,7 @@ leave
 CompileOptions
 .
 originPrincipals
-NULL
+nullptr
 in
 *
 which
