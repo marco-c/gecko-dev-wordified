@@ -1071,11 +1071,11 @@ this
 .
 _pageURL
 =
-principal
+aWindow
 .
-URI
+location
 .
-spec
+href
 ;
 this
 .
