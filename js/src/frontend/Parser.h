@@ -4218,6 +4218,13 @@ objectLiteral
 )
 ;
 Node
+computedPropertyName
+(
+Node
+literal
+)
+;
+Node
 arrayInitializer
 (
 )
