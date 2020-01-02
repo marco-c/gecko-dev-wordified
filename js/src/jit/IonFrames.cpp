@@ -9115,6 +9115,9 @@ JSTracer
 trc
 )
 ;
+#
+ifdef
+JSGC_FJGENERATIONAL
 template
 void
 UpdateJitActivationsForMinorGC
@@ -9133,6 +9136,8 @@ JSTracer
 trc
 )
 ;
+#
+endif
 #
 endif
 void

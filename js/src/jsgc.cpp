@@ -30828,6 +30828,9 @@ isHeapBusy
 )
 )
 ;
+#
+ifdef
+JS_THREADSAFE
 /
 *
 The
@@ -30853,6 +30856,8 @@ currentThreadHasExclusiveAccess
 )
 )
 ;
+#
+endif
 if
 (
 rt
