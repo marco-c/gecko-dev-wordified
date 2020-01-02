@@ -13,7 +13,7 @@ tab
 -
 width
 :
-2
+8
 ;
 indent
 -
@@ -33,6 +33,27 @@ offset
 -
 *
 -
+*
+/
+/
+*
+vim
+:
+set
+ts
+=
+8
+sts
+=
+2
+et
+sw
+=
+2
+tw
+=
+80
+:
 *
 /
 /
@@ -140,12 +161,12 @@ explicit
 FilterChecker
 (
 uint32_t
-hash
+aHash
 )
 :
 mHash
 (
-hash
+aHash
 )
 {
 }
@@ -405,6 +426,7 @@ FILTER_SIZE
 +
 i
 )
+{
 filter
 -
 >
@@ -414,6 +436,7 @@ add
 two
 )
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 filter
@@ -465,6 +488,7 @@ FILTER_SIZE
 +
 i
 )
+{
 filter
 -
 >
@@ -474,6 +498,7 @@ remove
 two
 )
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 !
@@ -533,6 +558,7 @@ FILTER_SIZE
 +
 i
 )
+{
 filter
 -
 >
@@ -542,6 +568,7 @@ add
 two
 )
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 filter
@@ -593,6 +620,7 @@ FILTER_SIZE
 +
 i
 )
+{
 filter
 -
 >
@@ -602,6 +630,7 @@ remove
 two
 )
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 filter

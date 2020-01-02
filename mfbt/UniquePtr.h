@@ -2890,6 +2890,7 @@ old
 =
 nullptr
 )
+{
 getDeleter
 (
 )
@@ -2897,6 +2898,7 @@ getDeleter
 old
 )
 ;
+}
 }
 void
 swap
@@ -3900,6 +3902,7 @@ old
 =
 nullptr
 )
+{
 tuple
 .
 second
@@ -3909,6 +3912,7 @@ second
 old
 )
 ;
+}
 }
 private
 :

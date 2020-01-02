@@ -13,7 +13,7 @@ tab
 -
 width
 :
-2
+8
 ;
 indent
 -
@@ -33,6 +33,27 @@ offset
 -
 *
 -
+*
+/
+/
+*
+vim
+:
+set
+ts
+=
+8
+sts
+=
+2
+et
+sw
+=
+2
+tw
+=
+80
+:
 *
 /
 /
@@ -159,7 +180,7 @@ tests
 /
 static
 char
-output
+gOutput
 [
 32
 ]
@@ -172,11 +193,11 @@ PoisonOutput
 {
 memset
 (
-output
+gOutput
 0xDA
 sizeof
 (
-output
+gOutput
 )
 )
 ;
@@ -241,7 +262,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -258,7 +279,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 17
@@ -272,7 +293,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -288,7 +309,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 42
 "
@@ -308,7 +329,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -325,7 +346,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 289
@@ -339,7 +360,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -355,7 +376,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 728
 "
@@ -375,7 +396,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -392,7 +413,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 342178
@@ -406,7 +427,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -422,7 +443,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 5719283
 "
@@ -442,7 +463,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -462,7 +483,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 432157943248732
@@ -476,7 +497,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -495,7 +516,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 325719232983
 "
@@ -538,7 +559,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -555,7 +576,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 17
@@ -569,7 +590,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -585,7 +606,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 42
 "
@@ -605,7 +626,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -622,7 +643,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 289
@@ -636,7 +657,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -652,7 +673,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 728
 "
@@ -672,7 +693,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -689,7 +710,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 342178
@@ -703,7 +724,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -719,7 +740,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 5719283
 "
@@ -739,7 +760,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -759,7 +780,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 432157943248732
@@ -773,7 +794,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -792,7 +813,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 325719232983
 "
@@ -835,7 +856,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -852,7 +873,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 17
@@ -866,7 +887,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -882,7 +903,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 42
 "
@@ -902,7 +923,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -919,7 +940,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 289
@@ -933,7 +954,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -949,7 +970,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 728
 "
@@ -969,7 +990,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -986,7 +1007,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 342178
@@ -1000,7 +1021,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1016,7 +1037,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 5719283
 "
@@ -1036,7 +1057,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1056,7 +1077,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 432157943248732
@@ -1070,7 +1091,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1089,7 +1110,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 325719232983
 "
@@ -1132,7 +1153,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1152,7 +1173,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 -
 432157943248732
@@ -1166,7 +1187,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1185,7 +1206,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 325719232983
 "
@@ -1205,7 +1226,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1228,7 +1249,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 12345678
 "
@@ -1241,7 +1262,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1264,7 +1285,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 87654321
 "
@@ -1371,7 +1392,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1387,7 +1408,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 42
 "
@@ -1400,7 +1421,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1416,7 +1437,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 17
 "
@@ -1429,7 +1450,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1445,7 +1466,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a
 "
@@ -1458,7 +1479,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1474,7 +1495,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CD
 "
@@ -1494,7 +1515,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1510,7 +1531,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 4242
 "
@@ -1523,7 +1544,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1539,7 +1560,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 1717
 "
@@ -1552,7 +1573,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1568,7 +1589,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a2a
 "
@@ -1581,7 +1602,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1597,7 +1618,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CDCD
 "
@@ -1617,7 +1638,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1633,7 +1654,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 424242
 "
@@ -1646,7 +1667,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1662,7 +1683,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 171717
 "
@@ -1675,7 +1696,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1691,7 +1712,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a2a2a
 "
@@ -1704,7 +1725,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1720,7 +1741,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CDCDCD
 "
@@ -1740,7 +1761,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1759,7 +1780,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 424242424242
 "
@@ -1772,7 +1793,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1791,7 +1812,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 17171717171717171717
 "
@@ -1804,7 +1825,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1823,7 +1844,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a2a2a2a2a2a2a
 "
@@ -1836,7 +1857,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1855,7 +1876,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CDCDCDCDCDCD
 "
@@ -1898,7 +1919,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1914,7 +1935,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 42
 "
@@ -1927,7 +1948,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1943,7 +1964,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 17
 "
@@ -1956,7 +1977,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -1972,7 +1993,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a
 "
@@ -1985,7 +2006,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2001,7 +2022,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CD
 "
@@ -2021,7 +2042,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2037,7 +2058,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 4242
 "
@@ -2050,7 +2071,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2066,7 +2087,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 1717
 "
@@ -2079,7 +2100,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2095,7 +2116,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a2a
 "
@@ -2108,7 +2129,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2124,7 +2145,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CDCD
 "
@@ -2144,7 +2165,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2160,7 +2181,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 424242
 "
@@ -2173,7 +2194,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2189,7 +2210,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 171717
 "
@@ -2202,7 +2223,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2218,7 +2239,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a2a2a
 "
@@ -2231,7 +2252,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2247,7 +2268,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CDCDCD
 "
@@ -2267,7 +2288,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2286,7 +2307,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 424242424242
 "
@@ -2299,7 +2320,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2318,7 +2339,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 17171717171717171717
 "
@@ -2331,7 +2352,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2350,7 +2371,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a2a2a2a2a2a2a
 "
@@ -2363,7 +2384,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2382,7 +2403,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CDCDCDCDCDCD
 "
@@ -2425,7 +2446,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2441,7 +2462,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 42
 "
@@ -2454,7 +2475,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2470,7 +2491,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 17
 "
@@ -2483,7 +2504,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2499,7 +2520,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a
 "
@@ -2512,7 +2533,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2528,7 +2549,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CD
 "
@@ -2548,7 +2569,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2564,7 +2585,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 4242
 "
@@ -2577,7 +2598,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2593,7 +2614,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 1717
 "
@@ -2606,7 +2627,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2622,7 +2643,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a2a
 "
@@ -2635,7 +2656,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2651,7 +2672,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CDCD
 "
@@ -2671,7 +2692,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2687,7 +2708,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 424242
 "
@@ -2700,7 +2721,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2716,7 +2737,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 171717
 "
@@ -2729,7 +2750,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2745,7 +2766,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a2a2a
 "
@@ -2758,7 +2779,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2774,7 +2795,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CDCDCD
 "
@@ -2794,7 +2815,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2813,7 +2834,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 424242424242
 "
@@ -2826,7 +2847,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2845,7 +2866,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 17171717171717171717
 "
@@ -2858,7 +2879,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2877,7 +2898,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 2a2a2a2a2a2a2a
 "
@@ -2890,7 +2911,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2909,7 +2930,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 CDCDCDCDCDCD
 "
@@ -2952,7 +2973,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -2971,7 +2992,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 14220563454333534
 "
@@ -2984,7 +3005,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -3003,7 +3024,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 325719232983
 "
@@ -3016,7 +3037,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -3035,7 +3056,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 4c337ca791
 "
@@ -3048,7 +3069,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -3067,7 +3088,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 33DD03D75A323
 "
@@ -3087,7 +3108,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -3110,7 +3131,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 57060516
 "
@@ -3123,7 +3144,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -3146,7 +3167,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 87654321
 "
@@ -3159,7 +3180,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -3182,7 +3203,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 4c3a791
 "
@@ -3195,7 +3216,7 @@ PoisonOutput
 ;
 sprintf
 (
-output
+gOutput
 "
 %
 "
@@ -3218,7 +3239,7 @@ MOZ_RELEASE_ASSERT
 !
 strcmp
 (
-output
+gOutput
 "
 F328DB
 "
@@ -3605,11 +3626,11 @@ union
 Input
 {
 T
-i
+mI
 ;
 unsigned
 char
-pun
+mPun
 [
 16
 ]
@@ -3630,20 +3651,20 @@ Input
 T
 >
 &
-input
+aInput
 )
 {
 memset
 (
-input
+aInput
 .
-pun
+mPun
 0xDA
 sizeof
 (
-input
+aInput
 .
-pun
+mPun
 )
 )
 ;
@@ -3663,7 +3684,7 @@ Input
 T
 >
 &
-input
+aInput
 )
 {
 for
@@ -3673,16 +3694,16 @@ i
 =
 sizeof
 (
-input
+aInput
 .
-i
+mI
 )
 ;
 i
 <
 sizeof
 (
-input
+aInput
 )
 ;
 i
@@ -3692,9 +3713,9 @@ i
 {
 if
 (
-input
+aInput
 .
-pun
+mPun
 [
 i
 ]
@@ -3702,9 +3723,11 @@ i
 =
 0xDA
 )
+{
 return
 false
 ;
+}
 }
 return
 true
