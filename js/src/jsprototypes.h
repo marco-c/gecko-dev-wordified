@@ -561,7 +561,7 @@ real
 (
 Array
 3
-js_InitViaClassSpec
+js_InitArrayClass
 OCLASP
 (
 Array
@@ -759,7 +759,7 @@ real
 (
 ArrayBuffer
 21
-js_InitArrayBufferClass
+js_InitTypedArrayClasses
 &
 js
 :
@@ -774,7 +774,7 @@ real
 (
 Int8Array
 22
-js_InitViaClassSpec
+js_InitTypedArrayClasses
 TYPED_ARRAY_CLASP
 (
 TYPE_INT8
@@ -785,7 +785,7 @@ real
 (
 Uint8Array
 23
-js_InitViaClassSpec
+js_InitTypedArrayClasses
 TYPED_ARRAY_CLASP
 (
 TYPE_UINT8
@@ -796,7 +796,7 @@ real
 (
 Int16Array
 24
-js_InitViaClassSpec
+js_InitTypedArrayClasses
 TYPED_ARRAY_CLASP
 (
 TYPE_INT16
@@ -807,7 +807,7 @@ real
 (
 Uint16Array
 25
-js_InitViaClassSpec
+js_InitTypedArrayClasses
 TYPED_ARRAY_CLASP
 (
 TYPE_UINT16
@@ -818,7 +818,7 @@ real
 (
 Int32Array
 26
-js_InitViaClassSpec
+js_InitTypedArrayClasses
 TYPED_ARRAY_CLASP
 (
 TYPE_INT32
@@ -829,7 +829,7 @@ real
 (
 Uint32Array
 27
-js_InitViaClassSpec
+js_InitTypedArrayClasses
 TYPED_ARRAY_CLASP
 (
 TYPE_UINT32
@@ -840,7 +840,7 @@ real
 (
 Float32Array
 28
-js_InitViaClassSpec
+js_InitTypedArrayClasses
 TYPED_ARRAY_CLASP
 (
 TYPE_FLOAT32
@@ -851,7 +851,7 @@ real
 (
 Float64Array
 29
-js_InitViaClassSpec
+js_InitTypedArrayClasses
 TYPED_ARRAY_CLASP
 (
 TYPE_FLOAT64
@@ -862,7 +862,7 @@ real
 (
 Uint8ClampedArray
 30
-js_InitViaClassSpec
+js_InitTypedArrayClasses
 TYPED_ARRAY_CLASP
 (
 TYPE_UINT8_CLAMPED
@@ -918,7 +918,7 @@ real
 (
 DataView
 35
-js_InitDataViewClass
+js_InitTypedArrayClasses
 OCLASP
 (
 DataView
