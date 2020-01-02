@@ -2751,7 +2751,7 @@ sdp_sctpmap
 u16
 port
 ;
-u16
+u32
 streams
 ;
 /
