@@ -6908,6 +6908,7 @@ access
 violation
 .
 class
+MOZ_STACK_CLASS
 AutoThreadSafeAccess
 {
 public
