@@ -929,10 +929,6 @@ range
 -
 >
 to
-.
-pos
-(
-)
 <
 =
 v1
@@ -941,10 +937,6 @@ range
 -
 >
 from
-.
-pos
-(
-)
 )
 return
 -
@@ -958,10 +950,6 @@ range
 -
 >
 from
-.
-pos
-(
-)
 >
 =
 v1
@@ -970,10 +958,6 @@ range
 -
 >
 to
-.
-pos
-(
-)
 )
 return
 1
