@@ -5541,6 +5541,7 @@ GetApzcTreeManager
 ReceiveInputEvent
 (
 aEvent
+nullptr
 aOutEvent
 )
 ;

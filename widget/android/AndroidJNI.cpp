@@ -4259,6 +4259,7 @@ controller
 ReceiveInputEvent
 (
 input
+nullptr
 )
 ;
 }
