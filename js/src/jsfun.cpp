@@ -4343,6 +4343,14 @@ construct
 *
 /
 fun_trace
+{
+CreateFunctionConstructor
+CreateFunctionPrototype
+nullptr
+function_methods
+nullptr
+FinishFunctionClassInit
+}
 }
 ;
 const

@@ -537,7 +537,7 @@ real
 (
 Object
 1
-js_InitObjectClass
+js_InitViaClassSpec
 &
 JSObject
 :
@@ -549,7 +549,7 @@ real
 (
 Function
 2
-js_InitFunctionClass
+js_InitViaClassSpec
 &
 JSFunction
 :
