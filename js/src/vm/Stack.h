@@ -7754,7 +7754,7 @@ StackFrame
 *
 entryFrame_
 ;
-jsbytecode
+size_t
 opMask_
 ;
 /
@@ -7857,7 +7857,7 @@ return
 entryFrame_
 ;
 }
-jsbytecode
+size_t
 opMask
 (
 )
