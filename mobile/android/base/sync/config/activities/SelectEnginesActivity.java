@@ -508,6 +508,7 @@ protected
 SharedPreferences
 accountPrefs
 ;
+Override
 public
 void
 onCreate
@@ -863,6 +864,7 @@ show
 ;
 }
 private
+static
 Set
 <
 String
@@ -997,7 +999,8 @@ null
 .
 *
 /
-private
+public
+static
 Set
 <
 String
