@@ -285,6 +285,11 @@ confusing
 class
 VideoFrameContainer
 {
+~
+VideoFrameContainer
+(
+)
+;
 public
 :
 typedef
@@ -318,11 +323,6 @@ already_AddRefed
 ImageContainer
 >
 aContainer
-)
-;
-~
-VideoFrameContainer
-(
 )
 ;
 /

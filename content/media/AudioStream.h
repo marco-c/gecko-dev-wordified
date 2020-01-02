@@ -1384,6 +1384,12 @@ class
 AudioStream
 MOZ_FINAL
 {
+virtual
+~
+AudioStream
+(
+)
+;
 public
 :
 /
@@ -1523,12 +1529,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 AudioStream
 )
-AudioStream
-(
-)
-;
-virtual
-~
 AudioStream
 (
 )
