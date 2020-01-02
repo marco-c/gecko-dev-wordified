@@ -157,7 +157,7 @@ Ci
 nsIDOMEventListener
 Ci
 .
-nsObserver
+nsIObserver
 Ci
 .
 nsISupportsWeakReference
