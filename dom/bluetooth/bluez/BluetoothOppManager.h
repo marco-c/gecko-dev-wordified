@@ -714,6 +714,12 @@ ComposePacket
 (
 uint8_t
 aOpCode
+mozilla
+:
+:
+ipc
+:
+:
 UnixSocketRawData
 *
 aMessage

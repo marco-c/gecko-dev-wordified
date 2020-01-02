@@ -225,13 +225,6 @@ audiomanager
 ;
 1
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 namespace
 mozilla
 {
