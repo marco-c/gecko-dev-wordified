@@ -10823,9 +10823,9 @@ ContentParent
 RecvAudioChannelGetState
 (
 const
-AudioChannel
+AudioChannelType
 &
-aChannel
+aType
 const
 bool
 &
@@ -10870,7 +10870,7 @@ service
 >
 GetStateInternal
 (
-aChannel
+aType
 mChildID
 aElementHidden
 aElementWasHidden
@@ -10888,9 +10888,9 @@ ContentParent
 RecvAudioChannelRegisterType
 (
 const
-AudioChannel
+AudioChannelType
 &
-aChannel
+aType
 const
 bool
 &
@@ -10920,7 +10920,7 @@ service
 >
 RegisterType
 (
-aChannel
+aType
 mChildID
 aWithVideo
 )
@@ -10937,9 +10937,9 @@ ContentParent
 RecvAudioChannelUnregisterType
 (
 const
-AudioChannel
+AudioChannelType
 &
-aChannel
+aType
 const
 bool
 &
@@ -10973,7 +10973,7 @@ service
 >
 UnregisterType
 (
-aChannel
+aType
 aElementHidden
 mChildID
 aWithVideo
@@ -11032,9 +11032,9 @@ ContentParent
 RecvAudioChannelChangeDefVolChannel
 (
 const
-int32_t
+AudioChannelType
 &
-aChannel
+aType
 const
 bool
 &
@@ -11064,7 +11064,7 @@ service
 >
 SetDefaultVolumeControlChannelInternal
 (
-aChannel
+aType
 aHidden
 mChildID
 )

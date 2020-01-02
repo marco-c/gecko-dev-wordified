@@ -5613,8 +5613,8 @@ preservesPitch
 bool
 setPreservesPitch
 ;
-AudioChannel
-audioChannel
+AudioChannelType
+audioChannelType
 ;
 {
 ReentrantMonitorAutoEnter
@@ -5670,12 +5670,12 @@ mAudio
 .
 mRate
 ;
-audioChannel
+audioChannelType
 =
 mDecoder
 -
 >
-GetAudioChannel
+GetAudioChannelType
 (
 )
 ;
@@ -5740,7 +5740,7 @@ Init
 (
 channels
 rate
-audioChannel
+audioChannelType
 AudioStream
 :
 :
