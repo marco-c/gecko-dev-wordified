@@ -258,6 +258,16 @@ for
 recording
 *
 /
+TILED
+/
+*
+Surface
+from
+a
+tiled
+DrawTarget
+*
+/
 MOZ_END_ENUM_CLASS
 (
 SurfaceType
