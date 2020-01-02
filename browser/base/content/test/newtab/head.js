@@ -3469,8 +3469,10 @@ let
 dataTransfer
 =
 new
+(
 getContentWindow
 (
+)
 )
 .
 DataTransfer

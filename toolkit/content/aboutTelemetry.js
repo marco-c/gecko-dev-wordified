@@ -2517,6 +2517,7 @@ this
 .
 symbolRequest
 =
+new
 XMLHttpRequest
 (
 )

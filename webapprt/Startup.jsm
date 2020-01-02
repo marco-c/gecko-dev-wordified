@@ -461,6 +461,7 @@ function
 let
 data
 =
+new
 TextEncoder
 (
 )
