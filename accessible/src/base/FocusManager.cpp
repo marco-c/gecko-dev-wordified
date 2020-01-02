@@ -1361,13 +1361,6 @@ OwnerDoc
 )
 )
 ;
-if
-(
-!
-document
-)
-return
-;
 Accessible
 *
 target
@@ -1383,6 +1376,9 @@ aTarget
 if
 (
 target
+&
+&
+document
 )
 {
 /
