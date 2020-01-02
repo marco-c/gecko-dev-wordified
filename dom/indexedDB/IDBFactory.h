@@ -457,13 +457,6 @@ different
 /
 /
 process
-or
-from
-a
-C
-+
-+
-component
 .
 static
 nsresult
