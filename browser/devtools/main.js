@@ -1984,7 +1984,10 @@ target
 )
 {
 return
-true
+!
+target
+.
+isAddon
 ;
 }
 build
