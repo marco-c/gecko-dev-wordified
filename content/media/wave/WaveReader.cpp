@@ -3639,9 +3639,12 @@ chunk
 .
 if
 (
+uint32_t
+(
 end
 -
 p
+)
 <
 length
 )
