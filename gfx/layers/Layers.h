@@ -1973,6 +1973,8 @@ const
 nsIntRegion
 &
 aRegionToDraw
+DrawRegionClip
+aClip
 const
 nsIntRegion
 &

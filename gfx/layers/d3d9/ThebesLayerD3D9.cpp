@@ -3095,6 +3095,7 @@ Callback
 this
 context
 aRegion
+CLIP_NONE
 nsIntRegion
 (
 )

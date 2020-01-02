@@ -1629,6 +1629,14 @@ const
 nsIntRegion
 &
 aRegionToDraw
+mozilla
+:
+:
+layers
+:
+:
+DrawRegionClip
+aClip
 const
 nsIntRegion
 &

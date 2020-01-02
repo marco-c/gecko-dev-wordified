@@ -1695,6 +1695,7 @@ mCallback
 mThebesLayer
 ctxt
 aPaintRegion
+CLIP_NONE
 nsIntRegion
 (
 )
@@ -2584,6 +2585,7 @@ GetScaledTileLength
 )
 )
 )
+CLIP_NONE
 nsIntRegion
 (
 )
