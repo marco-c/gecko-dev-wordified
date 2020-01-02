@@ -96,7 +96,7 @@ C
 )
 2010
 -
-2012
+2013
 International
 Business
 Machines
@@ -470,7 +470,7 @@ and
 PluralRules
 .
 *
-draft
+stable
 ICU
 50
 *
@@ -496,7 +496,7 @@ vs
 files
 .
 *
-draft
+stable
 ICU
 50
 *
@@ -523,7 +523,7 @@ file
 etc
 .
 *
-draft
+stable
 ICU
 50
 *
@@ -540,7 +540,7 @@ rules
 types
 .
 *
-draft
+stable
 ICU
 50
 *
@@ -552,7 +552,7 @@ UPLURAL_TYPE_COUNT
 *
 *
 *
-draft
+stable
 ICU
 50
 *
@@ -785,7 +785,7 @@ error
 occurred
 .
 *
-draft
+stable
 ICU
 50
 *

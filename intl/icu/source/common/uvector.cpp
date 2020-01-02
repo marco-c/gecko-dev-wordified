@@ -85,13 +85,12 @@ C
 )
 1999
 -
-2011
+2013
 International
 Business
 Machines
 Corporation
 and
-*
 *
 others
 .
@@ -99,7 +98,6 @@ All
 Rights
 Reserved
 .
-*
 *
 *
 *
@@ -3840,7 +3838,8 @@ ec
 *
 *
 *
-Sort
+Stable
+sort
 with
 a
 user
@@ -3888,7 +3887,7 @@ UElement
 )
 compare
 context
-FALSE
+TRUE
 &
 ec
 )

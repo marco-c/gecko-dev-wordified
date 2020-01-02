@@ -87,7 +87,7 @@ C
 )
 2005
 -
-2011
+2013
 International
 Business
 Machines
@@ -1138,6 +1138,9 @@ const
 ;
 UBool
 fCurrency
+;
+Locale
+fLocale
 ;
 int32_t
 fLCID

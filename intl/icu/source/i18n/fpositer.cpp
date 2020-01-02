@@ -85,7 +85,7 @@ C
 )
 2009
 -
-2010
+2012
 International
 Business
 Machines
@@ -306,10 +306,6 @@ uvectr32
 h
 "
 U_NAMESPACE_BEGIN
-UOBJECT_DEFINE_NO_RTTI_IMPLEMENTATION
-(
-FieldPositionIterator
-)
 FieldPositionIterator
 :
 :

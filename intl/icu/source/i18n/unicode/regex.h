@@ -77,7 +77,7 @@ C
 )
 2002
 -
-2012
+2013
 International
 Business
 Machines
@@ -553,6 +553,9 @@ UVector32
 class
 UVector64
 ;
+#
+ifndef
+U_HIDE_INTERNAL_API
 /
 *
 *
@@ -599,6 +602,13 @@ pat
 )
 #
 endif
+#
+endif
+/
+*
+U_HIDE_INTERNAL_API
+*
+/
 /
 *
 *
@@ -2867,8 +2877,6 @@ status
 code
 >
 *
-*
-internal
 *
 /
 RegexMatcher
@@ -5599,8 +5607,6 @@ status
 code
 >
 *
-*
-internal
 *
 /
 RegexMatcher
@@ -8894,8 +8900,6 @@ status
 code
 >
 *
-*
-internal
 *
 /
 RegexMatcher

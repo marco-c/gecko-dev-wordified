@@ -87,7 +87,7 @@ C
 )
 2005
 -
-2011
+2013
 International
 Business
 Machines
@@ -966,9 +966,7 @@ DateFormat
 EStyle
 fDateStyle
 ;
-const
 Locale
-*
 fLocale
 ;
 int32_t
