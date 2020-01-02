@@ -1409,7 +1409,7 @@ mEvent
 mClass
 !
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 &
 &
 mEvent

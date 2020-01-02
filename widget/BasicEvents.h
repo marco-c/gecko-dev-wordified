@@ -432,7 +432,7 @@ eSimpleGestureEventClass
 /
 /
 WidgetSimpleGestureEvent
-NS_TOUCH_EVENT
+eTouchEventClass
 /
 /
 WidgetTouchEvent

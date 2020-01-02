@@ -16468,7 +16468,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 if
@@ -17849,7 +17849,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 return

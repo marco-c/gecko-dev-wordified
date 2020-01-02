@@ -2970,7 +2970,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 "
 Unexpected
 event
@@ -3114,7 +3114,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 MOZ_ASSERT

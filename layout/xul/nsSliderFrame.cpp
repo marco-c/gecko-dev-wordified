@@ -2538,7 +2538,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 *
@@ -2823,7 +2823,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 *

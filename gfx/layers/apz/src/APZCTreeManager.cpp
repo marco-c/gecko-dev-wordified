@@ -5445,7 +5445,7 @@ mClass
 )
 {
 case
-NS_TOUCH_EVENT
+eTouchEventClass
 :
 {
 WidgetTouchEvent

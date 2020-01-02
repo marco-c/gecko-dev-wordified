@@ -4381,7 +4381,7 @@ AsPointerEvent
 )
 ;
 case
-NS_TOUCH_EVENT
+eTouchEventClass
 :
 return
 NS_NewDOMTouchEvent

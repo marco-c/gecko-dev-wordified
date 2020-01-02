@@ -3721,7 +3721,7 @@ break
 break
 ;
 case
-NS_TOUCH_EVENT
+eTouchEventClass
 :
 if
 (
@@ -4235,7 +4235,7 @@ aEvent
 mClass
 !
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 &
 &
 aEvent
@@ -4546,7 +4546,7 @@ aEvent
 mClass
 !
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 &
 &
 aEvent

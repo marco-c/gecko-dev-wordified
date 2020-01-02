@@ -709,7 +709,7 @@ if
 aEventClassID
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 prefBranch

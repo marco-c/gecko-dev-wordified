@@ -3948,7 +3948,7 @@ aEvent
 mClass
 !
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 aEvent
@@ -5242,7 +5242,7 @@ aEvent
 mClass
 !
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 /
@@ -10806,7 +10806,7 @@ nsContentUtils
 GetEventIdAndAtom
 (
 aType
-NS_TOUCH_EVENT
+eTouchEventClass
 &
 msg
 )
