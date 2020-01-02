@@ -3030,7 +3030,7 @@ isMomentum
 (
 false
 )
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 (
 false
 )
@@ -3296,7 +3296,7 @@ false
 /
 /
 If
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 is
 true
 ESM
@@ -3308,6 +3308,7 @@ events
 /
 when
 accumulated
+pixel
 delta
 values
 reach
@@ -3316,7 +3317,7 @@ line
 height
 .
 bool
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 ;
 /
 /
@@ -3750,11 +3751,11 @@ aEvent
 .
 isMomentum
 ;
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 =
 aEvent
 .
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 ;
 lineOrPageDeltaX
 =

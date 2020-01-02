@@ -4033,7 +4033,7 @@ mHandlingDeltaMode
 (
 UINT32_MAX
 )
-mIsNoLineOrPageDeltaDevice
+mHandlingPixelOnlyDevice
 (
 false
 )
@@ -4096,7 +4096,7 @@ uint32_t
 mHandlingDeltaMode
 ;
 bool
-mIsNoLineOrPageDeltaDevice
+mHandlingPixelOnlyDevice
 ;
 static
 DeltaAccumulator
