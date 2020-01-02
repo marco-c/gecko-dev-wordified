@@ -2829,6 +2829,12 @@ rv
 rv
 )
 ;
+NS_ENSURE_TRUE
+(
+uri
+NS_OK
+)
+;
 nsAutoString
 origin
 ;
