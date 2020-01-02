@@ -3766,6 +3766,10 @@ connectTries
 =
 0
 ;
+recvErrors
+=
+0
+;
 manager
 .
 connectToSupplicant
@@ -5132,7 +5136,7 @@ longer
 .
 if
 (
-eventData
+event
 .
 indexOf
 (
@@ -5148,7 +5152,7 @@ closed
 1
 &
 &
-eventData
+event
 .
 indexOf
 (
