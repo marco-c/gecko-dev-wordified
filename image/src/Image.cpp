@@ -657,10 +657,6 @@ StopAnimation
 (
 )
 ;
-mAnimating
-=
-false
-;
 }
 }
 }
