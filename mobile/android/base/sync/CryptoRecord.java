@@ -1571,7 +1571,7 @@ hmac
 =
 Utils
 .
-byte2hex
+byte2Hex
 (
 info
 .
