@@ -537,6 +537,10 @@ initialized
 (
 false
 )
+has_text_relocs
+(
+false
+)
 {
 }
 /
@@ -1178,6 +1182,9 @@ fini_array
 ;
 bool
 initialized
+;
+bool
+has_text_relocs
 ;
 #
 ifdef
