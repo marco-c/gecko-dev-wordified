@@ -1701,7 +1701,7 @@ if
 mGLContext
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -4582,7 +4582,7 @@ gl
 )
 -
 >
-IsGLES2
+IsGLES
 (
 )
 ?
@@ -7481,7 +7481,7 @@ if
 mGLContext
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -7519,7 +7519,7 @@ if
 mGLContext
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -7557,7 +7557,7 @@ if
 mGLContext
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -8174,7 +8174,7 @@ if
 mGLContext
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )

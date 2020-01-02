@@ -8137,7 +8137,7 @@ precision
 {
 MOZ_ASSERT
 (
-IsGLES2
+IsGLES
 (
 )
 )
@@ -8181,7 +8181,7 @@ precision
 {
 if
 (
-IsGLES2
+IsGLES
 (
 )
 )
@@ -8569,7 +8569,7 @@ b
 MOZ_ASSERT
 (
 !
-IsGLES2
+IsGLES
 (
 )
 )
@@ -8603,7 +8603,7 @@ b
 {
 MOZ_ASSERT
 (
-IsGLES2
+IsGLES
 (
 )
 )
@@ -8636,7 +8636,7 @@ v
 MOZ_ASSERT
 (
 !
-IsGLES2
+IsGLES
 (
 )
 )
@@ -8667,7 +8667,7 @@ v
 {
 MOZ_ASSERT
 (
-IsGLES2
+IsGLES
 (
 )
 )
@@ -8702,7 +8702,7 @@ b
 {
 if
 (
-IsGLES2
+IsGLES
 (
 )
 )
@@ -8733,7 +8733,7 @@ v
 {
 if
 (
-IsGLES2
+IsGLES
 (
 )
 )

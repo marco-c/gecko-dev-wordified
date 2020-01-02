@@ -2546,7 +2546,7 @@ MOZ_LIKELY
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 |

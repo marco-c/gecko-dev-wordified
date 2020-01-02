@@ -4722,7 +4722,7 @@ if
 aGL
 -
 >
-IsGLES2
+IsGLES
 (
 )
 |

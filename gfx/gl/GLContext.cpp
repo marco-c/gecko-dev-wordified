@@ -4196,7 +4196,7 @@ mInitialized
 {
 if
 (
-IsGLES2
+IsGLES
 (
 )
 )
@@ -9554,7 +9554,7 @@ bpp16
 ;
 if
 (
-IsGLES2
+IsGLES
 (
 )
 )
@@ -9613,7 +9613,7 @@ bpp16
 {
 MOZ_ASSERT
 (
-IsGLES2
+IsGLES
 (
 )
 )
@@ -9697,7 +9697,7 @@ formats
 .
 color_texInternalFormat
 =
-IsGLES2
+IsGLES
 (
 )
 ?
@@ -9724,7 +9724,7 @@ formats
 .
 color_texInternalFormat
 =
-IsGLES2
+IsGLES
 (
 )
 ?
@@ -9823,7 +9823,7 @@ depthStencil
 if
 (
 !
-IsGLES2
+IsGLES
 (
 )
 |
@@ -9849,7 +9849,7 @@ depth
 ;
 if
 (
-IsGLES2
+IsGLES
 (
 )
 )

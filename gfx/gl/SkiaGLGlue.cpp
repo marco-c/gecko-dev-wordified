@@ -1770,7 +1770,7 @@ get
 )
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -1884,7 +1884,7 @@ get
 )
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -2196,7 +2196,7 @@ get
 )
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -4260,7 +4260,7 @@ if
 context
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )

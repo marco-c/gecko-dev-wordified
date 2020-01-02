@@ -973,7 +973,7 @@ mContext
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )

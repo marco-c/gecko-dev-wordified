@@ -261,7 +261,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -353,7 +353,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -449,7 +449,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -549,7 +549,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -663,7 +663,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -774,7 +774,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -885,7 +885,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -996,7 +996,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -1136,7 +1136,7 @@ index
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
