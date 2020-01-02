@@ -110,6 +110,9 @@ SVGGraphicsElement
 .
 h
 "
+class
+nsSVGSwitchFrame
+;
 nsresult
 NS_NewSVGSwitchElement
 (
