@@ -1913,7 +1913,7 @@ factor
 /
 /
 from
-nsIMarkupDocumentViewer
+nsIContentViewer
 due
 to
 conversion

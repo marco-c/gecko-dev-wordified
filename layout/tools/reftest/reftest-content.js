@@ -479,13 +479,6 @@ return
 docShell
 .
 contentViewer
-.
-QueryInterface
-(
-CI
-.
-nsIMarkupDocumentViewer
-)
 ;
 }
 function

@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsIMarkupDocumentViewer
-.
-h
-"
-#
-include
-"
 nsHTMLParts
 .
 h

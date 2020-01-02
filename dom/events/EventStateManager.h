@@ -197,7 +197,7 @@ class
 EnterLeaveDispatcher
 ;
 class
-nsIMarkupDocumentViewer
+nsIContentViewer
 ;
 class
 nsIScrollableFrame
@@ -3765,12 +3765,12 @@ adjustment
 )
 ;
 nsresult
-GetMarkupDocumentViewer
+GetContentViewer
 (
-nsIMarkupDocumentViewer
+nsIContentViewer
 *
 *
-aMv
+aCv
 )
 ;
 nsresult

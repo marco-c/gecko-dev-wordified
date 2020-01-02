@@ -816,13 +816,6 @@ authorStyleDisabled
 docShell
 .
 contentViewer
-.
-QueryInterface
-(
-Ci
-.
-nsIMarkupDocumentViewer
-)
 ;
 sendSyncMessage
 (
@@ -859,13 +852,6 @@ markupDocumentViewer
 docShell
 .
 contentViewer
-.
-QueryInterface
-(
-Ci
-.
-nsIMarkupDocumentViewer
-)
 ;
 markupDocumentViewer
 .

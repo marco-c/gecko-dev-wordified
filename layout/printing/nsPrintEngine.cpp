@@ -646,13 +646,6 @@ h
 #
 include
 "
-nsIMarkupDocumentViewer
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -3870,7 +3863,7 @@ true
 ;
 nsCOMPtr
 <
-nsIMarkupDocumentViewer
+nsIContentViewer
 >
 viewer
 =

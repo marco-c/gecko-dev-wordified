@@ -217,9 +217,6 @@ class
 nsIURI
 ;
 class
-nsIMarkupDocumentViewer
-;
-class
 nsIDocShell
 ;
 class
@@ -1784,9 +1781,9 @@ static
 void
 TryHintCharset
 (
-nsIMarkupDocumentViewer
+nsIContentViewer
 *
-aMarkupDV
+aContentViewer
 int32_t
 &
 aCharsetSource
@@ -1798,9 +1795,9 @@ aCharset
 void
 TryUserForcedCharset
 (
-nsIMarkupDocumentViewer
+nsIContentViewer
 *
-aMarkupDV
+aCv
 nsIDocShell
 *
 aDocShell

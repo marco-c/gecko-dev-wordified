@@ -9163,13 +9163,6 @@ window
 )
 .
 contentViewer
-.
-QueryInterface
-(
-Ci
-.
-nsIMarkupDocumentViewer
-)
 ;
 }
 /
