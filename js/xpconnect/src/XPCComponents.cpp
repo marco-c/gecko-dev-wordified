@@ -17852,7 +17852,7 @@ continue
 if
 (
 !
-NewNonCloningFunctionForwarder
+NewFunctionForwarder
 (
 cx
 id
