@@ -483,6 +483,12 @@ duration
         
 self
 .
+start_time
+=
+0
+        
+self
+.
 expected
 =
 kwargs
@@ -568,6 +574,16 @@ result
 None
 )
 :
+        
+self
+.
+start_time
+=
+time
+.
+time
+(
+)
         
 orig_result
 =
@@ -707,6 +723,16 @@ result
 stopTest
 (
 self
+)
+            
+self
+.
+stop_time
+=
+time
+.
+time
+(
 )
             
 return

@@ -419,6 +419,93 @@ value
         
 pass
     
+property
+    
+def
+duration
+(
+self
+)
+:
+        
+if
+self
+.
+stop_time
+:
+            
+return
+self
+.
+stop_time
+-
+self
+.
+start_time
+        
+else
+:
+            
+return
+0
+    
+def
+add_test_result
+(
+self
+test
+*
+args
+*
+*
+kwargs
+)
+:
+        
+self
+.
+add_result
+(
+test
+*
+args
+*
+*
+kwargs
+)
+        
+self
+[
+-
+1
+]
+.
+time_start
+=
+test
+.
+start_time
+        
+self
+[
+-
+1
+]
+.
+time_end
+=
+time
+.
+time
+(
+)
+if
+test
+.
+start_time
+else
+0
+    
 def
 addError
 (
@@ -430,7 +517,7 @@ err
         
 self
 .
-add_result
+add_test_result
 (
 test
 output
@@ -508,7 +595,7 @@ err
         
 self
 .
-add_result
+add_test_result
 (
 test
 output
@@ -594,7 +681,7 @@ passed
         
 self
 .
-add_result
+add_test_result
 (
 test
 result_actual
@@ -673,7 +760,7 @@ occured
         
 self
 .
-add_result
+add_test_result
 (
 test
 output
@@ -766,7 +853,7 @@ succeed
         
 self
 .
-add_result
+add_test_result
 (
 test
 result_actual
@@ -832,7 +919,7 @@ reason
         
 self
 .
-add_result
+add_test_result
 (
 test
 output
@@ -4716,11 +4803,6 @@ def
 _extract_xml
 (
 test
-class_name
-text
-=
-'
-'
 result
 =
 '
@@ -4747,7 +4829,9 @@ setAttribute
 '
 classname
 '
-class_name
+test
+.
+test_class
 )
             
 testcase
@@ -4760,6 +4844,8 @@ name
 unicode
 (
 test
+.
+name
 )
 .
 split
@@ -4770,13 +4856,6 @@ split
 ]
 )
             
-#
-XXX
--
-Bug
-927606
-            
-#
 testcase
 .
 setAttribute
@@ -4790,18 +4869,6 @@ test
 .
 duration
 )
-)
-            
-testcase
-.
-setAttribute
-(
-'
-time
-'
-'
-0
-'
 )
             
 testsuite
@@ -4860,7 +4927,9 @@ doc
 .
 createTextNode
 (
-text
+test
+.
+reason
 )
 )
                 
@@ -5102,16 +5171,6 @@ errors
 _extract_xml
 (
 result
-.
-name
-result
-.
-test_class
-text
-=
-result
-.
-reason
 result
 =
 '
@@ -5130,16 +5189,6 @@ failures
 _extract_xml
 (
 result
-.
-name
-result
-.
-test_class
-text
-=
-result
-.
-reason
 result
 =
 '
@@ -5180,18 +5229,6 @@ _extract_xml
 (
 test
 result
-.
-test_class
-text
-=
-'
-TEST
--
-UNEXPECTED
--
-PASS
-'
-result
 =
 '
 failure
@@ -5219,16 +5256,6 @@ skipped
 _extract_xml
 (
 result
-.
-name
-result
-.
-test_class
-text
-=
-result
-.
-reason
 result
 =
 '
@@ -5257,16 +5284,6 @@ expectedFailures
 _extract_xml
 (
 result
-.
-name
-result
-.
-test_class
-text
-=
-result
-.
-reason
 result
 =
 '
@@ -5285,11 +5302,6 @@ tests_passed
 _extract_xml
 (
 result
-.
-name
-result
-.
-test_class
 )
         
 doc
