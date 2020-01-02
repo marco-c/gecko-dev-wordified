@@ -3733,15 +3733,33 @@ utcnow
 (
 )
         
-while
+counter
+=
 self
 .
 repeat
+        
+while
+counter
 >
 =
 0
 :
             
+round
+=
+self
+.
+repeat
+-
+counter
+            
+if
+round
+>
+0
+:
+                
 self
 .
 logger
@@ -3750,7 +3768,7 @@ info
 (
 '
 \
-nROUND
+nREPEAT
 %
 d
 \
@@ -3764,9 +3782,7 @@ n
 -
 '
 %
-self
-.
-repeat
+round
 )
             
 if
@@ -3795,9 +3811,7 @@ run_test
 test
 )
             
-self
-.
-repeat
+counter
 -
 =
 1
