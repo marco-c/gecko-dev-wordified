@@ -341,9 +341,9 @@ isInWin8
 (
 )
 ?
-2
+1
 :
-3
+2
 "
 The
 number
@@ -486,9 +486,9 @@ isInWin8
 (
 )
 ?
-1
+3
 :
-2
+1
 "
 The
 number
