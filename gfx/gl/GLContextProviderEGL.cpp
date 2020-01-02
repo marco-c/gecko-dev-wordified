@@ -2516,7 +2516,10 @@ bool
 ResizeOffscreen
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aNewSize
 )
@@ -2868,7 +2871,10 @@ GLContextEGL
 ResizeOffscreen
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aNewSize
 )
@@ -2876,7 +2882,10 @@ aNewSize
 return
 ResizeScreenBuffer
 (
+ThebesIntSize
+(
 aNewSize
+)
 )
 ;
 }
