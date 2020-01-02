@@ -4781,6 +4781,7 @@ AsyncPanZoomController
 GetGeckoContentController
 (
 )
+const
 {
 MonitorAutoLock
 lock
@@ -4814,6 +4815,7 @@ AsyncPanZoomController
 GetGestureEventListener
 (
 )
+const
 {
 MonitorAutoLock
 lock

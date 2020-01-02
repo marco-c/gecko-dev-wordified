@@ -4853,6 +4853,7 @@ GestureEventListener
 >
 mGestureEventListener
 ;
+mutable
 Monitor
 mRefPtrMonitor
 ;
@@ -4879,6 +4880,7 @@ GeckoContentController
 GetGeckoContentController
 (
 )
+const
 ;
 already_AddRefed
 <
@@ -4887,6 +4889,7 @@ GestureEventListener
 GetGestureEventListener
 (
 )
+const
 ;
 /
 /
