@@ -149,6 +149,17 @@ widget
 DateTimePicker
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+FloatingHintEditText
+;
+import
 android
 .
 content
@@ -434,7 +445,7 @@ EditText
 input
 =
 new
-EditText
+FloatingHintEditText
 (
 context
 )
