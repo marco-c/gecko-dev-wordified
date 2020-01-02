@@ -13406,6 +13406,10 @@ mMixBlendMode
 =
 NS_STYLE_BLEND_NORMAL
 ;
+mTouchAction
+=
+NS_STYLE_TOUCH_ACTION_AUTO
+;
 mTransitions
 .
 AppendElement
@@ -13651,6 +13655,12 @@ mMixBlendMode
 aSource
 .
 mMixBlendMode
+)
+mTouchAction
+(
+aSource
+.
+mTouchAction
 )
 mBackfaceVisibility
 (
