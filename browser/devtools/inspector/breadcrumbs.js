@@ -4825,6 +4825,7 @@ err
 ;
 }
 }
+;
 XPCOMUtils
 .
 defineLazyGetter
