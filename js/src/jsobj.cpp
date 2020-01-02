@@ -2353,17 +2353,6 @@ PropertyDescriptor
 desc
 )
 {
-/
-/
-FIXME
-:
-Call
-TrapGetOwnProperty
-directly
-once
-ScriptedIndirectProxies
-is
-removed
 if
 (
 obj
