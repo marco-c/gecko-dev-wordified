@@ -120,6 +120,9 @@ mozilla
 namespace
 gl
 {
+GLLibraryEGL
+sEGLLibrary
+;
 /
 /
 should
