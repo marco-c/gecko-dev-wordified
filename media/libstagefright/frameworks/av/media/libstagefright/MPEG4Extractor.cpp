@@ -21098,6 +21098,16 @@ Indice
 >
 index
 ;
+if
+(
+!
+mTimescale
+)
+{
+return
+index
+;
+}
 for
 (
 uint32_t
