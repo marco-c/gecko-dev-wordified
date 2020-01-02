@@ -1429,6 +1429,14 @@ Roots
 PHASE_MARK
 }
 {
+PHASE_MARK_TYPES
+"
+Mark
+Types
+"
+PHASE_MARK_ROOTS
+}
+{
 PHASE_MARK_DELAYED
 "
 Mark

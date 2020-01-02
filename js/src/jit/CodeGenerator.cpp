@@ -41344,7 +41344,7 @@ compilerOutput
 cx
 -
 >
-zone
+compartment
 (
 )
 -
@@ -41591,7 +41591,7 @@ compilerOutput
 cx
 -
 >
-zone
+compartment
 (
 )
 -
@@ -41766,7 +41766,7 @@ compilerOutput
 cx
 -
 >
-zone
+compartment
 (
 )
 -

@@ -1186,6 +1186,9 @@ Allocator
 workerAllocator
 )
 ;
+int64_t
+lastCodeRelease
+;
 bool
 activeAnalysis
 ;
@@ -1352,6 +1355,9 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
+size_t
+*
+tiPendingArrays
 size_t
 *
 tiAllocationSiteTables
