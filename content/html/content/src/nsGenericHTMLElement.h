@@ -2695,6 +2695,15 @@ Element
 ScrollIntoView
 (
 top
+mozilla
+:
+:
+dom
+:
+:
+ScrollOptions
+(
+)
 )
 ;
 return
