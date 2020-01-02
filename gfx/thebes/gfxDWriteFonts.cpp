@@ -579,6 +579,14 @@ fe
 IsItalic
 (
 )
+&
+&
+GetStyle
+(
+)
+-
+>
+allowSyntheticStyle
 )
 {
 /

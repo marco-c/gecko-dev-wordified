@@ -1295,6 +1295,12 @@ NS_FONT_STYLE_ITALIC
 NS_FONT_STYLE_OBLIQUE
 )
 )
+&
+&
+aStyle
+-
+>
+allowSyntheticStyle
 ;
 if
 (

@@ -5812,6 +5812,11 @@ fe
 IsBold
 (
 )
+&
+&
+aFontStyle
+.
+allowSyntheticWeight
 ;
 return
 fe
@@ -6179,6 +6184,11 @@ fe
 IsBold
 (
 )
+&
+&
+aFontStyle
+.
+allowSyntheticWeight
 ;
 return
 fe
@@ -6550,6 +6560,11 @@ baseWeight
 >
 =
 6
+&
+&
+aFontStyle
+.
+allowSyntheticWeight
 )
 {
 aNeedsSyntheticBold

@@ -958,6 +958,11 @@ fe
 IsItalic
 (
 )
+&
+&
+mStyle
+.
+allowSyntheticStyle
 ;
 /
 /
