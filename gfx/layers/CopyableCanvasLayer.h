@@ -445,9 +445,6 @@ mIsGLAlphaPremult
 bool
 mNeedsYFlip
 ;
-bool
-mForceReadback
-;
 RefPtr
 <
 gfx
