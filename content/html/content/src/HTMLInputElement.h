@@ -559,6 +559,16 @@ Focus
 ;
 virtual
 void
+Blur
+(
+ErrorResult
+&
+aError
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 Focus
 (
 ErrorResult
