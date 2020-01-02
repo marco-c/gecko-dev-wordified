@@ -293,13 +293,6 @@ float
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 prio
 .
 h

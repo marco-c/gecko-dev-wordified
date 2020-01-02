@@ -130,13 +130,6 @@ _ESCAPE_H_
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
