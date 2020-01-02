@@ -325,6 +325,9 @@ sdcard
 =
 None
                  
+symbols_path
+=
+None
 userdata
 =
 None
@@ -475,6 +478,12 @@ sdcard
         
 self
 .
+symbols_path
+=
+symbols_path
+        
+self
+.
 noWindow
 =
 noWindow
@@ -538,6 +547,12 @@ homedir
 emulator
 =
 True
+                               
+symbols_path
+=
+self
+.
+symbols_path
 )
         
 self
@@ -1253,8 +1268,7 @@ terminated
 "
 "
         
-if
-(
+return
 self
 .
 _emulator_launched
@@ -1265,7 +1279,8 @@ proc
 is
 not
 None
-                                    
+\
+                                       
 and
 self
 .
@@ -1277,20 +1292,11 @@ poll
 is
 not
 None
-)
-:
-            
-return
-True
-        
-return
-False
     
 def
 check_for_minidumps
 (
 self
-symbols_path
 )
 :
         
@@ -1301,7 +1307,6 @@ b2g
 .
 check_for_crashes
 (
-symbols_path
 )
     
 def
@@ -2221,6 +2226,18 @@ work
 .
             
 pass
+        
+except
+InvalidResponseException
+:
+            
+self
+.
+check_for_minidumps
+(
+)
+            
+raise
         
 print
 '

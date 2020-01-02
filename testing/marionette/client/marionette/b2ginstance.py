@@ -89,6 +89,9 @@ self
 devicemanager
 =
 None
+symbols_path
+=
+None
 *
 *
 kwargs
@@ -116,6 +119,12 @@ self
 _remote_profiles
 =
 None
+        
+self
+.
+symbols_path
+=
+symbols_path
     
 property
     
@@ -369,7 +378,6 @@ def
 check_for_crashes
 (
 self
-symbols_path
 )
 :
         
@@ -430,6 +438,8 @@ mozcrash
 check_for_crashes
 (
 local_dump_dir
+self
+.
 symbols_path
 )
 :
