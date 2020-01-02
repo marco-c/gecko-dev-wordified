@@ -147,6 +147,9 @@ mReceiveState
 (
 kReceiveStateInitial
 )
+#
+ifdef
+MOZILLA_INTERNAL_API
 mRecoveredBeforeLoss
 (
 0
@@ -155,6 +158,8 @@ mRecoveredLosses
 (
 0
 )
+#
+endif
 {
 MOZ_ASSERT
 (
@@ -815,7 +820,7 @@ error
 per
 min
 %
-f
+u
 "
 recovered_per_min
 )
