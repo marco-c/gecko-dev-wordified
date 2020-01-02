@@ -1492,10 +1492,12 @@ iMin
 {
 iMid
 =
-(
 iMin
 +
+(
 iMax
+-
+iMin
 )
 /
 2

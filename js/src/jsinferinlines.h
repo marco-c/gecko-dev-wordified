@@ -4680,10 +4680,12 @@ nTypeSets
 size_t
 mid
 =
-(
 bottom
 +
+(
 top
+-
+bottom
 )
 /
 2
@@ -4729,10 +4731,12 @@ break
 ;
 mid
 =
-(
 bottom
 +
+(
 top
+-
+bottom
 )
 /
 2
