@@ -5530,7 +5530,7 @@ block
 TouchBlockState
 mTouchBlockState
 ;
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomAnimation
 >
