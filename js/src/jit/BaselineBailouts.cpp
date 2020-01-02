@@ -5651,15 +5651,6 @@ JSOp
 pc
 )
 ;
-JS_ASSERT_IF
-(
-excInfo
-op
-=
-=
-JSOP_ENTERBLOCK
-)
-;
 /
 /
 Fixup
