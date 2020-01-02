@@ -4878,14 +4878,6 @@ nsIJSCID
 >
 nsid
 =
-dont_AddRef
-(
-static_cast
-<
-nsIJSCID
-*
->
-(
 nsJSCID
 :
 :
@@ -4895,8 +4887,6 @@ name
 .
 ptr
 (
-)
-)
 )
 )
 ;
@@ -6473,14 +6463,6 @@ nsIJSCID
 >
 nsid
 =
-dont_AddRef
-(
-static_cast
-<
-nsIJSCID
-*
->
-(
 nsJSCID
 :
 :
@@ -6490,8 +6472,6 @@ name
 .
 ptr
 (
-)
-)
 )
 )
 ;

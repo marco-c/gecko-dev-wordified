@@ -18549,8 +18549,10 @@ rest
 NS_DECL_NSIJSCID
 NS_DECL_NSIXPCSCRIPTABLE
 static
+already_AddRefed
+<
 nsJSCID
-*
+>
 NewID
 (
 const
