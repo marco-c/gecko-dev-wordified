@@ -8668,10 +8668,10 @@ thisobj
 return
 false
 ;
-JSString
-*
+RootedString
 str
-=
+(
+cx
 JS
 :
 :
@@ -8682,6 +8682,7 @@ args
 [
 0
 ]
+)
 )
 ;
 if
