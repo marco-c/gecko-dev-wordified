@@ -936,11 +936,6 @@ return
 false
 ;
 }
-ImageFormat
-format
-=
-aFormat
-;
 nsRefPtr
 <
 Image
@@ -952,9 +947,7 @@ mImageContainer
 >
 CreateImage
 (
-&
-format
-1
+aFormat
 )
 ;
 aBuilder

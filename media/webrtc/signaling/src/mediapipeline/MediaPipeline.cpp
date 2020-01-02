@@ -7992,9 +7992,7 @@ image_container_
 >
 CreateImage
 (
-&
 format
-1
 )
 ;
 layers
