@@ -493,6 +493,9 @@ mNotationsToDraw
 nscoord
 mRuleThickness
 ;
+nscoord
+mRadicalRuleThickness
+;
 nsTArray
 <
 nsMathMLChar
