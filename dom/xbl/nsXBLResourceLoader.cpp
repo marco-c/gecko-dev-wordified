@@ -1527,12 +1527,11 @@ Clear
 Delete
 ourselves
 .
-NS_RELEASE
-(
 mResources
 -
 >
-mLoader
+ClearLoader
+(
 )
 ;
 }
