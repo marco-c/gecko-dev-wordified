@@ -1472,6 +1472,16 @@ GetScreenRectInAppUnits
 (
 )
 ;
+nsPopupLevel
+popupLevel
+=
+menuPopupFrame
+-
+>
+PopupLevel
+(
+)
+;
 nsRect
 screenRect
 =
@@ -1482,6 +1492,7 @@ GetConstraintRect
 (
 frameRect
 rootScreenRect
+popupLevel
 )
 ;
 /
