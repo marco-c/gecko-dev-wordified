@@ -229,18 +229,6 @@ true
 -
 quiet
 "
-        
-"
--
--
-use
--
-test
--
-media
--
-devices
-"
     
 ]
     
