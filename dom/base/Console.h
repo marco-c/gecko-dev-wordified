@@ -1094,6 +1094,13 @@ ClearConsoleData
 (
 )
 ;
+bool
+ShouldIncludeStackrace
+(
+MethodName
+aMethodName
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindow
