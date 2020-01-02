@@ -137,8 +137,11 @@ done
 }
 gContentAPI
 .
-getSyncConfiguration
+getConfiguration
 (
+"
+sync
+"
 callback
 )
 ;
@@ -199,8 +202,11 @@ org
 ;
 gContentAPI
 .
-getSyncConfiguration
+getConfiguration
 (
+"
+sync
+"
 callback
 )
 ;

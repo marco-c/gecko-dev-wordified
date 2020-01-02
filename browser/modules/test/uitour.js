@@ -781,10 +781,11 @@ Mozilla
 .
 UITour
 .
-getSyncConfiguration
+getConfiguration
 =
 function
 (
+configName
 callback
 )
 {
@@ -802,9 +803,7 @@ callback
 )
 configuration
 :
-"
-sync
-"
+configName
 }
 )
 ;
