@@ -135,6 +135,13 @@ h
 #
 include
 "
+GeneratedJNIWrappers
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventForwards
