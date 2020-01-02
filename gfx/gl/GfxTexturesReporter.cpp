@@ -420,10 +420,8 @@ GLenum
 format
 GLenum
 type
-int32_t
-tileWidth
-int32_t
-tileHeight
+uint16_t
+tileSize
 )
 {
 int64_t
@@ -440,12 +438,12 @@ bytes
 =
 int64_t
 (
-tileWidth
+tileSize
 )
 *
 int64_t
 (
-tileHeight
+tileSize
 )
 *
 bitsPerTexel
