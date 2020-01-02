@@ -199,13 +199,6 @@ kMaxGrowArrayBy
 =
 1024
 ;
-static
-const
-int32_t
-kAutoClearCompactSizeFactor
-=
-4
-;
 /
 *
 *
