@@ -20074,6 +20074,9 @@ bodies
 >
 init
 (
+alloc
+(
+)
 nbBodies
 )
 )

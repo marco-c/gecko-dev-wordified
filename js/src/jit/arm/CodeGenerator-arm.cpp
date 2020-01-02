@@ -1409,6 +1409,11 @@ OutOfLineBailout
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineBailout
 (
 snapshot
@@ -1889,6 +1894,11 @@ OutOfLineBailout
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineBailout
 (
 snapshot
@@ -8772,6 +8782,11 @@ OutOfLineTableSwitch
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineTableSwitch
 (
 alloc

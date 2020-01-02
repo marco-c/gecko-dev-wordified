@@ -3050,7 +3050,7 @@ class
 OutOfLineCode
 :
 public
-OldTempObject
+TempObject
 {
 Label
 entry_
@@ -4176,6 +4176,11 @@ OutOfLineCode
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineCallVM
 <
 ArgSeq

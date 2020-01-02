@@ -287,6 +287,7 @@ labels_
 .
 init
 (
+alloc_
 script
 -
 >
@@ -337,6 +338,7 @@ frame
 .
 init
 (
+alloc_
 )
 )
 return

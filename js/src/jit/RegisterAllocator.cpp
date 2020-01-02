@@ -4235,8 +4235,10 @@ LMoveGroup
 *
 moves
 =
-new
 LMoveGroup
+:
+:
+New
 (
 alloc
 (
@@ -4332,8 +4334,10 @@ LMoveGroup
 *
 moves
 =
-new
 LMoveGroup
+:
+:
+New
 (
 alloc
 (

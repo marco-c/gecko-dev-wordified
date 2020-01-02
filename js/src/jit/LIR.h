@@ -3355,7 +3355,7 @@ class
 LInstruction
 :
 public
-OldTempObject
+TempObject
 public
 InlineListNode
 <

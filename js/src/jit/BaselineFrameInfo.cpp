@@ -148,6 +148,9 @@ FrameInfo
 :
 init
 (
+TempAllocator
+&
+alloc
 )
 {
 /
@@ -188,6 +191,7 @@ stack
 .
 init
 (
+alloc
 nstack
 )
 )

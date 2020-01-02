@@ -9142,6 +9142,9 @@ protected
 bool
 init
 (
+TempAllocator
+&
+alloc
 size_t
 length
 )
@@ -9151,6 +9154,7 @@ operands_
 .
 init
 (
+alloc
 length
 )
 ;
@@ -11516,6 +11520,9 @@ MUnaryInstruction
 {
 MBox
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 ins
@@ -11613,14 +11620,8 @@ type
 ;
 setResultTypeSet
 (
-GetIonContext
-(
-)
--
->
-temp
--
->
+alloc
+.
 lifoAlloc
 (
 )
@@ -11690,6 +11691,7 @@ alloc
 )
 MBox
 (
+alloc
 ins
 )
 ;
@@ -41372,6 +41374,9 @@ inherit
 bool
 init
 (
+TempAllocator
+&
+alloc
 )
 {
 return
@@ -41379,6 +41384,7 @@ operands_
 .
 init
 (
+alloc
 stackDepth_
 )
 ;
