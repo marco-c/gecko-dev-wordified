@@ -2011,7 +2011,13 @@ quad
 .
 Intersects
 (
+mCompositor
+-
+>
+ClipRectInLayersCoordinates
+(
 aClipRect
+)
 )
 )
 {
