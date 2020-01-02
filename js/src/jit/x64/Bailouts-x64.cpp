@@ -319,6 +319,10 @@ frameSize
 (
 )
 ;
+kind_
+=
+Kind_BailoutIterator
+;
 current_
 =
 fp
@@ -421,6 +425,10 @@ machine
 )
 )
 {
+kind_
+=
+Kind_BailoutIterator
+;
 returnAddressToFp_
 =
 bailout

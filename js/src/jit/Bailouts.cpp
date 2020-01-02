@@ -1539,6 +1539,10 @@ machineState
 )
 )
 {
+kind_
+=
+Kind_BailoutIterator
+;
 returnAddressToFp_
 =
 frame
