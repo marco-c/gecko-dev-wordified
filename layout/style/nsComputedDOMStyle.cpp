@@ -2121,8 +2121,10 @@ the
 correct
 document
 .
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 GetPresShellForContent
