@@ -5115,6 +5115,7 @@ this
 .
 _remoteSetup
 (
+test
 )
 )
 {
