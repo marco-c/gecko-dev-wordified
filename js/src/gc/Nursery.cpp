@@ -494,6 +494,8 @@ chunk
 i
 )
 .
+trailer
+.
 runtime
 =
 rt
@@ -4397,6 +4399,8 @@ chunk
 (
 i
 )
+.
+trailer
 .
 runtime
 =
