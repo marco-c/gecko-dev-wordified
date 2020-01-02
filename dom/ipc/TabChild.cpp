@@ -11330,11 +11330,15 @@ nsPIDOMWindow
 innerWindow
 =
 outerWindow
+?
+outerWindow
 -
 >
 GetCurrentInnerWindow
 (
 )
+:
+nullptr
 ;
 if
 (
