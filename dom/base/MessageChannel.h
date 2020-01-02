@@ -179,8 +179,14 @@ MessageChannel
 )
 static
 bool
-PrefEnabled
+Enabled
 (
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
 )
 ;
 public
