@@ -2195,13 +2195,6 @@ moz_historyvisits
 "
 )
 ;
-dump_table
-(
-"
-moz_bookmarks
-"
-)
-;
 LOG
 (
 "
