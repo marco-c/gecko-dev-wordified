@@ -523,9 +523,9 @@ subsumes
 =
 false
 ;
-nsIDocument
+nsPIDOMWindow
 *
-doc
+parent
 =
 Context
 (
@@ -535,6 +535,17 @@ Context
 GetParentObject
 (
 )
+;
+if
+(
+parent
+)
+{
+nsIDocument
+*
+doc
+=
+parent
 -
 >
 GetExtantDoc
@@ -588,6 +599,7 @@ subsumes
 =
 false
 ;
+}
 }
 }
 auto
