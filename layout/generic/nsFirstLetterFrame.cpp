@@ -2501,7 +2501,7 @@ properly
 return
 LogicalSides
 (
-LOGICAL_SIDES_ALL
+eLogicalSideBitsAll
 )
 ;
 }
