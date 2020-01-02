@@ -831,7 +831,7 @@ v
 in
 d
 .
-iteritems
+items
 (
 )
 :

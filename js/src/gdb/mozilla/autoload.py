@@ -12,6 +12,7 @@ pretty
 printers
 .
 print
+(
 "
 Loading
 JavaScript
@@ -30,7 +31,9 @@ gdb
 README
 .
 "
+)
 print
+(
 "
 If
 they
@@ -46,6 +49,7 @@ printer
 *
 SpiderMonkey
 "
+)
 import
 gdb
 .

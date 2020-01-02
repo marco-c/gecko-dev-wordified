@@ -268,7 +268,7 @@ jsid
 '
 type
 "
-                                 
+                               
 "
 neither
 struct
