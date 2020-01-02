@@ -2804,6 +2804,18 @@ desktop
 "
 )
     
+options
+.
+browserArgs
++
+=
+[
+'
+-
+marionette
+'
+]
+    
 sys
 .
 exit
