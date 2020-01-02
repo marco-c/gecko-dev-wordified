@@ -41322,6 +41322,15 @@ friend
 class
 MBasicBlock
 ;
+friend
+void
+AssertBasicGraphCoherency
+(
+MIRGraph
+&
+graph
+)
+;
 FixedList
 <
 MUse
