@@ -1860,16 +1860,6 @@ next
 )
 )
 {
-comp
--
->
-clearTraps
-(
-defaultFreeOp
-(
-)
-)
-;
 if
 (
 WatchpointMap
