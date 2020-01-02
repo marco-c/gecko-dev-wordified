@@ -1636,6 +1636,12 @@ opened
 "
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 /
 /
 We
@@ -1689,6 +1695,9 @@ deferred
 .
 resolve
 (
+)
+;
+}
 )
 ;
 }
