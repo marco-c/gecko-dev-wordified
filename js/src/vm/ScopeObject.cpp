@@ -9362,7 +9362,8 @@ argsObj
 public
 :
 static
-int
+const
+char
 family
 ;
 static
@@ -11052,7 +11053,8 @@ anonymous
 namespace
 *
 /
-int
+const
+char
 DebugScopeProxy
 :
 :

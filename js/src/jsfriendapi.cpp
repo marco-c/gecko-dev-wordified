@@ -3388,7 +3388,7 @@ family
 DeadObjectProxy
 :
 :
-sDeadObjectFamily
+family
 ;
 }
 void
