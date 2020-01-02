@@ -29296,15 +29296,6 @@ id
 cx
 )
 ;
-RootedValue
-undefinedValue
-(
-cx
-UndefinedValue
-(
-)
-)
-;
 for
 (
 unsigned
@@ -29384,7 +29375,7 @@ DefineNativeProperty
 cx
 argsobj
 id
-undefinedValue
+UndefinedHandleValue
 JS_DATA_TO_FUNC_PTR
 (
 PropertyOp

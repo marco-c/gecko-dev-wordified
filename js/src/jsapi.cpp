@@ -7116,15 +7116,6 @@ resolved
 =
 true
 ;
-RootedValue
-undefinedValue
-(
-cx
-UndefinedValue
-(
-)
-)
-;
 return
 JSObject
 :
@@ -7139,7 +7130,7 @@ undefinedAtom
 asPropertyName
 (
 )
-undefinedValue
+UndefinedHandleValue
 JS_PropertyStub
 JS_StrictPropertyStub
 JSPROP_PERMANENT

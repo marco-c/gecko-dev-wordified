@@ -197,15 +197,6 @@ cx
 input_
 )
 ;
-RootedValue
-undefinedValue
-(
-cx
-UndefinedValue
-(
-)
-)
-;
 /
 *
 *
@@ -394,7 +385,7 @@ elements
 .
 infallibleAppend
 (
-undefinedValue
+UndefinedHandleValue
 )
 ;
 }

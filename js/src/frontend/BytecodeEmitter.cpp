@@ -14023,15 +14023,6 @@ done
 )
 )
 ;
-RootedValue
-undefined
-(
-cx
-UndefinedValue
-(
-)
-)
-;
 if
 (
 !
@@ -14040,7 +14031,7 @@ DefineNativeProperty
 cx
 obj
 value_id
-undefined
+UndefinedHandleValue
 nullptr
 nullptr
 JSPROP_ENUMERATE
@@ -14059,7 +14050,7 @@ DefineNativeProperty
 cx
 obj
 done_id
-undefined
+UndefinedHandleValue
 nullptr
 nullptr
 JSPROP_ENUMERATE
