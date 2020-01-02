@@ -545,7 +545,10 @@ aCompositor
 TextureFlags
 aFlags
 =
-TEXTURE_FLAGS_DEFAULT
+TextureFlags
+:
+:
+DEFAULT
 StereoMode
 aStereoMode
 =
@@ -576,7 +579,10 @@ aTexture
 TextureFlags
 aFlags
 =
-TEXTURE_FLAGS_DEFAULT
+TextureFlags
+:
+:
+DEFAULT
 )
 ;
 virtual

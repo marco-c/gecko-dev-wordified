@@ -2041,7 +2041,10 @@ GetFlags
 (
 )
 &
-TEXTURE_IMMEDIATE_UPLOAD
+TextureFlags
+:
+:
+IMMEDIATE_UPLOAD
 )
 {
 mTxn
@@ -2357,7 +2360,10 @@ GetFlags
 (
 )
 &
-TEXTURE_DEALLOCATE_CLIENT
+TextureFlags
+:
+:
+DEALLOCATE_CLIENT
 )
 {
 mTxn

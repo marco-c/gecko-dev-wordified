@@ -3240,7 +3240,10 @@ surface
 GetFormat
 (
 )
-TEXTURE_FLAGS_DEFAULT
+TextureFlags
+:
+:
+DEFAULT
 gfx
 :
 :

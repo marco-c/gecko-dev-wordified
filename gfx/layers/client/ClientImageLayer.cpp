@@ -740,7 +740,10 @@ return
 TextureFlags
 flags
 =
-TEXTURE_FRONT
+TextureFlags
+:
+:
+FRONT
 ;
 if
 (
@@ -750,7 +753,10 @@ mDisallowBigImage
 flags
 |
 =
-TEXTURE_DISALLOW_BIGIMAGE
+TextureFlags
+:
+:
+DISALLOW_BIGIMAGE
 ;
 }
 mImageClient

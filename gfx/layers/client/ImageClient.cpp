@@ -1086,7 +1086,10 @@ SurfaceFormat
 :
 :
 YUV
-TEXTURE_FLAGS_DEFAULT
+TextureFlags
+:
+:
+DEFAULT
 )
 ;
 gfx

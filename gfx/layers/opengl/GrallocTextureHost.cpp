@@ -1773,7 +1773,10 @@ getPixelFormat
 )
 aFlags
 &
-TEXTURE_RB_SWAPPED
+TextureFlags
+:
+:
+RB_SWAPPED
 )
 ;
 }
@@ -2035,7 +2038,10 @@ if
 (
 mFlags
 &
-TEXTURE_NEEDS_Y_FLIP
+TextureFlags
+:
+:
+NEEDS_Y_FLIP
 )
 {
 flags
@@ -2048,7 +2054,10 @@ if
 (
 mFlags
 &
-TEXTURE_RB_SWAPPED
+TextureFlags
+:
+:
+RB_SWAPPED
 )
 {
 flags

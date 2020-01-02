@@ -1006,7 +1006,10 @@ GetFlags
 (
 )
 &
-TEXTURE_NEEDS_Y_FLIP
+TextureFlags
+:
+:
+NEEDS_Y_FLIP
 )
 {
 effect

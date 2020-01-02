@@ -847,7 +847,10 @@ were
 created
 with
 the
-TEXTURE_IMMEDIATE_UPLOAD
+TextureFlags
+:
+:
+IMMEDIATE_UPLOAD
 flag
 /
 /
@@ -962,7 +965,10 @@ GetFlags
 (
 )
 &
-TEXTURE_IMMEDIATE_UPLOAD
+TextureFlags
+:
+:
+IMMEDIATE_UPLOAD
 )
 ;
 /

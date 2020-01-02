@@ -4514,7 +4514,10 @@ GetFlags
 (
 )
 &
-TEXTURE_DEALLOCATE_CLIENT
+TextureFlags
+:
+:
+DEALLOCATE_CLIENT
 )
 {
 mTxn

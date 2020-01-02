@@ -2659,7 +2659,10 @@ mTextureFlags
 aFlags
 &
 ~
-TEXTURE_DEALLOCATE_CLIENT
+TextureFlags
+:
+:
+DEALLOCATE_CLIENT
 ;
 mContentType
 =
