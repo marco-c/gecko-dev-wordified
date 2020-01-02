@@ -286,10 +286,6 @@ ocsp_strict_config
 osc
 any_revo_fresh_config
 arfc
-const
-char
-*
-firstNetworkRevocationMethod
 ocsp_get_config
 ogc
 )
@@ -318,10 +314,6 @@ mOCSPStrict
 const
 bool
 mRequireRevocationInfo
-;
-const
-bool
-mCRLFirst
 ;
 const
 bool
