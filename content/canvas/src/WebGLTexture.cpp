@@ -117,6 +117,13 @@ h
 #
 include
 "
+ScopedGLHelpers
+.
+h
+"
+#
+include
+"
 WebGLTexelConversions
 .
 h

@@ -135,6 +135,13 @@ DebugOnly
 .
 h
 "
+#
+include
+"
+ScopedGLHelpers
+.
+h
+"
 namespace
 mozilla
 {

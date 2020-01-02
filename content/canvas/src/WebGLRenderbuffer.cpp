@@ -132,6 +132,13 @@ GLContext
 .
 h
 "
+#
+include
+"
+ScopedGLHelpers
+.
+h
+"
 using
 namespace
 mozilla

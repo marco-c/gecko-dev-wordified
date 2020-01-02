@@ -299,6 +299,13 @@ h
 #
 include
 "
+ScopedGLHelpers
+.
+h
+"
+#
+include
+"
 gfxCrashReporterUtils
 .
 h

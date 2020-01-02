@@ -131,6 +131,13 @@ h
 #
 include
 "
+ScopedGLHelpers
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences

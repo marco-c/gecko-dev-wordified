@@ -227,6 +227,13 @@ h
 #
 include
 "
+ScopedGLHelpers
+.
+h
+"
+#
+include
+"
 SurfaceStream
 .
 h
