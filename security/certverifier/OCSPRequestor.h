@@ -123,6 +123,13 @@ mozilla_psm_OCSPRequestor_h
 #
 include
 "
+CertVerifier
+.
+h
+"
+#
+include
+"
 secmodt
 .
 h
@@ -162,6 +169,8 @@ SECItem
 encodedRequest
 PRIntervalTime
 timeout
+bool
+useGET
 )
 ;
 }

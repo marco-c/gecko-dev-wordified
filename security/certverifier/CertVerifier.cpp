@@ -1948,6 +1948,15 @@ NSSCertDBTrustDomain
 :
 FetchOCSPForDVHardFail
 ;
+ocsp_get_config
+ocspGETConfig
+=
+mOCSPGETEnabled
+?
+ocsp_get_enabled
+:
+ocsp_get_disabled
+;
 SECStatus
 rv
 ;
@@ -2100,6 +2109,7 @@ trustEmail
 ocspFetching
 mOCSPCache
 pinArg
+ocspGETConfig
 )
 ;
 rv
@@ -2225,6 +2235,7 @@ NSSCertDBTrustDomain
 FetchOCSPForEV
 mOCSPCache
 pinArg
+ocspGETConfig
 &
 callbackContainer
 )
@@ -2334,6 +2345,7 @@ trustSSL
 ocspFetching
 mOCSPCache
 pinArg
+ocspGETConfig
 &
 callbackContainer
 )
@@ -2387,6 +2399,7 @@ trustSSL
 ocspFetching
 mOCSPCache
 pinArg
+ocspGETConfig
 )
 ;
 rv
@@ -2427,6 +2440,7 @@ trustEmail
 ocspFetching
 mOCSPCache
 pinArg
+ocspGETConfig
 )
 ;
 rv
@@ -2510,6 +2524,7 @@ trustEmail
 ocspFetching
 mOCSPCache
 pinArg
+ocspGETConfig
 )
 ;
 rv
@@ -2556,6 +2571,7 @@ trustObjectSigning
 ocspFetching
 mOCSPCache
 pinArg
+ocspGETConfig
 )
 ;
 rv
@@ -2724,6 +2740,7 @@ trustSSL
 ocspFetching
 mOCSPCache
 pinArg
+ocspGETConfig
 )
 ;
 rv
@@ -2767,6 +2784,7 @@ trustEmail
 ocspFetching
 mOCSPCache
 pinArg
+ocspGETConfig
 )
 ;
 rv
@@ -2805,6 +2823,7 @@ trustObjectSigning
 ocspFetching
 mOCSPCache
 pinArg
+ocspGETConfig
 )
 ;
 rv
