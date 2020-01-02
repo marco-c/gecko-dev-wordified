@@ -1237,7 +1237,7 @@ NS_ERROR_INVALID_ARG
 uint32_t
 length
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 JS_GetArrayLength
 (
@@ -1396,7 +1396,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 JS_GetArrayLength
 (
@@ -1603,7 +1603,7 @@ MmsAttachment
 >
 attachments
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 JS_GetArrayLength
 (
