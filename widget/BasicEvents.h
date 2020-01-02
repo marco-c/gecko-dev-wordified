@@ -378,7 +378,7 @@ eCompositionEventClass
 /
 /
 WidgetCompositionEvent
-NS_TEXT_EVENT
+eTextEventClass
 /
 /
 WidgetTextEvent

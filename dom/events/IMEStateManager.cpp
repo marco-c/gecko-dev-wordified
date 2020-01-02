@@ -806,11 +806,11 @@ eCompositionEventClass
 "
 ;
 case
-NS_TEXT_EVENT
+eTextEventClass
 :
 return
 "
-NS_TEXT_EVENT
+eTextEventClass
 "
 ;
 default
@@ -5310,7 +5310,7 @@ aEvent
 mClass
 =
 =
-NS_TEXT_EVENT
+eTextEventClass
 )
 ;
 if

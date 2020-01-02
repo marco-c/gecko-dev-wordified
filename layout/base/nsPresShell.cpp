@@ -48006,7 +48006,7 @@ aEvent
 mClass
 =
 =
-NS_TEXT_EVENT
+eTextEventClass
 )
 {
 IMEStateManager

@@ -4262,7 +4262,7 @@ AsDragEvent
 )
 ;
 case
-NS_TEXT_EVENT
+eTextEventClass
 :
 return
 NS_NewDOMUIEvent
