@@ -16133,13 +16133,6 @@ DoGetTextDecoration
 (
 )
 {
-nsROCSSPrimitiveValue
-*
-val
-=
-new
-nsROCSSPrimitiveValue
-;
 const
 nsStyleTextReset
 *
@@ -16281,6 +16274,13 @@ for
 backward
 compatibility
 .
+nsROCSSPrimitiveValue
+*
+val
+=
+new
+nsROCSSPrimitiveValue
+;
 uint8_t
 line
 =
