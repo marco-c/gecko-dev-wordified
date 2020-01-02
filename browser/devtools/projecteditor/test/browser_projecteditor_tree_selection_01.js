@@ -154,8 +154,9 @@ join
 |
 "
 )
+TEMP_FOLDER_NAME
++
 "
-ProjectEditor
 |
 css
 |
