@@ -744,8 +744,10 @@ nsIContentFrameMessageManager
 >
 mMessageManager
 ;
+nsRefPtr
+<
 TabChildBase
-*
+>
 mTabChild
 ;
 }
