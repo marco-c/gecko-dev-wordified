@@ -251,6 +251,17 @@ any_revo_relaxed
 any_revo_strict
 }
 ;
+enum
+ocsp_get_config
+{
+ocsp_get_disabled
+=
+0
+ocsp_get_enabled
+=
+1
+}
+;
 bool
 IsOCSPDownloadEnabled
 (
@@ -279,6 +290,8 @@ const
 char
 *
 firstNetworkRevocationMethod
+ocsp_get_config
+ogc
 )
 ;
 ~
@@ -309,6 +322,10 @@ mRequireRevocationInfo
 const
 bool
 mCRLFirst
+;
+const
+bool
+mOCSPGETEnabled
 ;
 friend
 class
