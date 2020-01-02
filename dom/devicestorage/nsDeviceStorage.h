@@ -580,9 +580,6 @@ time
 .
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-DeviceStorageUsedSpaceCache
-:
-:
 CacheEntry
 )
 bool
@@ -606,6 +603,14 @@ mMusicUsedSize
 uint64_t
 mTotalUsedSize
 ;
+private
+:
+~
+CacheEntry
+(
+)
+{
+}
 }
 ;
 already_AddRefed
