@@ -3403,7 +3403,7 @@ isObject
 )
 \
 return
-TP_RETRY_SEQUENTIALLY
+false
 ;
 \
 if
@@ -3548,7 +3548,10 @@ out
 {
 BIT_OP
 (
+uint32_t
+(
 left
+)
 <
 <
 (
