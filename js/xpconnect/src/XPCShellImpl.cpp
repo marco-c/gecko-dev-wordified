@@ -5335,9 +5335,6 @@ stdin
 ;
 }
 else
-#
-ifdef
-HAVE_ISATTY
 if
 (
 !
@@ -5349,8 +5346,6 @@ file
 )
 )
 )
-#
-endif
 {
 /
 *

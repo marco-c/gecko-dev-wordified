@@ -214,9 +214,6 @@ InitAutoreleasePool
 ;
 #
 endif
-#
-ifdef
-HAVE_SETBUF
 /
 /
 unbuffer
@@ -245,8 +242,6 @@ stdout
 0
 )
 ;
-#
-endif
 #
 ifdef
 HAS_DLL_BLOCKLIST
