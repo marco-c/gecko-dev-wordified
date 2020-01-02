@@ -3295,7 +3295,7 @@ texelformat
 mContext
 -
 >
-UpdateWebGLErrorAndClearGLError
+GetAndFlushUnderlyingGLErrors
 (
 )
 ;
@@ -3329,15 +3329,11 @@ zeros
 GLenum
 error
 =
-LOCAL_GL_NO_ERROR
-;
 mContext
 -
 >
-UpdateWebGLErrorAndClearGLError
+GetAndFlushUnderlyingGLErrors
 (
-&
-error
 )
 ;
 free
