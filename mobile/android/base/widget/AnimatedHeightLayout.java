@@ -384,7 +384,13 @@ finishAnimation
 )
 ;
 }
-private
+/
+*
+inner
+-
+access
+*
+/
 void
 finishAnimation
 (
