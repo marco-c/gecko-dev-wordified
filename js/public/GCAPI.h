@@ -213,11 +213,6 @@ DEBUG_GC
 \
 D
 (
-DEBUG_MODE_GC
-)
-\
-D
-(
 TRANSPLANT
 )
 \

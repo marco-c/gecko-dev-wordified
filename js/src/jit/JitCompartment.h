@@ -2323,6 +2323,17 @@ JSScript
 script
 )
 ;
+void
+FinishDiscardJitCode
+(
+FreeOp
+*
+fop
+JSCompartment
+*
+comp
+)
+;
 /
 /
 On
