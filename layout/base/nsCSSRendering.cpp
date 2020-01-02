@@ -5446,6 +5446,16 @@ outlineRadii
 ;
 if
 (
+nsLayoutUtils
+:
+:
+IsOutlineStyleAutoEnabled
+(
+)
+)
+{
+if
+(
 outlineStyle
 =
 =
@@ -5551,6 +5561,7 @@ outlineStyle
 =
 NS_STYLE_BORDER_STYLE_SOLID
 ;
+}
 }
 uint8_t
 outlineStyles
