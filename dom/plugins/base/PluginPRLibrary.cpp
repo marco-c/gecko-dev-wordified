@@ -303,14 +303,6 @@ GetJNIForThread
 (
 )
 ;
-if
-(
-!
-env
-)
-return
-NS_ERROR_FAILURE
-;
 mozilla
 :
 :
