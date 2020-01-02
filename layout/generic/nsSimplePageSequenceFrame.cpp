@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsSimplePageSequence
+nsSimplePageSequenceFrame
 .
 h
 "

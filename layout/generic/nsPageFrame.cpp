@@ -157,7 +157,7 @@ BinarySearchForPosition
 #
 include
 "
-nsSimplePageSequence
+nsSimplePageSequenceFrame
 .
 h
 "
