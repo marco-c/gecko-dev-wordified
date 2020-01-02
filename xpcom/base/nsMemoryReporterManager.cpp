@@ -9606,6 +9606,7 @@ dmd
 {
 class
 DoNothingCallback
+MOZ_FINAL
 :
 public
 nsIHandleReportCallback
