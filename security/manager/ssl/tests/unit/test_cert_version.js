@@ -738,7 +738,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -892,7 +892,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -1047,7 +1047,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -1203,7 +1203,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -1387,7 +1387,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -1539,7 +1539,7 @@ v1_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -1727,7 +1727,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -1882,7 +1882,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -2033,7 +2033,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -2187,7 +2187,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -2347,7 +2347,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -2504,7 +2504,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -2692,7 +2692,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -2846,7 +2846,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -2998,8 +2998,9 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
+;
 /
 /
 v2
@@ -3151,7 +3152,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -3306,7 +3307,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -3462,7 +3463,7 @@ v2_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -3614,7 +3615,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -3767,7 +3768,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -3919,7 +3920,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -4072,7 +4073,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -4224,7 +4225,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -4384,7 +4385,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -4573,7 +4574,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -4723,8 +4724,9 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
+;
 /
 /
 reject
@@ -4876,7 +4878,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -5027,7 +5029,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -5178,7 +5180,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -5347,7 +5349,7 @@ v3_ca
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -5500,7 +5502,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -5658,7 +5660,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -5812,7 +5814,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -5966,7 +5968,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -6121,7 +6123,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 /
@@ -6283,7 +6285,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+SEC_ERROR_BAD_DER
 )
 ;
 }
