@@ -2316,10 +2316,6 @@ t
 container
 -
 >
-GetFrameMetrics
-(
-)
-.
 GetContentDescription
 (
 )

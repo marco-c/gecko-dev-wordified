@@ -5883,6 +5883,7 @@ mPreYScale
 mInheritedXScale
 mInheritedYScale
 mBackgroundColor
+mContentDescription
 )
 ;
 }
