@@ -582,6 +582,10 @@ virtual
 void
 NotifyTransformBegin
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 }
@@ -589,6 +593,10 @@ virtual
 void
 NotifyTransformEnd
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 }
