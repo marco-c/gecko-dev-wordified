@@ -7583,7 +7583,7 @@ rel
 .
 *
 /
-nsresult
+void
 Loader
 :
 :
@@ -7734,9 +7734,6 @@ SetScopeElement
 (
 aScopeElement
 )
-;
-return
-NS_OK
 ;
 }
 /
@@ -12287,8 +12284,6 @@ aIsAlternate
 )
 )
 ;
-rv
-=
 PrepareSheet
 (
 sheet
@@ -12298,12 +12293,6 @@ nullptr
 aScopeElement
 *
 aIsAlternate
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 rv
@@ -12738,8 +12727,6 @@ aIsAlternate
 )
 )
 ;
-rv
-=
 PrepareSheet
 (
 sheet
@@ -12749,12 +12736,6 @@ nullptr
 nullptr
 *
 aIsAlternate
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 rv
@@ -13717,8 +13698,6 @@ rv
 rv
 )
 ;
-rv
-=
 PrepareSheet
 (
 sheet
@@ -13727,12 +13706,6 @@ empty
 aMedia
 nullptr
 isAlternate
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 rv
@@ -14300,8 +14273,6 @@ rv
 rv
 )
 ;
-rv
-=
 PrepareSheet
 (
 sheet
@@ -14310,12 +14281,6 @@ empty
 nullptr
 nullptr
 isAlternate
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if

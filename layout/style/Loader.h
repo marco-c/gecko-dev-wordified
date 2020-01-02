@@ -2831,7 +2831,7 @@ state
 based
 on
 isAlternate
-nsresult
+void
 PrepareSheet
 (
 nsCSSStyleSheet
@@ -2848,9 +2848,6 @@ aMediaString
 nsMediaList
 *
 aMediaList
-mozilla
-:
-:
 dom
 :
 :
