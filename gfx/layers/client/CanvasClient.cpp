@@ -1204,14 +1204,8 @@ GetIPDLActor
 )
 )
 {
-GetForwarder
-(
-)
--
->
 UseTexture
 (
-this
 grallocTextureClient
 )
 ;

@@ -1157,6 +1157,15 @@ ClearCachedResources
 )
 {
 }
+virtual
+void
+UseTexture
+(
+TextureClient
+*
+aTexture
+)
+;
 /
 *
 *
