@@ -6462,16 +6462,6 @@ showHideScrollbars
 1
 )
 ;
-pref
-(
-"
-ui
-.
-useOverlayScrollbars
-"
-1
-)
-;
 /
 /
 Enable
@@ -8744,6 +8734,9 @@ software
 for
 smaller
 canvases
+#
+ifdef
+MOZ_WIDGET_GONK
 pref
 (
 "
@@ -8774,6 +8767,8 @@ accelerated
 true
 )
 ;
+#
+endif
 /
 /
 Turn
