@@ -2930,9 +2930,9 @@ burst
 Tolerate
 rate
 of
-3
+7
 .
-6k
+2k
 /
 sec
 over
@@ -2943,10 +2943,10 @@ static
 SimpleTokenBucket
 sustained
 (
-3686
+7372
 *
 20
-3686
+7372
 )
 ;
 /
