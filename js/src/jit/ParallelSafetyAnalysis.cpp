@@ -2535,6 +2535,7 @@ graph_
 alloc
 (
 )
+Bailout_ParallelUnsafe
 )
 ;
 TransplantResumePoint
@@ -4824,6 +4825,7 @@ New
 alloc
 (
 )
+Bailout_ParallelUnsafe
 )
 ;
 TransplantResumePoint

@@ -12097,7 +12097,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 if
@@ -12196,7 +12196,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 attachedStub
@@ -12237,7 +12237,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 attachedStub
@@ -12336,7 +12336,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 attachedStub
@@ -18564,7 +18564,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 if
@@ -18708,7 +18708,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 attachedStub
@@ -18846,7 +18846,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 }
@@ -25477,7 +25477,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 if
@@ -25531,7 +25531,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 attachedStub
@@ -25587,7 +25587,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 }
@@ -26045,7 +26045,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 if
@@ -26174,7 +26174,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 attachedStub
@@ -26218,7 +26218,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 attachedStub
@@ -26282,7 +26282,7 @@ cx
 >
 setPendingAbortFatal
 (
-ParallelBailoutFailedIC
+ParallelBailoutOutOfMemory
 )
 ;
 attachedStub
