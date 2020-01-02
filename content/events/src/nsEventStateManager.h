@@ -4230,7 +4230,10 @@ aEvent
 nsresult
 DoContentCommandEvent
 (
-nsContentCommandEvent
+mozilla
+:
+:
+WidgetContentCommandEvent
 *
 aEvent
 )
@@ -4238,7 +4241,10 @@ aEvent
 nsresult
 DoContentCommandScrollEvent
 (
-nsContentCommandEvent
+mozilla
+:
+:
+WidgetContentCommandEvent
 *
 aEvent
 )

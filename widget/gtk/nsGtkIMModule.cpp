@@ -8348,7 +8348,7 @@ NS_ERROR_FAILURE
 Delete
 the
 selection
-nsContentCommandEvent
+WidgetContentCommandEvent
 contentCommandEvent
 (
 true

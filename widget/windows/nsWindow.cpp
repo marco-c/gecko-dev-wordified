@@ -34365,7 +34365,7 @@ if
 contentCommandMessage
 )
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 contentCommand
 (
 true
@@ -35890,7 +35890,7 @@ case
 WM_CLEAR
 :
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true
@@ -35915,7 +35915,7 @@ case
 WM_CUT
 :
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true
@@ -35940,7 +35940,7 @@ case
 WM_COPY
 :
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true
@@ -35965,7 +35965,7 @@ case
 WM_PASTE
 :
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true
@@ -35990,7 +35990,7 @@ case
 EM_UNDO
 :
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true
@@ -36032,7 +36032,7 @@ case
 EM_REDO
 :
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true
@@ -36114,7 +36114,7 @@ wParam
 CF_UNICODETEXT
 )
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true
@@ -36158,7 +36158,7 @@ case
 EM_CANUNDO
 :
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true
@@ -36201,7 +36201,7 @@ case
 EM_CANREDO
 :
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true

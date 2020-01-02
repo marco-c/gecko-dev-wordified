@@ -10115,7 +10115,7 @@ else
 return
 NS_ERROR_FAILURE
 ;
-nsContentCommandEvent
+WidgetContentCommandEvent
 event
 (
 true

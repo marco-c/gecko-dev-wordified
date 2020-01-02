@@ -6213,7 +6213,7 @@ DoContentCommandEvent
 (
 static_cast
 <
-nsContentCommandEvent
+WidgetContentCommandEvent
 *
 >
 (
@@ -6232,7 +6232,7 @@ DoContentCommandScrollEvent
 (
 static_cast
 <
-nsContentCommandEvent
+WidgetContentCommandEvent
 *
 >
 (
@@ -29919,7 +29919,7 @@ nsEventStateManager
 :
 DoContentCommandEvent
 (
-nsContentCommandEvent
+WidgetContentCommandEvent
 *
 aEvent
 )
@@ -30307,7 +30307,7 @@ nsEventStateManager
 :
 DoContentCommandScrollEvent
 (
-nsContentCommandEvent
+WidgetContentCommandEvent
 *
 aEvent
 )
@@ -30366,7 +30366,7 @@ mUnit
 )
 {
 case
-nsContentCommandEvent
+WidgetContentCommandEvent
 :
 :
 eCmdScrollUnit_Line
@@ -30381,7 +30381,7 @@ LINES
 break
 ;
 case
-nsContentCommandEvent
+WidgetContentCommandEvent
 :
 :
 eCmdScrollUnit_Page
@@ -30396,7 +30396,7 @@ PAGES
 break
 ;
 case
-nsContentCommandEvent
+WidgetContentCommandEvent
 :
 :
 eCmdScrollUnit_Whole
