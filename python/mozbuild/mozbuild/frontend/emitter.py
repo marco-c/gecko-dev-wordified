@@ -1231,6 +1231,7 @@ is
 defined
 .
 '
+sandbox
 )
         
 if
@@ -1260,17 +1261,8 @@ unless
 there
 are
 XPIDL_SOURCES
-:
-%
-s
 '
-%
 sandbox
-[
-'
-RELATIVEDIR
-'
-]
 )
         
 if
@@ -1432,22 +1424,14 @@ s
 %
 s
 )
-in
-%
-s
 '
                         
 %
 (
 symbol
 src
-sandbox
-[
-'
-RELATIVEDIR
-'
-]
 )
+sandbox
 )
         
 #
@@ -2073,6 +2057,7 @@ mapping
 raise
 SandboxValidationError
 (
+                        
 '
 %
 s
@@ -2081,20 +2066,11 @@ an
 unknown
 file
 type
-in
-%
-s
+.
 '
 %
-(
 f
 sandbox
-[
-'
-RELATIVEDIR
-'
-]
-)
 )
                 
 l
@@ -2216,6 +2192,9 @@ SOURCES
 ]
 .
 no_pgo
+'
+                    
+'
 cannot
 be
 set
@@ -2224,6 +2203,7 @@ the
 same
 time
 '
+sandbox
 )
             
 passthru
@@ -2769,6 +2749,8 @@ sandbox
 MozbuildSandbox
 )
 and
+\
+                    
 sandbox
 .
 get
@@ -2782,11 +2764,13 @@ FORCE_STATIC_LIB
 raise
 SandboxValidationError
 (
+                    
 '
 FINAL_LIBRARY
 implies
 FORCE_STATIC_LIB
 '
+sandbox
 )
             
 self
@@ -2848,6 +2832,7 @@ FORCE_SHARED_LIB
 raise
 SandboxValidationError
 (
+                    
 '
 SONAME
 applicable
@@ -2856,6 +2841,7 @@ for
 shared
 libraries
 '
+sandbox
 )
             
 else
@@ -3323,6 +3309,7 @@ one
 value
 .
 '
+sandbox
 )
         
 for
@@ -3452,9 +3439,6 @@ jar
 .
 mn
 exists
-in
-%
-s
 but
 it
 '
@@ -3465,7 +3449,6 @@ not
 referenced
 in
 the
-corresponding
 moz
 .
 build
@@ -3477,22 +3460,9 @@ file
 Please
 define
 JAR_MANIFESTS
-in
-the
-moz
-.
-build
-file
 .
 '
-%
-                    
 sandbox
-[
-'
-SRCDIR
-'
-]
 )
         
 for
@@ -3795,6 +3765,7 @@ s
                     
 %
 path
+sandbox
 )
             
 obj
@@ -3965,6 +3936,7 @@ join
 missing
 )
 )
+sandbox
 )
             
 out_dir
@@ -4843,6 +4815,7 @@ s
 path
 f
 )
+sandbox
 )
                 
 obj
@@ -4912,6 +4885,8 @@ exc_info
 )
 )
 )
+                
+sandbox
 )
     
 def
