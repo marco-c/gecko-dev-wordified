@@ -133,7 +133,10 @@ colorId
 0
 ;
 static
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 GetRootTransform
 (
 Layer
@@ -141,7 +144,10 @@ Layer
 aLayer
 )
 {
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 layerTrans
 =
 aLayer
@@ -432,7 +438,10 @@ nsIntRect
 aRect
 )
 {
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 trans
 =
 GetRootTransform
@@ -440,7 +449,10 @@ GetRootTransform
 aLayer
 )
 ;
-gfxRect
+gfx
+:
+:
+Rect
 rect
 (
 aRect
