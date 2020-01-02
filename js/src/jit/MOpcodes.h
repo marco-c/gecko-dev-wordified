@@ -579,6 +579,11 @@ RegExpReplace
 \
 _
 (
+StringReplace
+)
+\
+_
+(
 Lambda
 )
 \
