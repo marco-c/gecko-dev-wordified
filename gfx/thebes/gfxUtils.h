@@ -553,6 +553,12 @@ imgIContainer
 :
 :
 FLAG_NONE
+gfxFloat
+aOpacity
+=
+1
+.
+0
 )
 ;
 /
