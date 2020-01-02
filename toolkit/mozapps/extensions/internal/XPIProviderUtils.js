@@ -7148,7 +7148,7 @@ error
 getAddonList
 failed
 "
-e
+error
 )
 ;
 makeSafe
