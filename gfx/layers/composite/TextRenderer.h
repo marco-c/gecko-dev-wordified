@@ -126,16 +126,10 @@ Compositor
 ;
 class
 TextRenderer
-:
-public
-RefCounted
-<
-TextRenderer
->
 {
 public
 :
-MOZ_DECLARE_REFCOUNTED_TYPENAME
+NS_INLINE_DECL_REFCOUNTING
 (
 TextRenderer
 )
