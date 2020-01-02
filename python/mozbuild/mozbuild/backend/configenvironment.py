@@ -1665,7 +1665,7 @@ def
 create_config_file
 (
 self
-path
+output
 extra
 =
 None
@@ -1767,6 +1767,12 @@ directory
 '
 '
         
+path
+=
+output
+.
+name
+        
 if
 os
 .
@@ -1788,7 +1794,7 @@ self
 .
 create_makefile
 (
-path
+output
 extra
 =
 extra
@@ -1800,7 +1806,7 @@ self
 .
 _get_preprocessor
 (
-path
+output
 extra
 )
         
@@ -1815,21 +1821,12 @@ get_input
 path
 )
 )
-        
-return
-pp
-.
-out
-.
-close
-(
-)
     
 def
 create_makefile
 (
 self
-path
+output
 stub
 =
 False
@@ -1907,7 +1904,7 @@ self
 .
 _get_preprocessor
 (
-path
+output
 extra
 )
         
@@ -2038,7 +2035,9 @@ self
 .
 get_input
 (
-path
+output
+.
+name
 )
 )
         
@@ -2092,21 +2091,12 @@ mk
 n
 '
 )
-        
-return
-pp
-.
-out
-.
-close
-(
-)
     
 def
 _get_preprocessor
 (
 self
-path
+output
 extra
 )
 :
@@ -2129,6 +2119,12 @@ create_makefile
 '
 '
 '
+        
+path
+=
+output
+.
+name
         
 pp
 =
@@ -2244,10 +2240,7 @@ pp
 .
 out
 =
-FileAvoidWrite
-(
-path
-)
+output
         
 return
 pp
@@ -2256,7 +2249,7 @@ def
 create_config_header
 (
 self
-path
+output
 )
 :
         
@@ -2366,7 +2359,9 @@ self
 .
 get_input
 (
-path
+output
+.
+name
 )
 '
 rU
@@ -2378,14 +2373,9 @@ input
             
 ensureParentDir
 (
-path
-)
-            
 output
-=
-FileAvoidWrite
-(
-path
+.
+name
 )
             
 r
@@ -2698,11 +2688,4 @@ output
 write
 (
 l
-)
-            
-return
-output
-.
-close
-(
 )
