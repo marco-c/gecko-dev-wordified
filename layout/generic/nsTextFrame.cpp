@@ -18532,7 +18532,7 @@ Height
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -53353,7 +53353,7 @@ usedHyphenation
 {
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -53393,7 +53393,7 @@ frame
 .
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 NSToCoordCeil
 (
@@ -53411,7 +53411,7 @@ Height
 =
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -53491,7 +53491,7 @@ MaxDescent
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 std
 :
@@ -53533,7 +53533,7 @@ Height
 =
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -53544,7 +53544,7 @@ NS_ASSERTION
 (
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 >
@@ -53569,7 +53569,7 @@ Height
 -
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 >
@@ -53588,7 +53588,7 @@ mAscent
 =
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -54650,7 +54650,7 @@ Height
 )
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 aStatus

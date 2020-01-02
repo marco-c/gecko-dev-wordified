@@ -6185,7 +6185,7 @@ dy
 =
 aDesiredStretchSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -6199,7 +6199,7 @@ leading
 ;
 aDesiredStretchSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 mBoundingMetrics
 .
@@ -6216,7 +6216,7 @@ Height
 =
 aDesiredStretchSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -6272,7 +6272,7 @@ MaxDescent
 ;
 aDesiredStretchSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 std
 :
@@ -6296,7 +6296,7 @@ Height
 =
 aDesiredStretchSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -6342,7 +6342,7 @@ y
 =
 aDesiredStretchSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -6368,7 +6368,7 @@ dy
 =
 aDesiredStretchSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -

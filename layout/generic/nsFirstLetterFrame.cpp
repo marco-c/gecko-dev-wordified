@@ -1235,7 +1235,7 @@ mBaseline
 =
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -1411,11 +1411,11 @@ tb
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 +

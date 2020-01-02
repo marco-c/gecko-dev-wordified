@@ -1806,7 +1806,7 @@ height
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 GetBoxAscent
 (

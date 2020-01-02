@@ -610,7 +610,7 @@ width
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 mHeight
 )
@@ -640,7 +640,7 @@ Height
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +

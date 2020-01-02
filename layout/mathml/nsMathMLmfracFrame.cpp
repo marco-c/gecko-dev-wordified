@@ -2305,11 +2305,11 @@ width
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 sizeNum
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -2324,7 +2324,7 @@ Height
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -2336,7 +2336,7 @@ Height
 -
 sizeDen
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -2370,7 +2370,7 @@ y
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -2446,7 +2446,7 @@ dy
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -3138,7 +3138,7 @@ Set
 aDesiredSize
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 mBoundingMetrics
 .
@@ -3193,7 +3193,7 @@ y
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -3231,7 +3231,7 @@ dy
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -3239,7 +3239,7 @@ numShift
 -
 sizeNum
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -3283,7 +3283,7 @@ dy
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -3344,7 +3344,7 @@ dy
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -3352,7 +3352,7 @@ denShift
 -
 sizeDen
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;

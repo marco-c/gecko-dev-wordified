@@ -34646,7 +34646,7 @@ Height
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -52766,7 +52766,7 @@ if
 (
 desiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 =
@@ -52812,7 +52812,7 @@ mBlockAscent
 =
 desiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -55568,7 +55568,7 @@ if
 (
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 =
@@ -55613,7 +55613,7 @@ mAscent
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -55623,7 +55623,7 @@ else
 {
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 metrics
 -

@@ -3540,7 +3540,7 @@ width
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 std
 :
@@ -3552,7 +3552,7 @@ mBoundingMetrics
 ascent
 baseSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 )
@@ -3566,7 +3566,7 @@ Height
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -3586,7 +3586,7 @@ Height
 -
 baseSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 )
@@ -3656,7 +3656,7 @@ desiredSizeAscent
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -3671,7 +3671,7 @@ Height
 -
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -3747,7 +3747,7 @@ mRuleThickness
 }
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 desiredSizeAscent
 )
@@ -3812,7 +3812,7 @@ max
 (
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -3827,7 +3827,7 @@ Height
 -
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -3838,7 +3838,7 @@ descent
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 bmBase
 .
@@ -3855,7 +3855,7 @@ Height
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -3934,7 +3934,7 @@ ascent
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -4005,7 +4005,7 @@ Height
 -
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -4074,7 +4074,7 @@ y
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -4132,7 +4132,7 @@ bmLongdivChar
 width
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -4194,7 +4194,7 @@ nsRect
 dx
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -4248,7 +4248,7 @@ PositionRowChildFrames
 dx_left
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 )
