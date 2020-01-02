@@ -232,6 +232,7 @@ mutex
 .
 *
 /
+explicit
 SQLiteMutex
 (
 const
@@ -718,6 +719,7 @@ SQLiteMutexAutoLock
 {
 public
 :
+explicit
 SQLiteMutexAutoLock
 (
 SQLiteMutex
@@ -786,6 +788,7 @@ SQLiteMutexAutoUnlock
 {
 public
 :
+explicit
 SQLiteMutexAutoUnlock
 (
 SQLiteMutex

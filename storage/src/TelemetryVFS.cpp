@@ -627,6 +627,7 @@ otherthread
 .
 *
 /
+explicit
 IOThreadAutoTimer
 (
 Telemetry
@@ -705,6 +706,7 @@ IOInterposer
 .
 *
 /
+explicit
 IOThreadAutoTimer
 (
 IOInterposeObserver

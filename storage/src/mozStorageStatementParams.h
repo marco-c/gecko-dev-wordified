@@ -164,6 +164,7 @@ nsIXPCScriptable
 {
 public
 :
+explicit
 StatementParams
 (
 mozIStorageStatement

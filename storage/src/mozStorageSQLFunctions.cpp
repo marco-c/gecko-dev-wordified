@@ -971,6 +971,7 @@ AutoArray
 {
 public
 :
+explicit
 AutoArray
 (
 size_t

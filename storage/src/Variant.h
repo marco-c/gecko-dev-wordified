@@ -1970,6 +1970,7 @@ mData
 }
 public
 :
+explicit
 Variant
 (
 const

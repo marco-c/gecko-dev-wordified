@@ -340,6 +340,7 @@ BindingParams
 )
 {
 }
+explicit
 BindingParams
 (
 mozIStorageBindingParamsArray
@@ -623,6 +624,7 @@ sqlite3_stmt
 aStatement
 )
 ;
+explicit
 AsyncBindingParams
 (
 mozIStorageBindingParamsArray

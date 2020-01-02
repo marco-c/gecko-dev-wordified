@@ -256,6 +256,7 @@ happen
 .
 *
 /
+explicit
 StatementCache
 (
 nsCOMPtr
