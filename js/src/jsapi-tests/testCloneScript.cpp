@@ -349,6 +349,7 @@ END_TEST
 (
 test_cloneScript
 )
+static
 void
 DestroyPrincipals
 (

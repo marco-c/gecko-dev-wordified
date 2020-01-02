@@ -119,6 +119,7 @@ tests
 .
 h
 "
+static
 JSPrincipals
 system_principals
 =
@@ -126,6 +127,7 @@ system_principals
 1
 }
 ;
+static
 const
 JSClass
 global_class
@@ -146,18 +148,21 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
+static
 JSObject
 *
 trusted_glob
 =
 nullptr
 ;
+static
 JSObject
 *
 trusted_fun
 =
 nullptr
 ;
+static
 bool
 CallTrusted
 (

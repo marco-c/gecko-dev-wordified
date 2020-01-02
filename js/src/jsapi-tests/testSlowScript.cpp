@@ -67,6 +67,7 @@ tests
 .
 h
 "
+static
 bool
 OperationCallback
 (
@@ -83,6 +84,7 @@ static
 unsigned
 sRemain
 ;
+static
 bool
 TriggerOperationCallback
 (

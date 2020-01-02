@@ -148,12 +148,14 @@ using
 namespace
 js
 ;
+static
 JSScript
 *
-found
+foundScript
 =
 nullptr
 ;
+static
 bool
 CheckEnclosing
 (
@@ -176,7 +178,7 @@ argc
 vp
 )
 ;
-found
+foundScript
 =
 js
 :
@@ -234,7 +236,7 @@ checkEnclosing
 ;
 CHECK
 (
-found
+foundScript
 =
 =
 nullptr
@@ -310,7 +312,7 @@ s1
 ;
 CHECK
 (
-found
+foundScript
 =
 =
 JS_GetFunctionScript
@@ -375,7 +377,7 @@ s2
 ;
 CHECK
 (
-found
+foundScript
 =
 =
 JS_GetFunctionScript
@@ -456,7 +458,7 @@ s3
 ;
 CHECK
 (
-found
+foundScript
 =
 =
 JS_GetFunctionScript

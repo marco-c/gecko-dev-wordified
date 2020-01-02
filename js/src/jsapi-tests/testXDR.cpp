@@ -301,6 +301,7 @@ return
 script
 ;
 }
+static
 JSScript
 *
 FreezeThaw
@@ -402,6 +403,7 @@ funobj
 )
 ;
 }
+static
 JSObject
 *
 FreezeThaw

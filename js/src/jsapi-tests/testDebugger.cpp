@@ -140,7 +140,7 @@ h
 "
 static
 int
-callCount
+callCounts
 [
 2
 ]
@@ -172,7 +172,7 @@ void
 closure
 )
 {
-callCount
+callCounts
 [
 before
 ]
@@ -335,7 +335,7 @@ f
 call
 CHECK_EQUAL
 (
-callCount
+callCounts
 [
 0
 ]
@@ -344,7 +344,7 @@ callCount
 ;
 CHECK_EQUAL
 (
-callCount
+callCounts
 [
 1
 ]
@@ -932,8 +932,9 @@ END_TEST
 (
 testDebugger_getThisStrict
 )
+static
 bool
-called
+calledThrowHook
 =
 false
 ;
@@ -962,7 +963,7 @@ JS_ASSERT
 closure
 )
 ;
-called
+calledThrowHook
 =
 true
 ;
@@ -1119,7 +1120,7 @@ n
 ;
 CHECK
 (
-called
+calledThrowHook
 )
 ;
 CHECK
