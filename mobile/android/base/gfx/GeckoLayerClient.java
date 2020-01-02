@@ -256,7 +256,6 @@ util
 .
 List
 ;
-public
 class
 GeckoLayerClient
 implements
