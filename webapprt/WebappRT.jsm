@@ -560,6 +560,9 @@ nativeApp
 .
 applyUpdate
 (
+config
+.
+app
 )
 ;
 }

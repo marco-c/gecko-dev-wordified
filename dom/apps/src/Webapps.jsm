@@ -17334,6 +17334,7 @@ aInstallSuccessCallback
 aInstallSuccessCallback
 (
 app
+app
 .
 manifest
 )
@@ -17911,6 +17912,7 @@ aInstallSuccessCallback
 {
 aInstallSuccessCallback
 (
+aNewApp
 aManifest
 zipFile
 .

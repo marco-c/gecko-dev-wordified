@@ -365,6 +365,7 @@ nativeApp
 .
 prepareUpdate
 (
+aApp
 aManifest
 aZipPath
 )
@@ -635,6 +636,7 @@ data
 localDir
 function
 (
+aApp
 aManifest
 aZipPath
 )
@@ -643,6 +645,7 @@ nativeApp
 .
 install
 (
+aApp
 aManifest
 aZipPath
 )
