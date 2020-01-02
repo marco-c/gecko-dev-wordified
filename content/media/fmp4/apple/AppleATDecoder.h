@@ -319,8 +319,8 @@ mConverter
 AudioFileStreamID
 mStream
 ;
-uint64_t
-mCurrentAudioFrame
+Microseconds
+mCurrentAudioTimestamp
 ;
 int64_t
 mSamplePosition
