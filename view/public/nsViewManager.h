@@ -2072,13 +2072,6 @@ nsView
 aView
 )
 ;
-enum
-UpdatingMode
-{
-eNoSyncUpdate
-eTrySyncUpdate
-}
-;
 /
 *
 *
@@ -2102,8 +2095,6 @@ geometry
 void
 ProcessPendingUpdates
 (
-UpdatingMode
-aMode
 )
 ;
 /
