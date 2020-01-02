@@ -179,6 +179,7 @@ toSource
 (
 )
 "
+new
 StructType
 (
 {
