@@ -1532,17 +1532,6 @@ new_
 ScriptSource
 >
 (
-/
-*
-originPrincipals
-=
-*
-/
-(
-JSPrincipals
-*
-)
-nullptr
 )
 ;
 if
