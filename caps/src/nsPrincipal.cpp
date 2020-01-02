@@ -1195,7 +1195,7 @@ NS_IMETHODIMP
 nsPrincipal
 :
 :
-Equals
+EqualsConsideringDomain
 (
 nsIPrincipal
 *
@@ -1251,18 +1251,6 @@ return
 NS_OK
 ;
 }
-/
-/
-Codebases
-are
-equal
-if
-they
-have
-the
-same
-origin
-.
 *
 aResult
 =
@@ -1286,7 +1274,7 @@ NS_IMETHODIMP
 nsPrincipal
 :
 :
-EqualsIgnoringDomain
+Equals
 (
 nsIPrincipal
 *
@@ -1433,7 +1421,7 @@ NS_IMETHODIMP
 nsPrincipal
 :
 :
-EqualsConsideringDomain
+EqualsIgnoringDomain
 (
 nsIPrincipal
 *
@@ -1510,7 +1498,7 @@ aResult
 )
 {
 return
-Subsumes
+EqualsConsideringDomain
 (
 aOther
 aResult
