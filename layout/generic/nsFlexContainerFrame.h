@@ -153,6 +153,9 @@ class
 FlexItem
 ;
 class
+FlexLine
+;
+class
 FlexboxAxisTracker
 ;
 class
@@ -600,12 +603,9 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-nsTArray
-<
-FlexItem
->
+FlexLine
 &
-aItems
+aLine
 )
 ;
 nscoord
