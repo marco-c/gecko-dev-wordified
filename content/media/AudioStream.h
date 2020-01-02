@@ -3027,6 +3027,17 @@ rv
 )
 )
 {
+/
+/
+Note
+:
+event
+must
+not
+null
+out
+mThread
+!
 rv
 =
 mThread
