@@ -920,14 +920,7 @@ TimeStamp
 (
 )
 const
-{
-return
-mEvent
--
->
-time
 ;
-}
 void
 InitEvent
 (
