@@ -1795,11 +1795,6 @@ gTimedOut
 return
 true
 ;
-JS_ClearPendingException
-(
-cx
-)
-;
 bool
 result
 ;
@@ -1813,6 +1808,15 @@ isNull
 )
 )
 {
+JS
+:
+:
+AutoSaveExceptionState
+savedExc
+(
+cx
+)
+;
 JSAutoCompartment
 ac
 (

@@ -1283,8 +1283,10 @@ cx
 JSErrorReporter
 prevReporter
 ;
-JSExceptionState
-*
+JS
+:
+:
+AutoSaveExceptionState
 prevState
 ;
 SuppressErrorsGuard
@@ -1308,10 +1310,7 @@ nullptr
 )
 prevState
 (
-JS_SaveExceptionState
-(
 cx
-)
 )
 {
 }
@@ -1320,12 +1319,6 @@ SuppressErrorsGuard
 (
 )
 {
-JS_RestoreExceptionState
-(
-cx
-prevState
-)
-;
 JS_SetErrorReporter
 (
 cx

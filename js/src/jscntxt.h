@@ -2516,6 +2516,13 @@ js
 :
 ExclusiveContext
 ;
+friend
+class
+JS
+:
+:
+AutoSaveExceptionState
+;
 private
 :
 /
