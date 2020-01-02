@@ -1992,19 +1992,6 @@ sub
 sup
 or
 subsup
-nscoord
-scriptSpace
-=
-nsPresContext
-:
-:
-CSSPointsToAppUnits
-(
-0
-.
-5f
-)
-;
 if
 (
 tag
@@ -2031,7 +2018,6 @@ aDesiredSize
 this
 0
 0
-scriptSpace
 )
 ;
 }
@@ -2062,7 +2048,6 @@ aDesiredSize
 this
 0
 0
-scriptSpace
 )
 ;
 }
@@ -2104,7 +2089,6 @@ aDesiredSize
 this
 0
 0
-scriptSpace
 )
 ;
 }
