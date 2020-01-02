@@ -369,8 +369,9 @@ return
 root
 ;
 }
-bool
-contains
+T
+*
+find
 (
 const
 T
@@ -385,7 +386,7 @@ empty
 )
 )
 return
-false
+nullptr
 ;
 T
 *
@@ -420,6 +421,10 @@ last
 =
 =
 0
+?
+last
+:
+nullptr
 ;
 }
 bool
@@ -433,7 +438,7 @@ v
 MOZ_ASSERT
 (
 !
-contains
+find
 (
 *
 v

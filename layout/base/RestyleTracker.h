@@ -345,7 +345,7 @@ empty
 !
 mEntryList
 .
-contains
+find
 (
 Entry
 (
@@ -415,7 +415,7 @@ if
 (
 mEntryList
 .
-contains
+find
 (
 Entry
 (
@@ -758,7 +758,7 @@ if
 !
 mEntryList
 .
-contains
+find
 (
 Entry
 (
