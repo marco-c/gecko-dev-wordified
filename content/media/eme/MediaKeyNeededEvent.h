@@ -242,14 +242,14 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 MediaKeyNeededEvent
 Event
 )
+protected
+:
 virtual
 ~
 MediaKeyNeededEvent
 (
 )
 ;
-protected
-:
 MediaKeyNeededEvent
 (
 EventTarget

@@ -282,11 +282,6 @@ nsAString
 aSessionId
 )
 ;
-~
-MediaKeySession
-(
-)
-;
 virtual
 JSObject
 *
@@ -463,6 +458,11 @@ const
 ;
 private
 :
+~
+MediaKeySession
+(
+)
+;
 nsRefPtr
 <
 Promise
