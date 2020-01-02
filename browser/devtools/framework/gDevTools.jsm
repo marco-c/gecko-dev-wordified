@@ -1510,17 +1510,6 @@ window
 side
 )
 *
-param
-{
-object
-}
-hostOptions
-*
-Options
-for
-host
-specifically
-*
 *
 return
 {
@@ -1542,7 +1531,6 @@ function
 target
 toolId
 hostType
-hostOptions
 )
 {
 let
@@ -1683,7 +1671,6 @@ Toolbox
 target
 toolId
 hostType
-hostOptions
 )
 ;
 this
