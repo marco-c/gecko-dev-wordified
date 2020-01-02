@@ -142,6 +142,9 @@ layers
 class
 GrallocTextureClientOGL
 ;
+class
+IntSize
+;
 /
 *
 *
@@ -443,7 +446,7 @@ GraphicBufferLocked
 >
 mGraphicBuffer
 ;
-gfxIntSize
+IntSize
 mPicSize
 ;
 }

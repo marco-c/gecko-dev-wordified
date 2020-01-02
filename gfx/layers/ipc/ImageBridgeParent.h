@@ -129,17 +129,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-/
-/
-for
-gfxIntSize
-#
-include
-"
 mozilla
 /
 Assertions
@@ -349,7 +338,7 @@ PGrallocBufferParent
 AllocPGrallocBufferParent
 (
 const
-gfxIntSize
+IntSize
 &
 const
 uint32_t
