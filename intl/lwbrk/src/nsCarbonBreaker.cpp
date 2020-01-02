@@ -220,7 +220,15 @@ kUCTextBreakLeadingEdgeMask
 |
 kUCTextBreakIterateMask
 )
+reinterpret_cast
+<
+const
+UniChar
+*
+>
+(
 aText
+)
 aLength
 position
 &
