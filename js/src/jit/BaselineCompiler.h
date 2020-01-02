@@ -571,11 +571,6 @@ JSOP_CALLELEM
 \
 _
 (
-JSOP_ENUMELEM
-)
-\
-_
-(
 JSOP_DELELEM
 )
 \
