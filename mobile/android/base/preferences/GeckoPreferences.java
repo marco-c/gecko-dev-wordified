@@ -1975,6 +1975,10 @@ RESULT_CODE_LOCALE_DID_CHANGE
 return
 ;
 }
+refreshSuggestedSites
+(
+)
+;
 /
 /
 Cause
