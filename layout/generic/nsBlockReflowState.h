@@ -1186,6 +1186,7 @@ nscoord
 ContentIStart
 (
 )
+const
 {
 return
 mContentArea
@@ -1204,6 +1205,7 @@ nscoord
 ContentISize
 (
 )
+const
 {
 return
 mContentArea
@@ -1222,6 +1224,7 @@ nscoord
 ContentIEnd
 (
 )
+const
 {
 return
 mContentArea
@@ -1240,6 +1243,7 @@ nscoord
 ContentBStart
 (
 )
+const
 {
 return
 mContentArea
@@ -1258,6 +1262,7 @@ nscoord
 ContentBSize
 (
 )
+const
 {
 return
 mContentArea
@@ -1276,6 +1281,7 @@ nscoord
 ContentBEnd
 (
 )
+const
 {
 return
 mContentArea
