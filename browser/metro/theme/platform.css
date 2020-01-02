@@ -1566,9 +1566,12 @@ richlistbox
 >
 richlistitem
 {
+-
+moz
+-
 padding
 -
-right
+end
 :
 50px
 ;
