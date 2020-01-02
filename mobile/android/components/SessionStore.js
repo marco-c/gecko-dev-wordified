@@ -1522,9 +1522,6 @@ about
 home
 "
 {
-showProgress
-:
-false
 selected
 :
 true
