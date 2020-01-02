@@ -939,7 +939,7 @@ e
 try
 {
 var
-seer
+predictor
 =
 Cc
 [
@@ -950,7 +950,7 @@ org
 /
 network
 /
-seer
+predictor
 ;
 1
 "
@@ -960,10 +960,10 @@ getService
 (
 Ci
 .
-nsINetworkSeer
+nsINetworkPredictor
 )
 ;
-seer
+predictor
 .
 reset
 (

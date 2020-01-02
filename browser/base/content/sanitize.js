@@ -1566,7 +1566,7 @@ e
 try
 {
 var
-seer
+predictor
 =
 Components
 .
@@ -1579,7 +1579,7 @@ org
 /
 network
 /
-seer
+predictor
 ;
 1
 "
@@ -1591,10 +1591,10 @@ Components
 .
 interfaces
 .
-nsINetworkSeer
+nsINetworkPredictor
 )
 ;
-seer
+predictor
 .
 reset
 (

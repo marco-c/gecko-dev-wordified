@@ -1835,7 +1835,7 @@ trash
 it
 all
 let
-ns
+np
 =
 Cc
 [
@@ -1846,7 +1846,7 @@ org
 /
 network
 /
-seer
+predictor
 ;
 1
 "
@@ -1856,10 +1856,10 @@ getService
 (
 Ci
 .
-nsINetworkSeer
+nsINetworkPredictor
 )
 ;
-ns
+np
 .
 reset
 (

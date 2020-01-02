@@ -277,7 +277,7 @@ h
 #
 include
 "
-nsINetworkSeer
+nsINetworkPredictor
 .
 h
 "
@@ -8012,11 +8012,11 @@ mozilla
 net
 :
 :
-SeerLearn
+PredictorLearn
 (
 aURI
 aInitialDocumentURI
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 LEARN_LOAD_SUBRESOURCE
@@ -10951,11 +10951,11 @@ mozilla
 net
 :
 :
-SeerLearn
+PredictorLearn
 (
 aURI
 aInitialDocumentURI
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 LEARN_LOAD_SUBRESOURCE

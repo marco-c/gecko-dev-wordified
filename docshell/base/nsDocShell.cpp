@@ -908,7 +908,7 @@ endif
 #
 include
 "
-nsINetworkSeer
+nsINetworkPredictor
 .
 h
 "
@@ -41330,7 +41330,7 @@ mozilla
 net
 :
 :
-SeerLearnRedirect
+PredictorLearnRedirect
 (
 url
 aChannel
@@ -56690,11 +56690,11 @@ mozilla
 net
 :
 :
-SeerPredict
+PredictorPredict
 (
 aURI
 nullptr
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 PREDICT_LOAD
@@ -75713,11 +75713,11 @@ mozilla
 net
 :
 :
-SeerPredict
+PredictorPredict
 (
 aURI
 mCurrentURI
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 PREDICT_LINK

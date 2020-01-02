@@ -14101,7 +14101,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 enabled
 "
@@ -14113,7 +14113,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 enable
 -
@@ -14131,7 +14131,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 page
 -
@@ -14147,7 +14147,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 page
 -
@@ -14163,7 +14163,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 page
 -
@@ -14179,7 +14179,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 page
 -
@@ -14195,7 +14195,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 page
 -
@@ -14211,7 +14211,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 subresource
 -
@@ -14227,7 +14227,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 subresource
 -
@@ -14243,7 +14243,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 subresource
 -
@@ -14259,7 +14259,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 subresource
 -
@@ -14275,7 +14275,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 subresource
 -
@@ -14291,7 +14291,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 preconnect
 -
@@ -14307,7 +14307,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 preresolve
 -
@@ -14323,7 +14323,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 redirect
 -
@@ -14339,7 +14339,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 max
 -
@@ -14355,7 +14355,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 max
 -
@@ -14374,7 +14374,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 preserve
 "
@@ -14385,7 +14385,7 @@ preserve
 /
 percentage
 of
-seer
+predictor
 data
 to
 keep
