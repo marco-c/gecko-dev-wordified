@@ -416,6 +416,8 @@ execute
 (
 "
 window
+.
+location
 "
 )
 ;
@@ -479,7 +481,7 @@ textContent
 contains
 (
 "
-Window
+Location
 \
 u2192
 http
@@ -569,12 +571,14 @@ vviewVar
 name
 :
 "
-foo
+host
 "
 value
 :
 "
-globalFooBug783499
+example
+.
+com
 "
 }
 ]
