@@ -124,7 +124,7 @@ ss
 -
 test
 :
-onFrameTreeReset
+OnHistoryReplaceEntry
 "
 )
 ;
