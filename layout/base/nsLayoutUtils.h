@@ -454,6 +454,7 @@ static
 bool
 FindIDFor
 (
+const
 nsIContent
 *
 aContent

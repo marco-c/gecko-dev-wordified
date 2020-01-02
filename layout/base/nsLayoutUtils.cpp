@@ -3001,6 +3001,7 @@ nsLayoutUtils
 :
 FindIDFor
 (
+const
 nsIContent
 *
 aContent
