@@ -147,6 +147,9 @@ class
 nsPoint
 ;
 class
+nsIDocument
+;
+class
 nsDOMWindowUtils
 MOZ_FINAL
 :
@@ -267,6 +270,12 @@ GetPresShell
 nsPresContext
 *
 GetPresContext
+(
+)
+;
+nsIDocument
+*
+GetDocument
 (
 )
 ;
