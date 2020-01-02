@@ -26421,7 +26421,11 @@ clearObjects
 (
 )
 ;
-return
+objectCount
+=
+0
+;
+break
 ;
 }
 }
