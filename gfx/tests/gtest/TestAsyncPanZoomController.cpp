@@ -264,7 +264,7 @@ SetUp
 gfxPrefs
 :
 :
-One
+GetSingleton
 (
 )
 ;
@@ -278,7 +278,7 @@ TearDown
 gfxPrefs
 :
 :
-Destroy
+DestroySingleton
 (
 )
 ;
@@ -307,7 +307,7 @@ SetUp
 gfxPrefs
 :
 :
-One
+GetSingleton
 (
 )
 ;
@@ -321,7 +321,7 @@ TearDown
 gfxPrefs
 :
 :
-Destroy
+DestroySingleton
 (
 )
 ;
