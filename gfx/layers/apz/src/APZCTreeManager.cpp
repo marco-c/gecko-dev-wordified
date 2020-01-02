@@ -5786,7 +5786,7 @@ aOverscrollHandoffChainIndex
 )
 ;
 }
-void
+bool
 APZCTreeManager
 :
 :
@@ -6079,6 +6079,7 @@ nullptr
 )
 {
 return
+false
 ;
 }
 /
@@ -6237,6 +6238,7 @@ the
 transformed
 velocity
 .
+return
 next
 -
 >
