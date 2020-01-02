@@ -1134,15 +1134,14 @@ aTickler
 )
 ;
 }
+private
+:
 ~
 TicklerTimer
 (
 )
 {
 }
-;
-private
-:
 nsWeakPtr
 mTickler
 ;

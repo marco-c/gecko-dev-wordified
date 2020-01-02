@@ -131,6 +131,14 @@ MOZ_FINAL
 public
 nsIMobileMessageDatabaseService
 {
+private
+:
+~
+MobileMessageDatabaseService
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

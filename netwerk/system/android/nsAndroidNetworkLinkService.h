@@ -138,6 +138,8 @@ nsAndroidNetworkLinkService
 (
 )
 ;
+private
+:
 virtual
 ~
 nsAndroidNetworkLinkService

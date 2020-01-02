@@ -122,8 +122,6 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIHANDLERAPP
 NS_DECL_NSISHARINGHANDLERAPP
-public
-:
 nsAndroidHandlerApp
 (
 const
@@ -152,14 +150,14 @@ nsAString
 aAction
 )
 ;
+private
+:
 virtual
 ~
 nsAndroidHandlerApp
 (
 )
 ;
-private
-:
 nsString
 mName
 ;

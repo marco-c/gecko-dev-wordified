@@ -226,13 +226,15 @@ MOZ_FINAL
 public
 nsIScreenManager
 {
-public
+private
 :
+~
 nsScreenManagerAndroid
 (
 )
 ;
-~
+public
+:
 nsScreenManagerAndroid
 (
 )

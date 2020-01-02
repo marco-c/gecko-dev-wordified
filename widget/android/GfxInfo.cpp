@@ -618,6 +618,15 @@ GLStrings
 )
 {
 }
+GfxInfo
+:
+:
+~
+GfxInfo
+(
+)
+{
+}
 /
 *
 GetD2DEnabled

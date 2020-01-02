@@ -759,6 +759,14 @@ MOZ_FINAL
 public
 nsIDOMMozWakeLockListener
 {
+private
+:
+~
+WakeLockListener
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

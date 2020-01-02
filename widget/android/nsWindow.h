@@ -198,6 +198,14 @@ nsWindow
 public
 nsBaseWidget
 {
+private
+:
+virtual
+~
+nsWindow
+(
+)
+;
 public
 :
 using
@@ -206,12 +214,6 @@ nsBaseWidget
 :
 GetLayerManager
 ;
-nsWindow
-(
-)
-;
-virtual
-~
 nsWindow
 (
 )

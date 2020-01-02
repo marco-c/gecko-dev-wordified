@@ -122,6 +122,14 @@ MOZ_FINAL
 public
 nsISmsService
 {
+private
+:
+~
+SmsService
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

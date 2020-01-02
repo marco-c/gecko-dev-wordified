@@ -185,6 +185,8 @@ nsAndroidProtocolHandler
 )
 {
 }
+private
+:
 ~
 nsAndroidProtocolHandler
 (
