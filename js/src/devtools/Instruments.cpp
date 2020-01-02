@@ -717,6 +717,8 @@ false
 bool
 Start
 (
+pid_t
+pid
 )
 {
 if
@@ -757,9 +759,7 @@ CFSTR
 d
 "
 )
-getpid
-(
-)
+pid
 )
 ;
 if
