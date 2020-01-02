@@ -387,7 +387,7 @@ widget
 container
 theme
 -
-body
+sidebar
 "
 ;
 this
