@@ -722,7 +722,7 @@ sendMessageToJava
 type
 :
 "
-WebApps
+Webapps
 :
 InstallApk
 "
@@ -1356,9 +1356,9 @@ sendMessageToJava
 type
 :
 "
-WebApps
+Webapps
 :
-PostInstall
+Postinstall
 "
 apkPackageName
 :
@@ -1424,7 +1424,7 @@ sendMessageToJava
 type
 :
 "
-WebApps
+Webapps
 :
 Open
 "
@@ -2153,7 +2153,7 @@ sendMessageToJava
 type
 :
 "
-WebApps
+Webapps
 :
 GetApkVersions
 "
@@ -3556,7 +3556,7 @@ TODO
 figure
 out
 why
-WebApps
+Webapps
 :
 InstallApk
 needs
@@ -3581,7 +3581,7 @@ sendMessageToJava
 type
 :
 "
-WebApps
+Webapps
 :
 InstallApk
 "

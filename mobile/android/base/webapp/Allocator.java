@@ -165,7 +165,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppAllocator
+GeckoWebappAllocator
 "
 ;
 private
@@ -201,12 +201,12 @@ name
 The
 number
 of
-WebApp
+Webapp
 #
 and
 WEBAPP
 #
-activites
+activities
 /
 apps
 /

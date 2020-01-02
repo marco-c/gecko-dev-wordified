@@ -217,7 +217,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppApkResources
+GeckoWebappApkResources
 "
 ;
 private
@@ -371,7 +371,7 @@ packaged
 .
 equals
 (
-getWebAppType
+getWebappType
 (
 )
 )
@@ -626,7 +626,7 @@ getPackageManager
 }
 public
 String
-getWebAppType
+getWebappType
 (
 )
 {

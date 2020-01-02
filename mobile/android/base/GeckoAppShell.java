@@ -4502,7 +4502,7 @@ true
 public
 static
 Intent
-getWebAppIntent
+getWebappIntent
 (
 String
 aURI
@@ -4629,7 +4629,7 @@ aTitle
 )
 index
 =
-WebAppAllocator
+WebappAllocator
 .
 getInstance
 (
@@ -4648,7 +4648,7 @@ aIcon
 else
 index
 =
-WebAppAllocator
+WebappAllocator
 .
 getInstance
 (
@@ -4675,7 +4675,7 @@ null
 ;
 intent
 =
-getWebAppIntent
+getWebappIntent
 (
 index
 aURI
@@ -4692,7 +4692,7 @@ The
 old
 implementation
 of
-getWebAppIntent
+getWebappIntent
 .
 Not
 used
@@ -4702,7 +4702,7 @@ MOZ_ANDROID_SYNTHAPKS
 public
 static
 Intent
-getWebAppIntent
+getWebappIntent
 (
 int
 aIndex
@@ -5080,7 +5080,7 @@ SHORTCUT_TYPE_WEBAPP
 {
 shortcutIntent
 =
-getWebAppIntent
+getWebappIntent
 (
 aURI
 aUniqueURI
@@ -5326,7 +5326,7 @@ SHORTCUT_TYPE_WEBAPP
 {
 shortcutIntent
 =
-getWebAppIntent
+getWebappIntent
 (
 aURI
 aUniqueURI

@@ -239,7 +239,7 @@ File
 ;
 public
 class
-WebAppImpl
+WebappImpl
 extends
 GeckoApp
 {
@@ -250,7 +250,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppImpl
+GeckoWebappImpl
 "
 ;
 private
@@ -473,7 +473,7 @@ e
 (
 LOGTAG
 "
-WebApp
+Webapp
 launch
 but
 intent
@@ -501,12 +501,12 @@ origin
 stored
 in
 the
-WebAppAllocator
+WebappAllocator
 first
 String
 origin
 =
-WebAppAllocator
+WebappAllocator
 .
 getInstance
 (
@@ -703,7 +703,7 @@ is
 not
 an
 installed
-WebApp
+Webapp
 .
 We
 will
@@ -711,7 +711,7 @@ will
 /
 use
 the
-WebAppAllocator
+WebappAllocator
 to
 register
 the
@@ -731,7 +731,7 @@ chromeless
 int
 index
 =
-WebAppAllocator
+WebappAllocator
 .
 getInstance
 (
@@ -755,7 +755,7 @@ appIntent
 =
 GeckoAppShell
 .
-getWebAppIntent
+getWebappIntent
 (
 index
 uri
@@ -826,7 +826,7 @@ prefs
 .
 getInt
 (
-WebAppAllocator
+WebappAllocator
 .
 iconKey
 (
@@ -1197,7 +1197,7 @@ e
 (
 LOGTAG
 "
-WebApp
+Webapp
 launch
 but
 intent

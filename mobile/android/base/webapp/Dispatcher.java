@@ -139,7 +139,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppDispatcher
+GeckoWebappDispatcher
 "
 ;
 Override
