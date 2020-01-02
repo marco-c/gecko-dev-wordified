@@ -17656,7 +17656,7 @@ if
 aCompareNode
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 !
@@ -17664,7 +17664,7 @@ GetCurrentDoc
 start
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 |
@@ -17673,7 +17673,7 @@ GetCurrentDoc
 start
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 )
@@ -17781,7 +17781,7 @@ if
 aCompareNode
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 !
@@ -17789,7 +17789,7 @@ GetCurrentDoc
 end
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 |
@@ -17798,7 +17798,7 @@ GetCurrentDoc
 end
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 )

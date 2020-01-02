@@ -6666,7 +6666,7 @@ if
 aFlushFrames
 &
 &
-IsInDoc
+IsInComposedDoc
 (
 )
 )
@@ -6689,7 +6689,7 @@ to
 date
 frame
 information
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
@@ -13962,12 +13962,15 @@ aren
 t
 in
 a
+(
+composed
+)
 document
 nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -15421,7 +15424,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -15547,7 +15550,7 @@ nsIDocument
 >
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -15704,7 +15707,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

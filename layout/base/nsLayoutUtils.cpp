@@ -39949,7 +39949,7 @@ doc
 aElement
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

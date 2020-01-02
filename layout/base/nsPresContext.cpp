@@ -15530,7 +15530,7 @@ GetDocument
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 )
