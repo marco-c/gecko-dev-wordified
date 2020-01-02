@@ -2345,11 +2345,6 @@ index
 )
 const
 ;
-bool
-earlyAbortCheck
-(
-)
-;
 /
 /
 Compute

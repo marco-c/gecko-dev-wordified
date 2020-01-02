@@ -593,6 +593,14 @@ removeBetaNodes
 )
 ;
 bool
+prepareForUCE
+(
+bool
+*
+shouldRemoveDeadCode
+)
+;
+bool
 truncate
 (
 )

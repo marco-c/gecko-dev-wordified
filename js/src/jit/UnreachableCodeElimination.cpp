@@ -1475,6 +1475,10 @@ dependency
 .
 if
 (
+!
+disableAliasAnalysis_
+&
+&
 instr
 -
 >
