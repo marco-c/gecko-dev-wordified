@@ -8175,6 +8175,12 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
+gfxUtils
+:
+:
+sDumpPainting
+&
+&
 AsLayerComposite
 (
 )
