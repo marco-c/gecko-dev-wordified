@@ -7193,7 +7193,7 @@ runner_class
 MarionetteTestRunner
 parser_class
 =
-MarionetteTestOptions
+BaseMarionetteOptions
 )
 :
     
