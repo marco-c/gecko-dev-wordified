@@ -1159,9 +1159,8 @@ true
 }
 this
 .
-loadView
+loadReactComponent
 (
-new
 sharedViews
 .
 ConversationView
