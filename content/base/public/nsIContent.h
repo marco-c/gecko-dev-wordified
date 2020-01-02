@@ -127,7 +127,7 @@ declared
 #
 include
 "
-nsIDocument
+nsINode
 .
 h
 "
@@ -1700,18 +1700,7 @@ IsInHTMLDocument
 (
 )
 const
-{
-return
-OwnerDoc
-(
-)
--
->
-IsHTML
-(
-)
 ;
-}
 /
 *
 *

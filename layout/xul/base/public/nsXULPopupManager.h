@@ -391,6 +391,9 @@ nsIDOMKeyEvent
 class
 nsIDocShellTreeItem
 ;
+class
+nsPIDOMWindow
+;
 /
 /
 when

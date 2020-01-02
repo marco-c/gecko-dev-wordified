@@ -144,6 +144,13 @@ h
 #
 include
 "
+nsEventStates
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h

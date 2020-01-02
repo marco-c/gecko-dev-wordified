@@ -444,6 +444,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MiscEvents

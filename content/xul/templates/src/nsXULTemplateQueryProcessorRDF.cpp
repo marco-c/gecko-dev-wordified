@@ -296,6 +296,13 @@ nsXULSortService
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 /
 /
 -

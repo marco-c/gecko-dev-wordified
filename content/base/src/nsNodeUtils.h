@@ -142,6 +142,13 @@ TypeDecls
 .
 h
 "
+#
+include
+"
+nsCOMArray
+.
+h
+"
 struct
 CharacterDataChangeInfo
 ;
