@@ -678,6 +678,8 @@ count
 =
 c
 .
+_connectionData
+.
 _statementCounter
 ;
 yield
@@ -691,6 +693,8 @@ setAutoCheckpoint
 do_check_eq
 (
 c
+.
+_connectionData
 .
 _statementCounter
 count
@@ -730,6 +734,8 @@ count
 =
 c
 .
+_connectionData
+.
 _statementCounter
 ;
 yield
@@ -743,6 +749,8 @@ setAutoCheckpoint
 do_check_eq
 (
 c
+.
+_connectionData
 .
 _statementCounter
 count
@@ -783,6 +791,8 @@ count
 =
 c
 .
+_connectionData
+.
 _statementCounter
 ;
 yield
@@ -795,6 +805,8 @@ checkpoint
 do_check_eq
 (
 c
+.
+_connectionData
 .
 _statementCounter
 count
@@ -812,6 +824,8 @@ checkpoint
 do_check_eq
 (
 c
+.
+_connectionData
 .
 _statementCounter
 count

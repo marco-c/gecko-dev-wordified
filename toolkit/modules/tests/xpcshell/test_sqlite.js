@@ -1789,6 +1789,8 @@ do_check_eq
 (
 c
 .
+_connectionData
+.
 _anonymousStatements
 .
 size
@@ -1845,6 +1847,8 @@ instance
 do_check_eq
 (
 c
+.
+_connectionData
 .
 _anonymousStatements
 .
@@ -2915,6 +2919,8 @@ oldShrink
 =
 c
 .
+_connectionData
+.
 shrinkMemory
 ;
 let
@@ -2927,6 +2933,8 @@ Object
 defineProperty
 (
 c
+.
+_connectionData
 "
 shrinkMemory
 "
@@ -3028,6 +3036,8 @@ shrinkMemoryOnConnectionIdleMS
 ;
 c
 .
+_connectionData
+.
 _clearIdleShrinkTimer
 (
 )
@@ -3036,6 +3046,8 @@ let
 oldShrink
 =
 c
+.
+_connectionData
 .
 shrinkMemory
 ;
@@ -3055,6 +3067,8 @@ Object
 defineProperty
 (
 c
+.
+_connectionData
 "
 shrinkMemory
 "
@@ -3077,6 +3091,8 @@ oldShrink
 call
 (
 c
+.
+_connectionData
 )
 ;
 shrinkPromises
@@ -3120,6 +3136,8 @@ monkeypatched
 function
 .
 c
+.
+_connectionData
 .
 _startIdleShrinkTimer
 (
@@ -3260,6 +3278,8 @@ INTERVAL
 ;
 c
 .
+_connectionData
+.
 _clearIdleShrinkTimer
 (
 )
@@ -3268,6 +3288,8 @@ let
 oldShrink
 =
 c
+.
+_connectionData
 .
 shrinkMemory
 ;
@@ -3287,6 +3309,8 @@ Object
 defineProperty
 (
 c
+.
+_connectionData
 "
 shrinkMemory
 "
@@ -3309,6 +3333,8 @@ oldShrink
 call
 (
 c
+.
+_connectionData
 )
 ;
 shrinkPromises
@@ -3334,6 +3360,8 @@ Date
 )
 ;
 c
+.
+_connectionData
 .
 _startIdleShrinkTimer
 (
@@ -3509,6 +3537,8 @@ do_check_eq
 (
 c
 .
+_connectionData
+.
 _statementCounter
 c
 .
@@ -3518,6 +3548,8 @@ _initialStatementCount
 do_check_eq
 (
 c
+.
+_connectionData
 .
 _pendingStatements
 .
@@ -3550,6 +3582,8 @@ do_check_eq
 (
 c
 .
+_connectionData
+.
 _statementCounter
 c
 .
@@ -3561,6 +3595,8 @@ _initialStatementCount
 do_check_eq
 (
 c
+.
+_connectionData
 .
 _pendingStatements
 .
@@ -3699,6 +3735,8 @@ expectOne
 =
 c
 .
+_connectionData
+.
 _pendingStatements
 .
 size
@@ -3744,6 +3782,8 @@ dirs
 expectTwo
 =
 c
+.
+_connectionData
 .
 _pendingStatements
 .
@@ -3859,6 +3899,8 @@ do_check_eq
 (
 c
 .
+_connectionData
+.
 _statementCounter
 c
 .
@@ -3870,6 +3912,8 @@ _initialStatementCount
 do_check_eq
 (
 c
+.
+_connectionData
 .
 _pendingStatements
 .
@@ -4088,6 +4132,8 @@ do_check_eq
 1
 c
 .
+_connectionData
+.
 _cachedStatements
 .
 size
@@ -4110,6 +4156,8 @@ do_check_eq
 (
 2
 c
+.
+_connectionData
 .
 _cachedStatements
 .
@@ -4134,6 +4182,8 @@ do_check_eq
 2
 c
 .
+_connectionData
+.
 _cachedStatements
 .
 size
@@ -4149,6 +4199,8 @@ do_check_eq
 (
 0
 c
+.
+_connectionData
 .
 _cachedStatements
 .
