@@ -2869,6 +2869,11 @@ WidgetTouchEvent
 aOutEvent
 )
 {
+nsEventStatus
+ret
+=
+nsEventStatus_eIgnore
+;
 if
 (
 !
@@ -2882,7 +2887,7 @@ Length
 )
 {
 return
-nsEventStatus_eIgnore
+ret
 ;
 }
 if
@@ -2939,14 +2944,9 @@ point
 }
 if
 (
-!
 mApzcForInputBlock
 )
 {
-return
-nsEventStatus_eIgnore
-;
-}
 /
 /
 For
@@ -3038,7 +3038,6 @@ transformToApzc
 )
 ;
 }
-nsEventStatus
 ret
 =
 mApzcForInputBlock
@@ -3150,6 +3149,7 @@ mRefPoint
 outTransform
 )
 ;
+}
 }
 /
 /
