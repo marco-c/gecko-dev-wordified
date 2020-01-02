@@ -421,6 +421,15 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 }
 }
+TextTrackCue
+:
+:
+~
+TextTrackCue
+(
+)
+{
+}
 /
 *
 *
