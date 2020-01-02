@@ -924,9 +924,9 @@ size_t
 fieldCount
 jsid
 id
-int32_t
+size_t
 *
-offset
+fieldOffset
 TypedObjectPrediction
 *
 out
@@ -1863,7 +1863,7 @@ hasFieldNamed
 (
 jsid
 id
-int32_t
+size_t
 *
 fieldOffset
 TypedObjectPrediction

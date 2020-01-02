@@ -59595,7 +59595,7 @@ resultTypes
 TypedObjectPrediction
 fieldPrediction
 ;
-int32_t
+size_t
 fieldOffset
 ;
 size_t
@@ -63526,7 +63526,7 @@ value
 TypedObjectPrediction
 fieldPrediction
 ;
-int32_t
+size_t
 fieldOffset
 ;
 size_t
@@ -70363,7 +70363,7 @@ typedObj
 PropertyName
 *
 name
-int32_t
+size_t
 *
 fieldOffset
 TypedObjectPrediction

@@ -3435,7 +3435,7 @@ at
 index
 index
 .
-int32_t
+size_t
 fieldOffset
 (
 size_t
