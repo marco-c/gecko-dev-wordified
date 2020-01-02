@@ -83,7 +83,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /
