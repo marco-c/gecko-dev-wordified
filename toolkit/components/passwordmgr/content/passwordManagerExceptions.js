@@ -611,7 +611,7 @@ keyCode
 46
 )
 {
-DeleteRejectSelected
+DeleteReject
 (
 )
 ;
