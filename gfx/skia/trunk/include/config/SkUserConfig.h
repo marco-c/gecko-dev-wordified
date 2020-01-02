@@ -1592,3 +1592,7 @@ h
 endif
 #
 endif
+#
+define
+SK_ALLOW_STATIC_GLOBAL_INITIALIZERS
+0
