@@ -7908,7 +7908,10 @@ script
 {
 ok
 =
-JS_ExecuteScript
+JS
+:
+:
+CloneAndExecuteScript
 (
 cx
 global
