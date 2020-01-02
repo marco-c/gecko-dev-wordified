@@ -872,6 +872,8 @@ __init__
 (
 self
 automation
+=
+None
 )
 :
     
@@ -880,6 +882,10 @@ self
 automation
 =
 automation
+or
+Automation
+(
+)
   
 def
 getFullPath
