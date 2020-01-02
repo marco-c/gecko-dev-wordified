@@ -6536,6 +6536,10 @@ m
 TransformBounds
 (
 r
+.
+ToThebesRect
+(
+)
 )
 ;
 }
@@ -6607,6 +6611,10 @@ m
 TransformBounds
 (
 r
+.
+ToThebesRect
+(
+)
 )
 ;
 }
@@ -20464,6 +20472,10 @@ nsSVGUtils
 ToCanvasBounds
 (
 userRect
+.
+ToThebesRect
+(
+)
 GetCanvasTM
 (
 FOR_HIT_TESTING
@@ -22406,6 +22418,10 @@ TextRenderedRun
 :
 eIncludeStroke
 )
+.
+ToThebesRect
+(
+)
 ;
 if
 (
@@ -22728,6 +22744,10 @@ nsLayoutUtils
 RoundGfxRectToAppRect
 (
 r
+.
+ToThebesRect
+(
+)
 presContext
 -
 >
@@ -33256,6 +33276,10 @@ GetRunUserSpaceRect
 presContext
 flags
 )
+.
+ToThebesRect
+(
+)
 ;
 gfxPoint
 pointInRunUserSpace
@@ -33876,6 +33900,10 @@ incomingRectInFrameUserSpace
 Intersect
 (
 runRectInFrameUserSpace
+.
+ToThebesRect
+(
+)
 )
 ;
 if
@@ -34256,6 +34284,10 @@ GetFrameUserSpaceRect
 (
 presContext
 flags
+)
+.
+ToThebesRect
+(
 )
 )
 ;

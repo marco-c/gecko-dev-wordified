@@ -3539,6 +3539,10 @@ gfxMatrix
 )
 flags
 )
+.
+ToThebesRect
+(
+)
 ;
 if
 (
