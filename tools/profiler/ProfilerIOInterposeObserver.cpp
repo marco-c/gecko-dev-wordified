@@ -92,6 +92,17 @@ Observation
 aObservation
 )
 {
+if
+(
+!
+IsMainThread
+(
+)
+)
+{
+return
+;
+}
 const
 char
 *
