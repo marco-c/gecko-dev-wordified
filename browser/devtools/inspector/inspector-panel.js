@@ -2594,6 +2594,8 @@ set
 selectionCssSelector
 (
 cssSelector
+=
+null
 )
 {
 this
