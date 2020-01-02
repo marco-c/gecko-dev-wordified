@@ -107,6 +107,19 @@ gecko
 .
 home
 .
+HomePager
+.
+OnUrlOpenListener
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+home
+.
 HomeConfig
 .
 PanelConfig
@@ -179,6 +192,8 @@ PanelConfig
 panelConfig
 DatasetHandler
 datasetHandler
+OnUrlOpenListener
+urlOpenListener
 )
 {
 super
@@ -186,6 +201,7 @@ super
 context
 panelConfig
 datasetHandler
+urlOpenListener
 )
 ;
 /

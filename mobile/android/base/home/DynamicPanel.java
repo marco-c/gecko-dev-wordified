@@ -776,6 +776,7 @@ getActivity
 )
 mPanelConfig
 datasetHandler
+mUrlOpenListener
 )
 ;
 break

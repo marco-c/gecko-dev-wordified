@@ -255,7 +255,7 @@ On
 URL
 open
 listener
-private
+protected
 OnUrlOpenListener
 mUrlOpenListener
 ;
