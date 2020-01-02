@@ -3288,13 +3288,6 @@ IsFloatingFirstLetterChild
 )
 const
 ;
-virtual
-bool
-UpdateOverflow
-(
-)
-MOZ_OVERRIDE
-;
 protected
 :
 virtual
@@ -3596,9 +3589,10 @@ UnionAdditionalOverflow
 nsPresContext
 *
 aPresContext
-nsIFrame
-*
-aBlock
+const
+nsHTMLReflowState
+&
+aBlockReflowState
 PropertyProvider
 &
 aProvider
