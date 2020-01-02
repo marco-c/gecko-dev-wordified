@@ -351,9 +351,12 @@ sync
 sb
 )
 ;
+do_check_true
+(
 checkResults
 (
 res
+)
 )
 ;
 /
