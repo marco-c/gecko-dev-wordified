@@ -9158,6 +9158,12 @@ mState
 =
 =
 DECODER_STATE_SHUTDOWN
+|
+|
+mState
+=
+=
+DECODER_STATE_DORMANT
 )
 ;
 mVideoFrameEndTime
