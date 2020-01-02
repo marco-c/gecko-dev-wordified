@@ -1753,7 +1753,10 @@ SetTextRangeList
 (
 nsTArray
 <
-nsTextRange
+mozilla
+:
+:
+TextRange
 >
 &
 aTextRangeList

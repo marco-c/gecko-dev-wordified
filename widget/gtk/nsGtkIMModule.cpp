@@ -5967,7 +5967,7 @@ mCompositionStart
 ;
 nsAutoTArray
 <
-nsTextRange
+TextRange
 4
 >
 textRanges
@@ -6020,7 +6020,7 @@ i
 +
 )
 {
-nsTextRange
+TextRange
 &
 range
 =
@@ -6165,7 +6165,7 @@ SetTextRangeList
 (
 nsTArray
 <
-nsTextRange
+TextRange
 >
 &
 aTextRangeList
@@ -6431,7 +6431,7 @@ start
 end
 )
 ;
-nsTextRange
+TextRange
 range
 ;
 /
@@ -6661,7 +6661,7 @@ iter
 )
 )
 ;
-nsTextRange
+TextRange
 range
 ;
 if

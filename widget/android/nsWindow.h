@@ -1154,7 +1154,10 @@ mIMEComposingText
 ;
 nsAutoTArray
 <
-nsTextRange
+mozilla
+:
+:
+TextRange
 4
 >
 mIMERanges

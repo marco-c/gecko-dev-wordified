@@ -5866,7 +5866,7 @@ g
 .
 nsAutoTArray
 <
-nsTextRange
+TextRange
 4
 >
 )
@@ -5908,7 +5908,7 @@ SetTextRangeList
 (
 nsTArray
 <
-nsTextRange
+TextRange
 >
 &
 aTextRangeList

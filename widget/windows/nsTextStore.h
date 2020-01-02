@@ -2665,7 +2665,10 @@ For
 compositionupdate
 nsTArray
 <
-nsTextRange
+mozilla
+:
+:
+TextRange
 >
 mRanges
 ;

@@ -3952,13 +3952,6 @@ typedef
 mozilla
 :
 :
-TextRange
-nsTextRange
-;
-typedef
-mozilla
-:
-:
 WidgetTextEvent
 nsTextEvent
 ;

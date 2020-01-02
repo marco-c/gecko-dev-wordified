@@ -197,12 +197,12 @@ mString
 ;
 nsAutoTArray
 <
-nsTextRange
+TextRange
 10
 >
 mClauses
 ;
-nsTextRange
+TextRange
 mCaret
 ;
 nsIWidget
