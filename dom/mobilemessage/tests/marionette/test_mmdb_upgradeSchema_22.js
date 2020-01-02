@@ -4174,8 +4174,6 @@ return
 createMessageCursor
 (
 aMmdb
-{
-}
 )
 .
 then

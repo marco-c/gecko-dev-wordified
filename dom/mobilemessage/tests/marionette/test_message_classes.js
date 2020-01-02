@@ -632,8 +632,6 @@ manager
 .
 getMessages
 (
-null
-false
 )
 ;
 cursor
