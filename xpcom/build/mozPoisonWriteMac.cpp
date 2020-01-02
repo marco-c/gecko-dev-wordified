@@ -1475,7 +1475,13 @@ ValidWriteAssert
 r
 =
 =
+static_cast
+<
+ssize_t
+>
+(
 count
+)
 )
 )
 return
