@@ -1759,6 +1759,10 @@ MediaStreamGraph
 :
 GetInstance
 (
+DOMMediaStream
+:
+:
+HINT_CONTENTS_AUDIO
 )
 ;
 AudioNodeEngine
