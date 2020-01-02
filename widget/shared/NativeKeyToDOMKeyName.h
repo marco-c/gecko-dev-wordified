@@ -2111,6 +2111,11 @@ KEY_MAP_WIN
 Menu
 VK_APPS
 )
+KEY_MAP_COCOA
+(
+Menu
+kVK_PC_ContextMenu
+)
 KEY_MAP_GTK
 (
 Menu
