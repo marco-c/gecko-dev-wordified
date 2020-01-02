@@ -448,7 +448,7 @@ Only
 check
 once
 .
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -520,7 +520,7 @@ Only
 check
 once
 .
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -580,7 +580,7 @@ Only
 check
 once
 .
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -699,7 +699,7 @@ Only
 check
 once
 .
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -759,7 +759,7 @@ Only
 check
 once
 .
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -819,7 +819,7 @@ Only
 check
 once
 .
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -879,7 +879,7 @@ Only
 check
 once
 .
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !

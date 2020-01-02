@@ -364,17 +364,6 @@ h
 "
 #
 include
-"
-assembler
-/
-wtf
-/
-Assertions
-.
-h
-"
-#
-include
 <
 stdarg
 .
@@ -596,7 +585,7 @@ int
 value
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -655,7 +644,7 @@ int
 value
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -724,7 +713,7 @@ int
 value
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -765,7 +754,7 @@ int64_t
 value
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -1003,7 +992,7 @@ buffer
 )
 const
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 m_oom

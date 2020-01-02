@@ -366,17 +366,6 @@ h
 #
 include
 "
-assembler
-/
-wtf
-/
-Assertions
-.
-h
-"
-#
-include
-"
 js
 /
 Vector
@@ -2070,7 +2059,7 @@ m_used
 false
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 m_offset
 =
@@ -19874,7 +19863,7 @@ JmpDst
 to
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -19885,7 +19874,7 @@ m_offset
 1
 )
 ;
-ASSERT
+MOZ_ASSERT
 (
 to
 .
@@ -20008,7 +19997,7 @@ void
 to
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -20078,7 +20067,7 @@ void
 to
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -20130,7 +20119,7 @@ void
 value
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 where
 .
@@ -20598,7 +20587,7 @@ JmpSrc
 call
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 call
 .
@@ -20626,7 +20615,7 @@ JmpSrc
 jump
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 jump
 .
@@ -20670,7 +20659,7 @@ JmpDst
 destination
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 destination
 .
@@ -20841,7 +20830,7 @@ intptr_t
 from
 )
 ;
-ASSERT
+MOZ_ASSERT
 (
 offset
 =
@@ -21224,7 +21213,7 @@ the
 bit
 immediate
 .
-ASSERT
+MOZ_ASSERT
 (
 isAddressImmediate
 (
@@ -22974,7 +22963,7 @@ rm
 if
 !
 WTF_CPU_X86_64
-ASSERT
+MOZ_ASSERT
 (
 !
 byteRegRequiresRex
@@ -23039,7 +23028,7 @@ RegisterID
 rm
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 !
 regRequiresRex
@@ -23086,7 +23075,7 @@ offset
 if
 !
 WTF_CPU_X86_64
-ASSERT
+MOZ_ASSERT
 (
 !
 byteRegRequiresRex
@@ -23147,7 +23136,7 @@ offset
 if
 !
 WTF_CPU_X86_64
-ASSERT
+MOZ_ASSERT
 (
 !
 byteRegRequiresRex
@@ -23212,7 +23201,7 @@ offset
 if
 !
 WTF_CPU_X86_64
-ASSERT
+MOZ_ASSERT
 (
 !
 byteRegRequiresRex
@@ -24437,7 +24426,7 @@ int
 scale
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 mode
 !
@@ -24862,7 +24851,7 @@ int
 offset
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 index
 !
@@ -24979,7 +24968,7 @@ int
 offset
 )
 {
-ASSERT
+MOZ_ASSERT
 (
 index
 !
