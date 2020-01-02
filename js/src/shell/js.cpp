@@ -16143,8 +16143,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 MutableHandleObject
 objp
 )
@@ -17752,8 +17750,6 @@ HandleObject
 referent
 HandleId
 id
-unsigned
-lookupFlags
 MutableHandleObject
 objp
 )
@@ -17804,7 +17800,7 @@ LookupPropertyWithFlags
 cx
 referent
 id
-lookupFlags
+0
 &
 obj2
 &
@@ -18162,8 +18158,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 MutableHandleObject
 objp
 )
@@ -18200,7 +18194,6 @@ cx
 obj
 vobj
 id
-flags
 objp
 )
 ;
@@ -18303,7 +18296,6 @@ cx
 obj
 referent
 id
-0
 &
 ignore
 )
@@ -30988,8 +30980,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 MutableHandleObject
 objp
 )
@@ -31562,8 +31552,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 MutableHandleObject
 objp
 )

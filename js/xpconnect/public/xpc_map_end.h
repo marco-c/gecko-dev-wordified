@@ -989,8 +989,6 @@ JSObject
 obj
 jsid
 id
-uint32_t
-flags
 JSObject
 *
 *

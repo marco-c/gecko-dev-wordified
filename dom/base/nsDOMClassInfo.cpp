@@ -6532,8 +6532,6 @@ JSObject
 obj
 jsid
 id
-uint32_t
-flags
 JSObject
 *
 *
@@ -17328,8 +17326,6 @@ JSObject
 obj_
 jsid
 id_
-uint32_t
-flags
 JSObject
 *
 *
@@ -18476,7 +18472,6 @@ wrapper
 cx
 obj
 id
-flags
 objp
 _retval
 )
@@ -19292,8 +19287,6 @@ JSObject
 aObj
 jsid
 aId
-uint32_t
-flags
 JSObject
 *
 *
@@ -20214,8 +20207,6 @@ JSObject
 obj
 jsid
 aId
-uint32_t
-flags
 JSObject
 *
 *
@@ -21558,8 +21549,6 @@ JSObject
 aObj
 jsid
 aId
-uint32_t
-flags
 JSObject
 *
 *

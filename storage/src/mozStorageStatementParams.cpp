@@ -952,8 +952,6 @@ JSObject
 aScopeObj
 jsid
 aId
-uint32_t
-aFlags
 JSObject
 *
 *

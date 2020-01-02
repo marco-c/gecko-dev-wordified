@@ -928,8 +928,6 @@ Handle
 jsid
 >
 id
-unsigned
-flags
 JS
 :
 :
@@ -8349,8 +8347,6 @@ Handle
 jsid
 >
 id
-unsigned
-flags
 JS
 :
 :

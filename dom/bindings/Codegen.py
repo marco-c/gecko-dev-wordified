@@ -53677,16 +53677,6 @@ id
 Argument
 (
 '
-unsigned
-'
-'
-flags
-'
-)
-                
-Argument
-(
-'
 JS
 :
 :
@@ -53968,7 +53958,6 @@ ResolveGlobal
 cx
 obj
 id
-flags
 objp
 )
 )
@@ -68696,16 +68685,6 @@ desc
 '
 )
                 
-Argument
-(
-'
-unsigned
-'
-'
-flags
-'
-)
-                
 ]
         
 CGAbstractStaticMethod
@@ -68882,16 +68861,6 @@ JSPropertyDescriptor
 '
 '
 desc
-'
-)
-                
-Argument
-(
-'
-unsigned
-'
-'
-flags
 '
 )
 ]

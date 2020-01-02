@@ -11168,17 +11168,6 @@ bool
 strict
 )
 ;
-extern
-unsigned
-js_InferFlags
-(
-JSContext
-*
-cx
-unsigned
-defaultFlags
-)
-;
 namespace
 js
 {

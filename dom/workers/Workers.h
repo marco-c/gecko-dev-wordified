@@ -760,8 +760,6 @@ Handle
 jsid
 >
 aId
-unsigned
-aFlags
 JS
 :
 :
