@@ -39,15 +39,6 @@ head
 js
 '
 ;
-let
-nfc
-=
-window
-.
-navigator
-.
-mozNfc
-;
 function
 testEnableNFC
 (
