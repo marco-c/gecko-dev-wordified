@@ -581,6 +581,8 @@ aContent
 nsRect
 *
 aResult
+=
+nullptr
 )
 ;
 /
@@ -609,6 +611,8 @@ aContent
 nsRect
 *
 aResult
+=
+nullptr
 )
 ;
 /
