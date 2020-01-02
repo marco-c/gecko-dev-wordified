@@ -1519,6 +1519,8 @@ http
 /
 /
 nosuchhost
+.
+localhost
 "
 ;
 try
@@ -2113,6 +2115,8 @@ http
 /
 /
 nosuchhost
+.
+localhost
 /
 bad
 '
