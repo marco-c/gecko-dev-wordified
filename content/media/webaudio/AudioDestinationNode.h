@@ -167,6 +167,9 @@ class
 AudioContext
 ;
 class
+EventProxyHandler
+;
+class
 AudioDestinationNode
 :
 public
@@ -311,6 +314,9 @@ OfflineShutdown
 /
 /
 nsIDOMEventListener
+-
+by
+proxy
 NS_IMETHOD
 HandleEvent
 (
@@ -398,6 +404,11 @@ bool
 aIsOnlyNode
 )
 ;
+void
+CreateAudioChannelAgent
+(
+)
+;
 virtual
 const
 char
@@ -458,11 +469,6 @@ aValue
 )
 ;
 void
-CreateAudioChannelAgent
-(
-)
-;
-void
 SetCanPlay
 (
 bool
@@ -493,6 +499,12 @@ nsCOMPtr
 nsIAudioChannelAgent
 >
 mAudioChannelAgent
+;
+nsRefPtr
+<
+EventProxyHandler
+>
+mEventProxyHelper
 ;
 /
 /
