@@ -2109,7 +2109,7 @@ WidgetMouseEvent
 aIsTrusted
 aMessage
 aWidget
-NS_DRAG_EVENT
+eDragEventClass
 eReal
 )
 userCancelled
@@ -2159,7 +2159,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_DRAG_EVENT
+eDragEventClass
 "
 Duplicate
 (

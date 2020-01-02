@@ -1899,7 +1899,7 @@ case
 NS_WHEEL_EVENT
 :
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 case
 NS_SIMPLE_GESTURE_EVENT
@@ -1952,7 +1952,7 @@ aMouseEvent
 mClass
 =
 =
-NS_DRAG_EVENT
+eDragEventClass
 |
 |
 aMouseEvent

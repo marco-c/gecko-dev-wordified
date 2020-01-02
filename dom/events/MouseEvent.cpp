@@ -422,7 +422,7 @@ case
 NS_WHEEL_EVENT
 :
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 case
 NS_POINTER_EVENT
@@ -653,7 +653,7 @@ case
 NS_WHEEL_EVENT
 :
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 case
 NS_POINTER_EVENT
@@ -840,7 +840,7 @@ case
 NS_WHEEL_EVENT
 :
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 case
 NS_POINTER_EVENT
@@ -1039,7 +1039,7 @@ case
 NS_WHEEL_EVENT
 :
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 case
 NS_POINTER_EVENT
@@ -1138,7 +1138,7 @@ case
 NS_WHEEL_EVENT
 :
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 case
 NS_POINTER_EVENT
@@ -1245,7 +1245,7 @@ case
 NS_WHEEL_EVENT
 :
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 case
 NS_POINTER_EVENT

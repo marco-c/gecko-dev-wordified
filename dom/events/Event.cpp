@@ -873,7 +873,7 @@ nullptr
 break
 ;
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 {
 WidgetDragEvent
@@ -1081,7 +1081,7 @@ relatedTarget
 break
 ;
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 {
 WidgetDragEvent
@@ -4244,7 +4244,7 @@ aEvent
 mClass
 !
 =
-NS_DRAG_EVENT
+eDragEventClass
 &
 &
 aEvent
@@ -4555,7 +4555,7 @@ aEvent
 mClass
 !
 =
-NS_DRAG_EVENT
+eDragEventClass
 &
 &
 aEvent

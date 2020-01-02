@@ -563,7 +563,7 @@ mEvent
 mClass
 !
 =
-NS_DRAG_EVENT
+eDragEventClass
 )
 {
 NS_WARNING

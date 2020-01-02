@@ -4245,7 +4245,7 @@ AsEditorInputEvent
 )
 ;
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 return
 NS_NewDOMDragEvent

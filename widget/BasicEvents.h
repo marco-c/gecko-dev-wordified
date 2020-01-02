@@ -403,7 +403,7 @@ eMouseEventClass
 /
 /
 WidgetMouseEvent
-NS_DRAG_EVENT
+eDragEventClass
 /
 /
 WidgetDragEvent
