@@ -1013,9 +1013,6 @@ Class
 MathClass
 ;
 class
-ArrayBufferObject
-;
-class
 GlobalObject
 ;
 class
