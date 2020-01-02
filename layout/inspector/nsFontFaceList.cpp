@@ -687,7 +687,7 @@ haven
 t
 seen
 before
-nsCOMPtr
+nsRefPtr
 <
 nsFontFace
 >

@@ -384,7 +384,7 @@ nsNSSHttpRequestSession
 *
 mRequestSession
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsHTTPListener
 >
@@ -952,7 +952,7 @@ nsCancelHTTPDownloadEvent
 :
 nsRunnable
 {
-nsCOMPtr
+nsRefPtr
 <
 nsHTTPListener
 >

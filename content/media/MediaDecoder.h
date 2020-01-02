@@ -7334,7 +7334,7 @@ during
 this
 period
 .
-nsCOMPtr
+nsRefPtr
 <
 MediaDecoderStateMachine
 >

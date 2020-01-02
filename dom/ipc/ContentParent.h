@@ -3382,7 +3382,7 @@ GetConsoleService
 nsDataHashtable
 <
 nsUint64HashKey
-nsCOMPtr
+nsRefPtr
 <
 ParentIdleListener
 >
