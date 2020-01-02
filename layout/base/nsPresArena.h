@@ -684,6 +684,7 @@ KeyTypePointer
 KeyTypePointer
 mKey
 ;
+explicit
 FreeList
 (
 KeyTypePointer

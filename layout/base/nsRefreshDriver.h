@@ -462,6 +462,7 @@ nsARefreshObserver
 {
 public
 :
+explicit
 nsRefreshDriver
 (
 nsPresContext

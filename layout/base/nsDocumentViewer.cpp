@@ -2296,6 +2296,7 @@ nsPrintEventDispatcher
 {
 public
 :
+explicit
 nsPrintEventDispatcher
 (
 nsIDocument
@@ -2347,6 +2348,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsDocumentShownDispatcher
 (
 nsCOMPtr

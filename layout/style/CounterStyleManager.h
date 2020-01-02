@@ -629,6 +629,7 @@ CounterStyleManager
 ;
 public
 :
+explicit
 CounterStyleManager
 (
 nsPresContext

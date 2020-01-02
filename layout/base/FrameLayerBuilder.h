@@ -3600,6 +3600,7 @@ ThebesLayer
 {
 public
 :
+explicit
 ThebesLayerItemsEntry
 (
 const

@@ -1510,6 +1510,7 @@ style
 context
 *
 /
+explicit
 WritingMode
 (
 const
@@ -1845,6 +1846,7 @@ method
 .
 *
 /
+explicit
 WritingMode
 (
 uint8_t
@@ -2341,6 +2343,7 @@ LogicalPoint
 {
 public
 :
+explicit
 LogicalPoint
 (
 WritingMode
@@ -3485,6 +3488,7 @@ LogicalSize
 {
 public
 :
+explicit
 LogicalSize
 (
 WritingMode
@@ -4190,6 +4194,7 @@ LogicalMargin
 {
 public
 :
+explicit
 LogicalMargin
 (
 WritingMode
@@ -5632,6 +5637,7 @@ LogicalRect
 {
 public
 :
+explicit
 LogicalRect
 (
 WritingMode

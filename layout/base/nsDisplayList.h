@@ -4186,6 +4186,7 @@ aDirtyRect
 )
 {
 }
+explicit
 OutOfFlowDisplayData
 (
 const
@@ -5266,6 +5267,7 @@ items
 .
 *
 /
+explicit
 nsDisplayItem
 (
 nsIFrame
@@ -5356,6 +5358,7 @@ ViewID
 >
 ShadowArray
 ;
+explicit
 HitTestState
 (
 ShadowArray
@@ -11772,6 +11775,7 @@ mLists
 )
 {
 }
+explicit
 nsDisplayListCollection
 (
 nsDisplayList
@@ -21664,6 +21668,7 @@ mRightEdge
 )
 {
 }
+explicit
 nsCharClipDisplayItem
 (
 nsIFrame

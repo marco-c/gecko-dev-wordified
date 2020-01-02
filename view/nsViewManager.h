@@ -1819,6 +1819,7 @@ AutoDisableRefresh
 {
 public
 :
+explicit
 AutoDisableRefresh
 (
 nsViewManager

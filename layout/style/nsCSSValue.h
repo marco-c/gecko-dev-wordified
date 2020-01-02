@@ -1269,6 +1269,7 @@ FontFamilyListRefCnt
 )
 ;
 }
+explicit
 FontFamilyListRefCnt
 (
 FontFamilyType
@@ -5637,6 +5638,7 @@ _end
 +
 var
 )
+explicit
 Array
 (
 size_t
@@ -6071,6 +6073,7 @@ ownership
 of
 aList
 .
+explicit
 nsCSSValueSharedList
 (
 nsCSSValueList
@@ -6750,6 +6753,7 @@ nsCSSValuePair
 )
 ;
 }
+explicit
 nsCSSValuePair
 (
 nsCSSUnit
@@ -7131,6 +7135,7 @@ nsCSSValueTriplet
 )
 ;
 }
+explicit
 nsCSSValueTriplet
 (
 nsCSSUnit

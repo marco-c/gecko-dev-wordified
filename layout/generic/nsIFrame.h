@@ -23179,6 +23179,7 @@ GetFrame
 )
 ;
 }
+MOZ_IMPLICIT
 nsWeakFrame
 (
 nsIFrame

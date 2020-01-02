@@ -424,6 +424,7 @@ nsStyleFont
 aStyleFont
 )
 ;
+explicit
 nsStyleFont
 (
 nsPresContext
@@ -1977,6 +1978,7 @@ endif
 struct
 nsStyleColor
 {
+explicit
 nsStyleColor
 (
 nsPresContext
@@ -4071,6 +4073,7 @@ NS_RGB
 )
 {
 }
+explicit
 nsBorderColors
 (
 const
@@ -4470,6 +4473,7 @@ nsCSSShadowItem
 )
 ;
 }
+explicit
 nsCSSShadowArray
 (
 uint32_t
@@ -5065,6 +5069,7 @@ NS_STYLE_BORDER_STYLE_HIDDEN
 struct
 nsStyleBorder
 {
+explicit
 nsStyleBorder
 (
 nsPresContext
@@ -6547,6 +6552,7 @@ MOZ_DELETE
 struct
 nsStyleOutline
 {
+explicit
 nsStyleOutline
 (
 nsPresContext
@@ -6969,6 +6975,7 @@ mTwipsPerPixel
 struct
 nsStyleList
 {
+explicit
 nsStyleList
 (
 nsPresContext
@@ -10717,6 +10724,7 @@ mOrientation
 struct
 nsStyleVisibility
 {
+explicit
 nsStyleVisibility
 (
 nsPresContext
@@ -13460,6 +13468,7 @@ col
 struct
 nsStyleTableBorder
 {
+explicit
 nsStyleTableBorder
 (
 nsPresContext
@@ -15635,6 +15644,7 @@ h
 struct
 nsStyleColumn
 {
+explicit
 nsStyleColumn
 (
 nsPresContext

@@ -570,6 +570,7 @@ aFrame
 ;
 protected
 :
+explicit
 nsSplittableFrame
 (
 nsStyleContext

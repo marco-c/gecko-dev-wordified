@@ -2453,6 +2453,7 @@ nsCSSGridTemplateAreaScanner
 {
 public
 :
+explicit
 nsCSSGridTemplateAreaScanner
 (
 const

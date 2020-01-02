@@ -3558,6 +3558,7 @@ Protected
 constructor
 and
 destructor
+explicit
 nsFrame
 (
 nsStyleContext
@@ -5005,6 +5006,7 @@ mValue
 struct
 DR_layout_cookie
 {
+explicit
 DR_layout_cookie
 (
 nsIFrame
