@@ -162,6 +162,7 @@ win
 .
 undoCloseTab
 (
+0
 )
 ;
 groupItemTwo
