@@ -745,12 +745,6 @@ bpf
 just
 before
 exiting
-via
-NSPR
-or
-Android
-logging
-.
 *
 System
 call
