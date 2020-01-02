@@ -1908,6 +1908,15 @@ PRenderFrameChild
 *
 AllocPRenderFrameChild
 (
+ScrollingBehavior
+*
+aScrolling
+TextureFactoryIdentifier
+*
+aTextureFactoryIdentifier
+uint64_t
+*
+aLayersId
 )
 MOZ_OVERRIDE
 ;
