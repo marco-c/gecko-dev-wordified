@@ -4337,7 +4337,7 @@ popupStatePusher
 mSubmitPopupState
 )
 ;
-nsAutoHandlingUserInputStatePusher
+AutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mSubmitInitiatedFromUserInput
