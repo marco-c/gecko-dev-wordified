@@ -400,7 +400,7 @@ mReadyState
 HTMLTrackElement
 :
 :
-NONE
+READY_STATE_NONE
 ;
 }
 JSObject
@@ -1078,7 +1078,7 @@ mReadyState
 HTMLTrackElement
 :
 :
-LOADED
+READY_STATE_LOADED
 |
 |
 mReadyState
@@ -1087,7 +1087,7 @@ mReadyState
 HTMLTrackElement
 :
 :
-ERROR
+READY_STATE_ERROR
 )
 )
 {

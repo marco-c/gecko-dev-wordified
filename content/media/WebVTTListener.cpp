@@ -469,7 +469,7 @@ SetReadyState
 HTMLTrackElement
 :
 :
-LOADING
+READY_STATE_LOADING
 )
 ;
 return
@@ -562,7 +562,7 @@ ReadyState
 HTMLTrackElement
 :
 :
-ERROR
+READY_STATE_ERROR
 )
 {
 TextTrack
@@ -584,7 +584,7 @@ SetReadyState
 HTMLTrackElement
 :
 :
-LOADED
+READY_STATE_LOADED
 )
 ;
 }
