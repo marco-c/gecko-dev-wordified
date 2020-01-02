@@ -3262,9 +3262,15 @@ static
 bool
 IonBuilderHasHigherPriority
 (
+jit
+:
+:
 IonBuilder
 *
 first
+jit
+:
+:
 IonBuilder
 *
 second
