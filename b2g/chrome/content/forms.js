@@ -3825,7 +3825,11 @@ if
 (
 this
 .
-isKeyboardOpened
+focusedElement
+=
+=
+=
+target
 )
 return
 ;
