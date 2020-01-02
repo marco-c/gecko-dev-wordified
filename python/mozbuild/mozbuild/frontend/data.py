@@ -411,22 +411,20 @@ self
 topsrcdir
 =
 sandbox
-[
-'
-TOPSRCDIR
-'
-]
+.
+config
+.
+topsrcdir
         
 self
 .
 topobjdir
 =
 sandbox
-[
-'
-TOPOBJDIR
-'
-]
+.
+config
+.
+topobjdir
         
 self
 .

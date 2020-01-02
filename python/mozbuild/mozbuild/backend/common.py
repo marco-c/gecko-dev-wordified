@@ -1037,11 +1037,14 @@ path
 )
         
 assert
-path
+mozpath
 .
-startswith
+basedir
 (
+path
+[
 topsrcdir
+]
 )
         
 key

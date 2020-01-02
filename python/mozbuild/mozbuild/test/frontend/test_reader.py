@@ -330,6 +330,8 @@ join
 (
 reader
 .
+config
+.
 topsrcdir
 '
 moz
