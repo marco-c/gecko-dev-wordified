@@ -4633,7 +4633,7 @@ aNode
 setAttribute
 (
 "
-customizableui
+cui
 -
 areatype
 "
@@ -4673,7 +4673,7 @@ aNode
 setAttribute
 (
 "
-customizableui
+cui
 -
 anchorid
 "
@@ -4694,7 +4694,7 @@ aNode
 removeAttribute
 (
 "
-customizableui
+cui
 -
 areatype
 "
@@ -4705,7 +4705,7 @@ aNode
 removeAttribute
 (
 "
-customizableui
+cui
 -
 anchorid
 "
@@ -14683,7 +14683,7 @@ aNode
 getAttribute
 (
 "
-customizableui
+cui
 -
 anchorid
 "
@@ -15244,7 +15244,7 @@ aNode
 getAttribute
 (
 "
-customizableui
+cui
 -
 anchorid
 "
@@ -16155,7 +16155,7 @@ child
 setAttribute
 (
 "
-customizableui
+cui
 -
 anchorid
 "
@@ -16536,7 +16536,7 @@ child
 removeAttribute
 (
 "
-customizableui
+cui
 -
 anchorid
 "
@@ -17028,7 +17028,7 @@ aNode
 setAttribute
 (
 "
-customizableui
+cui
 -
 anchorid
 "
@@ -17197,7 +17197,7 @@ aNode
 removeAttribute
 (
 "
-customizableui
+cui
 -
 anchorid
 "

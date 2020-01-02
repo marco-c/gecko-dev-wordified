@@ -970,7 +970,7 @@ controls
 not
 (
 [
-customizableui
+cui
 -
 areatype
 =
@@ -989,7 +989,7 @@ controls
 not
 (
 [
-customizableui
+cui
 -
 areatype
 =
@@ -1178,7 +1178,7 @@ wide
 -
 item
 [
-customizableui
+cui
 -
 areatype
 =
@@ -1243,7 +1243,7 @@ toolbarbutton
 icon
 toolbarbutton
 [
-customizableui
+cui
 -
 areatype
 =
@@ -1260,7 +1260,7 @@ toolbarbutton
 icon
 toolbaritem
 [
-customizableui
+cui
 -
 areatype
 =
@@ -2897,7 +2897,7 @@ menu
 -
 button
 [
-customizableui
+cui
 -
 areatype
 =
@@ -3040,7 +3040,7 @@ zoom
 -
 controls
 [
-customizableui
+cui
 -
 areatype
 =
