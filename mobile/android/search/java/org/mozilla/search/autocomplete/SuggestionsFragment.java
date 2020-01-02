@@ -202,6 +202,15 @@ mozilla
 .
 gecko
 .
+SuggestClient
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 Telemetry
 ;
 import
