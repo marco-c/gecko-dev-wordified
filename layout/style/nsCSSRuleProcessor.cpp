@@ -18302,7 +18302,7 @@ mOperator
 =
 =
 '
->
+:
 '
 "
 Unexpected
