@@ -586,6 +586,7 @@ nullptr
 )
 {
 }
+explicit
 MOZ_ALWAYS_INLINE
 AlignedArray
 (
