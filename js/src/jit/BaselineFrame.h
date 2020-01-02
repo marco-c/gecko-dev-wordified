@@ -974,7 +974,7 @@ Value
 &
 unaliasedVar
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 checkAliasing
@@ -1148,7 +1148,7 @@ Value
 &
 unaliasedLocal
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 checkAliasing

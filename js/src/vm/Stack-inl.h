@@ -613,7 +613,7 @@ StackFrame
 :
 unaliasedVar
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 checkAliasing
@@ -665,7 +665,7 @@ StackFrame
 :
 unaliasedLocal
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 checkAliasing
@@ -2750,7 +2750,7 @@ AbstractFramePtr
 :
 unaliasedVar
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 checkAliasing
@@ -2810,7 +2810,7 @@ AbstractFramePtr
 :
 unaliasedLocal
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 checkAliasing

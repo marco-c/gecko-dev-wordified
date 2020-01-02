@@ -3238,7 +3238,7 @@ info
 .
 localSlot
 (
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )
@@ -3261,7 +3261,7 @@ info
 .
 argSlotUnchecked
 (
-GET_SLOTNO
+GET_ARGNO
 (
 pc
 )
@@ -3422,7 +3422,7 @@ info
 .
 localSlot
 (
-GET_SLOTNO
+GET_LOCALNO
 (
 last
 )
@@ -3434,7 +3434,7 @@ info
 .
 argSlotUnchecked
 (
-GET_SLOTNO
+GET_ARGNO
 (
 last
 )
@@ -10261,7 +10261,7 @@ current
 argumentsObject
 (
 )
-GET_SLOTNO
+GET_ARGNO
 (
 pc
 )
@@ -10291,7 +10291,7 @@ current
 >
 pushArg
 (
-GET_SLOTNO
+GET_ARGNO
 (
 pc
 )
@@ -10307,7 +10307,7 @@ JSOP_SETARG
 return
 jsop_setarg
 (
-GET_SLOTNO
+GET_ARGNO
 (
 pc
 )
@@ -10324,7 +10324,7 @@ current
 >
 pushLocal
 (
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )
@@ -10341,7 +10341,7 @@ current
 >
 setLocal
 (
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )
@@ -61840,7 +61840,7 @@ current
 argumentsObject
 (
 )
-GET_SLOTNO
+GET_ARGNO
 (
 pc
 )

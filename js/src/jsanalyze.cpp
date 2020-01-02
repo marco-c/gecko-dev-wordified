@@ -2169,7 +2169,7 @@ next
 uint32_t
 local
 =
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )
@@ -2208,7 +2208,7 @@ JSOP_SETLOCAL
 uint32_t
 local
 =
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )

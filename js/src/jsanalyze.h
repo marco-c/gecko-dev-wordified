@@ -1410,7 +1410,7 @@ JSOP_SETARG
 return
 ArgSlot
 (
-GET_SLOTNO
+GET_ARGNO
 (
 pc
 )
@@ -1429,7 +1429,7 @@ return
 LocalSlot
 (
 script
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )

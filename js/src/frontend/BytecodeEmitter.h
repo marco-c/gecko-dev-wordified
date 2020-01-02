@@ -781,7 +781,7 @@ JSScript
 initFromEmitter
 *
 /
-int
+int32_t
 stackDepth
 ;
 /
@@ -794,7 +794,7 @@ script
 frame
 *
 /
-unsigned
+uint32_t
 maxStackDepth
 ;
 /
@@ -806,7 +806,7 @@ so
 far
 *
 /
-unsigned
+uint32_t
 arrayCompDepth
 ;
 /

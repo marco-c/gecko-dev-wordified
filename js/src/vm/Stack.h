@@ -660,7 +660,7 @@ checkAliasing
 JSScript
 *
 script
-unsigned
+uint32_t
 i
 )
 ;
@@ -1416,7 +1416,7 @@ Value
 &
 unaliasedVar
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 checkAliasing
@@ -1429,7 +1429,7 @@ Value
 &
 unaliasedLocal
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 checkAliasing
@@ -3796,7 +3796,7 @@ Value
 &
 unaliasedVar
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 =
@@ -3808,7 +3808,7 @@ Value
 &
 unaliasedLocal
 (
-unsigned
+uint32_t
 i
 MaybeCheckAliasing
 =
