@@ -530,7 +530,7 @@ MASK_END_VALUE
 )
 MOZ_BEGIN_ENUM_CLASS
 (
-nsParsingStatus
+CSSParseResult
 int32_t
 )
 /
@@ -578,7 +578,7 @@ enough
 Error
 MOZ_END_ENUM_CLASS
 (
-nsParsingStatus
+CSSParseResult
 )
 namespace
 {
@@ -3778,7 +3778,7 @@ nsCSSValue
 aValue
 )
 ;
-nsParsingStatus
+CSSParseResult
 ParseGridTrackSize
 (
 nsCSSValue
@@ -40779,7 +40779,7 @@ track
 -
 size
 >
-nsParsingStatus
+CSSParseResult
 CSSParserImpl
 :
 :
@@ -40823,7 +40823,7 @@ nullptr
 )
 {
 return
-nsParsingStatus
+CSSParseResult
 :
 :
 Ok
@@ -40849,7 +40849,7 @@ true
 )
 {
 return
-nsParsingStatus
+CSSParseResult
 :
 :
 NotFound
@@ -40885,7 +40885,7 @@ UngetToken
 )
 ;
 return
-nsParsingStatus
+CSSParseResult
 :
 :
 NotFound
@@ -40950,7 +40950,7 @@ true
 )
 {
 return
-nsParsingStatus
+CSSParseResult
 :
 :
 Ok
@@ -40964,7 +40964,7 @@ SkipUntil
 )
 ;
 return
-nsParsingStatus
+CSSParseResult
 :
 :
 Error
@@ -40999,7 +40999,7 @@ value
 )
 =
 =
-nsParsingStatus
+CSSParseResult
 :
 :
 Ok
@@ -41063,7 +41063,7 @@ mValue
 )
 !
 =
-nsParsingStatus
+CSSParseResult
 :
 :
 Ok
@@ -41085,7 +41085,7 @@ size
 /
 so
 even
-nsParsingStatus
+CSSParseResult
 :
 :
 NotFound
@@ -41152,7 +41152,7 @@ repeat
 nsCSSValue
 trackSize
 ;
-nsParsingStatus
+CSSParseResult
 result
 =
 ParseGridTrackSize
@@ -41165,7 +41165,7 @@ if
 result
 =
 =
-nsParsingStatus
+CSSParseResult
 :
 :
 Error
@@ -41180,7 +41180,7 @@ if
 result
 =
 =
-nsParsingStatus
+CSSParseResult
 :
 :
 NotFound
@@ -42950,7 +42950,7 @@ add
 repeat
 (
 )
-nsParsingStatus
+CSSParseResult
 result
 =
 ParseGridTrackSize
@@ -42966,7 +42966,7 @@ if
 result
 =
 =
-nsParsingStatus
+CSSParseResult
 :
 :
 Error
@@ -42981,7 +42981,7 @@ if
 result
 =
 =
-nsParsingStatus
+CSSParseResult
 :
 :
 NotFound
@@ -43635,7 +43635,7 @@ autoColumnsValue
 nsCSSValue
 autoRowsValue
 ;
-nsParsingStatus
+CSSParseResult
 result
 =
 ParseGridTrackSize
@@ -43648,7 +43648,7 @@ if
 result
 =
 =
-nsParsingStatus
+CSSParseResult
 :
 :
 Error
@@ -43663,7 +43663,7 @@ if
 result
 =
 =
-nsParsingStatus
+CSSParseResult
 :
 :
 NotFound
@@ -43712,7 +43712,7 @@ autoRowsValue
 )
 !
 =
-nsParsingStatus
+CSSParseResult
 :
 :
 Ok
