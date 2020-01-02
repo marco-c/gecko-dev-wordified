@@ -504,8 +504,11 @@ sessions
 .
 *
 /
-function
+this
+.
 DownloadList
+=
+function
 (
 )
 {
@@ -526,6 +529,8 @@ Set
 )
 ;
 }
+this
+.
 DownloadList
 .
 prototype
@@ -1952,8 +1957,11 @@ downloads
 .
 *
 /
-function
+this
+.
 DownloadCombinedList
+=
+function
 (
 aPublicList
 aPrivateList
@@ -2009,6 +2017,8 @@ reportError
 )
 ;
 }
+this
+.
 DownloadCombinedList
 .
 prototype
@@ -2627,8 +2637,11 @@ DownloadList
 .
 *
 /
-function
+this
+.
 DownloadSummary
+=
+function
 (
 )
 {
@@ -2649,6 +2662,8 @@ Set
 )
 ;
 }
+this
+.
 DownloadSummary
 .
 prototype
