@@ -1173,6 +1173,16 @@ drawable
 /
 icon
 "
+selected
+:
+true
+/
+/
+Default
+to
+download
+for
+files
 launch
 :
 function
