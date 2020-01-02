@@ -16646,7 +16646,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_SPECIAL
+NS_FRAME_PART_OF_IBSPLIT
 )
 !
 =
@@ -16760,7 +16760,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_SPECIAL
+NS_FRAME_PART_OF_IBSPLIT
 )
 {
 while
@@ -16848,7 +16848,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_SPECIAL
+NS_FRAME_PART_OF_IBSPLIT
 )
 &
 &
