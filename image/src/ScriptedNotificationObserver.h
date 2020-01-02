@@ -92,6 +92,12 @@ MPL
 *
 /
 #
+ifndef
+ScriptedNotificationObserver_h
+#
+define
+ScriptedNotificationObserver_h
+#
 include
 "
 imgINotificationObserver
@@ -161,3 +167,5 @@ mInner
 ;
 }
 }
+#
+endif
