@@ -5438,7 +5438,10 @@ NS_ERROR_FAILURE
 )
 ;
 return
-NS_OK
+DecodeToTarget
+(
+aTargetUs
+)
 ;
 }
 }
