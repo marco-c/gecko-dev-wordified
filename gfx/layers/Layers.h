@@ -12637,7 +12637,7 @@ false
 )
 mIsGLAlphaPremult
 (
-false
+true
 )
 {
 }

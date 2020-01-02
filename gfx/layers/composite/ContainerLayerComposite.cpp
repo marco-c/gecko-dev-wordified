@@ -1947,6 +1947,7 @@ Filter
 :
 :
 POINT
+true
 )
 ;
 compositor
