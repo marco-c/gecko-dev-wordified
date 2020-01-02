@@ -278,6 +278,9 @@ TEST_URI
 '
 "
 '
+noClick
+:
+true
 }
 /
 /
