@@ -2046,9 +2046,6 @@ IsAnimationLoggingEnabled
 ;
 if
 (
-shouldLog
-&
-&
 !
 gfxPlatform
 :
@@ -2056,6 +2053,11 @@ gfxPlatform
 OffMainThreadCompositingEnabled
 (
 )
+)
+{
+if
+(
+shouldLog
 )
 {
 nsCString
@@ -2079,6 +2081,7 @@ LogAsyncAnimationFailure
 message
 )
 ;
+}
 return
 false
 ;
