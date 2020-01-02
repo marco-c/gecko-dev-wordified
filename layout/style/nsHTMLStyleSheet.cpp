@@ -3054,7 +3054,9 @@ entryCount
 =
 mMappedAttrTable
 .
-entryCount
+EntryCount
+(
+)
 -
 1
 ;
@@ -3075,7 +3077,9 @@ entryCount
 =
 mMappedAttrTable
 .
-entryCount
+EntryCount
+(
+)
 "
 not
 removed

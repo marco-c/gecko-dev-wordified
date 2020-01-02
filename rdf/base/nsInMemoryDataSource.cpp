@@ -6858,7 +6858,9 @@ hash
 mPropertyHash
 -
 >
-entryCount
+EntryCount
+(
+)
 )
 {
 root
@@ -8541,7 +8543,9 @@ SetCapacity
 (
 mForwardArcs
 .
-entryCount
+EntryCount
+(
+)
 )
 ;
 /
@@ -10119,7 +10123,9 @@ hash
 mPropertyHash
 -
 >
-entryCount
+EntryCount
+(
+)
 )
 {
 as

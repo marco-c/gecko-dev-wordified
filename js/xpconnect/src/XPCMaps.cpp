@@ -3385,7 +3385,9 @@ entry
 table
 -
 >
-entrySize
+EntrySize
+(
+)
 )
 ;
 }

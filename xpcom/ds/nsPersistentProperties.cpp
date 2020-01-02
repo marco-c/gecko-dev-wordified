@@ -3230,7 +3230,9 @@ SetCapacity
 (
 mTable
 .
-entryCount
+EntryCount
+(
+)
 )
 ;
 /
@@ -3265,7 +3267,9 @@ n
 <
 mTable
 .
-entryCount
+EntryCount
+(
+)
 )
 {
 return

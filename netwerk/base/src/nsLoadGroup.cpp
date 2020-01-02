@@ -1439,7 +1439,9 @@ count
 =
 mRequests
 .
-entryCount
+EntryCount
+(
+)
 ;
 nsAutoTArray
 <
@@ -1837,7 +1839,9 @@ NS_ASSERTION
 (
 mRequests
 .
-entryCount
+EntryCount
+(
+)
 =
 =
 0
@@ -1897,7 +1901,9 @@ count
 =
 mRequests
 .
-entryCount
+EntryCount
+(
+)
 ;
 nsAutoTArray
 <
@@ -2173,7 +2179,9 @@ count
 =
 mRequests
 .
-entryCount
+EntryCount
+(
+)
 ;
 nsAutoTArray
 <
@@ -2840,7 +2848,9 @@ get
 )
 mRequests
 .
-entryCount
+EntryCount
+(
+)
 )
 )
 ;
@@ -3458,7 +3468,9 @@ get
 aStatus
 mRequests
 .
-entryCount
+EntryCount
+(
+)
 -
 1
 )
@@ -3818,7 +3830,9 @@ if
 (
 mRequests
 .
-entryCount
+EntryCount
+(
+)
 =
 =
 0
@@ -4163,7 +4177,9 @@ SetCapacity
 (
 mRequests
 .
-entryCount
+EntryCount
+(
+)
 )
 ;
 PL_DHashTableEnumerate

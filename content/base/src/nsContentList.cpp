@@ -5051,7 +5051,9 @@ if
 (
 gContentListHashTable
 .
-entryCount
+EntryCount
+(
+)
 =
 =
 0
@@ -5230,7 +5232,9 @@ if
 (
 gFuncStringContentListHashTable
 .
-entryCount
+EntryCount
+(
+)
 =
 =
 0

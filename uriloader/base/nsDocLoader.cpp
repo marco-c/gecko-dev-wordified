@@ -7988,7 +7988,9 @@ ops
 !
 mRequestInfoHash
 .
-entryCount
+EntryCount
+(
+)
 )
 {
 /

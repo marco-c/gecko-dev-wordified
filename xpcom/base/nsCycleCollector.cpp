@@ -5378,7 +5378,9 @@ const
 return
 mPtrToNodeMap
 .
-entryCount
+EntryCount
+(
+)
 ;
 }
 void

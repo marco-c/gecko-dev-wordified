@@ -1615,7 +1615,9 @@ MOZ_ASSERT
 (
 sNPObjWrappers
 .
-entryCount
+EntryCount
+(
+)
 =
 =
 0
@@ -10020,7 +10022,9 @@ generation
 =
 sNPObjWrappers
 .
-generation
+Generation
+(
+)
 ;
 /
 /
@@ -10070,7 +10074,9 @@ generation
 =
 sNPObjWrappers
 .
-generation
+Generation
+(
+)
 )
 {
 /

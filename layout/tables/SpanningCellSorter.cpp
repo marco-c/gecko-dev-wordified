@@ -931,7 +931,9 @@ HashTableEntry
 [
 mHashTable
 .
-entryCount
+EntryCount
+(
+)
 ]
 ;
 if
@@ -965,7 +967,9 @@ NS_QuickSort
 sh
 mHashTable
 .
-entryCount
+EntryCount
+(
+)
 sizeof
 (
 sh
@@ -1002,7 +1006,9 @@ mEnumerationIndex
 <
 mHashTable
 .
-entryCount
+EntryCount
+(
+)
 )
 {
 Item

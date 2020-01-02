@@ -368,7 +368,9 @@ entry
 table
 -
 >
-entrySize
+EntrySize
+(
+)
 )
 ;
 }
@@ -464,10 +466,6 @@ otherKey
 }
 PLDHashTable
 gHashTable
-=
-{
-nullptr
-}
 ;
 static
 PLArenaPool

@@ -58439,7 +58439,9 @@ oldChildCount
 children
 -
 >
-entryCount
+EntryCount
+(
+)
 ;
 PL_DHashTableEnumerate
 (
@@ -58456,7 +58458,9 @@ oldChildCount
 children
 -
 >
-entryCount
+EntryCount
+(
+)
 ;
 if
 (
