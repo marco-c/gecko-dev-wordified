@@ -778,13 +778,6 @@ data
 constructing
 )
 ;
-JSAutoResolveFlags
-rf
-(
-cx
-RESOLVE_INFER
-)
-;
 AutoFlushInhibitor
 afi
 (
