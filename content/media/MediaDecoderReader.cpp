@@ -188,6 +188,12 @@ layers
 :
 PlanarYCbCrImage
 ;
+using
+layers
+:
+:
+PlanarYCbCrData
+;
 /
 /
 Verify
@@ -1591,10 +1597,7 @@ get
 )
 )
 ;
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 data
 ;
 data

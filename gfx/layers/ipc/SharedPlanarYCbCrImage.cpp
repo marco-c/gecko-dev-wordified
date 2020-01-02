@@ -470,10 +470,7 @@ SharedPlanarYCbCrImage
 SetData
 (
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )
@@ -952,10 +949,7 @@ SharedPlanarYCbCrImage
 :
 Allocate
 (
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )
@@ -1238,10 +1232,7 @@ DeprecatedSharedPlanarYCbCrImage
 SetData
 (
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )
@@ -1699,10 +1690,7 @@ DeprecatedSharedPlanarYCbCrImage
 :
 Allocate
 (
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )

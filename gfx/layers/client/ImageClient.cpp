@@ -1023,10 +1023,7 @@ image
 )
 ;
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 *
 data
 =

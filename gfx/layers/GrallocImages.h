@@ -423,10 +423,7 @@ public
 ISharedImage
 {
 typedef
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 Data
 ;
 static

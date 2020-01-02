@@ -370,10 +370,7 @@ AllocateSolidColorFrame
 layers
 :
 :
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 int
@@ -583,10 +580,7 @@ ReleaseFrame
 layers
 :
 :
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )
@@ -1057,10 +1051,7 @@ get
 layers
 :
 :
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 data
 ;
 AllocateSolidColorFrame

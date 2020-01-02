@@ -2653,10 +2653,7 @@ GLContext
 *
 gl
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 GLTexture
@@ -2895,10 +2892,7 @@ PlanarYCbCrOGLBackendData
 )
 ;
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 *
 data
 =

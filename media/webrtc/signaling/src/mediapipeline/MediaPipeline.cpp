@@ -5708,10 +5708,7 @@ const
 layers
 :
 :
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 *
 data
 =
@@ -7466,10 +7463,7 @@ chromaBpp
 layers
 :
 :
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 data
 ;
 data
