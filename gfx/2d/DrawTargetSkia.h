@@ -807,6 +807,12 @@ MarkChanged
 (
 )
 ;
+SkRect
+SkRectCoveringWholeSurface
+(
+)
+const
+;
 #
 ifdef
 USE_SKIA_GPU
