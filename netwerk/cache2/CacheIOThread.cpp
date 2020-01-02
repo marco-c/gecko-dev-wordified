@@ -504,16 +504,8 @@ nsIEventTarget
 >
 target
 ;
-target
-=
-mXPCOMThread
-;
 if
 (
-!
-target
-&
-&
 mThread
 )
 {
