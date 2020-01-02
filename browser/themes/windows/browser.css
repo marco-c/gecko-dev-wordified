@@ -13334,8 +13334,11 @@ item
 :
 not
 (
-.
+[
 overflowedItem
+=
+true
+]
 )
 >
 .
