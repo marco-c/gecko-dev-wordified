@@ -316,7 +316,7 @@ Optimize
 (
 )
 ;
-void
+bool
 Draw
 (
 gfxContext
@@ -974,6 +974,9 @@ aSourceRect
 gfxRect
 &
 aImageRect
+gfxASurface
+*
+aSurface
 )
 ;
 private

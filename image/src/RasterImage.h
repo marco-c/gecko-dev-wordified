@@ -3084,7 +3084,7 @@ request
 nullptr
 )
 ;
-void
+bool
 DrawWithPreDownscaleIfNeeded
 (
 imgFrame
