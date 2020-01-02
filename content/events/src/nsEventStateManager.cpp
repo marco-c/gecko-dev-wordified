@@ -22087,7 +22087,12 @@ check
 whether
 is
 was
+on
+/
+/
 content
+or
+chrome
 .
 dragSession
 -
@@ -22095,12 +22100,10 @@ dragSession
 SetOnlyChromeDrop
 (
 !
-aEvent
+dragEvent
 -
 >
-mFlags
-.
-mDefaultPreventedByContent
+mDefaultPreventedOnContent
 )
 ;
 }
