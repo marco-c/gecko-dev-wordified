@@ -238,6 +238,14 @@ int
 depth
 )
 ;
+Result
+CheckNameConstraints
+(
+BackCert
+&
+cert
+)
+;
 }
 }
 /
