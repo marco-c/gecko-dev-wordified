@@ -137,6 +137,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayerMetricsWrapper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -10152,6 +10163,7 @@ root
 >
 GetAsyncPanZoomController
 (
+0
 )
 hit
 .
@@ -10250,6 +10262,7 @@ root
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -10259,6 +10272,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -10283,6 +10297,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 hit
 .
@@ -10383,6 +10398,7 @@ root
 >
 GetAsyncPanZoomController
 (
+0
 )
 hit
 .
@@ -10452,6 +10468,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 hit
 .
@@ -10537,6 +10554,7 @@ root
 >
 GetAsyncPanZoomController
 (
+0
 )
 hit
 .
@@ -10866,6 +10884,7 @@ root
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 AsyncPanZoomController
@@ -10880,6 +10899,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 AsyncPanZoomController
@@ -10894,6 +10914,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 /
@@ -12179,16 +12200,15 @@ have
 the
 same
 APZC
-EXPECT_EQ
+EXPECT_FALSE
 (
-nullAPZC
 layers
 [
 0
 ]
 -
 >
-GetAsyncPanZoomController
+HasScrollableFrameMetrics
 (
 )
 )
@@ -12204,6 +12224,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12218,6 +12239,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12231,6 +12253,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12240,6 +12263,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12294,6 +12318,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12303,6 +12328,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12371,6 +12397,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12380,6 +12407,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12430,16 +12458,15 @@ layers
 have
 an
 APZC
-EXPECT_EQ
+EXPECT_FALSE
 (
-nullAPZC
 layers
 [
 0
 ]
 -
 >
-GetAsyncPanZoomController
+HasScrollableFrameMetrics
 (
 )
 )
@@ -12455,6 +12482,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12469,19 +12497,19 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
-EXPECT_EQ
+EXPECT_FALSE
 (
-nullAPZC
 layers
 [
 3
 ]
 -
 >
-GetAsyncPanZoomController
+HasScrollableFrameMetrics
 (
 )
 )
@@ -12497,19 +12525,19 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
-EXPECT_EQ
+EXPECT_FALSE
 (
-nullAPZC
 layers
 [
 5
 ]
 -
 >
-GetAsyncPanZoomController
+HasScrollableFrameMetrics
 (
 )
 )
@@ -12525,6 +12553,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12539,6 +12568,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12553,6 +12583,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12577,6 +12608,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12586,6 +12618,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12599,6 +12632,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12608,6 +12642,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12634,6 +12669,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12643,6 +12679,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12656,6 +12693,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12665,6 +12703,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12678,6 +12717,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12687,6 +12727,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12700,6 +12741,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12709,6 +12751,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12722,6 +12765,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12731,6 +12775,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12744,6 +12789,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 layers
 [
@@ -12753,6 +12799,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 )
 ;
@@ -12781,6 +12828,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 hit
 .
@@ -12810,6 +12858,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 hit
 .
@@ -12839,6 +12888,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 hit
 .
@@ -12885,6 +12935,7 @@ aChild
 >
 GetFrameMetrics
 (
+0
 )
 ;
 metrics
@@ -12896,6 +12947,7 @@ aParent
 >
 GetFrameMetrics
 (
+0
 )
 .
 GetScrollId
@@ -13049,6 +13101,7 @@ root
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 }
@@ -13258,6 +13311,7 @@ root
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 }
@@ -13654,6 +13708,7 @@ root
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 rootApzc
@@ -13748,6 +13803,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 /
@@ -13967,6 +14023,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 /
@@ -14091,6 +14148,7 @@ middle
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 /
@@ -14367,6 +14425,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 TestAsyncPanZoomController
@@ -14385,6 +14444,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 TestAsyncPanZoomController
@@ -14403,6 +14463,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 TestAsyncPanZoomController
@@ -14421,6 +14482,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 /
@@ -14602,6 +14664,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 /
@@ -14733,6 +14796,7 @@ layers
 >
 GetAsyncPanZoomController
 (
+0
 )
 ;
 /
