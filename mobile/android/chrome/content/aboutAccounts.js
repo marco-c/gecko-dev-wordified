@@ -705,11 +705,13 @@ urlFormatter
 formatURLPref
 (
 "
-firefox
+identity
 .
-accounts
+fxaccounts
 .
-remoteUrl
+remote
+.
+uri
 "
 )
 ;
