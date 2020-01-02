@@ -3609,7 +3609,7 @@ void
 ContentHostIncremental
 :
 :
-EnsureDeprecatedTextureHostIncremental
+CreatedIncrementalTexture
 (
 ISurfaceAllocator
 *

@@ -1623,7 +1623,7 @@ BUFFER_CONTENT_INC
 }
 virtual
 void
-EnsureDeprecatedTextureHostIncremental
+CreatedIncrementalTexture
 (
 ISurfaceAllocator
 *

@@ -726,7 +726,7 @@ GetCompositableHost
 compositable
 -
 >
-EnsureDeprecatedTextureHostIncremental
+CreatedIncrementalTexture
 (
 compositableParent
 -

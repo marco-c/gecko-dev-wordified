@@ -1230,7 +1230,7 @@ later
 /
 virtual
 void
-EnsureDeprecatedTextureHostIncremental
+CreatedIncrementalTexture
 (
 ISurfaceAllocator
 *
