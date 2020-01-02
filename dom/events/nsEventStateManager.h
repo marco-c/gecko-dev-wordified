@@ -205,6 +205,12 @@ nsIScrollableFrame
 class
 nsITimer
 ;
+class
+nsMouseWheelTransaction
+;
+class
+nsScrollbarsForWheel
+;
 namespace
 mozilla
 {
