@@ -442,7 +442,7 @@ win
 win
 -
 >
-IsCurrentInnerWindow
+HasActiveDocument
 (
 )
 )
@@ -595,7 +595,7 @@ if
 win
 -
 >
-IsCurrentInnerWindow
+HasActiveDocument
 (
 )
 )
@@ -798,7 +798,7 @@ win
 win
 -
 >
-IsCurrentInnerWindow
+HasActiveDocument
 (
 )
 )
@@ -1169,7 +1169,7 @@ win
 win
 -
 >
-IsCurrentInnerWindow
+HasActiveDocument
 (
 )
 )
@@ -1263,7 +1263,7 @@ win
 win
 -
 >
-IsCurrentInnerWindow
+HasActiveDocument
 (
 )
 )
@@ -1481,7 +1481,7 @@ if
 win
 -
 >
-IsCurrentInnerWindow
+HasActiveDocument
 (
 )
 )
