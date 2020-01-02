@@ -3482,7 +3482,11 @@ newExponent
 &
 newLower
 &
+newHasInt32LowerBound
+&
 newUpper
+&
+newHasInt32UpperBound
 )
 ;
 /
@@ -16692,7 +16696,11 @@ max_exponent_
 &
 lower_
 &
+hasInt32LowerBound_
+&
 upper_
+&
+hasInt32UpperBound_
 )
 ;
 assertInvariants
