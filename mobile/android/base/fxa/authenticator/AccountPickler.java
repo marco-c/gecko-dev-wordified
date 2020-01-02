@@ -962,7 +962,7 @@ put
 KEY_IS_SYNCING_ENABLED
 account
 .
-isSyncingEnabled
+isSyncing
 (
 )
 )
