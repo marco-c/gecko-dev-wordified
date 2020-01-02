@@ -25744,6 +25744,10 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 return
 ;
 }
+EnsurePathBuilder
+(
+)
+;
 /
 /
 Current
@@ -26371,6 +26375,10 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 return
 ;
 }
+EnsurePathBuilder
+(
+)
+;
 ArcToBezier
 (
 this
