@@ -3553,6 +3553,9 @@ bool
 aDeferCompilation
 bool
 aPermitUntrustedEvents
+Element
+*
+aElement
 )
 {
 NS_PRECONDITION
@@ -4241,6 +4244,7 @@ CompileEventHandlerInternal
 ls
 &
 aBody
+aElement
 )
 ;
 }
@@ -4356,6 +4360,9 @@ const
 nsAString
 *
 aBody
+Element
+*
+aElement
 )
 {
 NS_PRECONDITION
@@ -5528,6 +5535,7 @@ result
 CompileEventHandlerInternal
 (
 aListenerStruct
+nullptr
 nullptr
 )
 ;
@@ -6728,6 +6736,7 @@ nsListenerStruct
 ls
 )
 nullptr
+nullptr
 )
 ;
 }
@@ -7277,6 +7286,7 @@ mHandlerIsString
 CompileEventHandlerInternal
 (
 ls
+nullptr
 nullptr
 )
 ;
