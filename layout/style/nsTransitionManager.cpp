@@ -813,7 +813,7 @@ newStyle
 ;
 ElementAnimationCollection
 *
-et
+collection
 ;
 if
 (
@@ -821,7 +821,7 @@ element
 &
 &
 (
-et
+collection
 =
 GetElementTransitions
 (
@@ -861,7 +861,7 @@ from
 the
 working
 set
-et
+collection
 -
 >
 mFlushGeneration
@@ -1484,7 +1484,7 @@ AsElement
 }
 ElementAnimationCollection
 *
-et
+collection
 =
 GetElementTransitions
 (
@@ -1496,7 +1496,7 @@ false
 if
 (
 !
-et
+collection
 &
 &
 disp
@@ -1944,7 +1944,7 @@ ConsiderStartingTransition
 p
 t
 aElement
-et
+collection
 aOldStyleContext
 aNewStyleContext
 &
@@ -1979,7 +1979,7 @@ ConsiderStartingTransition
 subprop
 t
 aElement
-et
+collection
 aOldStyleContext
 aNewStyleContext
 &
@@ -1997,7 +1997,7 @@ ConsiderStartingTransition
 property
 t
 aElement
-et
+collection
 aOldStyleContext
 aNewStyleContext
 &
@@ -2075,7 +2075,7 @@ zero
 .
 if
 (
-et
+collection
 )
 {
 bool
@@ -2294,7 +2294,7 @@ ElementAnimationPtrArray
 &
 animations
 =
-et
+collection
 -
 >
 mAnimations
@@ -2497,7 +2497,7 @@ RemoveElementAt
 i
 )
 ;
-et
+collection
 -
 >
 UpdateAnimationGeneration
@@ -2524,14 +2524,14 @@ IsEmpty
 )
 )
 {
-et
+collection
 -
 >
 Destroy
 (
 )
 ;
-et
+collection
 =
 nullptr
 ;
@@ -2549,7 +2549,7 @@ nullptr
 }
 NS_ABORT_IF_FALSE
 (
-et
+collection
 "
 must
 have
@@ -2774,7 +2774,7 @@ ElementAnimationPtrArray
 &
 animations
 =
-et
+collection
 -
 >
 mAnimations
@@ -2917,7 +2917,7 @@ mFromValue
 ;
 }
 }
-et
+collection
 -
 >
 mStyleRule
@@ -4620,7 +4620,7 @@ nullptr
 }
 ElementAnimationCollection
 *
-et
+collection
 =
 static_cast
 <
@@ -4640,7 +4640,7 @@ propName
 if
 (
 !
-et
+collection
 &
 &
 aCreateIfNeeded
@@ -4655,7 +4655,7 @@ arena
 -
 allocating
 ?
-et
+collection
 =
 new
 ElementAnimationCollection
@@ -4685,7 +4685,7 @@ aElement
 SetProperty
 (
 propName
-et
+collection
 &
 ElementAnimationCollection
 :
@@ -4711,7 +4711,7 @@ failed
 )
 ;
 delete
-et
+collection
 ;
 return
 nullptr
@@ -4738,12 +4738,12 @@ SetMayHaveAnimations
 }
 AddElementData
 (
-et
+collection
 )
 ;
 }
 return
-et
+collection
 ;
 }
 /
@@ -4771,7 +4771,7 @@ aPseudoType
 {
 ElementAnimationCollection
 *
-et
+collection
 =
 GetElementTransitions
 (
@@ -4786,7 +4786,7 @@ false
 if
 (
 !
-et
+collection
 )
 {
 return
@@ -4910,7 +4910,7 @@ after
 doing
 this
 .
-et
+collection
 -
 >
 PostRestyleForAnimation
@@ -4921,14 +4921,14 @@ mPresContext
 return
 ;
 }
-et
+collection
 -
 >
 mNeedsRefreshes
 =
 true
 ;
-et
+collection
 -
 >
 EnsureStyleRuleFor
@@ -4952,7 +4952,7 @@ EnsureStyleRule_IsNotThrottled
 ;
 if
 (
-et
+collection
 -
 >
 mStyleRule
@@ -4966,7 +4966,7 @@ mRuleWalker
 >
 Forward
 (
-et
+collection
 -
 >
 mStyleRule
@@ -5537,7 +5537,7 @@ mElementData
 {
 ElementAnimationCollection
 *
-et
+collection
 =
 static_cast
 <
@@ -5564,7 +5564,7 @@ aFlags
 Can_Throttle
 &
 &
-et
+collection
 -
 >
 CanPerformOnCompositorThread
@@ -5579,7 +5579,7 @@ CanAnimateFlags
 )
 &
 &
-et
+collection
 -
 >
 CanThrottleAnimation
@@ -5589,7 +5589,7 @@ now
 ;
 NS_ABORT_IF_FALSE
 (
-et
+collection
 -
 >
 mElement
@@ -5626,7 +5626,7 @@ object
 uint32_t
 i
 =
-et
+collection
 -
 >
 mAnimations
@@ -5664,7 +5664,7 @@ ElementAnimation
 *
 anim
 =
-et
+collection
 -
 >
 mAnimations
@@ -5762,7 +5762,7 @@ aFlags
 Can_Throttle
 )
 {
-et
+collection
 -
 >
 mAnimations
@@ -5882,7 +5882,7 @@ AppendElement
 (
 TransitionEventInfo
 (
-et
+collection
 -
 >
 mElement
@@ -5893,7 +5893,7 @@ anim
 mTiming
 .
 mIterationDuration
-et
+collection
 -
 >
 PseudoElement
@@ -5998,7 +5998,7 @@ SetFinishedTransition
 (
 )
 ;
-et
+collection
 -
 >
 UpdateAnimationGeneration
@@ -6055,7 +6055,7 @@ the
 transition
 proper
 .
-et
+collection
 -
 >
 UpdateAnimationGeneration
@@ -6106,9 +6106,9 @@ not
 apply
 )
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
-et
+collection
 -
 >
 mElementProperty
@@ -6120,7 +6120,7 @@ nsGkAtoms
 transitionsProperty
 |
 |
-et
+collection
 -
 >
 mElementProperty
@@ -6132,7 +6132,7 @@ nsGkAtoms
 transitionsOfBeforeProperty
 |
 |
-et
+collection
 -
 >
 mElementProperty
@@ -6163,7 +6163,7 @@ canThrottleTick
 transitionStartedOrEnded
 )
 {
-et
+collection
 -
 >
 PostRestyleForAnimation
@@ -6181,7 +6181,7 @@ true
 }
 if
 (
-et
+collection
 -
 >
 mAnimations
@@ -6191,7 +6191,7 @@ IsEmpty
 )
 )
 {
-et
+collection
 -
 >
 Destroy
@@ -6201,7 +6201,7 @@ Destroy
 /
 /
 |
-et
+collection
 |
 is
 now
@@ -6209,7 +6209,7 @@ a
 dangling
 pointer
 !
-et
+collection
 =
 nullptr
 ;

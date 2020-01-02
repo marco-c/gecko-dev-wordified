@@ -1851,7 +1851,7 @@ aProperty
 {
 ElementAnimationCollection
 *
-animations
+collection
 =
 static_cast
 <
@@ -1870,13 +1870,13 @@ aAnimationProperty
 ;
 if
 (
-animations
+collection
 )
 {
 bool
 propertyMatches
 =
-animations
+collection
 -
 >
 HasAnimationOfProperty
@@ -1889,7 +1889,7 @@ if
 propertyMatches
 &
 &
-animations
+collection
 -
 >
 CanPerformOnCompositorThread
@@ -1902,7 +1902,7 @@ CanAnimate_AllowPartial
 )
 {
 return
-animations
+collection
 ;
 }
 }
@@ -1976,7 +1976,7 @@ aProperty
 {
 ElementAnimationCollection
 *
-animations
+collection
 =
 static_cast
 <
@@ -1995,13 +1995,13 @@ aAnimationProperty
 ;
 if
 (
-animations
+collection
 )
 {
 bool
 propertyMatches
 =
-animations
+collection
 -
 >
 HasAnimationOfProperty
@@ -2015,7 +2015,7 @@ propertyMatches
 )
 {
 return
-animations
+collection
 ;
 }
 }
@@ -2119,7 +2119,7 @@ MostRecentRefresh
 ;
 ElementAnimationCollection
 *
-animations
+collection
 =
 static_cast
 <
@@ -2138,10 +2138,10 @@ aAnimationProperty
 ;
 return
 (
-animations
+collection
 &
 &
-animations
+collection
 -
 >
 HasCurrentAnimationsAt
@@ -2455,7 +2455,7 @@ aMinScale
 {
 ElementAnimationCollection
 *
-animations
+collection
 =
 GetAnimationsOrTransitionsForCompositor
 (
@@ -2467,7 +2467,7 @@ eCSSProperty_transform
 if
 (
 !
-animations
+collection
 )
 return
 ;
@@ -2476,7 +2476,7 @@ for
 uint32_t
 animIdx
 =
-animations
+collection
 -
 >
 mAnimations
@@ -2501,7 +2501,7 @@ ElementAnimation
 *
 anim
 =
-animations
+collection
 -
 >
 mAnimations

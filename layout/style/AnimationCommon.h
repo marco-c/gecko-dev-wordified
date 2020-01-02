@@ -707,7 +707,7 @@ mElementData
 \
 ElementAnimationCollection
 *
-ea
+collection
 =
 \
 static_cast
@@ -731,7 +731,7 @@ next
 \
 if
 (
-ea
+collection
 -
 >
 mFlushGeneration
@@ -808,7 +808,7 @@ Element
 *
 element
 =
-ea
+collection
 -
 >
 mElement
