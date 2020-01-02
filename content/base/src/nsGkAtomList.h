@@ -15141,6 +15141,13 @@ DisplayPortBase
 _displayportbase
 "
 )
+GK_ATOM
+(
+AsyncScrollLayerCreationFailed
+"
+_asyncscrolllayercreationfailed
+"
+)
 /
 /
 Names
