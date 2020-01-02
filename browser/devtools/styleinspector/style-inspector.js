@@ -973,7 +973,7 @@ this
 .
 view
 .
-nodeChanged
+refreshPanel
 (
 )
 ;
