@@ -12390,9 +12390,6 @@ convert
 case
 MIRType_Undefined
 :
-case
-MIRType_Symbol
-:
 JS_ASSERT
 (
 conversion
@@ -12510,6 +12507,10 @@ Objects
 might
 be
 effectful
+.
+Symbols
+will
+throw
 .
 /
 /
@@ -12659,9 +12660,6 @@ convert
 case
 MIRType_Undefined
 :
-case
-MIRType_Symbol
-:
 JS_ASSERT
 (
 conversion
@@ -12779,6 +12777,10 @@ Objects
 might
 be
 effectful
+.
+Symbols
+will
+throw
 .
 /
 /
@@ -13030,10 +13032,11 @@ might
 be
 effectful
 .
+Symbols
+throw
+.
 Undefined
-and
-symbols
-coerce
+coerces
 to
 NaN
 not
@@ -13168,9 +13171,6 @@ MIRType_Null
 case
 MIRType_Undefined
 :
-case
-MIRType_Symbol
-:
 return
 define
 (
@@ -13226,6 +13226,9 @@ Objects
 might
 be
 effectful
+.
+Symbols
+throw
 .
 /
 /

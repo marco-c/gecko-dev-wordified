@@ -11348,10 +11348,8 @@ The
 value
 is
 null
-undefined
 or
-a
-symbol
+undefined
 in
 truncation
 contexts
