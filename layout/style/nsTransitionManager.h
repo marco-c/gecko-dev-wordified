@@ -345,6 +345,9 @@ Animation
 (
 aDocument
 aTiming
+EmptyString
+(
+)
 )
 {
 }
