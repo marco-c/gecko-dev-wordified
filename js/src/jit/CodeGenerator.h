@@ -1412,6 +1412,14 @@ ins
 )
 ;
 bool
+visitArraySplice
+(
+LArraySplice
+*
+splice
+)
+;
+bool
 visitSetPropertyPolymorphicT
 (
 LSetPropertyPolymorphicT

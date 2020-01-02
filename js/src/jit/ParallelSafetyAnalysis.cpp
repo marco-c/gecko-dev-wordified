@@ -876,6 +876,10 @@ ApplyArgs
 )
 UNSAFE_OP
 (
+ArraySplice
+)
+UNSAFE_OP
+(
 Bail
 )
 UNSAFE_OP
