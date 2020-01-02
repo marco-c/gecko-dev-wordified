@@ -214,6 +214,13 @@ h
 #
 include
 <
+ks
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
