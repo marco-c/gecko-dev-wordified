@@ -9082,6 +9082,14 @@ stats
 key
 ]
 ;
+if
+(
+!
+res
+.
+isRemote
+)
+{
 counters
 [
 res
@@ -9101,6 +9109,7 @@ type
 +
 1
 ;
+}
 }
 }
 /
@@ -9126,6 +9135,14 @@ function
 res
 )
 {
+if
+(
+!
+res
+.
+isRemote
+)
+{
 counters2
 [
 res
@@ -9145,6 +9162,7 @@ type
 +
 1
 ;
+}
 }
 )
 ;
