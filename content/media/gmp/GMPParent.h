@@ -320,6 +320,8 @@ crash
 void
 CloseActive
 (
+bool
+aDieWhenUnloaded
 )
 ;
 /
@@ -838,6 +840,9 @@ mCapabilities
 GMPProcessParent
 *
 mProcess
+;
+bool
+mDeleteProcessOnUnload
 ;
 nsTArray
 <
