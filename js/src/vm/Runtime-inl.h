@@ -396,7 +396,7 @@ type
 )
 -
 >
-isLongLivedForCachedAlloc
+shouldPreTenure
 (
 )
 )

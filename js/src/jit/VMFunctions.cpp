@@ -2032,7 +2032,7 @@ type
 type
 -
 >
-isLongLivedForJITAlloc
+shouldPreTenure
 (
 )
 )
@@ -2139,7 +2139,7 @@ type
 )
 -
 >
-isLongLivedForJITAlloc
+shouldPreTenure
 (
 )
 )
@@ -2254,7 +2254,7 @@ type
 )
 -
 >
-isLongLivedForJITAlloc
+shouldPreTenure
 (
 )
 ?
@@ -5218,7 +5218,7 @@ type
 )
 -
 >
-isLongLivedForJITAlloc
+shouldPreTenure
 (
 )
 ?
