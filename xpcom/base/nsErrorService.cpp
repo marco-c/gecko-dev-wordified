@@ -166,9 +166,11 @@ NS_WARN_IF
 aOuter
 )
 )
+{
 return
 NS_ERROR_NO_AGGREGATION
 ;
+}
 nsRefPtr
 <
 nsErrorService

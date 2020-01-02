@@ -203,7 +203,7 @@ Root
 (
 void
 *
-n
+aPtr
 )
 {
 }
@@ -215,7 +215,7 @@ Unlink
 (
 void
 *
-n
+aPtr
 )
 {
 }
@@ -227,7 +227,7 @@ Unroot
 (
 void
 *
-n
+aPtr
 )
 {
 }
@@ -239,7 +239,7 @@ DeleteCycleCollectable
 (
 void
 *
-n
+aPtr
 )
 {
 }
@@ -248,10 +248,10 @@ Traverse
 (
 void
 *
-n
+aPtr
 nsCycleCollectionTraversalCallback
 &
-cb
+aCb
 )
 ;
 }
@@ -282,7 +282,7 @@ Root
 (
 void
 *
-p
+aPtr
 )
 {
 }
@@ -294,7 +294,7 @@ Unlink
 (
 void
 *
-p
+aPtr
 )
 {
 }
@@ -306,7 +306,7 @@ Unroot
 (
 void
 *
-p
+aPtr
 )
 {
 }
@@ -318,7 +318,7 @@ DeleteCycleCollectable
 (
 void
 *
-n
+aPtr
 )
 {
 }
@@ -327,10 +327,10 @@ Traverse
 (
 void
 *
-p
+aPtr
 nsCycleCollectionTraversalCallback
 &
-cb
+aCb
 )
 ;
 }
@@ -934,7 +934,7 @@ void
 GarbageCollect
 (
 uint32_t
-reason
+aReason
 )
 const
 ;

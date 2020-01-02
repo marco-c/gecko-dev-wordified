@@ -139,10 +139,10 @@ aClosure
 void
 *
 *
-bp
+aBp
 void
 *
-stackEnd
+aStackEnd
 )
 ;
 }

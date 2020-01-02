@@ -149,11 +149,11 @@ Compare
 const
 nsACString
 &
-A
+aStr1
 const
 nsACString
 &
-B
+aStr2
 int32_t
 *
 aResult
@@ -169,7 +169,7 @@ CompareVersions
 (
 PromiseFlatCString
 (
-A
+aStr1
 )
 .
 get
@@ -177,7 +177,7 @@ get
 )
 PromiseFlatCString
 (
-B
+aStr2
 )
 .
 get

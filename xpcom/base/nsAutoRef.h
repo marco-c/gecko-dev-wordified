@@ -1876,10 +1876,12 @@ this
 &
 aRefToCopy
 )
+{
 return
 *
 this
 ;
+}
 this
 -
 >
@@ -2083,6 +2085,7 @@ HaveResource
 (
 )
 )
+{
 this
 -
 >
@@ -2096,6 +2099,7 @@ get
 )
 )
 ;
+}
 }
 }
 ;
@@ -4343,6 +4347,7 @@ HaveResource
 (
 )
 )
+{
 this
 -
 >
@@ -4356,6 +4361,7 @@ get
 )
 )
 ;
+}
 }
 }
 ;

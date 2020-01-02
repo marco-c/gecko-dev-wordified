@@ -404,7 +404,7 @@ nsCycleCollectorLoggerConstructor
 (
 nsISupports
 *
-outer
+aOuter
 const
 nsIID
 &

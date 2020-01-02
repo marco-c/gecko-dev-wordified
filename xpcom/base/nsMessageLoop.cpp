@@ -586,9 +586,11 @@ NS_WARN_IF
 mTimer
 )
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 nsRefPtr
 <
 MessageLoopTimerCallback
@@ -905,9 +907,11 @@ NS_WARN_IF
 aOuter
 )
 )
+{
 return
 NS_ERROR_NO_AGGREGATION
 ;
+}
 nsISupports
 *
 messageLoop

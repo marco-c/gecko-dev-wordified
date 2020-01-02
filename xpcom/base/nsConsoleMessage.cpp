@@ -168,7 +168,7 @@ nsConsoleMessage
 const
 char16_t
 *
-message
+aMessage
 )
 {
 mTimeStamp
@@ -183,7 +183,7 @@ mMessage
 .
 Assign
 (
-message
+aMessage
 )
 ;
 }
@@ -196,11 +196,11 @@ GetMessageMoz
 char16_t
 *
 *
-result
+aResult
 )
 {
 *
-result
+aResult
 =
 ToNewUnicode
 (

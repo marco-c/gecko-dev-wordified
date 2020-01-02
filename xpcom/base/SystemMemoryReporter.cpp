@@ -704,13 +704,13 @@ IsNumeric
 const
 char
 *
-s
+aStr
 )
 {
 MOZ_ASSERT
 (
 *
-s
+aStr
 )
 ;
 /
@@ -724,7 +724,7 @@ strings
 while
 (
 *
-s
+aStr
 )
 {
 if
@@ -733,7 +733,7 @@ if
 isdigit
 (
 *
-s
+aStr
 )
 )
 {
@@ -741,9 +741,9 @@ return
 false
 ;
 }
-s
 +
 +
+aStr
 ;
 }
 return
@@ -1918,8 +1918,10 @@ NS_FAILED
 rv
 )
 )
+{
 break
 ;
+}
 }
 fclose
 (
@@ -2563,8 +2565,10 @@ NS_FAILED
 rv
 )
 )
+{
 break
 ;
+}
 /
 /
 Increment

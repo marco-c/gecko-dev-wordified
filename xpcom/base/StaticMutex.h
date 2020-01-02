@@ -409,7 +409,7 @@ operator
 (
 StaticMutex
 *
-rhs
+aRhs
 )
 ;
 static

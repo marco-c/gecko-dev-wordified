@@ -151,7 +151,7 @@ GetArchString
 (
 nsAString
 &
-archString
+aArchString
 )
 ;
 /

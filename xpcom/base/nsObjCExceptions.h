@@ -404,6 +404,7 @@ if
 (
 crashReporter
 )
+{
 crashReporter
 -
 >
@@ -419,6 +420,7 @@ aException
 )
 )
 ;
+}
 #
 endif
 #
@@ -496,10 +498,12 @@ addresses
 count
 ]
 )
+{
 stackTrace
 =
 addresses
 ;
+}
 }
 /
 /
@@ -542,6 +546,7 @@ if
 !
 stackTrace
 )
+{
 stackTrace
 =
 [
@@ -554,6 +559,7 @@ objectForKey
 NSStackTraceKey
 ]
 ;
+}
 if
 (
 stackTrace
@@ -1024,12 +1030,12 @@ nsObjCExceptionLogAbort
 (
 NSException
 *
-e
+aException
 )
 {
 nsObjCExceptionLog
 (
-e
+aException
 )
 ;
 nsObjCExceptionAbort

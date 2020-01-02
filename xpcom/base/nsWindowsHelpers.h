@@ -311,12 +311,12 @@ public
 AutoCriticalSection
 (
 LPCRITICAL_SECTION
-section
+aSection
 )
 :
 mSection
 (
-section
+aSection
 )
 {
 :
@@ -496,9 +496,6 @@ const
 {
 return
 mRawRef
-!
-=
-nullptr
 &
 &
 mRawRef
@@ -530,9 +527,6 @@ aRawRef
 if
 (
 aRawRef
-!
-=
-nullptr
 &
 &
 aRawRef
@@ -759,7 +753,7 @@ HMODULE
 LoadLibrarySystem32
 (
 LPCWSTR
-module
+aModule
 )
 {
 WCHAR
@@ -877,7 +871,7 @@ fileLen
 =
 wcslen
 (
-module
+aModule
 )
 ;
 wcsncpy
@@ -885,7 +879,7 @@ wcsncpy
 systemPath
 +
 systemDirLen
-module
+aModule
 MAX_PATH
 -
 systemDirLen

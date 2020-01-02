@@ -220,6 +220,7 @@ if
 (
 mFirst
 )
+{
 rv
 =
 mFirst
@@ -231,6 +232,7 @@ aIID
 aResult
 )
 ;
+}
 if
 (
 mSecond
@@ -241,6 +243,7 @@ NS_FAILED
 rv
 )
 )
+{
 rv
 =
 mSecond
@@ -252,6 +255,7 @@ aIID
 aResult
 )
 ;
+}
 return
 rv
 ;
@@ -344,9 +348,11 @@ if
 *
 aResult
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 NS_ADDREF
 (
 *
@@ -392,9 +398,11 @@ if
 *
 aResult
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 NS_ADDREF
 (
 *

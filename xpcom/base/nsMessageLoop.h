@@ -166,7 +166,7 @@ nsMessageLoopConstructor
 (
 nsISupports
 *
-outer
+aOuter
 const
 nsIID
 &
