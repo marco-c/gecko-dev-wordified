@@ -94,7 +94,7 @@ views
 (
 function
 (
-TB
+OT
 )
 {
 "
@@ -283,7 +283,7 @@ Establishes
 webrtc
 communication
 using
-TB
+OT
 sdk
 .
 *
@@ -1126,6 +1126,6 @@ NotificationView
 (
 window
 .
-TB
+OT
 )
 ;

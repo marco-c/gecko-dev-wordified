@@ -183,7 +183,7 @@ sessionId
 undefined
 /
 /
-TB
+OT
 session
 id
 sessionToken
@@ -191,7 +191,7 @@ sessionToken
 undefined
 /
 /
-TB
+OT
 session
 token
 apiKey
@@ -199,7 +199,7 @@ apiKey
 undefined
 /
 /
-TB
+OT
 api
 key
 }
