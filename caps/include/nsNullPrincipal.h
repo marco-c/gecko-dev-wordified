@@ -169,13 +169,6 @@ nsPrincipal
 .
 h
 "
-#
-include
-"
-nsIContentSecurityPolicy
-.
-h
-"
 class
 nsIURI
 ;
@@ -333,12 +326,6 @@ nsCOMPtr
 nsIURI
 >
 mURI
-;
-nsCOMPtr
-<
-nsIContentSecurityPolicy
->
-mCSP
 ;
 }
 ;
