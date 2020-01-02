@@ -3202,7 +3202,15 @@ provider
 .
 use_corelocation
 "
-false
+true
+)
+&
+&
+CoreLocationLocationProvider
+:
+:
+IsCoreLocationAvailable
+(
 )
 )
 {

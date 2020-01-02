@@ -237,6 +237,12 @@ CoreLocationLocationProvider
 (
 )
 ;
+static
+bool
+IsCoreLocationAvailable
+(
+)
+;
 private
 :
 virtual
