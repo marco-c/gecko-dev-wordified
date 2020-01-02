@@ -6527,7 +6527,7 @@ et
 mElement
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 =
