@@ -297,7 +297,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /

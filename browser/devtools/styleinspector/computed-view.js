@@ -1800,7 +1800,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /

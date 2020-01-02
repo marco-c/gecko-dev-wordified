@@ -15162,7 +15162,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /

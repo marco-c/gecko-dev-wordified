@@ -245,7 +245,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /
