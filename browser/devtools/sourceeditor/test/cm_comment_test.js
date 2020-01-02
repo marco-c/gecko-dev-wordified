@@ -306,8 +306,6 @@ simpleProg
 simpleProg
 )
 ;
-/
-/
 test
 (
 "
@@ -321,8 +319,6 @@ function
 cm
 )
 {
-/
-/
 cm
 .
 lineComment
@@ -339,8 +335,6 @@ Pos
 )
 )
 ;
-/
-/
 }
 "
 html
@@ -374,8 +368,6 @@ n
 "
 )
 ;
-/
-/
 test
 (
 "
@@ -389,8 +381,6 @@ function
 cm
 )
 {
-/
-/
 cm
 .
 blockComment
@@ -406,8 +396,6 @@ Pos
 )
 )
 ;
-/
-/
 }
 "
 def

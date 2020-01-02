@@ -1589,8 +1589,6 @@ transposeChar
 "
 abcd
 \
-n
-\
 ne
 "
 "
@@ -1612,8 +1610,6 @@ txt
 (
 "
 bcad
-\
-n
 \
 ne
 "
@@ -1648,8 +1644,6 @@ txt
 "
 bcda
 \
-n
-\
 ne
 "
 )
@@ -1671,17 +1665,15 @@ T
 txt
 (
 "
-bcd
+bcde
 \
 na
-\
-ne
 "
 )
 at
 (
 1
-1
+0
 )
 )
 ;
