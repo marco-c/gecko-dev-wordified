@@ -2374,6 +2374,16 @@ preferredApplicationHandler
 =
 localHandlerApp
 ;
+mimeInfo
+.
+preferredAction
+=
+Ci
+.
+nsIMIMEInfo
+.
+useHelperApp
+;
 }
 if
 (
