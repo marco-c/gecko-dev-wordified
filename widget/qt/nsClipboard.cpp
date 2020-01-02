@@ -1410,6 +1410,9 @@ DataSourceSurface
 MappedSurface
 map
 ;
+if
+(
+!
 dataSurface
 -
 >
@@ -1425,13 +1428,6 @@ READ
 &
 map
 )
-;
-if
-(
-!
-map
-.
-mData
 )
 continue
 ;
@@ -1469,6 +1465,13 @@ GetFormat
 (
 )
 )
+)
+;
+dataSurface
+-
+>
+Unmap
+(
 )
 ;
 /
