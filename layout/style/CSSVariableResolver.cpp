@@ -1581,10 +1581,15 @@ id
 ;
 }
 }
+#
+ifdef
+DEBUG
 mResolved
 =
 true
 ;
+#
+endif
 }
 void
 CSSVariableResolver
