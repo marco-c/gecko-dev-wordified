@@ -2086,6 +2086,9 @@ asJSContext
 (
 )
 ;
+#
+ifdef
+JS_GC_ZEAL
 JSRuntime
 *
 rt
@@ -2097,6 +2100,8 @@ runtime
 (
 )
 ;
+#
+endif
 JS_ASSERT_IF
 (
 rt
