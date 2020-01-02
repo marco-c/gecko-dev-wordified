@@ -251,12 +251,6 @@ return
 mIsChrome
 ;
 }
-JSObject
-*
-GetCompilationGlobal
-(
-)
-;
 void
 MarkInCCGeneration
 (
@@ -283,11 +277,6 @@ nsXBLDocumentInfo
 )
 private
 :
-void
-EnsureGlobalObject
-(
-)
-;
 nsCOMPtr
 <
 nsIDocument
@@ -334,12 +323,6 @@ table
 nsXBLPrototypeBinding
 *
 mFirstBinding
-;
-nsRefPtr
-<
-nsXBLDocGlobalObject
->
-mGlobalObject
 ;
 }
 ;
