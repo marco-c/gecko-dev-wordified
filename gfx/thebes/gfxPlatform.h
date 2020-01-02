@@ -424,14 +424,6 @@ eFontPrefLang_Sinhala
 eFontPrefLang_Tibetan
 =
 29
-eFontPrefLang_LangCount
-=
-30
-/
-/
-except
-Others
-.
 eFontPrefLang_Others
 =
 30
@@ -450,9 +442,6 @@ code
 for
 CJK
 set
-eFontPrefLang_AllCount
-=
-32
 }
 ;
 enum
