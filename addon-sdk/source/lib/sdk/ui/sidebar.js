@@ -1841,6 +1841,13 @@ this
 stop
 tracking
 windows
+if
+(
+internals
+.
+tracker
+)
+{
 internals
 .
 tracker
@@ -1849,6 +1856,7 @@ unload
 (
 )
 ;
+}
 internals
 .
 tracker
