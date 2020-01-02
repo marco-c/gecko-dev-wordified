@@ -1269,8 +1269,6 @@ GetFlags
 ;
 if
 (
-!
-(
 aClient
 -
 >
@@ -1278,8 +1276,7 @@ GetFlags
 (
 )
 &
-TEXTURE_DEALLOCATE_HOST
-)
+TEXTURE_DEALLOCATE_CLIENT
 )
 {
 TextureClientData

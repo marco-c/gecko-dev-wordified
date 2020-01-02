@@ -2275,12 +2275,9 @@ aFlags
 ;
 if
 (
-!
-(
 aFlags
 &
-TEXTURE_DEALLOCATE_HOST
-)
+TEXTURE_DEALLOCATE_CLIENT
 )
 {
 mTxn

@@ -1263,8 +1263,9 @@ mTextureInfo
 mTextureFlags
 =
 aFlags
-|
-TEXTURE_DEALLOCATE_HOST
+&
+~
+TEXTURE_DEALLOCATE_CLIENT
 ;
 if
 (

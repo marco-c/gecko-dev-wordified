@@ -1579,11 +1579,6 @@ AppendFlag
 TEXTURE_NEW_TILE
 )
 ;
-AppendFlag
-(
-TEXTURE_DEALLOCATE_HOST
-)
-;
 #
 undef
 AppendFlag

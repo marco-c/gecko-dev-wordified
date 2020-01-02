@@ -319,6 +319,8 @@ it
 {
 if
 (
+!
+(
 it
 -
 >
@@ -326,7 +328,8 @@ GetFlags
 (
 )
 &
-TEXTURE_DEALLOCATE_HOST
+TEXTURE_DEALLOCATE_CLIENT
+)
 )
 {
 it
