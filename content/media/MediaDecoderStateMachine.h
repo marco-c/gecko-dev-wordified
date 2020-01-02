@@ -1954,8 +1954,8 @@ return
 0
 ;
 }
-int64_t
-AudioQueueMemoryInUse
+size_t
+SizeOfAudioQueue
 (
 )
 {
@@ -1968,7 +1968,7 @@ return
 mReader
 -
 >
-AudioQueueMemoryInUse
+SizeOfAudioQueue
 (
 )
 ;

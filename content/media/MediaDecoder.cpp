@@ -8264,11 +8264,11 @@ return
 0
 ;
 }
-int64_t
+size_t
 MediaDecoder
 :
 :
-AudioQueueMemoryInUse
+SizeOfAudioQueue
 (
 )
 {
@@ -8281,7 +8281,7 @@ return
 mDecoderStateMachine
 -
 >
-AudioQueueMemoryInUse
+SizeOfAudioQueue
 (
 )
 ;
@@ -9520,7 +9520,7 @@ i
 ]
 -
 >
-AudioQueueMemoryInUse
+SizeOfAudioQueue
 (
 )
 ;
