@@ -4666,7 +4666,6 @@ JSGC_END
 {
 nsCycleCollector_collect
 (
-true
 nullptr
 )
 ;
