@@ -255,6 +255,13 @@ gfx
 DrawTarget
 *
 aDT
+const
+gfx
+:
+:
+Point
+&
+aDeviceOffset
 Layer
 *
 aMaskLayer

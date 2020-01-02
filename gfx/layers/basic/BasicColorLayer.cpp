@@ -371,6 +371,13 @@ Paint
 DrawTarget
 *
 aDT
+const
+gfx
+:
+:
+Point
+&
+aDeviceOffset
 Layer
 *
 aMaskLayer
@@ -447,6 +454,7 @@ snapped
 FillRectWithMask
 (
 aDT
+aDeviceOffset
 snapped
 ToColor
 (
