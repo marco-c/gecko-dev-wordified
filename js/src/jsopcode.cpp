@@ -9162,7 +9162,6 @@ if
 (
 offset
 <
-=
 checkNote
 -
 >
