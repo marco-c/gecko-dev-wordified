@@ -1081,12 +1081,6 @@ public
 :
 ContentClientBasic
 (
-CompositableForwarder
-*
-aForwarder
-BasicLayerManager
-*
-aManager
 )
 ;
 typedef
@@ -1239,12 +1233,6 @@ OnActorDestroy
 MOZ_OVERRIDE
 {
 }
-private
-:
-BasicLayerManager
-*
-mManager
-;
 }
 ;
 /
