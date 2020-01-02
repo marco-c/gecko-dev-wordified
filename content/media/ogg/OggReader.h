@@ -580,12 +580,6 @@ DecodeToFirstAudioData
 (
 )
 ;
-VideoData
-*
-DecodeToFirstVideoData
-(
-)
-;
 /
 /
 This
