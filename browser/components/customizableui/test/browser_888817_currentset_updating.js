@@ -528,10 +528,10 @@ remove
 "
 )
 ;
-otherWin
-.
-close
+yield
+promiseWindowClosed
 (
+otherWin
 )
 ;
 /

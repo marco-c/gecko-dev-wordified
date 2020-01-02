@@ -414,10 +414,10 @@ window
 }
 finally
 {
-otherWindow
-.
-close
+yield
+promiseWindowClosed
 (
+otherWindow
 )
 ;
 }

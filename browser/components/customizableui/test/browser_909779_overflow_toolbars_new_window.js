@@ -263,10 +263,10 @@ toolbar
 "
 )
 ;
-newWindow
-.
-close
+yield
+promiseWindowClosed
 (
+newWindow
 )
 ;
 window

@@ -306,10 +306,10 @@ customizationchange
 handler
 )
 ;
-newWindow
-.
-close
+yield
+promiseWindowClosed
 (
+newWindow
 )
 ;
 }
