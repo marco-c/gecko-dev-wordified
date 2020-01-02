@@ -511,10 +511,9 @@ s
 a
 problem
 .
-nsSVGPathDataParser
+nsSVGPathDataParserToInternal
 pathParser
 (
-aValue
 this
 )
 ;
@@ -523,11 +522,8 @@ pathParser
 .
 Parse
 (
+aValue
 )
-?
-NS_OK
-:
-NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 nsresult
