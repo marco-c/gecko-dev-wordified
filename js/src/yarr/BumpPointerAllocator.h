@@ -1320,8 +1320,6 @@ return
 pool
 ;
 }
-/
-/
 void
 *
 current
