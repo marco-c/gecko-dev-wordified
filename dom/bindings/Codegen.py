@@ -21366,10 +21366,6 @@ isCallbackReturnValue
 =
 False
                                 
-isInOwningUnion
-=
-False
-                                
 sourceDescription
 =
 "
@@ -21612,9 +21608,12 @@ Dictionary
 "
 Variadic
 "
-or
 "
 Sequence
+"
+or
+"
+OwningUnion
 "
 to
 indicate
@@ -21622,9 +21621,9 @@ that
 the
 conversion
 is
+    
 for
 something
-    
 that
 is
 a
@@ -21633,10 +21632,13 @@ member
 a
 variadic
 argument
-or
 a
 sequence
     
+or
+an
+owning
+union
 respectively
 .
     
@@ -22874,7 +22876,6 @@ handleJSObjectType
 (
 type
 isMember
-isInOwningUnion
 failureCode
 )
 :
@@ -22882,9 +22883,6 @@ failureCode
 if
 not
 isMember
-and
-not
-isInOwningUnion
 :
             
 if
@@ -22973,7 +22971,12 @@ isMember
 Dictionary
 "
 or
-isInOwningUnion
+isMember
+=
+=
+"
+OwningUnion
+"
 )
             
 #
@@ -26349,8 +26352,6 @@ handleJSObjectType
 (
 type
 isMember
-isInOwningUnion
-                                      
 failureCode
 )
         
@@ -26667,9 +26668,6 @@ workers
 or
                            
 isMember
-or
-                           
-isInOwningUnion
 or
                            
 isCallbackReturnValue
@@ -27602,9 +27600,6 @@ failureCode
 if
 not
 isMember
-and
-not
-isInOwningUnion
 :
             
 #
@@ -28329,16 +28324,6 @@ nsAString
 >
 "
         
-elif
-isInOwningUnion
-:
-            
-declType
-=
-"
-nsString
-"
-        
 else
 :
             
@@ -28365,84 +28350,37 @@ handled
 it
 already
         
-decl
-=
-"
-"
-        
-if
-isInOwningUnion
-:
-            
-decl
-+
-=
-"
-FakeDependentString
-str
-;
-\
-n
-"
-        
 return
 JSToNativeConversionInfo
 (
             
-"
-%
-s
-"
-            
+(
 "
 %
 s
 \
 n
 "
-            
+             
 "
 {
 declName
 }
 =
-%
-s
-"
-%
-              
-(
-decl
-               
-getConversionCode
-(
-"
-str
-"
-if
-isInOwningUnion
-else
-"
-{
-holderName
-}
-"
-)
-               
-(
-"
-str
-;
-"
-if
-isInOwningUnion
-else
-"
 &
 {
 holderName
 }
 ;
+"
+%
+             
+getConversionCode
+(
+"
+{
+holderName
+}
 "
 )
 )
@@ -29668,7 +29606,6 @@ handleJSObjectType
 (
 type
 isMember
-isInOwningUnion
 failureCode
 )
     
@@ -52471,9 +52408,18 @@ tryNextCode
 isDefinitelyObject
 =
 True
-isInOwningUnion
+        
+isMember
 =
+(
+"
+OwningUnion
+"
+if
 ownsMembers
+else
+None
+)
         
 sourceDescription
 =
@@ -70142,24 +70088,6 @@ member
 .
 defaultValue
 )
-                            
-#
-Set
-this
-to
-true
-so
-that
-we
-get
-an
-owning
-union
-.
-                            
-isInOwningUnion
-=
-True
                             
 defaultValue
 =
