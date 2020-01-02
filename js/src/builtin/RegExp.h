@@ -282,11 +282,7 @@ res
 RegExpObject
 &
 reobj
-Handle
-<
-JSLinearString
-*
->
+HandleLinearString
 input
 const
 jschar

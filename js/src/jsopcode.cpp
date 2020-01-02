@@ -11128,11 +11128,7 @@ return
 nullptr
 ;
 }
-Rooted
-<
-JSLinearString
-*
->
+RootedLinearString
 linear
 (
 cx
@@ -11654,11 +11650,7 @@ fallback
 return
 nullptr
 ;
-Rooted
-<
-JSLinearString
-*
->
+RootedLinearString
 linear
 (
 cx

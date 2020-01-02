@@ -696,11 +696,7 @@ EvalCache
 AddPtr
 p_
 ;
-Rooted
-<
-JSLinearString
-*
->
+RootedLinearString
 lookupStr_
 ;
 public
