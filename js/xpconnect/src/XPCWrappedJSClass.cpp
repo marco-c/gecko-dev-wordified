@@ -2611,7 +2611,7 @@ JSString
 *
 name
 =
-JS_ValueToString
+ToString
 (
 cx
 jsvalName

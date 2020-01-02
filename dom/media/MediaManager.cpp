@@ -769,7 +769,10 @@ JSString
 namestr
 (
 aCx
-JS_ValueToString
+JS
+:
+:
+ToString
 (
 aCx
 nameval
