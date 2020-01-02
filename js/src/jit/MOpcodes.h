@@ -1124,11 +1124,6 @@ AsmJSCall
 \
 _
 (
-AsmJSCheckOverRecursed
-)
-\
-_
-(
 CheckOverRecursedPar
 )
 \

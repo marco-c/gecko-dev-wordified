@@ -529,6 +529,14 @@ generatePrologue
 )
 ;
 bool
+generateAsmJSPrologue
+(
+Label
+*
+stackOverflowLabe
+)
+;
+bool
 generateEpilogue
 (
 )

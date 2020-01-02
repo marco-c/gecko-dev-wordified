@@ -1543,11 +1543,6 @@ AsmJSCall
 \
 _
 (
-AsmJSCheckOverRecursed
-)
-\
-_
-(
 InterruptCheckPar
 )
 \

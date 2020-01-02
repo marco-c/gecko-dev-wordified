@@ -2926,6 +2926,12 @@ OutOfLineTruncateSlow
 ool
 )
 ;
+bool
+omitOverRecursedCheck
+(
+)
+const
+;
 public
 :
 bool

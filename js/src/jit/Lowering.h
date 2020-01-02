@@ -1967,14 +1967,6 @@ ins
 )
 ;
 bool
-visitAsmJSCheckOverRecursed
-(
-MAsmJSCheckOverRecursed
-*
-ins
-)
-;
-bool
 visitSetDOMProperty
 (
 MSetDOMProperty
