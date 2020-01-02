@@ -211,6 +211,12 @@ defined
 (
 XP_LINUX
 )
+|
+|
+defined
+(
+__FreeBSD__
+)
 #
 include
 "
@@ -4984,6 +4990,12 @@ if
 defined
 (
 XP_LINUX
+)
+|
+|
+defined
+(
+__FreeBSD__
 )
 nsMemoryInfoDumper
 :
