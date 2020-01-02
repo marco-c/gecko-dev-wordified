@@ -2300,6 +2300,12 @@ GlobalConstants
 MOZ_APP_VERSION
 ;
 }
+SuppressWarnings
+(
+"
+unchecked
+"
+)
 protected
 JSONArray
 getLocalClientProtocols
