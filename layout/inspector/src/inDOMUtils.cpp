@@ -3554,9 +3554,6 @@ array
 NS_LITERAL_STRING
 (
 "
--
-moz
--
 initial
 "
 )
