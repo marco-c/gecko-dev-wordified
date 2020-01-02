@@ -55647,7 +55647,7 @@ rval
 static
 const
 VMFunction
-CreateThisInfo
+CreateThisInfoBaseline
 =
 FunctionInfo
 <
@@ -56213,7 +56213,7 @@ if
 !
 callVM
 (
-CreateThisInfo
+CreateThisInfoBaseline
 masm
 )
 )
@@ -62574,7 +62574,7 @@ HandleValue
 static
 const
 VMFunction
-ThrowInfo
+ThrowInfoBaseline
 =
 FunctionInfo
 <
@@ -62769,7 +62769,7 @@ R1
 return
 tailCallVM
 (
-ThrowInfo
+ThrowInfoBaseline
 masm
 )
 ;
@@ -62946,7 +62946,7 @@ if
 !
 tailCallVM
 (
-ThrowInfo
+ThrowInfoBaseline
 masm
 )
 )

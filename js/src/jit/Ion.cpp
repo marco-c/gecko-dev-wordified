@@ -9926,6 +9926,9 @@ graph
 builderScript
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 AutoProtectHeapForCompilation
