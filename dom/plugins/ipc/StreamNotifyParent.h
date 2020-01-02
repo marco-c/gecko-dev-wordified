@@ -230,6 +230,7 @@ bool
 &
 allow
 )
+MOZ_OVERRIDE
 ;
 bool
 *

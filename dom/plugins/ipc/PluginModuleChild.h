@@ -501,6 +501,7 @@ NPError
 *
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -514,6 +515,7 @@ NPError
 *
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 PPluginIdentifierChild
@@ -533,6 +535,7 @@ bool
 &
 aTemporary
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -554,6 +557,7 @@ bool
 &
 aTemporary
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -563,6 +567,7 @@ PPluginIdentifierChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 PPluginInstanceChild
@@ -595,6 +600,7 @@ NPError
 *
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -604,6 +610,7 @@ PPluginInstanceChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -638,6 +645,7 @@ NPError
 *
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -647,6 +655,7 @@ NPError
 *
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -662,6 +671,7 @@ bool
 *
 aGetSitesWithData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -683,6 +693,7 @@ NPError
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -695,6 +706,7 @@ nsCString
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -713,6 +725,7 @@ nsString
 &
 aIconPath
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -723,6 +736,7 @@ uint32_t
 &
 aSeconds
 )
+MOZ_OVERRIDE
 ;
 virtual
 PCrashReporterChild
@@ -742,6 +756,7 @@ uint32_t
 *
 processType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -751,6 +766,7 @@ PCrashReporterChild
 *
 actor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -772,6 +788,7 @@ uint32_t
 *
 processType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -780,6 +797,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 MOZ_NORETURN
 void
@@ -802,6 +820,7 @@ nsCString
 *
 aProfile
 )
+MOZ_OVERRIDE
 ;
 public
 :

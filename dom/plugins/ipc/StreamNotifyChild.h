@@ -226,6 +226,7 @@ int32_t
 &
 status
 )
+MOZ_OVERRIDE
 ;
 /
 *

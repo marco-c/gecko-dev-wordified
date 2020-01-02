@@ -494,6 +494,7 @@ bool
 &
 aTemporary
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -503,6 +504,7 @@ PPluginIdentifierParent
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 PPluginInstanceParent
 *
@@ -534,6 +536,7 @@ NPError
 *
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -543,6 +546,7 @@ PPluginInstanceParent
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -845,6 +849,7 @@ nsCString
 *
 userAgent
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -861,6 +866,7 @@ bool
 *
 aBoolVal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

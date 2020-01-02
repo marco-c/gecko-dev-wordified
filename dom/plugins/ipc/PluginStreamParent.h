@@ -196,6 +196,7 @@ int32_t
 *
 written
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -210,6 +211,7 @@ bool
 &
 artificial
 )
+MOZ_OVERRIDE
 ;
 private
 :

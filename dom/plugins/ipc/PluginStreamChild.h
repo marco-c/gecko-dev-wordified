@@ -179,6 +179,7 @@ bool
 &
 artificial
 )
+MOZ_OVERRIDE
 ;
 int32_t
 NPN_Write

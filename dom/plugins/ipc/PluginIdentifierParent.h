@@ -289,6 +289,7 @@ bool
 RecvRetain
 (
 )
+MOZ_OVERRIDE
 ;
 void
 AddTemporaryRef
