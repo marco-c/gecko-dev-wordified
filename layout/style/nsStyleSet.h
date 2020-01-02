@@ -2036,16 +2036,6 @@ EndReconstruct
 (
 )
 ;
-bool
-IsInRuleTreeReconstruct
-(
-)
-const
-{
-return
-mInReconstruct
-;
-}
 /
 /
 Let
