@@ -1009,6 +1009,9 @@ openDialog
 refresh
 "
 "
+getScrollInfo
+"
+"
 getOption
 "
 "
