@@ -536,7 +536,7 @@ StringUtils
 isSearchQuery
 (
 suggestion
-false
+true
 )
 )
 {
