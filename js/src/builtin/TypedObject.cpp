@@ -12226,14 +12226,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 nullptr
-JSMSG_TYPEDOBJECT_HANDLE_BAD_ARGS
-"
-1
-"
-"
-array
-length
-"
+JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 return
