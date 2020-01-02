@@ -48627,7 +48627,6 @@ rhs
 nullptr
 nullptr
 JSPROP_ENUMERATE
-0
 )
 )
 return

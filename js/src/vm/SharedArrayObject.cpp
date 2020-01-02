@@ -1714,7 +1714,7 @@ byteLength
 )
 ;
 unsigned
-flags
+attrs
 =
 JSPROP_SHARED
 |
@@ -1779,9 +1779,7 @@ PropertyOp
 getter
 )
 nullptr
-flags
-0
-0
+attrs
 )
 )
 {

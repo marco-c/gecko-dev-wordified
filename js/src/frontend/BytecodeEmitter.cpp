@@ -14472,8 +14472,6 @@ UndefinedHandleValue
 nullptr
 nullptr
 JSPROP_ENUMERATE
-0
-0
 )
 )
 return
@@ -14491,8 +14489,6 @@ UndefinedHandleValue
 nullptr
 nullptr
 JSPROP_ENUMERATE
-0
-0
 )
 )
 return
@@ -41636,8 +41632,6 @@ undefinedValue
 nullptr
 nullptr
 JSPROP_ENUMERATE
-0
-0
 )
 )
 {
