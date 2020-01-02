@@ -11656,8 +11656,6 @@ nsJSContext
 :
 RunCycleCollectorSlice
 (
-int64_t
-aSliceTime
 )
 {
 if
@@ -11711,7 +11709,9 @@ PrepareForCycleCollectionSlice
 ;
 nsCycleCollector_collectSlice
 (
-aSliceTime
+ICCSliceTime
+(
+)
 )
 ;
 gCCStats
@@ -11814,9 +11814,6 @@ nsJSContext
 :
 RunCycleCollectorSlice
 (
-ICCSliceTime
-(
-)
 )
 ;
 }
@@ -13493,9 +13490,6 @@ nsJSContext
 :
 RunCycleCollectorSlice
 (
-ICCSliceTime
-(
-)
 )
 ;
 }
