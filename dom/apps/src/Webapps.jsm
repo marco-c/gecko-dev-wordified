@@ -27181,6 +27181,9 @@ UpdateState
 app
 :
 app
+error
+:
+aError
 manifestURL
 :
 app
@@ -27199,9 +27202,6 @@ Webapps
 FireEvent
 "
 {
-error
-:
-aError
 eventType
 :
 "
