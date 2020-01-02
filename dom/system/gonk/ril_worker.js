@@ -6182,17 +6182,12 @@ options
 .
 clirMode
 *
-Is
-one
+One
 of
 the
 CLIR_
 *
 constants
-in
-*
-nsIDOMMozMobileConnection
-interface
 .
 *
 /
@@ -15151,8 +15146,6 @@ reason
 *
 One
 of
-nsIDOMMozMobileCFInfo
-.
 CALL_FORWARD_REASON_
 *
 constants
@@ -15291,8 +15284,6 @@ action
 *
 One
 of
-nsIDOMMozMobileCFInfo
-.
 CALL_FORWARD_ACTION_
 *
 constants
@@ -15303,8 +15294,6 @@ reason
 *
 One
 of
-nsIDOMMozMobileCFInfo
-.
 CALL_FORWARD_REASON_
 *
 constants
@@ -15452,8 +15441,6 @@ program
 *
 One
 of
-nsIDOMMozMobileConnection
-.
 CALL_BARRING_PROGRAM_
 *
 constants
@@ -15529,8 +15516,6 @@ program
 *
 One
 of
-nsIDOMMozMobileConnection
-.
 CALL_BARRING_PROGRAM_
 *
 constants
@@ -35090,7 +35075,7 @@ of
 an
 array
 of
-nsIDOMMozMobileCFInfo
+MozCallForwardingOptions
 /
 /
 instances

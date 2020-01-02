@@ -1777,7 +1777,7 @@ params
 An
 array
 of
-nsIDOMMozMobileNetworkInfo
+MozMobileNetworkInfo
 .
 *
 Reject
@@ -1866,7 +1866,7 @@ param
 aNetwork
 *
 A
-nsIDOMMozMobileNetworkInfo
+MozMobileNetworkInfo
 .
 *
 *
@@ -1961,7 +1961,7 @@ param
 aNetwork
 *
 A
-nsIDOMMozMobileNetworkInfo
+MozMobileNetworkInfo
 .
 *
 *

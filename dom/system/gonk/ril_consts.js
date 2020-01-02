@@ -26537,7 +26537,7 @@ be
 in
 sync
 with
-nsIDOMMozMobileCFInfo
+nsIMobileConnectionProvider
 interface
 this
 .
@@ -26580,7 +26580,7 @@ be
 in
 sync
 with
-nsIDOMMozMobileCFInfo
+nsIMobileConnectionProvider
 interface
 this
 .
@@ -26629,7 +26629,7 @@ be
 in
 sync
 with
-nsIDOMMozMobileConnection
+nsIMobileConnectionProvider
 interface
 this
 .
@@ -26713,7 +26713,7 @@ be
 in
 sync
 with
-nsIDOMMozMobileConnection
+nsIMobileConnectionProvider
 interface
 this
 .

@@ -11266,7 +11266,7 @@ These
 objects
 implement
 the
-nsIDOMMozMobileConnectionInfo
+nsIMobileConnectionInfo
 interface
 /
 /
@@ -11294,9 +11294,9 @@ which
 implement
 /
 /
-nsIDOMMozMobileNetworkInfo
+nsIMobileNetworkInfo
 and
-nsIDOMMozMobileCellInfo
+nsIMobileCellInfo
 respectively
 .
 voice
