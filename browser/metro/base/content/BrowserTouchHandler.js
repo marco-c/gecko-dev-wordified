@@ -410,6 +410,17 @@ we
 generate
 if
 (
+aEvent
+.
+target
+=
+=
+document
+)
+return
+;
+if
+(
 this
 .
 _debugEvents
