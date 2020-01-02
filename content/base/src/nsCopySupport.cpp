@@ -3888,6 +3888,7 @@ clipboardData
 new
 DataTransfer
 (
+piWindow
 aType
 aType
 =

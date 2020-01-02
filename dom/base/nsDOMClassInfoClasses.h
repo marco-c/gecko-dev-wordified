@@ -367,10 +367,6 @@ CSSFontFaceRule
 )
 DOMCI_CLASS
 (
-DataTransfer
-)
-DOMCI_CLASS
-(
 EventListenerInfo
 )
 DOMCI_CLASS

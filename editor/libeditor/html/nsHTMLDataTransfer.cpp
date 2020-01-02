@@ -338,7 +338,11 @@ h
 #
 include
 "
-nsIDOMDataTransfer
+mozilla
+/
+dom
+/
+DataTransfer
 .
 h
 "
