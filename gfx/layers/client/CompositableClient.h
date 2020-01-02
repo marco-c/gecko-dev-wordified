@@ -909,7 +909,7 @@ TextureClient
 *
 /
 virtual
-void
+bool
 AddTextureClient
 (
 TextureClient

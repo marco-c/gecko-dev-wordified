@@ -1176,7 +1176,7 @@ TEXTURE_FLAGS_DEFAULT
 )
 ;
 }
-void
+bool
 CompositableClient
 :
 :
@@ -1220,6 +1220,7 @@ SetID
 mNextTextureID
 )
 ;
+return
 mForwarder
 -
 >

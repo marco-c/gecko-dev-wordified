@@ -597,7 +597,7 @@ OnDetach
 MOZ_OVERRIDE
 ;
 virtual
-void
+bool
 AddTextureClient
 (
 TextureClient

@@ -726,7 +726,7 @@ mTxn
 ;
 }
 ;
-void
+bool
 ImageBridgeChild
 :
 :
@@ -769,6 +769,7 @@ TextureClient
 )
 ;
 return
+false
 ;
 }
 mTxn
@@ -800,6 +801,9 @@ GetFlags
 )
 )
 )
+;
+return
+true
 ;
 }
 void

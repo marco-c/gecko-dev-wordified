@@ -464,7 +464,7 @@ aLayer
 MOZ_OVERRIDE
 ;
 virtual
-void
+bool
 AddTextureClient
 (
 TextureClient
@@ -494,6 +494,7 @@ mTextureInfo
 mTextureFlags
 )
 ;
+return
 CompositableClient
 :
 :

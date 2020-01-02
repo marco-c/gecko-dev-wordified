@@ -957,7 +957,7 @@ aClient
 *
 /
 virtual
-void
+bool
 AddTexture
 (
 CompositableClient

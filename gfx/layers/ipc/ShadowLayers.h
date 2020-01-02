@@ -2129,7 +2129,7 @@ AddTexture
 *
 /
 virtual
-void
+bool
 AddTexture
 (
 CompositableClient

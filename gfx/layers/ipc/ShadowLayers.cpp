@@ -2152,7 +2152,7 @@ aRect
 )
 ;
 }
-void
+bool
 ShadowLayerForwarder
 :
 :
@@ -2193,6 +2193,7 @@ TextureClient
 )
 ;
 return
+false
 ;
 }
 MOZ_ASSERT
@@ -2237,6 +2238,9 @@ GetFlags
 )
 )
 )
+;
+return
+true
 ;
 }
 void
