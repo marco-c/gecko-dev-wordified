@@ -151,11 +151,11 @@ kProfilerCIDs
 &
 kNS_PROFILER_CID
 false
-NULL
+nullptr
 nsProfilerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -189,7 +189,7 @@ profiler
 kNS_PROFILER_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

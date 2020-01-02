@@ -188,7 +188,7 @@ void
 *
 aFrameAddress
 =
-NULL
+nullptr
 bool
 aCopy
 =

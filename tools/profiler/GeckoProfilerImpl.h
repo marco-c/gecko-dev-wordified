@@ -1659,7 +1659,7 @@ mHandle
 mozilla_sampler_call_enter
 (
 aDefault
-NULL
+nullptr
 false
 line
 )
@@ -1709,7 +1709,7 @@ if
 stack_key_initialized
 )
 return
-NULL
+nullptr
 ;
 return
 tlsPseudoStack
@@ -1768,7 +1768,7 @@ if
 stack_key_initialized
 )
 return
-NULL
+nullptr
 ;
 PseudoStack
 *

@@ -471,7 +471,7 @@ JS_NewGlobalObject
 cx
 &
 c
-NULL
+nullptr
 JS
 :
 :

@@ -362,7 +362,7 @@ stackTop
 is
 /
 /
-NULL
+nullptr
 the
 call
 is
@@ -424,7 +424,7 @@ put
 It
 may
 return
-NULL
+nullptr
 if
 no
 /
@@ -505,7 +505,7 @@ routine
 /
 /
 returns
-NULL
+nullptr
 .
 UnwinderThreadBuffer
 *
@@ -580,7 +580,7 @@ If
 ucV
 '
 is
-NULL
+nullptr
 no
 native
 unwind
@@ -590,7 +590,7 @@ done
 If
 non
 -
-NULL
+nullptr
 /
 /
 it

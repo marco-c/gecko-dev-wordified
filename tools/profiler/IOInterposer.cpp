@@ -189,9 +189,9 @@ ObserverLists
 may
 be
 leaked
+/
+/
 as
-/
-/
 we
 want
 to
@@ -230,10 +230,10 @@ sDeadlockDetector
 which
 may
 be
-NULL
+nullptr
+/
+/
 during
-/
-/
 shutdown
 .
 PRLock
@@ -1175,7 +1175,7 @@ We
 should
 never
 register
-NULL
+nullptr
 as
 observer
 MOZ_ASSERT

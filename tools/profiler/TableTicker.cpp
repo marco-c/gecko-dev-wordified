@@ -2452,7 +2452,7 @@ entry
 to
 have
 a
-NULL
+nullptr
 pc
 MOZ_ASSERT
 (
@@ -2526,7 +2526,7 @@ lineno
 =
 JS_PCToLineNumber
 (
-NULL
+nullptr
 entry
 .
 script
@@ -2544,7 +2544,7 @@ lineno
 =
 JS_PCToLineNumber
 (
-NULL
+nullptr
 entry
 .
 script
@@ -2766,7 +2766,7 @@ case
 we
 have
 a
-NULL
+nullptr
 stack
 address
 in
@@ -2816,7 +2816,7 @@ jsCanvas
 (
 )
 |
-NULL
+nullptr
 *
 timer
 (
@@ -2827,7 +2827,7 @@ drawLine
 (
 )
 |
-NULL
+nullptr
 *
 azure
 (
@@ -4499,7 +4499,7 @@ stack_key_initialized
 )
 profiler_init
 (
-NULL
+nullptr
 )
 ;
 SyncProfile
@@ -4536,7 +4536,7 @@ GetPseudoStack
 )
 *
 syncProfile
-NULL
+nullptr
 )
 ;
 syncProfile

@@ -240,7 +240,7 @@ ProfileEntry
 :
 mTagData
 (
-NULL
+nullptr
 )
 mTagName
 (
