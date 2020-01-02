@@ -1140,11 +1140,8 @@ global
 OnFTPControlLog
 "
 params
+&
 val
-.
-address
-(
-)
 )
 ;
 return

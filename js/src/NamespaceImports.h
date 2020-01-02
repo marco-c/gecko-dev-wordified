@@ -285,6 +285,9 @@ T
 class
 AutoHashSetRooter
 ;
+class
+HandleValueArray
+;
 }
 /
 /
@@ -696,6 +699,12 @@ JS
 :
 :
 UndefinedHandleValue
+;
+using
+JS
+:
+:
+HandleValueArray
 ;
 using
 JS

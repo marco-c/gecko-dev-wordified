@@ -175,11 +175,8 @@ JS
 :
 :
 EmptyValueArray
+&
 v
-.
-address
-(
-)
 )
 ;
 CHECK

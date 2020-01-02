@@ -390,11 +390,8 @@ JS
 :
 :
 EmptyValueArray
+&
 rval
-.
-address
-(
-)
 )
 )
 ;

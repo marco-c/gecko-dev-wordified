@@ -1401,11 +1401,8 @@ JS
 :
 :
 EmptyValueArray
+&
 val
-.
-address
-(
-)
 )
 )
 {

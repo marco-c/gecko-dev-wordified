@@ -98074,6 +98074,16 @@ getDefaultRetval
 )
             
 "
+declThis
+"
+:
+self
+.
+getThisDecl
+(
+)
+            
+"
 thisVal
 "
 :
@@ -98084,7 +98094,7 @@ getThisVal
 )
             
 "
-getCallable
+declCallable
 "
 :
 self
@@ -98159,7 +98169,10 @@ Template
 (
 "
 {
-getCallable
+declCallable
+}
+{
+declThis
 }
 "
                 
@@ -98274,6 +98287,17 @@ needThisHandling
 =
 True
 )
+    
+def
+getThisDecl
+(
+self
+)
+:
+        
+return
+"
+"
     
 def
 getThisVal
@@ -98440,7 +98464,7 @@ rethrowContentException
 )
     
 def
-getThisVal
+getThisDecl
 (
 self
 )
@@ -98458,11 +98482,28 @@ return
 JS
 :
 :
+Rooted
+<
+JS
+:
+:
+Value
+>
+thisValue
+(
+cx
+JS
+:
+:
 ObjectValue
 (
 *
 mCallback
 )
+)
+;
+\
+n
 "
         
 #
@@ -98493,7 +98534,22 @@ interface
 .
         
 return
-"
+(
+            
+'
+JS
+:
+:
+Rooted
+<
+JS
+:
+:
+Value
+>
+thisValue
+(
+cx
 isCallable
 ?
 aThisVal
@@ -98501,6 +98557,11 @@ aThisVal
 get
 (
 )
+\
+n
+'
+            
+'
 :
 JS
 :
@@ -98510,6 +98571,23 @@ ObjectValue
 *
 mCallback
 )
+)
+;
+\
+n
+'
+)
+    
+def
+getThisVal
+(
+self
+)
+:
+        
+return
+"
+thisValue
 "
     
 def

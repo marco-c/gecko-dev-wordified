@@ -980,11 +980,8 @@ obj
 onNfcMessage
 "
 arrayVal
+&
 rval
-.
-address
-(
-)
 )
 ;
 }

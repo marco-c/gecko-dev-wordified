@@ -1044,11 +1044,8 @@ obj
 onRILMessage
 "
 arrayVal
+&
 rval
-.
-address
-(
-)
 )
 ;
 }

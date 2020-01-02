@@ -5317,11 +5317,8 @@ JS
 :
 :
 EmptyValueArray
+&
 rval
-.
-address
-(
-)
 )
 ;
 }
