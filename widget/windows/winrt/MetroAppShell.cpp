@@ -375,13 +375,6 @@ MetroApp
 >
 sMetroApp
 ;
-extern
-ComPtr
-<
-FrameworkView
->
-sFrameworkView
-;
 }
 }
 }
@@ -1501,10 +1494,10 @@ StartAudioSession
 (
 )
 ;
-sFrameworkView
+sMetroApp
 -
 >
-ActivateView
+ActivateBaseView
 (
 )
 ;

@@ -167,9 +167,6 @@ namespace
 winrt
 {
 class
-FrameworkView
-;
-class
 MetroApp
 :
 public
@@ -368,6 +365,11 @@ Shutdown
 (
 )
 ;
+void
+ActivateBaseView
+(
+)
+;
 /
 /
 Set
@@ -389,9 +391,8 @@ between
 framework
 and
 widget
-static
 void
-SetBaseWidget
+SetWidget
 (
 MetroWidget
 *
