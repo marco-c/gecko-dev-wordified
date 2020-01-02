@@ -1420,8 +1420,6 @@ waitForText
 (
 "
 Browsing
-&
-download
 history
 "
 )
@@ -1539,8 +1537,6 @@ waitForText
 (
 "
 Browsing
-&
-download
 history
 "
 )
