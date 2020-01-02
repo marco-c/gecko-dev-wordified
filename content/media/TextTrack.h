@@ -205,15 +205,6 @@ TextTrack
 nsISupports
 *
 aParent
-TextTrackSource
-aTextTrackSource
-)
-;
-TextTrack
-(
-nsISupports
-*
-aParent
 TextTrackKind
 aKind
 const
