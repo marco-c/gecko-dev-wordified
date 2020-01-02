@@ -3428,7 +3428,7 @@ _height
 /
 Draw
 the
-grpah
+graph
 underneath
 the
 cursor
