@@ -301,6 +301,14 @@ AppendElement
 aTextTrack
 )
 ;
+aTextTrack
+-
+>
+SetTextTrackList
+(
+this
+)
+;
 }
 void
 RemoveTextTrack
