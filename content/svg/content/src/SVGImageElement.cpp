@@ -1666,6 +1666,9 @@ SVGImageElement
 :
 BuildPath
 (
+PathBuilder
+*
+aBuilder
 )
 {
 /
@@ -1744,6 +1747,10 @@ PathBuilder
 >
 pathBuilder
 =
+aBuilder
+?
+aBuilder
+:
 CreatePathBuilder
 (
 )
