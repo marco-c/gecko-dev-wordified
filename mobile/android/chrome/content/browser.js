@@ -1351,6 +1351,11 @@ HomePanels
 :
 Get
 "
+"
+HomePanels
+:
+Authenticate
+"
 ]
 "
 resource
