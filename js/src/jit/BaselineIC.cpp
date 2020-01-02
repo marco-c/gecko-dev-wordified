@@ -21692,11 +21692,6 @@ set
 nullptr
 )
 ;
-bool
-isDOMProxy
-=
-false
-;
 if
 (
 checkDOMProxy
@@ -21746,8 +21741,6 @@ shadowsResult
 ;
 *
 checkDOMProxy
-=
-isDOMProxy
 =
 true
 ;
@@ -21833,6 +21826,14 @@ GetDOMProxyProto
 (
 obj
 )
+;
+if
+(
+!
+checkObj
+)
+return
+true
 ;
 }
 else
