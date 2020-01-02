@@ -2002,6 +2002,14 @@ UsePosition
 use
 )
 ;
+void
+addUseAtEnd
+(
+UsePosition
+*
+use
+)
+;
 UsePosition
 *
 nextUseAfter
