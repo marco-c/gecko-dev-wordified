@@ -1660,6 +1660,15 @@ return
 mChromeOnlyContent
 ;
 }
+bool
+BindToUntrustedContent
+(
+)
+{
+return
+mBindToUntrustedContent
+;
+}
 typedef
 nsClassHashtable
 <
@@ -1873,6 +1882,9 @@ mKeyHandlersRegistered
 ;
 bool
 mChromeOnlyContent
+;
+bool
+mBindToUntrustedContent
 ;
 nsAutoPtr
 <
