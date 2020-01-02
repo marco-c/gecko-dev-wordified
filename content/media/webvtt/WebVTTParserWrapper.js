@@ -339,7 +339,6 @@ processCues
 (
 window
 cues
-null
 overlay
 )
 ;
