@@ -425,11 +425,7 @@ GetSize
 (
 )
 const
-{
-return
-mSize
 ;
-}
 Display
 *
 XDisplay
@@ -792,13 +788,11 @@ mDisplay
 Drawable
 mDrawable
 ;
-void
+const
+gfxIntSize
 DoSizeQuery
 (
 )
-;
-gfxIntSize
-mSize
 ;
 #
 if
