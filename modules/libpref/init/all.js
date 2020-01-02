@@ -43551,9 +43551,11 @@ pref
 "
 webgl
 .
-disable
+prefer
 -
-angle
+native
+-
+gl
 "
 false
 )

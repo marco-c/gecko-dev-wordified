@@ -14587,12 +14587,6 @@ mMaxTextureImageSize
 GLint
 mMaxRenderbufferSize
 ;
-GLint
-mMaxViewportDims
-[
-2
-]
-;
 GLsizei
 mMaxSamples
 ;
