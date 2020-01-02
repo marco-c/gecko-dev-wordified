@@ -5951,6 +5951,9 @@ return
 true
 ;
 }
+namespace
+js
+{
 /
 *
 ES6
@@ -5973,7 +5976,6 @@ May
 1
 *
 /
-static
 bool
 GetOwnPropertyKeys
 (
@@ -5986,10 +5988,6 @@ CallArgs
 args
 unsigned
 flags
-const
-char
-*
-fnname
 )
 {
 /
@@ -6194,6 +6192,11 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
+js
 static
 bool
 obj_getOwnPropertyNames
@@ -6225,11 +6228,6 @@ args
 JSITER_OWNONLY
 |
 JSITER_HIDDEN
-"
-Object
-.
-getOwnPropertyNames
-"
 )
 ;
 }
@@ -6288,11 +6286,6 @@ JSITER_HIDDEN
 JSITER_SYMBOLS
 |
 JSITER_SYMBOLSONLY
-"
-Object
-.
-getOwnPropertySymbols
-"
 )
 ;
 }

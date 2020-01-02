@@ -162,7 +162,7 @@ d
 var
 keysArray
 =
-std_Object_getOwnPropertyNames
+OwnPropertyKeys
 (
 from
 )
