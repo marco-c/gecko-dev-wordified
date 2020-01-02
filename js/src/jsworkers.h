@@ -1960,6 +1960,9 @@ ParseTask
 ;
 }
 ;
+#
+ifdef
+JS_THREADSAFE
 /
 /
 Return
@@ -1998,6 +2001,8 @@ JSRuntime
 rt
 )
 ;
+#
+endif
 /
 /
 Compression
