@@ -4092,6 +4092,14 @@ RegExp
 natives
 .
 InliningStatus
+inlineRegExpExec
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineRegExpTest
 (
 CallInfo
