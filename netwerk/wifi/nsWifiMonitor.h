@@ -199,6 +199,15 @@ args
 class
 nsWifiAccessPoint
 ;
+#
+define
+kDefaultWifiScanInterval
+5
+/
+*
+seconds
+*
+/
 class
 nsWifiListener
 {
