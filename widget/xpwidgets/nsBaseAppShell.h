@@ -672,7 +672,7 @@ mozilla
 :
 Atomic
 <
-uint32_t
+bool
 >
 mNativeEventPending
 ;
