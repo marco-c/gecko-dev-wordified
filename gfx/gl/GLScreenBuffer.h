@@ -250,13 +250,6 @@ Point
 .
 h
 "
-/
-/
-Forwards
-:
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {

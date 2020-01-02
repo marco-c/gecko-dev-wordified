@@ -109,13 +109,6 @@ cstring
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 GLContext
 .
 h
