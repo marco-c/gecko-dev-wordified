@@ -385,7 +385,6 @@ testUndoCloseWithSelectedBlankPinnedTab
 )
 ;
 }
-0
 )
 ;
 }
@@ -526,7 +525,6 @@ finishTest
 )
 ;
 }
-0
 )
 ;
 }
