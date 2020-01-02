@@ -3,12 +3,6 @@
 -
 *
 -
-Mode
-:
-C
-+
-+
-;
 tab
 -
 width
@@ -23,11 +17,11 @@ mode
 :
 nil
 ;
-c
+js
 -
-basic
+indent
 -
-offset
+level
 :
 2
 -

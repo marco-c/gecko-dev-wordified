@@ -8,6 +8,14 @@ coding
 utf
 -
 8
+;
+indent
+-
+tabs
+-
+mode
+:
+nil
 -
 *
 -

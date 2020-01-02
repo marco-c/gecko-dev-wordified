@@ -4,16 +4,6 @@
 -
 *
 -
-Mode
-:
-Javascript
-;
-tab
--
-width
-:
-8
-;
 indent
 -
 tabs

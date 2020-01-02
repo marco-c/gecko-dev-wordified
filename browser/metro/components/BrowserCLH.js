@@ -3,15 +3,11 @@
 -
 *
 -
-Mode
-:
-js2
-;
-js2
+js
 -
-basic
+indent
 -
-offset
+level
 :
 4
 ;
@@ -22,7 +18,6 @@ tabs
 mode
 :
 nil
-;
 -
 *
 -

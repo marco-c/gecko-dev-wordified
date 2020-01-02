@@ -3,10 +3,6 @@
 -
 *
 -
-Mode
-:
-Javasript
-;
 indent
 -
 tabs

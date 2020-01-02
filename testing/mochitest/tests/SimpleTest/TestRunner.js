@@ -10,6 +10,14 @@ indent
 level
 :
 4
+;
+indent
+-
+tabs
+-
+mode
+:
+nil
 -
 *
 -

@@ -3,10 +3,6 @@
 -
 *
 -
-mode
-:
-js2
-;
 indent
 -
 tabs
@@ -14,7 +10,6 @@ tabs
 mode
 :
 nil
-;
 -
 *
 -

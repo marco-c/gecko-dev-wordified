@@ -3,10 +3,6 @@
 -
 *
 -
-Mode
-:
-js
-;
 js
 -
 indent
@@ -15,6 +11,13 @@ level
 :
 2
 ;
+indent
+-
+tabs
+-
+mode
+:
+nil
 -
 *
 -

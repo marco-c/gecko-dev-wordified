@@ -3,10 +3,6 @@
 -
 *
 -
-Mode
-:
-js
-;
 js
 -
 indent
@@ -22,12 +18,6 @@ tabs
 mode
 :
 nil
-;
-tab
--
-width
-:
-2
 -
 *
 -

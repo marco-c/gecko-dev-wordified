@@ -11,12 +11,6 @@ level
 :
 4
 ;
-tab
--
-width
-:
-4
-;
 indent
 -
 tabs
