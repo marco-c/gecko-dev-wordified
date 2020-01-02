@@ -204,12 +204,6 @@ nsAString
 aText
 )
 ;
-virtual
-~
-SpeechSynthesisUtterance
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -418,6 +412,12 @@ boundary
 )
 private
 :
+virtual
+~
+SpeechSynthesisUtterance
+(
+)
+;
 void
 DispatchSpeechSynthesisEvent
 (
