@@ -14535,9 +14535,11 @@ hysteresis_decision
 (
 opus_val16
 )
+(
 equiv_rate
 /
 1000
+)
 intensity_thresholds
 intensity_histeresis
 21
