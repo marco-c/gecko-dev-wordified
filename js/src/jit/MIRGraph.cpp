@@ -1910,10 +1910,6 @@ numDominated_
 (
 0
 )
-loopHeader_
-(
-nullptr
-)
 trackedPc_
 (
 pc
@@ -5666,10 +5662,12 @@ MBasicBlock
 :
 dominates
 (
+const
 MBasicBlock
 *
 other
 )
+const
 {
 uint32_t
 high

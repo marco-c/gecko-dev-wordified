@@ -424,7 +424,7 @@ slot
 }
 static
 inline
-double
+float
 ReadFrameFloat32Slot
 (
 IonJSFrameLayout
