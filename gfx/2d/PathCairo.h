@@ -135,6 +135,10 @@ PathBuilder
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathBuilderCairo
+)
 PathBuilderCairo
 (
 FillRule
@@ -298,6 +302,10 @@ Path
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathCairo
+)
 PathCairo
 (
 FillRule

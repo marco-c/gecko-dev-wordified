@@ -128,6 +128,10 @@ ScaledFontBase
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+ScaledFontDwrite
+)
 ScaledFontDWrite
 (
 IDWriteFontFace
@@ -284,6 +288,10 @@ GlyphRenderingOptions
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+GlyphRenderingOptionsDWrite
+)
 GlyphRenderingOptionsDWrite
 (
 IDWriteRenderingParams

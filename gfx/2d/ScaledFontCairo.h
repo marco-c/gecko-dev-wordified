@@ -124,6 +124,10 @@ ScaledFontBase
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+ScaledFontCairo
+)
 ScaledFontCairo
 (
 cairo_scaled_font_t
@@ -233,6 +237,10 @@ GlyphRenderingOptions
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+GlyphRenderingOptionsCairo
+)
 GlyphRenderingOptionsCairo
 (
 )

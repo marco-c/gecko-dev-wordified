@@ -146,6 +146,10 @@ SourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SourceSurfaceRecording
+)
 SourceSurfaceRecording
 (
 SourceSurface
@@ -269,6 +273,10 @@ GradientStops
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+GradientStopsRecording
+)
 GradientStopsRecording
 (
 GradientStops
@@ -430,6 +438,10 @@ FilterNode
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+FilterNodeRecording
+)
 using
 FilterNode
 :

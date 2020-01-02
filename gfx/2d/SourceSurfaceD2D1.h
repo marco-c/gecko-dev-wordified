@@ -146,6 +146,10 @@ SourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SourceSurfaceD2D1
+)
 SourceSurfaceD2D1
 (
 ID2D1Image
@@ -399,6 +403,10 @@ DataSourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceD2D1
+)
 DataSourceSurfaceD2D1
 (
 ID2D1Bitmap1

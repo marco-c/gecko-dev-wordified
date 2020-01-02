@@ -139,6 +139,10 @@ GradientStops
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+GradientStopsCairo
+)
 GradientStopsCairo
 (
 GradientStop
@@ -256,6 +260,10 @@ DrawTarget
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DrawTargetCairo
+)
 friend
 class
 BorrowedCairoContext

@@ -190,6 +190,10 @@ DrawTarget
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DrawTargetD2D1
+)
 DrawTargetD2D1
 (
 )

@@ -124,6 +124,10 @@ GradientStops
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+GradientStopsD2D
+)
 GradientStopsD2D
 (
 ID2D1GradientStopCollection

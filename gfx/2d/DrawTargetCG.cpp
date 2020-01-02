@@ -1796,6 +1796,10 @@ GradientStops
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+GradientStopsCG
+)
 /
 /
 XXX

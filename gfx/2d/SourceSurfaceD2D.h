@@ -132,6 +132,10 @@ SourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SourceSurfaceD2D
+)
 SourceSurfaceD2D
 (
 )
@@ -286,6 +290,10 @@ DataSourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceD2D
+)
 DataSourceSurfaceD2D
 (
 SourceSurfaceD2D

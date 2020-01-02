@@ -149,6 +149,10 @@ SourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SourceSurfaceCG
+)
 SourceSurfaceCG
 (
 )
@@ -288,6 +292,10 @@ DataSourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceCG
+)
 DataSourceSurfaceCG
 (
 )
@@ -464,6 +472,10 @@ DataSourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceCGContext
+)
 virtual
 void
 DrawTargetWillChange
@@ -490,6 +502,10 @@ SourceSurfaceCGContext
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceCGBitmapContext
+)
 SourceSurfaceCGBitmapContext
 (
 DrawTargetCG
@@ -813,6 +829,10 @@ SourceSurfaceCGContext
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceCGIOSurfaceContext
+)
 SourceSurfaceCGIOSurfaceContext
 (
 DrawTargetCG

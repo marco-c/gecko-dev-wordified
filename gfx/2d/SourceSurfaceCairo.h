@@ -120,6 +120,10 @@ SourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SourceSurfaceCairo
+)
 /
 /
 Create
@@ -293,6 +297,10 @@ DataSourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceCairo
+)
 DataSourceSurfaceCairo
 (
 cairo_surface_t

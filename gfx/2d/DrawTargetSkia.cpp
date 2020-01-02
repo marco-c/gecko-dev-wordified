@@ -285,6 +285,10 @@ GradientStops
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+GradientStopsSkia
+)
 GradientStopsSkia
 (
 const

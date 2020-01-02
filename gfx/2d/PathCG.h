@@ -129,6 +129,10 @@ PathBuilder
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathBuilderCG
+)
 /
 /
 absorbs
@@ -313,6 +317,10 @@ Path
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathCG
+)
 PathCG
 (
 CGMutablePathRef

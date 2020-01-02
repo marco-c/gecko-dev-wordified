@@ -129,6 +129,10 @@ PathBuilder
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathBuilderSkia
+)
 PathBuilderSkia
 (
 const
@@ -277,6 +281,10 @@ Path
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathSkia
+)
 PathSkia
 (
 SkPath

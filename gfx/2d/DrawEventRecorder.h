@@ -157,6 +157,10 @@ DrawEventRecorder
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DrawEventRecorderPrivate
+)
 DrawEventRecorderPrivate
 (
 std
@@ -324,6 +328,10 @@ DrawEventRecorderPrivate
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DrawEventRecorderFile
+)
 DrawEventRecorderFile
 (
 const
