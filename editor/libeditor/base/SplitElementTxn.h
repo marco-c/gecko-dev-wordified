@@ -132,6 +132,17 @@ h
 #
 include
 "
+nsIDOMNode
+.
+h
+"
+/
+/
+for
+nsIDOMNode
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -153,9 +164,6 @@ for
 NS_IMETHOD
 class
 nsEditor
-;
-class
-nsINode
 ;
 /
 *
@@ -269,7 +277,7 @@ Init
 nsEditor
 *
 aEditor
-nsINode
+nsIDOMNode
 *
 aNode
 int32_t
@@ -296,7 +304,7 @@ void
 NS_IMETHOD
 GetNewNode
 (
-nsINode
+nsIDOMNode
 *
 *
 aNewNode
@@ -316,7 +324,7 @@ upon
 /
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mExistingRightNode
 ;
@@ -382,7 +390,7 @@ mElement
 /
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mNewLeftNode
 ;
@@ -400,7 +408,7 @@ mNewLeftNode
 /
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mParent
 ;
