@@ -4927,7 +4927,7 @@ total
 #
 ifdef
 PROFILE_NURSERY
-uint64_t
+int64_t
 totalTime
 =
 TIME_TOTAL
