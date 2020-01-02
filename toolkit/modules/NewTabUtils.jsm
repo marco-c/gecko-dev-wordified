@@ -3646,15 +3646,9 @@ links
 let
 links
 =
-(
 this
 .
 _links
-|
-|
-[
-]
-)
 .
 filter
 (
