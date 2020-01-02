@@ -565,10 +565,6 @@ RecvDecryptingComplete
 )
 MOZ_OVERRIDE
 ;
-GMPChild
-*
-mPlugin
-;
 /
 /
 GMP
@@ -596,6 +592,15 @@ GMPDecryptor
 *
 mSession
 ;
+#
+ifdef
+DEBUG
+GMPChild
+*
+mPlugin
+;
+#
+endif
 }
 ;
 }
