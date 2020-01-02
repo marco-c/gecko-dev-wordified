@@ -704,7 +704,7 @@ CheckAndInitializeAttachments
 )
 ;
 bool
-CheckColorAttachementNumber
+CheckColorAttachmentNumber
 (
 GLenum
 attachment

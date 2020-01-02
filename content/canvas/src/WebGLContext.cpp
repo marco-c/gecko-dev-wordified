@@ -6171,6 +6171,11 @@ LOCAL_GL_SCISSOR_TEST
 mScissorTestEnabled
 )
 ;
+if
+(
+initializeColorBuffer
+)
+{
 realGLboolean
 colorWriteMask
 [
@@ -6331,6 +6336,12 @@ colorClearValue
 )
 )
 ;
+}
+if
+(
+initializeDepthBuffer
+)
+{
 realGLboolean
 depthWriteMask
 =
@@ -6381,6 +6392,12 @@ depthClearValue
 )
 )
 ;
+}
+if
+(
+initializeStencilBuffer
+)
+{
 GLuint
 stencilWriteMaskFront
 =
@@ -6504,6 +6521,7 @@ stencilMask
 )
 )
 ;
+}
 }
 #
 endif

@@ -1738,7 +1738,7 @@ values
 if
 (
 !
-CheckColorAttachementNumber
+CheckColorAttachmentNumber
 (
 attachment
 "
@@ -2015,7 +2015,7 @@ default
 if
 (
 !
-CheckColorAttachementNumber
+CheckColorAttachmentNumber
 (
 attachment
 "
@@ -2105,7 +2105,7 @@ mStencilAttachment
 if
 (
 !
-CheckColorAttachementNumber
+CheckColorAttachmentNumber
 (
 attachment
 "
@@ -3548,7 +3548,7 @@ bool
 WebGLFramebuffer
 :
 :
-CheckColorAttachementNumber
+CheckColorAttachmentNumber
 (
 GLenum
 attachment
