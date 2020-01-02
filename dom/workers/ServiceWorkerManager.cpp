@@ -6427,8 +6427,10 @@ return
 nullptr
 ;
 }
+nsRefPtr
+<
 ServiceWorkerRegistration
-*
+>
 registration
 ;
 domainInfo
@@ -6439,8 +6441,10 @@ mServiceWorkerRegistrations
 Get
 (
 scope
-&
+getter_AddRefs
+(
 registration
+)
 )
 ;
 /
@@ -6461,6 +6465,10 @@ registration
 ;
 return
 registration
+.
+forget
+(
+)
 ;
 }
 namespace
