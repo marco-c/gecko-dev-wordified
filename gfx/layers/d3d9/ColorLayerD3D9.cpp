@@ -199,7 +199,10 @@ height
 )
 ;
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 transform
 =

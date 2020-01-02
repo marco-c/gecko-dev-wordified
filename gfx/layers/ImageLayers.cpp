@@ -428,7 +428,8 @@ the
 ThebesLayer
 )
 .
-mEffectiveTransform
+gfx3DMatrix
+snappedTransform
 =
 SnapTransform
 (
@@ -441,6 +442,15 @@ SnapTransformTranslation
 (
 aTransformToSurface
 nullptr
+)
+;
+gfx
+:
+:
+ToMatrix4x4
+(
+snappedTransform
+mEffectiveTransform
 )
 ;
 ComputeEffectiveTransformForMaskLayer
