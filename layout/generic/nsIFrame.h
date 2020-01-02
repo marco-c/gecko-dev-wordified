@@ -13047,7 +13047,7 @@ once
 *
 /
 virtual
-nsresult
+void
 WillReflow
 (
 nsPresContext
