@@ -1944,13 +1944,6 @@ DispatchSizeModeEvent
 (
 )
 ;
-virtual
-gfxASurface
-*
-GetThebesSurface
-(
-)
-;
 /
 /
 be
