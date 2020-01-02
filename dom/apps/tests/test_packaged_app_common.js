@@ -637,6 +637,17 @@ downloadError
 .
 name
 ;
+ok
+(
+true
+"
+Got
+downloaderror
+"
++
+error
+)
+;
 if
 (
 error
