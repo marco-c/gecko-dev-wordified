@@ -140,6 +140,15 @@ include
 "
 jit
 /
+PerfSpewer
+.
+h
+"
+#
+include
+"
+jit
+/
 IonFrames
 -
 inl
