@@ -229,8 +229,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLParagraphElement
+:
+:
 MapAttributesIntoRule
 (
 const

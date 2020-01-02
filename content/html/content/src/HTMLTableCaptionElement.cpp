@@ -314,8 +314,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLTableCaptionElement
+:
+:
 MapAttributesIntoRule
 (
 const

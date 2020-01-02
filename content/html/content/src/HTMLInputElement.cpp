@@ -25121,8 +25121,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLInputElement
+:
+:
 MapAttributesIntoRule
 (
 const
@@ -36978,3 +36980,6 @@ dom
 /
 namespace
 mozilla
+#
+undef
+NS_ORIGINAL_CHECKED_VALUE

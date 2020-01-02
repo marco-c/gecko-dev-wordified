@@ -310,8 +310,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLFontElement
+:
+:
 MapAttributesIntoRule
 (
 const

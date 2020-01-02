@@ -577,8 +577,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLVideoElement
+:
+:
 MapAttributesIntoRule
 (
 const

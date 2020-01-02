@@ -269,8 +269,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLPreElement
+:
+:
 MapAttributesIntoRule
 (
 const

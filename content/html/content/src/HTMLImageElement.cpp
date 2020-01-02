@@ -1031,8 +1031,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLImageElement
+:
+:
 MapAttributesIntoRule
 (
 const

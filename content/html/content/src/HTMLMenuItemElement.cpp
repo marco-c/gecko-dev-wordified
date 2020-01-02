@@ -2245,3 +2245,6 @@ dom
 /
 namespace
 mozilla
+#
+undef
+NS_ORIGINAL_CHECKED_VALUE

@@ -1287,8 +1287,10 @@ aData
 )
 ;
 }
-static
 void
+HTMLSharedObjectElement
+:
+:
 MapAttributesIntoRule
 (
 const

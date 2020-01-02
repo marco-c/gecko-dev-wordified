@@ -285,8 +285,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLHeadingElement
+:
+:
 MapAttributesIntoRule
 (
 const

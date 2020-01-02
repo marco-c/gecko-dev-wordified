@@ -552,8 +552,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLIFrameElement
+:
+:
 MapAttributesIntoRule
 (
 const
