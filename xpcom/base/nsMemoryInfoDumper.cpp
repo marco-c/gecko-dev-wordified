@@ -4125,7 +4125,11 @@ rv
 /
 Dump
 DMD
-output
+'
+s
+memory
+reports
+analysis
 to
 the
 file
@@ -4150,7 +4154,7 @@ state
 dmd
 :
 :
-Dump
+AnalyzeReports
 (
 w
 )
