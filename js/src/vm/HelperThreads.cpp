@@ -4464,6 +4464,12 @@ JSProto_Iterator
 )
 )
 {
+LeaveParseTaskZone
+(
+rt
+parseTask
+)
+;
 return
 nullptr
 ;
