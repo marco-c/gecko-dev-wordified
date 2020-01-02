@@ -5560,6 +5560,21 @@ libmozglue
 .
 so
 '
+'
+libnspr4
+.
+so
+'
+'
+libplc4
+.
+so
+'
+'
+libplds4
+.
+so
+'
 ]
     
 for
