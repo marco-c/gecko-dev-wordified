@@ -235,7 +235,7 @@ shiftKey
 :
 true
 }
-content
+window
 )
 ;
 }

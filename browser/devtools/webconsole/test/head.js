@@ -722,14 +722,9 @@ if
 (
 browser
 .
-contentDocument
+webProgress
 .
-readyState
-!
-=
-"
-complete
-"
+isLoadingDocument
 )
 {
 stillToLoad
