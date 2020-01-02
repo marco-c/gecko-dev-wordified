@@ -374,6 +374,7 @@ value
 function
 updateCombinedWidgetStyle
 (
+aNode
 aArea
 aModifyAutoclose
 )
@@ -451,7 +452,7 @@ i
 0
 l
 =
-node
+aNode
 .
 childNodes
 .
@@ -468,7 +469,7 @@ i
 {
 setAttributes
 (
-node
+aNode
 .
 childNodes
 [
@@ -2646,6 +2647,7 @@ return
 ;
 updateCombinedWidgetStyle
 (
+node
 aArea
 true
 )
@@ -2768,6 +2770,7 @@ change
 .
 updateCombinedWidgetStyle
 (
+node
 null
 true
 )
@@ -2802,6 +2805,7 @@ return
 ;
 updateCombinedWidgetStyle
 (
+node
 this
 .
 currentArea
@@ -2839,6 +2843,7 @@ return
 ;
 updateCombinedWidgetStyle
 (
+node
 aArea
 true
 )
@@ -2973,6 +2978,7 @@ currentArea
 ;
 updateCombinedWidgetStyle
 (
+node
 aArea
 true
 )
@@ -3340,6 +3346,7 @@ return
 ;
 updateCombinedWidgetStyle
 (
+node
 aArea
 )
 ;
@@ -3395,6 +3402,7 @@ change
 .
 updateCombinedWidgetStyle
 (
+node
 )
 ;
 }
@@ -3423,6 +3431,7 @@ return
 ;
 updateCombinedWidgetStyle
 (
+node
 this
 .
 currentArea
@@ -3455,6 +3464,7 @@ return
 ;
 updateCombinedWidgetStyle
 (
+node
 aArea
 )
 ;
@@ -3532,6 +3542,7 @@ currentArea
 ;
 updateCombinedWidgetStyle
 (
+node
 aArea
 )
 ;
