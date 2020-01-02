@@ -894,7 +894,7 @@ if
 mTextureClient
 )
 {
-SetNewBufferProvider
+SetBufferProvider
 (
 mTextureClient
 )
@@ -905,7 +905,7 @@ if
 mTextureClientOnWhite
 )
 {
-SetNewBufferProviderOnWhite
+SetBufferProviderOnWhite
 (
 mTextureClientOnWhite
 )
@@ -952,12 +952,12 @@ draw
 was
 empty
 .
-SetNewBufferProvider
+SetBufferProvider
 (
 nullptr
 )
 ;
-SetNewBufferProviderOnWhite
+SetBufferProviderOnWhite
 (
 nullptr
 )
@@ -1962,7 +1962,7 @@ if
 mDeprecatedTextureClient
 )
 {
-SetBufferProvider
+SetDeprecatedBufferProvider
 (
 mDeprecatedTextureClient
 )
@@ -1973,7 +1973,7 @@ if
 mDeprecatedTextureClientOnWhite
 )
 {
-SetBufferProviderOnWhite
+SetDeprecatedBufferProviderOnWhite
 (
 mDeprecatedTextureClientOnWhite
 )
@@ -2020,12 +2020,12 @@ draw
 was
 empty
 .
-SetBufferProvider
+SetDeprecatedBufferProvider
 (
 nullptr
 )
 ;
-SetBufferProviderOnWhite
+SetDeprecatedBufferProviderOnWhite
 (
 nullptr
 )
