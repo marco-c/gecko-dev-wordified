@@ -47804,15 +47804,13 @@ data
 ;
 SelectionHandler
 .
-actions
-.
-SEARCH_ADD
-=
+addAction
+(
 {
 id
 :
 "
-add_search_action
+search_add_action
 "
 label
 :
@@ -47856,6 +47854,8 @@ aElement
 ;
 }
 }
+)
+;
 }
 uninit
 :
