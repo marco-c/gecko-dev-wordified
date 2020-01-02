@@ -907,12 +907,12 @@ compositor
 .
 virtual
 bool
-ShouldAvoidComponentAlphaLayers
+AreComponentAlphaLayersEnabled
 (
 )
+MOZ_OVERRIDE
 {
 return
-!
 IsCompositingCheap
 (
 )

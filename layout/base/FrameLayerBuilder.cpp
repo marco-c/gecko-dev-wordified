@@ -23003,10 +23003,11 @@ NS_FRAME_NO_COMPONENT_ALPHA
 mRetainingManager
 &
 &
+!
 mRetainingManager
 -
 >
-ShouldAvoidComponentAlphaLayers
+AreComponentAlphaLayersEnabled
 (
 )
 )
@@ -23146,10 +23147,11 @@ hasComponentAlphaChildren
 mRetainingManager
 &
 &
+!
 mRetainingManager
 -
 >
-ShouldAvoidComponentAlphaLayers
+AreComponentAlphaLayersEnabled
 (
 )
 &
