@@ -3650,6 +3650,20 @@ index
 =
 AMOTION_EVENT_ACTION_POINTER_INDEX_SHIFT
 ;
+int32_t
+id
+=
+data
+.
+motion
+.
+touches
+[
+index
+]
+.
+id
+;
 switch
 (
 action
@@ -3668,7 +3682,7 @@ mTouchDown
 .
 hasBit
 (
-index
+id
 )
 )
 {
@@ -3676,7 +3690,7 @@ mTouchDown
 .
 markBit
 (
-index
+id
 )
 ;
 mTouchDownCount
@@ -3723,7 +3737,7 @@ mTouchDown
 .
 hasBit
 (
-index
+id
 )
 )
 {
@@ -3731,7 +3745,7 @@ mTouchDown
 .
 clearBit
 (
-index
+id
 )
 ;
 mTouchDownCount
