@@ -1955,7 +1955,6 @@ ret
 .
 startupInterrupted
 =
-new
 Number
 (
 Services
@@ -2013,7 +2012,6 @@ ret
 .
 debuggerAttached
 =
-new
 Number
 (
 gWasDebuggerAttached
