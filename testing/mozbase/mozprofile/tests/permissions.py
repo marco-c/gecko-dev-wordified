@@ -1040,11 +1040,10 @@ proxy_check
 =
 (
 "
-if
-(
-isHttp
-)
-return
+'
+http
+'
+:
 '
 PROXY
 mochi
@@ -1053,15 +1052,13 @@ test
 :
 8888
 '
-;
 "
                        
 "
-if
-(
-isHttps
-)
-return
+'
+https
+'
+:
 '
 PROXY
 mochi
@@ -1070,15 +1067,13 @@ test
 :
 4443
 '
-;
 "
                        
 "
-if
-(
-isWebSocket
-)
-return
+'
+ws
+'
+:
 '
 PROXY
 mochi
@@ -1087,15 +1082,13 @@ test
 :
 4443
 '
-;
 "
                        
 "
-if
-(
-isWebSocketSSL
-)
-return
+'
+wss
+'
+:
 '
 PROXY
 mochi
@@ -1104,7 +1097,6 @@ test
 :
 4443
 '
-;
 "
 )
         
