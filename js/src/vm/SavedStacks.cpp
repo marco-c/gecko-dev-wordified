@@ -2488,7 +2488,14 @@ getPrincipals
 (
 )
 )
+ReadBarriered
+<
+SavedFrame
+*
+>
+(
 frame
+)
 )
 ;
 }

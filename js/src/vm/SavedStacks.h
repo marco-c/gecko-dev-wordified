@@ -360,8 +360,14 @@ HashPolicy
 typedef
 HashSet
 <
+js
+:
+:
+ReadBarriered
+<
 SavedFrame
 *
+>
 HashPolicy
 SystemAllocPolicy
 >
@@ -703,8 +709,11 @@ lookup
 )
 ;
 typedef
+ReadBarriered
+<
 SavedFrame
 *
+>
 Key
 ;
 static
