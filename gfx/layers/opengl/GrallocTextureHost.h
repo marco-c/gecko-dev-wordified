@@ -321,6 +321,11 @@ GetGLTexture
 )
 ;
 void
+BindEGLImage
+(
+)
+;
+void
 Lock
 (
 )
