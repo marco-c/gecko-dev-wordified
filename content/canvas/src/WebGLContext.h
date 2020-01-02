@@ -6258,7 +6258,6 @@ cpp
 enum
 WebGLExtensionID
 {
-EXT_sRGB
 EXT_texture_filter_anisotropic
 OES_element_index_uint
 OES_standard_derivatives
@@ -6737,17 +6736,6 @@ const
 nsAString
 &
 string
-const
-char
-*
-info
-)
-;
-bool
-ValidateTexImage2DFormat
-(
-GLenum
-format
 const
 char
 *
