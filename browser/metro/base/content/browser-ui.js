@@ -2027,13 +2027,6 @@ showContent
 aURI
 )
 {
-this
-.
-updateStartURIAttributes
-(
-aURI
-)
-;
 ContextUI
 .
 dismissTabs
