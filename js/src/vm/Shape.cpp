@@ -11195,7 +11195,6 @@ if
 (
 lookupType
 (
-clasp
 type
 kind
 &
