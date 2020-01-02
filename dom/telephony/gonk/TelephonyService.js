@@ -4454,6 +4454,11 @@ outgoing
 "
 incoming
 "
+hangUpLocal
+:
+aCall
+.
+hangUpLocal
 }
 ;
 if
