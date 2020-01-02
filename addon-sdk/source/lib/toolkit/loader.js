@@ -3537,7 +3537,6 @@ nodeResolve
 id
 requirer
 {
-manifest
 rootURI
 }
 )
@@ -3659,12 +3658,6 @@ the
 dependencies
 list
 else
-if
-(
-manifest
-.
-dependencies
-)
 {
 let
 dirs
@@ -6087,6 +6080,7 @@ rootURI
 manifest
 requireMap
 isNative
+metadata
 }
 =
 override
@@ -6507,6 +6501,16 @@ false
 value
 :
 modules
+}
+metadata
+:
+{
+enumerable
+:
+false
+value
+:
+metadata
 }
 /
 /
