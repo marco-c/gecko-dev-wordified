@@ -1413,8 +1413,6 @@ aDirtyRect
 nscoord
 &
 aCurrX
-bool
-aTextRTL
 )
 ;
 /
