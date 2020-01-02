@@ -593,12 +593,10 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHtml5StreamParser
 )
-NS_INTERFACE_TABLE3
+NS_INTERFACE_TABLE1
 (
 nsHtml5StreamParser
-nsIStreamListener
 nsICharsetDetectionObserver
-nsIThreadRetargetableStreamListener
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE_CYCLE_COLLECTION
 (
@@ -809,7 +807,7 @@ NoteXPCOMChild
 (
 static_cast
 <
-nsIStreamListener
+nsICharsetDetectionObserver
 *
 >
 (
@@ -5445,11 +5443,6 @@ NS_OK
 }
 }
 }
-/
-/
-nsIRequestObserver
-methods
-:
 nsresult
 nsHtml5StreamParser
 :
@@ -6241,7 +6234,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHtml5StreamParser
 :
 :
@@ -6899,11 +6892,6 @@ NS_OK
 }
 }
 ;
-/
-/
-nsIStreamListener
-method
-:
 nsresult
 nsHtml5StreamParser
 :

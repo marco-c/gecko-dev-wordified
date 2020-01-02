@@ -102,7 +102,7 @@ nsHtml5RefPtr_h
 #
 include
 "
-nsIThread
+nsThreadUtils
 .
 h
 "
