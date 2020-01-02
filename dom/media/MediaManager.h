@@ -2463,6 +2463,12 @@ dom
 VideoFacingModeEnum
 mFacingMode
 ;
+dom
+:
+:
+MediaSourceEnum
+mMediaSource
+;
 nsRefPtr
 <
 MediaEngineSource
