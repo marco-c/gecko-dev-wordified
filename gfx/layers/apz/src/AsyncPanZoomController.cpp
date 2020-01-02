@@ -4845,6 +4845,10 @@ Destroy
 (
 )
 {
+CancelAnimation
+(
+)
+;
 {
 /
 /
