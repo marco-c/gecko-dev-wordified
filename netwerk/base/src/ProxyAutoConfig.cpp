@@ -3201,7 +3201,10 @@ dns
 AsyncResolve
 (
 aHostName
-0
+nsIDNSService
+:
+:
+RESOLVE_PRIORITY_MEDIUM
 helper
 NS_GetCurrentThread
 (
