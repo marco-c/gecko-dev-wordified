@@ -110,13 +110,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-gfxTypes
-.
-h
-"
 /
 *
 *

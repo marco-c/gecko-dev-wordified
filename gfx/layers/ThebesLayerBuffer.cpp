@@ -430,6 +430,13 @@ h
 /
 for
 nsIntSize
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 namespace
 mozilla
 {

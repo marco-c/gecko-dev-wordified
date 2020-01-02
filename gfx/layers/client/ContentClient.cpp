@@ -401,6 +401,13 @@ h
 "
 #
 endif
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 namespace
 mozilla
 {

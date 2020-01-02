@@ -173,6 +173,13 @@ nsSVGAnimatedTransformList
 .
 h
 "
+#
+include
+"
+gfxColor
+.
+h
+"
 /
 /
 XXX

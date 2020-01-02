@@ -492,6 +492,15 @@ nsCharTraits
 h
 "
 #
+include
+"
+harfbuzz
+/
+hb
+.
+h
+"
+#
 define
 MOD
 (

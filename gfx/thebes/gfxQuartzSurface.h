@@ -106,7 +106,14 @@ h
 #
 include
 "
-gfxImageSurface
+nsSize
+.
+h
+"
+#
+include
+"
+gfxPoint
 .
 h
 "
@@ -121,6 +128,9 @@ h
 >
 class
 gfxContext
+;
+class
+gfxImageSurface
 ;
 class
 gfxQuartzSurface

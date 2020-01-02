@@ -122,7 +122,7 @@ h
 #
 include
 "
-gfxPoint
+nsSize
 .
 h
 "

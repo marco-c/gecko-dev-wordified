@@ -122,6 +122,13 @@ Likely
 .
 h
 "
+#
+include
+"
+gfxFontConstants
+.
+h
+"
 using
 namespace
 mozilla

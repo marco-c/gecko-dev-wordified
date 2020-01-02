@@ -243,6 +243,13 @@ h
 "
 #
 include
+"
+gfxFontConstants
+.
+h
+"
+#
+include
 <
 cairo
 .

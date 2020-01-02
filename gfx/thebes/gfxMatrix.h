@@ -117,13 +117,6 @@ gfxRect
 .
 h
 "
-#
-include
-"
-nsMathUtils
-.
-h
-"
 /
 /
 XX

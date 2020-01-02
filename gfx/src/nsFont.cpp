@@ -215,6 +215,17 @@ h
 /
 for
 PR_STATIC_ASSERT
+#
+include
+"
+mozilla
+/
+gfx
+/
+2D
+.
+h
+"
 nsFont
 :
 :

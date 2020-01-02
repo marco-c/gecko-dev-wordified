@@ -119,15 +119,6 @@ gfxPlatform
 h
 "
 #
-include
-"
-mozilla
-/
-arm
-.
-h
-"
-#
 ifdef
 MOZ_X11
 #

@@ -130,6 +130,13 @@ BorrowedContext
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 class
 gfxQuartzNativeDrawing
 {

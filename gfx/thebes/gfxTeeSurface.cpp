@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 cairo
 -
 tee

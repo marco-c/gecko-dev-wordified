@@ -165,6 +165,13 @@ Telemetry
 .
 h
 "
+#
+include
+"
+gfxFontConstants
+.
+h
+"
 using
 namespace
 mozilla

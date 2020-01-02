@@ -102,13 +102,6 @@ GFX_FONT_FEATURES_H
 #
 include
 "
-gfxTypes
-.
-h
-"
-#
-include
-"
 nsTHashtable
 .
 h

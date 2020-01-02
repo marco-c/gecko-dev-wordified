@@ -110,7 +110,14 @@ MPL
 #
 include
 "
-gfxSharedImageSurface
+gfxBaseSharedMemorySurface
+.
+h
+"
+#
+include
+"
+cairo
 .
 h
 "

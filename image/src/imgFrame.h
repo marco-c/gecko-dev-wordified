@@ -199,6 +199,13 @@ imgIContainer
 .
 h
 "
+#
+include
+"
+gfxColor
+.
+h
+"
 class
 imgFrame
 {

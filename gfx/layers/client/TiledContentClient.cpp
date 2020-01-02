@@ -306,6 +306,13 @@ h
 for
 NS_roundf
 #
+include
+"
+gfx2DGlue
+.
+h
+"
+#
 ifdef
 GFX_TILEDLAYER_DEBUG_OVERLAY
 #

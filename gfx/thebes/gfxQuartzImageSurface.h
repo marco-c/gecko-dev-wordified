@@ -106,10 +106,13 @@ h
 #
 include
 "
-gfxImageSurface
+nsSize
 .
 h
 "
+class
+gfxImageSurface
+;
 class
 gfxQuartzImageSurface
 :

@@ -99,13 +99,6 @@ GFX_RECT_H
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 gfxTypes
 .
 h
@@ -114,13 +107,6 @@ h
 include
 "
 gfxPoint
-.
-h
-"
-#
-include
-"
-gfxCore
 .
 h
 "

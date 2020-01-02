@@ -216,6 +216,17 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+2D
+.
+h
+"
 using
 namespace
 mozilla

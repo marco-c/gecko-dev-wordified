@@ -514,6 +514,13 @@ GLContext
 h
 "
 #
+include
+"
+gfx2DGlue
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #

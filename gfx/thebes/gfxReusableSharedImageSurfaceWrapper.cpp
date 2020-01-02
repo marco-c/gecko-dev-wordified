@@ -70,6 +70,17 @@ gfxSharedImageSurface
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+ISurfaceAllocator
+.
+h
+"
 using
 mozilla
 :
