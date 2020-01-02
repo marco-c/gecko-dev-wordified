@@ -566,6 +566,12 @@ LayerTransactionChild
 :
 AllocPTextureChild
 (
+const
+SurfaceDescriptor
+&
+const
+TextureFlags
+&
 )
 {
 return

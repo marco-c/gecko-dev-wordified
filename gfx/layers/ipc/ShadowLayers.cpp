@@ -5498,8 +5498,14 @@ PTextureChild
 ShadowLayerForwarder
 :
 :
-CreateEmptyTextureChild
+CreateTexture
 (
+const
+SurfaceDescriptor
+&
+aSharedData
+TextureFlags
+aFlags
 )
 {
 return
@@ -5508,6 +5514,8 @@ mShadowManager
 >
 SendPTextureConstructor
 (
+aSharedData
+aFlags
 )
 ;
 }

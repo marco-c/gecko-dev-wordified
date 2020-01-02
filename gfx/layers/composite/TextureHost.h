@@ -2387,6 +2387,12 @@ CreateIPDLActor
 ISurfaceAllocator
 *
 aAllocator
+const
+SurfaceDescriptor
+&
+aSharedData
+TextureFlags
+aFlags
 )
 ;
 static
