@@ -18806,7 +18806,12 @@ item
 .
 if
 (
-itemType
+item
+-
+>
+GetType
+(
+)
 =
 =
 nsDisplayItem
