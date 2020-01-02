@@ -2601,6 +2601,16 @@ isParallelEntryScript_
 true
 ;
 }
+void
+clearIsParallelEntryScript
+(
+)
+{
+isParallelEntryScript_
+=
+false
+;
+}
 bool
 isParallelEntryScript
 (
