@@ -1498,11 +1498,12 @@ int
 void
 Composite
 (
-)
-;
-void
-CompositeInTransaction
-(
+gfx
+:
+:
+DrawTarget
+*
+aTarget
 )
 ;
 virtual
