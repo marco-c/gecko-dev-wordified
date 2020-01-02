@@ -5922,7 +5922,7 @@ here
 VARIANT_AHKLP
 |
 VARIANT_CALC
-kWidthKTable
+kFlexBasisKTable
 offsetof
 (
 nsStylePosition
