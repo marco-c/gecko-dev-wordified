@@ -29537,10 +29537,6 @@ DidSetStyleContext
 aOldStyleContext
 )
 ;
-ClearTextRuns
-(
-)
-;
 }
 class
 nsDisplayTextGeometry
