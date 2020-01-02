@@ -336,11 +336,6 @@ aReason
 )
 MOZ_OVERRIDE
 ;
-bool
-RecvAsyncOpenFailed
-(
-)
-;
 void
 OnStart
 (
