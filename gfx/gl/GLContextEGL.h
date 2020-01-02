@@ -218,7 +218,10 @@ GetContextType
 MOZ_OVERRIDE
 {
 return
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 ;
 }
 static
@@ -241,7 +244,10 @@ GetContextType
 )
 =
 =
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 )
 ;
 return
