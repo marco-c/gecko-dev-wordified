@@ -294,6 +294,14 @@ GetSize
 )
 ;
 virtual
+void
+SetPermitSubpixelAA
+(
+bool
+aPermitSubpixelAA
+)
+;
+virtual
 bool
 LockBits
 (
