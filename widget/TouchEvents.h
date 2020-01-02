@@ -1284,6 +1284,12 @@ aOther
 .
 time
 ;
+timeStamp
+=
+aOther
+.
+timeStamp
+;
 touches
 .
 AppendElements

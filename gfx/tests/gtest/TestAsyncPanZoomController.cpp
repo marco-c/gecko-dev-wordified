@@ -1201,6 +1201,9 @@ MultiTouchInput
 :
 MULTITOUCH_START
 aTime
+TimeStamp
+(
+)
 0
 )
 ;
@@ -1375,6 +1378,9 @@ MultiTouchInput
 :
 MULTITOUCH_MOVE
 aTime
+TimeStamp
+(
+)
 0
 )
 ;
@@ -1432,6 +1438,9 @@ MultiTouchInput
 :
 MULTITOUCH_MOVE
 aTime
+TimeStamp
+(
+)
 0
 )
 ;
@@ -1489,6 +1498,9 @@ MultiTouchInput
 :
 MULTITOUCH_END
 aTime
+TimeStamp
+(
+)
 0
 )
 ;
@@ -1972,6 +1984,9 @@ PinchGestureInput
 :
 PINCHGESTURE_START
 0
+TimeStamp
+(
+)
 ScreenPoint
 (
 aFocusX
@@ -2007,6 +2022,9 @@ PinchGestureInput
 :
 PINCHGESTURE_SCALE
 0
+TimeStamp
+(
+)
 ScreenPoint
 (
 aFocusX
@@ -2042,6 +2060,9 @@ PinchGestureInput
 :
 PINCHGESTURE_END
 0
+TimeStamp
+(
+)
 ScreenPoint
 (
 aFocusX
@@ -2177,6 +2198,9 @@ MultiTouchInput
 :
 MULTITOUCH_START
 0
+TimeStamp
+(
+)
 0
 )
 ;
@@ -2263,6 +2287,9 @@ MultiTouchInput
 :
 MULTITOUCH_MOVE
 0
+TimeStamp
+(
+)
 0
 )
 ;
@@ -2346,6 +2373,9 @@ MultiTouchInput
 :
 MULTITOUCH_MOVE
 0
+TimeStamp
+(
+)
 0
 )
 ;
@@ -2429,6 +2459,9 @@ MultiTouchInput
 :
 MULTITOUCH_END
 0
+TimeStamp
+(
+)
 0
 )
 ;
@@ -3243,6 +3276,9 @@ MultiTouchInput
 :
 MULTITOUCH_START
 aTime
+TimeStamp
+(
+)
 0
 )
 ;
@@ -3306,6 +3342,9 @@ MultiTouchInput
 :
 MULTITOUCH_END
 aTime
+TimeStamp
+(
+)
 0
 )
 ;
@@ -7377,6 +7416,9 @@ MultiTouchInput
 :
 MULTITOUCH_MOVE
 time
+TimeStamp
+(
+)
 0
 )
 ;

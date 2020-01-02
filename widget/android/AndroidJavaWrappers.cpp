@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+TimeStamp
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TouchEvents
 .
 h
@@ -4767,6 +4776,9 @@ event
 (
 type
 Time
+(
+)
+TimeStamp
 (
 )
 0

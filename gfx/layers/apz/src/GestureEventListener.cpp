@@ -452,6 +452,9 @@ MultiTouchInput
 :
 MULTITOUCH_START
 0
+TimeStamp
+(
+)
 0
 )
 {
@@ -1289,6 +1292,9 @@ PINCHGESTURE_START
 mLastTouchInput
 .
 mTime
+mLastTouchInput
+.
+mTimeStamp
 GetCurrentFocus
 (
 mLastTouchInput
@@ -1391,6 +1397,9 @@ PINCHGESTURE_SCALE
 mLastTouchInput
 .
 mTime
+mLastTouchInput
+.
+mTimeStamp
 GetCurrentFocus
 (
 mLastTouchInput
@@ -1548,6 +1557,9 @@ mLastTouchInput
 mTime
 mLastTouchInput
 .
+mTimeStamp
+mLastTouchInput
+.
 mTouches
 [
 0
@@ -1638,6 +1650,9 @@ mLastTouchInput
 mTime
 mLastTouchInput
 .
+mTimeStamp
+mLastTouchInput
+.
 mTouches
 [
 0
@@ -1697,6 +1712,9 @@ TAPGESTURE_LONG_UP
 mLastTouchInput
 .
 mTime
+mLastTouchInput
+.
+mTimeStamp
 mLastTouchInput
 .
 mTouches
@@ -1772,6 +1790,9 @@ PINCHGESTURE_END
 mLastTouchInput
 .
 mTime
+mLastTouchInput
+.
+mTimeStamp
 ScreenPoint
 (
 )
@@ -1902,6 +1923,9 @@ TAPGESTURE_LONG
 mLastTouchInput
 .
 mTime
+mLastTouchInput
+.
+mTimeStamp
 mLastTouchInput
 .
 mTouches
@@ -2038,6 +2062,9 @@ TAPGESTURE_CONFIRMED
 mLastTouchInput
 .
 mTime
+mLastTouchInput
+.
+mTimeStamp
 mLastTouchInput
 .
 mTouches

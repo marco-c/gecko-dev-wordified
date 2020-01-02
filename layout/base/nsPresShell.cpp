@@ -40211,6 +40211,15 @@ time
 ;
 event
 .
+timeStamp
+=
+touchEvent
+-
+>
+timeStamp
+;
+event
+.
 mFlags
 =
 touchEvent
