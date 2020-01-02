@@ -184,7 +184,7 @@ h
 #
 include
 "
-nsIDOMFile
+nsDOMFile
 .
 h
 "
@@ -723,7 +723,7 @@ DeviceStorageFileSystem
 :
 GetRealPath
 (
-nsIDOMFile
+DOMFileImpl
 *
 aFile
 nsAString

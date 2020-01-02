@@ -331,7 +331,7 @@ cannot
 be
 a
 DOMFile
-bacause
+because
 this
 object
 is
