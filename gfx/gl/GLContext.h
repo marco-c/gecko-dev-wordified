@@ -466,6 +466,7 @@ Qualcomm
 Imagination
 Nouveau
 Vivante
+VMware
 Other
 MOZ_END_ENUM_CLASS
 (
@@ -483,6 +484,7 @@ SGX530
 SGX540
 Tegra
 AndroidEmulator
+GalliumLlvmpipe
 Other
 MOZ_END_ENUM_CLASS
 (
