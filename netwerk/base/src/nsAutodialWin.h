@@ -451,7 +451,7 @@ OS
 nsresult
 GetDefaultEntryName
 (
-PRUnichar
+wchar_t
 *
 entryName
 int
@@ -476,7 +476,7 @@ OS
 nsresult
 GetFirstEntryName
 (
-PRUnichar
+wchar_t
 *
 entryName
 int
@@ -531,9 +531,7 @@ directory
 bool
 AddAddressToAutodialDirectory
 (
-const
-PRUnichar
-*
+char16ptr_t
 hostName
 )
 ;
@@ -731,7 +729,7 @@ connection
 entry
 name
 .
-PRUnichar
+wchar_t
 mDefaultEntryName
 [
 RAS_MaxEntryName

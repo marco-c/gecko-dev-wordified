@@ -2021,7 +2021,7 @@ nsAutodial
 :
 GetFirstEntryName
 (
-PRUnichar
+wchar_t
 *
 entryName
 int
@@ -2232,7 +2232,7 @@ nsAutodial
 :
 GetDefaultEntryName
 (
-PRUnichar
+wchar_t
 *
 entryName
 int
@@ -2346,7 +2346,7 @@ Default
 DefaultInternet
 .
 const
-PRUnichar
+wchar_t
 *
 key
 =
@@ -2366,7 +2366,7 @@ Default
 "
 ;
 const
-PRUnichar
+wchar_t
 *
 val
 =
@@ -2698,9 +2698,7 @@ nsAutodial
 :
 AddAddressToAutodialDirectory
 (
-const
-PRUnichar
-*
+char16ptr_t
 hostName
 )
 {
