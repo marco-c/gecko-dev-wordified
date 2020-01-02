@@ -1157,6 +1157,13 @@ aYResolution
 )
 MOZ_OVERRIDE
 ;
+virtual
+gfxSize
+GetCumulativeResolution
+(
+)
+MOZ_OVERRIDE
+;
 /
 /
 nsIViewObserver
