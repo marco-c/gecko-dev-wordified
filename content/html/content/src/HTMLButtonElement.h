@@ -262,6 +262,15 @@ aMessage
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+FieldSetDisabledChanged
+(
+bool
+aNotify
+)
+MOZ_OVERRIDE
+;
 /
 /
 nsIDOMEventTarget
@@ -356,6 +365,11 @@ DoneCreatingElement
 (
 )
 MOZ_OVERRIDE
+;
+void
+UpdateBarredFromConstraintValidation
+(
+)
 ;
 /
 /
