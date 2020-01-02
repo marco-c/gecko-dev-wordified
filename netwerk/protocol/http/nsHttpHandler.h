@@ -2053,10 +2053,8 @@ mPrivateAuthCache
 the
 connection
 manager
-nsRefPtr
-<
 nsHttpConnectionMgr
->
+*
 mConnMgr
 ;
 /

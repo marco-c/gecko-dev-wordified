@@ -657,7 +657,7 @@ LOG
 Creating
 nsHttpConnection
 %
-p
+x
 \
 n
 "
@@ -681,7 +681,7 @@ LOG
 Destroying
 nsHttpConnection
 %
-p
+x
 \
 n
 "
@@ -2040,7 +2040,7 @@ p
 trans
 =
 %
-p
+x
 caps
 =
 %
@@ -8380,7 +8380,7 @@ p
 trans
 =
 %
-p
+x
 reason
 =
 %
@@ -12000,17 +12000,6 @@ this
 )
 )
 ;
-/
-/
-CloseIdleConnection
-may
-delete
-"
-this
-"
--
-return
-immediately
 gHttpHandler
 -
 >
