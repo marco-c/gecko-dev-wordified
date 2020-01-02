@@ -3287,8 +3287,6 @@ mode
 xdr
 HandleObject
 enclosingScope
-HandleScript
-script
 StaticBlockObject
 *
 *
