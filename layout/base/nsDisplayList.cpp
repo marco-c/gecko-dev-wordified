@@ -21429,6 +21429,7 @@ child
 >
 ApplyOpacity
 (
+aBuilder
 mFrame
 -
 >
@@ -21438,6 +21439,7 @@ StyleDisplay
 -
 >
 mOpacity
+mClip
 )
 ;
 }
