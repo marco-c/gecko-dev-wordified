@@ -369,7 +369,10 @@ t
 find
 one
 .
-nsresult
+already_AddRefed
+<
+nsIDOMWindow
+>
 SafeGetWindowByName
 (
 const
@@ -379,10 +382,6 @@ aName
 nsIDOMWindow
 *
 aCurrentWindow
-nsIDOMWindow
-*
-*
-aResult
 )
 ;
 /
