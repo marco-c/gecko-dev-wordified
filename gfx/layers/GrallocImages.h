@@ -483,15 +483,6 @@ HAL_PIXEL_FORMAT_YCbCr_420_SP_VENUS
 }
 ;
 virtual
-already_AddRefed
-<
-gfxASurface
->
-DeprecatedGetAsSurface
-(
-)
-;
-virtual
 TemporaryRef
 <
 gfx

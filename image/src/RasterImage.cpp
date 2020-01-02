@@ -6406,12 +6406,6 @@ CairoImage
 Data
 cairoData
 ;
-cairoData
-.
-mDeprecatedSurface
-=
-imageSurface
-;
 GetWidth
 (
 &

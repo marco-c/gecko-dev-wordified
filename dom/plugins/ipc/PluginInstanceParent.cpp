@@ -2602,6 +2602,13 @@ top
 )
 )
 ;
+/
+/
+XXXjwatt
+rewrite
+to
+use
+Moz2D
 nsRefPtr
 <
 gfxASurface
@@ -3174,12 +3181,6 @@ CairoImage
 :
 Data
 cairoData
-;
-cairoData
-.
-mDeprecatedSurface
-=
-surface
 ;
 cairoData
 .

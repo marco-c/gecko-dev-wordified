@@ -363,15 +363,6 @@ GetSize
 )
 MOZ_OVERRIDE
 ;
-already_AddRefed
-<
-gfxASurface
->
-DeprecatedGetAsSurface
-(
-)
-MOZ_OVERRIDE
-;
 virtual
 TemporaryRef
 <

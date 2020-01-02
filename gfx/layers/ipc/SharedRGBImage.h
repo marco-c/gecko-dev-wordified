@@ -307,14 +307,6 @@ GetBufferSize
 (
 )
 ;
-already_AddRefed
-<
-gfxASurface
->
-DeprecatedGetAsSurface
-(
-)
-;
 TemporaryRef
 <
 gfx
