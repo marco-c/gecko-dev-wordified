@@ -4485,6 +4485,12 @@ init
 return
 false
 ;
+traversal
+.
+wantNames
+=
+false
+;
 /
 /
 Walk
