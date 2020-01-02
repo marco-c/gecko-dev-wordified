@@ -1066,7 +1066,7 @@ element
 newContent
 -
 >
-SetNativeAnonymous
+SetIsNativeAnonymousRoot
 (
 )
 ;

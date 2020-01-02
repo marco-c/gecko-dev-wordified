@@ -1251,7 +1251,7 @@ nsIAnonymousContentCreator
 *
 /
 void
-SetNativeAnonymous
+SetIsNativeAnonymousRoot
 (
 )
 {
