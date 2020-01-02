@@ -10934,8 +10934,11 @@ object
 moves
 *
 /
+DebugOnly
+<
 JSObject
 *
+>
 metadata
 =
 shape
