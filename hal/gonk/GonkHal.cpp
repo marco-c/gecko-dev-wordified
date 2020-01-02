@@ -4042,7 +4042,6 @@ aDeltaMilliseconds
 )
 ;
 }
-static
 int32_t
 GetTimezoneOffset
 (

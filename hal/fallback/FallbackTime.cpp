@@ -146,6 +146,15 @@ EmptyCString
 )
 ;
 }
+int32_t
+GetTimezoneOffset
+(
+)
+{
+return
+0
+;
+}
 void
 EnableSystemClockChangeNotifications
 (
