@@ -40292,7 +40292,7 @@ JS_UNLIKELY
 (
 res
 .
-isUndefined
+isPrimitive
 (
 )
 )
