@@ -3942,15 +3942,6 @@ nativeEvents
 :
 false
 '
-platform
-'
-:
-Services
-.
-appinfo
-.
-OS
-'
 platformName
 '
 :
