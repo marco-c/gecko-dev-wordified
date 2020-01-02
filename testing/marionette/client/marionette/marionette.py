@@ -4479,16 +4479,11 @@ self
 session
 and
 command
-not
-in
-(
+!
+=
 "
 newSession
 "
-"
-getStatus
-"
-)
 :
             
 raise
@@ -5538,26 +5533,6 @@ self
 .
 baseurl
 relative_url
-)
-    
-def
-status
-(
-self
-)
-:
-        
-return
-self
-.
-_send_message
-(
-'
-getStatus
-'
-'
-value
-'
 )
     
 def
