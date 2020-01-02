@@ -249,14 +249,6 @@ nsCStringKey
 aHashKey
 )
 ;
-static
-void
-recycleEntry
-(
-bundleCacheEntry_t
-*
-)
-;
 nsHashtable
 mBundleMap
 ;
