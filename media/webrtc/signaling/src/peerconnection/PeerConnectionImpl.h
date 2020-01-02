@@ -2381,6 +2381,13 @@ Close
 )
 ;
 }
+bool
+PluginCrash
+(
+uint64_t
+aPluginID
+)
+;
 nsresult
 InitializeDataChannel
 (
