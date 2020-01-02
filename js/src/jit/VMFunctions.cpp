@@ -6091,7 +6091,7 @@ TypedDatum
 )
 ;
 return
-TypedObject
+TypedDatum
 :
 :
 createDerived
