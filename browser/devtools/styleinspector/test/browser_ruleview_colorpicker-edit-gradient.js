@@ -624,13 +624,8 @@ colorEl
 .
 textContent
 "
-rgba
-(
-1
-1
-1
-1
-)
+#
+010101
 "
 "
 The
