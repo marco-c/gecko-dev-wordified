@@ -2423,6 +2423,17 @@ _hasDownloads
 !
 =
 aValue
+|
+|
+(
+!
+this
+.
+_operational
+&
+&
+aValue
+)
 )
 {
 this
