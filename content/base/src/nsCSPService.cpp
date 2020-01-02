@@ -2186,6 +2186,12 @@ GetSpec
 newUriSpec
 )
 ;
+NS_ConvertUTF8toUTF16
+unicodeSpec
+(
+newUriSpec
+)
+;
 const
 char16_t
 *
@@ -2194,10 +2200,7 @@ formatParams
 ]
 =
 {
-NS_ConvertUTF8toUTF16
-(
-newUriSpec
-)
+unicodeSpec
 .
 get
 (
