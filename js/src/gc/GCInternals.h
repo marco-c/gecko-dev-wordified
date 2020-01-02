@@ -507,6 +507,15 @@ JSRuntime
 rt
 )
 ;
+void
+CrashAtUnhandlableOOM
+(
+const
+char
+*
+reason
+)
+;
 class
 AutoStopVerifyingBarriers
 {
