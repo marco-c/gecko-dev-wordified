@@ -585,9 +585,7 @@ data
 .
 app
 jsonManifest
-WebappRT
-.
-config
+data
 .
 app
 .
