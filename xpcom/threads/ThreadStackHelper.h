@@ -285,10 +285,7 @@ typedef
 Telemetry
 :
 :
-HangHistogram
-:
-:
-Stack
+HangStack
 Stack
 ;
 private

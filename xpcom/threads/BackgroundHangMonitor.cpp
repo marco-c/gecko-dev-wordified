@@ -761,10 +761,7 @@ hang
 Telemetry
 :
 :
-HangHistogram
-:
-:
-Stack
+HangStack
 mHangStack
 ;
 /
