@@ -583,6 +583,13 @@ h
 #
 include
 "
+nsIDOMWakeLock
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h
