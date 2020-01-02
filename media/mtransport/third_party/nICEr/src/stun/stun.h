@@ -284,6 +284,9 @@ socket
 h
 >
 #
+ifndef
+LINUX
+#
 include
 <
 net
@@ -292,9 +295,6 @@ if
 .
 h
 >
-#
-ifndef
-LINUX
 #
 if
 !
@@ -335,6 +335,17 @@ include
 net
 /
 if_types
+.
+h
+>
+#
+else
+#
+include
+<
+linux
+/
+if
 .
 h
 >

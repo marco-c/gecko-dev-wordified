@@ -1341,13 +1341,6 @@ else
 #
 ifdef
 MOZ_WIDGET_ANDROID
-jobject
-context
-=
-jsjni_GetGlobalContextRef
-(
-)
-;
 /
 /
 get
@@ -1372,11 +1365,6 @@ VideoEngine
 SetAndroidObjects
 (
 jvm
-(
-void
-*
-)
-context
 )
 !
 =

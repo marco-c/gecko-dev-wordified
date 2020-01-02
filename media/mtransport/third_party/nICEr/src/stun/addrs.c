@@ -404,6 +404,9 @@ h
 #
 endif
 #
+ifndef
+LINUX
+#
 include
 <
 net
@@ -412,9 +415,6 @@ if
 .
 h
 >
-#
-ifndef
-LINUX
 #
 if
 !
