@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsICacheService
+.
+h
+"
+#
+include
+"
 nsIChannelEventSink
 .
 h

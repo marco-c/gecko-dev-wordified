@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsICacheService
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h

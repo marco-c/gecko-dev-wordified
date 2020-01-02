@@ -662,8 +662,6 @@ bool
 aReadOnly
 bool
 aCheckOnAnyThread
-bool
-aForceAsync
 )
 ;
 Callback
@@ -781,16 +779,6 @@ mNotWanted
 :
 1
 ;
-bool
-mForceAsync
-:
-1
-;
-bool
-ForceAsync
-(
-)
-;
 nsresult
 OnCheckThread
 (
@@ -798,6 +786,7 @@ bool
 *
 aOnCheckThread
 )
+const
 ;
 nsresult
 OnAvailThread
@@ -806,6 +795,7 @@ bool
 *
 aOnAvailThread
 )
+const
 ;
 }
 ;
@@ -1062,6 +1052,7 @@ void
 InvokeAvailableCallback
 (
 Callback
+const
 &
 aCallback
 )

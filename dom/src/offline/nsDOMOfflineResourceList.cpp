@@ -170,6 +170,13 @@ h
 #
 include
 "
+nsICacheService
+.
+h
+"
+#
+include
+"
 nsIOfflineCacheUpdate
 .
 h
