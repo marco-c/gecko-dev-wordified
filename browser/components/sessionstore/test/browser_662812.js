@@ -148,6 +148,13 @@ busy
 "
 )
 ;
+executeSoon
+(
+(
+)
+=
+>
+{
 gBrowser
 .
 removeTab
@@ -160,9 +167,11 @@ tabs
 ]
 )
 ;
-executeSoon
-(
 finish
+(
+)
+;
+}
 )
 ;
 }

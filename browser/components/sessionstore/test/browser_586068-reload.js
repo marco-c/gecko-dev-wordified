@@ -1421,16 +1421,13 @@ loadCount
 =
 0
 ;
-gProgressListener
+gWebProgressListener
 .
 setCallback
 (
 function
 (
 aBrowser
-aNeedRestore
-aRestoring
-aRestored
 )
 {
 if
@@ -1585,7 +1582,7 @@ tabs
 length
 )
 {
-gProgressListener
+gWebProgressListener
 .
 unsetCallback
 (
@@ -1622,7 +1619,6 @@ fakeEvent
 }
 }
 }
-false
 )
 ;
 BrowserReloadOrDuplicate
