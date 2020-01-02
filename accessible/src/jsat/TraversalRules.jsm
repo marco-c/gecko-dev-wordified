@@ -616,6 +616,12 @@ Ci
 nsIAccessibleTraversalRule
 .
 PREFILTER_ARIA_HIDDEN
+|
+Ci
+.
+nsIAccessibleTraversalRule
+.
+PREFILTER_TRANSPARENT
 match
 :
 function
