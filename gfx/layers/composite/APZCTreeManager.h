@@ -251,7 +251,7 @@ Vector
 #
 include
 "
-nsTArray
+nsTArrayForwardDeclare
 .
 h
 "
@@ -281,14 +281,6 @@ gfx
 TreeLog
 class
 gfx3DMatrix
-;
-template
-<
-class
-E
->
-class
-nsTArray
 ;
 namespace
 mozilla

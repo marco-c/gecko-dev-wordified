@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsTArrayForwardDeclare
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -127,13 +134,6 @@ nsINode
 ;
 class
 nsString
-;
-template
-<
-class
->
-class
-nsTArray
 ;
 namespace
 mozilla

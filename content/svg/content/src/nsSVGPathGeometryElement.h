@@ -120,14 +120,6 @@ h
 struct
 gfxMatrix
 ;
-template
-<
-class
-E
->
-class
-nsTArray
-;
 struct
 nsSVGMark
 {
