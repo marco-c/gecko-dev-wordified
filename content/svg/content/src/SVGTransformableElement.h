@@ -320,6 +320,10 @@ aModType
 const
 MOZ_OVERRIDE
 ;
+/
+/
+nsSVGElement
+overrides
 virtual
 bool
 IsEventAttributeName
@@ -414,10 +418,6 @@ true
 }
 protected
 :
-/
-/
-nsSVGElement
-overrides
 nsAutoPtr
 <
 nsSVGAnimatedTransformList
