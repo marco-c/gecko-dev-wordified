@@ -553,6 +553,7 @@ eImageFilter
 eImageNativeSize
 eImageSubregion
 eImageTransform
+eLastAttributeName
 }
 ;
 class
