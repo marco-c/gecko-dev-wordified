@@ -559,11 +559,13 @@ return
 mList
 ;
 }
-nsISVGPoint
+virtual
+DOMSVGPoint
 *
-Clone
+Copy
 (
 )
+MOZ_OVERRIDE
 {
 return
 new
