@@ -2367,8 +2367,12 @@ ContentClientSingleBuffered
 }
 virtual
 void
-PrepareFrame
+FinalizeFrame
 (
+const
+nsIntRegion
+&
+aRegionToDraw
 )
 MOZ_OVERRIDE
 ;
