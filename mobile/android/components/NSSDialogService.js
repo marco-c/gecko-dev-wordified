@@ -1740,7 +1740,7 @@ serverRequestedDetails
 }
 )
 .
-addMenuList
+addMenulist
 (
 {
 id
