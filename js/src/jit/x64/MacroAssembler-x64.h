@@ -6557,9 +6557,12 @@ Register
 dest
 )
 {
-xorq
+mov
 (
-dest
+ImmWord
+(
+0
+)
 dest
 )
 ;
