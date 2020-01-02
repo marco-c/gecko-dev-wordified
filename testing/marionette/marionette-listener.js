@@ -6841,6 +6841,14 @@ command
 '
 press
 '
+&
+&
+command
+!
+=
+'
+wait
+'
 )
 {
 /
