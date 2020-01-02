@@ -7523,6 +7523,65 @@ h
 "
 )
                     
+if
+jsImplementedDescriptors
+:
+                        
+#
+Since
+we
+can
+'
+t
+forward
+-
+declare
+typed
+array
+types
+                        
+#
+(
+because
+they
+'
+re
+typedefs
+)
+we
+have
+to
+go
+ahead
+and
+                        
+#
+just
+include
+their
+header
+if
+we
+need
+to
+have
+functions
+                        
+#
+taking
+references
+to
+them
+declared
+in
+that
+header
+.
+                        
+headerSet
+=
+declareIncludes
+                    
 headerSet
 .
 add
@@ -42643,6 +42702,12 @@ obj
 "
 returnArray
 "
+                
+'
+typedArraysAreStructs
+'
+:
+typedArraysAreStructs
             
 }
 )
@@ -43012,6 +43077,12 @@ obj
 "
 returnObj
 "
+                
+'
+typedArraysAreStructs
+'
+:
+typedArraysAreStructs
             
 }
 )
@@ -93481,6 +93552,24 @@ NoSuchDescriptorError
                         
 pass
             
+#
+Note
+:
+Spidermonkey
+interfaces
+are
+typedefs
+so
+can
+'
+t
+be
+            
+#
+forward
+-
+declared
+            
 elif
 t
 .
@@ -95250,6 +95339,9 @@ append
 CGCallbackInterface
 (
 x
+typedArraysAreStructs
+=
+True
 )
 )
             
@@ -96723,9 +96815,6 @@ Value
 Obj
 (
 )
-;
-\
-n
 "
             
 else
@@ -96741,9 +96830,6 @@ declName
 Obj
 (
 )
-;
-\
-n
 "
             
 return
@@ -105671,6 +105757,9 @@ __init__
 (
 self
 descriptor
+typedArraysAreStructs
+=
+False
 )
 :
         
@@ -105712,7 +105801,9 @@ CallbackGetter
 (
 a
 descriptor
+typedArraysAreStructs
 )
+                   
 for
 a
 in
@@ -105726,12 +105817,13 @@ CallbackSetter
 (
 a
 descriptor
+typedArraysAreStructs
 )
+                   
 for
 a
 in
 attrs
-                   
 if
 not
 a
@@ -105780,12 +105872,13 @@ CallbackOperation
 m
 sig
 descriptor
+typedArraysAreStructs
 )
+                   
 for
 m
 in
 methods
-                   
 for
 sig
 in
@@ -106134,7 +106227,11 @@ sig
 name
 descriptorProvider
 needThisHandling
+                 
 rethrowContentException
+=
+False
+typedArraysAreStructs
 =
 False
 )
@@ -106404,7 +106501,7 @@ visibility
                                 
 typedArraysAreStructs
 =
-False
+typedArraysAreStructs
 )
         
 #
@@ -107378,6 +107475,14 @@ exceptionCode
 self
 .
 exceptionCode
+                    
+'
+typedArraysAreStructs
+'
+:
+self
+.
+typedArraysAreStructs
                 
 }
 )
@@ -108205,6 +108310,9 @@ needThisHandling
 rethrowContentException
 =
 False
+typedArraysAreStructs
+=
+False
 )
 :
         
@@ -108219,6 +108327,10 @@ descriptorProvider
                                 
 needThisHandling
 rethrowContentException
+                                
+typedArraysAreStructs
+=
+typedArraysAreStructs
 )
     
 def
@@ -108593,8 +108705,13 @@ signature
 jsName
 nativeName
 descriptor
+                 
 singleOperation
 rethrowContentException
+=
+False
+                 
+typedArraysAreStructs
 =
 False
 )
@@ -108625,8 +108742,13 @@ self
 signature
 nativeName
 descriptor
+                                
 singleOperation
 rethrowContentException
+                                
+typedArraysAreStructs
+=
+typedArraysAreStructs
 )
     
 def
@@ -109030,6 +109152,7 @@ self
 method
 signature
 descriptor
+typedArraysAreStructs
 )
 :
         
@@ -109091,6 +109214,10 @@ interface
 isJSImplemented
 (
 )
+                                       
+typedArraysAreStructs
+=
+typedArraysAreStructs
 )
     
 def
@@ -109159,6 +109286,7 @@ attr
 sig
 name
 descriptor
+typedArraysAreStructs
 )
 :
         
@@ -109201,6 +109329,10 @@ interface
 isJSImplemented
 (
 )
+                                
+typedArraysAreStructs
+=
+typedArraysAreStructs
 )
     
 def
@@ -109247,6 +109379,7 @@ __init__
 self
 attr
 descriptor
+typedArraysAreStructs
 )
 :
         
@@ -109272,6 +109405,8 @@ descriptor
 )
                                   
 descriptor
+                                  
+typedArraysAreStructs
 )
     
 def
@@ -109473,6 +109608,7 @@ __init__
 self
 attr
 descriptor
+typedArraysAreStructs
 )
 :
         
@@ -109511,6 +109647,7 @@ descriptor
 )
                                   
 descriptor
+typedArraysAreStructs
 )
     
 def
