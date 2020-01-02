@@ -292,6 +292,7 @@ SGN_CreateDigestInfo
 (
 SECOidTag
 algorithm
+const
 unsigned
 char
 *

@@ -97,10 +97,10 @@ etc
 /
 #
 ifndef
-_SECMIME_H_
+_SMIME_H_
 #
 define
-_SECMIME_H_
+_SMIME_H_
 1
 #
 include

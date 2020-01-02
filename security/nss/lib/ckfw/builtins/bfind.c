@@ -531,6 +531,8 @@ unsigned
 char
 *
 data
+=
+NULL
 ;
 len
 =
@@ -550,6 +552,9 @@ data
 ;
 if
 (
+data
+&
+&
 (
 len
 =
