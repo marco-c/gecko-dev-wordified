@@ -1112,6 +1112,10 @@ SAFE_OP
 (
 Nop
 )
+SAFE_OP
+(
+LimitedTruncate
+)
 UNSAFE_OP
 (
 RegExp

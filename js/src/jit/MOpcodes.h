@@ -579,6 +579,11 @@ Nop
 \
 _
 (
+LimitedTruncate
+)
+\
+_
+(
 RegExp
 )
 \

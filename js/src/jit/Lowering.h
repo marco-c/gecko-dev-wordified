@@ -1063,6 +1063,14 @@ nop
 )
 ;
 bool
+visitLimitedTruncate
+(
+MLimitedTruncate
+*
+nop
+)
+;
+bool
 visitOsrValue
 (
 MOsrValue
