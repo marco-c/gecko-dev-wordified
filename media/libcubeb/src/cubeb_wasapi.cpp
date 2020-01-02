@@ -5504,7 +5504,7 @@ NULL
 1024
 wasapi_stream_render_loop
 stm
-0
+STACK_SIZE_PARAM_IS_A_RESERVATION
 NULL
 )
 ;
