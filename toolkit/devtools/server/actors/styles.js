@@ -171,7 +171,7 @@ server
 /
 actors
 /
-styleeditor
+stylesheets
 "
 )
 ;
