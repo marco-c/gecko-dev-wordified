@@ -2451,8 +2451,14 @@ aContacts
 let
 contacts
 =
-[
-]
+new
+this
+.
+_window
+.
+Array
+(
+)
 ;
 for
 (
