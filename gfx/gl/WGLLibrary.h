@@ -97,6 +97,13 @@ GLContextTypes
 .
 h
 "
+#
+include
+<
+windows
+.
+h
+>
 struct
 PRLibrary
 ;
