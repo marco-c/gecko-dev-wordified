@@ -368,10 +368,6 @@ mStream
 (
 nullptr
 )
-mIsAlphaPremultiplied
-(
-true
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -441,7 +437,7 @@ aData
 .
 mStream
 ;
-mIsAlphaPremultiplied
+mIsGLAlphaPremult
 =
 aData
 .
@@ -802,7 +798,7 @@ HasAlpha
 &
 &
 !
-mIsAlphaPremultiplied
+mIsGLAlphaPremult
 ;
 /
 /
