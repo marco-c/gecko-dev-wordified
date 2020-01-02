@@ -317,6 +317,9 @@ throw
 ex
 }
 }
+return
+undefined
+;
 }
 /
 /

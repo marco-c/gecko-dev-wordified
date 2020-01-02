@@ -992,6 +992,17 @@ this
 .
 Variables
 {
+getEnvironmentClient
+:
+aObject
+=
+>
+gThreadClient
+.
+environment
+(
+aObject
+)
 getObjectClient
 :
 aObject
