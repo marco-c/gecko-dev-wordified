@@ -647,10 +647,10 @@ addressed
 .
 *
 /
-encodeNdefRecords
+encodeNDEFRecords
 :
 function
-encodeNdefRecords
+encodeNDEFRecords
 (
 records
 )
@@ -1053,7 +1053,7 @@ encodedRecords
 =
 this
 .
-encodeNdefRecords
+encodeNDEFRecords
 (
 records
 )
@@ -2411,7 +2411,7 @@ push
 new
 requester
 .
-MozNdefRecord
+MozNDEFRecord
 (
 record
 .
