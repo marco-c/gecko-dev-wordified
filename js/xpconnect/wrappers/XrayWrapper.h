@@ -245,10 +245,14 @@ vp
 namespace
 XrayUtils
 {
-extern
+bool
+IsXPCWNHolderClass
+(
 const
 JSClass
-HolderClass
+*
+clasp
+)
 ;
 bool
 CloneExpandoChain
