@@ -4165,9 +4165,7 @@ ReportIfNotFunction
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 MaybeConstruct
 construct
