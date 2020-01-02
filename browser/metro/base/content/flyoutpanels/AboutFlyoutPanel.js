@@ -1924,7 +1924,7 @@ interfaces
 .
 nsIAppStartup
 .
-eRestart
+eRestartTouchEnvironment
 )
 ;
 return

@@ -377,6 +377,15 @@ tracking
 has
 already
 ended
+bool
+mRestartTouchEnvironment
+;
+/
+/
+Quit
+(
+eRestartTouchEnvironment
+)
 #
 if
 defined
