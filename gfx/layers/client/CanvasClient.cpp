@@ -476,8 +476,9 @@ GetForwarder
 )
 -
 >
-HoldUntilTransaction
+RemoveTextureFromCompositable
 (
+this
 mBuffer
 )
 ;
