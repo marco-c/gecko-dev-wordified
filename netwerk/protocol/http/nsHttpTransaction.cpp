@@ -11228,14 +11228,14 @@ event
 -
 -
 class
-DeleteHttpTransaction
+nsDeleteHttpTransaction
 :
 public
 nsRunnable
 {
 public
 :
-DeleteHttpTransaction
+nsDeleteHttpTransaction
 (
 nsHttpTransaction
 *
@@ -11355,7 +11355,7 @@ nsIRunnable
 event
 =
 new
-DeleteHttpTransaction
+nsDeleteHttpTransaction
 (
 this
 )
