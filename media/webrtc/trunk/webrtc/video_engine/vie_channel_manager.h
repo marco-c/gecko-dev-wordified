@@ -299,6 +299,14 @@ ProcessThread
 module_process_thread
 )
 ;
+void
+SetLoadManager
+(
+CPULoadStateCallbackInvoker
+*
+load_manager
+)
+;
 /
 /
 Creates
@@ -842,6 +850,10 @@ const
 Config
 &
 engine_config_
+;
+CPULoadStateCallbackInvoker
+*
+load_manager_
 ;
 }
 ;

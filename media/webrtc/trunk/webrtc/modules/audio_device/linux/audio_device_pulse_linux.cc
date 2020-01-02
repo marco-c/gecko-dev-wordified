@@ -1245,6 +1245,9 @@ _recError
 =
 0
 ;
+#
+ifdef
+USE_X11
 /
 /
 Get
@@ -1287,6 +1290,8 @@ work
 )
 ;
 }
+#
+endif
 /
 /
 RECORDING
@@ -1722,6 +1727,9 @@ return
 1
 ;
 }
+#
+ifdef
+USE_X11
 if
 (
 _XDisplay
@@ -1737,6 +1745,8 @@ _XDisplay
 NULL
 ;
 }
+#
+endif
 _initialized
 =
 false
@@ -13424,6 +13434,9 @@ KeyPressed
 )
 const
 {
+#
+ifdef
+USE_X11
 char
 szKey
 [
@@ -13541,5 +13554,12 @@ state
 0
 )
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 }

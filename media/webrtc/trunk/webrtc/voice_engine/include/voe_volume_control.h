@@ -947,7 +947,6 @@ VoEVolumeControl
 )
 {
 }
-;
 virtual
 ~
 VoEVolumeControl
@@ -955,7 +954,6 @@ VoEVolumeControl
 )
 {
 }
-;
 }
 ;
 }
