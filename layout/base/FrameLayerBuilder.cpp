@@ -26440,9 +26440,12 @@ DumpRetainedLayerTree
 LayerManager
 *
 aManager
-FILE
-*
-aFile
+std
+:
+:
+stringstream
+&
+aStream
 bool
 aDumpHtml
 )
@@ -26452,7 +26455,7 @@ aManager
 >
 Dump
 (
-aFile
+aStream
 "
 "
 aDumpHtml

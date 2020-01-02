@@ -137,6 +137,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+nsPrintfCString
+.
+h
+"
 class
 gfxDrawable
 ;
