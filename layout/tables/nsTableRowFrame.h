@@ -1371,7 +1371,7 @@ aReflowState
 )
 ;
 virtual
-int
+LogicalSides
 GetLogicalSkipSides
 (
 const

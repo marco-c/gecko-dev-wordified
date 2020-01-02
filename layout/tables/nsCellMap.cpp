@@ -4000,9 +4000,6 @@ owner
 mozilla
 :
 :
-css
-:
-:
 Side
 side
 ;
@@ -5470,9 +5467,6 @@ SetBCBorderEdge
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 nsCellMap
@@ -6087,9 +6081,6 @@ aRowIndex
 uint32_t
 aColIndex
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -16121,9 +16112,6 @@ BCBorderOwner
 owner
 ;
 mozilla
-:
-:
-css
 :
 :
 Side
