@@ -2337,8 +2337,10 @@ ipc
 Shmem
 mShmem
 ;
+RefPtr
+<
 ISurfaceAllocator
-*
+>
 mAllocator
 ;
 bool
