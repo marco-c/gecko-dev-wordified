@@ -1837,14 +1837,6 @@ mSecurityInfo
 int64_t
 mPredictedDataSize
 ;
-uint32_t
-mDataSize
-;
-/
-/
-?
-?
-?
 mozilla
 :
 :
