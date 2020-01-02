@@ -59,7 +59,7 @@ MPL
 #
 include
 <
-QApplication
+QGuiApplication
 >
 #
 include
@@ -732,7 +732,7 @@ QClipboard
 *
 cb
 =
-QApplication
+QGuiApplication
 :
 :
 clipboard
@@ -948,6 +948,11 @@ QString
 :
 fromUtf16
 (
+(
+const
+ushort
+*
+)
 utf16string
 .
 get
@@ -1051,6 +1056,11 @@ QString
 :
 fromUtf16
 (
+(
+const
+ushort
+*
+)
 utf16string
 .
 get
@@ -1690,7 +1700,7 @@ QClipboard
 *
 cb
 =
-QApplication
+QGuiApplication
 :
 :
 clipboard
@@ -2646,7 +2656,7 @@ QClipboard
 *
 cb
 =
-QApplication
+QGuiApplication
 :
 :
 clipboard
@@ -3210,7 +3220,7 @@ QClipboard
 *
 cb
 =
-QApplication
+QGuiApplication
 :
 :
 clipboard
