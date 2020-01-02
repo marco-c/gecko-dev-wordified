@@ -653,6 +653,10 @@ error
 )
 IMPL_EVENT_HANDLER
 (
+start
+)
+IMPL_EVENT_HANDLER
+(
 stop
 )
 IMPL_EVENT_HANDLER
@@ -852,16 +856,6 @@ Session
 *
 >
 mSessions
-;
-/
-/
-Thread
-safe
-for
-mMimeType
-.
-Mutex
-mMutex
 ;
 /
 /
