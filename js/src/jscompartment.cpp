@@ -5987,8 +5987,7 @@ js
 Debugger
 *
 dbg
-JSObject
-*
+HandleObject
 handler
 )
 {

@@ -10800,11 +10800,11 @@ generatorKind
 LegacyGenerator
 )
 ;
-JSScript
-*
+RootedScript
 maybeScript
-=
-nullptr
+(
+cx
+)
 ;
 const
 char
