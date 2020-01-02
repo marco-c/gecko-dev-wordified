@@ -380,13 +380,6 @@ function
 )
 {
 }
-setSignatureInfo
-:
-function
-(
-)
-{
-}
 }
 ;
 /
