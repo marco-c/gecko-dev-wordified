@@ -9249,10 +9249,6 @@ things
 struct
 Data
 {
-PerThreadData
-*
-perThread_
-;
 JSContext
 *
 cx_
@@ -9296,9 +9292,6 @@ Data
 JSContext
 *
 cx
-PerThreadData
-*
-perThread
 SavedOption
 savedOption
 ContextOption
