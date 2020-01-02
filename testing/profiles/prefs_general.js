@@ -3115,3 +3115,17 @@ debug
 true
 )
 ;
+/
+/
+Enable
+Loop
+user_pref
+(
+"
+loop
+.
+enabled
+"
+true
+)
+;
