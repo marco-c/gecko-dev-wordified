@@ -3664,6 +3664,7 @@ c
 PR_Open
 and
 _PR_MD_OPEN
+static
 nsresult
 OpenFile
 (
