@@ -967,6 +967,16 @@ it
 crosses
 document
 boundaries
+*
+also
+crosses
+ShadowRoot
+boundaries
+from
+ShadowRoot
+to
+its
+host
 .
 *
 /
