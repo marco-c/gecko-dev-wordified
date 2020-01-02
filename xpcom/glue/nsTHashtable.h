@@ -1655,14 +1655,14 @@ sizeOfEntryExcludingThis
 is
 non
 -
-NULL
+nullptr
 measure
 the
 size
 of
 things
-pointed
 *
+pointed
 to
 by
 entries
@@ -1740,7 +1740,7 @@ void
 *
 userArg
 =
-NULL
+nullptr
 )
 const
 {
@@ -1774,7 +1774,7 @@ PL_DHashTableSizeOfExcludingThis
 (
 &
 mTable
-NULL
+nullptr
 mallocSizeOf
 )
 ;

@@ -6116,7 +6116,7 @@ kMountInfoDevPosition
 p_dev
 !
 =
-NULL
+nullptr
 ;
 i
 +
@@ -10799,7 +10799,7 @@ inStrLen
 kCFStringEncodingUTF8
 0
 false
-NULL
+nullptr
 0
 &
 usedBufLen
@@ -11078,7 +11078,7 @@ NS_ERROR_FAILURE
 CFURLRef
 url
 =
-NULL
+nullptr
 ;
 if
 (
@@ -11653,7 +11653,7 @@ LSOpenFromRefSpec
 (
 &
 thelaunchSpec
-NULL
+nullptr
 )
 ;
 if
@@ -11723,7 +11723,7 @@ LSOpenFSRef
 (
 &
 docFSRef
-NULL
+nullptr
 )
 ;
 return
@@ -11873,7 +11873,7 @@ LSOpenFromRefSpec
 (
 &
 thelaunchSpec
-NULL
+nullptr
 )
 ;
 if
@@ -12146,7 +12146,7 @@ bundle
 :
 CFBundleCreate
 (
-NULL
+nullptr
 urlRef
 )
 ;

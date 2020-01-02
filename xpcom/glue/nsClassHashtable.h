@@ -306,7 +306,7 @@ nsBaseHashtable
 Get
 *
 returns
-NULL
+nullptr
 if
 the
 key
@@ -360,7 +360,8 @@ pointer
 is
 set
 to
-NULL
+*
+nullptr
 .
 *
 *
@@ -566,7 +567,7 @@ if
 ent
 )
 return
-NULL
+nullptr
 ;
 return
 ent

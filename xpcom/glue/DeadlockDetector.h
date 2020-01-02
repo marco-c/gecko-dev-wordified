@@ -2363,7 +2363,7 @@ if
 aLast
 |
 is
-NULL
+nullptr
 ;
 this
 is

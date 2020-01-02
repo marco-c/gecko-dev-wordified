@@ -1153,7 +1153,7 @@ mRawPtr
 ;
 mRawPtr
 =
-NULL
+nullptr
 ;
 return
 already_AddRefed

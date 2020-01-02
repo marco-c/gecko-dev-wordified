@@ -1317,14 +1317,14 @@ dest
 is
 non
 -
-NULL
+nullptr
 copy
 counted
 characters
 to
 it
 and
-NUL
+null
 terminate
 .
 *
@@ -1754,7 +1754,7 @@ T
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -3003,7 +3003,7 @@ T
 *
 expr
 =
-NULL
+nullptr
 ;
 int
 x
@@ -3140,7 +3140,7 @@ T
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;

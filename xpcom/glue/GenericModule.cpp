@@ -390,7 +390,7 @@ e
 cid
 "
 "
-NULL
+nullptr
 aLocation
 aLoaderStr
 aType

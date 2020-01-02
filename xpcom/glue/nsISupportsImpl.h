@@ -257,7 +257,7 @@ p
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -571,7 +571,7 @@ mParticipant
 ;
 /
 /
-NULL
+nullptr
 for
 nsISupports
 }

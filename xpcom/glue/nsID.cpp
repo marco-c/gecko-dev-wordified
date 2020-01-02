@@ -765,7 +765,7 @@ if
 res
 !
 =
-NULL
+nullptr
 )
 {
 PR_snprintf

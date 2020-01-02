@@ -824,7 +824,7 @@ aSizeOfElementIncludingThis
 is
 non
 -
-NULL
+nullptr
 measures
 the
 size
@@ -851,7 +851,7 @@ void
 *
 aData
 =
-NULL
+nullptr
 )
 const
 ;

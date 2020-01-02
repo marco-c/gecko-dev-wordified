@@ -1081,7 +1081,7 @@ aSizeOfElement
 is
 non
 -
-NULL
+nullptr
 measures
 the
 size
@@ -1089,9 +1089,9 @@ of
 things
 pointed
 to
+/
+/
 by
-/
-/
 elements
 .
 size_t
@@ -1108,7 +1108,7 @@ void
 *
 aData
 =
-NULL
+nullptr
 )
 const
 ;
@@ -2558,7 +2558,7 @@ void
 *
 aData
 =
-NULL
+nullptr
 )
 const
 {

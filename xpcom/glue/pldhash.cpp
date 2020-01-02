@@ -878,7 +878,7 @@ PL_DHashMatchEntryStub
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-NULL
+nullptr
 }
 ;
 const
@@ -934,7 +934,7 @@ if
 table
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -955,7 +955,7 @@ table
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2074,7 +2074,7 @@ FILE
 *
 dumpfp
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2117,7 +2117,7 @@ endif
 PL_DHashTableDumpMeter
 (
 table
-NULL
+nullptr
 dumpfp
 )
 ;
@@ -2538,7 +2538,7 @@ it
 /
 firstRemoved
 =
-NULL
+nullptr
 ;
 for
 (
@@ -2691,7 +2691,7 @@ NOTREACHED
 *
 /
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3042,7 +3042,7 @@ NOTREACHED
 *
 /
 return
-NULL
+nullptr
 ;
 }
 static
@@ -3757,7 +3757,7 @@ addFailures
 ;
 entry
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -3939,7 +3939,7 @@ entry
 ;
 entry
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -4115,7 +4115,7 @@ removeMisses
 ;
 entry
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -4130,7 +4130,7 @@ NS_NOTREACHED
 ;
 entry
 =
-NULL
+nullptr
 ;
 }
 DECREMENT_RECURSION_LEVEL
@@ -4713,7 +4713,7 @@ arg
 /
 *
 =
-NULL
+nullptr
 *
 /
 )
@@ -4793,7 +4793,7 @@ arg
 /
 *
 =
-NULL
+nullptr
 *
 /
 )

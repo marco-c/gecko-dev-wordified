@@ -372,7 +372,7 @@ ReadSysFile
 /
 nonexistent
 "
-NULL
+nullptr
 0
 )
 ;

@@ -1304,7 +1304,7 @@ that
 you
 can
 pass
-NULL
+nullptr
 /
 /
 for
@@ -1337,13 +1337,13 @@ char
 *
 zero_char_in_ptr
 =
-NULL
+nullptr
 ;
 char
 *
 zero_char_out_ptr
 =
-NULL
+nullptr
 ;
 size_t
 zero_size_in
@@ -1793,7 +1793,7 @@ ucs2
 "
 ucs_2
 "
-NULL
+nullptr
 }
 ;
 #
@@ -1833,7 +1833,7 @@ utf8
 "
 utf_8
 "
-NULL
+nullptr
 }
 ;
 #
@@ -1898,7 +1898,7 @@ iso8859_1
 "
 #
 endif
-NULL
+nullptr
 }
 ;
 class
@@ -2224,7 +2224,7 @@ blank_list
 {
 "
 "
-NULL
+nullptr
 }
 ;
 const
@@ -6011,7 +6011,7 @@ CP_ACP
 0
 buf
 inputLen
-NULL
+nullptr
 0
 )
 ;
@@ -6161,10 +6161,10 @@ CP_ACP
 0
 buf
 inputLen
-NULL
+nullptr
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -6283,7 +6283,7 @@ result
 resultLen
 &
 defaultChar
-NULL
+nullptr
 )
 ;
 }
@@ -6384,7 +6384,7 @@ aStrInW
 aStrOutA
 aBufferSizeOut
 aDefault
-NULL
+nullptr
 )
 ;
 if
@@ -6702,7 +6702,7 @@ static
 UconvObject
 UnicodeConverter
 =
-NULL
+nullptr
 ;
 nsresult
 NS_CopyNativeToUnicode
@@ -7218,9 +7218,9 @@ sizeof
 (
 uconv_attribute_t
 )
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 attr

@@ -235,7 +235,7 @@ to
 NS_IMPL_CLASSINFO
 (
 nsFooBar
-NULL
+nullptr
 0
 NS_FOOBAR_CID
 )
@@ -290,7 +290,7 @@ idl
 *
 *
 The
-NULL
+nullptr
 parameter
 is
 there
@@ -302,8 +302,8 @@ a
 function
 for
 converting
-from
 *
+from
 an
 XPCOM
 object
@@ -317,9 +317,9 @@ you
 '
 re
 doing
+*
 specialized
 JS
-*
 work
 you
 can
@@ -327,7 +327,7 @@ probably
 leave
 this
 as
-NULL
+nullptr
 .
 *
 *
@@ -877,7 +877,7 @@ NS_CLASSINFO_NAME
 _class
 )
 =
-NULL
+nullptr
 ;
 #
 define

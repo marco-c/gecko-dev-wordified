@@ -1806,7 +1806,7 @@ that
 sets
 key
 to
-NULL
+nullptr
 upon
 *
 destruction

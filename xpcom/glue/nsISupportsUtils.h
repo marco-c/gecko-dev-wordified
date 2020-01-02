@@ -375,7 +375,7 @@ interface
 that
 checks
 for
-NULL
+nullptr
 .
 *
 param
@@ -662,7 +662,7 @@ interface
 that
 checks
 for
-NULL
+nullptr
 ;
 *
 param

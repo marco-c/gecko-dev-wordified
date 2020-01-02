@@ -4562,14 +4562,14 @@ sizeOfEntryExcludingThis
 is
 non
 -
-NULL
+nullptr
 measure
 the
 size
 of
 things
-pointed
 *
+pointed
 to
 by
 entries
@@ -4587,8 +4587,8 @@ it
 s
 often
 shared
-between
 *
+between
 tables
 nor
 |
@@ -4621,7 +4621,7 @@ void
 *
 arg
 =
-NULL
+nullptr
 )
 ;
 /
@@ -4659,7 +4659,7 @@ void
 *
 arg
 =
-NULL
+nullptr
 )
 ;
 #

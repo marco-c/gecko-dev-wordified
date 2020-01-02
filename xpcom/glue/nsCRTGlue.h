@@ -307,7 +307,7 @@ only
 delimiter
 characters
 )
-NULL
+nullptr
 is
 returned
 .
