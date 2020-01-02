@@ -3343,6 +3343,25 @@ dumpDMDAfterTest
 true
 "
 )
+      
+if
+options
+.
+quiet
+:
+        
+self
+.
+urlOpts
+.
+append
+(
+"
+quiet
+=
+true
+"
+)
   
 def
 getTestFlavor

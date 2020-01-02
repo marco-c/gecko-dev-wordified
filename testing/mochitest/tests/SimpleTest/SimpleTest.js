@@ -2416,7 +2416,13 @@ SimpleTest
 .
 _forceLogMessageOutput
 =
-false
+parentRunner
+&
+&
+!
+parentRunner
+.
+quiet
 ;
 /
 *
