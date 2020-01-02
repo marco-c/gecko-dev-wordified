@@ -3967,6 +3967,15 @@ format
 )
 )
 ;
+if
+(
+!
+mSinglePaintDrawTarget
+)
+{
+return
+;
+}
 ctxt
 =
 new
