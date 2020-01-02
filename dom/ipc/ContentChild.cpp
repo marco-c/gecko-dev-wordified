@@ -296,7 +296,7 @@ MOZ_CONTENT_SANDBOX
 &
 defined
 (
-XP_LINUX
+XP_UNIX
 )
 #
 include
@@ -2843,7 +2843,7 @@ MOZ_CONTENT_SANDBOX
 &
 defined
 (
-XP_LINUX
+XP_UNIX
 )
 /
 /
