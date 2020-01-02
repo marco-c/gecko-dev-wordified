@@ -1466,6 +1466,12 @@ aDownload
 .
 guid
 ;
+this
+.
+persistent
+=
+true
+;
 }
 function
 DownloadProgressNotifOptions
