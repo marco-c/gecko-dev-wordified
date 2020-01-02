@@ -6418,15 +6418,6 @@ next
 ]
 )
 ;
-MOZ_ASSERT
-(
-intercept
-.
-HasPositiveWCoord
-(
-)
-)
-;
 gfxPoint
 point2d
 =
