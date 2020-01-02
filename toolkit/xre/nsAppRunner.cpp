@@ -22902,6 +22902,16 @@ startup
 nullptr
 )
 ;
+(
+void
+)
+appStartup
+-
+>
+DoneStartingUp
+(
+)
+;
 appStartup
 -
 >
