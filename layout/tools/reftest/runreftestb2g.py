@@ -3763,7 +3763,22 @@ remote
 "
 ]
 =
-False
+True
+        
+prefs
+[
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+]
+=
+True
         
 prefs
 [
@@ -3859,7 +3874,7 @@ enabled
 "
 ]
 =
-False
+True
         
 prefs
 [
