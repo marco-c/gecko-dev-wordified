@@ -1109,6 +1109,9 @@ aAllowError
 ;
 }
 let
+workingFrame
+;
+let
 mobileConnection
 ;
 /
@@ -1363,8 +1366,7 @@ a
 new
 Navigator
 .
-let
-ifr
+workingFrame
 =
 document
 .
@@ -1375,7 +1377,7 @@ iframe
 "
 )
 ;
-ifr
+workingFrame
 .
 addEventListener
 (
@@ -1387,7 +1389,7 @@ load
 (
 )
 {
-ifr
+workingFrame
 .
 removeEventListener
 (
@@ -1399,7 +1401,7 @@ load
 ;
 mobileConnection
 =
-ifr
+workingFrame
 .
 contentWindow
 .
@@ -1493,7 +1495,7 @@ body
 .
 appendChild
 (
-ifr
+workingFrame
 )
 ;
 }

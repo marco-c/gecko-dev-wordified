@@ -165,12 +165,13 @@ array
 "
 )
 ;
-is
+ok
 (
 iccIds
 .
 length
-1
+>
+0
 "
 iccIds
 .
