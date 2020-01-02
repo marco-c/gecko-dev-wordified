@@ -3623,6 +3623,17 @@ GetInputContext
 (
 )
 ;
+NS_IMETHOD
+AttachNativeKeyEvent
+(
+mozilla
+:
+:
+WidgetKeyboardEvent
+&
+aEvent
+)
+;
 NS_IMETHOD_
 (
 bool
