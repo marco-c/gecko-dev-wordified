@@ -6815,7 +6815,7 @@ NS_WARN_IF
 !
 jsapi
 .
-InitUsingWin
+Init
 (
 GetOwner
 (
