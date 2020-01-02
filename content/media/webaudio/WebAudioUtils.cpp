@@ -186,7 +186,7 @@ memory
 allocations
 .
 const
-uint32_t
+size_t
 WebAudioUtils
 :
 :

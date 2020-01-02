@@ -1269,7 +1269,7 @@ mObjectStoreNames
 ;
 for
 (
-uint32_t
+size_t
 index
 =
 0
@@ -1347,7 +1347,7 @@ lastBlockingReads
 nullptr
 ;
 }
-uint32_t
+size_t
 i
 =
 blockInfo

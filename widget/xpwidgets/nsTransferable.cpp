@@ -290,7 +290,7 @@ NS_IMPL_ISUPPORTS
 nsTransferable
 nsITransferable
 )
-uint32_t
+size_t
 GetDataForFlavor
 (
 const
@@ -308,7 +308,7 @@ aDataFlavor
 {
 for
 (
-uint32_t
+size_t
 i
 =
 0

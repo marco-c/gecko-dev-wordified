@@ -1524,7 +1524,7 @@ at
 least
 once
 .
-uint32_t
+size_t
 index
 =
 generation

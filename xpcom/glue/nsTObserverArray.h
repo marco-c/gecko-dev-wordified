@@ -217,15 +217,15 @@ nsTObserverArray_base
 public
 :
 typedef
-uint32_t
+size_t
 index_type
 ;
 typedef
-uint32_t
+size_t
 size_type
 ;
 typedef
-int32_t
+ptrdiff_t
 diff_type
 ;
 protected
@@ -423,7 +423,7 @@ template
 <
 class
 T
-uint32_t
+size_t
 N
 >
 class
@@ -2731,7 +2731,7 @@ template
 <
 typename
 T
-uint32_t
+size_t
 N
 >
 inline
@@ -2758,7 +2758,7 @@ template
 <
 typename
 T
-uint32_t
+size_t
 N
 >
 inline
@@ -2790,7 +2790,7 @@ aFlags
 =
 CycleCollectionEdgeNameArrayFlag
 ;
-uint32_t
+size_t
 length
 =
 aField
@@ -2801,7 +2801,7 @@ Length
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0

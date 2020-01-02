@@ -663,7 +663,7 @@ yet
 .
 *
 /
-uint32_t
+size_t
 GetTrackMapEntry
 (
 const

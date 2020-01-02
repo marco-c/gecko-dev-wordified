@@ -280,7 +280,7 @@ uint32_t
 aChunk
 )
 {
-uint32_t
+size_t
 idx
 =
 mChunks

@@ -2163,7 +2163,7 @@ RasterImage
 *
 mImage
 ;
-uint32_t
+size_t
 mBytesToDecode
 ;
 enum
@@ -3873,7 +3873,7 @@ DecodeRequest
 >
 mDecodeRequest
 ;
-uint32_t
+size_t
 mBytesDecoded
 ;
 bool
@@ -4169,7 +4169,7 @@ aStrategy
 nsresult
 DecodeSomeData
 (
-uint32_t
+size_t
 aMaxBytes
 DecodeStrategy
 aStrategy

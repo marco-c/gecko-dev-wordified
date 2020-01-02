@@ -18262,7 +18262,7 @@ in
 the
 list
 ?
-uint32_t
+size_t
 foundIndex
 ;
 foundIndex
@@ -18357,7 +18357,7 @@ in
 the
 list
 ?
-uint32_t
+size_t
 foundIndex
 ;
 foundIndex

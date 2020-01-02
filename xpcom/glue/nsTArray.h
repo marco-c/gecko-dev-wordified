@@ -1571,7 +1571,7 @@ E
 elem_type
 ;
 typedef
-uint32_t
+size_t
 index_type
 ;
 /
@@ -1649,7 +1649,7 @@ E
 elem_type
 ;
 typedef
-uint32_t
+size_t
 index_type
 ;
 elem_type
@@ -1749,7 +1749,7 @@ E
 elem_type
 ;
 typedef
-uint32_t
+size_t
 index_type
 ;
 elem_type
@@ -1983,11 +1983,11 @@ Header
 public
 :
 typedef
-uint32_t
+size_t
 size_type
 ;
 typedef
-uint32_t
+size_t
 index_type
 ;
 /
@@ -2403,7 +2403,7 @@ be
 void
 IncrementLength
 (
-uint32_t
+size_t
 n
 )
 {
@@ -11801,7 +11801,7 @@ aFlags
 =
 CycleCollectionEdgeNameArrayFlag
 ;
-uint32_t
+size_t
 length
 =
 aField
@@ -11812,7 +11812,7 @@ Length
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -12112,7 +12112,7 @@ template
 <
 class
 TArrayBase
-uint32_t
+size_t
 N
 >
 class
@@ -12653,7 +12653,7 @@ template
 <
 class
 E
-uint32_t
+size_t
 N
 >
 class
@@ -12782,7 +12782,7 @@ template
 <
 class
 E
-uint32_t
+size_t
 N
 >
 class

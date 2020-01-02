@@ -1848,7 +1848,7 @@ in
 the
 queue
 .
-uint32_t
+size_t
 index
 =
 mAttachedStack
@@ -4660,7 +4660,7 @@ nsIContent
 aFirstNewContent
 )
 {
-uint32_t
+size_t
 insertionIndex
 ;
 if
@@ -5955,7 +5955,7 @@ work
 well
 enough
 .
-uint32_t
+size_t
 index
 =
 aAppend
@@ -6037,7 +6037,7 @@ appending
 or
 inserting
 .
-uint32_t
+size_t
 pointIndex
 =
 point

@@ -202,7 +202,7 @@ mResampler
 ;
 }
 }
-uint32_t
+size_t
 AudioNodeExternalInputStream
 :
 :
@@ -249,7 +249,7 @@ track
 .
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -410,7 +410,7 @@ resampler
 =
 nullptr
 ;
-uint32_t
+size_t
 channelCount
 =
 std
@@ -2395,7 +2395,7 @@ TrackMapEntry
 if
 necessary
 .
-uint32_t
+size_t
 trackMapIndex
 =
 GetTrackMapEntry

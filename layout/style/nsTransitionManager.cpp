@@ -4084,7 +4084,7 @@ haveCurrentTransition
 =
 false
 ;
-uint32_t
+size_t
 currentIndex
 =
 nsTArray
@@ -4121,7 +4121,7 @@ mPropertyTransitions
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0

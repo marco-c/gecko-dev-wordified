@@ -254,7 +254,7 @@ i
 +
 )
 {
-int64_t
+int32_t
 amount
 =
 PR_Write
@@ -285,6 +285,14 @@ Length
 if
 (
 amount
+<
+0
+|
+|
+size_t
+(
+amount
+)
 <
 mEncodedBuffers
 .

@@ -641,7 +641,7 @@ class
 InputNode
 >
 static
-uint32_t
+size_t
 FindIndexOfNode
 (
 const
@@ -659,7 +659,7 @@ aNode
 {
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -711,7 +711,7 @@ class
 InputNode
 >
 static
-uint32_t
+size_t
 FindIndexOfNodeWithPorts
 (
 const
@@ -733,7 +733,7 @@ aOutputPort
 {
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -885,7 +885,7 @@ IsEmpty
 )
 )
 {
-uint32_t
+size_t
 i
 =
 mInputNodes
@@ -937,7 +937,7 @@ IsEmpty
 )
 )
 {
-uint32_t
+size_t
 i
 =
 mOutputNodes
@@ -970,7 +970,7 @@ RemoveElementAt
 i
 )
 ;
-uint32_t
+size_t
 inputIndex
 =
 FindIndexOfNode
@@ -1030,7 +1030,7 @@ IsEmpty
 )
 )
 {
-uint32_t
+size_t
 i
 =
 mOutputParams
@@ -1063,7 +1063,7 @@ RemoveElementAt
 i
 )
 ;
-uint32_t
+size_t
 inputIndex
 =
 FindIndexOfNode

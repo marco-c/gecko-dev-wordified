@@ -19467,7 +19467,7 @@ false
 ;
 for
 (
-uint32_t
+size_t
 childX
 =
 0

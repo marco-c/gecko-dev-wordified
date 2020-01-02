@@ -190,7 +190,7 @@ parameters
 #
 include
 <
-stdint
+stddef
 .
 h
 >
@@ -214,7 +214,7 @@ template
 <
 class
 E
-uint32_t
+size_t
 N
 >
 class
@@ -224,7 +224,7 @@ template
 <
 class
 E
-uint32_t
+size_t
 N
 >
 class

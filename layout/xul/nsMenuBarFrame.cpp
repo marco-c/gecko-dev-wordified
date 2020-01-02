@@ -1169,7 +1169,7 @@ foundMenu
 =
 nullptr
 ;
-uint32_t
+size_t
 foundIndex
 =
 accessKeys
@@ -1302,7 +1302,7 @@ start
 end
 )
 ;
-uint32_t
+size_t
 index
 =
 accessKeys

@@ -179,7 +179,7 @@ WebAudioUtils
 {
 static
 const
-uint32_t
+size_t
 MaxChannelCount
 ;
 static

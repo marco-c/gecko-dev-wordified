@@ -976,6 +976,8 @@ std
 min
 (
 aCount
+uint32_t
+(
 item
 -
 >
@@ -986,6 +988,7 @@ Length
 )
 -
 offset
+)
 )
 ;
 if

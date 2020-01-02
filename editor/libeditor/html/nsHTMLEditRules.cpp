@@ -56676,7 +56676,7 @@ GetParentNode
 (
 )
 ;
-uint32_t
+size_t
 idx
 =
 skipList

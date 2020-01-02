@@ -4564,7 +4564,7 @@ rv
 rv
 )
 ;
-uint32_t
+size_t
 idx
 =
 prefixes
@@ -4620,7 +4620,7 @@ aCount
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0

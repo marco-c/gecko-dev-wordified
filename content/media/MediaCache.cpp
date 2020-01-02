@@ -5206,10 +5206,13 @@ uint32_t
 (
 aMaxSearchBlockIndex
 )
+uint32_t
+(
 mIndex
 .
 Length
 (
+)
 )
 )
 ;

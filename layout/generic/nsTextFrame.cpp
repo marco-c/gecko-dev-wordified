@@ -14303,10 +14303,13 @@ textBreakPointsAfterTransform
 Elements
 (
 )
+uint32_t
+(
 textBreakPointsAfterTransform
 .
 Length
 (
+)
 )
 int32_t
 (
