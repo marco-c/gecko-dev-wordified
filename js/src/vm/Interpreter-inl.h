@@ -3984,7 +3984,10 @@ false
 *
 out
 =
+uint32_t
+(
 left
+)
 <
 <
 (
