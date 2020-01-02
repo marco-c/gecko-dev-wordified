@@ -232,11 +232,15 @@ ImageClient
 aCompositable
 )
 ;
+protected
+:
 ~
 SharedPlanarYCbCrImage
 (
 )
 ;
+public
+:
 virtual
 ISharedImage
 *

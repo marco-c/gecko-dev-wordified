@@ -9960,6 +9960,8 @@ DispatchBytesConsumedEvent
 )
 ;
 }
+protected
+:
 ~
 DispatchBytesConsumedEvent
 (
@@ -9971,6 +9973,8 @@ DispatchBytesConsumedEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (

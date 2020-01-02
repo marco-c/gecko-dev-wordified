@@ -213,11 +213,15 @@ TrackRate
 aSampleRate
 )
 ;
+protected
+:
 ~
 AudioNodeExternalInputStream
 (
 )
 ;
+public
+:
 virtual
 void
 ProcessInput

@@ -6004,6 +6004,8 @@ SingleProcessRunnable
 )
 ;
 }
+protected
+:
 ~
 SingleProcessRunnable
 (
@@ -6975,6 +6977,8 @@ ChildProcessRunnable
 )
 ;
 }
+protected
+:
 ~
 ChildProcessRunnable
 (

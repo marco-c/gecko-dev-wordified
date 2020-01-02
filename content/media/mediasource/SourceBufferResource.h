@@ -1268,11 +1268,15 @@ nsACString
 aType
 )
 ;
+protected
+:
 ~
 SourceBufferResource
 (
 )
 ;
+public
+:
 virtual
 nsresult
 Close

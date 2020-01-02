@@ -254,12 +254,16 @@ LayerManagerComposite
 aManager
 )
 ;
+protected
+:
 virtual
 ~
 CanvasLayerComposite
 (
 )
 ;
+public
+:
 /
 /
 CanvasLayer

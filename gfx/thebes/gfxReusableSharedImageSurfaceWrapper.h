@@ -142,11 +142,15 @@ gfxSharedImageSurface
 aSurface
 )
 ;
+protected
+:
 ~
 gfxReusableSharedImageSurfaceWrapper
 (
 )
 ;
+public
+:
 const
 unsigned
 char

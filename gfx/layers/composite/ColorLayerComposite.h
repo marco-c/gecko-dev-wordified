@@ -211,6 +211,8 @@ this
 )
 ;
 }
+protected
+:
 ~
 ColorLayerComposite
 (
@@ -226,6 +228,8 @@ Destroy
 )
 ;
 }
+public
+:
 /
 /
 LayerComposite

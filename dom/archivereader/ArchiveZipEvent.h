@@ -183,12 +183,16 @@ nsACString
 aEncoding
 )
 ;
+protected
+:
 virtual
 ~
 ArchiveZipItem
 (
 )
 ;
+public
+:
 nsresult
 GetFilename
 (

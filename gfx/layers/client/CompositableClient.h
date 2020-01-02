@@ -292,6 +292,8 @@ RemoveTextureFromCompositableTracker
 )
 ;
 }
+protected
+:
 ~
 RemoveTextureFromCompositableTracker
 (
@@ -307,6 +309,8 @@ ReleaseTextureClient
 )
 ;
 }
+public
+:
 virtual
 void
 Complete

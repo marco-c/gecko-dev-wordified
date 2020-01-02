@@ -135,6 +135,8 @@ void
 aKey
 )
 ;
+protected
+:
 /
 *
 *
@@ -154,6 +156,8 @@ nsHtml5OwningUTF16Buffer
 (
 )
 ;
+public
+:
 /
 *
 *

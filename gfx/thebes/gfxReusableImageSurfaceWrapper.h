@@ -106,11 +106,15 @@ gfxImageSurface
 aSurface
 )
 ;
+protected
+:
 ~
 gfxReusableImageSurfaceWrapper
 (
 )
 ;
+public
+:
 const
 unsigned
 char

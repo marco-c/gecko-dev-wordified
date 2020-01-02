@@ -10952,6 +10952,8 @@ nsFtpAsyncAlert
 )
 ;
 }
+protected
+:
 virtual
 ~
 nsFtpAsyncAlert
@@ -10964,6 +10966,8 @@ nsFtpAsyncAlert
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (

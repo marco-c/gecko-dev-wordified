@@ -7948,6 +7948,8 @@ SelectorCacheKeyDeleter
 )
 ;
 }
+protected
+:
 ~
 SelectorCacheKeyDeleter
 (
@@ -7959,6 +7961,8 @@ SelectorCacheKeyDeleter
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (

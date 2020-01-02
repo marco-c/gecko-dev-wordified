@@ -329,11 +329,15 @@ LayerManager
 NONE
 )
 ;
+protected
+:
 ~
 ClientTiledThebesLayer
 (
 )
 ;
+public
+:
 /
 /
 Override

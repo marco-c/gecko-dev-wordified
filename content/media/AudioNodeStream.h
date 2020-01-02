@@ -374,11 +374,15 @@ AudioNodeStream
 )
 ;
 }
+protected
+:
 ~
 AudioNodeStream
 (
 )
 ;
+public
+:
 /
 /
 Control

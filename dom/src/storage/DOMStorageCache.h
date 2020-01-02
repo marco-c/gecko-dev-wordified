@@ -486,12 +486,16 @@ nsACString
 aScope
 )
 ;
+protected
+:
 virtual
 ~
 DOMStorageCache
 (
 )
 ;
+public
+:
 void
 Init
 (

@@ -135,11 +135,15 @@ AbstractMediaDecoder
 aDecoder
 )
 ;
+protected
+:
 ~
 RawReader
 (
 )
 ;
+public
+:
 virtual
 nsresult
 Init

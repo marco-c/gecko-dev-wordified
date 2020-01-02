@@ -337,12 +337,16 @@ ArchiveReader
 aArchiveReader
 )
 ;
+protected
+:
 virtual
 ~
 ArchiveReaderEvent
 (
 )
 ;
+public
+:
 /
 /
 This

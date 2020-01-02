@@ -202,6 +202,8 @@ ArchiveRequestEvent
 )
 ;
 }
+protected
+:
 ~
 ArchiveRequestEvent
 (

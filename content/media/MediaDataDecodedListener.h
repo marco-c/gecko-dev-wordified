@@ -657,6 +657,8 @@ DeliverAudioTask
 )
 ;
 }
+protected
+:
 ~
 DeliverAudioTask
 (
@@ -668,6 +670,8 @@ DeliverAudioTask
 )
 ;
 }
+public
+:
 NS_METHOD
 Run
 (
@@ -738,6 +742,8 @@ DeliverVideoTask
 )
 ;
 }
+protected
+:
 ~
 DeliverVideoTask
 (
@@ -749,6 +755,8 @@ DeliverVideoTask
 )
 ;
 }
+public
+:
 NS_METHOD
 Run
 (

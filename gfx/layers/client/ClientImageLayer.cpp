@@ -328,6 +328,8 @@ ClientImageLayer
 )
 ;
 }
+protected
+:
 virtual
 ~
 ClientImageLayer

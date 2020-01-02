@@ -667,6 +667,8 @@ List
 )
 ;
 }
+protected
+:
 ~
 List
 (
@@ -689,6 +691,8 @@ mNext
 )
 ;
 }
+public
+:
 int32_t
 AddRef
 (
@@ -1566,6 +1570,8 @@ List
 )
 ;
 }
+protected
+:
 ~
 List
 (
@@ -1585,6 +1591,8 @@ mNext
 )
 ;
 }
+public
+:
 int32_t
 AddRef
 (

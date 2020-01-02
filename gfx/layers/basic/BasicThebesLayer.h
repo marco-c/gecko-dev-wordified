@@ -313,6 +313,8 @@ BasicThebesLayer
 )
 ;
 }
+protected
+:
 virtual
 ~
 BasicThebesLayer
@@ -325,6 +327,8 @@ BasicThebesLayer
 )
 ;
 }
+public
+:
 virtual
 void
 SetVisibleRegion

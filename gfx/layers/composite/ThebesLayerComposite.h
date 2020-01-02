@@ -291,12 +291,16 @@ LayerManagerComposite
 aManager
 )
 ;
+protected
+:
 virtual
 ~
 ThebesLayerComposite
 (
 )
 ;
+public
+:
 virtual
 void
 Disconnect

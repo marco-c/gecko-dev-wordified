@@ -309,12 +309,16 @@ void
 aImplData
 )
 ;
+protected
+:
 virtual
 ~
 CopyableCanvasLayer
 (
 )
 ;
+public
+:
 virtual
 void
 Initialize

@@ -551,12 +551,16 @@ nsIWidget
 aWidget
 )
 ;
+protected
+:
 virtual
 ~
 BasicLayerManager
 (
 )
 ;
+public
+:
 /
 *
 *

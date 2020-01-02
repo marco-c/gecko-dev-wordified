@@ -169,11 +169,15 @@ AbstractMediaDecoder
 aDecoder
 )
 ;
+protected
+:
 ~
 WaveReader
 (
 )
 ;
+public
+:
 virtual
 nsresult
 Init

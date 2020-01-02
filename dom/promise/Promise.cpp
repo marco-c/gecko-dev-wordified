@@ -315,6 +315,8 @@ PromiseTask
 )
 ;
 }
+protected
+:
 ~
 PromiseTask
 (
@@ -326,6 +328,8 @@ PromiseTask
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -398,6 +402,8 @@ WorkerPromiseTask
 )
 ;
 }
+protected
+:
 ~
 WorkerPromiseTask
 (
@@ -409,6 +415,8 @@ WorkerPromiseTask
 )
 ;
 }
+public
+:
 bool
 WorkerRun
 (

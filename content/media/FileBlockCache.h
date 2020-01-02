@@ -544,11 +544,15 @@ FileBlockCache
 (
 )
 ;
+protected
+:
 ~
 FileBlockCache
 (
 )
 ;
+public
+:
 /
 /
 Assumes

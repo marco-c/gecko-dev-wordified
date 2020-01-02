@@ -215,12 +215,16 @@ mSupportsComponentAlphaChildren
 true
 ;
 }
+protected
+:
 virtual
 ~
 BasicContainerLayer
 (
 )
 ;
+public
+:
 virtual
 void
 SetVisibleRegion

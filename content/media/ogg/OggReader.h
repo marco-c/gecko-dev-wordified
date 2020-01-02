@@ -320,11 +320,15 @@ AbstractMediaDecoder
 aDecoder
 )
 ;
+protected
+:
 ~
 OggReader
 (
 )
 ;
+public
+:
 virtual
 nsresult
 Init
