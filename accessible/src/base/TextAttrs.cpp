@@ -6417,6 +6417,9 @@ case
 eStyleUnit_Turn
 :
 case
+eStyleUnit_FlexFraction
+:
+case
 eStyleUnit_Integer
 :
 case
