@@ -169,6 +169,9 @@ nsIRemoteOpenFileListener
 .
 h
 "
+class
+nsILoadContext
+;
 namespace
 mozilla
 {
@@ -526,6 +529,9 @@ aListener
 nsITabChild
 *
 aTabChild
+nsILoadContext
+*
+aLoadContext
 )
 ;
 void

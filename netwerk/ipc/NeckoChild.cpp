@@ -1395,6 +1395,10 @@ NeckoChild
 AllocPRemoteOpenFileChild
 (
 const
+SerializedLoadContext
+&
+aSerialized
+const
 URIParams
 &
 const
