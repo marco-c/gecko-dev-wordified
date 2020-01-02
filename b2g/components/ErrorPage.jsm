@@ -1094,6 +1094,7 @@ loadFrameScript
 (
 kErrorPageFrameScript
 true
+true
 )
 ;
 }
