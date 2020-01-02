@@ -595,6 +595,17 @@ aUrl
 aCallback
 )
 {
+DOMApplicationRegistry
+.
+registryReady
+.
+then
+(
+(
+)
+=
+>
+{
 let
 request
 =
@@ -766,6 +777,9 @@ undefined
 )
 ;
 }
+;
+}
+)
 ;
 }
 findManifestUrlFor
