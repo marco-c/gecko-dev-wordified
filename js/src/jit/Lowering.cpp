@@ -1181,6 +1181,9 @@ alloc
 )
 LNewArray
 (
+temp
+(
+)
 )
 ;
 return
@@ -1221,6 +1224,9 @@ alloc
 )
 LNewObject
 (
+temp
+(
+)
 )
 ;
 return
@@ -1261,6 +1267,9 @@ alloc
 )
 LNewDeclEnvObject
 (
+temp
+(
+)
 )
 ;
 return
@@ -1344,6 +1353,9 @@ alloc
 LNewCallObject
 (
 slots
+temp
+(
+)
 )
 ;
 if
@@ -2059,6 +2071,9 @@ alloc
 )
 LCreateThisWithTemplate
 (
+temp
+(
+)
 )
 ;
 return
@@ -14244,6 +14259,9 @@ ins
 scopeChain
 (
 )
+)
+temp
+(
 )
 )
 ;

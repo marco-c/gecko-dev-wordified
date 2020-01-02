@@ -53851,6 +53851,8 @@ here
 MConstant
 *
 index
+=
+nullptr
 ;
 for
 (
