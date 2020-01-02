@@ -5692,7 +5692,7 @@ return
 false
 ;
 }
-nsresult
+void
 nsMathMLContainerFrame
 :
 :
@@ -6148,9 +6148,6 @@ Width
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsMathMLContainerFrame

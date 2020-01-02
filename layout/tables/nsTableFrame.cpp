@@ -13666,7 +13666,7 @@ GetSize
 )
 ;
 }
-nsresult
+void
 nsTableFrame
 :
 :
@@ -13690,11 +13690,6 @@ nsReflowStatus
 aStatus
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 aLastChildReflowed
 =
 nullptr
@@ -13805,9 +13800,6 @@ aReflowState
 .
 rendContext
 )
-;
-return
-rv
 ;
 }
 nsIFrame
@@ -18844,9 +18836,6 @@ Height
 nsReflowStatus
 status
 ;
-nsresult
-rv
-=
 ReflowChild
 (
 aFrame
@@ -18861,12 +18850,6 @@ aReflowState
 y
 0
 status
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 /
@@ -19079,7 +19062,7 @@ update
 aReflowMetrics
 a
 aStatus
-nsresult
+void
 nsTableFrame
 :
 :
@@ -19113,11 +19096,6 @@ nsIFrame
 prevKidFrame
 =
 nullptr
-;
-nsresult
-rv
-=
-NS_OK
 ;
 nscoord
 cellSpacingY
@@ -19385,6 +19363,7 @@ GetPrevInFlow
 nscoord
 desiredHeight
 ;
+nsresult
 rv
 =
 SetupHeaderFooterChild
@@ -19403,7 +19382,6 @@ rv
 )
 )
 return
-rv
 ;
 }
 if
@@ -19411,6 +19389,7 @@ if
 tfoot
 )
 {
+nsresult
 rv
 =
 SetupHeaderFooterChild
@@ -19429,7 +19408,6 @@ rv
 )
 )
 return
-rv
 ;
 }
 }
@@ -19984,8 +19962,6 @@ reorder
 =
 true
 ;
-rv
-=
 ReflowChild
 (
 kidFrame
@@ -21041,9 +21017,6 @@ false
 ClearGeometryDirty
 (
 )
-;
-return
-rv
 ;
 }
 void

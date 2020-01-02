@@ -1428,7 +1428,7 @@ cells
 .
 *
 /
-nsresult
+void
 ReflowChildren
 (
 nsPresContext

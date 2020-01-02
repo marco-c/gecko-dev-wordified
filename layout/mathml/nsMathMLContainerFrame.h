@@ -2000,7 +2000,7 @@ about
 our
 position
 .
-nsresult
+void
 ReflowChild
 (
 nsIFrame
