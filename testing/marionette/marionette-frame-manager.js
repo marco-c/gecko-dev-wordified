@@ -136,10 +136,6 @@ gre
 /
 modules
 /
-services
--
-common
-/
 Log
 .
 js
