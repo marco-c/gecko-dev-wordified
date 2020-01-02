@@ -83,11 +83,11 @@ chrome
 :
 /
 /
-global
+browser
 /
 locale
 /
-charsetOverlay
+charsetMenu
 .
 dtd
 "
