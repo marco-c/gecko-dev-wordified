@@ -25039,6 +25039,13 @@ mWidth
 mHeight
 )
 ;
+data
+.
+mHasAlpha
+=
+!
+mOpaque
+;
 canvasLayer
 -
 >
