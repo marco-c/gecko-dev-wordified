@@ -534,7 +534,7 @@ stream
 mDecoder
 -
 >
-SetCanOffloadAudio
+SetPlatformCanOffloadAudio
 (
 true
 )
