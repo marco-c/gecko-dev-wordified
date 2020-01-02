@@ -297,6 +297,13 @@ nsACString
 data
 )
 ;
+void
+AnnotateOOMAllocationSize
+(
+size_t
+size
+)
+;
 nsresult
 SetGarbageCollecting
 (

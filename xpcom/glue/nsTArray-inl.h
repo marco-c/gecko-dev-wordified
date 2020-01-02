@@ -1087,6 +1087,12 @@ Alloc
 :
 SizeTooBig
 (
+(
+size_t
+)
+capacity
+*
+elemSize
 )
 ;
 return
