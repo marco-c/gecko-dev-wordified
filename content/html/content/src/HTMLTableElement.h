@@ -190,12 +190,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLTableElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLTableElement
@@ -1062,6 +1056,12 @@ GetAttributesMappedForCell
 ;
 protected
 :
+virtual
+~
+HTMLTableElement
+(
+)
+;
 virtual
 JSObject
 *

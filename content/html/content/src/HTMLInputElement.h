@@ -555,12 +555,6 @@ FromParser
 aFromParser
 )
 ;
-virtual
-~
-HTMLInputElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLInputElement
@@ -3870,6 +3864,12 @@ aValue
 ;
 protected
 :
+virtual
+~
+HTMLInputElement
+(
+)
+;
 virtual
 JSObject
 *

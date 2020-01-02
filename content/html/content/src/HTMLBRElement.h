@@ -162,12 +162,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLBRElement
-(
-)
-;
 /
 /
 nsISupports
@@ -290,6 +284,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+virtual
+~
+HTMLBRElement
+(
+)
+;
 static
 void
 MapAttributesIntoRule

@@ -208,12 +208,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLImageElement
-(
-)
-;
 static
 already_AddRefed
 <
@@ -1013,6 +1007,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLImageElement
+(
+)
+;
 /
 /
 Resolve

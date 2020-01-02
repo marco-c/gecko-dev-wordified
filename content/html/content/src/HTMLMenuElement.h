@@ -164,12 +164,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLMenuElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLMenuElement
@@ -369,6 +363,12 @@ for
 us
 protected
 :
+virtual
+~
+HTMLMenuElement
+(
+)
+;
 virtual
 JSObject
 *

@@ -158,12 +158,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLOptGroupElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLOptGroupElement
@@ -367,6 +361,12 @@ aError
 }
 protected
 :
+virtual
+~
+HTMLOptGroupElement
+(
+)
+;
 virtual
 JSObject
 *

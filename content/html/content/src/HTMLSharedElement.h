@@ -244,12 +244,6 @@ SetHasWeirdParserInsertionMode
 ;
 }
 }
-virtual
-~
-HTMLSharedElement
-(
-)
-;
 /
 /
 nsISupports
@@ -1034,6 +1028,12 @@ aResult
 }
 protected
 :
+virtual
+~
+HTMLSharedElement
+(
+)
+;
 virtual
 JSObject
 *

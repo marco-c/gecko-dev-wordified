@@ -170,12 +170,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLSharedListElement
-(
-)
-;
 /
 /
 nsISupports
@@ -422,6 +416,12 @@ rv
 }
 protected
 :
+virtual
+~
+HTMLSharedListElement
+(
+)
+;
 virtual
 JSObject
 *

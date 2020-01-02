@@ -191,12 +191,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLSourceElement
-(
-)
-;
 /
 /
 nsISupports
@@ -575,6 +569,12 @@ aKeySystem
 }
 protected
 :
+virtual
+~
+HTMLSourceElement
+(
+)
+;
 virtual
 JSObject
 *

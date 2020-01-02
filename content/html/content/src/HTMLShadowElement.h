@@ -139,12 +139,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLShadowElement
-(
-)
-;
 /
 /
 nsISupports
@@ -367,6 +361,12 @@ mProjectedShadow
 }
 protected
 :
+virtual
+~
+HTMLShadowElement
+(
+)
+;
 virtual
 JSObject
 *

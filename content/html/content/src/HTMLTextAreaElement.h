@@ -1581,6 +1581,13 @@ GetEditor
 }
 protected
 :
+virtual
+~
+HTMLTextAreaElement
+(
+)
+{
+}
 /
 /
 get

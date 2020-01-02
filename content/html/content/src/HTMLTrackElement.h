@@ -220,12 +220,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLTrackElement
-(
-)
-;
 /
 /
 nsISupports
@@ -689,6 +683,12 @@ DropChannel
 ;
 protected
 :
+virtual
+~
+HTMLTrackElement
+(
+)
+;
 virtual
 JSObject
 *

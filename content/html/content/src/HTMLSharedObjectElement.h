@@ -217,12 +217,6 @@ dom
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLSharedObjectElement
-(
-)
-;
 /
 /
 nsISupports
@@ -1083,6 +1077,12 @@ GetContentDocument
 }
 private
 :
+virtual
+~
+HTMLSharedObjectElement
+(
+)
+;
 /
 *
 *

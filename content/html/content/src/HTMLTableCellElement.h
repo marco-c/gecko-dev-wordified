@@ -171,12 +171,6 @@ SetHasWeirdParserInsertionMode
 )
 ;
 }
-virtual
-~
-HTMLTableCellElement
-(
-)
-;
 /
 /
 nsISupports
@@ -828,6 +822,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLTableCellElement
+(
+)
+;
 virtual
 JSObject
 *

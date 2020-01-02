@@ -167,12 +167,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLHRElement
-(
-)
-;
 /
 /
 nsISupports
@@ -405,6 +399,12 @@ aError
 }
 protected
 :
+virtual
+~
+HTMLHRElement
+(
+)
+;
 virtual
 JSObject
 *

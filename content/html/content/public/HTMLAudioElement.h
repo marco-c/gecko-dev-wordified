@@ -197,12 +197,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLAudioElement
-(
-)
-;
 /
 /
 nsISupports
@@ -291,6 +285,12 @@ aRv
 ;
 protected
 :
+virtual
+~
+HTMLAudioElement
+(
+)
+;
 virtual
 JSObject
 *

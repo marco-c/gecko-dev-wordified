@@ -165,12 +165,6 @@ SetHasWeirdParserInsertionMode
 )
 ;
 }
-virtual
-~
-HTMLTableCaptionElement
-(
-)
-;
 /
 /
 nsISupports
@@ -284,6 +278,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLTableCaptionElement
+(
+)
+;
 virtual
 JSObject
 *

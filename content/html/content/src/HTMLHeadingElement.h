@@ -161,12 +161,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLHeadingElement
-(
-)
-;
 /
 /
 nsISupports
@@ -258,6 +252,12 @@ WebIDL
 .
 protected
 :
+virtual
+~
+HTMLHeadingElement
+(
+)
+;
 virtual
 JSObject
 *

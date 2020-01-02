@@ -163,12 +163,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLLegendElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLLegendElement
@@ -473,6 +467,12 @@ GetParentObject
 }
 protected
 :
+virtual
+~
+HTMLLegendElement
+(
+)
+;
 virtual
 JSObject
 *

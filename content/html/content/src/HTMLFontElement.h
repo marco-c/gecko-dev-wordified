@@ -152,12 +152,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLFontElement
-(
-)
-;
 void
 GetColor
 (
@@ -345,6 +339,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLFontElement
+(
+)
+;
 virtual
 JSObject
 *

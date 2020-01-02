@@ -775,12 +775,6 @@ aFromParser
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLSelectElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLSelectElement
@@ -2283,6 +2277,12 @@ Size
 }
 protected
 :
+virtual
+~
+HTMLSelectElement
+(
+)
+;
 friend
 class
 SafeOptionListMutation

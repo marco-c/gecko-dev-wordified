@@ -278,11 +278,6 @@ nsHTMLDocument
 (
 )
 ;
-~
-nsHTMLDocument
-(
-)
-;
 virtual
 nsresult
 Init
@@ -1500,6 +1495,11 @@ this
 }
 protected
 :
+~
+nsHTMLDocument
+(
+)
+;
 nsresult
 GetBodySize
 (

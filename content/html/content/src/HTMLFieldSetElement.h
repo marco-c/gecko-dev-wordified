@@ -213,12 +213,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLFieldSetElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLFieldSetElement
@@ -592,6 +586,12 @@ aElementValidityState
 ;
 protected
 :
+virtual
+~
+HTMLFieldSetElement
+(
+)
+;
 virtual
 JSObject
 *

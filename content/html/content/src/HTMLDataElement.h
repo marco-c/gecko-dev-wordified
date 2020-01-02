@@ -160,12 +160,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLDataElement
-(
-)
-;
 /
 /
 HTMLDataElement
@@ -255,6 +249,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLDataElement
+(
+)
+;
 virtual
 JSObject
 *

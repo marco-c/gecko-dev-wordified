@@ -174,12 +174,6 @@ aFromParser
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLOutputElement
-(
-)
-;
 /
 /
 nsISupports
@@ -526,6 +520,12 @@ aError
 ;
 protected
 :
+virtual
+~
+HTMLOutputElement
+(
+)
+;
 enum
 ValueModeFlag
 {

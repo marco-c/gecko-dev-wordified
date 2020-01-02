@@ -161,12 +161,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLParagraphElement
-(
-)
-;
 /
 /
 nsISupports
@@ -279,6 +273,12 @@ rv
 }
 protected
 :
+virtual
+~
+HTMLParagraphElement
+(
+)
+;
 virtual
 JSObject
 *

@@ -191,12 +191,6 @@ aFromParser
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLObjectElement
-(
-)
-;
 /
 /
 nsISupports
@@ -1288,6 +1282,12 @@ nsAString
 text
 )
 MOZ_OVERRIDE
+;
+virtual
+~
+HTMLObjectElement
+(
+)
 ;
 virtual
 JSObject

@@ -161,12 +161,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLPreElement
-(
-)
-;
 /
 /
 nsISupports
@@ -301,6 +295,12 @@ aWidth
 }
 protected
 :
+virtual
+~
+HTMLPreElement
+(
+)
+;
 virtual
 JSObject
 *

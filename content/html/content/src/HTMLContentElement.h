@@ -150,12 +150,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLContentElement
-(
-)
-;
 /
 /
 nsISupports
@@ -404,6 +398,12 @@ true
 }
 protected
 :
+virtual
+~
+HTMLContentElement
+(
+)
+;
 virtual
 JSObject
 *

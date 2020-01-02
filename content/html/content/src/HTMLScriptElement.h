@@ -196,12 +196,6 @@ FromParser
 aFromParser
 )
 ;
-virtual
-~
-HTMLScriptElement
-(
-)
-;
 /
 /
 nsISupports
@@ -490,6 +484,12 @@ rv
 ;
 protected
 :
+virtual
+~
+HTMLScriptElement
+(
+)
+;
 virtual
 JSObject
 *

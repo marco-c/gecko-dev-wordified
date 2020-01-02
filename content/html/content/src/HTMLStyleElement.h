@@ -176,12 +176,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLStyleElement
-(
-)
-;
 /
 /
 nsISupports
@@ -460,6 +454,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLStyleElement
+(
+)
+;
 already_AddRefed
 <
 nsIURI

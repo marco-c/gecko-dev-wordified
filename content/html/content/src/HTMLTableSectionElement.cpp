@@ -180,6 +180,15 @@ section
 "
 used
 interchangably
+HTMLTableSectionElement
+:
+:
+~
+HTMLTableSectionElement
+(
+)
+{
+}
 JSObject
 *
 HTMLTableSectionElement

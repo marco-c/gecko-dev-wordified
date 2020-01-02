@@ -490,6 +490,12 @@ nsGenericHTMLElement
 protected
 :
 virtual
+~
+HTMLTableRowElement
+(
+)
+;
+virtual
 JSObject
 *
 WrapNode

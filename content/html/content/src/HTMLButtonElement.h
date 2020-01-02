@@ -180,12 +180,6 @@ aFromParser
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLButtonElement
-(
-)
-;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLButtonElement
@@ -894,6 +888,12 @@ fine
 .
 protected
 :
+virtual
+~
+HTMLButtonElement
+(
+)
+;
 uint8_t
 mType
 ;

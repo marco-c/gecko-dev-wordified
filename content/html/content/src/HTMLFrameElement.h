@@ -175,12 +175,6 @@ aFromParser
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLFrameElement
-(
-)
-;
 /
 /
 nsISupports
@@ -510,6 +504,12 @@ GetContentWindow
 ;
 protected
 :
+virtual
+~
+HTMLFrameElement
+(
+)
+;
 virtual
 JSObject
 *

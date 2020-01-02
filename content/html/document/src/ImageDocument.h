@@ -161,12 +161,6 @@ ImageDocument
 (
 )
 ;
-virtual
-~
-ImageDocument
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
@@ -361,6 +355,12 @@ ToggleImageSize
 ;
 protected
 :
+virtual
+~
+ImageDocument
+(
+)
+;
 virtual
 nsresult
 CreateSyntheticDocument

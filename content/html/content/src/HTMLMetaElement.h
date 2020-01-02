@@ -155,12 +155,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLMetaElement
-(
-)
-;
 /
 /
 nsISupports
@@ -368,6 +362,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLMetaElement
+(
+)
+;
 virtual
 void
 GetItemValueText

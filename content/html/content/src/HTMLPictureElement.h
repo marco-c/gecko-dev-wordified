@@ -185,12 +185,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLPictureElement
-(
-)
-;
 /
 /
 nsISupports
@@ -228,6 +222,12 @@ IsPictureEnabled
 ;
 protected
 :
+virtual
+~
+HTMLPictureElement
+(
+)
+;
 virtual
 JSObject
 *

@@ -219,12 +219,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLAreaElement
-(
-)
-;
 /
 /
 nsISupports
@@ -959,6 +953,12 @@ aResult
 }
 protected
 :
+virtual
+~
+HTMLAreaElement
+(
+)
+;
 virtual
 JSObject
 *

@@ -161,12 +161,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLLIElement
-(
-)
-;
 /
 /
 nsISupports
@@ -328,6 +322,12 @@ rv
 }
 protected
 :
+virtual
+~
+HTMLLIElement
+(
+)
+;
 virtual
 JSObject
 *

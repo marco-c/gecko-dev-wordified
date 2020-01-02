@@ -190,12 +190,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLLinkElement
-(
-)
-;
 /
 /
 nsISupports
@@ -804,6 +798,12 @@ forget
 }
 protected
 :
+virtual
+~
+HTMLLinkElement
+(
+)
+;
 /
 /
 nsStyleLinkElement

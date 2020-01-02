@@ -156,12 +156,6 @@ SetHasWeirdParserInsertionMode
 )
 ;
 }
-virtual
-~
-HTMLTableColElement
-(
-)
-;
 uint32_t
 Span
 (
@@ -468,6 +462,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLTableColElement
+(
+)
+;
 virtual
 JSObject
 *

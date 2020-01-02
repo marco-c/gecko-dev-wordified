@@ -166,12 +166,6 @@ aFromParser
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLIFrameElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLIFrameElement
@@ -911,6 +905,12 @@ is
 fine
 protected
 :
+virtual
+~
+HTMLIFrameElement
+(
+)
+;
 virtual
 void
 GetItemValueText

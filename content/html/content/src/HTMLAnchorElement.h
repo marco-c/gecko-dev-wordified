@@ -226,12 +226,6 @@ MOZ_THIS_IN_INITIALIZER_LIST
 )
 {
 }
-virtual
-~
-HTMLAnchorElement
-(
-)
-;
 /
 /
 nsISupports
@@ -1128,6 +1122,12 @@ aResult
 }
 protected
 :
+virtual
+~
+HTMLAnchorElement
+(
+)
+;
 virtual
 void
 GetItemValueText

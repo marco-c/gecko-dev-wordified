@@ -505,12 +505,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLMediaElement
-(
-)
-;
 /
 *
 *
@@ -3186,6 +3180,12 @@ nullptr
 }
 protected
 :
+virtual
+~
+HTMLMediaElement
+(
+)
+;
 class
 MediaLoadListener
 ;

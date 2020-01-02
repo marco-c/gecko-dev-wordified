@@ -179,12 +179,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLTitleElement
-(
-)
-;
 /
 /
 nsISupports
@@ -303,6 +297,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLTitleElement
+(
+)
+;
 virtual
 JSObject
 *

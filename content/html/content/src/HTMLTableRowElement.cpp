@@ -182,6 +182,15 @@ mozilla
 namespace
 dom
 {
+HTMLTableRowElement
+:
+:
+~
+HTMLTableRowElement
+(
+)
+{
+}
 JSObject
 *
 HTMLTableRowElement

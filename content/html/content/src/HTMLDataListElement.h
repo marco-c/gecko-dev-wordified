@@ -159,12 +159,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLDataListElement
-(
-)
-;
 /
 /
 nsISupports
@@ -258,6 +252,12 @@ nsGenericHTMLElement
 )
 protected
 :
+virtual
+~
+HTMLDataListElement
+(
+)
+;
 virtual
 JSObject
 *
