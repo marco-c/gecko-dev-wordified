@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsINode
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -150,6 +143,9 @@ nsThreadUtils
 .
 h
 "
+class
+nsINode
+;
 namespace
 mozilla
 {

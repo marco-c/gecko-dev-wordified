@@ -178,6 +178,13 @@ AndroidBridge
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 using
 mozilla
 :

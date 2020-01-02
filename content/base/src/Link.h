@@ -159,6 +159,10 @@ nsIContent
 .
 h
 "
+/
+/
+for
+nsLinkState
 namespace
 mozilla
 {

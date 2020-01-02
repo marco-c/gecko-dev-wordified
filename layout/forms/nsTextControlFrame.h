@@ -125,6 +125,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsITextControlFrame
 .
 h

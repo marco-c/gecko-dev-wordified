@@ -113,6 +113,12 @@ nsIDocument
 .
 h
 "
+/
+/
+for
+GetShell
+(
+)
 #
 include
 "

@@ -121,6 +121,12 @@ nsIContent
 .
 h
 "
+/
+/
+for
+GetParent
+(
+)
 inline
 void
 nsStyleImage

@@ -156,6 +156,10 @@ nsIContent
 .
 h
 "
+/
+/
+for
+GetContent
 #
 include
 "

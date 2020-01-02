@@ -1441,13 +1441,6 @@ endif
 XP_WIN
 *
 /
-#
-include
-"
-nsINode
-.
-h
-"
 /
 *
 *

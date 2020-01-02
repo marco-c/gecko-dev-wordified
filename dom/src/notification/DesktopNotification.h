@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

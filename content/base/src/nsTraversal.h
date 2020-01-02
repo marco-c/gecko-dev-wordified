@@ -123,6 +123,10 @@ nsIDocument
 .
 h
 "
+/
+/
+for
+NodeFilterHolder
 #
 include
 "

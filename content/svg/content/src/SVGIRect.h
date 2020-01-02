@@ -142,13 +142,9 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
+class
 nsIContent
-.
-h
-"
+;
 class
 nsSVGElement
 ;

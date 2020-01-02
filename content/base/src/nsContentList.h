@@ -242,6 +242,17 @@ HashFunctions
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+NameSpaceConstants
+.
+h
+"
 namespace
 mozilla
 {
