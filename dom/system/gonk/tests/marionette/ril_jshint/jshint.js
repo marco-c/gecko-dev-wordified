@@ -2610,6 +2610,9 @@ false
 SVGFEDistantLightElement
 :
 false
+SVGFEDropShadowElement
+:
+false
 SVGFEFloodElement
 :
 false
