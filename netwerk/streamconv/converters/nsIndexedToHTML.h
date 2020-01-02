@@ -213,13 +213,13 @@ FormatSizeString
 (
 int64_t
 inSize
-nsString
+nsCString
 &
 outSizeString
 )
 ;
 nsresult
-FormatInputStream
+SendToListener
 (
 nsIRequest
 *
@@ -228,7 +228,7 @@ nsISupports
 *
 aContext
 const
-nsAString
+nsACString
 &
 aBuffer
 )
@@ -249,7 +249,7 @@ request
 nsISupports
 *
 aContext
-nsString
+nsCString
 &
 aBuffer
 )
@@ -313,9 +313,6 @@ lines
 .
 bool
 mExpectAbsLoc
-;
-nsString
-mEscapedEllipsis
 ;
 }
 ;
