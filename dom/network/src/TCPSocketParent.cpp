@@ -160,6 +160,13 @@ TabParent
 .
 h
 "
+#
+include
+"
+nsIScriptSecurityManager
+.
+h
+"
 namespace
 IPC
 {

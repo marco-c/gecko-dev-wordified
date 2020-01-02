@@ -407,6 +407,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 ipc
 /
 IndexedDBChild

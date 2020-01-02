@@ -259,6 +259,13 @@ ContentParent
 h
 "
 #
+include
+"
+nsNetCID
+.
+h
+"
+#
 define
 PRIVATE_REMOTE_INPUT_STREAM_IID
 \

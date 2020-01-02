@@ -172,6 +172,13 @@ nsDOMJSUtils
 h
 "
 #
+include
+"
+nsIScriptSecurityManager
+.
+h
+"
+#
 ifdef
 MOZ_B2G
 #

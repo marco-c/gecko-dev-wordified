@@ -115,9 +115,7 @@ h
 #
 include
 "
-base
-/
-process_util
+nsXULAppAPI
 .
 h
 "

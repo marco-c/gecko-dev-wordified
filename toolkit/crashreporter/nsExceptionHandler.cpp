@@ -151,6 +151,13 @@ nsThreadUtils
 h
 "
 #
+include
+"
+nsXULAppAPI
+.
+h
+"
+#
 if
 defined
 (

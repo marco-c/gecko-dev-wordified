@@ -368,6 +368,13 @@ nsIMemoryReporter
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 PrefCallback
 ;

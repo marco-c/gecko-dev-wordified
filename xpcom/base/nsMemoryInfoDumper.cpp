@@ -219,6 +219,13 @@ h
 "
 #
 include
+"
+nsISimpleEnumerator
+.
+h
+"
+#
+include
 <
 errno
 .

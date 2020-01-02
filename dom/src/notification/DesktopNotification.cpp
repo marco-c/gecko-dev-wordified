@@ -147,6 +147,13 @@ PCOMContentPermissionRequestChild
 .
 h
 "
+#
+include
+"
+nsIScriptSecurityManager
+.
+h
+"
 namespace
 mozilla
 {

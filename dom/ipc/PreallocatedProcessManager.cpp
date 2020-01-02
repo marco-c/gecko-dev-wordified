@@ -149,6 +149,13 @@ ContentParent
 .
 h
 "
+#
+include
+"
+nsIPropertyBag2
+.
+h
+"
 using
 namespace
 mozilla

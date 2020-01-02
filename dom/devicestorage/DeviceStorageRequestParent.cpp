@@ -173,6 +173,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+nsNetCID
+.
+h
+"
 namespace
 mozilla
 {

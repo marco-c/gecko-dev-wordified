@@ -209,6 +209,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 mozilla
 /
 unused

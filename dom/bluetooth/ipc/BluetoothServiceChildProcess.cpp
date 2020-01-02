@@ -154,6 +154,13 @@ BluetoothChild
 .
 h
 "
+#
+include
+"
+MainThreadUtils
+.
+h
+"
 USING_BLUETOOTH_NAMESPACE
 namespace
 {

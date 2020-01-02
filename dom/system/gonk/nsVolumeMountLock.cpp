@@ -119,6 +119,13 @@ nsString
 h
 "
 #
+include
+"
+nsXULAppAPI
+.
+h
+"
+#
 define
 VOLUME_MANAGER_LOG_TAG
 "
