@@ -4242,7 +4242,7 @@ skipCall
 uint32_t
 minUses
 =
-UsesBeforeIonRecompile
+UsesBeforeIonCompile
 (
 script
 pc

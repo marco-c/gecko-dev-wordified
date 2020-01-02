@@ -13599,6 +13599,18 @@ count
 SequentialExecution
 )
 ;
+const
+OptimizationInfo
+*
+optimizationInfo
+=
+js_IonOptimizations
+.
+get
+(
+Optimization_AsmJS
+)
+;
 mirGen_
 =
 lifo_
@@ -13625,6 +13637,7 @@ compartment
 alloc_
 graph_
 info_
+optimizationInfo
 )
 ;
 if

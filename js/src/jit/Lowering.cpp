@@ -25231,9 +25231,16 @@ false
 ;
 if
 (
-js_IonOptions
+gen
+-
+>
+optimizationInfo
+(
+)
 .
 registerAllocator
+(
+)
 =
 =
 RegisterAllocator_LSRA
