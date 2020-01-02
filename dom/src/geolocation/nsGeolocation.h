@@ -238,13 +238,6 @@ h
 #
 include
 "
-DictionaryHelpers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
