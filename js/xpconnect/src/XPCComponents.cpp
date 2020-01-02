@@ -19733,10 +19733,10 @@ isObject
 NS_ERROR_INVALID_ARG
 )
 ;
-JSObject
-*
+RootedObject
 global
-=
+(
+cx
 UncheckedUnwrap
 (
 &
@@ -19752,6 +19752,7 @@ stopAtOuter
 *
 /
 false
+)
 )
 ;
 NS_ENSURE_TRUE
@@ -19840,10 +19841,10 @@ isObject
 NS_ERROR_INVALID_ARG
 )
 ;
-JSObject
-*
+RootedObject
 global
-=
+(
+cx
 UncheckedUnwrap
 (
 &
@@ -19859,6 +19860,7 @@ stopAtOuter
 *
 /
 false
+)
 )
 ;
 NS_ENSURE_TRUE
