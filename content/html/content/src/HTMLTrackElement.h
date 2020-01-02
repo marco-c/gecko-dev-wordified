@@ -597,11 +597,7 @@ ReadyState
 (
 )
 const
-{
-return
-mReadyState
 ;
-}
 TextTrack
 *
 Track
@@ -870,9 +866,6 @@ nsRefPtr
 WebVTTListener
 >
 mListener
-;
-uint16_t
-mReadyState
 ;
 void
 CreateTextTrack
