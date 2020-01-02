@@ -5973,6 +5973,9 @@ ch
 :
 0
 }
+"
+center
+"
 )
 ;
 }
@@ -9941,6 +9944,11 @@ actualLocation
 start
 .
 column
+align
+:
+"
+center
+"
 noDebug
 :
 true

@@ -809,7 +809,7 @@ aEditor
 .
 sourceEditor
 .
-getCaretPosition
+getCursor
 (
 )
 .

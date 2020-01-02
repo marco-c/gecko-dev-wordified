@@ -3210,6 +3210,9 @@ columnOffset
 |
 0
 }
+aFlags
+.
+align
 )
 ;
 }
