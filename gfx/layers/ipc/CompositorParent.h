@@ -604,6 +604,13 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvForceComposite
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvNotifyRegionInvalidated
 (
 const
@@ -665,7 +672,9 @@ TargetConfig
 &
 aTargetConfig
 bool
-isFirstPaint
+aIsFirstPaint
+bool
+aScheduleComposite
 )
 MOZ_OVERRIDE
 ;
@@ -821,6 +830,8 @@ uint64_t
 aId
 bool
 aIsFirstPaint
+bool
+aScheduleComposite
 )
 ;
 /

@@ -146,7 +146,9 @@ TargetConfig
 &
 aTargetConfig
 bool
-isFirstPaint
+aIsFirstPaint
+bool
+aScheduleComposite
 )
 =
 0

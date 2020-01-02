@@ -450,6 +450,10 @@ const
 bool
 &
 isFirstPaint
+const
+bool
+&
+scheduleComposite
 EditReplyArray
 *
 reply
@@ -472,6 +476,10 @@ const
 bool
 &
 isFirstPaint
+const
+bool
+&
+scheduleComposite
 )
 MOZ_OVERRIDE
 ;

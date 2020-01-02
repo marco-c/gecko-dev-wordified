@@ -2422,6 +2422,8 @@ EditReply
 *
 aReplies
 bool
+aScheduleComposite
+bool
 *
 aSent
 )
@@ -3421,6 +3423,7 @@ SendUpdate
 cset
 targetConfig
 mIsFirstPaint
+aScheduleComposite
 aReplies
 )
 )
@@ -3523,6 +3526,7 @@ SendUpdateNoSwap
 cset
 targetConfig
 mIsFirstPaint
+aScheduleComposite
 )
 )
 {

@@ -1183,6 +1183,10 @@ const
 bool
 &
 isFirstPaint
+const
+bool
+&
+scheduleComposite
 )
 {
 return
@@ -1191,6 +1195,7 @@ RecvUpdate
 cset
 targetConfig
 isFirstPaint
+scheduleComposite
 nullptr
 )
 ;
@@ -1216,6 +1221,10 @@ const
 bool
 &
 isFirstPaint
+const
+bool
+&
+scheduleComposite
 InfallibleTArray
 <
 EditReply
@@ -3127,6 +3136,7 @@ ShadowLayersUpdated
 this
 targetConfig
 isFirstPaint
+scheduleComposite
 )
 ;
 #

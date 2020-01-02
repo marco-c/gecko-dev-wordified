@@ -975,6 +975,13 @@ return
 mNeedsComposite
 ;
 }
+virtual
+void
+Composite
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 enum
@@ -1008,6 +1015,8 @@ context
 void
 ForwardTransaction
 (
+bool
+aScheduleComposite
 )
 ;
 /

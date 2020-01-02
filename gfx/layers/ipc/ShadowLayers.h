@@ -2237,6 +2237,8 @@ EditReply
 *
 aReplies
 bool
+aScheduleComposite
+bool
 *
 aSent
 )
