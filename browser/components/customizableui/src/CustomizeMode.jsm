@@ -861,6 +861,14 @@ window
 .
 PanelUI
 .
+hide
+(
+)
+;
+window
+.
+PanelUI
+.
 menuButton
 .
 addEventListener
@@ -878,7 +886,7 @@ PanelUI
 .
 menuButton
 .
-disabled
+open
 =
 true
 ;
@@ -914,14 +922,6 @@ parentNode
 selectedPanel
 =
 customizer
-;
-window
-.
-PanelUI
-.
-hide
-(
-)
 ;
 /
 /
@@ -1273,7 +1273,7 @@ PanelUI
 .
 menuButton
 .
-disabled
+open
 =
 false
 ;
