@@ -9490,7 +9490,10 @@ imglayer
 SetScaleToSize
 (
 size
-SCALE_STRETCH
+ScaleMode
+:
+:
+STRETCH
 )
 ;
 imglayer

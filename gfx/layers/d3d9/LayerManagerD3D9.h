@@ -568,6 +568,9 @@ GetBackendType
 )
 {
 return
+LayersBackend
+:
+:
 LAYERS_D3D9
 ;
 }

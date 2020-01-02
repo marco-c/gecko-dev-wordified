@@ -1391,6 +1391,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 )
 {
@@ -7523,6 +7526,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 "
 AutoLayerManagerSetup
@@ -7582,6 +7588,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 "
 AutoLayerManagerSetup
@@ -7613,6 +7622,9 @@ mozilla
 :
 :
 layers
+:
+:
+BufferMode
 :
 :
 BUFFER_NONE
@@ -8268,6 +8280,9 @@ aHints
 .
 AppendElement
 (
+LayersBackend
+:
+:
 LAYERS_OPENGL
 )
 ;
@@ -8276,6 +8291,9 @@ aHints
 .
 AppendElement
 (
+LayersBackend
+:
+:
 LAYERS_BASIC
 )
 ;
@@ -8320,6 +8338,9 @@ i
 ]
 =
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 &
 &
@@ -8364,6 +8385,9 @@ aHints
 i
 ]
 =
+LayersBackend
+:
+:
 LAYERS_NONE
 ;
 }

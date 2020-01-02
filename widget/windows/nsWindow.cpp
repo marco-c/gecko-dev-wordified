@@ -10319,6 +10319,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_D3D9
 )
 &
@@ -23099,6 +23102,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_D3D10
 )
 {
@@ -23279,6 +23285,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 &
 &
@@ -42047,6 +42056,9 @@ GetBackendType
 )
 !
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 )
 {
@@ -43957,6 +43969,9 @@ aHints
 .
 AppendElement
 (
+LayersBackend
+:
+:
 LAYERS_OPENGL
 )
 ;
@@ -43973,6 +43988,9 @@ aHints
 .
 AppendElement
 (
+LayersBackend
+:
+:
 LAYERS_D3D11
 )
 ;
@@ -43981,6 +43999,9 @@ aHints
 .
 AppendElement
 (
+LayersBackend
+:
+:
 LAYERS_D3D9
 )
 ;
@@ -43989,6 +44010,9 @@ aHints
 .
 AppendElement
 (
+LayersBackend
+:
+:
 LAYERS_BASIC
 )
 ;
@@ -48127,6 +48151,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 )
 {

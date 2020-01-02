@@ -17235,6 +17235,9 @@ thebesContext
 BasicLayerManager
 :
 :
+BufferMode
+:
+:
 BUFFER_NONE
 )
 ;

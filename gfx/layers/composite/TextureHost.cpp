@@ -645,6 +645,9 @@ GetBackend
 )
 {
 case
+LayersBackend
+:
+:
 LAYERS_OPENGL
 :
 {
@@ -690,6 +693,9 @@ result
 ifdef
 XP_WIN
 case
+LayersBackend
+:
+:
 LAYERS_D3D9
 :
 return
@@ -701,6 +707,9 @@ aTextureFlags
 )
 ;
 case
+LayersBackend
+:
+:
 LAYERS_D3D11
 :
 return
@@ -714,6 +723,9 @@ aTextureFlags
 #
 endif
 case
+LayersBackend
+:
+:
 LAYERS_BASIC
 :
 return
@@ -870,6 +882,9 @@ GetBackend
 )
 {
 case
+LayersBackend
+:
+:
 LAYERS_OPENGL
 :
 return
@@ -881,6 +896,9 @@ aFlags
 )
 ;
 case
+LayersBackend
+:
+:
 LAYERS_BASIC
 :
 return
@@ -895,6 +913,9 @@ aFlags
 ifdef
 MOZ_WIDGET_GONK
 case
+LayersBackend
+:
+:
 LAYERS_NONE
 :
 /
@@ -942,6 +963,9 @@ endif
 ifdef
 XP_WIN
 case
+LayersBackend
+:
+:
 LAYERS_D3D11
 :
 return
@@ -953,6 +977,9 @@ aFlags
 )
 ;
 case
+LayersBackend
+:
+:
 LAYERS_D3D9
 :
 return

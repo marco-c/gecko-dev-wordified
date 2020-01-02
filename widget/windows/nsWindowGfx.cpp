@@ -2323,6 +2323,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_CLIENT
 )
 ?
@@ -2901,6 +2904,9 @@ GetBackendType
 )
 {
 case
+LayersBackend
+:
+:
 LAYERS_BASIC
 :
 {
@@ -3563,6 +3569,9 @@ mozilla
 layers
 :
 :
+BufferMode
+:
+:
 BUFFER_NONE
 ;
 if
@@ -3612,7 +3621,10 @@ mozilla
 layers
 :
 :
-BUFFER_BUFFERED
+BufferMode
+:
+:
+BUFFERED
 ;
 break
 ;
@@ -3689,7 +3701,10 @@ mozilla
 layers
 :
 :
-BUFFER_BUFFERED
+BufferMode
+:
+:
+BUFFERED
 ;
 #
 endif
@@ -4503,6 +4518,9 @@ break
 ifdef
 MOZ_ENABLE_D3D9_LAYER
 case
+LayersBackend
+:
+:
 LAYERS_D3D9
 :
 {
@@ -4618,6 +4636,9 @@ endif
 ifdef
 MOZ_ENABLE_D3D10_LAYER
 case
+LayersBackend
+:
+:
 LAYERS_D3D10
 :
 {
@@ -4702,6 +4723,9 @@ break
 #
 endif
 case
+LayersBackend
+:
+:
 LAYERS_CLIENT
 :
 result

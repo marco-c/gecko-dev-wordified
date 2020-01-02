@@ -1506,6 +1506,9 @@ TextureFactoryIdentifier
 LayersBackend
 aLayersBackend
 =
+LayersBackend
+:
+:
 LAYERS_NONE
 GeckoProcessType
 aParentProcessId

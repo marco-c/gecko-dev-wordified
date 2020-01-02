@@ -1361,7 +1361,7 @@ LayersBackend
 >
 :
 public
-EnumSerializer
+TypedEnumSerializer
 <
 mozilla
 :
@@ -1376,11 +1376,17 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_NONE
 mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_LAST
@@ -1404,7 +1410,7 @@ ScaleMode
 >
 :
 public
-EnumSerializer
+TypedEnumSerializer
 <
 mozilla
 :
@@ -1419,6 +1425,9 @@ mozilla
 layers
 :
 :
+ScaleMode
+:
+:
 SCALE_NONE
 mozilla
 :
@@ -1426,7 +1435,10 @@ mozilla
 layers
 :
 :
-SCALE_SENTINEL
+ScaleMode
+:
+:
+SENTINEL
 >
 {
 }

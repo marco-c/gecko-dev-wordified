@@ -371,6 +371,9 @@ GetCompositorBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_OPENGL
 )
 {
@@ -1455,6 +1458,9 @@ GetSurfaceMode
 )
 =
 =
+SurfaceMode
+:
+:
 SURFACE_OPAQUE
 ?
 gfxContentType

@@ -1174,6 +1174,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_CLIENT
 =
 =
@@ -1205,6 +1208,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_BASIC
@@ -1296,6 +1302,9 @@ mozilla
 :
 :
 layers
+:
+:
+BufferMode
 :
 :
 BUFFER_NONE
@@ -2644,6 +2653,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 )
 {
@@ -2675,6 +2687,9 @@ mozilla
 layers
 :
 :
+BufferMode
+:
+:
 BUFFER_NONE
 ScreenRotation
 (
@@ -2696,6 +2711,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_CLIENT
 )
 {
@@ -2725,6 +2743,9 @@ mozilla
 :
 :
 layers
+:
+:
+BufferMode
 :
 :
 BUFFER_NONE
@@ -3205,6 +3226,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_OPENGL

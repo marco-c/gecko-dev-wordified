@@ -1937,6 +1937,9 @@ aWidget
 )
 mDoubleBuffering
 (
+BufferMode
+:
+:
 BUFFER_NONE
 )
 mUsingDefaultTarget
@@ -1990,6 +1993,9 @@ nullptr
 )
 mDoubleBuffering
 (
+BufferMode
+:
+:
 BUFFER_NONE
 )
 mUsingDefaultTarget
@@ -4179,6 +4185,9 @@ mUsingDefaultTarget
 mDoubleBuffering
 !
 =
+BufferMode
+:
+:
 BUFFER_NONE
 )
 {

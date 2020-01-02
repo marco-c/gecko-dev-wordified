@@ -483,6 +483,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_NONE
 LayerManagerPersistence
 aPersistence

@@ -352,6 +352,9 @@ GetBackend
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_OPENGL
 )
 {

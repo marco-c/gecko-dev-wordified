@@ -257,6 +257,9 @@ aManager
 )
 mCurrentSurfaceMode
 (
+SurfaceMode
+:
+:
 SURFACE_OPAQUE
 )
 {
@@ -555,6 +558,9 @@ mCurrentSurfaceMode
 )
 {
 case
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 :
 technique
@@ -571,6 +577,9 @@ LoadMaskTexture
 break
 ;
 case
+SurfaceMode
+:
+:
 SURFACE_OPAQUE
 :
 technique
@@ -589,6 +598,9 @@ LoadMaskTexture
 break
 ;
 case
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 :
 technique
@@ -958,6 +970,9 @@ if
 mode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 &
 &
@@ -978,6 +993,9 @@ SupportsComponentAlphaChildren
 {
 mode
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 }
@@ -1108,6 +1126,9 @@ if
 mode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_OPAQUE
 )
 {
@@ -1153,6 +1174,9 @@ transparent
 .
 mode
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 }
@@ -1492,6 +1516,9 @@ mTexture
 mode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 &
 &
@@ -1793,6 +1820,9 @@ type
 aMode
 !
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ?
 gfxContentType
@@ -1881,6 +1911,9 @@ format
 aMode
 !
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ?
 SurfaceFormat
@@ -1952,6 +1985,9 @@ if
 aMode
 !
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 &
 &
@@ -2496,6 +2532,9 @@ if
 aMode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -2647,6 +2686,9 @@ if
 aMode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 )
 {
@@ -2735,7 +2777,10 @@ Callback
 this
 context
 aRegion
-CLIP_DRAW
+DrawRegionClip
+:
+:
+DRAW
 nsIntRegion
 (
 )
@@ -2935,6 +2980,9 @@ mTexture
 aMode
 !
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ?
 gfxContentType
@@ -2996,6 +3044,9 @@ if
 aMode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 &
 &
@@ -3182,6 +3233,9 @@ if
 aMode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -3214,6 +3268,9 @@ mTexture
 aMode
 !
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ?
 SurfaceFormat

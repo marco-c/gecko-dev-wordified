@@ -196,6 +196,9 @@ FILTER_GOOD
 )
 mScaleMode
 (
+ScaleMode
+:
+:
 SCALE_NONE
 )
 mDisallowBigImage
@@ -293,6 +296,9 @@ if
 mScaleMode
 !
 =
+ScaleMode
+:
+:
 SCALE_NONE
 &
 &
@@ -321,7 +327,10 @@ NS_ASSERTION
 mScaleMode
 =
 =
-SCALE_STRETCH
+ScaleMode
+:
+:
+STRETCH
 "
 No
 other
