@@ -12816,6 +12816,17 @@ aInvalidRegion
 )
 MOZ_OVERRIDE
 ;
+protected
+:
+nsRect
+CalculateBounds
+(
+const
+nsStyleBorder
+&
+aStyleBorder
+)
+;
 }
 ;
 /
