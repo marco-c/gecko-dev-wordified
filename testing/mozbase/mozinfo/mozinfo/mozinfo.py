@@ -336,7 +336,7 @@ PROCESSOR_ARCHITECTURE
 '
 processor
 )
-        
+    
 system
 =
 os
@@ -359,7 +359,7 @@ _
 '
 '
 )
-        
+    
 service_pack
 =
 os
@@ -372,7 +372,7 @@ getwindowsversion
 [
 4
 ]
-        
+    
 info
 [
 '

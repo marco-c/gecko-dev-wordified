@@ -59,12 +59,17 @@ from
 setuptools
 import
 setup
+PACKAGE_NAME
+=
+'
+mozprofile
+'
 PACKAGE_VERSION
 =
 '
 0
 .
-16
+20
 '
 #
 we
@@ -87,7 +92,7 @@ version_info
 deps
 =
 [
-"
+'
 ManifestDestiny
 >
 =
@@ -96,24 +101,26 @@ ManifestDestiny
 5
 .
 4
-"
+'
         
-"
+'
 mozfile
 >
 =
-0
+1
 .
-12
-"
+0
+'
+        
+'
+mozlog
+'
 ]
 setup
 (
 name
 =
-'
-mozprofile
-'
+PACKAGE_NAME
       
 version
 =
@@ -313,9 +320,6 @@ tests_require
 [
 '
 mozhttpd
-'
-'
-mozfile
 '
 ]
       
