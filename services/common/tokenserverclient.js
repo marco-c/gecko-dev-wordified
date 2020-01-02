@@ -2486,13 +2486,12 @@ status
 error
 .
 message
-(
+=
 "
 Authentication
 failed
 .
 "
-)
 ;
 error
 .
