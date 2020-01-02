@@ -3531,14 +3531,7 @@ NS_ERROR_FAILURE
 a2dp
 -
 >
-ResetA2dp
-(
-)
-;
-a2dp
--
->
-ResetAvrcp
+Reset
 (
 )
 ;

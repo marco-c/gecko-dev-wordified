@@ -3375,9 +3375,7 @@ OnConnect
 (
 NS_LITERAL_STRING
 (
-"
-SocketConnectionError
-"
+ERR_CONNECTION_FAILED
 )
 )
 ;

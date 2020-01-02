@@ -3684,9 +3684,7 @@ OnConnect
 (
 NS_LITERAL_STRING
 (
-"
-A2dpConnectionError
-"
+ERR_CONNECTION_FAILED
 )
 )
 ;
