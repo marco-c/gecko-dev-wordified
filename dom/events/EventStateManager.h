@@ -5247,7 +5247,7 @@ bool
 mIsMouseDown
 ;
 bool
-mResetFMMouseDownState
+mResetFMMouseButtonHandlingState
 ;
 private
 :

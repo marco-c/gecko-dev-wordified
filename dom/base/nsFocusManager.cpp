@@ -1276,7 +1276,7 @@ Clear
 (
 )
 ;
-mMouseDownEventHandlingDocument
+mMouseButtonEventHandlingDocument
 =
 nullptr
 ;
@@ -7421,7 +7421,7 @@ if
 sendFocusEvent
 &
 &
-mMouseDownEventHandlingDocument
+mMouseButtonEventHandlingDocument
 )
 {
 /
@@ -7429,7 +7429,7 @@ mMouseDownEventHandlingDocument
 However
 while
 mouse
-down
+button
 event
 is
 handling
@@ -7452,7 +7452,7 @@ domNode
 =
 do_QueryInterface
 (
-mMouseDownEventHandlingDocument
+mMouseButtonEventHandlingDocument
 )
 ;
 sendFocusEvent
@@ -22056,13 +22056,13 @@ if
 sInstance
 -
 >
-mMouseDownEventHandlingDocument
+mMouseButtonEventHandlingDocument
 )
 {
 sInstance
 -
 >
-mMouseDownEventHandlingDocument
+mMouseButtonEventHandlingDocument
 -
 >
 MarkUncollectableForCCGeneration
