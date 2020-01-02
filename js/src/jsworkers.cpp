@@ -5893,6 +5893,12 @@ threadLoop
 (
 )
 {
+JS
+:
+:
+AutoAssertNoGC
+nogc
+;
 WorkerThreadState
 &
 state
