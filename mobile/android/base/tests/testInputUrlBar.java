@@ -623,17 +623,6 @@ yz
 )
 ;
 }
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 private
 void
 startEditingMode

@@ -85,17 +85,6 @@ Link
 "
 }
 ;
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 public
 void
 testLinkContextMenu

@@ -189,17 +189,6 @@ private
 Activity
 mActivity
 ;
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 /
 *
 *

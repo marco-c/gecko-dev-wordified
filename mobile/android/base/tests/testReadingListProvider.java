@@ -392,17 +392,6 @@ ReadingListProvider
 }
 ;
 Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
-Override
 public
 void
 setUp

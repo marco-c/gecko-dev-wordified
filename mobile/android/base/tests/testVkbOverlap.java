@@ -137,17 +137,6 @@ PAGE_SETTLE_TIME
 =
 5000
 ;
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 public
 void
 testVkbOverlap

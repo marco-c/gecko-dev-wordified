@@ -481,13 +481,15 @@ mLauncherActivityClass
 }
 Override
 protected
-int
+Type
 getTestType
 (
 )
 {
 return
-TEST_TALOS
+Type
+.
+TALOS
 ;
 }
 private

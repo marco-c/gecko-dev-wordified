@@ -183,17 +183,6 @@ query
 __searchTerms__
 "
 ;
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 public
 void
 testSearchSuggestions

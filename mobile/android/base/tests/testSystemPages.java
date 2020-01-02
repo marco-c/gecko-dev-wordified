@@ -62,17 +62,6 @@ AFTER_BACK_SLEEP_MS
 =
 500
 ;
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 public
 void
 testSystemPages
