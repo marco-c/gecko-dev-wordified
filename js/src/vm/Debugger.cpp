@@ -11692,6 +11692,14 @@ getNext
 (
 )
 )
+{
+if
+(
+s
+-
+>
+frame
+)
 MarkObject
 (
 trc
@@ -11707,6 +11715,7 @@ SavedFrame
 "
 )
 ;
+}
 /
 *
 Trace
