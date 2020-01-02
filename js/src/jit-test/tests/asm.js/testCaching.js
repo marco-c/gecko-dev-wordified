@@ -1467,7 +1467,9 @@ i32
 new
 Int32Array
 (
-4096
+BUF_MIN
+/
+4
 )
 ;
 i32
