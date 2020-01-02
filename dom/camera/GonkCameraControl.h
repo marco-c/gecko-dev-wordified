@@ -804,9 +804,9 @@ int
 aFd
 int
 aRotation
-int64_t
+uint64_t
 aMaxFileSizeBytes
-int64_t
+uint64_t
 aMaxVideoLengthMs
 )
 ;
