@@ -1160,6 +1160,16 @@ GL_HALF_FLOAT_OES
 =
 GL_HALF_FLOAT
 *
+WebGL
+handles
+this
+specifically
+with
+an
+OES_texture_half_float
+check
+.
+*
 /
 }
 {
