@@ -116,6 +116,12 @@ MPL
 *
 /
 #
+ifndef
+nsMediaSniffer_h
+#
+define
+nsMediaSniffer_h
+#
 include
 "
 nsIModule
@@ -285,3 +291,5 @@ sSnifferEntries
 ;
 }
 ;
+#
+endif
