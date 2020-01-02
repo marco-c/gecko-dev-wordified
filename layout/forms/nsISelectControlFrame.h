@@ -106,9 +106,6 @@ nsQueryFrame
 .
 h
 "
-class
-nsIDOMHTMLOptionElement
-;
 /
 *
 *
