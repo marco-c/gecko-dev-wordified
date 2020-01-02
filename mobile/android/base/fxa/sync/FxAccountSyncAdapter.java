@@ -714,7 +714,7 @@ keyPair
 =
 RSACryptoImplementation
 .
-generateKeypair
+generateKeyPair
 (
 1024
 )
