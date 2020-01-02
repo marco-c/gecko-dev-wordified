@@ -834,7 +834,7 @@ uri
 )
 ?
 "
-unpin
+hide
 "
 :
 "
