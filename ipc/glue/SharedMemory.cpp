@@ -321,7 +321,7 @@ compareExchange
 )
 )
 {
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 ShmemAllocatedReporter
@@ -329,7 +329,7 @@ ShmemAllocatedReporter
 )
 )
 ;
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 ShmemMappedReporter

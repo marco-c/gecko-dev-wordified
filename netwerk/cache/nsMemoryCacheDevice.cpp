@@ -509,7 +509,10 @@ NetworkMemoryCacheReporter
 this
 )
 ;
-NS_RegisterMemoryReporter
+mozilla
+:
+:
+RegisterWeakMemoryReporter
 (
 mReporter
 )
@@ -523,7 +526,10 @@ nsMemoryCacheDevice
 (
 )
 {
-NS_UnregisterMemoryReporter
+mozilla
+:
+:
+UnregisterWeakMemoryReporter
 (
 mReporter
 )

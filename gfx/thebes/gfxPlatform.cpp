@@ -2783,7 +2783,7 @@ false
 )
 ;
 }
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 GfxMemoryImageReporter

@@ -448,12 +448,6 @@ mScreenDepth
 gfxImageFormat
 mOffscreenFormat
 ;
-nsCOMPtr
-<
-nsIMemoryReporter
->
-mFreetypeReporter
-;
 }
 ;
 #
