@@ -2207,8 +2207,6 @@ static
 bool
 EventIsInsideWindow
 (
-UINT
-Msg
 nsWindow
 *
 aWindow
