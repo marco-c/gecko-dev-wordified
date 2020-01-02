@@ -1652,16 +1652,6 @@ return
 ;
 }
 }
-mBufferRect
-=
-aBufferRect
-;
-mBufferRotation
-=
-nsIntPoint
-(
-)
-;
 }
 void
 ContentClientRemoteBuffer
