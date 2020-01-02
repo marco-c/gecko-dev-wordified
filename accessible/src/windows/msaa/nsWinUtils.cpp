@@ -174,6 +174,13 @@ nsIDocShellTreeItem
 .
 h
 "
+#
+include
+"
+nsIXULRuntime
+.
+h
+"
 using
 namespace
 mozilla
