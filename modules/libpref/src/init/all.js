@@ -2466,7 +2466,7 @@ peerconnection
 .
 enabled
 "
-true
+false
 )
 ;
 pref
@@ -2480,7 +2480,7 @@ video
 .
 enabled
 "
-true
+false
 )
 ;
 pref
