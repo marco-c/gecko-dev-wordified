@@ -987,14 +987,9 @@ DataChannel
 Mutex
 mLock
 ;
-void
+int32_t
 ReadBlob
 (
-already_AddRefed
-<
-DataChannelConnection
->
-aThis
 uint16_t
 aStream
 nsIInputStream
