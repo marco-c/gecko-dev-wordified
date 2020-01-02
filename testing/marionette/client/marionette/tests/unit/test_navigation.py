@@ -1113,17 +1113,17 @@ e
             
 self
 .
-assertEqual
+assertIn
 (
+"
+Error
+loading
+page
+"
 str
 (
 e
 )
-'
-Error
-loading
-page
-'
 )
         
 except
