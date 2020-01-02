@@ -202,6 +202,11 @@ nsIChannel
 public
 nsIStreamListener
 {
+~
+nsIconChannel
+(
+)
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -209,11 +214,6 @@ NS_DECL_NSIREQUEST
 NS_DECL_NSICHANNEL
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
-nsIconChannel
-(
-)
-;
-~
 nsIconChannel
 (
 )
