@@ -512,7 +512,6 @@ nsString
 Model
 (
 )
-const
 {
 return
 EmptyString
@@ -525,7 +524,6 @@ nsString
 Hardware
 (
 )
-const
 {
 return
 EmptyString
@@ -538,7 +536,6 @@ nsString
 Product
 (
 )
-const
 {
 return
 EmptyString
@@ -551,7 +548,6 @@ nsString
 Manufacturer
 (
 )
-const
 {
 return
 EmptyString
@@ -564,7 +560,6 @@ uint32_t
 OperatingSystemVersion
 (
 )
-const
 {
 return
 0
