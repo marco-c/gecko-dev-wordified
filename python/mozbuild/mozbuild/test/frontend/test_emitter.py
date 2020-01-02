@@ -492,19 +492,6 @@ tier_dirs
             
 self
 .
-assertEqual
-(
-len
-(
-o
-.
-tier_static_dirs
-)
-0
-)
-            
-self
-.
 assertTrue
 (
 os
@@ -788,7 +775,7 @@ len
 (
 objs
 )
-4
+6
 )
         
 reldirs
@@ -820,7 +807,14 @@ foo
 biz
 '
 '
+foo_static
+'
+'
 bar
+'
+            
+'
+baz
 '
 ]
 )
