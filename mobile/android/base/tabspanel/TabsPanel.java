@@ -334,12 +334,6 @@ interface
 PanelView
 {
 public
-ViewGroup
-getLayout
-(
-)
-;
-public
 void
 setTabsPanel
 (
