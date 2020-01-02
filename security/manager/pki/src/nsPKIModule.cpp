@@ -128,13 +128,6 @@ nsFormSigningDialog
 .
 h
 "
-#
-include
-"
-nsISSLCertErrorDialog
-.
-h
-"
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsNSSDialogs
@@ -234,11 +227,6 @@ kPKIContracts
 ]
 =
 {
-{
-NS_SSLCERTERRORDIALOG_CONTRACTID
-&
-kNS_NSSDIALOGS_CID
-}
 {
 NS_TOKENPASSWORDSDIALOG_CONTRACTID
 &
