@@ -2296,6 +2296,46 @@ candidates
 0
 ]
 )
+        
+#
+Link
+system
+libraries
+from
+OS_LIBS
+/
+HOST_OS_LIBS
+.
+        
+for
+lib
+in
+sandbox
+.
+get
+(
+variable
+.
+replace
+(
+'
+USE
+'
+'
+OS
+'
+)
+[
+]
+)
+:
+            
+obj
+.
+link_system_library
+(
+lib
+)
     
 def
 emit_from_sandbox
@@ -2816,10 +2856,6 @@ MSVC_ENABLE_PGO
             
 '
 NO_DIST_INSTALL
-'
-            
-'
-OS_LIBS
 '
             
 '
