@@ -1489,7 +1489,7 @@ new
 AMessage
 (
 '
-pause
+paus
 '
 id
 (
@@ -1633,7 +1633,7 @@ new
 AMessage
 (
 '
-resume
+resu
 '
 id
 (
@@ -4730,7 +4730,7 @@ break
 }
 case
 '
-pause
+paus
 '
 :
 {
@@ -4782,7 +4782,7 @@ break
 }
 case
 '
-resume
+resu
 '
 :
 break
@@ -5259,7 +5259,7 @@ break
 }
 case
 '
-endofstream
+eost
 '
 :
 {
@@ -5910,7 +5910,7 @@ new
 AMessage
 (
 '
-endofstream
+eost
 '
 id
 (
