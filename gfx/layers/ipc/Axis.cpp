@@ -590,9 +590,7 @@ AddFloatVarCache
 &
 gMaxEventAcceleration
 "
-gfx
-.
-axis
+apz
 .
 max_event_acceleration
 "
@@ -607,9 +605,7 @@ AddFloatVarCache
 &
 gFlingFriction
 "
-gfx
-.
-axis
+apz
 .
 fling_friction
 "
@@ -624,9 +620,7 @@ AddFloatVarCache
 &
 gVelocityThreshold
 "
-gfx
-.
-axis
+apz
 .
 velocity_threshold
 "
@@ -641,9 +635,7 @@ AddFloatVarCache
 &
 gAccelerationMultiplier
 "
-gfx
-.
-axis
+apz
 .
 acceleration_multiplier
 "
@@ -658,9 +650,7 @@ AddFloatVarCache
 &
 gFlingStoppedThreshold
 "
-gfx
-.
-axis
+apz
 .
 fling_stopped_threshold
 "
@@ -675,9 +665,7 @@ AddIntVarCache
 &
 gMaxVelocityQueueSize
 "
-gfx
-.
-axis
+apz
 .
 max_velocity_queue_size
 "

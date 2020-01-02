@@ -1699,7 +1699,7 @@ there
 is
 no
 "
-apzc
+apz
 .
 asyncscroll
 .
@@ -1738,7 +1738,7 @@ there
 is
 no
 "
-apzc
+apz
 .
 asyncscroll
 .
@@ -2007,9 +2007,7 @@ AddIntVarCache
 &
 gPanRepaintInterval
 "
-gfx
-.
-azpc
+apz
 .
 pan_repaint_interval
 "
@@ -2024,9 +2022,7 @@ AddIntVarCache
 &
 gFlingRepaintInterval
 "
-gfx
-.
-azpc
+apz
 .
 fling_repaint_interval
 "
@@ -2041,9 +2037,7 @@ AddFloatVarCache
 &
 gMinSkateSpeed
 "
-gfx
-.
-azpc
+apz
 .
 min_skate_speed
 "
@@ -2058,9 +2052,7 @@ AddIntVarCache
 &
 gTouchListenerTimeout
 "
-gfx
-.
-azpc
+apz
 .
 touch_listener_timeout
 "
@@ -2075,9 +2067,7 @@ AddIntVarCache
 &
 gNumPaintDurationSamples
 "
-gfx
-.
-azpc
+apz
 .
 num_paint_duration_samples
 "
@@ -2092,9 +2082,7 @@ AddFloatVarCache
 &
 gTouchStartTolerance
 "
-gfx
-.
-azpc
+apz
 .
 touch_start_tolerance
 "
@@ -2109,9 +2097,7 @@ AddFloatVarCache
 &
 gXSkateSizeMultiplier
 "
-gfx
-.
-azpc
+apz
 .
 x_skate_size_multiplier
 "
@@ -2126,9 +2112,7 @@ AddFloatVarCache
 &
 gYSkateSizeMultiplier
 "
-gfx
-.
-azpc
+apz
 .
 y_skate_size_multiplier
 "
@@ -2143,9 +2127,7 @@ AddFloatVarCache
 &
 gXStationarySizeMultiplier
 "
-gfx
-.
-azpc
+apz
 .
 x_stationary_size_multiplier
 "
@@ -2160,9 +2142,7 @@ AddFloatVarCache
 &
 gYStationarySizeMultiplier
 "
-gfx
-.
-azpc
+apz
 .
 y_stationary_size_multiplier
 "
@@ -2177,7 +2157,7 @@ AddIntVarCache
 &
 gAsyncScrollThrottleTime
 "
-apzc
+apz
 .
 asyncscroll
 .
@@ -2194,7 +2174,7 @@ AddIntVarCache
 &
 gAsyncScrollTimeout
 "
-apzc
+apz
 .
 asyncscroll
 .
@@ -2211,7 +2191,7 @@ AddBoolVarCache
 &
 gAsyncZoomDisabled
 "
-apzc
+apz
 .
 asynczoom
 .
@@ -2228,7 +2208,7 @@ AddBoolVarCache
 &
 gCrossSlideEnabled
 "
-apzc
+apz
 .
 cross_slide
 .
@@ -2245,7 +2225,7 @@ AddIntVarCache
 &
 gAxisLockMode
 "
-apzc
+apz
 .
 axis_lock_mode
 "
