@@ -1843,9 +1843,7 @@ case
 "
 apzc
 -
-handle
--
-pan
+transform
 -
 begin
 "
@@ -1878,9 +1876,7 @@ case
 "
 apzc
 -
-handle
--
-pan
+transform
 -
 end
 "
@@ -2886,9 +2882,7 @@ this
 "
 apzc
 -
-handle
--
-pan
+transform
 -
 begin
 "
@@ -2903,9 +2897,7 @@ this
 "
 apzc
 -
-handle
--
-pan
+transform
 -
 end
 "

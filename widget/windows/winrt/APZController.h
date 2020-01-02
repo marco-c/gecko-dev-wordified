@@ -261,13 +261,13 @@ aDelayMs
 ;
 virtual
 void
-HandlePanBegin
+NotifyTransformBegin
 (
 )
 ;
 virtual
 void
-HandlePanEnd
+NotifyTransformEnd
 (
 )
 ;
