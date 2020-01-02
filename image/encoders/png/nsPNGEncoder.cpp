@@ -1871,6 +1871,8 @@ char
 equals
 =
 token
+;
+char
 *
 value
 =

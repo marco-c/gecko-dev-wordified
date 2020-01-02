@@ -3777,6 +3777,8 @@ uint8_t
 p
 =
 mRow
+;
+uint8_t
 *
 p_end
 =

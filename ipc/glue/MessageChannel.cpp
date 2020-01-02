@@ -10518,8 +10518,14 @@ const
 char
 *
 dir
+;
+const
+char
 *
 sems
+;
+const
+char
 *
 name
 ;
