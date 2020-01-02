@@ -21180,10 +21180,11 @@ nsString
 >
 *
 )
-JSVAL_TO_PRIVATE
-(
-*
 statep
+-
+>
+toPrivate
+(
 )
 ;
 if

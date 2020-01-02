@@ -4959,9 +4959,10 @@ proto
 ;
 if
 (
-JSVAL_TO_PRIVATE
-(
 protoBinding
+.
+toPrivate
+(
 )
 !
 =

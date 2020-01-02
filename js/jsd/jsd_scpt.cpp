@@ -3636,9 +3636,10 @@ jsdhook
 JSDExecHook
 *
 )
-JSVAL_TO_PRIVATE
-(
 closure
+.
+toPrivate
+(
 )
 ;
 JSD_ExecutionHookProc

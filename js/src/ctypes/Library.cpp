@@ -1299,9 +1299,10 @@ PRLibrary
 *
 >
 (
-JSVAL_TO_PRIVATE
-(
 slot
+.
+toPrivate
+(
 )
 )
 ;

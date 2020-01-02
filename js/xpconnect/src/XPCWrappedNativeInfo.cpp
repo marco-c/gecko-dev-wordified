@@ -319,9 +319,10 @@ pInterface
 XPCNativeInterface
 *
 )
-JSVAL_TO_PRIVATE
-(
 ifaceVal
+.
+toPrivate
+(
 )
 ;
 *
@@ -331,9 +332,10 @@ pMember
 XPCNativeMember
 *
 )
-JSVAL_TO_PRIVATE
-(
 memberVal
+.
+toPrivate
+(
 )
 ;
 return
