@@ -2603,8 +2603,6 @@ GECKO_SUPPORTED_NETWORK_TYPES_DEFAULT
 "
 gsm
 wcdma
-cdma
-evdo
 "
 ;
 this
