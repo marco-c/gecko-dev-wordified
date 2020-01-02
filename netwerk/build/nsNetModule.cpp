@@ -5719,7 +5719,7 @@ CacheStorageServiceConstructor
 &
 kNS_NETWORKSEER_CID
 false
-NULL
+nullptr
 mozilla
 :
 :

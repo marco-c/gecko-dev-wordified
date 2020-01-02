@@ -2599,7 +2599,7 @@ pthread_mutex_init
 (
 &
 mMutex
-NULL
+nullptr
 )
 ;
 }
@@ -8650,7 +8650,7 @@ If
 aOldPtr
 |
 is
-NULL
+nullptr
 the
 call
 is

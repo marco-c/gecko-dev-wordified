@@ -2285,7 +2285,7 @@ ConvertToIPV6Addr
 aHost
 &
 hostAddr
-NULL
+nullptr
 )
 )
 return

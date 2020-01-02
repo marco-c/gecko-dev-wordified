@@ -1277,7 +1277,7 @@ gettimeofday
 (
 &
 tv
-NULL
+nullptr
 )
 ;
 const

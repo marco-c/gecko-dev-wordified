@@ -528,7 +528,7 @@ aHash
 ;
 mFile
 =
-NULL
+nullptr
 ;
 }
 private
@@ -1003,10 +1003,10 @@ CreateFileA
 name
 GENERIC_WRITE
 0
-NULL
+nullptr
 CREATE_NEW
 FILE_ATTRIBUTE_NORMAL
-NULL
+nullptr
 )
 ;
 }

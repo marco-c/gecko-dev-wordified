@@ -9356,7 +9356,7 @@ environment
 (
 )
 :
-NULL
+nullptr
 ;
 while
 (
