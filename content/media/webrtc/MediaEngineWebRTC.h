@@ -879,6 +879,8 @@ bool
 aNoiseOn
 uint32_t
 aNoise
+int32_t
+aPlayoutDelay
 )
 {
 return
@@ -1551,6 +1553,10 @@ webrtc
 :
 kNsDefault
 )
+mPlayoutDelay
+(
+0
+)
 mNullTransport
 (
 nullptr
@@ -1678,6 +1684,8 @@ bool
 aNoiseOn
 uint32_t
 aNoise
+int32_t
+aPlayoutDelay
 )
 ;
 virtual
@@ -1911,6 +1919,9 @@ webrtc
 :
 NsModes
 mNoiseSuppress
+;
+int32_t
+mPlayoutDelay
 ;
 NullTransport
 *
