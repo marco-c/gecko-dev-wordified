@@ -1133,7 +1133,7 @@ VP8
 decoder
 state
 vpx_codec_ctx_t
-mVP8
+mVPX
 ;
 /
 /
@@ -1408,6 +1408,16 @@ audio
 track
 int
 mAudioCodec
+;
+/
+/
+Codec
+ID
+of
+video
+track
+int
+mVideoCodec
 ;
 }
 ;

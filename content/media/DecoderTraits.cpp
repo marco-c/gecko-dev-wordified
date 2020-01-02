@@ -881,7 +881,7 @@ const
 const
 gWebMCodecs
 [
-5
+7
 ]
 =
 {
@@ -890,6 +890,14 @@ vp8
 "
 "
 vp8
+.
+0
+"
+"
+vp9
+"
+"
+vp9
 .
 0
 "
