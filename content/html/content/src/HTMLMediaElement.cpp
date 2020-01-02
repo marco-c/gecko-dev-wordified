@@ -22224,6 +22224,10 @@ AddTextTrack
 aKind
 aLabel
 aLanguage
+TextTrackMode
+:
+:
+Hidden
 TextTrackSource
 :
 :

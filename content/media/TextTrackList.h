@@ -290,6 +290,8 @@ const
 nsAString
 &
 aLanguage
+TextTrackMode
+aMode
 TextTrackSource
 aTextTrackSource
 const

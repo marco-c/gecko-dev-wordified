@@ -752,6 +752,8 @@ const
 nsAString
 &
 aLanguage
+TextTrackMode
+aMode
 TextTrackSource
 aTextTrackSource
 )
@@ -780,6 +782,7 @@ AddTextTrack
 aKind
 aLabel
 aLanguage
+aMode
 aTextTrackSource
 CompareTextTracks
 (

@@ -922,6 +922,10 @@ GetParentObject
 kind
 label
 srcLang
+TextTrackMode
+:
+:
+Disabled
 TextTrackSource
 :
 :
