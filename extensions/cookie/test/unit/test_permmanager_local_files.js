@@ -77,7 +77,7 @@ pm
 =
 Services
 .
-permissions
+perms
 ;
 /
 /

@@ -109,7 +109,7 @@ that
 URI
 Services
 .
-permissions
+perms
 .
 add
 (
@@ -130,7 +130,7 @@ kCapability
 ;
 Services
 .
-permissions
+perms
 .
 removeAll
 (
@@ -156,7 +156,7 @@ null
 ;
 Services
 .
-permissions
+perms
 .
 add
 (
@@ -177,7 +177,7 @@ kCapability
 ;
 Services
 .
-permissions
+perms
 .
 removeAll
 (
@@ -197,7 +197,7 @@ e
 =
 Services
 .
-permissions
+perms
 .
 enumerator
 ;

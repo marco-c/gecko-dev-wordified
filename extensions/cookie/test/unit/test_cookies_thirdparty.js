@@ -626,7 +626,7 @@ ALLOW_FIRST_PARTY_ONLY
 overrides
 Services
 .
-permissions
+perms
 .
 add
 (
@@ -1010,7 +1010,7 @@ LIMIT_THIRD_PARTY
 overrides
 Services
 .
-permissions
+perms
 .
 add
 (
