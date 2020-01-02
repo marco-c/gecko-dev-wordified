@@ -430,7 +430,7 @@ env
 env
 -
 >
-CallObjectMethod
+CallVoidMethod
 (
 aSurfaceTexture
 jSurfaceTexture_updateTexImage
