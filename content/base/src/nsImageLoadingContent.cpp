@@ -377,11 +377,8 @@ ScriptSettings
 h
 "
 #
-if
-defined
-(
-XP_WIN
-)
+ifdef
+LoadImage
 /
 /
 Undefine
