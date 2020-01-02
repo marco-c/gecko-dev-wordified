@@ -2955,13 +2955,11 @@ InternalScriptErrorEvent
 *
 oldScriptErrorEvent
 =
-static_cast
-<
-InternalScriptErrorEvent
-*
->
-(
 mEvent
+-
+>
+AsScriptErrorEvent
+(
 )
 ;
 InternalScriptErrorEvent
