@@ -1318,14 +1318,6 @@ aName
 this
 )
 ;
-delete
-this
-.
-_listeners
-[
-aName
-]
-;
 }
 )
 ;
