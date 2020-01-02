@@ -6329,7 +6329,9 @@ _status
 abort
 :
 return
-0
+(
+_status
+)
 ;
 }
 int
