@@ -178,6 +178,12 @@ nsCommandManager
 (
 )
 ;
+virtual
+~
+nsCommandManager
+(
+)
+;
 /
 /
 nsISupports
@@ -197,12 +203,6 @@ nsPICommandUpdater
 NS_DECL_NSPICOMMANDUPDATER
 protected
 :
-virtual
-~
-nsCommandManager
-(
-)
-;
 nsresult
 GetControllerForCommand
 (

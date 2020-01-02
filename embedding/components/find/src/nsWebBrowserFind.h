@@ -350,6 +350,12 @@ nsWebBrowserFind
 (
 )
 ;
+virtual
+~
+nsWebBrowserFind
+(
+)
+;
 /
 /
 nsISupports
@@ -364,12 +370,6 @@ nsIWebBrowserFindInFrames
 NS_DECL_NSIWEBBROWSERFINDINFRAMES
 protected
 :
-virtual
-~
-nsWebBrowserFind
-(
-)
-;
 bool
 CanFindNext
 (

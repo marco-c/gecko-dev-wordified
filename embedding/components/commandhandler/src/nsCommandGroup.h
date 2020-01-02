@@ -183,6 +183,12 @@ nsControllerCommandGroup
 (
 )
 ;
+virtual
+~
+nsControllerCommandGroup
+(
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSICONTROLLERCOMMANDGROUP
 public
@@ -200,12 +206,6 @@ GroupsHashtable
 ;
 protected
 :
-virtual
-~
-nsControllerCommandGroup
-(
-)
-;
 void
 ClearGroupsHash
 (

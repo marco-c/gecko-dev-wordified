@@ -282,8 +282,6 @@ nsRDFResource
 void
 )
 ;
-protected
-:
 virtual
 ~
 nsRDFResource
@@ -291,6 +289,8 @@ nsRDFResource
 void
 )
 ;
+protected
+:
 static
 nsIRDFService
 *

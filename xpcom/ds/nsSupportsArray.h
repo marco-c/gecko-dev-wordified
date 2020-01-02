@@ -135,6 +135,13 @@ MOZ_FINAL
 public
 nsISupportsArray
 {
+public
+:
+nsSupportsArray
+(
+void
+)
+;
 ~
 nsSupportsArray
 (
@@ -150,13 +157,6 @@ we
 re
 not
 subclassed
-public
-:
-nsSupportsArray
-(
-void
-)
-;
 static
 nsresult
 Create

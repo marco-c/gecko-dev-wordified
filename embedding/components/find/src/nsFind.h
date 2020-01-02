@@ -215,6 +215,12 @@ nsFind
 (
 )
 ;
+virtual
+~
+nsFind
+(
+)
+;
 static
 already_AddRefed
 <
@@ -229,12 +235,6 @@ aNode
 ;
 protected
 :
-virtual
-~
-nsFind
-(
-)
-;
 /
 /
 Parameters

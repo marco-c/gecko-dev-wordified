@@ -2458,12 +2458,6 @@ MOZ_FINAL
 public
 nsIRunnable
 {
-~
-nsJemallocFreeDirtyPagesRunnable
-(
-)
-{
-}
 public
 :
 NS_DECL_ISUPPORTS
@@ -2557,12 +2551,6 @@ MOZ_FINAL
 public
 nsIObserver
 {
-~
-nsMemoryPressureWatcher
-(
-)
-{
-}
 public
 :
 NS_DECL_ISUPPORTS

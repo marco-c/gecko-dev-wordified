@@ -231,6 +231,11 @@ nsDirectoryService
 (
 )
 ;
+~
+nsDirectoryService
+(
+)
+;
 static
 void
 RealInit
@@ -264,11 +269,6 @@ gService
 ;
 private
 :
-~
-nsDirectoryService
-(
-)
-;
 nsresult
 GetCurrentProcessDirectory
 (

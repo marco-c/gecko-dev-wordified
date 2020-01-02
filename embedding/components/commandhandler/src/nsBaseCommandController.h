@@ -211,6 +211,12 @@ nsBaseCommandController
 (
 )
 ;
+virtual
+~
+nsBaseCommandController
+(
+)
+;
 /
 /
 nsISupports
@@ -231,14 +237,6 @@ NS_DECL_NSICONTROLLERCONTEXT
 /
 nsIInterfaceRequestor
 NS_DECL_NSIINTERFACEREQUESTOR
-protected
-:
-virtual
-~
-nsBaseCommandController
-(
-)
-;
 private
 :
 nsWeakPtr

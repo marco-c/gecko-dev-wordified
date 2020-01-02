@@ -448,12 +448,6 @@ NS_OK
 }
 private
 :
-~
-TimerCallback
-(
-)
-{
-}
 nsIThread
 *
 *

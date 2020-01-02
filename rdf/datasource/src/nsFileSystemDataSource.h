@@ -195,6 +195,12 @@ void
 aResult
 )
 ;
+~
+FileSystemDataSource
+(
+)
+{
+}
 nsresult
 Init
 (
@@ -202,12 +208,6 @@ Init
 ;
 private
 :
-FileSystemDataSource
-(
-)
-{
-}
-~
 FileSystemDataSource
 (
 )

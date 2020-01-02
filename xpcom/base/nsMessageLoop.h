@@ -152,8 +152,6 @@ nsIMessageLoop
 {
 NS_DECL_ISUPPORTS
 NS_DECL_NSIMESSAGELOOP
-private
-:
 virtual
 ~
 nsMessageLoop
