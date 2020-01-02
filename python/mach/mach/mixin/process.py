@@ -717,7 +717,7 @@ line
 :
 line
 .
-strip
+rstrip
 (
 )
 }
