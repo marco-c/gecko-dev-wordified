@@ -1365,13 +1365,6 @@ mCurrentResponse
 "
 "
 ;
-public
-static
-boolean
-sIsUsingCustomProfile
-=
-false
-;
 private
 ContactService
 mContactService
@@ -8002,7 +7995,7 @@ default
 "
 ;
 }
-GeckoApp
+GeckoProfile
 .
 sIsUsingCustomProfile
 =

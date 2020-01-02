@@ -905,7 +905,7 @@ else
 if
 (
 !
-GeckoApp
+GeckoProfile
 .
 sIsUsingCustomProfile
 )
