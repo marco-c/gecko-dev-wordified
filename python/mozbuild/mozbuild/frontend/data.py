@@ -2413,6 +2413,23 @@ manifest_relpath
 '
         
 #
+The
+relative
+path
+of
+the
+parsed
+manifest
+within
+the
+objdir
+.
+        
+'
+manifest_obj_relpath
+'
+        
+#
 If
 this
 manifest
@@ -2511,6 +2528,12 @@ install_prefix
 self
 .
 manifest_relpath
+=
+relpath
+        
+self
+.
+manifest_obj_relpath
 =
 relpath
         
