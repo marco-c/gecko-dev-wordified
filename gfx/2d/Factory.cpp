@@ -1887,6 +1887,8 @@ retVal
 =
 newTarget
 ;
+break
+;
 }
 #
 endif
