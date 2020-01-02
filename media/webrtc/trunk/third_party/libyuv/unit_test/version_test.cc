@@ -265,7 +265,7 @@ EXPECT_NEAR
 (
 LIBYUV_VERSION
 svn_revision
-20
+3
 )
 ;
 /

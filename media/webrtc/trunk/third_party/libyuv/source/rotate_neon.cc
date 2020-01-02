@@ -118,7 +118,7 @@ if
 !
 defined
 (
-LIBYUV_DISABLE_NEON
+YUV_DISABLE_ASM
 )
 &
 &
@@ -127,6 +127,7 @@ defined
 __ARM_NEON__
 )
 static
+const
 uvec8
 kVTbl4x4Transpose
 =
@@ -230,7 +231,7 @@ plane
 "
 .
 p2align
-2
+4
 \
 n
 "
@@ -1003,17 +1004,14 @@ n
 /
 /
 TODO
-(
-frkoenig
-)
 :
-Rework
+rework
 shuffle
 above
 to
-/
-/
 write
+/
+/
 out
 with
 4
@@ -1021,7 +1019,6 @@ instead
 of
 8
 writes
-.
 "
 vst1
 .
@@ -1799,6 +1796,7 @@ q3
 ;
 }
 static
+const
 uvec8
 kVTbl4x4TransposeDi
 =
@@ -1907,7 +1905,7 @@ plane
 "
 .
 p2align
-2
+4
 \
 n
 "
@@ -2652,7 +2650,7 @@ TODO
 frkoenig
 )
 :
-Clean
+clean
 this
 up
 /
