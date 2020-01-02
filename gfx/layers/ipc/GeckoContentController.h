@@ -283,6 +283,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 =
 0
@@ -343,6 +345,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 =
 0
@@ -382,6 +386,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 =
 0

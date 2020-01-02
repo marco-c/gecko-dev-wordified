@@ -2488,6 +2488,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 MOZ_OVERRIDE
 ;
@@ -2498,6 +2500,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 MOZ_OVERRIDE
 ;
@@ -2508,6 +2512,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 MOZ_OVERRIDE
 ;

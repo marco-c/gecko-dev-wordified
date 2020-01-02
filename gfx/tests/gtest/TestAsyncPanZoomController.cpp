@@ -217,7 +217,7 @@ FrameMetrics
 )
 )
 ;
-MOCK_METHOD1
+MOCK_METHOD2
 (
 HandleDoubleTap
 void
@@ -225,10 +225,11 @@ void
 const
 CSSIntPoint
 &
+int32_t
 )
 )
 ;
-MOCK_METHOD1
+MOCK_METHOD2
 (
 HandleSingleTap
 void
@@ -236,10 +237,11 @@ void
 const
 CSSIntPoint
 &
+int32_t
 )
 )
 ;
-MOCK_METHOD1
+MOCK_METHOD2
 (
 HandleLongTap
 void
@@ -247,6 +249,7 @@ void
 const
 CSSIntPoint
 &
+int32_t
 )
 )
 ;
@@ -549,6 +552,7 @@ MultiTouchInput
 :
 MULTITOUCH_START
 aTime
+0
 )
 ;
 aTime
@@ -631,6 +635,7 @@ MultiTouchInput
 :
 MULTITOUCH_MOVE
 aTime
+0
 )
 ;
 aTime
@@ -699,6 +704,7 @@ MultiTouchInput
 :
 MULTITOUCH_MOVE
 aTime
+0
 )
 ;
 aTime
@@ -755,6 +761,7 @@ MultiTouchInput
 :
 MULTITOUCH_END
 aTime
+0
 )
 ;
 aTime
@@ -835,6 +842,7 @@ aFocusY
 10
 .
 0
+0
 )
 )
 ;
@@ -862,6 +870,7 @@ aFocusY
 aScale
 10
 .
+0
 0
 )
 )
@@ -909,6 +918,7 @@ pan
 -
 1
 .
+0
 0
 )
 )

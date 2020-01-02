@@ -1237,6 +1237,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 ;
 void
@@ -1246,6 +1248,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 ;
 void
@@ -1255,6 +1259,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 ;
 void

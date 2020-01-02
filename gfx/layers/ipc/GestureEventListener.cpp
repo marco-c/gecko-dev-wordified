@@ -401,6 +401,7 @@ MultiTouchInput
 :
 MULTITOUCH_START
 0
+0
 )
 {
 }
@@ -1582,6 +1583,9 @@ mTime
 focusPoint
 currentSpan
 currentSpan
+aEvent
+.
+modifiers
 )
 ;
 mAsyncPanZoomController
@@ -1617,6 +1621,9 @@ mTime
 focusPoint
 currentSpan
 mPreviousSpan
+aEvent
+.
+modifiers
 )
 ;
 mAsyncPanZoomController
@@ -1686,13 +1693,16 @@ below
 1
 .
 0f
-)
-;
 /
 /
 may
 change
 below
+aEvent
+.
+modifiers
+)
+;
 if
 (
 mTouches
@@ -1850,6 +1860,9 @@ mTouches
 ]
 .
 mScreenPoint
+aEvent
+.
+modifiers
 )
 ;
 return
@@ -1892,6 +1905,9 @@ mTouches
 ]
 .
 mScreenPoint
+aEvent
+.
+modifiers
 )
 ;
 return
@@ -1934,6 +1950,9 @@ mTouches
 ]
 .
 mScreenPoint
+aEvent
+.
+modifiers
 )
 ;
 return
@@ -2028,6 +2047,9 @@ mTouches
 ]
 .
 mScreenPoint
+aEvent
+.
+modifiers
 )
 ;
 return

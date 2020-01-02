@@ -1491,6 +1491,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 {
 NS_ConvertASCIItoUTF16
@@ -1516,6 +1518,14 @@ y
 :
 %
 d
+\
+"
+modifiers
+\
+"
+:
+%
+d
 }
 "
 (
@@ -1530,6 +1540,7 @@ int32_t
 aPoint
 .
 y
+aModifiers
 )
 )
 ;
@@ -1561,6 +1572,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 {
 NS_ConvertASCIItoUTF16
@@ -1586,6 +1599,14 @@ y
 :
 %
 d
+\
+"
+modifiers
+\
+"
+:
+%
+d
 }
 "
 (
@@ -1600,6 +1621,7 @@ int32_t
 aPoint
 .
 y
+aModifiers
 )
 )
 ;
@@ -1631,6 +1653,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 {
 }
