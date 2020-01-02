@@ -16134,6 +16134,11 @@ None
 )
 ;
 }
+void
+computeRange
+(
+)
+;
 }
 ;
 /
@@ -17826,6 +17831,11 @@ return
 true
 ;
 }
+void
+computeRange
+(
+)
+;
 bool
 fallible
 (
