@@ -925,6 +925,12 @@ case
 unload
 "
 :
+if
+(
+this
+.
+_mutationObserver
+)
 this
 .
 _mutationObserver
