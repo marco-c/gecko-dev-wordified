@@ -32611,6 +32611,14 @@ here
 .
 if
 (
+!
+this
+.
+restoredSessionZoom
+(
+)
+&
+&
 contentDocument
 .
 mozSyntheticDocument
