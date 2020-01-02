@@ -4294,13 +4294,6 @@ region
 content
 "
 ;
-/
-/
-TODO
-:
-Remove
-this
-polyfill
 this
 .
 rect
@@ -4309,7 +4302,7 @@ this
 .
 layoutHelpers
 .
-getAdjustedQuadsPolyfill
+getAdjustedQuads
 (
 this
 .
@@ -4365,13 +4358,6 @@ this
 _boxModelNodes
 )
 {
-/
-/
-TODO
-:
-Remove
-this
-polyfill
 let
 {
 p1
@@ -4396,7 +4382,7 @@ this
 .
 layoutHelpers
 .
-getAdjustedQuadsPolyfill
+getAdjustedQuads
 (
 this
 .
