@@ -3413,7 +3413,7 @@ faultingAddress
 activation
 -
 >
-setInterrupted
+setResumePC
 (
 nullptr
 )
@@ -4497,7 +4497,7 @@ faultingAddress
 activation
 -
 >
-setInterrupted
+setResumePC
 (
 pc
 )
@@ -6173,7 +6173,7 @@ faultingAddress
 activation
 -
 >
-setInterrupted
+setResumePC
 (
 pc
 )
@@ -7860,7 +7860,7 @@ faultingAddress
 activation
 -
 >
-setInterrupted
+setResumePC
 (
 pc
 )
