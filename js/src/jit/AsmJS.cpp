@@ -39280,10 +39280,6 @@ Saturate
 all
 helper
 threads
-plus
-the
-main
-thread
 .
 size_t
 numParallelJobs
@@ -39292,9 +39288,9 @@ HelperThreadState
 (
 )
 .
-threadCount
-+
-1
+maxAsmJSCompilationThreads
+(
+)
 ;
 /
 /
