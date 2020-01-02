@@ -249,6 +249,17 @@ DemuxVideoSample
 )
 ;
 const
+CryptoFile
+&
+Crypto
+(
+)
+{
+return
+mCrypto
+;
+}
+const
 AudioDecoderConfig
 &
 AudioConfig
@@ -301,6 +312,9 @@ mAudioConfig
 ;
 VideoDecoderConfig
 mVideoConfig
+;
+CryptoFile
+mCrypto
 ;
 nsAutoPtr
 <
