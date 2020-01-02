@@ -1307,7 +1307,7 @@ void
 gfxDWriteFontFamily
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -1320,7 +1320,7 @@ const
 gfxFontFamily
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -1347,7 +1347,7 @@ void
 gfxDWriteFontFamily
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -1368,7 +1368,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -3192,7 +3192,7 @@ void
 gfxDWriteFontEntry
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -3205,7 +3205,7 @@ const
 gfxFontEntry
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -3238,7 +3238,7 @@ void
 gfxDWriteFontEntry
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -3259,7 +3259,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -7044,7 +7044,7 @@ void
 gfxDWriteFontList
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -7057,7 +7057,7 @@ const
 gfxPlatformFontList
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -7132,7 +7132,7 @@ void
 gfxDWriteFontList
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -7153,7 +7153,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes

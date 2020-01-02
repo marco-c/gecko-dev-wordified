@@ -4330,7 +4330,7 @@ void
 gfxFT2Font
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -4346,7 +4346,7 @@ const
 gfxFont
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -4371,7 +4371,7 @@ void
 gfxFT2Font
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :
@@ -4395,7 +4395,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes

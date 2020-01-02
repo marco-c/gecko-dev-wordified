@@ -544,7 +544,7 @@ PlatformFontList
 )
 -
 >
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 &
 FontListMallocSizeOf
@@ -4188,7 +4188,7 @@ aUserArg
 aFamily
 -
 >
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 sizes
@@ -4568,7 +4568,7 @@ void
 gfxPlatformFontList
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -4721,7 +4721,7 @@ void
 gfxPlatformFontList
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -4742,7 +4742,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes

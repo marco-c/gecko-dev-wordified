@@ -3187,7 +3187,7 @@ void
 FT2FontEntry
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -3200,7 +3200,7 @@ const
 gfxFontEntry
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -3224,7 +3224,7 @@ void
 FT2FontEntry
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -3245,7 +3245,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes

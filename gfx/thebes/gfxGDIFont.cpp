@@ -3655,7 +3655,7 @@ void
 gfxGDIFont
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -3671,7 +3671,7 @@ const
 gfxFont
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -3714,7 +3714,7 @@ void
 gfxGDIFont
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :
@@ -3738,7 +3738,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes

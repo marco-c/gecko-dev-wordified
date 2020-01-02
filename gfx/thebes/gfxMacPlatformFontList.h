@@ -297,7 +297,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :

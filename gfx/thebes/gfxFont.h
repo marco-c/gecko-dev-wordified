@@ -2840,7 +2840,7 @@ memory
 reporting
 virtual
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -2855,7 +2855,7 @@ const
 ;
 virtual
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :
@@ -5179,7 +5179,7 @@ memory
 reporter
 virtual
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -5194,7 +5194,7 @@ const
 ;
 virtual
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :
@@ -6257,7 +6257,7 @@ nullptr
 ;
 }
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -6271,7 +6271,7 @@ aSizes
 const
 ;
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :
@@ -6525,7 +6525,7 @@ mFont
 ;
 static
 size_t
-SizeOfFontEntryExcludingThis
+AddSizeOfFontEntryExcludingThis
 (
 HashEntry
 *
@@ -10791,7 +10791,7 @@ NotifyGlyphsChanged
 ;
 virtual
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -10806,7 +10806,7 @@ const
 ;
 virtual
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :
