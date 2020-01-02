@@ -37501,7 +37501,7 @@ aHandle
 ErrorResult
 rv
 ;
-ClearTimeoutOrInterval
+ClearInterval
 (
 aHandle
 rv
