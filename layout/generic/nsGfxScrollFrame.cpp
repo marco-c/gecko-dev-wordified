@@ -9744,6 +9744,10 @@ mOriginOfLastScroll
 (
 nullptr
 )
+mScrollGeneration
+(
+0
+)
 mDestination
 (
 0
@@ -13036,6 +13040,10 @@ pt
 mOriginOfLastScroll
 =
 aOrigin
+;
+mScrollGeneration
++
++
 ;
 /
 /
