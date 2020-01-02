@@ -4473,11 +4473,28 @@ is
 None
 :
             
+#
+Make
+sure
+to
+return
+all
+the
+manifests
+even
+ones
+without
 tests
-=
+.
+            
+return
 self
 .
-tests
+manifest_defaults
+.
+keys
+(
+)
         
 manifests
 =
