@@ -1709,6 +1709,12 @@ UseAcceleratedSkiaCanvas
 (
 )
 ;
+virtual
+void
+InitializeSkiaCaches
+(
+)
+;
 void
 GetAzureBackendInfo
 (
