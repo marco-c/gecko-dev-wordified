@@ -8909,6 +8909,7 @@ raw_fDeleteBuffers
 (
 GLsizei
 n
+const
 GLuint
 *
 names
@@ -8933,6 +8934,7 @@ raw_fDeleteFramebuffers
 (
 GLsizei
 n
+const
 GLuint
 *
 names
@@ -8957,6 +8959,7 @@ raw_fDeleteRenderbuffers
 (
 GLsizei
 n
+const
 GLuint
 *
 names
@@ -8981,6 +8984,7 @@ raw_fDeleteTextures
 (
 GLsizei
 n
+const
 GLuint
 *
 names
@@ -9050,6 +9054,7 @@ fDeleteBuffers
 (
 GLsizei
 n
+const
 GLuint
 *
 names
@@ -9077,6 +9082,7 @@ fDeleteFramebuffers
 (
 GLsizei
 n
+const
 GLuint
 *
 names
@@ -9193,6 +9199,7 @@ fDeleteRenderbuffers
 (
 GLsizei
 n
+const
 GLuint
 *
 names
@@ -9220,6 +9227,7 @@ fDeleteTextures
 (
 GLsizei
 n
+const
 GLuint
 *
 names
@@ -14153,6 +14161,7 @@ GLContext
 aOrigin
 GLsizei
 aCount
+const
 GLuint
 *
 aNames
@@ -14180,6 +14189,7 @@ GLContext
 aOrigin
 GLsizei
 aCount
+const
 GLuint
 *
 aNames
@@ -14193,6 +14203,7 @@ GLContext
 aOrigin
 GLsizei
 aCount
+const
 GLuint
 *
 aNames
@@ -14206,6 +14217,7 @@ GLContext
 aOrigin
 GLsizei
 aCount
+const
 GLuint
 *
 aNames

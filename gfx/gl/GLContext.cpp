@@ -11045,6 +11045,7 @@ GLContext
 aOrigin
 GLsizei
 aCount
+const
 GLuint
 *
 aNames
@@ -11096,6 +11097,7 @@ GLContext
 aOrigin
 GLsizei
 aCount
+const
 GLuint
 *
 aNames
@@ -11121,6 +11123,7 @@ GLContext
 aOrigin
 GLsizei
 aCount
+const
 GLuint
 *
 aNames
@@ -11146,6 +11149,7 @@ GLContext
 aOrigin
 GLsizei
 aCount
+const
 GLuint
 *
 aNames
