@@ -7045,7 +7045,7 @@ nullptr
 )
 #
 ifdef
-DEBUG
+JS_GC_MARKING_VALIDATION
 markingValidator
 (
 nullptr
@@ -19331,6 +19331,14 @@ map
 ;
 }
 ;
+#
+endif
+/
+/
+DEBUG
+#
+ifdef
+JS_GC_MARKING_VALIDATION
 js
 :
 :
@@ -20680,6 +20688,9 @@ kind
 }
 #
 endif
+/
+/
+JS_GC_MARKING_VALIDATION
 void
 GCRuntime
 :
@@ -20690,7 +20701,7 @@ computeNonIncrementalMarkingForValidation
 {
 #
 ifdef
-DEBUG
+JS_GC_MARKING_VALIDATION
 JS_ASSERT
 (
 !
@@ -20738,7 +20749,7 @@ validateIncrementalMarking
 {
 #
 ifdef
-DEBUG
+JS_GC_MARKING_VALIDATION
 if
 (
 markingValidator
@@ -20763,7 +20774,7 @@ finishMarkingValidation
 {
 #
 ifdef
-DEBUG
+JS_GC_MARKING_VALIDATION
 js_delete
 (
 markingValidator
@@ -20787,7 +20798,7 @@ rt
 {
 #
 ifdef
-DEBUG
+JS_GC_MARKING_VALIDATION
 bool
 anyNeedsBarrier
 =
