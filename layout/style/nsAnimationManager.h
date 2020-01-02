@@ -900,9 +900,9 @@ an
 error
 to
 give
-aCurrentTime
+aElapsedDuration
 <
-aStartTime
+0
 and
 fill
 -
