@@ -4966,6 +4966,9 @@ typeArrayHint
 GSNCache
 gsn
 ;
+ScopeCoordinateNameCache
+scopeCoordinateNameCache
+;
 jsbytecode
 *
 pc

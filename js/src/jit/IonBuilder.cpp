@@ -1054,9 +1054,9 @@ nullptr
 /
 /
 The
-GSN
-cache
-allocates
+caches
+below
+allocate
 data
 from
 the
@@ -1109,6 +1109,12 @@ on
 destruction
 .
 gsn
+.
+purge
+(
+)
+;
+scopeCoordinateNameCache
 .
 purge
 (
@@ -63890,6 +63896,7 @@ name
 =
 ScopeCoordinateName
 (
+scopeCoordinateNameCache
 script
 (
 )
@@ -64155,6 +64162,7 @@ name
 =
 ScopeCoordinateName
 (
+scopeCoordinateNameCache
 script
 (
 )

@@ -1116,6 +1116,9 @@ PropertyName
 *
 ScopeCoordinateName
 (
+ScopeCoordinateNameCache
+&
+cache
 JSScript
 *
 script
