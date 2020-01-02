@@ -2648,11 +2648,8 @@ wrappedClassObj
 JS_WrapId
 (
 aCx
+&
 id
-.
-address
-(
-)
 )
 )
 return
@@ -2847,11 +2844,8 @@ set
 JS_WrapId
 (
 aCx
+&
 id
-.
-address
-(
-)
 )
 )
 {

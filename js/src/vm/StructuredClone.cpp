@@ -1404,8 +1404,7 @@ r
 JS
 :
 :
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -10490,8 +10489,7 @@ r
 JS
 :
 :
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -10546,6 +10544,10 @@ tag
 )
 nelems
 vp
+.
+address
+(
+)
 true
 )
 ;
@@ -10590,6 +10592,10 @@ readTypedArray
 arrayType
 nelems
 vp
+.
+address
+(
+)
 )
 ;
 }
