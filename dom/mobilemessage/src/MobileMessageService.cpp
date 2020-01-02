@@ -330,7 +330,7 @@ Value
 &
 aExpiryDate
 bool
-aIsReadReportRequested
+aReadReportRequested
 JSContext
 *
 aCx
@@ -359,7 +359,7 @@ aSubject
 aSmil
 aAttachments
 aExpiryDate
-aIsReadReportRequested
+aReadReportRequested
 aCx
 aMessage
 )

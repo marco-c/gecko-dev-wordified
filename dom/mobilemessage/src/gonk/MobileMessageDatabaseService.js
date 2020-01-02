@@ -8248,7 +8248,7 @@ expiry
 ;
 }
 let
-isReadReportRequested
+readReportRequested
 =
 headers
 [
@@ -8302,7 +8302,7 @@ subject
 smil
 attachments
 expiryDate
-isReadReportRequested
+readReportRequested
 )
 ;
 }
