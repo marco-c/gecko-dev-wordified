@@ -5233,7 +5233,7 @@ return
 HasAppType
 (
 "
-keyboard
+inputmethod
 "
 )
 ?
