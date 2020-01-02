@@ -140,11 +140,11 @@ h
 "
 #
 include
-<
+"
 prlog
 .
 h
->
+"
 #
 include
 <
