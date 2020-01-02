@@ -308,13 +308,6 @@ StopInternal
 MOZ_OVERRIDE
 ;
 virtual
-bool
-IsEnabledInternal
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 nsresult
 GetDefaultAdapterPathInternal
 (

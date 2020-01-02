@@ -179,12 +179,6 @@ StopInternal
 )
 ;
 virtual
-bool
-IsEnabledInternal
-(
-)
-;
-virtual
 nsresult
 GetDefaultAdapterPathInternal
 (
