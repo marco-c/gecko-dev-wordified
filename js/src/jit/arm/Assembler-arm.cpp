@@ -13541,7 +13541,7 @@ imm5
 )
 <
 <
-6
+5
 ;
 return
 writeVFPInst
