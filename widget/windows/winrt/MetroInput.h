@@ -1074,6 +1074,14 @@ aPoint
 )
 ;
 void
+AddPointerMoveDataToRecognizer
+(
+IPointerEventArgs
+*
+aArgs
+)
+;
+void
 InitGeckoMouseEventFromPointerPoint
 (
 nsMouseEvent
