@@ -419,7 +419,7 @@ length
 ;
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 /
 /
 Get
@@ -708,7 +708,7 @@ AsmJSPageSize
 ;
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 UnmapMemory
 (
 p

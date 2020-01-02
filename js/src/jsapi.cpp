@@ -35811,8 +35811,8 @@ opt
 )
 {
 #
-ifdef
-JS_ION
+ifndef
+JS_CODEGEN_NONE
 switch
 (
 opt
