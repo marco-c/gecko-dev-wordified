@@ -181,7 +181,9 @@ h
 #
 include
 "
-nsEventListenerManager
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -329,6 +331,10 @@ ShadowRoot
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -1511,7 +1517,7 @@ IsInitialized
 )
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -3062,7 +3068,7 @@ if
 window
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =

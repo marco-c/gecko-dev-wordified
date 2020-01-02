@@ -168,6 +168,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 InternalMutationEvent
 .
 h
@@ -359,13 +368,6 @@ h
 include
 "
 nsEventDispatcher
-.
-h
-"
-#
-include
-"
-nsEventListenerManager
 .
 h
 "
@@ -6215,7 +6217,7 @@ aWantsUntrusted
 true
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 listener_manager
 =
@@ -6307,7 +6309,7 @@ Value
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 listener_manager
 =
@@ -6466,7 +6468,7 @@ bool
 aUseCapture
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -6746,7 +6748,7 @@ aEventStatus
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsINode
 :
@@ -6765,7 +6767,7 @@ this
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsINode
 :
@@ -13140,7 +13142,7 @@ n
 =
 0
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -13248,7 +13250,7 @@ name_
 )
 {
 \
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -13299,7 +13301,7 @@ handler
 \
 {
 \
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =

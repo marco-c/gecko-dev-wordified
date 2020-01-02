@@ -316,7 +316,9 @@ listeners
 #
 include
 "
-nsEventListenerManager
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -3408,7 +3410,7 @@ if
 handlerChain
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -4223,7 +4225,7 @@ if
 handlerChain
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =

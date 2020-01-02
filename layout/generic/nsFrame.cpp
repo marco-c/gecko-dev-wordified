@@ -563,7 +563,9 @@ h
 #
 include
 "
-nsEventListenerManager
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -11822,7 +11824,7 @@ content
 return
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =

@@ -278,6 +278,13 @@ h
 #
 include
 "
+nsIScriptContext
+.
+h
+"
+#
+include
+"
 nsIScriptGlobalObject
 .
 h

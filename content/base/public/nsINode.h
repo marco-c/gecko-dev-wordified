@@ -360,6 +360,9 @@ nsDOMMutationObserver
 namespace
 mozilla
 {
+class
+EventListenerManager
+;
 namespace
 dom
 {
@@ -5604,7 +5607,10 @@ nsIDOMEventTarget
 /
 NS_DECL_NSIDOMEVENTTARGET
 virtual
-nsEventListenerManager
+mozilla
+:
+:
+EventListenerManager
 *
 GetExistingListenerManager
 (
@@ -5613,7 +5619,10 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-nsEventListenerManager
+mozilla
+:
+:
+EventListenerManager
 *
 GetOrCreateListenerManager
 (

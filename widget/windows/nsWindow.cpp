@@ -27881,7 +27881,7 @@ menu
 key
 code
 in
-nsEventListenerManager
+EventListenerManager
 :
 :
 HandleEvent

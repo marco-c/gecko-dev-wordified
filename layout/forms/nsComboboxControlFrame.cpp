@@ -201,6 +201,13 @@ h
 #
 include
 "
+nsIDOMEventListener
+.
+h
+"
+#
+include
+"
 nsIDOMNode
 .
 h

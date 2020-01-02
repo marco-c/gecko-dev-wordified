@@ -265,9 +265,6 @@ class
 nsAutoScriptBlockerSuppressNodeRemoved
 ;
 class
-nsEventListenerManager
-;
-class
 nsHtml5StringParser
 ;
 class
@@ -485,6 +482,9 @@ mozilla
 {
 class
 ErrorResult
+;
+class
+EventListenerManager
 ;
 class
 Selection
@@ -6616,7 +6616,10 @@ manager
 *
 /
 static
-nsEventListenerManager
+mozilla
+:
+:
+EventListenerManager
 *
 GetListenerManagerForNode
 (
@@ -6662,7 +6665,10 @@ manager
 *
 /
 static
-nsEventListenerManager
+mozilla
+:
+:
+EventListenerManager
 *
 GetExistingListenerManagerForNode
 (

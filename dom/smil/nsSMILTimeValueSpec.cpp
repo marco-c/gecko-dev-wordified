@@ -98,6 +98,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGAnimationElement
@@ -156,13 +165,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsIDOMKeyEvent
 .
 h
@@ -186,6 +188,10 @@ include
 <
 limits
 >
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -1936,7 +1942,7 @@ this
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -1992,7 +1998,7 @@ mEventListener
 )
 return
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -2026,7 +2032,7 @@ AllEventsAtSystemGroupBubble
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsSMILTimeValueSpec
 :

@@ -720,7 +720,7 @@ implementation
 in
 /
 /
-nsEventListenerManager
+EventListenerManager
 .
 #
 define

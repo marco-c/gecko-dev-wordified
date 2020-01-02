@@ -146,6 +146,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -11796,7 +11805,7 @@ do_QueryInterface
 mResponseXML
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =

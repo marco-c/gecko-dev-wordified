@@ -284,6 +284,9 @@ nsDOMSettableTokenList
 namespace
 mozilla
 {
+class
+EventListenerManager
+;
 namespace
 dom
 {
@@ -5651,7 +5654,10 @@ aNotify
 MOZ_OVERRIDE
 ;
 virtual
-nsEventListenerManager
+mozilla
+:
+:
+EventListenerManager
 *
 GetEventListenerManagerForAttr
 (

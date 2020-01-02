@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsIDOMMouseEvent
 .
 h

@@ -4183,7 +4183,7 @@ JS
 CompileFunction
 namely
 *
-nsEventListenerManager
+EventListenerManager
 :
 :
 CompileEventHandlerInternal

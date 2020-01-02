@@ -287,7 +287,9 @@ h
 #
 include
 "
-nsEventListenerManager
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -2913,7 +2915,7 @@ forget
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsXULElement
 :
@@ -10311,7 +10313,7 @@ on
 this
 element
 .
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =

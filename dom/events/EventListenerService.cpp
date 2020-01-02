@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -155,13 +164,6 @@ h
 include
 "
 nsEventDispatcher
-.
-h
-"
-#
-include
-"
-nsEventListenerManager
 .
 h
 "
@@ -1184,7 +1186,7 @@ eventTarget
 NS_ERROR_NO_INTERFACE
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -1507,7 +1509,7 @@ eventTarget
 NS_ERROR_NO_INTERFACE
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -1591,7 +1593,7 @@ eventTarget
 NS_ERROR_NO_INTERFACE
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -1689,7 +1691,7 @@ eventTarget
 NS_ERROR_NO_INTERFACE
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -1778,7 +1780,7 @@ eventTarget
 NS_ERROR_NO_INTERFACE
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -1852,7 +1854,7 @@ eventTarget
 NS_ERROR_NO_INTERFACE
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =

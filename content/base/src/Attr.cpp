@@ -236,13 +236,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsTextNode
 .
 h

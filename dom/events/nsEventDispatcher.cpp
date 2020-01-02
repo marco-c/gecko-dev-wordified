@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -224,6 +217,15 @@ mozilla
 dom
 /
 TouchEvent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -327,7 +329,7 @@ mNonMainThread
 ?
 0
 :
-nsEventListenerManager
+EventListenerManager
 :
 :
 sMainThreadCreatedCount
@@ -346,7 +348,7 @@ mNonMainThread
 mInitialCount
 !
 =
-nsEventListenerManager
+EventListenerManager
 :
 :
 sMainThreadCreatedCount
@@ -853,7 +855,7 @@ manager
 this
 method
 calls
-nsEventListenerManager
+EventListenerManager
 :
 :
 HandleEvent
@@ -1083,7 +1085,7 @@ manager
 .
 nsRefPtr
 <
-nsEventListenerManager
+EventListenerManager
 >
 mManager
 ;

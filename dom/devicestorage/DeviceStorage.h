@@ -226,6 +226,9 @@ nsIInputStream
 namespace
 mozilla
 {
+class
+EventListenerManager
+;
 namespace
 dom
 {
@@ -953,7 +956,10 @@ NS_DECL_NSIDOMDEVICESTORAGE
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIDOMEVENTTARGET
 virtual
-nsEventListenerManager
+mozilla
+:
+:
+EventListenerManager
 *
 GetExistingListenerManager
 (
@@ -962,7 +968,10 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-nsEventListenerManager
+mozilla
+:
+:
+EventListenerManager
 *
 GetOrCreateListenerManager
 (

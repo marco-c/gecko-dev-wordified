@@ -130,6 +130,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 FunctionBinding
@@ -692,7 +701,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -731,7 +740,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
