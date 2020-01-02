@@ -1061,7 +1061,7 @@ DestroyCompositor
 LayerScope
 :
 :
-DestroyServerSocket
+DeInit
 (
 )
 ;
@@ -7441,13 +7441,8 @@ return
 }
 /
 /
-The
-server
-socket
-has
-to
-be
-created
+Initialize
+LayerScope
 on
 the
 main
@@ -7456,7 +7451,7 @@ thread
 LayerScope
 :
 :
-CreateServerSocket
+Init
 (
 )
 ;
