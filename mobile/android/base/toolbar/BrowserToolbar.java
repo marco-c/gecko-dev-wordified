@@ -844,8 +844,6 @@ private
 PageActionLayout
 mPageActionLayout
 ;
-/
-/
 private
 Animation
 mProgressSpinner
@@ -1773,8 +1771,6 @@ setAnchor
 mSiteSecurity
 )
 ;
-/
-/
 mProgressSpinner
 =
 AnimationUtils
@@ -4679,8 +4675,6 @@ setPageActionVisibility
 true
 )
 ;
-/
-/
 mFavicon
 .
 setAnimation
@@ -4688,8 +4682,6 @@ setAnimation
 mProgressSpinner
 )
 ;
-/
-/
 mProgressSpinner
 .
 start
@@ -4774,8 +4766,6 @@ setAnimation
 null
 )
 ;
-/
-/
 mProgressSpinner
 .
 cancel
