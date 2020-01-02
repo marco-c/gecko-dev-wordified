@@ -1381,7 +1381,7 @@ mIMELastReceivedSeqno
 =
 static_cast
 <
-nsCompositionEvent
+WidgetCompositionEvent
 *
 >
 (
@@ -1772,7 +1772,7 @@ textEvent
 status
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 compEvent
 (
 true

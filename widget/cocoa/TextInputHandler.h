@@ -5949,7 +5949,7 @@ initialize
 void
 InitCompositionEvent
 (
-nsCompositionEvent
+WidgetCompositionEvent
 &
 aCompositionEvent
 )

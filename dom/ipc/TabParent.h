@@ -1406,7 +1406,10 @@ aEvent
 bool
 SendCompositionEvent
 (
-nsCompositionEvent
+mozilla
+:
+:
+WidgetCompositionEvent
 &
 event
 )

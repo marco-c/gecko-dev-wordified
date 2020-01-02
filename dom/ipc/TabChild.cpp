@@ -11046,12 +11046,12 @@ TabChild
 RecvCompositionEvent
 (
 const
-nsCompositionEvent
+WidgetCompositionEvent
 &
 event
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 localEvent
 (
 event

@@ -497,7 +497,7 @@ mLastData
 =
 static_cast
 <
-nsCompositionEvent
+WidgetCompositionEvent
 *
 >
 (
@@ -945,7 +945,7 @@ case
 NS_COMPOSITION_START
 :
 {
-nsCompositionEvent
+WidgetCompositionEvent
 compStart
 (
 true
@@ -1023,7 +1023,7 @@ case
 NS_COMPOSITION_END
 :
 {
-nsCompositionEvent
+WidgetCompositionEvent
 compEvent
 (
 true

@@ -5335,7 +5335,7 @@ mCompositionState
 =
 eCompositionState_CompositionStartDispatched
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 compEvent
 (
 true
@@ -5530,7 +5530,7 @@ return
 false
 ;
 }
-nsCompositionEvent
+WidgetCompositionEvent
 compEvent
 (
 true
@@ -5783,7 +5783,7 @@ aCompositionString
 mDispatchedCompositionString
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 compositionUpdate
 (
 true

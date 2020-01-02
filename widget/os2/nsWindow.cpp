@@ -20125,7 +20125,7 @@ Truncate
 (
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 start
 (
 true
@@ -20186,7 +20186,7 @@ mLastDispatchedCompositionString
 compositionString
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 update
 (
 true
@@ -20241,7 +20241,7 @@ DispatchWindowEvent
 text
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 end
 (
 true
@@ -20420,7 +20420,7 @@ Truncate
 (
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 start
 (
 true
@@ -20489,7 +20489,7 @@ mLastDispatchedCompositionString
 compositionString
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 update
 (
 true
@@ -21121,7 +21121,7 @@ conversion
 was
 canceled
 ?
-nsCompositionEvent
+WidgetCompositionEvent
 end
 (
 true

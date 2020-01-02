@@ -1170,7 +1170,10 @@ bool
 RecvCompositionEvent
 (
 const
-nsCompositionEvent
+mozilla
+:
+:
+WidgetCompositionEvent
 &
 event
 )
