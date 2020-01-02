@@ -329,6 +329,8 @@ uniqueName
 "
 :
 1
+:
+1
 "
 +
 closeComment
@@ -551,6 +553,8 @@ scratchpad
 uniqueName
 +
 "
+:
+1
 :
 1
 "

@@ -79,6 +79,8 @@ h
 evaluate
 :
 2
+:
+1
 \
 n
 "
@@ -87,6 +89,8 @@ n
 evaluate
 :
 4
+:
+2
 \
 n
 "
@@ -125,6 +129,8 @@ assertEq
 stack
 "
 evaluate
+:
+1
 :
 1
 \
