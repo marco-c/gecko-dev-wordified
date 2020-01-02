@@ -1333,6 +1333,26 @@ pointer
             
 self
 .
+JSSymbol_ptr_t
+=
+gdb
+.
+lookup_type
+(
+'
+JS
+:
+:
+Symbol
+'
+)
+.
+pointer
+(
+)
+            
+self
+.
 JSObject_ptr_t
 =
 gdb

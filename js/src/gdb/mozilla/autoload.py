@@ -97,6 +97,10 @@ JSString
 import
 mozilla
 .
+JSSymbol
+import
+mozilla
+.
 jsval
 import
 mozilla
