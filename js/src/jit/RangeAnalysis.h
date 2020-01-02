@@ -674,17 +674,6 @@ MBoundsCheck
 ins
 )
 ;
-bool
-markBlocksInLoopBody
-(
-MBasicBlock
-*
-header
-MBasicBlock
-*
-current
-)
-;
 }
 ;
 class
