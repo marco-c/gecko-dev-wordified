@@ -1011,6 +1011,9 @@ button
 }
 )
 ;
+#
+ifndef
+XP_MACOSX
 this
 .
 registerArea
@@ -1039,6 +1042,8 @@ items
 }
 )
 ;
+#
+endif
 this
 .
 registerArea
