@@ -127,7 +127,9 @@ ABCMeta
 last_test
 =
 '
-automation
+mozrunner
+-
+startup
 '
     
 process_handler
