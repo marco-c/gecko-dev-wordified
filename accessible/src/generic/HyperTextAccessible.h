@@ -1214,6 +1214,7 @@ uint32_t
 CharacterCount
 (
 )
+const
 {
 return
 GetChildOffset
@@ -1676,6 +1677,7 @@ aInvalidateAfter
 =
 false
 )
+const
 {
 int32_t
 index
@@ -1727,6 +1729,7 @@ aInvalidateAfter
 =
 false
 )
+const
 ;
 /
 *
@@ -1760,6 +1763,7 @@ GetChildIndexAtOffset
 uint32_t
 aOffset
 )
+const
 ;
 /
 *
@@ -1794,6 +1798,7 @@ GetChildAtOffset
 uint32_t
 aOffset
 )
+const
 {
 return
 GetChildAt
@@ -3161,6 +3166,7 @@ array
 .
 *
 /
+mutable
 nsTArray
 <
 uint32_t
