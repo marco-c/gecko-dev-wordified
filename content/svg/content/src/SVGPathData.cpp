@@ -6014,7 +6014,7 @@ double
 AngleOfVector
 (
 const
-gfxPoint
+Point
 &
 aVector
 )
@@ -6103,7 +6103,7 @@ return
 aVector
 !
 =
-gfxPoint
+Point
 (
 0
 .
@@ -6134,7 +6134,7 @@ float
 AngleOfVectorF
 (
 const
-gfxPoint
+Point
 &
 aVector
 )
@@ -6226,7 +6226,7 @@ M
 command
 )
 :
-gfxPoint
+Point
 pathStart
 (
 0
@@ -6256,7 +6256,7 @@ prevSegType
 =
 PATHSEG_UNKNOWN
 ;
-gfxPoint
+Point
 prevSegEnd
 (
 0
@@ -6274,7 +6274,7 @@ prevSegEndAngle
 .
 0f
 ;
-gfxPoint
+Point
 prevCP
 ;
 /
@@ -6336,13 +6336,13 @@ advances
 i
 to
 args
-gfxPoint
+Point
 &
 segStart
 =
 prevSegEnd
 ;
-gfxPoint
+Point
 segEnd
 ;
 float
@@ -6398,7 +6398,7 @@ PATHSEG_MOVETO_ABS
 {
 segEnd
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -6419,7 +6419,7 @@ segEnd
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -6499,7 +6499,7 @@ PATHSEG_LINETO_ABS
 {
 segEnd
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -6520,7 +6520,7 @@ segEnd
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -6560,7 +6560,7 @@ case
 PATHSEG_CURVETO_CUBIC_REL
 :
 {
-gfxPoint
+Point
 cp1
 cp2
 ;
@@ -6578,7 +6578,7 @@ PATHSEG_CURVETO_CUBIC_ABS
 {
 cp1
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -6594,7 +6594,7 @@ i
 ;
 cp2
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -6612,7 +6612,7 @@ i
 ;
 segEnd
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -6635,7 +6635,7 @@ cp1
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -6653,7 +6653,7 @@ cp2
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -6673,7 +6673,7 @@ segEnd
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -6753,7 +6753,7 @@ case
 PATHSEG_CURVETO_QUADRATIC_REL
 :
 {
-gfxPoint
+Point
 cp1
 cp2
 ;
@@ -6771,7 +6771,7 @@ PATHSEG_CURVETO_QUADRATIC_ABS
 {
 cp1
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -6787,7 +6787,7 @@ i
 ;
 segEnd
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -6810,7 +6810,7 @@ cp1
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -6828,7 +6828,7 @@ segEnd
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -6950,7 +6950,7 @@ PATHSEG_ARC_ABS
 {
 segEnd
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -6973,7 +6973,7 @@ segEnd
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -7701,7 +7701,7 @@ theta
 =
 AngleOfVector
 (
-gfxPoint
+Point
 (
 (
 x1p
@@ -7733,7 +7733,7 @@ delta
 =
 AngleOfVector
 (
-gfxPoint
+Point
 (
 (
 -
@@ -8007,7 +8007,7 @@ PATHSEG_LINETO_HORIZONTAL_ABS
 {
 segEnd
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -8027,7 +8027,7 @@ segEnd
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -8070,7 +8070,7 @@ PATHSEG_LINETO_VERTICAL_ABS
 {
 segEnd
 =
-gfxPoint
+Point
 (
 segStart
 .
@@ -8090,7 +8090,7 @@ segEnd
 =
 segStart
 +
-gfxPoint
+Point
 (
 0
 .
@@ -8124,7 +8124,7 @@ case
 PATHSEG_CURVETO_CUBIC_SMOOTH_REL
 :
 {
-gfxPoint
+Point
 cp1
 =
 SVGPathSegUtils
@@ -8143,7 +8143,7 @@ prevCP
 :
 segStart
 ;
-gfxPoint
+Point
 cp2
 ;
 if
@@ -8156,7 +8156,7 @@ PATHSEG_CURVETO_CUBIC_SMOOTH_ABS
 {
 cp2
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -8172,7 +8172,7 @@ i
 ;
 segEnd
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -8195,7 +8195,7 @@ cp2
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -8213,7 +8213,7 @@ segEnd
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
@@ -8293,7 +8293,7 @@ case
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_REL
 :
 {
-gfxPoint
+Point
 cp1
 =
 SVGPathSegUtils
@@ -8312,7 +8312,7 @@ prevCP
 :
 segStart
 ;
-gfxPoint
+Point
 cp2
 ;
 if
@@ -8325,7 +8325,7 @@ PATHSEG_CURVETO_QUADRATIC_SMOOTH_ABS
 {
 segEnd
 =
-gfxPoint
+Point
 (
 mData
 [
@@ -8346,7 +8346,7 @@ segEnd
 =
 segStart
 +
-gfxPoint
+Point
 (
 mData
 [
