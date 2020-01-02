@@ -1161,8 +1161,6 @@ nsIPrincipal
 principal
 bool
 initStandardClasses
-bool
-fireOnNewGlobalHook
 JS
 :
 :
@@ -2204,16 +2202,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
-)
-;
-if
-(
-fireOnNewGlobalHook
-)
-JS_FireOnNewGlobalObject
-(
-cx
-global
 )
 ;
 return
