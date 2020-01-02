@@ -830,6 +830,9 @@ this
 )
 ;
 }
+}
+)
+;
 /
 *
 *
@@ -919,8 +922,10 @@ time
 .
 *
 /
+FramerateFront
+.
 plotFPS
-:
+=
 function
 (
 ticks
@@ -1127,8 +1132,6 @@ return
 timeline
 ;
 }
-}
-)
 ;
 /
 *
