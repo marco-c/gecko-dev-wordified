@@ -787,39 +787,11 @@ the
 name
 defined
 by
-either
         
 #
-MODULE
-or
 XPIDL_MODULE
-(
-if
-the
-latter
-is
-defined
-)
 .
         
-xpidl_module
-=
-sandbox
-[
-'
-MODULE
-'
-]
-        
-if
-sandbox
-[
-'
-XPIDL_MODULE
-'
-]
-:
-            
 xpidl_module
 =
 sandbox
@@ -845,16 +817,14 @@ raise
 SandboxValidationError
 (
 '
-MODULE
-or
 XPIDL_MODULE
 must
 be
+defined
+if
 '
                 
 '
-defined
-if
 XPIDL_SOURCES
 is
 defined
@@ -1232,12 +1202,6 @@ LIBXUL_LIBRARY
 =
 '
 LIBXUL_LIBRARY
-'
-            
-MODULE
-=
-'
-MODULE
 '
             
 MSVC_ENABLE_PGO

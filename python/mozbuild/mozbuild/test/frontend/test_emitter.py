@@ -1317,12 +1317,6 @@ NO_DIST_INSTALL
 =
 True
             
-MODULE
-=
-'
-module_name
-'
-            
 OS_LIBS
 =
 [
