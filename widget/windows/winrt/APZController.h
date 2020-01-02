@@ -157,6 +157,16 @@ ScrollableLayerGuid
 ;
 public
 :
+APZController
+(
+)
+:
+mWidgetListener
+(
+nullptr
+)
+{
+}
 /
 /
 GeckoContentController
@@ -389,6 +399,9 @@ private
 nsIWidgetListener
 *
 mWidgetListener
+;
+ScrollableLayerGuid
+mLastScrollLayerGuid
 ;
 CSSIntPoint
 mLastScrollOffset
