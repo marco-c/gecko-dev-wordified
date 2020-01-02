@@ -22964,13 +22964,12 @@ chrome
 items
 nsWindowType
 winType
-;
+=
 mParentWidget
 -
 >
-GetWindowType
+WindowType
 (
-winType
 )
 ;
 if

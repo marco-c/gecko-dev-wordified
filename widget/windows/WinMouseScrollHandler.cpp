@@ -2859,7 +2859,7 @@ if
 destWindow
 -
 >
-GetWindowType
+WindowType
 (
 )
 =
@@ -3191,7 +3191,7 @@ if
 aWidget
 -
 >
-GetWindowType
+WindowType
 (
 )
 =
@@ -11122,7 +11122,7 @@ aWidget
 aWidget
 -
 >
-GetWindowType
+WindowType
 (
 )
 =

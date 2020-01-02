@@ -745,7 +745,7 @@ GetClientOffset
 (
 )
 ;
-NS_IMETHOD
+void
 SetBackgroundColor
 (
 const

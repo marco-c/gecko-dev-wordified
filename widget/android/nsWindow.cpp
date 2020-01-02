@@ -2741,7 +2741,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -2773,9 +2773,6 @@ void
 this
 aZIndex
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
