@@ -3419,17 +3419,6 @@ Wait
 }
 /
 /
-DOMStorageUsageBridge
-NS_IMPL_ADDREF
-(
-DOMStorageUsageBridge
-)
-NS_IMPL_RELEASE
-(
-DOMStorageUsageBridge
-)
-/
-/
 DOMStorageUsage
 DOMStorageUsage
 :
