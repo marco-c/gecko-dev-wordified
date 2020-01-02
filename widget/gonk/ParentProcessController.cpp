@@ -217,7 +217,6 @@ NS_OK
 }
 protected
 :
-const
 FrameMetrics
 mFrameMetrics
 ;
