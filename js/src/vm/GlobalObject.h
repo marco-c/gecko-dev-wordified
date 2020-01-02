@@ -3545,6 +3545,17 @@ address
 return
 true
 ;
+Rooted
+<
+GlobalObject
+*
+>
+self
+(
+cx
+this
+)
+;
 if
 (
 !
@@ -3570,6 +3581,9 @@ RootedObject
 holder
 (
 cx
+self
+-
+>
 intrinsicsHolder
 (
 )
