@@ -112,6 +112,9 @@ nsIInputStream
 class
 nsIOutputStream
 ;
+class
+nsICacheEntryMetaDataVisitor
+;
 namespace
 mozilla
 {
@@ -429,6 +432,14 @@ const
 char
 *
 aValue
+)
+;
+nsresult
+VisitMetaData
+(
+nsICacheEntryMetaDataVisitor
+*
+aVisitor
 )
 ;
 nsresult
