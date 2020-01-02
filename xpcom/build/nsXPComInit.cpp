@@ -626,6 +626,13 @@ h
 "
 #
 include
+"
+nsStatusReporterManager
+.
+h
+"
+#
+include
 <
 locale
 .
@@ -1147,6 +1154,11 @@ Init
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsMemoryInfoDumper
+)
+NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+(
+nsStatusReporterManager
+Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
