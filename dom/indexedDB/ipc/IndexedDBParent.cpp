@@ -999,7 +999,7 @@ nsAString
 &
 aDatabaseName
 const
-nsDependentCString
+nsACString
 &
 aPermission
 )

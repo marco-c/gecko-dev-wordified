@@ -174,6 +174,10 @@ nsTDependentSubstring_CharT
 nsDependentCSubstring
 #
 define
+nsTLiteralString_CharT
+nsLiteralCString
+#
+define
 nsTXPIDLString_CharT
 nsXPIDLCString
 #
