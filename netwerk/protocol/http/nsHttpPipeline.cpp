@@ -2904,6 +2904,10 @@ gSocketThread
 MOZ_ASSERT
 (
 !
+conn
+|
+|
+!
 mConnection
 "
 already
