@@ -189,8 +189,8 @@ mozilla
 dom
 :
 :
-OnBeforeUnloadEventHandlerNonNull
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 ;
 typedef
 mozilla
@@ -272,7 +272,7 @@ eOnError
 }
 nsEventHandler
 (
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 *
 aHandler
 )
@@ -473,9 +473,9 @@ eNormal
 )
 ;
 }
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 *
-OnBeforeUnloadEventHandler
+BeforeUnloadEventHandler
 (
 )
 const
@@ -493,7 +493,7 @@ eOnBeforeUnload
 return
 reinterpret_cast
 <
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 *
 >
 (
@@ -506,7 +506,7 @@ Ptr
 void
 SetHandler
 (
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 *
 aHandler
 )
@@ -1113,7 +1113,7 @@ mozilla
 dom
 :
 :
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 *
 aHandler
 )

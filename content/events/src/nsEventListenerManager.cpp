@@ -5483,12 +5483,12 @@ win
 {
 nsRefPtr
 <
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 >
 handlerCallback
 =
 new
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 (
 boundHandler
 )
@@ -7349,7 +7349,7 @@ nsEventListenerManager
 :
 SetEventHandler
 (
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 *
 aHandler
 )
