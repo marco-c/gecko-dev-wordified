@@ -743,7 +743,7 @@ SetUpTestCaseInner
 )
 )
 {
-PR_Abort
+abort
 (
 )
 ;
@@ -795,7 +795,7 @@ rootNameDER
 Success
 )
 {
-PR_Abort
+abort
 (
 )
 ;
@@ -836,7 +836,7 @@ serialNumberDER
 Success
 )
 {
-PR_Abort
+abort
 (
 )
 ;
@@ -860,7 +860,7 @@ rootSPKIDER
 Success
 )
 {
-PR_Abort
+abort
 (
 )
 ;
@@ -887,7 +887,7 @@ if
 endEntityCertID
 )
 {
-PR_Abort
+abort
 (
 )
 ;
@@ -4299,7 +4299,7 @@ createdResponse
 Success
 )
 {
-PR_Abort
+abort
 (
 )
 ;
@@ -4326,7 +4326,7 @@ GetLength
 0
 )
 {
-PR_Abort
+abort
 (
 )
 ;

@@ -332,7 +332,7 @@ nullptr
 SECSuccess
 )
 {
-PR_Abort
+abort
 (
 )
 ;
@@ -383,7 +383,7 @@ if
 arena
 )
 {
-PR_Abort
+abort
 (
 )
 ;
