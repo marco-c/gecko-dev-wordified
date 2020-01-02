@@ -991,7 +991,7 @@ ASSERT_ON_THREAD
 sts_thread_
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 PendingResolution
 >

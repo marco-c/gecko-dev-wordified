@@ -1119,7 +1119,7 @@ to
 process
 UDP
 packets
-nsRefPtr
+nsCOMPtr
 <
 UDPServerListener
 >
@@ -1188,7 +1188,7 @@ clinet
 on
 arbitrary
 port
-nsRefPtr
+nsCOMPtr
 <
 UDPClientListener
 >

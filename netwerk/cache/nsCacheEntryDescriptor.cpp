@@ -512,7 +512,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+nsCOMPtr
 <
 nsCacheEntryDescriptor
 >

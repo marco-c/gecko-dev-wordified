@@ -914,7 +914,7 @@ from
 the
 URL
 .
-nsRefPtr
+nsCOMPtr
 <
 MediaResourceServer
 >
@@ -2793,7 +2793,7 @@ MediaResource
 on
 requests
 .
-nsRefPtr
+nsCOMPtr
 <
 MediaResourceServer
 >
@@ -3120,7 +3120,7 @@ Start
 (
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 MediaResourceServer
 >

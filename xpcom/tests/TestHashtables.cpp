@@ -1671,9 +1671,8 @@ aIID
 .
 Equals
 (
-NS_GET_IID
+GetIID
 (
-IFoo
 )
 )
 )

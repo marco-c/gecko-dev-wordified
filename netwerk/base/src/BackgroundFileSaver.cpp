@@ -656,7 +656,7 @@ mTarget
 }
 private
 :
-nsRefPtr
+nsCOMPtr
 <
 BackgroundFileSaver
 >

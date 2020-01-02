@@ -13884,7 +13884,7 @@ MediaDecoder
 >
 mDecoder
 ;
-nsRefPtr
+nsCOMPtr
 <
 MediaDecoderStateMachine
 >
@@ -14005,7 +14005,7 @@ MediaDecoder
 >
 mDecoder
 ;
-nsRefPtr
+nsCOMPtr
 <
 MediaDecoderStateMachine
 >

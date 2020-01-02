@@ -2030,7 +2030,7 @@ endif
 #
 ifdef
 MOZ_B2G_BT
-nsRefPtr
+nsCOMPtr
 <
 bluetooth
 :

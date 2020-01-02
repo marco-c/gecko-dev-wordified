@@ -954,7 +954,7 @@ mDictionary
 ;
 private
 :
-nsRefPtr
+nsCOMPtr
 <
 nsEditorSpellCheck
 >

@@ -2374,7 +2374,7 @@ CompositorParent
 >
 mCompositorParent
 ;
-nsRefPtr
+nsCOMPtr
 <
 WidgetShutdownObserver
 >

@@ -27356,7 +27356,7 @@ return
 0
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
 nsPresContext
 >

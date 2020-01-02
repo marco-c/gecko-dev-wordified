@@ -2213,7 +2213,7 @@ ByteBuffer
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 ThumbnailRunnable
 >

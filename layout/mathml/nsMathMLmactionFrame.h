@@ -295,7 +295,7 @@ mChildCount
 int32_t
 mSelection
 ;
-nsRefPtr
+nsCOMPtr
 <
 MouseListener
 >

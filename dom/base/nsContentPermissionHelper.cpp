@@ -296,7 +296,7 @@ Element
 >
 mElement
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsContentPermissionRequestProxy
 >
