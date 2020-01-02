@@ -219,10 +219,6 @@ mPendingResult
 (
 NS_OK
 )
-mException
-(
-nullptr
-)
 mCallingLangType
 (
 LANG_UNKNOWN
@@ -293,11 +289,6 @@ JS_SetSecondContextPrivate
 (
 mJSContext
 nullptr
-)
-;
-NS_IF_RELEASE
-(
-mException
 )
 ;
 /
@@ -454,6 +445,10 @@ mException
 x
 "
 mException
+.
+get
+(
+)
 )
 )
 ;
