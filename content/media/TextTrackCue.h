@@ -1088,6 +1088,15 @@ mDisplayState
 aDisplayState
 ;
 }
+bool
+HasBeenReset
+(
+)
+{
+return
+mReset
+;
+}
 /
 /
 Helper
