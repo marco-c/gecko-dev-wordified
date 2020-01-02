@@ -766,7 +766,7 @@ uintmax_t
 ret
 digit
 ;
-int
+unsigned
 b
 ;
 bool
@@ -2561,9 +2561,15 @@ break
 \
 default
 :
+\
 not_reached
 (
 )
+;
+\
+val
+=
+0
 ;
 \
 }
@@ -3589,6 +3595,9 @@ strlen
 s
 )
 :
+(
+size_t
+)
 prec
 ;
 APPEND_PADDED_S
