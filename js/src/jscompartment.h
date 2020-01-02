@@ -159,6 +159,15 @@ GlobalObject
 .
 h
 "
+#
+include
+"
+vm
+/
+PIC
+.
+h
+"
 namespace
 js
 {
