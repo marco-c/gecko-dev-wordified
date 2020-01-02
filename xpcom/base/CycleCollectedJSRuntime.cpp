@@ -3065,8 +3065,6 @@ JSRuntime
 aParentRuntime
 uint32_t
 aMaxbytes
-JSUseHelperThreads
-aUseHelperThreads
 )
 :
 mGCThingCycleCollectorGlobal
@@ -3115,7 +3113,6 @@ mJSRuntime
 JS_NewRuntime
 (
 aMaxbytes
-aUseHelperThreads
 aParentRuntime
 )
 ;

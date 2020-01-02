@@ -7770,15 +7770,6 @@ Category
 JSAPI_Reference
 *
 /
-typedef
-enum
-JSUseHelperThreads
-{
-JS_NO_HELPER_THREADS
-JS_USE_HELPER_THREADS
-}
-JSUseHelperThreads
-;
 /
 *
 *
@@ -8092,8 +8083,6 @@ JS_NewRuntime
 (
 uint32_t
 maxbytes
-JSUseHelperThreads
-useHelperThreads
 JSRuntime
 *
 parentRuntime
