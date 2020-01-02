@@ -25762,7 +25762,7 @@ JS_AllocateArrayBufferContents
 (
 JSContext
 *
-cx
+maybecx
 uint32_t
 nbytes
 void
@@ -25784,7 +25784,7 @@ header
 =
 AllocateArrayBufferContents
 (
-cx
+maybecx
 nbytes
 )
 ;
