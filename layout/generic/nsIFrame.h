@@ -21072,7 +21072,7 @@ frame
 /
 virtual
 bool
-HasTerminalNewline
+HasSignificantTerminalNewline
 (
 )
 const
