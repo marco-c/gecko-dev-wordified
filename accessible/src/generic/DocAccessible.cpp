@@ -8028,7 +8028,7 @@ aNode
 aNode
 -
 >
-IsInDoc
+GetCrossShadowCurrentDoc
 (
 )
 )
