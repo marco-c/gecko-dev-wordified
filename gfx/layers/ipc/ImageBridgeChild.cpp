@@ -821,7 +821,7 @@ if
 (
 aFlags
 &
-TEXTURE_DEALLOCATE_HOST
+TEXTURE_DEALLOCATE_CLIENT
 )
 {
 /
@@ -834,9 +834,6 @@ the
 host
 side
 we
-don
-'
-t
 need
 the
 transaction
@@ -849,7 +846,7 @@ synchronous
 mTxn
 -
 >
-AddNoSwapEdit
+AddEdit
 (
 OpRemoveTexture
 (
@@ -871,7 +868,7 @@ else
 mTxn
 -
 >
-AddEdit
+AddNoSwapEdit
 (
 OpRemoveTexture
 (

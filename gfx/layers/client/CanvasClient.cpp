@@ -371,8 +371,7 @@ LAYERS_OPENGL
 aFlags
 &
 =
-~
-TEXTURE_DEALLOCATE_HOST
+TEXTURE_DEALLOCATE_CLIENT
 ;
 return
 new
@@ -401,8 +400,7 @@ UseDeprecatedTextures
 aFlags
 &
 =
-~
-TEXTURE_DEALLOCATE_HOST
+TEXTURE_DEALLOCATE_CLIENT
 ;
 return
 new
