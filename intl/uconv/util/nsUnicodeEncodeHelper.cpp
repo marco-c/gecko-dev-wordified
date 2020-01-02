@@ -103,14 +103,14 @@ h
 #
 include
 "
-nsIUnicodeEncoder
+nsUnicodeEncodeHelper
 .
 h
 "
 #
 include
 "
-nsUnicodeEncodeHelper
+nsDebug
 .
 h
 "

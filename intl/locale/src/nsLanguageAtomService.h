@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsCRT
-.
-h
-"
-#
-include
-"
 nsInterfaceHashtable
 .
 h

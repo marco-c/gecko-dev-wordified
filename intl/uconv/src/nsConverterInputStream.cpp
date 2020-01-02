@@ -115,13 +115,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsReadLine
 .
 h
@@ -130,6 +123,13 @@ h
 include
 "
 nsStreamUtils
+.
+h
+"
+#
+include
+"
+nsServiceManagerUtils
 .
 h
 "

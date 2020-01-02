@@ -108,6 +108,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+nsIUnicodeEncoder
+.
+h
+"
 /
 /
 Class

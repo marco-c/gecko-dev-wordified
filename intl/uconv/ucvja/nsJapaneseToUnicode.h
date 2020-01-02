@@ -102,13 +102,6 @@ nsShiftJISToUnicode_h__
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 nsUCSupport
 .
 h

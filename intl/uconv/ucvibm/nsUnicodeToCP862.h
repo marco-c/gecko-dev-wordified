@@ -171,10 +171,13 @@ nsUnicodeToCP862_h___
 #
 include
 "
-nsISupports
+nsID
 .
 h
 "
+class
+nsISupports
+;
 /
 *
 *

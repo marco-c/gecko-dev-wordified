@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsUCConstructors
-.
-h
-"
-#
-include
-"
 nsISO88598ToUnicode
 .
 h

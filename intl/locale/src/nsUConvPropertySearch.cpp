@@ -70,6 +70,13 @@ nsCRT
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 /
 /
 static

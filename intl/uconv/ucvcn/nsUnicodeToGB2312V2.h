@@ -109,7 +109,7 @@ h
 #
 include
 "
-gbku
+nsGBKConvUtil
 .
 h
 "

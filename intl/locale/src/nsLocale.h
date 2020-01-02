@@ -173,14 +173,7 @@ nsLocale_h__
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
-nsTArray
+nsStringFwd
 .
 h
 "

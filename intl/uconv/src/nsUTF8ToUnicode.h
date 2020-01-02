@@ -99,6 +99,13 @@ nsUTF8ToUnicode_h___
 #
 define
 nsUTF8ToUnicode_h___
+#
+include
+"
+nsUCSupport
+.
+h
+"
 /
 /
 Class

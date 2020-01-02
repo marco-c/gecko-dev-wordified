@@ -107,13 +107,6 @@ h
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 nsUCSupport
 .
 h

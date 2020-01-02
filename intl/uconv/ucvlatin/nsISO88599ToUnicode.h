@@ -102,10 +102,13 @@ nsISO88599ToUnicode_h___
 #
 include
 "
-nsCP1254ToUnicode
+nsID
 .
 h
 "
+class
+nsISupports
+;
 /
 /
 Just

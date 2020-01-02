@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIFactory
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h

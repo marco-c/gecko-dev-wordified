@@ -121,13 +121,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-nsUnicharUtils
-.
-h
-"
 /
 *
 Simplification

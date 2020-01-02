@@ -65,7 +65,7 @@ nsUConvPropertySearch_h_
 #
 include
 "
-nsString
+nsStringFwd
 .
 h
 "

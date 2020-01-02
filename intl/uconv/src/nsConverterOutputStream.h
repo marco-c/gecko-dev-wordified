@@ -84,13 +84,6 @@ NSCONVERTEROUTPUTSTREAM_H_
 #
 include
 "
-nsIOutputStream
-.
-h
-"
-#
-include
-"
 nsIConverterOutputStream
 .
 h
