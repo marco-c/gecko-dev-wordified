@@ -7263,8 +7263,10 @@ SetNoneValue
 ;
 mFlexBasis
 .
-SetAutoValue
+SetIntValue
 (
+NS_STYLE_FLEX_BASIS_MAIN_SIZE
+eStyleUnit_Enumerated
 )
 ;
 /
