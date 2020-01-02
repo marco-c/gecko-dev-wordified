@@ -26597,6 +26597,8 @@ generic
 =
 kGenericFont_moz_fixed
 ;
+break
+;
 default
 :
 fl
