@@ -11882,11 +11882,12 @@ options
 .
 introductionType
 ;
-introductionOffset_
-=
+setIntroductionOffset
+(
 options
 .
 introductionOffset
+)
 ;
 if
 (
