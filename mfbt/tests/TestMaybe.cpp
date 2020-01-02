@@ -291,13 +291,12 @@ var
 /
 /
 GCC
+<
 4
 .
-4
+7
 also
-appears
-to
-have
+has
 a
 similar
 bug
@@ -363,7 +362,7 @@ if
 MOZ_GCC_VERSION_AT_LEAST
 (
 4
-5
+7
 0
 )
 #
