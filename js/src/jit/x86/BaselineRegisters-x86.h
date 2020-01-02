@@ -115,9 +115,6 @@ jit_x86_BaselineRegisters_x86_h
 define
 jit_x86_BaselineRegisters_x86_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -253,11 +250,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

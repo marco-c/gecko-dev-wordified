@@ -115,9 +115,6 @@ jit_CompilerRoot_h
 define
 jit_CompilerRoot_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jscntxt
@@ -454,11 +451,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

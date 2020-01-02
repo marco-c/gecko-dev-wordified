@@ -115,9 +115,6 @@ jit_BaselineFrame_inl_h
 define
 jit_BaselineFrame_inl_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -475,11 +472,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

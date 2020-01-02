@@ -3242,9 +3242,6 @@ isSharedArrayBuffer
 )
 )
 ;
-#
-ifdef
-JS_ION
 AsmJSActivation
 *
 act
@@ -3306,13 +3303,6 @@ true
 return
 false
 ;
-#
-else
-return
-true
-;
-#
-endif
 }
 void
 *

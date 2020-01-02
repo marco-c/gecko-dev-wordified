@@ -115,9 +115,6 @@ jit_JitFrameIterator_h
 define
 jit_JitFrameIterator_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jsfun
@@ -3792,11 +3789,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

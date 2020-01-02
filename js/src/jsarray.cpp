@@ -17001,9 +17001,6 @@ return
 true
 ;
 }
-#
-ifdef
-JS_ION
 bool
 js
 :
@@ -17174,13 +17171,6 @@ return
 true
 ;
 }
-#
-endif
-/
-*
-JS_ION
-*
-/
 /
 *
 *

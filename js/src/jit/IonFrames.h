@@ -115,9 +115,6 @@ jit_IonFrames_h
 define
 jit_IonFrames_h
 #
-ifdef
-JS_ION
-#
 include
 <
 stdint
@@ -4531,11 +4528,6 @@ namespace
 js
 *
 /
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

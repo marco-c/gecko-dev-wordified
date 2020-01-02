@@ -16813,9 +16813,6 @@ useAsm
 =
 true
 ;
-#
-ifdef
-JS_ION
 /
 /
 Attempt
@@ -16925,8 +16922,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;

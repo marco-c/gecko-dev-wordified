@@ -115,9 +115,6 @@ jit_BaselineCompiler_h
 define
 jit_BaselineCompiler_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -1451,11 +1448,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

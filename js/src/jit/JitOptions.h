@@ -132,9 +132,6 @@ TypeDecls
 .
 h
 "
-#
-ifdef
-JS_ION
 namespace
 js
 {
@@ -343,11 +340,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

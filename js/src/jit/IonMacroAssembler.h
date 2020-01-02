@@ -115,9 +115,6 @@ jit_IonMacroAssembler_h
 define
 jit_IonMacroAssembler_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jscompartment
@@ -9665,11 +9662,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

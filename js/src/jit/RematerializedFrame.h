@@ -115,9 +115,6 @@ jit_RematerializedFrame_h
 define
 jit_RematerializedFrame_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jsfun
@@ -1001,11 +998,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

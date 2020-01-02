@@ -932,9 +932,6 @@ BaselineScript
 baselineScript
 )
 {
-#
-ifdef
-JS_ION
 if
 (
 hasBaselineScript
@@ -958,8 +955,6 @@ tenuredZone
 baseline
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 !
@@ -998,9 +993,6 @@ analyzedArgsUsage
 return
 true
 ;
-#
-ifdef
-JS_ION
 return
 js
 :
@@ -1014,14 +1006,6 @@ cx
 this
 )
 ;
-#
-else
-MOZ_CRASH
-(
-)
-;
-#
-endif
 }
 #
 endif

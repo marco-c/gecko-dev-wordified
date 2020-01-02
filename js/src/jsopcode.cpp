@@ -1299,9 +1299,6 @@ op
 )
 ;
 }
-#
-ifdef
-JS_ION
 void
 js
 :
@@ -1489,8 +1486,6 @@ code
 ;
 }
 }
-#
-endif
 void
 js_DumpPCCounts
 (
@@ -1711,9 +1706,6 @@ next
 }
 #
 endif
-#
-ifdef
-JS_ION
 jit
 :
 :
@@ -1749,8 +1741,6 @@ previous
 )
 ;
 }
-#
-endif
 }
 /
 /

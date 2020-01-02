@@ -478,9 +478,6 @@ enabled_
 =
 enabled
 ;
-#
-ifdef
-JS_ION
 /
 *
 Toggle
@@ -544,8 +541,6 @@ rt
 enabled
 )
 ;
-#
-endif
 }
 /
 *

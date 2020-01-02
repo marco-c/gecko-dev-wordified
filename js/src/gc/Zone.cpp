@@ -125,9 +125,6 @@ jsgc
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -154,8 +151,6 @@ JitCompartment
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -413,16 +408,11 @@ systemZone
 =
 nullptr
 ;
-#
-ifdef
-JS_ION
 js_delete
 (
 jitZone_
 )
 ;
-#
-endif
 }
 bool
 Zone
@@ -452,9 +442,6 @@ ShouldUpdateJit
 updateJit
 )
 {
-#
-ifdef
-JS_ION
 if
 (
 updateJit
@@ -483,8 +470,6 @@ jitUsingBarriers_
 needs
 ;
 }
-#
-endif
 if
 (
 needs
@@ -1108,9 +1093,6 @@ FreeOp
 fop
 )
 {
-#
-ifdef
-JS_ION
 if
 (
 !
@@ -1418,8 +1400,6 @@ free
 )
 ;
 }
-#
-endif
 }
 uint64_t
 Zone
@@ -1474,9 +1454,6 @@ gcNumber
 )
 ;
 }
-#
-ifdef
-JS_ION
 js
 :
 :
@@ -1542,8 +1519,6 @@ return
 jitZone_
 ;
 }
-#
-endif
 JS
 :
 :

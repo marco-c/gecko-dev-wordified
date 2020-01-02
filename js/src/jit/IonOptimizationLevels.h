@@ -163,9 +163,6 @@ Optimization_Count
 ;
 #
 ifdef
-JS_ION
-#
-ifdef
 DEBUG
 inline
 const
@@ -945,11 +942,6 @@ extern
 OptimizationInfos
 js_IonOptimizations
 ;
-#
-endif
-/
-/
-JS_ION
 }
 /
 /

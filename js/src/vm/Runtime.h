@@ -4246,9 +4246,6 @@ Relaxed
 >
 interrupt
 ;
-#
-ifdef
-JS_ION
 /
 *
 *
@@ -4304,8 +4301,6 @@ Relaxed
 >
 interruptPar
 ;
-#
-endif
 /
 *
 Set
@@ -6309,17 +6304,8 @@ void
 data
 ;
 #
-if
-defined
-(
+ifdef
 XP_MACOSX
-)
-&
-&
-defined
-(
-JS_ION
-)
 js
 :
 :

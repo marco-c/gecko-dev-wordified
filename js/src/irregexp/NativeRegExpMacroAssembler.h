@@ -355,9 +355,6 @@ V8_NATIVE_REGEXP_MACRO_ASSEMBLER_H_
 define
 V8_NATIVE_REGEXP_MACRO_ASSEMBLER_H_
 #
-ifdef
-JS_ION
-#
 include
 "
 irregexp
@@ -1584,11 +1581,6 @@ js
 :
 :
 irregexp
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

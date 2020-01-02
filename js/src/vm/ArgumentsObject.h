@@ -997,12 +997,6 @@ AbstractFramePtr
 frame
 )
 ;
-#
-if
-defined
-(
-JS_ION
-)
 static
 ArgumentsObject
 *
@@ -1021,8 +1015,6 @@ HandleObject
 scopeChain
 )
 ;
-#
-endif
 /
 *
 *
@@ -1960,12 +1952,6 @@ ArgumentsData
 data
 )
 ;
-#
-if
-defined
-(
-JS_ION
-)
 static
 void
 MaybeForwardToCallObject
@@ -1986,8 +1972,6 @@ ArgumentsData
 data
 )
 ;
-#
-endif
 }
 ;
 class

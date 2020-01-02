@@ -127,9 +127,6 @@ jsinfer
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -138,8 +135,6 @@ IonFrames
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -398,12 +393,6 @@ scopeSlot
 ;
 }
 }
-#
-if
-defined
-(
-JS_ION
-)
 /
 *
 static
@@ -550,8 +539,6 @@ scopeSlot
 ;
 }
 }
-#
-endif
 struct
 CopyFrameArgs
 {
@@ -643,12 +630,6 @@ data
 }
 }
 ;
-#
-if
-defined
-(
-JS_ION
-)
 struct
 CopyIonJSFrameArgs
 {
@@ -913,8 +894,6 @@ data
 }
 }
 ;
-#
-endif
 struct
 CopyScriptFrameIterArgs
 {
@@ -1796,12 +1775,6 @@ copy
 )
 ;
 }
-#
-if
-defined
-(
-JS_ION
-)
 ArgumentsObject
 *
 ArgumentsObject
@@ -1918,8 +1891,6 @@ copy
 )
 ;
 }
-#
-endif
 static
 bool
 args_delProperty

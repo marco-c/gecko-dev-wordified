@@ -115,9 +115,6 @@ jit_x64_BaselineHelpers_x64_h
 define
 jit_x64_BaselineHelpers_x64_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -1794,11 +1791,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

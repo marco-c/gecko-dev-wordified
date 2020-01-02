@@ -115,9 +115,6 @@ jit_BaselineFrameInfo_h
 define
 jit_BaselineFrameInfo_h
 #
-ifdef
-JS_ION
-#
 include
 "
 mozilla
@@ -1867,11 +1864,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

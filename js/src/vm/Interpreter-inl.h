@@ -4338,9 +4338,6 @@ fun_
 RootedScript
 script_
 ;
-#
-ifdef
-JS_ION
 /
 /
 Constructing
@@ -4368,8 +4365,6 @@ to
 bool
 useIon_
 ;
-#
-endif
 public
 :
 FastInvokeGuard
@@ -4395,9 +4390,6 @@ script_
 (
 cx
 )
-#
-ifdef
-JS_ION
 useIon_
 (
 jit
@@ -4408,8 +4400,6 @@ IsIonEnabled
 cx
 )
 )
-#
-endif
 {
 JS_ASSERT
 (
@@ -4508,9 +4498,6 @@ JSContext
 cx
 )
 {
-#
-ifdef
-JS_ION
 if
 (
 useIon_
@@ -4703,8 +4690,6 @@ incUseCount
 ;
 }
 }
-#
-endif
 return
 Invoke
 (

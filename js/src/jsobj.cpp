@@ -30672,9 +30672,6 @@ currentScript
 pc
 )
 ;
-#
-ifdef
-JS_ION
 if
 (
 script
@@ -30733,8 +30730,6 @@ break
 ;
 }
 }
-#
-endif
 }
 if
 (
@@ -41680,9 +41675,6 @@ mallocSizeOf
 sizes
 )
 ;
-#
-ifdef
-JS_ION
 }
 else
 if
@@ -41717,8 +41709,6 @@ sizes
 mallocHeapAsmJSModuleData
 )
 ;
-#
-endif
 #
 ifdef
 JS_HAS_CTYPES

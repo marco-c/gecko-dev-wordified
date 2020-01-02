@@ -115,9 +115,6 @@ jit_BaselineHelpers_h
 define
 jit_BaselineHelpers_h
 #
-ifdef
-JS_ION
-#
 if
 defined
 (
@@ -239,11 +236,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

@@ -115,9 +115,6 @@ jit_BaselineInspector_h
 define
 jit_BaselineInspector_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -693,11 +690,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

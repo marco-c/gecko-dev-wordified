@@ -2924,9 +2924,6 @@ rtStats
 mallocSizeOf_
 )
 ;
-#
-ifdef
-JS_ION
 jit
 :
 :
@@ -2967,8 +2964,6 @@ rtStats
 mallocSizeOf_
 )
 ;
-#
-endif
 ScriptSource
 *
 ss
@@ -3254,9 +3249,6 @@ case
 JSTRACE_JITCODE
 :
 {
-#
-ifdef
-JS_ION
 zStats
 -
 >
@@ -3282,8 +3274,6 @@ sizeOfCode
 (
 )
 .
-#
-endif
 break
 ;
 }

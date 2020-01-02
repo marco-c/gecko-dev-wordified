@@ -1869,9 +1869,6 @@ Memory
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -1880,8 +1877,6 @@ BaselineJIT
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2854,9 +2849,6 @@ FINALIZE_SCRIPT
 FINALIZE_LAZY_SCRIPT
 }
 ;
-#
-ifdef
-JS_ION
 static
 const
 AllocKind
@@ -2868,8 +2860,6 @@ FinalizePhaseJitCode
 FINALIZE_JITCODE
 }
 ;
-#
-endif
 static
 const
 AllocKind
@@ -2882,12 +2872,7 @@ FinalizePhases
 {
 FinalizePhaseStrings
 FinalizePhaseScripts
-#
-ifdef
-JS_ION
 FinalizePhaseJitCode
-#
-endif
 }
 ;
 static
@@ -2932,9 +2917,6 @@ sizeof
 (
 AllocKind
 )
-#
-ifdef
-JS_ION
 sizeof
 (
 FinalizePhaseJitCode
@@ -2944,8 +2926,6 @@ sizeof
 (
 AllocKind
 )
-#
-endif
 }
 ;
 static
@@ -2967,15 +2947,10 @@ gcstats
 :
 :
 PHASE_SWEEP_SCRIPT
-#
-ifdef
-JS_ION
 gcstats
 :
 :
 PHASE_SWEEP_JITCODE
-#
-endif
 }
 ;
 /
@@ -4436,9 +4411,6 @@ budget
 case
 FINALIZE_JITCODE
 :
-#
-ifdef
-JS_ION
 {
 /
 /
@@ -4491,8 +4463,6 @@ budget
 )
 ;
 }
-#
-endif
 default
 :
 MOZ_CRASH
@@ -12807,9 +12777,6 @@ FINALIZE_LAZY_SCRIPT
 )
 ;
 }
-#
-ifdef
-JS_ION
 void
 ArenaLists
 :
@@ -12851,8 +12818,6 @@ FINALIZE_JITCODE
 )
 ;
 }
-#
-endif
 void
 ArenaLists
 :
@@ -17864,9 +17829,6 @@ DEBUG_GC
 return
 true
 ;
-#
-ifdef
-JS_ION
 if
 (
 comp
@@ -17892,8 +17854,6 @@ hasRecentParallelActivity
 return
 true
 ;
-#
-endif
 return
 false
 ;
@@ -18857,9 +18817,6 @@ gc
 cleanUpEverything
 )
 {
-#
-ifdef
-JS_ION
 if
 (
 JSCompartment
@@ -18887,8 +18844,6 @@ setPreservingCode
 true
 )
 ;
-#
-endif
 }
 /
 *
@@ -25808,9 +25763,6 @@ fop
 )
 ;
 }
-#
-ifdef
-JS_ION
 for
 (
 GCZoneGroupIter
@@ -25857,8 +25809,6 @@ fop
 )
 ;
 }
-#
-endif
 for
 (
 GCZoneGroupIter
@@ -27342,9 +27292,6 @@ purge
 (
 )
 ;
-#
-ifdef
-JS_ION
 if
 (
 rt
@@ -27396,8 +27343,6 @@ purge
 )
 ;
 }
-#
-endif
 /
 *
 *
@@ -34083,9 +34028,6 @@ fop
 {
 #
 ifdef
-JS_ION
-#
-ifdef
 JSGC_GENERATIONAL
 /
 *
@@ -34397,8 +34339,6 @@ free
 )
 ;
 }
-#
-endif
 }
 void
 js
@@ -34411,9 +34351,6 @@ Zone
 zone
 )
 {
-#
-ifdef
-JS_ION
 for
 (
 ZoneCellIterUnderGC
@@ -34467,8 +34404,6 @@ script
 )
 ;
 }
-#
-endif
 }
 void
 ArenaLists

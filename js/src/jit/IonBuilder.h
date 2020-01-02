@@ -114,9 +114,6 @@ jit_IonBuilder_h
 #
 define
 jit_IonBuilder_h
-#
-ifdef
-JS_ION
 /
 /
 This
@@ -6615,11 +6612,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

@@ -5199,9 +5199,6 @@ Sprinter
 sp
 )
 ;
-#
-ifdef
-JS_ION
 namespace
 js
 {
@@ -5230,8 +5227,6 @@ ionCounts
 )
 ;
 }
-#
-endif
 #
 endif
 /

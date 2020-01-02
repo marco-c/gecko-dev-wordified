@@ -115,9 +115,6 @@ jit_CompileWrappers_h
 define
 jit_CompileWrappers_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jscntxt
@@ -674,11 +671,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

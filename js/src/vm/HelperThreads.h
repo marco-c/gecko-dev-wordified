@@ -1690,9 +1690,6 @@ PauseCurrentHelperThread
 (
 )
 ;
-#
-ifdef
-JS_ION
 /
 *
 Perform
@@ -1762,11 +1759,6 @@ IonBuilder
 builder
 )
 ;
-#
-endif
-/
-/
-JS_ION
 /
 *
 *
@@ -2023,9 +2015,6 @@ lock
 }
 }
 ;
-#
-ifdef
-JS_ION
 struct
 AsmJSParallelTask
 {
@@ -2181,8 +2170,6 @@ nullptr
 }
 }
 ;
-#
-endif
 struct
 ParseTask
 {

@@ -115,9 +115,6 @@ jit_mips_BaselineHelpers_mips_h
 define
 jit_mips_BaselineHelpers_mips_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -2223,11 +2220,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /

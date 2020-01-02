@@ -114,9 +114,6 @@ jit_IonAnalysis_h
 #
 define
 jit_IonAnalysis_h
-#
-ifdef
-JS_ION
 /
 /
 This
@@ -706,11 +703,6 @@ jit
 /
 namespace
 js
-#
-endif
-/
-/
-JS_ION
 #
 endif
 /
