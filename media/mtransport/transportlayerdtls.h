@@ -428,15 +428,6 @@ digest_len
 )
 ;
 nsresult
-GetCipherSuite
-(
-uint16_t
-*
-cipherSuite
-)
-const
-;
-nsresult
 SetSrtpCiphers
 (
 std
@@ -456,7 +447,6 @@ uint16_t
 *
 cipher
 )
-const
 ;
 nsresult
 ExportKeyingMaterial
