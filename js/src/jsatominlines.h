@@ -1007,7 +1007,7 @@ length
 )
 ;
 return
-EqualCharsLatin1TwoByte
+EqualChars
 (
 keyChars
 lookup
@@ -1041,7 +1041,7 @@ lookup
 isLatin1
 )
 return
-EqualCharsLatin1TwoByte
+EqualChars
 (
 lookup
 .
