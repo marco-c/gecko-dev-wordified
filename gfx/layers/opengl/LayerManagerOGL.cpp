@@ -6615,7 +6615,7 @@ aMatrix
 }
 static
 GLenum
-GetFrameBufferInternalFormat
+LayerManagerOGL_GetFrameBufferInternalFormat
 (
 GLContext
 *
@@ -6782,7 +6782,7 @@ incompatible
 GLenum
 format
 =
-GetFrameBufferInternalFormat
+LayerManagerOGL_GetFrameBufferInternalFormat
 (
 gl
 (

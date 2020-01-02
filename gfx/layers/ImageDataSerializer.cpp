@@ -844,6 +844,9 @@ GetFormat
 }
 TemporaryRef
 <
+gfx
+:
+:
 DataSourceSurface
 >
 ImageDataSerializerBase

@@ -12679,6 +12679,17 @@ mId
 ;
 }
 ;
+void
+SetAntialiasingFlags
+(
+Layer
+*
+aLayer
+gfxContext
+*
+aTarget
+)
+;
 #
 ifdef
 MOZ_DUMP_PAINTING

@@ -1063,15 +1063,6 @@ gTouchStartTolerance
 .
 0f
 ;
-static
-const
-float
-EPSILON
-=
-0
-.
-0001f
-;
 /
 *
 *

@@ -91,6 +91,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_layers_opengl_FPSCounter_h_
+#
+define
+mozilla_layers_opengl_FPSCounter_h_
+#
 include
 <
 stddef
@@ -541,3 +547,8 @@ Now
 ;
 }
 }
+#
+endif
+/
+/
+mozilla_layers_opengl_FPSCounter_h_
