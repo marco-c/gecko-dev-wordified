@@ -5259,7 +5259,7 @@ RootedValue
 idValue
 (
 cx
-IdToJsval
+IdToValue
 (
 id
 )
