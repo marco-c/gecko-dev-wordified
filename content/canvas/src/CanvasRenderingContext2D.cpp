@@ -13790,6 +13790,9 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 return
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 /
 /
 check
@@ -13839,6 +13842,8 @@ isDescendant
 false
 ;
 }
+#
+endif
 /
 /
 check
