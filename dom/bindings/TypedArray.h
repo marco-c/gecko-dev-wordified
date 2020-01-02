@@ -239,6 +239,11 @@ JSTracer
 trc
 )
 {
+if
+(
+mObj
+)
+{
 JS_CallObjectTracer
 (
 trc
@@ -251,6 +256,7 @@ mObj
 "
 )
 ;
+}
 }
 private
 :
