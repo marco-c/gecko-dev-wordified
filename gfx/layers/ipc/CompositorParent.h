@@ -1583,13 +1583,6 @@ CancelCurrentCompositeTask
 (
 )
 ;
-inline
-static
-PlatformThreadId
-CompositorThreadID
-(
-)
-;
 /
 *
 *
