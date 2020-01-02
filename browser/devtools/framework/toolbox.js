@@ -8439,17 +8439,6 @@ this
 .
 _telemetry
 .
-toolClosed
-(
-"
-toolbox
-"
-)
-;
-this
-.
-_telemetry
-.
 destroy
 (
 )
