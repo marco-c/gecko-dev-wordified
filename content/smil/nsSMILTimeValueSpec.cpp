@@ -2218,8 +2218,9 @@ return
 target
 -
 >
-GetOrCreateListenerManager
+GetListenerManager
 (
+true
 )
 ;
 }
