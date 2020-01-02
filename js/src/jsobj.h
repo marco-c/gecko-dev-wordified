@@ -2320,10 +2320,9 @@ hasDynamicSlots
 const
 {
 return
-slots
 !
-=
-nullptr
+!
+slots
 ;
 }
 protected
