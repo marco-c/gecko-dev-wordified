@@ -1930,7 +1930,7 @@ httpbis
 -
 http2
 -
-04
+09
 #
 section
 -
@@ -1939,6 +1939,8 @@ section
 1
 .
 3
+.
+2
 /
 /
 [
@@ -2210,7 +2212,7 @@ specification
 is
 [
 draft
-04
+09
 ]
 [
 1
@@ -2242,7 +2244,7 @@ httpbis
 -
 http2
 -
-04
+09
 var
 implementedVersion
 =
@@ -2251,7 +2253,7 @@ HTTP
 -
 draft
 -
-08
+09
 /
 2
 .
@@ -2693,7 +2695,7 @@ httpbis
 -
 http2
 -
-05
+09
 #
 section
 -
@@ -2701,7 +2703,7 @@ section
 .
 1
 .
-2
+3
 .
 1
 )
@@ -4250,6 +4252,26 @@ clientError
 )
 )
 ;
+socket
+.
+on
+(
+'
+error
+'
+this
+.
+emit
+.
+bind
+(
+this
+'
+clientError
+'
+)
+)
+;
 this
 .
 emit
@@ -4998,7 +5020,7 @@ httpbis
 -
 http2
 -
-05
+09
 #
 section
 -
@@ -5006,7 +5028,7 @@ section
 .
 1
 .
-2
+3
 .
 1
 )
@@ -8420,7 +8442,7 @@ httpbis
 -
 http2
 -
-05
+09
 #
 section
 -
@@ -8428,7 +8450,7 @@ section
 .
 1
 .
-2
+3
 .
 2
 )
