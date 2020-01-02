@@ -62303,9 +62303,7 @@ aOffset
 nsFont
 font
 (
-"
-Times
-"
+eFamily_serif
 NS_FONT_STYLE_NORMAL
 NS_FONT_VARIANT_NORMAL
 NS_FONT_WEIGHT_NORMAL
