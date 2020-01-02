@@ -714,7 +714,7 @@ kFxAccountsClient
 =
 FxAccountsManager
 .
-_createFxAccountsClient
+_getFxAccountsClient
 ;
 /
 /
@@ -1024,7 +1024,7 @@ promise
 ;
 FxAccountsManager
 .
-_createFxAccountsClient
+_getFxAccountsClient
 =
 function
 (
@@ -1034,6 +1034,7 @@ return
 FakeFxAccountsClient
 ;
 }
+;
 /
 /
 =
@@ -1147,7 +1148,7 @@ FxAccountsManager
 .
 FxAccountsManager
 .
-_createFxAccountsClient
+_getFxAccountsClient
 =
 kFxAccountsClient
 ;
