@@ -1037,12 +1037,12 @@ msg
 ;
 msg
 .
-AppendLiteral
+Append
 (
-"
+'
 \
 n
-"
+'
 )
 ;
 OutputDebugStringW

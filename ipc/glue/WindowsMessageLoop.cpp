@@ -2041,11 +2041,11 @@ className
 ;
 log
 .
-AppendLiteral
+Append
 (
-"
+'
 \
-"
+'
 )
 "
 )

@@ -1145,12 +1145,12 @@ buf
 ;
 mAdapterDescription
 .
-AppendLiteral
+Append
 (
-"
+'
 \
 n
-"
+'
 )
 ;
 }

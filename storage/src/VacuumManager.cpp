@@ -565,10 +565,10 @@ result
 ;
 warnMsg
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 warnMsg
@@ -1776,10 +1776,10 @@ result
 ;
 warnMsg
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 warnMsg

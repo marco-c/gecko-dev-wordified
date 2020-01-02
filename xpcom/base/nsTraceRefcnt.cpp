@@ -4105,11 +4105,11 @@ Length
 }
 fname
 .
-AppendLiteral
+Append
 (
-"
+'
 _
-"
+'
 )
 ;
 fname

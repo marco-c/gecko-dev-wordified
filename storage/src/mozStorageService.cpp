@@ -1042,11 +1042,11 @@ getFilename
 ;
 pathHead
 .
-AppendLiteral
+Append
 (
-"
+'
 /
-"
+'
 )
 ;
 SQLiteMutexAutoLock

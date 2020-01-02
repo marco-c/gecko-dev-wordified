@@ -3372,11 +3372,11 @@ topURIString
 ;
 msg
 .
-AppendLiteral
+Append
 (
-"
+'
 .
-"
+'
 )
 ;
 break

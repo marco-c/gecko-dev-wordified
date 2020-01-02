@@ -404,11 +404,11 @@ GetPermission
 ;
 permissionName
 .
-AppendLiteral
+Append
 (
-"
+'
 -
-"
+'
 )
 ;
 permissionName

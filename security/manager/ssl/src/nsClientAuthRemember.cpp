@@ -949,11 +949,11 @@ aHostName
 ;
 hostCert
 .
-AppendLiteral
+Append
 (
-"
+'
 :
-"
+'
 )
 ;
 hostCert

@@ -281,11 +281,11 @@ mStorageType
 ;
 mString
 .
-AppendLiteral
+Append
 (
-"
+'
 -
-"
+'
 )
 ;
 mString

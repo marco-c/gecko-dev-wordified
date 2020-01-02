@@ -4654,11 +4654,11 @@ openTags
 ;
 aOutString
 .
-AppendLiteral
+Append
 (
-"
+'
 <
-"
+'
 )
 ;
 aOutString

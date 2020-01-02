@@ -425,11 +425,11 @@ aKey
 ;
 aKey
 .
-AppendLiteral
+Append
 (
-"
+'
 .
-"
+'
 )
 ;
 return

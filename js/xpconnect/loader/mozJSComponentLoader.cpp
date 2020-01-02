@@ -7619,10 +7619,10 @@ ptr
 ;
 logBuffer
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 if

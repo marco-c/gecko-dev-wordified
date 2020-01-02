@@ -4306,11 +4306,11 @@ IsEmpty
 {
 hostPort
 .
-AppendLiteral
+Append
 (
-"
+'
 :
-"
+'
 )
 ;
 hostPort

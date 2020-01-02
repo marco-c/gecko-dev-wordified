@@ -381,10 +381,10 @@ name
 ;
 aResult
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 nsIContent

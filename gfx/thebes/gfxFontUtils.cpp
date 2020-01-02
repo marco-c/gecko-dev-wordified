@@ -6545,10 +6545,10 @@ IsEmpty
 {
 name
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 name

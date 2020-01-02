@@ -2039,10 +2039,10 @@ lastCommaPos
 ;
 aPath
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 /

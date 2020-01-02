@@ -1442,11 +1442,11 @@ aFindFlag
 ;
 description
 .
-AppendLiteral
+Append
 (
-"
+'
 )
-"
+'
 )
 ;
 }

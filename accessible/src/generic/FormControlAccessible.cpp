@@ -958,11 +958,11 @@ percentValue
 ;
 aValue
 .
-AppendLiteral
+Append
 (
-"
+'
 %
-"
+'
 )
 ;
 }

@@ -1202,11 +1202,11 @@ mPrefName
 ;
 mPrefName
 .
-AppendLiteral
+Append
 (
-"
+'
 .
-"
+'
 )
 ;
 }

@@ -6149,11 +6149,11 @@ IsEmpty
 {
 data
 .
-AppendLiteral
+Append
 (
-"
+'
 :
-"
+'
 )
 ;
 data

@@ -1859,10 +1859,10 @@ position
 {
 aResult
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 }
@@ -2162,10 +2162,10 @@ mValue
 {
 aResult
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 aResult

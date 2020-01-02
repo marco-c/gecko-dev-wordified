@@ -7268,10 +7268,10 @@ i
 )
 _usages
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 _usages

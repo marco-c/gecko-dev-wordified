@@ -2881,11 +2881,11 @@ GetHostNameRaw
 ;
 hostWithPortString
 .
-AppendLiteral
+Append
 (
-"
+'
 :
-"
+'
 )
 ;
 hostWithPortString

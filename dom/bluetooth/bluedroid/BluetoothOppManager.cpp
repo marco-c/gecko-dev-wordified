@@ -3482,11 +3482,11 @@ rv
 {
 mFileName
 .
-AppendLiteral
+Append
 (
-"
+'
 .
-"
+'
 )
 ;
 AppendUTF8toUTF16

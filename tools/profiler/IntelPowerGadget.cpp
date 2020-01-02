@@ -328,11 +328,11 @@ path
 ;
 ipg_library
 .
-AppendLiteral
+Append
 (
-"
+'
 /
-"
+'
 )
 ;
 ipg_library

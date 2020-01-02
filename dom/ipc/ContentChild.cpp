@@ -3060,10 +3060,10 @@ IsEmpty
 {
 aName
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 }
