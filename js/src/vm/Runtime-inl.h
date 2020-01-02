@@ -503,8 +503,14 @@ if
 allowGC
 )
 {
+mozilla
+:
+:
+DebugOnly
+<
 JSObject
 *
+>
 obj
 =
 js
