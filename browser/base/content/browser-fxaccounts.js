@@ -1106,7 +1106,7 @@ email
 )
 ;
 }
-toggle
+onMenuPanelCommand
 :
 function
 (
