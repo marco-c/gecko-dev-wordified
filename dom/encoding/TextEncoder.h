@@ -222,16 +222,6 @@ aTookOwnership
 )
 ;
 }
-nsISupports
-*
-GetParentObject
-(
-)
-{
-return
-nullptr
-;
-}
 JSObject
 *
 Encode

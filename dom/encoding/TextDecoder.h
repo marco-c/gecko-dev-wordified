@@ -243,16 +243,6 @@ aTookOwnership
 )
 ;
 }
-nsISupports
-*
-GetParentObject
-(
-)
-{
-return
-nullptr
-;
-}
 /
 *
 *

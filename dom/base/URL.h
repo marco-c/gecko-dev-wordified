@@ -204,17 +204,6 @@ aURI
 /
 WebIDL
 methods
-nsISupports
-*
-GetParentObject
-(
-)
-const
-{
-return
-nullptr
-;
-}
 JSObject
 *
 WrapObject
