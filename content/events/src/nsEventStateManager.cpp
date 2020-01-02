@@ -3237,7 +3237,7 @@ than
 ignoremovedelay
 milliseconds
 ago
-MayEndTransaction
+EndTransaction
 (
 )
 ;
@@ -3313,7 +3313,7 @@ pt
 )
 )
 {
-MayEndTransaction
+EndTransaction
 (
 )
 ;
