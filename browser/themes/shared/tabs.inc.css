@@ -179,6 +179,15 @@ appearance
 :
 none
 ;
+-
+moz
+-
+box
+-
+align
+:
+stretch
+;
 background
 -
 color
@@ -1917,10 +1926,6 @@ display
 moz
 -
 box
-;
-height
-:
-tabHeight
 ;
 width
 :
