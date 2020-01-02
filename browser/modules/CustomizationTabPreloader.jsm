@@ -680,7 +680,12 @@ scripts
 =
 win
 .
-messageManager
+getGroupMessageManager
+(
+"
+browsers
+"
+)
 .
 getDelayedFrameScripts
 (
