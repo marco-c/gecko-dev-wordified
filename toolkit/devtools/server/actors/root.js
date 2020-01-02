@@ -1479,6 +1479,9 @@ traits
 sources
 :
 true
+editOuterHTML
+:
+true
 }
 }
 ;
