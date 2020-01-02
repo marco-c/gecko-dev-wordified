@@ -2484,7 +2484,10 @@ static
 void
 AttachPluginEvent
 (
-nsMouseEvent_base
+mozilla
+:
+:
+WidgetMouseEventBase
 &
 aMouseEvent
 ChildView
