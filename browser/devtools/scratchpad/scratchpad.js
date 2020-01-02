@@ -4424,15 +4424,11 @@ markText
 (
 from
 to
-{
-className
-:
 "
 eval
 -
 text
 "
-}
 )
 ;
 setTimeout
