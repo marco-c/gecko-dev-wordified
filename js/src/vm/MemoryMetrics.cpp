@@ -3512,8 +3512,6 @@ reserve
 rt
 -
 >
-gc
-.
 zones
 .
 length
