@@ -3065,7 +3065,7 @@ SK_ATOMICS_PLATFORM_H
 if
 defined
 (
-SK_BUILD_FOR_WIN
+_MSC_VER
 )
 #
 define

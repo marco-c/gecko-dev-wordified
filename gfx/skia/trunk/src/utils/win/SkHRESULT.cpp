@@ -43,7 +43,7 @@ h
 #
 include
 "
-SKHRESULT
+SkHRESULT
 .
 h
 "
