@@ -170,9 +170,6 @@ nsCOMPtr
 h
 "
 class
-nsHashtable
-;
-class
 nsILineInputStream
 ;
 class
@@ -411,9 +408,6 @@ const
 nsAString
 &
 aMinorType
-nsHashtable
-&
-aTypeOptions
 nsACString
 &
 aUnEscapedCommand
@@ -661,9 +655,6 @@ const
 nsAString
 &
 aMinorType
-nsHashtable
-&
-aTypeOptions
 nsAString
 &
 aHandler
@@ -687,9 +678,6 @@ const
 nsAString
 &
 aMinorType
-nsHashtable
-&
-aTypeOptions
 nsAString
 &
 aHandler
@@ -719,9 +707,6 @@ const
 nsAString
 &
 aMinorType
-nsHashtable
-&
-aTypeOptions
 nsAString
 &
 aHandler
