@@ -1589,11 +1589,6 @@ static
 translucent
 drag
 feedback
-bool
-isDragPopup
-=
-false
-;
 if
 (
 mPopupType
@@ -1623,10 +1618,6 @@ eIgnoreCase
 widgetData
 .
 mIsDragPopup
-=
-true
-;
-isDragPopup
 =
 true
 ;
