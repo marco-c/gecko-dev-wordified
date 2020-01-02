@@ -9657,7 +9657,7 @@ listening
 .
 experiments
 .
-_unregisterWithAddonManager
+_stopWatchingAddons
 (
 )
 ;
@@ -9674,7 +9674,7 @@ EXPERIMENT1_XPI_SHA1
 ;
 experiments
 .
-_registerWithAddonManager
+_startWatchingAddons
 (
 )
 ;
@@ -10224,7 +10224,7 @@ n
 ;
 experiments
 .
-_unregisterWithAddonManager
+_stopWatchingAddons
 (
 )
 ;
@@ -10234,7 +10234,7 @@ restartManager
 ;
 experiments
 .
-_registerWithAddonManager
+_startWatchingAddons
 (
 )
 ;
