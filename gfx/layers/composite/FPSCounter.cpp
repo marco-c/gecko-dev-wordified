@@ -692,7 +692,7 @@ currentStamp
 return
 duration
 .
-ToSecondsSigDigits
+ToSeconds
 (
 )
 >
@@ -1202,7 +1202,7 @@ if
 (
 interval
 .
-ToSecondsSigDigits
+ToSeconds
 (
 )
 >
