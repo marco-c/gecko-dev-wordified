@@ -154,4 +154,11 @@ systemLocaleDidChange
 (
 )
 ;
+void
+resetToSystemLocale
+(
+Context
+context
+)
+;
 }
