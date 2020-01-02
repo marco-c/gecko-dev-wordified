@@ -425,6 +425,12 @@ ALLOW_SYSCALL
 (
 sigprocmask
 )
+\
+DENY_SYSCALL
+(
+socket
+EACCES
+)
 #
 elif
 defined
@@ -468,6 +474,12 @@ socketpair
 ALLOW_SYSCALL
 (
 sendmsg
+)
+\
+DENY_SYSCALL
+(
+socket
+EACCES
 )
 #
 endif
