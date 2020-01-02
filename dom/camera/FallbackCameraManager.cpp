@@ -134,10 +134,6 @@ Create
 (
 uint32_t
 aCameraId
-const
-Configuration
-*
-aInitialConfig
 )
 {
 return
