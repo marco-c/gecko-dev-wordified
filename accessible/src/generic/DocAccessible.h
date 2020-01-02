@@ -321,7 +321,7 @@ nsIDocumentObserver
 NS_DECL_NSIDOCUMENTOBSERVER
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Init
@@ -365,9 +365,6 @@ return
 mDocumentNode
 ;
 }
-/
-/
-Accessible
 virtual
 mozilla
 :
@@ -1177,7 +1174,7 @@ uniqueID
 (
 )
 of
-nsAccessNode
+Accessible
 *
 *
 param

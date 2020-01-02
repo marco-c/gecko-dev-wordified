@@ -242,16 +242,13 @@ aIndex
 ;
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Shutdown
 (
 )
 ;
-/
-/
-Accessible
 virtual
 mozilla
 :

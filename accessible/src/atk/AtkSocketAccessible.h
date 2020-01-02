@@ -306,9 +306,6 @@ nsCString
 aPlugId
 )
 ;
-/
-/
-nsAccessNode
 virtual
 void
 Shutdown

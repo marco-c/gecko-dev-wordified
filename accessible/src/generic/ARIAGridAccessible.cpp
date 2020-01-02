@@ -612,7 +612,7 @@ nsIAccessibleTable
 /
 /
 /
-nsAccessNode
+Accessible
 void
 ARIAGridAccessible
 :

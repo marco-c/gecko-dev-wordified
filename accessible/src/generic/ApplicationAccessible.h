@@ -369,16 +369,13 @@ nsIAccessibleApplication
 NS_DECL_NSIACCESSIBLEAPPLICATION
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Shutdown
 (
 )
 ;
-/
-/
-Accessible
 virtual
 already_AddRefed
 <

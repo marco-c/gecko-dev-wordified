@@ -268,15 +268,6 @@ nsISupports
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsAccessNode
-virtual
-void
-Shutdown
-(
-)
-;
-/
-/
 nsIAccessible
 NS_IMETHOD
 GetBounds
@@ -298,6 +289,12 @@ aHeight
 /
 /
 Accessible
+virtual
+void
+Shutdown
+(
+)
+;
 virtual
 a11y
 :
@@ -392,7 +389,7 @@ HTMLListBulletAccessible
 }
 /
 /
-nsAccessNode
+Accessible
 virtual
 nsIFrame
 *
@@ -401,9 +398,6 @@ GetFrame
 )
 const
 ;
-/
-/
-Accessible
 virtual
 ENameValueFlag
 Name

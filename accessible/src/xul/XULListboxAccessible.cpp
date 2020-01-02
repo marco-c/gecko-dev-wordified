@@ -1115,7 +1115,7 @@ NS_ERROR_NO_INTERFACE
 /
 /
 /
-nsAccessNode
+Accessible
 void
 XULListboxAccessible
 :

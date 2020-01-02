@@ -741,7 +741,7 @@ A11Y_TRYBLOCK_END
 /
 /
 /
-nsAccessNode
+Accessible
 void
 DocAccessibleWrap
 :

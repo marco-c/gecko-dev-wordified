@@ -237,16 +237,13 @@ HTMLWin32ObjectOwnerAccessible
 }
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Shutdown
 (
 )
 ;
-/
-/
-Accessible
 virtual
 mozilla
 :

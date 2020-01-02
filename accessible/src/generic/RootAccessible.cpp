@@ -3315,7 +3315,7 @@ endif
 /
 /
 /
-nsAccessNode
+Accessible
 void
 RootAccessible
 :
@@ -3330,7 +3330,7 @@ Called
 manually
 or
 by
-nsAccessNode
+Accessible
 :
 :
 LastRelease

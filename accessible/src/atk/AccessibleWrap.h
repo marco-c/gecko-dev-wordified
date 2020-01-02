@@ -252,9 +252,6 @@ ShutdownAtkObject
 (
 )
 ;
-/
-/
-nsAccessNode
 virtual
 void
 Shutdown

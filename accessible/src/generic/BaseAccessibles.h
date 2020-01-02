@@ -360,16 +360,13 @@ TakeFocus
 ;
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Shutdown
 (
 )
 ;
-/
-/
-Accessible
 virtual
 void
 Value

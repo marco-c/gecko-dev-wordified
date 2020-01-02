@@ -489,7 +489,7 @@ aContent
 /
 XULSelectControlAccessible
 :
-nsAccessNode
+Accessible
 void
 XULSelectControlAccessible
 :

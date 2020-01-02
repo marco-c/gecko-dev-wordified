@@ -967,16 +967,13 @@ aName
 ;
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Shutdown
 (
 )
 ;
-/
-/
-Accessible
 virtual
 void
 Description
@@ -1174,7 +1171,7 @@ HTMLComboboxListAccessible
 }
 /
 /
-nsAccessNode
+Accessible
 virtual
 nsIFrame
 *
@@ -1183,9 +1180,6 @@ GetFrame
 )
 const
 ;
-/
-/
-Accessible
 virtual
 a11y
 :

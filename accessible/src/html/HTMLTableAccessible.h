@@ -889,16 +889,13 @@ this
 }
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Shutdown
 (
 )
 ;
-/
-/
-Accessible
 virtual
 TableAccessible
 *

@@ -219,7 +219,7 @@ pszValue
 ;
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Shutdown

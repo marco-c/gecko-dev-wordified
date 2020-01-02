@@ -181,7 +181,7 @@ XULSelectControlAccessible
 }
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Shutdown

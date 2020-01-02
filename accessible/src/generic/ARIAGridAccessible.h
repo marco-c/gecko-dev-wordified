@@ -211,9 +211,6 @@ return
 this
 ;
 }
-/
-/
-nsAccessNode
 virtual
 void
 Shutdown

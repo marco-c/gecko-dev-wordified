@@ -172,16 +172,13 @@ aEvent
 ;
 /
 /
-nsAccessNode
+Accessible
 virtual
 void
 Shutdown
 (
 )
 ;
-/
-/
-Accessible
 virtual
 mozilla
 :

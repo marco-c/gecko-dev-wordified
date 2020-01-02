@@ -1294,7 +1294,7 @@ AccessKey
 /
 LinkableAccessible
 .
-nsAccessNode
+Accessible
 void
 LinkableAccessible
 :

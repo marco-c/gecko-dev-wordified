@@ -3259,7 +3259,7 @@ accessible
 /
 /
 /
-nsAccessNode
+Accessible
 void
 DocAccessible
 :
