@@ -3388,6 +3388,10 @@ mMayHaveTouchEventListener
 (
 false
 )
+mMayHaveTouchCaret
+(
+false
+)
 mMayHaveMouseEnterLeaveEventListener
 (
 false
