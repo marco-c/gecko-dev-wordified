@@ -2820,8 +2820,6 @@ MediaResourceServer
 >
 mServer
 ;
-public
-:
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISERVERSOCKETLISTENER
 ResourceSocketListener
@@ -2837,6 +2835,8 @@ aServer
 )
 {
 }
+private
+:
 virtual
 ~
 ResourceSocketListener
