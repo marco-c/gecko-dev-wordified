@@ -338,6 +338,10 @@ CalculateConnectDelayMs
 (
 )
 ;
+mConnectTimestamp
+=
+0
+;
 OnConnectError
 (
 )
@@ -368,6 +372,10 @@ CalculateConnectDelayMs
 (
 )
 ;
+mConnectTimestamp
+=
+0
+;
 OnDisconnect
 (
 )
@@ -396,6 +404,9 @@ mConnectDelayMs
 ;
 if
 (
+mConnectTimestamp
+&
+&
 (
 PR_IntervalNow
 (
