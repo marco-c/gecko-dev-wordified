@@ -2152,7 +2152,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeQuartz
+gfxSurfaceType
+:
+:
+Quartz
 )
 return
 ;

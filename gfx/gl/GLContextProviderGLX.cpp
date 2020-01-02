@@ -1773,7 +1773,10 @@ GetType
 )
 !
 =
-gfxSurfaceTypeXlib
+gfxSurfaceType
+:
+:
+Xlib
 |
 |
 !

@@ -399,7 +399,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeWin32
+gfxSurfaceType
+:
+:
+Win32
 |
 |
 aSurface
@@ -410,7 +413,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeWin32Printing
+gfxSurfaceType
+:
+:
+Win32Printing
 )
 )
 {

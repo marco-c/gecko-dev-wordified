@@ -920,7 +920,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeXlib
+gfxSurfaceType
+:
+:
+Xlib
 &
 &
 static_cast

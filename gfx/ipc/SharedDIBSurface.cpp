@@ -351,7 +351,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeImage
+gfxSurfaceType
+:
+:
+Image
 &
 &
 aSurface

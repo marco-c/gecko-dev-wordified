@@ -9202,7 +9202,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeTee
+gfxSurfaceType
+:
+:
+Tee
 )
 &
 &
@@ -9261,7 +9264,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeTee
+gfxSurfaceType
+:
+:
+Tee
 )
 {
 NS_ASSERTION
@@ -9274,7 +9280,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeTee
+gfxSurfaceType
+:
+:
+Tee
 "
 Mismatched
 types

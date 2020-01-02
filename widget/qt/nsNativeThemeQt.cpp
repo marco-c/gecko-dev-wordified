@@ -479,7 +479,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeQPainter
+gfxSurfaceType
+:
+:
+QPainter
 )
 {
 gfxQPainterSurface
@@ -556,7 +559,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeImage
+gfxSurfaceType
+:
+:
+Image
 )
 {
 gfxImageSurface
@@ -656,7 +662,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeXlib
+gfxSurfaceType
+:
+:
+Xlib
 )
 {
 gfxXlibSurface

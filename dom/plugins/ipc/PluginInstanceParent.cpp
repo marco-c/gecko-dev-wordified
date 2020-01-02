@@ -2939,7 +2939,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeXlib
+gfxSurfaceType
+:
+:
+Xlib
 )
 {
 /

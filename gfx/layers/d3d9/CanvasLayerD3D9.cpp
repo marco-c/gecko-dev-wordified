@@ -819,7 +819,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeWin32
+gfxSurfaceType
+:
+:
+Win32
 )
 {
 sourceSurface
@@ -843,7 +846,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeImage
+gfxSurfaceType
+:
+:
+Image
 )
 {
 sourceSurface

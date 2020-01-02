@@ -675,7 +675,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeD2D
+gfxSurfaceType
+:
+:
+D2D
 )
 {
 void
