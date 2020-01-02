@@ -1085,7 +1085,7 @@ surface
 mContainer
 -
 >
-GetCurrentAsSurface
+DeprecatedGetCurrentAsSurface
 (
 &
 dontCare
