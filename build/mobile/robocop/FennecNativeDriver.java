@@ -768,7 +768,6 @@ name
 )
 )
 activity
-mSolo
 )
 ;
 }
