@@ -1982,6 +1982,9 @@ rv
 SECSuccess
 )
 {
+delete
+newEntry
+;
 return
 rv
 ;
