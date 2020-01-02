@@ -1126,6 +1126,8 @@ listener
 options
 .
 filename
+(
+)
 options
 .
 lineno
@@ -1382,6 +1384,8 @@ if
 options
 .
 filename
+(
+)
 &
 &
 !
@@ -1394,6 +1398,8 @@ cx
 options
 .
 filename
+(
+)
 )
 )
 return
@@ -2724,6 +2730,8 @@ if
 options
 .
 sourceMapURL
+(
+)
 )
 {
 if
@@ -2738,6 +2746,8 @@ cx
 options
 .
 sourceMapURL
+(
+)
 )
 )
 return
@@ -3499,6 +3509,8 @@ if
 options
 .
 filename
+(
+)
 &
 &
 !
@@ -3511,6 +3523,8 @@ cx
 options
 .
 filename
+(
+)
 )
 )
 return
