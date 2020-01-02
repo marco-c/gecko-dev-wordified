@@ -4288,6 +4288,11 @@ PanZoomState
 mState
 )
 ;
+bool
+AllowZoom
+(
+)
+;
 enum
 AxisLockMode
 {
