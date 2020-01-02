@@ -6376,11 +6376,6 @@ height
 =
 indicator_size
 ;
-*
-aIsOverridable
-=
-false
-;
 }
 break
 ;
