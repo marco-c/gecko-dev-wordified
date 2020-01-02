@@ -43997,6 +43997,8 @@ MFilterTypeSet
 :
 public
 MUnaryInstruction
+public
+FilterTypeSetPolicy
 {
 MFilterTypeSet
 (
@@ -44096,6 +44098,16 @@ MFilterTypeSet
 def
 types
 )
+;
+}
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
 ;
 }
 bool
