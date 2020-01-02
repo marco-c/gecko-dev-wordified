@@ -237,6 +237,17 @@ prototype
 _longStrings
 :
 null
+get
+actor
+(
+)
+{
+return
+this
+.
+_actor
+;
+}
 /
 *
 *
