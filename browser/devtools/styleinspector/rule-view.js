@@ -3920,7 +3920,7 @@ style
 textProp
 .
 name
-cssProp
+textProp
 .
 value
 )
