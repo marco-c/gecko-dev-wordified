@@ -2840,7 +2840,7 @@ webvtt
 .
 enabled
 "
-false
+true
 )
 ;
 /
