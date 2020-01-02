@@ -1416,6 +1416,9 @@ newSize
 ;
 if
 (
+newSlots
+&
+&
 oldSlots
 !
 =
@@ -1494,6 +1497,10 @@ obj
 newCount
 )
 ;
+if
+(
+newSlots
+)
 PodCopy
 (
 newSlots
@@ -1648,6 +1655,10 @@ slots
 .
 *
 /
+if
+(
+slots
+)
 (
 void
 )
