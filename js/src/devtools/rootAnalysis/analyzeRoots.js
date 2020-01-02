@@ -3372,13 +3372,9 @@ entry
 var
 gcPoint
 =
-(
-'
-gcInfo
-'
-in
 entry
-)
+.
+gcInfo
 ?
 entry
 .
