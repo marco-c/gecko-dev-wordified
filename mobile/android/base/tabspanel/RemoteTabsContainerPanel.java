@@ -263,6 +263,9 @@ String
 ]
 {
 "
+clients
+"
+"
 tabs
 "
 }
