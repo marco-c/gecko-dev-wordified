@@ -995,6 +995,9 @@ Error
 )
 "
 ;
+JS
+:
+:
 RootedValue
 _
 (
@@ -1735,6 +1738,9 @@ cx
 argv
 )
 ;
+JS
+:
+:
 RootedValue
 v
 (
