@@ -3967,8 +3967,9 @@ relevancescore
 false
 )
 ;
-run_next_test
+executeSoon
 (
+run_next_test
 )
 ;
 }

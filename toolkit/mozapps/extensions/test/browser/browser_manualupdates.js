@@ -1412,8 +1412,9 @@ if
 (
 badgeUpdated
 )
-run_next_test
+executeSoon
 (
+run_next_test
 )
 ;
 else
