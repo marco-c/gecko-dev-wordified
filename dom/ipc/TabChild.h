@@ -2891,6 +2891,12 @@ Init
 (
 )
 ;
+class
+DelayedFireSingleTapEvent
+;
+class
+DelayedFireContextMenuEvent
+;
 /
 /
 Notify
@@ -3288,8 +3294,10 @@ doesn
 t
 happen
 .
-CancelableTask
-*
+nsCOMPtr
+<
+nsITimer
+>
 mTapHoldTimer
 ;
 /
@@ -3382,6 +3390,9 @@ mHasValidInnerSize
 ;
 uint64_t
 mUniqueId
+;
+bool
+mDestroyed
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
