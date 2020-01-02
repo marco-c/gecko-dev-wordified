@@ -124,6 +124,15 @@ CommandEventBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EventForwards
+.
+h
+"
 class
 nsDOMCommandEvent
 :

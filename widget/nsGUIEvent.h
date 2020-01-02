@@ -118,15 +118,6 @@ ContentEvents
 h
 "
 #
-include
-"
-mozilla
-/
-MiscEvents
-.
-h
-"
-#
 endif
 /
 /

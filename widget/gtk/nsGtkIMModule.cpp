@@ -174,6 +174,15 @@ include
 "
 mozilla
 /
+MiscEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

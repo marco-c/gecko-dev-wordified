@@ -107,6 +107,15 @@ prtime
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MiscEvents
+.
+h
+"
 nsDOMCommandEvent
 :
 :

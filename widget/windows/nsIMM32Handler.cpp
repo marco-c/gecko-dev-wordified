@@ -185,6 +185,15 @@ include
 "
 mozilla
 /
+MiscEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEvents
 .
 h
