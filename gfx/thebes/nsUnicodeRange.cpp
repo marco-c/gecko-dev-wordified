@@ -376,11 +376,6 @@ unicode
 x
 -
 western
-x
--
-central
--
-euro
 tr
 -
 >

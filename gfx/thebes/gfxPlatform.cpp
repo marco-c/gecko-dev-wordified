@@ -1205,13 +1205,6 @@ x
 western
 "
 "
-x
--
-central
--
-euro
-"
-"
 ja
 "
 "

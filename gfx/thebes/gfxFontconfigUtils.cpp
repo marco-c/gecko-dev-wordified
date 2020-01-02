@@ -2141,15 +2141,6 @@ en
 nsGkAtoms
 :
 :
-x_central_euro
-"
-pl
-"
-}
-{
-nsGkAtoms
-:
-:
 x_cyrillic
 "
 ru

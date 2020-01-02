@@ -15077,17 +15077,6 @@ xxx
 )
 GK_ATOM
 (
-x_central_euro
-"
-x
--
-central
--
-euro
-"
-)
-GK_ATOM
-(
 x_symbol
 "
 x
