@@ -1094,6 +1094,7 @@ value
 '
 value
 )
+;
 }
 function
 listener
