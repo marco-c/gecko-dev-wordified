@@ -4086,7 +4086,7 @@ AsMutationEvent
 )
 ;
 case
-NS_GUI_EVENT
+eGUIEventClass
 :
 case
 NS_SCROLLPORT_EVENT
