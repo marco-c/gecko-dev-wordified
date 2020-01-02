@@ -506,6 +506,9 @@ requisition
 new
 Requisition
 (
+context
+.
+system
 )
 }
 ;
@@ -530,9 +533,11 @@ requisition
 ;
 requisition
 .
-canon
+system
 .
-getCommand
+commands
+.
+get
 (
 '
 mocks
@@ -574,9 +579,11 @@ function
 {
 requisition
 .
-canon
+system
 .
-getCommand
+commands
+.
+get
 (
 '
 mocks

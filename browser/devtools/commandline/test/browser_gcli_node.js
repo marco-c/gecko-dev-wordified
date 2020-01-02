@@ -406,6 +406,11 @@ audit
 options
 [
 {
+skipRemainingIf
+:
+options
+.
+isNoDom
 setup
 :
 '

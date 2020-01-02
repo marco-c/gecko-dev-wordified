@@ -334,9 +334,11 @@ options
 .
 requisition
 .
-canon
+system
 .
-getCommand
+commands
+.
+get
 (
 '
 pref
@@ -614,9 +616,11 @@ options
 .
 requisition
 .
-canon
+system
 .
-getCommand
+commands
+.
+get
 (
 '
 pref

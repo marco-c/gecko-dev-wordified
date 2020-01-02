@@ -502,9 +502,11 @@ options
 .
 requisition
 .
-canon
+system
 .
-getCommand
+commands
+.
+get
 (
 '
 {

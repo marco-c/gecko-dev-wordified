@@ -442,6 +442,7 @@ host
 .
 spawn
 (
+context
 spawnSpec
 )
 .
