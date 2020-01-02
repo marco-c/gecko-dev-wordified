@@ -127,7 +127,7 @@ h
 #
 include
 "
-BluetoothProfileManagerBase
+BluetoothHfpManagerBase
 .
 h
 "
@@ -370,7 +370,7 @@ BluetoothHfpManager
 public
 BluetoothSocketObserver
 public
-BluetoothProfileManagerBase
+BluetoothHfpManagerBase
 public
 BatteryObserver
 {
@@ -378,7 +378,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
-BT_DECL_PROFILE_MGR_BASE
+BT_DECL_HFP_MGR_BASE
 virtual
 void
 GetName
@@ -603,11 +603,6 @@ DisconnectSco
 ;
 bool
 ListenSco
-(
-)
-;
-bool
-IsScoConnected
 (
 )
 ;
