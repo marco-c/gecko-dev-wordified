@@ -831,6 +831,14 @@ nsPrintfCString
 "
 %
 s
+p
+=
+0x
+%
+p
+f
+=
+0x
 %
 p
 (
@@ -884,6 +892,7 @@ aItem
 Name
 (
 )
+aItem
 (
 void
 *
@@ -1275,6 +1284,7 @@ nsPrintfCString
 "
 layer
 =
+0x
 %
 p
 "
