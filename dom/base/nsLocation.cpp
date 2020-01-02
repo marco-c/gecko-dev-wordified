@@ -4581,7 +4581,7 @@ GetSubjectPrincipal
 )
 -
 >
-Subsumes
+SubsumesConsideringDomain
 (
 sop
 -
