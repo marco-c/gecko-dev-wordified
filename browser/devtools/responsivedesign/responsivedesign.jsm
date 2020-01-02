@@ -282,8 +282,6 @@ require
 "
 devtools
 /
-shared
-/
 touch
 -
 events
