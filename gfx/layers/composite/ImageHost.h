@@ -406,6 +406,11 @@ nsIntRegion
 aVisibleRegion
 =
 nullptr
+TiledLayerProperties
+*
+aLayerProperties
+=
+nullptr
 )
 MOZ_OVERRIDE
 ;

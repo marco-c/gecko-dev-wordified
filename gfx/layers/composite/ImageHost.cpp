@@ -386,6 +386,9 @@ const
 nsIntRegion
 *
 aVisibleRegion
+TiledLayerProperties
+*
+aLayerProperties
 )
 {
 if
