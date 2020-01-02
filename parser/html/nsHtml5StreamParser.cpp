@@ -2291,7 +2291,7 @@ byteNonZero
 {
 mCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF
@@ -2305,7 +2305,7 @@ else
 {
 mCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF
@@ -7353,7 +7353,7 @@ getLineNumber
 ;
 newEncoding
 .
-Assign
+AssignLiteral
 (
 "
 UTF
@@ -7410,7 +7410,7 @@ getLineNumber
 ;
 newEncoding
 .
-Assign
+AssignLiteral
 (
 "
 windows

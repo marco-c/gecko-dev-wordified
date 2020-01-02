@@ -3640,7 +3640,7 @@ error
 ;
 error
 .
-Assign
+AssignLiteral
 (
 "
 JavaScript

@@ -345,7 +345,7 @@ windows
 ;
 mPlatformLocale
 .
-Assign
+AssignLiteral
 (
 "
 en_US

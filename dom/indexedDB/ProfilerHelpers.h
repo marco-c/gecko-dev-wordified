@@ -652,7 +652,7 @@ IsUnset
 )
 )
 {
-Assign
+AssignLiteral
 (
 "
 null

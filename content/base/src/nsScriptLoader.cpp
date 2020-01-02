@@ -8427,7 +8427,7 @@ UTF
 BOM
 oCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF
@@ -8467,7 +8467,7 @@ big
 endian
 oCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF
@@ -8507,7 +8507,7 @@ little
 endian
 oCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF

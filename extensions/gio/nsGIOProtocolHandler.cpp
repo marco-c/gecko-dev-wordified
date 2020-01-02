@@ -3002,7 +3002,7 @@ continue
 }
 mDirBuf
 .
-Assign
+AssignLiteral
 (
 "
 201
@@ -5622,7 +5622,7 @@ mSupportedProtocols
 else
 mSupportedProtocols
 .
-Assign
+AssignLiteral
 (
 "
 smb

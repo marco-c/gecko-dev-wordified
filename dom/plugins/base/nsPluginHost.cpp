@@ -8382,7 +8382,7 @@ not
 specified
 url
 .
-Assign
+AssignLiteral
 (
 "
 data

@@ -231,7 +231,7 @@ UTF
 {
 mCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF
@@ -274,7 +274,7 @@ legacy
 sites
 mCharset
 .
-Assign
+AssignLiteral
 (
 "
 windows

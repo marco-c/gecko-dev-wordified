@@ -2730,7 +2730,7 @@ back
 {
 status
 .
-Assign
+AssignLiteral
 (
 "
 Going
@@ -2778,7 +2778,7 @@ resource
 file
 status
 .
-Assign
+AssignLiteral
 (
 "
 Going
@@ -2843,7 +2843,7 @@ LOAD_FLAGS_BYPASS_CACHE
 {
 status
 .
-Assign
+AssignLiteral
 (
 "
 Reloading
@@ -2872,7 +2872,7 @@ LOAD_FLAGS_BYPASS_PROXY
 {
 status
 .
-Assign
+AssignLiteral
 (
 "
 Reloading
@@ -2899,7 +2899,7 @@ LOAD_FLAGS_BYPASS_CACHE
 {
 status
 .
-Assign
+AssignLiteral
 (
 "
 Reloading
@@ -2917,7 +2917,7 @@ else
 {
 status
 .
-Assign
+AssignLiteral
 (
 "
 Reloading
@@ -2990,7 +2990,7 @@ goto
 {
 status
 .
-Assign
+AssignLiteral
 (
 "
 Going
@@ -3075,7 +3075,7 @@ replace
 {
 status
 .
-Assign
+AssignLiteral
 (
 "
 Replacing

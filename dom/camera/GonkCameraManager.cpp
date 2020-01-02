@@ -371,7 +371,7 @@ CAMERA_FACING_BACK
 :
 aDeviceName
 .
-Assign
+AssignLiteral
 (
 "
 back
@@ -385,7 +385,7 @@ CAMERA_FACING_FRONT
 :
 aDeviceName
 .
-Assign
+AssignLiteral
 (
 "
 front
@@ -398,7 +398,7 @@ default
 :
 aDeviceName
 .
-Assign
+AssignLiteral
 (
 "
 extra

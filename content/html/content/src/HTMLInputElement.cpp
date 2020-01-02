@@ -37063,7 +37063,7 @@ NS_FORM_INPUT_FILE
 :
 key
 .
-Assign
+AssignLiteral
 (
 "
 FormValidationFileMissing
@@ -37077,7 +37077,7 @@ NS_FORM_INPUT_CHECKBOX
 :
 key
 .
-Assign
+AssignLiteral
 (
 "
 FormValidationCheckboxMissing
@@ -37091,7 +37091,7 @@ NS_FORM_INPUT_RADIO
 :
 key
 .
-Assign
+AssignLiteral
 (
 "
 FormValidationRadioMissing
@@ -37104,7 +37104,7 @@ default
 :
 key
 .
-Assign
+AssignLiteral
 (
 "
 FormValidationValueMissing
