@@ -105,6 +105,9 @@ true
 performReload
 :
 true
+storeCalls
+:
+true
 }
 )
 ;
