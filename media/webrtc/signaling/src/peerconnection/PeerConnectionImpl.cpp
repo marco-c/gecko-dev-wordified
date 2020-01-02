@@ -4442,6 +4442,10 @@ do_QueryInterface
 aThread
 )
 ;
+CheckThread
+(
+)
+;
 mPCObserver
 =
 do_GetWeakReference
