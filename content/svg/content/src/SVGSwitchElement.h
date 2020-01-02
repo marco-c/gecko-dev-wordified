@@ -201,6 +201,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+~
+SVGSwitchElement
+(
+)
+;
 virtual
 JSObject
 *

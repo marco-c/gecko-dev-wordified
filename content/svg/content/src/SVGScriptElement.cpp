@@ -409,6 +409,15 @@ this
 )
 ;
 }
+SVGScriptElement
+:
+:
+~
+SVGScriptElement
+(
+)
+{
+}
 /
 /
 -

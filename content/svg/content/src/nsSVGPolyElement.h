@@ -160,6 +160,12 @@ NodeInfo
 aNodeInfo
 )
 ;
+virtual
+~
+nsSVGPolyElement
+(
+)
+;
 public
 :
 /

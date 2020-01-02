@@ -408,6 +408,15 @@ this
 )
 ;
 }
+SVGStyleElement
+:
+:
+~
+SVGStyleElement
+(
+)
+{
+}
 /
 /
 -

@@ -189,6 +189,12 @@ Init
 (
 )
 ;
+virtual
+~
+SVGAnimationElement
+(
+)
+;
 public
 :
 /

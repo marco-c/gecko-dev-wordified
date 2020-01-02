@@ -541,6 +541,15 @@ aFromParser
 )
 {
 }
+SVGIFrameElement
+:
+:
+~
+SVGIFrameElement
+(
+)
+{
+}
 /
 /
 -

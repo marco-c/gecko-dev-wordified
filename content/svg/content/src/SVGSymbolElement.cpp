@@ -339,6 +339,15 @@ aNodeInfo
 )
 {
 }
+SVGSymbolElement
+:
+:
+~
+SVGSymbolElement
+(
+)
+{
+}
 /
 /
 -

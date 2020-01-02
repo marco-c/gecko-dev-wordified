@@ -347,6 +347,11 @@ aCx
 )
 MOZ_OVERRIDE
 ;
+~
+SVGIFrameElement
+(
+)
+;
 public
 :
 /

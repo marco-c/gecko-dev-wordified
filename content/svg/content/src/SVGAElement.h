@@ -488,6 +488,12 @@ rv
 protected
 :
 virtual
+~
+SVGAElement
+(
+)
+;
+virtual
 StringAttributesInfo
 GetStringInfo
 (

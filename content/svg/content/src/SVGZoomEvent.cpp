@@ -642,6 +642,15 @@ true
 }
 }
 }
+SVGZoomEvent
+:
+:
+~
+SVGZoomEvent
+(
+)
+{
+}
 }
 /
 /

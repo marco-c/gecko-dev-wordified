@@ -217,6 +217,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+~
+SVGSymbolElement
+(
+)
+;
 virtual
 JSObject
 *

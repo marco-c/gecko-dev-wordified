@@ -217,6 +217,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+~
+SVGStyleElement
+(
+)
+;
 virtual
 JSObject
 *

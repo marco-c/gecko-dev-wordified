@@ -190,6 +190,13 @@ aNodeInfo
 )
 {
 }
+virtual
+~
+SVGComponentTransferFunctionElement
+(
+)
+{
+}
 public
 :
 typedef
