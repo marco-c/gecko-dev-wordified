@@ -14759,14 +14759,6 @@ LowerCaseEqualsLiteral
 supports
 "
 )
-&
-&
-CSSSupportsRule
-:
-:
-PrefEnabled
-(
-)
 )
 {
 parseFunc
