@@ -4485,6 +4485,11 @@ UINT8_MAX
 ;
 public
 :
+AsmJSHeapAccess
+(
+)
+{
+}
 #
 if
 defined
