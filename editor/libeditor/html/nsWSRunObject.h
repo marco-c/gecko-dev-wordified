@@ -2794,7 +2794,7 @@ eAnywhere
 WSPoint
 GetCharAfter
 (
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
@@ -2804,7 +2804,7 @@ aOffset
 WSPoint
 GetCharBefore
 (
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
