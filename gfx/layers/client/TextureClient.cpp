@@ -1550,6 +1550,18 @@ GetContentBackend
 )
 ;
 }
+#
+if
+defined
+(
+XP_WIN
+)
+|
+|
+defined
+(
+MOZ_WIDGET_GONK
+)
 int32_t
 maxTextureSize
 =
@@ -1560,6 +1572,8 @@ GetMaxTextureSize
 (
 )
 ;
+#
+endif
 RefPtr
 <
 TextureClient
