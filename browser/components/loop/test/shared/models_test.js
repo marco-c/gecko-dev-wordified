@@ -203,6 +203,9 @@ callType
 "
 callType
 "
+websocketToken
+:
+123
 }
 ;
 fakeSession
