@@ -175,6 +175,9 @@ nsCSSCounterStyleRule
 namespace
 mozilla
 {
+class
+WritingMode
+;
 typedef
 int32_t
 CounterValue
@@ -335,6 +338,8 @@ GetCounterText
 (
 CounterValue
 aOrdinal
+WritingMode
+aWritingMode
 nsSubstring
 &
 aResult
@@ -349,6 +354,8 @@ GetSpokenCounterText
 (
 CounterValue
 aOrdinal
+WritingMode
+aWritingMode
 nsSubstring
 &
 aResult
@@ -552,6 +559,8 @@ CallFallbackStyle
 (
 CounterValue
 aOrdinal
+WritingMode
+aWritingMode
 nsSubstring
 &
 aResult
@@ -568,6 +577,8 @@ GetInitialCounterText
 (
 CounterValue
 aOrdinal
+WritingMode
+aWritingMode
 nsSubstring
 &
 aResult
