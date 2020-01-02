@@ -2852,7 +2852,7 @@ strchr
 (
 munged_ifname
 '
-+
+.
 '
 )
 ;
