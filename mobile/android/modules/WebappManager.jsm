@@ -1510,7 +1510,7 @@ getAppByManifestURL
 (
 aData
 .
-manifestUrl
+manifestURL
 )
 ;
 if
@@ -1600,7 +1600,7 @@ newURI
 (
 aData
 .
-manifestUrl
+manifestURL
 null
 null
 )
@@ -1711,7 +1711,7 @@ manifestURL
 =
 aData
 .
-manifestUrl
+manifestURL
 ;
 message
 .
