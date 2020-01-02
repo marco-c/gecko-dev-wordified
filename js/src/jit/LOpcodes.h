@@ -163,6 +163,16 @@ Float32
 \
 _
 (
+SimdExtractElementI
+)
+\
+_
+(
+SimdExtractElementF
+)
+\
+_
+(
 Value
 )
 \

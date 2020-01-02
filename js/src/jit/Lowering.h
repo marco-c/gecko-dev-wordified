@@ -2038,6 +2038,14 @@ MRecompileCheck
 ins
 )
 ;
+bool
+visitSimdExtractElement
+(
+MSimdExtractElement
+*
+ins
+)
+;
 }
 ;
 }

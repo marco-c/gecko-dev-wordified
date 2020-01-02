@@ -134,6 +134,11 @@ Constant
 \
 _
 (
+SimdExtractElement
+)
+\
+_
+(
 CloneLiteral
 )
 \
