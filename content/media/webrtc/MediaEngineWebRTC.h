@@ -2314,9 +2314,6 @@ Release
 ;
 #
 endif
-/
-/
-XXX
 gFarendObserver
 =
 nullptr

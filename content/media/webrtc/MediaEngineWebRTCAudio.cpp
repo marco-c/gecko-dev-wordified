@@ -282,7 +282,7 @@ until
 MSG
 supports
 registration
-StaticAutoPtr
+StaticRefPtr
 <
 AudioOutputObserver
 >
@@ -470,6 +470,11 @@ uint32_t
 aSampleRate
 )
 {
+if
+(
+gFarendObserver
+)
+{
 gFarendObserver
 -
 >
@@ -483,6 +488,7 @@ aChannels
 aFormat
 )
 ;
+}
 }
 /
 /
