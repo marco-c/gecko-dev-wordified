@@ -3281,7 +3281,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 |
 |
 forceMSAA
@@ -3375,7 +3375,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 )
 {
 useOpenGL
@@ -3414,7 +3414,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 )
 {
 useANGLE

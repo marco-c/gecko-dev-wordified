@@ -11398,7 +11398,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 )
 {
 sLayersSupportsD3D9
@@ -11434,7 +11434,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 )
 {
 sLayersSupportsD3D11

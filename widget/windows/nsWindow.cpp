@@ -45127,7 +45127,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 |
 |
 prefs

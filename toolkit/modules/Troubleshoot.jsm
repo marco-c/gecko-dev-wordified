@@ -2558,7 +2558,7 @@ Ci
 .
 nsIGfxInfo
 .
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 &
 &
 gfxInfo
@@ -2577,7 +2577,7 @@ Ci
 .
 nsIGfxInfo
 .
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 ?
 Ci
 .

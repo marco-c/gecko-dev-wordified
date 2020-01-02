@@ -9377,7 +9377,7 @@ angle
 =
 gfxInfo
 .
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 |
 |
 gfxInfo
@@ -9391,7 +9391,7 @@ opengl
 =
 gfxInfo
 .
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 ;
 }
 catch

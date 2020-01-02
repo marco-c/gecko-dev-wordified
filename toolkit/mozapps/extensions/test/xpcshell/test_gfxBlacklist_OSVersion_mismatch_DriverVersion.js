@@ -555,7 +555,7 @@ Ci
 .
 nsIGfxInfo
 .
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 )
 ;
 }
@@ -592,7 +592,7 @@ Ci
 .
 nsIGfxInfo
 .
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 )
 ;
 }
