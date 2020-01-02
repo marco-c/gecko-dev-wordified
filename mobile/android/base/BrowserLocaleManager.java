@@ -1501,7 +1501,8 @@ not
 currently
 mirroring
 this
-methodupdates
+method
+updates
 the
 *
 configuration
