@@ -1481,11 +1481,7 @@ HasTelephonySupport
 (
 JSContext
 *
-/
-*
-unused
-*
-/
+cx
 JSObject
 *
 aGlobal
@@ -1741,11 +1737,7 @@ HasDataStoreSupport
 (
 JSContext
 *
-/
-*
-unused
-*
-/
+cx
 JSObject
 *
 aGlobal
