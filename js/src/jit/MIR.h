@@ -19747,6 +19747,15 @@ None
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+;
 void
 computeRange
 (
