@@ -291,7 +291,7 @@ getString
 titleIndex
 )
 ;
-setPrimaryText
+setTitle
 (
 title
 )
@@ -319,7 +319,7 @@ getString
 urlIndex
 )
 ;
-setSecondaryText
+setDescription
 (
 url
 )
