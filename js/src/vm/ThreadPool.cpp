@@ -1538,7 +1538,7 @@ variable
 and
 give
 a
-10k
+100k
 buffer
 .
 Is
@@ -1570,7 +1570,7 @@ stackLimitOffset
 =
 WORKER_THREAD_STACK_SIZE
 -
-10
+100
 *
 1024
 ;
