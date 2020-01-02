@@ -187,18 +187,6 @@ etc
 #
 include
 "
-nsEditProperty
-.
-h
-"
-/
-/
-for
-nsEditProperty
-etc
-#
-include
-"
 nsEditor
 .
 h
@@ -424,7 +412,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 big
@@ -597,7 +585,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 b
@@ -608,7 +596,7 @@ b
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 i
@@ -619,7 +607,7 @@ i
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 u
@@ -630,7 +618,7 @@ u
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tt
@@ -641,7 +629,7 @@ tt
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 s
@@ -652,7 +640,7 @@ s
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 strike
@@ -663,7 +651,7 @@ strike
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 big
@@ -674,7 +662,7 @@ big
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 small
@@ -685,7 +673,7 @@ small
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 sub
@@ -696,7 +684,7 @@ sub
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 sup
@@ -707,7 +695,7 @@ sup
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 font
@@ -880,7 +868,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 p
@@ -891,7 +879,7 @@ p
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 pre
@@ -902,7 +890,7 @@ pre
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h1
@@ -913,7 +901,7 @@ h1
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h2
@@ -924,7 +912,7 @@ h2
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h3
@@ -935,7 +923,7 @@ h3
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h4
@@ -946,7 +934,7 @@ h4
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h5
@@ -957,7 +945,7 @@ h5
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h6
@@ -968,7 +956,7 @@ h6
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 address
@@ -1110,7 +1098,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 ul
@@ -1121,7 +1109,7 @@ ul
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 ol
@@ -1132,7 +1120,7 @@ ol
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dl
@@ -1143,7 +1131,7 @@ dl
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 li
@@ -1154,7 +1142,7 @@ li
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dd
@@ -1165,7 +1153,7 @@ dd
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dt
@@ -1176,7 +1164,7 @@ dt
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 blockquote
@@ -1278,7 +1266,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 small
@@ -1536,7 +1524,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h1
@@ -1547,7 +1535,7 @@ h1
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h2
@@ -1558,7 +1546,7 @@ h2
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h3
@@ -1569,7 +1557,7 @@ h3
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h4
@@ -1580,7 +1568,7 @@ h4
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h5
@@ -1591,7 +1579,7 @@ h5
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h6
@@ -1703,7 +1691,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 p
@@ -1815,7 +1803,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 hr
@@ -1991,7 +1979,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 li
@@ -2002,7 +1990,7 @@ li
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dd
@@ -2013,7 +2001,7 @@ dd
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dt
@@ -2193,7 +2181,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 table
@@ -2204,7 +2192,7 @@ table
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tr
@@ -2215,7 +2203,7 @@ tr
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 td
@@ -2226,7 +2214,7 @@ td
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 th
@@ -2237,7 +2225,7 @@ th
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 thead
@@ -2248,7 +2236,7 @@ thead
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tfoot
@@ -2259,7 +2247,7 @@ tfoot
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tbody
@@ -2270,7 +2258,7 @@ tbody
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 caption
@@ -2456,7 +2444,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tr
@@ -2467,7 +2455,7 @@ tr
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 td
@@ -2478,7 +2466,7 @@ td
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 th
@@ -2489,7 +2477,7 @@ th
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 thead
@@ -2500,7 +2488,7 @@ thead
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tfoot
@@ -2511,7 +2499,7 @@ tfoot
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tbody
@@ -2522,7 +2510,7 @@ tbody
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 caption
@@ -2634,7 +2622,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 table
@@ -2783,7 +2771,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 tr
@@ -2960,7 +2948,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 td
@@ -2971,7 +2959,7 @@ td
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 th
@@ -3112,7 +3100,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 td
@@ -3123,7 +3111,7 @@ td
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 th
@@ -3134,7 +3122,7 @@ th
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 caption
@@ -3309,7 +3297,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 ul
@@ -3320,7 +3308,7 @@ ul
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 ol
@@ -3331,7 +3319,7 @@ ol
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dl
@@ -3444,7 +3432,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 ol
@@ -3557,7 +3545,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 ul
@@ -3670,7 +3658,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 blockquote
@@ -3783,7 +3771,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 pre
@@ -3896,7 +3884,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 img
@@ -4219,7 +4207,7 @@ nsEditor
 NodeIsType
 (
 aNode
-nsEditProperty
+nsGkAtoms
 :
 :
 div
@@ -4847,7 +4835,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 textarea
@@ -4858,7 +4846,7 @@ textarea
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 select
@@ -4869,7 +4857,7 @@ select
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 button
@@ -4880,7 +4868,7 @@ button
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 output
@@ -4891,7 +4879,7 @@ output
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 keygen
@@ -4902,7 +4890,7 @@ keygen
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 progress
@@ -4913,7 +4901,7 @@ progress
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 meter
@@ -4924,7 +4912,7 @@ meter
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 input
@@ -4976,7 +4964,7 @@ return
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 hr
@@ -4987,7 +4975,7 @@ hr
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 table
@@ -4998,7 +4986,7 @@ table
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tbody
@@ -5009,7 +4997,7 @@ tbody
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tfoot
@@ -5020,7 +5008,7 @@ tfoot
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 thead
@@ -5031,7 +5019,7 @@ thead
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tr
@@ -5042,7 +5030,7 @@ tr
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 td
@@ -5053,7 +5041,7 @@ td
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 th
@@ -5064,7 +5052,7 @@ th
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 div
@@ -5075,7 +5063,7 @@ div
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 p
@@ -5086,7 +5074,7 @@ p
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h1
@@ -5097,7 +5085,7 @@ h1
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h2
@@ -5108,7 +5096,7 @@ h2
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h3
@@ -5119,7 +5107,7 @@ h3
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h4
@@ -5130,7 +5118,7 @@ h4
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h5
@@ -5141,7 +5129,7 @@ h5
 nodeAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h6

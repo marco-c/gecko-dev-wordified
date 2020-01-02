@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsEditProperty
-.
-h
-"
-#
-include
-"
 nsEditor
 .
 h
@@ -148,6 +141,13 @@ h
 include
 "
 nsError
+.
+h
+"
+#
+include
+"
+nsGkAtoms
 .
 h
 "
@@ -988,7 +988,7 @@ these
 nest
 if
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 big
@@ -1006,7 +1006,7 @@ return
 }
 if
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 small

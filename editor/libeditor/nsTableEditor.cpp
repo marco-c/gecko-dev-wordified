@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsEditProperty
-.
-h
-"
-#
-include
-"
 nsEditor
 .
 h
@@ -1571,7 +1564,7 @@ if
 atom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tr
@@ -1619,7 +1612,7 @@ if
 atom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tbody
@@ -1628,7 +1621,7 @@ tbody
 atom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 thead
@@ -1637,7 +1630,7 @@ thead
 atom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tfoot
@@ -11448,7 +11441,7 @@ newCellType
 atom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 td
@@ -18740,7 +18733,7 @@ if
 atom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 td
@@ -18799,7 +18792,7 @@ if
 atom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 table
@@ -18833,7 +18826,7 @@ if
 atom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tr

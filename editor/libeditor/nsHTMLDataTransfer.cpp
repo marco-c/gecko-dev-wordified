@@ -249,13 +249,6 @@ h
 #
 include
 "
-nsEditProperty
-.
-h
-"
-#
-include
-"
 nsEditRules
 .
 h
@@ -11883,7 +11876,7 @@ nsEditor
 NodeIsType
 (
 child
-nsEditProperty
+nsGkAtoms
 :
 :
 head

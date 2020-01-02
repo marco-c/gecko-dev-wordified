@@ -4005,7 +4005,7 @@ if
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 p
@@ -4014,7 +4014,7 @@ p
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 div
@@ -4023,7 +4023,7 @@ div
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 blockquote
@@ -4032,7 +4032,7 @@ blockquote
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h1
@@ -4041,7 +4041,7 @@ h1
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h2
@@ -4050,7 +4050,7 @@ h2
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h3
@@ -4059,7 +4059,7 @@ h3
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h4
@@ -4068,7 +4068,7 @@ h4
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h5
@@ -4077,7 +4077,7 @@ h5
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 h6
@@ -4086,7 +4086,7 @@ h6
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 ul
@@ -4095,7 +4095,7 @@ ul
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 ol
@@ -4104,7 +4104,7 @@ ol
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dl
@@ -4113,7 +4113,7 @@ dl
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 noscript
@@ -4122,7 +4122,7 @@ noscript
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 form
@@ -4131,7 +4131,7 @@ form
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 hr
@@ -4140,7 +4140,7 @@ hr
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 table
@@ -4149,7 +4149,7 @@ table
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 fieldset
@@ -4158,7 +4158,7 @@ fieldset
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 address
@@ -4167,7 +4167,7 @@ address
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 col
@@ -4176,7 +4176,7 @@ col
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 colgroup
@@ -4185,7 +4185,7 @@ colgroup
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 li
@@ -4194,7 +4194,7 @@ li
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dt
@@ -4203,7 +4203,7 @@ dt
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dd
@@ -4212,7 +4212,7 @@ dd
 aTag
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 legend
@@ -4383,7 +4383,7 @@ if
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 body
@@ -4392,7 +4392,7 @@ body
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 head
@@ -4401,7 +4401,7 @@ head
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tbody
@@ -4410,7 +4410,7 @@ tbody
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 thead
@@ -4419,7 +4419,7 @@ thead
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tfoot
@@ -4428,7 +4428,7 @@ tfoot
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 tr
@@ -4437,7 +4437,7 @@ tr
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 th
@@ -4446,7 +4446,7 @@ th
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 td
@@ -4455,7 +4455,7 @@ td
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 li
@@ -4464,7 +4464,7 @@ li
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dt
@@ -4473,7 +4473,7 @@ dt
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 dd
@@ -4482,7 +4482,7 @@ dd
 tagAtom
 =
 =
-nsEditProperty
+nsGkAtoms
 :
 :
 pre
@@ -11061,10 +11061,10 @@ mHTMLCSSUtils
 GetComputedProperty
 (
 blockParent
-nsEditProperty
+nsGkAtoms
 :
 :
-cssBackgroundColor
+backgroundColor
 aOutColor
 )
 ;
@@ -11363,10 +11363,10 @@ mHTMLCSSUtils
 GetComputedProperty
 (
 nodeToExamine
-nsEditProperty
+nsGkAtoms
 :
 :
-cssBackgroundColor
+backgroundColor
 aOutColor
 )
 ;
@@ -16480,7 +16480,7 @@ res
 =
 SetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 a

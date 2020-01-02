@@ -541,18 +541,6 @@ etc
 #
 include
 "
-nsEditProperty
-.
-h
-"
-/
-/
-for
-nsEditProperty
-etc
-#
-include
-"
 nsEditor
 .
 h
@@ -7070,7 +7058,7 @@ element
 SetAttr
 (
 kNameSpaceID_None
-nsEditProperty
+nsGkAtoms
 :
 :
 mozdirty

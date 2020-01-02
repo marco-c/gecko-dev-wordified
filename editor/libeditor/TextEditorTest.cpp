@@ -117,14 +117,14 @@ h
 #
 include
 "
-nsEditProperty
+nsError
 .
 h
 "
 #
 include
 "
-nsError
+nsGkAtoms
 .
 h
 "
@@ -1181,7 +1181,7 @@ htmlEditor
 >
 GetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 b
@@ -1249,7 +1249,7 @@ htmlEditor
 >
 SetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 b
@@ -1269,7 +1269,7 @@ htmlEditor
 >
 GetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 b
@@ -1369,7 +1369,7 @@ htmlEditor
 >
 RemoveInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 b
@@ -1388,7 +1388,7 @@ htmlEditor
 >
 GetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 b
@@ -1528,7 +1528,7 @@ htmlEditor
 >
 SetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 b
@@ -1548,7 +1548,7 @@ htmlEditor
 >
 GetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 b
@@ -1631,7 +1631,7 @@ htmlEditor
 >
 SetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 i
@@ -1651,7 +1651,7 @@ htmlEditor
 >
 GetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 i
@@ -1719,7 +1719,7 @@ htmlEditor
 >
 GetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 b
@@ -1945,7 +1945,7 @@ htmlEditor
 >
 SetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 u
@@ -1965,7 +1965,7 @@ htmlEditor
 >
 GetInlineProperty
 (
-nsEditProperty
+nsGkAtoms
 :
 :
 u

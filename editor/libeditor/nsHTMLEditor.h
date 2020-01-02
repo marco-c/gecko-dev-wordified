@@ -193,13 +193,6 @@ h
 #
 include
 "
-nsEditProperty
-.
-h
-"
-#
-include
-"
 nsHTMLCSSUtils
 .
 h
