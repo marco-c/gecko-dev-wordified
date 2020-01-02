@@ -316,7 +316,7 @@ worker
 .
 Buf
 .
-readUint32List
+readInt32List
 =
 function
 fakeReadUint32List
@@ -421,7 +421,7 @@ worker
 .
 Buf
 .
-readUint32List
+readInt32List
 =
 function
 fakeReadUint32List

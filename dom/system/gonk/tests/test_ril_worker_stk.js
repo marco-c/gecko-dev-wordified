@@ -478,7 +478,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_STK_SEND_TERMINAL_RESPONSE
@@ -495,7 +495,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -539,7 +539,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 44
@@ -4295,7 +4295,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_STK_SEND_ENVELOPE_COMMAND
@@ -4312,7 +4312,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -4357,7 +4357,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 42
@@ -4788,7 +4788,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_STK_SEND_ENVELOPE_COMMAND
@@ -4805,7 +4805,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -4843,7 +4843,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 26
@@ -5129,7 +5129,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_STK_SEND_ENVELOPE_COMMAND
@@ -5146,7 +5146,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5175,7 +5175,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 18
@@ -5407,7 +5407,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_STK_SEND_ENVELOPE_COMMAND
@@ -5424,7 +5424,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5453,7 +5453,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 18

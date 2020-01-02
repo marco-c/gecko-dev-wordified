@@ -440,7 +440,7 @@ data
 size
 buf
 .
-writeUint32
+writeInt32
 (
 cdmaHome
 .
@@ -716,7 +716,7 @@ data
 size
 buf
 .
-writeUint32
+writeInt32
 (
 file
 .

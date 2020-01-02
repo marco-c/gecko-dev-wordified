@@ -3213,7 +3213,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_QUERY_FACILITY_LOCK
@@ -3230,7 +3230,7 @@ care
 .
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -3244,7 +3244,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 worker
@@ -3332,7 +3332,7 @@ modem
 .
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -4661,7 +4661,7 @@ data
 size
 buf
 .
-writeUint32
+writeInt32
 (
 pbr_1
 .
@@ -4964,7 +4964,7 @@ data
 size
 buf
 .
-writeUint32
+writeInt32
 (
 email_1
 .
@@ -5343,7 +5343,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SIM_IO
@@ -5360,7 +5360,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5372,7 +5372,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 ICC_COMMAND_UPDATE_RECORD
@@ -5386,7 +5386,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 fileId
@@ -5418,7 +5418,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordNumber
@@ -5432,7 +5432,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 READ_RECORD_ABSOLUTE_MODE
@@ -5446,7 +5446,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordSize
@@ -5461,7 +5461,7 @@ strLen
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5578,7 +5578,7 @@ modem
 .
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5730,7 +5730,7 @@ data
 size
 buf
 .
-writeUint32
+writeInt32
 (
 anr_1
 .
@@ -6094,7 +6094,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SIM_IO
@@ -6111,7 +6111,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -6123,7 +6123,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 ICC_COMMAND_UPDATE_RECORD
@@ -6137,7 +6137,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 fileId
@@ -6169,7 +6169,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordNumber
@@ -6183,7 +6183,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 READ_RECORD_ABSOLUTE_MODE
@@ -6197,7 +6197,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordSize
@@ -6212,7 +6212,7 @@ strLen
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -6340,7 +6340,7 @@ modem
 .
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -6481,7 +6481,7 @@ size
 /
 buf
 .
-writeUint32
+writeInt32
 (
 iap_1
 .
@@ -6861,7 +6861,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SIM_IO
@@ -6878,7 +6878,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -6890,7 +6890,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 ICC_COMMAND_UPDATE_RECORD
@@ -6904,7 +6904,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 fileId
@@ -6936,7 +6936,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordNumber
@@ -6950,7 +6950,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 READ_RECORD_ABSOLUTE_MODE
@@ -6964,7 +6964,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordSize
@@ -6979,7 +6979,7 @@ strLen
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -7056,7 +7056,7 @@ modem
 .
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -7242,7 +7242,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SIM_IO
@@ -7259,7 +7259,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -7271,7 +7271,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 ICC_COMMAND_UPDATE_RECORD
@@ -7285,7 +7285,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 fileId
@@ -7315,7 +7315,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 1
@@ -7329,7 +7329,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 READ_RECORD_ABSOLUTE_MODE
@@ -7343,7 +7343,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 0x20
@@ -7443,7 +7443,7 @@ modem
 .
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -7587,7 +7587,7 @@ data
 size
 buf
 .
-writeUint32
+writeInt32
 (
 record
 .
@@ -9835,7 +9835,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SET_FACILITY_LOCK
@@ -9852,7 +9852,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -10139,7 +10139,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_ENTER_NETWORK_DEPERSONALIZATION_CODE
@@ -10156,7 +10156,7 @@ t
 care
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -10176,7 +10176,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 lockType
@@ -10592,7 +10592,7 @@ data
 size
 buf
 .
-writeUint32
+writeInt32
 (
 ad
 .

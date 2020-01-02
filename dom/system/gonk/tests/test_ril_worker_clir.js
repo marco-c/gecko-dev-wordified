@@ -382,7 +382,7 @@ worker
 .
 Buf
 .
-readUint32
+readInt32
 =
 function
 fakeReadUint32
@@ -557,7 +557,7 @@ worker
 .
 Buf
 .
-readUint32
+readInt32
 =
 function
 fakeReadUint32

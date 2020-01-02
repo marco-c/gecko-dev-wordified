@@ -1786,10 +1786,10 @@ readUint8
 8
 ;
 }
-readUint32
+readInt32
 :
 function
-readUint32
+readInt32
 (
 )
 {
@@ -1828,10 +1828,10 @@ readUint8
 24
 ;
 }
-readUint32List
+readInt32List
 :
 function
-readUint32List
+readInt32List
 (
 )
 {
@@ -1840,7 +1840,7 @@ length
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -1872,7 +1872,7 @@ push
 (
 this
 .
-readUint32
+readInt32
 (
 )
 )
@@ -1894,7 +1894,7 @@ string_len
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -2021,7 +2021,7 @@ num_strings
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -2315,10 +2315,10 @@ value
 )
 ;
 }
-writeUint32
+writeInt32
 :
 function
-writeUint32
+writeInt32
 (
 value
 )
@@ -2393,7 +2393,7 @@ null
 {
 this
 .
-writeUint32
+writeInt32
 (
 -
 1
@@ -2404,7 +2404,7 @@ return
 }
 this
 .
-writeUint32
+writeInt32
 (
 value
 .
@@ -2506,7 +2506,7 @@ strings
 {
 this
 .
-writeUint32
+writeInt32
 (
 strings
 .
@@ -3995,7 +3995,7 @@ something
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
