@@ -1467,6 +1467,12 @@ outputChannels
 GetDuration
 (
 )
+aOutput
+-
+>
+GetRate
+(
+)
 )
 ;
 }
