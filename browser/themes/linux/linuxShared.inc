@@ -133,6 +133,10 @@ toolbarHighlight
 )
 %
 define
+fgTabTextureLWT
+fgTabTexture
+%
+define
 fgTabBackgroundMiddle
 fgTabTexture
 linear

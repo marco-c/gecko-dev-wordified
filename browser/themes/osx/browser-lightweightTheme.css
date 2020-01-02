@@ -58,12 +58,9 @@ MPL
 /
 %
 include
-linuxShared
+shared
 .
 inc
-%
-filter
-substitution
 /
 *
 *
@@ -308,6 +305,8 @@ tab
 active
 -
 middle
+-
+lwtheme
 .
 png
 )
