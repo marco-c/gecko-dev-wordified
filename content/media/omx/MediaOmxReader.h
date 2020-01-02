@@ -301,12 +301,6 @@ aCloneDonor
 )
 ;
 virtual
-nsresult
-ResetDecode
-(
-)
-;
-virtual
 void
 NotifyDataArrived
 (
