@@ -1033,8 +1033,14 @@ startTests
 function
 startTests
 (
+{
+inspector
+:
 aInspector
+toolbox
+:
 aToolbox
+}
 )
 {
 inspector
