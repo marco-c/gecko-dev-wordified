@@ -130,7 +130,7 @@ h
 #
 include
 <
-RestartManager
+restartmanager
 .
 h
 >
