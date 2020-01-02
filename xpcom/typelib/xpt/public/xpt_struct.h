@@ -1458,9 +1458,11 @@ ide
 nsID
 *
 iid
+const
 char
 *
 name
+const
 char
 *
 name_space
@@ -1824,6 +1826,7 @@ XPTInterfaceDirectoryEntry
 ide_block
 uint16_t
 num_interfaces
+const
 char
 *
 name
@@ -1972,6 +1975,7 @@ XPTArena
 arena
 uint16_t
 length
+const
 char
 *
 bytes
@@ -1988,6 +1992,7 @@ XPT_NewStringZ
 XPTArena
 *
 arena
+const
 char
 *
 bytes
@@ -3027,6 +3032,7 @@ XPTMethodDescriptor
 meth
 uint8_t
 flags
+const
 char
 *
 name
