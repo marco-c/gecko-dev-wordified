@@ -241,7 +241,10 @@ True
 )
 :
     
-#
+"
+"
+"
+    
 Check
 for
 specials
@@ -259,7 +262,6 @@ and
 /
 or
     
-#
 platform
 -
 specific
@@ -275,6 +277,10 @@ on
 the
 internals
 .
+    
+"
+"
+"
     
 if
 o
@@ -1612,6 +1618,19 @@ self
 )
 :
         
+"
+"
+"
+        
+Indent
+lines
+by
+level
+        
+"
+"
+"
+        
 return
 '
 \
@@ -1643,6 +1662,20 @@ markers
 None
 )
 :
+        
+"
+"
+"
+        
+Encoding
+lists
+yielding
+by
+level
+        
+"
+"
+"
         
 if
 not
@@ -1835,6 +1868,20 @@ markers
 None
 )
 :
+        
+"
+"
+"
+        
+Encoding
+dictionaries
+yielding
+by
+level
+        
+"
+"
+"
         
 if
 not

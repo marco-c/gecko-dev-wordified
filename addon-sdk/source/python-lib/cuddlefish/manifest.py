@@ -1030,7 +1030,10 @@ datadir
 )
 :
     
-#
+"
+"
+"
+    
 yields
 pathnames
 relative
@@ -1039,6 +1042,10 @@ DATADIR
 ignoring
 some
 files
+    
+"
+"
+"
     
 for
 dirpath
@@ -1672,7 +1679,10 @@ test_filter_re
 )
 :
         
-#
+"
+"
+"
+        
 process
 the
 top
@@ -1683,9 +1693,11 @@ to
 process
 everything
 it
-        
-#
 reaches
+        
+"
+"
+"
         
 if
 "
@@ -2316,7 +2328,10 @@ bundle_sdk_modules
 )
 :
         
-#
+"
+"
+"
+        
 returns
 all
 .
@@ -2333,7 +2348,6 @@ files
 You
 will
         
-#
 need
 to
 add
@@ -2348,10 +2362,13 @@ it
 needs
 and
         
-#
 generated
 metadata
 .
+        
+"
+"
+"
         
 for
 datamap

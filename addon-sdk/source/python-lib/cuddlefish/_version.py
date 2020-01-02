@@ -276,7 +276,10 @@ versionfile_source
 )
 :
     
-#
+"
+"
+"
+    
 the
 code
 embedded
@@ -292,7 +295,6 @@ value
 of
 these
     
-#
 variables
 .
 When
@@ -309,7 +311,6 @@ want
 to
 import
     
-#
 _version
 .
 py
@@ -327,13 +328,16 @@ function
 is
 not
     
-#
 used
 from
 _version
 .
 py
 .
+    
+"
+"
+"
     
 variables
 =
@@ -806,7 +810,10 @@ False
 )
 :
     
-#
+"
+"
+"
+    
 this
 runs
 '
@@ -824,7 +831,6 @@ That
 either
 means
     
-#
 someone
 ran
 a
@@ -843,7 +849,6 @@ versioneer
 py
 thus
     
-#
 the
 containing
 directory
@@ -858,7 +863,6 @@ tree
 or
 someone
     
-#
 ran
 a
 project
@@ -876,7 +880,6 @@ _version
 .
 py
     
-#
 thus
 the
 containing
@@ -891,7 +894,6 @@ tree
 )
 .
     
-#
 This
 only
 gets
@@ -910,7 +912,6 @@ were
 not
 *
     
-#
 expanded
 and
 _version
@@ -926,7 +927,6 @@ with
 a
 short
     
-#
 version
 string
 meaning
@@ -940,6 +940,10 @@ out
 source
 tree
 .
+    
+"
+"
+"
     
 try
 :

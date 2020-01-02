@@ -273,7 +273,17 @@ s
 +
 )
 '
-#
+def
+parseCondition
+(
+g
+)
+:
+    
+"
+"
+"
+    
 For
 a
 given
@@ -283,7 +293,7 @@ MatchObject
 g
 for
 CONDITION_RE
-#
+    
 returns
 the
 equivalent
@@ -291,7 +301,7 @@ JS
 piece
 of
 code
-#
+    
 i
 .
 e
@@ -308,12 +318,10 @@ XML
 to
 JS
 code
-def
-parseCondition
-(
-g
-)
-:
+    
+"
+"
+"
     
 lvalue
 =
@@ -786,7 +794,10 @@ computeRules
 )
 :
     
-#
+"
+"
+"
+    
 Fetch
 plural
 rules
@@ -798,6 +809,10 @@ unicode
 org
 website
 :
+    
+"
+"
+"
     
 url
 =
