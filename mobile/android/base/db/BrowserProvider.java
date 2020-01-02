@@ -8973,9 +8973,6 @@ try
 cleanUpSomeDeletedRecords
 (
 uri
-Bookmarks
-.
-CONTENT_URI
 TABLE_BOOKMARKS
 )
 ;
