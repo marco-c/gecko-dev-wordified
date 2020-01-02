@@ -10901,6 +10901,7 @@ fireDetailedError
 ;
 for
 (
+var
 i
 in
 props

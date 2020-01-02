@@ -318,6 +318,8 @@ script
 data
 :
 \
+this
+.
 testState
 =
 0
@@ -335,6 +337,8 @@ world
 )
 ;
 \
+this
+.
 testState
 =
 1
@@ -477,6 +481,8 @@ data
 \
 if
 (
+this
+.
 testState
 =
 =
@@ -521,6 +527,8 @@ testState
 :
 "
 +
+this
+.
 testState
 )
 ;
@@ -597,6 +605,8 @@ data
 \
 if
 (
+this
+.
 testState
 =
 =
@@ -647,6 +657,8 @@ now
 :
 "
 +
+this
+.
 testState
 )
 ;

@@ -739,6 +739,9 @@ async_obj
 )
 ;
 }
+var
+rpc_obj
+;
 function
 rpc_test
 (

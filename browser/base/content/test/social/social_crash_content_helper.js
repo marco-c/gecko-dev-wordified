@@ -134,6 +134,7 @@ badptr
 contents
 }
 ;
+let
 TestHelper
 =
 {

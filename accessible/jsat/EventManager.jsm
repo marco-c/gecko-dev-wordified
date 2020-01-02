@@ -315,6 +315,7 @@ function
 EventManager
 (
 aContentScope
+aContentControl
 )
 {
 this
@@ -322,6 +323,12 @@ this
 contentScope
 =
 aContentScope
+;
+this
+.
+contentControl
+=
+aContentControl
 ;
 this
 .
@@ -746,8 +753,6 @@ aEvent
 deltaY
 ;
 this
-.
-contentScope
 .
 contentControl
 .
@@ -1281,8 +1286,6 @@ SCROLLING_START
 {
 this
 .
-contentScope
-.
 contentControl
 .
 autoMove
@@ -1794,8 +1797,6 @@ accessible
 {
 this
 .
-contentScope
-.
 contentControl
 .
 autoMove
@@ -1952,8 +1953,6 @@ CHROME_WINDOW
 {
 this
 .
-contentScope
-.
 contentControl
 .
 autoMove
@@ -1972,8 +1971,6 @@ DOCUMENT_LOAD_COMPLETE
 :
 {
 this
-.
-contentScope
 .
 contentControl
 .
@@ -2002,8 +1999,6 @@ let
 position
 =
 this
-.
-contentScope
 .
 contentControl
 .

@@ -15,6 +15,11 @@ stdout
 .
 *
 /
+"
+use
+strict
+"
+;
 function
 MozillaLogger
 (
@@ -510,7 +515,12 @@ PR_WRITE_ONLY
 PR_CREATE_FILE
 |
 PR_APPEND
+436
+/
+*
 0664
+*
+/
 0
 )
 ;
