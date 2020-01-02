@@ -453,6 +453,17 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+Promise
+>
+GetUsableKeyIds
+(
+ErrorResult
+&
+aRv
+)
+;
 void
 DispatchKeyMessage
 (
