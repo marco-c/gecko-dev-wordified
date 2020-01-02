@@ -1530,12 +1530,6 @@ js
 :
 :
 AtomizeString
-<
-js
-:
-:
-CanGC
->
 (
 cx
 this

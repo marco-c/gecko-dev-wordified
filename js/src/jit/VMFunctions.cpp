@@ -4038,9 +4038,6 @@ else
 atom
 =
 AtomizeString
-<
-NoGC
->
 (
 cx
 str

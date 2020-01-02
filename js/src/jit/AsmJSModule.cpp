@@ -2765,9 +2765,6 @@ JSAtom
 atom
 =
 AtomizeChars
-<
-CanGC
->
 (
 cx
 src

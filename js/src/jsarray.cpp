@@ -1033,6 +1033,10 @@ uint32_t
 index
 )
 id
+.
+address
+(
+)
 )
 ;
 Value
@@ -5089,8 +5093,11 @@ cx
 newLen
 -
 1
-&
 elementId
+.
+address
+(
+)
 )
 )
 return

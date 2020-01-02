@@ -502,9 +502,6 @@ JSAtom
 atom
 =
 AtomizeChars
-<
-CanGC
->
 (
 cx
 cb

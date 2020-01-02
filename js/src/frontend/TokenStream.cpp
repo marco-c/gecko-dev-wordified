@@ -6124,9 +6124,6 @@ cb
 {
 return
 AtomizeChars
-<
-CanGC
->
 (
 cx
 cb
@@ -8001,9 +7998,6 @@ JSAtom
 atom
 =
 AtomizeChars
-<
-CanGC
->
 (
 cx
 chars

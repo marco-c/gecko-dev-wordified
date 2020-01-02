@@ -8565,9 +8565,6 @@ JSAtom
 atom
 =
 AtomizeString
-<
-CanGC
->
 (
 context
 (
