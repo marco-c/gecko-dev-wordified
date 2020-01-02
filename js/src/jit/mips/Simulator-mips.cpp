@@ -20805,7 +20805,7 @@ pc
 activation
 -
 >
-setInterrupted
+setResumePC
 (
 (
 void
