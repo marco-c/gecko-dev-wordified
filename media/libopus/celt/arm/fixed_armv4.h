@@ -248,7 +248,7 @@ bits
 undef
 MULT16_32_Q16
 static
-inline
+OPUS_INLINE
 opus_val32
 MULT16_32_Q16_armv4
 (
@@ -368,7 +368,7 @@ bits
 undef
 MULT16_32_Q15
 static
-inline
+OPUS_INLINE
 opus_val32
 MULT16_32_Q15_armv4
 (

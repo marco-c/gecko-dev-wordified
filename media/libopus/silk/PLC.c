@@ -498,7 +498,7 @@ NB_ATT
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_PLC_update
 (
@@ -529,7 +529,7 @@ control
 )
 ;
 static
-inline
+OPUS_INLINE
 void
 silk_PLC_conceal
 (
@@ -1023,7 +1023,7 @@ PLC
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_PLC_update
 (
@@ -1607,7 +1607,7 @@ nb_subfr
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_PLC_conceal
 (

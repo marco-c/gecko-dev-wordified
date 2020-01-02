@@ -603,6 +603,17 @@ I
 Order
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 {
 opus_int
@@ -966,6 +977,7 @@ subfr_length
 -
 D
 D
+arch
 )
 ;
 for

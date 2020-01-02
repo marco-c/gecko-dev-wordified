@@ -406,7 +406,7 @@ silk_Inlines
 .
 h
 defines
-inline
+OPUS_INLINE
 signal
 processing
 functions
@@ -439,7 +439,7 @@ opus_int64
 *
 /
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_CLZ64
 (
@@ -532,7 +532,7 @@ one
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_CLZ_FRAC
 (
@@ -644,7 +644,7 @@ values
 *
 /
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SQRT_APPROX
 (
@@ -773,7 +773,7 @@ domain
 *
 /
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_DIV32_varQ
 (
@@ -1165,7 +1165,7 @@ domain
 *
 /
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_INVERSE32_varQ
 (

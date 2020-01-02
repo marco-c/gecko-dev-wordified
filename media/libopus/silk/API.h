@@ -821,6 +821,17 @@ O
 State
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 silk_EncControlStruct
 *
 encStatus

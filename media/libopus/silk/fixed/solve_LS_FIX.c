@@ -517,7 +517,7 @@ form
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LDL_factorize_FIX
 (
@@ -603,7 +603,7 @@ diagonal
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LS_SolveFirst_FIX
 (
@@ -678,7 +678,7 @@ diagonal
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LS_SolveLast_FIX
 (
@@ -732,7 +732,7 @@ Vector
 )
 ;
 static
-inline
+OPUS_INLINE
 void
 silk_LS_divide_Q16_FIX
 (
@@ -1446,7 +1446,7 @@ RESTORE_STACK
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_LDL_factorize_FIX
 (
@@ -2094,7 +2094,7 @@ status
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_LS_divide_Q16_FIX
 (
@@ -2228,7 +2228,7 @@ diagonal
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LS_SolveFirst_FIX
 (
@@ -2391,7 +2391,7 @@ diagonal
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LS_SolveLast_FIX
 (

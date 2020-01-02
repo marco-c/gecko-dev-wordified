@@ -490,6 +490,17 @@ to
 compute
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 {
 opus_int
@@ -516,6 +527,7 @@ corrCount
 -
 1
 inputDataSize
+arch
 )
 ;
 }

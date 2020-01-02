@@ -461,7 +461,7 @@ taps
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LP_interpolate_filter_taps
 (

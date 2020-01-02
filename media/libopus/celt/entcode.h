@@ -236,6 +236,13 @@ opus_types
 h
 "
 #
+include
+"
+opus_defines
+.
+h
+"
+#
 if
 !
 defined
@@ -680,7 +687,7 @@ error
 }
 ;
 static
-inline
+OPUS_INLINE
 opus_uint32
 ec_range_bytes
 (
@@ -697,7 +704,7 @@ offs
 ;
 }
 static
-inline
+OPUS_INLINE
 unsigned
 char
 *
@@ -716,7 +723,7 @@ buf
 ;
 }
 static
-inline
+OPUS_INLINE
 int
 ec_get_error
 (
@@ -807,7 +814,7 @@ direction
 *
 /
 static
-inline
+OPUS_INLINE
 int
 ec_tell
 (

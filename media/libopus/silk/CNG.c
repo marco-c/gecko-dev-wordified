@@ -428,7 +428,7 @@ synthesis
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_CNG_exc
 (

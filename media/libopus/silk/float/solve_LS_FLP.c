@@ -605,7 +605,7 @@ L
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LDL_FLP
 (
@@ -839,7 +839,7 @@ diagonal
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_SolveWithLowerTriangularWdiagOnes_FLP
 (
@@ -1072,7 +1072,7 @@ triangular
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_SolveWithUpperTriangularFromLowerWdiagOnes_FLP
 (
@@ -2015,7 +2015,7 @@ x
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_SolveWithUpperTriangularFromLowerWdiagOnes_FLP
 (
@@ -2163,7 +2163,7 @@ temp
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_SolveWithLowerTriangularWdiagOnes_FLP
 (
@@ -2304,7 +2304,7 @@ temp
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_LDL_FLP
 (

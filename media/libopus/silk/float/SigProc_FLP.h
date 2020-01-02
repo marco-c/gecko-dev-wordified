@@ -1126,6 +1126,17 @@ ms
 subframes
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 ;
 void
@@ -1629,7 +1640,7 @@ function
 *
 /
 static
-inline
+OPUS_INLINE
 silk_float
 silk_sigmoid
 (
@@ -1674,7 +1685,7 @@ rounding
 *
 /
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_float2int
 (
@@ -1706,7 +1717,7 @@ rounding
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_float2short_array
 (
@@ -1774,7 +1785,7 @@ conversion
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_short2float_array
 (
@@ -1840,7 +1851,7 @@ conversion
 *
 /
 static
-inline
+OPUS_INLINE
 silk_float
 silk_log2
 (

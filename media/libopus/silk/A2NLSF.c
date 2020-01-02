@@ -552,7 +552,7 @@ n
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_A2NLSF_trans_poly
 (
@@ -673,7 +673,7 @@ evaluation
 *
 /
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_A2NLSF_eval_poly
 (
@@ -787,7 +787,7 @@ y32
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_A2NLSF_init
 (

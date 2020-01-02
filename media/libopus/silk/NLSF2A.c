@@ -495,7 +495,7 @@ NLSF2A
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_NLSF2A_find_poly
 (

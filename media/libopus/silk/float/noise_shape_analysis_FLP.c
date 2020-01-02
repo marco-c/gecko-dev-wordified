@@ -505,7 +505,7 @@ filters
 *
 /
 static
-inline
+OPUS_INLINE
 silk_float
 warped_gain
 (
@@ -625,7 +625,7 @@ coefficients
 *
 /
 static
-inline
+OPUS_INLINE
 void
 warped_true2monic_coefs
 (

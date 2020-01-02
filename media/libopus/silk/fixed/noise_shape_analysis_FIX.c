@@ -512,7 +512,7 @@ filters
 *
 /
 static
-inline
+OPUS_INLINE
 opus_int32
 warped_gain
 (
@@ -643,7 +643,7 @@ coefficients
 *
 /
 static
-inline
+OPUS_INLINE
 void
 limit_warped_coefs
 (
@@ -1576,6 +1576,17 @@ frame_length
 +
 la_shape
 ]
+*
+/
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
 *
 /
 )
@@ -3005,6 +3016,7 @@ sCmn
 shapingLPCOrder
 +
 1
+arch
 )
 ;
 }

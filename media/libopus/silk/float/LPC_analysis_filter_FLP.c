@@ -574,7 +574,7 @@ samples
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter16_FLP
 (
@@ -885,7 +885,7 @@ samples
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter12_FLP
 (
@@ -1152,7 +1152,7 @@ samples
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter10_FLP
 (
@@ -1397,7 +1397,7 @@ samples
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter8_FLP
 (
@@ -1620,7 +1620,7 @@ samples
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter6_FLP
 (

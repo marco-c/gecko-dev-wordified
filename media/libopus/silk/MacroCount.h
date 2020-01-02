@@ -420,7 +420,7 @@ opus_int64
 ops_count
 ;
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SaveCount
 (
@@ -433,7 +433,7 @@ ops_count
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SaveResetCount
 (
@@ -457,7 +457,7 @@ ret
 ;
 }
 static
-inline
+OPUS_INLINE
 silk_PrintCount
 (
 )
@@ -483,7 +483,7 @@ ops_count
 undef
 silk_MUL
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_MUL
 (
@@ -515,7 +515,7 @@ ret
 undef
 silk_MUL_uint
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_MUL_uint
 (
@@ -547,7 +547,7 @@ ret
 undef
 silk_MLA
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_MLA
 (
@@ -583,7 +583,7 @@ ret
 undef
 silk_MLA_uint
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_MLA_uint
 (
@@ -619,7 +619,7 @@ ret
 undef
 silk_SMULWB
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWB
 (
@@ -687,7 +687,7 @@ ret
 undef
 silk_SMLAWB
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLAWB
 (
@@ -775,7 +775,7 @@ ret
 undef
 silk_SMULWT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWT
 (
@@ -837,7 +837,7 @@ ret
 undef
 silk_SMLAWT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLAWT
 (
@@ -907,7 +907,7 @@ ret
 undef
 silk_SMULBB
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULBB
 (
@@ -955,7 +955,7 @@ ret
 undef
 silk_SMLABB
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLABB
 (
@@ -1007,7 +1007,7 @@ ret
 undef
 silk_SMULBT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULBT
 (
@@ -1054,7 +1054,7 @@ ret
 undef
 silk_SMLABT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLABT
 (
@@ -1105,7 +1105,7 @@ ret
 undef
 silk_SMULTT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULTT
 (
@@ -1147,7 +1147,7 @@ ret
 undef
 silk_SMLATT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLATT
 (
@@ -1257,7 +1257,7 @@ silk_SMLAWT
 undef
 silk_SMULL
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SMULL
 (
@@ -1305,7 +1305,7 @@ ret
 undef
 silk_SMLAL
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SMLAL
 (
@@ -1357,7 +1357,7 @@ ret
 undef
 silk_SMLALBB
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SMLALBB
 (
@@ -1409,7 +1409,7 @@ ret
 undef
 SigProcFIX_CLZ16
 static
-inline
+OPUS_INLINE
 opus_int32
 SigProcFIX_CLZ16
 (
@@ -1569,7 +1569,7 @@ out32
 undef
 SigProcFIX_CLZ32
 static
-inline
+OPUS_INLINE
 opus_int32
 SigProcFIX_CLZ32
 (
@@ -1635,7 +1635,7 @@ in32
 undef
 silk_DIV32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_DIV32
 (
@@ -1660,7 +1660,7 @@ b32
 undef
 silk_DIV32_16
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_DIV32_16
 (
@@ -1685,7 +1685,7 @@ b32
 undef
 silk_SAT8
 static
-inline
+OPUS_INLINE
 opus_int8
 silk_SAT8
 (
@@ -1741,7 +1741,7 @@ tmp
 undef
 silk_SAT16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_SAT16
 (
@@ -1797,7 +1797,7 @@ tmp
 undef
 silk_SAT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SAT32
 (
@@ -1853,7 +1853,7 @@ tmp
 undef
 silk_POS_SAT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_POS_SAT32
 (
@@ -1898,7 +1898,7 @@ tmp
 undef
 silk_ADD_POS_SAT8
 static
-inline
+OPUS_INLINE
 opus_int8
 silk_ADD_POS_SAT8
 (
@@ -1959,7 +1959,7 @@ tmp
 undef
 silk_ADD_POS_SAT16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_ADD_POS_SAT16
 (
@@ -2020,7 +2020,7 @@ tmp
 undef
 silk_ADD_POS_SAT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_POS_SAT32
 (
@@ -2081,7 +2081,7 @@ tmp
 undef
 silk_ADD_POS_SAT64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_ADD_POS_SAT64
 (
@@ -2139,7 +2139,7 @@ tmp
 undef
 silk_LSHIFT8
 static
-inline
+OPUS_INLINE
 opus_int8
 silk_LSHIFT8
 (
@@ -2172,7 +2172,7 @@ ret
 undef
 silk_LSHIFT16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_LSHIFT16
 (
@@ -2205,7 +2205,7 @@ ret
 undef
 silk_LSHIFT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_LSHIFT32
 (
@@ -2238,7 +2238,7 @@ ret
 undef
 silk_LSHIFT64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_LSHIFT64
 (
@@ -2264,7 +2264,7 @@ shift
 undef
 silk_LSHIFT_ovflw
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_LSHIFT_ovflw
 (
@@ -2290,7 +2290,7 @@ shift
 undef
 silk_LSHIFT_uint
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_LSHIFT_uint
 (
@@ -2323,7 +2323,7 @@ ret
 undef
 silk_RSHIFT8
 static
-inline
+OPUS_INLINE
 opus_int8
 silk_RSHIFT8
 (
@@ -2349,7 +2349,7 @@ shift
 undef
 silk_RSHIFT16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_RSHIFT16
 (
@@ -2375,7 +2375,7 @@ shift
 undef
 silk_RSHIFT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_RSHIFT32
 (
@@ -2401,7 +2401,7 @@ shift
 undef
 silk_RSHIFT64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_RSHIFT64
 (
@@ -2427,7 +2427,7 @@ shift
 undef
 silk_RSHIFT_uint
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_RSHIFT_uint
 (
@@ -2453,7 +2453,7 @@ shift
 undef
 silk_ADD_LSHIFT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_LSHIFT
 (
@@ -2500,7 +2500,7 @@ shift
 undef
 silk_ADD_LSHIFT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_LSHIFT32
 (
@@ -2547,7 +2547,7 @@ shift
 undef
 silk_ADD_LSHIFT_uint
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_ADD_LSHIFT_uint
 (
@@ -2594,7 +2594,7 @@ shift
 undef
 silk_ADD_RSHIFT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_RSHIFT
 (
@@ -2640,7 +2640,7 @@ shift
 undef
 silk_ADD_RSHIFT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_RSHIFT32
 (
@@ -2686,7 +2686,7 @@ shift
 undef
 silk_ADD_RSHIFT_uint
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_ADD_RSHIFT_uint
 (
@@ -2732,7 +2732,7 @@ shift
 undef
 silk_SUB_LSHIFT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SUB_LSHIFT32
 (
@@ -2779,7 +2779,7 @@ shift
 undef
 silk_SUB_RSHIFT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SUB_RSHIFT32
 (
@@ -2825,7 +2825,7 @@ shift
 undef
 silk_RSHIFT_ROUND
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_RSHIFT_ROUND
 (
@@ -2889,7 +2889,7 @@ ret
 undef
 silk_RSHIFT_ROUND64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_RSHIFT_ROUND64
 (
@@ -2953,7 +2953,7 @@ ret
 undef
 silk_abs_int64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_abs_int64
 (
@@ -3005,7 +3005,7 @@ silk_intXX_MIN
 undef
 silk_abs_int32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_abs_int32
 (
@@ -3142,7 +3142,7 @@ a
 undef
 silk_ADD16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_ADD16
 (
@@ -3174,7 +3174,7 @@ ret
 undef
 silk_ADD32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD32
 (
@@ -3206,7 +3206,7 @@ ret
 undef
 silk_ADD64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_ADD64
 (
@@ -3238,7 +3238,7 @@ ret
 undef
 silk_SUB16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_SUB16
 (
@@ -3270,7 +3270,7 @@ ret
 undef
 silk_SUB32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SUB32
 (
@@ -3302,7 +3302,7 @@ ret
 undef
 silk_SUB64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SUB64
 (
@@ -3334,7 +3334,7 @@ ret
 undef
 silk_ADD_SAT16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_ADD_SAT16
 (
@@ -3388,7 +3388,7 @@ res
 undef
 silk_ADD_SAT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_SAT32
 (
@@ -3495,7 +3495,7 @@ res
 undef
 silk_ADD_SAT64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_ADD_SAT64
 (
@@ -3602,7 +3602,7 @@ res
 undef
 silk_SUB_SAT16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_SUB_SAT16
 (
@@ -3661,7 +3661,7 @@ res
 undef
 silk_SUB_SAT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SUB_SAT32
 (
@@ -3766,7 +3766,7 @@ res
 undef
 silk_SUB_SAT64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SUB_SAT64
 (
@@ -3871,7 +3871,7 @@ res
 undef
 silk_SMULWW
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWW
 (
@@ -3929,7 +3929,7 @@ ret
 undef
 silk_SMLAWW
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLAWW
 (
@@ -3992,7 +3992,7 @@ ret
 undef
 silk_min_int
 static
-inline
+OPUS_INLINE
 opus_int
 silk_min_int
 (
@@ -4033,7 +4033,7 @@ b
 undef
 silk_min_16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_min_16
 (
@@ -4074,7 +4074,7 @@ b
 undef
 silk_min_32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_min_32
 (
@@ -4115,7 +4115,7 @@ b
 undef
 silk_min_64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_min_64
 (
@@ -4170,7 +4170,7 @@ call
 undef
 silk_max_int
 static
-inline
+OPUS_INLINE
 opus_int
 silk_max_int
 (
@@ -4211,7 +4211,7 @@ b
 undef
 silk_max_16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_max_16
 (
@@ -4252,7 +4252,7 @@ b
 undef
 silk_max_32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_max_32
 (
@@ -4293,7 +4293,7 @@ b
 undef
 silk_max_64
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_max_64
 (
@@ -4334,7 +4334,7 @@ b
 undef
 silk_LIMIT_int
 static
-inline
+OPUS_INLINE
 opus_int
 silk_LIMIT_int
 (
@@ -4441,7 +4441,7 @@ ret
 undef
 silk_LIMIT_16
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_LIMIT_16
 (
@@ -4548,7 +4548,7 @@ ret
 undef
 silk_LIMIT_32
 static
-inline
+OPUS_INLINE
 opus_int
 silk_LIMIT_32
 (

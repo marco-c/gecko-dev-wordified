@@ -475,6 +475,17 @@ Speech
 signal
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 {
 opus_int
@@ -1469,6 +1480,7 @@ psEnc
 sCmn
 .
 nb_subfr
+arch
 )
 =
 =

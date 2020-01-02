@@ -4405,6 +4405,7 @@ defined
 (
 CUSTOM_MODES
 )
+static
 const
 opus_uint32
 *
@@ -4464,6 +4465,7 @@ CELT_PVQ_U_DATA
 ;
 #
 else
+static
 const
 opus_uint32
 *
@@ -5372,7 +5374,7 @@ column
 *
 /
 static
-inline
+OPUS_INLINE
 void
 unext
 (
@@ -5545,7 +5547,7 @@ column
 *
 /
 static
-inline
+OPUS_INLINE
 void
 uprev
 (
@@ -6167,7 +6169,7 @@ K
 *
 /
 static
-inline
+OPUS_INLINE
 opus_uint32
 icwrs1
 (
@@ -6251,7 +6253,7 @@ _k
 *
 /
 static
-inline
+OPUS_INLINE
 opus_uint32
 icwrs
 (

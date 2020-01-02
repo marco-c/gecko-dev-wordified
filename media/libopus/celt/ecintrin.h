@@ -291,7 +291,7 @@ have
 optimized
 intrinsic
 or
-inline
+OPUS_INLINE
 assembly
 versions
 of

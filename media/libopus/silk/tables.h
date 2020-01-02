@@ -877,6 +877,16 @@ NB_LTP_CBKS
 /
 extern
 const
+opus_uint8
+*
+const
+silk_LTP_vq_gain_ptrs_Q7
+[
+NB_LTP_CBKS
+]
+;
+extern
+const
 opus_int8
 silk_LTP_vq_sizes
 [

@@ -1223,7 +1223,13 @@ if
 (
 nStates
 <
+=
+(
 NLSF_QUANT_DEL_DEC_STATES
+>
+>
+1
+)
 )
 {
 /

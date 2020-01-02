@@ -427,7 +427,7 @@ estimation
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_VAD_GetNoiseLevels
 (
@@ -3273,7 +3273,7 @@ estimation
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_VAD_GetNoiseLevels
 (

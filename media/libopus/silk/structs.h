@@ -1661,6 +1661,17 @@ LTP
 quantization
 *
 /
+opus_int32
+sum_log_gain_Q7
+;
+/
+*
+Cumulative
+max
+prediction
+gain
+*
+/
 opus_int
 NLSF_MSVQ_Survivors
 ;
@@ -1837,6 +1848,9 @@ pulses
 [
 MAX_FRAME_LENGTH
 ]
+;
+int
+arch
 ;
 /
 *

@@ -810,7 +810,7 @@ functions
 *
 Therefore
 implement
-inline
+OPUS_INLINE
 versions
 of
 these
@@ -958,7 +958,7 @@ endif
 ifndef
 DISABLE_FLOAT_API
 static
-inline
+OPUS_INLINE
 opus_int16
 FLOAT2INT16
 (

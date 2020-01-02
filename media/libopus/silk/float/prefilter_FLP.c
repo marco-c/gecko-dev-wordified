@@ -429,7 +429,7 @@ signal
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_prefilt_FLP
 (
@@ -1455,7 +1455,7 @@ signal
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_prefilt_FLP
 (

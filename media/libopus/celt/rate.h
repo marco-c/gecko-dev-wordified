@@ -290,7 +290,7 @@ LM
 )
 ;
 static
-inline
+OPUS_INLINE
 int
 get_pulses
 (
@@ -329,7 +329,7 @@ i
 ;
 }
 static
-inline
+OPUS_INLINE
 int
 bits2pulses
 (
@@ -512,7 +512,7 @@ hi
 ;
 }
 static
-inline
+OPUS_INLINE
 int
 pulses2bits
 (

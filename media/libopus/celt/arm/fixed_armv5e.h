@@ -280,7 +280,7 @@ bits
 undef
 MULT16_32_Q16
 static
-inline
+OPUS_INLINE
 opus_val32
 MULT16_32_Q16_armv5e
 (
@@ -382,7 +382,7 @@ bits
 undef
 MULT16_32_Q15
 static
-inline
+OPUS_INLINE
 opus_val32
 MULT16_32_Q15_armv5e
 (
@@ -500,7 +500,7 @@ bits
 undef
 MAC16_32_Q15
 static
-inline
+OPUS_INLINE
 opus_val32
 MAC16_32_Q15_armv5e
 (
@@ -611,7 +611,7 @@ bits
 undef
 MAC16_16
 static
-inline
+OPUS_INLINE
 opus_val32
 MAC16_16_armv5e
 (
@@ -717,7 +717,7 @@ bits
 undef
 MULT16_16
 static
-inline
+OPUS_INLINE
 opus_val32
 MULT16_16_armv5e
 (

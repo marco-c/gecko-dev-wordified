@@ -435,7 +435,7 @@ signal
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_prefilt_FIX
 (
@@ -1565,7 +1565,7 @@ signal
 *
 /
 static
-inline
+OPUS_INLINE
 void
 silk_prefilt_FIX
 (

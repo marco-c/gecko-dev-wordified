@@ -530,7 +530,7 @@ I
 )
 ;
 static
-inline
+OPUS_INLINE
 opus_int
 silk_setup_LBRR
 (
@@ -3669,7 +3669,7 @@ ret
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int
 silk_setup_LBRR
 (
