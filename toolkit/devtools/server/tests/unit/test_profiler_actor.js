@@ -286,9 +286,6 @@ features
 :
 [
 '
-jank
-'
-'
 js
 '
 ]
