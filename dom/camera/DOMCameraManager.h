@@ -529,6 +529,8 @@ protected
 *
 /
 static
+:
+:
 WindowTable
 *
 sActiveWindows
