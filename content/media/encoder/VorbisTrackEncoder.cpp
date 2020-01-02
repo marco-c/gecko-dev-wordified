@@ -505,6 +505,7 @@ while
 (
 aLacing
 >
+=
 255
 )
 {
