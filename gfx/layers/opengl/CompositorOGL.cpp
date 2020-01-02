@@ -510,6 +510,13 @@ nsString
 nsAutoCString
 etc
 #
+include
+"
+DecomposeIntoNoRepeatTriangles
+.
+h
+"
+#
 if
 MOZ_ANDROID_OMTC
 #
@@ -634,9 +641,6 @@ aVBOs
 ShaderProgramOGL
 *
 aProg
-GLContext
-:
-:
 RectTriangles
 &
 aRects
@@ -986,9 +990,6 @@ static
 void
 AddDigits
 (
-GLContext
-:
-:
 RectTriangles
 &
 aRects
@@ -1504,9 +1505,6 @@ aNow
 )
 )
 ;
-GLContext
-:
-:
 RectTriangles
 rects
 ;
@@ -3700,9 +3698,6 @@ wrap
 mode
 )
 .
-GLContext
-:
-:
 RectTriangles
 rects
 ;
@@ -4069,9 +4064,6 @@ texCoordRect
 height
 )
 ;
-GLContext
-:
-:
 DecomposeIntoNoRepeatTriangles
 (
 tcRect
