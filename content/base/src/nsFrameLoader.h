@@ -2576,11 +2576,6 @@ mNetworkCreated
 1
 ;
 bool
-mDelayRemoteDialogs
-:
-1
-;
-bool
 mRemoteBrowserShown
 :
 1
