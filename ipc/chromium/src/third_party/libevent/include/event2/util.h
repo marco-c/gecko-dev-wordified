@@ -4303,6 +4303,9 @@ evutil_secure_rng_init
 void
 )
 ;
+#
+ifndef
+__OpenBSD__
 /
 *
 *
@@ -4432,6 +4435,8 @@ size_t
 datlen
 )
 ;
+#
+endif
 #
 ifdef
 __cplusplus
