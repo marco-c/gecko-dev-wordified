@@ -233,7 +233,7 @@ ok
 isCaretPos
 (
 gPanel
-1
+7
 )
 "
 The
@@ -259,8 +259,8 @@ isEditorSel
 (
 gPanel
 [
-1
-1
+160
+160
 ]
 )
 "
@@ -284,7 +284,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -369,7 +369,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -454,7 +454,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -542,7 +542,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -633,7 +633,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -748,7 +748,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -837,7 +837,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -924,7 +924,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -1013,7 +1013,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -1106,7 +1106,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "

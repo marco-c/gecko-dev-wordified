@@ -65,7 +65,6 @@ gPanel
 gDebugger
 ;
 let
-gEditor
 gSources
 gSourceUtils
 gSearchView
@@ -128,14 +127,6 @@ gDebugger
 gPanel
 .
 panelWin
-;
-gEditor
-=
-gDebugger
-.
-DebuggerView
-.
-editor
 ;
 gSources
 =
@@ -1730,10 +1721,6 @@ gPanel
 null
 ;
 gDebugger
-=
-null
-;
-gEditor
 =
 null
 ;

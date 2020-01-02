@@ -287,7 +287,7 @@ the
 gutter
 in
 the
-SourceEditor
+editor
 to
 get
 updated

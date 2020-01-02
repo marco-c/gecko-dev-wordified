@@ -92,7 +92,6 @@ gPanel
 gDebugger
 ;
 let
-gEditor
 gSources
 gBreakpoints
 ;
@@ -130,14 +129,6 @@ gDebugger
 gPanel
 .
 panelWin
-;
-gEditor
-=
-gDebugger
-.
-DebuggerView
-.
-editor
 ;
 gSources
 =
