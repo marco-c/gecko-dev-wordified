@@ -655,6 +655,11 @@ mPosition
 y
 ;
 }
+cairo_new_path
+(
+ctx
+)
+;
 cairo_glyph_path
 (
 ctx
