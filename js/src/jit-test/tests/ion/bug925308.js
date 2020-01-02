@@ -30,9 +30,8 @@ lfcode
 push
 (
 "
-enableSPSProfilingAssertions
+enableSPSProfiling
 (
-false
 )
 ;
 foo
