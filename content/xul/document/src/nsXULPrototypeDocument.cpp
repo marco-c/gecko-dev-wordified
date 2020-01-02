@@ -250,17 +250,6 @@ h
 #
 include
 "
-nsDOMJSUtils
-.
-h
-"
-/
-/
-for
-GetScriptContextFromJSContext
-#
-include
-"
 xpcpublic
 .
 h
