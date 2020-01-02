@@ -1017,7 +1017,7 @@ architecture
         
 command
 .
-extemd
+extend
 (
 arch
 )
