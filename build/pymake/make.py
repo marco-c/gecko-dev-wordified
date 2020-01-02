@@ -124,6 +124,19 @@ Bug
 tracks
 .
   
+#
+  
+#
+The
+default
+recursion
+limit
+for
+CPython
+is
+1000
+.
+  
 try
 :
       
@@ -131,13 +144,7 @@ sys
 .
 setrecursionlimit
 (
-2
-*
-sys
-.
-getrecursionlimit
-(
-)
+10000
 )
   
 except
