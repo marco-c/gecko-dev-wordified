@@ -17602,7 +17602,7 @@ newtabpage
 .
 columns
 "
-3
+8
 )
 ;
 /
