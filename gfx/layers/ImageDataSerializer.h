@@ -278,11 +278,6 @@ DrawTarget
 >
 GetAsDrawTarget
 (
-gfx
-:
-:
-BackendType
-aBackend
 )
 ;
 protected
