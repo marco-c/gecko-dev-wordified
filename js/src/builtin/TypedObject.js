@@ -2043,7 +2043,7 @@ typeRepr
 var
 T
 =
-StandardTypeObjectDescriptors
+GetTypedObjectModule
 (
 )
 ;
@@ -5722,7 +5722,7 @@ object
 var
 T
 =
-StandardTypeObjectDescriptors
+GetTypedObjectModule
 (
 )
 ;
@@ -5848,7 +5848,7 @@ them
 through
 /
 /
-StandardTypeObjectDescriptors
+GetTypedObjectModule
 (
 )
 .
@@ -5895,7 +5895,7 @@ script
 var
 T
 =
-StandardTypeObjectDescriptors
+GetTypedObjectModule
 (
 )
 ;

@@ -940,10 +940,10 @@ imaginary
 (
 TypedObject
 38
-js_InitTypedObjectClass
-CLASP
+js_InitTypedObjectModuleObject
+OCLASP
 (
-TypedObject
+TypedObjectModule
 )
 )
 \
