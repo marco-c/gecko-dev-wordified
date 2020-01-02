@@ -2723,7 +2723,7 @@ for
 (
 let
 childItem
-in
+of
 parentItem
 )
 {
@@ -3418,7 +3418,7 @@ for
 (
 let
 childItem
-in
+of
 aItem
 )
 {
@@ -3629,7 +3629,7 @@ for
 (
 let
 childItem
-in
+of
 wrappedView
 )
 {
@@ -9840,7 +9840,7 @@ for
 (
 let
 childItem
-in
+of
 aItem
 )
 {
@@ -10557,11 +10557,11 @@ Item
 .
 prototype
 .
-__iterator__
+iterator
 =
 WidgetMethods
 .
-__iterator__
+iterator
 =
 function
 (
