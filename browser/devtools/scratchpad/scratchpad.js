@@ -6109,6 +6109,12 @@ clearHistory
 (
 )
 ;
+this
+.
+dirty
+=
+false
+;
 document
 .
 getElementById
