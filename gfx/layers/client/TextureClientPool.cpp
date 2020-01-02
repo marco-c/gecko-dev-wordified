@@ -279,6 +279,13 @@ top
 (
 )
 ;
+textureClient
+-
+>
+WaitReleaseFence
+(
+)
+;
 mTextureClients
 .
 pop
