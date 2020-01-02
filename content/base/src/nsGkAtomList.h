@@ -13667,13 +13667,6 @@ SVGGFrame
 )
 GK_ATOM
 (
-svgGlyphFrame
-"
-SVGGlyphFrame
-"
-)
-GK_ATOM
-(
 svgGradientFrame
 "
 SVGGradientFrame
@@ -13768,13 +13761,6 @@ GK_ATOM
 svgSwitchFrame
 "
 SVGSwitchFrame
-"
-)
-GK_ATOM
-(
-svgTextFrame
-"
-SVGTextFrame
 "
 )
 GK_ATOM

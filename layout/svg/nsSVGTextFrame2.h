@@ -170,13 +170,6 @@ nsSVGPaintServerFrame
 .
 h
 "
-#
-include
-"
-nsSVGTextContainerFrame
-.
-h
-"
 class
 nsDisplaySVGText
 ;
@@ -198,6 +191,9 @@ mozilla
 {
 class
 CharIterator
+;
+class
+nsISVGPoint
 ;
 class
 TextFrameIterator
