@@ -318,12 +318,6 @@ nsIURI
 uri
 )
 ;
-virtual
-~
-FTPChannelChild
-(
-)
-;
 void
 AddIPDLReference
 (
@@ -404,6 +398,12 @@ FlushedForDiversion
 ;
 protected
 :
+virtual
+~
+FTPChannelChild
+(
+)
+;
 bool
 RecvOnStartRequest
 (

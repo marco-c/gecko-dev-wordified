@@ -163,6 +163,11 @@ uri
 ;
 protected
 :
+~
+nsFileChannel
+(
+)
+;
 /
 /
 Called

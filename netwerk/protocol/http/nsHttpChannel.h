@@ -636,12 +636,6 @@ nsHttpChannel
 )
 ;
 virtual
-~
-nsHttpChannel
-(
-)
-;
-virtual
 nsresult
 Init
 (
@@ -1140,6 +1134,14 @@ mKeep
 2
 ;
 }
+;
+protected
+:
+virtual
+~
+nsHttpChannel
+(
+)
 ;
 private
 :
