@@ -1049,6 +1049,9 @@ mozilla
 gl
 :
 :
+SharedTextureShareType
+:
+:
 SameProcess
 ;
 data
@@ -9179,6 +9182,9 @@ mShareType
 gl
 :
 :
+SharedTextureShareType
+:
+:
 SameProcess
 ;
 data
@@ -9204,6 +9210,9 @@ aVideoInfo
 >
 mSurfaceTexture
 gl
+:
+:
+SharedTextureBufferType
 :
 :
 SurfaceTexture

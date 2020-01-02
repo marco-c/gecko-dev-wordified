@@ -3217,6 +3217,9 @@ mShareType
 gl
 :
 :
+SharedTextureShareType
+:
+:
 SameProcess
 )
 {

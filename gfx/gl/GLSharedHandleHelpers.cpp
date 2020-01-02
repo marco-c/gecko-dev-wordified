@@ -775,6 +775,9 @@ if
 shareType
 !
 =
+SharedTextureShareType
+:
+:
 SameProcess
 )
 return
@@ -968,6 +971,9 @@ if
 shareType
 !
 =
+SharedTextureShareType
+:
+:
 SameProcess
 )
 {
@@ -1117,6 +1123,9 @@ if
 shareType
 !
 =
+SharedTextureShareType
+:
+:
 SameProcess
 )
 return
@@ -1278,6 +1287,9 @@ if
 shareType
 !
 =
+SharedTextureShareType
+:
+:
 SameProcess
 )
 return
