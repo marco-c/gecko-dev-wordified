@@ -1082,6 +1082,13 @@ aIsSharing
 ;
 virtual
 bool
+RecvNuwaFork
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvNotifyProcessPriorityChanged
 (
 const

@@ -222,7 +222,7 @@ Stop
 /
 /
 namespace
-tabs
+dom
 }
 /
 /
