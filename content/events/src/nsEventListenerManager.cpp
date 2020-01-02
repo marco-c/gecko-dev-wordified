@@ -6275,6 +6275,9 @@ nullptr
 ;
 if
 (
+mIsMainThreadELM
+&
+&
 !
 hasListener
 )
