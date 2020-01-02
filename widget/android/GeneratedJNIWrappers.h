@@ -148,6 +148,9 @@ jmethodID
 jMoveTaskToBack
 ;
 jmethodID
+jNetworkLinkType
+;
+jmethodID
 jNotifyDefaultPrevented
 ;
 jmethodID
@@ -733,6 +736,11 @@ a0
 ;
 void
 MoveTaskToBack
+(
+)
+;
+int32_t
+NetworkLinkType
 (
 )
 ;
