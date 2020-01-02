@@ -1350,6 +1350,7 @@ OpenFile
 (
 mKey
 flags
+true
 this
 )
 ;
