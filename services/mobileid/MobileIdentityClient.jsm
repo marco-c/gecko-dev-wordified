@@ -749,6 +749,12 @@ deriveHawkCredentials
 aSessionToken
 CREDENTIALS_DERIVATION_INFO
 CREDENTIALS_DERIVATION_SIZE
+true
+/
+*
+hexKey
+*
+/
 )
 ;
 }
