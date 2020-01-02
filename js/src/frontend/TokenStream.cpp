@@ -4375,6 +4375,11 @@ from
 the
 caller
 .
+bool
+callerFilename
+=
+false
+;
 if
 (
 offset
@@ -4444,6 +4449,10 @@ scriptFilename
 )
 )
 {
+callerFilename
+=
+true
+;
 err
 .
 report
@@ -4657,6 +4666,10 @@ lineno
 =
 =
 lineno
+&
+&
+!
+callerFilename
 )
 {
 const
