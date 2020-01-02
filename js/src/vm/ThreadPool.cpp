@@ -1279,10 +1279,6 @@ JSRuntime
 rt
 )
 :
-runtime_
-(
-rt
-)
 activeWorkers_
 (
 0
@@ -1298,6 +1294,10 @@ nullptr
 #
 ifdef
 DEBUG
+runtime_
+(
+rt
+)
 stolenSlices_
 (
 0
