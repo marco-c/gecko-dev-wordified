@@ -333,16 +333,8 @@ inspector
 .
 markup
 ;
-inspector
-.
-once
-(
-"
-inspector
--
-updated
-"
 startTests
+(
 )
 ;
 }
