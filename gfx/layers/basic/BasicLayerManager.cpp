@@ -4380,6 +4380,16 @@ pixTransform
 )
 )
 {
+pixman_image_unref
+(
+dest
+)
+;
+pixman_image_unref
+(
+src
+)
+;
 return
 ;
 }
