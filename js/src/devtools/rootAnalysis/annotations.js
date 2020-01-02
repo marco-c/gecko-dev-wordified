@@ -1407,6 +1407,14 @@ name
 "
 ModuleCompiler
 "
+|
+|
+name
+=
+=
+"
+JSAddonId
+"
 )
 {
 return
