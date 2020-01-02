@@ -6319,6 +6319,9 @@ Float32Array
 "
 Float64Array
 "
+"
+NodeList
+"
 ]
 ;
 /
