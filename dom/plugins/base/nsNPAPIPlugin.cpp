@@ -3433,10 +3433,6 @@ str
 JS_InternUCStringN
 (
 cx
-(
-jschar
-*
-)
 utf16name
 .
 get

@@ -337,7 +337,7 @@ widget
 .
 extern
 const
-PRUnichar
+wchar_t
 *
 kOOPPPluginFocusEventId
 ;
@@ -351,7 +351,7 @@ kOOPPPluginFocusEventId
 ;
 extern
 const
-PRUnichar
+wchar_t
 *
 kFlashFullscreenClass
 ;
@@ -6169,7 +6169,7 @@ and
 drop
 it
 .
-PRUnichar
+wchar_t
 szClass
 [
 26
@@ -9137,7 +9137,7 @@ know
 /
 static
 const
-PRUnichar
+wchar_t
 kPluginInstanceParentProperty
 [
 ]

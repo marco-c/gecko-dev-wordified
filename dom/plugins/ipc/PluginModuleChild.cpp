@@ -448,7 +448,7 @@ defined
 XP_WIN
 )
 const
-PRUnichar
+wchar_t
 *
 kFlashFullscreenClass
 =
@@ -458,7 +458,7 @@ ShockwaveFlashFullScreen
 "
 ;
 const
-PRUnichar
+wchar_t
 *
 kMozillaWindowClass
 =
@@ -9369,7 +9369,7 @@ if
 sBrowserHwnd
 )
 {
-PRUnichar
+wchar_t
 szClass
 [
 20
@@ -11653,7 +11653,7 @@ not
 work
 correctly
 .
-PRUnichar
+wchar_t
 szClass
 [
 26

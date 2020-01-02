@@ -172,7 +172,7 @@ h
 bool
 ShouldProtectPluginCurrentDirectory
 (
-LPCWSTR
+char16ptr_t
 pluginFilePath
 )
 ;

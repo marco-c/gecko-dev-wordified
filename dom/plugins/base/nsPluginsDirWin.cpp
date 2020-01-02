@@ -260,7 +260,7 @@ plugin
 bool
 ShouldProtectPluginCurrentDirectory
 (
-LPCWSTR
+char16ptr_t
 pluginFilePath
 )
 {
@@ -1028,9 +1028,7 @@ static
 bool
 CanLoadPlugin
 (
-const
-PRUnichar
-*
+char16ptr_t
 aBinaryPath
 )
 {
