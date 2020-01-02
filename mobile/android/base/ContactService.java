@@ -784,10 +784,6 @@ getContentResolver
 (
 )
 ;
-mGotDeviceAccount
-=
-false
-;
 EventDispatcher
 .
 getInstance

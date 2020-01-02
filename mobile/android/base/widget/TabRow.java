@@ -189,10 +189,6 @@ context
 attrs
 )
 ;
-mChecked
-=
-false
-;
 }
 Override
 public

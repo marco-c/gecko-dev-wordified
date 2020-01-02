@@ -572,10 +572,6 @@ mMemoryPressure
 =
 MEMORY_PRESSURE_NONE
 ;
-mStoragePressure
-=
-false
-;
 }
 public
 void

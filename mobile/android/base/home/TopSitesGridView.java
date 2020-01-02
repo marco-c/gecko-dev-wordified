@@ -633,10 +633,6 @@ recycle
 (
 )
 ;
-mIsHandlingFocusChange
-=
-false
-;
 }
 /
 *

@@ -5538,14 +5538,6 @@ GeckoEvent
 (
 )
 ;
-mEnabledCount
-=
-0
-;
-mHasChanged
-=
-false
-;
 mIsFromDefault
 =
 configState

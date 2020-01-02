@@ -862,10 +862,6 @@ setOnItemClickListener
 this
 )
 ;
-mShowIcons
-=
-false
-;
 mItems
 =
 new

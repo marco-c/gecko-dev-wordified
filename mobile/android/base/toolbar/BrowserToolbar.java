@@ -1116,10 +1116,6 @@ isSwitchingTabs
 =
 true
 ;
-isAnimatingEntry
-=
-false
-;
 EventDispatcher
 .
 getInstance
@@ -1262,11 +1258,6 @@ RelativeLayout
 .
 LayoutParams
 (
-(
-ViewGroup
-.
-MarginLayoutParams
-)
 urlBarEntryDefaultLayoutParams
 )
 ;
@@ -3033,7 +3024,7 @@ the
 motion
 event
 has
-occured
+occurred
 below
 the
 toolbar

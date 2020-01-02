@@ -4830,10 +4830,6 @@ mSearchTerm
 =
 searchTerm
 ;
-mSuggestions
-=
-null
-;
 }
 Override
 public

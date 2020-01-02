@@ -803,16 +803,6 @@ TopSitesPanel
 )
 ;
 }
-public
-TopSitesPanel
-(
-)
-{
-mUrlOpenListener
-=
-null
-;
-}
 private
 static
 boolean

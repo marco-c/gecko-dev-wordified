@@ -202,10 +202,6 @@ ToolbarTitlePrefs
 (
 )
 {
-mShowUrl
-=
-false
-;
 mTrimUrls
 =
 true

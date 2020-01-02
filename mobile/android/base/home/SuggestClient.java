@@ -367,10 +367,6 @@ Integer
 MAX_VALUE
 )
 ;
-mCheckNetwork
-=
-false
-;
 }
 /
 *
