@@ -152,12 +152,13 @@ RefPtr
 .
 h
 "
-class
+namespace
 mp4_demuxer
-:
-:
+{
+class
 MP4Sample
 ;
+}
 namespace
 mozilla
 {
