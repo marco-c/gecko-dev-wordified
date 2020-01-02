@@ -781,6 +781,11 @@ RecvInvalidateAll
 (
 )
 {
+if
+(
+mLayerManager
+)
+{
 FrameLayerBuilder
 :
 :
@@ -789,6 +794,7 @@ InvalidateAllLayers
 mLayerManager
 )
 ;
+}
 return
 true
 ;
