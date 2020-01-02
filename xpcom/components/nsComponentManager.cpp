@@ -1432,6 +1432,7 @@ MutexLock
 {
 public
 :
+explicit
 MutexLock
 (
 SafeMutex

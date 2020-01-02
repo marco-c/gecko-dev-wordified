@@ -213,6 +213,7 @@ plain
 files
 *
 /
+explicit
 FileLocation
 (
 nsIFile

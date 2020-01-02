@@ -931,6 +931,7 @@ i
 ;
 private
 :
+explicit
 xptiTypelibGuts
 (
 XPTHeader
@@ -1178,6 +1179,7 @@ STATE_MASK
 ;
 public
 :
+explicit
 xptiInfoFlags
 (
 uint8_t
@@ -2868,6 +2870,7 @@ iid
 }
 public
 :
+explicit
 xptiInterfaceInfo
 (
 xptiInterfaceEntry

@@ -284,6 +284,7 @@ nsDepCharHashKey
 {
 public
 :
+explicit
 CategoryLeaf
 (
 const
