@@ -4978,7 +4978,6 @@ ContentClientIncremental
 :
 BorrowDrawTargetForPainting
 (
-const
 PaintState
 &
 aPaintState
