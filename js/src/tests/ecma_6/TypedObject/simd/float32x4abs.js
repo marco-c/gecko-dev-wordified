@@ -1,6 +1,5 @@
 /
 /
-)
 |
 reftest
 |
@@ -14,7 +13,7 @@ this
 hasOwnProperty
 (
 "
-TypedObject
+SIMD
 "
 )
 )
