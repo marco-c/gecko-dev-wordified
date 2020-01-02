@@ -1911,17 +1911,9 @@ its
 /
 ToAStringPtr
 .
-namespace
-binding_detail
-{
 struct
 FakeDependentString
 ;
-}
-/
-/
-namespace
-binding_detail
 template
 <
 >
@@ -2007,9 +1999,6 @@ operator
 =
 (
 const
-binding_detail
-:
-:
 FakeDependentString
 *
 str

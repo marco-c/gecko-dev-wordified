@@ -9500,9 +9500,6 @@ AutoIdVector
 props
 )
 ;
-namespace
-binding_detail
-{
 /
 /
 A
@@ -9880,11 +9877,6 @@ match
 ;
 }
 ;
-}
-/
-/
-namespace
-binding_detail
 enum
 StringificationBehavior
 {
@@ -9944,9 +9936,6 @@ StringificationBehavior
 nullBehavior
 StringificationBehavior
 undefinedBehavior
-binding_detail
-:
-:
 FakeDependentString
 &
 result
@@ -10217,9 +10206,6 @@ internally
 by
 codegen
 .
-namespace
-binding_detail
-{
 template
 <
 typename
@@ -10288,11 +10274,6 @@ this
 }
 }
 ;
-}
-/
-/
-namespace
-binding_detail
 /
 /
 Class

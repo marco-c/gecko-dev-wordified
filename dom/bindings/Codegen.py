@@ -25773,9 +25773,6 @@ else
 sequenceClass
 =
 "
-binding_detail
-:
-:
 AutoSequence
 "
         
@@ -30913,9 +30910,6 @@ n
 "
                 
 "
-binding_detail
-:
-:
 FakeDependentString
 str
 ;
@@ -30986,51 +30980,6 @@ Optional
 nsAString
 >
 "
-            
-holderType
-=
-CGGeneric
-(
-"
-binding_detail
-:
-:
-FakeDependentString
-"
-)
-            
-conversionCode
-=
-(
-"
-%
-s
-\
-n
-"
-                              
-"
-{
-declName
-}
-=
-&
-{
-holderName
-}
-;
-"
-%
-                              
-getConversionCode
-(
-"
-{
-holderName
-}
-"
-)
-)
         
 else
 :
@@ -31038,26 +30987,11 @@ else
 declType
 =
 "
-binding_detail
-:
-:
-FakeDependentString
+NonNull
+<
+nsAString
+>
 "
-            
-holderType
-=
-None
-            
-conversionCode
-=
-getConversionCode
-(
-"
-{
-declName
-}
-"
-)
         
 #
 No
@@ -31077,7 +31011,36 @@ return
 JSToNativeConversionInfo
 (
             
-conversionCode
+(
+"
+%
+s
+\
+n
+"
+             
+"
+{
+declName
+}
+=
+&
+{
+holderName
+}
+;
+"
+%
+             
+getConversionCode
+(
+"
+{
+holderName
+}
+"
+)
+)
             
 declType
 =
@@ -31088,7 +31051,12 @@ declType
             
 holderType
 =
-holderType
+CGGeneric
+(
+"
+FakeDependentString
+"
+)
 )
     
 if
@@ -32516,7 +32484,7 @@ members
 typeName
 =
 "
-binding_detail
+dictionary_detail
 :
 :
 Fast
@@ -35281,9 +35249,6 @@ seqType
 CGTemplatedType
 (
 "
-binding_detail
-:
-:
 AutoSequence
 "
                                               
@@ -60020,7 +59985,11 @@ True
 body
 =
 "
-SetAsString
+mValue
+.
+mString
+.
+Value
 (
 )
 .
@@ -61853,9 +61822,7 @@ True
 body
 =
 "
-SetAsString
-(
-)
+mStringHolder
 .
 SetData
 (
@@ -68582,9 +68549,6 @@ idDecl
                 
 (
 "
-binding_detail
-:
-:
 FakeDependentString
 %
 s
@@ -80257,7 +80221,7 @@ build
 (
 [
 '
-binding_detail
+dictionary_detail
 '
 ]
                                          
@@ -100064,29 +100028,6 @@ mozilla
 dom
 /
 BindingDeclarations
-.
-h
-"
-)
-        
-#
-Need
-BindingUtils
-.
-h
-for
-FakeDependentString
-        
-includes
-.
-add
-(
-"
-mozilla
-/
-dom
-/
-BindingUtils
 .
 h
 "
