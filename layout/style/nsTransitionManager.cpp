@@ -1141,10 +1141,12 @@ i
 ;
 if
 (
+!
 pt
 .
-IsRemovedSentinel
+IsRunningAt
 (
+now
 )
 )
 {
