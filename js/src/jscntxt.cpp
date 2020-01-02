@@ -1569,17 +1569,6 @@ if
 last
 )
 {
-JS_ASSERT
-(
-!
-rt
--
->
-isHeapBusy
-(
-)
-)
-;
 /
 *
 *
