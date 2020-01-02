@@ -6148,9 +6148,13 @@ ptr
 sc
 .
 hops
+(
+)
 sc
 .
 slot
+(
+)
 )
 ;
 break

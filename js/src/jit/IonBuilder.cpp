@@ -64217,6 +64217,8 @@ walkScopeChain
 sc
 .
 hops
+(
+)
 )
 ;
 Shape
@@ -64248,6 +64250,8 @@ numFixedSlots
 sc
 .
 slot
+(
+)
 )
 {
 MInstruction
@@ -64287,6 +64291,8 @@ slots
 sc
 .
 slot
+(
+)
 -
 shape
 -
@@ -64313,6 +64319,8 @@ obj
 sc
 .
 slot
+(
+)
 )
 ;
 }
@@ -64541,6 +64549,8 @@ walkScopeChain
 sc
 .
 hops
+(
+)
 )
 ;
 current
@@ -64588,6 +64598,8 @@ walkScopeChain
 sc
 .
 hops
+(
+)
 )
 ;
 Shape
@@ -64647,6 +64659,8 @@ numFixedSlots
 sc
 .
 slot
+(
+)
 )
 {
 MInstruction
@@ -64686,6 +64700,8 @@ slots
 sc
 .
 slot
+(
+)
 -
 shape
 -
@@ -64713,6 +64729,8 @@ obj
 sc
 .
 slot
+(
+)
 rval
 )
 ;
