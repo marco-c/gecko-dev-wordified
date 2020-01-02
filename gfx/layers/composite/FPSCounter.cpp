@@ -2741,6 +2741,7 @@ Filter
 :
 :
 POINT
+true
 )
 ;
 unsigned
