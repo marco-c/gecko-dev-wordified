@@ -964,13 +964,10 @@ be
 set
 to
 the
+caller
+'
+s
 compartment
-in
-which
-exceptions
-will
-be
-rethrown
 .
 CallSetup
 (
@@ -987,10 +984,6 @@ JSCompartment
 aCompartment
 =
 nullptr
-bool
-aIsJSImplementedWebIDL
-=
-false
 )
 ;
 ~
