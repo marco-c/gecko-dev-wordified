@@ -325,5 +325,12 @@ mPrivate
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
+/
+/
+MP4_DEMUXER_H_
