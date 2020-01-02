@@ -808,7 +808,7 @@ panel
 =
 ruleView
 .
-tooltip
+previewTooltip
 .
 panel
 ;
@@ -834,7 +834,7 @@ ok
 (
 ruleView
 .
-tooltip
+previewTooltip
 "
 Tooltip
 instance
@@ -895,7 +895,7 @@ assertTooltipShownOn
 (
 ruleView
 .
-tooltip
+previewTooltip
 valueSpan
 (
 )
@@ -959,7 +959,7 @@ fine
 ;
 ruleView
 .
-tooltip
+previewTooltip
 .
 hide
 (
@@ -1010,7 +1010,7 @@ panel
 =
 ruleView
 .
-tooltip
+previewTooltip
 .
 panel
 ;
@@ -1068,7 +1068,7 @@ assertTooltipShownOn
 (
 ruleView
 .
-tooltip
+previewTooltip
 uriSpan
 (
 )
@@ -1133,7 +1133,7 @@ png
 ;
 ruleView
 .
-tooltip
+previewTooltip
 .
 hide
 (
