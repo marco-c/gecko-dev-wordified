@@ -769,6 +769,11 @@ may
 be
 freed
 .
+template
+<
+AllowGC
+allowGC
+>
 static
 IonCode
 *
