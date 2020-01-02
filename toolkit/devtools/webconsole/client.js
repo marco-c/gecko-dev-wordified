@@ -247,6 +247,13 @@ traits
 {
 }
 ;
+this
+.
+events
+=
+[
+]
+;
 }
 exports
 .
@@ -2021,10 +2028,10 @@ received
 .
 *
 /
-close
+detach
 :
 function
-WCC_close
+WCC_detach
 (
 aOnResponse
 )

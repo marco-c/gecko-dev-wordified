@@ -8690,7 +8690,7 @@ this
 .
 _contextPool
 .
-remoteActor
+removeActor
 (
 this
 .
