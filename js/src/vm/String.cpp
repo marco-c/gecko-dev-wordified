@@ -6419,7 +6419,7 @@ js
 :
 EnableLatin1Strings
 =
-false
+true
 ;
 #
 ifdef
