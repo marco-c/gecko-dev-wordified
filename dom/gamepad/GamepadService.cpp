@@ -1157,7 +1157,7 @@ i
 ]
 -
 >
-IsCurrentInnerWindow
+GetOuterWindow
 (
 )
 |
@@ -1531,7 +1531,7 @@ i
 ]
 -
 >
-IsCurrentInnerWindow
+GetOuterWindow
 (
 )
 |
@@ -1882,7 +1882,7 @@ i
 ]
 -
 >
-IsCurrentInnerWindow
+GetOuterWindow
 (
 )
 |
@@ -2838,19 +2838,6 @@ constructor
 code
 *
 /
-nsRefPtr
-<
-GamepadService
->
-service
-=
-GamepadService
-:
-:
-GetService
-(
-)
-;
 }
 /
 *
