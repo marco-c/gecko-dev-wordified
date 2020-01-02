@@ -324,22 +324,6 @@ options
 .
 bin
 )
-        
-if
-'
-b2g
-'
-in
-exe
-:
-            
-options
-.
-app
-=
-'
-b2gdesktop
-'
     
 options
 .
