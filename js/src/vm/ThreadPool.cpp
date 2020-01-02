@@ -2182,6 +2182,9 @@ numWorkers
 )
 const
 {
+#
+ifdef
+JS_THREADSAFE
 /
 /
 Subtract
@@ -2203,6 +2206,13 @@ cpuCount
 -
 1
 ;
+#
+else
+return
+0
+;
+#
+endif
 }
 bool
 ThreadPool
