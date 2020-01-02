@@ -971,7 +971,7 @@ mAudioDecoder
 mPlatform
 -
 >
-CreateAudioDecoder
+CreateAACDecoder
 (
 mInfo
 .
@@ -1076,7 +1076,7 @@ mVideoDecoder
 mPlatform
 -
 >
-CreateVideoDecoder
+CreateH264Decoder
 (
 mLayersBackendType
 mDecoder

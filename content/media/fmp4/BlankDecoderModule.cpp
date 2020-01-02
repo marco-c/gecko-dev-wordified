@@ -1141,7 +1141,7 @@ thread
 virtual
 MediaDataDecoder
 *
-CreateVideoDecoder
+CreateH264Decoder
 (
 layers
 :
@@ -1186,7 +1186,7 @@ thread
 virtual
 MediaDataDecoder
 *
-CreateAudioDecoder
+CreateAACDecoder
 (
 uint32_t
 aChannelCount

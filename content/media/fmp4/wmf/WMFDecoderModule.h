@@ -215,7 +215,7 @@ thread
 virtual
 MediaDataDecoder
 *
-CreateVideoDecoder
+CreateH264Decoder
 (
 mozilla
 :
@@ -245,7 +245,7 @@ thread
 virtual
 MediaDataDecoder
 *
-CreateAudioDecoder
+CreateAACDecoder
 (
 uint32_t
 aChannelCount
