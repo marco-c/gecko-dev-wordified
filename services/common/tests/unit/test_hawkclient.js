@@ -2347,6 +2347,15 @@ method
 credentials
 )
 ;
+do_throw
+(
+"
+Expected
+an
+error
+"
+)
+;
 }
 catch
 (
