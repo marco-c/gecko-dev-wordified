@@ -9872,6 +9872,13 @@ v
 isUndefined
 (
 )
+|
+|
+v
+.
+isSymbol
+(
+)
 )
 ;
 *
