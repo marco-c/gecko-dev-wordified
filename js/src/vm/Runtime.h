@@ -6830,8 +6830,8 @@ testing
 .
 *
 /
-bool
-gcGenerationalEnabled
+unsigned
+gcGenerationalDisabled
 ;
 /
 *
