@@ -5603,6 +5603,10 @@ test_paths
 flavor
 =
 None
+test_objects
+=
+None
+            
 *
 *
 kwargs
@@ -5622,6 +5626,17 @@ testing
 import
 TestResolver
         
+if
+test_objects
+:
+            
+tests
+=
+test_objects
+        
+else
+:
+            
 resolver
 =
 self
@@ -5630,7 +5645,7 @@ _spawn
 (
 TestResolver
 )
-        
+            
 tests
 =
 list
@@ -5642,7 +5657,7 @@ resolve_tests
 paths
 =
 test_paths
-            
+                
 cwd
 =
 self
