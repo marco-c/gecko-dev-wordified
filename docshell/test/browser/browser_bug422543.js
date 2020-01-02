@@ -189,6 +189,14 @@ this
 retval
 ;
 }
+OnHistoryReplaceEntry
+:
+function
+(
+aIndex
+)
+{
+}
 QueryInterface
 :
 XPCOMUtils

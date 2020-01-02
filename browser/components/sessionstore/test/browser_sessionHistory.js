@@ -1929,14 +1929,10 @@ See
 Bug
 967028
 .
-/
-/
 browser
 .
 messageManager
 .
-/
-/
 sendAsyncMessage
 (
 "
@@ -1958,8 +1954,6 @@ entry2
 }
 )
 ;
-/
-/
 yield
 promiseContentMessage
 (
@@ -1975,8 +1969,6 @@ historyReplaceState
 ;
 /
 /
-/
-/
 Check
 that
 we
@@ -1986,8 +1978,6 @@ the
 history
 entry
 .
-/
-/
 SyncHandlers
 .
 get
@@ -1999,8 +1989,6 @@ flush
 (
 )
 ;
-/
-/
 let
 {
 entries
@@ -2018,8 +2006,6 @@ tab
 )
 )
 ;
-/
-/
 is
 (
 entries
@@ -2036,8 +2022,6 @@ entries
 "
 )
 ;
-/
-/
 is
 (
 entries

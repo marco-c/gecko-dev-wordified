@@ -2729,6 +2729,14 @@ return
 true
 ;
 }
+OnHistoryReplaceEntry
+:
+function
+(
+index
+)
+{
+}
 OnHistoryReload
 :
 function
