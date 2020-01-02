@@ -109,6 +109,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+Point
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -360,6 +371,13 @@ any
 struct
 SVGPathTraversalState
 {
+typedef
+gfx
+:
+:
+Point
+Point
+;
 enum
 TraversalMode
 {
@@ -431,7 +449,7 @@ mode
 eUpdateAll
 ;
 }
-gfxPoint
+Point
 start
 ;
 /
@@ -447,7 +465,7 @@ reset
 each
 moveto
 )
-gfxPoint
+Point
 pos
 ;
 /
@@ -461,7 +479,7 @@ of
 previous
 segment
 )
-gfxPoint
+Point
 cp1
 ;
 /
@@ -500,7 +518,7 @@ its
 set
 to
 pos
-gfxPoint
+Point
 cp2
 ;
 /
