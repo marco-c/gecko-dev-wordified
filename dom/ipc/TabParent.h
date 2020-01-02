@@ -2274,7 +2274,7 @@ be
 /
 null
 .
-void
+nsEventStatus
 MaybeForwardEventToRenderFrame
 (
 WidgetInputEvent

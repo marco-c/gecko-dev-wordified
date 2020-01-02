@@ -3588,6 +3588,9 @@ return
 false
 ;
 }
+nsEventStatus
+status
+=
 MaybeForwardEventToRenderFrame
 (
 event
@@ -3596,6 +3599,12 @@ nullptr
 ;
 if
 (
+status
+=
+=
+nsEventStatus_eConsumeNoDefault
+|
+|
 !
 MapEventCoordinatesForChildProcess
 (
@@ -3908,6 +3917,9 @@ return
 false
 ;
 }
+nsEventStatus
+status
+=
 MaybeForwardEventToRenderFrame
 (
 event
@@ -3916,6 +3928,12 @@ nullptr
 ;
 if
 (
+status
+=
+=
+nsEventStatus_eConsumeNoDefault
+|
+|
 !
 MapEventCoordinatesForChildProcess
 (
@@ -4614,6 +4632,9 @@ i
 ScrollableLayerGuid
 guid
 ;
+nsEventStatus
+status
+=
 MaybeForwardEventToRenderFrame
 (
 event
@@ -4623,6 +4644,12 @@ guid
 ;
 if
 (
+status
+=
+=
+nsEventStatus_eConsumeNoDefault
+|
+|
 mIsDestroyed
 )
 {
@@ -9788,7 +9815,7 @@ ASYNC_PAN_ZOOM
 )
 ;
 }
-void
+nsEventStatus
 TabParent
 :
 :
@@ -9813,6 +9840,7 @@ GetRenderFrame
 )
 )
 {
+return
 rfp
 -
 >
@@ -9823,6 +9851,9 @@ aOutTargetGuid
 )
 ;
 }
+return
+nsEventStatus_eIgnore
+;
 }
 bool
 TabParent

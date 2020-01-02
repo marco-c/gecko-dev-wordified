@@ -631,7 +631,7 @@ null
 .
 *
 /
-void
+nsEventStatus
 NotifyInputEvent
 (
 WidgetInputEvent
