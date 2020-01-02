@@ -810,6 +810,7 @@ ActivityUtils
 linkifyTextView
 (
 textView
+false
 )
 ;
 }
