@@ -239,6 +239,16 @@ aCallback
 )
 MOZ_OVERRIDE
 ;
+bool
+SupportsAudioMimeType
+(
+const
+char
+*
+aMimeType
+)
+MOZ_OVERRIDE
+;
 /
 /
 Called
