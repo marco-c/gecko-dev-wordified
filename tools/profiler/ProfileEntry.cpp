@@ -342,7 +342,7 @@ ProfileEntry
 (
 char
 aTagName
-double
+float
 aTagFloat
 )
 :
