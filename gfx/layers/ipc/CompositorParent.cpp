@@ -4247,13 +4247,6 @@ aPaintSequenceNumber
 )
 ;
 }
-MOZ_ASSERT
-(
-aTransactionId
->
-mPendingTransaction
-)
-;
 mPendingTransaction
 =
 aTransactionId
