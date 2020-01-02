@@ -1969,6 +1969,17 @@ ion
 -
 eager
 '
+'
+-
+-
+ion
+-
+parallel
+-
+compile
+=
+off
+'
 ]
 ]
         
