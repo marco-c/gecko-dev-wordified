@@ -766,7 +766,9 @@ null
 )
 {
 final
-String
+TelemetryContract
+.
+Method
 method
 ;
 if
