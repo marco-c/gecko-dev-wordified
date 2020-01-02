@@ -2022,6 +2022,16 @@ aIndex
 eCSSProperty_COUNT
 )
 ;
+uint32_t
+variableIndex
+=
+mOrder
+[
+aIndex
+]
+-
+eCSSProperty_COUNT
+;
 aResult
 .
 Truncate
@@ -2044,7 +2054,7 @@ Append
 (
 mVariableOrder
 [
-aIndex
+variableIndex
 ]
 )
 ;
