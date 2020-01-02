@@ -439,8 +439,6 @@ t
 exist
 .
 return
-Time
-(
 (
 tt
 *
@@ -448,7 +446,6 @@ kMicrosecondsPerSecond
 )
 +
 kTimeTToMicrosecondsOffset
-)
 ;
 }
 time_t
@@ -508,8 +505,6 @@ dt
 )
 {
 return
-Time
-(
 (
 dt
 *
@@ -523,7 +518,6 @@ kMicrosecondsPerSecond
 )
 +
 kTimeTToMicrosecondsOffset
-)
 ;
 }
 double

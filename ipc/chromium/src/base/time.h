@@ -2190,14 +2190,11 @@ delta
 const
 {
 return
-Time
-(
 us_
 +
 delta
 .
 delta_
-)
 ;
 }
 Time
@@ -2210,14 +2207,11 @@ delta
 const
 {
 return
-Time
-(
 us_
 -
 delta
 .
 delta_
-)
 ;
 }
 /
@@ -2416,7 +2410,6 @@ Exploded
 exploded
 )
 ;
-explicit
 Time
 (
 int64_t

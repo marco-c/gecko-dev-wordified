@@ -1044,7 +1044,6 @@ only
 for
 test
 purpose
-explicit
 ThreadCollisionWarner
 (
 AsserterBase
