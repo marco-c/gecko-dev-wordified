@@ -2518,14 +2518,11 @@ EventTarget
 >
 target
 =
-do_QueryInterface
-(
 win
 -
 >
 GetFrameElementInternal
 (
-)
 )
 ;
 mPrt

@@ -693,14 +693,11 @@ window
 {
 mContent
 =
-do_QueryInterface
-(
 window
 -
 >
 GetFrameElementInternal
 (
-)
 )
 ;
 }

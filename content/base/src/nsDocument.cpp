@@ -39111,14 +39111,11 @@ nsINode
 >
 node
 =
-do_QueryInterface
-(
 win
 -
 >
 GetFrameElementInternal
 (
-)
 )
 ;
 if
