@@ -6025,6 +6025,7 @@ return
 aheader
 ;
 }
+inline
 void
 GCRuntime
 :
