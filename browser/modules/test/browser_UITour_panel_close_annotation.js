@@ -1211,6 +1211,12 @@ open
 "
 )
 ;
+PanelUI
+.
+hide
+(
+)
+;
 done
 (
 )
