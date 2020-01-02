@@ -193,6 +193,11 @@ EstablishDBusConnection
 (
 )
 ;
+bool
+Watch
+(
+)
+;
 DBusConnection
 *
 GetConnection
