@@ -794,13 +794,20 @@ scrollableRect
 =
 mScrollableRect
 ;
+CSSRect
+compBounds
+=
+CalculateCompositedRectInCssPixels
+(
+)
+;
 if
 (
 scrollableRect
 .
 width
 <
-mCompositionBounds
+compBounds
 .
 width
 )
@@ -822,7 +829,7 @@ scrollableRect
 x
 -
 (
-mCompositionBounds
+compBounds
 .
 width
 -
@@ -836,7 +843,7 @@ scrollableRect
 .
 width
 =
-mCompositionBounds
+compBounds
 .
 width
 ;
@@ -847,7 +854,7 @@ scrollableRect
 .
 height
 <
-mCompositionBounds
+compBounds
 .
 height
 )
@@ -869,7 +876,7 @@ scrollableRect
 y
 -
 (
-mCompositionBounds
+compBounds
 .
 height
 -
@@ -883,7 +890,7 @@ scrollableRect
 .
 height
 =
-mCompositionBounds
+compBounds
 .
 height
 ;
