@@ -1995,13 +1995,9 @@ fluid
 swipe
 tracking
 .
-void
-(
-^
+BOOL
+*
 mCancelSwipeAnimation
-)
-(
-)
 ;
 #
 endif
