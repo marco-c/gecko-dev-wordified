@@ -92,6 +92,13 @@ MPL
 /
 #
 include
+<
+initguid
+.
+h
+>
+#
+include
 "
 DrawTargetD2D
 .
