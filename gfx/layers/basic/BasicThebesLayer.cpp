@@ -389,9 +389,6 @@ gfx2DGlue
 .
 h
 "
-struct
-gfxMatrix
-;
 using
 namespace
 mozilla

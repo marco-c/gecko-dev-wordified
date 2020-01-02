@@ -463,10 +463,7 @@ PrepareViewport
 mInitParams
 .
 mSize
-ToMatrix
-(
 mTransform
-)
 )
 ;
 }
@@ -687,10 +684,7 @@ PrepareViewport
 mInitParams
 .
 mSize
-ToMatrix
-(
 mTransform
-)
 )
 ;
 mGL

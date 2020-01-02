@@ -238,17 +238,6 @@ nsIntRect
 #
 include
 "
-gfxMatrix
-.
-h
-"
-/
-/
-for
-gfxMatrix
-#
-include
-"
 nsRegion
 .
 h
