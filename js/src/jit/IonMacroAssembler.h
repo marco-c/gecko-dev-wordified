@@ -5022,7 +5022,7 @@ fail
 )
 ;
 void
-newGCShortString
+newGCFatInlineString
 (
 Register
 result
@@ -5090,7 +5090,7 @@ fail
 )
 ;
 void
-newGCShortStringPar
+newGCFatInlineStringPar
 (
 Register
 result

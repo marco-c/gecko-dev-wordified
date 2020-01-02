@@ -167,7 +167,7 @@ static
 MOZ_ALWAYS_INLINE
 JSInlineString
 *
-NewShortString
+NewFatInlineString
 (
 ThreadSafeContext
 *
@@ -190,7 +190,7 @@ length
 ;
 JS_ASSERT
 (
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -222,7 +222,7 @@ allowGC
 cx
 )
 :
-JSShortString
+JSFatInlineString
 :
 :
 new_
@@ -307,7 +307,7 @@ static
 MOZ_ALWAYS_INLINE
 JSInlineString
 *
-NewShortString
+NewFatInlineString
 (
 ExclusiveContext
 *
@@ -363,7 +363,7 @@ them
 /
 JS_ASSERT
 (
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -395,7 +395,7 @@ allowGC
 cx
 )
 :
-JSShortString
+JSFatInlineString
 :
 :
 new_
@@ -1099,7 +1099,7 @@ here
 /
 if
 (
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -1111,7 +1111,7 @@ return
 js
 :
 :
-NewShortString
+NewFatInlineString
 <
 js
 :
@@ -1550,12 +1550,12 @@ length
 |
 |
 (
-isShort
+isFatInline
 (
 )
 &
 &
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -1601,12 +1601,12 @@ length
 |
 |
 (
-isShort
+isFatInline
 (
 )
 &
 &
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -1626,9 +1626,9 @@ AllowGC
 allowGC
 >
 MOZ_ALWAYS_INLINE
-JSShortString
+JSFatInlineString
 *
-JSShortString
+JSFatInlineString
 :
 :
 new_
@@ -1642,7 +1642,7 @@ cx
 )
 {
 return
-js_NewGCShortString
+js_NewGCFatInlineString
 <
 allowGC
 >
@@ -1972,7 +1972,8 @@ fop
 {
 /
 *
-Shorts
+FatInline
+strings
 are
 in
 a
@@ -1994,7 +1995,7 @@ js
 gc
 :
 :
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 )
 ;
 if
@@ -2054,7 +2055,7 @@ js
 gc
 :
 :
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 )
 ;
 if
@@ -2088,7 +2089,7 @@ chars
 }
 inline
 void
-JSShortString
+JSFatInlineString
 :
 :
 finalize
@@ -2114,7 +2115,7 @@ js
 gc
 :
 :
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 )
 ;
 if

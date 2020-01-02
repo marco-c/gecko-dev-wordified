@@ -6809,7 +6809,7 @@ if
 str
 -
 >
-isShort
+isFatInline
 (
 )
 )
@@ -6821,7 +6821,7 @@ kind
 gc
 :
 :
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 )
 ;
 else
@@ -6880,7 +6880,7 @@ kind
 gc
 :
 :
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 )
 ;
 else

@@ -355,10 +355,10 @@ nullptr
 ;
 JS_STATIC_ASSERT
 (
-JSShortString
+JSFatInlineString
 :
 :
-MAX_SHORT_LENGTH
+MAX_FAT_INLINE_LENGTH
 <
 CharBuffer
 :
@@ -368,7 +368,7 @@ InlineLength
 ;
 if
 (
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -377,7 +377,7 @@ length
 )
 )
 return
-NewShortString
+NewFatInlineString
 <
 CanGC
 >
