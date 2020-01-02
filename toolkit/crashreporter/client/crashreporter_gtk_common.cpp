@@ -572,7 +572,7 @@ gpointer
 success
 )
 {
-gtk_widget_hide_all
+gtk_widget_hide
 (
 gThrobber
 )
