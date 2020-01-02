@@ -619,11 +619,7 @@ SourceSurface
 aSurface
 )
 const
-{
-return
-nullptr
 ;
-}
 virtual
 TemporaryRef
 <
