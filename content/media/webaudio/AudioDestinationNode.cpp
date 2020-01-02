@@ -2972,10 +2972,6 @@ Now
 (
 )
 ;
-mExtraCurrentTimeSinceLastStartedBlocking
-=
-0
-;
 /
 /
 Don
@@ -3019,6 +3015,10 @@ mExtraCurrentTime
 +
 =
 mExtraCurrentTimeSinceLastStartedBlocking
+;
+mExtraCurrentTimeSinceLastStartedBlocking
+=
+0
 ;
 mStream
 -
