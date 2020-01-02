@@ -2394,7 +2394,7 @@ Context
 >
 IsExtensionEnabled
 (
-WebGLContext
+WebGLExtensionID
 :
 :
 OES_texture_float_linear
@@ -2560,7 +2560,7 @@ Context
 >
 IsExtensionEnabled
 (
-WebGLContext
+WebGLExtensionID
 :
 :
 OES_texture_half_float_linear

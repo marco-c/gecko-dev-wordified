@@ -1410,6 +1410,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 ANGLE_instanced_arrays
 )
 )

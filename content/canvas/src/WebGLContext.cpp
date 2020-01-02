@@ -419,6 +419,15 @@ h
 #
 include
 "
+mozilla
+/
+EnumeratedArrayCycleCollection
+.
+h
+"
+#
+include
+"
 Layers
 .
 h
@@ -1469,7 +1478,10 @@ i
 <
 size_t
 (
-WebGLExtensionID_max
+WebGLExtensionID
+:
+:
+Max
 )
 ;
 +
@@ -1498,6 +1510,9 @@ extension
 extension
 =
 =
+WebGLExtensionID
+:
+:
 WEBGL_lose_context
 )
 )
@@ -5837,6 +5852,9 @@ drawBuffersIsEnabled
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_draw_buffers
 )
 ;

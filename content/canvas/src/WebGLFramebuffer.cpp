@@ -4348,7 +4348,7 @@ mContext
 >
 IsExtensionEnabled
 (
-WebGLContext
+WebGLExtensionID
 :
 :
 WEBGL_draw_buffers

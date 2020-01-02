@@ -1761,6 +1761,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 EXT_sRGB
 )
 )
@@ -1790,6 +1793,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_compressed_texture_atc
 )
 )
@@ -1827,6 +1833,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_compressed_texture_etc1
 )
 )
@@ -1846,6 +1855,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_compressed_texture_pvrtc
 )
 )
@@ -1891,6 +1903,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_compressed_texture_s3tc
 )
 )
@@ -1934,6 +1949,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_depth_texture
 )
 )
@@ -2992,6 +3010,9 @@ validFormat
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_depth_texture
 )
 ;
@@ -3055,6 +3076,9 @@ validFormat
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 EXT_sRGB
 )
 ;
@@ -3124,6 +3148,9 @@ validFormat
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_compressed_texture_atc
 )
 ;
@@ -3177,6 +3204,9 @@ validFormat
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_compressed_texture_etc1
 )
 ;
@@ -3245,6 +3275,9 @@ validFormat
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_compressed_texture_pvrtc
 )
 ;
@@ -3313,6 +3346,9 @@ validFormat
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_compressed_texture_s3tc
 )
 ;
@@ -3550,6 +3586,9 @@ validType
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 OES_texture_float
 )
 ;
@@ -3607,6 +3646,9 @@ validType
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 OES_texture_half_float
 )
 ;
@@ -3676,6 +3718,9 @@ validType
 =
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_depth_texture
 )
 ;

@@ -589,6 +589,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_draw_buffers
 )
 )
@@ -734,6 +737,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 OES_vertex_array_object
 )
 )
@@ -944,6 +950,9 @@ if
 !
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 WEBGL_debug_renderer_info
 )
 )
@@ -1232,6 +1241,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 OES_standard_derivatives
 )
 )
@@ -1579,6 +1591,9 @@ if
 (
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 EXT_texture_filter_anisotropic
 )
 )
