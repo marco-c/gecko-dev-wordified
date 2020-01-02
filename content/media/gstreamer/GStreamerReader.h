@@ -416,11 +416,6 @@ guint
 aLength
 )
 ;
-int64_t
-QueryDuration
-(
-)
-;
 nsRefPtr
 <
 layers
