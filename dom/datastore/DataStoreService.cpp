@@ -793,7 +793,7 @@ occurred
 aPromise
 -
 >
-MaybeRejectBrokenly
+MaybeReject
 (
 error
 )
