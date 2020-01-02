@@ -569,6 +569,9 @@ sdk
 :
 {
 }
+pendingCallTimeout
+:
+1000
 }
 )
 ;
@@ -1761,6 +1764,9 @@ sdk
 :
 {
 }
+pendingCallTimeout
+:
+1000
 }
 )
 ;

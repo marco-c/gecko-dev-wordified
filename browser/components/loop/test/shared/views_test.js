@@ -1314,6 +1314,9 @@ fakeSessionData
 sdk
 :
 fakeSDK
+pendingCallTimeout
+:
+1000
 }
 )
 ;
