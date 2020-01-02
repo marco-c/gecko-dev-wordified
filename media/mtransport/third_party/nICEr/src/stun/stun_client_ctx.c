@@ -1651,6 +1651,8 @@ s
 )
 :
 Sending
+check
+request
 (
 my_addr
 =
@@ -2678,6 +2680,8 @@ s
 )
 :
 Received
+check
+response
 (
 my_addr
 =
@@ -3170,7 +3174,7 @@ s
 :
 error
 decoding
-message
+response
 "
 ctx
 -
@@ -3246,7 +3250,7 @@ s
 :
 error
 receiving
-message
+response
 "
 ctx
 -
@@ -3275,7 +3279,7 @@ s
 :
 successfully
 received
-message
+response
 ;
 processing
 "
