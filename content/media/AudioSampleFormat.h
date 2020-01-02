@@ -217,6 +217,16 @@ samples
 AUDIO_FORMAT_FLOAT32
 /
 /
+Silence
+:
+format
+will
+be
+chosen
+later
+AUDIO_FORMAT_SILENCE
+/
+/
 The
 format
 used
