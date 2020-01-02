@@ -2471,6 +2471,8 @@ JSContext
 cx
 MutableHandleSavedFrame
 frame
+unsigned
+maxFrameCount
 )
 {
 JS_ASSERT
@@ -2511,6 +2513,7 @@ insertFrames
 cx
 iter
 frame
+maxFrameCount
 )
 ;
 }
@@ -2907,6 +2910,8 @@ ScriptFrameIter
 iter
 MutableHandleSavedFrame
 frame
+unsigned
+maxFrameCount
 )
 {
 if
