@@ -1403,7 +1403,10 @@ i
 +
 aBufferOffset
 ;
-speex_resampler_process_float
+WebAudioUtils
+:
+:
+SpeexResamplerProcess
 (
 resampler
 i
