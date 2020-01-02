@@ -24065,7 +24065,9 @@ NumTypeSets
 this
 )
 ;
-types
+TypeScript
+*
+typeScript
 =
 (
 TypeScript
@@ -24094,7 +24096,7 @@ count
 if
 (
 !
-types
+typeScript
 )
 {
 cx
@@ -24118,7 +24120,7 @@ false
 }
 new
 (
-types
+typeScript
 )
 TypeScript
 (
@@ -24128,7 +24130,7 @@ TypeSet
 *
 typeArray
 =
-types
+typeScript
 -
 >
 typeArray
@@ -24162,6 +24164,18 @@ StackTypeSet
 (
 )
 ;
+{
+AutoLockForCompilation
+lock
+(
+cx
+)
+;
+types
+=
+typeScript
+;
+}
 #
 ifdef
 DEBUG
@@ -24182,6 +24196,7 @@ i
 +
 +
 )
+{
 InferSpew
 (
 ISpewOps
@@ -24223,6 +24238,7 @@ id
 )
 )
 ;
+}
 TypeSet
 *
 thisTypes
