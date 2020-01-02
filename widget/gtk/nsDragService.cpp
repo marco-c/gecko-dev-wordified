@@ -10083,7 +10083,7 @@ surface
 dragRect
 .
 width
-dragrect
+dragRect
 .
 height
 )
