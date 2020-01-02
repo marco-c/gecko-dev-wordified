@@ -1278,6 +1278,13 @@ mHost
 mHost
 -
 >
+OnActorDestroy
+(
+)
+;
+mHost
+-
+>
 Detach
 (
 )
