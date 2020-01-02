@@ -279,7 +279,7 @@ h
 #
 include
 "
-nsISupportsImpl
+nsTraceRefcnt
 .
 h
 "
@@ -329,6 +329,13 @@ h
 include
 "
 nsHtml5Macros
+.
+h
+"
+#
+include
+"
+nsIContentHandle
 .
 h
 "

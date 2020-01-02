@@ -282,7 +282,7 @@ h
 #
 include
 "
-nsISupportsImpl
+nsTraceRefcnt
 .
 h
 "
@@ -335,6 +335,13 @@ nsHtml5Macros
 .
 h
 "
+#
+include
+"
+nsIContentHandle
+.
+h
+"
 class
 nsHtml5StreamParser
 ;
@@ -384,8 +391,7 @@ popName
 int32_t
 ns
 ;
-nsIContent
-*
+nsIContentHandle
 *
 node
 ;
@@ -444,8 +450,7 @@ ns
 nsIAtom
 *
 name
-nsIContent
-*
+nsIContentHandle
 *
 node
 nsIAtom
@@ -461,8 +466,7 @@ nsHtml5StackNode
 nsHtml5ElementName
 *
 elementName
-nsIContent
-*
+nsIContentHandle
 *
 node
 )
@@ -472,8 +476,7 @@ nsHtml5StackNode
 nsHtml5ElementName
 *
 elementName
-nsIContent
-*
+nsIContentHandle
 *
 node
 nsHtml5HtmlAttributes
@@ -486,8 +489,7 @@ nsHtml5StackNode
 nsHtml5ElementName
 *
 elementName
-nsIContent
-*
+nsIContentHandle
 *
 node
 nsIAtom
@@ -503,8 +505,7 @@ elementName
 nsIAtom
 *
 popName
-nsIContent
-*
+nsIContentHandle
 *
 node
 )
@@ -514,8 +515,7 @@ nsHtml5StackNode
 nsHtml5ElementName
 *
 elementName
-nsIContent
-*
+nsIContentHandle
 *
 node
 nsIAtom
