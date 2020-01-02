@@ -1279,6 +1279,10 @@ pool
 >
 data
 =
+(
+char
+*
+)
 XPT_MALLOC
 (
 arena
@@ -1714,6 +1718,10 @@ at_least
 }
 newdata
 =
+(
+char
+*
+)
 XPT_MALLOC
 (
 arena
@@ -2085,6 +2093,10 @@ str
 >
 bytes
 =
+(
+char
+*
+)
 XPT_MALLOC
 (
 arena
@@ -2299,6 +2311,10 @@ str
 >
 bytes
 =
+(
+char
+*
+)
 XPT_MALLOC
 (
 arena
@@ -2636,6 +2652,10 @@ len
 ;
 ident
 =
+(
+char
+*
+)
 XPT_MALLOC
 (
 arena

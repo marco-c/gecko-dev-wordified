@@ -757,6 +757,10 @@ XPTArena
 *
 arena
 =
+(
+XPTArena
+*
+)
 calloc
 (
 1
@@ -1449,6 +1453,10 @@ s
 ;
 cur
 =
+(
+char
+*
+)
 XPT_ArenaMalloc
 (
 arena
