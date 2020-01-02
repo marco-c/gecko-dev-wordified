@@ -223,6 +223,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -260,6 +261,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -275,6 +277,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -283,6 +286,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -314,6 +318,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -345,6 +350,7 @@ Cursor
 &
 aCursor
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -358,6 +364,7 @@ aOn
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -371,6 +378,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 }
 ;

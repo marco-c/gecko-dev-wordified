@@ -312,6 +312,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -321,6 +322,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -340,6 +342,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -355,6 +358,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -391,6 +395,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -399,6 +404,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -408,6 +414,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsObjectFrameSuper
@@ -432,6 +439,7 @@ bool
 NeedsView
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -449,6 +457,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -460,6 +469,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -469,6 +479,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 NS_METHOD
 GetPluginInstance
@@ -504,6 +515,7 @@ Cursor
 &
 aCursor
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1284,6 +1296,7 @@ aWithMouse
 =
 false
 )
+MOZ_OVERRIDE
 ;
 /
 /
