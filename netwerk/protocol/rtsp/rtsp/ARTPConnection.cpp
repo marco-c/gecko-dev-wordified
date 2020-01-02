@@ -1645,7 +1645,7 @@ RTCP
 socket
 pairs
 .
-int
+uint32_t
 numSocketsToPoll
 =
 0
