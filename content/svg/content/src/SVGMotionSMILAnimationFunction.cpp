@@ -1657,9 +1657,10 @@ attr
 SVGPathData
 path
 ;
-nsSVGPathDataParserToInternal
+nsSVGPathDataParser
 pathParser
 (
+pathSpec
 &
 path
 )
@@ -1737,7 +1738,6 @@ pathParser
 .
 Parse
 (
-pathSpec
 )
 ;
 if

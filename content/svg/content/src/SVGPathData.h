@@ -182,7 +182,7 @@ class
 gfxPath
 ;
 class
-nsSVGPathDataParserToInternal
+nsSVGPathDataParser
 ;
 /
 /
@@ -764,11 +764,11 @@ friend
 class
 :
 :
-nsSVGPathDataParserToInternal
+nsSVGPathDataParser
 ;
 /
 /
-nsSVGPathDataParserToInternal
+nsSVGPathDataParser
 will
 not
 keep
