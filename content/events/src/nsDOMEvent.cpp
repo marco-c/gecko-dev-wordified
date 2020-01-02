@@ -3591,13 +3591,11 @@ WidgetSimpleGestureEvent
 *
 oldSimpleGestureEvent
 =
-static_cast
-<
-WidgetSimpleGestureEvent
-*
->
-(
 mEvent
+-
+>
+AsSimpleGestureEvent
+(
 )
 ;
 WidgetSimpleGestureEvent
