@@ -641,7 +641,7 @@ void
 nsFirstLetterFrame
 :
 :
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
@@ -649,12 +649,12 @@ aRenderingContext
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )
 {
-DoInlineIntrinsicWidth
+DoInlineIntrinsicISize
 (
 aRenderingContext
 aData
@@ -703,7 +703,7 @@ void
 nsFirstLetterFrame
 :
 :
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 nsRenderingContext
 *
@@ -711,12 +711,12 @@ aRenderingContext
 nsIFrame
 :
 :
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 )
 {
-DoInlineIntrinsicWidth
+DoInlineIntrinsicISize
 (
 aRenderingContext
 aData
@@ -757,7 +757,7 @@ return
 nsLayoutUtils
 :
 :
-MinWidthFromInline
+MinISizeFromInline
 (
 this
 aRenderingContext
@@ -794,7 +794,7 @@ return
 nsLayoutUtils
 :
 :
-PrefWidthFromInline
+PrefISizeFromInline
 (
 this
 aRenderingContext

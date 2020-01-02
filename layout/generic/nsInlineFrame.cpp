@@ -1413,7 +1413,7 @@ void
 nsInlineFrame
 :
 :
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
@@ -1421,12 +1421,12 @@ aRenderingContext
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )
 {
-DoInlineIntrinsicWidth
+DoInlineIntrinsicISize
 (
 aRenderingContext
 aData
@@ -1446,7 +1446,7 @@ void
 nsInlineFrame
 :
 :
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 nsRenderingContext
 *
@@ -1454,12 +1454,12 @@ aRenderingContext
 nsIFrame
 :
 :
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 )
 {
-DoInlineIntrinsicWidth
+DoInlineIntrinsicISize
 (
 aRenderingContext
 aData

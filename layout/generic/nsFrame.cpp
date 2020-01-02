@@ -25193,7 +25193,7 @@ void
 nsFrame
 :
 :
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
@@ -25201,7 +25201,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )
@@ -25335,7 +25335,7 @@ void
 nsFrame
 :
 :
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 nsRenderingContext
 *
@@ -25343,7 +25343,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 )
@@ -25397,7 +25397,7 @@ void
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 :
 :
 ForceBreak
@@ -25495,7 +25495,7 @@ void
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 :
 :
 OptionallyBreak
@@ -25607,7 +25607,7 @@ void
 nsIFrame
 :
 :
-InlinePrefWidthData
+InlinePrefISizeData
 :
 :
 ForceBreak

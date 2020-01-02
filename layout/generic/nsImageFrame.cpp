@@ -13024,7 +13024,7 @@ void
 nsImageFrame
 :
 :
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
@@ -13032,7 +13032,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )

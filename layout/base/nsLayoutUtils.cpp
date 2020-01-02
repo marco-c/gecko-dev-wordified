@@ -29013,7 +29013,7 @@ nscoord
 nsLayoutUtils
 :
 :
-MinWidthFromInline
+MinISizeFromInline
 (
 nsIFrame
 *
@@ -29047,7 +29047,7 @@ inflation
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 data
 ;
 DISPLAY_MIN_WIDTH
@@ -29061,7 +29061,7 @@ prevLines
 aFrame
 -
 >
-AddInlineMinWidth
+AddInlineMinISize
 (
 aRenderingContext
 &
@@ -29090,7 +29090,7 @@ nscoord
 nsLayoutUtils
 :
 :
-PrefWidthFromInline
+PrefISizeFromInline
 (
 nsIFrame
 *
@@ -29124,7 +29124,7 @@ inflation
 nsIFrame
 :
 :
-InlinePrefWidthData
+InlinePrefISizeData
 data
 ;
 DISPLAY_PREF_WIDTH
@@ -29138,7 +29138,7 @@ prevLines
 aFrame
 -
 >
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 aRenderingContext
 &

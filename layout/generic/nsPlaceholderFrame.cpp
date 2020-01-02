@@ -324,7 +324,7 @@ void
 nsPlaceholderFrame
 :
 :
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
@@ -332,7 +332,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )
@@ -439,7 +439,7 @@ floats
 .
 AppendElement
 (
-InlineIntrinsicWidthData
+InlineIntrinsicISizeData
 :
 :
 FloatInfo
@@ -460,7 +460,7 @@ void
 nsPlaceholderFrame
 :
 :
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 nsRenderingContext
 *
@@ -468,7 +468,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 )
@@ -575,7 +575,7 @@ floats
 .
 AppendElement
 (
-InlineIntrinsicWidthData
+InlineIntrinsicISizeData
 :
 :
 FloatInfo

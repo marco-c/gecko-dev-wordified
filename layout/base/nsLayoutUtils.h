@@ -8700,10 +8700,10 @@ of
 nsIFrame
 :
 :
-AddInlinePrefWidth
+AddInlinePrefISize
 static
 nscoord
-PrefWidthFromInline
+PrefISizeFromInline
 (
 nsIFrame
 *
@@ -8726,10 +8726,10 @@ of
 nsIFrame
 :
 :
-AddInlineMinWidth
+AddInlineMinISize
 static
 nscoord
-MinWidthFromInline
+MinISizeFromInline
 (
 nsIFrame
 *

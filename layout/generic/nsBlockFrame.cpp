@@ -4199,7 +4199,7 @@ ResolveBidi
 (
 )
 ;
-InlineMinWidthData
+InlineMinISizeData
 data
 ;
 for
@@ -4536,7 +4536,7 @@ GetNextSibling
 kid
 -
 >
-AddInlineMinWidth
+AddInlineMinISize
 (
 aRenderingContext
 &
@@ -4752,7 +4752,7 @@ ResolveBidi
 (
 )
 ;
-InlinePrefWidthData
+InlinePrefISizeData
 data
 ;
 for
@@ -5089,7 +5089,7 @@ GetNextSibling
 kid
 -
 >
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 aRenderingContext
 &
@@ -5264,7 +5264,7 @@ aXMost
 nsresult
 rv
 ;
-InlinePrefWidthData
+InlinePrefISizeData
 data
 ;
 for
@@ -5618,7 +5618,7 @@ childXMost
 kid
 -
 >
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 aRenderingContext
 &

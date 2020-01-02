@@ -26218,12 +26218,12 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
 aRenderingContext
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )
@@ -26231,12 +26231,12 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 nsRenderingContext
 *
 aRenderingContext
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 )
@@ -27461,7 +27461,7 @@ return
 nsLayoutUtils
 :
 :
-MinWidthFromInline
+MinISizeFromInline
 (
 this
 aRenderingContext
@@ -27497,7 +27497,7 @@ return
 nsLayoutUtils
 :
 :
-PrefWidthFromInline
+PrefISizeFromInline
 (
 this
 aRenderingContext
@@ -27513,12 +27513,12 @@ void
 nsContinuingTextFrame
 :
 :
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
 aRenderingContext
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )
@@ -27550,12 +27550,12 @@ void
 nsContinuingTextFrame
 :
 :
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 nsRenderingContext
 *
 aRenderingContext
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 )
@@ -45277,7 +45277,7 @@ aProvider
 nsIFrame
 :
 :
-InlineIntrinsicWidthData
+InlineIntrinsicISizeData
 *
 aData
 const
@@ -45551,7 +45551,7 @@ void
 nsTextFrame
 :
 :
-AddInlineMinWidthForFlow
+AddInlineMinISizeForFlow
 (
 nsRenderingContext
 *
@@ -45559,7 +45559,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 TextRunType
@@ -46500,7 +46500,7 @@ void
 nsTextFrame
 :
 :
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
@@ -46508,7 +46508,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )
@@ -46607,7 +46607,7 @@ nsContinuingTextFrame
 does
 nothing
 for
-AddInlineMinWidth
+AddInlineMinISize
 ;
 all
 text
@@ -46749,7 +46749,7 @@ f
 this
 "
 wrong
-InlineMinWidthData
+InlineMinISizeData
 container
 "
 "
@@ -46794,7 +46794,7 @@ f
 f
 -
 >
-AddInlineMinWidthForFlow
+AddInlineMinISizeForFlow
 (
 aRenderingContext
 aData
@@ -46847,7 +46847,7 @@ void
 nsTextFrame
 :
 :
-AddInlinePrefWidthForFlow
+AddInlinePrefISizeForFlow
 (
 nsRenderingContext
 *
@@ -46855,7 +46855,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 TextRunType
@@ -47545,7 +47545,7 @@ void
 nsTextFrame
 :
 :
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 nsRenderingContext
 *
@@ -47553,7 +47553,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 )
@@ -47652,7 +47652,7 @@ nsContinuingTextFrame
 does
 nothing
 for
-AddInlineMinWidth
+AddInlineMinISize
 ;
 all
 text
@@ -47794,7 +47794,7 @@ f
 this
 "
 wrong
-InlinePrefWidthData
+InlinePrefISizeData
 container
 "
 "
@@ -47839,7 +47839,7 @@ f
 f
 -
 >
-AddInlinePrefWidthForFlow
+AddInlinePrefISizeForFlow
 (
 aRenderingContext
 aData

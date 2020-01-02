@@ -282,12 +282,12 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
 aRenderingContext
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )
@@ -295,12 +295,12 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 nsRenderingContext
 *
 aRenderingContext
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 )
@@ -1085,7 +1085,7 @@ void
 BRFrame
 :
 :
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
@@ -1093,7 +1093,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )
@@ -1116,7 +1116,7 @@ void
 BRFrame
 :
 :
-AddInlinePrefWidth
+AddInlinePrefISize
 (
 nsRenderingContext
 *
@@ -1124,7 +1124,7 @@ aRenderingContext
 nsIFrame
 :
 :
-InlinePrefWidthData
+InlinePrefISizeData
 *
 aData
 )
