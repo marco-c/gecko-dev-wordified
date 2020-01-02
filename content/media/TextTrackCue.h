@@ -1113,6 +1113,16 @@ mReset
 false
 ;
 }
+void
+Reset
+(
+)
+{
+mReset
+=
+true
+;
+}
 bool
 HasBeenReset
 (

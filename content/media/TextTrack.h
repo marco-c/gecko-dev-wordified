@@ -471,6 +471,11 @@ mDirty
 true
 ;
 }
+void
+SetCuesDirty
+(
+)
+;
 TextTrackList
 *
 GetTextTrackList
