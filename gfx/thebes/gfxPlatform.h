@@ -3780,16 +3780,6 @@ eGfxLog
 aWhichLog
 )
 ;
-bool
-WorkAroundDriverBugs
-(
-)
-const
-{
-return
-mWorkAroundDriverBugs
-;
-}
 virtual
 int
 GetScreenDepth
@@ -4608,9 +4598,6 @@ GfxInfoCollector
 gfxPlatform
 >
 mAzureCanvasBackendCollector
-;
-bool
-mWorkAroundDriverBugs
 ;
 mozilla
 :
