@@ -459,7 +459,7 @@ JS_THREADSAFE
 &
 &
 defined
-DEBUG
+JS_DEBUG
 class
 JS_PUBLIC_API
 (
@@ -533,12 +533,12 @@ endif
 JS_THREADSAFE
 &
 &
-DEBUG
+JS_DEBUG
 *
 /
 #
 ifdef
-DEBUG
+JS_DEBUG
 /
 *
 *
@@ -642,7 +642,7 @@ nothing
 endif
 /
 *
-DEBUG
+JS_DEBUG
 *
 /
 class
@@ -8241,7 +8241,7 @@ JS_THREADSAFE
 &
 &
 defined
-DEBUG
+JS_DEBUG
 mContext
 =
 cx
@@ -8274,7 +8274,7 @@ JS_THREADSAFE
 &
 &
 defined
-DEBUG
+JS_DEBUG
 JS_ASSERT
 (
 JS_IsInRequest
@@ -8298,7 +8298,7 @@ JS_THREADSAFE
 &
 &
 defined
-DEBUG
+JS_DEBUG
 JSContext
 *
 mContext
@@ -11914,11 +11914,11 @@ v
 }
 #
 ifdef
-DEBUG
+JS_DEBUG
 /
 *
 *
-DEBUG
+Debug
 -
 only
 method
@@ -12163,7 +12163,7 @@ only
 /
 #
 ifdef
-DEBUG
+JS_DEBUG
 extern
 JS_PUBLIC_API
 (
@@ -19579,7 +19579,7 @@ refcount
 endif
 #
 ifdef
-DEBUG
+JS_DEBUG
 /
 *
 A
@@ -19605,7 +19605,7 @@ token
 {
 #
 ifdef
-DEBUG
+JS_DEBUG
 debugToken
 =
 token

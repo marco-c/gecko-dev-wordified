@@ -3093,7 +3093,7 @@ mayThrow
 )
 #
 ifdef
-DEBUG
+JS_DEBUG
 :
 context
 (
@@ -3268,7 +3268,7 @@ AutoEnterPolicy
 )
 #
 ifdef
-DEBUG
+JS_DEBUG
 :
 context
 (
@@ -3297,7 +3297,7 @@ rv
 ;
 #
 ifdef
-DEBUG
+JS_DEBUG
 JSContext
 *
 context
@@ -3422,7 +3422,7 @@ endif
 ;
 #
 ifdef
-DEBUG
+JS_DEBUG
 class
 JS_FRIEND_API
 (

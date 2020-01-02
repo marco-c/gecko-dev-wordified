@@ -213,6 +213,15 @@ stdint
 .
 h
 >
+#
+include
+"
+js
+-
+config
+.
+h
+"
 struct
 JSContext
 ;
@@ -365,7 +374,7 @@ JS_NO_JSVAL_JSID_STRUCT_TYPES
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &

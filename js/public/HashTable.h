@@ -6775,7 +6775,7 @@ Ptr
 {
 #
 ifdef
-DEBUG
+JS_DEBUG
 entry_
 =
 (
@@ -7838,7 +7838,7 @@ sizeLog2
 }
 #
 ifdef
-DEBUG
+JS_DEBUG
 mutable
 struct
 Stats

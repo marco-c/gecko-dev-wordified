@@ -9612,7 +9612,7 @@ asBits
 endif
 #
 ifdef
-DEBUG
+JS_DEBUG
 namespace
 detail
 {
@@ -9695,7 +9695,7 @@ detail
 endif
 /
 *
-DEBUG
+JS_DEBUG
 *
 /
 }

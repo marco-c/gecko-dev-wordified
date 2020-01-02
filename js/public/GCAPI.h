@@ -1117,7 +1117,7 @@ AutoAssertNoGC
 {
 #
 ifdef
-DEBUG
+JS_DEBUG
 JSRuntime
 *
 runtime

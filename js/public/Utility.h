@@ -342,7 +342,7 @@ expr
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 #
 define
@@ -524,7 +524,7 @@ h
 else
 #
 ifdef
-DEBUG
+JS_DEBUG
 /
 *
 *
@@ -885,7 +885,7 @@ while
 endif
 /
 *
-DEBUG
+JS_DEBUG
 *
 /
 static
@@ -4141,7 +4141,7 @@ JSGC_ROOT_ANALYSIS
 &
 defined
 (
-DEBUG
+JS_DEBUG
 )
 uint8_t
 *
@@ -4187,7 +4187,7 @@ JSGC_ROOT_ANALYSIS
 &
 defined
 (
-DEBUG
+JS_DEBUG
 )
 uint32_t
 mask

@@ -1263,7 +1263,7 @@ isGCEnabled
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &
@@ -2139,7 +2139,7 @@ ptr
 ;
 #
 ifdef
-DEBUG
+JS_DEBUG
 /
 *
 *
@@ -5002,7 +5002,7 @@ endif
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 /
 *
@@ -5897,7 +5897,7 @@ endif
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &
@@ -6115,7 +6115,7 @@ SkipRoot
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &
@@ -6299,7 +6299,7 @@ end
 else
 /
 *
-DEBUG
+JS_DEBUG
 &
 &
 JSGC_ROOT_ANALYSIS
@@ -6362,7 +6362,7 @@ type
 endif
 /
 *
-DEBUG
+JS_DEBUG
 &
 &
 JSGC_ROOT_ANALYSIS
@@ -8473,7 +8473,7 @@ cx
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &
