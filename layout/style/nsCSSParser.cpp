@@ -79806,6 +79806,10 @@ REPORT_UNEXPECTED_TOKEN
 PEExpectedNoneOrURLOrFilterFunction
 )
 ;
+UngetToken
+(
+)
+;
 return
 false
 ;
