@@ -2135,11 +2135,11 @@ DestroyFrontBuffer
 (
 )
 {
-MOZ_ASSERT
+if
 (
 mFrontClient
 )
-;
+{
 mOldTextures
 .
 AppendElement
@@ -2151,6 +2151,7 @@ mFrontClient
 =
 nullptr
 ;
+}
 if
 (
 mFrontClientOnWhite
