@@ -3908,6 +3908,16 @@ Video
 "
 }
 {
+VIDEO_3GPP2
+"
+3g2
+"
+"
+3GPP2
+Video
+"
+}
+{
 AUDIO_MIDI
 "
 mid
