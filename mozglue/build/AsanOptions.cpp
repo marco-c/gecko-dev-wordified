@@ -102,6 +102,18 @@ Attributes
 .
 h
 "
+#
+ifndef
+_MSC_VER
+/
+/
+Not
+supported
+by
+clang
+-
+cl
+yet
 /
 /
 When
@@ -254,3 +266,5 @@ alloc_dealloc_mismatch
 "
 ;
 }
+#
+endif
