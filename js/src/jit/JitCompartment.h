@@ -1487,7 +1487,6 @@ VMFunction
 &
 f
 )
-const
 ;
 IonCode
 *
@@ -1540,7 +1539,6 @@ FrameSizeClass
 &
 frameClass
 )
-const
 ;
 IonCode
 *
@@ -2244,7 +2242,6 @@ stringConcatStub
 ExecutionMode
 mode
 )
-const
 {
 switch
 (

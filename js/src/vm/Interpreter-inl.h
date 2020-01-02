@@ -3111,9 +3111,6 @@ TypeName
 (
 type
 rt
--
->
-atomState
 )
 ;
 }
@@ -3147,9 +3144,6 @@ TypeName
 (
 type
 rt
--
->
-atomState
 )
 ;
 }
