@@ -3145,7 +3145,7 @@ that
 compatibility
 overrides
 are
-retreived
+retrieved
 and
 affect
 addon

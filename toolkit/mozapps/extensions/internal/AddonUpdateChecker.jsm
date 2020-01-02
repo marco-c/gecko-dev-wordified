@@ -453,7 +453,9 @@ LOGGER_ID
 "
 addons
 .
-updates
+update
+-
+checker
 "
 ;
 /

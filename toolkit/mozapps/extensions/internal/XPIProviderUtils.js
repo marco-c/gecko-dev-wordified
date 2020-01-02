@@ -8630,17 +8630,6 @@ to
 make
 visible
 *
-param
-callback
-*
-A
-callback
-to
-pass
-the
-DBAddonInternal
-to
-*
 /
 makeAddonVisible
 :
