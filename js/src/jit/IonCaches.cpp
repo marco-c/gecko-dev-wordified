@@ -22954,7 +22954,7 @@ index
 )
 Label
 markElem
-storeElem
+postBarrier
 ;
 masm
 .
@@ -23073,7 +23073,7 @@ masm
 jump
 (
 &
-storeElem
+postBarrier
 )
 ;
 }
@@ -23134,6 +23134,14 @@ it
 got
 cobbered
 .
+masm
+.
+bind
+(
+&
+postBarrier
+)
+;
 Register
 postBarrierScratch
 =
@@ -23173,14 +23181,6 @@ Store
 the
 value
 .
-masm
-.
-bind
-(
-&
-storeElem
-)
-;
 masm
 .
 storeConstantOrRegister
