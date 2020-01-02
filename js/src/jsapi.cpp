@@ -5781,6 +5781,12 @@ CrossCompartmentWrapperObject
 )
 )
 ;
+AutoMaybeTouchDeadZones
+agc
+(
+cx
+)
+;
 AutoDisableProxyCheck
 adpc
 (
