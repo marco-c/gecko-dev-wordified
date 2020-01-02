@@ -381,6 +381,13 @@ this
 }
 protected
 :
+virtual
+~
+ARIAGridAccessible
+(
+)
+{
+}
 /
 *
 *
@@ -652,6 +659,13 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+ARIAGridCellAccessible
+(
+)
+{
+}
 /
 *
 *

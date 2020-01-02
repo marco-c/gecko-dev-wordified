@@ -194,6 +194,13 @@ ContainerWidget
 )
 const
 ;
+protected
+:
+~
+XULAlertAccessible
+(
+)
+;
 }
 ;
 }

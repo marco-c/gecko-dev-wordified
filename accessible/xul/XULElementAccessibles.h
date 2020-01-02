@@ -507,6 +507,12 @@ aAnchorIndex
 ;
 protected
 :
+virtual
+~
+XULLinkAccessible
+(
+)
+;
 /
 /
 Accessible

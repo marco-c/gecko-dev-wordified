@@ -230,6 +230,12 @@ ActionCount
 ;
 protected
 :
+virtual
+~
+ImageAccessible
+(
+)
+;
 /
 /
 Accessible

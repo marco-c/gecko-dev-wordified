@@ -319,6 +319,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+XULButtonAccessible
+(
+)
+;
 /
 /
 XULButtonAccessible

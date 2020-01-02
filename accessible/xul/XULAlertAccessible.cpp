@@ -313,6 +313,15 @@ aDoc
 )
 {
 }
+XULAlertAccessible
+:
+:
+~
+XULAlertAccessible
+(
+)
+{
+}
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 XULAlertAccessible

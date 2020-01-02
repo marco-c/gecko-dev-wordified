@@ -203,12 +203,6 @@ DocAccessible
 aDoc
 )
 ;
-virtual
-~
-OuterDocAccessible
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
@@ -312,6 +306,12 @@ ActionCount
 ;
 protected
 :
+virtual
+~
+OuterDocAccessible
+(
+)
+;
 /
 /
 Accessible

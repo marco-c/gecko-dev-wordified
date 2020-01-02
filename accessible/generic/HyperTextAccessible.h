@@ -268,13 +268,6 @@ DocAccessible
 aDoc
 )
 ;
-virtual
-~
-HyperTextAccessible
-(
-)
-{
-}
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
@@ -2620,6 +2613,13 @@ const
 ;
 protected
 :
+virtual
+~
+HyperTextAccessible
+(
+)
+{
+}
 /
 /
 Accessible

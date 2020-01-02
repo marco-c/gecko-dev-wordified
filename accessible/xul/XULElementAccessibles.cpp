@@ -1548,6 +1548,15 @@ aDoc
 )
 {
 }
+XULLinkAccessible
+:
+:
+~
+XULLinkAccessible
+(
+)
+{
+}
 /
 /
 Expose

@@ -667,6 +667,13 @@ const
 ;
 protected
 :
+virtual
+~
+HTMLTextFieldAccessible
+(
+)
+{
+}
 /
 /
 Accessible

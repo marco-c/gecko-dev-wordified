@@ -156,13 +156,6 @@ DocAccessible
 aDoc
 )
 ;
-virtual
-~
-HTMLImageMapAccessible
-(
-)
-{
-}
 /
 /
 nsISupports
@@ -259,6 +252,13 @@ const
 ;
 protected
 :
+virtual
+~
+HTMLImageMapAccessible
+(
+)
+{
+}
 /
 /
 Accessible

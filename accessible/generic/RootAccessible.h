@@ -153,12 +153,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
-~
-RootAccessible
-(
-)
-;
 /
 /
 nsIDOMEventListener
@@ -250,6 +244,12 @@ aDocument
 ;
 protected
 :
+virtual
+~
+RootAccessible
+(
+)
+;
 /
 *
 *

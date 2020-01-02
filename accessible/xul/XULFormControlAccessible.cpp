@@ -478,6 +478,15 @@ eButton
 ;
 }
 }
+XULButtonAccessible
+:
+:
+~
+XULButtonAccessible
+(
+)
+{
+}
 /
 /
 /

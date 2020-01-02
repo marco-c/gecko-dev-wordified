@@ -269,12 +269,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
-~
-DocAccessible
-(
-)
-;
 /
 /
 nsIAccessible
@@ -1688,6 +1682,12 @@ aContent
 ;
 protected
 :
+virtual
+~
+DocAccessible
+(
+)
+;
 void
 LastRelease
 (

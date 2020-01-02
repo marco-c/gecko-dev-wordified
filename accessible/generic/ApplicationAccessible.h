@@ -506,6 +506,13 @@ const
 ;
 protected
 :
+virtual
+~
+ApplicationAccessible
+(
+)
+{
+}
 /
 /
 Accessible
