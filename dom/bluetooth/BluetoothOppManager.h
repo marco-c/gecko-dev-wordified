@@ -187,9 +187,6 @@ nsIVolumeMountLock
 ;
 BEGIN_BLUETOOTH_NAMESPACE
 class
-BluetoothReplyRunnable
-;
-class
 BluetoothSocket
 ;
 class
@@ -1189,12 +1186,6 @@ nsCOMPtr
 nsIVolumeMountLock
 >
 mMountLock
-;
-nsRefPtr
-<
-BluetoothReplyRunnable
->
-mRunnable
 ;
 nsRefPtr
 <

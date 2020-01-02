@@ -916,12 +916,6 @@ mListener
 ;
 nsRefPtr
 <
-BluetoothReplyRunnable
->
-mRunnable
-;
-nsRefPtr
-<
 BluetoothProfileController
 >
 mController
