@@ -208,7 +208,7 @@ LayoutParams
 (
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 mDensity
 )
 )
@@ -222,7 +222,7 @@ LayoutParams
 mDensity
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 )
 )
 ;

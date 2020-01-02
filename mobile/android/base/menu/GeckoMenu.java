@@ -832,10 +832,10 @@ LayoutParams
 (
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 )
 )
 ;

@@ -836,7 +836,7 @@ LayoutParams
 (
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 LayoutParams
 .
 WRAP_CONTENT

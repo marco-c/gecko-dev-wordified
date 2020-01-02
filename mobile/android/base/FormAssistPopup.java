@@ -1697,7 +1697,7 @@ RelativeLayout
 .
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 ;
 int
 popupLeft
@@ -1747,7 +1747,7 @@ Otherwise
 keep
 it
 as
-FILL_PARENT
+MATCH_PARENT
 .
 if
 (

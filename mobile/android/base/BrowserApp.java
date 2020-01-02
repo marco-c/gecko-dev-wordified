@@ -6810,7 +6810,7 @@ ViewGroup
 .
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 )
 ;
 mTabsPanel
