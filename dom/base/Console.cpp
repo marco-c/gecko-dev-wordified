@@ -3238,6 +3238,13 @@ Debug
 debug
 "
 )
+METHOD
+(
+Table
+"
+table
+"
+)
 void
 Console
 :
