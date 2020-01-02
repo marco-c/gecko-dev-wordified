@@ -4874,7 +4874,7 @@ return
 caret
 -
 >
-CheckCaretDrawingState
+SchedulePaint
 (
 )
 ;
