@@ -170,7 +170,7 @@ EncodingCompleteEvent
 }
 public
 :
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 EncodingCompleteEvent
 (
 nsIGlobalObject
@@ -435,10 +435,10 @@ mFailed
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 EncodingCompleteEvent
-nsIRunnable
+nsRunnable
 )
 ;
 class
@@ -456,7 +456,7 @@ EncodingRunnable
 }
 public
 :
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 EncodingRunnable
 (
 const
@@ -802,11 +802,12 @@ mUsingCustomOptions
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 EncodingRunnable
-nsIRunnable
+nsRunnable
 )
+;
 /
 *
 static

@@ -163,10 +163,10 @@ mozilla
 namespace
 image
 {
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 OrientedImage
-imgIContainer
+ImageWrapper
 )
 nsIntRect
 OrientedImage

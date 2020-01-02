@@ -145,7 +145,7 @@ mozilla
 MediaDecoderStateMachineScheduler
 Scheduler
 ;
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 public
 :
 TimerEvent
@@ -221,11 +221,11 @@ mTimerId
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 TimerEvent
+nsRunnable
 nsITimerCallback
-nsIRunnable
 )
 ;
 }

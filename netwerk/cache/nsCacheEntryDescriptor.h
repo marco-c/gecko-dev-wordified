@@ -806,7 +806,7 @@ mStreamEnded
 ;
 public
 :
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 nsDecompressInputStreamWrapper
 (
 nsCacheEntryDescriptor
@@ -1244,7 +1244,7 @@ mUncompressedCount
 ;
 public
 :
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 nsCompressOutputStreamWrapper
 (
 nsCacheEntryDescriptor

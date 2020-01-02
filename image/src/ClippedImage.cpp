@@ -959,10 +959,10 @@ ref
 )
 ;
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 ClippedImage
-imgIContainer
+ImageWrapper
 )
 nsIntRect
 ClippedImage
