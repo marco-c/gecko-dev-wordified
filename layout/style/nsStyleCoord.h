@@ -1036,6 +1036,12 @@ GetAngleValue
 const
 ;
 double
+GetAngleValueInDegrees
+(
+)
+const
+;
+double
 GetAngleValueInRadians
 (
 )

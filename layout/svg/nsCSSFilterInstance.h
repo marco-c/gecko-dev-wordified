@@ -469,6 +469,14 @@ FilterPrimitiveDescription
 aDescr
 )
 ;
+nsresult
+SetAttributesForHueRotate
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
 /
 *
 *
