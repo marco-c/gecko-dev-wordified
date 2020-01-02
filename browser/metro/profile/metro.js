@@ -5604,6 +5604,9 @@ toolbar_tips
 false
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 /
 /
 Completely
@@ -5741,6 +5744,8 @@ alwaysAskBeforeHandling
 false
 )
 ;
+#
+endif
 #
 ifdef
 NIGHTLY_BUILD

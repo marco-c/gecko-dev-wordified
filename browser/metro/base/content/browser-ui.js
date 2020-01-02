@@ -1236,12 +1236,17 @@ init
 (
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 PdfJs
 .
 init
 (
 )
 ;
+#
+endif
 }
 catch
 (

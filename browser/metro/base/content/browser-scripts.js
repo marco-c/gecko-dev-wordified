@@ -381,6 +381,9 @@ js
 "
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -425,6 +428,8 @@ jsm
 "
 )
 ;
+#
+endif
 XPCOMUtils
 .
 defineLazyModuleGetter
