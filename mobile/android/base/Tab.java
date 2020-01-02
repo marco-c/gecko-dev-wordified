@@ -3383,6 +3383,11 @@ setHasFeeds
 false
 )
 ;
+setHasOpenSearch
+(
+false
+)
+;
 updateTitle
 (
 null
