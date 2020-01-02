@@ -319,6 +319,16 @@ nsINetworkInterfaceListService
 :
 :
 LIST_NOT_INCLUDE_MMS_INTERFACES
+|
+nsINetworkInterfaceListService
+:
+:
+LIST_NOT_INCLUDE_IMS_INTERFACES
+|
+nsINetworkInterfaceListService
+:
+:
+LIST_NOT_INCLUDE_DUN_INTERFACES
 ;
 nsCOMPtr
 <
