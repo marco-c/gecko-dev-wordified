@@ -524,6 +524,9 @@ mSearch
 nsCString
 mHash
 ;
+nsString
+mOrigin
+;
 }
 ;
 struct
