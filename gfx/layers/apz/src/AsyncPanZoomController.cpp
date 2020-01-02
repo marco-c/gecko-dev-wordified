@@ -5693,6 +5693,13 @@ mPaintThrottler
 GetFrameTime
 (
 )
+TimeDuration
+:
+:
+FromMilliseconds
+(
+500
+)
 )
 mGeckoContentController
 (
