@@ -358,6 +358,7 @@ nsIDOMSVGElement
 {
 protected
 :
+explicit
 nsSVGElement
 (
 already_AddRefed

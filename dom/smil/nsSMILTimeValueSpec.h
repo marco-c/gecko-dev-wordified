@@ -642,6 +642,7 @@ nsReferencedElement
 {
 public
 :
+explicit
 TimeReferenceElement
 (
 nsSMILTimeValueSpec
@@ -755,6 +756,7 @@ EventListener
 }
 public
 :
+explicit
 EventListener
 (
 nsSMILTimeValueSpec

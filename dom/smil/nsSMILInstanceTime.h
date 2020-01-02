@@ -449,6 +449,7 @@ event
 SOURCE_EVENT
 }
 ;
+explicit
 nsSMILInstanceTime
 (
 const

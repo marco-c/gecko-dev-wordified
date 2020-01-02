@@ -168,6 +168,7 @@ SVGTests
 {
 protected
 :
+explicit
 SVGAnimationElement
 (
 already_AddRefed
@@ -545,6 +546,7 @@ nsReferencedElement
 {
 public
 :
+explicit
 TargetReference
 (
 SVGAnimationElement

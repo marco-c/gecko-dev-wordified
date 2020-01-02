@@ -2002,6 +2002,7 @@ AutoEnterWindow
 {
 public
 :
+explicit
 AutoEnterWindow
 (
 nsPIDOMWindow

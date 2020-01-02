@@ -145,6 +145,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 AnimationTimeline
 (
 nsIDocument

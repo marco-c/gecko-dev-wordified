@@ -390,6 +390,7 @@ nsARefreshObserver
 {
 public
 :
+explicit
 nsSMILAnimationController
 (
 nsIDocument

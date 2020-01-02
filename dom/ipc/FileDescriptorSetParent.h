@@ -154,6 +154,7 @@ aFileDescriptors
 ;
 private
 :
+explicit
 FileDescriptorSetParent
 (
 const

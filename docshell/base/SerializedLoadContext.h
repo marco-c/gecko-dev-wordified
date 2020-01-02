@@ -198,6 +198,7 @@ nullptr
 )
 ;
 }
+explicit
 SerializedLoadContext
 (
 nsILoadContext
@@ -205,6 +206,7 @@ nsILoadContext
 aLoadContext
 )
 ;
+explicit
 SerializedLoadContext
 (
 nsIChannel
@@ -212,6 +214,7 @@ nsIChannel
 aChannel
 )
 ;
+explicit
 SerializedLoadContext
 (
 nsIWebSocketChannel
