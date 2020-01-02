@@ -480,7 +480,7 @@ nsViewportInfo
 class
 nsIGlobalObject
 ;
-class
+struct
 nsCSSSelectorList
 ;
 namespace

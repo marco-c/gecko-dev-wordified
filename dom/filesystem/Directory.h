@@ -256,7 +256,7 @@ mozilla
 namespace
 dom
 {
-class
+struct
 CreateFileOptions
 ;
 class

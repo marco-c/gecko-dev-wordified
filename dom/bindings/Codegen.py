@@ -89375,6 +89375,9 @@ addInMozillaDom
 "
 NativePropertyHooks
 "
+isStruct
+=
+True
 )
         
 builder

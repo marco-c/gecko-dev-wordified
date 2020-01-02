@@ -136,7 +136,7 @@ mozilla
 namespace
 dom
 {
-class
+struct
 NativePropertiesHolder
 ;
 }

@@ -144,7 +144,7 @@ set
 namespace
 webrtc
 {
-class
+struct
 RTPHeader
 ;
 }

@@ -95,10 +95,10 @@ h
 namespace
 mozilla
 {
-class
+struct
 VideoTrackConstraintsN
 ;
-class
+struct
 AudioTrackConstraintsN
 ;
 /
@@ -171,7 +171,7 @@ MediaEngineVideoSource
 class
 MediaEngineAudioSource
 ;
-struct
+class
 MediaEnginePrefs
 ;
 enum

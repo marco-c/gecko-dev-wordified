@@ -305,7 +305,7 @@ jstate
 class
 RasterImage
 ;
-class
+struct
 Orientation
 ;
 class

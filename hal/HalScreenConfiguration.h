@@ -132,7 +132,7 @@ mozilla
 namespace
 hal
 {
-struct
+class
 ScreenConfiguration
 ;
 typedef

@@ -283,7 +283,7 @@ ImageBridgeParent
 class
 CompositableClient
 ;
-class
+struct
 CompositableTransaction
 ;
 class

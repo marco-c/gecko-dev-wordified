@@ -237,7 +237,7 @@ EventListenerManager
 namespace
 dom
 {
-class
+struct
 DeviceStorageEnumerationParameters
 ;
 class

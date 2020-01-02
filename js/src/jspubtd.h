@@ -1815,7 +1815,7 @@ TP_FATAL
 struct
 ThreadSafeContext
 ;
-struct
+class
 ForkJoinContext
 ;
 class

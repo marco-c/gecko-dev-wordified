@@ -125,7 +125,7 @@ nsPresentationData
 struct
 nsEmbellishData
 ;
-struct
+class
 nsHTMLReflowMetrics
 ;
 class

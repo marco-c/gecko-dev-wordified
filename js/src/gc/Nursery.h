@@ -229,7 +229,7 @@ uint32_t
 namespace
 gc
 {
-class
+struct
 Cell
 ;
 class

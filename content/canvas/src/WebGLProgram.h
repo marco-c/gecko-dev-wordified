@@ -156,7 +156,7 @@ mozilla
 class
 WebGLShader
 ;
-class
+struct
 WebGLUniformInfo
 ;
 typedef

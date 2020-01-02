@@ -670,7 +670,7 @@ dom
 class
 UndoManager
 ;
-class
+struct
 LifecycleCallbacks
 ;
 class

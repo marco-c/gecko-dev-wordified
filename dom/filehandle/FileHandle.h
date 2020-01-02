@@ -273,7 +273,7 @@ EventChainPreVisitor
 namespace
 dom
 {
-class
+struct
 DOMFileMetadataParameters
 ;
 class

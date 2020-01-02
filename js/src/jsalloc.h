@@ -177,7 +177,7 @@ h
 namespace
 js
 {
-class
+struct
 ContextFriendFields
 ;
 /

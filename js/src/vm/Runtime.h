@@ -382,7 +382,7 @@ js
 class
 PerThreadData
 ;
-class
+struct
 ThreadSafeContext
 ;
 class
@@ -507,7 +507,7 @@ Simulator
 class
 SimulatorRuntime
 ;
-class
+struct
 AutoFlushICache
 ;
 }

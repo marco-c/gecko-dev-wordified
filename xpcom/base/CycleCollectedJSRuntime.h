@@ -180,7 +180,7 @@ nsIException
 namespace
 js
 {
-class
+struct
 Class
 ;
 }

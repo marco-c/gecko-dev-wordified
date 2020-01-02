@@ -141,7 +141,7 @@ h
 class
 nsIFrame
 ;
-class
+struct
 nsPoint
 ;
 namespace

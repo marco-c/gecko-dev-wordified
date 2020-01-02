@@ -167,7 +167,7 @@ h
 class
 JSAtom
 ;
-class
+struct
 JSFreeOp
 ;
 namespace

@@ -192,7 +192,7 @@ jsipc
 namespace
 dom
 {
-struct
+class
 IPCTabContext
 ;
 class

@@ -141,7 +141,7 @@ h
 nsRunnable
 *
 /
-class
+struct
 JSContext
 ;
 class

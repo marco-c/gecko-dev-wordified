@@ -414,7 +414,7 @@ Compositor
 class
 ContainerLayerComposite
 ;
-class
+struct
 EffectChain
 ;
 class

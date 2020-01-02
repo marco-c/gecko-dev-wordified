@@ -311,7 +311,7 @@ NestedScopeObject
 namespace
 frontend
 {
-class
+struct
 BytecodeEmitter
 ;
 }
@@ -2320,7 +2320,7 @@ class
 ScriptSource
 {
 friend
-class
+struct
 SourceCompressionTask
 ;
 uint32_t

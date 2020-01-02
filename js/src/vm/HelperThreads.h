@@ -2346,7 +2346,7 @@ class
 ScriptSource
 ;
 friend
-class
+struct
 HelperThread
 ;
 #

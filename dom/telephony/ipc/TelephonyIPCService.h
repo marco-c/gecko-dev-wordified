@@ -136,7 +136,7 @@ nsITelephonyService
 h
 "
 BEGIN_TELEPHONY_NAMESPACE
-struct
+class
 IPCTelephonyRequest
 ;
 class

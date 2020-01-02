@@ -119,7 +119,7 @@ image
 class
 Image
 ;
-class
+struct
 Orientation
 ;
 class

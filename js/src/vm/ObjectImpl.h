@@ -1871,7 +1871,7 @@ emptyObjectElements
 struct
 Class
 ;
-struct
+class
 GCMarker
 ;
 struct
@@ -3491,7 +3491,7 @@ slotsEnd
 protected
 :
 friend
-struct
+class
 GCMarker
 ;
 friend

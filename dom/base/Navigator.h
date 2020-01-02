@@ -241,7 +241,7 @@ Geolocation
 class
 systemMessageCallback
 ;
-class
+struct
 MediaStreamConstraints
 ;
 class

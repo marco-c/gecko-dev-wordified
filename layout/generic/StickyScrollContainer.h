@@ -160,7 +160,7 @@ nsIScrollPositionListener
 .
 h
 "
-class
+struct
 nsRect
 ;
 class

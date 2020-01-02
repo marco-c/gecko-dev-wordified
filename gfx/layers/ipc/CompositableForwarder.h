@@ -237,7 +237,7 @@ CompositableClient
 class
 AsyncTransactionTracker
 ;
-class
+struct
 TextureFactoryIdentifier
 ;
 class

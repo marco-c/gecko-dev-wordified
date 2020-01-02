@@ -3288,7 +3288,7 @@ pc
 ;
 }
 ;
-struct
+class
 ForkJoinShared
 ;
 class

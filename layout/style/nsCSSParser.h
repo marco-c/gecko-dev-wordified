@@ -181,7 +181,7 @@ nsCSSKeyframeRule
 class
 nsCSSValue
 ;
-class
+struct
 nsRuleData
 ;
 namespace

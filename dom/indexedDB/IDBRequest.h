@@ -227,7 +227,7 @@ dom
 class
 OwningIDBObjectStoreOrIDBIndexOrIDBCursor
 ;
-class
+struct
 ErrorEventInit
 ;
 }

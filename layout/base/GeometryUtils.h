@@ -168,7 +168,7 @@ DOMRectReadOnly
 class
 DOMPoint
 ;
-class
+struct
 DOMPointInit
 ;
 class

@@ -141,7 +141,7 @@ mozilla
 namespace
 dom
 {
-class
+struct
 MessageEventInit
 ;
 class

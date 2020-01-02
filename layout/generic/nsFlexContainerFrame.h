@@ -210,7 +210,7 @@ FlexLine
 class
 FlexboxAxisTracker
 ;
-class
+struct
 StrutInfo
 ;
 /

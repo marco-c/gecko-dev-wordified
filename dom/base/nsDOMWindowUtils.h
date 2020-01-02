@@ -144,10 +144,10 @@ class
 nsPresContext
 ;
 class
-nsPoint
-;
-class
 nsIDocument
+;
+struct
+nsPoint
 ;
 namespace
 mozilla

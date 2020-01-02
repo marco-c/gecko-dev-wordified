@@ -152,7 +152,7 @@ mozilla
 namespace
 layers
 {
-class
+struct
 PlanarYCbCrData
 ;
 }

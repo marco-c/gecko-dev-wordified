@@ -1884,7 +1884,7 @@ that
 created
 it
 .
-class
+struct
 PseudoStack
 ;
 class

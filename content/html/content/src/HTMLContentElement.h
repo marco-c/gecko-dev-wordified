@@ -113,7 +113,7 @@ nsGenericHTMLElement
 .
 h
 "
-class
+struct
 nsCSSSelectorList
 ;
 namespace

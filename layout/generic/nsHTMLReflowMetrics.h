@@ -205,7 +205,7 @@ h
 -
 -
 -
-class
+struct
 nsHTMLReflowState
 ;
 /

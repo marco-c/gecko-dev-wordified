@@ -206,7 +206,7 @@ JS
 namespace
 shadow
 {
-class
+struct
 Runtime
 ;
 }

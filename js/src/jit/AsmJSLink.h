@@ -136,7 +136,7 @@ AsmJSModule
 namespace
 jit
 {
-class
+struct
 CallSite
 ;
 }

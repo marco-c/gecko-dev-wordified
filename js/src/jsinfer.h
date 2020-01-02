@@ -1207,13 +1207,13 @@ TempAllocator
 namespace
 types
 {
-class
+struct
 TypeZone
 ;
 class
 TypeSet
 ;
-class
+struct
 TypeObjectKey
 ;
 /
@@ -8587,7 +8587,7 @@ class
 HeapTypeSetKey
 {
 friend
-class
+struct
 TypeObjectKey
 ;
 /

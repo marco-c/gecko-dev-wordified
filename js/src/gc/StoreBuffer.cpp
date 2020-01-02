@@ -2365,7 +2365,7 @@ valuep
 ;
 }
 template
-class
+struct
 StoreBuffer
 :
 :
@@ -2378,7 +2378,7 @@ ValueEdge
 >
 ;
 template
-class
+struct
 StoreBuffer
 :
 :
@@ -2391,7 +2391,7 @@ CellPtrEdge
 >
 ;
 template
-class
+struct
 StoreBuffer
 :
 :
@@ -2404,7 +2404,7 @@ SlotsEdge
 >
 ;
 template
-class
+struct
 StoreBuffer
 :
 :
@@ -2417,7 +2417,7 @@ WholeCellEdges
 >
 ;
 template
-class
+struct
 StoreBuffer
 :
 :
@@ -2430,7 +2430,7 @@ ValueEdge
 >
 ;
 template
-class
+struct
 StoreBuffer
 :
 :

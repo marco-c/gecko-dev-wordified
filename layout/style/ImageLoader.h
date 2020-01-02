@@ -164,7 +164,7 @@ mozilla
 namespace
 css
 {
-class
+struct
 ImageValue
 ;
 class

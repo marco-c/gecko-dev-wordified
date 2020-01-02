@@ -233,7 +233,7 @@ layout
 .
 *
 /
-class
+struct
 JSFreeOp
 ;
 struct
@@ -242,7 +242,7 @@ JSFunctionSpec
 namespace
 js
 {
-class
+struct
 Class
 ;
 class

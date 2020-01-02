@@ -343,7 +343,7 @@ imgIRequest
 class
 nsIDocument
 ;
-class
+struct
 gfxPoint
 ;
 struct

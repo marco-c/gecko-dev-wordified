@@ -248,7 +248,7 @@ ClientLayerManager
 class
 CompositorParent
 ;
-class
+struct
 FrameMetrics
 ;
 class

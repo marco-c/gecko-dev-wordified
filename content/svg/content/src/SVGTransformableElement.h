@@ -158,7 +158,7 @@ SVGMatrix
 class
 SVGIRect
 ;
-class
+struct
 SVGBoundingBoxOptions
 ;
 class
