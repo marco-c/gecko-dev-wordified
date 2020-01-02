@@ -442,12 +442,9 @@ fftSize
 )
 m_delayLine
 (
-ceilf
-(
 MaxDelayTimeSeconds
 *
 sampleRate
-)
 1
 .
 0
