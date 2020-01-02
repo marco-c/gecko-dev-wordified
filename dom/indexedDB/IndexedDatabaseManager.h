@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsIIndexedDatabaseManager
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -250,8 +243,6 @@ IndexedDatabaseManager
 MOZ_FINAL
 :
 public
-nsIIndexedDatabaseManager
-public
 nsIObserver
 {
 typedef
@@ -283,7 +274,6 @@ PersistenceType
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIINDEXEDDATABASEMANAGER
 NS_DECL_NSIOBSERVER
 /
 /
