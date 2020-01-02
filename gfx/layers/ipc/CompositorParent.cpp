@@ -3054,6 +3054,17 @@ ToMilliseconds
 }
 #
 endif
+profiler_tracing
+(
+"
+Paint
+"
+"
+Composite
+"
+TRACING_INTERVAL_END
+)
+;
 }
 void
 CompositorParent
