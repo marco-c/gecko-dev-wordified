@@ -2755,9 +2755,6 @@ bool
 aIsCompressed
 )
 ;
-#
-ifdef
-MOZ_OTS_REPORT_ERRORS
 static
 bool
 OTSMessage
@@ -2774,8 +2771,6 @@ format
 .
 )
 ;
-#
-endif
 /
 /
 font
