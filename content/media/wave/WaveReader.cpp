@@ -1442,6 +1442,7 @@ forget
 (
 )
 mChannels
+mSampleRate
 )
 )
 ;

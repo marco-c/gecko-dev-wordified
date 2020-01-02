@@ -328,6 +328,9 @@ mSamplePosition
 bool
 mHaveOutput
 ;
+AudioStreamBasicDescription
+mOutputFormat
+;
 void
 SetupDecoder
 (

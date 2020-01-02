@@ -3491,6 +3491,7 @@ forget
 (
 )
 mChannels
+rate
 )
 )
 ;
@@ -4332,6 +4333,7 @@ forget
 (
 )
 mChannels
+rate
 )
 )
 ;

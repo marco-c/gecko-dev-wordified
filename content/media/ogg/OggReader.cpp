@@ -2891,6 +2891,12 @@ forget
 (
 )
 channels
+mVorbisState
+-
+>
+mInfo
+.
+rate
 )
 )
 ;
@@ -3725,6 +3731,10 @@ forget
 (
 )
 channels
+mOpusState
+-
+>
+mRate
 )
 )
 ;

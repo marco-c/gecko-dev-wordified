@@ -851,6 +851,7 @@ forget
 (
 )
 mAudioChannels
+mAudioRate
 )
 ;
 ReleaseAudioBuffer

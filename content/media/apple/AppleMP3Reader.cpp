@@ -1671,6 +1671,7 @@ forget
 )
 )
 mAudioChannels
+mAudioSampleRate
 )
 ;
 mAudioQueue
