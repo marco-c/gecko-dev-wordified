@@ -180,6 +180,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+GreekCasing
+.
+h
+"
 /
 /
 Unicode
@@ -1775,6 +1782,9 @@ GetCasingFor
 lang
 )
 ;
+mozilla
+:
+:
 GreekCasing
 :
 :
@@ -2599,6 +2609,9 @@ eLSCB_Greek
 {
 ch
 =
+mozilla
+:
+:
 GreekCasing
 :
 :

@@ -359,6 +359,13 @@ gfx2DGlue
 h
 "
 #
+include
+"
+GreekCasing
+.
+h
+"
+#
 if
 defined
 (
@@ -34972,6 +34979,9 @@ the
 uppercasing
 transform
 .
+mozilla
+:
+:
 GreekCasing
 :
 :
@@ -34980,6 +34990,9 @@ state
 ;
 ch2
 =
+mozilla
+:
+:
 GreekCasing
 :
 :
