@@ -961,6 +961,10 @@ int
 mFaviconSize
 ;
 private
+PropertyAnimator
+mVisibilityAnimator
+;
+private
 static
 final
 Interpolator
