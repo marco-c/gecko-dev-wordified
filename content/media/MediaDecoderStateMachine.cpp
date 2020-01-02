@@ -7696,10 +7696,8 @@ AudioStream
 >
 audioStream
 (
+new
 AudioStream
-:
-:
-AllocateStream
 (
 )
 )
