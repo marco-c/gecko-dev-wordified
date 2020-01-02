@@ -13776,6 +13776,11 @@ nsIScriptSecurityManager
 sSecurityManager
 ;
 static
+nsIPrincipal
+*
+sSystemPrincipal
+;
+static
 nsIParserService
 *
 sParserService

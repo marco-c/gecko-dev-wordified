@@ -10043,14 +10043,8 @@ inheritOwner
 nsContentUtils
 :
 :
-IsSystemPrincipal
+IsCallerChrome
 (
-nsContentUtils
-:
-:
-GetSubjectPrincipal
-(
-)
 )
 ;
 }
