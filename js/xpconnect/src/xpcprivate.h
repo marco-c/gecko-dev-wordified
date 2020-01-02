@@ -24623,6 +24623,17 @@ donatedNode
 ;
 /
 /
+The
+scriptability
+of
+this
+compartment
+.
+Scriptability
+scriptability
+;
+/
+/
 Our
 XPCWrappedNativeScope
 .
