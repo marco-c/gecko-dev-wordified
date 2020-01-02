@@ -2647,10 +2647,17 @@ bug
 for
 details
 .
+if
+(
+!
+mIsOffline
+)
+{
 Mute
 (
 )
 ;
+}
 mDecoder
 .
 Shutdown
