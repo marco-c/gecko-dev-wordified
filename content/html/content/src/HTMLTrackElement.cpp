@@ -921,6 +921,14 @@ label
 srcLang
 )
 ;
+mTrack
+-
+>
+SetTrackElement
+(
+this
+)
+;
 if
 (
 mMediaParent
