@@ -731,6 +731,13 @@ mSession
 Record
 thread
 task
+and
+it
+run
+in
+Media
+Encoder
+thread
 .
 /
 /
@@ -795,10 +802,8 @@ NS_OK
 }
 private
 :
-nsRefPtr
-<
 Session
->
+*
 mSession
 ;
 }
