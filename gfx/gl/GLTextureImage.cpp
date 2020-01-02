@@ -575,7 +575,7 @@ GetFormat
 )
 ;
 return
-DirectUpdate
+DeprecatedDirectUpdate
 (
 thebesSurf
 destRegion
@@ -1262,7 +1262,7 @@ bool
 BasicTextureImage
 :
 :
-DirectUpdate
+DeprecatedDirectUpdate
 (
 gfxASurface
 *
@@ -1905,7 +1905,7 @@ bool
 TiledTextureImage
 :
 :
-DirectUpdate
+DeprecatedDirectUpdate
 (
 gfxASurface
 *
@@ -2126,7 +2126,7 @@ mCurrentImage
 ]
 -
 >
-DirectUpdate
+DeprecatedDirectUpdate
 (
 aSurf
 tileRegion
