@@ -4627,6 +4627,13 @@ button
 [
 open
 ]
+:
+not
+(
+[
+disabled
+]
+)
 >
 .
 toolbarbutton
