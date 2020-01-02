@@ -810,6 +810,15 @@ checkRequestDepth
 endif
 #
 endif
+#
+ifdef
+DEBUG
+activeContext
+(
+nullptr
+)
+#
+endif
 gcInitialized
 (
 false
