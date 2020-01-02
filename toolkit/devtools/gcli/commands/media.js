@@ -232,16 +232,6 @@ lookup
 mediaResetDesc
 "
 )
-manual
-:
-gcli
-.
-lookup
-(
-"
-mediaEmulateManual
-"
-)
 exec
 :
 function
