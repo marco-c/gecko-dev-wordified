@@ -938,6 +938,16 @@ if
 mLeftOverData
 >
 0
+&
+&
+mPanningModelFunction
+=
+=
+&
+PannerNodeEngine
+:
+:
+HRTFPanningFunction
 )
 {
 mLeftOverData
