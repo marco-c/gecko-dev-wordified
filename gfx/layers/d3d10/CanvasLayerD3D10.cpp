@@ -339,7 +339,7 @@ PreserveBuffer
 )
 )
 ;
-SurfaceFactory_GL
+SurfaceFactory
 *
 factory
 =
@@ -377,9 +377,7 @@ mGLContext
 screen
 -
 >
-Caps
-(
-)
+mCaps
 )
 ;
 }
@@ -730,7 +728,7 @@ if
 mGLContext
 )
 {
-SharedSurface_GL
+SharedSurface
 *
 surf
 =
@@ -755,9 +753,7 @@ switch
 surf
 -
 >
-Type
-(
-)
+mType
 )
 {
 case

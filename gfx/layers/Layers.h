@@ -602,15 +602,15 @@ gl
 class
 GLContext
 ;
+class
+SurfaceStream
+;
 }
 namespace
 gfx
 {
 class
 DrawTarget
-;
-class
-SurfaceStream
 ;
 }
 namespace
@@ -13036,7 +13036,7 @@ this
 mozilla
 :
 :
-gfx
+gl
 :
 :
 SurfaceStream

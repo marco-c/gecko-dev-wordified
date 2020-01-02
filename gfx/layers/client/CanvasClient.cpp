@@ -93,10 +93,6 @@ MPL
 #
 include
 "
-mozilla
-/
-layers
-/
 CanvasClient
 .
 h
@@ -1140,9 +1136,7 @@ if
 surf
 -
 >
-Type
-(
-)
+mType
 !
 =
 SharedSurfaceType

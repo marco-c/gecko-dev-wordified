@@ -422,6 +422,13 @@ GLSharedHandleHelpers
 .
 h
 "
+#
+include
+"
+SurfaceTypes
+.
+h
+"
 using
 namespace
 mozilla
@@ -564,9 +571,6 @@ GLContextProvider
 CreateOffscreen
 (
 dummySize
-GLContext
-:
-:
 SurfaceCaps
 :
 :

@@ -116,7 +116,7 @@ namespace
 mozilla
 {
 namespace
-gfx
+gl
 {
 SurfaceCaps
 :
@@ -275,4 +275,12 @@ SurfaceCaps
 {
 }
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla

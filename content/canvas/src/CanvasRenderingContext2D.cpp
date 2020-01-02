@@ -5441,7 +5441,7 @@ mTarget
 {
 mStream
 =
-gfx
+gl
 :
 :
 SurfaceStream
@@ -5449,6 +5449,9 @@ SurfaceStream
 :
 CreateForType
 (
+gl
+:
+:
 SurfaceStreamType
 :
 :

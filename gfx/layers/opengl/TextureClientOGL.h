@@ -191,7 +191,7 @@ namespace
 mozilla
 {
 namespace
-gfx
+gl
 {
 class
 SurfaceStream

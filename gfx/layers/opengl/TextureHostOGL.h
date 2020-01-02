@@ -443,6 +443,10 @@ gfx
 class
 DataSourceSurface
 ;
+}
+namespace
+gl
+{
 class
 SurfaceStream
 ;

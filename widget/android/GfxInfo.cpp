@@ -364,6 +364,8 @@ gl
 GLContext
 >
 gl
+;
+gl
 =
 gl
 :
@@ -378,7 +380,7 @@ gfxIntSize
 16
 16
 )
-gfx
+gl
 :
 :
 SurfaceCaps

@@ -372,7 +372,7 @@ namespace
 mozilla
 {
 namespace
-gfx
+gl
 {
 class
 SurfaceStream
@@ -3631,7 +3631,7 @@ Compositor
 *
 mCompositor
 ;
-gfx
+gl
 :
 :
 SurfaceStream

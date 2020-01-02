@@ -5358,7 +5358,7 @@ thread
 mozilla
 :
 :
-gfx
+gl
 :
 :
 SurfaceCaps
@@ -5367,7 +5367,7 @@ caps
 mozilla
 :
 :
-gfx
+gl
 :
 :
 SurfaceCaps

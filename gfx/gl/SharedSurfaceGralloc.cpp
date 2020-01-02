@@ -120,14 +120,7 @@ h
 #
 include
 "
-SharedSurfaceGL
-.
-h
-"
-#
-include
-"
-SurfaceFactory
+SharedSurface
 .
 h
 "
@@ -267,13 +260,6 @@ namespace
 mozilla
 :
 :
-gfx
-;
-using
-namespace
-mozilla
-:
-:
 layers
 ;
 using
@@ -300,7 +286,7 @@ ISurfaceAllocator
 allocator
 )
 :
-SurfaceFactory_GL
+SurfaceFactory
 (
 prodGL
 SharedSurfaceType
@@ -738,7 +724,7 @@ GLuint
 prodTex
 )
 :
-SharedSurface_GL
+SharedSurface
 (
 SharedSurfaceType
 :

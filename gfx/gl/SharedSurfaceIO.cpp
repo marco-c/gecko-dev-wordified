@@ -141,10 +141,6 @@ mozilla
 namespace
 gl
 {
-using
-namespace
-gfx
-;
 /
 *
 static
@@ -369,9 +365,7 @@ fCopyTexImage2D
 (
 LOCAL_GL_TEXTURE_2D
 0
-HasAlpha
-(
-)
+mHasAlpha
 ?
 LOCAL_GL_RGBA
 :
@@ -548,7 +542,7 @@ bool
 hasAlpha
 )
 :
-SharedSurface_GL
+SharedSurface
 (
 SharedSurfaceType
 :

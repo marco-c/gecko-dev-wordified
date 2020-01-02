@@ -257,16 +257,10 @@ namespace
 mozilla
 {
 namespace
-gfx
+gl
 {
 class
 SurfaceStream
-;
-class
-SharedSurface
-;
-class
-SurfaceFactory
 ;
 }
 namespace
@@ -378,9 +372,6 @@ mSurface
 ;
 nsRefPtr
 <
-mozilla
-:
-:
 gl
 :
 :
@@ -405,7 +396,7 @@ mDrawTarget
 ;
 RefPtr
 <
-gfx
+gl
 :
 :
 SurfaceStream
