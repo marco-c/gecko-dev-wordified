@@ -79,6 +79,16 @@ FALSE
                               
 (
 '
+info
+os
+'
+'
+android
+'
+)
+                              
+(
+'
 isdir
 /
 mnt
@@ -211,6 +221,16 @@ boop
 '
 '
 FALSE
+'
+)
+                              
+(
+'
+info
+os
+'
+'
+android
 '
 )
                               
@@ -452,6 +472,16 @@ foo
 '
 '
 FALSE
+'
+)
+                
+(
+'
+info
+os
+'
+'
+android
 '
 )
                 
