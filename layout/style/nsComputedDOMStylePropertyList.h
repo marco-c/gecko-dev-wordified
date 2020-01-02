@@ -830,6 +830,11 @@ BoxShadow
 )
 COMPUTED_STYLE_PROP
 (
+box_sizing
+BoxSizing
+)
+COMPUTED_STYLE_PROP
+(
 caption_side
 CaptionSide
 )
@@ -1576,11 +1581,6 @@ COMPUTED_STYLE_PROP
 (
 box_pack
 BoxPack
-)
-COMPUTED_STYLE_PROP
-(
-box_sizing
-BoxSizing
 )
 COMPUTED_STYLE_PROP
 (
