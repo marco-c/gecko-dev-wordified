@@ -233,6 +233,10 @@ accctrl
 h
 >
 #
+define
+PATH_MAX
+MAX_PATH
+#
 endif
 /
 /
@@ -2913,6 +2917,10 @@ endif
 defined
 (
 S_IFIFO
+)
+INT_CONSTANT
+(
+PATH_MAX
 )
 /
 /

@@ -310,7 +310,8 @@ return
 msg
 ;
 }
-const
+this
+.
 Deprecated
 =
 {
