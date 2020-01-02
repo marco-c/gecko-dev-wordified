@@ -4221,6 +4221,7 @@ setEventHandler
 "
 onsurroundingtextchange
 "
+handler
 )
 ;
 }
@@ -4257,6 +4258,7 @@ setEventHandler
 "
 onselectionchange
 "
+handler
 )
 ;
 }
