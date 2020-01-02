@@ -800,7 +800,10 @@ inet
 .
 port
 =
+htons
+(
 port
+)
 ;
 return
 NS_OK
