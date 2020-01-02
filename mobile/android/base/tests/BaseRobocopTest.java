@@ -168,8 +168,8 @@ mLogFile
 protected
 Map
 <
-?
-?
+String
+String
 >
 mConfig
 ;
