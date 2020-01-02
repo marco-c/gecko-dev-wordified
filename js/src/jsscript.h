@@ -299,7 +299,7 @@ class
 WatchpointMap
 ;
 class
-StaticBlockObject
+NestedScopeObject
 ;
 namespace
 analyze
@@ -654,7 +654,7 @@ index
 /
 Index
 of
-StaticScopeObject
+NestedScopeObject
 in
 the
 object
@@ -8670,9 +8670,9 @@ index
 js
 :
 :
-StaticBlockObject
+NestedScopeObject
 *
-getBlockScope
+getStaticScope
 (
 jsbytecode
 *

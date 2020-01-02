@@ -38946,7 +38946,7 @@ pc
 MaybeDumpObject
 (
 "
-blockChain
+staticScope
 "
 i
 .
@@ -38955,7 +38955,7 @@ script
 )
 -
 >
-getBlockScope
+getStaticScope
 (
 pc
 )

@@ -660,16 +660,15 @@ statement
 /
 Rooted
 <
-StaticBlockObject
+NestedScopeObject
 *
 >
-blockChain
+staticScope
 ;
 /
 *
 compile
 time
-block
 scope
 chain
 *
@@ -1977,7 +1976,7 @@ topScopeStmt
 (
 nullptr
 )
-blockChain
+staticScope
 (
 prs
 -
