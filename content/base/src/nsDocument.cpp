@@ -32524,7 +32524,7 @@ GetPresContext
 )
 -
 >
-GetContainer
+GetContainerWeak
 (
 )
 ;
