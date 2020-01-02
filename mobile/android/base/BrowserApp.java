@@ -8565,13 +8565,6 @@ boolean
 newTab
 )
 {
-mBrowserToolbar
-.
-setProgressVisibility
-(
-true
-)
-;
 int
 flags
 =
