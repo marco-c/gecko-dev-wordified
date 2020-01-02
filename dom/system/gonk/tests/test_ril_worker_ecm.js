@@ -679,7 +679,7 @@ context
 .
 RIL
 .
-dial
+dialNonEmergencyNumber
 (
 {
 number
@@ -687,6 +687,9 @@ number
 "
 0912345678
 "
+isEmergency
+:
+false
 isDialEmergency
 :
 false
