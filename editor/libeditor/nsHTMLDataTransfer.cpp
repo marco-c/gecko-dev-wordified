@@ -2525,6 +2525,11 @@ offsetOfNewNode
 ;
 if
 (
+wsObj
+.
+mEndReasonNode
+&
+&
 nsTextEditUtils
 :
 :
