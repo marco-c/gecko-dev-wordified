@@ -166,6 +166,16 @@ waitForExplicitFinish
 (
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+REMOTE_ENABLED
+true
+)
+;
 loadTab
 (
 URL
