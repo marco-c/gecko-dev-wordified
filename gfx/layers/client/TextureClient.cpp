@@ -1751,12 +1751,12 @@ MemoryTextureClient
 ;
 if
 (
+mBuffer
+&
+&
 ShouldDeallocateInDestructor
 (
 )
-&
-&
-mBuffer
 )
 {
 /
@@ -1773,7 +1773,7 @@ must
 deallocate
 it
 or
-ir
+it
 would
 /
 /
