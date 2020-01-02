@@ -1831,10 +1831,10 @@ max_time
 )
 {
 const
-Time
+TimeTicks
 end_time
 (
-Time
+TimeTicks
 :
 :
 Now
@@ -2018,10 +2018,10 @@ for
 )
 {
 const
-Time
+TimeTicks
 current_time
 (
-Time
+TimeTicks
 :
 :
 Now
