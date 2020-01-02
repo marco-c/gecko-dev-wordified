@@ -556,6 +556,12 @@ Is2D
 )
 const
 ;
+bool
+IsProjective
+(
+)
+const
+;
 /
 *
 *
