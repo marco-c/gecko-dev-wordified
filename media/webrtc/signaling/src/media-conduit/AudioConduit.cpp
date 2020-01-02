@@ -818,6 +818,14 @@ jsjni_GetVM
 (
 )
 ;
+JNIEnv
+*
+jenv
+=
+jsjni_GetJNIForThread
+(
+)
+;
 if
 (
 webrtc
@@ -829,6 +837,7 @@ VoiceEngine
 SetAndroidObjects
 (
 jvm
+jenv
 (
 void
 *

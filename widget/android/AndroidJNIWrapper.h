@@ -272,6 +272,16 @@ jsjni_GetVM
 (
 )
 ;
+extern
+"
+C
+"
+JNIEnv
+*
+jsjni_GetJNIForThread
+(
+)
+;
 #
 endif
 /

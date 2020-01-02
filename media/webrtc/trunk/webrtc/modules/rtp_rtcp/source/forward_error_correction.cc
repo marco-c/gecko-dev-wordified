@@ -110,6 +110,17 @@ h
 #
 include
 <
+cstdlib
+>
+/
+/
+for
+abs
+(
+)
+#
+include
+<
 string
 .
 h

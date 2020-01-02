@@ -1054,6 +1054,16 @@ int32_t
 ednLen
 =
 0
+char
+*
+enumDeviceID
+=
+NULL
+const
+int32_t
+ediLen
+=
+0
 )
 const
 ;
@@ -1268,6 +1278,9 @@ _initialized
 ;
 bool
 _recording
+;
+bool
+_firstRecord
 ;
 bool
 _playing

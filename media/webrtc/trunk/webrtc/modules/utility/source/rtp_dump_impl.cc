@@ -172,6 +172,12 @@ defined
 (
 WEBRTC_MAC
 )
+|
+|
+defined
+(
+WEBRTC_BSD
+)
 #
 include
 <
@@ -1328,6 +1334,12 @@ elif
 defined
 (
 WEBRTC_LINUX
+)
+|
+|
+defined
+(
+WEBRTC_BSD
 )
 |
 |
