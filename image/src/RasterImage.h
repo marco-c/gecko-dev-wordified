@@ -1930,6 +1930,12 @@ CurrentStatusTracker
 (
 )
 {
+mDecodingMonitor
+.
+AssertCurrentThreadIn
+(
+)
+;
 nsRefPtr
 <
 imgStatusTracker
