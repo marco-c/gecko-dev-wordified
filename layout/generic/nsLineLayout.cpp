@@ -5303,7 +5303,7 @@ NS_UNCONSTRAINEDSIZE
 ;
 reflowStateHolder
 .
-construct
+emplace
 (
 mPresContext
 *
@@ -5319,11 +5319,8 @@ nsHTMLReflowState
 &
 reflowState
 =
+*
 reflowStateHolder
-.
-ref
-(
-)
 ;
 reflowState
 .
@@ -5830,11 +5827,8 @@ Reflow
 (
 mPresContext
 metrics
+*
 reflowStateHolder
-.
-ref
-(
-)
 aReflowStatus
 )
 ;
@@ -6870,7 +6864,7 @@ nullptr
 :
 reflowStateHolder
 .
-addr
+ptr
 (
 )
 nsDidReflowStatus
@@ -7166,11 +7160,8 @@ isText
 |
 !
 reflowStateHolder
-.
-ref
-(
-)
-.
+-
+>
 IsFloating
 (
 )
