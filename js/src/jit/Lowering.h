@@ -1388,6 +1388,14 @@ ins
 )
 ;
 bool
+visitTypedObjectProto
+(
+MTypedObjectProto
+*
+ins
+)
+;
+bool
 visitInitializedLength
 (
 MInitializedLength
