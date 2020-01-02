@@ -326,12 +326,7 @@ deferred
 .
 resolve
 (
-JSON
-.
-parse
-(
 data
-)
 .
 exists
 )
