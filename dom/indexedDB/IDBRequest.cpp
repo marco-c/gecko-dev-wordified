@@ -915,9 +915,10 @@ called
 ;
 NS_ASSERTION
 (
-JSVAL_IS_VOID
-(
 mResultVal
+.
+isUndefined
+(
 )
 "
 Should
@@ -1220,9 +1221,10 @@ called
 ;
 NS_ASSERTION
 (
-JSVAL_IS_VOID
-(
 mResultVal
+.
+isUndefined
+(
 )
 "
 Should

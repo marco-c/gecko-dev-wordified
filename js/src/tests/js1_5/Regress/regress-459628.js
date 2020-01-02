@@ -185,8 +185,6 @@ Do
 not
 assert
 :
-JSVAL_IS_VOID
-(
 STOBJ_GET_SLOT
 (
 obj
@@ -195,6 +193,9 @@ map
 >
 freeslot
 )
+.
+isUndefined
+(
 )
 '
 ;

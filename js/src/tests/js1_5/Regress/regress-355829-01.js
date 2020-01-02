@@ -199,12 +199,13 @@ isNull
 )
 |
 |
-JSVAL_IS_VOID
-(
 argv
 [
 0
 ]
+.
+isUndefined
+(
 )
 '
 ;

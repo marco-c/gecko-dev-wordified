@@ -1670,9 +1670,10 @@ isNull
 &
 &
 !
-JSVAL_IS_VOID
-(
 aValue
+.
+isUndefined
+(
 )
 )
 {
@@ -2344,9 +2345,10 @@ unset
 )
 ;
 return
-JSVAL_IS_VOID
-(
 value
+.
+isUndefined
+(
 )
 ?
 NS_OK

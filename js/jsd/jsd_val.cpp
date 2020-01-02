@@ -578,12 +578,13 @@ jsdval
 )
 {
 return
-JSVAL_IS_VOID
-(
 jsdval
 -
 >
 val
+.
+isUndefined
+(
 )
 ;
 }

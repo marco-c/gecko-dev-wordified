@@ -3456,9 +3456,10 @@ return
 ;
 if
 (
-JSVAL_IS_VOID
-(
 usage
+.
+isUndefined
+(
 )
 )
 {

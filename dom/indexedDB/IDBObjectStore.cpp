@@ -8876,9 +8876,10 @@ keys
 if
 (
 !
-JSVAL_IS_VOID
-(
 aKeyVal
+.
+isUndefined
+(
 )
 &
 &
@@ -13363,9 +13364,10 @@ thread
 if
 (
 !
-JSVAL_IS_VOID
-(
 mCachedKeyPath
+.
+isUndefined
+(
 )
 )
 {

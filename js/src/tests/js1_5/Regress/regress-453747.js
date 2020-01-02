@@ -187,9 +187,10 @@ assert
 with
 JIT
 :
-JSVAL_IS_VOID
-(
 boxed
+.
+isUndefined
+(
 )
 |
 |

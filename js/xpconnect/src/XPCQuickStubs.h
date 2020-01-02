@@ -1241,7 +1241,11 @@ isNull
 (
 )
 and
-JSVAL_IS_VOID
+v
+.
+isUndefined
+(
+)
 are
 respectively
 true
@@ -1322,9 +1326,10 @@ nullBehavior
 else
 if
 (
-JSVAL_IS_VOID
-(
 v
+.
+isUndefined
+(
 )
 )
 {

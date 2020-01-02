@@ -11350,9 +11350,10 @@ TYPE_STRING
 else
 if
 (
-JSVAL_IS_VOID
-(
 val
+.
+isUndefined
+(
 )
 )
 *

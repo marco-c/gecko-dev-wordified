@@ -4063,9 +4063,10 @@ isNull
 )
 |
 |
-JSVAL_IS_VOID
-(
 transferable
+.
+isUndefined
+(
 )
 )
 return

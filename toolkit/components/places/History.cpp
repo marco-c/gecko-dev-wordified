@@ -2093,9 +2093,10 @@ _string
 {
 if
 (
-JSVAL_IS_VOID
-(
 aValue
+.
+isUndefined
+(
 )
 |
 |
@@ -2477,9 +2478,10 @@ NS_ERROR_UNEXPECTED
 ;
 if
 (
-JSVAL_IS_VOID
-(
 value
+.
+isUndefined
+(
 )
 )
 {

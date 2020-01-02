@@ -3196,9 +3196,10 @@ kind
 if
 (
 !
-JSVAL_IS_VOID
-(
 representation
+.
+isUndefined
+(
 )
 )
 return
