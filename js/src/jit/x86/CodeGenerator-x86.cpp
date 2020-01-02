@@ -2122,7 +2122,7 @@ mir
 lir
 -
 >
-mir
+cmpMir
 (
 )
 ;
@@ -2527,7 +2527,7 @@ mir
 lir
 -
 >
-mir
+cmpMir
 (
 )
 ;
