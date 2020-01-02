@@ -492,6 +492,34 @@ like
 .
 20131230
     
+#
+(
+reduce
+the
+app
+build
+id
+to
+only
+the
+build
+date
+    
+#
+as
+addon
+manager
+doesn
+'
+t
+handle
+big
+ints
+in
+addon
+versions
+)
+    
 defines
 =
 {
@@ -534,6 +562,10 @@ s
 (
 version
 app_buildid
+[
+:
+8
+]
 )
 )
     
