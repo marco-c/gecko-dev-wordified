@@ -4055,7 +4055,7 @@ dmd
 NS_IMETHOD
 CollectReports
 (
-nsIHandleReport
+nsIHandleReportCallback
 *
 aHandleReport
 nsISupports
