@@ -146,6 +146,15 @@ time
 (
 )
         
+start_time
+=
+int
+(
+start_time
+*
+1000
+)
+        
 self
 .
 start_time
@@ -784,16 +793,12 @@ data
         
 entry_time
 =
-(
 data
 [
 "
 time
 "
 ]
-/
-1000
-)
         
 if
 self
@@ -835,6 +840,9 @@ start_time
         
 return
 t
+/
+1000
+.
 class
 MachFormatter
 (
