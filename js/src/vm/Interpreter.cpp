@@ -19574,7 +19574,7 @@ toObject
 )
 ;
 HandleValue
-iterable
+iterator
 =
 REGS
 .
@@ -19603,7 +19603,7 @@ SpreadOperation
 cx
 arr
 countVal
-iterable
+iterator
 resultCountVal
 )
 )
@@ -23709,7 +23709,7 @@ arr
 HandleValue
 countVal
 HandleValue
-iterable
+iterator
 MutableHandleValue
 resultCountVal
 )
@@ -23733,7 +23733,7 @@ RootedValue
 iterVal
 (
 cx
-iterable
+iterator
 )
 ;
 if
@@ -23741,7 +23741,7 @@ if
 !
 iter
 .
-init
+initWithIterator
 (
 iterVal
 )

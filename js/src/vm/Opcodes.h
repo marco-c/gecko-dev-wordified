@@ -5224,7 +5224,7 @@ the
 stack
 as
 '
-iterable
+iterator
 '
 '
 index
@@ -5237,7 +5237,7 @@ obj
 iterates
 over
 '
-iterable
+iterator
 '
 and
 stores
@@ -5287,6 +5287,15 @@ and
 spreadcall
 *
 arguments
+as
+well
+as
+in
+destructing
+assignment
+with
+rest
+element
 .
 *
 Category
@@ -5304,7 +5313,7 @@ Stack
 :
 obj
 index
-iterable
+iterator
 =
 >
 obj

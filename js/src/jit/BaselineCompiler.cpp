@@ -13054,7 +13054,7 @@ emit_JSOP_SPREAD
 Load
 index
 and
-iterable
+iterator
 in
 R0
 and
