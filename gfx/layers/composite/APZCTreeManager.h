@@ -2233,8 +2233,10 @@ gfxPoint
 aHitTestPoint
 )
 ;
+already_AddRefed
+<
 AsyncPanZoomController
-*
+>
 CommonAncestor
 (
 AsyncPanZoomController
@@ -2245,8 +2247,10 @@ AsyncPanZoomController
 aApzc2
 )
 ;
+already_AddRefed
+<
 AsyncPanZoomController
-*
+>
 RootAPZCForLayersId
 (
 AsyncPanZoomController
@@ -2254,8 +2258,10 @@ AsyncPanZoomController
 aApzc
 )
 ;
+already_AddRefed
+<
 AsyncPanZoomController
-*
+>
 GetTouchInputBlockAPZC
 (
 const
