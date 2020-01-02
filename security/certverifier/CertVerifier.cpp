@@ -360,6 +360,9 @@ certverifier
 #
 endif
 }
+#
+if
+0
 /
 /
 Once
@@ -545,6 +548,8 @@ return
 SECSuccess
 ;
 }
+#
+endif
 static
 SECStatus
 ClassicVerifyCert
