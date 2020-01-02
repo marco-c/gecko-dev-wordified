@@ -4399,7 +4399,7 @@ if
 ins
 -
 >
-isCallDOMNative
+isDOMFunction
 (
 )
 )
