@@ -297,7 +297,7 @@ only
 nsresult
 ReadMetadata
 (
-VideoInfo
+MediaInfo
 *
 aInfo
 MetadataTags

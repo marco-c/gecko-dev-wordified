@@ -1800,7 +1800,9 @@ AssertCurrentThreadIn
 return
 mInfo
 .
-mHasAudio
+HasAudio
+(
+)
 ;
 }
 /
@@ -1849,7 +1851,9 @@ AssertCurrentThreadIn
 return
 mInfo
 .
-mHasVideo
+HasVideo
+(
+)
 ;
 }
 /
@@ -6523,7 +6527,7 @@ when
 accessing
 this
 .
-VideoInfo
+MediaInfo
 mInfo
 ;
 mozilla

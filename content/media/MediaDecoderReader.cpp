@@ -3337,7 +3337,9 @@ audio
 mTime
 mInfo
 .
-mAudioRate
+mAudio
+.
+mRate
 )
 ;
 CheckedInt64
@@ -3348,7 +3350,9 @@ UsecsToFrames
 aTarget
 mInfo
 .
-mAudioRate
+mAudio
+.
+mRate
 )
 ;
 if
@@ -3813,7 +3817,9 @@ FramesToUsecs
 frames
 mInfo
 .
-mAudioRate
+mAudio
+.
+mRate
 )
 ;
 if
