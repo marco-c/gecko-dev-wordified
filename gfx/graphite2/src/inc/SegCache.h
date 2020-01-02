@@ -634,12 +634,10 @@ length
 =
 0
 )
-{
 listSize
 =
 1
 ;
-}
 else
 {
 /
@@ -699,11 +697,9 @@ if
 !
 newEntries
 )
-{
 return
 NULL
 ;
-}
 }
 uint16
 insertPos

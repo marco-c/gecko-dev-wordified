@@ -515,6 +515,8 @@ size_t
 numUserAttr
 size_t
 justLevels
+size_t
+numChars
 )
 ;
 Slot
@@ -903,7 +905,7 @@ m_bidiLevel
 level
 ;
 }
-uint8
+int8
 getBidiClass
 (
 )
@@ -916,7 +918,7 @@ m_bidiCls
 void
 setBidiClass
 (
-uint8
+int8
 cls
 )
 {
@@ -1385,7 +1387,7 @@ m_attLevel
 /
 attachment
 level
-byte
+int8
 m_bidiCls
 ;
 /

@@ -1453,11 +1453,15 @@ if
 !
 _code
 )
+{
 failure
 (
 alloc_failed
 )
 ;
+return
+;
+}
 /
 /
 Make

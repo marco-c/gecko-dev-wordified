@@ -390,6 +390,9 @@ script
 dir
 )
 ;
+if
+(
+!
 pRes
 -
 >
@@ -401,9 +404,8 @@ enc
 pStart
 nChars
 )
-;
-if
-(
+|
+|
 !
 pRes
 -

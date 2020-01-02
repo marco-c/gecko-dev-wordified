@@ -254,7 +254,7 @@ GR2_VERSION_MINOR
 #
 define
 GR2_VERSION_BUGFIX
-3
+4
 #
 ifdef
 __cplusplus
@@ -2609,7 +2609,8 @@ hinted
 metrics
 .
 *
-Must
+Need
+only
 stay
 alive
 for
@@ -2737,17 +2738,6 @@ pixels
 for
 a
 glyph
-.
-*
-Must
-stay
-alive
-for
-the
-duration
-of
-the
-call
 .
 *
 param

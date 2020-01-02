@@ -292,7 +292,7 @@ size_t
 uintptr
 ;
 #
-if
+ifdef
 GRAPHITE2_TELEMETRY
 struct
 telemetry
@@ -487,7 +487,7 @@ n
 )
 {
 #
-if
+ifdef
 GRAPHITE2_TELEMETRY
 telemetry
 :
@@ -537,7 +537,7 @@ n
 )
 {
 #
-if
+ifdef
 GRAPHITE2_TELEMETRY
 telemetry
 :

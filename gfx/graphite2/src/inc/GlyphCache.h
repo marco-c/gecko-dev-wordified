@@ -3,7 +3,7 @@
 GRAPHITE2
 LICENSING
 Copyright
-2010
+2012
 SIL
 International
 All
