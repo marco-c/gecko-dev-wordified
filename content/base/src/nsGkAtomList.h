@@ -6356,6 +6356,13 @@ parent
 )
 GK_ATOM
 (
+parentapp
+"
+parentapp
+"
+)
+GK_ATOM
+(
 parentfocused
 "
 parentfocused
