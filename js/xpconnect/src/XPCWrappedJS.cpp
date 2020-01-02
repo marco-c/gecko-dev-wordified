@@ -2586,14 +2586,6 @@ NS_RELEASE
 root
 )
 ;
-if
-(
-!
-wrapper
-)
-return
-NS_ERROR_FAILURE
-;
 *
 wrapperResult
 =
