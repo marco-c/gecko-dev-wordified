@@ -5184,6 +5184,12 @@ if
 toolDefinition
 .
 label
+&
+&
+!
+toolDefinition
+.
+iconOnly
 )
 {
 let
