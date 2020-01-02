@@ -2181,6 +2181,13 @@ horizontal_tb
 )
 CSS_KEY
 (
+hue
+-
+rotate
+hue_rotate
+)
+CSS_KEY
+(
 hz
 hz
 )
