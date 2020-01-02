@@ -182,7 +182,7 @@ ContentValues
 (
 )
 ;
-blockForGeckoReady
+blockForGeckoDelayedStartup
 (
 )
 ;
