@@ -170,6 +170,7 @@ class
 WrapperOwner
 :
 public
+virtual
 JavaScriptShared
 {
 public

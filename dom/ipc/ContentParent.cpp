@@ -17981,6 +17981,9 @@ cpows
 ;
 if
 (
+aCpows
+&
+&
 !
 GetCPOWManager
 (
