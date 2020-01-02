@@ -2682,8 +2682,6 @@ have
 this
 target
 .
-if
-(
 this
 .
 _removeTargetFromListener
@@ -2695,11 +2693,7 @@ manifestURL
 true
 null
 )
-)
-{
-break
 ;
-}
 }
 break
 ;
