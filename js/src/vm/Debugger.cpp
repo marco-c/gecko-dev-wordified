@@ -19872,10 +19872,9 @@ black
 JS
 :
 :
-ExposeGCThingToActiveJS
+ExposeObjectToActiveJS
 (
 global
-JSTRACE_OBJECT
 )
 ;
 RootedValue

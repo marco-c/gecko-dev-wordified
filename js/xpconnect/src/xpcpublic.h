@@ -1231,10 +1231,9 @@ script
 JS
 :
 :
-ExposeGCThingToActiveJS
+ExposeScriptToActiveJS
 (
 script
-JSTRACE_SCRIPT
 )
 ;
 return
