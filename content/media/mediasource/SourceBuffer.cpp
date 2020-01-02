@@ -2704,6 +2704,13 @@ ScheduleStateMachineThread
 (
 )
 ;
+mMediaSource
+-
+>
+NotifyGotData
+(
+)
+;
 }
 void
 SourceBuffer
