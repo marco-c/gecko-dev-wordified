@@ -1364,6 +1364,9 @@ JSID_TO_ATOM
 id
 )
 ;
+JS
+:
+:
 AutoCheckCannotGC
 nogc
 ;

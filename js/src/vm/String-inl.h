@@ -580,6 +580,9 @@ s
 return
 nullptr
 ;
+JS
+:
+:
 AutoCheckCannotGC
 nogc
 ;

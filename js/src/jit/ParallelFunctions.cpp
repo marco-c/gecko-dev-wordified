@@ -184,6 +184,12 @@ namespace
 jit
 ;
 using
+JS
+:
+:
+AutoCheckCannotGC
+;
+using
 parallel
 :
 :

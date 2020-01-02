@@ -303,9 +303,6 @@ SourceBufferHolder
 class
 HandleValueArray
 ;
-class
-AutoCheckCannotGC
-;
 }
 /
 /
@@ -747,12 +744,6 @@ JS
 :
 :
 Zone
-;
-using
-JS
-:
-:
-AutoCheckCannotGC
 ;
 }
 /

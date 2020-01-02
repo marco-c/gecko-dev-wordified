@@ -338,6 +338,12 @@ using
 JS
 :
 :
+AutoCheckCannotGC
+;
+using
+JS
+:
+:
 GenericNaN
 ;
 /

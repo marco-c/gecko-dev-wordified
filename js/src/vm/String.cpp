@@ -215,6 +215,12 @@ mozilla
 :
 RoundUpPow2
 ;
+using
+JS
+:
+:
+AutoCheckCannotGC
+;
 size_t
 JSString
 :
