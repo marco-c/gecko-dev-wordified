@@ -271,6 +271,11 @@ size_t
 first
 size_t
 count
+uint32_t
+*
+out_upperBound
+=
+nullptr
 )
 ;
 template
@@ -356,6 +361,9 @@ size_t
 first
 size_t
 count
+uint32_t
+*
+out_upperBound
 )
 ;
 size_t

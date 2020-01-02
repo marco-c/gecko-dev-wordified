@@ -5602,6 +5602,11 @@ const
 char
 *
 info
+GLuint
+*
+out_upperBound
+=
+nullptr
 )
 ;
 bool
