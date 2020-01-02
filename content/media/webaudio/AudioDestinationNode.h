@@ -125,7 +125,7 @@ mozilla
 /
 dom
 /
-AudioChannelBinding
+AudioContextBinding
 .
 h
 "
