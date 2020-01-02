@@ -9591,6 +9591,13 @@ StopPlayback
 "
 )
 ;
+mDecoder
+-
+>
+UpdateStreamBlockingForStateMachinePlaying
+(
+)
+;
 }
 void
 MediaDecoderStateMachine
@@ -9708,6 +9715,13 @@ GetReentrantMonitor
 )
 .
 NotifyAll
+(
+)
+;
+mDecoder
+-
+>
+UpdateStreamBlockingForStateMachinePlaying
 (
 )
 ;
