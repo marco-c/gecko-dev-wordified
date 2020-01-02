@@ -4001,10 +4001,6 @@ if
 success
 )
 {
-asmData
-=
-nullptr
-;
 state
 .
 noteAsmJSFailure
@@ -4024,6 +4020,10 @@ WorkerThreadState
 :
 CONSUMER
 )
+;
+asmData
+=
+nullptr
 ;
 return
 ;
