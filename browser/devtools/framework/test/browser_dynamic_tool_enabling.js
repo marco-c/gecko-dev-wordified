@@ -58,17 +58,6 @@ toolbar
 enabled
 "
 "
-menu_devAppMgr
-"
-:
-"
-devtools
-.
-appmanager
-.
-enabled
-"
-"
 menu_browserToolbox
 "
 :

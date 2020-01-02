@@ -14890,12 +14890,11 @@ true
 ;
 /
 /
-Disable
-devtools
-webide
-until
-bug
-1007059
+Enable
+DevTools
+WebIDE
+by
+default
 pref
 (
 "
@@ -14905,7 +14904,7 @@ webide
 .
 enabled
 "
-false
+true
 )
 ;
 /
