@@ -127,6 +127,17 @@ gecko
 .
 mozglue
 .
+JNITarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
 generatorannotations
 .
 GeneratorOptions
@@ -324,6 +335,7 @@ signature
 .
 *
 /
+JNITarget
 public
 class
 GeckoEvent
@@ -363,6 +375,7 @@ android
 AndroidJavaWrapper
 .
 h
+JNITarget
 private
 enum
 NativeGeckoEvent
@@ -618,6 +631,7 @@ common
 IME
 actions
 .
+JNITarget
 public
 enum
 ImeAction
