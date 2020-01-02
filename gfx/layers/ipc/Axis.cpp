@@ -571,7 +571,7 @@ misbehaviour
 *
 /
 static
-int
+uint32_t
 gMaxVelocityQueueSize
 =
 5
@@ -660,7 +660,7 @@ gFlingStoppedThreshold
 Preferences
 :
 :
-AddIntVarCache
+AddUintVarCache
 (
 &
 gMaxVelocityQueueSize
