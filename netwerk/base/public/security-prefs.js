@@ -224,7 +224,7 @@ ssl
 .
 enable_alpn
 "
-true
+false
 )
 ;
 pref
