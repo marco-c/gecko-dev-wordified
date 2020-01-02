@@ -328,6 +328,17 @@ h
 /
 for
 nsACString
+#
+include
+"
+Units
+.
+h
+"
+/
+/
+for
+CSSToScreenScale
 class
 gfxImageSurface
 ;
@@ -369,7 +380,7 @@ mVisibleRegion
 nsIntRegion
 mValidRegion
 ;
-gfxSize
+CSSToScreenScale
 mEffectiveResolution
 ;
 }

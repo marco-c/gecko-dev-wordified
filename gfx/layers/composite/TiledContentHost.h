@@ -704,7 +704,7 @@ nsIntRegion
 &
 aInvalidateRegion
 const
-gfxSize
+CSSToScreenScale
 &
 aResolution
 )
@@ -748,7 +748,7 @@ layers
 FrameMetrics
 .
 const
-gfxSize
+CSSToScreenScale
 &
 GetFrameResolution
 (
@@ -895,7 +895,7 @@ BasicTiledLayerBuffer
 *
 mMainMemoryTiledBuffer
 ;
-gfxSize
+CSSToScreenScale
 mFrameResolution
 ;
 }
