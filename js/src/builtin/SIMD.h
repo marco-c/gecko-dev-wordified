@@ -200,7 +200,6 @@ Float32x4
 )
 0
 0
-Zero
 )
 #
 define
@@ -222,7 +221,6 @@ Float32x4
 )
 1
 0
-Abs
 )
 \
 V
@@ -237,7 +235,6 @@ Float32x4
 )
 1
 0
-FromInt32x4Bits
 )
 \
 V
@@ -253,7 +250,6 @@ Float32x4
 )
 1
 0
-Neg
 )
 \
 V
@@ -270,7 +266,6 @@ Float32x4
 )
 1
 0
-Not
 )
 \
 V
@@ -286,7 +281,6 @@ Float32x4
 )
 1
 0
-Reciprocal
 )
 \
 V
@@ -302,7 +296,6 @@ Float32x4
 )
 1
 0
-ReciprocalSqrt
 )
 \
 V
@@ -316,7 +309,6 @@ Float32x4
 )
 1
 0
-Splat
 )
 \
 V
@@ -332,7 +324,6 @@ Float32x4
 )
 1
 0
-Sqrt
 )
 \
 V
@@ -347,7 +338,6 @@ Float32x4
 )
 1
 0
-FromInt32x4
 )
 #
 define
@@ -369,7 +359,6 @@ Float32x4
 )
 2
 0
-Add
 )
 \
 V
@@ -386,7 +375,6 @@ Float32x4
 )
 2
 0
-And
 )
 \
 V
@@ -402,7 +390,6 @@ Float32x4
 )
 2
 0
-Div
 )
 \
 V
@@ -418,7 +405,6 @@ Int32x4
 )
 2
 0
-Equal
 )
 \
 V
@@ -434,7 +420,6 @@ Int32x4
 )
 2
 0
-GreaterThan
 )
 \
 V
@@ -450,7 +435,6 @@ Int32x4
 )
 2
 0
-GreaterThanOrEqual
 )
 \
 V
@@ -466,7 +450,6 @@ Int32x4
 )
 2
 0
-LessThan
 )
 \
 V
@@ -482,7 +465,6 @@ Int32x4
 )
 2
 0
-LessThanOrEqual
 )
 \
 V
@@ -498,7 +480,6 @@ Float32x4
 )
 2
 0
-Max
 )
 \
 V
@@ -514,7 +495,6 @@ Float32x4
 )
 2
 0
-Min
 )
 \
 V
@@ -530,7 +510,6 @@ Float32x4
 )
 2
 0
-Mul
 )
 \
 V
@@ -546,7 +525,6 @@ Int32x4
 )
 2
 0
-NotEqual
 )
 \
 V
@@ -558,7 +536,6 @@ Float32x4
 >
 2
 0
-Shuffle
 )
 \
 V
@@ -575,7 +552,6 @@ Float32x4
 )
 2
 0
-Or
 )
 \
 V
@@ -590,7 +566,6 @@ Scale
 )
 2
 0
-Scale
 )
 \
 V
@@ -606,7 +581,6 @@ Float32x4
 )
 2
 0
-Sub
 )
 \
 V
@@ -621,7 +595,6 @@ WithX
 )
 2
 0
-WithX
 )
 \
 V
@@ -636,7 +609,6 @@ WithY
 )
 2
 0
-WithY
 )
 \
 V
@@ -651,7 +623,6 @@ WithZ
 )
 2
 0
-WithZ
 )
 \
 V
@@ -666,7 +637,6 @@ WithW
 )
 2
 0
-WithW
 )
 \
 V
@@ -683,7 +653,6 @@ Float32x4
 )
 2
 0
-Xor
 )
 #
 define
@@ -698,7 +667,6 @@ clamp
 Float32x4Clamp
 3
 0
-Clamp
 )
 \
 V
@@ -710,7 +678,6 @@ Float32x4
 >
 3
 0
-ShuffleMix
 )
 #
 define
@@ -756,7 +723,6 @@ Int32x4
 )
 0
 0
-Zero
 )
 #
 define
@@ -777,7 +743,6 @@ Int32x4
 )
 1
 0
-FromFloat32x4Bits
 )
 \
 V
@@ -793,7 +758,6 @@ Int32x4
 )
 1
 0
-Neg
 )
 \
 V
@@ -809,7 +773,6 @@ Int32x4
 )
 1
 0
-Not
 )
 \
 V
@@ -823,7 +786,6 @@ Int32x4
 )
 0
 0
-Splat
 )
 \
 V
@@ -838,7 +800,6 @@ Int32x4
 )
 1
 0
-FromFloat32x4
 )
 #
 define
@@ -860,7 +821,6 @@ Int32x4
 )
 2
 0
-Add
 )
 \
 V
@@ -876,7 +836,6 @@ Int32x4
 )
 2
 0
-And
 )
 \
 V
@@ -892,7 +851,6 @@ Int32x4
 )
 2
 0
-Equal
 )
 \
 V
@@ -908,7 +866,6 @@ Int32x4
 )
 2
 0
-GreaterThan
 )
 \
 V
@@ -924,7 +881,6 @@ Int32x4
 )
 2
 0
-LessThan
 )
 \
 V
@@ -940,7 +896,6 @@ Int32x4
 )
 2
 0
-Mul
 )
 \
 V
@@ -956,7 +911,6 @@ Int32x4
 )
 2
 0
-Or
 )
 \
 V
@@ -972,7 +926,6 @@ Int32x4
 )
 2
 0
-Sub
 )
 \
 V
@@ -986,7 +939,6 @@ ShiftLeft
 )
 2
 0
-ShiftLeft
 )
 \
 V
@@ -1000,7 +952,6 @@ ShiftRight
 )
 2
 0
-ShiftRight
 )
 \
 V
@@ -1014,7 +965,6 @@ ShiftRightLogical
 )
 2
 0
-ShiftRightLogical
 )
 \
 V
@@ -1026,7 +976,6 @@ Int32x4
 >
 2
 0
-Shuffle
 )
 \
 V
@@ -1041,7 +990,6 @@ WithFlagX
 )
 2
 0
-WithFlagX
 )
 \
 V
@@ -1056,7 +1004,6 @@ WithFlagY
 )
 2
 0
-WithFlagY
 )
 \
 V
@@ -1071,7 +1018,6 @@ WithFlagZ
 )
 2
 0
-WithFlagZ
 )
 \
 V
@@ -1086,7 +1032,6 @@ WithFlagW
 )
 2
 0
-WithFlagW
 )
 \
 V
@@ -1101,7 +1046,6 @@ WithX
 )
 2
 0
-WithX
 )
 \
 V
@@ -1116,7 +1060,6 @@ WithY
 )
 2
 0
-WithY
 )
 \
 V
@@ -1131,7 +1074,6 @@ WithZ
 )
 2
 0
-WithZ
 )
 \
 V
@@ -1146,7 +1088,6 @@ WithW
 )
 2
 0
-WithW
 )
 \
 V
@@ -1162,7 +1103,6 @@ Int32x4
 )
 2
 0
-Xor
 )
 #
 define
@@ -1177,7 +1117,6 @@ select
 Int32x4Select
 3
 0
-Select
 )
 \
 V
@@ -1189,7 +1128,6 @@ Int32x4
 >
 3
 0
-ShuffleMix
 )
 #
 define
@@ -1204,7 +1142,6 @@ bool
 Int32x4Bool
 4
 0
-Bool
 )
 #
 define
@@ -1569,7 +1506,6 @@ Name
 Func
 Operands
 Flags
-MIRId
 )
 \
 extern
@@ -1605,7 +1541,6 @@ Name
 Func
 Operands
 Flags
-MIRId
 )
 \
 extern
