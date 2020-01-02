@@ -310,9 +310,7 @@ getIntent
 /
 Only
 change
-it
-'
-s
+its
 destination
 .
 intent
@@ -322,11 +320,12 @@ setClassName
 getApplicationContext
 (
 )
-getPackageName
-(
-)
-+
 "
+org
+.
+mozilla
+.
+gecko
 .
 WebApps
 WebApp
