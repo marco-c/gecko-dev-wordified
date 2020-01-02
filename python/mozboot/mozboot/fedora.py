@@ -191,6 +191,14 @@ devel
 '
             
 '
+pulseaudio
+-
+libs
+-
+devel
+'
+            
+'
 wireless
 -
 tools
