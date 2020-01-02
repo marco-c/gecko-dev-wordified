@@ -110,12 +110,6 @@ MPL
 *
 /
 #
-ifndef
-__XrayWrapper_h__
-#
-define
-__XrayWrapper_h__
-#
 include
 "
 mozilla
@@ -1586,10 +1580,3 @@ mXrayShadowing
 }
 ;
 }
-#
-endif
-/
-*
-__XrayWrapper_h__
-*
-/
