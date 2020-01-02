@@ -19420,13 +19420,9 @@ pref
 "
 media
 .
-gmp
--
-gmpopenh264
+openh264
 .
-provider
-.
-enabled
+providerEnabled
 "
 true
 )
