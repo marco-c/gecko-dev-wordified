@@ -50317,7 +50317,7 @@ stmts
 0
 ]
 .
-bindStringParameter
+bindByIndex
 (
 0
 docURI
