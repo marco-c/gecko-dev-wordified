@@ -1008,6 +1008,10 @@ TelephonyRequestChild
 :
 RecvNotifyDialSuccess
 (
+const
+uint32_t
+&
+aCallIndex
 )
 {
 MOZ_ASSERT
@@ -1020,6 +1024,7 @@ mCallback
 >
 NotifyDialSuccess
 (
+aCallIndex
 )
 ;
 return
