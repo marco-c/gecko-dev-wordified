@@ -2717,6 +2717,9 @@ TypedOrValueRegister
 output
 bool
 monitoredResult
+jsbytecode
+*
+profilerLeavePc
 )
 ;
 bool
@@ -2735,6 +2738,9 @@ bool
 monitoredResult
 bool
 allowDoubleResult
+jsbytecode
+*
+profilerLeavePc
 )
 ;
 bool
@@ -2756,6 +2762,9 @@ bool
 strict
 bool
 needsTypeBarrier
+jsbytecode
+*
+profilerLeavePc
 )
 ;
 bool
@@ -2780,6 +2789,9 @@ bool
 strict
 bool
 guardHoles
+jsbytecode
+*
+profilerLeavePc
 )
 ;
 bool
