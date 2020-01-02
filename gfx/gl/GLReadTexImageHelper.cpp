@@ -2110,10 +2110,10 @@ Vendor
 gl
 :
 :
-GLContext
+GLVendor
 :
 :
-VendorNVIDIA
+NVIDIA
 &
 &
 dest

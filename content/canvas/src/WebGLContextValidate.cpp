@@ -5446,10 +5446,10 @@ Vendor
 gl
 :
 :
-GLContext
+GLVendor
 :
 :
-VendorATI
+ATI
 )
 {
 /
