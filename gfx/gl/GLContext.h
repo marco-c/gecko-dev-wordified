@@ -8809,7 +8809,6 @@ ret
 private
 :
 GLuint
-GLAPIENTRY
 raw_fCreateProgram
 (
 )
@@ -8832,7 +8831,6 @@ ret
 ;
 }
 GLuint
-GLAPIENTRY
 raw_fCreateShader
 (
 GLenum
@@ -8858,7 +8856,6 @@ ret
 ;
 }
 void
-GLAPIENTRY
 raw_fGenBuffers
 (
 GLsizei
@@ -8882,7 +8879,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 raw_fGenFramebuffers
 (
 GLsizei
@@ -8906,7 +8902,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 raw_fGenRenderbuffers
 (
 GLsizei
@@ -8930,7 +8925,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 raw_fGenTextures
 (
 GLsizei
@@ -9119,7 +9113,6 @@ names
 private
 :
 void
-GLAPIENTRY
 raw_fDeleteProgram
 (
 GLuint
@@ -9139,7 +9132,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 raw_fDeleteShader
 (
 GLuint
@@ -9159,7 +9151,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 raw_fDeleteBuffers
 (
 GLsizei
@@ -9184,7 +9175,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 raw_fDeleteFramebuffers
 (
 GLsizei
@@ -9209,7 +9199,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 raw_fDeleteRenderbuffers
 (
 GLsizei
@@ -9234,7 +9223,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 raw_fDeleteTextures
 (
 GLsizei
@@ -9506,7 +9494,6 @@ names
 ;
 }
 GLenum
-GLAPIENTRY
 fGetGraphicsResetStatus
 (
 )
@@ -9627,7 +9614,6 @@ GL
 public
 :
 GLsync
-GLAPIENTRY
 fFenceSync
 (
 GLenum
@@ -9661,7 +9647,6 @@ ret
 ;
 }
 realGLboolean
-GLAPIENTRY
 fIsSync
 (
 GLsync
@@ -9692,7 +9677,6 @@ ret
 ;
 }
 void
-GLAPIENTRY
 fDeleteSync
 (
 GLsync
@@ -9717,7 +9701,6 @@ AFTER_GL_CALL
 ;
 }
 GLenum
-GLAPIENTRY
 fClientWaitSync
 (
 GLsync
@@ -9754,7 +9737,6 @@ ret
 ;
 }
 void
-GLAPIENTRY
 fWaitSync
 (
 GLsync
@@ -9785,7 +9767,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 fGetInteger64v
 (
 GLenum
@@ -9814,7 +9795,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 fGetSynciv
 (
 GLsync
@@ -11665,7 +11645,6 @@ XXX_vertex_array_object
 public
 :
 void
-GLAPIENTRY
 fBindVertexArray
 (
 GLuint
@@ -11690,7 +11669,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 fDeleteVertexArrays
 (
 GLsizei
@@ -11720,7 +11698,6 @@ AFTER_GL_CALL
 ;
 }
 void
-GLAPIENTRY
 fGenVertexArrays
 (
 GLsizei
@@ -11749,7 +11726,6 @@ AFTER_GL_CALL
 ;
 }
 realGLboolean
-GLAPIENTRY
 fIsVertexArray
 (
 GLuint
