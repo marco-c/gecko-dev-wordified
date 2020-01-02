@@ -6021,7 +6021,7 @@ setScreenState
 function
 setScreenState
 (
-on
+options
 )
 {
 Buf
@@ -6042,6 +6042,8 @@ Buf
 .
 writeInt32
 (
+options
+.
 on
 ?
 1
