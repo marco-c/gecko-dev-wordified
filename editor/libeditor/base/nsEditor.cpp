@@ -1555,10 +1555,6 @@ mSpellcheckCheckboxState
 (
 eTriUnset
 )
-mInIMEMode
-(
-false
-)
 mIsIMEComposing
 (
 false
@@ -5839,12 +5835,14 @@ handler
 if
 (
 !
-mInIMEMode
+mComposition
 )
+{
 NotifyEditorObservers
 (
 )
 ;
+}
 }
 }
 mPlaceHolderBatch
@@ -11532,10 +11530,6 @@ EnsureComposition
 aCompositionEvent
 )
 ;
-mInIMEMode
-=
-true
-;
 if
 (
 mPhonetic
@@ -11564,7 +11558,7 @@ EndIMEComposition
 {
 NS_ENSURE_TRUE_VOID
 (
-mInIMEMode
+mComposition
 )
 ;
 /
@@ -11697,10 +11691,6 @@ mIMEBufferLength
 =
 0
 ;
-mInIMEMode
-=
-false
-;
 mIsIMEComposing
 =
 false
@@ -11805,7 +11795,7 @@ NS_ERROR_NOT_AVAILABLE
 if
 (
 !
-mInIMEMode
+mComposition
 )
 {
 /
@@ -13132,7 +13122,7 @@ NS_ERROR_NULL_POINTER
 if
 (
 !
-mInIMEMode
+mComposition
 &
 &
 aStringToInsert
@@ -13551,7 +13541,7 @@ res
 ;
 if
 (
-mInIMEMode
+mComposition
 )
 {
 if
@@ -13970,7 +13960,7 @@ if
 mIMETextRangeList
 &
 &
-mInIMEMode
+mComposition
 &
 &
 !
