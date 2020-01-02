@@ -19741,8 +19741,6 @@ res
 =
 GetNodesFromPoint
 (
-:
-:
 DOMPoint
 (
 aRightBlock
@@ -44706,8 +44704,6 @@ nsHTMLEditRules
 :
 GetNodesFromPoint
 (
-:
-:
 DOMPoint
 point
 EditAction
