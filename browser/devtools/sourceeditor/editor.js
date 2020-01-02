@@ -815,6 +815,9 @@ openDialog
 cursorCoords
 "
 "
+markText
+"
+"
 refresh
 "
 ]
