@@ -416,14 +416,6 @@ ATLVulnCheck
 c
 "
 "
-FunctionPointersCheck
-"
-    
-"
-/
-c
-"
-"
 SharedSectionCheck
 "
 "
