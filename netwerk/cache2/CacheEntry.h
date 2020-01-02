@@ -1113,6 +1113,8 @@ CacheEntryHandle
 >
 ReopenTruncated
 (
+bool
+aMemoryOnly
 nsICacheEntryOpenCallback
 *
 aCallback

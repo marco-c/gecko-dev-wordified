@@ -525,7 +525,7 @@ do_check_eq
 (
 entry
 .
-persistToDisk
+persistent
 expectedExpiration
 )
 ;
@@ -628,7 +628,7 @@ do_check_true
 !
 entry
 .
-persistToDisk
+persistent
 )
 ;
 }
