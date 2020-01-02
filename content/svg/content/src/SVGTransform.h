@@ -179,7 +179,7 @@ h
 class
 nsSVGElement
 ;
-class
+struct
 gfxMatrix
 ;
 #

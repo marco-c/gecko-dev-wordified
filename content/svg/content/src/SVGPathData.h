@@ -208,6 +208,9 @@ pragma
 :
 keep
 struct
+gfxMatrix
+;
+struct
 nsSVGMark
 ;
 namespace

@@ -335,7 +335,7 @@ Matrix
 ;
 }
 }
-class
+struct
 gfxMatrix
 ;
 struct

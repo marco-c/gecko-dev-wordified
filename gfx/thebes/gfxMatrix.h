@@ -276,11 +276,9 @@ ty
 *
 *
 /
-class
+struct
 gfxMatrix
 {
-public
-:
 double
 _11
 ;
@@ -299,6 +297,8 @@ _31
 double
 _32
 ;
+public
+:
 /
 *
 *
