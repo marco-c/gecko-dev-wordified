@@ -2858,9 +2858,6 @@ GFX_CONTENT_COLOR
 :
 GFX_CONTENT_COLOR_ALPHA
 ;
-Layer
-:
-:
 SurfaceMode
 mode
 ;
@@ -3070,9 +3067,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -3090,9 +3084,6 @@ MOZ_WIDGET_GONK
 )
 mode
 =
-Layer
-:
-:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 #
@@ -3170,9 +3161,6 @@ ComponentAlphaEnabled
 {
 mode
 =
-Layer
-:
-:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 }
@@ -3237,9 +3225,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_OPAQUE
 )
 {
@@ -3249,9 +3234,6 @@ GFX_CONTENT_COLOR_ALPHA
 ;
 mode
 =
-Layer
-:
-:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 }
@@ -3333,9 +3315,6 @@ BufferContentType
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 !
@@ -3548,9 +3527,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -3891,9 +3867,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -4081,9 +4054,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -4430,9 +4400,6 @@ isClear
 mode
 !
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 |
 |
@@ -4537,9 +4504,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -4786,9 +4750,6 @@ aPaintState
 mMode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
