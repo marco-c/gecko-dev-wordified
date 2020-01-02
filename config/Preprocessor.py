@@ -1340,7 +1340,7 @@ options
 .
 output
 '
-wb
+w
 '
 )
     
