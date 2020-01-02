@@ -7173,7 +7173,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_GRID_AUTO_FLOW_NONE
+NS_STYLE_GRID_AUTO_FLOW_ROW
 &
 &
 autoColumnsValue
