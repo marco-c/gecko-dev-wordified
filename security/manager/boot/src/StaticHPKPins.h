@@ -3633,22 +3633,6 @@ kPinset_google_root_pems
 }
 {
 "
-domains
-.
-google
-.
-com
-"
-true
-false
-false
--
-1
-&
-kPinset_google_root_pems
-}
-{
-"
 doubleclick
 .
 net
@@ -3684,7 +3668,7 @@ dropbox
 com
 "
 false
-false
+true
 false
 -
 1
@@ -7993,7 +7977,7 @@ dropbox
 com
 "
 true
-false
+true
 false
 -
 1
@@ -8131,7 +8115,7 @@ Preload
 List
 Length
 =
-326
+325
 ;
 static
 const
@@ -8148,6 +8132,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1415385176259000
+1414836387591000
 )
 ;
