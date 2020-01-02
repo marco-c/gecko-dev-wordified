@@ -864,6 +864,10 @@ allocations
 define
 INIT_BLOCK_SIZE
 (
+(
+int
+)
+(
 1024
 -
 (
@@ -876,6 +880,7 @@ s
 sizeof
 (
 XML_Char
+)
 )
 )
 )
