@@ -311,6 +311,8 @@ Init
 MediaResource
 *
 aResource
+int64_t
+aMP3Offset
 )
 ;
 /
