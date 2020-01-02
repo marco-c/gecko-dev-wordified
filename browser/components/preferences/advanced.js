@@ -2653,6 +2653,7 @@ permissions
 xul
 "
 "
+resizable
 "
 params
 )
