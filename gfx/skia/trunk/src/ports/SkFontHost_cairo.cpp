@@ -741,6 +741,9 @@ return
 typeface
 ;
 }
+#
+ifdef
+SK_FONTHOST_DOES_NOT_USE_FONTMGR
 SkTypeface
 *
 SkFontHost
@@ -832,6 +835,8 @@ return
 NULL
 ;
 }
+#
+endif
 /
 /
 /
@@ -1312,7 +1317,7 @@ fFlags
 SkScalerContext
 :
 :
-kAutohinting_Flag
+kForceAutohinting_Flag
 )
 {
 loadFlags
@@ -1343,7 +1348,7 @@ fFlags
 SkScalerContext
 :
 :
-kAutohinting_Flag
+kForceAutohinting_Flag
 )
 {
 loadFlags
@@ -1678,7 +1683,7 @@ fWidth
 =
 SkToU16
 (
-SkScalarCeil
+SkScalarCeilToInt
 (
 extents
 .
@@ -1693,7 +1698,7 @@ fHeight
 =
 SkToU16
 (
-SkScalarCeil
+SkScalarCeilToInt
 (
 extents
 .
@@ -1708,7 +1713,7 @@ fLeft
 =
 SkToS16
 (
-SkScalarCeil
+SkScalarCeilToInt
 (
 extents
 .
@@ -1723,7 +1728,7 @@ fTop
 =
 SkToS16
 (
-SkScalarCeil
+SkScalarCeilToInt
 (
 extents
 .
