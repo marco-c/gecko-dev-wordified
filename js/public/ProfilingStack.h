@@ -642,7 +642,13 @@ aSp
 ;
 lineOrPc
 =
+static_cast
+<
+int32_t
+>
+(
 aLine
+)
 ;
 }
 void
@@ -770,7 +776,13 @@ isJs
 )
 ;
 return
+static_cast
+<
+uint32_t
+>
+(
 lineOrPc
+)
 ;
 }
 /
