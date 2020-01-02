@@ -358,7 +358,12 @@ sgidefs
 h
 >
 #
-else
+elif
+!
+defined
+(
+__OpenBSD__
+)
 #
 include
 <
