@@ -554,7 +554,7 @@ platformData
 >
 display
 =
-NULL
+nullptr
 ;
 instanceData
 -
@@ -564,7 +564,7 @@ platformData
 >
 visual
 =
-NULL
+nullptr
 ;
 instanceData
 -
@@ -584,7 +584,7 @@ platformData
 >
 plug
 =
-NULL
+nullptr
 ;
 return
 NPERR_NO_ERROR
@@ -773,8 +773,8 @@ plug
 G_SIGNAL_MATCH_DATA
 0
 0
-NULL
-NULL
+nullptr
+nullptr
 instanceData
 )
 ;
@@ -3036,7 +3036,7 @@ that
 shapeRects
 will
 be
-NULL
+nullptr
 when
 the
 /
@@ -3052,7 +3052,7 @@ XShapeGetRectangles
 /
 also
 returns
-NULL
+nullptr
 when
 the
 region
@@ -3066,7 +3066,7 @@ t
 treat
 /
 /
-NULL
+nullptr
 as
 failure
 .
@@ -4257,7 +4257,7 @@ not
 reached
 return
 (
-NULL
+nullptr
 )
 ;
 }
@@ -4316,7 +4316,7 @@ while
 (
 g_main_context_iteration
 (
-NULL
+nullptr
 FALSE
 )
 )
@@ -4432,9 +4432,9 @@ pthread_create
 (
 &
 crasherThread
-NULL
+nullptr
 CrasherThread
-NULL
+nullptr
 )
 )
 {
@@ -4506,7 +4506,7 @@ while
 (
 g_main_context_iteration
 (
-NULL
+nullptr
 FALSE
 )
 )

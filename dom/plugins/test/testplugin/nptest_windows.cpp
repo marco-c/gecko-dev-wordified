@@ -539,7 +539,7 @@ platformData
 >
 childWindow
 =
-NULL
+nullptr
 ;
 instanceData
 -
@@ -549,7 +549,7 @@ platformData
 >
 device
 =
-NULL
+nullptr
 ;
 instanceData
 -
@@ -559,7 +559,7 @@ platformData
 >
 frontBuffer
 =
-NULL
+nullptr
 ;
 instanceData
 -
@@ -569,7 +569,7 @@ platformData
 >
 backBuffer
 =
-NULL
+nullptr
 ;
 return
 NPERR_NO_ERROR
@@ -805,7 +805,7 @@ Uh
 -
 oh
 return
-NULL
+nullptr
 ;
 }
 hr
@@ -842,7 +842,7 @@ __uuidof
 (
 ID3D10Device
 )
-NULL
+nullptr
 )
 ;
 if
@@ -855,7 +855,7 @@ hr
 {
 adapter1
 =
-NULL
+nullptr
 ;
 }
 }
@@ -873,7 +873,7 @@ createD3DDevice
 (
 adapter1
 D3D10_DRIVER_TYPE_HARDWARE
-NULL
+nullptr
 D3D10_CREATE_DEVICE_BGRA_SUPPORT
 |
 D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS
@@ -1007,7 +1007,7 @@ platformData
 >
 frontBuffer
 =
-NULL
+nullptr
 ;
 NPN_FinalizeAsyncSurface
 (
@@ -1056,7 +1056,7 @@ platformData
 >
 backBuffer
 =
-NULL
+nullptr
 ;
 NPN_FinalizeAsyncSurface
 (
@@ -1209,7 +1209,7 @@ npp
 &
 size
 NPImageFormatBGRA32
-NULL
+nullptr
 instanceData
 -
 >
@@ -1222,7 +1222,7 @@ npp
 &
 size
 NPImageFormatBGRA32
-NULL
+nullptr
 instanceData
 -
 >
@@ -1416,9 +1416,9 @@ WS_CHILD
 CHILD_WIDGET_SIZE
 CHILD_WIDGET_SIZE
 hWnd
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -2109,7 +2109,7 @@ return
 HDC
 hdc
 =
-NULL
+nullptr
 ;
 PAINTSTRUCT
 ps
@@ -2163,7 +2163,7 @@ if
 hdc
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -2430,7 +2430,7 @@ instanceData
 window
 .
 window
-NULL
+nullptr
 (
 LPPOINT
 )
@@ -2656,7 +2656,7 @@ if
 rgn
 )
 return
-NULL
+nullptr
 ;
 HRGN
 ancestorRgn
@@ -2685,7 +2685,7 @@ rgn
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2713,7 +2713,7 @@ rgn
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 HWND
@@ -2769,7 +2769,7 @@ GetRegionData
 (
 rgn
 0
-NULL
+nullptr
 )
 ;
 if
@@ -2786,7 +2786,7 @@ rgn
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 HANDLE
@@ -2832,7 +2832,7 @@ rgn
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 DWORD
@@ -2870,7 +2870,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3554,8 +3554,8 @@ uniChar
 1
 utf8Char
 6
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -3623,13 +3623,13 @@ if
 pe
 =
 =
-NULL
+nullptr
 |
 |
 instanceData
 =
 =
-NULL
+nullptr
 |
 |
 instanceData
@@ -4183,7 +4183,7 @@ pd
 -
 >
 backBuffer
-NULL
+nullptr
 &
 rtView
 )
@@ -4379,7 +4379,7 @@ id
 -
 >
 backBuffer
-NULL
+nullptr
 )
 ;
 NPAsyncSurface

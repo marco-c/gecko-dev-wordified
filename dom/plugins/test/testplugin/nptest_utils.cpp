@@ -704,7 +704,7 @@ uint8_t
 strtoul
 (
 byte
-NULL
+nullptr
 16
 )
 &
