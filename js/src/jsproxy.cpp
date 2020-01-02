@@ -20514,11 +20514,12 @@ call
 return
 false
 ;
-JSObject
-*
+RootedObject
 construct
-=
+(
+cx
 nullptr
+)
 ;
 if
 (
