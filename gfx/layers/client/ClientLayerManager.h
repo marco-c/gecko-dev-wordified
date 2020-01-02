@@ -486,6 +486,17 @@ CreateThebesLayer
 virtual
 already_AddRefed
 <
+ThebesLayer
+>
+CreateThebesLayerWithHint
+(
+ThebesLayerCreationHint
+aHint
+)
+;
+virtual
+already_AddRefed
+<
 ContainerLayer
 >
 CreateContainerLayer
