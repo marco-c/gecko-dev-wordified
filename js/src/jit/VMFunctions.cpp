@@ -1624,7 +1624,6 @@ nullptr
 JSPROP_ENUMERATE
 0
 0
-0
 )
 ;
 }

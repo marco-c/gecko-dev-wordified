@@ -5892,7 +5892,6 @@ JSPROP_PERMANENT
 |
 JSPROP_SHARED
 0
-0
 /
 *
 allowDictionary

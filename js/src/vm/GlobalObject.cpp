@@ -5201,7 +5201,6 @@ id
 slot
 0
 0
-0
 )
 ;
 RootedShape

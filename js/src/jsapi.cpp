@@ -16199,8 +16199,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-tinyid
 )
 {
 PropertyOp
@@ -16676,7 +16674,6 @@ isNative
 (
 )
 )
-{
 return
 DefineNativeProperty
 (
@@ -16688,10 +16685,8 @@ getter
 setter
 attrs
 flags
-tinyid
 )
 ;
-}
 return
 JSObject
 :
@@ -16769,7 +16764,6 @@ SetterWrapper
 setter
 )
 attrs
-0
 0
 )
 ;
@@ -16870,7 +16864,6 @@ setter
 )
 attrs
 0
-0
 )
 ;
 }
@@ -16901,8 +16894,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-tinyid
 )
 {
 AutoRooterGetterSetter
@@ -17010,7 +17001,6 @@ getter
 setter
 attrs
 flags
-tinyid
 )
 ;
 }
@@ -17039,8 +17029,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-tinyid
 )
 {
 RootedAtom
@@ -17315,7 +17303,6 @@ setterOp
 )
 attrs
 flags
-tinyid
 )
 ;
 }
@@ -17376,7 +17363,6 @@ setter
 )
 attrs
 0
-0
 )
 ;
 }
@@ -17407,8 +17393,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-tinyid
 )
 {
 RootedValue
@@ -17479,7 +17463,6 @@ setter
 )
 attrs
 flags
-tinyid
 )
 ;
 }
@@ -17536,7 +17519,6 @@ value
 getter
 setter
 attrs
-0
 0
 )
 ;
@@ -17753,12 +17735,13 @@ nullptr
 )
 attrs
 0
-0
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 nobj
 ;
@@ -17881,7 +17864,6 @@ value
 noget
 noset
 attrs
-0
 0
 )
 ;
@@ -18071,14 +18053,7 @@ ps
 -
 >
 flags
-Shape
-:
-:
-HAS_SHORTID
-ps
--
->
-tinyid
+0
 )
 ;
 }
@@ -18261,14 +18236,7 @@ ps
 -
 >
 flags
-Shape
-:
-:
-HAS_SHORTID
-ps
--
->
-tinyid
+0
 )
 ;
 }

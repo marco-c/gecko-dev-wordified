@@ -2244,7 +2244,6 @@ JSPROP_PERMANENT
 |
 JSPROP_READONLY
 0
-0
 )
 )
 {
@@ -2438,14 +2437,11 @@ getter
 setter
 attrs
 0
-0
 )
 )
-{
 return
 false
 ;
-}
 objp
 .
 set
