@@ -308,6 +308,9 @@ mStackToFill
 size_t
 mMaxStackSize
 ;
+size_t
+mMaxBufferSize
+;
 bool
 PrepareStackBuffer
 (
@@ -334,6 +337,9 @@ volatile
 StackEntry
 *
 aEntry
+intptr_t
+&
+aAvailableBufferSize
 const
 char
 *
