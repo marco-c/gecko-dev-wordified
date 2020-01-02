@@ -715,7 +715,7 @@ localFile
 #
 ifdef
 XP_WIN
-PRUnichar
+wchar_t
 buf
 [
 MAX_PATH
@@ -764,7 +764,7 @@ finding
 the
 rightmost
 backslash
-PRUnichar
+wchar_t
 *
 lastSlash
 =

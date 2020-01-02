@@ -148,7 +148,7 @@ MAXPATHLEN
 ]
 )
 {
-PRUnichar
+wchar_t
 wide_path
 [
 MAXPATHLEN
@@ -200,7 +200,7 @@ const
 char
 *
 argv0
-PRUnichar
+wchar_t
 aResult
 [
 MAXPATHLEN
@@ -822,7 +822,7 @@ lf
 #
 ifdef
 XP_WIN
-PRUnichar
+wchar_t
 exePath
 [
 MAXPATHLEN

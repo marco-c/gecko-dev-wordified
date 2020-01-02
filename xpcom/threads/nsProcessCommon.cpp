@@ -883,7 +883,7 @@ char
 const
 *
 argv
-PRUnichar
+wchar_t
 *
 *
 wideCmdLine
@@ -1519,7 +1519,7 @@ nullptr
 wideCmdLine
 =
 (
-PRUnichar
+wchar_t
 *
 )
 PR_MALLOC
@@ -1528,7 +1528,7 @@ numChars
 *
 sizeof
 (
-PRUnichar
+wchar_t
 )
 )
 ;
@@ -2676,7 +2676,7 @@ PROCESSMODEL_WINAPI
 BOOL
 retVal
 ;
-PRUnichar
+wchar_t
 *
 cmdLine
 =

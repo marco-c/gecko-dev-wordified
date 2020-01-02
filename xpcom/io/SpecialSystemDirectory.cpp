@@ -897,7 +897,7 @@ savePath
 )
 )
 {
-PRUnichar
+wchar_t
 *
 str
 =
