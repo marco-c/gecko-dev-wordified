@@ -76,7 +76,7 @@ cx
 JS_NewStringCopyN
 (
 cx
-NULL
+nullptr
 0
 )
 )
@@ -394,7 +394,7 @@ JSString
 null
 (
 cx
-NULL
+nullptr
 )
 ;
 JSString

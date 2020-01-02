@@ -1146,7 +1146,7 @@ JSMSG_NOT_NONNULL_OBJECT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -1175,7 +1175,7 @@ cx
 obj
 &
 pm_class
-NULL
+nullptr
 )
 ;
 if
@@ -1229,7 +1229,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 namespace
@@ -1259,7 +1259,7 @@ JS_InitClass
 (
 cx
 global
-NULL
+nullptr
 /
 *
 parent

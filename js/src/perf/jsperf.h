@@ -779,7 +779,7 @@ C
 object
 .
 Returns
-NULL
+nullptr
 if
 the
 *

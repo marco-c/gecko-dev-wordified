@@ -472,7 +472,7 @@ bumpSpaceSize
 )
 next_
 (
-NULL
+nullptr
 )
 bumpSpaceSize
 (
@@ -887,7 +887,7 @@ newBump
 limit
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -905,7 +905,7 @@ bump
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -1182,7 +1182,7 @@ latest
 =
 last
 =
-NULL
+nullptr
 ;
 defaultChunkSize_
 =
@@ -1656,7 +1656,7 @@ n
 )
 )
 return
-NULL
+nullptr
 ;
 return
 latest
@@ -1884,7 +1884,7 @@ if
 mem
 )
 return
-NULL
+nullptr
 ;
 JS_STATIC_ASSERT
 (
@@ -2006,11 +2006,11 @@ Mark
 :
 chunk
 (
-NULL
+nullptr
 )
 markInChunk
 (
-NULL
+nullptr
 )
 {
 }
@@ -2701,7 +2701,7 @@ start
 (
 )
 :
-NULL
+nullptr
 )
 )
 {

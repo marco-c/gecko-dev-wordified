@@ -188,7 +188,7 @@ if
 mem
 )
 return
-NULL
+nullptr
 ;
 BumpChunk
 *
@@ -443,7 +443,7 @@ latest
 =
 last
 =
-NULL
+nullptr
 ;
 /
 /
@@ -628,7 +628,7 @@ value
 )
 {
 return
-NULL
+nullptr
 ;
 }
 chunkSize
@@ -683,7 +683,7 @@ if
 newChunk
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -855,7 +855,7 @@ other
 >
 latest
 =
-NULL
+nullptr
 ;
 other
 -
@@ -1069,7 +1069,7 @@ latest
 >
 setNext
 (
-NULL
+nullptr
 )
 ;
 other

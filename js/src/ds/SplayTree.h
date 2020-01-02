@@ -252,15 +252,15 @@ item
 )
 left
 (
-NULL
+nullptr
 )
 right
 (
-NULL
+nullptr
 )
 parent
 (
-NULL
+nullptr
 )
 {
 }
@@ -303,7 +303,7 @@ LifoAlloc
 *
 alloc
 =
-NULL
+nullptr
 )
 :
 alloc
@@ -312,11 +312,11 @@ alloc
 )
 root
 (
-NULL
+nullptr
 )
 freeList
 (
-NULL
+nullptr
 )
 {
 }
@@ -384,7 +384,7 @@ last
 checkCoherency
 (
 root
-NULL
+nullptr
 )
 ;
 if
@@ -545,7 +545,7 @@ element
 checkCoherency
 (
 root
-NULL
+nullptr
 )
 ;
 return
@@ -733,7 +733,7 @@ root
 ;
 root
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -831,7 +831,7 @@ swap
 checkCoherency
 (
 root
-NULL
+nullptr
 )
 ;
 }
@@ -1494,7 +1494,7 @@ root
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT_IF
@@ -1626,7 +1626,7 @@ node
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif
