@@ -3315,6 +3315,9 @@ stderr
 args
 )
         
+try
+:
+            
 proc
 =
 subprocess
@@ -3333,6 +3336,31 @@ subprocess
 .
 STDOUT
 )
+        
+except
+Exception
+e
+:
+            
+print
+>
+>
+sys
+.
+stderr
+'
+error
+:
+Launching
+'
+args
+'
+:
+'
+e
+            
+raise
+e
         
 (
 stdout
