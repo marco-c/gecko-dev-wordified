@@ -1372,6 +1372,17 @@ resourceContents
 =
 >
 {
+if
+(
+!
+this
+.
+editor
+)
+{
+return
+;
+}
 this
 .
 editor
