@@ -5486,9 +5486,14 @@ else
 data
 -
 >
-DeprecatedPaint
+Paint
 (
 aGroupTarget
+-
+>
+GetDrawTarget
+(
+)
 aPaintContext
 .
 mLayer

@@ -415,11 +415,14 @@ etc
 /
 virtual
 void
-DeprecatedPaint
+Paint
 (
-gfxContext
+gfx
+:
+:
+DrawTarget
 *
-aContext
+aDT
 Layer
 *
 aMaskLayer
