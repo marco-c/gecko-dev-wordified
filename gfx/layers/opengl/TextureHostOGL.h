@@ -174,15 +174,10 @@ gfx3DMatrix
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
-/
-/
-for
-gfxASurface
-etc
 #
 include
 "

@@ -145,13 +145,6 @@ nsNativeTheme
 .
 h
 "
-#
-include
-"
-gfxASurface
-.
-h
-"
 class
 CellDrawView
 ;

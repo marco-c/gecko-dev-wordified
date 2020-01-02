@@ -100,15 +100,10 @@ etc
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
-/
-/
-for
-gfxASurface
-etc
 #
 include
 "
@@ -187,6 +182,9 @@ h
 /
 for
 already_AddRefed
+class
+gfxASurface
+;
 namespace
 mozilla
 {

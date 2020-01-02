@@ -640,7 +640,7 @@ h
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
@@ -802,6 +802,9 @@ WM_FOCUSCHANGED
 0x000E
 #
 endif
+class
+gfxASurface
+;
 extern
 "
 C

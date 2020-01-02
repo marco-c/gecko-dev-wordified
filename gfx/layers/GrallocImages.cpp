@@ -186,6 +186,13 @@ h
 "
 #
 include
+"
+gfxImageSurface
+.
+h
+"
+#
+include
 <
 OMX_IVCommon
 .

@@ -135,15 +135,10 @@ uint64_t
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
-/
-/
-for
-gfxASurface
-etc
 #
 include
 "

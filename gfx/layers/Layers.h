@@ -182,15 +182,10 @@ GraphicsOperator
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
-/
-/
-for
-gfxASurface
-etc
 #
 include
 "
@@ -582,6 +577,9 @@ h
 /
 for
 PRLogModuleInfo
+class
+gfxASurface
+;
 class
 gfxContext
 ;

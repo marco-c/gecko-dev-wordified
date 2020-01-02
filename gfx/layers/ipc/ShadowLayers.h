@@ -136,15 +136,10 @@ uint64_t
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
-/
-/
-for
-gfxASurface
-etc
 #
 include
 "
@@ -278,6 +273,9 @@ nsIntPoint
 ;
 struct
 nsIntRect
+;
+class
+gfxASurface
 ;
 namespace
 mozilla

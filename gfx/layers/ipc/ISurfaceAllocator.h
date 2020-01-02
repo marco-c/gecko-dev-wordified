@@ -121,15 +121,10 @@ uint32_t
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
-/
-/
-for
-gfxASurface
-etc
 #
 include
 "
@@ -213,9 +208,6 @@ define
 MOZ_HAVE_SURFACEDESCRIPTORGRALLOC
 #
 endif
-class
-gfxASurface
-;
 class
 gfxSharedImageSurface
 ;

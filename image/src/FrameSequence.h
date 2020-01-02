@@ -116,7 +116,7 @@ h
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "

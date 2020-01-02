@@ -171,13 +171,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 nsBaseWidget
 .
 h
@@ -386,6 +379,9 @@ endif
 MOZ_LOGGING
 *
 /
+class
+gfxASurface
+;
 class
 gfxPattern
 ;

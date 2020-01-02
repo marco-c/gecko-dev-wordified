@@ -129,6 +129,16 @@ gfx
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
+class
+gfxContext
+;
 namespace
 mozilla
 {

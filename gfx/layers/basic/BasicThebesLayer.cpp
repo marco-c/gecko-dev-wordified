@@ -375,6 +375,13 @@ h
 for
 nsTArray
 nsTArray_Impl
+#
+include
+"
+AutoMaskData
+.
+h
+"
 struct
 gfxMatrix
 ;
