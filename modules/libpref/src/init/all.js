@@ -2582,7 +2582,7 @@ navigator
 .
 load_adapt
 "
-true
+false
 )
 ;
 pref
