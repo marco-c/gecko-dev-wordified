@@ -143,9 +143,6 @@ setTelemetryDetails
 "
 getTelemetryDetails
 "
-"
-callNoUpdateListeners
-"
 ]
 ;
 function
