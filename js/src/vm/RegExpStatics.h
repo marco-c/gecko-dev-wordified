@@ -331,7 +331,7 @@ JSObject
 *
 create
 (
-JSContext
+ExclusiveContext
 *
 cx
 GlobalObject

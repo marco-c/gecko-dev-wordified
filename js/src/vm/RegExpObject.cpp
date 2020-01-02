@@ -714,7 +714,16 @@ GlobalObject
 .
 getRegExpStatics
 (
+cx
 )
+;
+if
+(
+!
+res
+)
+return
+nullptr
 ;
 RegExpFlag
 origFlags

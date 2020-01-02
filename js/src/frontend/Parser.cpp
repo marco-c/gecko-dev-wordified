@@ -44120,6 +44120,17 @@ global
 >
 getRegExpStatics
 (
+context
+)
+;
+if
+(
+!
+res
+)
+return
+null
+(
 )
 ;
 reobj
