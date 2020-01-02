@@ -1379,11 +1379,6 @@ nsIntRegion
 aVisibleRegion
 =
 nullptr
-TiledLayerProperties
-*
-aLayerProperties
-=
-nullptr
 )
 ;
 virtual

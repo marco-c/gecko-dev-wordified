@@ -640,6 +640,10 @@ RenderHighPrecision
 nsIntRegion
 &
 aInvalidRegion
+const
+nsIntRegion
+&
+aVisibleRegion
 LayerManager
 :
 :
@@ -684,6 +688,10 @@ RenderLowPrecision
 nsIntRegion
 &
 aInvalidRegion
+const
+nsIntRegion
+&
+aVisibleRegion
 LayerManager
 :
 :
