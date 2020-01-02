@@ -1017,6 +1017,10 @@ aState
 ;
 if
 (
+mMediaElement
+&
+&
+(
 mReadyState
 =
 =
@@ -1033,6 +1037,7 @@ HTMLTrackElement
 :
 :
 ERROR
+)
 )
 {
 mMediaElement
