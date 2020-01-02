@@ -352,7 +352,7 @@ StrictVersion
 '
 4
 .
-0
+2
 '
 )
 XCODE_REQUIRED
