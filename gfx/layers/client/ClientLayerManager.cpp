@@ -122,17 +122,6 @@ PROFILER_LABEL
 #
 include
 "
-gfx3DMatrix
-.
-h
-"
-/
-/
-for
-gfx3DMatrix
-#
-include
-"
 gfxASurface
 .
 h
@@ -1206,7 +1195,7 @@ GetRoot
 >
 ComputeEffectiveTransforms
 (
-gfx3DMatrix
+Matrix4x4
 (
 )
 )

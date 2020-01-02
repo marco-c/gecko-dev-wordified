@@ -136,9 +136,6 @@ LayerManagerComposite
 .
 h
 "
-class
-gfx3DMatrix
-;
 struct
 nsIntPoint
 ;
@@ -242,7 +239,10 @@ void
 ComputeEffectiveTransforms
 (
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 aTransformToSurface
 )
@@ -401,7 +401,10 @@ void
 ComputeEffectiveTransforms
 (
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 aTransformToSurface
 )

@@ -202,9 +202,6 @@ h
 /
 for
 nsACString
-class
-gfx3DMatrix
-;
 struct
 nsIntPoint
 ;
@@ -303,7 +300,13 @@ void
 ComputeEffectiveTransforms
 (
 const
-gfx3DMatrix
+mozilla
+:
+:
+gfx
+:
+:
+Matrix4x4
 &
 aTransformToSurface
 )
