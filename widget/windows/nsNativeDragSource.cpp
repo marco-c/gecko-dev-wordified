@@ -149,13 +149,6 @@ nsIDragService
 .
 h
 "
-static
-NS_DEFINE_IID
-(
-kCDragServiceCID
-NS_DRAGSERVICE_CID
-)
-;
 /
 *
 *
@@ -358,6 +351,13 @@ DWORD
 grfKeyState
 )
 {
+static
+NS_DEFINE_IID
+(
+kCDragServiceCID
+NS_DRAGSERVICE_CID
+)
+;
 nsCOMPtr
 <
 nsIDragService

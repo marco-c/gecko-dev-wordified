@@ -107,6 +107,12 @@ MPL
 .
 *
 /
+#
+ifndef
+nsUXThemeConstants_h
+#
+define
+nsUXThemeConstants_h
 /
 *
 *
@@ -997,3 +1003,5 @@ widget
 :
 :
 themeconst
+#
+endif

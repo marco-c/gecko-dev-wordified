@@ -93,6 +93,12 @@ MPL
 .
 *
 /
+#
+ifndef
+nsImageClipboard_h
+#
+define
+nsImageClipboard_h
 /
 *
 Things
@@ -521,3 +527,5 @@ aColorMask
 /
 /
 nsImageFromClipboard
+#
+endif

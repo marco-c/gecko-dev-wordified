@@ -92,6 +92,12 @@ MPL
 *
 /
 #
+ifndef
+nsNativeThemeWin_h
+#
+define
+nsNativeThemeWin_h
+#
 include
 "
 nsITheme
@@ -588,3 +594,5 @@ mProgressIndeterminateTimeStamp
 ;
 }
 ;
+#
+endif
