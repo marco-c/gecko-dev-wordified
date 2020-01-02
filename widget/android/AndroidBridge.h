@@ -2059,8 +2059,6 @@ mThread
 GeckoLayerClient
 *
 mLayerClient
-=
-NULL
 ;
 /
 /
