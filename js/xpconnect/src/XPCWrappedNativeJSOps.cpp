@@ -4668,6 +4668,13 @@ nullptr
 /
 /
 deleteSpecial
+nullptr
+nullptr
+/
+/
+watch
+/
+unwatch
 XPC_WN_JSOp_Enumerate
 XPC_WN_JSOp_ThisObject
 }
