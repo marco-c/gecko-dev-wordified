@@ -10376,13 +10376,6 @@ c
 PoolHintPun
 php
 ;
-BufferOffset
-next
-=
-nextOffset
-(
-)
-;
 php
 .
 phd
@@ -10476,10 +10469,10 @@ diffB
 BOffImm
 >
 (
-next
+ret
 )
 c
-next
+ret
 )
 ;
 }
@@ -10490,7 +10483,7 @@ label
 >
 use
 (
-next
+ret
 .
 getOffset
 (
