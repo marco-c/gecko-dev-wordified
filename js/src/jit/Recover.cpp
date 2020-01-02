@@ -363,7 +363,7 @@ MATCH_OPCODES_
 )
 #
 undef
-DEFINE_OPCODES_
+MATCH_OPCODES_
 case
 Recover_Invalid
 :
