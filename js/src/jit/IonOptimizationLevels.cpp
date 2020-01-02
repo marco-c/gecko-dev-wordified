@@ -205,6 +205,10 @@ rangeAnalysis_
 =
 true
 ;
+autoTruncate_
+=
+true
+;
 registerAllocator_
 =
 RegisterAllocator_LSRA
@@ -288,6 +292,10 @@ edgeCaseAnalysis_
 false
 ;
 eliminateRedundantChecks_
+=
+false
+;
+autoTruncate_
 =
 false
 ;
