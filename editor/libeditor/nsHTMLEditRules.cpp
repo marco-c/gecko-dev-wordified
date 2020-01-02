@@ -62436,7 +62436,7 @@ NS_ERROR_ILLEGAL_VALUE
 }
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 element
 =
@@ -62470,7 +62470,10 @@ mHTMLEditor
 -
 >
 mHTMLCSSUtils
+GetAsDOMNode
+(
 element
+)
 )
 ;
 nsAutoString
@@ -62779,10 +62782,11 @@ mHTMLCSSUtils
 >
 SetCSSProperty
 (
+*
 element
+*
 marginProperty
 newValue
-false
 )
 ;
 return
@@ -62802,10 +62806,11 @@ mHTMLCSSUtils
 >
 RemoveCSSProperty
 (
+*
 element
+*
 marginProperty
 value
-false
 )
 ;
 /
