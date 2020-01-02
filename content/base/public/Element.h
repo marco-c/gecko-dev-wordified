@@ -735,9 +735,6 @@ namespace
 mozilla
 {
 class
-ElementAnimation
-;
-class
 EventChainPostVisitor
 ;
 class
@@ -755,6 +752,9 @@ EventStateManager
 namespace
 dom
 {
+class
+AnimationPlayer
+;
 class
 Link
 ;
@@ -4619,7 +4619,7 @@ nsTArray
 <
 nsRefPtr
 <
-ElementAnimation
+AnimationPlayer
 >
 >
 &

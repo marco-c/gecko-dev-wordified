@@ -2143,9 +2143,6 @@ static
 TimingFunction
 ToTimingFunction
 (
-css
-:
-:
 ComputedTimingFunction
 &
 aCTF
@@ -2253,10 +2250,7 @@ nsIFrame
 aFrame
 nsCSSProperty
 aProperty
-mozilla
-:
-:
-ElementAnimation
+AnimationPlayer
 *
 ea
 Layer
@@ -2753,10 +2747,7 @@ animIdx
 +
 )
 {
-mozilla
-:
-:
-ElementAnimation
+AnimationPlayer
 *
 anim
 =

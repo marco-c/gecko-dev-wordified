@@ -2168,7 +2168,7 @@ do
 -
 i
 ;
-ElementAnimation
+AnimationPlayer
 *
 animation
 =
@@ -2639,7 +2639,7 @@ i_end
 i
 )
 {
-ElementAnimation
+AnimationPlayer
 *
 animation
 =
@@ -5506,7 +5506,7 @@ do
 -
 i
 ;
-ElementAnimation
+AnimationPlayer
 *
 anim
 =
