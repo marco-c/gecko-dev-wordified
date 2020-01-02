@@ -195,7 +195,7 @@ NS_STATIC_ATOM_BUFFER
 name_
 #
 #
-_buffer
+_pseudo_class_buffer
 value_
 )
 #
@@ -230,7 +230,7 @@ NS_STATIC_ATOM
 name_
 #
 #
-_buffer
+_pseudo_class_buffer
 &
 sPseudoClass_
 #

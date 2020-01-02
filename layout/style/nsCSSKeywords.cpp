@@ -191,7 +191,7 @@ undef
 CSS_KEY
 static
 int32_t
-gTableRefCount
+gKeywordTableRefCount
 ;
 static
 nsStaticCaseInsensitiveNameTable
@@ -212,7 +212,7 @@ if
 0
 =
 =
-gTableRefCount
+gKeywordTableRefCount
 +
 +
 )
@@ -390,7 +390,7 @@ if
 =
 -
 -
-gTableRefCount
+gKeywordTableRefCount
 )
 {
 if

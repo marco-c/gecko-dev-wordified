@@ -185,13 +185,9 @@ nsIDocument
 .
 h
 "
+using
 namespace
-css
-=
 mozilla
-:
-:
-css
 ;
 /
 *

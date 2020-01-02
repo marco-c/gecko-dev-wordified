@@ -351,7 +351,7 @@ mozilla
 ;
 static
 int32_t
-gTableRefCount
+gPropertyTableRefCount
 ;
 static
 nsStaticCaseInsensitiveNameTable
@@ -632,7 +632,7 @@ if
 0
 =
 =
-gTableRefCount
+gPropertyTableRefCount
 +
 +
 )
@@ -2071,7 +2071,7 @@ if
 =
 -
 -
-gTableRefCount
+gPropertyTableRefCount
 )
 {
 delete
