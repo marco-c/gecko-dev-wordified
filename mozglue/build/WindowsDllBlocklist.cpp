@@ -875,6 +875,14 @@ dll
 "
 ALL_VERSIONS
 }
+/
+/
+sprotector
+.
+dll
+crashes
+bug
+957258
 {
 "
 sprotector
@@ -882,10 +890,6 @@ sprotector
 dll
 "
 ALL_VERSIONS
-DllBlockInfo
-:
-:
-BLOCK_WIN8PLUS_ONLY
 }
 /
 /
