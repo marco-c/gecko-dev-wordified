@@ -1117,7 +1117,7 @@ EVENT
 input
 NS_EDITOR_INPUT
 EventNameType_HTMLXUL
-NS_EDITOR_INPUT_EVENT
+eEditorInputEventClass
 )
 EVENT
 (

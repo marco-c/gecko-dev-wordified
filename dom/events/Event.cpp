@@ -3398,7 +3398,7 @@ break
 break
 ;
 case
-NS_EDITOR_INPUT_EVENT
+eEditorInputEventClass
 :
 /
 /

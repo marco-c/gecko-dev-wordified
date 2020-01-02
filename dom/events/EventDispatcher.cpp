@@ -4228,7 +4228,7 @@ AsWheelEvent
 )
 ;
 case
-NS_EDITOR_INPUT_EVENT
+eEditorInputEventClass
 :
 return
 NS_NewDOMInputEvent
