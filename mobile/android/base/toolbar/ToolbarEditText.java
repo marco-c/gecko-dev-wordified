@@ -657,6 +657,13 @@ try
 {
 imm
 .
+restartInput
+(
+this
+)
+;
+imm
+.
 hideSoftInputFromWindow
 (
 getWindowToken
