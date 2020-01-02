@@ -1211,6 +1211,11 @@ our
 listen
 socket
 .
+if
+(
+listen_sock_
+)
+{
 NR_SOCKET
 fd
 ;
@@ -1231,6 +1236,7 @@ fd
 NR_ASYNC_WAIT_READ
 )
 ;
+}
 }
 /
 /
