@@ -62,13 +62,6 @@ nsAHtml5TreeBuilderState_h
 #
 define
 nsAHtml5TreeBuilderState_h
-#
-include
-"
-nsIContentHandle
-.
-h
-"
 /
 *
 *
@@ -193,7 +186,8 @@ getTemplateModeStackLength
 0
 ;
 virtual
-nsIContentHandle
+nsIContent
+*
 *
 getFormPointer
 (
@@ -202,7 +196,8 @@ getFormPointer
 0
 ;
 virtual
-nsIContentHandle
+nsIContent
+*
 *
 getHeadPointer
 (
@@ -211,7 +206,8 @@ getHeadPointer
 0
 ;
 virtual
-nsIContentHandle
+nsIContent
+*
 *
 getDeepTreeSurrogateParent
 (

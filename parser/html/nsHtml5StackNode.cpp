@@ -279,7 +279,7 @@ h
 #
 include
 "
-nsTraceRefcnt
+nsISupportsImpl
 .
 h
 "
@@ -329,13 +329,6 @@ h
 include
 "
 nsHtml5Macros
-.
-h
-"
-#
-include
-"
-nsIContentHandle
 .
 h
 "
@@ -499,7 +492,8 @@ ns
 nsIAtom
 *
 name
-nsIContentHandle
+nsIContent
+*
 *
 node
 nsIAtom
@@ -553,7 +547,8 @@ nsHtml5StackNode
 nsHtml5ElementName
 *
 elementName
-nsIContentHandle
+nsIContent
+*
 *
 node
 )
@@ -635,7 +630,8 @@ nsHtml5StackNode
 nsHtml5ElementName
 *
 elementName
-nsIContentHandle
+nsIContent
+*
 *
 node
 nsHtml5HtmlAttributes
@@ -720,7 +716,8 @@ nsHtml5StackNode
 nsHtml5ElementName
 *
 elementName
-nsIContentHandle
+nsIContent
+*
 *
 node
 nsIAtom
@@ -782,7 +779,8 @@ elementName
 nsIAtom
 *
 popName
-nsIContentHandle
+nsIContent
+*
 *
 node
 )
@@ -841,7 +839,8 @@ nsHtml5StackNode
 nsHtml5ElementName
 *
 elementName
-nsIContentHandle
+nsIContent
+*
 *
 node
 nsIAtom
