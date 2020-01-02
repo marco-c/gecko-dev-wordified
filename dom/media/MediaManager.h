@@ -543,6 +543,15 @@ StopScreenWindowSharing
 (
 )
 ;
+void
+StopTrack
+(
+TrackID
+aID
+bool
+aIsAudio
+)
+;
 /
 /
 mVideo
