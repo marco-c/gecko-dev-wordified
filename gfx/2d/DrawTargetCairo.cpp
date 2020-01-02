@@ -4774,6 +4774,14 @@ cairo_image_surface_get_data
 aSurface
 )
 ;
+int
+surfStride
+=
+cairo_image_surface_get_stride
+(
+aSurface
+)
+;
 /
 /
 In
@@ -4867,11 +4875,7 @@ surfData
 +
 y
 *
-aSize
-.
-width
-*
-aPixelWidth
+surfStride
 aData
 +
 y
