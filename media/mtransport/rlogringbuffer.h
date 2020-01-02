@@ -520,6 +520,15 @@ vector
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 m_cpp_utils
 .
 h
@@ -830,6 +839,9 @@ also
 /
 uint32_t
 log_limit_
+;
+OffTheBooksMutex
+mutex_
 ;
 DISALLOW_COPY_ASSIGN
 (
