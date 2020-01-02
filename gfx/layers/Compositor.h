@@ -3329,6 +3329,9 @@ used
 RenderTargetRect
 ClipRectInLayersCoordinates
 (
+Layer
+*
+aLayer
 RenderTargetIntRect
 aClip
 )
