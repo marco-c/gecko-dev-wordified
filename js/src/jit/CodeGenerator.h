@@ -2099,6 +2099,10 @@ numFormals
 JSObject
 *
 templateObject
+bool
+saveAndRestore
+Register
+resultreg
 )
 ;
 bool
