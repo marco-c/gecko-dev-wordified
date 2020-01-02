@@ -816,6 +816,12 @@ MetadataWriteTimer
 >
 mTimer
 ;
+nsCOMPtr
+<
+CacheFileIOListener
+>
+mDoomAfterOpenListener
+;
 nsRefPtrHashtable
 <
 nsUint32HashKey

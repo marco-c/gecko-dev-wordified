@@ -383,6 +383,8 @@ SHA1Sum
 Hash
 *
 aHash
+bool
+aReturnDoomed
 CacheFileHandle
 *
 *
