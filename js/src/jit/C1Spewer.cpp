@@ -227,8 +227,11 @@ this
 -
 >
 script
-=
+.
+repoint
+(
 script
+)
 ;
 fprintf
 (
