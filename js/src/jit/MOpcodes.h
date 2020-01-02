@@ -499,6 +499,11 @@ ToString
 \
 _
 (
+NewSlots
+)
+\
+_
+(
 NewArray
 )
 \
