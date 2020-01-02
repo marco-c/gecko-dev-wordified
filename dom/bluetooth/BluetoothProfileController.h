@@ -376,7 +376,7 @@ Major
 device
 class
 =
-0xA
+0x5
 Peripheral
 #
 define
@@ -391,7 +391,7 @@ cod
 )
 =
 =
-0xa
+0x5
 )
 class
 BluetoothProfileManagerBase
