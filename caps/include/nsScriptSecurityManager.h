@@ -1899,10 +1899,6 @@ char
 aClassName
 jsid
 aProperty
-void
-*
-*
-aCachedClassPolicy
 )
 ;
 nsresult
@@ -1937,10 +1933,6 @@ jsid
 aProperty
 uint32_t
 aAction
-ClassPolicy
-*
-*
-aCachedClassPolicy
 SecurityLevel
 *
 result

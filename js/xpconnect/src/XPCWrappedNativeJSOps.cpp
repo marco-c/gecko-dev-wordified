@@ -1407,12 +1407,6 @@ GetClassInfo
 (
 )
 id
-wrapper
--
->
-GetSecurityInfoAddr
-(
-)
 )
 )
 )
