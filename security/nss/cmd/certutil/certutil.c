@@ -14499,7 +14499,7 @@ SEC_CERTIFICATE_VERSION_1
 )
 :
 /
-/
+*
 The
 initial
 version
@@ -14509,8 +14509,7 @@ certificates
 is
 version
 one
-/
-/
+*
 and
 this
 default
@@ -14522,6 +14521,8 @@ implicit
 DER
 encoding
 .
+*
+/
 cert
 -
 >
@@ -14556,7 +14557,7 @@ case
 3
 :
 /
-/
+*
 unspecified
 format
 (
@@ -14567,6 +14568,8 @@ version
 certificate
 )
 .
+*
+/
 *
 (
 cert
