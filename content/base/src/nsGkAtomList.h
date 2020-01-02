@@ -3650,6 +3650,13 @@ intersection
 )
 GK_ATOM
 (
+is
+"
+is
+"
+)
+GK_ATOM
+(
 iscontainer
 "
 iscontainer
