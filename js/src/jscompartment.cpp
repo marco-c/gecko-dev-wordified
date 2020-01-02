@@ -341,6 +341,14 @@ marked
 (
 true
 )
+addonId
+(
+options
+.
+addonIdOrNull
+(
+)
+)
 #
 ifdef
 DEBUG

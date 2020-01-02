@@ -680,6 +680,12 @@ name
 /
 /
 IDX_NAME
+"
+undefined
+"
+/
+/
+IDX_UNDEFINED
 }
 ;
 /
