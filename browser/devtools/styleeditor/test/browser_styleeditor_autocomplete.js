@@ -1012,7 +1012,7 @@ key
 ;
 mods
 .
-accelKey
+ctrlKey
 =
 true
 ;
