@@ -6666,7 +6666,7 @@ i
 +
 )
 {
-_DefineValueProperty
+_DefineDataProperty
 (
 subset
 i
@@ -6682,7 +6682,7 @@ ATTR_NONWRITABLE
 )
 ;
 }
-_DefineValueProperty
+_DefineDataProperty
 (
 subset
 "
@@ -7170,7 +7170,7 @@ p
 v
 )
 {
-_DefineValueProperty
+_DefineDataProperty
 (
 o
 p
