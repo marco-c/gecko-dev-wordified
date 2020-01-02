@@ -3668,7 +3668,7 @@ return
 ;
 }
 }
-RefPtr
+TemporaryRef
 <
 gfx
 :
