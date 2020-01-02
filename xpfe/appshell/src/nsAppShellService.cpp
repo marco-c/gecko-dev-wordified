@@ -3373,10 +3373,6 @@ UsePrivateBrowsing
 }
 if
 (
-!
-isUsingRemoteTabs
-&
-&
 parentContext
 )
 {
