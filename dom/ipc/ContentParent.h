@@ -1197,6 +1197,11 @@ ShouldContinueFromReplyTimeout
 )
 MOZ_OVERRIDE
 ;
+bool
+ShouldSandboxContentProcesses
+(
+)
+;
 private
 :
 static
