@@ -183,16 +183,6 @@ bsp
 SearchCountMeasurement3
 .
 prototype
-getEngines
-:
-function
-(
-)
-{
-return
-DEFAULT_ENGINES
-;
-}
 }
 ;
 function
@@ -372,8 +362,6 @@ provider
 recordSearch
 (
 engine
-.
-name
 "
 abouthome
 "
@@ -385,8 +373,6 @@ provider
 recordSearch
 (
 engine
-.
-name
 "
 contextmenu
 "
@@ -398,8 +384,6 @@ provider
 recordSearch
 (
 engine
-.
-name
 "
 searchbar
 "
@@ -411,8 +395,6 @@ provider
 recordSearch
 (
 engine
-.
-name
 "
 urlbar
 "
@@ -442,8 +424,6 @@ DEFAULT_ENGINES
 [
 0
 ]
-.
-name
 "
 bad
 source
@@ -647,10 +627,7 @@ let
 identifier
 =
 "
-other
--
-Not
-Default
+notdef
 "
 ;
 for
