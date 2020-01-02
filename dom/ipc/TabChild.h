@@ -2595,7 +2595,10 @@ nsIURI
 mLastURI
 ;
 FrameMetrics
-mLastMetrics
+mLastRootMetrics
+;
+FrameMetrics
+mLastSubFrameMetrics
 ;
 RenderFrameChild
 *
