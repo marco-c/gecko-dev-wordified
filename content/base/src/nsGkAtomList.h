@@ -4981,6 +4981,13 @@ onAppCommand
 )
 GK_ATOM
 (
+onattributechanged
+"
+onattributechanged
+"
+)
+GK_ATOM
+(
 onaudioprocess
 "
 onaudioprocess
