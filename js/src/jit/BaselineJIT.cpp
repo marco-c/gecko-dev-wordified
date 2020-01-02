@@ -681,7 +681,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -773,7 +773,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -943,7 +943,7 @@ runtime
 )
 -
 >
-getIonRuntime
+getJitRuntime
 (
 cx
 )
@@ -1610,7 +1610,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -1799,7 +1799,7 @@ compartment
 )
 -
 >
-ensureIonCompartmentExists
+ensureJitCompartmentExists
 (
 cx
 )
@@ -5021,7 +5021,7 @@ DebugTraps
 rt
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -5856,7 +5856,7 @@ void
 jit
 :
 :
-IonCompartment
+JitCompartment
 :
 :
 toggleBaselineStubBarriers

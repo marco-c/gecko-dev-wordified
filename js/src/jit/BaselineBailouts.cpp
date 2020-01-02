@@ -2608,7 +2608,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -2633,7 +2633,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -2672,7 +2672,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -10220,7 +10220,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

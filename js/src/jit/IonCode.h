@@ -3645,10 +3645,10 @@ struct
 VMFunction
 ;
 class
-IonCompartment
+JitCompartment
 ;
 class
-IonRuntime
+JitRuntime
 ;
 struct
 AutoFlushCache
@@ -3666,7 +3666,7 @@ char
 *
 name_
 ;
-IonRuntime
+JitRuntime
 *
 runtime_
 ;
@@ -3705,7 +3705,7 @@ const
 char
 *
 nonce
-IonRuntime
+JitRuntime
 *
 rt
 )
@@ -3835,7 +3835,7 @@ AutoFlushInhibitor
 {
 private
 :
-IonRuntime
+JitRuntime
 *
 runtime_
 ;
@@ -3847,7 +3847,7 @@ public
 :
 AutoFlushInhibitor
 (
-IonRuntime
+JitRuntime
 *
 rt
 )

@@ -179,7 +179,7 @@ include
 "
 jit
 /
-IonCompartment
+JitCompartment
 .
 h
 "
@@ -279,9 +279,9 @@ ensureBallast
 )
 ;
 }
-IonCompartment
+JitCompartment
 *
-ionCompartment
+jitCompartment
 (
 )
 const
@@ -290,14 +290,14 @@ return
 compartment
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 ;
 }
-IonRuntime
+JitRuntime
 *
-ionRuntime
+jitRuntime
 (
 )
 const
@@ -311,7 +311,7 @@ GetIonContext
 runtime
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 ;

@@ -146,7 +146,7 @@ include
 "
 jit
 /
-IonCompartment
+IonFrames
 .
 h
 "
@@ -155,7 +155,7 @@ include
 "
 jit
 /
-IonFrames
+JitCompartment
 .
 h
 "
@@ -2031,7 +2031,7 @@ handler
 gen
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -10950,7 +10950,7 @@ thunk
 gen
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

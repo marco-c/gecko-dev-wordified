@@ -122,15 +122,6 @@ include
 "
 jit
 /
-IonCompartment
-.
-h
-"
-#
-include
-"
-jit
-/
 IonFrames
 .
 h
@@ -141,6 +132,15 @@ include
 jit
 /
 IonLinker
+.
+h
+"
+#
+include
+"
+jit
+/
+JitCompartment
 .
 h
 "
@@ -300,7 +300,7 @@ convention
 /
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generateEnterJIT
@@ -2635,7 +2635,7 @@ code
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generateInvalidator
@@ -2666,7 +2666,7 @@ in
 x86
 '
 s
-IonRuntime
+JitRuntime
 :
 :
 generateInvalidator
@@ -2911,7 +2911,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -2967,7 +2967,7 @@ code
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generateArgumentsRectifier
@@ -3867,7 +3867,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -3886,7 +3886,7 @@ bailoutTail
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generateBailoutTable
@@ -3913,7 +3913,7 @@ tables
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generateBailoutHandler
@@ -3973,7 +3973,7 @@ code
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generateVMWrapper
@@ -5086,7 +5086,7 @@ wrapper
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generatePreBarrier
@@ -5302,7 +5302,7 @@ HandleDebugTrap
 ;
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generateDebugTrapHandler
@@ -5446,7 +5446,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -5648,7 +5648,7 @@ codeDbg
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generateExceptionTailStub
@@ -5707,7 +5707,7 @@ code
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 generateBailoutTailStub

@@ -144,7 +144,7 @@ include
 "
 jit
 /
-IonCompartment
+IonFrames
 .
 h
 "
@@ -153,7 +153,7 @@ include
 "
 jit
 /
-IonFrames
+JitCompartment
 .
 h
 "
@@ -1638,7 +1638,7 @@ GetIonContext
 runtime
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

@@ -136,7 +136,7 @@ include
 "
 jit
 /
-IonCompartment
+JitCompartment
 .
 h
 "
@@ -555,7 +555,7 @@ code
 rt
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

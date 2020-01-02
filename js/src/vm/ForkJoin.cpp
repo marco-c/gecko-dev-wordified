@@ -193,7 +193,7 @@ include
 "
 jit
 /
-IonCompartment
+JitCompartment
 .
 h
 "
@@ -8601,7 +8601,7 @@ enter_
 rt
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

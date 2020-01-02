@@ -158,7 +158,7 @@ include
 "
 jit
 /
-IonCompartment
+IonFrames
 .
 h
 "
@@ -167,7 +167,7 @@ include
 "
 jit
 /
-IonFrames
+JitCompartment
 .
 h
 "
@@ -3059,7 +3059,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -3072,7 +3072,7 @@ cx
 runtime
 (
 )
-IonRuntime
+JitRuntime
 :
 :
 BackedgeLoopHeader

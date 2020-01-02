@@ -150,7 +150,7 @@ include
 "
 jit
 /
-IonCompartment
+JitCompartment
 .
 h
 "
@@ -1533,14 +1533,14 @@ if
 comp
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 )
 comp
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
