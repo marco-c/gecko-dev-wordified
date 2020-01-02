@@ -966,7 +966,7 @@ that
 table
 .
 static
-int
+void
 StickyEnabledPrefChangeCallback
 (
 const
@@ -1143,9 +1143,6 @@ eCSSKeyword_sticky
 :
 eCSSKeyword_UNKNOWN
 ;
-return
-0
-;
 }
 /
 /
@@ -1199,7 +1196,7 @@ those
 tables
 .
 static
-int
+void
 TextAlignTrueEnabledPrefChangeCallback
 (
 const
@@ -1400,9 +1397,6 @@ isTextAlignTrueEnabled
 eCSSKeyword_true
 :
 eCSSKeyword_UNKNOWN
-;
-return
-0
 ;
 }
 template

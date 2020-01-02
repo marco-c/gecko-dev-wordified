@@ -600,7 +600,7 @@ aColor
 )
 ;
 static
-int
+void
 OnPrefChanged
 (
 const

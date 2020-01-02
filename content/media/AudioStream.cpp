@@ -347,7 +347,7 @@ sCubebLatencyPrefSet
 static
 *
 /
-int
+void
 AudioStream
 :
 :
@@ -533,9 +533,6 @@ value
 )
 ;
 }
-return
-0
-;
 }
 /
 *

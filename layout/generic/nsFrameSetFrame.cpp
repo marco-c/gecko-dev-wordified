@@ -1629,7 +1629,7 @@ nsContainerFrame
 /
 /
 static
-int
+void
 nsHTMLFramesetFrame
 :
 :
@@ -1769,9 +1769,6 @@ MODIFICATION
 )
 ;
 }
-return
-0
-;
 }
 void
 nsHTMLFramesetFrame

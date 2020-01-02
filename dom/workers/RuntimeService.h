@@ -1019,7 +1019,7 @@ aClosure
 )
 ;
 static
-int
+void
 WorkerPrefChanged
 (
 const

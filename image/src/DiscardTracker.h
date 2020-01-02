@@ -672,7 +672,7 @@ DiscardNow
 *
 /
 friend
-int
+void
 DiscardTimeoutChangedCallback
 (
 const

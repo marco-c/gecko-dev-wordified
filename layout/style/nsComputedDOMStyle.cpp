@@ -26064,7 +26064,7 @@ valueList
 ;
 }
 static
-int
+void
 MarkComputedStyleMapDirty
 (
 const
@@ -26089,9 +26089,6 @@ aData
 MarkDirty
 (
 )
-;
-return
-0
 ;
 }
 /

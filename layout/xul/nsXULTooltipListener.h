@@ -406,7 +406,7 @@ nsXULTooltipListener
 mInstance
 ;
 static
-int
+void
 ToolbarTipsPrefChanged
 (
 const

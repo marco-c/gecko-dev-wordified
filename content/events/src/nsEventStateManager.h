@@ -1349,7 +1349,7 @@ Init
 )
 ;
 static
-int
+void
 OnChange
 (
 const
@@ -2505,7 +2505,7 @@ WheelPrefs
 )
 ;
 static
-int
+void
 OnPrefChanged
 (
 const

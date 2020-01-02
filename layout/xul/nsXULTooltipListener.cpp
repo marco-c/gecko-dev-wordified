@@ -1802,7 +1802,7 @@ nsXULTooltipListener
 /
 /
 static
-int
+void
 nsXULTooltipListener
 :
 :
@@ -1833,9 +1833,6 @@ toolbar_tips
 "
 sShowTooltips
 )
-;
-return
-0
 ;
 }
 /

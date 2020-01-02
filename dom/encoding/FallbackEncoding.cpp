@@ -627,7 +627,7 @@ aFallback
 /
 /
 PrefChangedFunc
-int
+void
 FallbackEncoding
 :
 :
@@ -667,9 +667,6 @@ sInstance
 Invalidate
 (
 )
-;
-return
-0
 ;
 }
 void

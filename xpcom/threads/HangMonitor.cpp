@@ -464,7 +464,7 @@ endif
 /
 /
 PrefChangedFunc
-int
+void
 PrefChanged
 (
 const
@@ -558,9 +558,6 @@ Notify
 )
 ;
 }
-return
-0
-;
 }
 void
 Crash

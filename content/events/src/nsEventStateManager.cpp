@@ -33463,7 +33463,7 @@ nullptr
 /
 /
 static
-int
+void
 nsEventStateManager
 :
 :
@@ -33512,9 +33512,6 @@ GetInstance
 Reset
 (
 )
-;
-return
-0
 ;
 }
 nsEventStateManager
@@ -35354,7 +35351,7 @@ popup_allowed_events
 /
 /
 static
-int
+void
 nsEventStateManager
 :
 :
@@ -35399,9 +35396,6 @@ PopupAllowedEventsChanged
 )
 ;
 }
-return
-0
-;
 }
 /
 /

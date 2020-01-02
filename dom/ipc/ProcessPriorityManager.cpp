@@ -1033,7 +1033,7 @@ ProcessPriorityManagerImpl
 sSingleton
 ;
 static
-int
+void
 PrefChangedCallback
 (
 const
@@ -1790,7 +1790,7 @@ nsIObserver
 static
 *
 /
-int
+void
 ProcessPriorityManagerImpl
 :
 :
@@ -1808,9 +1808,6 @@ aClosure
 StaticInit
 (
 )
-;
-return
-0
 ;
 }
 /

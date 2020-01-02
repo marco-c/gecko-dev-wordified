@@ -1026,7 +1026,7 @@ nsIScriptGlobalObject
 mGlobalObjectRef
 ;
 static
-int
+void
 JSOptionChangedCallback
 (
 const

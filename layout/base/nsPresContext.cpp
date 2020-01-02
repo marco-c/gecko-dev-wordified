@@ -835,7 +835,7 @@ return
 false
 ;
 }
-int
+void
 nsPresContext
 :
 :
@@ -895,12 +895,6 @@ aPrefName
 )
 ;
 }
-return
-0
-;
-/
-/
-PREF_OK
 }
 void
 nsPresContext

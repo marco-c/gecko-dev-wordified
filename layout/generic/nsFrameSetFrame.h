@@ -955,7 +955,7 @@ aBorderFrame
 )
 ;
 static
-int
+void
 FrameResizePrefCallback
 (
 const

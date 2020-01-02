@@ -233,7 +233,7 @@ Truncate
 ;
 }
 static
-int
+void
 PrefChanged
 (
 const

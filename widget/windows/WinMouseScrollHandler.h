@@ -1683,7 +1683,7 @@ Init
 )
 ;
 static
-int
+void
 OnChange
 (
 const
@@ -1708,9 +1708,6 @@ aClosure
 MarkDirty
 (
 )
-;
-return
-0
 ;
 }
 bool
