@@ -87,9 +87,7 @@ rgb
 )
 %
 define
-nested
--
-buttons
+nestedButtons
 #
 zoom
 -
@@ -1868,9 +1866,7 @@ moz
 -
 any
 (
-nested
--
-buttons
+nestedButtons
 )
 :
 not
@@ -1894,9 +1890,7 @@ moz
 -
 any
 (
-nested
--
-buttons
+nestedButtons
 )
 :
 not
@@ -1920,9 +1914,7 @@ moz
 -
 any
 (
-nested
--
-buttons
+nestedButtons
 )
 :
 not
@@ -1944,9 +1936,7 @@ moz
 -
 any
 (
-nested
--
-buttons
+nestedButtons
 )
 :
 not
