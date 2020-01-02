@@ -196,6 +196,11 @@ BindTexture
 (
 GLenum
 aTextureUnit
+gfx
+:
+:
+Filter
+aFilter
 )
 MOZ_OVERRIDE
 ;

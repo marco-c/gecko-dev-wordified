@@ -201,6 +201,11 @@ BindTexture
 (
 GLenum
 activetex
+gfx
+:
+:
+Filter
+aFilter
 )
 MOZ_OVERRIDE
 ;
