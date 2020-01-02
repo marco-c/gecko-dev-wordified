@@ -562,7 +562,7 @@ SourceMediaStream
 *
 mSource
 ;
-nsRefPtr
+nsAutoPtr
 <
 SineWaveGenerator
 >
