@@ -3591,6 +3591,15 @@ MOVEFILE_REPLACE_EXISTING
 )
 /
 /
+GetFileAttributes
+error
+constant
+INT_CONSTANT
+(
+INVALID_FILE_ATTRIBUTES
+)
+/
+/
 Errors
 INT_CONSTANT
 (
