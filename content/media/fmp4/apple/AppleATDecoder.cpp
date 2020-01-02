@@ -195,7 +195,7 @@ ifdef
 PR_LOGGING
 PRLogModuleInfo
 *
-GetDemuxerLog
+GetAppleMediaLog
 (
 )
 ;
@@ -209,7 +209,7 @@ LOG
 )
 PR_LOG
 (
-GetDemuxerLog
+GetAppleMediaLog
 (
 )
 PR_LOG_DEBUG
