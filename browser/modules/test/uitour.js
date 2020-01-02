@@ -445,6 +445,14 @@ i
 ]
 .
 icon
+style
+:
+buttons
+[
+i
+]
+.
+style
 callbackID
 :
 _waitForCallback
