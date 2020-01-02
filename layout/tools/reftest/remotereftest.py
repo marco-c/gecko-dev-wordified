@@ -3868,7 +3868,6 @@ devPixelsPerPx
 .
 0
 "
-;
         
 #
 Disable
