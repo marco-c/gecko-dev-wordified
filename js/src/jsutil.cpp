@@ -220,10 +220,9 @@ size
 )
 {
 return
-js_malloc
+js_calloc
 (
 items
-*
 size
 )
 ;
