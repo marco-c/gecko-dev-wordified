@@ -630,7 +630,7 @@ use
 all
 requested
 color
-attachements
+attachments
 .
 See
 DrawBuffersWEBGL
