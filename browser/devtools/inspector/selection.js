@@ -112,6 +112,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 Cu
@@ -585,17 +590,19 @@ if
 detached
 &
 &
-this
-.
-isNode
-(
-)
-&
-&
 !
 this
 .
 isConnected
+(
+)
+)
+{
+if
+(
+this
+.
+isNode
 (
 )
 )
@@ -606,6 +613,7 @@ m
 .
 target
 ;
+}
 detached
 =
 true
@@ -630,10 +638,24 @@ true
 ;
 }
 }
+/
+/
+Fire
+our
+events
+depending
+on
+what
+changed
+in
+the
+mutations
+array
 if
 (
 attributeChange
 )
+{
 this
 .
 emit
@@ -645,10 +667,12 @@ changed
 "
 )
 ;
+}
 if
 (
 pseudoChange
 )
+{
 this
 .
 emit
@@ -658,6 +682,7 @@ pseudoclass
 "
 )
 ;
+}
 if
 (
 detached
@@ -698,7 +723,6 @@ parentNode
 destroy
 :
 function
-SN_destroy
 (
 )
 {
@@ -784,7 +808,6 @@ safe
 setNode
 :
 function
-SN_setNode
 (
 value
 reason
@@ -1069,7 +1092,6 @@ _nodeFront
 isRoot
 :
 function
-SN_isRootNode
 (
 )
 {
@@ -1098,7 +1120,6 @@ isDocumentElement
 isNode
 :
 function
-SN_isNode
 (
 )
 {
@@ -1164,7 +1185,6 @@ true
 isLocal
 :
 function
-SN_nsLocal
 (
 )
 {
@@ -1179,7 +1199,6 @@ _node
 isConnected
 :
 function
-SN_isConnected
 (
 )
 {
@@ -1332,7 +1351,6 @@ false
 isHTMLNode
 :
 function
-SN_isHTMLNode
 (
 )
 {
@@ -1380,7 +1398,6 @@ type
 isElementNode
 :
 function
-SN_isElementNode
 (
 )
 {
@@ -1409,7 +1426,6 @@ ELEMENT_NODE
 isAttributeNode
 :
 function
-SN_isAttributeNode
 (
 )
 {
@@ -1438,7 +1454,6 @@ ATTRIBUTE_NODE
 isTextNode
 :
 function
-SN_isTextNode
 (
 )
 {
@@ -1467,7 +1482,6 @@ TEXT_NODE
 isCDATANode
 :
 function
-SN_isCDATANode
 (
 )
 {
@@ -1496,7 +1510,6 @@ CDATA_SECTION_NODE
 isEntityRefNode
 :
 function
-SN_isEntityRefNode
 (
 )
 {
@@ -1525,7 +1538,6 @@ ENTITY_REFERENCE_NODE
 isEntityNode
 :
 function
-SN_isEntityNode
 (
 )
 {
@@ -1554,7 +1566,6 @@ ENTITY_NODE
 isProcessingInstructionNode
 :
 function
-SN_isProcessingInstructionNode
 (
 )
 {
@@ -1583,7 +1594,6 @@ PROCESSING_INSTRUCTION_NODE
 isCommentNode
 :
 function
-SN_isCommentNode
 (
 )
 {
@@ -1612,7 +1622,6 @@ PROCESSING_INSTRUCTION_NODE
 isDocumentNode
 :
 function
-SN_isDocumentNode
 (
 )
 {
@@ -1641,7 +1650,6 @@ DOCUMENT_NODE
 isDocumentTypeNode
 :
 function
-SN_isDocumentTypeNode
 (
 )
 {
@@ -1670,7 +1678,6 @@ DOCUMENT_TYPE_NODE
 isDocumentFragmentNode
 :
 function
-SN_isDocumentFragmentNode
 (
 )
 {
@@ -1699,7 +1706,6 @@ DOCUMENT_FRAGMENT_NODE
 isNotationNode
 :
 function
-SN_isNotationNode
 (
 )
 {
@@ -1726,3 +1732,4 @@ NOTATION_NODE
 ;
 }
 }
+;
