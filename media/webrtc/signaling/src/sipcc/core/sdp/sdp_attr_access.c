@@ -14634,6 +14634,14 @@ attr_type
 =
 SDP_ATTR_LABEL
 )
+&
+&
+(
+attr_type
+!
+=
+SDP_ATTR_IDENTITY
+)
 )
 {
 if
