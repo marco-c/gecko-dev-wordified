@@ -21330,12 +21330,6 @@ JS
 CompileOffThread
 (
 cx
-cx
--
->
-global
-(
-)
 options
 chars
 length
