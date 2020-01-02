@@ -580,14 +580,9 @@ Bug
 did_work
 |
 =
-AndroidBridge
+GeckoAppShell
 :
 :
-Bridge
-(
-)
--
->
 PumpMessageLoop
 (
 )
