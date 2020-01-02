@@ -984,7 +984,7 @@ aManifestURL
 {
 aPermission
 .
-AssignASCII
+AssignLiteral
 (
 "
 indexedDB
@@ -1003,11 +1003,11 @@ aName
 ;
 aPermission
 .
-AppendASCII
+Append
 (
-"
+'
 |
-"
+'
 )
 ;
 aPermission
@@ -1231,7 +1231,7 @@ basePermission
 ;
 permission
 .
-AppendASCII
+AppendLiteral
 (
 "
 -
@@ -1383,7 +1383,7 @@ basePermission
 ;
 permission
 .
-AppendASCII
+AppendLiteral
 (
 "
 -
@@ -2997,7 +2997,7 @@ nsRefPtr
 <
 DataStoreRevision
 >
-mRevision
+revision
 =
 new
 DataStoreRevision
@@ -3005,7 +3005,7 @@ DataStoreRevision
 )
 ;
 return
-mRevision
+revision
 -
 >
 AddRevision
