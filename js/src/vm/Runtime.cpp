@@ -509,6 +509,10 @@ activation_
 (
 nullptr
 )
+profilingActivation_
+(
+nullptr
+)
 asmJSActivationStack_
 (
 nullptr
