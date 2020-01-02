@@ -197,6 +197,10 @@ MResumePoint
 *
 lastResumePoint_
 ;
+LRecoverInfo
+*
+cachedRecoverInfo_
+;
 LOsiPoint
 *
 osiPoint_
@@ -229,6 +233,10 @@ lirGraph_
 lirGraph
 )
 lastResumePoint_
+(
+nullptr
+)
+cachedRecoverInfo_
 (
 nullptr
 )
@@ -1209,7 +1217,7 @@ tmp
 }
 LRecoverInfo
 *
-buildRecover
+getRecoverInfo
 (
 MResumePoint
 *
