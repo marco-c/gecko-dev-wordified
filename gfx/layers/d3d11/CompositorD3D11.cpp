@@ -2756,6 +2756,16 @@ _11
 64
 )
 ;
+IntPoint
+origin
+=
+mCurrentRT
+-
+>
+GetOrigin
+(
+)
+;
 mVSConstants
 .
 renderTargetOffset
@@ -2763,7 +2773,7 @@ renderTargetOffset
 0
 ]
 =
-aOffset
+origin
 .
 x
 ;
@@ -2774,7 +2784,7 @@ renderTargetOffset
 1
 ]
 =
-aOffset
+origin
 .
 y
 ;
