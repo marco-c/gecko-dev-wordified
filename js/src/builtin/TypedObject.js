@@ -10901,12 +10901,12 @@ r
 )
 ;
 else
+UnsafePutElements
+(
 outArray
-[
 i
-]
-=
 r
+)
 ;
 }
 inOffset
