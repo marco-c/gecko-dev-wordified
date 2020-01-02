@@ -1097,7 +1097,7 @@ notifier
 .
 warnL10n
 "
-peer_ended_conversation
+peer_ended_conversation2
 "
 )
 ;
