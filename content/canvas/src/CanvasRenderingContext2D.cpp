@@ -13017,15 +13017,6 @@ fontStyle
 >
 mFont
 .
-variant
-=
-=
-NS_STYLE_FONT_VARIANT_SMALL_CAPS
-fontStyle
--
->
-mFont
-.
 synthesis
 &
 NS_FONT_SYNTHESIS_WEIGHT
