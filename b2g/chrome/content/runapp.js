@@ -36,6 +36,17 @@ function
 (
 )
 {
+if
+(
+!
+window
+.
+arguments
+)
+{
+return
+;
+}
 /
 /
 Get

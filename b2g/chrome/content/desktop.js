@@ -495,6 +495,17 @@ command
 line
 argument
 .
+if
+(
+!
+window
+.
+arguments
+)
+{
+return
+;
+}
 /
 /
 Get
