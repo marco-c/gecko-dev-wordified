@@ -630,6 +630,9 @@ written
 )
 ;
 }
+return
+NS_OK
+;
 }
 else
 if
@@ -937,6 +940,9 @@ written
 )
 ;
 }
+return
+NS_OK
+;
 }
 else
 if
@@ -960,6 +966,14 @@ mResult
 NS_ERROR_FAILURE
 ;
 }
+/
+/
+Notify
+thread
+QuitPumpingEvents
+(
+)
+;
 return
 NS_OK
 ;
