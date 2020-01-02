@@ -122,6 +122,13 @@ h
 #
 include
 "
+GmpVideoCodec
+.
+h
+"
+#
+include
+"
 nsIEventTarget
 .
 h
@@ -130,13 +137,6 @@ h
 include
 "
 FakeMediaStreamsImpl
-.
-h
-"
-#
-include
-"
-GmpVideoCodec
 .
 h
 "
