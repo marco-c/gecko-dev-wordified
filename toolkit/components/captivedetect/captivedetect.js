@@ -1534,7 +1534,7 @@ debug
 '
 CaptiveProtalDetector
 initiated
-waitng
+waiting
 for
 network
 connection
@@ -1665,7 +1665,7 @@ interface
 :
 '
 +
-aInterface
+aInterfaceName
 )
 ;
 }
