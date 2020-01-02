@@ -929,6 +929,12 @@ Point
 aPoint
 )
 ;
+static
+bool
+IsInputModeImprecise
+(
+)
+;
 private
 :
 Microsoft
@@ -982,8 +988,9 @@ LEVEL_PRECISE
 LEVEL_IMPRECISE
 }
 ;
+static
 InputPrecisionLevel
-mCurrentInputLevel
+sCurrentInputLevel
 ;
 void
 UpdateInputLevel

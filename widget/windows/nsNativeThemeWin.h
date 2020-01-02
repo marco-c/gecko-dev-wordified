@@ -343,6 +343,13 @@ aWidgetType
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+ShouldHideScrollbars
+(
+)
+MOZ_OVERRIDE
+;
 nsNativeThemeWin
 (
 )
