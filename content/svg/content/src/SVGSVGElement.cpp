@@ -2207,7 +2207,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMSVGLength
+DOMSVGLength
 >
 SVGSVGElement
 :
@@ -2218,7 +2218,7 @@ CreateSVGLength
 {
 nsCOMPtr
 <
-nsIDOMSVGLength
+DOMSVGLength
 >
 length
 =
