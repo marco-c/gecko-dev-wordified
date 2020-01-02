@@ -100,6 +100,13 @@ FrozenImage
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 namespace
 mozilla
 {
@@ -233,9 +240,9 @@ rv
 }
 NS_IMETHODIMP_
 (
-already_AddRefed
+TemporaryRef
 <
-gfxASurface
+SourceSurface
 >
 )
 FrozenImage
