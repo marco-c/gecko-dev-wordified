@@ -21964,6 +21964,9 @@ locMigrateData
 [
 id
 ]
+|
+|
+null
 )
 |
 |
@@ -44604,7 +44607,7 @@ if
 (
 this
 .
-stagingDirLock
+_stagingDirLock
 >
 0
 )
