@@ -465,7 +465,7 @@ AudioDataValue
 *
 aBuffer
 uint32_t
-aSamples
+aFrames
 bool
 aOverran
 int
@@ -683,7 +683,7 @@ Annoying
 .
 while
 (
-aSamples
+aFrames
 )
 {
 if
@@ -749,12 +749,12 @@ if
 (
 to_copy
 >
-aSamples
+aFrames
 )
 {
 to_copy
 =
-aSamples
+aFrames
 ;
 }
 int16_t
@@ -818,7 +818,7 @@ fp
 }
 #
 endif
-aSamples
+aFrames
 -
 =
 to_copy
