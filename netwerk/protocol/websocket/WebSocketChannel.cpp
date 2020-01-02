@@ -372,6 +372,15 @@ include
 "
 mozilla
 /
+MathAlgorithms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -403,13 +412,6 @@ h
 include
 "
 prnetdb
-.
-h
-"
-#
-include
-"
-prbit
 .
 h
 "
@@ -10222,7 +10224,7 @@ mask
 ;
 mask
 =
-PR_ROTATE_LEFT32
+RotateLeft
 (
 mask
 8
@@ -10347,7 +10349,7 @@ mask
 ;
 mask
 =
-PR_ROTATE_LEFT32
+RotateLeft
 (
 mask
 8
@@ -11822,7 +11824,7 @@ mask
 ;
 mask
 =
-PR_ROTATE_LEFT32
+RotateLeft
 (
 mask
 8
