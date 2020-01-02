@@ -541,6 +541,10 @@ asmJSActivationStack_
 (
 nullptr
 )
+autoFlushICache_
+(
+nullptr
+)
 #
 if
 defined

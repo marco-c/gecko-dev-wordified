@@ -4950,6 +4950,11 @@ cx
 )
 ;
 void
+setAutoFlushICacheRange
+(
+)
+;
+void
 staticallyLink
 (
 ExclusiveContext
