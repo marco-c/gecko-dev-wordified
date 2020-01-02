@@ -4101,13 +4101,11 @@ NS_NewDOMScrollAreaEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-InternalScrollAreaEvent
-*
->
-(
 aEvent
+-
+>
+AsScrollAreaEvent
+(
 )
 )
 ;

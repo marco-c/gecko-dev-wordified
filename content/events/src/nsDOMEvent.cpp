@@ -3226,13 +3226,11 @@ InternalScrollAreaEvent
 *
 oldScrollAreaEvent
 =
-static_cast
-<
-InternalScrollAreaEvent
-*
->
-(
 mEvent
+-
+>
+AsScrollAreaEvent
+(
 )
 ;
 InternalScrollAreaEvent
