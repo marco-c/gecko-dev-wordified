@@ -222,8 +222,10 @@ Decode
 thread
 .
 virtual
+already_AddRefed
+<
 MediaDataDecoder
-*
+>
 CreateH264Decoder
 (
 const
@@ -259,8 +261,10 @@ Decode
 thread
 .
 virtual
+already_AddRefed
+<
 MediaDataDecoder
-*
+>
 CreateAACDecoder
 (
 const
