@@ -854,6 +854,11 @@ Effect
 aEffect
 MaskType
 aMaskType
+gfx
+:
+:
+SurfaceFormat
+aFormat
 )
 ;
 void
