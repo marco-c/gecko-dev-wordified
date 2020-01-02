@@ -558,7 +558,7 @@ aMsg
 {
 #
 ifdef
-MOZ_DEBUG
+DEBUG
 dump
 (
 "
