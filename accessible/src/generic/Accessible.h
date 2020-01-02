@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsIAccessibleSelectable
-.
-h
-"
-#
-include
-"
 nsIAccessibleValue
 .
 h
@@ -175,6 +168,13 @@ h
 include
 "
 nsIAccessibleStates
+.
+h
+"
+#
+include
+"
+xpcAccessibleSelectable
 .
 h
 "
@@ -499,7 +499,7 @@ nsIAccessible
 public
 nsIAccessibleHyperLink
 public
-nsIAccessibleSelectable
+xpcAccessibleSelectable
 public
 nsIAccessibleValue
 {
@@ -529,7 +529,6 @@ nsIAccessible
 )
 NS_DECL_NSIACCESSIBLE
 NS_DECL_NSIACCESSIBLEHYPERLINK
-NS_DECL_NSIACCESSIBLESELECTABLE
 NS_DECL_NSIACCESSIBLEVALUE
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
