@@ -3027,13 +3027,9 @@ fDisable
 LOCAL_GL_SCISSOR_TEST
 )
 ;
+ScopedViewportRect
+(
 mGL
--
->
-PushViewportRect
-(
-nsIntRect
-(
 0
 0
 aSize
@@ -3042,7 +3038,6 @@ width
 aSize
 .
 height
-)
 )
 ;
 /
@@ -3726,13 +3721,6 @@ mGL
 fActiveTexture
 (
 oldTexUnit
-)
-;
-mGL
--
->
-PopViewportRect
-(
 )
 ;
 return
