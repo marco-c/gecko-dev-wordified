@@ -2043,7 +2043,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -2882,7 +2882,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -3995,7 +3995,7 @@ dispatch
 scratch
 register
 .
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 x86
