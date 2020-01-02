@@ -1408,10 +1408,18 @@ return
 NS_OK
 ;
 }
+JS
+:
+:
+Rooted
+<
 JSObject
-&
+*
+>
 obj
 (
+cx
+&
 val
 .
 toObject
@@ -1440,7 +1448,6 @@ if
 JS_GetProperty
 (
 cx
-&
 obj
 "
 key
@@ -1515,7 +1522,6 @@ if
 JS_GetProperty
 (
 cx
-&
 obj
 "
 value
