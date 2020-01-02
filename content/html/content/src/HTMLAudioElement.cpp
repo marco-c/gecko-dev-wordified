@@ -627,8 +627,10 @@ UpdateAudioChannelPlayingState
 endif
 mAudioStream
 =
-new
 AudioStream
+:
+:
+AllocateStream
 (
 )
 ;

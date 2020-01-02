@@ -5661,8 +5661,10 @@ audioOutputStream
 >
 mStream
 =
-new
 AudioStream
+:
+:
+AllocateStream
 (
 )
 ;
