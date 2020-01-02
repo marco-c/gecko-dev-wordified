@@ -161,7 +161,7 @@ TelephonyChild
 (
 TelephonyIPCService
 *
-aProvider
+aService
 )
 ;
 protected
@@ -303,7 +303,7 @@ nsRefPtr
 <
 TelephonyIPCService
 >
-mProvider
+mService
 ;
 }
 ;

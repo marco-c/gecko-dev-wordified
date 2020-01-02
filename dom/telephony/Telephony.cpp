@@ -576,10 +576,10 @@ Disconnect
 ;
 if
 (
-mProvider
+mService
 )
 {
-mProvider
+mService
 -
 >
 UnregisterListener
@@ -587,7 +587,7 @@ UnregisterListener
 mListener
 )
 ;
-mProvider
+mService
 =
 nullptr
 ;
@@ -752,7 +752,7 @@ aOwner
 telephony
 -
 >
-mProvider
+mService
 =
 ril
 ;
@@ -986,7 +986,7 @@ serviceId
 =
 0
 ;
-mProvider
+mService
 -
 >
 GetDefaultServiceId
@@ -1276,7 +1276,7 @@ aNumber
 nsresult
 rv
 =
-mProvider
+mService
 -
 >
 Dial
@@ -1890,7 +1890,7 @@ return
 }
 aRv
 =
-mProvider
+mService
 -
 >
 StartTone
@@ -1947,7 +1947,7 @@ return
 }
 aRv
 =
-mProvider
+mService
 -
 >
 StopTone
@@ -1975,7 +1975,7 @@ false
 ;
 aRv
 =
-mProvider
+mService
 -
 >
 GetMicrophoneMuted
@@ -2003,7 +2003,7 @@ aRv
 {
 aRv
 =
-mProvider
+mService
 -
 >
 SetMicrophoneMuted
@@ -2031,7 +2031,7 @@ false
 ;
 aRv
 =
-mProvider
+mService
 -
 >
 GetSpeakerEnabled
@@ -2059,7 +2059,7 @@ aRv
 {
 aRv
 =
-mProvider
+mService
 -
 >
 SetSpeakerEnabled
@@ -2759,7 +2759,7 @@ if
 (
 NS_FAILED
 (
-mProvider
+mService
 -
 >
 RegisterListener

@@ -1071,7 +1071,7 @@ nsCOMPtr
 <
 nsITelephonyService
 >
-provider
+service
 =
 do_GetService
 (
@@ -1080,7 +1080,7 @@ TELEPHONY_SERVICE_CONTRACTID
 ;
 NS_ENSURE_TRUE
 (
-provider
+service
 false
 )
 ;
@@ -1094,7 +1094,7 @@ aStart
 {
 rv
 =
-provider
+service
 -
 >
 RegisterListener
@@ -1107,7 +1107,7 @@ else
 {
 rv
 =
-provider
+service
 -
 >
 UnregisterListener
@@ -1585,7 +1585,7 @@ nsCOMPtr
 <
 nsITelephonyService
 >
-provider
+service
 =
 do_GetService
 (
@@ -1594,7 +1594,7 @@ TELEPHONY_SERVICE_CONTRACTID
 ;
 NS_ENSURE_TRUE_VOID
 (
-provider
+service
 )
 ;
 nsCOMPtr
@@ -1609,7 +1609,7 @@ mTelephonyListener
 )
 )
 ;
-provider
+service
 -
 >
 EnumerateCalls

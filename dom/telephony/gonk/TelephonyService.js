@@ -320,7 +320,7 @@ RIL
 but
 only
 in
-TelephoyProvider
+TelephoyService
 .
 const
 CDMA_SECOND_CALL_INDEX
