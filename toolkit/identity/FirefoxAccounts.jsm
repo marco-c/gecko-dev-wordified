@@ -1346,7 +1346,7 @@ error
 {
 log
 .
-error
+debug
 (
 "
 get
@@ -1379,6 +1379,7 @@ reroute
 .
 if
 (
+(
 error
 .
 error
@@ -1387,6 +1388,19 @@ error
 (
 error
 .
+error
+.
+details
+=
+=
+"
+DIALOG_CLOSED_BY_USER
+"
+)
+)
+|
+|
+(
 error
 .
 details
