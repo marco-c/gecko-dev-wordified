@@ -2183,6 +2183,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+obs
+)
+{
 obs
 -
 >
@@ -2205,6 +2210,7 @@ get
 )
 )
 ;
+}
 }
 void
 AudioChannelService
@@ -2270,6 +2276,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+obs
+)
+{
 obs
 -
 >
@@ -2295,6 +2306,7 @@ changed
 nullptr
 )
 ;
+}
 /
 /
 Calculating
