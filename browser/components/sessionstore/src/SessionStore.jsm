@@ -23918,6 +23918,7 @@ epoch
 )
 {
 return
+(
 this
 .
 _browserEpochs
@@ -23927,6 +23928,9 @@ get
 browser
 .
 permanentKey
+)
+|
+|
 0
 )
 =
