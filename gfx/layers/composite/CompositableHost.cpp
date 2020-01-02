@@ -1142,6 +1142,15 @@ GetAsSurface
 (
 )
 ;
+if
+(
+!
+dSurf
+)
+{
+return
+;
+}
 gfxPlatform
 *
 platform
