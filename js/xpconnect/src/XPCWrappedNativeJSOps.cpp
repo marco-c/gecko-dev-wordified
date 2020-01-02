@@ -5070,6 +5070,11 @@ bool
 succeeded
 )
 {
+*
+succeeded
+=
+true
+;
 PRE_HELPER_STUB
 DelProperty
 (
