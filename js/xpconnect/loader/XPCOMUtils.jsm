@@ -2096,6 +2096,7 @@ XPCOMUtils__importRelative
 (
 that
 path
+scope
 )
 {
 if
@@ -2181,6 +2182,9 @@ i
 )
 +
 path
+scope
+|
+|
 that
 )
 ;

@@ -236,4 +236,9 @@ do_check_true
 same_scope
 )
 ;
+do_check_true
+(
+SUBMODULE_IMPORTED_TO_SCOPE
+)
+;
 }
