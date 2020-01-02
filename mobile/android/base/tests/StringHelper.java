@@ -88,10 +88,6 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 products
 /
 mobile
@@ -106,10 +102,6 @@ addons
 mozilla
 .
 org
-/
-en
--
-US
 /
 android
 /
