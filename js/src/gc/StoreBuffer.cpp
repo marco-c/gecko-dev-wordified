@@ -460,7 +460,6 @@ trc
 object
 )
 ;
-else
 MarkChildren
 (
 trc
