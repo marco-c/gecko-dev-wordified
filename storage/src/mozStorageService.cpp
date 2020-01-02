@@ -244,7 +244,7 @@ include
 "
 mozilla
 /
-LateWriteChecks
+mozPoisonWrite
 .
 h
 "

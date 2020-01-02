@@ -250,6 +250,15 @@ TestHarness
 .
 h
 "
+#
+include
+"
+mozilla
+/
+mozPoisonWrite
+.
+h
+"
 class
 MtransportTestUtils
 {
