@@ -162,7 +162,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsTextEvent
+mozilla
+:
+:
+WidgetTextEvent
 *
 aEvent
 )

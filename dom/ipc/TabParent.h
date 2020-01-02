@@ -1414,7 +1414,10 @@ event
 bool
 SendTextEvent
 (
-nsTextEvent
+mozilla
+:
+:
+WidgetTextEvent
 &
 event
 )

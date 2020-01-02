@@ -10860,7 +10860,7 @@ aIMEContext
 )
 ;
 }
-nsTextEvent
+WidgetTextEvent
 event
 (
 true

@@ -1719,7 +1719,7 @@ NS_TEXT_EVENT
 return
 static_cast
 <
-nsTextEvent
+WidgetTextEvent
 *
 >
 (

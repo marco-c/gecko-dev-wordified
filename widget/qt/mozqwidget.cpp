@@ -2113,7 +2113,10 @@ DispatchEvent
 start
 )
 ;
-nsTextEvent
+mozilla
+:
+:
+WidgetTextEvent
 text
 (
 true

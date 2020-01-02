@@ -1180,7 +1180,10 @@ bool
 RecvTextEvent
 (
 const
-nsTextEvent
+mozilla
+:
+:
+WidgetTextEvent
 &
 event
 )

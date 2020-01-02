@@ -4255,7 +4255,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsTextEvent
+WidgetTextEvent
 *
 >
 (

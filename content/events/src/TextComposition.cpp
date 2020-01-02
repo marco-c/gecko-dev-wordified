@@ -1058,7 +1058,7 @@ case
 NS_TEXT_TEXT
 :
 {
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true

@@ -5947,7 +5947,7 @@ mOffset
 ;
 }
 }
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true

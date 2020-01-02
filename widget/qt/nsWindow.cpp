@@ -16436,7 +16436,7 @@ update
 )
 ;
 }
-nsTextEvent
+WidgetTextEvent
 text
 (
 true

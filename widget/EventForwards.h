@@ -466,13 +466,6 @@ typedef
 mozilla
 :
 :
-WidgetTextEvent
-nsTextEvent
-;
-typedef
-mozilla
-:
-:
 WidgetCompositionEvent
 nsCompositionEvent
 ;
