@@ -4583,6 +4583,10 @@ getElement
 nullptr
 /
 /
+getElementIfPresent
+nullptr
+/
+/
 getSpecial
 nullptr
 /
@@ -4627,10 +4631,6 @@ nullptr
 watch
 /
 unwatch
-nullptr
-/
-/
-slice
 XPC_WN_JSOp_Enumerate
 XPC_WN_JSOp_ThisObject
 }
