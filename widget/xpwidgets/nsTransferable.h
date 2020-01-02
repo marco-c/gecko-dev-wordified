@@ -379,12 +379,6 @@ nsTransferable
 (
 )
 ;
-virtual
-~
-nsTransferable
-(
-)
-;
 /
 /
 nsISupports
@@ -392,6 +386,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSITRANSFERABLE
 protected
 :
+virtual
+~
+nsTransferable
+(
+)
+;
 /
 /
 get

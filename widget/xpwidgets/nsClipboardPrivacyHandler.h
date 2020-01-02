@@ -210,6 +210,12 @@ nsIObserver
 public
 nsSupportsWeakReference
 {
+~
+nsClipboardPrivacyHandler
+(
+)
+{
+}
 public
 :
 /

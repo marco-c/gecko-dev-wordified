@@ -202,6 +202,13 @@ nsITimerCallback
 {
 protected
 :
+virtual
+~
+nsNativeTheme
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 enum
@@ -236,13 +243,6 @@ nsNativeTheme
 (
 )
 ;
-virtual
-~
-nsNativeTheme
-(
-)
-{
-}
 /
 /
 Returns

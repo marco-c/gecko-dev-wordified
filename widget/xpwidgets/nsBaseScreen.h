@@ -138,12 +138,6 @@ nsBaseScreen
 (
 )
 ;
-virtual
-~
-nsBaseScreen
-(
-)
-;
 NS_DECL_ISUPPORTS
 /
 /
@@ -299,6 +293,12 @@ aContentsScaleFactor
 ;
 protected
 :
+virtual
+~
+nsBaseScreen
+(
+)
+;
 /
 *
 *

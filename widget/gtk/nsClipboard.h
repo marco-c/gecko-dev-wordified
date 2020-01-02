@@ -159,12 +159,6 @@ nsClipboard
 (
 )
 ;
-virtual
-~
-nsClipboard
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSICLIPBOARD
 NS_DECL_NSIOBSERVER
@@ -215,6 +209,12 @@ aGtkClipboard
 ;
 private
 :
+virtual
+~
+nsClipboard
+(
+)
+;
 /
 /
 Utility

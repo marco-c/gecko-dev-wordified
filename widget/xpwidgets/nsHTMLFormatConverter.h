@@ -125,12 +125,6 @@ nsHTMLFormatConverter
 (
 )
 ;
-virtual
-~
-nsHTMLFormatConverter
-(
-)
-;
 /
 /
 nsISupports
@@ -138,6 +132,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIFORMATCONVERTER
 protected
 :
+virtual
+~
+nsHTMLFormatConverter
+(
+)
+;
 nsresult
 AddFlavorToList
 (

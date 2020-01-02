@@ -320,12 +320,6 @@ nsPrintSettings
 aPS
 )
 ;
-virtual
-~
-nsPrintSettings
-(
-)
-;
 nsPrintSettings
 &
 operator
@@ -339,6 +333,12 @@ rhs
 ;
 protected
 :
+virtual
+~
+nsPrintSettings
+(
+)
+;
 /
 /
 May

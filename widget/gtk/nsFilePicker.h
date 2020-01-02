@@ -154,12 +154,6 @@ nsFilePicker
 (
 )
 ;
-virtual
-~
-nsFilePicker
-(
-)
-;
 NS_DECL_ISUPPORTS
 /
 /
@@ -308,6 +302,12 @@ Shutdown
 ;
 protected
 :
+virtual
+~
+nsFilePicker
+(
+)
+;
 void
 ReadValuesFromFileChooser
 (

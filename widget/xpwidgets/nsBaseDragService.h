@@ -252,12 +252,6 @@ nsBaseDragService
 (
 )
 ;
-virtual
-~
-nsBaseDragService
-(
-)
-;
 /
 /
 nsISupports
@@ -292,6 +286,12 @@ mInputSource
 }
 protected
 :
+virtual
+~
+nsBaseDragService
+(
+)
+;
 /
 *
 *

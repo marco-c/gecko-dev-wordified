@@ -111,6 +111,12 @@ MOZ_FINAL
 public
 nsIClipboard
 {
+~
+nsClipboardProxy
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

@@ -196,14 +196,14 @@ nsPrintOptions
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsPrintOptions
 (
 )
 ;
-protected
-:
 void
 ReadBitFieldPref
 (

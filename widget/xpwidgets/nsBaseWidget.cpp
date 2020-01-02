@@ -12219,6 +12219,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+Debug_PrefObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

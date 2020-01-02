@@ -232,12 +232,6 @@ GfxInfoBase
 (
 )
 ;
-virtual
-~
-GfxInfoBase
-(
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
 /
@@ -584,6 +578,12 @@ return
 }
 protected
 :
+virtual
+~
+GfxInfoBase
+(
+)
+;
 virtual
 nsresult
 GetFeatureStatusImpl

@@ -353,14 +353,14 @@ Init
 (
 )
 ;
+private
+:
 virtual
 ~
 nsIdleServiceDaily
 (
 )
 ;
-private
-:
 /
 *
 *
