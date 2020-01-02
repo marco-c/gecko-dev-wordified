@@ -178,6 +178,7 @@ current
 ;
 const
 StableCharPtr
+begin
 end
 ;
 Value
@@ -662,6 +663,10 @@ current
 (
 data
 )
+begin
+(
+data
+)
 end
 (
 (
@@ -1121,6 +1126,17 @@ vp
 ElementVector
 &
 elements
+)
+;
+void
+getTextPosition
+(
+uint32_t
+*
+column
+uint32_t
+*
+line
 )
 ;
 friend
