@@ -1290,7 +1290,7 @@ nsRefPtr
 gfxASurface
 >
 surface
-;
+=
 image
 -
 >
@@ -1304,10 +1304,6 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE
-getter_AddRefs
-(
-surface
-)
 )
 ;
 if

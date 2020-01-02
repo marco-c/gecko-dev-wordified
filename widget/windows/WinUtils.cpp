@@ -3799,8 +3799,6 @@ nsRefPtr
 gfxASurface
 >
 imgFrame
-;
-rv
 =
 container
 -
@@ -3812,10 +3810,6 @@ imgIContainer
 :
 FRAME_FIRST
 0
-getter_AddRefs
-(
-imgFrame
-)
 )
 ;
 NS_ENSURE_SUCCESS

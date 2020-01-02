@@ -219,7 +219,7 @@ nsRefPtr
 gfxASurface
 >
 surface
-;
+=
 aImage
 -
 >
@@ -233,10 +233,6 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE
-getter_AddRefs
-(
-surface
-)
 )
 ;
 /
@@ -304,6 +300,8 @@ if
 !
 surface
 )
+surface
+=
 aImage
 -
 >
@@ -317,10 +315,6 @@ imgIContainer
 :
 :
 FLAG_NONE
-getter_AddRefs
-(
-surface
-)
 )
 ;
 NS_ENSURE_TRUE
