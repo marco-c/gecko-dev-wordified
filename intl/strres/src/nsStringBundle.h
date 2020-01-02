@@ -285,11 +285,11 @@ aResult
 *
 *
 An
-extesible
+extensible
 implementation
 of
 the
-StringBudle
+StringBundle
 interface
 .
 *
