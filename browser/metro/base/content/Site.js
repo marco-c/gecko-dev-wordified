@@ -454,9 +454,11 @@ applied
 ?
 if
 (
-aNode
-.
+'
 refresh
+'
+in
+aNode
 )
 {
 /

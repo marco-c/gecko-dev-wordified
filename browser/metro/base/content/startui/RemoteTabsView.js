@@ -733,6 +733,17 @@ arrangeItems
 (
 )
 ;
+this
+.
+_set
+.
+removeAttribute
+(
+"
+fade
+"
+)
+;
 }
 destruct
 :
