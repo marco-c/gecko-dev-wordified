@@ -5304,6 +5304,15 @@ Layer
 SURFACE_COMPONENT_ALPHA
 )
 {
+EnsureBufferOnWhite
+(
+)
+;
+MOZ_ASSERT
+(
+mDTBufferOnWhite
+)
+;
 mDTBufferOnWhite
 -
 >
@@ -5984,7 +5993,7 @@ EnsureBufferOnWhite
 ;
 MOZ_ASSERT
 (
-destDTBufferOnWhite
+mDTBufferOnWhite
 "
 Have
 we
