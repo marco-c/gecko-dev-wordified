@@ -152,6 +152,7 @@ util
 Locale
 ;
 final
+public
 class
 InputMethods
 {

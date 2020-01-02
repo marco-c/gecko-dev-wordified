@@ -95,6 +95,8 @@ org
 mozilla
 .
 gecko
+.
+toolbar
 ;
 import
 org
@@ -106,6 +108,15 @@ gecko
 animation
 .
 Rotate3DAnimation
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+R
 ;
 import
 org
