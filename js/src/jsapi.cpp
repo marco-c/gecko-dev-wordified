@@ -25920,7 +25920,7 @@ if
 chars
 )
 return
-nullptr
+false
 ;
 return
 Compile
@@ -25973,7 +25973,7 @@ buffer
 )
 )
 return
-nullptr
+false
 ;
 return
 Compile
@@ -26033,7 +26033,7 @@ filename
 )
 )
 return
-nullptr
+false
 ;
 CompileOptions
 options
