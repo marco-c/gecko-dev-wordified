@@ -4622,7 +4622,7 @@ defined
 (
 XP_LINUX
 )
-SetContentProcessSandbox
+SetCurrentProcessSandbox
 (
 )
 ;
