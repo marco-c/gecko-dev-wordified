@@ -677,7 +677,6 @@ ReaderModeUtils
 getAboutReaderForUrl
 (
 url
-true
 )
 ;
 /

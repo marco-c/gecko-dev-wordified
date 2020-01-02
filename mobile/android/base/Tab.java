@@ -2306,7 +2306,6 @@ getAboutReaderForUrl
 (
 mUrl
 mId
-mReadingListItem
 )
 )
 ;

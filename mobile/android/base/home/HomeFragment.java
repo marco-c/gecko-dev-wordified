@@ -1158,7 +1158,6 @@ getAboutReaderForUrl
 info
 .
 url
-true
 )
 :
 info
@@ -1269,7 +1268,6 @@ getAboutReaderForUrl
 info
 .
 url
-true
 )
 ;
 Tabs

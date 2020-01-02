@@ -375,8 +375,6 @@ getAboutReaderForUrl
 (
 String
 url
-boolean
-inReadingList
 )
 {
 return
@@ -385,7 +383,6 @@ getAboutReaderForUrl
 url
 -
 1
-inReadingList
 )
 ;
 }
@@ -398,8 +395,6 @@ String
 url
 int
 tabId
-boolean
-inReadingList
 )
 {
 String
@@ -419,20 +414,6 @@ Uri
 encode
 (
 url
-)
-+
-"
-&
-readingList
-=
-"
-+
-(
-inReadingList
-?
-1
-:
-0
 )
 ;
 if
