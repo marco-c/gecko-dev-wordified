@@ -573,10 +573,6 @@ Paint
 gfxContext
 *
 aDestinationCtx
-const
-gfxPoint
-&
-offset
 )
 {
 if
@@ -679,7 +675,6 @@ height
 gfxRect
 imageRect
 (
-offset
 -
 mImageSurface
 -
@@ -724,7 +719,9 @@ aDestinationCtx
 Mask
 (
 mImageSurface
-offset
+gfxPoint
+(
+)
 )
 ;
 aDestinationCtx
@@ -743,7 +740,9 @@ aDestinationCtx
 Mask
 (
 mImageSurface
-offset
+gfxPoint
+(
+)
 )
 ;
 }
