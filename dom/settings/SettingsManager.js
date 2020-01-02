@@ -324,12 +324,6 @@ lock
 =
 this
 ;
-lock
-.
-_open
-=
-false
-;
 let
 store
 =
@@ -1146,12 +1140,6 @@ break
 ;
 }
 }
-lock
-.
-_open
-=
-true
-;
 }
 createTransactionAndProcess
 :
