@@ -4134,11 +4134,6 @@ mOriginPrincipal
 aDocument
 )
 ;
-if
-(
-image
-)
-{
 nsCSSValue
 *
 writable
@@ -4160,7 +4155,6 @@ SetImageValue
 image
 )
 ;
-}
 }
 nscolor
 nsCSSValue
