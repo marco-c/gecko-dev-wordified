@@ -725,6 +725,18 @@ errors
 break
 ;
 }
+/
+/
+Uncomment
+this
+switch
+for
+any
+new
+extensions
+#
+if
+0
 if
 (
 Preferences
@@ -770,6 +782,8 @@ break
 ;
 }
 }
+#
+endif
 return
 false
 ;
