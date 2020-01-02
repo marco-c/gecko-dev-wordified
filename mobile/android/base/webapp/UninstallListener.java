@@ -582,6 +582,13 @@ index
 )
 continue
 ;
+allocator
+.
+releaseIndex
+(
+index
+)
+;
 /
 /
 kill
