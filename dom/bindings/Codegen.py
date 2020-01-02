@@ -21088,6 +21088,19 @@ s
 %
 s
   
+MOZ_ASSERT
+(
+js
+:
+:
+IsObjectInContextCompartment
+(
+aScope
+aCx
+)
+)
+;
+  
 JS
 :
 :
@@ -21107,7 +21120,6 @@ aObject
 WrapNativeParent
 (
 aCx
-aScope
 aObject
 -
 >
