@@ -163,9 +163,6 @@ file
 s
 header
 .
-namespace
-mozilla
-{
 /
 /
 local
@@ -244,6 +241,9 @@ i
 /
 /
 namespace
+namespace
+mozilla
+{
 /
 /
 We
