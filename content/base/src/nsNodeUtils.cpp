@@ -1960,6 +1960,14 @@ IsSafeToRunScript
 )
 )
 {
+nsContentUtils
+:
+:
+WarnScriptWasIgnored
+(
+aOwnerDocument
+)
+;
 if
 (
 nsContentUtils
