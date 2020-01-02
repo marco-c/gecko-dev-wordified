@@ -186,6 +186,14 @@ models
 .
 ConversationModel
 (
+{
+}
+{
+sdk
+:
+{
+}
+}
 )
 ;
 }
