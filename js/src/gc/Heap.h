@@ -4443,6 +4443,7 @@ maskp
 ;
 }
 MOZ_ALWAYS_INLINE
+MOZ_TSAN_BLACKLIST
 bool
 isMarked
 (
