@@ -176,6 +176,12 @@ char
 *
 kSmsReadErrorObserverTopic
 ;
+extern
+const
+char
+*
+kSmsDeletedObserverTopic
+;
 #
 define
 DELIVERY_RECEIVED
