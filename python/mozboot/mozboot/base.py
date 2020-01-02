@@ -1755,6 +1755,32 @@ version
             
 return
         
+print
+(
+'
+Your
+version
+of
+Python
+(
+%
+s
+)
+is
+too
+old
+.
+Will
+try
+to
+upgrade
+.
+'
+%
+            
+version
+)
+        
 self
 .
 _ensure_package_manager_updated
