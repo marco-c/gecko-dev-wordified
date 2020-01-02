@@ -2454,7 +2454,7 @@ rv
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsUDPOutputStream
 >

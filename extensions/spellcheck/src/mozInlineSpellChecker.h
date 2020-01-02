@@ -1076,7 +1076,7 @@ it
 was
 initialized
 .
-nsCOMPtr
+nsRefPtr
 <
 InitEditorSpellCheckCallback
 >

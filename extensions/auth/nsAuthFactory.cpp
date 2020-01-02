@@ -72,6 +72,13 @@ nsAuth
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 /
 /
 -
@@ -683,7 +690,7 @@ outer
 return
 NS_ERROR_NO_AGGREGATION
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsAuthSambaNTLM
 >

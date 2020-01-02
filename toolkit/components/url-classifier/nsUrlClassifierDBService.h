@@ -456,7 +456,7 @@ bool
 clean
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
