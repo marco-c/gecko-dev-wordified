@@ -6115,7 +6115,7 @@ pdfjs
 .
 disabled
 "
-false
+true
 )
 ;
 /
@@ -6154,7 +6154,7 @@ pdfjs
 .
 firstRun
 "
-true
+false
 )
 ;
 /
