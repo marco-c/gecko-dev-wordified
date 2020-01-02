@@ -2583,6 +2583,12 @@ CSSIntSize
 aSize
 )
 ;
+/
+/
+Inner
+windows
+only
+.
 virtual
 void
 RefreshCompartmentPrincipal
