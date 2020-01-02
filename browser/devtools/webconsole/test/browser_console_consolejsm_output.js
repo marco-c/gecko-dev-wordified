@@ -418,6 +418,9 @@ b
 +
 \
 {
+\
+s
+*
 bug851231prop
 :
 \
@@ -425,6 +428,9 @@ s
 "
 bug851231value
 "
+\
+s
+*
 \
 }
 /
@@ -500,7 +506,13 @@ consoleDir
 :
 /
 XULDocument
+\
+s
++
 .
++
+\
+s
 +
 chrome
 :

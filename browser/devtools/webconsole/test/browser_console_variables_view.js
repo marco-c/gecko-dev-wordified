@@ -168,13 +168,13 @@ found
 "
 )
 ;
-isnot
+ok
 (
 msg
 .
 textContent
 .
-indexOf
+contains
 (
 '
 {
@@ -186,8 +186,6 @@ testValue
 }
 '
 )
--
-1
 "
 message
 text
