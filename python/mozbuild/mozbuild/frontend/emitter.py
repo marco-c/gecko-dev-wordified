@@ -123,6 +123,8 @@ IPDLFile
     
 JARManifest
     
+JavaScriptModules
+    
 LibraryDefinition
     
 LocalInclude
@@ -2500,6 +2502,31 @@ CONFIG
 HOST_BIN_SUFFIX
 '
 ]
+)
+        
+test_js_modules
+=
+sandbox
+.
+get
+(
+'
+TESTING_JS_MODULES
+'
+)
+        
+if
+test_js_modules
+:
+            
+yield
+JavaScriptModules
+(
+sandbox
+test_js_modules
+'
+testing
+'
 )
         
 simple_lists
