@@ -8132,13 +8132,13 @@ true
 }
 private
 void
-openUrlAndStopEditing
+openUrl
 (
 String
 url
 )
 {
-openUrlAndStopEditing
+openUrl
 (
 url
 null
@@ -8148,7 +8148,7 @@ false
 }
 private
 void
-openUrlAndStopEditing
+openUrl
 (
 String
 url
@@ -8156,7 +8156,7 @@ boolean
 newTab
 )
 {
-openUrlAndStopEditing
+openUrl
 (
 url
 null
@@ -8166,7 +8166,7 @@ newTab
 }
 private
 void
-openUrlAndStopEditing
+openUrl
 (
 String
 url
@@ -8174,7 +8174,7 @@ String
 searchEngine
 )
 {
-openUrlAndStopEditing
+openUrl
 (
 url
 searchEngine
@@ -8184,7 +8184,7 @@ false
 }
 private
 void
-openUrlAndStopEditing
+openUrl
 (
 String
 url
@@ -14791,7 +14791,7 @@ flags
 )
 )
 {
-openUrlAndStopEditing
+openUrl
 (
 url
 true
@@ -14831,7 +14831,7 @@ flags
 )
 )
 {
-openUrlAndStopEditing
+openUrl
 (
 url
 )
@@ -14862,7 +14862,7 @@ barsuggest
 "
 )
 ;
-openUrlAndStopEditing
+openUrl
 (
 text
 engineId
