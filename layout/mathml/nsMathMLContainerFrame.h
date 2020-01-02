@@ -1122,9 +1122,6 @@ this
 happens
 with
 <
-mstyle
->
-<
 munder
 >
 <

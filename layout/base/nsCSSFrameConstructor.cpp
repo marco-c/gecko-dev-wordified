@@ -29102,7 +29102,7 @@ NS_NewMathMLmmultiscriptsFrame
 SIMPLE_MATHML_CREATE
 (
 mstyle_
-NS_NewMathMLmstyleFrame
+NS_NewMathMLmrowFrame
 )
 SIMPLE_MATHML_CREATE
 (
@@ -62094,7 +62094,7 @@ Tag
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -64268,7 +64268,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aFragment
