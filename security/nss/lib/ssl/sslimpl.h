@@ -1956,6 +1956,17 @@ enableALPN
 27
 *
 /
+unsigned
+int
+reuseServerECDHEKey
+:
+1
+;
+/
+*
+28
+*
+/
 }
 sslOptions
 ;
