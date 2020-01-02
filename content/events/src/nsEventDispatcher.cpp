@@ -4350,13 +4350,11 @@ NS_NewDOMTouchEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-WidgetTouchEvent
-*
->
-(
 aEvent
+-
+>
+AsTouchEvent
+(
 )
 )
 ;

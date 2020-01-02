@@ -3751,13 +3751,11 @@ WidgetTouchEvent
 *
 oldTouchEvent
 =
-static_cast
-<
-WidgetTouchEvent
-*
->
-(
 mEvent
+-
+>
+AsTouchEvent
+(
 )
 ;
 WidgetTouchEvent
