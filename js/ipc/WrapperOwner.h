@@ -1014,9 +1014,9 @@ ObjectId
 &
 objId
 const
-ObjectId
+ObjectVariant
 &
-receiverId
+receiverVar
 const
 nsString
 &
@@ -1040,9 +1040,9 @@ ObjectId
 &
 objId
 const
-ObjectId
+ObjectVariant
 &
-receiverId
+receiverVar
 const
 nsString
 &
