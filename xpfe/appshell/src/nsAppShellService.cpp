@@ -1557,6 +1557,8 @@ nsAppShellService
 :
 CreateWindowlessBrowser
 (
+bool
+aIsChrome
 nsIWebNavigation
 *
 *
@@ -1747,6 +1749,13 @@ item
 >
 SetItemType
 (
+aIsChrome
+?
+nsIDocShellTreeItem
+:
+:
+typeChromeWrapper
+:
 nsIDocShellTreeItem
 :
 :
