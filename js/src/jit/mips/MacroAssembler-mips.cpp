@@ -2253,7 +2253,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+isInUnsignedRange
 (
 imm
 .
@@ -2372,7 +2372,7 @@ if
 Imm16
 :
 :
-isInSignedRange
+isInUnsignedRange
 (
 imm
 .
