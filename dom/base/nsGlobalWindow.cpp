@@ -44625,7 +44625,7 @@ EqualsASCII
 {
 providedPrincipal
 =
-BrokenGetEntryGlobal
+GetEntryGlobal
 (
 )
 -

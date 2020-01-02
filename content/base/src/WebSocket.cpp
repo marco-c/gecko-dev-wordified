@@ -4516,7 +4516,7 @@ nsIGlobalObject
 >
 globalObject
 (
-BrokenGetEntryGlobal
+GetEntryGlobal
 (
 )
 )

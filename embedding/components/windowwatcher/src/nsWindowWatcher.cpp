@@ -511,6 +511,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 *
 *
@@ -5916,10 +5923,7 @@ referrerWindow
 =
 do_QueryInterface
 (
-dom
-:
-:
-BrokenGetEntryGlobal
+GetEntryGlobal
 (
 )
 )
