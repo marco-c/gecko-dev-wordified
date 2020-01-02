@@ -8663,9 +8663,6 @@ software
 for
 smaller
 canvases
-#
-ifdef
-MOZ_WIDGET_GONK
 pref
 (
 "
@@ -8696,8 +8693,6 @@ accelerated
 true
 )
 ;
-#
-endif
 /
 /
 Turn
