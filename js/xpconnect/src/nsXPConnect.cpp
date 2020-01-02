@@ -3782,10 +3782,6 @@ aAllowWrapping
 jsval
 *
 aVal
-nsIXPConnectJSObjectHolder
-*
-*
-aHolder
 )
 {
 MOZ_ASSERT
@@ -3815,15 +3811,6 @@ param
 "
 )
 ;
-if
-(
-aHolder
-)
-*
-aHolder
-=
-nullptr
-;
 RootedObject
 aScope
 (
@@ -3849,7 +3836,7 @@ aIID
 aAllowWrapping
 &
 rval
-aHolder
+nullptr
 )
 ;
 *

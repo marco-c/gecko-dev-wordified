@@ -31319,7 +31319,6 @@ vp
 address
 (
 )
-nullptr
 )
 ;
 return

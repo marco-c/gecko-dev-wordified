@@ -1133,7 +1133,6 @@ rval
 address
 (
 )
-nullptr
 )
 ;
 if
@@ -1327,7 +1326,6 @@ rval
 address
 (
 )
-nullptr
 )
 ;
 if
