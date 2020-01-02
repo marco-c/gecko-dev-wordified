@@ -8837,7 +8837,7 @@ module
 functionBytes
 (
 )
-PAGE_NOACCESS
+PAGE_READWRITE
 &
 oldProtect
 )
@@ -8866,7 +8866,9 @@ module
 functionBytes
 (
 )
-PROT_NONE
+PROT_READ
+|
+PROT_WRITE
 )
 )
 MOZ_CRASH
