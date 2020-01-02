@@ -1087,7 +1087,8 @@ else
 We
 only
 use
-LAZY_SOURCE
+lazy
+source
 when
 no
 special
@@ -1116,15 +1117,9 @@ reuseGlobal
 {
 options
 .
-setSourcePolicy
+setSourceIsLazy
 (
-JS
-:
-:
-CompileOptions
-:
-:
-LAZY_SOURCE
+true
 )
 ;
 *
