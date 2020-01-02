@@ -1670,7 +1670,6 @@ MOZ_ASSERT
 (
 byteDestPtr
 <
-=
 byteSrcPtr
 &
 &
@@ -1686,7 +1685,6 @@ byteSrcPtr
 (
 byteSrcPtr
 <
-=
 byteDestPtr
 &
 &
