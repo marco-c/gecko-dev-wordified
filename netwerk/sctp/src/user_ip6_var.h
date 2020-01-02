@@ -779,6 +779,13 @@ defined
 (
 __Userspace_os_OpenBSD
 )
+&
+&
+!
+defined
+(
+__Userspace_os_DragonFly
+)
 struct
 route_in6
 {

@@ -395,6 +395,13 @@ h
 >
 #
 if
+!
+defined
+(
+SCTP_WITH_NO_CSUM
+)
+#
+if
 defined
 (
 __FreeBSD__
@@ -5641,13 +5648,6 @@ other
 OS
 *
 /
-#
-if
-!
-defined
-(
-SCTP_WITH_NO_CSUM
-)
 static
 uint32_t
 sctp_finalize_crc32c
@@ -6166,6 +6166,12 @@ SCTP_WITH_NO_CSUM
 )
 *
 /
+#
+if
+defined
+(
+__FreeBSD__
+)
 void
 sctp_delayed_cksum
 (
@@ -6346,3 +6352,5 @@ checksum
 #
 endif
 }
+#
+endif

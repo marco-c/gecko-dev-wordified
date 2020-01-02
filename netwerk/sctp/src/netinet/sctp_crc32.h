@@ -387,6 +387,12 @@ uint32_t
 ;
 #
 endif
+#
+if
+defined
+(
+__FreeBSD__
+)
 void
 sctp_delayed_cksum
 (
@@ -397,6 +403,8 @@ uint32_t
 offset
 )
 ;
+#
+endif
 #
 endif
 /
