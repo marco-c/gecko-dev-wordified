@@ -139,7 +139,7 @@ gcli
 lookup
 (
 "
-injectManual
+injectManual2
 "
 )
 params
