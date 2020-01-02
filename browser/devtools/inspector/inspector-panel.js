@@ -3492,6 +3492,11 @@ destroy
 )
 ;
 }
+delete
+this
+.
+onLockStateChanged
+;
 if
 (
 this
@@ -3742,6 +3747,11 @@ searchSuggestions
 destroy
 (
 )
+;
+delete
+this
+.
+searchBox
 ;
 this
 .
