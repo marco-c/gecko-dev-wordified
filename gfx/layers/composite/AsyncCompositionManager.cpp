@@ -4367,7 +4367,7 @@ scale
 =
 metrics
 .
-CalculateCompositedRectInCssPixels
+CalculateCompositedSizeInCssPixels
 (
 )
 .
@@ -4448,7 +4448,7 @@ scale
 =
 metrics
 .
-CalculateCompositedRectInCssPixels
+CalculateCompositedSizeInCssPixels
 (
 )
 .

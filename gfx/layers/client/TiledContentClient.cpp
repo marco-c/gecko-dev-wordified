@@ -1637,13 +1637,10 @@ mDisplayPort
 .
 Contains
 (
-CSSRect
-(
 aCompositorMetrics
 .
 CalculateCompositedRectInCssPixels
 (
-)
 )
 -
 aCompositorMetrics
