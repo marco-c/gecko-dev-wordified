@@ -347,7 +347,7 @@ binding
 for
 the
 query
-nsresult
+void
 AddBinding
 (
 nsIAtom
@@ -371,14 +371,7 @@ nsXMLBindingSet
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-mRequiredBindings
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 }
-return
 mRequiredBindings
 -
 >
@@ -654,7 +647,7 @@ const
 nsAString
 &
 aExpr
-nsIDOMNode
+nsINode
 *
 aNode
 nsIDOMXPathExpression
