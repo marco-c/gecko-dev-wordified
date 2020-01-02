@@ -755,14 +755,6 @@ StartupCache
 (
 )
 :
-MemoryMultiReporter
-(
-"
-startup
--
-cache
-"
-)
 mArchive
 (
 nullptr

@@ -3244,15 +3244,6 @@ public
 SurfaceMemoryReporter
 (
 )
-:
-MemoryMultiReporter
-(
-"
-gfx
--
-surface
-"
-)
 {
 }
 NS_IMETHOD

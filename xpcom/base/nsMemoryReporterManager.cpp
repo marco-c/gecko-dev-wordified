@@ -4513,13 +4513,6 @@ public
 DMDReporter
 (
 )
-:
-MemoryMultiReporter
-(
-"
-dmd
-"
-)
 {
 }
 NS_IMETHOD

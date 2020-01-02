@@ -6902,14 +6902,6 @@ nsCacheService
 (
 )
 :
-MemoryMultiReporter
-(
-"
-cache
--
-service
-"
-)
 mObserver
 (
 nullptr

@@ -1093,14 +1093,6 @@ nsObserverService
 (
 )
 :
-MemoryMultiReporter
-(
-"
-observer
--
-service
-"
-)
 mShuttingDown
 (
 false

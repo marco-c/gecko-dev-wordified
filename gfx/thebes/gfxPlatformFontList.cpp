@@ -470,15 +470,6 @@ MemoryReporter
 MemoryReporter
 (
 )
-:
-MemoryMultiReporter
-(
-"
-font
--
-list
-"
-)
 {
 }
 NS_IMETHODIMP

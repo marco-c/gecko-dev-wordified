@@ -14773,14 +14773,6 @@ nsCycleCollector
 (
 )
 :
-MemoryMultiReporter
-(
-"
-cycle
--
-collector
-"
-)
 mActivelyCollecting
 (
 false

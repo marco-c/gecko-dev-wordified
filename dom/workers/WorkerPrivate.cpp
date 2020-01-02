@@ -9637,12 +9637,6 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
-MemoryMultiReporter
-(
-"
-workers
-"
-)
 mMutex
 (
 aWorkerPrivate

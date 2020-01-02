@@ -1267,15 +1267,6 @@ public
 ContentParentsMemoryReporter
 (
 )
-:
-MemoryMultiReporter
-(
-"
-content
--
-parents
-"
-)
 {
 }
 NS_IMETHOD

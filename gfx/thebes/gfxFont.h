@@ -6312,15 +6312,6 @@ public
 MemoryReporter
 (
 )
-:
-MemoryMultiReporter
-(
-"
-font
--
-cache
-"
-)
 {
 }
 NS_IMETHOD
