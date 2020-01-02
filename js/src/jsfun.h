@@ -3043,7 +3043,6 @@ getParent
 )
 ;
 }
-inline
 const
 js
 :
@@ -3055,7 +3054,6 @@ getBoundFunctionThis
 )
 const
 ;
-inline
 const
 js
 :
@@ -3069,7 +3067,6 @@ which
 )
 const
 ;
-inline
 size_t
 getBoundFunctionArgumentCount
 (

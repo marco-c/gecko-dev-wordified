@@ -7502,7 +7502,6 @@ return
 true
 ;
 }
-inline
 const
 js
 :
@@ -7531,7 +7530,6 @@ JSSLOT_BOUND_FUNCTION_THIS
 )
 ;
 }
-inline
 const
 js
 :
@@ -7573,7 +7571,6 @@ which
 )
 ;
 }
-inline
 size_t
 JSFunction
 :

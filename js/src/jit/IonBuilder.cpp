@@ -28531,11 +28531,6 @@ inlineNativeCall
 (
 callInfo
 target
--
->
-native
-(
-)
 )
 ;
 if
