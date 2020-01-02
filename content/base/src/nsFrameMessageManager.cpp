@@ -4866,7 +4866,6 @@ global
 aTarget
 &
 targetv
-nullptr
 true
 )
 ;
@@ -5568,7 +5567,6 @@ global
 defaultThisValue
 &
 thisValue
-nullptr
 true
 )
 ;

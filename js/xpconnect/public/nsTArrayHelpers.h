@@ -254,7 +254,6 @@ global
 obj
 &
 wrappedVal
-nullptr
 true
 )
 ;

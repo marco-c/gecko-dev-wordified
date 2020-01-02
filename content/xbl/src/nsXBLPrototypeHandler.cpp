@@ -2061,7 +2061,6 @@ scopeObject
 scriptTarget
 &
 targetV
-nullptr
 /
 *
 aAllowWrapping

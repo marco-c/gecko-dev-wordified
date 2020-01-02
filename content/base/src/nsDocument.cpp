@@ -35825,7 +35825,6 @@ this
 this
 &
 v
-nullptr
 /
 *
 aAllowWrapping
@@ -62616,12 +62615,6 @@ winVal
 aCx
 )
 ;
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-holder
-;
 nsresult
 rv
 =
@@ -62640,10 +62633,6 @@ nsIDOMWindow
 )
 &
 winVal
-getter_AddRefs
-(
-holder
-)
 false
 )
 ;

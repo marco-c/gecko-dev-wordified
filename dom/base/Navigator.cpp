@@ -8143,12 +8143,6 @@ prop_val
 )
 )
 {
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-holder
-;
 rv
 =
 nsContentUtils
@@ -8161,10 +8155,6 @@ aObject
 native
 &
 prop_val
-getter_AddRefs
-(
-holder
-)
 true
 )
 ;
