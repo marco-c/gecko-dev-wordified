@@ -1650,6 +1650,11 @@ aCx
 nullptr
 )
 ;
+~
+AutoEntryScript
+(
+)
+;
 void
 SetWebIDLCallerPrincipal
 (
