@@ -1697,9 +1697,10 @@ ocspResponder
 .
 stop
 (
-run_next_test
+function
+(
 )
-;
+{
 /
 /
 without
@@ -1797,6 +1798,9 @@ failingOcspResponder
 stop
 (
 run_next_test
+)
+;
+}
 )
 ;
 }
