@@ -5247,13 +5247,14 @@ arg1
 ;
 FloatRegister
 fReg
-=
+(
 FloatRegister
 :
 :
 FromName
 (
 arg1
+)
 )
 ;
 if

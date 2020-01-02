@@ -2746,7 +2746,7 @@ LTableSwitchV
 temp
 (
 )
-tempFloat32
+tempDouble
 (
 )
 temp
