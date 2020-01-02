@@ -2108,11 +2108,6 @@ GetCmDevInfoObject
 (
 )
 ;
-int32_t
-rotation
-=
-0
-;
 WEBRTC_TRACE
 (
 webrtc
@@ -2684,11 +2679,6 @@ __FUNCTION__
 ;
 int32_t
 result
-=
-0
-;
-int32_t
-rotation
 =
 0
 ;
