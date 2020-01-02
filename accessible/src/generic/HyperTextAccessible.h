@@ -2807,7 +2807,6 @@ accessible
 .
 *
 /
-virtual
 already_AddRefed
 <
 nsFrameSelection
