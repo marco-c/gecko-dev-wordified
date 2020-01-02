@@ -841,6 +841,13 @@ funScript
 )
 const
 ;
+JSFunction
+&
+fun
+(
+)
+const
+;
 }
 ;
 /

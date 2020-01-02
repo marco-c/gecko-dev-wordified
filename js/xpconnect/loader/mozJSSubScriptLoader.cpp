@@ -2181,15 +2181,6 @@ function
 )
 ;
 }
-loader
--
->
-NoteSubScript
-(
-script
-targetObj
-)
-;
 bool
 ok
 =

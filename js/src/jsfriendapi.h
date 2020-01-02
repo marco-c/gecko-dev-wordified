@@ -4263,7 +4263,7 @@ eval
 /
 JS_FRIEND_API
 (
-JSScript
+JSFunction
 *
 )
 GetOutermostEnclosingFunctionOfScriptedCaller
