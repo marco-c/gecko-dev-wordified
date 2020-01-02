@@ -369,6 +369,15 @@ EncodedFrame
 :
 :
 AVC_CSD
+|
+|
+type
+=
+=
+EncodedFrame
+:
+:
+AMR_AUDIO_CSD
 )
 {
 mCSDFrame
@@ -377,7 +386,7 @@ aFrame
 ;
 /
 /
-Ue
+Use
 CSD
 '
 s
@@ -396,6 +405,7 @@ first
 /
 /
 and
+then
 data
 frames
 .
@@ -483,6 +493,7 @@ GetTimeStamp
 mMediaStartTime
 )
 >
+=
 (
 mFragDuration
 *
