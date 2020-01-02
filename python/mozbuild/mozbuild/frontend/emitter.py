@@ -105,6 +105,8 @@ GeneratedInclude
     
 GeneratedWebIDLFile
     
+ExampleWebIDLInterface
+    
 HeaderFileSubstitution
     
 HostProgram
@@ -2348,6 +2350,13 @@ TestWebIDLFile
 WEBIDL_FILES
 '
 WebIDLFile
+)
+            
+(
+'
+WEBIDL_EXAMPLE_INTERFACES
+'
+ExampleWebIDLInterface
 )
         
 ]

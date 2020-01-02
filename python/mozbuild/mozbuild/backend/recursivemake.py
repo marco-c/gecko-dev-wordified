@@ -9602,6 +9602,15 @@ sorted
 (
 exported_stems
 )
+            
+example_interfaces
+=
+sorted
+(
+webidls
+.
+example_interfaces
+)
         
 )
         
