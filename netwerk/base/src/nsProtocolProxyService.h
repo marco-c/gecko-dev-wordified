@@ -1925,6 +1925,9 @@ mSOCKSProxyVersion
 bool
 mSOCKSProxyRemoteDNS
 ;
+bool
+mProxyOverTLS
+;
 nsRefPtr
 <
 nsPACMan
