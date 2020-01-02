@@ -142,6 +142,17 @@ include
 "
 mozilla
 /
+dom
+/
+MozMobileMessageManagerBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
