@@ -4709,7 +4709,7 @@ drawTarget
 backBuffer
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;

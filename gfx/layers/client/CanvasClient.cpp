@@ -687,7 +687,7 @@ target
 mBuffer
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;

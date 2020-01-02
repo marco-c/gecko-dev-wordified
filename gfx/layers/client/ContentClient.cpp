@@ -1786,7 +1786,7 @@ aBlackDT
 mTextureClient
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;
@@ -1832,7 +1832,7 @@ aWhiteDT
 mTextureClientOnWhite
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;
@@ -3019,7 +3019,7 @@ dt
 mFrontClient
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;
@@ -3034,7 +3034,7 @@ mFrontClientOnWhite
 mFrontClientOnWhite
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 :
