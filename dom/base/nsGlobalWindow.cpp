@@ -41435,7 +41435,7 @@ if
 targetPrin
 -
 >
-EqualsIgnoringDomain
+Equals
 (
 mProvidedPrincipal
 )

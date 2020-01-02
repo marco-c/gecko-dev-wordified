@@ -1321,7 +1321,7 @@ the
 other
 /
 /
-subsumesIgnoringDomain
+subsumes
 call
 below
 .
@@ -1331,7 +1331,7 @@ subsumes
 AccessCheck
 :
 :
-subsumesIgnoringDomain
+subsumes
 (
 js
 :
@@ -2354,7 +2354,7 @@ wrapScope
 AccessCheck
 :
 :
-subsumesIgnoringDomain
+subsumes
 (
 js
 :
