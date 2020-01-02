@@ -3656,6 +3656,14 @@ name
 )
 ;
 bool
+jsop_getgname
+(
+PropertyName
+*
+name
+)
+;
+bool
 jsop_getname
 (
 PropertyName

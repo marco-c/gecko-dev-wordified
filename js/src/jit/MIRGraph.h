@@ -808,6 +808,13 @@ size_t
 num
 )
 ;
+bool
+ensureHasSlots
+(
+size_t
+num
+)
+;
 /
 /
 Initializes
