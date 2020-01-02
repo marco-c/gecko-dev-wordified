@@ -1739,10 +1739,10 @@ mSynFrameComplete
 =
 1
 ;
-nsCString
+nsAutoCString
 hostHeader
 ;
-nsCString
+nsAutoCString
 hashkey
 ;
 mTransaction
