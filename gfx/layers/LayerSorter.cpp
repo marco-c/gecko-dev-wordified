@@ -689,7 +689,7 @@ GetBounds
 ;
 gfx3DMatrix
 ourTransform
-;
+=
 To3DMatrix
 (
 aOne
@@ -698,12 +698,11 @@ aOne
 GetTransform
 (
 )
-ourTransform
 )
 ;
 gfx3DMatrix
 otherTransform
-;
+=
 To3DMatrix
 (
 aTwo
@@ -712,7 +711,6 @@ aTwo
 GetTransform
 (
 )
-otherTransform
 )
 ;
 /

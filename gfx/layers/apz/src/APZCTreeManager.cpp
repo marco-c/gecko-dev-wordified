@@ -2077,7 +2077,7 @@ GetParentResolution
 }
 gfx3DMatrix
 transform
-;
+=
 gfx
 :
 :
@@ -2089,7 +2089,6 @@ aLayer
 GetTransform
 (
 )
-transform
 )
 ;
 apzc
@@ -2658,9 +2657,8 @@ they
 get
 applied
 first
-gfx3DMatrix
-matrix
-;
+aTransform
+=
 gfx
 :
 :
@@ -2672,12 +2670,7 @@ aLayer
 GetTransform
 (
 )
-matrix
 )
-;
-aTransform
-=
-matrix
 *
 aTransform
 ;

@@ -6002,7 +6002,7 @@ Paint
 endif
 gfx3DMatrix
 effectiveTransform
-;
+=
 gfx
 :
 :
@@ -6014,7 +6014,6 @@ aLayer
 GetEffectiveTransform
 (
 )
-effectiveTransform
 )
 ;
 nsRefPtr

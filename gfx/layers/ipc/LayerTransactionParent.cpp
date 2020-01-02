@@ -4043,7 +4043,7 @@ SampleValue
 .
 gfx3DMatrix
 transform
-;
+=
 gfx
 :
 :
@@ -4060,7 +4060,6 @@ AsLayerComposite
 GetShadowTransform
 (
 )
-transform
 )
 ;
 if
