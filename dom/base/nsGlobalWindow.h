@@ -3019,10 +3019,8 @@ get
 )
 ;
 }
-already_AddRefed
-<
-nsIDOMWindow
->
+nsPIDOMWindow
+*
 GetChildWindow
 (
 const

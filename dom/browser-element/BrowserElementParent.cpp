@@ -1764,9 +1764,11 @@ nsIDOMWindow
 >
 window
 =
-do_GetInterface
-(
 docshell
+-
+>
+GetWindow
+(
 )
 ;
 window
