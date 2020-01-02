@@ -51025,7 +51025,7 @@ ifdef
 MOZ_X11
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 pref
 (
 "
