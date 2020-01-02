@@ -882,7 +882,7 @@ mozilla
 dom
 :
 :
-DefineWebIDLBindingPropertiesOnXPCObject
+DefineWebIDLBindingPropertiesOnXPCProto
 (
 cx
 proto
@@ -890,7 +890,6 @@ entry
 -
 >
 newBindingProperties
-false
 )
 ;
 }
