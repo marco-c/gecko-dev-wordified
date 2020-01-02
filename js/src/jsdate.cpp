@@ -19946,6 +19946,7 @@ class_
 >
 date_static_methods
 date_methods
+nullptr
 FinishDateClassInit
 }
 }

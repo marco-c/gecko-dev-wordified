@@ -2577,6 +2577,11 @@ JSFunctionSpec
 *
 prototypeFunctions
 ;
+const
+JSPropertySpec
+*
+prototypeProperties
+;
 FinishClassInitOp
 finishInit
 ;
@@ -2779,6 +2784,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 }
 #
 define
@@ -2927,7 +2933,7 @@ void
 *
 reserved
 [
-31
+32
 ]
 ;
 }
