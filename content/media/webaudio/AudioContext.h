@@ -370,11 +370,6 @@ bool
 aIsOffline
 AudioChannel
 aChannel
-=
-AudioChannel
-:
-:
-Normal
 uint32_t
 aNumberOfChannels
 =
@@ -1062,6 +1057,14 @@ ExtraCurrentTime
 )
 ;
 }
+IMPL_EVENT_HANDLER
+(
+mozinterruptbegin
+)
+IMPL_EVENT_HANDLER
+(
+mozinterruptend
+)
 private
 :
 /
