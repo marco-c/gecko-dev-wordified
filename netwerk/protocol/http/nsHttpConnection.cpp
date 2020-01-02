@@ -654,7 +654,7 @@ LOG
 Creating
 nsHttpConnection
 %
-x
+p
 \
 n
 "
@@ -728,7 +728,7 @@ LOG
 Destroying
 nsHttpConnection
 %
-x
+p
 \
 n
 "
@@ -8414,7 +8414,7 @@ p
 trans
 =
 %
-x
+p
 reason
 =
 %
