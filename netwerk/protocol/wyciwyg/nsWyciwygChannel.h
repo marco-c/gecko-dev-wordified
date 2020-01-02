@@ -341,6 +341,11 @@ ReadFromCache
 )
 ;
 nsresult
+EnsureWriteCacheEntry
+(
+)
+;
+nsresult
 OpenCacheEntry
 (
 nsIURI
