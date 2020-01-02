@@ -2421,6 +2421,7 @@ key
 #
 endif
 }
+static
 MOZ_ALWAYS_INLINE
 bool
 SetWeakMapEntryInternal

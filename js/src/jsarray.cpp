@@ -9367,8 +9367,7 @@ return
 true
 ;
 }
-namespace
-{
+static
 inline
 bool
 CompareStringValues
@@ -10008,6 +10007,8 @@ return
 true
 ;
 }
+namespace
+{
 struct
 SortComparatorStrings
 {
@@ -10575,6 +10576,7 @@ elementIndex
 ;
 }
 ;
+static
 bool
 ComparatorNumericLeftMinusRight
 (
@@ -10609,6 +10611,7 @@ return
 true
 ;
 }
+static
 bool
 ComparatorNumericRightMinusLeft
 (
@@ -10675,6 +10678,7 @@ ComparatorNumericLeftMinusRight
 ComparatorNumericRightMinusLeft
 }
 ;
+static
 bool
 ComparatorInt32LeftMinusRight
 (
@@ -10713,6 +10717,7 @@ return
 true
 ;
 }
+static
 bool
 ComparatorInt32RightMinusLeft
 (
@@ -10812,6 +10817,13 @@ Match_LeftMinusRight
 Match_RightMinusLeft
 }
 ;
+}
+/
+*
+namespace
+anonymous
+*
+/
 /
 *
 *
@@ -10844,6 +10856,7 @@ x
 .
 *
 /
+static
 ComparatorMatchResult
 MatchNumericComparator
 (
@@ -11522,6 +11535,7 @@ strings
 .
 *
 /
+static
 bool
 SortLexicographically
 (
@@ -11776,6 +11790,7 @@ numerics
 .
 *
 /
+static
 bool
 SortNumerically
 (
@@ -11976,13 +11991,6 @@ vec
 )
 ;
 }
-}
-/
-*
-namespace
-anonymous
-*
-/
 bool
 js
 :
