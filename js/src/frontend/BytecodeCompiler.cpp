@@ -317,7 +317,7 @@ true
 }
 static
 bool
-SetSourceURL
+SetDisplayURL
 (
 ExclusiveContext
 *
@@ -334,7 +334,7 @@ if
 (
 tokenStream
 .
-hasSourceURL
+hasDisplayURL
 (
 )
 )
@@ -345,12 +345,12 @@ if
 ss
 -
 >
-setSourceURL
+setDisplayURL
 (
 cx
 tokenStream
 .
-sourceURL
+displayURL
 (
 )
 )
@@ -2651,7 +2651,7 @@ nullptr
 if
 (
 !
-SetSourceURL
+SetDisplayURL
 (
 cx
 parser
@@ -4271,7 +4271,7 @@ native
 if
 (
 !
-SetSourceURL
+SetDisplayURL
 (
 cx
 parser

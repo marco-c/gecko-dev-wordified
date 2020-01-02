@@ -26,7 +26,7 @@ Source
 .
 prototype
 .
-sourceURL
+displayURL
 can
 be
 a
@@ -148,7 +148,7 @@ x
 }
 "
 {
-sourceURL
+displayURL
 :
 '
 file
@@ -260,7 +260,7 @@ debugger
 ;
 '
 {
-sourceURL
+displayURL
 :
 '
 file
@@ -757,7 +757,7 @@ foo
 js
 '
 {
-sourceMapURL
+displayURL
 :
 '
 http
