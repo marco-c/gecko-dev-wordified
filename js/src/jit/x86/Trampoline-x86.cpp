@@ -5350,7 +5350,7 @@ ReturnReg
 ;
 masm
 .
-movzxbl
+movzbl
 (
 ReturnReg
 ReturnReg

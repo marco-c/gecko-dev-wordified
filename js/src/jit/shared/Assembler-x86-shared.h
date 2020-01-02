@@ -8440,7 +8440,7 @@ bit
 integer
 .
 void
-movzxbl
+movzbl
 (
 const
 Register

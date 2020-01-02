@@ -3663,7 +3663,7 @@ higher
 order
 bits
 .
-movzxbl
+movzbl
 (
 source
 dest
@@ -3738,7 +3738,7 @@ cond
 dest
 )
 ;
-movzxbl
+movzbl
 (
 dest
 dest

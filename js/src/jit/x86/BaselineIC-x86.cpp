@@ -288,7 +288,7 @@ payloadReg
 ;
 masm
 .
-movzxbl
+movzbl
 (
 R0
 .
