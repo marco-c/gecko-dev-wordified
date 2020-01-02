@@ -4815,9 +4815,8 @@ and
 audio
 data
 .
-virtual
-int64_t
-VideoQueueMemoryInUse
+size_t
+SizeOfVideoQueue
 (
 )
 ;

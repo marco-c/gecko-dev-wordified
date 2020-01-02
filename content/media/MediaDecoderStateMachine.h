@@ -1965,8 +1965,8 @@ bool
 aPreservesPitch
 )
 ;
-int64_t
-VideoQueueMemoryInUse
+size_t
+SizeOfVideoQueue
 (
 )
 {
@@ -1979,7 +1979,7 @@ return
 mReader
 -
 >
-VideoQueueMemoryInUse
+SizeOfVideoQueueInBytes
 (
 )
 ;
@@ -2002,7 +2002,7 @@ return
 mReader
 -
 >
-SizeOfAudioQueue
+SizeOfAudioQueueInBytes
 (
 )
 ;
