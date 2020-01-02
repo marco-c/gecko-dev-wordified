@@ -2747,8 +2747,11 @@ computedStr
 }
 }
 ;
-function
+window
+.
 matricesRoughlyEqual
+=
+function
 (
 a
 b
@@ -2841,6 +2844,7 @@ return
 true
 ;
 }
+;
 /
 /
 Converts
