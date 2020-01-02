@@ -4399,15 +4399,6 @@ mOutputQueueUsed
 =
 16
 ;
-memset
-(
-packet
-+
-8
-0
-8
-)
-;
 CreateFrameHeader
 (
 packet
