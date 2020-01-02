@@ -19157,10 +19157,6 @@ lport
 =
 0
 ;
-error
-=
-0
-;
 bindall
 =
 1

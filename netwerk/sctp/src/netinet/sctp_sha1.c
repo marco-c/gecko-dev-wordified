@@ -1710,10 +1710,6 @@ running_total
 =
 number_left
 ;
-number_left
-=
-0
-;
 break
 ;
 }
