@@ -1740,10 +1740,6 @@ mContext
 return
 false
 ;
-MakeCurrent
-(
-)
-;
 SetupLookupFunction
 (
 )

@@ -11784,6 +11784,17 @@ aForce
 false
 )
 {
+if
+(
+IsDestroyed
+(
+)
+)
+{
+return
+false
+;
+}
 #
 ifdef
 MOZ_ENABLE_GL_TRACKING
