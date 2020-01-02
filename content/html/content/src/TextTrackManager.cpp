@@ -299,6 +299,7 @@ OwnerDoc
 GetParentObject
 (
 )
+this
 )
 ;
 mPendingTextTracks
@@ -317,6 +318,7 @@ OwnerDoc
 GetParentObject
 (
 )
+this
 )
 ;
 if

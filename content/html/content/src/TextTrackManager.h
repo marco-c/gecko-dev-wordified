@@ -588,8 +588,6 @@ PopulatePendingList
 (
 )
 ;
-private
-:
 /
 /
 The
@@ -640,6 +638,8 @@ HTMLMediaElement
 *
 mMediaElement
 ;
+private
+:
 /
 /
 List
