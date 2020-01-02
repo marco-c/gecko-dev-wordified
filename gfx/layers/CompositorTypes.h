@@ -1358,6 +1358,7 @@ mSupportsTextureBlitting
 bool
 mSupportsPartialUploads
 ;
+explicit
 TextureFactoryIdentifier
 (
 LayersBackend
@@ -1607,6 +1608,7 @@ NO_FLAGS
 )
 {
 }
+explicit
 TextureInfo
 (
 CompositableType

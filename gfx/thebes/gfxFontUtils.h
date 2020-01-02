@@ -259,6 +259,7 @@ mBits
 )
 ;
 }
+explicit
 Block
 (
 unsigned
@@ -2412,6 +2413,7 @@ this
 }
 #
 else
+MOZ_IMPLICIT
 AutoSwap_PRUint16
 (
 uint16_t
@@ -2537,6 +2539,7 @@ this
 }
 #
 else
+MOZ_IMPLICIT
 AutoSwap_PRInt16
 (
 int16_t
@@ -2643,6 +2646,7 @@ this
 }
 #
 else
+MOZ_IMPLICIT
 AutoSwap_PRUint32
 (
 uint32_t
@@ -2730,6 +2734,7 @@ this
 }
 #
 else
+MOZ_IMPLICIT
 AutoSwap_PRInt32
 (
 int32_t
@@ -2817,6 +2822,7 @@ this
 }
 #
 else
+MOZ_IMPLICIT
 AutoSwap_PRUint64
 (
 uint64_t

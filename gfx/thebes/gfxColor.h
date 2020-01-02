@@ -1064,6 +1064,7 @@ gfxRGBA
 Packed
 *
 /
+MOZ_IMPLICIT
 gfxRGBA
 (
 uint32_t

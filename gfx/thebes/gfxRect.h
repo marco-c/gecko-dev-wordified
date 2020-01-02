@@ -498,6 +498,7 @@ aHeight
 )
 {
 }
+MOZ_IMPLICIT
 gfxRect
 (
 const
@@ -991,6 +992,7 @@ gfxCornerSizes
 )
 {
 }
+explicit
 gfxCornerSizes
 (
 gfxFloat

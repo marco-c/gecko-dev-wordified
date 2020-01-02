@@ -347,12 +347,15 @@ fontlist
 .
 Append
 (
+FontFamilyName
+(
 aFont
 .
 fontlist
 .
 GetDefaultFontType
 (
+)
 )
 )
 ;

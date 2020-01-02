@@ -288,6 +288,7 @@ e
 g
 .
 Helvetica
+explicit
 FontFamilyName
 (
 const
@@ -331,6 +332,7 @@ g
 sans
 -
 serif
+explicit
 FontFamilyName
 (
 FontFamilyType
@@ -977,6 +979,7 @@ eFamily_none
 )
 {
 }
+explicit
 FontFamilyList
 (
 FontFamilyType

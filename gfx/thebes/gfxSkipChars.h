@@ -915,6 +915,7 @@ aOriginalStringOffset
 )
 ;
 }
+explicit
 gfxSkipCharsIterator
 (
 const

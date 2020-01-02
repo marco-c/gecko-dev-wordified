@@ -552,6 +552,7 @@ Log
 {
 public
 :
+explicit
 Log
 (
 LogOptions
@@ -1299,6 +1300,7 @@ TreeLog
 {
 public
 :
+explicit
 TreeLog
 (
 const
@@ -1649,6 +1651,7 @@ TreeAutoIndent
 {
 public
 :
+explicit
 TreeAutoIndent
 (
 TreeLog

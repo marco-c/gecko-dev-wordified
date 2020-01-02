@@ -378,6 +378,7 @@ mImpl
 )
 ;
 }
+MOZ_IMPLICIT
 nsRegion
 (
 const
@@ -2496,6 +2497,7 @@ boxes
 ;
 public
 :
+explicit
 nsRegionRectIterator
 (
 const
@@ -2736,6 +2738,7 @@ nsIntRegion
 )
 {
 }
+MOZ_IMPLICIT
 nsIntRegion
 (
 const
@@ -4221,6 +4224,7 @@ mTmp
 ;
 public
 :
+explicit
 nsIntRegionRectIterator
 (
 const

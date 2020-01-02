@@ -411,6 +411,7 @@ member
 data
 documentation
 .
+explicit
 DrawOptions
 (
 Float
@@ -550,6 +551,7 @@ member
 data
 documentation
 .
+explicit
 StrokeOptions
 (
 Float
@@ -812,6 +814,7 @@ member
 data
 documentation
 .
+explicit
 DrawSurfaceOptions
 (
 Filter
@@ -1072,6 +1075,7 @@ Pattern
 {
 public
 :
+explicit
 ColorPattern
 (
 const

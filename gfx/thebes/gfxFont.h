@@ -1724,6 +1724,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 gfxFontEntry
 )
+explicit
 gfxFontEntry
 (
 const
@@ -4654,6 +4655,7 @@ KeyClass
 KeyTypePointer
 KeyTypePointer
 ;
+explicit
 FontTableHashEntry
 (
 KeyTypePointer
@@ -5103,6 +5105,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 gfxFontFamily
 )
+explicit
 gfxFontFamily
 (
 const
@@ -7148,6 +7151,7 @@ fill
 this
 in
 .
+explicit
 HashEntry
 (
 KeyTypePointer
@@ -8432,6 +8436,7 @@ gfxGlyphExtents
 {
 public
 :
+explicit
 gfxGlyphExtents
 (
 int32_t
@@ -8739,6 +8744,7 @@ fill
 this
 in
 .
+explicit
 HashEntry
 (
 KeyTypePointer
@@ -9253,6 +9259,7 @@ gfxFontShaper
 {
 public
 :
+explicit
 gfxFontShaper
 (
 gfxFont
@@ -12183,6 +12190,7 @@ NotifyGlyphsChanged
 ;
 protected
 :
+explicit
 GlyphChangeObserver
 (
 gfxFont
@@ -13582,6 +13590,7 @@ fill
 us
 in
 .
+explicit
 CacheHashEntry
 (
 KeyTypePointer
@@ -18498,6 +18507,7 @@ either
 .
 *
 /
+explicit
 gfxTextRunDrawCallbacks
 (
 bool
@@ -19692,6 +19702,7 @@ ClusterIterator
 {
 public
 :
+explicit
 ClusterIterator
 (
 gfxTextRun

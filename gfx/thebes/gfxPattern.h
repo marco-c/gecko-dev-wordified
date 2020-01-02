@@ -182,6 +182,7 @@ gfxPattern
 )
 public
 :
+explicit
 gfxPattern
 (
 cairo_pattern_t
@@ -189,6 +190,7 @@ cairo_pattern_t
 aPattern
 )
 ;
+explicit
 gfxPattern
 (
 const
@@ -197,6 +199,7 @@ gfxRGBA
 aColor
 )
 ;
+explicit
 gfxPattern
 (
 gfxASurface
