@@ -207,6 +207,7 @@ nsCategoryObserver
 ;
 public
 :
+explicit
 nsCategoryObserver
 (
 const

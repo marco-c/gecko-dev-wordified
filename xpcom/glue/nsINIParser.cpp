@@ -319,6 +319,7 @@ AutoFILE
 {
 public
 :
+explicit
 AutoFILE
 (
 FILE
@@ -550,11 +551,12 @@ file
 /
 AutoFILE
 fd
-=
+(
 TS_tfopen
 (
 aPath
 READ_BINARYMODE
+)
 )
 ;
 if

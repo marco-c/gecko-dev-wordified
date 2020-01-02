@@ -6670,6 +6670,7 @@ typedef
 char16_t
 char_type
 ;
+explicit
 nsGetterCopies
 (
 nsString
@@ -6749,6 +6750,7 @@ typedef
 char
 char_type
 ;
+explicit
 nsCGetterCopies
 (
 nsCString

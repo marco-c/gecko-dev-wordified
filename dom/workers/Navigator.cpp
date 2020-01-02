@@ -665,8 +665,9 @@ nsMainThreadPtrHandle
 DataStore
 >
 backingStore
-=
+(
 dataStoreholder
+)
 ;
 /
 /

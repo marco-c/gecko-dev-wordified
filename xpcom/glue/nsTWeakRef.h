@@ -961,6 +961,7 @@ Type
 *
 mObj
 ;
+explicit
 Inner
 (
 Type

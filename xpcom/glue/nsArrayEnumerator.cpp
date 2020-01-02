@@ -181,6 +181,7 @@ NS_DECL_NSISIMPLEENUMERATOR
 /
 nsSimpleArrayEnumerator
 methods
+explicit
 nsSimpleArrayEnumerator
 (
 nsIArray

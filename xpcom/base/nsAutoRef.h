@@ -2238,7 +2238,7 @@ a
 raw
 ref
 .
-explicit
+MOZ_IMPLICIT
 nsReturnRef
 (
 RawRefOnly
@@ -2273,6 +2273,7 @@ aRefToSteal
 )
 {
 }
+MOZ_IMPLICIT
 nsReturnRef
 (
 const
@@ -3590,6 +3591,7 @@ must
 provide
 this
 .
+explicit
 nsSimpleRef
 (
 RawRef
@@ -3873,6 +3875,7 @@ RawRefOnly
 {
 public
 :
+MOZ_IMPLICIT
 RawRefOnly
 (
 RawRef

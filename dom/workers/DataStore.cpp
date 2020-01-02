@@ -1920,7 +1920,7 @@ nsMainThreadPtrHandle
 DataStoreCursor
 >
 backingCursor
-=
+(
 new
 nsMainThreadPtrHolder
 <
@@ -1928,6 +1928,7 @@ DataStoreCursor
 >
 (
 cursor
+)
 )
 ;
 mWorkerCursor

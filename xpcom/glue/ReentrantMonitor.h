@@ -273,6 +273,7 @@ this
 monitor
 *
 /
+explicit
 ReentrantMonitor
 (
 const
@@ -753,6 +754,7 @@ ReentrantMonitor
 *
 *
 /
+explicit
 ReentrantMonitorAutoEnter
 (
 mozilla
@@ -995,6 +997,7 @@ locked
 *
 *
 /
+explicit
 ReentrantMonitorAutoExit
 (
 ReentrantMonitor

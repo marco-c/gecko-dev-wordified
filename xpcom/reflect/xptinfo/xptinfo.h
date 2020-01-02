@@ -188,6 +188,7 @@ nsXPTType
 /
 random
 contents
+MOZ_IMPLICIT
 nsXPTType
 (
 const
@@ -206,6 +207,7 @@ this
 prefix
 ;
 }
+MOZ_IMPLICIT
 nsXPTType
 (
 const
@@ -742,6 +744,7 @@ flyweight
 wrapper
 public
 :
+MOZ_IMPLICIT
 nsXPTParamInfo
 (
 const
@@ -1250,6 +1253,7 @@ flyweight
 wrapper
 public
 :
+MOZ_IMPLICIT
 nsXPTMethodInfo
 (
 const
@@ -1519,6 +1523,7 @@ flyweight
 wrapper
 public
 :
+MOZ_IMPLICIT
 nsXPTConstant
 (
 const

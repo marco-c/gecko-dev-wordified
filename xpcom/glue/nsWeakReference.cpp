@@ -183,6 +183,7 @@ friend
 class
 nsSupportsWeakReference
 ;
+explicit
 nsWeakReference
 (
 nsSupportsWeakReference

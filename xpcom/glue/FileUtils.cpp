@@ -1561,6 +1561,7 @@ ScopedMMap
 {
 public
 :
+explicit
 ScopedMMap
 (
 const
