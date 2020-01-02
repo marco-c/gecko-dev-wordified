@@ -253,7 +253,7 @@ If
 this
 value
 is
-NULL
+nullptr
 then
 the
 block
@@ -647,7 +647,7 @@ with
 /
 /
 a
-NULL
+nullptr
 memory
 pointer
 .

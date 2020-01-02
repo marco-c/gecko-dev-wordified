@@ -232,7 +232,7 @@ res
 |
 may
 be
-NULL
+nullptr
 if
 the
 RegExpStatics
@@ -248,7 +248,7 @@ input
 |
 may
 be
-NULL
+nullptr
 if
 there
 is

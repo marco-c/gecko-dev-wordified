@@ -267,9 +267,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -3351,7 +3351,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_EXPECTED_TYPE
 "
 nondeterministicGetWeakMapKeys
@@ -3413,7 +3413,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_EXPECTED_TYPE
 "
 nondeterministicGetWeakMapKeys
@@ -4034,13 +4034,13 @@ countTracer
 .
 traceList
 =
-NULL
+nullptr
 ;
 countTracer
 .
 recycleList
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4094,7 +4094,7 @@ traceList
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4170,7 +4170,7 @@ recycleList
 )
 !
 =
-NULL
+nullptr
 )
 {
 countTracer
@@ -4435,7 +4435,7 @@ JS_NewObjectWithGivenProto
 cx
 &
 FinalizeCounterClass
-NULL
+nullptr
 scope
 )
 ;
@@ -4504,7 +4504,7 @@ char
 *
 fileName
 =
-NULL
+nullptr
 ;
 JSAutoByteString
 fileNameBytes
@@ -5035,7 +5035,7 @@ setString
 str
 =
 =
-NULL
+nullptr
 ?
 cx
 -
@@ -5183,7 +5183,7 @@ UndefinedValue
 )
 fun
 0
-NULL
+nullptr
 &
 rval
 )
@@ -5307,7 +5307,7 @@ js
 SetObjectMetadataCallback
 (
 cx
-NULL
+nullptr
 )
 ;
 return
@@ -5331,8 +5331,8 @@ args
 [
 0
 ]
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )

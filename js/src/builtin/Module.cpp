@@ -262,7 +262,7 @@ if
 object
 )
 return
-NULL
+nullptr
 ;
 RootedModule
 module
@@ -293,7 +293,7 @@ module
 >
 setScript
 (
-NULL
+nullptr
 )
 ;
 return

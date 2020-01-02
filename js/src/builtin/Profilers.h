@@ -213,7 +213,7 @@ it
 Passing
 in
 *
-NULL
+nullptr
 is
 legal
 ;
