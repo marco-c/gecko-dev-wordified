@@ -1988,14 +1988,7 @@ get
 if
 defined
 (
-LINUX
-)
-&
-&
-!
-defined
-(
-ANDROID
+HAVE_POSIX_FADVISE
 )
 if
 (
