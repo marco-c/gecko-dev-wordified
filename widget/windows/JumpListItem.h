@@ -286,6 +286,12 @@ JumpListItem
 public
 nsIJumpListSeparator
 {
+~
+JumpListSeparator
+(
+)
+{
+}
 public
 :
 JumpListSeparator
