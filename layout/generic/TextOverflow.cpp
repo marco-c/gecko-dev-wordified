@@ -4279,10 +4279,10 @@ x
 :
 visible
 '
-/
-/
 or
 if
+/
+/
 we
 '
 re
@@ -4292,6 +4292,9 @@ items
 for
 event
 processing
+or
+image
+visibility
 .
 if
 (
@@ -4333,6 +4336,14 @@ aBuilder
 -
 >
 IsForEventDelivery
+(
+)
+|
+|
+aBuilder
+-
+>
+IsForImageVisibility
 (
 )
 )
