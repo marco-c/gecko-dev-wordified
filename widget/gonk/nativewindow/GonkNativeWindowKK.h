@@ -450,6 +450,13 @@ application
 .
 GonkNativeWindow
 (
+int
+bufferCount
+=
+GonkBufferQueue
+:
+:
+MIN_UNDEQUEUED_BUFFERS
 )
 ;
 GonkNativeWindow
