@@ -290,6 +290,9 @@ mozilla
 :
 :
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -318,6 +321,9 @@ mozilla
 :
 :
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -347,6 +353,9 @@ mozilla
 :
 :
 NegativeInfinity
+<
+double
+>
 (
 )
 ;
@@ -357,6 +366,9 @@ mozilla
 :
 :
 PositiveInfinity
+<
+double
+>
 (
 )
 ;
@@ -387,6 +399,9 @@ mozilla
 :
 :
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;

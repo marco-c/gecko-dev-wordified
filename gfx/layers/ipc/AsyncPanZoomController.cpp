@@ -13243,7 +13243,7 @@ scale
 ;
 if
 (
-IsFloatNaN
+IsNaN
 (
 aConstraints
 .
@@ -13253,7 +13253,7 @@ scale
 )
 |
 |
-IsFloatNaN
+IsNaN
 (
 aConstraints
 .

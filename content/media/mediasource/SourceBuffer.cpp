@@ -994,6 +994,9 @@ mAppendWindowStart
 mAppendWindowEnd
 =
 PositiveInfinity
+<
+double
+>
 (
 )
 ;
@@ -1185,6 +1188,9 @@ mAppendWindowStart
 mAppendWindowEnd
 (
 PositiveInfinity
+<
+double
+>
 (
 )
 )

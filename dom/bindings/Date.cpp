@@ -216,6 +216,9 @@ Date
 mMsecSinceEpoch
 (
 UnspecifiedNaN
+<
+double
+>
 (
 )
 )

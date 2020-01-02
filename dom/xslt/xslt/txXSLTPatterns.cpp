@@ -222,6 +222,9 @@ mozilla
 :
 :
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;

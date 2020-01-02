@@ -606,6 +606,9 @@ mozilla
 :
 :
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;

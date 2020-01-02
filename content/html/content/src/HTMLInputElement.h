@@ -3369,6 +3369,9 @@ toDouble
 )
 :
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;

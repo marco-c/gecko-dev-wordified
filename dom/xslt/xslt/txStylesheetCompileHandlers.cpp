@@ -1229,6 +1229,9 @@ aNumber
 aNumber
 =
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -2131,6 +2134,9 @@ double
 prio
 =
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -4821,6 +4827,9 @@ double
 prio
 =
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;

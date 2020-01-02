@@ -529,6 +529,9 @@ mozilla
 :
 :
 PositiveInfinity
+<
+double
+>
 (
 )
 )
@@ -561,6 +564,9 @@ mozilla
 :
 :
 NegativeInfinity
+<
+double
+>
 (
 )
 )
