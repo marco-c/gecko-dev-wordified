@@ -780,7 +780,7 @@ key
 .
 unsafeSet
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3346,7 +3346,7 @@ const
 If
 env
 is
-NULL
+nullptr
 call
 vp
 -
@@ -3360,8 +3360,8 @@ true
 .
 Otherwise
 find
-or
 *
+or
 create
 a
 Debugger
@@ -4406,12 +4406,12 @@ JSTrapHandler
 *
 handlerp
 =
-NULL
+nullptr
 Value
 *
 closurep
 =
-NULL
+nullptr
 )
 ;
 void
@@ -4725,7 +4725,7 @@ breakpoints
 )
 )
 return
-NULL
+nullptr
 ;
 return
 Breakpoint
