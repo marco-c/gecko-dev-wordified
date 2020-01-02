@@ -3390,7 +3390,7 @@ size
 =
 mContentType
 .
-SizeOfIncludingThisIfUnshared
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )
