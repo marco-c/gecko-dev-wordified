@@ -86,6 +86,9 @@ tree
 *
 /
 #
+ifdef
+WEBRTC_ANDROID_OPENSLES_OUTPUT
+#
 include
 "
 webrtc
@@ -3227,3 +3230,5 @@ playing_
 /
 namespace
 webrtc
+#
+endif
