@@ -6200,14 +6200,6 @@ CHECK_REQUEST
 cx
 )
 ;
-cx
--
->
-setDefaultCompartmentObjectIfUnset
-(
-obj
-)
-;
 assertSameCompartment
 (
 cx
