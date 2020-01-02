@@ -837,7 +837,7 @@ ZoneParticipant
 )
 ;
 nsresult
-BeginCycleCollection
+TraverseRoots
 (
 nsCycleCollectionNoteRootCallback
 &
