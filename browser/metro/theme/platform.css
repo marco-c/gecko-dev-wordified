@@ -4275,6 +4275,10 @@ color
 :
 panel_light_color
 ;
+/
+*
+bug
+969354
 background
 -
 image
@@ -4321,6 +4325,8 @@ attachment
 :
 fixed
 ;
+*
+/
 }
 /
 *
