@@ -397,7 +397,6 @@ IsTypeSupported
 const
 GlobalObject
 &
-aGlobal
 const
 nsAString
 &
@@ -616,19 +615,6 @@ MediaSourceEndOfStreamError
 >
 &
 aError
-ErrorResult
-&
-aRv
-)
-;
-static
-bool
-IsTypeSupportedInternal
-(
-const
-nsAString
-&
-aType
 ErrorResult
 &
 aRv
