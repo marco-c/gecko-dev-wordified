@@ -2551,7 +2551,7 @@ nullptr
 NS_LITERAL_STRING
 (
 "
-onerror
+error
 "
 )
 )
