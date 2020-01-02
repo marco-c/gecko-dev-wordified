@@ -426,6 +426,16 @@ while
 true
 )
 {
+JS_ASSERT
+(
+!
+ssi
+.
+done
+(
+)
+)
+;
 if
 (
 ssi

@@ -441,6 +441,13 @@ uint32_t
 parent
 )
 ;
+uint32_t
+findEnclosingScope
+(
+uint32_t
+index
+)
+;
 void
 recordEnd
 (
