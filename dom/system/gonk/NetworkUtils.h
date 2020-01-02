@@ -741,7 +741,7 @@ false
 COPY_OPT_FIELD
 (
 mIsAsync
-true
+false
 )
 COPY_OPT_FIELD
 (
@@ -1284,7 +1284,7 @@ NetworkUtils
 .
 *
 /
-bool
+int32_t
 setDNS
 (
 NetworkParams
@@ -1292,7 +1292,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 setDefaultRouteAndDNS
 (
 NetworkParams
@@ -1300,7 +1300,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 addHostRoute
 (
 NetworkParams
@@ -1308,7 +1308,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 removeDefaultRoute
 (
 NetworkParams
@@ -1316,7 +1316,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 removeHostRoute
 (
 NetworkParams
@@ -1324,7 +1324,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 removeHostRoutes
 (
 NetworkParams
@@ -1332,7 +1332,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 removeNetworkRoute
 (
 NetworkParams
@@ -1340,7 +1340,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 addSecondaryRoute
 (
 NetworkParams
@@ -1348,7 +1348,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 removeSecondaryRoute
 (
 NetworkParams
@@ -1356,7 +1356,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 setNetworkInterfaceAlarm
 (
 NetworkParams
@@ -1364,7 +1364,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 enableNetworkInterfaceAlarm
 (
 NetworkParams
@@ -1372,7 +1372,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 disableNetworkInterfaceAlarm
 (
 NetworkParams
@@ -1380,7 +1380,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 setWifiOperationMode
 (
 NetworkParams
@@ -1388,7 +1388,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 setDhcpServer
 (
 NetworkParams
@@ -1396,7 +1396,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 setWifiTethering
 (
 NetworkParams
@@ -1404,7 +1404,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 setUSBTethering
 (
 NetworkParams
@@ -1412,7 +1412,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 enableUsbRndis
 (
 NetworkParams
@@ -1420,7 +1420,7 @@ NetworkParams
 aOptions
 )
 ;
-bool
+int32_t
 updateUpStream
 (
 NetworkParams
