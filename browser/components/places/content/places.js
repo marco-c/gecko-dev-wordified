@@ -2365,6 +2365,22 @@ itemId
 -
 1
 )
+{
+PlacesUtils
+.
+asContainer
+(
+this
+.
+_places
+.
+selectedNode
+)
+.
+containerOpen
+=
+true
+;
 this
 .
 _places
@@ -2379,6 +2395,7 @@ itemId
 false
 )
 ;
+}
 else
 if
 (
@@ -2389,6 +2406,7 @@ nodeIsQuery
 aContainer
 )
 )
+{
 this
 .
 _places
@@ -2400,6 +2418,7 @@ aContainer
 uri
 )
 ;
+}
 }
 /
 *
