@@ -4002,6 +4002,18 @@ AutoFlushICache
 {
 private
 :
+#
+if
+defined
+(
+JS_CODEGEN_ARM
+)
+|
+|
+defined
+(
+JS_CODEGEN_MIPS
+)
 uintptr_t
 start_
 ;
@@ -4020,6 +4032,8 @@ AutoFlushICache
 *
 prev_
 ;
+#
+endif
 public
 :
 static
