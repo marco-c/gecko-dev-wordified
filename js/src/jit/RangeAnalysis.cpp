@@ -17285,6 +17285,13 @@ TruncateKind
 kind
 )
 {
+if
+(
+kind
+>
+=
+IndirectTruncate
+)
 setInfallible
 (
 )
