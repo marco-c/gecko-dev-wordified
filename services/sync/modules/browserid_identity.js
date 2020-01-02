@@ -98,13 +98,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-async
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -121,7 +121,7 @@ services
 -
 common
 /
-log4moz
+async
 .
 js
 "
@@ -272,7 +272,7 @@ this
 .
 _log
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -291,7 +291,7 @@ _log
 .
 Level
 =
-Log4Moz
+Log
 .
 Level
 [
