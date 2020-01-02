@@ -242,6 +242,9 @@ MediaEngineWebRTC
 :
 MediaEngineWebRTC
 (
+MediaEnginePrefs
+&
+aPrefs
 )
 :
 mMutex
@@ -304,6 +307,13 @@ mHasTabVideoSource
 )
 ;
 }
+if
+(
+aPrefs
+.
+mLoadAdapt
+)
+{
 mLoadMonitor
 =
 new
@@ -319,6 +329,7 @@ Init
 mLoadMonitor
 )
 ;
+}
 }
 #
 endif
@@ -2193,6 +2204,10 @@ mVoiceEngine
 =
 nullptr
 ;
+if
+(
+mLoadMonitor
+)
 mLoadMonitor
 -
 >
