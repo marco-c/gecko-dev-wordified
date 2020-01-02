@@ -794,6 +794,7 @@ remote_process
 msg
 =
 "
+DeviceRunner
 TEST
 -
 UNEXPECTED
