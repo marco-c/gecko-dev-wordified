@@ -59212,6 +59212,12 @@ masm
 .
 enterFakeExitFrame
 (
+IonNativeExitFrameLayout
+:
+:
+Token
+(
+)
 )
 ;
 /
