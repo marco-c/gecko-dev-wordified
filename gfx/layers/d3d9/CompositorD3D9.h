@@ -304,6 +304,7 @@ CompositingRenderTarget
 GetCurrentRenderTarget
 (
 )
+const
 MOZ_OVERRIDE
 {
 return

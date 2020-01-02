@@ -1976,6 +1976,7 @@ CompositingRenderTarget
 GetCurrentRenderTarget
 (
 )
+const
 =
 0
 ;

@@ -3611,6 +3611,7 @@ CompositorOGL
 GetCurrentRenderTarget
 (
 )
+const
 {
 return
 mCurrentRenderTarget
