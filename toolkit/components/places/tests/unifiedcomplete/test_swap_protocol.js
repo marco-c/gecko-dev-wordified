@@ -446,6 +446,17 @@ title
 }
 ]
 ;
+/
+/
+Disable
+autoFill
+to
+avoid
+handling
+the
+first
+result
+.
 Services
 .
 prefs
@@ -501,8 +512,6 @@ allMatches
 }
 )
 ;
-/
-*
 do_log_info
 (
 "
@@ -568,6 +577,7 @@ site
 "
 matches
 :
+[
 {
 uri
 :
@@ -578,6 +588,7 @@ title
 title
 "
 }
+]
 }
 )
 ;
@@ -1181,8 +1192,6 @@ title
 }
 )
 ;
-*
-/
 yield
 cleanup
 (
