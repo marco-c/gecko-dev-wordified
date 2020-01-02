@@ -8366,7 +8366,7 @@ name
 {
 info
 (
-this
+self
 +
 "
 calling
@@ -11570,8 +11570,6 @@ onSuccess
 {
 if
 (
-self
-.
 addStreamTimeout
 !
 =
@@ -11581,8 +11579,6 @@ null
 {
 clearTimeout
 (
-self
-.
 addStreamTimeout
 )
 ;
@@ -11922,7 +11918,9 @@ function
 {
 ok
 (
-false
+self
+.
+onAddStreamFired
 self
 +
 "
@@ -11940,10 +11938,19 @@ fire
 "
 )
 ;
+if
+(
+!
+self
+.
+onAddStreamFired
+)
+{
 onSuccess
 (
 )
 ;
+}
 }
 60000
 )
