@@ -1101,6 +1101,8 @@ aChanged
 void
 SetBCBorderCorner
 (
+:
+:
 Corner
 aCorner
 nsCellMap
