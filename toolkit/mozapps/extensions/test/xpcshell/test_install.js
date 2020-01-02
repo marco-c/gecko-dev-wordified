@@ -7994,15 +7994,7 @@ prefs
 .
 setCharPref
 (
-"
-extensions
-.
-getAddons
-.
-get
-.
-url
-"
+PREF_GETADDONS_BYIDS
 "
 http
 :
