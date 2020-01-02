@@ -2703,6 +2703,7 @@ nsStyleUtil
 :
 CSPAllowsInlineStyle
 (
+nullptr
 doc
 -
 >
