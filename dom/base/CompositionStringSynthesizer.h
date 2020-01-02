@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -195,10 +188,9 @@ nsPIDOMWindow
 nsString
 mString
 ;
-nsAutoTArray
+nsRefPtr
 <
-TextRange
-10
+TextRangeArray
 >
 mClauses
 ;
