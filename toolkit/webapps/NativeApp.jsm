@@ -1305,11 +1305,9 @@ Path
 join
 (
 aTmpDir
-"
-application
+this
 .
-zip
-"
+zipFile
 )
 )
 ;
