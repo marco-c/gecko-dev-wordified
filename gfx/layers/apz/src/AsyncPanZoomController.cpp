@@ -1271,9 +1271,7 @@ h
 "
 apz
 .
-allow
--
-checkerboarding
+allow_checkerboarding
 "
 *
 Pref
