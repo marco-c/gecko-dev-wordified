@@ -2253,6 +2253,16 @@ Init
 (
 )
 ;
+void
+InitializeRootMetrics
+(
+)
+;
+bool
+HasValidInnerSize
+(
+)
+;
 /
 /
 Notify
