@@ -4907,6 +4907,14 @@ gfxPlatform
 UsesOffMainThreadCompositing
 (
 )
+&
+&
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Default
 )
 {
 /
