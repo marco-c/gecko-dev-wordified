@@ -228,6 +228,15 @@ onMainThread
 (
 )
 ;
+js
+:
+:
+PerThreadData
+*
+mainThread
+(
+)
+;
 /
 /
 &
