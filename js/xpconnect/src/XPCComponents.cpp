@@ -13844,8 +13844,10 @@ GetObjectScope
 obj
 )
 ;
-nsXPCComponents
-*
+nsCOMPtr
+<
+nsIXPCComponents
+>
 comp
 ;
 if
@@ -13862,11 +13864,14 @@ scope
 (
 comp
 =
+do_QueryInterface
+(
 scope
 -
 >
 GetComponents
 (
+)
 )
 )
 )
