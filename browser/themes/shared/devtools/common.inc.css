@@ -166,6 +166,12 @@ radius
 :
 3px
 ;
+overflow
+-
+x
+:
+hidden
+;
 %
 ifdef
 XP_LINUX
