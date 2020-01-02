@@ -7165,6 +7165,7 @@ new
 FrameAnimator
 (
 mFrameBlender
+mAnimationMode
 )
 ;
 /
