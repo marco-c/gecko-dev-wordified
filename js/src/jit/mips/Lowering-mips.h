@@ -296,6 +296,15 @@ BogusTemp
 )
 ;
 }
+bool
+needTempForPostBarrier
+(
+)
+{
+return
+false
+;
+}
 /
 /
 MIPS
