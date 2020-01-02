@@ -550,9 +550,10 @@ true
 ;
 if
 (
-JSVAL_IS_GCTHING
-(
 aResult
+.
+isGCThing
+(
 )
 )
 {

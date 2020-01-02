@@ -648,9 +648,10 @@ ifdef
 DEBUG
 if
 (
-JSVAL_IS_GCTHING
-(
 aOther
+.
+isGCThing
+(
 )
 &
 &

@@ -9971,11 +9971,12 @@ aStateData
 ;
 if
 (
-JSVAL_IS_GCTHING
-(
 mStateData
 .
 mResponse
+.
+isGCThing
+(
 )
 )
 {
