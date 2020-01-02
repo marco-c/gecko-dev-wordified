@@ -3014,8 +3014,14 @@ nullptr
 mDatabase
 -
 >
-Invalidate
+InvalidateInternal
 (
+/
+*
+aIsDead
+*
+/
+true
 )
 ;
 }
