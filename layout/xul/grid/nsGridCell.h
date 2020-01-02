@@ -110,6 +110,15 @@ nsGridCell_h___
 #
 define
 nsGridCell_h___
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsBoxLayoutState
 ;
@@ -198,6 +207,7 @@ sizes
 /
 class
 nsGridCell
+MOZ_FINAL
 {
 public
 :
@@ -205,7 +215,6 @@ nsGridCell
 (
 )
 ;
-virtual
 ~
 nsGridCell
 (
