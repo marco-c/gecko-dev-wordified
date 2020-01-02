@@ -872,13 +872,6 @@ devtools
 /
 toolkit
 /
-DevToolsUtils
-"
-"
-devtools
-/
-toolkit
-/
 event
 -
 emitter
