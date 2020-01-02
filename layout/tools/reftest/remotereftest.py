@@ -2600,6 +2600,14 @@ automation
 deleteANRs
 (
 )
+        
+self
+.
+automation
+.
+deleteTombstones
+(
+)
     
 def
 findPath
