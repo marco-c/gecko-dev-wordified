@@ -333,6 +333,9 @@ nscolor
 sButtonText
 ;
 nscolor
+sButtonHoverText
+;
+nscolor
 sButtonOuterLightBorder
 ;
 nscolor
