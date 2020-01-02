@@ -350,6 +350,13 @@ int
 aDefaultError
 )
 ;
+int
+StartAutoFocusMoving
+(
+bool
+aIsMoving
+)
+;
 private
 :
 TestGonkCameraHardware

@@ -114,6 +114,15 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+OnAutoFocusMoving
+(
+bool
+aIsMoving
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 OnTakePictureComplete
 (
 uint8_t

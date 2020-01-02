@@ -143,6 +143,14 @@ aSuccess
 )
 ;
 void
+OnAutoFocusMoving
+(
+bool
+aIsMoving
+)
+{
+}
+void
 OnTakePictureComplete
 (
 uint8_t
