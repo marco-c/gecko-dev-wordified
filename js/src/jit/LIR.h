@@ -8627,7 +8627,7 @@ Alignment
 =
 Max
 (
-size_t
+sizeof
 (
 StackAlignment
 )

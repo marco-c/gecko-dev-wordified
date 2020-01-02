@@ -249,7 +249,7 @@ performsCall_
 (
 false
 )
-needsInitialStackAlignment_
+performsAsmJSCall_
 (
 false
 )
