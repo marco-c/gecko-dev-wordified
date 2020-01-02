@@ -129,6 +129,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h

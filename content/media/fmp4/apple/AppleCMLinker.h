@@ -146,6 +146,13 @@ GCC
 visibility
 pop
 }
+#
+include
+"
+nscore
+.
+h
+"
 namespace
 mozilla
 {
