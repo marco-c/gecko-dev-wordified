@@ -1116,6 +1116,12 @@ zone
 .
 *
 /
+JS
+:
+:
+AutoAssertNoGC
+nogc
+;
 Zone
 *
 mapZone
