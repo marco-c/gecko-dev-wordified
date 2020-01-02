@@ -215,11 +215,8 @@ JS_StructuredClone
 (
 cx
 v1
+&
 v2
-.
-address
-(
-)
 nullptr
 nullptr
 )
@@ -440,11 +437,8 @@ JS_StructuredClone
 (
 cx
 v1
+&
 v2
-.
-address
-(
-)
 nullptr
 nullptr
 )

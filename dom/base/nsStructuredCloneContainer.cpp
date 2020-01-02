@@ -339,7 +339,10 @@ jsBytes
 mSize
 nullptr
 nullptr
-JSVAL_VOID
+JS
+:
+:
+UndefinedHandleValue
 )
 ;
 NS_ENSURE_STATE
@@ -600,11 +603,8 @@ aCx
 mData
 mSize
 mVersion
+&
 jsStateObj
-.
-address
-(
-)
 nullptr
 nullptr
 )
