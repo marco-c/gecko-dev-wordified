@@ -1810,12 +1810,6 @@ self
 gather_debug
 (
 )
-        
-return
-result_expected
-result_actual
-output
-context
     
 def
 gather_debug
