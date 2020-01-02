@@ -586,7 +586,7 @@ aAxisTracker
 )
 ;
 nscoord
-ComputeFlexContainerCrossSize
+ComputeCrossSize
 (
 const
 nsHTMLReflowState

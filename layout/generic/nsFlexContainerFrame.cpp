@@ -17261,7 +17261,7 @@ nscoord
 nsFlexContainerFrame
 :
 :
-ComputeFlexContainerCrossSize
+ComputeCrossSize
 (
 const
 nsHTMLReflowState
@@ -19981,7 +19981,7 @@ const
 nscoord
 contentBoxCrossSize
 =
-ComputeFlexContainerCrossSize
+ComputeCrossSize
 (
 aReflowState
 axisTracker
