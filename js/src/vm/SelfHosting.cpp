@@ -5518,6 +5518,12 @@ strictOption
 =
 true
 ;
+options
+.
+extraWarningsOption
+=
+true
+;
 #
 endif
 /
