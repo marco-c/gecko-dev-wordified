@@ -744,9 +744,9 @@ gradient
 to
 top
 toolbarShadowColor
-1px
+2px
 transparent
-1px
+2px
 )
 linear
 -
@@ -822,9 +822,9 @@ gradient
 to
 top
 toolbarShadowColor
-1px
+2px
 transparent
-1px
+2px
 )
 linear
 -
@@ -867,9 +867,9 @@ gradient
 to
 top
 toolbarShadowColor
-1px
+2px
 transparent
-1px
+2px
 )
 ;
 }
@@ -12593,7 +12593,7 @@ gradient
 to
 top
 toolbarShadowColor
-1px
+2px
 rgba
 (
 0
@@ -12602,7 +12602,7 @@ rgba
 .
 05
 )
-1px
+2px
 transparent
 50
 %
