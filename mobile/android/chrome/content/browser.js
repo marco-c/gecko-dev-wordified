@@ -57271,8 +57271,6 @@ null
 null
 )
 ;
-try
-{
 if
 (
 uri
@@ -57290,6 +57288,8 @@ uri
 host
 )
 )
+{
+try
 {
 Services
 .
@@ -57320,12 +57320,12 @@ host
 )
 ;
 }
-}
 catch
 (
 e
 )
 {
+}
 }
 }
 break
