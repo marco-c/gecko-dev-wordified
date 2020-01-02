@@ -336,6 +336,7 @@ RuleView
 .
 CssRuleView
 (
+aInspector
 this
 .
 doc
