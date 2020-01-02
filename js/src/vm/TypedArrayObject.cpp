@@ -394,6 +394,12 @@ using
 JS
 :
 :
+CanonicalizeNaN
+;
+using
+JS
+:
+:
 GenericNaN
 ;
 /
@@ -7915,7 +7921,7 @@ builds
 *
 d
 =
-JS_CANONICALIZE_NAN
+CanonicalizeNaN
 (
 *
 d
@@ -16983,7 +16989,7 @@ vp
 .
 setDouble
 (
-JS_CANONICALIZE_NAN
+CanonicalizeNaN
 (
 dval
 )
@@ -17088,7 +17094,7 @@ vp
 .
 setDouble
 (
-JS_CANONICALIZE_NAN
+CanonicalizeNaN
 (
 val
 )
@@ -19998,7 +20004,7 @@ rval
 .
 setDouble
 (
-JS_CANONICALIZE_NAN
+CanonicalizeNaN
 (
 val
 )
@@ -20126,7 +20132,7 @@ rval
 .
 setDouble
 (
-JS_CANONICALIZE_NAN
+CanonicalizeNaN
 (
 val
 )
