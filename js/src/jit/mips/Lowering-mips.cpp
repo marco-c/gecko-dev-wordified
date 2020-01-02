@@ -2525,6 +2525,13 @@ LDefinition
 :
 GENERAL
 )
+temp
+(
+LDefinition
+:
+:
+GENERAL
+)
 shift
 +
 1
