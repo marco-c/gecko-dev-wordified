@@ -1616,9 +1616,6 @@ aImage
 return
 false
 ;
-nsIFrame
-:
-:
 IntrinsicSize
 oldIntrinsicSize
 =
@@ -1626,9 +1623,6 @@ mIntrinsicSize
 ;
 mIntrinsicSize
 =
-nsIFrame
-:
-:
 IntrinsicSize
 (
 )
@@ -5057,9 +5051,6 @@ GetCoordValue
 virtual
 *
 /
-nsIFrame
-:
-:
 IntrinsicSize
 nsImageFrame
 :

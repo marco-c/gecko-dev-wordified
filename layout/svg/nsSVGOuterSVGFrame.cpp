@@ -1749,9 +1749,6 @@ result
 virtual
 *
 /
-nsIFrame
-:
-:
 IntrinsicSize
 nsSVGOuterSVGFrame
 :

@@ -355,6 +355,13 @@ h
 "
 #
 include
+"
+nsLayoutUtils
+.
+h
+"
+#
+include
 <
 algorithm
 >

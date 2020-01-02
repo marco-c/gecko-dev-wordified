@@ -140,6 +140,13 @@ h
 "
 #
 include
+"
+nsIFrame
+.
+h
+"
+#
+include
 <
 math
 .

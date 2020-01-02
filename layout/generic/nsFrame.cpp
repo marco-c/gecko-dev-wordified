@@ -25485,9 +25485,6 @@ result
 virtual
 *
 /
-nsIFrame
-:
-:
 IntrinsicSize
 nsFrame
 :

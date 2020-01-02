@@ -1743,6 +1743,9 @@ aRenderingContext
 MOZ_OVERRIDE
 ;
 virtual
+mozilla
+:
+:
 IntrinsicSize
 GetIntrinsicSize
 (

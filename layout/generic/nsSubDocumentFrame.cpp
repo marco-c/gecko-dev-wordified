@@ -3323,9 +3323,6 @@ result
 virtual
 *
 /
-nsIFrame
-:
-:
 IntrinsicSize
 nsSubDocumentFrame
 :

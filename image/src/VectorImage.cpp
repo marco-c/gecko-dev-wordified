@@ -3223,9 +3223,6 @@ nsSize
 1
 )
 ;
-nsIFrame
-:
-:
 IntrinsicSize
 rfSize
 =

@@ -155,6 +155,9 @@ nsDeviceContext
 h
 "
 class
+nsINode
+;
+class
 nsDOMUIEvent
 :
 public

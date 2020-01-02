@@ -136,6 +136,13 @@ h
 "
 #
 include
+"
+nsIFrame
+.
+h
+"
+#
+include
 <
 algorithm
 >

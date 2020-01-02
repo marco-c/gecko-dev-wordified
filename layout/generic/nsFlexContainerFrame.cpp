@@ -8305,7 +8305,7 @@ SortChildrenIfNeeded
 {
 if
 (
-nsLayoutUtils
+nsIFrame
 :
 :
 IsFrameListSorted
@@ -8321,7 +8321,7 @@ return
 false
 ;
 }
-nsLayoutUtils
+nsIFrame
 :
 :
 SortFrameList
@@ -8574,7 +8574,7 @@ aLists
 {
 NS_ASSERTION
 (
-nsLayoutUtils
+nsIFrame
 :
 :
 IsFrameListSorted

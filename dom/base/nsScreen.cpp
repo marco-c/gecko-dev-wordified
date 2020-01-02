@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

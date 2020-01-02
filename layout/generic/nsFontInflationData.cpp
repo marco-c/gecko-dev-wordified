@@ -1343,12 +1343,11 @@ bfc
 while
 (
 !
-nsLayoutUtils
-:
-:
+nca
+-
+>
 IsContainerForFontSizeInflation
 (
-nca
 )
 )
 {

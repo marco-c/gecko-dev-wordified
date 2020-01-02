@@ -394,6 +394,9 @@ aRenderingContext
 )
 ;
 virtual
+mozilla
+:
+:
 IntrinsicSize
 GetIntrinsicSize
 (
@@ -1448,7 +1451,7 @@ mImage
 nsSize
 mComputedSize
 ;
-nsIFrame
+mozilla
 :
 :
 IntrinsicSize
