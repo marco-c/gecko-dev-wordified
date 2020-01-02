@@ -769,16 +769,7 @@ events
 .
 for
 (
-std
-:
-:
-vector
-<
-ObservationWithStack
->
-:
-:
-iterator
+auto
 i
 =
 observationsToWrite

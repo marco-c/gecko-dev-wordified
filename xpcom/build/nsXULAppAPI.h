@@ -1206,7 +1206,7 @@ aResult
 .
 *
 param
-argv0
+aArgv0
 The
 value
 passed
@@ -1253,7 +1253,7 @@ XRE_GetBinaryPath
 const
 char
 *
-argv0
+aArgv0
 nsIFile
 *
 *
@@ -2508,10 +2508,10 @@ XRE_InitOmnijar
 (
 nsIFile
 *
-greOmni
+aGreOmni
 nsIFile
 *
-appOmni
+aAppOmni
 )
 )
 XRE_API

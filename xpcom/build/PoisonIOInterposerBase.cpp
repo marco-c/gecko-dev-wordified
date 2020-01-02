@@ -785,7 +785,7 @@ void
 MozillaRegisterDebugFD
 (
 int
-fd
+aFd
 )
 {
 intptr_t
@@ -793,7 +793,7 @@ fileId
 =
 FileDescriptorToID
 (
-fd
+aFd
 )
 ;
 DebugFilesAutoLock
@@ -855,7 +855,7 @@ MozillaRegisterDebugFILE
 (
 FILE
 *
-f
+aFile
 )
 {
 int
@@ -863,7 +863,7 @@ fd
 =
 fileno
 (
-f
+aFile
 )
 ;
 if
@@ -893,7 +893,7 @@ void
 MozillaUnRegisterDebugFD
 (
 int
-fd
+aFd
 )
 {
 DebugFilesAutoLock
@@ -904,7 +904,7 @@ fileId
 =
 FileDescriptorToID
 (
-fd
+aFd
 )
 ;
 std
@@ -977,7 +977,7 @@ MozillaUnRegisterDebugFILE
 (
 FILE
 *
-f
+aFile
 )
 {
 int
@@ -985,7 +985,7 @@ fd
 =
 fileno
 (
-f
+aFile
 )
 ;
 if
@@ -1007,7 +1007,7 @@ return
 }
 fflush
 (
-f
+aFile
 )
 ;
 MozillaUnRegisterDebugFD
@@ -1017,3 +1017,9 @@ fd
 ;
 }
 }
+/
+/
+extern
+"
+C
+"

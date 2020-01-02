@@ -453,6 +453,7 @@ StopLateWriteChecks
 }
 /
 /
+namespace
 mozilla
 #
 endif

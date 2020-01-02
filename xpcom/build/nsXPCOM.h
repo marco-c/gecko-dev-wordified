@@ -325,7 +325,7 @@ initialised
 *
 *
 param
-result
+aResult
 The
 service
 manager
@@ -338,7 +338,7 @@ null
 *
 *
 param
-binDirectory
+aBinDirectory
 The
 directory
 containing
@@ -371,7 +371,7 @@ directory
 *
 *
 param
-appFileLocationProvider
+aAppFileLocationProvider
 The
 object
 to
@@ -380,8 +380,8 @@ used
 by
 Gecko
 that
-specifies
 *
+specifies
 to
 Gecko
 where
@@ -389,8 +389,8 @@ to
 find
 profiles
 the
-component
 *
+component
 registry
 preferences
 and
@@ -474,13 +474,13 @@ NS_InitXPCOM2
 nsIServiceManager
 *
 *
-result
+aResult
 nsIFile
 *
-binDirectory
+aBinDirectory
 nsIDirectoryServiceProvider
 *
-appFileLocationProvider
+aAppFileLocationProvider
 )
 ;
 /
@@ -506,7 +506,7 @@ xpcom
 *
 *
 param
-servMgr
+aServMgr
 The
 service
 manager
@@ -545,7 +545,6 @@ during
 initialisation
 .
 *
-*
 /
 XPCOM_API
 (
@@ -555,7 +554,7 @@ NS_ShutdownXPCOM
 (
 nsIServiceManager
 *
-servMgr
+aServMgr
 )
 ;
 /
@@ -574,7 +573,7 @@ manager
 *
 *
 param
-result
+aResult
 Interface
 pointer
 to
@@ -599,7 +598,6 @@ during
 initialisation
 .
 *
-*
 /
 XPCOM_API
 (
@@ -610,7 +608,7 @@ NS_GetServiceManager
 nsIServiceManager
 *
 *
-result
+aResult
 )
 ;
 /
@@ -629,7 +627,7 @@ manager
 *
 *
 param
-result
+aResult
 Interface
 pointer
 to
@@ -653,7 +651,6 @@ during
 initialisation
 .
 *
-*
 /
 XPCOM_API
 (
@@ -664,7 +661,7 @@ NS_GetComponentManager
 nsIComponentManager
 *
 *
-result
+aResult
 )
 ;
 /
@@ -684,7 +681,7 @@ manager
 *
 *
 param
-result
+aResult
 Interface
 pointer
 to
@@ -708,7 +705,6 @@ during
 initialisation
 .
 *
-*
 /
 XPCOM_API
 (
@@ -719,7 +715,7 @@ NS_GetComponentRegistrar
 nsIComponentRegistrar
 *
 *
-result
+aResult
 )
 ;
 /
@@ -740,7 +736,7 @@ nsIMemory
 *
 *
 param
-result
+aResult
 Interface
 pointer
 to
@@ -765,7 +761,6 @@ during
 initialisation
 .
 *
-*
 /
 XPCOM_API
 (
@@ -776,7 +771,7 @@ NS_GetMemoryManager
 nsIMemory
 *
 *
-result
+aResult
 )
 ;
 /
@@ -806,7 +801,7 @@ NS_InitXPCOM
 *
 *
 param
-path
+aPath
 *
 A
 string
@@ -851,7 +846,7 @@ charset
 .
 *
 param
-followLinks
+aFollowLinks
 *
 This
 attribute
@@ -893,7 +888,7 @@ noop
 .
 *
 param
-result
+aResult
 Interface
 pointer
 to
@@ -932,13 +927,13 @@ NS_NewLocalFile
 const
 nsAString
 &
-path
+aPath
 bool
-followLinks
+aFollowLinks
 nsIFile
 *
 *
-result
+aResult
 )
 ;
 XPCOM_API
@@ -950,13 +945,13 @@ NS_NewNativeLocalFile
 const
 nsACString
 &
-path
+aPath
 bool
-followLinks
+aFollowLinks
 nsIFile
 *
 *
-result
+aResult
 )
 ;
 #
@@ -1000,7 +995,7 @@ aborts
 *
 *
 param
-size
+aSize
 The
 size
 of
@@ -1033,7 +1028,7 @@ void
 NS_Alloc
 (
 size_t
-size
+aSize
 )
 ;
 /
@@ -1053,7 +1048,7 @@ size
 *
 *
 param
-ptr
+aPtr
 The
 block
 of
@@ -1074,7 +1069,7 @@ or
 NS_Realloc
 *
 param
-size
+aSize
 The
 new
 size
@@ -1105,7 +1100,7 @@ safe
 *
 *
 If
-ptr
+aPtr
 is
 null
 this
@@ -1125,7 +1120,7 @@ the
 block
 to
 which
-ptr
+aPtr
 points
 the
 first
@@ -1137,7 +1132,7 @@ size
 *
 bytes
 of
-ptr
+aPtr
 '
 s
 block
@@ -1153,7 +1148,7 @@ the
 allocation
 *
 succeeds
-ptr
+aPtr
 is
 freed
 and
@@ -1186,9 +1181,9 @@ NS_Realloc
 (
 void
 *
-ptr
+aPtr
 size_t
-size
+aSize
 )
 ;
 /
@@ -1218,7 +1213,7 @@ taken
 *
 *
 param
-ptr
+aPtr
 The
 block
 of
@@ -1257,7 +1252,7 @@ NS_Free
 (
 void
 *
-ptr
+aPtr
 )
 ;
 /
@@ -1926,10 +1921,10 @@ NS_CycleCollectorSuspect3
 (
 void
 *
-n
+aPtr
 nsCycleCollectionParticipant
 *
-p
+aCp
 nsCycleCollectingAutoRefCnt
 *
 aRefCnt
@@ -2481,7 +2476,7 @@ NS_GetDebug
 nsIDebug
 *
 *
-result
+aResult
 )
 ;
 #

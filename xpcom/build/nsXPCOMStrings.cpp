@@ -308,9 +308,11 @@ aFlags
 NS_STRING_CONTAINER_INIT_SUBSTRING
 )
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 aDataLength
 =
 nsCharTraits
@@ -345,6 +347,7 @@ aFlags
 &
 NS_STRING_CONTAINER_INIT_SUBSTRING
 )
+{
 flags
 =
 nsSubstring
@@ -352,7 +355,9 @@ nsSubstring
 :
 F_NONE
 ;
+}
 else
+{
 flags
 =
 nsSubstring
@@ -360,12 +365,14 @@ nsSubstring
 :
 F_TERMINATED
 ;
+}
 if
 (
 aFlags
 &
 NS_STRING_CONTAINER_INIT_ADOPT
 )
+{
 flags
 |
 =
@@ -374,6 +381,7 @@ nsSubstring
 :
 F_OWNED
 ;
+}
 new
 (
 &
@@ -548,6 +556,7 @@ if
 (
 aTerminated
 )
+{
 *
 aTerminated
 =
@@ -557,6 +566,7 @@ IsTerminated
 (
 )
 ;
+}
 nsAString
 :
 :
@@ -762,6 +772,7 @@ if
 (
 aData
 )
+{
 aStr
 .
 Append
@@ -770,6 +781,7 @@ aData
 aDataLength
 )
 ;
+}
 return
 NS_OK
 ;
@@ -786,6 +798,7 @@ aCutLength
 =
 UINT32_MAX
 )
+{
 aCutLength
 =
 aStr
@@ -796,6 +809,7 @@ Length
 -
 aCutOffset
 ;
+}
 if
 (
 aData
@@ -808,6 +822,7 @@ aDataLength
 =
 UINT32_MAX
 )
+{
 aStr
 .
 Replace
@@ -820,7 +835,9 @@ aData
 )
 )
 ;
+}
 else
+{
 aStr
 .
 Replace
@@ -835,7 +852,9 @@ aDataLength
 )
 ;
 }
+}
 else
+{
 aStr
 .
 Cut
@@ -844,6 +863,7 @@ aCutOffset
 aCutLength
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1134,9 +1154,11 @@ aFlags
 NS_CSTRING_CONTAINER_INIT_SUBSTRING
 )
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 aDataLength
 =
 nsCharTraits
@@ -1171,6 +1193,7 @@ aFlags
 &
 NS_CSTRING_CONTAINER_INIT_SUBSTRING
 )
+{
 flags
 =
 nsCSubstring
@@ -1178,7 +1201,9 @@ nsCSubstring
 :
 F_NONE
 ;
+}
 else
+{
 flags
 =
 nsCSubstring
@@ -1186,12 +1211,14 @@ nsCSubstring
 :
 F_TERMINATED
 ;
+}
 if
 (
 aFlags
 &
 NS_CSTRING_CONTAINER_INIT_ADOPT
 )
+{
 flags
 |
 =
@@ -1200,6 +1227,7 @@ nsCSubstring
 :
 F_OWNED
 ;
+}
 new
 (
 &
@@ -1374,6 +1402,7 @@ if
 (
 aTerminated
 )
+{
 *
 aTerminated
 =
@@ -1383,6 +1412,7 @@ IsTerminated
 (
 )
 ;
+}
 nsACString
 :
 :
@@ -1588,6 +1618,7 @@ if
 (
 aData
 )
+{
 aStr
 .
 Append
@@ -1596,6 +1627,7 @@ aData
 aDataLength
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1612,6 +1644,7 @@ aCutLength
 =
 UINT32_MAX
 )
+{
 aCutLength
 =
 aStr
@@ -1622,6 +1655,7 @@ Length
 -
 aCutOffset
 ;
+}
 if
 (
 aData
@@ -1634,6 +1668,7 @@ aDataLength
 =
 UINT32_MAX
 )
+{
 aStr
 .
 Replace
@@ -1646,7 +1681,9 @@ aData
 )
 )
 ;
+}
 else
+{
 aStr
 .
 Replace
@@ -1661,7 +1698,9 @@ aDataLength
 )
 ;
 }
+}
 else
+{
 aStr
 .
 Cut
@@ -1670,6 +1709,7 @@ aCutOffset
 aCutLength
 )
 ;
+}
 return
 NS_OK
 ;
