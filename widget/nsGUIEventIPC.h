@@ -932,7 +932,7 @@ WriteParam
 aMsg
 aParam
 .
-isPixelOnlyDevice
+mIsNoLineOrPageDelta
 )
 ;
 WriteParam
@@ -1105,7 +1105,7 @@ aIter
 aResult
 -
 >
-isPixelOnlyDevice
+mIsNoLineOrPageDelta
 )
 &
 &
