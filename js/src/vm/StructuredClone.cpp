@@ -391,6 +391,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsapi
 .
