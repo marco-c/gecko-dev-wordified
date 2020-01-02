@@ -324,6 +324,13 @@ private
 LiveRangeAllocator
 <
 LinearScanVirtualRegister
+/
+*
+forLSRA
+=
+*
+/
+true
 >
 {
 friend
@@ -666,11 +673,6 @@ graph
 LiveRangeAllocator
 <
 LinearScanVirtualRegister
->
-(
-mir
-lir
-graph
 /
 *
 forLSRA
@@ -678,6 +680,11 @@ forLSRA
 *
 /
 true
+>
+(
+mir
+lir
+graph
 )
 {
 }

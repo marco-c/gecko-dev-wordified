@@ -708,6 +708,13 @@ private
 LiveRangeAllocator
 <
 BacktrackingVirtualRegister
+/
+*
+forLSRA
+=
+*
+/
+false
 >
 {
 /
@@ -1086,11 +1093,6 @@ graph
 LiveRangeAllocator
 <
 BacktrackingVirtualRegister
->
-(
-mir
-lir
-graph
 /
 *
 forLSRA
@@ -1098,6 +1100,11 @@ forLSRA
 *
 /
 false
+>
+(
+mir
+lir
+graph
 )
 {
 }
