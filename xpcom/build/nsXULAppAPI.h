@@ -2272,8 +2272,8 @@ aProcessType
 )
 XRE_API
 (
-GeckoProcessType
-XRE_StringToChildProcessType
+void
+XRE_SetProcessType
 (
 const
 char
@@ -2349,8 +2349,6 @@ char
 aArgv
 [
 ]
-GeckoProcessType
-aProcess
 )
 )
 XRE_API
