@@ -464,7 +464,7 @@ if
 ANDROID_VERSION
 >
 =
-18
+17
 mPrevRetireFence
 (
 Fence

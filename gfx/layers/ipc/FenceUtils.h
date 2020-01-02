@@ -143,7 +143,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-18
+17
 #
 include
 "
@@ -213,7 +213,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-18
+17
 namespace
 IPC
 {
@@ -225,7 +225,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-18
+17
 #
 else
 template
@@ -295,7 +295,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-18
+17
 }
 /
 /
