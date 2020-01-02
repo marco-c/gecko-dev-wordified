@@ -597,10 +597,15 @@ aXHTML
 )
 MOZ_OVERRIDE
 {
-mIsRegularHTML
+mType
 =
-!
+(
 aXHTML
+?
+eXHTML
+:
+eHTML
+)
 ;
 }
 virtual

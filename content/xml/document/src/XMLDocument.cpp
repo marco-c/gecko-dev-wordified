@@ -1649,6 +1649,10 @@ members
 to
 0
 .
+mType
+=
+eGenericXML
+;
 }
 XMLDocument
 :

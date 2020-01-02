@@ -1552,9 +1552,9 @@ mDefaultElementType
 =
 kNameSpaceID_XUL
 ;
-mIsXUL
+mType
 =
-true
+eXUL
 ;
 mDelayFrameLoaderInitialization
 =

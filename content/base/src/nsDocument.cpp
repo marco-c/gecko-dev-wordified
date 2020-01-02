@@ -49596,9 +49596,9 @@ nsDocument
 clone
 -
 >
-mIsRegularHTML
+mType
 =
-mIsRegularHTML
+mType
 ;
 clone
 -
