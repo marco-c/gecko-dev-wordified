@@ -523,6 +523,7 @@ PerThreadData
 {
 public
 :
+explicit
 PerThreadData
 (
 bool

@@ -230,6 +230,7 @@ nsIUnicharInputStream
 {
 public
 :
+explicit
 StringUnicharInputStream
 (
 const

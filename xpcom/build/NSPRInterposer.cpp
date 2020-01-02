@@ -169,6 +169,7 @@ Observation
 {
 public
 :
+explicit
 NSPRIOAutoObservation
 (
 IOInterposeObserver
