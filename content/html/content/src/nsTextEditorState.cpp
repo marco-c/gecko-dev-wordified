@@ -7756,9 +7756,6 @@ NS_LITERAL_STRING
 keydown
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -7776,9 +7773,6 @@ NS_LITERAL_STRING
 keypress
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -7796,9 +7790,6 @@ NS_LITERAL_STRING
 keyup
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -10276,9 +10267,6 @@ NS_LITERAL_STRING
 keydown
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -10296,9 +10284,6 @@ NS_LITERAL_STRING
 keypress
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -10316,9 +10301,6 @@ NS_LITERAL_STRING
 keyup
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )

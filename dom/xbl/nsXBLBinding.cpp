@@ -3557,9 +3557,6 @@ capturing
 or
 not
 .
-dom
-:
-:
 EventListenerFlags
 flags
 ;
@@ -3807,9 +3804,6 @@ capturing
 or
 not
 .
-dom
-:
-:
 EventListenerFlags
 flags
 ;
@@ -4361,9 +4355,6 @@ capturing
 or
 not
 .
-dom
-:
-:
 EventListenerFlags
 flags
 ;
@@ -4534,9 +4525,6 @@ capturing
 or
 not
 .
-dom
-:
-:
 EventListenerFlags
 flags
 ;

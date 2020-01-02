@@ -2314,9 +2314,6 @@ NS_LITERAL_STRING
 pagehide
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -2371,9 +2368,6 @@ NS_LITERAL_STRING
 DOMContentLoaded
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -2483,9 +2477,6 @@ NS_LITERAL_STRING
 pagehide
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -2503,9 +2494,6 @@ NS_LITERAL_STRING
 DOMContentLoaded
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )

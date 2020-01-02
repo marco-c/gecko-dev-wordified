@@ -4991,9 +4991,6 @@ NS_LITERAL_STRING
 dragover
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -5011,9 +5008,6 @@ NS_LITERAL_STRING
 drop
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -5122,9 +5116,6 @@ NS_LITERAL_STRING
 dragover
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -5142,9 +5133,6 @@ NS_LITERAL_STRING
 drop
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )

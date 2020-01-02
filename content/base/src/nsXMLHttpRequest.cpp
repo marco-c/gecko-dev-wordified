@@ -11823,9 +11823,6 @@ NS_LITERAL_STRING
 DOMContentLoaded
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )

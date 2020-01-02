@@ -10341,9 +10341,6 @@ NS_LITERAL_STRING
 contextmenu
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -10364,9 +10361,6 @@ NS_LITERAL_STRING
 mousedown
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
