@@ -5313,7 +5313,7 @@ if
 compressionTask
 -
 >
-compress
+work
 (
 )
 )

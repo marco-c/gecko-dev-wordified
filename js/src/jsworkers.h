@@ -2084,7 +2084,7 @@ complete
 ;
 }
 bool
-compress
+work
 (
 )
 ;
