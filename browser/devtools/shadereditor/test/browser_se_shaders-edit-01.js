@@ -261,7 +261,7 @@ selected
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -290,7 +290,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -319,7 +319,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -473,7 +473,7 @@ changed
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -502,7 +502,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -531,7 +531,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -696,7 +696,7 @@ changed
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -725,7 +725,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -754,7 +754,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :

@@ -117,7 +117,7 @@ SOURCES_SHOWN
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -146,7 +146,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -203,7 +203,7 @@ panel
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -232,7 +232,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -305,7 +305,7 @@ panel
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -334,7 +334,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -392,7 +392,7 @@ panel
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -421,7 +421,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :

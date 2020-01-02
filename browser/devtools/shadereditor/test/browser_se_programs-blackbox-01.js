@@ -270,7 +270,7 @@ onward
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -303,7 +303,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -336,7 +336,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -369,7 +369,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -592,7 +592,7 @@ checked
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -625,7 +625,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -658,7 +658,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -691,7 +691,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -835,7 +835,7 @@ unchecked
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -868,7 +868,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -901,7 +901,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -934,7 +934,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -996,7 +996,7 @@ panel
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1029,7 +1029,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1062,7 +1062,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1095,7 +1095,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1176,7 +1176,7 @@ panel
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1209,7 +1209,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1242,7 +1242,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1275,7 +1275,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1341,7 +1341,7 @@ panel
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1374,7 +1374,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1407,7 +1407,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1440,7 +1440,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1600,7 +1600,7 @@ rechecked
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1633,7 +1633,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1666,7 +1666,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1699,7 +1699,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1761,7 +1761,7 @@ panel
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1794,7 +1794,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1827,7 +1827,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1860,7 +1860,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1937,7 +1937,7 @@ panel
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -1970,7 +1970,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -2003,7 +2003,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -2036,7 +2036,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -2098,7 +2098,7 @@ panel
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -2131,7 +2131,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -2164,7 +2164,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -2197,7 +2197,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :

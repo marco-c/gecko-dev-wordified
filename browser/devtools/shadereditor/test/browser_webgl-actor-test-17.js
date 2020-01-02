@@ -93,7 +93,7 @@ front
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -122,7 +122,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -151,7 +151,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -206,7 +206,7 @@ blackbox
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -235,7 +235,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -264,7 +264,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -322,7 +322,7 @@ unblackbox
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -351,7 +351,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -380,7 +380,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -438,7 +438,7 @@ blackbox
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -467,7 +467,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -496,7 +496,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -554,7 +554,7 @@ unblackbox
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -583,7 +583,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -612,7 +612,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :

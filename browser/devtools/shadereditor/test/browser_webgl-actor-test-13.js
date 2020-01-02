@@ -252,7 +252,7 @@ sources
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -285,7 +285,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -318,7 +318,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -351,7 +351,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -411,7 +411,7 @@ highlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -444,7 +444,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -477,7 +477,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -510,7 +510,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -572,7 +572,7 @@ highlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -605,7 +605,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -638,7 +638,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -671,7 +671,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -734,7 +734,7 @@ unhighlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -767,7 +767,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -800,7 +800,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -833,7 +833,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :

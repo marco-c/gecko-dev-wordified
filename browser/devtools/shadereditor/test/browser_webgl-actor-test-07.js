@@ -110,7 +110,7 @@ getFragmentShader
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -139,7 +139,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -168,7 +168,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -319,7 +319,7 @@ errors
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -348,7 +348,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -377,7 +377,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -529,7 +529,7 @@ errors
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -558,7 +558,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -587,7 +587,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
