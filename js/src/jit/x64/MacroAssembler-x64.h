@@ -6841,7 +6841,7 @@ valueReg
 dest
 )
 {
-movq
+mov
 (
 ImmWord
 (
@@ -6859,7 +6859,7 @@ dest
 }
 else
 {
-movq
+mov
 (
 ImmWord
 (
@@ -6916,7 +6916,7 @@ dest
 ScratchReg
 )
 ;
-movq
+mov
 (
 ImmWord
 (

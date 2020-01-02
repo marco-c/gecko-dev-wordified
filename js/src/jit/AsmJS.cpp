@@ -39996,7 +39996,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 exitIndex
 )
@@ -40075,7 +40075,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 argc
 )
@@ -40514,7 +40514,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 exitIndex
 )
@@ -40531,7 +40531,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 exit
 .
@@ -43814,7 +43814,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 0
 )

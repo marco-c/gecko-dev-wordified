@@ -730,9 +730,9 @@ definition
 .
 masm
 .
-movl
+mov
 (
-Imm32
+ImmWord
 (
 MIRTypeToTag
 (

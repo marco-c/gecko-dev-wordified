@@ -2178,9 +2178,9 @@ bailoutInfo
 r9
 )
 ;
-movl
+mov
 (
-Imm32
+ImmWord
 (
 BAILOUT_RETURN_OK
 )
