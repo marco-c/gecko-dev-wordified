@@ -222,9 +222,6 @@ Layer
 namespace
 mozilla
 {
-namespace
-css
-{
 /
 *
 static
@@ -270,6 +267,9 @@ false
 ;
 }
 }
+namespace
+css
+{
 CommonAnimationManager
 :
 :
@@ -361,13 +361,13 @@ mElementData
 )
 )
 {
-CommonElementAnimationData
+ElementAnimationCollection
 *
 head
 =
 static_cast
 <
-CommonElementAnimationData
+ElementAnimationCollection
 *
 >
 (
@@ -387,7 +387,7 @@ Destroy
 ;
 }
 }
-CommonElementAnimationData
+ElementAnimationCollection
 *
 CommonAnimationManager
 :
@@ -417,13 +417,13 @@ MayHaveAnimations
 return
 nullptr
 ;
-CommonElementAnimationData
+ElementAnimationCollection
 *
 animations
 =
 static_cast
 <
-CommonElementAnimationData
+ElementAnimationCollection
 *
 >
 (
@@ -458,7 +458,7 @@ animations
 >
 CanPerformOnCompositorThread
 (
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 CanAnimate_AllowPartial
@@ -1246,7 +1246,7 @@ nsStyleSet
 eAnimationSheet
 )
 {
-CommonElementAnimationData
+ElementAnimationCollection
 *
 ea
 =
@@ -1334,7 +1334,7 @@ nsStyleSet
 eTransitionSheet
 )
 {
-CommonElementAnimationData
+ElementAnimationCollection
 *
 et
 =
@@ -3435,11 +3435,8 @@ mIterationCount
 )
 ;
 }
-namespace
-css
-{
 bool
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 CanAnimatePropertyOnCompositor
@@ -3851,7 +3848,7 @@ static
 *
 /
 bool
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 IsCompositorAnimationDisabledForFrame
@@ -3896,7 +3893,7 @@ prop
 ;
 }
 bool
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 CanPerformOnCompositorThread
@@ -4276,7 +4273,7 @@ true
 ;
 }
 bool
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 HasAnimationOfProperty
@@ -4351,7 +4348,7 @@ static
 *
 /
 void
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 LogAsyncAnimationFailure
@@ -4483,7 +4480,7 @@ static
 *
 /
 void
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 PropertyDtor
@@ -4502,13 +4499,13 @@ void
 aData
 )
 {
-CommonElementAnimationData
+ElementAnimationCollection
 *
 data
 =
 static_cast
 <
-CommonElementAnimationData
+ElementAnimationCollection
 *
 >
 (
@@ -4549,7 +4546,7 @@ data
 ;
 }
 void
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 EnsureStyleRuleFor
@@ -5678,7 +5675,7 @@ now
 }
 }
 bool
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 CanThrottleTransformChanges
@@ -5900,7 +5897,7 @@ false
 ;
 }
 bool
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 CanThrottleAnimation
@@ -6043,7 +6040,7 @@ aTime
 ;
 }
 void
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 UpdateAnimationGeneration
@@ -6069,7 +6066,7 @@ GetAnimationGeneration
 ;
 }
 bool
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 HasCurrentAnimationsAt
@@ -6120,6 +6117,5 @@ true
 return
 false
 ;
-}
 }
 }

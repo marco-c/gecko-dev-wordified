@@ -201,7 +201,7 @@ nsAnimationManager
 :
 UpdateStyleAndEvents
 (
-CommonElementAnimationData
+ElementAnimationCollection
 *
 aEA
 TimeStamp
@@ -237,7 +237,7 @@ nsAnimationManager
 :
 GetEventsAt
 (
-CommonElementAnimationData
+ElementAnimationCollection
 *
 aEA
 TimeStamp
@@ -704,7 +704,7 @@ break
 }
 }
 }
-CommonElementAnimationData
+ElementAnimationCollection
 *
 nsAnimationManager
 :
@@ -847,13 +847,13 @@ return
 nullptr
 ;
 }
-CommonElementAnimationData
+ElementAnimationCollection
 *
 ea
 =
 static_cast
 <
-CommonElementAnimationData
+ElementAnimationCollection
 *
 >
 (
@@ -887,7 +887,7 @@ allocating
 ea
 =
 new
-CommonElementAnimationData
+ElementAnimationCollection
 (
 aElement
 propName
@@ -916,7 +916,7 @@ SetProperty
 propName
 ea
 &
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 PropertyDtor
@@ -1416,7 +1416,7 @@ StyleDisplay
 (
 )
 ;
-CommonElementAnimationData
+ElementAnimationCollection
 *
 ea
 =
@@ -4157,7 +4157,7 @@ return
 nullptr
 ;
 }
-CommonElementAnimationData
+ElementAnimationCollection
 *
 ea
 =
@@ -4401,7 +4401,7 @@ nsAnimationManager
 :
 AddElementData
 (
-CommonElementAnimationData
+ElementAnimationCollection
 *
 aData
 )
@@ -4416,7 +4416,7 @@ NS_ASSERTION
 (
 static_cast
 <
-CommonElementAnimationData
+ElementAnimationCollection
 *
 >
 (
@@ -4513,7 +4513,7 @@ if
 (
 static_cast
 <
-CommonElementAnimationData
+ElementAnimationCollection
 *
 >
 (
@@ -4682,13 +4682,13 @@ l
 )
 )
 {
-CommonElementAnimationData
+ElementAnimationCollection
 *
 ea
 =
 static_cast
 <
-CommonElementAnimationData
+ElementAnimationCollection
 *
 >
 (
@@ -4709,7 +4709,7 @@ ea
 >
 CanPerformOnCompositorThread
 (
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 CanAnimateFlags
@@ -4941,7 +4941,7 @@ nsStyleContext
 >
 newStyle
 ;
-CommonElementAnimationData
+ElementAnimationCollection
 *
 ea
 ;
