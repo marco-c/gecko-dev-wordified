@@ -130,13 +130,6 @@ h
 #
 include
 "
-BluetoothCommon
-.
-h
-"
-#
-include
-"
 BluetoothAdapter
 .
 h
@@ -508,10 +501,12 @@ return
 true
 ;
 }
+virtual
 void
 ReleaseMembers
 (
 )
+MOZ_OVERRIDE
 {
 BluetoothReplyRunnable
 :
