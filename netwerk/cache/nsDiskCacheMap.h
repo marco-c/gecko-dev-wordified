@@ -137,13 +137,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 prnetdb
 .
 h

@@ -193,13 +193,6 @@ endif
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 prthread
 .
 h

@@ -126,13 +126,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
