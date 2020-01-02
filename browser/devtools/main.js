@@ -450,8 +450,6 @@ devtools
 /
 netmonitor
 /
-netmonitor
--
 panel
 "
 )
