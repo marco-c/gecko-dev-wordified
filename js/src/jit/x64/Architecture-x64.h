@@ -1512,8 +1512,6 @@ bool
 aliases
 (
 FloatRegister
-const
-&
 other
 )
 const
@@ -1531,6 +1529,7 @@ uint32_t
 numAliased
 (
 )
+const
 {
 return
 1
@@ -1583,6 +1582,8 @@ two
 floating
 point
 registers
+'
+types
 are
 equivalent
 .
@@ -1594,8 +1595,20 @@ S0
 is
 not
 equivalent
+/
+/
 to
 D16
+since
+S0
+holds
+a
+float32
+and
+D16
+holds
+a
+Double
 .
 /
 /
@@ -1639,6 +1652,7 @@ uint32_t
 size
 (
 )
+const
 {
 return
 sizeof
