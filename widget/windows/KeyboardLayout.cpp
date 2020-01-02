@@ -8733,7 +8733,7 @@ skipUnshiftedChars
 ;
 nsAutoTArray
 <
-nsAlternativeCharCode
+AlternativeCharCode
 5
 >
 altArray
@@ -8746,7 +8746,7 @@ shiftedChar
 unshiftedChar
 )
 {
-nsAlternativeCharCode
+AlternativeCharCode
 chars
 (
 unshiftedChar
@@ -8779,7 +8779,7 @@ unshiftedLatinChar
 shiftedLatinChar
 )
 {
-nsAlternativeCharCode
+AlternativeCharCode
 chars
 (
 unshiftedLatinChar
@@ -8981,7 +8981,7 @@ charForOEMKeyCode
 shiftedLatinChar
 )
 {
-nsAlternativeCharCode
+AlternativeCharCode
 OEMChars
 (
 charForOEMKeyCode

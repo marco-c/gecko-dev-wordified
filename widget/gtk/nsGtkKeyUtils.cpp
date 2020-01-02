@@ -7482,7 +7482,7 @@ inputting
 some
 characters
 .
-nsAlternativeCharCode
+AlternativeCharCode
 altCharCodes
 (
 0
@@ -7813,7 +7813,7 @@ mShiftedCharCode
 return
 ;
 }
-nsAlternativeCharCode
+AlternativeCharCode
 altLatinCharCodes
 (
 0

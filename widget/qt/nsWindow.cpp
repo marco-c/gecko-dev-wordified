@@ -10154,7 +10154,7 @@ keyCode
 =
 0
 ;
-nsAlternativeCharCode
+AlternativeCharCode
 altCharCode
 (
 0
