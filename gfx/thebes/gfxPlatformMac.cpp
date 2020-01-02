@@ -100,13 +100,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfxQuartzSurface
 .
 h

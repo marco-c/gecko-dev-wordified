@@ -197,9 +197,6 @@ class
 gfxASurface
 ;
 class
-gfxImageSurface
-;
-class
 gfxFont
 ;
 class
