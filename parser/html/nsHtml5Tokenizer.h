@@ -702,6 +702,9 @@ nsHtml5HtmlAttributes
 attributes
 ;
 bool
+newAttributesEachTime
+;
+bool
 shouldSuspend
 ;
 protected
@@ -993,11 +996,6 @@ pos
 ;
 private
 :
-void
-resetAttributes
-(
-)
-;
 void
 strBufToElementNameString
 (

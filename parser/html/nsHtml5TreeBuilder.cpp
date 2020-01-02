@@ -9478,6 +9478,10 @@ errSelfClosing
 }
 if
 (
+!
+mBuilder
+&
+&
 attributes
 !
 =
