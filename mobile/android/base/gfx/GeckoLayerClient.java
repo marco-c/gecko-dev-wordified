@@ -6331,7 +6331,7 @@ this
 Override
 public
 void
-onSubdocumentScrollBy
+scrollMarginsBy
 (
 float
 dx
