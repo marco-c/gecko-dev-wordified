@@ -712,7 +712,7 @@ nsXPConnect
 mRuntime
 -
 >
-DeleteJunkScope
+DeleteSingletonScopes
 (
 )
 ;
