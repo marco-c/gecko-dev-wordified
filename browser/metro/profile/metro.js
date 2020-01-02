@@ -2372,6 +2372,8 @@ https
 :
 /
 /
+blocklist
+.
 addons
 .
 mozilla
