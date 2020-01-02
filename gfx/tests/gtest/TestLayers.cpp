@@ -674,7 +674,7 @@ layer
 nullptr
 )
 ;
-gfx3DMatrix
+Matrix4x4
 identity
 ;
 ASSERT_EQ
