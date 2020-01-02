@@ -585,7 +585,7 @@ nsTArray
 <
 nsCString
 >
-mGethashTables
+mGethashWhitelist
 ;
 /
 /
