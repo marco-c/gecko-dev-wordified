@@ -572,6 +572,14 @@ stupidly
 buggy
 client
 code
+sDeadlockDetector
+-
+>
+Remove
+(
+mDDEntry
+)
+;
 mDDEntry
 =
 0
