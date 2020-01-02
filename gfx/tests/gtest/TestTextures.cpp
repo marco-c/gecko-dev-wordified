@@ -1722,7 +1722,7 @@ gfx
 BackendType
 :
 :
-NONE
+CAIRO
 TEXTURE_DEALLOCATE_CLIENT
 )
 ;
@@ -2011,7 +2011,7 @@ gfx
 BackendType
 :
 :
-NONE
+CAIRO
 TEXTURE_DEALLOCATE_CLIENT
 )
 ;
