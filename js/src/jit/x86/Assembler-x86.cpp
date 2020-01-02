@@ -328,9 +328,6 @@ jumps_
 i
 ]
 ;
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -432,9 +429,6 @@ target
 uint8_t
 *
 )
-JSC
-:
-:
 X86Assembler
 :
 :

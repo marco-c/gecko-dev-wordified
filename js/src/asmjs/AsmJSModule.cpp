@@ -5206,9 +5206,6 @@ hasLengthCheck
 (
 )
 )
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -5242,9 +5239,6 @@ reinterpret_cast
 uint32_t
 >
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -5262,9 +5256,6 @@ disp
 INT32_MAX
 )
 ;
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -5409,9 +5400,6 @@ hasLengthCheck
 (
 )
 )
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -5816,9 +5804,6 @@ uint8_t
 *
 >
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -5836,9 +5821,6 @@ ptr
 ptrBase
 )
 ;
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -10593,9 +10575,6 @@ void
 *
 callee
 =
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -10829,9 +10808,6 @@ defined
 (
 JS_CODEGEN_X64
 )
-JSC
-:
-:
 X86Assembler
 :
 :

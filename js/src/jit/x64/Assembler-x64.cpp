@@ -1282,9 +1282,6 @@ continue
 }
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -1297,9 +1294,6 @@ target
 )
 )
 {
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -1380,9 +1374,6 @@ i
 *
 SizeOfJumpTableEntry
 ;
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -1425,9 +1416,6 @@ the
 bit
 immedate
 .
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -1565,9 +1553,6 @@ target
 uint8_t
 *
 )
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -1656,9 +1641,6 @@ target
 uint8_t
 *
 )
-JSC
-:
-:
 X86Assembler
 :
 :

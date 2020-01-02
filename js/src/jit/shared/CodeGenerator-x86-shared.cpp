@@ -11074,9 +11074,6 @@ roundsd
 (
 input
 scratch
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -11516,9 +11513,6 @@ roundss
 (
 input
 scratch
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -12043,9 +12037,6 @@ roundsd
 (
 input
 scratch
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -12495,9 +12486,6 @@ roundss
 (
 input
 scratch
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -13075,9 +13063,6 @@ roundsd
 (
 temp
 scratch
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -13710,9 +13695,6 @@ roundss
 (
 temp
 scratch
-JSC
-:
-:
 X86Assembler
 :
 :
