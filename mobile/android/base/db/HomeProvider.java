@@ -677,6 +677,9 @@ DESCRIPTION
 HomeItems
 .
 IMAGE_URL
+HomeItems
+.
+FILTER
 }
 ;
 final
@@ -777,6 +780,14 @@ getString
 (
 "
 image_url
+"
+)
+item
+.
+getString
+(
+"
+filter
 "
 )
 }

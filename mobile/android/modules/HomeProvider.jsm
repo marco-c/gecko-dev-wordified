@@ -465,6 +465,11 @@ TEXT
 "
 +
 "
+filter
+TEXT
+"
++
+"
 created
 INTEGER
 "
@@ -484,6 +489,7 @@ url
 title
 description
 image_url
+filter
 created
 )
 "
@@ -501,6 +507,8 @@ title
 description
 :
 image_url
+:
+filter
 :
 created
 )
@@ -1657,6 +1665,11 @@ image_url
 item
 .
 image_url
+filter
+:
+item
+.
+filter
 created
 :
 Date
