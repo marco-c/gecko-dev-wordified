@@ -198,6 +198,17 @@ nsINetworkManager
 h
 "
 #
+include
+"
+nsProxyRelease
+.
+h
+"
+/
+/
+for
+nsMainThreadPtrHandle
+#
 endif
 #
 include
@@ -1255,7 +1266,7 @@ mAppId
 #
 ifdef
 MOZ_WIDGET_GONK
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsINetworkInterface
 >
