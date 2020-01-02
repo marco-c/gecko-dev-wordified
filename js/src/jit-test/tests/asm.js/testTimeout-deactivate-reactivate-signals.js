@@ -20,6 +20,11 @@ js
 "
 )
 ;
+setCachingEnabled
+(
+true
+)
+;
 var
 jco
 =

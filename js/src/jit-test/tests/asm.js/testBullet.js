@@ -41,6 +41,11 @@ a
 cache
 hit
 .
+setCachingEnabled
+(
+true
+)
+;
 if
 (
 !
@@ -114,6 +119,11 @@ code
 setIonCheckGraphCoherency
 (
 false
+)
+;
+setCachingEnabled
+(
+true
 )
 ;
 load

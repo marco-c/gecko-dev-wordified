@@ -437,6 +437,11 @@ f
 0
 )
 ;
+setCachingEnabled
+(
+true
+)
+;
 var
 code
 =
@@ -834,6 +839,11 @@ signalHandlersAfter
 }
 )
 (
+)
+;
+setCachingEnabled
+(
+false
 )
 ;
 var

@@ -890,7 +890,7 @@ static
 bool
 jsCachingEnabled
 =
-true
+false
 ;
 mozilla
 :
