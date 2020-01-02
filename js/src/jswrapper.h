@@ -312,6 +312,12 @@ parent
 Wrapper
 *
 handler
+const
+WrapperOptions
+*
+options
+=
+nullptr
 )
 ;
 static
