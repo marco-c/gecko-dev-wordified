@@ -11569,6 +11569,8 @@ nsChangeHint_UpdateTransformLayer
 |
 nsChangeHint_UpdateOverflow
 |
+nsChangeHint_UpdatePostTransformOverflow
+|
 nsChangeHint_AddOrRemoveTransform
 )
 ;

@@ -13465,6 +13465,10 @@ overflowTracker
 AddFrame
 (
 positionedPart
+OverflowChangedTracker
+:
+:
+CHILDREN_AND_PARENT_CHANGED
 )
 ;
 nsFrame
