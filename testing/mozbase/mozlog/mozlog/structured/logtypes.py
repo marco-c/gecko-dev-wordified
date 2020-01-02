@@ -334,6 +334,27 @@ self
 data
 )
         
+if
+hasattr
+(
+f
+'
+__doc__
+'
+)
+:
+            
+setattr
+(
+inner
+'
+__doc__
+'
+f
+.
+__doc__
+)
+        
 return
 inner
     
