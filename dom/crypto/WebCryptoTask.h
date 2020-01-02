@@ -619,6 +619,13 @@ aData
 CryptoOperationData
 dummy
 ;
+dummy
+.
+SetAsArrayBuffer
+(
+aCx
+)
+;
 return
 SignVerifyTask
 (
