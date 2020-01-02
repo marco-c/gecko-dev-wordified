@@ -5157,6 +5157,9 @@ var
 gBrowserInit
 =
 {
+delayedStartupFinished
+:
+false
 onLoad
 :
 function
@@ -8527,6 +8530,12 @@ markAsReady
 ;
 }
 )
+;
+this
+.
+delayedStartupFinished
+=
+true
 ;
 Services
 .
