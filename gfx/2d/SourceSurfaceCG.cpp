@@ -264,16 +264,12 @@ SurfaceType
 :
 DATA
 .
-dataSurf
-=
+return
 new
 DataSourceSurfaceWrapper
 (
 dataSurf
 )
-;
-return
-dataSurf
 ;
 }
 static

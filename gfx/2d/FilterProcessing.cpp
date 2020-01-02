@@ -226,6 +226,10 @@ alphaStride
 }
 return
 alpha
+.
+forget
+(
+)
 ;
 }
 TemporaryRef
@@ -949,6 +953,10 @@ channel3Data
 }
 return
 result
+.
+forget
+(
+)
 ;
 }
 void

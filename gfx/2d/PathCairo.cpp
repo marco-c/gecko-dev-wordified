@@ -989,6 +989,10 @@ mCurrentPoint
 ;
 return
 builder
+.
+forget
+(
+)
 ;
 }
 TemporaryRef
@@ -1039,6 +1043,10 @@ mCurrentPoint
 ;
 return
 builder
+.
+forget
+(
+)
 ;
 }
 bool

@@ -1811,6 +1811,10 @@ Close
 ;
 return
 tmpGeometry
+.
+forget
+(
+)
 ;
 }
 static
@@ -1884,6 +1888,10 @@ Close
 ;
 return
 pathGeom
+.
+forget
+(
+)
 ;
 }
 static
@@ -2261,6 +2269,10 @@ style
 }
 return
 style
+.
+forget
+(
+)
 ;
 }
 /
@@ -3049,6 +3061,10 @@ y
 ;
 return
 bitmap
+.
+forget
+(
+)
 ;
 }
 else
@@ -3427,6 +3443,10 @@ height
 ;
 return
 bitmap
+.
+forget
+(
+)
 ;
 }
 }

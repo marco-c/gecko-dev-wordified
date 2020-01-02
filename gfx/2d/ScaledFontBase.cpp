@@ -750,6 +750,10 @@ ctx
 }
 return
 newPath
+.
+forget
+(
+)
 ;
 }
 #

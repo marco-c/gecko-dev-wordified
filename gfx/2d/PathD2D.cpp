@@ -1896,6 +1896,10 @@ true
 }
 return
 pathBuilder
+.
+forget
+(
+)
 ;
 }
 void
