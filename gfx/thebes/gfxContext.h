@@ -4594,10 +4594,6 @@ Length
 }
 cairo_t
 *
-mCairo
-;
-cairo_t
-*
 mRefCairo
 ;
 nsRefPtr
