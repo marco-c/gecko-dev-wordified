@@ -1080,6 +1080,9 @@ start
 end
 )
 ;
+#
+ifdef
+PR_LOGGING
 if
 (
 LOG_FONTINIT_ENABLED
@@ -1118,6 +1121,8 @@ ToMilliseconds
 )
 ;
 }
+#
+endif
 }
 PLDHashOperator
 gfxPlatformFontList
@@ -1235,6 +1240,9 @@ start
 end
 )
 ;
+#
+ifdef
+PR_LOGGING
 if
 (
 LOG_FONTINIT_ENABLED
@@ -1273,6 +1281,8 @@ ToMilliseconds
 )
 ;
 }
+#
+endif
 }
 PLDHashOperator
 gfxPlatformFontList
