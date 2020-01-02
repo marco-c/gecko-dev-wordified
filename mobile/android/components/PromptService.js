@@ -4792,8 +4792,6 @@ components
 /
 windowwatcher
 /
-src
-/
 nsPrompt
 .
 cpp
@@ -5060,8 +5058,6 @@ embedding
 components
 /
 windowwatcher
-/
-public
 /
 nsPromptUtils
 .
