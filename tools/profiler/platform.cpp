@@ -2840,7 +2840,7 @@ Sampler
 RegisterCurrentThread
 (
 "
-Gecko
+GeckoMain
 "
 stack
 true
