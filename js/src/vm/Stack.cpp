@@ -1827,6 +1827,15 @@ if
 isConstructing
 (
 )
+&
+&
+functionThis
+(
+)
+.
+isPrimitive
+(
+)
 )
 {
 RootedObject

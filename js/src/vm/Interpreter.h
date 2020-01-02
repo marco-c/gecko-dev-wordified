@@ -1486,6 +1486,14 @@ v
 =
 0
 ;
+bool
+maybeCreateThisForConstructor
+(
+JSContext
+*
+cx
+)
+;
 private
 :
 RunState
