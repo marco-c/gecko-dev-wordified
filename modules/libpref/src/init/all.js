@@ -6034,16 +6034,6 @@ save_print_settings
 true
 )
 ;
-pref
-(
-"
-print
-.
-whileInPrintPreview
-"
-true
-)
-;
 /
 /
 Cache
