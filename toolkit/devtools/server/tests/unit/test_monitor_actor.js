@@ -167,17 +167,6 @@ MonitorClient
 .
 prototype
 .
-detach
-=
-function
-(
-)
-{
-}
-MonitorClient
-.
-prototype
-.
 start
 =
 function
