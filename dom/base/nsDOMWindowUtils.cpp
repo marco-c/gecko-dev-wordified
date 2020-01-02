@@ -7220,8 +7220,6 @@ event
 true
 msg
 widget
-aDirection
-aDelta
 )
 ;
 event
@@ -7232,6 +7230,18 @@ GetWidgetModifiers
 (
 aModifiers
 )
+;
+event
+.
+direction
+=
+aDirection
+;
+event
+.
+delta
+=
+aDelta
 ;
 event
 .
