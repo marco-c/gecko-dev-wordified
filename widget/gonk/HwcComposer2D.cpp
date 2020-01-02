@@ -1299,7 +1299,7 @@ transform
 ;
 gfx3DMatrix
 transform3D
-;
+=
 gfx
 :
 :
@@ -1311,7 +1311,6 @@ aLayer
 GetEffectiveTransform
 (
 )
-transform3D
 )
 ;
 if
