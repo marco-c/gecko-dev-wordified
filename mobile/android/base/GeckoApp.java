@@ -1418,16 +1418,6 @@ protected
 RelativeLayout
 mGeckoLayout
 ;
-public
-View
-getView
-(
-)
-{
-return
-mGeckoLayout
-;
-}
 private
 View
 mCameraView
