@@ -635,6 +635,12 @@ ZoneOfValue
 old
 )
 ;
+AutoMarkInDeadZone
+amd
+(
+zone
+)
+;
 proxy
 -
 >
