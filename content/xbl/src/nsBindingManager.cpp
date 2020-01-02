@@ -304,6 +304,13 @@ h
 #
 include
 "
+nsWrapperCacheInlines
+.
+h
+"
+#
+include
+"
 nsIXPConnect
 .
 h

@@ -158,9 +158,7 @@ h
 #
 include
 "
-js
-/
-GCAPI
+nsWrapperCacheInlines
 .
 h
 "
