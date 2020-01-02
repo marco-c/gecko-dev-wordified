@@ -875,6 +875,10 @@ ProfilerMarkerPayload
 aPayload
 =
 nullptr
+float
+aTime
+=
+0
 )
 ;
 ~
@@ -938,6 +942,11 @@ mGenID
 aGenID
 ;
 }
+float
+GetTime
+(
+)
+;
 private
 :
 char
@@ -951,6 +960,9 @@ mPayload
 ProfilerMarker
 *
 mNext
+;
+float
+mTime
 ;
 int
 mGenID
@@ -1757,6 +1769,8 @@ aMarkerStr
 ProfilerMarkerPayload
 *
 aPayload
+float
+aTime
 )
 {
 ProfilerMarker
@@ -1768,6 +1782,7 @@ ProfilerMarker
 (
 aMarkerStr
 aPayload
+aTime
 )
 ;
 mPendingMarkers
