@@ -6955,7 +6955,7 @@ return
 rv
 ;
 }
-void
+nsresult
 nsMathMLmoFrame
 :
 :
@@ -7005,6 +7005,7 @@ ProcessOperatorData
 (
 )
 ;
+return
 nsMathMLTokenFrame
 :
 :

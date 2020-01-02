@@ -1882,7 +1882,7 @@ amount
 ;
 }
 }
-void
+nsresult
 nsMathMLmpaddedFrame
 :
 :
@@ -1935,6 +1935,9 @@ like
 an
 inferred
 mrow
+nsresult
+rv
+=
 nsMathMLContainerFrame
 :
 :
@@ -1959,6 +1962,9 @@ bad
 status
 "
 )
+;
+return
+rv
 ;
 }
 /

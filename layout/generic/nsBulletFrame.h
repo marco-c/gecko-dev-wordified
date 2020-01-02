@@ -336,7 +336,7 @@ endif
 /
 nsIHTMLReflow
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

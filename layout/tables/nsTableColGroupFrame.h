@@ -737,7 +737,7 @@ layout
 *
 /
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

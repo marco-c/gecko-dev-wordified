@@ -3216,7 +3216,7 @@ return
 true
 ;
 }
-void
+nsresult
 nsBoxFrame
 :
 :
@@ -3244,6 +3244,9 @@ NS_FRAME_IS_DIRTY
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
+nsresult
+rv
+=
 nsFrame
 :
 :
@@ -3258,6 +3261,9 @@ mState
 |
 =
 preserveBits
+;
+return
+rv
 ;
 }
 bool
@@ -3605,7 +3611,7 @@ return
 result
 ;
 }
-void
+nsresult
 nsBoxFrame
 :
 :
@@ -4352,6 +4358,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+NS_OK
 ;
 }
 nsSize

@@ -545,7 +545,7 @@ return
 result
 ;
 }
-void
+nsresult
 nsNumberControlFrame
 :
 :
@@ -841,6 +841,9 @@ top
 nsReflowStatus
 childStatus
 ;
+nsresult
+rv
+=
 ReflowChild
 (
 outerWrapperFrame
@@ -851,6 +854,12 @@ xoffset
 yoffset
 0
 childStatus
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 MOZ_ASSERT
@@ -1040,6 +1049,8 @@ extraSpace
 Place
 the
 child
+rv
+=
 FinishReflowChild
 (
 outerWrapperFrame
@@ -1050,6 +1061,12 @@ wrapperReflowState
 xoffset
 yoffset
 0
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 aDesiredSize
@@ -1145,6 +1162,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+NS_OK
 ;
 }
 void

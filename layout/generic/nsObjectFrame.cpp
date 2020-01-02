@@ -3015,7 +3015,7 @@ all
 cases
 .
 }
-void
+nsresult
 nsObjectFrame
 :
 :
@@ -3131,6 +3131,7 @@ aStatus
 NS_FRAME_COMPLETE
 ;
 return
+NS_OK
 ;
 }
 /
@@ -3166,6 +3167,7 @@ aStatus
 NS_FRAME_COMPLETE
 ;
 return
+NS_OK
 ;
 }
 nsRect
@@ -3292,6 +3294,9 @@ aStatus
 aReflowState
 aMetrics
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -4864,7 +4869,7 @@ y
 )
 ;
 }
-void
+nsresult
 nsObjectFrame
 :
 :
@@ -4951,6 +4956,9 @@ this
 )
 ;
 }
+nsresult
+rv
+=
 nsObjectFrameSuper
 :
 :
@@ -4997,6 +5005,7 @@ nsDidReflowStatus
 FINISHED
 )
 return
+rv
 ;
 if
 (
@@ -5044,6 +5053,9 @@ nsViewVisibility_kShow
 )
 ;
 }
+return
+rv
+;
 }
 /
 *

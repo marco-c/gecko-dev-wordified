@@ -497,7 +497,7 @@ ShrinkWrapChildren
 *
 /
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -1428,7 +1428,7 @@ cells
 .
 *
 /
-void
+nsresult
 ReflowChildren
 (
 nsPresContext

@@ -202,7 +202,7 @@ nsBlockReflowContext
 )
 {
 }
-void
+nsresult
 ReflowBlock
 (
 const

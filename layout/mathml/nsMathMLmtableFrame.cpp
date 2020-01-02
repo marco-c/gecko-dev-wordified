@@ -3542,7 +3542,7 @@ return
 nullptr
 ;
 }
-void
+nsresult
 nsMathMLmtableOuterFrame
 :
 :
@@ -3563,6 +3563,9 @@ nsReflowStatus
 aStatus
 )
 {
+nsresult
+rv
+;
 nsAutoString
 value
 ;
@@ -3582,6 +3585,8 @@ to
 the
 align
 attribute
+rv
+=
 nsTableOuterFrame
 :
 :
@@ -4284,6 +4289,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+rv
 ;
 }
 nsIFrame
@@ -5465,7 +5473,7 @@ PresContext
 )
 ;
 }
-void
+nsresult
 nsMathMLmtdInnerFrame
 :
 :
@@ -5495,6 +5503,9 @@ class
 do
 the
 reflow
+nsresult
+rv
+=
 nsBlockFrame
 :
 :
@@ -5525,6 +5536,9 @@ later
 .
 .
 .
+return
+rv
+;
 }
 const
 nsStyleText

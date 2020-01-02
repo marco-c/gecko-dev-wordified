@@ -245,7 +245,7 @@ GetIntrinsicHeight
 )
 ;
 }
-void
+nsresult
 nsLeafFrame
 :
 :
@@ -332,8 +332,11 @@ FinishAndStoreOverflow
 aMetrics
 )
 ;
+return
+NS_OK
+;
 }
-void
+nsresult
 nsLeafFrame
 :
 :
@@ -486,6 +489,9 @@ aMetrics
 SetOverflowAreasToDesiredBounds
 (
 )
+;
+return
+NS_OK
 ;
 }
 nscoord

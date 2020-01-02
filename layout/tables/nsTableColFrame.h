@@ -338,7 +338,7 @@ GetNextCol
 const
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

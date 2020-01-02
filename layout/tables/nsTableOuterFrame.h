@@ -630,7 +630,7 @@ Reflow
 *
 /
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -1283,7 +1283,7 @@ nscoord
 aAvailWidth
 )
 ;
-void
+nsresult
 OuterDoReflowChild
 (
 nsPresContext

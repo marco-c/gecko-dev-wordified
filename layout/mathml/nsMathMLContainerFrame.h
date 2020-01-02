@@ -808,7 +808,7 @@ aDesiredSize
 )
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -828,7 +828,7 @@ aStatus
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 WillReflow
 (
 nsPresContext
@@ -845,6 +845,7 @@ flags
 ~
 NS_MATHML_ERROR
 ;
+return
 nsContainerFrame
 :
 :
@@ -855,7 +856,7 @@ aPresContext
 ;
 }
 virtual
-void
+nsresult
 DidReflow
 (
 nsPresContext
@@ -1999,7 +2000,7 @@ about
 our
 position
 .
-void
+nsresult
 ReflowChild
 (
 nsIFrame

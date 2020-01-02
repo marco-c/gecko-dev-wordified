@@ -498,7 +498,7 @@ arg
 ;
 }
 }
-void
+nsresult
 nsTableColFrame
 :
 :
@@ -609,6 +609,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+NS_OK
 ;
 }
 int32_t

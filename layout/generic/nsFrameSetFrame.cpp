@@ -830,7 +830,7 @@ aLists
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -1205,7 +1205,7 @@ aLists
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -5489,7 +5489,7 @@ GetBorderColor
 )
 ;
 }
-void
+nsresult
 nsHTMLFramesetFrame
 :
 :
@@ -5939,6 +5939,7 @@ aDesiredSize
 )
 ;
 return
+NS_OK
 ;
 }
 CalculateRowCol
@@ -6066,6 +6067,12 @@ bool
 mNumCols
 ]
 ;
+NS_ENSURE_TRUE
+(
+verBordersVis
+NS_ERROR_OUT_OF_MEMORY
+)
+;
 verBorderColors
 =
 new
@@ -6073,6 +6080,12 @@ nscolor
 [
 mNumCols
 ]
+;
+NS_ENSURE_TRUE
+(
+verBorderColors
+NS_ERROR_OUT_OF_MEMORY
+)
 ;
 for
 (
@@ -6113,6 +6126,12 @@ bool
 mNumRows
 ]
 ;
+NS_ENSURE_TRUE
+(
+horBordersVis
+NS_ERROR_OUT_OF_MEMORY
+)
+;
 horBorderColors
 =
 new
@@ -6120,6 +6139,12 @@ nscolor
 [
 mNumRows
 ]
+;
+NS_ENSURE_TRUE
+(
+horBorderColors
+NS_ERROR_OUT_OF_MEMORY
+)
 ;
 for
 (
@@ -7562,6 +7587,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+NS_OK
 ;
 }
 nsIAtom
@@ -9312,7 +9340,7 @@ mColor
 aColor
 ;
 }
-void
+nsresult
 nsHTMLFramesetBorderFrame
 :
 :
@@ -9387,6 +9415,9 @@ SetOverflowAreasToDesiredBounds
 aStatus
 =
 NS_FRAME_COMPLETE
+;
+return
+NS_OK
 ;
 }
 class
@@ -10567,7 +10598,7 @@ return
 0
 ;
 }
-void
+nsresult
 nsHTMLFramesetBlankFrame
 :
 :
@@ -10633,6 +10664,9 @@ SetOverflowAreasToDesiredBounds
 aStatus
 =
 NS_FRAME_COMPLETE
+;
+return
+NS_OK
 ;
 }
 class

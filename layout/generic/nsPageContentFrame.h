@@ -163,7 +163,7 @@ nsPageFrame
 /
 nsIFrame
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

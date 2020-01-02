@@ -603,7 +603,7 @@ aOldFrame
 )
 ;
 }
-void
+nsresult
 nsAbsoluteContainingBlock
 :
 :
@@ -1211,6 +1211,9 @@ NS_MergeReflowStatusInto
 aReflowStatus
 reflowStatus
 )
+;
+return
+NS_OK
 ;
 }
 static
@@ -2396,7 +2399,7 @@ frames
 to
 split
 .
-void
+nsresult
 nsAbsoluteContainingBlock
 :
 :
@@ -2905,6 +2908,9 @@ top
 Do
 the
 reflow
+nsresult
+rv
+=
 aKidFrame
 -
 >
@@ -3589,4 +3595,7 @@ TopLeft
 )
 ;
 }
+return
+rv
+;
 }

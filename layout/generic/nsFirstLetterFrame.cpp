@@ -886,7 +886,7 @@ aFlags
 )
 ;
 }
-void
+nsresult
 nsFirstLetterFrame
 :
 :
@@ -1638,6 +1638,7 @@ rv
 )
 {
 return
+rv
 ;
 }
 /
@@ -1739,6 +1740,8 @@ nsIFrame
 *
 continuation
 ;
+rv
+=
 CreateContinuationForFloatingParent
 (
 aPresContext
@@ -1763,6 +1766,9 @@ aReflowStatus
 aReflowState
 aMetrics
 )
+;
+return
+rv
 ;
 }
 /

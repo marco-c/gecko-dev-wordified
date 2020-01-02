@@ -437,7 +437,7 @@ NS_DECL_FRAMEARENA_HELPERS
 /
 nsIFrame
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

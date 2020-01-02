@@ -1045,7 +1045,7 @@ return
 rect
 ;
 }
-void
+nsresult
 ViewportFrame
 :
 :
@@ -1220,6 +1220,11 @@ kidHeight
 =
 0
 ;
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 mFrames
@@ -1350,6 +1355,8 @@ ComputedHeight
 )
 )
 ;
+rv
+=
 ReflowChild
 (
 kidFrame
@@ -1680,6 +1687,8 @@ fixed
 pos
 frames
 .
+rv
+=
 GetAbsoluteContainingBlock
 (
 )
@@ -1872,6 +1881,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+rv
 ;
 }
 nsIAtom

@@ -502,8 +502,7 @@ doesn
 '
 t
 fit
-.
-void
+nsresult
 ReflowFrame
 (
 nsIFrame

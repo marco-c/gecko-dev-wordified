@@ -188,7 +188,7 @@ overloaded
 nsTableOuterFrame
 methods
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -1134,7 +1134,7 @@ NS_OK
 ;
 }
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

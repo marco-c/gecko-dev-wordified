@@ -1326,7 +1326,7 @@ implies
 NS_FRAME_NO_MOVE_VIEW
 *
 /
-void
+nsresult
 ReflowChild
 (
 nsIFrame
@@ -1525,7 +1525,7 @@ view
 *
 /
 static
-void
+nsresult
 FinishReflowChild
 (
 nsIFrame
@@ -2242,7 +2242,7 @@ ReflowChild
 )
 *
 /
-void
+nsresult
 ReflowOverflowContainerChildren
 (
 nsPresContext

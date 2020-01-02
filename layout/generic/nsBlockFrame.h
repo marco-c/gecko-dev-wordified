@@ -2020,7 +2020,7 @@ aConsumed
 )
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -3976,7 +3976,7 @@ marked
 dirty
 *
 /
-void
+nsresult
 ReflowDirtyLines
 (
 nsBlockReflowState
@@ -4115,7 +4115,7 @@ more
 lines
 *
 /
-void
+nsresult
 ReflowLine
 (
 nsBlockReflowState
@@ -4412,7 +4412,7 @@ nsLineBox
 aLine
 )
 ;
-void
+nsresult
 ReflowBlockFrame
 (
 nsBlockReflowState
@@ -4425,7 +4425,7 @@ bool
 aKeepGoing
 )
 ;
-void
+nsresult
 ReflowInlineFrames
 (
 nsBlockReflowState
@@ -4438,7 +4438,7 @@ bool
 aKeepLineGoing
 )
 ;
-void
+nsresult
 DoReflowInlineFrames
 (
 nsBlockReflowState
@@ -4471,7 +4471,7 @@ bool
 aAllowPullUp
 )
 ;
-void
+nsresult
 ReflowInlineFrame
 (
 nsBlockReflowState
@@ -4578,7 +4578,7 @@ nsBlockFrame
 :
 AdjustFloatAvailableSpace
 .
-void
+nsresult
 ReflowFloat
 (
 nsBlockReflowState

@@ -1030,7 +1030,7 @@ this
 ;
 }
 }
-void
+nsresult
 nsSelectsAreaFrame
 :
 :
@@ -1172,6 +1172,9 @@ NS_UNCONSTRAINEDSIZE
 ;
 }
 }
+nsresult
+rv
+=
 nsBlockFrame
 :
 :
@@ -1181,6 +1184,12 @@ aPresContext
 aDesiredSize
 aReflowState
 aStatus
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 /
@@ -1339,4 +1348,7 @@ true
 ;
 }
 }
+return
+rv
+;
 }

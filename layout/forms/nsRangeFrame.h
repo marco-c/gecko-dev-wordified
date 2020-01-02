@@ -257,7 +257,7 @@ aLists
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -842,7 +842,7 @@ anonymous
 div
 frames
 .
-void
+nsresult
 ReflowAnonymousContent
 (
 nsPresContext

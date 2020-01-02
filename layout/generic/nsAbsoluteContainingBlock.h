@@ -553,7 +553,7 @@ reflows
 .
 *
 /
-void
+nsresult
 Reflow
 (
 nsContainerFrame
@@ -713,7 +713,7 @@ bool
 aCBHeightChanged
 )
 ;
-void
+nsresult
 ReflowAbsoluteFrame
 (
 nsIFrame

@@ -366,7 +366,7 @@ to
 *
 /
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -407,7 +407,7 @@ done
 *
 /
 virtual
-void
+nsresult
 DoReflow
 (
 nsPresContext

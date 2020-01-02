@@ -2362,7 +2362,7 @@ return
 result
 ;
 }
-void
+nsresult
 nsListControlFrame
 :
 :
@@ -2495,6 +2495,7 @@ IsInDropDownMode
 )
 )
 {
+return
 ReflowAsDropdown
 (
 aPresContext
@@ -2502,8 +2503,6 @@ aDesiredSize
 aReflowState
 aStatus
 )
-;
-return
 ;
 }
 /
@@ -2835,6 +2834,9 @@ computedHeight
 )
 ;
 }
+nsresult
+rv
+=
 nsHTMLScrollFrame
 :
 :
@@ -2844,6 +2846,12 @@ aPresContext
 aDesiredSize
 state
 aStatus
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 if
@@ -3063,6 +3071,7 @@ rowHeight
 }
 }
 return
+rv
 ;
 }
 mMightNeedSecondPass
@@ -3142,6 +3151,7 @@ changed
 )
 ;
 return
+rv
 ;
 }
 SetSuppressScrollbarUpdate
@@ -3323,6 +3333,7 @@ border
 .
 .
 .
+return
 nsHTMLScrollFrame
 :
 :
@@ -3335,7 +3346,7 @@ aStatus
 )
 ;
 }
-void
+nsresult
 nsListControlFrame
 :
 :
@@ -3533,6 +3544,9 @@ mLastDropdownComputedHeight
 )
 ;
 }
+nsresult
+rv
+=
 nsHTMLScrollFrame
 :
 :
@@ -3542,6 +3556,12 @@ aPresContext
 aDesiredSize
 state
 aStatus
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 if
@@ -3658,6 +3678,7 @@ reflow
 )
 ;
 return
+rv
 ;
 }
 mMightNeedSecondPass
@@ -3735,6 +3756,7 @@ reflow
 )
 ;
 return
+rv
 ;
 }
 SetSuppressScrollbarUpdate
@@ -4176,6 +4198,7 @@ WillReflow
 aPresContext
 )
 ;
+return
 nsHTMLScrollFrame
 :
 :
@@ -9584,7 +9607,7 @@ destroy
 us
 }
 }
-void
+nsresult
 nsListControlFrame
 :
 :
@@ -9601,6 +9624,9 @@ nsDidReflowStatus
 aStatus
 )
 {
+nsresult
+rv
+;
 bool
 wasInterrupted
 =
@@ -9615,6 +9641,8 @@ HasPendingInterrupt
 (
 )
 ;
+rv
+=
 nsHTMLScrollFrame
 :
 :
@@ -9748,6 +9776,9 @@ mPostChildrenLoadedReset
 mHasPendingInterruptAtStartOfReflow
 =
 false
+;
+return
+rv
 ;
 }
 nsIAtom

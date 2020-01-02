@@ -13047,7 +13047,7 @@ once
 *
 /
 virtual
-void
+nsresult
 WillReflow
 (
 nsPresContext
@@ -13444,7 +13444,7 @@ reflowed
 *
 /
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -13605,7 +13605,7 @@ reflow
 *
 /
 virtual
-void
+nsresult
 DidReflow
 (
 nsPresContext

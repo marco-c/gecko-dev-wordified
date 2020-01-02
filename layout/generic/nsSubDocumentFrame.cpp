@@ -4237,7 +4237,7 @@ aFlags
 )
 ;
 }
-void
+nsresult
 nsSubDocumentFrame
 :
 :
@@ -4383,6 +4383,9 @@ or
 <
 embed
 >
+nsresult
+rv
+=
 nsLeafFrame
 :
 :
@@ -4392,6 +4395,12 @@ aPresContext
 aDesiredSize
 aReflowState
 aStatus
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 /
@@ -4697,6 +4706,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+NS_OK
 ;
 }
 bool

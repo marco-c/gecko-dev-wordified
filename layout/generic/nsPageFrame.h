@@ -160,7 +160,7 @@ aContext
 )
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -500,7 +500,7 @@ nsPageBreakFrame
 )
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

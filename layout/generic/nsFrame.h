@@ -2025,7 +2025,7 @@ aWidthInCB
 )
 ;
 virtual
-void
+nsresult
 WillReflow
 (
 nsPresContext
@@ -2286,7 +2286,7 @@ Reflow
 *
 /
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -2306,7 +2306,7 @@ aStatus
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 DidReflow
 (
 nsPresContext
@@ -4396,7 +4396,7 @@ nullptr
 ;
 private
 :
-void
+nsresult
 BoxReflow
 (
 nsBoxLayoutState
