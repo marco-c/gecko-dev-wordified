@@ -2263,11 +2263,13 @@ translation
 *
 /
 void
-SaveLastPaintOffset
+SavePreviousDataForLayer
 (
 ThebesLayer
 *
 aLayer
+uint32_t
+aClipCount
 )
 ;
 /
@@ -3607,6 +3609,10 @@ mContainerLayerFrame
 (
 nullptr
 )
+mLastCommonClipCount
+(
+0
+)
 mContainerLayerGeneration
 (
 0
@@ -3689,6 +3695,9 @@ tree
 .
 nsIntPoint
 mLastPaintOffset
+;
+uint32_t
+mLastCommonClipCount
 ;
 uint32_t
 mContainerLayerGeneration
