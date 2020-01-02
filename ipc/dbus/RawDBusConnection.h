@@ -244,6 +244,10 @@ aTimeout
 const
 char
 *
+aDestination
+const
+char
+*
 aPath
 const
 char
@@ -266,6 +270,10 @@ DBusMessage
 *
 BuildDBusMessage
 (
+const
+char
+*
+aDestination
 const
 char
 *
