@@ -293,7 +293,7 @@ mDuration
 )
 mFrameType
 (
-UNKNOW
+UNKNOWN
 )
 {
 }
@@ -334,7 +334,7 @@ AVC
 codec
 specific
 data
-UNKNOW
+UNKNOWN
 /
 /
 FrameType
@@ -380,7 +380,7 @@ if
 mFrameType
 !
 =
-UNKNOW
+UNKNOWN
 )
 {
 /
@@ -390,7 +390,7 @@ this
 frame
 type
 to
-UNKNOW
+UNKNOWN
 once
 the
 data
@@ -407,7 +407,7 @@ aData
 ;
 mFrameType
 =
-UNKNOW
+UNKNOWN
 ;
 return
 NS_OK

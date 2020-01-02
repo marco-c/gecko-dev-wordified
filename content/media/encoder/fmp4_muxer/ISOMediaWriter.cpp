@@ -214,6 +214,8 @@ ISOMediaWriter
 (
 uint32_t
 aType
+uint32_t
+aHint
 )
 :
 ContainerWriter
@@ -263,6 +265,7 @@ mControl
 new
 ISOControl
 (
+aHint
 )
 ;
 MOZ_COUNT_CTOR
