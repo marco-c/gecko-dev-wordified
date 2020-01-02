@@ -2587,6 +2587,8 @@ push
 aCallback
 )
 ;
+return
+;
 }
 /
 /
