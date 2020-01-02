@@ -157,9 +157,6 @@ CameraControlListener
 .
 h
 "
-class
-DeviceStorageFileDescriptor
-;
 namespace
 mozilla
 {
