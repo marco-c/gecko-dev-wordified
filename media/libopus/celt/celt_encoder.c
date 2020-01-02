@@ -3659,7 +3659,7 @@ i
 +
 )
 {
-opus_val16
+celt_sig
 x
 tmp
 ;
