@@ -140,7 +140,7 @@ mozilla
 /
 dom
 /
-TextTrackRegionBinding
+VTTRegionBinding
 .
 h
 "
@@ -196,7 +196,7 @@ aScope
 )
 {
 return
-TextTrackRegionBinding
+VTTRegionBinding
 :
 :
 Wrap
