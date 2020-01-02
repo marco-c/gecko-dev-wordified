@@ -1143,9 +1143,6 @@ virtual
 size_t
 HeapSizeOfSourceWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1155,9 +1152,6 @@ virtual
 size_t
 HeapSizeOfDecodedWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -2859,9 +2853,6 @@ may
 cause
 deadlock
 .
-mozilla
-:
-:
 Mutex
 mThreadPoolMutex
 ;
@@ -3250,9 +3241,6 @@ SizeOfDecodedWithComputedFallbackIfHeap
 (
 gfxMemoryLocation
 aLocation
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -3776,9 +3764,6 @@ GetImageContainer
 .
 nsRefPtr
 <
-mozilla
-:
-:
 layers
 :
 :
@@ -3801,9 +3786,6 @@ image
 container
 WeakPtr
 <
-mozilla
-:
-:
 layers
 :
 :
@@ -3855,9 +3837,6 @@ BEGIN
 LOCKED
 MEMBER
 VARIABLES
-mozilla
-:
-:
 ReentrantMonitor
 mDecodingMonitor
 ;

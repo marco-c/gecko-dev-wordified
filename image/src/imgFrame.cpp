@@ -169,13 +169,6 @@ false
 #
 include
 "
-cairo
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h
