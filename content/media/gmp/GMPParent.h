@@ -1039,17 +1039,12 @@ GMPAudioDecoderParent
 >
 mAudioDecoders
 ;
-#
-ifdef
-DEBUG
 nsCOMPtr
 <
 nsIThread
 >
 mGMPThread
 ;
-#
-endif
 /
 /
 Origin
