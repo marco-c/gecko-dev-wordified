@@ -1924,11 +1924,6 @@ if
 mOwnsTex
 )
 {
-GLuint
-tex
-=
-mTex
-;
 mGL
 -
 >
