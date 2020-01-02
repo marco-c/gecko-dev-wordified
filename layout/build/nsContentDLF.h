@@ -204,7 +204,7 @@ aChannel
 nsILoadGroup
 *
 aLoadGroup
-nsIDocShell
+nsISupports
 *
 aContainer
 const
@@ -238,7 +238,7 @@ const
 char
 *
 aContentType
-nsIDocShell
+nsISupports
 *
 aContainer
 nsISupports

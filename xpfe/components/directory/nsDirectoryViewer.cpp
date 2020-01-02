@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
@@ -7164,7 +7157,7 @@ const
 char
 *
 aContentType
-nsIDocShell
+nsISupports
 *
 aContainer
 nsISupports
