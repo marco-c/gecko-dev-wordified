@@ -3759,6 +3759,11 @@ editor
 styleSheet
 .
 relatedStyleSheet
+&
+&
+editor
+.
+linkedCSSFile
 )
 {
 ruleCount
