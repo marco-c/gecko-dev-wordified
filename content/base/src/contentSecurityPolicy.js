@@ -2368,11 +2368,11 @@ fromStringSpecCompliant
 (
 aPolicy
 selfURI
+aReportOnly
 this
 .
 _docRequest
 this
-aReportOnly
 )
 ;
 }
@@ -2386,11 +2386,11 @@ fromString
 (
 aPolicy
 selfURI
+aReportOnly
 this
 .
 _docRequest
 this
-aReportOnly
 )
 ;
 }
