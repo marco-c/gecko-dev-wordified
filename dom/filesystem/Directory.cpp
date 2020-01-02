@@ -677,6 +677,7 @@ IsArrayBuffer
 )
 )
 {
+const
 ArrayBuffer
 &
 buffer
@@ -720,6 +721,7 @@ IsArrayBufferView
 )
 )
 {
+const
 ArrayBufferView
 &
 view
