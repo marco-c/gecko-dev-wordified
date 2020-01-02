@@ -128,6 +128,13 @@ h
 #
 include
 "
+WifiHotspotUtils
+.
+h
+"
+#
+include
+"
 nsCxPusher
 .
 h
@@ -741,6 +748,12 @@ nsAutoPtr
 NetUtils
 >
 mNetUtils
+;
+nsAutoPtr
+<
+WifiHotspotUtils
+>
+mWifiHotspotUtils
 ;
 protected
 :
