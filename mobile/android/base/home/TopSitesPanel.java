@@ -201,7 +201,7 @@ db
 .
 BrowserDB
 .
-TopSitesCursorWrapper
+URLColumns
 ;
 import
 org
@@ -212,9 +212,7 @@ gecko
 .
 db
 .
-BrowserDB
-.
-URLColumns
+TopSitesCursorWrapper
 ;
 import
 org
