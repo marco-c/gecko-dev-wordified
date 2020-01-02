@@ -1650,6 +1650,8 @@ tempPosition
 HyperTextAccessible
 *
 text
+=
+nullptr
 ;
 /
 /
@@ -2103,7 +2105,7 @@ tempEnd
 text
 -
 >
-GetTextAtOffset
+TextAtOffset
 (
 tempEnd
 endBoundary
@@ -2117,7 +2119,7 @@ unusedText
 text
 -
 >
-GetTextBeforeOffset
+TextBeforeOffset
 (
 tempEnd
 startBoundary
@@ -2924,7 +2926,7 @@ potentialEnd
 text
 -
 >
-GetTextBeforeOffset
+TextBeforeOffset
 (
 tempStart
 startBoundary
@@ -2969,7 +2971,7 @@ tempStart
 text
 -
 >
-GetTextBeforeOffset
+TextBeforeOffset
 (
 tempStart
 -
@@ -2985,7 +2987,7 @@ unusedText
 text
 -
 >
-GetTextAtOffset
+TextAtOffset
 (
 tempStart
 endBoundary

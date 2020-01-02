@@ -6062,6 +6062,7 @@ XULTextFieldAccessible
 FrameSelection
 (
 )
+const
 {
 nsCOMPtr
 <

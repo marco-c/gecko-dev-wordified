@@ -1108,6 +1108,7 @@ nsFrameSelection
 FrameSelection
 (
 )
+const
 ;
 /
 /

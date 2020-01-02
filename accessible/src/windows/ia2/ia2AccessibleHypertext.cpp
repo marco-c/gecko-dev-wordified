@@ -203,7 +203,7 @@ aHyperlinkCount
 hyperText
 -
 >
-GetLinkCount
+LinkCount
 (
 )
 ;
@@ -272,7 +272,7 @@ hyperLink
 hyperText
 -
 >
-GetLinkAt
+LinkAt
 (
 aLinkIndex
 )
@@ -377,7 +377,7 @@ aHyperlinkIndex
 hyperAcc
 -
 >
-GetLinkIndexAtOffset
+LinkIndexAtOffset
 (
 aCharIndex
 )

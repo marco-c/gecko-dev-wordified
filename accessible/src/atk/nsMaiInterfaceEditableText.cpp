@@ -131,6 +131,8 @@ h
 include
 "
 HyperTextAccessible
+-
+inl
 .
 h
 "
@@ -237,7 +239,7 @@ aString
 text
 -
 >
-SetTextContents
+ReplaceText
 (
 strContent
 )
