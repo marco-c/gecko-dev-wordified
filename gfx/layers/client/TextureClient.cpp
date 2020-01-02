@@ -1903,15 +1903,10 @@ aMoz2DBackend
 {
 if
 (
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
+aAllocator
 -
 >
-PreferMemoryOverShmem
+IsSameProcess
 (
 )
 )
