@@ -345,12 +345,12 @@ private
 static
 final
 String
-EVENT_HOMEPANELS_REFRESH
+EVENT_HOMEPANELS_UPDATE
 =
 "
 HomePanels
 :
-Refresh
+Update
 "
 ;
 private
@@ -379,7 +379,7 @@ ChangeType
 {
 UNINSTALL
 INSTALL
-REFRESH
+UPDATE
 }
 private
 static
@@ -517,7 +517,7 @@ getEventDispatcher
 .
 registerEventListener
 (
-EVENT_HOMEPANELS_REFRESH
+EVENT_HOMEPANELS_UPDATE
 this
 )
 ;
@@ -528,7 +528,7 @@ refreshAll
 (
 )
 {
-handlePanelRefresh
+handlePanelUpdate
 (
 null
 )
@@ -617,7 +617,7 @@ event
 .
 equals
 (
-EVENT_HOMEPANELS_REFRESH
+EVENT_HOMEPANELS_UPDATE
 )
 )
 {
@@ -626,10 +626,10 @@ Log
 d
 (
 LOGTAG
-EVENT_HOMEPANELS_REFRESH
+EVENT_HOMEPANELS_UPDATE
 )
 ;
-handlePanelRefresh
+handlePanelUpdate
 (
 createPanelConfigFromMessage
 (
@@ -811,7 +811,7 @@ scheduleInvalidation
 Schedules
 a
 panel
-refresh
+update
 in
 HomeConfig
 .
@@ -842,7 +842,7 @@ entries
 /
 private
 void
-handlePanelRefresh
+handlePanelUpdate
 (
 PanelConfig
 panelConfig
@@ -857,7 +857,7 @@ ConfigChange
 (
 ChangeType
 .
-REFRESH
+UPDATE
 panelConfig
 )
 )
@@ -868,7 +868,7 @@ d
 (
 LOGTAG
 "
-handlePanelRefresh
+handlePanelUpdate
 :
 "
 +
@@ -1260,7 +1260,7 @@ break
 ;
 }
 case
-REFRESH
+UPDATE
 :
 {
 final
@@ -1300,7 +1300,7 @@ LOGTAG
 "
 Tried
 to
-refresh
+update
 non
 -
 existing
