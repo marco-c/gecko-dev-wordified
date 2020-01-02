@@ -216,7 +216,7 @@ JSOP_POPN
 \
 _
 (
-JSOP_DUPAT
+JSOP_POPNV
 )
 \
 _

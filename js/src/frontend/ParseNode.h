@@ -2752,6 +2752,12 @@ PNK_THIS
 *
 PNK_LEXICALSCOPE
 name
+pn_op
+:
+JSOP_POPN
+or
+JSOP_POPNV
+*
 pn_objbox
 :
 block
