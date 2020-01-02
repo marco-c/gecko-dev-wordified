@@ -21427,7 +21427,7 @@ eSelectorParsingStatus_Done
 }
 REPORT_UNEXPECTED_TOKEN
 (
-PEPseudoSelTrailing
+PEPseudoSelEndOrUserActionPC
 )
 ;
 UngetToken
