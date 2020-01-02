@@ -5111,6 +5111,8 @@ const
 nsAString
 &
 aFamily
+bool
+aUseSystemFonts
 )
 {
 nsAutoString
