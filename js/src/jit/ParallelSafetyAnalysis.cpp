@@ -1477,6 +1477,10 @@ Floor
 )
 SAFE_OP
 (
+Ceil
+)
+SAFE_OP
+(
 Round
 )
 UNSAFE_OP
