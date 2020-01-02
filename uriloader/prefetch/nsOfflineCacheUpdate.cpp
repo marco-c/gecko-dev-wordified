@@ -8783,9 +8783,14 @@ aCustomProfileDir
 {
 rv
 =
-GetCacheKey
+cacheService
+-
+>
+BuildGroupIDForApp
 (
 aManifestURI
+aAppID
+aInBrowser
 mGroupID
 )
 ;

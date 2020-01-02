@@ -10694,17 +10694,6 @@ manifestURL
 let
 cacheUpdate
 =
-aProfileDir
-?
-updateSvc
-.
-scheduleCustomProfileUpdate
-(
-appcacheURI
-docURI
-aProfileDir
-)
-:
 updateSvc
 .
 scheduleAppUpdate
@@ -10715,6 +10704,7 @@ aApp
 .
 localId
 false
+aProfileDir
 )
 ;
 /
