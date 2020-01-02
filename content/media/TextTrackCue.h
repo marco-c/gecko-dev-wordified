@@ -1188,6 +1188,10 @@ mDisplayState
 =
 aDisplayState
 ;
+mReset
+=
+false
+;
 }
 bool
 HasBeenReset
