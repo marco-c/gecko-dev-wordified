@@ -122,7 +122,7 @@ marionette
 set_search_timeout
 (
 "
-3000
+30000
 "
 )
         
