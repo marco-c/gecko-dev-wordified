@@ -12666,7 +12666,7 @@ PeekFront
 :
 nullptr
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 audio
@@ -12694,6 +12694,18 @@ audio
 -
 >
 mDuration
+)
+|
+|
+mReader
+-
+>
+AudioQueue
+(
+)
+.
+IsFinished
+(
 )
 "
 Seek
@@ -12769,7 +12781,7 @@ if
 video
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 (
 video
