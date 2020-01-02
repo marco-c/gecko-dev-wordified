@@ -6537,9 +6537,11 @@ aStatus
 {
 if
 (
-NS_IS_INPUT_EVENT
-(
 event
+-
+>
+IsInputDerivedEvent
+(
 )
 )
 {

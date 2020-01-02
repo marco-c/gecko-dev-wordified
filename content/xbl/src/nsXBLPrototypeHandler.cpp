@@ -5631,9 +5631,11 @@ NS_ENSURE_TRUE
 event
 &
 &
-NS_IS_INPUT_EVENT
-(
 event
+-
+>
+IsInputDerivedEvent
+(
 )
 false
 )

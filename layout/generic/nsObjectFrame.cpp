@@ -12394,9 +12394,11 @@ SendNativeEvents
 )
 &
 &
-NS_IS_PLUGIN_EVENT
-(
 anEvent
+-
+>
+IsNativeEventDelivererForPlugin
+(
 )
 )
 {

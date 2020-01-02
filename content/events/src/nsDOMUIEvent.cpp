@@ -2304,9 +2304,11 @@ aKey
 if
 (
 !
-NS_IS_INPUT_EVENT
-(
 mEvent
+-
+>
+IsInputDerivedEvent
+(
 )
 )
 {
