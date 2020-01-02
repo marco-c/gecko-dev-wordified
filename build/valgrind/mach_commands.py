@@ -676,9 +676,9 @@ allregs
 -
 at
 -
-each
+mem
 -
-insn
+access
 '
                 
 '
