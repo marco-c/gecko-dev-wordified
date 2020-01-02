@@ -10262,10 +10262,8 @@ context
 *
 /
 static
-already_AddRefed
-<
 nsIDocument
->
+*
 GetDocumentFromScriptContext
 (
 nsIScriptContext
