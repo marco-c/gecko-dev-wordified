@@ -515,17 +515,16 @@ and
 self
 .
 device_name
-in
+.
+find
 (
 '
 emulator
 '
-'
-emulator
--
-jb
-'
 )
+=
+=
+0
 :
             
 emulator
