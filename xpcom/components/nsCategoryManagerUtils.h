@@ -112,14 +112,14 @@ NS_CreateServicesFromCategory
 const
 char
 *
-category
+aCategory
 nsISupports
 *
-origin
+aOrigin
 const
 char
 *
-observerTopic
+aObserverTopic
 )
 ;
 #
