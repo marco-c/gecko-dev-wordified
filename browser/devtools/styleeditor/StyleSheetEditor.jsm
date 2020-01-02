@@ -2334,7 +2334,7 @@ this
 .
 sourceEditor
 .
-markClean
+setClean
 (
 )
 ;

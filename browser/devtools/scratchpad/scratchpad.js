@@ -1248,7 +1248,7 @@ this
 .
 editor
 .
-markClean
+setClean
 (
 )
 ;
