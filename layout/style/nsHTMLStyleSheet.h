@@ -273,6 +273,16 @@ aData
 MOZ_OVERRIDE
 ;
 virtual
+nsRestyleHint
+HasStateDependentStyle
+(
+PseudoElementStateRuleProcessorData
+*
+aData
+)
+MOZ_OVERRIDE
+;
+virtual
 bool
 HasDocumentStateDependentStyle
 (
