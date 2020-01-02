@@ -2865,7 +2865,6 @@ function
 value
 )
 {
-let
 value
 =
 value
