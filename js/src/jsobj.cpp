@@ -21165,7 +21165,7 @@ oldcap
 )
 ;
 /
-*
+/
 Don
 '
 t
@@ -21176,8 +21176,6 @@ the
 minimum
 capacity
 .
-*
-/
 if
 (
 oldcap
@@ -21241,10 +21239,18 @@ if
 !
 newheader
 )
+{
+cx
+-
+>
+recoverFromOutOfMemory
+(
+)
+;
 return
 ;
 /
-*
+/
 Leave
 elements
 at
@@ -21252,8 +21258,7 @@ its
 old
 size
 .
-*
-/
+}
 newheader
 -
 >
