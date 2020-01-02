@@ -3832,7 +3832,7 @@ if
 dmd
 :
 :
-IsEnabled
+IsRunning
 (
 )
 )

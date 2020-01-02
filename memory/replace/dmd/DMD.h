@@ -525,11 +525,11 @@ or
 not
 DMD
 is
-enabled
+running
 .
 MOZ_EXPORT
 bool
-IsEnabled
+IsRunning
 (
 )
 ;
