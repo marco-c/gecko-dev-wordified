@@ -627,7 +627,7 @@ classLocalRef
 ;
 classLocalRef
 =
-NULL
+nullptr
 ;
 return
 static_cast
@@ -1681,7 +1681,7 @@ ExceptionClear
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3880,7 +3880,7 @@ resetting
 mLayerClient
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -3914,7 +3914,7 @@ mLayerClient
 ;
 mLayerClient
 =
-NULL
+nullptr
 ;
 }
 AndroidGeckoLayerClient
@@ -4128,7 +4128,7 @@ jEGLSurfacePointerField
 )
 {
 return
-NULL
+nullptr
 ;
 }
 MOZ_ASSERT
@@ -4171,7 +4171,7 @@ env
 )
 {
 return
-NULL
+nullptr
 ;
 }
 jobject
@@ -4188,7 +4188,7 @@ if
 eglSurface
 )
 return
-NULL
+nullptr
 ;
 EGLSurface
 ret
@@ -7729,7 +7729,7 @@ err
 *
 bits
 =
-NULL
+nullptr
 ;
 *
 width
@@ -7764,7 +7764,7 @@ void
 )
 &
 buffer
-NULL
+nullptr
 )
 )
 !
@@ -7851,7 +7851,7 @@ Surface_lock
 window
 &
 info
-NULL
+nullptr
 true
 )
 )
@@ -8455,11 +8455,11 @@ AndroidBridge
 :
 mLayerClient
 (
-NULL
+nullptr
 )
 mNativePanZoomController
 (
-NULL
+nullptr
 )
 {
 }
@@ -8739,7 +8739,7 @@ JavaVM
 *
 vm
 =
-NULL
+nullptr
 ;
 env
 -
@@ -8784,7 +8784,7 @@ JNIEnv
 *
 jEnv
 =
-NULL
+nullptr
 ;
 JavaVM
 *
@@ -8821,7 +8821,7 @@ VM
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 jEnv
@@ -8877,7 +8877,7 @@ AttachCurrentThread
 (
 &
 jEnv
-NULL
+nullptr
 )
 ;
 if
@@ -8899,7 +8899,7 @@ attach
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 PR_SetThreadPrivate

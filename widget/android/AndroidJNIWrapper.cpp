@@ -328,7 +328,7 @@ if
 env
 )
 return
-NULL
+nullptr
 ;
 return
 env
@@ -397,7 +397,7 @@ if
 globalRef
 )
 return
-NULL
+nullptr
 ;
 /
 /
@@ -495,7 +495,7 @@ if
 foundClass
 )
 return
-NULL
+nullptr
 ;
 return
 foundClass
@@ -547,7 +547,7 @@ if
 env
 )
 return
-NULL
+nullptr
 ;
 return
 env
@@ -597,7 +597,7 @@ if
 env
 )
 return
-NULL
+nullptr
 ;
 return
 env
