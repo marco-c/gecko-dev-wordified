@@ -2780,9 +2780,9 @@ acceleration
 /
 transform
 :
-translateX
+translateZ
 (
-0px
+1px
 )
 ;
 }
@@ -4067,13 +4067,6 @@ variables
 view
 -
 container
-:
-not
-(
-[
-empty
-]
-)
 {
 /
 *
@@ -4086,7 +4079,7 @@ acceleration
 /
 transform
 :
-translateX
+translateZ
 (
 1px
 )
