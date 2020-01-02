@@ -5032,7 +5032,7 @@ is
 within
 1e
 -
-6
+5
 of
 an
 integer
@@ -5071,7 +5071,7 @@ power
 <
 1e
 -
-6
+5
 )
 {
 power
