@@ -7357,7 +7357,7 @@ GetGuid
 .
 Times
 (
-1
+0
 )
 ;
 status
