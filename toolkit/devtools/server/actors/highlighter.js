@@ -3480,6 +3480,12 @@ oldRect
 height
 )
 {
+this
+.
+_showOutline
+(
+)
+;
 return
 true
 ;
