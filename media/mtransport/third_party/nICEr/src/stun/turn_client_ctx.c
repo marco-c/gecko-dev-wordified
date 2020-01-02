@@ -4283,8 +4283,9 @@ _status
 ;
 abort
 :
-RFREE
+nr_stun_message_destroy
 (
+&
 ind
 )
 ;
