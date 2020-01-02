@@ -944,7 +944,7 @@ wifi
 .
 timeToWaitBeforeSending
 "
-200
+2000
 )
 ;
 user_pref
