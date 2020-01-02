@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsExceptionHandler
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
