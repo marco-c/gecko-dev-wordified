@@ -211,13 +211,13 @@ FixedList
 (
 )
 :
-length_
-(
-0
-)
 list_
 (
 nullptr
+)
+length_
+(
+0
 )
 {
 }
