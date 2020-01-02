@@ -1860,6 +1860,17 @@ AllocKind
 dstKind
 )
 ;
+void
+forwardTypedArrayPointers
+(
+JSObject
+*
+dst
+JSObject
+*
+src
+)
+;
 /
 *
 Handle
