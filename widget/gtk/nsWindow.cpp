@@ -32949,10 +32949,8 @@ void
 aCallbackData
 )
 {
-nsRefPtr
-<
 NativeKeyBindings
->
+*
 keyBindings
 =
 NativeKeyBindings
