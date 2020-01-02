@@ -52514,7 +52514,7 @@ get
 )
 ;
 }
-nsIDOMLocation
+nsLocation
 *
 nsGlobalWindow
 :

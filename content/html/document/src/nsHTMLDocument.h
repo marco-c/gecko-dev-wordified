@@ -1465,7 +1465,7 @@ from
 Document
 already_AddRefed
 <
-nsIDOMLocation
+nsLocation
 >
 GetLocation
 (
