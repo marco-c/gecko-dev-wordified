@@ -735,6 +735,7 @@ SK_INIT_TO_AVOID_WARNING
 #
 ifndef
 SkDebugf
+SK_API
 void
 SkDebugf
 (
