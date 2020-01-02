@@ -567,14 +567,10 @@ method
 *
 *
 return
-Default
-adapter
-path
-/
-name
+NS_OK
 on
 success
-NULL
+NS_ERROR_FAILURE
 otherwise
 *
 /

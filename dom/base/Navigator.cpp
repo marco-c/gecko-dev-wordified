@@ -3311,7 +3311,7 @@ RemoveListener
 ;
 gVibrateWindowListener
 =
-NULL
+nullptr
 ;
 /
 /
