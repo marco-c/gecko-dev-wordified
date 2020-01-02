@@ -6242,12 +6242,17 @@ SourceHook
 >
 sourceHook
 ;
+#
+ifdef
+NIGHTLY_BUILD
 js
 :
 :
 AssertOnScriptEntryHook
 assertOnScriptEntryHook_
 ;
+#
+endif
 /
 *
 Per
