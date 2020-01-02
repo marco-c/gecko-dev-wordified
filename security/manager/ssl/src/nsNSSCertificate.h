@@ -382,6 +382,16 @@ return
 false
 on
 failure
+nsresult
+GetCertificateHash
+(
+nsAString
+&
+aFingerprint
+SECOidTag
+aHashAlg
+)
+;
 enum
 {
 ev_status_unknown
