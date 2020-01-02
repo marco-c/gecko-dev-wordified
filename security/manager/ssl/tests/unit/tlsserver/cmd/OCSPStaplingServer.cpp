@@ -228,6 +228,7 @@ example
 com
 "
 ORTGood
+nullptr
 }
 {
 "
@@ -242,6 +243,7 @@ example
 com
 "
 ORTRevoked
+nullptr
 }
 {
 "
@@ -256,6 +258,7 @@ example
 com
 "
 ORTUnknown
+nullptr
 }
 {
 "
@@ -272,6 +275,9 @@ example
 com
 "
 ORTGoodOtherCert
+"
+ocspOtherEndEntity
+"
 }
 {
 "
@@ -290,6 +296,9 @@ example
 com
 "
 ORTGoodOtherCA
+"
+otherCA
+"
 }
 {
 "
@@ -304,6 +313,7 @@ example
 com
 "
 ORTExpired
+nullptr
 }
 {
 "
@@ -322,6 +332,7 @@ example
 com
 "
 ORTExpiredFreshCA
+nullptr
 }
 {
 "
@@ -336,6 +347,7 @@ example
 com
 "
 ORTNone
+nullptr
 }
 {
 "
@@ -350,6 +362,7 @@ example
 com
 "
 ORTEmpty
+nullptr
 }
 {
 "
@@ -364,6 +377,7 @@ example
 com
 "
 ORTMalformed
+nullptr
 }
 {
 "
@@ -378,6 +392,7 @@ example
 com
 "
 ORTSrverr
+nullptr
 }
 {
 "
@@ -392,6 +407,7 @@ example
 com
 "
 ORTTryLater
+nullptr
 }
 {
 "
@@ -406,6 +422,7 @@ example
 com
 "
 ORTNeedsSig
+nullptr
 }
 {
 "
@@ -420,10 +437,12 @@ example
 com
 "
 ORTUnauthorized
+nullptr
 }
 {
 nullptr
 ORTNull
+nullptr
 }
 }
 ;
@@ -610,6 +629,10 @@ host
 mORT
 cert
 arena
+host
+-
+>
+mAdditionalCertName
 )
 ;
 if
