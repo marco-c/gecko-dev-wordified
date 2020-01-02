@@ -8503,6 +8503,9 @@ OutOfMemoryCallback
 JSContext
 *
 cx
+void
+*
+data
 )
 {
 if
@@ -21178,6 +21181,7 @@ SetOutOfMemoryCallback
 (
 runtime
 OutOfMemoryCallback
+nullptr
 )
 ;
 /

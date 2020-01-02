@@ -30786,6 +30786,9 @@ my_OOMCallback
 JSContext
 *
 cx
+void
+*
+data
 )
 {
 /
@@ -39503,6 +39506,7 @@ SetOutOfMemoryCallback
 (
 rt
 my_OOMCallback
+nullptr
 )
 ;
 if

@@ -8081,6 +8081,10 @@ JS
 LargeAllocationFailureCallback
 largeAllocationFailureCallback
 ;
+void
+*
+largeAllocationFailureCallbackData
+;
 /
 *
 See
@@ -8102,6 +8106,10 @@ JS
 :
 OutOfMemoryCallback
 oomCallback
+;
+void
+*
+oomCallbackData
 ;
 /
 *

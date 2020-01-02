@@ -3954,6 +3954,9 @@ OutOfMemoryCallback
 JSContext
 *
 cx
+void
+*
+data
 )
 ;
 size_t

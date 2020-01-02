@@ -32999,6 +32999,9 @@ void
 LargeAllocationFailureCallback
 )
 (
+void
+*
+data
 )
 ;
 extern
@@ -33013,6 +33016,9 @@ JSRuntime
 rt
 LargeAllocationFailureCallback
 afc
+void
+*
+data
 )
 ;
 /
@@ -33149,6 +33155,9 @@ OutOfMemoryCallback
 JSContext
 *
 cx
+void
+*
+data
 )
 ;
 extern
@@ -33163,6 +33172,9 @@ JSRuntime
 rt
 OutOfMemoryCallback
 cb
+void
+*
+data
 )
 ;
 }
