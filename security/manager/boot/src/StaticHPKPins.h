@@ -367,9 +367,7 @@ kEnd_Entity_Test_CertFingerprint
 ]
 =
 "
-sEIYDccDj1ULE64YxhvqV7ASqc2qfIofVyArzg
-+
-62hU
+97H5CNFJ2u3u1NvH3ru67t5OiCO8KydOyNh9GCEyAeM
 =
 "
 ;
@@ -1215,7 +1213,7 @@ kPinSet_mozilla_test
 "
 include
 -
-subdomains
+subdomain
 .
 pinning
 .
@@ -1254,6 +1252,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1409782406553000
+1409763023059000
 )
 ;
