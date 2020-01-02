@@ -135,6 +135,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
 MurmurHash3
 .
 h
@@ -1618,8 +1627,8 @@ AppendPrintf
 "
 webgl_
 %
-llx
 "
+PRIx64
 hash
 )
 ;
