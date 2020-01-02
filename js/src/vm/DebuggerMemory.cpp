@@ -1159,10 +1159,3 @@ methods
 JS_FS_END
 }
 ;
-}
-/
-*
-namespace
-js
-*
-/
