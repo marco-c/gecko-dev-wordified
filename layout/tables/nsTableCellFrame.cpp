@@ -6624,6 +6624,16 @@ nsBCTableCellFrame
 :
 GetBorderRadii
 (
+const
+nsSize
+&
+aFrameSize
+const
+nsSize
+&
+aBorderArea
+int
+aSkipSides
 nscoord
 aRadii
 [
