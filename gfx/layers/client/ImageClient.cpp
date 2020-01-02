@@ -1188,6 +1188,10 @@ OPEN_WRITE_ONLY
 )
 )
 {
+mFrontBuffer
+=
+nullptr
+;
 return
 false
 ;
@@ -1625,6 +1629,10 @@ OPEN_WRITE_ONLY
 )
 )
 {
+mFrontBuffer
+=
+nullptr
+;
 return
 false
 ;
