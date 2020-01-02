@@ -1745,6 +1745,14 @@ discardAllInstructions
 )
 ;
 void
+discardAllInstructionsStartingAt
+(
+MInstructionIterator
+&
+iter
+)
+;
+void
 discardAllPhiOperands
 (
 )
