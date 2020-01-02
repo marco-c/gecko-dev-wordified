@@ -193,6 +193,9 @@ GetClassName
 undef
 GetBinaryType
 #
+undef
+RemoveDirectory
+#
 endif
 class
 nsPresContext

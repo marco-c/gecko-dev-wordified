@@ -1558,6 +1558,9 @@ GetClassName
 undef
 GetBinaryType
 #
+undef
+RemoveDirectory
+#
 endif
 #
 endif
