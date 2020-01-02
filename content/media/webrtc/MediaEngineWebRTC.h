@@ -2349,6 +2349,13 @@ webrtc
 :
 VideoEngine
 *
+mBrowserEngine
+;
+webrtc
+:
+:
+VideoEngine
+*
 mWinEngine
 ;
 webrtc
@@ -2394,6 +2401,12 @@ webrtc
 Config
 mScreenEngineConfig
 ;
+webrtc
+:
+:
+Config
+mBrowserEngineConfig
+;
 /
 /
 Need
@@ -2414,6 +2427,9 @@ mAudioEngineInit
 ;
 bool
 mScreenEngineInit
+;
+bool
+mBrowserEngineInit
 ;
 bool
 mWinEngineInit

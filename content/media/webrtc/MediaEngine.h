@@ -293,8 +293,6 @@ Window
 XXX
 bug
 1038926
-/
-/
 Browser
 =
 (
