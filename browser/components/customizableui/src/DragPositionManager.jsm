@@ -763,6 +763,11 @@ row
 :
 if
 (
+this
+.
+_inPanel
+&
+&
 draggedItem
 &
 &
