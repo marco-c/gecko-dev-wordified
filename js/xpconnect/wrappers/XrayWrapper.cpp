@@ -10478,7 +10478,6 @@ t
 already
 BaseProxyHandler
 .
-const
 js
 :
 :
@@ -12494,7 +12493,6 @@ obj
 )
 )
 {
-const
 DOMProxyHandler
 *
 handler
@@ -13434,7 +13432,6 @@ desc
 cx
 )
 ;
-const
 Wrapper
 *
 handler

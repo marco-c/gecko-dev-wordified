@@ -3177,7 +3177,6 @@ PROXY_MINIMUM_SLOTS
 4
 ;
 inline
-const
 BaseProxyHandler
 *
 GetProxyHandler
@@ -3197,7 +3196,6 @@ obj
 ;
 return
 (
-const
 BaseProxyHandler
 *
 )
@@ -3613,7 +3611,6 @@ AutoEnterPolicy
 JSContext
 *
 cx
-const
 BaseProxyHandler
 *
 handler
