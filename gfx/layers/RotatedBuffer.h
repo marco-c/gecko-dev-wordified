@@ -92,10 +92,10 @@ MPL
 /
 #
 ifndef
-THEBESLAYERBUFFER_H_
+ROTATEDBUFFER_H_
 #
 define
-THEBESLAYERBUFFER_H_
+ROTATEDBUFFER_H_
 #
 include
 <
@@ -693,7 +693,7 @@ pixels
 that
 this
 *
-ThebesLayerBuffer
+RotatedBuffer
 covers
 .
 That
@@ -1108,7 +1108,7 @@ GetVisibleRegion
 *
 /
 class
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 public
 RotatedBuffer
@@ -1184,7 +1184,7 @@ SizedToVisibleBounds
 ContainsVisibleBounds
 }
 ;
-ThebesLayerBuffer
+RotatedContentBuffer
 (
 BufferSizePolicy
 aBufferSizePolicy
@@ -1205,19 +1205,19 @@ aBufferSizePolicy
 {
 MOZ_COUNT_CTOR
 (
-ThebesLayerBuffer
+RotatedContentBuffer
 )
 ;
 }
 virtual
 ~
-ThebesLayerBuffer
+RotatedContentBuffer
 (
 )
 {
 MOZ_COUNT_DTOR
 (
-ThebesLayerBuffer
+RotatedContentBuffer
 )
 ;
 }
@@ -1300,7 +1300,7 @@ been
 invalidated
 *
 by
-ThebesLayerBuffer
+RotatedContentBuffer
 and
 must
 be
@@ -2028,7 +2028,7 @@ requests
 of
 this
 *
-ThebesLayerBuffer
+RotatedContentBuffer
 .
 It
 '
@@ -2369,7 +2369,7 @@ re
 used
 to
 map
-mBuffer
+mDTBuffer
 *
 when
 we
@@ -2415,6 +2415,6 @@ mBufferSizePolicy
 endif
 /
 *
-THEBESLAYERBUFFER_H_
+ROTATEDBUFFER_H_
 *
 /

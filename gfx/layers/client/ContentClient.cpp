@@ -597,7 +597,7 @@ ContentClient
 (
 aForwarder
 )
-ThebesLayerBuffer
+RotatedContentBuffer
 (
 ContainsVisibleBounds
 )
@@ -3223,7 +3223,7 @@ Paint
 )
 ;
 }
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PaintState
@@ -3235,7 +3235,7 @@ BeginPaintBuffer
 ThebesLayer
 *
 aLayer
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 ContentType
@@ -3288,7 +3288,7 @@ canHaveRotation
 (
 aFlags
 &
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PAINT_WILL_RESAMPLE
@@ -3397,7 +3397,7 @@ mHasBuffer
 (
 aFlags
 &
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PAINT_WILL_RESAMPLE
@@ -3580,7 +3580,7 @@ if
 (
 aFlags
 &
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PAINT_WILL_RESAMPLE
@@ -4391,7 +4391,7 @@ NS_ASSERTION
 (
 aFlags
 &
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PAINT_WILL_RESAMPLE
