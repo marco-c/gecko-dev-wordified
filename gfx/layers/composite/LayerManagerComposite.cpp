@@ -4168,6 +4168,10 @@ mDestroyed
 (
 false
 )
+mLayerComposited
+(
+false
+)
 {
 }
 LayerComposite
