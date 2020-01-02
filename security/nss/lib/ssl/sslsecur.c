@@ -1679,7 +1679,7 @@ SSL_LIBRARY_VERSION_3_0
 {
 PORT_SetError
 (
-SEC_ERROR_INVALID_ARGS
+SSL_ERROR_FEATURE_NOT_SUPPORTED_FOR_SSL2
 )
 ;
 rv
@@ -7744,11 +7744,6 @@ rv
 =
 0
 ;
-PRBool
-falseStart
-=
-PR_FALSE
-;
 SSL_TRC
 (
 2
@@ -7960,6 +7955,11 @@ ss
 firstHsDone
 )
 {
+PRBool
+falseStart
+=
+PR_FALSE
+;
 ssl_Get1stHandshakeLock
 (
 ss
