@@ -7362,7 +7362,7 @@ copy
 of
 the
 fake
-StackFrame
+InterpreterFrame
 and
 actual
 args

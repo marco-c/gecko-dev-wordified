@@ -1819,7 +1819,7 @@ GENERATE_SHAPE
 /
 *
 See
-StackFrame
+InterpreterFrame
 :
 :
 varObj

@@ -548,7 +548,7 @@ JSScript
 *
 JSFunction
 *
-StackFrame
+InterpreterFrame
 *
 )
 ;

@@ -127,7 +127,7 @@ namespace
 js
 {
 class
-StackFrame
+InterpreterFrame
 ;
 namespace
 jit

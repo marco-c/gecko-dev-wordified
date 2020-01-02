@@ -1910,7 +1910,7 @@ does
 not
 push
 any
-StackFrame
+InterpreterFrame
 which
 means
 *
@@ -3061,7 +3061,7 @@ isJit
 js
 :
 :
-StackFrame
+InterpreterFrame
 *
 interpreterFrame
 (

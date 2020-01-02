@@ -236,7 +236,7 @@ uint8_t
 *
 jitcode
 ;
-StackFrame
+InterpreterFrame
 *
 osrFrame
 ;
@@ -283,7 +283,7 @@ argc
 Value
 *
 argv
-StackFrame
+InterpreterFrame
 *
 fp
 CalleeToken

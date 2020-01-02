@@ -867,6 +867,8 @@ the
 /
 /
 interpreter
+/
+Baseline
 stack
 .
 /
@@ -22115,7 +22117,7 @@ Value
 on
 the
 OSR
-StackFrame
+BaselineFrame
 .
 /
 /
@@ -22253,7 +22255,7 @@ pointer
 on
 the
 OSR
-StackFrame
+BaselineFrame
 .
 /
 /
@@ -22353,7 +22355,7 @@ pointer
 on
 the
 OSR
-StackFrame
+BaselineFrame
 .
 /
 /
@@ -22452,7 +22454,7 @@ value
 on
 the
 OSR
-StackFrame
+BaselineFrame
 .
 /
 /
@@ -42232,7 +42234,7 @@ needed
 to
 reconstruct
 the
-interpreter
+Baseline
 /
 /
 state

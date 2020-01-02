@@ -1887,7 +1887,7 @@ JS_ASSERT_IF
 (
 frame
 .
-isStackFrame
+isInterpreterFrame
 (
 )
 cx
@@ -1900,7 +1900,7 @@ interpreterFrame
 =
 frame
 .
-asStackFrame
+asInterpreterFrame
 (
 )
 )
@@ -1909,7 +1909,7 @@ JS_ASSERT_IF
 (
 frame
 .
-isStackFrame
+isInterpreterFrame
 (
 )
 cx
@@ -7786,7 +7786,8 @@ executing
 there
 is
 a
-StackFrame
+JS
+frame
 live
 on
 the
@@ -13074,7 +13075,7 @@ isHeavyweight
 *
 *
 The
-StackFrame
+frame
 may
 be
 observed
@@ -13260,7 +13261,9 @@ p
 *
 When
 the
-StackFrame
+JS
+stack
+frame
 is
 popped
 the
@@ -13926,7 +13929,8 @@ return
 *
 *
 The
-StackFrame
+stack
+frame
 may
 be
 observed
@@ -14880,7 +14884,8 @@ variable
 values
 after
 the
-StackFrame
+stack
+frame
 has
 been
 popped

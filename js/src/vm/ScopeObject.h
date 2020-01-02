@@ -1748,7 +1748,8 @@ should
 instead
 access
 the
-StackFrame
+stack
+frame
 .
 Aliased
 variable
@@ -4406,7 +4407,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 *
 Constructing
 from
-StackFrame
+AbstractFramePtr
 places
 ScopeIter
 on
@@ -4434,7 +4435,8 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 *
 Without
 a
-StackFrame
+stack
+frame
 the
 resulting
 ScopeIter

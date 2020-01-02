@@ -1790,7 +1790,7 @@ CanEnterBaselineAtBranch
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 fp
 bool
@@ -1814,7 +1814,7 @@ EnterBaselineAtBranch
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 fp
 jsbytecode

@@ -205,13 +205,13 @@ JS_ASSERT_IF
 (
 frame
 .
-isStackFrame
+isInterpreterFrame
 (
 )
 !
 frame
 .
-asStackFrame
+asInterpreterFrame
 (
 )
 -
@@ -4031,7 +4031,8 @@ stored
 in
 a
 *
-StackFrame
+stack
+frame
 with
 their
 corresponding

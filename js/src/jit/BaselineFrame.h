@@ -205,7 +205,7 @@ Like
 js
 :
 :
-StackFrame
+InterpreterFrame
 every
 BaselineFrame
 is
@@ -281,7 +281,7 @@ value
 .
 See
 also
-StackFrame
+InterpreterFrame
 :
 :
 HAS_RVAL
@@ -329,7 +329,7 @@ HAS_ARGS_OBJ
 /
 /
 See
-StackFrame
+InterpreterFrame
 :
 :
 PREV_UP_TO_DATE
@@ -594,7 +594,7 @@ void
 bool
 initForOsr
 (
-StackFrame
+InterpreterFrame
 *
 fp
 uint32_t

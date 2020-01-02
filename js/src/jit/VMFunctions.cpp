@@ -5913,7 +5913,7 @@ InitBaselineFrameForOsr
 BaselineFrame
 *
 frame
-StackFrame
+InterpreterFrame
 *
 interpFrame
 uint32_t

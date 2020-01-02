@@ -983,7 +983,7 @@ BaselineFrame
 :
 initForOsr
 (
-StackFrame
+InterpreterFrame
 *
 fp
 uint32_t
@@ -1256,10 +1256,10 @@ Frame
 objects
 for
 the
-StackFrame
+/
+/
+InterpreterFrame
 to
-/
-/
 point
 to
 the

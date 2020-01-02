@@ -15004,7 +15004,7 @@ type
 (
 )
 &
-StackFrame
+InterpreterFrame
 :
 :
 GLOBAL

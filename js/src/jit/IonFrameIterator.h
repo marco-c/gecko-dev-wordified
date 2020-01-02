@@ -185,7 +185,7 @@ a
 js
 :
 :
-StackFrame
+InterpreterFrame
 representing
 one
 scripted
@@ -450,10 +450,7 @@ reads
 arguments
 from
 a
-js
-:
-:
-StackFrame
+BaselineFrame
 .
 IonFrame_Osr
 }

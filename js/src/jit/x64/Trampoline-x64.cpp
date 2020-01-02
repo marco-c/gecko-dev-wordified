@@ -1892,7 +1892,7 @@ OsrFrameReg
 ;
 /
 /
-StackFrame
+InterpreterFrame
 masm
 .
 passABIArg

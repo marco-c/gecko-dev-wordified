@@ -8956,7 +8956,7 @@ JSContext
 *
 cx
 ;
-StackFrame
+InterpreterFrame
 *
 fp
 ;
@@ -10913,7 +10913,7 @@ doesn
 '
 t
 use
-StackFrames
+InterpreterFrames
 and
 this
 ensures

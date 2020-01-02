@@ -1116,7 +1116,7 @@ ARG_CALLEETOKEN
 /
 Load
 the
-StackFrame
+InterpreterFrame
 address
 into
 the
@@ -1810,7 +1810,7 @@ OsrFrameReg
 ;
 /
 /
-StackFrame
+InterpreterFrame
 masm
 .
 passABIArg

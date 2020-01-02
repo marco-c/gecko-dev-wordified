@@ -855,7 +855,7 @@ objects
 for
 a
 particular
-StackFrame
+AbstractFramePtr
 .
 *
 *
@@ -11046,7 +11046,8 @@ because
 the
 *
 corresponding
-StackFrames
+JS
+frames
 are
 still
 on
@@ -15977,10 +15978,9 @@ referring
 to
 a
 particular
-js
-:
-:
-StackFrame
+JS
+stack
+frame
 .
 This
 is
@@ -24315,7 +24315,7 @@ handleBaselineOsr
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 from
 jit

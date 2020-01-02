@@ -658,7 +658,7 @@ argc
 Value
 *
 argv
-StackFrame
+InterpreterFrame
 *
 fp
 CalleeToken
@@ -2059,7 +2059,7 @@ OsrFrameReg
 ;
 /
 /
-StackFrame
+InterpreterFrame
 masm
 .
 passABIArg
