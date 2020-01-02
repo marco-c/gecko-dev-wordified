@@ -818,7 +818,7 @@ jsl
 jsl
 -
 >
-GetHandler
+GetTypedEventHandler
 (
 )
 .
@@ -836,11 +836,11 @@ JSObject
 *
 >
 handler
-(
+=
 jsl
 -
 >
-GetHandler
+GetTypedEventHandler
 (
 )
 .
@@ -851,7 +851,6 @@ Ptr
 >
 Callable
 (
-)
 )
 ;
 if
