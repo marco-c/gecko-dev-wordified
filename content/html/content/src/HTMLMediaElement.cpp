@@ -16450,6 +16450,13 @@ AddRemoveSelfReference
 (
 )
 ;
+mTextTracks
+-
+>
+DidSeek
+(
+)
+;
 }
 void
 HTMLMediaElement
@@ -21818,6 +21825,7 @@ mTextTracks
 >
 AddTextTrack
 (
+this
 aKind
 aLabel
 aLanguage

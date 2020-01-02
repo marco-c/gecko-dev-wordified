@@ -771,6 +771,7 @@ OwnerDoc
 GetParentObject
 (
 )
+mMediaParent
 )
 ;
 }
@@ -858,6 +859,7 @@ OwnerDoc
 GetParentObject
 (
 )
+mMediaParent
 kind
 label
 srcLang
