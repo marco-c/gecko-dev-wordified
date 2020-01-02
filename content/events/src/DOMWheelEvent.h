@@ -181,7 +181,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-WheelEvent
+WidgetWheelEvent
 *
 aWheelEvent
 )
@@ -278,7 +278,7 @@ DeltaX
 return
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -297,7 +297,7 @@ DeltaY
 return
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -316,7 +316,7 @@ DeltaZ
 return
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -335,7 +335,7 @@ DeltaMode
 return
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (

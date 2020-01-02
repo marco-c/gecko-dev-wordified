@@ -3035,7 +3035,7 @@ nsWinGesture
 :
 PanDeltaToPixelScroll
 (
-WheelEvent
+WidgetWheelEvent
 &
 aWheelEvent
 )
@@ -3099,7 +3099,7 @@ aWheelEvent
 .
 scrollType
 =
-WheelEvent
+WidgetWheelEvent
 :
 :
 SCROLL_SYNCHRONOUSLY

@@ -11367,7 +11367,7 @@ if
 we
 should
 rollup
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true

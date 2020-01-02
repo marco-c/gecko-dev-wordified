@@ -151,7 +151,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-WheelEvent
+WidgetWheelEvent
 *
 aWheelEvent
 )
@@ -165,7 +165,7 @@ aWheelEvent
 aWheelEvent
 :
 new
-WheelEvent
+WidgetWheelEvent
 (
 false
 0
@@ -216,7 +216,7 @@ y
 ;
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -263,14 +263,14 @@ The
 mEvent
 must
 be
-WheelEvent
+WidgetWheelEvent
 "
 )
 ;
 delete
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -379,13 +379,13 @@ rv
 rv
 )
 ;
-WheelEvent
+WidgetWheelEvent
 *
 wheelEvent
 =
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -803,7 +803,7 @@ mDeltaMode
 ;
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -869,7 +869,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )

@@ -3267,7 +3267,7 @@ DispatchLegacyMouseScrollEvents
 frame
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (

@@ -4015,7 +4015,7 @@ kungFuDethGrip
 aWidget
 )
 ;
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true
@@ -4193,7 +4193,7 @@ GetModifierKeyState
 aMessage
 )
 ;
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true
@@ -5350,7 +5350,7 @@ InitWheelEvent
 nsWindowBase
 *
 aWidget
-WheelEvent
+WidgetWheelEvent
 &
 aWheelEvent
 const

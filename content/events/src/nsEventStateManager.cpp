@@ -1693,7 +1693,7 @@ aDeltaY
 explicit
 DeltaValues
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -1878,7 +1878,7 @@ aESM
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -2003,7 +2003,7 @@ aESM
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -2257,7 +2257,7 @@ BeginTransaction
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -2290,7 +2290,7 @@ static
 bool
 UpdateTransaction
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -2340,7 +2340,7 @@ static
 DeltaValues
 AccelerateWheelDelta
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 bool
@@ -2411,7 +2411,7 @@ static
 DeltaValues
 OverrideSystemScrollSpeed
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -2754,7 +2754,7 @@ BeginTransaction
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -2845,7 +2845,7 @@ nsMouseWheelTransaction
 :
 UpdateTransaction
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -3914,7 +3914,7 @@ nsMouseWheelTransaction
 :
 AccelerateWheelDelta
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 bool
@@ -4146,7 +4146,7 @@ nsMouseWheelTransaction
 :
 OverrideSystemScrollSpeed
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -4559,7 +4559,7 @@ aESM
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -4849,7 +4849,7 @@ aESM
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -7081,13 +7081,13 @@ NS_WHEEL_WHEEL
 break
 ;
 }
-WheelEvent
+WidgetWheelEvent
 *
 wheelEvent
 =
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -9470,13 +9470,13 @@ case
 NS_WHEEL_EVENT
 :
 {
-WheelEvent
+WidgetWheelEvent
 *
 wheelEvent
 =
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -15458,7 +15458,7 @@ DispatchLegacyMouseScrollEvents
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 nsEventStatus
@@ -16176,7 +16176,7 @@ SendLineScrollEvent
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 nsEventStatus
@@ -16376,7 +16376,7 @@ SendPixelScrollEvent
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 nsEventStatus
@@ -16579,7 +16579,7 @@ ComputeScrollTarget
 nsIFrame
 *
 aTargetFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 ComputeScrollTargetOptions
@@ -16653,7 +16653,7 @@ double
 aDirectionX
 double
 aDirectionY
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 ComputeScrollTargetOptions
@@ -17226,7 +17226,7 @@ GetScrollAmount
 nsPresContext
 *
 aPresContext
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 nsIScrollableFrame
@@ -17426,7 +17426,7 @@ DoScrollText
 nsIScrollableFrame
 *
 aScrollableFrame
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -17995,7 +17995,7 @@ scrollType
 )
 {
 case
-WheelEvent
+WidgetWheelEvent
 :
 :
 SCROLL_DEFAULT
@@ -18026,7 +18026,7 @@ SMOOTH
 break
 ;
 case
-WheelEvent
+WidgetWheelEvent
 :
 :
 SCROLL_SYNCHRONOUSLY
@@ -18041,7 +18041,7 @@ INSTANT
 break
 ;
 case
-WheelEvent
+WidgetWheelEvent
 :
 :
 SCROLL_ASYNCHRONOUSELY
@@ -18056,7 +18056,7 @@ NORMAL
 break
 ;
 case
-WheelEvent
+WidgetWheelEvent
 :
 :
 SCROLL_SMOOTHLY
@@ -20916,13 +20916,13 @@ Inactivate
 break
 ;
 }
-WheelEvent
+WidgetWheelEvent
 *
 wheelEvent
 =
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (
@@ -32415,7 +32415,7 @@ aTargetFrame
 nsEventStateManager
 *
 aESM
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -33171,7 +33171,7 @@ DeltaAccumulator
 :
 ComputeScrollAmountForDefaultAction
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 const
@@ -33693,7 +33693,7 @@ WheelPrefs
 :
 GetIndexFor
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -34313,7 +34313,7 @@ WheelPrefs
 :
 ApplyUserPrefsToDelta
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -34532,7 +34532,7 @@ WheelPrefs
 :
 CancelApplyingUserPrefsFromOverflowDelta
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -34672,7 +34672,7 @@ WheelPrefs
 :
 ComputeActionFor
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -34837,7 +34837,7 @@ WheelPrefs
 :
 NeedToComputeLineOrPageDelta
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -34915,7 +34915,7 @@ WheelPrefs
 :
 IsOverOnePageScrollAllowedX
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -34955,7 +34955,7 @@ WheelPrefs
 :
 IsOverOnePageScrollAllowedY
 (
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )

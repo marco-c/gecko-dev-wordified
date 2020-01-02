@@ -41177,7 +41177,7 @@ ignore
 nsEventStatus
 status
 ;
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true

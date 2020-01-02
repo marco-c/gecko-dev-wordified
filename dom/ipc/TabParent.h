@@ -1276,7 +1276,7 @@ SendMouseWheelEvent
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 &
 event
 )

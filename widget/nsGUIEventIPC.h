@@ -821,14 +821,14 @@ ParamTraits
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 >
 {
 typedef
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 paramType
 ;
 static
@@ -1155,7 +1155,7 @@ static_cast
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 :
 :
 ScrollType

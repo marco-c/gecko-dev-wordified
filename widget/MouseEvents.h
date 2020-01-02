@@ -3025,17 +3025,6 @@ mViewPortIsOverscrolled
 }
 }
 ;
-/
-/
-TODO
-:
-Remove
-following
-typedef
-typedef
-WidgetWheelEvent
-WheelEvent
-;
 }
 /
 /

@@ -9974,12 +9974,12 @@ TabChild
 RecvMouseWheelEvent
 (
 const
-WheelEvent
+WidgetWheelEvent
 &
 event
 )
 {
-WheelEvent
+WidgetWheelEvent
 localEvent
 (
 event
