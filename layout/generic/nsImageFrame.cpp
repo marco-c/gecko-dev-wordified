@@ -8130,10 +8130,7 @@ LayerManager
 *
 aManager
 const
-FrameLayerBuilder
-:
-:
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -8440,7 +8437,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
