@@ -1754,7 +1754,7 @@ protected
 /
 Typedefs
 typedef
-nsTArray
+FallibleTArray
 <
 nsSMILValue
 >
@@ -2582,13 +2582,13 @@ sAccumulateTable
 [
 ]
 ;
-nsTArray
+FallibleTArray
 <
 double
 >
 mKeyTimes
 ;
-nsTArray
+FallibleTArray
 <
 nsSMILKeySpline
 >

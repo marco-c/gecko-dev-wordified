@@ -1238,7 +1238,7 @@ false
 bool
 GetDistancesFromOriginToEndsOfVisibleSegments
 (
-nsTArray
+FallibleTArray
 <
 double
 >

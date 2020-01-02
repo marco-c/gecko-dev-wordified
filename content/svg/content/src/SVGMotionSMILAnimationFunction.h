@@ -610,16 +610,13 @@ Path
 aPath
 bool
 aIsKeyPoints
-nsTArray
+FallibleTArray
 <
 double
 >
 &
 aPointDistances
-nsTArray
-<
-nsSMILValue
->
+nsSMILValueArray
 &
 aResult
 )
@@ -636,7 +633,7 @@ Members
 -
 -
 -
-nsTArray
+FallibleTArray
 <
 double
 >
@@ -697,7 +694,7 @@ of
 motion
 path
 .
-nsTArray
+FallibleTArray
 <
 double
 >

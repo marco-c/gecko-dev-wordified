@@ -971,7 +971,7 @@ SVGPathData
 :
 GetDistancesFromOriginToEndsOfVisibleSegments
 (
-nsTArray
+FallibleTArray
 <
 double
 >

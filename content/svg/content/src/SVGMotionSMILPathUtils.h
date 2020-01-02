@@ -557,6 +557,7 @@ corresponding
 Path
 .
 class
+MOZ_STACK_CLASS
 MotionValueParser
 :
 public
@@ -572,7 +573,7 @@ MotionValueParser
 PathGenerator
 *
 aPathGenerator
-nsTArray
+FallibleTArray
 <
 double
 >
@@ -623,7 +624,7 @@ nsSMILParserUtils
 GenericValueParser
 interface
 virtual
-nsresult
+bool
 Parse
 (
 const
@@ -639,7 +640,7 @@ PathGenerator
 *
 mPathGenerator
 ;
-nsTArray
+FallibleTArray
 <
 double
 >
