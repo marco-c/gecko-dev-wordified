@@ -66,15 +66,6 @@ interfaces
 nsIX509Cert
 ;
 const
-nsIX509Cert3
-=
-Components
-.
-interfaces
-.
-nsIX509Cert3
-;
-const
 nsX509CertDB
 =
 "
@@ -732,13 +723,6 @@ BuildPrettyPrint
 cert
 )
 ;
-if
-(
-cert
-instanceof
-nsIX509Cert3
-)
-{
 cert
 .
 requestUsagesArrayAsync
@@ -749,7 +733,6 @@ listener
 )
 )
 ;
-}
 }
 function
 addChildrenToTree

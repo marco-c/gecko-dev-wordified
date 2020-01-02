@@ -292,17 +292,6 @@ length
 {
 }
 ;
-cert
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIX509Cert3
-)
-;
 var
 pkcs7Array
 =
@@ -891,7 +880,7 @@ Components
 .
 interfaces
 .
-nsIX509Cert3
+nsIX509Cert
 .
 CMS_CHAIN_MODE_CertOnly
 )
@@ -910,7 +899,7 @@ Components
 .
 interfaces
 .
-nsIX509Cert3
+nsIX509Cert
 .
 CMS_CHAIN_MODE_CertChainWithRoot
 )

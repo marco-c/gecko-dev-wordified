@@ -112,7 +112,7 @@ nsICertVerificationListener
 >
 &
 aListener
-nsIX509Cert3
+nsIX509Cert
 *
 aCert
 nsICertVerificationResult
@@ -162,7 +162,7 @@ mListener
 ;
 nsCOMPtr
 <
-nsIX509Cert3
+nsIX509Cert
 >
 mCert
 ;
@@ -297,17 +297,6 @@ vres
 }
 nsCOMPtr
 <
-nsIX509Cert3
->
-c3
-=
-do_QueryInterface
-(
-mCert
-)
-;
-nsCOMPtr
-<
 nsIRunnable
 >
 r
@@ -316,7 +305,7 @@ new
 DispatchCertVerificationResult
 (
 mListener
-c3
+mCert
 ires
 )
 ;

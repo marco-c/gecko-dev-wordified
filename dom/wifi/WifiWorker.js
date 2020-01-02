@@ -21665,7 +21665,7 @@ return
 ;
 }
 let
-certDB2
+certDB
 =
 Cc
 [
@@ -21686,13 +21686,13 @@ getService
 (
 Ci
 .
-nsIX509CertDB2
+nsIX509CertDB
 )
 ;
 if
 (
 !
-certDB2
+certDB
 )
 {
 self
@@ -21716,7 +21716,7 @@ msg
 let
 certList
 =
-certDB2
+certDB
 .
 getCerts
 (
@@ -21821,7 +21821,7 @@ QueryInterface
 (
 Ci
 .
-nsIX509Cert3
+nsIX509Cert
 )
 ;
 let

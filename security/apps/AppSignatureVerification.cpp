@@ -3627,7 +3627,7 @@ out
 optional
 *
 /
-nsIX509Cert3
+nsIX509Cert
 *
 *
 aSignerCert
@@ -4515,7 +4515,7 @@ builtChain
 ;
 nsCOMPtr
 <
-nsIX509Cert3
+nsIX509Cert
 >
 signerCert
 =
@@ -4692,7 +4692,7 @@ mZipReader
 out
 nsCOMPtr
 <
-nsIX509Cert3
+nsIX509Cert
 >
 mSignerCert
 ;
