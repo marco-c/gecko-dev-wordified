@@ -751,6 +751,9 @@ counter
 uint32_t
 mStackSize
 ;
+uint32_t
+mProcessingEvent
+;
 struct
 nsThreadShutdownContext
 *
