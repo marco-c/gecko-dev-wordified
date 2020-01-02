@@ -219,6 +219,12 @@ configobj
 '
 python
 /
+jsmin
+'
+    
+'
+python
+/
 psutil
 '
     
