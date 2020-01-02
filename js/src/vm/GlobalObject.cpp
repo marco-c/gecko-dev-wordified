@@ -3464,7 +3464,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_WARNING
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_OBJECT_WATCH_DEPRECATED
 )
 )

@@ -901,7 +901,7 @@ RunGTest
 is
 initialized
 to
-NULL
+nullptr
 but
 if
 GTest

@@ -3987,7 +3987,7 @@ void
 *
 traceThing
 =
-NULL
+nullptr
 ;
 if
 (

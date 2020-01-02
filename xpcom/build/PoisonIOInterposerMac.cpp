@@ -952,8 +952,8 @@ For
 writev
 we
 pass
-NULL
-in
+a
+nullptr
 wbuf
 .
 We

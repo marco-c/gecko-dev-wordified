@@ -158,7 +158,7 @@ occurred
 which
 may
 be
-NULL
+nullptr
 .
 *
 *

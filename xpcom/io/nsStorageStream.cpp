@@ -1981,7 +1981,7 @@ to
 read
 byte
 or
-NULL
+0
 uint32_t
 mSegmentEnd
 ;

@@ -209,7 +209,7 @@ CFRangeMake
 aLength
 )
 kCFStringTokenizerUnitLineBreak
-NULL
+nullptr
 )
 ;
 if

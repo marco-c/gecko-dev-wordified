@@ -628,9 +628,9 @@ true
 }
 /
 /
-empty
+Empty
 /
-NULL
+nullptr
 fontName
 means
 ignore

@@ -601,7 +601,7 @@ char
 *
 til_or_since
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -856,7 +856,7 @@ GdkPixbuf
 *
 screenshot
 =
-NULL
+nullptr
 ;
 /
 /
@@ -874,9 +874,9 @@ screenshot
 =
 gdk_pixbuf_get_from_drawable
 (
-NULL
+nullptr
 window
-NULL
+nullptr
 0
 0
 0
@@ -926,7 +926,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 if
 (
@@ -947,7 +947,7 @@ png
 "
 &
 error
-NULL
+nullptr
 )
 ;
 }
@@ -957,13 +957,13 @@ gdk_pixbuf_save_to_callback
 (
 screenshot
 save_to_stdout
-NULL
+nullptr
 "
 png
 "
 &
 error
-NULL
+nullptr
 )
 ;
 }

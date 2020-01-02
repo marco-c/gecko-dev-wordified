@@ -4019,7 +4019,7 @@ SCTP_DUMP_INBOUND
 )
 !
 =
-NULL
+nullptr
 )
 {
 PR_LogPrint
@@ -4204,7 +4204,7 @@ SCTP_DUMP_OUTBOUND
 )
 !
 =
-NULL
+nullptr
 )
 {
 PR_LogPrint
