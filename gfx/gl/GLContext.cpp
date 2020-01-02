@@ -1417,10 +1417,6 @@ mIsOffscreen
 (
 isOffscreen
 )
-mIsGlobalSharedContext
-(
-false
-)
 mContextLost
 (
 false

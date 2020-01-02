@@ -3789,17 +3789,6 @@ return
 nullptr
 ;
 }
-gGlobalContext
-[
-libToUse
-]
--
->
-SetIsGlobalSharedContext
-(
-true
-)
-;
 }
 return
 static_cast
