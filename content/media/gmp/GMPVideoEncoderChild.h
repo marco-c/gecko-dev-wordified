@@ -157,7 +157,7 @@ GMPVideoEncoderChild
 public
 PGMPVideoEncoderChild
 public
-GMPEncoderCallback
+GMPVideoEncoderCallback
 public
 GMPSharedMemManager
 {
@@ -192,7 +192,7 @@ Host
 ;
 /
 /
-GMPEncoderCallback
+GMPVideoEncoderCallback
 virtual
 void
 Encoded
@@ -314,6 +314,13 @@ GMPVideoCodec
 &
 aCodecSettings
 const
+nsTArray
+<
+uint8_t
+>
+&
+aCodecSpecific
+const
 int32_t
 &
 aNumberOfCores
@@ -337,9 +344,9 @@ GMPCodecSpecificInfo
 &
 aCodecSpecificInfo
 const
-InfallibleTArray
+nsTArray
 <
-int
+GMPVideoFrameType
 >
 &
 aFrameTypes

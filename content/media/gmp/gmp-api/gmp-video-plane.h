@@ -329,8 +329,6 @@ include
 "
 gmp
 -
-video
--
 errors
 .
 h
@@ -507,7 +505,7 @@ be
 allocated
 .
 virtual
-GMPVideoErr
+GMPErr
 CreateEmptyPlane
 (
 int32_t
@@ -534,7 +532,7 @@ plane
 data
 .
 virtual
-GMPVideoErr
+GMPErr
 Copy
 (
 const
@@ -576,7 +574,7 @@ be
 allocated
 .
 virtual
-GMPVideoErr
+GMPErr
 Copy
 (
 int32_t
