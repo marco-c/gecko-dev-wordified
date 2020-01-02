@@ -19278,7 +19278,7 @@ excludedRegion
 =
 builder
 .
-GetWindowOpaqueRegion
+GetExcludedGlassRegion
 (
 )
 ;
