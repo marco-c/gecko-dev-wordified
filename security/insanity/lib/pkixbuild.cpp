@@ -442,6 +442,16 @@ break
 bug
 965136
 case
+15
+:
+out
+=
+&
+encodedKeyUsage
+;
+break
+;
+case
 19
 :
 out
@@ -799,6 +809,8 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
+KeyUsages
+requiredKeyUsagesIfPresent
 unsigned
 int
 subCACount
@@ -1115,6 +1127,7 @@ trustDomain
 potentialIssuer
 time
 MustBeCA
+KU_KEY_CERT_SIGN
 newSubCACount
 results
 )
@@ -1193,6 +1206,8 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
+KeyUsages
+requiredKeyUsagesIfPresent
 unsigned
 int
 subCACount
@@ -1369,6 +1384,7 @@ TrustDomain
 :
 :
 TrustAnchor
+requiredKeyUsagesIfPresent
 subCACount
 )
 ;
@@ -1640,6 +1656,13 @@ PRTime
 time
 /
 *
+optional
+*
+/
+KeyUsages
+requiredKeyUsagesIfPresent
+/
+*
 out
 *
 /
@@ -1726,6 +1749,7 @@ trustDomain
 ee
 time
 MustBeEndEntity
+requiredKeyUsagesIfPresent
 0
 results
 )
