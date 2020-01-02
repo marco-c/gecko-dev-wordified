@@ -1715,6 +1715,15 @@ PuppetScreen
 )
 ;
 NS_IMETHOD
+GetId
+(
+uint32_t
+*
+aId
+)
+MOZ_OVERRIDE
+;
+NS_IMETHOD
 GetRect
 (
 int32_t
