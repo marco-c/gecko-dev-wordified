@@ -5957,13 +5957,12 @@ bool
 CycleCollectedJSRuntime
 :
 :
-NeedCollect
+AreGCGrayBitsValid
 (
 )
 const
 {
 return
-!
 js
 :
 :
@@ -5977,7 +5976,7 @@ void
 CycleCollectedJSRuntime
 :
 :
-Collect
+GarbageCollect
 (
 uint32_t
 aReason

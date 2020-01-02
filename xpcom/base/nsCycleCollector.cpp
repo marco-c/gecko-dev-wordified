@@ -19041,10 +19041,11 @@ FixWeakMappingGrayBits
 bool
 needGC
 =
+!
 mJSRuntime
 -
 >
-NeedCollect
+AreGCGrayBitsValid
 (
 )
 ;
@@ -19087,7 +19088,7 @@ timeLog
 mJSRuntime
 -
 >
-Collect
+GarbageCollect
 (
 aForceGC
 ?

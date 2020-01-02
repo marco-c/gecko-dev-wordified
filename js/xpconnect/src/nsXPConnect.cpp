@@ -1729,7 +1729,7 @@ GetRuntime
 )
 -
 >
-Collect
+GarbageCollect
 (
 reason
 )
