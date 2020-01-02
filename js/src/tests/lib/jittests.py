@@ -648,11 +648,17 @@ js
 /
 src
 /
+jit
+-
+test
+/
+tests
+/
 .
         
 self
 .
-relpath_js
+relpath_tests
 =
 os
 .
@@ -661,7 +667,7 @@ path
 relpath
 (
 path
-JS_DIR
+TEST_DIR
 )
         
 self
@@ -4578,7 +4584,7 @@ res
 .
 test
 .
-relpath_js
+relpath_tests
             
 if
 not
@@ -4613,7 +4619,7 @@ res
 .
 test
 .
-relpath_js
+relpath_tests
 )
                     
 timeouts
@@ -4639,7 +4645,7 @@ res
 .
 test
 .
-relpath_js
+relpath_tests
 )
             
 if
