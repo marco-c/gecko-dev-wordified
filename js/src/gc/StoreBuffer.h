@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -196,6 +205,7 @@ h
 namespace
 js
 {
+MOZ_NORETURN
 void
 CrashAtUnhandlableOOM
 (

@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -962,6 +971,7 @@ chunk
 /
 namespace
 detail
+MOZ_NORETURN
 void
 CrashAtUnhandlableOOM
 (
