@@ -401,6 +401,12 @@ open
 ;
 SimpleTest
 .
+requestCompleteLog
+(
+)
+;
+SimpleTest
+.
 executeSoon
 (
 (
