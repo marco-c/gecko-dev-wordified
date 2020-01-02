@@ -522,6 +522,9 @@ FileAvoidWrite
 self
 .
 name
+capture_diff
+=
+True
 )
         
 self
@@ -758,6 +761,22 @@ fh
 close
 (
 )
+    
+property
+    
+def
+diff
+(
+self
+)
+:
+        
+return
+self
+.
+fh
+.
+diff
 class
 RecursiveMakeTraversal
 (
