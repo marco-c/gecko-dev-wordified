@@ -1489,6 +1489,18 @@ chrome
 True
 )
             
+WEBRTC_SIGNALLING_TEST
+=
+(
+'
+steeplechase
+'
+'
+steeplechase
+'
+True
+)
+            
 XPCSHELL_TESTS
 =
 (
