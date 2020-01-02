@@ -2104,7 +2104,7 @@ focus
 processing
 .
 const
-PRUnichar
+wchar_t
 *
 kOOPPPluginFocusEventId
 =
@@ -14471,7 +14471,7 @@ set
 .
 static
 const
-PRUnichar
+wchar_t
 kManageWindowInfoProperty
 [
 ]
@@ -29054,7 +29054,7 @@ ISMEX_SEND
 ISMEX_SEND
 )
 {
-PRUnichar
+wchar_t
 szClass
 [
 10

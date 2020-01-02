@@ -7792,7 +7792,7 @@ GetDriverMajorVersion
 (
 )
 {
-PRUnichar
+wchar_t
 buf
 [
 40
@@ -7909,7 +7909,7 @@ string
 .
 for
 (
-PRUnichar
+wchar_t
 *
 p
 =
@@ -8034,7 +8034,7 @@ ETDCtrl
 exe
 .
 const
-PRUnichar
+wchar_t
 *
 filenameSuffix
 =
@@ -8092,7 +8092,7 @@ result
 =
 false
 ;
-PRUnichar
+wchar_t
 path
 [
 256
@@ -9843,7 +9843,7 @@ return
 false
 ;
 }
-PRUnichar
+wchar_t
 buf
 [
 40
@@ -9936,7 +9936,7 @@ minorVersion
 =
 0
 ;
-PRUnichar
+wchar_t
 *
 p
 =

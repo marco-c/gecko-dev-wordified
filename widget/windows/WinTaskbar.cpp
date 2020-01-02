@@ -301,7 +301,7 @@ shellapi
 h
 >
 const
-PRUnichar
+wchar_t
 kShellLibraryName
 [
 ]
@@ -1665,7 +1665,7 @@ MAX_PATH
 )
 )
 {
-PRUnichar
+wchar_t
 *
 slash
 =
@@ -1719,7 +1719,7 @@ respectable
 string
 buffer
 .
-PRUnichar
+wchar_t
 buf
 [
 256

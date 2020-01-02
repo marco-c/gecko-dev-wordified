@@ -541,7 +541,7 @@ void
 GetQualifiedPath
 (
 const
-PRUnichar
+wchar_t
 *
 aInPath
 nsString

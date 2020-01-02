@@ -161,7 +161,7 @@ TaskbarTabPreview
 nsITaskbarTabPreview
 )
 const
-PRUnichar
+wchar_t
 *
 const
 kWindowClass

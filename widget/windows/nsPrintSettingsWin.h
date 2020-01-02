@@ -379,11 +379,11 @@ DEVMODEW
 aOutDevMode
 )
 ;
-PRUnichar
+wchar_t
 *
 mDeviceName
 ;
-PRUnichar
+wchar_t
 *
 mDriverName
 ;

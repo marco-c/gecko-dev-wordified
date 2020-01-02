@@ -1704,7 +1704,7 @@ str
 nsAutoCString
 result
 ;
-PRUnichar
+wchar_t
 buf
 [
 256
