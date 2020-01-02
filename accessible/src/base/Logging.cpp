@@ -3674,6 +3674,8 @@ aSelection
 DocAccessible
 *
 aDocument
+int16_t
+aReason
 )
 {
 nsCOMPtr
@@ -3778,6 +3780,10 @@ s
 notification
 %
 s
+reason
+:
+%
+d
 \
 n
 "
@@ -3793,6 +3799,11 @@ ignored
 pending
 "
 )
+aReason
+)
+;
+Stack
+(
 )
 ;
 }

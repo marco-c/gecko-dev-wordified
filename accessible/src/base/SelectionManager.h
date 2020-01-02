@@ -270,6 +270,9 @@ events
 .
 *
 /
+struct
+SelData
+;
 class
 SelectionManager
 :
@@ -476,9 +479,9 @@ events
 void
 ProcessSelectionChanged
 (
-nsISelection
+SelData
 *
-aSelection
+aSelData
 )
 ;
 private
