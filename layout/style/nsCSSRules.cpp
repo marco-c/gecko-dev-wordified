@@ -4003,6 +4003,8 @@ aCopy
 mMedia
 )
 {
+mMedia
+=
 aCopy
 .
 mMedia
@@ -4010,17 +4012,8 @@ mMedia
 >
 Clone
 (
-getter_AddRefs
-(
-mMedia
-)
 )
 ;
-if
-(
-mMedia
-)
-{
 /
 /
 XXXldb
@@ -4044,7 +4037,6 @@ GetStyleSheet
 )
 )
 ;
-}
 }
 }
 MediaRule
