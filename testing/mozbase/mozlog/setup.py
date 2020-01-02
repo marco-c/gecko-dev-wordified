@@ -68,7 +68,7 @@ PACKAGE_VERSION
 '
 1
 .
-8
+9
 '
 setup
 (
@@ -274,6 +274,38 @@ Modules
 '
                   
 ]
+      
+package_data
+=
+{
+"
+mozlog
+.
+structured
+"
+:
+[
+"
+formatters
+/
+html
+/
+main
+.
+js
+"
+                                          
+"
+formatters
+/
+html
+/
+style
+.
+css
+"
+]
+}
       
 entry_points
 =
