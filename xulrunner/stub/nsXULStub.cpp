@@ -73,13 +73,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsXPCOMPrivate
 .
 h
