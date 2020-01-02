@@ -5446,14 +5446,6 @@ info
 .
 trailer
 .
-location
-=
-ChunkLocationTenuredHeap
-;
-info
-.
-trailer
-.
 runtime
 =
 rt
