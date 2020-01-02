@@ -22230,10 +22230,6 @@ mLength
 mDataPtr
 )
 ;
-mDataPtr
-=
-nullptr
-;
 mLength
 =
 mCapacity
@@ -22251,10 +22247,11 @@ js_free
 mDataPtr
 )
 ;
-return
+}
+mDataPtr
+=
 nullptr
 ;
-}
 return
 obj
 ;
