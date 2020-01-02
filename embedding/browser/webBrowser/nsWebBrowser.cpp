@@ -2429,7 +2429,7 @@ GetWebBrowserChrome
 (
 )
 .
-get
+take
 (
 )
 ;

@@ -470,6 +470,11 @@ MOZ_CRASH
 )
 ;
 }
+/
+/
+Balanced
+in
+DeallocPFMRadioRequestParent
 return
 requestParent
 .
@@ -477,7 +482,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 ;

@@ -1759,7 +1759,7 @@ GetStringBuffer
 aValue
 )
 .
-get
+take
 (
 )
 ;
@@ -5910,7 +5910,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 eAtomBase
@@ -7276,7 +7276,7 @@ GetStringBuffer
 aString
 )
 .
-get
+take
 (
 )
 ;
@@ -8497,7 +8497,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 )
@@ -8518,7 +8518,7 @@ GetStringBuffer
 aValue
 )
 .
-get
+take
 (
 )
 ;

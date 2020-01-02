@@ -332,7 +332,7 @@ BoundingClientRect
 (
 )
 .
-get
+take
 (
 )
 ;
@@ -413,7 +413,7 @@ ClientRects
 (
 )
 .
-get
+take
 (
 )
 ;

@@ -774,7 +774,7 @@ valStr
 )
 )
 .
-get
+take
 (
 )
 ;

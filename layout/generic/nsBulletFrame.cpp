@@ -9926,13 +9926,10 @@ GetDocumentLoadGroup
 (
 )
 .
-get
+take
 (
 )
 ;
-/
-/
-already_AddRefed
 }
 union
 VoidPtrOrFloat

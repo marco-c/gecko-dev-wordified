@@ -2706,7 +2706,7 @@ GetElementsByTagName
 aLocalName
 )
 .
-get
+take
 (
 )
 ;
@@ -5873,7 +5873,7 @@ this
 aClassNames
 )
 .
-get
+take
 (
 )
 ;

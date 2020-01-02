@@ -5017,7 +5017,7 @@ GetCertAtIndex
 aIndex
 )
 .
-get
+take
 (
 )
 ;

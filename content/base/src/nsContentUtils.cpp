@@ -14066,7 +14066,7 @@ end
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -14086,7 +14086,7 @@ NS_NewAtom
 aQName
 )
 .
-get
+take
 (
 )
 ;
@@ -14498,7 +14498,7 @@ pos
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -14549,7 +14549,7 @@ nameEnd
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -16091,7 +16091,7 @@ GetExtraName
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -21171,7 +21171,7 @@ aPreventScriptExecution
 rv
 )
 .
-get
+take
 (
 )
 ;

@@ -1001,7 +1001,7 @@ here
 }
 T
 *
-get
+take
 (
 )
 const

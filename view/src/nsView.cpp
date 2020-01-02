@@ -3571,7 +3571,7 @@ aWidgetInitData
 true
 )
 .
-get
+take
 (
 )
 ;
@@ -3694,7 +3694,7 @@ dx
 aWidgetInitData
 )
 .
-get
+take
 (
 )
 ;
@@ -3895,7 +3895,7 @@ aWidgetInitData
 true
 )
 .
-get
+take
 (
 )
 ;
@@ -3964,7 +3964,7 @@ dx
 aWidgetInitData
 )
 .
-get
+take
 (
 )
 ;

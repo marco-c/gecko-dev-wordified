@@ -8934,13 +8934,10 @@ GetDocumentLoadGroup
 (
 )
 .
-get
+take
 (
 )
 ;
-/
-/
-already_AddRefed
 }
 return
 NS_OK

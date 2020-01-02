@@ -5205,7 +5205,7 @@ Alloc
 bufferSize
 )
 .
-get
+take
 (
 )
 ;

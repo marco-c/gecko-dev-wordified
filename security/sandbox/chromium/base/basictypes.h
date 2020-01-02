@@ -3220,7 +3220,7 @@ my_var
 /
 if
 (
-TakeOwnership
+take
 (
 my_var
 .

@@ -466,7 +466,7 @@ char
 *
 codepage
 UBool
-takeOwnership
+take
 )
 {
 UErrorCode
@@ -794,7 +794,7 @@ result
 >
 fOwnFile
 =
-takeOwnership
+take
 ;
 }
 else

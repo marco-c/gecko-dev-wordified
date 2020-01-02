@@ -1299,7 +1299,7 @@ attribute
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -1357,7 +1357,7 @@ attribute
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -1956,7 +1956,7 @@ aName
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -2633,7 +2633,7 @@ aLocalName
 rv
 )
 .
-get
+take
 (
 )
 ;

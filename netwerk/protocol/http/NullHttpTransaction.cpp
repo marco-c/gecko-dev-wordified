@@ -287,10 +287,12 @@ mCallbacks
 outCB
 =
 copyCB
-;
-copyCB
 .
 forget
+(
+)
+.
+take
 (
 )
 ;

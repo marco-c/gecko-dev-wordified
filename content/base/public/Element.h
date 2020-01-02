@@ -8375,7 +8375,7 @@ attr
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -8465,7 +8465,7 @@ attr
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -8587,7 +8587,7 @@ attr
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -9022,7 +9022,7 @@ GetClientRects
 (
 )
 .
-get
+take
 (
 )
 ;
@@ -9055,7 +9055,7 @@ GetBoundingClientRect
 (
 )
 .
-get
+take
 (
 )
 ;

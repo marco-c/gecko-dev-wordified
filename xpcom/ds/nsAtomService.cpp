@@ -144,7 +144,7 @@ NS_NewAtom
 aString
 )
 .
-get
+take
 (
 )
 ;
@@ -222,7 +222,7 @@ NS_NewAtom
 aValue
 )
 .
-get
+take
 (
 )
 ;

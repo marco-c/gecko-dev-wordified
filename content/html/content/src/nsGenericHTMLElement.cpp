@@ -1956,7 +1956,7 @@ Dataset
 (
 )
 .
-get
+take
 (
 )
 ;
@@ -4616,7 +4616,7 @@ GetHrefURIForAnchors
 (
 )
 .
-get
+take
 (
 )
 ;

@@ -22494,7 +22494,7 @@ GetContentInternal
 rv
 )
 .
-get
+take
 (
 )
 ;

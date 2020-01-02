@@ -2533,7 +2533,7 @@ aRequestType
 result
 )
 .
-get
+take
 (
 )
 ;
@@ -3015,7 +3015,7 @@ GetCurrentURI
 result
 )
 .
-get
+take
 (
 )
 ;
@@ -3340,7 +3340,7 @@ aChannel
 result
 )
 .
-get
+take
 (
 )
 ;

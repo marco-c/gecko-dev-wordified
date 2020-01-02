@@ -578,7 +578,7 @@ pos
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -640,7 +640,7 @@ nameEnd
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -744,7 +744,7 @@ colon
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -762,7 +762,7 @@ end
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -782,7 +782,7 @@ NS_NewAtom
 aName
 )
 .
-get
+take
 (
 )
 ;

@@ -11884,7 +11884,7 @@ will
 be
 decreased
 at
-shutting
+shut
 down
 .
 sIdleService
@@ -11895,7 +11895,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 ;

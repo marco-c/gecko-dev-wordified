@@ -1938,7 +1938,7 @@ MOZ_ALWAYS_INLINE
 static
 JSAtom
 *
-AtomizeAndTakeOwnership
+AtomizeAndtake
 (
 ExclusiveContext
 *
@@ -3039,7 +3039,7 @@ return
 nullptr
 ;
 return
-AtomizeAndTakeOwnership
+AtomizeAndtake
 (
 cx
 tbcharsZ

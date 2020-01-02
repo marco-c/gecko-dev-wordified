@@ -1208,7 +1208,7 @@ Columns
 (
 )
 .
-get
+take
 (
 )
 ;

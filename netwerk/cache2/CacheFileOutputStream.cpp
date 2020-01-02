@@ -1560,7 +1560,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 )

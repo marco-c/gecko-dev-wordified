@@ -7442,7 +7442,7 @@ aAttribute
 aValue
 )
 .
-get
+take
 (
 )
 ;
@@ -7558,7 +7558,7 @@ aValue
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -29002,7 +29002,7 @@ el
 rv
 )
 .
-get
+take
 (
 )
 ;

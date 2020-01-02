@@ -4007,7 +4007,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 ;

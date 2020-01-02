@@ -11841,13 +11841,10 @@ GetDocumentLoadGroup
 (
 )
 .
-get
+take
 (
 )
 ;
-/
-/
-already_AddRefed
 }
 nsresult
 nsImageFrame

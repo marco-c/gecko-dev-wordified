@@ -3027,10 +3027,6 @@ nsHttpConnectionMgr
 OnMsgUpdateRequestTokenBucket
 0
 bucket
-.
-get
-(
-)
 )
 ;
 if
@@ -20708,7 +20704,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 )

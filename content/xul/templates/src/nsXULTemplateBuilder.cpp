@@ -12329,7 +12329,7 @@ NS_NewAtom
 tag
 )
 .
-get
+take
 (
 )
 ;

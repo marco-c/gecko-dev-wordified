@@ -450,7 +450,7 @@ BufferFromString
 aValue
 )
 .
-get
+take
 (
 )
 ;
@@ -2585,7 +2585,7 @@ BufferFromString
 aValue
 )
 .
-get
+take
 (
 )
 ;

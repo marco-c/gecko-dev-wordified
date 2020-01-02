@@ -503,7 +503,7 @@ _GetterProc
 )
 )
 .
-get
+take
 (
 )
 ;

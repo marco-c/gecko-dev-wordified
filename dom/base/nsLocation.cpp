@@ -4511,7 +4511,7 @@ GetBaseURI
 (
 )
 .
-get
+take
 (
 )
 ;

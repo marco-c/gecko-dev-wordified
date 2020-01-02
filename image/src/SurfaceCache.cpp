@@ -1662,7 +1662,7 @@ aImageKey
 aSurfaceKey
 )
 .
-get
+take
 (
 )
 "

@@ -19899,14 +19899,10 @@ forget
 (
 )
 .
-get
+take
 (
 )
 ;
-/
-/
-Already
-AddRefed
 }
 return
 NS_OK

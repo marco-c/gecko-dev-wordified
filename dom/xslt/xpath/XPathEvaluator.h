@@ -227,10 +227,8 @@ JSObject
 aScope
 )
 ;
-already_AddRefed
-<
 nsIDocument
->
+*
 GetParentObject
 (
 )
@@ -248,10 +246,6 @@ mDocument
 ;
 return
 doc
-.
-forget
-(
-)
 ;
 }
 static

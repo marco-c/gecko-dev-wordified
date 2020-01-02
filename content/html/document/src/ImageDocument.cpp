@@ -1762,7 +1762,7 @@ GetImageRequest
 rv
 )
 .
-get
+take
 (
 )
 ;

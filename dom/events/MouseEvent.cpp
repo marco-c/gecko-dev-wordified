@@ -1202,7 +1202,7 @@ GetRelatedTarget
 (
 )
 .
-get
+take
 (
 )
 ;

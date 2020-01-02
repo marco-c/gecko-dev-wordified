@@ -25004,7 +25004,7 @@ BufferFromString
 aString
 )
 .
-get
+take
 (
 )
 ;

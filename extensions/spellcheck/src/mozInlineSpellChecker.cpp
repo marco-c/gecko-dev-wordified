@@ -6720,7 +6720,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 )
