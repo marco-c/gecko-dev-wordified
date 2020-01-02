@@ -13791,7 +13791,7 @@ manifestEditor
 .
 enabled
 "
-false
+true
 )
 ;
 /
