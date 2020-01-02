@@ -277,7 +277,7 @@ algorithm
 >
 #
 ifdef
-MOZ_OMX_ENCODER
+MOZ_WEBRTC_OMX
 #
 include
 "
@@ -11653,7 +11653,7 @@ send
 {
 #
 ifdef
-MOZ_OMX_ENCODER
+MOZ_WEBRTC_OMX
 /
 /
 Here

@@ -1803,6 +1803,12 @@ aInputFlags
 0
 )
 ;
+#
+if
+ANDROID_VERSION
+>
+=
+18
 /
 *
 *
@@ -1823,6 +1829,8 @@ int32_t
 aKbps
 )
 ;
+#
+endif
 /
 *
 *
