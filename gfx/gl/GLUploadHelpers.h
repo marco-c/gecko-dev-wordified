@@ -471,7 +471,10 @@ char
 aData
 int32_t
 aStride
-gfxImageFormat
+gfx
+:
+:
+SurfaceFormat
 aFormat
 const
 nsIntRegion
