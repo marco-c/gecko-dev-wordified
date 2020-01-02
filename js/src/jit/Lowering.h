@@ -1219,9 +1219,9 @@ ins
 )
 ;
 bool
-visitForkJoinSlice
+visitForkJoinContext
 (
-MForkJoinSlice
+MForkJoinContext
 *
 ins
 )

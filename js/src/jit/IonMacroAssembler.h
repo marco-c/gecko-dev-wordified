@@ -4918,7 +4918,7 @@ result
 const
 Register
 &
-slice
+cx
 const
 Register
 &
@@ -4947,7 +4947,7 @@ result
 const
 Register
 &
-slice
+cx
 const
 Register
 &
@@ -4974,7 +4974,7 @@ result
 const
 Register
 &
-slice
+cx
 const
 Register
 &
@@ -4998,7 +4998,7 @@ result
 const
 Register
 &
-slice
+cx
 const
 Register
 &
@@ -5256,10 +5256,10 @@ nullptr
 ;
 }
 void
-loadForkJoinSlice
+loadForkJoinContext
 (
 Register
-slice
+cx
 Register
 scratch
 )
@@ -5276,14 +5276,14 @@ executionMode
 )
 ;
 void
-enterParallelExitFrameAndLoadSlice
+enterParallelExitFrameAndLoadContext
 (
 const
 VMFunction
 *
 f
 Register
-slice
+cx
 Register
 scratch
 )
@@ -5307,7 +5307,7 @@ void
 enterFakeParallelExitFrame
 (
 Register
-slice
+cx
 Register
 scratch
 JitCode

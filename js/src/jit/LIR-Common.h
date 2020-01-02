@@ -1608,7 +1608,7 @@ LNewPar
 const
 LAllocation
 &
-slice
+cx
 const
 LDefinition
 &
@@ -1622,7 +1622,7 @@ temp2
 setOperand
 (
 0
-slice
+cx
 )
 ;
 setTemp
@@ -1657,7 +1657,7 @@ toNewPar
 const
 LAllocation
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 {
@@ -1721,7 +1721,7 @@ LNewDenseArrayPar
 const
 LAllocation
 &
-slice
+cx
 const
 LAllocation
 &
@@ -1743,7 +1743,7 @@ temp3
 setOperand
 (
 0
-slice
+cx
 )
 ;
 setOperand
@@ -1790,7 +1790,7 @@ toNewDenseArrayPar
 const
 LAllocation
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 {
@@ -2112,7 +2112,7 @@ LNewCallObjectPar
 const
 LAllocation
 &
-slice
+cx
 const
 LAllocation
 &
@@ -2130,7 +2130,7 @@ temp2
 setOperand
 (
 0
-slice
+cx
 )
 ;
 setOperand
@@ -2170,7 +2170,7 @@ alloc
 const
 LAllocation
 &
-slice
+cx
 const
 LAllocation
 &
@@ -2192,7 +2192,7 @@ alloc
 )
 LNewCallObjectPar
 (
-slice
+cx
 slots
 temp1
 temp2
@@ -2210,7 +2210,7 @@ alloc
 const
 LAllocation
 &
-slice
+cx
 const
 LDefinition
 &
@@ -2238,7 +2238,7 @@ alloc
 )
 LNewCallObjectPar
 (
-slice
+cx
 slots
 temp1
 temp2
@@ -2248,7 +2248,7 @@ temp2
 const
 LAllocation
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 {
@@ -3102,7 +3102,7 @@ LCheckOverRecursedPar
 const
 LAllocation
 &
-slice
+cx
 const
 LDefinition
 &
@@ -3112,7 +3112,7 @@ tempReg
 setOperand
 (
 0
-slice
+cx
 )
 ;
 setTemp
@@ -3125,7 +3125,7 @@ tempReg
 const
 LAllocation
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 {
@@ -3264,7 +3264,7 @@ LCheckInterruptPar
 const
 LAllocation
 &
-slice
+cx
 const
 LDefinition
 &
@@ -3274,7 +3274,7 @@ tempReg
 setOperand
 (
 0
-slice
+cx
 )
 ;
 setTemp
@@ -3287,7 +3287,7 @@ tempReg
 const
 LAllocation
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 {
@@ -12187,7 +12187,7 @@ LConcatPar
 const
 LAllocation
 &
-slice
+cx
 const
 LAllocation
 &
@@ -12217,7 +12217,7 @@ temp4
 setOperand
 (
 0
-slice
+cx
 )
 ;
 setOperand
@@ -12260,7 +12260,7 @@ temp4
 const
 LAllocation
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 {
@@ -14770,7 +14770,7 @@ LLambdaPar
 const
 LAllocation
 &
-slice
+cx
 const
 LAllocation
 &
@@ -14788,7 +14788,7 @@ temp2
 setOperand
 (
 0
-slice
+cx
 )
 ;
 setOperand
@@ -14813,7 +14813,7 @@ temp2
 const
 LAllocation
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 {
@@ -21042,7 +21042,7 @@ getOperand
 }
 ;
 class
-LForkJoinSlice
+LForkJoinContext
 :
 public
 LCallInstructionHelper
@@ -21056,10 +21056,10 @@ public
 :
 LIR_HEADER
 (
-ForkJoinSlice
+ForkJoinContext
 )
 ;
-LForkJoinSlice
+LForkJoinContext
 (
 const
 LDefinition
@@ -23031,7 +23031,7 @@ LRestPar
 const
 LAllocation
 &
-slice
+cx
 const
 LAllocation
 &
@@ -23053,7 +23053,7 @@ temp3
 setOperand
 (
 0
-slice
+cx
 )
 ;
 setOperand
@@ -23084,7 +23084,7 @@ temp3
 const
 LAllocation
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 {
@@ -23150,7 +23150,7 @@ LGuardThreadExclusive
 const
 LAllocation
 &
-slice
+cx
 const
 LAllocation
 &
@@ -23164,7 +23164,7 @@ temp1
 setOperand
 (
 0
-slice
+cx
 )
 ;
 setOperand
@@ -23183,7 +23183,7 @@ temp1
 const
 LAllocation
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 {

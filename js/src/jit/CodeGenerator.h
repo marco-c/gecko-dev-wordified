@@ -1612,9 +1612,9 @@ lir
 )
 ;
 bool
-visitForkJoinSlice
+visitForkJoinContext
 (
-LForkJoinSlice
+LForkJoinContext
 *
 lir
 )
@@ -2778,7 +2778,7 @@ objReg
 const
 Register
 &
-sliceReg
+cxReg
 const
 Register
 &

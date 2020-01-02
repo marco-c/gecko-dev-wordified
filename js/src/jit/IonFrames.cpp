@@ -4459,11 +4459,11 @@ ResumeFromException
 rfe
 )
 {
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 =
-ForkJoinSlice
+ForkJoinContext
 :
 :
 current
@@ -4473,7 +4473,7 @@ current
 IonFrameIterator
 iter
 (
-slice
+cx
 -
 >
 perThreadData
@@ -4519,7 +4519,7 @@ isScripted
 )
 )
 {
-slice
+cx
 -
 >
 bailoutRecord

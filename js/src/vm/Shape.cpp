@@ -4158,7 +4158,7 @@ addPropertyInternal
 ParallelExecution
 >
 (
-ForkJoinSlice
+ForkJoinContext
 *
 cx
 HandleObject
@@ -6223,7 +6223,7 @@ putProperty
 ParallelExecution
 >
 (
-ForkJoinSlice
+ForkJoinContext
 *
 cx
 HandleObject
@@ -6648,9 +6648,9 @@ changeProperty
 ParallelExecution
 >
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 HandleObject
 obj
 HandleShape

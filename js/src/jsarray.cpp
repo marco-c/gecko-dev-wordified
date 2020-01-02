@@ -2998,9 +2998,9 @@ CanonicalizeArrayLengthValue
 ParallelExecution
 >
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 HandleValue
 v
 uint32_t
@@ -5138,9 +5138,9 @@ ArraySetLength
 ParallelExecution
 >
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 Handle
 <
 ArrayObject
@@ -5301,7 +5301,7 @@ if
 cx
 -
 >
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )
@@ -5309,7 +5309,7 @@ return
 cx
 -
 >
-asForkJoinSlice
+asForkJoinContext
 (
 )
 -

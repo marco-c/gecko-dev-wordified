@@ -2993,9 +2993,9 @@ JSParallelNativeThreadSafeWrapper
 js
 :
 :
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 unsigned
 argc
 JS
@@ -3009,7 +3009,7 @@ vp
 return
 threadSafeNative
 (
-slice
+cx
 argc
 vp
 )

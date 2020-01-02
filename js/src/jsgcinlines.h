@@ -325,7 +325,7 @@ const
 if
 (
 !
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )

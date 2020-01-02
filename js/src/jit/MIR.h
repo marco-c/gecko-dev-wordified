@@ -7985,7 +7985,7 @@ MNewPar
 (
 MDefinition
 *
-slice
+cx
 JSObject
 *
 templateObject
@@ -7993,7 +7993,7 @@ templateObject
 :
 MUnaryInstruction
 (
-slice
+cx
 )
 templateObject_
 (
@@ -8023,7 +8023,7 @@ TempAllocator
 alloc
 MDefinition
 *
-slice
+cx
 JSObject
 *
 templateObject
@@ -8036,14 +8036,14 @@ alloc
 )
 MNewPar
 (
-slice
+cx
 templateObject
 )
 ;
 }
 MDefinition
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 const
@@ -20218,7 +20218,7 @@ MConcatPar
 (
 MDefinition
 *
-slice
+cx
 MDefinition
 *
 left
@@ -20229,7 +20229,7 @@ right
 :
 MTernaryInstruction
 (
-slice
+cx
 left
 right
 )
@@ -20300,7 +20300,7 @@ TempAllocator
 alloc
 MDefinition
 *
-slice
+cx
 MConcat
 *
 concat
@@ -20313,7 +20313,7 @@ alloc
 )
 MConcatPar
 (
-slice
+cx
 concat
 -
 >
@@ -20331,7 +20331,7 @@ rhs
 }
 MDefinition
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 const
@@ -22433,12 +22433,12 @@ MCheckOverRecursedPar
 (
 MDefinition
 *
-slice
+cx
 )
 :
 MUnaryInstruction
 (
-slice
+cx
 )
 {
 setResultType
@@ -22472,7 +22472,7 @@ TempAllocator
 alloc
 MDefinition
 *
-slice
+cx
 )
 {
 return
@@ -22482,13 +22482,13 @@ alloc
 )
 MCheckOverRecursedPar
 (
-slice
+cx
 )
 ;
 }
 MDefinition
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 const
@@ -22526,12 +22526,12 @@ MCheckInterruptPar
 (
 MDefinition
 *
-slice
+cx
 )
 :
 MUnaryInstruction
 (
-slice
+cx
 )
 {
 setResultType
@@ -22565,7 +22565,7 @@ TempAllocator
 alloc
 MDefinition
 *
-slice
+cx
 )
 {
 return
@@ -22575,13 +22575,13 @@ alloc
 )
 MCheckInterruptPar
 (
-slice
+cx
 )
 ;
 }
 MDefinition
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 const
@@ -23974,7 +23974,7 @@ MLambdaPar
 (
 MDefinition
 *
-slice
+cx
 MDefinition
 *
 scopeChain
@@ -23995,7 +23995,7 @@ info
 :
 MBinaryInstruction
 (
-slice
+cx
 scopeChain
 )
 info_
@@ -24047,7 +24047,7 @@ TempAllocator
 alloc
 MDefinition
 *
-slice
+cx
 MLambda
 *
 lambda
@@ -24060,7 +24060,7 @@ alloc
 )
 MLambdaPar
 (
-slice
+cx
 lambda
 -
 >
@@ -24092,7 +24092,7 @@ info
 }
 MDefinition
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 const
@@ -34794,7 +34794,7 @@ current
 js
 :
 :
-ForkJoinSlice
+ForkJoinContext
 *
 .
 /
@@ -34805,12 +34805,12 @@ in
 ParallelExecution
 .
 class
-MForkJoinSlice
+MForkJoinContext
 :
 public
 MNullaryInstruction
 {
-MForkJoinSlice
+MForkJoinContext
 (
 )
 :
@@ -34820,7 +34820,7 @@ MNullaryInstruction
 {
 setResultType
 (
-MIRType_ForkJoinSlice
+MIRType_ForkJoinContext
 )
 ;
 }
@@ -34828,11 +34828,11 @@ public
 :
 INSTRUCTION_HEADER
 (
-ForkJoinSlice
+ForkJoinContext
 )
 ;
 static
-MForkJoinSlice
+MForkJoinContext
 *
 New
 (
@@ -34846,7 +34846,7 @@ new
 (
 alloc
 )
-MForkJoinSlice
+MForkJoinContext
 (
 )
 ;
@@ -39632,7 +39632,7 @@ MRestPar
 (
 MDefinition
 *
-slice
+cx
 MDefinition
 *
 numActuals
@@ -39651,7 +39651,7 @@ resultTypes
 :
 MBinaryInstruction
 (
-slice
+cx
 numActuals
 )
 MRestCommon
@@ -39688,7 +39688,7 @@ TempAllocator
 alloc
 MDefinition
 *
-slice
+cx
 MRest
 *
 rest
@@ -39701,7 +39701,7 @@ alloc
 )
 MRestPar
 (
-slice
+cx
 rest
 -
 >
@@ -39731,7 +39731,7 @@ resultTypeSet
 }
 MDefinition
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 const
@@ -39807,7 +39807,7 @@ writes
 by
 current
 parallel
-slice
+cx
 .
 /
 /
@@ -39841,7 +39841,7 @@ MGuardThreadExclusive
 (
 MDefinition
 *
-slice
+cx
 MDefinition
 *
 obj
@@ -39849,7 +39849,7 @@ obj
 :
 MBinaryInstruction
 (
-slice
+cx
 obj
 )
 {
@@ -39880,7 +39880,7 @@ TempAllocator
 alloc
 MDefinition
 *
-slice
+cx
 MDefinition
 *
 obj
@@ -39893,14 +39893,14 @@ alloc
 )
 MGuardThreadExclusive
 (
-slice
+cx
 obj
 )
 ;
 }
 MDefinition
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 const
@@ -40938,7 +40938,7 @@ MNewCallObjectPar
 (
 MDefinition
 *
-slice
+cx
 JSObject
 *
 templateObj
@@ -40949,7 +40949,7 @@ slots
 :
 MBinaryInstruction
 (
-slice
+cx
 slots
 )
 templateObj_
@@ -40980,7 +40980,7 @@ TempAllocator
 alloc
 MDefinition
 *
-slice
+cx
 MNewCallObject
 *
 callObj
@@ -40993,7 +40993,7 @@ alloc
 )
 MNewCallObjectPar
 (
-slice
+cx
 callObj
 -
 >
@@ -41011,7 +41011,7 @@ slots
 }
 MDefinition
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 const
@@ -41546,7 +41546,7 @@ MNewDenseArrayPar
 (
 MDefinition
 *
-slice
+cx
 MDefinition
 *
 length
@@ -41557,7 +41557,7 @@ templateObject
 :
 MBinaryInstruction
 (
-slice
+cx
 length
 )
 templateObject_
@@ -41588,7 +41588,7 @@ TempAllocator
 alloc
 MDefinition
 *
-slice
+cx
 MDefinition
 *
 length
@@ -41604,7 +41604,7 @@ alloc
 )
 MNewDenseArrayPar
 (
-slice
+cx
 length
 templateObject
 )
@@ -41612,7 +41612,7 @@ templateObject
 }
 MDefinition
 *
-forkJoinSlice
+forkJoinContext
 (
 )
 const
