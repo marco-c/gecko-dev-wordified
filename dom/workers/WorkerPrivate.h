@@ -2577,6 +2577,9 @@ mCancelAllPendingRunnables
 bool
 mPeriodicGCTimerRunning
 ;
+bool
+mIdleGCTimerRunning
+;
 #
 ifdef
 DEBUG
