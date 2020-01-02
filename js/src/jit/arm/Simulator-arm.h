@@ -1059,6 +1059,11 @@ PC
 reaches
 end_sim_pc
 .
+template
+<
+bool
+EnableStopSimAt
+>
 void
 execute
 (
@@ -1855,6 +1860,10 @@ start
 size_t
 size
 )
+;
+static
+int
+StopSimAt
 ;
 /
 /
