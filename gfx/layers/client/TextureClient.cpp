@@ -1174,7 +1174,7 @@ data
 "
 )
 ;
-MOZ_COUNT_CTOR
+MOZ_COUNT_DTOR
 (
 MemoryTextureClientData
 )
