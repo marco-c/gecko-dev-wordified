@@ -255,6 +255,10 @@ minAsmJSHeapLength_
 (
 AsmJSAllocationGranularity
 )
+modifiesFrameArguments_
+(
+false
+)
 {
 }
 bool
