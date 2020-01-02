@@ -453,7 +453,7 @@ structureParents
 for
 (
 var
-nested
+holder
 of
 structureParents
 [
@@ -462,7 +462,7 @@ name
 )
 addGCType
 (
-nested
+holder
 )
 ;
 }
@@ -476,7 +476,7 @@ pointerParents
 for
 (
 var
-nested
+holder
 of
 pointerParents
 [
@@ -485,7 +485,7 @@ name
 )
 addGCPointer
 (
-nested
+holder
 )
 ;
 }
@@ -534,7 +534,7 @@ structureParents
 for
 (
 var
-nested
+holder
 of
 structureParents
 [
@@ -543,7 +543,7 @@ name
 )
 addGCPointer
 (
-nested
+holder
 )
 ;
 }
