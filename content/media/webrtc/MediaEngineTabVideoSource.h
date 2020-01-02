@@ -120,11 +120,6 @@ MediaEngineTabVideoSource
 (
 )
 ;
-~
-MediaEngineTabVideoSource
-(
-)
-;
 virtual
 void
 GetName
@@ -364,9 +359,11 @@ mBufH
 int
 mTimePerFrame
 ;
+ScopedFreePtr
+<
 unsigned
 char
-*
+>
 mData
 ;
 nsCOMPtr
@@ -389,10 +386,6 @@ nsCOMPtr
 nsITimer
 >
 mTimer
-;
-nsAutoString
-mName
-mUuid
 ;
 Monitor
 mMonitor
