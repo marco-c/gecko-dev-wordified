@@ -54179,7 +54179,6 @@ Release
 )
 ;
 }
-+
 void
 nsIFrame
 :
