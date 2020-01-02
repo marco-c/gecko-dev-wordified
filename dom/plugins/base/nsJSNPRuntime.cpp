@@ -5683,7 +5683,7 @@ obj
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -5705,12 +5705,12 @@ obj
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -8868,7 +8868,7 @@ cx
 obj
 v
 0
-NULL
+nullptr
 vp
 .
 address
@@ -8894,7 +8894,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CONVERT_TO
 JS_GetClass
 (
@@ -9488,7 +9488,7 @@ obj
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -9689,7 +9689,7 @@ obj
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

@@ -764,12 +764,12 @@ _scheduletimer
 _unscheduletimer
 _popupcontextmenu
 _convertpoint
-NULL
+nullptr
 /
 /
 handleevent
 unimplemented
-NULL
+nullptr
 /
 /
 unfocusinstance
@@ -2579,7 +2579,7 @@ NS_ERROR_NULL_POINTER
 *
 aRetainedPeer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2939,8 +2939,8 @@ inst
 relativeURL
 target
 listener
-NULL
-NULL
+nullptr
+nullptr
 false
 )
 )
@@ -2971,11 +2971,11 @@ buf
 file
 target
 listener
-NULL
-NULL
+nullptr
+nullptr
 false
 0
-NULL
+nullptr
 )
 )
 )
@@ -3455,7 +3455,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 return
 StringToNPIdentifier
@@ -3492,7 +3492,7 @@ he
 .
 lpData
 =
-NULL
+nullptr
 ;
 while
 (
@@ -6478,7 +6478,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -6623,7 +6623,7 @@ identifiers
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -6710,7 +6710,7 @@ if
 id
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -13128,7 +13128,7 @@ n
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -13371,7 +13371,7 @@ npp
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -13427,7 +13427,7 @@ npp
 >
 ndata
 :
-NULL
+nullptr
 ;
 if
 (
@@ -13496,7 +13496,7 @@ npp
 >
 ndata
 :
-NULL
+nullptr
 ;
 if
 (

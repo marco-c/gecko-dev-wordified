@@ -1261,7 +1261,7 @@ for
 HTTP
 only
 ;
-NULL
+nullptr
 for
 non
 -

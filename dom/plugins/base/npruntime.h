@@ -1002,7 +1002,7 @@ value
 .
 objectValue
 =
-NULL
+nullptr
 ;
 \
 NP_END_MACRO
@@ -1032,7 +1032,7 @@ value
 .
 objectValue
 =
-NULL
+nullptr
 ;
 \
 NP_END_MACRO
@@ -1408,7 +1408,7 @@ s
 )
 will
 be
-NULL
+nullptr
 .
 NPIdentifier
 lifetime
@@ -1870,7 +1870,7 @@ immediately
 with
 0
 or
-NULL
+nullptr
 from
 an
 attempt

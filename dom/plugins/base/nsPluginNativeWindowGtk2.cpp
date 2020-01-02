@@ -1131,7 +1131,7 @@ G_CALLBACK
 (
 plug_removed_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -1144,7 +1144,7 @@ G_CALLBACK
 (
 socket_unrealize_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -1164,7 +1164,7 @@ mSocketWidget
 gpointer
 user_data
 =
-NULL
+nullptr
 ;
 gdk_window_get_user_data
 (
@@ -1276,7 +1276,7 @@ gtk_widget_get_window
 (
 mSocketWidget
 )
-NULL
+nullptr
 FALSE
 )
 ;
@@ -1663,7 +1663,7 @@ mSocketWidget
 ;
 fflush
 (
-NULL
+nullptr
 )
 ;
 #
@@ -1697,7 +1697,7 @@ mSocketWidget
 ;
 fflush
 (
-NULL
+nullptr
 )
 ;
 #

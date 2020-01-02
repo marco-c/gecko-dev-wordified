@@ -619,12 +619,10 @@ InUse
 )
 {
 return
-(
 mWnd
 !
 =
-NULL
-)
+nullptr
 ;
 }
 ;
@@ -670,7 +668,7 @@ Clear
 {
 mWnd
 =
-NULL
+nullptr
 ;
 mMsg
 =
@@ -710,7 +708,7 @@ NS_ASSERTION
 aWnd
 !
 =
-NULL
+nullptr
 "
 invalid
 plugin
@@ -724,7 +722,7 @@ NS_ASSERTION
 mWnd
 =
 =
-NULL
+nullptr
 "
 event
 already
@@ -2569,7 +2567,7 @@ height
 ;
 mPluginWinProc
 =
-NULL
+nullptr
 ;
 mPluginType
 =

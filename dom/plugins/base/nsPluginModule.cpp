@@ -147,11 +147,11 @@ kPluginCIDs
 &
 kNS_PLUGIN_HOST_CID
 false
-NULL
+nullptr
 nsPluginHostConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -175,7 +175,7 @@ MOZ_PLUGIN_HOST_CONTRACTID
 kNS_PLUGIN_HOST_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

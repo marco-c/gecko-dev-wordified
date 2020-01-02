@@ -351,7 +351,7 @@ view
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -591,7 +591,7 @@ pointer
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 env
@@ -628,7 +628,7 @@ gSurfaceJavaGlue
 surfacePointer
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1161,7 +1161,7 @@ void
 *
 region
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1453,7 +1453,7 @@ bitmap
 >
 baseAddr
 =
-NULL
+nullptr
 ;
 return
 false

@@ -323,7 +323,7 @@ path
 CFBundleRef
 bundle
 =
-NULL
+nullptr
 ;
 CFStringRef
 pathRef
@@ -332,7 +332,7 @@ pathRef
 :
 CFStringCreateWithCString
 (
-NULL
+nullptr
 path
 kCFStringEncodingUTF8
 )
@@ -349,7 +349,7 @@ bundleURL
 :
 CFURLCreateWithFileSystemPath
 (
-NULL
+nullptr
 pathRef
 kCFURLPOSIXPathStyle
 true
@@ -366,7 +366,7 @@ bundle
 :
 CFBundleCreate
 (
-NULL
+nullptr
 bundleURL
 )
 ;
@@ -846,7 +846,7 @@ CFStringGetTypeID
 )
 {
 return
-NULL
+nullptr
 ;
 }
 FSRef
@@ -870,7 +870,7 @@ noErr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 CFURLRef
@@ -892,7 +892,7 @@ userDirURL
 )
 {
 return
-NULL
+nullptr
 ;
 }
 AutoCFTypeObject
@@ -909,7 +909,7 @@ mimeFilePath
 CFStringCreateWithFormat
 (
 kCFAllocatorDefault
-NULL
+nullptr
 CFSTR
 (
 "
@@ -936,7 +936,7 @@ mimeFilePath
 )
 {
 return
-NULL
+nullptr
 ;
 }
 AutoCFTypeObject
@@ -966,7 +966,7 @@ mimeFileURL
 )
 {
 return
-NULL
+nullptr
 ;
 }
 AutoCFTypeObject
@@ -983,7 +983,7 @@ errorCode
 CFDataRef
 mimeFileData
 =
-NULL
+nullptr
 ;
 Boolean
 result
@@ -996,8 +996,8 @@ kCFAllocatorDefault
 mimeFileURL
 &
 mimeFileData
-NULL
-NULL
+nullptr
+nullptr
 &
 errorCode
 )
@@ -1009,7 +1009,7 @@ result
 )
 {
 return
-NULL
+nullptr
 ;
 }
 AutoCFTypeObject
@@ -1027,7 +1027,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 CFPropertyListRef
@@ -1040,7 +1040,7 @@ CFPropertyListCreateFromXMLData
 kCFAllocatorDefault
 mimeFileData
 kCFPropertyListImmutable
-NULL
+nullptr
 )
 ;
 if
@@ -1050,7 +1050,7 @@ propertyList
 )
 {
 return
-NULL
+nullptr
 ;
 }
 AutoCFTypeObject
@@ -1077,7 +1077,7 @@ CFDictionaryGetTypeID
 )
 {
 return
-NULL
+nullptr
 ;
 }
 CFTypeRef
@@ -1141,7 +1141,7 @@ mimeTypes
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2051,7 +2051,7 @@ pathRef
 :
 CFStringCreateWithCString
 (
-NULL
+nullptr
 bundlePath
 .
 get
@@ -2072,7 +2072,7 @@ bundleURL
 :
 CFURLCreateWithFileSystemPath
 (
-NULL
+nullptr
 pathRef
 kCFURLPOSIXPathStyle
 true
@@ -2090,7 +2090,7 @@ bundle
 :
 CFBundleCreate
 (
-NULL
+nullptr
 bundleURL
 )
 ;
@@ -2380,7 +2380,7 @@ file
 CFURLRef
 pluginURL
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3236,8 +3236,8 @@ mi
 =
 {
 kBPSupportedMIMETypesStructVers_1
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 /

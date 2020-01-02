@@ -322,7 +322,7 @@ nsNPAPIPlugin
 object
 .
 A
-NULL
+nullptr
 file
 path
 /

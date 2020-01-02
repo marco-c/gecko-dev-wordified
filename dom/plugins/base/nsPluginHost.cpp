@@ -7506,7 +7506,7 @@ PRLibrary
 *
 pluginLibrary
 =
-NULL
+nullptr
 ;
 if
 (
@@ -7642,7 +7642,7 @@ NS_ERROR_FAILURE
 *
 aPlugin
 =
-NULL
+nullptr
 ;
 if
 (
@@ -8970,7 +8970,7 @@ library
 >
 NPP_ClearSiteData
 (
-NULL
+nullptr
 flags
 maxAge
 )
@@ -12488,14 +12488,14 @@ invalidPlugin
 >
 mPrev
 =
-NULL
+nullptr
 ;
 invalidPlugin
 -
 >
 mNext
 =
-NULL
+nullptr
 ;
 }
 else
@@ -14896,7 +14896,7 @@ else
 {
 filename
 =
-NULL
+nullptr
 ;
 }
 /

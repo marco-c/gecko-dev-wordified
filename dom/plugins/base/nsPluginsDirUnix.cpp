@@ -680,7 +680,7 @@ char
 )
 *
 soname
-NULL
+nullptr
 false
 )
 ;
@@ -858,7 +858,7 @@ char
 *
 sonameList
 =
-NULL
+nullptr
 ;
 bool
 prefSonameListIsSet
@@ -1226,7 +1226,7 @@ char
 *
 soname
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1594,7 +1594,7 @@ libstagefright
 )
 !
 =
-NULL
+nullptr
 )
 return
 false
@@ -2386,11 +2386,11 @@ char
 *
 name
 =
-NULL
+nullptr
 ;
 npGetValue
 (
-NULL
+nullptr
 NPPVpluginNameString
 &
 name
@@ -2432,11 +2432,11 @@ char
 *
 description
 =
-NULL
+nullptr
 ;
 npGetValue
 (
-NULL
+nullptr
 NPPVpluginDescriptionString
 &
 description

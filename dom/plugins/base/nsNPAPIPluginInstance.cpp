@@ -966,7 +966,7 @@ mNPP
 .
 pdata
 =
-NULL
+nullptr
 ;
 mNPP
 .
@@ -2941,7 +2941,7 @@ char
 *
 )
 values
-NULL
+nullptr
 &
 error
 )
@@ -3053,7 +3053,7 @@ want
 a
 SetWindow
 (
-NULL
+nullptr
 )
 .
 if
@@ -7472,7 +7472,7 @@ inst
 TimerWithID
 (
 id
-NULL
+nullptr
 )
 )
 return
@@ -7700,7 +7700,7 @@ uniqueID
 TimerWithID
 (
 uniqueID
-NULL
+nullptr
 )
 )
 uniqueID
@@ -8205,7 +8205,7 @@ mOwner
 *
 outContext
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
