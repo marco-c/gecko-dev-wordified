@@ -255,7 +255,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 return
 wrapper
@@ -428,7 +428,7 @@ cx
 getGlobalClass
 (
 )
-NULL
+nullptr
 JS
 :
 :
@@ -449,7 +449,7 @@ cx
 getGlobalClass
 (
 )
-NULL
+nullptr
 JS
 :
 :
@@ -470,7 +470,7 @@ cx
 getGlobalClass
 (
 )
-NULL
+nullptr
 JS
 :
 :
@@ -617,7 +617,7 @@ compartment4
 =
 c4wrapper
 =
-NULL
+nullptr
 ;
 JS
 :

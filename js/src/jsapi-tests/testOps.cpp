@@ -263,8 +263,8 @@ JS_NewObject
 context
 &
 myClass
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 *
@@ -377,7 +377,7 @@ global
 main
 "
 0
-NULL
+nullptr
 rval
 .
 address

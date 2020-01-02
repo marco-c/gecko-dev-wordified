@@ -213,7 +213,7 @@ global
 )
 =
 =
-NULL
+nullptr
 )
 ;
 return

@@ -193,8 +193,8 @@ JSObject
 :
 class_
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -585,7 +585,7 @@ JS_New
 cx
 Array
 0
-NULL
+nullptr
 )
 )
 ;
@@ -828,10 +828,10 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 constructHook
 }
 ;
@@ -847,8 +847,8 @@ JS_NewObject
 cx
 &
 cls
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;

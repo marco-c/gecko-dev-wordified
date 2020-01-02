@@ -152,7 +152,7 @@ JSScript
 *
 found
 =
-NULL
+nullptr
 ;
 bool
 CheckEnclosing
@@ -237,7 +237,7 @@ CHECK
 found
 =
 =
-NULL
+nullptr
 )
 ;
 RootedFunction
@@ -268,7 +268,7 @@ global
 s1
 "
 0
-NULL
+nullptr
 s1chars
 strlen
 (
@@ -332,7 +332,7 @@ global
 s2
 "
 0
-NULL
+nullptr
 s2chars
 strlen
 (
@@ -414,7 +414,7 @@ global
 s3
 "
 0
-NULL
+nullptr
 s3chars
 strlen
 (

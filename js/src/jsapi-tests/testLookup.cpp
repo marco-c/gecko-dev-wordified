@@ -511,8 +511,8 @@ JS_NewObject
 cx
 &
 DocumentAllClass
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -553,8 +553,8 @@ cx
 obj
 id
 allValue
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 ;
@@ -570,7 +570,7 @@ get
 (
 )
 :
-NULL
+nullptr
 )
 ;
 return
@@ -582,7 +582,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -628,8 +628,8 @@ JS_NewObject
 cx
 &
 document_class
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -651,8 +651,8 @@ OBJECT_TO_JSVAL
 (
 obj
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )

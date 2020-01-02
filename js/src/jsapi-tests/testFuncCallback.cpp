@@ -181,7 +181,7 @@ static
 JSFunctionCallback
 innerCallback
 =
-NULL
+nullptr
 ;
 static
 void
@@ -428,7 +428,7 @@ tracing
 JS_SetFunctionCallback
 (
 cx
-NULL
+nullptr
 )
 ;
 EXEC

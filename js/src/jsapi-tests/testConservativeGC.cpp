@@ -640,7 +640,7 @@ str
 ;
 str
 =
-NULL
+nullptr
 ;
 /
 *

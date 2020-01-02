@@ -167,7 +167,7 @@ if
 rt
 )
 return
-NULL
+nullptr
 ;
 JS_SetGCParameter
 (

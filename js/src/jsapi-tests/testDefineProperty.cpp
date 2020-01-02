@@ -227,8 +227,8 @@ obj
 q
 "
 JSVAL_VOID
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_SHARED
 )
 )

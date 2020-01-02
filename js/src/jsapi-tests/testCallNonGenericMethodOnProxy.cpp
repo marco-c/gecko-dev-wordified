@@ -251,7 +251,7 @@ cx
 getGlobalClass
 (
 )
-NULL
+nullptr
 JS
 :
 :
@@ -276,8 +276,8 @@ JS_NewObject
 cx
 &
 CustomClass
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -334,7 +334,7 @@ cx
 customA
 customMethodA
 0
-NULL
+nullptr
 rval
 .
 address
@@ -379,7 +379,7 @@ cx
 getGlobalClass
 (
 )
-NULL
+nullptr
 JS
 :
 :
@@ -420,8 +420,8 @@ JS_NewObject
 cx
 &
 CustomClass
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -482,7 +482,7 @@ cx
 customB
 customMethodB
 0
-NULL
+nullptr
 rval
 .
 address
@@ -540,7 +540,7 @@ cx
 wrappedCustomA
 customMethodB
 0
-NULL
+nullptr
 rval2
 .
 address

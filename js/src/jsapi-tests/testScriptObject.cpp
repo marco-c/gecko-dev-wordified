@@ -379,7 +379,7 @@ JS_CompileScriptForPrincipals
 (
 cx
 global
-NULL
+nullptr
 code
 code_size
 __FILE__
@@ -461,7 +461,7 @@ JS_CompileUCScriptForPrincipals
 (
 cx
 global
-NULL
+nullptr
 uc_code
 code_size
 __FILE__
@@ -906,7 +906,7 @@ file
 .
 setPrincipals
 (
-NULL
+nullptr
 )
 ;
 return

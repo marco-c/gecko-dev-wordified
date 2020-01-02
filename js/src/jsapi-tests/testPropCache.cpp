@@ -219,7 +219,7 @@ y
 "
 &
 CounterClass
-NULL
+nullptr
 JSPROP_ENUMERATE
 )
 )

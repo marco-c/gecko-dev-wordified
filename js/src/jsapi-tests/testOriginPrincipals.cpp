@@ -80,7 +80,7 @@ JSPrincipals
 *
 sOriginPrincipalsInErrorReporter
 =
-NULL
+nullptr
 ;
 static
 void

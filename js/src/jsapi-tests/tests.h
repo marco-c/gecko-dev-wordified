@@ -441,15 +441,15 @@ JSAPITest
 :
 rt
 (
-NULL
+nullptr
 )
 cx
 (
-NULL
+nullptr
 )
 global
 (
-NULL
+nullptr
 )
 knownFail
 (
@@ -457,7 +457,7 @@ false
 )
 oldCompartment
 (
-NULL
+nullptr
 )
 {
 next
@@ -505,7 +505,7 @@ oldCompartment
 ;
 oldCompartment
 =
-NULL
+nullptr
 ;
 }
 if
@@ -523,7 +523,7 @@ global
 JS_LeaveCompartment
 (
 cx
-NULL
+nullptr
 )
 ;
 JS_EndRequest
@@ -538,7 +538,7 @@ cx
 ;
 cx
 =
-NULL
+nullptr
 ;
 }
 if
@@ -552,7 +552,7 @@ destroyRuntime
 ;
 rt
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1832,7 +1832,7 @@ if
 rt
 )
 return
-NULL
+nullptr
 ;
 setNativeStackQuota
 (
@@ -1948,7 +1948,7 @@ if
 cx
 )
 return
-NULL
+nullptr
 ;
 JS_SetOptions
 (
@@ -1990,7 +1990,7 @@ JSPrincipals
 *
 principals
 =
-NULL
+nullptr
 )
 ;
 }
@@ -2482,7 +2482,7 @@ exit
 }
 stream
 =
-NULL
+nullptr
 ;
 }
 /
@@ -2545,7 +2545,7 @@ exit
 }
 name
 =
-NULL
+nullptr
 ;
 }
 }

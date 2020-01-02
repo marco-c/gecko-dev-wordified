@@ -964,7 +964,7 @@ global3
 JS_SetFinalizeCallback
 (
 rt
-NULL
+nullptr
 )
 ;
 return

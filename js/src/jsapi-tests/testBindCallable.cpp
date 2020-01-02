@@ -206,13 +206,13 @@ called
 JS_CallFunctionValue
 (
 cx
-NULL
+nullptr
 OBJECT_TO_JSVAL
 (
 newCallable
 )
 0
-NULL
+nullptr
 retval
 .
 address

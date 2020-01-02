@@ -659,7 +659,7 @@ cx
 )
 !
 =
-NULL
+nullptr
 )
 ;
 static
@@ -816,7 +816,7 @@ cx
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return

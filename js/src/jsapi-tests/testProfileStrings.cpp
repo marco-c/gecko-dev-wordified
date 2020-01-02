@@ -315,7 +315,7 @@ global
 d
 "
 0
-NULL
+nullptr
 &
 r
 )
@@ -528,15 +528,15 @@ JS_InitClass
 (
 cx
 global
-NULL
+nullptr
 &
 ptestClass
 Prof
 0
-NULL
+nullptr
 ptestFunctions
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -773,7 +773,7 @@ global
 check
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -847,7 +847,7 @@ global
 check
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -918,7 +918,7 @@ global
 check2
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -1034,7 +1034,7 @@ global
 check
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -1332,7 +1332,7 @@ global
 check
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -1403,7 +1403,7 @@ global
 check
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -1537,7 +1537,7 @@ global
 check
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -1686,7 +1686,7 @@ global
 check2
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -1872,7 +1872,7 @@ global
 a
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -1995,7 +1995,7 @@ global
 c
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -2089,7 +2089,7 @@ global
 e
 "
 0
-NULL
+nullptr
 rval
 .
 address
@@ -2246,7 +2246,7 @@ global
 f
 "
 0
-NULL
+nullptr
 rval
 .
 address

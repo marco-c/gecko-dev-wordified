@@ -79,8 +79,8 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
+nullptr
+nullptr
 global
 )
 )

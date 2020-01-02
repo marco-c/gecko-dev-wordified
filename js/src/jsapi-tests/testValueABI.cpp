@@ -239,7 +239,7 @@ obj
 ;
 obj
 =
-NULL
+nullptr
 ;
 CHECK
 (
