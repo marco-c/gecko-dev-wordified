@@ -545,6 +545,16 @@ ContextFlags
 aFlags
 )
 ;
+PRLibrary
+*
+GetOGLLibrary
+(
+)
+{
+return
+mOGLLibrary
+;
+}
 private
 :
 bool
