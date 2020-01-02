@@ -1416,6 +1416,11 @@ Width
 )
 COMPUTED_STYLE_PROP
 (
+will_change
+WillChange
+)
+COMPUTED_STYLE_PROP
+(
 word_break
 WordBreak
 )
