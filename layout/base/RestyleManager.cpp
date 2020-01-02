@@ -17292,9 +17292,9 @@ node
 /
 /
 Skip
-flex
--
-item
+parent
+display
+based
 style
 fixup
 for
@@ -17304,8 +17304,8 @@ subtrees
 TreeMatchContext
 :
 :
-AutoFlexOrGridItemStyleFixupSkipper
-flexOrGridFixupSkipper
+AutoParentDisplayBasedStyleFixupSkipper
+parentDisplayBasedFixupSkipper
 (
 mTreeMatchContext
 element

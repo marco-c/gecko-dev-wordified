@@ -4908,7 +4908,7 @@ aPseudoType
 aRuleNode
 aFlags
 &
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 )
 ;
 if
@@ -4930,7 +4930,7 @@ aPseudoType
 aVisitedRuleNode
 aFlags
 &
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 )
 ;
 if
@@ -7641,13 +7641,13 @@ if
 (
 aTreeMatchContext
 .
-mSkippingFlexOrGridItemStyleFixup
+mSkippingParentDisplayBasedStyleFixup
 )
 {
 flags
 |
 =
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 ;
 }
 return
@@ -8665,7 +8665,7 @@ fixup
 flags
 |
 =
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 ;
 }
 return
@@ -9084,7 +9084,7 @@ fixup
 flags
 |
 =
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 ;
 }
 nsRefPtr
@@ -11669,7 +11669,7 @@ anyway
 flags
 |
 =
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 ;
 }
 return
