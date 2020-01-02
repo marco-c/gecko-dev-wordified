@@ -182,16 +182,6 @@ License
 Extension
 communication
 object
-.
-.
-.
-as
-it
-used
-in
-pdf
-.
-js
 var
 FirefoxCom
 =
