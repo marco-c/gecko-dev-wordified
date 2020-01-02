@@ -505,9 +505,6 @@ eConvolveMatrixEdgeMode
 eConvolveMatrixKernelUnitLength
 eConvolveMatrixPreserveAlpha
 eOffsetOffset
-eDropShadowStdDeviation
-eDropShadowOffset
-eDropShadowColor
 eDisplacementMapScale
 eDisplacementMapXChannel
 eDisplacementMapYChannel
@@ -1094,7 +1091,6 @@ eComposite
 eMerge
 eImage
 eGaussianBlur
-eDropShadow
 eDiffuseLighting
 eSpecularLighting
 }
