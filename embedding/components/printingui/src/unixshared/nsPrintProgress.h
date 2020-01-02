@@ -176,6 +176,8 @@ nsIPrintSettings
 aPrintSettings
 )
 ;
+protected
+:
 virtual
 ~
 nsPrintProgress

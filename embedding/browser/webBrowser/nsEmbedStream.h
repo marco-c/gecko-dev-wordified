@@ -139,12 +139,6 @@ nsEmbedStream
 (
 )
 ;
-virtual
-~
-nsEmbedStream
-(
-)
-;
 void
 InitOwner
 (
@@ -189,6 +183,14 @@ void
 )
 ;
 NS_DECL_ISUPPORTS
+protected
+:
+virtual
+~
+nsEmbedStream
+(
+)
+;
 private
 :
 nsIWebBrowser
