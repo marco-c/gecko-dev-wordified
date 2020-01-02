@@ -321,7 +321,6 @@ NS_IMPL_ISUPPORTS
 (
 nsNSSDialogs
 nsITokenPasswordDialogs
-nsICertificateDialogs
 nsIClientAuthDialogs
 nsICertPickDialogs
 nsITokenDialogs
