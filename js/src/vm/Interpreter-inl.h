@@ -1056,8 +1056,6 @@ pobjArg
 Shape
 *
 shapeArg
-unsigned
-getHow
 MutableHandleValue
 vp
 )
@@ -1152,7 +1150,6 @@ cx
 obj
 pobj
 shape
-getHow
 vp
 )
 )
@@ -1592,7 +1589,6 @@ cx
 normalized
 obj2
 shape
-0
 vp
 )
 )
