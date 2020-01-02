@@ -306,6 +306,9 @@ aTitle
 ;
 private
 :
+class
+SinkPropertyChangedHandler
+;
 BluetoothA2dpManager
 (
 )
