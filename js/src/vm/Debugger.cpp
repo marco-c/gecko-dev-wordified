@@ -29330,7 +29330,7 @@ lineno
 if
 (
 !
-JS_ValueToECMAUint32
+ToUint32
 (
 cx
 v

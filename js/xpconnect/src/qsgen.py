@@ -3379,7 +3379,10 @@ n
 if
 (
 !
-JS_ValueToECMAUint32
+JS
+:
+:
+ToUint32
 (
 cx
 {
@@ -3509,7 +3512,10 @@ n
 if
 (
 !
-JS_ValueToECMAUint32
+JS
+:
+:
+ToUint32
 (
 cx
 {
@@ -3618,7 +3624,10 @@ n
 if
 (
 !
-JS_ValueToECMAUint32
+JS
+:
+:
+ToUint32
 (
 cx
 {
