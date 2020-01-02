@@ -3068,7 +3068,8 @@ res
 *
 res
 =
-false
+!
+Equal
 ;
 return
 true
