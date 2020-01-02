@@ -1062,6 +1062,15 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvIsParentWindowMainWidgetVisible
+(
+bool
+*
+aIsVisible
+)
+;
+virtual
+bool
 RecvShowTooltip
 (
 const
