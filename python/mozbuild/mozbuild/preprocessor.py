@@ -2949,6 +2949,8 @@ self
 warnUnused
 (
 input
+.
+name
 )
         
 if
