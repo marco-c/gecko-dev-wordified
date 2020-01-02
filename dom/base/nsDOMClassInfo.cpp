@@ -19593,9 +19593,10 @@ NS_OK
 int32_t
 slen
 =
-JSVAL_TO_INT
-(
 lenval
+.
+toInt32
+(
 )
 ;
 if
@@ -19757,9 +19758,10 @@ isInt32
 int32_t
 length
 =
-JSVAL_TO_INT
-(
 len_val
+.
+toInt32
+(
 )
 ;
 for

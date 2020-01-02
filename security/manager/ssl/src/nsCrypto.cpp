@@ -5206,12 +5206,13 @@ NS_ERROR_FAILURE
 }
 keySize
 =
-JSVAL_TO_INT
-(
 argv
 [
 0
 ]
+.
+toInt32
+(
 )
 ;
 if

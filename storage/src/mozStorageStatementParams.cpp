@@ -736,10 +736,11 @@ static_cast
 uint32_t
 >
 (
-JSVAL_TO_INT
-(
-*
 _statep
+-
+>
+toInt32
+(
 )
 )
 ;

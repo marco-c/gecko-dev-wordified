@@ -1745,9 +1745,10 @@ rv
 nsresult
 )
 (
-JSVAL_TO_INT
-(
 jsexception
+.
+toInt32
+(
 )
 )
 ;

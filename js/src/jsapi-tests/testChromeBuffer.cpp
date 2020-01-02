@@ -672,9 +672,10 @@ rval
 ;
 CHECK
 (
-JSVAL_TO_INT
-(
 rval
+.
+toInt32
+(
 )
 =
 =
@@ -1286,9 +1287,10 @@ rval
 ;
 CHECK
 (
-JSVAL_TO_INT
-(
 rval
+.
+toInt32
+(
 )
 =
 =

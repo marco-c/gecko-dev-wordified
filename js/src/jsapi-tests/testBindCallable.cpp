@@ -253,9 +253,10 @@ isInt32
 ;
 CHECK
 (
-JSVAL_TO_INT
-(
 retval
+.
+toInt32
+(
 )
 =
 =
