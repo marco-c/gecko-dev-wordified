@@ -245,6 +245,11 @@ assembler_jit_ExecutableAllocator_h
 #
 include
 <
+limits
+>
+#
+include
+<
 stddef
 .
 h
@@ -253,11 +258,6 @@ h
 /
 for
 ptrdiff_t
-#
-include
-<
-limits
->
 #
 include
 "
