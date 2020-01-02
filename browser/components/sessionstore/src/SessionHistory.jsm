@@ -290,7 +290,7 @@ Object
 freeze
 (
 {
-read
+collect
 :
 function
 (
@@ -301,7 +301,7 @@ includePrivateData
 return
 SessionHistoryInternal
 .
-read
+collect
 (
 docShell
 includePrivateData
@@ -376,7 +376,7 @@ checks
 .
 *
 /
-read
+collect
 :
 function
 (
@@ -470,7 +470,7 @@ entry
 =
 this
 .
-_serializeEntry
+serializeEntry
 (
 shEntry
 includePrivateData
@@ -878,7 +878,7 @@ return
 object
 *
 /
-_serializeEntry
+serializeEntry
 :
 function
 (
@@ -1195,7 +1195,7 @@ postdata
 =
 this
 .
-_serializePostData
+serializePostData
 (
 shEntry
 isPinned
@@ -1267,7 +1267,7 @@ owner
 =
 this
 .
-_serializeOwner
+serializeOwner
 (
 shEntry
 )
@@ -1484,7 +1484,7 @@ push
 (
 this
 .
-_serializeEntry
+serializeEntry
 (
 child
 includePrivateData
@@ -1562,7 +1562,7 @@ data
 .
 *
 /
-_serializePostData
+serializePostData
 :
 function
 (
@@ -1814,7 +1814,7 @@ data
 .
 *
 /
-_serializeOwner
+serializeOwner
 :
 function
 (

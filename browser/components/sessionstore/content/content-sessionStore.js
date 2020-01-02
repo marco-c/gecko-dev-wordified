@@ -597,7 +597,7 @@ history
 =
 SessionHistory
 .
-read
+collect
 (
 docShell
 )
@@ -953,7 +953,7 @@ history
 =
 SessionHistory
 .
-read
+collect
 (
 docShell
 )
