@@ -468,11 +468,14 @@ aSize
 )
 )
 {
-mBuffer
+GetForwarder
+(
+)
 -
 >
-ForceRemove
+AddForceRemovingTexture
 (
+mBuffer
 )
 ;
 mBuffer
