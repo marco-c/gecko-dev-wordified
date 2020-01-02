@@ -1404,6 +1404,11 @@ ClearScreen
 (
 )
 ;
+void
+ClearBackbufferIfNeeded
+(
+)
+;
 bool
 MinCapabilityMode
 (
@@ -5912,7 +5917,7 @@ bool
 mShouldPresent
 ;
 bool
-mIsScreenCleared
+mBackbufferNeedsClear
 ;
 bool
 mDisableFragHighP
