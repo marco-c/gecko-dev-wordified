@@ -2720,6 +2720,10 @@ TYPE
 OR
 "
 +
+"
+(
+"
++
 Bookmarks
 .
 TYPE
@@ -2727,6 +2731,18 @@ TYPE
 "
 =
 ?
+AND
+"
++
+Bookmarks
+.
+URL
++
+"
+IS
+NOT
+NULL
+)
 )
 "
 new
@@ -2746,7 +2762,7 @@ valueOf
 (
 Bookmarks
 .
-TYPE_BOOKMARK
+TYPE_FOLDER
 )
 String
 .
@@ -2754,7 +2770,7 @@ valueOf
 (
 Bookmarks
 .
-TYPE_FOLDER
+TYPE_BOOKMARK
 )
 }
 null
