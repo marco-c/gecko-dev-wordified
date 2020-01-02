@@ -3130,6 +3130,14 @@ port
 ;
 if
 (
+!
+portStr
+.
+IsEmpty
+(
+)
+&
+&
 buf
 )
 {
