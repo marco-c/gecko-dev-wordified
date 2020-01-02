@@ -4342,6 +4342,10 @@ savedFrameChain_
 (
 0
 )
+hideScriptedCallerCount_
+(
+0
+)
 kind_
 (
 kind
@@ -4380,6 +4384,14 @@ activation_
 =
 =
 this
+)
+;
+JS_ASSERT
+(
+hideScriptedCallerCount_
+=
+=
+0
 )
 ;
 cx_
