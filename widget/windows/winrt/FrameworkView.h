@@ -120,13 +120,6 @@ h
 #
 include
 "
-gfxD2DSurface
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h
