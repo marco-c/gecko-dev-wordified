@@ -919,6 +919,8 @@ RTCStatsQuery
 (
 )
 ;
+nsAutoPtr
+<
 mozilla
 :
 :
@@ -926,6 +928,7 @@ dom
 :
 :
 RTCStatsReportInternal
+>
 report
 ;
 std
