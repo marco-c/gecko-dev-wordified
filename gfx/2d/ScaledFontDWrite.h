@@ -199,6 +199,8 @@ aBuffer
 PathBuilder
 *
 aBuilder
+BackendType
+aBackendType
 const
 Matrix
 *
