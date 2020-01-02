@@ -3265,6 +3265,12 @@ GetPrefLayersDump
 ;
 static
 bool
+GetPrefLayersScrollGraph
+(
+)
+;
+static
+bool
 OffMainThreadCompositionRequired
 (
 )
