@@ -7362,7 +7362,7 @@ endOffset
 )
 )
 {
-NS_WARNING
+NS_WARN_IF_FALSE
 (
 startTime
 <
