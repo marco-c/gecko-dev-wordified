@@ -1149,15 +1149,10 @@ face
 /
 weight
 -
-0
-=
-=
-unknown
 [
 100
 900
 ]
-otherwise
 (
 multiples
 of
