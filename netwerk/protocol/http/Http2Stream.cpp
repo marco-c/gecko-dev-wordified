@@ -2959,9 +2959,6 @@ overhead
 in
 CONTINUATION
 frames
-Http2Session
-:
-:
 EnsureBuffer
 (
 mTxInlineFrame
@@ -3752,9 +3749,6 @@ get
 +
 mTxInlineFrameUsed
 ;
-Http2Session
-:
-:
 EnsureBuffer
 (
 mTxInlineFrame
@@ -3974,9 +3968,6 @@ get
 +
 mTxInlineFrameUsed
 ;
-Http2Session
-:
-:
 EnsureBuffer
 (
 mTxInlineFrame
