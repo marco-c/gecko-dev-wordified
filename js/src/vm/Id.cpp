@@ -144,7 +144,7 @@ JSID_EMPTY
 {
 size_t
 (
-JSID_TYPE_OBJECT
+JSID_TYPE_SYMBOL
 )
 }
 ;
