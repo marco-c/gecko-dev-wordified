@@ -7975,9 +7975,6 @@ public
 :
 SingleLineCrossAxisPositionTracker
 (
-nsFlexContainerFrame
-*
-aFlexContainerFrame
 const
 FlexboxAxisTracker
 &
@@ -12365,9 +12362,6 @@ SingleLineCrossAxisPositionTracker
 :
 SingleLineCrossAxisPositionTracker
 (
-nsFlexContainerFrame
-*
-aFlexContainerFrame
 const
 FlexboxAxisTracker
 &
@@ -17655,7 +17649,6 @@ line
 SingleLineCrossAxisPositionTracker
 lineCrossAxisPosnTracker
 (
-this
 axisTracker
 )
 ;
