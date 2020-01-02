@@ -553,6 +553,7 @@ parser
 .
 expression
 (
+100
 )
 class
 and_op_token
