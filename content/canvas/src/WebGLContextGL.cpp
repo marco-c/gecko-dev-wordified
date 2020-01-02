@@ -15027,6 +15027,19 @@ WebGLTexelFormat
 format
 )
 {
+*
+imageOut
+=
+nullptr
+;
+*
+format
+=
+WebGLTexelFormat
+:
+:
+None
+;
 if
 (
 !
@@ -15035,7 +15048,7 @@ res
 mSurface
 )
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 if
 (
@@ -15058,7 +15071,7 @@ SurfaceFromElement
 lied
 !
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 /
