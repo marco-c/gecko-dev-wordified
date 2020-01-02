@@ -144,7 +144,6 @@ js
 class
 ErrorObject
 ;
-extern
 JSErrorReport
 *
 CopyErrorReport
@@ -155,6 +154,15 @@ cx
 JSErrorReport
 *
 report
+)
+;
+JSString
+*
+ComputeStackString
+(
+JSContext
+*
+cx
 )
 ;
 }
