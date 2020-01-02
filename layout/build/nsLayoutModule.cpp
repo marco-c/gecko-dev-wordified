@@ -2738,13 +2738,12 @@ nsISelection
 aResult
 )
 ;
-nsresult
+already_AddRefed
+<
+nsIContentViewer
+>
 NS_NewContentViewer
 (
-nsIContentViewer
-*
-*
-aResult
 )
 ;
 nsresult
@@ -3145,7 +3144,7 @@ CreateNameSpaceManager
 nsINameSpaceManager
 NS_GetNameSpaceManager
 )
-MAKE_CTOR
+MAKE_CTOR2
 (
 CreateContentViewer
 nsIContentViewer
