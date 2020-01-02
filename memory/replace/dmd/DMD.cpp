@@ -2349,6 +2349,7 @@ aN
 ;
 public
 :
+explicit
 Options
 (
 const
@@ -3522,6 +3523,7 @@ AutoBlockIntercepts
 ;
 public
 :
+explicit
 AutoBlockIntercepts
 (
 Thread
@@ -8393,6 +8395,7 @@ not
 reported
 public
 :
+explicit
 RecordKey
 (
 const
@@ -13126,6 +13129,7 @@ mUsableSize
 size_t
 mNumBlocks
 ;
+explicit
 RecordKindData
 (
 size_t
@@ -14372,7 +14376,7 @@ p
 Record
 tr
 (
-b
+key
 )
 ;
 (
