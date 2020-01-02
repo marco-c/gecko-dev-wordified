@@ -1119,7 +1119,7 @@ sharedWorkers
 .
 enabled
 "
-false
+true
 )
 ;
 /
