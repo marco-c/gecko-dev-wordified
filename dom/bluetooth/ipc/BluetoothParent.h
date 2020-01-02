@@ -987,9 +987,6 @@ IsScoConnectedRequest
 aRequest
 )
 ;
-#
-ifdef
-MOZ_B2G_RIL
 bool
 DoRequest
 (
@@ -1017,8 +1014,6 @@ ToggleCallsRequest
 aRequest
 )
 ;
-#
-endif
 bool
 DoRequest
 (
