@@ -465,7 +465,7 @@ aFlags
 )
 ;
 void
-GetEventsAt
+GetEventsForCurrentTime
 (
 mozilla
 :
@@ -473,11 +473,6 @@ mozilla
 ElementAnimationCollection
 *
 aEA
-mozilla
-:
-:
-TimeStamp
-aRefreshTime
 EventArray
 &
 aEventsToDispatch

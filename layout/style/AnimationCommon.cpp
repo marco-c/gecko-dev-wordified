@@ -2449,14 +2449,8 @@ TimeDuration
 >
 currentTime
 =
-GetLocalTimeAt
+GetLocalTime
 (
-mTimeline
--
->
-GetCurrentTimeStamp
-(
-)
 )
 ;
 /
@@ -2655,9 +2649,8 @@ computedTiming
 =
 GetComputedTimingAt
 (
-GetLocalTimeAt
+GetLocalTime
 (
-aTime
 )
 mTiming
 )
@@ -2701,9 +2694,8 @@ computedTiming
 =
 GetComputedTimingAt
 (
-GetLocalTimeAt
+GetLocalTime
 (
-aTime
 )
 mTiming
 )
@@ -5137,7 +5129,7 @@ continue
 /
 /
 The
-GetLocalTimeAt
+GetLocalTime
 (
 )
 call
@@ -5167,9 +5159,8 @@ localTime
 anim
 -
 >
-GetLocalTimeAt
+GetLocalTime
 (
-aRefreshTime
 )
 ;
 ComputedTiming
@@ -5429,7 +5420,7 @@ continue
 /
 /
 The
-GetLocalTimeAt
+GetLocalTime
 (
 )
 call
@@ -5459,9 +5450,8 @@ localTime
 anim
 -
 >
-GetLocalTimeAt
+GetLocalTime
 (
-aRefreshTime
 )
 ;
 ComputedTiming

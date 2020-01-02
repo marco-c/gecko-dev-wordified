@@ -608,7 +608,7 @@ through
 /
 at
 the
-given
+current
 time
 .
 (
@@ -632,13 +632,8 @@ units
 .
 )
 double
-ValuePortionFor
+CurrentValuePortion
 (
-mozilla
-:
-:
-TimeStamp
-aRefreshTime
 )
 const
 ;
