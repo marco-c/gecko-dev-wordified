@@ -497,7 +497,10 @@ occurred
 for
 registered
 event
+:
 "
++
+message
 )
 ;
 expecter
