@@ -568,6 +568,16 @@ STRING
 \
 F
 (
+TEMPLATE_STRING_LIST
+)
+\
+F
+(
+TEMPLATE_STRING
+)
+\
+F
+(
 REGEXP
 )
 \
