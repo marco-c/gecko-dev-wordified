@@ -2646,12 +2646,12 @@ it
 .
 *
 /
-void
+bool
 EnsureBuffer
 (
 )
 ;
-void
+bool
 EnsureBufferOnWhite
 (
 )
