@@ -111,17 +111,6 @@ ImageContainer
 #
 include
 "
-gfx3DMatrix
-.
-h
-"
-/
-/
-for
-gfx3DMatrix
-#
-include
-"
 gfxRect
 .
 h
