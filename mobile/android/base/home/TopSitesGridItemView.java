@@ -1096,7 +1096,7 @@ thumbnails
 are
 loaded
 in
-TopSitesPage
+TopSitesPanel
 /
 TopSitesGridAdapter
 .

@@ -224,7 +224,7 @@ The
 different
 types
 of
-pages
+panels
 that
 can
 be
@@ -235,7 +235,7 @@ about
 home
 public
 enum
-PageType
+PanelType
 {
 HISTORY
 TOP_SITES
@@ -403,7 +403,7 @@ AboutHomeComponent
 assertCurrentPage
 (
 final
-PageType
+PanelType
 expectedPage
 )
 {
@@ -855,7 +855,7 @@ index
 in
 the
 *
-PageType
+PanelType
 enum
 .
 *
@@ -873,7 +873,7 @@ final
 String
 pageName
 =
-PageType
+PanelType
 .
 values
 (

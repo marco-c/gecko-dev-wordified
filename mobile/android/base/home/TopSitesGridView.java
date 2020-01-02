@@ -702,7 +702,7 @@ them
 String
 url
 =
-TopSitesPage
+TopSitesPanel
 .
 decodeUserEnteredUrl
 (

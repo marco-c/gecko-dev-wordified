@@ -314,7 +314,7 @@ bookmarks
 /
 public
 class
-BookmarksPage
+BookmarksPanel
 extends
 HomeFragment
 {
@@ -325,7 +325,7 @@ String
 LOGTAG
 =
 "
-GeckoBookmarksPage
+GeckoBookmarksPanel
 "
 ;
 /
@@ -475,7 +475,7 @@ R
 .
 layout
 .
-home_bookmarks_page
+home_bookmarks_panel
 container
 false
 )
