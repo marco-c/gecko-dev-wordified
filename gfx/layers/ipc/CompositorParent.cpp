@@ -2836,10 +2836,10 @@ aIsFirstPaint
 aId
 )
 ;
-mCompositor
+mLayerManager
 -
 >
-NotifyLayersTransaction
+NotifyShadowTreeTransaction
 (
 )
 ;
@@ -4030,10 +4030,10 @@ ScheduleComposition
 )
 ;
 }
-mCompositor
+mLayerManager
 -
 >
-NotifyLayersTransaction
+NotifyShadowTreeTransaction
 (
 )
 ;

@@ -673,14 +673,6 @@ MOZ_OVERRIDE
 {
 }
 virtual
-void
-NotifyLayersTransaction
-(
-)
-MOZ_OVERRIDE
-{
-}
-virtual
 const
 char
 *

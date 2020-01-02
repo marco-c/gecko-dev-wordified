@@ -3323,6 +3323,12 @@ GetPrefLayersEnableTiles
 ;
 static
 bool
+GetPrefLayersDrawFPS
+(
+)
+;
+static
+bool
 OffMainThreadCompositionRequired
 (
 )
