@@ -1520,6 +1520,16 @@ nsIDocShell
 ;
 this
 .
+_deviceSizeWasPageSize
+=
+this
+.
+docShell
+.
+deviceSizeIsPageSize
+;
+this
+.
 docShell
 .
 deviceSizeIsPageSize
@@ -1913,7 +1923,9 @@ docShell
 .
 deviceSizeIsPageSize
 =
-false
+this
+.
+_deviceSizeWasPageSize
 ;
 this
 .
