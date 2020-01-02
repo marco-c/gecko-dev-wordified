@@ -695,6 +695,10 @@ recyeled
 .
 if
 (
+aAsyncTransactionTracker
+|
+|
+(
 GetForwarder
 (
 )
@@ -710,6 +714,7 @@ aTexture
 >
 HasRecycleCallback
 (
+)
 )
 )
 {
