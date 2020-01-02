@@ -4393,9 +4393,6 @@ pkix
 ScopedCERTCertList
 nssChain
 ;
-SECStatus
-srv
-;
 RefPtr
 <
 SharedCertVerifier
@@ -4440,8 +4437,6 @@ about
 server
 certs
 .
-srv
-=
 certVerifier
 -
 >
@@ -4577,8 +4572,6 @@ nickname
 )
 )
 ;
-srv
-=
 certVerifier
 -
 >
