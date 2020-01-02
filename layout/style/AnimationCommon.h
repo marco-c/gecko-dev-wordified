@@ -1452,7 +1452,7 @@ mozilla
 :
 :
 AnimationPlayerPtrArray
-mAnimations
+mPlayers
 ;
 /
 /
