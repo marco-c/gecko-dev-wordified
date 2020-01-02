@@ -3623,6 +3623,10 @@ pkgdir
 =
 "
 "
+            
+enable_e10s
+=
+False
 )
 :
     
@@ -3673,6 +3677,25 @@ dict
 (
 DEFAULT_COMMON_PREFS
 )
+    
+if
+enable_e10s
+:
+        
+preferences
+[
+'
+browser
+.
+tabs
+.
+remote
+.
+autostart
+'
+]
+=
+True
     
 #
 For
