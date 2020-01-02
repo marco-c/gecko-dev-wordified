@@ -1044,11 +1044,15 @@ aDirtyRect
 const
 nsRect
 &
-aFill
+aDest
 const
 nsRect
 &
-aDest
+aFill
+const
+nsPoint
+&
+aAnchor
 const
 mozilla
 :
