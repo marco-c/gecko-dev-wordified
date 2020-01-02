@@ -389,6 +389,12 @@ using
 mozilla
 :
 :
+TimeStamp
+;
+using
+mozilla
+:
+:
 Telemetry
 :
 :
