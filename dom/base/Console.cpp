@@ -3613,8 +3613,6 @@ eventObj
 wrappedJSObject
 "
 eventValue
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -5297,8 +5295,6 @@ eventObj
 wrappedJSObject
 "
 eventValue
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )

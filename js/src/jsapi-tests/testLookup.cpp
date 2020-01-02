@@ -658,12 +658,7 @@ global
 "
 document
 "
-OBJECT_TO_JSVAL
-(
 obj
-)
-nullptr
-nullptr
 0
 )
 )

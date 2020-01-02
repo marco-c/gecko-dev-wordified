@@ -9419,13 +9419,10 @@ JS_DefineProperty
 cx
 obj
 js_Math_str
-OBJECT_TO_JSVAL
-(
 Math
-)
+0
 JS_PropertyStub
 JS_StrictPropertyStub
-0
 )
 )
 {

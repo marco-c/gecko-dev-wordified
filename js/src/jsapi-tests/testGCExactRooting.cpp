@@ -222,12 +222,7 @@ foo
 JS
 :
 :
-DoubleValue
-(
-0
-)
-nullptr
-nullptr
+UndefinedHandleValue
 0
 )
 ;
@@ -241,12 +236,7 @@ foo
 JS
 :
 :
-DoubleValue
-(
-0
-)
-nullptr
-nullptr
+UndefinedHandleValue
 0
 )
 ;

@@ -6141,13 +6141,10 @@ JS_DefineProperty
 cx
 global
 js_JSON_str
-OBJECT_TO_JSVAL
-(
 JSON
-)
+0
 JS_PropertyStub
 JS_StrictPropertyStub
-0
 )
 )
 return

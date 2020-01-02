@@ -53433,8 +53433,6 @@ result
 s
 "
 temp
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -57407,8 +57405,6 @@ args
 [
 0
 ]
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -97022,16 +97018,7 @@ Callback
 "
 __DOM_IMPL__
 "
-JS
-:
-:
-ObjectValue
-(
-*
 obj
-)
-nullptr
-nullptr
 0
 )
 )

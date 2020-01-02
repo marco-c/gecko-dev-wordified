@@ -7937,8 +7937,6 @@ cx
 proto
 js_std_iterator_str
 funval
-nullptr
-nullptr
 0
 )
 )
@@ -11565,8 +11563,6 @@ proto
 keys
 "
 funval
-nullptr
-nullptr
 0
 )
 )
@@ -11582,8 +11578,6 @@ cx
 proto
 js_std_iterator_str
 funval
-nullptr
-nullptr
 0
 )
 )
