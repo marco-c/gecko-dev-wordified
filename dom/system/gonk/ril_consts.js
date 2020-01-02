@@ -7223,6 +7223,9 @@ OPL
 MDN
 :
 53
+MWIS
+:
+54
 SPDI
 :
 56
@@ -7266,6 +7269,9 @@ OPL
 MDN
 :
 47
+MWIS
+:
+48
 SPDI
 :
 51
