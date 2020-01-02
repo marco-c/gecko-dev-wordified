@@ -721,8 +721,6 @@ void
 OnActorDestroy
 (
 )
-=
-0
 ;
 /
 /
