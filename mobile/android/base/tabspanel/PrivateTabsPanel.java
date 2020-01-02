@@ -180,13 +180,6 @@ widget
 .
 FrameLayout
 ;
-import
-android
-.
-widget
-.
-ScrollView
-;
 /
 *
 *
@@ -260,7 +253,7 @@ visibility
 class
 PrivateTabsPanel
 extends
-ScrollView
+FrameLayout
 implements
 CloseAllPanelView
 {
