@@ -289,7 +289,6 @@ unwrapped
 return
 JS_IdentifyClassPrototype
 (
-cx
 unwrapped
 )
 !

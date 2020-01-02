@@ -10330,9 +10330,6 @@ JSProtoKey
 )
 JS_IdentifyClassPrototype
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
