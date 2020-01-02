@@ -3860,6 +3860,13 @@ layer
 )
 GK_ATOM
 (
+LayerActivity
+"
+LayerActivity
+"
+)
+GK_ATOM
+(
 layout
 "
 layout
