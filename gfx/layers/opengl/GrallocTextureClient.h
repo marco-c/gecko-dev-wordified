@@ -479,10 +479,6 @@ gfx
 :
 IntSize
 aSize
-TextureAllocationFlags
-aFlags
-=
-ALLOC_DEFAULT
 )
 MOZ_OVERRIDE
 ;
