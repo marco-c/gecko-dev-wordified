@@ -254,13 +254,6 @@ kErrorServiceCID
 NS_ERRORSERVICE_CID
 )
 ;
-static
-NS_DEFINE_CID
-(
-kPersistentPropertiesCID
-NS_IPERSISTENTPROPERTIES_CID
-)
-;
 nsStringBundle
 :
 :
@@ -549,6 +542,13 @@ rv
 &
 in
 NS_ERROR_FAILURE
+)
+;
+static
+NS_DEFINE_CID
+(
+kPersistentPropertiesCID
+NS_IPERSISTENTPROPERTIES_CID
 )
 ;
 mProps
