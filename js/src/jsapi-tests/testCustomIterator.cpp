@@ -242,6 +242,7 @@ nullptr
 mark
 *
 /
+JS_NULL_CLASS_SPEC
 {
 nullptr
 /

@@ -4383,6 +4383,7 @@ XPC_WN_NoHelper_Trace
 /
 /
 trace
+JS_NULL_CLASS_SPEC
 /
 /
 ClassExtension
@@ -9155,6 +9156,7 @@ XPC_WN_Shared_Proto_Trace
 /
 trace
 ;
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 XPC_WN_WithCall_ObjectOps
 }
@@ -9263,6 +9265,7 @@ XPC_WN_Shared_Proto_Trace
 /
 trace
 ;
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 XPC_WN_NoCall_ObjectOps
 }
@@ -9745,6 +9748,7 @@ XPC_WN_Shared_Proto_Trace
 /
 trace
 ;
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 XPC_WN_WithCall_ObjectOps
 }
@@ -9853,6 +9857,7 @@ XPC_WN_Shared_Proto_Trace
 /
 trace
 ;
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 XPC_WN_NoCall_ObjectOps
 }

@@ -1509,6 +1509,8 @@ trace
 *
 /
 \
+JS_NULL_CLASS_SPEC
+\
 ext
 \
 {
