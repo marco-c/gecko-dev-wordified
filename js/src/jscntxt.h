@@ -2404,7 +2404,7 @@ scriptDataTable
 }
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 /
 /
 Since
@@ -5541,7 +5541,7 @@ AutoLockForExclusiveAccess
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 JSRuntime
 *
 runtime
@@ -5722,7 +5722,7 @@ false
 else
 /
 /
-JS_WORKER_THREADS
+JS_THREADSAFE
 public
 :
 AutoLockForExclusiveAccess
@@ -5779,7 +5779,7 @@ type
 endif
 /
 /
-JS_WORKER_THREADS
+JS_THREADSAFE
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
@@ -5788,7 +5788,7 @@ AutoLockForCompilation
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 JSRuntime
 *
 runtime
@@ -6006,7 +6006,7 @@ endif
 else
 /
 /
-JS_WORKER_THREADS
+JS_THREADSAFE
 public
 :
 AutoLockForCompilation
@@ -6066,7 +6066,7 @@ type
 endif
 /
 /
-JS_WORKER_THREADS
+JS_THREADSAFE
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
