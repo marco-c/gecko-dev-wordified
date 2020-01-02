@@ -21493,6 +21493,8 @@ the
 inlining
 with
 .
+if
+(
 MResumePoint
 *
 resume
@@ -21503,7 +21505,8 @@ block
 entryResumePoint
 (
 )
-;
+)
+{
 while
 (
 resume
@@ -21537,6 +21540,7 @@ pc
 )
 )
 ;
+}
 }
 if
 (
