@@ -516,6 +516,8 @@ BackgroundHangManager
 (
 )
 ;
+private
+:
 ~
 BackgroundHangManager
 (

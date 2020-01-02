@@ -993,6 +993,8 @@ ptr
 )
 ;
 }
+private
+:
 /
 /
 We
@@ -1074,6 +1076,8 @@ mRawPtr
 ;
 }
 }
+public
+:
 T
 *
 get
