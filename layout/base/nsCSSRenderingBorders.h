@@ -1556,6 +1556,9 @@ aOuterRadiiRet
 ;
 }
 ;
+namespace
+mozilla
+{
 #
 ifdef
 DEBUG_NEW_BORDERS
@@ -2013,6 +2016,7 @@ ctx
 }
 #
 endif
+}
 #
 endif
 /

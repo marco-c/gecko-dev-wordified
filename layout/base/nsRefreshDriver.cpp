@@ -8367,3 +8367,6 @@ it
 fires
 .
 }
+#
+undef
+LOG
