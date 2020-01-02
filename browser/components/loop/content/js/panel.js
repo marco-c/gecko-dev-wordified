@@ -817,12 +817,16 @@ privacy
 ;
 if
 (
-!
 this
 .
 state
 .
 seenToS
+=
+=
+"
+unseen
+"
 )
 {
 navigator
