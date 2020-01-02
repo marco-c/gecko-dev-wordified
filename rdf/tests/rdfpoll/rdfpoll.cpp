@@ -575,12 +575,8 @@ Observer
 public
 nsIRDFObserver
 {
-public
+protected
 :
-Observer
-(
-)
-;
 virtual
 ~
 Observer
@@ -588,6 +584,12 @@ Observer
 )
 {
 }
+public
+:
+Observer
+(
+)
+;
 /
 /
 nsISupports
