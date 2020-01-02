@@ -1197,12 +1197,6 @@ f
 "
 /
 /
-FLOAT32
-"
-d
-"
-/
-/
 DOUBLE
 #
 ifdef
@@ -1214,7 +1208,7 @@ t
 /
 TYPE
 "
-p
+d
 "
 /
 /
@@ -2310,11 +2304,6 @@ from
 LAllocation
 *
 to
-LDefinition
-:
-:
-Type
-type
 )
 {
 #
@@ -2377,7 +2366,6 @@ LMove
 (
 from
 to
-type
 )
 )
 ;
@@ -2394,11 +2382,6 @@ from
 LAllocation
 *
 to
-LDefinition
-:
-:
-Type
-type
 )
 {
 /
@@ -2552,7 +2535,6 @@ LMove
 (
 from
 to
-type
 )
 ;
 return
@@ -2565,7 +2547,6 @@ add
 (
 from
 to
-type
 )
 ;
 }

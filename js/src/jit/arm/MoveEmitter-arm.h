@@ -144,6 +144,20 @@ CodeGenerator
 class
 MoveEmitterARM
 {
+typedef
+MoveResolver
+:
+:
+Move
+Move
+;
+typedef
+MoveResolver
+:
+:
+MoveOperand
+MoveOperand
+;
 bool
 inCycle_
 ;
@@ -339,7 +353,7 @@ const
 MoveOperand
 &
 to
-MoveOp
+Move
 :
 :
 Kind
@@ -357,7 +371,7 @@ const
 MoveOperand
 &
 to
-MoveOp
+Move
 :
 :
 Kind
@@ -368,7 +382,7 @@ void
 emit
 (
 const
-MoveOp
+Move
 &
 move
 )

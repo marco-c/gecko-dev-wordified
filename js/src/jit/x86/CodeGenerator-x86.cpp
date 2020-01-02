@@ -6519,10 +6519,6 @@ masm
 passABIArg
 (
 input
-MoveOp
-:
-:
-DOUBLE
 )
 ;
 if
@@ -7166,10 +7162,6 @@ masm
 passABIArg
 (
 input
-MoveOp
-:
-:
-DOUBLE
 )
 ;
 if

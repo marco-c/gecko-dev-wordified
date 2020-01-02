@@ -816,13 +816,7 @@ DEFAULT
 ;
 inline
 LDefinition
-tempFloat32
-(
-)
-;
-inline
-LDefinition
-tempDouble
+tempFloat
 (
 )
 ;

@@ -2930,7 +2930,7 @@ LTableSwitchV
 temp
 (
 )
-tempDouble
+tempFloat
 (
 )
 tableswitch
