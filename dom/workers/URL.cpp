@@ -3619,7 +3619,7 @@ URLSearchParams
 URL
 :
 :
-GetSearchParams
+SearchParams
 (
 )
 {
@@ -3638,19 +3638,10 @@ URL
 SetSearchParams
 (
 URLSearchParams
-*
+&
 aSearchParams
 )
 {
-if
-(
-!
-aSearchParams
-)
-{
-return
-;
-}
 if
 (
 mSearchParams
@@ -3667,6 +3658,7 @@ this
 }
 mSearchParams
 =
+&
 aSearchParams
 ;
 mSearchParams
