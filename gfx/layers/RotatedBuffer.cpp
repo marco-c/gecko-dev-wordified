@@ -3600,6 +3600,13 @@ IsEmpty
 return
 result
 ;
+if
+(
+HaveBuffer
+(
+)
+)
+{
 /
 /
 Do
@@ -3641,6 +3648,7 @@ result
 mRegionToDraw
 )
 ;
+}
 nsIntRect
 drawBounds
 =
