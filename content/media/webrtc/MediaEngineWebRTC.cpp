@@ -323,16 +323,6 @@ AddRef
 ;
 #
 endif
-/
-/
-XXX
-gFarendObserver
-=
-new
-AudioOutputObserver
-(
-)
-;
 }
 void
 MediaEngineWebRTC
