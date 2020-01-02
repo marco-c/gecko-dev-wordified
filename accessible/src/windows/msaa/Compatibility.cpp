@@ -181,7 +181,7 @@ DWORD
 aMinor
 )
 {
-PRUnichar
+wchar_t
 fileName
 [
 MAX_PATH

@@ -203,7 +203,7 @@ tab
 windows
 .
 const
-PRUnichar
+wchar_t
 *
 kPropNameTabContent
 =

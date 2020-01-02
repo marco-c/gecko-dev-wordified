@@ -717,7 +717,7 @@ win
 utils
 extern
 const
-PRUnichar
+wchar_t
 *
 kPropNameTabContent
 ;

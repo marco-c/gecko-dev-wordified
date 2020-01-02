@@ -2871,7 +2871,7 @@ aIsDefaultBrowser
 =
 true
 ;
-PRUnichar
+wchar_t
 exePath
 [
 MAX_BUF
@@ -2952,7 +2952,7 @@ res
 nsresult
 rv
 ;
-PRUnichar
+wchar_t
 currValue
 [
 MAX_BUF
@@ -4334,7 +4334,7 @@ directory
 .
 static
 const
-PRUnichar
+wchar_t
 kSehllLibraryName
 [
 ]
@@ -6328,7 +6328,7 @@ rv
 return
 rv
 ;
-PRUnichar
+wchar_t
 buf
 [
 MAX_BUF
@@ -7013,7 +7013,7 @@ rv
 rv
 )
 ;
-PRUnichar
+wchar_t
 rgb
 [
 12

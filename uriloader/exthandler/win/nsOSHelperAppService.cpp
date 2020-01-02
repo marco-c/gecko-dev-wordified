@@ -868,7 +868,7 @@ if
 mAppAssoc
 )
 {
-PRUnichar
+wchar_t
 *
 pResult
 =
@@ -1077,7 +1077,7 @@ if
 mAppAssoc
 )
 {
-PRUnichar
+wchar_t
 *
 pResult
 =
@@ -2601,12 +2601,12 @@ false
 ;
 nsAutoArrayPtr
 <
-PRUnichar
+wchar_t
 >
 destination
 (
 new
-PRUnichar
+wchar_t
 [
 bufLength
 ]
@@ -2641,7 +2641,15 @@ false
 ;
 handlerCommand
 =
+static_cast
+<
+const
+wchar_t
+*
+>
+(
 destination
+)
 ;
 /
 /
@@ -3813,7 +3821,7 @@ assocType
 fileExtToUse
 )
 ;
-PRUnichar
+wchar_t
 *
 pResult
 =

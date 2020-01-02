@@ -1372,11 +1372,6 @@ dwFlags
 lpTime
 format
 ?
-const_cast
-<
-LPCWSTR
->
-(
 NS_ConvertASCIItoUTF16
 (
 format
@@ -1384,7 +1379,6 @@ format
 .
 get
 (
-)
 )
 :
 nullptr
@@ -1436,11 +1430,6 @@ dwFlags
 lpDate
 format
 ?
-const_cast
-<
-LPCWSTR
->
-(
 NS_ConvertASCIItoUTF16
 (
 format
@@ -1448,7 +1437,6 @@ format
 .
 get
 (
-)
 )
 :
 nullptr

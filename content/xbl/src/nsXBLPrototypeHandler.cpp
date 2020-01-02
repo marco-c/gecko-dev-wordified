@@ -6192,12 +6192,10 @@ mHandlerText
 ?
 mHandlerText
 :
-EmptyString
+MOZ_UTF16
 (
-)
-.
-get
-(
+"
+"
 )
 )
 ;

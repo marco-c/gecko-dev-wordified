@@ -355,7 +355,7 @@ endif
 -
 static
 const
-PRUnichar
+wchar_t
 *
 const
 pTypeName

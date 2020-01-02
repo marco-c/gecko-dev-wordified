@@ -1071,7 +1071,8 @@ nsDependentString
 (
 static_cast
 <
-PRUnichar
+const
+wchar_t
 *
 >
 (
@@ -1552,17 +1553,10 @@ GetPropertyValue
 (
 nsDependentString
 (
-static_cast
-<
-PRUnichar
-*
->
-(
 aStyleProperties
 [
 index
 ]
-)
 )
 value
 )

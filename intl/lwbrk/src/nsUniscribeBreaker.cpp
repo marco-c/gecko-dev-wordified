@@ -177,6 +177,11 @@ SCRIPT_ITEM
 >
 items
 ;
+char16ptr_t
+text
+=
+aText
+;
 memset
 (
 aBreakBefore
@@ -202,7 +207,7 @@ result
 =
 ScriptItemize
 (
-aText
+text
 aLength
 items
 .
@@ -328,7 +333,7 @@ if
 (
 ScriptBreak
 (
-aText
+text
 +
 startOffset
 endOffset

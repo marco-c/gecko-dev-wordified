@@ -4163,7 +4163,7 @@ XP_WIN
 int32_t
 driveType
 ;
-PRUnichar
+wchar_t
 drive
 [
 32
