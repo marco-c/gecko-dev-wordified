@@ -1058,7 +1058,7 @@ aItem
 >
 ShouldFixToViewport
 (
-aBuilder
+nullptr
 )
 )
 {
