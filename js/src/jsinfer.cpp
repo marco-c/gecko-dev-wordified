@@ -7373,14 +7373,6 @@ TypeObject
 (
 clasp
 proto
-clasp
-=
-=
-&
-JSFunction
-:
-:
-class_
 unknown
 )
 ;
