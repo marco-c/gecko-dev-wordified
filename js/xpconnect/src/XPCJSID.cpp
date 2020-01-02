@@ -3634,11 +3634,6 @@ nsJSCID
 (
 )
 ;
-bool
-success
-=
-false
-;
 if
 (
 str
@@ -3652,9 +3647,7 @@ str
 '
 )
 {
-if
-(
-NS_SUCCEEDED
+NS_ENSURE_SUCCESS
 (
 idObj
 -
@@ -3663,11 +3656,8 @@ Initialize
 (
 str
 )
+nullptr
 )
-)
-success
-=
-true
 ;
 }
 else
@@ -3711,6 +3701,7 @@ cid
 )
 )
 {
+bool
 success
 =
 idObj
@@ -3733,9 +3724,6 @@ Free
 cid
 )
 ;
-}
-}
-}
 if
 (
 !
@@ -3744,6 +3732,9 @@ success
 return
 nullptr
 ;
+}
+}
+}
 return
 idObj
 .
