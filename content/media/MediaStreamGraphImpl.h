@@ -2748,10 +2748,7 @@ GraphRate
 const
 {
 return
-1
-<
-<
-MEDIA_TIME_FRAC_BITS
+mSampleRate
 ;
 }
 double
