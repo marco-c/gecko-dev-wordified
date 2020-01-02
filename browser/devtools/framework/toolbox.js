@@ -6224,6 +6224,16 @@ webconsole
 .
 hud
 ;
+if
+(
+hud
+&
+&
+hud
+.
+jsterm
+)
+{
 hud
 .
 jsterm
@@ -6234,6 +6244,7 @@ focus
 (
 )
 ;
+}
 }
 /
 *
