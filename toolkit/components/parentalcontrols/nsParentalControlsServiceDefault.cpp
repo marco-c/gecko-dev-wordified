@@ -219,7 +219,7 @@ nsIURI
 aTarget
 nsIInterfaceRequestor
 *
-aCocoadowContext
+aWindowContext
 bool
 *
 _retval
@@ -240,7 +240,7 @@ nsIArray
 aTargets
 nsIInterfaceRequestor
 *
-aCocoadowContext
+aWindowContext
 bool
 *
 _retval
