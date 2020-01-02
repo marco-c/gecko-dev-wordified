@@ -3909,6 +3909,12 @@ result
 }
 }
 ;
+this
+.
+FormAssistant
+=
+FormAssistant
+;
 /
 *
 *
@@ -4750,6 +4756,12 @@ evt
 }
 }
 ;
+this
+.
+SelectWrapper
+=
+SelectWrapper
+;
 /
 /
 bug
@@ -5035,4 +5047,10 @@ evt
 ;
 }
 }
+;
+this
+.
+MenulistWrapper
+=
+MenulistWrapper
 ;
