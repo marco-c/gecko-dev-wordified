@@ -502,12 +502,10 @@ start
         
 self
 .
-assertGreaterEqual
+assertGreater
 (
 end
 0
-.
-1
 )
     
 def
