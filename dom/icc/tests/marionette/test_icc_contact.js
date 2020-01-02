@@ -29,7 +29,7 @@ zero
 /
 MARIONETTE_TIMEOUT
 =
-30000
+60000
 ;
 SpecialPowers
 .
