@@ -938,9 +938,9 @@ fp
 "
 [
 %
-d
+u
 %
-d
+u
 [
 "
 live
@@ -954,7 +954,7 @@ j
 >
 from
 .
-pos
+bits
 (
 )
 live
@@ -968,7 +968,7 @@ j
 >
 to
 .
-pos
+bits
 (
 )
 )
@@ -1006,7 +1006,7 @@ fprintf
 fp
 "
 %
-d
+u
 M
 "
 usePos
@@ -1014,7 +1014,7 @@ usePos
 >
 pos
 .
-pos
+bits
 (
 )
 )

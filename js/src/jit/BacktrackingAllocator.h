@@ -620,7 +620,7 @@ const
 return
 canonicalSpillExclude_
 .
-pos
+bits
 (
 )
 !

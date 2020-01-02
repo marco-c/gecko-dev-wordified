@@ -1127,7 +1127,7 @@ INSTRUCTION_SHIFT
 ;
 }
 uint32_t
-pos
+bits
 (
 )
 const

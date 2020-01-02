@@ -3254,12 +3254,12 @@ s
 "
 input
 .
-pos
+bits
 (
 )
 output
 .
-pos
+bits
 (
 )
 phi
@@ -3436,12 +3436,12 @@ u
 "
 input
 .
-pos
+bits
 (
 )
 output
 .
-pos
+bits
 (
 )
 )
@@ -4609,7 +4609,7 @@ inputOf
 phi
 )
 .
-pos
+bits
 (
 )
 outputOf
@@ -4617,7 +4617,7 @@ outputOf
 phi
 )
 .
-pos
+bits
 (
 )
 phi
@@ -4756,7 +4756,7 @@ inputOf
 ins
 )
 .
-pos
+bits
 (
 )
 outputOf
@@ -4764,7 +4764,7 @@ outputOf
 ins
 )
 .
-pos
+bits
 (
 )
 )
