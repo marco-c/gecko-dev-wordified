@@ -1250,9 +1250,16 @@ previous
 frame
 is
 available
+or
+the
+screen
+is
+resized
 .
 Invalidate
 the
+/
+/
 whole
 screen
 .
