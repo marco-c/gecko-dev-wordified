@@ -5367,8 +5367,15 @@ jit
 :
 :
 UpdateJitActivationsForMinorGC
+<
+Nursery
+>
 (
+&
 rt
+-
+>
+mainThread
 &
 trc
 )
