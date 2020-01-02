@@ -174,12 +174,6 @@ chromeGlobal
 ;
 this
 .
-_chromeGlobal
-=
-chromeGlobal
-;
-this
-.
 traits
 .
 reconfigure
@@ -228,7 +222,7 @@ function
 return
 this
 .
-_chromeGlobal
+chromeEventHandler
 .
 docShell
 ;
@@ -262,12 +256,6 @@ call
 (
 this
 )
-;
-this
-.
-_chromeGlobal
-=
-null
 ;
 }
 ;
