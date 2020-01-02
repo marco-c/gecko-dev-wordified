@@ -223,7 +223,7 @@ gc
 struct
 Arena
 ;
-struct
+class
 ArenaList
 ;
 struct
