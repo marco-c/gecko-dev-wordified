@@ -1069,6 +1069,9 @@ nsCSubstring
 const
 &
 aContextKey
+nsILoadContextInfo
+*
+aContext
 bool
 aDiskStorage
 nsICacheEntryDoomCallback
