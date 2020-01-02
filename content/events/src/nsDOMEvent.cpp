@@ -3385,13 +3385,11 @@ WidgetCommandEvent
 *
 oldCommandEvent
 =
-static_cast
-<
-WidgetCommandEvent
-*
->
-(
 mEvent
+-
+>
+AsCommandEvent
+(
 )
 ;
 WidgetCommandEvent

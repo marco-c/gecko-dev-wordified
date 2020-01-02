@@ -4314,13 +4314,11 @@ NS_NewDOMCommandEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-WidgetCommandEvent
-*
->
-(
 aEvent
+-
+>
+AsCommandEvent
+(
 )
 )
 ;
