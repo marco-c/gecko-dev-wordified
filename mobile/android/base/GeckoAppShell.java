@@ -2721,9 +2721,6 @@ WrapElementForJNI
 allowMultithread
 =
 true
-generateStatic
-=
-true
 noThrow
 =
 true
@@ -3015,11 +3012,6 @@ e
 }
 }
 WrapElementForJNI
-(
-generateStatic
-=
-true
-)
 public
 static
 void
@@ -3047,11 +3039,6 @@ type
 }
 }
 WrapElementForJNI
-(
-generateStatic
-=
-true
-)
 public
 static
 void
@@ -3088,11 +3075,6 @@ actionHint
 }
 }
 WrapElementForJNI
-(
-generateStatic
-=
-true
-)
 public
 static
 void

@@ -92,11 +92,6 @@ wrapperName
 public
 final
 boolean
-isStatic
-;
-public
-final
-boolean
 isMultithreaded
 ;
 public
@@ -115,8 +110,6 @@ AnnotationInfo
 String
 aWrapperName
 boolean
-aIsStatic
-boolean
 aIsMultithreaded
 boolean
 aNoThrow
@@ -127,10 +120,6 @@ aNarrowChars
 wrapperName
 =
 aWrapperName
-;
-isStatic
-=
-aIsStatic
 ;
 isMultithreaded
 =
