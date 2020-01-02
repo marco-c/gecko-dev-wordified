@@ -200,11 +200,6 @@ NotifyError
 (
 int32_t
 aError
-nsISupports
-*
-aData
-=
-nullptr
 bool
 aAsync
 =
