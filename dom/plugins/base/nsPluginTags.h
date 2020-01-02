@@ -240,6 +240,8 @@ nsPluginInfo
 aPluginInfo
 int64_t
 aLastModifiedTime
+bool
+fromExtension
 )
 ;
 nsPluginTag
@@ -286,6 +288,8 @@ int32_t
 aVariants
 int64_t
 aLastModifiedTime
+bool
+fromExtension
 bool
 aArgsAreUTF8
 =
@@ -384,6 +388,12 @@ nsCString
 GetNiceFileName
 (
 )
+;
+bool
+IsFromExtension
+(
+)
+const
 ;
 nsRefPtr
 <
@@ -514,6 +524,9 @@ mCachedBlocklistState
 ;
 bool
 mCachedBlocklistStateValid
+;
+bool
+mIsFromExtension
 ;
 void
 InitMime
