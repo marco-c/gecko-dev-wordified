@@ -425,7 +425,7 @@ this
 .
 _startView
 .
-_limit
+maxTiles
 +
 3
 )
