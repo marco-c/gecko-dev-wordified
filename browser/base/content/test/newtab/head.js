@@ -3659,7 +3659,6 @@ Fires
 a
 synthetic
 mouse
-vertical
 drag
 event
 on
@@ -3684,9 +3683,9 @@ position
 .
 *
 param
-aOffsetY
+aOffsetX
 The
-top
+left
 offset
 that
 is
@@ -3701,7 +3700,7 @@ function
 synthesizeNativeMouseDrag
 (
 aElement
-aOffsetY
+aOffsetX
 )
 {
 let
@@ -3717,8 +3716,7 @@ synthesizeNativeMouseEvent
 (
 aElement
 msg
-0
-aOffsetY
+aOffsetX
 )
 ;
 }
