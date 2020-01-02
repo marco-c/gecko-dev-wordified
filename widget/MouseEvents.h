@@ -4053,6 +4053,7 @@ UpdateFlags
 )
 ;
 }
+explicit
 WidgetPointerEvent
 (
 const
