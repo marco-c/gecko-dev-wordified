@@ -681,6 +681,7 @@ mHash
 ;
 }
 ;
+const
 PLDHashTableOps
 CacheFileHandles
 :

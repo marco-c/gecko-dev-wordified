@@ -495,6 +495,7 @@ entry
 )
 ;
 static
+const
 PLDHashTableOps
 mOps
 ;

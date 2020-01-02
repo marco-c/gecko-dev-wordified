@@ -1901,6 +1901,7 @@ nsCacheEntryHashTable
 *
 *
 /
+const
 PLDHashTableOps
 nsCacheEntryHashTable
 :

@@ -1101,6 +1101,7 @@ binding
 member
 variables
 static
+const
 PLDHashTableOps
 ops
 ;

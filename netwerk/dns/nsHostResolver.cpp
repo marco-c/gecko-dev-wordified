@@ -2732,6 +2732,7 @@ true
 ;
 }
 static
+const
 PLDHashTableOps
 gHostDB_ops
 =

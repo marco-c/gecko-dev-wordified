@@ -1239,6 +1239,7 @@ collisions
 *
 *
 /
+const
 PLDHashTableOps
 nsDiskCacheBindery
 :

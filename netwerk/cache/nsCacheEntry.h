@@ -2187,6 +2187,7 @@ arg
 member
 variables
 static
+const
 PLDHashTableOps
 ops
 ;
