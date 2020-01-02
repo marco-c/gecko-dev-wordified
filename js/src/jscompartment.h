@@ -2110,7 +2110,7 @@ crossCompartmentWrappers
 }
 ;
 void
-mark
+markRoots
 (
 JSTracer
 *

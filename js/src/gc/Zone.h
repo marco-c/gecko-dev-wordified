@@ -843,9 +843,6 @@ js
 CompartmentVector
 compartments
 ;
-bool
-hold
-;
 private
 :
 bool

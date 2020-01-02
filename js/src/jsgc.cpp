@@ -17722,13 +17722,6 @@ read
 ;
 if
 (
-!
-zone
--
->
-hold
-&
-&
 zone
 -
 >
@@ -18903,10 +18896,7 @@ zone
 >
 maybeAlive
 =
-zone
--
->
-hold
+false
 ;
 zone
 -
