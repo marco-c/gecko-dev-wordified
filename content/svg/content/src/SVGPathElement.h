@@ -248,6 +248,13 @@ public
 :
 /
 /
+DOM
+memory
+reporter
+participant
+NS_DECL_SIZEOF_EXCLUDING_THIS
+/
+/
 nsIContent
 interface
 NS_IMETHOD_
