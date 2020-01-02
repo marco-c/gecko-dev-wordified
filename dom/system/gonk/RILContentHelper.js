@@ -1722,7 +1722,7 @@ pdu
 {
 this
 .
-geographicalScope
+gsmGeographicalScope
 =
 RIL
 .
@@ -1808,6 +1808,14 @@ etws
 )
 ;
 }
+this
+.
+cdmaServiceCategory
+=
+pdu
+.
+serviceCategory
+;
 }
 CellBroadcastMessage
 .
@@ -1863,7 +1871,7 @@ nsIDOMMozCellBroadcastMessage
 /
 /
 nsIDOMMozCellBroadcastMessage
-geographicalScope
+gsmGeographicalScope
 :
 null
 messageCode
@@ -1885,6 +1893,9 @@ timestamp
 :
 null
 etws
+:
+null
+cdmaServiceCategory
 :
 null
 }

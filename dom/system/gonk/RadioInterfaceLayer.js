@@ -6500,6 +6500,13 @@ return
 ;
 case
 "
+broadcastsms
+-
+received
+"
+:
+case
+"
 cellbroadcast
 -
 received
