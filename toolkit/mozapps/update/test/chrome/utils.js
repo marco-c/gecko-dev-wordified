@@ -1544,7 +1544,7 @@ function
 var
 DEBUG_AUS_TEST
 =
-true
+false
 ;
 #
 include
