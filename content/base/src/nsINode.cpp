@@ -15936,6 +15936,18 @@ return
 nullptr
 ;
 }
+MOZ_ASSERT
+(
+js
+:
+:
+IsObjectInContextCompartment
+(
+aScope
+aCx
+)
+)
+;
 JS
 :
 :
@@ -15950,7 +15962,6 @@ aCx
 WrapNode
 (
 aCx
-aScope
 )
 )
 ;
