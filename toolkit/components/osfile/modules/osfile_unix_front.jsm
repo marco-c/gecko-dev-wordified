@@ -6060,7 +6060,7 @@ size
 =
 Type
 .
-size_t
+stat_size_t
 .
 importFromC
 (
