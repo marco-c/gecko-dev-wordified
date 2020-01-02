@@ -2152,9 +2152,6 @@ HandleObject
 jsObj
 REFNSIID
 aIID
-nsISupports
-*
-aOuter
 nsXPCWrappedJS
 *
 *
@@ -2431,7 +2428,6 @@ cx
 jsObj
 clazz
 nullptr
-aOuter
 )
 ;
 if
@@ -2500,7 +2496,6 @@ cx
 rootJSObj
 rootClazz
 nullptr
-aOuter
 )
 ;
 NS_RELEASE
@@ -2581,7 +2576,6 @@ cx
 jsObj
 clazz
 root
-aOuter
 )
 ;
 if
@@ -2664,9 +2658,6 @@ aClass
 nsXPCWrappedJS
 *
 root
-nsISupports
-*
-aOuter
 )
 :
 mJSObj
@@ -2693,11 +2684,7 @@ nullptr
 )
 mOuter
 (
-root
-?
 nullptr
-:
-aOuter
 )
 {
 InitStub
@@ -2756,11 +2743,6 @@ NS_ADDREF_THIS
 NS_ADDREF
 (
 aClass
-)
-;
-NS_IF_ADDREF
-(
-mOuter
 )
 ;
 if

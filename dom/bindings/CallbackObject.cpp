@@ -1743,7 +1743,6 @@ GetNewOrUsed
 (
 callback
 aIID
-nullptr
 getter_AddRefs
 (
 wrappedJS
