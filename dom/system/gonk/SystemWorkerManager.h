@@ -307,14 +307,6 @@ SystemWorkerManager
 )
 ;
 nsresult
-InitNetd
-(
-JSContext
-*
-cx
-)
-;
-nsresult
 InitWifi
 (
 JSContext
@@ -329,12 +321,6 @@ JSContext
 *
 cx
 )
-;
-nsCOMPtr
-<
-nsIWorkerHolder
->
-mNetdWorker
 ;
 nsCOMPtr
 <
