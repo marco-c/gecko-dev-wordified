@@ -11205,7 +11205,7 @@ reset
 percent
 coord
 calc
-AutoFallibleTArray
+nsAutoTArray
 <
 nsTransition
 1
@@ -11247,7 +11247,7 @@ mTransitionDurationCount
 mTransitionDelayCount
 mTransitionPropertyCount
 ;
-AutoFallibleTArray
+nsAutoTArray
 <
 nsAnimation
 1
