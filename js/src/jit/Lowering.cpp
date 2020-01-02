@@ -15465,7 +15465,7 @@ GetIonContext
 runtime
 -
 >
-signalHandlersInstalled
+canUseSignalHandlers
 (
 )
 )

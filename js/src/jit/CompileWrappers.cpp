@@ -472,7 +472,7 @@ bool
 CompileRuntime
 :
 :
-signalHandlersInstalled
+canUseSignalHandlers
 (
 )
 {
@@ -482,7 +482,7 @@ runtime
 )
 -
 >
-signalHandlersInstalled
+canUseSignalHandlers
 (
 )
 ;

@@ -380,7 +380,7 @@ spsProfiler
 )
 ;
 bool
-signalHandlersInstalled
+canUseSignalHandlers
 (
 )
 ;

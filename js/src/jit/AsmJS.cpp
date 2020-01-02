@@ -49125,7 +49125,7 @@ if
 cx
 -
 >
-signalHandlersInstalled
+canUseSignalHandlers
 (
 )
 )
@@ -49584,7 +49584,7 @@ jitSupportsFloatingPoint
 cx
 -
 >
-signalHandlersInstalled
+canUseSignalHandlers
 (
 )
 &

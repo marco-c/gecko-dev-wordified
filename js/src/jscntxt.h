@@ -1679,7 +1679,7 @@ SystemPageSize
 ;
 }
 bool
-signalHandlersInstalled
+canUseSignalHandlers
 (
 )
 const
@@ -1688,7 +1688,7 @@ return
 runtime_
 -
 >
-signalHandlersInstalled
+canUseSignalHandlers
 (
 )
 ;
