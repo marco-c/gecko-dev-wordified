@@ -4067,6 +4067,13 @@ button
 -
 scratchpad
 "
+"
+command
+-
+button
+-
+eyedropper
+"
 ]
 .
 map
