@@ -2609,6 +2609,7 @@ scriptable
 classes
 class
 VisualEventTracerLog
+MOZ_FINAL
 :
 public
 nsIVisualEventTracerLog
@@ -2633,7 +2634,8 @@ gProfilerStart
 )
 {
 }
-virtual
+private
+:
 ~
 VisualEventTracerLog
 (
