@@ -5934,6 +5934,13 @@ onremoteresumed
 )
 GK_ATOM
 (
+onresourcetimingbufferfull
+"
+onresourcetimingbufferfull
+"
+)
+GK_ATOM
+(
 onretrieving
 "
 onretrieving
