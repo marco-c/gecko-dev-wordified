@@ -173,6 +173,9 @@ class
 LayerManager
 ;
 class
+BasicLayerManager
+;
+class
 ThebesLayer
 ;
 }
@@ -711,6 +714,13 @@ layers
 :
 LayerManager
 LayerManager
+;
+typedef
+layers
+:
+:
+BasicLayerManager
+BasicLayerManager
 ;
 FrameLayerBuilder
 (
@@ -1838,7 +1848,7 @@ const
 nsPoint
 &
 aTopLeft
-LayerManager
+BasicLayerManager
 *
 aManager
 nsAutoPtr
@@ -2756,7 +2766,7 @@ mOptLayer
 ;
 nsRefPtr
 <
-LayerManager
+BasicLayerManager
 >
 mInactiveManager
 ;
