@@ -1352,7 +1352,7 @@ showNoImage
 (
 )
 {
-setImageBitmap
+setImageDrawable
 (
 null
 )
