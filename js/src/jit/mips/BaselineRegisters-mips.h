@@ -151,8 +151,8 @@ MOZ_CONSTEXPR_VAR
 ValueOperand
 R0
 (
-v1
-v0
+a3
+a2
 )
 ;
 static

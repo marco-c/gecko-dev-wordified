@@ -1148,7 +1148,7 @@ JSCallMask
 Registers
 :
 :
-v0
+a2
 )
 |
 (
@@ -1158,7 +1158,7 @@ v0
 Registers
 :
 :
-v1
+a3
 )
 ;
 /
