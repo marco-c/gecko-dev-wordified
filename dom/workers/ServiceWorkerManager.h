@@ -863,6 +863,10 @@ nsIServiceWorkerManager
 {
 friend
 class
+ActivationRunnable
+;
+friend
+class
 RegisterRunnable
 ;
 friend
@@ -1302,6 +1306,14 @@ aWindow
 ;
 void
 FinishInstall
+(
+ServiceWorkerRegistration
+*
+aRegistration
+)
+;
+void
+FinishActivate
 (
 ServiceWorkerRegistration
 *
