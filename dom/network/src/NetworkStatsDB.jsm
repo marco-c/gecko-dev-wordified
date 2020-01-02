@@ -3009,6 +3009,16 @@ if
 (
 !
 sample
+&
+&
+cursor
+.
+value
+.
+appId
+=
+=
+0
 )
 {
 sample
