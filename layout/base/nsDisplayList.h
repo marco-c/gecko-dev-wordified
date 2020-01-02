@@ -17480,6 +17480,16 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+ShouldBuildLayerEvenIfInvisible
+(
+nsDisplayListBuilder
+*
+aBuilder
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 ComputeVisibility
 (
 nsDisplayListBuilder
