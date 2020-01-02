@@ -3141,6 +3141,9 @@ not
 what
 :
             
+try
+:
+                
 #
 Fennec
 doesn
@@ -3155,7 +3158,7 @@ building
 .
 We
 should
-            
+                
 #
 arguably
 make
@@ -3171,7 +3174,7 @@ day
 .
 .
 .
-            
+                
 if
 self
 .
@@ -3189,7 +3192,7 @@ mobile
 android
 '
 :
-                
+                    
 print
 (
 '
@@ -3209,7 +3212,7 @@ run
 |
 '
 )
-            
+                
 app
 =
 self
@@ -3220,7 +3223,7 @@ substs
 MOZ_BUILD_APP
 '
 ]
-            
+                
 if
 app
 in
@@ -3235,7 +3238,7 @@ android
 '
 )
 :
-                
+                    
 print
 (
 '
@@ -3249,7 +3252,7 @@ do
 now
 see
 '
-                    
+                        
 '
 https
 :
@@ -3268,6 +3271,37 @@ Developer_Guide
 So_You_Just_Built_Firefox
 '
 )
+            
+except
+Exception
+:
+                
+#
+Ignore
+Exceptions
+in
+case
+we
+can
+'
+t
+find
+config
+.
+status
+(
+such
+                
+#
+as
+when
+doing
+OSX
+Universal
+builds
+)
+                
+pass
         
 return
 status
