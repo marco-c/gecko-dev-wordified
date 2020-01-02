@@ -365,6 +365,7 @@ HttpChannelCreationArgs
 &
 aOpenArgs
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -385,6 +386,7 @@ HttpChannelCreationArgs
 &
 aOpenArgs
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -393,6 +395,7 @@ DeallocPHttpChannelParent
 PHttpChannelParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -401,6 +404,7 @@ DeallocPCookieServiceParent
 PCookieServiceParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PWyciwygChannelParent
@@ -408,6 +412,7 @@ PWyciwygChannelParent
 AllocPWyciwygChannelParent
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -416,6 +421,7 @@ DeallocPWyciwygChannelParent
 PWyciwygChannelParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PFTPChannelParent
@@ -434,6 +440,7 @@ FTPChannelCreationArgs
 &
 aOpenArgs
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -454,6 +461,7 @@ FTPChannelCreationArgs
 &
 aOpenArgs
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -462,6 +470,7 @@ DeallocPFTPChannelParent
 PFTPChannelParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PWebSocketParent
@@ -476,6 +485,7 @@ SerializedLoadContext
 &
 aSerialized
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -484,6 +494,7 @@ DeallocPWebSocketParent
 PWebSocketParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PTCPSocketParent
@@ -491,6 +502,7 @@ PTCPSocketParent
 AllocPTCPSocketParent
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 PRemoteOpenFileParent
@@ -543,6 +555,7 @@ DeallocPTCPSocketParent
 PTCPSocketParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PTCPServerSocketParent
@@ -562,6 +575,7 @@ nsString
 &
 aBinaryType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -582,6 +596,7 @@ nsString
 &
 aBinaryType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -590,6 +605,7 @@ DeallocPTCPServerSocketParent
 PTCPServerSocketParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PUDPSocketParent
@@ -609,6 +625,7 @@ nsCString
 &
 aFilter
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -629,6 +646,7 @@ nsCString
 &
 aFilter
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -637,6 +655,7 @@ DeallocPUDPSocketParent
 PUDPSocketParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PDNSRequestParent
@@ -652,6 +671,7 @@ uint32_t
 &
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -669,6 +689,7 @@ uint32_t
 &
 flags
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -677,6 +698,7 @@ DeallocPDNSRequestParent
 PDNSRequestParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -691,6 +713,7 @@ uint16_t
 &
 flags
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -709,6 +732,7 @@ nsresult
 &
 reason
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -742,6 +766,7 @@ PRtspControllerParent
 AllocPRtspControllerParent
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -750,6 +775,7 @@ DeallocPRtspControllerParent
 PRtspControllerParent
 *
 )
+MOZ_OVERRIDE
 ;
 private
 :

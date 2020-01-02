@@ -376,6 +376,7 @@ EditReplyArray
 *
 aReply
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -386,6 +387,7 @@ EditArray
 &
 aEdits
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

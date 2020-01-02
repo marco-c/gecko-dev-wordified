@@ -226,6 +226,7 @@ nsCString
 &
 securityInfo
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnDataAvailable
@@ -239,6 +240,7 @@ uint64_t
 &
 offset
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnStopRequest
@@ -248,6 +250,7 @@ nsresult
 &
 statusCode
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvCancelEarly
@@ -257,6 +260,7 @@ nsresult
 &
 statusCode
 )
+MOZ_OVERRIDE
 ;
 void
 OnStartRequest

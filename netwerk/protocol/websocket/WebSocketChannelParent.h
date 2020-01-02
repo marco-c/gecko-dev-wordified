@@ -255,6 +255,7 @@ bool
 &
 aClientSetPingTimeout
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvClose
@@ -268,6 +269,7 @@ nsCString
 &
 reason
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvSendMsg
@@ -277,6 +279,7 @@ nsCString
 &
 aMsg
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvSendBinaryMsg
@@ -286,6 +289,7 @@ nsCString
 &
 aMsg
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvSendBinaryStream
@@ -299,11 +303,13 @@ uint32_t
 &
 aLength
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvDeleteSelf
 (
 )
+MOZ_OVERRIDE
 ;
 void
 ActorDestroy
@@ -311,6 +317,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 nsCOMPtr
 <

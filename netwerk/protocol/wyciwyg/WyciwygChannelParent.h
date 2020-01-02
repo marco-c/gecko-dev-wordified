@@ -162,6 +162,7 @@ URIParams
 &
 uri
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -186,6 +187,7 @@ PBrowserParent
 *
 parent
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -196,6 +198,7 @@ nsString
 &
 data
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -206,6 +209,7 @@ nsresult
 &
 reason
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -220,6 +224,7 @@ nsCString
 &
 charset
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -230,6 +235,7 @@ nsCString
 &
 securityInfo
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -240,6 +246,7 @@ nsresult
 &
 statusCode
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -256,6 +263,7 @@ PBrowserParent
 *
 parent
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -264,6 +272,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 bool
 SetupAppData

@@ -179,6 +179,7 @@ ObjectId
 &
 objId
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerPreventExtensions
@@ -191,6 +192,7 @@ ReturnStatus
 *
 rs
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerGetPropertyDescriptor
@@ -214,6 +216,7 @@ PPropertyDescriptor
 *
 out
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerGetOwnPropertyDescriptor
@@ -237,6 +240,7 @@ PPropertyDescriptor
 *
 out
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerDefineProperty
@@ -257,6 +261,7 @@ ReturnStatus
 *
 rs
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerDelete
@@ -276,6 +281,7 @@ bool
 *
 success
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerHas
@@ -295,6 +301,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerHasOwn
@@ -314,6 +321,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerGet
@@ -337,6 +345,7 @@ JSVariant
 *
 result
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerSet
@@ -368,6 +377,7 @@ JSVariant
 *
 result
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerIsExtensible
@@ -383,6 +393,7 @@ bool
 *
 result
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerCall
@@ -411,6 +422,7 @@ JSParam
 *
 outparams
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerObjectClassIs
@@ -427,6 +439,7 @@ bool
 *
 result
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerClassName
@@ -439,6 +452,7 @@ nsString
 *
 result
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerGetPropertyNames
@@ -461,6 +475,7 @@ nsString
 *
 names
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerInstanceOf
@@ -480,6 +495,7 @@ bool
 *
 instanceof
 )
+MOZ_OVERRIDE
 ;
 bool
 AnswerDOMInstanceOf
@@ -503,6 +519,7 @@ bool
 *
 instanceof
 )
+MOZ_OVERRIDE
 ;
 protected
 :
