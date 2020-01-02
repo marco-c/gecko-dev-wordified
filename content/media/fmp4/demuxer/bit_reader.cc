@@ -48,6 +48,11 @@ bit_reader
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mp4_demuxer
 {
