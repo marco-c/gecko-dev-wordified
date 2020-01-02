@@ -1314,6 +1314,7 @@ config_topobjdir
                 
 and
 (
+not
 os
 .
 path
@@ -1322,7 +1323,7 @@ exists
 (
 mozilla_dir
 )
-and
+or
 not
 samepath
 (
