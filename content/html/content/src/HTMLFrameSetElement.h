@@ -299,7 +299,7 @@ namespace
 dom
 {
 class
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 ;
 class
 HTMLFrameSetElement
@@ -601,7 +601,7 @@ struct_
 WINDOW_EVENT_HELPER
 (
 name_
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 )
 #
 include

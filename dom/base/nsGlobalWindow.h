@@ -3986,7 +3986,7 @@ mozilla
 dom
 :
 :
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 *
 GetOn
 #
@@ -4033,7 +4033,7 @@ mozilla
 dom
 :
 :
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 *
 handler
 )
