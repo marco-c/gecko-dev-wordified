@@ -439,7 +439,6 @@ mContent
 mStyleContext
 &
 mSqrChar
-true
 )
 ;
 }

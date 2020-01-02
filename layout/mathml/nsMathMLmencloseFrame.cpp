@@ -493,7 +493,6 @@ mMathMLChar
 [
 i
 ]
-true
 )
 ;
 return

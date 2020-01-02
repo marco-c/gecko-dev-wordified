@@ -829,7 +829,6 @@ mContent
 mStyleContext
 &
 mMathMLChar
-false
 )
 ;
 return
@@ -1306,7 +1305,6 @@ mContent
 mStyleContext
 &
 mMathMLChar
-isMutable
 )
 ;
 }
