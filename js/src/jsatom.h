@@ -664,6 +664,7 @@ DECLARE_PROTO_STR
 name
 code
 init
+clasp
 )
 extern
 const

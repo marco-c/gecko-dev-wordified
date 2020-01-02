@@ -411,6 +411,7 @@ PROTOKEY_AND_INITIALIZER
 name
 code
 init
+clasp
 )
 JSProto_
 #

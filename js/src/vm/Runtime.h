@@ -2592,6 +2592,7 @@ PROPERTYNAME_FIELD
 name
 code
 init
+clasp
 )
 js
 :
