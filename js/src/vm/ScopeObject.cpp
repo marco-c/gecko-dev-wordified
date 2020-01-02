@@ -8344,8 +8344,9 @@ vp
 .
 set
 (
-UndefinedValue
+MagicValue
 (
+JS_OPTIMIZED_OUT
 )
 )
 ;
@@ -8568,8 +8569,9 @@ vp
 .
 set
 (
-UndefinedValue
+MagicValue
 (
+JS_OPTIMIZED_OUT
 )
 )
 ;
