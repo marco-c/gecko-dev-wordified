@@ -243,6 +243,9 @@ nsAString
 aTitle
 )
 {
+if
+(
+!
 nsContentUtils
 :
 :
@@ -252,7 +255,12 @@ this
 false
 aTitle
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 return
 NS_OK
 ;

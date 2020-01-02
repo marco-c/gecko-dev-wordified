@@ -933,6 +933,9 @@ nsAString
 text
 )
 {
+if
+(
+!
 nsContentUtils
 :
 :
@@ -942,7 +945,16 @@ this
 false
 text
 )
+)
+{
+NS_RUNTIMEABORT
+(
+"
+OOM
+"
+)
 ;
+}
 }
 void
 SVGScriptElement
