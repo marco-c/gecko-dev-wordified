@@ -7772,6 +7772,17 @@ checkStackAlignment
 )
 ;
 void
+alignPointerUp
+(
+Register
+src
+Register
+dest
+uint32_t
+alignment
+)
+;
+void
 rshiftPtr
 (
 Imm32
