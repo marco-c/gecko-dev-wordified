@@ -1805,10 +1805,6 @@ Flush
 (
 )
 ;
-mOptSurface
-=
-mQuartzSurface
-;
 }
 #
 endif
