@@ -377,6 +377,8 @@ nsAutoPtr
 <
 txDecimalFormat
 >
+&
+&
 aFormat
 )
 ;
@@ -491,11 +493,15 @@ nsAutoPtr
 <
 Expr
 >
+&
+&
 aExpr
 nsAutoPtr
 <
 txInstruction
 >
+&
+&
 aFirstInstruction
 bool
 aIsParam

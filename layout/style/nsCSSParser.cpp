@@ -149,6 +149,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsCSSParser
 .
 h
@@ -20463,7 +20472,10 @@ rule
 new
 nsCSSPageRule
 (
+Move
+(
 declaration
+)
 )
 ;
 (
@@ -20574,7 +20586,10 @@ new
 nsCSSKeyframeRule
 (
 selectorList
+Move
+(
 declaration
+)
 )
 ;
 return

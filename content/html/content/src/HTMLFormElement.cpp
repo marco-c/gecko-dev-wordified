@@ -172,6 +172,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsIHTMLDocument
 .
 h
@@ -8394,7 +8403,10 @@ nsFormSubmission
 >
 submission
 =
+Move
+(
 mPendingSubmission
+)
 ;
 SubmitSubmission
 (

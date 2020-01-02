@@ -105,6 +105,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 txStylesheetCompiler
 .
 h
@@ -1916,7 +1925,10 @@ rv
 =
 addInstruction
 (
+Move
+(
 instr
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2571,7 +2583,10 @@ forget
 ;
 mElementContext
 =
+Move
+(
 context
+)
 ;
 return
 NS_OK
@@ -3629,6 +3644,8 @@ nsAutoPtr
 <
 txInstruction
 >
+&
+&
 aInstruction
 )
 {

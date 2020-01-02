@@ -530,11 +530,15 @@ nsAutoPtr
 <
 txPattern
 >
+&
+&
 aMatch
 nsAutoPtr
 <
 Expr
 >
+&
+&
 aUse
 )
 ;
