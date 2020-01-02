@@ -1663,7 +1663,7 @@ void
 AddStyleBit
 (
 const
-uint32_t
+uint64_t
 &
 aBit
 )
@@ -3382,7 +3382,7 @@ Cached
 inherited
 style
 data
-uint32_t
+uint64_t
 mBits
 ;
 /

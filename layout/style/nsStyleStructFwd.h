@@ -402,7 +402,7 @@ sid_
 1
 <
 <
-int32_t
+uint64_t
 (
 eStyleStruct_
 #

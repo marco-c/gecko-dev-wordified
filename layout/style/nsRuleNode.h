@@ -316,7 +316,7 @@ sz
 void
 DestroyStructs
 (
-uint32_t
+uint64_t
 aBits
 nsPresContext
 *
@@ -411,7 +411,7 @@ STYLE_STRUCT_RESET
 void
 Destroy
 (
-uint32_t
+uint64_t
 aBits
 nsPresContext
 *
@@ -547,7 +547,7 @@ sz
 void
 Destroy
 (
-uint32_t
+uint64_t
 aBits
 nsPresContext
 *
@@ -996,7 +996,7 @@ STYLE_STRUCT_INHERITED
 void
 Destroy
 (
-uint32_t
+uint64_t
 aBits
 nsPresContext
 *
