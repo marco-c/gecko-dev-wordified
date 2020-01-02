@@ -1991,6 +1991,11 @@ SurfaceFormat
 aFormat
 TextureFlags
 aFlags
+gfx
+:
+:
+BackendType
+aMoz2DBackend
 )
 {
 return
@@ -2003,6 +2008,7 @@ aFormat
 mTextureFlags
 |
 aFlags
+aMoz2DBackend
 )
 ;
 }
