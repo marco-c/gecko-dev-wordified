@@ -8312,6 +8312,11 @@ GetExtantDoc
 (
 )
 ;
+if
+(
+doc
+)
+{
 pm
 -
 >
@@ -8338,13 +8343,12 @@ nsIPopupWindowManager
 DENY_POPUP
 )
 {
-nsGlobalWindow
-:
-:
+aWindow
+-
+>
 FirePopupBlockedEvent
 (
 doc
-aWindow
 nullptr
 EmptyString
 (
@@ -8357,6 +8361,7 @@ EmptyString
 return
 NS_OK
 ;
+}
 }
 }
 }
