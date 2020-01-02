@@ -574,7 +574,7 @@ aMallocSizeOf
 ;
 }
 const
-nsAutoCString
+nsCString
 mType
 ;
 }

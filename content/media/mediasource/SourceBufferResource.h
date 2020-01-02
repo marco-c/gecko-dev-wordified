@@ -1856,7 +1856,7 @@ nsIPrincipal
 mPrincipal
 ;
 const
-nsAutoCString
+nsCString
 mType
 ;
 /
