@@ -953,9 +953,7 @@ GetDrawTarget
 (
 )
 opacity
-GetOperator
-(
-)
+effectiveOperator
 maskSurface
 &
 maskTransform
