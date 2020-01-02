@@ -2242,6 +2242,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 {
 aOutFrames
 -
@@ -2263,6 +2264,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRect
@@ -2275,6 +2277,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

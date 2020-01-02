@@ -3273,6 +3273,7 @@ GetScrollbarStyles
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mHelper
@@ -4940,6 +4941,7 @@ GetScrollbarStyles
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mHelper

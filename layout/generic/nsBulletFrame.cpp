@@ -1028,6 +1028,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 {
 *
 aSnap
@@ -1069,6 +1070,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 {
 aOutFrames
 -
@@ -1090,6 +1092,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -1106,6 +1109,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 {
 bool
 snap
@@ -1128,6 +1132,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -1153,6 +1158,7 @@ nsRegion
 *
 aInvalidRegion
 )
+MOZ_OVERRIDE
 {
 const
 nsDisplayBulletGeometry

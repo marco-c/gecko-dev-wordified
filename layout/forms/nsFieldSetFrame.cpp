@@ -613,6 +613,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -625,6 +626,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

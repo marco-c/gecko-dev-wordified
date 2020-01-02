@@ -728,6 +728,7 @@ aReflowState
 nullptr
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef

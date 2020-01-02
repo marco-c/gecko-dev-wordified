@@ -102,6 +102,15 @@ nsFieldSetFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -146,6 +155,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -155,6 +165,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -184,6 +195,7 @@ GetBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -254,6 +266,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -299,6 +312,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -313,6 +327,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -324,6 +339,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -332,6 +348,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -341,6 +358,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame
@@ -406,6 +424,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -421,6 +440,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName

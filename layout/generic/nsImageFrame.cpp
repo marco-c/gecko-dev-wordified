@@ -6860,6 +6860,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 {
 *
 aSnap
@@ -6890,6 +6891,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 {
 nsImageFrame
 *

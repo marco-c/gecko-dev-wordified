@@ -5937,6 +5937,7 @@ nsIDOMCSSRule
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 void
 DropReference
@@ -5955,6 +5956,7 @@ GetCSSDeclaration
 bool
 aAllocate
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -5967,6 +5969,7 @@ Declaration
 *
 aDecl
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5976,6 +5979,7 @@ CSSParsingEnvironment
 &
 aCSSParseEnv
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDocument
@@ -5983,6 +5987,7 @@ nsIDocument
 DocToUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -6027,6 +6032,7 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 {
 return
 mRule

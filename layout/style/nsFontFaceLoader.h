@@ -132,6 +132,15 @@ nsFontFaceLoader_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -273,6 +282,7 @@ gfxFontFaceSrc
 *
 aFontFaceSrc
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -341,6 +351,7 @@ gfxFontEntry
 *
 aFontEntry
 )
+MOZ_OVERRIDE
 ;
 nsCSSFontFaceRule
 *
@@ -460,6 +471,7 @@ aStatus
 =
 NS_OK
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -477,6 +489,7 @@ bool
 *
 aBypassCache
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -497,6 +510,7 @@ uint32_t
 &
 aBufferLength
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

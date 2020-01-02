@@ -596,6 +596,7 @@ HandleEvent
 nsIDOMEvent
 *
 )
+MOZ_OVERRIDE
 {
 mComboBox
 -
@@ -2610,6 +2611,7 @@ bool
 ReflowFinished
 (
 )
+MOZ_OVERRIDE
 {
 Run
 (
@@ -2628,6 +2630,7 @@ void
 ReflowCallbackCanceled
 (
 )
+MOZ_OVERRIDE
 {
 NS_RELEASE_THIS
 (
@@ -8550,6 +8553,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -8559,6 +8563,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsBlockFrame
@@ -8596,6 +8601,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -9835,6 +9841,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (

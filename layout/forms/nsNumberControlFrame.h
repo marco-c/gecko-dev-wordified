@@ -102,6 +102,15 @@ nsNumberControlFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -254,6 +263,7 @@ ContentStatesChanged
 nsEventStates
 aStates
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

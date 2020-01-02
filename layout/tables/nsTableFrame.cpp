@@ -6883,6 +6883,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -29572,6 +29573,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 if
 (

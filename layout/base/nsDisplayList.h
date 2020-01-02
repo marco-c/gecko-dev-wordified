@@ -11727,6 +11727,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -12716,6 +12717,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -14521,6 +14523,7 @@ nsRegion
 *
 aInvalidRegion
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -14529,6 +14532,7 @@ ApplyOpacity
 float
 aOpacity
 )
+MOZ_OVERRIDE
 {
 mOpacity
 =
@@ -14671,6 +14675,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -16076,6 +16081,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsDisplayList
@@ -16868,6 +16874,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -18813,6 +18820,7 @@ ContainerLayerParameters
 &
 aParameters
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -19199,6 +19207,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 {
 if
 (

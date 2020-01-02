@@ -225,6 +225,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 SVGFEContainerFrameBase
@@ -261,6 +262,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -326,6 +328,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -339,12 +342,14 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 UpdateOverflow
 (
 )
+MOZ_OVERRIDE
 {
 /
 /

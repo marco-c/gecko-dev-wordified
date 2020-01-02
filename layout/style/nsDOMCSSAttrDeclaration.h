@@ -259,6 +259,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 protected
 :

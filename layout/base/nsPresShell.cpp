@@ -3094,6 +3094,7 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -3506,6 +3507,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <

@@ -5199,6 +5199,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -5215,6 +5216,7 @@ nsRect
 &
 aAllowVisibleRegionExpansion
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -5241,6 +5243,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
+MOZ_OVERRIDE
 {
 return
 static_cast
@@ -5277,6 +5280,7 @@ ContainerLayerParameters
 &
 aParameters
 )
+MOZ_OVERRIDE
 {
 return
 LAYER_ACTIVE
@@ -5546,6 +5550,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -5562,6 +5567,7 @@ nsRect
 &
 aAllowVisibleRegionExpansion
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -5588,6 +5594,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
+MOZ_OVERRIDE
 {
 return
 static_cast
@@ -5624,6 +5631,7 @@ ContainerLayerParameters
 &
 aParameters
 )
+MOZ_OVERRIDE
 {
 return
 LAYER_ACTIVE
