@@ -526,6 +526,9 @@ aListener
 nsITabChild
 *
 aTabChild
+nsILoadContext
+*
+aLoadContext
 )
 ;
 void
