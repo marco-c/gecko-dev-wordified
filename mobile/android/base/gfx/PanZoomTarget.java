@@ -138,8 +138,8 @@ getZoomConstraints
 )
 ;
 public
-boolean
-isFullScreen
+FullScreenState
+getFullScreenState
 (
 )
 ;
