@@ -12,7 +12,7 @@ and
 prototypes
 for
 the
-crypto
+freebl
 library
 *
 *

@@ -9,12 +9,10 @@ public
 data
 structures
 for
-digestinfos
-from
-the
-util
-lib
-.
+digest
+-
+info
+objects
 *
 *
 This

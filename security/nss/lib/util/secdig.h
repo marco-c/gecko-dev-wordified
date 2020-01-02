@@ -8,11 +8,10 @@ h
 public
 prototypes
 for
-digestinfos
-from
-the
-util
-lib
+digest
+-
+info
+functions
 *
 *
 This
