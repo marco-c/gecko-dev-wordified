@@ -171,7 +171,6 @@ initialize
 :
 function
 (
-document
 )
 {
 ItchEditor

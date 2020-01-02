@@ -174,7 +174,6 @@ initialize
 :
 function
 (
-document
 host
 )
 {
