@@ -16997,6 +16997,15 @@ app_state
 )
 {
 case
+CARD_APPSTATE_ILLEGAL
+:
+newCardState
+=
+GECKO_CARDSTATE_ILLEGAL
+;
+break
+;
+case
 CARD_APPSTATE_PIN
 :
 newCardState
