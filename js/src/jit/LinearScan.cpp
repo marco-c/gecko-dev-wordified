@@ -6798,7 +6798,7 @@ if
 reg
 -
 >
-isDouble
+isFloatReg
 (
 )
 )
@@ -7599,7 +7599,7 @@ vreg
 )
 ]
 .
-isDouble
+isFloatReg
 (
 )
 ;
@@ -8585,7 +8585,7 @@ vreg
 )
 ]
 .
-isDouble
+isFloatReg
 (
 )
 ;

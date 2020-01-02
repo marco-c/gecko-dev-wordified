@@ -5266,7 +5266,7 @@ i
 )
 ]
 .
-isDouble
+isFloatReg
 (
 )
 !
@@ -5276,7 +5276,7 @@ vregs
 use
 ]
 .
-isDouble
+isFloatReg
 (
 )
 )
