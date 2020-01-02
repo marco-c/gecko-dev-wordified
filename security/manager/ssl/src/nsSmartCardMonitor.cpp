@@ -1269,6 +1269,9 @@ mHash
 void
 *
 )
+(
+uintptr_t
+)
 slotid
 entry
 )
@@ -1305,6 +1308,9 @@ mHash
 (
 void
 *
+)
+(
+uintptr_t
 )
 slotid
 )
@@ -1361,6 +1367,9 @@ mHash
 (
 void
 *
+)
+(
+uintptr_t
 )
 slotid
 )
@@ -1434,6 +1443,9 @@ mHash
 (
 void
 *
+)
+(
+uintptr_t
 )
 slotid
 )

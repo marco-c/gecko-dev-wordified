@@ -447,6 +447,9 @@ RegOpenKeyExW
 (
 HKEY
 )
+(
+intptr_t
+)
 rootKey
 PromiseFlatString
 (
@@ -508,6 +511,9 @@ RegCreateKeyExW
 (
 (
 HKEY
+)
+(
+intptr_t
 )
 rootKey
 PromiseFlatString

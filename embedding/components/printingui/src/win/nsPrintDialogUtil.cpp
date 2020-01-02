@@ -4106,6 +4106,9 @@ aHdlg
 (
 HMENU
 )
+(
+intptr_t
+)
 aId
 aHInst
 nullptr
