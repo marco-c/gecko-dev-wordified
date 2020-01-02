@@ -11885,8 +11885,6 @@ CreateRegExpMatchResult
 (
 cx
 input
-chars
-charsLen
 matches
 &
 rval
