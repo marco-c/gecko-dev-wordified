@@ -3101,7 +3101,7 @@ amount
 mPeriodicWave
 -
 >
-SizeOfExcludingThisIfNotShared
+SizeOfIncludingThisIfNotShared
 (
 aMallocSizeOf
 )

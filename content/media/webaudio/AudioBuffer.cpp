@@ -1276,7 +1276,7 @@ amount
 mSharedChannels
 -
 >
-SizeOfExcludingThis
+SizeOfIncludingThis
 (
 aMallocSizeOf
 )

@@ -4627,7 +4627,7 @@ mFontTableCacheSize
 mFontTableCache
 -
 >
-SizeOfExcludingThis
+SizeOfIncludingThis
 (
 FontTableHashEntry
 :
@@ -27256,7 +27256,7 @@ mShapedWords
 mWordCache
 -
 >
-SizeOfExcludingThis
+SizeOfIncludingThis
 (
 WordCacheEntrySizeOfExcludingThis
 aMallocSizeOf

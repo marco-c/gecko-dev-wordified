@@ -257,6 +257,14 @@ aMallocSizeOf
 )
 const
 ;
+size_t
+SizeOfIncludingThisIfNotShared
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 private
 :
 nsRefPtr

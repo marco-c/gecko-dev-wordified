@@ -3117,7 +3117,7 @@ i
 ]
 -
 >
-SizeOfExcludingThis
+SizeOfIncludingThis
 (
 aMallocSizeOf
 )

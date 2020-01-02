@@ -1258,6 +1258,17 @@ aMallocSizeOf
 )
 const
 ;
+size_t
+SizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 private
 :
 NS_HIDDEN_
