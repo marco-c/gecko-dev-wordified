@@ -354,7 +354,7 @@ represent
 custom
 properties
 (
-var
+-
 -
 *
 )

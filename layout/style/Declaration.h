@@ -551,7 +551,7 @@ e
 without
 the
 "
-var
+-
 -
 "
 prefix
@@ -665,7 +665,7 @@ e
 without
 the
 "
-var
+-
 -
 "
 prefix
@@ -720,7 +720,7 @@ e
 without
 the
 "
-var
+-
 -
 "
 prefix
@@ -775,7 +775,7 @@ e
 without
 the
 "
-var
+-
 -
 "
 prefix
@@ -2086,7 +2086,7 @@ aResult
 AppendLiteral
 (
 "
-var
+-
 -
 "
 )
@@ -2140,7 +2140,7 @@ each
 custom
 property
 (
-var
+-
 -
 *
 )
