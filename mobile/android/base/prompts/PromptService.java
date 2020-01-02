@@ -281,8 +281,6 @@ final
 String
 aText
 final
-Prompt
-.
 PromptListItem
 [
 ]
