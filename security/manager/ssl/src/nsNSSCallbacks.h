@@ -967,16 +967,6 @@ static
 SEC_HttpClientFcn
 sNSSInterfaceTable
 ;
-void
-registerHttpClient
-(
-)
-;
-void
-unregisterHttpClient
-(
-)
-;
 }
 ;
 #
