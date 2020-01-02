@@ -58,13 +58,6 @@ MPL
 /
 #
 include
-"
-prtypes
-.
-h
-"
-#
-include
 <
 stdint
 .
