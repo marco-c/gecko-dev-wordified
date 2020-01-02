@@ -503,6 +503,8 @@ aFlags
 NS_LITERAL_CSTRING
 (
 "
+Layout
+:
 ImageMap
 "
 )
