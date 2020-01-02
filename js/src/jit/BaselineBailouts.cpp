@@ -6681,8 +6681,10 @@ ifdef
 DEBUG
 uint32_t
 expectedDepth
-=
-js_ReconstructStackDepth
+;
+if
+(
+ReconstructStackDepth
 (
 cx
 script
@@ -6694,8 +6696,11 @@ pc
 )
 :
 pc
+&
+expectedDepth
 )
-;
+)
+{
 if
 (
 op
@@ -6973,6 +6978,7 @@ exprStackSlots
 expectedDepth
 )
 ;
+}
 }
 }
 IonSpew
