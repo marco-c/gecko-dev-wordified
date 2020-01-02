@@ -1040,6 +1040,16 @@ digest
 "
 #
 define
+MULTIPART_FORM_DATA
+"
+multipart
+/
+form
+-
+data
+"
+#
+define
 MULTIPART_HEADER_SET
 "
 multipart
