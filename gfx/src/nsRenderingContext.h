@@ -276,9 +276,6 @@ h
 for
 char16_t
 class
-gfxASurface
-;
-class
 nsIntRegion
 ;
 struct
@@ -356,17 +353,6 @@ NS_INLINE_DECL_REFCOUNTING
 (
 nsRenderingContext
 )
-void
-Init
-(
-nsDeviceContext
-*
-aContext
-gfxASurface
-*
-aThebesSurface
-)
-;
 void
 Init
 (
