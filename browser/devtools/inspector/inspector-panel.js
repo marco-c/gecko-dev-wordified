@@ -1704,6 +1704,13 @@ rootNode
 =
 aRootNode
 ;
+if
+(
+this
+.
+selectionCssSelector
+)
+{
 return
 walker
 .
@@ -1715,6 +1722,7 @@ this
 selectionCssSelector
 )
 ;
+}
 }
 )
 .
