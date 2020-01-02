@@ -6085,7 +6085,10 @@ CP_ACP
 0
 buf
 inputLen
+wwc
+(
 result
+)
 resultLen
 )
 ;
@@ -6322,7 +6325,10 @@ CP_ACP
 aStrInA
 -
 1
+wwc
+(
 aStrOutW
+)
 aBufferSize
 )
 ;
