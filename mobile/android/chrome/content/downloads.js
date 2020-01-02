@@ -1838,7 +1838,7 @@ isPrivate
 let
 index
 =
-this
+Downloads
 .
 _privateDownloads
 .
@@ -1856,7 +1856,7 @@ index
 1
 )
 {
-this
+Downloads
 .
 _privateDownloads
 .
