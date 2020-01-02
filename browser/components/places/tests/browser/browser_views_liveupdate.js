@@ -1442,7 +1442,7 @@ function
 PSB_onItemRemoved
 (
 aItemId
-aFolder
+aFolderId
 aIndex
 aItemType
 )
