@@ -4477,14 +4477,14 @@ killProcess
 (
 self
 appname
-forceKill
+sig
 =
-False
+None
 )
 :
         
 if
-forceKill
+sig
 :
             
 self
@@ -4498,7 +4498,7 @@ killProcess
 (
 )
 :
-forceKill
+sig
 parameter
 unsupported
 on
