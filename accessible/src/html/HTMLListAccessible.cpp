@@ -1536,7 +1536,7 @@ blockFrame
 blockFrame
 -
 >
-GetBulletText
+GetSpokenBulletText
 (
 aName
 )
@@ -1622,7 +1622,7 @@ blockFrame
 blockFrame
 -
 >
-GetBulletText
+GetSpokenBulletText
 (
 bulletText
 )

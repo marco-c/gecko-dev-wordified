@@ -1600,7 +1600,7 @@ equivalent
 *
 /
 void
-GetBulletText
+GetSpokenBulletText
 (
 nsAString
 &
