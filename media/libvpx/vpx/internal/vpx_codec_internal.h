@@ -1199,6 +1199,7 @@ zero
 typedef
 const
 struct
+vpx_codec_ctrl_fn_map
 {
 int
 ctrl_id
@@ -1967,6 +1968,7 @@ list
 typedef
 const
 struct
+vpx_codec_enc_cfg_map
 {
 int
 usage
@@ -2117,6 +2119,7 @@ vpx_codec_set_mmap_fn_t
 *
 /
 struct
+vpx_codec_dec_iface
 {
 vpx_codec_peek_si_fn_t
 peek_si
@@ -2178,6 +2181,7 @@ vpx_codec_get_frame_fn_t
 dec
 ;
 struct
+vpx_codec_enc_iface
 {
 vpx_codec_enc_cfg_map_t
 *

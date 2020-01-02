@@ -171,13 +171,15 @@ frame_over_shoot_limit
 )
 ;
 /
-/
+*
 return
 of
 0
 means
 drop
 frame
+*
+/
 extern
 int
 vp8_pick_frame_size

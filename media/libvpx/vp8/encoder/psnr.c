@@ -172,12 +172,14 @@ psnr
 MAX_PSNR
 ;
 /
-/
+*
 Limit
 to
 prevent
 /
 0
+*
+/
 if
 (
 psnr

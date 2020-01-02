@@ -121,13 +121,6 @@ gnu
 -
 disable
 -
-vp8
--
-encoder
--
--
-disable
--
 examples
 -
 -
@@ -136,11 +129,6 @@ disable
 install
 -
 docs
--
--
-enable
--
-pic
 "
 ;
 const

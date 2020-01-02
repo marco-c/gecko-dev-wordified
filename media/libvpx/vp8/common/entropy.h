@@ -307,6 +307,7 @@ vp8_coef_tree
 ]
 ;
 extern
+const
 struct
 vp8_token_struct
 vp8_coef_encodings
@@ -335,6 +336,7 @@ base_val
 vp8_extra_bit_struct
 ;
 extern
+const
 vp8_extra_bit_struct
 vp8_extra_bits
 [
@@ -736,11 +738,16 @@ vp8_default_inv_zig_zag
 )
 ;
 extern
+DECLARE_ALIGNED
+(
+16
+const
 short
 vp8_default_zig_zag_mask
 [
 16
 ]
+)
 ;
 extern
 const

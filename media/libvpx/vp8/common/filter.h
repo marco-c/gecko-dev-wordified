@@ -127,6 +127,3 @@ vp8_sub_pel_filters
 ;
 #
 endif
-/
-/
-FILTER_H

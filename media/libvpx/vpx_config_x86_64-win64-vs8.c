@@ -123,13 +123,6 @@ vs8
 -
 disable
 -
-vp8
--
-encoder
--
--
-disable
--
 examples
 -
 -

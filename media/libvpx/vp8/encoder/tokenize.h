@@ -188,8 +188,9 @@ MAX_ENTROPY_TOKENS
 endif
 extern
 const
-int
+short
 *
+const
 vp8_dct_value_cost_ptr
 ;
 /
@@ -236,6 +237,7 @@ extern
 const
 TOKENVALUE
 *
+const
 vp8_dct_value_tokens_ptr
 ;
 #

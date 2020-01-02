@@ -95,11 +95,7 @@ h
 #
 include
 "
-vp8
-/
-common
-/
-idct
+vpx_rtcd
 .
 h
 "
@@ -110,7 +106,7 @@ vp8
 /
 common
 /
-dequantize
+blockd
 .
 h
 "

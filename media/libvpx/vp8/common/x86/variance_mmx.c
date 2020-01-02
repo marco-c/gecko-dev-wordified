@@ -1031,6 +1031,10 @@ xxsum
 -
 (
 (
+unsigned
+int
+)
+(
 xsum
 *
 xsum
@@ -1108,6 +1112,10 @@ return
 xxsum
 -
 (
+(
+unsigned
+int
+)
 (
 xsum
 *
@@ -1223,6 +1231,10 @@ return
 xxsum0
 -
 (
+(
+unsigned
+int
+)
 (
 xsum0
 *
@@ -1383,6 +1395,10 @@ xxsum0
 -
 (
 (
+unsigned
+int
+)
+(
 xsum0
 *
 xsum0
@@ -1460,6 +1476,10 @@ return
 xxsum
 -
 (
+(
+unsigned
+int
+)
 (
 xsum
 *

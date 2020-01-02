@@ -294,10 +294,6 @@ unsigned
 int
 range
 ;
-unsigned
-int
-value
-;
 int
 count
 ;
@@ -321,7 +317,7 @@ vpx_internal_error_info
 error
 ;
 /
-/
+*
 Variables
 used
 to
@@ -333,6 +329,8 @@ outputing
 to
 the
 bitstream
+*
+/
 unsigned
 int
 measure_cost

@@ -4112,7 +4112,7 @@ in
 bss
 or
 .
-data
+rdata
 section
 .
 nsections
@@ -4390,7 +4390,7 @@ strcmp
 sectionname
 "
 .
-data
+rdata
 "
 )
 )
@@ -4442,7 +4442,7 @@ ofset
 for
 section
 .
-data
+rdata
 is
 %
 u
@@ -4466,7 +4466,7 @@ zero
 offset
 in
 .
-data
+rdata
 section
 but
 puts

@@ -424,7 +424,7 @@ Exports
 *
 /
 void
-vp8_yv12_extend_frame_borders
+vp8_yv12_extend_frame_borders_c
 (
 YV12_BUFFER_CONFIG
 *
@@ -1200,7 +1200,7 @@ plane_stride
 }
 static
 void
-extend_frame_borders_yonly
+extend_frame_borders_yonly_c
 (
 YV12_BUFFER_CONFIG
 *
@@ -1725,7 +1725,7 @@ size
 *
 /
 void
-vp8_yv12_copy_frame
+vp8_yv12_copy_frame_c
 (
 YV12_BUFFER_CONFIG
 *
@@ -1922,7 +1922,7 @@ dst_ybc
 uv_stride
 ;
 }
-vp8_yv12_extend_frame_borders_ptr
+vp8_yv12_extend_frame_borders_c
 (
 dst_ybc
 )

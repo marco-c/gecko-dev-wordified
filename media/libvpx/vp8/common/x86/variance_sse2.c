@@ -780,6 +780,10 @@ sse0
 -
 (
 (
+unsigned
+int
+)
+(
 sum0
 *
 sum0
@@ -1115,6 +1119,10 @@ xxsum
 -
 (
 (
+unsigned
+int
+)
+(
 xsum
 *
 xsum
@@ -1276,6 +1284,10 @@ xxsum
 -
 (
 (
+unsigned
+int
+)
+(
 xsum
 *
 xsum
@@ -1325,7 +1337,7 @@ xxsum0
 xxsum1
 ;
 /
-/
+*
 note
 we
 could
@@ -1337,8 +1349,7 @@ if
 the
 calling
 function
-/
-/
+*
 just
 called
 the
@@ -1346,6 +1357,8 @@ appropriate
 functions
 inside
 .
+*
+/
 if
 (
 xoffset
@@ -1489,6 +1502,10 @@ return
 xxsum0
 -
 (
+(
+unsigned
+int
+)
 (
 xsum0
 *
@@ -1726,6 +1743,10 @@ xxsum0
 -
 (
 (
+unsigned
+int
+)
+(
 xsum0
 *
 xsum0
@@ -1887,6 +1908,10 @@ xxsum
 -
 (
 (
+unsigned
+int
+)
+(
 xsum
 *
 xsum
@@ -1952,6 +1977,10 @@ return
 xxsum0
 -
 (
+(
+unsigned
+int
+)
 (
 xsum0
 *
@@ -2019,6 +2048,10 @@ xxsum0
 -
 (
 (
+unsigned
+int
+)
+(
 xsum0
 *
 xsum0
@@ -2084,6 +2117,10 @@ return
 xxsum0
 -
 (
+(
+unsigned
+int
+)
 (
 xsum0
 *

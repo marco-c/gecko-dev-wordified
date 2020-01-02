@@ -458,6 +458,15 @@ int
 drain
 )
 ;
+#
+define
+PEEK_FORWARD
+1
+#
+define
+PEEK_BACKWARD
+-
+1
 /
 *
 *
@@ -530,6 +539,8 @@ ctx
 unsigned
 int
 index
+int
+direction
 )
 ;
 /

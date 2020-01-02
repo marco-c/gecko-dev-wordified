@@ -311,7 +311,7 @@ int
 xxsum0
 ;
 /
-/
+*
 note
 we
 could
@@ -323,8 +323,7 @@ if
 the
 calling
 function
-/
-/
+*
 just
 called
 the
@@ -332,6 +331,8 @@ appropriate
 functions
 inside
 .
+*
+/
 if
 (
 xoffset
