@@ -3088,7 +3088,7 @@ TabParent
 UpdateDimensions
 (
 const
-nsRect
+nsIntRect
 &
 rect
 const

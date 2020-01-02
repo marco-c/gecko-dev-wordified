@@ -1300,7 +1300,7 @@ void
 UpdateDimensions
 (
 const
-nsRect
+nsIntRect
 &
 rect
 const
@@ -2170,7 +2170,7 @@ capturing
 int32_t
 mEventCaptureDepth
 ;
-nsRect
+nsIntRect
 mRect
 ;
 nsIntSize

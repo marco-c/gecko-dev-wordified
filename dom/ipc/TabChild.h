@@ -1720,7 +1720,7 @@ bool
 RecvUpdateDimensions
 (
 const
-nsRect
+nsIntRect
 &
 rect
 const

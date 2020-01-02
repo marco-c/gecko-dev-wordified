@@ -2154,7 +2154,7 @@ type
 nsresult
 GetWindowDimensions
 (
-nsRect
+nsIntRect
 &
 aRect
 )
