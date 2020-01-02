@@ -93,6 +93,12 @@ MPL
 .
 *
 /
+#
+ifndef
+nsSample_h
+#
+define
+nsSample_h
 /
 *
 *
@@ -761,3 +767,5 @@ mValue
 ;
 }
 ;
+#
+endif

@@ -180,6 +180,14 @@ mozilla
 ;
 #
 ifdef
+LOG
+#
+undef
+LOG
+#
+endif
+#
+ifdef
 PR_LOGGING
 static
 PRLogModuleInfo

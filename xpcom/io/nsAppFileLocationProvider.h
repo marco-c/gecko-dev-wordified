@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+nsAppFileLocationProvider_h
+#
+define
+nsAppFileLocationProvider_h
+#
 include
 "
 nsIDirectoryService
@@ -427,3 +433,5 @@ mMozBinDirectory
 ;
 }
 ;
+#
+endif

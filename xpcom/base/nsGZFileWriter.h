@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+nsGZFileWriter_h
+#
+define
+nsGZFileWriter_h
+#
 include
 "
 nsIGZFileWriter
@@ -257,3 +263,5 @@ mGZFile
 ;
 }
 ;
+#
+endif
