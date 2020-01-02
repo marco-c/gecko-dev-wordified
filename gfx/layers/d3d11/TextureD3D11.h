@@ -549,6 +549,8 @@ aFormat
 CompositorD3D11
 *
 aCompositor
+TextureFlags
+aFlags
 )
 ;
 DataTextureSourceD3D11

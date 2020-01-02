@@ -483,12 +483,7 @@ SurfaceFormat
 :
 UNKNOWN
 this
-!
-(
 aFlags
-&
-TEXTURE_DISALLOW_BIGIMAGE
-)
 )
 ;
 }
