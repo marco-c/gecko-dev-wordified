@@ -1408,6 +1408,9 @@ Get
 (
 )
 ;
+bool
+ret
+;
 if
 (
 anImage
@@ -1435,6 +1438,8 @@ Get
 (
 )
 ;
+ret
+=
 notification_handler
 -
 >
@@ -1450,6 +1455,8 @@ aAppId
 }
 else
 {
+ret
+=
 notification_handler
 -
 >
@@ -1460,6 +1467,19 @@ msg
 aCookie
 aAppId
 )
+;
+}
+if
+(
+!
+ret
+)
+{
+delete
+notification_handler
+;
+return
+NS_ERROR_FAILURE
 ;
 }
 return

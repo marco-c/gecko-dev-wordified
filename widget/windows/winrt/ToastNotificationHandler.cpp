@@ -191,7 +191,7 @@ typedef
 __FITypedEventHandler_2_Windows__CUI__CNotifications__CToastNotification_Windows__CUI__CNotifications__CToastDismissedEventArgs
 ToastDismissHandler
 ;
-void
+bool
 ToastNotificationHandler
 :
 :
@@ -316,7 +316,7 @@ imageNodeStr
 toastImageElements
 )
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 toastTextElements
 -
@@ -327,9 +327,10 @@ Item
 &
 titleTextNodeRoot
 )
+false
 )
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 toastTextElements
 -
@@ -340,9 +341,10 @@ Item
 &
 msgTextNodeRoot
 )
+false
 )
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 toastImageElements
 -
@@ -353,6 +355,7 @@ Item
 &
 imageNodeRoot
 )
+false
 )
 ;
 ComPtr
@@ -361,7 +364,7 @@ IXmlNamedNodeMap
 >
 attributes
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 imageNodeRoot
 -
@@ -371,9 +374,10 @@ get_Attributes
 &
 attributes
 )
+false
 )
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 attributes
 -
@@ -384,6 +388,7 @@ srcNodeStr
 &
 srcAttribute
 )
+false
 )
 ;
 SetNodeValueString
@@ -431,6 +436,7 @@ Get
 )
 )
 ;
+return
 CreateWindowsNotificationFromXml
 (
 toastXml
@@ -442,7 +448,7 @@ aAppId
 )
 ;
 }
-void
+bool
 ToastNotificationHandler
 :
 :
@@ -522,7 +528,7 @@ textNodeStr
 toastTextElements
 )
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 toastTextElements
 -
@@ -533,9 +539,10 @@ Item
 &
 titleTextNodeRoot
 )
+false
 )
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 toastTextElements
 -
@@ -546,6 +553,7 @@ Item
 &
 msgTextNodeRoot
 )
+false
 )
 ;
 SetNodeValueString
@@ -578,6 +586,7 @@ Get
 )
 )
 ;
+return
 CreateWindowsNotificationFromXml
 (
 toastXml
@@ -643,7 +652,7 @@ return
 toastXml
 ;
 }
-void
+bool
 ToastNotificationHandler
 :
 :
@@ -670,7 +679,7 @@ IToastNotificationFactory
 >
 factory
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 GetActivationFactory
 (
@@ -688,9 +697,10 @@ GetAddressOf
 (
 )
 )
+false
 )
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 factory
 -
@@ -701,12 +711,13 @@ toastXml
 &
 notification
 )
+false
 )
 ;
 EventRegistrationToken
 activatedToken
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 notification
 -
@@ -732,12 +743,13 @@ Get
 &
 activatedToken
 )
+false
 )
 ;
 EventRegistrationToken
 dismissedToken
 ;
-AssertHRESULT
+AssertRetHRESULT
 (
 notification
 -
@@ -763,6 +775,7 @@ Get
 &
 dismissedToken
 )
+false
 )
 ;
 ComPtr
@@ -780,7 +793,7 @@ IsEmpty
 )
 )
 {
-AssertHRESULT
+AssertRetHRESULT
 (
 mToastNotificationManagerStatics
 -
@@ -790,12 +803,13 @@ CreateToastNotifier
 &
 notifier
 )
+false
 )
 ;
 }
 else
 {
-AssertHRESULT
+AssertRetHRESULT
 (
 mToastNotificationManagerStatics
 -
@@ -820,9 +834,12 @@ Get
 &
 notifier
 )
+false
 )
 ;
 }
+AssertRetHRESULT
+(
 notifier
 -
 >
@@ -833,6 +850,8 @@ notification
 Get
 (
 )
+)
+false
 )
 ;
 MetroUtils
@@ -849,6 +868,9 @@ get
 (
 )
 )
+;
+return
+true
 ;
 }
 void
@@ -987,6 +1009,9 @@ get
 (
 )
 )
+;
+delete
+this
 ;
 return
 S_OK
