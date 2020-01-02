@@ -13464,7 +13464,7 @@ slow
 )
 ;
 }
-ImageFormat
+SurfaceFormat
 readFormatGFX
 ;
 switch
@@ -13483,9 +13483,9 @@ readFormatGFX
 =
 hasAlpha
 ?
-gfxImageFormatARGB32
+FORMAT_B8G8R8A8
 :
-gfxImageFormatRGB24
+FORMAT_B8G8R8X8
 ;
 break
 ;
@@ -13512,7 +13512,7 @@ LOCAL_GL_UNSIGNED_SHORT_5_6_5_REV
 ;
 readFormatGFX
 =
-gfxImageFormatRGB16_565
+FORMAT_R5G6B5
 ;
 break
 ;
@@ -13620,7 +13620,10 @@ dest
 GetSize
 (
 )
+gfxImageFormat
+(
 readFormatGFX
+)
 false
 )
 ;

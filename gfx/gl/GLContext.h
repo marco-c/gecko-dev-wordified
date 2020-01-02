@@ -11732,10 +11732,6 @@ SharedSurfaceType
 SharedSurfaceType
 ;
 typedef
-gfxImageFormat
-ImageFormat
-;
-typedef
 gfx
 :
 :
