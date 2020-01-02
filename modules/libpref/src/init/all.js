@@ -2447,13 +2447,13 @@ url
 "
 stun
 :
-23
+stun
 .
-21
+services
 .
-150
+mozilla
 .
-121
+com
 \
 "
 }
@@ -2926,7 +2926,7 @@ hysteresis
 pref
 (
 "
-apz
+apzc
 .
 axis_lock_mode
 "
