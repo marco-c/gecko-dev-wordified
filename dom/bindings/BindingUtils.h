@@ -13811,6 +13811,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 )
 ;
 /
@@ -13904,6 +13907,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 )
 ;
 /

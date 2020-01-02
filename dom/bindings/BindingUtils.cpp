@@ -5733,6 +5733,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 const
 NativeProperties
 *
@@ -5786,6 +5789,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 )
 ;
 bool
@@ -5828,8 +5834,15 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 )
 {
+cacheOnHolder
+=
+false
+;
 DOMObjectType
 type
 ;
@@ -5881,6 +5894,7 @@ type
 obj
 id
 desc
+cacheOnHolder
 )
 ;
 }
@@ -5914,6 +5928,7 @@ wrapper
 obj
 id
 desc
+cacheOnHolder
 nativeProperties
 .
 regular
@@ -5947,6 +5962,7 @@ wrapper
 obj
 id
 desc
+cacheOnHolder
 nativeProperties
 .
 chromeOnly
@@ -6047,6 +6063,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 )
 {
 for
@@ -6137,6 +6156,10 @@ i
 ]
 )
 {
+cacheOnHolder
+=
+true
+;
 const
 JSPropertySpec
 &
@@ -6464,6 +6487,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 )
 {
 const
@@ -6566,6 +6592,10 @@ i
 ]
 )
 {
+cacheOnHolder
+=
+true
+;
 const
 JSFunctionSpec
 &
@@ -6807,6 +6837,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 const
 NativeProperties
 *
@@ -6853,6 +6886,7 @@ nativeProperties
 >
 unforgeableAttributeSpecs
 desc
+cacheOnHolder
 )
 )
 {
@@ -6904,6 +6938,7 @@ nativeProperties
 >
 unforgeableMethodSpecs
 desc
+cacheOnHolder
 )
 )
 {
@@ -6970,6 +7005,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 DOMObjectType
 type
 const
@@ -7068,6 +7106,7 @@ methods
 methodIds
 methodSpecs
 desc
+cacheOnHolder
 )
 )
 {
@@ -7127,6 +7166,7 @@ nativeProperties
 >
 staticAttributeSpecs
 desc
+cacheOnHolder
 )
 )
 {
@@ -7181,6 +7221,7 @@ nativeProperties
 >
 attributeSpecs
 desc
+cacheOnHolder
 )
 )
 {
@@ -7323,6 +7364,10 @@ i
 ]
 )
 {
+cacheOnHolder
+=
+true
+;
 desc
 .
 setAttributes
@@ -7413,6 +7458,8 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+cacheOnHolder
 )
 {
 JS
@@ -7474,6 +7521,10 @@ return
 false
 ;
 }
+cacheOnHolder
+=
+true
+;
 desc
 .
 object
@@ -7584,6 +7635,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 )
 {
 if
@@ -7632,6 +7686,7 @@ JSPROP_PERMANENT
 |
 JSPROP_READONLY
 desc
+cacheOnHolder
 )
 ;
 }
@@ -7679,6 +7734,7 @@ nativePropertyHooks
 mConstructorID
 0
 desc
+cacheOnHolder
 )
 ;
 }
@@ -7707,6 +7763,7 @@ wrapper
 obj
 id
 desc
+cacheOnHolder
 type
 nativeProperties
 .
@@ -7759,6 +7816,7 @@ wrapper
 obj
 id
 desc
+cacheOnHolder
 type
 nativeProperties
 .
@@ -7814,8 +7872,15 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+bool
+&
+cacheOnHolder
 )
 {
+cacheOnHolder
+=
+false
+;
 DOMObjectType
 type
 ;
@@ -7885,6 +7950,7 @@ type
 obj
 id
 desc
+cacheOnHolder
 )
 )
 {
@@ -7932,6 +7998,7 @@ type
 obj
 id
 desc
+cacheOnHolder
 )
 ;
 }
@@ -9797,6 +9864,9 @@ IDX_TO_STRING
 )
 )
 ;
+bool
+unused
+;
 if
 (
 !
@@ -9808,6 +9878,7 @@ obj
 id
 &
 toStringDesc
+unused
 )
 )
 {
