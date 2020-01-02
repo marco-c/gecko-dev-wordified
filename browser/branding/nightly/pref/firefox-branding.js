@@ -176,16 +176,6 @@ background
 in
 seconds
 )
-/
-/
-0
-means
-"
-download
-everything
-at
-once
-"
 pref
 (
 "
@@ -197,7 +187,7 @@ download
 .
 backgroundInterval
 "
-0
+60
 )
 ;
 /
