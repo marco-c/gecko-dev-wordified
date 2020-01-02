@@ -220,6 +220,9 @@ public
 mozilla
 :
 :
+external
+:
+:
 AtomicRefCounted
 <
 Zip
