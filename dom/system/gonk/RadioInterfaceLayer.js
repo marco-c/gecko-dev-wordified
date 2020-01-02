@@ -10984,6 +10984,11 @@ timestamp
 aDomMessage
 .
 timestamp
+deliveryTimestamp
+:
+aDomMessage
+.
+deliveryTimestamp
 read
 :
 aDomMessage
@@ -11603,6 +11608,7 @@ messageClass
 message
 .
 timestamp
+0
 message
 .
 read
@@ -11976,6 +11982,7 @@ messageClass
 message
 .
 timestamp
+0
 message
 .
 read
@@ -18803,9 +18810,9 @@ nsIDOMMozSmsMessage
 attributes
 as
 they
+/
+/
 are
-/
-/
 read
 only
 so
@@ -18819,9 +18826,9 @@ instance
 to
 send
 along
+/
+/
 with
-/
-/
 the
 notification
 .
@@ -18867,6 +18874,7 @@ messageClass
 sms
 .
 timestamp
+0
 sms
 .
 read
@@ -19129,6 +19137,7 @@ class
 sendingMessage
 .
 timestamp
+0
 false
 )
 ;

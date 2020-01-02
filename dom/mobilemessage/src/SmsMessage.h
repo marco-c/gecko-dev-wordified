@@ -201,6 +201,8 @@ MessageClass
 aMessageClass
 uint64_t
 aTimestamp
+uint64_t
+aDeliveryTimestamp
 bool
 aRead
 )
@@ -256,6 +258,13 @@ JS
 Value
 &
 aTimestamp
+const
+JS
+:
+:
+Value
+&
+aDeliveryTimestamp
 const
 bool
 aRead
