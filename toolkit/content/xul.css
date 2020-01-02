@@ -6732,6 +6732,13 @@ in
 *
 /
 scrollbar
+[
+orient
+=
+"
+horizontal
+"
+]
 {
 direction
 :
