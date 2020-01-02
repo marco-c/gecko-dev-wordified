@@ -338,7 +338,7 @@ source
 float
 *
 destination
-unsigned
+int
 framesToProcess
 )
 ;

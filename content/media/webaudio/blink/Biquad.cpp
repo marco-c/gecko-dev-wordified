@@ -645,7 +645,7 @@ i
 -
 &
 &
-fabs
+fabsf
 (
 destP
 [
