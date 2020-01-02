@@ -14733,7 +14733,7 @@ devtools
 theme
 "
 "
-light
+dark
 "
 )
 ;
