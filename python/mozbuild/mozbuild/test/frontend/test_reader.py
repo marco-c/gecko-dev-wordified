@@ -361,6 +361,9 @@ reader
 read_mozbuild
 (
 path
+reader
+.
+config
             
 filesystem_absolute
 =
