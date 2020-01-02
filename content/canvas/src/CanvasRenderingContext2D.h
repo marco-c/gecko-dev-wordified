@@ -903,7 +903,7 @@ Stroke
 )
 ;
 void
-DrawSystemFocusRing
+DrawFocusIfNeeded
 (
 mozilla
 :
