@@ -189,10 +189,10 @@ delete
 propertyValue
 ;
 }
-#
-define
-nsImageControlFrameSuper
+typedef
 nsImageFrame
+nsImageControlFrameSuper
+;
 class
 nsImageControlFrame
 :

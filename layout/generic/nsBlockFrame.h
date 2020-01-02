@@ -650,10 +650,10 @@ lines
 .
 *
 /
-#
-define
-nsBlockFrameSuper
+typedef
 nsContainerFrame
+nsBlockFrameSuper
+;
 /
 *
 *
