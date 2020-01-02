@@ -298,6 +298,13 @@ defined
 (
 XP_UNIX
 )
+&
+&
+!
+defined
+(
+XP_MACOSX
+)
 #
 include
 "
@@ -2923,6 +2930,13 @@ MOZ_CONTENT_SANDBOX
 defined
 (
 XP_UNIX
+)
+&
+&
+!
+defined
+(
+XP_MACOSX
 )
 /
 /
