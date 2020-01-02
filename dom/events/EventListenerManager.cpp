@@ -174,6 +174,15 @@ include
 "
 mozilla
 /
+JSEventHandler
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -285,13 +294,6 @@ h
 include
 "
 nsIDOMEventListener
-.
-h
-"
-#
-include
-"
-nsIJSEventListener
 .
 h
 "
@@ -3494,11 +3496,11 @@ true
 ;
 nsCOMPtr
 <
-nsIJSEventListener
+nsJSEventListener
 >
 jsListener
 ;
-NS_NewJSEventListener
+NS_NewJSEventHandler
 (
 mTarget
 aName
@@ -3537,7 +3539,7 @@ aTypeString
 }
 else
 {
-nsIJSEventListener
+nsJSEventListener
 *
 jsListener
 =
@@ -3561,7 +3563,7 @@ event
 handler
 with
 no
-nsIJSEventListener
+nsJSEventListener
 ?
 "
 )
@@ -4499,7 +4501,7 @@ listener
 "
 )
 ;
-nsIJSEventListener
+nsJSEventListener
 *
 jsListener
 =
@@ -4739,7 +4741,7 @@ on
 /
 /
 the
-nsIJSEventListener
+nsJSEventListener
 itself
 and
 that
@@ -7426,7 +7428,7 @@ return
 nullptr
 ;
 }
-nsIJSEventListener
+nsJSEventListener
 *
 jsListener
 =
@@ -7537,7 +7539,7 @@ count
 i
 )
 {
-nsIJSEventListener
+nsJSEventListener
 *
 jsl
 =
@@ -7619,7 +7621,7 @@ ElementAt
 i
 )
 ;
-nsIJSEventListener
+nsJSEventListener
 *
 jsListener
 =
