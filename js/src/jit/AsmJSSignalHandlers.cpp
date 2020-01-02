@@ -2119,7 +2119,7 @@ return
 threadData
 -
 >
-runtimeFromMainThread
+runtimeIfOnOwnerThread
 (
 )
 ;
