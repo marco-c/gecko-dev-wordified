@@ -2329,7 +2329,10 @@ gAllowDataURIs
 =
 false
 ;
-nsHashtable
+nsXBLService
+:
+:
+ClassTable
 *
 nsXBLService
 :
@@ -2479,7 +2482,7 @@ void
 gClassTable
 =
 new
-nsHashtable
+ClassTable
 (
 )
 ;
