@@ -1453,6 +1453,12 @@ host
 GetBuffer
 (
 )
+host
+-
+>
+GetBufferSize
+(
+)
 )
 ;
 ASSERT_TRUE

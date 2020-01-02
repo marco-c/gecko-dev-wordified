@@ -2599,6 +2599,9 @@ yuvDeserializer
 GetBuffer
 (
 )
+GetBufferSize
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -3265,6 +3268,9 @@ YCbCrImageDataDeserializer
 yuvDeserializer
 (
 GetBuffer
+(
+)
+GetBufferSize
 (
 )
 )
