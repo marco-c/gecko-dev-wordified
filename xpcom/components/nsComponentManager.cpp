@@ -3158,6 +3158,12 @@ module
 >
 "
 ;
+mLock
+.
+Unlock
+(
+)
+;
 LogMessage
 (
 "
