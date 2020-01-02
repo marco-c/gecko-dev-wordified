@@ -135,17 +135,6 @@ SHARED_TEXTURE
 #
 include
 "
-gfxPoint
-.
-h
-"
-/
-/
-for
-gfxIntSize
-#
-include
-"
 nsCOMPtr
 .
 h
