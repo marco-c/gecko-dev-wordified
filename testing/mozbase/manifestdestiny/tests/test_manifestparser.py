@@ -1103,6 +1103,9 @@ n
 fleem
 ]
 \
+nsubsuite
+=
+\
 n
 \
 n
@@ -1119,6 +1122,9 @@ ocean
 nred
 =
 roses
+\
+nsubsuite
+=
 \
 nyellow
 =

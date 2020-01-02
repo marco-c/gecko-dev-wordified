@@ -2681,6 +2681,23 @@ options
 logFile
 )
     
+#
+Note
+that
+all
+tests
+under
+options
+.
+subsuite
+need
+to
+be
+browser
+chrome
+tests
+.
+    
 if
 options
 .
@@ -2690,6 +2707,12 @@ options
 .
 chrome
 or
+options
+.
+subsuite
+or
+\
+       
 options
 .
 a11y
@@ -4193,6 +4216,9 @@ active_tests
 disabled
 =
 True
+options
+=
+options
 *
 *
 info
