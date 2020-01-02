@@ -1274,6 +1274,13 @@ macro
 (
 _
 _
+nursery
+)
+\
+macro
+(
+_
+_
 storeBufferVals
 )
 \
