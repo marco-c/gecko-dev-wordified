@@ -312,12 +312,6 @@ nsXMLFragmentContentSink
 (
 )
 ;
-virtual
-~
-nsXMLFragmentContentSink
-(
-)
-;
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 /
 /
@@ -486,6 +480,12 @@ aPreventScriptExecution
 ;
 protected
 :
+virtual
+~
+nsXMLFragmentContentSink
+(
+)
+;
 virtual
 bool
 SetDocElement

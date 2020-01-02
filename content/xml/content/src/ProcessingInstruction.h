@@ -166,12 +166,6 @@ nsAString
 aData
 )
 ;
-virtual
-~
-ProcessingInstruction
-(
-)
-;
 /
 /
 nsISupports
@@ -305,6 +299,12 @@ NodeName
 }
 protected
 :
+virtual
+~
+ProcessingInstruction
+(
+)
+;
 /
 *
 *

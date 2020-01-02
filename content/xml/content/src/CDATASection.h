@@ -171,6 +171,12 @@ aNodeInfo
 )
 ;
 }
+virtual
+~
+CDATASection
+(
+)
+;
 public
 :
 CDATASection
@@ -230,12 +236,6 @@ Init
 )
 ;
 }
-virtual
-~
-CDATASection
-(
-)
-;
 /
 /
 nsISupports
