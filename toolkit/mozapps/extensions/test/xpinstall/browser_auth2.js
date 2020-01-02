@@ -105,6 +105,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 Harness
 .
 authenticationCallback
