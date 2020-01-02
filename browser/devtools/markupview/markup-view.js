@@ -2201,9 +2201,6 @@ selection
 .
 nodeFront
 {
-scrollIntoView
-:
-true
 }
 )
 ;
