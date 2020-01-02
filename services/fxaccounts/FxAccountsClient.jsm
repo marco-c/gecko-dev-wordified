@@ -1340,7 +1340,12 @@ error
 :
 "
 +
+JSON
+.
+stringify
+(
 err
+)
 +
 "
 \
