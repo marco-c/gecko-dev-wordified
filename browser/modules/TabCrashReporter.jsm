@@ -422,6 +422,15 @@ function
 aBrowser
 )
 {
+if
+(
+!
+this
+.
+childMap
+)
+return
+;
 let
 dumpID
 =
