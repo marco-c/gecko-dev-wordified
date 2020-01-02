@@ -1800,7 +1800,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_SCRIPT_OBJECTS
 because
 /
 /
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 does
 it
 for
@@ -1875,7 +1875,7 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_PRESERVED_WRAPPER
 because
 /
 /
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 does
 it
 for

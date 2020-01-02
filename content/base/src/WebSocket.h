@@ -157,6 +157,15 @@ include
 "
 mozilla
 /
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h
@@ -179,13 +188,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsDOMEventTargetHelper
 .
 h
 "
@@ -277,7 +279,7 @@ class
 WebSocket
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIInterfaceRequestor
 public
@@ -321,7 +323,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_INHERITED
 (
 WebSocket
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWEBSOCKETLISTENER

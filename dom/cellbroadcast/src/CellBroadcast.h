@@ -113,14 +113,16 @@ include
 "
 mozilla
 /
-ErrorResult
+DOMEventTargetHelper
 .
 h
 "
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+ErrorResult
 .
 h
 "
@@ -154,7 +156,7 @@ CellBroadcast
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 /
 *
@@ -221,7 +223,7 @@ public
 NS_DECL_NSICELLBROADCASTLISTENER
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 static
 already_AddRefed

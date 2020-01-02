@@ -65,6 +65,15 @@ mozilla_dom_network_MobileConnection_h
 #
 include
 "
+mozilla
+/
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
 nsIDOMMobileConnection
 .
 h
@@ -73,13 +82,6 @@ h
 include
 "
 nsIMobileConnectionProvider
-.
-h
-"
-#
-include
-"
-nsDOMEventTargetHelper
 .
 h
 "
@@ -107,7 +109,7 @@ class
 MobileConnection
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIDOMMozMobileConnection
 {
@@ -179,7 +181,7 @@ NS_DECL_NSIDOMMOZMOBILECONNECTION
 NS_DECL_NSIMOBILECONNECTIONLISTENER
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 MobileConnection
 (
@@ -203,7 +205,7 @@ Shutdown
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 MobileConnection
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 private
 :

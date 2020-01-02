@@ -14457,17 +14457,17 @@ nsIObserver
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_ADDREF_INHERITED
 (
 nsDOMDeviceStorage
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsDOMDeviceStorage
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 nsDOMDeviceStorage
 :
@@ -14479,7 +14479,7 @@ nsPIDOMWindow
 aWindow
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aWindow
 )
@@ -19851,7 +19851,7 @@ rv
 ;
 }
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 AddEventListener
@@ -19988,7 +19988,7 @@ rv
 return
 ;
 }
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 AddEventListener
@@ -20096,7 +20096,7 @@ bool
 aUseCapture
 )
 {
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 RemoveEventListener
@@ -20181,7 +20181,7 @@ ErrorResult
 aRv
 )
 {
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 RemoveEventListener
@@ -20288,7 +20288,7 @@ aRetval
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 DispatchEvent
@@ -20308,7 +20308,7 @@ GetTargetForDOMEvent
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 GetTargetForDOMEvent
@@ -20326,7 +20326,7 @@ GetTargetForEventTargetChain
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 GetTargetForEventTargetChain
@@ -20346,7 +20346,7 @@ aVisitor
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 PreHandleEvent
@@ -20367,7 +20367,7 @@ aVisitor
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 WillHandleEvent
@@ -20388,7 +20388,7 @@ aVisitor
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 PostHandleEvent
@@ -20418,7 +20418,7 @@ aEventStatus
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 DispatchDOMEvent
@@ -20440,7 +20440,7 @@ GetOrCreateListenerManager
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 GetOrCreateListenerManager
@@ -20459,7 +20459,7 @@ GetExistingListenerManager
 const
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 GetExistingListenerManager
@@ -20480,7 +20480,7 @@ aRv
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 GetContextForEventHandlers
@@ -20499,7 +20499,7 @@ GetJSContextForEventHandlers
 )
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 GetJSContextForEventHandlers

@@ -121,7 +121,9 @@ AudioNode_h_
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -573,7 +575,7 @@ class
 AudioNode
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 protected
 :
@@ -633,7 +635,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 AudioNode
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 virtual
 AudioBufferSourceNode

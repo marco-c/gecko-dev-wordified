@@ -195,7 +195,7 @@ NS_ProxyRelease
 mainThread
 static_cast
 <
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 *
 >
 (

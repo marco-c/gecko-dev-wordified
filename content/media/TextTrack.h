@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 TextTrackBinding
@@ -139,13 +148,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsDOMEventTargetHelper
 .
 h
 "
@@ -216,7 +218,7 @@ TextTrack
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 public
 :
@@ -224,7 +226,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 TextTrack
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 TextTrack
 (

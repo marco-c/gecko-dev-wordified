@@ -241,7 +241,7 @@ const
 return
 static_cast
 <
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 *
 >
 (

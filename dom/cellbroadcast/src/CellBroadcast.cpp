@@ -345,7 +345,7 @@ nsICellBroadcastProvider
 aProvider
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aWindow
 )

@@ -127,7 +127,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+Attributes
 .
 h
 "
@@ -136,7 +138,7 @@ include
 "
 mozilla
 /
-Attributes
+DOMEventTargetHelper
 .
 h
 "
@@ -168,7 +170,7 @@ class
 DOMRequest
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIDOMDOMRequest
 {
@@ -201,12 +203,12 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMDOMREQUEST
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 DOMRequest
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 /
 /

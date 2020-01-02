@@ -155,7 +155,7 @@ TelephonyCall
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 nsRefPtr
 <
@@ -210,12 +210,12 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 TelephonyCall
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 friend
 class

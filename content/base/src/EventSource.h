@@ -169,7 +169,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -258,7 +260,7 @@ class
 EventSource
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIObserver
 public
@@ -293,7 +295,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_INHERITED
 (
 EventSource
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_DECL_NSIOBSERVER
 NS_DECL_NSISTREAMLISTENER

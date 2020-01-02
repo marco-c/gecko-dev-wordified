@@ -199,7 +199,7 @@ network
 NS_IMPL_QUERY_INTERFACE_INHERITED1
 (
 Connection
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 nsINetworkProperties
 )
 /
@@ -239,7 +239,7 @@ network
 :
 :
 Connection
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
@@ -250,7 +250,7 @@ network
 :
 :
 Connection
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 Connection
 :

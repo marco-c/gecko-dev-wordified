@@ -111,7 +111,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -134,7 +136,7 @@ class
 MessagePortBase
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 protected
 :
@@ -320,7 +322,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 MessagePort
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 MessagePort
 (

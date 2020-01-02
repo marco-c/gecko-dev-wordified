@@ -141,7 +141,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+Attributes
 .
 h
 "
@@ -150,7 +152,7 @@ include
 "
 mozilla
 /
-Attributes
+DOMEventTargetHelper
 .
 h
 "
@@ -269,7 +271,7 @@ class
 FileHandle
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 friend
 class
@@ -293,7 +295,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 FileHandle
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 static
 already_AddRefed
@@ -504,7 +506,7 @@ nsPIDOMWindow
 aWindow
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aWindow
 )
@@ -512,12 +514,12 @@ aWindow
 }
 FileHandle
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 *
 aOwner
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aOwner
 )

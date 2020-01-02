@@ -196,7 +196,7 @@ nsPIDOMWindow
 aWindow
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aWindow
 -
@@ -231,7 +231,7 @@ DOMRequest
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 DOMRequest
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -241,7 +241,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 DOMRequest
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -258,7 +258,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 DOMRequest
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 /
 /
@@ -270,7 +270,7 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_PRESERVED_WRAPPER
 because
 /
 /
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 does
 it
 for
@@ -291,17 +291,17 @@ nsIDOMDOMRequest
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_ADDREF_INHERITED
 (
 DOMRequest
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
 DOMRequest
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 /
 *

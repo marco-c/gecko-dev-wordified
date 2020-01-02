@@ -133,7 +133,7 @@ IDBWrapperCache
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 IDBWrapperCache
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 /
 /
@@ -145,7 +145,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_SCRIPT_OBJECTS
 because
 /
 /
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 does
 it
 for
@@ -155,7 +155,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 IDBWrapperCache
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 if
 (
@@ -185,7 +185,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 IDBWrapperCache
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 /
 /
@@ -197,7 +197,7 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_PRESERVED_WRAPPER
 because
 /
 /
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 does
 it
 for
@@ -214,17 +214,17 @@ IDBWrapperCache
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_ADDREF_INHERITED
 (
 IDBWrapperCache
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
 IDBWrapperCache
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 IDBWrapperCache
 :

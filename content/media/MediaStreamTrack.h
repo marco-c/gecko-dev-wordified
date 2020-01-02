@@ -102,7 +102,9 @@ MEDIASTREAMTRACK_H_
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -153,7 +155,7 @@ class
 MediaStreamTrack
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 public
 :
@@ -199,7 +201,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 MediaStreamTrack
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 DOMMediaStream
 *

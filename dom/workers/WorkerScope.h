@@ -109,7 +109,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -149,7 +151,7 @@ class
 WorkerGlobalScope
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIGlobalObject
 {
@@ -243,7 +245,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 WorkerGlobalScope
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 already_AddRefed
 <

@@ -173,7 +173,7 @@ AudioNode
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 AudioNode
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 tmp
 -
@@ -210,7 +210,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 AudioNode
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -228,7 +228,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
 AudioNode
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMETHODIMP_
 (
@@ -284,7 +284,7 @@ DisconnectFromGraph
 nsrefcnt
 r
 =
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 Release
@@ -310,7 +310,7 @@ AudioNode
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 AudioNode
 :
@@ -328,7 +328,7 @@ ChannelInterpretation
 aChannelInterpretation
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aContext
 -
@@ -359,7 +359,7 @@ MOZ_ASSERT
 aContext
 )
 ;
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 BindToOwner

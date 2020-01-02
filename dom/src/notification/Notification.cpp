@@ -1908,7 +1908,7 @@ nsPIDOMWindow
 aWindow
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aWindow
 )

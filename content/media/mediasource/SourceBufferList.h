@@ -157,6 +157,15 @@ h
 #
 include
 "
+mozilla
+/
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -172,13 +181,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsDOMEventTargetHelper
 .
 h
 "
@@ -227,7 +229,7 @@ SourceBufferList
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 public
 :
@@ -268,7 +270,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 SourceBufferList
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 explicit
 SourceBufferList

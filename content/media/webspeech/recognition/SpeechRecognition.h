@@ -130,14 +130,16 @@ h
 #
 include
 "
-nsCOMPtr
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
 #
 include
 "
-nsDOMEventTargetHelper
+nsCOMPtr
 .
 h
 "
@@ -381,7 +383,7 @@ SpeechRecognition
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIObserver
 public
@@ -1349,7 +1351,7 @@ ToSupports
 (
 static_cast
 <
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 *
 >
 (

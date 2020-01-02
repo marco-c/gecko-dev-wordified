@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -160,13 +169,6 @@ h
 include
 "
 nsDataHashtable
-.
-h
-"
-#
-include
-"
-nsDOMEventTargetHelper
 .
 h
 "
@@ -481,7 +483,7 @@ class
 WorkerPrivateParent
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 class
 SynchronizeAndResumeRunnable
@@ -1228,7 +1230,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 WorkerPrivateParent
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 void
 ClearSelfRef

@@ -230,13 +230,6 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -286,6 +279,15 @@ mozilla
 dom
 /
 TabContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -350,7 +352,7 @@ class
 TabChildGlobal
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIContentFrameMessageManager
 public
@@ -376,7 +378,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 TabChildGlobal
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_FORWARD_SAFE_NSIMESSAGELISTENERMANAGER
 (
@@ -628,7 +630,7 @@ trusted
 events
 !
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 AddEventListener
@@ -642,7 +644,7 @@ false
 ;
 }
 using
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 AddEventListener
@@ -667,7 +669,7 @@ optional_argc
 MOZ_OVERRIDE
 {
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 AddEventListener

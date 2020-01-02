@@ -144,7 +144,7 @@ TelephonyCallGroup
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 nsRefPtr
 <
@@ -179,7 +179,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 TelephonyCallGroup
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 nsPIDOMWindow
 *

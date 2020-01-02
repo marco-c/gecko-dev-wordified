@@ -131,14 +131,16 @@ include
 "
 mozilla
 /
-ErrorResult
+DOMEventTargetHelper
 .
 h
 "
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+ErrorResult
 .
 h
 "
@@ -172,7 +174,7 @@ Voicemail
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 /
 *
@@ -239,7 +241,7 @@ public
 NS_DECL_NSIVOICEMAILLISTENER
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 Voicemail
 (

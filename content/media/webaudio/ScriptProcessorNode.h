@@ -435,7 +435,7 @@ mNumberOfOutputChannels
 ;
 }
 using
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 DispatchTrustedEvent
