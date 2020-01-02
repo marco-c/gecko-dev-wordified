@@ -6162,6 +6162,17 @@ dest
 )
 ;
 void
+unboxObject
+(
+const
+Address
+&
+src
+Register
+dest
+)
+;
+void
 unboxValue
 (
 const
