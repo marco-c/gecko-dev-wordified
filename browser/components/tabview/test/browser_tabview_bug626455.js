@@ -540,6 +540,14 @@ open
 "
 )
 ;
+contentWindow
+=
+null
+;
+activeGroup
+=
+null
+;
 finish
 (
 )
