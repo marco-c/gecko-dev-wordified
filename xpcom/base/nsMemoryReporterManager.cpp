@@ -7369,6 +7369,7 @@ dmd
 {
 class
 NullReporterCallback
+MOZ_FINAL
 :
 public
 nsIMemoryReporterCallback
