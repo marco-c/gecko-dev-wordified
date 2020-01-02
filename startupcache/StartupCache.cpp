@@ -628,6 +628,14 @@ return
 nullptr
 ;
 }
+#
+ifdef
+MOZ_B2G
+return
+nullptr
+;
+#
+endif
 StartupCache
 :
 :
