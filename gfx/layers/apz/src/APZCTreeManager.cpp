@@ -5633,7 +5633,7 @@ overscroll
 panning
 /
 /
-HandleFlingOverscroll
+HandOffFling
 (
 )
 is
