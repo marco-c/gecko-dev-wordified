@@ -8113,6 +8113,16 @@ ensureHasTypes
 (
 cx
 )
+|
+|
+!
+script
+-
+>
+ensureHasAnalyzedArgsUsage
+(
+cx
+)
 )
 return
 false
