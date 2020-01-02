@@ -1216,9 +1216,6 @@ size_type
 ;
 static
 const
-HashEntryArray
-:
-:
 index_type
 NoIndex
 =
@@ -1296,6 +1293,10 @@ OrderingEntry
 {
 OrderingEntry
 (
+const
+T
+*
+aResource
 )
 :
 mFirstSeen
@@ -1320,6 +1321,10 @@ empirical
 dep
 size
 ?
+mResource
+(
+aResource
+)
 {
 }
 ~
@@ -1349,6 +1354,11 @@ this
 <
 _o
 Other
+const
+T
+*
+mResource
+;
 }
 ;
 static
@@ -1575,6 +1585,7 @@ aKey
 new
 OrderingEntry
 (
+aKey
 )
 )
 ;
