@@ -126,6 +126,9 @@ MacIOSurfaceImage
 :
 GetTextureClient
 (
+CompositableClient
+*
+aClient
 )
 {
 if
