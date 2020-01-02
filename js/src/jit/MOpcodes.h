@@ -139,6 +139,11 @@ SimdValueX4
 \
 _
 (
+SimdConstant
+)
+\
+_
+(
 SimdExtractElement
 )
 \

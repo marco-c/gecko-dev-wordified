@@ -770,6 +770,10 @@ SimdValueX4
 )
 SAFE_OP
 (
+SimdConstant
+)
+SAFE_OP
+(
 SimdExtractElement
 )
 UNSAFE_OP
