@@ -479,6 +479,14 @@ tableswitch
 )
 ;
 bool
+visitNewSlots
+(
+MNewSlots
+*
+ins
+)
+;
+bool
 visitNewArray
 (
 MNewArray

@@ -213,6 +213,11 @@ NewObject
 \
 _
 (
+NewSlots
+)
+\
+_
+(
 NewDeclEnvObject
 )
 \
