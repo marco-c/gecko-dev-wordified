@@ -148,6 +148,16 @@ int
 aKeysym
 )
 ;
+mozilla
+:
+:
+CodeNameIndex
+ScanCodeToDOMCodeNameIndex
+(
+int32_t
+aScanCode
+)
+;
 #
 endif
 /
