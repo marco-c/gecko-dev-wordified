@@ -7428,6 +7428,16 @@ incremental
 true
 )
 ;
+pref
+(
+"
+dom
+.
+window_experimental_bindings
+"
+false
+)
+;
 /
 /
 Parsing
