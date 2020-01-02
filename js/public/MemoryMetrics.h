@@ -1765,6 +1765,13 @@ macro
 (
 _
 _
+sourceDataCache
+)
+\
+macro
+(
+_
+_
 scriptData
 )
 \
