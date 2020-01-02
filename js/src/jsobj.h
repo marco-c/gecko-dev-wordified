@@ -5441,7 +5441,7 @@ count
 }
 }
 void
-moveDenseElementsUnbarriered
+moveDenseElementsNoPreBarrier
 (
 uint32_t
 dstStart
@@ -5505,6 +5505,16 @@ js
 :
 Value
 )
+)
+;
+DenseRangeWriteBarrierPost
+(
+runtimeFromMainThread
+(
+)
+this
+dstStart
+count
 )
 ;
 }
