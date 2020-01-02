@@ -472,6 +472,16 @@ result
 .
 test_class
                 
+duration
+=
+round
+(
+result
+.
+duration
+1
+)
+                
 debug
 =
 result
