@@ -2152,9 +2152,6 @@ in
 constructor
 "
 "
-iterator
-"
-"
 toString
 "
 "
