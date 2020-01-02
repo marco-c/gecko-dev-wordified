@@ -3619,6 +3619,8 @@ aLoadingPrincipal
 aResult
 aURI
 false
+false
+false
 )
 ;
 *
