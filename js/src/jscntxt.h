@@ -351,11 +351,12 @@ key
 script
 -
 >
-code
-+
+offsetToPC
+(
 key
 .
 offset
+)
 )
 ^
 size_t

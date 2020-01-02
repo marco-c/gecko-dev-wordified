@@ -1864,6 +1864,8 @@ script
 -
 >
 code
+(
+)
 )
 ;
 if
@@ -3326,12 +3328,9 @@ pc
 script
 -
 >
-code
-+
-script
--
->
-length
+codeEnd
+(
+)
 -
 JSOP_RETRVAL_LENGTH
 ;

@@ -646,6 +646,8 @@ script_
 -
 >
 code
+(
+)
 ;
 }
 jsbytecode
@@ -659,12 +661,9 @@ return
 script_
 -
 >
-code
-+
-script_
--
->
-length
+codeEnd
+(
+)
 ;
 }
 const

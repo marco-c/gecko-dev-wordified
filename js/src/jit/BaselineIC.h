@@ -3252,9 +3252,10 @@ return
 script
 -
 >
-code
-+
+offsetToPC
+(
 pcOffset_
+)
 ;
 }
 bool

@@ -180,6 +180,8 @@ script
 -
 >
 code
+(
+)
 )
 ionCompileable_
 (
@@ -734,12 +736,13 @@ works
 ICEntry
 entry
 (
-pc
--
 script
 -
 >
-code
+pcToOffset
+(
+pc
+)
 false
 )
 ;

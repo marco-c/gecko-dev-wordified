@@ -10589,6 +10589,8 @@ script
 -
 >
 length
+(
+)
 >
 MAX_OFF_THREAD_SCRIPT_SIZE
 )
@@ -10625,6 +10627,8 @@ script
 -
 >
 length
+(
+)
 )
 ;
 return
@@ -10715,6 +10719,8 @@ script
 -
 >
 length
+(
+)
 >
 MAX_DOM_WORKER_SCRIPT_SIZE
 |
@@ -10738,6 +10744,8 @@ script
 -
 >
 length
+(
+)
 >
 MAX_MAIN_THREAD_SCRIPT_SIZE
 |
@@ -10877,6 +10885,8 @@ script
 -
 >
 length
+(
+)
 numLocalsAndArgs
 )
 ;
@@ -10911,6 +10921,8 @@ script
 -
 >
 length
+(
+)
 numLocalsAndArgs
 )
 ;
@@ -11233,6 +11245,8 @@ script
 -
 >
 code
+(
+)
 )
 )
 return
@@ -16729,6 +16743,8 @@ script
 -
 >
 code
+(
+)
 |
 |
 JSOp
@@ -16804,6 +16820,8 @@ script
 -
 >
 length
+(
+)
 >
 MAX_MAIN_THREAD_SCRIPT_SIZE
 )
@@ -16816,6 +16834,8 @@ script
 -
 >
 length
+(
+)
 /
 (
 double
