@@ -37,13 +37,6 @@ usage
 *
 *
 /
-const
-STORAGE_TYPE
-=
-"
-mozStorage
-"
-;
 function
 run_test
 (
@@ -387,8 +380,6 @@ LoginTest
 .
 initStorage
 (
-INDIR
-null
 OUTDIR
 "
 output
@@ -1025,8 +1016,6 @@ LoginTest
 .
 initStorage
 (
-INDIR
-null
 OUTDIR
 "
 output
