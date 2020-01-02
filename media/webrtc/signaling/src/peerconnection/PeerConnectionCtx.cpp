@@ -2427,8 +2427,6 @@ codecMask
 =
 VCM_CODEC_RESOURCE_LINEAR
 ;
-/
-/
 codecMask
 |
 =
