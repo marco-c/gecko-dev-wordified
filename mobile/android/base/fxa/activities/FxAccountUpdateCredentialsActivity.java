@@ -1247,11 +1247,13 @@ dump
 )
 ;
 }
-redirectToActivity
+setResult
 (
-FxAccountStatusActivity
-.
-class
+RESULT_OK
+)
+;
+finish
+(
 )
 ;
 }
