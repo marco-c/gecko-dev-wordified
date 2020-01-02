@@ -3634,6 +3634,7 @@ context
 }
 }
 private
+static
 class
 LoadIDAwareFaviconLoadedListener
 implements
