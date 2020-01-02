@@ -1061,14 +1061,6 @@ if
 call
 -
 >
-IsOutgoing
-(
-)
-&
-&
-call
--
->
 CallState
 (
 )
