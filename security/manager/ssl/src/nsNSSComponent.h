@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsISignatureVerifier
-.
-h
-"
-#
-include
-"
 nsIEntropyCollector
 .
 h
@@ -595,8 +588,6 @@ class
 nsNSSComponent
 :
 public
-nsISignatureVerifier
-public
 nsIEntropyCollector
 public
 nsINSSComponent
@@ -623,7 +614,6 @@ nsNSSComponent
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSISIGNATUREVERIFIER
 NS_DECL_NSIENTROPYCOLLECTOR
 NS_DECL_NSIOBSERVER
 NS_METHOD
