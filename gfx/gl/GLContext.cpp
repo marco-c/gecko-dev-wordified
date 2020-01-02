@@ -9931,11 +9931,8 @@ mScreen
 >
 PublishFrame
 (
-ThebesIntSize
-(
 OffscreenSize
 (
-)
 )
 )
 )
@@ -13467,7 +13464,7 @@ slow
 )
 ;
 }
-SurfaceFormat
+ImageFormat
 readFormatGFX
 ;
 switch
@@ -13486,9 +13483,9 @@ readFormatGFX
 =
 hasAlpha
 ?
-FORMAT_B8G8R8A8
+gfxImageFormatARGB32
 :
-FORMAT_B8G8R8X8
+gfxImageFormatRGB24
 ;
 break
 ;
@@ -13515,7 +13512,7 @@ LOCAL_GL_UNSIGNED_SHORT_5_6_5_REV
 ;
 readFormatGFX
 =
-FORMAT_R5G6B5
+gfxImageFormatRGB16_565
 ;
 break
 ;
@@ -13623,10 +13620,7 @@ dest
 GetSize
 (
 )
-gfxImageFormat
-(
 readFormatGFX
-)
 false
 )
 ;
@@ -15040,10 +15034,7 @@ fFinish
 ;
 }
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 GLContext
 :
@@ -15076,7 +15067,7 @@ GLContext
 CreateScreenBufferImpl
 (
 const
-IntSize
+gfxIntSize
 &
 size
 const
@@ -15172,7 +15163,7 @@ GLContext
 ResizeScreenBuffer
 (
 const
-IntSize
+gfxIntSize
 &
 size
 )
@@ -15318,7 +15309,7 @@ GLContext
 IsOffscreenSizeAllowed
 (
 const
-IntSize
+gfxIntSize
 &
 aSize
 )

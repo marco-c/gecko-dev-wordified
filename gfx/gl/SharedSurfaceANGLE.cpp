@@ -828,10 +828,7 @@ display
 EGLConfig
 config
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 )
@@ -888,10 +885,7 @@ context
 EGLConfig
 config
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 bool

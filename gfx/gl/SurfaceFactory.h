@@ -179,10 +179,7 @@ SharedSurface
 CreateShared
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 )
@@ -206,10 +203,7 @@ SharedSurface
 NewSharedSurface
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 )

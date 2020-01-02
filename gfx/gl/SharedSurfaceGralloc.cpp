@@ -180,13 +180,6 @@ ScopedGLHelpers
 h
 "
 #
-include
-"
-gfx2DGlue
-.
-h
-"
-#
 define
 DEBUG_GRALLOC
 #
@@ -329,10 +322,7 @@ GLFormats
 &
 formats
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 bool
@@ -455,10 +445,7 @@ allocator
 >
 AllocSurfaceDescriptorWithCaps
 (
-ThebesIntSize
-(
 size
-)
 type
 USING_GL_RENDERING_ONLY
 &

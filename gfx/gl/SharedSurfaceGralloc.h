@@ -172,10 +172,7 @@ GLFormats
 &
 formats
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 bool
@@ -373,10 +370,7 @@ GLContext
 *
 prodGL
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 bool
@@ -546,10 +540,7 @@ SharedSurface
 CreateShared
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 )
