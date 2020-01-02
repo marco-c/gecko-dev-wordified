@@ -1181,12 +1181,6 @@ updateCommands
 (
 )
 ;
-this
-.
-_busyPromise
-=
-null
-;
 }
 busyUntil
 :
@@ -1227,12 +1221,6 @@ gets
 /
 resolved
 .
-this
-.
-_busyPromise
-=
-promise
-;
 let
 timeout
 =
