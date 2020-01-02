@@ -4579,16 +4579,6 @@ JSContext
 Context
 ;
 bool
-canMonitorSingletonUndefinedSlot
-(
-HandleObject
-holder
-HandleShape
-shape
-)
-const
-;
-bool
 allowArrayLength
 (
 Context

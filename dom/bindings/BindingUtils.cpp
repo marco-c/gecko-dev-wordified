@@ -4398,14 +4398,8 @@ instance
 bool
 InstanceClassHasProtoAtDepth
 (
-JS
-:
-:
-Handle
-<
 JSObject
 *
->
 protoObject
 uint32_t
 protoID

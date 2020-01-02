@@ -2353,7 +2353,6 @@ barrier
 =
 PropertyReadNeedsTypeBarrier
 (
-cx
 context
 (
 )
