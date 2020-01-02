@@ -12467,8 +12467,6 @@ TextureImage
 >
 CreateDirectTextureImage
 (
-:
-:
 android
 :
 :
