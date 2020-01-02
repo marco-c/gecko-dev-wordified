@@ -351,6 +351,12 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 return
 ;
 }
+aValues
+.
+ComputeLengthAndData
+(
+)
+;
 AudioParamTimeline
 :
 :
