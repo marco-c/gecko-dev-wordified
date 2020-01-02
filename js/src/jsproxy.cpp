@@ -19500,6 +19500,8 @@ trc
 -
 >
 runtime
+(
+)
 -
 >
 gcDisableStrictProxyCheckingCount

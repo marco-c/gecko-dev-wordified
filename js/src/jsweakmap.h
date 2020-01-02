@@ -481,6 +481,8 @@ tracer
 -
 >
 eagerlyTraceWeakMaps
+(
+)
 =
 =
 DoNotTraceWeakMaps
@@ -622,6 +624,8 @@ tracer
 -
 >
 eagerlyTraceWeakMaps
+(
+)
 =
 =
 DoNotTraceWeakMaps
@@ -639,6 +643,8 @@ tracer
 -
 >
 eagerlyTraceWeakMaps
+(
+)
 =
 =
 TraceWeakMapKeysValues

@@ -4801,6 +4801,8 @@ trc
 -
 >
 runtime
+(
+)
 -
 >
 isHeapMinorCollecting
@@ -4997,6 +4999,8 @@ trc
 -
 >
 runtime
+(
+)
 &
 viewsHead
 )

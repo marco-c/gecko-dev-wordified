@@ -11262,9 +11262,11 @@ p
 )
 return
 ;
-JS_SET_TRACING_LOCATION
-(
 trc
+-
+>
+setTracingLocation
+(
 &
 const_cast
 <

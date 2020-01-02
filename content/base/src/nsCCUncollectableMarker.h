@@ -102,7 +102,9 @@ nsCCUncollectableMarker_h_
 #
 include
 "
-nsIObserver
+js
+/
+TracingAPI
 .
 h
 "
@@ -115,9 +117,13 @@ Attributes
 .
 h
 "
-struct
-JSTracer
-;
+#
+include
+"
+nsIObserver
+.
+h
+"
 class
 nsCCUncollectableMarker
 MOZ_FINAL

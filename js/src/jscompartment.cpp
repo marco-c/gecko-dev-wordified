@@ -3502,6 +3502,8 @@ trc
 -
 >
 runtime
+(
+)
 -
 >
 isHeapMinorCollecting

@@ -36607,6 +36607,8 @@ trc
 -
 >
 debugPrinter
+(
+)
 =
 =
 js_GetObjectSlotName
@@ -36624,6 +36626,8 @@ trc
 -
 >
 debugPrintArg
+(
+)
 ;
 uint32_t
 slot
@@ -36634,6 +36638,8 @@ trc
 -
 >
 debugPrintIndex
+(
+)
 )
 ;
 Shape
