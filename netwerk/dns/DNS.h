@@ -1303,6 +1303,15 @@ NetAddr
 addr
 )
 ;
+bool
+IsIPAddrLocal
+(
+const
+NetAddr
+*
+addr
+)
+;
 }
 /
 /
