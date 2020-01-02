@@ -6752,7 +6752,7 @@ byte
 .
 if
 (
-cert
+issuerCert
 -
 >
 serialNumber
