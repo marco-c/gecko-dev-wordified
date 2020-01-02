@@ -274,7 +274,7 @@ h
 /
 /
 for
-DeprecatedTextureClient
+TextureClient
 #
 include
 "
@@ -1972,7 +1972,7 @@ double
 buffered
 ContentClient
 .
-mDeprecatedTextureClient
+mTextureClient
 is
 the
 back
@@ -2015,7 +2015,7 @@ can
 write
 *
 into
-mDeprecatedTextureClient
+mTextureClient
 at
 any
 time

@@ -185,7 +185,7 @@ h
 /
 /
 for
-DeprecatedTextureClient
+TextureClient
 etc
 namespace
 mozilla

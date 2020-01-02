@@ -306,7 +306,7 @@ h
 /
 /
 for
-DeprecatedTextureHost
+TextureHost
 #
 include
 "

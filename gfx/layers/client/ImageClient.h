@@ -223,7 +223,7 @@ h
 /
 /
 for
-DeprecatedTextureClient
+TextureClient
 etc
 #
 include
@@ -760,7 +760,7 @@ ImageBridge
 id
 in
 the
-DeprecatedTextureClientIdentifier
+TextureClientIdentifier
 .
 *
 /

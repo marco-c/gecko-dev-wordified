@@ -250,7 +250,7 @@ h
 /
 /
 for
-DeprecatedTextureHost
+TextureHost
 etc
 #
 include

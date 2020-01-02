@@ -152,7 +152,7 @@ h
 /
 /
 for
-DeprecatedTextureClient
+TextureClient
 etc
 #
 include
