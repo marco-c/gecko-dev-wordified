@@ -79602,20 +79602,8 @@ if
 include
 ]
         
-curr
+declareIncludes
 =
-CGHeaders
-(
-descriptors
-                         
-dictionaries
-                         
-mainCallbacks
-+
-workerCallbacks
-                         
-callbackDescriptors
-                         
 [
 '
 mozilla
@@ -79650,6 +79638,37 @@ h
 '
                           
 ]
+        
+if
+jsImplemented
+:
+            
+declareIncludes
+.
+append
+(
+'
+nsWeakReference
+.
+h
+'
+)
+        
+curr
+=
+CGHeaders
+(
+descriptors
+                         
+dictionaries
+                         
+mainCallbacks
++
+workerCallbacks
+                         
+callbackDescriptors
+                         
+declareIncludes
                          
 bindingHeaders
                          
@@ -86234,7 +86253,7 @@ baseClasses
 ClassBase
 (
 "
-nsISupports
+nsSupportsWeakReference
 "
 )
                            
@@ -86341,6 +86360,15 @@ n
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
+)
+\
+n
+"
+                
+"
+NS_INTERFACE_MAP_ENTRY
+(
+nsISupportsWeakReference
 )
 \
 n
