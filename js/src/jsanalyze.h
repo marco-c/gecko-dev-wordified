@@ -1318,7 +1318,9 @@ function
 )
 -
 >
-nargs
+getNargs
+(
+)
 :
 0
 )

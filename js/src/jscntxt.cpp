@@ -772,7 +772,9 @@ nonLazyScript
 )
 -
 >
-shouldCloneAtCallsite
+getShouldCloneAtCallsite
+(
+)
 )
 ;
 JS_ASSERT
@@ -868,7 +870,9 @@ pc
 script
 -
 >
-code
+getCode
+(
+)
 )
 )
 ;

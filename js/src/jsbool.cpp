@@ -1116,7 +1116,9 @@ js
 :
 ToBooleanSlow
 (
-HandleValue
+const
+Value
+&
 v
 )
 {

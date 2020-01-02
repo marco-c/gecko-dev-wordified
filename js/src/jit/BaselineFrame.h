@@ -1013,7 +1013,9 @@ script
 )
 -
 >
-nfixed
+getNfixed
+(
+)
 )
 ;
 return
@@ -1239,7 +1241,9 @@ function
 )
 -
 >
-nargs
+getNargs
+(
+)
 ;
 }
 Value

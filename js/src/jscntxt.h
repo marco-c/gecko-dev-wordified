@@ -351,7 +351,9 @@ key
 script
 -
 >
-code
+getCode
+(
+)
 +
 key
 .

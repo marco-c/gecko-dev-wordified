@@ -1299,7 +1299,7 @@ shape
 shape
 -
 >
-propid
+propidRaw
 (
 )
 =
