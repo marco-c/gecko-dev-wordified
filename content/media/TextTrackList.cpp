@@ -605,7 +605,7 @@ nsAString
 aEventName
 )
 {
-TrackEventInit
+TrackEventInitInitializer
 eventInit
 ;
 eventInit
