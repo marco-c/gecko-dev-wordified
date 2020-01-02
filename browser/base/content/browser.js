@@ -7603,6 +7603,12 @@ init
 (
 )
 ;
+LightweightThemeListener
+.
+init
+(
+)
+;
 AddonManager
 .
 addAddonListener
@@ -10014,6 +10020,12 @@ AddonsMgrListener
 )
 ;
 SocialUI
+.
+uninit
+(
+)
+;
+LightweightThemeListener
 .
 uninit
 (
