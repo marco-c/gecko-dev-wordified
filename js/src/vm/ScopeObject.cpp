@@ -10632,7 +10632,6 @@ scope
 global
 (
 )
-ProxyNotCallable
 )
 ;
 if
