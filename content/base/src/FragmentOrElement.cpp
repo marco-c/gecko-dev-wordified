@@ -1210,9 +1210,8 @@ parent
 parent
 -
 >
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 )
 {
