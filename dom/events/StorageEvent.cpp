@@ -126,7 +126,11 @@ h
 #
 include
 "
-nsIDOMStorage
+mozilla
+/
+dom
+/
+DOMStorage
 .
 h
 "
@@ -447,7 +451,7 @@ const
 nsAString
 &
 aURL
-nsIDOMStorage
+DOMStorage
 *
 aStorageArea
 ErrorResult

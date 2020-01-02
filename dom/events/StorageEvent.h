@@ -169,9 +169,6 @@ StorageEventBinding
 .
 h
 "
-class
-nsIDOMStorage
-;
 /
 /
 Helper
@@ -202,6 +199,9 @@ mozilla
 namespace
 dom
 {
+class
+DOMStorage
+;
 class
 StorageEvent
 :
@@ -243,9 +243,9 @@ mNewValue
 nsString
 mUrl
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMStorage
+DOMStorage
 >
 mStorageArea
 ;
@@ -340,7 +340,7 @@ const
 nsAString
 &
 aURL
-nsIDOMStorage
+DOMStorage
 *
 aStorageArea
 ErrorResult
@@ -404,7 +404,7 @@ aRetVal
 mUrl
 ;
 }
-nsIDOMStorage
+DOMStorage
 *
 GetStorageArea
 (

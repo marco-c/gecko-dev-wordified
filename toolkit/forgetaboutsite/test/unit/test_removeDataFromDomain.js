@@ -4339,6 +4339,7 @@ dsm
 .
 createStorage
 (
+null
 principal
 "
 "

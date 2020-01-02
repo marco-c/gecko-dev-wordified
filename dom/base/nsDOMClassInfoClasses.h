@@ -241,15 +241,6 @@ DOMCI_CLASS
 (
 XPathNSResolver
 )
-/
-/
-WhatWG
-WebApps
-Objects
-DOMCI_CLASS
-(
-Storage
-)
 DOMCI_CLASS
 (
 Blob
