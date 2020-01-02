@@ -228,6 +228,13 @@ KeyUsages
 requiredKeyUsagesIfPresent
 /
 *
+optional
+*
+/
+SECOidTag
+requiredEKUIfPresent
+/
+*
 out
 *
 /

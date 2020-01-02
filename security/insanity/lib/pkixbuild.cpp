@@ -475,6 +475,16 @@ break
 /
 bug
 965136
+case
+37
+:
+out
+=
+&
+encodedExtendedKeyUsage
+;
+break
+;
 }
 }
 else
@@ -811,6 +821,8 @@ EndEntityOrCA
 endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
+SECOidTag
+requiredEKUIfPresent
 unsigned
 int
 subCACount
@@ -850,6 +862,8 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
+SECOidTag
+requiredEKUIfPresent
 CERTCertificate
 *
 potentialIssuerCertToDup
@@ -1128,6 +1142,7 @@ potentialIssuer
 time
 MustBeCA
 KU_KEY_CERT_SIGN
+requiredEKUIfPresent
 newSubCACount
 results
 )
@@ -1208,6 +1223,8 @@ EndEntityOrCA
 endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
+SECOidTag
+requiredEKUIfPresent
 unsigned
 int
 subCACount
@@ -1385,6 +1402,7 @@ TrustDomain
 :
 TrustAnchor
 requiredKeyUsagesIfPresent
+requiredEKUIfPresent
 subCACount
 )
 ;
@@ -1576,6 +1594,7 @@ trustDomain
 subject
 time
 endEntityOrCA
+requiredEKUIfPresent
 n
 -
 >
@@ -1661,6 +1680,13 @@ optional
 /
 KeyUsages
 requiredKeyUsagesIfPresent
+/
+*
+optional
+*
+/
+SECOidTag
+requiredEKUIfPresent
 /
 *
 out
@@ -1750,6 +1776,7 @@ ee
 time
 MustBeEndEntity
 requiredKeyUsagesIfPresent
+requiredEKUIfPresent
 0
 results
 )

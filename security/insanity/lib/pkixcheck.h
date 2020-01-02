@@ -231,6 +231,8 @@ bool
 isTrustAnchor
 KeyUsages
 requiredKeyUsagesIfPresent
+SECOidTag
+requiredEKUIfPresent
 unsigned
 int
 depth
