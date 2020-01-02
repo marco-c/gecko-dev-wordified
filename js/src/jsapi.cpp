@@ -15223,7 +15223,7 @@ native
 property
 on
 the
-objct
+object
 .
 Be
 careful
@@ -15630,8 +15630,7 @@ set
 op
 ;
 /
-*
-*
+/
 JSPROP_READONLY
 has
 no
@@ -15645,7 +15644,8 @@ Ideally
 we
 '
 d
-*
+/
+/
 throw
 if
 this
@@ -15663,7 +15663,8 @@ that
 it
 '
 s
-*
+/
+/
 not
 worth
 trying
@@ -15679,7 +15680,8 @@ flip
 it
 off
 on
-*
+/
+/
 its
 way
 through
@@ -15694,8 +15696,6 @@ enforce
 this
 internally
 .
-*
-/
 if
 (
 attrs
@@ -15713,8 +15713,7 @@ attrs
 JSPROP_READONLY
 ;
 /
-*
-*
+/
 When
 we
 use
@@ -15726,7 +15725,8 @@ scriptable
 Function
 objects
 rather
-*
+/
+/
 than
 JSNatives
 .
@@ -15739,7 +15739,8 @@ this
 property
 descriptor
 off
-*
+/
+/
 of
 something
 with
@@ -15753,13 +15754,12 @@ are
 wrap
 them
 in
-*
+/
+/
 JS
 Function
 objects
 .
-*
-/
 if
 (
 attrs
@@ -15804,10 +15804,10 @@ JS_NewFunctionById
 here
 because
 it
-/
-/
 assumes
 a
+/
+/
 string
 id
 .
