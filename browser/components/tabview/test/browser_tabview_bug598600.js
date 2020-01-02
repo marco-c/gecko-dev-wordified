@@ -98,6 +98,11 @@ dialog
 =
 no
 "
+"
+about
+:
+blank
+"
 )
 ;
 whenWindowLoaded

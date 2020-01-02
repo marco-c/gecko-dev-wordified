@@ -241,6 +241,11 @@ getBrowserURL
 _blank
 "
 opts
+"
+about
+:
+blank
+"
 )
 ;
 whenDelayedStartupFinished
