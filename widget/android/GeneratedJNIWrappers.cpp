@@ -2273,7 +2273,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 GeckoAppShell
@@ -2436,7 +2436,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -2447,7 +2447,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2661,7 +2661,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -2672,7 +2672,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2882,7 +2882,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -2893,7 +2893,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3034,7 +3034,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -3045,7 +3045,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3203,7 +3203,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -3214,7 +3214,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3358,7 +3358,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -3369,7 +3369,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3510,7 +3510,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -3521,7 +3521,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3679,7 +3679,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -3690,7 +3690,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3915,7 +3915,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -3926,7 +3926,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -4154,7 +4154,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -4165,7 +4165,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -4312,7 +4312,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -4323,7 +4323,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -4464,7 +4464,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -4475,7 +4475,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -4616,7 +4616,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -4627,7 +4627,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -4768,7 +4768,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -4779,7 +4779,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -4923,7 +4923,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -4934,7 +4934,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -5075,7 +5075,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -5086,7 +5086,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -5230,7 +5230,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -5241,7 +5241,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -5385,7 +5385,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -5396,7 +5396,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -5537,7 +5537,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -5548,7 +5548,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -5689,7 +5689,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -5700,7 +5700,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -5844,7 +5844,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -5855,7 +5855,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -5998,7 +5998,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -6168,7 +6168,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -6338,7 +6338,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -6512,7 +6512,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -6526,7 +6526,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -6675,7 +6675,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -6687,7 +6687,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -6853,7 +6853,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -7057,7 +7057,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -7261,7 +7261,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -7451,7 +7451,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -7622,7 +7622,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -7633,7 +7633,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -7796,7 +7796,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -7967,7 +7967,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -7978,7 +7978,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -8202,7 +8202,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8372,7 +8372,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8384,7 +8384,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8533,7 +8533,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8545,7 +8545,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8694,7 +8694,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8706,7 +8706,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8855,7 +8855,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -9042,7 +9042,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -9207,7 +9207,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -9218,7 +9218,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -9424,7 +9424,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -9594,7 +9594,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -9606,7 +9606,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -9755,7 +9755,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -9767,7 +9767,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -9916,7 +9916,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -9928,7 +9928,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -10072,7 +10072,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -10083,7 +10083,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -10260,7 +10260,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -10428,7 +10428,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -10439,7 +10439,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -10597,7 +10597,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -10608,7 +10608,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -10749,7 +10749,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -10760,7 +10760,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -10906,7 +10906,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -10918,7 +10918,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -11065,7 +11065,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -11076,7 +11076,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -11220,7 +11220,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -11231,7 +11231,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -11432,7 +11432,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -11443,7 +11443,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -11662,7 +11662,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -11673,7 +11673,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -11848,7 +11848,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -11859,7 +11859,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -12000,7 +12000,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -12011,7 +12011,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -12284,7 +12284,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -12296,7 +12296,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -12443,7 +12443,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -12454,7 +12454,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -12600,7 +12600,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -12612,7 +12612,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -12762,7 +12762,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -12773,7 +12773,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -12920,7 +12920,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -12931,7 +12931,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -13106,7 +13106,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -13117,7 +13117,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -13258,7 +13258,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -13269,7 +13269,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -13468,7 +13468,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -13479,7 +13479,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -13623,7 +13623,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -13634,7 +13634,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -13778,7 +13778,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -13789,7 +13789,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -13964,7 +13964,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -13975,7 +13975,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -14223,7 +14223,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -14234,7 +14234,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -14395,7 +14395,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -14406,7 +14406,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -14569,7 +14569,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -14756,7 +14756,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -14921,7 +14921,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -14932,7 +14932,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -15078,7 +15078,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -15090,7 +15090,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -15234,7 +15234,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -15245,7 +15245,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -15386,7 +15386,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -15397,7 +15397,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -15541,7 +15541,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -15552,7 +15552,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -15699,7 +15699,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -15710,7 +15710,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -16049,7 +16049,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JavaDomKeyLocation
@@ -16234,7 +16234,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -16404,7 +16404,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -17072,7 +17072,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 GeckoJavaSampler
@@ -17277,7 +17277,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -17454,7 +17454,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -17468,7 +17468,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -17617,7 +17617,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -17779,7 +17779,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -17790,7 +17790,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -17934,7 +17934,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -17945,7 +17945,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -18083,7 +18083,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -18094,7 +18094,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -18232,7 +18232,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -18243,7 +18243,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -18435,7 +18435,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 SurfaceBits
@@ -18564,7 +18564,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -19094,7 +19094,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ThumbnailHelper
@@ -19297,7 +19297,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -19308,7 +19308,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -19463,7 +19463,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 DisplayPortMetrics
@@ -19654,7 +19654,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -19880,7 +19880,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 GLController
@@ -20045,7 +20045,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -20457,7 +20457,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 GeckoLayerClient
@@ -20617,7 +20617,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -20628,7 +20628,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -20769,7 +20769,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -20780,7 +20780,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -20923,7 +20923,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -21085,7 +21085,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -21096,7 +21096,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -21293,7 +21293,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -21463,7 +21463,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -21475,7 +21475,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -21705,7 +21705,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -21951,7 +21951,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -21962,7 +21962,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -22151,7 +22151,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -22162,7 +22162,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -22466,7 +22466,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -22706,7 +22706,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -22840,7 +22840,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ImmutableViewportMetrics
@@ -23116,7 +23116,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -23232,7 +23232,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 LayerView
@@ -23397,7 +23397,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -23552,7 +23552,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 NativePanZoomController
@@ -23715,7 +23715,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -23726,7 +23726,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -23926,7 +23926,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -23937,7 +23937,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -24198,7 +24198,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ProgressiveUpdateData
@@ -24327,7 +24327,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -24471,7 +24471,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -24482,7 +24482,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -25400,7 +25400,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ViewTransform
@@ -25569,7 +25569,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -26633,7 +26633,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 NativeZip
@@ -26807,7 +26807,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -27065,7 +27065,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 MatrixBlobCursor
@@ -27197,7 +27197,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -27310,7 +27310,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -27454,7 +27454,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -27465,7 +27465,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -27612,7 +27612,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -27623,7 +27623,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -27767,7 +27767,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -27778,7 +27778,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -27937,7 +27937,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 SQLiteBridgeException
@@ -28066,7 +28066,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -28190,7 +28190,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -28425,7 +28425,7 @@ __PRETTY_FUNCTION__
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 Clipboard
@@ -28588,7 +28588,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -28599,7 +28599,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
@@ -28745,7 +28745,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -28915,7 +28915,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -28927,7 +28927,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -29088,7 +29088,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 return
@@ -29099,7 +29099,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }
