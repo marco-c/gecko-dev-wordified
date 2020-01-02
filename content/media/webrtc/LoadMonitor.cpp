@@ -2268,7 +2268,7 @@ CTL_KERN
 KERN_CP_TIME
 }
 ;
-size_t
+u_int
 miblen
 =
 sizeof
@@ -2294,7 +2294,7 @@ miblen
 cp_time
 &
 sz
-NULL
+nullptr
 0
 )
 )
@@ -2314,7 +2314,7 @@ cp_time
 cp_time
 &
 sz
-NULL
+nullptr
 0
 )
 )
