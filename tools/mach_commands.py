@@ -1194,12 +1194,12 @@ idl
 '
 cpp
 '
+'
+c
++
++
+'
 ]
-default
-=
-'
-idl
-'
                      
 help
 =
@@ -1219,6 +1219,8 @@ uuid
 (
 self
 format
+=
+None
 )
 :
         
@@ -1235,19 +1237,46 @@ uuid4
         
 if
 format
-=
-=
+in
+[
+None
 '
 idl
 '
+]
 :
             
 print
 (
 u
 )
+            
+if
+format
+is
+None
+:
+                
+print
+(
+'
+'
+)
         
-else
+if
+format
+in
+[
+None
+'
+cpp
+'
+'
+c
++
++
+'
+]
 :
             
 u
