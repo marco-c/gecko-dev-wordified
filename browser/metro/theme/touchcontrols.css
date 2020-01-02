@@ -195,6 +195,8 @@ fullscreenButton
 .
 playButton
 .
+castingButton
+.
 muteButton
 {
 -
@@ -433,6 +435,14 @@ no
 -
 repeat
 center
+;
+}
+.
+castingButton
+{
+display
+:
+none
 ;
 }
 .
