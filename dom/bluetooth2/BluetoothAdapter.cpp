@@ -175,7 +175,7 @@ mozilla
 /
 dom
 /
-BluetoothAdapterBinding
+BluetoothAdapter2Binding
 .
 h
 "

@@ -182,7 +182,7 @@ mozilla
 /
 dom
 /
-BluetoothDeviceBinding
+BluetoothDevice2Binding
 .
 h
 "
