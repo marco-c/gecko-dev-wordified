@@ -192,7 +192,7 @@ static
 ToolbarComponent
 sToolbar
 ;
-public
+protected
 static
 void
 init

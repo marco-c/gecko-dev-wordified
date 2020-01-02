@@ -163,7 +163,7 @@ instantation
 *
 /
 }
-public
+protected
 static
 void
 init

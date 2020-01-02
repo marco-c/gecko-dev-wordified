@@ -266,7 +266,7 @@ isTablet
 )
 ;
 }
-public
+protected
 static
 void
 init
