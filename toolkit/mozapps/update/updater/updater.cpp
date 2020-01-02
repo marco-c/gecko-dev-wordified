@@ -587,7 +587,7 @@ LaunchMacPostProcess
 const
 char
 *
-aAppExe
+aAppBundle
 )
 ;
 #
