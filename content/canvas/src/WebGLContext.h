@@ -946,16 +946,6 @@ NS_OK
 ;
 }
 ;
-bool
-GetIsOpaque
-(
-)
-MOZ_OVERRIDE
-{
-return
-false
-;
-}
 NS_IMETHOD
 SetContextOptions
 (
