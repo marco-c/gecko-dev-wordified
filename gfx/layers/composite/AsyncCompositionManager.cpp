@@ -3655,9 +3655,15 @@ if
 container
 -
 >
-GetIsScrollbar
+GetScrollbarDirection
 (
 )
+!
+=
+Layer
+:
+:
+NONE
 )
 {
 ApplyAsyncTransformToScrollbar

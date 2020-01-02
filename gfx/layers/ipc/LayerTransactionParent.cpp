@@ -1906,15 +1906,6 @@ stickyScrollRangeInner
 )
 ;
 }
-if
-(
-common
-.
-isScrollbar
-(
-)
-)
-{
 layer
 -
 >
@@ -1941,7 +1932,6 @@ scrollbarDirection
 )
 )
 ;
-}
 if
 (
 PLayerParent
