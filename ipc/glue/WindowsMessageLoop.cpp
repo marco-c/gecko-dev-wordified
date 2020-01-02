@@ -1942,6 +1942,9 @@ through
 case
 WM_WINDOWPOSCHANGING
 :
+case
+WM_GETTEXTLENGTH
+:
 {
 return
 DefWindowProc
