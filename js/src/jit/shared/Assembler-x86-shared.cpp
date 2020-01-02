@@ -438,11 +438,8 @@ value
 "
 )
 ;
-JS_ASSERT
-(
 *
 word
-=
 =
 JSVAL_TO_IMPL
 (
@@ -450,7 +447,6 @@ v
 )
 .
 asBits
-)
 ;
 continue
 ;
