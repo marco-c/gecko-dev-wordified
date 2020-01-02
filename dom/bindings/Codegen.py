@@ -98151,9 +98151,6 @@ s
 GetContext
 (
 )
-CallbackPreserveColor
-(
-)
 thisObjPtr
 )
 )
