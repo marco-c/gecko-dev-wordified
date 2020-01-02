@@ -4374,6 +4374,11 @@ DOM_CLASSINFO_MAP_ENTRY
 nsIDOMWindowPerformance
 )
 \
+DOM_CLASSINFO_MAP_ENTRY
+(
+nsIInterfaceRequestor
+)
+\
 DOM_CLASSINFO_MAP_CONDITIONAL_ENTRY
 (
 nsITouchEventReceiver
@@ -4418,6 +4423,11 @@ nsIInlineEventHandlers
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMWindowPerformance
+)
+\
+DOM_CLASSINFO_MAP_ENTRY
+(
+nsIInterfaceRequestor
 )
 \
 DOM_CLASSINFO_MAP_CONDITIONAL_ENTRY
