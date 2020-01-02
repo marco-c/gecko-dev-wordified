@@ -347,7 +347,7 @@ not
 set
 }
 ;
-nsresult
+void
 SwapInFrameData
 (
 nsTArray
@@ -364,9 +364,6 @@ SwapElements
 (
 aData
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
