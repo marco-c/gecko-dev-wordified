@@ -1022,7 +1022,7 @@ bool
 RecvShow
 (
 const
-nsIntSize
+ScreenIntSize
 &
 size
 )
@@ -1036,7 +1036,7 @@ nsRect
 &
 rect
 const
-nsIntSize
+ScreenIntSize
 &
 size
 const
@@ -1332,7 +1332,10 @@ bool
 &
 flushLayout
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 renderSize
 )
@@ -1374,7 +1377,10 @@ bool
 &
 flushLayout
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 renderSize
 )
@@ -2221,7 +2227,7 @@ aFrameMetrics
 Call
 RecvShow
 (
-nsIntSize
+ScreenIntSize
 (
 0
 0
