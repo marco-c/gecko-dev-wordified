@@ -11730,7 +11730,9 @@ n
 ;
 if
 (
-peekChar
+userbuf
+.
+peekRawChar
 (
 )
 =
