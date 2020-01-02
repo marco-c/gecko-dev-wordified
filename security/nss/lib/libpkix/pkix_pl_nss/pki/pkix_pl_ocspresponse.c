@@ -1813,7 +1813,7 @@ desired
 .
 *
 "
-httpMechanism
+httpMethod
 "
 *
 GET
@@ -2000,7 +2000,7 @@ request
 const
 char
 *
-httpMechanism
+httpMethod
 void
 *
 responder
@@ -2125,7 +2125,7 @@ if
 !
 strcmp
 (
-httpMechanism
+httpMethod
 "
 GET
 "
@@ -2135,7 +2135,7 @@ GET
 !
 strcmp
 (
-httpMechanism
+httpMethod
 "
 POST
 "
@@ -2320,7 +2320,7 @@ usePOST
 !
 strcmp
 (
-httpMechanism
+httpMethod
 "
 POST
 "
@@ -2468,7 +2468,6 @@ by
 RFC2560
 *
 /
-unsigned
 char
 b64ReqBuf
 [
@@ -2571,6 +2570,11 @@ b64ReqBuf
 ;
 PL_Base64Encode
 (
+(
+const
+char
+*
+)
 encodedRequest
 -
 >
@@ -2682,7 +2686,7 @@ serverSession
 http
 "
 sessionPath
-httpMechanism
+httpMethod
 PR_SecondsToInterval
 (
 timeout

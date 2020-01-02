@@ -2217,7 +2217,7 @@ ocsp_ResponderIDByKeyTemplate
 if
 (
 !
-CERT_GetSPKIDigest
+CERT_GetSubjectPublicKeyDigest
 (
 tmpArena
 responderCert
