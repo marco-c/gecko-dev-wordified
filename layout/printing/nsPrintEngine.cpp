@@ -962,6 +962,9 @@ doucment
 s
 layout
 info
+#
+ifndef
+PR_PL
 static
 PRLogModuleInfo
 *
@@ -1007,6 +1010,8 @@ PR_LOG_DEBUG
 _p1
 )
 ;
+#
+endif
 #
 ifdef
 EXTENDED_DEBUG_PRINTING
