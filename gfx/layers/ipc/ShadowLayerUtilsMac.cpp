@@ -182,7 +182,10 @@ ISurfaceAllocator
 PlatformAllocSurfaceDescriptor
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 gfxContentType

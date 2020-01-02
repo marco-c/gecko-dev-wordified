@@ -514,7 +514,10 @@ PGrallocBufferParent
 AllocPGrallocBufferParent
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 const
