@@ -610,7 +610,9 @@ animates
 the
 drawable
 and
-its
+it
+'
+s
 bounds
 from
 the
