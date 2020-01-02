@@ -12633,6 +12633,19 @@ getControllingCondition
 (
 m
 )
+                       
+"
+allowCrossOriginThis
+"
+:
+m
+.
+getExtendedAttribute
+(
+"
+CrossOriginCallable
+"
+)
 }
             
 if
@@ -13249,6 +13262,27 @@ s_methodinfo
 accessor
 )
                     
+if
+m
+.
+get
+(
+"
+allowCrossOriginThis
+"
+False
+)
+:
+                        
+accessor
+=
+"
+genericCrossOriginMethod
+"
+                    
+else
+:
+                        
 accessor
 =
 "
@@ -13666,24 +13700,45 @@ nullptr
 else
 :
                 
-accessor
-=
-(
-"
-genericLenientGetter
-"
 if
 attr
 .
 hasLenientThis
 (
 )
-                            
+:
+                    
+accessor
+=
+"
+genericLenientGetter
+"
+                
+elif
+attr
+.
+getExtendedAttribute
+(
+"
+CrossOriginReadable
+"
+)
+:
+                    
+accessor
+=
+"
+genericCrossOriginGetter
+"
+                
 else
+:
+                    
+accessor
+=
 "
 genericGetter
 "
-)
                 
 jitinfo
 =
@@ -13791,24 +13846,45 @@ nullptr
 else
 :
                 
-accessor
-=
-(
-"
-genericLenientSetter
-"
 if
 attr
 .
 hasLenientThis
 (
 )
-                            
+:
+                    
+accessor
+=
+"
+genericLenientSetter
+"
+                
+elif
+attr
+.
+getExtendedAttribute
+(
+"
+CrossOriginWritable
+"
+)
+:
+                    
+accessor
+=
+"
+genericCrossOriginSetter
+"
+                
 else
+:
+                    
+accessor
+=
 "
 genericSetter
 "
-)
                 
 jitinfo
 =
@@ -48356,6 +48432,29 @@ variable
 around
 .
     
+If
+allowCrossOriginThis
+is
+true
+then
+this
+-
+unwrapping
+will
+first
+do
+an
+    
+UncheckedUnwrap
+and
+after
+that
+operate
+on
+the
+result
+.
+    
 "
 "
 "
@@ -48394,6 +48493,10 @@ vp
 )
 ;
 "
+                 
+allowCrossOriginThis
+=
+False
 )
 :
         
@@ -48668,6 +48771,12 @@ self
 callArgs
 =
 callArgs
+        
+self
+.
+allowCrossOriginThis
+=
+allowCrossOriginThis
     
 def
 definition_body
@@ -48781,6 +48890,20 @@ n
 "
 )
         
+objName
+=
+"
+uncheckedObj
+"
+if
+self
+.
+allowCrossOriginThis
+else
+"
+obj
+"
+        
 unwrapThis
 =
 CGGeneric
@@ -48795,9 +48918,7 @@ self
 .
 descriptor
                         
-"
-obj
-"
+objName
 "
 self
 "
@@ -48806,6 +48927,85 @@ self
 unwrapFailureCode
 )
 )
+)
+        
+if
+self
+.
+allowCrossOriginThis
+:
+            
+unwrapThis
+=
+CGWrapper
+(
+                
+CGIndenter
+(
+unwrapThis
+)
+                
+pre
+=
+(
+"
+{
+/
+/
+Scope
+for
+the
+uncheckedObj
+JSAutoCompartment
+\
+n
+"
+                     
+"
+JS
+:
+:
+Rooted
+<
+JSObject
+*
+>
+uncheckedObj
+(
+cx
+js
+:
+:
+UncheckedUnwrap
+(
+obj
+)
+)
+;
+\
+n
+"
+                     
+"
+JSAutoCompartment
+ac
+(
+cx
+uncheckedObj
+)
+;
+\
+n
+"
+)
+                
+post
+=
+"
+\
+n
+}
+"
 )
         
 return
@@ -49142,6 +49342,28 @@ an
 IDL
 method
 .
+    
+If
+allowCrossOriginThis
+is
+true
+then
+this
+-
+unwrapping
+will
+first
+do
+an
+    
+UncheckedUnwrap
+and
+after
+that
+operate
+on
+the
+result
 .
     
 "
@@ -49153,6 +49375,9 @@ __init__
 (
 self
 descriptor
+allowCrossOriginThis
+=
+False
 )
 :
         
@@ -49231,21 +49456,35 @@ identifier
 name
 )
         
+name
+=
+"
+genericCrossOriginMethod
+"
+if
+allowCrossOriginThis
+else
+"
+genericMethod
+"
+        
 CGAbstractBindingMethod
 .
 __init__
 (
 self
 descriptor
-'
-genericMethod
-'
+name
                                          
 args
                                          
 unwrapFailureCode
 =
 unwrapFailureCode
+                                         
+allowCrossOriginThis
+=
+allowCrossOriginThis
 )
     
 def
@@ -51137,6 +51376,9 @@ descriptor
 lenientThis
 =
 False
+allowCrossOriginThis
+=
+False
 )
 :
         
@@ -51271,6 +51513,19 @@ true
 else
 :
             
+if
+allowCrossOriginThis
+:
+                
+name
+=
+"
+genericCrossOriginGetter
+"
+            
+else
+:
+                
 name
 =
 "
@@ -51324,6 +51579,10 @@ name
 args
                                          
 unwrapFailureCode
+                                         
+allowCrossOriginThis
+=
+allowCrossOriginThis
 )
     
 def
@@ -52199,6 +52458,9 @@ descriptor
 lenientThis
 =
 False
+allowCrossOriginThis
+=
+False
 )
 :
         
@@ -52333,6 +52595,19 @@ true
 else
 :
             
+if
+allowCrossOriginThis
+:
+                
+name
+=
+"
+genericCrossOriginSetter
+"
+            
+else
+:
+                
 name
 =
 "
@@ -52386,6 +52661,10 @@ name
 args
                                          
 unwrapFailureCode
+                                         
+allowCrossOriginThis
+=
+allowCrossOriginThis
 )
     
 def
@@ -73613,6 +73892,9 @@ identifier
 name
 )
                     
+else
+:
+                        
 hasMethod
 =
 True
@@ -73684,10 +73966,7 @@ hasLenientGetter
 =
 True
                     
-else
-:
-                        
-if
+elif
 m
 .
 getExtendedAttribute
@@ -73697,7 +73976,7 @@ CrossOriginReadable
 "
 )
 :
-                            
+                        
 crossOriginGetters
 .
 add
@@ -73708,6 +73987,9 @@ identifier
 .
 name
 )
+                    
+else
+:
                         
 hasGetter
 =
@@ -73779,10 +74061,7 @@ hasLenientSetter
 =
 True
                         
-else
-:
-                            
-if
+elif
 m
 .
 getExtendedAttribute
@@ -73792,7 +74071,7 @@ CrossOriginWritable
 "
 )
 :
-                                
+                            
 crossOriginSetters
 .
 add
@@ -73803,6 +74082,9 @@ identifier
 .
 name
 )
+                        
+else
+:
                             
 hasSetter
 =
@@ -73852,6 +74134,9 @@ identifier
 name
 )
                     
+else
+:
+                        
 hasSetter
 =
 True
@@ -73953,6 +74238,27 @@ descriptor
 )
         
 if
+len
+(
+crossOriginMethods
+)
+:
+            
+cgThings
+.
+append
+(
+CGGenericMethod
+(
+descriptor
+                                            
+allowCrossOriginThis
+=
+True
+)
+)
+        
+if
 hasGetter
 :
 cgThings
@@ -73983,6 +74289,27 @@ True
 )
         
 if
+len
+(
+crossOriginGetters
+)
+:
+            
+cgThings
+.
+append
+(
+CGGenericGetter
+(
+descriptor
+                                            
+allowCrossOriginThis
+=
+True
+)
+)
+        
+if
 hasSetter
 :
 cgThings
@@ -74007,6 +74334,27 @@ CGGenericSetter
 descriptor
                                                              
 lenientThis
+=
+True
+)
+)
+        
+if
+len
+(
+crossOriginSetters
+)
+:
+            
+cgThings
+.
+append
+(
+CGGenericSetter
+(
+descriptor
+                                            
+allowCrossOriginThis
 =
 True
 )
