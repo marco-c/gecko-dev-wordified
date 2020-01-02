@@ -21014,8 +21014,7 @@ MacroAssemblerARM
 :
 ma_call
 (
-void
-*
+ImmPtr
 dest
 )
 {
@@ -21039,13 +21038,7 @@ L_LDR
 ;
 ma_movPatchable
 (
-Imm32
-(
-(
-uint32_t
-)
 dest
-)
 CallReg
 Always
 rs
@@ -22534,7 +22527,10 @@ stackAdjust
 ;
 ma_call
 (
+ImmPtr
+(
 fun
+)
 )
 ;
 callWithABIPost
