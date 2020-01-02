@@ -1200,7 +1200,7 @@ getDirectory
 (
 self
 .
-remoteTmpDir
+remoteMinidumpDir
 dumpDir
 )
             
@@ -1226,7 +1226,7 @@ removeDir
 (
 self
 .
-remoteTmpDir
+remoteMinidumpDir
 )
             
 self
@@ -1237,7 +1237,7 @@ mkDir
 (
 self
 .
-remoteTmpDir
+remoteMinidumpDir
 )
         
 return
@@ -1796,6 +1796,20 @@ m
         
 self
 .
+remoteMinidumpDir
+=
+remoteJoin
+(
+self
+.
+remoteTestRoot
+"
+minidumps
+"
+)
+        
+self
+.
 profileDir
 =
 remoteJoin
@@ -1976,6 +1990,12 @@ setupTestDir
         
 self
 .
+setupMinidumpDir
+(
+)
+        
+self
+.
 remoteAPK
 =
 None
@@ -2109,6 +2129,14 @@ remoteTmpDir
 self
 .
 remoteTmpDir
+            
+'
+remoteMinidumpDir
+'
+:
+self
+.
+remoteMinidumpDir
         
 }
         
@@ -2524,6 +2552,19 @@ XPCSHELL_TEST_TEMP_DIR
 self
 .
 remoteTmpDir
+        
+self
+.
+env
+[
+"
+XPCSHELL_MINIDUMP_DIR
+"
+]
+=
+self
+.
+remoteMinidumpDir
         
 if
 self
@@ -3799,6 +3840,48 @@ xpcDir
 self
 .
 remoteScriptsDir
+)
+    
+def
+setupMinidumpDir
+(
+self
+)
+:
+        
+if
+self
+.
+device
+.
+dirExists
+(
+self
+.
+remoteMinidumpDir
+)
+:
+            
+self
+.
+device
+.
+removeDir
+(
+self
+.
+remoteMinidumpDir
+)
+        
+self
+.
+device
+.
+mkDir
+(
+self
+.
+remoteMinidumpDir
 )
     
 def
