@@ -273,12 +273,17 @@ B8G8R8A8
 ;
 if
 (
+NS_WARN_IF
+(
 !
 dataSurface
 )
+)
+{
 return
 nullptr
 ;
+}
 gfx
 :
 :
