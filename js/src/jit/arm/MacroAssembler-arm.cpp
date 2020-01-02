@@ -6518,7 +6518,7 @@ ma_mov
 secondScratchReg_
 dest
 NoSetCond
-Unsigned
+NotSigned
 )
 ;
 /
@@ -24844,7 +24844,7 @@ zero
 ma_b
 (
 bail
-Unsigned
+NotSigned
 )
 ;
 bind
@@ -25262,7 +25262,7 @@ zero
 ma_b
 (
 bail
-Unsigned
+NotSigned
 )
 ;
 bind
@@ -25979,7 +25979,7 @@ handling
 ma_b
 (
 bail
-Unsigned
+NotSigned
 )
 ;
 bind
