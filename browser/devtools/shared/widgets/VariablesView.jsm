@@ -14440,6 +14440,14 @@ this
 _valueString
 )
 ;
+this
+.
+_separatorLabel
+.
+hidden
+=
+false
+;
 }
 /
 *
@@ -14958,8 +14966,6 @@ setAttribute
 value
 "
 this
-.
-ownerView
 .
 separatorStr
 +
