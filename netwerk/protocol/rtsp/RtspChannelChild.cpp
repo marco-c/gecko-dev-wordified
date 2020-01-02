@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-RtspChannel
+RtspChannelChild
 .
 h
 "
@@ -147,7 +147,7 @@ net
 {
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-RtspChannel
+RtspChannelChild
 nsBaseChannel
 nsIChannel
 )
@@ -232,7 +232,7 @@ nsIChannel
 -
 /
 /
-RtspChannel
+RtspChannelChild
 :
 :
 nsIChannel
@@ -316,7 +316,7 @@ nsIChannel
 -
 -
 NS_IMETHODIMP
-RtspChannel
+RtspChannelChild
 :
 :
 AsyncOpen
@@ -425,7 +425,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-RtspChannel
+RtspChannelChild
 :
 :
 GetContentType
@@ -449,7 +449,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-RtspChannel
+RtspChannelChild
 :
 :
 Init

@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-RtspChannel
+RtspChannelChild
 .
 h
 "
@@ -528,7 +528,7 @@ false
 ;
 nsRefPtr
 <
-RtspChannel
+RtspChannelChild
 >
 rtspChannel
 ;
@@ -562,7 +562,7 @@ NS_ERROR_UNEXPECTED
 rtspChannel
 =
 new
-RtspChannel
+RtspChannelChild
 (
 )
 ;
