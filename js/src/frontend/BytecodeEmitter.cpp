@@ -45997,17 +45997,6 @@ BytecodeEmitter
 SelfHosting
 &
 &
-bce
--
->
-script
--
->
-compileAndGo
-(
-)
-&
-&
 pn
 -
 >
