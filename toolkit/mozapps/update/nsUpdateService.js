@@ -8980,10 +8980,10 @@ return
 gLocale
 ;
 for
-each
 (
+let
 res
-in
+of
 [
 '
 app
