@@ -389,9 +389,10 @@ expect
 "
 TypeError
 :
-a
-is
 undefined
+has
+no
+properties
 "
 ;
 try
