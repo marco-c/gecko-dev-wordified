@@ -13126,7 +13126,7 @@ aProperty
 nsCSSProps
 :
 :
-eIgnoreEnabledState
+eAny
 )
 ;
 if

@@ -1105,7 +1105,7 @@ aPropName
 nsCSSProps
 :
 :
-eIgnoreEnabledState
+eAny
 )
 ;
 mProperties

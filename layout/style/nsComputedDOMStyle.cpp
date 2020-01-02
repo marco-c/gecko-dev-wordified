@@ -3977,7 +3977,7 @@ aPropertyName
 nsCSSProps
 :
 :
-eEnabledForAllContent
+eEnabled
 )
 ;
 bool
