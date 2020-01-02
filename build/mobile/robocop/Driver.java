@@ -64,13 +64,6 @@ mozilla
 gecko
 ;
 import
-java
-.
-util
-.
-List
-;
-import
 android
 .
 app

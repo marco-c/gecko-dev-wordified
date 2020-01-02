@@ -88,6 +88,13 @@ tests
 UITestContext
 ;
 import
+android
+.
+app
+.
+Activity
+;
+import
 com
 .
 jayway
@@ -99,13 +106,6 @@ robotium
 solo
 .
 Solo
-;
-import
-android
-.
-app
-.
-Activity
 ;
 /
 *
