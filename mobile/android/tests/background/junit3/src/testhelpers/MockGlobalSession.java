@@ -94,6 +94,17 @@ gecko
 .
 sync
 .
+SyncConfiguration
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 SyncConfigurationException
 ;
 import
@@ -192,6 +203,9 @@ NonObjectJSONException
 {
 super
 (
+SyncConfiguration
+.
+DEFAULT_USER_API
 clusterURL
 username
 password

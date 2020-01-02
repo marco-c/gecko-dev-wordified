@@ -71,9 +71,8 @@ public
 interface
 SyncStorageRequestDelegate
 {
-public
-AuthHeaderProvider
-getAuthHeaderProvider
+String
+credentials
 (
 )
 ;
