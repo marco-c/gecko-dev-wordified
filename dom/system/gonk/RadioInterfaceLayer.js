@@ -12094,13 +12094,6 @@ Could
 not
 store
 SMS
-"
-+
-message
-.
-id
-+
-"
 error
 code
 "
@@ -12155,10 +12148,6 @@ PDU_DCS_MSG_CLASS_0
 ]
 )
 {
-message
-.
-id
-=
 gMobileMessageDatabaseService
 .
 saveReceivedMessage
@@ -19406,9 +19395,6 @@ domMessage
 return
 ;
 }
-let
-id
-=
 gMobileMessageDatabaseService
 .
 saveSendingMessage
