@@ -253,8 +253,6 @@ const
 char
 *
 profileName
-pid_t
-pid
 )
 ;
 /
