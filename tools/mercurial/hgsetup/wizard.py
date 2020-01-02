@@ -90,7 +90,12 @@ from
 .
 config
 import
+(
+    
+HOST_FINGERPRINTS
+    
 MercurialConfig
+)
 INITIAL_MESSAGE
 =
 '
@@ -1956,6 +1961,42 @@ msg
 )
 :
         
+#
+We
+always
+pass
+the
+host
+fingerprints
+that
+we
+"
+know
+"
+to
+be
+canonical
+        
+#
+because
+the
+existing
+config
+may
+have
+outdated
+fingerprints
+and
+this
+        
+#
+may
+cause
+Mercurial
+to
+abort
+.
+        
 return
 self
 .
@@ -1968,6 +2009,9 @@ branch
 msg
             
 update_mercurial_repo
+hostfingerprints
+=
+HOST_FINGERPRINTS
 )
     
 def
@@ -2005,6 +2049,11 @@ dest
 branch
 msg
 fn
+*
+args
+*
+*
+kwargs
 )
 :
         
@@ -2031,6 +2080,11 @@ binary
 url
 dest
 branch
+*
+args
+*
+*
+kwargs
 )
         
 finally
