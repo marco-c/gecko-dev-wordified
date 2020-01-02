@@ -6185,9 +6185,7 @@ placement
 .
 position
 :
-aTargetArea
-.
-childElementCount
+null
 ;
 /
 /
