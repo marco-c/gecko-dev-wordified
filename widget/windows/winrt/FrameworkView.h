@@ -1354,6 +1354,11 @@ ProcessLaunchArguments
 (
 )
 ;
+void
+UpdateBounds
+(
+)
+;
 /
 /
 Printing
