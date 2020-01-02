@@ -3467,6 +3467,14 @@ isAboutReader
 (
 url
 )
+|
+|
+AboutPages
+.
+isAboutPrivateBrowsing
+(
+url
+)
 ;
 }
 void
