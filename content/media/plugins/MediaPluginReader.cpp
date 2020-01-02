@@ -2284,10 +2284,7 @@ mVideoSeekTimeUs
 aTarget
 ;
 return
-DecodeToTarget
-(
-aTarget
-)
+NS_OK
 ;
 }
 MediaPluginReader
