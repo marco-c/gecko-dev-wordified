@@ -3852,6 +3852,24 @@ dummy
 updateCheckURL
 "
         
+prefs
+[
+"
+layout
+.
+css
+.
+devPixelsPerPx
+"
+]
+=
+"
+1
+.
+0
+"
+;
+        
 #
 Disable
 skia
