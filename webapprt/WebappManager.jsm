@@ -410,6 +410,11 @@ data
 app
 .
 origin
+data
+.
+app
+.
+manifestURL
 )
 ;
 let

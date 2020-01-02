@@ -379,6 +379,13 @@ config
 app
 .
 origin
+this
+.
+config
+.
+app
+.
+manifestURL
 )
 ;
 }

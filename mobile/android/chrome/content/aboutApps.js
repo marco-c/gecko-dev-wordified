@@ -823,6 +823,9 @@ manifest
 aApp
 .
 origin
+aApp
+.
+manifestURL
 )
 ;
 let

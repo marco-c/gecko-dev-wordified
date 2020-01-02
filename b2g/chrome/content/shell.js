@@ -5827,6 +5827,9 @@ aManifest
 json
 .
 origin
+json
+.
+manifestURL
 )
 ;
 let

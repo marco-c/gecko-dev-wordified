@@ -770,6 +770,9 @@ manifest
 app
 .
 origin
+app
+.
+manifestURL
 )
 ;
 /
