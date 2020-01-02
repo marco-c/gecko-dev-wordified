@@ -17303,7 +17303,7 @@ GetPlatform
 )
 -
 >
-ScreenReferenceSurface
+ScreenReferenceDrawTarget
 (
 )
 )
