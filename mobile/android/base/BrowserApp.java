@@ -4899,7 +4899,7 @@ title
 ;
 Favicons
 .
-getFaviconForSize
+getSizedFavicon
 (
 url
 tab
@@ -8768,7 +8768,7 @@ id
 =
 Favicons
 .
-getFaviconForSize
+getSizedFavicon
 (
 tab
 .

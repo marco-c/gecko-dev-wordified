@@ -5070,7 +5070,7 @@ browser_toolbar_favicon_size
 return
 Favicons
 .
-getCachedFaviconForSize
+getSizedFaviconForPageFromCache
 (
 url
 faviconSize

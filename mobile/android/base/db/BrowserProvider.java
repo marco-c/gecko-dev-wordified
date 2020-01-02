@@ -23885,7 +23885,7 @@ favicons
 .
 Favicons
 .
-guessDefaultFaviconURL
+guessDefaultFaviconUrl
 (
 pageUrl
 )
