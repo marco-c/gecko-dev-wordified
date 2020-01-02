@@ -145,13 +145,6 @@ h
 #
 include
 "
-BluetoothPropertyContainer
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -176,8 +169,6 @@ public
 DOMEventTargetHelper
 public
 BluetoothSignalObserver
-public
-BluetoothPropertyContainer
 {
 public
 :
@@ -197,10 +188,6 @@ Create
 nsPIDOMWindow
 *
 aOwner
-const
-nsAString
-&
-aAdapterPath
 const
 BluetoothValue
 &
@@ -357,7 +344,6 @@ BluetoothNamedValue
 &
 aValue
 )
-MOZ_OVERRIDE
 ;
 void
 Unroot
@@ -403,10 +389,6 @@ nsPIDOMWindow
 *
 aOwner
 const
-nsAString
-&
-aAdapterPath
-const
 BluetoothValue
 &
 aValue
@@ -441,9 +423,6 @@ JSObject
 *
 >
 mJsServices
-;
-nsString
-mAdapterPath
 ;
 nsString
 mAddress
