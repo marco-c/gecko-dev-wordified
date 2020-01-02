@@ -910,6 +910,13 @@ y2
 }
 protected
 :
+virtual
+~
+QuadBounds
+(
+)
+{
+}
 nsRefPtr
 <
 DOMQuad

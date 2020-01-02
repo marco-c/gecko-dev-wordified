@@ -261,12 +261,6 @@ nsDOMFileReader
 (
 )
 ;
-virtual
-~
-nsDOMFileReader
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMFILEREADER
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
@@ -587,6 +581,12 @@ RootResultArrayBuffer
 ;
 protected
 :
+virtual
+~
+nsDOMFileReader
+(
+)
+;
 enum
 eDataFormat
 {

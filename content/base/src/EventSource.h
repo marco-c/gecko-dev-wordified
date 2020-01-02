@@ -285,12 +285,6 @@ nsPIDOMWindow
 aOwnerWindow
 )
 ;
-virtual
-~
-EventSource
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_INHERITED
 (
@@ -452,6 +446,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+EventSource
+(
+)
+;
 nsresult
 Init
 (

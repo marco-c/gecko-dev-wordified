@@ -269,12 +269,6 @@ Init
 )
 ;
 }
-virtual
-~
-nsTextNode
-(
-)
-;
 /
 /
 nsISupports
@@ -443,6 +437,12 @@ MOZ_OVERRIDE
 endif
 protected
 :
+virtual
+~
+nsTextNode
+(
+)
+;
 virtual
 JSObject
 *

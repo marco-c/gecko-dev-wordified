@@ -167,6 +167,12 @@ aNodeInfo
 )
 ;
 }
+virtual
+~
+Comment
+(
+)
+;
 public
 :
 Comment
@@ -218,12 +224,6 @@ Init
 )
 ;
 }
-virtual
-~
-Comment
-(
-)
-;
 /
 /
 nsISupports

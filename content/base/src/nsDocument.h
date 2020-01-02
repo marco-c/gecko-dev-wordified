@@ -2542,12 +2542,6 @@ nsIDocument
 aDocument
 )
 ;
-virtual
-~
-nsDOMStyleSheetList
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
@@ -2596,6 +2590,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+nsDOMStyleSheetList
+(
+)
+;
 int32_t
 mLength
 ;

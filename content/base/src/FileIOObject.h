@@ -367,6 +367,12 @@ DOMEventTargetHelper
 )
 protected
 :
+virtual
+~
+FileIOObject
+(
+)
+;
 /
 /
 Implemented

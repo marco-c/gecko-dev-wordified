@@ -286,12 +286,6 @@ nsAString
 aInternalSubset
 )
 ;
-virtual
-~
-DocumentType
-(
-)
-;
 /
 /
 nsISupports
@@ -403,6 +397,12 @@ this
 }
 protected
 :
+virtual
+~
+DocumentType
+(
+)
+;
 virtual
 JSObject
 *

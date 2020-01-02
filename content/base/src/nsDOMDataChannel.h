@@ -224,11 +224,6 @@ nsPIDOMWindow
 aWindow
 )
 ;
-~
-nsDOMDataChannel
-(
-)
-;
 nsresult
 Init
 (
@@ -570,6 +565,13 @@ MOZ_OVERRIDE
 virtual
 void
 AppReady
+(
+)
+;
+protected
+:
+~
+nsDOMDataChannel
 (
 )
 ;

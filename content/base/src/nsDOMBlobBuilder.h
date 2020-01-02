@@ -650,6 +650,13 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+DOMMultipartFileImpl
+(
+)
+{
+}
 nsresult
 ParseBlobArrayArgument
 (
