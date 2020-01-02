@@ -947,6 +947,10 @@ MODULE
 (
 WifiProxyServiceModule
 )
+MODULE
+(
+NetworkWorkerModule
+)
 #
 endif
 #
@@ -986,6 +990,10 @@ MOZ_WIDGET_GONK
 MODULE
 (
 WifiProxyServiceModule
+)
+MODULE
+(
+NetworkWorkerModule
 )
 #
 endif
