@@ -1030,7 +1030,7 @@ CreatePathBuilder
 (
 )
 ;
-ArcToBezier
+EllipseToBezier
 (
 pathBuilder
 .
@@ -1047,14 +1047,6 @@ Size
 rx
 ry
 )
-0
-Float
-(
-2
-*
-M_PI
-)
-false
 )
 ;
 return
