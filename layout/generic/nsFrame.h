@@ -988,12 +988,12 @@ Init
 nsIContent
 *
 aContent
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsIFrame
 *
-asPrevInFlow
+aPrevInFlow
 )
 MOZ_OVERRIDE
 ;

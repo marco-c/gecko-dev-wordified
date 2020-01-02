@@ -210,7 +210,7 @@ Init
 nsIContent
 *
 aContent
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsIFrame
@@ -659,7 +659,7 @@ Init
 nsIContent
 *
 aContent
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsIFrame
