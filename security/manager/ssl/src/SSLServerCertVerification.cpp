@@ -2356,12 +2356,6 @@ return
 2
 ;
 case
-SEC_ERROR_CA_CERT_INVALID
-:
-return
-3
-;
-case
 SEC_ERROR_UNTRUSTED_ISSUER
 :
 return
@@ -3735,9 +3729,6 @@ errorCode
 {
 case
 SEC_ERROR_UNKNOWN_ISSUER
-:
-case
-SEC_ERROR_CA_CERT_INVALID
 :
 case
 SEC_ERROR_UNTRUSTED_ISSUER
