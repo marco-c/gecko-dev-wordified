@@ -2000,9 +2000,6 @@ structures
 class
 VirtualRegister
 {
-uint32_t
-id_
-;
 LBlock
 *
 block_
@@ -2063,8 +2060,6 @@ public
 bool
 init
 (
-uint32_t
-id
 LBlock
 *
 block
@@ -2086,10 +2081,6 @@ block
 !
 block_
 )
-;
-id_
-=
-id
 ;
 block_
 =
@@ -2138,16 +2129,6 @@ append
 (
 initial
 )
-;
-}
-uint32_t
-id
-(
-)
-const
-{
-return
-id_
 ;
 }
 LBlock
