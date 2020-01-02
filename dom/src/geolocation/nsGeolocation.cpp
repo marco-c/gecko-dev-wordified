@@ -221,7 +221,7 @@ nsIPrincipal
 ;
 #
 ifdef
-MOZ_ENABLE_QTMOBILITY
+MOZ_ENABLE_QT5GEOPOSITION
 #
 include
 "
@@ -3145,7 +3145,7 @@ false
 ;
 #
 ifdef
-MOZ_ENABLE_QTMOBILITY
+MOZ_ENABLE_QT5GEOPOSITION
 mProvider
 =
 new

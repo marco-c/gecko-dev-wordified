@@ -274,8 +274,9 @@ rv
 DrawWithXlib
 (
 xsurf
-.
-get
+-
+>
+CairoSurface
 (
 )
 nsIntPoint

@@ -263,9 +263,9 @@ virtual
 nsresult
 DrawWithXlib
 (
-gfxXlibSurface
+cairo_surface_t
 *
-xsurf
+surface
 nsIntPoint
 offset
 nsIntRect

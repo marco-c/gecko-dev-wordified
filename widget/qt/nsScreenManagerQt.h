@@ -238,6 +238,9 @@ desktop
 int
 nScreens
 ;
+bool
+mInitialized
+;
 }
 ;
 #

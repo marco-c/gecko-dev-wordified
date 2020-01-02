@@ -112,7 +112,7 @@ MPL
 #
 include
 <
-QWidget
+QWindow
 >
 #
 include
@@ -180,7 +180,7 @@ class
 MozQRemoteEventHandlerWidget
 :
 public
-QWidget
+QWindow
 {
 public
 :
@@ -207,6 +207,13 @@ nsQtRemoteService
 aRemoteService
 )
 ;
+virtual
+~
+MozQRemoteEventHandlerWidget
+(
+)
+{
+}
 protected
 :
 /

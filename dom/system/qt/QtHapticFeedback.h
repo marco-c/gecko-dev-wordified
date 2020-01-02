@@ -99,7 +99,7 @@ nsIHapticFeedback
 h
 "
 class
-nsHapticFeedback
+QtHapticFeedback
 :
 public
 nsIHapticFeedback

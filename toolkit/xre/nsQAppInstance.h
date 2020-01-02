@@ -135,10 +135,7 @@ char
 gArgv
 ;
 class
-QApplication
-;
-class
-MComponentData
+QGuiApplication
 ;
 class
 nsQAppInstance
@@ -176,14 +173,9 @@ void
 private
 :
 static
-QApplication
+QGuiApplication
 *
 sQAppInstance
-;
-static
-MComponentData
-*
-sMComponentData
 ;
 static
 int

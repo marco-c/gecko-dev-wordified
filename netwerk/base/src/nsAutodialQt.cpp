@@ -163,6 +163,11 @@ QString
 :
 fromUtf16
 (
+(
+const
+ushort
+*
+)
 hostName
 )
 )
