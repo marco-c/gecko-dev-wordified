@@ -3274,6 +3274,7 @@ T
 cx
 arrayTypePrototype
 nullptr
+TenuredObject
 )
 )
 ;
@@ -4989,6 +4990,10 @@ RootedObject
 fieldOffsets
 (
 cx
+)
+;
+fieldOffsets
+=
 NewObjectWithProto
 <
 JSObject
@@ -4997,13 +5002,17 @@ JSObject
 cx
 nullptr
 nullptr
-)
+TenuredObject
 )
 ;
 RootedObject
 fieldTypes
 (
 cx
+)
+;
+fieldTypes
+=
 NewObjectWithProto
 <
 JSObject
@@ -5012,7 +5021,7 @@ JSObject
 cx
 nullptr
 nullptr
-)
+TenuredObject
 )
 ;
 for
@@ -5278,6 +5287,7 @@ StructTypeDescr
 cx
 structTypePrototype
 nullptr
+TenuredObject
 )
 ;
 if
@@ -5975,6 +5985,7 @@ T
 cx
 funcProto
 global
+TenuredObject
 )
 )
 ;

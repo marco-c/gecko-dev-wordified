@@ -2504,6 +2504,7 @@ cx
 global
 (
 )
+TenuredObject
 )
 ;
 if
