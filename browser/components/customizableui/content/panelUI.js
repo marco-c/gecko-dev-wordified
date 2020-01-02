@@ -387,6 +387,17 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+_eventListenersAdded
+)
+{
+return
+;
+}
 for
 (
 let
