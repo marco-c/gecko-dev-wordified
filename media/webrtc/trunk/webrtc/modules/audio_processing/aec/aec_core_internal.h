@@ -673,6 +673,9 @@ FILE
 *
 outLinearFile
 ;
+uint32_t
+debugWritten
+;
 #
 endif
 }
