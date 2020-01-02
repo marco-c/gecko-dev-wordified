@@ -1182,13 +1182,12 @@ when
 nsString
 mIMEComposingText
 ;
-nsAutoTArray
+nsRefPtr
 <
 mozilla
 :
 :
-TextRange
-4
+TextRangeArray
 >
 mIMERanges
 ;
