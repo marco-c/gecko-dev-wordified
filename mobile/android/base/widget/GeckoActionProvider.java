@@ -366,7 +366,7 @@ historySize
 =
 dataModel
 .
-getHistorySize
+getDistinctActivityCountInHistory
 (
 )
 ;
