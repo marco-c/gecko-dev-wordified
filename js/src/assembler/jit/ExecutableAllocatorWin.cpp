@@ -668,12 +668,6 @@ ifndef
 JS_CPU_X64
 if
 (
-allocBehavior
-=
-=
-AllocationCanRandomize
-&
-&
 !
 RandomizeIsBroken
 (
