@@ -338,7 +338,10 @@ gfx
 SurfaceFormat
 mTextureFormat
 ;
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 mTextureTransform
 ;
 }

@@ -7509,7 +7509,12 @@ mFilter
 ;
 gfx3DMatrix
 textureTransform
-=
+;
+gfx
+:
+:
+To3DMatrix
+(
 source
 -
 >
@@ -7520,6 +7525,8 @@ AsSourceOGL
 >
 GetTextureTransform
 (
+)
+textureTransform
 )
 ;
 #
