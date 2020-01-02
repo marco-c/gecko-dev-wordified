@@ -10890,7 +10890,7 @@ really
 !
 *
 param
-aRunParams
+aParams
 record
 with
 drawing
@@ -11085,10 +11085,9 @@ aEnd
 gfxPoint
 *
 aPt
-const
 TextRunDrawParams
 &
-aRunParams
+aParams
 )
 ;
 /

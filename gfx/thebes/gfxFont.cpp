@@ -18238,7 +18238,7 @@ callbacks
 ;
 gfxTextContextPaint
 *
-runContextPaint
+contextPaint
 ;
 gfxFloat
 direction
@@ -18271,10 +18271,6 @@ RefPtr
 GlyphRenderingOptions
 >
 renderingOptions
-;
-gfxTextContextPaint
-*
-contextPaint
 ;
 Matrix
 *
@@ -18705,7 +18701,7 @@ state
 pattern
 |
 |
-mFontParams
+mRunParams
 .
 contextPaint
 )
@@ -18723,7 +18719,7 @@ fillPattern
 if
 (
 !
-mFontParams
+mRunParams
 .
 contextPaint
 |
@@ -18732,7 +18728,7 @@ contextPaint
 (
 fillPattern
 =
-mFontParams
+mRunParams
 .
 contextPaint
 -
@@ -19269,7 +19265,7 @@ dt
 ;
 if
 (
-mFontParams
+mRunParams
 .
 contextPaint
 )
@@ -19280,7 +19276,7 @@ gfxPattern
 >
 strokePattern
 =
-mFontParams
+mRunParams
 .
 contextPaint
 -
@@ -19803,7 +19799,7 @@ mode
 aGlyphID
 runParams
 .
-runContextPaint
+contextPaint
 runParams
 .
 callbacks
@@ -20464,7 +20460,6 @@ aEnd
 gfxPoint
 *
 aPt
-const
 TextRunDrawParams
 &
 aRunParams
@@ -20576,14 +20571,6 @@ TryGetColorGlyphs
 (
 )
 ;
-fontParams
-.
-contextPaint
-=
-aRunParams
-.
-runContextPaint
-;
 nsAutoPtr
 <
 gfxTextContextPaint
@@ -20598,7 +20585,7 @@ haveSVGGlyphs
 &
 &
 !
-fontParams
+aRunParams
 .
 contextPaint
 )
@@ -20679,7 +20666,7 @@ CurrentMatrix
 )
 )
 ;
-fontParams
+aRunParams
 .
 contextPaint
 =
@@ -43965,7 +43952,7 @@ aCallbacks
 ;
 params
 .
-runContextPaint
+contextPaint
 =
 aContextPaint
 ;
