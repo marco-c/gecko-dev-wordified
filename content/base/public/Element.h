@@ -4635,7 +4635,7 @@ DispatchEvent
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIContent

@@ -16335,7 +16335,7 @@ nsDOMDeviceStorage
 :
 DispatchDOMEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIDOMEvent

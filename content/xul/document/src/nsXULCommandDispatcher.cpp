@@ -300,6 +300,10 @@ Element
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 ifdef
 PR_LOGGING
@@ -2310,7 +2314,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEvent
+WidgetEvent
 event
 (
 true

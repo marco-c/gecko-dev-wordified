@@ -2989,7 +2989,7 @@ TabParent
 :
 MapEventCoordinatesForChildProcess
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -3047,7 +3047,7 @@ const
 LayoutDeviceIntPoint
 &
 aOffset
-nsEvent
+WidgetEvent
 *
 aEvent
 )

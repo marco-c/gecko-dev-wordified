@@ -7624,7 +7624,7 @@ NS_UNCONSTRAINEDSIZE
 NS_UNCONSTRAINEDSIZE
 )
 ;
-nsEvent
+WidgetEvent
 *
 event
 =
@@ -7662,7 +7662,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 const
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIFrame
@@ -7796,7 +7796,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 const
-nsEvent
+WidgetEvent
 *
 aEvent
 const
@@ -8333,7 +8333,7 @@ nsPresContext
 *
 aPresContext
 const
-nsEvent
+WidgetEvent
 *
 aEvent
 )

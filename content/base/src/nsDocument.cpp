@@ -24885,7 +24885,7 @@ event
 dispatching
 code
 .
-nsEvent
+WidgetEvent
 *
 innerEvent
 =

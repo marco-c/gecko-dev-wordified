@@ -237,6 +237,10 @@ IndexedDBParent
 .
 h
 "
+using
+namespace
+mozilla
+;
 USING_INDEXEDDB_NAMESPACE
 using
 mozilla
@@ -2340,7 +2344,7 @@ rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
-nsEvent
+WidgetEvent
 *
 internalEvent
 =
@@ -2587,7 +2591,7 @@ closed
 "
 )
 ;
-nsEvent
+WidgetEvent
 *
 internalEvent
 =

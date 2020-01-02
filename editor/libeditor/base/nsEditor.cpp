@@ -10802,7 +10802,7 @@ s
 a
 fact
 .
-nsEvent
+WidgetEvent
 inputEvent
 (
 true
@@ -29574,7 +29574,7 @@ aDOMKeyEvent
 nullptr
 )
 ;
-nsEvent
+WidgetEvent
 *
 nativeEvent
 =

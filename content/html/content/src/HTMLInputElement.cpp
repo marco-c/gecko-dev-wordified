@@ -15302,7 +15302,7 @@ if
 mHandlingSelectEvent
 )
 {
-nsEvent
+WidgetEvent
 event
 (
 nsContentUtils

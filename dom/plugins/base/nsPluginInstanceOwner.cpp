@@ -10890,7 +10890,7 @@ event
 }
 #
 endif
-nsEvent
+WidgetEvent
 *
 theEvent
 =
@@ -11121,7 +11121,7 @@ if
 mInstance
 )
 {
-nsEvent
+WidgetEvent
 *
 event
 =
@@ -11325,7 +11325,7 @@ elem
 ;
 }
 }
-nsEvent
+WidgetEvent
 *
 event
 =
@@ -11483,7 +11483,7 @@ mWidgetVisible
 return
 NS_OK
 ;
-nsEvent
+WidgetEvent
 *
 event
 =
@@ -11961,7 +11961,7 @@ dragEvent
 mInstance
 )
 {
-nsEvent
+WidgetEvent
 *
 ievent
 =

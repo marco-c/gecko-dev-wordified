@@ -6520,7 +6520,7 @@ nsINode
 :
 DispatchDOMEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIDOMEvent

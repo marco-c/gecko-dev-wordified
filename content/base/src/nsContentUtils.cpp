@@ -25096,7 +25096,7 @@ sBuf
 /
 /
 static
-nsEvent
+WidgetEvent
 *
 nsContentUtils
 :

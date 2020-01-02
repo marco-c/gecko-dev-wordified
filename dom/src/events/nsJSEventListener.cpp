@@ -1001,7 +1001,7 @@ aEvent
 NS_ERROR_UNEXPECTED
 )
 ;
-nsEvent
+WidgetEvent
 *
 event
 =

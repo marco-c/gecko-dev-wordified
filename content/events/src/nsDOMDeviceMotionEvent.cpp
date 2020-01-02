@@ -418,7 +418,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 )

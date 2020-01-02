@@ -100,6 +100,10 @@ nsDOMBeforeUnloadEvent
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ADDREF_INHERITED
 (
 nsDOMBeforeUnloadEvent
@@ -196,7 +200,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 )

@@ -369,6 +369,10 @@ ONLOAD_CALLED_TOO_EARLY
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 layers
@@ -480,7 +484,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEvent
+WidgetEvent
 event
 (
 true

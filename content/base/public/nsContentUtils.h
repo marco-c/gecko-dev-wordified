@@ -8555,7 +8555,10 @@ necessary
 *
 /
 static
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 GetNativeEvent
 (

@@ -223,6 +223,10 @@ DEBUG_CANVAS_FOCUS
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 layout
@@ -3776,7 +3780,7 @@ nsCanvasFrame
 :
 GetContentForEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIContent

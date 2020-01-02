@@ -5385,7 +5385,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEvent
+WidgetEvent
 event
 (
 true
@@ -7062,7 +7062,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEvent
+WidgetEvent
 event
 (
 true

@@ -3082,7 +3082,7 @@ aEventTargetNode
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 nsEventStatus

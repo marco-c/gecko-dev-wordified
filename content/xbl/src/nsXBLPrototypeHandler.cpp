@@ -5617,7 +5617,7 @@ bool
 aIgnoreShiftKey
 )
 {
-nsEvent
+WidgetEvent
 *
 event
 =

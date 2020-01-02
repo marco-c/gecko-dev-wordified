@@ -3051,7 +3051,10 @@ nsPoint
 GetEventCoordinatesRelativeTo
 (
 const
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 nsIFrame
@@ -3150,7 +3153,10 @@ nsPoint
 GetEventCoordinatesRelativeTo
 (
 const
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 const
@@ -3331,7 +3337,10 @@ nsPresContext
 *
 aPresContext
 const
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 )

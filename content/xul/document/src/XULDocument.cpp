@@ -5820,7 +5820,7 @@ onbroadcast
 |
 event
 handler
-nsEvent
+WidgetEvent
 event
 (
 true

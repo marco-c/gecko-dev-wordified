@@ -284,7 +284,7 @@ subtype
 subclass
 )
 of
-nsEvent
+WidgetEvent
 which
 carries
 *

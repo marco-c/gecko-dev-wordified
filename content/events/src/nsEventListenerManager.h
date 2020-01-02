@@ -841,7 +841,10 @@ bool
 IsListening
 (
 const
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 )
@@ -1455,7 +1458,10 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 nsIDOMEvent
@@ -2034,7 +2040,10 @@ HandleEventInternal
 nsPresContext
 *
 aPresContext
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 nsIDOMEvent
@@ -2814,7 +2823,10 @@ ListenerCanHandle
 nsListenerStruct
 *
 aLs
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 )

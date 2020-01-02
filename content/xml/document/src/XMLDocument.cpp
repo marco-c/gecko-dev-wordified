@@ -3583,7 +3583,7 @@ attached
 to
 it
 .
-nsEvent
+WidgetEvent
 event
 (
 true

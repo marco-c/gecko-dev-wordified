@@ -11777,7 +11777,7 @@ event
 from
 here
 .
-nsEvent
+WidgetEvent
 event
 (
 true
@@ -11867,7 +11867,7 @@ event
 from
 here
 .
-nsEvent
+WidgetEvent
 event
 (
 true
@@ -35078,7 +35078,7 @@ PresShell
 :
 GetEventTargetContent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -40787,7 +40787,7 @@ PresShell
 :
 HandleEventWithTarget
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIFrame
@@ -41119,7 +41119,7 @@ PresShell
 :
 HandleEventInternal
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsEventStatus
@@ -42953,7 +42953,7 @@ PresShell
 :
 DispatchTouchEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsEventStatus
@@ -43485,7 +43485,7 @@ HandleDOMEventWithTarget
 nsIContent
 *
 aTargetContent
-nsEvent
+WidgetEvent
 *
 aEvent
 nsEventStatus

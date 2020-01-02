@@ -1198,7 +1198,10 @@ Deactivate
 bool
 MapEventCoordinatesForChildProcess
 (
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 )
@@ -1210,7 +1213,10 @@ const
 LayoutDeviceIntPoint
 &
 aOffset
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 )
