@@ -5842,7 +5842,6 @@ radioInterface
 ;
 if
 (
-!
 connHandler
 .
 allDataDisconnected
@@ -5880,6 +5879,8 @@ if
 DEBUG
 )
 {
+this
+.
 debug
 (
 "
