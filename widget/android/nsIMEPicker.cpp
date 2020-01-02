@@ -128,14 +128,9 @@ Show
 (
 )
 {
-AndroidBridge
+GeckoAppShell
 :
 :
-Bridge
-(
-)
--
->
 ShowInputMethodPicker
 (
 )
