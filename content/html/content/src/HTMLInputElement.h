@@ -3700,6 +3700,13 @@ StopNumberControlSpinnerSpin
 (
 )
 ;
+void
+StepNumberControlForUserEvent
+(
+int32_t
+aDirection
+)
+;
 /
 *
 *
