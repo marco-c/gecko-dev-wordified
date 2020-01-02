@@ -2786,6 +2786,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+VsizeMaxContiguousReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -2870,6 +2876,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+PrivateReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
