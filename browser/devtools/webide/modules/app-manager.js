@@ -3323,7 +3323,7 @@ project
 }
 if
 (
-this
+AppManager
 .
 selectedProject
 =
@@ -3332,7 +3332,7 @@ selectedProject
 project
 )
 {
-this
+AppManager
 .
 update
 (
