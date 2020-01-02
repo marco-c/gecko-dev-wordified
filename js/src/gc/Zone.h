@@ -1436,10 +1436,10 @@ ZealVerifierPreValue
 ;
 }
 enum
-ShouldUpdateIon
+ShouldUpdateJit
 {
-DontUpdateIon
-UpdateIon
+DontUpdateJit
+UpdateJit
 }
 ;
 void
@@ -1447,8 +1447,8 @@ setNeedsBarrier
 (
 bool
 needs
-ShouldUpdateIon
-updateIon
+ShouldUpdateJit
+updateJit
 )
 ;
 const
@@ -2035,7 +2035,7 @@ bool
 gcPreserveCode_
 ;
 bool
-ionUsingBarriers_
+jitUsingBarriers_
 ;
 friend
 bool
