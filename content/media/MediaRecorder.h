@@ -677,9 +677,13 @@ thread
 nsresult
 CreateAndDispatchBlobEvent
 (
-Session
-*
-session
+const
+already_AddRefed
+<
+nsIDOMBlob
+>
+&
+aBlob
 )
 ;
 /
