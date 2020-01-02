@@ -3080,7 +3080,7 @@ value
 bool
 checkTypedObjectIndexInBounds
 (
-size_t
+int32_t
 elemSize
 MDefinition
 *
@@ -3278,7 +3278,7 @@ MDefinition
 value
 TypeDescrSet
 elemTypeReprs
-size_t
+int32_t
 elemSize
 )
 ;
@@ -3417,7 +3417,7 @@ TypeDescrSet
 objTypeReprs
 TypeDescrSet
 elemTypeReprs
-size_t
+int32_t
 elemSize
 )
 ;
@@ -3437,7 +3437,7 @@ TypeDescrSet
 objTypeReprs
 TypeDescrSet
 elemTypeReprs
-size_t
+int32_t
 elemSize
 )
 ;
