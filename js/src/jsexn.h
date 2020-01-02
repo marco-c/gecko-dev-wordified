@@ -581,8 +581,14 @@ JSErrorReport
 *
 js_ErrorFromException
 (
-jsval
-exn
+JSContext
+*
+cx
+js
+:
+:
+HandleObject
+obj
 )
 ;
 extern

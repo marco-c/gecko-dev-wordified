@@ -34069,8 +34069,8 @@ JS_ErrorFromException
 JSContext
 *
 cx
-HandleValue
-value
+HandleObject
+obj
 )
 {
 AssertHeapIsIdle
@@ -34086,13 +34086,14 @@ cx
 assertSameCompartment
 (
 cx
-value
+obj
 )
 ;
 return
 js_ErrorFromException
 (
-value
+cx
+obj
 )
 ;
 }

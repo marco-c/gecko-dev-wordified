@@ -7734,7 +7734,7 @@ report
 JS_ErrorFromException
 (
 cx
-s
+obj
 )
 )
 )
