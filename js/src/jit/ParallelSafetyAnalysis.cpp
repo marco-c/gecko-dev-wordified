@@ -1129,10 +1129,6 @@ UNSAFE_OP
 (
 LambdaArrow
 )
-UNSAFE_OP
-(
-ImplicitThis
-)
 SAFE_OP
 (
 Slots

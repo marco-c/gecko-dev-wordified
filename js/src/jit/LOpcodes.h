@@ -898,11 +898,6 @@ LambdaPar
 \
 _
 (
-ImplicitThis
-)
-\
-_
-(
 Slots
 )
 \
