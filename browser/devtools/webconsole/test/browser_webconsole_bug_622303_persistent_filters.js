@@ -57,6 +57,9 @@ csserror
 "
 cssparser
 "
+"
+csslog
+"
 ]
 "
 js
