@@ -17833,11 +17833,6 @@ GetSameCoordinateSystemChildren
 ;
 if
 (
-itemSameCoordinateSystemChildren
-)
-{
-if
-(
 item
 -
 >
@@ -17865,7 +17860,6 @@ nsDisplayItem
 ;
 continue
 ;
-}
 }
 savedItems
 .
