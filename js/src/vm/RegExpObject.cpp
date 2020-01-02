@@ -4929,8 +4929,9 @@ clone
 regex
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+res
 res
 -
 >
