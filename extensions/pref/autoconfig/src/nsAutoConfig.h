@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+nsAutoConfig_h
+#
+define
+nsAutoConfig_h
+#
 include
 "
 nsIAutoConfig
@@ -250,3 +256,5 @@ mConfigURL
 ;
 }
 ;
+#
+endif
