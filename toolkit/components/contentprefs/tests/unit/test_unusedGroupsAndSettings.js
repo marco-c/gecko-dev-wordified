@@ -285,7 +285,6 @@ DBConnection
 .
 createStatement
 (
-"
 SELECT
 COUNT
 (
@@ -295,9 +294,6 @@ AS
 count
 FROM
 groups
-"
-+
-"
 WHERE
 id
 NOT
@@ -309,7 +305,6 @@ groupID
 FROM
 prefs
 )
-"
 )
 ;
 stmt
@@ -355,7 +350,6 @@ DBConnection
 .
 createStatement
 (
-"
 SELECT
 COUNT
 (
@@ -365,9 +359,6 @@ AS
 count
 FROM
 settings
-"
-+
-"
 WHERE
 id
 NOT
@@ -379,7 +370,6 @@ settingID
 FROM
 prefs
 )
-"
 )
 ;
 stmt

@@ -1264,7 +1264,6 @@ DBConnection
 .
 createStatement
 (
-"
 INSERT
 INTO
 prefs
@@ -1273,9 +1272,6 @@ groupID
 settingID
 value
 )
-"
-+
-"
 VALUES
 (
 :
@@ -1285,7 +1281,6 @@ settingId
 :
 value
 )
-"
 )
 ;
 insertPref
