@@ -39,7 +39,7 @@ seconds
 var
 gTimeoutSeconds
 =
-30
+45
 ;
 var
 gConfig
