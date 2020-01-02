@@ -160,6 +160,14 @@ MIRGenerator
 class
 MIRGraph
 ;
+void
+FoldTests
+(
+MIRGraph
+&
+graph
+)
+;
 bool
 SplitCriticalEdges
 (
