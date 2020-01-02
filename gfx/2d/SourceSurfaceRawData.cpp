@@ -104,13 +104,6 @@ Logging
 .
 h
 "
-#
-include
-"
-Tools
-.
-h
-"
 namespace
 mozilla
 {
