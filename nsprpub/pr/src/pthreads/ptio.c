@@ -18912,6 +18912,9 @@ PR_SockOpt_NoDelay
 case
 PR_SockOpt_Broadcast
 :
+case
+PR_SockOpt_Reuseport
+:
 {
 PRIntn
 value
@@ -19713,6 +19716,9 @@ PR_SockOpt_NoDelay
 :
 case
 PR_SockOpt_Broadcast
+:
+case
+PR_SockOpt_Reuseport
 :
 {
 PRIntn

@@ -1264,13 +1264,6 @@ PATH_MAX
 ;
 #
 endif
-tdlen
-=
-strlen
-(
-todir
-)
-;
 xchdir
 (
 cwd
