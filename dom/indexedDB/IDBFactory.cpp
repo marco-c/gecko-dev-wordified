@@ -1019,6 +1019,7 @@ actor
 new
 IndexedDBChild
 (
+tabChild
 origin
 )
 ;
@@ -1358,6 +1359,7 @@ actor
 new
 IndexedDBChild
 (
+contentChild
 origin
 )
 ;
