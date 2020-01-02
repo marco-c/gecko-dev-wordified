@@ -1075,13 +1075,7 @@ const
 nsAString
 &
 aStringToInsert
-mozilla
-:
-:
-dom
-:
-:
-Text
+nsINode
 *
 aTextNode
 int32_t
