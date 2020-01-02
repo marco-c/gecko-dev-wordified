@@ -2134,13 +2134,6 @@ GetAsSurface
 (
 )
 {
-MOZ_ASSERT
-(
-gl
-(
-)
-)
-;
 if
 (
 !
