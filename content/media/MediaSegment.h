@@ -1675,7 +1675,7 @@ TrackTicks
 aEnd
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 aStart
 <
@@ -1687,7 +1687,7 @@ inverted
 "
 )
 ;
-MOZ_ASSERT
+NS_WARN_IF_FALSE
 (
 aStart
 >
