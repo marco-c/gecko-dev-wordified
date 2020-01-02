@@ -253,7 +253,7 @@ PluginScriptableObjectChild
 (
 )
 ;
-void
+bool
 InitializeProxy
 (
 )
