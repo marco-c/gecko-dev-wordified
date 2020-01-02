@@ -2083,6 +2083,13 @@ windows
 h
 >
 #
+include
+<
+intrin
+.
+h
+>
+#
 pragma
 warning
 (
