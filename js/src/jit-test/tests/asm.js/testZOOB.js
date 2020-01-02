@@ -21,6 +21,11 @@ ArrayBuffer
 4096
 )
 ;
+setIonAssertGraphCoherency
+(
+false
+)
+;
 /
 /
 An
