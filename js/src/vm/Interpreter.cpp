@@ -4138,9 +4138,12 @@ if
 cx
 -
 >
-hasOption
+options
 (
-JSOPTION_VAROBJFIX
+)
+.
+varObjFix
+(
 )
 )
 {

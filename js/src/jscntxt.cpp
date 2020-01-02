@@ -2972,7 +2972,11 @@ if
 cx
 -
 >
-hasExtraWarningsOption
+options
+(
+)
+.
+extraWarnings
 (
 )
 )
@@ -3016,7 +3020,11 @@ if
 cx
 -
 >
-hasExtraWarningsOption
+options
+(
+)
+.
+extraWarnings
 (
 )
 )
@@ -3048,7 +3056,11 @@ flags
 cx
 -
 >
-hasWErrorOption
+options
+(
+)
+.
+werror
 (
 )
 )
@@ -6514,7 +6526,6 @@ UndefinedValue
 )
 options_
 (
-0
 )
 reportGranularity
 (

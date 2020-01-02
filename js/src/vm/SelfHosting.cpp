@@ -4199,9 +4199,12 @@ receivesDefaultObject
 cx
 -
 >
-hasOption
+options
 (
-JSOPTION_NO_DEFAULT_COMPARTMENT_OBJECT
+)
+.
+noDefaultCompartmentObject
+(
 )
 ;
 RootedObject

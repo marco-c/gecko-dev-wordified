@@ -5391,7 +5391,11 @@ strict
 ncx
 -
 >
-hasExtraWarningsOption
+options
+(
+)
+.
+extraWarnings
 (
 )
 )
