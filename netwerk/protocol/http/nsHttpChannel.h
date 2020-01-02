@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsIDNSListener
-.
-h
-"
-#
-include
-"
 nsIApplicationCacheChannel
 .
 h
@@ -206,13 +199,6 @@ h
 include
 "
 nsIThreadRetargetableStreamListener
-.
-h
-"
-#
-include
-"
-nsWeakReference
 .
 h
 "
@@ -462,10 +448,6 @@ public
 nsIThreadRetargetableRequest
 public
 nsIThreadRetargetableStreamListener
-public
-nsIDNSListener
-public
-nsSupportsWeakReference
 {
 public
 :
@@ -484,7 +466,6 @@ NS_DECL_NSIAPPLICATIONCACHECHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
 NS_DECL_NSITIMEDCHANNEL
 NS_DECL_NSITHREADRETARGETABLEREQUEST
-NS_DECL_NSIDNSLISTENER
 /
 /
 nsIHttpAuthenticableChannel
