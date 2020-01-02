@@ -54785,7 +54785,7 @@ touch_activation
 .
 duration_ms
 "
-100
+10
 )
 ;
 /
