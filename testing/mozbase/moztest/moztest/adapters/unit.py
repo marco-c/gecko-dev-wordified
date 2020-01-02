@@ -133,21 +133,6 @@ logger
         
 self
 .
-test_list
-=
-kwargs
-.
-pop
-(
-"
-test_list
-"
-[
-]
-)
-        
-self
-.
 result_callbacks
 =
 kwargs
@@ -239,18 +224,7 @@ self
 )
 :
         
-self
-.
-logger
-.
-suite_start
-(
-tests
-=
-self
-.
-test_list
-)
+pass
     
 def
 startTest
@@ -297,13 +271,7 @@ self
 )
 :
         
-self
-.
-logger
-.
-suite_end
-(
-)
+pass
     
 def
 addError
@@ -355,7 +323,7 @@ test
 id
 (
 )
-                             
+                            
 "
 ERROR
 "
@@ -662,7 +630,7 @@ logging
 params
 logger
 :
-A
+a
 StructuredLogger
 to
 use
@@ -673,26 +641,6 @@ test
 run
 .
         
-:
-params
-test_list
-:
-An
-optional
-list
-of
-tests
-that
-will
-be
-passed
-along
-            
-the
-suite_start
-message
-.
-        
 "
 "
 "
@@ -708,21 +656,6 @@ pop
 "
 logger
 "
-)
-        
-self
-.
-test_list
-=
-kwargs
-.
-pop
-(
-"
-test_list
-"
-[
-]
 )
         
 self
@@ -781,12 +714,6 @@ logger
 self
 .
 logger
-                                
-test_list
-=
-self
-.
-test_list
 )
     
 def
