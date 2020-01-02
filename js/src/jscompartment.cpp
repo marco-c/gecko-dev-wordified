@@ -6204,7 +6204,7 @@ size_t
 compartmentObject
 size_t
 *
-compartmentTables
+shapesCompartmentTables
 size_t
 *
 crossCompartmentWrappersArg
@@ -6239,7 +6239,7 @@ tiObjectTypeTables
 )
 ;
 *
-compartmentTables
+shapesCompartmentTables
 +
 =
 baseShapes
