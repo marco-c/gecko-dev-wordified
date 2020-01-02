@@ -472,17 +472,6 @@ assertEqual
 (
 o
 .
-parallel_dirs
-[
-]
-)
-            
-self
-.
-assertEqual
-(
-o
-.
 test_dirs
 [
 ]
@@ -657,7 +646,7 @@ len
 (
 objs
 )
-4
+3
 )
         
 for
@@ -700,9 +689,6 @@ set
 '
 '
 '
-parallel
-'
-'
 regular
 '
 '
@@ -742,20 +728,6 @@ dirs
 [
 '
 regular
-'
-]
-)
-                
-self
-.
-assertEqual
-(
-o
-.
-parallel_dirs
-[
-'
-parallel
 '
 ]
 )

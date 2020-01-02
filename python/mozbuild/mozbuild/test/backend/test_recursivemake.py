@@ -2089,12 +2089,6 @@ DIRS
 :
 =
 dir1
-'
-            
-'
-PARALLEL_DIRS
-:
-=
 dir2
 '
             

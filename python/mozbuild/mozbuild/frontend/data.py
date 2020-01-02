@@ -609,10 +609,6 @@ dirs
 '
         
 '
-parallel_dirs
-'
-        
-'
 test_dirs
 '
         
@@ -645,13 +641,6 @@ sandbox
 self
 .
 dirs
-=
-[
-]
-        
-self
-.
-parallel_dirs
 =
 [
 ]
