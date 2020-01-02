@@ -274,5 +274,30 @@ Modules
 '
                   
 ]
+      
+entry_points
+=
+{
+          
+"
+console_scripts
+"
+:
+[
+              
+"
+structlog
+=
+mozlog
+.
+structured
+.
+scripts
+:
+main
+"
+          
+]
+}
      
 )
