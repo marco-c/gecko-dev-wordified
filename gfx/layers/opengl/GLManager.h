@@ -243,7 +243,14 @@ gfx
 :
 Rect
 &
-aRect
+aLayerRect
+const
+gfx
+:
+:
+Rect
+&
+aTextureRect
 )
 =
 0
