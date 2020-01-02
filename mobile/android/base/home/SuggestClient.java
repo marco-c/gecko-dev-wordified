@@ -189,6 +189,7 @@ suggestions
 .
 *
 /
+public
 class
 SuggestClient
 {
@@ -269,10 +270,6 @@ by
 robocop
 for
 testing
-;
-referenced
-via
-reflection
 private
 boolean
 mCheckNetwork
