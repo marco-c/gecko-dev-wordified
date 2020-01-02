@@ -9329,7 +9329,7 @@ maximum
 allowed
 number
 of
-resutls
+results
 are
 found
 parsing
@@ -9478,8 +9478,6 @@ let
 parseResult
 of
 scriptResult
-.
-parseResults
 )
 {
 aStore
