@@ -3823,6 +3823,15 @@ aConvertListItem
 false
 )
 ;
+static
+void
+EnsureInlineDisplay
+(
+uint8_t
+&
+display
+)
+;
 /
 /
 Transition
