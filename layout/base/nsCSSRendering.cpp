@@ -19112,6 +19112,12 @@ mCustomClip
 =
 true
 ;
+clipState
+.
+mHasRoundedCorners
+=
+false
+;
 SetupDirtyRects
 (
 clipState
