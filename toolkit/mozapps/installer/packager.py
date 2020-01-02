@@ -3140,11 +3140,13 @@ if
 buildconfig
 .
 substs
-[
+.
+get
+(
 '
 LIBXUL_SDK
 '
-]
+)
 :
             
 gre_path
