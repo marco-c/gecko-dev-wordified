@@ -1090,9 +1090,6 @@ if
 isCopy
 )
 {
-#
-ifdef
-MOZILLA_INTERNAL_API
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -1100,8 +1097,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-endif
 }
 }
 operator
@@ -4264,9 +4259,6 @@ aConfiguration
 aRTCConfiguration
 )
 ;
-#
-ifdef
-MOZILLA_INTERNAL_API
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -4274,8 +4266,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 aThread
