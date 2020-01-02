@@ -3738,13 +3738,6 @@ msg
 )
 ;
 }
-/
-/
-Throws
-if
-not
-initialized
-.
 public
 void
 notifyListeners
