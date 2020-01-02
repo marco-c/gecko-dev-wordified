@@ -411,7 +411,7 @@ gMediaDecoderLog
 ;
 #
 define
-LOG
+DECODER_LOG
 (
 type
 msg
@@ -426,7 +426,7 @@ msg
 else
 #
 define
-LOG
+DECODER_LOG
 (
 type
 msg
@@ -1459,7 +1459,7 @@ AssertCurrentThreadIn
 (
 )
 ;
-LOG
+DECODER_LOG
 (
 PR_LOG_DEBUG
 (
@@ -1756,7 +1756,7 @@ NS_IsMainThread
 )
 )
 ;
-LOG
+DECODER_LOG
 (
 PR_LOG_DEBUG
 (
@@ -2569,7 +2569,7 @@ rv
 )
 )
 {
-LOG
+DECODER_LOG
 (
 PR_LOG_DEBUG
 (
@@ -2643,7 +2643,7 @@ if
 mDecoderStateMachine
 )
 {
-LOG
+DECODER_LOG
 (
 PR_LOG_DEBUG
 (
@@ -2737,7 +2737,7 @@ nullptr
 )
 )
 {
-LOG
+DECODER_LOG
 (
 PR_LOG_DEBUG
 (
@@ -6722,7 +6722,7 @@ IsInfinite
 )
 )
 {
-LOG
+DECODER_LOG
 (
 PR_LOG_DEBUG
 (

@@ -194,7 +194,7 @@ gRtspMediaResourceLog
 ;
 #
 define
-LOG
+RTSP_LOG
 (
 msg
 .
@@ -235,7 +235,7 @@ msg
 .
 )
 \
-LOG
+RTSP_LOG
 (
 "
 %
@@ -255,7 +255,7 @@ __VA_ARGS__
 else
 #
 define
-LOG
+RTSP_LOG
 (
 msg
 .
