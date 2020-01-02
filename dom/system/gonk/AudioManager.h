@@ -369,6 +369,9 @@ AudioChannelAgent
 >
 mPhoneAudioAgent
 ;
+#
+ifdef
+MOZ_B2G_RIL
 bool
 mMuteCallToRIL
 ;
@@ -388,6 +391,8 @@ RIL
 bool
 mIsMicMuted
 ;
+#
+endif
 void
 HandleBluetoothStatusChanged
 (
