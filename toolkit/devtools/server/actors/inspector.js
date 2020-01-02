@@ -5102,6 +5102,10 @@ this
 nodeList
 =
 nodeList
+|
+|
+[
+]
 ;
 }
 destroy
