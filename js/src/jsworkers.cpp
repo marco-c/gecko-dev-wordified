@@ -1547,6 +1547,13 @@ JS
 FreshZone
 )
 ;
+compartmentOptions
+.
+setInvisibleToDebugger
+(
+true
+)
+;
 JSObject
 *
 global
