@@ -1139,6 +1139,16 @@ return
 mServerSurfaceValid
 ;
 }
+public
+boolean
+isCompositorCreated
+(
+)
+{
+return
+mCompositorCreated
+;
+}
 private
 void
 initEGL
