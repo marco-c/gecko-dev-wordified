@@ -47,13 +47,6 @@ nsHtml5NamedCharactersAccel_h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 jArray
 .
 h

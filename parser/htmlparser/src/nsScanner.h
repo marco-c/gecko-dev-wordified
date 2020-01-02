@@ -192,13 +192,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIUnicodeDecoder
 .
 h
