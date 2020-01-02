@@ -12907,6 +12907,17 @@ double
 d
 )
 {
+MOZ_ASSERT
+(
+index
+<
+obj
+.
+length
+(
+)
+)
+;
 switch
 (
 obj
