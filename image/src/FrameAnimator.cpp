@@ -602,12 +602,12 @@ gets
 delayed
 .
 bool
-needToWait
+canDisplay
 =
-!
 mDoneDecoding
-&
-&
+|
+|
+(
 mFrameBlender
 .
 RawGetFrame
@@ -616,7 +616,6 @@ nextFrameIndex
 )
 &
 &
-!
 mFrameBlender
 .
 RawGetFrame
@@ -628,10 +627,12 @@ nextFrameIndex
 ImageComplete
 (
 )
+)
 ;
 if
 (
-needToWait
+!
+canDisplay
 )
 {
 /
@@ -667,8 +668,6 @@ return
 ret
 ;
 }
-else
-{
 /
 /
 If
@@ -856,7 +855,6 @@ GetTimeoutForFrame
 nextFrameIndex
 )
 ;
-}
 /
 /
 Bad
