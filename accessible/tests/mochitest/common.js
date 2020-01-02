@@ -181,6 +181,15 @@ interfaces
 nsIAccessibleRelation
 ;
 const
+nsIAccessibleTextRange
+=
+Components
+.
+interfaces
+.
+nsIAccessibleTextRange
+;
+const
 nsIAccessible
 =
 Components
