@@ -136,13 +136,6 @@ InitStatics
 (
 )
 ;
-XPCWrappedNativeScope
-:
-:
-InitStatics
-(
-)
-;
 return
 NS_OK
 ;
