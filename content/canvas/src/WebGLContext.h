@@ -7981,16 +7981,6 @@ rv
 )
 const
 ;
-void
-ReattachTextureToAnyFramebufferToWorkAroundBugs
-(
-WebGLTexture
-*
-tex
-GLint
-level
-)
-;
 #
 ifdef
 XP_MACOSX
