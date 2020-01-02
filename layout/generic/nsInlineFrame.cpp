@@ -4589,7 +4589,6 @@ aMetrics
 .
 ISize
 (
-wm
 )
 =
 lineLayout
@@ -4695,7 +4694,6 @@ aMetrics
 .
 ISize
 (
-wm
 )
 +
 =
