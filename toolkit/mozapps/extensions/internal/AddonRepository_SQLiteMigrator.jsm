@@ -291,6 +291,8 @@ gre
 /
 modules
 /
+addons
+/
 AddonLogging
 .
 jsm

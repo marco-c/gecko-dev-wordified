@@ -337,6 +337,8 @@ gre
 /
 modules
 /
+addons
+/
 LightweightThemeImageOptimizer
 .
 jsm
