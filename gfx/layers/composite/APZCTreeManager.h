@@ -2184,6 +2184,11 @@ uint32_t
 aOverscrollHandoffChainIndex
 )
 ;
+bool
+FlushRepaintsForOverscrollHandoffChain
+(
+)
+;
 protected
 :
 /

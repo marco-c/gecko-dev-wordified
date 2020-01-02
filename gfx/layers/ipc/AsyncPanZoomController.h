@@ -2663,6 +2663,11 @@ mFrameMetrics
 mHasScrollgrab
 ;
 }
+void
+FlushRepaintForOverscrollHandoff
+(
+)
+;
 protected
 :
 /
