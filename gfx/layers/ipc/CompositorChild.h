@@ -649,6 +649,8 @@ contains
 the
 shared
 FrameMetrics
+nsRefPtr
+<
 mozilla
 :
 :
@@ -656,7 +658,7 @@ ipc
 :
 :
 SharedMemoryBasic
-*
+>
 mBuffer
 ;
 CrossProcessMutex
