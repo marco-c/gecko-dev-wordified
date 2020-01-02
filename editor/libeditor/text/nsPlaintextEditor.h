@@ -189,9 +189,6 @@ class
 nsIOutputStream
 ;
 class
-nsIPrivateTextRangeList
-;
-class
 nsISelection
 ;
 class
