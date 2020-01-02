@@ -8942,7 +8942,7 @@ TabChild
 RecvHandleDoubleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -8982,7 +8982,7 @@ x
 "
 :
 %
-d
+f
 "
 aPoint
 .
@@ -9002,7 +9002,7 @@ y
 "
 :
 %
-d
+f
 "
 aPoint
 .
@@ -9043,7 +9043,7 @@ TabChild
 RecvHandleSingleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -9069,10 +9069,7 @@ true
 LayoutDevicePoint
 currentPoint
 =
-CSSPoint
-(
 aPoint
-)
 *
 mWidget
 -
@@ -9154,7 +9151,7 @@ TabChild
 RecvHandleLongTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -9215,7 +9212,7 @@ TabChild
 RecvHandleLongTapUp
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const

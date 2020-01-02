@@ -4423,7 +4423,7 @@ to
 this
 APZC
 to
-CSSIntPoint
+CSSPoint
 relative
 *
 to
@@ -4446,7 +4446,7 @@ must
 be
 converted
 to
-CSSIntPoint
+CSSPoint
 relative
 to
 the
@@ -4467,7 +4467,7 @@ const
 ScreenPoint
 &
 aPoint
-CSSIntPoint
+CSSPoint
 *
 aOut
 )

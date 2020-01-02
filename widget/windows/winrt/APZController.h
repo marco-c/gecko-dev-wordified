@@ -216,7 +216,7 @@ const
 mozilla
 :
 :
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -241,7 +241,7 @@ const
 mozilla
 :
 :
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -266,7 +266,7 @@ const
 mozilla
 :
 :
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -291,7 +291,7 @@ const
 mozilla
 :
 :
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t

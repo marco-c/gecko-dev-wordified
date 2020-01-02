@@ -10796,7 +10796,7 @@ AndroidBridge
 HandleDoubleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -10827,7 +10827,7 @@ x
 "
 :
 %
-d
+f
 \
 "
 y
@@ -10835,7 +10835,7 @@ y
 "
 :
 %
-d
+f
 }
 "
 aPoint
@@ -10879,7 +10879,7 @@ AndroidBridge
 HandleSingleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -10925,7 +10925,7 @@ x
 "
 :
 %
-d
+f
 \
 "
 y
@@ -10933,7 +10933,7 @@ y
 "
 :
 %
-d
+f
 }
 "
 aPoint
@@ -10977,7 +10977,7 @@ AndroidBridge
 HandleLongTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -11008,7 +11008,7 @@ x
 "
 :
 %
-d
+f
 \
 "
 y
@@ -11016,7 +11016,7 @@ y
 "
 :
 %
-d
+f
 }
 "
 aPoint
@@ -11060,7 +11060,7 @@ AndroidBridge
 HandleLongTapUp
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
