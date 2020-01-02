@@ -213,6 +213,9 @@ stdint
 h
 >
 #
+ifdef
+__cplusplus
+#
 include
 "
 mozilla
@@ -221,6 +224,8 @@ NullPtr
 .
 h
 "
+#
+endif
 /
 *
 Core
