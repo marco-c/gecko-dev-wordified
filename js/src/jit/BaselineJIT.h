@@ -1759,7 +1759,7 @@ return
 cx
 -
 >
-runtime
+compartment
 (
 )
 -
@@ -1770,6 +1770,7 @@ options
 .
 baseline
 (
+cx
 )
 ;
 }

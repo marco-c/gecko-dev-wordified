@@ -850,7 +850,7 @@ nullptr
 JS
 :
 :
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )
