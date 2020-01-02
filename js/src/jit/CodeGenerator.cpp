@@ -12550,6 +12550,10 @@ masm
 .
 branchPtrInNurseryRange
 (
+Assembler
+:
+:
+Equal
 ToRegister
 (
 lir
@@ -12573,6 +12577,10 @@ masm
 .
 branchPtrInNurseryRange
 (
+Assembler
+:
+:
+Equal
 ToRegister
 (
 lir
@@ -12739,6 +12747,10 @@ masm
 .
 branchPtrInNurseryRange
 (
+Assembler
+:
+:
+Equal
 ToRegister
 (
 lir
@@ -12774,6 +12786,10 @@ masm
 .
 branchValueIsNurseryObject
 (
+Assembler
+:
+:
+Equal
 value
 temp
 ool
