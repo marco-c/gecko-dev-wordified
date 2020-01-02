@@ -288,7 +288,7 @@ BluetoothSocketResultHandler
 aRes
 )
 ;
-bt_status_t
+void
 Connect
 (
 const
@@ -304,10 +304,10 @@ aUuid
 int
 aChannel
 int
-&
-aSockFd
-int
 aFlags
+BluetoothSocketResultHandler
+*
+aRes
 )
 ;
 protected
