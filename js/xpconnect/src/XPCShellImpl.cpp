@@ -2037,11 +2037,6 @@ ptr
 )
 1
 )
-.
-setPrincipals
-(
-gJSPrincipals
-)
 ;
 JS
 :
@@ -5606,11 +5601,6 @@ setFileAndLine
 filename
 1
 )
-.
-setPrincipals
-(
-gJSPrincipals
-)
 ;
 script
 =
@@ -5857,11 +5847,6 @@ setFileAndLine
 typein
 "
 startline
-)
-.
-setPrincipals
-(
-gJSPrincipals
 )
 ;
 script

@@ -26640,14 +26640,6 @@ aCx
 )
 )
 ;
-JSPrincipals
-*
-principal
-=
-GetWorkerPrincipal
-(
-)
-;
 /
 /
 We
@@ -26991,11 +26983,6 @@ aCx
 )
 ;
 options
-.
-setPrincipals
-(
-principal
-)
 .
 setFileAndLine
 (

@@ -931,17 +931,6 @@ cx
 ;
 options
 .
-setPrincipals
-(
-nsJSPrincipals
-:
-:
-get
-(
-principal
-)
-)
-.
 setFileAndLine
 (
 uriStr

@@ -10338,17 +10338,6 @@ sandcx
 ;
 options
 .
-setPrincipals
-(
-nsJSPrincipals
-:
-:
-get
-(
-prin
-)
-)
-.
 setFileAndLine
 (
 filenameBuf

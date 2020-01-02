@@ -8274,17 +8274,6 @@ get
 )
 1
 )
-.
-setPrincipals
-(
-nsJSPrincipals
-:
-:
-get
-(
-mPrincipal
-)
-)
 ;
 JS
 :
