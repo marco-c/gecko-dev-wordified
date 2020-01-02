@@ -211,17 +211,6 @@ util
 ThreadUtils
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
-UiAsyncTask
-;
-import
 static
 org
 .

@@ -314,7 +314,7 @@ gecko
 .
 util
 .
-UiAsyncTask
+UIAsyncTask
 ;
 import
 org
@@ -2315,10 +2315,10 @@ static
 class
 RemoveItemByUrlTask
 extends
-UiAsyncTask
+UIAsyncTask
+.
+WithoutParams
 <
-Void
-Void
 Void
 >
 {
@@ -2446,11 +2446,6 @@ public
 Void
 doInBackground
 (
-Void
-.
-.
-.
-params
 )
 {
 ContentResolver

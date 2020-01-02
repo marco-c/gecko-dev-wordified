@@ -175,7 +175,7 @@ gecko
 .
 util
 .
-UiAsyncTask
+UIAsyncTask
 ;
 import
 org
@@ -577,10 +577,10 @@ file
 {
 (
 new
-UiAsyncTask
+UIAsyncTask
+.
+WithoutParams
 <
-Void
-Void
 Drawable
 >
 (
@@ -596,11 +596,6 @@ public
 Drawable
 doInBackground
 (
-Void
-.
-.
-.
-params
 )
 {
 try
