@@ -2488,6 +2488,8 @@ nsIThreadInternal
 thr
 uint32_t
 recursionDepth
+bool
+eventWasProcessed
 )
 {
 /

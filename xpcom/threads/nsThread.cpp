@@ -3870,6 +3870,8 @@ AfterProcessNextEvent
 (
 this
 mRunningEvent
+*
+result
 )
 )
 ;
@@ -3884,6 +3886,8 @@ AfterProcessNextEvent
 (
 this
 mRunningEvent
+*
+result
 )
 ;
 if
@@ -3900,6 +3904,8 @@ AfterProcessNextEvent
 (
 this
 mRunningEvent
+*
+result
 )
 ;
 return

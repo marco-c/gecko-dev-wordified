@@ -2424,6 +2424,8 @@ uint32_t
 aRecursionDepth
 *
 /
+bool
+aEventWasProcessed
 )
 {
 bool
@@ -2436,6 +2438,11 @@ lock
 mMutex
 )
 ;
+if
+(
+aEventWasProcessed
+)
+{
 MOZ_ASSERT
 (
 mPendingEventCount
@@ -2453,6 +2460,7 @@ methods
 -
 mPendingEventCount
 ;
+}
 if
 (
 mThreadIsShuttingDown
