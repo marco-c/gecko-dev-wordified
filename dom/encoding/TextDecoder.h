@@ -587,12 +587,6 @@ ErrorResult
 aRv
 )
 {
-aView
-.
-ComputeLengthAndData
-(
-)
-;
 Decode
 (
 reinterpret_cast
