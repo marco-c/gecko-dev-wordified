@@ -838,6 +838,10 @@ struct
 StackBaseShape
 ;
 friend
+class
+Activation
+;
+friend
 UnownedBaseShape
 *
 BaseShape
