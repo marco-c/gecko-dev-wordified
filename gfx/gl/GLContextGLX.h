@@ -269,14 +269,6 @@ SetupLookupFunction
 (
 )
 ;
-void
-*
-GetNativeData
-(
-NativeDataType
-aType
-)
-;
 bool
 IsDoubleBuffered
 (

@@ -357,14 +357,6 @@ SetupLookupFunction
 (
 )
 ;
-void
-*
-GetNativeData
-(
-NativeDataType
-aType
-)
-;
 bool
 SwapBuffers
 (
@@ -397,7 +389,7 @@ aSurf
 )
 ;
 EGLContext
-Context
+GetEGLContext
 (
 )
 {

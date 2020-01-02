@@ -251,14 +251,6 @@ Init
 (
 )
 ;
-void
-*
-GetNativeData
-(
-NativeDataType
-aType
-)
-;
 NSOpenGLContext
 *
 GetNSOpenGLContext
