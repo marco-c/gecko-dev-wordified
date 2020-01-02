@@ -193,6 +193,13 @@ Services
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 extern
 const
 nsXREAppData

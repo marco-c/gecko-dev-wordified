@@ -262,6 +262,13 @@ nsHashtable
 .
 h
 "
+#
+include
+"
+nsISimpleEnumerator
+.
+h
+"
 /
 /
 /

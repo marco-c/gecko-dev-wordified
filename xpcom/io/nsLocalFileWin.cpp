@@ -310,6 +310,13 @@ h
 #
 include
 "
+prlink
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex

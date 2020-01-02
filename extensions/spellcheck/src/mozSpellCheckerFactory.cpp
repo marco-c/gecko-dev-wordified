@@ -152,6 +152,13 @@ mozSpellI18NManager
 h
 "
 #
+include
+"
+nsIFile
+.
+h
+"
+#
 define
 NS_SPELLCHECKER_CID
 \

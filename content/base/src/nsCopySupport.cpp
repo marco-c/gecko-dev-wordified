@@ -331,6 +331,13 @@ nsIURI
 .
 h
 "
+#
+include
+"
+nsISimpleEnumerator
+.
+h
+"
 /
 /
 image

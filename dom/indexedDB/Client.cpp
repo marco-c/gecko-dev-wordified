@@ -178,6 +178,13 @@ TransactionThreadPool
 .
 h
 "
+#
+include
+"
+nsISimpleEnumerator
+.
+h
+"
 USING_INDEXEDDB_NAMESPACE
 using
 mozilla

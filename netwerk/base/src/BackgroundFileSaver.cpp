@@ -176,6 +176,13 @@ Telemetry
 .
 h
 "
+#
+include
+"
+nsIAsyncInputStream
+.
+h
+"
 namespace
 mozilla
 {

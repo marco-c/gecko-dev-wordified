@@ -312,6 +312,13 @@ h
 #
 include
 "
+nsIInterfaceInfo
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

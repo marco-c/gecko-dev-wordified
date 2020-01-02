@@ -271,6 +271,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MemoryReporting

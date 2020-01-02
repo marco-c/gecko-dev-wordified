@@ -149,6 +149,13 @@ nsAppStartupNotifier
 .
 h
 "
+#
+include
+"
+nsISimpleEnumerator
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsAppStartupNotifier

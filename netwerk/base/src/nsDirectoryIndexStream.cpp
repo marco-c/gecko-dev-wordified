@@ -172,6 +172,13 @@ prlog
 h
 "
 #
+include
+"
+prtime
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 static

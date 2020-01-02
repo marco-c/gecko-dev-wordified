@@ -160,6 +160,13 @@ h
 #
 include
 "
+prtime
+.
+h
+"
+#
+include
+"
 shared
 -
 libraries
