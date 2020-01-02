@@ -425,11 +425,6 @@ CloseDroidSocket
 )
 ;
 bool
-IsWaitingForClientFd
-(
-)
-;
-bool
 SendDroidSocketData
 (
 mozilla
