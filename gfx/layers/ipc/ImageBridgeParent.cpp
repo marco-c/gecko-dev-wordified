@@ -780,7 +780,8 @@ ParentSide
 static
 *
 /
-bool
+PImageBridgeParent
+*
 ImageBridgeParent
 :
 :
@@ -811,7 +812,7 @@ processHandle
 )
 {
 return
-false
+nullptr
 ;
 }
 MessageLoop
@@ -865,7 +866,11 @@ processHandle
 )
 ;
 return
-true
+bridge
+.
+get
+(
+)
 ;
 }
 bool

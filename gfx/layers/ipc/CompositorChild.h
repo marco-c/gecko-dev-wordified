@@ -301,7 +301,8 @@ context
 *
 /
 static
-bool
+PCompositorChild
+*
 Create
 (
 Transport

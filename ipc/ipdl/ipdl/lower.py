@@ -21919,9 +21919,7 @@ otherProcess
                 
 ret
 =
-Type
-.
-BOOL
+actortype
                 
 virtual
 =

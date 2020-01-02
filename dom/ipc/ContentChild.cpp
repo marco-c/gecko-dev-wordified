@@ -2712,7 +2712,8 @@ return
 true
 ;
 }
-bool
+PCompositorChild
+*
 ContentChild
 :
 :
@@ -2745,7 +2746,8 @@ aOtherProcess
 )
 ;
 }
-bool
+PImageBridgeChild
+*
 ContentChild
 :
 :
