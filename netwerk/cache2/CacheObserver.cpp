@@ -171,14 +171,11 @@ uint32_t
 const
 kDefaultUseNewCache
 =
-0
+1
 ;
 /
 /
-Don
-'
-t
-use
+Use
 the
 new
 cache
