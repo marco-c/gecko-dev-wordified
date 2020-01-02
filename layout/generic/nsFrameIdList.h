@@ -654,7 +654,7 @@ nsSVGSwitchFrame
 )
 FRAME_ID
 (
-nsSVGTextFrame2
+SVGTextFrame
 )
 FRAME_ID
 (

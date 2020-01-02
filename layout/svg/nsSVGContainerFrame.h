@@ -600,7 +600,7 @@ frame
 tree
 marking
 any
-nsSVGTextFrame2
+SVGTextFrame
 frames
 as
 dirty

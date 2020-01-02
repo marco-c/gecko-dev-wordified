@@ -2644,7 +2644,7 @@ is
 a
 descendant
 of
-nsSVGTextFrame2
+SVGTextFrame
 and
 is
 thus
@@ -21815,7 +21815,7 @@ the
 specified
 point
 .
-nsSVGTextFrame2
+SVGTextFrame
 overrides
 *
 this

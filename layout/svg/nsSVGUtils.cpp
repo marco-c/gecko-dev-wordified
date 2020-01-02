@@ -7513,7 +7513,7 @@ GetType
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 {
 ancestor

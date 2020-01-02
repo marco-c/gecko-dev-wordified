@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-NS_SVGTEXTFRAME2_H
+MOZILLA_SVGTEXTFRAME_H
 #
 define
-NS_SVGTEXTFRAME2_H
+MOZILLA_SVGTEXTFRAME_H
 #
 include
 "
@@ -177,14 +177,14 @@ class
 nsRenderingContext
 ;
 class
-nsSVGTextFrame2
+SVGTextFrame
 ;
 class
 nsTextFrame
 ;
 typedef
 nsSVGDisplayContainerFrame
-nsSVGTextFrame2Base
+SVGTextFrameBase
 ;
 namespace
 mozilla
@@ -583,7 +583,7 @@ the
 bounds
 of
 the
-nsSVGTextFrame2
+SVGTextFrame
 frame
 .
 *
@@ -599,7 +599,7 @@ public
 NS_DECL_NSIRUNNABLE
 GlyphMetricsUpdater
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aFrame
 )
@@ -614,7 +614,7 @@ static
 void
 Run
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aFrame
 )
@@ -631,7 +631,7 @@ nullptr
 }
 private
 :
-nsSVGTextFrame2
+SVGTextFrame
 *
 mFrame
 ;
@@ -968,7 +968,7 @@ true
 *
 *
 An
-nsSVGTextFrame2
+SVGTextFrame
 manages
 SVG
 text
@@ -994,7 +994,7 @@ this
 :
 *
 *
-nsSVGTextFrame2
+SVGTextFrame
 -
 -
 for
@@ -1312,15 +1312,15 @@ servers
 *
 /
 class
-nsSVGTextFrame2
+SVGTextFrame
 :
 public
-nsSVGTextFrame2Base
+SVGTextFrameBase
 {
 friend
 nsIFrame
 *
-NS_NewSVGTextFrame2
+NS_NewSVGTextFrame
 (
 nsIPresShell
 *
@@ -1399,14 +1399,14 @@ SVGTextContextPaint
 ;
 protected
 :
-nsSVGTextFrame2
+SVGTextFrame
 (
 nsStyleContext
 *
 aContext
 )
 :
-nsSVGTextFrame2Base
+SVGTextFrameBase
 (
 aContext
 )
@@ -1439,7 +1439,7 @@ public
 :
 NS_DECL_QUERYFRAME_TARGET
 (
-nsSVGTextFrame2
+SVGTextFrame
 )
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
@@ -1531,7 +1531,7 @@ see
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 *
 /
 virtual
@@ -1562,7 +1562,7 @@ MakeFrameName
 NS_LITERAL_STRING
 (
 "
-SVGText2
+SVGText
 "
 )
 aResult
@@ -1839,7 +1839,7 @@ aResult
 ;
 /
 /
-nsSVGTextFrame2
+SVGTextFrame
 methods
 :
 /
@@ -1910,7 +1910,7 @@ this
 non
 -
 display
-nsSVGTextFrame2
+SVGTextFrame
 .
 *
 *
@@ -1928,7 +1928,7 @@ to
 *
 reflow
 any
-nsSVGTextFrame2
+SVGTextFrame
 frames
 in
 the
@@ -1972,7 +1972,7 @@ reflow
 Note
 that
 displayed
-nsSVGTextFrame2s
+SVGTextFrames
 are
 reflowed
 as
@@ -2119,7 +2119,7 @@ ScheduleReflowSVGNonDisplayText
 *
 currently
 is
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DidSetStyleContext
@@ -2408,7 +2408,7 @@ nullptr
 void
 StartObserving
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aFrame
 )
@@ -2485,7 +2485,7 @@ NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 private
 :
-nsSVGTextFrame2
+SVGTextFrame
 *
 mFrame
 ;
@@ -2512,7 +2512,7 @@ children
 or
 if
 the
-nsSVGTextFrame2
+SVGTextFrame
 itself
 is
 dirty
@@ -3960,7 +3960,7 @@ some
 defines
 in
 *
-nsSVGTextFrame2
+SVGTextFrame
 .
 cpp
 is

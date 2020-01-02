@@ -500,7 +500,7 @@ h
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -4244,13 +4244,13 @@ IsSVGText
 )
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 svgTextFrame
 =
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (
@@ -4263,7 +4263,7 @@ this
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 )
 ;
@@ -4283,7 +4283,7 @@ GetFirstPrincipalChild
 Just
 as
 in
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DidSetStyleContext
@@ -4298,7 +4298,7 @@ any
 non
 -
 display
-nsSVGTextFrame2s
+SVGTextFrames
 get
 reflowed
 when
@@ -4324,7 +4324,7 @@ check
 NS_FRAME_FIRST_REFLOW
 on
 our
-nsSVGTextFrame2
+SVGTextFrame
 '
 s
 /
@@ -48892,7 +48892,7 @@ GetType
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 {
 break

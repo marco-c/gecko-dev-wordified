@@ -102,7 +102,7 @@ first
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -2629,7 +2629,7 @@ block
 child
 of
 the
-nsSVGTextFrame2
+SVGTextFrame
 has
 been
 *
@@ -2706,11 +2706,11 @@ itself
 *
 /
 static
-nsSVGTextFrame2
+SVGTextFrame
 *
 FrameIfAnonymousChildReflowed
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aFrame
 )
@@ -3141,7 +3141,7 @@ painting
 a
 *
 whole
-nsSVGTextFrame2
+SVGTextFrame
 .
 *
 /
@@ -3609,7 +3609,7 @@ f
 .
 In
 *
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 PaintSVG
@@ -8515,7 +8515,7 @@ the
 nsTextFrames
 for
 an
-nsSVGTextFrame2
+SVGTextFrame
 and
 records
 a
@@ -8590,7 +8590,7 @@ static
 void
 RecordCorrespondence
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -8599,7 +8599,7 @@ private
 :
 TextNodeCorrespondenceRecorder
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -8626,7 +8626,7 @@ mNodeCharIndex
 void
 Record
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -8735,7 +8735,7 @@ TextNodeCorrespondenceRecorder
 :
 RecordCorrespondence
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -8760,7 +8760,7 @@ TextNodeCorrespondenceRecorder
 :
 Record
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -8976,7 +8976,7 @@ on
 the
 /
 /
-nsSVGTextFrame2
+SVGTextFrame
 .
 aRoot
 -
@@ -9781,7 +9781,7 @@ descendants
 of
 an
 *
-nsSVGTextFrame2
+SVGTextFrame
 .
 The
 iterator
@@ -9874,7 +9874,7 @@ units
 relative
 to
 the
-nsSVGTextFrame2
+SVGTextFrame
 '
 s
 anonymous
@@ -9952,7 +9952,7 @@ TextFrameIterator
 for
 the
 specified
-nsSVGTextFrame2
+SVGTextFrame
 *
 with
 an
@@ -9970,7 +9970,7 @@ to
 /
 TextFrameIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 nsIFrame
@@ -10019,7 +10019,7 @@ TextFrameIterator
 for
 the
 specified
-nsSVGTextFrame2
+SVGTextFrame
 *
 with
 an
@@ -10038,7 +10038,7 @@ to
 /
 TextFrameIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 nsIContent
@@ -10105,7 +10105,7 @@ Init
 Returns
 the
 root
-nsSVGTextFrame2
+SVGTextFrame
 this
 TextFrameIterator
 is
@@ -10114,7 +10114,7 @@ over
 .
 *
 /
-nsSVGTextFrame2
+SVGTextFrame
 *
 Root
 (
@@ -10197,7 +10197,7 @@ to
 the
 *
 root
-nsSVGTextFrame2
+SVGTextFrame
 '
 s
 anonymous
@@ -10541,7 +10541,7 @@ through
 .
 *
 /
-nsSVGTextFrame2
+SVGTextFrame
 *
 mRootFrame
 ;
@@ -11475,7 +11475,7 @@ TextRenderedRun
 objects
 for
 the
-nsSVGTextFrame2
+SVGTextFrame
 .
 *
 /
@@ -11568,7 +11568,7 @@ to
 param
 aSVGTextFrame
 The
-nsSVGTextFrame2
+SVGTextFrame
 whose
 rendered
 runs
@@ -11612,7 +11612,7 @@ to
 /
 TextRenderedRunIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aSVGTextFrame
 RenderedRunFilter
@@ -11685,7 +11685,7 @@ to
 param
 aSVGTextFrame
 The
-nsSVGTextFrame2
+SVGTextFrame
 whose
 rendered
 runs
@@ -11727,7 +11727,7 @@ to
 /
 TextRenderedRunIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aSVGTextFrame
 RenderedRunFilter
@@ -11822,7 +11822,7 @@ private
 Returns
 the
 root
-nsSVGTextFrame2
+SVGTextFrame
 this
 iterator
 is
@@ -11830,7 +11830,7 @@ for
 .
 *
 /
-nsSVGTextFrame2
+SVGTextFrame
 *
 Root
 (
@@ -12174,7 +12174,7 @@ through
 the
 /
 /
-nsSVGTextFrame2
+SVGTextFrame
 '
 s
 positions
@@ -12315,7 +12315,7 @@ found
 /
 /
 in
-nsSVGTextFrame2
+SVGTextFrame
 '
 s
 position
@@ -12995,7 +12995,7 @@ for
 characters
 within
 an
-nsSVGTextFrame2
+SVGTextFrame
 .
 *
 /
@@ -13159,7 +13159,7 @@ CharIterator
 param
 aSVGTextFrame
 The
-nsSVGTextFrame2
+SVGTextFrame
 whose
 characters
 to
@@ -13197,7 +13197,7 @@ within
 /
 CharIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aSVGTextFrame
 CharacterFilter
@@ -14570,7 +14570,7 @@ CharIterator
 :
 CharIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aSVGTextFrame
 CharIterator
@@ -18209,7 +18209,7 @@ mozilla
 =
 /
 /
-nsSVGTextFrame2
+SVGTextFrame
 /
 /
 -
@@ -18306,7 +18306,7 @@ nsDisplaySVGText
 nsDisplayListBuilder
 *
 aBuilder
-nsSVGTextFrame2
+SVGTextFrame
 *
 aFrame
 )
@@ -18421,13 +18421,13 @@ nsIFrame
 aOutFrames
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 frame
 =
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (
@@ -18578,7 +18578,7 @@ offset
 ;
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (
@@ -18677,15 +18677,15 @@ nsQueryFrame
 methods
 NS_QUERYFRAME_HEAD
 (
-nsSVGTextFrame2
+SVGTextFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsSVGTextFrame2
+SVGTextFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsSVGTextFrame2Base
+SVGTextFrameBase
 )
 /
 /
@@ -18763,7 +18763,7 @@ nsSVGTextFrame2Base
 Implementation
 nsIFrame
 *
-NS_NewSVGTextFrame2
+NS_NewSVGTextFrame
 (
 nsIPresShell
 *
@@ -18778,7 +18778,7 @@ new
 (
 aPresShell
 )
-nsSVGTextFrame2
+SVGTextFrame
 (
 aContext
 )
@@ -18786,7 +18786,7 @@ aContext
 }
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsSVGTextFrame2
+SVGTextFrame
 )
 /
 /
@@ -18864,7 +18864,7 @@ nsSVGTextFrame2
 nsIFrame
 methods
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 Init
@@ -18902,7 +18902,7 @@ text
 "
 )
 ;
-nsSVGTextFrame2Base
+SVGTextFrameBase
 :
 :
 Init
@@ -18939,7 +18939,7 @@ this
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 BuildDisplayList
@@ -19021,7 +19021,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 AttributeChanged
@@ -19187,7 +19187,7 @@ NS_OK
 }
 nsIAtom
 *
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetType
@@ -19199,11 +19199,11 @@ return
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DidSetStyleContext
@@ -19452,7 +19452,7 @@ ScheduleReflowSVGNonDisplayText
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ReflowSVGNonDisplayText
@@ -19582,7 +19582,7 @@ will
 then
 cause
 this
-nsSVGTextFrame2
+SVGTextFrame
 to
 be
 painted
@@ -19654,7 +19654,7 @@ UpdateGlyphPositioning
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ScheduleReflowSVGNonDisplayText
@@ -19988,14 +19988,14 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 }
 NS_IMPL_ISUPPORTS1
 (
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
 nsIMutationObserver
 )
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -20025,7 +20025,7 @@ NotifyGlyphMetricsChange
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -20055,7 +20055,7 @@ NotifyGlyphMetricsChange
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -20088,7 +20088,7 @@ NotifyGlyphMetricsChange
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -20116,7 +20116,7 @@ NotifyGlyphMetricsChange
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -20171,7 +20171,7 @@ handled
 in
 /
 /
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 AttributeChanged
@@ -20337,7 +20337,7 @@ NotifyGlyphMetricsChange
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 FindCloserFrameForSelection
@@ -20590,7 +20590,7 @@ mFrame
 nsISVGChildFrame
 methods
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 NotifySVGChanged
@@ -21285,7 +21285,7 @@ false
 ;
 }
 NS_IMETHODIMP
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 PaintSVG
@@ -22171,7 +22171,7 @@ NS_IMETHODIMP_
 nsIFrame
 *
 )
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetFrameForPoint
@@ -22455,7 +22455,7 @@ NS_IMETHODIMP_
 (
 nsRect
 )
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetCoveredRegion
@@ -22480,7 +22480,7 @@ PresContext
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ReflowSVG
@@ -22940,7 +22940,7 @@ on
 our
 children
 ?
-nsSVGTextFrame2Base
+SVGTextFrameBase
 :
 :
 ReflowSVG
@@ -23089,7 +23089,7 @@ flags
 ;
 }
 SVGBBox
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetBBoxContribution
@@ -23272,7 +23272,7 @@ bbox
 nsSVGContainerFrame
 methods
 gfxMatrix
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetCanvasTM
@@ -23538,7 +23538,7 @@ mCanvasTM
 -
 /
 /
-nsSVGTextFrame2
+SVGTextFrame
 SVG
 DOM
 methods
@@ -23723,7 +23723,7 @@ length
 ;
 }
 int32_t
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ConvertTextElementCharIndexToAddressableIndex
@@ -23875,7 +23875,7 @@ element
 *
 /
 uint32_t
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetNumberOfChars
@@ -23968,7 +23968,7 @@ element
 *
 /
 float
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetComputedTextLength
@@ -24091,7 +24091,7 @@ element
 *
 /
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SelectSubString
@@ -24267,7 +24267,7 @@ element
 *
 /
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetSubStringLength
@@ -24688,7 +24688,7 @@ element
 *
 /
 int32_t
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetCharNumAtPosition
@@ -24861,7 +24861,7 @@ element
 *
 /
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetStartPositionOfChar
@@ -24983,7 +24983,7 @@ element
 *
 /
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetEndPositionOfChar
@@ -25208,7 +25208,7 @@ element
 *
 /
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetExtentOfChar
@@ -25546,7 +25546,7 @@ element
 *
 /
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetRotationOfChar
@@ -25697,7 +25697,7 @@ NS_OK
 -
 /
 /
-nsSVGTextFrame2
+SVGTextFrame
 text
 layout
 methods
@@ -26039,7 +26039,7 @@ false
 ;
 }
 uint32_t
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ResolvePositions
@@ -27227,7 +27227,7 @@ aIndex
 ;
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ResolvePositions
@@ -27478,7 +27478,7 @@ aDeltas
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DetermineCharPositions
@@ -28418,7 +28418,7 @@ shift
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 AdjustChunksForLineBreaks
@@ -28535,7 +28535,7 @@ AdvancePastCurrentFrame
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 AdjustPositionsForClusters
@@ -28942,7 +28942,7 @@ Next
 }
 nsIFrame
 *
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetTextPathPathFrame
@@ -29138,7 +29138,7 @@ TemporaryRef
 <
 Path
 >
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetTextPath
@@ -29267,7 +29267,7 @@ forget
 ;
 }
 gfxFloat
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetOffsetScale
@@ -29328,7 +29328,7 @@ eForTextPath
 ;
 }
 gfxFloat
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetStartOffset
@@ -29444,7 +29444,7 @@ aTextPathFrame
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DoTextPathLayout
@@ -29964,7 +29964,7 @@ textPath
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DoAnchoring
@@ -30384,7 +30384,7 @@ TextElementCharIndex
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DoGlyphPositioning
@@ -31401,7 +31401,7 @@ DoTextPathLayout
 ;
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ShouldRenderAsPath
@@ -31585,7 +31585,7 @@ false
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ScheduleReflowSVG
@@ -31617,7 +31617,7 @@ this
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 NotifyGlyphMetricsChange
@@ -31643,7 +31643,7 @@ ScheduleReflowSVG
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 UpdateGlyphPositioning
@@ -31681,7 +31681,7 @@ DoGlyphPositioning
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MaybeReflowAnonymousBlockChild
@@ -31844,7 +31844,7 @@ DoReflow
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DoReflow
@@ -31925,7 +31925,7 @@ our
 descendants
 every
 time
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 PaintSVG
@@ -32305,7 +32305,7 @@ PRECISE_SIZE
 .
 0
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 UpdateFontSizeScaleFactor
@@ -32912,7 +32912,7 @@ oldFontSizeScaleFactor
 ;
 }
 double
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetFontSizeScaleFactor
@@ -32967,7 +32967,7 @@ hits
 *
 /
 gfxPoint
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 TransformFramePointToTextChild
@@ -33000,7 +33000,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 =
 =
@@ -33503,7 +33503,7 @@ together
 *
 /
 gfxRect
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 TransformFrameRectToTextChild
@@ -33536,7 +33536,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 =
 =
@@ -34025,7 +34025,7 @@ these
 *
 /
 gfxRect
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 TransformFrameRectFromTextChild
@@ -34058,7 +34058,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 =
 =
@@ -34369,7 +34369,7 @@ framePosition
 ;
 }
 DrawMode
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupCairoState
@@ -34476,7 +34476,7 @@ toDraw
 ;
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupCairoStroke
@@ -34604,7 +34604,7 @@ opacity
 ;
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupCairoFill
@@ -34717,7 +34717,7 @@ true
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupInheritablePaint
@@ -34933,7 +34933,7 @@ pattern
 }
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupContextPaint

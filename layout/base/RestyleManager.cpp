@@ -256,7 +256,7 @@ h
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -1506,7 +1506,7 @@ and
 reflow
 the
 entire
-nsSVGTextFrame2
+SVGTextFrame
 :
 NS_ASSERTION
 (
@@ -1550,7 +1550,7 @@ aFrame
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 ;
 NS_ASSERTION
@@ -1562,13 +1562,13 @@ to
 find
 an
 ancestor
-nsSVGTextFrame2
+SVGTextFrame
 "
 )
 ;
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (

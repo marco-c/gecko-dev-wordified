@@ -810,7 +810,7 @@ aContext
 ;
 nsIFrame
 *
-NS_NewSVGTextFrame2
+NS_NewSVGTextFrame
 (
 nsIPresShell
 *
@@ -30901,7 +30901,7 @@ FCDATA_WITH_WRAPPING_BLOCK
 FCDATA_DISALLOW_OUT_OF_FLOW
 |
 FCDATA_ALLOW_BLOCK_STYLES
-NS_NewSVGTextFrame2
+NS_NewSVGTextFrame
 nsCSSAnonBoxes
 :
 :
@@ -31988,7 +31988,7 @@ GetType
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 {
 flags

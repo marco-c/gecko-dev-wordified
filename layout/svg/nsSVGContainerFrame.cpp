@@ -156,7 +156,7 @@ h
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -478,7 +478,7 @@ frame
 tree
 marking
 any
-nsSVGTextFrame2
+SVGTextFrame
 frames
 as
 dirty
@@ -501,7 +501,7 @@ helper
 exists
 is
 because
-nsSVGTextFrame2
+SVGTextFrame
 is
 special
 .
@@ -574,7 +574,7 @@ painted
 .
 *
 *
-nsSVGTextFrame2
+SVGTextFrame
 is
 different
 because
@@ -632,7 +632,7 @@ kid
 of
 an
 *
-nsSVGTextFrame2
+SVGTextFrame
 to
 reflow
 will
@@ -661,7 +661,7 @@ helper
 looks
 for
 any
-nsSVGTextFrame2
+SVGTextFrame
 descendants
 of
 such
@@ -817,12 +817,12 @@ type
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 {
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (
@@ -2274,7 +2274,7 @@ have
 some
 /
 /
-nsSVGTextFrame2s
+SVGTextFrames
 .
 We
 need

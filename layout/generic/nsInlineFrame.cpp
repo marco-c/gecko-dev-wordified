@@ -410,7 +410,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 ;
 svgTextFrame
@@ -468,7 +468,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 ;
 svgTextFrame

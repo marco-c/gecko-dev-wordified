@@ -233,7 +233,7 @@ friend
 class
 :
 :
-nsSVGTextFrame2
+SVGTextFrame
 ;
 protected
 :

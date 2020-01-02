@@ -1713,7 +1713,7 @@ on
 the
 /
 /
-nsSVGTextFrame2
+SVGTextFrame
 gets
 updated
 skipping
