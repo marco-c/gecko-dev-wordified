@@ -17902,10 +17902,7 @@ NS_ERROR_DOM_INVALID_ACCESS_ERR
 return
 ;
 }
-binding_detail
-:
-:
-FakeDependentString
+nsDependentString
 string
 ;
 JS
