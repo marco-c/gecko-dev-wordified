@@ -958,6 +958,7 @@ gfx
 :
 IntSize
 aSize
+TextureAllocationFlags
 )
 {
 MOZ_ASSERT
