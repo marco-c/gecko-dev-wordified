@@ -32,6 +32,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+4
+)
+;
 let
 cw
 ;
