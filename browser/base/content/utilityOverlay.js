@@ -2978,7 +2978,9 @@ locale
 var
 chromeReg
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -2997,7 +2999,9 @@ registry
 .
 getService
 (
-Ci
+Components
+.
+interfaces
 .
 nsIXULChromeRegistry
 )
