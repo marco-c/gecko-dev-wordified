@@ -705,5 +705,15 @@ mPosition
 =
 position
 ;
+notifyListeners
+(
+Integer
+.
+toString
+(
+position
+)
+)
+;
 }
 }
