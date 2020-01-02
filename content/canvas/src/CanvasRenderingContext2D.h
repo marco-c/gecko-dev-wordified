@@ -2014,13 +2014,7 @@ void
 SetLineDash
 (
 const
-mozilla
-:
-:
-dom
-:
-:
-AutoSequence
+Sequence
 <
 double
 >
