@@ -25979,6 +25979,15 @@ for
 helper
 apps
 .
+if
+(
+BrowserApp
+.
+selectedTab
+=
+=
+this
+)
 HelperApps
 .
 updatePageAction
