@@ -961,12 +961,6 @@ GetDevice
 ;
 RefPtr
 <
-ID3D11Texture2D
->
-mTexture
-;
-RefPtr
-<
 DataTextureSourceD3D11
 >
 mTextureSource
