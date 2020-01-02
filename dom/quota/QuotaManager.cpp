@@ -12462,7 +12462,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIFileStorage
+nsIOfflineStorage
 >
 >
 >
@@ -14688,7 +14688,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIFileStorage
+nsIOfflineStorage
 >
 >
 array

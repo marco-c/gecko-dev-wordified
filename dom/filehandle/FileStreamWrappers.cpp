@@ -121,6 +121,13 @@ h
 #
 include
 "
+FileHandle
+.
+h
+"
+#
+include
+"
 FileHelper
 .
 h
@@ -152,13 +159,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsIFileStorage
 .
 h
 "
@@ -1103,7 +1103,7 @@ thread
 mFileHelper
 -
 >
-mFileStorage
+mFileHandle
 -
 >
 UnsetThreadLocals
@@ -1226,7 +1226,7 @@ endif
 mFileHelper
 -
 >
-mFileStorage
+mFileHandle
 -
 >
 SetThreadLocals

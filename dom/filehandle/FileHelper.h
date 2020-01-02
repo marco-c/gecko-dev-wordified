@@ -147,9 +147,6 @@ nsIRequestObserver
 .
 h
 "
-class
-nsIFileStorage
-;
 namespace
 mozilla
 {
@@ -158,6 +155,9 @@ dom
 {
 class
 FileHelper
+;
+class
+FileHandle
 ;
 class
 FileRequest
@@ -366,11 +366,11 @@ Finish
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFileStorage
+FileHandle
 >
-mFileStorage
+mFileHandle
 ;
 nsRefPtr
 <

@@ -142,13 +142,6 @@ h
 #
 include
 "
-nsIFileStorage
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
