@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -97,7 +98,8 @@ globalsCache
 {
 }
 ;
-const
+this
+.
 gDevToolsExtensions
 =
 {
