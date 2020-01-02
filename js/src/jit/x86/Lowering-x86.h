@@ -535,12 +535,12 @@ LIRGeneratorSpecific
 /
 /
 namespace
-js
+jit
 }
 /
 /
 namespace
-jit
+js
 #
 endif
 /
