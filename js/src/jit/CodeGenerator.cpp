@@ -686,6 +686,16 @@ size_t
 cacheIndex
 )
 {
+if
+(
+cacheIndex
+=
+=
+SIZE_MAX
+)
+return
+false
+;
 DataPtr
 <
 IonCache

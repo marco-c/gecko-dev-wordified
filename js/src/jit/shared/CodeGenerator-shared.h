@@ -1587,6 +1587,17 @@ T
 )
 )
 ;
+if
+(
+masm
+.
+oom
+(
+)
+)
+return
+SIZE_MAX
+;
 /
 /
 Use
