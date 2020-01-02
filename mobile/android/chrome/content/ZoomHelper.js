@@ -791,6 +791,7 @@ rect
 aClickY
 aCanZoomOut
 aCanScrollHorizontally
+aElement
 )
 ;
 }
@@ -809,6 +810,7 @@ true
 aCanScrollHorizontally
 =
 true
+aElement
 )
 {
 const
@@ -970,6 +972,11 @@ instead
 .
 if
 (
+aElement
+)
+{
+if
+(
 BrowserEventHandler
 .
 mReflozPref
@@ -1088,6 +1095,7 @@ zoomOut
 }
 return
 ;
+}
 }
 let
 rect
