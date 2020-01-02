@@ -13151,9 +13151,6 @@ png
 )
 ;
 }
-%
-ifdef
-MOZ_LOOP
 /
 *
 Loop
@@ -13194,8 +13191,6 @@ png
 )
 ;
 }
-%
-endif
 /
 *
 social

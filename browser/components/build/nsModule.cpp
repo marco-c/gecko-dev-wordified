@@ -743,9 +743,6 @@ customizing
 &
 kNS_BROWSER_ABOUT_REDIRECTOR_CID
 }
-#
-ifdef
-MOZ_LOOP
 {
 NS_ABOUT_MODULE_CONTRACTID_PREFIX
 "
@@ -762,8 +759,6 @@ loopconversation
 &
 kNS_BROWSER_ABOUT_REDIRECTOR_CID
 }
-#
-endif
 #
 if
 defined
