@@ -221,16 +221,6 @@ graph
 =
 graph
 ;
-this
--
->
-script
-.
-repoint
-(
-script
-)
-;
 fprintf
 (
 spewout_

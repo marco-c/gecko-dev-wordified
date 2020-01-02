@@ -792,16 +792,6 @@ graph
 =
 graph
 ;
-this
--
->
-function
-.
-repoint
-(
-function
-)
-;
 c1Spewer
 .
 beginFunction

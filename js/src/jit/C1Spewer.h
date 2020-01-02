@@ -164,9 +164,6 @@ MIRGraph
 *
 graph
 ;
-HandleScript
-script
-;
 FILE
 *
 spewout_
@@ -180,12 +177,6 @@ C1Spewer
 graph
 (
 nullptr
-)
-script
-(
-NullPtr
-(
-)
 )
 spewout_
 (
