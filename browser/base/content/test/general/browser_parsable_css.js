@@ -263,8 +263,6 @@ loop
 /
 .
 *
-\
-/
 sdk
 -
 content
