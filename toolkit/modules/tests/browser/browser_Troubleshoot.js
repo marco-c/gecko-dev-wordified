@@ -1423,6 +1423,15 @@ boolean
 }
 }
 }
+experiments
+:
+{
+type
+:
+"
+array
+"
+}
 }
 }
 ;
