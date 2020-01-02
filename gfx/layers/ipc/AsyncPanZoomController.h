@@ -42,7 +42,7 @@ vim
 set
 sw
 =
-4
+2
 ts
 =
 8
@@ -282,7 +282,7 @@ can
 *
 optionally
 handle
-WidgetGUIEvent
+nsGUIEvent
 -
 derived
 touch
@@ -292,8 +292,8 @@ this
 must
 be
 done
-*
 on
+*
 the
 main
 thread
@@ -2975,7 +2975,8 @@ reference
 to
 the
 first
-SingleTouchData
+touch
+point
 from
 a
 MultiTouchInput
@@ -3001,9 +3002,9 @@ relevant
 .
 *
 /
-SingleTouchData
+ScreenIntPoint
 &
-GetFirstSingleTouch
+GetFirstTouchScreenPoint
 (
 const
 MultiTouchInput
