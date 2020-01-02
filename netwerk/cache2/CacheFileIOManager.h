@@ -1273,6 +1273,16 @@ CacheEntriesEnumerator
 aEnumerator
 )
 ;
+static
+void
+GetCacheDirectory
+(
+nsIFile
+*
+*
+result
+)
+;
 private
 :
 friend

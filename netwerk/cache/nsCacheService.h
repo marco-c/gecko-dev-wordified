@@ -872,6 +872,16 @@ GetClearingEntries
 (
 )
 ;
+static
+void
+GetDiskCacheDirectory
+(
+nsIFile
+*
+*
+result
+)
+;
 /
 *
 *
