@@ -5270,6 +5270,7 @@ initialize
 it
 .
 static
+const
 PLDHashTableOps
 ops
 =
