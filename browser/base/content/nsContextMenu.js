@@ -2354,6 +2354,11 @@ onAudio
 this
 .
 onSocial
+|
+|
+this
+.
+onCanvas
 )
 )
 ;
