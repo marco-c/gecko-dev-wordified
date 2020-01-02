@@ -4736,6 +4736,9 @@ mQueuedCalls
 isEmpty
 (
 )
+&
+&
+mTimer
 )
 {
 mTimer
