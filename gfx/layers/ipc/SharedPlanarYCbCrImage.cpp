@@ -723,6 +723,10 @@ mSize
 mData
 .
 mPicSize
+.
+ToUnknownSize
+(
+)
 ;
 YCbCrImageDataSerializer
 serializer
@@ -910,6 +914,10 @@ mSize
 aData
 .
 mPicSize
+.
+ToUnknownSize
+(
+)
 ;
 YCbCrImageDataSerializer
 serializer
@@ -1422,6 +1430,10 @@ mSize
 mData
 .
 mPicSize
+.
+ToUnknownSize
+(
+)
 ;
 YCbCrImageDataSerializer
 serializer
@@ -1652,6 +1664,10 @@ mSize
 aData
 .
 mPicSize
+.
+ToUnknownSize
+(
+)
 ;
 YCbCrImageDataSerializer
 serializer

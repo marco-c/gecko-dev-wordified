@@ -4886,10 +4886,7 @@ aData
 gfxImageFormat
 &
 aSuggestedFormat
-gfx
-:
-:
-IntSize
+LayerIntSize
 &
 aSuggestedSize
 )
@@ -5200,10 +5197,7 @@ gfxImageFormat
 &
 aDestFormat
 const
-gfx
-:
-:
-IntSize
+LayerIntSize
 &
 aDestSize
 unsigned

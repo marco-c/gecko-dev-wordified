@@ -487,7 +487,7 @@ data
 .
 mYSize
 =
-gfxIntSize
+LayerIntSize
 (
 mWidth
 mHeight
@@ -545,7 +545,7 @@ data
 .
 mCbCrSize
 =
-gfxIntSize
+LayerIntSize
 (
 mWidth
 /
@@ -571,7 +571,7 @@ data
 .
 mPicSize
 =
-gfxIntSize
+LayerIntSize
 (
 mWidth
 mHeight

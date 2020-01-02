@@ -352,6 +352,13 @@ nsThreadUtils
 h
 "
 #
+include
+"
+Units
+.
+h
+"
+#
 ifndef
 XPCOM_GLUE_AVOID_NSPR
 /
@@ -4668,7 +4675,7 @@ mYChannel
 int32_t
 mYStride
 ;
-gfxIntSize
+LayerIntSize
 mYSize
 ;
 int32_t
@@ -4689,7 +4696,7 @@ mCrChannel
 int32_t
 mCbCrStride
 ;
-gfxIntSize
+LayerIntSize
 mCbCrSize
 ;
 int32_t
@@ -4708,7 +4715,7 @@ mPicX
 uint32_t
 mPicY
 ;
-gfxIntSize
+LayerIntSize
 mPicSize
 ;
 StereoMode
