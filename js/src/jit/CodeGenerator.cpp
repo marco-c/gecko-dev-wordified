@@ -23716,7 +23716,7 @@ rval
 static
 const
 VMFunction
-CreateThisInfo
+CreateThisInfoCodeGen
 =
 FunctionInfo
 <
@@ -23789,7 +23789,7 @@ callee
 return
 callVM
 (
-CreateThisInfo
+CreateThisInfoCodeGen
 lir
 )
 ;
@@ -46589,7 +46589,7 @@ HandleValue
 static
 const
 VMFunction
-ThrowInfo
+ThrowInfoCodeGen
 =
 FunctionInfo
 <
@@ -46628,7 +46628,7 @@ Value
 return
 callVM
 (
-ThrowInfo
+ThrowInfoCodeGen
 lir
 )
 ;
