@@ -1066,7 +1066,7 @@ any
 of
 the
 direct
-callers
+callees
 can
 GC
 or
