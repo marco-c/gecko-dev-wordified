@@ -221,17 +221,6 @@ chrome
 /
 common
 /
-chrome_counters
-.
-h
-"
-#
-include
-"
-chrome
-/
-common
-/
 chrome_switches
 .
 h
