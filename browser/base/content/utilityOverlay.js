@@ -1396,6 +1396,11 @@ relatedToCurrent
 boolean
 )
 *
+skipTabAnimation
+(
+boolean
+)
+*
 /
 function
 openUILinkIn
@@ -1563,6 +1568,13 @@ aIsPrivate
 params
 .
 private
+;
+var
+aSkipTabAnimation
+=
+params
+.
+skipTabAnimation
 ;
 if
 (
@@ -2220,6 +2232,9 @@ aAllowThirdPartyFixup
 relatedToCurrent
 :
 aRelatedToCurrent
+skipAnimation
+:
+aSkipTabAnimation
 disableMCB
 :
 aDisableMCB

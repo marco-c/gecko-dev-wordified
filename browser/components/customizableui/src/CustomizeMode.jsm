@@ -966,6 +966,11 @@ switchToTabHavingURI
 (
 kAboutURI
 true
+{
+skipTabAnimation
+:
+true
+}
 )
 ;
 return
