@@ -158,8 +158,6 @@ typelib
 /
 xpt
 /
-public
-/
 xpt_struct
 .
 h
