@@ -3652,8 +3652,8 @@ already
 told
 us
 what
-protocol
 *
+protocol
 to
 use
 so
@@ -3669,9 +3669,9 @@ to
 try
 to
 negotiate
+*
 a
 different
-*
 one
 by
 sending
@@ -3682,11 +3682,11 @@ message
 .
 However
 if
+*
 we
 '
 ve
 negotiated
-*
 NPN
 then
 we
@@ -3698,11 +3698,11 @@ send
 the
 NPN
 handshake
+*
 message
 .
 Thus
 these
-*
 two
 extensions
 cannot
@@ -3711,6 +3711,7 @@ be
 negotiated
 on
 the
+*
 same
 connection
 .
