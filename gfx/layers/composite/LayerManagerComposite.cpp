@@ -3948,11 +3948,6 @@ rootMetrics
 root
 -
 >
-AsContainerLayer
-(
-)
--
->
 GetFrameMetrics
 (
 )
@@ -4062,11 +4057,6 @@ FrameMetrics
 metrics
 =
 primaryScrollable
--
->
-AsContainerLayer
-(
-)
 -
 >
 GetFrameMetrics

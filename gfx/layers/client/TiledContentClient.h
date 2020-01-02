@@ -1969,7 +1969,7 @@ effort
 bool
 UpdateFromCompositorFrameMetrics
 (
-ContainerLayer
+Layer
 *
 aLayer
 bool

@@ -512,11 +512,11 @@ null
 void
 GetAncestorLayers
 (
-ContainerLayer
+Layer
 *
 *
 aOutScrollAncestor
-ContainerLayer
+Layer
 *
 *
 aOutDisplayPortAncestor
