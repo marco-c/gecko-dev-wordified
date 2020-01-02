@@ -228,14 +228,16 @@ in
 Visual
 Studio
 2010
+and
+2012
 that
 prevents
 expressions
 of
+/
+/
 the
 form
-/
-/
 |
 decltype
 (
@@ -308,7 +310,7 @@ MOZ_IS_MSVC
 if
 MOZ_MSVC_VERSION_AT_LEAST
 (
-11
+12
 )
 #
 define
