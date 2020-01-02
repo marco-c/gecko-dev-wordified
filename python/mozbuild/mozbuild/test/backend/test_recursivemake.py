@@ -3059,6 +3059,24 @@ x
 '
             
 ]
+            
+'
+WIN32_EXE_LDFLAGS
+'
+:
+[
+                
+'
+WIN32_EXE_LDFLAGS
++
+=
+-
+subsystem
+:
+console
+'
+            
+]
         
 }
         

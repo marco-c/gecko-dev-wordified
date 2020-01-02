@@ -1622,6 +1622,10 @@ CXXFLAGS
 '
 LDFLAGS
 '
+            
+'
+WIN32_EXE_LDFLAGS
+'
         
 ]
         

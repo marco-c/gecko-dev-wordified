@@ -1421,6 +1421,17 @@ Foo
 x
 '
 ]
+            
+WIN32_EXE_LDFLAGS
+=
+[
+'
+-
+subsystem
+:
+console
+'
+]
         
 )
         
