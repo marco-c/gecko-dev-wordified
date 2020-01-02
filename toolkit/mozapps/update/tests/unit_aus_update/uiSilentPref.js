@@ -445,7 +445,7 @@ ID
 WindowWatcherFactory
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;

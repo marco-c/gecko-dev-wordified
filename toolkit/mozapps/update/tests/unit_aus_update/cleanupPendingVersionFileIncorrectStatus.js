@@ -282,7 +282,7 @@ exists
 )
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;

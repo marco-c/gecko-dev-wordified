@@ -483,7 +483,7 @@ AUS_Cr
 NS_ERROR_FILE_TOO_BIG
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;

@@ -231,7 +231,7 @@ updateCount
 0
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;
