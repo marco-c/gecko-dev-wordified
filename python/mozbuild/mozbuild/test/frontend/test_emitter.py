@@ -1344,22 +1344,6 @@ dll
 USE_DELAYIMP
 =
 True
-            
-RCFILE
-=
-'
-foo
-.
-rc
-'
-            
-RESFILE
-=
-'
-bar
-.
-res
-'
         
 )
         
