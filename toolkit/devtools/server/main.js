@@ -3568,7 +3568,7 @@ with
 aPrefix
 +
 '
-:
+/
 '
 |
 .
@@ -3895,7 +3895,7 @@ with
 <
 prefix
 >
-:
+/
 "
 .
 *
@@ -4879,7 +4879,7 @@ with
 aForwardingPrefix
 +
 '
-:
+/
 '
 |
 .
@@ -4898,7 +4898,7 @@ be
 aForwardingPrefix
 +
 '
-:
+/
 root
 '
 |
@@ -4930,7 +4930,7 @@ connID
 aForwardingPrefix
 +
 "
-:
+/
 "
 ;
 }
@@ -5017,7 +5017,7 @@ actorID
 aForwardingPrefix
 +
 "
-:
+/
 root
 "
 ;
@@ -6202,7 +6202,7 @@ with
 P
 +
 "
-:
+/
 "
 .
 *
@@ -6970,7 +6970,7 @@ aPrefix
 followed
 by
 '
-:
+/
 '
 then
 we
@@ -7009,7 +7009,7 @@ not
 including
 the
 '
-:
+/
 '
 .
 *
@@ -7038,7 +7038,7 @@ with
 aPrefix
 +
 '
-:
+/
 '
 )
 .
@@ -7081,7 +7081,7 @@ with
 aPrefix
 +
 '
-:
+/
 '
 |
 .
@@ -7227,7 +7227,7 @@ size
 )
 {
 let
-colon
+separator
 =
 aPacket
 .
@@ -7236,13 +7236,13 @@ to
 indexOf
 (
 '
-:
+/
 '
 )
 ;
 if
 (
-colon
+separator
 >
 =
 0
@@ -7264,7 +7264,7 @@ to
 substring
 (
 0
-colon
+separator
 )
 )
 ;
