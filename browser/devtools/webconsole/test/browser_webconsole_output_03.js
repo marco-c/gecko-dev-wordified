@@ -341,7 +341,7 @@ attributes
 output
 :
 "
-MozNamedAttrMap
+NamedNodeMap
 [
 ]
 "
@@ -350,7 +350,7 @@ printOutput
 "
 [
 object
-MozNamedAttrMap
+NamedNodeMap
 ]
 "
 inspectable
@@ -359,7 +359,7 @@ true
 variablesViewLabel
 :
 "
-MozNamedAttrMap
+NamedNodeMap
 [
 0
 ]
@@ -662,7 +662,7 @@ attributes
 output
 :
 '
-MozNamedAttrMap
+NamedNodeMap
 [
 class
 =
@@ -703,7 +703,7 @@ printOutput
 "
 [
 object
-MozNamedAttrMap
+NamedNodeMap
 ]
 "
 inspectable
@@ -712,7 +712,7 @@ true
 variablesViewLabel
 :
 "
-MozNamedAttrMap
+NamedNodeMap
 [
 3
 ]

@@ -158,7 +158,7 @@ mozilla
 /
 dom
 /
-MozNamedAttrMapBinding
+NamedNodeMapBinding
 .
 h
 "
@@ -2982,7 +2982,7 @@ aCx
 )
 {
 return
-MozNamedAttrMapBinding
+NamedNodeMapBinding
 :
 :
 Wrap
