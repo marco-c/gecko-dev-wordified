@@ -142,9 +142,6 @@ nsCacheEntry
 h
 "
 class
-nsIMemoryReporter
-;
-class
 nsMemoryCacheDeviceInfo
 ;
 /
@@ -658,12 +655,6 @@ want
 to
 keep
 ?
-nsCOMPtr
-<
-nsIMemoryReporter
->
-mReporter
-;
 }
 ;
 /
