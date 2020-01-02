@@ -453,6 +453,22 @@ cocoa
 or
 \
    
+(
+CONFIG
+[
+'
+MOZ_WIDGET_TOOLKIT
+'
+]
+=
+=
+'
+gonk
+'
+)
+or
+\
+   
 CONFIG
 [
 '
