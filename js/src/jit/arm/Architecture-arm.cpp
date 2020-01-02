@@ -2401,14 +2401,8 @@ sizeof
 double
 )
 ;
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
-"
-not
-Single
-or
-Double
-"
 )
 ;
 }

@@ -514,7 +514,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -4003,7 +4003,7 @@ return
 ptr
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unsupported
@@ -4440,7 +4440,7 @@ return
 ptr
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unsupported
@@ -10276,7 +10276,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 SAY
@@ -11007,7 +11007,7 @@ PoolHintData
 :
 PoolBOGUS
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 bogus
@@ -12546,6 +12546,14 @@ OpvMul
 c
 )
 ;
+MOZ_ASSUME_UNREACHABLE
+(
+"
+Feature
+NYI
+"
+)
+;
 }
 BufferOffset
 Assembler
@@ -12563,7 +12571,7 @@ Condition
 c
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Feature
@@ -12588,12 +12596,17 @@ Condition
 c
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Feature
 NYI
 "
+)
+;
+return
+BufferOffset
+(
 )
 ;
 }
@@ -14202,7 +14215,7 @@ b
 )
 ;
 else
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 crazy
@@ -14632,7 +14645,7 @@ labelBranchOffset
 )
 ;
 else
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 crazy

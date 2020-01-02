@@ -4290,7 +4290,7 @@ MStoreTypedArrayElementStatic
 ins
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -4309,7 +4309,7 @@ MForkJoinGetSlice
 ins
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
