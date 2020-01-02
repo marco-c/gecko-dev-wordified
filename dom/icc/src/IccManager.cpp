@@ -978,7 +978,7 @@ const
 nsAString
 &
 aContactType
-nsIDOMContact
+nsISupports
 *
 aContact
 const
