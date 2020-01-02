@@ -71,6 +71,12 @@ mozbuild
 util
 import
 ReadOnlyDict
+import
+mozpack
+.
+path
+as
+mozpath
 #
 By
 including
@@ -146,12 +152,21 @@ self
 .
 topsrcdir
 =
+mozpath
+.
+abspath
+(
 topsrcdir
+)
         
 self
 .
 topobjdir
 =
+mozpath
+.
+abspath
+(
 '
 /
 path
@@ -160,6 +175,7 @@ to
 /
 topobjdir
 '
+)
         
 self
 .
@@ -259,6 +275,12 @@ defines
 self
 .
 substs
+        
+self
+.
+external_source_dir
+=
+None
     
 def
 child_path
