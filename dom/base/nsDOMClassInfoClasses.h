@@ -336,6 +336,17 @@ DOMCI_CLASS
 (
 MozCSSKeyframesRule
 )
+/
+/
+counter
+-
+style
+in
+CSS
+DOMCI_CLASS
+(
+CSSCounterStyleRule
+)
 DOMCI_CLASS
 (
 CSSPageRule

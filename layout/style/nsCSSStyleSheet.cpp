@@ -11590,6 +11590,15 @@ css
 Rule
 :
 :
+COUNTER_STYLE_RULE
+:
+case
+css
+:
+:
+Rule
+:
+:
 DOCUMENT_RULE
 :
 case
