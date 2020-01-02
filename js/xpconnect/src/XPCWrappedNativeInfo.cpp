@@ -2948,14 +2948,6 @@ iidCount
 true
 )
 ;
-if
-(
-!
-arr
-)
-goto
-out
-;
 interfaceArray
 =
 arr
