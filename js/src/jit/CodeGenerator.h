@@ -1244,6 +1244,14 @@ lir
 )
 ;
 bool
+visitSetTypedObjectOffset
+(
+LSetTypedObjectOffset
+*
+lir
+)
+;
+bool
 visitStringLength
 (
 LStringLength
