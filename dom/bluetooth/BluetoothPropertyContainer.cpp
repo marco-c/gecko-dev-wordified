@@ -163,6 +163,13 @@ BluetoothTypes
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 USING_BLUETOOTH_NAMESPACE
 already_AddRefed
 <

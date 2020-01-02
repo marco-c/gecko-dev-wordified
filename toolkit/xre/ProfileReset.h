@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

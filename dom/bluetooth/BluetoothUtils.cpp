@@ -212,6 +212,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 BEGIN_BLUETOOTH_NAMESPACE
 bool
 SetJsObject

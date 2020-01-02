@@ -127,6 +127,13 @@ CryptoBinding
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 using
 mozilla
 :

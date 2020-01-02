@@ -274,6 +274,13 @@ nsIPropertyBag2
 h
 "
 #
+include
+"
+nsComponentManagerUtils
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

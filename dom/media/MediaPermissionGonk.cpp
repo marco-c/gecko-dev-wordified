@@ -181,6 +181,13 @@ nsISupportsPrimitives
 h
 "
 #
+include
+"
+nsServiceManagerUtils
+.
+h
+"
+#
 define
 AUDIO_PERMISSION_NAME
 "

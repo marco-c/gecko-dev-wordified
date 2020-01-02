@@ -640,6 +640,13 @@ nsIInterfaceRequestorUtils
 h
 "
 #
+include
+"
+GeckoProfiler
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
