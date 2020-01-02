@@ -885,7 +885,6 @@ JSPropertyDescriptor
 >
 aDesc
 )
-const
 {
 /
 /
@@ -1404,7 +1403,6 @@ JSPropertyDescriptor
 >
 aDesc
 )
-const
 {
 ErrorResult
 rv
@@ -1454,7 +1452,6 @@ AutoIdVector
 &
 aProps
 )
-const
 {
 /
 /
@@ -1740,7 +1737,6 @@ bool
 *
 aBp
 )
-const
 {
 *
 aBp

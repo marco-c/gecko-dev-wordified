@@ -265,7 +265,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -296,7 +295,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -344,7 +342,6 @@ Value
 >
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -369,7 +366,6 @@ JSContext
 *
 cx
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -408,7 +404,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 /

@@ -449,7 +449,6 @@ bool
 *
 extensible
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -469,7 +468,6 @@ JSObject
 >
 wrapper
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -505,8 +503,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -541,8 +537,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -577,8 +571,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -603,8 +595,6 @@ AutoIdVector
 &
 props
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -634,8 +624,6 @@ bool
 *
 bp
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -660,8 +648,6 @@ AutoIdVector
 &
 props
 )
-const
-MOZ_OVERRIDE
 ;
 /
 *
@@ -716,8 +702,6 @@ Value
 >
 vp
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -766,8 +750,6 @@ Value
 >
 vp
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -797,8 +779,6 @@ bool
 *
 bp
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -828,8 +808,6 @@ bool
 *
 bp
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -854,8 +832,6 @@ AutoIdVector
 &
 props
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -887,8 +863,6 @@ Value
 >
 vp
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -914,7 +888,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -941,7 +914,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -964,7 +936,6 @@ JS
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -985,7 +956,6 @@ JS
 MutableHandleObject
 protop
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1009,7 +979,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 static
@@ -1057,7 +1026,6 @@ JS
 MutableHandleObject
 protop
 )
-const
 {
 return
 Traits
@@ -1113,7 +1081,6 @@ JS
 MutableHandleObject
 protop
 )
-const
 {
 return
 Base
@@ -1149,7 +1116,6 @@ JS
 MutableHandleObject
 protop
 )
-const
 {
 return
 getPrototypeOfHelper
@@ -1191,7 +1157,6 @@ AutoIdVector
 &
 props
 )
-const
 ;
 }
 ;
@@ -1354,7 +1319,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1390,7 +1354,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 /
@@ -1445,7 +1408,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1476,7 +1438,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1524,7 +1485,6 @@ Value
 >
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1574,7 +1534,6 @@ Value
 >
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1600,7 +1559,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1633,7 +1591,6 @@ Value
 >
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 }
@@ -1723,7 +1680,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 }

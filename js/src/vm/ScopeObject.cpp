@@ -8026,7 +8026,6 @@ AccessResult
 *
 accessResult
 )
-const
 {
 JS_ASSERT
 (
@@ -9335,7 +9334,6 @@ bool
 *
 extensible
 )
-const
 MOZ_OVERRIDE
 {
 /
@@ -9381,7 +9379,6 @@ cx
 HandleObject
 proxy
 )
-const
 MOZ_OVERRIDE
 {
 /
@@ -9417,7 +9414,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 {
 return
@@ -9446,7 +9442,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 {
 Rooted
@@ -9732,7 +9727,6 @@ id
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 {
 Rooted
@@ -9958,7 +9952,6 @@ id
 MutableHandleValue
 vp
 )
-const
 {
 Rooted
 <
@@ -10122,7 +10115,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 {
 Rooted
@@ -10246,7 +10238,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 {
 Rooted
@@ -10346,7 +10337,6 @@ props
 unsigned
 flags
 )
-const
 {
 Rooted
 <
@@ -10676,7 +10666,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 {
 return
@@ -10701,7 +10690,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 {
 return
@@ -10728,7 +10716,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 {
 RootedId
@@ -10956,7 +10943,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 {
 RootedValue
