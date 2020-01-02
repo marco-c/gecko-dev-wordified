@@ -997,6 +997,8 @@ s
 %
             
 (
+round
+(
 (
 self
 .
@@ -1006,12 +1008,14 @@ now
 -
 start
 )
+1
+)
 message
 if
 message
 else
-'
-'
+"
+"
 )
             
 cause
