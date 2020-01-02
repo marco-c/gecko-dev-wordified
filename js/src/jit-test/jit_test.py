@@ -121,8 +121,9 @@ sys
 .
 path
 .
-append
+insert
 (
+0
 join
 (
 js_src_dir
@@ -136,8 +137,9 @@ sys
 .
 path
 .
-append
+insert
 (
+0
 join
 (
 js_src_dir
