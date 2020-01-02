@@ -10806,7 +10806,6 @@ setIntroductionInfo
 introducerFilename
 introductionType
 lineno
-script
 pcOffset
 )
 ;
