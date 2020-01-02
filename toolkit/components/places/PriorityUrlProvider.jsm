@@ -844,7 +844,7 @@ token
 )
 ;
 }
-getMatchingSpec
+getMatch
 :
 function
 (
