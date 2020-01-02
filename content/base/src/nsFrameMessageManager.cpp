@@ -7062,7 +7062,7 @@ MM_GLOBAL
 MM_BROADCASTER
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 MessageManagerReporter
@@ -9806,7 +9806,7 @@ ChildProcessMessageManagerCallback
 (
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 MessageManagerReporter

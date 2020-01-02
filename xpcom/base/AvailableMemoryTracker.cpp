@@ -2960,7 +2960,7 @@ low_memory_notification_interval_ms
 10000
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 LowCommitSpaceEventsReporter
@@ -2968,7 +2968,7 @@ LowCommitSpaceEventsReporter
 )
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 LowMemoryEventsPhysicalReporter
@@ -2988,7 +2988,7 @@ void
 4
 )
 {
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 LowMemoryEventsVirtualReporter

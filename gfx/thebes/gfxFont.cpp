@@ -8273,12 +8273,10 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 MemoryReporter
-(
-)
 )
 ;
 return

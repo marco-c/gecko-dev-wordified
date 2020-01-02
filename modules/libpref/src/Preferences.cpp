@@ -1907,7 +1907,7 @@ Run
 )
 {
 return
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 PreferenceServiceReporter
@@ -2073,7 +2073,7 @@ GetService
 and
 /
 /
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 calls
 GetService
 (
@@ -2081,10 +2081,10 @@ nsIMemoryReporter
 )
 .
 To
-/
-/
 avoid
 a
+/
+/
 potential
 recursive
 GetService
@@ -2097,9 +2097,9 @@ can
 t
 register
 the
-/
-/
 memory
+/
+/
 reporter
 here
 ;

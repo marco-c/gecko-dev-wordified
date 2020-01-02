@@ -20077,7 +20077,7 @@ if
 (
 NS_FAILED
 (
-RegisterWeakMemoryReporter
+NS_RegisterMemoryReporter
 (
 mMemoryReporter
 )
@@ -20382,7 +20382,7 @@ if
 (
 NS_FAILED
 (
-UnregisterWeakMemoryReporter
+NS_UnregisterMemoryReporter
 (
 memoryReporter
 )

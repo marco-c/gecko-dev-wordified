@@ -20985,15 +20985,13 @@ distinguished
 amount
 functions
 .
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 JSMainRuntimeCompartmentsReporter
-(
-)
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 JSMainRuntimeTemporaryPeakReporter
