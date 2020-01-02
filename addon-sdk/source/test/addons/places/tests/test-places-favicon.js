@@ -1030,6 +1030,10 @@ Object
 .
 then
 (
+(
+)
+=
+>
 getFavicon
 (
 null
@@ -1053,6 +1057,10 @@ null
 .
 then
 (
+(
+)
+=
+>
 getFavicon
 (
 undefined
@@ -1076,6 +1084,10 @@ undefined
 .
 then
 (
+(
+)
+=
+>
 getFavicon
 (
 [
@@ -1096,6 +1108,13 @@ assert
 Array
 '
 )
+)
+.
+catch
+(
+assert
+.
+fail
 )
 .
 then
