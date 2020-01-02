@@ -10240,7 +10240,7 @@ the
 Scratchpad
 and
 its
-SourceEditor
+Editor
 are
 ready
 .
