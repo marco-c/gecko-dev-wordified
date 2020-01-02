@@ -115,7 +115,7 @@ h
 #
 include
 "
-nsIAllocator
+nsMemory
 .
 h
 "
@@ -742,7 +742,7 @@ aResult
 char
 *
 )
-nsAllocator
+nsMemory
 :
 :
 Clone
@@ -875,7 +875,7 @@ aResult
 char
 *
 )
-nsAllocator
+nsMemory
 :
 :
 Clone
