@@ -320,17 +320,6 @@ aActor
 )
 MOZ_OVERRIDE
 ;
-bool
-GetMobileMessageDataFromMessage
-(
-nsISupports
-*
-aMsg
-MobileMessageData
-&
-aData
-)
-;
 private
 :
 nsTArray
