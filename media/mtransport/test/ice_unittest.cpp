@@ -378,6 +378,7 @@ stream_added
 false
 ;
 static
+unsigned
 int
 kDefaultTimeout
 =
@@ -417,21 +418,11 @@ char
 *
 )
 "
-ec2
--
-23
--
-21
--
-150
--
-121
+stun
 .
-compute
--
-1
+services
 .
-amazonaws
+mozilla
 .
 com
 "
@@ -5670,10 +5661,11 @@ AddStream
 void
 Gather
 (
-bool
-wait
+unsigned
+int
+waitTime
 =
-true
+kDefaultTimeout
 )
 {
 peer_
@@ -5685,11 +5677,12 @@ Gather
 ;
 if
 (
-wait
+waitTime
 )
 {
 WaitForGather
 (
+waitTime
 )
 ;
 }
@@ -5697,6 +5690,11 @@ WaitForGather
 void
 WaitForGather
 (
+unsigned
+int
+waitTime
+=
+kDefaultTimeout
 )
 {
 ASSERT_TRUE_WAIT
@@ -5707,7 +5705,7 @@ peer_
 gathering_complete
 (
 )
-kDefaultTimeout
+waitTime
 )
 ;
 }
@@ -6056,8 +6054,11 @@ true
 bool
 Gather
 (
-bool
-wait
+unsigned
+int
+waitTime
+=
+kDefaultTimeout
 )
 {
 Init
@@ -6099,7 +6100,7 @@ Gather
 ;
 if
 (
-wait
+waitTime
 )
 {
 EXPECT_TRUE_WAIT
@@ -6110,7 +6111,7 @@ p1_
 gathering_complete
 (
 )
-kDefaultTimeout
+waitTime
 )
 ;
 if
@@ -6134,7 +6135,7 @@ p2_
 gathering_complete
 (
 )
-kDefaultTimeout
+waitTime
 )
 ;
 if
@@ -7946,6 +7947,9 @@ UseFakeStunServerWithResponse
 ;
 Gather
 (
+kDefaultTimeout
+*
+3
 )
 ;
 ASSERT_FALSE
@@ -7988,6 +7992,9 @@ UseFakeStunServerWithResponse
 ;
 Gather
 (
+kDefaultTimeout
+*
+3
 )
 ;
 ASSERT_FALSE
@@ -8031,6 +8038,9 @@ UseFakeStunServerWithResponse
 ;
 Gather
 (
+kDefaultTimeout
+*
+3
 )
 ;
 ASSERT_FALSE
@@ -8086,7 +8096,7 @@ false
 ;
 Gather
 (
-false
+0
 )
 ;
 ASSERT_FALSE
@@ -8159,7 +8169,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8187,7 +8196,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8210,7 +8218,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8237,7 +8244,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8264,7 +8270,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8309,7 +8314,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8349,7 +8353,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8403,7 +8406,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8501,7 +8503,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8528,7 +8529,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8590,7 +8590,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8657,7 +8656,7 @@ ASSERT_TRUE
 (
 Gather
 (
-false
+0
 )
 )
 ;
@@ -8721,7 +8720,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -8770,7 +8768,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9084,7 +9081,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9173,7 +9169,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9264,7 +9259,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9366,7 +9360,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9411,7 +9404,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9480,7 +9472,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9549,7 +9540,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9622,7 +9612,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9759,7 +9748,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9820,7 +9808,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9847,7 +9834,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -9954,7 +9940,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -10133,7 +10118,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
@@ -10295,7 +10279,6 @@ ASSERT_TRUE
 (
 Gather
 (
-true
 )
 )
 ;
