@@ -1617,7 +1617,7 @@ activity
 *
 /
 class
-AutoPauseWorkersForTracing
+AutoPauseWorkersForGC
 {
 #
 ifdef
@@ -1643,7 +1643,7 @@ endif
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
-AutoPauseWorkersForTracing
+AutoPauseWorkersForGC
 (
 JSRuntime
 *
@@ -1652,7 +1652,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
-AutoPauseWorkersForTracing
+AutoPauseWorkersForGC
 (
 )
 ;
