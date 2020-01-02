@@ -12732,7 +12732,7 @@ return
 zone
 -
 >
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 -
