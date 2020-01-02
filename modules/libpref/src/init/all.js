@@ -10571,12 +10571,8 @@ timeout
 /
 Prompt
 for
+307
 redirects
-resulting
-in
-unsafe
-HTTP
-requests
 pref
 (
 "
@@ -10590,7 +10586,7 @@ temp
 -
 redirect
 "
-false
+true
 )
 ;
 /
