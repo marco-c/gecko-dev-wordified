@@ -483,6 +483,11 @@ openStream
 index
 )
 ;
+return
+0
+;
+/
+*
 if
 (
 stream
@@ -517,6 +522,8 @@ strlen
 fileName
 )
 ;
+*
+/
 }
 static
 const
