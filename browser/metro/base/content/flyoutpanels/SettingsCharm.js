@@ -387,6 +387,12 @@ support
 baseURL
 "
 )
++
+"
+firefox
+-
+help
+"
 ;
 BrowserUI
 .
