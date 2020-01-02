@@ -129,9 +129,13 @@ Types
 .
 h
 "
-class
+#
+include
+"
 gfxXlibSurface
-;
+.
+h
+"
 namespace
 mozilla
 {

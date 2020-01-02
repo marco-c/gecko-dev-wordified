@@ -494,9 +494,13 @@ mMetaData
 ;
 }
 ;
-class
+#
+include
+"
 gfxASurface
-;
+.
+h
+"
 class
 ProfilerMarkerImagePayload
 :
