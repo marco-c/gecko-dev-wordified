@@ -262,6 +262,10 @@ int32_t
 aWidth
 int32_t
 aHeight
+int32_t
+aDisplayWidth
+int32_t
+aDisplayHeight
 TrackRate
 aTrackRate
 )

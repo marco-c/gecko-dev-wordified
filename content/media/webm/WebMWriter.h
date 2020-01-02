@@ -175,6 +175,12 @@ int32_t
 mHeight
 ;
 int32_t
+mDisplayWidth
+;
+int32_t
+mDisplayHeight
+;
+int32_t
 mEncodedFrameRate
 ;
 MetadataKind
