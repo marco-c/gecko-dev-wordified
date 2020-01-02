@@ -128,7 +128,7 @@ h
 #
 include
 "
-nsIDOMMobileConnection
+nsIMobileConnectionInfo
 .
 h
 "
@@ -1358,7 +1358,7 @@ i
 {
 nsCOMPtr
 <
-nsIDOMMozMobileConnectionInfo
+nsIMobileConnectionInfo
 >
 voiceInfo
 ;
