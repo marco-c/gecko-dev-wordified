@@ -1535,15 +1535,6 @@ JSTracer
 trc
 )
 ;
-JSCompartment
-*
-TopmostJitActivationCompartment
-(
-JSRuntime
-*
-rt
-)
-;
 #
 ifdef
 JSGC_GENERATIONAL
