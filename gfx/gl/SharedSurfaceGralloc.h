@@ -226,7 +226,7 @@ GLLibraryEGL
 const
 mEGL
 ;
-RefPtr
+WeakPtr
 <
 layers
 :
@@ -415,6 +415,11 @@ egl
 mAllocator
 (
 allocator
+-
+>
+asWeakPtr
+(
+)
 )
 mDesc
 (
@@ -504,7 +509,7 @@ SurfaceFactory_GL
 {
 protected
 :
-RefPtr
+WeakPtr
 <
 layers
 :

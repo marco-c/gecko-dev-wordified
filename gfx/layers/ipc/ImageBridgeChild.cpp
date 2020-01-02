@@ -1257,11 +1257,11 @@ aRect
 /
 Singleton
 static
-StaticRefPtr
-<
 ImageBridgeChild
->
+*
 sImageBridgeChildSingleton
+=
+nullptr
 ;
 static
 StaticRefPtr
@@ -1378,6 +1378,9 @@ thread
 .
 "
 )
+;
+delete
+sImageBridgeChildSingleton
 ;
 sImageBridgeChildSingleton
 =

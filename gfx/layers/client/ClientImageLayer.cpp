@@ -750,11 +750,6 @@ type
 ClientManager
 (
 )
--
->
-AsShadowForwarder
-(
-)
 flags
 )
 ;
@@ -819,11 +814,6 @@ Connect
 )
 ;
 ClientManager
-(
-)
--
->
-AsShadowForwarder
 (
 )
 -

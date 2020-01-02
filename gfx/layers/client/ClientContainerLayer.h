@@ -609,11 +609,6 @@ ClientManager
 )
 -
 >
-AsShadowForwarder
-(
-)
--
->
 InsertAfter
 (
 ClientManager
@@ -695,11 +690,6 @@ ClientManager
 )
 -
 >
-AsShadowForwarder
-(
-)
--
->
 RemoveChild
 (
 ClientManager
@@ -766,11 +756,6 @@ phase
 )
 ;
 ClientManager
-(
-)
--
->
-AsShadowForwarder
 (
 )
 -
