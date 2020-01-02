@@ -19948,6 +19948,13 @@ if
 node
 .
 getSVGDocument
+&
+&
+node
+.
+getSVGDocument
+(
+)
 )
 {
 return
@@ -20020,6 +20027,13 @@ if
 node
 .
 getSVGDocument
+&
+&
+node
+.
+getSVGDocument
+(
+)
 )
 {
 return
