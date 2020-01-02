@@ -101,8 +101,7 @@ panel
 (
 function
 (
-TB
-mozl10n
+mozL10n
 )
 {
 "
@@ -137,7 +136,7 @@ for
 concision
 __
 =
-mozl10n
+mozL10n
 .
 get
 ;
@@ -652,7 +651,6 @@ PanelView
 }
 )
 (
-_
 document
 .
 mozL10n
