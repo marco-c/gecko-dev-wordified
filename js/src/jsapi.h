@@ -13222,7 +13222,7 @@ cx
 JSIdArray
 *
 ida
-int
+unsigned
 index
 )
 ;
@@ -13328,7 +13328,10 @@ JS_IdArrayGet
 (
 context
 idArray
+unsigned
+(
 i
+)
 )
 ;
 }
