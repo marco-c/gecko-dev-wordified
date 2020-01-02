@@ -6729,6 +6729,17 @@ type
 message
 )
 {
+if
+(
+type
+!
+=
+'
+warn
+'
+)
+return
+;
 let
 warning
 =
