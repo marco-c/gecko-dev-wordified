@@ -1774,6 +1774,9 @@ MOZ_WIDGET_GONK
 nsString
 mLastStatus
 ;
+nsString
+mLastStorageStatus
+;
 void
 DispatchStatusChangeEvent
 (
@@ -1787,7 +1790,7 @@ DispatchStorageStatusChangeEvent
 (
 nsAString
 &
-aVolumeStatus
+aStorageStatus
 )
 ;
 #
