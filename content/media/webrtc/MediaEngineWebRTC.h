@@ -1548,6 +1548,9 @@ public
 :
 MediaEngineWebRTCAudioSource
 (
+nsIThread
+*
+aThread
 webrtc
 :
 :
@@ -1581,6 +1584,10 @@ WebRTCMic
 .
 Monitor
 "
+)
+mThread
+(
+aThread
 )
 mCapIndex
 (
@@ -2036,6 +2043,12 @@ we
 shut
 down
 HW
+nsCOMPtr
+<
+nsIThread
+>
+mThread
+;
 int
 mCapIndex
 ;
@@ -2196,6 +2209,12 @@ gFarendObserver
 nullptr
 ;
 }
+nsCOMPtr
+<
+nsIThread
+>
+mThread
+;
 Mutex
 mMutex
 ;
