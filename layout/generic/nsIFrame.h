@@ -4536,7 +4536,6 @@ called
 .
 *
 /
-virtual
 void
 SetParent
 (
@@ -4544,8 +4543,6 @@ nsContainerFrame
 *
 aParent
 )
-=
-0
 ;
 /
 *
