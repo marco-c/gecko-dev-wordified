@@ -4424,7 +4424,7 @@ budget
 endif
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -5840,7 +5840,7 @@ i
 return
 i
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -16190,7 +16190,7 @@ state
 case
 IDLE
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 GC
@@ -24428,7 +24428,7 @@ obj
 next
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 object
@@ -28725,7 +28725,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid

@@ -7204,7 +7204,6 @@ T
 MutableHandleType
 ;
 static
-inline
 JS
 :
 :
@@ -7218,7 +7217,7 @@ HandleType
 v
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -7228,7 +7227,6 @@ conversion
 ;
 }
 static
-inline
 JS
 :
 :
@@ -7242,7 +7240,7 @@ MutableHandleType
 v
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
