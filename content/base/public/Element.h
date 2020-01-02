@@ -6709,13 +6709,13 @@ aLocalName
 ;
 inline
 void
-RegisterFreezableElement
+RegisterActivityObserver
 (
 )
 ;
 inline
 void
-UnregisterFreezableElement
+UnregisterActivityObserver
 (
 )
 ;

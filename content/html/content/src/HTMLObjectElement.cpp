@@ -264,7 +264,7 @@ mIsDoneAddingChildren
 aFromParser
 )
 {
-RegisterFreezableElement
+RegisterActivityObserver
 (
 )
 ;
@@ -318,7 +318,7 @@ HTMLObjectElement
 (
 )
 {
-UnregisterFreezableElement
+UnregisterActivityObserver
 (
 )
 ;

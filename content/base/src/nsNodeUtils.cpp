@@ -2959,7 +2959,7 @@ wasRegistered
 oldDoc
 -
 >
-UnregisterFreezableElement
+UnregisterActivityObserver
 (
 element
 )
@@ -3041,7 +3041,7 @@ wasRegistered
 newDoc
 -
 >
-RegisterFreezableElement
+RegisterActivityObserver
 (
 aNode
 -

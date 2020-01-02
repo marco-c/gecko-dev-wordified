@@ -1071,7 +1071,7 @@ aItem
 *
 *
 If
-aContent
+aSupports
 has
 a
 nsObjectFrame
@@ -1115,9 +1115,9 @@ static
 void
 BeginSwapDocShells
 (
-nsIContent
+nsISupports
 *
-aContent
+aSupports
 void
 *
 )
@@ -1127,7 +1127,7 @@ void
 *
 *
 If
-aContent
+aSupports
 has
 a
 nsObjectFrame
@@ -1153,9 +1153,9 @@ static
 void
 EndSwapDocShells
 (
-nsIContent
+nsISupports
 *
-aContent
+aSupports
 void
 *
 )

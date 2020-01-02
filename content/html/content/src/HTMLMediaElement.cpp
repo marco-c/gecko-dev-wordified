@@ -11995,7 +11995,7 @@ SetOuter
 this
 )
 ;
-RegisterFreezableElement
+RegisterActivityObserver
 (
 )
 ;
@@ -12048,7 +12048,7 @@ ForgetElement
 )
 ;
 }
-UnregisterFreezableElement
+UnregisterActivityObserver
 (
 )
 ;
