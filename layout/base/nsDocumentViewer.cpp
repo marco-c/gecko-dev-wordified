@@ -700,6 +700,9 @@ nsISimpleEnumerator
 .
 h
 "
+#
+ifdef
+DEBUG
 /
 /
 PrintOptions
@@ -729,6 +732,11 @@ service
 1
 "
 ;
+#
+endif
+/
+/
+DEBUG
 #
 include
 "
