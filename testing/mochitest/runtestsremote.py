@@ -5055,6 +5055,15 @@ options
 remoteProductName
 )
     
+auto
+.
+setAppName
+(
+options
+.
+remoteappname
+)
+    
 mochitest
 =
 MochiRemote
@@ -5312,17 +5321,6 @@ split
 1
 ]
     
-if
-(
-dm
-.
-processExist
-(
-procName
-)
-)
-:
-        
 dm
 .
 killProcess
