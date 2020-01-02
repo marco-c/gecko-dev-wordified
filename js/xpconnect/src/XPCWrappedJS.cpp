@@ -1178,6 +1178,16 @@ IsValid
 )
 )
 {
+GetJSObject
+(
+)
+;
+/
+/
+Unmark
+gray
+JSObject
+.
 XPCJSRuntime
 *
 rt
@@ -1707,6 +1717,11 @@ GetJSObject
 (
 )
 {
+if
+(
+mJSObj
+)
+{
 JS
 :
 :
@@ -1715,6 +1730,7 @@ ExposeObjectToActiveJS
 mJSObj
 )
 ;
+}
 return
 mJSObj
 ;
