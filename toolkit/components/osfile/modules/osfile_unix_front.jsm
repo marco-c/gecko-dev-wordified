@@ -3035,6 +3035,7 @@ ignoreExisting
 )
 &
 &
+(
 ctypes
 .
 errno
@@ -3043,6 +3044,17 @@ errno
 Const
 .
 EEXIST
+|
+|
+ctypes
+.
+errno
+=
+=
+Const
+.
+EISDIR
+)
 )
 {
 return
