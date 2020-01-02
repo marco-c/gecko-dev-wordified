@@ -573,9 +573,11 @@ gmp
 manager
 .
 url
+.
+override
 "
 "
-https
+http
 :
 /
 /
