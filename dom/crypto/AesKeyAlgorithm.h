@@ -192,6 +192,14 @@ aCx
 MOZ_OVERRIDE
 ;
 virtual
+nsString
+ToJwkAlg
+(
+)
+const
+MOZ_OVERRIDE
+;
+virtual
 bool
 WriteStructuredClone
 (

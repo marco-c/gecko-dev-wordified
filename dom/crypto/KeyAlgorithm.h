@@ -260,6 +260,13 @@ aRetVal
 )
 const
 ;
+virtual
+nsString
+ToJwkAlg
+(
+)
+const
+;
 /
 /
 Structured

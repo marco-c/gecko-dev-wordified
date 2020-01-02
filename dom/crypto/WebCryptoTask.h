@@ -705,9 +705,14 @@ const
 nsAString
 &
 aFormat
-const
-KeyData
-&
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
 aKeyData
 const
 ObjectOrString
