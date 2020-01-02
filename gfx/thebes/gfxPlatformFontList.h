@@ -1132,6 +1132,16 @@ aUserFontSet
 )
 ;
 }
+static
+const
+gfxFontEntry
+:
+:
+ScriptRange
+sComplexScriptRanges
+[
+]
+;
 protected
 :
 class
