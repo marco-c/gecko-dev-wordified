@@ -1820,10 +1820,10 @@ mAllHeadersSent
 =
 1
 ;
-nsAutoCString
+nsCString
 hostHeader
 ;
-nsAutoCString
+nsCString
 hashkey
 ;
 mTransaction
@@ -2959,6 +2959,9 @@ overhead
 in
 CONTINUATION
 frames
+Http2Session
+:
+:
 EnsureBuffer
 (
 mTxInlineFrame
@@ -3749,6 +3752,9 @@ get
 +
 mTxInlineFrameUsed
 ;
+Http2Session
+:
+:
 EnsureBuffer
 (
 mTxInlineFrame
@@ -3968,6 +3974,9 @@ get
 +
 mTxInlineFrameUsed
 ;
+Http2Session
+:
+:
 EnsureBuffer
 (
 mTxInlineFrame

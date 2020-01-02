@@ -3705,7 +3705,7 @@ nsCString
 host
 int32_t
 port
-nsACString
+nsCString
 &
 hostLine
 )

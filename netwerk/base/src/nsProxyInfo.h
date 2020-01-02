@@ -282,11 +282,6 @@ IsHTTP
 )
 ;
 bool
-IsHTTPS
-(
-)
-;
-bool
 IsSOCKS
 (
 )
