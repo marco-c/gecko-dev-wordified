@@ -166,6 +166,11 @@ signer_cert_filename
 =
 "
 "
+                          
+subject_string
+=
+"
+"
 )
 :
     
@@ -545,6 +550,21 @@ name
 csr
 "
     
+if
+not
+subject_string
+:
+      
+subject_string
+=
+'
+/
+CN
+=
+'
++
+name
+    
 os
 .
 system
@@ -586,12 +606,9 @@ utf8
 -
 subj
 '
-/
-CN
-=
 "
 +
-name
+subject_string
 +
 "
 '
