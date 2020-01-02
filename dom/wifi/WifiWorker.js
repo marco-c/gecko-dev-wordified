@@ -13971,6 +13971,9 @@ bug
 if
 (
 flags
+&
+&
+flags
 .
 indexOf
 (
