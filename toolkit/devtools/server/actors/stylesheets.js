@@ -1817,13 +1817,6 @@ tabForm
 .
 styleSheetsActor
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

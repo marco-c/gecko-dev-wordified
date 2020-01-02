@@ -4789,13 +4789,6 @@ canvasActor
 }
 )
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

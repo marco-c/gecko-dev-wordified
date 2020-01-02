@@ -957,13 +957,6 @@ reflowActor
 }
 )
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

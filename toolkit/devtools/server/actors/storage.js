@@ -11557,13 +11557,6 @@ tabForm
 .
 storageActor
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage
