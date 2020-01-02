@@ -858,7 +858,7 @@ HandleEvent
 .
 *
 /
-nsresult
+void
 HandleEvent
 (
 nsEventChainPostVisitor
@@ -898,7 +898,6 @@ mPropagationStopped
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -924,7 +923,6 @@ MayHaveNewListenerManager
 )
 {
 return
-NS_OK
 ;
 }
 mManager
@@ -1007,9 +1005,6 @@ null
 )
 ;
 }
-return
-NS_OK
-;
 }
 /
 *
