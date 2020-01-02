@@ -249,6 +249,19 @@ s
 -
 quiet
 "
+"
+-
+-
+log
+-
+raw
+=
+%
+(
+raw_log_file
+)
+s
+"
             
 ]
         

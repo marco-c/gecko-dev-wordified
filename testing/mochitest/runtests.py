@@ -200,17 +200,18 @@ mozlog
 .
 structured
 .
-handlers
+commandline
 import
-StreamHandler
+add_logging_group
+setup_logging
 from
 mozlog
 .
 structured
 .
-structuredlog
+handlers
 import
-StructuredLogger
+StreamHandler
 #
 This
 should
@@ -697,11 +698,6 @@ logger
 buffering
 =
 True
-name
-=
-'
-mochitest
-'
 )
 :
         
@@ -1696,6 +1692,7 @@ def
 killPid
 (
 pid
+log
 )
 :
   
@@ -2115,6 +2112,7 @@ __init__
 (
 self
 options
+logger
 )
 :
     
@@ -2134,6 +2132,12 @@ vars
 (
 options
 )
+    
+self
+.
+_log
+=
+logger
     
 self
 .
@@ -2717,7 +2721,9 @@ run
 (
 )
     
-log
+self
+.
+_log
 .
 info
 (
@@ -2748,7 +2754,9 @@ _process
 .
 pid
     
-log
+self
+.
+_log
 .
 info
 (
@@ -2837,7 +2845,9 @@ i
 else
 :
       
-log
+self
+.
+_log
 .
 error
 (
@@ -3050,6 +3060,7 @@ __init__
 self
 options
 scriptdir
+logger
 debuggerInfo
 =
 None
@@ -3066,15 +3077,21 @@ webSocketPort
     
 self
 .
-_scriptdir
+debuggerInfo
 =
-scriptdir
+debuggerInfo
     
 self
 .
-debuggerInfo
+_log
 =
-debuggerInfo
+logger
+    
+self
+.
+_scriptdir
+=
+scriptdir
   
 def
 start
@@ -3324,7 +3341,9 @@ _process
 .
 pid
     
-log
+self
+.
+_log
 .
 info
 (
@@ -3477,10 +3496,15 @@ urlOpts
 [
 ]
   
+structured_logger
+=
+None
+  
 def
 __init__
 (
 self
+logger_options
 )
 :
     
@@ -3513,6 +3537,153 @@ self
 _locations
 =
 None
+    
+#
+Structured
+logger
+    
+if
+self
+.
+structured_logger
+is
+None
+:
+        
+self
+.
+structured_logger
+=
+setup_logging
+(
+'
+mochitest
+'
+logger_options
+{
+}
+)
+        
+#
+Add
+the
+tbpl
+logger
+if
+no
+handler
+is
+logging
+to
+stdout
+to
+display
+formatted
+logs
+by
+default
+        
+has_stdout_logger
+=
+any
+(
+h
+.
+stream
+=
+=
+sys
+.
+stdout
+for
+h
+in
+self
+.
+structured_logger
+.
+handlers
+)
+        
+if
+not
+has_stdout_logger
+:
+            
+handler
+=
+StreamHandler
+(
+sys
+.
+stdout
+MochitestFormatter
+(
+)
+)
+            
+self
+.
+structured_logger
+.
+add_handler
+(
+handler
+)
+        
+MochitestUtilsMixin
+.
+structured_logger
+=
+self
+.
+structured_logger
+    
+self
+.
+message_logger
+=
+MessageLogger
+(
+logger
+=
+self
+.
+structured_logger
+)
+    
+#
+self
+.
+log
+should
+also
+be
+structured_logger
+but
+to
+avoid
+regressions
+like
+bug
+1044206
+we
+'
+re
+now
+logging
+with
+the
+stdlib
+'
+s
+logger
+    
+self
+.
+log
+=
+log
   
 def
 update_mozinfo
@@ -5515,6 +5686,9 @@ WebSocketServer
 (
 options
 SCRIPT_DIR
+self
+.
+log
 debuggerInfo
 )
     
@@ -5555,6 +5729,9 @@ server
 MochitestServer
 (
 options
+self
+.
+log
 )
     
 self
@@ -5778,6 +5955,11 @@ sslTunnel
 SSLTunnel
 (
 options
+logger
+=
+self
+.
+log
 )
     
 self
@@ -5933,6 +6115,8 @@ None
 try
 :
         
+self
+.
 log
 .
 info
@@ -5956,6 +6140,8 @@ except
 Exception
 :
         
+self
+.
 log
 .
 critical
@@ -5981,6 +6167,8 @@ None
 try
 :
         
+self
+.
 log
 .
 info
@@ -6005,6 +6193,8 @@ except
 Exception
 :
         
+self
+.
 log
 .
 critical
@@ -6032,6 +6222,8 @@ None
 try
 :
         
+self
+.
 log
 .
 info
@@ -6054,6 +6246,8 @@ except
 Exception
 :
         
+self
+.
 log
 .
 critical
@@ -6173,6 +6367,8 @@ dest
 else
 :
         
+self
+.
 log
 .
 warning
@@ -6628,12 +6824,12 @@ jarDir
 )
 :
       
+self
+.
 log
 .
 error
 (
-message
-=
 "
 TEST
 -
@@ -7072,8 +7268,15 @@ __init__
 (
 self
 options
+logger
 )
 :
+    
+self
+.
+log
+=
+logger
     
 self
 .
@@ -7710,6 +7913,8 @@ ssltunnel
 )
 :
       
+self
+.
 log
 .
 error
@@ -7788,6 +7993,8 @@ run
 (
 )
     
+self
+.
 log
 .
 info
@@ -8280,6 +8487,7 @@ card
 def
 findTestMediaDevices
 (
+log
 )
 :
   
@@ -8741,10 +8949,6 @@ mediaDevices
 =
 None
   
-structured_logger
-=
-None
-  
 #
 XXX
 use
@@ -8790,64 +8994,9 @@ def
 __init__
 (
 self
+logger_options
 )
 :
-    
-#
-Structured
-logger
-    
-if
-self
-.
-structured_logger
-is
-None
-:
-        
-self
-.
-structured_logger
-=
-StructuredLogger
-(
-'
-mochitest
-'
-)
-        
-stream_handler
-=
-StreamHandler
-(
-stream
-=
-sys
-.
-stdout
-formatter
-=
-MochitestFormatter
-(
-)
-)
-        
-self
-.
-structured_logger
-.
-add_handler
-(
-stream_handler
-)
-        
-Mochitest
-.
-structured_logger
-=
-self
-.
-structured_logger
     
 super
 (
@@ -8857,24 +9006,7 @@ self
 .
 __init__
 (
-)
-    
-#
-Structured
-logs
-parser
-    
-self
-.
-message_logger
-=
-MessageLogger
-(
-logger
-=
-self
-.
-structured_logger
+logger_options
 )
     
 #
@@ -10126,6 +10258,8 @@ if
 certificateStatus
 :
       
+self
+.
 log
 .
 error
@@ -10436,6 +10570,8 @@ KeyValueParseError
 e
 :
       
+self
+.
 log
 .
 error
@@ -10745,6 +10881,8 @@ pid
 except
 :
         
+self
+.
 log
 .
 warning
@@ -10790,6 +10928,8 @@ self
 haveDumpedScreen
 :
       
+self
+.
 log
 .
 info
@@ -11031,6 +11171,8 @@ id
 =
 921509
           
+self
+.
 log
 .
 info
@@ -11050,6 +11192,8 @@ exists
         
 return
     
+self
+.
 log
 .
 info
@@ -11069,6 +11213,9 @@ process
 killPid
 (
 processPID
+self
+.
+log
 )
   
 def
@@ -11104,6 +11251,8 @@ processLog
 )
 :
       
+self
+.
 log
 .
 info
@@ -11149,6 +11298,8 @@ processLog
 for
 zombies
     
+self
+.
 log
 .
 info
@@ -11206,6 +11357,8 @@ in
 processLogFD
 :
         
+self
+.
 log
 .
 info
@@ -11259,6 +11412,8 @@ in
 processList
 :
       
+self
+.
 log
 .
 info
@@ -11291,6 +11446,8 @@ foundZombie
 =
 True
         
+self
+.
 log
 .
 error
@@ -11389,6 +11546,8 @@ is
 None
 :
       
+self
+.
 log
 .
 warning
@@ -11412,6 +11571,8 @@ helper
       
 return
     
+self
+.
 log
 .
 info
@@ -11444,6 +11605,8 @@ Exception
 e
 :
       
+self
+.
 log
 .
 warning
@@ -11521,6 +11684,8 @@ not
 None
 :
         
+self
+.
 log
 .
 info
@@ -11550,6 +11715,8 @@ Exception
 e
 :
       
+self
+.
 log
 .
 warning
@@ -11580,6 +11747,8 @@ e
 )
 )
       
+self
+.
 log
 .
 exception
@@ -12008,6 +12177,8 @@ shutdownLeaks
 =
 ShutdownLeaks
 (
+self
+.
 log
 .
 info
@@ -12045,6 +12216,8 @@ lsanLeaks
 =
 LSANLeaks
 (
+self
+.
 log
 .
 info
@@ -12336,6 +12509,8 @@ runner
 .
 process_handler
       
+self
+.
 log
 .
 info
@@ -12560,6 +12735,8 @@ dump_buffered
 (
 )
         
+self
+.
 log
 .
 error
@@ -12606,6 +12783,8 @@ exited
 normally
 '
       
+self
+.
 log
 .
 info
@@ -13232,6 +13411,8 @@ tp
 )
 :
         
+self
+.
 log
 .
 warning
@@ -13439,6 +13620,8 @@ disabled
 )
 :
         
+self
+.
 log
 .
 info
@@ -14389,6 +14572,9 @@ devices
 =
 findTestMediaDevices
 (
+self
+.
+log
 )
       
 if
@@ -14396,6 +14582,8 @@ not
 devices
 :
         
+self
+.
 log
 .
 error
@@ -14938,6 +15126,8 @@ options
 .
 webapprtChrome
       
+self
+.
 log
 .
 info
@@ -15046,6 +15236,8 @@ except
 KeyboardInterrupt
 :
         
+self
+.
 log
 .
 info
@@ -15079,6 +15271,8 @@ print_exc
 (
 )
         
+self
+.
 log
 .
 error
@@ -15211,6 +15405,8 @@ remove
 logfile
 )
     
+self
+.
 log
 .
 info
@@ -15390,6 +15586,8 @@ buffering
 =
 False
     
+self
+.
 log
 .
 error
@@ -16179,6 +16377,10 @@ not
 didTimeout
 :
           
+self
+.
+harness
+.
 log
 .
 info
@@ -17607,16 +17809,15 @@ command
 line
 options
   
-mochitest
-=
-Mochitest
-(
-)
-  
 parser
 =
 MochitestOptions
 (
+)
+  
+add_logging_group
+(
+parser
 )
   
 options
@@ -17626,16 +17827,6 @@ parser
 .
 parse_args
 (
-)
-  
-options
-=
-parser
-.
-verifyOptions
-(
-options
-mochitest
 )
   
 if
@@ -17653,6 +17844,52 @@ sys
 exit
 (
 1
+)
+  
+logger_options
+=
+{
+key
+:
+value
+for
+key
+value
+in
+vars
+(
+options
+)
+.
+iteritems
+(
+)
+if
+key
+.
+startswith
+(
+'
+log
+'
+)
+}
+  
+mochitest
+=
+Mochitest
+(
+logger_options
+)
+  
+options
+=
+parser
+.
+verifyOptions
+(
+options
+mochitest
 )
   
 options

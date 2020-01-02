@@ -108,14 +108,6 @@ runtests
 import
 MochitestUtilsMixin
 from
-runtests
-import
-MessageLogger
-from
-runtests
-import
-MochitestFormatter
-from
 mochitest_options
 import
 B2GOptions
@@ -129,53 +121,12 @@ mozprofile
 import
 Profile
 Preferences
+from
+mozlog
+import
+structured
 import
 mozinfo
-from
-mozlog
-.
-structured
-.
-handlers
-import
-StreamHandler
-from
-mozlog
-.
-structured
-.
-structuredlog
-import
-StructuredLogger
-log
-=
-StructuredLogger
-(
-'
-Mochitest
-'
-)
-stream_handler
-=
-StreamHandler
-(
-stream
-=
-sys
-.
-stdout
-formatter
-=
-MochitestFormatter
-(
-)
-)
-log
-.
-add_handler
-(
-stream_handler
-)
 class
 B2GMochitest
 (
@@ -192,6 +143,8 @@ __init__
 (
 self
 marionette_args
+                       
+logger_options
                        
 out_of_process
 =
@@ -229,6 +182,7 @@ self
 .
 __init__
 (
+logger_options
 )
         
 self
@@ -297,21 +251,6 @@ product
 '
 b2g
 '
-        
-#
-structured
-logging
-        
-self
-.
-message_logger
-=
-MessageLogger
-(
-logger
-=
-log
-)
         
 if
 profile_data_dir
@@ -1004,6 +943,8 @@ timeout
 .
 0
         
+self
+.
 log
 .
 info
@@ -1691,6 +1632,8 @@ except
 KeyboardInterrupt
 :
             
+self
+.
 log
 .
 info
@@ -1724,6 +1667,8 @@ print_exc
 (
 )
             
+self
+.
 log
 .
 error
@@ -1771,6 +1716,8 @@ stopServers
 (
 )
         
+self
+.
 log
 .
 info
@@ -1839,6 +1786,7 @@ __init__
 (
 self
 marionette_args
+logger_options
 profile_data_dir
                  
 local_binary_dir
@@ -1857,6 +1805,7 @@ __init__
 (
 self
 marionette_args
+logger_options
 out_of_process
 =
 True
@@ -2234,6 +2183,7 @@ __init__
 (
 self
 marionette_args
+logger_options
 profile_data_dir
 )
 :
@@ -2244,6 +2194,7 @@ __init__
 (
 self
 marionette_args
+logger_options
 out_of_process
 =
 False
@@ -2257,6 +2208,7 @@ Mochitest
 __init__
 (
 self
+logger_options
 )
         
 self
@@ -2771,12 +2723,13 @@ B2GDeviceMochitest
 (
 marionette_args
 options
+options
 .
 profile_data_dir
+                                   
 options
 .
 xrePath
-                                   
 remote_log_file
 =
 options
@@ -2955,16 +2908,6 @@ int
 port
 )
     
-mochitest
-=
-B2GDesktopMochitest
-(
-marionette_args
-options
-.
-profile_data_dir
-)
-    
 #
 add
 a
@@ -3033,6 +2976,17 @@ bin
 options
 .
 app
+    
+mochitest
+=
+B2GDesktopMochitest
+(
+marionette_args
+options
+options
+.
+profile_data_dir
+)
     
 options
 =
@@ -3137,6 +3091,15 @@ parser
 =
 B2GOptions
 (
+)
+    
+structured
+.
+commandline
+.
+add_logging_group
+(
+parser
 )
     
 options
