@@ -2818,7 +2818,7 @@ i_end
 transitions
 -
 >
-mPropertyTransitions
+mAnimations
 .
 Length
 (
@@ -2840,10 +2840,15 @@ pt
 transitions
 -
 >
-mPropertyTransitions
+mAnimations
 [
 i
 ]
+-
+>
+AsTransition
+(
+)
 ;
 if
 (

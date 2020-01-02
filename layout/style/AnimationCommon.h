@@ -2018,6 +2018,12 @@ CommonAnimationManager
 *
 mManager
 ;
+mozilla
+:
+:
+ElementAnimationPtrArray
+mAnimations
+;
 /
 /
 This

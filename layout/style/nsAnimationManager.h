@@ -958,12 +958,6 @@ change
 bool
 mNeedsRefreshes
 ;
-mozilla
-:
-:
-ElementAnimationPtrArray
-mAnimations
-;
 }
 ;
 class
