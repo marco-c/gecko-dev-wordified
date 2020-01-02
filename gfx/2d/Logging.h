@@ -767,7 +767,7 @@ operator
 <
 <
 (
-int
+int32_t
 aInt
 )
 {
@@ -787,8 +787,7 @@ operator
 <
 <
 (
-unsigned
-int
+uint32_t
 aInt
 )
 {
@@ -808,7 +807,7 @@ operator
 <
 <
 (
-long
+int64_t
 aLong
 )
 {
@@ -828,8 +827,7 @@ operator
 <
 <
 (
-unsigned
-long
+uint64_t
 aLong
 )
 {
