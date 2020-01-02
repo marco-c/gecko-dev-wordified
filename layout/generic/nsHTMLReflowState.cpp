@@ -17878,6 +17878,12 @@ CalcLineHeight
 frame
 -
 >
+GetContent
+(
+)
+frame
+-
+>
 StyleContext
 (
 )
@@ -17903,6 +17909,9 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
+nsIContent
+*
+aContent
 nsStyleContext
 *
 aStyleContext

@@ -874,6 +874,9 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
+GetContent
+(
+)
 StyleContext
 (
 )
@@ -2946,6 +2949,9 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
+GetContent
+(
+)
 StyleContext
 (
 )

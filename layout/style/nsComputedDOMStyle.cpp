@@ -22364,6 +22364,7 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
+mContent
 mStyleContextHolder
 blockHeight
 1
