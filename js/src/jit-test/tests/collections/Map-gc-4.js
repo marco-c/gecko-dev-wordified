@@ -50,7 +50,7 @@ has
 0
 )
 (
-true
+false
 )
 )
 ;
@@ -91,7 +91,7 @@ has
 (
 0
 )
-false
+true
 )
 ;
 assertEq
@@ -102,7 +102,9 @@ get
 (
 0
 )
-undefined
+'
+x
+'
 )
 ;
 assertEq
