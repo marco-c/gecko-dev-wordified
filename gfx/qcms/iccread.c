@@ -3497,7 +3497,7 @@ lutmABType
 *
 lut
 ;
-int
+uint32_t
 i
 ;
 if
@@ -4476,7 +4476,7 @@ lutType
 *
 lut
 ;
-int
+uint32_t
 i
 ;
 /
@@ -7960,7 +7960,7 @@ FILE
 file
 )
 {
-uint32_t
+size_t
 length
 ;
 qcms_profile
