@@ -877,6 +877,7 @@ D137
 006008962422
 }
 static
+const
 nsID
 invalid
 =

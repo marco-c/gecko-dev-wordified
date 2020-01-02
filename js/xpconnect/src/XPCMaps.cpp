@@ -1306,6 +1306,7 @@ IID2WrappedJSClassMap
 .
 .
 .
+const
 struct
 PLDHashTableOps
 IID2WrappedJSClassMap
@@ -1499,6 +1500,7 @@ IID2NativeInterfaceMap
 .
 .
 .
+const
 struct
 PLDHashTableOps
 IID2NativeInterfaceMap
@@ -2865,6 +2867,7 @@ return
 true
 ;
 }
+const
 struct
 PLDHashTableOps
 NativeSetMap
@@ -3243,6 +3246,7 @@ entrySize
 )
 ;
 }
+const
 struct
 PLDHashTableOps
 IID2ThisTranslatorMap
@@ -3717,6 +3721,7 @@ name2
 )
 ;
 }
+const
 struct
 PLDHashTableOps
 XPCNativeScriptableSharedMap

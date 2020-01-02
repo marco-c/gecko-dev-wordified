@@ -159,6 +159,7 @@ Keywords
 .
 h
 "
+static
 const
 char
 *

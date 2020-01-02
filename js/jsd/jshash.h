@@ -486,6 +486,7 @@ comparison
 function
 *
 /
+const
 JSHashAllocOps
 *
 allocOps
@@ -600,6 +601,7 @@ JSHashComparator
 keyCompare
 JSHashComparator
 valueCompare
+const
 JSHashAllocOps
 *
 allocOps

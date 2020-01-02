@@ -412,6 +412,7 @@ he
 ;
 }
 static
+const
 JSHashAllocOps
 defaultHashAllocOps
 =
@@ -434,6 +435,7 @@ JSHashComparator
 keyCompare
 JSHashComparator
 valueCompare
+const
 JSHashAllocOps
 *
 allocOps
@@ -664,6 +666,7 @@ he
 *
 hep
 ;
+const
 JSHashAllocOps
 *
 allocOps

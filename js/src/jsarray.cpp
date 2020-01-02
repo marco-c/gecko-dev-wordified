@@ -8849,8 +8849,8 @@ true
 ;
 }
 static
-uint64_t
 const
+uint64_t
 powersOf10
 [
 ]

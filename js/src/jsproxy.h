@@ -504,6 +504,7 @@ JS_FRIEND_API
 BaseProxyHandler
 )
 {
+const
 void
 *
 mFamily
@@ -555,6 +556,7 @@ public
 explicit
 BaseProxyHandler
 (
+const
 void
 *
 family
@@ -585,6 +587,7 @@ mHasPolicy
 ;
 }
 inline
+const
 void
 *
 family
@@ -1313,6 +1316,7 @@ public
 explicit
 DirectProxyHandler
 (
+const
 void
 *
 family
