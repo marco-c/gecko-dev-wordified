@@ -23842,6 +23842,8 @@ enumerable_names
 "
 "
 Java
+Nexus
+Personal
 QuickTime
 Shockwave
 "
