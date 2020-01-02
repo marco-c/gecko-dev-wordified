@@ -33950,6 +33950,9 @@ groove
 "
 ridge
 "
+"
+auto
+"
 ]
 invalid_values
 :
