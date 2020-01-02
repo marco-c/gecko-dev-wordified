@@ -1611,16 +1611,7 @@ addListener
 {
 onInstallEnded
 :
-function
-(
-)
-{
-executeSoon
-(
 run_next_test
-)
-;
-}
 }
 )
 ;

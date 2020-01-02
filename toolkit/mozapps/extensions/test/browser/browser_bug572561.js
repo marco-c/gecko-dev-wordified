@@ -117,9 +117,8 @@ check_hidden
 false
 )
 ;
-executeSoon
-(
 run_next_test
+(
 )
 ;
 }
@@ -146,9 +145,8 @@ check_hidden
 false
 )
 ;
-executeSoon
-(
 run_next_test
+(
 )
 ;
 }
@@ -170,9 +168,8 @@ onInstallFailed
 "
 )
 ;
-executeSoon
-(
 run_next_test
+(
 )
 ;
 }
