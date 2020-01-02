@@ -452,7 +452,7 @@ counts
 [
 2
 ]
-8
+7
 )
 ;
 /
@@ -494,7 +494,7 @@ counts
 [
 5
 ]
-0
+1
 )
 ;
 /
@@ -747,7 +747,7 @@ nsICertOverrideService
 ERROR_UNTRUSTED
 getXPCOMStatusFromNSS
 (
-SEC_ERROR_UNKNOWN_ISSUER
+SEC_ERROR_EXPIRED_ISSUER_CERTIFICATE
 )
 )
 ;
