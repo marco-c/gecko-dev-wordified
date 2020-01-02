@@ -1518,8 +1518,6 @@ Remove
 "
 id
 :
-panel
-.
 id
 }
 )
