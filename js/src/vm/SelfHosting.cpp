@@ -2105,8 +2105,6 @@ threadPool
 numWorkers
 (
 )
-+
-1
 )
 ;
 return
