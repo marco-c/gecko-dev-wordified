@@ -1357,9 +1357,9 @@ type
 "
 TextSelection
 :
-IMECompositions
+DraggingHandle
 "
-suppress
+dragging
 :
 true
 }
@@ -1417,9 +1417,9 @@ type
 "
 TextSelection
 :
-IMECompositions
+DraggingHandle
 "
-suppress
+dragging
 :
 false
 }
