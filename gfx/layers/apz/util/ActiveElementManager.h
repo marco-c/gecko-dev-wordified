@@ -469,6 +469,11 @@ ResetActive
 )
 ;
 void
+ResetTouchBlockState
+(
+)
+;
+void
 SetActiveTask
 (
 nsIDOMElement
