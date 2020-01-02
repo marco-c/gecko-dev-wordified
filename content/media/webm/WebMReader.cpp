@@ -5820,9 +5820,13 @@ holder
 >
 mOffset
 tstamp_usecs
+(
 next_tstamp
 /
 NS_PER_USEC
+)
+-
+tstamp_usecs
 b
 si
 .

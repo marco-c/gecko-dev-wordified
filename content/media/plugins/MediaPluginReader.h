@@ -155,6 +155,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -227,8 +234,10 @@ mVideoSeekTimeUs
 int64_t
 mAudioSeekTimeUs
 ;
+nsAutoPtr
+<
 VideoData
-*
+>
 mLastVideoFrame
 ;
 public

@@ -5275,8 +5275,6 @@ GetImageContainer
 )
 aOffsetBytes
 aTimestampUsecs
-aTimestampUsecs
-+
 aDurationUsecs
 b
 false
@@ -5432,8 +5430,6 @@ GetImageContainer
 )
 aOffsetBytes
 aTimestampUsecs
-aTimestampUsecs
-+
 aDurationUsecs
 image
 .

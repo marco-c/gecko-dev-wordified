@@ -3913,7 +3913,7 @@ mLastAudioPacketEndTime
 aAudio
 -
 >
-GetEnd
+GetEndTime
 (
 )
 ;
@@ -5102,7 +5102,9 @@ mStartTime
 v
 -
 >
-mEndTime
+GetEndTime
+(
+)
 )
 {
 LOG
@@ -5140,7 +5142,9 @@ mediaStream
 v
 -
 >
-mEndTime
+GetEndTime
+(
+)
 -
 (
 stream
@@ -5162,7 +5166,9 @@ mImage
 v
 -
 >
-mEndTime
+GetEndTime
+(
+)
 -
 (
 stream
@@ -5188,7 +5194,9 @@ mNextVideoTime
 v
 -
 >
-mEndTime
+GetEndTime
+(
+)
 -
 mStartTime
 ;
@@ -5567,7 +5575,7 @@ if
 a
 -
 >
-GetEnd
+GetEndTime
 (
 )
 >
@@ -14688,7 +14696,9 @@ seekTime
 video
 -
 >
-mEndTime
+GetEndTime
+(
+)
 )
 |
 |
@@ -17788,7 +17798,9 @@ mVideoFrameEndTime
 frame
 -
 >
-mEndTime
+GetEndTime
+(
+)
 ;
 currentFrame
 =
@@ -18443,7 +18455,9 @@ remainingTime
 currentFrame
 -
 >
-mEndTime
+GetEndTime
+(
+)
 -
 clock_time
 ;

@@ -1728,10 +1728,6 @@ pos
 frame
 .
 mTimeUs
-frame
-.
-mTimeUs
-+
 1
 /
 /
@@ -1741,8 +1737,7 @@ don
 t
 know
 the
-end
-time
+duration
 .
 b
 frame
@@ -1776,10 +1771,6 @@ pos
 frame
 .
 mTimeUs
-frame
-.
-mTimeUs
-+
 1
 /
 /
@@ -1789,8 +1780,7 @@ don
 t
 know
 the
-end
-time
+duration
 .
 frame
 .
