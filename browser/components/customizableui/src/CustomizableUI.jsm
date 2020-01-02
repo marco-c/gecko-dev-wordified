@@ -987,6 +987,17 @@ AREA_NAVBAR
 legacy
 :
 true
+anchor
+:
+"
+nav
+-
+bar
+-
+overflow
+-
+button
+"
 type
 :
 CustomizableUI

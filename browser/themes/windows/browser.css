@@ -16219,6 +16219,8 @@ png
 bookmarksToolbarFolderMenu
 #
 BMB_bookmarksToolbar
+#
+panelMenu_bookmarksToolbar
 {
 list
 -
@@ -16257,6 +16259,8 @@ auto
 }
 #
 BMB_unsortedBookmarks
+#
+panelMenu_unsortedBookmarks
 {
 list
 -
