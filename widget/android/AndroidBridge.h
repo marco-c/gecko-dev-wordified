@@ -1814,14 +1814,6 @@ ScheduleComposite
 (
 )
 ;
-void
-GetGfxInfoData
-(
-nsACString
-&
-aRet
-)
-;
 nsresult
 GetProxyForURI
 (

@@ -85,9 +85,6 @@ jmethodID
 jGetExtensionFromMimeTypeWrapper
 ;
 jmethodID
-jGetGfxInfoDataWrapper
-;
-jmethodID
 jGetHandlersForMimeTypeWrapper
 ;
 jmethodID
@@ -564,11 +561,6 @@ const
 nsAString
 &
 a0
-)
-;
-jstring
-GetGfxInfoDataWrapper
-(
 )
 ;
 jobjectArray
