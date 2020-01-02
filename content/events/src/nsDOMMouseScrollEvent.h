@@ -151,7 +151,7 @@ aPresContext
 mozilla
 :
 :
-WidgetInputEvent
+WidgetMouseScrollEvent
 *
 aEvent
 )
