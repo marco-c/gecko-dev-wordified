@@ -1527,7 +1527,7 @@ in
 m_pools
 }
 void
-sizeOfCode
+addSizeOfCode
 (
 JS
 :

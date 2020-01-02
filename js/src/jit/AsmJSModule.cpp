@@ -1915,7 +1915,7 @@ void
 AsmJSModule
 :
 :
-sizeOfMisc
+addSizeOfMisc
 (
 mozilla
 :
@@ -1932,6 +1932,7 @@ asmJSModuleData
 {
 *
 asmJSModuleCode
++
 =
 pod
 .
@@ -1939,6 +1940,7 @@ totalBytes_
 ;
 *
 asmJSModuleData
++
 =
 mallocSizeOf
 (

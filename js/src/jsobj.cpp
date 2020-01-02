@@ -37321,7 +37321,7 @@ void
 JSObject
 :
 :
-sizeOfExcludingThis
+addSizeOfExcludingThis
 (
 mozilla
 :
@@ -37346,6 +37346,7 @@ sizes
 -
 >
 mallocHeapSlots
++
 =
 mallocSizeOf
 (
@@ -37413,6 +37414,7 @@ sizes
 -
 >
 nonHeapElementsAsmJS
++
 =
 as
 <
@@ -37431,6 +37433,7 @@ sizes
 -
 >
 mallocHeapElementsAsmJS
++
 =
 mallocSizeOf
 (
@@ -37446,6 +37449,7 @@ sizes
 -
 >
 mallocHeapElementsNonAsmJS
++
 =
 mallocSizeOf
 (
@@ -37497,6 +37501,7 @@ sizes
 -
 >
 mallocHeapArgumentsData
++
 =
 as
 <
@@ -37526,6 +37531,7 @@ sizes
 -
 >
 mallocHeapRegExpStatics
++
 =
 as
 <
@@ -37555,6 +37561,7 @@ sizes
 -
 >
 mallocHeapPropertyIteratorData
++
 =
 as
 <
@@ -37590,7 +37597,7 @@ AsmJSModuleObject
 (
 )
 .
-sizeOfMisc
+addSizeOfMisc
 (
 mallocSizeOf
 &
@@ -37626,6 +37633,7 @@ sizes
 -
 >
 mallocHeapCtypesData
++
 =
 js
 :

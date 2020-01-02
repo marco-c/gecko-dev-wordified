@@ -5856,7 +5856,7 @@ void
 jit
 :
 :
-SizeOfBaselineData
+AddSizeOfBaselineData
 (
 JSScript
 *
@@ -5874,16 +5874,6 @@ size_t
 fallbackStubs
 )
 {
-*
-data
-=
-0
-;
-*
-fallbackStubs
-=
-0
-;
 if
 (
 script
@@ -5901,7 +5891,7 @@ baselineScript
 )
 -
 >
-sizeOfIncludingThis
+addSizeOfIncludingThis
 (
 mallocSizeOf
 data

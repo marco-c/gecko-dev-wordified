@@ -351,7 +351,7 @@ void
 ExecutableAllocator
 :
 :
-sizeOfCode
+addSizeOfCode
 (
 JS
 :

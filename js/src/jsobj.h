@@ -2095,7 +2095,7 @@ hasTable
 ;
 }
 void
-sizeOfExcludingThis
+addSizeOfExcludingThis
 (
 mozilla
 :
