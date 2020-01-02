@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+let
+chromeGlobal
+=
+this
+;
 /
 /
 Encapsulate
@@ -284,7 +289,7 @@ DebuggerServer
 ContentActor
 (
 conn
-content
+chromeGlobal
 )
 ;
 let
