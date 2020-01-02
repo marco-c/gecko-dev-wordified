@@ -7258,15 +7258,10 @@ GetDefaultScaleInternal
 )
 {
 return
-gfxWindowsPlatform
+WinUtils
 :
 :
-GetPlatform
-(
-)
--
->
-GetDPIScale
+LogToPhysFactor
 (
 )
 ;

@@ -1742,7 +1742,7 @@ retVal
 >
 left
 =
-MetroUtils
+WinUtils
 :
 :
 LogToPhys
@@ -1757,7 +1757,7 @@ retVal
 >
 top
 =
-MetroUtils
+WinUtils
 :
 :
 LogToPhys
@@ -1772,7 +1772,7 @@ retVal
 >
 width
 =
-MetroUtils
+WinUtils
 :
 :
 LogToPhys
@@ -1787,7 +1787,7 @@ retVal
 >
 height
 =
-MetroUtils
+WinUtils
 :
 :
 LogToPhys
