@@ -146,7 +146,7 @@ h
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 #
 include
@@ -319,7 +319,7 @@ nsMacShellService
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
@@ -364,7 +364,7 @@ NS_SHELLSERVICE_CID
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 NS_DEFINE_NAMED_CID
 (
@@ -445,7 +445,7 @@ nsWindowsShellServiceConstructor
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 {
 &
@@ -540,7 +540,7 @@ kNS_SHELLSERVICE_CID
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 {
 NS_SHELLSERVICE_CONTRACTID
