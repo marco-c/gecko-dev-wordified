@@ -121,7 +121,7 @@ throw
 42
 )
 ;
-assertThrowsInstanceOf
+assertThrowsValue
 (
 function
 (
@@ -134,7 +134,7 @@ throw
 42
 )
 }
-TypeError
+42
 )
 ;
 /
@@ -191,7 +191,7 @@ throw
 42
 )
 ;
-assertThrowsInstanceOf
+assertThrowsValue
 (
 function
 (
@@ -204,7 +204,7 @@ throw
 42
 )
 }
-TypeError
+42
 )
 ;
 /
@@ -375,10 +375,10 @@ outer_throw_42
 42
 )
 ;
-assertThrowsInstanceOf
+assertThrowsValue
 (
 outer_throw_42
-TypeError
+42
 )
 ;
 /
