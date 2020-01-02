@@ -324,6 +324,10 @@ mCallback
 (
 nullptr
 )
+mCachedPluginId
+(
+0
+)
 {
 }
 static
@@ -1803,6 +1807,12 @@ this
 )
 )
 ;
+mCachedPluginId
+=
+PluginID
+(
+)
+;
 /
 /
 We
@@ -2324,6 +2334,10 @@ nullptr
 mCallback
 (
 nullptr
+)
+mCachedPluginId
+(
+0
 )
 {
 }
@@ -3388,6 +3402,12 @@ void
 )
 this
 )
+)
+;
+mCachedPluginId
+=
+PluginID
+(
 )
 ;
 mGMP
