@@ -9365,7 +9365,7 @@ case
 NS_HTML5TREE_BUILDER_NOFRAMES
 :
 {
-startTagScriptInHead
+startTagGenericRawText
 (
 elementName
 attributes
@@ -13882,11 +13882,10 @@ errStrayEndTag
 name
 )
 ;
-mode
-=
-NS_HTML5TREE_BUILDER_IN_FRAMESET
-;
-continue
+NS_HTML5_BREAK
+(
+endtagloop
+)
 ;
 }
 case

@@ -15955,7 +15955,7 @@ starttagloop
 case
 NOFRAMES
 :
-startTagScriptInHead
+startTagGenericRawText
 (
 elementName
 attributes
@@ -20600,11 +20600,8 @@ errStrayEndTag
 name
 )
 ;
-mode
-=
-IN_FRAMESET
-;
-continue
+break
+endtagloop
 ;
 case
 TEXT
