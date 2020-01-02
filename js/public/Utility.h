@@ -844,7 +844,7 @@ cx
 ;
 \
 return
-nullptr
+false
 ;
 \
 }

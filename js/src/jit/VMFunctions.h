@@ -4021,7 +4021,7 @@ rval
 ;
 JSObject
 *
-NewGCThing
+NewGCObject
 (
 JSContext
 *
@@ -4031,8 +4031,6 @@ gc
 :
 AllocKind
 allocKind
-size_t
-thingSize
 gc
 :
 :
