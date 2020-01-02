@@ -2140,6 +2140,7 @@ TSATTRID_App_IncorrectGrammar
 #
 undef
 RETURN_GUID_NAME
+return
 GetGUIDNameStr
 (
 aGUID
