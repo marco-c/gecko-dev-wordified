@@ -1692,7 +1692,9 @@ GetFrameMetrics
 (
 )
 .
-mScrollId
+GetScrollId
+(
+)
 ;
 if
 (
@@ -4274,7 +4276,9 @@ if
 (
 metrics
 .
-mScrollId
+GetScrollId
+(
+)
 !
 =
 aLayer

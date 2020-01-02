@@ -193,7 +193,9 @@ FindContentFor
 (
 mFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 )
 ;
 if
@@ -238,7 +240,9 @@ if
 (
 aFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 =
 =
 FrameMetrics

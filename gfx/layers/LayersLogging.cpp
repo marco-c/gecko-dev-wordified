@@ -886,7 +886,9 @@ AppendToString
 s
 m
 .
-mScrollId
+GetScrollId
+(
+)
 "
 scrollId
 =

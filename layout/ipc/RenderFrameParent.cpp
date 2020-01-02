@@ -1464,7 +1464,9 @@ scrollId
 metrics
 -
 >
-mScrollId
+GetScrollId
+(
+)
 ;
 /
 /
@@ -1941,7 +1943,9 @@ scrollId
 metrics
 -
 >
-mScrollId
+GetScrollId
+(
+)
 ;
 const
 nsContentView
@@ -2726,7 +2730,9 @@ scrollId
 =
 metrics
 .
-mScrollId
+GetScrollId
+(
+)
 ;
 gfx3DMatrix
 transform
@@ -4915,7 +4921,9 @@ GetFrameMetrics
 (
 )
 .
-mScrollId
+GetScrollId
+(
+)
 ;
 if
 (

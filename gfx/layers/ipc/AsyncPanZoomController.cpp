@@ -981,7 +981,9 @@ fm
 mPresShellId
 fm
 .
-mScrollId
+GetScrollId
+(
+)
 \
 fm
 .
@@ -2723,7 +2725,9 @@ aGuid
 mPresShellId
 aGuid
 .
-mScrollId
+GetScrollId
+(
+)
 aDesc
 delta
 .
@@ -3684,7 +3688,9 @@ SendReleaseSharedCompositorFrameMetrics
 (
 mFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 mAPZCId
 )
 ;
@@ -12332,7 +12338,9 @@ AcknowledgeScrollUpdate
 (
 aLayerMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 aLayerMetrics
 .
 GetScrollGeneration
@@ -13580,7 +13588,9 @@ mFrameMetrics
 mPresShellId
 mFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 )
 )
 ;
@@ -13614,7 +13624,9 @@ mFrameMetrics
 mPresShellId
 mFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 )
 )
 ;

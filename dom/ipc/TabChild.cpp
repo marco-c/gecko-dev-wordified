@@ -3769,9 +3769,10 @@ defaultZoom
 ;
 metrics
 .
-mScrollId
-=
+SetScrollId
+(
 viewId
+)
 ;
 }
 metrics
@@ -8292,7 +8293,9 @@ MOZ_ASSERT
 (
 aFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 !
 =
 FrameMetrics
@@ -8390,7 +8393,9 @@ FindContentFor
 (
 aFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 )
 ;
 if
