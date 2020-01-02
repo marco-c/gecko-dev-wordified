@@ -225,6 +225,17 @@ MediaKeysBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
 struct
 JSContext
 ;
@@ -412,7 +423,7 @@ Promise
 Update
 (
 const
-Uint8Array
+ArrayBufferViewOrArrayBuffer
 &
 response
 ErrorResult
