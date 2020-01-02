@@ -378,8 +378,6 @@ AutocompletePopup
 )
 =
 >
-{
-return
 require
 (
 "
@@ -394,7 +392,6 @@ popup
 )
 .
 AutocompletePopup
-}
 )
 ;
 /
@@ -868,6 +865,7 @@ null
 template
 :
 function
+MT_template
 (
 aName
 aDest
@@ -952,6 +950,7 @@ exists
 getContainer
 :
 function
+MT_getContainer
 (
 aNode
 )
@@ -1120,6 +1119,7 @@ node
 _onNewSelection
 :
 function
+MT__onNewSelection
 (
 )
 {
@@ -1231,6 +1231,7 @@ selection
 _selectionWalker
 :
 function
+MT__seletionWalker
 (
 aStart
 )
@@ -1329,6 +1330,7 @@ handling
 _onKeyDown
 :
 function
+MT__KeyDown
 (
 aEvent
 )
@@ -1932,6 +1934,7 @@ action
 deleteNode
 :
 function
+MC__deleteNode
 (
 aNode
 )
@@ -2119,6 +2122,7 @@ container
 _onFocus
 :
 function
+MC__onFocus
 (
 aEvent
 )
@@ -2223,6 +2227,7 @@ too
 navigate
 :
 function
+MT__navigate
 (
 aContainer
 aIgnoreFocus
@@ -2399,6 +2404,7 @@ element
 importNode
 :
 function
+MT_importNode
 (
 aNode
 aFlashNode
@@ -2546,6 +2552,7 @@ nodes
 _mutationObserver
 :
 function
+MT__mutationObserver
 (
 aMutations
 )
@@ -2828,6 +2835,7 @@ attention
 _flashMutatedNodes
 :
 function
+MT_flashMutatedNodes
 (
 aMutations
 )
@@ -3102,6 +3110,7 @@ screen
 showNode
 :
 function
+MT_showNode
 (
 aNode
 centered
@@ -3231,6 +3240,7 @@ children
 _expandContainer
 :
 function
+MT__expandContainer
 (
 aContainer
 )
@@ -3281,6 +3291,7 @@ children
 expandNode
 :
 function
+MT_expandNode
 (
 aNode
 )
@@ -3331,6 +3342,7 @@ expand
 _expandAll
 :
 function
+MT_expandAll
 (
 aContainer
 )
@@ -3445,6 +3457,7 @@ top
 expandAll
 :
 function
+MT_expandAll
 (
 aNode
 )
@@ -3490,6 +3503,7 @@ children
 collapseNode
 :
 function
+MT_collapseNode
 (
 aNode
 )
@@ -3560,6 +3574,7 @@ selected
 markNodeAsSelected
 :
 function
+MT_markNodeAsSelected
 (
 aNode
 )
@@ -3762,6 +3777,7 @@ selected
 unmarkSelectedNode
 :
 function
+MT_unmarkSelectedNode
 (
 )
 {
@@ -3809,6 +3825,7 @@ node
 nodeChanged
 :
 function
+MT_nodeChanged
 (
 aNode
 )
@@ -4860,6 +4877,7 @@ container
 _getVisibleChildren
 :
 function
+MV__getVisibleChildren
 (
 aContainer
 aCentered
@@ -4927,6 +4945,7 @@ panel
 destroy
 :
 function
+MT_destroy
 (
 )
 {
@@ -5174,6 +5193,7 @@ panel
 _initPreview
 :
 function
+MT_initPreview
 (
 )
 {
@@ -5389,6 +5409,7 @@ viewbox
 _updatePreview
 :
 function
+MT_updatePreview
 (
 )
 {
@@ -5682,6 +5703,7 @@ slowness
 _resizePreview
 :
 function
+MT_resizePreview
 (
 )
 {
@@ -8264,6 +8286,7 @@ update
 update
 :
 function
+TE_update
 (
 )
 {
@@ -8858,6 +8881,7 @@ node
 update
 :
 function
+EE_update
 (
 parseColors
 =
@@ -9087,6 +9111,7 @@ startModifyingAttributes
 _createAttribute
 :
 function
+EE_createAttribute
 (
 aAttr
 aBefore
@@ -9970,6 +9995,7 @@ them
 _applyAttributes
 :
 function
+EE__applyAttributes
 (
 aValue
 aAttrNode
@@ -10144,6 +10170,7 @@ editing
 onTagEdit
 :
 function
+EE_onTagEdit
 (
 aVal
 aCommit
@@ -10698,13 +10725,6 @@ trim
 (
 )
 ;
-let
-parse
-=
-DOMParser
-.
-parseFromString
-;
 /
 /
 Handle
@@ -10728,7 +10748,9 @@ them
 let
 el
 =
-parse
+DOMParser
+.
+parseFromString
 (
 "
 <
@@ -10759,7 +10781,9 @@ childNodes
 ]
 |
 |
-parse
+DOMParser
+.
+parseFromString
 (
 "
 <
@@ -10792,7 +10816,9 @@ childNodes
 ]
 |
 |
-parse
+DOMParser
+.
+parseFromString
 (
 "
 <
