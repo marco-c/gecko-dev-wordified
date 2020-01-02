@@ -127,15 +127,6 @@ include
 "
 mozilla
 /
-Util
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WindowsDllBlocklist
 .
 h
@@ -223,9 +214,6 @@ InitAutoreleasePool
 ;
 #
 endif
-#
-ifdef
-HAVE_SETBUF
 /
 /
 unbuffer
@@ -254,8 +242,6 @@ stdout
 0
 )
 ;
-#
-endif
 #
 ifdef
 HAS_DLL_BLOCKLIST
