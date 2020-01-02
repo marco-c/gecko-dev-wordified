@@ -393,6 +393,9 @@ mFormat
 bool
 mIsLocked
 ;
+bool
+mNeedsClear
+;
 }
 ;
 /
