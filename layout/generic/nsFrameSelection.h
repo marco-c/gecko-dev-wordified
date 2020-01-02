@@ -4070,6 +4070,17 @@ ClearNormalSelection
 (
 )
 ;
+static
+HINT
+GetHintForPosition
+(
+nsIContent
+*
+aContent
+int32_t
+aOffset
+)
+;
 private
 :
 nsresult
