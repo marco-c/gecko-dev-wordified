@@ -17329,7 +17329,6 @@ rt
 defaultFreeOp
 (
 )
-false
 )
 ;
 }
@@ -23160,13 +23159,6 @@ discardJitCode
 (
 &
 fop
-!
-zone
--
->
-isPreservingCode
-(
-)
 )
 ;
 }
@@ -31233,10 +31225,9 @@ comp
 >
 types
 .
-sweepCompilerOutputs
+clearCompilerOutputs
 (
 fop
-false
 )
 ;
 #
