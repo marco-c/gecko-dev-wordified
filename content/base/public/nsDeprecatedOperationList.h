@@ -206,5 +206,17 @@ MozGetAsFile
 )
 DEPRECATED_OPERATION
 (
+UseOfCaptureEvents
+)
+DEPRECATED_OPERATION
+(
+UseOfReleaseEvents
+)
+DEPRECATED_OPERATION
+(
+UseOfDOM3LoadMethod
+)
+DEPRECATED_OPERATION
+(
 ShowModalDialog
 )
