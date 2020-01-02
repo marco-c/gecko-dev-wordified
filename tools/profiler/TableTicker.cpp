@@ -1782,6 +1782,16 @@ b
 ;
 }
 }
+if
+(
+Sampler
+:
+:
+CanNotifyObservers
+(
+)
+)
+{
 /
 /
 Send
@@ -1856,6 +1866,7 @@ subprocess
 nullptr
 )
 ;
+}
 }
 #
 if
