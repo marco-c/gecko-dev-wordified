@@ -14440,6 +14440,14 @@ BlockOnload
 (
 )
 ;
+nsContentSink
+:
+:
+NotifyDocElementCreated
+(
+this
+)
+;
 }
 /
 /
