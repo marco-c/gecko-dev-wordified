@@ -868,6 +868,10 @@ none
 "
 ;
 }
+let
+data
+string
+;
 try
 {
 /
@@ -891,7 +895,6 @@ stringify
 or
 upload
 .
-let
 string
 =
 JSON
@@ -903,7 +906,6 @@ state
 )
 )
 ;
-let
 data
 =
 JSON
@@ -973,6 +975,15 @@ catch
 ex
 )
 {
+if
+(
+string
+)
+{
+return
+string
+;
+}
 try
 {
 return
