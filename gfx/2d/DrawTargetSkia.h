@@ -138,6 +138,13 @@ h
 #
 include
 "
+HelpersSkia
+.
+h
+"
+#
+include
+"
 Rect
 .
 h
@@ -839,7 +846,7 @@ const
 #
 ifdef
 USE_SKIA_GPU
-SkRefPtr
+RefPtrSkia
 <
 GrContext
 >
@@ -853,7 +860,7 @@ endif
 IntSize
 mSize
 ;
-SkRefPtr
+RefPtrSkia
 <
 SkCanvas
 >
