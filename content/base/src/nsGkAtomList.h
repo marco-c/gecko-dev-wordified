@@ -4292,6 +4292,13 @@ button
 )
 GK_ATOM
 (
+menugroup
+"
+menugroup
+"
+)
+GK_ATOM
+(
 menuitem
 "
 menuitem
