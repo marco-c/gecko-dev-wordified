@@ -5678,6 +5678,9 @@ i
 )
 )
 ;
+#
+ifdef
+DEBUG
 /
 /
 Mark
@@ -5697,6 +5700,8 @@ MarkImmutable
 (
 )
 ;
+#
+endif
 mReporter
 =
 new
