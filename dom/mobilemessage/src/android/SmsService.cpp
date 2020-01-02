@@ -247,6 +247,8 @@ SmsService
 :
 Send
 (
+uint32_t
+aServiceId
 const
 nsAString
 &

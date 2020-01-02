@@ -198,6 +198,8 @@ JSObject
 *
 >
 aGlobal
+uint32_t
+aServiceId
 JS
 :
 :

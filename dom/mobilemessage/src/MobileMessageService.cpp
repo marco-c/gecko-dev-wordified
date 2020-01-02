@@ -188,6 +188,10 @@ aThreadId
 const
 nsAString
 &
+aIccId
+const
+nsAString
+&
 aDelivery
 const
 nsAString
@@ -243,6 +247,7 @@ Create
 (
 aId
 aThreadId
+aIccId
 aDelivery
 aDeliveryStatus
 aSender
@@ -267,6 +272,10 @@ int32_t
 aId
 uint64_t
 aThreadId
+const
+nsAString
+&
+aIccId
 const
 nsAString
 &
@@ -337,6 +346,7 @@ Create
 (
 aId
 aThreadId
+aIccId
 aDelivery
 aDeliveryInfo
 aSender

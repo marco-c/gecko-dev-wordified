@@ -801,6 +801,8 @@ SmsIPCService
 :
 Send
 (
+uint32_t
+aServiceId
 const
 nsAString
 &
@@ -824,6 +826,7 @@ SendMessageRequest
 (
 SendSmsMessageRequest
 (
+aServiceId
 nsString
 (
 aNumber
@@ -1135,6 +1138,8 @@ aResult
 bool
 GetSendMmsMessageRequestFromParams
 (
+uint32_t
+aServiceId
 const
 JS
 :
@@ -1436,6 +1441,20 @@ params
 .
 mSubject
 ;
+/
+/
+Set
+service
+ID
+.
+request
+.
+serviceId
+(
+)
+=
+aServiceId
+;
 return
 true
 ;
@@ -1475,6 +1494,8 @@ SmsIPCService
 :
 Send
 (
+uint32_t
+aServiceId
 const
 JS
 :
@@ -1495,6 +1516,7 @@ if
 !
 GetSendMmsMessageRequestFromParams
 (
+aServiceId
 aParameters
 req
 )

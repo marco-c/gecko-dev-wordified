@@ -11606,6 +11606,10 @@ id
 message
 .
 threadId
+null
+/
+/
+TODO
 message
 .
 delivery
@@ -11980,6 +11984,10 @@ id
 message
 .
 threadId
+null
+/
+/
+TODO
 message
 .
 delivery
@@ -18793,6 +18801,10 @@ id
 sms
 .
 threadId
+null
+/
+/
+TODO
 DOM_MOBILE_MESSAGE_DELIVERY_SENT
 sms
 .
@@ -19054,6 +19066,10 @@ id
 /
 /
 threadId
+null
+/
+/
+TODO
 delivery
 deliveryStatus
 sendingMessage

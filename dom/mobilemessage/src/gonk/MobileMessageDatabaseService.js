@@ -7064,6 +7064,10 @@ id
 aMessageRecord
 .
 threadId
+null
+/
+/
+TODO
 aMessageRecord
 .
 delivery
@@ -7442,6 +7446,10 @@ id
 aMessageRecord
 .
 threadId
+null
+/
+/
+TODO
 aMessageRecord
 .
 delivery
