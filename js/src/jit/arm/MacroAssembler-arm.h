@@ -10078,6 +10078,15 @@ or32
 (
 Imm32
 imm
+Register
+dest
+)
+;
+void
+or32
+(
+Imm32
+imm
 const
 Address
 &
