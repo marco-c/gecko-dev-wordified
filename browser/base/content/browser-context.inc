@@ -2976,9 +2976,9 @@ BrowserSearch
 .
 loadSearchFromContext
 (
-this
-.
-searchTerms
+getBrowserSelection
+(
+)
 )
 ;
 "
