@@ -10858,6 +10858,9 @@ color
 if
 (
 doc
+&
+&
+doc
 -
 >
 IsRootDisplayDocument
