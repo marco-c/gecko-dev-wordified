@@ -3264,7 +3264,7 @@ uint32_t
 hint
 )
 ;
-int
+uint32_t
 getGeneration
 (
 )

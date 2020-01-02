@@ -1637,6 +1637,9 @@ key
 .
 keyCode
 <
+(
+ssize_t
+)
 ArrayLength
 (
 kKeyMapping
