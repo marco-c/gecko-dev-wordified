@@ -828,7 +828,7 @@ n
 }
 }
 ;
-const
+let
 AppFrames
 =
 this
