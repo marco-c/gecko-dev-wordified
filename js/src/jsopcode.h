@@ -1774,7 +1774,7 @@ limit
 is
 determined
 by
-SN_3BYTE_OFFSET_FLAG
+SN_4BYTE_OFFSET_FLAG
 see
 frontend
 /
@@ -1787,7 +1787,7 @@ h
 #
 define
 INDEX_LIMIT_LOG2
-23
+31
 #
 define
 INDEX_LIMIT
