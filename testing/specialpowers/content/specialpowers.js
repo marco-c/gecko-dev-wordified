@@ -1024,3 +1024,9 @@ SpecialPowersManager
 (
 )
 ;
+this
+.
+SpecialPowers
+=
+SpecialPowers
+;

@@ -2164,8 +2164,6 @@ false
 )
 ;
 }
-this
-.
 elementManager
 .
 reset
