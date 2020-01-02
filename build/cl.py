@@ -627,6 +627,13 @@ it
 away
 .
             
+dep
+=
+normcase
+(
+dep
+)
+            
 if
 '
 '
@@ -640,10 +647,7 @@ rule
 add_dependencies
 (
 [
-normcase
-(
 dep
-)
 ]
 )
         
