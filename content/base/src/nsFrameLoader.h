@@ -2795,8 +2795,6 @@ remote
 -
 browser
 -
-frame
--
 pending
 '
 .
