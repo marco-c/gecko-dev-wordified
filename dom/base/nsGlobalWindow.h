@@ -6934,6 +6934,8 @@ nsIDOMWindow
 _retval
 )
 ;
+private
+:
 /
 *
 *
@@ -7331,6 +7333,12 @@ if
 any
 .
 *
+*
+Outer
+windows
+only
+.
+*
 /
 nsresult
 OpenInternal
@@ -7375,6 +7383,8 @@ nsIDOMWindow
 aReturn
 )
 ;
+public
+:
 /
 /
 Timeout
