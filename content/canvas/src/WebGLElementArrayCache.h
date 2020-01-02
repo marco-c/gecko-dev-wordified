@@ -247,7 +247,7 @@ size_t
 byteSize
 )
 ;
-bool
+void
 BufferSubData
 (
 size_t
@@ -423,8 +423,8 @@ mUntypedData
 )
 ;
 }
-bool
-UpdateTrees
+void
+InvalidateTrees
 (
 size_t
 firstByte
