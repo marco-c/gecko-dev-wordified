@@ -24447,14 +24447,9 @@ URLBarSetURI
 aLocationURI
 )
 ;
-/
-/
-Update
-starring
-UI
 BookmarkingUI
 .
-updateStarState
+onLocationChange
 (
 )
 ;
