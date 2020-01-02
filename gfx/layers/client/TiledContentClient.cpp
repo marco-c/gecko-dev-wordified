@@ -2679,11 +2679,6 @@ GetTexturePool
 mFrontBuffer
 -
 >
-AsTextureClientDrawTarget
-(
-)
--
->
 GetFormat
 (
 )
@@ -2736,11 +2731,6 @@ mManager
 GetTexturePool
 (
 mBackBuffer
--
->
-AsTextureClientDrawTarget
-(
-)
 -
 >
 GetFormat
@@ -4499,11 +4489,6 @@ DrawTarget
 drawTarget
 =
 backBuffer
--
->
-AsTextureClientDrawTarget
-(
-)
 -
 >
 GetAsDrawTarget
