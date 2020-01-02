@@ -3381,9 +3381,13 @@ appCache
 )
 {
 return
+Components
+.
+interfaces
+.
 nsICacheEntryOpenCallback
 .
-ENTRY_VALID
+ENTRY_WANTED
 ;
 }
 onCacheEntryAvailable
