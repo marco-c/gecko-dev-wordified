@@ -2104,20 +2104,6 @@ MOZBUILD_DERIVED
 '
             
 '
-NO_MAKEFILE_RULE
-:
-=
-1
-'
-            
-'
-NO_SUBMAKEFILES_RULE
-:
-=
-1
-'
-            
-'
 DIRS
 :
 =
@@ -2393,20 +2379,6 @@ lines
             
 '
 MOZBUILD_DERIVED
-:
-=
-1
-'
-            
-'
-NO_MAKEFILE_RULE
-:
-=
-1
-'
-            
-'
-NO_SUBMAKEFILES_RULE
 :
 =
 1
