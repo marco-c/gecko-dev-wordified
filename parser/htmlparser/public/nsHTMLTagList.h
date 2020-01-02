@@ -750,6 +750,11 @@ HTML_TAG
 param
 Shared
 )
+HTML_TAG
+(
+picture
+Picture
+)
 HTML_HTMLELEMENT_TAG
 (
 plaintext
