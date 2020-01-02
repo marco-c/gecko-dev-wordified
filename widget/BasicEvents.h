@@ -449,7 +449,7 @@ eScrollAreaEventClass
 /
 /
 InternalScrollAreaEvent
-NS_FORM_EVENT
+eFormEventClass
 /
 /
 InternalFormEvent
