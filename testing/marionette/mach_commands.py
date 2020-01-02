@@ -219,7 +219,7 @@ import
         
 MarionetteTestRunner
         
-MarionetteTestOptions
+BaseMarionetteOptions
         
 startTestRunner
     
@@ -227,7 +227,7 @@ startTestRunner
     
 parser
 =
-MarionetteTestOptions
+BaseMarionetteOptions
 (
 )
     
