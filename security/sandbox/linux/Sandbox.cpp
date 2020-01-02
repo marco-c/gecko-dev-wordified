@@ -574,7 +574,7 @@ nullptr
 i
 )
 {
-nsAutoCString
+nsAutoString
 fileName
 funName
 ;
@@ -696,7 +696,10 @@ anonymous
 )
 "
 :
+NS_ConvertUTF16toUTF8
+(
 funName
+)
 .
 get
 (
@@ -714,7 +717,10 @@ file
 )
 "
 :
+NS_ConvertUTF16toUTF8
+(
 fileName
+)
 .
 get
 (
