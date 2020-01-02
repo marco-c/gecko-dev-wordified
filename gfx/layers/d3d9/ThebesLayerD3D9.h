@@ -446,7 +446,10 @@ void
 CreateNewTextures
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 SurfaceMode

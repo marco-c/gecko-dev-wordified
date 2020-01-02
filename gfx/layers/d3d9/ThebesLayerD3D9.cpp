@@ -804,7 +804,10 @@ mVisibleRegion
 ;
 CreateNewTextures
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 visibleRect
 .
@@ -948,7 +951,10 @@ else
 {
 CreateNewTextures
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 visibleRect
 .
@@ -3794,7 +3800,10 @@ ThebesLayerD3D9
 CreateNewTextures
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 SurfaceMode
