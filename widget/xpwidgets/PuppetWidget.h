@@ -1049,6 +1049,11 @@ NotifyIMEOfSelectionChange
 (
 )
 ;
+nsresult
+NotifyIMEOfUpdateComposition
+(
+)
+;
 class
 PaintTask
 :
