@@ -215,15 +215,11 @@ CallbackFunction
 JSObject
 *
 aCallable
-nsIGlobalObject
-*
-aIncumbentGlobal
 )
 :
 CallbackObject
 (
 aCallable
-aIncumbentGlobal
 )
 {
 MOZ_ASSERT
