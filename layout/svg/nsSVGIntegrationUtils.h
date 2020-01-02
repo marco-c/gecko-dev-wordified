@@ -654,7 +654,13 @@ code
 *
 /
 static
-gfxSize
+mozilla
+:
+:
+gfx
+:
+:
+Size
 GetSVGCoordContextForNonSVGFrame
 (
 nsIFrame
