@@ -596,7 +596,7 @@ isnot
 (
 installInfo
 .
-originatingWindow
+originator
 null
 "
 Notification
@@ -605,7 +605,7 @@ have
 non
 -
 null
-originatingWindow
+originator
 "
 )
 ;

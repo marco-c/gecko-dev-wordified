@@ -11508,6 +11508,16 @@ Ci
 .
 nsIDOMWindow
 )
+&
+&
+!
+(
+aSource
+instanceof
+Ci
+.
+nsIDOMNode
+)
 )
 throw
 Components
@@ -11520,6 +11530,9 @@ must
 be
 a
 nsIDOMWindow
+a
+XUL
+element
 or
 null
 "
