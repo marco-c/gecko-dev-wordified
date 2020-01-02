@@ -1291,7 +1291,6 @@ in
 ]
 )
 {
-register
 u32
 a
 b
