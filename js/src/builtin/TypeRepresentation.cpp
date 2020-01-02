@@ -2384,9 +2384,10 @@ comp
 >
 typeReprs
 .
-add
+relookupOrAdd
 (
 p
+this
 this
 )
 )
