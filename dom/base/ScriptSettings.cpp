@@ -1669,6 +1669,10 @@ Ref
 (
 )
 )
+mWebIDLCallerPrincipal
+(
+nullptr
+)
 {
 MOZ_ASSERT
 (
