@@ -130,6 +130,8 @@ TextureHost
 >
 CreateTextureHostBasic
 (
+uint64_t
+aID
 const
 SurfaceDescriptor
 &
@@ -182,6 +184,7 @@ result
 new
 MacIOSurfaceTextureHostBasic
 (
+aID
 aFlags
 desc
 )
@@ -198,6 +201,7 @@ result
 =
 CreateBackendIndependentTextureHost
 (
+aID
 aDesc
 aDeallocator
 aFlags

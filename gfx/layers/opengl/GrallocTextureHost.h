@@ -344,9 +344,6 @@ gfx
 SurfaceFormat
 mFormat
 ;
-bool
-mNeedsReset
-;
 }
 ;
 class
@@ -363,6 +360,8 @@ public
 :
 GrallocTextureHostOGL
 (
+uint64_t
+aID
 TextureFlags
 aFlags
 const
@@ -416,13 +415,6 @@ MOZ_OVERRIDE
 virtual
 void
 DeallocateSharedData
-(
-)
-MOZ_OVERRIDE
-;
-virtual
-void
-ForgetSharedData
 (
 )
 MOZ_OVERRIDE

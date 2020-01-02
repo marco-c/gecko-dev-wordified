@@ -308,6 +308,8 @@ public
 :
 MacIOSurfaceTextureHostBasic
 (
+uint64_t
+aID
 TextureFlags
 aFlags
 const

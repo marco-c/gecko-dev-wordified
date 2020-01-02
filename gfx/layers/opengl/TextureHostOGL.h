@@ -1602,6 +1602,8 @@ public
 :
 SharedTextureHostOGL
 (
+uint64_t
+aID
 TextureFlags
 aFlags
 gl
