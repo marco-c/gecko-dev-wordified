@@ -130,12 +130,9 @@ const
 OPEN_H264_ID
 =
 "
-openh264
+gmp
 -
-plugin
-cisco
-.
-com
+gmpopenh264
 "
 ;
 Cu
