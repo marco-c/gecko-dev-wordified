@@ -675,11 +675,7 @@ res
 updateConfiguration
 (
 config
-res
-.
-getDisplayMetrics
-(
-)
+null
 )
 ;
 return

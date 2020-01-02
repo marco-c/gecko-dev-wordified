@@ -1284,11 +1284,7 @@ res
 updateConfiguration
 (
 config
-res
-.
-getDisplayMetrics
-(
-)
+null
 )
 ;
 }
@@ -1775,11 +1771,7 @@ res
 updateConfiguration
 (
 config
-res
-.
-getDisplayMetrics
-(
-)
+null
 )
 ;
 }
