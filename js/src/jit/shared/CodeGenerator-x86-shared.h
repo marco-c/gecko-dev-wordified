@@ -576,6 +576,15 @@ ins
 ;
 virtual
 bool
+visitSqrtF
+(
+LSqrtF
+*
+ins
+)
+;
+virtual
+bool
 visitPowHalfD
 (
 LPowHalfD
