@@ -11310,7 +11310,7 @@ RootedString
 edge
 (
 cx
-js_NewString
+NewString
 <
 CanGC
 >

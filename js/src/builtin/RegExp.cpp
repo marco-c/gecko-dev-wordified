@@ -434,7 +434,7 @@ JSLinearString
 *
 str
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 input

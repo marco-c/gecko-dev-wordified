@@ -3150,7 +3150,7 @@ c
 )
 ;
 return
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >

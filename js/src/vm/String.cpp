@@ -3572,7 +3572,7 @@ JSFatInlineString
 *
 str
 =
-js_NewGCFatInlineString
+NewGCFatInlineString
 <
 allowGC
 >
@@ -5280,7 +5280,7 @@ JSFlatString
 *
 s
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -5358,7 +5358,7 @@ JSFlatString
 *
 s
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -5541,7 +5541,7 @@ JSFlatString
 *
 s
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >

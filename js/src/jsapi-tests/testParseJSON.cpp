@@ -502,7 +502,10 @@ emptystr
 ;
 str
 =
-js_NewStringCopyN
+js
+:
+:
+NewStringCopyN
 <
 CanGC
 >
@@ -1042,7 +1045,10 @@ N
 )
 {
 return
-js_NewStringCopyN
+js
+:
+:
+NewStringCopyN
 <
 CanGC
 >

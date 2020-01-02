@@ -8475,7 +8475,7 @@ return
 nullptr
 ;
 return
-js_NewStringCopyZ
+NewStringCopyZ
 <
 CanGC
 >

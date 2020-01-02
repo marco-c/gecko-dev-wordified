@@ -7570,7 +7570,7 @@ hasLatin1Chars
 (
 )
 ?
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -7586,7 +7586,7 @@ nogc
 len
 )
 :
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -7637,7 +7637,7 @@ isLatin1
 (
 )
 ?
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -7659,7 +7659,7 @@ get
 len
 )
 :
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >

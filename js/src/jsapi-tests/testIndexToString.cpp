@@ -810,7 +810,10 @@ N
 )
 {
 return
-js_NewStringCopyN
+js
+:
+:
+NewStringCopyN
 <
 js
 :

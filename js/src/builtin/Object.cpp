@@ -974,7 +974,7 @@ foundCycle
 )
 )
 return
-js_NewStringCopyZ
+NewStringCopyZ
 <
 CanGC
 >

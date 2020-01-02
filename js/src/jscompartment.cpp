@@ -1704,7 +1704,7 @@ nogc
 ;
 copy
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -1735,7 +1735,7 @@ nogc
 ;
 copy
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -1790,7 +1790,7 @@ isLatin1
 (
 )
 ?
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -1812,7 +1812,7 @@ get
 len
 )
 :
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -1871,7 +1871,7 @@ return
 nullptr
 ;
 return
-js_NewString
+NewString
 <
 CanGC
 >
@@ -1912,7 +1912,7 @@ return
 nullptr
 ;
 return
-js_NewString
+NewString
 <
 CanGC
 >

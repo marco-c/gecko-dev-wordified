@@ -2263,7 +2263,7 @@ a
 GC
 occurs
 at
-js_NewStringCopy
+NewStringCopy
 then
 |
 p
@@ -2390,7 +2390,7 @@ JSFlatString
 *
 flat
 =
-js_NewString
+NewString
 <
 NoGC
 >
@@ -2654,7 +2654,7 @@ JSFlatString
 *
 flat
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
