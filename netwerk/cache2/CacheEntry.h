@@ -1091,7 +1091,7 @@ false
 ;
 already_AddRefed
 <
-CacheEntry
+CacheEntryHandle
 >
 ReopenTruncated
 (
