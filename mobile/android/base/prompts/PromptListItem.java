@@ -251,7 +251,7 @@ aObject
 optJSONObject
 (
 "
-shareData
+showAsActions
 "
 )
 ;
@@ -304,6 +304,9 @@ type
 )
 ?
 "
+text
+/
+html
 "
 :
 obj
@@ -312,6 +315,11 @@ optString
 (
 "
 type
+"
+"
+text
+/
+html
 "
 )
 ;
