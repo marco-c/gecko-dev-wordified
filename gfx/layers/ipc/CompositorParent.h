@@ -1795,11 +1795,6 @@ CanComposite
 (
 )
 ;
-void
-DidComposite
-(
-)
-;
 nsRefPtr
 <
 LayerManagerComposite
