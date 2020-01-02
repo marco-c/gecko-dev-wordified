@@ -500,7 +500,6 @@ mContentClient
 >
 BorrowDrawTargetForPainting
 (
-this
 state
 )
 )
