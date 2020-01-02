@@ -145,6 +145,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsDOMTextEvent
 :
 :
@@ -167,7 +174,7 @@ WidgetTextEvent
 aEvent
 )
 :
-nsDOMUIEvent
+UIEvent
 (
 aOwner
 aPresContext
@@ -368,12 +375,12 @@ tempPrivateTextRange
 NS_IMPL_ADDREF_INHERITED
 (
 nsDOMTextEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsDOMTextEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -385,7 +392,7 @@ nsIPrivateTextEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMUIEvent
+UIEvent
 )
 NS_METHOD
 nsDOMTextEvent

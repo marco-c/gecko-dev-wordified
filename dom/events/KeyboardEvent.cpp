@@ -142,7 +142,7 @@ WidgetKeyboardEvent
 aEvent
 )
 :
-nsDOMUIEvent
+UIEvent
 (
 aOwner
 aPresContext
@@ -217,12 +217,12 @@ KEY_NAME_INDEX_USE_STRING
 NS_IMPL_ADDREF_INHERITED
 (
 KeyboardEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 KeyboardEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -234,7 +234,7 @@ nsIDOMKeyEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMUIEvent
+UIEvent
 )
 bool
 KeyboardEvent
@@ -863,7 +863,7 @@ aCharCode
 nsresult
 rv
 =
-nsDOMUIEvent
+UIEvent
 :
 :
 InitUIEvent

@@ -152,7 +152,7 @@ WidgetInputEvent
 aEvent
 )
 :
-nsDOMUIEvent
+UIEvent
 (
 aOwner
 aPresContext
@@ -199,17 +199,17 @@ PR_Now
 NS_IMPL_ADDREF_INHERITED
 (
 XULCommandEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 XULCommandEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_IMPL_CYCLE_COLLECTION_INHERITED_1
 (
 XULCommandEvent
-nsDOMUIEvent
+UIEvent
 mSourceEvent
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
@@ -222,7 +222,7 @@ nsIDOMXULCommandEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMUIEvent
+UIEvent
 )
 bool
 XULCommandEvent
@@ -487,7 +487,7 @@ aSourceEvent
 nsresult
 rv
 =
-nsDOMUIEvent
+UIEvent
 :
 :
 InitUIEvent

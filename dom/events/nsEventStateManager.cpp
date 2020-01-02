@@ -179,6 +179,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+UIEvent
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -432,13 +443,6 @@ h
 include
 "
 nsIDOMUIEvent
-.
-h
-"
-#
-include
-"
-nsDOMUIEvent
 .
 h
 "
@@ -6196,7 +6200,7 @@ sIsPointerLocked
 {
 sLastScreenPoint
 =
-nsDOMUIEvent
+UIEvent
 :
 :
 CalculateScreenPoint
@@ -6207,7 +6211,7 @@ aEvent
 ;
 sLastClientPoint
 =
-nsDOMUIEvent
+UIEvent
 :
 :
 CalculateClientPoint
@@ -26449,7 +26453,7 @@ units
 that
 /
 /
-nsDOMUIEvent
+UIEvent
 :
 :
 refPoint
@@ -26803,7 +26807,7 @@ Movement
 is
 calculated
 in
-nsDOMUIEvent
+UIEvent
 :
 :
 GetMovementPoint

@@ -251,7 +251,7 @@ WidgetGUIEvent
 aEvent
 )
 :
-nsDOMUIEvent
+UIEvent
 (
 aOwner
 aPresContext
