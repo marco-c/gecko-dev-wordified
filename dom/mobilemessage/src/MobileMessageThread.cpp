@@ -802,11 +802,8 @@ mData
 participants
 (
 )
+&
 obj
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

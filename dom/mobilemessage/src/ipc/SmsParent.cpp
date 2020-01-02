@@ -753,11 +753,8 @@ aRequest
 receivers
 (
 )
+&
 receiverArray
-.
-address
-(
-)
 )
 )
 )

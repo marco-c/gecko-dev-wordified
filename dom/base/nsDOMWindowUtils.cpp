@@ -15959,11 +15959,8 @@ nsTArrayToJSArray
 (
 cx
 plugins
+&
 jsPlugins
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

@@ -2719,7 +2719,7 @@ Rooted
 JSObject
 *
 >
-reveiversObj
+receiversObj
 (
 aCx
 )
@@ -2731,11 +2731,8 @@ nsTArrayToJSArray
 (
 aCx
 mReceivers
-reveiversObj
-.
-address
-(
-)
+&
+receiversObj
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2749,7 +2746,7 @@ aReceivers
 setObject
 (
 *
-reveiversObj
+receiversObj
 )
 ;
 return
