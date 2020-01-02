@@ -1385,7 +1385,7 @@ rv
 scopeURI
 -
 >
-GetSpec
+GetSpecIgnoringRef
 (
 cleanedScope
 )
