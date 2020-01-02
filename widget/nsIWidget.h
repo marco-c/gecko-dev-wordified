@@ -1244,6 +1244,7 @@ DEFAULT_CONDITIONS_OF_NOTIFYING_CHANGES
 )
 {
 }
+explicit
 nsIMEUpdatePreference
 (
 Notifications
@@ -1896,6 +1897,7 @@ DONT_CHANGE_OPEN_STATE
 )
 {
 }
+explicit
 IMEState
 (
 Enabled
@@ -2294,6 +2296,7 @@ FOCUS_NOT_CHANGED
 )
 {
 }
+explicit
 InputContextAction
 (
 Cause
@@ -2543,6 +2546,7 @@ REQUEST_TO_CANCEL_COMPOSITION
 struct
 IMENotification
 {
+MOZ_IMPLICIT
 IMENotification
 (
 IMEMessage

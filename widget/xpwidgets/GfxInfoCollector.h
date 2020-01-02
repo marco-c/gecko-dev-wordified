@@ -244,6 +244,7 @@ GC
 sees
 it
 properly
+explicit
 InfoObject
 (
 JSContext
