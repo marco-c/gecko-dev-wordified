@@ -1506,9 +1506,9 @@ GlobalObject
 *
 >
 obj
-AutoDebugModeGC
+AutoDebugModeInvalidation
 &
-dmgc
+invalidate
 )
 ;
 void
@@ -1543,9 +1543,9 @@ fop
 GlobalObject
 *
 global
-AutoDebugModeGC
+AutoDebugModeInvalidation
 &
-dmgc
+invalidate
 GlobalObjectSet
 :
 :
