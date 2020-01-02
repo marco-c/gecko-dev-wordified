@@ -5884,7 +5884,7 @@ i
 FloatRegisters
 :
 :
-Total
+TotalPhys
 ;
 i
 +
@@ -10475,7 +10475,7 @@ int
 FloatRegisters
 :
 :
-Total
+TotalPhys
 )
 )
 ;
@@ -10524,7 +10524,7 @@ int
 FloatRegisters
 :
 :
-Total
+TotalPhys
 )
 )
 ;
@@ -10572,7 +10572,7 @@ int
 FloatRegisters
 :
 :
-Total
+TotalPhys
 )
 )
 ;
@@ -10623,7 +10623,7 @@ int
 FloatRegisters
 :
 :
-Total
+TotalPhys
 )
 )
 ;
@@ -11026,7 +11026,7 @@ int
 FloatRegisters
 :
 :
-Total
+TotalPhys
 )
 )
 ;
@@ -11131,7 +11131,7 @@ int
 FloatRegisters
 :
 :
-Total
+TotalPhys
 )
 )
 ;
@@ -15415,7 +15415,7 @@ i
 FloatRegisters
 :
 :
-Total
+TotalPhys
 ;
 i
 +

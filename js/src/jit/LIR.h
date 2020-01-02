@@ -1242,7 +1242,7 @@ const
 uint32_t
 REG_BITS
 =
-5
+6
 ;
 static
 const
@@ -1322,7 +1322,7 @@ registers
 get
 the
 remaining
-20
+19
 bits
 .
 static
@@ -2905,12 +2905,6 @@ if
 defined
 (
 JS_CODEGEN_ARM
-)
-&
-&
-defined
-(
-EVERYONE_KNOWS_ABOUT_ALIASING
 )
 if
 (

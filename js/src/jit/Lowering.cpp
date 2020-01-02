@@ -22271,7 +22271,7 @@ hasMultiAlias
 (
 )
 ?
-tempFloat32
+tempDouble
 (
 )
 :
@@ -22296,7 +22296,7 @@ useRegister
 (
 input
 )
-tempFloat32
+tempDouble
 (
 )
 armtemp
