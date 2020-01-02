@@ -653,10 +653,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
     
@@ -678,10 +678,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
     
@@ -728,10 +728,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
     
@@ -753,10 +753,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
     
@@ -778,10 +778,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
     
@@ -803,10 +803,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
     
@@ -828,10 +828,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
 elif
