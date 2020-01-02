@@ -132,7 +132,7 @@ include
 "
 insanity
 /
-ScopedPtr
+pkixtypes
 .
 h
 "
@@ -237,8 +237,13 @@ optional
 out
 *
 /
-CERTCertList
-*
+insanity
+:
+:
+pkix
+:
+:
+ScopedCERTCertList
 *
 validationChain
 =

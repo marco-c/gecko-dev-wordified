@@ -6560,7 +6560,7 @@ derCert
 len
 )
 ;
-MOZ_ASSERT
+PR_ASSERT
 (
 rv
 =
@@ -6589,7 +6589,7 @@ ev_root_sha1_fingerprint
 20
 )
 ;
-MOZ_ASSERT
+PR_ASSERT
 (
 same
 )
@@ -6627,7 +6627,7 @@ dotted_oid
 0
 )
 ;
-MOZ_ASSERT
+PR_ASSERT
 (
 rv
 =
