@@ -3785,6 +3785,8 @@ popupURIspec
 blockedPopup
 .
 popupWindowURI
+.
+spec
 ;
 /
 /
