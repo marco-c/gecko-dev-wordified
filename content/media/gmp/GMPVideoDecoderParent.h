@@ -239,8 +239,10 @@ virtual
 nsresult
 Decode
 (
+UniquePtr
+<
 GMPVideoEncodedFrame
-*
+>
 aInputFrame
 bool
 aMissingFrames
