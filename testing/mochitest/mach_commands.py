@@ -2433,6 +2433,25 @@ dumpOutputDirectory
 =
 dump_output_directory
         
+mozinfo
+.
+update
+(
+{
+"
+e10s
+"
+:
+e10s
+}
+)
+#
+for
+test
+manifest
+parsing
+.
+        
 options
 .
 failureFile

@@ -4473,28 +4473,11 @@ is
 None
 :
             
-#
-Make
-sure
-to
-return
-all
-the
-manifests
-even
-ones
-without
 tests
-.
-            
-return
+=
 self
 .
-manifest_defaults
-.
-keys
-(
-)
+tests
         
 manifests
 =

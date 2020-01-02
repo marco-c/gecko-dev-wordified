@@ -3576,27 +3576,6 @@ paths
 "
 "
         
-mozinfo
-.
-update
-(
-{
-"
-e10s
-"
-:
-options
-.
-e10s
-}
-)
-#
-for
-test
-manifest
-parsing
-.
-        
 if
 options
 .
