@@ -1985,16 +1985,6 @@ aObject
 )
 ;
 virtual
-void
-SetScriptsEnabled
-(
-bool
-aEnabled
-bool
-aFireTimeouts
-)
-;
-virtual
 bool
 IsBlackForCC
 (
