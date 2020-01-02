@@ -129,6 +129,11 @@ MOZ_FINAL
 public
 nsICollation
 {
+~
+nsCollationWin
+(
+)
+;
 protected
 :
 nsCollation
@@ -151,11 +156,6 @@ locale
 ID
 public
 :
-nsCollationWin
-(
-)
-;
-~
 nsCollationWin
 (
 )
