@@ -299,6 +299,13 @@ Release
 (
 )
 {
+nsrefcnt
+count
+=
+mRefCnt
+-
+1
+;
 if
 (
 DispatchRelease
@@ -315,9 +322,7 @@ main
 thread
 .
 return
-mRefCnt
--
-1
+count
 ;
 }
 NS_PRECONDITION
@@ -332,7 +337,6 @@ release
 "
 )
 ;
-nsrefcnt
 count
 =
 -
