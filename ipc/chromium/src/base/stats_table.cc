@@ -2168,7 +2168,7 @@ if
 !
 impl_
 )
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -2198,7 +2198,7 @@ if
 !
 impl_
 )
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

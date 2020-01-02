@@ -137,7 +137,7 @@ get
 NULL
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -191,7 +191,7 @@ get
 NULL
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )

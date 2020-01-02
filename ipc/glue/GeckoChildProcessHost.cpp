@@ -4284,7 +4284,7 @@ err
 )
 )
 ;
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -4324,7 +4324,7 @@ child_task
 MACH_PORT_NULL
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -4357,7 +4357,7 @@ GetTranslatedPort
 MACH_PORT_NULL
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -4411,7 +4411,7 @@ bootstrap_port
 )
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -4477,7 +4477,7 @@ err
 )
 )
 ;
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

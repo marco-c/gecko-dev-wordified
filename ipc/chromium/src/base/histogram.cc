@@ -161,7 +161,7 @@ DVLOG
 (
 x
 )
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1855,7 +1855,7 @@ pickle
 )
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1946,7 +1946,7 @@ bucket_count
 2
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -2064,7 +2064,7 @@ flags
 }
 else
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -3266,7 +3266,7 @@ n
 output
 )
 ;
-LOG
+CHROMIUM_LOG
 (
 INFO
 )
@@ -9015,7 +9015,7 @@ WriteGraph
 output
 )
 ;
-LOG
+CHROMIUM_LOG
 (
 INFO
 )

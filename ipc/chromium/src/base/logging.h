@@ -432,7 +432,7 @@ ifdef
 NO_CHROMIUM_LOGGING
 #
 define
-LOG
+CHROMIUM_LOG
 (
 info
 )
@@ -466,7 +466,7 @@ stringstream
 else
 #
 define
-LOG
+CHROMIUM_LOG
 (
 info
 )
@@ -526,7 +526,7 @@ DLOG
 (
 info
 )
-LOG
+CHROMIUM_LOG
 (
 info
 )
@@ -625,7 +625,7 @@ define
 NOTREACHED
 (
 )
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -634,7 +634,7 @@ define
 NOTIMPLEMENTED
 (
 )
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

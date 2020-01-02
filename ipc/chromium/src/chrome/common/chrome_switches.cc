@@ -1703,7 +1703,7 @@ and
 received
 messages
 to
-LOG
+CHROMIUM_LOG
 (
 INFO
 )

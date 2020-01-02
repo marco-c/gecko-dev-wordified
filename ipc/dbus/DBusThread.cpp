@@ -456,7 +456,7 @@ h
 "
 #
 undef
-LOG
+CHROMIUM_LOG
 #
 if
 defined
@@ -474,7 +474,7 @@ h
 >
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -498,7 +498,7 @@ BTDEBUG
 true
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .

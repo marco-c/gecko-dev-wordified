@@ -461,7 +461,7 @@ been
 closed
 already
 .
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1357,7 +1357,7 @@ be
 gone
 already
 .
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1956,7 +1956,7 @@ return
 true
 ;
 }
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -2048,7 +2048,7 @@ clear
 (
 )
 ;
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -2367,7 +2367,7 @@ GetLastError
 (
 )
 ;
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -2561,7 +2561,7 @@ return
 true
 ;
 }
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

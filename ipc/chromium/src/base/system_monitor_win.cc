@@ -246,7 +246,7 @@ status
 )
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

@@ -2100,7 +2100,7 @@ file
 INVALID_HANDLE_VALUE
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -2200,7 +2200,7 @@ result
 WriteFile
 failed
 .
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -2258,7 +2258,7 @@ all
 the
 bytes
 .
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )

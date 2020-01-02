@@ -905,7 +905,7 @@ should
 be
 fixed
 .
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )

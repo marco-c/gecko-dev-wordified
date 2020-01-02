@@ -111,7 +111,7 @@ path_
 true
 )
 )
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

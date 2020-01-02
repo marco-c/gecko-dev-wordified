@@ -224,7 +224,7 @@ MAX_READ_SIZE
 ;
 #
 undef
-LOG
+CHROMIUM_LOG
 #
 if
 defined
@@ -242,7 +242,7 @@ h
 >
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -266,7 +266,7 @@ BTDEBUG
 true
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -2369,7 +2369,7 @@ mAddrSize
 #
 ifdef
 DEBUG
-LOG
+CHROMIUM_LOG
 (
 "
 .
@@ -2414,7 +2414,7 @@ get
 #
 ifdef
 DEBUG
-LOG
+CHROMIUM_LOG
 (
 "
 .
@@ -2901,7 +2901,7 @@ this
 #
 ifdef
 DEBUG
-LOG
+CHROMIUM_LOG
 (
 "
 UnixSocket
@@ -2919,7 +2919,7 @@ return
 #
 if
 DEBUG
-LOG
+CHROMIUM_LOG
 (
 "
 Socket

@@ -1763,7 +1763,7 @@ this
 false
 negative
 .
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

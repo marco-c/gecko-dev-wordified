@@ -885,7 +885,7 @@ called
 We
 do
 not
-LOG
+CHROMIUM_LOG
 (
 FATAL
 )
@@ -902,7 +902,7 @@ be
 triggered
 by
 a
-LOG
+CHROMIUM_LOG
 (
 FATAL
 )
@@ -930,7 +930,7 @@ if
 initialized_
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -991,7 +991,7 @@ been
 called
 .
 We
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1001,7 +1001,7 @@ situation
 .
 /
 /
-LOG
+CHROMIUM_LOG
 (
 FATAL
 )
@@ -1019,7 +1019,7 @@ triggered
 /
 by
 a
-LOG
+CHROMIUM_LOG
 (
 FATAL
 )
@@ -1036,7 +1036,7 @@ if
 initialized_
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1144,7 +1144,7 @@ do
 not
 /
 /
-LOG
+CHROMIUM_LOG
 (
 FATAL
 )
@@ -1161,7 +1161,7 @@ by
 a
 /
 /
-LOG
+CHROMIUM_LOG
 (
 FATAL
 )

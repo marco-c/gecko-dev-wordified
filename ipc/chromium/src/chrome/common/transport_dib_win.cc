@@ -274,7 +274,7 @@ segment
 )
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

@@ -129,7 +129,7 @@ h
 >
 #
 undef
-LOG
+CHROMIUM_LOG
 #
 if
 defined
@@ -147,7 +147,7 @@ h
 >
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -166,7 +166,7 @@ args
 else
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .

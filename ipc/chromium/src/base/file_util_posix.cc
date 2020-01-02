@@ -1001,7 +1001,7 @@ if
 fts
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1457,7 +1457,7 @@ with
 broken
 target
 .
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1492,7 +1492,7 @@ sort
 of
 file
 .
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1612,7 +1612,7 @@ if
 error
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
