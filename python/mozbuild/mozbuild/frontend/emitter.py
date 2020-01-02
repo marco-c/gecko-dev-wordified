@@ -107,6 +107,8 @@ GeneratedEventWebIDLFile
     
 GeneratedWebIDLFile
     
+InstallationTarget
+    
 IPDLFile
     
 LocalInclude
@@ -1364,6 +1366,43 @@ klass
 (
 sandbox
 name
+)
+        
+if
+sandbox
+.
+get
+(
+'
+FINAL_TARGET
+'
+)
+or
+sandbox
+.
+get
+(
+'
+XPI_NAME
+'
+)
+or
+\
+                
+sandbox
+.
+get
+(
+'
+DIST_SUBDIR
+'
+)
+:
+            
+yield
+InstallationTarget
+(
+sandbox
 )
         
 #
