@@ -6081,7 +6081,7 @@ self
 _send_message
 (
 "
-getCurrentWindowHandle
+getWindowHandle
 "
 "
 value
