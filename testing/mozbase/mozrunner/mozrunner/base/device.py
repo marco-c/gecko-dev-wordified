@@ -592,25 +592,6 @@ wait_for_net
         
 if
 not
-isinstance
-(
-self
-.
-device
-Emulator
-)
-:
-            
-self
-.
-device
-.
-reboot
-(
-)
-        
-if
-not
 self
 .
 device
