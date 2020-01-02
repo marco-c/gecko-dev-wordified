@@ -260,7 +260,7 @@ nsIStatefulFrame
 public
 :
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewComboboxControlFrame
 (

@@ -513,7 +513,7 @@ aFrame
 /
 /
 Implementation
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGOuterSVGFrame
 (
@@ -6779,7 +6779,7 @@ GetBaseValInSpecifiedUnits
 Implementation
 of
 nsSVGOuterSVGAnonChildFrame
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGOuterSVGAnonChildFrame
 (

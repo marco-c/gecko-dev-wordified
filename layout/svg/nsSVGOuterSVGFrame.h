@@ -221,7 +221,7 @@ public
 nsISVGSVGFrame
 {
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGOuterSVGFrame
 (
@@ -1589,7 +1589,7 @@ public
 nsSVGOuterSVGAnonChildFrameBase
 {
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGOuterSVGAnonChildFrame
 (

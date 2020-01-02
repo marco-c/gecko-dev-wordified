@@ -10673,7 +10673,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsFlexContainerFrame
 )
-nsIFrame
+nsContainerFrame
 *
 NS_NewFlexContainerFrame
 (

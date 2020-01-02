@@ -9060,7 +9060,7 @@ methods
 -
 *
 /
-nsIFrame
+nsTableRowFrame
 *
 NS_NewTableRowFrame
 (

@@ -292,7 +292,7 @@ layout
 Basic
 nsInlineFrame
 methods
-nsIFrame
+nsInlineFrame
 *
 NS_NewInlineFrame
 (

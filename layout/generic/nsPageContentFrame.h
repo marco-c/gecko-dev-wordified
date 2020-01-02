@@ -143,7 +143,7 @@ public
 :
 NS_DECL_FRAMEARENA_HELPERS
 friend
-nsIFrame
+nsPageContentFrame
 *
 NS_NewPageContentFrame
 (

@@ -826,7 +826,7 @@ aResult
 }
 #
 endif
-nsIFrame
+nsTableCaptionFrame
 *
 NS_NewTableCaptionFrame
 (
@@ -6674,7 +6674,7 @@ GetContent
 )
 ;
 }
-nsIFrame
+nsTableOuterFrame
 *
 NS_NewTableOuterFrame
 (

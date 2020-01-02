@@ -23813,7 +23813,7 @@ methods
 -
 *
 /
-nsIFrame
+nsTableFrame
 *
 NS_NewTableFrame
 (

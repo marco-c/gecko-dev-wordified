@@ -245,7 +245,7 @@ created
 *
 /
 friend
-nsIFrame
+nsTableColGroupFrame
 *
 NS_NewTableColGroupFrame
 (

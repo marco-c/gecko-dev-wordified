@@ -783,7 +783,7 @@ created
 *
 /
 friend
-nsIFrame
+nsTableFrame
 *
 NS_NewTableFrame
 (

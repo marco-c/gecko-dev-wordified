@@ -238,7 +238,7 @@ mozilla
 :
 gfx
 ;
-nsIFrame
+nsCanvasFrame
 *
 NS_NewCanvasFrame
 (

@@ -11023,7 +11023,7 @@ methods
 -
 *
 /
-nsIFrame
+nsTableRowGroupFrame
 *
 NS_NewTableRowGroupFrame
 (

@@ -178,7 +178,7 @@ mozilla
 :
 gfx
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGMarkerFrame
 (
@@ -1667,7 +1667,7 @@ false
 Implementation
 of
 nsSVGMarkerAnonChildFrame
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGMarkerAnonChildFrame
 (

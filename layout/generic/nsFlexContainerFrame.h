@@ -145,7 +145,7 @@ class
 LinkedList
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 NS_NewFlexContainerFrame
 (
@@ -181,7 +181,7 @@ Factory
 method
 :
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewFlexContainerFrame
 (

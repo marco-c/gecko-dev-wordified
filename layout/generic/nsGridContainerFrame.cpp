@@ -270,7 +270,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsGridContainerFrame
 )
-nsIFrame
+nsContainerFrame
 *
 NS_NewGridContainerFrame
 (

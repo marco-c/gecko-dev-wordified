@@ -419,7 +419,7 @@ nsIPageSequenceFrame
 public
 :
 friend
-nsIFrame
+nsSimplePageSequenceFrame
 *
 NS_NewSimplePageSequenceFrame
 (

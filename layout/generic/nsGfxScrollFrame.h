@@ -2839,7 +2839,7 @@ CSSIntPoint
 CSSIntPoint
 ;
 friend
-nsIFrame
+nsHTMLScrollFrame
 *
 NS_NewHTMLScrollFrame
 (
@@ -4517,7 +4517,7 @@ CSSIntPoint
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 friend
-nsIFrame
+nsXULScrollFrame
 *
 NS_NewXULScrollFrame
 (

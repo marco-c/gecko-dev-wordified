@@ -2744,7 +2744,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsTableOuterFrame
 )
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtableOuterFrame
 (
@@ -4286,7 +4286,7 @@ aDesiredSize
 )
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtableFrame
 (
@@ -4448,7 +4448,7 @@ nsChangeHint_AllReflowHints
 implementation
 of
 nsMathMLmtrFrame
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtrFrame
 (
@@ -4653,7 +4653,7 @@ NS_OK
 implementation
 of
 nsMathMLmtdFrame
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtdFrame
 (
@@ -5374,7 +5374,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsBlockFrame
 )
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtdInnerFrame
 (

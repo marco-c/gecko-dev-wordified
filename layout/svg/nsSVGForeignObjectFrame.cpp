@@ -301,7 +301,7 @@ dom
 /
 /
 Implementation
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGForeignObjectFrame
 (

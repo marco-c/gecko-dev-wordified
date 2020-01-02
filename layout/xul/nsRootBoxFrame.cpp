@@ -625,7 +625,7 @@ mDefaultTooltip
 -
 -
 -
-nsIFrame
+nsContainerFrame
 *
 NS_NewRootBoxFrame
 (

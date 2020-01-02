@@ -2440,7 +2440,7 @@ parent
 )
 )
 {
-nsIFrame
+nsContainerFrame
 *
 grandparent
 =
@@ -3129,7 +3129,7 @@ CreateContinuation
 "
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 parent
 =

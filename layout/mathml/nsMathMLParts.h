@@ -289,7 +289,7 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtableOuterFrame
 (
@@ -301,7 +301,7 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtableFrame
 (
@@ -313,7 +313,7 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtrFrame
 (
@@ -325,7 +325,7 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtdFrame
 (
@@ -337,7 +337,7 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtdInnerFrame
 (

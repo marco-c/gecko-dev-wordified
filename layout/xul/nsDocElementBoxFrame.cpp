@@ -471,7 +471,7 @@ mTooltipContent
 -
 -
 -
-nsIFrame
+nsContainerFrame
 *
 NS_NewDocElementBoxFrame
 (

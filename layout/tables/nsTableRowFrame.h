@@ -330,7 +330,7 @@ created
 *
 /
 friend
-nsIFrame
+nsTableRowFrame
 *
 NS_NewTableRowFrame
 (

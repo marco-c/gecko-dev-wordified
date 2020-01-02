@@ -639,7 +639,7 @@ nsHTMLScrollFrame
 -
 -
 -
-nsIFrame
+nsHTMLScrollFrame
 *
 NS_NewHTMLScrollFrame
 (
@@ -6211,7 +6211,7 @@ nsXULScrollFrame
 -
 -
 -
-nsIFrame
+nsXULScrollFrame
 *
 NS_NewXULScrollFrame
 (

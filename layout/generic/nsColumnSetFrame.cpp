@@ -181,7 +181,7 @@ elements
 ?
 *
 /
-nsIFrame
+nsContainerFrame
 *
 NS_NewColumnSetFrame
 (

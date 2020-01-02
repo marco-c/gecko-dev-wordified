@@ -182,7 +182,7 @@ aContext
 )
 {
 }
-nsIFrame
+nsContainerFrame
 *
 NS_NewGfxButtonControlFrame
 (

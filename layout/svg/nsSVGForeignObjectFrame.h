@@ -162,7 +162,7 @@ public
 nsISVGChildFrame
 {
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGForeignObjectFrame
 (

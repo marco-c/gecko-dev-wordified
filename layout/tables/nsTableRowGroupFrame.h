@@ -359,7 +359,7 @@ created
 *
 /
 friend
-nsIFrame
+nsTableRowGroupFrame
 *
 NS_NewTableRowGroupFrame
 (

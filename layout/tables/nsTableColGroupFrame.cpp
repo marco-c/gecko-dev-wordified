@@ -2835,7 +2835,7 @@ methods
 -
 *
 /
-nsIFrame
+nsTableColGroupFrame
 *
 NS_NewTableColGroupFrame
 (
