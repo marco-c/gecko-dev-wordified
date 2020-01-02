@@ -572,10 +572,7 @@ nsIntRect
 &
 aClip
 const
-gfx
-:
-:
-Matrix
+gfxMatrix
 &
 aParentTransform
 const
