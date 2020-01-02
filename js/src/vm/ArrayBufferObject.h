@@ -791,9 +791,9 @@ mallocSizeOf
 JS
 :
 :
-ObjectsExtraSizes
+ClassInfo
 *
-sizes
+info
 )
 ;
 void
