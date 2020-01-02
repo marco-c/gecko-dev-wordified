@@ -257,8 +257,14 @@ mHeight
 uint32_t
 mFrameRate
 ;
+uint32_t
+mBitRateKbps
+;
 bool
 mOMXConfigured
+;
+bool
+mOMXReconfigure
 ;
 webrtc
 :
