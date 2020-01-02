@@ -264,11 +264,6 @@ this
 >
 oldpc
 ;
-js_delete
-(
-funcStmts
-)
-;
 }
 }
 /
