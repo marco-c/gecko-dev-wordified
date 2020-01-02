@@ -15771,7 +15771,11 @@ vp
 ;
 JS_ASSERT
 (
-argc
+args
+.
+length
+(
+)
 =
 =
 2
