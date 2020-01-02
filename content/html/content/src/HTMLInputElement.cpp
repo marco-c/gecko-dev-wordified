@@ -34327,11 +34327,6 @@ IsDisabled
 )
 &
 &
-GetCurrentDoc
-(
-)
-&
-&
 !
 (
 DoesReadOnlyApply
