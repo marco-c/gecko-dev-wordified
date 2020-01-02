@@ -64758,12 +64758,6 @@ FastGetGlobalJSObject
 nsJSUtils
 :
 :
-EvaluateOptions
-evalOptions
-;
-nsJSUtils
-:
-:
 EvaluateString
 (
 entryScript
@@ -64777,8 +64771,6 @@ script
 )
 global
 options
-evalOptions
-nullptr
 )
 ;
 }

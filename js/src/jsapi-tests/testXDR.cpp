@@ -844,11 +844,8 @@ JS_ExecuteScript
 cx
 global
 script
+&
 v
-.
-address
-(
-)
 )
 ;
 if
@@ -1091,11 +1088,8 @@ JS_ExecuteScript
 cx
 global
 script
+&
 v2
-.
-address
-(
-)
 )
 )
 ;
@@ -1246,7 +1240,6 @@ JS_ExecuteScript
 cx
 global
 script
-nullptr
 )
 )
 ;

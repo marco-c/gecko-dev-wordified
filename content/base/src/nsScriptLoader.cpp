@@ -7159,12 +7159,6 @@ global
 options
 )
 ;
-nsJSUtils
-:
-:
-EvaluateOptions
-evalOptions
-;
 nsresult
 rv
 =
@@ -7181,8 +7175,6 @@ cx
 aScript
 global
 options
-evalOptions
-nullptr
 aOffThreadToken
 )
 ;

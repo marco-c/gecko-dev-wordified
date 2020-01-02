@@ -239,11 +239,8 @@ JS_ExecuteScript
 cx
 global
 script
+&
 result
-.
-address
-(
-)
 )
 )
 ;

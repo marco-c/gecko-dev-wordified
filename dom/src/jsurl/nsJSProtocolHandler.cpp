@@ -1969,11 +1969,8 @@ script
 globalJSObject
 options
 evalOptions
+&
 v
-.
-address
-(
-)
 )
 ;
 /

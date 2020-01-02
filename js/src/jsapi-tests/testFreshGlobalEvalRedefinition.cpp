@@ -348,11 +348,8 @@ data
 1
 __FILE__
 __LINE__
+&
 v
-.
-address
-(
-)
 )
 )
 ;

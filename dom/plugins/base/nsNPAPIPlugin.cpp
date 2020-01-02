@@ -8049,11 +8049,8 @@ utf16script
 obj
 options
 evalOptions
+&
 rval
-.
-address
-(
-)
 )
 ;
 return

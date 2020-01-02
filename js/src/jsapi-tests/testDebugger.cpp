@@ -1020,11 +1020,8 @@ text
 "
 "
 0
+&
 _
-.
-address
-(
-)
 )
 ;
 return

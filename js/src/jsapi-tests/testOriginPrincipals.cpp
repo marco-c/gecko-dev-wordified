@@ -776,10 +776,6 @@ options
 chars
 len
 rval
-.
-address
-(
-)
 )
 ;
 delete

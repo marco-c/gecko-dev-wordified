@@ -3789,7 +3789,6 @@ mScriptText
 Length
 (
 )
-nullptr
 )
 )
 {
