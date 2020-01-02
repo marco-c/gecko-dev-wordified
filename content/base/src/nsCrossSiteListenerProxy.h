@@ -306,6 +306,12 @@ false
 ;
 private
 :
+~
+nsCORSListenerProxy
+(
+)
+{
+}
 nsresult
 UpdateChannel
 (

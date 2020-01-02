@@ -177,12 +177,6 @@ nsIDocument
 aDocument
 )
 ;
-virtual
-~
-nsXULCommandDispatcher
-(
-)
-;
 /
 /
 nsISupports
@@ -204,6 +198,12 @@ Disconnect
 ;
 protected
 :
+virtual
+~
+nsXULCommandDispatcher
+(
+)
+;
 already_AddRefed
 <
 nsPIWindowRoot

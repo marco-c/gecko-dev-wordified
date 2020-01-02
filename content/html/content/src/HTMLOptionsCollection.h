@@ -251,12 +251,6 @@ HTMLSelectElement
 aSelect
 )
 ;
-virtual
-~
-HTMLOptionsCollection
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 /
 /
@@ -280,6 +274,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLOptionsCollection
+(
+)
+;
 virtual
 JSObject
 *

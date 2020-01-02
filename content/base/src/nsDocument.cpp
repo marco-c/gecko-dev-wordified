@@ -29922,6 +29922,12 @@ MOZ_FINAL
 public
 nsIRunnable
 {
+~
+ProcessStackRunner
+(
+)
+{
+}
 public
 :
 ProcessStackRunner
@@ -50791,6 +50797,12 @@ MOZ_FINAL
 public
 nsICSSLoaderObserver
 {
+~
+StubCSSLoaderObserver
+(
+)
+{
+}
 public
 :
 NS_IMETHOD

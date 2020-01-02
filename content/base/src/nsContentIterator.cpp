@@ -618,12 +618,6 @@ bool
 aPre
 )
 ;
-virtual
-~
-nsContentIterator
-(
-)
-;
 /
 /
 nsIContentIterator
@@ -725,6 +719,12 @@ aCurNode
 ;
 protected
 :
+virtual
+~
+nsContentIterator
+(
+)
+;
 /
 /
 Recursively

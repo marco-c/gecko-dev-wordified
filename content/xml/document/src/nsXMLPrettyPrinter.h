@@ -128,12 +128,6 @@ nsXMLPrettyPrinter
 (
 )
 ;
-virtual
-~
-nsXMLPrettyPrinter
-(
-)
-;
 NS_DECL_ISUPPORTS
 /
 /
@@ -220,6 +214,12 @@ Unhook
 ;
 private
 :
+virtual
+~
+nsXMLPrettyPrinter
+(
+)
+;
 /
 *
 *

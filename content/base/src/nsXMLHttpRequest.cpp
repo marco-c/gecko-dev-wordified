@@ -1388,6 +1388,8 @@ XMLHttpRequestAuthPrompt
 (
 )
 ;
+protected
+:
 virtual
 ~
 XMLHttpRequestAuthPrompt
@@ -19151,6 +19153,12 @@ NS_OK
 }
 private
 :
+~
+AsyncVerifyRedirectCallbackForwarder
+(
+)
+{
+}
 nsRefPtr
 <
 nsXMLHttpRequest

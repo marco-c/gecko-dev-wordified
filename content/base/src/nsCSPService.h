@@ -183,12 +183,6 @@ CSPService
 (
 )
 ;
-virtual
-~
-CSPService
-(
-)
-;
 static
 bool
 sCSPEnabled
@@ -196,6 +190,14 @@ sCSPEnabled
 static
 bool
 sNewBackendEnabled
+;
+protected
+:
+virtual
+~
+CSPService
+(
+)
 ;
 private
 :

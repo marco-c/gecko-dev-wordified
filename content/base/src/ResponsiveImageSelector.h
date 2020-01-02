@@ -145,12 +145,6 @@ nsIContent
 aContent
 )
 ;
-virtual
-~
-ResponsiveImageSelector
-(
-)
-;
 /
 /
 Given
@@ -235,6 +229,14 @@ GetSelectedImageURL
 ;
 double
 GetSelectedImageDensity
+(
+)
+;
+protected
+:
+virtual
+~
+ResponsiveImageSelector
 (
 )
 ;

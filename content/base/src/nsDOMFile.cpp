@@ -509,6 +509,12 @@ mSerializableInputStream
 )
 private
 :
+~
+DataOwnerAdapter
+(
+)
+{
+}
 DataOwnerAdapter
 (
 DataOwner
@@ -3467,6 +3473,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+nsDOMMemoryFileDataOwnerMemoryReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

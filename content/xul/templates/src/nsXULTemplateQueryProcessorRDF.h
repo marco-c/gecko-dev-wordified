@@ -303,11 +303,6 @@ nsXULTemplateQueryProcessorRDF
 (
 )
 ;
-~
-nsXULTemplateQueryProcessorRDF
-(
-)
-;
 nsresult
 InitGlobals
 (
@@ -1420,6 +1415,11 @@ _targ
 endif
 protected
 :
+~
+nsXULTemplateQueryProcessorRDF
+(
+)
+;
 /
 /
 We

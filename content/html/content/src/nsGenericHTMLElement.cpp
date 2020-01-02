@@ -1176,6 +1176,13 @@ nsGenericHTMLElementTearoff
 public
 nsIDOMElementCSSInlineStyle
 {
+virtual
+~
+nsGenericHTMLElementTearoff
+(
+)
+{
+}
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 nsGenericHTMLElementTearoff
 (
@@ -1187,13 +1194,6 @@ aElement
 mElement
 (
 aElement
-)
-{
-}
-virtual
-~
-nsGenericHTMLElementTearoff
-(
 )
 {
 }

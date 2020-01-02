@@ -174,6 +174,12 @@ nsIDOMMediaError
 public
 nsWrapperCache
 {
+~
+MediaError
+(
+)
+{
+}
 public
 :
 MediaError

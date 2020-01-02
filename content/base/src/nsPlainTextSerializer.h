@@ -234,12 +234,6 @@ nsPlainTextSerializer
 (
 )
 ;
-virtual
-~
-nsPlainTextSerializer
-(
-)
-;
 NS_DECL_ISUPPORTS
 /
 /
@@ -418,6 +412,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+nsPlainTextSerializer
+(
+)
+;
 nsresult
 GetAttributeValue
 (

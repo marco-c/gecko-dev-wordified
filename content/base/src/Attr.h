@@ -225,6 +225,13 @@ nsIAttribute
 public
 nsIDOMAttr
 {
+virtual
+~
+Attr
+(
+)
+{
+}
 public
 :
 Attr
@@ -253,13 +260,6 @@ bool
 aNsAware
 )
 ;
-virtual
-~
-Attr
-(
-)
-{
-}
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 /
 /

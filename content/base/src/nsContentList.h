@@ -270,12 +270,6 @@ SetIsDOMBinding
 )
 ;
 }
-virtual
-~
-nsBaseContentList
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 /
 /
@@ -505,6 +499,12 @@ aCapacity
 }
 protected
 :
+virtual
+~
+nsBaseContentList
+(
+)
+;
 /
 *
 *

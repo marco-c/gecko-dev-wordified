@@ -605,13 +605,6 @@ Type
 mType
 ;
 virtual
-~
-nsXULPrototypeNode
-(
-)
-{
-}
-virtual
 nsresult
 Serialize
 (
@@ -791,6 +784,13 @@ aType
 mType
 (
 aType
+)
+{
+}
+virtual
+~
+nsXULPrototypeNode
+(
 )
 {
 }

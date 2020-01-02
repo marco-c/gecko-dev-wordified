@@ -159,14 +159,14 @@ nsChannelPolicy
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsChannelPolicy
 (
 )
 ;
-protected
-:
 /
 *
 Represents

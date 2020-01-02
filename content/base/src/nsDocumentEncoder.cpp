@@ -476,12 +476,6 @@ nsDocumentEncoder
 (
 )
 ;
-virtual
-~
-nsDocumentEncoder
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
@@ -490,6 +484,12 @@ nsDocumentEncoder
 NS_DECL_NSIDOCUMENTENCODER
 protected
 :
+virtual
+~
+nsDocumentEncoder
+(
+)
+;
 void
 Initialize
 (

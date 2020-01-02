@@ -167,6 +167,8 @@ nsContentPolicy
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsContentPolicy

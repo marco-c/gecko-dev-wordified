@@ -189,12 +189,6 @@ XULContentSinkImpl
 (
 )
 ;
-virtual
-~
-XULContentSinkImpl
-(
-)
-;
 /
 /
 nsISupports
@@ -329,6 +323,12 @@ aPrototype
 ;
 protected
 :
+virtual
+~
+XULContentSinkImpl
+(
+)
+;
 /
 /
 pseudo

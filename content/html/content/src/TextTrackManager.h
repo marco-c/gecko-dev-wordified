@@ -240,6 +240,11 @@ MOZ_FINAL
 public
 nsIDOMEventListener
 {
+~
+TextTrackManager
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

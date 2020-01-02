@@ -1091,6 +1091,10 @@ aRef
 ;
 }
 }
+NS_DECL_ISUPPORTS
+NS_DECL_NSIOBSERVER
+private
+:
 virtual
 ~
 DocumentLoadNotification
@@ -1098,10 +1102,6 @@ DocumentLoadNotification
 )
 {
 }
-NS_DECL_ISUPPORTS
-NS_DECL_NSIOBSERVER
-private
-:
 virtual
 void
 SetTo

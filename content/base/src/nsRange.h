@@ -241,6 +241,12 @@ dom
 DOMRectList
 DOMRectList
 ;
+virtual
+~
+nsRange
+(
+)
+;
 public
 :
 nsRange
@@ -334,12 +340,6 @@ OwnerDoc
 )
 ;
 }
-virtual
-~
-nsRange
-(
-)
-;
 static
 nsresult
 CreateRange

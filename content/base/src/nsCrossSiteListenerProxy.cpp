@@ -4918,6 +4918,12 @@ NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICHANNELEVENTSINK
 private
 :
+~
+nsCORSPreflightListener
+(
+)
+{
+}
 void
 AddResultToCache
 (

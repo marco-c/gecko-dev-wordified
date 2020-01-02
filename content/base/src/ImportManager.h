@@ -671,6 +671,12 @@ nullptr
 }
 private
 :
+~
+ImportLoader
+(
+)
+{
+}
 /
 /
 If
@@ -935,6 +941,12 @@ ImportLoader
 >
 ImportMap
 ;
+~
+ImportManager
+(
+)
+{
+}
 public
 :
 ImportManager

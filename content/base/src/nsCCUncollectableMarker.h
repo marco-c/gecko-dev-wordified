@@ -232,6 +232,12 @@ nsCCUncollectableMarker
 )
 {
 }
+~
+nsCCUncollectableMarker
+(
+)
+{
+}
 }
 ;
 namespace

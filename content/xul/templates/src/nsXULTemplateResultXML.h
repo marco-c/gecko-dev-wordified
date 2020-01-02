@@ -179,12 +179,6 @@ nsXMLBindingSet
 aBindings
 )
 ;
-~
-nsXULTemplateResultXML
-(
-)
-{
-}
 void
 GetNode
 (
@@ -196,6 +190,12 @@ aNode
 ;
 protected
 :
+~
+nsXULTemplateResultXML
+(
+)
+{
+}
 /
 /
 ID

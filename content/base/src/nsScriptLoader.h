@@ -397,12 +397,6 @@ nsIDocument
 aDocument
 )
 ;
-virtual
-~
-nsScriptLoader
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTREAMLOADEROBSERVER
 /
@@ -1365,6 +1359,12 @@ aOffThreadToken
 ;
 private
 :
+virtual
+~
+nsScriptLoader
+(
+)
+;
 /
 *
 *

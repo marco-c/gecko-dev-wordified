@@ -486,6 +486,14 @@ MediaDocumentStreamListener
 public
 nsIStreamListener
 {
+protected
+:
+virtual
+~
+MediaDocumentStreamListener
+(
+)
+;
 public
 :
 MediaDocumentStreamListener
@@ -493,12 +501,6 @@ MediaDocumentStreamListener
 MediaDocument
 *
 aDocument
-)
-;
-virtual
-~
-MediaDocumentStreamListener
-(
 )
 ;
 void

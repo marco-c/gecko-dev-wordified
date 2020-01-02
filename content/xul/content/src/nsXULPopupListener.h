@@ -240,13 +240,6 @@ bool
 aIsContext
 )
 ;
-virtual
-~
-nsXULPopupListener
-(
-void
-)
-;
 /
 /
 nsISupports
@@ -258,6 +251,13 @@ nsXULPopupListener
 NS_DECL_NSIDOMEVENTLISTENER
 protected
 :
+virtual
+~
+nsXULPopupListener
+(
+void
+)
+;
 /
 /
 open

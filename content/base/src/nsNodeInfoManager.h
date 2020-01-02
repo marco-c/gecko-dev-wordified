@@ -224,13 +224,15 @@ class
 nsNodeInfoManager
 MOZ_FINAL
 {
-public
+private
 :
+~
 nsNodeInfoManager
 (
 )
 ;
-~
+public
+:
 nsNodeInfoManager
 (
 )

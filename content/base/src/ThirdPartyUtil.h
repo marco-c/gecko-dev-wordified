@@ -126,6 +126,12 @@ Init
 ;
 private
 :
+~
+ThirdPartyUtil
+(
+)
+{
+}
 nsresult
 IsThirdPartyInternal
 (

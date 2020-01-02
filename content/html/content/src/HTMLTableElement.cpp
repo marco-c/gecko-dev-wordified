@@ -304,12 +304,6 @@ HTMLTableElement
 aParent
 )
 ;
-virtual
-~
-TableRowsCollection
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMHTMLCOLLECTION
 virtual
@@ -393,6 +387,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+TableRowsCollection
+(
+)
+;
 virtual
 JSObject
 *

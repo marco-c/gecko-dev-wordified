@@ -219,12 +219,6 @@ nsXMLContentSerializer
 (
 )
 ;
-virtual
-~
-nsXMLContentSerializer
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 Init
@@ -392,6 +386,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+nsXMLContentSerializer
+(
+)
+;
 /
 *
 *
