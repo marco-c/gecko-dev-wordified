@@ -403,6 +403,13 @@ nsJSUtils
 .
 h
 "
+#
+include
+"
+nsCycleCollector
+.
+h
+"
 /
 /
 Nasty
@@ -589,7 +596,7 @@ obj
 )
 )
 ;
-nsContentUtils
+cyclecollector
 :
 :
 DeferredFinalize
