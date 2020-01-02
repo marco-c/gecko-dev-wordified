@@ -185,6 +185,12 @@ MarkEventQueueForPurge
 (
 )
 ;
+static
+void
+InputEventsDispatched
+(
+)
+;
 protected
 :
 NS_IMETHOD
