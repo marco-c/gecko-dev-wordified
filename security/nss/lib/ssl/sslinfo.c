@@ -1435,8 +1435,8 @@ M_MD5
 0
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 ECC
@@ -1808,7 +1808,7 @@ M_SHA
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /

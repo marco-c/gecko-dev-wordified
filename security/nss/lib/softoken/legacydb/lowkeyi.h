@@ -216,8 +216,8 @@ key
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 extern
 void
 lg_prepare_low_ec_priv_key_for_asn1
@@ -240,7 +240,7 @@ params
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 typedef
@@ -816,8 +816,8 @@ sdb
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 *

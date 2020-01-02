@@ -172,8 +172,8 @@ secerr
 h
 "
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 include
 "
@@ -12613,8 +12613,8 @@ CKR_DEVICE_ERROR
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 static
 CK_RV
 sftk_fips_ECDSA_Test
@@ -13813,7 +13813,7 @@ CKR_OK
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 static
@@ -15860,8 +15860,8 @@ return
 rv
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 ECDSA

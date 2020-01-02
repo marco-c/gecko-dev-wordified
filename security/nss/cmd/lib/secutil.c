@@ -7892,8 +7892,8 @@ break
 }
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 static
 void
 secu_PrintECPublicKey
@@ -8073,7 +8073,7 @@ level
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 void
@@ -8453,8 +8453,8 @@ level
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 ecKey
 :

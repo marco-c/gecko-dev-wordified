@@ -2047,8 +2047,8 @@ SECItem
 pubKey
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 SECItem
 pubKey2Space
 =
@@ -2068,7 +2068,7 @@ NULL
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 NSSLOWKEYDBHandle
@@ -2092,8 +2092,8 @@ CKA_MODULUS
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -2107,7 +2107,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 case
@@ -2151,8 +2151,8 @@ return
 crv
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 key_type
@@ -2269,7 +2269,7 @@ pubKey2Space
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 PORT_Assert
@@ -2415,8 +2415,8 @@ password
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 priv
@@ -2538,8 +2538,8 @@ data
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 arena
@@ -3308,8 +3308,8 @@ explicitly
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -3538,7 +3538,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default

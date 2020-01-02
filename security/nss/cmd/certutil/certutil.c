@@ -6016,8 +6016,8 @@ progName
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 FPS
 "
 \
@@ -6155,7 +6155,7 @@ progName
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 FPS
@@ -8513,8 +8513,8 @@ name
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 FPS
 "
 %
@@ -8677,7 +8677,7 @@ DEFAULT_KEY_BITS
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 FPS
@@ -8777,8 +8777,8 @@ pqgfile
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 FPS
 "
 %
@@ -9995,8 +9995,8 @@ dsa
 "
 "
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 "
 \
 "
@@ -11269,8 +11269,8 @@ req
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 FPS
 "
 %
@@ -11340,7 +11340,7 @@ n
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 "
@@ -11470,8 +11470,8 @@ pqgfile
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 FPS
 "
 %
@@ -11529,7 +11529,7 @@ n
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 FPS
@@ -12984,8 +12984,8 @@ trustargs
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 FPS
 "
 %
@@ -13055,7 +13055,7 @@ n
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 "
@@ -13165,8 +13165,8 @@ pqgfile
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 FPS
 "
 %
@@ -13224,7 +13224,7 @@ n
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 FPS
@@ -18252,8 +18252,8 @@ return
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 keytype
@@ -18290,7 +18290,7 @@ return
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 }
@@ -18504,8 +18504,8 @@ keytype
 dsaKey
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 }
 else
 if
@@ -18530,7 +18530,7 @@ ecKey
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 }
@@ -18911,8 +18911,8 @@ activated
 )
 {
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 (
@@ -19021,7 +19021,7 @@ progName
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 return

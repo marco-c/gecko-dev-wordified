@@ -165,8 +165,8 @@ nsslowkey_DHPrivateKeyExportTemplate
 ]
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 define
 NSSLOWKEY_EC_PRIVATE_KEY_VERSION
@@ -200,7 +200,7 @@ nsslowkey_ECPrivateKeyTemplate
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 extern

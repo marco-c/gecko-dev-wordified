@@ -106,8 +106,8 @@ secerr
 h
 "
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 include
 "
@@ -577,8 +577,8 @@ prime
 }
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 XXX
@@ -882,7 +882,7 @@ SEC_BitStringTemplate
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
@@ -1272,8 +1272,8 @@ siUnsignedInteger
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 void
 prepare_low_ecparams_for_asn1
 (
@@ -1383,7 +1383,7 @@ siUnsignedInteger
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 void
@@ -2161,8 +2161,8 @@ pubk
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -2312,7 +2312,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
@@ -3195,8 +3195,8 @@ break
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -3381,7 +3381,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default

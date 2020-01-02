@@ -2234,8 +2234,8 @@ publicValue
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -2257,7 +2257,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default
@@ -2939,8 +2939,8 @@ attribute
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 static
 CK_RV
 lg_FindECPublicKeyAttribute
@@ -3208,7 +3208,7 @@ attribute
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 static
@@ -3439,8 +3439,8 @@ attribute
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -3456,7 +3456,7 @@ attribute
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default
@@ -5419,8 +5419,8 @@ attribute
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 static
 CK_RV
 lg_FindECPrivateKeyAttribute
@@ -5645,7 +5645,7 @@ attribute
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 static
@@ -5874,8 +5874,8 @@ sdb
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -5895,7 +5895,7 @@ sdb
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default

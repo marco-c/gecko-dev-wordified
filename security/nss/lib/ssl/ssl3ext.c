@@ -1248,8 +1248,8 @@ ssl_server_name_xtn
 ssl3_HandleServerNameXtn
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 {
 ssl_elliptic_curves_xtn
 &
@@ -1473,8 +1473,8 @@ ssl_renegotiation_info_xtn
 ssl3_SendRenegotiationInfoXtn
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 {
 ssl_elliptic_curves_xtn
 &
@@ -14140,8 +14140,8 @@ tls_sig_rsa
 tls_hash_sha1
 tls_sig_rsa
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 tls_hash_sha256
 tls_sig_ecdsa
 tls_hash_sha384

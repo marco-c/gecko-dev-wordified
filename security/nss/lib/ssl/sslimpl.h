@@ -1628,8 +1628,8 @@ endif
 ssl3CipherSuiteCfg
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 define
 ssl_V3_SUITES_IMPLEMENTED
@@ -1644,7 +1644,7 @@ ssl_V3_SUITES_IMPLEMENTED
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 #
@@ -3857,8 +3857,8 @@ key
 *
 /
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 PRUint32
 negotiatedECCurves
 ;
@@ -3866,7 +3866,7 @@ negotiatedECCurves
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
@@ -5182,8 +5182,8 @@ data
 finishedMsgs
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 PRUint32
 negotiatedECCurves
 ;
@@ -5197,7 +5197,7 @@ mask
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 PRBool
@@ -10454,8 +10454,8 @@ ss
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 extern
 void
 ssl3_FilterECCipherSuitesByServerCerts
@@ -10706,7 +10706,7 @@ requiredECCbits
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 extern
@@ -10938,8 +10938,8 @@ ss
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 ECDH
@@ -11502,8 +11502,8 @@ kea
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 extern
 PRInt32
 ssl3_SendSupportedCurvesXtn

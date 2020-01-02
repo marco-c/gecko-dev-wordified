@@ -713,8 +713,8 @@ prime
 }
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 XXX
@@ -1384,7 +1384,7 @@ SECFailure
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
@@ -1752,8 +1752,8 @@ siUnsignedInteger
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 void
 lg_prepare_low_ecparams_for_asn1
 (
@@ -1863,7 +1863,7 @@ siUnsignedInteger
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 void
@@ -2468,8 +2468,8 @@ pubk
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -2619,7 +2619,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /

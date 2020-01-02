@@ -3802,8 +3802,8 @@ testecdhe
 PR_FALSE
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 SECKEYECParams
 ecParams
 =
@@ -4623,8 +4623,8 @@ PR_FALSE
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 for
 (
 ;
@@ -5207,7 +5207,7 @@ NULL
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 if
@@ -5286,8 +5286,8 @@ PR_FALSE
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 ecParams
@@ -5316,7 +5316,7 @@ NULL
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 if

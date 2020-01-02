@@ -2260,8 +2260,8 @@ CKF_DERIVE
 PR_TRUE
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 -
@@ -2358,7 +2358,7 @@ PR_TRUE
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
@@ -7023,8 +7023,8 @@ CK_FALSE
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -7094,7 +7094,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default
@@ -7880,8 +7880,8 @@ CK_FALSE
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -7935,7 +7935,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 case
@@ -11815,8 +11815,8 @@ CKA_VALUE
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -12240,7 +12240,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default
@@ -12865,8 +12865,8 @@ explicitly
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -13185,7 +13185,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default

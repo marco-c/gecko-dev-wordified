@@ -21860,11 +21860,8 @@ rv
 ;
 }
 #
-if
-defined
-(
-NSS_ENABLE_ECC
-)
+ifndef
+NSS_DISABLE_ECC
 /
 *
 ensure
@@ -21931,6 +21928,11 @@ sizeCipherSpecs
 }
 #
 endif
+/
+*
+NSS_DISABLE_ECC
+*
+/
 if
 (
 !

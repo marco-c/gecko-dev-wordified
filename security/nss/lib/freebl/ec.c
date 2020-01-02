@@ -125,8 +125,8 @@ ecl
 h
 "
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 *
@@ -1470,7 +1470,7 @@ rv
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
@@ -1542,8 +1542,8 @@ rv
 SECFailure
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 PLArenaPool
 *
 arena
@@ -2336,7 +2336,7 @@ SEC_ERROR_UNSUPPORTED_KEYALG
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 return
@@ -2418,8 +2418,8 @@ rv
 SECFailure
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 rv
 =
 ec_NewKey
@@ -2441,7 +2441,7 @@ SEC_ERROR_UNSUPPORTED_KEYALG
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 return
@@ -2449,8 +2449,8 @@ rv
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 Generate
@@ -2867,7 +2867,7 @@ privKeyBytes
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
@@ -2932,8 +2932,8 @@ rv
 SECFailure
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 int
 len
 ;
@@ -3065,7 +3065,7 @@ SEC_ERROR_UNSUPPORTED_KEYALG
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 return
@@ -3150,8 +3150,8 @@ publicValue
 )
 {
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 mp_int
 Px
 Py
@@ -3624,7 +3624,7 @@ SECFailure
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 }
@@ -3761,8 +3761,8 @@ rv
 SECFailure
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 unsigned
 int
 len
@@ -4208,7 +4208,7 @@ SEC_ERROR_UNSUPPORTED_KEYALG
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 return
@@ -4283,8 +4283,8 @@ rv
 SECFailure
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 mp_int
 x1
 ;
@@ -5913,7 +5913,7 @@ SEC_ERROR_UNSUPPORTED_KEYALG
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 return
@@ -5965,8 +5965,8 @@ rv
 SECFailure
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 int
 len
 ;
@@ -6115,7 +6115,7 @@ SEC_ERROR_UNSUPPORTED_KEYALG
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 return
@@ -6162,8 +6162,8 @@ rv
 SECFailure
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 mp_int
 r_
 s_
@@ -7657,7 +7657,7 @@ SEC_ERROR_UNSUPPORTED_KEYALG
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 return

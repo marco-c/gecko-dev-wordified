@@ -2504,8 +2504,8 @@ SECSuccess
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 typedef
 struct
 curveNameTagPairStr
@@ -3269,7 +3269,7 @@ ecparams
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 SECKEYPrivateKey
@@ -3532,8 +3532,8 @@ default_pqg_params
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 ecKey
 :
@@ -3579,7 +3579,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default
@@ -3671,8 +3671,8 @@ dsaparams
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 ecKey
 :

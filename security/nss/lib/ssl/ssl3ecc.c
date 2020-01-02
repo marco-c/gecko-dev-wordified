@@ -214,8 +214,8 @@ stdio
 h
 >
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 ifndef
 PK11_SETATTRS
@@ -7380,6 +7380,6 @@ SECFailure
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /

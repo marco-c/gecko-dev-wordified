@@ -435,8 +435,8 @@ return
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 ifdef
 EC_DEBUG
@@ -550,7 +550,7 @@ endif
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
@@ -751,9 +751,8 @@ set
 this
 error
 if
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 is
-not
 defined
 *
 /
@@ -12886,8 +12885,8 @@ rv
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 static
 SECStatus
 nsc_ECDSAVerifyStub
@@ -13107,7 +13106,7 @@ rv
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
@@ -14131,8 +14130,8 @@ DSA_MAX_SIGNATURE_LEN
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKM_ECDSA_SHA1
 :
@@ -14265,7 +14264,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 #
@@ -17747,8 +17746,8 @@ sftk_Null
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKM_ECDSA_SHA1
 :
@@ -17854,7 +17853,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 INIT_HMAC_MECH
@@ -24144,8 +24143,8 @@ CKM_DSA
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -24792,8 +24791,8 @@ DHPrivateKey
 dhPriv
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 Elliptic
@@ -24823,7 +24822,7 @@ ecParams
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 CHECK_FORK
@@ -26902,8 +26901,8 @@ PR_TRUE
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKM_EC_KEY_PAIR_GEN
 :
@@ -27259,7 +27258,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default
@@ -27937,8 +27936,8 @@ encodedKey
 NULL
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 SECItem
 *
 fordebug
@@ -28206,8 +28205,8 @@ SEC_OID_ANSIX9_DSA_SIGNATURE
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -28416,7 +28415,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 case
@@ -28582,8 +28581,8 @@ CKR_OK
 CKR_DEVICE_ERROR
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 fordebug
 =
 encodedKey
@@ -29680,8 +29679,8 @@ NSSLOWKEYDHKey
 *
 /
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 SEC_OID_ANSIX962_EC_PUBLIC_KEY
 :
@@ -29740,7 +29739,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default
@@ -29797,8 +29796,8 @@ privateKey
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 lpk
@@ -29883,7 +29882,7 @@ loser
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 if
@@ -30576,8 +30575,8 @@ fortezza
 *
 /
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -30782,7 +30781,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 default
@@ -32460,8 +32459,8 @@ return
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 /
 *
 Inputs
@@ -33148,6 +33147,11 @@ CKR_MECHANISM_INVALID
 }
 #
 endif
+/
+*
+NSS_DISABLE_ECC
+*
+/
 /
 *
 *
@@ -38588,8 +38592,8 @@ break
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKM_ECDH1_DERIVE
 :
@@ -39447,7 +39451,7 @@ break
 endif
 /
 *
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 *
 /
 /
