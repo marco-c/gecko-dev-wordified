@@ -2275,7 +2275,7 @@ sESMInstanceCount
 0
 )
 {
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 Shutdown
@@ -2946,7 +2946,7 @@ aStatus
 =
 nsEventStatus_eIgnore
 ;
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OnEvent
@@ -13439,7 +13439,7 @@ the
 /
 cursor
 .
-nsMouseWheelTransaction
+WheelTransaction
 tracks
 the
 frame
@@ -13527,7 +13527,7 @@ nsIFrame
 *
 lastScrollFrame
 =
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 GetTargetFrame
@@ -14284,7 +14284,7 @@ nsIFrame
 *
 lastScrollFrame
 =
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 GetTargetFrame
@@ -14297,7 +14297,7 @@ if
 lastScrollFrame
 )
 {
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 BeginTransaction
@@ -14316,14 +14316,14 @@ lastScrollFrame
 scrollFrame
 )
 {
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 EndTransaction
 (
 )
 ;
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 BeginTransaction
@@ -14335,7 +14335,7 @@ aEvent
 }
 else
 {
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 UpdateTransaction
@@ -14400,7 +14400,7 @@ IsAlive
 )
 )
 {
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 EndTransaction
@@ -18065,7 +18065,7 @@ wheelEvent
 }
 else
 {
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 EndTransaction
@@ -24268,7 +24268,7 @@ Reset
 mouse
 wheel
 transaction
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 EndTransaction
@@ -29903,7 +29903,7 @@ ToMilliseconds
 (
 )
 >
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 GetTimeoutTime
@@ -30669,7 +30669,7 @@ DOM_DELTA_LINE
 DeltaValues
 acceleratedDelta
 =
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 AccelerateWheelDelta
