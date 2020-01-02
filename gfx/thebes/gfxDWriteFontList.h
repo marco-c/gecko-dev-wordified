@@ -295,6 +295,11 @@ virtual
 void
 FindStyleVariations
 (
+FontInfoData
+*
+aFontInfoData
+=
+nullptr
 )
 ;
 virtual
@@ -841,6 +846,11 @@ MOZ_OVERRIDE
 nsresult
 ReadCMAP
 (
+FontInfoData
+*
+aFontInfoData
+=
+nullptr
 )
 ;
 bool

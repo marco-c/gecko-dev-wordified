@@ -461,6 +461,11 @@ aStyle
 nsresult
 ReadCMAP
 (
+FontInfoData
+*
+aFontInfoData
+=
+nullptr
 )
 ;
 virtual
