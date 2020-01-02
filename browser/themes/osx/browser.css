@@ -723,7 +723,7 @@ height
 :
 calc
 (
-tabHeight
+tabMinHeight
 +
 spaceAboveTabbar
 -
@@ -23422,14 +23422,14 @@ toolbar
 ;
 height
 :
-tabHeight
+tabMinHeight
 ;
 margin
 -
 bottom
 :
 -
-tabHeight
+tabMinHeight
 ;
 visibility
 :
@@ -32878,7 +32878,7 @@ height
 :
 calc
 (
-tabHeight
+tabMinHeight
 +
 spaceAboveTabbar
 )
