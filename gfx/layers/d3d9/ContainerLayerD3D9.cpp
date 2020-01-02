@@ -1039,6 +1039,11 @@ continue
 nsIntRect
 scissorRect
 =
+RenderTargetPixel
+:
+:
+ToUntyped
+(
 layerToRender
 -
 >
@@ -1049,8 +1054,15 @@ GetLayer
 >
 CalculateScissorRect
 (
+RenderTargetPixel
+:
+:
+FromUntyped
+(
 oldScissor
+)
 nullptr
+)
 )
 ;
 if

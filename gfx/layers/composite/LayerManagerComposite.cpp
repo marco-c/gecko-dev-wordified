@@ -3460,7 +3460,13 @@ RootLayer
 >
 Prepare
 (
+RenderTargetPixel
+:
+:
+FromUntyped
+(
 clipRect
+)
 )
 ;
 RootLayer

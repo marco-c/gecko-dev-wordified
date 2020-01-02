@@ -194,7 +194,7 @@ LayerManagerComposite
 *
 aManager
 const
-nsIntRect
+RenderTargetIntRect
 &
 aClipRect
 )
@@ -215,7 +215,7 @@ LayerManagerComposite
 *
 aManager
 const
-nsIntRect
+RenderTargetIntRect
 &
 aClipRect
 )
@@ -236,7 +236,7 @@ LayerManagerComposite
 *
 aManager
 const
-nsIntRect
+RenderTargetIntRect
 &
 aClipRect
 )
@@ -286,7 +286,7 @@ LayerManagerComposite
 *
 aManager
 const
-nsIntRect
+RenderTargetIntRect
 &
 aClipRect
 )
@@ -310,7 +310,7 @@ LayerManagerComposite
 *
 aManager
 const
-nsIntRect
+RenderTargetIntRect
 &
 aClipRect
 )
@@ -379,7 +379,7 @@ void
 Prepare
 (
 const
-nsIntRect
+RenderTargetIntRect
 &
 aClipRect
 )
@@ -493,7 +493,7 @@ LayerManagerComposite
 *
 aManager
 const
-nsIntRect
+RenderTargetIntRect
 &
 aClipRect
 )
@@ -679,7 +679,7 @@ void
 Prepare
 (
 const
-nsIntRect
+RenderTargetIntRect
 &
 aClipRect
 )
