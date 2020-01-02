@@ -3025,7 +3025,7 @@ imm
 .
 m_isPointer
 )
-JS_ASSERT
+MOZ_ASSUME_UNREACHABLE
 (
 "
 What
@@ -3079,7 +3079,7 @@ imm
 .
 m_isPointer
 )
-JS_ASSERT
+MOZ_ASSUME_UNREACHABLE
 (
 "
 What
@@ -3195,7 +3195,7 @@ imm
 .
 m_isPointer
 )
-JS_ASSERT
+MOZ_ASSUME_UNREACHABLE
 (
 "
 What
@@ -3327,7 +3327,7 @@ imm
 .
 m_isPointer
 )
-JS_ASSERT
+MOZ_ASSUME_UNREACHABLE
 (
 "
 What
@@ -3381,7 +3381,7 @@ imm
 .
 m_isPointer
 )
-JS_ASSERT
+MOZ_ASSUME_UNREACHABLE
 (
 "
 What
@@ -3497,7 +3497,7 @@ imm
 .
 m_isPointer
 )
-JS_ASSERT
+MOZ_ASSUME_UNREACHABLE
 (
 "
 What
