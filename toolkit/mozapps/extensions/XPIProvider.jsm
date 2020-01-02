@@ -28183,6 +28183,14 @@ aMethod
 "
 shutdown
 "
+&
+&
+aReason
+!
+=
+BOOTSTRAP_REASONS
+.
+APP_SHUTDOWN
 )
 {
 LOG
