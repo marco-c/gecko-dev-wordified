@@ -126,6 +126,13 @@ nsIRunnable
 h
 "
 #
+include
+"
+nsIURI
+.
+h
+"
+#
 define
 NS_ANDROIDHISTORY_CID
 \
@@ -172,6 +179,7 @@ EMBED_URI_SIZE
 128
 class
 nsAndroidHistory
+MOZ_FINAL
 :
 public
 mozilla
@@ -224,6 +232,12 @@ nsAndroidHistory
 ;
 private
 :
+~
+nsAndroidHistory
+(
+)
+{
+}
 static
 nsAndroidHistory
 *

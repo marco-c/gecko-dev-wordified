@@ -108,6 +108,7 @@ h
 "
 class
 nsShellService
+MOZ_FINAL
 :
 public
 nsIShellService
@@ -122,6 +123,8 @@ nsShellService
 {
 }
 ;
+private
+:
 ~
 nsShellService
 (
