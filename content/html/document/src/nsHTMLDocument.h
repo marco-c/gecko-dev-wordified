@@ -1796,6 +1796,13 @@ HTMLAllCollection
 >
 mAll
 ;
+nsRefPtrHashtable
+<
+nsStringHashKey
+nsContentList
+>
+mAllMap
+;
 /
 *
 *
