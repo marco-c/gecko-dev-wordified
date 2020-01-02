@@ -2624,6 +2624,12 @@ aNode
 mNode
 true
 aResult
+mozilla
+:
+:
+fallible_t
+(
+)
 )
 ;
 return
