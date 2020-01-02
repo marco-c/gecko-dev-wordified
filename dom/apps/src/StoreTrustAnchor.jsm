@@ -102,6 +102,9 @@ AppMarketplaceDevPublicRoot
 AppMarketplaceDevReviewersRoot
 "
 "
+AppMarketplaceStageRoot
+"
+"
 AppXPCShellRoot
 "
 ]
