@@ -2836,8 +2836,11 @@ CompileLazyFunction
 JSContext
 *
 cx
+Handle
+<
 LazyScript
 *
+>
 lazy
 const
 jschar
