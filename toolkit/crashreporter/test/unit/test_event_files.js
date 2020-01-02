@@ -284,7 +284,15 @@ ok
 (
 crash
 .
-isMainProcessCrash
+isOfType
+(
+cm
+.
+PROCESS_TYPE_MAIN
+cm
+.
+CRASH_TYPE_CRASH
+)
 )
 ;
 Assert
