@@ -5426,6 +5426,14 @@ mBubbles
 =
 false
 ;
+event
+.
+mFlags
+.
+mCancelable
+=
+false
+;
 /
 /
 XXX
