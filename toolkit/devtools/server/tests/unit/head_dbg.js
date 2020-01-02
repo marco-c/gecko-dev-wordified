@@ -876,6 +876,9 @@ function
 addTestGlobal
 (
 aName
+aServer
+=
+DebuggerServer
 )
 {
 let
@@ -886,7 +889,7 @@ testGlobal
 aName
 )
 ;
-DebuggerServer
+aServer
 .
 addTestGlobal
 (
@@ -1278,9 +1281,12 @@ server
 function
 initTestDebuggerServer
 (
+aServer
+=
+DebuggerServer
 )
 {
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -1295,7 +1301,7 @@ script
 "
 )
 ;
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -1314,7 +1320,7 @@ Allow
 incoming
 connections
 .
-DebuggerServer
+aServer
 .
 init
 (
@@ -1332,9 +1338,12 @@ true
 function
 initTestTracerServer
 (
+aServer
+=
+DebuggerServer
 )
 {
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -1349,7 +1358,7 @@ script
 "
 )
 ;
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -1362,7 +1371,7 @@ testactors
 "
 )
 ;
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -1383,7 +1392,7 @@ Allow
 incoming
 connections
 .
-DebuggerServer
+aServer
 .
 init
 (
