@@ -224,3 +224,7 @@ DEPRECATED_OPERATION
 (
 SyncXMLHttpRequest
 )
+DEPRECATED_OPERATION
+(
+DataContainerEvent
+)
