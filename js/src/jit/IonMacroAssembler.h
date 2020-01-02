@@ -5064,7 +5064,7 @@ fail
 )
 ;
 void
-freeSpanAllocate
+freeListAllocate
 (
 Register
 result
