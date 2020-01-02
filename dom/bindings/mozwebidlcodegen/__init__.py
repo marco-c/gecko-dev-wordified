@@ -895,6 +895,12 @@ GLOBAL_DECLARE_FILES
 {
         
 '
+FeatureList
+.
+h
+'
+        
+'
 GeneratedAtomList
 .
 h
