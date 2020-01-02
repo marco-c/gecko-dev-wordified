@@ -904,7 +904,7 @@ virtual
 void
 DrawWindowUnderlay
 (
-LayerManager
+LayerManagerComposite
 *
 aManager
 nsIntRect
@@ -915,7 +915,7 @@ virtual
 void
 DrawWindowOverlay
 (
-LayerManager
+LayerManagerComposite
 *
 aManager
 nsIntRect

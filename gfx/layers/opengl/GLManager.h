@@ -132,7 +132,7 @@ namespace
 layers
 {
 class
-LayerManager
+LayerManagerComposite
 ;
 /
 *
@@ -175,7 +175,7 @@ GLManager
 *
 CreateGLManager
 (
-LayerManager
+LayerManagerComposite
 *
 aManager
 )

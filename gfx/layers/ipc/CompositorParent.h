@@ -1309,6 +1309,11 @@ uint64_t
 aId
 )
 ;
+float
+ComputeRenderIntegrity
+(
+)
+;
 /
 *
 *
