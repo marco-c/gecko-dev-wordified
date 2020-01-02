@@ -854,7 +854,7 @@ aWantNextFrame
 Update
 the
 shadow
-trasnform
+transform
 for
 aLayer
 assuming
@@ -884,6 +884,8 @@ APZ
 void
 ApplyAsyncTransformToScrollbar
 (
+TimeStamp
+aCurrentFrame
 ContainerLayer
 *
 aLayer
