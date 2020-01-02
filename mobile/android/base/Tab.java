@@ -594,7 +594,11 @@ parentId
 ;
 mAboutHomePage
 =
-null
+HomePager
+.
+Page
+.
+TOP_SITES
 ;
 mTitle
 =
@@ -3506,14 +3510,6 @@ valueOf
 (
 homePage
 )
-)
-;
-}
-else
-{
-setAboutHomePage
-(
-null
 )
 ;
 }
