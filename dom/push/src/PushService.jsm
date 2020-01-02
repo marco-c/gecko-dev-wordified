@@ -9732,9 +9732,9 @@ org
 /
 network
 /
-socket
--
 udp
+-
+socket
 ;
 1
 "
@@ -9744,7 +9744,7 @@ createInstance
 (
 Ci
 .
-nsIUDPServerSocket
+nsIUDPSocket
 )
 ;
 this
