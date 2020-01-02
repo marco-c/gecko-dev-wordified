@@ -502,7 +502,7 @@ isabs
 (
 o
 .
-sandbox_main_path
+context_main_path
 )
 )
             
@@ -514,7 +514,7 @@ len
 (
 o
 .
-sandbox_all_paths
+context_all_paths
 )
 1
 )

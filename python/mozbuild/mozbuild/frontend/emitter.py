@@ -112,6 +112,8 @@ import
     
 ConfigFileSubstitution
     
+ContextWrapped
+    
 Defines
     
 DirectoryTraversal
@@ -166,8 +168,6 @@ ReaderSummary
     
 Resources
     
-SandboxWrapped
-    
 SharedLibrary
     
 SimpleProgram
@@ -188,22 +188,12 @@ from
 .
 reader
 import
-(
-    
-MozbuildSandbox
-    
 SandboxValidationError
-)
 from
 .
-gyp_reader
+context
 import
-GypSandbox
-from
-.
-sandbox
-import
-GlobalNamespace
+Context
 class
 TreeMetadataEmitter
 (
@@ -621,7 +611,7 @@ emitter_time
 .
 0
         
-sandboxes
+contexts
 =
 {
 }
@@ -677,17 +667,14 @@ if
 isinstance
 (
 out
-(
-MozbuildSandbox
-GypSandbox
-)
+Context
 )
 :
                 
 #
 Keep
 all
-sandboxes
+contexts
 around
 we
 will
@@ -696,14 +683,11 @@ them
 later
 .
                 
-sandboxes
+contexts
 [
 out
-[
-'
-OBJDIR
-'
-]
+.
+objdir
 ]
 =
 out
@@ -736,7 +720,7 @@ list
 (
 self
 .
-emit_from_sandbox
+emit_from_context
 (
 out
 )
@@ -824,7 +808,7 @@ self
 .
 _emit_libs_derived
 (
-sandboxes
+contexts
 )
 )
         
@@ -862,7 +846,7 @@ def
 _emit_libs_derived
 (
 self
-sandboxes
+contexts
 )
 :
         
@@ -945,7 +929,7 @@ LIBRARY_NAME
 lib
 .
 link_into
-sandboxes
+contexts
 [
 lib
 .
@@ -1134,7 +1118,7 @@ candidates
 )
 )
                     
-sandboxes
+contexts
 [
 lib
 .
@@ -1149,7 +1133,7 @@ linkage
 .
         
 for
-sandbox
+context
 obj
 variable
 in
@@ -1162,7 +1146,7 @@ self
 .
 _link_libraries
 (
-sandbox
+context
 obj
 variable
 )
@@ -1356,7 +1340,7 @@ lib
 basename
 )
                     
-sandboxes
+contexts
 [
 lib
 .
@@ -1531,7 +1515,7 @@ passthru
 =
 VariablePassthru
 (
-sandboxes
+contexts
 [
 p
 ]
@@ -1597,7 +1581,7 @@ def
 _link_libraries
 (
 self
-sandbox
+context
 obj
 variable
 )
@@ -1659,7 +1643,7 @@ upper
 )
         
 if
-sandbox
+context
 .
 config
 .
@@ -1722,7 +1706,7 @@ KIND
 for
 path
 in
-sandbox
+context
 .
 get
 (
@@ -2018,7 +2002,7 @@ KIND
 ]
 dir
 )
-sandbox
+context
 )
             
 if
@@ -2210,7 +2194,7 @@ KIND
 ]
 dir
 )
-sandbox
+context
 )
                     
 raise
@@ -2260,7 +2244,7 @@ obj
 KIND
 ]
 )
-sandbox
+context
 )
             
 if
@@ -2307,7 +2291,7 @@ KIND
 ]
 )
                     
-sandbox
+context
 )
             
 elif
@@ -2396,7 +2380,7 @@ join
 paths
 )
 )
-sandbox
+context
 )
             
 elif
@@ -2490,7 +2474,7 @@ candidates
 relobjdir
 )
                     
-sandbox
+context
 )
             
 elif
@@ -2543,7 +2527,7 @@ HOST_OS_LIBS
 for
 lib
 in
-sandbox
+context
 .
 get
 (
@@ -2592,8 +2576,7 @@ with
 a
         
 #
-mock
-sandbox
+context
 more
 or
 less
@@ -2603,68 +2586,24 @@ where
 the
 external
 library
-        
-#
 is
 .
         
-sandbox
+context
 =
-GlobalNamespace
+Context
 (
-)
-        
-sandbox
-.
 config
 =
 self
 .
 config
-        
-sandbox
-.
-main_path
-=
-dir
-        
-sandbox
-.
-all_paths
-=
-set
-(
-[
-dir
-]
 )
         
-with
-sandbox
+context
 .
-allow_all_writes
+add_source
 (
-)
-as
-s
-:
-            
-s
-[
-'
-RELATIVEDIR
-'
-]
-=
-dir
-            
-s
-[
-'
-SRCDIR
-'
-]
-=
 mozpath
 .
 join
@@ -2675,25 +2614,10 @@ config
 .
 topsrcdir
 dir
+'
+dummy
+'
 )
-            
-s
-[
-'
-OBJDIR
-'
-]
-=
-mozpath
-.
-join
-(
-self
-.
-config
-.
-topobjdir
-dir
 )
         
 if
@@ -2703,7 +2627,7 @@ force_static
 return
 ExternalStaticLibrary
 (
-sandbox
+context
 name
 )
         
@@ -2713,15 +2637,15 @@ else
 return
 ExternalSharedLibrary
 (
-sandbox
+context
 name
 )
     
 def
-emit_from_sandbox
+emit_from_context
 (
 self
-sandbox
+context
 )
 :
         
@@ -2730,7 +2654,7 @@ sandbox
 "
 Convert
 a
-MozbuildSandbox
+Context
 to
 tree
 metadata
@@ -2748,7 +2672,7 @@ frontend
 .
 data
 .
-SandboxDerived
+ContextDerived
 instances
 .
         
@@ -2782,9 +2706,9 @@ o
 in
 self
 .
-_emit_directory_traversal_from_sandbox
+_emit_directory_traversal_from_context
 (
-sandbox
+context
 )
 :
 yield
@@ -2793,7 +2717,7 @@ o
 for
 path
 in
-sandbox
+context
 [
 '
 CONFIGURE_SUBST_FILES
@@ -2807,7 +2731,7 @@ self
 _create_substitution
 (
 ConfigFileSubstitution
-sandbox
+context
                 
 path
 )
@@ -2815,7 +2739,7 @@ path
 for
 path
 in
-sandbox
+context
 [
 '
 CONFIGURE_DEFINE_FILES
@@ -2829,7 +2753,7 @@ self
 _create_substitution
 (
 HeaderFileSubstitution
-sandbox
+context
                 
 path
 )
@@ -2885,7 +2809,7 @@ XPIDL_MODULE
         
 xpidl_module
 =
-sandbox
+context
 [
 '
 XPIDL_MODULE
@@ -2893,7 +2817,7 @@ XPIDL_MODULE
 ]
         
 if
-sandbox
+context
 [
 '
 XPIDL_SOURCES
@@ -2921,14 +2845,14 @@ is
 defined
 .
 '
-sandbox
+context
 )
         
 if
 xpidl_module
 and
 not
-sandbox
+context
 [
 '
 XPIDL_SOURCES
@@ -2952,18 +2876,18 @@ there
 are
 XPIDL_SOURCES
 '
-sandbox
+context
 )
         
 if
-sandbox
+context
 [
 '
 XPIDL_SOURCES
 '
 ]
 and
-sandbox
+context
 [
 '
 NO_DIST_INSTALL
@@ -2986,7 +2910,7 @@ dict
                 
 path
 =
-sandbox
+context
 .
 main_path
 )
@@ -3009,7 +2933,7 @@ XPIDL_SOURCES
 for
 idl
 in
-sandbox
+context
 [
 '
 XPIDL_SOURCES
@@ -3020,17 +2944,14 @@ XPIDL_SOURCES
 yield
 XPIDLFile
 (
-sandbox
+context
 mozpath
 .
 join
 (
-sandbox
-[
-'
-SRCDIR
-'
-]
+context
+.
+srcdir
 idl
 )
                 
@@ -3057,7 +2978,7 @@ for
 src
 in
 (
-sandbox
+context
 [
 symbol
 ]
@@ -3079,12 +3000,9 @@ mozpath
 .
 join
 (
-sandbox
-[
-'
-SRCDIR
-'
-]
+context
+.
+srcdir
 src
 )
 )
@@ -3118,7 +3036,7 @@ s
 symbol
 src
 )
-sandbox
+context
 )
         
 #
@@ -3168,7 +3086,7 @@ passthru
 =
 VariablePassthru
 (
-sandbox
+context
 )
         
 varlist
@@ -3274,9 +3192,9 @@ varlist
 if
 v
 in
-sandbox
+context
 and
-sandbox
+context
 [
 v
 ]
@@ -3289,7 +3207,7 @@ variables
 v
 ]
 =
-sandbox
+context
 [
 v
 ]
@@ -3319,9 +3237,9 @@ LDFLAGS
 if
 v
 in
-sandbox
+context
 and
-sandbox
+context
 [
 v
 ]
@@ -3338,7 +3256,7 @@ MOZBUILD_
 v
 ]
 =
-sandbox
+context
 [
 v
 ]
@@ -3350,7 +3268,7 @@ slightly
 different
         
 if
-sandbox
+context
 [
 '
 NO_VISIBILITY_FLAGS
@@ -3371,7 +3289,7 @@ VISIBILITY_FLAGS
 '
         
 if
-sandbox
+context
 [
 '
 DELAYLOAD_DLLS
@@ -3400,10 +3318,11 @@ s
 %
 dll
 )
+                
 for
 dll
 in
-sandbox
+context
 [
 '
 DELAYLOAD_DLLS
@@ -3672,7 +3591,7 @@ items
 for
 f
 in
-sandbox
+context
 [
 variable
 ]
@@ -3713,7 +3632,7 @@ type
 '
 %
 f
-sandbox
+context
 )
                 
 l
@@ -3774,7 +3693,7 @@ f
         
 no_pgo
 =
-sandbox
+context
 .
 get
 (
@@ -3785,7 +3704,7 @@ NO_PGO
         
 sources
 =
-sandbox
+context
 .
 get
 (
@@ -3846,7 +3765,7 @@ the
 same
 time
 '
-sandbox
+context
 )
             
 passthru
@@ -3913,7 +3832,7 @@ f
 yield
 PerSourceFlag
 (
-sandbox
+context
 f
 sources
 [
@@ -3925,7 +3844,7 @@ flags
         
 exports
 =
-sandbox
+context
 .
 get
 (
@@ -3941,13 +3860,13 @@ exports
 yield
 Exports
 (
-sandbox
+context
 exports
                 
 dist_install
 =
 not
-sandbox
+context
 .
 get
 (
@@ -3960,7 +3879,7 @@ False
         
 defines
 =
-sandbox
+context
 .
 get
 (
@@ -3976,13 +3895,13 @@ defines
 yield
 Defines
 (
-sandbox
+context
 defines
 )
         
 resources
 =
-sandbox
+context
 .
 get
 (
@@ -3998,7 +3917,7 @@ resources
 yield
 Resources
 (
-sandbox
+context
 resources
 defines
 )
@@ -4025,7 +3944,7 @@ HostProgram
             
 program
 =
-sandbox
+context
 .
 get
 (
@@ -4085,7 +4004,7 @@ program
 .
 relativedir
 )
-sandbox
+context
 )
                 
 self
@@ -4097,7 +4016,7 @@ program
 =
 cls
 (
-sandbox
+context
 program
 )
                 
@@ -4108,7 +4027,7 @@ _linkage
 append
 (
 (
-sandbox
+context
 self
 .
 _binaries
@@ -4162,7 +4081,7 @@ HostSimpleProgram
 for
 program
 in
-sandbox
+context
 [
 kind
 ]
@@ -4216,7 +4135,7 @@ program
 .
 relativedir
 )
-sandbox
+context
 )
                 
 self
@@ -4228,7 +4147,7 @@ program
 =
 cls
 (
-sandbox
+context
 program
                     
 is_unit_test
@@ -4248,7 +4167,7 @@ _linkage
 append
 (
 (
-sandbox
+context
 self
 .
 _binaries
@@ -4276,7 +4195,7 @@ USE_LIBS
         
 extra_js_modules
 =
-sandbox
+context
 .
 get
 (
@@ -4292,7 +4211,7 @@ extra_js_modules
 yield
 JavaScriptModules
 (
-sandbox
+context
 extra_js_modules
 '
 extra
@@ -4301,7 +4220,7 @@ extra
         
 extra_pp_js_modules
 =
-sandbox
+context
 .
 get
 (
@@ -4317,7 +4236,7 @@ extra_pp_js_modules
 yield
 JavaScriptModules
 (
-sandbox
+context
 extra_pp_js_modules
 '
 extra_pp
@@ -4326,7 +4245,7 @@ extra_pp
         
 test_js_modules
 =
-sandbox
+context
 .
 get
 (
@@ -4342,7 +4261,7 @@ test_js_modules
 yield
 JavaScriptModules
 (
-sandbox
+context
 test_js_modules
 '
 testing
@@ -4426,7 +4345,7 @@ ExampleWebIDLInterface
 ]
         
 for
-sandbox_var
+context_var
 klass
 in
 simple_lists
@@ -4435,11 +4354,11 @@ simple_lists
 for
 name
 in
-sandbox
+context
 .
 get
 (
-sandbox_var
+context_var
 [
 ]
 )
@@ -4448,12 +4367,12 @@ sandbox_var
 yield
 klass
 (
-sandbox
+context
 name
 )
         
 if
-sandbox
+context
 .
 get
 (
@@ -4462,7 +4381,7 @@ FINAL_TARGET
 '
 )
 or
-sandbox
+context
 .
 get
 (
@@ -4473,7 +4392,7 @@ XPI_NAME
 or
 \
                 
-sandbox
+context
 .
 get
 (
@@ -4486,12 +4405,12 @@ DIST_SUBDIR
 yield
 InstallationTarget
 (
-sandbox
+context
 )
         
 host_libname
 =
-sandbox
+context
 .
 get
 (
@@ -4502,7 +4421,7 @@ HOST_LIBRARY_NAME
         
 libname
 =
-sandbox
+context
 .
 get
 (
@@ -4538,14 +4457,14 @@ a
 different
 value
 '
-sandbox
+context
 )
             
 lib
 =
 HostLibrary
 (
-sandbox
+context
 host_libname
 )
             
@@ -4568,7 +4487,7 @@ _linkage
 append
 (
 (
-sandbox
+context
 lib
 '
 HOST_USE_LIBS
@@ -4578,7 +4497,7 @@ HOST_USE_LIBS
         
 final_lib
 =
-sandbox
+context
 .
 get
 (
@@ -4606,12 +4525,9 @@ one
             
 libname
 =
-sandbox
-[
-'
-RELATIVEDIR
-'
-]
+context
+.
+relsrcdir
 .
 replace
 (
@@ -4625,7 +4541,7 @@ _
         
 static_lib
 =
-sandbox
+context
 .
 get
 (
@@ -4636,7 +4552,7 @@ FORCE_STATIC_LIB
         
 shared_lib
 =
-sandbox
+context
 .
 get
 (
@@ -4647,7 +4563,7 @@ FORCE_SHARED_LIB
         
 static_name
 =
-sandbox
+context
 .
 get
 (
@@ -4658,7 +4574,7 @@ STATIC_LIBRARY_NAME
         
 shared_name
 =
-sandbox
+context
 .
 get
 (
@@ -4669,7 +4585,7 @@ SHARED_LIBRARY_NAME
         
 is_framework
 =
-sandbox
+context
 .
 get
 (
@@ -4680,7 +4596,7 @@ IS_FRAMEWORK
         
 is_component
 =
-sandbox
+context
 .
 get
 (
@@ -4691,7 +4607,7 @@ IS_COMPONENT
         
 soname
 =
-sandbox
+context
 .
 get
 (
@@ -4715,28 +4631,20 @@ final_lib
 :
             
 if
-isinstance
-(
-sandbox
-MozbuildSandbox
-)
-:
-                
-if
 static_lib
 :
-                    
+                
 raise
 SandboxValidationError
 (
-                        
+                    
 '
 FINAL_LIBRARY
 implies
 FORCE_STATIC_LIB
 .
 '
-                        
+                    
 '
 Please
 remove
@@ -4744,7 +4652,7 @@ the
 latter
 .
 '
-sandbox
+context
 )
             
 if
@@ -4769,7 +4677,7 @@ remove
 one
 .
 '
-sandbox
+context
 )
             
 if
@@ -4794,7 +4702,7 @@ remove
 one
 .
 '
-sandbox
+context
 )
             
 if
@@ -4819,7 +4727,7 @@ remove
 one
 .
 '
-sandbox
+context
 )
             
 static_args
@@ -4865,7 +4773,7 @@ the
 latter
 .
 '
-sandbox
+context
 )
                 
 if
@@ -4890,7 +4798,7 @@ remove
 one
 .
 '
-sandbox
+context
 )
                 
 if
@@ -4915,7 +4823,7 @@ remove
 one
 .
 '
-sandbox
+context
 )
                 
 shared_lib
@@ -4959,7 +4867,7 @@ the
 latter
 .
 '
-sandbox
+context
 )
                 
 if
@@ -4984,7 +4892,7 @@ remove
 one
 .
 '
-sandbox
+context
 )
                 
 shared_lib
@@ -5020,7 +4928,8 @@ STATIC_LIBRARY_NAME
 requires
 FORCE_STATIC_LIB
 '
-sandbox
+                        
+context
 )
                 
 static_args
@@ -5050,7 +4959,8 @@ SHARED_LIBRARY_NAME
 requires
 FORCE_SHARED_LIB
 '
-sandbox
+                        
+context
 )
                 
 shared_args
@@ -5080,7 +4990,7 @@ SONAME
 requires
 FORCE_SHARED_LIB
 '
-sandbox
+context
 )
                 
 shared_args
@@ -5131,7 +5041,7 @@ library
 .
             
 if
-sandbox
+context
 .
 get
 (
@@ -5214,7 +5124,7 @@ required
 .
 '
                         
-sandbox
+context
 )
                 
 if
@@ -5275,7 +5185,7 @@ set
 SHARED_LIBRARY_NAME
 .
 '
-sandbox
+context
 )
                 
 if
@@ -5336,7 +5246,7 @@ set
 STATIC_LIBRARY_NAME
 .
 '
-sandbox
+context
 )
                 
 if
@@ -5383,7 +5293,7 @@ them
 .
 '
                         
-sandbox
+context
 )
             
 if
@@ -5394,7 +5304,7 @@ lib
 =
 SharedLibrary
 (
-sandbox
+context
 libname
 *
 *
@@ -5420,7 +5330,7 @@ _linkage
 append
 (
 (
-sandbox
+context
 lib
 '
 USE_LIBS
@@ -5436,7 +5346,7 @@ lib
 =
 StaticLibrary
 (
-sandbox
+context
 libname
 *
 *
@@ -5462,7 +5372,7 @@ _linkage
 append
 (
 (
-sandbox
+context
 lib
 '
 USE_LIBS
@@ -5796,7 +5706,7 @@ items
 for
 path
 in
-sandbox
+context
 .
 get
 (
@@ -5818,7 +5728,7 @@ self
 .
 _process_test_manifest
 (
-sandbox
+context
 info
 path
 )
@@ -5843,7 +5753,7 @@ reftest
 for
 path
 in
-sandbox
+context
 .
 get
 (
@@ -5869,7 +5779,7 @@ self
 .
 _process_reftest_manifest
 (
-sandbox
+context
 flavor
 path
 )
@@ -5880,7 +5790,7 @@ obj
         
 jar_manifests
 =
-sandbox
+context
 .
 get
 (
@@ -5921,7 +5831,7 @@ one
 value
 .
 '
-sandbox
+context
 )
         
 for
@@ -5933,17 +5843,14 @@ jar_manifests
 yield
 JARManifest
 (
-sandbox
+context
 mozpath
 .
 join
 (
-sandbox
-[
-'
-SRCDIR
-'
-]
+context
+.
+srcdir
 path
 )
 )
@@ -6016,12 +5923,9 @@ path
 .
 join
 (
-sandbox
-[
-'
-SRCDIR
-'
-]
+context
+.
+srcdir
 '
 jar
 .
@@ -6074,14 +5978,14 @@ define
 JAR_MANIFESTS
 .
 '
-sandbox
+context
 )
         
 for
 name
 jar
 in
-sandbox
+context
 .
 get
 (
@@ -6098,9 +6002,9 @@ items
 :
             
 yield
-SandboxWrapped
+ContextWrapped
 (
-sandbox
+context
 jar
 )
         
@@ -6108,7 +6012,7 @@ for
 name
 data
 in
-sandbox
+context
 .
 get
 (
@@ -6125,9 +6029,9 @@ items
 :
             
 yield
-SandboxWrapped
+ContextWrapped
 (
-sandbox
+context
 data
 )
         
@@ -6145,7 +6049,7 @@ _create_substitution
 (
 self
 cls
-sandbox
+context
 path
 )
 :
@@ -6173,7 +6077,7 @@ sub
 =
 cls
 (
-sandbox
+context
 )
         
 sub
@@ -6184,12 +6088,9 @@ mozpath
 .
 join
 (
-sandbox
-[
-'
-SRCDIR
-'
-]
+context
+.
+srcdir
 '
 %
 s
@@ -6208,12 +6109,9 @@ mozpath
 .
 join
 (
-sandbox
-[
-'
-OBJDIR
-'
-]
+context
+.
+objdir
 path
 )
         
@@ -6230,7 +6128,7 @@ def
 _process_test_manifest
 (
 self
-sandbox
+context
 info
 manifest_path
 )
@@ -6262,12 +6160,9 @@ mozpath
 .
 join
 (
-sandbox
-[
-'
-SRCDIR
-'
-]
+context
+.
+srcdir
 manifest_path
 )
 )
@@ -6293,7 +6188,7 @@ relpath
 (
 path
             
-sandbox
+context
 .
 config
 .
@@ -6376,14 +6271,14 @@ s
                     
 %
 path
-sandbox
+context
 )
             
 obj
 =
 TestManifest
 (
-sandbox
+context
 path
 m
 flavor
@@ -6547,7 +6442,7 @@ join
 missing
 )
 )
-sandbox
+context
 )
             
 out_dir
@@ -7426,7 +7321,7 @@ s
 path
 f
 )
-sandbox
+context
 )
                 
 obj
@@ -7497,14 +7392,14 @@ exc_info
 )
 )
                 
-sandbox
+context
 )
     
 def
 _process_reftest_manifest
 (
 self
-sandbox
+context
 flavor
 manifest_path
 )
@@ -7530,12 +7425,9 @@ mozpath
 join
 (
             
-sandbox
-[
-'
-SRCDIR
-'
-]
+context
+.
+srcdir
 manifest_path
 )
 )
@@ -7552,7 +7444,7 @@ relpath
 (
 manifest_full_path
             
-sandbox
+context
 .
 config
 .
@@ -7621,7 +7513,7 @@ obj
 =
 TestManifest
 (
-sandbox
+context
 manifest_full_path
 manifest
                 
@@ -7745,10 +7637,10 @@ yield
 obj
     
 def
-_emit_directory_traversal_from_sandbox
+_emit_directory_traversal_from_context
 (
 self
-sandbox
+context
 )
 :
         
@@ -7756,14 +7648,14 @@ o
 =
 DirectoryTraversal
 (
-sandbox
+context
 )
         
 o
 .
 dirs
 =
-sandbox
+context
 .
 get
 (
@@ -7778,7 +7670,7 @@ o
 .
 test_dirs
 =
-sandbox
+context
 .
 get
 (
@@ -7793,7 +7685,7 @@ o
 .
 affected_tiers
 =
-sandbox
+context
 .
 get_affected_tiers
 (
@@ -7843,13 +7735,13 @@ if
 TIERS
 '
 in
-sandbox
+context
 :
             
 for
 tier
 in
-sandbox
+context
 [
 '
 TIERS
@@ -7864,7 +7756,7 @@ tier_dirs
 tier
 ]
 =
-sandbox
+context
 [
 '
 TIERS
@@ -7881,7 +7773,7 @@ regular
 +
 \
                     
-sandbox
+context
 [
 '
 TIERS
