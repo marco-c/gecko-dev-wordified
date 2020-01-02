@@ -1621,12 +1621,7 @@ aFrame
 .
 script
 .
-getOffsetLine
-(
-aFrame
-.
-offset
-)
+startLine
 column
 :
 getOffsetColumn
