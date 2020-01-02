@@ -14778,7 +14778,7 @@ form
 =
 mForm
 ;
-nsFormEvent
+InternalFormEvent
 event
 (
 true
@@ -19679,7 +19679,7 @@ if
 mForm
 )
 {
-nsFormEvent
+InternalFormEvent
 event
 (
 true

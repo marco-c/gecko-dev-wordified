@@ -2181,13 +2181,6 @@ mozilla
 InternalScrollAreaEvent
 nsScrollAreaEvent
 ;
-typedef
-mozilla
-:
-:
-InternalFormEvent
-nsFormEvent
-;
 #
 endif
 /

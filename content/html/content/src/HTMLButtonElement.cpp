@@ -1978,7 +1978,7 @@ NS_FORM_BUTTON_RESET
 )
 )
 {
-nsFormEvent
+InternalFormEvent
 event
 (
 true
