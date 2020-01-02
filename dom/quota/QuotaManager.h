@@ -915,6 +915,11 @@ const
 nsACString
 &
 aOrigin
+Nullable
+<
+PersistenceType
+>
+aPersistenceType
 AcquireListener
 *
 aListener
@@ -941,6 +946,7 @@ return
 AcquireExclusiveAccess
 (
 aOrigin
+aPersistenceType
 aStorage
 aListener
 aCallback
@@ -955,6 +961,11 @@ const
 nsACString
 &
 aOrigin
+Nullable
+<
+PersistenceType
+>
+aPersistenceType
 AcquireListener
 *
 aListener
@@ -969,6 +980,7 @@ return
 AcquireExclusiveAccess
 (
 aOrigin
+aPersistenceType
 nullptr
 aListener
 aCallback
@@ -1001,6 +1013,11 @@ const
 nsACString
 &
 aPattern
+Nullable
+<
+PersistenceType
+>
+aPersistenceType
 )
 {
 return
@@ -1009,12 +1026,7 @@ return
 FindSynchronizedOp
 (
 aPattern
-Nullable
-<
-PersistenceType
->
-(
-)
+aPersistenceType
 EmptyCString
 (
 )
@@ -1440,6 +1452,11 @@ const
 nsACString
 &
 aOrigin
+Nullable
+<
+PersistenceType
+>
+aPersistenceType
 nsIOfflineStorage
 *
 aStorage

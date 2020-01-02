@@ -1753,8 +1753,12 @@ bool
 notpassed
 StringificationBehavior
 nullBehavior
+=
+eNull
 StringificationBehavior
 undefinedBehavior
+=
+eNull
 )
 ;
 }
