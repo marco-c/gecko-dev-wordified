@@ -343,9 +343,12 @@ mHasEverBeenBound
 (
 false
 )
-mInitialized
+mImageDataStatus
 (
-false
+WebGLImageDataStatus
+:
+:
+NoImageData
 )
 {
 SetIsDOMBinding

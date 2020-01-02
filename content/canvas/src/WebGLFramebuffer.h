@@ -347,10 +347,17 @@ mTexImageLevel
 ;
 }
 bool
-HasUninitializedRenderbuffer
+HasUninitializedImageData
 (
 )
 const
+;
+void
+SetImageDataStatus
+(
+WebGLImageDataStatus
+x
+)
 ;
 void
 Reset
@@ -677,7 +684,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 WebGLFramebuffer
 )
 bool
-CheckAndInitializeRenderbuffers
+CheckAndInitializeAttachments
 (
 )
 ;
