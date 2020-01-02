@@ -956,7 +956,7 @@ milliseconds
 const
 MAX_SEARCH_TOKENS
 =
-30
+10
 ;
 const
 NOOP
