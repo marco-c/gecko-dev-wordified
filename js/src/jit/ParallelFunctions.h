@@ -727,6 +727,17 @@ JSObject
 obj
 )
 ;
+JSString
+*
+FloatToStringPar
+(
+ForkJoinContext
+*
+cx
+float
+f
+)
+;
 }
 /
 /

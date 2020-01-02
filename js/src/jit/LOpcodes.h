@@ -808,6 +808,11 @@ DoubleToString
 \
 _
 (
+FloatToString
+)
+\
+_
+(
 PrimitiveToString
 )
 \

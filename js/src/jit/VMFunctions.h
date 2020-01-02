@@ -4822,6 +4822,17 @@ HandleString
 repl
 )
 ;
+JSString
+*
+FloatToString
+(
+ThreadSafeContext
+*
+cx
+float
+f
+)
+;
 #
 ifdef
 DEBUG
