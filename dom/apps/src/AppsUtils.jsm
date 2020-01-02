@@ -4011,9 +4011,11 @@ if
 !
 icons
 )
+{
 return
 null
 ;
+}
 let
 iconSizes
 =
@@ -4033,9 +4035,11 @@ length
 =
 0
 )
+{
 return
 null
 ;
+}
 iconSizes
 .
 sort
