@@ -14345,7 +14345,10 @@ JSVAL_VOID
 if
 (
 !
-JS_AddValueRoot
+js
+:
+:
+AddRawValueRoot
 (
 mCallContext
 &
@@ -14355,6 +14358,13 @@ dp
 val
 .
 j
+"
+XPCWrappedNative
+:
+:
+CallMethod
+param
+"
 )
 )
 return
@@ -15694,7 +15704,10 @@ nsXPTType
 :
 T_JSVAL
 :
-JS_RemoveValueRoot
+js
+:
+:
+RemoveRawValueRoot
 (
 mCallContext
 (

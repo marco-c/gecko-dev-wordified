@@ -1167,7 +1167,10 @@ stringval
 if
 (
 !
-JS_AddNamedStringRoot
+JS
+:
+:
+AddNamedStringRoot
 (
 cx
 &
@@ -1521,7 +1524,10 @@ glob
 ;
 ok
 =
-JS_AddNamedValueRoot
+JS
+:
+:
+AddNamedValueRoot
 (
 cx
 &
@@ -1669,7 +1675,10 @@ jsdc
 glob
 )
 ;
-JS_RemoveValueRoot
+JS
+:
+:
+RemoveValueRoot
 (
 cx
 &
@@ -2400,7 +2409,10 @@ jsdc
 glob
 )
 ;
-JS_RemoveStringRoot
+JS
+:
+:
+RemoveStringRoot
 (
 cx
 &

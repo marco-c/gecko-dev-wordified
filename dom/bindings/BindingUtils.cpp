@@ -1190,7 +1190,10 @@ UndefinedValue
 if
 (
 !
-JS_AddNamedValueRoot
+js
+:
+:
+AddRawValueRoot
 (
 cx
 &
@@ -1336,7 +1339,10 @@ and
 unroot
 mJSException
 .
-JS_RemoveValueRoot
+js
+:
+:
+RemoveRawValueRoot
 (
 cx
 &
@@ -1513,7 +1519,10 @@ get
 )
 )
 ;
-JS_RemoveValueRoot
+js
+:
+:
+RemoveRawValueRoot
 (
 aCx
 &
@@ -1608,7 +1617,10 @@ set
 mJSException
 )
 ;
-JS_RemoveValueRoot
+js
+:
+:
+RemoveRawValueRoot
 (
 cx
 &
