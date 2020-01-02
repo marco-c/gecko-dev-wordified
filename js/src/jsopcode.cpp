@@ -10496,7 +10496,8 @@ FindStartPC
 JSContext
 *
 cx
-ScriptFrameIter
+const
+FrameIter
 &
 iter
 int
@@ -10931,7 +10932,7 @@ true
 ;
 #
 endif
-ScriptFrameIter
+FrameIter
 frameIter
 (
 cx
@@ -10942,6 +10943,14 @@ if
 frameIter
 .
 done
+(
+)
+|
+|
+!
+frameIter
+.
+hasScript
 (
 )
 )
@@ -11348,7 +11357,7 @@ intrinsic
 .
 *
 /
-ScriptFrameIter
+FrameIter
 frameIter
 (
 cx
@@ -11397,6 +11406,14 @@ if
 frameIter
 .
 done
+(
+)
+|
+|
+!
+frameIter
+.
+hasScript
 (
 )
 )

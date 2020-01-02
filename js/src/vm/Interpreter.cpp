@@ -3185,7 +3185,7 @@ typeInferenceEnabled
 )
 )
 {
-ScriptFrameIter
+FrameIter
 iter
 (
 cx
@@ -3197,6 +3197,13 @@ if
 iter
 .
 done
+(
+)
+&
+&
+iter
+.
+hasScript
 (
 )
 )
