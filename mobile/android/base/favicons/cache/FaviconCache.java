@@ -4603,6 +4603,13 @@ startWrite
 ;
 try
 {
+mCurrentSize
+.
+set
+(
+0
+)
+;
 mBackingMap
 .
 clear
