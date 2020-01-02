@@ -3674,10 +3674,6 @@ CERTCertificate
 *
 cert
 const
-SECItem
-*
-stapledOCSPResponse
-const
 void
 *
 fdForLogging
@@ -5755,7 +5751,6 @@ mCert
 get
 (
 )
-mStapledOCSPResponse
 mFdForLogging
 mProviderFlags
 mTime
@@ -6669,7 +6664,6 @@ certVerifier
 error
 socketInfo
 serverCert
-stapledOCSPResponse
 static_cast
 <
 const
