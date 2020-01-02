@@ -211,6 +211,13 @@ GL
 (
 )
 ;
+gl
+-
+>
+MakeCurrent
+(
+)
+;
 if
 (
 src
