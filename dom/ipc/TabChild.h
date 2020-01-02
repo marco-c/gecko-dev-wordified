@@ -3373,17 +3373,6 @@ LayoutDevicePoint
 aPoint
 )
 ;
-enum
-ClickState
-{
-Unknown
-IsClick
-IsNotClick
-}
-;
-ClickState
-mTouchEndIsClick
-;
 bool
 mIgnoreKeyPressEvent
 ;
