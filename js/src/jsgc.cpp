@@ -10939,7 +10939,7 @@ gcTriggerBytes
 ;
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 JS_ASSERT_IF
 (
 cx
