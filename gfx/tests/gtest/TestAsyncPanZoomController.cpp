@@ -2933,7 +2933,7 @@ layers
 AllowedTouchBehavior
 :
 :
-PINCH_ZOOM
+ZOOM
 )
 ;
 apzc
@@ -6755,7 +6755,7 @@ layers
 AllowedTouchBehavior
 :
 :
-PINCH_ZOOM
+ZOOM
 )
 ;
 }
@@ -6821,7 +6821,7 @@ layers
 AllowedTouchBehavior
 :
 :
-PINCH_ZOOM
+ZOOM
 )
 ;
 }
