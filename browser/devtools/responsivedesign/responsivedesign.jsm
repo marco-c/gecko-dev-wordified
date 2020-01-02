@@ -1623,8 +1623,6 @@ TouchEventHandler
 this
 .
 browser
-.
-contentWindow
 )
 ;
 this
@@ -1816,8 +1814,6 @@ TouchEventHandler
 this
 .
 browser
-.
-contentWindow
 )
 ;
 if
