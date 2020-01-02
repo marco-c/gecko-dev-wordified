@@ -351,10 +351,6 @@ consoleservice
 .
 getService
 (
-)
-.
-QueryInterface
-(
 Ci
 .
 nsIConsoleService
