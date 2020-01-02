@@ -582,9 +582,6 @@ aManifest
 aApp
 .
 origin
-aApp
-.
-manifestURL
 )
 ;
 this
@@ -787,9 +784,6 @@ aManifest
 aApp
 .
 origin
-aApp
-.
-manifestURL
 )
 ;
 let

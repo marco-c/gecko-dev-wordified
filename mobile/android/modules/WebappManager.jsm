@@ -1603,11 +1603,6 @@ aData
 app
 .
 apkPackageName
-aData
-.
-app
-.
-manifestURL
 )
 ;
 }
@@ -1631,7 +1626,6 @@ aProfilePath
 aNewManifest
 aOrigin
 aApkPackageName
-aManifestURL
 )
 {
 /
@@ -1709,7 +1703,6 @@ ManifestHelper
 (
 aNewManifest
 aOrigin
-aManifestUrl
 )
 ;
 this
@@ -2743,9 +2736,6 @@ origin
 aOldApp
 .
 apkPackageName
-aOldApp
-.
-manifestURL
 )
 ;
 }
