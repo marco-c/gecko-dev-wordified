@@ -30877,7 +30877,7 @@ of
 JS
 :
 :
-ContextOptions
+RuntimeOptions
 :
 :
 werror
