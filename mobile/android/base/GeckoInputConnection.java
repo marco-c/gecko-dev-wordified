@@ -3762,12 +3762,13 @@ TYPE_TEXT_FLAG_CAP_WORDS
 else
 if
 (
+!
 mIMEModeHint
 .
 equalsIgnoreCase
 (
 "
-autocapitalized
+lowercase
 "
 )
 )
@@ -3782,7 +3783,9 @@ TYPE_TEXT_FLAG_CAP_SENTENCES
 ;
 /
 /
-lowercase
+auto
+-
+capitalized
 mode
 is
 the
