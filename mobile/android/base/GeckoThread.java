@@ -249,6 +249,7 @@ WaitForDebugger
 Launched
 GeckoRunning
 GeckoExiting
+GeckoExited
 }
 ;
 private
