@@ -144,6 +144,17 @@ ToMatrix4x4
 #
 include
 "
+gfx3DMatrix
+.
+h
+"
+/
+/
+for
+gfx3DMatrix
+#
+include
+"
 gfxPrefs
 .
 h

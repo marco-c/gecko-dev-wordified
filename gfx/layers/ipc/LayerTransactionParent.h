@@ -202,6 +202,9 @@ h
 /
 for
 InfallibleTArray
+class
+gfx3DMatrix
+;
 namespace
 mozilla
 {

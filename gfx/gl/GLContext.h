@@ -209,6 +209,13 @@ h
 #
 include
 "
+gfx3DMatrix
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h

@@ -125,6 +125,17 @@ uint8_t
 #
 include
 "
+gfx3DMatrix
+.
+h
+"
+/
+/
+for
+gfx3DMatrix
+#
+include
+"
 gfxColor
 .
 h

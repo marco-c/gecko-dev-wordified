@@ -1444,10 +1444,7 @@ nsIntRegion
 &
 aLowPrecisionScreenRegion
 const
-gfx
-:
-:
-Matrix4x4
+gfx3DMatrix
 &
 aTransform
 )

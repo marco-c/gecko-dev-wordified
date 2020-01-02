@@ -233,11 +233,7 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-Matrix
+gfx3DMatrix
 .
 h
 "
@@ -544,16 +540,6 @@ mozilla
 :
 MonitorAutoLock
 MonitorAutoLock
-;
-typedef
-mozilla
-:
-:
-gfx
-:
-:
-Matrix4x4
-Matrix4x4
 ;
 typedef
 uint32_t
@@ -1848,7 +1834,7 @@ steady
 state
 :
 *
-Matrix4x4
+gfx3DMatrix
 (
 GetCurrentAsyncTransform
 (
@@ -1862,7 +1848,7 @@ GetNontransientAsyncTransform
 )
 *
 /
-Matrix4x4
+gfx3DMatrix
 GetNontransientAsyncTransform
 (
 )
@@ -1935,7 +1921,7 @@ understand
 .
 *
 /
-Matrix4x4
+gfx3DMatrix
 GetTransformToLastDispatchedPaint
 (
 )
@@ -7479,11 +7465,11 @@ nsIntRegion
 &
 aRegion
 const
-Matrix4x4
+gfx3DMatrix
 &
 aTransformToLayer
 const
-Matrix4x4
+gfx3DMatrix
 &
 aTransformForLayer
 )
@@ -7505,7 +7491,7 @@ UpdateTransformScale
 )
 ;
 }
-Matrix4x4
+gfx3DMatrix
 GetAncestorTransform
 (
 )
@@ -7515,7 +7501,7 @@ return
 mAncestorTransform
 ;
 }
-Matrix4x4
+gfx3DMatrix
 GetCSSTransform
 (
 )
@@ -7652,7 +7638,7 @@ inclusive
 )
 *
 /
-Matrix4x4
+gfx3DMatrix
 mAncestorTransform
 ;
 /
@@ -7671,7 +7657,7 @@ layer
 .
 *
 /
-Matrix4x4
+gfx3DMatrix
 mCSSTransform
 ;
 /
