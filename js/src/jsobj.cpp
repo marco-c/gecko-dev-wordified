@@ -15480,12 +15480,6 @@ HeapSlot
 :
 writeBarrierPost
 (
-cx
--
->
-runtime
-(
-)
 a
 HeapSlot
 :
@@ -15506,12 +15500,6 @@ HeapSlot
 :
 writeBarrierPost
 (
-cx
--
->
-runtime
-(
-)
 b
 HeapSlot
 :

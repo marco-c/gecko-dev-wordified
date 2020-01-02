@@ -1133,7 +1133,7 @@ gcStoreBufferPtr
 )
 -
 >
-putSlot
+putSlotFromAnyThread
 (
 obj
 HeapSlot
