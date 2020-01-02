@@ -554,9 +554,6 @@ beginning
 "
 )
 ;
-bool
-result
-=
 mStreams
 .
 InsertElementAt
