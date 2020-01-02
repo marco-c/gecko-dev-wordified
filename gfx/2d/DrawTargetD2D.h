@@ -800,6 +800,16 @@ GetDWriteFactory
 (
 )
 ;
+ID2D1RenderTarget
+*
+GetRT
+(
+)
+{
+return
+mRT
+;
+}
 operator
 std
 :
