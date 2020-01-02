@@ -194,7 +194,7 @@ querySelector
 (
 "
 #
-restoreButton
+restore
 "
 )
 .
