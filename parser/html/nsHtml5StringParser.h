@@ -128,12 +128,6 @@ nsHtml5StringParser
 (
 )
 ;
-virtual
-~
-nsHtml5StringParser
-(
-)
-;
 /
 *
 *
@@ -299,6 +293,12 @@ aScriptingEnabledForNoscriptParsing
 ;
 private
 :
+virtual
+~
+nsHtml5StringParser
+(
+)
+;
 nsresult
 Tokenize
 (

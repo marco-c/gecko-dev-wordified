@@ -227,6 +227,12 @@ NS_DECL_NSISAXATTRIBUTES
 NS_DECL_NSISAXMUTABLEATTRIBUTES
 private
 :
+~
+nsSAXAttributes
+(
+)
+{
+}
 nsTArray
 <
 SAXAttr

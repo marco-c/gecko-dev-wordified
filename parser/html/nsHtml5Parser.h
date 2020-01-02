@@ -260,12 +260,6 @@ nsHtml5Parser
 (
 )
 ;
-virtual
-~
-nsHtml5Parser
-(
-)
-;
 /
 *
 Start
@@ -1358,6 +1352,12 @@ ParseUntilBlocked
 ;
 private
 :
+virtual
+~
+nsHtml5Parser
+(
+)
+;
 /
 /
 State

@@ -504,12 +504,6 @@ eParserMode
 aMode
 )
 ;
-virtual
-~
-nsHtml5StreamParser
-(
-)
-;
 /
 /
 Methods
@@ -992,6 +986,12 @@ aURL
 ;
 private
 :
+virtual
+~
+nsHtml5StreamParser
+(
+)
+;
 #
 ifdef
 DEBUG

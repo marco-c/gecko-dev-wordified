@@ -179,6 +179,12 @@ nsIDTD
 public
 nsITokenizer
 {
+virtual
+~
+nsExpatDriver
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -189,12 +195,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 nsExpatDriver
 nsIDTD
 )
-nsExpatDriver
-(
-)
-;
-virtual
-~
 nsExpatDriver
 (
 )

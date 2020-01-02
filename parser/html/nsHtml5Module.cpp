@@ -600,6 +600,12 @@ NS_OK
 }
 private
 :
+~
+nsHtml5ParserThreadTerminator
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIThread
