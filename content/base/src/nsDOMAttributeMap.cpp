@@ -200,13 +200,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsINameSpaceManager
 .
 h

@@ -201,13 +201,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMUserDataHandler
 .
 h
