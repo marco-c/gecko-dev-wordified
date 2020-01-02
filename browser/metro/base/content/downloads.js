@@ -153,7 +153,7 @@ downloads
 png
 "
 var
-Downloads
+MetroDownloadsView
 =
 {
 /
@@ -1575,7 +1575,7 @@ function
 (
 )
 {
-Downloads
+MetroDownloadsView
 .
 manager
 .
@@ -1602,14 +1602,14 @@ function
 (
 )
 {
-Downloads
+MetroDownloadsView
 .
 cancelDownload
 (
 aDownload
 )
 ;
-Downloads
+MetroDownloadsView
 .
 _downloadProgressIndicator
 .
@@ -1695,7 +1695,7 @@ target
 let
 file
 =
-Downloads
+MetroDownloadsView
 .
 _getLocalFile
 (
@@ -1809,7 +1809,7 @@ function
 (
 )
 {
-Downloads
+MetroDownloadsView
 .
 openDownload
 (
@@ -1962,7 +1962,7 @@ target
 let
 file
 =
-Downloads
+MetroDownloadsView
 .
 _getLocalFile
 (
@@ -1978,7 +1978,7 @@ reveal
 let
 downloadCompleteNotification
 =
-Downloads
+MetroDownloadsView
 .
 _notificationBox
 .
@@ -1991,7 +1991,7 @@ complete
 "
 )
 ;
-Downloads
+MetroDownloadsView
 .
 _notificationBox
 .
@@ -2062,7 +2062,7 @@ case
 alertclickcallback
 "
 :
-Downloads
+MetroDownloadsView
 .
 openDownload
 (
@@ -2072,7 +2072,7 @@ aDownload
 let
 downloadCompleteNotification
 =
-Downloads
+MetroDownloadsView
 .
 _notificationBox
 .
@@ -2085,7 +2085,7 @@ complete
 "
 )
 ;
-Downloads
+MetroDownloadsView
 .
 _notificationBox
 .
@@ -2654,13 +2654,13 @@ function
 (
 )
 {
-Downloads
+MetroDownloadsView
 .
 cancelDownloads
 (
 )
 ;
-Downloads
+MetroDownloadsView
 .
 _downloadProgressIndicator
 .
@@ -2876,7 +2876,7 @@ complete
 &
 &
 !
-Downloads
+MetroDownloadsView
 .
 _notificationBox
 .
@@ -2890,7 +2890,7 @@ complete
 )
 )
 {
-Downloads
+MetroDownloadsView
 .
 _downloadProgressIndicator
 .
@@ -3765,7 +3765,7 @@ contentLength
 availableSpace
 )
 {
-Downloads
+MetroDownloadsView
 .
 showAlert
 (
@@ -3804,7 +3804,7 @@ alertDownloadsSize
 )
 )
 ;
-Downloads
+MetroDownloadsView
 .
 cancelDownload
 (

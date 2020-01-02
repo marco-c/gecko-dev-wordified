@@ -1154,7 +1154,7 @@ OfflineApps
 ;
 try
 {
-Downloads
+MetroDownloadsView
 .
 init
 (
@@ -1380,7 +1380,7 @@ uninit
 (
 )
 ;
-Downloads
+MetroDownloadsView
 .
 uninit
 (
