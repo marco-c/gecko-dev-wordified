@@ -6434,7 +6434,7 @@ icon
 extension
 inputURIHash
 .
-Append
+AppendLiteral
 (
 "
 .

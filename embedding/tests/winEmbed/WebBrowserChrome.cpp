@@ -2962,7 +2962,7 @@ uriSpec
 ;
 status
 .
-Append
+AppendLiteral
 (
 "
 added
@@ -3008,7 +3008,7 @@ status
 ;
 status
 .
-Append
+AppendLiteral
 (
 "
 Url
@@ -3047,7 +3047,7 @@ status
 ;
 status
 .
-Append
+AppendLiteral
 (
 "
 purged

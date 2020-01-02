@@ -1364,7 +1364,7 @@ n
 :
 aResult
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1383,7 +1383,7 @@ r
 :
 aResult
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1402,7 +1402,7 @@ case
 :
 aResult
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -1422,7 +1422,7 @@ case
 :
 aResult
 .
-Append
+AppendLiteral
 (
 "
 \

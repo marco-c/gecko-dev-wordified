@@ -1462,7 +1462,7 @@ kJPGImageMime
 )
 encoderCID
 .
-Append
+AppendLiteral
 (
 "
 image

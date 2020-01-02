@@ -2760,7 +2760,7 @@ appName
 {
 appName
 .
-Append
+AppendLiteral
 (
 "
 MessageWindow

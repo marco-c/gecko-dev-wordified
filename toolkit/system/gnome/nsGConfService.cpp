@@ -1333,7 +1333,7 @@ aScheme
 ;
 key
 .
-Append
+AppendLiteral
 (
 "
 /
@@ -1486,7 +1486,7 @@ aScheme
 ;
 key
 .
-Append
+AppendLiteral
 (
 "
 /
@@ -1574,7 +1574,7 @@ aScheme
 ;
 key
 .
-Append
+AppendLiteral
 (
 "
 /

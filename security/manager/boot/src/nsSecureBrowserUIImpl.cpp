@@ -4420,7 +4420,7 @@ LOAD_DOCUMENT_URI
 ;
 info2
 .
-Append
+AppendLiteral
 (
 "
 LOAD_DOCUMENT_URI
@@ -4448,7 +4448,7 @@ LOAD_RETARGETED_DOCUMENT_URI
 ;
 info2
 .
-Append
+AppendLiteral
 (
 "
 LOAD_RETARGETED_DOCUMENT_URI
@@ -4476,7 +4476,7 @@ LOAD_REPLACE
 ;
 info2
 .
-Append
+AppendLiteral
 (
 "
 LOAD_REPLACE
@@ -4530,7 +4530,7 @@ STATE_START
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 START
@@ -4558,7 +4558,7 @@ STATE_REDIRECTING
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 REDIRECTING
@@ -4586,7 +4586,7 @@ STATE_TRANSFERRING
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 TRANSFERRING
@@ -4614,7 +4614,7 @@ STATE_NEGOTIATING
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 NEGOTIATING
@@ -4642,7 +4642,7 @@ STATE_STOP
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 STOP
@@ -4670,7 +4670,7 @@ STATE_IS_REQUEST
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 IS_REQUEST
@@ -4698,7 +4698,7 @@ STATE_IS_DOCUMENT
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 IS_DOCUMENT
@@ -4726,7 +4726,7 @@ STATE_IS_NETWORK
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 IS_NETWORK
@@ -4754,7 +4754,7 @@ STATE_IS_WINDOW
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 IS_WINDOW
@@ -4782,7 +4782,7 @@ STATE_IS_INSECURE
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 IS_INSECURE
@@ -4810,7 +4810,7 @@ STATE_IS_BROKEN
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 IS_BROKEN
@@ -4838,7 +4838,7 @@ STATE_IS_SECURE
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 IS_SECURE
@@ -4866,7 +4866,7 @@ STATE_SECURE_HIGH
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 SECURE_HIGH
@@ -4894,7 +4894,7 @@ STATE_RESTORING
 ;
 info
 .
-Append
+AppendLiteral
 (
 "
 STATE_RESTORING
@@ -4911,7 +4911,7 @@ f
 {
 info
 .
-Append
+AppendLiteral
 (
 "
 f

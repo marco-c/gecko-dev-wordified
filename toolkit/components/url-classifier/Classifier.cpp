@@ -1144,7 +1144,7 @@ Length
 {
 aResult
 .
-Append
+AppendLiteral
 (
 "
 a
@@ -1202,7 +1202,7 @@ Append
 ;
 aResult
 .
-Append
+AppendLiteral
 (
 "
 s

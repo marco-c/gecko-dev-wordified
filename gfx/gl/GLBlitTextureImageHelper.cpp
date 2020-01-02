@@ -1482,7 +1482,7 @@ msg
 ;
 msg
 .
-Append
+AppendLiteral
 (
 "
 Framebuffer

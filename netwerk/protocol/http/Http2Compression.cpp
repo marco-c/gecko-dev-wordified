@@ -6817,10 +6817,6 @@ EqualsLiteral
 authorization
 "
 )
-?
-true
-:
-false
 )
 ;
 }

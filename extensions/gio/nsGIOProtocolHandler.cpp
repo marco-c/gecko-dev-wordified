@@ -1890,7 +1890,7 @@ a
 )
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 300
@@ -1953,7 +1953,7 @@ column
 names
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 200
@@ -1992,7 +1992,7 @@ correct
 ?
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 301
@@ -3262,7 +3262,7 @@ G_FILE_TYPE_REGULAR
 :
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 FILE
@@ -3276,7 +3276,7 @@ G_FILE_TYPE_DIRECTORY
 :
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 DIRECTORY
@@ -3290,7 +3290,7 @@ G_FILE_TYPE_SYMBOLIC_LINK
 :
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 SYMBOLIC

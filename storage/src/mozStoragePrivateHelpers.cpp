@@ -536,7 +536,7 @@ count
 )
 message
 .
-Append
+AppendLiteral
 (
 "
 sort
@@ -548,7 +548,7 @@ has
 else
 message
 .
-Append
+AppendLiteral
 (
 "
 sort
@@ -559,7 +559,7 @@ have
 ;
 message
 .
-Append
+AppendLiteral
 (
 "
 occurred
@@ -576,7 +576,7 @@ ifdef
 MOZ_STORAGE_SORTWARNING_SQL_DUMP
 message
 .
-Append
+AppendLiteral
 (
 "
 SQL

@@ -13411,7 +13411,7 @@ kPluginRegistryFilename
 ;
 filename
 .
-Append
+AppendLiteral
 (
 "
 .

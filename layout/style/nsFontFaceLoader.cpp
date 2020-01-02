@@ -5181,7 +5181,7 @@ aStatus
 {
 message
 .
-Append
+AppendLiteral
 (
 "
 :
@@ -5198,7 +5198,7 @@ NS_ERROR_DOM_BAD_URI
 :
 message
 .
-Append
+AppendLiteral
 (
 "
 bad
@@ -5220,7 +5220,7 @@ NS_ERROR_CONTENT_BLOCKED
 :
 message
 .
-Append
+AppendLiteral
 (
 "
 content
@@ -5234,7 +5234,7 @@ default
 :
 message
 .
-Append
+AppendLiteral
 (
 "
 status
@@ -5261,7 +5261,7 @@ break
 }
 message
 .
-Append
+AppendLiteral
 (
 "
 \

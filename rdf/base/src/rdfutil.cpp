@@ -570,7 +570,7 @@ buf
 usecs
 aResult
 .
-Append
+AppendLiteral
 (
 "
 +

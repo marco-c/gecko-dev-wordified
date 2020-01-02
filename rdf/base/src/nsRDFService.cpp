@@ -5564,7 +5564,7 @@ Truncate
 ;
 s
 .
-Append
+AppendLiteral
 (
 "
 rdf

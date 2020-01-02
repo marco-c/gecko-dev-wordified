@@ -2504,7 +2504,7 @@ brandName
 ;
 filePath
 .
-Append
+AppendLiteral
 (
 "
 _wallpaper

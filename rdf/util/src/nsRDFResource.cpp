@@ -1008,7 +1008,7 @@ aKey
 ;
 contractID
 .
-Append
+AppendLiteral
 (
 "
 &

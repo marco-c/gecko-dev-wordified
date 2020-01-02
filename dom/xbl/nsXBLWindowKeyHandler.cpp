@@ -779,7 +779,7 @@ aType
 ;
 type
 .
-Append
+AppendLiteral
 (
 "
 User

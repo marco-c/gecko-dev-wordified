@@ -13082,7 +13082,7 @@ bug
 466080
 peerId
 .
-Append
+AppendLiteral
 (
 "
 anon
@@ -13103,7 +13103,7 @@ NO_PERMANENT_STORAGE
 {
 peerId
 .
-Append
+AppendLiteral
 (
 "
 private
