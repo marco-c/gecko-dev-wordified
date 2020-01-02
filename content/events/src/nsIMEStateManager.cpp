@@ -3144,13 +3144,11 @@ WidgetGUIEvent
 *
 GUIEvent
 =
-static_cast
-<
-WidgetGUIEvent
-*
->
-(
 aEvent
+-
+>
+AsGUIEvent
+(
 )
 ;
 TextComposition
