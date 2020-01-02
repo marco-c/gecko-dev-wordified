@@ -306,7 +306,7 @@ nsIDOMBlob
 aBlob
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SameCOMIdentity
 (
@@ -570,7 +570,7 @@ JSObject
 aObj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (
@@ -1374,7 +1374,7 @@ nsIDOMFile
 aFile
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SameCOMIdentity
 (
@@ -1495,7 +1495,7 @@ do_QueryInterface
 priv
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 priv
 file
@@ -1630,7 +1630,7 @@ JSObject
 aObj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (
@@ -2494,7 +2494,7 @@ do_QueryInterface
 priv
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 priv
 blob
