@@ -68,7 +68,7 @@ PACKAGE_VERSION
 '
 2
 .
-4
+5
 '
 setup
 (
