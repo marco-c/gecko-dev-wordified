@@ -12490,6 +12490,7 @@ AutoBuildingDisplayList
 rootSetter
 (
 aBuilder
+this
 true
 )
 ;
