@@ -788,16 +788,9 @@ delta
 y
 )
 >
-APZCTreeManager
+AsyncPanZoomController
 :
 :
-GetDPI
-(
-)
-*
-mAsyncPanZoomController
--
->
 GetTouchStartTolerance
 (
 )
