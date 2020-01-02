@@ -263,13 +263,6 @@ h
 #
 include
 "
-nsSVGTextPathFrame
-.
-h
-"
-#
-include
-"
 StickyScrollContainer
 .
 h

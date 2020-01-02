@@ -283,13 +283,6 @@ h
 #
 include
 "
-nsSVGTextPathFrame
-.
-h
-"
-#
-include
-"
 nsSVGUtils
 .
 h
