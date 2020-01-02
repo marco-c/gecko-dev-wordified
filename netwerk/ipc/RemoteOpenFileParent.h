@@ -173,6 +173,15 @@ aURI
 )
 {
 }
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
 bool
 OpenSendCloseDelete
 (

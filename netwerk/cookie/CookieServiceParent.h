@@ -172,6 +172,15 @@ aIsPrivate
 )
 ;
 virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
+virtual
 bool
 RecvGetCookieString
 (

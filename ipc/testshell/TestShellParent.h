@@ -173,6 +173,15 @@ PTestShellParent
 {
 public
 :
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
 PTestShellCommandParent
 *
 AllocPTestShellCommandParent

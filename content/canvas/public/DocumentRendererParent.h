@@ -146,6 +146,15 @@ aData
 )
 ;
 virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
+virtual
 bool
 Recv__delete__
 (
@@ -158,6 +167,7 @@ nsCString
 &
 data
 )
+MOZ_OVERRIDE
 ;
 private
 :

@@ -185,6 +185,15 @@ false
 ;
 }
 virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
+virtual
 bool
 AnswerNPN_Write
 (

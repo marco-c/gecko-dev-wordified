@@ -220,6 +220,15 @@ mDestructionFlag
 nullptr
 ;
 }
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
 private
 :
 bool

@@ -181,6 +181,15 @@ PluginSurfaceParent
 (
 )
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
 gfxASurface
 *
 Surface
