@@ -786,6 +786,17 @@ bluetooth
 /
 adapter
 "
+#
+define
+KEY_DISCOVERY_HANDLE
+"
+/
+B2G
+/
+bluetooth
+/
+discovery_handle
+"
 /
 *
 *
