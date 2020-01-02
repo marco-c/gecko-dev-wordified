@@ -496,7 +496,7 @@ flushPendingRequests
 )
 ;
 void
-postReceiveReponseEvent
+postReceiveResponseEvent
 (
 )
 ;
@@ -511,7 +511,7 @@ unrecoverably
 wrong
 .
 bool
-receiveRTSPReponse
+receiveRTSPResponse
 (
 )
 ;
