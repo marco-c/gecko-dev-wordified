@@ -1247,6 +1247,8 @@ tmp
 )
 ;
 }
+private
+:
 T
 *
 mRawPtr
@@ -2969,7 +2971,9 @@ NSCAP_CTOR_BASE
 (
 aSmartPtr
 .
-mRawPtr
+take
+(
+)
 )
 /
 /
@@ -2985,8 +2989,6 @@ expr
 NSCAP_LOG_ASSIGNMENT
 (
 this
-aSmartPtr
-.
 mRawPtr
 )
 ;
@@ -3021,7 +3023,9 @@ T
 (
 aSmartPtr
 .
-mRawPtr
+take
+(
+)
 )
 )
 /
@@ -3079,8 +3083,6 @@ T
 *
 >
 (
-aSmartPtr
-.
 mRawPtr
 )
 )
@@ -3538,7 +3540,9 @@ T
 (
 rhs
 .
-mRawPtr
+take
+(
+)
 )
 )
 ;
@@ -4773,7 +4777,9 @@ nsCOMPtr_base
 (
 aSmartPtr
 .
-mRawPtr
+take
+(
+)
 )
 /
 /
@@ -4789,8 +4795,6 @@ expr
 NSCAP_LOG_ASSIGNMENT
 (
 this
-aSmartPtr
-.
 mRawPtr
 )
 ;
@@ -5190,7 +5194,9 @@ assign_assuming_AddRef
 (
 rhs
 .
-mRawPtr
+take
+(
+)
 )
 ;
 return
