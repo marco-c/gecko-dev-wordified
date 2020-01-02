@@ -215,6 +215,12 @@ dev
 '
         
 '
+python
+-
+setuptools
+'
+        
+'
 unzip
 '
         
