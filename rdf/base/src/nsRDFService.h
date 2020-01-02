@@ -214,6 +214,9 @@ h
 struct
 PLHashTable
 ;
+struct
+PRLogModuleInfo
+;
 class
 nsIRDFLiteral
 ;
@@ -234,6 +237,16 @@ nsIRDFService
 public
 nsSupportsWeakReference
 {
+#
+ifdef
+PR_LOGGING
+static
+PRLogModuleInfo
+*
+gLog
+;
+#
+endif
 protected
 :
 PLHashTable
