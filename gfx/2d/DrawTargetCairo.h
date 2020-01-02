@@ -949,6 +949,11 @@ IntPoint
 aDest
 )
 ;
+Rect
+GetUserSpaceClip
+(
+)
+;
 /
 /
 Call
