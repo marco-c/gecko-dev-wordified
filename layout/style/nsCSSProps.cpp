@@ -2390,13 +2390,11 @@ don
 t
 support
 eEnabledInUASheets
-or
-eEnabledInChromeOrCertifiedApp
-/
-/
 for
 aliases
 yet
+/
+/
 because
 it
 '
@@ -2421,7 +2419,7 @@ res
 aEnabled
 =
 =
-eIgnoreEnabledState
+eAny
 )
 {
 res
@@ -2466,7 +2464,7 @@ res
 aEnabled
 =
 =
-eIgnoreEnabledState
+eAny
 )
 {
 return
@@ -2671,7 +2669,7 @@ res
 aEnabled
 =
 =
-eIgnoreEnabledState
+eAny
 )
 {
 res
@@ -2716,7 +2714,7 @@ res
 aEnabled
 =
 =
-eIgnoreEnabledState
+eAny
 )
 {
 return

@@ -5725,7 +5725,7 @@ attributeName
 nsCSSProps
 :
 :
-eEnabledForAllContent
+eEnabled
 )
 ;
 isCSS
