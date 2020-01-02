@@ -136,10 +136,8 @@ setBoolPref
 "
 devtools
 .
-debugger
+chrome
 .
-addon
--
 enabled
 "
 !
