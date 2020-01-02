@@ -5026,11 +5026,6 @@ blocklist
 getAddonBlocklistState
 (
 update
-.
-id
-update
-.
-version
 aAppVersion
 aPlatformVersion
 )
