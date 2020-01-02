@@ -511,9 +511,6 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-sLink
-&
-&
 sRefCount
 >
 0
