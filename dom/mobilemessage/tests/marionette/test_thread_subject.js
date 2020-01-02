@@ -272,7 +272,7 @@ then
 (
 function
 (
-message
+result
 )
 {
 log
@@ -286,6 +286,8 @@ of
 id
 "
 +
+result
+.
 message
 .
 threadId
@@ -294,6 +296,8 @@ threadId
 return
 getThreadById
 (
+result
+.
 message
 .
 threadId
