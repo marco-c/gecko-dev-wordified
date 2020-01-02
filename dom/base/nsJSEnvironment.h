@@ -756,11 +756,6 @@ nullptr
 }
 protected
 :
-nsresult
-InitializeExternalClasses
-(
-)
-;
 /
 /
 Helper

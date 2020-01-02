@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsIScriptExternalNameSet
-.
-h
-"
-#
-include
-"
 js
 /
 TypeDecls
