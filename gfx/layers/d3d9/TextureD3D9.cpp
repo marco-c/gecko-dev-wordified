@@ -152,6 +152,13 @@ gfxWindowsPlatform
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 using
 namespace
 mozilla
