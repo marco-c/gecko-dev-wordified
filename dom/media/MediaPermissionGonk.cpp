@@ -1235,7 +1235,7 @@ audioDeviceNames
 ;
 nsCOMPtr
 <
-ContentPermissionType
+nsISupports
 >
 AudioType
 =
@@ -1284,7 +1284,7 @@ videoDeviceNames
 ;
 nsCOMPtr
 <
-ContentPermissionType
+nsISupports
 >
 VideoType
 =

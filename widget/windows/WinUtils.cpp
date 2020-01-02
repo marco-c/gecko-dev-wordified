@@ -3664,7 +3664,7 @@ rv
 ;
 nsCOMPtr
 <
-myDownloadObserver
+nsIDownloadObserver
 >
 downloadObserver
 =

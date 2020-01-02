@@ -518,9 +518,9 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
-AudioChannelAgent
+nsIAudioChannelAgent
 >
 mAgent
 ;

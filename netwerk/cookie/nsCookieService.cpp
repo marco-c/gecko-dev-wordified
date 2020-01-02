@@ -5633,7 +5633,7 @@ service
 ;
 nsCOMPtr
 <
-AppClearDataObserver
+nsIObserver
 >
 obs
 =

@@ -458,7 +458,7 @@ false
 ;
 nsCOMPtr
 <
-GetIntPrefEvent
+nsIRunnable
 >
 event
 =

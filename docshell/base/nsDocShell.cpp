@@ -5631,7 +5631,7 @@ this
 .
 nsCOMPtr
 <
-InterfaceRequestorProxy
+nsIInterfaceRequestor
 >
 proxy
 =

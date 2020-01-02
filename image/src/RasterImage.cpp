@@ -23200,7 +23200,7 @@ AssertCurrentThreadIn
 ;
 nsCOMPtr
 <
-DecodeDoneWorker
+nsIRunnable
 >
 worker
 =
@@ -23292,7 +23292,7 @@ image
 {
 nsCOMPtr
 <
-FrameNeededWorker
+nsIRunnable
 >
 worker
 =
