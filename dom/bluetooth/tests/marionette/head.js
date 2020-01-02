@@ -137,8 +137,6 @@ bluetoothManager
 ;
 /
 *
-*
-*
 Get
 mozSettings
 value
@@ -162,7 +160,7 @@ otherwise
 .
 *
 *
-Fulfill
+Forfill
 params
 :
 *
@@ -316,8 +314,6 @@ promise
 }
 /
 *
-*
-*
 Set
 mozSettings
 values
@@ -337,7 +333,7 @@ otherwise
 .
 *
 *
-Fulfill
+Forfill
 params
 :
 (
@@ -501,8 +497,6 @@ promise
 }
 /
 *
-*
-*
 Get
 mozSettings
 value
@@ -529,7 +523,7 @@ otherwise
 .
 *
 *
-Fulfill
+Forfill
 params
 :
 *
@@ -571,8 +565,6 @@ enabled
 }
 /
 *
-*
-*
 Set
 mozSettings
 value
@@ -598,7 +590,7 @@ otherwise
 .
 *
 *
-Fulfill
+Forfill
 params
 :
 (
@@ -661,8 +653,6 @@ obj
 }
 /
 *
-*
-*
 Push
 required
 permissions
@@ -686,7 +676,7 @@ otherwise
 .
 *
 *
-Fulfill
+Forfill
 params
 :
 *
@@ -941,8 +931,6 @@ promise
 }
 /
 *
-*
-*
 Wait
 for
 one
@@ -964,7 +952,7 @@ reject
 .
 *
 *
-Fulfill
+Forfill
 params
 :
 the
@@ -1050,8 +1038,6 @@ promise
 }
 /
 *
-*
-*
 Convenient
 function
 for
@@ -1081,7 +1067,7 @@ settings
 .
 *
 *
-Fulfill
+Forfill
 params
 :
 the
@@ -1256,8 +1242,6 @@ promises
 }
 /
 *
-*
-*
 Get
 default
 adapter
@@ -1276,7 +1260,7 @@ otherwise
 .
 *
 *
-Fulfill
+Forfill
 params
 :
 a
@@ -1519,8 +1503,6 @@ promise
 ;
 }
 /
-*
-*
 *
 Flush
 permission
