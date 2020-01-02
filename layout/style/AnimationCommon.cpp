@@ -1274,6 +1274,10 @@ mStyleRule
 /
 /
 FIXME
+(
+bug
+828173
+)
 :
 maybe
 not
@@ -1370,6 +1374,10 @@ mStyleRule
 /
 /
 FIXME
+(
+bug
+828173
+)
 :
 maybe
 not
