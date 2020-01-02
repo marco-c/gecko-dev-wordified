@@ -267,7 +267,7 @@ is
 handled
 by
 BluetoothInterface
-bt_status_t
+void
 Listen
 (
 btsock_type_t
@@ -283,10 +283,10 @@ aServiceUuid
 int
 aChannel
 int
-&
-aSockFd
-int
 aFlags
+BluetoothSocketResultHandler
+*
+aRes
 )
 ;
 bt_status_t
