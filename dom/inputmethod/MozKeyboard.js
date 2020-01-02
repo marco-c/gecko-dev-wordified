@@ -4322,13 +4322,13 @@ resolverId
 text
 :
 text
-beforeLength
+offset
 :
 offset
 |
 |
 0
-afterLength
+length
 :
 length
 |
