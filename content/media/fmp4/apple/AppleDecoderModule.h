@@ -282,12 +282,6 @@ static
 bool
 sIsEnabled
 ;
-nsAutoPtr
-<
-PlatformDecoderModule
->
-mBlankDecoder
-;
 }
 ;
 }
