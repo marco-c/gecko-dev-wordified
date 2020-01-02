@@ -2928,9 +2928,6 @@ aMode
 ;
 mLocked
 =
-true
-;
-return
 IsValid
 (
 )
@@ -2939,6 +2936,10 @@ IsValid
 IsAllocated
 (
 )
+;
+;
+return
+mLocked
 ;
 }
 void
