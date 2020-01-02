@@ -74,7 +74,7 @@ modules
 /
 sessionstore
 /
-_SessionFile
+SessionFile
 .
 jsm
 "
@@ -164,7 +164,7 @@ test_nothing_to_backup
 )
 {
 yield
-_SessionFile
+SessionFile
 .
 createBackupCopy
 (
@@ -241,7 +241,7 @@ created
 )
 ;
 yield
-_SessionFile
+SessionFile
 .
 createBackupCopy
 (
@@ -312,7 +312,7 @@ backup
 )
 ;
 yield
-_SessionFile
+SessionFile
 .
 removeBackupCopy
 (

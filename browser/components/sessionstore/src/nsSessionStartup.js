@@ -444,7 +444,7 @@ defineLazyModuleGetter
 (
 this
 "
-_SessionFile
+SessionFile
 "
 "
 resource
@@ -456,7 +456,7 @@ modules
 /
 sessionstore
 /
-_SessionFile
+SessionFile
 .
 jsm
 "
@@ -665,7 +665,7 @@ resolve
 return
 ;
 }
-_SessionFile
+SessionFile
 .
 read
 (
@@ -2162,7 +2162,7 @@ return
 let
 contents
 =
-_SessionFile
+SessionFile
 .
 syncRead
 (

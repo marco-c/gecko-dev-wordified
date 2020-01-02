@@ -1007,7 +1007,7 @@ defineLazyModuleGetter
 (
 this
 "
-_SessionFile
+SessionFile
 "
 "
 resource
@@ -1019,7 +1019,7 @@ modules
 /
 sessionstore
 /
-_SessionFile
+SessionFile
 .
 jsm
 "
@@ -3136,7 +3136,7 @@ Perform
 background
 backup
 yield
-_SessionFile
+SessionFile
 .
 createBackupCopy
 (
@@ -3168,7 +3168,7 @@ previous
 backup
 .
 yield
-_SessionFile
+SessionFile
 .
 removeBackupCopy
 (
@@ -4775,7 +4775,7 @@ are
 correctly
 counted
 .
-_SessionFile
+SessionFile
 .
 writeLoadStateOnceAfterStartup
 (
@@ -7070,7 +7070,7 @@ ssi_onPurgeSessionHistory
 (
 )
 {
-_SessionFile
+SessionFile
 .
 wipe
 (

@@ -549,7 +549,7 @@ to
 be
 called
 by
-_SessionFile
+SessionFile
 .
 syncRead
 (
@@ -608,7 +608,7 @@ aState
 {
 /
 /
-_SessionFile
+SessionFile
 .
 syncRead
 (
@@ -694,7 +694,7 @@ might
 be
 called
 by
-_SessionFile
+SessionFile
 .
 syncRead
 (

@@ -67,7 +67,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-_SessionFile
+SessionFile
 "
 ]
 ;
@@ -527,7 +527,7 @@ jsm
 ;
 this
 .
-_SessionFile
+SessionFile
 =
 {
 /
@@ -820,7 +820,7 @@ Object
 .
 freeze
 (
-_SessionFile
+SessionFile
 )
 ;
 /
@@ -1627,7 +1627,7 @@ new
 Error
 (
 "
-_SessionFile
+SessionFile
 is
 closed
 "
@@ -2168,7 +2168,7 @@ function
 )
 {
 return
-_SessionFile
+SessionFile
 .
 _latestWrite
 ;

@@ -202,7 +202,7 @@ defineLazyModuleGetter
 (
 this
 "
-_SessionFile
+SessionFile
 "
 "
 resource
@@ -214,7 +214,7 @@ modules
 /
 sessionstore
 /
-_SessionFile
+SessionFile
 .
 jsm
 "
@@ -1981,7 +1981,7 @@ notify
 the
 observers
 .
-_SessionFile
+SessionFile
 .
 write
 (
