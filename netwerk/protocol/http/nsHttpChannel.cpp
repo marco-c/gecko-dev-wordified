@@ -28284,6 +28284,13 @@ nsresult
 status
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 LOG
 (
 (

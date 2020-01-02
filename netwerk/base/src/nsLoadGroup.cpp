@@ -234,6 +234,13 @@ CacheObserver
 .
 h
 "
+#
+include
+"
+MainThreadUtils
+.
+h
+"
 using
 namespace
 mozilla
@@ -1395,6 +1402,13 @@ nsresult
 status
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 NS_ASSERTION
 (
 NS_FAILED
