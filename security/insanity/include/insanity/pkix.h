@@ -219,6 +219,8 @@ CERTCertificate
 cert
 PRTime
 time
+EndEntityOrCA
+endEntityOrCA
 /
 *
 optional
