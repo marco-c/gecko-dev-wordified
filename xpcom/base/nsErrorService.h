@@ -210,9 +210,6 @@ protected
 nsInt2StrHashtable
 mErrorStringBundleURLMap
 ;
-nsInt2StrHashtable
-mErrorStringBundleKeyMap
-;
 }
 ;
 #
