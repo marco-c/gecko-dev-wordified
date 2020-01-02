@@ -529,7 +529,15 @@ aRv
 void
 SetExposureCompensation
 (
+const
+dom
+:
+:
+Optional
+<
 double
+>
+&
 aCompensation
 ErrorResult
 &
