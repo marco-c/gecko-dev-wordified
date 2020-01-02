@@ -95,14 +95,10 @@ str
 {
 do_check_true
 (
-/
-someString
-/
-.
-test
-(
 str
-)
+"
+someString
+"
 )
 ;
 called
