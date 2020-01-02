@@ -5673,13 +5673,14 @@ get
 }
 metrics
 .
-mPresShellId
-=
+SetPresShellId
+(
 presShell
 -
 >
 GetPresShellId
 (
+)
 )
 ;
 /
