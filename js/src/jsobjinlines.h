@@ -4632,10 +4632,6 @@ Configurability
 configurable
 )
 :
-descObj_
-(
-nullptr
-)
 value_
 (
 UndefinedValue
