@@ -3288,10 +3288,12 @@ have_excessive_swapping
 (
 )
             
+#
 if
 excessive
 :
-                
+            
+#
 print
 (
 EXCESSIVE_SWAP_MESSAGE
