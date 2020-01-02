@@ -134,7 +134,7 @@ gre
 /
 modules
 /
-Services
+AppsUtils
 .
 jsm
 "
@@ -153,7 +153,7 @@ gre
 /
 modules
 /
-AppsUtils
+Services
 .
 jsm
 "
