@@ -353,8 +353,16 @@ type
 objects
 #
 define
-JS_DESCR_SLOT_STRUCT_FIELD_TYPES
+JS_DESCR_SLOT_STRUCT_FIELD_NAMES
 3
+#
+define
+JS_DESCR_SLOT_STRUCT_FIELD_TYPES
+4
+#
+define
+JS_DESCR_SLOT_STRUCT_FIELD_OFFSETS
+5
 /
 /
 Maximum
@@ -367,7 +375,7 @@ descriptor
 #
 define
 JS_DESCR_SLOTS
-5
+6
 /
 /
 /
