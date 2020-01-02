@@ -4980,6 +4980,7 @@ return
 ;
 }
 static
+const
 PLDHashTableOps
 gOps
 =

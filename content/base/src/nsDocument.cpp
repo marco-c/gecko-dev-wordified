@@ -19638,6 +19638,7 @@ a
 new
 hashtable
 static
+const
 PLDHashTableOps
 hash_table_ops
 =

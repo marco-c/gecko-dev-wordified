@@ -621,6 +621,7 @@ true
 ;
 }
 static
+const
 PLDHashTableOps
 ObjectTableOps
 =
