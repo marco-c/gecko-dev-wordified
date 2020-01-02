@@ -2123,6 +2123,11 @@ bytes
 .
 *
 /
+template
+<
+typename
+CharT
+>
 extern
 bool
 DeflateStringToBuffer
@@ -2131,7 +2136,7 @@ JSContext
 *
 maybecx
 const
-jschar
+CharT
 *
 chars
 size_t
