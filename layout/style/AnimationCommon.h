@@ -1328,6 +1328,12 @@ mozilla
 TimeDuration
 mIterationDuration
 ;
+mozilla
+:
+:
+TimeDuration
+mDelay
+;
 float
 mIterationCount
 ;
@@ -1765,6 +1771,8 @@ aTime
 -
 mStartTime
 -
+mTiming
+.
 mDelay
 ;
 }
@@ -1961,6 +1969,8 @@ max
 TimeDuration
 (
 )
+mTiming
+.
 mDelay
 *
 -
@@ -2102,12 +2112,6 @@ mozilla
 :
 TimeStamp
 mPauseStart
-;
-mozilla
-:
-:
-TimeDuration
-mDelay
 ;
 uint8_t
 mPlayState
