@@ -952,7 +952,7 @@ isNative
 &
 &
 !
-IsImplicitDenseElement
+IsImplicitDenseOrTypedArrayElement
 (
 shape
 )
@@ -3020,7 +3020,7 @@ isNative
 &
 &
 !
-IsImplicitDenseElement
+IsImplicitDenseOrTypedArrayElement
 (
 shape
 )
@@ -3303,7 +3303,7 @@ isNative
 &
 &
 !
-IsImplicitDenseElement
+IsImplicitDenseOrTypedArrayElement
 (
 shape
 )

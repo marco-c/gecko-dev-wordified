@@ -1994,6 +1994,17 @@ obj
 isNative
 (
 )
+|
+|
+obj
+-
+>
+is
+<
+TypedArrayObject
+>
+(
+)
 )
 {
 JS_ReportErrorNumber

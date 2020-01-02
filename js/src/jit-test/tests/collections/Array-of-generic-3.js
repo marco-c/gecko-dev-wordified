@@ -1,5 +1,15 @@
 /
 /
+|
+jit
+-
+test
+|
+error
+:
+TypeError
+/
+/
 Array
 .
 of
