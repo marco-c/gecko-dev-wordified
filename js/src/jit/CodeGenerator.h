@@ -620,14 +620,6 @@ lir
 )
 ;
 bool
-visitRegExpExec
-(
-LRegExpExec
-*
-lir
-)
-;
-bool
 visitRegExpTest
 (
 LRegExpTest
