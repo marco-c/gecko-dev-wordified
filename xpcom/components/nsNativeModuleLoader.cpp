@@ -184,7 +184,7 @@ endif
 #
 include
 "
-nsNativeComponentLoader
+nsNativeModuleLoader
 .
 h
 "
