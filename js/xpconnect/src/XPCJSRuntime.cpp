@@ -20804,7 +20804,7 @@ use
 a
 buffer
 of
-40k
+50k
 .
 const
 size_t
@@ -20818,7 +20818,7 @@ const
 size_t
 kTrustedScriptBuffer
 =
-40
+50
 *
 1024
 ;
