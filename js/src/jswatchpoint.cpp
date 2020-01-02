@@ -1624,6 +1624,7 @@ CompartmentsIter
 comp
 (
 rt
+SkipAtoms
 )
 ;
 !

@@ -3319,6 +3319,7 @@ CompartmentsIter
 comp
 (
 rt
+WithAtoms
 )
 ;
 !
@@ -3499,6 +3500,7 @@ CompartmentsIter
 comp
 (
 rt
+WithAtoms
 )
 ;
 !
@@ -3556,6 +3558,7 @@ CompartmentsIter
 comp
 (
 rt
+WithAtoms
 )
 ;
 !

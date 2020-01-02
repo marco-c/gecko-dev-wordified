@@ -171,6 +171,9 @@ JSRuntime
 *
 runtime
 ;
+ZoneSelector
+selector
+;
 public
 :
 AutoCopyFreeListToArenas
@@ -178,6 +181,8 @@ AutoCopyFreeListToArenas
 JSRuntime
 *
 rt
+ZoneSelector
+selector
 )
 ;
 ~
@@ -305,6 +310,8 @@ AutoPrepareForTracing
 JSRuntime
 *
 rt
+ZoneSelector
+selector
 )
 ;
 }
