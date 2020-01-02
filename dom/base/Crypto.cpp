@@ -717,7 +717,13 @@ aVersion
 }
 already_AddRefed
 <
-nsIDOMCRMFObject
+mozilla
+:
+:
+dom
+:
+:
+CRMFObject
 >
 Crypto
 :
