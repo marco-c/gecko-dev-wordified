@@ -84,7 +84,7 @@ require
 '
 sdk
 /
-content
+deprecated
 /
 symbiont
 '

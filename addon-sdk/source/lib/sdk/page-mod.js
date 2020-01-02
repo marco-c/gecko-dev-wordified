@@ -83,11 +83,9 @@ require
 '
 .
 /
-deprecated
+system
 /
-observer
--
-service
+events
 '
 )
 ;
@@ -1735,7 +1733,7 @@ PageMod
 ;
 observers
 .
-add
+on
 (
 '
 document
@@ -1768,7 +1766,7 @@ _destructor
 {
 observers
 .
-remove
+off
 (
 '
 document
@@ -1837,7 +1835,11 @@ _onContentWindow
 function
 _onContentWindow
 (
+{
+subject
+:
 document
+}
 )
 {
 let
