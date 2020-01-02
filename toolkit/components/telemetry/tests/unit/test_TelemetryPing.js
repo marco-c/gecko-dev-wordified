@@ -2579,7 +2579,7 @@ lastModifiedTime
 =
 mtime
 -
-14
+8
 *
 24
 *
@@ -2591,7 +2591,7 @@ mtime
 ;
 /
 /
-14
+8
 days
 .
 TelemetryPing
