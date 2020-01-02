@@ -477,6 +477,13 @@ NULL_SCROLL_ID
 =
 0
 ;
+const
+FrameMetrics
+FrameMetrics
+:
+:
+sNullMetrics
+;
 using
 namespace
 mozilla

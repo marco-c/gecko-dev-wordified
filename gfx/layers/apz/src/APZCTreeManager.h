@@ -363,6 +363,9 @@ APZPaintLogHelper
 class
 OverscrollHandoffChain
 ;
+class
+LayerMetricsWrapper
+;
 /
 *
 *
@@ -3391,8 +3394,8 @@ AsyncPanZoomController
 PrepareAPZCForLayer
 (
 const
-Layer
-*
+LayerMetricsWrapper
+&
 aLayer
 const
 FrameMetrics
@@ -3540,8 +3543,9 @@ UpdatePanZoomControllerTree
 TreeBuildingState
 &
 aState
-Layer
-*
+const
+LayerMetricsWrapper
+&
 aLayer
 uint64_t
 aLayersId
