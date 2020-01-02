@@ -1981,11 +1981,9 @@ nullptr
 ;
 }
 patternMatrix
-.
-Multiply
-(
+*
+=
 nonScalingStrokeTM
-)
 ;
 }
 if

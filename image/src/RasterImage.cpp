@@ -16916,14 +16916,12 @@ mScaleResult
 frame
 ;
 userSpaceToImageSpace
-.
-Multiply
-(
+*
+=
 gfxMatrix
-(
-)
-.
-Scale
+:
+:
+Scaling
 (
 scale
 .
@@ -16931,7 +16929,6 @@ width
 scale
 .
 height
-)
 )
 ;
 /

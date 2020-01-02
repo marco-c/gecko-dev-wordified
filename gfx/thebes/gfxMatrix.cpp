@@ -286,7 +286,9 @@ gfxMatrix
 gfxMatrix
 :
 :
-Multiply
+operator
+*
+=
 (
 const
 gfxMatrix
