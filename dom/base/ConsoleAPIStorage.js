@@ -524,6 +524,9 @@ this
 clearEvents
 (
 innerWindowID
++
+"
+"
 )
 ;
 }
