@@ -7621,13 +7621,11 @@ WidgetTextEvent
 *
 textEvent
 =
-static_cast
-<
-WidgetTextEvent
-*
->
-(
 aEvent
+-
+>
+AsTextEvent
+(
 )
 ;
 if

@@ -4245,13 +4245,11 @@ NS_NewDOMTextEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-WidgetTextEvent
-*
->
-(
 aEvent
+-
+>
+AsTextEvent
+(
 )
 )
 ;

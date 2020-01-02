@@ -1407,13 +1407,11 @@ NS_TEXT_EVENT
 :
 mIMELastReceivedSeqno
 =
-static_cast
-<
-WidgetTextEvent
-*
->
-(
 event
+-
+>
+AsTextEvent
+(
 )
 -
 >

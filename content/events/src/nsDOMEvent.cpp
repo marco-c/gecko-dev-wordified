@@ -2982,13 +2982,11 @@ WidgetTextEvent
 *
 oldTextEvent
 =
-static_cast
-<
-WidgetTextEvent
-*
->
-(
 mEvent
+-
+>
+AsTextEvent
+(
 )
 ;
 WidgetTextEvent
