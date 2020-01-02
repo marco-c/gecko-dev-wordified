@@ -5324,8 +5324,11 @@ JSVERSION_LATEST
 }
 else
 {
-jsval
+RootedValue
 rval
+(
+cx
+)
 ;
 ok
 =
@@ -5336,8 +5339,11 @@ obj
 function
 0
 nullptr
-&
 rval
+.
+address
+(
+)
 )
 ;
 }
