@@ -1150,6 +1150,9 @@ useTabs
 styleActiveLine
 :
 true
+autoCloseBrackets
+:
+true
 theme
 :
 "
