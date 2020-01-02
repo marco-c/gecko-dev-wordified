@@ -1113,11 +1113,11 @@ value
 "
 )
 "
-one
+alpha
 "
 "
 The
-one
+alpha
 variable
 should
 be
@@ -1133,7 +1133,7 @@ localScope
 get
 (
 "
-one
+alpha
 "
 )
 .
@@ -1141,7 +1141,7 @@ expanded
 false
 "
 The
-one
+alpha
 variable
 in
 localScope
@@ -1194,11 +1194,11 @@ value
 "
 )
 "
-two
+beta
 "
 "
 The
-two
+beta
 variable
 should
 be
@@ -1214,7 +1214,7 @@ localScope
 get
 (
 "
-two
+beta
 "
 )
 .
@@ -1222,7 +1222,7 @@ expanded
 false
 "
 The
-two
+beta
 variable
 in
 localScope

@@ -582,7 +582,7 @@ value
 "
 )
 "
-one
+alpha
 "
 "
 Should
@@ -593,7 +593,7 @@ property
 name
 for
 '
-one
+alpha
 '
 .
 "
@@ -632,7 +632,7 @@ property
 value
 for
 '
-one
+alpha
 '
 .
 "
@@ -672,7 +672,7 @@ token
 class
 for
 '
-one
+alpha
 '
 .
 "
@@ -700,7 +700,7 @@ value
 "
 )
 "
-two
+beta
 "
 "
 Should
@@ -711,7 +711,7 @@ property
 name
 for
 '
-two
+beta
 '
 .
 "
@@ -750,7 +750,7 @@ property
 value
 for
 '
-two
+beta
 '
 .
 "
@@ -790,7 +790,7 @@ token
 class
 for
 '
-two
+beta
 '
 .
 "
