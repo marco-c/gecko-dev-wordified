@@ -1277,7 +1277,6 @@ gProfileService
 createProfile
 (
 gProfileRoot
-null
 profileName
 )
 ;
