@@ -5301,14 +5301,14 @@ return
 320
 samples
 case
-44000
+44100
 :
 return
-440
+441
 ;
 /
 /
-440
+441
 samples
 case
 48000
