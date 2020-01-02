@@ -7891,6 +7891,7 @@ produced
 .
 *
 /
+public
 static
 Intent
 getShareIntent

@@ -809,7 +809,6 @@ refreshIcon
 ;
 }
 }
-private
 void
 setSubMenuIndicator
 (
