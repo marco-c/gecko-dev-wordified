@@ -759,7 +759,7 @@ real
 (
 ArrayBuffer
 21
-js_InitTypedArrayClasses
+js_InitArrayBufferClass
 &
 js
 :
@@ -918,7 +918,7 @@ real
 (
 DataView
 35
-js_InitTypedArrayClasses
+js_InitDataViewClass
 OCLASP
 (
 DataView
