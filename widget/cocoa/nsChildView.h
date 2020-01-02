@@ -1452,6 +1452,16 @@ typedef
 NSUInteger
 NSEventPhase
 ;
+enum
+{
+NSFullScreenWindowMask
+=
+1
+<
+<
+14
+}
+;
 interface
 NSWindow
 (
@@ -4492,6 +4502,9 @@ mDevPixelCornerRadius
 ;
 bool
 mIsCoveringTitlebar
+;
+bool
+mIsFullscreen
 ;
 nsIntRect
 mTitlebarRect
