@@ -232,11 +232,8 @@ frameElement
 ;
 popupIframe
 .
-setAttribute
-(
-'
 style
-'
+=
 '
 position
 :
@@ -255,7 +252,6 @@ background
 white
 ;
 '
-)
 ;
 /
 /
