@@ -148,15 +148,6 @@ NATIVEWINDOW_GONKCONSUMERBASE_KK_H
 #
 include
 <
-gui
-/
-BufferQueue
-.
-h
->
-#
-include
-<
 ui
 /
 GraphicBuffer
@@ -1479,10 +1470,6 @@ sp
 GraphicBuffer
 >
 graphicBuffer
-EGLDisplay
-display
-EGLSyncKHR
-eglFence
 )
 ;
 /
