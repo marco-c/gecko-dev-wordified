@@ -426,6 +426,10 @@ d9534f
 }
 .
 disabled
+button
+[
+disabled
+]
 {
 cursor
 :
