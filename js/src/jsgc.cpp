@@ -23851,6 +23851,13 @@ sweepZoneCallback
 zone
 )
 ;
+zone
+-
+>
+gcLastZoneGroupIndex
+=
+zoneGroupIndex
+;
 }
 validateIncrementalMarking
 (
