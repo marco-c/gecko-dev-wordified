@@ -900,6 +900,8 @@ mTimeStamp
 JS_Now
 (
 )
+/
+PR_USEC_PER_MSEC
 )
 mMonotonicTimer
 (
