@@ -401,6 +401,11 @@ nsCString
 aAddress
 )
 ;
+void
+HandleAudioChannelProcessChanged
+(
+)
+;
 }
 ;
 }
