@@ -948,7 +948,7 @@ nullptr
 break
 ;
 case
-NS_FOCUS_EVENT
+eFocusEventClass
 :
 tmp
 -
@@ -1212,7 +1212,7 @@ mRelatedNode
 break
 ;
 case
-NS_FOCUS_EVENT
+eFocusEventClass
 :
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
 (

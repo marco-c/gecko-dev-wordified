@@ -1609,7 +1609,7 @@ InternalUIEvent
 (
 aIsTrusted
 aMessage
-NS_FOCUS_EVENT
+eFocusEventClass
 )
 fromRaise
 (
@@ -1635,7 +1635,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_FOCUS_EVENT
+eFocusEventClass
 "
 Duplicate
 (

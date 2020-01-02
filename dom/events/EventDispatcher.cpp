@@ -4177,7 +4177,7 @@ AsMouseEvent
 )
 ;
 case
-NS_FOCUS_EVENT
+eFocusEventClass
 :
 return
 NS_NewDOMFocusEvent

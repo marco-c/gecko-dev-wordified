@@ -453,7 +453,7 @@ eFormEventClass
 /
 /
 InternalFormEvent
-NS_FOCUS_EVENT
+eFocusEventClass
 /
 /
 InternalFocusEvent
