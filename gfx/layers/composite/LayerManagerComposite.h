@@ -1558,6 +1558,9 @@ mWorldMatrix
 bool
 mInTransaction
 ;
+bool
+mIsCompositorReady
+;
 nsIntRegion
 mInvalidRegion
 ;
