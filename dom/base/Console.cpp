@@ -759,7 +759,7 @@ return
 false
 ;
 }
-nsDependentJSString
+nsAutoJSString
 string
 ;
 if
@@ -6792,7 +6792,7 @@ jsString
 return
 ;
 }
-nsDependentJSString
+nsAutoJSString
 string
 ;
 if
@@ -7637,7 +7637,7 @@ jsString
 return
 ;
 }
-nsDependentJSString
+nsAutoJSString
 v
 ;
 if
@@ -8148,7 +8148,7 @@ jsString
 return
 ;
 }
-nsDependentJSString
+nsAutoJSString
 string
 ;
 if
@@ -8320,7 +8320,7 @@ UndefinedValue
 )
 ;
 }
-nsDependentJSString
+nsAutoJSString
 key
 ;
 if
@@ -8503,7 +8503,7 @@ UndefinedValue
 )
 ;
 }
-nsDependentJSString
+nsAutoJSString
 key
 ;
 if
@@ -8783,7 +8783,7 @@ labelValue
 )
 )
 ;
-nsDependentJSString
+nsAutoJSString
 string
 ;
 if

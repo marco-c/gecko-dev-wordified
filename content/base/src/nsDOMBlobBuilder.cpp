@@ -2169,7 +2169,7 @@ str
 NS_ERROR_XPC_BAD_CONVERT_JS
 )
 ;
-nsDependentJSString
+nsAutoJSString
 xpcomStr
 ;
 if
@@ -2516,7 +2516,7 @@ str
 NS_ERROR_XPC_BAD_CONVERT_JS
 )
 ;
-nsDependentJSString
+nsAutoJSString
 xpcomStr
 ;
 if
@@ -2693,7 +2693,7 @@ JSContext
 aCx
 )
 {
-nsDependentJSString
+nsAutoJSString
 xpcomStr
 ;
 if

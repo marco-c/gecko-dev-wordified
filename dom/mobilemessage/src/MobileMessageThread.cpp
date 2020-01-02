@@ -141,7 +141,7 @@ h
 /
 /
 For
-nsDependentJSString
+nsAutoJSString
 #
 include
 "
@@ -458,9 +458,12 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsDependentJSString
+nsAutoJSString
 str
 ;
+if
+(
+!
 str
 .
 init
@@ -472,7 +475,12 @@ toString
 (
 )
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 data
 .
 participants

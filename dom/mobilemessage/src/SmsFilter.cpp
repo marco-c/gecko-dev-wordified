@@ -939,9 +939,12 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsDependentJSString
+nsAutoJSString
 number
 ;
+if
+(
+!
 number
 .
 init
@@ -953,7 +956,12 @@ toString
 (
 )
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 numbers
 .
 AppendElement

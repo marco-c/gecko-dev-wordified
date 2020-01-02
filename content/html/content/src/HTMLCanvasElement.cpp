@@ -2413,7 +2413,7 @@ options
 "
 )
 ;
-nsDependentJSString
+nsAutoJSString
 paramString
 ;
 if

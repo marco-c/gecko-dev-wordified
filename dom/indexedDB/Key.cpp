@@ -969,7 +969,7 @@ isString
 )
 )
 {
-nsDependentJSString
+nsAutoJSString
 str
 ;
 if

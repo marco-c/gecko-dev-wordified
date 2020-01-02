@@ -25588,12 +25588,12 @@ if
 messageStr
 )
 {
-nsDependentJSString
-depStr
+nsAutoJSString
+autoStr
 ;
 if
 (
-depStr
+autoStr
 .
 init
 (
@@ -25604,7 +25604,7 @@ messageStr
 {
 message
 =
-depStr
+autoStr
 ;
 }
 }

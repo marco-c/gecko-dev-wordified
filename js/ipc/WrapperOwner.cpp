@@ -1896,7 +1896,7 @@ toString
 )
 )
 ;
-nsDependentJSString
+nsAutoJSString
 toStringResult
 ;
 if

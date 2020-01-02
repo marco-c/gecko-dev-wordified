@@ -1723,7 +1723,7 @@ it
 }
 else
 {
-nsDependentJSString
+nsAutoJSString
 choice
 ;
 if

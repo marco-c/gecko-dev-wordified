@@ -1446,9 +1446,12 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsDependentJSString
+nsAutoJSString
 receiverStr
 ;
+if
+(
+!
 receiverStr
 .
 init
@@ -1460,7 +1463,12 @@ toString
 (
 )
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 receivers
 .
 AppendElement

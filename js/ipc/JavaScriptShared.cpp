@@ -1333,13 +1333,13 @@ case
 JSTYPE_STRING
 :
 {
-nsDependentJSString
-dep
+nsAutoJSString
+autoStr
 ;
 if
 (
 !
-dep
+autoStr
 .
 init
 (
@@ -1353,7 +1353,7 @@ false
 *
 to
 =
-dep
+autoStr
 ;
 return
 true

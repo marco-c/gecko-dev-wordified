@@ -5392,12 +5392,12 @@ STRING_TO_JSVAL
 jsString
 )
 ;
-nsDependentJSString
-dependentKeyGenAlg
+nsAutoJSString
+autoJSKeyGenAlg
 ;
 NS_ENSURE_TRUE
 (
-dependentKeyGenAlg
+autoJSKeyGenAlg
 .
 init
 (
@@ -5410,7 +5410,7 @@ NS_ERROR_UNEXPECTED
 nsAutoString
 keyGenAlg
 (
-dependentKeyGenAlg
+autoJSKeyGenAlg
 )
 ;
 keyGenAlg
@@ -5451,7 +5451,7 @@ invalidKeyGen
 NS_LossyConvertUTF16toASCII
 keyGenAlgNarrow
 (
-dependentKeyGenAlg
+autoJSKeyGenAlg
 )
 ;
 JS_ReportError
@@ -5542,7 +5542,7 @@ NS_OK
 NS_LossyConvertUTF16toASCII
 keyGenAlgNarrow
 (
-dependentKeyGenAlg
+autoJSKeyGenAlg
 )
 ;
 JS_ReportError

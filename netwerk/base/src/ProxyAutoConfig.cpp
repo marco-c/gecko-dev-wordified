@@ -3539,7 +3539,7 @@ address
 return
 false
 ;
-nsDependentJSString
+nsAutoJSString
 hostName
 ;
 nsAutoCString
@@ -3799,7 +3799,7 @@ address
 return
 false
 ;
-nsDependentJSString
+nsAutoJSString
 message
 ;
 if
@@ -3816,7 +3816,7 @@ arg1
 return
 false
 ;
-nsString
+nsAutoString
 alertMessage
 ;
 alertMessage
@@ -5018,7 +5018,7 @@ isString
 )
 )
 {
-nsDependentJSString
+nsAutoJSString
 pacString
 ;
 if

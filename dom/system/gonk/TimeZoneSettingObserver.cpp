@@ -1031,7 +1031,7 @@ UTC
 00
 "
 .
-nsDependentJSString
+nsAutoJSString
 valueStr
 ;
 if

@@ -1581,7 +1581,7 @@ JSString
 *
 jsstr
 ;
-nsDependentJSString
+nsAutoJSString
 str
 ;
 if
@@ -1676,7 +1676,7 @@ JSString
 *
 jsstr
 ;
-nsDependentJSString
+nsAutoJSString
 str
 ;
 if

@@ -1728,7 +1728,7 @@ NS_ERROR_DOM_RETVAL_UNDEFINED
 }
 else
 {
-nsDependentJSString
+nsAutoJSString
 result
 ;
 if

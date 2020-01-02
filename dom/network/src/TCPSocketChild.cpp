@@ -1096,7 +1096,7 @@ toString
 (
 )
 ;
-nsDependentJSString
+nsAutoJSString
 str
 ;
 bool

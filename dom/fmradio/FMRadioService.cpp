@@ -3356,7 +3356,7 @@ toString
 )
 )
 ;
-nsDependentJSString
+nsAutoJSString
 keyStr
 ;
 if

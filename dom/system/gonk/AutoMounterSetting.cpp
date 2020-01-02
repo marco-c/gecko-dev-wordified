@@ -1489,7 +1489,7 @@ cx
 key
 )
 ;
-nsDependentJSString
+nsAutoJSString
 keyStr
 ;
 if

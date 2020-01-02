@@ -4053,9 +4053,12 @@ of
 a
 string
 .
-nsDependentJSString
+nsAutoJSString
 apn
 ;
+if
+(
+!
 apn
 .
 init
@@ -4067,7 +4070,12 @@ toString
 (
 )
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 if
 (
 !
