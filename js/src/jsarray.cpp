@@ -1001,6 +1001,7 @@ return
 false
 ;
 }
+static
 bool
 DoubleIndexToId
 (
@@ -9351,6 +9352,7 @@ t
 1
 ;
 }
+static
 inline
 bool
 CompareLexicographicInt32
@@ -9729,6 +9731,7 @@ return
 true
 ;
 }
+static
 inline
 bool
 CompareSubStringValues
@@ -10849,6 +10852,7 @@ K
 typename
 C
 >
+static
 inline
 bool
 MergeSortByKey
@@ -12885,6 +12889,7 @@ return
 true
 ;
 }
+static
 JS_ALWAYS_INLINE
 bool
 NewbornArrayPushImpl

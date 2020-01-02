@@ -4311,6 +4311,7 @@ DefineOwnProperty
 .
 *
 /
+static
 inline
 bool
 CheckCanChangeAttrs

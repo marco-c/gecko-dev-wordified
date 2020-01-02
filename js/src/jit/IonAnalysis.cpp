@@ -2077,6 +2077,7 @@ a
 -
 >
 a
+static
 inline
 MDefinition
 *

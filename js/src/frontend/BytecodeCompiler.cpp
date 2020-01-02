@@ -1010,6 +1010,7 @@ return
 true
 ;
 }
+static
 inline
 bool
 CanLazilyParse

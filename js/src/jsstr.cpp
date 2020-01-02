@@ -3274,6 +3274,7 @@ return
 true
 ;
 }
+static
 bool
 str_toSource
 (
@@ -3438,6 +3439,7 @@ methods
 .
 *
 /
+static
 JS_ALWAYS_INLINE
 bool
 ValueToIntegerRange

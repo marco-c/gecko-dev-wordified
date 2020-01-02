@@ -3197,6 +3197,7 @@ ES5
 .
 *
 /
+static
 bool
 obj_getPrototypeOf
 (

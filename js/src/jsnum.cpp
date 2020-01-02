@@ -3385,6 +3385,7 @@ NumberObject
 )
 ;
 }
+static
 inline
 double
 Extract
@@ -5519,6 +5520,7 @@ return
 true
 ;
 }
+static
 bool
 num_toLocaleString
 (
@@ -5640,6 +5642,7 @@ args
 )
 ;
 }
+static
 const
 unsigned
 MAX_PRECISION
@@ -5953,6 +5956,7 @@ args
 )
 ;
 }
+static
 bool
 num_toFixed
 (
@@ -6083,6 +6087,7 @@ args
 )
 ;
 }
+static
 bool
 num_toExponential
 (
@@ -6271,6 +6276,7 @@ args
 )
 ;
 }
+static
 bool
 num_toPrecision
 (
@@ -7130,6 +7136,7 @@ doubles
 .
 *
 /
+static
 inline
 void
 FIX_FPU

@@ -3775,6 +3775,7 @@ return
 true
 ;
 }
+static
 const
 JSFunctionSpec
 intrinsic_functions

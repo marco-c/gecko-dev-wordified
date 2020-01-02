@@ -229,6 +229,7 @@ wrap
 .
 *
 /
+static
 inline
 void
 *
@@ -245,6 +246,7 @@ size
 )
 ;
 }
+static
 inline
 void
 dtoa_free

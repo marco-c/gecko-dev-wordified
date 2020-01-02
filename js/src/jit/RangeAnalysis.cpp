@@ -15863,6 +15863,7 @@ truncated
 ;
 }
 }
+static
 void
 AdjustTruncatedInputs
 (

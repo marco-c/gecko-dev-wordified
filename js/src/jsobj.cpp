@@ -19156,6 +19156,7 @@ return
 ED_OK
 ;
 }
+static
 ObjectElements
 *
 AllocateElements
@@ -19237,6 +19238,7 @@ HeapValue
 )
 ;
 }
+static
 ObjectElements
 *
 ReallocateElements
@@ -35542,6 +35544,7 @@ code
 .
 *
 /
+static
 void
 dumpValue
 (

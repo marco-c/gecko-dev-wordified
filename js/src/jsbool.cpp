@@ -437,6 +437,7 @@ return
 true
 ;
 }
+static
 bool
 bool_toSource
 (
@@ -552,6 +553,7 @@ return
 true
 ;
 }
+static
 bool
 bool_toString
 (
@@ -661,6 +663,7 @@ return
 true
 ;
 }
+static
 bool
 bool_valueOf
 (

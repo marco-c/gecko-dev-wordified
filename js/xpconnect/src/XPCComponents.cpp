@@ -19179,6 +19179,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 GetBoolOption
 (
@@ -19210,6 +19211,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 SetBoolOption
 (

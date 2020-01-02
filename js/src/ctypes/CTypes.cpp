@@ -5044,6 +5044,7 @@ CTYPESFN_FLAGS
 JS_FS_END
 }
 ;
+static
 JS_ALWAYS_INLINE
 JSString
 *
@@ -5108,6 +5109,7 @@ of
 .
 *
 /
+static
 JS_ALWAYS_INLINE
 size_t
 Align

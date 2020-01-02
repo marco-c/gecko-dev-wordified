@@ -500,8 +500,8 @@ vprof_printf
 printf
 #
 endif
-inline
 static
+inline
 entry
 *
 reverse
@@ -1161,8 +1161,8 @@ entries
 )
 ;
 }
-inline
 static
+inline
 entry_t
 findEntry
 (

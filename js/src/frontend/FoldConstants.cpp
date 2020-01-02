@@ -1149,6 +1149,7 @@ a
 list
 node
 .
+static
 void
 ReplaceNode
 (

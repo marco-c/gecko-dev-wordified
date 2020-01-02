@@ -1606,6 +1606,7 @@ Domain
 typename
 Input
 >
+static
 bool
 InRange
 (
@@ -2745,6 +2746,7 @@ prototype
 .
 *
 /
+static
 JSObject
 *
 SetupAndGetPrototypeObjectForComplexTypeInstance

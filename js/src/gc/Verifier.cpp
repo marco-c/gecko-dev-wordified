@@ -291,6 +291,7 @@ address
 )
 ;
 }
+static
 JS_ALWAYS_INLINE
 bool
 CheckStackRootThing

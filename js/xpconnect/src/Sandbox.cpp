@@ -2334,6 +2334,7 @@ return
 false
 ;
 }
+static
 const
 JSStructuredCloneCallbacks
 gForwarderStructuredCloneCallbacks
@@ -2395,6 +2396,7 @@ from
 .
 *
 /
+static
 bool
 CloneNonReflectors
 (
@@ -10200,6 +10202,7 @@ return
 NS_OK
 ;
 }
+static
 bool
 NonCloningFunctionForwarder
 (
@@ -10320,6 +10323,7 @@ argument
 .
 *
 /
+static
 bool
 CloningFunctionForwarder
 (

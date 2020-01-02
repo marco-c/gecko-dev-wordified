@@ -583,6 +583,7 @@ equals
 hashCode
 *
 /
+static
 inline
 double
 Day
@@ -645,6 +646,7 @@ ES5
 .
 *
 /
+static
 inline
 bool
 IsLeapYear
@@ -697,6 +699,7 @@ year
 )
 ;
 }
+static
 inline
 double
 DaysInYear
@@ -729,6 +732,7 @@ year
 365
 ;
 }
+static
 inline
 double
 DayFromYear
@@ -786,6 +790,7 @@ y
 )
 ;
 }
+static
 inline
 double
 TimeFromYear
@@ -942,6 +947,7 @@ return
 y
 ;
 }
+static
 inline
 int
 DaysInFebruary
@@ -974,6 +980,7 @@ ES5
 .
 *
 /
+static
 inline
 double
 DayWithinYear
@@ -1607,6 +1614,7 @@ return
 result
 ;
 }
+static
 inline
 int
 DayFromMonth
@@ -1723,6 +1731,7 @@ template
 typename
 T
 >
+static
 inline
 int
 DayFromMonth
@@ -1955,6 +1964,7 @@ DaylightSavingTA
 .
 *
 /
+static
 inline
 double
 MakeDate

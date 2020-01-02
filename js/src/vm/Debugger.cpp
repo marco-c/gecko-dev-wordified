@@ -531,6 +531,7 @@ Utils
 *
 *
 /
+static
 bool
 ReportMoreArgsNeeded
 (
@@ -645,6 +646,7 @@ n
 ;
 \
 JS_END_MACRO
+static
 bool
 ReportObjectRequired
 (
@@ -665,6 +667,7 @@ return
 false
 ;
 }
+static
 bool
 ValueToIdentifier
 (

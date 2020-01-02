@@ -1491,6 +1491,7 @@ endif
 JS_HAS_NO_SUCH_METHOD
 *
 /
+static
 inline
 bool
 GetPropertyOperation
@@ -2087,6 +2088,7 @@ vp
 )
 ;
 }
+static
 inline
 bool
 SetPropertyOperation
@@ -7093,6 +7095,7 @@ cases
 .
 *
 /
+static
 inline
 bool
 ComputeImplicitThis

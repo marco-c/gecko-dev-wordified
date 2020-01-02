@@ -420,6 +420,7 @@ lirOpName
 )
 ;
 }
+static
 struct
 IonLIRTraceData
 seqTraceData

@@ -2701,6 +2701,7 @@ return
 rv
 ;
 }
+static
 inline
 nsresult
 getNativeFromWrapper
