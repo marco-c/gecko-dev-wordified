@@ -8667,15 +8667,6 @@ if
 (
 !
 doneAllProducing
-&
-&
-!
-stream
--
->
-IsFinishedOnGraphThread
-(
-)
 )
 {
 ProcessedMediaStream

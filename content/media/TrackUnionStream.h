@@ -290,6 +290,16 @@ aFlags
 )
 MOZ_OVERRIDE
 {
+if
+(
+IsFinishedOnGraphThread
+(
+)
+)
+{
+return
+;
+}
 nsAutoTArray
 <
 bool
