@@ -1153,7 +1153,7 @@ bool
 defined
 )
 ;
-virtual
+static
 bool
 enumerateNames
 (
@@ -1432,7 +1432,7 @@ bool
 defined
 )
 ;
-virtual
+static
 bool
 enumerateNames
 (
@@ -1700,7 +1700,7 @@ return
 true
 ;
 }
-virtual
+static
 bool
 enumerateNames
 (
@@ -12572,8 +12572,6 @@ return
 Traits
 :
 :
-singleton
-.
 enumerateNames
 (
 cx
