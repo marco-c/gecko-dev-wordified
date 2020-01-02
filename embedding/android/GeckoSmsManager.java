@@ -1586,7 +1586,7 @@ mobilemessage
 /
 interfaces
 /
-nsISmsRequestManager
+nsIMobileMessageCallback
 .
 idl
 .
@@ -1688,6 +1688,14 @@ int
 kStorageFullError
 =
 10
+;
+public
+final
+static
+int
+kSimNotMatchedError
+=
+11
 ;
 private
 final
