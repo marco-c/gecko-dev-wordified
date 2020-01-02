@@ -4187,6 +4187,12 @@ state
 =
 =
 SSL_NEXT_PROTO_NEGOTIATED
+|
+|
+state
+=
+=
+SSL_NEXT_PROTO_SELECTED
 )
 {
 infoObject
