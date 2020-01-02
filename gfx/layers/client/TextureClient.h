@@ -1965,6 +1965,10 @@ mShared
 bool
 mValid
 ;
+friend
+class
+TextureChild
+;
 }
 ;
 /
