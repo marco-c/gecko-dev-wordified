@@ -6960,6 +6960,17 @@ PresentScreenBuffer
 {
 if
 (
+IsContextLost
+(
+)
+)
+{
+return
+false
+;
+}
+if
+(
 !
 mShouldPresent
 )
