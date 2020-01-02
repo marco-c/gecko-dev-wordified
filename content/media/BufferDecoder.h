@@ -472,7 +472,6 @@ MediaDecoderOwner
 GetOwner
 (
 )
-MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual

@@ -311,6 +311,14 @@ GetImageContainer
 )
 MOZ_OVERRIDE
 ;
+virtual
+MediaDecoderOwner
+*
+GetOwner
+(
+)
+MOZ_OVERRIDE
+;
 void
 NotifyDataArrived
 (
