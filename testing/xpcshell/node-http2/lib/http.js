@@ -1930,7 +1930,7 @@ httpbis
 -
 http2
 -
-13
+14
 #
 section
 -
@@ -2976,7 +2976,7 @@ httpbis
 -
 http2
 -
-13
+14
 #
 section
 -
@@ -5466,7 +5466,7 @@ httpbis
 -
 http2
 -
-13
+14
 #
 section
 -
@@ -6045,6 +6045,16 @@ reasonPhrase
 headers
 )
 {
+if
+(
+this
+.
+headersSent
+)
+{
+return
+;
+}
 if
 (
 typeof
@@ -8962,7 +8972,7 @@ httpbis
 -
 http2
 -
-13
+14
 #
 section
 -
