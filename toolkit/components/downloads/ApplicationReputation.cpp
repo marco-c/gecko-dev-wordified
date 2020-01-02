@@ -1998,8 +1998,8 @@ mAllowlistOnly
 &
 FindInReadable
 (
-tables
 blockList
+tables
 )
 )
 {
@@ -2069,8 +2069,8 @@ if
 (
 FindInReadable
 (
-tables
 allowList
+tables
 )
 )
 {
