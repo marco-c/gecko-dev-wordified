@@ -432,7 +432,11 @@ use
 here
 and
 in
-nsDOMTouchEvent
+dom
+/
+events
+/
+TouchEvent
 .
 cpp
 int32_t

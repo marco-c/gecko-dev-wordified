@@ -893,7 +893,11 @@ h
 #
 include
 "
-nsDOMTouchEvent
+mozilla
+/
+dom
+/
+TouchEvent
 .
 h
 "
@@ -4332,7 +4336,7 @@ DOM_CLASSINFO_MAP_CONDITIONAL_ENTRY
 (
 nsITouchEventReceiver
 \
-nsDOMTouchEvent
+TouchEvent
 :
 :
 PrefEnabled
@@ -4383,7 +4387,7 @@ DOM_CLASSINFO_MAP_CONDITIONAL_ENTRY
 (
 nsITouchEventReceiver
 \
-nsDOMTouchEvent
+TouchEvent
 :
 :
 PrefEnabled
