@@ -204,7 +204,7 @@ TextTrackKind
 enums
 .
 static
-const
+MOZ_CONSTEXPR
 nsAttrValue
 :
 :

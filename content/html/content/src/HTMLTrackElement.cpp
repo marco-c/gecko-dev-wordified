@@ -489,6 +489,7 @@ is
 subtitles
 "
 static
+MOZ_CONSTEXPR
 const
 char
 *

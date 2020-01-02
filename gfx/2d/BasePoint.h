@@ -96,6 +96,15 @@ MOZILLA_GFX_BASEPOINT_H_
 #
 define
 MOZILLA_GFX_BASEPOINT_H_
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -164,6 +173,7 @@ y
 /
 /
 Constructors
+MOZ_CONSTEXPR
 BasePoint
 (
 )
@@ -178,6 +188,7 @@ y
 )
 {
 }
+MOZ_CONSTEXPR
 BasePoint
 (
 T

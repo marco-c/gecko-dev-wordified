@@ -976,6 +976,7 @@ values
 .
 *
 /
+MOZ_CONSTEXPR
 gfxRGBA
 (
 gfxFloat

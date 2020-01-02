@@ -369,7 +369,13 @@ nsIClassInfo
 {
 public
 :
-NS_DECL_ISUPPORTS
+MOZ_CONSTEXPR
+StatementClassInfo
+(
+)
+{
+}
+NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHODIMP
 GetInterfaces
 (

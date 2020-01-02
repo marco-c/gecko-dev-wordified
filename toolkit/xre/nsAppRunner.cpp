@@ -3233,6 +3233,7 @@ nsIXULRuntime
 {
 public
 :
+MOZ_CONSTEXPR
 nsXULAppInfo
 (
 )
@@ -12159,10 +12160,16 @@ will
 be
 used
 for
+both
 the
 /
 /
 main
+profile
+directory
+and
+the
+temp
 profile
 directory
 .
@@ -12173,6 +12180,7 @@ aProfileSvc
 >
 CreateProfile
 (
+lf
 lf
 nsDependentCSubstring
 (
@@ -12195,6 +12203,7 @@ aProfileSvc
 >
 CreateProfile
 (
+nullptr
 nullptr
 nsDependentCString
 (
@@ -12743,6 +12752,15 @@ aProfileSvc
 >
 CreateProfile
 (
+nullptr
+/
+/
+choose
+a
+default
+dir
+for
+us
 nullptr
 /
 /
