@@ -355,6 +355,12 @@ variablesContainer
 ;
 editor
 .
+onlyEnumVisible
+=
+true
+;
+editor
+.
 eval
 =
 this
