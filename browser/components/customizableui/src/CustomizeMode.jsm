@@ -11781,6 +11781,12 @@ _showPanelCustomizationPlaceholders
 (
 )
 ;
+DragPositionManager
+.
+stop
+(
+)
+;
 }
 _isUnwantedDragDrop
 :
