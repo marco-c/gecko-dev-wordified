@@ -1935,9 +1935,6 @@ like
 an
 inferred
 mrow
-nsresult
-rv
-=
 nsMathMLContainerFrame
 :
 :
@@ -1964,7 +1961,7 @@ status
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 /

@@ -7005,7 +7005,6 @@ ProcessOperatorData
 (
 )
 ;
-return
 nsMathMLTokenFrame
 :
 :
@@ -7016,6 +7015,9 @@ aDesiredSize
 aReflowState
 aStatus
 )
+;
+return
+NS_OK
 ;
 }
 /
