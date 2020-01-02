@@ -885,6 +885,11 @@ aCx
 ;
 if
 (
+!
+obj
+|
+|
+!
 JS_WrapObject
 (
 aCx
@@ -893,6 +898,10 @@ obj
 )
 )
 {
+return
+false
+;
+}
 MOZ_ASSERT
 (
 port
@@ -921,7 +930,6 @@ set
 obj
 )
 ;
-}
 return
 true
 ;
