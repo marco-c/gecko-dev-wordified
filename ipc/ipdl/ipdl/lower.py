@@ -6512,20 +6512,9 @@ isActor
 :
             
 return
-ExprCast
-(
 ExprLiteral
 .
 NULL
-self
-.
-bareType
-(
-)
-static
-=
-1
-)
         
 #
 XXX
