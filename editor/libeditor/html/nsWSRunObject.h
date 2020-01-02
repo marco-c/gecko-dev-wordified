@@ -3112,7 +3112,7 @@ variables
 -
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mNode
 ;
@@ -3167,7 +3167,7 @@ whitespace
 context
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mStartNode
 ;
@@ -3203,7 +3203,7 @@ etc
 )
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mStartReasonNode
 ;
@@ -3218,7 +3218,7 @@ start
 reason
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mEndNode
 ;
@@ -3254,7 +3254,7 @@ etc
 )
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mEndReasonNode
 ;
@@ -3269,7 +3269,7 @@ end
 reason
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mFirstNBSPNode
 ;
@@ -3294,7 +3294,7 @@ mFirstNBSPOffset
 .
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mLastNBSPNode
 ;
@@ -3319,7 +3319,7 @@ mLastNBSPOffset
 .
 nsCOMArray
 <
-nsIDOMNode
+nsINode
 >
 mNodeArray
 ;
