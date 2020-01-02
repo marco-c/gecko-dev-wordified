@@ -1490,7 +1490,7 @@ if
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 !

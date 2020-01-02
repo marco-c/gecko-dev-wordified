@@ -192,7 +192,7 @@ DrawTargetSkia
 ;
 virtual
 BackendType
-GetType
+GetBackendType
 (
 )
 const

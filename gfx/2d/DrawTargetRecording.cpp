@@ -1245,7 +1245,7 @@ this
 mFinalDT
 -
 >
-GetType
+GetBackendType
 (
 )
 mFinalDT

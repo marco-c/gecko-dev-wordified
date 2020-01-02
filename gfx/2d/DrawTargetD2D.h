@@ -240,7 +240,7 @@ DrawTargetD2D
 ;
 virtual
 BackendType
-GetType
+GetBackendType
 (
 )
 const

@@ -500,7 +500,7 @@ switch
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 )

@@ -225,7 +225,7 @@ mTiles
 mDrawTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 !
@@ -238,7 +238,7 @@ i
 mDrawTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 )

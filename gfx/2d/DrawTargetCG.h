@@ -543,7 +543,7 @@ DrawTargetCG
 ;
 virtual
 BackendType
-GetType
+GetBackendType
 (
 )
 const
