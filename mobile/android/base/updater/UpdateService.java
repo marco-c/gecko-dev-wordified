@@ -904,7 +904,14 @@ to
 do
 the
 download
+and
+apply
+it
 here
+mApplyImmediately
+=
+true
+;
 startUpdate
 (
 UpdateServiceHelper
