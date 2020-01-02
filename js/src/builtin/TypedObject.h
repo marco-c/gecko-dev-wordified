@@ -3793,9 +3793,9 @@ elsewhere
 void
 neuter
 (
-void
+JSContext
 *
-newData
+cx
 )
 ;
 int32_t

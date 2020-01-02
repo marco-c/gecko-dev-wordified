@@ -12694,9 +12694,9 @@ TypedObject
 :
 neuter
 (
-void
+JSContext
 *
-newData
+cx
 )
 {
 setSlot
@@ -12728,7 +12728,7 @@ Int32Value
 ;
 setPrivate
 (
-newData
+nullptr
 )
 ;
 }
