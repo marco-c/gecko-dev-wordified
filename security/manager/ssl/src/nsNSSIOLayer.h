@@ -616,6 +616,14 @@ mSSLVersionUsed
 version
 ;
 }
+protected
+:
+virtual
+~
+nsNSSSocketInfo
+(
+)
+;
 private
 :
 PRFileDesc
