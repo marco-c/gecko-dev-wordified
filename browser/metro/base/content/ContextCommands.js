@@ -1675,6 +1675,9 @@ BrowserUI
 addAndShowTab
 (
 uri
+Browser
+.
+selectedTab
 )
 ;
 }
