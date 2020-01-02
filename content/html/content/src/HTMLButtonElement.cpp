@@ -237,6 +237,15 @@ h
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsUnicharUtils
 .
 h

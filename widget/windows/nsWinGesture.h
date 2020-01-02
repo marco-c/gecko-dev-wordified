@@ -146,6 +146,15 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TouchEvents
 .
 h

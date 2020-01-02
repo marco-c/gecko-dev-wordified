@@ -307,6 +307,15 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
 class
 nsRange
 ;

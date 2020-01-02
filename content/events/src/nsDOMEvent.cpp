@@ -172,6 +172,15 @@ include
 "
 mozilla
 /
+MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MutationEvent
 .
 h

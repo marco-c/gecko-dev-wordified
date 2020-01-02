@@ -215,6 +215,15 @@ h
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsEventDispatcher
 .
 h

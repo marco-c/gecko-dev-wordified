@@ -239,6 +239,15 @@ h
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsContentPolicyUtils
 .
 h

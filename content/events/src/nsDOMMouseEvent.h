@@ -124,6 +124,15 @@ MouseEventBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
 class
 nsDOMMouseEvent
 :

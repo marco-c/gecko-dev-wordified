@@ -645,6 +645,15 @@ gfxTypes
 h
 "
 #
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
 define
 INCL_DOS
 #

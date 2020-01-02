@@ -218,6 +218,15 @@ include
 "
 mozilla
 /
+MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h

@@ -131,15 +131,6 @@ include
 "
 mozilla
 /
-MouseEvents
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextEvents
 .
 h

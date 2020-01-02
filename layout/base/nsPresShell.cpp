@@ -219,6 +219,15 @@ include
 "
 mozilla
 /
+MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TouchEvents
 .
 h

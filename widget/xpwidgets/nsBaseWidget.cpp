@@ -367,6 +367,15 @@ gfx
 h
 "
 #
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #

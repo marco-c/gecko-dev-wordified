@@ -441,6 +441,15 @@ Attributes
 h
 "
 #
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #

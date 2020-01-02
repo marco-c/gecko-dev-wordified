@@ -509,6 +509,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
 /
 /
 Interfaces

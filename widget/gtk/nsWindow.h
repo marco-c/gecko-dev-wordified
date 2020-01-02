@@ -238,6 +238,15 @@ endif
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsGtkIMModule
 .
 h

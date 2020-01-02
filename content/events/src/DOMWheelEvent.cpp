@@ -121,7 +121,9 @@ h
 #
 include
 "
-nsGUIEvent
+mozilla
+/
+MouseEvents
 .
 h
 "
