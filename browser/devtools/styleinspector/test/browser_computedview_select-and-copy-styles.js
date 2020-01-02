@@ -178,6 +178,8 @@ span
 font
 -
 variant
+-
+caps
 :
 small
 -
@@ -712,6 +714,8 @@ n
 font
 -
 variant
+-
+caps
 :
 small
 -
@@ -907,6 +911,8 @@ n
 font
 -
 variant
+-
+caps
 :
 small
 -
