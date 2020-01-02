@@ -398,6 +398,10 @@ nsWrapperCache
 {
 friend
 class
+AutoChangePathSegListNotifier
+;
+friend
+class
 DOMSVGPathSeg
 ;
 public

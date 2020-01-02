@@ -384,6 +384,10 @@ nsISupports
 public
 nsWrapperCache
 {
+friend
+class
+AutoChangeStringListNotifier
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

@@ -288,6 +288,10 @@ MOZ_FINAL
 public
 nsISVGPoint
 {
+friend
+class
+AutoChangePointNotifier
+;
 typedef
 mozilla
 :

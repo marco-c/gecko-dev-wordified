@@ -401,6 +401,10 @@ nsWrapperCache
 {
 friend
 class
+AutoChangePointListNotifier
+;
+friend
+class
 nsISVGPoint
 ;
 friend
