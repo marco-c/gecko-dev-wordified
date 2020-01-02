@@ -2515,6 +2515,7 @@ mRegionToClear
 mLatestTransactionId
 aScheduleComposite
 mPaintSequenceNumber
+mIsRepeatTransaction
 &
 sent
 )

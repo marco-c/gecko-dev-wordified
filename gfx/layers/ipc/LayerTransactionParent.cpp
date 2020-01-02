@@ -1219,6 +1219,10 @@ const
 uint32_t
 &
 paintSequenceNumber
+const
+bool
+&
+isRepeatTransaction
 )
 {
 return
@@ -1230,6 +1234,7 @@ targetConfig
 isFirstPaint
 scheduleComposite
 paintSequenceNumber
+isRepeatTransaction
 nullptr
 )
 ;
@@ -1267,6 +1272,10 @@ const
 uint32_t
 &
 paintSequenceNumber
+const
+bool
+&
+isRepeatTransaction
 InfallibleTArray
 <
 EditReply
@@ -3539,6 +3548,7 @@ targetConfig
 isFirstPaint
 scheduleComposite
 paintSequenceNumber
+isRepeatTransaction
 )
 ;
 {

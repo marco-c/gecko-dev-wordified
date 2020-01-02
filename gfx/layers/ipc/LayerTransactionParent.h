@@ -551,6 +551,10 @@ const
 uint32_t
 &
 paintSequenceNumber
+const
+bool
+&
+isRepeatTransaction
 EditReplyArray
 *
 reply
@@ -585,6 +589,10 @@ const
 uint32_t
 &
 paintSequenceNumber
+const
+bool
+&
+isRepeatTransaction
 )
 MOZ_OVERRIDE
 ;

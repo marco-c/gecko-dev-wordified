@@ -2017,6 +2017,8 @@ aScheduleComposite
 uint32_t
 aPaintSequenceNumber
 bool
+aIsRepeatTransaction
+bool
 *
 aSent
 )

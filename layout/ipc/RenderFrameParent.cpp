@@ -5362,6 +5362,8 @@ bool
 aScheduleComposite
 uint32_t
 aPaintSequenceNumber
+bool
+aIsRepeatTransaction
 )
 {
 /

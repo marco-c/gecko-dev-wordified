@@ -779,6 +779,8 @@ bool
 aScheduleComposite
 uint32_t
 aPaintSequenceNumber
+bool
+aIsRepeatTransaction
 )
 MOZ_OVERRIDE
 ;
@@ -1003,6 +1005,8 @@ bool
 aScheduleComposite
 uint32_t
 aPaintSequenceNumber
+bool
+aIsRepeatTransaction
 )
 ;
 /
