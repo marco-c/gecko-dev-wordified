@@ -1901,8 +1901,7 @@ vp
 )
 ;
 static
-JSObject
-*
+bool
 initClass
 (
 JSContext

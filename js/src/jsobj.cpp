@@ -21908,7 +21908,7 @@ return
 GlobalObject
 :
 :
-ensureConstructor
+resolveConstructor
 (
 cx
 global
