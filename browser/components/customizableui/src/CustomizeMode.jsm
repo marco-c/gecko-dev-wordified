@@ -908,13 +908,6 @@ this
 .
 document
 ;
-CustomizableUI
-.
-addListener
-(
-this
-)
-;
 /
 /
 Add
@@ -1256,6 +1249,13 @@ this
 .
 _showPanelCustomizationPlaceholders
 (
+)
+;
+CustomizableUI
+.
+addListener
+(
+this
 )
 ;
 yield
