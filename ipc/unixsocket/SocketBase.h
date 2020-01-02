@@ -1947,7 +1947,7 @@ RemoveElementAt
 )
 ;
 delete
-data
+outgoing
 ;
 }
 }
