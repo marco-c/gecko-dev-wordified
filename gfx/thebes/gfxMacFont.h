@@ -316,6 +316,12 @@ FONT_TYPE_MAC
 }
 protected
 :
+virtual
+void
+CreatePlatformShaper
+(
+)
+;
 /
 /
 override
@@ -349,6 +355,10 @@ aScript
 gfxShapedText
 *
 aShapedText
+bool
+aPreferPlatformShaping
+=
+false
 )
 ;
 void
@@ -433,12 +443,6 @@ mCGFont
 cairo_font_face_t
 *
 mFontFace
-;
-nsAutoPtr
-<
-gfxFontShaper
->
-mCoreTextShaper
 ;
 Metrics
 mMetrics
