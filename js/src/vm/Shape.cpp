@@ -1306,7 +1306,7 @@ shape
 shape
 -
 >
-propid
+propidRaw
 (
 )
 =
@@ -1489,7 +1489,7 @@ shape
 shape
 -
 >
-propid
+propidRaw
 (
 )
 =

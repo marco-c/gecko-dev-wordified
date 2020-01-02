@@ -1796,6 +1796,13 @@ TemporaryTypeSet
 :
 AlwaysConvertToDoubles
 )
+{
+AutoThreadSafeAccess
+ts
+(
+templateObject
+)
+;
 templateObject
 -
 >
@@ -1803,6 +1810,7 @@ setShouldConvertDoubleElements
 (
 )
 ;
+}
 MNewArray
 *
 ins

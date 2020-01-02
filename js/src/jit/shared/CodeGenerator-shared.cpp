@@ -1999,6 +1999,12 @@ GetIonContext
 cx
 )
 {
+AutoThreadSafeAccess
+ts
+(
+script
+)
+;
 uint32_t
 stackDepth
 ;

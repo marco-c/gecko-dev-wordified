@@ -21078,6 +21078,12 @@ unsigned
 varSlot
 )
 {
+AutoThreadSafeAccess
+ts
+(
+this
+)
+;
 return
 bindings
 .
@@ -21103,6 +21109,12 @@ unsigned
 argSlot
 )
 {
+AutoThreadSafeAccess
+ts
+(
+this
+)
+;
 return
 bindings
 .

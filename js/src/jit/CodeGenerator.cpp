@@ -22792,6 +22792,12 @@ templateObject
 (
 )
 ;
+AutoThreadSafeAccess
+ts
+(
+templateObj
+)
+;
 /
 /
 If
