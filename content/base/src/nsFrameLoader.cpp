@@ -11587,11 +11587,6 @@ GetPrimaryFrameOfOwningContent
 (
 )
 ;
-if
-(
-frame
-)
-{
 nsSubDocumentFrame
 *
 subdocFrame
@@ -11665,7 +11660,6 @@ nsIScrollableFrame
 INSTANT
 )
 ;
-}
 }
 }
 }

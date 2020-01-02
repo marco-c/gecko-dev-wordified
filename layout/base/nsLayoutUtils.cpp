@@ -7504,16 +7504,6 @@ GetParent
 (
 )
 ;
-if
-(
-!
-frame
-)
-{
-return
-nullptr
-;
-}
 nsIScrollableFrame
 *
 sf

@@ -1022,15 +1022,6 @@ GetPrimaryFrame
 (
 )
 ;
-if
-(
-!
-frame
-)
-{
-return
-;
-}
 nsVideoFrame
 *
 videoFrame

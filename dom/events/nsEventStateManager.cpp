@@ -4955,11 +4955,6 @@ nsEventStateManager
 COMPUTE_DEFAULT_ACTION_TARGET
 )
 ;
-if
-(
-target
-)
-{
 nsIScrollbarOwner
 *
 scrollbarOwner
@@ -4995,7 +4990,6 @@ ScrollbarActivityStarted
 (
 )
 ;
-}
 }
 }
 }
