@@ -879,7 +879,7 @@ OutputDebugStringW
 reinterpret_cast
 <
 const
-PRUnichar
+wchar_t
 *
 >
 (
