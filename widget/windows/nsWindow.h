@@ -1738,6 +1738,12 @@ LayersBackend
 aHints
 )
 ;
+virtual
+bool
+ShouldUseOffMainThreadCompositing
+(
+)
+;
 protected
 :
 virtual

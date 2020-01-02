@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -233,12 +233,16 @@ mDeviceResetCount
 0
 )
 {
-sBackend
-=
+Compositor
+:
+:
+SetBackend
+(
 LayersBackend
 :
 :
 LAYERS_D3D9
+)
 ;
 }
 CompositorD3D9

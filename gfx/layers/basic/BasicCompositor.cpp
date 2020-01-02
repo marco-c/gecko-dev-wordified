@@ -1252,12 +1252,13 @@ MOZ_COUNT_CTOR
 BasicCompositor
 )
 ;
-sBackend
-=
+SetBackend
+(
 LayersBackend
 :
 :
 LAYERS_BASIC
+)
 ;
 }
 BasicCompositor
