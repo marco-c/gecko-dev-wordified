@@ -1243,11 +1243,14 @@ BluetoothAvrcpResultHandler
 aRes
 )
 ;
-bt_status_t
+void
 SetVolume
 (
 uint8_t
 aVolume
+BluetoothAvrcpResultHandler
+*
+aRes
 )
 ;
 protected
