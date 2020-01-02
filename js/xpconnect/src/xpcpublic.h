@@ -223,6 +223,9 @@ BindingDeclarations
 h
 "
 class
+nsGlobalWindow
+;
+class
 nsIPrincipal
 ;
 class
