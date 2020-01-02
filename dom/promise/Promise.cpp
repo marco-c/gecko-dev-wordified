@@ -1154,6 +1154,13 @@ return
 nullptr
 ;
 }
+JSAutoCompartment
+ac
+(
+aCx
+scope
+)
+;
 JS
 :
 :
