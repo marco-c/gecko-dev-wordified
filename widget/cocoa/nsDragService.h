@@ -151,12 +151,6 @@ nsDragService
 (
 )
 ;
-virtual
-~
-nsDragService
-(
-)
-;
 /
 /
 nsIDragService
@@ -214,6 +208,14 @@ GetNumDropItems
 uint32_t
 *
 aNumItems
+)
+;
+protected
+:
+virtual
+~
+nsDragService
+(
 )
 ;
 private

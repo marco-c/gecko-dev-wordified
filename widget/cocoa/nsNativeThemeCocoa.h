@@ -185,12 +185,6 @@ nsNativeThemeCocoa
 (
 )
 ;
-virtual
-~
-nsNativeThemeCocoa
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
@@ -386,6 +380,12 @@ aFrame
 ;
 protected
 :
+virtual
+~
+nsNativeThemeCocoa
+(
+)
+;
 nsIntMargin
 RTLAwareMargin
 (

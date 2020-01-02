@@ -356,12 +356,6 @@ nsPrintSettingsGTK
 (
 )
 ;
-virtual
-~
-nsPrintSettingsGTK
-(
-)
-;
 /
 /
 We
@@ -930,6 +924,12 @@ aDuplex
 ;
 protected
 :
+virtual
+~
+nsPrintSettingsGTK
+(
+)
+;
 nsPrintSettingsGTK
 (
 const

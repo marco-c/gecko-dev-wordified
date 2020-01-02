@@ -332,6 +332,8 @@ nsNativeThemeGTK
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsNativeThemeGTK

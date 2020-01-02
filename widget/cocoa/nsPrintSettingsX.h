@@ -152,12 +152,6 @@ nsPrintSettingsX
 (
 )
 ;
-virtual
-~
-nsPrintSettingsX
-(
-)
-;
 nsresult
 Init
 (
@@ -217,6 +211,12 @@ aPageFormat
 ;
 protected
 :
+virtual
+~
+nsPrintSettingsX
+(
+)
+;
 nsPrintSettingsX
 (
 const
