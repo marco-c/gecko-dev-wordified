@@ -370,6 +370,12 @@ happy
 "
 )
 ;
+frame
+.
+remove
+(
+)
+;
 finish
 (
 )
