@@ -1400,6 +1400,16 @@ currentId
 treeOffset
 )
 ;
+stack
+[
+i
+]
+.
+setLastChildId
+(
+0
+)
+;
 parent
 -
 >
