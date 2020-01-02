@@ -1012,12 +1012,6 @@ TypedArrayType
 Create
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
 mArray
 .
 Length
