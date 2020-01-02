@@ -2450,6 +2450,9 @@ compressed
 size_t
 compressedBytes
 ;
+HashNumber
+compressedHash
+;
 public
 :
 explicit
@@ -2481,6 +2484,10 @@ compressed
 nullptr
 )
 compressedBytes
+(
+0
+)
+compressedHash
 (
 0
 )

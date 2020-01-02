@@ -6488,8 +6488,8 @@ nativeIterCache
 js
 :
 :
-SourceDataCache
-sourceDataCache
+UncompressedSourceCache
+uncompressedSourceCache
 ;
 js
 :
@@ -6502,6 +6502,12 @@ js
 :
 LazyScriptCache
 lazyScriptCache
+;
+js
+:
+:
+CompressedSourceSet
+compressedSourceSet
 ;
 js
 :
