@@ -7,6 +7,17 @@ gecko
 .
 util
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
 /
 *
 *
@@ -71,6 +82,7 @@ thrown
 .
 *
 /
+RobocopTarget
 public
 interface
 EventCallback
