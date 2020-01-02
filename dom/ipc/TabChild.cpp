@@ -13610,6 +13610,18 @@ new
 TabChildMap
 ;
 }
+MOZ_ASSERT
+(
+!
+sTabChildren
+-
+>
+Get
+(
+id
+)
+)
+;
 sTabChildren
 -
 >
@@ -14446,6 +14458,8 @@ TabChild
 :
 DidComposite
 (
+uint64_t
+aTransactionId
 )
 {
 MOZ_ASSERT
@@ -14507,6 +14521,7 @@ manager
 >
 DidComposite
 (
+aTransactionId
 )
 ;
 }

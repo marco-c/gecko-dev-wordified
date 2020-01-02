@@ -2535,6 +2535,8 @@ const
 nsIntRegion
 &
 aRegionToClear
+uint64_t
+aId
 bool
 aScheduleComposite
 uint32_t
@@ -2548,6 +2550,11 @@ aSent
 aSent
 =
 false
+;
+MOZ_ASSERT
+(
+aId
+)
 ;
 PROFILER_LABEL
 (
@@ -3553,6 +3560,7 @@ mShadowManager
 SendUpdate
 (
 cset
+aId
 targetConfig
 mIsFirstPaint
 aScheduleComposite
@@ -3666,6 +3674,7 @@ mShadowManager
 SendUpdateNoSwap
 (
 cset
+aId
 targetConfig
 mIsFirstPaint
 aPaintSequenceNumber
