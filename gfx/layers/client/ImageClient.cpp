@@ -1126,7 +1126,10 @@ CreateBufferTextureClient
 gfx
 :
 :
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 TEXTURE_FLAGS_DEFAULT
 )
 ;

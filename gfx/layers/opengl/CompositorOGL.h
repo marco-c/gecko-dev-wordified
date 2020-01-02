@@ -1034,7 +1034,10 @@ return
 gfx
 :
 :
-FORMAT_R8G8B8A8
+SurfaceFormat
+:
+:
+R8G8B8A8
 ;
 }
 /

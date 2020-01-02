@@ -1622,7 +1622,10 @@ GetFormat
 gfx
 :
 :
-FORMAT_UNKNOWN
+SurfaceFormat
+:
+:
+UNKNOWN
 )
 {
 return
@@ -1896,7 +1899,10 @@ GetFormat
 gfx
 :
 :
-FORMAT_UNKNOWN
+SurfaceFormat
+:
+:
+UNKNOWN
 )
 {
 return
@@ -2519,7 +2525,10 @@ mFormat
 gfx
 :
 :
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 "
 This
 textureClient
@@ -3251,7 +3260,10 @@ mFormat
 gfx
 :
 :
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 "
 This
 textureClient

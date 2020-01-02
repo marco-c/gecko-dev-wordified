@@ -175,7 +175,10 @@ for
 SurfaceFormat
 :
 :
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 #
 include
 "
@@ -349,7 +352,10 @@ CreateBufferTextureClient
 gfx
 :
 :
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 )
 ;
 MOZ_COUNT_CTOR

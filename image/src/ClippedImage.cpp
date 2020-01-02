@@ -1370,7 +1370,10 @@ height
 gfx
 :
 :
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 ctx
@@ -1411,7 +1414,10 @@ height
 gfx
 :
 :
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 nsRefPtr

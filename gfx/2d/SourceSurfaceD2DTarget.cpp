@@ -820,7 +820,10 @@ seems
 to
 happen
 for
-FORMAT_A8
+SurfaceFormat
+:
+:
+A8
 sometimes
 .
 .

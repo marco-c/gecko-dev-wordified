@@ -167,7 +167,10 @@ IntSize
 100
 100
 )
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 RefPtr
@@ -187,7 +190,10 @@ IntSize
 100
 100
 )
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 /
@@ -626,7 +632,10 @@ IntSize
 500
 500
 )
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 dt

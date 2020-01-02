@@ -495,7 +495,10 @@ mBlur
 GetStride
 (
 )
-FORMAT_A8
+SurfaceFormat
+:
+:
+A8
 )
 ;
 if
@@ -712,7 +715,10 @@ mBlur
 GetStride
 (
 )
-FORMAT_A8
+SurfaceFormat
+:
+:
+A8
 )
 ;
 if

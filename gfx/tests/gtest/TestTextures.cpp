@@ -1424,7 +1424,10 @@ mozilla
 gfx
 :
 :
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 )
 ;
 /
@@ -1457,7 +1460,10 @@ mozilla
 gfx
 :
 :
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 )
 ;
 YCbCrImageDataDeserializer
@@ -1989,7 +1995,10 @@ mozilla
 gfx
 :
 :
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 TEXTURE_DEALLOCATE_CLIENT
 )
 ;

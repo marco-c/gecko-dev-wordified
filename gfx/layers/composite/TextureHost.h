@@ -682,7 +682,10 @@ return
 gfx
 :
 :
-FORMAT_UNKNOWN
+SurfaceFormat
+:
+:
+UNKNOWN
 ;
 }
 /
@@ -2799,7 +2802,10 @@ even
 though
 mFormat
 is
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 )
 .
 *

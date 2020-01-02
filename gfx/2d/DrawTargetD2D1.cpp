@@ -2093,7 +2093,10 @@ if
 mFormat
 =
 =
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 &
 &
 mPermitSubpixelAA
@@ -2173,7 +2176,10 @@ D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE
 mFormat
 !
 =
-FORMAT_B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 &
 &
 !
