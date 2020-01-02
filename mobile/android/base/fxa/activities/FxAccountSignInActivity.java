@@ -550,7 +550,7 @@ createShowPasswordButton
 )
 ;
 View
-signInInsteadLink
+createAccountInsteadLink
 =
 ensureFindViewById
 (
@@ -568,7 +568,7 @@ link
 "
 )
 ;
-signInInsteadLink
+createAccountInsteadLink
 .
 setOnClickListener
 (
