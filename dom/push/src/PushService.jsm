@@ -6467,6 +6467,7 @@ processNextRequestInQueue
 return
 ;
 }
+let
 [
 action
 data
