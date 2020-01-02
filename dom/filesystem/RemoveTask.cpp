@@ -1041,7 +1041,7 @@ mErrorValue
 mPromise
 -
 >
-MaybeReject
+MaybeRejectBrokenly
 (
 domError
 )
