@@ -250,8 +250,6 @@ aSamplingRate
 )
 MOZ_OVERRIDE
 ;
-private
-:
 /
 *
 *
@@ -277,7 +275,7 @@ be
 different
 from
 the
-intput
+input
 samplerate
 if
 resampling
@@ -290,6 +288,8 @@ GetOutputSampleRate
 (
 )
 ;
+private
+:
 /
 *
 *
