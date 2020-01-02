@@ -153,6 +153,13 @@ h
 #
 include
 "
+ReorderQueue
+.
+h
+"
+#
+include
+"
 VideoToolbox
 /
 VideoToolbox
@@ -308,6 +315,9 @@ mFormat
 VTDecompressionSessionRef
 mSession
 ;
+ReorderQueue
+mReorderQueue
+;
 /
 /
 Method
@@ -343,6 +353,11 @@ session
 .
 nsresult
 InitializeSession
+(
+)
+;
+nsresult
+DrainReorderedFrames
 (
 )
 ;
