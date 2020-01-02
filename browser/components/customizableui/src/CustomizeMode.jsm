@@ -1259,8 +1259,6 @@ getElementById
 PanelUI
 -
 help
--
-btn
 "
 )
 .
@@ -1806,8 +1804,6 @@ getElementById
 PanelUI
 -
 help
--
-btn
 "
 )
 .
