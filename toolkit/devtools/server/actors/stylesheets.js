@@ -3191,10 +3191,11 @@ defer
 let
 onSheetLoaded
 =
-function
 (
 event
 )
+=
+>
 {
 ownerNode
 .
@@ -3219,11 +3220,6 @@ cssRules
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 ownerNode
 .

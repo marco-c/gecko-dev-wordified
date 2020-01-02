@@ -3472,10 +3472,11 @@ aProperties
 .
 filter
 (
-function
 (
 aProperty
 )
+=
+>
 {
 /
 /
@@ -3570,11 +3571,6 @@ next
 rule
 .
 }
-.
-bind
-(
-this
-)
 )
 ;
 return

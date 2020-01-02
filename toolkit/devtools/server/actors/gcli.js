@@ -583,9 +583,10 @@ typed
 .
 then
 (
-function
 (
 )
+=
+>
 {
 return
 this
@@ -599,11 +600,6 @@ rank
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

@@ -399,9 +399,10 @@ options
 )
 {
 return
-function
 (
 )
+=
+>
 {
 ais
 (
@@ -425,11 +426,6 @@ runNextTest
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 }
 executeSoon

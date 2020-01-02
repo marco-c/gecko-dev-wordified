@@ -599,9 +599,10 @@ loading
 let
 onIFrameLoaded
 =
-function
 (
 )
+=
+>
 {
 tab
 .
@@ -665,11 +666,6 @@ ready
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 iframe
 .
@@ -866,9 +862,10 @@ defaultView
 .
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -878,11 +875,6 @@ id
 )
 ;
 }
-.
-bind
-(
-this
-)
 10
 )
 ;

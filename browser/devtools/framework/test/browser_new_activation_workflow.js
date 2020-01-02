@@ -307,9 +307,10 @@ once
 "
 destroyed
 "
-function
 (
 )
+=
+>
 {
 /
 /
@@ -397,11 +398,6 @@ finishUp
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 toolbox

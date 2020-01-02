@@ -411,9 +411,10 @@ defer
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 {
 deferred
 .
@@ -447,11 +448,6 @@ document
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 return
