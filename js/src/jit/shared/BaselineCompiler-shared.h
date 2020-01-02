@@ -184,6 +184,10 @@ ionOSRCompileable_
 bool
 debugMode_
 ;
+TempAllocator
+&
+alloc_
+;
 BytecodeAnalysis
 analysis_
 ;
@@ -395,6 +399,9 @@ BaselineCompilerShared
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 HandleScript
 script
 )

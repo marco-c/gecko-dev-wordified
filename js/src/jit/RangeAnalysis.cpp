@@ -11035,6 +11035,11 @@ MBasicBlock
 IonAllocPolicy
 >
 worklist
+(
+alloc
+(
+)
+)
 ;
 /
 /
@@ -11585,6 +11590,11 @@ MBoundsCheck
 IonAllocPolicy
 >
 hoistedChecks
+(
+alloc
+(
+)
+)
 ;
 for
 (
@@ -12528,6 +12538,11 @@ nullptr
 ;
 LinearSum
 bound
+(
+alloc
+(
+)
+)
 ;
 if
 (
@@ -13099,6 +13114,11 @@ Range
 ;
 LinearSum
 initialSum
+(
+alloc
+(
+)
+)
 ;
 if
 (

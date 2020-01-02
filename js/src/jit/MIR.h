@@ -5993,6 +5993,9 @@ high_
 ;
 MTableSwitch
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 ins
@@ -6004,12 +6007,15 @@ high
 :
 successors_
 (
+alloc
 )
 cases_
 (
+alloc
 )
 blocks_
 (
+alloc
 )
 low_
 (
@@ -20328,12 +20334,19 @@ capacity_
 endif
 MPhi
 (
+TempAllocator
+&
+alloc
 uint32_t
 slot
 MIRType
 resultType
 )
 :
+inputs_
+(
+alloc
+)
 slot_
 (
 slot
@@ -20425,6 +20438,7 @@ alloc
 )
 MPhi
 (
+alloc
 slot
 resultType
 )
@@ -29605,6 +29619,9 @@ public
 :
 InlinePropertyTable
 (
+TempAllocator
+&
+alloc
 jsbytecode
 *
 pc
@@ -29620,6 +29637,7 @@ nullptr
 )
 entries_
 (
+alloc
 )
 {
 }
@@ -30045,6 +30063,7 @@ alloc
 )
 InlinePropertyTable
 (
+alloc
 pc
 )
 ;
@@ -30368,6 +30387,9 @@ name_
 ;
 MGetPropertyPolymorphic
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 obj
@@ -30379,6 +30401,10 @@ name
 MUnaryInstruction
 (
 obj
+)
+shapes_
+(
+alloc
 )
 name_
 (
@@ -30435,6 +30461,7 @@ alloc
 )
 MGetPropertyPolymorphic
 (
+alloc
 obj
 name
 )
@@ -30721,6 +30748,9 @@ needsBarrier_
 ;
 MSetPropertyPolymorphic
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 obj
@@ -30733,6 +30763,10 @@ MBinaryInstruction
 (
 obj
 value
+)
+shapes_
+(
+alloc
 )
 needsBarrier_
 (
@@ -30769,6 +30803,7 @@ alloc
 )
 MSetPropertyPolymorphic
 (
+alloc
 obj
 value
 )
@@ -31028,6 +31063,9 @@ public
 :
 MDispatchInstruction
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 input
@@ -31035,6 +31073,7 @@ input
 :
 map_
 (
+alloc
 )
 fallback_
 (
@@ -31484,6 +31523,9 @@ inlinePropertyTable_
 ;
 MTypeObjectDispatch
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 input
@@ -31494,6 +31536,7 @@ table
 :
 MDispatchInstruction
 (
+alloc
 input
 )
 inlinePropertyTable_
@@ -31531,6 +31574,7 @@ alloc
 )
 MTypeObjectDispatch
 (
+alloc
 ins
 table
 )
@@ -31569,6 +31613,9 @@ MDispatchInstruction
 {
 MFunctionDispatch
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 input
@@ -31576,6 +31623,7 @@ input
 :
 MDispatchInstruction
 (
+alloc
 input
 )
 {
@@ -31606,6 +31654,7 @@ alloc
 )
 MFunctionDispatch
 (
+alloc
 ins
 )
 ;

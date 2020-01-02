@@ -40706,6 +40706,11 @@ execution
 .
 CallTargetVector
 callTargets
+(
+alloc
+(
+)
+)
 ;
 if
 (

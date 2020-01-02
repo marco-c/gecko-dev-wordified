@@ -231,6 +231,9 @@ BaselineCompiler
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 HandleScript
 script
 )
@@ -238,6 +241,7 @@ script
 BaselineCompilerSpecific
 (
 cx
+alloc
 script
 )
 modifiesArguments_
@@ -261,6 +265,7 @@ analysis_
 .
 init
 (
+alloc_
 cx
 -
 >

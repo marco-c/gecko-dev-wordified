@@ -146,6 +146,9 @@ BaselineCompilerX86Shared
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 HandleScript
 script
 )
