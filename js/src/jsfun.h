@@ -1372,14 +1372,14 @@ jitInfo
 )
 &
 &
-!
-!
 jitInfo
 (
 )
 -
 >
-parallelNative
+hasParallelNative
+(
+)
 ;
 }
 bool
