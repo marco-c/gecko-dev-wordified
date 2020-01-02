@@ -798,7 +798,7 @@ fromCharCode
 )
 ;
 const
-kDiscBulletText
+kDiscBulletChar
 =
 String
 .
@@ -806,6 +806,11 @@ fromCharCode
 (
 0x2022
 )
+;
+const
+kDiscBulletText
+=
+kDiscBulletChar
 +
 "
 "

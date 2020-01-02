@@ -2659,6 +2659,7 @@ boundaries
 .
 *
 /
+virtual
 int32_t
 FindOffset
 (
