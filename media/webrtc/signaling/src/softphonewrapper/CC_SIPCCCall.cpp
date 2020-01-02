@@ -3131,6 +3131,9 @@ cc_media_track_id_t
 track_id
 cc_media_type_t
 media_type
+cc_media_constraints_t
+*
+constraints
 )
 {
 CCAPI_AddStream
@@ -3139,6 +3142,7 @@ callHandle
 stream_id
 track_id
 media_type
+constraints
 )
 ;
 }
