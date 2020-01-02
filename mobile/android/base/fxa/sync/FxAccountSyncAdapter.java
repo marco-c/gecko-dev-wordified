@@ -1574,6 +1574,9 @@ final
 KeyBundle
 syncKeyBundle
 final
+String
+clientState
+final
 BaseGlobalSessionCallback
 callback
 )
@@ -1594,6 +1597,7 @@ getTokenFromBrowserIDAssertion
 (
 assertion
 true
+clientState
 new
 TokenServerClientDelegate
 (
@@ -2697,6 +2701,11 @@ sharedPrefs
 married
 .
 getSyncKeyBundle
+(
+)
+married
+.
+getClientState
 (
 )
 sessionCallback
