@@ -2672,8 +2672,10 @@ mContext
 }
 private
 :
+nsRefPtr
+<
 IDWriteFontFace
-*
+>
 mFontFace
 ;
 void
