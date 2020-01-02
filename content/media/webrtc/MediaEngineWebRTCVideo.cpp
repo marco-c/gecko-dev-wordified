@@ -3391,7 +3391,7 @@ mCameraControl
 >
 Set
 (
-CAMERA_PARAM_PICTURESIZE
+CAMERA_PARAM_PICTURE_SIZE
 config
 .
 mPreviewSize

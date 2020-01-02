@@ -2728,7 +2728,7 @@ mCameraControl
 >
 Get
 (
-CAMERA_PARAM_PICTURESIZE
+CAMERA_PARAM_PICTURE_SIZE
 size
 )
 ;
@@ -2831,7 +2831,7 @@ mCameraControl
 >
 Set
 (
-CAMERA_PARAM_PICTURESIZE
+CAMERA_PARAM_PICTURE_SIZE
 s
 )
 ;
@@ -3860,6 +3860,14 @@ maxVideoLengthMs
 mOptions
 .
 mMaxVideoLengthMs
+;
+o
+.
+autoEnableLowLightTorch
+=
+mOptions
+.
+mAutoEnableLowLightTorch
 ;
 nsresult
 rv
