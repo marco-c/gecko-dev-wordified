@@ -2290,6 +2290,12 @@ JSFunction
 (
 )
 ;
+module
+.
+initGlobalNaN
+(
+)
+;
 return
 true
 ;
