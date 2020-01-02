@@ -840,7 +840,7 @@ optimized
 *
 /
 void
-AudioBufferInPlaceScale
+AudioBlockInPlaceScale
 (
 float
 aBlock

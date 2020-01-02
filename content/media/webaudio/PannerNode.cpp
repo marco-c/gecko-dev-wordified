@@ -2523,7 +2523,7 @@ Length
 (
 )
 ;
-AudioBufferInPlaceScale
+AudioBlockInPlaceScale
 (
 samples
 channelCount

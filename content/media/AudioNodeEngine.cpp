@@ -964,7 +964,7 @@ i
 }
 }
 void
-AudioBufferInPlaceScale
+AudioBlockInPlaceScale
 (
 float
 aBlock
