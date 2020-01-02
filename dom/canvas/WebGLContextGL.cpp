@@ -10706,6 +10706,13 @@ progname
 )
 ;
 }
+program
+-
+>
+InitializeUniformAndAttributeMaps
+(
+)
+;
 }
 else
 {
@@ -10715,6 +10722,13 @@ program
 SetLinkStatus
 (
 false
+)
+;
+program
+-
+>
+ClearUniformAndAttributeMaps
+(
 )
 ;
 if
