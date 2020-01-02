@@ -234,7 +234,7 @@ LOG
 Creating
 nsHttpConnectionInfo
 %
-x
+p
 \
 n
 "
