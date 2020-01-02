@@ -1549,6 +1549,9 @@ instance
 urlToImageDataResolver
 :
 true
+networkMonitor
+:
+true
 }
 }
 ;
