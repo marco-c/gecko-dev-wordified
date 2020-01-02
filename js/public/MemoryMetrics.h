@@ -2991,6 +2991,13 @@ Other
 NotLiveGCThing
 debuggeesSet
 )
+\
+macro
+(
+Other
+IsLiveGCThing
+savedStacksSet
+)
 CompartmentStats
 (
 )
