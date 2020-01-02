@@ -201,7 +201,7 @@ for
 (
 let
 scope
-in
+of
 sidebar
 .
 variablesView
@@ -213,7 +213,7 @@ let
 [
 obj
 ]
-in
+of
 scope
 )
 {
@@ -223,7 +223,7 @@ let
 [
 prop
 ]
-in
+of
 obj
 )
 {

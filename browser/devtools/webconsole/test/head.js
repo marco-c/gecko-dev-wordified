@@ -2826,7 +2826,7 @@ let
 id
 prop
 ]
-in
+of
 aVar
 )
 {
