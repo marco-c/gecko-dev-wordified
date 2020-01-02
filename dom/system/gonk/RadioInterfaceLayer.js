@@ -6835,6 +6835,8 @@ callback
 continue
 ;
 }
+try
+{
 let
 handler
 =
@@ -6869,8 +6871,6 @@ name
 )
 ;
 }
-try
-{
 handler
 .
 apply
