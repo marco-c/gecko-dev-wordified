@@ -1164,7 +1164,7 @@ bool
 JavaScriptShared
 :
 :
-toValue
+fromVariant
 (
 JSContext
 *
@@ -2205,7 +2205,7 @@ attrs
 if
 (
 !
-toValue
+fromVariant
 (
 cx
 in
@@ -2641,7 +2641,7 @@ name
 if
 (
 !
-toValue
+fromVariant
 (
 cx
 aCpows
