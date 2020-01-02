@@ -3295,7 +3295,7 @@ res
 int
 rv
 ;
-int32_t
+uint32_t
 mixer_latency
 ;
 res
