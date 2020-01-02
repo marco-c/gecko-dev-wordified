@@ -20432,7 +20432,9 @@ compartment
 )
 -
 >
-objectMetadataCallback
+hasObjectMetadataCallback
+(
+)
 &
 &
 cache
