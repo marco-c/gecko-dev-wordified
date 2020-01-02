@@ -318,7 +318,7 @@ uint16_t
 length
 )
 {
-PR_ASSERT
+assert
 (
 (
 expectedTag

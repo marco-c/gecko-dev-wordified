@@ -396,6 +396,11 @@ state
 .
 #
 include
+<
+cassert
+>
+#
+include
 "
 pkix
 /
@@ -555,7 +560,7 @@ uint8_t
 expectedLength
 )
 {
-PR_ASSERT
+assert
 (
 (
 expectedTag
@@ -575,7 +580,7 @@ number
 form
 not
 allowed
-PR_ASSERT
+assert
 (
 expectedLength
 <

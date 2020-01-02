@@ -1705,7 +1705,7 @@ subCACount
 }
 else
 {
-PR_ASSERT
+assert
 (
 subCACount
 =

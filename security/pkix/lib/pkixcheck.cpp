@@ -502,7 +502,7 @@ KeyUsage
 keyUsage
 )
 {
-PR_ASSERT
+assert
 (
 keyUsage
 !

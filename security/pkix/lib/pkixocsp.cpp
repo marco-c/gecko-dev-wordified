@@ -6289,7 +6289,7 @@ AtEnd
 )
 )
 ;
-PR_ASSERT
+assert
 (
 d
 =

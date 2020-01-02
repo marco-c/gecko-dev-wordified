@@ -2258,7 +2258,7 @@ signerDEROut
 nullptr
 )
 {
-PR_ASSERT
+assert
 (
 certSubjectName
 )
