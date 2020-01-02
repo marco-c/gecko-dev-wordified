@@ -3922,7 +3922,7 @@ busybox
 )
     
 def
-__del__
+cleanup
 (
 self
 )
@@ -3969,6 +3969,19 @@ qemu
 emulator
 .
 close
+(
+)
+    
+def
+__del__
+(
+self
+)
+:
+        
+self
+.
+cleanup
 (
 )
     

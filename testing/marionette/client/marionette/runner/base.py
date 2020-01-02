@@ -5802,10 +5802,13 @@ instance
 =
 None
         
-del
 self
 .
 marionette
+.
+cleanup
+(
+)
         
 for
 run_tests
