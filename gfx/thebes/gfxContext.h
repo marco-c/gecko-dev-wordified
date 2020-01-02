@@ -3955,6 +3955,16 @@ CopyAsDataURL
 ;
 #
 endif
+static
+mozilla
+:
+:
+gfx
+:
+:
+UserDataKey
+sDontUseAsSourceKey
+;
 private
 :
 friend
