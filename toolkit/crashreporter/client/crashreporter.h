@@ -590,6 +590,13 @@ string
 gSettingsPath
 ;
 extern
+std
+:
+:
+string
+gEventsPath
+;
+extern
 int
 gArgc
 ;
