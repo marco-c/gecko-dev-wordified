@@ -547,6 +547,14 @@ loaded
 eGfxLog_cmapdata
 =
 4
+/
+/
+text
+perf
+data
+eGfxLog_textperf
+=
+5
 }
 ;
 /

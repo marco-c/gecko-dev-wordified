@@ -572,6 +572,9 @@ aLanguage
 gfxUserFontSet
 *
 aUserFontSet
+gfxTextPerfMetrics
+*
+aTextPerf
 nsFontMetrics
 *
 &
@@ -870,6 +873,9 @@ aLanguage
 gfxUserFontSet
 *
 aUserFontSet
+gfxTextPerfMetrics
+*
+aTextPerf
 nsFontMetrics
 *
 &
@@ -1084,6 +1090,7 @@ aFont
 aLanguage
 mContext
 aUserFontSet
+aTextPerf
 )
 ;
 if
@@ -1223,6 +1230,7 @@ aFont
 aLanguage
 mContext
 aUserFontSet
+aTextPerf
 )
 ;
 if
@@ -1775,6 +1783,9 @@ aLanguage
 gfxUserFontSet
 *
 aUserFontSet
+gfxTextPerfMetrics
+*
+aTextPerf
 nsFontMetrics
 *
 &
@@ -1817,6 +1828,7 @@ GetMetricsFor
 aFont
 aLanguage
 aUserFontSet
+aTextPerf
 aMetrics
 )
 ;

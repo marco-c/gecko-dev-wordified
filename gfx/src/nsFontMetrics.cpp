@@ -634,6 +634,9 @@ aContext
 gfxUserFontSet
 *
 aUserFontSet
+gfxTextPerfMetrics
+*
+aTextPerf
 )
 {
 NS_ABORT_IF_FALSE
@@ -733,6 +736,14 @@ name
 &
 style
 aUserFontSet
+)
+;
+mFontGroup
+-
+>
+SetTextPerfMetrics
+(
+aTextPerf
 )
 ;
 if
