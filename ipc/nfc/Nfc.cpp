@@ -1763,7 +1763,9 @@ mAddress
 get
 (
 )
-1000
+GetSuggestedConnectDelayMs
+(
+)
 )
 ;
 }
