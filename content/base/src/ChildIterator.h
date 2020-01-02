@@ -111,6 +111,12 @@ MPL
 .
 *
 /
+#
+ifndef
+ChildIterator_h
+#
+define
+ChildIterator_h
 /
 *
 *
@@ -817,3 +823,5 @@ dom
 /
 namespace
 mozilla
+#
+endif
