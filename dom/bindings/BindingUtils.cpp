@@ -5812,6 +5812,8 @@ attrSpec
 .
 getter
 .
+propertyOp
+.
 op
 0
 0
@@ -5834,6 +5836,8 @@ fun
 attrSpec
 .
 getter
+.
+propertyOp
 .
 info
 )
@@ -5869,6 +5873,8 @@ attrSpec
 .
 setter
 .
+propertyOp
+.
 op
 )
 {
@@ -5894,6 +5900,8 @@ attrSpec
 .
 setter
 .
+propertyOp
+.
 op
 1
 0
@@ -5915,6 +5923,8 @@ fun
 attrSpec
 .
 setter
+.
+propertyOp
 .
 info
 )
