@@ -7351,9 +7351,8 @@ elm
 aNode
 -
 >
-GetListenerManager
+GetExistingListenerManager
 (
-false
 )
 ;
 if

@@ -2973,9 +2973,8 @@ listenerManager
 aTarget
 -
 >
-GetListenerManager
+GetOrCreateListenerManager
 (
-true
 )
 ;
 NS_ENSURE_STATE
