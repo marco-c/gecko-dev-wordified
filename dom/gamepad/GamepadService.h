@@ -819,7 +819,8 @@ mGamepads
 ;
 /
 /
-nsGlobalWindows
+Inner
+windows
 that
 are
 listening

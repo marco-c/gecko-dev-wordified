@@ -3308,6 +3308,12 @@ for
 gamepad
 input
 *
+*
+Inner
+windows
+only
+.
+*
 /
 virtual
 void
