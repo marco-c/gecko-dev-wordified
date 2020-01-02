@@ -3280,14 +3280,8 @@ PresShell
 )
 -
 >
-GetReferenceRenderingContext
+CreateReferenceRenderingContext
 (
-)
-;
-NS_ENSURE_TRUE
-(
-rc
-NS_ERROR_FAILURE
 )
 ;
 nsBoxLayoutState

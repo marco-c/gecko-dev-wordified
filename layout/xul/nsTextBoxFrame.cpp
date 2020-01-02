@@ -2495,7 +2495,7 @@ PresShell
 )
 -
 >
-GetReferenceRenderingContext
+CreateReferenceRenderingContext
 (
 )
 ;

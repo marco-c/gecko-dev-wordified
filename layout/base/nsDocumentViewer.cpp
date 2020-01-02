@@ -18644,14 +18644,8 @@ rcx
 presShell
 -
 >
-GetReferenceRenderingContext
+CreateReferenceRenderingContext
 (
-)
-;
-NS_ENSURE_TRUE
-(
-rcx
-NS_ERROR_FAILURE
 )
 ;
 prefWidth
