@@ -265,14 +265,6 @@ store
 )
 ;
 bool
-visitInterruptCheck
-(
-LInterruptCheck
-*
-lir
-)
-;
-bool
 visitCompareB
 (
 LCompareB

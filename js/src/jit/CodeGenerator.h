@@ -2722,6 +2722,14 @@ ins
 )
 ;
 bool
+visitInterruptCheck
+(
+LInterruptCheck
+*
+lir
+)
+;
+bool
 visitRecompileCheck
 (
 LRecompileCheck
