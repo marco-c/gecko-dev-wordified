@@ -305,10 +305,6 @@ createDummyDump
 false
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
