@@ -26340,6 +26340,15 @@ gfxPoint
 (
 )
 ;
+mPositions
+[
+aIndex
+]
+.
+mStartOfChunk
+=
+true
+;
 }
 }
 else
