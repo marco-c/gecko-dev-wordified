@@ -1473,7 +1473,7 @@ toString
 ;
 fieldName
 .
-init
+infallibleInit
 (
 fieldStr
 )
