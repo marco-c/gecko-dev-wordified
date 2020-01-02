@@ -149,6 +149,13 @@ SVGNumberList
 class
 SVGUserUnitList
 ;
+namespace
+gfx
+{
+class
+Matrix
+;
+}
 }
 /
 *
@@ -1095,6 +1102,12 @@ SVGBBox
 GetBBoxContribution
 (
 const
+mozilla
+:
+:
+gfx
+:
+:
 Matrix
 &
 aToBBoxUserspace
