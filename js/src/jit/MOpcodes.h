@@ -859,6 +859,11 @@ ArrayConcat
 \
 _
 (
+ArrayJoin
+)
+\
+_
+(
 LoadTypedArrayElement
 )
 \

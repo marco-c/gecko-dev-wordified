@@ -1956,6 +1956,14 @@ lir
 )
 ;
 bool
+visitArrayJoin
+(
+LArrayJoin
+*
+lir
+)
+;
+bool
 visitLoadTypedArrayElement
 (
 LLoadTypedArrayElement

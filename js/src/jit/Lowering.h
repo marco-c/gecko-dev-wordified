@@ -1527,6 +1527,14 @@ ins
 )
 ;
 bool
+visitArrayJoin
+(
+MArrayJoin
+*
+ins
+)
+;
+bool
 visitLoadTypedArrayElement
 (
 MLoadTypedArrayElement
