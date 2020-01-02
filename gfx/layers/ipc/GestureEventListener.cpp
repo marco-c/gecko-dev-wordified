@@ -421,26 +421,11 @@ GestureEventListener
 HandleInputEvent
 (
 const
-InputData
+MultiTouchInput
 &
 aEvent
 )
 {
-const
-MultiTouchInput
-&
-event
-=
-static_cast
-<
-const
-MultiTouchInput
-&
->
-(
-aEvent
-)
-;
 /
 /
 Cache
@@ -464,11 +449,11 @@ send
 .
 mLastTouchInput
 =
-event
+aEvent
 ;
 switch
 (
-event
+aEvent
 .
 mType
 )
@@ -495,7 +480,7 @@ i
 ;
 i
 <
-event
+aEvent
 .
 mTouches
 .
@@ -543,7 +528,7 @@ j
 mIdentifier
 =
 =
-event
+aEvent
 .
 mTouches
 [
@@ -591,7 +576,7 @@ mTouches
 .
 AppendElement
 (
-event
+aEvent
 .
 mTouches
 [
@@ -620,13 +605,13 @@ length
 {
 mTapStartTime
 =
-event
+aEvent
 .
 mTime
 ;
 mTouchStartPosition
 =
-event
+aEvent
 .
 mTouches
 [
@@ -711,7 +696,7 @@ anymore
 .
 HandleTapCancel
 (
-event
+aEvent
 )
 ;
 }
@@ -741,7 +726,7 @@ tap
 ScreenIntPoint
 delta
 =
-event
+aEvent
 .
 mTouches
 [
@@ -784,7 +769,7 @@ GetTouchStartTolerance
 {
 HandleTapCancel
 (
-event
+aEvent
 )
 ;
 }
@@ -827,7 +812,7 @@ j
 ;
 j
 <
-event
+aEvent
 .
 mTouches
 .
@@ -850,7 +835,7 @@ i
 mIdentifier
 =
 =
-event
+aEvent
 .
 mTouches
 [
@@ -873,7 +858,7 @@ mTouches
 i
 ]
 =
-event
+aEvent
 .
 mTouches
 [
@@ -918,7 +903,7 @@ NS_WARN_IF_FALSE
 eventTouchesMatched
 =
 =
-event
+aEvent
 .
 mTouches
 .
@@ -960,7 +945,7 @@ i
 ;
 i
 <
-event
+aEvent
 .
 mTouches
 .
@@ -1004,7 +989,7 @@ j
 {
 if
 (
-event
+aEvent
 .
 mTouches
 [
@@ -1070,7 +1055,7 @@ mLastTapEndTime
 MAX_TAP_TIME
 |
 |
-event
+aEvent
 .
 mTime
 -
@@ -1130,7 +1115,7 @@ arrived
 .
 HandleDoubleTap
 (
-event
+aEvent
 )
 ;
 mState
@@ -1149,7 +1134,7 @@ GESTURE_LONG_TAP_UP
 {
 HandleLongTapUpEvent
 (
-event
+aEvent
 )
 ;
 mState
@@ -1166,7 +1151,7 @@ mState
 GESTURE_WAITING_SINGLE_TAP
 &
 &
-event
+aEvent
 .
 mTime
 -
@@ -1191,7 +1176,7 @@ CancelLongTapTimeoutTask
 ;
 HandleSingleTapConfirmedEvent
 (
-event
+aEvent
 )
 ;
 mState
@@ -1217,7 +1202,7 @@ tapupEvent
 =
 HandleSingleTapUpEvent
 (
-event
+aEvent
 )
 ;
 if
@@ -1331,7 +1316,7 @@ GESTURE_NONE
 }
 mLastTapEndTime
 =
-event
+aEvent
 .
 mTime
 ;
@@ -1408,7 +1393,7 @@ screen
 return
 HandlePinchGestureEvent
 (
-event
+aEvent
 true
 )
 ;
@@ -1416,7 +1401,7 @@ true
 return
 HandlePinchGestureEvent
 (
-event
+aEvent
 false
 )
 ;
