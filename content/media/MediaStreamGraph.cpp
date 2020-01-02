@@ -10010,6 +10010,18 @@ aFrom
 stream
 )
 ;
+if
+(
+CurrentDriver
+(
+)
+-
+>
+AsAudioCallbackDriver
+(
+)
+)
+{
 TrackTicks
 ticksPlayedForThisStream
 =
@@ -10057,6 +10069,7 @@ frame
 "
 )
 ;
+}
 }
 PlayVideo
 (
