@@ -564,6 +564,14 @@ GMPRecordClient
 aClient
 )
 ;
+/
+/
+Call
+on
+main
+thread
+only
+.
 typedef
 GMPErr
 (
