@@ -3125,6 +3125,7 @@ tests
         
 #
 compile
+binaries
 and
 tools
 tiers
@@ -3147,6 +3148,12 @@ export_filter
             
 '
 compile
+'
+:
+parallel_filter
+            
+'
+binaries
 '
 :
 parallel_filter
