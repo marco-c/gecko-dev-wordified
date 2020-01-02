@@ -12395,8 +12395,9 @@ result
 n
 "
 ;
-gDumpLog
-(
+result
++
+=
 "
 REFTEST
 IMAGE
@@ -12413,7 +12414,6 @@ toDataURL
 \
 n
 "
-)
 ;
 }
 }
