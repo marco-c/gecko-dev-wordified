@@ -783,7 +783,7 @@ events
 *
 -
 "
-mouseenter
+mouseover
 "
 when
 the
@@ -797,7 +797,7 @@ row
 *
 -
 "
-mouseleave
+mouseout
 "
 when
 the
@@ -1025,7 +1025,7 @@ pie
 on
 (
 "
-mouseenter
+mouseover
 "
 (
 event
@@ -1081,7 +1081,7 @@ pie
 on
 (
 "
-mouseleave
+mouseout
 "
 (
 event
@@ -1135,7 +1135,7 @@ table
 on
 (
 "
-mouseenter
+mouseover
 "
 (
 event
@@ -1191,7 +1191,7 @@ table
 on
 (
 "
-mouseleave
+mouseout
 "
 (
 event
@@ -1440,7 +1440,7 @@ events
 *
 -
 "
-mouseenter
+mouseover
 "
 when
 the
@@ -1451,7 +1451,7 @@ slice
 *
 -
 "
-mouseleave
+mouseout
 "
 when
 the
@@ -2246,10 +2246,10 @@ proxy
 click
 "
 "
-mouseenter
+mouseover
 "
 "
-mouseleave
+mouseout
 "
 ]
 pathNode
@@ -2711,7 +2711,7 @@ events
 *
 -
 "
-mouseenter
+mouseover
 "
 when
 the
@@ -2722,7 +2722,7 @@ row
 *
 -
 "
-mouseleave
+mouseout
 "
 when
 the
@@ -3190,10 +3190,10 @@ proxy
 click
 "
 "
-mouseenter
+mouseover
 "
 "
-mouseleave
+mouseout
 "
 ]
 rowNode
@@ -3548,10 +3548,10 @@ g
 .
 [
 "
-mouseenter
+mouseover
 "
 "
-mouseleave
+mouseout
 "
 ]
 .

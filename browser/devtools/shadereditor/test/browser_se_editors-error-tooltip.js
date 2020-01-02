@@ -183,7 +183,7 @@ SHADER_COMPILED
 /
 Synthesizing
 '
-mouseenter
+mouseover
 '
 events
 doesn
@@ -244,7 +244,7 @@ messages
 ;
 ShadersEditorsView
 .
-_onMarkerMouseEnter
+_onMarkerMouseOver
 (
 7
 marker
