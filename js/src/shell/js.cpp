@@ -30856,6 +30856,15 @@ reportWarnings
 ;
 if
 (
+report
+-
+>
+exnType
+!
+=
+JSEXN_NONE
+&
+&
 !
 JSREPORT_IS_WARNING
 (
