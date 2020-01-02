@@ -4423,10 +4423,6 @@ ValidateFileName
 (
 )
 ;
-mPutPacketReceivedLength
-=
-0
-;
 /
 /
 When
