@@ -531,12 +531,9 @@ return
 info_
 -
 >
-script
+compilingAsmJS
 (
 )
-=
-=
-nullptr
 ;
 }
 uint32_t
