@@ -517,7 +517,7 @@ Duplicate
 .
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_GESTURENOTIFY_EVENT
@@ -904,7 +904,7 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_SIMPLE_GESTURE_EVENT
@@ -1404,7 +1404,7 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT

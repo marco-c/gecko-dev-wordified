@@ -812,8 +812,8 @@ aMessage
 nsIWidget
 *
 aWidget
-nsEventStructType
-aStructType
+EventClassID
+aEventClassID
 )
 :
 WidgetInputEvent
@@ -821,7 +821,7 @@ WidgetInputEvent
 aIsTrusted
 aMessage
 aWidget
-aStructType
+aEventClassID
 )
 button
 (
@@ -1407,8 +1407,8 @@ aMessage
 nsIWidget
 *
 aWidget
-nsEventStructType
-aStructType
+EventClassID
+aEventClassID
 reasonType
 aReason
 )
@@ -1418,7 +1418,7 @@ WidgetMouseEventBase
 aIsTrusted
 aMessage
 aWidget
-aStructType
+aEventClassID
 )
 acceptActivation
 (
@@ -1645,7 +1645,7 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -2156,7 +2156,7 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_DRAG_EVENT
@@ -2596,7 +2596,7 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_MOUSE_SCROLL_EVENT
@@ -3088,7 +3088,7 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_WHEEL_EVENT
@@ -4078,7 +4078,7 @@ isPrimary
 true
 )
 {
-eventStructType
+mClass
 =
 NS_POINTER_EVENT
 ;
@@ -4151,7 +4151,7 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_POINTER_EVENT

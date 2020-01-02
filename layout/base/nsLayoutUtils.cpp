@@ -11614,7 +11614,7 @@ aEvent
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_EVENT
@@ -11623,7 +11623,7 @@ NS_MOUSE_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_SCROLL_EVENT
@@ -11632,7 +11632,7 @@ NS_MOUSE_SCROLL_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_WHEEL_EVENT
@@ -11641,7 +11641,7 @@ NS_WHEEL_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_DRAG_EVENT
@@ -11650,7 +11650,7 @@ NS_DRAG_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_SIMPLE_GESTURE_EVENT
@@ -11659,7 +11659,7 @@ NS_SIMPLE_GESTURE_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_POINTER_EVENT
@@ -11668,7 +11668,7 @@ NS_POINTER_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_GESTURENOTIFY_EVENT
@@ -11677,7 +11677,7 @@ NS_GESTURENOTIFY_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_TOUCH_EVENT
@@ -11686,7 +11686,7 @@ NS_TOUCH_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_QUERY_CONTENT_EVENT

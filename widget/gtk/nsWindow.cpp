@@ -34276,7 +34276,7 @@ NS_ABORT_IF_FALSE
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -34371,7 +34371,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_EVENT

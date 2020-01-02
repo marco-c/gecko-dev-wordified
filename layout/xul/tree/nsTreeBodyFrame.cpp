@@ -15148,7 +15148,7 @@ NS_ASSERTION
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_DRAG_EVENT
@@ -16417,7 +16417,7 @@ NS_ASSERTION
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_DRAG_EVENT

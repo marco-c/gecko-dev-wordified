@@ -74654,7 +74654,7 @@ mouseEvent
 mouseEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_EVENT

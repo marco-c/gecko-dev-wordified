@@ -839,7 +839,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_TEXT_EVENT

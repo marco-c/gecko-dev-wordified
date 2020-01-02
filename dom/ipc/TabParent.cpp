@@ -3945,7 +3945,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_TOUCH_EVENT
@@ -5239,7 +5239,7 @@ if
 (
 aEvent
 .
-eventStructType
+mClass
 !
 =
 NS_TOUCH_EVENT

@@ -409,7 +409,7 @@ switch
 mEvent
 -
 >
-eventStructType
+mClass
 )
 {
 case
@@ -640,7 +640,7 @@ switch
 mEvent
 -
 >
-eventStructType
+mClass
 )
 {
 case
@@ -827,7 +827,7 @@ e
 mEvent
 -
 >
-eventStructType
+mClass
 )
 {
 case
@@ -1026,7 +1026,7 @@ switch
 mEvent
 -
 >
-eventStructType
+mClass
 )
 {
 case
@@ -1125,7 +1125,7 @@ switch
 mEvent
 -
 >
-eventStructType
+mClass
 )
 {
 case
@@ -1232,7 +1232,7 @@ switch
 mEvent
 -
 >
-eventStructType
+mClass
 )
 {
 case

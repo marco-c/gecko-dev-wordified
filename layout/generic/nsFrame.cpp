@@ -16438,7 +16438,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -16465,7 +16465,7 @@ eLeftButton
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -17846,7 +17846,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -20216,7 +20216,7 @@ MOZ_ASSERT
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -20935,7 +20935,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_EVENT

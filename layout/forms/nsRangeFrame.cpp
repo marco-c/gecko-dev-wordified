@@ -2958,7 +2958,7 @@ MOZ_ASSERT
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -2967,7 +2967,7 @@ NS_MOUSE_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -3111,7 +3111,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT

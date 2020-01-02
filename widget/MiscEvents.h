@@ -825,7 +825,7 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_COMMAND_EVENT
@@ -1193,7 +1193,7 @@ Duplicate
 .
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_PLUGIN_EVENT

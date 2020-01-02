@@ -26981,7 +26981,7 @@ NS_ASSERTION
 nativeKeyEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_KEY_EVENT

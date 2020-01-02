@@ -3241,7 +3241,7 @@ aVisitor
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_EVENT
@@ -40802,7 +40802,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -40989,7 +40989,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -41943,7 +41943,7 @@ HasMouseEventMessage
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_WHEEL_EVENT
@@ -42217,7 +42217,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -42360,7 +42360,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_KEY_EVENT
@@ -42472,7 +42472,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -43062,7 +43062,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -43831,7 +43831,7 @@ mouseEvent
 mouseEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -44033,7 +44033,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_POINTER_EVENT
@@ -44226,7 +44226,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -47799,7 +47799,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_KEY_EVENT
@@ -47856,7 +47856,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -47994,7 +47994,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_COMPOSITION_EVENT
@@ -48003,7 +48003,7 @@ NS_COMPOSITION_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TEXT_EVENT

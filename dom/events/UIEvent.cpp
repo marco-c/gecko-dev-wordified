@@ -355,7 +355,7 @@ switch
 mEvent
 -
 >
-eventStructType
+mClass
 )
 {
 case
@@ -650,7 +650,7 @@ mEvent
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_EVENT
@@ -659,7 +659,7 @@ NS_MOUSE_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_SCROLL_EVENT
@@ -668,7 +668,7 @@ NS_MOUSE_SCROLL_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_WHEEL_EVENT
@@ -677,7 +677,7 @@ NS_WHEEL_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_DRAG_EVENT
@@ -686,7 +686,7 @@ NS_DRAG_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_POINTER_EVENT
@@ -695,7 +695,7 @@ NS_POINTER_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_SIMPLE_GESTURE_EVENT
@@ -1370,7 +1370,7 @@ mEvent
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_EVENT
@@ -1379,7 +1379,7 @@ NS_MOUSE_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_SCROLL_EVENT
@@ -1388,7 +1388,7 @@ NS_MOUSE_SCROLL_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_WHEEL_EVENT
@@ -1397,7 +1397,7 @@ NS_WHEEL_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_POINTER_EVENT
@@ -1406,7 +1406,7 @@ NS_POINTER_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_TOUCH_EVENT
@@ -1415,7 +1415,7 @@ NS_TOUCH_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_DRAG_EVENT
@@ -1424,7 +1424,7 @@ NS_DRAG_EVENT
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_SIMPLE_GESTURE_EVENT

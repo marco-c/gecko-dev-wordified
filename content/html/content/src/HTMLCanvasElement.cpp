@@ -1623,7 +1623,7 @@ aVisitor
 mEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT

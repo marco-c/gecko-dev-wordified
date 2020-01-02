@@ -560,7 +560,7 @@ mEvent
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_DRAG_EVENT

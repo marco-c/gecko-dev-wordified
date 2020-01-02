@@ -189,7 +189,7 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-eventStructType
+mClass
 =
 =
 NS_MUTATION_EVENT

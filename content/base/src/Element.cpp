@@ -9812,7 +9812,7 @@ if
 aSourceEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_KEY_EVENT

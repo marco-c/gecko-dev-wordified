@@ -164,7 +164,7 @@ NS_ASSERTION
 mEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_SIMPLE_GESTURE_EVENT

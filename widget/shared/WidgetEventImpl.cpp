@@ -609,7 +609,7 @@ IsQueryContentEvent
 const
 {
 return
-eventStructType
+mClass
 =
 =
 NS_QUERY_CONTENT_EVENT
@@ -625,7 +625,7 @@ IsSelectionEvent
 const
 {
 return
-eventStructType
+mClass
 =
 =
 NS_SELECTION_EVENT
@@ -641,7 +641,7 @@ IsContentCommandEvent
 const
 {
 return
-eventStructType
+mClass
 =
 =
 NS_CONTENT_COMMAND_EVENT
@@ -657,7 +657,7 @@ IsNativeEventDelivererForPlugin
 const
 {
 return
-eventStructType
+mClass
 =
 =
 NS_PLUGIN_EVENT
@@ -1469,7 +1469,7 @@ const
 {
 switch
 (
-eventStructType
+mClass
 )
 {
 case

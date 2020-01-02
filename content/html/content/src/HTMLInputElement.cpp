@@ -17325,7 +17325,7 @@ aVisitor
 mEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MUTATION_EVENT
@@ -24207,7 +24207,7 @@ aVisitor
 mEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -24218,7 +24218,7 @@ aVisitor
 mEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -24229,7 +24229,7 @@ aVisitor
 mEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_KEY_EVENT
