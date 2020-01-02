@@ -1073,6 +1073,26 @@ this_chunk
         
 options
 .
+symbolsPath
+=
+os
+.
+path
+.
+join
+(
+self
+.
+distdir
+'
+crashreporter
+-
+symbols
+'
+)
+        
+options
+.
 consoleLevel
 =
 '
