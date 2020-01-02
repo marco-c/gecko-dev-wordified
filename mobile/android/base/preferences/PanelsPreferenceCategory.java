@@ -766,7 +766,7 @@ updateConfigDefault
 )
 {
 String
-mId
+id
 =
 null
 ;
@@ -778,7 +778,7 @@ mDefaultReference
 null
 )
 {
-mId
+id
 =
 mDefaultReference
 .
@@ -806,7 +806,7 @@ panelConfig
 getId
 (
 )
-mId
+id
 )
 )
 {
@@ -875,7 +875,7 @@ updateConfigDefault
 ;
 final
 String
-mId
+id
 =
 pref
 .
@@ -907,7 +907,7 @@ panelConfig
 getId
 (
 )
-mId
+id
 )
 )
 {
@@ -994,7 +994,7 @@ toHide
 ;
 final
 String
-mId
+id
 =
 pref
 .
@@ -1021,7 +1021,7 @@ panelConfig
 getId
 (
 )
-mId
+id
 )
 )
 {
