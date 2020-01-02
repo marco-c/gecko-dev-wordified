@@ -1552,7 +1552,7 @@ mDocument
 (
 aDocument
 )
-mMinFontSize
+mBaseMinFontSize
 (
 0
 )
