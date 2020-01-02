@@ -9546,6 +9546,7 @@ setBoolean
 TraceLoggerEnable
 (
 logger
+cx
 )
 )
 ;
