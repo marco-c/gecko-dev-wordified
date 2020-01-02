@@ -144,6 +144,9 @@ nsIDOMMozSmsMessage
 class
 nsIDOMMozMmsMessage
 ;
+class
+nsIDOMMozSmsFilter
+;
 namespace
 mozilla
 {
@@ -161,9 +164,6 @@ MmsParameters
 ;
 struct
 MmsSendParameters
-;
-struct
-MobileMessageFilter
 ;
 struct
 SmsSendParameters
@@ -400,9 +400,8 @@ DOMCursor
 >
 GetMessages
 (
-const
-MobileMessageFilter
-&
+nsIDOMMozSmsFilter
+*
 aFilter
 bool
 aReverse
