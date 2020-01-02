@@ -472,6 +472,13 @@ setOnMenuItemClickListener
 mode
 )
 ;
+mPopupMenu
+.
+setOnMenuItemLongClickListener
+(
+mode
+)
+;
 }
 public
 CharSequence
