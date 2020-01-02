@@ -2347,6 +2347,10 @@ any
 bundled
 extensions
         
+if
+profileDir
+:
+            
 extensionDir
 =
 os
@@ -2363,7 +2367,7 @@ extensions
 staged
 '
 )
-        
+            
 for
 filename
 in
@@ -2374,15 +2378,15 @@ listdir
 extensionDir
 )
 :
-            
+                
 try
 :
-                
+                    
 self
 .
 _devicemanager
 .
-_checkCmdAs
+_checkCmd
 (
 [
 '
@@ -2395,7 +2399,7 @@ rm
 -
 rf
 '
-                                                 
+                                                     
 os
 .
 path
@@ -2409,11 +2413,11 @@ filename
 )
 ]
 )
-            
+                
 except
 DMError
 :
-                
+                    
 pass
         
 #
@@ -2518,7 +2522,7 @@ self
 .
 _devicemanager
 .
-_checkCmdAs
+_checkCmd
 (
 [
 '
@@ -2541,7 +2545,7 @@ self
 .
 _devicemanager
 .
-_checkCmdAs
+_checkCmd
 (
 [
 '
@@ -3981,7 +3985,7 @@ self
 .
 _devicemanager
 .
-_checkCmdAs
+_checkCmd
 (
 [
 '
@@ -4005,7 +4009,7 @@ self
 .
 _devicemanager
 .
-_checkCmdAs
+_checkCmd
 (
 [
 '
@@ -4107,7 +4111,7 @@ self
 .
 _devicemanager
 .
-_checkCmdAs
+_checkCmd
 (
 [
 '
@@ -4137,7 +4141,7 @@ self
 .
 _devicemanager
 .
-_checkCmdAs
+_checkCmd
 (
 [
 '
