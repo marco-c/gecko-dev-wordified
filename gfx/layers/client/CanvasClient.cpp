@@ -583,7 +583,7 @@ mBuffer
 >
 Lock
 (
-OPEN_READ_WRITE
+OPEN_WRITE_ONLY
 )
 )
 {

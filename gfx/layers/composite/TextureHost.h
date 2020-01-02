@@ -960,6 +960,16 @@ DeallocateDeviceData
 =
 0
 ;
+virtual
+void
+SetCompositor
+(
+Compositor
+*
+aCompositor
+)
+{
+}
 void
 SetNextSibling
 (
@@ -1169,8 +1179,6 @@ gfx
 DataSourceSurface
 *
 aSurface
-TextureFlags
-aFlags
 nsIntRegion
 *
 aDestRegion
