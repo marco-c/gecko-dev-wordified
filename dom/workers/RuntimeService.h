@@ -738,7 +738,7 @@ sDefaultJSSettings
 .
 content
 .
-options
+contextOptions
 =
 aContentOptions
 ;
@@ -746,7 +746,7 @@ sDefaultJSSettings
 .
 chrome
 .
-options
+contextOptions
 =
 aChromeOptions
 ;
@@ -1021,6 +1021,19 @@ aClosure
 static
 void
 WorkerPrefChanged
+(
+const
+char
+*
+aPrefName
+void
+*
+aClosure
+)
+;
+static
+int
+JSVersionChanged
 (
 const
 char
