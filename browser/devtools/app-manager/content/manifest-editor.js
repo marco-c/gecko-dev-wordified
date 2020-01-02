@@ -759,14 +759,6 @@ this
 .
 editor
 .
-createHierarchy
-(
-)
-;
-this
-.
-editor
-.
 rawObject
 =
 this

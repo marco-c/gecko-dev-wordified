@@ -20692,12 +20692,6 @@ view
 ;
 view
 .
-createHierarchy
-(
-)
-;
-view
-.
 empty
 (
 )
