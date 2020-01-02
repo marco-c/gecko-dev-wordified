@@ -1602,6 +1602,11 @@ true
 if
 (
 target
+&
+&
+target
+.
+messageManager
 )
 {
 target
