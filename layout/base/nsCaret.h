@@ -1058,7 +1058,7 @@ int32_t
 aReturnOffset
 )
 ;
-NS_IMETHOD
+void
 CheckCaretDrawingState
 (
 )

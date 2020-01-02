@@ -6398,7 +6398,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsCaret
 :
 :
@@ -6482,9 +6482,6 @@ true
 )
 ;
 }
-return
-NS_OK
-;
 }
 /
 *
