@@ -61,6 +61,7 @@ from
 structuredlog
 import
 StructuredLogger
+set_default_logger
 import
 handlers
 import
@@ -424,6 +425,31 @@ line
 arguments
 .
     
+The
+created
+structuredlogger
+will
+also
+be
+set
+as
+the
+default
+logger
+and
+    
+can
+be
+retrieved
+with
+:
+py
+:
+func
+:
+get_default_logger
+.
+    
 :
 param
 suite
@@ -746,6 +772,11 @@ formatter_cls
 (
 )
 )
+)
+    
+set_default_logger
+(
+logger
 )
     
 return
