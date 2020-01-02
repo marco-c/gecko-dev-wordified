@@ -1544,7 +1544,7 @@ hwLayers
 .
 blending
 =
-HWC_BLENDING_PREMULT
+HWC_BLENDING_NONE
 ;
 #
 if
@@ -1730,7 +1730,7 @@ releaseFenceFd
 #
 if
 ANDROID_VERSION
-=
+>
 =
 18
 mList
