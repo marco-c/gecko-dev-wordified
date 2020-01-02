@@ -102,8 +102,8 @@ AEC
 to
 compensate
 for
-clock
 *
+clock
 skew
 by
 resampling

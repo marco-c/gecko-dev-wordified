@@ -225,7 +225,7 @@ of
 the
 codec
 "
-_testNo
+1
 )
 _decodeCompleteTime
 (
@@ -246,10 +246,6 @@ _decFrameCnt
 _requestKeyFrame
 (
 false
-)
-_testNo
-(
-1
 )
 _appendNext
 (
@@ -309,7 +305,7 @@ the
 codec
 "
 bitRate
-_testNo
+1
 )
 _decodeCompleteTime
 (
@@ -330,10 +326,6 @@ _decFrameCnt
 _requestKeyFrame
 (
 false
-)
-_testNo
-(
-1
 )
 _appendNext
 (
@@ -389,7 +381,7 @@ NormalTest
 (
 name
 description
-_testNo
+testNo
 )
 _decodeCompleteTime
 (
@@ -410,10 +402,6 @@ _decFrameCnt
 _requestKeyFrame
 (
 false
-)
-_testNo
-(
-testNo
 )
 _lengthEncFrame
 (
@@ -476,7 +464,7 @@ NormalTest
 name
 description
 bitRate
-_testNo
+testNo
 )
 _decodeCompleteTime
 (
@@ -497,10 +485,6 @@ _decFrameCnt
 _requestKeyFrame
 (
 false
-)
-_testNo
-(
-testNo
 )
 _lengthEncFrame
 (
@@ -566,7 +550,7 @@ NormalTest
 name
 description
 bitRate
-_testNo
+testNo
 )
 _decodeCompleteTime
 (
@@ -587,10 +571,6 @@ _decFrameCnt
 _requestKeyFrame
 (
 false
-)
-_testNo
-(
-testNo
 )
 _lengthEncFrame
 (

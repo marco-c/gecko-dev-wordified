@@ -106,6 +106,9 @@ ACMNetEQ
 namespace
 webrtc
 {
+namespace
+acm2
+{
 }
 /
 /

@@ -163,7 +163,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc1Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 =
 {
@@ -195,7 +195,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc2Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 =
 {
@@ -227,7 +227,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc3Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 =
 {
@@ -259,7 +259,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc4Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 =
 {
@@ -291,7 +291,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc5Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 =
 {
@@ -323,7 +323,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc6Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 =
 {
@@ -356,7 +356,9 @@ const
 int16_t
 WebRtcIsac_kQArRc1Levels
 [
-11
+NUM_AR_RC_QUANT_BAUNDARY
+-
+1
 ]
 =
 {
@@ -394,7 +396,9 @@ const
 int16_t
 WebRtcIsac_kQArRc2Levels
 [
-11
+NUM_AR_RC_QUANT_BAUNDARY
+-
+1
 ]
 =
 {
@@ -432,7 +436,9 @@ const
 int16_t
 WebRtcIsac_kQArRc3Levels
 [
-11
+NUM_AR_RC_QUANT_BAUNDARY
+-
+1
 ]
 =
 {
@@ -470,7 +476,9 @@ const
 int16_t
 WebRtcIsac_kQArRc4Levels
 [
-11
+NUM_AR_RC_QUANT_BAUNDARY
+-
+1
 ]
 =
 {
@@ -508,7 +516,9 @@ const
 int16_t
 WebRtcIsac_kQArRc5Levels
 [
-11
+NUM_AR_RC_QUANT_BAUNDARY
+-
+1
 ]
 =
 {
@@ -546,7 +556,9 @@ const
 int16_t
 WebRtcIsac_kQArRc6Levels
 [
-11
+NUM_AR_RC_QUANT_BAUNDARY
+-
+1
 ]
 =
 {
@@ -583,7 +595,7 @@ const
 int16_t
 WebRtcIsac_kQArBoundaryLevels
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 =
 {

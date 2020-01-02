@@ -93,17 +93,9 @@ define
 WEBRTC_SYSTEM_WRAPPERS_INTERFACE_ASM_DEFINES_H_
 #
 if
-(
 defined
 (
 __linux__
-)
-|
-|
-defined
-(
-__FreeBSD__
-)
 )
 &
 &
@@ -317,4 +309,4 @@ text
 endif
 /
 /
-WEBRTC_SYSTEM_WRAPPERS_INTERFACE_COMPILE_ASSERT_H_
+WEBRTC_SYSTEM_WRAPPERS_INTERFACE_ASM_DEFINES_H_

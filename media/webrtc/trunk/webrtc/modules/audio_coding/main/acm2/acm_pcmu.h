@@ -111,6 +111,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMPCMU
 :
@@ -184,6 +187,11 @@ ptr_inst
 ;
 }
 ;
+}
+/
+/
+namespace
+acm2
 }
 /
 /

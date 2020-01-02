@@ -137,6 +137,13 @@ RemoteBitrateEstimatorTest
 {
 public
 :
+static
+const
+uint32_t
+kRemoteBitrateEstimatorMinBitrateBps
+=
+30000
+;
 RemoteBitrateEstimatorSingleTest
 (
 )
@@ -165,6 +172,7 @@ get
 )
 &
 clock_
+kRemoteBitrateEstimatorMinBitrateBps
 )
 )
 ;

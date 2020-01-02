@@ -200,9 +200,6 @@ Generate
 int
 num_samples
 AudioMultiVector
-<
-int16_t
->
 *
 output
 )

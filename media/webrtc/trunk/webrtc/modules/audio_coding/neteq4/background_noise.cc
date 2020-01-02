@@ -269,9 +269,6 @@ Update
 (
 const
 AudioMultiVector
-<
-int16_t
->
 &
 input
 const

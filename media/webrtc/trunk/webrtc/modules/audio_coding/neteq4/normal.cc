@@ -251,9 +251,6 @@ int16_t
 *
 external_mute_factor_array
 AudioMultiVector
-<
-int16_t
->
 *
 output
 )
@@ -466,9 +463,6 @@ Call
 Expand
 .
 AudioMultiVector
-<
-int16_t
->
 expanded
 (
 output

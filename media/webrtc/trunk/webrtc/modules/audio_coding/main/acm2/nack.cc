@@ -157,6 +157,9 @@ namespace
 webrtc
 {
 namespace
+acm2
+{
+namespace
 {
 const
 int
@@ -1311,6 +1314,11 @@ return
 sequence_numbers
 ;
 }
+}
+/
+/
+namespace
+acm2
 }
 /
 /

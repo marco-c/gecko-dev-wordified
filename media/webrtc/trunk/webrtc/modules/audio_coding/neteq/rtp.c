@@ -190,7 +190,7 @@ RTP_TOO_SHORT_PACKET
 }
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 i_IPver
 =
 (
@@ -572,7 +572,7 @@ i_DatagramLen
 else
 /
 *
-WEBRTC_LITTLE_ENDIAN
+WEBRTC_ARCH_LITTLE_ENDIAN
 *
 /
 i_IPver
@@ -1285,7 +1285,7 @@ singlePayload
 ;
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 if
 (
 (
@@ -1632,7 +1632,7 @@ pw16_data
 else
 /
 *
-WEBRTC_LITTLE_ENDIAN
+WEBRTC_ARCH_LITTLE_ENDIAN
 *
 /
 if

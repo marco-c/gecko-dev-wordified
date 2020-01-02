@@ -177,9 +177,6 @@ kNumSamples
 10
 ;
 AudioMultiVector
-<
-int16_t
->
 signal
 (
 1
@@ -463,9 +460,6 @@ kNumSamples
 10
 ;
 AudioMultiVector
-<
-int16_t
->
 signal
 (
 1
@@ -933,9 +927,6 @@ kNumSamples
 10
 ;
 AudioMultiVector
-<
-int16_t
->
 signal
 (
 1
@@ -947,9 +938,6 @@ One
 channel
 .
 AudioMultiVector
-<
-int16_t
->
 ref_signal
 (
 1

@@ -121,6 +121,9 @@ G722DecInst
 namespace
 webrtc
 {
+namespace
+acm2
+{
 /
 /
 Forward
@@ -240,6 +243,11 @@ for
 stereo
 }
 ;
+}
+/
+/
+namespace
+acm2
 }
 /
 /

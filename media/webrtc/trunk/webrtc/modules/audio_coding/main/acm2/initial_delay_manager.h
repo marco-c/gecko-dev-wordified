@@ -120,6 +120,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 InitialDelayManager
 {
@@ -691,6 +694,11 @@ late_packet_threshold_
 ;
 }
 ;
+}
+/
+/
+namespace
+acm2
 }
 /
 /

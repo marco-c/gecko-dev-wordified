@@ -400,9 +400,6 @@ int16_t
 *
 external_mute_factor_array
 AudioMultiVector
-<
-int16_t
->
 *
 output
 )
@@ -441,4 +438,4 @@ webrtc
 endif
 /
 /
-SRC_MODULES_AUDIO_CODING_NETEQ4_NORMAL_H_
+WEBRTC_MODULES_AUDIO_CODING_NETEQ4_NORMAL_H_

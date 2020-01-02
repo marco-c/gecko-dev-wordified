@@ -621,10 +621,6 @@ _requestKeyFrame
 ;
 unsigned
 int
-_testNo
-;
-unsigned
-int
 _lengthEncFrame
 ;
 FrameQueueTuple

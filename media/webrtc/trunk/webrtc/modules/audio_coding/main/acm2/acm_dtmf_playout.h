@@ -111,6 +111,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMDTMFPlayout
 :
@@ -183,6 +186,11 @@ ptr_inst
 ;
 }
 ;
+}
+/
+/
+namespace
+acm2
 }
 /
 /

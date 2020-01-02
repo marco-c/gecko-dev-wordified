@@ -158,6 +158,9 @@ interface
 namespace
 webrtc
 {
+namespace
+acm2
+{
 ACMPCMA
 :
 :
@@ -366,6 +369,11 @@ instance
 return
 ;
 }
+}
+/
+/
+namespace
+acm2
 }
 /
 /

@@ -2262,10 +2262,7 @@ reportBlockReceived
 sourceSSRC
 )
 ;
-StreamStatistician
-:
-:
-Statistics
+RtcpStatistics
 stats
 ;
 EXPECT_TRUE

@@ -121,6 +121,9 @@ WebRtcCngDecInst
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMCNG
 :
@@ -220,6 +223,11 @@ samp_freq_hz_
 ;
 }
 ;
+}
+/
+/
+namespace
+acm2
 }
 /
 /

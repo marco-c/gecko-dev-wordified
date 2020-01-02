@@ -155,6 +155,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 /
 /
 TODO
@@ -2241,6 +2244,11 @@ kMaxNumCodecs
 ;
 }
 ;
+}
+/
+/
+namespace
+acm2
 }
 /
 /

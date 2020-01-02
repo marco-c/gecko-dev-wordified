@@ -113,6 +113,12 @@ string
 #
 include
 "
+webrtc
+/
+modules
+/
+interface
+/
 module_common_types
 .
 h
@@ -120,6 +126,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

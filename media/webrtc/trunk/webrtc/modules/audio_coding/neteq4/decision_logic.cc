@@ -712,7 +712,10 @@ decoder_database_
 decoder_frame_length
 )
 ;
-NETEQ_LOG_VERBOSE
+LOG
+(
+LS_VERBOSE
+)
 <
 <
 "

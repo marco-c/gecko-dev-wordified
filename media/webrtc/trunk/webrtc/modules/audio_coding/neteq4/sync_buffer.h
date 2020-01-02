@@ -136,9 +136,6 @@ SyncBuffer
 :
 public
 AudioMultiVector
-<
-int16_t
->
 {
 public
 :
@@ -151,9 +148,6 @@ length
 )
 :
 AudioMultiVector
-<
-int16_t
->
 (
 channels
 length
@@ -265,9 +259,6 @@ PushBack
 (
 const
 AudioMultiVector
-<
-int16_t
->
 &
 append_this
 )
@@ -523,9 +514,6 @@ ReplaceAtIndex
 (
 const
 AudioMultiVector
-<
-int16_t
->
 &
 insert_this
 size_t
@@ -573,9 +561,6 @@ ReplaceAtIndex
 (
 const
 AudioMultiVector
-<
-int16_t
->
 &
 insert_this
 size_t
@@ -692,9 +677,6 @@ Flush
 ;
 const
 AudioVector
-<
-int16_t
->
 &
 Channel
 (

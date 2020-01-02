@@ -988,6 +988,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 /
 /
 Not
@@ -2150,9 +2153,12 @@ and
 stereo
 .
 {
-1
+4
 {
+480
 960
+1920
+2880
 }
 0
 2
@@ -5742,6 +5748,11 @@ codec_id
 owns_decoder
 ;
 }
+}
+/
+/
+namespace
+acm2
 }
 /
 /

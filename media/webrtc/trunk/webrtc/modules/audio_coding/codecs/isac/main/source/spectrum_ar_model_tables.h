@@ -125,6 +125,10 @@ structs
 .
 h
 "
+#
+define
+NUM_AR_RC_QUANT_BAUNDARY
+12
 /
 *
 *
@@ -190,7 +194,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc1Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 ;
 /
@@ -208,7 +212,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc2Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 ;
 /
@@ -226,7 +230,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc3Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 ;
 /
@@ -244,7 +248,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc4Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 ;
 /
@@ -262,7 +266,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc5Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 ;
 /
@@ -280,7 +284,7 @@ const
 uint16_t
 WebRtcIsac_kQArRc6Cdf
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 ;
 /
@@ -298,7 +302,7 @@ const
 int16_t
 WebRtcIsac_kQArBoundaryLevels
 [
-12
+NUM_AR_RC_QUANT_BAUNDARY
 ]
 ;
 /

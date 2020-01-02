@@ -147,7 +147,6 @@ virtual
 int32_t
 RegisterModule
 (
-const
 Module
 *
 module

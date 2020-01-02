@@ -224,6 +224,7 @@ payloadType
 (
 )
 ;
+virtual
 void
 parseHeader
 (

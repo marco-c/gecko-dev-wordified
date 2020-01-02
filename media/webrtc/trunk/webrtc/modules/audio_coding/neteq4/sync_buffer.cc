@@ -146,9 +146,6 @@ PushBack
 (
 const
 AudioMultiVector
-<
-int16_t
->
 &
 append_this
 )
@@ -163,9 +160,6 @@ Size
 )
 ;
 AudioMultiVector
-<
-int16_t
->
 :
 :
 PushBack
@@ -174,9 +168,6 @@ append_this
 )
 ;
 AudioMultiVector
-<
-int16_t
->
 :
 :
 PopFront
@@ -337,9 +328,6 @@ position
 )
 ;
 AudioMultiVector
-<
-int16_t
->
 :
 :
 PopBack
@@ -460,9 +448,6 @@ ReplaceAtIndex
 (
 const
 AudioMultiVector
-<
-int16_t
->
 &
 insert_this
 size_t
@@ -511,9 +496,6 @@ position
 )
 ;
 AudioMultiVector
-<
-int16_t
->
 :
 :
 OverwriteAt
@@ -532,9 +514,6 @@ ReplaceAtIndex
 (
 const
 AudioMultiVector
-<
-int16_t
->
 &
 insert_this
 size_t

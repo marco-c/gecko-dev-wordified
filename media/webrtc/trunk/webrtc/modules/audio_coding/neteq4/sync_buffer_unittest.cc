@@ -436,9 +436,6 @@ kNewLen
 10
 ;
 AudioMultiVector
-<
-int16_t
->
 new_data
 (
 kChannels
@@ -796,9 +793,6 @@ kNewLen
 10
 ;
 AudioMultiVector
-<
-int16_t
->
 new_data
 (
 kChannels
@@ -1102,9 +1096,6 @@ kNewLen
 10
 ;
 AudioMultiVector
-<
-int16_t
->
 new_data
 (
 kChannels

@@ -1568,7 +1568,7 @@ video_channel
 ;
 AutoTestSleep
 (
-kAutoTestSleepTimeMs
+kAutoTestFullStackSleepTimeMs
 )
 ;
 ViETest

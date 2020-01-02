@@ -121,6 +121,9 @@ CELT_decinst_t_
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMCELT
 :
@@ -210,6 +213,11 @@ channels_
 ;
 }
 ;
+}
+/
+/
+namespace
+acm2
 }
 /
 /

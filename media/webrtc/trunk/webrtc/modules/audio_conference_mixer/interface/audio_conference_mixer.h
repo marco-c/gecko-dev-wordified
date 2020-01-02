@@ -327,7 +327,6 @@ SetMixabilityStatus
 MixerParticipant
 &
 participant
-const
 bool
 mixable
 )

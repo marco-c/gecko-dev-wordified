@@ -370,6 +370,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 #
 ifndef
 WEBRTC_CODEC_AMRWB
@@ -1675,6 +1678,11 @@ AMRUndefined
 }
 #
 endif
+}
+/
+/
+namespace
+acm2
 }
 /
 /

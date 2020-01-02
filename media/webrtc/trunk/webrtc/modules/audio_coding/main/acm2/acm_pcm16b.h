@@ -111,6 +111,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMPCM16B
 :
@@ -187,6 +190,11 @@ sampling_freq_hz_
 ;
 }
 ;
+}
+/
+/
+namespace
+acm2
 }
 /
 /

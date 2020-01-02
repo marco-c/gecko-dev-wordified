@@ -176,6 +176,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 #
 ifndef
 WEBRTC_CODEC_OPUS
@@ -1001,6 +1004,11 @@ endif
 /
 /
 WEBRTC_CODEC_OPUS
+}
+/
+/
+namespace
+acm2
 }
 /
 /

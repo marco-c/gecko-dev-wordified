@@ -316,7 +316,7 @@ h
 "
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 #
 include
 "
@@ -583,7 +583,7 @@ LPC_FILTERORDER
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 uint16_t
 swapped
 [
@@ -656,7 +656,7 @@ parameters
 /
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 WebRtcIlbcfix_SwapBytes
 (
 bytes

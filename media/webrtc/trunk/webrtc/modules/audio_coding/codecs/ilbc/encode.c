@@ -328,7 +328,7 @@ h
 endif
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 #
 include
 "
@@ -3206,7 +3206,7 @@ mode
 endif
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 /
 *
 Swap

@@ -276,6 +276,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 /
 /
 we
@@ -4744,6 +4747,11 @@ audio_decoder_
 }
 #
 endif
+}
+/
+/
+namespace
+acm2
 }
 /
 /

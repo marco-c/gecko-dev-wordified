@@ -982,18 +982,6 @@ encoded_image_
 _buffer
 ;
 }
-/
-/
-Reserve
-100
-extra
-bytes
-for
-overhead
-at
-small
-resolutions
-.
 encoded_image_
 .
 _size
@@ -1008,8 +996,6 @@ codec_
 .
 height
 )
-+
-100
 ;
 encoded_image_
 .

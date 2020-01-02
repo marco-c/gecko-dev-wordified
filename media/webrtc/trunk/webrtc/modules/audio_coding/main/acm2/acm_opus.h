@@ -132,6 +132,9 @@ WebRtcOpusDecInst
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMOpus
 :
@@ -221,6 +224,11 @@ channels_
 ;
 }
 ;
+}
+/
+/
+namespace
+acm2
 }
 /
 /

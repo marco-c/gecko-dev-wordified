@@ -335,6 +335,10 @@ WindowCapturer
 :
 Create
 (
+const
+DesktopCaptureOptions
+&
+options
 )
 {
 return

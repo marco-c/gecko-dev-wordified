@@ -297,6 +297,13 @@ kAutoTestSleepTimeMs
 5000
 }
 ;
+enum
+{
+kAutoTestFullStackSleepTimeMs
+=
+20000
+}
+;
 struct
 AutoTestSize
 {

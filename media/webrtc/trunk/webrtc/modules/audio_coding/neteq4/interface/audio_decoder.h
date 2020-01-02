@@ -669,6 +669,7 @@ size_t
 channels
 (
 )
+const
 {
 return
 channels_

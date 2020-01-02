@@ -390,7 +390,7 @@ false
 )
 delay_correction_enabled_
 (
-true
+false
 )
 {
 }
@@ -1944,10 +1944,6 @@ return
 err
 ;
 }
-was_stream_drift_set_
-=
-false
-;
 return
 apm_
 -
@@ -1955,9 +1951,6 @@ apm_
 kNoError
 ;
 }
-#
-if
-0
 void
 EchoCancellationImpl
 :
@@ -1988,8 +1981,6 @@ Configure
 )
 ;
 }
-#
-endif
 void
 *
 EchoCancellationImpl

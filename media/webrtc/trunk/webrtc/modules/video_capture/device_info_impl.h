@@ -94,7 +94,7 @@ WEBRTC_MODULES_VIDEO_CAPTURE_MAIN_SOURCE_DEVICE_INFO_IMPL_H_
 #
 include
 <
-map
+vector
 >
 #
 include
@@ -316,15 +316,13 @@ typedef
 std
 :
 :
-map
+vector
 <
-int
 VideoCaptureCapability
-*
 >
-VideoCaptureCapabilityMap
+VideoCaptureCapabilities
 ;
-VideoCaptureCapabilityMap
+VideoCaptureCapabilities
 _captureCapabilities
 ;
 RWLockWrapper

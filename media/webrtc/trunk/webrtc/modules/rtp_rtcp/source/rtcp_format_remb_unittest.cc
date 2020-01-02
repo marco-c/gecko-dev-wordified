@@ -389,6 +389,13 @@ Test
 {
 protected
 :
+static
+const
+uint32_t
+kRemoteBitrateEstimatorMinBitrateBps
+=
+30000
+;
 RtcpFormatRembTest
 (
 )
@@ -429,6 +436,7 @@ Create
 &
 remote_bitrate_observer_
 system_clock_
+kRemoteBitrateEstimatorMinBitrateBps
 )
 )
 {

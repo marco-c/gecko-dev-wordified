@@ -119,10 +119,6 @@ h
 namespace
 webrtc
 {
-#
-define
-REQUIRED_JNI_VERSION
-JNI_VERSION_1_4
 class
 AudioManagerJni
 {
@@ -282,18 +278,6 @@ void
 jvm
 void
 *
-context
-)
-;
-static
-void
-SetAndroidAudioDeviceObjects
-(
-void
-*
-jvm
-void
-*
 env
 void
 *
@@ -340,6 +324,7 @@ bool
 low_latency_supported
 (
 )
+const
 {
 return
 low_latency_supported_
@@ -349,6 +334,7 @@ int
 native_output_sample_rate
 (
 )
+const
 {
 return
 native_output_sample_rate_
@@ -358,6 +344,7 @@ int
 native_buffer_size
 (
 )
+const
 {
 return
 native_buffer_size_

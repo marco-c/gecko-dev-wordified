@@ -406,9 +406,6 @@ kChannels
 5
 ;
 AudioMultiVector
-<
-int16_t
->
 input
 (
 kChannels

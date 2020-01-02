@@ -152,11 +152,13 @@ RemoteRateControl
 :
 RemoteRateControl
 (
+uint32_t
+min_bitrate_bps
 )
 :
 min_configured_bit_rate_
 (
-30000
+min_bitrate_bps
 )
 max_configured_bit_rate_
 (
@@ -257,6 +259,7 @@ this
 =
 RemoteRateControl
 (
+min_configured_bit_rate_
 )
 ;
 came_from_state_

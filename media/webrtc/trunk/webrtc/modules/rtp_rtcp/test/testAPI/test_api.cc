@@ -805,7 +805,7 @@ ssrc
 =
 0
 ;
-RtxMode
+int
 rtx_mode
 =
 kRtxOff

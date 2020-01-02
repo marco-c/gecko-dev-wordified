@@ -178,7 +178,12 @@ string
 '
 do_not_use
 '
+or
+'
+protoc
+'
 are
+  
 excluded
 .
   
@@ -274,6 +279,13 @@ pattern
 if
 '
 do_not_use
+'
+not
+in
+filename
+and
+'
+protoc
 '
 not
 in

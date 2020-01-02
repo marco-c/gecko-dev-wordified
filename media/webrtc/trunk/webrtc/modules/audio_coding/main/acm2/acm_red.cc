@@ -135,6 +135,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 ACMRED
 :
 :
@@ -301,6 +304,11 @@ has
 no
 instance
 }
+}
+/
+/
+namespace
+acm2
 }
 /
 /

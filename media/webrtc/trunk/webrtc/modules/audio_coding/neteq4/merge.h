@@ -455,9 +455,6 @@ int16_t
 *
 external_mute_factor_array
 AudioMultiVector
-<
-int16_t
->
 *
 output
 )
@@ -785,9 +782,6 @@ kInputDownsampLength
 ]
 ;
 AudioMultiVector
-<
-int16_t
->
 expanded_
 ;
 DISALLOW_COPY_AND_ASSIGN

@@ -644,9 +644,6 @@ DspHelper
 RampSignal
 (
 AudioMultiVector
-<
-int16_t
->
 *
 signal
 size_t
