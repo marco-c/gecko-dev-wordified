@@ -4462,6 +4462,12 @@ ss
 return
 false
 ;
+ScriptSourceHolder
+ssHolder
+(
+ss
+)
+;
 /
 *
 *

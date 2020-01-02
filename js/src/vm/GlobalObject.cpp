@@ -1560,6 +1560,12 @@ return
 nullptr
 ;
 }
+ScriptSourceHolder
+ssHolder
+(
+ss
+)
+;
 ss
 -
 >
