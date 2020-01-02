@@ -8827,15 +8827,6 @@ aEvent
 eventStructType
 !
 =
-NS_POINTER_EVENT
-&
-&
-aEvent
--
->
-eventStructType
-!
-=
 NS_GESTURENOTIFY_EVENT
 &
 &
