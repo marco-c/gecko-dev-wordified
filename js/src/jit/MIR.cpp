@@ -6532,7 +6532,7 @@ of
 which
 may
 call
-realloc_
+realloc
 (
 )
 .
