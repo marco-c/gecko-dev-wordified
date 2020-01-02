@@ -532,6 +532,11 @@ GST_FUNC
 LIBGSTVIDEO
 gst_video_format_parse_caps
 )
+GST_FUNC
+(
+LIBGSTVIDEO
+gst_video_parse_caps_pixel_aspect_ratio
+)
 #
 else
 GST_FUNC
