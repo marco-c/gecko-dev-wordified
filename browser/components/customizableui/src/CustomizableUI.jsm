@@ -604,8 +604,6 @@ bookmarks
 menu
 -
 button
--
-container
 "
 "
 downloads
@@ -3122,7 +3120,7 @@ window
 =
 aEvent
 .
-target
+currentTarget
 ;
 window
 .
