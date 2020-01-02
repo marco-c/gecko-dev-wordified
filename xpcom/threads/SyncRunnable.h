@@ -290,6 +290,10 @@ DispatchToThread
 nsIEventTarget
 *
 thread
+bool
+forceDispatch
+=
+false
 )
 {
 nsresult
@@ -298,6 +302,12 @@ rv
 bool
 on
 ;
+if
+(
+!
+forceDispatch
+)
+{
 rv
 =
 thread
@@ -337,6 +347,7 @@ Run
 ;
 return
 ;
+}
 }
 mozilla
 :
@@ -384,6 +395,10 @@ thread
 nsIRunnable
 *
 r
+bool
+forceDispatch
+=
+false
 )
 {
 nsRefPtr
@@ -405,6 +420,7 @@ s
 DispatchToThread
 (
 thread
+forceDispatch
 )
 ;
 }
