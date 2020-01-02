@@ -372,7 +372,7 @@ comment
 in
 Assembler
 -
-shared
+arm
 .
 h
 about

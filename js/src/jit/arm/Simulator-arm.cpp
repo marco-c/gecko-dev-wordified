@@ -28949,7 +28949,7 @@ pc
 activation
 -
 >
-setResumePC
+setInterrupted
 (
 (
 void
