@@ -4235,6 +4235,12 @@ root
 mCurrentCompositeTask
 )
 {
+AutoResolveRefLayers
+resolve
+(
+mCompositionManager
+)
+;
 bool
 requestNextFrame
 =
@@ -4339,6 +4345,12 @@ mCompositionManager
 mCurrentCompositeTask
 )
 {
+AutoResolveRefLayers
+resolve
+(
+mCompositionManager
+)
+;
 bool
 requestNextFrame
 =
