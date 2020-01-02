@@ -3473,6 +3473,10 @@ mCurrentTableItem
 (
 nullptr
 )
+mFinalTransparentRegion
+(
+nullptr
+)
 mCurrentFrame
 (
 aReferenceFrame

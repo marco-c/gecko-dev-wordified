@@ -18799,6 +18799,13 @@ if
 widget
 )
 {
+builder
+.
+SetFinalTransparentRegion
+(
+visibleRegion
+)
+;
 /
 /
 If
