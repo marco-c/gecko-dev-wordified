@@ -98,19 +98,6 @@ gecko
 .
 gfx
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
-generatorannotations
-.
-WrapEntireClassForJNI
-;
 /
 *
 *
@@ -161,7 +148,6 @@ continuing
 .
 *
 /
-WrapEntireClassForJNI
 public
 class
 ProgressiveUpdateData

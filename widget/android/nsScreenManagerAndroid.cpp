@@ -287,9 +287,14 @@ uint32_t
 aBrightness
 )
 {
-GeckoAppShell
+AndroidBridge
 :
 :
+Bridge
+(
+)
+-
+>
 SetKeepScreenOn
 (
 aBrightness

@@ -99,19 +99,6 @@ gecko
 mozglue
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
-generatorannotations
-.
-WrapElementForJNI
-;
-import
 java
 .
 io
@@ -416,7 +403,6 @@ String
 path
 )
 ;
-WrapElementForJNI
 private
 InputStream
 createInputStream
