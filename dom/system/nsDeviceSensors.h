@@ -100,13 +100,6 @@ h
 #
 include
 "
-nsIDOMDeviceOrientationEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -292,10 +285,6 @@ aNear
 void
 FireDOMOrientationEvent
 (
-class
-nsIDOMDocument
-*
-domDoc
 mozilla
 :
 :
