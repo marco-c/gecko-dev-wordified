@@ -49070,7 +49070,7 @@ jp
 ;
 /
 /
-omma
+comma
 separated
 list
 of
@@ -49090,9 +49090,9 @@ domain
 com
 )
 for
+/
+/
 directory
-/
-/
 websites
 (
 e
@@ -49120,7 +49120,7 @@ https
 :
 /
 /
-addons
+activations
 .
 mozilla
 .
