@@ -3758,7 +3758,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialSibling
+IBSplitSibling
 (
 )
 )
@@ -3783,7 +3783,7 @@ Delete
 nsIFrame
 :
 :
-IBSplitSpecialSibling
+IBSplitSibling
 (
 )
 )
@@ -3819,7 +3819,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialSibling
+IBSplitSibling
 (
 )
 )
@@ -34650,7 +34650,7 @@ Properties
 .
 Get
 (
-IBSplitSpecialSibling
+IBSplitSibling
 (
 )
 )
@@ -34666,7 +34666,7 @@ aTo
 nsPrintfCString
 (
 "
-IBSplitSpecialSibling
+IBSplitSibling
 =
 %
 p

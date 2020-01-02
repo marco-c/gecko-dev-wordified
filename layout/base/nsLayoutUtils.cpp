@@ -16708,7 +16708,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialSibling
+IBSplitSibling
 (
 )
 )

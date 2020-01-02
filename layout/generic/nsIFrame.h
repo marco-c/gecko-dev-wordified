@@ -5764,7 +5764,7 @@ descriptor
 }
 NS_DECLARE_FRAME_PROPERTY
 (
-IBSplitSpecialSibling
+IBSplitSibling
 nullptr
 )
 NS_DECLARE_FRAME_PROPERTY
@@ -20579,7 +20579,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialSibling
+IBSplitSibling
 (
 )
 )
