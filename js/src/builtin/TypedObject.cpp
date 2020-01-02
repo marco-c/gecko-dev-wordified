@@ -7384,6 +7384,14 @@ global
 )
 )
 ;
+if
+(
+!
+module
+)
+return
+nullptr
+;
 /
 /
 Define
