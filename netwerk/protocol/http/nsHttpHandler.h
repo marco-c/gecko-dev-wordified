@@ -689,6 +689,15 @@ mSpdyV3
 ;
 }
 bool
+IsSpdyV31Enabled
+(
+)
+{
+return
+mSpdyV31
+;
+}
+bool
 CoalesceSpdy
 (
 )
@@ -2204,6 +2213,9 @@ mSpdyV2
 ;
 bool
 mSpdyV3
+;
+bool
+mSpdyV31
 ;
 bool
 mCoalesceSpdy
