@@ -3427,6 +3427,12 @@ to
 showModalDialog
 .
 *
+*
+Outer
+windows
+only
+.
+*
 /
 virtual
 nsresult
