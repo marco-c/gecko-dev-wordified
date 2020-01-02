@@ -6319,6 +6319,7 @@ init
 function
 PTH_init
 (
+forceToolbarOverflowCheck
 )
 {
 let
@@ -6458,6 +6459,20 @@ this
 _place
 )
 ;
+if
+(
+forceToolbarOverflowCheck
+)
+{
+viewElt
+.
+_placesView
+.
+updateOverflowStatus
+(
+)
+;
+}
 }
 customizeStart
 :
@@ -6520,6 +6535,7 @@ this
 .
 init
 (
+true
 )
 ;
 }
