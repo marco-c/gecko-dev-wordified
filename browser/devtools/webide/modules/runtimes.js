@@ -495,14 +495,6 @@ let
 gLocalRuntime
 =
 {
-supportApps
-:
-false
-/
-/
-Temporary
-static
-value
 connect
 :
 function
