@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsIDOMLoadStatus
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -691,8 +684,6 @@ nsPrefetchNode
 MOZ_FINAL
 :
 public
-nsIDOMLoadStatus
-public
 nsIStreamListener
 public
 nsIInterfaceRequestor
@@ -704,7 +695,6 @@ nsIRedirectResultListener
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMLOADSTATUS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIINTERFACEREQUESTOR
@@ -785,9 +775,6 @@ nsCOMPtr
 nsIChannel
 >
 mRedirectChannel
-;
-uint16_t
-mState
 ;
 int64_t
 mBytesRead
