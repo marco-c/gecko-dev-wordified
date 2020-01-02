@@ -4795,7 +4795,10 @@ sciProto
 .
 SetFlags
 (
+XPCNativeScriptableFlags
+(
 flags
+)
 )
 ;
 sciProto
@@ -4890,7 +4893,10 @@ sciProto
 .
 SetFlags
 (
+XPCNativeScriptableFlags
+(
 flags
+)
 )
 ;
 }
@@ -5025,7 +5031,10 @@ sciWrapper
 .
 SetFlags
 (
+XPCNativeScriptableFlags
+(
 flags
+)
 )
 ;
 /
