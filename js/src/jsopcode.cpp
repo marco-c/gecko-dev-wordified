@@ -5167,6 +5167,8 @@ runtime
 )
 -
 >
+gc
+.
 noGCOrAllocationCheck
 )
 {
@@ -11915,6 +11917,8 @@ if
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 )
 return
@@ -11924,6 +11928,8 @@ return
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 -
 >
@@ -12116,6 +12122,8 @@ if
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 |
 |
@@ -12125,6 +12133,8 @@ index
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 -
 >
@@ -12155,6 +12165,8 @@ sac
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 )
 [
@@ -13941,6 +13953,8 @@ if
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 |
 |
@@ -13950,6 +13964,8 @@ index
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 -
 >
@@ -13980,6 +13996,8 @@ sac
 rt
 -
 >
+gc
+.
 scriptAndCountsVector
 )
 [

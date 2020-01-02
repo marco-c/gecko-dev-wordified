@@ -3274,7 +3274,9 @@ preBytes
 runtime
 -
 >
-gcBytes
+gc
+.
+bytes
 ;
 }
 void
@@ -3474,7 +3476,9 @@ JS_TELEMETRY_GC_INCREMENTAL_DISABLED
 runtime
 -
 >
-gcIncrementalEnabled
+gc
+.
+incrementalEnabled
 )
 ;
 (
@@ -3581,7 +3585,9 @@ first
 runtime
 -
 >
-gcIncrementalState
+gc
+.
+incrementalState
 =
 =
 gc
@@ -3690,7 +3696,9 @@ cb
 runtime
 -
 >
-gcSliceCallback
+gc
+.
+sliceCallback
 )
 (
 *
@@ -3817,7 +3825,9 @@ last
 runtime
 -
 >
-gcIncrementalState
+gc
+.
+incrementalState
 =
 =
 gc
@@ -3873,7 +3883,9 @@ cb
 runtime
 -
 >
-gcSliceCallback
+gc
+.
+sliceCallback
 )
 (
 *

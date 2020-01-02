@@ -3638,7 +3638,9 @@ runtime
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 notifyInitialSlots
 (
