@@ -690,7 +690,7 @@ rootPrivateKey
 )
 !
 =
-SECSuccess
+Success
 )
 {
 return
@@ -2683,8 +2683,9 @@ missingSignerPublicKey
 ScopedSECKEYPrivateKey
 missingSignerPrivateKey
 ;
-ASSERT_SECSuccess
+ASSERT_EQ
 (
+Success
 GenerateKeyPair
 (
 missingSignerPublicKey
@@ -2750,8 +2751,9 @@ missingSignerPublicKey
 ScopedSECKEYPrivateKey
 missingSignerPrivateKey
 ;
-ASSERT_SECSuccess
+ASSERT_EQ
 (
+Success
 GenerateKeyPair
 (
 missingSignerPublicKey
@@ -3434,8 +3436,9 @@ unknownPublicKey
 ScopedSECKEYPrivateKey
 unknownPrivateKey
 ;
-ASSERT_SECSuccess
+ASSERT_EQ
 (
+Success
 GenerateKeyPair
 (
 unknownPublicKey
