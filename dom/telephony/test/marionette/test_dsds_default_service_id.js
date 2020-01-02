@@ -58,7 +58,7 @@ jsm
 )
 ;
 const
-TELEPHONY_PROVIDER_CONTRACTID
+TELEPHONY_SERVICE_CONTRACTID
 =
 "
 mozilla
@@ -67,7 +67,7 @@ org
 /
 telephony
 /
-telephonyprovider
+telephonyservice
 ;
 1
 "
@@ -745,9 +745,9 @@ verify
 bind
 (
 null
-TELEPHONY_PROVIDER_CONTRACTID
+TELEPHONY_SERVICE_CONTRACTID
 "
-nsITelephonyProvider
+nsITelephonyService
 "
 "
 defaultServiceId

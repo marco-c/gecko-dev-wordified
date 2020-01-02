@@ -370,7 +370,7 @@ aOwner
 )
 mCallState
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_UNKNOWN
@@ -443,7 +443,7 @@ aCallState
 )
 {
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DIALING
@@ -460,7 +460,7 @@ dialing
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_ALERTING
@@ -477,7 +477,7 @@ alerting
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTING
@@ -494,7 +494,7 @@ connecting
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -511,7 +511,7 @@ connected
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HOLDING
@@ -528,7 +528,7 @@ holding
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -545,7 +545,7 @@ held
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_RESUMING
@@ -562,7 +562,7 @@ resuming
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTING
@@ -579,7 +579,7 @@ disconnecting
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -596,7 +596,7 @@ disconnected
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_INCOMING
@@ -637,7 +637,7 @@ if
 aCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -920,7 +920,7 @@ state
 transitions
 ChangeStateInternal
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -1117,7 +1117,7 @@ if
 mCallState
 !
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_INCOMING
@@ -1177,7 +1177,7 @@ return
 }
 ChangeStateInternal
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTING
@@ -1201,7 +1201,7 @@ if
 mCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTING
@@ -1210,7 +1210,7 @@ CALL_STATE_DISCONNECTING
 mCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -1238,7 +1238,7 @@ rv
 mCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_INCOMING
@@ -1291,7 +1291,7 @@ return
 }
 ChangeStateInternal
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTING
@@ -1315,7 +1315,7 @@ if
 mCallState
 !
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -1467,7 +1467,7 @@ return
 }
 ChangeStateInternal
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HOLDING
@@ -1491,7 +1491,7 @@ if
 mCallState
 !
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -1594,7 +1594,7 @@ return
 }
 ChangeStateInternal
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_RESUMING

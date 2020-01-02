@@ -141,13 +141,13 @@ h
 #
 include
 "
-nsITelephonyProvider
+nsITelephonyService
 .
 h
 "
 BEGIN_TELEPHONY_NAMESPACE
 class
-TelephonyIPCProvider
+TelephonyIPCService
 ;
 class
 TelephonyChild
@@ -159,7 +159,7 @@ public
 :
 TelephonyChild
 (
-TelephonyIPCProvider
+TelephonyIPCService
 *
 aProvider
 )
@@ -301,7 +301,7 @@ private
 :
 nsRefPtr
 <
-TelephonyIPCProvider
+TelephonyIPCService
 >
 mProvider
 ;

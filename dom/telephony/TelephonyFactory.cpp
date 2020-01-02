@@ -121,7 +121,7 @@ MOZ_B2G_RIL
 #
 include
 "
-nsIGonkTelephonyProvider
+nsIGonkTelephonyService
 .
 h
 "
@@ -146,7 +146,7 @@ include
 "
 ipc
 /
-TelephonyIPCProvider
+TelephonyIPCService
 .
 h
 "
@@ -158,18 +158,18 @@ static
 /
 already_AddRefed
 <
-nsITelephonyProvider
+nsITelephonyService
 >
 TelephonyFactory
 :
 :
-CreateTelephonyProvider
+CreateTelephonyService
 (
 )
 {
 nsCOMPtr
 <
-nsITelephonyProvider
+nsITelephonyService
 >
 provider
 ;
@@ -186,7 +186,7 @@ GeckoProcessType_Content
 provider
 =
 new
-TelephonyIPCProvider
+TelephonyIPCService
 (
 )
 ;
@@ -209,7 +209,7 @@ provider
 =
 do_CreateInstance
 (
-GONK_TELEPHONY_PROVIDER_CONTRACTID
+GONK_TELEPHONY_SERVICE_CONTRACTID
 )
 ;
 #

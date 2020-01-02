@@ -120,7 +120,7 @@ TelephonyCommon
 h
 "
 class
-nsITelephonyProvider
+nsITelephonyService
 ;
 BEGIN_TELEPHONY_NAMESPACE
 class
@@ -131,9 +131,9 @@ public
 static
 already_AddRefed
 <
-nsITelephonyProvider
+nsITelephonyService
 >
-CreateTelephonyProvider
+CreateTelephonyService
 (
 )
 ;

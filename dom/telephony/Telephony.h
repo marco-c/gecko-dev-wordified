@@ -158,7 +158,7 @@ h
 #
 include
 "
-nsITelephonyProvider
+nsITelephonyService
 .
 h
 "
@@ -239,7 +239,7 @@ and
 passes
 it
 to
-nsITelephonyProvider
+nsITelephonyService
 .
 The
 onreceived
@@ -288,7 +288,7 @@ EnumerationAck
 ;
 nsCOMPtr
 <
-nsITelephonyProvider
+nsITelephonyService
 >
 mProvider
 ;
@@ -640,7 +640,7 @@ aCall
 )
 ;
 }
-nsITelephonyProvider
+nsITelephonyService
 *
 Provider
 (

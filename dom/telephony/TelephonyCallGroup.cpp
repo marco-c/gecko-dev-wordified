@@ -193,7 +193,7 @@ aOwner
 )
 mCallState
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_UNKNOWN
@@ -507,7 +507,7 @@ aCallState
 )
 {
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_UNKNOWN
@@ -515,7 +515,7 @@ CALL_STATE_UNKNOWN
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -532,7 +532,7 @@ connected
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HOLDING
@@ -549,7 +549,7 @@ holding
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -566,7 +566,7 @@ held
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_RESUMING
@@ -878,7 +878,7 @@ return
 mCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -891,7 +891,7 @@ CallState
 )
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -902,7 +902,7 @@ CALL_STATE_HELD
 mCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -915,7 +915,7 @@ CallState
 )
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -927,7 +927,7 @@ MOZ_ASSERT
 mCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_UNKNOWN
@@ -978,7 +978,7 @@ CallState
 )
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -992,7 +992,7 @@ CallState
 )
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -1007,7 +1007,7 @@ CallState
 )
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -1021,7 +1021,7 @@ CallState
 )
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -1341,7 +1341,7 @@ if
 mCallState
 !
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -1457,7 +1457,7 @@ if
 mCallState
 !
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -1533,7 +1533,7 @@ return
 }
 ChangeState
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HOLDING
@@ -1556,7 +1556,7 @@ if
 mCallState
 !
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -1632,7 +1632,7 @@ return
 }
 ChangeState
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_RESUMING
