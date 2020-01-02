@@ -1652,9 +1652,6 @@ pageIndex
 selectPanel
 )
 {
-var
-i
-;
 if
 (
 selectPanel
@@ -1672,6 +1669,7 @@ this
 }
 for
 (
+var
 i
 =
 0
@@ -1742,6 +1740,7 @@ options
 ;
 for
 (
+var
 i
 =
 0
@@ -2743,6 +2742,7 @@ args
 glyphIndex
 ]
 ;
+var
 decArgs
 =
 args
