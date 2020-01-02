@@ -5724,6 +5724,14 @@ message
 }
 aKeyEvent
 .
+mIsRepeat
+=
+IsRepeat
+(
+)
+;
+aKeyEvent
+.
 mKeyNameIndex
 =
 mKeyNameIndex
