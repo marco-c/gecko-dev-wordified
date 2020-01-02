@@ -1559,16 +1559,6 @@ only
 storageInspectorReadOnly
 :
 true
-/
-/
-Wether
-conditional
-breakpoints
-are
-supported
-conditionalBreakpoints
-:
-true
 }
 }
 ;
