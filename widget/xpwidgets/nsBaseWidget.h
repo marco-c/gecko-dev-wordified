@@ -1434,15 +1434,6 @@ NotifySizeMoveDone
 (
 )
 ;
-void
-NotifyWindowMoved
-(
-int32_t
-aX
-int32_t
-aY
-)
-;
 /
 /
 Should
