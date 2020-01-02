@@ -16640,6 +16640,11 @@ aGlobal
 ;
 }
 ;
+nsresult
+RegisterDOMNames
+(
+)
+;
 template
 <
 class
