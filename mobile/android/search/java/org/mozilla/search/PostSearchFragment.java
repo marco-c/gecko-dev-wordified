@@ -597,6 +597,17 @@ webview
 .
 loadUrl
 (
+"
+about
+:
+blank
+"
+)
+;
+webview
+.
+loadUrl
+(
 url
 )
 ;
