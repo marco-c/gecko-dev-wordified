@@ -5057,7 +5057,7 @@ pointer
 of
 the
 entry
-fram
+frame
 and
 return
 .
