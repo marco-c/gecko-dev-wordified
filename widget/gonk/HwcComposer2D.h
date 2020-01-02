@@ -412,6 +412,9 @@ mMaxLayerCount
 bool
 mColorFill
 ;
+bool
+mRBSwapSupport
+;
 /
 /
 Holds
