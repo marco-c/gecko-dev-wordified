@@ -956,14 +956,6 @@ icon
 -
 box
 {
-background
--
-color
-:
-transparent
-!
-important
-;
 border
 -
 color
@@ -1060,6 +1052,10 @@ padding
 6px
 6px
 12px
+;
+background
+:
+white
 ;
 color
 :
