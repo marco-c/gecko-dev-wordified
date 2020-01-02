@@ -4319,6 +4319,7 @@ callback
 =
 js_GetErrorMessage
 )
+{
 efs
 =
 js_GetLocalizedErrorMessage
@@ -4329,7 +4330,15 @@ nullptr
 errorNumber
 )
 ;
+}
 else
+{
+AutoSuppressGC
+suppressGC
+(
+cx
+)
+;
 efs
 =
 callback
@@ -4339,6 +4348,7 @@ nullptr
 errorNumber
 )
 ;
+}
 if
 (
 efs
