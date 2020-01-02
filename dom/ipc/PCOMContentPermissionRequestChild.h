@@ -123,9 +123,6 @@ why
 #
 undef
 CreateEvent
-#
-undef
-LoadImage
 /
 *
 PContentPermissionRequestChild
