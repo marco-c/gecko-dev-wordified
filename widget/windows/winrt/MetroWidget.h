@@ -1221,6 +1221,14 @@ WidgetToScreenOffset
 (
 )
 ;
+already_AddRefed
+<
+nsIPresShell
+>
+GetPresShell
+(
+)
+;
 void
 UserActivity
 (
