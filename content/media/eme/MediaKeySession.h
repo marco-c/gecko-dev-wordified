@@ -271,6 +271,9 @@ nsAString
 aKeySystem
 SessionType
 aSessionType
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -404,6 +407,9 @@ const
 Uint8Array
 &
 response
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -412,6 +418,9 @@ Promise
 >
 Close
 (
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -420,6 +429,9 @@ Promise
 >
 Remove
 (
+ErrorResult
+&
+aRv
 )
 ;
 void

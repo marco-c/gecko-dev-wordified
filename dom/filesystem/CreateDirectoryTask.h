@@ -135,6 +135,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -162,6 +171,9 @@ const
 nsAString
 &
 aPath
+ErrorResult
+&
+aRv
 )
 ;
 CreateDirectoryTask

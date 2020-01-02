@@ -372,6 +372,9 @@ Uint8Array
 aInitData
 SessionType
 aSessionType
+ErrorResult
+&
+aRv
 )
 ;
 /
@@ -393,6 +396,9 @@ const
 nsAString
 &
 aSessionId
+ErrorResult
+&
+aRv
 )
 ;
 /
@@ -414,6 +420,9 @@ const
 Uint8Array
 &
 aServerCertificate
+ErrorResult
+&
+aRv
 )
 ;
 /
@@ -584,6 +593,9 @@ Promise
 >
 MakePromise
 (
+ErrorResult
+&
+aRv
 )
 ;
 /

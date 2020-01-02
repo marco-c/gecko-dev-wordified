@@ -1528,6 +1528,9 @@ Promise
 >
 GetRoot
 (
+ErrorResult
+&
+aRv
 )
 ;
 static

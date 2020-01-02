@@ -201,6 +201,9 @@ const
 nsAString
 &
 aPath
+ErrorResult
+&
+aRv
 )
 :
 FileSystemTaskBase
@@ -259,10 +262,13 @@ return
 }
 mPromise
 =
-new
 Promise
+:
+:
+Create
 (
 globalObject
+aRv
 )
 ;
 }
