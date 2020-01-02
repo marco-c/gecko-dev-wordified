@@ -551,7 +551,6 @@ return
 NS_OK
 ;
 }
-;
 static
 const
 char
@@ -600,13 +599,6 @@ SC_ENDIAN
 ;
 #
 endif
-static
-NS_DEFINE_CID
-(
-kZipReaderCID
-NS_ZIPREADER_CID
-)
-;
 StartupCache
 *
 StartupCache
