@@ -959,10 +959,8 @@ DOMError
 *
 GetError
 (
-ErrorResult
-&
-aRv
 )
+const
 ;
 already_AddRefed
 <
