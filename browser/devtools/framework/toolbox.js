@@ -9484,6 +9484,13 @@ then
 /
 Removing
 buttons
+if
+(
+this
+.
+_pickerButton
+)
+{
 this
 .
 _pickerButton
@@ -9505,6 +9512,7 @@ _pickerButton
 =
 null
 ;
+}
 }
 )
 )
