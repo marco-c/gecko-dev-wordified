@@ -118,6 +118,11 @@ nsPIDOMWindow
 aWindow
 )
 ;
+~
+DataStore
+(
+)
+;
 /
 /
 WebIDL
