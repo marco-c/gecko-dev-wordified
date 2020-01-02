@@ -114,7 +114,7 @@ namespace
 dom
 {
 class
-NativeProperties
+NativePropertiesHolder
 ;
 }
 }
@@ -213,7 +213,7 @@ mozilla
 dom
 :
 :
-NativeProperties
+NativePropertiesHolder
 *
 newBindingProperties
 ;
