@@ -2632,6 +2632,12 @@ size_t
 nelems
 )
 {
+if
+(
+nelems
+>
+0
+)
 NativeEndian
 :
 :
@@ -3212,6 +3218,12 @@ size_t
 nelems
 )
 {
+if
+(
+nelems
+>
+0
+)
 NativeEndian
 :
 :
