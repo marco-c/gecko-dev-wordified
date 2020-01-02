@@ -18230,6 +18230,10 @@ NS_OK
 ;
 }
 }
+/
+/
+unnamed
+namespace
 NS_IMETHODIMP
 nsDOMWindowUtils
 :
