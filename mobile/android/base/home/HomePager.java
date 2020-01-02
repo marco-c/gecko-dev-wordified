@@ -136,6 +136,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 HardwareUtils
@@ -317,6 +328,7 @@ pages
 in
 order
 .
+RobocopTarget
 public
 enum
 Page
