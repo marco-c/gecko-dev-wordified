@@ -534,9 +534,9 @@ updateStarState
 (
 )
 ;
-SocialShareButton
+SocialMark
 .
-updateShareState
+updateMarkState
 (
 )
 ;
