@@ -238,14 +238,7 @@ function
 )
 {
 yield
-experimentsInstance
-.
-uninit
-(
-)
-;
-yield
-removeCacheFile
+promiseRestartManager
 (
 )
 ;
@@ -254,7 +247,8 @@ uninstallExperimentAddons
 (
 )
 ;
-restartManager
+yield
+removeCacheFile
 (
 )
 ;
@@ -2403,9 +2397,7 @@ experiment1
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;
@@ -10680,7 +10672,8 @@ n
 "
 )
 ;
-restartManager
+yield
+promiseRestartManager
 (
 )
 ;
@@ -11147,7 +11140,8 @@ Fake
 restart
 behaviour
 .
-restartManager
+yield
+promiseRestartManager
 (
 )
 ;

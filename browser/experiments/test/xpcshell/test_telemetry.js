@@ -2561,9 +2561,7 @@ os
 Cleanup
 .
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;
