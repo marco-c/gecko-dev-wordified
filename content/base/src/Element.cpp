@@ -10071,10 +10071,6 @@ SetEventHandler
 (
 aEventName
 aValue
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 defer
 !
 nsContentUtils

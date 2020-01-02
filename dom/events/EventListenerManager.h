@@ -1333,8 +1333,6 @@ const
 nsAString
 &
 aFunc
-uint32_t
-aLanguage
 bool
 aDeferCompilation
 bool
