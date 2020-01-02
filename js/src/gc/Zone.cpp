@@ -808,7 +808,7 @@ isGCSweeping
 ;
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 this
@@ -1102,7 +1102,7 @@ active
 /
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 this
@@ -1207,7 +1207,7 @@ this
 ;
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 this

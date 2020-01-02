@@ -8651,7 +8651,7 @@ aheader
 {
 for
 (
-CellIterUnderGC
+ArenaCellIterUnderGC
 i
 (
 aheader

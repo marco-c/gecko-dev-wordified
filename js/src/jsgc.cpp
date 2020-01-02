@@ -16921,7 +16921,7 @@ thingKind
 {
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 zone
@@ -25097,7 +25097,7 @@ gcShapeArenasToSweep
 {
 for
 (
-CellIterUnderGC
+ArenaCellIterUnderGC
 i
 (
 arena
@@ -31466,7 +31466,7 @@ target
 .
 for
 (
-CellIter
+ZoneCellIter
 iter
 (
 source
@@ -31528,7 +31528,7 @@ target
 }
 for
 (
-CellIter
+ZoneCellIter
 iter
 (
 source
@@ -32435,7 +32435,7 @@ active
 /
 for
 (
-CellIter
+ZoneCellIter
 i
 (
 zone
@@ -32526,7 +32526,7 @@ zone
 ;
 for
 (
-CellIter
+ZoneCellIter
 i
 (
 zone
@@ -33083,7 +33083,7 @@ next
 {
 for
 (
-CellIter
+ZoneCellIter
 i
 (
 zone
@@ -33270,7 +33270,7 @@ ifdef
 JS_ION
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 zone

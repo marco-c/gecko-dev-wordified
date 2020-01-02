@@ -1147,10 +1147,7 @@ to
 avoid
 doing
 a
-zone
--
-wide
-CellIter
+ZoneCellIter
 /
 /
 per
@@ -5480,7 +5477,7 @@ cx
 {
 for
 (
-CellIter
+ZoneCellIter
 i
 (
 cx

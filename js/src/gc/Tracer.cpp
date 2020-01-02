@@ -2386,7 +2386,7 @@ markOverflow
 ;
 for
 (
-CellIterUnderGC
+ArenaCellIterUnderGC
 i
 (
 aheader
