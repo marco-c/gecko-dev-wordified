@@ -835,7 +835,6 @@ PRUnichar
 (
 chars
 )
-length
 )
 ;
 #
