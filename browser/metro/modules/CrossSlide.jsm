@@ -241,6 +241,16 @@ nodeName
 '
 richgriditem
 '
+&
+&
+aElement
+.
+hasAttribute
+(
+"
+value
+"
+)
 ;
 }
 function
