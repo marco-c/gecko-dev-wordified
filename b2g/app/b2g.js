@@ -8536,10 +8536,6 @@ enabled
 false
 )
 ;
-/
-/
-Enable
-dataStore
 pref
 (
 "
@@ -8549,7 +8545,7 @@ datastore
 .
 enabled
 "
-false
+true
 )
 ;
 /
