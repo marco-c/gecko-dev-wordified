@@ -188,6 +188,12 @@ defined
 (
 __GNUC__
 )
+|
+|
+defined
+(
+__SUNPRO_C
+)
 #
 include
 <

@@ -3614,17 +3614,6 @@ ServerSessionIDLookup
 )
 .
 *
-*
-Caller
-must
-hold
-cache
-lock
-when
-calling
-this
-.
-*
 /
 static
 sslSessionID
