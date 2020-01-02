@@ -145,7 +145,7 @@ gfxRGBA
 struct
 gfxCornerSizes
 ;
-struct
+class
 gfxMatrix
 ;
 namespace
