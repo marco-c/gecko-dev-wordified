@@ -530,13 +530,6 @@ h
 #
 include
 "
-nsManifestLineReader
-.
-h
-"
-#
-include
-"
 mozilla
 /
 GenericFactory
