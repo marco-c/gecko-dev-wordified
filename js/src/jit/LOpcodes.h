@@ -923,7 +923,7 @@ GuardClass
 \
 _
 (
-GuardThreadLocalObject
+GuardThreadExclusive
 )
 \
 _

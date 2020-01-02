@@ -2759,6 +2759,13 @@ typedMem
 )
 const
 ;
+TypedDatum
+*
+owner
+(
+)
+const
+;
 }
 ;
 class

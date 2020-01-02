@@ -10000,7 +10000,7 @@ shadowZone
 this
 -
 >
-shadowZone
+shadowZoneFromAnyThread
 (
 )
 ;
