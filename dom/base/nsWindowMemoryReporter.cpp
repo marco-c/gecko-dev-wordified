@@ -4558,10 +4558,9 @@ kTimeBetweenChecks
 *
 PR_MSEC_PER_SEC
 ;
-CallCreateInstance
-<
-nsITimer
->
+mCheckTimer
+=
+do_CreateInstance
 (
 "
 mozilla
@@ -4572,10 +4571,6 @@ timer
 ;
 1
 "
-getter_AddRefs
-(
-mCheckTimer
-)
 )
 ;
 if
