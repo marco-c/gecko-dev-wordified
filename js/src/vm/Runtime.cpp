@@ -1377,6 +1377,10 @@ useHelperThreadsForParsing_
 (
 true
 )
+isWorkerRuntime_
+(
+false
+)
 #
 ifdef
 DEBUG
