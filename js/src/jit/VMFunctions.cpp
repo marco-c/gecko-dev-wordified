@@ -3049,13 +3049,12 @@ hasSlot
 )
 )
 ;
-JSObject
-:
-:
+obj
+-
+>
 nativeSetSlotWithType
 (
 cx
-obj
 shape
 value
 )

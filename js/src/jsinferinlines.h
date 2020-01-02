@@ -3407,7 +3407,8 @@ MarkTypePropertyConfigured
 ExclusiveContext
 *
 cx
-HandleObject
+JSObject
+*
 obj
 jsid
 id

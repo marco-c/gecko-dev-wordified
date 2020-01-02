@@ -15006,7 +15006,6 @@ nullptr
 JSPROP_ENUMERATE
 0
 0
-DNP_SKIP_TYPE
 )
 )
 {
