@@ -4492,9 +4492,6 @@ files
 in
 assembler
 /
-and
-yarr
-/
 have
 all
 manner
@@ -4517,16 +4514,10 @@ inclname
 .
 startswith
 (
-(
 '
 assembler
 /
 '
-'
-yarr
-/
-'
-)
 )
     
 #
