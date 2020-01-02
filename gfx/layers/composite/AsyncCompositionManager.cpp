@@ -4810,11 +4810,14 @@ GetCurrentAsyncTransform
 gfx3DMatrix
 nontransientTransform
 =
+To3DMatrix
+(
 apzc
 -
 >
 GetNontransientAsyncTransform
 (
+)
 )
 ;
 gfx3DMatrix
