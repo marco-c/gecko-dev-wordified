@@ -1730,8 +1730,7 @@ from
 NSS
 by
 name
-CERTCertificate
-*
+ScopedCERTCertificate
 cert
 =
 CERT_FindCertByNickname
