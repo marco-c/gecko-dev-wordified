@@ -1906,14 +1906,6 @@ FrameMetrics
 aCompositorMetrics
 )
 ;
-private
-:
-bool
-mLastProgressiveUpdateWasLowPrecision
-;
-bool
-mProgressiveUpdateWasInDanger
-;
 }
 ;
 /
