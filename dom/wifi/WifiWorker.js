@@ -16827,6 +16827,17 @@ info
 linkSpeed
 &
 &
+last
+.
+ipAddress
+=
+=
+=
+info
+.
+ipAddress
+&
+&
 tensPlace
 (
 last
