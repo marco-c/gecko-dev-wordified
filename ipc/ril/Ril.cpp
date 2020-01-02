@@ -865,7 +865,7 @@ workerGlobal
 postRILMessage
 "
 PostToRIL
-1
+2
 0
 )
 ;
