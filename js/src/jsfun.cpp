@@ -6926,7 +6926,7 @@ Steps
 /
 frame
 .
-forEachCanonicalActualArg
+unaliasedForEachActual
 (
 CopyTo
 (
@@ -7353,7 +7353,7 @@ Steps
 /
 iter
 .
-forEachCanonicalActualArg
+unaliasedForEachActual
 (
 cx
 CopyTo
@@ -7560,7 +7560,7 @@ Steps
 fp
 -
 >
-forEachUnaliasedActual
+unaliasedForEachActual
 (
 CopyTo
 (
