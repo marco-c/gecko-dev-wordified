@@ -1259,7 +1259,7 @@ func
 0
 ]
 )
-        
+            
 #
 Initialize
 the
@@ -1271,7 +1271,7 @@ in
 the
 global
 .
-        
+            
 extra_vars
 =
 self
@@ -1287,7 +1287,7 @@ dict
 (
 )
 )
-        
+            
 self
 .
 _globals

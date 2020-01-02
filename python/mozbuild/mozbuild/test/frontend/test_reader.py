@@ -2083,7 +2083,7 @@ foobar
 foobar
 '
 '
-bazbar
+foobar
 '
 ]
 )

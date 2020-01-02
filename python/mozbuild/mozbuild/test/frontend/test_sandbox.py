@@ -1090,6 +1090,7 @@ exec_source
 (
 '
 DIRS
++
 =
 [
 "
@@ -1115,6 +1116,9 @@ DIRS
 '
 ]
 [
+'
+foo
+'
 '
 bar
 '
