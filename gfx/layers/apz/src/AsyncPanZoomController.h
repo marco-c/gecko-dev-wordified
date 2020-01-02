@@ -1252,6 +1252,13 @@ const
 TimeStamp
 &
 aSampleTime
+Vector
+<
+Task
+*
+>
+*
+aOutDeferredTasks
 )
 ;
 /
