@@ -2553,11 +2553,10 @@ startCount
 0
 ;
 for
-each
 (
 let
 t
-in
+of
 tabs
 )
 startCount
@@ -2633,11 +2632,10 @@ count
 0
 ;
 for
-each
 (
 let
 t
-in
+of
 tabs
 )
 count

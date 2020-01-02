@@ -383,11 +383,10 @@ privateState
 )
 {
 for
-each
 (
 let
 window
-in
+of
 windows
 )
 {

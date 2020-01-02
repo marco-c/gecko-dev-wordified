@@ -672,11 +672,10 @@ __iterator__
 )
 {
 for
-each
 (
 let
 item
-in
+of
 iterator
 )
 array

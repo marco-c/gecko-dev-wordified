@@ -170,6 +170,9 @@ cfxArgs
 require
 (
 "
+.
+.
+/
 test
 /
 options

@@ -821,11 +821,10 @@ window
 open
 .
 for
-each
 (
 let
 window
-in
+of
 browserWindowIterator
 (
 )

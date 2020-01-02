@@ -1163,10 +1163,9 @@ tab
 )
 ;
 for
-each
 (
 let
-t
+of
 in
 gTabs
 )

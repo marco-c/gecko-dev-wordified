@@ -310,11 +310,10 @@ results
 ]
 ;
 for
-each
 (
 let
 callback
-in
+of
 listeners
 [
 name

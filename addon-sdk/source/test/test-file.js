@@ -600,10 +600,9 @@ found
 [
 true
 for
-each
 (
 name
-in
+of
 list
 )
 if

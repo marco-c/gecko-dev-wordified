@@ -453,11 +453,10 @@ opened
 windows
 .
 for
-each
 (
 let
 window
-in
+of
 browserWindowIterator
 (
 )

@@ -255,11 +255,10 @@ thru
 supported
 windows
 for
-each
 (
 let
 enumWindow
-in
+of
 windows
 )
 {

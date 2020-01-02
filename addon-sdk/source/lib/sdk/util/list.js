@@ -387,11 +387,10 @@ i
 1
 ;
 for
-each
 (
 let
 element
-in
+of
 array
 )
 yield

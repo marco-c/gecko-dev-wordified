@@ -208,11 +208,10 @@ trait
 )
 ;
 for
-each
 (
 let
 key
-in
+of
 keys
 )
 {
@@ -487,11 +486,10 @@ trait
 )
 ;
 for
-each
 (
 let
 key
-in
+of
 keys
 )
 {

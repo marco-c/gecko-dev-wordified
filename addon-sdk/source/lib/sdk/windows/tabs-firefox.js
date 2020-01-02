@@ -628,11 +628,10 @@ unpinned
 )
 ;
 for
-each
 (
 let
 tab
-in
+of
 getTabs
 (
 this
@@ -835,11 +834,10 @@ by
 itself
 .
 for
-each
 (
 let
 tab
-in
+of
 this
 .
 tabs

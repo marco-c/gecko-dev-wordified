@@ -184,11 +184,10 @@ i
 0
 ;
 for
-each
 (
 let
 window
-in
+of
 browserWindows
 )
 {

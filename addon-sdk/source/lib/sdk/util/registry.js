@@ -194,11 +194,10 @@ slice
 )
 ;
 for
-each
 (
 let
 instance
-in
+of
 _registry
 )
 this

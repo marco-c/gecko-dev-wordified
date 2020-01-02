@@ -2865,11 +2865,10 @@ arguments
 )
 ;
 for
-each
 (
 let
 contentScriptFile
-in
+of
 urls
 )
 {
