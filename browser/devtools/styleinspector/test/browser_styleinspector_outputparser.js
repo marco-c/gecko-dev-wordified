@@ -3,6 +3,9 @@
 vim
 :
 set
+ft
+=
+javascript
 ts
 =
 2
@@ -45,6 +48,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -167,10 +175,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 function
 countAll
 (
