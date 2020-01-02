@@ -473,6 +473,12 @@ getNext
 ;
 }
 }
+exports
+.
+allAppShellDOMWindows
+=
+allAppShellDOMWindows
+;
 /
 *
 *
