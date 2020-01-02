@@ -366,9 +366,6 @@ MediaConstraintsInternal
 class
 MediaStreamTrack
 ;
-class
-RTCStatsReportInternal
-;
 #
 ifdef
 USE_FAKE_PCOBSERVER
