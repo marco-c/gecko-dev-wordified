@@ -147,6 +147,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsTableFrame
 .
@@ -182,9 +187,11 @@ h
 "
 #
 include
-<
-algorithm
->
+"
+nsIContent
+.
+h
+"
 using
 namespace
 mozilla

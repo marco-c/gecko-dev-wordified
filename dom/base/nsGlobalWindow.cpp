@@ -357,6 +357,13 @@ WindowNamedPropertiesHandler
 .
 h
 "
+#
+include
+"
+nsFrameSelection
+.
+h
+"
 /
 /
 Helper

@@ -156,6 +156,12 @@ nsTextPaintStyle
 class
 PropertyProvider
 ;
+struct
+SelectionDetails
+;
+class
+nsTextFragment
+;
 typedef
 nsFrame
 nsTextFrameBase
