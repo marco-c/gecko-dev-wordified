@@ -406,13 +406,6 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-RemoveMediaTracks
-(
-)
-MOZ_OVERRIDE
-;
-virtual
-void
 SetMediaEndTime
 (
 int64_t

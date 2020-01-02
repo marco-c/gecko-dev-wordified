@@ -495,11 +495,6 @@ MediaTrack
 aTrack
 )
 ;
-void
-RemoveTracks
-(
-)
-;
 static
 already_AddRefed
 <
