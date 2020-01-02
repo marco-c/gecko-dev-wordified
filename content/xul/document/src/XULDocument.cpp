@@ -21348,7 +21348,7 @@ srcBuf
 uri
 1
 this
-mCurrentPrototype
+mMasterPrototype
 this
 )
 ;
