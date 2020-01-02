@@ -653,6 +653,11 @@ AUDIO_PROCESSING_FRAMES
 0
 }
 ;
+/
+*
+static
+*
+/
 void
 AudioTrackEncoder
 :
@@ -736,7 +741,7 @@ aDuration
 aChunk
 .
 mVolume
-mChannels
+aOutputChannels
 aOutput
 )
 ;
@@ -759,7 +764,7 @@ aDuration
 aChunk
 .
 mVolume
-mChannels
+aOutputChannels
 aOutput
 )
 ;
