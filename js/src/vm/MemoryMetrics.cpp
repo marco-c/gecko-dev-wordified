@@ -1880,7 +1880,7 @@ doesn
 '
 t
 measure
-objectsExtraPrivate
+objectsPrivate
 /
 /
 so
@@ -1924,9 +1924,7 @@ iface
 cStats
 -
 >
-objectsExtra
-.
-private_
+objectsPrivate
 +
 =
 opv

@@ -13625,9 +13625,7 @@ nodes
 )
 cStats
 .
-objectsExtra
-.
-private_
+objectsPrivate
 "
 Memory
 used
