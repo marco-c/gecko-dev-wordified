@@ -558,12 +558,12 @@ cx
 cx
 -
 >
-compartment
+runtime
 (
 )
 -
 >
-jitCompartment
+jitRuntime
 (
 )
 -
