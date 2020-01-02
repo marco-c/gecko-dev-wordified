@@ -1378,7 +1378,11 @@ ArgumentsLength
 )
 SAFE_OP
 (
-GetArgument
+GetFrameArgument
+)
+UNSAFE_OP
+(
+SetFrameArgument
 )
 UNSAFE_OP
 (

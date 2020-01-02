@@ -1084,6 +1084,15 @@ true
 ;
 break
 ;
+case
+JSOP_SETARG
+:
+hasSetArg_
+=
+true
+;
+break
+;
 default
 :
 break
