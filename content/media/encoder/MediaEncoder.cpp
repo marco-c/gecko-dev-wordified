@@ -559,7 +559,7 @@ aTrackTypes
 ContainerWriter
 :
 :
-HAS_VIDEO
+CREATE_VIDEO_TRACK
 )
 )
 )
@@ -571,7 +571,7 @@ aTrackTypes
 ContainerWriter
 :
 :
-HAS_AUDIO
+CREATE_AUDIO_TRACK
 )
 {
 audioEncoder
@@ -657,7 +657,7 @@ aTrackTypes
 ContainerWriter
 :
 :
-HAS_VIDEO
+CREATE_VIDEO_TRACK
 )
 )
 )
@@ -669,7 +669,7 @@ aTrackTypes
 ContainerWriter
 :
 :
-HAS_AUDIO
+CREATE_AUDIO_TRACK
 )
 {
 audioEncoder
@@ -763,7 +763,7 @@ aTrackTypes
 ContainerWriter
 :
 :
-HAS_AUDIO
+CREATE_AUDIO_TRACK
 )
 )
 )

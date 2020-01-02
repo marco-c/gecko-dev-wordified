@@ -227,7 +227,7 @@ if
 (
 aType
 &
-HAS_AUDIO
+CREATE_AUDIO_TRACK
 )
 {
 mType
@@ -240,7 +240,7 @@ if
 (
 aType
 &
-HAS_VIDEO
+CREATE_VIDEO_TRACK
 )
 {
 mType

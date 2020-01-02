@@ -685,7 +685,7 @@ aTrackTypes
 ContainerWriter
 :
 :
-HAS_AUDIO
+CREATE_AUDIO_TRACK
 )
 ;
 /

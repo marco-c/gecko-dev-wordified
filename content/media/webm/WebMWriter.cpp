@@ -330,7 +330,7 @@ mMetadataRequiredFlag
 ContainerWriter
 :
 :
-HAS_VIDEO
+CREATE_VIDEO_TRACK
 ;
 }
 if
@@ -412,7 +412,7 @@ mMetadataRequiredFlag
 ContainerWriter
 :
 :
-HAS_AUDIO
+CREATE_AUDIO_TRACK
 ;
 }
 if

@@ -183,13 +183,13 @@ DOMLocalMediaStream
 TrackTypeHints
 enum
 {
-HAS_AUDIO
+CREATE_AUDIO_TRACK
 =
 1
 <
 <
 0
-HAS_VIDEO
+CREATE_VIDEO_TRACK
 =
 1
 <
