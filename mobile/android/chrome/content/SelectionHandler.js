@@ -1728,6 +1728,9 @@ this
 _initTargetInfo
 (
 aElement
+this
+.
+TYPE_SELECTION
 )
 ;
 /
@@ -3399,6 +3402,9 @@ this
 _initTargetInfo
 (
 aElement
+this
+.
+TYPE_CURSOR
 )
 ;
 /
@@ -3509,6 +3515,7 @@ function
 sh_initTargetInfo
 (
 aElement
+aSelectionType
 )
 {
 this
@@ -3524,6 +3531,17 @@ instanceof
 Ci
 .
 nsIDOMNSEditableElement
+)
+{
+if
+(
+aSelectionType
+=
+=
+=
+this
+.
+TYPE_SELECTION
 )
 {
 /
@@ -3558,6 +3576,7 @@ blur
 (
 )
 ;
+}
 /
 /
 Ensure
