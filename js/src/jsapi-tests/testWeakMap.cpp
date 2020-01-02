@@ -131,10 +131,6 @@ tests
 .
 h
 "
-using
-namespace
-JS
-;
 #
 ifdef
 JSGC_USE_EXACT_ROOTING
@@ -147,6 +143,9 @@ RootedObject
 map
 (
 cx
+JS
+:
+:
 NewWeakMapObject
 (
 cx
@@ -429,6 +428,9 @@ RootedObject
 map
 (
 cx
+JS
+:
+:
 NewWeakMapObject
 (
 cx
