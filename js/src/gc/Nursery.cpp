@@ -4211,7 +4211,6 @@ next
 (
 )
 )
-{
 comp
 -
 >
@@ -4221,16 +4220,6 @@ markAllCrossCompartmentWrappers
 trc
 )
 ;
-comp
--
->
-markAllInitialShapeTableEntries
-(
-&
-trc
-)
-;
-}
 rt
 -
 >

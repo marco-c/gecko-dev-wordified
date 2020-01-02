@@ -1453,14 +1453,6 @@ sweepInitialShapeTable
 (
 )
 ;
-void
-markAllInitialShapeTableEntries
-(
-JSTracer
-*
-trc
-)
-;
 /
 *
 Set
