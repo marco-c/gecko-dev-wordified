@@ -2113,13 +2113,13 @@ event
 )
 )
 ;
-nsDOMDeviceMotionEvent
+DeviceMotionEvent
 *
 me
 =
 static_cast
 <
-nsDOMDeviceMotionEvent
+DeviceMotionEvent
 *
 >
 (
