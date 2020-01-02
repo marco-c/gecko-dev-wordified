@@ -1582,6 +1582,9 @@ GetTextContentInternal
 nsAString
 &
 aTextContent
+ErrorResult
+&
+aError
 )
 {
 OwnerDoc

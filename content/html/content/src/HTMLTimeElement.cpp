@@ -234,9 +234,13 @@ text
 }
 else
 {
+ErrorResult
+rv
+;
 GetTextContentInternal
 (
 text
+rv
 )
 ;
 }

@@ -18019,9 +18019,13 @@ nsAString
 text
 )
 {
+ErrorResult
+rv
+;
 GetTextContentInternal
 (
 text
+rv
 )
 ;
 }
