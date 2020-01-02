@@ -1111,7 +1111,7 @@ cx
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
@@ -1616,7 +1616,7 @@ cx
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
@@ -1775,7 +1775,7 @@ cx
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )

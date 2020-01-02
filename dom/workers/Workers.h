@@ -464,6 +464,12 @@ content
 JSGCSettingsArray
 gcSettings
 ;
+JS
+:
+:
+RuntimeOptions
+runtimeOptions
+;
 #
 ifdef
 JS_GC_ZEAL
