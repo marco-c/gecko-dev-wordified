@@ -600,6 +600,9 @@ MediaSource
 >
 mSource
 ;
+bool
+mSourceIsStopped
+;
 android
 :
 :
