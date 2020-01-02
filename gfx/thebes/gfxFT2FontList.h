@@ -824,6 +824,12 @@ aFNC
 ;
 #
 endif
+nsTHashtable
+<
+nsStringHashKey
+>
+mSkipSpaceLookupCheckFamilies
+;
 }
 ;
 #
