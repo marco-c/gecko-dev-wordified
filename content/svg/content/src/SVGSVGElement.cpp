@@ -4768,7 +4768,7 @@ document
 aDocument
 -
 >
-EnsureCatalogStyleSheet
+EnsureOnDemandBuiltInUASheet
 (
 kSVGStyleSheetURI
 )
