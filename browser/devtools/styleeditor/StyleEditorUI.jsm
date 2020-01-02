@@ -5094,6 +5094,17 @@ theme
 link
 "
 ;
+if
+(
+location
+.
+line
+!
+=
+-
+1
+)
+{
 link
 .
 textContent
@@ -5106,6 +5117,7 @@ location
 .
 line
 ;
+}
 div
 .
 appendChild
