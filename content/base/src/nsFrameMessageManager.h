@@ -287,7 +287,7 @@ class
 nsIContentParent
 ;
 class
-ContentChild
+nsIContentChild
 ;
 class
 ClonedMessageData
@@ -498,7 +498,7 @@ aClonedData
 bool
 BuildClonedMessageDataForChild
 (
-ContentChild
+nsIContentChild
 *
 aChild
 const
