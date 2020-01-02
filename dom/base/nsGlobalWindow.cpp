@@ -52558,6 +52558,7 @@ mLocation
 new
 nsLocation
 (
+this
 docShell
 )
 ;
