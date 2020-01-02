@@ -4982,7 +4982,7 @@ the
 dimensions
 are
 within
-110
+200
 %
 of
 each
@@ -5016,9 +5016,9 @@ maxDimension
 minDimension
 <
 =
-2
+3
 .
-1
+0
 )
 {
 highlightHeight
