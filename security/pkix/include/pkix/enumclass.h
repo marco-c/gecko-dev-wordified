@@ -397,7 +397,7 @@ __pragma
 (
 warning
 (
-disable
+suppress
 :
 4480
 )
