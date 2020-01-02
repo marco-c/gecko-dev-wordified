@@ -12248,6 +12248,12 @@ reset
 -
 button
 {
+min
+-
+width
+:
+0
+;
 margin
 :
 0
