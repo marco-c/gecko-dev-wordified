@@ -257,7 +257,7 @@ mozilla
 dom
 :
 :
-MutationObservingInfoInitializer
+MutationObservingInfo
 ;
 class
 nsDOMMutationRecord
@@ -1894,7 +1894,7 @@ nsTArray
 <
 Nullable
 <
-MutationObservingInfoInitializer
+MutationObservingInfo
 >
 >
 &

@@ -3478,7 +3478,7 @@ rv
 AutoSafeJSContext
 cx
 ;
-MediaStreamConstraintsInitializer
+MediaStreamConstraints
 constraints
 ;
 constraints
