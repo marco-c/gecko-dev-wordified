@@ -2249,14 +2249,6 @@ TypedArrayObject
 >
 (
 )
-|
-|
-IsTypedObjectClass
-(
-getClass
-(
-)
-)
 ;
 }
 #
