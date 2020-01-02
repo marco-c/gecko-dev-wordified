@@ -107,9 +107,7 @@ migrator
 .
 getMigrateData
 (
-"
-FieldOfFlowers
-"
+null
 false
 )
 ;
@@ -390,9 +388,7 @@ resourceTypes
 .
 BOOKMARKS
 null
-"
-FieldOfFlowers
-"
+null
 )
 ;
 }
