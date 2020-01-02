@@ -69,6 +69,8 @@ resource
 /
 tps
 /
+mozmill
+/
 sync
 .
 jsm

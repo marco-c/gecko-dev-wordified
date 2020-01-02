@@ -227,7 +227,7 @@ jsm
 const
 ADDONSGETURL
 =
-'
+"
 http
 :
 /
@@ -242,7 +242,7 @@ http
 :
 4567
 /
-'
+"
 ;
 const
 STATE_ENABLED

@@ -60,6 +60,8 @@ optparse
 import
 os
 import
+re
+import
 sys
 from
 threading
@@ -87,22 +89,23 @@ parser
 .
 add_option
 (
-"
+'
 -
 -
 mobile
-"
+'
                       
 action
 =
-"
+'
 store_true
-"
+'
+                      
 dest
 =
-"
+'
 mobile
-"
+'
                       
 default
 =
@@ -110,39 +113,41 @@ False
                       
 help
 =
-"
+'
 run
 with
 mobile
 settings
-"
+'
 )
     
 parser
 .
 add_option
 (
-"
+'
 -
 -
 testfile
-"
+'
                       
 action
 =
-"
+'
 store
-"
+'
+                      
 type
 =
-"
+'
 string
-"
+'
+                      
 dest
 =
-"
+'
 testfile
-"
+'
                       
 default
 =
@@ -161,14 +166,14 @@ tests
 /
 tps
 /
-test_sync
+all_tests
 .
-js
+json
 '
                       
 help
 =
-"
+'
 path
 to
 the
@@ -176,43 +181,42 @@ test
 file
 to
 run
-"
-                             
-"
 [
 default
 :
 %
 default
 ]
-"
+'
 )
     
 parser
 .
 add_option
 (
-"
+'
 -
 -
 logfile
-"
+'
                       
 action
 =
-"
+'
 store
-"
+'
+                      
 type
 =
-"
+'
 string
-"
+'
+                      
 dest
 =
-"
+'
 logfile
-"
+'
                       
 default
 =
@@ -224,7 +228,7 @@ log
                       
 help
 =
-"
+'
 path
 to
 the
@@ -236,34 +240,36 @@ default
 %
 default
 ]
-"
+'
 )
     
 parser
 .
 add_option
 (
-"
+'
 -
 -
 resultfile
-"
+'
                       
 action
 =
-"
+'
 store
-"
+'
+                      
 type
 =
-"
+'
 string
-"
+'
+                      
 dest
 =
-"
+'
 resultfile
-"
+'
                       
 default
 =
@@ -275,7 +281,7 @@ json
                       
 help
 =
-"
+'
 path
 to
 the
@@ -287,34 +293,36 @@ default
 %
 default
 ]
-"
+'
 )
     
 parser
 .
 add_option
 (
-"
+'
 -
 -
 binary
-"
+'
                       
 action
 =
-"
+'
 store
-"
+'
+                      
 type
 =
-"
+'
 string
-"
+'
+                      
 dest
 =
-"
+'
 binary
-"
+'
                       
 default
 =
@@ -322,7 +330,7 @@ None
                       
 help
 =
-"
+'
 path
 to
 the
@@ -331,9 +339,9 @@ binary
 specified
 either
 as
-"
-                             
-"
+'
+                           
+'
 a
 local
 file
@@ -345,41 +353,43 @@ if
 omitted
 the
 PATH
-"
-                             
-"
+'
+                           
+'
 will
 be
 searched
 ;
-"
+'
 )
     
 parser
 .
 add_option
 (
-"
+'
 -
 -
 configfile
-"
+'
                       
 action
 =
-"
+'
 store
-"
+'
+                      
 type
 =
-"
+'
 string
-"
+'
+                      
 dest
 =
-"
+'
 configfile
-"
+'
                       
 default
 =
@@ -387,7 +397,7 @@ None
                       
 help
 =
-"
+'
 path
 to
 the
@@ -395,43 +405,41 @@ config
 file
 to
 use
-"
-                             
-"
-[
 default
 :
 %
 default
 ]
-"
+'
 )
     
 parser
 .
 add_option
 (
-"
+'
 -
 -
 pulsefile
-"
+'
                       
 action
 =
-"
+'
 store
-"
+'
+                      
 type
 =
-"
+'
 string
-"
+'
+                      
 dest
 =
-"
+'
 pulsefile
-"
+'
                       
 default
 =
@@ -439,7 +447,7 @@ None
                       
 help
 =
-"
+'
 path
 to
 file
@@ -448,9 +456,9 @@ a
 pulse
 message
 in
-"
-                             
-"
+'
+                           
+'
 json
 format
 that
@@ -461,14 +469,14 @@ inject
 into
 the
 monitor
-"
+'
 )
     
 parser
 .
 add_option
 (
-"
+'
 -
 -
 ignore
@@ -476,7 +484,7 @@ ignore
 unused
 -
 engines
-"
+'
                        
 default
 =
@@ -484,24 +492,23 @@ False
                        
 action
 =
-"
+'
 store_true
-"
+'
                        
 dest
 =
-"
+'
 ignore_unused_engines
-"
+'
                        
 help
 =
-"
+'
 If
 defined
-don
-'
-t
+do
+not
 load
 unused
 engines
@@ -509,9 +516,9 @@ in
 individual
 tests
 .
-"
-                             
-"
+'
+                            
+'
 Has
 no
 effect
@@ -519,7 +526,7 @@ for
 pulse
 monitor
 .
-"
+'
 )
     
 (
@@ -601,7 +608,7 @@ F_OK
 raise
 Exception
 (
-"
+'
 Unable
 to
 find
@@ -614,9 +621,9 @@ VIRTUAL_ENV
 ;
 you
 must
-"
+'
                             
-"
+'
 specify
 a
 config
@@ -627,7 +634,7 @@ the
 -
 configfile
 option
-"
+'
 )
     
 #
@@ -691,9 +698,9 @@ config
 .
 get
 (
-"
+'
 extensiondir
-"
+'
 )
     
 if
@@ -721,26 +728,27 @@ os
 getcwd
 (
 )
-"
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
-"
+'
+                                    
+'
 services
-"
-"
+'
+'
 sync
-"
-"
+'
+'
 tps
-"
-"
+'
+'
 extensions
-"
+'
 )
     
 else
@@ -768,9 +776,6 @@ proper
 Windows
 paths
             
-import
-re
-            
 m
 =
 re
@@ -795,14 +800,14 @@ m
                 
 extensionDir
 =
-"
+'
 %
 s
 :
 /
 %
 s
-"
+'
 %
 (
 m
@@ -829,13 +834,13 @@ extensionDir
 .
 replace
 (
-"
+'
 /
-"
-"
+'
+'
 \
 \
-"
+'
 )
     
 TPS
@@ -898,9 +903,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main
