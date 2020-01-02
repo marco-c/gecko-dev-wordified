@@ -1503,16 +1503,6 @@ public
 static
 final
 String
-PREF_EARLIEST_NEXT_SYNC
-=
-"
-earliestnextsync
-"
-;
-public
-static
-final
-String
 PREF_CLUSTER_URL_IS_STALE
 =
 "
