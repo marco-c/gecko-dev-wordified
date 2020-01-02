@@ -114,7 +114,7 @@ assertVisible
 (
 )
 .
-assertCurrentPage
+assertCurrentPanel
 (
 PanelType
 .
@@ -210,7 +210,7 @@ assertVisible
 (
 )
 .
-assertCurrentPage
+assertCurrentPanel
 (
 PanelType
 .
@@ -281,7 +281,7 @@ assertVisible
 (
 )
 .
-assertCurrentPage
+assertCurrentPanel
 (
 PanelType
 .
