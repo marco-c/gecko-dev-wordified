@@ -31430,7 +31430,6 @@ dom_props
 "
 x
 "
-0
 JSPROP_SHARED
 |
 JSPROP_ENUMERATE
