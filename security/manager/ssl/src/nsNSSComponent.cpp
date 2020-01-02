@@ -4229,7 +4229,7 @@ ssl3
 .
 dhe_rsa_des_ede3_sha
 "
-SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA
 true
 }
 /
@@ -4390,7 +4390,7 @@ ssl3
 .
 rsa_des_ede3_sha
 "
-SSL_RSA_WITH_3DES_EDE_CBC_SHA
+TLS_RSA_WITH_3DES_EDE_CBC_SHA
 true
 }
 /
@@ -4410,7 +4410,7 @@ ssl3
 .
 rsa_rc4_128_sha
 "
-SSL_RSA_WITH_RC4_128_SHA
+TLS_RSA_WITH_RC4_128_SHA
 true
 }
 /
@@ -4430,7 +4430,7 @@ ssl3
 .
 rsa_rc4_128_md5
 "
-SSL_RSA_WITH_RC4_128_MD5
+TLS_RSA_WITH_RC4_128_MD5
 true
 }
 /

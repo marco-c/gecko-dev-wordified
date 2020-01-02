@@ -5753,7 +5753,7 @@ value
 break
 ;
 case
-SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA
 :
 value
 =
@@ -5798,7 +5798,7 @@ value
 break
 ;
 case
-SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA
 :
 value
 =
@@ -5934,7 +5934,7 @@ value
 break
 ;
 case
-SSL_RSA_WITH_3DES_EDE_CBC_SHA
+TLS_RSA_WITH_3DES_EDE_CBC_SHA
 :
 value
 =
@@ -5952,7 +5952,7 @@ value
 break
 ;
 case
-SSL_RSA_WITH_RC4_128_SHA
+TLS_RSA_WITH_RC4_128_SHA
 :
 value
 =
@@ -5961,7 +5961,7 @@ value
 break
 ;
 case
-SSL_RSA_WITH_RC4_128_MD5
+TLS_RSA_WITH_RC4_128_MD5
 :
 value
 =
