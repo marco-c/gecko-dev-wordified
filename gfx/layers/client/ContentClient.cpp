@@ -6670,6 +6670,10 @@ surf
 GetSize
 (
 )
+.
+ToIntSize
+(
+)
 )
 ;
 }
