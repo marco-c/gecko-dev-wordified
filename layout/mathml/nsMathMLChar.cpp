@@ -3458,7 +3458,7 @@ nullptr
 ;
 static
 bool
-gInitialized
+gGlyphTableInitialized
 =
 false
 ;
@@ -3638,7 +3638,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-gInitialized
+gGlyphTableInitialized
 =
 false
 ;
@@ -4511,7 +4511,7 @@ aPresContext
 NS_ASSERTION
 (
 !
-gInitialized
+gGlyphTableInitialized
 "
 Error
 -
@@ -4521,7 +4521,7 @@ initialized
 "
 )
 ;
-gInitialized
+gGlyphTableInitialized
 =
 true
 ;
@@ -5042,7 +5042,7 @@ aData
 if
 (
 !
-gInitialized
+gGlyphTableInitialized
 )
 {
 InitGlobals
