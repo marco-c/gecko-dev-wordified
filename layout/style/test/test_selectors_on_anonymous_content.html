@@ -329,10 +329,6 @@ anon_div
 =
 SpecialPowers
 .
-unwrap
-(
-SpecialPowers
-.
 wrap
 (
 document
@@ -341,7 +337,6 @@ document
 getAnonymousNodes
 (
 doc_div
-)
 )
 [
 0
@@ -413,6 +408,13 @@ i
 ;
 is
 (
+SpecialPowers
+.
+wrap
+(
+window
+)
+.
 getComputedStyle
 (
 e
@@ -459,6 +461,13 @@ i
 ;
 is
 (
+SpecialPowers
+.
+wrap
+(
+window
+)
+.
 getComputedStyle
 (
 e

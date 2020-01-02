@@ -252,10 +252,6 @@ anonymousNode
 =
 SpecialPowers
 .
-unwrap
-(
-SpecialPowers
-.
 wrap
 (
 document
@@ -268,11 +264,15 @@ mar
 [
 0
 ]
-)
 ;
 try
 {
+SpecialPowers
+.
+wrap
+(
 document
+)
 .
 implementation
 .
