@@ -71,6 +71,7 @@ __init__
 (
 self
 version
+flavor
 )
 :
         
@@ -98,6 +99,16 @@ split
 [
 0
 ]
+)
+        
+self
+.
+flavor
+=
+flavor
+.
+lower
+(
 )
         
 self
@@ -160,6 +171,28 @@ zip
         
 ]
         
+if
+self
+.
+flavor
+=
+=
+'
+dragonfly
+'
+:
+            
+self
+.
+packages
+.
+append
+(
+'
+unzip
+'
+)
+        
 #
 gcc
 in
@@ -169,6 +202,15 @@ too
 old
         
 if
+self
+.
+flavor
+=
+=
+'
+freebsd
+'
+and
 self
 .
 version
