@@ -622,6 +622,12 @@ cleanUp
 (
 )
 {
+telephony
+.
+onincoming
+=
+null
+;
 finish
 (
 )
