@@ -49736,9 +49736,6 @@ eCSSUnit_Initial
 case
 eCSSUnit_Unset
 :
-case
-eCSSUnit_None
-:
 pos
 -
 >
