@@ -105,6 +105,15 @@ mozilla
 .
 gecko
 .
+AboutPages
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 db
 .
 BrowserContract
@@ -1864,9 +1873,9 @@ HISTORY_ID
 "
 "
 limit
-BrowserDB
+AboutPages
 .
-ABOUT_PAGES_URL_FILTER
+URL_FILTER
 selection
 selectionArgs
 )

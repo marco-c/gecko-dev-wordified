@@ -186,17 +186,6 @@ public
 class
 BrowserDB
 {
-public
-static
-String
-ABOUT_PAGES_URL_FILTER
-=
-"
-about
-:
-%
-"
-;
 private
 static
 boolean

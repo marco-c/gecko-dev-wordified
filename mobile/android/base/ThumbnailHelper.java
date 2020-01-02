@@ -456,13 +456,9 @@ tab
 {
 if
 (
-"
-about
-:
-home
-"
+AboutPages
 .
-equals
+isAboutHome
 (
 tab
 .
