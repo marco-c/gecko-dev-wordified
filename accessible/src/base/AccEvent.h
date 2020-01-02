@@ -437,13 +437,6 @@ aEventRule
 eRemoveDupes
 )
 ;
-virtual
-~
-AccEvent
-(
-)
-{
-}
 /
 /
 AccEvent
@@ -590,6 +583,13 @@ AccEvent
 )
 protected
 :
+virtual
+~
+AccEvent
+(
+)
+{
+}
 bool
 mIsFromUserInput
 ;

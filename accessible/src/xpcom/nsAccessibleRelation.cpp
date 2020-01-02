@@ -188,6 +188,15 @@ false
 )
 ;
 }
+nsAccessibleRelation
+:
+:
+~
+nsAccessibleRelation
+(
+)
+{
+}
 /
 /
 nsISupports

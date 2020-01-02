@@ -365,6 +365,15 @@ required
 )
 ;
 }
+nsAccessiblePivot
+:
+:
+~
+nsAccessiblePivot
+(
+)
+{
+}
 /
 /
 /

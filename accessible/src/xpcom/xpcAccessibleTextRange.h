@@ -462,6 +462,12 @@ xpcAccessibleTextRange
 )
 {
 }
+~
+xpcAccessibleTextRange
+(
+)
+{
+}
 friend
 class
 xpcAccessibleHyperText

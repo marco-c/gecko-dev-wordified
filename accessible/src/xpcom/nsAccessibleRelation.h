@@ -176,6 +176,11 @@ nsAccessibleRelation
 (
 )
 ;
+~
+nsAccessibleRelation
+(
+)
+;
 nsAccessibleRelation
 (
 const
