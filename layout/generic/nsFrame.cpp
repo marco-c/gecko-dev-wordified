@@ -47476,7 +47476,7 @@ returned
 static
 nsIFrame
 *
-GetIBSpecialSiblingForAnonymousBlock
+GetIBSplitSiblingForAnonymousBlock
 (
 const
 nsIFrame
@@ -47510,7 +47510,7 @@ GetStateBits
 &
 NS_FRAME_PART_OF_IBSPLIT
 "
-GetIBSpecialSibling
+GetIBSplitSibling
 should
 not
 be
@@ -48090,7 +48090,7 @@ nsIFrame
 *
 sibling
 =
-GetIBSpecialSiblingForAnonymousBlock
+GetIBSplitSiblingForAnonymousBlock
 (
 parent
 )
@@ -48460,7 +48460,7 @@ get
 to
 it
 using
-GetIBSpecialSiblingForAnonymousBlock
+GetIBSplitSiblingForAnonymousBlock
 .
 *
 /
@@ -48475,7 +48475,7 @@ nsIFrame
 *
 specialSibling
 =
-GetIBSpecialSiblingForAnonymousBlock
+GetIBSplitSiblingForAnonymousBlock
 (
 this
 )
