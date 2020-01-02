@@ -1783,6 +1783,15 @@ if
 inst
 -
 >
+isRecoveredOnBailout
+(
+)
+&
+&
+!
+inst
+-
+>
 hasLiveDefUses
 (
 )
