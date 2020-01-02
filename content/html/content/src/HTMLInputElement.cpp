@@ -6289,6 +6289,10 @@ mPickerRunning
 (
 false
 )
+mSelectionCached
+(
+true
+)
 {
 /
 /
