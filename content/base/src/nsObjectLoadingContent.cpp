@@ -1484,6 +1484,9 @@ Run
 if
 (
 mDocument
+&
+&
+mDocument
 -
 >
 IsActive
