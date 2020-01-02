@@ -843,7 +843,7 @@ nsICSSLoaderObserver
 NS_IMETHOD
 StyleSheetLoaded
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 bool
@@ -1696,7 +1696,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 >
 mOverlaySheets

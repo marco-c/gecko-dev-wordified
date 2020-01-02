@@ -114,14 +114,14 @@ nsWrapperCache
 h
 "
 class
-nsCSSStyleSheet
-;
-class
 nsINode
 ;
 namespace
 mozilla
 {
+class
+CSSStyleSheet
+;
 namespace
 dom
 {
@@ -188,7 +188,7 @@ Length
 0
 ;
 virtual
-nsCSSStyleSheet
+CSSStyleSheet
 *
 IndexedGetter
 (
@@ -201,7 +201,7 @@ aFound
 =
 0
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 Item
 (

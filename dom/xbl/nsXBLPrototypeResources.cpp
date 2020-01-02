@@ -490,7 +490,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 >
 oldSheets
@@ -542,7 +542,7 @@ count
 i
 )
 {
-nsCSSStyleSheet
+CSSStyleSheet
 *
 oldSheet
 =
@@ -564,7 +564,7 @@ GetSheetURI
 ;
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 newSheet
 ;
@@ -718,7 +718,7 @@ nsXBLPrototypeResources
 :
 AppendStyleSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -737,7 +737,7 @@ nsXBLPrototypeResources
 :
 RemoveStyleSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -781,7 +781,7 @@ InsertStyleSheetAt
 (
 size_t
 aIndex
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -795,7 +795,7 @@ aSheet
 )
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsXBLPrototypeResources
 :
@@ -857,7 +857,7 @@ AppendStyleSheetsTo
 (
 nsTArray
 <
-nsCSSStyleSheet
+CSSStyleSheet
 *
 >
 &

@@ -3100,7 +3100,7 @@ sheet
 ;
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 cssSheet
 =
@@ -20605,7 +20605,7 @@ nsCSSRuleProcessor
 :
 CascadeSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 CascadeEnumData
@@ -20645,7 +20645,7 @@ aSheet
 mInner
 )
 {
-nsCSSStyleSheet
+CSSStyleSheet
 *
 child
 =

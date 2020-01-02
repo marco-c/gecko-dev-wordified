@@ -133,6 +133,15 @@ include
 "
 mozilla
 /
+CSSStyleSheet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -189,13 +198,6 @@ h
 include
 "
 nsIXULRuntime
-.
-h
-"
-#
-include
-"
-nsCSSStyleSheet
 .
 h
 "
@@ -356,7 +358,7 @@ return
 NS_OK
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -466,7 +468,7 @@ gStyleCache
 mScrollbarsSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -575,7 +577,7 @@ gStyleCache
 mFormsSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -687,7 +689,7 @@ gStyleCache
 mNumberControlSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -715,7 +717,7 @@ gStyleCache
 mUserContentSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -743,7 +745,7 @@ gStyleCache
 mUserChromeSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -771,7 +773,7 @@ gStyleCache
 mUASheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -799,7 +801,7 @@ gStyleCache
 mHTMLSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -827,7 +829,7 @@ gStyleCache
 mMinimalXULSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -855,7 +857,7 @@ gStyleCache
 mXULSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -883,7 +885,7 @@ gStyleCache
 mQuirkSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -911,7 +913,7 @@ gStyleCache
 mFullScreenOverrideSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -939,7 +941,7 @@ gStyleCache
 mSVGSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -1036,7 +1038,7 @@ gStyleCache
 mMathMLSheet
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 nsLayoutStylesheetCache
 :
@@ -2111,7 +2113,7 @@ nsIFile
 aFile
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 &
 aSheet
@@ -2172,7 +2174,7 @@ nsIURI
 aURI
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 &
 aSheet

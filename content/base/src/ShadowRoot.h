@@ -263,7 +263,7 @@ aId
 void
 InsertSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 nsIContent
@@ -274,7 +274,7 @@ aLinkingContent
 void
 RemoveSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -1148,7 +1148,7 @@ Length
 MOZ_OVERRIDE
 ;
 virtual
-nsCSSStyleSheet
+CSSStyleSheet
 *
 IndexedGetter
 (
