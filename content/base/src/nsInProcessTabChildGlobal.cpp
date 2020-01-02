@@ -1247,10 +1247,6 @@ this
 )
 )
 ;
-mGlobal
-=
-nullptr
-;
 }
 else
 {
