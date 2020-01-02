@@ -14566,6 +14566,11 @@ if
 SelectionMgr
 (
 )
+&
+&
+SelectionMgr
+(
+)
 -
 >
 AccessibleWithCaret
