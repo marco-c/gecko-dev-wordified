@@ -1941,6 +1941,10 @@ CompositionOp
 :
 :
 OP_OVER
+bool
+aColorMatrix
+=
+false
 )
 const
 ;

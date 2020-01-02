@@ -268,6 +268,12 @@ uTexCoordMultiplier
 "
 uTexturePass2
 "
+"
+uColorMatrix
+"
+"
+uColorMatrixVector
+"
 nullptr
 }
 ;
