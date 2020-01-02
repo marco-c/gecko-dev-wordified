@@ -552,6 +552,13 @@ const
 bool
 &
 isRepeatTransaction
+const
+mozilla
+:
+:
+TimeStamp
+&
+aTransactionStart
 EditReplyArray
 *
 reply
@@ -590,6 +597,13 @@ const
 bool
 &
 isRepeatTransaction
+const
+mozilla
+:
+:
+TimeStamp
+&
+aTransactionStart
 )
 MOZ_OVERRIDE
 ;

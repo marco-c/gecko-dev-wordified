@@ -2037,6 +2037,13 @@ uint32_t
 aPaintSequenceNumber
 bool
 aIsRepeatTransaction
+const
+mozilla
+:
+:
+TimeStamp
+&
+aTransactionStart
 bool
 *
 aSent

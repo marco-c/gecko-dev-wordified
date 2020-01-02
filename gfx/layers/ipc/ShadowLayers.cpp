@@ -2941,6 +2941,13 @@ uint32_t
 aPaintSequenceNumber
 bool
 aIsRepeatTransaction
+const
+mozilla
+:
+:
+TimeStamp
+&
+aTransactionStart
 bool
 *
 aSent
@@ -4038,6 +4045,7 @@ mIsFirstPaint
 aScheduleComposite
 aPaintSequenceNumber
 aIsRepeatTransaction
+aTransactionStart
 aReplies
 )
 )
@@ -4153,6 +4161,7 @@ mIsFirstPaint
 aScheduleComposite
 aPaintSequenceNumber
 aIsRepeatTransaction
+aTransactionStart
 )
 )
 {

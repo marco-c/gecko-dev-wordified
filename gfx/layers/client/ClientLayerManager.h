@@ -1872,6 +1872,12 @@ OverfillCallback
 >
 mOverfillCallbacks
 ;
+mozilla
+:
+:
+TimeStamp
+mTransactionStart
+;
 /
 /
 indexed
