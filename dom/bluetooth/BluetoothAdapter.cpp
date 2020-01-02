@@ -476,10 +476,6 @@ BluetoothDevice
 >
 devices
 ;
-JSObject
-*
-JsDevices
-;
 for
 (
 uint32_t
@@ -644,6 +640,12 @@ GetNativeContext
 (
 )
 )
+;
+JSObject
+*
+JsDevices
+=
+nullptr
 ;
 rv
 =
