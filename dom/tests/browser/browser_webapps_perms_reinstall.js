@@ -888,8 +888,6 @@ dist
 /
 test
 -
-package
--
 stage
 /
 mochitest
@@ -910,8 +908,6 @@ dist
 "
 "
 test
--
-package
 -
 stage
 "
