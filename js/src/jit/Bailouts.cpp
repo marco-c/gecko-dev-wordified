@@ -428,6 +428,10 @@ snapshotsListSize
 (
 )
 )
+recover_
+(
+snapshot_
+)
 fp_
 (
 iter
