@@ -617,7 +617,7 @@ masm
 .
 loadValue
 (
-Operand
+Address
 (
 ToRegister
 (
@@ -987,7 +987,7 @@ masm
 .
 loadValue
 (
-Operand
+Address
 (
 base
 offset
@@ -1086,9 +1086,9 @@ output
 else
 masm
 .
-movl
+load32
 (
-Operand
+Address
 (
 base
 offset
@@ -5868,9 +5868,9 @@ failPopDouble
 ;
 masm
 .
-movl
+load32
 (
-Operand
+Address
 (
 esp
 4
@@ -5951,9 +5951,9 @@ back
 .
 masm
 .
-movl
+load32
 (
-Operand
+Address
 (
 esp
 0

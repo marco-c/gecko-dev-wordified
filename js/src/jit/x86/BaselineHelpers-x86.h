@@ -257,9 +257,9 @@ into
 BaselineStubReg
 masm
 .
-movl
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -361,9 +361,9 @@ stub
 .
 masm
 .
-movl
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -541,7 +541,7 @@ masm
 store32
 (
 ebx
-Operand
+Address
 (
 BaselineFrameReg
 BaselineFrame
@@ -805,7 +805,7 @@ masm
 store32
 (
 scratch
-Operand
+Address
 (
 BaselineFrameReg
 BaselineFrame
@@ -1383,9 +1383,9 @@ stub
 .
 masm
 .
-movl
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -1710,9 +1710,9 @@ into
 BaselineStubReg
 masm
 .
-movl
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (

@@ -257,9 +257,9 @@ into
 BaselineStubReg
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -343,9 +343,9 @@ stub
 .
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -1346,9 +1346,9 @@ stub
 .
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -1673,9 +1673,9 @@ into
 BaselineStubReg
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 ICStub

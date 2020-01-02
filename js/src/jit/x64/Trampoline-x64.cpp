@@ -3084,9 +3084,9 @@ rcx
 .
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 rsp
 IonRectifierFrameLayout
@@ -3141,9 +3141,9 @@ actual
 arguments
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 rsp
 IonRectifierFrameLayout
@@ -3425,9 +3425,9 @@ JITted
 .
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 rax
 JSFunction

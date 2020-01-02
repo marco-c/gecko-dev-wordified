@@ -7869,9 +7869,9 @@ Register
 dest
 )
 {
-movq
+loadPtr
 (
-Operand
+Address
 (
 StackPointer
 0x0
@@ -8557,10 +8557,10 @@ Register
 pt
 )
 {
-mov
+storePtr
 (
 StackPointer
-Operand
+Address
 (
 pt
 offsetof
