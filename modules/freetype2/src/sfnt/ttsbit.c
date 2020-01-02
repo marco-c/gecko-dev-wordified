@@ -5270,6 +5270,8 @@ loader
 =
 tt_sbit_decoder_load_png
 ;
+break
+;
 #
 else
 error
@@ -5279,6 +5281,9 @@ FT_THROW
 Unimplemented_Feature
 )
 ;
+goto
+Fail
+;
 #
 endif
 /
@@ -5286,8 +5291,6 @@ endif
 FT_CONFIG_OPTION_USE_PNG
 *
 /
-break
-;
 default
 :
 error
