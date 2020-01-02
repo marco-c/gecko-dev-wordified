@@ -1419,6 +1419,15 @@ if
 (
 !
 atomsZone
+|
+|
+!
+atomsZone
+-
+>
+init
+(
+)
 )
 return
 false
