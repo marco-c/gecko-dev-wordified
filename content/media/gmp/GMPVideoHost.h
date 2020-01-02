@@ -248,7 +248,7 @@ aFrame
 /
 GMPVideoHost
 virtual
-GMPVideoErr
+GMPErr
 CreateFrame
 (
 GMPVideoFrameFormat
@@ -261,7 +261,7 @@ aFrame
 MOZ_OVERRIDE
 ;
 virtual
-GMPVideoErr
+GMPErr
 CreatePlane
 (
 GMPPlane

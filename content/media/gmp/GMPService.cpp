@@ -848,7 +848,7 @@ GMPVideoHost
 *
 *
 aOutVideoHost
-GMPVideoDecoder
+GMPVideoDecoderProxy
 *
 *
 aGMPVD
@@ -997,7 +997,7 @@ GMPVideoHost
 *
 *
 aOutVideoHost
-GMPVideoEncoder
+GMPVideoEncoderProxy
 *
 *
 aGMPVE
