@@ -3893,7 +3893,7 @@ i
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 -

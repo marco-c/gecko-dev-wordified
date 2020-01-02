@@ -2437,7 +2437,7 @@ arg
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 -

@@ -27102,6 +27102,14 @@ cx
 scriptArg
 )
 ;
+script
+-
+>
+ensureNonLazyCanonicalFunction
+(
+cx
+)
+;
 RootedFunction
 fun
 (
@@ -27109,7 +27117,7 @@ cx
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )

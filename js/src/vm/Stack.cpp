@@ -1894,7 +1894,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 this
@@ -1945,7 +1945,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 hasPushedSPSFrame
@@ -5234,7 +5234,7 @@ script
 )
 -
 >
-function
+functionNonDelazifying
 (
 )
 ;

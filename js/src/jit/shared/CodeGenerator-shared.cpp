@@ -1842,7 +1842,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 ;

@@ -1921,13 +1921,6 @@ script
 AutoSafeJSContext
 cx
 ;
-/
-/
-NB
-:
-Actually
-unused
-.
 return
 JS_GetScriptFunction
 (

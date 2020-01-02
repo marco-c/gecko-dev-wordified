@@ -2486,6 +2486,18 @@ runtime
 )
 )
 ;
+state
+.
+script
+(
+)
+-
+>
+ensureNonLazyCanonicalFunction
+(
+cx
+)
+;
 #
 ifdef
 JS_ION
@@ -9867,7 +9879,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 REGS
@@ -9943,7 +9955,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 activation
@@ -11667,7 +11679,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 REGS
@@ -21349,7 +21361,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 REGS
@@ -22260,7 +22272,7 @@ JS_ASSERT
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )
@@ -23795,7 +23807,7 @@ if
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 -
@@ -23817,7 +23829,7 @@ cx
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 types

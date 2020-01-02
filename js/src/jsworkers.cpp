@@ -3587,7 +3587,7 @@ cx
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )

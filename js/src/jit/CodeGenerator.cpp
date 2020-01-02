@@ -22857,7 +22857,7 @@ ImmGCPtr
 (
 info
 .
-fun
+funMaybeLazy
 (
 )
 )

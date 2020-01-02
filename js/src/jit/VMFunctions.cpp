@@ -3438,7 +3438,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )
@@ -3471,7 +3471,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )
