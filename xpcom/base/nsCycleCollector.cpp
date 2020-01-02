@@ -9099,6 +9099,10 @@ nsCycleCollectionNoteRootCallback
 {
 private
 :
+GCGraph
+&
+mGraph
+;
 CycleCollectorResults
 &
 mResults
@@ -9114,13 +9118,6 @@ EdgePool
 :
 Builder
 mEdgeBuilder
-;
-nsTArray
-<
-WeakMapping
->
-&
-mWeakMaps
 ;
 PLDHashTable
 mPtrToNodeMap
@@ -9617,6 +9614,10 @@ bool
 aMergeZones
 )
 :
+mGraph
+(
+aGraph
+)
 mResults
 (
 aResults
@@ -9632,12 +9633,6 @@ mEdgeBuilder
 aGraph
 .
 mEdges
-)
-mWeakMaps
-(
-aGraph
-.
-mWeakMaps
 )
 mJSParticipant
 (
@@ -10746,6 +10741,8 @@ WeakMapping
 *
 mapping
 =
+mGraph
+.
 mWeakMaps
 .
 AppendElement
