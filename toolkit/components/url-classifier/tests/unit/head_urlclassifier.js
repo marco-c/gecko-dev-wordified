@@ -886,7 +886,6 @@ doSimpleUpdate
 updateText
 success
 failure
-clientKey
 )
 {
 var
@@ -991,7 +990,6 @@ malware
 -
 simple
 "
-clientKey
 )
 ;
 dbservice
@@ -1184,7 +1182,6 @@ updateText
 success
 failure
 downloadFailure
-clientKey
 )
 {
 var
@@ -1233,7 +1230,6 @@ simple
 "
 "
 "
-clientKey
 success
 failure
 downloadFailure
@@ -1690,7 +1686,6 @@ updates
 assertions
 successCallback
 errorCallback
-clientKey
 )
 {
 var
@@ -1738,7 +1733,6 @@ update
 runUpdate
 errorUpdate
 null
-clientKey
 )
 ;
 }
