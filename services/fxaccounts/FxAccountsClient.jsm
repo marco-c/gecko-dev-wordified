@@ -676,7 +676,7 @@ a
 session
 token
 *
-isVerified
+verified
 :
 flag
 indicating

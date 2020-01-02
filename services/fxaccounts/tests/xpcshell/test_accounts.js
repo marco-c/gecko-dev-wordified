@@ -924,7 +924,7 @@ kB
 "
 cafe
 "
-isVerified
+verified
 :
 true
 }
@@ -1344,7 +1344,7 @@ do_check_eq
 (
 user
 .
-isVerified
+verified
 true
 )
 ;
@@ -1418,7 +1418,7 @@ do_check_eq
 (
 user
 .
-isVerified
+verified
 false
 )
 ;
@@ -1763,7 +1763,7 @@ get
 keys
 user
 .
-isVerified
+verified
 =
 true
 ;
@@ -1901,7 +1901,7 @@ do_check_eq
 !
 user
 .
-isVerified
+verified
 true
 )
 ;
@@ -2248,7 +2248,7 @@ do_check_eq
 (
 user
 .
-isVerified
+verified
 true
 )
 ;
@@ -2336,7 +2336,7 @@ do_check_eq
 (
 user
 .
-isVerified
+verified
 false
 )
 ;
@@ -2511,7 +2511,7 @@ expandHex
 66
 "
 )
-isVerified
+verified
 :
 true
 }
@@ -2524,7 +2524,7 @@ kA
 /
 kB
 /
-isVerified
+verified
 in
 "
 creds
@@ -3556,7 +3556,7 @@ expandHex
 44
 "
 )
-isVerified
+verified
 :
 false
 }

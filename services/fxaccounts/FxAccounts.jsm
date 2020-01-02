@@ -1123,7 +1123,7 @@ s
 FxA
 password
 *
-isVerified
+verified
 :
 email
 verification
@@ -2319,7 +2319,7 @@ data
 &
 data
 .
-isVerified
+verified
 )
 ;
 }
@@ -2514,7 +2514,7 @@ if
 (
 data
 .
-isVerified
+verified
 )
 {
 log
@@ -2919,7 +2919,7 @@ data
 {
 data
 .
-isVerified
+verified
 =
 true
 ;
@@ -3392,7 +3392,7 @@ get
 must
 check
 .
-isVerified
+verified
 .
 /
 /
@@ -3496,7 +3496,7 @@ if
 (
 userdata
 .
-isVerified
+verified
 (
 )
 )
@@ -3574,7 +3574,7 @@ an
 unused
 keyFetchToken
 *
-isVerified
+verified
 :
 true
 /
@@ -3825,7 +3825,7 @@ s
 FxA
 password
 *
-isVerified
+verified
 :
 email
 verification
