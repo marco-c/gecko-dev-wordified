@@ -1363,6 +1363,10 @@ bool
 aIsEmergency
 bool
 aIsConference
+bool
+aIsSwitchable
+bool
+aIsMergeable
 )
 {
 NS_ENSURE_TRUE
@@ -1385,6 +1389,8 @@ aIsActive
 aIsOutgoing
 aIsEmergency
 aIsConference
+aIsSwitchable
+aIsMergeable
 )
 ;
 return
@@ -1471,6 +1477,10 @@ bool
 aIsEmergency
 bool
 aIsConference
+bool
+aIsSwitchable
+bool
+aIsMergeable
 )
 {
 MOZ_CRASH
@@ -2039,6 +2049,10 @@ bool
 aIsEmergency
 bool
 aIsConference
+bool
+aIsSwitchable
+bool
+aIsMergeable
 )
 {
 MOZ_CRASH
@@ -2126,6 +2140,10 @@ bool
 aIsEmergency
 bool
 aIsConference
+bool
+aIsSwitchable
+bool
+aIsMergeable
 )
 {
 NS_ENSURE_TRUE
@@ -2148,6 +2166,8 @@ aIsActive
 aIsOutgoing
 aIsEmergency
 aIsConference
+aIsSwitchable
+aIsMergeable
 )
 ;
 return
