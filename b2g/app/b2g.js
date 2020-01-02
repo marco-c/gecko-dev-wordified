@@ -9111,6 +9111,16 @@ throttle
 40
 )
 ;
+pref
+(
+"
+apz
+.
+pan_repaint_interval
+"
+40
+)
+;
 /
 /
 This
