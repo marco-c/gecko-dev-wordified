@@ -1119,12 +1119,6 @@ nsRect
 aHookRect
 )
 ;
-nsFrameSelection
-*
-GetFrameSelection
-(
-)
-;
 /
 /
 Returns
