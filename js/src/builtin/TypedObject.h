@@ -1163,7 +1163,7 @@ const
 return
 getReservedSlot
 (
-JS_TYPEOBJ_SLOT_TYPE_REPR
+JS_DESCR_SLOT_TYPE_REPR
 )
 .
 toObject
@@ -1872,7 +1872,7 @@ elementType
 return
 getReservedSlot
 (
-JS_TYPEOBJ_SLOT_ARRAY_ELEM_TYPE
+JS_DESCR_SLOT_ARRAY_ELEM_TYPE
 )
 .
 toObject
@@ -1925,7 +1925,7 @@ elementType
 return
 getReservedSlot
 (
-JS_TYPEOBJ_SLOT_ARRAY_ELEM_TYPE
+JS_DESCR_SLOT_ARRAY_ELEM_TYPE
 )
 .
 toObject
