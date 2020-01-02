@@ -630,10 +630,11 @@ virtual
 bool
 IsEditable
 (
-nsIContent
+nsINode
 *
 aNode
 )
+MOZ_OVERRIDE
 ;
 using
 nsEditor
