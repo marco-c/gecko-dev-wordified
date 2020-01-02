@@ -255,7 +255,7 @@ png
 #
 downloads
 -
-indicator
+button
 [
 attention
 ]
@@ -333,7 +333,7 @@ paused
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -393,7 +393,7 @@ size
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -454,7 +454,7 @@ png
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -609,7 +609,7 @@ png
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -679,7 +679,7 @@ png
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -758,7 +758,7 @@ png
 #
 downloads
 -
-indicator
+button
 [
 attention
 ]
@@ -807,7 +807,7 @@ png
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -1036,7 +1036,7 @@ scale
 #
 downloads
 -
-indicator
+button
 [
 notification
 =
@@ -1111,7 +1111,7 @@ resolution
 #
 downloads
 -
-indicator
+button
 [
 notification
 =
@@ -1167,7 +1167,7 @@ png
 #
 downloads
 -
-indicator
+button
 [
 notification
 =
@@ -1261,7 +1261,7 @@ scale
 #
 downloads
 -
-indicator
+button
 [
 notification
 =
@@ -1336,7 +1336,7 @@ resolution
 #
 downloads
 -
-indicator
+button
 [
 notification
 =
@@ -1801,7 +1801,7 @@ radius
 #
 downloads
 -
-indicator
+button
 [
 paused
 ]
@@ -1849,7 +1849,7 @@ rgb
 #
 downloads
 -
-indicator
+button
 [
 paused
 ]
