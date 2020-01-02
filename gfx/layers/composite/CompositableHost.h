@@ -1714,8 +1714,9 @@ char
 *
 aPrefix
 )
-{
-}
+=
+0
+;
 virtual
 void
 UseTextureHost
