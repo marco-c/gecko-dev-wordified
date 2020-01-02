@@ -94,6 +94,9 @@ nsCycleCollectionParticipant
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -591,6 +594,14 @@ mIsClosed
 static
 uint32_t
 sCount
+;
+private
+:
+nsIPrincipal
+*
+GetPrincipal
+(
+)
 ;
 }
 ;

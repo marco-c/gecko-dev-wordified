@@ -2439,6 +2439,13 @@ const
 nsString
 &
 aLang
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 )
 ;
 virtual
@@ -2449,6 +2456,13 @@ const
 nsString
 &
 aName
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 )
 ;
 virtual
