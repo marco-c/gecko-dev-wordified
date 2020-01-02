@@ -14020,10 +14020,6 @@ mCachedContentIsPartial
 =
 false
 ;
-mConcurentCacheAccess
-=
-0
-;
 /
 /
 notify
@@ -34262,6 +34258,10 @@ mUpgradeProtocolCallback
 ;
 }
 }
+mIsPending
+=
+false
+;
 /
 /
 if
@@ -34535,10 +34535,6 @@ rv
 }
 }
 }
-mIsPending
-=
-false
-;
 mStatus
 =
 status
