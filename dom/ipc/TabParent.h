@@ -1889,6 +1889,11 @@ AllowContentIME
 (
 )
 ;
+nsIntPoint
+GetChildProcessOffset
+(
+)
+;
 virtual
 PRenderFrameParent
 *
@@ -1959,6 +1964,12 @@ mIMECompositionStart
 ;
 uint32_t
 mIMESeqno
+;
+uint32_t
+mIMECompositionRectOffset
+;
+nsIntRect
+mIMECompositionRect
 ;
 /
 /
