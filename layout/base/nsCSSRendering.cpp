@@ -11316,7 +11316,7 @@ aClipState
 >
 mBGClipArea
 =
-aBorderArea
+clipBorderArea
 ;
 aClipState
 -
