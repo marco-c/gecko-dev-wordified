@@ -284,7 +284,7 @@ channel_
 codec_
 -
 >
-GetReceiveCodecStastistics
+GetReceiveCodecStatistics
 (
 channel_
 stats
