@@ -2631,7 +2631,7 @@ the
 /
 array
 .
-nsTextRangeArray
+TextRangeArray
 rangeArray
 ;
 /
@@ -3954,13 +3954,6 @@ mozilla
 :
 TextRange
 nsTextRange
-;
-typedef
-mozilla
-:
-:
-TextRangeArray
-nsTextRangeArray
 ;
 typedef
 mozilla
