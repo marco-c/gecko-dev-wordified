@@ -1345,9 +1345,6 @@ BuildSourcePaint
 SourceInfo
 *
 aPrimitive
-gfxASurface
-*
-aTargetSurface
 DrawTarget
 *
 aTargetDT
@@ -1391,9 +1388,6 @@ respectively
 nsresult
 BuildSourcePaints
 (
-gfxASurface
-*
-aTargetSurface
 DrawTarget
 *
 aTargetDT
@@ -1428,9 +1422,6 @@ mSourceSurface
 nsresult
 BuildSourceImage
 (
-gfxASurface
-*
-aTargetSurface
 DrawTarget
 *
 aTargetDT
