@@ -694,7 +694,7 @@ for
 audio
 elements
 .
-void
+nsresult
 UpdatePosterSource
 (
 bool
