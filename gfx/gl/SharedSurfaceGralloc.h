@@ -237,9 +237,6 @@ GLLibraryEGL
 const
 mEGL
 ;
-EGLSync
-mSync
-;
 RefPtr
 <
 layers
@@ -312,10 +309,6 @@ hasAlpha
 mEGL
 (
 egl
-)
-mSync
-(
-0
 )
 mAllocator
 (
