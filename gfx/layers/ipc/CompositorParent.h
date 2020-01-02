@@ -1781,7 +1781,6 @@ APZCTreeManager
 >
 mApzcTreeManager
 ;
-const
 nsRefPtr
 <
 CompositorThreadHolder
@@ -1791,6 +1790,15 @@ mCompositorThreadHolder
 DISALLOW_EVIL_CONSTRUCTORS
 (
 CompositorParent
+)
+;
+friend
+void
+DeferredDeleteCompositorParentOnMainThread
+(
+CompositorParent
+*
+aNowReadyToDie
 )
 ;
 }
