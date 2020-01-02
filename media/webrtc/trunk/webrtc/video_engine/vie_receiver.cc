@@ -1965,7 +1965,7 @@ get
 if
 (
 !
-receiving_
+receiving_rtcp_
 )
 {
 return
