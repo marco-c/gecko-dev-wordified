@@ -3660,6 +3660,12 @@ watch
 unwatch
 *
 /
+nullptr
+/
+*
+slice
+*
+/
 with_Enumerate
 with_ThisObject
 }
