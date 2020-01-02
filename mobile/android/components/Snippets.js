@@ -1692,6 +1692,8 @@ action
 banner
 "
 null
+message
+.
 id
 )
 ;
@@ -1752,6 +1754,8 @@ cancel
 banner
 "
 null
+message
+.
 id
 )
 ;
@@ -2945,7 +2949,9 @@ action
 banner
 "
 null
-id
+"
+syncpromo
+"
 )
 ;
 }
@@ -3013,7 +3019,9 @@ cancel
 banner
 "
 null
-id
+"
+syncpromo
+"
 )
 ;
 }
