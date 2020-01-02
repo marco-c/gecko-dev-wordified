@@ -17345,7 +17345,7 @@ getStr
 "
 charts
 .
-totalTime
+totalTime2
 "
 )
 cached
@@ -17478,7 +17478,7 @@ getStr
 "
 charts
 .
-totalTime
+totalTime2
 "
 )
 cached
@@ -18206,7 +18206,7 @@ getFormatStr
 "
 charts
 .
-totalMS
+totalS
 "
 time
 )
