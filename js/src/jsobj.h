@@ -2600,6 +2600,7 @@ HeapSlot
 )
 ;
 }
+static
 bool
 rollbackProperties
 (
@@ -2609,6 +2610,11 @@ js
 ExclusiveContext
 *
 cx
+js
+:
+:
+HandleObject
+obj
 uint32_t
 slotSpan
 )
