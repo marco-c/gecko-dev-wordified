@@ -95,7 +95,7 @@ template
 <
 class
 >
-class
+struct
 already_AddRefed
 ;
 namespace

@@ -140,7 +140,7 @@ template
 <
 typename
 >
-class
+struct
 already_AddRefed
 ;
 #
