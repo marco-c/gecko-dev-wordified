@@ -1393,10 +1393,8 @@ nullptr
 }
 private
 :
-nsRefPtr
-<
 RtspMediaResource
->
+*
 mResource
 ;
 }
