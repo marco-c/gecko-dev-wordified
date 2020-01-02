@@ -2153,7 +2153,7 @@ defaultPrevented
 =
 utils
 .
-sendPointerEvent
+sendPointerEventToWindow
 (
 aEvent
 .
@@ -2174,7 +2174,7 @@ else
 {
 utils
 .
-sendPointerEvent
+sendPointerEventToWindow
 (
 "
 pointerdown
@@ -2191,7 +2191,7 @@ inputSource
 ;
 utils
 .
-sendPointerEvent
+sendPointerEventToWindow
 (
 "
 pointerup
