@@ -2386,11 +2386,8 @@ NS_GET_IID
 (
 nsIDOMFile
 )
+&
 wrappedFile
-.
-address
-(
-)
 )
 ;
 if
@@ -2601,11 +2598,8 @@ NS_GET_IID
 (
 nsIDOMBlob
 )
+&
 wrappedBlob
-.
-address
-(
-)
 )
 ;
 if

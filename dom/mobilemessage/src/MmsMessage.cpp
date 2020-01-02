@@ -2896,11 +2896,8 @@ NS_GET_IID
 (
 nsIDOMBlob
 )
+&
 tmpJsVal
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

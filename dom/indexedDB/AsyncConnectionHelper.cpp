@@ -765,10 +765,6 @@ aCx
 global
 aNative
 aResult
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

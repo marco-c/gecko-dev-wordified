@@ -515,11 +515,8 @@ NS_GET_IID
 (
 nsIDOMBlob
 )
+&
 content
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
