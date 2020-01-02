@@ -16529,7 +16529,7 @@ names
 ;
 /
 /
-nsJSEventListener
+JSEventHandler
 is
 what
 does

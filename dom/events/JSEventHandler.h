@@ -761,11 +761,6 @@ mBits
 ;
 }
 ;
-}
-/
-/
-namespace
-mozilla
 /
 *
 *
@@ -806,7 +801,7 @@ the
 owner
 of
 the
-nsJSEventListener
+JSEventHandler
 object
 *
 is
@@ -821,7 +816,7 @@ Disconnect
 /
 #
 define
-NS_JSEVENTLISTENER_IID
+NS_JSEVENTHANDLER_IID
 \
 {
 0x4f486881
@@ -840,7 +835,7 @@ NS_JSEVENTLISTENER_IID
 }
 }
 class
-nsJSEventListener
+JSEventHandler
 :
 public
 nsIDOMEventListener
@@ -849,9 +844,9 @@ public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
-NS_JSEVENTLISTENER_IID
+NS_JSEVENTHANDLER_IID
 )
-nsJSEventListener
+JSEventHandler
 (
 nsISupports
 *
@@ -860,9 +855,6 @@ nsIAtom
 *
 aType
 const
-mozilla
-:
-:
 TypedEventHandler
 &
 aTypedHandler
@@ -870,7 +862,7 @@ aTypedHandler
 ;
 virtual
 ~
-nsJSEventListener
+JSEventHandler
 (
 )
 {
@@ -918,9 +910,6 @@ nullptr
 ;
 }
 const
-mozilla
-:
-:
 TypedEventHandler
 &
 GetTypedEventHandler
@@ -982,9 +971,6 @@ void
 SetHandler
 (
 const
-mozilla
-:
-:
 TypedEventHandler
 &
 aTypedHandler
@@ -1001,9 +987,6 @@ aTypedHandler
 void
 SetHandler
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -1023,9 +1006,6 @@ aHandler
 void
 SetHandler
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -1045,9 +1025,6 @@ aHandler
 void
 SetHandler
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -1067,9 +1044,6 @@ aHandler
 size_t
 SizeOfExcludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1135,9 +1109,6 @@ others
 size_t
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1156,7 +1127,7 @@ aMallocSizeOf
 }
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_CLASS
 (
-nsJSEventListener
+JSEventHandler
 )
 bool
 IsBlackForCC
@@ -1175,9 +1146,6 @@ nsIAtom
 >
 mEventName
 ;
-mozilla
-:
-:
 TypedEventHandler
 mTypedHandler
 ;
@@ -1185,9 +1153,14 @@ mTypedHandler
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-nsJSEventListener
-NS_JSEVENTLISTENER_IID
+JSEventHandler
+NS_JSEVENTHANDLER_IID
 )
+}
+/
+/
+namespace
+mozilla
 /
 *
 *
@@ -1235,7 +1208,10 @@ mozilla
 TypedEventHandler
 &
 aTypedHandler
-nsJSEventListener
+mozilla
+:
+:
+JSEventHandler
 *
 *
 aReturn

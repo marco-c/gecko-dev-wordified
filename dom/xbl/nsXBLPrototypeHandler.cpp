@@ -1718,7 +1718,7 @@ to
 create
 a
 new
-nsJSEventListener
+JSEventHandler
 which
 means
 that
@@ -2184,9 +2184,9 @@ it
 .
 nsCOMPtr
 <
-nsJSEventListener
+JSEventHandler
 >
-eventListener
+jsEventHandler
 ;
 rv
 =
@@ -2197,7 +2197,7 @@ onEventAtom
 typedHandler
 getter_AddRefs
 (
-eventListener
+jsEventHandler
 )
 )
 ;
@@ -2213,7 +2213,7 @@ Handle
 the
 event
 .
-eventListener
+jsEventHandler
 -
 >
 HandleEvent
@@ -2221,7 +2221,7 @@ HandleEvent
 aEvent
 )
 ;
-eventListener
+jsEventHandler
 -
 >
 Disconnect
