@@ -2857,12 +2857,6 @@ Prefs
 ignoreCaughtExceptions
 )
 ;
-this
-.
-handleTabNavigation
-(
-)
-;
 }
 /
 *
