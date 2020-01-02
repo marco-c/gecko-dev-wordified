@@ -4406,6 +4406,17 @@ scope
 )
 const
 ;
+NestedScopeObject
+*
+staticScope
+(
+)
+const
+{
+return
+staticScope_
+;
+}
 StaticBlockObject
 &
 staticBlock
