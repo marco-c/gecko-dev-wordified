@@ -63,7 +63,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 ;
 import
 java

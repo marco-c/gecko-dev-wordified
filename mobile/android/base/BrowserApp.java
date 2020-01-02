@@ -625,7 +625,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 TabsPanel
 ;
