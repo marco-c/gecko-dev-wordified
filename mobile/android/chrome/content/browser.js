@@ -24435,13 +24435,6 @@ aEvent
 .
 originalTarget
 ;
-LoginManagerContent
-.
-onContentLoaded
-(
-aEvent
-)
-;
 /
 /
 ignore
