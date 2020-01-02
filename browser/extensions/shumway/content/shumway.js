@@ -245155,9 +245155,6 @@ new
 XMLHttpRequest
 (
 {
-mozAnon
-:
-true
 mozSystem
 :
 true

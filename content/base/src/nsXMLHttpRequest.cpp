@@ -2324,9 +2324,6 @@ if
 IsSystemXHR
 (
 )
-&
-&
-aSystem
 )
 {
 nsCOMPtr
