@@ -3348,6 +3348,12 @@ FloatRegister
 temp
 )
 ;
+bool
+omitOverRecursedCheck
+(
+)
+const
+;
 Vector
 <
 CodeOffsetLabel

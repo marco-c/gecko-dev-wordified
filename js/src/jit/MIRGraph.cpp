@@ -241,6 +241,10 @@ maxAsmJSStackArgBytes_
 (
 0
 )
+performsCall_
+(
+false
+)
 performsAsmJSCall_
 (
 false
