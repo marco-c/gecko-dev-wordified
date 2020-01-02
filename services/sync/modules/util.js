@@ -2741,6 +2741,17 @@ error
 =
 e
 }
+if
+(
+typeof
+callback
+=
+=
+"
+function
+"
+)
+{
 callback
 .
 call
@@ -2749,6 +2760,7 @@ that
 error
 )
 ;
+}
 }
 )
 getErrorString
