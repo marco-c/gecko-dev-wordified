@@ -9882,7 +9882,7 @@ mWidthStrEmpty
 mozilla
 :
 :
-CSSIntSize
+CSSSize
 mViewportSize
 ;
 nsrefcnt
