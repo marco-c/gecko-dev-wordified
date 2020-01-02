@@ -776,12 +776,10 @@ nsGkAtoms
 :
 anonid
 :
-aDependentContent
--
->
-GetIDAttributeName
-(
-)
+nsGkAtoms
+:
+:
+id
 ;
 nsAutoString
 id

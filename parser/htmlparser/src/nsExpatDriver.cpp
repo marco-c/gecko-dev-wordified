@@ -2413,10 +2413,6 @@ HandleStartElement
 aValue
 aAtts
 attrArrayLength
-XML_GetIdAttributeIndex
-(
-mExpatParser
-)
 XML_GetCurrentLineNumber
 (
 mExpatParser

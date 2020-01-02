@@ -905,8 +905,6 @@ char16_t
 aAtts
 int32_t
 aAttrCount
-int32_t
-aIDOffset
 )
 ;
 nsresult
@@ -995,11 +993,6 @@ txStylesheetAttr
 aAttributes
 int32_t
 aAttrCount
-int32_t
-aIDOffset
-=
--
-1
 )
 ;
 nsresult

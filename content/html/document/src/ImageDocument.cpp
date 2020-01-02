@@ -2348,7 +2348,7 @@ AsElement
 )
 -
 >
-GetClassList
+ClassList
 (
 )
 ;
@@ -2598,7 +2598,7 @@ AsElement
 )
 -
 >
-GetClassList
+ClassList
 (
 )
 ;
