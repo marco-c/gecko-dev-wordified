@@ -501,7 +501,7 @@ next
 let
 port
 =
-Social
+SocialSidebar
 .
 provider
 .

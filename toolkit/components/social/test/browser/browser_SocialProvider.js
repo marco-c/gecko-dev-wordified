@@ -118,10 +118,6 @@ js
 "
 }
 ;
-ensureSocialEnabled
-(
-)
-;
 SocialService
 .
 addProvider

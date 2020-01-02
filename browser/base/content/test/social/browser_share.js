@@ -884,10 +884,16 @@ panel
 "
 )
 ;
+SocialSidebar
+.
+show
+(
+)
+;
 let
 port
 =
-Social
+SocialSidebar
 .
 provider
 .

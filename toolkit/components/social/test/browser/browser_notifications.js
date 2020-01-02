@@ -161,10 +161,6 @@ run
 "
 }
 ;
-ensureSocialEnabled
-(
-)
-;
 SocialService
 .
 addProvider
@@ -175,12 +171,6 @@ function
 p
 )
 {
-p
-.
-enabled
-=
-true
-;
 cb
 (
 p

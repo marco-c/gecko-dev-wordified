@@ -181,6 +181,12 @@ function
 finishcb
 )
 {
+SocialSidebar
+.
+show
+(
+)
+;
 runSocialTests
 (
 tests
@@ -270,7 +276,7 @@ showing
 let
 port
 =
-Social
+SocialSidebar
 .
 provider
 .
@@ -524,7 +530,7 @@ panel
 let
 port
 =
-Social
+SocialSidebar
 .
 provider
 .
@@ -1019,7 +1025,7 @@ panel
 let
 port
 =
-Social
+SocialSidebar
 .
 provider
 .
@@ -1329,7 +1335,7 @@ panel
 let
 port
 =
-Social
+SocialSidebar
 .
 provider
 .
