@@ -6099,10 +6099,7 @@ canBeNaN
 )
 )
 return
-new
-Range
-(
-)
+nullptr
 ;
 return
 new
@@ -6221,10 +6218,7 @@ canBeNaN
 )
 )
 return
-new
-Range
-(
-)
+nullptr
 ;
 return
 new
