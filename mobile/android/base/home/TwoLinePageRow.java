@@ -156,7 +156,7 @@ gecko
 .
 db
 .
-BrowserDB
+BrowserContract
 .
 URLColumns
 ;
@@ -181,17 +181,6 @@ gecko
 favicons
 .
 OnFaviconLoadedListener
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
-ThreadUtils
 ;
 import
 org

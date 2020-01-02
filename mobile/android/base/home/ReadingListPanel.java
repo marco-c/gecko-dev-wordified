@@ -163,7 +163,9 @@ gecko
 .
 db
 .
-BrowserDB
+BrowserContract
+.
+URLColumns
 ;
 import
 org
@@ -175,8 +177,6 @@ gecko
 db
 .
 BrowserDB
-.
-URLColumns
 ;
 import
 org

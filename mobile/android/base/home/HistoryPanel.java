@@ -161,7 +161,9 @@ gecko
 .
 db
 .
-BrowserDB
+BrowserContract
+.
+History
 ;
 import
 org
@@ -173,8 +175,6 @@ gecko
 db
 .
 BrowserDB
-.
-URLColumns
 ;
 import
 org
@@ -663,7 +663,7 @@ c
 .
 getColumnIndexOrThrow
 (
-URLColumns
+History
 .
 URL
 )
@@ -2270,7 +2270,7 @@ c
 .
 getColumnIndexOrThrow
 (
-URLColumns
+History
 .
 DATE_LAST_VISITED
 )
