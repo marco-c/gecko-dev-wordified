@@ -1495,6 +1495,15 @@ aClient
 ;
 static
 void
+DispatchReleaseTextureClient
+(
+TextureClient
+*
+aClient
+)
+;
+static
+void
 DispatchImageClientUpdate
 (
 ImageClient
