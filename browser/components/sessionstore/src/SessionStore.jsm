@@ -17761,7 +17761,7 @@ null
 ;
 tabbrowser
 .
-updateBrowserRemoteness
+updateBrowserRemotenessByURL
 (
 browser
 uri
