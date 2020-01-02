@@ -261,14 +261,6 @@ usedByExclusiveThread
 (
 false
 )
-scheduledForDestruction
-(
-false
-)
-maybeAlive
-(
-true
-)
 active
 (
 false
