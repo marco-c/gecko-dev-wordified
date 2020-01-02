@@ -433,7 +433,7 @@ gecko
 .
 home
 .
-HomeConfigInvalidator
+HomePanelsManager
 ;
 import
 org
@@ -10786,7 +10786,7 @@ onLocaleReady
 locale
 )
 ;
-HomeConfigInvalidator
+HomePanelsManager
 .
 getInstance
 (

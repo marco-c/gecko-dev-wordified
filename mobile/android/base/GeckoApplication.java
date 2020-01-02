@@ -94,7 +94,7 @@ gecko
 .
 home
 .
-HomeConfigInvalidator
+HomePanelsManager
 ;
 import
 org
@@ -736,7 +736,7 @@ loadMozGlue
 (
 )
 ;
-HomeConfigInvalidator
+HomePanelsManager
 .
 getInstance
 (

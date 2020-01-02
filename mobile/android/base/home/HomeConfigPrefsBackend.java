@@ -1113,7 +1113,7 @@ context
 /
 /
 see
-HomeConfigInvalidator
+HomePanelsManager
 .
 onLocaleReady
 (
