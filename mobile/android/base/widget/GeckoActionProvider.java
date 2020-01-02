@@ -155,13 +155,6 @@ android
 .
 view
 .
-ActionProvider
-;
-import
-android
-.
-view
-.
 MenuItem
 ;
 import
@@ -220,8 +213,6 @@ HashMap
 public
 class
 GeckoActionProvider
-extends
-ActionProvider
 {
 private
 static
@@ -605,17 +596,11 @@ Context
 context
 )
 {
-super
-(
-context
-)
-;
 mContext
 =
 context
 ;
 }
-Override
 public
 View
 onCreateActionView
@@ -811,7 +796,6 @@ onCreateActionView
 )
 ;
 }
-Override
 public
 boolean
 hasSubMenu
@@ -822,7 +806,6 @@ return
 true
 ;
 }
-Override
 public
 void
 onPrepareSubMenu
