@@ -434,9 +434,6 @@ browser
 /
 devtools
 /
-"
-+
-"
 inspector
 /
 test
