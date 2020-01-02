@@ -811,11 +811,6 @@ F
 SPREAD
 )
 \
-F
-(
-MUTATEPROTO
-)
-\
 \
 /
 *

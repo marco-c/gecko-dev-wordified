@@ -534,11 +534,6 @@ InitElemGetterSetter
 \
 _
 (
-MutateProto
-)
-\
-_
-(
 InitProp
 )
 \

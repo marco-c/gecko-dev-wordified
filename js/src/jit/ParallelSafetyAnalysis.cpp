@@ -1078,10 +1078,6 @@ InitElemGetterSetter
 )
 UNSAFE_OP
 (
-MutateProto
-)
-UNSAFE_OP
-(
 InitProp
 )
 UNSAFE_OP
