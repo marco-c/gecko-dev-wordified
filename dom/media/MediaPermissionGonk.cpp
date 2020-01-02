@@ -901,13 +901,6 @@ nsIMediaDevice
 aDevices
 )
 ;
-virtual
-~
-MediaPermissionRequest
-(
-)
-{
-}
 /
 /
 It
@@ -956,6 +949,15 @@ GetOwner
 (
 )
 ;
+protected
+:
+virtual
+~
+MediaPermissionRequest
+(
+)
+{
+}
 private
 :
 nsresult
@@ -2156,6 +2158,8 @@ aRequest
 )
 {
 }
+protected
+:
 virtual
 ~
 MediaDeviceSuccessCallback
@@ -2673,6 +2677,8 @@ aCallID
 )
 {
 }
+protected
+:
 virtual
 ~
 MediaDeviceErrorCallback
