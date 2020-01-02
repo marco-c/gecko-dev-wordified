@@ -2308,6 +2308,9 @@ return
 NS_OK
 ;
 }
+#
+undef
+SMALL_GLYPH_RUN
 /
 /
 for
