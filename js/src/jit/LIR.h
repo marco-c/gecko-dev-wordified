@@ -793,9 +793,7 @@ inline
 explicit
 LAllocation
 (
-const
 AnyRegister
-&
 reg
 )
 ;
@@ -8801,9 +8799,7 @@ LAllocation
 :
 LAllocation
 (
-const
 AnyRegister
-&
 reg
 )
 {
