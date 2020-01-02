@@ -848,7 +848,6 @@ verifier
 getLogTag
 (
 )
-+
 (
 hasTimedOut
 ?
@@ -1019,10 +1018,6 @@ class
 getSimpleName
 (
 )
-+
-"
-:
-"
 ;
 /
 /
@@ -1105,7 +1100,6 @@ sContext
 dumpLog
 (
 LOGTAG
-+
 "
 stored
 title
@@ -1294,7 +1288,6 @@ sContext
 dumpLog
 (
 LOGTAG
-+
 "
 state
 changed

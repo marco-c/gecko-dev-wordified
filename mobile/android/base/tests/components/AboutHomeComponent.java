@@ -204,6 +204,20 @@ AboutHomeComponent
 extends
 BaseComponent
 {
+private
+static
+final
+String
+LOGTAG
+=
+AboutHomeComponent
+.
+class
+.
+getSimpleName
+(
+)
+;
 /
 /
 The
@@ -508,6 +522,7 @@ mTestContext
 .
 dumpLog
 (
+LOGTAG
 "
 Swiping
 to
@@ -541,6 +556,7 @@ mTestContext
 .
 dumpLog
 (
+LOGTAG
 "
 Swiping
 to
