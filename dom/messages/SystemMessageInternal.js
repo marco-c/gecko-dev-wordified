@@ -645,7 +645,6 @@ prototype
 _getMessageConfigurator
 :
 function
-_getMessageConfigurator
 (
 aType
 )
@@ -783,7 +782,6 @@ defaultMessageConfigurator
 _cancelCpuWakeLock
 :
 function
-_cancelCpuWakeLock
 (
 aPageKey
 )
@@ -849,7 +847,6 @@ aPageKey
 _acquireCpuWakeLock
 :
 function
-_acquireCpuWakeLock
 (
 aPageKey
 )
@@ -1202,7 +1199,6 @@ aPageKey
 _findPage
 :
 function
-_findPage
 (
 aType
 aPageURL
@@ -1261,7 +1257,6 @@ page
 sendMessage
 :
 function
-sendMessage
 (
 aType
 aMessage
@@ -1553,7 +1548,6 @@ result
 broadcastMessage
 :
 function
-broadcastMessage
 (
 aType
 aMessage
@@ -1838,7 +1832,6 @@ this
 registerPage
 :
 function
-registerPage
 (
 aType
 aPageURI
@@ -1949,7 +1942,6 @@ pendingMessages
 _findTargetIndex
 :
 function
-_findTargetIndex
 (
 aTargets
 aTarget
@@ -2020,7 +2012,6 @@ return
 _isEmptyObject
 :
 function
-_isEmptyObject
 (
 aObj
 )
@@ -2044,7 +2035,6 @@ true
 _removeTargetFromListener
 :
 function
-_removeTargetFromListener
 (
 aTarget
 aManifest
@@ -2268,7 +2258,6 @@ true
 receiveMessage
 :
 function
-receiveMessage
 (
 aMessage
 )
@@ -3350,7 +3339,6 @@ break
 observe
 :
 function
-observe
 (
 aSubject
 aTopic
@@ -3600,7 +3588,6 @@ break
 _queueMessage
 :
 function
-_queueMessage
 (
 aPage
 aMessage
@@ -3687,7 +3674,6 @@ splice
 _openAppPage
 :
 function
-_openAppPage
 (
 aPage
 aMessage
@@ -3912,7 +3898,6 @@ page
 _isPageMatched
 :
 function
-_isPageMatched
 (
 aPage
 aType
@@ -4092,7 +4077,6 @@ true
 _sendMessageCommon
 :
 function
-_sendMessageCommon
 (
 aType
 aMessage
