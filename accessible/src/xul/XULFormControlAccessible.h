@@ -1065,6 +1065,17 @@ CanHaveAnonChildren
 (
 )
 ;
+virtual
+bool
+IsAcceptableChild
+(
+Accessible
+*
+aPossibleChild
+)
+const
+MOZ_OVERRIDE
+;
 /
 /
 ActionAccessible
