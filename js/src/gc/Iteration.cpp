@@ -799,15 +799,6 @@ session
 rt
 )
 ;
-rt
--
->
-gcHelperThread
-.
-waitBackgroundSweepOrAllocEnd
-(
-)
-;
 for
 (
 CompartmentsIter
