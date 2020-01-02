@@ -687,12 +687,6 @@ start
 items
 are
 complete
-PRIntervalTime
-mHandshakeStartTime
-;
-bool
-mFirstServerHelloReceived
-;
 nsresult
 ActivateSSL
 (
