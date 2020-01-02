@@ -546,7 +546,7 @@ OSR
 uint32_t
 loopDepth
 =
-GET_UINT8
+LoopEntryDepthHint
 (
 pc
 )
