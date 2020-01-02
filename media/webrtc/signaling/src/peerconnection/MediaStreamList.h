@@ -159,12 +159,6 @@ StreamType
 type
 )
 ;
-virtual
-~
-MediaStreamList
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
@@ -205,6 +199,12 @@ Length
 ;
 private
 :
+virtual
+~
+MediaStreamList
+(
+)
+;
 nsRefPtr
 <
 sipcc

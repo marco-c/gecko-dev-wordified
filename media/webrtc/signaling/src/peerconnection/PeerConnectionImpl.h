@@ -1163,12 +1163,6 @@ aGlobal
 nullptr
 )
 ;
-virtual
-~
-PeerConnectionImpl
-(
-)
-;
 enum
 Error
 {
@@ -2774,6 +2768,12 @@ MOZ_OVERRIDE
 endif
 private
 :
+virtual
+~
+PeerConnectionImpl
+(
+)
+;
 PeerConnectionImpl
 (
 const
