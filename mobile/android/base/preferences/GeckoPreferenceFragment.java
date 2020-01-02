@@ -875,14 +875,6 @@ getActionBar
 (
 )
 ;
-if
-(
-actionBar
-!
-=
-null
-)
-{
 actionBar
 .
 setTitle
@@ -890,7 +882,6 @@ setTitle
 newTitle
 )
 ;
-}
 }
 }
 Override

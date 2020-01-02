@@ -1174,14 +1174,6 @@ getActionBar
 (
 )
 ;
-if
-(
-actionBar
-!
-=
-null
-)
-{
 actionBar
 .
 setTitle
@@ -1189,7 +1181,6 @@ setTitle
 newTitle
 )
 ;
-}
 }
 }
 }
@@ -2790,14 +2781,6 @@ getActionBar
 (
 )
 ;
-if
-(
-actionBar
-!
-=
-null
-)
-{
 actionBar
 .
 setHomeButtonEnabled
@@ -2805,7 +2788,6 @@ setHomeButtonEnabled
 true
 )
 ;
-}
 }
 /
 /
