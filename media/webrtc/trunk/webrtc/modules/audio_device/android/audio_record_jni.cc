@@ -3819,7 +3819,7 @@ sample
 rate
 to
 use
-_samplingFreqin
+_samplingFreqIn
 =
 samplesPerSec
 ;
