@@ -2061,7 +2061,9 @@ mResolution
 =
 metrics
 .
-mZoom
+GetZoom
+(
+)
 ;
 /
 /
@@ -2145,7 +2147,9 @@ GetScrollOffset
 *
 metrics
 .
-mZoom
+GetZoom
+(
+)
 ;
 mPaintData
 .

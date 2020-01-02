@@ -600,7 +600,9 @@ displayPort
 aActualScrollOffset
 aFrameMetrics
 .
-mZoom
+GetZoom
+(
+)
 *
 ScreenToLayerScale
 (
@@ -1677,7 +1679,9 @@ presShellResolution
 =
 aMetrics
 .
-mZoom
+GetZoom
+(
+)
 /
 aMetrics
 .

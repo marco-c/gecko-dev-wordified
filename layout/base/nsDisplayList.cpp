@@ -5072,8 +5072,8 @@ layerToScreenScale
 ;
 metrics
 .
-mZoom
-=
+SetZoom
+(
 metrics
 .
 mCumulativeResolution
@@ -5083,6 +5083,7 @@ metrics
 mDevPixelsPerCSSPixel
 *
 layerToScreenScale
+)
 ;
 if
 (
