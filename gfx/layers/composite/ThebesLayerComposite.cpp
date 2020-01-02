@@ -247,7 +247,10 @@ for
 Filter
 :
 :
-FILTER_LINEAR
+Filter
+:
+:
+LINEAR
 #
 include
 "
@@ -838,7 +841,10 @@ transform
 gfx
 :
 :
-FILTER_LINEAR
+Filter
+:
+:
+LINEAR
 clipRect
 &
 visibleRegion

@@ -8133,7 +8133,10 @@ GetGradientStops
 (
 aDT
 rawStops
-EXTEND_CLAMP
+ExtendMode
+:
+:
+CLAMP
 )
 ;
 if
@@ -8208,7 +8211,10 @@ GetOrCreateGradientStops
 (
 aDT
 rawStops
-EXTEND_CLAMP
+ExtendMode
+:
+:
+CLAMP
 )
 ;
 }

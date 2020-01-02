@@ -845,7 +845,10 @@ CAIRO_EXTEND_NONE
 *
 /
 "
-EXTEND_REPEAT
+ExtendMode
+:
+:
+REPEAT
 "
 /
 *
@@ -853,7 +856,10 @@ CAIRO_EXTEND_REPEAT
 *
 /
 "
-EXTEND_REFLECT
+ExtendMode
+:
+:
+REFLECT
 "
 /
 *
@@ -915,7 +921,10 @@ CAIRO_FILTER_FAST
 *
 /
 "
-FILTER_GOOD
+Filter
+:
+:
+GOOD
 "
 /
 *

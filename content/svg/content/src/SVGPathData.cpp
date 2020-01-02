@@ -6000,6 +6000,9 @@ lines
 return
 BuildPath
 (
+FillRule
+:
+:
 FILL_WINDING
 NS_STYLE_STROKE_LINECAP_BUTT
 0

@@ -490,6 +490,9 @@ new
 PathSkia
 (
 path
+FillRule
+:
+:
 FILL_WINDING
 )
 ;

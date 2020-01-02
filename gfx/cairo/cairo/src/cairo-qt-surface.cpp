@@ -9477,7 +9477,10 @@ every
 surface
 source
 is
-EXTEND_REPEAT
+ExtendMode
+:
+:
+REPEAT
 *
 -
 implement
@@ -9499,7 +9502,10 @@ source
 *
 -
 implement
-EXTEND_REFLECT
+ExtendMode
+:
+:
+REFLECT
 (
 create
 temporary
@@ -9507,7 +9513,10 @@ and
 copy
 4x
 then
-EXTEND_REPEAT
+ExtendMode
+:
+:
+REPEAT
 that
 )
 *

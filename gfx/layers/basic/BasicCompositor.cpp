@@ -1682,7 +1682,10 @@ MaskSurface
 SurfacePattern
 (
 aSource
-EXTEND_REPEAT
+ExtendMode
+:
+:
+REPEAT
 patternMatrix
 )
 aMask
@@ -1722,7 +1725,10 @@ aDestRect
 SurfacePattern
 (
 aSource
-EXTEND_REPEAT
+ExtendMode
+:
+:
+REPEAT
 matrix
 )
 DrawOptions

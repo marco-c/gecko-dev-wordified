@@ -704,7 +704,10 @@ true
 gfx
 :
 :
-FILTER_LINEAR
+Filter
+:
+:
+LINEAR
 )
 mRenderTarget
 (

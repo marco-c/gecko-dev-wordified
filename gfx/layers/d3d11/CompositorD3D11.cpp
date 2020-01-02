@@ -3451,7 +3451,10 @@ get
 ;
 SetSamplerForFilter
 (
-FILTER_LINEAR
+Filter
+:
+:
+LINEAR
 )
 ;
 mVSConstants
@@ -5330,7 +5333,10 @@ aFilter
 default
 :
 case
-FILTER_LINEAR
+Filter
+:
+:
+LINEAR
 :
 sampler
 =
@@ -5342,7 +5348,10 @@ mLinearSamplerState
 break
 ;
 case
-FILTER_POINT
+Filter
+:
+:
+POINT
 :
 sampler
 =

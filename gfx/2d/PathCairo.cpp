@@ -831,6 +831,9 @@ aContext
 :
 mFillRule
 (
+FillRule
+:
+:
 FILL_WINDING
 )
 mContainingContext

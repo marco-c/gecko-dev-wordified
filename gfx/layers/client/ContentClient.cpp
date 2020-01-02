@@ -3409,6 +3409,9 @@ BUFFER_BLACK
 1
 .
 0
+CompositionOp
+:
+:
 OP_SOURCE
 )
 ;
@@ -3493,6 +3496,9 @@ BUFFER_WHITE
 1
 .
 0
+CompositionOp
+:
+:
 OP_SOURCE
 )
 ;
@@ -4494,6 +4500,9 @@ BUFFER_BLACK
 1
 .
 0
+CompositionOp
+:
+:
 OP_SOURCE
 )
 ;
@@ -4578,6 +4587,9 @@ BUFFER_WHITE
 1
 .
 0
+CompositionOp
+:
+:
 OP_SOURCE
 )
 ;

@@ -4146,6 +4146,9 @@ mozilla
 gfx
 :
 :
+CompositionOp
+:
+:
 OP_OVER
 ;
 }
@@ -4364,6 +4367,9 @@ mozilla
 gfx
 :
 :
+CompositionOp
+:
+:
 OP_OVER
 )
 fillRule
@@ -4372,6 +4378,9 @@ mozilla
 :
 :
 gfx
+:
+:
+FillRule
 :
 :
 FILL_WINDING
@@ -4384,7 +4393,10 @@ mozilla
 gfx
 :
 :
-CAP_BUTT
+CapStyle
+:
+:
+BUTT
 )
 lineJoin
 (
@@ -4394,7 +4406,10 @@ mozilla
 gfx
 :
 :
-JOIN_MITER_OR_BEVEL
+JoinStyle
+:
+:
+MITER_OR_BEVEL
 )
 imageSmoothingEnabled
 (
