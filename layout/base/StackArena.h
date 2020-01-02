@@ -456,14 +456,6 @@ size_t
 aSize
 )
 {
-MOZ_ASSERT
-(
-aSize
-<
-=
-4044
-)
-;
 return
 gStackArena
 -
