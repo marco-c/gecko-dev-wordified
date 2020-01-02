@@ -519,7 +519,7 @@ activeUpdate
 state
 !
 =
-STATE_APPLIED_PLATFORM
+STATE_APPLIED_SVC
 )
 {
 if
@@ -542,8 +542,9 @@ to
 be
 "
 +
+STATE_APPLIED_SVC
++
 "
-applied
 current
 state
 is
@@ -598,7 +599,7 @@ if
 state
 !
 =
-STATE_APPLIED_PLATFORM
+STATE_APPLIED_SVC
 )
 {
 if
@@ -627,7 +628,7 @@ to
 equal
 "
 +
-STATE_APPLIED_PLATFORM
+STATE_APPLIED_SVC
 +
 "
 "
