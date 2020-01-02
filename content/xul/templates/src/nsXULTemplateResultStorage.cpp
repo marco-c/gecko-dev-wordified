@@ -128,13 +128,6 @@ nsXULTemplateResultStorage
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kRDFServiceCID
-NS_RDFSERVICE_CID
-)
-;
 NS_IMPL_ISUPPORTS1
 (
 nsXULTemplateResultStorage
@@ -150,6 +143,13 @@ nsXULTemplateResultSetStorage
 aResultSet
 )
 {
+static
+NS_DEFINE_CID
+(
+kRDFServiceCID
+NS_RDFSERVICE_CID
+)
+;
 nsCOMPtr
 <
 nsIRDFService

@@ -409,13 +409,6 @@ using
 namespace
 mozilla
 ;
-static
-NS_DEFINE_CID
-(
-kRDFServiceCID
-NS_RDFSERVICE_CID
-)
-;
 /
 /
 -
@@ -650,6 +643,13 @@ Init
 (
 )
 {
+static
+NS_DEFINE_CID
+(
+kRDFServiceCID
+NS_RDFSERVICE_CID
+)
+;
 nsresult
 rv
 =
