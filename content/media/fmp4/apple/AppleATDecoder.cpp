@@ -856,7 +856,7 @@ AudioFileStreamID
 aFileStream
 AudioFileStreamPropertyID
 aPropertyID
-uint32_t
+UInt32
 *
 aFlags
 )
@@ -1420,7 +1420,7 @@ is
 actually
 returning
 .
-uint32_t
+UInt32
 numFrames
 =
 MAX_AUDIO_FRAMES
