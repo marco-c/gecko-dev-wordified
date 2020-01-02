@@ -132,12 +132,6 @@ License
 *
 /
 #
-ifndef
-SAMPLE_ITERATOR_H_
-#
-define
-SAMPLE_ITERATOR_H_
-#
 include
 <
 utils
@@ -354,5 +348,3 @@ SampleIterator
 /
 namespace
 android
-#
-endif

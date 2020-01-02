@@ -138,9 +138,6 @@ define
 LOG_NDEBUG
 0
 #
-undef
-LOG_TAG
-#
 define
 LOG_TAG
 "
@@ -565,9 +562,6 @@ x
 )
 ;
 }
-#
-if
-0
 status_t
 convertMetaDataToMessage
 (
@@ -4579,13 +4573,8 @@ info
 )
 ;
 }
-#
-endif
 }
 /
 /
 namespace
 android
-#
-undef
-LOG_TAG

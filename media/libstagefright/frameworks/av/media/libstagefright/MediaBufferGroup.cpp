@@ -132,9 +132,6 @@ License
 *
 /
 #
-undef
-LOG_TAG
-#
 define
 LOG_TAG
 "
@@ -475,6 +472,3 @@ signal
 /
 namespace
 android
-#
-undef
-LOG_TAG

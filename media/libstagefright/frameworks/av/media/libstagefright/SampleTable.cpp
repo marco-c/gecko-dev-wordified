@@ -132,9 +132,6 @@ License
 *
 /
 #
-undef
-LOG_TAG
-#
 define
 LOG_TAG
 "
@@ -3960,6 +3957,3 @@ sampleIndex
 /
 namespace
 android
-#
-undef
-LOG_TAG
