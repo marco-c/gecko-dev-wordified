@@ -95,6 +95,17 @@ org
 mozilla
 .
 gecko
+.
+prompts
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+AllCapsTextView
 ;
 import
 org
@@ -337,6 +348,7 @@ concurrent
 .
 TimeUnit
 ;
+public
 class
 PromptInput
 {

@@ -182,6 +182,17 @@ mozilla
 .
 gecko
 .
+prompts
+.
+PromptService
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 menu
 .
 GeckoMenu

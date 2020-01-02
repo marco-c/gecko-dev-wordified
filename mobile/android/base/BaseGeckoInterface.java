@@ -119,6 +119,17 @@ util
 ThreadUtils
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+prompts
+.
+PromptService
+;
+import
 android
 .
 app
