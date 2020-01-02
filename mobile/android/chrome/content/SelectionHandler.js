@@ -597,6 +597,7 @@ removeEventListener
 pagehide
 "
 this
+false
 )
 ;
 BrowserApp
@@ -609,6 +610,7 @@ removeEventListener
 blur
 "
 this
+true
 )
 ;
 BrowserApp
@@ -621,6 +623,7 @@ removeEventListener
 scroll
 "
 this
+true
 )
 ;
 }
