@@ -123,6 +123,9 @@ nsIObserver
 h
 "
 class
+nsISmsService
+;
+class
 nsIDOMMozSmsMessage
 ;
 class
@@ -200,6 +203,9 @@ JSObject
 *
 >
 aGlobal
+nsISmsService
+*
+aSmsService
 uint32_t
 aServiceId
 JS
@@ -214,7 +220,7 @@ aNumber
 const
 nsAString
 &
-aMessage
+aText
 JS
 :
 :
