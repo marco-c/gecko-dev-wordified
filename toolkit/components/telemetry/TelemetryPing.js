@@ -2379,6 +2379,12 @@ hasNEON
 "
 isWow64
 "
+"
+profileHDDModel
+"
+"
+profileHDDRevision
+"
 ]
 ;
 for
