@@ -178,7 +178,11 @@ sets
 with
 the
 same
-maximum
+number
+/
+/
+of
+bits
 .
 class
 BitSet
@@ -217,12 +221,12 @@ BitSet
 (
 unsigned
 int
-max
+numBits
 )
 :
-max_
+numBits_
 (
-max
+numBits
 )
 bits_
 (
@@ -232,7 +236,7 @@ nullptr
 }
 unsigned
 int
-max_
+numBits_
 ;
 uint32_t
 *
@@ -304,7 +308,7 @@ const
 return
 RawLengthForBits
 (
-max_
+numBits_
 )
 ;
 }
@@ -331,18 +335,18 @@ TempAllocator
 alloc
 unsigned
 int
-max
+numBits
 )
 ;
 unsigned
 int
-getMax
+getNumBits
 (
 )
 const
 {
 return
-max_
+numBits_
 ;
 }
 /
@@ -379,7 +383,7 @@ JS_ASSERT
 (
 value
 <
-max_
+numBits_
 )
 ;
 return
@@ -405,7 +409,7 @@ value
 /
 O
 (
-max
+numBits
 )
 :
 Check
@@ -454,7 +458,7 @@ JS_ASSERT
 (
 value
 <
-max_
+numBits_
 )
 ;
 bits_
@@ -476,7 +480,7 @@ value
 /
 O
 (
-max
+numBits
 )
 :
 Insert
@@ -531,7 +535,7 @@ JS_ASSERT
 (
 value
 <
-max_
+numBits_
 )
 ;
 bits_
@@ -554,7 +558,7 @@ value
 /
 O
 (
-max
+numBits
 )
 :
 Remove
@@ -582,7 +586,7 @@ other
 /
 O
 (
-max
+numBits
 )
 :
 Intersect
@@ -606,7 +610,7 @@ other
 /
 O
 (
-max
+numBits
 )
 :
 Intersect
@@ -642,7 +646,7 @@ other
 /
 O
 (
-max
+numBits
 )
 :
 Does
@@ -661,7 +665,7 @@ complement
 /
 O
 (
-max
+numBits
 )
 :
 Clear
@@ -822,7 +826,7 @@ index_
 <
 set_
 .
-max_
+numBits_
 )
 ;
 index_
@@ -934,7 +938,7 @@ index_
 <
 set_
 .
-max_
+numBits_
 set_
 .
 contains
@@ -961,7 +965,7 @@ index_
 <
 set_
 .
-max_
+numBits_
 )
 ;
 return
