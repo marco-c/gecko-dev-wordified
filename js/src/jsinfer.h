@@ -5865,10 +5865,7 @@ escapes
 .
 *
 /
-HeapPtr
-<
-TypeObjectAddendum
->
+HeapPtrTypeObjectAddendum
 addendum
 ;
 public

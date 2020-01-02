@@ -2822,16 +2822,7 @@ const
 js
 :
 :
-HeapPtr
-<
-js
-:
-:
-types
-:
-:
-TypeObject
->
+HeapPtrTypeObject
 &
 typeFromGC
 (

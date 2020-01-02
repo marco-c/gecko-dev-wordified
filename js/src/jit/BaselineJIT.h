@@ -700,10 +700,7 @@ the
 actual
 method
 .
-HeapPtr
-<
-JitCode
->
+HeapPtrJitCode
 method_
 ;
 /

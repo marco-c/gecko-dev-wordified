@@ -961,10 +961,7 @@ the
 actual
 method
 .
-EncapsulatedPtr
-<
-JitCode
->
+EncapsulatedPtrJitCode
 method_
 ;
 /
@@ -976,10 +973,7 @@ by
 this
 method
 .
-EncapsulatedPtr
-<
-JitCode
->
+EncapsulatedPtrJitCode
 deoptTable_
 ;
 /

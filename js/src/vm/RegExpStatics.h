@@ -174,10 +174,7 @@ execution
 VectorMatchPairs
 matches
 ;
-HeapPtr
-<
-JSLinearString
->
+HeapPtrLinearString
 matchesInput
 ;
 /
@@ -216,10 +213,7 @@ evalcx
 .
 *
 /
-HeapPtr
-<
-JSAtom
->
+HeapPtrAtom
 lazySource
 ;
 RegExpFlag
@@ -240,10 +234,7 @@ execution
 .
 *
 /
-HeapPtr
-<
-JSString
->
+HeapPtrString
 pendingInput
 ;
 RegExpFlag

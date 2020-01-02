@@ -4352,10 +4352,7 @@ BaseShape
 .
 *
 /
-HeapPtr
-<
-UnownedBaseShape
->
+HeapPtrUnownedBaseShape
 unowned_
 ;
 /

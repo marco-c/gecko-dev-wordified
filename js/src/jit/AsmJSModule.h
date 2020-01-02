@@ -2430,10 +2430,7 @@ dynamicallyLinked_
 bool
 loadedFromCache_
 ;
-HeapPtr
-<
-ArrayBufferObject
->
+HeapPtrArrayBufferObject
 maybeHeap_
 ;
 /
