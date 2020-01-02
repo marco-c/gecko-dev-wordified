@@ -556,6 +556,10 @@ const
 nsHTMLReflowState
 &
 aReflowState
+nscoord
+aContentBoxMainSize
+nscoord
+aAvailableHeightForContent
 const
 FlexboxAxisTracker
 &
@@ -569,7 +573,7 @@ aLines
 )
 ;
 nscoord
-ComputeFlexContainerMainSize
+GetMainSizeFromReflowState
 (
 const
 nsHTMLReflowState
@@ -579,15 +583,6 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-const
-FlexLine
-&
-aLine
-nscoord
-aAvailableHeightForContent
-nsReflowStatus
-&
-aStatus
 )
 ;
 nscoord
