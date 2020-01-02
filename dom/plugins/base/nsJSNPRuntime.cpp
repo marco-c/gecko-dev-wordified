@@ -8613,6 +8613,16 @@ JSObject
 objp
 )
 {
+if
+(
+JSID_IS_SYMBOL
+(
+id
+)
+)
+return
+true
+;
 NPObject
 *
 npobj
