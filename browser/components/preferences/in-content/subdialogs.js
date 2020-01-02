@@ -116,7 +116,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
