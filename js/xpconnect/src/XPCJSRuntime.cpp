@@ -274,6 +274,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsCCUncollectableMarker
 .
 h

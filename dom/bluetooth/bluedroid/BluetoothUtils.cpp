@@ -187,6 +187,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIScriptContext
 .
 h

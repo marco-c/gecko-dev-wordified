@@ -220,6 +220,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIAudioManager
 .
 h

@@ -141,17 +141,6 @@ mozilla
 /
 dom
 /
-ScriptSettings
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 bluetooth
 /
 BluetoothTypes

@@ -137,6 +137,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsCxPusher
+.
+h
+"
 using
 namespace
 mozilla

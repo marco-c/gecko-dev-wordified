@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

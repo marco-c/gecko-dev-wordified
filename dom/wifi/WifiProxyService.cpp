@@ -114,6 +114,13 @@ WifiUtils
 h
 "
 #
+include
+"
+nsCxPusher
+.
+h
+"
+#
 ifdef
 MOZ_TASK_TRACER
 #

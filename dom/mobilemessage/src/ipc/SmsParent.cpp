@@ -253,6 +253,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h

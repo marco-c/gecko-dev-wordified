@@ -218,6 +218,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

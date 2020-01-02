@@ -108,6 +108,13 @@ nsPIDOMWindow
 .
 h
 "
+#
+include
+"
+nsCxPusher
+.
+h
+"
 namespace
 mozilla
 {

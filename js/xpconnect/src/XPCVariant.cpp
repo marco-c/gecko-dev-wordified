@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h

@@ -212,6 +212,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

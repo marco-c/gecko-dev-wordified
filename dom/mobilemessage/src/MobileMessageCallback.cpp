@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIDOMMozSmsMessage
 .
 h

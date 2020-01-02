@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIContentPermissionPrompt
 .
 h
