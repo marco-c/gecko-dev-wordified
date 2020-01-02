@@ -348,11 +348,6 @@ IsReferenced
 )
 const
 ;
-bool
-IsFileDoomed
-(
-)
-;
 /
 /
 Methods
