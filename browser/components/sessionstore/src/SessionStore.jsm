@@ -2192,6 +2192,8 @@ canRestoreLastSession
 )
 {
 return
+!
+!
 this
 .
 _lastSessionState
