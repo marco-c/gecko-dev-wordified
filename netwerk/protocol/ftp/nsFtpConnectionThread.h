@@ -1684,17 +1684,6 @@ available
 on
 gonk
 .
-public
-:
-const
-static
-uint64_t
-NETWORK_STATS_THRESHOLD
-=
-65536
-;
-private
-:
 uint64_t
 mCountRecv
 ;
