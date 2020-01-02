@@ -195,9 +195,10 @@ void
 DoCommandCallback
 )
 (
-const
-char
-*
+mozilla
+:
+:
+Command
 void
 *
 )

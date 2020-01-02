@@ -1277,6 +1277,16 @@ nsAString
 aKeyName
 )
 ;
+static
+const
+char
+*
+GetCommandStr
+(
+Command
+aCommand
+)
+;
 void
 AssignKeyEventData
 (
