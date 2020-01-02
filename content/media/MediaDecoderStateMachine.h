@@ -5586,9 +5586,12 @@ in
 the
 media
 .
-StreamTime
+int64_t
 mSyncPointInMediaStream
 ;
+/
+/
+microseconds
 int64_t
 mSyncPointInDecodedStream
 ;
