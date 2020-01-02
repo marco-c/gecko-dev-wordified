@@ -189,7 +189,7 @@ analyzeEdgeCasesBackward
 uint32_t
 nextId
 =
-1
+0
 ;
 for
 (

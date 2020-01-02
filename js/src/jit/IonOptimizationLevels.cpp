@@ -189,10 +189,6 @@ gvn_
 =
 true
 ;
-gvnKind_
-=
-GVN_Optimistic
-;
 licm_
 =
 true
