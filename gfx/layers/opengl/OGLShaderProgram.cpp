@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-LayerManagerOGLProgram
+OGLShaderProgram
 .
 h
 "
@@ -165,7 +165,7 @@ PR_GetEnv
 #
 include
 "
-LayerManagerOGLShaders
+OGLShaders
 .
 h
 "

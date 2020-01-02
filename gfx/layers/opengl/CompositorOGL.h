@@ -124,7 +124,7 @@ etc
 #
 include
 "
-LayerManagerOGLProgram
+OGLShaderProgram
 .
 h
 "

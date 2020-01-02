@@ -114,7 +114,7 @@ SurfaceFormat
 #
 include
 "
-LayerManagerOGLProgram
+OGLShaderProgram
 .
 h
 "
