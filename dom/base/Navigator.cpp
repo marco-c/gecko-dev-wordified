@@ -9631,9 +9631,6 @@ aGlobal
 )
 ;
 return
-win
-&
-&
 Preferences
 :
 :
@@ -9648,6 +9645,9 @@ enabled
 "
 false
 )
+&
+&
+win
 &
 &
 CheckPermission
@@ -9693,7 +9693,8 @@ GetWindowFromGlobal
 aGlobal
 )
 ;
-return
+if
+(
 Preferences
 :
 :
@@ -9708,9 +9709,13 @@ testing
 "
 false
 )
-|
-|
-(
+)
+{
+return
+true
+;
+}
+return
 Preferences
 :
 :
@@ -9736,7 +9741,6 @@ win
 "
 input
 "
-)
 )
 ;
 }
