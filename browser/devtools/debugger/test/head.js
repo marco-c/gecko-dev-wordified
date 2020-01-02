@@ -270,6 +270,13 @@ jsm
 ;
 let
 {
+require
+}
+=
+devtools
+;
+let
+{
 DevToolsUtils
 }
 =
