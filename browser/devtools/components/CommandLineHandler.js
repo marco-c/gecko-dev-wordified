@@ -80,15 +80,6 @@ devtools
 .
 debugger
 .
-remote
--
-enabled
-"
-"
-devtools
-.
-debugger
-.
 chrome
 -
 enabled
