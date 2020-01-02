@@ -112,17 +112,6 @@ h
 #
 include
 "
-ISurfaceAllocator
-.
-h
-"
-/
-/
-For
-IsSurfaceDescriptorValid
-#
-include
-"
 mozilla
 /
 layers
@@ -176,6 +165,7 @@ TextureClientX11
 (
 )
 ;
+virtual
 bool
 IsAllocated
 (
@@ -183,6 +173,7 @@ IsAllocated
 const
 MOZ_OVERRIDE
 ;
+virtual
 bool
 ToSurfaceDescriptor
 (
@@ -192,6 +183,7 @@ aOutDescriptor
 )
 MOZ_OVERRIDE
 ;
+virtual
 TextureClientData
 *
 DropTextureData
@@ -199,6 +191,7 @@ DropTextureData
 )
 MOZ_OVERRIDE
 ;
+virtual
 gfx
 :
 :
@@ -207,11 +200,13 @@ GetSize
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mSize
 ;
 }
+virtual
 bool
 Lock
 (
@@ -220,12 +215,14 @@ aMode
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 Unlock
 (
 )
 MOZ_OVERRIDE
 ;
+virtual
 bool
 IsLocked
 (
@@ -237,6 +234,7 @@ return
 mLocked
 ;
 }
+virtual
 bool
 AllocateForSurface
 (
@@ -250,6 +248,7 @@ flags
 )
 MOZ_OVERRIDE
 ;
+virtual
 TemporaryRef
 <
 gfx
@@ -262,6 +261,7 @@ GetAsDrawTarget
 )
 MOZ_OVERRIDE
 ;
+virtual
 gfx
 :
 :
