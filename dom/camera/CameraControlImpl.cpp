@@ -2307,7 +2307,6 @@ CameraControlImpl
 :
 StartRecording
 (
-const
 CameraStartRecordingOptions
 *
 aOptions
@@ -2353,6 +2352,7 @@ new
 StartRecordingTask
 (
 this
+*
 aOptions
 clone
 aFilename
@@ -2474,9 +2474,8 @@ CameraControlImpl
 :
 GetPreviewStreamVideoMode
 (
-const
 CameraRecorderOptions
-&
+*
 aOptions
 nsICameraPreviewStreamCallback
 *
@@ -2496,6 +2495,7 @@ new
 GetPreviewStreamVideoModeTask
 (
 this
+*
 aOptions
 onSuccess
 onError
