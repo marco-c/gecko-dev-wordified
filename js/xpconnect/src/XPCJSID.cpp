@@ -944,11 +944,6 @@ nsJSID
 (
 )
 ;
-if
-(
-idObj
-)
-{
 NS_ADDREF
 (
 idObj
@@ -972,7 +967,6 @@ NS_RELEASE
 idObj
 )
 ;
-}
 return
 idObj
 ;
@@ -1002,11 +996,6 @@ nsJSID
 (
 )
 ;
-if
-(
-idObj
-)
-{
 NS_ADDREF
 (
 idObj
@@ -1033,7 +1022,6 @@ mNumber
 =
 nullptr
 ;
-}
 return
 idObj
 ;
@@ -3639,11 +3627,6 @@ nsJSCID
 (
 )
 ;
-if
-(
-idObj
-)
-{
 bool
 success
 =
@@ -3761,7 +3744,6 @@ NS_RELEASE
 idObj
 )
 ;
-}
 return
 idObj
 ;
