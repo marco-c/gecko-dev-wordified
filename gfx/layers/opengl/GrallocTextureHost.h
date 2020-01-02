@@ -344,6 +344,9 @@ gfx
 SurfaceFormat
 mFormat
 ;
+bool
+mNeedsReset
+;
 }
 ;
 class
@@ -415,6 +418,13 @@ MOZ_OVERRIDE
 virtual
 void
 DeallocateSharedData
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+void
+ForgetSharedData
 (
 )
 MOZ_OVERRIDE
