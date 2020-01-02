@@ -6445,7 +6445,7 @@ GetPaddingRectRelativeToSelf
 const
 {
 nsMargin
-bp
+border
 (
 GetUsedBorder
 (
@@ -6454,7 +6454,7 @@ GetUsedBorder
 ;
 ApplySkipSides
 (
-bp
+border
 )
 ;
 nsRect
@@ -6474,7 +6474,7 @@ r
 .
 Deflate
 (
-bp
+border
 )
 ;
 return
