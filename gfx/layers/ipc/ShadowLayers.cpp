@@ -3674,7 +3674,7 @@ metrics
 mutant
 -
 >
-GetFrameMetrics
+GetAllFrameMetrics
 (
 )
 ;
