@@ -2292,6 +2292,7 @@ EndOffset
 (
 )
 true
+true
 )
 ;
 nsIFrame
