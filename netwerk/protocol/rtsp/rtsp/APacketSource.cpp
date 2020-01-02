@@ -2691,6 +2691,9 @@ desc
 AString
 params
 ;
+if
+(
+!
 sessionDesc
 -
 >
@@ -2704,7 +2707,15 @@ desc
 &
 params
 )
+)
+{
+mInitCheck
+=
+ERROR_UNSUPPORTED
 ;
+return
+;
+}
 int64_t
 durationUs
 ;

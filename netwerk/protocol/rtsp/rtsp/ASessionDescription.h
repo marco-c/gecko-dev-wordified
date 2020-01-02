@@ -270,7 +270,7 @@ value
 )
 const
 ;
-void
+bool
 getFormatType
 (
 size_t
