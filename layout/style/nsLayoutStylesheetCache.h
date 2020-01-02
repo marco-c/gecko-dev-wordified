@@ -258,6 +258,13 @@ UASheet
 static
 nsCSSStyleSheet
 *
+HTMLSheet
+(
+)
+;
+static
+nsCSSStyleSheet
+*
 MinimalXULSheet
 (
 )
@@ -424,6 +431,12 @@ nsRefPtr
 nsCSSStyleSheet
 >
 mUASheet
+;
+nsRefPtr
+<
+nsCSSStyleSheet
+>
+mHTMLSheet
 ;
 nsRefPtr
 <
