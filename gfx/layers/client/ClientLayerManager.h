@@ -539,12 +539,10 @@ CreateRefLayer
 (
 )
 ;
-virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
 )
-MOZ_OVERRIDE
 {
 return
 mForwarder
