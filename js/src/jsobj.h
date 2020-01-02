@@ -4246,6 +4246,16 @@ return
 true
 ;
 }
+static
+uint32_t
+goodAllocated
+(
+uint32_t
+n
+uint32_t
+length
+)
+;
 bool
 growElements
 (
