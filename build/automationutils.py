@@ -4187,6 +4187,14 @@ preloadEnvVar
 None
   
 if
+'
+toolkit
+'
+in
+mozinfo
+.
+info
+and
 mozinfo
 .
 info
