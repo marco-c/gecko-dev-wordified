@@ -179,7 +179,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-WidgetGUIEvent
+InternalSVGZoomEvent
 *
 aEvent
 )

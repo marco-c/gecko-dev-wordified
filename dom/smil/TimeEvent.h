@@ -153,7 +153,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-WidgetEvent
+InternalSMILTimeEvent
 *
 aEvent
 )
