@@ -7613,7 +7613,7 @@ dom
 .
 window_experimental_bindings
 "
-true
+false
 )
 ;
 /
