@@ -6644,7 +6644,10 @@ const
 return
 SizeOfDecodedWithComputedFallbackIfHeap
 (
-GFX_MEMORY_IN_PROCESS_HEAP
+gfxMemoryLocation
+:
+:
+IN_PROCESS_HEAP
 aMallocSizeOf
 )
 ;
@@ -6661,7 +6664,10 @@ const
 return
 SizeOfDecodedWithComputedFallbackIfHeap
 (
-GFX_MEMORY_IN_PROCESS_NONHEAP
+gfxMemoryLocation
+:
+:
+IN_PROCESS_NONHEAP
 nullptr
 )
 ;
@@ -6678,7 +6684,10 @@ const
 return
 SizeOfDecodedWithComputedFallbackIfHeap
 (
-GFX_MEMORY_OUT_OF_PROCESS
+gfxMemoryLocation
+:
+:
+OUT_OF_PROCESS
 nullptr
 )
 ;

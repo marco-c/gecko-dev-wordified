@@ -2415,7 +2415,10 @@ GetMemoryLocation
 const
 {
 return
-GFX_MEMORY_IN_PROCESS_HEAP
+gfxMemoryLocation
+:
+:
+IN_PROCESS_HEAP
 ;
 }
 int32_t

@@ -1638,6 +1638,9 @@ GetMemoryLocation
 const
 {
 return
-GFX_MEMORY_IN_PROCESS_NONHEAP
+gfxMemoryLocation
+:
+:
+IN_PROCESS_NONHEAP
 ;
 }
