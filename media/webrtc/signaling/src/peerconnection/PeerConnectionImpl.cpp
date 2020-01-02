@@ -4065,10 +4065,6 @@ MOZ_WIDGET_GONK
 if
 (
 transport
-.
-get
-(
-)
 =
 =
 kNrIceTransportTcp
