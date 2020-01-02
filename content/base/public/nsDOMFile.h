@@ -1618,8 +1618,13 @@ cx
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 aLastModifiedDate
 )
 MOZ_OVERRIDE
