@@ -339,7 +339,7 @@ name
 function
 findVirtualFunctions
 (
-csu
+initialCSU
 field
 suppressed
 )
@@ -348,7 +348,7 @@ var
 worklist
 =
 [
-csu
+initialCSU
 ]
 ;
 /
@@ -466,6 +466,7 @@ if
 (
 isOverridableField
 (
+initialCSU
 csu
 field
 )
