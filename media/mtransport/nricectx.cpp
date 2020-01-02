@@ -2708,6 +2708,16 @@ maximum_transmits
 4
 )
 ;
+NR_reg_set_uint4
+(
+(
+char
+*
+)
+NR_ICE_REG_TRICKLE_GRACE_PERIOD
+5000
+)
+;
 }
 /
 /
