@@ -1828,6 +1828,13 @@ PanelUI
 -
 quit
 :
+not
+(
+[
+disabled
+]
+)
+:
 hover
 {
 border
