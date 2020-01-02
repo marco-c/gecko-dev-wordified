@@ -3267,6 +3267,12 @@ _gripDepth
 =
 0
 ;
+this
+.
+_threadLifetimePool
+=
+null
+;
 }
 /
 *
@@ -28095,6 +28101,9 @@ createValueGrip
 desc
 .
 get
+|
+|
+undefined
 )
 ;
 descForm
@@ -28110,6 +28119,9 @@ createValueGrip
 desc
 .
 set
+|
+|
+undefined
 )
 ;
 }

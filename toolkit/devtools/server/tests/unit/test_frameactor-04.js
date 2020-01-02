@@ -452,6 +452,9 @@ expected
 [
 key
 ]
+|
+|
+undefined
 actual
 [
 key
