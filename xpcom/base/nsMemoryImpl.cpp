@@ -559,15 +559,10 @@ void
 aResult
 )
 {
-if
-(
-NS_WARN_IF
+NS_ENSURE_NO_AGGREGATION
 (
 outer
 )
-)
-return
-NS_ERROR_NO_AGGREGATION
 ;
 return
 sGlobalMemory

@@ -987,6 +987,12 @@ size
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+result
+nullptr
+)
+;
 /
 /
 now
