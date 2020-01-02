@@ -97,9 +97,9 @@ content
 /
 test
 /
-general
+plugins
 /
-pluginCrashCommentAndURL
+plugin_crashCommentAndURL
 .
 html
 "

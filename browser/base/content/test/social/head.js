@@ -2572,7 +2572,7 @@ content
 /
 test
 /
-general
+plugins
 /
 blockNoPlugins
 .
