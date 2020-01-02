@@ -230,6 +230,17 @@ deferred
 promise
 ;
 }
+resetSystemScrollbarWidth
+:
+function
+(
+)
+{
+gSystemScrollbarWidth
+=
+null
+;
+}
 _sampleSystemScrollbarWidth
 :
 function
