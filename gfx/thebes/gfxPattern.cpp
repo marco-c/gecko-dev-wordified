@@ -355,6 +355,12 @@ EXTEND_NONE
 )
 mFilter
 (
+mozilla
+:
+:
+gfx
+:
+:
 Filter
 :
 :
