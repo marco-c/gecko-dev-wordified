@@ -10014,7 +10014,6 @@ nsContentUtils
 :
 GetContentSecurityPolicy
 (
-aContext
 getter_AddRefs
 (
 csp

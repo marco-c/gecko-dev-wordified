@@ -19198,7 +19198,6 @@ nsContentUtils
 :
 GetContentSecurityPolicy
 (
-aCx
 getter_AddRefs
 (
 loadInfo
