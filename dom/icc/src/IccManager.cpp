@@ -614,8 +614,13 @@ GetIccIds
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 aIccIds
 )
 {
@@ -758,8 +763,7 @@ Root
 ;
 }
 aIccIds
--
->
+.
 setObject
 (
 *

@@ -170,6 +170,15 @@ nsServiceManagerUtils
 .
 h
 "
+#
+include
+"
+js
+/
+Value
+.
+h
+"
 USING_BLUETOOTH_NAMESPACE
 already_AddRefed
 <
@@ -249,9 +258,7 @@ request
 JS
 :
 :
-UndefinedValue
-(
-)
+UndefinedHandleValue
 )
 ;
 return

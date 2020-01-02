@@ -1042,7 +1042,7 @@ endif
 "
 "
 "
-jspubtd_include
+jsvalue_include
 =
 "
 "
@@ -1050,7 +1050,9 @@ jspubtd_include
 #
 include
 "
-jspubtd
+js
+/
+Value
 .
 h
 "
@@ -1301,7 +1303,7 @@ fd
 .
 write
 (
-jspubtd_include
+jsvalue_include
 )
     
 #

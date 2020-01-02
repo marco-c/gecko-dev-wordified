@@ -11536,9 +11536,7 @@ GetAsJSVal
 JS
 :
 :
-Value
-*
-_retval
+MutableHandleValue
 )
 {
 /

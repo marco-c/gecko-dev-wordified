@@ -797,11 +797,8 @@ returnStringOnly
 *
 /
 false
+&
 v
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
