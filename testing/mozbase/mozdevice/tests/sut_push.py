@@ -509,6 +509,16 @@ FALSE
 )
                                  
 (
+'
+info
+os
+'
+'
+android
+'
+)
+                                 
+(
 "
 isdir
 /
