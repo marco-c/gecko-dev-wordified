@@ -2697,6 +2697,7 @@ enum
 VideoCodecType
 {
 kVideoCodecVP8
+kVideoCodecH264
 kVideoCodecI420
 kVideoCodecRED
 kVideoCodecULPFEC
