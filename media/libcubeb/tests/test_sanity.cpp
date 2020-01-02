@@ -2497,10 +2497,6 @@ test_init_destroy_multiple_streams
 (
 )
 ;
-test_init_destroy_multiple_contexts_and_streams
-(
-)
-;
 test_basic_stream_operations
 (
 )
@@ -2596,6 +2592,10 @@ is_windows_7
 )
 )
 {
+test_init_destroy_multiple_contexts_and_streams
+(
+)
+;
 delay_callback
 =
 0
