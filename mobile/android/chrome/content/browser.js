@@ -1347,6 +1347,11 @@ Home
 "
 [
 "
+HomeBanner
+:
+Get
+"
+"
 HomePanels
 :
 Get
