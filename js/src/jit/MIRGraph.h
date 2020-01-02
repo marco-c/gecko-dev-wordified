@@ -281,6 +281,10 @@ MBasicBlock
 pred
 uint32_t
 popped
+unsigned
+stackPhiCount
+=
+0
 )
 ;
 bool
@@ -615,6 +619,8 @@ pred
 jsbytecode
 *
 entryPc
+unsigned
+loopStateSlots
 )
 ;
 static

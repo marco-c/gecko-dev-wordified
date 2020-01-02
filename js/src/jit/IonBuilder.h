@@ -1747,6 +1747,10 @@ jsbytecode
 pc
 bool
 osr
+bool
+canOsr
+unsigned
+stackPhiCount
 )
 ;
 MBasicBlock
