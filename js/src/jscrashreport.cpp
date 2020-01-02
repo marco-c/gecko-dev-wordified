@@ -1226,6 +1226,9 @@ namespace
 js
 *
 /
+#
+ifdef
+JS_CRASH_DIAGNOSTICS
 static
 bool
 gInitialized
@@ -1251,6 +1254,8 @@ gRingBuffer
 JS_CRASH_RING
 )
 ;
+#
+endif
 void
 js
 :
@@ -1262,6 +1267,9 @@ SnapshotGCStack
 (
 )
 {
+#
+ifdef
+JS_CRASH_DIAGNOSTICS
 if
 (
 gInitialized
@@ -1272,6 +1280,8 @@ snapshot
 (
 )
 ;
+#
+endif
 }
 void
 js
@@ -1284,6 +1294,9 @@ SnapshotErrorStack
 (
 )
 {
+#
+ifdef
+JS_CRASH_DIAGNOSTICS
 if
 (
 gInitialized
@@ -1294,6 +1307,8 @@ snapshot
 (
 )
 ;
+#
+endif
 }
 void
 js
@@ -1313,6 +1328,9 @@ size_t
 size
 )
 {
+#
+ifdef
+JS_CRASH_DIAGNOSTICS
 if
 (
 gInitialized
@@ -1326,6 +1344,8 @@ ptr
 size
 )
 ;
+#
+endif
 }
 JS_PUBLIC_API
 (
