@@ -23313,7 +23313,7 @@ method
 with
 a
 (
-PRUnichar
+char16_t
 *
 length
 )
@@ -23371,7 +23371,7 @@ return
 "
 static
 const
-PRUnichar
+char16_t
 data
 [
 ]
