@@ -5534,6 +5534,11 @@ getContext
 "
 2d
 "
+{
+willReadFrequently
+:
+true
+}
 )
 ;
 ctx
