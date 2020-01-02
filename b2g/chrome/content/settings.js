@@ -5621,6 +5621,15 @@ threshold
 :
 100
 '
+dom
+.
+mozApps
+.
+use_reviewer_certs
+'
+:
+false
+'
 layers
 .
 draw
