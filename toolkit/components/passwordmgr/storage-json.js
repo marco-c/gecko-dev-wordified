@@ -207,11 +207,6 @@ end
 /
 /
 Globals
-"
-use
-strict
-"
-;
 const
 {
 classes
@@ -1164,6 +1159,10 @@ ensureDataReady
 (
 )
 ;
+let
+encUsername
+encPassword
+;
 /
 /
 Throws
@@ -1180,7 +1179,6 @@ checkLoginValues
 login
 )
 ;
-let
 [
 encUsername
 encPassword
