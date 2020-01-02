@@ -20443,6 +20443,12 @@ clamp
 =
 False
         
+self
+.
+_allowTreatNonCallableAsNull
+=
+False
+        
 assert
 not
 variadic
@@ -20638,6 +20644,21 @@ location
 self
 .
 enforceRange
+=
+True
+            
+elif
+identifier
+=
+=
+"
+TreatNonCallableAsNull
+"
+:
+                
+self
+.
+_allowTreatNonCallableAsNull
 =
 True
             
@@ -20881,6 +20902,18 @@ assert
 self
 .
 defaultValue
+    
+def
+allowTreatNonCallableAsNull
+(
+self
+)
+:
+        
+return
+self
+.
+_allowTreatNonCallableAsNull
     
 def
 _getDependentObjects

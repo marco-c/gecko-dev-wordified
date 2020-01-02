@@ -34642,10 +34642,6 @@ True
 lenientFloatCode
 =
 None
-                 
-allowTreatNonCallableAsNull
-=
-False
 )
 :
         
@@ -34880,12 +34876,6 @@ self
 lenientFloatCode
 =
 lenientFloatCode
-        
-self
-.
-allowTreatNonCallableAsNull
-=
-allowTreatNonCallableAsNull
     
 def
 define
@@ -34990,7 +34980,11 @@ allowTreatNonCallableAsNull
 =
 self
 .
+argument
+.
 allowTreatNonCallableAsNull
+(
+)
             
 sourceDescription
 =
@@ -43447,10 +43441,6 @@ invalidEnumValueFatal
 not
 setter
                                              
-allowTreatNonCallableAsNull
-=
-setter
-                                             
 lenientFloatCode
 =
 lenientFloatCode
@@ -48576,6 +48566,9 @@ name
 "
 arg
 "
+allowTreatNonCallableAsNull
+=
+False
 )
 :
         
@@ -48602,6 +48595,12 @@ self
 defaultValue
 =
 None
+        
+self
+.
+_allowTreatNonCallableAsNull
+=
+allowTreatNonCallableAsNull
         
 self
 .
@@ -48676,6 +48675,18 @@ identifier
 FakeIdentifier
 (
 )
+    
+def
+allowTreatNonCallableAsNull
+(
+self
+)
+:
+        
+return
+self
+.
+_allowTreatNonCallableAsNull
 class
 CGSetterCall
 (
@@ -48730,6 +48741,9 @@ FakeArgument
 (
 argType
 attr
+allowTreatNonCallableAsNull
+=
+True
 )
 ]
                                     
