@@ -781,6 +781,7 @@ kB
 .
 while
 (
+(
 ptr
 =
 strstr
@@ -789,6 +790,7 @@ ptr
 "
 Private
 "
+)
 )
 )
 {
