@@ -969,6 +969,10 @@ __s390__
 )
 |
 |
+defined
+(
+__AARCH64EB__
+)
 \
 (
 defined
@@ -1048,6 +1052,10 @@ __alpha__
 )
 |
 |
+defined
+(
+__AARCH64EL__
+)
 \
 (
 defined
