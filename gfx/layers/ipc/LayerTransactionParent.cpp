@@ -1060,6 +1060,10 @@ mDestroyed
 (
 false
 )
+mIPCOpen
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
