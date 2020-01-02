@@ -105,6 +105,7 @@ SharedTextureHandleWrapper
 {
 public
 :
+explicit
 SharedTextureHandleWrapper
 (
 SharedHandleType

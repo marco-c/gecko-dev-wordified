@@ -925,6 +925,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 SurfaceStream_SingleBuffer
 )
+explicit
 SurfaceStream_SingleBuffer
 (
 SurfaceStream
@@ -1043,6 +1044,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 SurfaceStream_TripleBuffer_Copy
 )
+explicit
 SurfaceStream_TripleBuffer_Copy
 (
 SurfaceStream
@@ -1156,6 +1158,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 SurfaceStream_TripleBuffer
 )
+explicit
 SurfaceStream_TripleBuffer
 (
 SurfaceStream
@@ -1266,6 +1269,7 @@ MOZ_OVERRIDE
 ;
 public
 :
+explicit
 SurfaceStream_TripleBuffer_Async
 (
 SurfaceStream

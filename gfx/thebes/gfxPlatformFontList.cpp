@@ -3253,6 +3253,7 @@ Compact
 struct
 FontFamilyListData
 {
+explicit
 FontFamilyListData
 (
 nsTArray
@@ -5876,6 +5877,7 @@ done
 struct
 LookupMissedFaceNamesData
 {
+explicit
 LookupMissedFaceNamesData
 (
 gfxPlatformFontList
@@ -5971,6 +5973,7 @@ PL_DHASH_NEXT
 struct
 LookupMissedOtherNamesData
 {
+explicit
 LookupMissedOtherNamesData
 (
 gfxPlatformFontList

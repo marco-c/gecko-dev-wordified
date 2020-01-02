@@ -242,6 +242,7 @@ mLongPtr
 )
 {
 }
+MOZ_IMPLICIT
 ReferencePtr
 (
 const
@@ -1031,6 +1032,7 @@ friend
 class
 DrawEventRecorderPrivate
 ;
+MOZ_IMPLICIT
 RecordedEvent
 (
 int32_t
@@ -1285,6 +1287,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedDrawTargetCreation
 (
 std
@@ -1305,6 +1308,7 @@ RecordedEvent
 {
 public
 :
+MOZ_IMPLICIT
 RecordedDrawTargetDestruction
 (
 ReferencePtr
@@ -1397,6 +1401,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedDrawTargetDestruction
 (
 std
@@ -1515,6 +1520,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedFillRect
 (
 std
@@ -1650,6 +1656,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedStrokeRect
 (
 std
@@ -1796,6 +1803,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedStrokeLine
 (
 std
@@ -1927,6 +1935,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedFill
 (
 std
@@ -2088,6 +2097,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedFillGlyphs
 (
 std
@@ -2224,6 +2234,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedMask
 (
 std
@@ -2357,6 +2368,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedStroke
 (
 std
@@ -2469,6 +2481,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedClearRect
 (
 std
@@ -2586,6 +2599,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedCopySurface
 (
 std
@@ -2693,6 +2707,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedPushClip
 (
 std
@@ -2796,6 +2811,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedPushClipRect
 (
 std
@@ -2819,6 +2835,7 @@ RecordedDrawingEvent
 {
 public
 :
+MOZ_IMPLICIT
 RecordedPopClip
 (
 DrawTarget
@@ -2891,6 +2908,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedPopClip
 (
 std
@@ -2991,6 +3009,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedSetTransform
 (
 std
@@ -3124,6 +3143,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedDrawSurface
 (
 std
@@ -3273,6 +3293,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedDrawSurfaceWithShadow
 (
 std
@@ -3413,6 +3434,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedDrawFilter
 (
 std
@@ -3445,6 +3467,7 @@ RecordedEvent
 {
 public
 :
+MOZ_IMPLICIT
 RecordedPathCreation
 (
 PathRecording
@@ -3542,6 +3565,7 @@ PathOp
 >
 mPathOps
 ;
+MOZ_IMPLICIT
 RecordedPathCreation
 (
 std
@@ -3562,6 +3586,7 @@ RecordedEvent
 {
 public
 :
+MOZ_IMPLICIT
 RecordedPathDestruction
 (
 PathRecording
@@ -3652,6 +3677,7 @@ RecordedEvent
 ReferencePtr
 mRefPtr
 ;
+MOZ_IMPLICIT
 RecordedPathDestruction
 (
 std
@@ -3813,6 +3839,7 @@ mFormat
 bool
 mDataOwned
 ;
+MOZ_IMPLICIT
 RecordedSourceSurfaceCreation
 (
 std
@@ -3833,6 +3860,7 @@ RecordedEvent
 {
 public
 :
+MOZ_IMPLICIT
 RecordedSourceSurfaceDestruction
 (
 ReferencePtr
@@ -3922,6 +3950,7 @@ RecordedEvent
 ReferencePtr
 mRefPtr
 ;
+MOZ_IMPLICIT
 RecordedSourceSurfaceDestruction
 (
 std
@@ -4045,6 +4074,7 @@ mRefPtr
 FilterType
 mType
 ;
+MOZ_IMPLICIT
 RecordedFilterNodeCreation
 (
 std
@@ -4065,6 +4095,7 @@ RecordedEvent
 {
 public
 :
+MOZ_IMPLICIT
 RecordedFilterNodeDestruction
 (
 ReferencePtr
@@ -4154,6 +4185,7 @@ RecordedEvent
 ReferencePtr
 mRefPtr
 ;
+MOZ_IMPLICIT
 RecordedFilterNodeDestruction
 (
 std
@@ -4304,6 +4336,7 @@ mExtendMode
 bool
 mDataOwned
 ;
+MOZ_IMPLICIT
 RecordedGradientStopsCreation
 (
 std
@@ -4324,6 +4357,7 @@ RecordedEvent
 {
 public
 :
+MOZ_IMPLICIT
 RecordedGradientStopsDestruction
 (
 ReferencePtr
@@ -4413,6 +4447,7 @@ RecordedEvent
 ReferencePtr
 mRefPtr
 ;
+MOZ_IMPLICIT
 RecordedGradientStopsDestruction
 (
 std
@@ -4531,6 +4566,7 @@ mRefPtr
 ReferencePtr
 mDT
 ;
+MOZ_IMPLICIT
 RecordedSnapshot
 (
 std
@@ -4728,6 +4764,7 @@ mGlyphSize
 uint32_t
 mIndex
 ;
+MOZ_IMPLICIT
 RecordedScaledFontCreation
 (
 std
@@ -4748,6 +4785,7 @@ RecordedEvent
 {
 public
 :
+MOZ_IMPLICIT
 RecordedScaledFontDestruction
 (
 ReferencePtr
@@ -4837,6 +4875,7 @@ RecordedEvent
 ReferencePtr
 mRefPtr
 ;
+MOZ_IMPLICIT
 RecordedScaledFontDestruction
 (
 std
@@ -4961,6 +5000,7 @@ friend
 class
 RecordedEvent
 ;
+MOZ_IMPLICIT
 RecordedMaskSurface
 (
 std
@@ -5222,6 +5262,7 @@ uint8_t
 >
 mPayload
 ;
+MOZ_IMPLICIT
 RecordedFilterNodeSetAttribute
 (
 std
@@ -5391,6 +5432,7 @@ mInputFilter
 ReferencePtr
 mInputSurface
 ;
+MOZ_IMPLICIT
 RecordedFilterNodeSetInput
 (
 std

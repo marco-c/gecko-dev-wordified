@@ -808,6 +808,7 @@ false
 ;
 public
 :
+explicit
 GLBlitHelper
 (
 GLContext

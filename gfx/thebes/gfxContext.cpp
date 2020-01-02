@@ -275,6 +275,7 @@ GeneralPattern
 {
 public
 :
+explicit
 GeneralPattern
 (
 gfxContext

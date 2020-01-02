@@ -147,6 +147,7 @@ GLContext
 const
 mGL
 ;
+explicit
 ScopedGLWrapper
 (
 GLContext
@@ -492,6 +493,7 @@ mTexture
 ;
 public
 :
+explicit
 ScopedTexture
 (
 GLContext
@@ -540,6 +542,7 @@ mFB
 ;
 public
 :
+explicit
 ScopedFramebuffer
 (
 GLContext
@@ -588,6 +591,7 @@ mRB
 ;
 public
 :
+explicit
 ScopedRenderbuffer
 (
 GLContext
@@ -1095,6 +1099,7 @@ UnwrapImpl
 struct
 ScopedGLDrawState
 {
+explicit
 ScopedGLDrawState
 (
 GLContext

@@ -12461,6 +12461,7 @@ AFTER_GL_CALL
 Constructor
 protected
 :
+explicit
 GLContext
 (
 const

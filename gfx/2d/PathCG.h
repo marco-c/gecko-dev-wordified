@@ -158,6 +158,7 @@ mCGPath
 aPath
 ;
 }
+explicit
 PathBuilderCG
 (
 FillRule

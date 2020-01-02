@@ -189,6 +189,7 @@ gfxCharacterMap
 *
 KeyTypePointer
 ;
+explicit
 CharMapHashKey
 (
 const
@@ -1150,6 +1151,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTER
 }
 ;
+explicit
 gfxPlatformFontList
 (
 bool

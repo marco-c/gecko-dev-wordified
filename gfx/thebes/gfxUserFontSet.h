@@ -714,6 +714,7 @@ friend
 class
 gfxUserFontSet
 ;
+explicit
 gfxMixedFontFamily
 (
 const
@@ -2504,6 +2505,7 @@ Key
 *
 KeyTypePointer
 ;
+explicit
 Entry
 (
 KeyTypePointer

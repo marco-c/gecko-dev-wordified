@@ -266,6 +266,7 @@ str
 ;
 public
 :
+explicit
 GLReadTexImageHelper
 (
 GLContext

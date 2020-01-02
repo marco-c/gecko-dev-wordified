@@ -121,6 +121,7 @@ gfxASurface
 {
 public
 :
+explicit
 gfxQuartzImageSurface
 (
 gfxImageSurface
@@ -128,6 +129,7 @@ gfxImageSurface
 imageSurface
 )
 ;
+explicit
 gfxQuartzImageSurface
 (
 cairo_surface_t

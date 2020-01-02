@@ -2983,6 +2983,7 @@ content
 of
 aBuffer
 .
+explicit
 FontTableBlobData
 (
 FallibleTArray
@@ -37978,6 +37979,7 @@ nullptr
 struct
 PrefFontCallbackData
 {
+explicit
 PrefFontCallbackData
 (
 nsTArray
@@ -43402,6 +43404,7 @@ color
 struct
 BufferAlphaColor
 {
+explicit
 BufferAlphaColor
 (
 gfxContext

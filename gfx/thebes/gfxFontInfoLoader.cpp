@@ -226,6 +226,7 @@ FontInfoLoadCompleteEvent
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
+explicit
 FontInfoLoadCompleteEvent
 (
 FontInfoData
@@ -266,6 +267,7 @@ AsyncFontInfoLoader
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
+explicit
 AsyncFontInfoLoader
 (
 FontInfoData

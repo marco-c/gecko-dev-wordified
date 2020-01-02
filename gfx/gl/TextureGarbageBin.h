@@ -201,6 +201,7 @@ mGarbageTextures
 ;
 public
 :
+explicit
 TextureGarbageBin
 (
 GLContext

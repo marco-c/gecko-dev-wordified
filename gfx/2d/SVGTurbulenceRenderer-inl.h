@@ -368,6 +368,7 @@ namespace
 struct
 RandomNumberSource
 {
+explicit
 RandomNumberSource
 (
 int32_t

@@ -198,6 +198,7 @@ nullptr
 )
 {
 }
+explicit
 BorrowedCairoContext
 (
 DrawTarget
@@ -502,6 +503,7 @@ nullptr
 )
 {
 }
+explicit
 BorrowedCGContext
 (
 DrawTarget

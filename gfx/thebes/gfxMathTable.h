@@ -182,6 +182,7 @@ reference
 .
 *
 /
+explicit
 gfxMathTable
 (
 hb_blob_t

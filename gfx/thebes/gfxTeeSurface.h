@@ -208,6 +208,7 @@ gfxASurface
 {
 public
 :
+explicit
 gfxTeeSurface
 (
 cairo_surface_t

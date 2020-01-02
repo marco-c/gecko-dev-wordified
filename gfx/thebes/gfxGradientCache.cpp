@@ -232,6 +232,7 @@ aBackendType
 )
 {
 }
+explicit
 GradientCacheKey
 (
 const

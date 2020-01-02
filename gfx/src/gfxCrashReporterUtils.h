@@ -222,6 +222,7 @@ ScopedGfxFeatureReporter
 {
 public
 :
+explicit
 ScopedGfxFeatureReporter
 (
 const
