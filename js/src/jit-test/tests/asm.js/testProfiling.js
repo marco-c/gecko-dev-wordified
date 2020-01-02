@@ -100,6 +100,11 @@ got
 replace
 (
 /
+(
+fast
+|
+slow
+)
 FFI
 trampoline
 /
