@@ -589,7 +589,6 @@ gfx
 Filter
 mFilter
 ;
-;
 }
 ;
 /
