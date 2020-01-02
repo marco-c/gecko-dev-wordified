@@ -223,6 +223,7 @@ mSortedHashTable
 static
 *
 /
+const
 PLDHashTableOps
 SpanningCellSorter
 :

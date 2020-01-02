@@ -487,6 +487,7 @@ mItems
 }
 ;
 static
+const
 PLDHashTableOps
 HashTableOps
 ;

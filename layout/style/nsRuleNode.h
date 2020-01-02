@@ -1990,6 +1990,7 @@ aKey
 )
 ;
 static
+const
 PLDHashTableOps
 ChildrenHashOps
 ;

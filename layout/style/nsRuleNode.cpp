@@ -735,6 +735,7 @@ key
 static
 *
 /
+const
 PLDHashTableOps
 nsRuleNode
 :
