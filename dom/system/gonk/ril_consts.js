@@ -24729,6 +24729,14 @@ ready
 ;
 this
 .
+GECKO_CARDSTATE_PERMANENT_BLOCKED
+=
+"
+permanentBlocked
+"
+;
+this
+.
 GECKO_CARDLOCK_PIN
 =
 "
