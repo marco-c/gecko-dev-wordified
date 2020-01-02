@@ -1812,9 +1812,6 @@ nsPerformance
 mParentPerformance
 ;
 uint64_t
-mBufferSizeSet
-;
-uint64_t
 mPrimaryBufferSize
 ;
 static
