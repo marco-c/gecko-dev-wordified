@@ -2180,6 +2180,7 @@ JS_FS_END
 }
 ;
 static
+const
 int32_t
 ReferenceSizes
 [
@@ -2633,6 +2634,7 @@ cpp
 *
 /
 static
+const
 int32_t
 X4Sizes
 [

@@ -42830,6 +42830,8 @@ for
 InvokeFromAsmJS_
 *
 :
+static
+const
 MIRType
 typeArray
 [

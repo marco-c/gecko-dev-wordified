@@ -5263,6 +5263,7 @@ here
 *
 /
 static
+const
 Class
 CallConstructHolder
 =
