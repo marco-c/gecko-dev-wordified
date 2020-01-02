@@ -14877,6 +14877,12 @@ type_
 !
 =
 JitFrame_IonJS
+&
+&
+type_
+!
+=
+JitFrame_BaselineJS
 )
 return
 true
@@ -15022,6 +15028,7 @@ entry
 .
 callStackAtAddr
 (
+rt
 returnAddressToFp_
 location
 &
@@ -15153,6 +15160,14 @@ code
 )
 ;
 }
+if
+(
+type_
+=
+=
+JitFrame_IonJS
+)
+{
 /
 /
 Create
@@ -15368,6 +15383,7 @@ more
 +
 inlineFrames
 ;
+}
 }
 return
 true
