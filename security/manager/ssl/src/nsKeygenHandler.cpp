@@ -427,13 +427,6 @@ base
 }
 ;
 static
-NS_DEFINE_IID
-(
-kIDOMHTMLSelectElementIID
-NS_IDOMHTMLSELECTELEMENT_IID
-)
-;
-static
 NS_DEFINE_CID
 (
 kNSSComponentCID

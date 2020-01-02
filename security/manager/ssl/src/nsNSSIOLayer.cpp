@@ -417,13 +417,6 @@ NSSCleanupAutoPtrClass
 void
 PR_FREEIF
 )
-static
-NS_DEFINE_CID
-(
-kNSSComponentCID
-NS_NSSCOMPONENT_CID
-)
-;
 /
 *
 SSM_UserCertChoice
@@ -9446,6 +9439,9 @@ derPort
 }
 }
 ;
+#
+if
+0
 static
 const
 SEC_ASN1Template
@@ -9461,9 +9457,6 @@ cert_CertificateScopeEntryTemplate
 }
 }
 ;
-#
-if
-0
 /
 *
 *
