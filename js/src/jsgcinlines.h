@@ -216,7 +216,9 @@ if
 rt
 -
 >
-gcManipulatingDeadZones
+gc
+.
+manipulatingDeadZones
 &
 &
 zone
@@ -228,7 +230,9 @@ scheduledForDestruction
 rt
 -
 >
-gcObjectsMarkedInDeadZones
+gc
+.
+objectsMarkedInDeadZones
 +
 +
 ;
@@ -595,7 +599,9 @@ rt
 rt
 -
 >
-gcPoke
+gc
+.
+poke
 =
 true
 ;
@@ -640,7 +646,9 @@ ZealPokeValue
 rt
 -
 >
-gcNextScheduled
+gc
+.
+nextScheduled
 =
 1
 ;
@@ -1229,7 +1237,9 @@ runtimeFromAnyThread
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 isEmpty
 (
@@ -1467,7 +1477,9 @@ if
 rt
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 isEmpty
 (
@@ -1560,6 +1572,8 @@ runtimeFromAnyThread
 )
 -
 >
+gc
+.
 noGCOrAllocationCheck
 ;
 +
@@ -1823,7 +1837,9 @@ current
 rt
 -
 >
-gcCurrentZoneGroup
+gc
+.
+currentZoneGroup
 ;
 }
 bool
@@ -2028,7 +2044,9 @@ nursery
 rt
 -
 >
-gcNursery
+gc
+.
+nursery
 ;
 JSObject
 *
@@ -2260,6 +2278,8 @@ JS_ASSERT
 rt
 -
 >
+gc
+.
 noGCOrAllocationCheck
 )
 ;

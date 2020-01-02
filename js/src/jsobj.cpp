@@ -8596,7 +8596,9 @@ runtime
 rt
 -
 >
-gcIncrementalEnabled
+gc
+.
+incrementalEnabled
 =
 false
 ;
@@ -18451,7 +18453,9 @@ runtime
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 allocateSlots
 (
@@ -18527,7 +18531,9 @@ runtime
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 reallocateSlots
 (
@@ -19089,7 +19095,9 @@ runtime
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 freeSlots
 (
@@ -20389,7 +20397,9 @@ runtime
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 allocateElements
 (
@@ -20477,7 +20487,9 @@ runtime
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 reallocateElements
 (
