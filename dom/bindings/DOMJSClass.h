@@ -1582,11 +1582,11 @@ mBase
 }
 ;
 class
-ProtoAndIfaceArray
+ProtoAndIfaceCache
 ;
 inline
 bool
-HasProtoAndIfaceArray
+HasProtoAndIfaceCache
 (
 JSObject
 *
@@ -1639,9 +1639,9 @@ isUndefined
 ;
 }
 inline
-ProtoAndIfaceArray
+ProtoAndIfaceCache
 *
-GetProtoAndIfaceArray
+GetProtoAndIfaceCache
 (
 JSObject
 *
@@ -1667,7 +1667,7 @@ JSCLASS_DOM_GLOBAL
 return
 static_cast
 <
-ProtoAndIfaceArray
+ProtoAndIfaceCache
 *
 >
 (

@@ -4466,7 +4466,7 @@ if
 dom
 :
 :
-HasProtoAndIfaceArray
+HasProtoAndIfaceCache
 (
 mGlobalJSObject
 )
@@ -4475,14 +4475,14 @@ mGlobalJSObject
 dom
 :
 :
-ProtoAndIfaceArray
+ProtoAndIfaceCache
 *
 cache
 =
 dom
 :
 :
-GetProtoAndIfaceArray
+GetProtoAndIfaceCache
 (
 mGlobalJSObject
 )
