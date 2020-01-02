@@ -123,7 +123,7 @@ TYPE_VOID
 =
 0x2
     
-TYPE_OBJECT
+TYPE_SYMBOL
 =
 0x4
     
@@ -358,8 +358,22 @@ tag
 =
 jsid
 .
-TYPE_OBJECT
+TYPE_SYMBOL
 :
+            
+if
+bits
+=
+=
+jsid
+.
+TYPE_SYMBOL
+:
+                
+return
+"
+JSID_EMPTY
+"
             
 body
 =
@@ -380,7 +394,7 @@ self
 .
 cache
 .
-JSObject_ptr_t
+JSSymbol_ptr_t
 )
 )
         
