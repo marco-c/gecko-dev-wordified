@@ -344,7 +344,10 @@ Layer
 *
 aRoot
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aGLWorldTransform
 )

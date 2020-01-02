@@ -8644,7 +8644,10 @@ nsIntRect
 &
 aCurrentScissorRect
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 *
 aWorldTransform
 )
