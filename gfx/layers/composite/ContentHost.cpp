@@ -4382,9 +4382,6 @@ offset
 ;
 }
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 void
 ContentHostSingleBuffered
 :
@@ -4670,8 +4667,6 @@ get
 ;
 }
 }
-#
-endif
 #
 ifdef
 MOZ_DUMP_PAINTING

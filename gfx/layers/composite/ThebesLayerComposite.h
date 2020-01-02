@@ -472,9 +472,6 @@ TYPE_SHADOW
 )
 protected
 :
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 nsACString
 &
@@ -490,8 +487,6 @@ aPrefix
 )
 MOZ_OVERRIDE
 ;
-#
-endif
 private
 :
 gfxSize

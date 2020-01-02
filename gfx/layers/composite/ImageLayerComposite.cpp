@@ -1009,9 +1009,6 @@ mImageHost
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 nsACString
 &
 ImageLayerComposite
@@ -1088,8 +1085,6 @@ return
 aTo
 ;
 }
-#
-endif
 }
 /
 *

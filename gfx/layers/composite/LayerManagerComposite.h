@@ -921,9 +921,6 @@ return
 mThebesLayerCallbackData
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -939,11 +936,6 @@ return
 "
 ;
 }
-#
-endif
-/
-/
-MOZ_LAYERS_HAVE_LOG
 enum
 WorldTransforPolicy
 {

@@ -1756,9 +1756,6 @@ nullptr
 }
 #
 endif
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -1773,8 +1770,6 @@ aPrefix
 )
 {
 }
-#
-endif
 void
 AddTextureHost
 (

@@ -1572,9 +1572,6 @@ aFlipped
 false
 )
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -1590,11 +1587,6 @@ OGL
 "
 ;
 }
-#
-endif
-/
-/
-MOZ_LAYERS_HAVE_LOG
 const
 nsIntSize
 &

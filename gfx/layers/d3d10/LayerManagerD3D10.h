@@ -707,9 +707,6 @@ Direct3D
 )
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -725,11 +722,6 @@ D3D10
 "
 ;
 }
-#
-endif
-/
-/
-MOZ_LAYERS_HAVE_LOG
 /
 /
 Public

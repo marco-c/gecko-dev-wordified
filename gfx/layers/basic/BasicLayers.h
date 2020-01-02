@@ -968,9 +968,6 @@ mWidget
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -986,11 +983,6 @@ Basic
 "
 ;
 }
-#
-endif
-/
-/
-MOZ_LAYERS_HAVE_LOG
 /
 /
 Clear

@@ -147,9 +147,6 @@ mozilla
 :
 layers
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 void
 TexturedEffect
 :
@@ -429,8 +426,3 @@ ToABGR
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_LAYERS_HAVE_LOG

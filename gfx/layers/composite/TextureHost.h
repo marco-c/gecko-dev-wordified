@@ -2429,9 +2429,6 @@ CompositableBackendSpecificData
 aBackendData
 )
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -2459,8 +2456,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 protected
 :
 uint64_t
@@ -2896,9 +2891,6 @@ GetBuffer
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -2914,8 +2906,6 @@ ShmemTextureHost
 "
 ;
 }
-#
-endif
 protected
 :
 mozilla
@@ -3021,9 +3011,6 @@ GetBuffer
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -3039,8 +3026,6 @@ MemoryTextureHost
 "
 ;
 }
-#
-endif
 protected
 :
 uint8_t
@@ -4062,9 +4047,6 @@ GetAsSurface
 =
 0
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -4088,8 +4070,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 /
 *
 *

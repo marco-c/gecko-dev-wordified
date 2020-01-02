@@ -493,9 +493,6 @@ IsValid
 )
 const
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -511,8 +508,6 @@ GrallocTextureHostOGL
 "
 ;
 }
-#
-endif
 private
 :
 GrallocBufferActor
