@@ -11475,6 +11475,17 @@ setHasRest
 bool
 ok
 ;
+SourceBufferHolder
+srcBuf
+(
+chars
+length
+SourceBufferHolder
+:
+:
+NoOwnership
+)
+;
 if
 (
 isStarGenerator
@@ -11491,8 +11502,7 @@ cx
 fun
 options
 formals
-chars
-length
+srcBuf
 )
 ;
 else
@@ -11508,8 +11518,7 @@ cx
 fun
 options
 formals
-chars
-length
+srcBuf
 )
 ;
 args

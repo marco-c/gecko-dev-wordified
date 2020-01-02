@@ -286,6 +286,9 @@ class
 AutoHashSetRooter
 ;
 class
+SourceBufferHolder
+;
+class
 HandleValueArray
 ;
 }
@@ -519,6 +522,12 @@ JS
 :
 :
 ReadOnlyCompileOptions
+;
+using
+JS
+:
+:
+SourceBufferHolder
 ;
 using
 JS
