@@ -17247,7 +17247,7 @@ you
 "
 postedMessage
 .
-fullBody
+body
 )
 ;
 }
