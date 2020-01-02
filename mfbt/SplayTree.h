@@ -338,10 +338,6 @@ T
 *
 root
 ;
-T
-*
-freeList
-;
 public
 :
 SplayTree
@@ -349,10 +345,6 @@ SplayTree
 )
 :
 root
-(
-nullptr
-)
-freeList
 (
 nullptr
 )
