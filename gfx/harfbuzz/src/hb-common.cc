@@ -1404,6 +1404,9 @@ hb_language_item_t
 *
 langs
 ;
+#
+ifdef
+HAVE_ATEXIT
 static
 inline
 void
@@ -1444,6 +1447,8 @@ next
 ;
 }
 }
+#
+endif
 static
 hb_language_item_t
 *
