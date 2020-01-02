@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LinkedList
 .
 h
@@ -3596,6 +3605,7 @@ are
 doing
 .
 class
+MOZ_STACK_CLASS
 AutoEnterRuntime
 {
 PerThreadData
