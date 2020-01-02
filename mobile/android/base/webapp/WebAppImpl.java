@@ -680,7 +680,7 @@ splashscreen
 String
 origin
 =
-WebAppAllocator
+Allocator
 .
 getInstance
 (
@@ -1024,7 +1024,7 @@ installed
 int
 dominantColor
 =
-WebAppAllocator
+Allocator
 .
 getInstance
 (

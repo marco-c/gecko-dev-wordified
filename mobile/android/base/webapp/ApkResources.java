@@ -217,7 +217,7 @@ String
 LOGTAG
 =
 "
-GeckoApkResources
+GeckoWebAppApkResources
 "
 ;
 private

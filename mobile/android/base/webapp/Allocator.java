@@ -157,7 +157,7 @@ Log
 ;
 public
 class
-WebAppAllocator
+Allocator
 {
 private
 final
@@ -221,14 +221,14 @@ MAX_WEB_APPS
 ;
 protected
 static
-WebAppAllocator
+Allocator
 sInstance
 =
 null
 ;
 public
 static
-WebAppAllocator
+Allocator
 getInstance
 (
 )
@@ -247,7 +247,7 @@ getContext
 public
 static
 synchronized
-WebAppAllocator
+Allocator
 getInstance
 (
 Context
@@ -265,7 +265,7 @@ null
 sInstance
 =
 new
-WebAppAllocator
+Allocator
 (
 cx
 )
@@ -279,7 +279,7 @@ SharedPreferences
 mPrefs
 ;
 protected
-WebAppAllocator
+Allocator
 (
 Context
 context

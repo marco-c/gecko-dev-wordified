@@ -230,7 +230,7 @@ String
 LOGTAG
 =
 "
-GeckoUninstallListener
+GeckoWebAppUninstallListener
 "
 ;
 Override
@@ -285,10 +285,10 @@ intent
 return
 ;
 }
-WebAppAllocator
+Allocator
 allocator
 =
-WebAppAllocator
+Allocator
 .
 getInstance
 (
@@ -415,10 +415,10 @@ we
 think
 are
 installed
-WebAppAllocator
+Allocator
 allocator
 =
-WebAppAllocator
+Allocator
 .
 getInstance
 (
