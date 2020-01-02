@@ -387,6 +387,17 @@ OnChannelError
 (
 )
 ;
+#
+ifdef
+MOZ_NUWA_PROCESS
+static
+void
+MarkThread
+(
+)
+;
+#
+endif
 /
 /
 The
