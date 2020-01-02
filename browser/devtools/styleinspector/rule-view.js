@@ -8583,15 +8583,6 @@ elementStyle
 )
 {
 return
-promise
-.
-reject
-(
-"
-element
-changed
-"
-)
 ;
 }
 this
