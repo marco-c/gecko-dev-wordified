@@ -3659,7 +3659,6 @@ aShouldEnable
 {
 MOZ_ASSERT
 (
-!
 NS_IsMainThread
 (
 )
@@ -4043,7 +4042,6 @@ StartInternal
 {
 MOZ_ASSERT
 (
-!
 NS_IsMainThread
 (
 )
@@ -4127,7 +4125,6 @@ StopInternal
 {
 MOZ_ASSERT
 (
-!
 NS_IsMainThread
 (
 )
