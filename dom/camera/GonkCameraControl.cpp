@@ -1564,7 +1564,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unanticipated
@@ -1576,6 +1576,12 @@ SetConfigurationInternal
 )
 "
 )
+;
+rv
+=
+NS_ERROR_FAILURE
+;
+break
 ;
 }
 DOM_CAMERA_LOGT

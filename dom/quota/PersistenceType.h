@@ -228,17 +228,6 @@ value
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
-(
-"
-Should
-never
-get
-here
-!
-"
-)
-;
 }
 inline
 PersistenceType
@@ -282,7 +271,7 @@ return
 PERSISTENCE_TYPE_TEMPORARY
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Should

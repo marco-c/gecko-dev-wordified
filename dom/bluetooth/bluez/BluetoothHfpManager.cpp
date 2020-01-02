@@ -11029,7 +11029,7 @@ not
 be
 invoked
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 UpdateSdpRecords

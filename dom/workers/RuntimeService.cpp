@@ -12026,10 +12026,12 @@ aThread
 /
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
-This
+OnDispatchedEvent
+(
+)
 should
 never
 be

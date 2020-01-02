@@ -808,7 +808,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unanticipated
@@ -5371,7 +5371,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unanticipated
@@ -5761,7 +5761,7 @@ break
 endif
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unanticipated
@@ -6806,7 +6806,7 @@ get
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unhandled
