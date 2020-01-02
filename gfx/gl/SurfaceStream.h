@@ -188,6 +188,10 @@ GenericAtomicRefCounted
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SurfaceStream
+)
 typedef
 enum
 {
@@ -953,6 +957,10 @@ swap
 .
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SurfaceStream_SingleBuffer
+)
 SurfaceStream_SingleBuffer
 (
 SurfaceStream
@@ -1067,6 +1075,10 @@ mConsumer
 ;
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SurfaceStream_TripleBuffer_Copy
+)
 SurfaceStream_TripleBuffer_Copy
 (
 SurfaceStream
@@ -1156,6 +1168,10 @@ prevStream
 ;
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SurfaceStream_TripleBuffer
+)
 SurfaceStream_TripleBuffer
 (
 SurfaceStream
