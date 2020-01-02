@@ -498,7 +498,7 @@ aDesiredSize
 const
 nsHTMLReflowState
 &
-aReflowState
+aButtonReflowState
 nsIFrame
 *
 aFirstKid
