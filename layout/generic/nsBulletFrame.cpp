@@ -4774,7 +4774,7 @@ informal
 ;
 }
 ;
-static
+extern
 const
 char16_t
 gJapaneseNegative
@@ -4889,7 +4889,7 @@ false
 informal
 }
 ;
-static
+extern
 const
 char16_t
 gKoreanNegative
@@ -5055,7 +5055,7 @@ false
 informal
 }
 ;
-static
+extern
 const
 char16_t
 gSimpChineseNegative
@@ -5167,7 +5167,7 @@ false
 informal
 }
 ;
-static
+extern
 const
 char16_t
 gTradChineseNegative
