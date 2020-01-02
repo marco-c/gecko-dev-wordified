@@ -441,13 +441,13 @@ final
 int
 NOTIFY_IME_TO_COMMIT_COMPOSITION
 =
-4
+7
 ;
 final
 int
 NOTIFY_IME_TO_CANCEL_COMPOSITION
 =
-5
+8
 ;
 /
 /
