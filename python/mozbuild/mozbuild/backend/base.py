@@ -2142,9 +2142,7 @@ update
             
 top_srcdir
 =
-self
-.
-environment
+obj
 .
 topsrcdir
             
@@ -2159,9 +2157,7 @@ mozpath
 relpath
 (
 srcdir
-self
-.
-environment
+obj
 .
 topsrcdir
 )
@@ -2176,9 +2172,7 @@ mozpath
 .
 relpath
 (
-self
-.
-environment
+obj
 .
 topobjdir
 mozpath

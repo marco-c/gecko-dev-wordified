@@ -5631,6 +5631,26 @@ input_path
 =
 makefile_in
                 
+obj
+.
+topsrcdir
+=
+bf
+.
+environment
+.
+topsrcdir
+                
+obj
+.
+topobjdir
+=
+bf
+.
+environment
+.
+topobjdir
+                
 self
 .
 _create_makefile
@@ -8576,6 +8596,26 @@ in
 '
 )
         
+obj
+.
+topsrcdir
+=
+self
+.
+environment
+.
+topsrcdir
+        
+obj
+.
+topobjdir
+=
+self
+.
+environment
+.
+topobjdir
+        
 self
 .
 _create_makefile
@@ -9696,6 +9736,14 @@ input_path
             
 '
 output_path
+'
+            
+'
+topsrcdir
+'
+            
+'
+topobjdir
 '
         
 )
