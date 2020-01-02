@@ -315,7 +315,7 @@ clang
 -
 3
 .
-2
+3
 '
 RE_CLANG_VERSION
 =
