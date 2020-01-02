@@ -4218,7 +4218,7 @@ taken
 *
 /
 extern
-bool
+void
 TriggerGC
 (
 JSRuntime
@@ -4247,7 +4247,7 @@ taken
 *
 /
 extern
-bool
+void
 TriggerZoneGC
 (
 Zone
