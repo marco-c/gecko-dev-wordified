@@ -4222,13 +4222,11 @@ NS_NewDOMDragEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-WidgetDragEvent
-*
->
-(
 aEvent
+-
+>
+AsDragEvent
+(
 )
 )
 ;
