@@ -1220,6 +1220,17 @@ ComputedLogicalMargin
 (
 )
 .
+ConvertTo
+(
+aWritingMode
+aFrame
+-
+>
+GetWritingMode
+(
+)
+)
+.
 BEnd
 (
 aWritingMode
