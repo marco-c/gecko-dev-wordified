@@ -6712,7 +6712,11 @@ precision
 -
 resolution
 "
-250
+"
+0
+.
+25
+"
 )
 ;
 /

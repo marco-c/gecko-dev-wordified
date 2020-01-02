@@ -791,10 +791,6 @@ gfxPrefs
 LowPrecisionResolution
 (
 )
-/
-1000
-.
-f
 )
 ;
 }
