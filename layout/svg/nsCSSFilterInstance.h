@@ -510,6 +510,14 @@ aDescr
 )
 ;
 nsresult
+SetAttributesForOpacity
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
+nsresult
 SetAttributesForSaturate
 (
 FilterPrimitiveDescription
