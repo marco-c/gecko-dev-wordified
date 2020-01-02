@@ -1478,6 +1478,10 @@ mallocSizeOf_
 &
 cStats
 .
+typeInferencePendingArrays
+&
+cStats
+.
 typeInferenceAllocationSiteTables
 &
 cStats
