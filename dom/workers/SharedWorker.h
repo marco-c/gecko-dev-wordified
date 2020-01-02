@@ -172,10 +172,8 @@ dom
 GlobalObject
 GlobalObject
 ;
-nsRefPtr
-<
 WorkerPrivate
->
+*
 mWorkerPrivate
 ;
 nsRefPtr
