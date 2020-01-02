@@ -16471,9 +16471,16 @@ if
 !
 constraints
 )
+{
+js_ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 BaselineInspector
 inspector
 (
