@@ -7713,7 +7713,7 @@ it
 *
 /
 static
-void
+bool
 AppendNodeTextContent
 (
 nsINode
@@ -7724,6 +7724,12 @@ aDeep
 nsAString
 &
 aResult
+const
+mozilla
+:
+:
+fallible_t
+&
 )
 ;
 /
