@@ -196,7 +196,7 @@ TEST_URL
 TEST_URL_ROOT
 +
 "
-browser_inspector_markup_edit
+doc_markup_edit
 .
 html
 "
