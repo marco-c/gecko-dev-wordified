@@ -205,9 +205,6 @@ class
 nsIFile
 ;
 class
-nsIJSRuntimeService
-;
-class
 nsIPrincipal
 ;
 class
@@ -447,12 +444,6 @@ mCompMgr
 ;
 nsCOMPtr
 <
-nsIJSRuntimeService
->
-mRuntimeService
-;
-nsCOMPtr
-<
 nsIPrincipal
 >
 mSystemPrincipal
@@ -462,14 +453,6 @@ nsCOMPtr
 nsIXPConnectJSObjectHolder
 >
 mLoaderGlobal
-;
-JSRuntime
-*
-mRuntime
-;
-JSContext
-*
-mContext
 ;
 class
 ModuleEntry
