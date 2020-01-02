@@ -2894,9 +2894,6 @@ if
 aMaskType
 =
 =
-MaskType
-:
-:
 MaskNone
 )
 {
@@ -3077,9 +3074,6 @@ if
 aMaskType
 =
 =
-MaskType
-:
-:
 Mask2d
 )
 {
@@ -3248,9 +3242,6 @@ aIs2D
 MaskType
 maskType
 =
-MaskType
-:
-:
 MaskNone
 ;
 if
@@ -3262,13 +3253,7 @@ maskType
 =
 aIs2D
 ?
-MaskType
-:
-:
 Mask2d
-:
-MaskType
-:
 :
 Mask3d
 ;
@@ -3352,9 +3337,6 @@ layer
 SetShaderMode
 (
 aMode
-MaskType
-:
-:
 MaskNone
 )
 ;

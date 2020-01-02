@@ -306,9 +306,6 @@ for
 MaskType
 :
 :
-MaskType
-:
-:
 NumMaskTypes
 etc
 #
@@ -1026,10 +1023,7 @@ CreateDataTextureSource
 TextureFlags
 aFlags
 =
-TextureFlags
-:
-:
-NO_FLAGS
+0
 )
 MOZ_OVERRIDE
 ;
@@ -2042,9 +2036,6 @@ aEffect
 MaskType
 aMask
 =
-MaskType
-:
-:
 MaskNone
 )
 const

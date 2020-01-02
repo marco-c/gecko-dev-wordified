@@ -299,10 +299,7 @@ aMoz2dBackend
 TextureFlags
 aFlags
 =
-TextureFlags
-:
-:
-DEFAULT
+TEXTURE_FLAGS_DEFAULT
 )
 ;
 GrallocTextureClientOGL
@@ -323,10 +320,7 @@ aMoz2dBackend
 TextureFlags
 aFlags
 =
-TextureFlags
-:
-:
-DEFAULT
+TEXTURE_FLAGS_DEFAULT
 )
 ;
 ~

@@ -1041,10 +1041,7 @@ ShadowLayerForwarder
 :
 mDiagnosticTypes
 (
-DiagnosticTypes
-:
-:
-NO_DIAGNOSTIC
+DIAGNOSTIC_NONE
 )
 mIsFirstPaint
 (
@@ -2044,10 +2041,7 @@ GetFlags
 (
 )
 &
-TextureFlags
-:
-:
-IMMEDIATE_UPLOAD
+TEXTURE_IMMEDIATE_UPLOAD
 )
 {
 mTxn
@@ -2363,10 +2357,7 @@ GetFlags
 (
 )
 &
-TextureFlags
-:
-:
-DEALLOCATE_CLIENT
+TEXTURE_DEALLOCATE_CLIENT
 )
 {
 mTxn

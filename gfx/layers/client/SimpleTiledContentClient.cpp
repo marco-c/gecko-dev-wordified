@@ -745,9 +745,6 @@ textureClient
 >
 Lock
 (
-OpenMode
-:
-:
 OPEN_READ_WRITE
 )
 )

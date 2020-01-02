@@ -811,10 +811,7 @@ SurfaceFormat
 :
 :
 B8G8R8X8
-TextureFlags
-:
-:
-DEFAULT
+TEXTURE_FLAGS_DEFAULT
 )
 ;
 textureClient

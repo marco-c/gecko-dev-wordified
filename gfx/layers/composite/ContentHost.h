@@ -1234,10 +1234,7 @@ GetType
 )
 {
 return
-CompositableType
-:
-:
-CONTENT_DOUBLE
+COMPOSITABLE_CONTENT_DOUBLE
 ;
 }
 virtual
@@ -1336,10 +1333,7 @@ GetType
 )
 {
 return
-CompositableType
-:
-:
-CONTENT_SINGLE
+COMPOSITABLE_CONTENT_SINGLE
 ;
 }
 virtual
@@ -1460,9 +1454,6 @@ GetType
 )
 {
 return
-CompositableType
-:
-:
 BUFFER_CONTENT_INC
 ;
 }

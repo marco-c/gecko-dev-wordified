@@ -2505,9 +2505,6 @@ mFrontBuffer
 >
 Lock
 (
-OpenMode
-:
-:
 OPEN_READ
 )
 )
@@ -2544,9 +2541,6 @@ mBackBuffer
 >
 Lock
 (
-OpenMode
-:
-:
 OPEN_WRITE
 )
 )
@@ -4550,9 +4544,6 @@ backBuffer
 >
 Lock
 (
-OpenMode
-:
-:
 OPEN_READ_WRITE
 )
 )

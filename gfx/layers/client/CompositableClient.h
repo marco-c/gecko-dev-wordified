@@ -660,10 +660,7 @@ aForwarder
 TextureFlags
 aFlags
 =
-TextureFlags
-:
-:
-NO_FLAGS
+0
 )
 ;
 virtual
@@ -695,10 +692,7 @@ aFormat
 TextureFlags
 aFlags
 =
-TextureFlags
-:
-:
-DEFAULT
+TEXTURE_FLAGS_DEFAULT
 gfx
 :
 :

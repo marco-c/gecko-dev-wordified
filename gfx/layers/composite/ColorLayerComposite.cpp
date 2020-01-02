@@ -213,10 +213,7 @@ h
 /
 /
 for
-DiagnosticFlags
-:
-:
-COLOR
+DIAGNOSTIC_COLOR
 #
 include
 "
@@ -425,10 +422,7 @@ mCompositor
 >
 DrawDiagnostics
 (
-DiagnosticFlags
-:
-:
-COLOR
+DIAGNOSTIC_COLOR
 rect
 clipRect
 transform

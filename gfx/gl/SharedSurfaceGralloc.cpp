@@ -472,13 +472,7 @@ it
 with
 a
 DrawTarget
-layers
-:
-:
-TextureFlags
-:
-:
-DEFAULT
+TEXTURE_FLAGS_DEFAULT
 )
 ;
 if

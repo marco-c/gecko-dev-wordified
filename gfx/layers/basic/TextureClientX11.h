@@ -168,10 +168,7 @@ format
 TextureFlags
 aFlags
 =
-TextureFlags
-:
-:
-DEFAULT
+TEXTURE_FLAGS_DEFAULT
 )
 ;
 ~

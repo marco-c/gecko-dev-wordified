@@ -205,10 +205,7 @@ externally
 mFlags
 |
 =
-TextureFlags
-:
-:
-DEALLOCATE_CLIENT
+TEXTURE_DEALLOCATE_CLIENT
 ;
 }
 SharedTextureClientOGL
@@ -336,10 +333,7 @@ mInverted
 {
 AddFlags
 (
-TextureFlags
-:
-:
-NEEDS_Y_FLIP
+TEXTURE_NEEDS_Y_FLIP
 )
 ;
 }

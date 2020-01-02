@@ -371,10 +371,7 @@ CreateBufferTextureClient
 (
 mSurfaceAllocator
 mFormat
-TextureFlags
-:
-:
-IMMEDIATE_UPLOAD
+TEXTURE_IMMEDIATE_UPLOAD
 gfx
 :
 :
@@ -396,10 +393,7 @@ CreateTextureClientForDrawing
 (
 mSurfaceAllocator
 mFormat
-TextureFlags
-:
-:
-IMMEDIATE_UPLOAD
+TEXTURE_IMMEDIATE_UPLOAD
 gfx
 :
 :

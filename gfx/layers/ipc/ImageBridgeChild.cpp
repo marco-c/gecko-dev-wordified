@@ -3398,10 +3398,7 @@ CreateImageClient
 (
 aType
 this
-TextureFlags
-:
-:
-NO_FLAGS
+0
 )
 ;
 MOZ_ASSERT
@@ -4517,10 +4514,7 @@ GetFlags
 (
 )
 &
-TextureFlags
-:
-:
-DEALLOCATE_CLIENT
+TEXTURE_DEALLOCATE_CLIENT
 )
 {
 mTxn

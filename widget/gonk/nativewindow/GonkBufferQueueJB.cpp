@@ -2651,10 +2651,7 @@ BackendType
 :
 :
 NONE
-TextureFlags
-:
-:
-DEALLOCATE_CLIENT
+TEXTURE_DEALLOCATE_CLIENT
 )
 ;
 usage
