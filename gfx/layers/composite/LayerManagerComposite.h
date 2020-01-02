@@ -1113,13 +1113,6 @@ aFormat
 )
 MOZ_OVERRIDE
 ;
-const
-nsIntSize
-&
-GetWidgetSize
-(
-)
-;
 /
 *
 *
