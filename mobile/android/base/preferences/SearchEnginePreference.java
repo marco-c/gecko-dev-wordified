@@ -1334,6 +1334,13 @@ mPromptIcon
 new
 BitmapDrawable
 (
+getContext
+(
+)
+.
+getResources
+(
+)
 mFaviconView
 .
 getBitmap
