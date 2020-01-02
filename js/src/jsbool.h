@@ -169,9 +169,6 @@ BooleanGetPrimitiveValue
 (
 HandleObject
 obj
-JSContext
-*
-cx
 )
 ;
 }

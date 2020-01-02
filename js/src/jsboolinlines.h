@@ -146,8 +146,6 @@ bool
 BooleanGetPrimitiveValueSlow
 (
 HandleObject
-JSContext
-*
 )
 ;
 inline
@@ -156,9 +154,6 @@ BooleanGetPrimitiveValue
 (
 HandleObject
 obj
-JSContext
-*
-cx
 )
 {
 if
@@ -192,7 +187,6 @@ return
 BooleanGetPrimitiveValueSlow
 (
 obj
-cx
 )
 ;
 }

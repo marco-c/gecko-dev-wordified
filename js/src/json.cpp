@@ -1664,7 +1664,6 @@ setBoolean
 BooleanGetPrimitiveValue
 (
 obj
-cx
 )
 )
 ;
