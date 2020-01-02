@@ -248,7 +248,7 @@ rate
 "
 )
 ;
-NS_ASSERTION
+NS_WARN_IF_FALSE
 (
 0
 <
@@ -266,6 +266,10 @@ ticks
 "
 )
 ;
+/
+/
+bug
+957691
 return
 (
 aTicks
