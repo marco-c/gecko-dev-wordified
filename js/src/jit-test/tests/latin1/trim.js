@@ -9,8 +9,6 @@ Latin1
 var
 s
 =
-toLatin1
-(
 "
 \
 r
@@ -30,6 +28,14 @@ n
 \
 u00A0
 "
+;
+assertEq
+(
+isLatin1
+(
+s
+)
+true
 )
 ;
 var
@@ -128,13 +134,10 @@ u00A0foo
 ;
 res
 =
-toLatin1
-(
 "
 foo
 1234
 "
-)
 .
 trim
 (
