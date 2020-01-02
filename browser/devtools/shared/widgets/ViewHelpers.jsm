@@ -3375,6 +3375,17 @@ this
 _target
 ;
 }
+get
+prebuiltNode
+(
+)
+{
+return
+this
+.
+_prebuiltNode
+;
+}
 /
 *
 *
