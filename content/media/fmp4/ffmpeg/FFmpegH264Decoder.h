@@ -255,6 +255,11 @@ aSample
 )
 ;
 void
+NotifyDrain
+(
+)
+;
+void
 OutputDelayedFrames
 (
 )

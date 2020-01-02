@@ -455,6 +455,13 @@ Drain
 )
 MOZ_OVERRIDE
 {
+mCallback
+-
+>
+DrainComplete
+(
+)
+;
 return
 NS_OK
 ;
