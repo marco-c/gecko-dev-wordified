@@ -11113,7 +11113,7 @@ undefined
 /
 null
 /
-bolean
+boolean
 /
 int32
 or
@@ -11138,6 +11138,16 @@ op
 mightBeType
 (
 MIRType_Double
+)
+&
+&
+!
+op
+-
+>
+mightBeType
+(
+MIRType_Float32
 )
 &
 &
