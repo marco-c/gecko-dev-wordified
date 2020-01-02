@@ -1771,14 +1771,14 @@ code
 *
 /
 class
-SVGPathDataAndOwner
+SVGPathDataAndInfo
 :
 public
 SVGPathData
 {
 public
 :
-SVGPathDataAndOwner
+SVGPathDataAndInfo
 (
 nsSVGElement
 *
@@ -1863,7 +1863,7 @@ nsresult
 CopyFrom
 (
 const
-SVGPathDataAndOwner
+SVGPathDataAndInfo
 &
 rhs
 )
@@ -1984,7 +1984,7 @@ be
 copied
 to
 *
-SVGPathDataAndOwner
+SVGPathDataAndInfo
 objects
 .
 Note
