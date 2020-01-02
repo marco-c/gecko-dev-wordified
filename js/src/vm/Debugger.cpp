@@ -11288,7 +11288,7 @@ for
 gc
 :
 :
-GCCompartmentsIter
+GCCompartmentGroupIter
 comp
 (
 rt
