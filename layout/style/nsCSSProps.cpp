@@ -3073,6 +3073,8 @@ eCSSKeyword_meterbar
 NS_THEME_METERBAR
 eCSSKeyword_meterchunk
 NS_THEME_METERBAR_CHUNK
+eCSSKeyword_number_input
+NS_THEME_NUMBER_INPUT
 eCSSKeyword_separator
 NS_THEME_TOOLBAR_SEPARATOR
 eCSSKeyword_splitter

@@ -564,7 +564,7 @@ if
 aWidgetType
 =
 =
-NS_THEME_TEXTFIELD
+NS_THEME_NUMBER_INPUT
 &
 &
 frameContent
@@ -694,6 +694,12 @@ lists
 .
 if
 (
+aWidgetType
+=
+=
+NS_THEME_NUMBER_INPUT
+|
+|
 aWidgetType
 =
 =
@@ -2101,6 +2107,12 @@ ShouldUseNativeStyleForSpinner
 }
 return
 (
+aWidgetType
+=
+=
+NS_THEME_NUMBER_INPUT
+|
+|
 aWidgetType
 =
 =

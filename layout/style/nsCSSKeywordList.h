@@ -4076,6 +4076,13 @@ listitem
 )
 CSS_KEY
 (
+number
+-
+input
+number_input
+)
+CSS_KEY
+(
 treeview
 treeview
 )
