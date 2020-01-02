@@ -387,6 +387,13 @@ nsAutoCString
 #
 include
 "
+TextRenderer
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
