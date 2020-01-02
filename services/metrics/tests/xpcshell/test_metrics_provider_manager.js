@@ -2014,6 +2014,11 @@ from
 category
 manager
 :
+"
++
+"
+Error
+:
 Dummy
 Error
 "
@@ -2151,6 +2156,8 @@ pull
 -
 only
 provider
+:
+Error
 :
 Dummy
 Error
@@ -2319,6 +2326,8 @@ when
 shutting
 down
 provider
+:
+Error
 :
 Dummy
 shutdown
