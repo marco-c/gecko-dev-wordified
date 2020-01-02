@@ -28157,11 +28157,14 @@ we
 '
 re
 nullable
+and
+not
+        
+#
+isMember
 we
 do
 it
-        
-#
 all
 by
 hand
@@ -28172,14 +28175,39 @@ not
 want
 our
 holder
+        
+#
 constructed
 if
 we
 '
 re
+null
+.
+But
+if
+we
+'
+re
+isMember
+we
+don
+'
+t
+have
+a
         
 #
-null
+holder
+anyway
+so
+we
+can
+do
+the
+normal
+Optional
+codepath
 .
         
 declLoc
@@ -28200,6 +28228,9 @@ nullable
             
 if
 isOptional
+and
+not
+isMember
 :
                 
 holderArgs
@@ -28725,8 +28756,12 @@ dealWithOptional
 =
 isOptional
 and
+(
 not
 nullable
+or
+isMember
+)
 )
     
 if
