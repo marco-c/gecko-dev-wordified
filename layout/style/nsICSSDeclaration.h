@@ -257,13 +257,9 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
+class
 nsINode
-.
-h
-"
+;
 /
 /
 dbeabbfa

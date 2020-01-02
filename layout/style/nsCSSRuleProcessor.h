@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsCSSStyleSheet
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -219,6 +212,9 @@ nsCSSPageRule
 ;
 class
 nsCSSFontFeatureValuesRule
+;
+class
+nsCSSStyleSheet
 ;
 /
 *

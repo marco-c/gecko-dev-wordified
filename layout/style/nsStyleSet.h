@@ -218,13 +218,9 @@ nsCSSPseudoElements
 .
 h
 "
-#
-include
-"
-gfxFontFeatures
-.
-h
-"
+class
+gfxFontFeatureValueSet
+;
 class
 nsCSSFontFaceRule
 ;

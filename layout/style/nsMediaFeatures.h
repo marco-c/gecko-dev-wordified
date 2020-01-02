@@ -93,13 +93,6 @@ nsMediaFeatures_h_
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 nsCSSProps
 .
 h
