@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-MouseEvents
+ArrayUtils
 .
 h
 "
@@ -128,7 +128,7 @@ include
 "
 mozilla
 /
-Util
+MouseEvents
 .
 h
 "

@@ -193,7 +193,7 @@ include
 "
 mozilla
 /
-MemoryReporting
+ArrayUtils
 .
 h
 "
@@ -202,7 +202,7 @@ include
 "
 mozilla
 /
-Util
+MemoryReporting
 .
 h
 "

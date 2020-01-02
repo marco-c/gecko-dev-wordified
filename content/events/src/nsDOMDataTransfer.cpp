@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-BasicEvents
+ArrayUtils
 .
 h
 "
@@ -128,7 +128,7 @@ include
 "
 mozilla
 /
-Util
+BasicEvents
 .
 h
 "

@@ -165,7 +165,7 @@ include
 "
 mozilla
 /
-NullPtr
+ArrayUtils
 .
 h
 "
@@ -174,7 +174,7 @@ include
 "
 mozilla
 /
-Util
+NullPtr
 .
 h
 "

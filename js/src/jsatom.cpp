@@ -129,7 +129,7 @@ include
 "
 mozilla
 /
-RangedPtr
+ArrayUtils
 .
 h
 "
@@ -138,7 +138,7 @@ include
 "
 mozilla
 /
-Util
+RangedPtr
 .
 h
 "

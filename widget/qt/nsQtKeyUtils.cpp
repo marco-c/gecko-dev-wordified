@@ -96,7 +96,7 @@ include
 "
 mozilla
 /
-TextEvents
+ArrayUtils
 .
 h
 "
@@ -105,7 +105,7 @@ include
 "
 mozilla
 /
-Util
+TextEvents
 .
 h
 "

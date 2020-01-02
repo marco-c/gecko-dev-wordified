@@ -116,7 +116,7 @@ include
 "
 mozilla
 /
-Attributes
+ArrayUtils
 .
 h
 "
@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-Util
+Attributes
 .
 h
 "

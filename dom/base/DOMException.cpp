@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-HoldDropJSObjects
+ArrayUtils
 .
 h
 "
@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-Util
+HoldDropJSObjects
 .
 h
 "
