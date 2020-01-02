@@ -459,7 +459,7 @@ logcat
 .
 #
 ifdef
-MOZ_DEBUG
+DEBUG
 dump
 (
 aMessage
