@@ -636,7 +636,10 @@ pod
 .
 minHeapLength_
 =
-AsmJSAllocationGranularity
+RoundUpToNextValidAsmJSHeapLength
+(
+0
+)
 ;
 pod
 .

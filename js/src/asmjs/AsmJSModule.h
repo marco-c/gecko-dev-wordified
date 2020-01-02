@@ -5042,6 +5042,13 @@ isFinishedWithFunctionBodies
 )
 )
 ;
+len
+=
+RoundUpToNextValidAsmJSHeapLength
+(
+len
+)
+;
 if
 (
 len

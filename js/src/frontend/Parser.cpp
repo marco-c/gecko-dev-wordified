@@ -16205,7 +16205,7 @@ validated
 if
 (
 !
-CompileAsmJS
+ValidateAsmJS
 (
 context
 *
