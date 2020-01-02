@@ -10125,9 +10125,6 @@ ARG
 )
 ;
 }
-#
-if
-JS_HAS_DESTRUCTURING
 template
 <
 typename
@@ -10260,13 +10257,6 @@ VAR
 )
 ;
 }
-#
-endif
-/
-*
-JS_HAS_DESTRUCTURING
-*
-/
 template
 <
 typename
@@ -10465,9 +10455,6 @@ null
 (
 )
 ;
-#
-if
-JS_HAS_DESTRUCTURING
 Node
 list
 =
@@ -10475,8 +10462,6 @@ null
 (
 )
 ;
-#
-endif
 do
 {
 if
@@ -10522,9 +10507,6 @@ switch
 tt
 )
 {
-#
-if
-JS_HAS_DESTRUCTURING
 case
 TOK_LB
 :
@@ -10819,13 +10801,6 @@ list
 break
 ;
 }
-#
-endif
-/
-*
-JS_HAS_DESTRUCTURING
-*
-/
 case
 TOK_YIELD
 :
@@ -13396,9 +13371,6 @@ pos
 .
 end
 ;
-#
-if
-JS_HAS_DESTRUCTURING
 /
 *
 *
@@ -13624,8 +13596,6 @@ pn_xflags
 PNX_DESTRUCT
 ;
 }
-#
-endif
 JS_ASSERT
 (
 pn
@@ -19934,9 +19904,6 @@ return
 true
 ;
 }
-#
-if
-JS_HAS_DESTRUCTURING
 template
 <
 >
@@ -21350,13 +21317,6 @@ return
 pn
 ;
 }
-#
-endif
-/
-*
-JS_HAS_DESTRUCTURING
-*
-/
 template
 <
 typename
@@ -22992,9 +22952,6 @@ getToken
 (
 )
 ;
-#
-if
-JS_HAS_DESTRUCTURING
 if
 (
 tt
@@ -23155,13 +23112,6 @@ pn2
 continue
 ;
 }
-#
-endif
-/
-*
-JS_HAS_DESTRUCTURING
-*
-/
 if
 (
 tt
@@ -26662,9 +26612,6 @@ JSOP_DEFCONST
 return
 false
 ;
-#
-if
-JS_HAS_DESTRUCTURING
 /
 /
 In
@@ -26779,8 +26726,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;
@@ -26810,9 +26755,6 @@ PNK_ELEM
 return
 true
 ;
-#
-if
-JS_HAS_DESTRUCTURING
 case
 PNK_ARRAY
 :
@@ -26893,8 +26835,6 @@ pn_count
 return
 true
 ;
-#
-endif
 default
 :
 return
@@ -28020,9 +27960,6 @@ maybeExpr
 (
 )
 )
-#
-if
-JS_HAS_DESTRUCTURING
 |
 |
 pn2
@@ -28032,8 +27969,6 @@ isKind
 (
 PNK_ASSIGN
 )
-#
-endif
 )
 {
 /
@@ -28206,9 +28141,6 @@ pn1
 =
 nullptr
 ;
-#
-if
-JS_HAS_DESTRUCTURING
 if
 (
 pn2
@@ -28257,8 +28189,6 @@ PNK_NAME
 )
 ;
 }
-#
-endif
 }
 }
 else
@@ -28523,9 +28453,6 @@ markAsAssigned
 ;
 break
 ;
-#
-if
-JS_HAS_DESTRUCTURING
 case
 PNK_ASSIGN
 :
@@ -28595,8 +28522,6 @@ JSITER_KEYVALUE
 }
 break
 ;
-#
-endif
 default
 :
 ;
@@ -32929,9 +32854,6 @@ switch
 tt
 )
 {
-#
-if
-JS_HAS_DESTRUCTURING
 case
 TOK_LB
 :
@@ -32959,8 +32881,6 @@ null
 ;
 break
 ;
-#
-endif
 case
 TOK_YIELD
 :
@@ -35169,9 +35089,6 @@ PNK_ELEM
 :
 break
 ;
-#
-if
-JS_HAS_DESTRUCTURING
 case
 PNK_ARRAY
 :
@@ -35214,8 +35131,6 @@ false
 ;
 break
 ;
-#
-endif
 case
 PNK_CALL
 :
@@ -39213,9 +39128,6 @@ switch
 tt
 )
 {
-#
-if
-JS_HAS_DESTRUCTURING
 case
 TOK_LB
 :
@@ -39255,8 +39167,6 @@ null
 ;
 break
 ;
-#
-endif
 case
 TOK_NAME
 :
@@ -39530,9 +39440,6 @@ switch
 tt
 )
 {
-#
-if
-JS_HAS_DESTRUCTURING
 case
 TOK_LB
 :
@@ -39674,8 +39581,6 @@ JSITER_KEYVALUE
 }
 break
 ;
-#
-endif
 case
 TOK_NAME
 :
@@ -44203,9 +44108,6 @@ null
 )
 ;
 }
-#
-if
-JS_HAS_DESTRUCTURING_SHORTHAND
 else
 if
 (
@@ -44371,8 +44273,6 @@ null
 )
 ;
 }
-#
-endif
 else
 {
 report
