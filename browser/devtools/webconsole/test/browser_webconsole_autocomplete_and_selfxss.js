@@ -338,7 +338,7 @@ i
 i
 <
 =
-5
+3
 ;
 i
 +
@@ -364,7 +364,7 @@ is
 WebConsoleUtils
 .
 usageCount
-6
+4
 "
 Usage
 count
