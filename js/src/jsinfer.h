@@ -219,7 +219,7 @@ TaggedProto
 :
 proto
 (
-NULL
+nullptr
 )
 {
 }
@@ -1554,7 +1554,7 @@ TypeConstraint
 :
 next
 (
-NULL
+nullptr
 )
 {
 }
@@ -2516,11 +2516,11 @@ flags
 )
 objectSet
 (
-NULL
+nullptr
 )
 constraintList
 (
-NULL
+nullptr
 )
 {
 }
@@ -2639,7 +2639,7 @@ return
 constraintList
 =
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -2844,7 +2844,7 @@ getObject
 *
 may
 return
-NULL
+nullptr
 .
 *
 /
@@ -3570,7 +3570,7 @@ in
 this
 set
 or
-NULL
+nullptr
 .
 *
 /
@@ -3594,7 +3594,7 @@ in
 this
 set
 or
-NULL
+nullptr
 .
 *
 /
@@ -3714,7 +3714,7 @@ this
 type
 set
 otherwise
-NULL
+nullptr
 .
 *
 /
@@ -7556,7 +7556,7 @@ CompilerOutput
 :
 script_
 (
-NULL
+nullptr
 )
 mode_
 (
@@ -7649,7 +7649,7 @@ return
 script_
 !
 =
-NULL
+nullptr
 ;
 }
 void
@@ -7659,7 +7659,7 @@ invalidate
 {
 script_
 =
-NULL
+nullptr
 ;
 }
 void
@@ -8681,7 +8681,7 @@ InferSpewColorReset
 )
 {
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -8696,7 +8696,7 @@ constraint
 )
 {
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -8711,7 +8711,7 @@ types
 )
 {
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -8741,7 +8741,7 @@ type
 )
 {
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -8756,7 +8756,7 @@ type
 )
 {
 return
-NULL
+nullptr
 ;
 }
 #
