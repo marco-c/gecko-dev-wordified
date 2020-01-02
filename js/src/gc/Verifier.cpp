@@ -1344,7 +1344,10 @@ VerifyPreTracer
 >
 (
 rt
+JSTraceCallback
+(
 nullptr
+)
 )
 ;
 if
@@ -2717,7 +2720,10 @@ VerifyPostTracer
 >
 (
 rt
+JSTraceCallback
+(
 nullptr
+)
 )
 ;
 if
