@@ -171,7 +171,7 @@ Variables
 Always
 expand
 all
-scopes
+items
 between
 pauses
 .

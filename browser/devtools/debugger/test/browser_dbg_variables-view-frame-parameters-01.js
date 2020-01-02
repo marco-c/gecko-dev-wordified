@@ -422,7 +422,7 @@ is
 (
 gVariables
 .
-getScopeForNode
+getItemForNode
 (
 scopeNodes
 [
@@ -436,7 +436,7 @@ scopeNodes
 0
 ]
 "
-getScopeForNode
+getItemForNode
 (
 [
 0
@@ -457,7 +457,7 @@ is
 (
 gVariables
 .
-getScopeForNode
+getItemForNode
 (
 scopeNodes
 [
@@ -471,7 +471,7 @@ scopeNodes
 1
 ]
 "
-getScopeForNode
+getItemForNode
 (
 [
 1
@@ -492,7 +492,7 @@ is
 (
 gVariables
 .
-getScopeForNode
+getItemForNode
 (
 scopeNodes
 [
@@ -519,7 +519,7 @@ is
 (
 gVariables
 .
-getScopeForNode
+getItemForNode
 (
 scopeNodes
 [
