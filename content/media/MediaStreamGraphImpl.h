@@ -476,7 +476,10 @@ thread
 A
 ControlMessage
 always
-references
+has
+a
+weak
+reference
 a
 particular
 affected
@@ -489,6 +492,7 @@ ControlMessage
 {
 public
 :
+explicit
 ControlMessage
 (
 MediaStream
