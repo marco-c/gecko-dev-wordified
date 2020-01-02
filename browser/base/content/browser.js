@@ -25379,9 +25379,7 @@ URIs
 }
 try
 {
-Services
-.
-appinfo
+gCrashReporter
 .
 annotateCrashReport
 (
