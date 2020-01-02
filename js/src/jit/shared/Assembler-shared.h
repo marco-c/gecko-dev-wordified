@@ -3333,6 +3333,8 @@ AsmJSImm_InvokeFromAsmJS_ToNumber
 AsmJSImm_CoerceInPlace_ToInt32
 AsmJSImm_CoerceInPlace_ToNumber
 AsmJSImm_ToInt32
+AsmJSImm_EnableActivationFromAsmJS
+AsmJSImm_DisableActivationFromAsmJS
 #
 if
 defined
