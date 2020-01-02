@@ -235,7 +235,6 @@ self
 for
 typ
 inp
-default
 doc
 tier
 in

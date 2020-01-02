@@ -164,7 +164,7 @@ from
 .
 sandbox_symbols
 import
-compute_final_target
+FinalTargetValue
 class
 TreeMetadata
 (
@@ -2817,7 +2817,7 @@ subdir
 "
         
 return
-compute_final_target
+FinalTargetValue
 (
 dict
 (
