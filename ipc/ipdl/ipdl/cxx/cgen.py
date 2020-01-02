@@ -1671,6 +1671,18 @@ explicit
 '
 )
         
+else
+:
+            
+self
+.
+write
+(
+'
+MOZ_IMPLICIT
+'
+)
+        
 self
 .
 visitMethodDecl
