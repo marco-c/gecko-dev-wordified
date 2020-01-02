@@ -53398,6 +53398,16 @@ luminosity
 invalid_values
 :
 [
+"
+none
+"
+"
+10px
+"
+"
+multiply
+multiply
+"
 ]
 }
 ;
