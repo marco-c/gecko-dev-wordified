@@ -2712,10 +2712,6 @@ DeallocShmem
 mShmem
 )
 ;
-mShmem
-=
-nullptr
-;
 }
 }
 void
@@ -2839,10 +2835,6 @@ delete
 [
 ]
 mBuffer
-;
-mBuffer
-=
-nullptr
 ;
 }
 uint8_t
