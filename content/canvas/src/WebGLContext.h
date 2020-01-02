@@ -5851,11 +5851,6 @@ UndoFakeVertexAttrib0
 (
 )
 ;
-void
-InvalidateFakeVertexAttrib0
-(
-)
-;
 static
 CheckedUint32
 GetImageSize
