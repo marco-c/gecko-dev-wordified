@@ -1328,8 +1328,6 @@ Compression
 0x
 %
 x
-\
-n
 "
 pvi
 -
@@ -1700,8 +1698,6 @@ Compression
 0x
 %
 x
-\
-n
 "
 pvi
 -
