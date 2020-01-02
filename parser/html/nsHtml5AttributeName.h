@@ -1197,6 +1197,11 @@ ATTR_STEMH
 static
 nsHtml5AttributeName
 *
+ATTR_SIZES
+;
+static
+nsHtml5AttributeName
+*
 ATTR_STEMV
 ;
 static
