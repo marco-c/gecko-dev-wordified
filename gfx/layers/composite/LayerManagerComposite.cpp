@@ -2322,6 +2322,10 @@ PostRender
 this
 )
 ;
+RecordFrame
+(
+)
+;
 }
 void
 LayerManagerComposite

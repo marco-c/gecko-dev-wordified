@@ -4186,9 +4186,10 @@ RenderDebugOverlay
 (
 )
 ;
-LayerManager
-:
-:
+RecordFrame
+(
+)
+;
 PostPresent
 (
 )
