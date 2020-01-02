@@ -186,7 +186,7 @@ failure
 static
 const
 Flags
-FLAG_NO_DV_FALLBACK_FOR_EV
+FLAG_MUST_BE_EV
 ;
 /
 /
