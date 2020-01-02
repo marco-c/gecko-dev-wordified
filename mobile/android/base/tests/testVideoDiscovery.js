@@ -649,7 +649,7 @@ video
 =
 chromeWin
 .
-CastApps
+CastingApps
 .
 getVideo
 (
