@@ -98,6 +98,12 @@ nsMIMEInfoBase
 public
 nsIPropertyBag
 {
+virtual
+~
+nsMIMEInfoWin
+(
+)
+;
 public
 :
 nsMIMEInfoWin
@@ -148,12 +154,6 @@ aClass
 )
 {
 }
-virtual
-~
-nsMIMEInfoWin
-(
-)
-;
 NS_IMETHOD
 LaunchWithFile
 (
