@@ -473,7 +473,7 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-bool
+FrameSearchResult
 PeekOffsetNoAmount
 (
 bool
@@ -485,7 +485,7 @@ aOffset
 MOZ_OVERRIDE
 ;
 virtual
-bool
+FrameSearchResult
 PeekOffsetCharacter
 (
 bool

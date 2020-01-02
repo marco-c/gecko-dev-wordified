@@ -352,7 +352,7 @@ IsSelfEmpty
 MOZ_OVERRIDE
 ;
 virtual
-bool
+FrameSearchResult
 PeekOffsetCharacter
 (
 bool

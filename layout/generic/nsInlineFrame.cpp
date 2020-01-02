@@ -971,7 +971,10 @@ return
 true
 ;
 }
-bool
+nsIFrame
+:
+:
+FrameSearchResult
 nsInlineFrame
 :
 :
@@ -1083,7 +1086,7 @@ startOffset
 ;
 }
 return
-false
+CONTINUE
 ;
 }
 void

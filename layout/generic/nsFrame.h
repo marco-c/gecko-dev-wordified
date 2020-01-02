@@ -1369,7 +1369,7 @@ aSelCon
 MOZ_OVERRIDE
 ;
 virtual
-bool
+FrameSearchResult
 PeekOffsetNoAmount
 (
 bool
@@ -1381,7 +1381,7 @@ aOffset
 MOZ_OVERRIDE
 ;
 virtual
-bool
+FrameSearchResult
 PeekOffsetCharacter
 (
 bool
@@ -1397,7 +1397,7 @@ true
 MOZ_OVERRIDE
 ;
 virtual
-bool
+FrameSearchResult
 PeekOffsetWord
 (
 bool

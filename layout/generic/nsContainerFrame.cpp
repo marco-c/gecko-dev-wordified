@@ -2092,7 +2092,10 @@ return
 false
 ;
 }
-bool
+nsIFrame
+:
+:
+FrameSearchResult
 nsContainerFrame
 :
 :
@@ -2143,10 +2146,13 @@ container
 frame
 .
 return
-false
+CONTINUE_EMPTY
 ;
 }
-bool
+nsIFrame
+:
+:
+FrameSearchResult
 nsContainerFrame
 :
 :
@@ -2199,7 +2205,7 @@ container
 frame
 .
 return
-false
+CONTINUE_EMPTY
 ;
 }
 /
