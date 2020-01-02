@@ -9572,7 +9572,7 @@ if
 gfxPrefs
 :
 :
-AsyncVideoEnabled
+AsyncVideoOOPEnabled
 (
 )
 )
