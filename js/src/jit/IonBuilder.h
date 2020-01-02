@@ -2723,6 +2723,9 @@ getPropTryArgumentsLength
 bool
 *
 emitted
+MDefinition
+*
+obj
 )
 ;
 bool
@@ -2731,6 +2734,9 @@ getPropTryConstant
 bool
 *
 emitted
+MDefinition
+*
+obj
 PropertyName
 *
 name
@@ -2748,6 +2754,9 @@ getPropTryDefiniteSlot
 bool
 *
 emitted
+MDefinition
+*
+obj
 PropertyName
 *
 name
@@ -2767,6 +2776,9 @@ getPropTryCommonGetter
 bool
 *
 emitted
+MDefinition
+*
+obj
 PropertyName
 *
 name
@@ -2784,6 +2796,9 @@ getPropTryInlineAccess
 bool
 *
 emitted
+MDefinition
+*
+obj
 PropertyName
 *
 name
@@ -2803,6 +2818,9 @@ getPropTryTypedObject
 bool
 *
 emitted
+MDefinition
+*
+obj
 PropertyName
 *
 name
@@ -2820,6 +2838,9 @@ getPropTryScalarPropOfTypedObject
 bool
 *
 emitted
+MDefinition
+*
+typedObj
 int32_t
 fieldOffset
 TypeDescrSet
@@ -2838,6 +2859,9 @@ getPropTryComplexPropOfTypedObject
 bool
 *
 emitted
+MDefinition
+*
+typedObj
 int32_t
 fieldOffset
 TypeDescrSet
@@ -2858,6 +2882,9 @@ getPropTryCache
 bool
 *
 emitted
+MDefinition
+*
+obj
 PropertyName
 *
 name
@@ -3916,11 +3943,6 @@ jsop_length_fastPath
 ;
 bool
 jsop_arguments
-(
-)
-;
-bool
-jsop_arguments_length
 (
 )
 ;
