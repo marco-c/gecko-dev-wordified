@@ -10064,17 +10064,6 @@ if
 (
 aLoadFlags
 &
-LOAD_FLAGS_FIXUP_SCHEME_TYPOS
-)
-flags
-|
-=
-INTERNAL_LOAD_FLAGS_FIXUP_SCHEME_TYPOS
-;
-if
-(
-aLoadFlags
-&
 LOAD_FLAGS_FIRST_LOAD
 )
 flags
