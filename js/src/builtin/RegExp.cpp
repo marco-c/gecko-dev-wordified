@@ -807,6 +807,10 @@ RegExpRunStatus_Success
 &
 res
 )
+{
+if
+(
+!
 res
 -
 >
@@ -821,7 +825,11 @@ u
 .
 pairs
 )
+)
+return
+RegExpRunStatus_Error
 ;
+}
 }
 return
 status
