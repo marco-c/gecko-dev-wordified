@@ -9180,7 +9180,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-aPresContext
 aFrameList
 aOldParent
 aNewParent

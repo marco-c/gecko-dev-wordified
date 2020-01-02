@@ -484,9 +484,6 @@ virtual
 nsresult
 StealFrame
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChild
@@ -537,7 +534,6 @@ nsContainerFrame
 :
 StealFrame
 (
-aPresContext
 aChild
 true
 )
@@ -557,7 +553,6 @@ nsContainerFrame
 :
 StealFrame
 (
-aPresContext
 aChild
 )
 ;

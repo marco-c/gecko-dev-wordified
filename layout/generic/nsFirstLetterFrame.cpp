@@ -1680,7 +1680,6 @@ GetParent
 >
 DeleteNextInFlowChild
 (
-aPresContext
 kidNextInFlow
 true
 )
@@ -1725,7 +1724,6 @@ rv
 =
 CreateNextInFlow
 (
-aPresContext
 kid
 nextInFlow
 )
@@ -1775,7 +1773,6 @@ NotEmpty
 {
 SetOverflowFrames
 (
-aPresContext
 overflow
 )
 ;
@@ -2295,7 +2292,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-aPresContext
 *
 overflowFrames
 prevInFlow

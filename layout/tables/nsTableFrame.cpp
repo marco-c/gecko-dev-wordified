@@ -11659,7 +11659,6 @@ being
 pushed
 MoveOverflowToChildList
 (
-aPresContext
 )
 ;
 bool
@@ -13255,9 +13254,6 @@ reparented
 .
 ReparentFrameViewList
 (
-PresContext
-(
-)
 frames
 this
 nextInFlow
@@ -13290,9 +13286,6 @@ list
 .
 SetOverflowFrames
 (
-PresContext
-(
-)
 frames
 )
 ;

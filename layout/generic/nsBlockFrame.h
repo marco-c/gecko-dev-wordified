@@ -2089,9 +2089,6 @@ virtual
 nsresult
 StealFrame
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChild
@@ -2106,9 +2103,6 @@ virtual
 void
 DeleteNextInFlowChild
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aNextInFlow

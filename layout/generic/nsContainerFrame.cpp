@@ -922,11 +922,16 @@ false
 }
 #
 endif
-nsPresContext
+nsIPresShell
 *
-pc
+shell
 =
 PresContext
+(
+)
+-
+>
+PresShell
 (
 )
 ;
@@ -1026,7 +1031,6 @@ parent
 >
 StealFrame
 (
-pc
 aOldFrame
 true
 )
@@ -1053,12 +1057,7 @@ lastParent
 generateReflowCommand
 )
 {
-pc
--
->
-PresShell
-(
-)
+shell
 -
 >
 FrameNeedsReflow
@@ -1614,9 +1613,6 @@ list
 =
 GetPropTableFrames
 (
-PresContext
-(
-)
 OverflowContainersProperty
 (
 )
@@ -1646,9 +1642,6 @@ list
 =
 GetPropTableFrames
 (
-PresContext
-(
-)
 ExcessOverflowContainersProperty
 (
 )
@@ -3159,9 +3152,6 @@ nsContainerFrame
 :
 ReparentFrameView
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChildFrame
@@ -3630,9 +3620,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-nsPresContext
-*
-aPresContext
 const
 nsFrameList
 &
@@ -6453,7 +6440,6 @@ GetParent
 >
 DeleteNextInFlowChild
 (
-aPresContext
 kidNextInFlow
 true
 )
@@ -7158,7 +7144,6 @@ overflowContainers
 =
 GetPropTableFrames
 (
-aPresContext
 OverflowContainersProperty
 (
 )
@@ -7190,7 +7175,6 @@ GetPrevInFlow
 >
 GetPropTableFrames
 (
-aPresContext
 ExcessOverflowContainersProperty
 (
 )
@@ -7242,7 +7226,6 @@ prev
 >
 RemovePropTableFrames
 (
-aPresContext
 ExcessOverflowContainersProperty
 (
 )
@@ -7266,7 +7249,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-aPresContext
 *
 excessFrames
 prev
@@ -7279,7 +7261,6 @@ excessFrames
 ;
 SetPropTableFrames
 (
-aPresContext
 overflowContainers
 OverflowContainersProperty
 (
@@ -7326,7 +7307,6 @@ selfExcessOCFrames
 =
 RemovePropTableFrames
 (
-aPresContext
 ExcessOverflowContainersProperty
 (
 )
@@ -7374,7 +7354,6 @@ selfExcessOCFrames
 ;
 SetPropTableFrames
 (
-aPresContext
 overflowContainers
 OverflowContainersProperty
 (
@@ -7401,7 +7380,6 @@ reflow
 nsOverflowContinuationTracker
 tracker
 (
-aPresContext
 this
 false
 false
@@ -7908,7 +7886,6 @@ GetParent
 >
 StealFrame
 (
-aPresContext
 nif
 )
 ;
@@ -8052,9 +8029,6 @@ overflowconts
 =
 GetPropTableFrames
 (
-PresContext
-(
-)
 OverflowContainersProperty
 (
 )
@@ -8219,9 +8193,6 @@ nsContainerFrame
 :
 StealFrame
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChild
@@ -8271,7 +8242,9 @@ FramePropertyTable
 *
 propTable
 =
-aPresContext
+PresContext
+(
+)
 -
 >
 PropertyTable
@@ -8397,7 +8370,9 @@ FramePropertyTable
 *
 propTable
 =
-aPresContext
+PresContext
+(
+)
 -
 >
 PropertyTable
@@ -8540,7 +8515,6 @@ IsEmpty
 {
 DestroyOverflowList
 (
-aPresContext
 )
 ;
 }
@@ -8860,9 +8834,6 @@ nsContainerFrame
 :
 CreateNextInFlow
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -8915,6 +8886,14 @@ frame
 "
 )
 ;
+nsPresContext
+*
+pc
+=
+PresContext
+(
+)
+;
 aNextInFlowResult
 =
 nullptr
@@ -8960,7 +8939,7 @@ list
 .
 nextInFlow
 =
-aPresContext
+pc
 -
 >
 PresShell
@@ -8975,7 +8954,7 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-aPresContext
+pc
 aFrame
 this
 )
@@ -9053,9 +9032,6 @@ nsContainerFrame
 :
 DeleteNextInFlowChild
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aNextInFlow
@@ -9251,7 +9227,6 @@ GetParent
 >
 DeleteNextInFlowChild
 (
-aPresContext
 delFrame
 aDeletingEmptyFrames
 )
@@ -9283,7 +9258,6 @@ rv
 =
 StealFrame
 (
-aPresContext
 aNextInFlow
 )
 ;
@@ -9401,9 +9375,6 @@ nsContainerFrame
 :
 SetOverflowFrames
 (
-nsPresContext
-*
-aPresContext
 const
 nsFrameList
 &
@@ -9426,13 +9397,21 @@ called
 "
 )
 ;
+nsPresContext
+*
+pc
+=
+PresContext
+(
+)
+;
 nsFrameList
 *
 newList
 =
 new
 (
-aPresContext
+pc
 -
 >
 PresShell
@@ -9444,7 +9423,7 @@ nsFrameList
 aOverflowFrames
 )
 ;
-aPresContext
+pc
 -
 >
 PropertyTable
@@ -9469,9 +9448,6 @@ nsContainerFrame
 :
 GetPropTableFrames
 (
-nsPresContext
-*
-aPresContext
 const
 FramePropertyDescriptor
 *
@@ -9483,7 +9459,9 @@ FramePropertyTable
 *
 propTable
 =
-aPresContext
+PresContext
+(
+)
 -
 >
 PropertyTable
@@ -9515,9 +9493,6 @@ nsContainerFrame
 :
 RemovePropTableFrames
 (
-nsPresContext
-*
-aPresContext
 const
 FramePropertyDescriptor
 *
@@ -9528,7 +9503,9 @@ FramePropertyTable
 *
 propTable
 =
-aPresContext
+PresContext
+(
+)
 -
 >
 PropertyTable
@@ -9559,9 +9536,6 @@ nsContainerFrame
 :
 SetPropTableFrames
 (
-nsPresContext
-*
-aPresContext
 nsFrameList
 *
 aFrameList
@@ -9573,9 +9547,6 @@ aProperty
 {
 NS_PRECONDITION
 (
-aPresContext
-&
-&
 aProperty
 &
 &
@@ -9638,12 +9609,13 @@ MOZ_ASSERT
 !
 GetPropTableFrames
 (
-aPresContext
 aProperty
 )
 )
 ;
-aPresContext
+PresContext
+(
+)
 -
 >
 PropertyTable
@@ -9805,9 +9777,6 @@ nsContainerFrame
 :
 PushChildren
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFromChild
@@ -9975,7 +9944,6 @@ nsContainerFrame
 :
 ReparentFrameView
 (
-aPresContext
 f
 this
 nextInFlow
@@ -10008,7 +9976,6 @@ overflow
 list
 SetOverflowFrames
 (
-aPresContext
 tail
 )
 ;
@@ -10083,9 +10050,6 @@ nsContainerFrame
 :
 MoveOverflowToChildList
 (
-nsPresContext
-*
-aPresContext
 )
 {
 bool
@@ -10130,7 +10094,9 @@ prevInFlow
 AutoFrameListPtr
 prevOverflowFrames
 (
-aPresContext
+PresContext
+(
+)
 prevInFlow
 -
 >
@@ -10218,7 +10184,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-aPresContext
 *
 prevOverflowFrames
 prevInFlow
@@ -10328,9 +10293,6 @@ nsOverflowContinuationTracker
 :
 nsOverflowContinuationTracker
 (
-nsPresContext
-*
-aPresContext
 nsContainerFrame
 *
 aFrame
@@ -10409,17 +10371,6 @@ list
 "
 )
 ;
-nsPresContext
-*
-pc
-=
-mParent
--
->
-PresContext
-(
-)
-;
 nsContainerFrame
 *
 nif
@@ -10450,7 +10401,6 @@ nif
 >
 GetPropTableFrames
 (
-pc
 nsContainerFrame
 :
 :
@@ -10487,7 +10437,6 @@ mParent
 >
 GetPropTableFrames
 (
-pc
 nsContainerFrame
 :
 :
@@ -11154,7 +11103,6 @@ GetParent
 >
 StealFrame
 (
-presContext
 aOverflowCont
 )
 ;
@@ -11202,7 +11150,6 @@ mParent
 >
 SetPropTableFrames
 (
-presContext
 mOverflowContList
 nsContainerFrame
 :
@@ -11235,7 +11182,6 @@ nsContainerFrame
 :
 ReparentFrameView
 (
-presContext
 aOverflowCont
 aOverflowCont
 -
@@ -11691,7 +11637,6 @@ parent
 >
 StealFrame
 (
-presContext
 f
 )
 ;

@@ -708,9 +708,6 @@ created
 nsresult
 CreateNextInFlow
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -775,9 +772,6 @@ virtual
 void
 DeleteNextInFlowChild
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aNextInFlow
@@ -855,9 +849,6 @@ static
 nsresult
 ReparentFrameView
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChildFrame
@@ -873,9 +864,6 @@ static
 nsresult
 ReparentFrameViewList
 (
-nsPresContext
-*
-aPresContext
 const
 nsFrameList
 &
@@ -2441,9 +2429,6 @@ virtual
 nsresult
 StealFrame
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChild
@@ -3337,9 +3322,6 @@ list
 void
 SetOverflowFrames
 (
-nsPresContext
-*
-aPresContext
 const
 nsFrameList
 &
@@ -3365,9 +3347,6 @@ inline
 void
 DestroyOverflowList
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 /
@@ -3442,9 +3421,6 @@ otherwise
 bool
 MoveOverflowToChildList
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 /
@@ -3590,9 +3566,6 @@ frame
 void
 PushChildren
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFromChild
@@ -3721,9 +3694,6 @@ nsFrameList
 *
 GetPropTableFrames
 (
-nsPresContext
-*
-aPresContext
 const
 FramePropertyDescriptor
 *
@@ -3760,9 +3730,6 @@ nsFrameList
 *
 RemovePropTableFrames
 (
-nsPresContext
-*
-aPresContext
 const
 FramePropertyDescriptor
 *
@@ -3800,9 +3767,6 @@ null
 void
 SetPropTableFrames
 (
-nsPresContext
-*
-aPresContext
 nsFrameList
 *
 aFrameList
@@ -4564,9 +4528,6 @@ false
 /
 nsOverflowContinuationTracker
 (
-nsPresContext
-*
-aPresContext
 nsContainerFrame
 *
 aFrame
@@ -5569,9 +5530,6 @@ nsContainerFrame
 :
 DestroyOverflowList
 (
-nsPresContext
-*
-aPresContext
 )
 {
 nsFrameList
@@ -5580,7 +5538,6 @@ list
 =
 RemovePropTableFrames
 (
-aPresContext
 OverflowProperty
 (
 )
@@ -5604,7 +5561,9 @@ list
 >
 Delete
 (
-aPresContext
+PresContext
+(
+)
 -
 >
 PresShell

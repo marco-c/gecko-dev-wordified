@@ -1991,7 +1991,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-aPresContext
 *
 prevOverflowFrames
 prevInFlow
@@ -3116,7 +3115,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-presContext
 *
 prevOverflowFrames
 prevInFlow
@@ -5265,7 +5263,6 @@ rv
 =
 CreateNextInFlow
 (
-aPresContext
 aFrame
 newFrame
 )
@@ -5587,7 +5584,6 @@ nextInFlow
 >
 DestroyOverflowList
 (
-aPresContext
 )
 ;
 }
@@ -5832,7 +5828,6 @@ nsContainerFrame
 :
 ReparentFrameView
 (
-aPresContext
 frame
 nextInFlow
 this
@@ -5986,7 +5981,6 @@ ready
 )
 SetOverflowFrames
 (
-aPresContext
 mFrames
 .
 RemoveFramesAfter
