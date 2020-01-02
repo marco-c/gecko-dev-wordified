@@ -163,7 +163,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -305,7 +305,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -440,7 +440,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then

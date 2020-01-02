@@ -182,9 +182,7 @@ assertEq
 e
 .
 lineNumber
-line0
-+
-2
+1
 )
 ;
 }

@@ -148,7 +148,7 @@ editor
 -
 mode
 "
-5
+1
 )
 .
 then

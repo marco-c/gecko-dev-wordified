@@ -180,7 +180,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -219,7 +219,7 @@ selectBottomFrame
 ;
 testBottomFrame
 (
-5
+0
 )
 ;
 yield

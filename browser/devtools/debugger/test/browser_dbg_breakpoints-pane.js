@@ -167,7 +167,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then

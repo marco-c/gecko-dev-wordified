@@ -163,7 +163,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -402,7 +402,7 @@ ok
 isCaretPos
 (
 gPanel
-6
+1
 )
 "
 The
