@@ -7853,7 +7853,7 @@ flag
 if
 (
 !
-HandleExecutionInterrupt
+CheckForInterrupt
 (
 cx_
 )

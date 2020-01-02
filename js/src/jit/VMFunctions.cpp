@@ -3365,9 +3365,7 @@ BackedgeLoopHeader
 )
 ;
 return
-!
-!
-HandleExecutionInterrupt
+CheckForInterrupt
 (
 cx
 )
