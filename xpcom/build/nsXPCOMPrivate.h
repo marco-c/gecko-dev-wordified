@@ -1322,6 +1322,11 @@ nsIServiceManager
 servMgr
 )
 ;
+void
+SetICUMemoryFunctions
+(
+)
+;
 /
 *
 *
