@@ -2398,7 +2398,11 @@ array_pop
 (
 cx
 0
-argv
+ava
+.
+start
+(
+)
 )
 )
 return
@@ -2433,7 +2437,7 @@ rval
 .
 set
 (
-argv
+ava
 [
 0
 ]
@@ -2526,7 +2530,11 @@ array_push
 (
 cx
 1
-argv
+ava
+.
+start
+(
+)
 )
 )
 return
@@ -2535,7 +2543,7 @@ false
 *
 length
 =
-argv
+ava
 [
 0
 ]
@@ -2618,7 +2626,11 @@ array_shift
 (
 cx
 0
-argv
+ava
+.
+start
+(
+)
 )
 )
 return
@@ -2653,7 +2665,7 @@ rval
 .
 set
 (
-argv
+ava
 [
 0
 ]
@@ -2840,7 +2852,11 @@ array_concat
 (
 cx
 1
-argv
+ava
+.
+start
+(
+)
 )
 )
 return
@@ -2848,7 +2864,7 @@ nullptr
 ;
 return
 &
-argv
+ava
 [
 0
 ]

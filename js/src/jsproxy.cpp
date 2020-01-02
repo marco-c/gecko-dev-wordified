@@ -6461,7 +6461,11 @@ cx
 handler
 fval
 2
-argv
+ava
+.
+start
+(
+)
 vp
 )
 ;
@@ -6621,7 +6625,11 @@ cx
 handler
 fval
 3
-argv
+ava
+.
+start
+(
+)
 &
 value
 )
