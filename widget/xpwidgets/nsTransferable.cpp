@@ -2098,7 +2098,7 @@ rv
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2301,11 +2301,9 @@ of
 the
 intrinsic
 flavors
-uint32_t
-i
-;
 for
 (
+size_t
 i
 =
 0
@@ -2524,6 +2522,7 @@ mFormatConv
 {
 for
 (
+size_t
 i
 =
 0
@@ -2800,7 +2799,7 @@ aDataLen
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2920,13 +2919,9 @@ has
 been
 registered
 .
-uint32_t
-i
-=
-0
-;
 for
 (
+size_t
 i
 =
 0
@@ -3007,6 +3002,7 @@ mFormatConv
 {
 for
 (
+size_t
 i
 =
 0
