@@ -2517,7 +2517,6 @@ aInit
 .
 Call
 (
-promise
 resolveFunc
 rejectFunc
 aRv
