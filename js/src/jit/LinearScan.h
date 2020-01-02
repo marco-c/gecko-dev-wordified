@@ -526,8 +526,8 @@ pos
 bool
 splitBlockingIntervals
 (
-LAllocation
-allocation
+AnyRegister
+allocatedReg
 )
 ;
 bool
