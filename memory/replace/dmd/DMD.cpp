@@ -3553,6 +3553,26 @@ about
 code
 locations
 .
+/
+/
+/
+/
+Writer
+must
+implement
+a
+printf
+-
+style
+varargs
+method
+Write
+.
+template
+<
+class
+Writer
+>
 class
 LocationService
 {
@@ -4524,6 +4544,7 @@ library
 =
 nullptr
 ;
+typename
 StringTable
 :
 :
@@ -4937,6 +4958,7 @@ aMallocSizeOf
 ;
 for
 (
+typename
 StringTable
 :
 :
@@ -5058,6 +5080,13 @@ mNumCacheMisses
 ;
 }
 }
+;
+typedef
+LocationService
+<
+Writer
+>
+DMDLocationService
 ;
 /
 /
@@ -5406,7 +5435,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -5696,7 +5725,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -10037,7 +10066,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 uint32_t
@@ -10158,7 +10187,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 uint32_t
@@ -13206,7 +13235,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 int
@@ -14075,7 +14104,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -14354,7 +14383,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -15026,7 +15055,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -15513,7 +15542,7 @@ s
 fairly
 large
 .
-LocationService
+DMDLocationService
 *
 locService
 =
@@ -15522,7 +15551,7 @@ InfallibleAllocPolicy
 :
 new_
 <
-LocationService
+DMDLocationService
 >
 (
 )
