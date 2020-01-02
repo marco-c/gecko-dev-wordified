@@ -25486,6 +25486,9 @@ ReadTransforms
 aProperties
 .
 mTransformList
+-
+>
+mHead
 frame
 ?
 frame

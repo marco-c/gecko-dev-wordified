@@ -507,7 +507,7 @@ GeckoProfiler
 h
 "
 struct
-nsCSSValueList
+nsCSSValueSharedList
 ;
 using
 namespace
@@ -2525,13 +2525,13 @@ GetFloatValue
 return
 ;
 }
-nsCSSValueList
+nsCSSValueSharedList
 *
 interpolatedList
 =
 interpolatedValue
 .
-GetCSSValueListValue
+GetCSSValueSharedListValue
 (
 )
 ;
