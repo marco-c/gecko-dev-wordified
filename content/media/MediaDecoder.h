@@ -6026,9 +6026,6 @@ IsRawEnabled
 ;
 #
 endif
-#
-ifdef
-MOZ_OGG
 static
 bool
 IsOggEnabled
@@ -6041,8 +6038,6 @@ IsOpusEnabled
 (
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_WAVE

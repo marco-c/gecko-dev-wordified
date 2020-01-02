@@ -155,9 +155,6 @@ h
 #
 endif
 #
-ifdef
-MOZ_OGG
-#
 include
 "
 OggDecoder
@@ -171,8 +168,6 @@ OggReader
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_WAVE
@@ -555,9 +550,6 @@ aType
 }
 #
 endif
-#
-ifdef
-MOZ_OGG
 /
 /
 See
@@ -695,8 +687,6 @@ aType
 )
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_WAVE
@@ -1003,9 +993,6 @@ false
 ;
 #
 endif
-#
-ifdef
-MOZ_OGG
 if
 (
 IsOggType
@@ -1033,8 +1020,6 @@ false
 return
 false
 ;
-#
-endif
 return
 GStreamerDecoder
 :
@@ -1810,9 +1795,6 @@ CANPLAY_MAYBE
 }
 #
 endif
-#
-ifdef
-MOZ_OGG
 if
 (
 IsOggType
@@ -1842,8 +1824,6 @@ result
 CANPLAY_MAYBE
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_WAVE
@@ -2326,9 +2306,6 @@ forget
 }
 #
 endif
-#
-ifdef
-MOZ_OGG
 if
 (
 IsOggType
@@ -2352,8 +2329,6 @@ forget
 )
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_WAVE
@@ -2923,9 +2898,6 @@ aDecoder
 else
 #
 endif
-#
-ifdef
-MOZ_OGG
 if
 (
 IsOggType
@@ -2944,8 +2916,6 @@ aDecoder
 ;
 }
 else
-#
-endif
 #
 ifdef
 MOZ_WAVE
@@ -3207,17 +3177,12 @@ aType
 )
 {
 return
-#
-ifdef
-MOZ_OGG
 IsOggType
 (
 aType
 )
 |
 |
-#
-endif
 #
 ifdef
 MOZ_OMX_DECODER

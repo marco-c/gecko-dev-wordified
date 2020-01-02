@@ -2258,9 +2258,6 @@ true
 ;
 #
 endif
-#
-ifdef
-MOZ_OGG
 pref
 (
 "
@@ -2273,8 +2270,6 @@ enabled
 true
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_OPUS
