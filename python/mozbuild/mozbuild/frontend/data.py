@@ -2044,6 +2044,31 @@ installs
 '
         
 #
+A
+list
+of
+pattern
+matching
+installs
+to
+perform
+.
+Entries
+are
+        
+#
+(
+base
+pattern
+dest
+)
+.
+        
+'
+pattern_installs
+'
+        
+#
 Where
 all
 files
@@ -2274,6 +2299,13 @@ installs
 =
 {
 }
+        
+self
+.
+pattern_installs
+=
+[
+]
         
 self
 .
