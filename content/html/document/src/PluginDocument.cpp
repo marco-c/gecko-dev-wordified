@@ -293,7 +293,7 @@ return
 mMimeType
 ;
 }
-nsIContent
+Element
 *
 GetPluginContent
 (
@@ -330,7 +330,7 @@ CreateSyntheticPluginDocument
 ;
 nsCOMPtr
 <
-nsIContent
+Element
 >
 mPluginContent
 ;

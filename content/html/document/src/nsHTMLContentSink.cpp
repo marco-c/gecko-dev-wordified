@@ -1340,7 +1340,7 @@ mStackPos
 nsresult
 NS_NewHTMLElement
 (
-nsIContent
+Element
 *
 *
 aResult
