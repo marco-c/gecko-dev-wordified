@@ -51,7 +51,7 @@ base
 /
 test
 /
-xcsp
+csp
 /
 file_CSP_frameancestors
 .
@@ -78,7 +78,7 @@ base
 /
 test
 /
-xcsp
+csp
 /
 file_CSP_frameancestors
 .
@@ -103,7 +103,7 @@ base
 /
 test
 /
-xcsp
+csp
 /
 file_CSP_frameancestors
 .
