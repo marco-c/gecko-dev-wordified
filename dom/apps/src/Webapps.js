@@ -1728,6 +1728,9 @@ Ci
 nsISupportsWeakReference
 Ci
 .
+nsIObserver
+Ci
+.
 mozIDOMApplicationRegistry
 Ci
 .
@@ -3924,6 +3927,9 @@ mozIDOMApplication
 Ci
 .
 nsISupportsWeakReference
+Ci
+.
+nsIObserver
 ]
 )
 classInfo
@@ -5001,6 +5007,9 @@ mozIDOMApplicationMgmt
 Ci
 .
 nsISupportsWeakReference
+Ci
+.
+nsIObserver
 ]
 )
 classInfo

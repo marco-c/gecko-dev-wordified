@@ -2609,6 +2609,9 @@ nsIObserver
 Ci
 .
 nsISupportsWeakReference
+Ci
+.
+nsIObserver
 ]
 )
 classID
