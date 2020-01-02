@@ -250,7 +250,7 @@ api
 *
 Returns
 the
-uri
+url
 for
 the
 Loop
@@ -267,10 +267,10 @@ String
 The
 Loop
 server
-uri
+url
 *
 /
-loopServer
+serverUrl
 :
 {
 enumerable
@@ -279,10 +279,7 @@ true
 configurable
 :
 true
-writable
-:
-false
-value
+get
 :
 function
 (
@@ -327,7 +324,7 @@ locale
 string
 *
 /
-getLocale
+locale
 :
 {
 enumerable
@@ -336,10 +333,7 @@ true
 configurable
 :
 true
-writable
-:
-false
-value
+get
 :
 function
 (
@@ -415,7 +409,7 @@ configurable
 true
 writable
 :
-false
+true
 value
 :
 function

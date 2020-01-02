@@ -1543,7 +1543,8 @@ Failed
 to
 register
 with
-push
+the
+loop
 server
 .
 Code
