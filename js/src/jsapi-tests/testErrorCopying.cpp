@@ -212,7 +212,12 @@ check
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 &
 rval
 )

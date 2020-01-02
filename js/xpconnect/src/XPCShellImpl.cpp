@@ -3969,7 +3969,12 @@ callback
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 &
 rv
 )

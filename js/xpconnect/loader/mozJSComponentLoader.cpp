@@ -5316,7 +5316,12 @@ function
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 &
 rval
 )

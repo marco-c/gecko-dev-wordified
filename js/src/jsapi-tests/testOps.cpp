@@ -389,7 +389,12 @@ main
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 &
 rval
 )

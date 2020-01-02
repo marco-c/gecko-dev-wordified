@@ -2210,7 +2210,12 @@ function
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 retval
 )
 ;
