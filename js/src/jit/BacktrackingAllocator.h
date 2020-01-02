@@ -589,7 +589,7 @@ const
 return
 canonicalSpill_
 .
-isUse
+isBogus
 (
 )
 ?
