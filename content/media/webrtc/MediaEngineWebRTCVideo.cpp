@@ -4406,6 +4406,12 @@ NS_IsMainThread
 )
 )
 ;
+ReentrantMonitorAutoEnter
+sync
+(
+mCallbackMonitor
+)
+;
 mCameraControl
 =
 ICameraControl
@@ -5126,6 +5132,12 @@ nsAString
 aMimeType
 )
 {
+ReentrantMonitorAutoEnter
+sync
+(
+mCallbackMonitor
+)
+;
 mLastCapture
 =
 static_cast
