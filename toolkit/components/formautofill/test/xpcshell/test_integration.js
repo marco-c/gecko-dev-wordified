@@ -62,7 +62,7 @@ tests
 .
 *
 /
-add_task
+add_task_in_parent_process
 (
 function
 *
