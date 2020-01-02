@@ -8667,14 +8667,14 @@ AnimationManager
 (
 )
 ;
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 collection
 =
 animationManager
 -
 >
-GetElementAnimations
+GetAnimationPlayers
 (
 aElement
 aPseudoType
@@ -8774,7 +8774,7 @@ PresContext
 (
 )
 ;
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 collection
 =

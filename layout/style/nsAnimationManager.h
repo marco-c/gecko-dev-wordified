@@ -348,7 +348,7 @@ static
 mozilla
 :
 :
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 GetAnimationsForCompositor
 (
@@ -449,7 +449,7 @@ UpdateStyleAndEvents
 mozilla
 :
 :
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 aEA
 mozilla
@@ -470,7 +470,7 @@ GetEventsForCurrentTime
 mozilla
 :
 :
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 aEA
 EventArray
@@ -772,9 +772,9 @@ DoDispatchEvents
 mozilla
 :
 :
-ElementAnimationCollection
+AnimationPlayerCollection
 *
-GetElementAnimations
+GetAnimationPlayers
 (
 mozilla
 :
@@ -815,7 +815,7 @@ AddElementCollection
 mozilla
 :
 :
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 aData
 )
@@ -865,7 +865,7 @@ aTimeline
 mozilla
 :
 :
-ElementAnimationPtrArray
+AnimationPlayerPtrArray
 &
 aAnimations
 )

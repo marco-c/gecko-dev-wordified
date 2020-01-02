@@ -2714,7 +2714,7 @@ nsIFrame
 aFrame
 nsCSSProperty
 aProperty
-ElementAnimationPtrArray
+AnimationPlayerPtrArray
 &
 aAnimations
 Layer
@@ -2973,7 +2973,7 @@ content
 return
 ;
 }
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 transitions
 =
@@ -2986,7 +2986,7 @@ content
 aProperty
 )
 ;
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 animations
 =
@@ -29408,7 +29408,7 @@ animation
 "
 )
 ;
-ElementAnimationCollection
+AnimationPlayerCollection
 :
 :
 LogAsyncAnimationFailure
@@ -29620,7 +29620,7 @@ animation
 "
 )
 ;
-ElementAnimationCollection
+AnimationPlayerCollection
 :
 :
 LogAsyncAnimationFailure
@@ -29861,7 +29861,7 @@ Append
 '
 )
 ;
-ElementAnimationCollection
+AnimationPlayerCollection
 :
 :
 LogAsyncAnimationFailure
