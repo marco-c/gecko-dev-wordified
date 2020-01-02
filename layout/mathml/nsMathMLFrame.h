@@ -378,6 +378,16 @@ return
 0
 ;
 }
+bool
+IsMrowLike
+(
+)
+MOZ_OVERRIDE
+{
+return
+false
+;
+}
 /
 /
 helper
