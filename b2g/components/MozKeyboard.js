@@ -2544,6 +2544,13 @@ Keyboard
 SelectionChange
 '
 :
+if
+(
+this
+.
+inputcontext
+)
+{
 this
 .
 _inputcontext
@@ -2553,6 +2560,7 @@ updateSelectionContext
 json
 )
 ;
+}
 break
 ;
 case
