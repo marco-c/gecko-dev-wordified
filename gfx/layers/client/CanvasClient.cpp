@@ -1245,7 +1245,6 @@ tracker
 new
 RemoveTextureFromCompositableTracker
 (
-this
 )
 ;
 /
