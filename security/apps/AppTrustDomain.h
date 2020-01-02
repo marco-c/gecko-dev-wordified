@@ -200,9 +200,9 @@ CertPolicyId
 &
 policy
 const
-CERTCertificate
-*
-candidateCert
+SECItem
+&
+candidateCertDER
 /
 *
 out
