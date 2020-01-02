@@ -16907,6 +16907,15 @@ mOverrideZIndex
 aZIndex
 ;
 }
+void
+SetVisibleRect
+(
+const
+nsRect
+&
+aRect
+)
+;
 /
 *
 *
