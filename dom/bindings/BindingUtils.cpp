@@ -10672,7 +10672,12 @@ JS_NewObjectWithGivenProto
 (
 aCx
 nullptr
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 newParent
 )
 ;

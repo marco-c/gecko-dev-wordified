@@ -3224,7 +3224,7 @@ target
 if
 (
 !
-JS_HasInstance
+HasInstance
 (
 cx
 target
@@ -21093,7 +21093,9 @@ Jsvalify
 &
 CallConstructHolder
 )
-nullptr
+NullPtr
+(
+)
 cx
 -
 >

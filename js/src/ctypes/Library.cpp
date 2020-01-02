@@ -776,8 +776,12 @@ JS_NewObject
 cx
 &
 sLibraryClass
-nullptr
-nullptr
+NullPtr
+(
+)
+NullPtr
+(
+)
 )
 )
 ;

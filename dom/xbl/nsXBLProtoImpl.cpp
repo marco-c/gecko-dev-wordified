@@ -849,7 +849,12 @@ JS_NewObjectWithGivenProto
 (
 cx
 nullptr
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 scopeObject
 )
 ;

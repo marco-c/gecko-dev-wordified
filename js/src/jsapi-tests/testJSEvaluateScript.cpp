@@ -80,7 +80,12 @@ JS_NewObject
 (
 cx
 nullptr
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 global
 )
 )
