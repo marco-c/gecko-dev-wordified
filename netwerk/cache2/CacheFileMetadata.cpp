@@ -1644,8 +1644,8 @@ mWriteBuf
 ;
 memcpy
 (
-mWriteBuf
 writeBuffer
+mWriteBuf
 p
 -
 mWriteBuf
