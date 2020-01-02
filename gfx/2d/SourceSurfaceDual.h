@@ -161,7 +161,10 @@ GetType
 const
 {
 return
-SURFACE_DUAL_DT
+SurfaceType
+:
+:
+DUAL_DT
 ;
 }
 virtual

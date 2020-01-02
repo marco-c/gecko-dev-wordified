@@ -133,7 +133,10 @@ GetType
 )
 !
 =
-SURFACE_DUAL_DT
+SurfaceType
+:
+:
+DUAL_DT
 )
 {
 mA
@@ -299,7 +302,10 @@ GetType
 )
 !
 =
-SURFACE_DUAL_DT
+SurfaceType
+:
+:
+DUAL_DT
 )
 {
 mA

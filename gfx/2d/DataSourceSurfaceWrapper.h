@@ -130,7 +130,10 @@ which
 it
 always
 returns
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 .
 class
 DataSourceSurfaceWrapper
@@ -162,7 +165,10 @@ const
 MOZ_OVERRIDE
 {
 return
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 ;
 }
 virtual

@@ -259,7 +259,10 @@ GetType
 )
 =
 =
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 .
 dataSurf
 =

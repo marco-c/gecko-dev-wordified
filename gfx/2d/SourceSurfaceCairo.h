@@ -214,7 +214,10 @@ GetType
 const
 {
 return
-SURFACE_CAIRO
+SurfaceType
+:
+:
+CAIRO
 ;
 }
 virtual
@@ -325,7 +328,10 @@ GetType
 const
 {
 return
-SURFACE_CAIRO_IMAGE
+SurfaceType
+:
+:
+CAIRO_IMAGE
 ;
 }
 virtual

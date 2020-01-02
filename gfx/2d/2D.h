@@ -1795,7 +1795,10 @@ GetType
 const
 {
 return
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 ;
 }
 /
@@ -1945,7 +1948,10 @@ GetType
 )
 =
 =
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 .
 *
 /

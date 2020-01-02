@@ -107,6 +107,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TypedEnum
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -129,10 +138,11 @@ typedef
 float
 Float
 ;
-enum
+MOZ_BEGIN_ENUM_CLASS
+(
 SurfaceType
-{
-SURFACE_DATA
+)
+DATA
 /
 *
 Data
@@ -143,7 +153,7 @@ in
 memory
 *
 /
-SURFACE_D2D1_BITMAP
+D2D1_BITMAP
 /
 *
 Surface
@@ -152,7 +162,7 @@ a
 ID2D1Bitmap
 *
 /
-SURFACE_D2D1_DRAWTARGET
+D2D1_DRAWTARGET
 /
 *
 Surface
@@ -164,7 +174,7 @@ draw
 target
 *
 /
-SURFACE_CAIRO
+CAIRO
 /
 *
 Surface
@@ -174,7 +184,7 @@ cairo
 surface
 *
 /
-SURFACE_CAIRO_IMAGE
+CAIRO_IMAGE
 /
 *
 Data
@@ -186,7 +196,7 @@ image
 surface
 *
 /
-SURFACE_COREGRAPHICS_IMAGE
+COREGRAPHICS_IMAGE
 /
 *
 Surface
@@ -196,7 +206,7 @@ CoreGraphics
 Image
 *
 /
-SURFACE_COREGRAPHICS_CGCONTEXT
+COREGRAPHICS_CGCONTEXT
 /
 *
 Surface
@@ -206,7 +216,7 @@ CG
 context
 *
 /
-SURFACE_SKIA
+SKIA
 /
 *
 Surface
@@ -216,7 +226,7 @@ Skia
 bitmap
 *
 /
-SURFACE_DUAL_DT
+DUAL_DT
 /
 *
 Snapshot
@@ -226,7 +236,7 @@ dual
 drawtarget
 *
 /
-SURFACE_D2D1_1_IMAGE
+D2D1_1_IMAGE
 /
 *
 A
@@ -238,7 +248,7 @@ ID2D1Image
 SourceSurface
 *
 /
-SURFACE_RECORDING
+RECORDING
 /
 *
 Surface
@@ -247,8 +257,10 @@ for
 recording
 *
 /
-}
-;
+MOZ_END_ENUM_CLASS
+(
+SurfaceType
+)
 enum
 SurfaceFormat
 {

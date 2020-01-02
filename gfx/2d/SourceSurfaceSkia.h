@@ -160,7 +160,10 @@ GetType
 const
 {
 return
-SURFACE_SKIA
+SurfaceType
+:
+:
+SKIA
 ;
 }
 virtual

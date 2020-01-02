@@ -191,7 +191,10 @@ GetType
 const
 {
 return
-SURFACE_RECORDING
+SurfaceType
+:
+:
+RECORDING
 ;
 }
 virtual
@@ -348,7 +351,10 @@ GetType
 )
 !
 =
-SURFACE_RECORDING
+SurfaceType
+:
+:
+RECORDING
 )
 {
 return

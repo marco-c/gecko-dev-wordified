@@ -173,7 +173,10 @@ GetType
 const
 {
 return
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 ;
 }
 virtual
@@ -279,7 +282,10 @@ GetType
 const
 {
 return
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 ;
 }
 virtual

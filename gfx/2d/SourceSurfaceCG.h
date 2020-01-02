@@ -179,7 +179,10 @@ GetType
 const
 {
 return
-SURFACE_COREGRAPHICS_IMAGE
+SurfaceType
+:
+:
+COREGRAPHICS_IMAGE
 ;
 }
 virtual
@@ -309,7 +312,10 @@ GetType
 const
 {
 return
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 ;
 }
 virtual
@@ -503,7 +509,10 @@ GetType
 const
 {
 return
-SURFACE_COREGRAPHICS_CGCONTEXT
+SurfaceType
+:
+:
+COREGRAPHICS_CGCONTEXT
 ;
 }
 virtual
@@ -823,7 +832,10 @@ GetType
 const
 {
 return
-SURFACE_COREGRAPHICS_CGCONTEXT
+SurfaceType
+:
+:
+COREGRAPHICS_CGCONTEXT
 ;
 }
 virtual
