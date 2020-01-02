@@ -2701,7 +2701,7 @@ never
 /
 /
 apply
-sommothing
+something
 if
 the
 new
@@ -3327,7 +3327,7 @@ reportError
 *
 Show
 a
-donwloaded
+downloaded
 file
 in
 the

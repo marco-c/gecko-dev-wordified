@@ -1810,7 +1810,7 @@ null
 /
 /
 without
-reseting
+resetting
 this
 .
 panel
@@ -4409,7 +4409,8 @@ or
 close
 the
 panel
-anymore
+any
+more
 .
 To
 prevent

@@ -2185,7 +2185,7 @@ for
 downloads
 which
 completed
-succesfully
+successfully
 )
 :
 *
@@ -4173,7 +4173,7 @@ cannot
 open
 a
 session
-dowload
+download
 file
 unless
 it
@@ -4935,7 +4935,7 @@ aTerm
 /
 Handles
 return
-kepress
+keypress
 on
 the
 element
@@ -5224,7 +5224,7 @@ query
 *
 for
 history
-donwloads
+downloads
 alongside
 the
 current
@@ -6153,7 +6153,7 @@ onDataItemAdded
 Ignored
 for
 history
-downlods
+downloads
 .
 *
 param
@@ -6402,7 +6402,7 @@ There
 are
 multiple
 shells
-indicicating
+indicating
 multiple
 downloads
 for
@@ -6422,7 +6422,7 @@ we
 create
 /
 /
-anoter
+another
 shell
 for
 the
@@ -6651,7 +6651,7 @@ notified
 for
 /
 /
-annoation
+annotation
 changes
 .
 /
@@ -9604,7 +9604,7 @@ s
 at
 least
 one
-removeable
+removable
 download
 in
 /
@@ -10501,7 +10501,7 @@ charCodeAt
 {
 /
 /
-Pausue
+Pause
 /
 Resume
 every
