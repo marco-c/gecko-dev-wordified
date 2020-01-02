@@ -13772,13 +13772,6 @@ SVGTextFrame2
 )
 GK_ATOM
 (
-svgTSpanFrame
-"
-SVGTSpanFrame
-"
-)
-GK_ATOM
-(
 svgUseFrame
 "
 SVGUseFrame
