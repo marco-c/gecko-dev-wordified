@@ -140,7 +140,7 @@ public
 class
 FxAccountClient20
 extends
-FxAccountClient
+FxAccountClient10
 {
 protected
 static
@@ -222,7 +222,7 @@ final
 byte
 [
 ]
-passwordUTF8
+quickStretchedPW
 final
 boolean
 preVerified
@@ -242,7 +242,7 @@ new
 FxAccount20CreateDelegate
 (
 emailUTF8
-passwordUTF8
+quickStretchedPW
 preVerified
 )
 delegate
@@ -408,7 +408,7 @@ final
 byte
 [
 ]
-passwordUTF8
+quickStretchedPW
 final
 RequestDelegate
 <
@@ -420,7 +420,7 @@ delegate
 login
 (
 emailUTF8
-passwordUTF8
+quickStretchedPW
 false
 delegate
 )
@@ -439,7 +439,7 @@ final
 byte
 [
 ]
-passwordUTF8
+quickStretchedPW
 final
 RequestDelegate
 <
@@ -451,7 +451,7 @@ delegate
 login
 (
 emailUTF8
-passwordUTF8
+quickStretchedPW
 true
 delegate
 )
@@ -487,7 +487,7 @@ final
 byte
 [
 ]
-passwordUTF8
+quickStretchedPW
 final
 boolean
 getKeys
@@ -549,7 +549,7 @@ new
 FxAccount20LoginDelegate
 (
 emailUTF8
-passwordUTF8
+quickStretchedPW
 )
 .
 getCreateBody

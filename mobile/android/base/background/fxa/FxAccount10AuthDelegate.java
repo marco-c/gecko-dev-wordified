@@ -136,7 +136,7 @@ public
 class
 FxAccount10AuthDelegate
 implements
-FxAccountClient
+FxAccountClient10
 .
 AuthDelegate
 {

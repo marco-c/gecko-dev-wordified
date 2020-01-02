@@ -281,6 +281,12 @@ version
 .
 *
 /
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 protected
 boolean
 backgroundDataIsEnabled

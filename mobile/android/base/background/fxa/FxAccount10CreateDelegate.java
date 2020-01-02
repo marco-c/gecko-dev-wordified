@@ -108,7 +108,7 @@ background
 .
 fxa
 .
-FxAccountClient
+FxAccountClient10
 .
 CreateDelegate
 ;

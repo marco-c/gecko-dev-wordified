@@ -240,6 +240,12 @@ tapped
 .
 *
 /
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 static
 void
