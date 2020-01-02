@@ -44,12 +44,13 @@ js
 ;
 if
 (
-!
-getBuildConfiguration
+workerThreadCount
 (
 )
-.
-threadsafe
+=
+=
+=
+0
 )
 quit
 (
