@@ -706,6 +706,15 @@ popOffScopeChain
 (
 )
 ;
+inline
+void
+popWith
+(
+JSContext
+*
+cx
+)
+;
 CalleeToken
 calleeToken
 (
