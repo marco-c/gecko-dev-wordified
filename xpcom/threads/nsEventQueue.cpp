@@ -494,7 +494,7 @@ PutEvent
 (
 nsIRunnable
 *
-runnable
+aRunnable
 )
 {
 /
@@ -515,7 +515,7 @@ nsIRunnable
 >
 event
 (
-runnable
+aRunnable
 )
 ;
 if

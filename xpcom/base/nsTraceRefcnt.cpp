@@ -5583,8 +5583,7 @@ void
 aClosure
 )
 {
-CodeAddressServiceWriter
-*
+auto
 writer
 =
 static_cast
@@ -6366,7 +6365,7 @@ aRefcnt
 const
 char
 *
-aClazz
+aClass
 uint32_t
 aClassSize
 )
@@ -6407,7 +6406,7 @@ entry
 =
 GetBloatEntry
 (
-aClazz
+aClass
 aClassSize
 )
 ;
@@ -6459,7 +6458,7 @@ gTypesToLog
 |
 LogThisType
 (
-aClazz
+aClass
 )
 )
 ;
@@ -6588,7 +6587,7 @@ Create
 \
 n
 "
-aClazz
+aClass
 NS_PTR_TO_INT32
 (
 aPtr
@@ -6657,7 +6656,7 @@ PRIuPTR
 \
 n
 "
-aClazz
+aClass
 NS_PTR_TO_INT32
 (
 aPtr
@@ -6702,7 +6701,7 @@ aRefcnt
 const
 char
 *
-aClazz
+aClass
 )
 {
 #
@@ -6741,7 +6740,7 @@ entry
 =
 GetBloatEntry
 (
-aClazz
+aClass
 0
 )
 ;
@@ -6770,7 +6769,7 @@ gTypesToLog
 |
 LogThisType
 (
-aClazz
+aClass
 )
 )
 ;
@@ -6910,7 +6909,7 @@ PRIuPTR
 \
 n
 "
-aClazz
+aClass
 NS_PTR_TO_INT32
 (
 aPtr
@@ -6994,7 +6993,7 @@ Destroy
 \
 n
 "
-aClazz
+aClass
 NS_PTR_TO_INT32
 (
 aPtr

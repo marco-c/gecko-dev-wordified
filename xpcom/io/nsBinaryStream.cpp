@@ -4050,7 +4050,7 @@ JSContext
 aCx
 uint32_t
 *
-rLength
+aReadLength
 )
 {
 if
@@ -4180,7 +4180,7 @@ remaining
 aLength
 ;
 *
-rLength
+aReadLength
 =
 0
 ;
@@ -4282,7 +4282,7 @@ NS_ERROR_FAILURE
 ;
 }
 *
-rLength
+aReadLength
 +
 =
 bytesRead

@@ -1416,12 +1416,14 @@ aEntrySize
 nbytes
 )
 )
+{
 return
 false
 ;
 /
 /
 overflowed
+}
 aTable
 -
 >

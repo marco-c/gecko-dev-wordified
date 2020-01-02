@@ -1179,9 +1179,11 @@ if
 (
 aAnonymize
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 !
