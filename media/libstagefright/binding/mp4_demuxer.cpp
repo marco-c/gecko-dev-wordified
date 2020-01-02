@@ -488,6 +488,12 @@ mimeType
 ;
 if
 (
+metaData
+=
+=
+nullptr
+|
+|
 !
 metaData
 -
@@ -499,8 +505,10 @@ kKeyMIMEType
 mimeType
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
