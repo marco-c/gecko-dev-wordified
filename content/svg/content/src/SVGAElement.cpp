@@ -1048,7 +1048,7 @@ bool
 SVGAElement
 :
 :
-IsFocusable
+IsFocusableInternal
 (
 int32_t
 *

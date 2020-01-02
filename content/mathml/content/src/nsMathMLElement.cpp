@@ -5637,7 +5637,7 @@ bool
 nsMathMLElement
 :
 :
-IsFocusable
+IsFocusableInternal
 (
 int32_t
 *

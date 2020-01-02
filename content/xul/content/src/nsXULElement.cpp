@@ -3109,7 +3109,7 @@ bool
 nsXULElement
 :
 :
-IsFocusable
+IsFocusableInternal
 (
 int32_t
 *
