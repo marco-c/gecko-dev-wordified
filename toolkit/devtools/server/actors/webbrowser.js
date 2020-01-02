@@ -1837,8 +1837,6 @@ uses
 browser
 .
 contentWindow
-.
-wrappedJSObject
 as
 the
 debuggee
@@ -6095,8 +6093,6 @@ evt
 target
 .
 defaultView
-.
-wrappedJSObject
 ;
 this
 .
