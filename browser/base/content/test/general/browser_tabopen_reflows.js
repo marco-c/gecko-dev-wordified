@@ -463,6 +463,13 @@ js
 "
 +
 "
+TabItems_init
+/
+this
+.
+_eventListeners
+.
+open
 chrome
 :
 /
