@@ -20489,7 +20489,10 @@ GetIMEUpdatePreference
 (
 )
 {
-int8_t
+nsIMEUpdatePreference
+:
+:
+Notifications
 notifications
 =
 nsIMEUpdatePreference
@@ -20551,6 +20554,11 @@ nsIMEUpdatePreference
 :
 :
 NOTIFY_TEXT_CHANGE
+|
+nsIMEUpdatePreference
+:
+:
+NOTIFY_DURING_DEACTIVE
 )
 ;
 }
