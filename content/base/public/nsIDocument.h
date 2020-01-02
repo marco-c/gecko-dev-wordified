@@ -702,6 +702,12 @@ DocumentFlavorSVG
 /
 /
 SVGDocument
+DocumentFlavorPlain
+/
+/
+Just
+a
+Document
 }
 ;
 /
@@ -16353,6 +16359,10 @@ nsIDocument
 aInstancePtrResult
 bool
 aLoadedAsData
+=
+false
+bool
+aIsPlainDocument
 =
 false
 )

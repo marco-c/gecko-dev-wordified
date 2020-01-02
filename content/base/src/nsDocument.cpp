@@ -66370,7 +66370,7 @@ GetPrincipal
 )
 true
 global
-DocumentFlavorLegacyGuess
+DocumentFlavorPlain
 )
 ;
 if
