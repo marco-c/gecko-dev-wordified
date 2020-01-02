@@ -2412,7 +2412,7 @@ setVisibleToUser
 (
 host
 .
-isFocused
+isShown
 (
 )
 )
