@@ -4370,6 +4370,13 @@ unsigned
 anonerrnum
 )
 ;
+bool
+checkFinalReturn
+(
+Node
+pn
+)
+;
 DefinitionNode
 getOrCreateLexicalDependency
 (
