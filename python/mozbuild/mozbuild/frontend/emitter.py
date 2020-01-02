@@ -1505,10 +1505,6 @@ DISABLE_STL_WRAPPING
 '
             
 '
-EXPORT_LIBRARY
-'
-            
-'
 EXTRA_ASSEMBLER_FLAGS
 '
             
