@@ -7,7 +7,7 @@ c
 )
 2008
 -
-2011
+2014
 Mozilla
 Foundation
 *
@@ -2289,6 +2289,11 @@ static
 nsHtml5ElementName
 *
 ELT_FEPOINTLIGHT
+;
+static
+nsHtml5ElementName
+*
+ELT_FEDROPSHADOW
 ;
 static
 nsHtml5ElementName
