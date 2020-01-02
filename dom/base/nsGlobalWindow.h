@@ -8080,17 +8080,6 @@ UpdateParentTarget
 (
 )
 ;
-/
-/
-Outer
-windows
-only
-.
-bool
-GetIsTabModalPromptAllowed
-(
-)
-;
 inline
 int32_t
 DOMMinTimeoutValue
