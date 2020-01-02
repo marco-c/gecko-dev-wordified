@@ -163,7 +163,7 @@ IsThreadLocalObject
 (
 ForkJoinSlice
 *
-context
+slice
 JSObject
 *
 object
@@ -182,7 +182,7 @@ CheckInterruptPar
 (
 ForkJoinSlice
 *
-context
+slice
 )
 ;
 /
