@@ -856,8 +856,6 @@ state
 myPc
 .
 iceConnectionState
-(
-)
 )
 ;
 myTest
@@ -937,8 +935,6 @@ state
 myPc
 .
 iceConnectionState
-(
-)
 )
 ;
 myTest
@@ -1026,8 +1022,6 @@ state
 myPc
 .
 iceConnectionState
-(
-)
 )
 ;
 myTest
@@ -1107,8 +1101,6 @@ state
 myPc
 .
 iceConnectionState
-(
-)
 )
 ;
 myTest
