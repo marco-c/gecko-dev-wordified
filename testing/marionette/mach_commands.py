@@ -61,10 +61,14 @@ import
 os
 import
 sys
+import
+argparse
 from
 mozlog
-import
+.
 structured
+import
+commandline
 from
 mozbuild
 .
@@ -142,6 +146,30 @@ sh
 '
 '
 '
+#
+A
+parser
+that
+will
+accept
+structured
+logging
+commandline
+arguments
+.
+_parser
+=
+argparse
+.
+ArgumentParser
+(
+)
+commandline
+.
+add_logging_group
+(
+_parser
+)
 def
 run_marionette
 (
@@ -165,6 +193,9 @@ None
 topsrcdir
 =
 None
+*
+*
+kwargs
 )
 :
     
@@ -187,6 +218,13 @@ parser
 =
 BaseMarionetteOptions
 (
+)
+    
+commandline
+.
+add_logging_group
+(
+parser
 )
     
 options
@@ -301,8 +339,6 @@ options
 .
 logger
 =
-structured
-.
 commandline
 .
 setup_logging
@@ -312,9 +348,9 @@ Marionette
 Unit
 Tests
 "
-                                                          
+                                               
 options
-                                                          
+                                               
 {
 "
 mach
@@ -648,6 +684,11 @@ conditions
 .
 is_firefox
 ]
+        
+parser
+=
+_parser
+    
 )
     
 CommandArgument
@@ -754,6 +795,10 @@ None
 testtype
 =
 None
+                            
+*
+*
+kwargs
 )
 :
         
