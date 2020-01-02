@@ -13113,16 +13113,8 @@ complete
 .
 wtf
 ?
-if
+NotifyWindowMoved
 (
-mWidgetListener
-)
-mWidgetListener
--
->
-WindowMoved
-(
-this
 mBounds
 .
 x

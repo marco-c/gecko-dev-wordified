@@ -38725,6 +38725,7 @@ nsSizeMode_Maximized
 n
 "
 )
+)
 ;
 break
 ;
@@ -38750,6 +38751,7 @@ mSizeMode
 \
 n
 "
+)
 )
 ;
 break
@@ -38883,17 +38885,8 @@ wp
 >
 y
 ;
-if
+NotifyWindowMoved
 (
-mWidgetListener
-)
-{
-mWidgetListener
--
->
-WindowMoved
-(
-this
 wp
 -
 >
@@ -38904,7 +38897,6 @@ wp
 y
 )
 ;
-}
 }
 /
 /
