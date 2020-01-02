@@ -1232,7 +1232,7 @@ typeInference
 &
 cStats
 .
-shapesCompartmentTables
+shapesMallocHeapCompartmentTables
 &
 cStats
 .
@@ -1652,7 +1652,7 @@ JSFunction
 cStats
 -
 >
-gcHeapObjectsFunction
+objectsGCHeapFunction
 +
 =
 thingSize
@@ -1673,7 +1673,7 @@ ArrayObject
 cStats
 -
 >
-gcHeapObjectsDenseArray
+objectsGCHeapDenseArray
 +
 =
 thingSize
@@ -1694,7 +1694,7 @@ CrossCompartmentWrapperObject
 cStats
 -
 >
-gcHeapObjectsCrossCompartmentWrapper
+objectsGCHeapCrossCompartmentWrapper
 +
 =
 thingSize
@@ -1703,7 +1703,7 @@ else
 cStats
 -
 >
-gcHeapObjectsOrdinary
+objectsGCHeapOrdinary
 +
 =
 thingSize
@@ -2043,7 +2043,7 @@ inDictionary
 cStats
 -
 >
-gcHeapShapesDict
+shapesGCHeapDict
 +
 =
 thingSize
@@ -2051,7 +2051,7 @@ thingSize
 cStats
 -
 >
-shapesExtraDictTables
+shapesMallocHeapDictTables
 +
 =
 propTableSize
@@ -2101,7 +2101,7 @@ GlobalObject
 cStats
 -
 >
-gcHeapShapesTreeGlobalParented
+shapesGCHeapTreeGlobalParented
 +
 =
 thingSize
@@ -2110,7 +2110,7 @@ else
 cStats
 -
 >
-gcHeapShapesTreeNonGlobalParented
+shapesGCHeapTreeNonGlobalParented
 +
 =
 thingSize
@@ -2118,7 +2118,7 @@ thingSize
 cStats
 -
 >
-shapesExtraTreeTables
+shapesMallocHeapTreeTables
 +
 =
 propTableSize
@@ -2126,7 +2126,7 @@ propTableSize
 cStats
 -
 >
-shapesExtraTreeShapeKids
+shapesMallocHeapTreeShapeKids
 +
 =
 kidsSize
@@ -2169,7 +2169,7 @@ compartment
 cStats
 -
 >
-gcHeapShapesBase
+shapesGCHeapBase
 +
 =
 thingSize
@@ -2211,7 +2211,7 @@ compartment
 cStats
 -
 >
-gcHeapScripts
+scriptsGCHeap
 +
 =
 thingSize
@@ -2219,7 +2219,7 @@ thingSize
 cStats
 -
 >
-scriptData
+scriptsMallocHeapData
 +
 =
 script
