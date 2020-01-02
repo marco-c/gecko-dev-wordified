@@ -9491,8 +9491,10 @@ false
 nsAutoString
 tokenString
 ;
+nsRefPtr
+<
 nsROCSSPrimitiveValue
-*
+>
 tmpVal
 =
 new
@@ -10164,9 +10166,6 @@ needSep
 true
 ;
 }
-delete
-tmpVal
-;
 aString
 .
 Append
@@ -25183,8 +25182,10 @@ nsStyleCoord
 aCoord
 )
 {
+nsRefPtr
+<
 nsROCSSPrimitiveValue
-*
+>
 value
 =
 new
@@ -25209,9 +25210,6 @@ GetCssText
 (
 aCssText
 )
-;
-delete
-value
 ;
 }
 CSSValue
