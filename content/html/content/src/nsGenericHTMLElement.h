@@ -7516,8 +7516,13 @@ nsGenericHTMLFormElement
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-nsINode
-*
+mozilla
+:
+:
+dom
+:
+:
+ParentObject
 GetParentObject
 (
 )

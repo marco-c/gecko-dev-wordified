@@ -430,8 +430,7 @@ aError
 )
 ;
 }
-nsINode
-*
+ParentObject
 GetParentObject
 (
 )
@@ -447,11 +446,7 @@ GetFormElement
 return
 form
 ?
-static_cast
-<
-nsINode
-*
->
+GetParentObjectInternal
 (
 form
 )
