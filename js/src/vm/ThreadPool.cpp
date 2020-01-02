@@ -2195,12 +2195,11 @@ always
 exists
 .
 return
-runtime_
--
->
-cpuCount
+WorkerThreadState
 (
 )
+.
+cpuCount
 -
 1
 ;
