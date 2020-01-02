@@ -1570,6 +1570,13 @@ setInvisibleToDebugger
 true
 )
 ;
+compartmentOptions
+.
+setMergeable
+(
+true
+)
+;
 JSObject
 *
 global
