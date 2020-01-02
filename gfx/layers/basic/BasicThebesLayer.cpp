@@ -897,10 +897,10 @@ internal
 to
 basic
 layers
-AutoMaskData
+AutoMoz2DMaskData
 mask
 ;
-gfxASurface
+SourceSurface
 *
 maskSurface
 =

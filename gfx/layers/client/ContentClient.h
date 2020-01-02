@@ -1155,7 +1155,10 @@ gfx
 :
 CompositionOp
 aOp
-gfxASurface
+gfx
+:
+:
+SourceSurface
 *
 aMask
 const
