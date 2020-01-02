@@ -62,7 +62,7 @@ is
 command
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_SET_UP_MENU
 expect
@@ -226,7 +226,7 @@ is
 command
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_SET_UP_MENU
 )
@@ -271,7 +271,7 @@ is
 command
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_SET_UP_MENU
 )

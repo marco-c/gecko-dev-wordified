@@ -62,7 +62,7 @@ is
 command
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_POLL_OFF
 expect
