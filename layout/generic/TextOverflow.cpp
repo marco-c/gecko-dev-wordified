@@ -231,6 +231,13 @@ Likely
 .
 h
 "
+#
+include
+"
+nsISelection
+.
+h
+"
 namespace
 mozilla
 {

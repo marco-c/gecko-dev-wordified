@@ -331,6 +331,13 @@ nsFrameState
 h
 "
 #
+include
+"
+CaretAssociationHint
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -9090,7 +9097,7 @@ secondaryOffset
 /
 /
 This
-boolean
+value
 indicates
 whether
 the
@@ -9124,8 +9131,11 @@ to
 display
 on
 .
-bool
-associateWithNext
+mozilla
+:
+:
+CaretAssociationHint
+associate
 ;
 }
 ;

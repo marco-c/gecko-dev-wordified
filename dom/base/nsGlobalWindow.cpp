@@ -364,6 +364,13 @@ nsFrameSelection
 .
 h
 "
+#
+include
+"
+nsISelectionListener
+.
+h
+"
 /
 /
 Helper

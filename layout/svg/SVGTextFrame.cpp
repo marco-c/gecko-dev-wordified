@@ -352,6 +352,13 @@ h
 "
 #
 include
+"
+nsFrameSelection
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -24689,7 +24696,7 @@ charnum
 nchars
 false
 false
-false
+CARET_ASSOCIATE_BEFORE
 )
 ;
 return

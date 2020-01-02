@@ -1293,9 +1293,9 @@ offset
 ;
 offsets
 .
-associateWithNext
+associate
 =
-true
+CARET_ASSOCIATE_AFTER
 ;
 }
 return

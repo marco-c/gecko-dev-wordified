@@ -102,6 +102,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsCOMPtr
 .
@@ -137,9 +142,11 @@ h
 "
 #
 include
-<
-algorithm
->
+"
+nsIContent
+.
+h
+"
 nsListItemFrame
 :
 :

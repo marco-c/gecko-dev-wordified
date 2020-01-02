@@ -8420,10 +8420,7 @@ FocusOffset
 (
 )
 ;
-nsFrameSelection
-:
-:
-HINT
+CaretAssociationHint
 hint
 =
 frameSelection

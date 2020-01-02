@@ -121,6 +121,13 @@ imgIContainer
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsTreeImageListener

@@ -396,6 +396,13 @@ h
 #
 include
 "
+nsISelection
+.
+h
+"
+#
+include
+"
 nsBidiPresUtils
 .
 h

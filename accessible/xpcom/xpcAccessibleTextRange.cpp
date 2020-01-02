@@ -139,6 +139,13 @@ nsIMutableArray
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 using
 namespace
 mozilla

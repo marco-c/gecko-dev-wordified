@@ -141,6 +141,13 @@ nsIPlaintextEditor
 .
 h
 "
+#
+include
+"
+nsFrameSelection
+.
+h
+"
 namespace
 mozilla
 {
@@ -806,10 +813,7 @@ GetHint
 )
 =
 =
-nsFrameSelection
-:
-:
-HINTLEFT
+CARET_ASSOCIATE_BEFORE
 ;
 }
 inline

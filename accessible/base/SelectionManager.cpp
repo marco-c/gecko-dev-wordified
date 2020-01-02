@@ -160,6 +160,13 @@ h
 #
 include
 "
+nsFrameSelection
+.
+h
+"
+#
+include
+"
 nsIAccessibleTypes
 .
 h
