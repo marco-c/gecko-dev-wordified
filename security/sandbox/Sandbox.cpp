@@ -284,9 +284,9 @@ PR_LOG
 (
 gSeccompSandboxLog
 PR_LOG_ERROR
-#
-#
+(
 args
+)
 )
 #
 else
