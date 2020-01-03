@@ -104,6 +104,13 @@ Tools
 .
 h
 "
+#
+include
+"
+Logging
+.
+h
+"
 namespace
 mozilla
 {
