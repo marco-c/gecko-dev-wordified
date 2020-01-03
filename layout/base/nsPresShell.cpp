@@ -38227,6 +38227,7 @@ nsRunnable
 {
 public
 :
+explicit
 AsyncCheckPointerCaptureStateCaller
 (
 int32_t

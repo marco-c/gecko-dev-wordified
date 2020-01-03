@@ -7581,6 +7581,7 @@ mOverrideContent
 bool
 mReleaseContent
 ;
+explicit
 PointerCaptureInfo
 (
 nsIContent
