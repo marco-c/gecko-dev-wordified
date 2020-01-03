@@ -435,7 +435,17 @@ private
 :
 aIsPrivate
 }
+function
+(
+)
+{
+waitForFocus
+(
 aCallback
+win
+)
+;
+}
 )
 ;
 windowsToClose
