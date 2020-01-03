@@ -1426,12 +1426,6 @@ mVideoReader
 =
 nullptr
 ;
-mTrackBuffers
-.
-Clear
-(
-)
-;
 }
 void
 MediaSourceReader
