@@ -5018,6 +5018,11 @@ AbstractFramePtr
 frame_
 ;
 void
+incrementStaticScopeIter
+(
+)
+;
+void
 settle
 (
 )
