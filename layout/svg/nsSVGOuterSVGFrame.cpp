@@ -6449,9 +6449,10 @@ content
 PrependLocalTransformsTo
 (
 gfxMatrix
-:
-:
-Scaling
+(
+)
+.
+Scale
 (
 devPxPerCSSPx
 devPxPerCSSPx

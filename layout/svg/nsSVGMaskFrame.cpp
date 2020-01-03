@@ -1499,9 +1499,10 @@ CurrentMatrix
 )
 *
 gfxMatrix
-:
-:
-Translation
+(
+)
+.
+Translate
 (
 -
 maskSurfaceRect

@@ -9731,6 +9731,9 @@ in
 the
 right
 place
+Matrix
+transform
+;
 gfxPoint
 p
 =
@@ -9744,13 +9747,9 @@ aContainerParameters
 .
 mOffset
 ;
-Matrix
 transform
-=
-Matrix
-:
-:
-Translation
+.
+Translate
 (
 p
 .

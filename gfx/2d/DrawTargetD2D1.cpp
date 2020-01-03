@@ -510,7 +510,7 @@ transform
 ;
 transform
 .
-PreTranslate
+Translate
 (
 aDest
 .
@@ -522,7 +522,7 @@ y
 ;
 transform
 .
-PreScale
+Scale
 (
 xScale
 yScale

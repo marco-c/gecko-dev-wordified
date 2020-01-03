@@ -2888,9 +2888,10 @@ const
 {
 return
 gfxMatrix
-:
-:
-Translation
+(
+)
+.
+Translate
 (
 -
 nsSVGUtils
