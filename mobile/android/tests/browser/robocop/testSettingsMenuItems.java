@@ -1868,11 +1868,6 @@ Voice
 input
 if
 (
-AppConstants
-.
-NIGHTLY_BUILD
-&
-&
 InputOptionsUtils
 .
 supportsVoiceRecognizer

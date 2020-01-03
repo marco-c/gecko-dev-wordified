@@ -4921,13 +4921,6 @@ key
 if
 (
 !
-AppConstants
-.
-NIGHTLY_BUILD
-|
-|
-(
-!
 InputOptionsUtils
 .
 supportsVoiceRecognizer
@@ -4957,7 +4950,6 @@ supportsQrCodeReader
 (
 getApplicationContext
 (
-)
 )
 )
 )
@@ -5842,12 +5834,6 @@ key
 {
 if
 (
-!
-AppConstants
-.
-NIGHTLY_BUILD
-|
-|
 !
 InputOptionsUtils
 .
