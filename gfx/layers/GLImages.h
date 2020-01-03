@@ -181,6 +181,9 @@ Data
 EGLImage
 mImage
 ;
+EGLSync
+mSync
+;
 gfx
 :
 :
@@ -189,6 +192,9 @@ mSize
 ;
 bool
 mInverted
+;
+bool
+mOwns
 ;
 }
 ;
@@ -263,6 +269,14 @@ EGLIMAGE
 )
 {
 }
+protected
+:
+virtual
+~
+EGLImageImage
+(
+)
+;
 private
 :
 Data
