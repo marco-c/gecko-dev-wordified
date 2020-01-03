@@ -2890,6 +2890,13 @@ removeAndDeletePluginDirectory
 this
 .
 _gmpPath
+true
+/
+*
+can
+defer
+*
+/
 )
 ;
 }

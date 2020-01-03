@@ -1069,6 +1069,9 @@ mOrigin
 nsAutoString
 mTopLevelOrigin
 ;
+nsAutoCString
+mPluginVersion
+;
 bool
 mInPrivateBrowsing
 ;

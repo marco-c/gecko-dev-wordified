@@ -724,6 +724,10 @@ nsAString
 aTopLevelOrigin
 bool
 aInPrivateBrowsing
+const
+nsACString
+&
+aVersion
 UniquePtr
 <
 GetNodeIdCallback
@@ -744,6 +748,10 @@ aTopLevelOrigin
 mInPrivateBrowsing
 (
 aInPrivateBrowsing
+)
+mVersion
+(
+aVersion
 )
 mCallback
 (
@@ -797,6 +805,7 @@ SendGetGMPNodeId
 mOrigin
 mTopLevelOrigin
 mInPrivateBrowsing
+mVersion
 &
 outId
 )
@@ -837,6 +846,9 @@ mTopLevelOrigin
 bool
 mInPrivateBrowsing
 ;
+nsCString
+mVersion
+;
 UniquePtr
 <
 GetNodeIdCallback
@@ -861,6 +873,10 @@ nsAString
 aTopLevelOrigin
 bool
 aInPrivateBrowsing
+const
+nsACString
+&
+aVersion
 UniquePtr
 <
 GetNodeIdCallback
@@ -882,6 +898,7 @@ GetNodeIdDone
 aOrigin
 aTopLevelOrigin
 aInPrivateBrowsing
+aVersion
 Move
 (
 aCallback
