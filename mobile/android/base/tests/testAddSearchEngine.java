@@ -502,6 +502,7 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_SEARCH_TITLE
+searchEngineURL
 )
 ;
 /
