@@ -1576,7 +1576,7 @@ eBasicEventClass
 FORWARDED_EVENT
 (
 resize
-NS_RESIZE_EVENT
+eResize
 EventNameType_All
 eBasicEventClass
 )

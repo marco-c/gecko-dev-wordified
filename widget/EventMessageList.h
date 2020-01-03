@@ -223,7 +223,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_RESIZE_EVENT
+eResize
 eWindowEventFirst
 +
 60

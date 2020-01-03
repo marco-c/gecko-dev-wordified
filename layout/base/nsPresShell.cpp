@@ -10107,6 +10107,9 @@ already
 FrameNeedsReflow
 (
 rootFrame
+nsIPresShell
+:
+:
 eResize
 NS_FRAME_IS_DIRTY
 )
@@ -11490,7 +11493,10 @@ WidgetEvent
 event
 (
 true
-NS_RESIZE_EVENT
+mozilla
+:
+:
+eResize
 )
 ;
 nsEventStatus
@@ -15063,6 +15069,9 @@ if
 aIntrinsicDirty
 !
 =
+nsIPresShell
+:
+:
 eResize
 )
 {
@@ -68613,6 +68622,9 @@ MarkScrollbarsDirtyForReflow
 }
 MarkFixedFramesForReflow
 (
+nsIPresShell
+:
+:
 eResize
 )
 ;
@@ -69289,6 +69301,9 @@ FrameNeedsReflow
 GetRootFrame
 (
 )
+nsIPresShell
+:
+:
 eResize
 NS_FRAME_HAS_DIRTY_CHILDREN
 )

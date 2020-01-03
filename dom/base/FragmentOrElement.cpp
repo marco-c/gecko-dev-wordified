@@ -5306,7 +5306,7 @@ case
 NS_FORM_RESET
 :
 case
-NS_RESIZE_EVENT
+eResize
 :
 case
 NS_SCROLL_EVENT

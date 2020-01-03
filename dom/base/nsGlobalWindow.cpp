@@ -18516,7 +18516,7 @@ if
 msg
 =
 =
-NS_RESIZE_EVENT
+eResize
 &
 &
 aVisitor
@@ -19464,7 +19464,7 @@ mMessage
 )
 {
 case
-NS_RESIZE_EVENT
+eResize
 :
 case
 NS_PAGE_UNLOAD
@@ -19539,7 +19539,7 @@ mEvent
 mMessage
 =
 =
-NS_RESIZE_EVENT
+eResize
 )
 {
 mIsHandlingResizeEvent
