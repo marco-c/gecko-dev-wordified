@@ -1922,6 +1922,10 @@ if
 prompt
 )
 {
+if
+(
+NS_FAILED
+(
 prompt
 -
 >
@@ -1929,7 +1933,13 @@ Prompt
 (
 aRequest
 )
+)
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 }
 return
 NS_OK
