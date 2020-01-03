@@ -165,6 +165,13 @@ h
 #
 include
 "
+nsGtkKeyUtils
+.
+h
+"
+#
+include
+"
 nsLookAndFeel
 .
 h
@@ -1763,6 +1770,13 @@ nsWindow
 :
 :
 ReleaseGlobals
+(
+)
+;
+KeymapWrapper
+:
+:
+Shutdown
 (
 )
 ;
