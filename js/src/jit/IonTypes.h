@@ -413,7 +413,7 @@ for
 abs
 sub
 and
-LoadTypedArrayElement
+LoadUnboxedScalar
 (
 when
 loading

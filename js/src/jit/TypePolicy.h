@@ -2275,7 +2275,7 @@ class
 StoreTypedArrayElementStaticPolicy
 ;
 class
-StoreTypedArrayPolicy
+StoreUnboxedScalarPolicy
 :
 public
 TypePolicy
@@ -2336,7 +2336,7 @@ StoreTypedArrayHolePolicy
 MOZ_FINAL
 :
 public
-StoreTypedArrayPolicy
+StoreUnboxedScalarPolicy
 {
 public
 :
@@ -2362,7 +2362,7 @@ StoreTypedArrayElementStaticPolicy
 MOZ_FINAL
 :
 public
-StoreTypedArrayPolicy
+StoreUnboxedScalarPolicy
 {
 public
 :

@@ -6359,7 +6359,7 @@ value
 ;
 }
 void
-MLoadTypedArrayElement
+MLoadUnboxedScalar
 :
 :
 printOpcode
@@ -6390,7 +6390,7 @@ ScalarTypeDescr
 :
 typeName
 (
-arrayType
+indexType
 (
 )
 )
@@ -12844,7 +12844,7 @@ case
 MDefinition
 :
 :
-Op_LoadTypedArrayElement
+Op_LoadUnboxedScalar
 :
 case
 MDefinition

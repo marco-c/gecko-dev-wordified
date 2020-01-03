@@ -160,9 +160,6 @@ false
 UnsafePutElements
 :
 false
-ShouldForceSequential
-:
-false
 ParallelTestsShouldPass
 :
 false

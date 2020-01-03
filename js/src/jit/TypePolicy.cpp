@@ -6305,7 +6305,7 @@ true
 ;
 }
 bool
-StoreTypedArrayPolicy
+StoreUnboxedScalarPolicy
 :
 :
 adjustValueInput
@@ -6875,7 +6875,7 @@ true
 ;
 }
 bool
-StoreTypedArrayPolicy
+StoreUnboxedScalarPolicy
 :
 :
 adjustInputs
@@ -6897,14 +6897,14 @@ alloc
 ins
 )
 ;
-MStoreTypedArrayElement
+MStoreUnboxedScalar
 *
 store
 =
 ins
 -
 >
-toStoreTypedArrayElement
+toStoreUnboxedScalar
 (
 )
 ;
@@ -7046,7 +7046,7 @@ MIRType_Int32
 )
 ;
 return
-StoreTypedArrayPolicy
+StoreUnboxedScalarPolicy
 :
 :
 adjustValueInput
@@ -7108,7 +7108,7 @@ ins
 )
 &
 &
-StoreTypedArrayPolicy
+StoreUnboxedScalarPolicy
 :
 :
 adjustValueInput
@@ -8018,7 +8018,7 @@ StoreTypedArrayHolePolicy
 \
 _
 (
-StoreTypedArrayPolicy
+StoreUnboxedScalarPolicy
 )
 \
 _

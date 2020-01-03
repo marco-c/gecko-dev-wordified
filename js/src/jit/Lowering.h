@@ -1559,9 +1559,9 @@ ins
 )
 ;
 void
-visitLoadTypedArrayElement
+visitLoadUnboxedScalar
 (
-MLoadTypedArrayElement
+MLoadUnboxedScalar
 *
 ins
 )
@@ -1583,9 +1583,9 @@ ins
 )
 ;
 void
-visitStoreTypedArrayElement
+visitStoreUnboxedScalar
 (
-MStoreTypedArrayElement
+MStoreUnboxedScalar
 *
 ins
 )

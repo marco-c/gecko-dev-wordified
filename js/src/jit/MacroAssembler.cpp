@@ -2412,7 +2412,7 @@ This
 is
 what
 allows
-MLoadTypedArrayElement
+MLoadUnboxedScalar
 to
 have
 a

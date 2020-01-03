@@ -19428,9 +19428,9 @@ void
 LIRGenerator
 :
 :
-visitLoadTypedArrayElement
+visitLoadUnboxedScalar
 (
-MLoadTypedArrayElement
+MLoadUnboxedScalar
 *
 ins
 )
@@ -19564,7 +19564,7 @@ if
 ins
 -
 >
-arrayType
+readType
 (
 )
 =
@@ -19623,7 +19623,7 @@ ins
 )
 ;
 }
-LLoadTypedArrayElement
+LLoadUnboxedScalar
 *
 lir
 =
@@ -19633,7 +19633,7 @@ alloc
 (
 )
 )
-LLoadTypedArrayElement
+LLoadUnboxedScalar
 (
 elements
 index
@@ -20088,9 +20088,9 @@ void
 LIRGenerator
 :
 :
-visitStoreTypedArrayElement
+visitStoreUnboxedScalar
 (
-MStoreTypedArrayElement
+MStoreUnboxedScalar
 *
 ins
 )
@@ -20460,7 +20460,7 @@ alloc
 (
 )
 )
-LStoreTypedArrayElement
+LStoreUnboxedScalar
 (
 elements
 index

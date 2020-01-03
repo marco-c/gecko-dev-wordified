@@ -3498,8 +3498,6 @@ ScalarTypeDescr
 :
 Type
 type
-bool
-racy
 MDefinition
 *
 value
@@ -4444,8 +4442,6 @@ Type
 arrayType
 SetElemSafety
 safety
-bool
-racy
 MDefinition
 *
 object
