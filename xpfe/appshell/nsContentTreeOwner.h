@@ -200,6 +200,7 @@ NS_DECL_NSIWEBBROWSERCHROME3
 NS_DECL_NSIWINDOWPROVIDER
 protected
 :
+explicit
 nsContentTreeOwner
 (
 bool

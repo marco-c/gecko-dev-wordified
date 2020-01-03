@@ -2834,6 +2834,7 @@ nsITimerCallback
 {
 public
 :
+explicit
 WebShellWindowTimerCallback
 (
 nsWebShellWindow

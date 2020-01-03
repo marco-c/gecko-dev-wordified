@@ -703,6 +703,7 @@ aCallback
 )
 {
 }
+explicit
 ValueObserverHashKey
 (
 const

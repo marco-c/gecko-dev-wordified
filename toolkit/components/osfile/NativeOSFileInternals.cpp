@@ -539,6 +539,7 @@ Scoped
 ScopedArrayBufferContentsTraits
 >
 {
+explicit
 ScopedArrayBufferContents
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
@@ -553,6 +554,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
 )
 {
 }
+explicit
 ScopedArrayBufferContents
 (
 const
@@ -1011,6 +1013,7 @@ statistics
 .
 *
 /
+explicit
 AbstractResult
 (
 TimeStamp
@@ -1428,6 +1431,7 @@ AbstractResult
 {
 public
 :
+explicit
 StringResult
 (
 TimeStamp
@@ -1678,6 +1682,7 @@ AbstractResult
 {
 public
 :
+explicit
 TypedArrayResult
 (
 TimeStamp

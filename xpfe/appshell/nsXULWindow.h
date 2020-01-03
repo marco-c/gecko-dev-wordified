@@ -388,6 +388,7 @@ PAD_SIZE
 0x4
 }
 ;
+explicit
 nsXULWindow
 (
 uint32_t

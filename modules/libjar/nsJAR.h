@@ -865,6 +865,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIZIPENTRY
+explicit
 nsJARItem
 (
 nsZipItem
@@ -963,6 +964,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIUTF8STRINGENUMERATOR
+explicit
 nsJAREnumerator
 (
 nsZipFind

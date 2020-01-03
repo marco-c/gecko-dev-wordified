@@ -159,6 +159,7 @@ TableUpdate
 {
 public
 :
+explicit
 TableUpdate
 (
 const

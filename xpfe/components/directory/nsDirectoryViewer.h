@@ -468,6 +468,7 @@ nsIRDFResource
 >
 mDirectory
 ;
+explicit
 nsHTTPIndex
 (
 nsIInterfaceRequestor

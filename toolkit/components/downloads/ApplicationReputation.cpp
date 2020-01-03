@@ -1504,6 +1504,7 @@ NS_DECL_NSIURLCLASSIFIERCALLBACK
 Constructor
 and
 destructor
+explicit
 PendingDBLookup
 (
 PendingLookup

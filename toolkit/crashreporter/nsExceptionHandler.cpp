@@ -2034,6 +2034,7 @@ ChildProcessData
 public
 nsUint32HashKey
 {
+explicit
 ChildProcessData
 (
 KeyTypePointer
@@ -2137,6 +2138,7 @@ nsRunnable
 {
 public
 :
+explicit
 ReportInjectedCrash
 (
 uint32_t
@@ -9501,6 +9503,7 @@ Annotation
 )
 {
 }
+explicit
 DelayedNote
 (
 const

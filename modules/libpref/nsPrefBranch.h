@@ -464,6 +464,7 @@ the
 linker
 complains
 .
+explicit
 PrefCallback
 (
 const
