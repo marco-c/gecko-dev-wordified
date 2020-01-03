@@ -1397,6 +1397,10 @@ setElement
 nullptr
 /
 /
+getOwnPropertyDescriptor
+nullptr
+/
+/
 getGenericAttributes
 nullptr
 /

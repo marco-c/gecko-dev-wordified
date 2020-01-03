@@ -3033,6 +3033,13 @@ setElement
 nullptr
 /
 *
+getOwnPropertyDescriptor
+*
+/
+                      
+nullptr
+/
+*
 getGenericAttributes
 *
 /

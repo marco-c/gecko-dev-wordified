@@ -6804,6 +6804,13 @@ setElement
 nullptr
 /
 *
+getOwnPropertyDescriptor
+*
+/
+\
+nullptr
+/
+*
 getGenericAttributes
 *
 /
@@ -6936,6 +6943,13 @@ nullptr
 /
 *
 setElement
+*
+/
+\
+nullptr
+/
+*
+getOwnPropertyDescriptor
 *
 /
 \
