@@ -489,13 +489,6 @@ h
 #
 include
 "
-nsChannelProperties
-.
-h
-"
-#
-include
-"
 nsMimeTypes
 .
 h
