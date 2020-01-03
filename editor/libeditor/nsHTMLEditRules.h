@@ -2149,7 +2149,7 @@ inRange
 nsresult
 BustUpInlinesAtBRs
 (
-nsINode
+nsIContent
 &
 aNode
 nsTArray
