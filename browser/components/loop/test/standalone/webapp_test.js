@@ -6584,6 +6584,9 @@ EndedConversationView
 conversation
 :
 conversation
+dispatcher
+:
+dispatcher
 sdk
 :
 {

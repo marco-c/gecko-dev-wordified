@@ -8916,7 +8916,7 @@ harness
 var
 expectedWarningsCount
 =
-28
+24
 ;
 var
 warningsMismatch
