@@ -5162,6 +5162,11 @@ if
 NeedToDrawShadow
 (
 )
+|
+|
+NeedToApplyFilter
+(
+)
 )
 {
 /
@@ -5171,6 +5176,8 @@ this
 case
 the
 shadow
+or
+filter
 rendering
 will
 use
@@ -6148,6 +6155,10 @@ AdjustedTarget
 friend
 class
 AdjustedTargetForShadow
+;
+friend
+class
+AdjustedTargetForFilter
 ;
 /
 /
