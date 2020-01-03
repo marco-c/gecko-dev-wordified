@@ -728,6 +728,7 @@ VIDEO_DATA
 aOffset
 aTime
 aDuration
+1
 )
 mDisplay
 (
@@ -2914,6 +2915,7 @@ MediaRawData
 MediaData
 (
 RAW_DATA
+0
 )
 mData
 (
@@ -2968,6 +2970,7 @@ aSize
 MediaData
 (
 RAW_DATA
+0
 )
 mData
 (

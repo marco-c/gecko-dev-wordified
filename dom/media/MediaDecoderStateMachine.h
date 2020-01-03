@@ -2739,7 +2739,7 @@ PreservesPitchChanged
 ;
 MediaQueue
 <
-AudioData
+MediaData
 >
 &
 AudioQueue
@@ -2752,7 +2752,7 @@ mAudioQueue
 }
 MediaQueue
 <
-VideoData
+MediaData
 >
 &
 VideoQueue
@@ -6173,7 +6173,7 @@ threads
 .
 MediaQueue
 <
-AudioData
+MediaData
 >
 mAudioQueue
 ;
@@ -6204,7 +6204,7 @@ threads
 .
 MediaQueue
 <
-VideoData
+MediaData
 >
 mVideoQueue
 ;
