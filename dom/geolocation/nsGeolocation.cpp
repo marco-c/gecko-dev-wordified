@@ -639,6 +639,7 @@ Value
 >
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -769,6 +770,7 @@ nsAString
 &
 aName
 )
+MOZ_OVERRIDE
 {
 if
 (

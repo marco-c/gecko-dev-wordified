@@ -176,8 +176,9 @@ void
 ActorDestroy
 (
 ActorDestroyReason
-why
+aWhy
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -400,8 +401,9 @@ void
 ActorDestroy
 (
 ActorDestroyReason
-why
+aWhy
 )
+MOZ_OVERRIDE
 ;
 nsresult
 SendResponse

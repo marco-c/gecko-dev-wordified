@@ -171,6 +171,7 @@ return
 mWindow
 ;
 }
+virtual
 JSObject
 *
 WrapObject
@@ -179,6 +180,7 @@ JSContext
 *
 aCx
 )
+MOZ_OVERRIDE
 ;
 void
 Set

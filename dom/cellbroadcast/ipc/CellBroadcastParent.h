@@ -197,6 +197,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
+MOZ_OVERRIDE
 ;
 }
 ;

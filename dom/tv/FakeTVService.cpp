@@ -1099,6 +1099,7 @@ nsITimer
 *
 aTimer
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -1359,6 +1360,7 @@ nsITimer
 *
 aTimer
 )
+MOZ_OVERRIDE
 {
 return
 mSourceListener

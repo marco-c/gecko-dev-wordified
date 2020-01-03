@@ -197,6 +197,7 @@ void_t
 &
 aVoid
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -216,6 +217,7 @@ SystemTimezoneChangeInformation
 &
 aSystemTimezoneChangeInfo
 )
+MOZ_OVERRIDE
 ;
 private
 :

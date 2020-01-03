@@ -216,6 +216,7 @@ NetworkInformation
 &
 aNetworkInfo
 )
+MOZ_OVERRIDE
 ;
 /
 /

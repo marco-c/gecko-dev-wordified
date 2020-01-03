@@ -203,6 +203,7 @@ SensorData
 &
 aSensorData
 )
+MOZ_OVERRIDE
 ;
 private
 :

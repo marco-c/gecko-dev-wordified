@@ -10633,6 +10633,7 @@ void
 Resolve
 (
 )
+MOZ_OVERRIDE
 {
 mKey
 -
@@ -10656,6 +10657,7 @@ void
 Cleanup
 (
 )
+MOZ_OVERRIDE
 {
 mKey
 =

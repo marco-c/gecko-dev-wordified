@@ -1409,6 +1409,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 void
 AdvanceState
@@ -1726,6 +1727,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 void
 AdvanceState
@@ -1951,6 +1953,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 void
 AdvanceState
