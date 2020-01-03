@@ -143,14 +143,6 @@ float
 fixedLayerMarginBottom
 ;
 public
-float
-offsetX
-;
-public
-float
-offsetY
-;
-public
 ViewTransform
 (
 float

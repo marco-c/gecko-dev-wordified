@@ -1023,9 +1023,6 @@ aScale
 LayerMargin
 &
 aFixedLayerMargins
-ScreenPoint
-&
-aOffset
 )
 ;
 void
@@ -1056,9 +1053,6 @@ aIsFirstPaint
 LayerMargin
 &
 aFixedLayerMargins
-ScreenPoint
-&
-aOffset
 )
 ;
 /
