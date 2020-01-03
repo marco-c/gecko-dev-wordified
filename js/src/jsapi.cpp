@@ -22755,13 +22755,13 @@ JSFunction
 :
 :
 INTERPRETED
-enclosingDynamicScope
 funAtom
 JSFunction
 :
 :
 FinalizeKind
 TenuredObject
+enclosingDynamicScope
 )
 )
 ;

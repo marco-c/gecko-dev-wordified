@@ -3996,12 +3996,6 @@ JSFunction
 :
 :
 INTERPRETED_LAZY
-cx
--
->
-global
-(
-)
 name
 JSFunction
 :

@@ -5906,12 +5906,6 @@ JSFunction
 :
 :
 INTERPRETED
-cx
--
->
-global
-(
-)
 name
 JSFunction
 :
