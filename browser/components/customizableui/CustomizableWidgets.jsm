@@ -7853,6 +7853,13 @@ buttonLabel
 tooltiptext
 :
 buttonLabel
+disabled
+:
+Services
+.
+appinfo
+.
+inSafeMode
 defaultArea
 :
 CustomizableUI
