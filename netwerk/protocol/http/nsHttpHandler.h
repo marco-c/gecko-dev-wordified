@@ -185,9 +185,6 @@ class
 nsIIOService
 ;
 class
-nsIObserverService
-;
-class
 nsISiteSecurityService
 ;
 class
@@ -2172,12 +2169,6 @@ nsMainThreadPtrHandle
 nsIStreamConverterService
 >
 mStreamConvSvc
-;
-nsMainThreadPtrHandle
-<
-nsIObserverService
->
-mObserverService
 ;
 nsMainThreadPtrHandle
 <
