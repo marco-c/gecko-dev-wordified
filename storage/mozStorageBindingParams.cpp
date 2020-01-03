@@ -728,6 +728,9 @@ GetParameterCount
 mParamCount
 )
 ;
+(
+void
+)
 mParameters
 .
 SetCapacity
