@@ -1993,6 +1993,9 @@ InResponsiveMode
 if
 (
 mResponsiveSelector
+&
+&
+mResponsiveSelector
 -
 >
 Content
