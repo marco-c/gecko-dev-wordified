@@ -241,7 +241,7 @@ MediaDataDecoder
 GonkDecoderModule
 :
 :
-CreateH264Decoder
+CreateVideoDecoder
 (
 const
 mp4_demuxer

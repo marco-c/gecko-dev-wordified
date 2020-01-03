@@ -197,7 +197,7 @@ already_AddRefed
 <
 MediaDataDecoder
 >
-CreateH264Decoder
+CreateVideoDecoder
 (
 const
 mp4_demuxer

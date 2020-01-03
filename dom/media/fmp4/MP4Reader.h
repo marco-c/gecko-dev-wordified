@@ -645,6 +645,15 @@ char
 aMimeType
 )
 ;
+bool
+IsSupportedVideoMimeType
+(
+const
+char
+*
+aMimeType
+)
+;
 void
 NotifyResourcesStatusChanged
 (

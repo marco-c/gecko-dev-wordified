@@ -187,7 +187,7 @@ already_AddRefed
 <
 MediaDataDecoder
 >
-CreateH264Decoder
+CreateVideoDecoder
 (
 const
 mp4_demuxer
@@ -236,6 +236,16 @@ aAudioTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+)
+MOZ_OVERRIDE
+;
+bool
+SupportsVideoMimeType
+(
+const
+char
+*
+aMimeType
 )
 MOZ_OVERRIDE
 ;

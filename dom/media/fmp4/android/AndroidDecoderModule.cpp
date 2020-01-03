@@ -832,7 +832,7 @@ MediaDataDecoder
 AndroidDecoderModule
 :
 :
-CreateH264Decoder
+CreateVideoDecoder
 (
 const
 mp4_demuxer

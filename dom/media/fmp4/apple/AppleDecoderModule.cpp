@@ -785,7 +785,7 @@ MediaDataDecoder
 AppleDecoderModule
 :
 :
-CreateH264Decoder
+CreateVideoDecoder
 (
 const
 mp4_demuxer
