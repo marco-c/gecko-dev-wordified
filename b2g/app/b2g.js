@@ -10181,7 +10181,9 @@ pref
 "
 apz
 .
-axis_lock_mode
+axis_lock
+.
+mode
 "
 2
 )
