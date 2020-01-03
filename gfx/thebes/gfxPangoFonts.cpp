@@ -11192,8 +11192,7 @@ size
 mStyle
 .
 sizeAdjust
-!
-=
+>
 0
 .
 0

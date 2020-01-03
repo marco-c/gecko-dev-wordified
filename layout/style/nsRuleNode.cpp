@@ -25011,7 +25011,8 @@ aParentFont
 mFont
 .
 sizeAdjust
-0
+-
+1
 .
 0f
 SETFCT_NONE

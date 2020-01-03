@@ -912,7 +912,7 @@ if
 mStyle
 .
 sizeAdjust
-!
+>
 =
 0
 .

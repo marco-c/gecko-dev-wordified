@@ -335,9 +335,10 @@ NS_FONT_SMOOTHING_AUTO
 ;
 sizeAdjust
 =
-0
+-
+1
 .
-0
+0f
 ;
 kerning
 =

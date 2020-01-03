@@ -23672,7 +23672,8 @@ GetFloatValue
 )
 =
 =
-0
+-
+1
 .
 0f
 )
@@ -23687,6 +23688,9 @@ mFont
 .
 sizeAdjust
 to
+-
+1
+.
 0
 to
 represent

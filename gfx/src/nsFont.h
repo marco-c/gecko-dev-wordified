@@ -687,6 +687,9 @@ string
 A
 value
 of
+-
+1
+.
 0
 means
 no
@@ -697,6 +700,13 @@ needs
 to
 be
 done
+;
+otherwise
+the
+value
+must
+be
+nonnegative
 .
 float
 sizeAdjust

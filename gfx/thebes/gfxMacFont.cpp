@@ -1520,8 +1520,7 @@ if
 mStyle
 .
 sizeAdjust
-!
-=
+>
 0
 .
 0
