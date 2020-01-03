@@ -658,6 +658,7 @@ nsHtml5Atoms
 :
 html
 nullptr
+nullptr
 )
 ;
 mOpQueue
@@ -3089,6 +3090,10 @@ aName
 nsHtml5HtmlAttributes
 *
 aAttributes
+nsIContent
+*
+*
+aIntendedParent
 )
 {
 NS_PRECONDITION
@@ -3124,6 +3129,7 @@ kNameSpaceID_XHTML
 aName
 aAttributes
 content
+aIntendedParent
 true
 )
 ;
@@ -3215,6 +3221,9 @@ CreateElement
 (
 aName
 aAttributes
+CurrentNode
+(
+)
 )
 ;
 /
