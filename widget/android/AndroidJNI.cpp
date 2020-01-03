@@ -4405,11 +4405,6 @@ oldRef
 APZCCallbackHandler
 :
 :
-GetInstance
-(
-)
--
->
 SetNativePanZoomController
 (
 newRef
@@ -4628,11 +4623,6 @@ oldRef
 APZCCallbackHandler
 :
 :
-GetInstance
-(
-)
--
->
 SetNativePanZoomController
 (
 nullptr
