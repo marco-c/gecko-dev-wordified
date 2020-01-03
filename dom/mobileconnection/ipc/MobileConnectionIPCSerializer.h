@@ -119,7 +119,7 @@ using
 mozilla
 :
 :
-AutoSafeJSContext
+AutoJSContext
 ;
 using
 mozilla
@@ -1715,7 +1715,7 @@ isNull
 return
 ;
 }
-AutoSafeJSContext
+AutoJSContext
 cx
 ;
 nsString
@@ -2092,7 +2092,7 @@ return
 true
 ;
 }
-AutoSafeJSContext
+AutoJSContext
 cx
 ;
 nsString
