@@ -186,6 +186,11 @@ palette
 "
 )
 ;
+yield
+endCustomizing
+(
+)
+;
 }
 )
 ;
@@ -324,6 +329,11 @@ movingItem
 is
 removed
 "
+)
+;
+yield
+endCustomizing
+(
 )
 ;
 }
