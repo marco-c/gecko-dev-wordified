@@ -582,10 +582,6 @@ DatabaseHelper
 mDatabaseHelper
 ;
 protected
-StringHelper
-mStringHelper
-;
-protected
 int
 mScreenMidWidth
 ;
@@ -940,13 +936,6 @@ DatabaseHelper
 (
 mActivity
 mAsserter
-)
-;
-mStringHelper
-=
-new
-StringHelper
-(
 )
 ;
 }
