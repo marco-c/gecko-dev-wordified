@@ -393,6 +393,7 @@ instanced_arrays
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionInstancedArrays
+ANGLE_instanced_arrays
 )
 }
 /

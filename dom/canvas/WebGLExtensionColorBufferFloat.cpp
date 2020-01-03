@@ -221,6 +221,7 @@ IsANGLE
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionColorBufferFloat
+WEBGL_color_buffer_float
 )
 }
 /

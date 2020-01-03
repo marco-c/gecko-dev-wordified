@@ -149,6 +149,7 @@ WebGLExtensionDebugRendererInfo
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionDebugRendererInfo
+WEBGL_debug_renderer_info
 )
 }
 /

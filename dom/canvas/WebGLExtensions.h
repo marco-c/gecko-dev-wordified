@@ -240,6 +240,7 @@ define
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionType
+WebGLBindingType
 )
 \
 JSObject
@@ -269,7 +270,7 @@ return
 dom
 :
 :
-WebGLExtensionType
+WebGLBindingType
 #
 #
 Binding

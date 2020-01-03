@@ -112,6 +112,7 @@ WebGLExtensionTextureFloat
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionTextureFloat
+OES_texture_float
 )
 }
 /

@@ -252,6 +252,7 @@ retval
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionDebugShaders
+WEBGL_debug_shaders
 )
 }
 /

@@ -112,6 +112,7 @@ WebGLExtensionTextureHalfFloat
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionTextureHalfFloat
+OES_texture_half_float
 )
 }
 /

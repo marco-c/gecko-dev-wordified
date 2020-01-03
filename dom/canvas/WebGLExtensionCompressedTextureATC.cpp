@@ -142,6 +142,7 @@ WebGLExtensionCompressedTextureATC
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionCompressedTextureATC
+WEBGL_compressed_texture_atc
 )
 }
 /

@@ -1325,6 +1325,7 @@ GL_TIMESTAMP
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionDisjointTimerQuery
+EXT_disjoint_timer_query
 )
 }
 /
