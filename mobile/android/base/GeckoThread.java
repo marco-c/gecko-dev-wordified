@@ -558,6 +558,13 @@ getContext
 (
 )
 ;
+GeckoLoader
+.
+loadMozGlue
+(
+context
+)
+;
 final
 Resources
 res
