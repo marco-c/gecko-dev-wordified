@@ -20106,6 +20106,12 @@ mOldSizeMode
 =
 =
 nsSizeMode_Normal
+|
+|
+mOldSizeMode
+=
+=
+nsSizeMode_Maximized
 )
 Show
 (
