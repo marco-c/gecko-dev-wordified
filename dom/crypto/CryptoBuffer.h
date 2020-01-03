@@ -322,6 +322,16 @@ ToSECItem
 )
 const
 ;
+JSObject
+*
+ToUint8Array
+(
+JSContext
+*
+aCx
+)
+const
+;
 bool
 GetBigIntValue
 (
