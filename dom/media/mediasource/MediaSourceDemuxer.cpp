@@ -2037,13 +2037,6 @@ aTime
 {
 if
 (
-aTime
-.
-ToMicroseconds
-(
-)
-&
-&
 !
 mBufferedRanges
 .
