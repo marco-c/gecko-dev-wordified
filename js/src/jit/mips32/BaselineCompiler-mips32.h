@@ -119,9 +119,13 @@ include
 "
 jit
 /
+mips
+-
 shared
 /
 BaselineCompiler
+-
+mips
 -
 shared
 .
@@ -137,7 +141,7 @@ class
 BaselineCompilerMIPS
 :
 public
-BaselineCompilerShared
+BaselineCompilerMIPSShared
 {
 protected
 :
