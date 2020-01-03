@@ -494,8 +494,8 @@ error
 *
 Destroy
 the
-style
-editor
+storage
+inspector
 .
 *
 /
