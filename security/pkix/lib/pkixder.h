@@ -541,6 +541,11 @@ PrintableString
 UNIVERSAL
 |
 0x13
+TeletexString
+=
+UNIVERSAL
+|
+0x14
 UTCTime
 =
 UNIVERSAL
