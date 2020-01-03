@@ -257,7 +257,8 @@ s
 like
 MemoryActor
 using
-MemoryBridge
+this
+module
 to
 *
 send
@@ -285,7 +286,11 @@ consumption
 *
 /
 let
-MemoryBridge
+Memory
+=
+exports
+.
+Memory
 =
 Class
 (
@@ -2261,10 +2266,4 @@ residentUnique
 }
 }
 )
-;
-exports
-.
-MemoryBridge
-=
-MemoryBridge
 ;

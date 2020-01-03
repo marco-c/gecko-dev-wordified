@@ -89,11 +89,7 @@ server
 /
 actors
 /
-utils
-/
-actor
--
-utils
+common
 "
 )
 ;
