@@ -106,9 +106,6 @@ stdint
 .
 h
 >
-class
-nsIAtom
-;
 /
 /
 The
@@ -619,14 +616,6 @@ FindCharUnicodeRange
 (
 uint32_t
 ch
-)
-;
-nsIAtom
-*
-LangGroupFromUnicodeRange
-(
-uint8_t
-unicodeRange
 )
 ;
 #
