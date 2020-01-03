@@ -56760,7 +56760,7 @@ masm
 .
 storeUnalignedInt32x4
 (
-ReturnSimdReg
+ReturnInt32x4Reg
 Address
 (
 argv
@@ -56796,7 +56796,7 @@ masm
 .
 storeUnalignedFloat32x4
 (
-ReturnSimdReg
+ReturnFloat32x4Reg
 Address
 (
 argv
