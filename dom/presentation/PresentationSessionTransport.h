@@ -256,7 +256,7 @@ in
 either
 *
 |
-PresentationRequesterInfo
+PresentationControllingInfo
 |
 (
 sender
@@ -264,7 +264,7 @@ side
 )
 or
 |
-PresentationResponderInfo
+PresentationPresentingInfo
 |
 *
 (

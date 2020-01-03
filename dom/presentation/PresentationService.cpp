@@ -1586,7 +1586,7 @@ NS_ERROR_DOM_ABORT_ERR
 info
 =
 new
-PresentationResponderInfo
+PresentationPresentingInfo
 (
 url
 sessionId
@@ -1743,7 +1743,7 @@ promise
 ;
 static_cast
 <
-PresentationResponderInfo
+PresentationPresentingInfo
 *
 >
 (
@@ -2015,12 +2015,12 @@ finished
 .
 nsRefPtr
 <
-PresentationRequesterInfo
+PresentationSessionInfo
 >
 info
 =
 new
-PresentationRequesterInfo
+PresentationControllingInfo
 (
 aUrl
 aSessionId
@@ -2808,7 +2808,7 @@ aWindowId
 return
 static_cast
 <
-PresentationResponderInfo
+PresentationPresentingInfo
 *
 >
 (

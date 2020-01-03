@@ -1699,7 +1699,7 @@ aData
 *
 Implementation
 of
-PresentationRequesterInfo
+PresentationControllingInfo
 *
 *
 During
@@ -1900,12 +1900,12 @@ state
 /
 NS_IMPL_ISUPPORTS_INHERITED
 (
-PresentationRequesterInfo
+PresentationControllingInfo
 PresentationSessionInfo
 nsIServerSocketListener
 )
 nsresult
-PresentationRequesterInfo
+PresentationControllingInfo
 :
 :
 Init
@@ -2029,7 +2029,7 @@ NS_OK
 ;
 }
 void
-PresentationRequesterInfo
+PresentationControllingInfo
 :
 :
 Shutdown
@@ -2080,7 +2080,7 @@ nullptr
 }
 }
 nsresult
-PresentationRequesterInfo
+PresentationControllingInfo
 :
 :
 GetAddress
@@ -2329,7 +2329,7 @@ NS_OK
 /
 nsIPresentationControlChannelListener
 NS_IMETHODIMP
-PresentationRequesterInfo
+PresentationControllingInfo
 :
 :
 OnOffer
@@ -2358,7 +2358,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-PresentationRequesterInfo
+PresentationControllingInfo
 :
 :
 OnAnswer
@@ -2457,7 +2457,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-PresentationRequesterInfo
+PresentationControllingInfo
 :
 :
 NotifyOpened
@@ -2557,7 +2557,7 @@ description
 ;
 }
 NS_IMETHODIMP
-PresentationRequesterInfo
+PresentationControllingInfo
 :
 :
 NotifyClosed
@@ -2684,7 +2684,7 @@ NS_OK
 /
 nsIServerSocketListener
 NS_IMETHODIMP
-PresentationRequesterInfo
+PresentationControllingInfo
 :
 :
 OnSocketAccepted
@@ -2800,7 +2800,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-PresentationRequesterInfo
+PresentationControllingInfo
 :
 :
 OnStopListening
@@ -2920,7 +2920,7 @@ NS_OK
 *
 Implementation
 of
-PresentationResponderInfo
+PresentationPresentingInfo
 *
 *
 During
@@ -3102,12 +3102,12 @@ state
 /
 NS_IMPL_ISUPPORTS_INHERITED
 (
-PresentationResponderInfo
+PresentationPresentingInfo
 PresentationSessionInfo
 nsITimerCallback
 )
 nsresult
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 Init
@@ -3228,7 +3228,7 @@ NS_OK
 ;
 }
 void
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 Shutdown
@@ -3272,7 +3272,7 @@ nullptr
 ;
 }
 nsresult
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 InitTransportAndSendAnswer
@@ -3549,7 +3549,7 @@ description
 ;
 }
 nsresult
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 UntrackFromService
@@ -3670,7 +3670,7 @@ NS_OK
 ;
 }
 bool
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 IsAccessible
@@ -3725,7 +3725,7 @@ false
 ;
 }
 nsresult
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 NotifyResponderReady
@@ -3816,7 +3816,7 @@ NS_OK
 /
 nsIPresentationControlChannelListener
 NS_IMETHODIMP
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 OnOffer
@@ -3907,7 +3907,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 OnAnswer
@@ -3936,7 +3936,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 NotifyOpened
@@ -3953,7 +3953,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 NotifyClosed
@@ -4080,7 +4080,7 @@ NS_OK
 /
 nsITimerCallback
 NS_IMETHODIMP
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 Notify
@@ -4128,7 +4128,7 @@ NS_ERROR_DOM_TIMEOUT_ERR
 /
 PromiseNativeHandler
 void
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 ResolvedCallback
@@ -4510,7 +4510,7 @@ return
 }
 }
 void
-PresentationResponderInfo
+PresentationPresentingInfo
 :
 :
 RejectedCallback
