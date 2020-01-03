@@ -680,9 +680,15 @@ DOMRequest
 fireSuccess
 (
 req
+createContentApplicationObject
+(
+this
+.
+_window
 msg
 .
 app
+)
 )
 ;
 break
