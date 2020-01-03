@@ -468,7 +468,7 @@ nsNativeThemeCocoa
 )
 ;
 nsIntMargin
-RTLAwareMargin
+DirectionAwareMargin
 (
 const
 nsIntMargin
