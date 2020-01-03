@@ -1407,7 +1407,7 @@ callees
 asc
 .
 by
-duration
+samples
 before
 inserting
 them
@@ -1429,13 +1429,13 @@ a
 .
 frame
 .
-duration
+samples
 <
 b
 .
 frame
 .
-duration
+samples
 ?
 1
 :
