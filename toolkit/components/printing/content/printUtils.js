@@ -3568,6 +3568,16 @@ preview
 toolbar
 "
 ;
+printPreviewTB
+.
+className
+=
+"
+toolbar
+-
+primary
+"
+;
 let
 navToolbox
 =

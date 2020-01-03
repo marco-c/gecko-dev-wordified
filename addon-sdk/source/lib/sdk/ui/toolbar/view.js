@@ -1070,6 +1070,9 @@ setAttribute
 class
 "
 "
+toolbar
+-
+primary
 chromeclass
 -
 toolbar
