@@ -72250,6 +72250,12 @@ Length
 i
 )
 {
+ErrorResult
+dummy
+;
+unused
+<
+<
 mAudioContexts
 [
 i
@@ -72258,6 +72264,7 @@ i
 >
 Suspend
 (
+dummy
 )
 ;
 }
@@ -72636,6 +72643,12 @@ Length
 i
 )
 {
+ErrorResult
+dummy
+;
+unused
+<
+<
 mAudioContexts
 [
 i
@@ -72644,6 +72657,7 @@ i
 >
 Resume
 (
+dummy
 )
 ;
 }
