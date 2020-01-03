@@ -480,6 +480,14 @@ null
 null
 )
 ;
+let
+sslStatus
+=
+new
+FakeSSLStatus
+(
+)
+;
 SSService
 .
 processHeader
@@ -497,6 +505,7 @@ age
 =
 10000
 "
+sslStatus
 0
 )
 ;
