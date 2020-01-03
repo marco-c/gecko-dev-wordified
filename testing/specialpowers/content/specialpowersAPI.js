@@ -235,6 +235,14 @@ jsm
 "
 )
 ;
+if
+(
+!
+this
+.
+File
+)
+{
 Cu
 .
 importGlobalProperties
@@ -246,6 +254,7 @@ File
 ]
 )
 ;
+}
 /
 /
 Allow
