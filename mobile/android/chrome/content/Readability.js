@@ -1665,13 +1665,10 @@ document
 .
 if
 (
+!
 doc
 .
 body
-=
-=
-=
-null
 )
 {
 let
