@@ -1816,10 +1816,6 @@ const
 nsACString
 &
 aParentGUID
-const
-nsACString
-&
-aOldValue
 )
 ;
 protected
