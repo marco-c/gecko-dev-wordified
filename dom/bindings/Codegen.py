@@ -113600,6 +113600,26 @@ isCallbackReturnValue
 =
 isCallbackReturnValue
                                         
+#
+Allow
+returning
+a
+callback
+type
+that
+                                        
+#
+allows
+non
+-
+callable
+objects
+.
+                                        
+allowTreatNonCallableAsNull
+=
+True
+                                        
 sourceDescription
 =
 sourceDescription
