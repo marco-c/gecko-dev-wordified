@@ -288,6 +288,9 @@ char
 name
 )
 {
+#
+ifdef
+HAVE_SEH_EXCEPTIONS
 /
 /
 The
@@ -394,6 +397,8 @@ EXCEPTION_CONTINUE_EXECUTION
 )
 {
 }
+#
+endif
 }
 /
 /
