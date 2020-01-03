@@ -3302,11 +3302,8 @@ SkASSERT
 accum
 |
 |
-!
+SkScalarIsNaN
 (
-accum
-=
-=
 accum
 )
 )
@@ -3343,10 +3340,11 @@ accum
 accum
 ?
 return
+!
+SkScalarIsNaN
+(
 accum
-=
-=
-accum
+)
 ;
 }
 SkScalar

@@ -360,10 +360,11 @@ prod
 )
 .
 return
+!
+SkScalarIsNaN
+(
 prod
-=
-=
-prod
+)
 ;
 }
 /
