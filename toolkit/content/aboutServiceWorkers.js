@@ -954,7 +954,7 @@ function
 {
 gSWM
 .
-update
+softUpdate
 (
 info
 .
