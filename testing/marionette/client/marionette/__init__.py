@@ -75,6 +75,8 @@ BaseMarionetteOptions
         
 BaseMarionetteTestRunner
         
+BrowserMobProxyTestCaseMixin
+        
 EnduranceOptionsMixin
         
 EnduranceTestCaseMixin
