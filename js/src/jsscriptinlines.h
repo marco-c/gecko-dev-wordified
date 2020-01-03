@@ -948,7 +948,7 @@ return
 compartment_
 -
 >
-debugObservesAllExecution
+debuggerObservesAllExecution
 (
 )
 |
