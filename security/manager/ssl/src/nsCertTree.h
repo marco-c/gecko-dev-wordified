@@ -381,7 +381,7 @@ nsCertTree
 (
 )
 ;
-void
+nsresult
 InitCompareHash
 (
 )

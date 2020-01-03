@@ -242,7 +242,7 @@ font
 >
 *
 /
-void
+nsresult
 PREF_Init
 (
 )

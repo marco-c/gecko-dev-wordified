@@ -962,7 +962,7 @@ flags
 define
 PREF_HASHTABLE_INITIAL_LENGTH
 1024
-void
+nsresult
 PREF_Init
 (
 )
@@ -977,6 +977,9 @@ IsInitialized
 )
 )
 {
+if
+(
+!
 PL_DHashTableInit
 (
 &
@@ -987,9 +990,15 @@ sizeof
 (
 PrefHashEntry
 )
+fallible
 PREF_HASHTABLE_INITIAL_LENGTH
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 PL_INIT_ARENA_POOL
 (
 &
@@ -1001,6 +1010,9 @@ PREFNAME_ARENA_SIZE
 )
 ;
 }
+return
+NS_OK
+;
 }
 /
 *
@@ -4115,7 +4127,6 @@ PL_DHashTableAdd
 &
 gHashTable
 key
-fallible
 )
 )
 ;

@@ -2029,7 +2029,7 @@ nsCacheEntryHashTable
 (
 )
 ;
-void
+nsresult
 Init
 (
 )
@@ -2194,6 +2194,9 @@ ops
 ;
 PLDHashTable
 table
+;
+bool
+initialized
 ;
 }
 ;

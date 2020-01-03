@@ -4794,7 +4794,6 @@ PL_DHashTableAdd
 &
 mTransferringRequests
 aRequest
-fallible
 )
 ;
 return

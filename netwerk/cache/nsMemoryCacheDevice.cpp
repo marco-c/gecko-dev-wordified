@@ -448,6 +448,9 @@ mInitialized
 return
 NS_ERROR_ALREADY_INITIALIZED
 ;
+nsresult
+rv
+=
 mMemCacheEntries
 .
 Init
@@ -456,10 +459,13 @@ Init
 ;
 mInitialized
 =
-true
+NS_SUCCEEDED
+(
+rv
+)
 ;
 return
-NS_OK
+rv
 ;
 }
 nsresult
