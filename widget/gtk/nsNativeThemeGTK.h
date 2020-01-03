@@ -411,6 +411,11 @@ nsIFrame
 aFrame
 )
 ;
+gint
+GdkScaleFactor
+(
+)
+;
 uint8_t
 mDisabledWidgetTypes
 [
