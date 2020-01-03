@@ -1158,16 +1158,6 @@ samplerDesc
 D3D11_DEFAULT
 )
 ;
-samplerDesc
-.
-AddressU
-=
-samplerDesc
-.
-AddressV
-=
-D3D11_TEXTURE_ADDRESS_WRAP
-;
 hr
 =
 mDevice
