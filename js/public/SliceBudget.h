@@ -263,8 +263,7 @@ const
 int64_t
 Unlimited
 =
--
-1
+0
 ;
 /
 *
@@ -361,6 +360,7 @@ if
 (
 counter
 >
+=
 0
 )
 return
