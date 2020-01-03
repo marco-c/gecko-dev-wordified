@@ -446,6 +446,10 @@ owning
 ScopedCERTCertificate
 mTrustedRoot
 ;
+unsigned
+int
+mMinimumNonECCBits
+;
 }
 ;
 }
