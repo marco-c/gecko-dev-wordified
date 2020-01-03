@@ -31536,6 +31536,7 @@ exceptionValue
 struct
 JSExceptionState
 {
+explicit
 JSExceptionState
 (
 JSContext
