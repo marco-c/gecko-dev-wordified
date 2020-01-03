@@ -9497,6 +9497,7 @@ matching
 the
 given
 location
+let
 scripts
 =
 this
@@ -15533,9 +15534,6 @@ resolveURIToLocalPath
 aURI
 )
 {
-let
-resolved
-;
 switch
 (
 aURI
@@ -15561,6 +15559,7 @@ case
 chrome
 "
 :
+let
 resolved
 =
 Cc
@@ -28498,17 +28497,12 @@ slot
 is
 optimized
 out
+or
 arguments
 on
 a
 dead
 scope
-or
-an
-/
-/
-uninitialized
-binding
 .
 /
 /
@@ -28534,11 +28528,6 @@ optimizedOut
 value
 .
 missingArguments
-|
-|
-value
-.
-uninitialized
 )
 )
 {
@@ -31381,6 +31370,9 @@ aLine
 column
 :
 aColumn
+name
+:
+aName
 }
 =
 aSourceMap
@@ -31389,10 +31381,6 @@ originalPositionFor
 (
 {
 line
-:
-line
-column
-:
 column
 }
 )
@@ -31408,6 +31396,9 @@ aLine
 column
 :
 aColumn
+name
+:
+aName
 }
 ;
 }
