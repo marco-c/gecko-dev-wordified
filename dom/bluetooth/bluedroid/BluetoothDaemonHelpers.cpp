@@ -5641,7 +5641,7 @@ detected
 *
 /
 }
-PRUint32
+uint32_t
 clen
 =
 cstr
@@ -5666,7 +5666,7 @@ PackPDU
 (
 PackConversion
 <
-PRUint32
+uint32_t
 uint8_t
 >
 (

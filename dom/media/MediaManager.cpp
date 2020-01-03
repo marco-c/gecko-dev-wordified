@@ -726,12 +726,12 @@ nsCString
 aPattern
 )
 {
-PRInt32
+int32_t
 patternOffset
 =
 0
 ;
-PRInt32
+int32_t
 hostOffset
 =
 0
