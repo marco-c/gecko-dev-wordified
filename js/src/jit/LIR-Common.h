@@ -522,9 +522,9 @@ alloc
 void
 printOperands
 (
-FILE
-*
-fp
+GenericPrinter
+&
+out
 )
 ;
 /
