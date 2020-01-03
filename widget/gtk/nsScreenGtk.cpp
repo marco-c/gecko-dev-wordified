@@ -468,6 +468,10 @@ dpiScale
 {
 dpiScale
 =
+GetGtkMonitorScaleFactor
+(
+)
+*
 gfxPlatformGtk
 :
 :
