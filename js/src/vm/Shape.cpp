@@ -642,7 +642,7 @@ MOZ_ASSERT
 listp
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 *
 dictp
@@ -657,7 +657,7 @@ inDictionary
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 *
 dictp
@@ -673,7 +673,7 @@ listp
 dictp
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 *
 dictp
@@ -899,7 +899,7 @@ base
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 shape
 -
@@ -2683,7 +2683,7 @@ parent
 ;
 /
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 parent
 !
@@ -3725,7 +3725,7 @@ obj
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 allowDictionary
@@ -3849,7 +3849,7 @@ maybeSlot
 1
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 allowDictionary
@@ -5409,7 +5409,7 @@ spp
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 spp
 !
@@ -5767,7 +5767,7 @@ spp
 )
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 shape
 -
@@ -5984,7 +5984,7 @@ base_
 =
 nbase
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 attrs
 &
@@ -6500,7 +6500,7 @@ attrs
 &
 mask
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 attrs
 &
@@ -7541,7 +7541,7 @@ aprop
 >
 parent
 )
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 aprop
 !
@@ -8172,7 +8172,7 @@ oldShape
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 oldShape
 !
@@ -10205,7 +10205,7 @@ hasSetterObject
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 hasGetterObject
 (
@@ -10223,7 +10223,7 @@ getterObject
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 hasSetterObject
 (
@@ -11384,7 +11384,7 @@ uint32_t
 objectFlags
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 proto
 .
@@ -11404,7 +11404,7 @@ toObject
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 parent
 cx

@@ -1762,7 +1762,7 @@ end
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cur
 !
@@ -1787,7 +1787,7 @@ isInlineRange
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isInline
 checkInlineRangeInvariants

@@ -3612,7 +3612,7 @@ js_JitOptions
 eagerCompilation
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkIsFloat32
 type
@@ -3621,7 +3621,7 @@ type
 MIRType_Float32
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 checkIsFloat32
@@ -20680,7 +20680,7 @@ isFloatArray
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ins
 -
@@ -20710,7 +20710,7 @@ type
 MIRType_Float32
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ins
 -
@@ -20936,7 +20936,7 @@ isFloatArray
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ins
 -
@@ -20966,7 +20966,7 @@ type
 MIRType_Float32
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ins
 -

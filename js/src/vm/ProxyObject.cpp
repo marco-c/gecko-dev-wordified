@@ -217,7 +217,7 @@ clasp
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 proto
 .
@@ -244,7 +244,7 @@ compartment
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 parent
 cx

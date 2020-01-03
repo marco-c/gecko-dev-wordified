@@ -651,7 +651,7 @@ cx
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 data
 .
@@ -698,7 +698,7 @@ the
 Ion
 function
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 data
 .
@@ -912,7 +912,7 @@ freeOsrTempData
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 data
 .
@@ -1609,7 +1609,7 @@ compile
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 status
 =
@@ -1623,7 +1623,7 @@ hasBaselineScript
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 status
 !
@@ -4220,7 +4220,7 @@ PCMappingSlotInfo
 slotInfo
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 script
 -
@@ -4739,7 +4739,7 @@ pcMappingIndexEntry
 i
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isReturn
 nativeOffset
@@ -4791,7 +4791,7 @@ curPC
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isReturn
 nativeOffset

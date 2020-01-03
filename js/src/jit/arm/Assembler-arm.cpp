@@ -13207,7 +13207,7 @@ the
 same
 kind
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 vn
@@ -13223,7 +13223,7 @@ vn
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 vm
@@ -15951,7 +15951,7 @@ is
 totally
 unsupported
 !
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 i
 -

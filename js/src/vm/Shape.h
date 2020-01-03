@@ -3335,7 +3335,7 @@ hasTable
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 table_
 isOwned
@@ -5044,7 +5044,7 @@ Shape
 p
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 p
 &
@@ -5075,7 +5075,7 @@ maybeSlot
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 p
 &
@@ -6529,7 +6529,7 @@ isEmptyShape
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 JSID_IS_EMPTY
 (
@@ -7081,7 +7081,7 @@ shadowable
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isDataDescriptor
 (
@@ -8488,7 +8488,7 @@ slot
 SHAPE_INVALID_SLOT
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 attrs
 &
@@ -9119,7 +9119,7 @@ parent
 nullptr
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 attrs
 &

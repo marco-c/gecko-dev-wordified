@@ -5639,7 +5639,7 @@ has
 no
 uses
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 forLSRA
 inputOf
@@ -5681,7 +5681,7 @@ use
 all
 registers
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ins
 -
@@ -5933,7 +5933,7 @@ see
 bug
 1039993
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 forLSRA
 &
@@ -5969,7 +5969,7 @@ usedAtStart
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 forLSRA
 &
@@ -7092,7 +7092,7 @@ clear
 )
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 mblock
@@ -7474,7 +7474,7 @@ range
 to
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 prev
 prev

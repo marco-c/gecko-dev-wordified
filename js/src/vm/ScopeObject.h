@@ -657,7 +657,7 @@ allowGC
 CanGC
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 obj
 obj
@@ -724,7 +724,7 @@ allowGC
 NoGC
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 obj
 obj
@@ -2134,7 +2134,7 @@ isObjectOrNull
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 getFixedSlot
 (
@@ -3713,7 +3713,7 @@ bool
 aliased
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 i
 >
@@ -4084,7 +4084,7 @@ checkAliasing
 CHECK_ALIASING
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 staticBlock
@@ -4119,7 +4119,7 @@ checkAliasing
 CHECK_ALIASING
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 staticBlock

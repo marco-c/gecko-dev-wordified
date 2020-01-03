@@ -3170,7 +3170,7 @@ FinalizeKind
 ExtendedFinalizeKind
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isTenured
 (
@@ -3367,7 +3367,7 @@ kind
 =
 ExtendedFinalizeKind
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isTenured
 (

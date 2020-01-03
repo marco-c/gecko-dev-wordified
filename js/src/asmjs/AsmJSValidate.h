@@ -614,7 +614,7 @@ length
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 valid
 length
@@ -625,7 +625,7 @@ AsmJSPageSize
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 valid
 length

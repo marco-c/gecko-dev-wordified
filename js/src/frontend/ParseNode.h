@@ -7204,7 +7204,7 @@ isKind
 PNK_LABEL
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7215,7 +7215,7 @@ PN_NAME
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7344,7 +7344,7 @@ isKind
 PNK_CONTINUE
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7355,7 +7355,7 @@ PN_NULLARY
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7419,7 +7419,7 @@ isKind
 PNK_BREAK
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7430,7 +7430,7 @@ PN_NULLARY
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7494,7 +7494,7 @@ isKind
 PNK_CONTINUE
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7505,7 +7505,7 @@ PN_NULLARY
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7701,7 +7701,7 @@ isKind
 PNK_CONDITIONAL
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7712,7 +7712,7 @@ PN_TERNARY
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7884,7 +7884,7 @@ isKind
 PNK_REGEXP
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7895,7 +7895,7 @@ PN_NULLARY
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node
@@ -7999,7 +7999,7 @@ isKind
 PNK_DOT
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 match
 node

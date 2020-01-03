@@ -1261,7 +1261,7 @@ name_
 =
 name
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 name_
 name_
@@ -1299,7 +1299,7 @@ name
 "
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pod
 .
@@ -2326,7 +2326,7 @@ endOffsetInModule_
 =
 endOffsetInModule
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 maybeFieldName_
 name_
@@ -4877,7 +4877,7 @@ isFinishedWithModulePrologue
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 n
 n
@@ -4909,7 +4909,7 @@ isFinishedWithModulePrologue
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 n
 n
@@ -4941,7 +4941,7 @@ isFinishedWithModulePrologue
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 n
 n

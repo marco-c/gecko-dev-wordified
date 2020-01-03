@@ -1426,7 +1426,7 @@ return
 #
 ifdef
 JSGC_COMPACTING
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 MovingTracer
@@ -1559,7 +1559,7 @@ rt
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 thing
 -
@@ -1620,7 +1620,7 @@ GCMarker
 trc
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 gcMarker
 -
@@ -1655,7 +1655,7 @@ zone
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 gcMarker
 -
@@ -1799,7 +1799,7 @@ ArenaLists
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 IsThingPoisoned
 (
@@ -2291,7 +2291,7 @@ JS_ROOT_MARKING_ASSERT
 trc
 )
 \
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 IS_GC_MARKING_TRACER
 (
@@ -3305,7 +3305,7 @@ gc
 .
 nursery
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 rt
@@ -3452,7 +3452,7 @@ necessary
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 rt
@@ -4418,7 +4418,7 @@ Cell
 thingp
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cell
 -
@@ -6971,7 +6971,7 @@ rt
 thing
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 rt
 -
@@ -11583,7 +11583,7 @@ t
 have
 one
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 runtime
 (

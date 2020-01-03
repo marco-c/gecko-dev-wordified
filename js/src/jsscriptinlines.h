@@ -543,7 +543,7 @@ JSFunction
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 -

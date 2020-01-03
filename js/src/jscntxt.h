@@ -2239,7 +2239,7 @@ compartment
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 runtime_
 -
@@ -2270,7 +2270,7 @@ zone
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 compartment
@@ -2280,7 +2280,7 @@ compartment
 zone_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 compartment
 (
@@ -5300,7 +5300,7 @@ AutoAssertNoException
 (
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 hadException

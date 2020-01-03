@@ -3540,7 +3540,7 @@ isOsrArgumentsObject
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 def
 -
@@ -3655,7 +3655,7 @@ the
 scope
 chain
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 def
 -
@@ -6685,7 +6685,7 @@ use
 +
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 use
 -
@@ -7794,7 +7794,7 @@ before
 we
 enter
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 successorWithPhis_
 successorWithPhis_

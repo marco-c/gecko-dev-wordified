@@ -1004,7 +1004,7 @@ double
 year
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 IsFinite
 (

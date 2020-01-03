@@ -273,7 +273,7 @@ DeclEnvObject
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cacheable
 !
@@ -302,7 +302,7 @@ scopeChain
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 (
@@ -784,7 +784,7 @@ MaybeCheckAliasing
 checkAliasing
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 !
@@ -896,7 +896,7 @@ numFormalArgs
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 !
@@ -910,7 +910,7 @@ argsObjAliasesFormals
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 !
@@ -957,7 +957,7 @@ numActualArgs
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 !
@@ -971,7 +971,7 @@ argsObjAliasesFormals
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 &
@@ -4452,7 +4452,7 @@ Activation
 (
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isProfiling
 (
@@ -4716,7 +4716,7 @@ gen
 regs
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 entryFrame_
 -
@@ -4803,7 +4803,7 @@ interpreterStack
 frameCount_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 oldFrameCount_
 =

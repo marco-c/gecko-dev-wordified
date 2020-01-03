@@ -7826,7 +7826,7 @@ chains
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 proto
 .
@@ -8020,7 +8020,7 @@ id
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 JSID_IS_EMPTY
@@ -8258,7 +8258,7 @@ id
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 JSID_IS_EMPTY

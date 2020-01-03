@@ -2767,7 +2767,7 @@ the
 relevant
 src
 notes
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 offset
 >
@@ -2789,7 +2789,7 @@ after
 the
 current
 offset
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 offset
 >

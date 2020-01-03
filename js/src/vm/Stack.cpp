@@ -655,7 +655,7 @@ prevsp_
 =
 nullptr
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 evalInFramePrev
 isDebuggerFrame
@@ -1968,7 +1968,7 @@ isStrictEvalFrame
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 hasCallObj
 (
@@ -2202,7 +2202,7 @@ isHeavyweight
 (
 )
 )
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 hasCallObj
 (

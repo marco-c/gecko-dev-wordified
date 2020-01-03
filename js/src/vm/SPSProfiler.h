@@ -1370,7 +1370,7 @@ enabled
 (
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 enabled_
 installed
@@ -2506,7 +2506,7 @@ enabled
 return
 true
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frames
 .
@@ -2519,7 +2519,7 @@ callerPC
 nullptr
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 !
@@ -2534,7 +2534,7 @@ script
 nullptr
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 !

@@ -299,7 +299,7 @@ runtime
 >
 activeContext
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 activeContext
 cx
@@ -1499,7 +1499,7 @@ rval
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 alreadyThrowing
@@ -1589,7 +1589,7 @@ rval
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 alreadyThrowing
@@ -1839,7 +1839,7 @@ callee
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 native
 !
@@ -2330,7 +2330,7 @@ SetPendingExceptionCrossContext
 to
 work
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 v
 .
@@ -2546,7 +2546,7 @@ in
 exclusive
 zones
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 isJSContext
@@ -2582,7 +2582,7 @@ enter
 exclusive
 zones
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isJSContext
 (
@@ -2617,7 +2617,7 @@ at
 a
 time
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 runtime_
 -
@@ -2647,7 +2647,7 @@ its
 own
 zone
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 comp
 &
@@ -2696,7 +2696,7 @@ at
 this
 point
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 compartment_
 compartment_
@@ -2707,7 +2707,7 @@ hasBeenEntered
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 comp
 comp

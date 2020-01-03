@@ -595,7 +595,7 @@ m_refCount
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 willDestroy
 m_refCount
@@ -1190,7 +1190,7 @@ a
 pool
 leak
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 m_pools
 .

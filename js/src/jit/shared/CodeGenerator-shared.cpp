@@ -1020,7 +1020,7 @@ setBytecodeSite
 site
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 gen
@@ -1138,7 +1138,7 @@ currentOffset
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 nativeToBytecodeList_
 .
@@ -4557,7 +4557,7 @@ offsets
 decrease
 monotonically
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 i
 >
@@ -4944,7 +4944,7 @@ LInstruction
 ins
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 safepointIndices_
@@ -6892,7 +6892,7 @@ have
 an
 FPU
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 .
@@ -6957,7 +6957,7 @@ toInstruction
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 mir
 -

@@ -493,7 +493,7 @@ allowed
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 adding
 cx
@@ -580,7 +580,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 hasDefaultSetter
 (
@@ -1330,7 +1330,7 @@ psetter
 psetter_
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 attrs
 &
@@ -1343,7 +1343,7 @@ pgetter
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 attrs
 &

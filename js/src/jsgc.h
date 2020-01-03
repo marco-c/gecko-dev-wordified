@@ -1925,7 +1925,7 @@ MOZ_ASSERT
 aheader
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 head
 head
@@ -2609,7 +2609,7 @@ have
 this
 form
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 head_
@@ -2644,7 +2644,7 @@ cursor
 *
 cursorp_
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cursor
 cursor
@@ -7816,7 +7816,7 @@ T
 t
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 t
 !
@@ -7829,7 +7829,7 @@ t
 #
 ifdef
 JSGC_COMPACTING
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 t
 !

@@ -8406,7 +8406,7 @@ int
 loc2
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 loc1
 !

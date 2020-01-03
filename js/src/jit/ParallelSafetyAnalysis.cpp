@@ -5220,7 +5220,7 @@ if
 target
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 target

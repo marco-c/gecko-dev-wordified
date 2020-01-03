@@ -8954,7 +8954,7 @@ alsr
 srt
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pt
 -

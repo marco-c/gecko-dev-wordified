@@ -1434,7 +1434,7 @@ failure
 return
 type
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 outParam
 !

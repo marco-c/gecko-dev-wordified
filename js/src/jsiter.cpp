@@ -6648,7 +6648,7 @@ with
 JSITER_FOREACH
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 flags
 &

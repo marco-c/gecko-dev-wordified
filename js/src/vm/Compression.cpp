@@ -601,7 +601,7 @@ return
 MOREOUTPUT
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 done
@@ -611,7 +611,7 @@ ret
 Z_OK
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 done
 ret

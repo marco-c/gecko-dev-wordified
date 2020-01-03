@@ -206,7 +206,7 @@ on
 the
 object
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 hasSingletonType
 (
@@ -602,7 +602,7 @@ onNamedLambda
 true
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 obj
 obj
@@ -629,7 +629,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 onNamedLambda
 obj

@@ -22846,7 +22846,7 @@ always
 be
 zero
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 IsSizeDefined
 (
@@ -38987,7 +38987,7 @@ array
 if
 any
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 argTypes
 .
@@ -44340,7 +44340,7 @@ ownResult
 source
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 refObj
 &

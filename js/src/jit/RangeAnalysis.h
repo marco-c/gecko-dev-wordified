@@ -1539,7 +1539,7 @@ in
 some
 places
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 hasInt32LowerBound_
@@ -1549,7 +1549,7 @@ lower_
 JSVAL_INT_MIN
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 hasInt32UpperBound_
@@ -1698,7 +1698,7 @@ has
 exponent
 1
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 hasInt32LowerBound_

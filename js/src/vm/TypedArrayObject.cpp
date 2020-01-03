@@ -2059,7 +2059,7 @@ HandleObject
 proto
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 buffer
@@ -2266,7 +2266,7 @@ byteLength
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 buffer

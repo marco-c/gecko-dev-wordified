@@ -852,7 +852,7 @@ JSFunction
 :
 nullptr
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 &
@@ -3054,7 +3054,7 @@ base
 ;
 #
 endif
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 construct
 !
@@ -3141,7 +3141,7 @@ JSFunction
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 construct
 !
@@ -3298,7 +3298,7 @@ cx
 state
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ok
 &
@@ -4053,7 +4053,7 @@ Value
 result
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 evalInFrame
 type
@@ -4062,7 +4062,7 @@ type
 EXECUTE_DEBUG
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 type
 =
@@ -4294,7 +4294,7 @@ cx
 s
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 s
@@ -9535,7 +9535,7 @@ cx
 )
 ;
 \
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 script
 -

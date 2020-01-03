@@ -6640,7 +6640,7 @@ FreeSpan
 span
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 span
@@ -8077,7 +8077,7 @@ thing
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 thing
 MapAllocToTraceKind

@@ -650,7 +650,7 @@ mergeable
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 InvisibleKeysOk
@@ -892,7 +892,7 @@ lookup
 zone
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 p
 p
@@ -1416,7 +1416,7 @@ frame
 frame
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 UncheckedUnwrap
@@ -5643,7 +5643,7 @@ GlobalObject
 compileAndGoGlobal
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 script
 -
@@ -5654,7 +5654,7 @@ compileAndGo
 compileAndGoGlobal
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 script
 -
@@ -5698,7 +5698,7 @@ our
 assertion
 here
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 script
@@ -5736,7 +5736,7 @@ compartment
 firedOnNewGlobalObject
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 script

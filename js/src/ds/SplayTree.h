@@ -1548,7 +1548,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 node
@@ -1561,7 +1561,7 @@ node
 root
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 minimum
 C

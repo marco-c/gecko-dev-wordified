@@ -8490,7 +8490,7 @@ vector
 count
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 count
 !
@@ -20683,7 +20683,7 @@ length
 return
 false
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cap
 !

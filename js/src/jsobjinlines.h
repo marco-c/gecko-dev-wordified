@@ -2540,7 +2540,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cx
 -
@@ -3589,7 +3589,7 @@ ArrayObject
 class_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 ClassCanHaveFixedData
@@ -3627,7 +3627,7 @@ numFixedSlots
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 type
 -
@@ -3646,7 +3646,7 @@ kind
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 type
 -
@@ -4206,7 +4206,7 @@ ArrayObject
 class_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 type
 -
@@ -7663,7 +7663,7 @@ GetBackgroundAllocKind
 allocKind
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 baseobj
 -

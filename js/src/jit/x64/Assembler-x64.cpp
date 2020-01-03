@@ -1185,7 +1185,7 @@ tracked
 for
 GC
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 jumpRelocations_
 .

@@ -217,7 +217,7 @@ JSScript
 script
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 callerTree
@@ -225,7 +225,7 @@ callerTree
 callerPc
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 callerTree
 callerTree

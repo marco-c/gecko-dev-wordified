@@ -5372,7 +5372,7 @@ phaseNestingDepth
 MAX_NESTING
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 gcDepth
 =

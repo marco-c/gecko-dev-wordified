@@ -5476,7 +5476,7 @@ flags_
 &
 GENERATOR
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ret
 isNonEvalFunctionFrame

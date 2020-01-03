@@ -5869,7 +5869,7 @@ holder
 shape
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 callNative
@@ -14852,7 +14852,7 @@ holder
 shape
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 callNative
@@ -16974,7 +16974,7 @@ bool
 checkTypeset
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 needsTypeBarrier
@@ -19471,7 +19471,7 @@ bool
 checkTypeset
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 needsTypeBarrier
@@ -25046,7 +25046,7 @@ Scalar
 Float32
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 hasUnaliasedDouble
 (

@@ -3927,7 +3927,7 @@ Abs
 si
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 si
 =
@@ -8330,7 +8330,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 base
 =
@@ -8361,7 +8361,7 @@ cbuf
 sbufSize
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 base
 !

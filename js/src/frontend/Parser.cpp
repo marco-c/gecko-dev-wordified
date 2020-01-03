@@ -883,7 +883,7 @@ isUsed
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -1145,7 +1145,7 @@ pn_dflags
 PND_CLOSED
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 kind
 !
@@ -2361,7 +2361,7 @@ that
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 dn
 -
@@ -7847,7 +7847,7 @@ JSObject
 proto
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 kind
 =
@@ -10365,7 +10365,7 @@ getToken
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 parenFreeArrow
 tt
@@ -11718,7 +11718,7 @@ functionIsHoisted
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pc
 -
@@ -11740,7 +11740,7 @@ isFree
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 pc
@@ -13421,7 +13421,7 @@ GeneratorKind
 generatorKind
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 kind
 =
@@ -13733,7 +13733,7 @@ to
 prevent
 reparsing
 iloops
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 directives
 .
@@ -13747,7 +13747,7 @@ strict
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 directives
 .
@@ -20338,7 +20338,7 @@ lookupMulti
 name
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 stmt
 !
@@ -23872,7 +23872,7 @@ expression
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 psimple
 *
@@ -25675,7 +25675,7 @@ letBlock
 LetStatement
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 pn
@@ -28797,7 +28797,7 @@ null
 ;
 }
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isForDecl
 pn1

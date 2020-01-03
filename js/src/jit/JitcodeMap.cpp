@@ -850,7 +850,7 @@ non
 query
 lookups
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 ent1
@@ -1900,7 +1900,7 @@ ENC1_PC_DELTA_MASK
 >
 ENC1_PC_DELTA_SHIFT
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 *
 nativeDelta
@@ -1986,7 +1986,7 @@ pcDelta
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 *
 nativeDelta
@@ -2104,7 +2104,7 @@ pcDelta
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 *
 nativeDelta
@@ -2229,7 +2229,7 @@ pcDelta
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 *
 nativeDelta
@@ -3158,7 +3158,7 @@ spewAndAdvance
 "
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 i
 <

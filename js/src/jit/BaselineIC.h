@@ -8965,7 +8965,7 @@ type
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 existingStub_
 flags_

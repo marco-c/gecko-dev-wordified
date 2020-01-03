@@ -3894,7 +3894,7 @@ bailouts
 Fallback
 to
 sequential
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 IsBaselineEnabled

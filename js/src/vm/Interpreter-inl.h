@@ -246,7 +246,7 @@ AbstractFramePtr
 frame
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 .
@@ -523,7 +523,7 @@ wrapped
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 .
@@ -2254,7 +2254,7 @@ pc
 JSOP_SETGNAME
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 *
 pc

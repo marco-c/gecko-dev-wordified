@@ -1111,7 +1111,7 @@ iter
 +
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 iter
 -
@@ -1173,7 +1173,7 @@ iter
 +
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 iter
 -
@@ -4776,7 +4776,7 @@ as
 this
 one
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 firstMonitorStub_
 -
@@ -7707,7 +7707,7 @@ at
 loop
 entry
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 isLoopEntry
@@ -8470,7 +8470,7 @@ the
 profile
 string
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 icEntry
 -
@@ -8972,7 +8972,7 @@ lastMonitorStubPtrAddr_
 =
 nullptr
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 wasDetachedMonitorChain
 numOptimizedMonitorStubs_
@@ -22441,7 +22441,7 @@ isDOMProxy
 false
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isDOMProxy
 IsCacheableDOMProxy
@@ -22450,7 +22450,7 @@ obj
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 isDOMProxy
@@ -55917,7 +55917,7 @@ vp
 return
 true
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 stub
 -

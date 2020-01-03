@@ -4094,7 +4094,7 @@ the
 scope
 chain
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 -
@@ -6624,7 +6624,7 @@ tt
 =
 TOK_LC
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 -
@@ -7315,7 +7315,7 @@ or
 expression
 closures
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 funCon
 !
@@ -7327,14 +7327,14 @@ isArrow
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 funCon
 !
 exprBody
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 funCon
@@ -13770,7 +13770,7 @@ getParent
 parent
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 native
 funobj

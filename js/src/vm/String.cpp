@@ -3435,7 +3435,7 @@ HandleType
 right
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 left
@@ -3453,7 +3453,7 @@ left
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 right

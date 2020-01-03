@@ -1663,7 +1663,7 @@ callerFrame
 .
 *
 /
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 evalCaller
 options
@@ -1671,7 +1671,7 @@ options
 compileAndGo
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 evalCaller
 options
@@ -1679,7 +1679,7 @@ options
 forEval
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 staticLevel
 !
@@ -1700,7 +1700,7 @@ srcBuf
 return
 nullptr
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 staticLevel
 !
@@ -2046,7 +2046,7 @@ scopeChain
 :
 nullptr
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 globalScope
 globalScope
@@ -2057,7 +2057,7 @@ isNative
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 globalScope
 JSCLASS_HAS_GLOBAL_FLAG_AND_SLOTS
@@ -4352,7 +4352,7 @@ to
 prevent
 reparsing
 iloops
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 directives
 .
@@ -4366,7 +4366,7 @@ strict
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 directives
 .

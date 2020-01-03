@@ -6239,7 +6239,7 @@ getJitInfo
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 jitInfo
 -
@@ -26421,7 +26421,7 @@ the
 compiled
 code
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 (
 *

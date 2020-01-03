@@ -3702,7 +3702,7 @@ get
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 enclosingScript
 enclosingScript
@@ -11465,7 +11465,7 @@ ScriptSource
 (
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 inCompressedSourceSet
 dataType
@@ -20729,7 +20729,7 @@ nconsts
 +
 i
 )
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 vector
 [
@@ -21039,7 +21039,7 @@ compartment
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 script
 -
@@ -22321,7 +22321,7 @@ fullyInitTrivial
 (
 )
 .
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 IS_GC_MARKING_TRACER
 (
@@ -23223,7 +23223,7 @@ bool
 needsArgsObj
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 needsArgsObj
 argumentsHasVarBinding
@@ -24285,7 +24285,7 @@ sourceObject_
 enclosingScope_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 enclosingScope
 function_
@@ -24655,7 +24655,7 @@ lineno
 column
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 res
 res

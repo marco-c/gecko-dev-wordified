@@ -345,7 +345,7 @@ JitFrame_Exit
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 res
 type
