@@ -999,7 +999,7 @@ loop
 .
 config
 .
-roomsSupportUrl
+generalSupportUrl
 }
 React
 .
