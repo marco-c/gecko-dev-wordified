@@ -510,7 +510,7 @@ InitStubs
 (
 JNIEnv
 *
-jEnv
+env
 )
 ;
 \
@@ -653,7 +653,7 @@ InitStubs
 (
 JNIEnv
 *
-jEnv
+env
 )
 {
 \
@@ -757,7 +757,7 @@ append
 :
 InitStubs
 (
-jEnv
+env
 )
 ;
 \
