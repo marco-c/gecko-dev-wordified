@@ -2760,16 +2760,6 @@ return
 false
 ;
 }
-MOZ_ASSERT
-(
-!
-types
-.
-empty
-(
-)
-)
-;
 for
 (
 size_t
