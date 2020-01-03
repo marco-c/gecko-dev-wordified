@@ -16923,7 +16923,7 @@ DECODER_LOG
 (
 "
 Dispatching
-CallReadMetadata
+AsyncReadMetadata
 "
 )
 ;
@@ -16946,7 +16946,7 @@ __func__
 MediaDecoderReader
 :
 :
-CallReadMetadata
+AsyncReadMetadata
 )
 -
 >
