@@ -263,13 +263,6 @@ uint32_t
 aLength
 )
 ;
-nsresult
-SeekInternal
-(
-int64_t
-aTime
-)
-;
 RawVideoHeader
 mMetadata
 ;
