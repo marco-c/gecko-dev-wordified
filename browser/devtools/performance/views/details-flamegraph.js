@@ -348,6 +348,17 @@ flattenRecursion
 Prefs
 .
 flattenTreeRecursion
+filterFrames
+:
+!
+Prefs
+.
+showPlatformData
+&
+&
+FrameNode
+.
+isContent
 }
 )
 ;
