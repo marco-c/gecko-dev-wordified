@@ -169,12 +169,6 @@ HTMLHeadingElement
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED
-(
-HTMLHeadingElement
-nsGenericHTMLElement
-nsIDOMHTMLHeadingElement
-)
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLHeadingElement
@@ -212,12 +206,6 @@ aGivenProto
 )
 ;
 }
-NS_IMPL_STRING_ATTR
-(
-HTMLHeadingElement
-Align
-align
-)
 bool
 HTMLHeadingElement
 :
