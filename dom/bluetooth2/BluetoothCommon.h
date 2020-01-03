@@ -1324,7 +1324,12 @@ with
 local
 bluetooth
 adapter
+or
 *
+pairing
+process
+is
+aborted
 we
 '
 ll
@@ -1345,6 +1350,12 @@ define
 DEVICE_UNPAIRED_ID
 "
 deviceunpaired
+"
+#
+define
+PAIRING_ABORTED_ID
+"
+pairingaborted
 "
 /
 *
