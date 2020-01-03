@@ -7293,6 +7293,15 @@ mInputFrameType
 =
 =
 FRAME_TYPE_HEADERS
+|
+|
+self
+-
+>
+mInputFrameType
+=
+=
+FRAME_TYPE_CONTINUATION
 )
 ;
 bool
