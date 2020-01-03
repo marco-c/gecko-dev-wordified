@@ -4727,6 +4727,15 @@ MOZ_ANDROID_APZ
 )
 if
 (
+metrics
+.
+IsRootContent
+(
+)
+)
+{
+if
+(
 mIsFirstPaint
 )
 {
@@ -4773,8 +4782,6 @@ mContentRect
 )
 ;
 }
-#
-endif
 mIsFirstPaint
 =
 false
@@ -4783,6 +4790,9 @@ mLayersUpdated
 =
 false
 ;
+}
+#
+endif
 /
 /
 Transform
