@@ -1480,6 +1480,11 @@ StartBuffering
 (
 )
 ;
+bool
+CanPlayThrough
+(
+)
+;
 public
 :
 void
