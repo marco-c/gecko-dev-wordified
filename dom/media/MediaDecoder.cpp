@@ -8374,6 +8374,10 @@ aBuffered
 NS_ENSURE_TRUE
 (
 mDecoderStateMachine
+&
+&
+!
+mShuttingDown
 NS_ERROR_FAILURE
 )
 ;
