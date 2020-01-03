@@ -41162,7 +41162,7 @@ eKeyDown
 ?
 eAfterKeyDown
 :
-NS_KEY_AFTER_UP
+eAfterKeyUp
 ;
 bool
 embeddedCancelled

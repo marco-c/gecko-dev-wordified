@@ -1186,7 +1186,7 @@ eBeforeAfterKeyboardEventClass
 NON_IDL_EVENT
 (
 mozbrowserafterkeyup
-NS_KEY_AFTER_UP
+eAfterKeyUp
 EventNameType_None
 eBeforeAfterKeyboardEventClass
 )

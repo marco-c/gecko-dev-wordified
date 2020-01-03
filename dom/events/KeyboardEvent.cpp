@@ -690,7 +690,7 @@ case
 eKeyUp
 :
 case
-NS_KEY_AFTER_UP
+eAfterKeyUp
 :
 return
 0
@@ -869,7 +869,7 @@ case
 eKeyUp
 :
 case
-NS_KEY_AFTER_UP
+eAfterKeyUp
 :
 return
 KeyCode

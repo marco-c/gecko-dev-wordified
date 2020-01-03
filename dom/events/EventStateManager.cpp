@@ -4281,7 +4281,7 @@ case
 eKeyUp
 :
 case
-NS_KEY_AFTER_UP
+eAfterKeyUp
 :
 {
 nsIContent
@@ -20736,7 +20736,7 @@ case
 eKeyUp
 :
 case
-NS_KEY_AFTER_UP
+eAfterKeyUp
 :
 break
 ;
