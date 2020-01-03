@@ -1039,7 +1039,7 @@ of
 sites
 timestamps
 frames
-counts
+sizes
 }
 arrays
 .
@@ -1088,6 +1088,7 @@ let
 sites
 timestamps
 frames
+sizes
 }
 =
 allocations
@@ -1627,6 +1628,7 @@ Schema
 [
 stack
 time
+size
 ]
 /
 /
@@ -1699,6 +1701,10 @@ writePos
 [
 stackIndex
 timestamps
+[
+i
+]
+sizes
 [
 i
 ]
@@ -1780,6 +1786,11 @@ slot
 +
 +
 time
+:
+slot
++
++
+size
 :
 slot
 +

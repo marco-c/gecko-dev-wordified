@@ -943,6 +943,10 @@ frames
 :
 [
 ]
+sizes
+:
+[
+]
 }
 profile
 :
