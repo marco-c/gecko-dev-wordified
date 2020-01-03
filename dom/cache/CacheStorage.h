@@ -578,6 +578,17 @@ override
 ;
 #
 endif
+virtual
+CachePushStreamChild
+*
+CreatePushStream
+(
+nsIAsyncInputStream
+*
+aStream
+)
+override
+;
 /
 /
 PromiseNativeHandler

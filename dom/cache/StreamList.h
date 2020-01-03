@@ -170,6 +170,7 @@ Manager
 ;
 class
 StreamList
+final
 {
 public
 :

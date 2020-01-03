@@ -515,6 +515,17 @@ override
 ;
 #
 endif
+virtual
+CachePushStreamChild
+*
+CreatePushStream
+(
+nsIAsyncInputStream
+*
+aStream
+)
+override
+;
 Listener
 *
 mListener

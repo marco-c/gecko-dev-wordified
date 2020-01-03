@@ -170,6 +170,7 @@ StreamList
 ;
 class
 CacheStreamControlParent
+final
 :
 public
 PCacheStreamControlParent
