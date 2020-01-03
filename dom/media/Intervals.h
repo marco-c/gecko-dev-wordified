@@ -2819,7 +2819,8 @@ values
 by
 aOffset
 .
-void
+SelfType
+&
 Shift
 (
 const
@@ -2858,6 +2859,10 @@ mEnd
 aOffset
 ;
 }
+return
+*
+this
+;
 }
 void
 SetFuzz
