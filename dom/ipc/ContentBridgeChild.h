@@ -255,6 +255,10 @@ PBrowserChild
 *
 aActor
 const
+TabId
+&
+aTabId
+const
 IPCTabContext
 &
 aContext
@@ -290,6 +294,10 @@ PBrowserChild
 *
 AllocPBrowserChild
 (
+const
+TabId
+&
+aTabId
 const
 IPCTabContext
 &
@@ -329,6 +337,10 @@ RecvPBrowserConstructor
 PBrowserChild
 *
 aCctor
+const
+TabId
+&
+aTabId
 const
 IPCTabContext
 &

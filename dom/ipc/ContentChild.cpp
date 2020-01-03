@@ -5673,6 +5673,10 @@ ContentChild
 AllocPBrowserChild
 (
 const
+TabId
+&
+aTabId
+const
 IPCTabContext
 &
 aContext
@@ -5700,6 +5704,7 @@ nsIContentChild
 :
 AllocPBrowserChild
 (
+aTabId
 aContext
 aChromeFlags
 aCpID
@@ -5717,6 +5722,10 @@ SendPBrowserConstructor
 PBrowserChild
 *
 aActor
+const
+TabId
+&
+aTabId
 const
 IPCTabContext
 &
@@ -5746,6 +5755,7 @@ PContentChild
 SendPBrowserConstructor
 (
 aActor
+aTabId
 aContext
 aChromeFlags
 aCpID
@@ -5763,6 +5773,10 @@ RecvPBrowserConstructor
 PBrowserChild
 *
 aActor
+const
+TabId
+&
+aTabId
 const
 IPCTabContext
 &
