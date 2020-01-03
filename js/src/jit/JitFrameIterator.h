@@ -231,7 +231,6 @@ JitFrame_BaselineJS
 Frame
 pushed
 for
-baseline
 JIT
 stubs
 that
@@ -254,6 +253,7 @@ mapping
 works
 .
 JitFrame_BaselineStub
+JitFrame_IonStub
 /
 /
 The
@@ -354,6 +354,7 @@ unwinding
 JitFrame_Unwound_BaselineJS
 JitFrame_Unwound_IonJS
 JitFrame_Unwound_BaselineStub
+JitFrame_Unwound_IonStub
 JitFrame_Unwound_Rectifier
 JitFrame_Unwound_IonAccessorIC
 /
@@ -978,6 +979,19 @@ type_
 =
 =
 JitFrame_IonJS
+;
+}
+bool
+isIonStub
+(
+)
+const
+{
+return
+type_
+=
+=
+JitFrame_IonStub
 ;
 }
 bool
