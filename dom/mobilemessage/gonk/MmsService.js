@@ -2739,9 +2739,11 @@ rilContext
 cardState
 !
 =
-"
-ready
-"
+Ci
+.
+nsIIccProvider
+.
+CARD_STATE_READY
 )
 {
 if
