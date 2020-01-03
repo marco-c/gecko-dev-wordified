@@ -2725,7 +2725,7 @@ aVisibleRegion
 ;
 #
 ifndef
-MOZ_GFX_OPTIMIZE_MOBILE
+MOZ_IGNORE_PAINT_WILL_RESAMPLE
 if
 (
 PaintWillResample
