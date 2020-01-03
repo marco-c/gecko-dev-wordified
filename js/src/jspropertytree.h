@@ -578,15 +578,6 @@ compartment_
 }
 Shape
 *
-newShape
-(
-ExclusiveContext
-*
-cx
-)
-;
-Shape
-*
 getChild
 (
 ExclusiveContext
