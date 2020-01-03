@@ -14433,9 +14433,12 @@ resolve
 ;
 handler
 =
-handler
+Cu
 .
-wrappedJSObject
+waiveXrays
+(
+handler
+)
 ;
 let
 sp
