@@ -207,9 +207,6 @@ Class
 clasp
 JSObject
 *
-parent
-JSObject
-*
 metadata
 uint32_t
 objectFlags
@@ -222,10 +219,6 @@ objectFlags
 clasp
 (
 clasp
-)
-parent
-(
-parent
 )
 metadata
 (

@@ -1250,12 +1250,6 @@ TaggedProto
 (
 proto
 )
-cx
--
->
-global
-(
-)
 metadata
 FINALIZE_KIND
 BaseShape

@@ -452,7 +452,7 @@ ANY
 edge
 :
 "
-parent
+global
 "
 }
 {
