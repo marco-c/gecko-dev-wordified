@@ -210,7 +210,8 @@ date
 return
 1
         
-if
+repo_existed
+=
 os
 .
 path
@@ -221,15 +222,14 @@ self
 .
 vcs_tools_dir
 )
-:
-            
+        
 self
 .
 update_mercurial_repo
 (
-                
+            
 hg
-                
+            
 '
 https
 :
@@ -249,15 +249,15 @@ control
 -
 tools
 '
-                
+            
 self
 .
 vcs_tools_dir
-                
+            
 '
 default
 '
-                
+            
 '
 Ensuring
 version
@@ -275,6 +275,10 @@ date
 '
 )
         
+if
+repo_existed
+:
+            
 print
 (
 FINISHED
