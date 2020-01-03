@@ -5,6 +5,7 @@ usr
 /
 bin
 /
+env
 python
 #
 This
@@ -134,27 +135,21 @@ ee_ext_text
 =
 '
 '
-generated_ev_root_filenames
-=
-[
-]
 generated_certs
 =
 [
 ]
 def
-generate_and_maybe_import_cert
+generate_cert
 (
 key_type
 cert_name_prefix
 cert_name_suffix
-                                   
 base_ext_text
+                  
 signer_key_filename
-                                   
 signer_cert_filename
 key_size
-generate_ev
 )
 :
     
@@ -165,15 +160,6 @@ generate_ev
 Generates
 a
 certificate
-and
-imports
-it
-into
-the
-NSS
-DB
-if
-appropriate
 .
     
 If
@@ -358,17 +344,6 @@ size
 for
 RSA
 certs
-      
-generate_ev
--
--
-whether
-an
-EV
-cert
-should
-be
-generated
     
 Output
 :
@@ -493,46 +468,6 @@ key_size
 )
 )
     
-if
-generate_ev
-:
-        
-cert_name
-=
-'
-ev_
-'
-+
-cert_name
-        
-ev_ext_text
-=
-(
-CertUtils
-.
-aia_prefix
-+
-cert_name
-+
-CertUtils
-.
-aia_suffix
-+
-                       
-CertUtils
-.
-mozilla_testing_ev_policy
-)
-        
-subject_string
-+
-=
-'
-(
-EV
-)
-'
-    
 #
 Use
 the
@@ -557,109 +492,6 @@ O
 '
 +
 cert_name
-    
-#
-Reuse
-the
-existing
-RSA
-EV
-root
-    
-if
-(
-generate_ev
-and
-key_type
-=
-=
-'
-rsa
-'
-and
-signer_key_filename
-=
-=
-'
-'
-            
-and
-signer_cert_filename
-=
-=
-'
-'
-and
-key_size
-=
-=
-'
-2048
-'
-)
-:
-        
-cert_name
-=
-'
-evroot
-'
-        
-key_filename
-=
-'
-.
-.
-/
-test_ev_certs
-/
-evroot
-.
-key
-'
-        
-cert_filename
-=
-'
-.
-.
-/
-test_ev_certs
-/
-evroot
-.
-der
-'
-        
-CertUtils
-.
-import_cert_and_pkcs12
-(
-srcdir
-cert_filename
-                                         
-'
-.
-.
-/
-test_ev_certs
-/
-evroot
-.
-p12
-'
-                                         
-cert_name
-'
-'
-)
-        
-return
-[
-cert_name
-key_filename
-cert_filename
-]
     
 #
 Don
@@ -751,83 +583,6 @@ cert_filename
 ]
 )
     
-if
-generate_ev
-:
-        
-#
-The
-dest_dir
-argument
-of
-generate_pkcs12
-(
-)
-is
-also
-set
-to
-db_dir
-as
-        
-#
-the
-.
-p12
-files
-do
-not
-need
-to
-be
-kept
-once
-they
-have
-been
-imported
-.
-        
-pkcs12_filename
-=
-CertUtils
-.
-generate_pkcs12
-(
-db_dir
-db_dir
-                                                    
-cert_filename
-key_filename
-                                                    
-cert_name
-)
-        
-CertUtils
-.
-import_cert_and_pkcs12
-(
-srcdir
-cert_filename
-pkcs12_filename
-                                         
-cert_name
-'
-'
-)
-        
-if
-not
-signer_key_filename
-:
-            
-generated_ev_root_filenames
-.
-append
-(
-cert_filename
-)
-    
 return
 [
 cert_name
@@ -844,7 +599,6 @@ int_key_size
                         
 ee_key_type
 ee_key_size
-generate_ev
 )
 :
     
@@ -856,18 +610,6 @@ Generates
 a
 certificate
 chain
-and
-imports
-the
-individual
-certificates
-into
-    
-the
-NSS
-DB
-if
-appropriate
 .
     
 Arguments
@@ -929,16 +671,6 @@ the
 relevant
 cert
     
-generate_ev
--
--
-whether
-EV
-certs
-should
-be
-generated
-    
 "
 "
 "
@@ -949,7 +681,7 @@ root_key_file
 root_cert_file
 ]
 =
-generate_and_maybe_import_cert
+generate_cert
 (
         
 root_key_type
@@ -970,8 +702,6 @@ ca_ext_text
 '
         
 root_key_size
-        
-generate_ev
 )
     
 [
@@ -980,7 +710,7 @@ int_key_file
 int_cert_file
 ]
 =
-generate_and_maybe_import_cert
+generate_cert
 (
         
 int_key_type
@@ -998,11 +728,9 @@ root_key_file
 root_cert_file
         
 int_key_size
-        
-generate_ev
 )
     
-generate_and_maybe_import_cert
+generate_cert
 (
         
 ee_key_type
@@ -1020,15 +748,12 @@ int_key_file
 int_cert_file
         
 ee_key_size
-        
-generate_ev
 )
 def
 generate_rsa_chains
 (
 inadequate_key_size
 adequate_key_size
-generate_ev
 )
 :
     
@@ -1088,16 +813,6 @@ for
 the
 generated
 certs
-      
-generate_ev
--
--
-whether
-EV
-certs
-should
-be
-generated
     
 "
 "
@@ -1129,8 +844,6 @@ adequate_key_size
 rsa
 '
 adequate_key_size
-                        
-generate_ev
 )
     
 #
@@ -1162,8 +875,6 @@ adequate_key_size
 rsa
 '
 adequate_key_size
-                        
-generate_ev
 )
     
 #
@@ -1195,8 +906,6 @@ inadequate_key_size
 rsa
 '
 adequate_key_size
-                        
-generate_ev
 )
     
 #
@@ -1229,8 +938,6 @@ adequate_key_size
 rsa
 '
 inadequate_key_size
-                        
-generate_ev
 )
 def
 generate_ecc_chains
@@ -1260,8 +967,6 @@ secp521r1
 '
 521
 '
-                        
-False
 )
     
 generate_cert_chain
@@ -1286,8 +991,6 @@ prime256v1
 '
 256
 '
-                        
-False
 )
     
 generate_cert_chain
@@ -1312,8 +1015,6 @@ secp224r1
 '
 224
 '
-                        
-False
 )
     
 generate_cert_chain
@@ -1338,8 +1039,6 @@ prime256v1
 '
 256
 '
-                        
-False
 )
     
 generate_cert_chain
@@ -1364,8 +1063,6 @@ secp256k1
 '
 256
 '
-                        
-False
 )
     
 generate_cert_chain
@@ -1390,8 +1087,6 @@ prime256v1
 '
 256
 '
-                        
-False
 )
 def
 generate_combination_chains
@@ -1421,8 +1116,6 @@ secp384r1
 '
 384
 '
-                        
-False
 )
     
 generate_cert_chain
@@ -1447,8 +1140,6 @@ secp224r1
 '
 224
 '
-                        
-False
 )
     
 generate_cert_chain
@@ -1473,26 +1164,6 @@ prime256v1
 '
 256
 '
-                        
-False
-)
-#
-Create
-a
-NSS
-DB
-for
-use
-by
-the
-OCSP
-responder
-.
-CertUtils
-.
-init_nss_db
-(
-srcdir
 )
 generate_rsa_chains
 (
@@ -1502,7 +1173,6 @@ generate_rsa_chains
 '
 1024
 '
-False
 )
 generate_ecc_chains
 (
