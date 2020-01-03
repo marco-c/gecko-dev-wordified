@@ -140,7 +140,7 @@ include
 "
 mozilla
 /
-Vector
+Snprintf
 .
 h
 "
@@ -149,7 +149,7 @@ include
 "
 mozilla
 /
-Snprintf
+Vector
 .
 h
 "
