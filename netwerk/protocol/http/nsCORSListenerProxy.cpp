@@ -7176,7 +7176,10 @@ aRequestingPrincipal
 }
 }
 nsresult
-NS_StartCORSPreflight
+nsCORSListenerProxy
+:
+:
+StartCORSPreflight
 (
 nsIChannel
 *
