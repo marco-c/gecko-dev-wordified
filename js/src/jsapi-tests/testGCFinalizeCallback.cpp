@@ -185,6 +185,7 @@ JS
 StartIncrementalGC
 (
 rt
+GC_NORMAL
 JS
 :
 :
@@ -328,6 +329,7 @@ JS
 GCForReason
 (
 rt
+GC_NORMAL
 JS
 :
 :
@@ -433,6 +435,7 @@ JS
 GCForReason
 (
 rt
+GC_NORMAL
 JS
 :
 :
@@ -510,6 +513,7 @@ JS
 StartIncrementalGC
 (
 rt
+GC_NORMAL
 JS
 :
 :
@@ -627,6 +631,7 @@ JS
 StartIncrementalGC
 (
 rt
+GC_NORMAL
 JS
 :
 :
