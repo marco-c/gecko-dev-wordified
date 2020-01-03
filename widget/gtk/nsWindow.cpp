@@ -5235,7 +5235,6 @@ width
 mBounds
 .
 height
-false
 )
 ;
 }
@@ -5253,7 +5252,6 @@ width
 mBounds
 .
 height
-false
 )
 ;
 }
@@ -5554,7 +5552,6 @@ width
 mBounds
 .
 height
-aRepaint
 )
 ;
 else
@@ -5566,7 +5563,6 @@ width
 mBounds
 .
 height
-aRepaint
 )
 ;
 /
@@ -5769,7 +5765,6 @@ NativeResize
 (
 width
 height
-aRepaint
 )
 ;
 }
@@ -6026,7 +6021,6 @@ x
 y
 width
 height
-aRepaint
 )
 ;
 /
@@ -6230,7 +6224,6 @@ x
 y
 width
 height
-aRepaint
 )
 ;
 }
@@ -22176,8 +22169,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-bool
-aRepaint
 )
 {
 gint
@@ -22342,8 +22333,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-bool
-aRepaint
 )
 {
 gint
