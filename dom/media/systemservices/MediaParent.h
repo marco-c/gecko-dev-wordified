@@ -252,6 +252,10 @@ const
 uint64_t
 &
 aSinceWhen
+const
+bool
+&
+aOnlyPrivateBrowsing
 )
 =
 0
@@ -348,6 +352,10 @@ const
 uint64_t
 &
 aSinceWhen
+const
+bool
+&
+aOnlyPrivateBrowsing
 )
 override
 ;

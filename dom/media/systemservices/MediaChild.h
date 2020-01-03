@@ -280,6 +280,8 @@ const
 uint64_t
 &
 aSinceWhen
+bool
+aOnlyPrivateBrowsing
 )
 ;
 class
