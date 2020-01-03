@@ -62806,6 +62806,16 @@ ret
 elif
 defined
 (
+JS_CODEGEN_ARM64
+)
+MOZ_CRASH
+(
+)
+;
+#
+elif
+defined
+(
 JS_CODEGEN_NONE
 )
 MOZ_CRASH
