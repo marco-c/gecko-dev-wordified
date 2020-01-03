@@ -3086,8 +3086,7 @@ GLContextProviderEGL
 :
 CreateHeadless
 (
-requireCompatProfile
-forceEnabled
+flags
 )
 ;
 if
