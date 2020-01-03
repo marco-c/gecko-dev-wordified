@@ -2043,7 +2043,7 @@ member
 will
 call
 the
-NotifyStoppedPlaying
+StopPlaying
 (
 )
 method
@@ -3837,7 +3837,7 @@ mPhoneAudioAgent
 mPhoneAudioAgent
 -
 >
-NotifyStoppedPlaying
+StopPlaying
 (
 )
 ;
@@ -3962,7 +3962,7 @@ rv
 mPhoneAudioAgent
 -
 >
-NotifyStartedPlaying
+StartPlaying
 (
 &
 volume

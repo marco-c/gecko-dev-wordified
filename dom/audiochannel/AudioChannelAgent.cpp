@@ -213,7 +213,7 @@ if
 mIsRegToService
 )
 {
-NotifyStoppedPlaying
+StopPlaying
 (
 )
 ;
@@ -621,7 +621,7 @@ NS_OK
 /
 *
 boolean
-notifyStartedPlaying
+startPlaying
 (
 )
 ;
@@ -631,7 +631,7 @@ NS_IMETHODIMP
 AudioChannelAgent
 :
 :
-NotifyStartedPlaying
+StartPlaying
 (
 float
 *
@@ -722,7 +722,7 @@ NS_OK
 /
 *
 void
-notifyStoppedPlaying
+stopPlaying
 (
 )
 ;
@@ -732,7 +732,7 @@ NS_IMETHODIMP
 AudioChannelAgent
 :
 :
-NotifyStoppedPlaying
+StopPlaying
 (
 void
 )

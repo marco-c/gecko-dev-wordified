@@ -25985,7 +25985,7 @@ true
 mAudioChannelAgent
 -
 >
-NotifyStartedPlaying
+StartPlaying
 (
 &
 volume
@@ -26005,7 +26005,7 @@ else
 mAudioChannelAgent
 -
 >
-NotifyStoppedPlaying
+StopPlaying
 (
 )
 ;
