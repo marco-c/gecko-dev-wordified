@@ -260,6 +260,7 @@ def
 getUrlProperties
 (
 filename
+package
 )
 :
     
@@ -558,13 +559,6 @@ json
 )
 )
         
-#
-packageUrl
-must
-be
-last
-!
-        
 (
 '
 packageUrl
@@ -572,30 +566,11 @@ packageUrl
 lambda
 m
 :
-(
-not
 m
 .
 endswith
 (
-'
-.
-json
-'
-)
-and
-                                  
-not
-m
-.
-endswith
-(
-'
-tests
-.
-zip
-'
-)
+package
 )
 )
     
@@ -1030,6 +1005,41 @@ uploaded
 "
 )
     
+parser
+.
+add_argument
+(
+"
+-
+-
+package
+"
+required
+=
+True
+                        
+action
+=
+"
+store
+"
+dest
+=
+"
+package
+"
+                        
+help
+=
+"
+Filename
+of
+the
+build
+package
+"
+)
+    
 args
 =
 parser
@@ -1056,6 +1066,9 @@ getUrlProperties
 args
 .
 upload_output
+args
+.
+package
 )
 )
     
@@ -1186,6 +1199,17 @@ uploadFiles
 args
 .
 upload_files
+    
+json_data
+[
+'
+packageFilename
+'
+]
+=
+args
+.
+package
     
 with
 open
