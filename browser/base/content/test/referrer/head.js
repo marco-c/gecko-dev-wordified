@@ -482,7 +482,9 @@ Origin
 -
 when
 -
-crossorigin
+cross
+-
+origin
 policy
 -
 this
@@ -538,7 +540,9 @@ origin
 -
 when
 -
-crossorigin
+cross
+-
+origin
 "
 result
 :
@@ -584,7 +588,9 @@ origin
 -
 when
 -
-crossorigin
+cross
+-
+origin
 "
 result
 :
