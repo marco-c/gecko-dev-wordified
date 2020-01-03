@@ -1736,7 +1736,7 @@ if
 aEventMessage
 >
 =
-NS_MUTATION_START
+eLegacyMutationEventFirst
 &
 &
 aEventMessage
@@ -7247,7 +7247,7 @@ listener
 mEventMessage
 >
 =
-NS_MUTATION_START
+eLegacyMutationEventFirst
 &
 &
 listener
@@ -7332,7 +7332,7 @@ listener
 mEventMessage
 >
 =
-NS_MUTATION_START
+eLegacyMutationEventFirst
 &
 &
 listener
