@@ -500,6 +500,12 @@ TemplateContext
 __init__
 (
 self
+template
+=
+'
+Gyp
+'
+            
 allowed_variables
 =
 self
@@ -507,7 +513,6 @@ self
 VARIABLES
 (
 )
-            
 config
 =
 config
