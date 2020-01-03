@@ -11457,6 +11457,11 @@ NODE_CHILD_OF
 :
 if
 (
+HasOwnContent
+(
+)
+&
+&
 mContent
 -
 >
@@ -11491,6 +11496,9 @@ GetContent
 ;
 if
 (
+parentContent
+&
+&
 parentContent
 -
 >
@@ -11536,6 +11544,11 @@ NODE_PARENT_OF
 :
 if
 (
+HasOwnContent
+(
+)
+&
+&
 mContent
 -
 >
