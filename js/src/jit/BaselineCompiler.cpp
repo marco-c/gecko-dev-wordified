@@ -3800,7 +3800,7 @@ CHECK_OVER_RECURSED
 if
 (
 !
-callVM
+callVMNonOp
 (
 CheckOverRecursedWithExtraInfo
 phase
@@ -4282,7 +4282,7 @@ scratchReg
 if
 (
 !
-callVM
+callVMNonOp
 (
 HeavyweightFunPrologueInfo
 phase
@@ -4366,7 +4366,7 @@ scratchReg
 if
 (
 !
-callVM
+callVMNonOp
 (
 StrictEvalPrologueInfo
 phase
