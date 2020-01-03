@@ -2229,7 +2229,7 @@ gen_cat
 )
 \
 (
-FLAG
+FLAG_SAFE
 (
 gen_cat
 )

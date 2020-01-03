@@ -1905,14 +1905,6 @@ _hb_glyph_info_is_zwj
 info
 )
 )
-&
-&
-!
-_hb_glyph_info_ligated
-(
-&
-info
-)
 )
 )
 return
@@ -4184,6 +4176,7 @@ count
 MAX_CONTEXT_LENGTH
 )
 )
+return
 TRACE_RETURN
 (
 false
@@ -13428,6 +13421,8 @@ default_return_value
 )
 ;
 return
+TRACE_RETURN
+(
 get_subtable
 <
 typename
@@ -13444,6 +13439,7 @@ dispatch
 c
 get_type
 (
+)
 )
 )
 ;
