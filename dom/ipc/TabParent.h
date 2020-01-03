@@ -244,6 +244,13 @@ TypeDecls
 .
 h
 "
+#
+include
+"
+nsIDOMEventListener
+.
+h
+"
 class
 nsFrameLoader
 ;
@@ -324,6 +331,8 @@ final
 public
 PBrowserParent
 public
+nsIDOMEventListener
+public
 nsITabParent
 public
 nsIAuthPromptProvider
@@ -356,6 +365,11 @@ public
 /
 nsITabParent
 NS_DECL_NSITABPARENT
+/
+/
+nsIDOMEventListener
+interfaces
+NS_DECL_NSIDOMEVENTLISTENER
 TabParent
 (
 nsIContentParent
@@ -510,6 +524,11 @@ GetXULBrowserWindow
 ;
 void
 Destroy
+(
+)
+;
+void
+RemoveWindowListeners
 (
 )
 ;
@@ -1366,10 +1385,6 @@ const
 ScreenIntSize
 &
 size
-const
-nsIntPoint
-&
-chromeDisp
 )
 ;
 void
