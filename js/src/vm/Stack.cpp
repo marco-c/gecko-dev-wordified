@@ -4179,6 +4179,8 @@ SavedOption
 savedOption
 ContextOption
 contextOption
+DebuggerEvalOption
+debuggerEvalOption
 JSPrincipals
 *
 principals
@@ -4195,6 +4197,10 @@ savedOption
 contextOption_
 (
 contextOption
+)
+debuggerEvalOption_
+(
+debuggerEvalOption
 )
 principals_
 (
@@ -4264,6 +4270,12 @@ other
 .
 contextOption_
 )
+debuggerEvalOption_
+(
+other
+.
+debuggerEvalOption_
+)
 principals_
 (
 other
@@ -4331,6 +4343,7 @@ data_
 cx
 savedOption
 CURRENT_CONTEXT
+FOLLOW_DEBUGGER_EVAL_PREV_LINK
 nullptr
 )
 ionInlineFrames_
@@ -4383,6 +4396,8 @@ ContextOption
 contextOption
 SavedOption
 savedOption
+DebuggerEvalOption
+debuggerEvalOption
 )
 :
 data_
@@ -4390,6 +4405,7 @@ data_
 cx
 savedOption
 contextOption
+debuggerEvalOption
 nullptr
 )
 ionInlineFrames_
@@ -4442,6 +4458,8 @@ ContextOption
 contextOption
 SavedOption
 savedOption
+DebuggerEvalOption
+debuggerEvalOption
 JSPrincipals
 *
 principals
@@ -4452,6 +4470,7 @@ data_
 cx
 savedOption
 contextOption
+debuggerEvalOption
 principals
 )
 ionInlineFrames_
@@ -4858,6 +4877,14 @@ interpFrame
 evalInFramePrev
 (
 )
+&
+&
+data_
+.
+debuggerEvalOption_
+=
+=
+FOLLOW_DEBUGGER_EVAL_PREV_LINK
 )
 {
 AbstractFramePtr
