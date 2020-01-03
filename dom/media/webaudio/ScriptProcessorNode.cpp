@@ -603,7 +603,7 @@ outputQueue
 )
 mDelaySoFar
 (
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 )
 mSampleRate
 (
@@ -1116,7 +1116,7 @@ if
 mDelaySoFar
 =
 =
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 )
 {
 mDelaySoFar
@@ -1161,7 +1161,7 @@ if
 mDelaySoFar
 !
 =
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 )
 {
 /
@@ -1185,7 +1185,7 @@ return
 buffer
 ;
 }
-TrackTicks
+StreamTime
 DelaySoFar
 (
 )
@@ -1203,7 +1203,7 @@ return
 mDelaySoFar
 =
 =
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 ?
 0
 :
@@ -1225,7 +1225,7 @@ NS_IsMainThread
 ;
 mDelaySoFar
 =
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 ;
 mLatency
 =
@@ -1297,7 +1297,7 @@ buffers
 .
 /
 /
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 means
 that
 we
@@ -1309,7 +1309,7 @@ first
 buffer
 yet
 .
-TrackTicks
+StreamTime
 mDelaySoFar
 ;
 /
@@ -2056,7 +2056,7 @@ the
 main
 thread
 .
-TrackTicks
+StreamTime
 playbackTick
 =
 mSource

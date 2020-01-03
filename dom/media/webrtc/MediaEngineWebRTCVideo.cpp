@@ -943,7 +943,7 @@ TrackID
 aID
 StreamTime
 aDesiredTime
-TrackTicks
+StreamTime
 &
 aLastEndTime
 )
@@ -993,7 +993,7 @@ state
 /
 though
 .
-TrackTicks
+StreamTime
 delta
 =
 aDesiredTime

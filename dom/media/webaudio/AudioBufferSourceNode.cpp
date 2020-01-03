@@ -400,7 +400,7 @@ mBeginProcessing
 )
 mStop
 (
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 )
 mResampler
 (
@@ -562,7 +562,7 @@ SetStreamTimeParameter
 (
 uint32_t
 aIndex
-TrackTicks
+StreamTime
 aParam
 )
 {
@@ -833,7 +833,7 @@ mBeginProcessing
 =
 =
 -
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 ;
 }
 void
@@ -1476,7 +1476,7 @@ aChannels
 uint32_t
 *
 aOffsetWithinBlock
-TrackTicks
+StreamTime
 *
 aCurrentPosition
 int32_t
@@ -1766,7 +1766,7 @@ skipFracNum
 mBeginProcessing
 =
 -
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 ;
 }
 inputLimit
@@ -2186,10 +2186,10 @@ aChannels
 uint32_t
 *
 aOffsetWithinBlock
-TrackTicks
+StreamTime
 *
 aCurrentPosition
-TrackTicks
+StreamTime
 aMaxPos
 )
 {
@@ -2209,7 +2209,7 @@ std
 :
 min
 <
-TrackTicks
+StreamTime
 >
 (
 WEBAUDIO_BLOCK_SIZE
@@ -2381,7 +2381,7 @@ aChannels
 uint32_t
 *
 aOffsetWithinBlock
-TrackTicks
+StreamTime
 *
 aCurrentPosition
 int32_t
@@ -2409,7 +2409,7 @@ std
 :
 min
 <
-TrackTicks
+StreamTime
 >
 (
 WEBAUDIO_BLOCK_SIZE
@@ -2826,7 +2826,7 @@ written
 =
 0
 ;
-TrackTicks
+StreamTime
 streamPosition
 =
 aStream
@@ -2848,7 +2848,7 @@ if
 mStop
 !
 =
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 &
 &
 streamPosition
@@ -2865,7 +2865,7 @@ channels
 written
 &
 streamPosition
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 )
 ;
 continue
@@ -2996,7 +2996,7 @@ channels
 written
 &
 streamPosition
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 )
 ;
 }
@@ -3250,7 +3250,7 @@ special
 value
 of
 -
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 /
 /
 indicates
@@ -3261,10 +3261,10 @@ has
 begun
 processing
 .
-TrackTicks
+StreamTime
 mBeginProcessing
 ;
-TrackTicks
+StreamTime
 mStop
 ;
 nsRefPtr

@@ -1411,7 +1411,7 @@ mListeners
 j
 ]
 ;
-TrackTicks
+StreamTime
 offset
 =
 (
@@ -7240,7 +7240,7 @@ i
 }
 }
 }
-TrackTicks
+StreamTime
 MediaStreamGraphImpl
 :
 :
@@ -7271,7 +7271,7 @@ mode
 "
 )
 ;
-TrackTicks
+StreamTime
 ticksWritten
 =
 0
@@ -7351,7 +7351,7 @@ for
 each
 cycle
 .
-TrackTicks
+StreamTime
 ticksNeeded
 =
 aTo
@@ -7551,7 +7551,7 @@ of
 track
 samples
 .
-TrackTicks
+StreamTime
 offset
 =
 GraphTimeToStreamTime
@@ -7765,7 +7765,7 @@ of
 this
 cycle
 .
-TrackTicks
+StreamTime
 toWrite
 =
 0
@@ -7867,14 +7867,14 @@ toWrite
 }
 else
 {
-TrackTicks
+StreamTime
 endTicksNeeded
 =
 offset
 +
 toWrite
 ;
-TrackTicks
+StreamTime
 endTicksAvailable
 =
 audio
@@ -8399,7 +8399,7 @@ aStream
 framePosition
 )
 ;
-TrackTicks
+StreamTime
 start
 ;
 const
@@ -8457,7 +8457,7 @@ VideoSegment
 (
 )
 ;
-TrackTicks
+StreamTime
 thisStart
 ;
 const
@@ -9105,7 +9105,7 @@ GraphTime
 aTime
 )
 {
-TrackTicks
+StreamTime
 ticks
 =
 aTime
@@ -9125,7 +9125,7 @@ block
 +
 1
 ;
-TrackTicks
+StreamTime
 nextTicks
 =
 nextBlock
@@ -9788,7 +9788,7 @@ for
 this
 cycle
 .
-TrackTicks
+StreamTime
 ticksPlayed
 =
 0
@@ -10099,7 +10099,7 @@ AsAudioCallbackDriver
 )
 )
 {
-TrackTicks
+StreamTime
 ticksPlayedForThisStream
 =
 PlayAudio
@@ -15316,7 +15316,7 @@ TrackID
 aID
 TrackRate
 aRate
-TrackTicks
+StreamTime
 aStart
 MediaSegment
 *
@@ -15892,7 +15892,7 @@ mDirectListeners
 j
 ]
 ;
-TrackTicks
+StreamTime
 offset
 =
 0
@@ -15904,7 +15904,7 @@ FIX
 need
 a
 separate
-TrackTicks
+StreamTime
 .
 .
 .
@@ -16587,7 +16587,7 @@ let
 GetUserMedia
 know
 }
-TrackTicks
+StreamTime
 SourceMediaStream
 :
 :

@@ -282,7 +282,7 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aTrackEvents

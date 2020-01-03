@@ -303,7 +303,7 @@ Image
 aImage
 TrackID
 aID
-TrackTicks
+StreamTime
 delta
 )
 ;

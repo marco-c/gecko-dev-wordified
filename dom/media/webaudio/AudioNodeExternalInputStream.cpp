@@ -1029,7 +1029,7 @@ interval
 mEnd
 )
 ;
-TrackTicks
+StreamTime
 ticks
 =
 outputEnd

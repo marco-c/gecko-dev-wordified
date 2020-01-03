@@ -285,10 +285,10 @@ s
 encoded
 duration
 .
-TrackTicks
+StreamTime
 CalculateEncodedDuration
 (
-TrackTicks
+StreamTime
 aDurationCopied
 )
 ;
@@ -302,12 +302,12 @@ next
 target
 frame
 .
-TrackTicks
+StreamTime
 CalculateRemainingTicks
 (
-TrackTicks
+StreamTime
 aDurationCopied
-TrackTicks
+StreamTime
 aEncodedDuration
 )
 ;
@@ -326,7 +326,7 @@ GetNextEncodeOperation
 (
 TimeDuration
 aTimeElapsed
-TrackTicks
+StreamTime
 aProcessedDuration
 )
 ;
@@ -389,7 +389,7 @@ reciprocal
 to
 mEncodedFrameRate
 .
-TrackTicks
+StreamTime
 mEncodedFrameDuration
 ;
 /
@@ -397,7 +397,7 @@ mEncodedFrameDuration
 Encoded
 timestamp
 .
-TrackTicks
+StreamTime
 mEncodedTimestamp
 ;
 /
@@ -409,7 +409,7 @@ next
 encode
 frame
 .
-TrackTicks
+StreamTime
 mRemainingTicks
 ;
 /

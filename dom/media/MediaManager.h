@@ -1366,10 +1366,10 @@ mStream
 /
 threadsafe
 refcnt
-TrackTicks
+StreamTime
 mLastEndTimeAudio
 ;
-TrackTicks
+StreamTime
 mLastEndTimeVideo
 ;
 bool

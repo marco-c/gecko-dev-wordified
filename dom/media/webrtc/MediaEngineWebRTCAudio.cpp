@@ -2161,7 +2161,7 @@ TrackID
 aID
 StreamTime
 aDesiredTime
-TrackTicks
+StreamTime
 &
 aLastEndTime
 )
@@ -2177,7 +2177,7 @@ data
 #
 ifdef
 DEBUG
-TrackTicks
+StreamTime
 delta
 =
 aDesiredTime

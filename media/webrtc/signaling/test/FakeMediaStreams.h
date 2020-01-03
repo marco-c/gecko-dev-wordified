@@ -217,7 +217,7 @@ aID
 mozilla
 :
 :
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aTrackEvents
@@ -292,7 +292,7 @@ tid
 mozilla
 :
 :
-TrackTicks
+StreamTime
 offset
 uint32_t
 events
@@ -642,7 +642,7 @@ aID
 mozilla
 :
 :
-TrackTicks
+StreamTime
 aStart
 mozilla
 :
@@ -672,7 +672,7 @@ aRate
 mozilla
 :
 :
-TrackTicks
+StreamTime
 aStart
 mozilla
 :

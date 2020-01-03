@@ -579,7 +579,7 @@ Length
 )
 ;
 }
-TrackTicks
+StreamTime
 pos
 =
 aStream

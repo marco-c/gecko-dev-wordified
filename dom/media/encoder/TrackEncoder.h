@@ -303,7 +303,7 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aTrackEvents
@@ -809,7 +809,7 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aTrackEvents
@@ -1380,7 +1380,7 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aTrackEvents
@@ -1695,7 +1695,7 @@ in
 encoded
 video
 in
-TrackTicks
+StreamTime
 kept
 track
 of
@@ -1705,7 +1705,7 @@ subclasses
 .
 *
 /
-TrackTicks
+StreamTime
 mTotalFrameDuration
 ;
 /

@@ -659,7 +659,7 @@ Image
 &
 &
 aImage
-TrackTicks
+StreamTime
 aDuration
 const
 IntSize
