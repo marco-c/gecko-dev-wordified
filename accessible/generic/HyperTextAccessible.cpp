@@ -3552,7 +3552,11 @@ pos
 aAmount
 aDirection
 innerContentOffset
+nsPoint
+(
 0
+0
+)
 kIsJumpLinesOk
 kIsScrollViewAStop
 kIsKeyboardSelect

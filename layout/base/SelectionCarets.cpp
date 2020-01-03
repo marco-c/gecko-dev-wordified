@@ -3736,7 +3736,11 @@ pos
 eSelectCluster
 dir
 offset
+nsPoint
+(
 0
+0
+)
 true
 true
 /
