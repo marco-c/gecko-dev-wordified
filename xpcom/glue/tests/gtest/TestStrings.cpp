@@ -193,7 +193,7 @@ b
 result
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 result
 .
@@ -224,7 +224,7 @@ c
 '
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 c
 .
@@ -302,7 +302,7 @@ FindChar
 '
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 n
 kNotFound
@@ -345,7 +345,7 @@ Cut
 6
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 temp
 .
@@ -393,7 +393,7 @@ true
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 i
 2
@@ -454,7 +454,7 @@ true
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 i
 kNotFound
@@ -474,7 +474,7 @@ true
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 i
 20
@@ -493,7 +493,7 @@ true
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 i
 10
@@ -511,7 +511,7 @@ true
 3
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 i
 20
@@ -562,7 +562,7 @@ false
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 i
 5
@@ -613,7 +613,7 @@ RFind
 "
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 i
 24
@@ -649,7 +649,7 @@ msf
 "
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 i
 1
@@ -754,7 +754,7 @@ end
 of
 the
 string
-ASSERT_TRUE
+EXPECT_TRUE
 (
 FindInReadable
 (
@@ -797,13 +797,13 @@ but
 not
 the
 last
-ASSERT_NE
+EXPECT_NE
 (
 delim_end
 end
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 r
 "
@@ -835,7 +835,7 @@ for
 first
 jar
 :
-ASSERT_TRUE
+EXPECT_TRUE
 (
 FindInReadable
 (
@@ -875,13 +875,13 @@ but
 the
 second
 one
-ASSERT_EQ
+EXPECT_EQ
 (
 delim_begin
 begin
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 r
 "
@@ -919,7 +919,7 @@ delim_end
 =
 end
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 FindInReadable
 (
@@ -959,13 +959,13 @@ but
 the
 second
 one
-ASSERT_NE
+EXPECT_NE
 (
 delim_begin
 begin
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 r
 "
@@ -989,7 +989,7 @@ not
 find
 a
 match
-ASSERT_FALSE
+EXPECT_FALSE
 (
 FindInReadable
 (
@@ -1015,7 +1015,7 @@ range
 should
 be
 empty
-ASSERT_EQ
+EXPECT_EQ
 (
 delim_begin
 delim_end
@@ -1061,7 +1061,7 @@ delim_end
 =
 end
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 FindInReadable
 (
@@ -1088,7 +1088,7 @@ range
 should
 be
 empty
-ASSERT_EQ
+EXPECT_EQ
 (
 delim_begin
 delim_end
@@ -1134,7 +1134,7 @@ delim_end
 -
 -
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 FindInReadable
 (
@@ -1160,7 +1160,7 @@ range
 should
 be
 empty
-ASSERT_EQ
+EXPECT_EQ
 (
 delim_begin
 delim_end
@@ -1265,7 +1265,7 @@ end
 of
 the
 string
-ASSERT_TRUE
+EXPECT_TRUE
 (
 RFindInReadable
 (
@@ -1304,13 +1304,13 @@ last
 !
 /
 "
-ASSERT_EQ
+EXPECT_EQ
 (
 delim_end
 end
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 r
 "
@@ -1350,7 +1350,7 @@ one
 .
 .
 .
-ASSERT_TRUE
+EXPECT_TRUE
 (
 RFindInReadable
 (
@@ -1390,13 +1390,13 @@ but
 the
 second
 one
-ASSERT_NE
+EXPECT_NE
 (
 delim_begin
 begin
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 r
 "
@@ -1449,7 +1449,7 @@ delim_end
 +
 +
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 RFindInReadable
 (
@@ -1489,13 +1489,13 @@ but
 the
 second
 one
-ASSERT_EQ
+EXPECT_EQ
 (
 delim_begin
 begin
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 r
 "
@@ -1527,7 +1527,7 @@ delim_end
 =
 end
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 RFindInReadable
 (
@@ -1553,7 +1553,7 @@ range
 should
 be
 empty
-ASSERT_EQ
+EXPECT_EQ
 (
 delim_begin
 delim_end
@@ -1599,7 +1599,7 @@ delim_end
 =
 end
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 RFindInReadable
 (
@@ -1626,7 +1626,7 @@ range
 should
 be
 empty
-ASSERT_EQ
+EXPECT_EQ
 (
 delim_begin
 delim_end
@@ -1672,7 +1672,7 @@ delim_end
 -
 -
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 RFindInReadable
 (
@@ -1698,7 +1698,7 @@ range
 should
 be
 empty
-ASSERT_EQ
+EXPECT_EQ
 (
 delim_begin
 delim_end
@@ -1759,7 +1759,7 @@ begin
 end
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 d
 sizeof
@@ -1804,7 +1804,7 @@ Length
 (
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 d
 sizeof
@@ -1858,7 +1858,7 @@ Trim
 set
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -1913,7 +1913,7 @@ www
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -1965,7 +1965,7 @@ bar
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -1997,7 +1997,7 @@ foo
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2030,7 +2030,7 @@ fo
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2148,7 +2148,7 @@ will
 be
 unchanged
 .
-ASSERT_TRUE
+EXPECT_TRUE
 (
 newAcctName
 .
@@ -2189,7 +2189,7 @@ X
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2222,7 +2222,7 @@ XYZ
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2255,7 +2255,7 @@ XY
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2289,7 +2289,7 @@ XYZ
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2326,7 +2326,7 @@ X
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2360,7 +2360,7 @@ XYZ
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2398,7 +2398,7 @@ XY
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2431,7 +2431,7 @@ XYZABC
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2464,7 +2464,7 @@ XYZ
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2498,7 +2498,7 @@ XYZ
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2536,7 +2536,7 @@ X
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2569,7 +2569,7 @@ XYZABC
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2602,7 +2602,7 @@ XY
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2636,7 +2636,7 @@ XYZ
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2675,7 +2675,7 @@ X
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2708,7 +2708,7 @@ longlongstring
 "
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2749,7 +2749,7 @@ StripWhitespace
 (
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2771,7 +2771,7 @@ equals_ic
 nsCString
 s
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 s
 .
@@ -2813,7 +2813,7 @@ buf
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 s
 .
@@ -2826,7 +2826,7 @@ buf
 )
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 s
 .
@@ -2847,7 +2847,7 @@ doo
 "
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 s
 .
@@ -2902,7 +2902,7 @@ NS_LITERAL_CSTRING
 barRef
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 result
 .
@@ -2953,7 +2953,7 @@ fieldTextStr
 aText
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 result
 .
@@ -2997,7 +2997,7 @@ result
 +
 c
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 result
 .
@@ -3024,7 +3024,7 @@ a
 =
 b
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 a
 =
@@ -3039,7 +3039,7 @@ Adopt
 0
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 a
 =
@@ -3063,7 +3063,7 @@ Assign
 b
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 a
 =
@@ -3087,7 +3087,7 @@ Assign
 b
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 a
 =
@@ -3117,7 +3117,7 @@ NS_strdup
 text
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 a
 text
@@ -3127,7 +3127,7 @@ b
 =
 a
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 a
 b
@@ -3174,7 +3174,7 @@ end
 )
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 r
 "
@@ -3196,7 +3196,7 @@ Adopt
 0
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 a
 .
@@ -3217,7 +3217,7 @@ xyz
 "
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 kNotFound
@@ -3311,7 +3311,7 @@ kText
 1
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 buf
 .
@@ -3356,7 +3356,7 @@ with
 |
 sub
 |
-ASSERT_TRUE
+EXPECT_TRUE
 (
 sub
 .
@@ -3390,7 +3390,7 @@ with
 super
 |
 .
-ASSERT_FALSE
+EXPECT_FALSE
 (
 super
 .
@@ -3436,7 +3436,7 @@ int
 )
 ;
 \
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -3505,7 +3505,7 @@ base
 )
 ;
 \
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -3792,7 +3792,7 @@ AppendInt
 max
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -3815,7 +3815,7 @@ AppendInt
 min
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -3839,7 +3839,7 @@ min
 8
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -3862,7 +3862,7 @@ AppendInt
 maxint_plus1
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -3886,7 +3886,7 @@ maxint_plus1
 16
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -3968,7 +3968,7 @@ AppendFloat
 bigdouble
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -4011,7 +4011,7 @@ AppendFloat
 1f
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -4053,7 +4053,7 @@ FindCharInSet
 5
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 5
@@ -4071,7 +4071,7 @@ helo
 0
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 0
@@ -4090,7 +4090,7 @@ z
 6
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 (
@@ -4137,7 +4137,7 @@ RFindCharInSet
 5
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 5
@@ -4155,7 +4155,7 @@ helo
 0
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 0
@@ -4174,7 +4174,7 @@ z
 6
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 kNotFound
@@ -4192,7 +4192,7 @@ l
 5
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 3
@@ -4218,7 +4218,7 @@ ab
 "
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 12
@@ -4236,7 +4236,7 @@ ab
 11
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 11
@@ -4254,7 +4254,7 @@ ab
 10
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 1
@@ -4272,7 +4272,7 @@ ab
 0
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 0
@@ -4290,7 +4290,7 @@ cd
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 kNotFound
@@ -4307,7 +4307,7 @@ h
 "
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 index
 7
@@ -4350,7 +4350,7 @@ kData
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 !
 !
@@ -4370,7 +4370,7 @@ kData
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 !
 !
@@ -4433,7 +4433,7 @@ FromString
 str
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 buf
 buf2
@@ -4460,12 +4460,12 @@ world
 nsXPIDLCString
 str
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 str
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -4474,7 +4474,7 @@ IsVoid
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -4490,7 +4490,7 @@ Assign
 kData
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 str
 kData
@@ -4503,12 +4503,12 @@ SetIsVoid
 true
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 str
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -4517,7 +4517,7 @@ IsVoid
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -4533,7 +4533,7 @@ SetIsVoid
 false
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 str
 "
@@ -4561,7 +4561,7 @@ world
 nsAutoCString
 str
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 str
 .
@@ -4570,7 +4570,7 @@ IsVoid
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -4586,7 +4586,7 @@ Assign
 kData
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 str
 .
@@ -4603,7 +4603,7 @@ SetIsVoid
 true
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -4612,7 +4612,7 @@ IsVoid
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 str
 .
@@ -4628,7 +4628,7 @@ Assign
 kData
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 str
 .
@@ -4637,7 +4637,7 @@ IsVoid
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 str
 .
@@ -4646,7 +4646,7 @@ IsEmpty
 )
 )
 ;
-ASSERT_STREQ
+EXPECT_STREQ
 (
 str
 .
@@ -4678,7 +4678,7 @@ a
 =
 b
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 a
 .
@@ -4687,7 +4687,7 @@ IsVoid
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 a
 .
@@ -4716,7 +4716,7 @@ a
 =
 b
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 a
 .
@@ -4839,7 +4839,7 @@ t
 radix
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 rv
 t
@@ -4848,7 +4848,7 @@ t
 rv
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 result
 t
@@ -4877,7 +4877,7 @@ t
 radix
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 rv
 t
@@ -4886,7 +4886,7 @@ t
 rv
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 result
 t
@@ -4931,7 +4931,7 @@ nsCString
 >
 results
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 ParseString
 (
@@ -4941,7 +4941,7 @@ results
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 int
 (
@@ -4982,7 +4982,7 @@ len
 i
 )
 {
-ASSERT_TRUE
+EXPECT_TRUE
 (
 results
 [
@@ -5232,7 +5232,7 @@ strip
 offset
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 data
 .
@@ -5466,7 +5466,7 @@ void
 8
 )
 {
-ASSERT_TRUE
+EXPECT_TRUE
 (
 a
 .
@@ -5479,7 +5479,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 a
 .
@@ -5501,7 +5501,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 a
 .
@@ -5520,7 +5520,7 @@ free
 the
 allocated
 memory
-ASSERT_TRUE
+EXPECT_TRUE
 (
 b
 .
@@ -5533,7 +5533,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 b
 .
@@ -5557,7 +5557,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 b
 .
@@ -5570,7 +5570,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 c
 .
@@ -5583,7 +5583,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 c
 .
@@ -5605,7 +5605,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 c
 .
@@ -5618,7 +5618,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 d
 .
@@ -5642,7 +5642,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 d
 .
@@ -5664,7 +5664,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 d
 .
@@ -5677,7 +5677,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 e
 .
@@ -5699,7 +5699,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 e
 .
@@ -5723,7 +5723,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 e
 .
@@ -5736,7 +5736,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 f
 .
@@ -5758,7 +5758,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 f
 .
@@ -5771,7 +5771,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 g
 .
@@ -5795,7 +5795,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 g
 .
@@ -5819,7 +5819,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 g
 .
@@ -5832,7 +5832,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 h
 .
@@ -5856,7 +5856,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 h
 .
@@ -5878,7 +5878,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 h
 .
@@ -5891,7 +5891,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 i
 .
@@ -5904,7 +5904,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 i
 .
@@ -5928,7 +5928,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 i
 .
@@ -5952,7 +5952,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 i
 .
@@ -5965,7 +5965,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 j
 .
@@ -5989,7 +5989,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 j
 .
@@ -6013,7 +6013,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 j
 .
@@ -6026,7 +6026,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 k
 .
@@ -6050,7 +6050,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 k
 .
@@ -6074,7 +6074,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 k
 .
@@ -6098,7 +6098,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 k
 .
@@ -6122,7 +6122,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 k
 .
@@ -6135,7 +6135,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 l
 .
@@ -6157,7 +6157,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 l
 .
@@ -6181,7 +6181,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 l
 .
@@ -6205,7 +6205,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 l
 .
@@ -6218,7 +6218,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 m
 .
@@ -6242,7 +6242,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 m
 .
@@ -6266,7 +6266,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 m
 .
@@ -6279,7 +6279,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n
 .
@@ -6303,7 +6303,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 n
 .
@@ -6325,7 +6325,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n
 .
@@ -6338,7 +6338,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n
 .
@@ -6351,7 +6351,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n
 .
@@ -6384,7 +6384,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n
 .
@@ -6397,7 +6397,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 n
 .
@@ -6430,7 +6430,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n
 .
@@ -6443,7 +6443,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n1
 .
@@ -6456,7 +6456,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n1
 .
@@ -6489,7 +6489,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n1
 .
@@ -6502,7 +6502,7 @@ fallible_t
 )
 )
 ;
-ASSERT_FALSE
+EXPECT_FALSE
 (
 n1
 .
@@ -6535,7 +6535,7 @@ fallible_t
 )
 )
 ;
-ASSERT_TRUE
+EXPECT_TRUE
 (
 n1
 .
@@ -6567,7 +6567,7 @@ aSuccess
 nsresult
 result
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 aStr
 .
@@ -6584,7 +6584,7 @@ if
 aSuccess
 )
 {
-ASSERT_EQ
+EXPECT_EQ
 (
 result
 NS_OK
@@ -6593,7 +6593,7 @@ NS_OK
 }
 else
 {
-ASSERT_NE
+EXPECT_NE
 (
 result
 NS_OK
@@ -6801,7 +6801,7 @@ aSuccess
 nsresult
 result
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 aStr
 .
@@ -6818,7 +6818,7 @@ if
 aSuccess
 )
 {
-ASSERT_EQ
+EXPECT_EQ
 (
 result
 NS_OK
@@ -6827,7 +6827,7 @@ NS_OK
 }
 else
 {
-ASSERT_NE
+EXPECT_NE
 (
 result
 NS_OK
