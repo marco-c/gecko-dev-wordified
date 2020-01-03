@@ -419,6 +419,10 @@ FlushableMediaTaskQueue
 (
 GetMediaThreadPool
 (
+MediaThreadType
+:
+:
+PLATFORM_DECODER
 )
 )
 )
