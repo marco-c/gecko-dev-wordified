@@ -3203,10 +3203,6 @@ kInitSaveDownloadFonts
 |
 gPrintSetInterface
 .
-kInitSavePrintCommand
-|
-gPrintSetInterface
-.
 kInitSaveShrinkToFit
 |
 gPrintSetInterface
