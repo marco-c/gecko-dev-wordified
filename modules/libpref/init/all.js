@@ -4406,6 +4406,11 @@ com
 projectsquared
 .
 com
+*
+.
+room
+.
+co
 room
 .
 co
@@ -4477,6 +4482,11 @@ com
 projectsquared
 .
 com
+*
+.
+room
+.
+co
 room
 .
 co
