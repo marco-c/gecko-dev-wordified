@@ -15140,6 +15140,12 @@ op
 =
 =
 JSOP_GETNAME
+|
+|
+op
+=
+=
+JSOP_GETGNAME
 )
 {
 JSOp
