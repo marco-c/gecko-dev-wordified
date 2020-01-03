@@ -7338,6 +7338,7 @@ nsRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -7368,6 +7369,7 @@ nsRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 }
 ;
