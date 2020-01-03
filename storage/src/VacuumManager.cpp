@@ -1796,6 +1796,14 @@ get
 ;
 #
 endif
+if
+(
+PR_LOG_TEST
+(
+gStorageLog
+PR_LOG_ERROR
+)
+)
 {
 int32_t
 result

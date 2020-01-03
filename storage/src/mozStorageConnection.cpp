@@ -5069,6 +5069,15 @@ endif
 /
 /
 DEBUG
+if
+(
+PR_LOG_TEST
+(
+gStorageLog
+PR_LOG_NOTICE
+)
+)
+{
 nsAutoCString
 leafName
 (
@@ -5115,6 +5124,7 @@ get
 )
 )
 ;
+}
 /
 /
 At
