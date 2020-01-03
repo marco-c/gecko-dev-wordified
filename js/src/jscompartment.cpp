@@ -1016,9 +1016,6 @@ return
 true
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 /
 *
 *
@@ -1401,8 +1398,6 @@ front
 }
 #
 endif
-#
-endif
 bool
 JSCompartment
 :
@@ -1520,9 +1515,6 @@ wrapper
 )
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 /
 *
 There
@@ -1616,8 +1608,6 @@ ref
 )
 ;
 }
-#
-endif
 return
 success
 ;
