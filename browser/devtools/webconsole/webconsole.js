@@ -861,7 +861,7 @@ preferences
 const
 DEFAULT_LOG_LIMIT
 =
-200
+1000
 ;
 /
 /
