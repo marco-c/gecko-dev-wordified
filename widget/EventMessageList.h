@@ -318,7 +318,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_ONLINE
+eOnline
 eWindowEventFirst
 +
 65

@@ -1703,7 +1703,7 @@ eBasicEventClass
 WINDOW_EVENT
 (
 online
-NS_ONLINE
+eOnline
 EventNameType_XUL
 |
 EventNameType_HTMLBodyOrFramesetOnly
