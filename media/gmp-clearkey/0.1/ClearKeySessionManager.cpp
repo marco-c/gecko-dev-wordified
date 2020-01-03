@@ -155,7 +155,10 @@ CK_LOGD
 "
 ClearKeySessionManager
 ctor
+%
+p
 "
+this
 )
 ;
 AddRef
@@ -211,7 +214,10 @@ CK_LOGD
 "
 ClearKeySessionManager
 dtor
+%
+p
 "
+this
 )
 ;
 MOZ_ASSERT
@@ -2198,7 +2204,10 @@ ClearKeySessionManager
 :
 :
 Shutdown
+%
+p
 "
+this
 )
 ;
 for
@@ -2255,7 +2264,10 @@ ClearKeySessionManager
 :
 :
 DecryptingComplete
+%
+p
 "
+this
 )
 ;
 GMPThread
