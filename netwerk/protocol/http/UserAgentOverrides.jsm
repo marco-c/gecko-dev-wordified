@@ -266,6 +266,8 @@ function
 (
 aHttpChannel
 )
+{
+return
 UserAgentOverrides
 .
 getOverrideForURI
@@ -274,6 +276,8 @@ aHttpChannel
 .
 URI
 )
+;
+}
 ]
 ;
 var
@@ -442,10 +446,14 @@ function
 (
 key
 )
+{
+return
 this
 [
 key
 ]
+;
+}
 ;
 }
 gUpdatedOverrides
