@@ -1313,6 +1313,9 @@ DIRECTION_UP
 {
 if
 (
+gMultiProcessBrowser
+|
+|
 content
 .
 pageYOffset
@@ -1344,6 +1347,9 @@ DIRECTION_DOWN
 {
 if
 (
+gMultiProcessBrowser
+|
+|
 content
 .
 pageYOffset
