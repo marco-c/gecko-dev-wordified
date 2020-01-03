@@ -1641,7 +1641,7 @@ ConnectExpectFail
 (
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 kTlsAlertFatal
 alert_recorder
@@ -1652,7 +1652,7 @@ level
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 alert
 alert_recorder
@@ -1710,7 +1710,7 @@ ConnectExpectFail
 (
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 kTlsAlertFatal
 alert_recorder
@@ -1721,7 +1721,7 @@ level
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 alert
 alert_recorder
@@ -3049,7 +3049,7 @@ TlsExtensionTestGeneric
 SupportedCurvesShort
 )
 {
-EnableSomeECDHECiphers
+EnableSomeEcdheCiphers
 (
 )
 ;
@@ -3092,7 +3092,7 @@ TlsExtensionTestGeneric
 SupportedCurvesBadLength
 )
 {
-EnableSomeECDHECiphers
+EnableSomeEcdheCiphers
 (
 )
 ;
@@ -3136,7 +3136,7 @@ TlsExtensionTestGeneric
 SupportedCurvesTrailingData
 )
 {
-EnableSomeECDHECiphers
+EnableSomeEcdheCiphers
 (
 )
 ;
@@ -3181,7 +3181,7 @@ TlsExtensionTestGeneric
 SupportedPointsEmpty
 )
 {
-EnableSomeECDHECiphers
+EnableSomeEcdheCiphers
 (
 )
 ;
@@ -3222,7 +3222,7 @@ TlsExtensionTestGeneric
 SupportedPointsBadLength
 )
 {
-EnableSomeECDHECiphers
+EnableSomeEcdheCiphers
 (
 )
 ;
@@ -3265,7 +3265,7 @@ TlsExtensionTestGeneric
 SupportedPointsTrailingData
 )
 {
-EnableSomeECDHECiphers
+EnableSomeEcdheCiphers
 (
 )
 ;

@@ -1041,9 +1041,6 @@ algParamsHash
 PKIX_UInt32
 pubKeyHash
 ;
-PKIX_UInt32
-fullHash
-;
 PKIX_ENTER
 (
 PUBLICKEY
@@ -1169,14 +1166,6 @@ plContext
 )
 PKIX_HASHFAILED
 )
-;
-fullHash
-=
-algOIDHash
-+
-algParamsHash
-+
-pubKeyHash
 ;
 *
 pHashcode

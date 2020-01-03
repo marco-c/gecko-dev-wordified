@@ -6263,12 +6263,6 @@ void
 plContext
 )
 {
-PKIX_PL_HttpDefaultClient
-*
-client
-=
-NULL
-;
 PKIX_ENTER
 (
 HTTPDEFAULTCLIENT
@@ -6297,14 +6291,6 @@ plContext
 )
 PKIX_SESSIONNOTANHTTPDEFAULTCLIENT
 )
-;
-client
-=
-(
-PKIX_PL_HttpDefaultClient
-*
-)
-session
 ;
 /
 *
