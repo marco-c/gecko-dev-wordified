@@ -5619,6 +5619,13 @@ args
         
 if
 not
+isinstance
+(
+args
+list
+)
+or
+not
 self
 .
 emulator
@@ -5720,6 +5727,10 @@ client
 .
 send
 (
+json
+.
+dumps
+(
 {
 "
 name
@@ -5728,19 +5739,20 @@ name
 "
 emulatorCmdResult
 "
-                                 
+                                            
 "
 id
 "
 :
 id
-                                 
+                                            
 "
 result
 "
 :
 result
 }
+)
 )
     
 def
