@@ -1864,8 +1864,8 @@ on
 main
 thread
 #
-if
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 BluetoothReply
 *
 reply
@@ -1973,8 +1973,8 @@ on
 main
 thread
 #
-if
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 BluetoothReply
 *
 reply
@@ -2110,8 +2110,8 @@ bs
 )
 ;
 #
-ifdef
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 bs
 -
 >
