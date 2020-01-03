@@ -784,7 +784,7 @@ command
                     
 self
 .
-_handle_subcommand_help
+_handle_command_help
 (
 parser
 args
@@ -846,7 +846,7 @@ arguments
                 
 self
 .
-_handle_subcommand_help
+_handle_command_help
 (
 parser
 command
@@ -2144,7 +2144,7 @@ print_help
 )
     
 def
-_handle_subcommand_help
+_handle_command_help
 (
 self
 parser
