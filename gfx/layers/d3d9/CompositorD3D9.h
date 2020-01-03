@@ -1138,7 +1138,7 @@ uint32_t
 mDeviceResetCount
 ;
 uint32_t
-mFailedResetAttemps
+mFailedResetAttempts
 ;
 }
 ;
