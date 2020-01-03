@@ -455,6 +455,32 @@ server
 .
 stash
         
+path
+=
+request
+.
+GET
+.
+get
+(
+"
+path
+"
+request
+.
+url
+.
+split
+(
+'
+?
+'
+)
+)
+[
+0
+]
+        
 if
 action
 =
@@ -482,6 +508,9 @@ take
 key
 =
 key
+path
+=
+path
 )
             
 stash
@@ -494,6 +523,9 @@ key
 value
 =
 value
+path
+=
+path
 )
             
 response_data
@@ -536,6 +568,9 @@ take
 key
 =
 key
+path
+=
+path
 )
             
 if
@@ -739,6 +774,9 @@ take
 key
 =
 key
+path
+=
+path
 )
             
 if
