@@ -123,6 +123,9 @@ class
 nsHttpConnectionInfo
 ;
 class
+NullHttpTransaction
+;
+class
 SpdyConnectTransaction
 ;
 /
@@ -967,7 +970,7 @@ Query
 *
 (
 and
-IsNUllTransaction
+IsNullTransaction
 (
 )
 )
@@ -1107,6 +1110,17 @@ IsNullTransaction
 {
 return
 false
+;
+}
+virtual
+NullHttpTransaction
+*
+QueryNullTransaction
+(
+)
+{
+return
+nullptr
 ;
 }
 /
