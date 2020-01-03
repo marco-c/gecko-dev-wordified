@@ -397,6 +397,13 @@ EndFakeTracedTask
 ;
 private
 :
+virtual
+~
+FakeTracedTask
+(
+)
+{
+}
 /
 /
 No
