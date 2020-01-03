@@ -5015,9 +5015,11 @@ https
 /
 snippets
 .
+cdn
+.
 mozilla
 .
-com
+net
 /
 %
 STARTPAGE_VERSION
