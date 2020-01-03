@@ -381,9 +381,7 @@ DOMRequest
 >
 ReadContacts
 (
-const
-nsAString
-&
+IccContactType
 aContactType
 ErrorResult
 &
@@ -400,9 +398,7 @@ const
 JSContext
 *
 aCx
-const
-nsAString
-&
+IccContactType
 aContactType
 JS
 :
