@@ -28113,6 +28113,16 @@ aCursor
 .
 mCursor
 =
+GetWritingMode
+(
+)
+.
+IsVertical
+(
+)
+?
+NS_STYLE_CURSOR_VERTICAL_TEXT
+:
 NS_STYLE_CURSOR_TEXT
 ;
 /
