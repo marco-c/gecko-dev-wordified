@@ -1147,9 +1147,12 @@ virtual
 void
 WriteDebugInfo
 (
-nsACString
+std
+:
+:
+stringstream
 &
-aTo
+aStream
 )
 MOZ_OVERRIDE
 ;
