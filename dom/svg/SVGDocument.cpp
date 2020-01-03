@@ -800,6 +800,11 @@ mHasLoadedNonSVGUserAgentStyleSheets
 =
 true
 ;
+BeginUpdate
+(
+UPDATE_STYLE
+)
+;
 if
 (
 IsBeingUsedAsImage
@@ -1274,6 +1279,11 @@ nsLayoutStylesheetCache
 UASheet
 (
 )
+)
+;
+EndUpdate
+(
+UPDATE_STYLE
 )
 ;
 }
