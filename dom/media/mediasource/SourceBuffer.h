@@ -980,7 +980,7 @@ bool
 mUpdating
 ;
 bool
-mGenerateTimestamp
+mGenerateTimestamps
 ;
 bool
 mIsUsingFormatReader
