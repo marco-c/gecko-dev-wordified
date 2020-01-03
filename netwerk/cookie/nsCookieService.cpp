@@ -3007,6 +3007,17 @@ aError
 )
 override
 {
+if
+(
+PR_LOG_TEST
+(
+GetCookieLog
+(
+)
+PR_LOG_WARNING
+)
+)
+{
 int32_t
 result
 =
@@ -3081,6 +3092,7 @@ get
 )
 )
 ;
+}
 /
 /
 Rebuild

@@ -1465,6 +1465,15 @@ i
 +
 )
 {
+if
+(
+PR_LOG_TEST
+(
+gCacheLog
+PR_LOG_DEBUG
+)
+)
+{
 nsAutoCString
 path
 ;
@@ -1497,6 +1506,7 @@ get
 )
 )
 ;
+}
 mItems
 [
 i
