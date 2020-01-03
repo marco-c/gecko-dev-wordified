@@ -1279,6 +1279,11 @@ Size
 aSelectedPreviewSize
 )
 ;
+void
+ReleaseAudioChannelAgent
+(
+)
+;
 nsresult
 NotifyRecordingStatusChange
 (
@@ -1579,6 +1584,9 @@ DOMCameraControlListener
 :
 PreviewState
 mPreviewState
+;
+bool
+mRecording
 ;
 bool
 mSetInitialConfig
