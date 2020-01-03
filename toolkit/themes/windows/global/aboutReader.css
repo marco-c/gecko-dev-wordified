@@ -115,7 +115,7 @@ color
 ;
 }
 .
-print
+sepia
 {
 color
 :
@@ -127,7 +127,7 @@ background
 color
 :
 #
-fff1df
+f0ece7
 ;
 }
 .
@@ -269,7 +269,7 @@ header
 .
 domain
 .
-print
+sepia
 >
 .
 header
@@ -652,7 +652,7 @@ light
 content
 blockquote
 .
-print
+sepia
 >
 .
 content

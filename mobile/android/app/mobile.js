@@ -10257,7 +10257,6 @@ mode
 (
 light
 dark
-print
 auto
 )
 /
