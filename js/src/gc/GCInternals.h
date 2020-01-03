@@ -753,6 +753,7 @@ MovingTracer
 :
 JSTracer
 {
+explicit
 MovingTracer
 (
 JSRuntime
