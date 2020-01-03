@@ -484,7 +484,6 @@ aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
 ]
-const
 AudioChunk
 *
 aOutputChunk
@@ -583,7 +582,6 @@ aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
 ]
-const
 AudioChunk
 *
 aOutputChunk
