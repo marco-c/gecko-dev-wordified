@@ -184,6 +184,14 @@ Ci
 nsINetworkInterfaceListService
 .
 LIST_NOT_INCLUDE_DUN_INTERFACES
+|
+SpecialPowers
+.
+Ci
+.
+nsINetworkInterfaceListService
+.
+LIST_NOT_INCLUDE_FOTA_INTERFACES
 )
 ;
 var
