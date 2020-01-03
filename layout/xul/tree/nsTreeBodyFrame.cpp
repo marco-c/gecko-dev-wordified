@@ -27992,7 +27992,7 @@ WidgetGUIEvent
 event
 (
 true
-NS_SCROLL_EVENT
+eScroll
 nullptr
 )
 ;

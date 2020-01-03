@@ -1583,7 +1583,7 @@ eBasicEventClass
 FORWARDED_EVENT
 (
 scroll
-NS_SCROLL_EVENT
+eScroll
 (
 EventNameType_HTMLXUL
 |
