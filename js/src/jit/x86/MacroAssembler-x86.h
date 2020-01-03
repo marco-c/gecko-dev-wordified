@@ -6467,6 +6467,7 @@ dest
 ;
 pinsrd
 (
+1
 src
 .
 typeReg
@@ -6561,6 +6562,7 @@ scratch
 ;
 pinsrd
 (
+1
 scratch
 dest
 )

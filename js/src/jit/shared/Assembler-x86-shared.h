@@ -10010,6 +10010,8 @@ code
 void
 pinsrd
 (
+unsigned
+lane
 Register
 src
 FloatRegister
@@ -10025,8 +10027,9 @@ HasSSE2
 ;
 masm
 .
-pinsrd_rr
+pinsrd_irr
 (
+lane
 src
 .
 code
@@ -10043,6 +10046,8 @@ code
 void
 pinsrd
 (
+unsigned
+lane
 const
 Operand
 &
@@ -10075,8 +10080,9 @@ REG
 :
 masm
 .
-pinsrd_rr
+pinsrd_irr
 (
+lane
 src
 .
 reg
@@ -10099,8 +10105,9 @@ MEM_REG_DISP
 :
 masm
 .
-pinsrd_mr
+pinsrd_imr
 (
+lane
 src
 .
 disp
