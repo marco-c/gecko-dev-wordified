@@ -815,7 +815,7 @@ ErrorResult
 aRv
 )
 ;
-nsDOMFileList
+FileList
 *
 GetFiles
 (
@@ -1656,7 +1656,7 @@ the
 dataTransfer
 nsRefPtr
 <
-nsDOMFileList
+FileList
 >
 mFiles
 ;

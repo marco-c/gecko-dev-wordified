@@ -388,12 +388,6 @@ DOMFile
 h
 /
 cpp
-3
-.
-rename
-nsDOMFileList
-to
-DOMFileList
 *
 /
 class
@@ -3795,7 +3789,7 @@ mStoredFile
 }
 ;
 class
-nsDOMFileList
+FileList
 MOZ_FINAL
 :
 public
@@ -3804,7 +3798,7 @@ public
 nsWrapperCache
 {
 ~
-nsDOMFileList
+FileList
 (
 )
 {
@@ -3812,7 +3806,7 @@ nsDOMFileList
 public
 :
 explicit
-nsDOMFileList
+FileList
 (
 nsISupports
 *
@@ -3828,7 +3822,7 @@ aParent
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-nsDOMFileList
+FileList
 )
 NS_DECL_NSIDOMFILELIST
 virtual
@@ -3926,7 +3920,7 @@ Clear
 ;
 }
 static
-nsDOMFileList
+FileList
 *
 FromSupports
 (
@@ -4019,7 +4013,7 @@ endif
 return
 static_cast
 <
-nsDOMFileList
+FileList
 *
 >
 (
