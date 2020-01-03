@@ -1875,6 +1875,9 @@ params
 )
 :
         
+import
+mozinfo
+        
 from
 mozlog
 .
@@ -1942,7 +1945,7 @@ cppunittests
 '
 )
             
-progs
+tests
 =
 cppunittests
 .
@@ -1951,13 +1954,15 @@ extract_unittests_from_args
 [
 testdir
 ]
-None
+mozinfo
+.
+info
 )
         
 else
 :
             
-progs
+tests
 =
 cppunittests
 .
@@ -1969,7 +1974,9 @@ params
 test_files
 '
 ]
-None
+mozinfo
+.
+info
 )
         
 #
@@ -2031,7 +2038,7 @@ tester
 .
 run_tests
 (
-progs
+tests
 self
 .
 bindir
