@@ -175,6 +175,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -1087,6 +1096,9 @@ than
 to
 crash
 .
+unused
+<
+<
 mEncodingCompleteEvent
 .
 forget
