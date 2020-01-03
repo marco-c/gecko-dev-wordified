@@ -3113,11 +3113,10 @@ addEventListener
 "
 unload
 "
+function
 (
 event
 )
-=
->
 {
 /
 /

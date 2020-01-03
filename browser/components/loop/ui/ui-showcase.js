@@ -1137,11 +1137,7 @@ model
 mockConversationModel
 video
 :
-{
-enabled
-:
 true
-}
 }
 )
 )
@@ -1197,11 +1193,7 @@ model
 mockConversationModel
 video
 :
-{
-enabled
-:
 false
-}
 }
 )
 )
@@ -1267,11 +1259,7 @@ showDeclineMenu
 true
 video
 :
-{
-enabled
-:
 true
-}
 }
 )
 )
