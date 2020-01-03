@@ -5014,7 +5014,13 @@ ProvidesGlyphWidths
 return
 GetGlyphWidth
 (
+*
 aCtx
+-
+>
+GetDrawTarget
+(
+)
 aGID
 )
 /

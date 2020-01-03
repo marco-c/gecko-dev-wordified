@@ -431,10 +431,16 @@ mFont
 >
 GetGlyphWidth
 (
+*
 cb
 -
 >
 mContext
+-
+>
+GetDrawTarget
+(
+)
 glyphid
 )
 )

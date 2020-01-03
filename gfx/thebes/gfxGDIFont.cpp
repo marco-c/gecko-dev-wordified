@@ -3102,9 +3102,9 @@ gfxGDIFont
 :
 GetGlyphWidth
 (
-gfxContext
-*
-aCtx
+DrawTarget
+&
+aDrawTarget
 uint16_t
 aGID
 )
@@ -3151,13 +3151,7 @@ width
 DCFromDrawTarget
 dc
 (
-*
-aCtx
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 )
 ;
 AutoSelectFont
