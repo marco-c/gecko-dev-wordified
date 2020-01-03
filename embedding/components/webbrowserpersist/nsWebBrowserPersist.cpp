@@ -11861,8 +11861,12 @@ get
 )
 )
 ;
-goto
-end
+aFilename
+=
+fileName
+;
+return
+NS_OK
 ;
 }
 if
@@ -12187,8 +12191,6 @@ is
 for
 arbitrary
 }
-end
-:
 aFilename
 =
 fileName
