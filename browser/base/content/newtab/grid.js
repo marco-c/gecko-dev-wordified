@@ -1197,9 +1197,9 @@ sponsored
 newTabString
 (
 "
-suggested
+sponsored
 .
-tag
+button
 "
 )
 +
