@@ -151,6 +151,11 @@ nsAutoRef
 .
 h
 "
+#
+include
+<
+cmath
+>
 /
 *
 *
@@ -2248,8 +2253,6 @@ to
 (
 like
 99
-.
-xxxx
 %
 )
 without
@@ -2304,6 +2307,8 @@ else
 {
 mLevel
 =
+round
+(
 g_value_get_double
 (
 static_cast
@@ -2319,6 +2324,7 @@ aHashTable
 "
 Percentage
 "
+)
 )
 )
 )
