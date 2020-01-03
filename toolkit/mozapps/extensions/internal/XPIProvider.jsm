@@ -17018,14 +17018,13 @@ addon
 if
 (
 signedState
-=
+!
 =
 addon
 .
 signedState
 )
-continue
-;
+{
 addon
 .
 signedState
@@ -17050,6 +17049,7 @@ signedState
 ]
 )
 ;
+}
 let
 disabled
 =
