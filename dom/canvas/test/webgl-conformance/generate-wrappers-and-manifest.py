@@ -218,6 +218,12 @@ skip
 -
 if
 '
+  
+'
+fail
+-
+if
+'
 ]
 )
 GENERATED_HEADER
