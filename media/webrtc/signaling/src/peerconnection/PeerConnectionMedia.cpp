@@ -2088,6 +2088,8 @@ const
 JsepSession
 &
 session
+bool
+restartGathering
 )
 {
 auto
@@ -2266,10 +2268,16 @@ NS_DISPATCH_NORMAL
 )
 ;
 }
+if
+(
+restartGathering
+)
+{
 GatherIfReady
 (
 )
 ;
+}
 }
 nsresult
 PeerConnectionMedia

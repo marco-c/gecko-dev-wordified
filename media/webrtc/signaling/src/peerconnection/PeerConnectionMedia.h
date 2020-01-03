@@ -1364,6 +1364,8 @@ const
 JsepSession
 &
 session
+bool
+restartGathering
 )
 ;
 /
