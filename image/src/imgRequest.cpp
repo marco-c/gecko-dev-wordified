@@ -4666,7 +4666,7 @@ so
 Progress
 progress
 =
-OnStopRequestProgress
+LoadCompleteProgress
 (
 lastPart
 /

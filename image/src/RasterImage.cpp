@@ -10592,7 +10592,7 @@ FinishedSomeDecoding
 (
 eShutdownIntent_Done
 nullptr
-OnStopRequestProgress
+LoadCompleteProgress
 (
 aLastPart
 mError

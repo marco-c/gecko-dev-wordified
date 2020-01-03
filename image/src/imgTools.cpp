@@ -607,7 +607,7 @@ tracker
 >
 SyncNotifyProgress
 (
-FLAG_REQUEST_STOPPED
+FLAG_LOAD_COMPLETE
 )
 ;
 NS_ENSURE_SUCCESS

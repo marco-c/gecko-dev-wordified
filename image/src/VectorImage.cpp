@@ -2638,7 +2638,7 @@ mProgressTracker
 >
 SyncNotifyProgress
 (
-OnStopRequestProgress
+LoadCompleteProgress
 (
 aLastPart
 mError
@@ -3421,7 +3421,7 @@ mProgressTracker
 >
 SyncNotifyProgress
 (
-FLAG_FRAME_STOPPED
+FLAG_FRAME_COMPLETE
 nsIntRect
 :
 :
@@ -7648,13 +7648,13 @@ mProgressTracker
 >
 SyncNotifyProgress
 (
-FLAG_HAS_SIZE
+FLAG_SIZE_AVAILABLE
 |
 FLAG_HAS_TRANSPARENCY
 |
-FLAG_FRAME_STOPPED
+FLAG_FRAME_COMPLETE
 |
-FLAG_DECODE_STOPPED
+FLAG_DECODE_COMPLETE
 |
 FLAG_ONLOAD_UNBLOCKED
 nsIntRect
@@ -7750,7 +7750,7 @@ mProgressTracker
 >
 SyncNotifyProgress
 (
-FLAG_DECODE_STOPPED
+FLAG_DECODE_COMPLETE
 |
 FLAG_ONLOAD_UNBLOCKED
 |
