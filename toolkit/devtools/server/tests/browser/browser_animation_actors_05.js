@@ -313,10 +313,7 @@ initialState
 let
 onNewState
 =
-(
-e
 state
-)
 =
 >
 {
