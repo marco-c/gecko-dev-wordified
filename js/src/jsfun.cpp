@@ -14584,7 +14584,10 @@ via
 JSAPI
 *
 (
-JS_CloneFunctionObject
+JS
+:
+:
+CloneFunctionObject
 )
 which
 dynamically
