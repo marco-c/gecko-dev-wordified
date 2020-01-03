@@ -9297,7 +9297,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -9510,7 +9510,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -9577,7 +9577,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -9691,7 +9691,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -9856,7 +9856,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -10020,7 +10020,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -14682,8 +14682,6 @@ padding
 start
 :
 10px
-!
-important
 ;
 border
 -

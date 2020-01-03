@@ -1999,7 +1999,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -2072,7 +2072,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton

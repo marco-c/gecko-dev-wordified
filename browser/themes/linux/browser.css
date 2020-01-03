@@ -4774,7 +4774,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 :
 -
 moz
@@ -4911,7 +4911,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 :
 -
 moz
@@ -5018,7 +5018,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -5337,7 +5337,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 :
 -
 moz
@@ -5691,7 +5691,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 :
 -
 moz

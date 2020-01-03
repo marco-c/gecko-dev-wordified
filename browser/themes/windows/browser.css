@@ -5501,13 +5501,6 @@ png
 loop
 -
 button
->
-.
-toolbarbutton
--
-badge
--
-container
 {
 list
 -
@@ -5563,13 +5556,6 @@ resolution
 loop
 -
 button
->
-.
-toolbarbutton
--
-badge
--
-container
 {
 list
 -
@@ -6312,7 +6298,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 #
 nav
 -
@@ -6553,7 +6539,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -7269,7 +7255,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 #
 nav
 -
@@ -7484,7 +7470,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 #
 nav
 -
@@ -7598,7 +7584,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -8672,7 +8658,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 conditionalForwardWithUrlbar
 >
 #
@@ -9564,7 +9550,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 {
 background
 :
@@ -9881,7 +9867,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 {
 text
 -
