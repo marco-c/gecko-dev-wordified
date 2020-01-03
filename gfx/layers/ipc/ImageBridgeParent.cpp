@@ -780,7 +780,7 @@ AutoImageBridgeParentAsyncMessageSender
 mImageBridge
 -
 >
-SendPendingAsyncMessges
+SendPendingAsyncMessages
 (
 )
 ;
@@ -2032,7 +2032,7 @@ void
 ImageBridgeParent
 :
 :
-SendFenceHandleToTrackerIfPresent
+AppendDeliverFenceMessage
 (
 uint64_t
 aDestHolderId
@@ -2181,7 +2181,7 @@ void
 ImageBridgeParent
 :
 :
-SendFenceHandleToTrackerIfPresent
+AppendDeliverFenceMessage
 (
 base
 :
@@ -2224,7 +2224,7 @@ return
 imageBridge
 -
 >
-SendFenceHandleToTrackerIfPresent
+AppendDeliverFenceMessage
 (
 aDestHolderId
 aTransactionId
@@ -2242,7 +2242,7 @@ void
 ImageBridgeParent
 :
 :
-SendPendingAsyncMessges
+SendPendingAsyncMessages
 (
 base
 :
@@ -2275,7 +2275,7 @@ return
 imageBridge
 -
 >
-SendPendingAsyncMessges
+SendPendingAsyncMessages
 (
 )
 ;

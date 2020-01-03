@@ -1182,7 +1182,7 @@ ImageBridge
 ImageBridgeParent
 :
 :
-SendFenceHandleToTrackerIfPresent
+AppendDeliverFenceMessage
 (
 GetChildProcessId
 (
@@ -1680,7 +1680,7 @@ void
 CompositableParentManager
 :
 :
-SendPendingAsyncMessges
+SendPendingAsyncMessages
 (
 )
 {

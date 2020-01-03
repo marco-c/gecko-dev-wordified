@@ -296,7 +296,7 @@ aMessage
 0
 ;
 void
-SendPendingAsyncMessges
+SendPendingAsyncMessages
 (
 )
 ;
