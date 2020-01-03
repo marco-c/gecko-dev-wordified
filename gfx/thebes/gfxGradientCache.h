@@ -143,6 +143,7 @@ GradientStops
 *
 GetGradientStops
 (
+const
 gfx
 :
 :
@@ -173,6 +174,7 @@ GradientStops
 *
 GetOrCreateGradientStops
 (
+const
 gfx
 :
 :

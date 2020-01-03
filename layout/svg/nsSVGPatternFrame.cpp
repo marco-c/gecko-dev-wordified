@@ -1783,6 +1783,10 @@ nsSVGPatternFrame
 :
 PaintPattern
 (
+const
+DrawTarget
+*
+aDrawTarget
 Matrix
 *
 patternMatrix
@@ -2725,15 +2729,10 @@ DrawTarget
 >
 dt
 =
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
+aDrawTarget
 -
 >
-CreateOffscreenContentDrawTarget
+CreateSimilarDrawTarget
 (
 surfaceSize
 SurfaceFormat
@@ -4803,6 +4802,10 @@ nsIFrame
 *
 aSource
 const
+DrawTarget
+*
+aDrawTarget
+const
 gfxMatrix
 &
 aContextMatrix
@@ -4872,6 +4875,7 @@ surface
 =
 PaintPattern
 (
+aDrawTarget
 &
 pMatrix
 ToMatrix

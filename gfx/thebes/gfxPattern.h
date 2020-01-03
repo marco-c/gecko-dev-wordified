@@ -332,6 +332,7 @@ cache
 void
 CacheColorStops
 (
+const
 mozilla
 :
 :

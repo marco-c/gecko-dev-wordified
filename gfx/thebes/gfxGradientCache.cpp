@@ -1153,6 +1153,7 @@ gfxGradientCache
 :
 GetGradientStops
 (
+const
 DrawTarget
 *
 aDT
@@ -1217,6 +1218,7 @@ gfxGradientCache
 :
 GetOrCreateGradientStops
 (
+const
 DrawTarget
 *
 aDT
