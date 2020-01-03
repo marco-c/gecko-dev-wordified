@@ -2021,10 +2021,8 @@ among
 its
 predecessors
 .
-nsRefPtr
-<
 ImportLoader
->
+*
 GetNearestPredecessor
 (
 nsINode
