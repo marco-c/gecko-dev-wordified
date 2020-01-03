@@ -14763,6 +14763,7 @@ GetFormat
 {
 MOZ_ASSERT
 (
+false
 "
 Invalid
 sampling
