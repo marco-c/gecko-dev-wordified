@@ -212,7 +212,7 @@ throw
 new
 Error
 (
-gcli
+l10n
 .
 lookup
 (
