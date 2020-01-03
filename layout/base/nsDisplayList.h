@@ -2614,7 +2614,6 @@ this
 function
 .
 return
-(
 gfxPrefs
 :
 :
@@ -2623,13 +2622,7 @@ LayoutEventRegionsEnabledDoNotUseDirectly
 )
 |
 |
-gfxPrefs
-:
-:
-AsyncPanZoomEnabled
-(
-)
-)
+mAsyncPanZoomEnabled
 ;
 }
 return
@@ -6562,6 +6555,9 @@ mIsBuildingForPopup
 ;
 bool
 mForceLayerForScrollParent
+;
+bool
+mAsyncPanZoomEnabled
 ;
 }
 ;

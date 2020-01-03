@@ -2875,6 +2875,15 @@ return
 mParentIsActive
 ;
 }
+bool
+AsyncPanZoomEnabled
+(
+)
+{
+return
+mAsyncPanZoomEnabled
+;
+}
 protected
 :
 virtual
@@ -3617,6 +3626,9 @@ mIPCOpen
 ;
 bool
 mParentIsActive
+;
+bool
+mAsyncPanZoomEnabled
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

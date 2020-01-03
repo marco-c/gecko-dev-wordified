@@ -11332,6 +11332,7 @@ nsLayoutUtils
 :
 UsesAsyncScrolling
 (
+mOuter
 )
 &
 &
@@ -12629,11 +12630,12 @@ nullptr
 }
 if
 (
-gfxPrefs
+nsLayoutUtils
 :
 :
 AsyncPanZoomEnabled
 (
+mOuter
 )
 )
 {
@@ -18672,11 +18674,12 @@ else
 {
 shouldBuildLayer
 =
-gfxPrefs
+nsLayoutUtils
 :
 :
 AsyncPanZoomEnabled
 (
+mOuter
 )
 &
 &
@@ -19984,6 +19987,7 @@ nsLayoutUtils
 :
 UsesAsyncScrolling
 (
+mOuter
 )
 ;
 #
@@ -21734,11 +21738,12 @@ DEVICE_PIXELS
 &
 &
 !
-gfxPrefs
+nsLayoutUtils
 :
 :
 AsyncPanZoomEnabled
 (
+mOuter
 )
 )
 {

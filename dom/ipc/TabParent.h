@@ -2864,6 +2864,12 @@ CSSPoint
 aPoint
 )
 ;
+bool
+AsyncPanZoomEnabled
+(
+)
+const
+;
 /
 /
 Update

@@ -32749,11 +32749,12 @@ ShouldAvoidComponentAlphaLayers
 &
 &
 !
-gfxPrefs
+nsLayoutUtils
 :
 :
 AsyncPanZoomEnabled
 (
+aContainerFrame
 )
 )
 {
@@ -32931,11 +32932,12 @@ flattenToSingleLayer
 &
 &
 !
-gfxPrefs
+nsLayoutUtils
 :
 :
 AsyncPanZoomEnabled
 (
+aContainerFrame
 )
 )
 {

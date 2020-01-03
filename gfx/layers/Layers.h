@@ -4594,6 +4594,17 @@ return
 mAnimationReadyTime
 ;
 }
+virtual
+bool
+AsyncPanZoomEnabled
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 nsRefPtr
