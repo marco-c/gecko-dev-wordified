@@ -2004,7 +2004,7 @@ IsOffline
 mAudioChannelAgent
 -
 >
-StopPlaying
+NotifyStoppedPlaying
 (
 )
 ;
@@ -2913,7 +2913,7 @@ mAudioChannelAgent
 mAudioChannelAgent
 -
 >
-StopPlaying
+NotifyStoppedPlaying
 (
 )
 ;
@@ -3353,7 +3353,7 @@ aMuted
 mAudioChannelAgent
 -
 >
-StopPlaying
+NotifyStoppedPlaying
 (
 )
 ;
@@ -3378,7 +3378,7 @@ rv
 mAudioChannelAgent
 -
 >
-StartPlaying
+NotifyStartedPlaying
 (
 &
 volume
