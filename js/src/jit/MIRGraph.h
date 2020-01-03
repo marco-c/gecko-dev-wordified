@@ -1125,7 +1125,7 @@ to
 the
 MStart
 .
-void
+bool
 linkOsrValues
 (
 MStart
