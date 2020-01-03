@@ -6895,6 +6895,9 @@ true
 /
 SystemUpdate
 API
+#
+ifdef
+MOZ_WIDGET_GONK
 pref
 (
 "
@@ -6919,6 +6922,8 @@ prompt
 "
 )
 ;
+#
+endif
 #
 else
 /
