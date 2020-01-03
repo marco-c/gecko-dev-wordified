@@ -49440,6 +49440,9 @@ starts
 NS_ASSERTION
 (
 preformatNewlines
+|
+|
+preformatTabs
 "
 We
 can
@@ -49450,8 +49453,14 @@ here
 unless
 newlines
 are
+"
+"
 hard
 breaks
+or
+there
+are
+tabs
 "
 )
 ;
