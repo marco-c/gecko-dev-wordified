@@ -412,6 +412,7 @@ gfxIntSize
 &
 aSize
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -427,6 +428,7 @@ GetSize
 (
 )
 const
+MOZ_OVERRIDE
 ;
 Display
 *
@@ -643,6 +645,7 @@ GetMemoryLocation
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 if

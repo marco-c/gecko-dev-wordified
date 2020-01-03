@@ -201,6 +201,7 @@ Shutdown
 (
 )
 ;
+virtual
 nsresult
 Callback
 (
@@ -213,6 +214,7 @@ nsAString
 &
 state
 )
+MOZ_OVERRIDE
 ;
 private
 :

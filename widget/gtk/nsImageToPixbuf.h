@@ -136,6 +136,7 @@ imgIContainer
 *
 aImage
 )
+MOZ_OVERRIDE
 ;
 /
 /
