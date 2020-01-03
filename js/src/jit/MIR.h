@@ -15763,7 +15763,7 @@ None
 }
 ;
 class
-MTypedObjectProto
+MTypedObjectDescr
 :
 public
 MUnaryInstruction
@@ -15776,7 +15776,7 @@ Data
 private
 :
 explicit
-MTypedObjectProto
+MTypedObjectDescr
 (
 MDefinition
 *
@@ -15802,10 +15802,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-TypedObjectProto
+TypedObjectDescr
 )
 static
-MTypedObjectProto
+MTypedObjectDescr
 *
 New
 (
@@ -15822,7 +15822,7 @@ new
 (
 alloc
 )
-MTypedObjectProto
+MTypedObjectDescr
 (
 object
 )
