@@ -576,12 +576,6 @@ mPowerLevel
 -
 1
 )
-mOrigin
-(
-EmptyString
-(
-)
-)
 mOriginType
 (
 -
@@ -635,9 +629,6 @@ mMaxSupportedLength
 ;
 int32_t
 mPowerLevel
-;
-nsString
-mOrigin
 ;
 int32_t
 mOriginType
