@@ -18063,17 +18063,6 @@ mIsFullyObscured
 =
 false
 ;
-if
-(
-!
-nsGtkIMModule
-:
-:
-IsVirtualKeyboardOpened
-(
-)
-)
-{
 /
 /
 if
@@ -18090,7 +18079,6 @@ EnsureGrabs
 (
 )
 ;
-}
 break
 ;
 default
