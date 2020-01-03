@@ -322,7 +322,6 @@ Unknown
 =
 0
 Basic
-GLTextureShare
 EGLImageShare
 EGLSurfaceANGLE
 DXGLInterop
