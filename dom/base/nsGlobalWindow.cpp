@@ -17508,6 +17508,9 @@ gcreason
 :
 :
 SET_DOC_SHELL
+GetWrapperPreserveColor
+(
+)
 )
 ;
 mContext
