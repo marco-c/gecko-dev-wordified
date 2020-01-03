@@ -1579,6 +1579,8 @@ pc
 JSRuntime
 *
 rt
+bool
+forLastCallSite
 )
 ;
 public
