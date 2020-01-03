@@ -4681,7 +4681,7 @@ NS_ERROR_FAILURE
 ;
 }
 uint64_t
-duration
+durationUs
 =
 0
 ;
@@ -4745,7 +4745,7 @@ trackMeta
 GetDuration
 (
 &
-duration
+durationUs
 )
 ;
 /
@@ -4880,7 +4880,7 @@ NS_ERROR_FAILURE
 /
 If
 the
-duration
+durationUs
 is
 0
 imply
@@ -4892,7 +4892,7 @@ stream
 .
 if
 (
-duration
+durationUs
 )
 {
 /
@@ -4918,7 +4918,14 @@ mDecoder
 >
 SetDuration
 (
-duration
+(
+double
+)
+(
+durationUs
+)
+/
+USECS_PER_S
 )
 ;
 }
