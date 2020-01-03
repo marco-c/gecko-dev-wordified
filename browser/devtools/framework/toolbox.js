@@ -916,6 +916,17 @@ button
 screenshot
 "
 }
+{
+id
+:
+"
+command
+-
+button
+-
+rulers
+"
+}
 ]
 ;
 /
