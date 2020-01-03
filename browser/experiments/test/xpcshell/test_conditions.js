@@ -2477,6 +2477,7 @@ TelemetrySession
 .
 shutdown
 (
+false
 )
 ;
 }

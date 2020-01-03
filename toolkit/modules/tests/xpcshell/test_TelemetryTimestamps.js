@@ -589,6 +589,7 @@ TelemetrySession
 .
 shutdown
 (
+false
 )
 ;
 do_test_finished

@@ -3920,6 +3920,7 @@ TelemetrySession
 .
 shutdown
 (
+false
 )
 .
 then
