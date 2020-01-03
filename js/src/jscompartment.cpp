@@ -5198,6 +5198,15 @@ if
 (
 !
 objectMetadataTable
+|
+|
+!
+objectMetadataTable
+-
+>
+init
+(
+)
 )
 CrashAtUnhandlableOOM
 (
