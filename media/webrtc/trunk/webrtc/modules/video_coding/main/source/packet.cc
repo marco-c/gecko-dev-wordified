@@ -517,6 +517,9 @@ codec
 case
 kRtpVideoVp8
 :
+case
+kRtpVideoVp9
+:
 /
 /
 Handle
@@ -592,7 +595,16 @@ kNaluIncomplete
 ;
 codec
 =
+videoHeader
+.
+codec
+=
+=
+kRtpVideoVp8
+?
 kVideoCodecVP8
+:
+kVideoCodecVP9
 ;
 return
 ;

@@ -770,6 +770,15 @@ return
 VCM_CODEC_ERROR
 ;
 }
+/
+/
+XXX
+fix
+VP9
+(
+bug
+1138629
+)
 int
 numLayers
 =
