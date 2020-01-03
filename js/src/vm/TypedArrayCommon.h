@@ -5032,10 +5032,7 @@ JS_ReportErrorNumber
 cx
 GetErrorMessage
 nullptr
-JSMSG_TYPED_ARRAY_BAD_INDEX
-"
-2
-"
+JSMSG_BAD_INDEX
 )
 ;
 return
