@@ -2073,7 +2073,7 @@ BeforeAfterKeyboardEvent
 Event
 mMessage
 :
-NS_KEY_BEFORE_DOWN
+eBeforeKeyDown
 *
 NS_KEY_BEFORE_UP
 *

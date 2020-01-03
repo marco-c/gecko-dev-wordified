@@ -675,7 +675,7 @@ mMessage
 )
 {
 case
-NS_KEY_BEFORE_DOWN
+eBeforeKeyDown
 :
 case
 eKeyDown
@@ -854,7 +854,7 @@ mMessage
 )
 {
 case
-NS_KEY_BEFORE_DOWN
+eBeforeKeyDown
 :
 case
 eKeyDown

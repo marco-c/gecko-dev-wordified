@@ -195,7 +195,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_KEY_BEFORE_DOWN
+eBeforeKeyDown
 eWindowEventFirst
 +
 34

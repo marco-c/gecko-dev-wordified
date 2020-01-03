@@ -1165,7 +1165,7 @@ eKeyboardEventClass
 NON_IDL_EVENT
 (
 mozbrowserbeforekeydown
-NS_KEY_BEFORE_DOWN
+eBeforeKeyDown
 EventNameType_None
 eBeforeAfterKeyboardEventClass
 )

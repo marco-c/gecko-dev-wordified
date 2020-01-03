@@ -4266,7 +4266,7 @@ through
 .
 .
 case
-NS_KEY_BEFORE_DOWN
+eBeforeKeyDown
 :
 case
 eKeyDown

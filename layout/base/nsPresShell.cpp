@@ -40965,7 +40965,7 @@ mMessage
 eKeyDown
 )
 ?
-NS_KEY_BEFORE_DOWN
+eBeforeKeyDown
 :
 NS_KEY_BEFORE_UP
 ;
