@@ -513,6 +513,9 @@ endif
 /
 MOZ_NFC
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 mozilla
@@ -534,6 +537,8 @@ RTCCertificateBinding
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -13870,6 +13875,9 @@ tag
 SCTAG_DOM_RTC_CERTIFICATE
 )
 {
+#
+ifdef
+MOZ_WEBRTC
 nsIGlobalObject
 *
 global
@@ -13975,6 +13983,13 @@ nullptr
 return
 result
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 /
 /
@@ -14095,6 +14110,9 @@ writer
 )
 ;
 }
+#
+ifdef
+MOZ_WEBRTC
 /
 /
 Handle
@@ -14136,6 +14154,8 @@ writer
 )
 ;
 }
+#
+endif
 if
 (
 xpc
