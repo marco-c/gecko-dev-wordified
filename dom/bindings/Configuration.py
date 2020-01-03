@@ -436,57 +436,21 @@ location
 )
 )
             
-#
-Some
-toplevel
-things
-are
-sadly
-types
-and
-those
-have
-an
-            
-#
-isInterface
-that
-doesn
-'
-t
-mean
-the
-same
+assert
+not
 thing
-as
-IDLObject
-'
-s
-            
-#
-isInterface
+.
+isType
 (
 )
-.
-.
-.
+;
             
 if
-(
 not
-isinstance
-(
 thing
-IDLInterface
-)
-and
-                
-not
-isinstance
+.
+isInterface
 (
-thing
-IDLExternalInterface
-)
 )
 :
                 
@@ -7051,6 +7015,8 @@ isCallback
 )
 and
 type
+.
+callback
 not
 in
 callbacks
@@ -7064,6 +7030,8 @@ getFlatTypes
 getTypesFromCallback
 (
 type
+.
+callback
 )
 )
                 
@@ -7072,6 +7040,8 @@ callbacks
 add
 (
 type
+.
+callback
 )
             
 elif

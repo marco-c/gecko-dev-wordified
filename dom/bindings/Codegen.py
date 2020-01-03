@@ -7830,16 +7830,6 @@ isCallback
 )
 :
                 
-#
-Callbacks
-are
-both
-a
-type
-and
-an
-object
-                
 headerSet
 .
 add
@@ -7849,6 +7839,8 @@ self
 getDeclarationFilename
 (
 unrolled
+.
+callback
 )
 )
             
@@ -9463,6 +9455,8 @@ CGHeaders
 getDeclarationFilename
 (
 f
+.
+callback
 )
 )
                 
@@ -39628,13 +39622,19 @@ treatNonCallableAsNull
 (
 )
         
-name
+callback
 =
 type
 .
 unroll
 (
 )
+.
+callback
+        
+name
+=
+callback
 .
 identifier
 .
@@ -48594,6 +48594,8 @@ returnType
 unroll
 (
 )
+.
+callback
 .
 identifier
 .
@@ -69640,6 +69642,8 @@ type
 unroll
 (
 )
+.
+callback
 .
 identifier
 .
@@ -98277,10 +98281,13 @@ builder
 .
 addInMozillaDom
 (
-str
-(
 t
-)
+.
+callback
+.
+identifier
+.
+name
 )
             
 elif
@@ -98528,9 +98535,15 @@ in
 mainCallbacks
 :
             
-forwardDeclareForType
+builder
+.
+addInMozillaDom
 (
 callback
+.
+identifier
+.
+name
 )
             
 for
@@ -98558,9 +98571,15 @@ in
 workerCallbacks
 :
             
-forwardDeclareForType
+builder
+.
+addInMozillaDom
 (
 callback
+.
+identifier
+.
+name
 )
             
 for
@@ -101671,6 +101690,8 @@ unroll
 (
 )
 .
+callback
+.
 identifier
 .
 name
@@ -103733,6 +103754,8 @@ type
 unroll
 (
 )
+.
+callback
 .
 identifier
 .
