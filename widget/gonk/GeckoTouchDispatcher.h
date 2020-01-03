@@ -394,7 +394,10 @@ GeckoTouchDispatcher
 )
 public
 :
+static
 GeckoTouchDispatcher
+*
+GetInstance
 (
 )
 ;
@@ -422,7 +425,6 @@ TimeStamp
 aVsyncTime
 )
 ;
-static
 bool
 NotifyVsync
 (
@@ -430,7 +432,6 @@ TimeStamp
 aVsyncTimestamp
 )
 ;
-static
 void
 SetCompositorVsyncObserver
 (
@@ -444,6 +445,10 @@ aObserver
 ;
 private
 :
+GeckoTouchDispatcher
+(
+)
+;
 void
 ResampleTouchMoves
 (
