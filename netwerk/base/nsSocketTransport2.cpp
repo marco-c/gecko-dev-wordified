@@ -12036,7 +12036,8 @@ If
 we
 are
 not
-offline
+shutting
+down
 try
 again
 .
@@ -12046,7 +12047,7 @@ if
 gIOService
 -
 >
-IsOffline
+IsShutdown
 (
 )
 &
