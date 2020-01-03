@@ -991,11 +991,16 @@ status
         
 elif
 status
-!
-=
+not
+in
+(
 "
 PASS
 "
+"
+SKIP
+"
+)
 :
             
 status_name
