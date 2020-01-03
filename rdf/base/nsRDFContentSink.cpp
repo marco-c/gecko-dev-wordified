@@ -1371,16 +1371,11 @@ mDocumentURL
 ;
 private
 :
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gLog
 ;
-#
-endif
 }
 ;
 int32_t
@@ -1447,9 +1442,6 @@ RDFContentSinkImpl
 :
 kRDF_nextVal
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 RDFContentSinkImpl
@@ -1457,8 +1449,6 @@ RDFContentSinkImpl
 :
 gLog
 ;
-#
-endif
 /
 /
 /
@@ -1834,9 +1824,6 @@ rdf_atoms
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -1851,8 +1838,6 @@ nsRDFContentSink
 "
 )
 ;
-#
-endif
 }
 RDFContentSinkImpl
 :
@@ -1994,9 +1979,6 @@ state
 parseMode
 )
 ;
-#
-ifdef
-PR_LOGGING
 /
 /
 print
@@ -2071,8 +2053,6 @@ uri
 )
 ;
 }
-#
-endif
 NS_IF_RELEASE
 (
 resource
@@ -2564,9 +2544,6 @@ catch
 unmatched
 tags
 ?
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -2625,8 +2602,6 @@ tagCStr
 )
 ;
 }
-#
-endif
 return
 NS_ERROR_UNEXPECTED
 ;

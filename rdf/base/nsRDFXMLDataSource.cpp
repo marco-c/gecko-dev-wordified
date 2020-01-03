@@ -970,16 +970,11 @@ nsIRDFService
 *
 gRDFService
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gLog
 ;
-#
-endif
 nsresult
 Init
 (
@@ -1906,9 +1901,6 @@ RDFXMLDataSourceImpl
 :
 gRDFService
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 RDFXMLDataSourceImpl
@@ -1916,8 +1908,6 @@ RDFXMLDataSourceImpl
 :
 gLog
 ;
-#
-endif
 static
 const
 char
@@ -2122,9 +2112,6 @@ mLoadState
 eLoadState_Unloaded
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -2139,8 +2126,6 @@ nsRDFXMLDataSource
 "
 )
 ;
-#
-endif
 }
 nsresult
 RDFXMLDataSourceImpl
@@ -4346,9 +4331,6 @@ mURL
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 spec
 ;
@@ -4386,8 +4368,6 @@ get
 )
 )
 ;
-#
-endif
 nsresult
 rv
 ;
@@ -4755,9 +4735,6 @@ bool
 aBlocking
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 spec
 ;
@@ -4813,8 +4790,6 @@ non
 )
 )
 ;
-#
-endif
 /
 /
 If
@@ -5101,9 +5076,6 @@ BeginLoad
 void
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 spec
 ;
@@ -5149,8 +5121,6 @@ get
 )
 )
 ;
-#
-endif
 mLoadState
 =
 eLoadState_Loading
@@ -5251,9 +5221,6 @@ Interrupt
 void
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 spec
 ;
@@ -5297,8 +5264,6 @@ get
 )
 )
 ;
-#
-endif
 for
 (
 int32_t
@@ -5395,9 +5360,6 @@ Resume
 void
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 spec
 ;
@@ -5441,8 +5403,6 @@ get
 )
 )
 ;
-#
-endif
 for
 (
 int32_t
@@ -5539,9 +5499,6 @@ EndLoad
 void
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 spec
 ;
@@ -5587,8 +5544,6 @@ get
 )
 )
 ;
-#
-endif
 mLoadState
 =
 eLoadState_Loaded

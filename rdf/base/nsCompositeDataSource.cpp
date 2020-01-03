@@ -342,9 +342,6 @@ nsEnumeratorUtils
 h
 "
 #
-ifdef
-PR_LOGGING
-#
 include
 "
 prlog
@@ -371,8 +368,6 @@ nsRDFLog
 =
 nullptr
 ;
-#
-endif
 /
 /
 -
@@ -2419,9 +2414,6 @@ mUpdateBatchNest
 0
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 nsRDFLog
@@ -2438,8 +2430,6 @@ RDF
 "
 )
 ;
-#
-endif
 }
 /
 /
