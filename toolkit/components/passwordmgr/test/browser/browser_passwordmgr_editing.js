@@ -268,6 +268,7 @@ defaultView
 ;
 }
 function
+*
 togglePasswords
 (
 )
@@ -286,6 +287,20 @@ togglePasswords
 .
 doCommand
 (
+)
+;
+yield
+new
+Promise
+(
+resolve
+=
+>
+waitForFocus
+(
+resolve
+pwmgrdlg
+)
 )
 ;
 }
@@ -1033,6 +1048,8 @@ oldUsername
 newUsername
 )
 ;
+yield
+*
 togglePasswords
 (
 )
@@ -1046,6 +1063,8 @@ oldPassword
 newPassword
 )
 ;
+yield
+*
 togglePasswords
 (
 )
