@@ -5966,14 +5966,6 @@ TypedArrayObject
 >
 (
 )
-|
-|
-is
-<
-TypedObject
->
-(
-)
 ;
 }
 void
