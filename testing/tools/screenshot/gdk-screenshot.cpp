@@ -505,8 +505,11 @@ have_xscreensaver
 =
 XScreenSaverQueryExtension
 (
-GDK_DISPLAY
+GDK_DISPLAY_XDISPLAY
 (
+gdk_display_get_default
+(
+)
 )
 &
 event_base
@@ -576,8 +579,11 @@ return
 }
 XScreenSaverQueryInfo
 (
-GDK_DISPLAY
+GDK_DISPLAY_XDISPLAY
 (
+gdk_display_get_default
+(
+)
 )
 GDK_ROOT_WINDOW
 (
