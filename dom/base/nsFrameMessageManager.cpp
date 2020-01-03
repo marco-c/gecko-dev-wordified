@@ -8969,7 +8969,9 @@ ppm
 nsFrameMessageManager
 :
 :
-sChildProcessManager
+GetChildProcessManager
+(
+)
 ;
 ReceiveMessage
 (
@@ -10252,7 +10254,9 @@ NS_ASSERTION
 nsFrameMessageManager
 :
 :
-sChildProcessManager
+GetChildProcessManager
+(
+)
 "
 Re
 -
@@ -10318,9 +10322,10 @@ MM_OWNSCALLBACK
 nsFrameMessageManager
 :
 :
-sChildProcessManager
-=
+SetChildProcessManager
+(
 mm
+)
 ;
 return
 CallQueryInterface

@@ -699,7 +699,9 @@ cpm
 nsFrameMessageManager
 :
 :
-sChildProcessManager
+GetChildProcessManager
+(
+)
 ;
 if
 (
