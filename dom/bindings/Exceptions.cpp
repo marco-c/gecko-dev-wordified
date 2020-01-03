@@ -1132,6 +1132,16 @@ if
 (
 !
 cx
+|
+|
+!
+js
+:
+:
+GetContextCompartment
+(
+cx
+)
 )
 {
 return
