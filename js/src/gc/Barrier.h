@@ -1217,7 +1217,7 @@ The
 pointers
 can
 be
-thoughs
+thought
 of
 as
 edges
