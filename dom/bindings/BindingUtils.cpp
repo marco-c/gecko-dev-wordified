@@ -7178,14 +7178,14 @@ desc
 .
 setGetter
 (
-nullptr
+JS_PropertyStub
 )
 ;
 desc
 .
 setSetter
 (
-nullptr
+JS_StrictPropertyStub
 )
 ;
 desc

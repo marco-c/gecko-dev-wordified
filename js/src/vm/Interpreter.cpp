@@ -965,6 +965,10 @@ JSCLASS_HAS_RESERVED_SLOTS
 )
 |
 JSCLASS_IS_ANONYMOUS
+nullptr
+nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 }
 ;
 /

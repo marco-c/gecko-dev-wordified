@@ -1094,6 +1094,16 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Atomics
 )
+nullptr
+/
+/
+addProperty
+nullptr
+/
+/
+delProperty
+JS_PropertyStub
+JS_StrictPropertyStub
 }
 ;
 static

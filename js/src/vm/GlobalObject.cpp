@@ -3162,8 +3162,8 @@ GlobalDebuggee
 JSCLASS_HAS_PRIVATE
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 nullptr
 nullptr
 nullptr

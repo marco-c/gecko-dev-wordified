@@ -173,8 +173,8 @@ BarkWhenTracedClass
 0
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 nullptr
 nullptr
 nullptr

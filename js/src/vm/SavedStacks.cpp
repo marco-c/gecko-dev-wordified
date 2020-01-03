@@ -903,11 +903,11 @@ nullptr
 /
 /
 delProperty
-nullptr
+JS_PropertyStub
 /
 /
 getProperty
-nullptr
+JS_StrictPropertyStub
 /
 /
 setProperty
@@ -926,6 +926,9 @@ convert
 SavedFrame
 :
 :
+finalize
+/
+/
 finalize
 }
 ;

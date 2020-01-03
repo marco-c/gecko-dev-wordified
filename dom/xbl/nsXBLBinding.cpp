@@ -697,8 +697,8 @@ JSCLASS_HAS_RESERVED_SLOTS
 )
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 XBLEnumerate
 nullptr
 nullptr

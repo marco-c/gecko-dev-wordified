@@ -2730,13 +2730,13 @@ nullptr
 delProperty
 *
 /
-nullptr
+JS_PropertyStub
 /
 *
 getProperty
 *
 /
-nullptr
+JS_StrictPropertyStub
 /
 *
 setProperty
