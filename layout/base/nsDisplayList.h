@@ -5895,6 +5895,9 @@ WantsAsyncScroll
 bool
 mHaveScrollableDisplayPort
 ;
+bool
+mWindowDraggingAllowed
+;
 }
 ;
 class

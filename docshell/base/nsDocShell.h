@@ -5614,6 +5614,9 @@ mUseRemoteTabs
 bool
 mDeviceSizeIsPageSize
 ;
+bool
+mWindowDraggingAllowed
+;
 /
 /
 Because
