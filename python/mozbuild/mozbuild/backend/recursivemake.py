@@ -2760,9 +2760,6 @@ file_generate
 script
 }
 {
-method
-}
-{
 output
 }
 {
@@ -2808,12 +2805,6 @@ script
 obj
 .
 script
-           
-method
-=
-obj
-.
-method
 )
 )
         
