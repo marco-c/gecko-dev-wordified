@@ -4462,6 +4462,10 @@ x
 width
 ;
 }
+mRetainedTiles
+=
+newRetainedTiles
+;
 AsDerived
 (
 )
@@ -4481,7 +4485,7 @@ i
 ;
 i
 <
-newRetainedTiles
+mRetainedTiles
 .
 Length
 (
@@ -4498,7 +4502,7 @@ AsDerived
 .
 UnlockTile
 (
-newRetainedTiles
+mRetainedTiles
 [
 i
 ]
@@ -4528,10 +4532,6 @@ old
 tiles
 "
 )
-;
-mRetainedTiles
-=
-newRetainedTiles
 ;
 mValidRegion
 =
