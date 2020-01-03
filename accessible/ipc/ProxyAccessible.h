@@ -1131,7 +1131,8 @@ ColHeaderCells
 (
 nsTArray
 <
-uint64_t
+ProxyAccessible
+*
 >
 *
 aCells
@@ -1142,7 +1143,8 @@ RowHeaderCells
 (
 nsTArray
 <
-uint64_t
+ProxyAccessible
+*
 >
 *
 aCells
