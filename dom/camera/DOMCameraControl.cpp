@@ -7751,6 +7751,9 @@ kInSetConfiguration
 if
 (
 mSetInitialConfig
+&
+&
+mCameraControl
 )
 {
 /
