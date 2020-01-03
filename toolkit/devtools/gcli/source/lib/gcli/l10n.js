@@ -207,7 +207,7 @@ QueryInterface
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 var
@@ -585,7 +585,7 @@ return
 !
 prefBranch
 .
-prefHasUserValue
+getBoolPref
 (
 '
 devtools
