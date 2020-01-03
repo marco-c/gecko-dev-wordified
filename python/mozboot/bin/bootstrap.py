@@ -234,8 +234,6 @@ mozboot
 android
 -
 ndk
--
-r8e
 .
 rb
 '
