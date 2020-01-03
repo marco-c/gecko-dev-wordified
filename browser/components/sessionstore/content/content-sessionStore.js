@@ -5072,7 +5072,7 @@ chromeEventHandler
 ;
 cpmm
 .
-sendAsyncMessage
+sendSyncMessage
 (
 "
 SessionStore

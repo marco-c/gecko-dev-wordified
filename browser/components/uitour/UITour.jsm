@@ -4545,7 +4545,7 @@ message
 -
 manager
 -
-close
+disconnect
 "
 false
 )
@@ -4846,7 +4846,7 @@ message
 -
 manager
 -
-close
+disconnect
 "
 :
 {
