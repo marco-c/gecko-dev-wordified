@@ -24119,8 +24119,7 @@ intersectRects
 }
 if
 (
-!
-StoreWindowClipRegion
+IsWindowClipRegionEqual
 (
 *
 newRects
@@ -24128,6 +24127,12 @@ newRects
 )
 return
 NS_OK
+;
+StoreWindowClipRegion
+(
+*
+newRects
+)
 ;
 if
 (
