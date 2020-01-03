@@ -810,7 +810,7 @@ appender
 console
 "
 "
-Warn
+Fatal
 "
 )
 ;
