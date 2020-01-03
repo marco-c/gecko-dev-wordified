@@ -426,7 +426,7 @@ This
 Arguments
 *
 [
-Operator
+Operators
 ]
 *
 Comparison
@@ -1152,7 +1152,7 @@ decrement
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -1204,7 +1204,7 @@ stack
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -1288,7 +1288,7 @@ stack
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -1337,7 +1337,7 @@ stack
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -1495,7 +1495,7 @@ necessary
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -1603,7 +1603,7 @@ them
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -1789,7 +1789,7 @@ operands
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -1888,7 +1888,7 @@ rval
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -1970,7 +1970,7 @@ rval
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -2048,7 +2048,7 @@ them
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -2174,7 +2174,7 @@ val
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -2238,7 +2238,7 @@ val
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -2301,7 +2301,7 @@ val
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -2378,7 +2378,7 @@ number
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -2701,7 +2701,7 @@ val
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -2756,7 +2756,7 @@ undefined
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -3068,7 +3068,7 @@ stack
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -4998,7 +4998,7 @@ values
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -5599,7 +5599,7 @@ stack
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -7915,7 +7915,7 @@ value
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -8000,7 +8000,7 @@ object
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -9582,7 +9582,7 @@ stack
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -12253,7 +12253,7 @@ undefined
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
@@ -12933,7 +12933,7 @@ interpreter
 *
 Category
 :
-Operator
+Operators
 *
 Type
 :
