@@ -93,17 +93,49 @@ marionette_driver
 gestures
 import
 long_press_without_contextmenu
-from
-math
-import
-ceil
-floor
 class
-SelectionCaretsTest
+CommonCaretsTestCase
 (
-MarionetteTestCase
+object
 )
 :
+    
+'
+'
+'
+Common
+test
+cases
+for
+a
+selection
+with
+a
+two
+carets
+.
+    
+To
+run
+these
+test
+cases
+a
+subclass
+must
+inherit
+from
+both
+this
+class
+and
+    
+MarionetteTestCase
+.
+    
+'
+'
+'
     
 _long_press_time
 =
@@ -218,11 +250,14 @@ are
 run
 .
         
-MarionetteTestCase
+super
+(
+CommonCaretsTestCase
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -235,9 +270,180 @@ self
 .
 marionette
 )
+        
+#
+The
+carets
+to
+be
+tested
+.
+        
+self
+.
+carets_tested_pref
+=
+None
+        
+#
+The
+carets
+to
+be
+disabled
+in
+this
+test
+suite
+.
+        
+self
+.
+carets_disabled_pref
+=
+None
     
 def
-openTestHtml
+set_pref
+(
+self
+pref_name
+value
+)
+:
+        
+'
+'
+'
+Set
+a
+preference
+to
+value
+.
+        
+For
+example
+:
+        
+>
+>
+>
+set_pref
+(
+'
+layout
+.
+accessiblecaret
+.
+enabled
+'
+True
+)
+        
+'
+'
+'
+        
+pref_name
+=
+repr
+(
+pref_name
+)
+        
+if
+isinstance
+(
+value
+bool
+)
+:
+            
+value
+=
+'
+true
+'
+if
+value
+else
+'
+false
+'
+        
+elif
+isinstance
+(
+value
+int
+)
+:
+            
+value
+=
+str
+(
+value
+)
+        
+else
+:
+            
+value
+=
+repr
+(
+value
+)
+        
+script
+=
+'
+'
+'
+SpecialPowers
+.
+pushPrefEnv
+(
+{
+"
+set
+"
+:
+[
+[
+%
+s
+%
+s
+]
+]
+}
+marionetteScriptFinished
+)
+;
+'
+'
+'
+%
+(
+            
+pref_name
+value
+)
+        
+self
+.
+marionette
+.
+execute_async_script
+(
+script
+)
+    
+def
+open_test_html
 (
 self
 enabled
@@ -270,50 +476,22 @@ caret
         
 self
 .
-marionette
-.
-execute_async_script
+set_pref
 (
-            
-'
-SpecialPowers
+self
 .
-pushPrefEnv
-(
-{
-"
-set
-"
-:
-[
-[
-"
-selectioncaret
-.
+carets_tested_pref
 enabled
-"
-%
-s
-]
-]
-}
-marionetteScriptFinished
 )
-;
-'
-%
-            
+        
+self
+.
+set_pref
 (
-'
-true
-'
-if
-enabled
-else
-'
-false
-'
-)
+self
+.
+carets_disabled_pref
+False
 )
         
 test_html
@@ -421,7 +599,7 @@ _content_selector
 )
     
 def
-openTestHtml2
+open_test_html2
 (
 self
 enabled
@@ -454,39 +632,22 @@ caret
         
 self
 .
-marionette
-.
-execute_script
+set_pref
 (
-            
-'
-SpecialPowers
+self
 .
-setBoolPref
-(
-"
-selectioncaret
-.
+carets_tested_pref
 enabled
-"
-%
-s
 )
-;
-'
-%
-            
+        
+self
+.
+set_pref
 (
-'
-true
-'
-if
-enabled
-else
-'
-false
-'
-)
+self
+.
+carets_disabled_pref
+False
 )
         
 test_html2
@@ -1806,10 +1967,9 @@ el
 .
 tap
 (
-ceil
-(
 left_caret_left_edge_x
-)
++
+2
 caret3_y
 )
         
@@ -1830,10 +1990,9 @@ el
 .
 tap
 (
-floor
-(
 right_caret_right_edge_x
-)
+-
+2
 caret4_y
 )
         
@@ -2043,11 +2202,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2071,11 +2227,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2099,11 +2252,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2127,11 +2277,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2155,11 +2302,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2183,11 +2327,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2211,11 +2352,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2396,7 +2534,7 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
 enabled
 =
@@ -2424,7 +2562,7 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
 enabled
 =
@@ -2609,11 +2747,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2637,11 +2772,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2665,11 +2797,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2693,11 +2822,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2721,11 +2847,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2749,11 +2872,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2777,11 +2897,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -2962,7 +3079,7 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
 enabled
 =
@@ -2990,7 +3107,7 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
 enabled
 =
@@ -3180,11 +3297,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3208,11 +3322,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3236,11 +3347,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3426,7 +3534,7 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
 enabled
 =
@@ -3454,7 +3562,7 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
 enabled
 =
@@ -3640,11 +3748,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3668,11 +3773,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3696,11 +3798,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3724,11 +3823,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3752,11 +3848,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3780,11 +3873,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3808,11 +3898,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -3994,7 +4081,7 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
 enabled
 =
@@ -4022,7 +4109,7 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
 enabled
 =
@@ -4210,11 +4297,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -4238,11 +4322,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -4266,11 +4347,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -4294,11 +4372,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -4322,11 +4397,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -4350,11 +4422,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -4378,11 +4447,8 @@ self
         
 self
 .
-openTestHtml
+open_test_html
 (
-enabled
-=
-True
 )
         
 self
@@ -4568,11 +4634,8 @@ self
         
 self
 .
-openTestHtml2
+open_test_html2
 (
-enabled
-=
-True
 )
         
 self
@@ -4759,11 +4822,8 @@ self
         
 self
 .
-openTestHtml2
+open_test_html2
 (
-enabled
-=
-True
 )
         
 self
@@ -4952,11 +5012,8 @@ self
         
 self
 .
-openTestHtml2
+open_test_html2
 (
-enabled
-=
-True
 )
         
 self
@@ -4970,3 +5027,95 @@ self
 .
 assertEqual
 )
+class
+SelectionCaretsTestCase
+(
+CommonCaretsTestCase
+MarionetteTestCase
+)
+:
+    
+def
+setUp
+(
+self
+)
+:
+        
+super
+(
+SelectionCaretsTestCase
+self
+)
+.
+setUp
+(
+)
+        
+self
+.
+carets_tested_pref
+=
+'
+selectioncaret
+.
+enabled
+'
+        
+self
+.
+carets_disabled_pref
+=
+'
+layout
+.
+accessiblecaret
+.
+enabled
+'
+class
+AccessibleCaretSelectionModeTestCase
+(
+CommonCaretsTestCase
+MarionetteTestCase
+)
+:
+    
+def
+setUp
+(
+self
+)
+:
+        
+super
+(
+AccessibleCaretSelectionModeTestCase
+self
+)
+.
+setUp
+(
+)
+        
+self
+.
+carets_tested_pref
+=
+'
+layout
+.
+accessiblecaret
+.
+enabled
+'
+        
+self
+.
+carets_disabled_pref
+=
+'
+selectioncaret
+.
+enabled
+'
