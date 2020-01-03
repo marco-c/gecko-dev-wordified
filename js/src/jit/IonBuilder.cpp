@@ -73963,9 +73963,13 @@ TypedProto
 ;
 out
 .
-addProto
+addDescr
 (
 typedProto
+.
+typeDescr
+(
+)
 )
 ;
 }
