@@ -307,6 +307,7 @@ enumerable
 false
 )
 ;
+new
 aConstDesc
 .
 value

@@ -600,6 +600,11 @@ CantInlineNotConstructor
 \
 _
 (
+CantInlineClassConstructor
+)
+\
+_
+(
 CantInlineDisabledIon
 )
 \
