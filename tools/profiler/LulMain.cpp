@@ -8060,6 +8060,7 @@ void
 *
 )
 aRXavma
+aSize
 mLog
 )
 ;
@@ -8099,6 +8100,7 @@ void
 *
 )
 aRXavma
+aSize
 mLog
 )
 ;

@@ -484,6 +484,8 @@ smap
 void
 *
 rx_avma
+size_t
+rx_size
 void
 (
 *
@@ -553,6 +555,8 @@ smap
 void
 *
 rx_avma
+size_t
+rx_size
 void
 (
 *
