@@ -177,13 +177,6 @@ h
 #
 include
 "
-nsIJSNativeInitializer
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
