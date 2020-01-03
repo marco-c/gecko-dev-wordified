@@ -3333,7 +3333,6 @@ new
 URLSearchParams
 (
 this
-this
 )
 ;
 UpdateURLSearchParams
