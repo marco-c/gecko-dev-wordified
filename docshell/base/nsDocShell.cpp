@@ -81841,6 +81841,13 @@ NS_ERROR_NOT_AVAILABLE
 ;
 }
 }
+bool
+isReload
+=
+mLoadType
+&
+LOAD_CMD_RELOAD
+;
 return
 swm
 -
@@ -81849,6 +81856,7 @@ DispatchFetchEvent
 (
 doc
 aChannel
+isReload
 )
 ;
 }
