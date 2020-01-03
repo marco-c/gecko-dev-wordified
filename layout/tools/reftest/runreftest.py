@@ -138,6 +138,8 @@ dumpScreen
     
 environment
     
+printstatus
+    
 processLeakLog
 )
 import
@@ -3533,7 +3535,7 @@ else
 try
 :
           
-proc
+process
 .
 kill
 (
@@ -3602,7 +3604,7 @@ process
 "
 )
     
-proc
+process
 .
 kill
 (
