@@ -484,13 +484,6 @@ pairCount
 0
 ;
 bool
-initArray
-(
-size_t
-pairCount
-)
-;
-bool
 initArrayFrom
 (
 MatchPairs
