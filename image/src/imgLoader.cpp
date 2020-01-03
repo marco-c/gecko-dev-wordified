@@ -4048,6 +4048,11 @@ nsISupports
 aRequestingContext
 )
 {
+MOZ_ASSERT
+(
+aResult
+)
+;
 nsresult
 rv
 ;
