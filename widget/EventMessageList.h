@@ -2402,7 +2402,7 @@ eDeviceEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_DEVICE_MOTION
+eDeviceMotion
 eDeviceEventFirst
 +
 1

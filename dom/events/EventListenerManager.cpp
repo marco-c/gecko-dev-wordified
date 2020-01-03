@@ -1957,7 +1957,7 @@ ondevicemotion
 {
 EnableDevice
 (
-NS_DEVICE_MOTION
+eDeviceMotion
 )
 ;
 #
@@ -2586,7 +2586,7 @@ case
 eDeviceOrientation
 :
 case
-NS_DEVICE_MOTION
+eDeviceMotion
 :
 case
 NS_DEVICE_LIGHT
@@ -2686,7 +2686,7 @@ SENSOR_LIGHT
 break
 ;
 case
-NS_DEVICE_MOTION
+eDeviceMotion
 :
 window
 -
@@ -2780,7 +2780,7 @@ SENSOR_ORIENTATION
 break
 ;
 case
-NS_DEVICE_MOTION
+eDeviceMotion
 :
 window
 -
