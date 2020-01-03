@@ -163,7 +163,6 @@ Menu
 ;
 ok
 (
-!
 copyButton
 .
 getAttribute
@@ -177,7 +176,7 @@ Copy
 button
 is
 initially
-enabled
+disabled
 "
 )
 ;
