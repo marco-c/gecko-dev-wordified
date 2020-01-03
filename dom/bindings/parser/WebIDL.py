@@ -26161,6 +26161,14 @@ identifier
 =
 =
 "
+Deprecated
+"
+or
+              
+identifier
+=
+=
+"
 SetterThrows
 "
 or
@@ -30959,6 +30967,14 @@ identifier
 =
 "
 Pref
+"
+or
+              
+identifier
+=
+=
+"
+Deprecated
 "
 or
               
