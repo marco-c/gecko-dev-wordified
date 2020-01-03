@@ -881,6 +881,10 @@ const
 URIParams
 &
 aURI
+const
+bool
+&
+aAnonymous
 )
 override
 ;
