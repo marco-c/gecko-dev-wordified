@@ -16026,12 +16026,12 @@ sFontSizeInflationDisabledInMasterProcess
 }
 static
 bool
-SVGTransformOriginEnabled
+SVGTransformBoxEnabled
 (
 )
 {
 return
-sSVGTransformOriginEnabled
+sSVGTransformBoxEnabled
 ;
 }
 /
@@ -18704,7 +18704,7 @@ sInterruptibleReflowEnabled
 ;
 static
 bool
-sSVGTransformOriginEnabled
+sSVGTransformBoxEnabled
 ;
 /
 *

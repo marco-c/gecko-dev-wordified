@@ -4034,7 +4034,7 @@ a
 /
 lot
 rarer
-that
+than
 transforms
 on
 SVG
@@ -29747,8 +29747,6 @@ specified
 by
 the
 -
-moz
--
 transform
 -
 origin
@@ -29900,8 +29898,6 @@ if
 the
 value
 of
--
-moz
 -
 transform
 is
@@ -30126,8 +30122,6 @@ index
 *
 If
 the
--
-moz
 -
 transform
 -
@@ -30764,8 +30758,6 @@ index
 If
 the
 -
-moz
--
 transform
 -
 origin
@@ -31128,8 +31120,6 @@ aAppUnitsPerPixel
 Wraps
 up
 the
--
-moz
 -
 transform
 matrix
@@ -31709,8 +31699,6 @@ perspective
 Account
 for
 the
--
-moz
 -
 transform
 -
