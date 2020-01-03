@@ -2147,6 +2147,17 @@ texture
 }
 if
 (
+aAllocFlags
+&
+ALLOC_DISALLOW_BUFFERTEXTURECLIENT
+)
+{
+return
+nullptr
+;
+}
+if
+(
 texture
 )
 {
