@@ -4143,6 +4143,11 @@ if
 out
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 js_free
 (
 buffer

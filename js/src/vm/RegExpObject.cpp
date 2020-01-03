@@ -4173,9 +4173,16 @@ pairCount
 )
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 RegExpRunStatus_Error
 ;
+}
 /
 *
 *
