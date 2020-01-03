@@ -161,6 +161,13 @@ nsIWidget
 h
 "
 #
+include
+"
+TouchManager
+.
+h
+"
+#
 define
 APZES_LOG
 (
@@ -1055,7 +1062,7 @@ GetTarget
 bool
 isTouchPrevented
 =
-nsIPresShell
+TouchManager
 :
 :
 gPreventMouseEvents

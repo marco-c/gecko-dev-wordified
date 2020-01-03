@@ -799,6 +799,15 @@ Telemetry
 h
 "
 #
+include
+"
+mozilla
+/
+EventDispatcher
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
