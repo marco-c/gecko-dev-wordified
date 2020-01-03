@@ -2347,7 +2347,7 @@ target
 =
 evt
 .
-target
+composedTarget
 ;
 let
 range

@@ -1005,6 +1005,13 @@ GetExplicitOriginalTarget
 )
 const
 ;
+EventTarget
+*
+GetComposedTarget
+(
+)
+const
+;
 bool
 GetPreventDefault
 (
