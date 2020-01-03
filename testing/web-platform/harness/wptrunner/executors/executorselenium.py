@@ -170,10 +170,11 @@ __init__
 self
 browser
 http_server_url
+capabilities
+                 
 timeout_multiplier
 =
 1
-                 
 *
 *
 kwargs
@@ -196,11 +197,17 @@ timeout_multiplier
         
 self
 .
-webdriver_port
+capabilities
+=
+capabilities
+        
+self
+.
+url
 =
 browser
 .
-webdriver_port
+webdriver_url
         
 self
 .
@@ -225,19 +232,6 @@ uuid
 uuid4
 (
 )
-)
-        
-self
-.
-capabilities
-=
-kwargs
-.
-pop
-(
-"
-capabilities
-"
 )
     
 def
@@ -271,27 +265,6 @@ runner
 =
 runner
         
-url
-=
-"
-http
-:
-/
-/
-localhost
-:
-%
-i
-/
-wd
-/
-url
-"
-%
-self
-.
-webdriver_port
-        
 self
 .
 logger
@@ -309,6 +282,8 @@ URL
 s
 "
 %
+self
+.
 url
 )
         
@@ -319,13 +294,6 @@ False
 try
 :
             
-time
-.
-sleep
-(
-1
-)
-            
 self
 .
 webdriver
@@ -335,19 +303,14 @@ webdriver
 Remote
 (
                 
+self
+.
 url
 desired_capabilities
 =
 self
 .
 capabilities
-)
-            
-time
-.
-sleep
-(
-10
 )
         
 except
@@ -377,13 +340,6 @@ traceback
 format_exc
 (
 )
-)
-            
-time
-.
-sleep
-(
-1
 )
         
 else
@@ -513,6 +469,21 @@ teardown
 self
 )
 :
+        
+self
+.
+logger
+.
+debug
+(
+"
+Hanging
+up
+on
+Selenium
+session
+"
+)
         
 try
 :

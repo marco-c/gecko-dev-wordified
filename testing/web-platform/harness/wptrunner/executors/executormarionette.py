@@ -1499,19 +1499,6 @@ timeout
 )
 :
         
-assert
-len
-(
-self
-.
-marionette
-.
-window_handles
-)
-=
-=
-1
-        
 if
 self
 .
