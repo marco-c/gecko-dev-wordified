@@ -6072,6 +6072,20 @@ scope
 nullptr
 )
 ;
+MOZ_ASSERT
+(
+js
+:
+:
+GetGlobalForObjectCrossCompartment
+(
+scope
+)
+=
+=
+scope
+)
+;
 JS
 :
 :
@@ -6255,7 +6269,6 @@ JS
 NullPtr
 (
 )
-scope
 )
 ;
 if
@@ -6872,7 +6885,6 @@ cx
 &
 gPrototypeJSClass
 parent_proto
-global
 )
 ;
 if
