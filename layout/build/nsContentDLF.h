@@ -236,10 +236,6 @@ aChannel
 nsILoadGroup
 *
 aLoadGroup
-const
-char
-*
-aContentType
 nsIDocShell
 *
 aContainer

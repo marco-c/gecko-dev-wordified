@@ -6688,10 +6688,6 @@ resource
 chan
 newLoadGroup
 type
-.
-get
-(
-)
 nullptr
 nullptr
 getter_AddRefs
