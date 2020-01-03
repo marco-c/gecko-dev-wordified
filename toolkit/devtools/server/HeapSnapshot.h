@@ -599,10 +599,7 @@ js
 HashMap
 <
 NodeId
-UniquePtr
-<
 DeserializedNode
->
 >
 ;
 NodeMap
