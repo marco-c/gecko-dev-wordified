@@ -414,12 +414,6 @@ bool
 aEnded
 )
 ;
-bool
-IsExpectingMoreData
-(
-)
-override
-;
 /
 /
 Return
