@@ -547,8 +547,6 @@ PLDHashTableOps
 gMapOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 CompareCacheMatchEntry
 PL_DHashMoveEntryStub
