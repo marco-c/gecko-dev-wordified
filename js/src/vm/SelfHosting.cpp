@@ -6805,7 +6805,7 @@ JS_FN
 std_Function_apply
 "
 js_fun_apply
-1
+2
 0
 )
 JS_FN
@@ -6937,7 +6937,7 @@ JS_FN
 std_Object_hasOwnProperty
 "
 obj_hasOwnProperty
-2
+1
 0
 )
 JS_FN
@@ -7033,7 +7033,7 @@ JS_FN
 std_String_startsWith
 "
 str_startsWith
-2
+1
 0
 )
 JS_FN
@@ -7212,7 +7212,7 @@ JS_FN
 MakeConstructible
 "
 intrinsic_MakeConstructible
-1
+2
 0
 )
 JS_FN
