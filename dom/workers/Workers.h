@@ -807,14 +807,6 @@ window
 dump
 .
 enabled
-WORKERPREF_DOM_FETCH
-/
-/
-dom
-.
-fetch
-.
-enabled
 WORKERPREF_DOM_CACHES
 /
 /
