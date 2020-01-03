@@ -166,7 +166,10 @@ DevToolsUtils
 )
 ;
 let
-LayoutHelpers
+{
+getRect
+getIframeContentOffset
+}
 =
 require
 (
@@ -176,8 +179,8 @@ devtools
 toolkit
 /
 layout
--
-helpers
+/
+utils
 "
 )
 ;

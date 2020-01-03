@@ -128,7 +128,9 @@ jsm
 )
 ;
 const
-LayoutHelpers
+{
+getCurrentZoom
+}
 =
 require
 (
@@ -138,8 +140,8 @@ devtools
 toolkit
 /
 layout
--
-helpers
+/
+utils
 "
 )
 ;
@@ -6342,8 +6344,6 @@ wrong
 let
 zoom
 =
-LayoutHelpers
-.
 getCurrentZoom
 (
 this

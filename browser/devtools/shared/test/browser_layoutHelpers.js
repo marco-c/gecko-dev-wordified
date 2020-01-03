@@ -36,8 +36,10 @@ scrollIntoViewIfNeeded
 works
 properly
 .
-const
-LayoutHelpers
+let
+{
+scrollIntoViewIfNeeded
+}
 =
 require
 (
@@ -47,8 +49,8 @@ devtools
 toolkit
 /
 layout
--
-helpers
+/
+utils
 "
 )
 ;
@@ -106,15 +108,6 @@ runTest
 win
 )
 {
-let
-lh
-=
-new
-LayoutHelpers
-(
-win
-)
-;
 let
 some
 =
@@ -215,8 +208,6 @@ Above
 the
 viewport
 .
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -290,8 +281,6 @@ the
 top
 edge
 .
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -351,8 +340,6 @@ Just
 below
 the
 viewport
-.
-lh
 .
 scrollIntoViewIfNeeded
 (
@@ -423,8 +410,6 @@ the
 bottom
 edge
 .
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -485,8 +470,6 @@ innerHeight
 Above
 the
 viewport
-.
-lh
 .
 scrollIntoViewIfNeeded
 (
@@ -559,8 +542,6 @@ On
 the
 top
 edge
-.
-lh
 .
 scrollIntoViewIfNeeded
 (
@@ -629,8 +610,6 @@ Below
 the
 viewport
 .
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -696,8 +675,6 @@ On
 the
 bottom
 edge
-.
-lh
 .
 scrollIntoViewIfNeeded
 (

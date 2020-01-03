@@ -101,8 +101,6 @@ with
 the
 result
 of
-LayoutHelpers
-.
 getAdjustedQuads
 .
 There
