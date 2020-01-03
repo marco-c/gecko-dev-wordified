@@ -270,9 +270,8 @@ finish
 function
 handler
 (
-_
 name
-m
+data
 )
 {
 if
@@ -292,7 +291,9 @@ markers
 .
 concat
 (
-m
+data
+.
+markers
 .
 filter
 (
