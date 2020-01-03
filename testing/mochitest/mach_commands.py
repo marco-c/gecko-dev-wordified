@@ -5467,11 +5467,6 @@ parser
     
 return
 parser
-_st_parser
-=
-setup_argument_parser
-(
-)
 #
 condition
 filters
@@ -5790,7 +5785,7 @@ page
         
 parser
 =
-_st_parser
+setup_argument_parser
 )
     
 def
@@ -5944,7 +5939,7 @@ XUL
         
 parser
 =
-_st_parser
+setup_argument_parser
 )
     
 def
@@ -6079,7 +6074,7 @@ browser
         
 parser
 =
-_st_parser
+setup_argument_parser
 )
     
 def
@@ -6157,7 +6152,7 @@ frame
         
 parser
 =
-_st_parser
+setup_argument_parser
 )
     
 def
@@ -6350,7 +6345,7 @@ interface
         
 parser
 =
-_st_parser
+setup_argument_parser
 )
     
 def
@@ -6415,7 +6410,7 @@ tests
              
 parser
 =
-_st_parser
+setup_argument_parser
 )
     
 def
@@ -6490,7 +6485,7 @@ chrome
         
 parser
 =
-_st_parser
+setup_argument_parser
 )
     
 def
@@ -6567,7 +6562,7 @@ Runtime
         
 parser
 =
-_st_parser
+setup_argument_parser
 )
     
 def
@@ -6633,7 +6628,7 @@ test
              
 parser
 =
-_st_parser
+setup_argument_parser
 )
     
 CommandArgument
