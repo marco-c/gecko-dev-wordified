@@ -9379,6 +9379,10 @@ ResetPlayback
 (
 )
 {
+AssertCurrentThreadInMonitor
+(
+)
+;
 MOZ_ASSERT
 (
 mState
@@ -16121,14 +16125,7 @@ thread
 "
 )
 ;
-mDecoder
--
->
-GetReentrantMonitor
-(
-)
-.
-AssertNotCurrentThreadIn
+AssertCurrentThreadInMonitor
 (
 )
 ;
