@@ -10363,6 +10363,14 @@ descr
 heap
 )
 ;
+if
+(
+!
+obj
+)
+return
+nullptr
+;
 descr
 -
 >
