@@ -2365,6 +2365,14 @@ JSGCTraceKind
 kind
 )
 ;
+bool
+UnmarkGrayShapeRecursively
+(
+Shape
+*
+shape
+)
+;
 }
 /
 *
