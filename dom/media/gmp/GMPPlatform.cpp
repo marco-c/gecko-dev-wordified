@@ -674,6 +674,12 @@ if
 aRecordNameSize
 >
 GMP_MAX_RECORD_NAME_SIZE
+|
+|
+aRecordNameSize
+=
+=
+0
 )
 {
 NS_WARNING
@@ -686,6 +692,8 @@ CreateRecord
 with
 too
 long
+or
+0
 record
 name
 "
