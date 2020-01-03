@@ -5738,6 +5738,33 @@ stacktrace
 stacktrace
 )
         
+elif
+status
+=
+=
+errors
+.
+ErrorCodes
+.
+SESSION_NOT_CREATED
+:
+            
+raise
+errors
+.
+SessionNotCreatedException
+(
+message
+=
+message
+status
+=
+status
+stacktrace
+=
+stacktrace
+)
+        
 else
 :
             

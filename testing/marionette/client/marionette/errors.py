@@ -170,6 +170,10 @@ FRAME_SEND_FAILURE_ERROR
 =
 55
     
+SESSION_NOT_CREATED
+=
+71
+    
 UNSUPPORTED_OPERATION
 =
 405
@@ -727,6 +731,14 @@ MarionetteException
 pass
 class
 UnsupportedOperationException
+(
+MarionetteException
+)
+:
+    
+pass
+class
+SessionNotCreatedException
 (
 MarionetteException
 )
