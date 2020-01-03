@@ -9223,6 +9223,14 @@ obj
 isDelegate
 (
 )
+&
+&
+obj
+-
+>
+isNative
+(
+)
 )
 return
 PurgeScopeChainHelper
