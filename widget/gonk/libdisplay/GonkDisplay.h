@@ -235,6 +235,17 @@ GetFBSurface
 =
 0
 ;
+/
+*
+*
+*
+Only
+GonkDisplayICS
+uses
+arguments
+.
+*
+/
 virtual
 bool
 SwapBuffers
