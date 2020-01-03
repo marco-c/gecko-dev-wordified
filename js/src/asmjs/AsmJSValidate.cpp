@@ -58268,7 +58268,6 @@ loadBaselineOrIonNoArgCheck
 (
 callee
 callee
-SequentialExecution
 nullptr
 )
 ;

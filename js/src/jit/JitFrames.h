@@ -1545,14 +1545,6 @@ rfe
 )
 ;
 void
-HandleParallelFailure
-(
-ResumeFromException
-*
-rfe
-)
-;
-void
 EnsureExitFrame
 (
 CommonFrameLayout
