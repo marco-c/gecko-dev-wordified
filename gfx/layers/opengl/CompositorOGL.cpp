@@ -10509,10 +10509,11 @@ aQuads
 LayerScope
 :
 :
-SetLayerRects
+SetDrawRects
 (
 aQuads
 aLayerRects
+aTextureRects
 )
 ;
 }
