@@ -607,10 +607,7 @@ AutoTraceLog
 logCompile
 (
 logger
-TraceLogger
-:
-:
-BaselineCompilation
+TraceLogger_BaselineCompilation
 )
 ;
 if
@@ -2795,10 +2792,7 @@ masm
 tracelogStart
 (
 loggerReg
-TraceLogger
-:
-:
-Baseline
+TraceLogger_Baseline
 )
 ;
 masm
@@ -3034,10 +3028,7 @@ masm
 tracelogStop
 (
 loggerReg
-TraceLogger
-:
-:
-Baseline
+TraceLogger_Baseline
 )
 ;
 masm
@@ -3045,10 +3036,7 @@ masm
 tracelogStop
 (
 loggerReg
-TraceLogger
-:
-:
-Scripts
+TraceLogger_Scripts
 )
 ;
 masm
