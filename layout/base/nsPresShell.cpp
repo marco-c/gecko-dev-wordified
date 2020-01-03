@@ -37990,7 +37990,7 @@ true
 break
 ;
 case
-NS_POINTER_DOWN
+ePointerDown
 :
 /
 /
@@ -39957,7 +39957,7 @@ eMouseDown
 :
 pointerMessage
 =
-NS_POINTER_DOWN
+ePointerDown
 ;
 break
 ;
@@ -40109,7 +40109,7 @@ NS_TOUCH_START
 :
 pointerMessage
 =
-NS_POINTER_DOWN
+ePointerDown
 ;
 break
 ;
@@ -45097,7 +45097,7 @@ aEvent
 mMessage
 !
 =
-NS_POINTER_DOWN
+ePointerDown
 )
 {
 if
