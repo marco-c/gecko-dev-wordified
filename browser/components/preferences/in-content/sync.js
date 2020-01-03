@@ -1865,7 +1865,7 @@ setEventListener
 verifiedManage
 "
 "
-command
+click
 "
 gSyncPane
 .
