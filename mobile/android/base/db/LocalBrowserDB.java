@@ -6468,6 +6468,14 @@ ContentValues
 (
 )
 ;
+if
+(
+title
+!
+=
+null
+)
+{
 values
 .
 put
@@ -6480,6 +6488,7 @@ TITLE
 title
 )
 ;
+}
 values
 .
 put
