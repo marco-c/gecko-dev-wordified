@@ -3028,6 +3028,11 @@ aReason
 isUserInput
 :
 aIsUserInput
+hints
+:
+aContext
+.
+interactionHints
 }
 }
 }
