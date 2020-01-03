@@ -600,7 +600,7 @@ to
 be
 enlarged
 to
-accomodate
+accommodate
 new
 data
 .

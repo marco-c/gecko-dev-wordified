@@ -3013,7 +3013,7 @@ slots
 are
 /
 /
-obserbavle
+observable
 .
 If
 it

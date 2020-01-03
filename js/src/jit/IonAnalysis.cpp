@@ -12860,7 +12860,7 @@ immediateDominator
 ;
 /
 /
-Domininace
+Dominance
 is
 defined
 such

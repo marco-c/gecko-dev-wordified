@@ -945,7 +945,7 @@ assumed
 to
 be
 loop
-invaraint
+invariant
 as
 /
 /
