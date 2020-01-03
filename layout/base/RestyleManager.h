@@ -3054,6 +3054,11 @@ aRestyleHint
 )
 ;
 void
+FinishRebuildAllStyleData
+(
+)
+;
+void
 StyleChangeReflow
 (
 nsIFrame
