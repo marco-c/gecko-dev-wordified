@@ -2047,6 +2047,14 @@ nsLayoutUtils
 UsesAsyncScrolling
 (
 )
+&
+&
+gfxPrefs
+:
+:
+LayoutUseContainersForRootFrames
+(
+)
 )
 {
 nsIFrame
