@@ -161,12 +161,17 @@ MediaData
 h
 "
 #
+ifdef
+MOZ_FMP4
+#
 include
 "
 MP4Stream
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1561,6 +1566,9 @@ mOffset
 ;
 }
 ;
+#
+ifdef
+MOZ_FMP4
 class
 MP4ContainerParser
 :
@@ -2361,6 +2369,8 @@ mMonitor
 ;
 }
 ;
+#
+endif
 /
 *
 static
@@ -2412,6 +2422,9 @@ WebMContainerParser
 )
 ;
 }
+#
+ifdef
+MOZ_FMP4
 if
 (
 aType
@@ -2445,6 +2458,8 @@ MP4ContainerParser
 )
 ;
 }
+#
+endif
 return
 new
 ContainerParser
