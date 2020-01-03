@@ -975,6 +975,15 @@ jpeg_common_struct
 cinfo
 )
 ;
+static
+void
+OutputHandler
+(
+jpeg_common_struct
+*
+cinfo
+)
+;
 void
 AllocOutputBuffers
 (
