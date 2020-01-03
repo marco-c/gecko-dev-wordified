@@ -15254,6 +15254,10 @@ true
 /
 /
 aFollowOOFs
+false
+/
+/
+aSkipPopupChecks
 )
 ;
 NS_ENSURE_SUCCESS
@@ -17893,6 +17897,10 @@ true
 /
 /
 aFollowOOFs
+false
+/
+/
+aSkipPopupChecks
 )
 ;
 NS_ENSURE_SUCCESS

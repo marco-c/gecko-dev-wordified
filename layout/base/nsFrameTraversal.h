@@ -139,6 +139,8 @@ bool
 aLockInScrollView
 bool
 aFollowOOFs
+bool
+aSkipPopupChecks
 )
 ;
 nsresult
@@ -184,6 +186,8 @@ bool
 aLockInScrollView
 bool
 aFollowOOFs
+bool
+aSkipPopupChecks
 )
 override
 ;
