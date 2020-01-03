@@ -7,7 +7,7 @@ C
 )
 2013
 -
-2014
+2015
 Mozilla
 Foundation
 *
@@ -1044,6 +1044,16 @@ aIsoOut
 {
 if
 (
+!
+aIso
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
+if
+(
 strcmp
 (
 aIso
@@ -2019,6 +2029,11 @@ rv
 }
 if
 (
+val
+)
+{
+if
+(
 aKey
 =
 =
@@ -2035,10 +2050,6 @@ aValue
 ;
 }
 else
-if
-(
-val
-)
 {
 aValue
 .
@@ -2047,6 +2058,7 @@ AssignASCII
 val
 )
 ;
+}
 }
 else
 {
