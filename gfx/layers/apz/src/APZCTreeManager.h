@@ -3426,6 +3426,14 @@ ZoomConstraints
 aConstraints
 )
 ;
+void
+FlushRepaintsRecursively
+(
+AsyncPanZoomController
+*
+aApzc
+)
+;
 AsyncPanZoomController
 *
 PrepareAPZCForLayer
