@@ -479,6 +479,14 @@ _MD_IOVector
 "
 :
 true
+"
+malloc_table_t
+"
+:
+true
+/
+/
+replace_malloc
 }
 ;
 /
