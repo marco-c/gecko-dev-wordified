@@ -5056,7 +5056,7 @@ ModifyWakeLock
 NS_LITERAL_STRING
 (
 "
-nsNPAPIPluginInstance
+screen
 "
 )
 mWakeLocked
