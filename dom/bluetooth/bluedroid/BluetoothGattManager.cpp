@@ -2188,13 +2188,7 @@ mClient
 -
 >
 mStartLeScanRunnable
-BluetoothValue
-(
-mClient
--
->
-mAppUuid
-)
+aStatus
 )
 ;
 mClient
