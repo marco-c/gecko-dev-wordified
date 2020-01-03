@@ -61,6 +61,15 @@ use
 strict
 "
 ;
+const
+{
+utils
+:
+Cu
+}
+=
+Components
+;
 Cu
 .
 import
@@ -193,7 +202,7 @@ PromiseDebugging
 getPromiseID
 )
 ;
-info
+do_print
 (
 "
 Identifiers
@@ -383,7 +392,7 @@ function
 promise
 )
 {
-info
+do_print
 (
 this
 .
@@ -606,7 +615,7 @@ resolve
 }
 else
 {
-info
+do_print
 (
 this
 .
@@ -631,7 +640,7 @@ observations
 "
 )
 ;
-info
+do_print
 (
 JSON
 .
@@ -974,7 +983,7 @@ null
 =
 >
 {
-info
+do_print
 (
 "
 Consumed
@@ -1360,7 +1369,7 @@ push
 s
 )
 ;
-info
+do_print
 (
 "
 Promise
@@ -1460,7 +1469,7 @@ promise
 ;
 }
 }
-info
+do_print
 (
 "
 Test
@@ -1477,7 +1486,7 @@ onLeftUncaught
 .
 blocker
 ;
-info
+do_print
 (
 "
 All
@@ -1502,7 +1511,7 @@ size
 0
 )
 {
-info
+do_print
 (
 "
 onConsumed
@@ -1517,7 +1526,7 @@ Promise
 "
 )
 ;
-info
+do_print
 (
 JSON
 .
@@ -1552,7 +1561,7 @@ onConsumed
 blocker
 ;
 }
-info
+do_print
 (
 "
 All
@@ -1752,7 +1761,7 @@ Promise
 }
 }
 ;
-info
+do_print
 (
 "
 Adding
@@ -1812,7 +1821,7 @@ active
 =
 false
 ;
-info
+do_print
 (
 "
 Removing
@@ -1830,7 +1839,7 @@ Promise
 "
 )
 ;
-info
+do_print
 (
 "
 Rejecting
@@ -1913,3 +1922,13 @@ false
 }
 )
 ;
+function
+run_test
+(
+)
+{
+run_next_test
+(
+)
+;
+}
