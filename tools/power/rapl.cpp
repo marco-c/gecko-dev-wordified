@@ -518,6 +518,11 @@ algorithm
 #
 include
 <
+numeric
+>
+#
+include
+<
 vector
 >
 /
