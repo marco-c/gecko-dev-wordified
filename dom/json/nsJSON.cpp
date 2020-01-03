@@ -1367,9 +1367,11 @@ isObject
 )
 &
 &
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 &
 toJSON
 .

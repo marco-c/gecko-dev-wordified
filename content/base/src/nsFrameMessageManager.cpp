@@ -5619,9 +5619,11 @@ cx
 ;
 if
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 object
 )
 )
@@ -5777,9 +5779,11 @@ callable
 .
 NS_ENSURE_STATE
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 &
 funval
 .

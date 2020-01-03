@@ -4138,9 +4138,11 @@ isObject
 |
 |
 !
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 &
 args
 [

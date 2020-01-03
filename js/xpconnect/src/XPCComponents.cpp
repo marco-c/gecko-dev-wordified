@@ -17780,9 +17780,11 @@ propobj
 |
 |
 !
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 propobj
 )
 )
