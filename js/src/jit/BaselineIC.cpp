@@ -13295,6 +13295,7 @@ New
 ICNewObject_WithTemplate
 >
 (
+cx
 space
 code
 )
@@ -52855,10 +52856,7 @@ holder_
 )
 ;
 return
-ICStub
-:
-:
-New
+newStub
 <
 ICGetProp_Native
 >
@@ -52907,10 +52905,7 @@ lastProperty
 )
 ;
 return
-ICStub
-:
-:
-New
+newStub
 <
 ICGetProp_NativePrototype
 >
@@ -56342,10 +56337,7 @@ GetProp_CallDOMProxyNative
 )
 {
 return
-ICStub
-:
-:
-New
+newStub
 <
 ICGetProp_CallDOMProxyNative
 >
@@ -56365,10 +56357,7 @@ pcOffset_
 ;
 }
 return
-ICStub
-:
-:
-New
+newStub
 <
 ICGetProp_CallDOMProxyWithGenerationNative
 >
@@ -56422,6 +56411,7 @@ New
 ICGetProp_DOMProxyShadowed
 >
 (
+cx
 space
 getStubCode
 (
@@ -57397,6 +57387,9 @@ ICGetProp_Generic
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -57414,6 +57407,7 @@ New
 ICGetProp_Generic
 >
 (
+cx
 space
 other
 .
@@ -80334,10 +80328,7 @@ JUMP_OFFSET_LEN
 ;
 }
 return
-ICStub
-:
-:
-New
+newStub
 <
 ICTableSwitch
 >
@@ -83870,6 +83861,9 @@ ICGetElem_NativePrototypeCallNative
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -83887,6 +83881,7 @@ New
 ICGetElem_NativePrototypeCallNative
 >
 (
+cx
 space
 other
 .
@@ -83947,6 +83942,9 @@ ICGetElem_NativePrototypeCallScripted
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -83964,6 +83962,7 @@ New
 ICGetElem_NativePrototypeCallScripted
 >
 (
+cx
 space
 other
 .
@@ -84052,6 +84051,9 @@ ICGetElem_Dense
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -84069,6 +84071,7 @@ New
 ICGetElem_Dense
 >
 (
+cx
 space
 other
 .
@@ -84122,6 +84125,9 @@ ICGetElem_UnboxedArray
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -84139,6 +84145,7 @@ New
 ICGetElem_UnboxedArray
 >
 (
+cx
 space
 other
 .
@@ -84208,6 +84215,9 @@ ICGetElem_Arguments
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -84225,6 +84235,7 @@ New
 ICGetElem_Arguments
 >
 (
+cx
 space
 other
 .
@@ -84365,10 +84376,7 @@ getStubCode
 )
 ;
 return
-ICStub
-:
-:
-New
+newStub
 <
 ICSetElem_DenseOrUnboxedArrayAddImpl
 <
@@ -85006,6 +85014,9 @@ ICGetProp_Native
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -85023,6 +85034,7 @@ New
 ICGetProp_Native
 >
 (
+cx
 space
 other
 .
@@ -85096,6 +85108,9 @@ ICGetProp_NativePrototype
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -85113,6 +85128,7 @@ New
 ICGetProp_NativePrototype
 >
 (
+cx
 space
 other
 .
@@ -85526,6 +85542,9 @@ ICGetProp_CallScripted
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -85543,6 +85562,7 @@ New
 ICGetProp_CallScripted
 >
 (
+cx
 space
 other
 .
@@ -85582,6 +85602,9 @@ ICGetProp_CallNative
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -85599,6 +85622,7 @@ New
 ICGetProp_CallNative
 >
 (
+cx
 space
 other
 .
@@ -85713,10 +85737,7 @@ ICSetProp_Native
 *
 stub
 =
-ICStub
-:
-:
-New
+newStub
 <
 ICSetProp_Native
 >
@@ -86053,6 +86074,9 @@ ICSetProp_CallScripted
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86069,6 +86093,7 @@ New
 ICSetProp_CallScripted
 >
 (
+cx
 space
 other
 .
@@ -86107,6 +86132,9 @@ ICSetProp_CallNative
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86123,6 +86151,7 @@ New
 ICSetProp_CallNative
 >
 (
+cx
 space
 other
 .
@@ -86205,6 +86234,9 @@ ICCall_Scripted
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86222,6 +86254,7 @@ New
 ICCall_Scripted
 >
 (
+cx
 space
 other
 .
@@ -86253,6 +86286,9 @@ ICCall_AnyScripted
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86270,6 +86306,7 @@ New
 ICCall_AnyScripted
 >
 (
+cx
 space
 other
 .
@@ -86410,6 +86447,9 @@ ICCall_Native
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86427,6 +86467,7 @@ New
 ICCall_Native
 >
 (
+cx
 space
 other
 .
@@ -86575,6 +86616,9 @@ ICCall_ClassHook
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86595,6 +86639,7 @@ New
 ICCall_ClassHook
 >
 (
+cx
 space
 other
 .
@@ -86647,6 +86692,9 @@ ICCall_ScriptedApplyArray
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86664,6 +86712,7 @@ New
 ICCall_ScriptedApplyArray
 >
 (
+cx
 space
 other
 .
@@ -86689,6 +86738,9 @@ ICCall_ScriptedApplyArguments
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86706,6 +86758,7 @@ New
 ICCall_ScriptedApplyArguments
 >
 (
+cx
 space
 other
 .
@@ -86731,6 +86784,9 @@ ICCall_ScriptedFunCall
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86748,6 +86804,7 @@ New
 ICCall_ScriptedFunCall
 >
 (
+cx
 space
 other
 .
@@ -86926,6 +86983,9 @@ ICGetProp_CallDOMProxyNative
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -86943,6 +87003,7 @@ New
 ICGetProp_CallDOMProxyNative
 >
 (
+cx
 space
 other
 .
@@ -86987,6 +87048,9 @@ ICGetProp_CallDOMProxyWithGenerationNative
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -87004,6 +87068,7 @@ New
 ICGetProp_CallDOMProxyWithGenerationNative
 >
 (
+cx
 space
 other
 .
@@ -87106,6 +87171,9 @@ ICGetProp_DOMProxyShadowed
 :
 Clone
 (
+JSContext
+*
+cx
 ICStubSpace
 *
 space
@@ -87123,6 +87191,7 @@ New
 ICGetProp_DOMProxyShadowed
 >
 (
+cx
 space
 other
 .
