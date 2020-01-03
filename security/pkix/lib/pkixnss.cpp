@@ -1251,7 +1251,6 @@ too
 .
 static
 const
-struct
 PRErrorMessage
 ErrorTableText
 [
@@ -1463,7 +1462,6 @@ too
 .
 static
 const
-struct
 PRErrorTable
 ErrorTable
 =
