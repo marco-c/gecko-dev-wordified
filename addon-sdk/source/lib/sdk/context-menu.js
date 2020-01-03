@@ -2874,7 +2874,12 @@ this
 .
 .
 .
+JSON
+.
+parse
+(
 args
+)
 )
 ;
 }

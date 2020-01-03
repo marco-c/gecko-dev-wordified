@@ -875,9 +875,6 @@ to
 emit
 error
 event
-on
-a
-symbiont
 if
 exception
 is

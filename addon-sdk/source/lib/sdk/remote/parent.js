@@ -523,6 +523,12 @@ modules
 '
 globals
 '
+'
+resolve
+'
+'
+load
+'
 ]
 )
 ;

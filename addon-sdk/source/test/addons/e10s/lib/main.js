@@ -249,12 +249,9 @@ ok
 (
 tab
 .
-getAttribute
-(
-'
-remote
-'
-)
+linkedBrowser
+.
+isRemoteBrowser
 "
 The
 new

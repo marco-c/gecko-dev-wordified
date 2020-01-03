@@ -432,7 +432,7 @@ passed
 to
 the
 the
-BrowserWindowTrait
+BrowserWindow
 *
 returns
 {

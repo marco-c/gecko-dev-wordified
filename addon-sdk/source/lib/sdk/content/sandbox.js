@@ -1116,11 +1116,9 @@ object
 into
 a
 Panel
-Widget
-.
-.
-.
 scope
+for
+example
 .
 /
 /
@@ -1927,7 +1925,6 @@ e
 g
 Panel
 PageWorker
-Widget
 )
 .
 /

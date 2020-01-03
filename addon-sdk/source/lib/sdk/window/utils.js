@@ -1091,6 +1091,14 @@ name
 '
 chrome
 '
+|
+|
+name
+=
+=
+'
+all
+'
 )
 )
 return

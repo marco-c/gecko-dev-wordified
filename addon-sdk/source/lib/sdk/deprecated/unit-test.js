@@ -210,6 +210,7 @@ test
 utils
 "
 )
+;
 const
 findAndRunTests
 =

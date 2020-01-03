@@ -32,8 +32,8 @@ not
 distributed
 with
 this
-file
 *
+file
 You
 can
 obtain
@@ -222,6 +222,12 @@ return
 file
 ;
 }
+exports
+.
+createNsFile
+=
+createNsFile
+;
 const
 converter
 =

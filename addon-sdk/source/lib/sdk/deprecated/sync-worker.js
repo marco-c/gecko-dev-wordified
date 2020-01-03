@@ -783,7 +783,7 @@ scope
 of
 this
 *
-symbiont
+worker
 .
 *
 *
