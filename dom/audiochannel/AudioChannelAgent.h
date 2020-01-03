@@ -228,6 +228,13 @@ WindowVolumeChanged
 (
 )
 ;
+void
+WindowAudioCaptureChanged
+(
+uint64_t
+aInnerWindowID
+)
+;
 nsPIDOMWindow
 *
 Window
@@ -322,6 +329,9 @@ mWeakCallback
 ;
 int32_t
 mAudioChannelType
+;
+uint64_t
+mInnerWindowID
 ;
 bool
 mIsRegToService
