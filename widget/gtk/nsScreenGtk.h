@@ -378,6 +378,12 @@ MOZ_X11
 *
 /
 static
+gint
+GetGtkMonitorScaleFactor
+(
+)
+;
+static
 double
 GetDPIScale
 (
