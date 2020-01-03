@@ -439,7 +439,7 @@ i
 tmp
 -
 >
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -452,7 +452,7 @@ i
 {
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mConnectedFaces
+mRuleFaces
 [
 i
 ]
@@ -463,7 +463,7 @@ mFontFace
 }
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mOtherFaces
+mNonRuleFaces
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
@@ -501,7 +501,7 @@ i
 tmp
 -
 >
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -514,7 +514,7 @@ i
 {
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mConnectedFaces
+mRuleFaces
 [
 i
 ]
@@ -525,7 +525,7 @@ mFontFace
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mOtherFaces
+mNonRuleFaces
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -592,7 +592,7 @@ FontFaceSetLoadStatus
 :
 Loaded
 )
-mOtherFacesDirty
+mNonRuleFacesDirty
 (
 false
 )
@@ -1027,7 +1027,7 @@ bool
 FontFaceSet
 :
 :
-HasConnectedFontFace
+HasRuleFontFace
 (
 FontFace
 *
@@ -1043,7 +1043,7 @@ i
 ;
 i
 <
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -1056,7 +1056,7 @@ i
 {
 if
 (
-mConnectedFaces
+mRuleFaces
 [
 i
 ]
@@ -1160,7 +1160,7 @@ if
 (
 aFontFace
 .
-IsConnected
+HasRule
 (
 )
 )
@@ -1233,7 +1233,7 @@ true
 MOZ_ASSERT
 (
 !
-mOtherFaces
+mNonRuleFaces
 .
 Contains
 (
@@ -1246,12 +1246,12 @@ should
 not
 occur
 in
-mOtherFaces
+mNonRuleFaces
 twice
 "
 )
 ;
-mOtherFaces
+mNonRuleFaces
 .
 AppendElement
 (
@@ -1259,7 +1259,7 @@ AppendElement
 aFontFace
 )
 ;
-mOtherFacesDirty
+mNonRuleFacesDirty
 =
 true
 ;
@@ -1299,7 +1299,7 @@ FlushUserFontSet
 ;
 if
 (
-mOtherFaces
+mNonRuleFaces
 .
 IsEmpty
 (
@@ -1318,7 +1318,7 @@ i
 ;
 i
 <
-mOtherFaces
+mNonRuleFaces
 .
 Length
 (
@@ -1333,7 +1333,7 @@ FontFace
 *
 f
 =
-mOtherFaces
+mNonRuleFaces
 [
 i
 ]
@@ -1374,13 +1374,13 @@ f
 )
 ;
 }
-mOtherFaces
+mNonRuleFaces
 .
 Clear
 (
 )
 ;
-mOtherFacesDirty
+mNonRuleFacesDirty
 =
 true
 ;
@@ -1425,7 +1425,7 @@ if
 (
 aFontFace
 .
-IsConnected
+HasRule
 (
 )
 )
@@ -1444,7 +1444,7 @@ nullptr
 if
 (
 !
-mOtherFaces
+mNonRuleFaces
 .
 RemoveElement
 (
@@ -1493,7 +1493,7 @@ AppendElement
 aFontFace
 )
 ;
-mOtherFacesDirty
+mNonRuleFacesDirty
 =
 true
 ;
@@ -1598,7 +1598,7 @@ if
 (
 aIndex
 <
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -1610,7 +1610,7 @@ aFound
 true
 ;
 return
-mConnectedFaces
+mRuleFaces
 [
 aIndex
 ]
@@ -1621,7 +1621,7 @@ mFontFace
 aIndex
 -
 =
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -1631,7 +1631,7 @@ if
 (
 aIndex
 <
-mOtherFaces
+mNonRuleFaces
 .
 Length
 (
@@ -1643,7 +1643,7 @@ aFound
 true
 ;
 return
-mOtherFaces
+mNonRuleFaces
 [
 aIndex
 ]
@@ -1690,13 +1690,13 @@ INT32_MAX
 size_t
 total
 =
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
 )
 +
-mOtherFaces
+mNonRuleFaces
 .
 Length
 (
@@ -1784,7 +1784,7 @@ i
 ;
 i
 <
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -1795,7 +1795,7 @@ i
 +
 )
 {
-mConnectedFaces
+mRuleFaces
 [
 i
 ]
@@ -1807,7 +1807,7 @@ DisconnectFromRule
 (
 )
 ;
-mConnectedFaces
+mRuleFaces
 [
 i
 ]
@@ -1830,7 +1830,7 @@ i
 ;
 i
 <
-mOtherFaces
+mNonRuleFaces
 .
 Length
 (
@@ -1841,7 +1841,7 @@ i
 +
 )
 {
-mOtherFaces
+mNonRuleFaces
 [
 i
 ]
@@ -1885,13 +1885,13 @@ nullptr
 )
 ;
 }
-mConnectedFaces
+mRuleFaces
 .
 Clear
 (
 )
 ;
-mOtherFaces
+mNonRuleFaces
 .
 Clear
 (
@@ -2688,7 +2688,7 @@ a
 change
 to
 the
-mOtherFaces
+mNonRuleFaces
 array
 then
 there
@@ -2708,9 +2708,9 @@ set
 bool
 modified
 =
-mOtherFacesDirty
+mNonRuleFacesDirty
 ;
-mOtherFacesDirty
+mNonRuleFacesDirty
 =
 false
 ;
@@ -2793,7 +2793,7 @@ FontFaceRecord
 >
 oldRecords
 ;
-mConnectedFaces
+mRuleFaces
 .
 SwapElements
 (
@@ -2923,7 +2923,7 @@ more
 than
 once
 into
-mConnectedFaces
+mRuleFaces
 .
 We
 track
@@ -3039,7 +3039,7 @@ mRule
 continue
 ;
 }
-InsertConnectedFontFace
+InsertRuleFontFace
 (
 FontFaceForRule
 (
@@ -3081,7 +3081,7 @@ i
 0
 i_end
 =
-mOtherFaces
+mNonRuleFaces
 .
 Length
 (
@@ -3103,13 +3103,15 @@ the
 same
 for
 the
-unconnected
+non
+rule
+backed
 FontFace
 objects
 .
-InsertUnconnectedFontFace
+InsertNonRuleFontFace
 (
-mOtherFaces
+mNonRuleFaces
 [
 i
 ]
@@ -3299,9 +3301,8 @@ hold
 on
 to
 a
-CSS
--
-connected
+rule
+backed
 /
 /
 FontFace
@@ -3427,9 +3428,8 @@ should
 also
 cease
 being
-CSS
--
-connected
+rule
+backed
 .
 MOZ_ASSERT
 (
@@ -3606,7 +3606,7 @@ void
 FontFaceSet
 :
 :
-InsertUnconnectedFontFace
+InsertNonRuleFontFace
 (
 FontFace
 *
@@ -3772,7 +3772,7 @@ mLocalRulesUsed
 like
 /
 /
-InsertConnectedFontFace
+InsertRuleFontFace
 does
 ?
 nsRefPtr
@@ -3832,7 +3832,7 @@ void
 FontFaceSet
 :
 :
-InsertConnectedFontFace
+InsertRuleFontFace
 (
 FontFace
 *
@@ -3908,9 +3908,8 @@ removeIndex
 This
 is
 a
-CSS
--
-connected
+rule
+backed
 FontFace
 .
 First
@@ -4139,7 +4138,7 @@ entry
 MOZ_ASSERT
 (
 !
-HasConnectedFontFace
+HasRuleFontFace
 (
 rec
 .
@@ -4151,12 +4150,12 @@ should
 not
 occur
 in
-mConnectedFaces
+mRuleFaces
 twice
 "
 )
 ;
-mConnectedFaces
+mRuleFaces
 .
 AppendElement
 (
@@ -4288,7 +4287,7 @@ adding
 a
 record
 to
-mConnectedFaces
+mRuleFaces
 with
 the
 same
@@ -4316,7 +4315,7 @@ listed
 /
 in
 both
-mConnectedFaces
+mRuleFaces
 and
 oldRecords
 which
@@ -4335,7 +4334,8 @@ that
 should
 still
 be
-connected
+rule
+backed
 .
 aOldRecords
 .
@@ -4371,7 +4371,7 @@ entry
 MOZ_ASSERT
 (
 !
-HasConnectedFontFace
+HasRuleFontFace
 (
 aFontFace
 )
@@ -4381,12 +4381,12 @@ should
 not
 occur
 in
-mConnectedFaces
+mRuleFaces
 twice
 "
 )
 ;
-mConnectedFaces
+mRuleFaces
 .
 AppendElement
 (
@@ -5813,7 +5813,7 @@ i
 ;
 i
 <
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -5828,7 +5828,7 @@ FontFace
 *
 f
 =
-mConnectedFaces
+mRuleFaces
 [
 i
 ]
@@ -5897,7 +5897,7 @@ i
 ;
 i
 <
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -5912,7 +5912,7 @@ FontFace
 *
 f
 =
-mConnectedFaces
+mRuleFaces
 [
 i
 ]
@@ -7635,7 +7635,7 @@ MOZ_ASSERT
 aFontFace
 -
 >
-IsConnected
+HasRule
 (
 )
 )
@@ -7687,7 +7687,7 @@ MOZ_ASSERT
 aFontFace
 -
 >
-IsConnected
+HasRule
 (
 )
 )
@@ -7781,7 +7781,7 @@ MOZ_ASSERT
 aFontFace
 -
 >
-IsConnected
+HasRule
 (
 )
 )
@@ -8029,7 +8029,7 @@ i
 ;
 i
 <
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -8044,7 +8044,7 @@ FontFace
 *
 f
 =
-mConnectedFaces
+mRuleFaces
 [
 i
 ]
@@ -8084,7 +8084,7 @@ i
 ;
 i
 <
-mOtherFaces
+mNonRuleFaces
 .
 Length
 (
@@ -8097,7 +8097,7 @@ i
 {
 if
 (
-mOtherFaces
+mNonRuleFaces
 [
 i
 ]
@@ -8421,7 +8421,7 @@ i
 ;
 i
 <
-mConnectedFaces
+mRuleFaces
 .
 Length
 (
@@ -8436,7 +8436,7 @@ FontFace
 *
 f
 =
-mConnectedFaces
+mRuleFaces
 [
 i
 ]
@@ -8502,7 +8502,7 @@ i
 ;
 i
 <
-mOtherFaces
+mNonRuleFaces
 .
 Length
 (
@@ -8517,7 +8517,7 @@ FontFace
 *
 f
 =
-mOtherFaces
+mNonRuleFaces
 [
 i
 ]
