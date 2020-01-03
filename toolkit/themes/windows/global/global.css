@@ -1814,9 +1814,6 @@ icons
 :
 *
 /
-%
-ifdef
-XP_WIN
 .
 close
 -
@@ -2056,5 +2053,3 @@ rect
 ;
 }
 }
-%
-endif
