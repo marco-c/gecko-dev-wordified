@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_imagelib_VectorImage_h_
+mozilla_image_src_VectorImage_h
 #
 define
-mozilla_imagelib_VectorImage_h_
+mozilla_image_src_VectorImage_h
 #
 include
 "
@@ -541,7 +541,7 @@ mIsInitialized
 Have
 we
 been
-initalized
+initialized
 ?
 bool
 mDiscardable
@@ -562,6 +562,8 @@ the
 SVG
 document
 finished
+/
+/
 loading
 ?
 bool
@@ -684,4 +686,4 @@ mozilla
 endif
 /
 /
-mozilla_imagelib_VectorImage_h_
+mozilla_image_src_VectorImage_h
