@@ -3535,7 +3535,7 @@ read_u8
 src
 offset
 +
-8
+9
 )
 ;
 if
