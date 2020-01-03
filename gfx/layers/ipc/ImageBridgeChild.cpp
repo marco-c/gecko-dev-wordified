@@ -2254,6 +2254,15 @@ aClient
 if
 (
 !
+aClient
+)
+{
+return
+;
+}
+if
+(
+!
 IsCreated
 (
 )
