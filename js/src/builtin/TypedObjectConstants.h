@@ -449,7 +449,8 @@ on
 scalars
 references
 and
-x4s
+SIMD
+objects
 #
 define
 JS_DESCR_SLOT_TYPE
@@ -458,6 +459,10 @@ JS_DESCR_SLOT_TYPE
 /
 Type
 code
+#
+define
+JS_DESCR_SLOT_LANES
+9
 /
 /
 Slots
@@ -773,5 +778,9 @@ JS_SIMDTYPEREPR_INT32
 define
 JS_SIMDTYPEREPR_FLOAT32
 1
+#
+define
+JS_SIMDTYPEREPR_FLOAT64
+2
 #
 endif
