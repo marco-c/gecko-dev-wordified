@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+ChangeAttributeTxn
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -108,13 +115,6 @@ h
 /
 for
 Element
-#
-include
-"
-ChangeAttributeTxn
-.
-h
-"
 #
 include
 "

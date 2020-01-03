@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsEditorUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -115,13 +122,6 @@ h
 include
 "
 nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "

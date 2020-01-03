@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+InsertNodeTxn
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -108,13 +115,6 @@ h
 /
 for
 Selection
-#
-include
-"
-InsertNodeTxn
-.
-h
-"
 #
 include
 "

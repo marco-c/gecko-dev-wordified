@@ -475,6 +475,13 @@ what
 #
 include
 "
+nsHTMLURIRefObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 mozalloc
@@ -499,13 +506,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsHTMLURIRefObject
 .
 h
 "

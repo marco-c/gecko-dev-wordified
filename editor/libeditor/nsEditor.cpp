@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsEditor
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -538,13 +545,6 @@ h
 for
 NS_ENSURE_TRUE
 etc
-#
-include
-"
-nsEditor
-.
-h
-"
 #
 include
 "

@@ -114,6 +114,13 @@ MPL
 #
 include
 "
+nsEditorEventListener
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -260,13 +267,6 @@ h
 for
 nsEditor
 etc
-#
-include
-"
-nsEditorEventListener
-.
-h
-"
 #
 include
 "

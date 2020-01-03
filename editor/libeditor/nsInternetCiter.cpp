@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsInternetCiter
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h
@@ -139,13 +146,6 @@ h
 include
 "
 nsILineBreaker
-.
-h
-"
-#
-include
-"
-nsInternetCiter
 .
 h
 "

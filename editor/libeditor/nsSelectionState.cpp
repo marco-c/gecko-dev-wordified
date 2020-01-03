@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsSelectionState
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -260,13 +267,6 @@ h
 /
 for
 nsRange
-#
-include
-"
-nsSelectionState
-.
-h
-"
 using
 namespace
 mozilla

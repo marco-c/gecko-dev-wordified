@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsHTMLObjectResizer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 LookAndFeel
@@ -210,13 +217,6 @@ h
 include
 "
 nsHTMLEditor
-.
-h
-"
-#
-include
-"
-nsHTMLObjectResizer
 .
 h
 "

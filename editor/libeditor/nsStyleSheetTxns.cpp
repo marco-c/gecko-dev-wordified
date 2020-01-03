@@ -95,6 +95,13 @@ MPL
 /
 #
 include
+"
+nsStyleSheetTxns
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -207,13 +214,6 @@ h
 /
 for
 nsIEditor
-#
-include
-"
-nsStyleSheetTxns
-.
-h
-"
 using
 namespace
 mozilla

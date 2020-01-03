@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsHTMLEditor
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -131,13 +138,6 @@ h
 include
 "
 nsUnicharUtils
-.
-h
-"
-#
-include
-"
-nsHTMLEditor
 .
 h
 "

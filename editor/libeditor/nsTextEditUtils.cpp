@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsTextEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -201,13 +208,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsTextEditUtils
 .
 h
 "

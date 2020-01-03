@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsHTMLEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -222,13 +229,6 @@ nsGkAtoms
 :
 a
 etc
-#
-include
-"
-nsHTMLEditUtils
-.
-h
-"
 #
 include
 "
