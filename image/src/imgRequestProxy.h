@@ -750,15 +750,6 @@ us
 /
 notifications
 .
-/
-*
-non
--
-virtual
-imgDecoderObserver
-methods
-*
-/
 void
 OnStartDecode
 (

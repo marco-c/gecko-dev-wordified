@@ -3968,14 +3968,6 @@ return
 NS_OK
 ;
 }
-/
-*
-*
-imgDecoderObserver
-methods
-*
-*
-/
 void
 imgRequestProxy
 :
