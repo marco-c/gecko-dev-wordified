@@ -17089,7 +17089,7 @@ LOG3
 Http2Session
 :
 :
-CloseTranscation
+CloseTransaction
 probably
 a
 cancel
