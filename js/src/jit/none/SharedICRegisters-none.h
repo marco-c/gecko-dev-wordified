@@ -177,7 +177,7 @@ JSReturnOperand
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineTailCallReg
+ICTailCallReg
 =
 {
 Registers
@@ -189,7 +189,7 @@ invalid_reg
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineStubReg
+ICStubReg
 =
 {
 Registers

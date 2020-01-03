@@ -10951,7 +10951,7 @@ enterMonRegs
 .
 take
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 enterMonRegs
@@ -10965,17 +10965,17 @@ enterMonRegs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 pop
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 pop
@@ -11021,7 +11021,7 @@ JS_CODEGEN_X64
 )
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 #
@@ -11030,7 +11030,7 @@ jump
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :

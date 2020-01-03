@@ -202,7 +202,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 }
@@ -219,7 +219,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 }
@@ -241,7 +241,7 @@ Move
 ICEntry
 offset
 into
-BaselineStubReg
+ICStubReg
 CodeOffsetLabel
 offset
 =
@@ -254,7 +254,7 @@ ImmWord
 -
 1
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 *
@@ -268,14 +268,14 @@ Load
 stub
 pointer
 into
-BaselineStubReg
+ICStubReg
 masm
 .
 loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )
@@ -286,7 +286,7 @@ offsetOfFirstStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -301,7 +301,7 @@ call
 (
 Operand
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -343,7 +343,7 @@ within
 an
 IC
 when
-BaselineStubReg
+ICStubReg
 /
 /
 is
@@ -361,13 +361,13 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )
 monitorStubOffset
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -383,7 +383,7 @@ jmp
 (
 Operand
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )
@@ -574,7 +574,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -847,7 +847,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -866,7 +866,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -1010,7 +1010,7 @@ masm
 .
 pop
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -1023,7 +1023,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -1053,7 +1053,7 @@ masm
 .
 storePtr
 (
-BaselineTailCallReg
+ICTailCallReg
 Address
 (
 BaselineStackReg
@@ -1103,7 +1103,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -1117,7 +1117,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 break
@@ -1135,7 +1135,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -1156,7 +1156,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 break
@@ -1208,7 +1208,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 if
@@ -1241,7 +1241,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 break
@@ -1259,7 +1259,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 if
@@ -1305,7 +1305,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 break
@@ -1371,14 +1371,14 @@ address
 Save
 the
 current
-BaselineStubReg
+ICStubReg
 to
 stack
 masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -1394,7 +1394,7 @@ within
 an
 IC
 when
-BaselineStubReg
+ICStubReg
 /
 /
 is
@@ -1412,7 +1412,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )
@@ -1423,7 +1423,7 @@ offsetOfFirstUpdateStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -1438,7 +1438,7 @@ call
 (
 Operand
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -1460,7 +1460,7 @@ masm
 .
 pop
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -1579,7 +1579,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -1732,14 +1732,14 @@ Load
 next
 stub
 into
-BaselineStubReg
+ICStubReg
 masm
 .
 loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -1747,7 +1747,7 @@ offsetOfNext
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -1770,7 +1770,7 @@ jmp
 (
 Operand
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :

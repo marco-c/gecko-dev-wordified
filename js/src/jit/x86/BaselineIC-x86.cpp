@@ -441,7 +441,7 @@ available
 Register
 scratchReg
 =
-BaselineTailCallReg
+ICTailCallReg
 ;
 Label
 revertRegister

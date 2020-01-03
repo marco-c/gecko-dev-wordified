@@ -233,9 +233,9 @@ r0
 ;
 /
 /
-BaselineTailCallReg
+ICTailCallReg
 and
-BaselineStubReg
+ICStubReg
 /
 /
 These
@@ -251,14 +251,14 @@ calls
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineTailCallReg
+ICTailCallReg
 =
 r14
 ;
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineStubReg
+ICStubReg
 =
 r9
 ;
@@ -308,7 +308,7 @@ stubcode
 /
 Note
 that
-BaselineTailCallReg
+ICTailCallReg
 is
 actually
 just
@@ -326,7 +326,7 @@ we
 do
 not
 clobber
-BaselineTailCallReg
+ICTailCallReg
 since
 we
 keep

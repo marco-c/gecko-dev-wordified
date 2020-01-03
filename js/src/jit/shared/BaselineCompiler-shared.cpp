@@ -764,7 +764,7 @@ Imm32
 (
 frameBaseSize
 )
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -791,7 +791,7 @@ Imm32
 (
 frameFullSize
 )
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -806,7 +806,7 @@ masm
 .
 store32
 (
-BaselineTailCallReg
+ICTailCallReg
 frameSizeAddress
 )
 ;
@@ -818,14 +818,14 @@ Imm32
 (
 argSize
 )
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
 .
 makeFrameDescriptor
 (
-BaselineTailCallReg
+ICTailCallReg
 JitFrame_BaselineJS
 )
 ;
@@ -833,7 +833,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 }

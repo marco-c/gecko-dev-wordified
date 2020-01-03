@@ -6252,7 +6252,7 @@ saveRegs
 .
 add
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 #
@@ -8235,7 +8235,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 if
@@ -9915,7 +9915,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -10311,7 +10311,7 @@ ExtractTemp0
 Address
 expectedObject
 (
-BaselineStubReg
+ICStubReg
 ICTypeMonitor_SingleObject
 :
 :
@@ -10431,7 +10431,7 @@ scratchReg
 Address
 expectedGroup
 (
-BaselineStubReg
+ICStubReg
 ICTypeMonitor_ObjectGroup
 :
 :
@@ -12018,7 +12018,7 @@ scratchReg
 Address
 expectedObject
 (
-BaselineStubReg
+ICStubReg
 ICTypeUpdate_SingleObject
 :
 :
@@ -12172,7 +12172,7 @@ scratchReg
 Address
 expectedGroup
 (
-BaselineStubReg
+ICStubReg
 ICTypeUpdate_ObjectGroup
 :
 :
@@ -12537,7 +12537,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 return
@@ -12816,7 +12816,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -13411,7 +13411,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -14987,7 +14987,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -16861,7 +16861,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -17712,7 +17712,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 return
@@ -19360,7 +19360,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -21660,7 +21660,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -28827,7 +28827,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -29016,7 +29016,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 enterStubFrame
@@ -29053,7 +29053,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElemNativeGetterStub
 :
 :
@@ -29137,7 +29137,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -29248,7 +29248,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElemNativeGetterStub
 :
 :
@@ -29618,7 +29618,7 @@ scratchReg
 Address
 shapeAddr
 (
-BaselineStubReg
+ICStubReg
 ICGetElemNativeStub
 :
 :
@@ -29681,7 +29681,7 @@ check
 Address
 nameAddr
 (
-BaselineStubReg
+ICStubReg
 ICGetElemNativeStub
 :
 :
@@ -30072,7 +30072,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElemNativePrototypeCallStub
 :
 :
@@ -30089,7 +30089,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElemNativePrototypeCallStub
 :
 :
@@ -30109,7 +30109,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElem_NativePrototypeSlot
 :
 :
@@ -30126,7 +30126,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElem_NativePrototypeSlot
 :
 :
@@ -30184,7 +30184,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElemNativeSlotStub
 :
 :
@@ -30377,7 +30377,7 @@ regs
 .
 getAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 )
 ;
@@ -30690,7 +30690,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElemNativeGetterStub
 :
 :
@@ -31221,7 +31221,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElem_Dense
 :
 :
@@ -31403,7 +31403,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 ValueOperand
@@ -31519,7 +31519,7 @@ regs
 .
 getAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 )
 ;
@@ -31801,7 +31801,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElem_UnboxedArray
 :
 :
@@ -32386,7 +32386,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetElem_TypedArray
 :
 :
@@ -33700,7 +33700,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 ValueOperand
@@ -33783,7 +33783,7 @@ regs
 .
 getAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 )
 ;
@@ -36465,7 +36465,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -36729,7 +36729,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetElem_DenseOrUnboxedArray
 :
 :
@@ -36768,7 +36768,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetElem_DenseOrUnboxedArray
 :
 :
@@ -37010,7 +37010,7 @@ saveRegs
 .
 add
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 emitPostWriteBarrierSlot
@@ -38098,7 +38098,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetElem_DenseOrUnboxedArrayAdd
 :
 :
@@ -38137,7 +38137,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetElem_DenseOrUnboxedArrayAddImpl
 <
 0
@@ -38298,7 +38298,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetElem_DenseOrUnboxedArrayAddImpl
 <
 0
@@ -38540,7 +38540,7 @@ saveRegs
 .
 add
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 emitPostWriteBarrierSlot
@@ -40016,7 +40016,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetElem_TypedArray
 :
 :
@@ -41382,7 +41382,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -41487,7 +41487,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICInNativeStub
 :
 :
@@ -41537,7 +41537,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICInNativeStub
 :
 :
@@ -41618,7 +41618,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICIn_NativePrototype
 :
 :
@@ -41635,7 +41635,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICIn_NativePrototype
 :
 :
@@ -42078,7 +42078,7 @@ load16ZeroExtend
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -42160,7 +42160,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICIn_NativeDoesNotExist
 :
 :
@@ -42211,7 +42211,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICIn_NativeDoesNotExist
 :
 :
@@ -42331,7 +42331,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 shapeOffset
 )
 scratch
@@ -42515,7 +42515,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICIn_Dense
 :
 :
@@ -45531,7 +45531,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -45600,7 +45600,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetName_Global
 :
 :
@@ -45654,7 +45654,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetName_Global
 :
 :
@@ -45842,7 +45842,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetName_Scope
 :
 :
@@ -45935,7 +45935,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetName_Scope
 :
 :
@@ -46224,7 +46224,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -46556,7 +46556,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -46599,7 +46599,7 @@ loadValue
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetIntrinsic_Constant
 :
 :
@@ -51904,7 +51904,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -52014,7 +52014,7 @@ When
 we
 get
 here
-BaselineStubReg
+ICStubReg
 contains
 the
 ICGetProp_Fallback
@@ -52055,7 +52055,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICMonitoredFallbackStub
 :
 :
@@ -52063,7 +52063,7 @@ offsetOfFallbackMonitorStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 EmitEnterTypeMonitorIC
@@ -52748,7 +52748,7 @@ holderReg
 Address
 shapeAddr
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_Primitive
 :
 :
@@ -52816,7 +52816,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_Primitive
 :
 :
@@ -53024,7 +53024,7 @@ failure
 Address
 groupAddress
 (
-BaselineStubReg
+ICStubReg
 receiverGuardOffset
 +
 HeapReceiverGuard
@@ -53038,7 +53038,7 @@ offsetOfGroup
 Address
 shapeAddress
 (
-BaselineStubReg
+ICStubReg
 receiverGuardOffset
 +
 HeapReceiverGuard
@@ -53389,7 +53389,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -53514,7 +53514,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_NativePrototype
 :
 :
@@ -53531,7 +53531,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_NativePrototype
 :
 :
@@ -53630,7 +53630,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetPropNativeStub
 :
 :
@@ -53744,7 +53744,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 ValueOperand
@@ -53802,7 +53802,7 @@ regs
 .
 getAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 )
 ;
@@ -54293,7 +54293,7 @@ load16ZeroExtend
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -54495,7 +54495,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 shapeOffset
 )
 scratch
@@ -54644,7 +54644,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -54728,7 +54728,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallScripted
 :
 :
@@ -54745,7 +54745,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallScripted
 :
 :
@@ -54889,7 +54889,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallScripted
 :
 :
@@ -55457,7 +55457,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -55507,7 +55507,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallNative
 :
 :
@@ -55524,7 +55524,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallNative
 :
 :
@@ -55601,7 +55601,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallNative
 :
 :
@@ -55750,7 +55750,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -55819,7 +55819,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 receiverShapeOffset
 )
 scratch
@@ -55870,7 +55870,7 @@ domProxyRegSet
 .
 take
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 domProxyRegSet
@@ -55890,7 +55890,7 @@ scratch
 Address
 expandoShapeAddr
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallDOMProxyNative
 :
 :
@@ -55929,7 +55929,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallDOMProxyNative
 :
 :
@@ -55946,7 +55946,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallDOMProxyNative
 :
 :
@@ -56022,7 +56022,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallDOMProxyNative
 :
 :
@@ -56165,7 +56165,7 @@ nullptr
 Address
 internalStructAddress
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallDOMProxyWithGenerationNative
 :
 :
@@ -56177,7 +56177,7 @@ offsetOfInternalStruct
 Address
 generationAddress
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_CallDOMProxyWithGenerationNative
 :
 :
@@ -56608,7 +56608,7 @@ not
 be
 /
 /
-BaselineTailCallReg
+ICTailCallReg
 because
 it
 '
@@ -56625,7 +56625,7 @@ a
 /
 non
 -
-BaselineTailCallReg
+ICTailCallReg
 scratch
 reg
 .
@@ -56636,7 +56636,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -56686,7 +56686,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_DOMProxyShadowed
 :
 :
@@ -56793,7 +56793,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_DOMProxyShadowed
 :
 :
@@ -57629,7 +57629,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -57667,7 +57667,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -57774,7 +57774,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -57814,7 +57814,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_Unboxed
 :
 :
@@ -57863,7 +57863,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_Unboxed
 :
 :
@@ -57979,7 +57979,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 Register
@@ -57989,7 +57989,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -58029,7 +58029,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_TypedObject
 :
 :
@@ -58087,7 +58087,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICGetProp_TypedObject
 :
 :
@@ -61025,7 +61025,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -61265,7 +61265,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 offsetOfGroup
 )
 scratch
@@ -61308,7 +61308,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 offsetOfShape
 )
 scratch
@@ -61749,7 +61749,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_Native
 :
 :
@@ -62285,7 +62285,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_NativeAddImpl
 <
 0
@@ -62468,7 +62468,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_NativeAdd
 :
 :
@@ -62564,7 +62564,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_NativeAdd
 :
 :
@@ -62711,7 +62711,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_NativeAdd
 :
 :
@@ -62790,7 +62790,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_NativeAdd
 :
 :
@@ -62873,7 +62873,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_NativeAdd
 :
 :
@@ -63102,7 +63102,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_Unboxed
 :
 :
@@ -63167,7 +63167,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 EmitStowICValues
@@ -63238,7 +63238,7 @@ masm
 .
 pop
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -63302,7 +63302,7 @@ saveRegs
 .
 add
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 emitPostWriteBarrierSlot
@@ -63330,7 +63330,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_Unboxed
 :
 :
@@ -63501,7 +63501,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_TypedObject
 :
 :
@@ -63541,7 +63541,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_TypedObject
 :
 :
@@ -63606,7 +63606,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 EmitStowICValues
@@ -63677,7 +63677,7 @@ masm
 .
 pop
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -63739,7 +63739,7 @@ saveRegs
 .
 add
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 emitPostWriteBarrierSlot
@@ -63842,7 +63842,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_TypedObject
 :
 :
@@ -64252,7 +64252,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -64315,7 +64315,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_CallScripted
 :
 :
@@ -64332,7 +64332,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_CallScripted
 :
 :
@@ -64476,7 +64476,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_CallScripted
 :
 :
@@ -65134,7 +65134,7 @@ regs
 .
 takeAnyExcluding
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -65197,7 +65197,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_CallNative
 :
 :
@@ -65214,7 +65214,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_CallNative
 :
 :
@@ -65322,7 +65322,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICSetProp_CallNative
 :
 :
@@ -73001,7 +73001,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -73137,7 +73137,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -73439,7 +73439,7 @@ skipThisReplace
 At
 this
 point
-BaselineStubReg
+ICStubReg
 points
 to
 the
@@ -73468,7 +73468,7 @@ the
 ICTypeMonitor_Fallback
 stub
 into
-BaselineStubReg
+ICStubReg
 .
 Then
 use
@@ -73487,7 +73487,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICMonitoredFallbackStub
 :
 :
@@ -73495,7 +73495,7 @@ offsetOfFallbackMonitorStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 EmitEnterTypeMonitorIC
@@ -73650,7 +73650,7 @@ regs
 .
 has
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 Register
@@ -73688,7 +73688,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 if
@@ -73922,7 +73922,7 @@ callee
 Address
 expectedCallee
 (
-BaselineStubReg
+ICStubReg
 ICCall_Scripted
 :
 :
@@ -74167,7 +74167,7 @@ regs
 .
 add
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 Label
@@ -74559,7 +74559,7 @@ Address
 BaselineStackReg
 STUB_FRAME_SAVED_STUB_OFFSET
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -74822,7 +74822,7 @@ regs
 .
 addUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 }
@@ -75321,7 +75321,7 @@ Descriptor
 -
 sizeof
 (
-BaselineStubReg
+ICStubReg
 )
 -
 sizeof
@@ -76064,7 +76064,7 @@ Assembler
 NotEqual
 Address
 (
-BaselineStubReg
+ICStubReg
 offsetOfExpectedArg
 (
 )
@@ -76162,7 +76162,7 @@ Assembler
 NotEqual
 Address
 (
-BaselineStubReg
+ICStubReg
 offsetOfExpectedThis
 (
 )
@@ -76213,7 +76213,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 offsetOfTemplateObject
 (
 )
@@ -76646,7 +76646,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 if
@@ -76775,7 +76775,7 @@ ExtractTemp0
 Address
 expectedCallee
 (
-BaselineStubReg
+ICStubReg
 ICCall_Native
 :
 :
@@ -77107,7 +77107,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -77221,7 +77221,7 @@ callWithABI
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICCall_Native
 :
 :
@@ -77384,7 +77384,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -77500,7 +77500,7 @@ Assembler
 NotEqual
 Address
 (
-BaselineStubReg
+ICStubReg
 ICCall_ClassHook
 :
 :
@@ -77762,7 +77762,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -77824,7 +77824,7 @@ callWithABI
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICCall_ClassHook
 :
 :
@@ -77967,7 +77967,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 regs
@@ -78667,7 +78667,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 regs
@@ -79301,7 +79301,7 @@ regs
 .
 has
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 Register
@@ -79339,7 +79339,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -79668,7 +79668,7 @@ regs
 .
 add
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -80266,7 +80266,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 offsetof
 (
 ICTableSwitch
@@ -80294,7 +80294,7 @@ Assembler
 BelowOrEqual
 Address
 (
-BaselineStubReg
+ICStubReg
 offsetof
 (
 ICTableSwitch
@@ -80312,7 +80312,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 offsetof
 (
 ICTableSwitch
@@ -80560,7 +80560,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 offsetof
 (
 ICTableSwitch
@@ -80998,7 +80998,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -81293,7 +81293,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -81716,7 +81716,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 return
@@ -82283,7 +82283,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -82432,7 +82432,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICInstanceOf_Function
 :
 :
@@ -82489,7 +82489,7 @@ load32
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICInstanceOf_Function
 :
 :
@@ -82538,7 +82538,7 @@ Assembler
 NotEqual
 Address
 (
-BaselineStubReg
+ICStubReg
 ICInstanceOf_Function
 :
 :
@@ -83033,7 +83033,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -83597,7 +83597,7 @@ regs
 .
 takeUnchecked
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 Register
@@ -83638,7 +83638,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -83784,7 +83784,7 @@ Assembler
 NotEqual
 Address
 (
-BaselineStubReg
+ICStubReg
 ICRetSub_Resume
 :
 :
@@ -83814,7 +83814,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICRetSub_Resume
 :
 :
@@ -87839,7 +87839,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 return

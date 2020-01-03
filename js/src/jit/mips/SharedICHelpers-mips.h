@@ -261,7 +261,7 @@ Move
 ICEntry
 offset
 into
-BaselineStubReg
+ICStubReg
 .
 CodeOffsetLabel
 offset
@@ -275,7 +275,7 @@ ImmWord
 -
 1
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 *
@@ -289,7 +289,7 @@ Load
 stub
 pointer
 into
-BaselineStubReg
+ICStubReg
 .
 masm
 .
@@ -297,7 +297,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICEntry
 :
 :
@@ -305,7 +305,7 @@ offsetOfFirstStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -342,7 +342,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -413,7 +413,7 @@ within
 an
 IC
 when
-BaselineStubReg
+ICStubReg
 /
 /
 is
@@ -431,13 +431,13 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 (
 uint32_t
 )
 monitorStubOffset
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -472,7 +472,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -680,7 +680,7 @@ call
 .
 /
 /
-BaselineTailCallReg
+ICTailCallReg
 (
 ra
 )
@@ -724,7 +724,7 @@ stack
 .
 MOZ_ASSERT
 (
-BaselineTailCallReg
+ICTailCallReg
 =
 =
 ra
@@ -960,7 +960,7 @@ MOZ_ASSERT
 scratch
 !
 =
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -1084,7 +1084,7 @@ masm
 .
 storePtr
 (
-BaselineTailCallReg
+ICTailCallReg
 Address
 (
 StackPointer
@@ -1112,7 +1112,7 @@ masm
 .
 storePtr
 (
-BaselineStubReg
+ICStubReg
 Address
 (
 StackPointer
@@ -1314,7 +1314,7 @@ BaselineStubFrame
 savedStub
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -1337,7 +1337,7 @@ BaselineStubFrame
 returnAddress
 )
 )
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 /
@@ -1629,7 +1629,7 @@ address
 Save
 the
 current
-BaselineStubReg
+ICStubReg
 to
 stack
 as
@@ -1667,7 +1667,7 @@ masm
 .
 storePtr
 (
-BaselineStubReg
+ICStubReg
 Address
 (
 StackPointer
@@ -1682,7 +1682,7 @@ masm
 .
 storePtr
 (
-BaselineTailCallReg
+ICTailCallReg
 Address
 (
 StackPointer
@@ -1703,7 +1703,7 @@ within
 an
 IC
 when
-BaselineStubReg
+ICStubReg
 /
 /
 is
@@ -1721,7 +1721,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICUpdatedStub
 :
 :
@@ -1729,7 +1729,7 @@ offsetOfFirstUpdateStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -1738,9 +1738,9 @@ Load
 stubcode
 pointer
 from
-BaselineStubReg
+ICStubReg
 into
-BaselineTailCallReg
+ICTailCallReg
 .
 masm
 .
@@ -1748,7 +1748,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -1800,7 +1800,7 @@ Address
 StackPointer
 0
 )
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -1815,7 +1815,7 @@ sizeof
 intptr_t
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -1945,7 +1945,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -2126,14 +2126,14 @@ Load
 next
 stub
 into
-BaselineStubReg
+ICStubReg
 masm
 .
 loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -2141,7 +2141,7 @@ offsetOfNext
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 /
@@ -2161,7 +2161,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -2192,7 +2192,7 @@ stubcode
 .
 MOZ_ASSERT
 (
-BaselineTailCallReg
+ICTailCallReg
 =
 =
 ra

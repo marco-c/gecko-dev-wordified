@@ -172,9 +172,9 @@ t6
 ;
 /
 /
-BaselineTailCallReg
+ICTailCallReg
 and
-BaselineStubReg
+ICStubReg
 /
 /
 These
@@ -190,14 +190,14 @@ calls
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineTailCallReg
+ICTailCallReg
 =
 ra
 ;
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineStubReg
+ICStubReg
 =
 t5
 ;
@@ -234,7 +234,7 @@ SecondScratchReg
 /
 Note
 that
-BaselineTailCallReg
+ICTailCallReg
 is
 actually
 just
@@ -252,7 +252,7 @@ we
 do
 not
 clobber
-BaselineTailCallReg
+ICTailCallReg
 since
 we
 keep
