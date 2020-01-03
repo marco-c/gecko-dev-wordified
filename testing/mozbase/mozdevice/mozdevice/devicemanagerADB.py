@@ -6309,12 +6309,28 @@ self
 )
 :
         
+def
+_noOutput
+(
+line
+)
+:
+            
+#
+suppress
+output
+from
+zip
+ProcessHandler
+            
+pass
+        
 try
 :
             
-self
-.
-_checkCmd
+proc
+=
+ProcessHandler
 (
 [
 "
@@ -6325,6 +6341,24 @@ zip
 ?
 "
 ]
+storeOutput
+=
+False
+processOutputLine
+=
+_noOutput
+)
+            
+proc
+.
+run
+(
+)
+            
+proc
+.
+wait
+(
 )
         
 except
