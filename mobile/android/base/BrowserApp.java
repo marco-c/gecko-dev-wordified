@@ -3596,11 +3596,11 @@ getResources
 (
 )
 .
-getInteger
+getIntArray
 (
 R
 .
-integer
+array
 .
 long_press_vibrate_msec
 )
