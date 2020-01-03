@@ -790,6 +790,7 @@ mActiveProxy
 aProxy
 )
 {
+{
 MonitorAutoLock
 mon
 (
@@ -800,10 +801,6 @@ mWaitForInternalDrain
 =
 true
 ;
-nsresult
-rv
-;
-{
 /
 /
 We
@@ -820,7 +817,7 @@ calling
 Drain
 (
 )
-has
+as
 some
 /
 /
@@ -832,12 +829,8 @@ DrainComplete
 )
 immediately
 .
-MonitorAutoUnlock
-mon
-(
-mMonitor
-)
-;
+}
+nsresult
 rv
 =
 mActiveProxy
@@ -847,7 +840,6 @@ Drain
 (
 )
 ;
-}
 if
 (
 NS_SUCCEEDED
@@ -856,6 +848,12 @@ rv
 )
 )
 {
+MonitorAutoLock
+mon
+(
+mMonitor
+)
+;
 while
 (
 mWaitForInternalDrain
