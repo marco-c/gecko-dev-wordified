@@ -1345,7 +1345,7 @@ DESCVECTOR
 js
 :
 :
-AutoPropDescVector
+AutoPropertyDescriptorVector
 *
 /
 VALVECTOR

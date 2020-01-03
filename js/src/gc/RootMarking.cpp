@@ -1029,7 +1029,7 @@ case
 DESCVECTOR
 :
 {
-AutoPropDescVector
+AutoPropertyDescriptorVector
 :
 :
 VectorImpl
@@ -1038,7 +1038,7 @@ descriptors
 =
 static_cast
 <
-AutoPropDescVector
+AutoPropertyDescriptorVector
 *
 >
 (
