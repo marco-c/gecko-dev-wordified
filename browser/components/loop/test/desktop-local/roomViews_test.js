@@ -329,6 +329,9 @@ false
 videoMuted
 :
 false
+failureReason
+:
+undefined
 foo
 :
 "
