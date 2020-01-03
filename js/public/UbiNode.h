@@ -4768,6 +4768,7 @@ mfbt
 MemoryReporting
 .
 h
+|
 .
 virtual
 size_t
@@ -4782,7 +4783,7 @@ mallocSizeof
 const
 {
 return
-0
+1
 ;
 }
 /
