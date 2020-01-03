@@ -489,12 +489,8 @@ nsIOService
 )
 ;
 nsresult
-OnNetworkLinkEvent
+TrackNetworkLinkStatusForOffline
 (
-const
-char
-*
-data
 )
 ;
 nsresult
