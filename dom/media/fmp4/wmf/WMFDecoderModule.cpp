@@ -200,6 +200,13 @@ GfxDriverInfo
 .
 h
 "
+#
+include
+"
+gfxWindowsPlatform
+.
+h
+"
 namespace
 mozilla
 {
