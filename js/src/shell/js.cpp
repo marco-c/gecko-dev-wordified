@@ -970,6 +970,9 @@ enableUnboxedObjects
 =
 false
 ;
+#
+ifdef
+JS_GC_ZEAL
 static
 char
 gZealStr
@@ -977,6 +980,8 @@ gZealStr
 128
 ]
 ;
+#
+endif
 static
 bool
 printTiming
