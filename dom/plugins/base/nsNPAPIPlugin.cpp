@@ -12824,6 +12824,10 @@ agent
 >
 NotifyStoppedPlaying
 (
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 )
 ;
 if
@@ -12863,6 +12867,10 @@ agent
 >
 NotifyStartedPlaying
 (
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 &
 volume
 &

@@ -2010,6 +2010,10 @@ mAudioChannelAgent
 >
 NotifyStoppedPlaying
 (
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 )
 ;
 mAudioChannelAgent
@@ -3045,6 +3049,10 @@ mAudioChannelAgent
 >
 NotifyStoppedPlaying
 (
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 )
 ;
 }
@@ -3489,6 +3497,10 @@ mAudioChannelAgent
 >
 NotifyStoppedPlaying
 (
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 )
 ;
 return
@@ -3514,6 +3526,10 @@ mAudioChannelAgent
 >
 NotifyStartedPlaying
 (
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 &
 volume
 &
