@@ -9902,9 +9902,7 @@ this
 .
 sendHangUpRequest
 (
-call
-.
-callIndex
+options
 )
 ;
 }
@@ -9913,7 +9911,7 @@ sendHangUpRequest
 :
 function
 (
-callIndex
+options
 )
 {
 this
@@ -9926,7 +9924,7 @@ REQUEST_HANGUP
 this
 .
 sendRilRequestHangUp
-callIndex
+options
 )
 ;
 }
@@ -9934,7 +9932,7 @@ sendRilRequestHangUp
 :
 function
 (
-callIndex
+options
 )
 {
 let
@@ -9951,6 +9949,7 @@ Buf
 newParcel
 (
 REQUEST_HANGUP
+options
 )
 ;
 Buf
@@ -9964,6 +9963,8 @@ Buf
 .
 writeInt32
 (
+options
+.
 callIndex
 )
 ;
