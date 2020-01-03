@@ -54475,7 +54475,7 @@ masm
 #
 ifdef
 JS_TRACE_LOGGING
-TraceLogger
+TraceLoggerThread
 *
 logger
 =

@@ -21638,7 +21638,7 @@ PR_GetCurrentThread
 (
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -21765,7 +21765,7 @@ run
 (
 )
 {
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -38355,7 +38355,7 @@ suppressGC
 )
 return
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -39489,7 +39489,7 @@ minorGCRequested
 =
 false
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -39575,7 +39575,7 @@ minorGCRequested
 =
 false
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =

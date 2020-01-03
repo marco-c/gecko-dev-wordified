@@ -2941,7 +2941,7 @@ ForceByteCodeEnum
 force
 )
 {
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -3480,7 +3480,7 @@ MatchPairs
 matches
 )
 {
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
