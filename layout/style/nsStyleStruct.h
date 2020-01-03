@@ -396,10 +396,10 @@ See
 nsStyleContext
 :
 :
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 #
 define
-NS_STYLE_IS_INLINE_DESCENDANT_OF_RUBY
+NS_STYLE_SUPPRESS_LINEBREAK
 0x080000000
 /
 /

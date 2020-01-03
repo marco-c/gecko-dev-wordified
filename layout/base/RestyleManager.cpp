@@ -21380,7 +21380,7 @@ if
 oldContext
 -
 >
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 (
 )
 !
@@ -21388,7 +21388,7 @@ IsInlineDescendantOfRuby
 aNewContext
 -
 >
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 (
 )
 )
@@ -21396,7 +21396,7 @@ IsInlineDescendantOfRuby
 LOG_RESTYLE_CONTINUE
 (
 "
-NS_STYLE_IS_INLINE_DESCENDANT_OF_RUBY
+NS_STYLE_SUPPRESS_LINEBREAK
 differes
 "
 "

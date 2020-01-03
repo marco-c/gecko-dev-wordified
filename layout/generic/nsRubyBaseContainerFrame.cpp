@@ -2029,7 +2029,7 @@ GetParent
 )
 ;
 bool
-inNestedRuby
+lineBreakSuppressed
 =
 parent
 -
@@ -2039,7 +2039,7 @@ StyleContext
 )
 -
 >
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 (
 )
 ;
@@ -2075,7 +2075,7 @@ bool
 allowLineBreak
 =
 !
-inNestedRuby
+lineBreakSuppressed
 &
 &
 aFrame
@@ -2110,7 +2110,7 @@ GetPrevInFlow
 allowInitialLineBreak
 =
 !
-inNestedRuby
+lineBreakSuppressed
 &
 &
 parent
