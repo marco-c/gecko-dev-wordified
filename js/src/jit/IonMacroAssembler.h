@@ -1899,7 +1899,7 @@ offsetOfHandler
 )
 )
 ;
-loadPrivate
+loadPtr
 (
 handlerAddr
 scratch

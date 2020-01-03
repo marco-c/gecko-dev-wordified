@@ -165,13 +165,6 @@ Proxy
 /
 *
 additional
-slots
-*
-/
-0
-/
-*
-additional
 class
 flags
 *

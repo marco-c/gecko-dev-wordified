@@ -2324,13 +2324,13 @@ entries
 i
 ]
 ;
-JSObject
+NativeObject
 *
 obj
 =
 reinterpret_cast
 <
-JSObject
+NativeObject
 *
 >
 (
@@ -2362,9 +2362,7 @@ isInside
 obj
 -
 >
-fakeNativeSlots
-(
-)
+slots
 )
 |
 |
@@ -2380,9 +2378,7 @@ isInside
 obj
 -
 >
-fakeNativeElements
-(
-)
+elements
 )
 )
 {

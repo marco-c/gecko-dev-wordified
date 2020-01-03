@@ -2478,7 +2478,7 @@ is
 unpredictable
 even
 when
-deterministice
+deterministic
 and
 is
 generally

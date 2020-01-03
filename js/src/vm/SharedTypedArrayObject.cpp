@@ -542,11 +542,6 @@ dataPointer
 byteOffset
 )
 ;
-PostBarrierTypedArrayObject
-(
-obj
-)
-;
 }
 /
 /

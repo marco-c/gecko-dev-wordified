@@ -218,6 +218,9 @@ class
 ObjectElements
 ;
 class
+NativeObject
+;
+class
 HeapSlot
 ;
 void
@@ -1871,10 +1874,10 @@ dstKind
 size_t
 moveElementsToTenured
 (
-JSObject
+NativeObject
 *
 dst
-JSObject
+NativeObject
 *
 src
 gc
@@ -1887,10 +1890,10 @@ dstKind
 size_t
 moveSlotsToTenured
 (
-JSObject
+NativeObject
 *
 dst
-JSObject
+NativeObject
 *
 src
 gc

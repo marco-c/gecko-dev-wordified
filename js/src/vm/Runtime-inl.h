@@ -258,7 +258,7 @@ gc
 :
 AllocKind
 kind
-JSObject
+NativeObject
 *
 obj
 )

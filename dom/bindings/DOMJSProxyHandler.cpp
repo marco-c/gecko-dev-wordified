@@ -424,11 +424,6 @@ DOMProxyHandler
 :
 :
 family
-js
-:
-:
-PROXY_EXTRA_SLOT
-+
 JSPROXYSLOT_EXPANDO
 DOMProxyShadows
 )

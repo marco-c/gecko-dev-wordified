@@ -1564,7 +1564,7 @@ MarkObjectSlots
 JSTracer
 *
 trc
-JSObject
+NativeObject
 *
 obj
 uint32_t
@@ -1662,7 +1662,7 @@ trc
 JSObject
 *
 src
-HeapSlot
+HeapValue
 *
 dst_slot
 const
@@ -1698,7 +1698,7 @@ on
 JSObject
 :
 :
-TradeGuts
+swap
 .
 It
 should

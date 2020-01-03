@@ -256,7 +256,7 @@ HeapSlot
 :
 preconditionForSet
 (
-JSObject
+NativeObject
 *
 owner
 Kind
@@ -275,7 +275,7 @@ Slot
 owner
 -
 >
-fakeNativeGetSlotRef
+getSlotRef
 (
 slot
 )
@@ -287,7 +287,7 @@ this
 owner
 -
 >
-fakeNativeGetDenseElement
+getDenseElement
 (
 slot
 )
@@ -310,7 +310,7 @@ preconditionForSet
 Zone
 *
 zone
-JSObject
+NativeObject
 *
 owner
 Kind
@@ -331,7 +331,7 @@ Slot
 owner
 -
 >
-fakeNativeGetSlotRef
+getSlotRef
 (
 slot
 )
@@ -343,7 +343,7 @@ this
 owner
 -
 >
-fakeNativeGetDenseElement
+getDenseElement
 (
 slot
 )
@@ -377,7 +377,7 @@ HeapSlot
 :
 preconditionForWriteBarrierPost
 (
-JSObject
+NativeObject
 *
 obj
 Kind
@@ -398,7 +398,7 @@ Slot
 obj
 -
 >
-fakeNativeGetSlotAddressUnchecked
+getSlotAddressUnchecked
 (
 slot
 )
@@ -420,7 +420,7 @@ HeapSlot
 obj
 -
 >
-fakeNativeGetDenseElements
+getDenseElements
 (
 )
 +
