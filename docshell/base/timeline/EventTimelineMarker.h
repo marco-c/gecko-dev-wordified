@@ -155,7 +155,7 @@ EventTimelineMarker
 const
 nsAString
 &
-aCause
+aType
 uint16_t
 aPhase
 TracingMetadata
@@ -167,8 +167,11 @@ TimelineMarker
 "
 DOMEvent
 "
-aCause
 aMetaData
+)
+mType
+(
+aType
 )
 mPhase
 (
@@ -208,9 +211,7 @@ mType
 .
 Construct
 (
-GetCause
-(
-)
+mType
 )
 ;
 aMarker
@@ -226,6 +227,9 @@ mPhase
 }
 private
 :
+nsString
+mType
+;
 uint16_t
 mPhase
 ;
