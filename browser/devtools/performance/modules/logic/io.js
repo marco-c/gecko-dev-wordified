@@ -952,10 +952,6 @@ frames
 :
 [
 ]
-counts
-:
-[
-]
 }
 profile
 :
