@@ -5126,7 +5126,6 @@ Document
 GetScopeObject
 (
 )
-timeline
 )
 ;
 animation
@@ -5145,6 +5144,14 @@ GetPseudoType
 (
 )
 )
+)
+;
+animation
+-
+>
+SetTimeline
+(
+timeline
 )
 ;
 animation

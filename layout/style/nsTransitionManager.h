@@ -743,12 +743,6 @@ CSSTransition
 nsIGlobalObject
 *
 aGlobal
-dom
-:
-:
-AnimationTimeline
-*
-aTimeline
 )
 :
 dom
@@ -757,7 +751,6 @@ dom
 Animation
 (
 aGlobal
-aTimeline
 )
 {
 }
