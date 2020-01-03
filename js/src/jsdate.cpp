@@ -7790,8 +7790,10 @@ PRMJ_USEC_PER_MSEC
 )
 ;
 }
-static
 bool
+js
+:
+:
 date_now
 (
 JSContext
@@ -18706,8 +18708,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 date_valueOf
 (
 JSContext

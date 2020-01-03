@@ -1039,8 +1039,9 @@ intrinsicsHolder
 cx
 )
 ;
-if
-(
+bool
+isSelfHostingGlobal
+=
 cx
 -
 >
@@ -1053,6 +1054,10 @@ isSelfHostingGlobal
 (
 self
 )
+;
+if
+(
+isSelfHostingGlobal
 )
 {
 intrinsicsHolder
@@ -1184,6 +1189,12 @@ functions
 if
 (
 !
+isSelfHostingGlobal
+)
+{
+if
+(
+!
 JS_DefineFunctions
 (
 cx
@@ -1194,6 +1205,7 @@ object_static_selfhosted_methods
 return
 false
 ;
+}
 /
 *
 *

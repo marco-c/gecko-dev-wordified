@@ -11312,8 +11312,10 @@ ES5
 .
 *
 /
-static
 bool
+js
+:
+:
 fun_bind
 (
 JSContext
