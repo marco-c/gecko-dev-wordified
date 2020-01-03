@@ -534,11 +534,10 @@ if
 frame
 )
 {
-loopPanel
-.
-removeChild
-(
 frame
+.
+remove
+(
 )
 ;
 }
