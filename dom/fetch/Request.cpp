@@ -1184,7 +1184,7 @@ WasPassed
 )
 {
 const
-OwningArrayBufferOrArrayBufferViewOrScalarValueStringOrURLSearchParams
+OwningArrayBufferOrArrayBufferViewOrBlobOrScalarValueStringOrURLSearchParams
 &
 bodyInit
 =

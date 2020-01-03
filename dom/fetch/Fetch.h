@@ -176,7 +176,7 @@ nsresult
 ExtractByteStreamFromBody
 (
 const
-OwningArrayBufferOrArrayBufferViewOrScalarValueStringOrURLSearchParams
+OwningArrayBufferOrArrayBufferViewOrBlobOrScalarValueStringOrURLSearchParams
 &
 aBodyInit
 nsIInputStream
@@ -202,7 +202,7 @@ nsresult
 ExtractByteStreamFromBody
 (
 const
-ArrayBufferOrArrayBufferViewOrScalarValueStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrScalarValueStringOrURLSearchParams
 &
 aBodyInit
 nsIInputStream
