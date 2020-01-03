@@ -2054,7 +2054,7 @@ void
 NS_IMETHODIMP
 OnAddStream
 (
-nsIDOMMediaStream
+DOMMediaStream
 *
 stream
 ER
@@ -3078,7 +3078,7 @@ TestObserver
 :
 OnAddStream
 (
-nsIDOMMediaStream
+DOMMediaStream
 *
 stream
 ER
@@ -3086,19 +3086,6 @@ ER
 )
 {
 PR_ASSERT
-(
-stream
-)
-;
-DOMMediaStream
-*
-ms
-=
-static_cast
-<
-DOMMediaStream
-*
->
 (
 stream
 )
@@ -3121,7 +3108,7 @@ hints
 "
 <
 <
-ms
+stream
 -
 >
 GetHintContents
@@ -3153,7 +3140,7 @@ streams
 .
 push_back
 (
-ms
+stream
 )
 ;
 /
@@ -3191,7 +3178,7 @@ Fake_SourceMediaStream
 *
 >
 (
-ms
+stream
 -
 >
 GetStream

@@ -1949,7 +1949,7 @@ only
 nsresult
 AddStream
 (
-nsIDOMMediaStream
+DOMMediaStream
 *
 aMediaStream
 uint32_t
@@ -1972,7 +1972,7 @@ only
 nsresult
 RemoveStream
 (
-nsIDOMMediaStream
+DOMMediaStream
 *
 aMediaStream
 uint32_t

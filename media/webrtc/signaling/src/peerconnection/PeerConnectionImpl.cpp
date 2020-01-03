@@ -4116,7 +4116,7 @@ CreateFakeMediaStream
 (
 uint32_t
 aHint
-nsIDOMMediaStream
+DOMMediaStream
 *
 *
 aRetval
