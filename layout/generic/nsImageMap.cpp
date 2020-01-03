@@ -3293,6 +3293,9 @@ SnapLineToDevicePixelsForStroking
 p1snapped
 p2snapped
 aDrawTarget
+aStrokeOptions
+.
+mLineWidth
 )
 ;
 aDrawTarget
@@ -3353,6 +3356,9 @@ SnapLineToDevicePixelsForStroking
 p1snapped
 p2snapped
 aDrawTarget
+aStrokeOptions
+.
+mLineWidth
 )
 ;
 aDrawTarget

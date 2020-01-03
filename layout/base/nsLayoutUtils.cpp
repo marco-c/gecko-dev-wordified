@@ -52336,6 +52336,9 @@ SnapLineToDevicePixelsForStroking
 p1
 p2
 aDrawTarget
+aStrokeOptions
+.
+mLineWidth
 )
 ;
 aDrawTarget

@@ -2156,6 +2156,8 @@ const
 DrawTarget
 &
 aDrawTarget
+Float
+aLineWidth
 )
 ;
 /
