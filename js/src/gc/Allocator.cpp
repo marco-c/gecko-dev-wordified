@@ -737,13 +737,10 @@ derived
 ;
 MOZ_ASSERT
 (
+IsObjectAllocKind
+(
 kind
-<
-=
-AllocKind
-:
-:
-OBJECT_LAST
+)
 )
 ;
 size_t
