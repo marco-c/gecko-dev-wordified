@@ -22835,9 +22835,9 @@ ITER
 return
 false
 ;
+continue
+;
 }
-else
-{
 int32_t
 depthBefore
 =
@@ -23063,7 +23063,6 @@ pickDistance
 return
 false
 ;
-}
 }
 }
 }
