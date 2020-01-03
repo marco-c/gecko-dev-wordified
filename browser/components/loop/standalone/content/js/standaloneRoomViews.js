@@ -926,6 +926,9 @@ onAfterFeedbackReceived
 this
 .
 onFeedbackSent
+noCloseText
+:
+true
 }
 )
 )
