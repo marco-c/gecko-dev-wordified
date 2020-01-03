@@ -11698,6 +11698,14 @@ mStyle
 needsBold
 )
 ;
+if
+(
+mDefaultFont
+)
+{
+break
+;
+}
 }
 }
 }
