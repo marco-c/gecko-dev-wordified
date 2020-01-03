@@ -850,6 +850,8 @@ sts_target
 )
 WrapRunnableRet
 (
+&
+ret
 audio_
 -
 >
@@ -861,8 +863,6 @@ Fake_MediaStream
 :
 :
 Start
-&
-ret
 )
 )
 ;

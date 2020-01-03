@@ -627,6 +627,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+result
 this
 &
 TestNrSocketTest
@@ -635,8 +637,6 @@ TestNrSocketTest
 CreatePrivateAddrs_s
 size
 ip_str
-&
-result
 )
 NS_DISPATCH_SYNC
 )
@@ -783,6 +783,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+result
 this
 &
 TestNrSocketTest
@@ -791,8 +793,6 @@ TestNrSocketTest
 SendData_s
 from
 via
-&
-result
 )
 NS_DISPATCH_SYNC
 )
@@ -846,6 +846,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+result
 this
 &
 TestNrSocketTest
@@ -854,8 +856,6 @@ TestNrSocketTest
 RecvData_s
 to
 sender_external_address
-&
-result
 )
 NS_DISPATCH_SYNC
 )
@@ -944,6 +944,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+r
 this
 &
 TestNrSocketTest
@@ -952,8 +954,6 @@ TestNrSocketTest
 GetAddress_s
 sock
 address
-&
-r
 )
 NS_DISPATCH_SYNC
 )

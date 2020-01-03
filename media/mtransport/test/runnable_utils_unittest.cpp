@@ -799,6 +799,8 @@ Dispatch
 WrapRunnableRet
 (
 &
+z
+&
 cl_
 &
 TargetClass
@@ -806,8 +808,6 @@ TargetClass
 :
 return_int
 x
-&
-z
 )
 NS_DISPATCH_SYNC
 )
@@ -996,12 +996,12 @@ Dispatch
 (
 WrapRunnableNMRet
 (
+&
+z
 SetNonMethodRet
 &
 cl_
 10
-&
-z
 )
 NS_DISPATCH_SYNC
 )
