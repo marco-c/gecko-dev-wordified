@@ -180,6 +180,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEDistantLightElement
 (
 already_AddRefed

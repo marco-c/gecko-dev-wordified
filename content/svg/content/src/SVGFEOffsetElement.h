@@ -187,6 +187,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEOffsetElement
 (
 already_AddRefed

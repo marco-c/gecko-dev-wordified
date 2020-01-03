@@ -154,6 +154,7 @@ SVGCircleElementBase
 {
 protected
 :
+explicit
 SVGCircleElement
 (
 already_AddRefed

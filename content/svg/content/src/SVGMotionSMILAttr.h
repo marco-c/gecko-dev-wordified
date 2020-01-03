@@ -206,6 +206,7 @@ nsISMILAttr
 {
 public
 :
+explicit
 SVGMotionSMILAttr
 (
 nsSVGElement

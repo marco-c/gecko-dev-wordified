@@ -194,6 +194,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEMorphologyElement
 (
 already_AddRefed

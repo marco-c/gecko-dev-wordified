@@ -294,6 +294,7 @@ nsSVGGradientFrame
 ;
 protected
 :
+explicit
 SVGGradientElement
 (
 already_AddRefed
@@ -593,6 +594,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGLinearGradientElement
 (
 already_AddRefed
@@ -813,6 +815,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGRadialGradientElement
 (
 already_AddRefed

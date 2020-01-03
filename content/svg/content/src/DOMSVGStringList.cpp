@@ -316,6 +316,7 @@ AutoChangeStringListNotifier
 {
 public
 :
+explicit
 AutoChangeStringListNotifier
 (
 DOMSVGStringList

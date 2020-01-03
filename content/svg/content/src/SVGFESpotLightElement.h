@@ -186,6 +186,7 @@ nsSVGFELightingElement
 ;
 protected
 :
+explicit
 SVGFESpotLightElement
 (
 already_AddRefed

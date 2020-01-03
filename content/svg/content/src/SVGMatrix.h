@@ -579,6 +579,7 @@ SVGTransform
 .
 *
 /
+explicit
 SVGMatrix
 (
 SVGTransform
@@ -632,6 +633,7 @@ SetIsDOMBinding
 )
 ;
 }
+explicit
 SVGMatrix
 (
 const

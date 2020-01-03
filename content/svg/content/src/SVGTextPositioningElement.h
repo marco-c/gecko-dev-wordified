@@ -199,6 +199,7 @@ Rotate
 ;
 protected
 :
+explicit
 SVGTextPositioningElement
 (
 already_AddRefed

@@ -141,6 +141,7 @@ SVGTests
 {
 protected
 :
+explicit
 SVGGraphicsElement
 (
 already_AddRefed

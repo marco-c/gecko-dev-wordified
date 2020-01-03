@@ -433,6 +433,7 @@ AutoChangeNumberNotifier
 {
 public
 :
+explicit
 AutoChangeNumberNotifier
 (
 DOMSVGNumber

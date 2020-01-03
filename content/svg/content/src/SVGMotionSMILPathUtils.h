@@ -254,6 +254,7 @@ PathGenerator
 {
 public
 :
+explicit
 PathGenerator
 (
 const

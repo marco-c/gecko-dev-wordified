@@ -194,6 +194,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGClipPathElement
 (
 already_AddRefed

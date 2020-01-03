@@ -192,6 +192,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGTitleElement
 (
 already_AddRefed

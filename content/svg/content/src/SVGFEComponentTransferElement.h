@@ -173,6 +173,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEComponentTransferElement
 (
 already_AddRefed

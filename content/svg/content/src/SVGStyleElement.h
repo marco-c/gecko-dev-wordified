@@ -201,6 +201,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGStyleElement
 (
 already_AddRefed

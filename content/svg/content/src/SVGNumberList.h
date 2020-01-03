@@ -914,6 +914,7 @@ nullptr
 )
 {
 }
+explicit
 SVGNumberListAndInfo
 (
 nsSVGElement

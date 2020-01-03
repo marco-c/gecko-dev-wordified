@@ -188,6 +188,7 @@ nsSVGImageFrame
 ;
 protected
 :
+explicit
 SVGImageElement
 (
 already_AddRefed

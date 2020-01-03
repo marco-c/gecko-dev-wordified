@@ -262,6 +262,7 @@ SVG_TRANSFORM_MATRIX
 )
 {
 }
+explicit
 nsSVGTransform
 (
 const
@@ -1059,6 +1060,7 @@ fully
 -
 fledged
 nsSVGTransform
+explicit
 SVGTransformSMILData
 (
 const

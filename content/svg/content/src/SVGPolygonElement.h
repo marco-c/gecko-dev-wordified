@@ -156,6 +156,7 @@ SVGPolygonElementBase
 {
 protected
 :
+explicit
 SVGPolygonElement
 (
 already_AddRefed

@@ -173,6 +173,7 @@ Link
 {
 protected
 :
+explicit
 SVGAElement
 (
 already_AddRefed

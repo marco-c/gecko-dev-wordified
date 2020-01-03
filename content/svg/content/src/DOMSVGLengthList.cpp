@@ -526,6 +526,7 @@ AutoChangeLengthListNotifier
 {
 public
 :
+explicit
 AutoChangeLengthListNotifier
 (
 DOMSVGLengthList

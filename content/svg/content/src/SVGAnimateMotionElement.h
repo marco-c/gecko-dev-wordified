@@ -163,6 +163,7 @@ SVGAnimationElement
 {
 protected
 :
+explicit
 SVGAnimateMotionElement
 (
 already_AddRefed

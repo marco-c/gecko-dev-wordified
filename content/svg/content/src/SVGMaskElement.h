@@ -245,6 +245,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGMaskElement
 (
 already_AddRefed

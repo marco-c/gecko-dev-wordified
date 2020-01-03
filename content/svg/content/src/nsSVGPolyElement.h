@@ -144,6 +144,7 @@ nsSVGPolyElementBase
 {
 protected
 :
+explicit
 nsSVGPolyElement
 (
 already_AddRefed

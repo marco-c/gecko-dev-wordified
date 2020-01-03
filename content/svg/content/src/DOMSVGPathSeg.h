@@ -211,6 +211,7 @@ segName
 segType
 )
 \
+explicit
 DOMSVGPathSeg
 #
 #
@@ -2873,6 +2874,7 @@ DOMSVGPathSeg
 {
 public
 :
+explicit
 DOMSVGPathSegLinetoHorizontalAbs
 (
 float
@@ -2929,6 +2931,7 @@ DOMSVGPathSeg
 {
 public
 :
+explicit
 DOMSVGPathSegLinetoHorizontalRel
 (
 float
@@ -2985,6 +2988,7 @@ DOMSVGPathSeg
 {
 public
 :
+explicit
 DOMSVGPathSegLinetoVerticalAbs
 (
 float
@@ -3041,6 +3045,7 @@ DOMSVGPathSeg
 {
 public
 :
+explicit
 DOMSVGPathSegLinetoVerticalRel
 (
 float

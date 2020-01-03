@@ -388,6 +388,7 @@ AutoChangePathSegNotifier
 {
 public
 :
+explicit
 AutoChangePathSegNotifier
 (
 DOMSVGPathSeg

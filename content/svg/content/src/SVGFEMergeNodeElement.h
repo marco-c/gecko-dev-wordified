@@ -173,6 +173,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEMergeNodeElement
 (
 already_AddRefed

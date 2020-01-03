@@ -173,6 +173,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFETileElement
 (
 already_AddRefed

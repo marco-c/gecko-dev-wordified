@@ -219,6 +219,7 @@ SVGIRect
 {
 public
 :
+explicit
 SVGRect
 (
 nsIContent

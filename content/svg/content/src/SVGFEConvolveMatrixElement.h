@@ -228,6 +228,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEConvolveMatrixElement
 (
 already_AddRefed

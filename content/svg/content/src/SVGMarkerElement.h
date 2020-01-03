@@ -596,6 +596,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGMarkerElement
 (
 already_AddRefed

@@ -178,6 +178,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGTSpanElement
 (
 already_AddRefed

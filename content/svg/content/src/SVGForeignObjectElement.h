@@ -190,6 +190,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGForeignObjectElement
 (
 already_AddRefed

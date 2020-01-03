@@ -224,6 +224,7 @@ class
 :
 nsSVGOuterSVGFrame
 ;
+explicit
 SVGViewElement
 (
 already_AddRefed

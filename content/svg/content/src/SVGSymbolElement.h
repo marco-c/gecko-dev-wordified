@@ -201,6 +201,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGSymbolElement
 (
 already_AddRefed

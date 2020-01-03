@@ -180,6 +180,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEBlendElement
 (
 already_AddRefed

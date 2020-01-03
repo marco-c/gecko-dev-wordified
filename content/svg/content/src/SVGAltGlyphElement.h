@@ -185,6 +185,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGAltGlyphElement
 (
 already_AddRefed

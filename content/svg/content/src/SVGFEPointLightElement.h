@@ -180,6 +180,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEPointLightElement
 (
 already_AddRefed

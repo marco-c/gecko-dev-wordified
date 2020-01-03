@@ -154,6 +154,7 @@ SVGEllipseElementBase
 {
 protected
 :
+explicit
 SVGEllipseElement
 (
 already_AddRefed

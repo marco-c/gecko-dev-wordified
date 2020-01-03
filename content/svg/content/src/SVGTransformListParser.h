@@ -285,6 +285,7 @@ nsSVGDataParser
 {
 public
 :
+explicit
 SVGTransformListParser
 (
 const

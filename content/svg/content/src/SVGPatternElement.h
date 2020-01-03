@@ -228,6 +228,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGPatternElement
 (
 already_AddRefed

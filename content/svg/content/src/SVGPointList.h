@@ -1030,6 +1030,7 @@ SVGPointList
 {
 public
 :
+explicit
 SVGPointListAndInfo
 (
 nsSVGElement

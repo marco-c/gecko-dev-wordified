@@ -187,6 +187,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEGaussianBlurElement
 (
 already_AddRefed
