@@ -152,6 +152,12 @@ logo
 ;
 panel
 .
+hidden
+=
+false
+;
+panel
+.
 openPopup
 (
 logo
@@ -190,6 +196,12 @@ popuphidden
 "
 onHidden
 )
+;
+panel
+.
+hidden
+=
+true
 ;
 logo
 .

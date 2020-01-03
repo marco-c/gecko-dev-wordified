@@ -282,6 +282,12 @@ nodes
 }
 panel
 .
+hidden
+=
+false
+;
+panel
+.
 openPopup
 (
 button
@@ -318,6 +324,12 @@ popuphidden
 "
 onHidden
 )
+;
+panel
+.
+hidden
+=
+true
 ;
 button
 .
