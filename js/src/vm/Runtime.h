@@ -5584,10 +5584,12 @@ JSCompartment
 *
 comp
 )
+const
 ;
 bool
 isSelfHostingZone
 (
+const
 JS
 :
 :
@@ -5595,6 +5597,7 @@ Zone
 *
 zone
 )
+const
 ;
 bool
 cloneSelfHostedFunctionScript
@@ -7691,6 +7694,7 @@ inline
 bool
 isAtomsZone
 (
+const
 JS
 :
 :
@@ -7698,6 +7702,7 @@ Zone
 *
 zone
 )
+const
 ;
 bool
 activeGCInAtomsZone

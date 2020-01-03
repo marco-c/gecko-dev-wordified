@@ -13961,16 +13961,6 @@ isTenured
 )
 &
 &
-cx
--
->
-runtime
-(
-)
--
->
-isAtomsZone
-(
 value
 .
 toGCThing
@@ -13985,6 +13975,10 @@ asTenured
 zoneFromAnyThread
 (
 )
+-
+>
+isAtomsZone
+(
 )
 )
 ;

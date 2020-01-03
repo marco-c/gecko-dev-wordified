@@ -11554,6 +11554,7 @@ JSCompartment
 *
 comp
 )
+const
 {
 return
 selfHostingGlobal_
@@ -11573,6 +11574,7 @@ JSRuntime
 :
 isSelfHostingZone
 (
+const
 JS
 :
 :
@@ -11580,6 +11582,7 @@ Zone
 *
 zone
 )
+const
 {
 return
 selfHostingGlobal_
