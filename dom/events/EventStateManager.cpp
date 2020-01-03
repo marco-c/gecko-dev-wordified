@@ -18695,7 +18695,7 @@ activeContent
 break
 ;
 case
-NS_POINTER_CANCEL
+ePointerCancel
 :
 {
 if
@@ -25686,7 +25686,7 @@ case
 NS_POINTER_LEAVE
 :
 case
-NS_POINTER_CANCEL
+ePointerCancel
 :
 case
 eMouseExitFromWidget

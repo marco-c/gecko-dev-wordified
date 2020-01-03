@@ -4290,7 +4290,7 @@ false
 break
 ;
 case
-NS_POINTER_CANCEL
+ePointerCancel
 :
 case
 ePointerGotCapture

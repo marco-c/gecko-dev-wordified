@@ -1312,7 +1312,7 @@ ePointerEventClass
 EVENT
 (
 pointercancel
-NS_POINTER_CANCEL
+ePointerCancel
 EventNameType_All
 ePointerEventClass
 )
