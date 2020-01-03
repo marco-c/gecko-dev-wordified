@@ -383,17 +383,6 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvNotifyIccChanged
-(
-const
-nsString
-&
-aIccId
-)
-MOZ_OVERRIDE
-;
-virtual
-bool
 RecvNotifyRadioStateChanged
 (
 const
@@ -472,9 +461,6 @@ nsRefPtr
 MobileConnectionInfo
 >
 mData
-;
-nsString
-mIccId
 ;
 int32_t
 mRadioState

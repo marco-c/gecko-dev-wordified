@@ -99,10 +99,10 @@ namespace
 dom
 {
 class
-IccListener
+Icc
 ;
 class
-Icc
+IccListener
 ;
 class
 IccManager
