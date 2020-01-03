@@ -1918,10 +1918,6 @@ mStretch
 =
 aStretch
 ;
-mIsUserFont
-=
-true
-;
 }
 /
 /
@@ -2633,6 +2629,10 @@ NULL
 !
 "
 )
+;
+mIsDataUserFont
+=
+true
 ;
 InitPattern
 (

@@ -688,7 +688,7 @@ contains
 a
 set
 of
-proxy
+userfont
 font
 entry
 objects
@@ -703,7 +703,7 @@ fonts
 as
 downloaded
 class
-gfxMixedFontFamily
+gfxUserFontFamily
 :
 public
 gfxFontFamily
@@ -715,7 +715,7 @@ class
 gfxUserFontSet
 ;
 explicit
-gfxMixedFontFamily
+gfxUserFontFamily
 (
 const
 nsAString
@@ -731,7 +731,7 @@ aName
 }
 virtual
 ~
-gfxMixedFontFamily
+gfxUserFontFamily
 (
 )
 {
@@ -951,7 +951,8 @@ ResetCharacterMap
 /
 /
 Replace
-aProxyFontEntry
+userfont
+entry
 in
 the
 family
@@ -966,7 +967,7 @@ ReplaceFontEntry
 (
 gfxFontEntry
 *
-aProxyFontEntry
+aUserFontEntry
 gfxFontEntry
 *
 aRealFontEntry
@@ -1013,7 +1014,7 @@ if
 fe
 =
 =
-aProxyFontEntry
+aUserFontEntry
 )
 {
 /
@@ -1023,7 +1024,7 @@ that
 this
 may
 delete
-aProxyFontEntry
+aUserFontEntry
 if
 there
 '
@@ -1161,7 +1162,7 @@ Clear
 }
 ;
 class
-gfxProxyFontEntry
+gfxUserFontEntry
 ;
 class
 gfxOTSContext
@@ -1171,7 +1172,7 @@ gfxUserFontSet
 {
 friend
 class
-gfxProxyFontEntry
+gfxUserFontEntry
 ;
 friend
 class
@@ -1349,7 +1350,7 @@ yet
 implemented
 already_AddRefed
 <
-gfxProxyFontEntry
+gfxUserFontEntry
 >
 CreateFontFace
 (
@@ -1407,7 +1408,7 @@ is
 one
 already_AddRefed
 <
-gfxProxyFontEntry
+gfxUserFontEntry
 >
 FindOrCreateFontFace
 (
@@ -1506,7 +1507,7 @@ up
 and
 return
 the
-gfxMixedFontFamily
+gfxUserFontFamily
 in
 mFontFamilies
 with
@@ -1515,7 +1516,7 @@ with
 the
 given
 name
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 LookupFamily
 (
@@ -1735,12 +1736,12 @@ virtual
 nsresult
 StartLoad
 (
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 aFamily
-gfxProxyFontEntry
+gfxUserFontEntry
 *
-aProxy
+aUserFontEntry
 const
 gfxFontFaceSrc
 *
@@ -1825,12 +1826,12 @@ NS_Free
 bool
 OnLoadComplete
 (
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 aFamily
-gfxProxyFontEntry
+gfxUserFontEntry
 *
-aProxy
+aUserFontEntry
 const
 uint8_t
 *
@@ -1845,7 +1846,8 @@ aDownloadStatus
 /
 Replace
 a
-proxy
+userfont
+entry
 with
 a
 real
@@ -1880,12 +1882,12 @@ virtual
 void
 ReplaceFontEntry
 (
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 aFamily
-gfxProxyFontEntry
+gfxUserFontEntry
 *
-aProxy
+aUserFontEntry
 gfxFontEntry
 *
 aFontEntry
@@ -2129,7 +2131,8 @@ features
 of
 the
 given
-proxy
+userfont
+entry
 or
 nullptr
 if
@@ -2181,9 +2184,9 @@ aSrcURI
 nsIPrincipal
 *
 aPrincipal
-gfxProxyFontEntry
+gfxUserFontEntry
 *
-aProxy
+aUserFontEntry
 bool
 aPrivate
 )
@@ -2342,7 +2345,7 @@ font
 set
 '
 s
-proxy
+userfont
 /
 /
 entry
@@ -3084,7 +3087,7 @@ virtual
 nsresult
 SyncLoadFontData
 (
-gfxProxyFontEntry
+gfxUserFontEntry
 *
 aFontToLoad
 const
@@ -3119,12 +3122,12 @@ virtual
 nsresult
 LogMessage
 (
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 aFamily
-gfxProxyFontEntry
+gfxUserFontEntry
 *
-aProxy
+aUserFontEntry
 const
 char
 *
@@ -3169,11 +3172,11 @@ helper
 method
 for
 FindOrCreateFontFace
-gfxProxyFontEntry
+gfxUserFontEntry
 *
-FindExistingProxyEntry
+FindExistingUserFontEntry
 (
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 aFamily
 const
@@ -3208,7 +3211,7 @@ aUnicodeRanges
 creates
 a
 new
-gfxMixedFontFamily
+gfxUserFontFamily
 in
 mFontFamilies
 or
@@ -3222,7 +3225,7 @@ if
 there
 is
 one
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 GetFamily
 (
@@ -3245,7 +3248,7 @@ rules
 nsRefPtrHashtable
 <
 nsStringHashKey
-gfxMixedFontFamily
+gfxUserFontFamily
 >
 mFontFamilies
 ;
@@ -3288,7 +3291,7 @@ font
 is
 downloaded
 class
-gfxProxyFontEntry
+gfxUserFontEntry
 :
 public
 gfxFontEntry
@@ -3323,7 +3326,7 @@ STATUS_ERROR
 STATUS_END_OF_LIST
 }
 ;
-gfxProxyFontEntry
+gfxUserFontEntry
 (
 gfxUserFontSet
 *
@@ -3357,7 +3360,7 @@ aUnicodeRanges
 ;
 virtual
 ~
-gfxProxyFontEntry
+gfxUserFontEntry
 (
 )
 ;
@@ -3423,7 +3426,7 @@ uint8_t
 *
 SanitizeOpenTypeData
 (
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 aFamily
 const
@@ -3485,7 +3488,7 @@ otherwise
 LoadStatus
 LoadNext
 (
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 aFamily
 bool
@@ -3542,7 +3545,7 @@ gfxFontEntry
 *
 LoadFont
 (
-gfxMixedFontFamily
+gfxUserFontFamily
 *
 aFamily
 const
@@ -3724,7 +3727,8 @@ set
 to
 which
 the
-proxy
+userfont
+entry
 belongs
 nsCOMPtr
 <

@@ -1912,7 +1912,10 @@ IsUserFont
 const
 {
 return
-mIsUserFont
+mIsDataUserFont
+|
+|
+mIsLocalUserFont
 ;
 }
 bool
@@ -2204,7 +2207,7 @@ gfxFontEntry
 subclasses
 (
 except
-gfxProxyFontEntry
+gfxUserFontEntry
 )
 need
 /
@@ -3442,11 +3445,6 @@ mFixedPitch
 1
 ;
 bool
-mIsProxy
-:
-1
-;
-bool
 mIsValid
 :
 1
@@ -3457,7 +3455,12 @@ mIsBadUnderlineFont
 1
 ;
 bool
-mIsUserFont
+mIsUserFontContainer
+:
+1
+;
+bool
+mIsDataUserFont
 :
 1
 ;

@@ -1717,7 +1717,8 @@ the
 name
 of
 the
-proxy
+userfont
+entry
 /
 /
 as
@@ -1781,7 +1782,7 @@ aStretch
 fe
 -
 >
-mIsUserFont
+mIsDataUserFont
 =
 true
 ;
@@ -9495,7 +9496,8 @@ descriptors
 /
 from
 the
-proxy
+userfont
+entry
 rather
 than
 the
@@ -9604,11 +9606,6 @@ mStretch
 =
 aStretch
 ;
-fe
--
->
-mIsUserFont
-=
 fe
 -
 >
