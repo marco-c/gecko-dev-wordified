@@ -4006,8 +4006,6 @@ Node
 propname
 FunctionType
 type
-FunctionSyntaxKind
-kind
 GeneratorKind
 generatorKind
 bool
