@@ -1210,9 +1210,9 @@ name
 "
 ServiceWorkerRegistration
 "
-release
+disabled
 :
-false
+true
 b2g
 :
 false
