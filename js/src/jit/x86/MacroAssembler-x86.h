@@ -8762,16 +8762,11 @@ pending
 exception
 .
 void
-handleFailureWithHandler
+handleFailureWithHandlerTail
 (
 void
 *
 handler
-)
-;
-void
-handleFailureWithHandlerTail
-(
 )
 ;
 void

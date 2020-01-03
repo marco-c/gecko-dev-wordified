@@ -339,6 +339,8 @@ generateExceptionTailStub
 (
 JSContext
 *
+void
+*
 )
 {
 MOZ_CRASH

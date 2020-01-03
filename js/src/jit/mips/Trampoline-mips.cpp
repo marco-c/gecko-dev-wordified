@@ -7187,6 +7187,9 @@ generateExceptionTailStub
 JSContext
 *
 cx
+void
+*
+handler
 )
 {
 MacroAssembler
@@ -7196,6 +7199,7 @@ masm
 .
 handleFailureWithHandlerTail
 (
+handler
 )
 ;
 Linker

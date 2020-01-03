@@ -6572,16 +6572,11 @@ type
 ;
 }
 void
-handleFailureWithHandler
+handleFailureWithHandlerTail
 (
 void
 *
 handler
-)
-;
-void
-handleFailureWithHandlerTail
-(
 )
 ;
 /
