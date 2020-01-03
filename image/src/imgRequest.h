@@ -672,11 +672,7 @@ HadInsecureRedirect
 (
 )
 const
-{
-return
-mHadInsecureRedirect
 ;
-}
 /
 /
 The
