@@ -11710,7 +11710,7 @@ void
 )
 NoteJSRoot
 (
-void
+JSObject
 *
 aRoot
 )
@@ -12733,7 +12733,7 @@ CCGraphBuilder
 :
 NoteJSRoot
 (
-void
+JSObject
 *
 aRoot
 )
