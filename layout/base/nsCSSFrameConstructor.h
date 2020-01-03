@@ -7881,6 +7881,8 @@ suppressed
 .
 bool
 mSuppressWhiteSpaceOptimizations
+:
+1
 ;
 /
 /
@@ -7894,6 +7896,8 @@ item
 .
 bool
 mIsText
+:
+1
 ;
 /
 /
@@ -7918,6 +7922,8 @@ pointer
 .
 bool
 mIsGeneratedContent
+:
+1
 ;
 /
 /
@@ -7932,6 +7938,8 @@ content
 .
 bool
 mIsAnonymousContentCreatorContent
+:
+1
 ;
 /
 /
@@ -7947,6 +7955,8 @@ popupgroup
 .
 bool
 mIsRootPopupgroup
+:
+1
 ;
 /
 /
@@ -8003,6 +8013,8 @@ inline
 .
 bool
 mIsAllInline
+:
+1
 ;
 /
 /
@@ -8078,6 +8090,8 @@ block
 .
 bool
 mIsBlock
+:
+1
 ;
 /
 /
@@ -8130,6 +8144,8 @@ splits
 .
 bool
 mHasInlineEnds
+:
+1
 ;
 /
 /
@@ -8156,6 +8172,8 @@ items
 .
 bool
 mIsPopup
+:
+1
 ;
 /
 /
@@ -8171,6 +8189,8 @@ line
 participant
 bool
 mIsLineParticipant
+:
+1
 ;
 /
 /
@@ -8187,6 +8207,8 @@ a
 element
 bool
 mIsForSVGAElement
+:
+1
 ;
 private
 :
