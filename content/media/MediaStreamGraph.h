@@ -2388,6 +2388,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaStream
 )
+explicit
 MediaStream
 (
 DOMMediaStream
@@ -4177,6 +4178,7 @@ stream
 struct
 AudioOutput
 {
+explicit
 AudioOutput
 (
 void
@@ -4906,6 +4908,7 @@ MediaStream
 {
 public
 :
+explicit
 SourceMediaStream
 (
 DOMMediaStream
@@ -6864,6 +6867,7 @@ MediaStream
 {
 public
 :
+explicit
 ProcessedMediaStream
 (
 DOMMediaStream

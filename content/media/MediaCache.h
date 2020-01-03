@@ -1993,6 +1993,7 @@ for
 this
 stream
 .
+explicit
 MediaCacheStream
 (
 ChannelMediaResource
@@ -3959,6 +3960,7 @@ Entry
 public
 nsUint32HashKey
 {
+explicit
 Entry
 (
 KeyTypePointer

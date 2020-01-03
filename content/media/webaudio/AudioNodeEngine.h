@@ -247,6 +247,7 @@ data
 .
 *
 /
+explicit
 ThreadSharedFloatArrayBufferList
 (
 uint32_t

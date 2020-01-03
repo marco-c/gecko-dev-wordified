@@ -786,6 +786,7 @@ nsRunnable
 {
 public
 :
+explicit
 PushBlobRunnable
 (
 Session
@@ -1087,6 +1088,7 @@ nsRunnable
 {
 public
 :
+explicit
 ExtractRunnable
 (
 Session
@@ -1289,6 +1291,7 @@ OnTracksAvailableCallback
 {
 public
 :
+explicit
 TracksAvailableCallback
 (
 Session
@@ -1495,6 +1498,7 @@ nsRunnable
 {
 public
 :
+explicit
 DestroyRunnable
 (
 Session

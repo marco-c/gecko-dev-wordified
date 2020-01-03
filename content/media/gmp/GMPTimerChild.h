@@ -172,6 +172,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 GMPTimerChild
 )
+explicit
 GMPTimerChild
 (
 GMPChild

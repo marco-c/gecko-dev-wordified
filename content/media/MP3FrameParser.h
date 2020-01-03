@@ -702,6 +702,7 @@ MP3FrameParser
 {
 public
 :
+explicit
 MP3FrameParser
 (
 int64_t

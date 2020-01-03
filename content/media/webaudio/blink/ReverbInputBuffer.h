@@ -325,6 +325,7 @@ ReverbInputBuffer
 {
 public
 :
+explicit
 ReverbInputBuffer
 (
 size_t

@@ -201,6 +201,7 @@ MediaDecoderReader
 {
 public
 :
+explicit
 MediaSourceReader
 (
 MediaSourceDecoder

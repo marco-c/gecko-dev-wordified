@@ -816,6 +816,7 @@ write
 it
 asynchronously
 .
+explicit
 BlockChange
 (
 const
@@ -875,6 +876,7 @@ has
 been
 moved
 .
+explicit
 BlockChange
 (
 int32_t

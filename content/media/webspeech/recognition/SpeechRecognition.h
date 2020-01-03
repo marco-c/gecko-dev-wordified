@@ -398,6 +398,7 @@ MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 SpeechRecognition
 )
+explicit
 SpeechRecognition
 (
 nsPIDOMWindow
@@ -864,6 +865,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMGETUSERMEDIASUCCESSCALLBACK
+explicit
 GetUserMediaSuccessCallback
 (
 SpeechRecognition
@@ -904,6 +906,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMGETUSERMEDIAERRORCALLBACK
+explicit
 GetUserMediaErrorCallback
 (
 SpeechRecognition

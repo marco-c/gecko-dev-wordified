@@ -1427,6 +1427,7 @@ Listener
 }
 public
 :
+explicit
 Listener
 (
 RtspMediaResource

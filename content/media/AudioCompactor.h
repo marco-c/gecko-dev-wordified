@@ -153,6 +153,7 @@ AudioCompactor
 {
 public
 :
+explicit
 AudioCompactor
 (
 MediaQueue

@@ -374,6 +374,7 @@ ReverbAccumulationBuffer
 {
 public
 :
+explicit
 ReverbAccumulationBuffer
 (
 size_t

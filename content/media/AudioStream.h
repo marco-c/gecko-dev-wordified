@@ -242,6 +242,7 @@ AudioClock
 {
 public
 :
+explicit
 AudioClock
 (
 AudioStream

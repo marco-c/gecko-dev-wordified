@@ -1637,6 +1637,7 @@ frequency
 =
 1000
 ;
+explicit
 SineWaveGenerator
 (
 int

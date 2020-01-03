@@ -1114,6 +1114,7 @@ OnTracksAvailableCallback
 {
 public
 :
+explicit
 OnTracksAvailableCallback
 (
 uint8_t
@@ -1861,6 +1862,7 @@ AudioNode
 ;
 public
 :
+explicit
 DOMAudioNodeMediaStream
 (
 AudioNode

@@ -192,6 +192,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 SpeechSynthesis
 (
 nsPIDOMWindow

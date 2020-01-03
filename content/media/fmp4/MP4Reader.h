@@ -208,6 +208,7 @@ MediaDecoderReader
 {
 public
 :
+explicit
 MP4Reader
 (
 AbstractMediaDecoder

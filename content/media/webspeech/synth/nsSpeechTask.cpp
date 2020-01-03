@@ -224,6 +224,7 @@ MediaStreamListener
 {
 public
 :
+explicit
 SynthStreamListener
 (
 nsSpeechTask

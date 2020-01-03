@@ -244,6 +244,7 @@ PSpeechSynthesisRequestParent
 {
 public
 :
+explicit
 SpeechSynthesisRequestParent
 (
 SpeechTaskParent

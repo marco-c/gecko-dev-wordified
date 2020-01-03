@@ -190,6 +190,7 @@ MediaDecoder
 {
 public
 :
+explicit
 MediaSourceDecoder
 (
 dom

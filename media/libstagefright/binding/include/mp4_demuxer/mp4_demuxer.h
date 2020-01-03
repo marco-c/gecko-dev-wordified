@@ -182,6 +182,7 @@ MP4Demuxer
 {
 public
 :
+explicit
 MP4Demuxer
 (
 Stream

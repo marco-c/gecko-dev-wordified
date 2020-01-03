@@ -103,6 +103,7 @@ MediaDecoderReader
 {
 public
 :
+explicit
 AppleMP3Reader
 (
 AbstractMediaDecoder

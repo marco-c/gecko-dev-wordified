@@ -450,6 +450,7 @@ TimeVaryingBase
 {
 public
 :
+explicit
 TimeVarying
 (
 const

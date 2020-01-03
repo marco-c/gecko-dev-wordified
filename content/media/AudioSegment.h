@@ -157,6 +157,7 @@ ThreadSharedObject
 {
 public
 :
+explicit
 SharedChannelArrayBuffer
 (
 nsTArray

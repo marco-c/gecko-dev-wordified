@@ -179,6 +179,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 GMPAudioDecoderParent
 )
+explicit
 GMPAudioDecoderParent
 (
 GMPParent

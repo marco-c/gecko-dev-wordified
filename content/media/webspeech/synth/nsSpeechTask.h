@@ -173,6 +173,7 @@ nsSpeechTask
 nsISpeechTask
 )
 NS_DECL_NSISPEECHTASK
+explicit
 nsSpeechTask
 (
 SpeechSynthesisUtterance

@@ -185,12 +185,14 @@ GMPAudioSamples
 {
 public
 :
+explicit
 GMPAudioSamplesImpl
 (
 GMPAudioFormat
 aFormat
 )
 ;
+explicit
 GMPAudioSamplesImpl
 (
 const

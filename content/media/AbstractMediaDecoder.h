@@ -1230,6 +1230,7 @@ nsRunnable
 {
 public
 :
+explicit
 RemoveMediaTracksEventRunner
 (
 AbstractMediaDecoder

@@ -322,6 +322,7 @@ GMPSharedMemManager
 {
 public
 :
+explicit
 GMPSharedMemManager
 (
 GMPSharedMem

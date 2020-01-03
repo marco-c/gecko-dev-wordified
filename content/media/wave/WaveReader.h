@@ -162,6 +162,7 @@ MediaDecoderReader
 {
 public
 :
+explicit
 WaveReader
 (
 AbstractMediaDecoder

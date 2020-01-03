@@ -609,6 +609,7 @@ nsRunnable
 {
 public
 :
+explicit
 LoadMonitorAddObserver
 (
 nsRefPtr
@@ -699,6 +700,7 @@ nsRunnable
 {
 public
 :
+explicit
 LoadMonitorRemoveObserver
 (
 nsRefPtr

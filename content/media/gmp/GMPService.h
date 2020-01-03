@@ -132,6 +132,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Monitor
 .
 h
@@ -442,6 +451,7 @@ MainThreadOnly
 {
 public
 :
+MOZ_IMPLICIT
 MainThreadOnly
 (
 T

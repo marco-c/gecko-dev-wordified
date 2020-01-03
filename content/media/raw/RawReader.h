@@ -128,6 +128,7 @@ MediaDecoderReader
 {
 public
 :
+explicit
 RawReader
 (
 AbstractMediaDecoder

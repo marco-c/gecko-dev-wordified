@@ -437,6 +437,7 @@ Reset
 )
 ;
 }
+explicit
 MediaChannelStatistics
 (
 MediaChannelStatistics
@@ -870,6 +871,7 @@ start
 )
 ;
 }
+explicit
 MediaByteRange
 (
 TimestampedMediaByteRange
@@ -4720,6 +4722,7 @@ Listener
 }
 public
 :
+explicit
 Listener
 (
 ChannelMediaResource

@@ -394,6 +394,7 @@ GMPVideoEncodedFrameImpl
 ;
 public
 :
+explicit
 GMPVideoEncodedFrameImpl
 (
 GMPVideoHostImpl

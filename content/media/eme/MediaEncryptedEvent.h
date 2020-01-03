@@ -250,6 +250,7 @@ MediaEncryptedEvent
 (
 )
 ;
+explicit
 MediaEncryptedEvent
 (
 EventTarget

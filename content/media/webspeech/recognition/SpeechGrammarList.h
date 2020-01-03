@@ -184,6 +184,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 SpeechGrammarList
 (
 nsISupports

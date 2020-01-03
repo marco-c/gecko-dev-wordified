@@ -1655,6 +1655,7 @@ OggCodecState
 {
 public
 :
+explicit
 VorbisState
 (
 ogg_page
@@ -2122,6 +2123,7 @@ OggCodecState
 {
 public
 :
+explicit
 TheoraState
 (
 ogg_page
@@ -2341,6 +2343,7 @@ ifdef
 MOZ_OPUS
 public
 :
+explicit
 OpusState
 (
 ogg_page
@@ -2778,6 +2781,7 @@ OggCodecState
 {
 public
 :
+explicit
 SkeletonState
 (
 ogg_page

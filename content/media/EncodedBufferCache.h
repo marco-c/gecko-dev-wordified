@@ -208,6 +208,7 @@ EncodedBufferCache
 {
 public
 :
+explicit
 EncodedBufferCache
 (
 uint32_t

@@ -438,6 +438,7 @@ CpuOveruseObserver
 {
 public
 :
+explicit
 LoadManager
 (
 LoadManagerSingleton

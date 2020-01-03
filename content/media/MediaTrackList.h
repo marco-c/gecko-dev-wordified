@@ -208,6 +208,7 @@ MediaTrackListListener
 {
 public
 :
+explicit
 MediaTrackListListener
 (
 MediaTrackList

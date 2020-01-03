@@ -339,6 +339,7 @@ a
 power
 of
 two
+explicit
 FFTConvolver
 (
 size_t

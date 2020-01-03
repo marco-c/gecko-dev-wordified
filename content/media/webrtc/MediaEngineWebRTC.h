@@ -2228,6 +2228,7 @@ MediaEngine
 {
 public
 :
+explicit
 MediaEngineWebRTC
 (
 MediaEnginePrefs

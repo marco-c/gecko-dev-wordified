@@ -152,6 +152,7 @@ MediaStreamListener
 {
 public
 :
+explicit
 SpeechStreamListener
 (
 SpeechRecognition

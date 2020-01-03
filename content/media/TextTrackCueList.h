@@ -183,6 +183,7 @@ TextTrackCueList
 /
 TextTrackCueList
 WebIDL
+explicit
 TextTrackCueList
 (
 nsISupports

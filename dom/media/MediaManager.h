@@ -2634,6 +2634,7 @@ MediaDevice
 )
 {
 }
+explicit
 MediaDevice
 (
 MediaEngineSource
@@ -2675,6 +2676,7 @@ MediaDevice
 {
 public
 :
+explicit
 VideoDevice
 (
 MediaEngineVideoSource
@@ -2706,6 +2708,7 @@ MediaDevice
 {
 public
 :
+explicit
 AudioDevice
 (
 MediaEngineAudioSource

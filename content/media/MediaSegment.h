@@ -748,6 +748,7 @@ aMallocSizeOf
 }
 protected
 :
+explicit
 MediaSegment
 (
 Type
@@ -1352,6 +1353,7 @@ ChunkIterator
 {
 public
 :
+explicit
 ChunkIterator
 (
 MediaSegmentBase
@@ -1569,6 +1571,7 @@ aMallocSizeOf
 }
 protected
 :
+explicit
 MediaSegmentBase
 (
 Type

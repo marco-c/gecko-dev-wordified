@@ -308,6 +308,7 @@ DirectConvolver
 {
 public
 :
+explicit
 DirectConvolver
 (
 size_t

@@ -191,6 +191,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 SpeechRecognitionResultList
 (
 SpeechRecognition

@@ -278,6 +278,7 @@ Run
 in
 MediaRecorder
 thread
+explicit
 WebMWriter
 (
 uint32_t

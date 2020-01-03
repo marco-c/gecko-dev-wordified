@@ -183,6 +183,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 GMPVideoEncoderParent
 )
+explicit
 GMPVideoEncoderParent
 (
 GMPParent

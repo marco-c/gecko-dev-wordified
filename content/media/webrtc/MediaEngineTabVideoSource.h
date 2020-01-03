@@ -282,6 +282,7 @@ nsRunnable
 {
 public
 :
+explicit
 StartRunnable
 (
 MediaEngineTabVideoSource
@@ -316,6 +317,7 @@ nsRunnable
 {
 public
 :
+explicit
 StopRunnable
 (
 MediaEngineTabVideoSource
@@ -350,6 +352,7 @@ nsRunnable
 {
 public
 :
+explicit
 InitRunnable
 (
 MediaEngineTabVideoSource

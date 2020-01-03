@@ -174,6 +174,7 @@ GMPSharedMemManager
 {
 public
 :
+explicit
 GMPVideoDecoderChild
 (
 GMPChild

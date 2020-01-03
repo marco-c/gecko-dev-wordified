@@ -223,6 +223,7 @@ PSpeechSynthesisRequestChild
 {
 public
 :
+explicit
 SpeechSynthesisRequestChild
 (
 SpeechTaskChild
@@ -352,6 +353,7 @@ SpeechSynthesisRequestChild
 ;
 public
 :
+explicit
 SpeechTaskChild
 (
 SpeechSynthesisUtterance

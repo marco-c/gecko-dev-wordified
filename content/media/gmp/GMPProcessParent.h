@@ -205,6 +205,7 @@ GeckoChildProcessHost
 {
 public
 :
+explicit
 GMPProcessParent
 (
 const
