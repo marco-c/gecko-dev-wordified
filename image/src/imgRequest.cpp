@@ -967,7 +967,7 @@ mLoader
 >
 SetHasProxies
 (
-mURI
+this
 )
 ;
 }
@@ -1219,7 +1219,7 @@ mLoader
 >
 SetHasNoProxies
 (
-mURI
+this
 mCacheEntry
 )
 ;
