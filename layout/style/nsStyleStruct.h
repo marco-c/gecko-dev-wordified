@@ -17241,9 +17241,7 @@ mType
 eInset
 "
 expected
-circle
-or
-ellipse
+inset
 "
 )
 ;
@@ -17267,9 +17265,7 @@ mType
 eInset
 "
 expected
-circle
-or
-ellipse
+inset
 "
 )
 ;
