@@ -413,7 +413,7 @@ invertTree
 =
 PerformanceController
 .
-getPref
+getOption
 (
 "
 invert

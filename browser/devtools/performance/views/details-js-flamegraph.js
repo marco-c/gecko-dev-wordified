@@ -369,7 +369,7 @@ invertStack
 :
 PerformanceController
 .
-getPref
+getOption
 (
 "
 invert
@@ -383,7 +383,7 @@ flattenRecursion
 :
 PerformanceController
 .
-getPref
+getOption
 (
 "
 flatten
@@ -398,7 +398,7 @@ filterFrames
 !
 PerformanceController
 .
-getPref
+getOption
 (
 "
 show
@@ -417,7 +417,7 @@ showIdleBlocks
 :
 PerformanceController
 .
-getPref
+getOption
 (
 "
 show
