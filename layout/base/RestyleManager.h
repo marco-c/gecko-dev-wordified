@@ -1500,6 +1500,15 @@ transition
 is
 started
 .
+Returns
+*
+true
+iff
+it
+does
+change
+aNewStyleContext
+.
 *
 *
 For
@@ -1532,7 +1541,7 @@ element
 *
 /
 static
-void
+bool
 TryStartingTransition
 (
 nsPresContext
