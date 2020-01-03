@@ -9387,6 +9387,9 @@ mozilla
 TimeStamp
 &
 aStartTime
+nsPresContext
+*
+aPresContext
 )
 :
 mXAxisModel
@@ -9448,6 +9451,16 @@ aStartTime
 mCallee
 (
 nullptr
+)
+mOneDevicePixelInAppUnits
+(
+aPresContext
+-
+>
+DevPixelsToAppUnits
+(
+1
+)
 )
 {
 }
@@ -9758,6 +9771,7 @@ mXAxisModel
 .
 IsFinished
 (
+mOneDevicePixelInAppUnits
 )
 &
 &
@@ -9765,6 +9779,7 @@ mYAxisModel
 .
 IsFinished
 (
+mOneDevicePixelInAppUnits
 )
 ;
 }
@@ -10071,6 +10086,9 @@ mLastRefreshTime
 ScrollFrameHelper
 *
 mCallee
+;
+nscoord
+mOneDevicePixelInAppUnits
 ;
 }
 ;
@@ -12918,6 +12936,7 @@ GetScrollRangeForClamping
 (
 )
 now
+presContext
 )
 ;
 if

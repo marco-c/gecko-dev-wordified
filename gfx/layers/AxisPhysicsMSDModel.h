@@ -258,6 +258,8 @@ low
 bool
 IsFinished
 (
+double
+aSmallestVisibleIncrement
 )
 ;
 protected
