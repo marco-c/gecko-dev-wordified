@@ -346,7 +346,7 @@ aEvent
 ;
 /
 /
-NS_QUERY_SELECTION_AS_TRANSFERABLE
+eQuerySelectionAsTransferable
 event
 handler
 nsresult

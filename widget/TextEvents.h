@@ -3780,9 +3780,9 @@ mWritingMode
 ;
 /
 /
-used
+Used
 by
-NS_QUERY_SELECTION_AS_TRANSFERABLE
+eQuerySelectionAsTransferable
 nsCOMPtr
 <
 nsITransferable

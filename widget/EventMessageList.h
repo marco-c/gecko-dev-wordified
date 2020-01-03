@@ -1657,7 +1657,7 @@ nsITransferable
 .
 NS_EVENT_MESSAGE
 (
-NS_QUERY_SELECTION_AS_TRANSFERABLE
+eQuerySelectionAsTransferable
 eQueryContentEventFirst
 +
 7
