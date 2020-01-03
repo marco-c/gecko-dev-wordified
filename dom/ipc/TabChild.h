@@ -2980,6 +2980,17 @@ override
 ;
 virtual
 bool
+RecvNavigateDocument
+(
+const
+bool
+&
+aForward
+)
+override
+;
+virtual
+bool
 RecvRequestNotifyAfterRemotePaint
 (
 )

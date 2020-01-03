@@ -14890,6 +14890,8 @@ TabToTreeOwner
 bool
 aForward
 bool
+aForDocumentNavigation
+bool
 *
 aTookFocus
 )
@@ -14930,6 +14932,7 @@ chromeFocus
 >
 FocusNextElement
 (
+aForDocumentNavigation
 )
 )
 ;
@@ -14946,6 +14949,7 @@ chromeFocus
 >
 FocusPrevElement
 (
+aForDocumentNavigation
 )
 )
 ;
