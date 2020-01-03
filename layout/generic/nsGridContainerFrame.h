@@ -333,13 +333,6 @@ mLimit
 ;
 }
 ;
-enum
-Dimension
-{
-eColDimension
-eRowDimension
-}
-;
 /
 /
 see
