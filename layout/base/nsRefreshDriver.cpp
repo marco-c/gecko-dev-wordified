@@ -8971,6 +8971,16 @@ Clear
 (
 )
 ;
+if
+(
+!
+frameRequestCallbacks
+.
+IsEmpty
+(
+)
+)
+{
 profiler_tracing
 (
 "
@@ -9204,6 +9214,7 @@ Scripts
 TRACING_INTERVAL_END
 )
 ;
+}
 }
 void
 nsRefreshDriver
