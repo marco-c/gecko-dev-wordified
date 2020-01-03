@@ -5570,6 +5570,13 @@ NS_IsMainThread
 )
 )
 ;
+mRuntime
+-
+>
+OnBeforeProcessNextEvent
+(
+)
+;
 /
 /
 If
@@ -5870,6 +5877,13 @@ Promise
 :
 :
 PerformMicroTaskCheckpoint
+(
+)
+;
+mRuntime
+-
+>
+OnAfterMicroTaskCheckPoint
 (
 )
 ;
