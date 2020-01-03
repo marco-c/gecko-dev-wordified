@@ -264,11 +264,7 @@ aIgnoreTabindex
 )
 const
 override
-{
-return
-true
 ;
-}
 /
 /
 nsIDOMHTMLAnchorElement
