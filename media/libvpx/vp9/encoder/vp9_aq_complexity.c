@@ -106,6 +106,17 @@ vp9
 /
 encoder
 /
+vp9_aq_complexity
+.
+h
+"
+#
+include
+"
+vp9
+/
+encoder
+/
 vp9_aq_variance
 .
 h
@@ -525,7 +536,7 @@ the
 segment
 map
 .
-vpx_memset
+memset
 (
 cpi
 -

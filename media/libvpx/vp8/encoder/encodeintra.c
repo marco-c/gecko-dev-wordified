@@ -102,6 +102,15 @@ h
 #
 include
 "
+.
+/
+vpx_dsp_rtcd
+.
+h
+"
+#
+include
+"
 quantize
 .
 h
@@ -273,7 +282,7 @@ i
 }
 intra_pred_var
 =
-vp8_get_mb_ss
+vpx_get_mb_ss
 (
 x
 -

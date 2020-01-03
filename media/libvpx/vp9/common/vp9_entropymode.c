@@ -4431,7 +4431,7 @@ cm
 >
 frame_parallel_decode
 )
-vpx_memset
+memset
 (
 cm
 -
@@ -4458,7 +4458,7 @@ cm
 >
 current_frame_seg_map
 )
-vpx_memset
+memset
 (
 cm
 -
@@ -4688,7 +4688,7 @@ cm
 >
 frame_parallel_decode
 )
-vpx_memset
+memset
 (
 cm
 -

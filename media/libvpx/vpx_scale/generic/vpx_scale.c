@@ -435,6 +435,15 @@ include
 "
 vpx_scale
 /
+vpx_scale
+.
+h
+"
+#
+include
+"
+vpx_scale
+/
 yv12config
 .
 h
@@ -2925,7 +2934,7 @@ if
 (
 interpolation
 )
-vpx_memcpy
+memcpy
 (
 temp_area
 temp_area
@@ -3278,7 +3287,7 @@ the
 past
 *
 /
-vpx_memcpy
+memcpy
 (
 temp_area
 +
@@ -3363,7 +3372,7 @@ the
 past
 *
 /
-vpx_memcpy
+memcpy
 (
 temp_area
 temp_area
@@ -3858,7 +3867,7 @@ i
 +
 +
 )
-vpx_memset
+memset
 (
 dst
 -
@@ -3935,7 +3944,7 @@ i
 +
 +
 )
-vpx_memcpy
+memcpy
 (
 dst
 -
@@ -4053,7 +4062,7 @@ i
 +
 +
 )
-vpx_memset
+memset
 (
 dst
 -
@@ -4142,7 +4151,7 @@ i
 +
 +
 )
-vpx_memcpy
+memcpy
 (
 dst
 -
@@ -4260,7 +4269,7 @@ i
 +
 +
 )
-vpx_memset
+memset
 (
 dst
 -
@@ -4349,7 +4358,7 @@ i
 +
 +
 )
-vpx_memcpy
+memcpy
 (
 dst
 -

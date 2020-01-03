@@ -92,6 +92,15 @@ VP9_ENCODER_VP9_ENCODEFRAME_H_
 define
 VP9_ENCODER_VP9_ENCODEFRAME_H_
 #
+include
+"
+vpx
+/
+vpx_integer
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -199,7 +208,7 @@ tile_col
 )
 ;
 void
-vp9_set_vbp_thresholds
+vp9_set_variance_partition_thresholds
 (
 struct
 VP9_COMP

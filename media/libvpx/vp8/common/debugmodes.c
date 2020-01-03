@@ -455,10 +455,6 @@ block
 modes
 *
 /
-mb_index
-=
-0
-;
 fprintf
 (
 mvs
@@ -756,10 +752,6 @@ block
 modes
 *
 /
-mb_index
-=
-0
-;
 fprintf
 (
 mvs

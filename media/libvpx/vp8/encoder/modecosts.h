@@ -101,9 +101,13 @@ C
 {
 #
 endif
+struct
+VP8_COMP
+;
 void
 vp8_init_mode_costs
 (
+struct
 VP8_COMP
 *
 x

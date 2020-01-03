@@ -92,6 +92,15 @@ filter
 .
 h
 "
+#
+include
+"
+.
+/
+vp8_rtcd
+.
+h
+"
 DECLARE_ALIGNED
 (
 16

@@ -102,6 +102,15 @@ h
 #
 include
 "
+.
+/
+vpx_dsp_rtcd
+.
+h
+"
+#
+include
+"
 encodemb
 .
 h
@@ -725,7 +734,7 @@ etc
 /
 act
 =
-vp8_variance16x16
+vpx_variance16x16
 (
 x
 -
@@ -1066,7 +1075,7 @@ sort
 list
 *
 /
-vpx_memcpy
+memcpy
 (
 sortlist
 cpi
@@ -4593,7 +4602,7 @@ fc
 .
 mvc
 ;
-vpx_memset
+memset
 (
 cm
 -
@@ -5071,7 +5080,7 @@ multi_token_partition
 ;
 #
 endif
-vpx_memset
+memset
 (
 segment_counts
 0
@@ -6600,7 +6609,7 @@ to
 defaults
 *
 /
-vpx_memset
+memset
 (
 xd
 -

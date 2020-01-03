@@ -500,6 +500,9 @@ extend_minq
 int
 extend_maxq
 ;
+int
+extend_minq_fast
+;
 GF_GROUP
 gf_group
 ;
@@ -561,6 +564,15 @@ cpi
 ;
 void
 vp9_rc_get_second_pass_params
+(
+struct
+VP9_COMP
+*
+cpi
+)
+;
+void
+vp9_twopass_postencode_update
 (
 struct
 VP9_COMP

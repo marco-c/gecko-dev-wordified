@@ -172,7 +172,7 @@ useage
 monitors
 *
 /
-vpx_memset
+memset
 (
 cpi
 -

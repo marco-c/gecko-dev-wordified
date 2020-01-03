@@ -556,7 +556,7 @@ uv_stride
 YV12_BUFFER_CONFIG
 skinmap
 ;
-vpx_memset
+memset
 (
 &
 skinmap
@@ -606,7 +606,7 @@ skinmap
 return
 ;
 }
-vpx_memset
+memset
 (
 skinmap
 .

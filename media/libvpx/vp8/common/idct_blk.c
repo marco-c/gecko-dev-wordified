@@ -234,7 +234,7 @@ dst
 stride
 )
 ;
-vpx_memset
+memset
 (
 q
 0
@@ -366,7 +366,7 @@ dstu
 stride
 )
 ;
-vpx_memset
+memset
 (
 q
 0
@@ -469,7 +469,7 @@ dstv
 stride
 )
 ;
-vpx_memset
+memset
 (
 q
 0

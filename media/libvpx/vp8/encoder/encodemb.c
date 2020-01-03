@@ -3653,7 +3653,7 @@ ENTROPY_CONTEXT
 *
 tl
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_above
@@ -3669,7 +3669,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_left
@@ -3921,7 +3921,7 @@ left_context
 )
 return
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_above
@@ -3937,7 +3937,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_left
@@ -4148,7 +4148,7 @@ left_context
 )
 return
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_above
@@ -4164,7 +4164,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_left

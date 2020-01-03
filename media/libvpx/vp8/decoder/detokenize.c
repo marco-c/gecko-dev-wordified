@@ -166,7 +166,7 @@ x
 left_context
 )
 ;
-vpx_memset
+memset
 (
 a_ctx
 0
@@ -178,7 +178,7 @@ ENTROPY_CONTEXT_PLANES
 1
 )
 ;
-vpx_memset
+memset
 (
 l_ctx
 0

@@ -156,18 +156,6 @@ int
 ok_to_skip
 )
 ;
-extern
-void
-vp8_loopfilter_frame
-(
-VP8_COMP
-*
-cpi
-VP8_COMMON
-*
-cm
-)
-;
 static
 THREAD_FUNCTION
 thread_loopfilter
@@ -3236,7 +3224,7 @@ xd
 >
 mb_segement_abs_delta
 ;
-vpx_memcpy
+memcpy
 (
 zd
 -
@@ -3255,7 +3243,7 @@ segment_feature_data
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 zd
 -
@@ -3274,7 +3262,7 @@ dequant_y1_dc
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 zd
 -
@@ -3293,7 +3281,7 @@ dequant_y1
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 zd
 -
@@ -3312,7 +3300,7 @@ dequant_y2
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 zd
 -
@@ -3454,7 +3442,7 @@ dequant_y2
 ;
 #
 endif
-vpx_memcpy
+memcpy
 (
 z
 -
@@ -3473,7 +3461,7 @@ rd_threshes
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 z
 -
@@ -3522,7 +3510,7 @@ x
 >
 zbin_mode_boost
 ;
-vpx_memset
+memset
 (
 z
 -
@@ -3668,7 +3656,7 @@ x
 >
 gf_active_ptr
 ;
-vpx_memset
+memset
 (
 mbr_ei
 [
@@ -4253,7 +4241,7 @@ th_count
 )
 )
 ;
-vpx_memset
+memset
 (
 cpi
 -

@@ -99,6 +99,13 @@ h
 #
 include
 "
+modecosts
+.
+h
+"
+#
+include
+"
 onyx_int
 .
 h

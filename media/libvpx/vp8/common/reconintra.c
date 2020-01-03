@@ -347,7 +347,7 @@ expected_dc
 }
 /
 *
-vpx_memset
+memset
 (
 ypred_ptr
 expected_dc
@@ -371,7 +371,7 @@ r
 +
 )
 {
-vpx_memset
+memset
 (
 ypred_ptr
 expected_dc
@@ -522,7 +522,7 @@ r
 +
 )
 {
-vpx_memset
+memset
 (
 ypred_ptr
 yleft_col
@@ -968,7 +968,7 @@ shift
 }
 /
 *
-vpx_memset
+memset
 (
 upred_ptr
 expected_udc
@@ -979,7 +979,7 @@ expected_udc
 /
 /
 *
-vpx_memset
+memset
 (
 vpred_ptr
 expected_vdc
@@ -1003,14 +1003,14 @@ i
 +
 )
 {
-vpx_memset
+memset
 (
 upred_ptr
 expected_udc
 8
 )
 ;
-vpx_memset
+memset
 (
 vpred_ptr
 expected_vdc
@@ -1050,14 +1050,14 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 upred_ptr
 uabove_row
 8
 )
 ;
-vpx_memcpy
+memcpy
 (
 vpred_ptr
 vabove_row
@@ -1097,7 +1097,7 @@ i
 +
 )
 {
-vpx_memset
+memset
 (
 upred_ptr
 uleft_col
@@ -1107,7 +1107,7 @@ i
 8
 )
 ;
-vpx_memset
+memset
 (
 vpred_ptr
 vleft_col

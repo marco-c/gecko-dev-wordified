@@ -97,6 +97,15 @@ h
 #
 include
 "
+vpx_ports
+/
+mem
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -208,7 +217,7 @@ i
 +
 )
 {
-vpx_memset
+memset
 (
 dst_ptr1
 src_ptr1
@@ -218,7 +227,7 @@ src_ptr1
 extend_left
 )
 ;
-vpx_memcpy
+memcpy
 (
 dst_ptr1
 +
@@ -227,7 +236,7 @@ src_ptr1
 w
 )
 ;
-vpx_memset
+memset
 (
 dst_ptr2
 src_ptr2
@@ -344,7 +353,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dst_ptr1
 src_ptr1
@@ -372,7 +381,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dst_ptr2
 src_ptr2
@@ -509,7 +518,7 @@ src_ptr1
 extend_left
 )
 ;
-vpx_memcpy
+memcpy
 (
 dst_ptr1
 +
@@ -640,7 +649,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dst_ptr1
 src_ptr1
@@ -673,7 +682,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dst_ptr2
 src_ptr2

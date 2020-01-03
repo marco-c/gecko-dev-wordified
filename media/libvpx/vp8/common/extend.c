@@ -262,7 +262,7 @@ i
 +
 )
 {
-vpx_memset
+memset
 (
 dest_ptr1
 src_ptr1
@@ -272,7 +272,7 @@ src_ptr1
 el
 )
 ;
-vpx_memcpy
+memcpy
 (
 dest_ptr1
 +
@@ -281,7 +281,7 @@ src_ptr1
 w
 )
 ;
-vpx_memset
+memset
 (
 dest_ptr2
 src_ptr2
@@ -399,7 +399,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dest_ptr1
 src_ptr1
@@ -427,7 +427,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dest_ptr2
 src_ptr2

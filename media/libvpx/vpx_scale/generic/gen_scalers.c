@@ -88,6 +88,15 @@ tree
 #
 include
 "
+.
+/
+vpx_scale_rtcd
+.
+h
+"
+#
+include
+"
 vpx_scale
 /
 vpx_scale
@@ -1909,7 +1918,7 @@ void
 )
 src_pitch
 ;
-vpx_memcpy
+memcpy
 (
 dest
 source

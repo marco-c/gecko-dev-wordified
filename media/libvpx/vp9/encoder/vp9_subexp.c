@@ -125,6 +125,17 @@ vp9
 /
 encoder
 /
+vp9_subexp
+.
+h
+"
+#
+include
+"
+vp9
+/
+encoder
+/
 vp9_writer
 .
 h
@@ -1271,7 +1282,7 @@ oldp
 oldplist
 )
 ;
-vpx_memcpy
+memcpy
 (
 newplist
 oldp

@@ -449,7 +449,7 @@ is
 totally
 removed
 .
-vpx_memset
+memset
 (
 int_fb_list
 -

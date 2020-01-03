@@ -237,7 +237,7 @@ the
 reference
 vector
 list
-vpx_memset
+memset
 (
 mv_ref_list
 0
@@ -354,8 +354,6 @@ xd
 >
 mi_stride
 ]
-.
-src_mi
 ;
 const
 MB_MODE_INFO
@@ -556,8 +554,6 @@ xd
 >
 mi_stride
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -937,8 +933,6 @@ xd
 >
 mi_stride
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -1523,8 +1517,6 @@ mi
 [
 0
 ]
-.
-src_mi
 ;
 b_mode_info
 *
@@ -1813,6 +1805,9 @@ default
 :
 assert
 (
+0
+&
+&
 "
 Invalid
 block

@@ -115,6 +115,9 @@ endif
 struct
 VP9Common
 ;
+struct
+BufferPool
+;
 void
 vp9_remove_common
 (
@@ -157,6 +160,15 @@ cm
 ;
 void
 vp9_free_ref_frame_buffers
+(
+struct
+BufferPool
+*
+pool
+)
+;
+void
+vp9_free_postproc_buffers
 (
 struct
 VP9Common

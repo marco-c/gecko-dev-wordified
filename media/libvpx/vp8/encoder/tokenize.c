@@ -2502,7 +2502,7 @@ init_context_counters
 void
 )
 {
-vpx_memset
+memset
 (
 context_counters
 0
@@ -3580,7 +3580,7 @@ mode
 SPLITMV
 )
 {
-vpx_memset
+memset
 (
 x
 -
@@ -3593,7 +3593,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memset
+memset
 (
 x
 -
@@ -3609,7 +3609,7 @@ ENTROPY_CONTEXT_PLANES
 }
 else
 {
-vpx_memset
+memset
 (
 x
 -
@@ -3624,7 +3624,7 @@ ENTROPY_CONTEXT_PLANES
 1
 )
 ;
-vpx_memset
+memset
 (
 x
 -

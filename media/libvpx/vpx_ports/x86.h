@@ -1150,6 +1150,7 @@ mask
 ;
 unsigned
 int
+max_cpuid_val
 reg_eax
 reg_ebx
 reg_ecx
@@ -1249,7 +1250,7 @@ cpuid
 (
 0
 0
-reg_eax
+max_cpuid_val
 reg_ebx
 reg_ecx
 reg_edx
@@ -1257,7 +1258,7 @@ reg_edx
 ;
 if
 (
-reg_eax
+max_cpuid_val
 <
 1
 )
@@ -1445,6 +1446,14 @@ flags
 =
 HAS_AVX
 ;
+if
+(
+max_cpuid_val
+>
+=
+7
+)
+{
 /
 *
 Get
@@ -1486,6 +1495,7 @@ flags
 =
 HAS_AVX2
 ;
+}
 }
 }
 return

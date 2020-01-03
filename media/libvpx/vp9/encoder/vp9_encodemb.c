@@ -115,6 +115,15 @@ h
 #
 include
 "
+vpx_ports
+/
+mem
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -142,6 +151,17 @@ vp9
 common
 /
 vp9_reconintra
+.
+h
+"
+#
+include
+"
+vp9
+/
+common
+/
+vp9_scan
 .
 h
 "
@@ -927,8 +947,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -2800,7 +2818,7 @@ final_eob
 -
 1
 ;
-vpx_memset
+memset
 (
 qcoeff
 0
@@ -2822,7 +2840,7 @@ tx_size
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff
 0
@@ -6173,8 +6191,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -6389,8 +6405,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -7209,8 +7223,6 @@ mi
 [
 0
 ]
-.
-src_mi
 block
 )
 :
@@ -8010,8 +8022,6 @@ mi
 [
 0
 ]
-.
-src_mi
 block
 )
 :
@@ -8282,8 +8292,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi

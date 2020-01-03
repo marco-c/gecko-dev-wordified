@@ -2547,7 +2547,7 @@ int
 mb_row
 mb_col
 ;
-vpx_memset
+memset
 (
 overlaps
 0

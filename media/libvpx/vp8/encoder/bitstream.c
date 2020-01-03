@@ -8331,7 +8331,7 @@ later
 refresh
 *
 /
-vpx_memcpy
+memcpy
 (
 &
 cpi
@@ -8728,7 +8728,7 @@ i
 +
 )
 {
-vpx_memmove
+memmove
 (
 dp
 cpi

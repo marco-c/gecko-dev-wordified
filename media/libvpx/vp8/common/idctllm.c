@@ -85,6 +85,15 @@ tree
 .
 *
 /
+#
+include
+"
+.
+/
+vp8_rtcd
+.
+h
+"
 /
 *
 *

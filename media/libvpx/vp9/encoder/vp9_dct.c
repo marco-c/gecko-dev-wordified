@@ -120,6 +120,15 @@ h
 #
 include
 "
+vpx_ports
+/
+mem
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -3527,7 +3536,7 @@ void
 )
 iscan
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -3540,7 +3549,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0

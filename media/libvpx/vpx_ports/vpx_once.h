@@ -558,7 +558,8 @@ performs
 no
 synchronization
 .
-vp8_rtcd
+*
+_rtcd
 (
 )
 is

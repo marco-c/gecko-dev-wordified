@@ -110,6 +110,15 @@ h
 #
 include
 "
+vpx_ports
+/
+mem
+.
+h
+"
+#
+include
+"
 vp9
 /
 common

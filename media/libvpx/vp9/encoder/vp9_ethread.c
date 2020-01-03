@@ -1045,7 +1045,7 @@ common
 counts
 )
 {
-vpx_memcpy
+memcpy
 (
 thread_data
 -

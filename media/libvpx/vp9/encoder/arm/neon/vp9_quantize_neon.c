@@ -909,7 +909,7 @@ v_eobmax_final
 }
 else
 {
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -921,7 +921,7 @@ int16_t
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0

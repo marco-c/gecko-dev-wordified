@@ -120,6 +120,15 @@ h
 #
 include
 "
+vpx_ports
+/
+mem
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -548,7 +557,7 @@ entry
 to
 -
 1
-vpx_memset
+memset
 (
 ss_err
 0xFF

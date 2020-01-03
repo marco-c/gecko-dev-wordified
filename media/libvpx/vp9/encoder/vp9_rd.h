@@ -601,6 +601,7 @@ ref_frame
 void
 vp9_init_me_luts
 (
+void
 )
 ;
 void
