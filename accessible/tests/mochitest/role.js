@@ -748,6 +748,13 @@ nsIAccessibleRole
 ROLE_RADIOBUTTON
 ;
 const
+ROLE_RADIO_GROUP
+=
+nsIAccessibleRole
+.
+ROLE_RADIO_GROUP
+;
+const
 ROLE_RADIO_MENU_ITEM
 =
 nsIAccessibleRole

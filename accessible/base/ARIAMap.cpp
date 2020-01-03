@@ -1228,7 +1228,7 @@ radiogroup
 roles
 :
 :
-GROUPING
+RADIO_GROUP
 kUseMapRole
 eNoValue
 eNoAction
