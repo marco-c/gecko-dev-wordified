@@ -4702,6 +4702,11 @@ jsop_debugger
 (
 )
 ;
+bool
+jsop_newtarget
+(
+)
+;
 /
 *
 Inlining

@@ -1091,6 +1091,11 @@ _
 (
 JSOP_RETURN
 )
+\
+_
+(
+JSOP_NEWTARGET
+)
 class
 BaselineCompiler
 :
