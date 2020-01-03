@@ -701,6 +701,10 @@ true
 __func__
 )
 ;
+mPool
+=
+nullptr
+;
 }
 }
 RefPtr
