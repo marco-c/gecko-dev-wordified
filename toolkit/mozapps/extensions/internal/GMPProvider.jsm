@@ -632,8 +632,12 @@ this
 /
 feature
 .
+get
 learnMoreURL
-:
+(
+)
+{
+return
 Services
 .
 urlFormatter
@@ -654,6 +658,8 @@ drm
 -
 content
 "
+;
+}
 licenseURL
 :
 "
