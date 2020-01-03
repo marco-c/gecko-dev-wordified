@@ -4353,6 +4353,10 @@ const
 nsAString
 &
 aSmscAddress
+uint32_t
+aTypeOfNumber
+uint32_t
+aNumberPlanIdentification
 )
 {
 return
@@ -4364,6 +4368,8 @@ nsString
 (
 aSmscAddress
 )
+aTypeOfNumber
+aNumberPlanIdentification
 )
 )
 ;
