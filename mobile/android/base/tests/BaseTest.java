@@ -1037,6 +1037,11 @@ profile
 .
 enqueueInitialization
 (
+profile
+.
+getDir
+(
+)
 )
 ;
 }
