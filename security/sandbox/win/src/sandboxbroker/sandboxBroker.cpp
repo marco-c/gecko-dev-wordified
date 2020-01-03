@@ -1171,6 +1171,11 @@ mitigations
 sandbox
 :
 :
+MITIGATION_SEHOP
+|
+sandbox
+:
+:
 MITIGATION_DEP
 ;
 result
