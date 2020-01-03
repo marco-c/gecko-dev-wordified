@@ -417,12 +417,8 @@ prefix
                 
 continue
             
-indexes
-.
-append
-(
-int
-(
+key
+=
 k
 [
 len
@@ -431,6 +427,36 @@ prefix
 )
 :
 ]
+            
+if
+'
+.
+'
+in
+key
+:
+                
+#
+We
+have
+something
+like
+list
+.
+sublist
+.
+0
+.
+                
+continue
+            
+indexes
+.
+append
+(
+int
+(
+key
 )
 )
         
@@ -591,6 +617,7 @@ _properties
 iteritems
 (
 )
+                 
 if
 k
 .
@@ -598,6 +625,20 @@ startswith
 (
 prefix
 )
+and
+'
+.
+'
+not
+in
+k
+[
+len
+(
+prefix
+)
+:
+]
 )
         
 for
