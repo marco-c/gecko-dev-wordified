@@ -1217,6 +1217,17 @@ InitReflect
 nullptr
 )
 \
+real
+(
+Module
+56
+InitModuleClass
+OCLASP
+(
+Module
+)
+)
+\
 #
 define
 JS_FOR_EACH_PROTOTYPE
