@@ -308,7 +308,7 @@ h
 #
 include
 "
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 .
 h
 "
