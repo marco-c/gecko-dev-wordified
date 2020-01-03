@@ -385,7 +385,7 @@ false
 ;
 aWindow
 .
-console
+nativeConsole
 .
 log
 (
