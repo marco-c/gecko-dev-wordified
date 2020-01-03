@@ -797,6 +797,8 @@ uint16_t
 width
 uint16_t
 height
+uint8_t
+divisor
 int
 num_temporal_layers
 int32_t

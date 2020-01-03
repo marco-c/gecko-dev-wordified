@@ -3027,7 +3027,7 @@ _lastSRPacketCount
 =
 feedback_state
 .
-packet_count_sent
+packets_sent
 ;
 _lastSROctetCount
 [
@@ -3036,7 +3036,7 @@ _lastSROctetCount
 =
 feedback_state
 .
-byte_count_sent
+media_bytes_sent
 ;
 /
 /

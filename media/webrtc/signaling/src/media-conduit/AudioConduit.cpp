@@ -3065,7 +3065,7 @@ if
 mPtrVoERTP_RTCP
 -
 >
-SetRTPAudioLevelIndicationStatus
+SetSendAudioLevelIndicationStatus
 (
 mChannel
 enabled
@@ -3083,7 +3083,7 @@ logTag
 "
 %
 s
-SetRTPAudioLevelIndicationStatus
+SetSendAudioLevelIndicationStatus
 Failed
 "
 __FUNCTION__

@@ -1241,6 +1241,7 @@ char
 int
 uint32_t
 int64_t
+int64_t
 void
 *
 handle

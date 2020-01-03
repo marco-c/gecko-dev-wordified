@@ -7122,6 +7122,8 @@ buffer_size
 uint32_t
 time_stamp
 int64_t
+ntp_time_ms
+int64_t
 render_time
 void
 *
@@ -7662,6 +7664,8 @@ resolution_divisor
 ;
 #
 endif
+/
+/
 cinst
 .
 codecSpecific
@@ -7669,6 +7673,15 @@ codecSpecific
 H264
 .
 profile
+=
+?
+cinst
+.
+codecSpecific
+.
+H264
+.
+profile_byte
 =
 codecInfo
 -
