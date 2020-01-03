@@ -5178,10 +5178,6 @@ mWaitingForSeekData
 false
 ;
 }
-ResetDecode
-(
-)
-;
 /
 /
 Decoding
