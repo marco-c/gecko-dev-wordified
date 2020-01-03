@@ -162,11 +162,8 @@ bool
 gDidTrySend
 ;
 extern
-std
-:
-:
-string
-gDumpFile
+StringTable
+gFiles
 ;
 extern
 StringTable
