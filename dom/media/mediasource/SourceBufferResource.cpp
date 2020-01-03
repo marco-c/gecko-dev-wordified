@@ -1358,6 +1358,10 @@ aData
 aLength
 )
 ;
+mEnded
+=
+false
+;
 mon
 .
 NotifyAll

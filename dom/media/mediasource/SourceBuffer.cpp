@@ -1608,7 +1608,7 @@ this
 mTrackBuffer
 -
 >
-DiscardDecoder
+EndCurrentDecoder
 (
 )
 ;
