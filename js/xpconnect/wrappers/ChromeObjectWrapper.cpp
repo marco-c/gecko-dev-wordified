@@ -2055,6 +2055,7 @@ chain
 *
 bp
 =
+(
 act
 =
 =
@@ -2080,6 +2081,14 @@ Wrapper
 :
 :
 GET_PROPERTY_DESCRIPTOR
+)
+&
+&
+!
+JS_IsExceptionPending
+(
+cx
+)
 ;
 if
 (
