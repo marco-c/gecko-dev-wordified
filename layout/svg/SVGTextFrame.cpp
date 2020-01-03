@@ -16505,6 +16505,11 @@ SVGAutoRenderState
 GetRenderMode
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 )
 )
 mFrame
@@ -32083,6 +32088,11 @@ SVGAutoRenderState
 GetRenderMode
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 )
 !
 =

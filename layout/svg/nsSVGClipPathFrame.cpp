@@ -759,6 +759,11 @@ SVGAutoRenderState
 mode
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 SVGAutoRenderState
 :
 :
