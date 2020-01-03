@@ -1040,6 +1040,8 @@ ipc
 plugins
 .
 asyncInit
+.
+enabled
 "
 {
 what

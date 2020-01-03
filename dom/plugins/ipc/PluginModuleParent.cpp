@@ -642,6 +642,8 @@ ipc
 plugins
 .
 asyncInit
+.
+enabled
 "
 ;
 #

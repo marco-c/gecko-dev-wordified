@@ -618,6 +618,8 @@ ipc
 plugins
 .
 asyncInit
+.
+enabled
 "
 ;
 const
