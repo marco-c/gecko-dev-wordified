@@ -4918,6 +4918,9 @@ data
 ;
 if
 (
+mResolver
+&
+&
 !
 strcmp
 (
