@@ -294,7 +294,7 @@ DISALLOW_IMPORT_SETTINGS
 (
 11
 "
-no_report_site_issue
+no_import_settings
 "
 R
 .
