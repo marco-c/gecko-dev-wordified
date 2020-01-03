@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsPluginTags
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -167,6 +160,9 @@ nsPluginElement
 ;
 class
 nsMimeType
+;
+class
+nsIInternalPluginTag
 ;
 class
 nsPluginArray
@@ -442,7 +438,7 @@ nsPluginElement
 nsPIDOMWindow
 *
 aWindow
-nsPluginTag
+nsIInternalPluginTag
 *
 aPluginTag
 )
@@ -474,7 +470,7 @@ aGivenProto
 )
 override
 ;
-nsPluginTag
+nsIInternalPluginTag
 *
 PluginTag
 (
@@ -624,9 +620,9 @@ nsPIDOMWindow
 >
 mWindow
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsPluginTag
+nsIInternalPluginTag
 >
 mPluginTag
 ;

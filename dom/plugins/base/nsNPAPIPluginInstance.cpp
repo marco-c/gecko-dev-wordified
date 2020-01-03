@@ -8314,7 +8314,9 @@ i
 pluginTag
 -
 >
-mMimeTypes
+MimeTypes
+(
+)
 .
 Length
 (
@@ -8331,7 +8333,9 @@ type
 pluginTag
 -
 >
-mMimeTypes
+MimeTypes
+(
+)
 [
 i
 ]

@@ -536,9 +536,9 @@ GetPlugins
 (
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
-nsPluginTag
+nsIInternalPluginTag
 >
 >
 &
@@ -1455,6 +1455,7 @@ ePluginUnregister
 void
 RegisterWithCategoryManager
 (
+const
 nsCString
 &
 aMimeType
