@@ -76,6 +76,9 @@ single
 /
 thread
 .
+namespace
+stagefright
+{
 static
 inline
 int32_t
@@ -208,6 +211,7 @@ aNew
 return
 aOld
 ;
+}
 }
 #
 endif
