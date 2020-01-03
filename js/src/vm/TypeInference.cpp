@@ -22110,7 +22110,7 @@ PreliminaryObjectArrayWithTemplate
 :
 maybeAnalyze
 (
-JSContext
+ExclusiveContext
 *
 cx
 ObjectGroup
