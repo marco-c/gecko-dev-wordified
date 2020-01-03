@@ -5039,7 +5039,7 @@ getIntent
 ;
 GeckoAppShell
 .
-systemExit
+gracefulExit
 (
 )
 ;
@@ -19460,7 +19460,7 @@ args
 ;
 GeckoAppShell
 .
-systemExit
+gracefulExit
 (
 )
 ;
