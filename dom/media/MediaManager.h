@@ -3103,6 +3103,13 @@ uint64_t
 aWindowID
 )
 ;
+bool
+IsWindowActivelyCapturing
+(
+uint64_t
+aWindowId
+)
+;
 MediaEnginePrefs
 mPrefs
 ;
