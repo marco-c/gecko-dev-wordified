@@ -2955,9 +2955,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-MOZ_OPUS
 pref
 (
 "
@@ -2970,8 +2967,6 @@ enabled
 true
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_WAVE

@@ -420,9 +420,6 @@ mVorbisState
 >
 mActive
 )
-#
-ifdef
-MOZ_OPUS
 |
 |
 (
@@ -437,13 +434,6 @@ mOpusState
 >
 mActive
 )
-#
-endif
-/
-*
-MOZ_OPUS
-*
-/
 ;
 }
 virtual
@@ -2147,9 +2137,6 @@ VorbisState
 *
 mVorbisState
 ;
-#
-ifdef
-MOZ_OPUS
 /
 /
 Decode
@@ -2214,13 +2201,6 @@ thread
 bool
 mOpusEnabled
 ;
-#
-endif
-/
-*
-MOZ_OPUS
-*
-/
 /
 /
 Decode

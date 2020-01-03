@@ -8672,9 +8672,6 @@ IsOpusEnabled
 (
 )
 {
-#
-ifdef
-MOZ_OPUS
 return
 Preferences
 :
@@ -8690,13 +8687,6 @@ enabled
 "
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 bool
 MediaDecoder

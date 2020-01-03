@@ -413,9 +413,6 @@ VorbisState
 aPage
 )
 ;
-#
-ifdef
-MOZ_OPUS
 }
 else
 if
@@ -452,8 +449,6 @@ OpusState
 aPage
 )
 ;
-#
-endif
 }
 else
 if
@@ -5843,9 +5838,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_OPUS
 OpusState
 :
 :
@@ -7777,13 +7769,6 @@ return
 true
 ;
 }
-#
-endif
-/
-*
-MOZ_OPUS
-*
-/
 SkeletonState
 :
 :

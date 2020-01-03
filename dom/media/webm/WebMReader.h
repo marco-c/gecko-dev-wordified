@@ -208,17 +208,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_OPUS
-#
 include
 "
 OpusParser
 .
 h
 "
-#
-endif
 /
 /
 Holds
@@ -1096,9 +1091,6 @@ mTaskQueue
 }
 protected
 :
-#
-ifdef
-MOZ_OPUS
 /
 /
 Setup
@@ -1109,8 +1101,6 @@ InitOpusDecoder
 (
 )
 ;
-#
-endif
 /
 /
 Decode
@@ -1221,9 +1211,6 @@ int32_t
 aTotalFrames
 )
 ;
-#
-ifdef
-MOZ_OPUS
 bool
 DecodeOpus
 (
@@ -1243,8 +1230,6 @@ nestegg_packet
 aPacket
 )
 ;
-#
-endif
 /
 /
 Release
@@ -1355,9 +1340,6 @@ mVorbisBlock
 int64_t
 mPacketCount
 ;
-#
-ifdef
-MOZ_OPUS
 /
 /
 Opus
@@ -1396,8 +1378,6 @@ discard
 after
 seeking
 .
-#
-endif
 /
 /
 Queue
@@ -1664,9 +1644,6 @@ mHasVideo
 bool
 mHasAudio
 ;
-#
-ifdef
-MOZ_OPUS
 /
 /
 Opus
@@ -1717,8 +1694,6 @@ invalid
 bool
 mPaddingDiscarded
 ;
-#
-endif
 }
 ;
 }

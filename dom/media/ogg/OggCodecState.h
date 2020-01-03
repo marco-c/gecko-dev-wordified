@@ -166,9 +166,6 @@ h
 #
 endif
 #
-ifdef
-MOZ_OPUS
-#
 include
 <
 opus
@@ -216,8 +213,6 @@ MediaDecoderReader
 .
 h
 "
-#
-endif
 #
 include
 <
@@ -2338,9 +2333,6 @@ OpusState
 public
 OggCodecState
 {
-#
-ifdef
-MOZ_OPUS
 public
 :
 explicit
@@ -2724,13 +2716,6 @@ end
 int64_t
 mPrevPageGranulepos
 ;
-#
-endif
-/
-*
-MOZ_OPUS
-*
-/
 }
 ;
 /
