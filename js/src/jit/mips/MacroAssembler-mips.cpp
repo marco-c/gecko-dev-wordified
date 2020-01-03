@@ -19109,6 +19109,12 @@ Args_Double_IntDouble
 case
 Args_Int_IntDouble
 :
+case
+Args_Double_DoubleDoubleDouble
+:
+case
+Args_Double_DoubleDoubleDoubleDouble
+:
 break
 ;
 default
