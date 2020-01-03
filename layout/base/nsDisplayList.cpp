@@ -8704,7 +8704,7 @@ is
 locked
 in
 .
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 mWillChangeBudgetCalculated
@@ -8896,7 +8896,7 @@ key
 )
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 false
 "
