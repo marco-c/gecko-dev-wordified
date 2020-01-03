@@ -5885,6 +5885,9 @@ not
 selected
 *
 /
+PRBool
+fatalAlertSent
+;
 }
 ;
 #
