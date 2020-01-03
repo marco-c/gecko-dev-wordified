@@ -1218,9 +1218,11 @@ ToLengthClamped
 (
 cx
 args
-[
+.
+get
+(
 0
-]
+)
 &
 length
 &
