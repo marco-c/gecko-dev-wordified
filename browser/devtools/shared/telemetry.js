@@ -803,7 +803,7 @@ timerHistogram
 DEVTOOLS_CANVASDEBUGGER_TIME_ACTIVE_SECONDS
 "
 }
-jsprofiler
+performance
 :
 {
 histogram
