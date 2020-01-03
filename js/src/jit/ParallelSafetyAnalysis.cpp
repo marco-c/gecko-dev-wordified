@@ -1143,6 +1143,10 @@ NewArrayCopyOnWrite
 )
 UNSAFE_OP
 (
+NewArrayDynamicLength
+)
+UNSAFE_OP
+(
 NewTypedObject
 )
 CUSTOM_OP

@@ -313,6 +313,11 @@ NewArrayCopyOnWrite
 \
 _
 (
+NewArrayDynamicLength
+)
+\
+_
+(
 ArraySplice
 )
 \

@@ -629,6 +629,11 @@ NewArrayCopyOnWrite
 \
 _
 (
+NewArrayDynamicLength
+)
+\
+_
+(
 NewObject
 )
 \
