@@ -723,6 +723,12 @@ message
 /
 /
 IDX_MESSAGE
+"
+lastIndex
+"
+/
+/
+IDX_LASTINDEX
 }
 ;
 /
