@@ -187,15 +187,6 @@ ACL_STATE_CONNECTED
 ACL_STATE_DISCONNECTED
 }
 ;
-enum
-BluetoothSspPairingVariant
-{
-SSP_VARIANT_PASSKEY_CONFIRMATION
-SSP_VARIANT_PASSKEY_ENTRY
-SSP_VARIANT_CONSENT
-SSP_VARIANT_PASSKEY_NOTIFICATION
-}
-;
 struct
 BluetoothAddress
 {
@@ -942,7 +933,7 @@ Convert
 (
 uint8_t
 aIn
-BluetoothSspPairingVariant
+BluetoothSspVariant
 &
 aOut
 )
@@ -1042,7 +1033,7 @@ const
 nsAString
 &
 aIn
-BluetoothSspPairingVariant
+BluetoothSspVariant
 &
 aOut
 )
@@ -1265,7 +1256,7 @@ aOut
 nsresult
 Convert
 (
-BluetoothSspPairingVariant
+BluetoothSspVariant
 aIn
 uint8_t
 &
@@ -1275,7 +1266,7 @@ aOut
 nsresult
 Convert
 (
-BluetoothSspPairingVariant
+BluetoothSspVariant
 aIn
 nsAString
 &
@@ -1718,7 +1709,7 @@ aPDU
 nsresult
 PackPDU
 (
-BluetoothSspPairingVariant
+BluetoothSspVariant
 aIn
 BluetoothDaemonPDU
 &
@@ -3539,7 +3530,7 @@ UnpackPDU
 BluetoothDaemonPDU
 &
 aPDU
-BluetoothSspPairingVariant
+BluetoothSspVariant
 &
 aOut
 )
