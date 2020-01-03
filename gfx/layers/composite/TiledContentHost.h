@@ -847,7 +847,7 @@ layers
 FrameMetrics
 .
 const
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 &
 GetFrameResolution
 (
@@ -1086,7 +1086,7 @@ aPaintRegion
 }
 private
 :
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 mFrameResolution
 ;
 bool

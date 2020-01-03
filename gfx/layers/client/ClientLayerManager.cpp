@@ -4224,6 +4224,10 @@ aMetrics
 LayersPixelsPerCSSPixel
 (
 )
+.
+ToScaleFactor
+(
+)
 ;
 const
 CSSRect
@@ -4315,7 +4319,10 @@ aMetrics
 .
 SetZoom
 (
+CSSToParentLayerScale2D
+(
 zoom
+)
 )
 ;
 return

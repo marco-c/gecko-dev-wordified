@@ -1836,7 +1836,7 @@ in
 .
 *
 /
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 mResolution
 ;
 /
@@ -2393,7 +2393,7 @@ DiscardBuffers
 )
 ;
 const
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 &
 GetFrameResolution
 (
@@ -2407,7 +2407,7 @@ void
 SetFrameResolution
 (
 const
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 &
 aResolution
 )
@@ -2593,7 +2593,7 @@ void
 *
 mCallbackData
 ;
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 mFrameResolution
 ;
 gfxContentType

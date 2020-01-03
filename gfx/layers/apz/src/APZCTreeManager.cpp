@@ -1746,7 +1746,7 @@ driven
 /
 resolution
 .
-LayoutDeviceToParentLayerScale
+LayoutDeviceToParentLayerScale2D
 parentCumulativeResolution
 =
 aLayer

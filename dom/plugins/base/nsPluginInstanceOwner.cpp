@@ -1383,7 +1383,7 @@ screenSize
 (
 r
 *
-LayoutDeviceToScreenScale
+LayoutDeviceToScreenScale2D
 (
 resolution
 .
