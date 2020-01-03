@@ -9344,6 +9344,10 @@ module
 .
 containsFunctionPC
 (
+(
+void
+*
+)
 rt
 -
 >
@@ -9352,11 +9356,7 @@ simulator
 )
 -
 >
-get_pc_as
-<
-void
-*
->
+get_pc
 (
 )
 )
@@ -9371,10 +9371,13 @@ simulator
 >
 set_resume_pc
 (
+int32_t
+(
 module
 .
 interruptExit
 (
+)
 )
 )
 ;
