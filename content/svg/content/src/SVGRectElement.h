@@ -230,16 +230,6 @@ nsSVGPathGeometryElement
 methods
 :
 virtual
-void
-ConstructPath
-(
-gfxContext
-*
-aCtx
-)
-MOZ_OVERRIDE
-;
-virtual
 TemporaryRef
 <
 Path

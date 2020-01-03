@@ -169,9 +169,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-class
-gfxContext
-;
 typedef
 nsSVGPathGeometryElement
 SVGPathElementBase
@@ -336,16 +333,6 @@ nsSVGMark
 >
 *
 aMarks
-)
-MOZ_OVERRIDE
-;
-virtual
-void
-ConstructPath
-(
-gfxContext
-*
-aCtx
 )
 MOZ_OVERRIDE
 ;

@@ -172,9 +172,6 @@ aType
 }
 }
 ;
-class
-gfxContext
-;
 typedef
 mozilla
 :
@@ -382,17 +379,6 @@ nsSVGMark
 *
 aMarks
 )
-;
-virtual
-void
-ConstructPath
-(
-gfxContext
-*
-aCtx
-)
-=
-0
 ;
 /
 *

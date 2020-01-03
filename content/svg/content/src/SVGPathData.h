@@ -196,9 +196,6 @@ string
 h
 >
 class
-gfxContext
-;
-class
 nsSVGPathDataParser
 ;
 /
@@ -1307,15 +1304,6 @@ Path
 >
 ToPathForLengthOrPositionMeasuring
 (
-)
-const
-;
-void
-ConstructPath
-(
-gfxContext
-*
-aCtx
 )
 const
 ;

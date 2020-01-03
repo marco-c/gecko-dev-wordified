@@ -232,16 +232,6 @@ aMarks
 MOZ_OVERRIDE
 ;
 virtual
-void
-ConstructPath
-(
-gfxContext
-*
-aCtx
-)
-MOZ_OVERRIDE
-;
-virtual
 nsresult
 Clone
 (
