@@ -9944,6 +9944,8 @@ nsStyleContext
 aOldStyleContext
 nsRestyleHint
 aReplacements
+uint32_t
+aFlags
 )
 {
 nsRuleNode
@@ -10128,6 +10130,15 @@ nullptr
 ;
 if
 (
+!
+(
+aFlags
+&
+eSkipStartingAnimations
+)
+&
+&
+(
 pseudoType
 =
 =
@@ -10153,6 +10164,7 @@ nsCSSPseudoElements
 :
 :
 ePseudo_after
+)
 )
 {
 /
