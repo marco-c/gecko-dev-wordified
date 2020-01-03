@@ -1919,6 +1919,9 @@ KeyClass
 (
 aKey
 )
+mData
+(
+)
 {
 }
 template
