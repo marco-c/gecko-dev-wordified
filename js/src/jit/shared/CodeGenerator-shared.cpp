@@ -10200,7 +10200,7 @@ rmc
 #
 ifdef
 JS_TRACE_LOGGING
-bool
+void
 CodeGeneratorShared
 :
 :
@@ -10219,7 +10219,6 @@ TraceLogger_Scripts
 )
 )
 return
-true
 ;
 Label
 done
@@ -10273,9 +10272,10 @@ nullptr
 logger
 )
 ;
-if
+masm
+.
+propagateOOM
 (
-!
 patchableTraceLoggers_
 .
 append
@@ -10283,8 +10283,6 @@ append
 patchLogger
 )
 )
-return
-false
 ;
 Address
 enabledAddress
@@ -10336,9 +10334,10 @@ ImmWord
 script
 )
 ;
-if
+masm
+.
+propagateOOM
 (
-!
 patchableTLScripts_
 .
 append
@@ -10346,8 +10345,6 @@ append
 patchScript
 )
 )
-return
-false
 ;
 if
 (
@@ -10392,11 +10389,8 @@ Pop
 logger
 )
 ;
-return
-true
-;
 }
-bool
+void
 CodeGeneratorShared
 :
 :
@@ -10417,7 +10411,6 @@ textId
 )
 )
 return
-true
 ;
 Label
 done
@@ -10462,9 +10455,10 @@ nullptr
 logger
 )
 ;
-if
+masm
+.
+propagateOOM
 (
-!
 patchableTraceLoggers_
 .
 append
@@ -10472,8 +10466,6 @@ append
 patchLocation
 )
 )
-return
-false
 ;
 Address
 enabledAddress
@@ -10539,9 +10531,6 @@ Pop
 (
 logger
 )
-;
-return
-true
 ;
 }
 #
