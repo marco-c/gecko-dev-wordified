@@ -1301,10 +1301,10 @@ context
 ;
 if
 (
-response
-=
-=
 ENCODING_FAILED
+(
+response
+)
 )
 {
 PrintPRError

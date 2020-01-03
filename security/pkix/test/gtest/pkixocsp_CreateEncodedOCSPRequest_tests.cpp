@@ -533,10 +533,12 @@ CNToDERName
 issuerASCII
 )
 ;
-ASSERT_NE
+ASSERT_FALSE
 (
 ENCODING_FAILED
+(
 issuerDER
+)
 )
 ;
 ScopedTestKeyPair
