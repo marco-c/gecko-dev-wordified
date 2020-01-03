@@ -206,8 +206,6 @@ new
 MP4Stream
 (
 resource
-&
-mMonitor
 )
 0
 &
