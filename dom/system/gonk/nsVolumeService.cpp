@@ -2577,7 +2577,7 @@ path
 nsIVolume
 :
 :
-STATE_MOUNTED
+STATE_INIT
 -
 1
 /
@@ -2627,6 +2627,17 @@ false
 isHotSwappable
 *
 /
+)
+;
+vol
+-
+>
+SetState
+(
+nsIVolume
+:
+:
+STATE_MOUNTED
 )
 ;
 vol
