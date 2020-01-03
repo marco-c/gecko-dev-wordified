@@ -729,6 +729,5 @@ Client
 }
 )
 (
-jQuery
 )
 ;
