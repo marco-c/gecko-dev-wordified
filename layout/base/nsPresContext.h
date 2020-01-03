@@ -402,7 +402,7 @@ struct
 nsFontFaceRuleContainer
 ;
 class
-nsObjectFrame
+nsPluginFrame
 ;
 class
 nsTransitionManager
@@ -7700,7 +7700,7 @@ are
 stored
 on
 each
-nsObjectFrame
+nsPluginFrame
 .
 *
 This

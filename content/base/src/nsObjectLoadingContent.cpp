@@ -4963,7 +4963,7 @@ SetFrame
 (
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -7635,13 +7635,13 @@ owner
 and
 frame
 .
-nsObjectFrame
+nsPluginFrame
 *
 objFrame
 =
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -17023,7 +17023,7 @@ return
 eType_Null
 ;
 }
-nsObjectFrame
+nsPluginFrame
 *
 nsObjectLoadingContent
 :
@@ -17073,7 +17073,7 @@ frame
 return
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -22121,7 +22121,7 @@ called
 from
 /
 /
-nsObjectFrame
+nsPluginFrame
 when
 the
 plugin

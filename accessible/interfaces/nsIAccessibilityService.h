@@ -150,7 +150,7 @@ class
 nsIPresShell
 ;
 class
-nsObjectFrame
+nsPluginFrame
 ;
 /
 /

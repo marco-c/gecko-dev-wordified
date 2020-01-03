@@ -10630,7 +10630,7 @@ plugins
 .
 (
 See
-nsObjectFrame
+nsPluginFrame
 and
 gfxWindowsNativeDrawing
 for

@@ -3214,7 +3214,7 @@ e
 .
 g
 .
-nsObjectFrame
+nsPluginFrame
 nsFrameFrame
 nsTextFrame
 )
@@ -3243,7 +3243,7 @@ mOverflowArea
 .
 In
 fact
-nsObjectFrame
+nsPluginFrame
 and
 nsFrameFrame
 don

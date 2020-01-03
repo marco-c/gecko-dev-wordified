@@ -223,7 +223,7 @@ class
 nsPluginDOMContextMenuListener
 ;
 class
-nsObjectFrame
+nsPluginFrame
 ;
 class
 nsDisplayListBuilder
@@ -910,7 +910,7 @@ context
 in
 /
 /
-nsObjectFrame
+nsPluginFrame
 :
 :
 PaintPlugin
@@ -947,7 +947,7 @@ has
 been
 called
 from
-nsObjectFrame
+nsPluginFrame
 :
 :
 PaintPlugin
@@ -1010,12 +1010,12 @@ XP_MACOSX
 void
 SetFrame
 (
-nsObjectFrame
+nsPluginFrame
 *
 aFrame
 )
 ;
-nsObjectFrame
+nsPluginFrame
 *
 GetFrame
 (
@@ -1639,7 +1639,7 @@ nsNPAPIPluginInstance
 >
 mInstance
 ;
-nsObjectFrame
+nsPluginFrame
 *
 mObjectFrame
 ;

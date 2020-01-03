@@ -231,7 +231,7 @@ class
 AutoSetInstantiatingToFalse
 ;
 class
-nsObjectFrame
+nsPluginFrame
 ;
 class
 nsFrameLoader
@@ -3193,7 +3193,7 @@ flush
 .
 *
 /
-nsObjectFrame
+nsPluginFrame
 *
 GetExistingFrame
 (

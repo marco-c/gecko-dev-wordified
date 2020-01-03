@@ -10006,7 +10006,7 @@ plugins
 NS_WARNING
 (
 "
-nsObjectFrame
+nsPluginFrame
 ProcessEvent
 :
 trying
@@ -14224,13 +14224,13 @@ do_QueryFrame
 frame
 )
 ;
-nsObjectFrame
+nsPluginFrame
 *
 objFrame
 =
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -15589,7 +15589,7 @@ up
 a
 CGContext
 in
-nsObjectFrame
+nsPluginFrame
 :
 :
 PaintPlugin
@@ -17119,7 +17119,7 @@ nsPluginInstanceOwner
 :
 SetFrame
 (
-nsObjectFrame
+nsPluginFrame
 *
 aFrame
 )
@@ -17357,7 +17357,7 @@ GetFocusedContent
 }
 }
 }
-nsObjectFrame
+nsPluginFrame
 *
 nsPluginInstanceOwner
 :

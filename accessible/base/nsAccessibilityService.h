@@ -150,7 +150,7 @@ class
 nsImageFrame
 ;
 class
-nsObjectFrame
+nsPluginFrame
 ;
 class
 nsITreeView
@@ -312,7 +312,7 @@ Accessible
 >
 CreatePluginAccessible
 (
-nsObjectFrame
+nsPluginFrame
 *
 aFrame
 nsIContent

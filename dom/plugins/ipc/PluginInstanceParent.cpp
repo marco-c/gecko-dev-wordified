@@ -1737,7 +1737,7 @@ otherwise
 /
 /
 the
-nsObjectFrame
+nsPluginFrame
 will
 try
 to
@@ -6274,7 +6274,7 @@ We
 send
 this
 in
-nsObjectFrame
+nsPluginFrame
 just
 before
 painting

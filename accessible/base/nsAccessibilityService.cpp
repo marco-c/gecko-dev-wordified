@@ -1992,7 +1992,7 @@ nsAccessibilityService
 :
 CreatePluginAccessible
 (
-nsObjectFrame
+nsPluginFrame
 *
 aFrame
 nsIContent
@@ -2005,7 +2005,7 @@ aContext
 {
 /
 /
-nsObjectFrame
+nsPluginFrame
 means
 a
 plugin
@@ -11343,7 +11343,7 @@ case
 ePluginType
 :
 {
-nsObjectFrame
+nsPluginFrame
 *
 objectFrame
 =

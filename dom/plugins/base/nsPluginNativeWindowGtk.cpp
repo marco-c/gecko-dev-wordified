@@ -892,7 +892,7 @@ window
 each
 time
 as
-nsObjectFrame
+nsPluginFrame
 :
 :
 DidReflow
@@ -1406,7 +1406,7 @@ case
 is
 done
 in
-nsObjectFrame
+nsPluginFrame
 .
 cpp
 .

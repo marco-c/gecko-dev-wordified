@@ -108,10 +108,10 @@ plugin
 /
 #
 ifndef
-nsObjectFrame_h___
+nsPluginFrame_h___
 #
 define
-nsObjectFrame_h___
+nsPluginFrame_h___
 #
 include
 "
@@ -234,13 +234,13 @@ LayerManager
 }
 typedef
 nsFrame
-nsObjectFrameSuper
+nsPluginFrameSuper
 ;
 class
-nsObjectFrame
+nsPluginFrame
 :
 public
-nsObjectFrameSuper
+nsPluginFrameSuper
 public
 nsIObjectFrame
 public
@@ -309,7 +309,7 @@ aContext
 NS_DECL_QUERYFRAME
 NS_DECL_QUERYFRAME_TARGET
 (
-nsObjectFrame
+nsPluginFrame
 )
 virtual
 void
@@ -440,7 +440,7 @@ const
 MOZ_OVERRIDE
 {
 return
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 IsFrameOfType
@@ -1077,7 +1077,7 @@ If
 aSupports
 has
 a
-nsObjectFrame
+nsPluginFrame
 then
 prepare
 it
@@ -1133,7 +1133,7 @@ If
 aSupports
 has
 a
-nsObjectFrame
+nsPluginFrame
 then
 set
 it
@@ -1254,7 +1254,7 @@ aOwner
 protected
 :
 explicit
-nsObjectFrame
+nsPluginFrame
 (
 nsStyleContext
 *
@@ -1263,7 +1263,7 @@ aContext
 ;
 virtual
 ~
-nsObjectFrame
+nsPluginFrame
 (
 )
 ;
@@ -1582,7 +1582,7 @@ the
 ReadbackLayer
 for
 this
-nsObjectFrame
+nsPluginFrame
 .
 It
 is
@@ -1881,7 +1881,7 @@ MOZ_OVERRIDE
 return
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -1918,7 +1918,7 @@ MOZ_OVERRIDE
 return
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -1939,6 +1939,6 @@ aManager
 endif
 /
 *
-nsObjectFrame_h___
+nsPluginFrame_h___
 *
 /

@@ -1428,7 +1428,7 @@ bar
 /
 curled
 from
-nsObjectFrame
+nsPluginFrame
 .
 cpp
 .

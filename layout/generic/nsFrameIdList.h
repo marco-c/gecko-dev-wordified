@@ -462,7 +462,7 @@ nsNumberControlFrame
 )
 FRAME_ID
 (
-nsObjectFrame
+nsPluginFrame
 )
 FRAME_ID
 (
