@@ -178,7 +178,7 @@ final
 public
 UnixSocketWatcher
 protected
-SocketIOBase
+DataSocketIO
 public
 ConnectionOrientedSocketIO
 {
@@ -242,9 +242,9 @@ aAddrStr
 )
 const
 ;
-SocketConsumerBase
+DataSocket
 *
-GetConsumer
+GetDataSocket
 (
 )
 ;
@@ -635,7 +635,7 @@ UnixSocketWatcher
 (
 mIOLoop
 )
-SocketIOBase
+DataSocketIO
 (
 MAX_READ_SIZE
 )
@@ -701,7 +701,7 @@ mIOLoop
 aFd
 aConnectionStatus
 )
-SocketIOBase
+DataSocketIO
 (
 MAX_READ_SIZE
 )
@@ -811,12 +811,12 @@ aAddrStr
 )
 ;
 }
-SocketConsumerBase
+DataSocket
 *
 StreamSocketIO
 :
 :
-GetConsumer
+GetDataSocket
 (
 )
 {
@@ -838,7 +838,7 @@ GetSocketBase
 )
 {
 return
-GetConsumer
+GetDataSocket
 (
 )
 ;

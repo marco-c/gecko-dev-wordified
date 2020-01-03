@@ -204,7 +204,7 @@ final
 public
 UnixSocketWatcher
 protected
-SocketIOBase
+DataSocketIO
 {
 public
 :
@@ -239,9 +239,9 @@ aAddrStr
 )
 const
 ;
-SocketConsumerBase
+DataSocket
 *
-GetConsumer
+GetDataSocket
 (
 )
 ;
@@ -640,7 +640,7 @@ UnixSocketWatcher
 (
 mIOLoop
 )
-SocketIOBase
+DataSocketIO
 (
 MAX_READ_SIZE
 )
@@ -756,7 +756,7 @@ aAddrStr
 )
 ;
 }
-SocketConsumerBase
+DataSocket
 *
 BluetoothSocket
 :
@@ -764,7 +764,7 @@ BluetoothSocket
 BluetoothSocketIO
 :
 :
-GetConsumer
+GetDataSocket
 (
 )
 {
@@ -789,7 +789,7 @@ GetSocketBase
 )
 {
 return
-GetConsumer
+GetDataSocket
 (
 )
 ;
