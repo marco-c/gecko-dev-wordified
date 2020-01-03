@@ -215,7 +215,7 @@ org
 /
 kb
 /
-kids
+controlledaccess
 "
 ;
 private
