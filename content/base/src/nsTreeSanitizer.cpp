@@ -2396,12 +2396,6 @@ color
 interpolation
 -
 filters
-/
-/
-contentScriptType
-/
-/
-contentStyleType
 &
 nsGkAtoms
 :
@@ -2568,14 +2562,6 @@ filter
 /
 /
 filter
-&
-nsGkAtoms
-:
-:
-filterRes
-/
-/
-filterRes
 &
 nsGkAtoms
 :
