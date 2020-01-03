@@ -2071,15 +2071,6 @@ Iterator
 Iter
 (
 )
-const
-;
-PLDHashTable
-:
-:
-RemovingIterator
-RemovingIter
-(
-)
 ;
 private
 :
