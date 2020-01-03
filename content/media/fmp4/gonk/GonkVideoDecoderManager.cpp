@@ -467,7 +467,7 @@ mDisplayHeight
 =
 aConfig
 .
-display_width
+display_height
 ;
 mInfo
 .

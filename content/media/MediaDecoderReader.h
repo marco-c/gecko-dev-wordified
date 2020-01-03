@@ -175,6 +175,9 @@ RequestSampleCallback
 class
 MediaDecoderReader
 ;
+class
+SharedDecoderManager
+;
 /
 /
 Encapsulates
@@ -375,7 +378,16 @@ ReleaseMediaResources
 )
 {
 }
-;
+virtual
+void
+SetSharedDecoderManager
+(
+SharedDecoderManager
+*
+aManager
+)
+{
+}
 /
 /
 Breaks
