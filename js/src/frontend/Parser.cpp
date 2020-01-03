@@ -4441,13 +4441,6 @@ options
 )
 .
 extraWarningsOption
-/
-*
-allowSuperProperty
-=
-*
-/
-false
 )
 ;
 ParseContext
