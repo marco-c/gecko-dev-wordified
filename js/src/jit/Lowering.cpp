@@ -17398,7 +17398,7 @@ alloc
 )
 LTypedObjectElements
 (
-useRegisterAtStart
+useRegister
 (
 ins
 -

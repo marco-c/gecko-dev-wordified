@@ -5942,7 +5942,7 @@ JSObject
 *
 obj
 =
-TypedObject
+OwnedTypedObject
 :
 :
 createDerived
