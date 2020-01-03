@@ -3010,11 +3010,9 @@ scope
 ;
 obj
 =
-JS_NewObject
+JS_NewPlainObject
 (
 cx
-nullptr
-scope
 )
 ;
 if
