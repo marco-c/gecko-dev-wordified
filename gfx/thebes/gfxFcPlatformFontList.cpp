@@ -4171,6 +4171,13 @@ bool
 aIsPrinterFont
 )
 {
+FcConfigSubstitute
+(
+nullptr
+aPattern
+FcMatchPattern
+)
+;
 /
 /
 This
