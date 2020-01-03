@@ -1849,7 +1849,7 @@ int32_t
 ;
 DECL_GFX_PREF
 (
-Once
+Live
 "
 apz
 .
