@@ -1361,7 +1361,7 @@ ePointerEventClass
 EVENT
 (
 selectstart
-NS_SELECT_START
+eSelectStart
 EventNameType_HTMLXUL
 eBasicEventClass
 )
