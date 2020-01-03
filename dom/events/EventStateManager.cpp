@@ -2784,6 +2784,17 @@ IMEContentObserver
 aIMEContentObserver
 )
 {
+if
+(
+mIMEContentObserver
+=
+=
+aIMEContentObserver
+)
+{
+return
+;
+}
 ReleaseCurrentIMEContentObserver
 (
 )
