@@ -654,6 +654,13 @@ int32_t
 aEndOffset
 )
 ;
+char16_t
+CharAt
+(
+int32_t
+aOffset
+)
+;
 /
 *
 *
