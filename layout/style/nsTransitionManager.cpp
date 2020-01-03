@@ -1314,9 +1314,7 @@ IsSet
 otherTransition
 -
 >
-OwningElement
-(
-)
+mOwningElement
 .
 IsSet
 (
@@ -1347,9 +1345,7 @@ Equals
 otherTransition
 -
 >
-OwningElement
-(
-)
+mOwningElement
 )
 )
 {
@@ -1361,9 +1357,7 @@ LessThan
 otherTransition
 -
 >
-OwningElement
-(
-)
+mOwningElement
 )
 ;
 }

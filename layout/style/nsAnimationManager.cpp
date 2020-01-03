@@ -1023,9 +1023,7 @@ IsSet
 otherAnimation
 -
 >
-OwningElement
-(
-)
+mOwningElement
 .
 IsSet
 (
@@ -1056,9 +1054,7 @@ Equals
 otherAnimation
 -
 >
-OwningElement
-(
-)
+mOwningElement
 )
 )
 {
@@ -1070,9 +1066,7 @@ LessThan
 otherAnimation
 -
 >
-OwningElement
-(
-)
+mOwningElement
 )
 ;
 }
