@@ -1562,6 +1562,15 @@ unused
 -
 function
 '
+        
+'
+-
+Wno
+-
+deprecated
+-
+declarations
+'
     
 ]
     
@@ -1578,6 +1587,7 @@ CXXFLAGS
 +
 =
 [
+            
 '
 -
 Wno
@@ -1588,6 +1598,27 @@ missing
 -
 override
 '
+            
+'
+-
+Wno
+-
+macro
+-
+redefined
+'
+            
+'
+-
+Wno
+-
+unused
+-
+private
+-
+field
+'
+        
 ]
     
 else
