@@ -270,7 +270,7 @@ aCtors
 =
 aClass
 .
-getConstructors
+getDeclaredConstructors
 (
 )
 ;
