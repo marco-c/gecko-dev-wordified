@@ -317,6 +317,9 @@ false
 ;
 }
 }
+namespace
+css
+{
 CommonAnimationManager
 :
 :
@@ -2240,6 +2243,9 @@ auto
 &
 info
 =
+css
+:
+:
 CommonAnimationManager
 :
 :
@@ -2938,6 +2944,11 @@ get
 }
 #
 endif
+}
+/
+/
+namespace
+css
 bool
 AnimationCollection
 :
@@ -3991,6 +4002,9 @@ prop
 nsChangeHint
 changeHint
 =
+css
+:
+:
 CommonAnimationManager
 :
 :
@@ -5297,6 +5311,9 @@ auto
 &
 info
 =
+css
+:
+:
 CommonAnimationManager
 :
 :

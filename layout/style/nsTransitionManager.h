@@ -1253,6 +1253,9 @@ destroyed
 ;
 }
 virtual
+css
+:
+:
 CommonAnimationManager
 *
 GetAnimationManager
@@ -1308,6 +1311,9 @@ public
 mozilla
 :
 :
+css
+:
+:
 CommonAnimationManager
 {
 public
@@ -1321,6 +1327,9 @@ aPresContext
 )
 :
 mozilla
+:
+:
+css
 :
 :
 CommonAnimationManager
