@@ -747,10 +747,7 @@ protecting
 FileManager
 .
 mFileInfos
-and
-BlobImplBase
 .
-mFileInfos
 /
 /
 It
