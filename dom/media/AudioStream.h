@@ -203,14 +203,8 @@ SoundTouch
 namespace
 mozilla
 {
-template
-<
->
 struct
-DefaultDelete
-<
-cubeb_stream
->
+DestroyPolicy
 {
 void
 operator
@@ -2391,6 +2385,7 @@ cubeb_stream
 UniquePtr
 <
 cubeb_stream
+DestroyPolicy
 >
 mCubebStream
 ;
