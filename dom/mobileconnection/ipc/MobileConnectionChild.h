@@ -505,7 +505,7 @@ mNetworkSelectionMode
 ;
 nsTArray
 <
-nsString
+int32_t
 >
 mSupportedNetworkTypes
 ;
