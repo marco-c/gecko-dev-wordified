@@ -1259,6 +1259,14 @@ color
 #
 fbfbfb
 ;
+background
+-
+clip
+:
+content
+-
+box
+;
 color
 :
 #
@@ -1301,7 +1309,7 @@ border
 -
 radius
 :
-2
+3
 .
 5px
 ;
@@ -1311,7 +1319,7 @@ shadow
 :
 0
 2px
-4px
+6px
 0
 rgba
 (
@@ -1320,7 +1328,7 @@ rgba
 0
 0
 .
-5
+3
 )
 ;
 display
