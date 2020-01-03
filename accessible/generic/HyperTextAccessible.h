@@ -362,6 +362,15 @@ aAccessible
 )
 override
 ;
+virtual
+Relation
+RelationByType
+(
+RelationType
+aType
+)
+override
+;
 /
 /
 HyperTextAccessible
