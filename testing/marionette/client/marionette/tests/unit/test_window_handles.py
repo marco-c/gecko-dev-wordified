@@ -841,27 +841,6 @@ switch_to_window
 start_tab
 )
     
-#
-This
-sequence
-triggers
-an
-exception
-in
-Marionette
-:
-register
-with
-e10s
-on
-(
-bug
-1120809
-)
-.
-    
-skip_if_e10s
-    
 def
 test_tab_and_window_handles
 (
