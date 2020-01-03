@@ -1412,6 +1412,17 @@ aSessionId
 override
 ;
 virtual
+bool
+RecvNotifyPresentationReceiverCleanUp
+(
+const
+nsString
+&
+aSessionId
+)
+override
+;
+virtual
 PSpeechSynthesisChild
 *
 AllocPSpeechSynthesisChild

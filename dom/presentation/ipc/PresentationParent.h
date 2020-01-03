@@ -274,16 +274,6 @@ override
 ;
 virtual
 bool
-RecvGetExistentSessionIdAtLaunch
-(
-nsString
-*
-aSessionId
-)
-override
-;
-virtual
-bool
 RecvNotifyReceiverReady
 (
 const
