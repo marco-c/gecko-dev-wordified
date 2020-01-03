@@ -1887,7 +1887,9 @@ Offerer
 true
 /
 /
-Trickle
+Explicitly
+set
+priorities
 mAllowIceLoopback
 )
 ;
