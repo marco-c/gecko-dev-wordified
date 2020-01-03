@@ -312,6 +312,8 @@ codes
 33
 and
 49
+-
+51
 are
 for
 the
@@ -426,6 +428,8 @@ codes
 33
 and
 49
+-
+51
 are
 for
 the
@@ -437,6 +441,14 @@ service
 define
 SERVICE_COULD_NOT_COPY_UPDATER
 49
+#
+define
+SERVICE_STILL_APPLYING_TERMINATED
+50
+#
+define
+SERVICE_STILL_APPLYING_NO_EXIT_CODE
+51
 #
 define
 WRITE_ERROR_FILE_COPY
