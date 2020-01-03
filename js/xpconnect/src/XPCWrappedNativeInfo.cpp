@@ -288,7 +288,7 @@ UncheckedUnwrap
 funobj
 )
 ;
-jsval
+Value
 memberVal
 =
 js
@@ -347,7 +347,7 @@ XPCNativeInterface
 iface
 HandleObject
 parent
-jsval
+Value
 *
 pval
 )
@@ -400,7 +400,7 @@ XPCNativeInterface
 iface
 HandleObject
 parent
-jsval
+Value
 *
 vp
 )

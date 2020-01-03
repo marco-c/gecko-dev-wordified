@@ -3024,7 +3024,7 @@ T_JSVAL
 *
 (
 (
-jsval
+Value
 *
 )
 d
@@ -6492,7 +6492,7 @@ exceptn
 JSContext
 *
 cx
-jsval
+Value
 *
 jsExceptionPtr
 )
@@ -7645,7 +7645,7 @@ we
 re
 storing
 the
-jsval
+Value
 in
 the
 exception

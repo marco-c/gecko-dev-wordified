@@ -218,7 +218,7 @@ XPCVariant
 JSContext
 *
 cx
-jsval
+Value
 aJSVal
 )
 :
@@ -460,7 +460,7 @@ XPCTraceableVariant
 (
 )
 {
-jsval
+Value
 val
 =
 GetJSValPreserveColor
@@ -691,7 +691,7 @@ newVariant
 JSContext
 *
 cx
-jsval
+Value
 aJSVal
 )
 {

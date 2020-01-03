@@ -2213,7 +2213,7 @@ the
 string
 in
 a
-jsval
+Value
 after
 the
 AutoScriptEvaluate
@@ -6420,13 +6420,13 @@ nsXPTCMiniVariant
 nativeParams
 )
 {
-jsval
+Value
 *
 sp
 =
 nullptr
 ;
-jsval
+Value
 *
 argv
 =

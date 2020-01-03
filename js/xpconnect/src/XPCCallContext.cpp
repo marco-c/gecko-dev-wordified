@@ -214,7 +214,7 @@ argc
 NO_ARGS
 *
 /
-jsval
+Value
 *
 argv
 /
@@ -223,7 +223,7 @@ argv
 nullptr
 *
 /
-jsval
+Value
 *
 rval
 /
@@ -1028,10 +1028,10 @@ SetArgsAndResultPtr
 (
 unsigned
 argc
-jsval
+Value
 *
 argv
-jsval
+Value
 *
 rval
 )
@@ -1582,7 +1582,7 @@ XPCCallContext
 :
 GetArgvPtr
 (
-jsval
+Value
 *
 *
 aArgvPtr

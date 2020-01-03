@@ -832,7 +832,10 @@ mArgc
 ;
 }
 inline
-jsval
+JS
+:
+:
+Value
 *
 XPCCallContext
 :
@@ -852,7 +855,10 @@ mArgv
 ;
 }
 inline
-jsval
+JS
+:
+:
+Value
 *
 XPCCallContext
 :
@@ -878,7 +884,10 @@ XPCCallContext
 :
 SetRetVal
 (
-jsval
+JS
+:
+:
+Value
 val
 )
 {
