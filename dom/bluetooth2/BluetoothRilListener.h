@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsITelephonyCallInfo
+.
+h
+"
+#
+include
+"
 nsITelephonyService
 .
 h
