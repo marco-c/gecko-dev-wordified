@@ -10645,6 +10645,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mPreloadingImages
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mSubImportLinks
+)
 for
 (
 uint32_t
@@ -11001,6 +11005,10 @@ mMasterDocument
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mImportManager
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mSubImportLinks
 )
 tmp
 -
