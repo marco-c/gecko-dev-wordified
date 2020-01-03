@@ -2927,11 +2927,16 @@ ordering
 ?
 if
 (
+mIPCDoc
+)
+{
+MOZ_ASSERT
+(
 IPCAccessibilityActive
 (
 )
 )
-{
+;
 mIPCDoc
 -
 >
