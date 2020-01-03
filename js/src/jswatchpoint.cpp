@@ -1104,7 +1104,7 @@ get
 bool
 objectIsLive
 =
-IsObjectMarked
+IsMarked
 (
 const_cast
 <
@@ -1143,7 +1143,7 @@ if
 objectIsLive
 )
 {
-MarkObject
+TraceEdge
 (
 trc
 const_cast
@@ -1231,7 +1231,7 @@ closure
 &
 &
 !
-IsObjectMarked
+IsMarked
 (
 &
 entry
@@ -1244,7 +1244,7 @@ closure
 )
 )
 {
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1426,7 +1426,7 @@ id
 )
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 const_cast
@@ -1469,7 +1469,7 @@ id
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1632,7 +1632,7 @@ object
 ;
 if
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 obj

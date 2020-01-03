@@ -3406,13 +3406,10 @@ if
 obj
 &
 &
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalized
 (
+&
 obj
-.
-unsafeGet
-(
-)
 )
 )
 obj
@@ -10221,7 +10218,7 @@ JSTracer
 trc
 )
 {
-MarkObjectRootRange
+TraceRootRange
 (
 trc
 nurseryObjects_

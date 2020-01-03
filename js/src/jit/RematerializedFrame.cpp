@@ -952,10 +952,7 @@ script
 "
 )
 ;
-gc
-:
-:
-MarkObjectRoot
+TraceRoot
 (
 trc
 &

@@ -1024,7 +1024,7 @@ dying
 scriptGone
 |
 |
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalized
 (
 &
 dbgobj

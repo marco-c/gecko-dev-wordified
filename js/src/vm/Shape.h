@@ -8897,10 +8897,7 @@ hasGetterObject
 (
 )
 )
-gc
-:
-:
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -8920,10 +8917,7 @@ hasSetterObject
 (
 )
 )
-gc
-:
-:
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

@@ -8322,7 +8322,7 @@ objp
 {
 if
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 objp
 )

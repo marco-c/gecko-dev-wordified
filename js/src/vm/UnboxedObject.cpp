@@ -2505,7 +2505,7 @@ UnboxedPlainObject
 expando_
 )
 {
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 reinterpret_cast
@@ -2664,7 +2664,7 @@ if
 *
 heap
 )
-MarkObject
+TraceEdge
 (
 trc
 heap

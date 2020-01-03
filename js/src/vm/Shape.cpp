@@ -10387,7 +10387,7 @@ isObject
 )
 &
 &
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 proto
@@ -10681,10 +10681,7 @@ JSPROP_GETTER
 *
 pgetter
 )
-gc
-:
-:
-MarkObjectRoot
+TraceRoot
 (
 trc
 (
@@ -10711,10 +10708,7 @@ JSPROP_SETTER
 *
 psetter
 )
-gc
-:
-:
-MarkObjectRoot
+TraceRoot
 (
 trc
 (

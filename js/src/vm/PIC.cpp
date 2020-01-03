@@ -1605,10 +1605,7 @@ disabled_
 )
 return
 ;
-gc
-:
-:
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1622,10 +1619,7 @@ prototype
 "
 )
 ;
-gc
-:
-:
-MarkObject
+TraceEdge
 (
 trc
 &

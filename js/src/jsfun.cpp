@@ -5338,7 +5338,7 @@ i
 .
 env_
 )
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

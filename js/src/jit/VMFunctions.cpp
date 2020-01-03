@@ -7808,10 +7808,7 @@ if
 *
 objp
 )
-gc
-:
-:
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 &
 rt

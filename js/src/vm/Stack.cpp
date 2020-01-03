@@ -2329,10 +2329,7 @@ flags_
 &
 HAS_SCOPECHAIN
 )
-gc
-:
-:
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -2349,10 +2346,7 @@ flags_
 &
 HAS_ARGS_OBJ
 )
-gc
-:
-:
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -2369,10 +2363,7 @@ isFunctionFrame
 )
 )
 {
-gc
-:
-:
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

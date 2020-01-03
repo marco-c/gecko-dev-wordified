@@ -580,7 +580,7 @@ MarkExactStackRootList
 <
 JSObject
 *
-MarkObjectRoot
+TraceRoot
 >
 (
 trc
@@ -1313,7 +1313,7 @@ this
 >
 vector
 ;
-MarkObjectRootRange
+TraceRootRange
 (
 trc
 vector
@@ -1362,7 +1362,7 @@ this
 >
 vector
 ;
-MarkObjectRootRange
+TraceRootRange
 (
 trc
 vector
@@ -1666,7 +1666,7 @@ popFront
 )
 )
 {
-MarkObjectRoot
+TraceRoot
 (
 trc
 &
@@ -1720,7 +1720,7 @@ key
 (
 )
 ;
-MarkObjectRoot
+TraceRoot
 (
 trc
 &
@@ -1825,7 +1825,7 @@ key
 (
 )
 ;
-MarkObjectRoot
+TraceRoot
 (
 trc
 &
@@ -1926,7 +1926,7 @@ front
 (
 )
 ;
-MarkObjectRoot
+TraceRoot
 (
 trc
 &
@@ -2518,7 +2518,7 @@ JSPROP_GETTER
 &
 rawGetter
 )
-MarkObjectRoot
+TraceRoot
 (
 trc
 (
@@ -2545,7 +2545,7 @@ JSPROP_SETTER
 &
 rawSetter
 )
-MarkObjectRoot
+TraceRoot
 (
 trc
 (
@@ -2577,7 +2577,7 @@ if
 (
 obj
 )
-MarkObjectRoot
+TraceRoot
 (
 trc
 &
@@ -2626,7 +2626,7 @@ JSObject
 getter
 )
 ;
-MarkObjectRoot
+TraceRoot
 (
 trc
 &
@@ -2671,7 +2671,7 @@ JSObject
 setter
 )
 ;
-MarkObjectRoot
+TraceRoot
 (
 trc
 &
@@ -2744,11 +2744,6 @@ char
 name
 )
 ;
-template
-<
-MarkFunc
-Mark
->
 static
 void
 markChainIfNotNull
@@ -2798,7 +2793,7 @@ get
 (
 )
 )
-Mark
+TraceRoot
 (
 trc
 r
@@ -2812,11 +2807,6 @@ name
 ;
 }
 }
-template
-<
-MarkFunc
-Mark
->
 static
 void
 markChain
@@ -2856,7 +2846,7 @@ getNext
 (
 )
 )
-Mark
+TraceRoot
 (
 trc
 r
@@ -2919,9 +2909,6 @@ JSFunction
 :
 :
 markChainIfNotNull
-<
-MarkObjectRoot
->
 (
 trc
 rt
@@ -2945,9 +2932,6 @@ JSObject
 :
 :
 markChainIfNotNull
-<
-MarkObjectRoot
->
 (
 trc
 rt
@@ -2971,9 +2955,6 @@ JSScript
 :
 :
 markChainIfNotNull
-<
-TraceRoot
->
 (
 trc
 rt
@@ -2997,9 +2978,6 @@ JSString
 :
 :
 markChainIfNotNull
-<
-TraceRoot
->
 (
 trc
 rt
@@ -3035,9 +3013,6 @@ jsid
 :
 :
 markChain
-<
-TraceRoot
->
 (
 trc
 rt
@@ -3059,9 +3034,6 @@ Value
 :
 :
 markChain
-<
-TraceRoot
->
 (
 trc
 rt
@@ -3340,7 +3312,7 @@ rt
 >
 asyncStackForNewActivations
 )
-MarkObjectRoot
+TraceRoot
 (
 trc
 &

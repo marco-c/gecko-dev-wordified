@@ -6119,10 +6119,7 @@ InlineTransparentTypedObject
 )
 )
 ;
-gc
-:
-:
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -6860,7 +6857,7 @@ views
 {
 if
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 pkey
 )
@@ -6900,7 +6897,7 @@ i
 {
 if
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 views
@@ -7534,7 +7531,7 @@ the
 tenured
 space
 .
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

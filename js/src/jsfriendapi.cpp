@@ -6281,7 +6281,7 @@ js
 gc
 :
 :
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 value
 .

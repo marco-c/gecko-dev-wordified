@@ -531,7 +531,6 @@ if
 (
 asyncCause
 )
-{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -548,16 +547,11 @@ asyncCause
 "
 )
 ;
-}
 if
 (
 parent
 )
-{
-gc
-:
-:
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -573,7 +567,6 @@ parent
 "
 )
 ;
-}
 }
 }
 ;
@@ -5254,7 +5247,7 @@ obj
 ;
 if
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 obj

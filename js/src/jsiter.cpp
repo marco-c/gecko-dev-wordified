@@ -456,7 +456,7 @@ if
 (
 obj
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -500,7 +500,7 @@ if
 (
 iterObj_
 )
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

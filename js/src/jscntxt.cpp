@@ -594,7 +594,7 @@ front
 )
 )
 ;
-MarkObjectRoot
+TraceRoot
 (
 trc
 &

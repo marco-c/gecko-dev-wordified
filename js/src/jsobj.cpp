@@ -28285,7 +28285,7 @@ owner
 nobj
 )
 {
-MarkObject
+TraceEdge
 (
 trc
 &
