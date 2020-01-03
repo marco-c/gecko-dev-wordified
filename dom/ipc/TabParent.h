@@ -1301,6 +1301,17 @@ override
 ;
 virtual
 bool
+RecvSetNativeChildOfShareableWindow
+(
+const
+uintptr_t
+&
+childWindow
+)
+override
+;
+virtual
+bool
 RecvDispatchFocusToTopLevelWindow
 (
 )
