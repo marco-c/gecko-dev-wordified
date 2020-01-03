@@ -5466,7 +5466,7 @@ list
 "
 sizes
 .
-mDeadBlockList
+mDeadBlockTable
 "
 Memory
 used
