@@ -3116,11 +3116,11 @@ GetOwner
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 owner
 )
-;
+{
 owner
 -
 >
@@ -3128,6 +3128,7 @@ NotifyHostAsyncInitFailed
 (
 )
 ;
+}
 }
 /
 /
