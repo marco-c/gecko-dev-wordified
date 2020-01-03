@@ -411,9 +411,16 @@ if
 !
 values
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 /
 /
 Note

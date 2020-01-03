@@ -12792,9 +12792,16 @@ init
 (
 )
 )
+{
+ReportOutOfMemory
+(
+context
+)
+;
 return
 false
 ;
+}
 }
 if
 (
