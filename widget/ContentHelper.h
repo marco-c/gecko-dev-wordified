@@ -166,15 +166,6 @@ TouchBehaviorFlags
 private
 :
 static
-uint32_t
-GetTouchActionFromFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 void
 UpdateAllowedBehavior
 (
