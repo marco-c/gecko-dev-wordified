@@ -6386,6 +6386,12 @@ actively
 running
 .
 bool
+isRunningOutsideLock
+(
+)
+const
+;
+bool
 isRunning
 (
 )
