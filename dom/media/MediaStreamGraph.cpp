@@ -12011,6 +12011,10 @@ this
 NS_DispatchToMainThread
 (
 event
+.
+forget
+(
+)
 )
 ;
 LIFECYCLE_LOG
@@ -12585,6 +12589,10 @@ this
 NS_DispatchToMainThread
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
@@ -12936,6 +12944,10 @@ true
 NS_DispatchToMainThread
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
@@ -15829,6 +15841,10 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 runnable
+.
+forget
+(
+)
 )
 )
 )
@@ -20090,6 +20106,10 @@ Running
 NS_DispatchToMainThread
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
@@ -20121,6 +20141,10 @@ Graph
 NS_DispatchToMainThread
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
@@ -20943,6 +20967,10 @@ state
 NS_DispatchToMainThread
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
