@@ -214,6 +214,17 @@ stopRecording
 panel
 )
 ;
+ok
+(
+true
+"
+Recording
+has
+ended
+.
+"
+)
+;
 /
 /
 Push
