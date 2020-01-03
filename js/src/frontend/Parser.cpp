@@ -4428,7 +4428,6 @@ GlobalSharedContext
 globalsc
 (
 context
-chain
 directives
 options
 (
