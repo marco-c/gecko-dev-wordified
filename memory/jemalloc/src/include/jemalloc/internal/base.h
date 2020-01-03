@@ -287,7 +287,7 @@ void
 )
 ;
 void
-base_node_dealloc
+base_node_dalloc
 (
 extent_node_t
 *

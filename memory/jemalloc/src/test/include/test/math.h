@@ -2579,7 +2579,7 @@ limit
 on
 the
 definite
-integeral
+integral
 from
 [
 0

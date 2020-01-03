@@ -6,6 +6,7 @@ for
 threading
 in
 tests
+.
 *
 /
 #

@@ -92,8 +92,7 @@ h
 *
 *
 /
-static
-inline
+JEMALLOC_INLINE_C
 int
 extent_szad_comp
 (
@@ -208,8 +207,7 @@ extent_node_t
 link_szad
 extent_szad_comp
 )
-static
-inline
+JEMALLOC_INLINE_C
 int
 extent_ad_comp
 (

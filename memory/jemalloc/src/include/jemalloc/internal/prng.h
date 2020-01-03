@@ -214,7 +214,6 @@ position
 .
 For
 example
-.
 the
 lowest
 bit

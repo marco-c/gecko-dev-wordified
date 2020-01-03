@@ -285,7 +285,7 @@ zero
 )
 ;
 bool
-chunk_dealloc_mmap
+chunk_dalloc_mmap
 (
 void
 *

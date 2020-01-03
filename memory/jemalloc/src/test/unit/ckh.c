@@ -12,13 +12,24 @@ TEST_BEGIN
 test_new_delete
 )
 {
+tsd_t
+*
+tsd
+;
 ckh_t
 ckh
+;
+tsd
+=
+tsd_fetch
+(
+)
 ;
 assert_false
 (
 ckh_new
 (
+tsd
 &
 ckh
 2
@@ -36,6 +47,7 @@ error
 ;
 ckh_delete
 (
+tsd
 &
 ckh
 )
@@ -44,6 +56,7 @@ assert_false
 (
 ckh_new
 (
+tsd
 &
 ckh
 3
@@ -61,6 +74,7 @@ error
 ;
 ckh_delete
 (
+tsd
 &
 ckh
 )
@@ -72,6 +86,10 @@ TEST_BEGIN
 test_count_insert_search_remove
 )
 {
+tsd_t
+*
+tsd
+;
 ckh_t
 ckh
 ;
@@ -122,10 +140,17 @@ table
 size_t
 i
 ;
+tsd
+=
+tsd_fetch
+(
+)
+;
 assert_false
 (
 ckh_new
 (
+tsd
 &
 ckh
 2
@@ -207,6 +232,7 @@ i
 {
 ckh_insert
 (
+tsd
 &
 ckh
 strs
@@ -596,6 +622,7 @@ assert_false
 (
 ckh_remove
 (
+tsd
 &
 ckh
 strs
@@ -765,6 +792,7 @@ ckh
 }
 ckh_delete
 (
+tsd
 &
 ckh
 )
@@ -783,6 +811,10 @@ ZU
 (
 1000
 )
+tsd_t
+*
+tsd
+;
 ckh_t
 ckh
 ;
@@ -803,10 +835,17 @@ r
 size_t
 i
 ;
+tsd
+=
+tsd_fetch
+(
+)
+;
 assert_false
 (
 ckh_new
 (
+tsd
 &
 ckh
 2
@@ -903,6 +942,7 @@ assert_false
 (
 ckh_insert
 (
+tsd
 &
 ckh
 p
@@ -1049,6 +1089,7 @@ assert_false
 (
 ckh_remove
 (
+tsd
 &
 ckh
 p
@@ -1123,6 +1164,7 @@ assert_true
 (
 ckh_remove
 (
+tsd
 &
 ckh
 p
@@ -1170,6 +1212,7 @@ tabind
 =
 0
 ;
+!
 ckh_iter
 (
 &
@@ -1181,9 +1224,6 @@ q
 &
 r
 )
-=
-=
-false
 ;
 )
 {
@@ -1358,6 +1398,7 @@ assert_false
 (
 ckh_remove
 (
+tsd
 &
 ckh
 p
@@ -1432,6 +1473,7 @@ assert_true
 (
 ckh_remove
 (
+tsd
 &
 ckh
 p
@@ -1497,6 +1539,7 @@ ckh
 ;
 ckh_delete
 (
+tsd
 &
 ckh
 )
