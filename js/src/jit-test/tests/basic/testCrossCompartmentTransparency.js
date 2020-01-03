@@ -173,6 +173,9 @@ test
 (
 str
 f
+isGeneric
+=
+false
 )
 {
 "
@@ -275,7 +278,8 @@ true
 assertEq
 (
 threw
-true
+!
+isGeneric
 )
 ;
 threw
@@ -333,7 +337,8 @@ true
 assertEq
 (
 threw
-true
+!
+isGeneric
 )
 ;
 threw
@@ -381,7 +386,8 @@ true
 assertEq
 (
 threw
-true
+!
+isGeneric
 )
 ;
 threw
@@ -429,7 +435,8 @@ true
 assertEq
 (
 threw
-true
+!
+isGeneric
 )
 ;
 }
@@ -2957,6 +2964,7 @@ call
 d
 )
 )
+true
 )
 ;
 test
