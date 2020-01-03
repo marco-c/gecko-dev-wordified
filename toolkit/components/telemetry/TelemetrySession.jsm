@@ -450,11 +450,6 @@ session
 "
 ;
 const
-RETENTION_DAYS
-=
-14
-;
-const
 REASON_ABORTED_SESSION
 =
 "
@@ -9798,9 +9793,6 @@ let
 options
 =
 {
-retentionDays
-:
-RETENTION_DAYS
 addClientId
 :
 true
@@ -11311,9 +11303,6 @@ let
 options
 =
 {
-retentionDays
-:
-RETENTION_DAYS
 addClientId
 :
 true
@@ -11452,9 +11441,6 @@ let
 options
 =
 {
-retentionDays
-:
-RETENTION_DAYS
 addClientId
 :
 true
@@ -11518,9 +11504,6 @@ let
 options
 =
 {
-retentionDays
-:
-RETENTION_DAYS
 addClientId
 :
 true
@@ -12718,9 +12701,6 @@ let
 options
 =
 {
-retentionDays
-:
-RETENTION_DAYS
 addClientId
 :
 true
@@ -13167,9 +13147,6 @@ let
 options
 =
 {
-retentionDays
-:
-RETENTION_DAYS
 addClientId
 :
 true
@@ -13653,9 +13630,6 @@ let
 options
 =
 {
-retentionDays
-:
-RETENTION_DAYS
 addClientId
 :
 true
