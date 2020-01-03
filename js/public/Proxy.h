@@ -3600,6 +3600,7 @@ inline
 bool
 IsProxy
 (
+const
 JSObject
 *
 obj

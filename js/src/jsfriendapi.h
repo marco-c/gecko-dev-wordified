@@ -3815,6 +3815,7 @@ Class
 *
 GetObjectClass
 (
+const
 JSObject
 *
 obj
