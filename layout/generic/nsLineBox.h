@@ -1226,7 +1226,8 @@ nsLineBox
 ;
 /
 /
-Overloaded
+Infallible
+overloaded
 new
 operator
 .
@@ -1238,10 +1239,10 @@ which
 comes
 from
 the
+/
+/
 presShell
 )
-/
-/
 to
 perform
 the

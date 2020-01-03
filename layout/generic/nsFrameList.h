@@ -390,7 +390,8 @@ mLastChild
 *
 *
 *
-Allocate
+Infallibly
+allocate
 a
 nsFrameList
 from
