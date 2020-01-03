@@ -15625,6 +15625,10 @@ Next
 (
 mToken
 aSkipWS
+?
+eCSSScannerExclude_WhitespaceAndComments
+:
+eCSSScannerExclude_Comments
 )
 ;
 }
