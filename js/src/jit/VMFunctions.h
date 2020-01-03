@@ -4994,7 +4994,7 @@ resumeKind
 )
 ;
 bool
-StrictEvalPrologue
+InitStrictEvalScopeObjects
 (
 JSContext
 *
@@ -5005,7 +5005,7 @@ frame
 )
 ;
 bool
-HeavyweightFunPrologue
+InitFunctionScopeObjects
 (
 JSContext
 *

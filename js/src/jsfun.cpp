@@ -9178,7 +9178,7 @@ as
 /
 StaticScopeIter
 queries
-isHeavyweight
+needsCallObject
 of
 those
 functions

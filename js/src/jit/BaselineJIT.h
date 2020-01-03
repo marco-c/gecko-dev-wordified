@@ -772,8 +772,11 @@ method_
 /
 /
 For
-heavyweight
-scripts
+functions
+with
+a
+call
+object
 template
 objects
 to
@@ -781,10 +784,10 @@ use
 for
 the
 call
+/
+/
 object
 and
-/
-/
 decl
 env
 object
@@ -797,6 +800,8 @@ object
 '
 s
 enclosing
+/
+/
 scope
 )
 .

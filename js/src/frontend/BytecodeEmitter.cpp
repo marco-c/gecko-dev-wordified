@@ -11700,8 +11700,9 @@ this
 -
 >
 fun
-is
-heavyweight
+needs
+a
+CallObject
 to
 *
 address
@@ -11903,7 +11904,7 @@ such
 functions
 as
 *
-heavyweight
+needsCallObject
 ensuring
 that
 the
@@ -11937,7 +11938,7 @@ asFunctionBox
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )
@@ -22736,7 +22737,7 @@ asFunctionBox
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

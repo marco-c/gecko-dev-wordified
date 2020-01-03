@@ -16239,7 +16239,7 @@ fallback
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 ;
@@ -16280,7 +16280,7 @@ fallback
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 ;
@@ -16305,13 +16305,15 @@ this
 case
 even
 for
-heavyweight
 functions
+with
+a
+CallObject
 in
 case
+/
+/
 we
-/
-/
 are
 walking
 the

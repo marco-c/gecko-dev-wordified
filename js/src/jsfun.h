@@ -974,14 +974,13 @@ for
 each
 invocation
 of
-a
-heavyweight
+this
 function
 .
 *
 /
 bool
-isHeavyweight
+needsCallObject
 (
 )
 const
@@ -1025,7 +1024,7 @@ with
 FunctionBox
 :
 :
-isHeavyweight
+needsCallObject
 (
 )
 .

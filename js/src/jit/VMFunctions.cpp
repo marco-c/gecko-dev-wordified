@@ -5289,7 +5289,7 @@ false
 ;
 }
 bool
-StrictEvalPrologue
+InitStrictEvalScopeObjects
 (
 JSContext
 *
@@ -5303,14 +5303,14 @@ return
 frame
 -
 >
-strictEvalPrologue
+initStrictEvalScopeObjects
 (
 cx
 )
 ;
 }
 bool
-HeavyweightFunPrologue
+InitFunctionScopeObjects
 (
 JSContext
 *
@@ -5324,7 +5324,7 @@ return
 frame
 -
 >
-heavyweightFunPrologue
+initFunctionScopeObjects
 (
 cx
 )

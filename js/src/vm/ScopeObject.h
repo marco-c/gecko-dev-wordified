@@ -1762,7 +1762,7 @@ name
 of
 recursive
 /
-heavyweight
+needsCallObject
 named
 lambda
 *

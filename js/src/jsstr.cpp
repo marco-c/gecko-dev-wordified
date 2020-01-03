@@ -22572,11 +22572,14 @@ unlikely
 possibility
 of
 a
-heavyweight
 function
+with
+a
+call
+object
+*
 since
 it
-*
 would
 make
 our
@@ -22603,7 +22606,7 @@ JSOP_GETALIASEDVAR
 fun
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

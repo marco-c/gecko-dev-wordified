@@ -2328,8 +2328,8 @@ HAS_CALL_OBJ
 CallObject
 created
 for
-heavyweight
-fun
+needsCallObject
+function
 *
 /
 HAS_ARGS_OBJ

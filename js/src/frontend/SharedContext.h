@@ -2746,7 +2746,7 @@ getColumn
 ;
 }
 bool
-isHeavyweight
+needsCallObject
 (
 )
 {
@@ -2764,7 +2764,7 @@ with
 JSFunction
 :
 :
-isHeavyweight
+needsCallObject
 (
 )
 .

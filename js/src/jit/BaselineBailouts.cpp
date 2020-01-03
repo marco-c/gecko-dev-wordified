@@ -5608,7 +5608,7 @@ fun
 fun
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

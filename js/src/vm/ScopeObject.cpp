@@ -2137,7 +2137,7 @@ MOZ_ASSERT
 callee
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )
@@ -7360,15 +7360,14 @@ trying
 to
 iterate
 a
-heavyweight
 function
 frame
 before
-/
-/
 the
 prologue
 has
+/
+/
 created
 the
 CallObject
@@ -7399,7 +7398,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 &
@@ -12762,7 +12761,7 @@ callee
 (
 )
 .
-isHeavyweight
+needsCallObject
 (
 )
 &
@@ -14465,7 +14464,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )
@@ -19609,7 +19608,7 @@ functionDelazifying
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

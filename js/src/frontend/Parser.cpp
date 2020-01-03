@@ -52841,7 +52841,7 @@ and
 flag
 pc
 as
-heavyweight
+needsCallObject
 .
 *
 /
