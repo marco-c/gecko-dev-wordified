@@ -2289,6 +2289,15 @@ hScrollbarDesiredHeight
 )
 )
 ;
+nsSize
+visualScrollPortSize
+=
+mHelper
+.
+GetScrollPositionClampingScrollPortSize
+(
+)
+;
 if
 (
 !
@@ -2380,7 +2389,7 @@ XMost
 )
 >
 =
-scrollPortSize
+visualScrollPortSize
 .
 width
 +
@@ -2469,7 +2478,7 @@ YMost
 )
 >
 =
-scrollPortSize
+visualScrollPortSize
 .
 height
 +
