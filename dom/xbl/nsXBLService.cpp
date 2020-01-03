@@ -6853,7 +6853,7 @@ sameOriginChecker
 nsContentUtils
 :
 :
-GetSameOriginChecker
+SameOriginChecker
 (
 )
 ;

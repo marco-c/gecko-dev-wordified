@@ -31750,7 +31750,7 @@ nsIInterfaceRequestor
 nsContentUtils
 :
 :
-GetSameOriginChecker
+SameOriginChecker
 (
 )
 {

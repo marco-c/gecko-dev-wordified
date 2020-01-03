@@ -7186,7 +7186,7 @@ req
 nsContentUtils
 :
 :
-GetSameOriginChecker
+SameOriginChecker
 (
 )
 ;

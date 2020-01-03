@@ -2802,7 +2802,7 @@ req
 nsContentUtils
 :
 :
-GetSameOriginChecker
+SameOriginChecker
 (
 )
 ;

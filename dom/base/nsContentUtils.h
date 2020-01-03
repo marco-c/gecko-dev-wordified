@@ -10290,7 +10290,7 @@ aNewChannel
 static
 nsIInterfaceRequestor
 *
-GetSameOriginChecker
+SameOriginChecker
 (
 )
 ;
