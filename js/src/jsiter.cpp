@@ -2221,7 +2221,7 @@ if
 Proxy
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 pobj

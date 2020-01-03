@@ -3257,7 +3257,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -3945,7 +3945,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *

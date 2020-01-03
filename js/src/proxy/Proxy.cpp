@@ -1610,7 +1610,7 @@ if
 handler
 -
 >
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy
@@ -2583,7 +2583,7 @@ bool
 Proxy
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -2655,7 +2655,7 @@ return
 handler
 -
 >
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy
@@ -2862,7 +2862,7 @@ JSITER_OWNONLY
 Proxy
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy

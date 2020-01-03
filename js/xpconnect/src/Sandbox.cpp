@@ -4689,7 +4689,7 @@ xpc
 SandboxProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -4713,7 +4713,7 @@ return
 BaseProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy

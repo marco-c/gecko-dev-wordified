@@ -641,7 +641,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -2571,7 +2571,7 @@ bool
 CPOWProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -2586,7 +2586,7 @@ const
 {
 FORWARD
 (
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy
@@ -2599,7 +2599,7 @@ bool
 WrapperOwner
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *

@@ -812,7 +812,7 @@ bool
 CrossCompartmentWrapper
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -833,7 +833,7 @@ NOTHING
 Wrapper
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 wrapper

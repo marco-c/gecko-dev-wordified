@@ -389,7 +389,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *

@@ -1691,7 +1691,7 @@ false
 ;
 }
 return
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy
@@ -1853,7 +1853,7 @@ bool
 BaseDOMProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *

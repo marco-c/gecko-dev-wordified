@@ -1501,15 +1501,16 @@ like
 getOwnPropertyDescriptor
 hasOwn
 defineProperty
-keys
+*
+getOwnEnumerablePropertyKeys
 etc
 .
 and
-*
 consults
 the
 prototype
 chain
+*
 if
 needed
 .
@@ -2510,7 +2511,7 @@ const
 ;
 virtual
 bool
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -3312,7 +3313,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *

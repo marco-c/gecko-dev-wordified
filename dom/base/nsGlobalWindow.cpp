@@ -4114,7 +4114,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -5973,7 +5973,7 @@ bool
 nsOuterWindowProxy
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -6031,7 +6031,7 @@ js
 BaseProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy

@@ -1593,7 +1593,7 @@ bool
 DirectProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
