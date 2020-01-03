@@ -2509,7 +2509,11 @@ window
 .
 opener
 .
-content
+gBrowser
+.
+selectedBrowser
+.
+contentWindowAsCPOW
 ;
 gDocument
 =
