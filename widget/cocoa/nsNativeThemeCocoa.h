@@ -296,7 +296,10 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntSize
+mozilla
+:
+:
+LayoutDeviceIntSize
 *
 aResult
 bool

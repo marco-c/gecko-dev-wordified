@@ -1338,7 +1338,7 @@ int32_t
 GetMainComponent
 (
 const
-nsIntSize
+LayoutDeviceIntSize
 &
 aIntSize
 )
@@ -1386,7 +1386,7 @@ int32_t
 GetCrossComponent
 (
 const
-nsIntSize
+LayoutDeviceIntSize
 &
 aIntSize
 )
@@ -8108,12 +8108,8 @@ disp
 )
 )
 {
-nsIntSize
+LayoutDeviceIntSize
 widgetMinSize
-(
-0
-0
-)
 ;
 bool
 canOverride
