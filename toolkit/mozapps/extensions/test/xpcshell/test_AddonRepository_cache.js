@@ -1283,6 +1283,11 @@ ADDON_IDS
 [
 2
 ]
+type
+:
+"
+theme
+"
 name
 :
 "
