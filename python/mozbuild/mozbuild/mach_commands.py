@@ -2893,9 +2893,44 @@ MOZ_BUILD_PROJECTS
 '
 )
                 
+append_env
+=
+None
+                
 if
 projects
 :
+                    
+project
+=
+projects
+.
+split
+(
+)
+[
+0
+]
+                    
+append_env
+=
+{
+b
+'
+MOZ_CURRENT_PROJECT
+'
+:
+project
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
+}
                     
 subdir
 =
@@ -2908,14 +2943,7 @@ join
 self
 .
 topobjdir
-projects
-.
-split
-(
-)
-[
-0
-]
+project
 )
                 
 else
@@ -2997,6 +3025,11 @@ silent
 =
 not
 verbose
+                        
+append_env
+=
+append_env
+                    
 )
                 
 self
