@@ -1208,6 +1208,9 @@ CssTransformHighlighter
 "
 SelectorHighlighter
 "
+"
+RectHighlighter
+"
 ]
 /
 /
