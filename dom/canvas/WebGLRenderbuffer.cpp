@@ -317,9 +317,6 @@ context
 )
 :
 WebGLBindableName
-<
-GLenum
->
 (
 )
 WebGLContextBoundObject

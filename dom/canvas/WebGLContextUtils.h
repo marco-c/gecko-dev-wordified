@@ -109,13 +109,6 @@ h
 #
 include
 "
-WebGLStrongTypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -334,10 +327,10 @@ invalid
 texture
 image
 target
-TexTarget
+GLenum
 TexImageTargetToTexTarget
 (
-TexImageTarget
+GLenum
 texImageTarget
 )
 ;
