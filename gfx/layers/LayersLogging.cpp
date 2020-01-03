@@ -1182,6 +1182,7 @@ m
 mCompositionBounds
 "
 {
+[
 cb
 =
 "
@@ -1194,6 +1195,8 @@ m
 .
 mScrollableRect
 "
+]
+[
 sr
 =
 "
@@ -1208,6 +1211,8 @@ GetScrollOffset
 (
 )
 "
+]
+[
 s
 =
 "
@@ -1231,6 +1236,8 @@ GetSmoothScrollOffset
 (
 )
 "
+]
+[
 ss
 =
 "
@@ -1244,6 +1251,8 @@ m
 .
 mDisplayPort
 "
+]
+[
 dp
 =
 "
@@ -1256,6 +1265,8 @@ m
 .
 mCriticalDisplayPort
 "
+]
+[
 cdp
 =
 "
@@ -1270,6 +1281,8 @@ GetBackgroundColor
 (
 )
 "
+]
+[
 color
 =
 "
@@ -1290,6 +1303,8 @@ GetScrollId
 (
 )
 "
+]
+[
 scrollId
 =
 "
@@ -1319,6 +1334,8 @@ GetScrollParentId
 (
 )
 "
+]
+[
 scrollParent
 =
 "
@@ -1331,11 +1348,14 @@ aStream
 nsPrintfCString
 (
 "
+]
+[
 z
 =
 %
 .
 3f
+]
 }
 "
 m
@@ -1363,6 +1383,7 @@ GetDisplayPortMargins
 (
 )
 "
+[
 dpm
 =
 "
@@ -1374,6 +1395,7 @@ aStream
 nsPrintfCString
 (
 "
+]
 um
 =
 %
@@ -1399,6 +1421,8 @@ GetRootCompositionSize
 (
 )
 "
+]
+[
 rcs
 =
 "
@@ -1413,6 +1437,8 @@ GetViewport
 (
 )
 "
+]
+[
 v
 =
 "
@@ -1424,6 +1450,8 @@ aStream
 nsPrintfCString
 (
 "
+]
+[
 z
 =
 (
@@ -1495,6 +1523,8 @@ aStream
 nsPrintfCString
 (
 "
+]
+[
 u
 =
 (
@@ -1536,6 +1566,8 @@ GetScrollParentId
 (
 )
 "
+]
+[
 p
 =
 "
@@ -1547,6 +1579,8 @@ aStream
 nsPrintfCString
 (
 "
+]
+[
 i
 =
 (
@@ -1555,6 +1589,7 @@ ld
 %
 lld
 )
+]
 }
 "
 m
