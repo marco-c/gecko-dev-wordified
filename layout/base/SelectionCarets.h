@@ -1176,17 +1176,6 @@ nsAString
 aEvent
 )
 ;
-nsRect
-GetSelectionBoundingRect
-(
-dom
-:
-:
-Selection
-*
-aSel
-)
-;
 /
 *
 *
