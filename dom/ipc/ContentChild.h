@@ -1997,13 +1997,6 @@ state
 )
 override
 ;
-virtual
-bool
-RecvNuwaFreeze
-(
-)
-override
-;
 void
 AddIdleObserver
 (
