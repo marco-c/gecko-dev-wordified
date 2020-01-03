@@ -191,9 +191,6 @@ class
 nsIInputStream
 ;
 class
-nsIOutputStream
-;
-class
 nsIThread
 ;
 namespace
@@ -222,9 +219,6 @@ PCacheRequest
 ;
 class
 PCacheRequestOrVoid
-;
-class
-PCacheResponse
 ;
 struct
 SavedRequest

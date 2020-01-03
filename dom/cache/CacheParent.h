@@ -192,17 +192,8 @@ dom
 namespace
 cache
 {
-class
-CacheDBConnection
-;
-class
-CacheStreamControlParent
-;
 struct
 SavedResponse
-;
-struct
-StreamHolder
 ;
 class
 CacheParent

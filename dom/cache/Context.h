@@ -171,9 +171,6 @@ h
 class
 nsIEventTarget
 ;
-class
-nsIFile
-;
 namespace
 mozilla
 {
