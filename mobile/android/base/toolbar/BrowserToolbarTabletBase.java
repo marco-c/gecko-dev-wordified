@@ -956,13 +956,6 @@ setPrivateMode
 isPrivate
 )
 ;
-child
-.
-setColorFilter
-(
-colorFilter
-)
-;
 }
 }
 private
