@@ -11,6 +11,11 @@ usable
 in
 RematerializedFrames
 .
+gczeal
+(
+0
+)
+;
 load
 (
 libdir
