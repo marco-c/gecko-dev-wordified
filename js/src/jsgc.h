@@ -6560,8 +6560,6 @@ taken
 void
 startBackgroundSweep
 (
-bool
-shouldShrink
 )
 ;
 /

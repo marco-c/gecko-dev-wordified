@@ -20861,8 +20861,6 @@ GCHelperState
 :
 startBackgroundSweep
 (
-bool
-shouldShrink
 )
 {
 MOZ_ASSERT
@@ -20903,7 +20901,7 @@ true
 ;
 shrinkFlag
 =
-shouldShrink
+false
 ;
 startBackgroundThread
 (
@@ -33153,10 +33151,6 @@ helperState
 .
 startBackgroundSweep
 (
-invocationKind
-=
-=
-GC_SHRINK
 )
 ;
 }
