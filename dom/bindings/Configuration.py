@@ -4374,17 +4374,6 @@ isCallback
 )
 and
                              
-(
-self
-.
-nativeOwnership
-!
-=
-'
-owned
-'
-and
-                              
 desc
 .
 get
@@ -4393,7 +4382,6 @@ get
 wrapperCache
 '
 True
-)
 )
 )
         
