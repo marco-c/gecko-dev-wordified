@@ -648,7 +648,7 @@ SendMFTMessage
 (
 MFT_MESSAGE_TYPE
 aMsg
-UINT32
+ULONG_PTR
 aData
 )
 {
