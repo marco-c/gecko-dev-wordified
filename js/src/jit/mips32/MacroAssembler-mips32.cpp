@@ -8585,6 +8585,10 @@ framePushed
 )
 )
 ;
+asMasm
+(
+)
+.
 makeFrameDescriptor
 (
 dynStack
