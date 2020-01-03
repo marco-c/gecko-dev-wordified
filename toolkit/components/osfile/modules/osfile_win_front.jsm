@@ -1051,8 +1051,8 @@ file
 *
 param
 {
-C
-pointer
+Typed
+array
 }
 buffer
 A
