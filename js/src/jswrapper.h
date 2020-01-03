@@ -448,9 +448,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-parent
 const
 Wrapper
 *
@@ -1559,8 +1556,6 @@ HandleObject
 existing
 HandleObject
 obj
-HandleObject
-parent
 )
 ;
 inline
