@@ -57,6 +57,14 @@ import
 os
 import
 re
+import
+sys
+import
+mozinfo
+import
+mozrunner
+.
+utils
 def
 _raw_log
 (
@@ -82,6 +90,10 @@ leakThreshold
                              
 ignoreMissingLeaks
 log
+=
+None
+                             
+stackFixer
 =
 None
 )
@@ -382,15 +394,26 @@ table
 header
 row
                 
-log
-.
-info
-(
+strippedLine
+=
 line
 .
 rstrip
 (
 )
+                
+log
+.
+info
+(
+stackFixer
+(
+strippedLine
+)
+if
+stackFixer
+else
+strippedLine
 )
                 
 continue
@@ -1203,6 +1226,10 @@ None
 log
 =
 None
+                     
+stack_fixer
+=
+None
 )
 :
     
@@ -1809,4 +1836,7 @@ ignoreMissingLeaks
 log
 =
 log
+stackFixer
+=
+stack_fixer
 )

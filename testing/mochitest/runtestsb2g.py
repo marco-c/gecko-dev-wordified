@@ -116,6 +116,12 @@ mozprofile
 import
 Profile
 Preferences
+from
+mozrunner
+.
+utils
+import
+get_stack_fixer_function
 import
 mozinfo
 import
@@ -2141,6 +2147,19 @@ log
 self
 .
 log
+                
+stack_fixer
+=
+get_stack_fixer_function
+(
+options
+.
+utilityPath
+                                                     
+options
+.
+symbolsPath
+)
             
 )
         

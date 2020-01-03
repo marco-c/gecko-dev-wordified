@@ -5205,6 +5205,20 @@ leakThresholds
 log
 =
 log
+                                     
+stack_fixer
+=
+get_stack_fixer_function
+(
+options
+.
+utilityPath
+                                                                          
+options
+.
+symbolsPath
+)
+            
 )
             
 log

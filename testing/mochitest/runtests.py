@@ -17464,6 +17464,19 @@ log
 self
 .
 log
+            
+stack_fixer
+=
+get_stack_fixer_function
+(
+options
+.
+utilityPath
+                                                 
+options
+.
+symbolsPath
+)
         
 )
         
