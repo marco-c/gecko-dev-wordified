@@ -189,6 +189,15 @@ include
 "
 js
 /
+TracingAPI
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
