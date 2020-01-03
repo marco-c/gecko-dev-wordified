@@ -127,6 +127,13 @@ ForkJoinNursery
 .
 h
 "
+#
+include
+"
+jsgc
+.
+h
+"
 namespace
 js
 {

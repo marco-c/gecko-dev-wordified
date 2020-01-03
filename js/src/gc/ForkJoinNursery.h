@@ -220,6 +220,9 @@ ForkJoinNursery
 class
 ForkJoinNurseryCollectionTracer
 ;
+class
+RelocationOverlay
+;
 /
 /
 This
