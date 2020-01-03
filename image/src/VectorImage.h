@@ -443,7 +443,7 @@ ShouldAnimate
 )
 ;
 void
-CreateDrawableAndShow
+CreateSurfaceAndShow
 (
 const
 SVGDrawingParameters
