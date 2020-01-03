@@ -387,16 +387,6 @@ AndroidBridge
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-widget
-:
-:
-android
-;
 #
 endif
 #
@@ -16761,9 +16751,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 DownloadsIntegration

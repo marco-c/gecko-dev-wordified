@@ -125,13 +125,7 @@ StartMonitoringGamepadStatus
 (
 )
 {
-mozilla
-:
-:
 widget
-:
-:
-android
 :
 :
 GeckoAppShell
@@ -147,13 +141,7 @@ StopMonitoringGamepadStatus
 (
 )
 {
-mozilla
-:
-:
 widget
-:
-:
-android
 :
 :
 GeckoAppShell

@@ -146,7 +146,6 @@ aCatchException
 ;
 if
 (
-!
 noThrow
 &
 &

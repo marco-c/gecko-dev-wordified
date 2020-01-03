@@ -485,9 +485,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 DownloadsIntegration
 :
 :

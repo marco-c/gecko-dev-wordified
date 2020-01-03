@@ -464,13 +464,7 @@ HasEnv
 )
 )
 {
-mozilla
-:
-:
 widget
-:
-:
-android
 :
 :
 GeckoAppShell

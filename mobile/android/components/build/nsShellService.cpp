@@ -117,12 +117,6 @@ h
 using
 namespace
 mozilla
-:
-:
-widget
-:
-:
-android
 ;
 NS_IMPL_ISUPPORTS
 (
@@ -193,13 +187,7 @@ Length
 return
 NS_ERROR_FAILURE
 ;
-mozilla
-:
-:
 widget
-:
-:
-android
 :
 :
 GeckoAppShell
