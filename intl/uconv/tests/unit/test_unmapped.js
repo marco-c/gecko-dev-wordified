@@ -65,11 +65,6 @@ encoders
 Big5
 "
 "
-Big5
--
-HKSCS
-"
-"
 EUC
 -
 JP
