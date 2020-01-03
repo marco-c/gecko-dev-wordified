@@ -842,11 +842,6 @@ methods
 *
 /
 void
-OnStartRequest
-(
-)
-;
-void
 OnStopRequest
 (
 bool

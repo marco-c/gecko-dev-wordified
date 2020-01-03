@@ -552,14 +552,6 @@ to
 the
 Image
 .
-tracker
--
->
-SyncNotifyProgress
-(
-FLAG_REQUEST_STARTED
-)
-;
 rv
 =
 image
