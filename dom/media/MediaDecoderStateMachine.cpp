@@ -1395,6 +1395,9 @@ QUICK_BUFFER_THRESHOLD_USECS
 =
 2000000
 ;
+namespace
+detail
+{
 /
 /
 If
@@ -1478,9 +1481,6 @@ static_assert
 QUICK_BUFFERING_LOW_DATA_USECS
 <
 =
-detail
-:
-:
 AMPLE_AUDIO_USECS
 "
 QUICK_BUFFERING_LOW_DATA_USECS
@@ -1490,6 +1490,11 @@ large
 "
 )
 ;
+}
+/
+/
+namespace
+detail
 /
 /
 The
@@ -1731,6 +1736,13 @@ detail
 :
 :
 AMPLE_AUDIO_USECS
+)
+mQuickBufferingLowDataThresholdUsecs
+(
+detail
+:
+:
+QUICK_BUFFERING_LOW_DATA_USECS
 )
 mIsAudioPrerolling
 (
@@ -15018,6 +15030,11 @@ mLowAudioThresholdUsecs
 =
 NO_VIDEO_AMPLE_AUDIO_DIVISOR
 ;
+mQuickBufferingLowDataThresholdUsecs
+/
+=
+NO_VIDEO_AMPLE_AUDIO_DIVISOR
+;
 }
 /
 /
@@ -18055,7 +18072,7 @@ mQuickBuffering
 ?
 HasLowDecodedData
 (
-QUICK_BUFFERING_LOW_DATA_USECS
+mQuickBufferingLowDataThresholdUsecs
 )
 :
 HasLowUndecodedData
