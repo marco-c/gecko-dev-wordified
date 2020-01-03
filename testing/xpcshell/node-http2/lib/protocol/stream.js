@@ -194,6 +194,7 @@ new
 Stream
 (
 log
+connection
 )
 *
 *
@@ -547,6 +548,7 @@ function
 Stream
 (
 log
+connection
 )
 {
 Duplex
@@ -638,6 +640,12 @@ this
 _initializeState
 (
 )
+;
+this
+.
+connection
+=
+connection
 ;
 }
 Stream
@@ -787,6 +795,9 @@ Stream
 this
 .
 _log
+this
+.
+connection
 )
 ;
 stream

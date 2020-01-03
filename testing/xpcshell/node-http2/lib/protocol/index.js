@@ -603,7 +603,7 @@ http
 html
 exports
 .
-ImplementedVersion
+VERSION
 =
 '
 h2
