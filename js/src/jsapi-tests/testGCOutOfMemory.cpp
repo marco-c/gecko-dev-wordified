@@ -371,7 +371,6 @@ JSRuntime
 createRuntime
 (
 )
-MOZ_OVERRIDE
 {
 JSRuntime
 *
@@ -406,7 +405,6 @@ void
 destroyRuntime
 (
 )
-MOZ_OVERRIDE
 {
 JS_DestroyRuntime
 (

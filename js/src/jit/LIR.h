@@ -5857,7 +5857,6 @@ numSuccessors
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 0
@@ -5871,7 +5870,6 @@ size_t
 i
 )
 const
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -5891,7 +5889,6 @@ MBasicBlock
 *
 successor
 )
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
