@@ -6320,6 +6320,7 @@ MOZ_ASSERT
 (
 c
 =
+=
 do_QueryFrame
 (
 frame
