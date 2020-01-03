@@ -4012,7 +4012,7 @@ IonTrackedOptimizationAttempts
 JS
 :
 :
-ForEachTrackedOptimizaitonTypeInfoOp
+ForEachTrackedOptimizationTypeInfoOp
 cannot
 be
 used
