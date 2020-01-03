@@ -16622,6 +16622,8 @@ DevToolsUtils
 yieldingEach
 (
 mappings
+.
+_array
 m
 =
 >
@@ -36013,9 +36015,14 @@ originalColumn
 =
 null
 ?
-Infinity
+0
 :
 originalColumn
+bias
+:
+SourceMapConsumer
+.
+LEAST_UPPER_BOUND
 }
 )
 ;
