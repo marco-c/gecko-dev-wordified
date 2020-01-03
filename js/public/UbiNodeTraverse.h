@@ -1247,16 +1247,6 @@ pending
 nodes
 visit
 them
-until
-we
-'
-ve
-found
-a
-path
-to
-the
-target
 .
 while
 (
