@@ -5407,7 +5407,7 @@ mustReturn
 )
 ;
 bool
-IsCompartmentDebuggee
+GlobalHasLiveOnDebuggerStatement
 (
 JSContext
 *
