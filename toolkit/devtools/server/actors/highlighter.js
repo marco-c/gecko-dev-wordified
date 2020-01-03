@@ -4387,14 +4387,6 @@ tabActor
 ;
 this
 .
-browser
-=
-tabActor
-.
-browser
-;
-this
-.
 win
 =
 tabActor
@@ -5193,12 +5185,6 @@ null
 this
 .
 win
-=
-null
-;
-this
-.
-browser
 =
 null
 ;
