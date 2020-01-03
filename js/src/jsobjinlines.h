@@ -4613,8 +4613,6 @@ ExclusiveContext
 cx
 HandleObject
 proto
-HandleObject
-parent
 gc
 :
 :
@@ -4639,7 +4637,9 @@ T
 :
 class_
 proto
-parent
+NullPtr
+(
+)
 allocKind
 newKind
 )
@@ -4676,8 +4676,6 @@ ExclusiveContext
 cx
 HandleObject
 proto
-HandleObject
-parent
 NewObjectKind
 newKind
 =
@@ -4697,7 +4695,9 @@ T
 :
 class_
 proto
-parent
+NullPtr
+(
+)
 newKind
 )
 ;
