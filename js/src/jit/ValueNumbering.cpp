@@ -5589,7 +5589,7 @@ to
 update
 AliasAnalysis
 .
-MDefinition
+MInstruction
 *
 dep
 =

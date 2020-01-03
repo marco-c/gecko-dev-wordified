@@ -2187,7 +2187,7 @@ type
 .
 union
 {
-MDefinition
+MInstruction
 *
 dependency_
 ;
@@ -4829,7 +4829,7 @@ resultTypeSet_
 types
 ;
 }
-MDefinition
+MInstruction
 *
 dependency
 (
@@ -4843,7 +4843,7 @@ dependency_
 void
 setDependency
 (
-MDefinition
+MInstruction
 *
 dependency
 )
@@ -5289,6 +5289,16 @@ MDefinition
 IonAllocPolicy
 >
 MDefinitionVector
+;
+typedef
+Vector
+<
+MInstruction
+*
+6
+IonAllocPolicy
+>
+MInstructionVector
 ;
 /
 /
