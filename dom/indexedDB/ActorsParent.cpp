@@ -1931,7 +1931,7 @@ kDEBUGTransactionThreadSleepMS
 #
 endif
 struct
-MozFreeDeleter
+FreeDeleter
 {
 void
 operator
@@ -1944,7 +1944,7 @@ aPtr
 )
 const
 {
-moz_free
+free
 (
 aPtr
 )
@@ -1958,12 +1958,12 @@ typename
 T
 >
 using
-UniqueMozFreePtr
+UniqueFreePtr
 =
 UniquePtr
 <
 T
-MozFreeDeleter
+FreeDeleter
 >
 ;
 template
@@ -4107,7 +4107,7 @@ IndexDataValue
 >
 &
 aIndexValues
-UniqueMozFreePtr
+UniqueFreePtr
 <
 uint8_t
 >
@@ -4365,7 +4365,7 @@ blobDataLength
 infoLength
 ;
 }
-UniqueMozFreePtr
+UniqueFreePtr
 <
 uint8_t
 >
@@ -4377,7 +4377,7 @@ uint8_t
 *
 >
 (
-moz_malloc
+malloc
 (
 blobDataLength
 )
@@ -14120,7 +14120,7 @@ Compress
 the
 array
 .
-UniqueMozFreePtr
+UniqueFreePtr
 <
 uint8_t
 >
@@ -15182,7 +15182,7 @@ to
 hold
 it
 .
-UniqueMozFreePtr
+UniqueFreePtr
 <
 uint8_t
 >
@@ -15194,7 +15194,7 @@ uint8_t
 *
 >
 (
-moz_malloc
+malloc
 (
 blobDataLength
 )
@@ -72833,7 +72833,7 @@ Category
 STORAGE
 )
 ;
-UniqueMozFreePtr
+UniqueFreePtr
 <
 uint8_t
 >
@@ -92415,7 +92415,7 @@ uint8_t
 *
 >
 (
-moz_malloc
+malloc
 (
 blobDataLength
 )
@@ -92645,7 +92645,7 @@ value
 )
 ;
 }
-UniqueMozFreePtr
+UniqueFreePtr
 <
 uint8_t
 >
