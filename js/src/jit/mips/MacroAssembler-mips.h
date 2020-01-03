@@ -1544,15 +1544,7 @@ imm
 ma_b
 (
 lhs
-Imm32
-(
-uint32_t
-(
-imm
-.
-value
-)
-)
+ScratchRegister
 l
 c
 jumpKind
