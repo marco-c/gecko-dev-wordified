@@ -2446,7 +2446,7 @@ eSimpleGestureEventClass
 NON_IDL_EVENT
 (
 MozSwipeGestureStart
-NS_SIMPLE_GESTURE_SWIPE_START
+eSwipeGestureStart
 EventNameType_None
 eSimpleGestureEventClass
 )
