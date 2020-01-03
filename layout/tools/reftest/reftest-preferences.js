@@ -329,10 +329,11 @@ updateinterval
 /
 /
 Disable
-high
+downscale
 -
-quality
-downscaling
+during
+-
+decode
 since
 it
 makes
@@ -347,7 +348,11 @@ setBoolPref
 "
 image
 .
-high_quality_downscaling
+downscale
+-
+during
+-
+decode
 .
 enabled
 "
