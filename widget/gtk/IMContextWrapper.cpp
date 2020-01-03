@@ -5232,7 +5232,7 @@ const
 IMENotification
 :
 :
-SelectionChangeData
+SelectionChangeDataBase
 &
 selectionChangeData
 =
