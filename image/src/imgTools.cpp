@@ -443,9 +443,11 @@ HasError
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 /
 /
 Prepare
@@ -495,10 +497,12 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 inStream
 =
 bufStream
 ;
+}
 }
 /
 /
@@ -790,9 +794,11 @@ if
 !
 encoder
 )
+{
 return
 NS_IMAGELIB_ERROR_NO_ENCODER
 ;
+}
 DataSourceSurface
 :
 :

@@ -92,6 +92,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_image_src_imgITools_h
+#
+define
+mozilla_image_src_imgITools_h
+#
 include
 "
 imgITools
@@ -160,3 +166,8 @@ imgTools
 ;
 }
 ;
+#
+endif
+/
+/
+mozilla_image_src_imgITools_h
