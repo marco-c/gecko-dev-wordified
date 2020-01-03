@@ -189,6 +189,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsIGfxInfo
 .
 h
