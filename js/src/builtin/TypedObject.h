@@ -3640,6 +3640,9 @@ SetterOp
 setter
 unsigned
 attrs
+ObjectOpResult
+&
+result
 )
 ;
 static

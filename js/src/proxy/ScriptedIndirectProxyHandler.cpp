@@ -1246,6 +1246,9 @@ MutableHandle
 PropertyDescriptor
 >
 desc
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -1305,6 +1308,13 @@ id
 value
 &
 value
+)
+&
+&
+result
+.
+succeed
+(
 )
 ;
 }

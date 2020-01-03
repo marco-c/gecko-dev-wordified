@@ -1380,6 +1380,12 @@ MutableHandle
 JSPropertyDescriptor
 >
 aDesc
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 {

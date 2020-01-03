@@ -603,6 +603,9 @@ MutableHandle
 PropertyDescriptor
 >
 desc
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -713,6 +716,7 @@ cx
 wrapper
 id
 desc
+result
 )
 ;
 }

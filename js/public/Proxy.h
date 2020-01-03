@@ -215,6 +215,12 @@ using
 JS
 :
 :
+ObjectOpResult
+;
+using
+JS
+:
+:
 PrivateValue
 ;
 using
@@ -2014,6 +2020,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+ObjectOpResult
+&
+result
 )
 const
 =
@@ -3139,6 +3148,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE

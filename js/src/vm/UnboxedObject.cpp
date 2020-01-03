@@ -2721,6 +2721,9 @@ SetterOp
 setter
 unsigned
 attrs
+ObjectOpResult
+&
+result
 )
 {
 if
@@ -2745,6 +2748,7 @@ v
 getter
 setter
 attrs
+result
 )
 ;
 }

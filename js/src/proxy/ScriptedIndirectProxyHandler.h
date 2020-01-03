@@ -203,6 +203,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE
