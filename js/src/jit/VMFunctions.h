@@ -4859,6 +4859,13 @@ gc
 :
 InitialHeap
 initialHeap
+const
+js
+:
+:
+Class
+*
+clasp
 )
 ;
 bool

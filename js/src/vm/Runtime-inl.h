@@ -532,6 +532,12 @@ entry
 >
 kind
 heap
+type
+-
+>
+clasp
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -573,6 +579,12 @@ entry
 >
 kind
 heap
+type
+-
+>
+clasp
+(
+)
 )
 ;
 if

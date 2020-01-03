@@ -42756,7 +42756,7 @@ runtimeFromMainThread
 )
 -
 >
-isHeapMajorCollecting
+isHeapCollecting
 (
 )
 )

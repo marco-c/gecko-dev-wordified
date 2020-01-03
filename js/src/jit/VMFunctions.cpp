@@ -811,6 +811,13 @@ gc
 :
 InitialHeap
 initialHeap
+const
+js
+:
+:
+Class
+*
+clasp
 )
 {
 return
@@ -826,6 +833,7 @@ cx
 allocKind
 0
 initialHeap
+clasp
 )
 ;
 }
