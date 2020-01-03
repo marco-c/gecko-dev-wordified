@@ -1358,12 +1358,9 @@ docShells
 )
 {
 markers
-=
-[
 .
-.
-.
-markers
+push
+(
 .
 .
 .
@@ -1372,7 +1369,7 @@ docShell
 popProfileTimelineMarkers
 (
 )
-]
+)
 ;
 }
 /
