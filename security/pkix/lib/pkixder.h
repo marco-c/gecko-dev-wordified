@@ -534,6 +534,11 @@ CONSTRUCTED
 /
 /
 0x31
+PrintableString
+=
+UNIVERSAL
+|
+0x13
 UTCTime
 =
 UNIVERSAL
