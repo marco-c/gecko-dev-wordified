@@ -574,8 +574,10 @@ void
 Func
 )
 (
-void
-*
+JS
+:
+:
+GCCellPtr
 aPtr
 const
 char
@@ -1238,9 +1240,11 @@ static
 void
 NoteJSChild
 (
-void
-*
-aScriptThing
+JS
+:
+:
+GCCellPtr
+aGCThing
 const
 char
 *

@@ -196,8 +196,10 @@ static
 void
 SearchGray
 (
-void
-*
+JS
+:
+:
+GCCellPtr
 aGCThing
 const
 char
@@ -237,6 +239,10 @@ JS
 GCThingIsMarkedGray
 (
 aGCThing
+.
+asCell
+(
+)
 )
 )
 {

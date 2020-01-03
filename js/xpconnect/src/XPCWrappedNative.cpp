@@ -693,7 +693,7 @@ mFlatJSObject
 ;
 cb
 .
-NoteJSChild
+NoteJSObject
 (
 obj
 )
