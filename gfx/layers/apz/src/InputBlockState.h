@@ -274,6 +274,7 @@ InputBlockState
 )
 {
 }
+virtual
 bool
 SetConfirmedTargetApzc
 (
@@ -1000,6 +1001,19 @@ char
 *
 Type
 (
+)
+override
+;
+bool
+SetConfirmedTargetApzc
+(
+const
+nsRefPtr
+<
+AsyncPanZoomController
+>
+&
+aTargetApzc
 )
 override
 ;
