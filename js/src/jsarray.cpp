@@ -5275,8 +5275,8 @@ HandleObject
 obj
 HandleId
 id
-HandleValue
-v
+MutableHandleValue
+vp
 )
 {
 Rooted

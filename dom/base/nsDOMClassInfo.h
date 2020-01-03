@@ -1110,14 +1110,9 @@ id
 JS
 :
 :
-Handle
-<
-JS
-:
-:
 Value
->
-val
+*
+vp
 bool
 *
 _retval

@@ -17727,6 +17727,17 @@ MOZ_ASSERT
 clasp
 -
 >
+addProperty
+!
+=
+JS_PropertyStub
+)
+;
+MOZ_ASSERT
+(
+clasp
+-
+>
 getProperty
 !
 =
