@@ -125,12 +125,9 @@ argv
 )
 :
     
-filename
+filenames
 =
 argv
-[
-0
-]
     
 all_histograms
 =
@@ -143,9 +140,9 @@ histogram
 in
 histogram_tools
 .
-from_file
+from_files
 (
-filename
+filenames
 )
 :
         
