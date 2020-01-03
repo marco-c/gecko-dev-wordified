@@ -4396,7 +4396,7 @@ mStartTime
 timeline
 -
 >
-GetCurrentTimeDuration
+GetCurrentTime
 (
 )
 ;

@@ -2922,7 +2922,7 @@ now
 aTimeline
 -
 >
-GetCurrentTimeDuration
+GetCurrentTime
 (
 )
 ;
