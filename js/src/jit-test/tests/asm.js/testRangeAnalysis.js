@@ -1,5 +1,17 @@
 /
 /
+|
+jit
+-
+test
+|
+test
+-
+also
+-
+noasmjs
+/
+/
 Bug
 894781
 function

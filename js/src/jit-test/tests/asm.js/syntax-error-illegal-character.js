@@ -1,3 +1,15 @@
+/
+/
+|
+jit
+-
+test
+|
+test
+-
+also
+-
+noasmjs
 var
 JSMSG_ILLEGAL_CHARACTER
 =
