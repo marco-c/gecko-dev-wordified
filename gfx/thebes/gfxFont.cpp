@@ -12268,6 +12268,8 @@ renderingOptions
 =
 GetGlyphRenderingOptions
 (
+&
+aRunParams
 )
 ;
 fontParams

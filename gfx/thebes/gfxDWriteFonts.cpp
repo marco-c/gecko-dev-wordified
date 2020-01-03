@@ -3455,6 +3455,10 @@ gfxDWriteFont
 :
 GetGlyphRenderingOptions
 (
+const
+TextRunDrawParams
+*
+aRunParams
 )
 {
 if

@@ -3977,6 +3977,17 @@ GetDrawTarget
 (
 )
 ;
+params
+.
+fontSmoothingBGColor
+=
+aContext
+-
+>
+GetFontSmoothingBackgroundColor
+(
+)
+;
 /
 /
 synthetic

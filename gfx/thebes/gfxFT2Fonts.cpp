@@ -1755,6 +1755,10 @@ gfxFT2Font
 :
 GetGlyphRenderingOptions
 (
+const
+TextRunDrawParams
+*
+aRunParams
 )
 {
 mozilla
