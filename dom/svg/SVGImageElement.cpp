@@ -1622,11 +1622,7 @@ aStrokeOptions
 const
 Matrix
 &
-aToBoundsSpace
-const
-Matrix
-*
-aToNonScalingStrokeSpace
+aTransform
 )
 {
 Rect
@@ -1691,7 +1687,7 @@ negative
 *
 aBounds
 =
-aToBoundsSpace
+aTransform
 .
 TransformBounds
 (
