@@ -4386,10 +4386,7 @@ aURI
 requestingNode
 triggeringPrincipal
 securityFlags
-nsIContentPolicy
-:
-:
-TYPE_IMAGE
+aPolicyType
 nullptr
 /
 /
@@ -4464,10 +4461,7 @@ aResult
 aURI
 triggeringPrincipal
 securityFlags
-nsIContentPolicy
-:
-:
-TYPE_IMAGE
+aPolicyType
 nullptr
 /
 /
