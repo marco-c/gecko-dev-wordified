@@ -239,6 +239,14 @@ mIndirectAudio
 aIndirectAudio
 ;
 }
+void
+BindStream
+(
+ProcessedMediaStream
+*
+aStream
+)
+;
 protected
 :
 virtual
@@ -361,6 +369,12 @@ nsRefPtr
 SourceMediaStream
 >
 mStream
+;
+nsRefPtr
+<
+MediaInputPort
+>
+mPort
 ;
 nsCOMPtr
 <
