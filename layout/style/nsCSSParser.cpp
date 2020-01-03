@@ -29760,7 +29760,7 @@ ePseudo_PseudoElementCount
 nsCSSPseudoElements
 :
 :
-PseudoElementIsChromeOnly
+PseudoElementIsUASheetOnly
 (
 pseudoElementType
 )

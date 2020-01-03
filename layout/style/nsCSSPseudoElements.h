@@ -445,7 +445,7 @@ element
 ?
 #
 define
-CSS_PSEUDO_ELEMENT_IS_CHROME_ONLY
+CSS_PSEUDO_ELEMENT_UA_SHEET_ONLY
 (
 1
 <
@@ -677,7 +677,7 @@ aType
 ;
 static
 bool
-PseudoElementIsChromeOnly
+PseudoElementIsUASheetOnly
 (
 const
 Type
@@ -695,7 +695,7 @@ return
 PseudoElementHasFlags
 (
 aType
-CSS_PSEUDO_ELEMENT_IS_CHROME_ONLY
+CSS_PSEUDO_ELEMENT_UA_SHEET_ONLY
 )
 ;
 }
