@@ -5840,9 +5840,6 @@ sendUSSD
 ussd
 :
 aUssd
-checkSession
-:
-true
 }
 response
 =
