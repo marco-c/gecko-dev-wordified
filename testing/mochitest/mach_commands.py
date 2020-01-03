@@ -6211,6 +6211,10 @@ package
 test
 .
 '
+             
+parser
+=
+setup_argument_parser
 )
     
 def
@@ -6271,6 +6275,10 @@ addon
 test
 .
 '
+             
+parser
+=
+setup_argument_parser
 )
     
 def
