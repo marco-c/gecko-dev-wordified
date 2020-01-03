@@ -164,9 +164,9 @@ GMPStorageParent
 GMPStorageParent
 (
 const
-nsString
+nsCString
 &
-aOrigin
+aNodeId
 GMPParent
 *
 aPlugin
@@ -256,8 +256,8 @@ PRFileDesc
 mFiles
 ;
 const
-nsString
-mOrigin
+nsAutoCString
+mNodeId
 ;
 nsRefPtr
 <
