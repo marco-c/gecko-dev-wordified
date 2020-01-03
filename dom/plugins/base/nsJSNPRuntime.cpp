@@ -3466,6 +3466,10 @@ mNpp
 (
 npp
 )
+mDestroyPending
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
