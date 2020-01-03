@@ -16873,6 +16873,14 @@ D2D1_DEBUG_LEVEL_NONE
 ;
 #
 endif
+/
+/
+options
+.
+debugLevel
+=
+D2D1_DEBUG_LEVEL_INFORMATION
+;
 HRESULT
 hr
 =

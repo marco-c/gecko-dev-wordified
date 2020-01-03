@@ -1096,6 +1096,14 @@ TemporaryRef
 <
 ID2D1Brush
 >
+CreateTransparentBlackBrush
+(
+)
+;
+TemporaryRef
+<
+ID2D1Brush
+>
 CreateBrushForPattern
 (
 const
