@@ -365,12 +365,9 @@ jsapi
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
-aTarget
+AutoObjectVector
+&
+aScopeChain
 JS
 :
 :
