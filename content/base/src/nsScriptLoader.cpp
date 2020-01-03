@@ -8142,6 +8142,9 @@ false
 }
 if
 (
+mDocument
+&
+&
 !
 mDocument
 -
