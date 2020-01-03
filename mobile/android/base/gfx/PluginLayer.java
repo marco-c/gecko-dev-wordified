@@ -142,7 +142,7 @@ public
 class
 PluginLayer
 extends
-TileLayer
+Layer
 {
 private
 static
