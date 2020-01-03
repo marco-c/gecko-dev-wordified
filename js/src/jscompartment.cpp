@@ -4136,8 +4136,9 @@ kind
 bool
 valDying
 =
-IsValueAboutToBeFinalized
+IsAboutToBeFinalized
 (
+&
 e
 .
 front
@@ -4145,10 +4146,6 @@ front
 )
 .
 value
-(
-)
-.
-unsafeGet
 (
 )
 )

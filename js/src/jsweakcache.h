@@ -819,6 +819,7 @@ gc
 :
 IsAboutToBeFinalized
 (
+&
 e
 .
 front
@@ -897,6 +898,7 @@ gc
 :
 IsAboutToBeFinalized
 (
+&
 r
 .
 front
