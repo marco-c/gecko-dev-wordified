@@ -665,9 +665,6 @@ off
 the
 bat
 .
-if
-(
-!
 PL_DHashTableInit
 (
 &
@@ -678,17 +675,11 @@ sizeof
 (
 PLDHashEntryStub
 )
-fallible
 NUM_HTTP_ATOMS
 +
 10
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 /
 /
 fill
