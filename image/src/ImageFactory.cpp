@@ -289,12 +289,12 @@ ImageMemDiscardable
 )
 ;
 bool
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 gfxPrefs
 :
 :
-ImageMemDecodeOnDraw
+ImageDecodeOnlyOnDrawEnabled
 (
 )
 &
@@ -339,6 +339,8 @@ discarding
 and
 decode
 -
+only
+-
 on
 -
 draw
@@ -378,7 +380,7 @@ isChrome
 {
 isDiscardable
 =
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 false
 ;
@@ -404,6 +406,8 @@ or
 /
 /
 decode
+-
+only
 -
 on
 -
@@ -442,7 +446,7 @@ isResource
 {
 isDiscardable
 =
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 false
 ;
@@ -457,6 +461,8 @@ decode
 and
 decode
 -
+only
+-
 on
 -
 draw
@@ -464,9 +470,9 @@ are
 only
 enabled
 for
+/
+/
 certain
-/
-/
 content
 types
 .
@@ -476,7 +482,7 @@ if
 doDownscaleDuringDecode
 |
 |
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 )
 &
 &
@@ -491,7 +497,7 @@ doDownscaleDuringDecode
 =
 false
 ;
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 false
 ;
@@ -531,7 +537,7 @@ isMultiPart
 {
 isDiscardable
 =
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 doDownscaleDuringDecode
 =
@@ -572,7 +578,7 @@ INIT_FLAG_DISCARDABLE
 }
 if
 (
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 )
 {
 imageFlags
@@ -581,7 +587,7 @@ imageFlags
 Image
 :
 :
-INIT_FLAG_DECODE_ON_DRAW
+INIT_FLAG_DECODE_ONLY_ON_DRAW
 ;
 }
 if

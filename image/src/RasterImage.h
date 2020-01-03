@@ -1790,7 +1790,7 @@ aLastPart
 override
 ;
 void
-NotifyForDecodeOnDrawOnly
+NotifyForDecodeOnlyOnDraw
 (
 )
 ;
@@ -2814,13 +2814,14 @@ been
 called
 ?
 bool
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 :
 1
 ;
 /
 /
 Decoding
+only
 on
 draw
 ?

@@ -1707,7 +1707,7 @@ mHasSize
 (
 false
 )
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 (
 false
 )
@@ -1988,6 +1988,8 @@ non
 -
 decode
 -
+only
+-
 on
 -
 draw
@@ -2020,7 +2022,7 @@ INIT_FLAG_DISCARDABLE
 (
 aFlags
 &
-INIT_FLAG_DECODE_ON_DRAW
+INIT_FLAG_DECODE_ONLY_ON_DRAW
 )
 &
 &
@@ -2063,14 +2065,14 @@ aFlags
 INIT_FLAG_DISCARDABLE
 )
 ;
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 =
 !
 !
 (
 aFlags
 &
-INIT_FLAG_DECODE_ON_DRAW
+INIT_FLAG_DECODE_ONLY_ON_DRAW
 )
 ;
 mTransient
@@ -7584,13 +7586,15 @@ finalStatus
 ;
 if
 (
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 )
 {
 /
 /
 For
 decode
+-
+only
 -
 on
 -
@@ -7637,7 +7641,7 @@ notifications
 from
 /
 /
-NotifyForDecodeOnDrawOnly
+NotifyForDecodeOnlyOnDraw
 (
 )
 but
@@ -7695,7 +7699,7 @@ void
 RasterImage
 :
 :
-NotifyForDecodeOnDrawOnly
+NotifyForDecodeOnlyOnDraw
 (
 )
 {
@@ -7720,7 +7724,7 @@ this
 RasterImage
 :
 :
-NotifyForDecodeOnDrawOnly
+NotifyForDecodeOnlyOnDraw
 )
 ;
 NS_DispatchToMainThread
@@ -7765,7 +7769,7 @@ if
 (
 MOZ_UNLIKELY
 (
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 &
 &
 aOffset
@@ -7784,6 +7788,8 @@ re
 a
 decode
 -
+only
+-
 on
 -
 draw
@@ -7801,7 +7807,7 @@ just
 started
 decoding
 .
-NotifyForDecodeOnDrawOnly
+NotifyForDecodeOnlyOnDraw
 (
 )
 ;
@@ -9179,6 +9185,8 @@ RequestDecode
 For
 decode
 -
+only
+-
 on
 -
 draw
@@ -9191,7 +9199,7 @@ RequestDecodeForSize
 .
 if
 (
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 )
 {
 return
@@ -9227,6 +9235,8 @@ StartDecoding
 For
 decode
 -
+only
+-
 on
 -
 draw
@@ -9239,7 +9249,7 @@ RequestDecodeForSize
 .
 if
 (
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 )
 {
 return

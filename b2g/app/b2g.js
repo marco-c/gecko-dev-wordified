@@ -3426,9 +3426,15 @@ pref
 "
 image
 .
-mem
+decode
+-
+only
+-
+on
+-
+draw
 .
-decodeondraw
+enabled
 "
 true
 )
