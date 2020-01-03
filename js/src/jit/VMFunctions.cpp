@@ -2645,7 +2645,9 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+if
+(
+MOZ_LIKELY
 (
 obj
 -
@@ -2661,7 +2663,8 @@ lengthIsWritable
 (
 )
 )
-;
+)
+{
 uint32_t
 idx
 =
@@ -2761,6 +2764,7 @@ length
 return
 true
 ;
+}
 }
 JS
 :
