@@ -4008,8 +4008,6 @@ inheritedDirectives
 Directives
 *
 newDirectives
-bool
-bodyLevelHoistedUse
 )
 ;
 Node
@@ -4245,9 +4243,6 @@ pn
 JSAtom
 *
 atom
-bool
-*
-pbodyLevelHoistedUse
 )
 ;
 bool
@@ -4263,9 +4258,6 @@ kind
 bool
 *
 pbodyProcessed
-bool
-*
-pbodyLevelHoistedUse
 )
 ;
 bool
@@ -4294,8 +4286,6 @@ ParseHandler
 >
 *
 pc
-bool
-bodyLevelHoistedUse
 )
 ;
 bool
@@ -4686,8 +4676,6 @@ ParseHandler
 >
 *
 outerpc
-bool
-bodyLevelHoistedUse
 FunctionSyntaxKind
 kind
 =
