@@ -1291,7 +1291,7 @@ urlEditView
 ;
 mSolo
 .
-typeText
+enterText
 (
 urlEditView
 url

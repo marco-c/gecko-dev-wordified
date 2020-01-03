@@ -177,8 +177,9 @@ startEditingMode
 ;
 assertUrlBarText
 (
-"
-"
+mStringHelper
+.
+ABOUT_HOME_URL
 )
 ;
 /
@@ -560,8 +561,9 @@ startEditingMode
 ;
 assertUrlBarText
 (
-"
-"
+mStringHelper
+.
+ABOUT_HOME_URL
 )
 ;
 int
