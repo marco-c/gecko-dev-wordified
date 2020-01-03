@@ -725,6 +725,13 @@ mSource
 mAudioConfig
 .
 mTrackId
+/
+*
+aIsAudio
+=
+*
+/
+true
 mMonitor
 )
 ;
@@ -844,6 +851,13 @@ mSource
 mVideoConfig
 .
 mTrackId
+/
+*
+aIsAudio
+=
+*
+/
+false
 mMonitor
 )
 ;

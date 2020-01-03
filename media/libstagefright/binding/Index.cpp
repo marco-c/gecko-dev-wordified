@@ -1311,6 +1311,8 @@ Stream
 aSource
 uint32_t
 aTrackId
+bool
+aIsAudio
 Monitor
 *
 aMonitor
@@ -1341,6 +1343,7 @@ MoofParser
 (
 aSource
 aTrackId
+aIsAudio
 aMonitor
 )
 ;

@@ -2153,6 +2153,13 @@ MoofParser
 (
 mStream
 0
+/
+*
+aIsAudio
+=
+*
+/
+false
 &
 mMonitor
 )
