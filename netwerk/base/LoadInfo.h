@@ -383,6 +383,8 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
+bool
+aUpgradeInsecureRequests
 uint64_t
 aInnerWindowID
 uint64_t
@@ -448,6 +450,9 @@ nsCOMPtr
 nsIURI
 >
 mBaseURI
+;
+bool
+mUpgradeInsecureRequests
 ;
 uint64_t
 mInnerWindowID
