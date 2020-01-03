@@ -880,7 +880,7 @@ flick
 (
 el
 caret1_x
-caret2_y
+caret1_y
 caret2_x
 caret2_y
 )
@@ -1548,7 +1548,7 @@ assertEqual
 )
     
 def
-test_input_minimum_select_one_caracter
+test_input_minimum_select_one_character
 (
 self
 )
@@ -2086,7 +2086,7 @@ assertEqual
 )
     
 def
-test_textarea_minimum_select_one_caracter
+test_textarea_minimum_select_one_character
 (
 self
 )
@@ -2629,7 +2629,7 @@ assertEqual
 )
     
 def
-test_textarea_rtl_minimum_select_one_caracter
+test_textarea_rtl_minimum_select_one_character
 (
 self
 )
