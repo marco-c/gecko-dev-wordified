@@ -4081,8 +4081,10 @@ JS
 :
 Handle
 <
-JSObject
-*
+JS
+:
+:
+Value
 >
 receiver
 JS
@@ -5943,8 +5945,10 @@ JS
 :
 Handle
 <
-JSObject
-*
+JS
+:
+:
+Value
 >
 receiver
 JS

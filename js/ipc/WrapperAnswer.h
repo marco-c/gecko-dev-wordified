@@ -291,7 +291,7 @@ ObjectId
 &
 objId
 const
-ObjectVariant
+JSVariant
 &
 receiverVar
 const

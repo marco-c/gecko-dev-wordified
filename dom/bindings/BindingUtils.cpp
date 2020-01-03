@@ -10163,6 +10163,17 @@ JS
 :
 Handle
 <
+JS
+:
+:
+Value
+>
+receiver
+JS
+:
+:
+Handle
+<
 jsid
 >
 id
@@ -10262,7 +10273,7 @@ JS_ForwardGetPropertyTo
 cx
 proto
 id
-proxy
+receiver
 vp
 )
 ;

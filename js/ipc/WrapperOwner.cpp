@@ -660,7 +660,7 @@ JSContext
 cx
 HandleObject
 proxy
-HandleObject
+HandleValue
 receiver
 HandleId
 id
@@ -1876,7 +1876,7 @@ JSContext
 cx
 HandleObject
 proxy
-HandleObject
+HandleValue
 receiver
 HandleId
 id
@@ -2751,7 +2751,7 @@ JSContext
 cx
 HandleObject
 proxy
-HandleObject
+HandleValue
 receiver
 HandleId
 id
@@ -2767,13 +2767,13 @@ idOf
 proxy
 )
 ;
-ObjectVariant
+JSVariant
 receiverVar
 ;
 if
 (
 !
-toObjectVariant
+toVariant
 (
 cx
 receiver

@@ -3251,11 +3251,7 @@ wrapper
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
+HandleValue
 receiver
 JS
 :
@@ -3973,11 +3969,7 @@ proxy
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
+HandleValue
 receiver
 JS
 :

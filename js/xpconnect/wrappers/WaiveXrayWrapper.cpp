@@ -416,7 +416,7 @@ JSContext
 cx
 HandleObject
 wrapper
-HandleObject
+HandleValue
 receiver
 HandleId
 id
