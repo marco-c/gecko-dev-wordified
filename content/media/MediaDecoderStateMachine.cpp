@@ -17829,6 +17829,14 @@ mPlayDuration
 =
 0
 )
+|
+|
+mScheduler
+-
+>
+IsRealTime
+(
+)
 )
 {
 ReentrantMonitorAutoExit
