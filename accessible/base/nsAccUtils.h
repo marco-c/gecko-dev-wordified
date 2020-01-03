@@ -749,6 +749,16 @@ nsINode
 aNode
 )
 ;
+static
+Accessible
+*
+TableFor
+(
+Accessible
+*
+aRow
+)
+;
 /
 *
 *
