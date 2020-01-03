@@ -194,9 +194,6 @@ class
 nsIPermission
 ;
 class
-nsIIDNService
-;
-class
 mozIStorageConnection
 ;
 class
@@ -1178,14 +1175,6 @@ RemoveAllFromMemory
 (
 )
 ;
-nsresult
-NormalizeToACE
-(
-nsCString
-&
-aHost
-)
-;
 static
 void
 UpdateDB
@@ -1262,12 +1251,6 @@ nsresult
 FetchPermissions
 (
 )
-;
-nsCOMPtr
-<
-nsIIDNService
->
-mIDNService
 ;
 nsCOMPtr
 <
