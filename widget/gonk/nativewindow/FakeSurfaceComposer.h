@@ -310,7 +310,7 @@ FakeSurfaceComposer
 /
 /
 Instantiate
-MediaResourceManagerService
+FakeSurfaceComposer
 and
 register
 to
