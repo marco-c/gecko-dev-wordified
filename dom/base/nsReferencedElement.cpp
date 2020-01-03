@@ -379,7 +379,7 @@ doc
 aFromContent
 -
 >
-GetComposedDoc
+OwnerDoc
 (
 )
 ;
@@ -852,7 +852,7 @@ doc
 aFromContent
 -
 >
-GetComposedDoc
+OwnerDoc
 (
 )
 ;
