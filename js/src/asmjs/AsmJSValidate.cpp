@@ -51253,7 +51253,6 @@ InAllowed
 YieldIsName
 fn
 fun
-Normal
 Statement
 )
 )

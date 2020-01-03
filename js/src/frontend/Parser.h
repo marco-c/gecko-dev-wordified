@@ -2536,14 +2536,6 @@ DontHoistVars
 }
 ;
 enum
-FunctionType
-{
-Getter
-Setter
-Normal
-}
-;
-enum
 PropListType
 {
 ObjectLiteral
@@ -3559,8 +3551,6 @@ Node
 pn
 HandleFunction
 fun
-FunctionType
-type
 FunctionSyntaxKind
 kind
 )
@@ -4164,8 +4154,8 @@ Node
 propList
 Node
 propname
-FunctionType
-type
+FunctionSyntaxKind
+kind
 GeneratorKind
 generatorKind
 bool
@@ -4190,8 +4180,6 @@ YieldHandling
 yieldHandling
 FunctionSyntaxKind
 kind
-FunctionType
-type
 Node
 *
 list
@@ -4211,8 +4199,6 @@ YieldHandling
 uieldHandling
 HandlePropertyName
 name
-FunctionType
-type
 FunctionSyntaxKind
 kind
 GeneratorKind
@@ -4232,8 +4218,6 @@ Node
 pn
 HandleFunction
 fun
-FunctionType
-type
 FunctionSyntaxKind
 kind
 GeneratorKind
