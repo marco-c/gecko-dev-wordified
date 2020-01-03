@@ -1814,6 +1814,11 @@ bootstrap
 doctor
 '
 '
+mach
+-
+commands
+'
+'
 mercurial
 -
 setup
