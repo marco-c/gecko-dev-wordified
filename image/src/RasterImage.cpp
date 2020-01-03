@@ -4004,6 +4004,13 @@ locked
 "
 )
 ;
+if
+(
+CanForciblyDiscardAndRedecode
+(
+)
+)
+{
 ForceDiscard
 (
 )
@@ -4012,6 +4019,7 @@ WantDecodedFrames
 (
 )
 ;
+}
 return
 DrawableFrameRef
 (
