@@ -747,11 +747,11 @@ inverted
 0
 :
 undefined
-enableOptimizations
+showOptimizationHint
 :
 options
 .
-enableOptimizations
+showOptimizationHint
 }
 )
 ;
