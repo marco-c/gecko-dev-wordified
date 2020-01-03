@@ -1726,12 +1726,8 @@ const
 TestKeyPair
 &
 )
-/
-*
 =
 delete
-*
-/
 ;
 void
 operator
@@ -1741,12 +1737,8 @@ const
 TestKeyPair
 &
 )
-/
-*
 =
 delete
-*
-/
 ;
 }
 ;
