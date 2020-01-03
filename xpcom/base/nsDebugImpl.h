@@ -138,8 +138,9 @@ public
 nsDebugImpl
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDEBUG2
 static
