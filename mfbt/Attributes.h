@@ -3572,7 +3572,7 @@ compile
 time
 error
 to
-path
+pass
 arithmetic
 expressions
 on
