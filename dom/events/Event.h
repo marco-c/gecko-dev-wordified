@@ -1350,6 +1350,7 @@ nsAString
 &
 aType
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1368,6 +1369,7 @@ nsIDOMEventTarget
 *
 aTarget
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1386,6 +1388,7 @@ nsIDOMEventTarget
 *
 aCurrentTarget
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1403,6 +1406,7 @@ uint16_t
 *
 aEventPhase
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1420,6 +1424,7 @@ bool
 *
 aBubbles
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1437,6 +1442,7 @@ bool
 *
 aCancelable
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1454,6 +1460,7 @@ DOMTimeStamp
 *
 aTimeStamp
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1469,6 +1476,7 @@ StopPropagation
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1483,6 +1491,7 @@ PreventDefault
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1504,6 +1513,7 @@ canBubbleArg
 bool
 cancelableArg
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1523,6 +1533,7 @@ bool
 *
 aDefaultPrevented
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1538,6 +1549,7 @@ StopImmediatePropagation
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1555,6 +1567,7 @@ nsIDOMEventTarget
 *
 aOriginalTarget
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1573,6 +1586,7 @@ nsIDOMEventTarget
 *
 aExplicitOriginalTarget
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1590,6 +1604,7 @@ bool
 *
 aRetval
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1607,6 +1622,7 @@ bool
 *
 aIsTrusted
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1624,6 +1640,7 @@ nsIDOMEventTarget
 *
 aTarget
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1642,6 +1659,7 @@ IsDispatchStopped
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1660,6 +1678,7 @@ GetInternalNSEvent
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 _to
@@ -1678,6 +1697,7 @@ SetTrusted
 bool
 aTrusted
 )
+MOZ_OVERRIDE
 {
 _to
 SetTrusted
@@ -1697,6 +1717,7 @@ EventTarget
 *
 aOwner
 )
+MOZ_OVERRIDE
 {
 _to
 SetOwner
@@ -1714,6 +1735,7 @@ Event
 InternalDOMEvent
 (
 )
+MOZ_OVERRIDE
 {
 return
 _to
