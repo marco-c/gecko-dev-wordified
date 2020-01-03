@@ -10468,7 +10468,7 @@ OutlineTypedObject
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -13639,7 +13639,7 @@ InlineTypedObject
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &

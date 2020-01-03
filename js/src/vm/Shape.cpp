@@ -10370,7 +10370,7 @@ raw
 ;
 if
 (
-IsShapeAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 shape

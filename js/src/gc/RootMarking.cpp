@@ -596,7 +596,7 @@ MarkExactStackRootList
 <
 Shape
 *
-MarkShapeRoot
+TraceRoot
 >
 (
 trc
@@ -1256,7 +1256,7 @@ this
 >
 vector
 ;
-MarkShapeRootRange
+TraceRootRange
 (
 trc
 vector

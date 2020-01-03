@@ -401,7 +401,7 @@ if
 (
 nativeShape_
 )
-MarkShape
+TraceEdge
 (
 trc
 &

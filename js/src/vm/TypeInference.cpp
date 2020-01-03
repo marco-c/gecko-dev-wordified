@@ -21968,7 +21968,7 @@ JSTracer
 trc
 )
 {
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -25759,7 +25759,7 @@ if
 (
 initializedShape_
 )
-MarkShape
+TraceEdge
 (
 trc
 &

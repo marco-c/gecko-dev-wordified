@@ -2102,7 +2102,7 @@ if
 (
 callObjShape_
 )
-MarkShape
+TraceEdge
 (
 trc
 &

@@ -10452,15 +10452,12 @@ true
 ;
 if
 (
-IsShapeAboutToBeFinalized
+IsAboutToBeFinalized
 (
+&
 entry
 .
 shape
-.
-unsafeGet
-(
-)
 )
 )
 remove

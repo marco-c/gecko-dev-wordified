@@ -1033,7 +1033,7 @@ if
 (
 shape_
 )
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -1550,7 +1550,7 @@ toGetElem_NativeSlot
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -1610,7 +1610,7 @@ toGetElem_NativePrototypeSlot
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -1673,7 +1673,7 @@ holder
 "
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -1723,7 +1723,7 @@ ICGetElemNativePrototypeCallStub
 this
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -1807,7 +1807,7 @@ holder
 "
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -1846,7 +1846,7 @@ toGetElem_Dense
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -1885,7 +1885,7 @@ toGetElem_TypedArray
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -1924,7 +1924,7 @@ toSetElem_Dense
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -2162,7 +2162,7 @@ toSetElem_TypedArray
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -2349,7 +2349,7 @@ toGetName_Global
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -2609,7 +2609,7 @@ toGetProp_Primitive
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -2713,7 +2713,7 @@ holder
 "
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3046,7 +3046,7 @@ toGetProp_TypedObject
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3136,7 +3136,7 @@ expandoShape
 )
 )
 {
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3179,7 +3179,7 @@ holder
 "
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3239,7 +3239,7 @@ toGetProp_DOMProxyShadowed
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3332,7 +3332,7 @@ holder
 "
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3425,7 +3425,7 @@ holder
 "
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3485,7 +3485,7 @@ toSetProp_Native
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3566,7 +3566,7 @@ group
 "
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3817,7 +3817,7 @@ toSetProp_TypedObject
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -3914,7 +3914,7 @@ holder
 "
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -4007,7 +4007,7 @@ holder
 "
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -4067,7 +4067,7 @@ toInstanceOf_Function
 (
 )
 ;
-MarkShape
+TraceEdge
 (
 trc
 &

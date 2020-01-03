@@ -1639,10 +1639,7 @@ prototype
 "
 )
 ;
-gc
-:
-:
-MarkShape
+TraceEdge
 (
 trc
 &
@@ -1657,10 +1654,7 @@ shape
 "
 )
 ;
-gc
-:
-:
-MarkShape
+TraceEdge
 (
 trc
 &
