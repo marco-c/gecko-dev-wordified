@@ -193,6 +193,7 @@ nsIWebBrowserPrint
 {
 public
 :
+explicit
 MockWebBrowserPrint
 (
 PrintData

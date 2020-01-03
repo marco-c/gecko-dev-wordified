@@ -2064,6 +2064,7 @@ MaybeDisconnect
 {
 public
 :
+explicit
 MaybeDisconnect
 (
 WebSocketImpl

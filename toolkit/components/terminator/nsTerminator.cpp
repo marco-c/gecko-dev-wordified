@@ -2079,6 +2079,7 @@ int
 mTicks
 ;
 MOZ_CONSTEXPR
+explicit
 ShutdownStep
 (
 const

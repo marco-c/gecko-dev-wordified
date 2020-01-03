@@ -219,6 +219,7 @@ be
 /
 buffered
 .
+explicit
 SnappyUncompressInputStream
 (
 nsIInputStream

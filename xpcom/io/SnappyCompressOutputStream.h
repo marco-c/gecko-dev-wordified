@@ -241,6 +241,7 @@ up
 to
 kMaxBlockSize
 .
+explicit
 SnappyCompressOutputStream
 (
 nsIOutputStream

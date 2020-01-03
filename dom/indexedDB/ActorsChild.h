@@ -491,6 +491,7 @@ mCurrentTransaction
 }
 private
 :
+explicit
 ThreadLocal
 (
 const
