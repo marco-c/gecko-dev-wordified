@@ -17130,7 +17130,7 @@ mEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 |
 |
 aVisitor
@@ -17474,7 +17474,7 @@ mEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 |
 |
 aVisitor
@@ -17498,7 +17498,7 @@ mEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 )
 {
 /
@@ -19998,7 +19998,7 @@ mEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 |
 |
 aVisitor
@@ -20022,7 +20022,7 @@ mEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 &
 &
 MayFireChangeOnBlur
@@ -20091,7 +20091,7 @@ mEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 )
 ;
 UpdateState
@@ -21226,7 +21226,7 @@ mMessage
 )
 {
 case
-NS_FOCUS_CONTENT
+eFocus
 :
 {
 /

@@ -1816,7 +1816,7 @@ aEventMessage
 should
 be
 either
-NS_FOCUS_CONTENT
+eFocus
 or
 NS_BLUR_CONTENT
 .

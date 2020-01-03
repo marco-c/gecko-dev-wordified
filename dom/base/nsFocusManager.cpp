@@ -12032,7 +12032,7 @@ doc
 )
 SendFocusOrBlurEvent
 (
-NS_FOCUS_CONTENT
+eFocus
 presShell
 doc
 doc
@@ -12057,7 +12057,7 @@ nullptr
 )
 SendFocusOrBlurEvent
 (
-NS_FOCUS_CONTENT
+eFocus
 presShell
 doc
 aWindow
@@ -12417,7 +12417,7 @@ nullptr
 ;
 SendFocusOrBlurEvent
 (
-NS_FOCUS_CONTENT
+eFocus
 presShell
 aContent
 -
@@ -12925,7 +12925,7 @@ NS_ASSERTION
 aEventMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 |
 |
 aEventMessage
@@ -13251,7 +13251,7 @@ if
 aEventMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 )
 {
 accService

@@ -1562,7 +1562,7 @@ eBasicEventClass
 FORWARDED_EVENT
 (
 focus
-NS_FOCUS_CONTENT
+eFocus
 EventNameType_HTMLXUL
 eFocusEventClass
 )
