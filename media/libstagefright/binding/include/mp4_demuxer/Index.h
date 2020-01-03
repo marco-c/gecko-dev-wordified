@@ -65,6 +65,13 @@ INDEX_H_
 #
 include
 "
+MediaData
+.
+h
+"
+#
+include
+"
 MediaResource
 .
 h
