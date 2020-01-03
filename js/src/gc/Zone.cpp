@@ -1802,7 +1802,7 @@ tail
 zone
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 zone
@@ -1987,17 +1987,6 @@ Zone
 zone
 )
 {
-MOZ_ASSERT
-(
-!
-zone
--
->
-isOnList
-(
-)
-)
-;
 ZoneList
 singleZone
 (

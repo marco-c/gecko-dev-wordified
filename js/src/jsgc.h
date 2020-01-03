@@ -6232,9 +6232,6 @@ state
 )
 ;
 bool
-sweepFlag
-;
-bool
 shrinkFlag
 ;
 friend
@@ -6332,10 +6329,6 @@ IDLE
 thread
 (
 nullptr
-)
-sweepFlag
-(
-false
 )
 shrinkFlag
 (
