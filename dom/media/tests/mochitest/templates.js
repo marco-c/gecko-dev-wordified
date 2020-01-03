@@ -3111,6 +3111,9 @@ pcLocal
 checkStats
 (
 stats
+test
+.
+steeplechase
 )
 ;
 test
@@ -3152,6 +3155,9 @@ pcRemote
 checkStats
 (
 stats
+test
+.
+steeplechase
 )
 ;
 test
