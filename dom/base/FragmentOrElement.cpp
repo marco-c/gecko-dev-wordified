@@ -5311,6 +5311,9 @@ eResize
 case
 eScroll
 :
+case
+eSelectStart
+:
 stopEvent
 =
 true
@@ -5418,16 +5421,6 @@ EqualsLiteral
 (
 "
 scroll
-"
-)
-|
-|
-eventType
-.
-EqualsLiteral
-(
-"
-selectstart
 "
 )
 )
