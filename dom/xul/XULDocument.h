@@ -3557,7 +3557,7 @@ elements
 .
 *
 /
-PLDHashTable2
+PLDHashTable
 *
 mBroadcasterMap
 ;

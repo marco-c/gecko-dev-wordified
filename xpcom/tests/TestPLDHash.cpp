@@ -330,7 +330,7 @@ reliable
 .
 /
 /
-PLDHashTable2
+PLDHashTable
 t
 (
 PL_DHashGetStubOps
@@ -378,7 +378,7 @@ test_pldhash_lazy_storage
 (
 )
 {
-PLDHashTable2
+PLDHashTable
 t
 (
 PL_DHashGetStubOps
@@ -810,7 +810,7 @@ test_pldhash_move_semantics
 (
 )
 {
-PLDHashTable2
+PLDHashTable
 t1
 (
 &
@@ -833,7 +833,7 @@ void
 88
 )
 ;
-PLDHashTable2
+PLDHashTable
 t2
 (
 &
@@ -887,7 +887,7 @@ empty
 overwritten
 with
 empty
-PLDHashTable2
+PLDHashTable
 t3
 (
 &
@@ -898,7 +898,7 @@ PLDHashEntryStub
 )
 )
 ;
-PLDHashTable2
+PLDHashTable
 t4
 (
 &
@@ -939,7 +939,7 @@ empty
 overwritten
 with
 empty
-PLDHashTable2
+PLDHashTable
 t5
 (
 &
@@ -950,7 +950,7 @@ PLDHashEntryStub
 )
 )
 ;
-PLDHashTable2
+PLDHashTable
 t6
 (
 &
@@ -991,7 +991,7 @@ with
 non
 -
 empty
-PLDHashTable2
+PLDHashTable
 t7
 (
 &
@@ -1002,7 +1002,7 @@ PLDHashEntryStub
 )
 )
 ;
-PLDHashTable2
+PLDHashTable
 t8
 (
 mozilla
@@ -1021,7 +1021,7 @@ table
 constructed
 with
 uninited
-PLDHashTable2
+PLDHashTable
 t9
 (
 &
@@ -1044,7 +1044,7 @@ void
 88
 )
 ;
-PLDHashTable2
+PLDHashTable
 t10
 (
 mozilla
@@ -1073,7 +1073,7 @@ test_pldhash_Clear
 (
 )
 {
-PLDHashTable2
+PLDHashTable
 t1
 (
 &
@@ -1336,12 +1336,12 @@ This
 is
 infallible
 .
-PLDHashTable2
+PLDHashTable
 *
 t
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 trivialOps

@@ -22050,7 +22050,7 @@ SubDocInitEntry
 mSubDocuments
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 hash_table_ops

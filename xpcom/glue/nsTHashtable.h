@@ -2132,7 +2132,7 @@ mTable
 endif
 protected
 :
-PLDHashTable2
+PLDHashTable
 mTable
 ;
 static

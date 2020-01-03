@@ -121,7 +121,7 @@ MemoryReporting
 h
 "
 extern
-PLDHashTable2
+PLDHashTable
 *
 gHashTable
 ;

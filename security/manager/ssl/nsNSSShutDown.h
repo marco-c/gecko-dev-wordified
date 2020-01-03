@@ -924,10 +924,10 @@ singleton
 uint32_t
 mActiveSSLSockets
 ;
-PLDHashTable2
+PLDHashTable
 mObjects
 ;
-PLDHashTable2
+PLDHashTable
 mPK11LogoutCancelObjects
 ;
 nsNSSActivityState

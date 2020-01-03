@@ -364,7 +364,7 @@ performance
 *
 /
 static
-PLDHashTable2
+PLDHashTable
 *
 gAtomTable
 ;
@@ -3153,7 +3153,7 @@ gAtomTable
 gAtomTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 AtomTableOps

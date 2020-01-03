@@ -4924,7 +4924,7 @@ mBroadcasterMap
 mBroadcasterMap
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 gOps

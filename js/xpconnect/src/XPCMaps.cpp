@@ -1449,7 +1449,7 @@ length
 mTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 PL_DHashGetStubOps
 (
@@ -1718,7 +1718,7 @@ length
 mTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 Entry
@@ -1903,7 +1903,7 @@ length
 mTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 Entry
@@ -2165,7 +2165,7 @@ length
 mTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 PL_DHashGetStubOps
 (
@@ -2371,7 +2371,7 @@ length
 mTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 PL_DHashGetStubOps
 (
@@ -3169,7 +3169,7 @@ length
 mTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 Entry
@@ -3541,7 +3541,7 @@ length
 mTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 Entry
@@ -3988,7 +3988,7 @@ length
 mTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 Entry
@@ -4284,7 +4284,7 @@ length
 mTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 PL_DHashGetStubOps
 (

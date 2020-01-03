@@ -8640,7 +8640,7 @@ ChildrenAreHashed
 )
 )
 {
-PLDHashTable2
+PLDHashTable
 *
 children
 =
@@ -9770,12 +9770,12 @@ children
 "
 )
 ;
-PLDHashTable2
+PLDHashTable
 *
 hash
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 ChildrenHashOps
@@ -60403,7 +60403,7 @@ ChildrenAreHashed
 )
 )
 {
-PLDHashTable2
+PLDHashTable
 *
 children
 =

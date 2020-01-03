@@ -1092,7 +1092,7 @@ void
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 *
 mTable
 ;
@@ -1379,7 +1379,7 @@ size
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 *
 mTable
 ;
@@ -1690,7 +1690,7 @@ void
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 *
 mTable
 ;
@@ -2023,7 +2023,7 @@ size
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 *
 mTable
 ;
@@ -2313,7 +2313,7 @@ void
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 *
 mTable
 ;
@@ -2661,7 +2661,7 @@ void
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 *
 mTable
 ;
@@ -2980,7 +2980,7 @@ size
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 *
 mTable
 ;
@@ -3197,7 +3197,7 @@ size
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 *
 mTable
 ;
@@ -3454,7 +3454,7 @@ size
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 *
 mTable
 ;

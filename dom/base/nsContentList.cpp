@@ -743,7 +743,7 @@ for
 storing
 nsContentLists
 static
-PLDHashTable2
+PLDHashTable
 *
 gContentListHashTable
 ;
@@ -1017,7 +1017,7 @@ gContentListHashTable
 gContentListHashTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 hash_table_ops
@@ -1307,7 +1307,7 @@ for
 storing
 nsCacheableFuncStringContentList
 static
-PLDHashTable2
+PLDHashTable
 *
 gFuncStringContentListHashTable
 ;
@@ -1495,7 +1495,7 @@ gFuncStringContentListHashTable
 gFuncStringContentListHashTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 hash_table_ops

@@ -1172,7 +1172,7 @@ PL_DHashTableSearch
 (
 const_cast
 <
-PLDHashTable2
+PLDHashTable
 *
 >
 (

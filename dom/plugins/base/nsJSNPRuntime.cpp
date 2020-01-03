@@ -630,7 +630,7 @@ as
 JSObjects
 .
 static
-PLDHashTable2
+PLDHashTable
 *
 sNPObjWrappers
 ;
@@ -2253,7 +2253,7 @@ false
 sNPObjWrappers
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 PL_DHashGetStubOps
 (
@@ -11182,13 +11182,13 @@ t
 touch
 it
 .
-PLDHashTable2
+PLDHashTable
 *
 tmp
 =
 static_cast
 <
-PLDHashTable2
+PLDHashTable
 *
 >
 (

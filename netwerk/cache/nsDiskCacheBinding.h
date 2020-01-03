@@ -1105,7 +1105,7 @@ const
 PLDHashTableOps
 ops
 ;
-PLDHashTable2
+PLDHashTable
 table
 ;
 bool

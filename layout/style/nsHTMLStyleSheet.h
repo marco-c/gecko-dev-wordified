@@ -851,10 +851,10 @@ TableTHRule
 >
 mTableTHRule
 ;
-PLDHashTable2
+PLDHashTable
 mMappedAttrTable
 ;
-PLDHashTable2
+PLDHashTable
 mLangRuleTable
 ;
 }

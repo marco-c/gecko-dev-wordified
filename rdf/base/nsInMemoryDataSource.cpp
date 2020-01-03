@@ -756,7 +756,7 @@ union
 struct
 hash
 {
-PLDHashTable2
+PLDHashTable
 *
 mPropertyHash
 ;
@@ -899,7 +899,7 @@ hash
 mPropertyHash
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 PL_DHashGetStubOps
 (
@@ -1380,10 +1380,10 @@ object
 )
 triples
 .
-PLDHashTable2
+PLDHashTable
 mForwardArcs
 ;
-PLDHashTable2
+PLDHashTable
 mReverseArcs
 ;
 nsCOMArray

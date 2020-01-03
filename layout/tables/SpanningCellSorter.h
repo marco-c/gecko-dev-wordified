@@ -465,7 +465,7 @@ aSpan
 ARRAY_SIZE
 ;
 }
-PLDHashTable2
+PLDHashTable
 mHashTable
 ;
 struct

@@ -134,7 +134,7 @@ mTemplate
 ;
 }
 ;
-PLDHashTable2
+PLDHashTable
 mTable
 ;
 public

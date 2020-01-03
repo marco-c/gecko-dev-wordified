@@ -468,7 +468,7 @@ mName
 /
 property
 name
-PLDHashTable2
+PLDHashTable
 mObjectValueMap
 ;
 /

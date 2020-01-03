@@ -306,7 +306,7 @@ value
 }
 ;
 static
-PLDHashTable2
+PLDHashTable
 *
 sAtomTable
 ;
@@ -657,7 +657,7 @@ bat
 sAtomTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 ops

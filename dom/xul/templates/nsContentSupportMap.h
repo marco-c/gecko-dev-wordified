@@ -413,7 +413,7 @@ Clear
 }
 protected
 :
-PLDHashTable2
+PLDHashTable
 mMap
 ;
 struct
