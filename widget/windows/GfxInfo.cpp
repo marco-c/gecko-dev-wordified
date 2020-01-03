@@ -4722,10 +4722,13 @@ GetGeoInfoW
 (
 geoid
 GEO_ISO2
+wwc
+(
 mCountryCode
 .
 BeginWriting
 (
+)
 )
 mCountryCode
 .
