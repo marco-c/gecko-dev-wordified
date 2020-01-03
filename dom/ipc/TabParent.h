@@ -2717,9 +2717,6 @@ mIMETabParent
 ContentCache
 mContentCache
 ;
-LayoutDeviceIntRect
-mIMEEditorRect
-;
 nsIntRect
 mRect
 ;
