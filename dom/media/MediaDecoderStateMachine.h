@@ -2221,6 +2221,7 @@ int64_t
 GetCurrentTimeViaMediaStreamSync
 (
 )
+const
 ;
 /
 /
@@ -2338,6 +2339,7 @@ bool
 IsPlaying
 (
 )
+const
 ;
 /
 /
@@ -3247,6 +3249,7 @@ int64_t
 GetAudioClock
 (
 )
+const
 ;
 /
 /
@@ -3288,6 +3291,7 @@ int64_t
 GetVideoStreamPosition
 (
 )
+const
 ;
 /
 /
@@ -3335,6 +3339,7 @@ int64_t
 GetClock
 (
 )
+const
 ;
 nsresult
 DropAudioUpToSeekTarget
