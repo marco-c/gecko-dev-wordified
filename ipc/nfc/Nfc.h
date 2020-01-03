@@ -434,12 +434,6 @@ NfcSocketListener
 *
 mListener
 ;
-nsCString
-mAddress
-;
-bool
-mShutdown
-;
 }
 ;
 }
