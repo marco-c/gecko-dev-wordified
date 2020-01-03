@@ -143,6 +143,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 class
 nsIURI
 ;
@@ -151,9 +158,6 @@ nsIInputStream
 ;
 class
 nsGenericHTMLElement
-;
-class
-nsIContent
 ;
 class
 nsISaveAsCharset
