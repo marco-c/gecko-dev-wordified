@@ -2371,11 +2371,14 @@ funArg
 )
 ;
 bool
-SetCallOperation
+ThrowMsgOperation
 (
 JSContext
 *
 cx
+const
+unsigned
+errorNum
 )
 ;
 bool
