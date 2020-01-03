@@ -721,6 +721,12 @@ s
 expected
 behavior
 .
+/
+/
+See
+Bug
+1151796
+.
 return
 panel
 .
