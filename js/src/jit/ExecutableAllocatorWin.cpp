@@ -1404,7 +1404,7 @@ void
 *
 allocation
 =
-NULL
+nullptr
 ;
 /
 /
