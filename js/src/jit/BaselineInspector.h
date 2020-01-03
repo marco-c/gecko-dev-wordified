@@ -534,6 +534,9 @@ nativeShapes
 ObjectGroupVector
 &
 unboxedGroups
+ObjectGroupVector
+&
+convertUnboxedGroups
 )
 ;
 SetElemICInspector

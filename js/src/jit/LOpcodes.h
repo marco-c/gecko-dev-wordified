@@ -1198,6 +1198,11 @@ StoreUnboxedPointer
 \
 _
 (
+ConvertUnboxedObjectToNative
+)
+\
+_
+(
 ArrayPopShiftV
 )
 \

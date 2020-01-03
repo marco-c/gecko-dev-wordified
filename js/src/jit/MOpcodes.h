@@ -994,6 +994,11 @@ StoreUnboxedString
 \
 _
 (
+ConvertUnboxedObjectToNative
+)
+\
+_
+(
 ArrayPopShift
 )
 \
