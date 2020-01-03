@@ -1516,7 +1516,7 @@ resolution
 .
 mLastRootMetrics
 .
-mResolution
+mPresShellResolution
 =
 mLastRootMetrics
 .
@@ -2798,7 +2798,7 @@ resolution
 .
 metrics
 .
-mResolution
+mPresShellResolution
 =
 metrics
 .
@@ -2816,12 +2816,12 @@ SetResolution
 (
 metrics
 .
-mResolution
+mPresShellResolution
 .
 scale
 metrics
 .
-mResolution
+mPresShellResolution
 .
 scale
 )
@@ -5780,12 +5780,12 @@ SetResolution
 (
 mLastRootMetrics
 .
-mResolution
+mPresShellResolution
 .
 scale
 mLastRootMetrics
 .
-mResolution
+mPresShellResolution
 .
 scale
 )
