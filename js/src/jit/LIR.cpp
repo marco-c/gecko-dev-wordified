@@ -806,6 +806,10 @@ inputs
 return
 false
 ;
+LPhi
+*
+lphi
+=
 new
 (
 &
@@ -820,6 +824,14 @@ LPhi
 (
 phi
 inputs
+)
+;
+lphi
+-
+>
+setBlock
+(
+this
 )
 ;
 }
