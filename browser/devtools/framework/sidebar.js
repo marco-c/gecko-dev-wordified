@@ -1035,7 +1035,7 @@ tabs
 /
 Create
 a
-toolbar
+container
 and
 insert
 it
@@ -1044,7 +1044,7 @@ in
 the
 tabbox
 let
-allTabsToolbar
+allTabsContainer
 =
 this
 .
@@ -1054,7 +1054,7 @@ createElementNS
 (
 XULNS
 "
-toolbar
+box
 "
 )
 ;
@@ -1064,7 +1064,7 @@ _tabbox
 .
 insertBefore
 (
-allTabsToolbar
+allTabsContainer
 tabs
 )
 ;
@@ -1078,7 +1078,7 @@ and
 make
 them
 flex
-allTabsToolbar
+allTabsContainer
 .
 appendChild
 (
@@ -1211,7 +1211,7 @@ true
 "
 )
 ;
-allTabsToolbar
+allTabsContainer
 .
 appendChild
 (
@@ -1417,7 +1417,7 @@ _tabbox
 querySelector
 (
 "
-toolbar
+box
 "
 )
 .
