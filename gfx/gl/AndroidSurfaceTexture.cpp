@@ -914,7 +914,10 @@ AndroidNativeWindow
 :
 CreateFromSurface
 (
-GetJNIForThread
+jni
+:
+:
+GetEnvForThread
 (
 )
 mSurface
@@ -1073,9 +1076,13 @@ aMatrix
 {
 JNIEnv
 *
+const
 env
 =
-GetJNIForThread
+jni
+:
+:
+GetEnvForThread
 (
 )
 ;

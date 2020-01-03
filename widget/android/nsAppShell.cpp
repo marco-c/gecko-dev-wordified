@@ -1502,10 +1502,10 @@ events
 .
 if
 (
-AndroidBridge
+jni
 :
 :
-HasEnv
+IsAvailable
 (
 )
 &

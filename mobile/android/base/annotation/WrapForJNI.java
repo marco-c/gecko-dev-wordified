@@ -345,7 +345,7 @@ the
 use
 of
 *
-GetJNIForThread
+GetEnvForThread
 .
 This
 is
@@ -360,16 +360,6 @@ well
 as
 possibly
 risky
-.
-*
-See
-information
-in
-AndroidBridge
-.
-cpp
-regarding
-GetJNIForThread
 .
 *
 *

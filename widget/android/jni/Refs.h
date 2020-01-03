@@ -941,7 +941,7 @@ other
 mInstance
 &
 &
-GetJNIForThread
+GetEnvForThread
 (
 )
 -
@@ -2037,7 +2037,7 @@ instance
 return
 LocalRef
 (
-GetJNIForThread
+GetEnvForThread
 (
 )
 instance
@@ -2150,7 +2150,7 @@ JNIEnv
 *
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 )
@@ -2207,7 +2207,7 @@ nullptr
 )
 mEnv
 (
-GetJNIForThread
+GetEnvForThread
 (
 )
 )
@@ -2355,7 +2355,7 @@ nullptr
 )
 mEnv
 (
-GetJNIForThread
+GetEnvForThread
 (
 )
 )
@@ -2734,7 +2734,7 @@ env
 {
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 ;
@@ -2966,7 +2966,7 @@ JNIEnv
 const
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 ;
@@ -3308,7 +3308,7 @@ JNIEnv
 const
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 ;
@@ -3351,7 +3351,7 @@ JNIEnv
 const
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 ;
@@ -3591,7 +3591,7 @@ JNIEnv
 *
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 )
@@ -3624,7 +3624,7 @@ JNIEnv
 *
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 )
@@ -3660,7 +3660,7 @@ JNIEnv
 *
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 )
@@ -3696,7 +3696,7 @@ JNIEnv
 *
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 )
@@ -3761,7 +3761,7 @@ mEnv
 ?
 mEnv
 :
-GetJNIForThread
+GetEnvForThread
 (
 )
 ;
