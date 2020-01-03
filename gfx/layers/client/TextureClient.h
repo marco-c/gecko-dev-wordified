@@ -2618,8 +2618,10 @@ deserialization
 void
 KeepUntilFullDeallocation
 (
+UniquePtr
+<
 KeepAlive
-*
+>
 aKeep
 )
 ;

@@ -3726,10 +3726,12 @@ mActor
 {
 KeepUntilFullDeallocation
 (
-new
+MakeUnique
+<
 TKeepAlive
 <
 IDirect3DTexture9
+>
 >
 (
 mTexture
