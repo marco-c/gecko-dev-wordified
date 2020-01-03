@@ -2751,8 +2751,6 @@ MAX_CACHE_SIZE_BYTES
 in
 storage
 /
-src
-/
 mozStorageConnection
 .
 cpp

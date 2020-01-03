@@ -938,8 +938,6 @@ in
 /
 storage
 /
-src
-/
 mozStorageStatementParams
 .
 cpp
