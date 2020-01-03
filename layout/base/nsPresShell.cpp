@@ -14416,6 +14416,10 @@ nsIScrollableFrame
 :
 :
 NOT_MOMENTUM
+nsIScrollableFrame
+:
+:
+ENABLE_SNAP
 )
 ;
 }
@@ -14497,6 +14501,10 @@ nsIScrollableFrame
 :
 :
 NOT_MOMENTUM
+nsIScrollableFrame
+:
+:
+ENABLE_SNAP
 )
 ;
 }
@@ -14578,6 +14586,10 @@ nsIScrollableFrame
 :
 :
 NOT_MOMENTUM
+nsIScrollableFrame
+:
+:
+ENABLE_SNAP
 )
 ;
 }
@@ -14641,6 +14653,10 @@ nsIScrollableFrame
 :
 :
 NOT_MOMENTUM
+nsIScrollableFrame
+:
+:
+ENABLE_SNAP
 )
 ;
 }
