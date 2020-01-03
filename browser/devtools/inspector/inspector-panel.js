@@ -2860,6 +2860,16 @@ cssSelector
 null
 )
 {
+if
+(
+this
+.
+_panelDestroyer
+)
+{
+return
+;
+}
 this
 .
 _selectionCssSelector
