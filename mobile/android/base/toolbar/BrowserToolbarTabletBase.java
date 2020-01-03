@@ -758,6 +758,17 @@ isPrivate
 ;
 }
 }
+Override
+public
+View
+getDoorHangerAnchor
+(
+)
+{
+return
+backButton
+;
+}
 protected
 boolean
 canDoBack
