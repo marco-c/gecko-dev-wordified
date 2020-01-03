@@ -266,7 +266,7 @@ and
 content
 )
 void
-GetFontList
+GetSystemFontList
 (
 InfallibleTArray
 <
