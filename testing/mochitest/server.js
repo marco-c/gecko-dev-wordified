@@ -965,6 +965,12 @@ displayResults
 =
 true
 ;
+var
+gServerAddress
+;
+var
+SERVER_PORT
+;
 /
 /
 /
@@ -1415,6 +1421,7 @@ serverAlive
 write
 create
 truncate
+var
 data
 =
 "
@@ -3230,6 +3237,7 @@ RegExp
 testPrefix
 )
 ;
+var
 pathPieces
 =
 filename
@@ -3636,6 +3644,7 @@ invisible
 "
 "
 ;
+var
 spacer
 =
 "
