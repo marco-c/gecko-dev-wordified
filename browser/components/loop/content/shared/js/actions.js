@@ -2352,6 +2352,9 @@ define
 copyRoomUrl
 "
 {
+from
+:
+String
 roomUrl
 :
 String
@@ -2391,6 +2394,9 @@ define
 emailRoomUrl
 "
 {
+from
+:
+String
 roomUrl
 :
 String

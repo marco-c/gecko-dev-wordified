@@ -1227,6 +1227,11 @@ contextURL
 contextURL
 .
 description
+from
+:
+"
+conversation
+"
 }
 )
 )
@@ -1268,6 +1273,11 @@ props
 roomData
 .
 roomUrl
+from
+:
+"
+conversation
+"
 }
 )
 )

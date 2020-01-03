@@ -3326,6 +3326,11 @@ roomUrl
 roomData
 .
 roomUrl
+from
+:
+"
+panel
+"
 }
 )
 )

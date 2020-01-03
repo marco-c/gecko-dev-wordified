@@ -942,6 +942,11 @@ invalid
 roomDescription
 :
 undefined
+from
+:
+"
+conversation
+"
 }
 )
 )
@@ -1082,6 +1087,11 @@ url
 roomDescription
 :
 description
+from
+:
+"
+conversation
+"
 }
 )
 )
@@ -1217,6 +1227,11 @@ http
 /
 /
 invalid
+"
+from
+:
+"
+conversation
 "
 }
 )
