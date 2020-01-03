@@ -3211,8 +3211,9 @@ t
 )
 )
             
-ok
-=
+for
+out
+in
 run_all_tests
 (
 test_list
@@ -3220,20 +3221,31 @@ prefix
 results
 options
 )
+:
+                
+results
+.
+push
+(
+out
+)
+            
+results
+.
+finish
+(
+True
+)
         
 except
 KeyboardInterrupt
 :
             
-ok
-=
-False
-        
 results
 .
 finish
 (
-ok
+False
 )
         
 return
