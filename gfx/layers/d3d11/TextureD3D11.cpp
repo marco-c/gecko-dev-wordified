@@ -1666,11 +1666,17 @@ locking
 if
 (
 !
+mIsLocked
+|
+|
+(
+!
 mTexture
 &
 &
 !
 mTexture10
+)
 )
 {
 return

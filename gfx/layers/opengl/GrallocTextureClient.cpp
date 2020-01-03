@@ -991,6 +991,10 @@ IsValid
 IsAllocated
 (
 )
+|
+|
+!
+mMappedBuffer
 )
 {
 return

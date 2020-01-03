@@ -3617,6 +3617,16 @@ only
 ;
 if
 (
+!
+mLocked
+)
+{
+return
+nullptr
+;
+}
+if
+(
 mDrawTarget
 )
 {
