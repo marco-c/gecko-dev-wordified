@@ -398,6 +398,12 @@ gfxPlatformGtk
 (
 )
 {
+gtk_init
+(
+nullptr
+nullptr
+)
+;
 sUseFcFontList
 =
 mozilla

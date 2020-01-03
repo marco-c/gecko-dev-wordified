@@ -3251,9 +3251,6 @@ aChannel
 #
 ifdef
 MOZ_WIDGET_GTK
-/
-/
-sigh
 gtk_init
 (
 nullptr
