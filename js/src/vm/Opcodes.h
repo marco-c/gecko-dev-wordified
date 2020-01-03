@@ -5196,7 +5196,8 @@ Statements
 *
 Type
 :
-Exceptions
+Exception
+Handling
 *
 Operands
 :
