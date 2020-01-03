@@ -306,8 +306,11 @@ wchar
 h
 >
 #
-ifdef
+if
+defined
+(
 DARWIN
+)
 #
 define
 HAVE_XLOCALE
