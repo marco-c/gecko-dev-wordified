@@ -99,7 +99,6 @@ prototype
 _parseMMI
 (
 mmiString
-false
 )
 ;
 }
