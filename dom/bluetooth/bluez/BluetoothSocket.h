@@ -262,7 +262,7 @@ Disconnect
 (
 )
 {
-Close
+CloseSocket
 (
 )
 ;
@@ -604,7 +604,7 @@ SocketBase
 /
 /
 void
-Close
+CloseSocket
 (
 )
 override

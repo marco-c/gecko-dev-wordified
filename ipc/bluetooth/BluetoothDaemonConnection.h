@@ -669,7 +669,7 @@ SocketBase
 /
 /
 void
-Close
+CloseSocket
 (
 )
 override

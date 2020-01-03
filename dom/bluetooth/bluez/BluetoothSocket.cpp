@@ -3162,7 +3162,7 @@ void
 BluetoothSocket
 :
 :
-Close
+CloseSocket
 (
 )
 {

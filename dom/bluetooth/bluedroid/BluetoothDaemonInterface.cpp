@@ -8610,7 +8610,7 @@ it
 mNtfChannel
 -
 >
-Close
+CloseSocket
 (
 )
 ;
@@ -8757,7 +8757,7 @@ channel
 mCmdChannel
 -
 >
-Close
+CloseSocket
 (
 )
 ;
@@ -9959,7 +9959,7 @@ it
 mCmdChannel
 -
 >
-Close
+CloseSocket
 (
 )
 ;
@@ -10279,7 +10279,7 @@ mInterface
 mCmdChannel
 -
 >
-Close
+CloseSocket
 (
 )
 ;

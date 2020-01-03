@@ -966,7 +966,7 @@ NS_IsMainThread
 mSocket
 -
 >
-Close
+CloseSocket
 (
 )
 ;
@@ -1454,7 +1454,7 @@ mServerSocket
 mServerSocket
 -
 >
-Close
+CloseSocket
 (
 )
 ;
@@ -1764,7 +1764,7 @@ mServerSocket
 mServerSocket
 -
 >
-Close
+CloseSocket
 (
 )
 ;
@@ -8301,7 +8301,7 @@ mSocket
 mSocket
 -
 >
-Close
+CloseSocket
 (
 )
 ;
