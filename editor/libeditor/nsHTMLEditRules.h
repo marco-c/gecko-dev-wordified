@@ -1933,7 +1933,7 @@ int32_t
 outOffset
 )
 ;
-nsresult
+void
 GetPromotedRanges
 (
 mozilla
@@ -1943,7 +1943,7 @@ dom
 :
 :
 Selection
-*
+&
 aSelection
 nsTArray
 <
