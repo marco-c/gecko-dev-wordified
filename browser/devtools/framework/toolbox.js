@@ -1959,6 +1959,9 @@ isReady
 =
 true
 ;
+let
+framesPromise
+=
 this
 .
 _listFrames
@@ -2238,6 +2241,7 @@ all
 [
 splitConsolePromise
 buttonsPromise
+framesPromise
 ]
 )
 .
@@ -8811,6 +8815,11 @@ browser
 toolbox
 actor
 return
+promise
+.
+resolve
+(
+)
 ;
 }
 let
@@ -8833,6 +8842,7 @@ listFrames
 "
 }
 ;
+return
 this
 .
 _target
