@@ -266,13 +266,6 @@ algorithm
 #
 include
 "
-Http2Compression
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ChaosMode
@@ -1120,10 +1113,6 @@ NS_ProcessNextEvent
 NS_GetCurrentThread
 (
 )
-)
-;
-Http2CompressionCleanup
-(
 )
 ;
 return
