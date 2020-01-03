@@ -1223,6 +1223,7 @@ return
 NS_OK
 ;
 }
+}
 /
 /
 Also
@@ -1230,6 +1231,8 @@ allow
 the
 load
 if
+we
+are
 the
 principal
 of
@@ -1237,13 +1240,6 @@ the
 URI
 being
 checked
-is
-exactly
-/
-/
-us
-ie
-this
 .
 nsCOMPtr
 <
@@ -1281,9 +1277,6 @@ principal
 if
 (
 principal
-&
-&
-principal
 =
 =
 this
@@ -1292,7 +1285,6 @@ this
 return
 NS_OK
 ;
-}
 }
 }
 if
