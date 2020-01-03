@@ -39,7 +39,7 @@ works
 const
 TESTCASE_URI
 =
-TEST_BASE
+CHROME_URL_ROOT
 +
 "
 color
