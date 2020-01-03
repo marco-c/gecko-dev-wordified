@@ -555,7 +555,6 @@ to
 permit
 folding
 of
-small
 immediate
 /
 /
@@ -608,7 +607,7 @@ AsmJSMappedSize
 jit
 :
 :
-AsmJSCheckedImmediateRange
+AsmJSImmediateRange
 +
 AsmJSPageSize
 ;

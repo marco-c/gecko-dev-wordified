@@ -8592,6 +8592,7 @@ TraceLogger_EffectiveAddressAnalysis
 EffectiveAddressAnalysis
 eaa
 (
+mir
 graph
 )
 ;
