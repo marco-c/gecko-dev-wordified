@@ -18712,6 +18712,7 @@ item
 >
 ShouldPrerender
 (
+mBuilder
 )
 ;
 nsIntRect

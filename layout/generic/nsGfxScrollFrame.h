@@ -1751,6 +1751,12 @@ aBuilder
 const
 ;
 bool
+IsMaybeScrollingActive
+(
+)
+const
+;
+bool
 IsProcessingAsyncScroll
 (
 )
