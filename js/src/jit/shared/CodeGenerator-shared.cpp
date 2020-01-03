@@ -1096,7 +1096,7 @@ enabled
 if
 (
 !
-isNativeToBytecodeMapEnabled
+isProfilerInstrumentationEnabled
 (
 )
 )

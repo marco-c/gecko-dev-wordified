@@ -2715,7 +2715,7 @@ jitRuntime
 )
 -
 >
-isNativeToBytecodeMapEnabled
+isProfilerInstrumentationEnabled
 (
 cx
 -
