@@ -5888,6 +5888,15 @@ deltaISize
 if
 (
 textFrame
+&
+&
+!
+textFrame
+-
+>
+IsAutoHidden
+(
+)
 )
 {
 RubyUtils
