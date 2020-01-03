@@ -891,6 +891,16 @@ mNextDriver
 mPreviousDriver
 ;
 }
+GraphDriver
+*
+NextDriver
+(
+)
+{
+return
+mNextDriver
+;
+}
 /
 *
 *
