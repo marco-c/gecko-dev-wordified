@@ -2014,6 +2014,10 @@ EXT_create_context_robustness
 bool
 EnsureInitialized
 (
+bool
+forceAccel
+=
+false
 )
 ;
 void

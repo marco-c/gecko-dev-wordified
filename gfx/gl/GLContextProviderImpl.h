@@ -539,6 +539,10 @@ CreateHeadless
 (
 bool
 requireCompatProfile
+bool
+forceEnabled
+=
+false
 )
 ;
 /
