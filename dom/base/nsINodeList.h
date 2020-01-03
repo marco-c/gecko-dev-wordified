@@ -134,6 +134,13 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 /
 /
 IID

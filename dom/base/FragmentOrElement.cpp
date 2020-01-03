@@ -930,6 +930,13 @@ nsIContentInlines
 .
 h
 "
+#
+include
+"
+nsChildContentList
+.
+h
+"
 using
 namespace
 mozilla
@@ -7046,7 +7053,6 @@ GetNodeTextContent
 this
 true
 aTextContent
-fallible
 )
 )
 {
