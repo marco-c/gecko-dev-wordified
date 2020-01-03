@@ -2439,6 +2439,7 @@ function
 call
 .
 class
+MOZ_RAII
 AutoTraceLog
 {
 #

@@ -209,7 +209,7 @@ class
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 NeuteredWindowRegion
 {
 public
@@ -309,7 +309,7 @@ NeuteredWindowRegion
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 DeneuteredWindowRegion
 {
 public

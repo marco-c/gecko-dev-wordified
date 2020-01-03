@@ -629,7 +629,7 @@ and
 DidChangeTransformList
 .
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoChangeTransformListNotifier
 {
 public

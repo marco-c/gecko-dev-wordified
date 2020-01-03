@@ -2664,7 +2664,7 @@ rendering
 purposes
 .
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoSVGRenderingState
 {
 public

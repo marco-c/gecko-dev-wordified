@@ -3165,7 +3165,7 @@ stack
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoJSContext
 {
 public
@@ -3290,7 +3290,7 @@ thread
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 ThreadsafeAutoJSContext
 {
 public
@@ -3400,7 +3400,7 @@ instead
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoSafeJSContext
 :
 public
@@ -3439,7 +3439,7 @@ threads
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 ThreadsafeAutoSafeJSContext
 {
 public

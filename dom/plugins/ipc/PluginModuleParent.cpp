@@ -1654,7 +1654,7 @@ sIsLoadModuleOnStack
 ;
 }
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 NotifyLoadingModule
 {
 public

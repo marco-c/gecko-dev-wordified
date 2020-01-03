@@ -4785,7 +4785,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 Rooted
 :
 public
@@ -5597,6 +5597,7 @@ typename
 T
 >
 class
+MOZ_RAII
 FakeRooted
 :
 public

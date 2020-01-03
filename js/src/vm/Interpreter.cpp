@@ -2568,6 +2568,7 @@ stats
 )
 .
 class
+MOZ_RAII
 AutoStopwatch
 final
 {

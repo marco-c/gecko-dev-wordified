@@ -1090,6 +1090,7 @@ pendingLazyEvaluation
 }
 ;
 class
+MOZ_RAII
 AutoRegExpStaticsBuffer
 :
 private

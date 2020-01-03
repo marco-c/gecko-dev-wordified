@@ -11105,7 +11105,7 @@ class
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoLockGC
 {
 public
@@ -11229,7 +11229,7 @@ delete
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoUnlockGC
 {
 public
@@ -11300,7 +11300,7 @@ delete
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoKeepAtoms
 {
 PerThreadData
@@ -12172,6 +12172,7 @@ Write
 }
 CompilationData
 class
+MOZ_RAII
 AutoEnterIonCompilation
 {
 public

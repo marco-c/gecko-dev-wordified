@@ -340,7 +340,7 @@ gfx
 Helper
 classes
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsSVGPatternFrame
 :
 :

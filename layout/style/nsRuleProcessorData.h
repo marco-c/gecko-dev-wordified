@@ -1461,7 +1461,7 @@ state
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoAncestorPusher
 {
 public
@@ -1802,7 +1802,7 @@ code
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoParentDisplayBasedStyleFixupSkipper
 {
 public

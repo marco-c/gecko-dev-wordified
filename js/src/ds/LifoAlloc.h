@@ -3060,6 +3060,7 @@ position_
 }
 ;
 class
+MOZ_NON_TEMPORARY_CLASS
 LifoAllocScope
 {
 LifoAlloc

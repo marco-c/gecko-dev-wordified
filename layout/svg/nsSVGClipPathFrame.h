@@ -661,7 +661,7 @@ more
 robust
 .
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoClipPathReferencer
 {
 public

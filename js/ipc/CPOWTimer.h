@@ -198,7 +198,7 @@ totalCPOWTime
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 CPOWTimer
 final
 {

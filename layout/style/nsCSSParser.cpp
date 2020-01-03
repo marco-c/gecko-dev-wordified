@@ -2410,7 +2410,7 @@ called
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoCSSParserInputStateRestorer
 {
 public
@@ -2698,7 +2698,7 @@ though
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoScannerChanger
 {
 public

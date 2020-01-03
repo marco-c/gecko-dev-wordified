@@ -238,7 +238,7 @@ mFile
 /
 }
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoTimelineMarker
 {
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER

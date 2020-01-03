@@ -404,7 +404,7 @@ and
 DidChangePathSegList
 .
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoChangePathSegNotifier
 {
 public

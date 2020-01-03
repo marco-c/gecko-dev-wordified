@@ -16524,6 +16524,7 @@ cb
 )
 ;
 class
+MOZ_RAII
 JS_FRIEND_API
 (
 AutoCTypesActivityCallback

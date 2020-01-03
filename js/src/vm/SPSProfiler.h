@@ -1852,6 +1852,7 @@ valid
 *
 /
 class
+MOZ_RAII
 AutoSuppressProfilerSampling
 {
 public
@@ -1989,6 +1990,7 @@ stack
 *
 /
 class
+MOZ_RAII
 SPSEntryMarker
 {
 public
@@ -2066,6 +2068,7 @@ ed
 *
 /
 class
+MOZ_RAII
 SPSBaselineOSRMarker
 {
 public

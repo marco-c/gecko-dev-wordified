@@ -19931,7 +19931,7 @@ processing
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoScriptEvaluate
 {
 public
@@ -20183,7 +20183,7 @@ delete
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoResolveName
 {
 public

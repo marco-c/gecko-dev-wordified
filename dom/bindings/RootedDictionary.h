@@ -159,7 +159,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 RootedDictionary
 :
 public
@@ -221,7 +221,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 NullableRootedDictionary
 :
 public

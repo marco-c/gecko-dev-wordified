@@ -552,7 +552,7 @@ and
 DidChangeLengthList
 .
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoChangeLengthListNotifier
 {
 public

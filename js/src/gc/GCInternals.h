@@ -444,6 +444,7 @@ rt
 ifdef
 JS_GC_ZEAL
 class
+MOZ_RAII
 AutoStopVerifyingBarriers
 {
 GCRuntime
@@ -799,6 +800,7 @@ endif
 }
 ;
 class
+MOZ_RAII
 AutoMaybeStartBackgroundAllocation
 {
 private
@@ -876,6 +878,7 @@ current
 thread
 .
 struct
+MOZ_RAII
 AutoSetThreadIsSweeping
 {
 #

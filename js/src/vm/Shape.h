@@ -6593,6 +6593,7 @@ compartment
 {
 }
 class
+MOZ_RAII
 AutoRooterGetterSetter
 {
 class

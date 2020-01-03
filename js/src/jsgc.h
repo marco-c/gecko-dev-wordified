@@ -8258,6 +8258,7 @@ map
 *
 /
 class
+MOZ_RAII
 AutoDisableProxyCheck
 {
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER

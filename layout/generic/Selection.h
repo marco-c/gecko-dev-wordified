@@ -1416,7 +1416,7 @@ struct
 AutoApplyUserSelectStyle
 ;
 struct
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoApplyUserSelectStyle
 {
 explicit

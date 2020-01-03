@@ -278,7 +278,7 @@ dom
 Helper
 classes
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsSVGGradientFrame
 :
 :

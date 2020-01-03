@@ -285,7 +285,7 @@ txn
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoPlaceHolderBatch
 {
 private
@@ -472,7 +472,7 @@ redo
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoEditBatch
 :
 public
@@ -611,7 +611,7 @@ afterwards
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoSelectionReset
 {
 private
@@ -820,7 +820,7 @@ sandwich
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoRules
 {
 public
@@ -1029,7 +1029,7 @@ transactions
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoTxnsConserveSelection
 {
 public
@@ -1201,7 +1201,7 @@ requests
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoUpdateViewBatch
 {
 public
@@ -1459,7 +1459,7 @@ const
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsDOMIterator
 {
 public
@@ -1527,7 +1527,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsDOMSubtreeIterator
 :
 public

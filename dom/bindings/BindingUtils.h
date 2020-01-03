@@ -13886,7 +13886,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 SequenceRooter
 :
 private
@@ -14140,7 +14140,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 MozMapRooter
 :
 private
@@ -14320,7 +14320,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 RootedUnion
 :
 public

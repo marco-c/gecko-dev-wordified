@@ -3900,7 +3900,7 @@ scope
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoResetInShow
 {
 private
@@ -5962,7 +5962,7 @@ NS_OK
 ;
 }
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoResetInFrameSwap
 final
 {

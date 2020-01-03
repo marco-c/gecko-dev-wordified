@@ -531,6 +531,7 @@ nbytes
 }
 ;
 struct
+MOZ_NON_TEMPORARY_CLASS
 ScopedArrayBufferContents
 :
 public

@@ -5666,6 +5666,7 @@ global
 code
 .
 class
+MOZ_RAII
 ScopeIter
 {
 StaticScopeIter

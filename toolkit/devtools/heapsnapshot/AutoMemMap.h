@@ -271,7 +271,7 @@ leaves
 scope
 .
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoMemMap
 {
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER

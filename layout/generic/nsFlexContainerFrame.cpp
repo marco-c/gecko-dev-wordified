@@ -28021,7 +28021,7 @@ the
 FlexLine
 .
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoFlexLineListClearer
 {
 public

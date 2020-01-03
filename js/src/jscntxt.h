@@ -235,6 +235,7 @@ graph
 *
 /
 class
+MOZ_RAII
 AutoCycleDetector
 {
 JSContext
@@ -2865,6 +2866,7 @@ namespace
 js
 {
 struct
+MOZ_RAII
 AutoResolving
 {
 public
@@ -3905,6 +3907,7 @@ Values
 *
 /
 class
+MOZ_RAII
 AutoArrayRooter
 :
 private
@@ -4269,6 +4272,7 @@ vp
 )
 ;
 class
+MOZ_RAII
 AutoLockForExclusiveAccess
 {
 JSRuntime

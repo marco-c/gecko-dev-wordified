@@ -495,6 +495,7 @@ size_t
 N
 >
 class
+MOZ_RAII
 AutoValueArray
 :
 public
@@ -657,6 +658,7 @@ class
 T
 >
 class
+MOZ_RAII
 AutoVectorRooterBase
 :
 protected
@@ -1291,7 +1293,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoVectorRooter
 :
 public
@@ -1433,6 +1435,7 @@ class
 Value
 >
 class
+MOZ_RAII
 AutoHashMapRooter
 :
 protected
@@ -2065,6 +2068,7 @@ class
 T
 >
 class
+MOZ_RAII
 AutoHashSetRooter
 :
 protected
@@ -2601,6 +2605,7 @@ clients
 *
 /
 class
+MOZ_RAII
 JS_PUBLIC_API
 (
 CustomAutoRooter
@@ -7013,6 +7018,7 @@ js
 *
 /
 class
+MOZ_RAII
 JSAutoRequest
 {
 public
@@ -8668,6 +8674,7 @@ call
 *
 /
 class
+MOZ_RAII
 JS_PUBLIC_API
 (
 JSAutoCompartment
@@ -8714,6 +8721,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
+MOZ_RAII
 JS_PUBLIC_API
 (
 JSAutoNullableCompartment
@@ -28106,6 +28114,7 @@ length
 )
 ;
 class
+MOZ_RAII
 JSAutoByteString
 {
 public
@@ -33408,6 +33417,7 @@ cx
 )
 ;
 class
+MOZ_RAII
 AutoHideScriptedCaller
 {
 public

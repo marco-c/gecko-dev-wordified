@@ -2173,6 +2173,7 @@ task
 )
 ;
 class
+MOZ_RAII
 AutoLockHelperThreadState
 {
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
@@ -2212,6 +2213,7 @@ unlock
 }
 ;
 class
+MOZ_RAII
 AutoUnlockHelperThreadState
 {
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER

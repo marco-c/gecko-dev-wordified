@@ -2432,6 +2432,7 @@ mResponseResult
 public
 :
 class
+MOZ_RAII
 StateDataAutoRooter
 :
 private

@@ -722,7 +722,7 @@ HATE
 undef
 CLIP_MASK
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 SVGAutoRenderState
 {
 typedef
