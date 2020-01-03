@@ -14718,9 +14718,7 @@ getMove
 i
 )
 ;
-const
 LAllocation
-*
 from
 =
 move
@@ -14729,9 +14727,7 @@ from
 (
 )
 ;
-const
 LAllocation
-*
 to
 =
 move
@@ -14760,11 +14756,9 @@ moves
 .
 MOZ_ASSERT
 (
-*
 from
 !
 =
-*
 to
 )
 ;
@@ -14772,8 +14766,7 @@ MOZ_ASSERT
 (
 !
 from
--
->
+.
 isConstant
 (
 )

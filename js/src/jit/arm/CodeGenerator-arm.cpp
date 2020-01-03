@@ -7737,9 +7737,7 @@ CodeGeneratorARM
 :
 toMoveOperand
 (
-const
 LAllocation
-*
 a
 )
 const
@@ -7747,8 +7745,7 @@ const
 if
 (
 a
--
->
+.
 isGeneralReg
 (
 )
@@ -7765,8 +7762,7 @@ a
 if
 (
 a
--
->
+.
 isFloatReg
 (
 )
