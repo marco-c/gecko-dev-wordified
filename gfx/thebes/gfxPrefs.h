@@ -887,10 +887,10 @@ the
 update
 policy
 .
-MOZ_BEGIN_NESTED_ENUM_CLASS
-(
+enum
+class
 UpdatePolicy
-)
+{
 Skip
 /
 /
@@ -929,10 +929,8 @@ stays
 current
 /
 live
-MOZ_END_NESTED_ENUM_CLASS
-(
-UpdatePolicy
-)
+}
+;
 /
 /
 Since
@@ -951,10 +949,7 @@ it
 .
 template
 <
-MOZ_ENUM_CLASS_ENUM_TYPE
-(
 UpdatePolicy
-)
 Update
 class
 T

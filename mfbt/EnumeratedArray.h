@@ -181,12 +181,6 @@ a
 specific
 enum
 class
-as
-currently
-implemented
-*
-by
-MOZ_BEGIN_ENUM_CLASS
 .
 *
 *
@@ -304,10 +298,7 @@ template
 <
 typename
 IndexType
-MOZ_TEMPLATE_ENUM_CLASS_ENUM_TYPE
-(
 IndexType
-)
 SizeAsEnumValue
 typename
 ValueType
