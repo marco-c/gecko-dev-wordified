@@ -28,6 +28,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 classes
@@ -45,11 +50,6 @@ Cu
 }
 =
 Components
-;
-"
-use
-strict
-"
 ;
 const
 Cm
@@ -2189,7 +2189,6 @@ info
 "
 ;
 let
-(
 XULAppInfo
 =
 {
@@ -2271,8 +2270,7 @@ nsIXULRuntime
 ]
 )
 }
-)
-{
+;
 let
 XULAppInfoFactory
 =
@@ -2329,4 +2327,3 @@ XUL_APP_INFO_CONTRACT_ID
 XULAppInfoFactory
 )
 ;
-}
