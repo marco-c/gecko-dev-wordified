@@ -195,8 +195,6 @@ VIEW_NODE_VALUE_TYPE
 VIEW_NODE_IMAGE_URL_TYPE
 }
 =
-devtools
-.
 require
 (
 "

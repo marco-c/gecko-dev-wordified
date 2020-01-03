@@ -368,7 +368,7 @@ Usage
 *
 const
 {
-devtools
+require
 }
 =
 *
@@ -401,8 +401,6 @@ const
 OutputParser
 }
 =
-devtools
-.
 require
 (
 "

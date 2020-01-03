@@ -71,8 +71,6 @@ JITOptimizations
 OptimizationSite
 }
 =
-devtools
-.
 require
 (
 "

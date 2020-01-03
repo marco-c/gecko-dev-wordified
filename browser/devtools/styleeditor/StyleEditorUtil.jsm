@@ -164,7 +164,9 @@ properties
 "
 ;
 const
+{
 require
+}
 =
 Cu
 .
@@ -188,10 +190,6 @@ jsm
 {
 }
 )
-.
-devtools
-.
-require
 ;
 const
 console

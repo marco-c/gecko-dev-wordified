@@ -73,8 +73,6 @@ let
 ThreadNode
 }
 =
-devtools
-.
 require
 (
 "

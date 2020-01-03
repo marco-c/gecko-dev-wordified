@@ -90,8 +90,6 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 const
 RuntimeList

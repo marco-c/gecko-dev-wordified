@@ -42,8 +42,6 @@ let
 FlameGraph
 }
 =
-devtools
-.
 require
 (
 "
@@ -62,8 +60,6 @@ let
 Promise
 }
 =
-devtools
-.
 require
 (
 "

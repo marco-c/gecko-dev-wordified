@@ -179,7 +179,9 @@ jsm
 )
 ;
 const
-devtools
+{
+require
+}
 =
 Cu
 .
@@ -203,15 +205,6 @@ jsm
 {
 }
 )
-.
-devtools
-;
-const
-{
-require
-}
-=
-devtools
 ;
 const
 promise

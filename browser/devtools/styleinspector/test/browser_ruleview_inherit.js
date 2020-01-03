@@ -72,8 +72,6 @@ let
 ELEMENT_STYLE
 }
 =
-devtools
-.
 require
 (
 "

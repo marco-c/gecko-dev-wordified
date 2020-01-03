@@ -38,8 +38,6 @@ API
 let
 EventEmitter
 =
-devtools
-.
 require
 (
 "

@@ -134,7 +134,7 @@ jsm
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -162,10 +162,19 @@ jsm
 ;
 const
 {
-require
+TargetFactory
 }
 =
+require
+(
+"
 devtools
+/
+framework
+/
+target
+"
+)
 ;
 const
 {
@@ -1258,8 +1267,6 @@ chrome
 true
 }
 ;
-devtools
-.
 TargetFactory
 .
 forRemoteTab
@@ -1421,8 +1428,6 @@ defer
 )
 ;
 return
-devtools
-.
 TargetFactory
 .
 forRemoteTab

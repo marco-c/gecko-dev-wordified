@@ -79,8 +79,6 @@ let
 L10N
 }
 =
-devtools
-.
 require
 (
 "
@@ -97,8 +95,6 @@ let
 getMarkerLabel
 }
 =
-devtools
-.
 require
 (
 "

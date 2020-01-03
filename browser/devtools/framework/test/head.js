@@ -945,8 +945,6 @@ BOTTOM
 WINDOW
 }
 from
-devtools
-.
 Toolbox
 .
 HostType

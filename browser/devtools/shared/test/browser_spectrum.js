@@ -81,8 +81,6 @@ const
 Spectrum
 }
 =
-devtools
-.
 require
 (
 "

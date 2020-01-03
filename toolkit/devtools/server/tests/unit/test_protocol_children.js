@@ -44,8 +44,6 @@ helpers
 let
 protocol
 =
-devtools
-.
 require
 (
 "
@@ -72,8 +70,6 @@ protocol
 let
 events
 =
-devtools
-.
 require
 (
 "

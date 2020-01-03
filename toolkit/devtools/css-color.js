@@ -157,7 +157,7 @@ Usage
 *
 let
 {
-devtools
+require
 }
 =
 Cu
@@ -189,8 +189,6 @@ let
 colorUtils
 }
 =
-devtools
-.
 require
 (
 "

@@ -63,8 +63,6 @@ const
 ToolSidebar
 }
 =
-devtools
-.
 require
 (
 "

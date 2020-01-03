@@ -39,8 +39,6 @@ releaseLayoutChangesObserver
 LayoutChangesObserver
 }
 =
-devtools
-.
 require
 (
 "

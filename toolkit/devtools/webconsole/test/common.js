@@ -150,7 +150,9 @@ jsm
 )
 ;
 let
-devtools
+{
+require
+}
 =
 Cu
 .
@@ -174,14 +176,10 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 let
 WebConsoleUtils
 =
-devtools
-.
 require
 (
 "
@@ -228,8 +226,6 @@ ConsoleServiceListener
 ConsoleAPIListener
 }
 =
-devtools
-.
 require
 (
 "

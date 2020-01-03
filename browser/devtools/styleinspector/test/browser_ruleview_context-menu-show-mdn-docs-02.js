@@ -166,8 +166,6 @@ const
 setBaseCssDocsUrl
 }
 =
-devtools
-.
 require
 (
 "

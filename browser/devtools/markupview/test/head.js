@@ -65,7 +65,7 @@ utils
 ;
 let
 {
-devtools
+require
 }
 =
 Cu
@@ -92,11 +92,20 @@ jsm
 )
 ;
 let
+{
 TargetFactory
+}
 =
+require
+(
+"
 devtools
-.
-TargetFactory
+/
+framework
+/
+target
+"
+)
 ;
 let
 {
@@ -129,8 +138,6 @@ jsm
 let
 promise
 =
-devtools
-.
 require
 (
 "
@@ -157,8 +164,6 @@ getInplaceEditorForSpan
 inplaceEditor
 }
 =
-devtools
-.
 require
 (
 "
@@ -175,8 +180,6 @@ editor
 let
 clipboard
 =
-devtools
-.
 require
 (
 "
@@ -192,8 +195,6 @@ setTimeout
 clearTimeout
 }
 =
-devtools
-.
 require
 (
 "
@@ -208,8 +209,6 @@ let
 promiseInvoke
 }
 =
-devtools
-.
 require
 (
 "
@@ -224,8 +223,6 @@ utils
 let
 DevToolsUtils
 =
-devtools
-.
 require
 (
 "

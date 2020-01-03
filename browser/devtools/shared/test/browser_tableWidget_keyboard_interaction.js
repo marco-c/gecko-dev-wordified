@@ -247,8 +247,6 @@ const
 TableWidget
 }
 =
-devtools
-.
 require
 (
 "
@@ -267,8 +265,6 @@ let
 Task
 }
 =
-devtools
-.
 require
 (
 "
@@ -291,8 +287,6 @@ let
 Promise
 }
 =
-devtools
-.
 require
 (
 "

@@ -214,8 +214,6 @@ const
 appendSyntaxHighlightedCSS
 }
 =
-devtools
-.
 require
 (
 "

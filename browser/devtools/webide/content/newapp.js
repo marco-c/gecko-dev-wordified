@@ -188,8 +188,6 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 const
 {

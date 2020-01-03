@@ -104,7 +104,7 @@ utils
 ;
 let
 {
-devtools
+require
 }
 =
 Cu
@@ -129,13 +129,6 @@ jsm
 {
 }
 )
-;
-let
-require
-=
-devtools
-.
-require
 ;
 let
 {

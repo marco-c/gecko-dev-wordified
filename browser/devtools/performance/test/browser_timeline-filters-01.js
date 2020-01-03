@@ -79,8 +79,6 @@ let
 TimelineGraph
 }
 =
-devtools
-.
 require
 (
 "

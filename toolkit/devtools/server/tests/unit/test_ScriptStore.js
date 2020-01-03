@@ -63,8 +63,6 @@ ScriptStore
 const
 ScriptStore
 =
-devtools
-.
 require
 (
 "

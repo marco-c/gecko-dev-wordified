@@ -179,8 +179,6 @@ const
 TreeWidget
 }
 =
-devtools
-.
 require
 (
 "

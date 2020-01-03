@@ -59,8 +59,6 @@ const
 CATEGORY_MASK
 }
 =
-devtools
-.
 require
 (
 "
@@ -75,8 +73,6 @@ global
 const
 RecordingUtils
 =
-devtools
-.
 require
 (
 "

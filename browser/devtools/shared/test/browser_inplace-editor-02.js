@@ -86,8 +86,6 @@ getInplaceEditorForSpan
 inplaceEditor
 }
 =
-devtools
-.
 require
 (
 "

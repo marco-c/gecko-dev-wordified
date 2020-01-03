@@ -89,8 +89,6 @@ const
 PrefObserver
 }
 =
-devtools
-.
 require
 (
 "

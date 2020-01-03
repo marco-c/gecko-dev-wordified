@@ -34,8 +34,6 @@ on
 off
 }
 =
-devtools
-.
 require
 (
 "

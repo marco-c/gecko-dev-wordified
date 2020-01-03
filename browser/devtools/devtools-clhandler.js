@@ -325,7 +325,9 @@ window
 )
 {
 let
-devtools
+{
+require
+}
 =
 Cu
 .
@@ -349,8 +351,6 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 /
 /
@@ -391,8 +391,6 @@ jsm
 let
 hudservice
 =
-devtools
-.
 require
 (
 "
@@ -405,7 +403,9 @@ hudservice
 )
 ;
 let
+{
 console
+}
 =
 Cu
 .
@@ -429,8 +429,6 @@ jsm
 {
 }
 )
-.
-console
 ;
 hudservice
 .

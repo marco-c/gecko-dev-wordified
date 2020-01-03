@@ -53,7 +53,7 @@ scratchpad
 /
 let
 {
-devtools
+require
 }
 =
 Components
@@ -88,8 +88,6 @@ let
 SourceNode
 }
 =
-devtools
-.
 require
 (
 "

@@ -94,7 +94,7 @@ utils
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -119,13 +119,6 @@ jsm
 {
 }
 )
-;
-const
-{
-require
-}
-=
-devtools
 ;
 const
 {

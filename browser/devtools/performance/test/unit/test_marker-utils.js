@@ -60,8 +60,6 @@ let
 TIMELINE_BLUEPRINT
 }
 =
-devtools
-.
 require
 (
 "
@@ -76,8 +74,6 @@ markers
 let
 Utils
 =
-devtools
-.
 require
 (
 "

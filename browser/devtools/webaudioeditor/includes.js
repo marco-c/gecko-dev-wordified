@@ -158,7 +158,12 @@ jsm
 )
 ;
 const
+{
 devtools
+:
+loader
+require
+}
 =
 Cu
 .
@@ -182,15 +187,6 @@ jsm
 {
 }
 )
-.
-devtools
-;
-const
-{
-require
-}
-=
-devtools
 ;
 let
 {
@@ -359,7 +355,7 @@ DevToolsUtils
 "
 )
 ;
-devtools
+loader
 .
 lazyRequireGetter
 (

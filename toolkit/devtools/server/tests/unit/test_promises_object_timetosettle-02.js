@@ -57,8 +57,6 @@ const
 PromisesFront
 }
 =
-devtools
-.
 require
 (
 "
@@ -77,8 +75,6 @@ const
 setTimeout
 }
 =
-devtools
-.
 require
 (
 "
@@ -91,8 +87,6 @@ timers
 let
 events
 =
-devtools
-.
 require
 (
 "

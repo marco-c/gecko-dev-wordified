@@ -119,8 +119,6 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 const
 QR

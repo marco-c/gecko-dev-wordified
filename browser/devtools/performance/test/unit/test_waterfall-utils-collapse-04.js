@@ -68,8 +68,6 @@ test
 const
 WaterfallUtils
 =
-devtools
-.
 require
 (
 "

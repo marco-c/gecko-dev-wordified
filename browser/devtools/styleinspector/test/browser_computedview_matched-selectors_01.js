@@ -72,8 +72,6 @@ const
 PropertyView
 }
 =
-devtools
-.
 require
 (
 "

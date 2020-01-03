@@ -81,8 +81,6 @@ const
 NodeListActor
 }
 =
-devtools
-.
 require
 (
 "

@@ -69,8 +69,6 @@ function
 let
 FrameUtils
 =
-devtools
-.
 require
 (
 "

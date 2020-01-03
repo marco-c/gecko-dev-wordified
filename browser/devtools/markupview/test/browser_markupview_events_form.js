@@ -135,8 +135,6 @@ let
 ActorRegistryFront
 }
 =
-devtools
-.
 require
 (
 "
@@ -157,8 +155,6 @@ let
 EventsFormFront
 }
 =
-devtools
-.
 require
 (
 TEST_ACTOR_URL

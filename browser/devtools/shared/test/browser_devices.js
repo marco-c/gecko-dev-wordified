@@ -34,8 +34,6 @@ GetDeviceString
 AddDevice
 }
 =
-devtools
-.
 require
 (
 "

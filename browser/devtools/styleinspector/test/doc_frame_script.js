@@ -217,8 +217,6 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 let
 {

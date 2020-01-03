@@ -55,8 +55,6 @@ const
 ThreadNode
 }
 =
-devtools
-.
 require
 (
 "
@@ -73,8 +71,6 @@ model
 const
 RecordingUtils
 =
-devtools
-.
 require
 (
 "

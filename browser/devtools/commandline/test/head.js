@@ -131,11 +131,11 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 let
+{
 console
+}
 =
 require
 (
@@ -155,8 +155,6 @@ Console
 jsm
 "
 )
-.
-console
 ;
 let
 DevToolsUtils

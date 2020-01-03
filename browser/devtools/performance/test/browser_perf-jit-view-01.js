@@ -55,8 +55,6 @@ focus
 const
 RecordingUtils
 =
-devtools
-.
 require
 (
 "

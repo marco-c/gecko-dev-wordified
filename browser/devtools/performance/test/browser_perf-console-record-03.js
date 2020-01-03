@@ -63,8 +63,6 @@ let
 getPerformanceFront
 }
 =
-devtools
-.
 require
 (
 "

@@ -64,8 +64,6 @@ const
 PromisesFront
 }
 =
-devtools
-.
 require
 (
 "
@@ -82,8 +80,6 @@ promises
 let
 events
 =
-devtools
-.
 require
 (
 "

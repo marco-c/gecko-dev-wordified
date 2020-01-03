@@ -42,8 +42,6 @@ linked
 let
 LineGraphWidget
 =
-devtools
-.
 require
 (
 "
@@ -60,8 +58,6 @@ LineGraphWidget
 let
 BarGraphWidget
 =
-devtools
-.
 require
 (
 "
@@ -80,8 +76,6 @@ let
 CanvasGraphUtils
 }
 =
-devtools
-.
 require
 (
 "
@@ -100,8 +94,6 @@ let
 Promise
 }
 =
-devtools
-.
 require
 (
 "

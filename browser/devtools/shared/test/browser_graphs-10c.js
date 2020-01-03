@@ -328,8 +328,6 @@ value
 let
 LineGraphWidget
 =
-devtools
-.
 require
 (
 "
@@ -348,8 +346,6 @@ let
 Promise
 }
 =
-devtools
-.
 require
 (
 "

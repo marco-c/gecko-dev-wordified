@@ -52,7 +52,7 @@ Components
 ;
 let
 {
-devtools
+require
 }
 =
 Cu
@@ -109,8 +109,6 @@ let
 console
 }
 =
-devtools
-.
 require
 (
 "
@@ -133,8 +131,6 @@ jsm
 const
 RecordingUtils
 =
-devtools
-.
 require
 (
 "

@@ -37,8 +37,6 @@ const
 RootActor
 }
 =
-devtools
-.
 require
 (
 "

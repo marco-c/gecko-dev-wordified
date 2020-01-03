@@ -61,8 +61,6 @@ const
 ActorRegistryFront
 }
 =
-devtools
-.
 require
 (
 "

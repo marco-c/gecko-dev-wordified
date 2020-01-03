@@ -64,8 +64,6 @@ let
 TIMELINE_BLUEPRINT
 }
 =
-devtools
-.
 require
 (
 "

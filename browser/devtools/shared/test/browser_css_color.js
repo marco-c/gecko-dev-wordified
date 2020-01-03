@@ -52,8 +52,6 @@ let
 colorUtils
 }
 =
-devtools
-.
 require
 (
 "

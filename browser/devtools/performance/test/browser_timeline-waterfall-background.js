@@ -86,8 +86,6 @@ let
 WATERFALL_MARKER_SIDEBAR_SAFE_BOUNDS
 }
 =
-devtools
-.
 require
 (
 "

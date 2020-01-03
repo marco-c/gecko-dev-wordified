@@ -598,8 +598,6 @@ let
 LazyFront
 }
 =
-devtools
-.
 require
 (
 "

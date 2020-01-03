@@ -49,8 +49,6 @@ let
 FlameGraphUtils
 }
 =
-devtools
-.
 require
 (
 "

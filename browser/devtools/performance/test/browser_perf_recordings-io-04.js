@@ -69,8 +69,6 @@ loaded
 let
 RecordingUtils
 =
-devtools
-.
 require
 (
 "

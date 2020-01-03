@@ -146,7 +146,9 @@ Requisition
 ]
 ;
 let
+{
 require
+}
 =
 Components
 .
@@ -172,10 +174,6 @@ jsm
 {
 }
 )
-.
-devtools
-.
-require
 ;
 this
 .

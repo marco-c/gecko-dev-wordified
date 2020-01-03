@@ -85,8 +85,6 @@ let
 JITOptimizations
 }
 =
-devtools
-.
 require
 (
 "

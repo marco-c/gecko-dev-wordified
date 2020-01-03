@@ -55,7 +55,7 @@ Components
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -80,13 +80,6 @@ jsm
 {
 }
 )
-;
-const
-{
-require
-}
-=
-devtools
 ;
 const
 QR

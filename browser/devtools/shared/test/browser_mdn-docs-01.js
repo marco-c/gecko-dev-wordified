@@ -209,8 +209,6 @@ setBaseCssDocsUrl
 MdnDocsWidget
 }
 =
-devtools
-.
 require
 (
 "

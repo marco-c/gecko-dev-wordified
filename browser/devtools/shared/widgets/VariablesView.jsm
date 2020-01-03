@@ -269,7 +269,7 @@ js
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -298,8 +298,6 @@ jsm
 const
 DevToolsUtils
 =
-devtools
-.
 require
 (
 "
@@ -421,8 +419,6 @@ function
 )
 {
 return
-devtools
-.
 require
 (
 "
@@ -464,8 +460,6 @@ function
 )
 {
 return
-devtools
-.
 require
 (
 "

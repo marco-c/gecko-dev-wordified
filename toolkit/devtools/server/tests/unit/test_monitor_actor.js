@@ -51,8 +51,6 @@ run_test
 let
 EventEmitter
 =
-devtools
-.
 require
 (
 "

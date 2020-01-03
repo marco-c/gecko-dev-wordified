@@ -41,7 +41,7 @@ utils
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -83,8 +83,6 @@ function
 )
 {
 return
-devtools
-.
 require
 (
 "

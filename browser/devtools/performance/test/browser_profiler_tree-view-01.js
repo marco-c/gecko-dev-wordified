@@ -66,8 +66,6 @@ let
 ThreadNode
 }
 =
-devtools
-.
 require
 (
 "
@@ -86,8 +84,6 @@ let
 CallView
 }
 =
-devtools
-.
 require
 (
 "

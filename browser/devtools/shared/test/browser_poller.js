@@ -39,8 +39,6 @@ const
 Poller
 }
 =
-devtools
-.
 require
 (
 "

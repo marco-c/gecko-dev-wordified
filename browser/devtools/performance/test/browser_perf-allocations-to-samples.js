@@ -71,8 +71,6 @@ test
 let
 RecordingUtils
 =
-devtools
-.
 require
 (
 "

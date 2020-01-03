@@ -149,6 +149,11 @@ jsm
 "
 )
 ;
+const
+{
+require
+}
+=
 Cu
 .
 import
@@ -168,6 +173,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 Cu
@@ -210,13 +217,6 @@ ViewHelpers
 jsm
 "
 )
-;
-const
-{
-require
-}
-=
-devtools
 ;
 const
 {

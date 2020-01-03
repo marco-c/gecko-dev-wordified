@@ -73,7 +73,7 @@ cases
 .
 const
 {
-devtools
+require
 }
 =
 Components
@@ -138,8 +138,6 @@ function
 )
 {
 return
-devtools
-.
 require
 (
 "

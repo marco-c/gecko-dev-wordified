@@ -59,8 +59,6 @@ getTheme
 setTheme
 }
 =
-devtools
-.
 require
 (
 "

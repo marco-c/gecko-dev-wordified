@@ -126,8 +126,6 @@ let
 ThreadNode
 }
 =
-devtools
-.
 require
 (
 "
@@ -146,8 +144,6 @@ let
 createTierGraphDataFromFrameNode
 }
 =
-devtools
-.
 require
 (
 "

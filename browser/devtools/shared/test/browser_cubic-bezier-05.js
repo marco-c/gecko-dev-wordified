@@ -86,8 +86,6 @@ const
 CubicBezierPresetWidget
 }
 =
-devtools
-.
 require
 (
 "

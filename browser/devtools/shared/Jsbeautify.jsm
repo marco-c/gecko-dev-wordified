@@ -69,8 +69,6 @@ Beautifier
 .
 Please
 use
-devtools
-.
 require
 (
 "
@@ -99,7 +97,7 @@ jsBeautify
 ;
 const
 {
-devtools
+require
 }
 =
 Components
@@ -132,8 +130,6 @@ const
 beautify
 }
 =
-devtools
-.
 require
 (
 "

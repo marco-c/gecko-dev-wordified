@@ -34,7 +34,7 @@ strict
 ;
 let
 {
-devtools
+require
 }
 =
 Components
@@ -65,8 +65,6 @@ jsm
 let
 TiltManager
 =
-devtools
-.
 require
 (
 "
@@ -83,8 +81,6 @@ TiltManager
 let
 TiltGL
 =
-devtools
-.
 require
 (
 "
@@ -108,8 +104,6 @@ mat4
 quat4
 }
 =
-devtools
-.
 require
 (
 "
@@ -126,8 +120,6 @@ math
 let
 TiltUtils
 =
-devtools
-.
 require
 (
 "
@@ -146,8 +138,6 @@ let
 TiltVisualizer
 }
 =
-devtools
-.
 require
 (
 "
@@ -164,8 +154,6 @@ visualizer
 let
 DevToolsUtils
 =
-devtools
-.
 require
 (
 "
@@ -180,8 +168,6 @@ DevToolsUtils
 let
 LayoutHelpers
 =
-devtools
-.
 require
 (
 "

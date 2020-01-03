@@ -114,8 +114,6 @@ const
 RawPacket
 }
 =
-devtools
-.
 require
 (
 "
