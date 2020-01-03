@@ -179,13 +179,6 @@ init
 context
 )
 ;
-GeckoClickHelper
-.
-init
-(
-context
-)
-;
 GeckoHelper
 .
 init
