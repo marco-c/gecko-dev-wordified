@@ -1655,11 +1655,6 @@ HasSize
 )
 ;
 }
-void
-SetSizeOnImage
-(
-)
-;
 nsIntSize
 GetSize
 (

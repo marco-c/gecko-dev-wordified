@@ -188,12 +188,12 @@ on
 an
 image
 .
-void
+nsresult
 SetOnImage
 (
 RasterImage
 *
-image
+aImage
 )
 ;
 void
