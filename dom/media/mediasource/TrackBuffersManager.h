@@ -1930,7 +1930,7 @@ TrackData
 aTrackData
 )
 ;
-void
+bool
 CheckNextInsertionIndex
 (
 TrackData
