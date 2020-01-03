@@ -262,7 +262,7 @@ TabsPanel
 tabsPanel
 ;
 private
-TabsTray
+TabsListLayout
 tabsTray
 ;
 public
@@ -300,7 +300,7 @@ this
 tabsTray
 =
 (
-TabsTray
+TabsListLayout
 )
 findViewById
 (
