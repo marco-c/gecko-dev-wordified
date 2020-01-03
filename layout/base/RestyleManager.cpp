@@ -6806,6 +6806,10 @@ UsesRootEMUnits
 &
 &
 aPrimaryFrame
+&
+&
+!
+mInRebuildAllStyleData
 )
 {
 nsStyleContext
@@ -6912,10 +6916,6 @@ units
 has
 changed
 .
-newContext
-=
-nullptr
-;
 mRebuildAllRestyleHint
 |
 =
@@ -6927,7 +6927,7 @@ mRebuildAllExtraHint
 aMinHint
 )
 ;
-DoRebuildAllStyleData
+StartRebuildAllStyleData
 (
 aRestyleTracker
 )
