@@ -218,6 +218,7 @@ nsRunnable
 {
 public
 :
+explicit
 CameraClosedMessage
 (
 nsMainThreadPtrHandle
@@ -347,6 +348,7 @@ CameraControlListener
 {
 public
 :
+explicit
 CameraClosedListenerProxy
 (
 T
