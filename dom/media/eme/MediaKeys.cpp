@@ -2118,6 +2118,9 @@ MediaKeys
 :
 CreateSession
 (
+JSContext
+*
+aCx
 SessionType
 aSessionType
 ErrorResult
@@ -2134,6 +2137,7 @@ session
 new
 MediaKeySession
 (
+aCx
 GetParentObject
 (
 )
@@ -2143,6 +2147,19 @@ aSessionType
 aRv
 )
 ;
+if
+(
+aRv
+.
+Failed
+(
+)
+)
+{
+return
+nullptr
+;
+}
 /
 /
 Add
