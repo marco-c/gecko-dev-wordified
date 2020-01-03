@@ -338,11 +338,9 @@ rgb
 )
 url
 (
-"
 {
 computedURI
 }
-"
 )
 ;
 is
