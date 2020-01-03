@@ -1563,7 +1563,7 @@ NeckoChild
 RecvAsyncAuthPromptForNestedFrame
 (
 const
-uint64_t
+TabId
 &
 aNestedFrameId
 const
