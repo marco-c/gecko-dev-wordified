@@ -3091,6 +3091,8 @@ VREG_SHIFT
 &
 VREG_MASK
 ;
+/
+/
 JS_ASSERT
 (
 index
