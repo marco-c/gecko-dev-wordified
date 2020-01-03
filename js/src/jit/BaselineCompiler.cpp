@@ -5651,7 +5651,11 @@ masm
 .
 profilerEnterFrame
 (
-BaselineStackReg
+masm
+.
+getStackPointer
+(
+)
 R0
 .
 scratchReg
@@ -20720,7 +20724,11 @@ masm
 .
 storePtr
 (
-BaselineStackReg
+masm
+.
+getStackPointer
+(
+)
 Address
 (
 scratchReg

@@ -25621,7 +25621,7 @@ popR1
 )
 masm
 .
-addPtr
+addToStackPtr
 (
 ImmWord
 (
@@ -25630,7 +25630,6 @@ sizeof
 size_t
 )
 )
-BaselineStackReg
 )
 ;
 }
