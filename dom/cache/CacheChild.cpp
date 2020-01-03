@@ -406,6 +406,9 @@ CacheChild
 :
 CreatePushStream
 (
+nsISupports
+*
+aParent
 nsIAsyncInputStream
 *
 aStream
@@ -427,6 +430,7 @@ CachePushStreamChild
 GetFeature
 (
 )
+aParent
 aStream
 )
 )

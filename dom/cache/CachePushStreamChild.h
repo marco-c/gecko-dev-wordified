@@ -216,6 +216,9 @@ CachePushStreamChild
 Feature
 *
 aFeature
+nsISupports
+*
+aParent
 nsIAsyncInputStream
 *
 aStream
@@ -263,6 +266,12 @@ OnEnd
 nsresult
 aRv
 )
+;
+nsCOMPtr
+<
+nsISupports
+>
+mParent
 ;
 nsCOMPtr
 <
