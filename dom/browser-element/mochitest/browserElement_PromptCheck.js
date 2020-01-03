@@ -191,7 +191,10 @@ e
 detail
 .
 message
+String
+(
 numPrompts
+)
 "
 prompt
 message

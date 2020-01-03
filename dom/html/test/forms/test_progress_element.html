@@ -374,7 +374,10 @@ aNewValue
 var
 expectedValueForContent
 =
+String
+(
 aNewValue
+)
 ;
 if
 (
@@ -529,7 +532,7 @@ getAttribute
 (
 aAttribute
 )
-expectedValueForContent
+null
 aAttribute
 +
 "
@@ -537,9 +540,8 @@ content
 attribute
 should
 be
+null
 "
-+
-expectedValueForContent
 )
 ;
 is

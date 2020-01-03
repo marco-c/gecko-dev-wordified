@@ -2016,6 +2016,7 @@ ok
 a
 =
 =
+=
 b
 name
 )
@@ -2038,6 +2039,7 @@ pass
 =
 (
 a
+=
 =
 =
 b
@@ -2078,6 +2080,14 @@ diag
 )
 ;
 }
+;
+SimpleTest
+.
+ise
+=
+SimpleTest
+.
+is
 ;
 SimpleTest
 .
@@ -2180,6 +2190,7 @@ pass
 a
 !
 =
+=
 b
 )
 ;
@@ -2232,7 +2243,6 @@ ok
 a
 =
 =
-=
 b
 name
 )
@@ -2241,7 +2251,7 @@ name
 /
 SimpleTest
 .
-ise
+is_loosely
 =
 function
 (
@@ -2255,7 +2265,6 @@ pass
 =
 (
 a
-=
 =
 =
 b
@@ -2279,7 +2288,6 @@ a
 )
 +
 "
-strictly
 expected
 "
 +
@@ -3131,6 +3139,7 @@ pass
 a
 =
 =
+=
 b
 )
 ;
@@ -3200,6 +3209,7 @@ pass
 (
 a
 !
+=
 =
 b
 )
@@ -11004,6 +11014,13 @@ ise
 SimpleTest
 .
 ise
+;
+var
+is_loosely
+=
+SimpleTest
+.
+is_loosely
 ;
 var
 todo

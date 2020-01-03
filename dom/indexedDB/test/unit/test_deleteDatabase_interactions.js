@@ -333,7 +333,7 @@ event
 target
 .
 result
-null
+undefined
 "
 event
 should

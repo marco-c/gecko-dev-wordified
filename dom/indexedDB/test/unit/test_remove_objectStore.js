@@ -536,7 +536,7 @@ event
 target
 .
 result
-undefined
+null
 "
 ObjectStore
 shouldn

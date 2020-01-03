@@ -147,7 +147,9 @@ prompts
 {
 msg
 :
+'
 1
+'
 type
 :
 '
@@ -165,7 +167,9 @@ undefined
 {
 msg
 :
+'
 2
+'
 type
 :
 '
@@ -183,7 +187,9 @@ true
 {
 msg
 :
+'
 3
+'
 type
 :
 '
@@ -217,7 +223,9 @@ confirm
 {
 msg
 :
+'
 4
+'
 type
 :
 '
@@ -235,7 +243,9 @@ true
 {
 msg
 :
+'
 5
+'
 type
 :
 '
@@ -255,7 +265,9 @@ worked
 {
 msg
 :
+'
 6
+'
 type
 :
 '
@@ -273,7 +285,9 @@ null
 {
 msg
 :
+'
 7
+'
 type
 :
 '

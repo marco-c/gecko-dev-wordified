@@ -548,7 +548,7 @@ EXT_STATE_VERTICAL
 const
 kOrdinalState
 =
-0
+false
 ;
 const
 kExtraState

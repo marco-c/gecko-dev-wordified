@@ -1694,7 +1694,7 @@ undefined
 }
 if
 (
-o
+_thing_
 =
 =
 =

@@ -808,7 +808,9 @@ is
 newField
 .
 value
+"
 1
+"
 "
 Custom
 integer
@@ -851,7 +853,8 @@ is
 customValue
 .
 value
-0
+"
+"
 "
 Custom
 integer
@@ -897,7 +900,9 @@ is
 newField
 .
 value
+"
 3
+"
 "
 Custom
 integer

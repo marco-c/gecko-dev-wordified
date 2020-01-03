@@ -751,7 +751,7 @@ e
 .
 detail
 .
-checkMessage
+checkboxMessage
 null
 )
 ;
