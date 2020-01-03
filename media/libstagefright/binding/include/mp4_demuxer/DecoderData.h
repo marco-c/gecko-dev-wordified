@@ -709,7 +709,7 @@ aSize
 ;
 private
 :
-nsAutoPtr
+nsAutoArrayPtr
 <
 uint8_t
 >
