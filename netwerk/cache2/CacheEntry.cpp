@@ -1299,7 +1299,7 @@ disk
 /
 aResult
 .
-Append
+Assign
 (
 aStorageID
 )
