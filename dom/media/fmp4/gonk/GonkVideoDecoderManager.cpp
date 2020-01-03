@@ -1084,6 +1084,10 @@ timeUs
 )
 )
 {
+ReleaseVideoBuffer
+(
+)
+;
 GVDM_LOG
 (
 "
