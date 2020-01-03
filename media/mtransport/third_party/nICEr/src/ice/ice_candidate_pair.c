@@ -1082,7 +1082,7 @@ stun_client
 >
 params
 .
-ice_use_candidate
+ice_binding_request
 .
 priority
 =
