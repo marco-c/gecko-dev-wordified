@@ -797,6 +797,9 @@ ProcessHangMonitorIPC
 h
 "
 #
+ifdef
+MOZ_ENABLE_PROFILER_SPS
+#
 include
 "
 mozilla
@@ -805,6 +808,8 @@ ProfileGatherer
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1705,12 +1710,17 @@ base
 :
 KillProcess
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 using
 mozilla
 :
 :
 ProfileGatherer
 ;
+#
+endif
 #
 ifdef
 MOZ_CRASHREPORTER
@@ -27114,6 +27124,9 @@ nsCString
 aProfile
 )
 {
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 if
 (
 NS_WARN_IF
@@ -27142,6 +27155,8 @@ mGatherer
 =
 nullptr
 ;
+#
+endif
 return
 true
 ;
