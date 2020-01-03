@@ -200,7 +200,7 @@ obj
 {
 console
 .
-info
+log
 (
 "
 loop
