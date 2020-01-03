@@ -138,6 +138,17 @@ include
 "
 vm
 /
+ObjectImpl
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Symbol
 -
 inl
