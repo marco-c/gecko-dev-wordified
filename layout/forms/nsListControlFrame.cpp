@@ -6333,7 +6333,7 @@ aEvent
 >
 mMessage
 -
-NS_MOUSE_MESSAGE_START
+eMouseEventFirst
 ;
 if
 (
@@ -6349,7 +6349,7 @@ inx
 (
 NS_MOUSE_RIGHT_CLICK
 -
-NS_MOUSE_MESSAGE_START
+eMouseEventFirst
 )
 )
 {
