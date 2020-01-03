@@ -2401,7 +2401,7 @@ endif
 *
 return
 the
-width
+isize
 of
 the
 column
@@ -2410,7 +2410,7 @@ aColIndex
 *
 /
 int32_t
-GetColumnWidth
+GetColumnISize
 (
 int32_t
 aColIndex
