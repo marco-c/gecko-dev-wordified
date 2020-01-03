@@ -47,9 +47,6 @@ zero
 *
 /
 #
-ifndef
-WIN32
-#
 include
 "
 gtest
@@ -79,6 +76,9 @@ TaskScheduler
 h
 "
 #
+ifndef
+WIN32
+#
 include
 <
 pthread
@@ -92,6 +92,8 @@ sched
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -149,6 +151,9 @@ MaybeYieldThread
 (
 )
 {
+#
+ifndef
+WIN32
 if
 (
 rand
@@ -166,6 +171,8 @@ sched_yield
 )
 ;
 }
+#
+endif
 }
 /
 /
@@ -1533,5 +1540,3 @@ ShutDown
 }
 }
 }
-#
-endif
