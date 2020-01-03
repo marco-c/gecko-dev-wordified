@@ -405,6 +405,10 @@ bool
 aUnique
 bool
 aMultiEntry
+const
+nsCString
+&
+aLocale
 JSContext
 *
 aCx
