@@ -326,11 +326,11 @@ in
 the
 #
 directory
-in
-which
-it
+the
+text
+file
 is
-run
+in
 .
 #
 #
