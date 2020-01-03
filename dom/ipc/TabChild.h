@@ -1637,6 +1637,10 @@ CSSSize
 &
 size
 const
+nsSizeMode
+&
+sizeMode
+const
 ScreenOrientationInternal
 &
 orientation

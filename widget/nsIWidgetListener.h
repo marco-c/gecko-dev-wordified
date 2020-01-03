@@ -124,6 +124,7 @@ nsSizeMode_Normal
 nsSizeMode_Minimized
 nsSizeMode_Maximized
 nsSizeMode_Fullscreen
+nsSizeMode_Invalid
 }
 ;
 /
