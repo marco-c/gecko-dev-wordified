@@ -265,6 +265,7 @@ aId
 ;
 protected
 :
+explicit
 CommandBuffer
 (
 size_t

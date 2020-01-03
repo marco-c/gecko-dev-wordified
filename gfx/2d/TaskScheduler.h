@@ -817,6 +817,7 @@ Task
 {
 public
 :
+explicit
 SetEventTask
 (
 MultiThreadedTaskQueue
@@ -1476,6 +1477,7 @@ Run
 ;
 protected
 :
+explicit
 WorkerThread
 (
 MultiThreadedTaskQueue
