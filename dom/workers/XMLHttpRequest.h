@@ -244,7 +244,12 @@ mReadyState
 )
 mResponse
 (
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 mResponseTextResult
 (

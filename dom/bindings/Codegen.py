@@ -62395,9 +62395,8 @@ rval
 (
 )
 .
-set
+setUndefined
 (
-JSVAL_VOID
 )
 ;
             

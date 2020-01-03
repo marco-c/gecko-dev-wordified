@@ -219,8 +219,10 @@ FireSuccess
 again
 .
 mResult
-=
-JSVAL_VOID
+.
+setUndefined
+(
+)
 ;
 mDone
 =
@@ -357,9 +359,10 @@ state
 if
 (
 mResult
-=
-=
-JSVAL_VOID
+.
+isUndefined
+(
+)
 )
 {
 aRv

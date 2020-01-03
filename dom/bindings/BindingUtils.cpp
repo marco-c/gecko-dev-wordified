@@ -1247,11 +1247,8 @@ we
 root
 .
 mJSException
-=
-JS
-:
-:
-UndefinedValue
+.
+setUndefined
 (
 )
 ;

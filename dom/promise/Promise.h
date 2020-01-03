@@ -1502,11 +1502,8 @@ RemoveFeature
 )
 ;
 mResult
-=
-JS
-:
-:
-UndefinedValue
+.
+setUndefined
 (
 )
 ;

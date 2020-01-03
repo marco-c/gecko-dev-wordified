@@ -671,7 +671,12 @@ Value
 signalStrength
 (
 cx
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 ;
 aInfo
@@ -730,7 +735,12 @@ Value
 relSignalStrength
 (
 cx
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 ;
 aInfo

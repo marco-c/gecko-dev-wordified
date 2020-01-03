@@ -2136,7 +2136,12 @@ aType
 )
 mResponse
 (
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 mLoaded
 (
@@ -2218,7 +2223,12 @@ aType
 )
 mResponse
 (
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 mLoaded
 (

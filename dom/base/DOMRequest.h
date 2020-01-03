@@ -312,9 +312,10 @@ mDone
 |
 |
 mResult
-=
-=
-JSVAL_VOID
+.
+isUndefined
+(
+)
 "
 Result
 should
