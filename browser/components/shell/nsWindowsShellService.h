@@ -180,6 +180,11 @@ LaunchControlPanelDefaultPrograms
 )
 ;
 nsresult
+LaunchModernSettingsDialogDefaultApps
+(
+)
+;
+nsresult
 LaunchHTTPHandlerPane
 (
 )

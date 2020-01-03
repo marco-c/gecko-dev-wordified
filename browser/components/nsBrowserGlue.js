@@ -19411,9 +19411,18 @@ claimAllTypes
 =
 true
 ;
-#
-ifdef
-XP_WIN
+if
+(
+AppConstants
+.
+platform
+=
+=
+"
+win
+"
+)
+{
 try
 {
 /
@@ -19421,6 +19430,7 @@ try
 In
 Windows
 8
++
 the
 UI
 for
@@ -19454,6 +19464,7 @@ screen
 on
 Windows
 8
++
 .
 /
 /
@@ -19499,8 +19510,7 @@ ex
 )
 {
 }
-#
-endif
+}
 try
 {
 ShellService
