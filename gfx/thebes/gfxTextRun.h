@@ -4972,6 +4972,8 @@ aProvider
 TextRunDrawParams
 &
 aParams
+uint16_t
+aOrientation
 )
 ;
 /
@@ -5137,6 +5139,8 @@ aSpacingEnd
 TextRunDrawParams
 &
 aParams
+uint16_t
+aOrientation
 )
 ;
 /
