@@ -239,9 +239,16 @@ json
 from
 __future__
 import
+(
+    
 print_function
+    
+unicode_literals
+)
 import
 argparse
+import
+codecs
 import
 json
 import
@@ -561,6 +568,24 @@ opts
 verbose
 :
         
+writer
+=
+codecs
+.
+getwriter
+(
+'
+utf
+-
+8
+'
+)
+(
+sys
+.
+stdout
+)
+        
 print
 (
 '
@@ -587,6 +612,9 @@ engines
 =
 engines
 )
+file
+=
+writer
 )
         
 print
@@ -609,6 +637,9 @@ default
 =
 default
 )
+file
+=
+writer
 )
     
 browsersearch
