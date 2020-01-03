@@ -101,7 +101,7 @@ getStr
 "
 jit
 .
-samples2
+samples
 "
 )
 ;

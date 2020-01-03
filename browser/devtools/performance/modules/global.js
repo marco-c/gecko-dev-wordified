@@ -92,19 +92,6 @@ Localization
 convenience
 methods
 .
-+
-TODO
-:
-merge
-these
-into
-a
-single
-file
-:
-Bug
-1082695
-.
 *
 /
 const
@@ -127,7 +114,7 @@ locale
 /
 devtools
 /
-timeline
+markers
 .
 properties
 "
@@ -142,7 +129,7 @@ locale
 /
 devtools
 /
-profiler
+performance
 .
 properties
 "

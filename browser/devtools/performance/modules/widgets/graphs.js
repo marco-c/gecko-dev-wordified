@@ -279,7 +279,7 @@ lazyRequireGetter
 (
 this
 "
-TimelineGlobal
+L10N
 "
 "
 devtools
@@ -288,6 +288,7 @@ performance
 /
 global
 "
+true
 )
 ;
 loader
@@ -901,8 +902,6 @@ call
 (
 this
 parent
-TimelineGlobal
-.
 L10N
 .
 getStr
