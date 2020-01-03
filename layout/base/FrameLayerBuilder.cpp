@@ -29625,6 +29625,10 @@ aEntry
 mLayer
 mContainerReferenceFrame
 mParameters
+aEntry
+-
+>
+mIsCaret
 )
 ;
 if
