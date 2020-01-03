@@ -230,9 +230,10 @@ const
 MOZ_OVERRIDE
 {
 return
-!
-!
 mTexture
+|
+|
+mTexture10
 ;
 }
 virtual
@@ -399,6 +400,12 @@ mSize
 RefPtr
 <
 ID3D10Texture2D
+>
+mTexture10
+;
+RefPtr
+<
+ID3D11Texture2D
 >
 mTexture
 ;
