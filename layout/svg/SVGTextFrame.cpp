@@ -17244,10 +17244,10 @@ gfx
 >
 SetAntialiasMode
 (
-gfxContext
+AntialiasMode
 :
 :
-MODE_ALIASED
+NONE
 )
 ;
 break
@@ -17259,10 +17259,10 @@ gfx
 >
 SetAntialiasMode
 (
-gfxContext
+AntialiasMode
 :
 :
-MODE_COVERAGE
+SUBPIXEL
 )
 ;
 break

@@ -11027,10 +11027,10 @@ mContext
 >
 SetAntialiasMode
 (
-gfxContext
+AntialiasMode
 :
 :
-MODE_ALIASED
+NONE
 )
 ;
 gfxRect
