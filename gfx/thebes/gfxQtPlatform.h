@@ -468,6 +468,14 @@ aWindow
 ;
 #
 endif
+virtual
+int
+GetScreenDepth
+(
+)
+const
+override
+;
 bool
 AccelerateLayersByDefault
 (
