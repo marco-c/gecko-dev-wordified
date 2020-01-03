@@ -855,8 +855,8 @@ HandleObject
 wrapper
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 const
 {
@@ -937,7 +937,7 @@ iterate
 cx
 wrapper
 flags
-vp
+objp
 )
 ;
 }

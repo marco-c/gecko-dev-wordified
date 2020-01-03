@@ -2907,8 +2907,8 @@ HandleObject
 proxy
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 {
 JS_CHECK_RECURSION
@@ -2937,10 +2937,11 @@ handler
 (
 )
 ;
-vp
+objp
 .
-setUndefined
+set
 (
+nullptr
 )
 ;
 /
@@ -3031,7 +3032,7 @@ NewEmptyPropertyIterator
 (
 cx
 flags
-vp
+objp
 )
 ;
 }
@@ -3044,7 +3045,7 @@ iterate
 cx
 proxy
 flags
-vp
+objp
 )
 ;
 }
@@ -3115,7 +3116,7 @@ cx
 proxy
 flags
 props
-vp
+objp
 )
 ;
 }

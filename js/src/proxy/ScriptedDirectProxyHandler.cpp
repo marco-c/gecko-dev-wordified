@@ -6010,8 +6010,8 @@ HandleObject
 proxy
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 const
 {
@@ -6038,7 +6038,7 @@ iterate
 cx
 proxy
 flags
-vp
+objp
 )
 ;
 }

@@ -2573,8 +2573,8 @@ HandleObject
 proxy
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 const
 ;
@@ -3396,8 +3396,8 @@ HandleObject
 proxy
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 const
 MOZ_OVERRIDE

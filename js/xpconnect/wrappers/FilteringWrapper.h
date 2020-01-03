@@ -406,12 +406,10 @@ JS
 :
 MutableHandle
 <
-JS
-:
-:
-Value
+JSObject
+*
 >
-vp
+objp
 )
 const
 MOZ_OVERRIDE

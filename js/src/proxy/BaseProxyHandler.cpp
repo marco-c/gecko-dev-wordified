@@ -1482,8 +1482,8 @@ HandleObject
 proxy
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 const
 {
@@ -1537,7 +1537,7 @@ cx
 proxy
 flags
 props
-vp
+objp
 )
 ;
 }
