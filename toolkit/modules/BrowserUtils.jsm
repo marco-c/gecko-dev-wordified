@@ -658,7 +658,6 @@ string
 .
 This
 is
-the
 /
 /
 the
