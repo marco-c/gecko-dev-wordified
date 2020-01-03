@@ -5122,6 +5122,7 @@ uint32_t
 &
 aArg3
 BluetoothSspVariant
+&
 aArg4
 uint32_t
 &
