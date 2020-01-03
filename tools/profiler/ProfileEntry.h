@@ -560,8 +560,7 @@ aThreadId
 ProfileBuffer
 (
 )
-{
-}
+;
 public
 :
 /
