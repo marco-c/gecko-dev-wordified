@@ -663,7 +663,7 @@ of
 /
 /
 the
-GMPdecryptor
+GMPDecryptor
 .
 /
 /
