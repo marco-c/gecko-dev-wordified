@@ -206,6 +206,11 @@ div
 >
 '
 ;
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 function
