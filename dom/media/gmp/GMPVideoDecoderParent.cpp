@@ -411,6 +411,10 @@ this
 ;
 MOZ_ASSERT
 (
+!
+mPlugin
+|
+|
 mPlugin
 -
 >
