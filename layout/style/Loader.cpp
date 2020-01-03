@@ -843,6 +843,7 @@ stylesheet
 /
 class
 SheetLoadData
+final
 :
 public
 nsIRunnable

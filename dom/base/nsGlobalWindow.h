@@ -1372,6 +1372,7 @@ checks
 .
 class
 DialogValueHolder
+final
 :
 public
 nsISupports

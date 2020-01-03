@@ -211,6 +211,7 @@ CACHEFILELISTENER_IID
 )
 class
 CacheFile
+final
 :
 public
 CacheFileChunkListener

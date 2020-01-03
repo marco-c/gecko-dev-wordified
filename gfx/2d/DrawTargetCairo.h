@@ -254,6 +254,7 @@ mExtendMode
 ;
 class
 DrawTargetCairo
+final
 :
 public
 DrawTarget

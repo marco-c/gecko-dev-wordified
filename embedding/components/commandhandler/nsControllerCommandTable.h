@@ -125,6 +125,7 @@ nsIControllerCommand
 ;
 class
 nsControllerCommandTable
+final
 :
 public
 nsIControllerCommandTable

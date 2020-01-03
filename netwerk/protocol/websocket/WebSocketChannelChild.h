@@ -160,6 +160,7 @@ ChannelEventQueue
 ;
 class
 WebSocketChannelChild
+final
 :
 public
 BaseWebSocketChannel

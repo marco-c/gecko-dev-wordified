@@ -154,6 +154,7 @@ nsROCSSPrimitiveValue
 ;
 class
 nsDOMCSSRect
+final
 :
 public
 nsIDOMRect

@@ -256,6 +256,7 @@ gWyciwygLog
 -
 class
 nsWyciwygChannel
+final
 :
 public
 nsIWyciwygChannel

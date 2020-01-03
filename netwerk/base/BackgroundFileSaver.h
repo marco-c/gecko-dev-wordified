@@ -2260,6 +2260,7 @@ others
 .
 class
 BackgroundFileSaverStreamListener
+final
 :
 public
 BackgroundFileSaver

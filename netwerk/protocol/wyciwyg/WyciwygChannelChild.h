@@ -157,6 +157,7 @@ file
 contents
 class
 WyciwygChannelChild
+final
 :
 public
 PWyciwygChannelChild

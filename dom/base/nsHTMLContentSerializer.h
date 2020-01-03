@@ -179,6 +179,7 @@ nsIAtom
 ;
 class
 nsHTMLContentSerializer
+final
 :
 public
 nsXHTMLContentSerializer

@@ -185,6 +185,7 @@ h
 "
 class
 nsWindowRoot
+final
 :
 public
 nsPIWindowRoot

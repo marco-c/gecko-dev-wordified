@@ -935,6 +935,7 @@ pipe
 )
 class
 nsPipeInputStream
+final
 :
 public
 nsIAsyncInputStream

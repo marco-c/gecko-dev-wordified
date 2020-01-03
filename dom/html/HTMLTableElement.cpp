@@ -278,6 +278,7 @@ references
 /
 class
 TableRowsCollection
+final
 :
 public
 nsIHTMLCollection

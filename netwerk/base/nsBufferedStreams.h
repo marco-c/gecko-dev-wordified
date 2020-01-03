@@ -656,6 +656,7 @@ streams
 /
 class
 nsBufferedOutputStream
+final
 :
 public
 nsBufferedStream

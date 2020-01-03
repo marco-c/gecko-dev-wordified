@@ -1095,6 +1095,7 @@ h
 /
 class
 ShadowLayerForwarder
+final
 :
 public
 CompositableForwarder

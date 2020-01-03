@@ -150,6 +150,7 @@ SVGFEImageElementBase
 ;
 class
 SVGFEImageElement
+final
 :
 public
 SVGFEImageElementBase

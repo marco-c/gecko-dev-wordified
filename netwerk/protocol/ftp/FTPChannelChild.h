@@ -261,6 +261,7 @@ FTPChannelChild
 .
 class
 FTPChannelChild
+final
 :
 public
 PFTPChannelChild

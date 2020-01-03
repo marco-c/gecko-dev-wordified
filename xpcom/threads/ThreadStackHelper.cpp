@@ -1802,6 +1802,7 @@ ThreadStackHelper
 :
 :
 ThreadContext
+final
 :
 public
 google_breakpad
