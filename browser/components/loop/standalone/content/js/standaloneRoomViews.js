@@ -2864,6 +2864,14 @@ this
 state
 .
 screenShareVideoObject
+&
+&
+!
+this
+.
+props
+.
+screenSharePosterUrl
 ;
 }
 render
