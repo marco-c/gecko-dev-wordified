@@ -1261,6 +1261,9 @@ activities
 offered
 public
 ArrayList
+<
+String
+>
 getShareOptions
 (
 )
@@ -1273,6 +1276,8 @@ shareOptions
 =
 new
 ArrayList
+<
+>
 (
 )
 ;
@@ -1741,6 +1746,8 @@ displayedOptions
 =
 new
 ArrayList
+<
+>
 (
 )
 ;
@@ -1778,6 +1785,8 @@ displayedOptions
 =
 new
 ArrayList
+<
+>
 (
 )
 ;

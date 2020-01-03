@@ -147,6 +147,12 @@ util
 .
 Log
 ;
+SuppressWarnings
+(
+"
+unchecked
+"
+)
 public
 abstract
 class
@@ -404,12 +410,6 @@ code
 .
 *
 /
-SuppressWarnings
-(
-"
-unchecked
-"
-)
 public
 BaseRobocopTest
 (
