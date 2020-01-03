@@ -156,7 +156,9 @@ cleanup
 )
 {
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

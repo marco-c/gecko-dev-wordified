@@ -952,7 +952,9 @@ URI
 "
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

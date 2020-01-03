@@ -293,7 +293,9 @@ Clean
 up
 .
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -518,7 +520,9 @@ Clean
 up
 .
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -679,7 +683,9 @@ Clean
 up
 .
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -840,7 +846,9 @@ Clean
 up
 .
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

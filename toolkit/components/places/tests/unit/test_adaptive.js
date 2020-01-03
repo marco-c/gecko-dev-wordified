@@ -2477,7 +2477,9 @@ type
 ;
 }
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

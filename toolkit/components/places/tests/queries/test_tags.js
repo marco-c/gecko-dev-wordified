@@ -5134,7 +5134,9 @@ remove_all_bookmarks
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

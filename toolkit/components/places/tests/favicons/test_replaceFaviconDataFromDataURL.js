@@ -570,7 +570,9 @@ deferSetAndFetchFavicon
 promise
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -751,7 +753,9 @@ deferSetAndFetchFavicon
 promise
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -948,7 +952,9 @@ deferSetAndFetchFavicon
 promise
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -1129,7 +1135,9 @@ deferSetAndFetchFavicon
 promise
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -1255,7 +1263,9 @@ false
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -1447,7 +1457,9 @@ deferSetAndFetchFavicon
 promise
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -1645,7 +1657,9 @@ deferSetAndFetchFavicon
 promise
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -1843,7 +1857,9 @@ deferSetAndFetchFavicon
 promise
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

@@ -641,7 +641,9 @@ DOWNLOAD_URI
 )
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
@@ -767,7 +769,9 @@ DOWNLOAD_URI
 )
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
@@ -890,7 +894,9 @@ DOWNLOAD_URI
 )
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
@@ -1090,7 +1096,9 @@ PRIVATE_URI
 )
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
@@ -1361,7 +1369,9 @@ removeObserver
 historyObserver
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

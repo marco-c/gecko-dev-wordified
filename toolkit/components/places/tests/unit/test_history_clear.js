@@ -354,7 +354,8 @@ run_next_test
 add_task
 (
 function
-test_history_removeAllPages
+*
+test_history_clear
 (
 )
 {
@@ -741,9 +742,9 @@ promiseOnClearHistoryObserved
 ;
 PlacesUtils
 .
-bhistory
+history
 .
-removeAllPages
+clear
 (
 )
 ;

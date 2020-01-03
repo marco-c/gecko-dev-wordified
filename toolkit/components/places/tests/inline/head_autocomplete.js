@@ -1047,7 +1047,9 @@ remove_all_bookmarks
 (
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

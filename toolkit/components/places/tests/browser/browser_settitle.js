@@ -51,7 +51,9 @@ removeCurrentTab
 (
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
