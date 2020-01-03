@@ -115,13 +115,6 @@ h
 #
 include
 "
-imgLoader
-.
-h
-"
-#
-include
-"
 Image
 .
 h
