@@ -391,7 +391,7 @@ h
 #
 include
 "
-nsTextStore
+TSFTextStore
 .
 h
 "
@@ -2872,7 +2872,7 @@ ITfMessagePump
 *
 msgPump
 =
-nsTextStore
+TSFTextStore
 :
 :
 GetMessagePump
@@ -2967,7 +2967,7 @@ ITfMessagePump
 *
 msgPump
 =
-nsTextStore
+TSFTextStore
 :
 :
 GetMessagePump

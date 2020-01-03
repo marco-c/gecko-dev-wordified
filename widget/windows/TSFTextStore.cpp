@@ -185,21 +185,16 @@ TEXTATTRS_INIT_GUID
 #
 include
 "
-nsTextStore
+TSFTextStore
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 widget
-;
+{
 static
 const
 char
@@ -305,7 +300,7 @@ TSF
 0x
 %
 p
-nsFoo
+TSFFoo
 :
 :
 Bar
@@ -338,7 +333,7 @@ TSF
 0x
 %
 p
-nsFoo
+TSFFoo
 :
 :
 Bar
@@ -361,7 +356,7 @@ TSF
 0x
 %
 p
-nsFoo
+TSFFoo
 :
 :
 Bar
@@ -383,7 +378,7 @@ text
 "
 TSF
 :
-nsFoo
+TSFFoo
 :
 :
 Bar
@@ -4984,7 +4979,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Shutdown
@@ -6714,7 +6709,7 @@ false
 /
 /
 *
-nsTextStore
+TSFTextStore
 *
 /
 /
@@ -6789,7 +6784,7 @@ StaticRefPtr
 <
 ITfThreadMgr
 >
-nsTextStore
+TSFTextStore
 :
 :
 sThreadMgr
@@ -6798,7 +6793,7 @@ StaticRefPtr
 <
 ITfMessagePump
 >
-nsTextStore
+TSFTextStore
 :
 :
 sMessagePump
@@ -6807,7 +6802,7 @@ StaticRefPtr
 <
 ITfKeystrokeMgr
 >
-nsTextStore
+TSFTextStore
 :
 :
 sKeystrokeMgr
@@ -6816,7 +6811,7 @@ StaticRefPtr
 <
 ITfDisplayAttributeMgr
 >
-nsTextStore
+TSFTextStore
 :
 :
 sDisplayAttrMgr
@@ -6825,7 +6820,7 @@ StaticRefPtr
 <
 ITfCategoryMgr
 >
-nsTextStore
+TSFTextStore
 :
 :
 sCategoryMgr
@@ -6834,7 +6829,7 @@ StaticRefPtr
 <
 ITfDocumentMgr
 >
-nsTextStore
+TSFTextStore
 :
 :
 sDisabledDocumentMgr
@@ -6843,7 +6838,7 @@ StaticRefPtr
 <
 ITfContext
 >
-nsTextStore
+TSFTextStore
 :
 :
 sDisabledContext
@@ -6852,22 +6847,22 @@ StaticRefPtr
 <
 ITfInputProcessorProfiles
 >
-nsTextStore
+TSFTextStore
 :
 :
 sInputProcessorProfiles
 ;
 StaticRefPtr
 <
-nsTextStore
+TSFTextStore
 >
-nsTextStore
+TSFTextStore
 :
 :
 sEnabledTextStore
 ;
 DWORD
-nsTextStore
+TSFTextStore
 :
 :
 sClientId
@@ -6875,7 +6870,7 @@ sClientId
 0
 ;
 bool
-nsTextStore
+TSFTextStore
 :
 :
 sCreateNativeCaretForATOK
@@ -6883,7 +6878,7 @@ sCreateNativeCaretForATOK
 false
 ;
 bool
-nsTextStore
+TSFTextStore
 :
 :
 sDoNotReturnNoLayoutErrorToFreeChangJie
@@ -6891,7 +6886,7 @@ sDoNotReturnNoLayoutErrorToFreeChangJie
 false
 ;
 bool
-nsTextStore
+TSFTextStore
 :
 :
 sDoNotReturnNoLayoutErrorToEasyChangjei
@@ -6899,7 +6894,7 @@ sDoNotReturnNoLayoutErrorToEasyChangjei
 false
 ;
 bool
-nsTextStore
+TSFTextStore
 :
 :
 sDoNotReturnNoLayoutErrorToGoogleJaInputAtFirstChar
@@ -6907,7 +6902,7 @@ sDoNotReturnNoLayoutErrorToGoogleJaInputAtFirstChar
 false
 ;
 bool
-nsTextStore
+TSFTextStore
 :
 :
 sDoNotReturnNoLayoutErrorToGoogleJaInputAtCaret
@@ -6920,10 +6915,10 @@ TEXTSTORE_DEFAULT_VIEW
 (
 1
 )
-nsTextStore
+TSFTextStore
 :
 :
-nsTextStore
+TSFTextStore
 (
 )
 :
@@ -7042,10 +7037,10 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
-nsTestStore
+TSFTextStore
 (
 )
 SUCCEEDED
@@ -7055,11 +7050,11 @@ this
 )
 ;
 }
-nsTextStore
+TSFTextStore
 :
 :
 ~
-nsTextStore
+TSFTextStore
 (
 )
 {
@@ -7077,7 +7072,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 instance
 is
 destroyed
@@ -7088,7 +7083,7 @@ this
 ;
 }
 bool
-nsTextStore
+TSFTextStore
 :
 :
 Init
@@ -7112,7 +7107,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Init
@@ -7160,7 +7155,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Init
@@ -7221,7 +7216,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Init
@@ -7309,7 +7304,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Init
@@ -7373,7 +7368,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Init
@@ -7436,7 +7431,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Init
@@ -7482,7 +7477,7 @@ true
 ;
 }
 bool
-nsTextStore
+TSFTextStore
 :
 :
 Destroy
@@ -7503,7 +7498,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Destroy
@@ -7633,7 +7628,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Destroy
@@ -7733,7 +7728,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Destroy
@@ -7772,7 +7767,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 Destroy
@@ -7789,7 +7784,7 @@ true
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 QueryInterface
@@ -7910,7 +7905,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 QueryInterface
@@ -7939,7 +7934,7 @@ E_NOINTERFACE
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 AdviseSink
@@ -7967,7 +7962,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseSink
@@ -8052,7 +8047,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseSink
@@ -8095,7 +8090,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseSink
@@ -8165,7 +8160,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseSink
@@ -8271,7 +8266,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseSink
@@ -8322,7 +8317,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseSink
@@ -8346,7 +8341,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseSink
@@ -8393,7 +8388,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseSink
@@ -8434,7 +8429,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseSink
@@ -8529,7 +8524,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseSink
@@ -8570,7 +8565,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 RequestLock
@@ -8596,7 +8591,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RequestLock
@@ -8659,7 +8654,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RequestLock
@@ -8703,7 +8698,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RequestLock
@@ -8922,7 +8917,7 @@ call
 .
 nsRefPtr
 <
-nsTextStore
+TSFTextStore
 >
 kungFuDeathGrip
 (
@@ -9411,7 +9406,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RequestLock
@@ -9520,7 +9515,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RequestLock
@@ -9567,7 +9562,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RequestLock
@@ -9600,7 +9595,7 @@ E_FAIL
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 DidLockGranted
@@ -9749,7 +9744,7 @@ false
 }
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 DispatchEvent
@@ -9842,7 +9837,7 @@ aEvent
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -9995,7 +9990,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -10125,7 +10120,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -10161,7 +10156,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -10253,7 +10248,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -10626,7 +10621,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -10799,7 +10794,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -10873,7 +10868,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -10993,7 +10988,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -11127,7 +11122,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FlushPendingActions
@@ -11157,7 +11152,7 @@ Clear
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 MaybeFlushPendingNotifications
@@ -11183,7 +11178,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MaybeFlushPendingNotifications
@@ -11235,7 +11230,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MaybeFlushPendingNotifications
@@ -11314,7 +11309,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MaybeFlushPendingNotifications
@@ -11323,7 +11318,7 @@ MaybeFlushPendingNotifications
 "
 "
 calling
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfLayoutChange
@@ -11362,7 +11357,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MaybeFlushPendingNotifications
@@ -11371,7 +11366,7 @@ MaybeFlushPendingNotifications
 "
 "
 calling
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfSelectionChange
@@ -11392,7 +11387,7 @@ NotifyTSFOfSelectionChange
 }
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetStatus
@@ -11416,7 +11411,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetStatus
@@ -11453,7 +11448,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetStatus
@@ -11509,7 +11504,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 QueryInsert
@@ -11542,7 +11537,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 QueryInsert
@@ -11606,7 +11601,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 QueryInsert
@@ -11655,7 +11650,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 QueryInsert
@@ -11722,7 +11717,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 QueryInsert
@@ -11757,7 +11752,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetSelection
@@ -11788,7 +11783,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetSelection
@@ -11845,7 +11840,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetSelection
@@ -11893,7 +11888,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetSelection
@@ -11954,7 +11949,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetSelection
@@ -12007,7 +12002,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetSelection
@@ -12059,7 +12054,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetSelection
@@ -12075,12 +12070,12 @@ return
 S_OK
 ;
 }
-nsTextStore
+TSFTextStore
 :
 :
 Content
 &
-nsTextStore
+TSFTextStore
 :
 :
 LockedContent
@@ -12223,7 +12218,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 LockedContent
@@ -12263,7 +12258,7 @@ mLockedContent
 ;
 }
 bool
-nsTextStore
+TSFTextStore
 :
 :
 GetCurrentText
@@ -12370,12 +12365,12 @@ return
 true
 ;
 }
-nsTextStore
+TSFTextStore
 :
 :
 Selection
 &
-nsTextStore
+TSFTextStore
 :
 :
 CurrentSelection
@@ -12508,7 +12503,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 CurrentSelection
@@ -12677,7 +12672,7 @@ result
 ;
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 GetDisplayAttribute
@@ -12759,7 +12754,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetDisplayAttribute
@@ -12853,7 +12848,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetDisplayAttribute
@@ -12904,7 +12899,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetDisplayAttribute
@@ -12999,7 +12994,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetDisplayAttribute
@@ -13079,7 +13074,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetDisplayAttribute
@@ -13138,7 +13133,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetDisplayAttribute
@@ -13179,7 +13174,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetDisplayAttribute
@@ -13214,7 +13209,7 @@ S_OK
 ;
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 RestartCompositionIfNecessary
@@ -13238,7 +13233,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartCompositionIfNecessary
@@ -13295,7 +13290,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartCompositionIfNecessary
@@ -13382,15 +13377,15 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartCompositionIfNecessary
 (
 )
+"
+"
 FAILED
-"
-"
 due
 to
 pComposition
@@ -13459,7 +13454,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartCompositionIfNecessary
@@ -13497,7 +13492,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartCompositionIfNecessary
@@ -13636,15 +13631,15 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartCompositionIfNecessary
 (
 )
+"
+"
 FAILED
-"
-"
 due
 to
 RestartComposition
@@ -13675,7 +13670,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartCompositionIfNecessary
@@ -13692,7 +13687,7 @@ S_OK
 ;
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 RestartComposition
@@ -13750,7 +13745,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartComposition
@@ -13880,7 +13875,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartComposition
@@ -13926,7 +13921,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartComposition
@@ -14230,7 +14225,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartComposition
@@ -14447,7 +14442,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RestartComposition
@@ -14720,7 +14715,7 @@ false
 }
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -14741,7 +14736,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -14836,7 +14831,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -14993,7 +14988,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -15070,7 +15065,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -15149,7 +15144,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -15226,7 +15221,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -15527,7 +15522,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -15585,7 +15580,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -16251,7 +16246,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionUpdateAction
@@ -16270,7 +16265,7 @@ S_OK
 ;
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 SetSelectionInternal
@@ -16297,7 +16292,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelectionInternal
@@ -16424,7 +16419,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelectionInternal
@@ -16491,7 +16486,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelectionInternal
@@ -16554,7 +16549,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelectionInternal
@@ -16630,7 +16625,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelectionInternal
@@ -16738,7 +16733,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 SetSelection
@@ -16765,7 +16760,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelection
@@ -16894,7 +16889,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelection
@@ -16943,7 +16938,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelection
@@ -16987,7 +16982,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelection
@@ -17040,7 +17035,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelection
@@ -17077,7 +17072,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetSelection
@@ -17095,7 +17090,7 @@ hr
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetText
@@ -17139,7 +17134,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetText
@@ -17268,7 +17263,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetText
@@ -17339,7 +17334,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetText
@@ -17402,7 +17397,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetText
@@ -17530,7 +17525,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetText
@@ -17589,7 +17584,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetText
@@ -17660,7 +17655,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetText
@@ -17861,7 +17856,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetText
@@ -17946,7 +17941,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 SetText
@@ -17982,7 +17977,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetText
@@ -18136,7 +18131,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetText
@@ -18230,7 +18225,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetText
@@ -18288,7 +18283,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetText
@@ -18326,7 +18321,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 SetText
@@ -18386,7 +18381,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetFormattedText
@@ -18415,7 +18410,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetFormattedText
@@ -18447,7 +18442,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetEmbedded
@@ -18478,7 +18473,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetEmbedded
@@ -18510,7 +18505,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 QueryInsertEmbedded
@@ -18542,7 +18537,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 QueryInsertEmbedded
@@ -18583,7 +18578,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 InsertEmbedded
@@ -18616,7 +18611,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertEmbedded
@@ -18648,7 +18643,7 @@ E_NOTIMPL
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 SetInputScope
@@ -18954,7 +18949,7 @@ IS_NUMBER
 }
 }
 int32_t
-nsTextStore
+TSFTextStore
 :
 :
 GetRequestedAttrIndex
@@ -19009,7 +19004,7 @@ eNotSupported
 ;
 }
 TS_ATTRID
-nsTextStore
+TSFTextStore
 :
 :
 GetAttrID
@@ -19063,7 +19058,7 @@ GUID_NULL
 }
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 HandleRequestAttrs
@@ -19092,7 +19087,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 HandleRequestAttrs
@@ -19254,7 +19249,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 HandleRequestAttrs
@@ -19316,7 +19311,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 RequestSupportedAttrs
@@ -19345,7 +19340,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RequestSupportedAttrs
@@ -19385,7 +19380,7 @@ paFilterAttrs
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 RequestAttrsAtPosition
@@ -19416,7 +19411,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RequestAttrsAtPosition
@@ -19463,7 +19458,7 @@ paFilterAttrs
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 RequestAttrsTransitioningAtPosition
@@ -19494,7 +19489,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RequestAttrsTransitioningAtPosition
@@ -19550,7 +19545,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 FindNextAttrTransition
@@ -19606,7 +19601,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FindNextAttrTransition
@@ -19642,7 +19637,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 FindNextAttrTransition
@@ -19687,7 +19682,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 RetrieveRequestedAttrs
@@ -19726,7 +19721,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RetrieveRequestedAttrs
@@ -19804,7 +19799,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RetrieveRequestedAttrs
@@ -19851,7 +19846,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RetrieveRequestedAttrs
@@ -19940,7 +19935,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RetrieveRequestedAttrs
@@ -20209,7 +20204,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RetrieveRequestedAttrs
@@ -20259,7 +20254,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetEndACP
@@ -20283,7 +20278,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetEndACP
@@ -20322,7 +20317,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetEndACP
@@ -20367,7 +20362,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetEndACP
@@ -20421,7 +20416,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetEndACP
@@ -20469,7 +20464,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetActiveView
@@ -20493,7 +20488,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetActiveView
@@ -20530,7 +20525,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetActiveView
@@ -20571,7 +20566,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetActiveView
@@ -20596,7 +20591,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -20628,7 +20623,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -20723,7 +20718,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -20770,7 +20765,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -20814,7 +20809,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -20856,7 +20851,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -20901,7 +20896,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -21041,7 +21036,7 @@ something
 .
 nsRefPtr
 <
-nsTextStore
+TSFTextStore
 >
 kungFuDeathGrip
 (
@@ -21081,7 +21076,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -21120,7 +21115,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -21194,7 +21189,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -21281,7 +21276,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -21606,7 +21601,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -21710,7 +21705,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -21761,7 +21756,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetACPFromPoint
@@ -21786,7 +21781,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -21819,7 +21814,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -21891,7 +21886,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -21938,7 +21933,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -21986,7 +21981,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -22034,7 +22029,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -22301,7 +22296,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -22473,7 +22468,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -22634,7 +22629,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -22688,7 +22683,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -22783,7 +22778,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -22941,7 +22936,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -23015,7 +23010,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -23262,7 +23257,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetTextExt
@@ -23329,7 +23324,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExt
@@ -23355,7 +23350,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExt
@@ -23399,7 +23394,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExt
@@ -23443,7 +23438,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExt
@@ -23489,7 +23484,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExt
@@ -23527,7 +23522,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExt
@@ -23584,7 +23579,7 @@ S_OK
 ;
 }
 bool
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExtInternal
@@ -23608,7 +23603,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExtInternal
@@ -23673,7 +23668,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExtInternal
@@ -23760,7 +23755,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExtInternal
@@ -23815,7 +23810,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExtInternal
@@ -23947,7 +23942,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExtInternal
@@ -23999,7 +23994,7 @@ true
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 GetWnd
@@ -24025,7 +24020,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetWnd
@@ -24081,7 +24076,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetWnd
@@ -24125,7 +24120,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetScreenExt
@@ -24171,7 +24166,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 GetWnd
@@ -24204,7 +24199,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24242,7 +24237,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24380,7 +24375,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24432,7 +24427,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24481,7 +24476,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24539,7 +24534,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24658,7 +24653,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24705,7 +24700,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24759,7 +24754,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24809,7 +24804,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24873,7 +24868,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelection
@@ -24959,7 +24954,7 @@ S_OK
 ;
 }
 bool
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelectionInternal
@@ -24987,7 +24982,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelectionInternal
@@ -25066,7 +25061,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelectionInternal
@@ -25255,16 +25250,16 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertTextAtSelectionInternal
 (
 )
+"
+"
 succeeded
 :
-"
-"
 mWidget
 =
 0x
@@ -25282,12 +25277,12 @@ s
 aTextChange
 =
 {
+"
+"
 acpStart
 =
 %
 ld
-"
-"
 acpOldEnd
 =
 %
@@ -25349,7 +25344,7 @@ true
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 InsertEmbeddedAtSelection
@@ -25384,7 +25379,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 InsertEmbeddedAtSelection
@@ -25416,7 +25411,7 @@ E_NOTIMPL
 ;
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionStartAction
@@ -25445,7 +25440,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionStartAction
@@ -25536,7 +25531,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionStartAction
@@ -25571,7 +25566,7 @@ aPreserveSelection
 ;
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionStartAction
@@ -25601,7 +25596,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionStartAction
@@ -25686,7 +25681,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionStartAction
@@ -25779,7 +25774,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionStartAction
@@ -25945,7 +25940,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionStartAction
@@ -26045,7 +26040,7 @@ S_OK
 ;
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionEndAction
@@ -26066,7 +26061,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionEndAction
@@ -26187,7 +26182,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionEndAction
@@ -26233,7 +26228,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 RecordCompositionEndAction
@@ -26250,7 +26245,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 OnStartComposition
@@ -26277,7 +26272,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnStartComposition
@@ -26358,7 +26353,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnStartComposition
@@ -26430,7 +26425,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnStartComposition
@@ -26488,7 +26483,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnStartComposition
@@ -26531,7 +26526,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnStartComposition
@@ -26548,7 +26543,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -26575,7 +26570,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -26644,7 +26639,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -26693,7 +26688,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -26740,7 +26735,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -26810,7 +26805,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -26861,7 +26856,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -26913,7 +26908,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -26980,7 +26975,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -27018,7 +27013,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -27108,7 +27103,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 OnEndComposition
@@ -27132,7 +27127,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnEndComposition
@@ -27215,7 +27210,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnEndComposition
@@ -27262,7 +27257,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnEndComposition
@@ -27315,7 +27310,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnEndComposition
@@ -27353,7 +27348,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnEndComposition
@@ -27370,7 +27365,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 AdviseMouseSink
@@ -27400,7 +27395,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseMouseSink
@@ -27451,7 +27446,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseMouseSink
@@ -27514,7 +27509,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseMouseSink
@@ -27558,7 +27553,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseMouseSink
@@ -27712,7 +27707,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseMouseSink
@@ -27776,7 +27771,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseMouseSink
@@ -27828,7 +27823,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 AdviseMouseSink
@@ -27854,7 +27849,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseMouseSink
@@ -27877,7 +27872,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseMouseSink
@@ -27918,7 +27913,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseMouseSink
@@ -27997,7 +27992,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseMouseSink
@@ -28056,7 +28051,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseMouseSink
@@ -28101,7 +28096,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 UnadviseMouseSink
@@ -28121,7 +28116,7 @@ S_OK
 /
 static
 nsresult
-nsTextStore
+TSFTextStore
 :
 :
 OnFocusChange
@@ -28148,7 +28143,7 @@ Debug
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 OnFocusChange
@@ -28448,7 +28443,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 OnFocusChange
@@ -28517,7 +28512,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 OnFocusChange
@@ -28587,7 +28582,7 @@ NS_OK
 /
 static
 bool
-nsTextStore
+TSFTextStore
 :
 :
 CreateAndSetFocus
@@ -28619,7 +28614,7 @@ methods
 /
 /
 of
-nsTextStore
+TSFTextStore
 .
 At
 that
@@ -28641,7 +28636,7 @@ directly
 sEnabledTextStore
 =
 new
-nsTextStore
+TSFTextStore
 (
 )
 ;
@@ -28671,7 +28666,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 CreateAndSetFocus
@@ -28682,7 +28677,7 @@ due
 to
 "
 "
-nsTextStore
+TSFTextStore
 :
 :
 Init
@@ -28720,7 +28715,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 CreateAndSetFocus
@@ -28732,7 +28727,7 @@ to
 "
 "
 invalid
-nsTextStore
+TSFTextStore
 :
 :
 mDocumentMgr
@@ -28844,7 +28839,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 CreateAndSetFocus
@@ -28943,7 +28938,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 CreateAndSetFocus
@@ -28998,7 +28993,7 @@ Info
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 CreateAndSetFocus
@@ -29051,7 +29046,7 @@ true
 /
 static
 nsIMEUpdatePreference
-nsTextStore
+TSFTextStore
 :
 :
 GetIMEUpdatePreference
@@ -29131,7 +29126,7 @@ NOTIFY_DURING_DEACTIVE
 ;
 /
 /
-nsTextStore
+TSFTextStore
 shouldn
 '
 t
@@ -29169,7 +29164,7 @@ nsIMEUpdatePreference
 ;
 }
 nsresult
-nsTextStore
+TSFTextStore
 :
 :
 OnTextChangeInternal
@@ -29194,7 +29189,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnTextChangeInternal
@@ -29452,7 +29447,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfTextChange
@@ -29495,7 +29490,7 @@ NS_OK
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfTextChange
@@ -29604,7 +29599,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfTextChange
@@ -29650,7 +29645,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfTextChange
@@ -29711,7 +29706,7 @@ aTextChange
 ;
 }
 nsresult
-nsTextStore
+TSFTextStore
 :
 :
 OnSelectionChangeInternal
@@ -29748,7 +29743,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnSelectionChangeInternal
@@ -29988,7 +29983,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnSelectionChangeInternal
@@ -30102,7 +30097,7 @@ NS_OK
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfSelectionChange
@@ -30205,7 +30200,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfSelectionChange
@@ -30251,7 +30246,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfSelectionChange
@@ -30283,7 +30278,7 @@ OnSelectionChange
 ;
 }
 nsresult
-nsTextStore
+TSFTextStore
 :
 :
 OnLayoutChangeInternal
@@ -30360,7 +30355,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnLayoutChangeInternal
@@ -30411,7 +30406,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnLayoutChangeInternal
@@ -30440,7 +30435,7 @@ rv
 ;
 }
 bool
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfLayoutChange
@@ -30489,7 +30484,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfLayoutChange
@@ -30600,7 +30595,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 NotifyTSFOfLayoutChange
@@ -30647,7 +30642,7 @@ ret
 ;
 }
 nsresult
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateCompositionInternal
@@ -30668,7 +30663,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateCompositionInternal
@@ -30706,7 +30701,7 @@ NS_OK
 ;
 }
 nsresult
-nsTextStore
+TSFTextStore
 :
 :
 OnMouseButtonEventInternal
@@ -30744,7 +30739,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 OnMouseButtonEventInternal
@@ -31181,7 +31176,7 @@ NS_OK
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 CreateNativeCaret
@@ -31202,7 +31197,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 CreateNativeCaret
@@ -31262,7 +31257,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 CreateNativeCaret
@@ -31366,7 +31361,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 CreateNativeCaret
@@ -31445,7 +31440,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 CreateNativeCaret
@@ -31517,7 +31512,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 CreateNativeCaret
@@ -31588,7 +31583,7 @@ y
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 CommitCompositionInternal
@@ -31611,7 +31606,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 CommitCompositionInternal
@@ -31766,7 +31761,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 CommitCompositionInternal
@@ -31907,7 +31902,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 CommitCompositionInternal
@@ -32060,7 +32055,7 @@ nullptr
 /
 static
 void
-nsTextStore
+TSFTextStore
 :
 :
 SetIMEOpenState
@@ -32080,7 +32075,7 @@ Debug
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 SetIMEOpenState
@@ -32129,7 +32124,7 @@ Debug
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 SetIMEOpenState
@@ -32176,7 +32171,7 @@ Debug
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 SetIMEOpenState
@@ -32215,12 +32210,11 @@ variant
 /
 static
 bool
-nsTextStore
+TSFTextStore
 :
 :
 GetIMEOpenState
 (
-void
 )
 {
 nsRefPtr
@@ -32314,7 +32308,7 @@ false
 /
 static
 void
-nsTextStore
+TSFTextStore
 :
 :
 SetInputContext
@@ -32343,7 +32337,7 @@ Debug
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 SetInputContext
@@ -32529,7 +32523,7 @@ aContext
 /
 static
 void
-nsTextStore
+TSFTextStore
 :
 :
 MarkContextAsKeyboardDisabled
@@ -32585,7 +32579,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 MarkContextAsKeyboardDisabled
@@ -32621,7 +32615,7 @@ Debug
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 MarkContextAsKeyboardDisabled
@@ -32659,7 +32653,7 @@ variant_int4_value1
 /
 static
 void
-nsTextStore
+TSFTextStore
 :
 :
 MarkContextAsEmpty
@@ -32715,7 +32709,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 MarkContextAsEmpty
@@ -32751,7 +32745,7 @@ Debug
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 MarkContextAsEmpty
@@ -32790,7 +32784,7 @@ variant_int4_value1
 /
 static
 void
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -32824,7 +32818,7 @@ Info
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -32855,7 +32849,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -32919,7 +32913,7 @@ Info
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33031,7 +33025,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33103,7 +33097,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33173,7 +33167,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33246,7 +33240,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33306,7 +33300,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33373,7 +33367,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33447,7 +33441,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33517,7 +33511,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33599,7 +33593,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33649,7 +33643,7 @@ Info
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33711,7 +33705,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -33881,7 +33875,7 @@ Info
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -34005,12 +33999,11 @@ sDoNotReturnNoLayoutErrorToGoogleJaInputAtCaret
 /
 static
 void
-nsTextStore
+TSFTextStore
 :
 :
 Terminate
 (
-void
 )
 {
 MOZ_LOG
@@ -34024,7 +34017,7 @@ Info
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 Terminate
@@ -34099,7 +34092,7 @@ nullptr
 /
 static
 bool
-nsTextStore
+TSFTextStore
 :
 :
 ProcessRawKeyMessage
@@ -34282,7 +34275,7 @@ false
 /
 static
 void
-nsTextStore
+TSFTextStore
 :
 :
 ProcessMessage
@@ -34446,7 +34439,7 @@ break
 /
 static
 bool
-nsTextStore
+TSFTextStore
 :
 :
 IsIMM_IME
@@ -34532,7 +34525,7 @@ IsIMM_IME
 /
 /
 *
-nsTextStore
+TSFTextStore
 :
 :
 Composition
@@ -34607,7 +34600,7 @@ Composition
 *
 /
 void
-nsTextStore
+TSFTextStore
 :
 :
 Composition
@@ -34640,7 +34633,7 @@ aCompositionStartOffset
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 Composition
@@ -34741,7 +34734,7 @@ Truncate
 *
 *
 *
-nsTextStore
+TSFTextStore
 :
 :
 Content
@@ -34825,7 +34818,7 @@ Content
 /
 const
 nsDependentSubstring
-nsTextStore
+TSFTextStore
 :
 :
 Content
@@ -34871,7 +34864,7 @@ Length
 }
 const
 nsDependentSubstring
-nsTextStore
+TSFTextStore
 :
 :
 Content
@@ -34901,7 +34894,7 @@ aLength
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 Content
@@ -35020,7 +35013,7 @@ i
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 Content
@@ -35329,7 +35322,7 @@ Length
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 Content
@@ -35471,7 +35464,7 @@ GetWritingMode
 }
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 Content
@@ -35614,7 +35607,7 @@ End
 *
 *
 *
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -35696,7 +35689,7 @@ MouseTracker
 *
 *
 /
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -35723,7 +35716,7 @@ kInvalidCookie
 {
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -35731,7 +35724,7 @@ MouseTracker
 :
 Init
 (
-nsTextStore
+TSFTextStore
 *
 aTextStore
 )
@@ -35750,7 +35743,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -35820,7 +35813,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -35879,7 +35872,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -35923,7 +35916,7 @@ instance
 must
 be
 in
-nsTextStore
+TSFTextStore
 :
 :
 mMouseTrackers
@@ -35954,7 +35947,7 @@ S_OK
 ;
 }
 HRESULT
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -35962,7 +35955,7 @@ MouseTracker
 :
 AdviseSink
 (
-nsTextStore
+TSFTextStore
 *
 aTextStore
 ITfRangeACP
@@ -35987,7 +35980,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36072,7 +36065,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36134,7 +36127,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36192,7 +36185,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36268,7 +36261,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36284,7 +36277,7 @@ due
 to
 failure
 of
-nsTextStore
+TSFTextStore
 :
 :
 GetCurrentText
@@ -36348,7 +36341,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36417,7 +36410,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36462,7 +36455,7 @@ S_OK
 ;
 }
 void
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36486,7 +36479,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36540,7 +36533,7 @@ mLength
 ;
 }
 bool
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36608,7 +36601,7 @@ TSF
 0x
 %
 p
-nsTextStore
+TSFTextStore
 :
 :
 MouseTracker
@@ -36673,7 +36666,7 @@ DEBUG
 /
 static
 bool
-nsTextStore
+TSFTextStore
 :
 :
 CurrentKeyboardLayoutHasIME
@@ -36697,7 +36690,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 CurrentKeyboardLayoutHasIME
@@ -36706,10 +36699,10 @@ CurrentKeyboardLayoutHasIME
 FAILED
 due
 to
+"
+"
 there
 is
-"
-"
 no
 input
 processor
@@ -36811,7 +36804,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 CurrentKeyboardLayoutHasIME
@@ -36939,7 +36932,7 @@ Error
 "
 TSF
 :
-nsTextStore
+TSFTextStore
 :
 :
 CurrentKeyboardLayoutHasIME
@@ -36978,3 +36971,13 @@ endif
 #
 ifdef
 DEBUG
+}
+/
+/
+name
+widget
+}
+/
+/
+name
+mozilla
