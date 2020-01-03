@@ -727,6 +727,11 @@ Cache
 object
 listener
 .
+if
+(
+cacheChild
+)
+{
 cacheChild
 -
 >
@@ -737,6 +742,7 @@ GetFeature
 )
 )
 ;
+}
 listener
 -
 >
