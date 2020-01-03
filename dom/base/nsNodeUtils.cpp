@@ -1315,14 +1315,14 @@ GetTarget
 (
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 KeyframeEffectReadonly
 *
 effect
 =
-aPlayer
+aAnimation
 -
 >
 GetEffect
@@ -1433,7 +1433,7 @@ AnimationAdded
 (
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 Element
@@ -1442,7 +1442,7 @@ target
 =
 GetTarget
 (
-aPlayer
+aAnimation
 )
 ;
 if
@@ -1480,7 +1480,7 @@ IMPL_ANIMATION_NOTIFICATION
 AnimationAdded
 target
 (
-aPlayer
+aAnimation
 )
 )
 ;
@@ -1494,7 +1494,7 @@ AnimationChanged
 (
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 Element
@@ -1503,7 +1503,7 @@ target
 =
 GetTarget
 (
-aPlayer
+aAnimation
 )
 ;
 if
@@ -1541,7 +1541,7 @@ IMPL_ANIMATION_NOTIFICATION
 AnimationChanged
 target
 (
-aPlayer
+aAnimation
 )
 )
 ;
@@ -1555,7 +1555,7 @@ AnimationRemoved
 (
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 Element
@@ -1564,7 +1564,7 @@ target
 =
 GetTarget
 (
-aPlayer
+aAnimation
 )
 ;
 if
@@ -1602,7 +1602,7 @@ IMPL_ANIMATION_NOTIFICATION
 AnimationRemoved
 target
 (
-aPlayer
+aAnimation
 )
 )
 ;

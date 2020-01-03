@@ -1908,7 +1908,7 @@ RecordAnimationMutation
 (
 Animation
 *
-aPlayer
+aAnimation
 AnimationMutation
 aMutationType
 )
@@ -1917,7 +1917,7 @@ KeyframeEffectReadonly
 *
 effect
 =
-aPlayer
+aAnimation
 -
 >
 GetEffect
@@ -2027,7 +2027,7 @@ nsAutoAnimationMutationBatch
 :
 AnimationAdded
 (
-aPlayer
+aAnimation
 )
 ;
 break
@@ -2040,7 +2040,7 @@ nsAutoAnimationMutationBatch
 :
 AnimationChanged
 (
-aPlayer
+aAnimation
 )
 ;
 break
@@ -2053,7 +2053,7 @@ nsAutoAnimationMutationBatch
 :
 AnimationRemoved
 (
-aPlayer
+aAnimation
 )
 ;
 break
@@ -2125,7 +2125,7 @@ mAddedAnimations
 .
 AppendElement
 (
-aPlayer
+aAnimation
 )
 ;
 break
@@ -2140,7 +2140,7 @@ mChangedAnimations
 .
 AppendElement
 (
-aPlayer
+aAnimation
 )
 ;
 break
@@ -2155,7 +2155,7 @@ mRemovedAnimations
 .
 AppendElement
 (
-aPlayer
+aAnimation
 )
 ;
 break
@@ -2170,12 +2170,12 @@ AnimationAdded
 (
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 RecordAnimationMutation
 (
-aPlayer
+aAnimation
 eAnimationMutation_Added
 )
 ;
@@ -2188,12 +2188,12 @@ AnimationChanged
 (
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 RecordAnimationMutation
 (
-aPlayer
+aAnimation
 eAnimationMutation_Changed
 )
 ;
@@ -2206,12 +2206,12 @@ AnimationRemoved
 (
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 RecordAnimationMutation
 (
-aPlayer
+aAnimation
 eAnimationMutation_Removed
 )
 ;
@@ -5913,7 +5913,7 @@ AppendElement
 (
 e
 .
-mPlayer
+mAnimation
 )
 ;
 }
@@ -5937,7 +5937,7 @@ AppendElement
 (
 e
 .
-mPlayer
+mAnimation
 )
 ;
 }
@@ -5966,7 +5966,7 @@ AppendElement
 (
 e
 .
-mPlayer
+mAnimation
 )
 ;
 }
