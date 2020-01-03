@@ -1293,7 +1293,7 @@ Cls
 >
 ;
 friend
-class
+struct
 detail
 :
 :
@@ -1540,7 +1540,7 @@ T
 >
 ;
 friend
-class
+struct
 detail
 :
 :
@@ -3218,7 +3218,7 @@ String
 >
 ;
 friend
-class
+struct
 detail
 :
 :
