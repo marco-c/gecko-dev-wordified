@@ -1639,6 +1639,12 @@ return
 tool
 .
 visibilityswitch
+&
+&
+!
+tool
+.
+hiddenInOptions
 ;
 }
 )
