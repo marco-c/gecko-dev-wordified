@@ -295,13 +295,6 @@ pkixtestutil
 .
 h
 "
-#
-include
-"
-secerr
-.
-h
-"
 using
 namespace
 mozilla
@@ -357,7 +350,7 @@ array
 out
 *
 /
-ScopedSECKEYPrivateKey
+ScopedTestKeyPair
 &
 subjectKey
 )
@@ -467,7 +460,7 @@ extension
 out
 *
 /
-ScopedSECKEYPrivateKey
+ScopedTestKeyPair
 &
 subjectKey
 )
@@ -906,7 +899,7 @@ Critical
 Extension
 "
 ;
-ScopedSECKEYPrivateKey
+ScopedTestKeyPair
 key
 ;
 ByteString
@@ -1140,7 +1133,7 @@ NonCritical
 Extension
 "
 ;
-ScopedSECKEYPrivateKey
+ScopedTestKeyPair
 key
 ;
 ByteString
@@ -1392,7 +1385,7 @@ OID
 Extension
 "
 ;
-ScopedSECKEYPrivateKey
+ScopedTestKeyPair
 key
 ;
 ByteString
@@ -1652,7 +1645,7 @@ AIA
 Extension
 "
 ;
-ScopedSECKEYPrivateKey
+ScopedTestKeyPair
 key
 ;
 ByteString
@@ -1874,7 +1867,7 @@ ce
 Extension
 "
 ;
-ScopedSECKEYPrivateKey
+ScopedTestKeyPair
 key
 ;
 ByteString
@@ -2115,7 +2108,7 @@ ce
 Extension
 "
 ;
-ScopedSECKEYPrivateKey
+ScopedTestKeyPair
 key
 ;
 ByteString
@@ -2364,7 +2357,7 @@ Duplicate
 subjectAltName
 "
 ;
-ScopedSECKEYPrivateKey
+ScopedTestKeyPair
 key
 ;
 ByteString
