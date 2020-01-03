@@ -1911,6 +1911,11 @@ ownerDocument
 .
 defaultView
 ;
+if
+(
+ownerWindow
+)
+{
 ownerWindow
 .
 removeEventListener
@@ -1923,6 +1928,7 @@ this
 _onResize
 )
 ;
+}
 this
 .
 _window
