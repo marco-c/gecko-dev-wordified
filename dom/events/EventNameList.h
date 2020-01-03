@@ -1929,7 +1929,7 @@ eMutationEventClass
 NON_IDL_EVENT
 (
 DOMSubtreeModified
-NS_MUTATION_SUBTREEMODIFIED
+eLegacySubtreeModified
 EventNameType_HTMLXUL
 eMutationEventClass
 )

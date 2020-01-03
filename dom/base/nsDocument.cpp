@@ -51920,7 +51920,7 @@ InternalMutationEvent
 mutation
 (
 true
-NS_MUTATION_SUBTREEMODIFIED
+eLegacySubtreeModified
 )
 ;
 (

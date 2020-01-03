@@ -556,7 +556,7 @@ aEventType
 )
 {
 case
-NS_MUTATION_SUBTREEMODIFIED
+eLegacySubtreeModified
 :
 return
 NS_EVENT_BITS_MUTATION_SUBTREEMODIFIED
@@ -1840,7 +1840,7 @@ eMutationEvent
 If
 aEventMessage
 is
-NS_MUTATION_SUBTREEMODIFIED
+eLegacySubtreeModified
 we
 need
 to
@@ -1867,7 +1867,7 @@ SetMutationListeners
 aEventMessage
 =
 =
-NS_MUTATION_SUBTREEMODIFIED
+eLegacySubtreeModified
 )
 ?
 kAllMutationBits
@@ -7352,7 +7352,7 @@ listener
 mEventMessage
 =
 =
-NS_MUTATION_SUBTREEMODIFIED
+eLegacySubtreeModified
 )
 {
 return
