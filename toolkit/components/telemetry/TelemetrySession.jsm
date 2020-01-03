@@ -10564,6 +10564,8 @@ registerChangeListener
 (
 ENVIRONMENT_CHANGE_LISTENER
 (
+reason
+data
 )
 =
 >
@@ -10571,6 +10573,8 @@ this
 .
 _onEnvironmentChange
 (
+reason
+data
 )
 )
 ;
@@ -10665,6 +10669,7 @@ _delayedInitTaskDeferred
 .
 reject
 (
+e
 )
 ;
 }
@@ -13632,6 +13637,8 @@ _onEnvironmentChange
 :
 function
 (
+reason
+data
 )
 {
 this
@@ -13643,6 +13650,7 @@ trace
 "
 _onEnvironmentChange
 "
+reason
 )
 ;
 let
