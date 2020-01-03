@@ -2765,7 +2765,7 @@ mozLoop
 getLoopPref
 (
 "
-contextInConversations
+contextInConverations
 .
 enabled
 "
