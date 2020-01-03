@@ -753,10 +753,7 @@ region
 *
 /
 {
-if
-(
-CKR_OK
-!
+rv
 =
 NSSCKFWMutex_Lock
 (
@@ -765,6 +762,13 @@ db
 >
 crustylock
 )
+;
+if
+(
+CKR_OK
+!
+=
+rv
 )
 {
 return
