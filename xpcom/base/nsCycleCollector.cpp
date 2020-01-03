@@ -7762,9 +7762,7 @@ aQueue
 Push
 (
 aPi
-fallible_t
-(
-)
+fallible
 )
 )
 {

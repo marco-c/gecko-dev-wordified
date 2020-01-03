@@ -276,9 +276,7 @@ PLDHashEntryStub
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 PL_DHASH_MAX_INITIAL_LENGTH
 )
 )
@@ -407,9 +405,7 @@ PLDHashEntryStub
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 PL_DHASH_MAX_INITIAL_LENGTH
 +
 1
@@ -624,9 +620,7 @@ OneKBEntry
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 PL_DHASH_MAX_INITIAL_LENGTH
 )
 )

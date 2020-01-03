@@ -8279,11 +8279,7 @@ mAutoBuf
 =
 new
 (
-(
-fallible_t
-(
-)
-)
+fallible
 )
 uint8_t
 [

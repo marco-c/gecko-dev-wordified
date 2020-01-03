@@ -964,9 +964,7 @@ PL_DHashTableInit
 table
 aOps
 aEntrySize
-fallible_t
-(
-)
+fallible
 aLength
 )
 )
@@ -1475,9 +1473,7 @@ PL_DHashTableInit
 aTable
 aOps
 aEntrySize
-fallible_t
-(
-)
+fallible
 aLength
 )
 )

@@ -15009,15 +15009,6 @@ if
 argc
 )
 {
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 mArgv
 =
 new

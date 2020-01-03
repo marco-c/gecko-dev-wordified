@@ -872,9 +872,7 @@ aData
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {

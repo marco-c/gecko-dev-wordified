@@ -1476,9 +1476,7 @@ buffer
 SetLength
 (
 outUnicodeLen
-fallible_t
-(
-)
+fallible
 )
 )
 return

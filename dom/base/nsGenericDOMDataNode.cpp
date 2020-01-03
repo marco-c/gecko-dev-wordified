@@ -5735,6 +5735,7 @@ mozilla
 :
 fallible_t
 &
+aFallible
 )
 {
 return
@@ -5743,12 +5744,7 @@ mText
 AppendTo
 (
 aResult
-mozilla
-:
-:
-fallible_t
-(
-)
+aFallible
 )
 ;
 }

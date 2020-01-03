@@ -920,9 +920,7 @@ sizeof
 (
 CompareCacheHashEntryPtr
 )
-fallible_t
-(
-)
+fallible
 64
 )
 )

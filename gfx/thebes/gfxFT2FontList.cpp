@@ -6738,15 +6738,6 @@ s
 installed
 fonts
 .
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 nsAutoArrayPtr
 <
 uint8_t

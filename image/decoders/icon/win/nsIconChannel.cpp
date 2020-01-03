@@ -2653,9 +2653,7 @@ aColorTableSize
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 ;
 if

@@ -2452,9 +2452,7 @@ encoded
 SetCapacity
 (
 destBufferLen
-fallible_t
-(
-)
+fallible
 )
 )
 {
@@ -3092,9 +3090,7 @@ Length
 )
 +
 destBufferLen
-fallible_t
-(
-)
+fallible
 )
 )
 {

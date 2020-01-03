@@ -10434,9 +10434,7 @@ payloadLength
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {
@@ -11226,9 +11224,7 @@ payloadLength
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {

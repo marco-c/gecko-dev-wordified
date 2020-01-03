@@ -6412,15 +6412,6 @@ uint8_t
 >
 pixelData
 ;
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 pixelData
 =
 new

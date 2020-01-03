@@ -7888,9 +7888,7 @@ aCount
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 return

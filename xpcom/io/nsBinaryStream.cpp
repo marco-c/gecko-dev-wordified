@@ -3791,9 +3791,7 @@ length
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {

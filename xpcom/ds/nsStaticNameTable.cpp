@@ -824,9 +824,7 @@ sizeof
 (
 NameTableEntry
 )
-fallible_t
-(
-)
+fallible
 aLength
 )
 )

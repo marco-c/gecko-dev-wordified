@@ -453,15 +453,6 @@ of
 the
 string
 .
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 nsAutoArrayPtr
 <
 char16_t

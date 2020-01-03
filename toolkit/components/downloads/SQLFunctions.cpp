@@ -548,9 +548,7 @@ length
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 NS_ERROR_OUT_OF_MEMORY
 )

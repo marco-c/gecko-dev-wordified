@@ -990,9 +990,7 @@ sizeof
 (
 PrefHashEntry
 )
-fallible_t
-(
-)
+fallible
 PREF_HASHTABLE_INITIAL_LENGTH
 )
 )

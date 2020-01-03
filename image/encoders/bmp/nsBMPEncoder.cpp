@@ -890,14 +890,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-static
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 nsAutoArrayPtr
 <
 uint8_t

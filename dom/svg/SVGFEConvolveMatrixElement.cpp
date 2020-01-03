@@ -1136,14 +1136,6 @@ NS_SVG_OFFSCREEN_MAX_DIMENSION
 return
 failureDescription
 ;
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 nsAutoArrayPtr
 <
 float

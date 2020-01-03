@@ -5101,9 +5101,7 @@ metaDataBuf
 SetLength
 (
 mdSize
-fallible_t
-(
-)
+fallible
 )
 )
 return

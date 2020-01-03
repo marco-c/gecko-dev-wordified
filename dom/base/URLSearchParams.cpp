@@ -1005,9 +1005,7 @@ aOutput
 SetLength
 (
 outputLength
-fallible_t
-(
-)
+fallible
 )
 )
 {

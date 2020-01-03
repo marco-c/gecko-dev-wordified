@@ -4226,9 +4226,7 @@ approxLen
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 /

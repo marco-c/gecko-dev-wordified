@@ -1589,15 +1589,6 @@ samples
 we
 have
 .
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 bool
 memoryAllocationSuccess
 =

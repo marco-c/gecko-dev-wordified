@@ -11540,9 +11540,7 @@ WCHAR
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {
@@ -11950,9 +11948,7 @@ len
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {

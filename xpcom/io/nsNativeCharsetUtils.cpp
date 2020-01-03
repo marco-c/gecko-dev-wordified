@@ -5468,9 +5468,7 @@ aOutput
 SetLength
 (
 inputLen
-fallible_t
-(
-)
+fallible
 )
 )
 {
@@ -6144,9 +6142,7 @@ aOutput
 SetLength
 (
 resultLen
-fallible_t
-(
-)
+fallible
 )
 )
 {
@@ -6301,9 +6297,7 @@ aOutput
 SetLength
 (
 resultLen
-fallible_t
-(
-)
+fallible
 )
 )
 {

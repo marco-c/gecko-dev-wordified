@@ -2114,15 +2114,6 @@ chunk
 "
 )
 ;
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 mData
 =
 new

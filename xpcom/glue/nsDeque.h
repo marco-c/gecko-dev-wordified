@@ -660,9 +660,10 @@ if
 Push
 (
 aItem
-fallible_t
-(
-)
+mozilla
+:
+:
+fallible
 )
 )
 {
@@ -729,9 +730,10 @@ if
 PushFront
 (
 aItem
-fallible_t
-(
-)
+mozilla
+:
+:
+fallible
 )
 )
 {

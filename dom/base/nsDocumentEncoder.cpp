@@ -2853,9 +2853,7 @@ charXferString
 SetLength
 (
 charLength
-fallible_t
-(
-)
+fallible
 )
 )
 return

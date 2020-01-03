@@ -3213,11 +3213,7 @@ array
 (
 new
 (
-(
-fallible_t
-(
-)
-)
+fallible
 )
 GLfloat
 [
