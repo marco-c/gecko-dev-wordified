@@ -256,6 +256,7 @@ prrng
 .
 h
 "
+BEGIN_BLUETOOTH_NAMESPACE
 using
 namespace
 mozilla
@@ -263,7 +264,6 @@ mozilla
 :
 ipc
 ;
-BEGIN_BLUETOOTH_NAMESPACE
 static
 const
 int
