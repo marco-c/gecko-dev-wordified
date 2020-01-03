@@ -3672,6 +3672,15 @@ aLayersId
 )
 const
 ;
+AsyncPanZoomController
+*
+FindRootContentApzcForLayersId
+(
+uint64_t
+aLayersId
+)
+const
+;
 already_AddRefed
 <
 AsyncPanZoomController
