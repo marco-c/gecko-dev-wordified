@@ -234,6 +234,10 @@ MediaOmxReader
 (
 aDecoder
 )
+mEnsureActiveFromSeek
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -564,6 +568,9 @@ RtspOmxReader
 RtspMediaResource
 *
 mRtspResource
+;
+bool
+mEnsureActiveFromSeek
 ;
 }
 ;
