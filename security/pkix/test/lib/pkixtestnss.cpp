@@ -1063,9 +1063,7 @@ Success
 )
 {
 return
-ByteString
-(
-)
+ENCODING_FAILED
 ;
 }
 uint8_t
@@ -1108,9 +1106,7 @@ SECSuccess
 )
 {
 return
-ByteString
-(
-)
+ENCODING_FAILED
 ;
 }
 return
