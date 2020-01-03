@@ -689,6 +689,17 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvAdoptChild
+(
+const
+uint64_t
+&
+child
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvMakeSnapshot
 (
 const
