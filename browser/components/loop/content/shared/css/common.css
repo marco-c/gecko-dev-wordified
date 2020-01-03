@@ -2143,11 +2143,13 @@ radius
 2px
 ;
 }
-body
+html
 [
 dir
 =
+"
 rtl
+"
 ]
 .
 dropdown
@@ -2409,7 +2411,7 @@ size
 1em
 ;
 }
-body
+html
 [
 dir
 =
