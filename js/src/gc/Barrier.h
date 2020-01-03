@@ -6048,6 +6048,14 @@ ReadBarrieredObject
 typedef
 ReadBarriered
 <
+JSScript
+*
+>
+ReadBarrieredScript
+;
+typedef
+ReadBarriered
+<
 ScriptSourceObject
 *
 >
