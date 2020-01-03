@@ -702,6 +702,14 @@ int32_t
 port
 )
 ;
+void
+ClearHostMapping
+(
+nsHttpConnectionInfo
+*
+ci
+)
+;
 private
 :
 nsRefPtrHashtable
