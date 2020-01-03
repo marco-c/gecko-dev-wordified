@@ -1151,6 +1151,9 @@ mIndexedDBAllowed
 bool
 mPrivateBrowsing
 ;
+bool
+mServiceWorkersTestingInWindow
+;
 WorkerLoadInfo
 (
 )
