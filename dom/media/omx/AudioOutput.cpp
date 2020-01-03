@@ -219,6 +219,13 @@ AudioOutput
 .
 h
 "
+#
+include
+"
+prlog
+.
+h
+"
 namespace
 mozilla
 {
