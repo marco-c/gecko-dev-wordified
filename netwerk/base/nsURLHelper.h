@@ -1955,7 +1955,11 @@ URL
 The
 default
 is
-2083
+1048576
+(
+1
+MB
+)
 .
 *
 Can
