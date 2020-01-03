@@ -525,7 +525,7 @@ gl
 >
 fClearDepth
 (
-v
+mDepthClearValue
 )
 ;
 }
