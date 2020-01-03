@@ -4402,7 +4402,7 @@ if
 group
 -
 >
-getPropertyCount
+basePropertyCount
 (
 )
 <
