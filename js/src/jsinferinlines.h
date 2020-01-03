@@ -1175,11 +1175,11 @@ TYPE_FLAG_LAZYARGS
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
-type
+JSValueType
 "
 )
 ;
@@ -1248,11 +1248,11 @@ JSVAL_TYPE_MAGIC
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
-type
+TypeFlags
 "
 )
 ;
@@ -2195,7 +2195,7 @@ class_
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad

@@ -326,13 +326,6 @@ return
 val
 ;
 }
-MOZ_ASSUME_UNREACHABLE
-(
-"
-unreachable
-"
-)
-;
 }
 public
 :

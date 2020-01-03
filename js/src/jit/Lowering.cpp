@@ -7460,7 +7460,7 @@ comp
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unrecognized
@@ -12644,7 +12644,7 @@ handle
 them
 yet
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -12923,7 +12923,7 @@ handle
 them
 yet
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -13222,7 +13222,7 @@ NaN
 not
 int32
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ToInt32
@@ -13237,7 +13237,7 @@ false
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -13424,7 +13424,7 @@ handle
 them
 yet
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -13779,7 +13779,7 @@ are
 not
 supported
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -15426,7 +15426,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 typed
@@ -16169,7 +16169,7 @@ ins
 case
 MIRType_Float32
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Float32
@@ -18047,7 +18047,7 @@ ins
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -18608,7 +18608,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 typed
@@ -19381,7 +19381,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 typed
@@ -20270,7 +20270,7 @@ ins
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -22699,7 +22699,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -25755,7 +25755,7 @@ ReturnReg
 )
 ;
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -26768,7 +26768,7 @@ LFloat32x4
 ins
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -26779,9 +26779,6 @@ generating
 constant
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -26969,7 +26966,7 @@ ins
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -26980,9 +26977,6 @@ extracting
 element
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -27350,7 +27344,7 @@ rhs
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -27361,9 +27355,6 @@ adding
 values
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -28597,7 +28588,7 @@ the
 register
 allocator
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -28646,7 +28637,7 @@ information
 for
 Range
 analysis
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -28679,7 +28670,7 @@ always
 recovered
 on
 bailouts
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -28712,7 +28703,7 @@ always
 recovered
 on
 bailouts
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected

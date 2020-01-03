@@ -7176,7 +7176,7 @@ offset
 size
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Entry
