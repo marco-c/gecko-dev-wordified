@@ -3079,6 +3079,9 @@ nsStyleContext
 aNewContext
 nsChangeHint
 aChangeToAssume
+uint32_t
+*
+aEqualStructs
 )
 ;
 /
