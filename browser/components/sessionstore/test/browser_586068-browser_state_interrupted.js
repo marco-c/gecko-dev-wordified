@@ -67,6 +67,11 @@ sessionstore
 restore_on_demand
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 function
