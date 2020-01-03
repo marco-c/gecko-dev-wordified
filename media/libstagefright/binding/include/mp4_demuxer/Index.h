@@ -187,6 +187,9 @@ Stream
 aSource
 uint32_t
 aTrackId
+Monitor
+*
+aMonitor
 )
 ;
 void
@@ -285,6 +288,10 @@ nsAutoPtr
 MoofParser
 >
 mMoofParser
+;
+Monitor
+*
+mMonitor
 ;
 }
 ;

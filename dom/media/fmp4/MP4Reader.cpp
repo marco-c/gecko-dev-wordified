@@ -1000,6 +1000,8 @@ GetResource
 (
 )
 )
+&
+mIndexMonitor
 )
 ;
 InitLayersBackendType
