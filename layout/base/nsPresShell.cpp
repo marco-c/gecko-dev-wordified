@@ -54648,7 +54648,7 @@ if
 view
 )
 return
-true
+mIsActive
 ;
 /
 /
