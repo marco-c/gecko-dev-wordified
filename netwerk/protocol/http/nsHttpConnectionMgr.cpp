@@ -5388,7 +5388,7 @@ aOriginalEntry
 mConnInfo
 -
 >
-GetHost
+GetOrigin
 (
 )
 aOriginalEntry
@@ -5397,7 +5397,7 @@ aOriginalEntry
 mConnInfo
 -
 >
-Port
+OriginPort
 (
 )
 &
