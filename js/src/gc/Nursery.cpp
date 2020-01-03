@@ -3963,11 +3963,6 @@ waitBackgroundFreeEnd
 (
 )
 {
-MOZ_ASSERT
-(
-freeMallocedBuffersTask
-)
-;
 freeMallocedBuffersTask
 -
 >
