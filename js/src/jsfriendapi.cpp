@@ -3707,8 +3707,7 @@ thing
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 gc
@@ -6869,8 +6868,7 @@ cell
 asTenured
 (
 )
--
->
+.
 zone
 (
 )

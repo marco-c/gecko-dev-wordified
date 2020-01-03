@@ -3190,8 +3190,7 @@ EXTENDED
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -3378,8 +3377,7 @@ kind
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

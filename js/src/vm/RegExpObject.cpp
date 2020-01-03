@@ -1546,8 +1546,7 @@ obj
 asTenured
 (
 )
--
->
+.
 zone
 (
 )

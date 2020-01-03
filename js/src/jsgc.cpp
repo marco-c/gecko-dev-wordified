@@ -3756,8 +3756,7 @@ t
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 )
@@ -25649,7 +25648,7 @@ StringWrapper
 )
 ;
 TenuredCell
-*
+&
 other
 =
 e
@@ -25716,8 +25715,7 @@ if
 (
 !
 other
--
->
+.
 isMarked
 (
 BLACK
@@ -25725,8 +25723,7 @@ BLACK
 |
 |
 other
--
->
+.
 isMarked
 (
 GRAY
@@ -25741,8 +25738,7 @@ Zone
 w
 =
 other
--
->
+.
 zone
 (
 )
@@ -25853,8 +25849,7 @@ Zone
 w
 =
 other
--
->
+.
 zone
 (
 )
@@ -27408,8 +27403,7 @@ src
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 GRAY
@@ -27459,8 +27453,7 @@ src
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 GRAY
@@ -38654,8 +38647,7 @@ obj
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -38731,8 +38723,7 @@ cell
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

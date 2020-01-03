@@ -715,8 +715,7 @@ IsBackgroundFinalized
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -7680,8 +7679,7 @@ baseobj
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

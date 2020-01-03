@@ -13890,8 +13890,7 @@ obj
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -14654,8 +14653,7 @@ obj
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -15854,8 +15852,7 @@ srcObj
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -16121,8 +16118,7 @@ toGCThing
 asTenured
 (
 )
--
->
+.
 zone
 (
 )
@@ -16648,8 +16644,7 @@ b
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -16725,8 +16720,7 @@ a
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -18316,8 +18310,7 @@ a
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -18332,8 +18325,7 @@ b
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

@@ -8975,8 +8975,7 @@ selfHostedObject
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

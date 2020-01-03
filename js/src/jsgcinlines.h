@@ -307,8 +307,7 @@ thing
 asTenured
 (
 )
--
->
+.
 arenaHeader
 (
 )
@@ -561,8 +560,7 @@ cell
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -2965,8 +2963,7 @@ t
 asTenured
 (
 )
--
->
+.
 arenaHeader
 (
 )

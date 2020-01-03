@@ -46836,8 +46836,7 @@ object
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

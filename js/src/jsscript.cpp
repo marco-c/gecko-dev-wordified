@@ -19224,8 +19224,7 @@ sourceObject
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 gc

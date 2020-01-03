@@ -1259,8 +1259,7 @@ key
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 BLACK
@@ -1274,8 +1273,7 @@ key
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 GRAY

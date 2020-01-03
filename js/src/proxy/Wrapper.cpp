@@ -1222,8 +1222,7 @@ toObject
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

@@ -892,8 +892,7 @@ obj
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 GRAY
