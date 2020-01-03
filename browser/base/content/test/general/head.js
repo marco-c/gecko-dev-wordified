@@ -1117,14 +1117,9 @@ Services
 .
 perms
 .
-remove
+removePermission
 (
 perm
-.
-host
-perm
-.
-type
 )
 ;
 }
