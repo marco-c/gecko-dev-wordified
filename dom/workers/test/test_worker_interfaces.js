@@ -1352,9 +1352,6 @@ false
 android
 :
 false
-release
-:
-false
 }
 /
 /
@@ -1382,9 +1379,6 @@ b2g
 :
 false
 android
-:
-false
-release
 :
 false
 }
@@ -1448,10 +1442,10 @@ name
 "
 ServiceWorkerRegistration
 "
-release
+b2g
 :
 false
-b2g
+android
 :
 false
 }
