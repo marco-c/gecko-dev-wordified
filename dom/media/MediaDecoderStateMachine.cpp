@@ -16167,7 +16167,6 @@ mSentPlaybackEndedEvent
 =
 true
 ;
-}
 /
 /
 Stop
@@ -16206,6 +16205,7 @@ StopPlayback
 (
 )
 ;
+}
 return
 NS_OK
 ;
