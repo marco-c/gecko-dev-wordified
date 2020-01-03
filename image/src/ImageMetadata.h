@@ -319,17 +319,6 @@ mSize
 height
 ;
 }
-nsIntSize
-GetSize
-(
-)
-const
-{
-return
-*
-mSize
-;
-}
 Orientation
 GetOrientation
 (
