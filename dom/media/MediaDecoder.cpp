@@ -2590,12 +2590,6 @@ mShuttingDown
 =
 true
 ;
-mTimedMetadataListener
-.
-Disconnect
-(
-)
-;
 /
 /
 This
@@ -2645,6 +2639,12 @@ mDecoderStateMachine
 -
 >
 DispatchShutdown
+(
+)
+;
+mTimedMetadataListener
+.
+Disconnect
 (
 )
 ;
