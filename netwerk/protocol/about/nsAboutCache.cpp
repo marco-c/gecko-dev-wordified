@@ -227,6 +227,9 @@ NewChannel
 nsIURI
 *
 aURI
+nsILoadInfo
+*
+aLoadInfo
 nsIChannel
 *
 *

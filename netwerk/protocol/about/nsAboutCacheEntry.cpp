@@ -708,6 +708,9 @@ NewChannel
 nsIURI
 *
 uri
+nsILoadInfo
+*
+aLoadInfo
 nsIChannel
 *
 *
