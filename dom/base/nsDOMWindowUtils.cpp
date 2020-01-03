@@ -10975,6 +10975,11 @@ GetNearestWidget
 pt
 +
 =
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 widget
 -
 >
@@ -10987,6 +10992,7 @@ targetWidget
 >
 WidgetToScreenOffset
 (
+)
 )
 ;
 WidgetQueryContentEvent

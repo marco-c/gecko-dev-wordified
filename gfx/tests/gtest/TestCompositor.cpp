@@ -560,14 +560,14 @@ NS_OK
 ;
 }
 virtual
-LayoutDeviceIntPoint
+nsIntPoint
 WidgetToScreenOffset
 (
 )
 MOZ_OVERRIDE
 {
 return
-LayoutDeviceIntPoint
+nsIntPoint
 (
 0
 0

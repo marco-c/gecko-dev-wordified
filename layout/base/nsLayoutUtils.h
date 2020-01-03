@@ -4882,10 +4882,7 @@ coordinates
 *
 /
 static
-mozilla
-:
-:
-LayoutDeviceIntPoint
+nsIntPoint
 TranslateViewToWidget
 (
 nsPresContext

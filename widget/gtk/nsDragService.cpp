@@ -11149,7 +11149,7 @@ aWindowPoint
 aWindow
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 )

@@ -1175,7 +1175,7 @@ client
 area
 origin
 )
-LayoutDeviceIntPoint
+nsIntPoint
 screenPoint
 =
 parentWidget

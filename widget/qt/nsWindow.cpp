@@ -3564,7 +3564,7 @@ return
 NS_OK
 ;
 }
-LayoutDeviceIntPoint
+nsIntPoint
 nsWindow
 :
 :
@@ -3600,7 +3600,7 @@ origin
 )
 ;
 return
-LayoutDeviceIntPoint
+nsIntPoint
 (
 origin
 .

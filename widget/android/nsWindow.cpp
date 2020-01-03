@@ -3360,7 +3360,7 @@ nsIntRect
 aRect
 )
 {
-LayoutDeviceIntPoint
+nsIntPoint
 p
 =
 WidgetToScreenOffset
@@ -3403,7 +3403,7 @@ return
 NS_OK
 ;
 }
-LayoutDeviceIntPoint
+nsIntPoint
 nsWindow
 :
 :
@@ -3411,7 +3411,7 @@ WidgetToScreenOffset
 (
 )
 {
-LayoutDeviceIntPoint
+nsIntPoint
 p
 (
 0
@@ -5817,6 +5817,8 @@ contextMenuEvent
 .
 refPoint
 =
+LayoutDeviceIntPoint
+(
 RoundedToInt
 (
 pt
@@ -5825,9 +5827,16 @@ GetDefaultScale
 (
 )
 )
+)
 -
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 WidgetToScreenOffset
 (
+)
 )
 ;
 contextMenuEvent

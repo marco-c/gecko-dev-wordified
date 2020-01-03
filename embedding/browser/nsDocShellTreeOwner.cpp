@@ -8340,7 +8340,7 @@ tipText
 tooltipText
 )
 ;
-LayoutDeviceIntPoint
+nsIntPoint
 screenDot
 =
 widget

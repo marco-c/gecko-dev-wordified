@@ -674,7 +674,7 @@ widget
 '
 s
 .
-LayoutDeviceIntPoint
+nsIntPoint
 offset
 =
 aWidget
@@ -696,13 +696,7 @@ mRect
 MoveBy
 (
 -
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 offset
-)
 )
 ;
 }

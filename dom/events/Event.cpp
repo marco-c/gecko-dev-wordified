@@ -4518,6 +4518,11 @@ offset
 =
 aPoint
 +
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 guiEvent
 -
 >
@@ -4526,6 +4531,7 @@ widget
 >
 WidgetToScreenOffset
 (
+)
 )
 ;
 nscoord
