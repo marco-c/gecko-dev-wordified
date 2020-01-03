@@ -1989,7 +1989,10 @@ address
 (
 )
 1
-DontUpdateTypes
+ShouldUpdateTypes
+:
+:
+DontUpdate
 )
 ;
 if
@@ -6709,7 +6712,10 @@ address
 (
 )
 1
-DontUpdateTypes
+ShouldUpdateTypes
+:
+:
+DontUpdate
 )
 ;
 if

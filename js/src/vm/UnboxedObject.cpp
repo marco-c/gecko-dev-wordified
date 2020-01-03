@@ -14437,7 +14437,7 @@ true
 DefineBoxedOrUnboxedFunctor6
 (
 SetOrExtendBoxedOrUnboxedDenseElements
-JSContext
+ExclusiveContext
 *
 JSObject
 *
@@ -14455,7 +14455,7 @@ js
 :
 SetOrExtendAnyBoxedOrUnboxedDenseElements
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
