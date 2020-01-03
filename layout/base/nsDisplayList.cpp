@@ -5781,14 +5781,10 @@ metrics
 .
 SetCumulativeResolution
 (
-LayoutDeviceToLayerScale2D
+aContainerParameters
+.
+Scale
 (
-aContainerParameters
-.
-mXScale
-aContainerParameters
-.
-mYScale
 )
 )
 ;
