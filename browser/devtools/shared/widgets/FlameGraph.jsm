@@ -302,7 +302,7 @@ px
 const
 OVERVIEW_HEADER_HEIGHT
 =
-18
+16
 ;
 /
 /
@@ -383,7 +383,7 @@ FLAME_GRAPH_BLOCK_TEXT_COLOR
 const
 FLAME_GRAPH_BLOCK_TEXT_FONT_SIZE
 =
-9
+8
 ;
 /
 /
@@ -400,7 +400,7 @@ serif
 const
 FLAME_GRAPH_BLOCK_TEXT_PADDING_TOP
 =
-1
+0
 ;
 /
 /
@@ -4952,7 +4952,7 @@ refresh
 const
 FLAME_GRAPH_BLOCK_HEIGHT
 =
-12
+11
 ;
 /
 /

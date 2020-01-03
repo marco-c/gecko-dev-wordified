@@ -63,7 +63,7 @@ xhtml
 let
 FLAME_GRAPH_BLOCK_TEXT_FONT_SIZE
 =
-9
+8
 ;
 /
 /

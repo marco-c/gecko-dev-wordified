@@ -129,7 +129,7 @@ ms
 const
 FRAMERATE_GRAPH_HEIGHT
 =
-45
+40
 ;
 /
 /
@@ -145,7 +145,7 @@ px
 const
 MARKERS_GRAPH_ROW_HEIGHT
 =
-11
+10
 ;
 /
 /
@@ -153,7 +153,7 @@ px
 const
 MARKERS_GROUP_VERTICAL_PADDING
 =
-5
+4
 ;
 /
 /
