@@ -424,6 +424,12 @@ pause
 ;
 virtual
 status_t
+resume
+(
+)
+;
+virtual
+status_t
 stop
 (
 )

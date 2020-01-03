@@ -258,6 +258,8 @@ RecorderState
 {
 kRecorderStopped
 kRecorderStarted
+kRecorderPaused
+kRecorderResumed
 kPosterCreated
 kPosterFailed
 #
@@ -436,6 +438,8 @@ kInStopFaceDetection
 kInTakePicture
 kInStartRecording
 kInStopRecording
+kInPauseRecording
+kInResumeRecording
 kInSetConfiguration
 kInStartPreview
 kInStopPreview
