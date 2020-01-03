@@ -875,7 +875,7 @@ case
 eMouseOut
 :
 case
-NS_MOUSE_MOZHITTEST
+eMouseHitTest
 :
 case
 eMouseMove
