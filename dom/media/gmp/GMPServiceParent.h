@@ -800,7 +800,7 @@ aPath
 const
 nsACString
 &
-aOrigin
+aSite
 )
 ;
 class
