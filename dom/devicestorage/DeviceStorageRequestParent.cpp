@@ -3340,7 +3340,7 @@ mFile
 mFile
 -
 >
-GetDiskFreeSpace
+GetStorageFreeSpace
 (
 &
 freeSpace

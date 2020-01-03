@@ -625,7 +625,7 @@ aTotalSoFar
 )
 ;
 void
-GetDiskFreeSpace
+GetStorageFreeSpace
 (
 int64_t
 *
@@ -1027,6 +1027,12 @@ return
 sInstanceCount
 ;
 }
+static
+void
+InvalidateVolumeCaches
+(
+)
+;
 nsresult
 Init
 (
