@@ -205,7 +205,9 @@ h
 #
 include
 "
-nsStackWalk
+mozilla
+/
+StackWalk
 .
 h
 "
@@ -837,7 +839,7 @@ ret
 return
 ;
 }
-NS_StackWalk
+MozStackWalk
 (
 ChromeStackWalker
 /

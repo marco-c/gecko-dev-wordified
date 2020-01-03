@@ -168,7 +168,9 @@ h
 #
 include
 "
-nsStackWalk
+mozilla
+/
+StackWalk
 .
 h
 "
@@ -289,7 +291,7 @@ lock
 /
 used
 by
-NS_DescribeCodeAddress
+MozDescribeCodeAddress
 .
 |
 DescribeCodeAddressLock
@@ -345,14 +347,14 @@ wrapper
 /
 /
 around
-NS_DescribeCodeAddress
+MozDescribeCodeAddress
 .
 /
 /
 /
 /
 However
-NS_DescribeCodeAddress
+MozDescribeCodeAddress
 is
 very
 slow
@@ -1105,7 +1107,7 @@ mNumCacheMisses
 ;
 /
 /
-NS_DescribeCodeAddress
+MozDescribeCodeAddress
 can
 (
 on
@@ -1178,7 +1180,7 @@ id
 363334
 #
 c3
-nsCodeAddressDetails
+MozCodeAddressDetails
 details
 ;
 {
@@ -1192,7 +1194,7 @@ Unlock
 (
 void
 )
-NS_DescribeCodeAddress
+MozDescribeCodeAddress
 (
 const_cast
 <
@@ -1266,7 +1268,7 @@ mPc
 aPc
 )
 ;
-NS_FormatCodeAddress
+MozFormatCodeAddress
 (
 aBuf
 aBufLen

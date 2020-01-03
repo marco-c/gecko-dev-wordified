@@ -206,7 +206,9 @@ h
 #
 include
 "
-nsStackWalk
+mozilla
+/
+StackWalk
 .
 h
 "
@@ -882,7 +884,7 @@ uintptr_t
 >
 rawStack
 ;
-NS_StackWalk
+MozStackWalk
 (
 RecordStackWalker
 /

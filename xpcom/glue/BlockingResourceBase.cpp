@@ -160,7 +160,9 @@ h
 #
 include
 "
-nsStackWalk
+mozilla
+/
+StackWalk
 .
 h
 "
@@ -421,7 +423,7 @@ this
 this
 fails
 .
-NS_StackWalk
+MozStackWalk
 (
 StackWalkCallback
 kSkipFrames
