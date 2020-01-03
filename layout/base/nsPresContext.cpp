@@ -12873,7 +12873,7 @@ NS_NewDOMNotifyPaintEvent
 eventTarget
 this
 nullptr
-NS_AFTERPAINT
+eAfterPaint
 aList
 )
 ;
