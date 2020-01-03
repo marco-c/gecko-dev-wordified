@@ -1032,6 +1032,17 @@ import
 \
 macro
 (
+CLASS
+"
+keyword
+'
+class
+'
+"
+)
+\
+macro
+(
 RESERVED
 "
 reserved

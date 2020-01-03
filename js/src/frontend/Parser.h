@@ -3846,6 +3846,11 @@ debuggerStatement
 )
 ;
 Node
+classStatement
+(
+)
+;
+Node
 lexicalDeclaration
 (
 bool
@@ -3992,6 +3997,7 @@ enum
 PropListType
 {
 ObjectLiteral
+ClassBody
 }
 ;
 bool
