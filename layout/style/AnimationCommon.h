@@ -423,6 +423,17 @@ const
 MOZ_MUST_OVERRIDE
 override
 ;
+/
+/
+nsARefreshObserver
+void
+WillRefresh
+(
+TimeStamp
+aTime
+)
+override
+;
 #
 ifdef
 DEBUG
