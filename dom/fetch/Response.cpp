@@ -348,7 +348,7 @@ init
 ;
 Optional
 <
-ArrayBufferOrArrayBufferViewOrBlobOrScalarValueStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
 >
 body
 ;
@@ -398,7 +398,7 @@ aGlobal
 const
 Optional
 <
-ArrayBufferOrArrayBufferViewOrBlobOrScalarValueStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
 >
 &
 aBody

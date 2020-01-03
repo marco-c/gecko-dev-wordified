@@ -633,7 +633,7 @@ struct
 RequestInit
 ;
 class
-RequestOrScalarValueString
+RequestOrUSVString
 ;
 class
 Selection
@@ -4927,7 +4927,7 @@ mozilla
 dom
 :
 :
-RequestOrScalarValueString
+RequestOrUSVString
 &
 aInput
 const

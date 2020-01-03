@@ -1291,7 +1291,7 @@ any
 "
                  
 "
-ScalarValueString
+USVString
 "
 ]
     
@@ -1422,7 +1422,7 @@ Enum
 Enum2
 "
 "
-ScalarValueString
+USVString
 "
 ]
     
@@ -1774,7 +1774,7 @@ nonStrings
 setDistinguishable
 (
 "
-ScalarValueString
+USVString
 "
 nonStrings
 )

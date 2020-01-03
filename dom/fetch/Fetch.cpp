@@ -656,7 +656,7 @@ nsIGlobalObject
 *
 aGlobal
 const
-RequestOrScalarValueString
+RequestOrUSVString
 &
 aInput
 const
@@ -1745,7 +1745,7 @@ NS_OK
 ;
 }
 nsresult
-ExtractFromScalarValueString
+ExtractFromUSVString
 (
 const
 nsString
@@ -2012,7 +2012,7 @@ nsresult
 ExtractByteStreamFromBody
 (
 const
-OwningArrayBufferOrArrayBufferViewOrBlobOrScalarValueStringOrURLSearchParams
+OwningArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
 &
 aBodyInit
 nsIInputStream
@@ -2121,7 +2121,7 @@ if
 (
 aBodyInit
 .
-IsScalarValueString
+IsUSVString
 (
 )
 )
@@ -2135,13 +2135,13 @@ Assign
 (
 aBodyInit
 .
-GetAsScalarValueString
+GetAsUSVString
 (
 )
 )
 ;
 return
-ExtractFromScalarValueString
+ExtractFromUSVString
 (
 str
 aStream
@@ -2196,7 +2196,7 @@ nsresult
 ExtractByteStreamFromBody
 (
 const
-ArrayBufferOrArrayBufferViewOrBlobOrScalarValueStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
 &
 aBodyInit
 nsIInputStream
@@ -2305,7 +2305,7 @@ if
 (
 aBodyInit
 .
-IsScalarValueString
+IsUSVString
 (
 )
 )
@@ -2319,13 +2319,13 @@ Assign
 (
 aBodyInit
 .
-GetAsScalarValueString
+GetAsUSVString
 (
 )
 )
 ;
 return
-ExtractFromScalarValueString
+ExtractFromUSVString
 (
 str
 aStream

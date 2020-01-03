@@ -34433,7 +34433,7 @@ nsGlobalWindow
 Fetch
 (
 const
-RequestOrScalarValueString
+RequestOrUSVString
 &
 aInput
 const

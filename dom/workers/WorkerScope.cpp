@@ -1480,7 +1480,7 @@ WorkerGlobalScope
 Fetch
 (
 const
-RequestOrScalarValueString
+RequestOrUSVString
 &
 aInput
 const

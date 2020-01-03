@@ -153,7 +153,7 @@ class
 Promise
 ;
 class
-RequestOrScalarValueString
+RequestOrUSVString
 ;
 }
 /
@@ -596,7 +596,7 @@ Promise
 Fetch
 (
 const
-RequestOrScalarValueString
+RequestOrUSVString
 &
 aInput
 const

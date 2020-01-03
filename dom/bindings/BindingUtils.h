@@ -11791,7 +11791,7 @@ s
 ;
 }
 void
-NormalizeScalarValueString
+NormalizeUSVString
 (
 JSContext
 *
@@ -11802,7 +11802,7 @@ aString
 )
 ;
 void
-NormalizeScalarValueString
+NormalizeUSVString
 (
 JSContext
 *
