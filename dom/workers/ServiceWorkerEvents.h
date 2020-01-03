@@ -221,8 +221,11 @@ Request
 >
 mRequest
 ;
-uint64_t
-mWindowId
+nsAutoPtr
+<
+ServiceWorkerClientInfo
+>
+mClientInfo
 ;
 bool
 mIsReload
@@ -291,8 +294,12 @@ ServiceWorker
 >
 &
 aServiceWorker
-uint64_t
-aWindowId
+nsAutoPtr
+<
+ServiceWorkerClientInfo
+>
+&
+aClientInfo
 )
 ;
 static
@@ -344,7 +351,7 @@ already_AddRefed
 <
 ServiceWorkerClient
 >
-Client
+GetClient
 (
 )
 ;
