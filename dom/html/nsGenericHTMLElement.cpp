@@ -8726,7 +8726,7 @@ left
 aData
 -
 >
-ValueForMarginLeftValue
+ValueForMarginLeft
 (
 )
 ;
@@ -8754,7 +8754,7 @@ right
 aData
 -
 >
-ValueForMarginRightValue
+ValueForMarginRight
 (
 )
 ;
