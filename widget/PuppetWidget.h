@@ -1500,9 +1500,6 @@ IME
 nsIMEUpdatePreference
 mIMEPreferenceOfParent
 ;
-bool
-mIMEComposing
-;
 /
 /
 Latest
