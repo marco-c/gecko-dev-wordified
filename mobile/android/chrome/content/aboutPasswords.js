@@ -1709,6 +1709,13 @@ Date
 (
 login
 .
+QueryInterface
+(
+Ci
+.
+nsILoginMetaInfo
+)
+.
 timePasswordChanged
 )
 ;
