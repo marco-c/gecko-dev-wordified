@@ -996,7 +996,7 @@ allow
 constant
 /
 /
-opererands
+operands
 when
 skipping
 bounds
