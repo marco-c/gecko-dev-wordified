@@ -2636,6 +2636,12 @@ false
 }
 if
 (
+mState
+!
+=
+TOUCHCARET_TOUCHDRAG_ACTIVE
+&
+&
 !
 nsLayoutUtils
 :
