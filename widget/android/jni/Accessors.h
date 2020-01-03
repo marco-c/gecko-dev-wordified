@@ -369,7 +369,7 @@ GetGeckoThreadEnv
 ;
 EnsureClassRef
 <
-class
+typename
 Traits
 :
 :
@@ -497,7 +497,7 @@ Accessor
 Base
 ;
 typedef
-class
+typename
 Traits
 :
 :
@@ -1021,7 +1021,7 @@ ReturnType
 >
 {
 typedef
-class
+typename
 Traits
 :
 :
@@ -1190,7 +1190,7 @@ Accessor
 Base
 ;
 typedef
-class
+typename
 Traits
 :
 :
