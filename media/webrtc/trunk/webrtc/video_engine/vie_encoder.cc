@@ -4342,6 +4342,11 @@ AddVideoFrame
 (
 *
 decimated_frame
+vpm_
+.
+ContentMetrics
+(
+)
 )
 !
 =
