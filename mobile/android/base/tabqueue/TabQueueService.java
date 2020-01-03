@@ -296,17 +296,6 @@ widget
 TextView
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
-ThreadUtils
-;
-import
 java
 .
 util
