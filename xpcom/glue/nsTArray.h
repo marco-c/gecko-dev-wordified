@@ -5715,6 +5715,15 @@ self_type
 aOther
 )
 {
+if
+(
+this
+!
+=
+&
+aOther
+)
+{
 ReplaceElementsAt
 (
 0
@@ -5733,6 +5742,7 @@ Length
 )
 )
 ;
+}
 return
 *
 this
@@ -5780,6 +5790,15 @@ self_type
 aOther
 )
 {
+if
+(
+this
+!
+=
+&
+aOther
+)
+{
 Clear
 (
 )
@@ -5789,6 +5808,7 @@ SwapElements
 aOther
 )
 ;
+}
 return
 *
 this
