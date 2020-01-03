@@ -7631,6 +7631,13 @@ FontHinting
 aHinting
 bool
 aAutoHinting
+AntialiasMode
+aAntialiasMode
+=
+AntialiasMode
+:
+:
+DEFAULT
 )
 ;
 #
