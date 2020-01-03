@@ -1657,6 +1657,9 @@ aWindow
 ServiceWorkerInfo
 *
 aInfo
+nsIRunnable
+*
+aLoadFailedRunnable
 ServiceWorker
 *
 *
@@ -1672,6 +1675,9 @@ aPrincipal
 ServiceWorkerInfo
 *
 aInfo
+nsIRunnable
+*
+aLoadFailedRunnable
 ServiceWorker
 *
 *
@@ -1710,6 +1716,9 @@ const
 nsACString
 &
 aScope
+nsIRunnable
+*
+aLoadFailedRunnable
 )
 ;
 void
