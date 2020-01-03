@@ -3253,10 +3253,6 @@ const
 nsCString
 &
 aReportsFinalFilename
-const
-nsString
-&
-aIdentifier
 )
 :
 mReportsWriter
@@ -3270,10 +3266,6 @@ aReportsTmpFile
 mReportsFilename
 (
 aReportsFinalFilename
-)
-mIdentifier
-(
-aIdentifier
 )
 {
 }
@@ -3766,9 +3758,6 @@ mReportsTmpFile
 nsCString
 mReportsFilename
 ;
-nsString
-mIdentifier
-;
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -4224,7 +4213,6 @@ TempDirMemoryFinishCallback
 reportsWriter
 reportsTmpFile
 reportsFinalFilename
-identifier
 )
 ;
 rv
