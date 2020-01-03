@@ -5859,13 +5859,6 @@ if
 num
 )
 {
-nsRenderingContext
-rendCtx
-(
-&
-aContext
-)
-;
 /
 /
 These
@@ -5966,8 +5959,7 @@ frame
 >
 PaintMark
 (
-&
-rendCtx
+aContext
 aTransform
 this
 &

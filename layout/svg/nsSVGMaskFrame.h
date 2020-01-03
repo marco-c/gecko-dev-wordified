@@ -159,9 +159,6 @@ h
 class
 gfxContext
 ;
-class
-nsRenderingContext
-;
 typedef
 nsSVGContainerFrame
 nsSVGMaskFrameBase
