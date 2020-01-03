@@ -1911,23 +1911,30 @@ one
 "
         
 #
-exec_file
-(
-)
-handles
-normalization
-and
-verification
-of
-the
 path
+is
+a
+SourcePath
+and
+needs
+to
+be
+coerced
+to
+unicode
 .
         
 self
 .
 exec_file
 (
+unicode
+(
 path
+)
+filesystem_absolute
+=
+True
 )
     
 def
@@ -8080,11 +8087,10 @@ items
             
 child_path
 =
-mozpath
+path
 .
 join
 (
-path
 '
 moz
 .
