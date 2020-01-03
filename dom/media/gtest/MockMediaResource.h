@@ -246,6 +246,7 @@ uint32_t
 *
 aBytes
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -375,6 +376,7 @@ aOffset
 uint32_t
 aCount
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
