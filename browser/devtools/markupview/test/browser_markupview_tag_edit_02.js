@@ -164,6 +164,7 @@ now
 "
 )
 ;
+yield
 assertAttributes
 (
 "
@@ -287,6 +288,7 @@ style
 "
 )
 ;
+yield
 assertAttributes
 (
 "
@@ -335,6 +337,7 @@ undoChange
 inspector
 )
 ;
+yield
 assertAttributes
 (
 "

@@ -533,12 +533,12 @@ false
 expectedAttributes
 :
 {
-toString
+tostring
 :
 "
 true
 "
-hasOwnProperty
+hasownproperty
 :
 "
 false

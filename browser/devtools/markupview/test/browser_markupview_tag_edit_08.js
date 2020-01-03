@@ -248,6 +248,7 @@ LONG_ATTRIBUTE
 yield
 onMutated
 ;
+yield
 assertAttributes
 (
 "
@@ -444,6 +445,7 @@ is
 visibleAttrText
 LONG_ATTRIBUTE_COLLAPSED
 )
+yield
 assertAttributes
 (
 "
@@ -499,6 +501,7 @@ containing
 "
 )
 ;
+yield
 assertAttributes
 (
 "
@@ -730,6 +733,7 @@ panelWin
 yield
 onMutated
 ;
+yield
 assertAttributes
 (
 "
@@ -806,6 +810,7 @@ and
 "
 )
 ;
+yield
 assertAttributes
 (
 "
@@ -991,6 +996,7 @@ panelWin
 yield
 onMutated
 ;
+yield
 assertAttributes
 (
 "
