@@ -249,7 +249,6 @@ s
 distinct
 char16_t
 type
-)
 .
 We
 would
