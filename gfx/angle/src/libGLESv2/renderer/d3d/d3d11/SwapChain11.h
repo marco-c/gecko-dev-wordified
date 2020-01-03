@@ -242,6 +242,12 @@ mKeyedMutex
 ;
 }
 ;
+virtual
+void
+releaseSync
+(
+)
+;
 static
 SwapChain11
 *

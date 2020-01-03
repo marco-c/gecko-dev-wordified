@@ -256,6 +256,14 @@ NULL
 ;
 }
 ;
+virtual
+void
+releaseSync
+(
+)
+{
+}
+;
 protected
 :
 rx
