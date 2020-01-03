@@ -587,11 +587,6 @@ timeout
 if
 (
 result
-<
-WAIT_OBJECT_0
-|
-|
-result
 >
 =
 WAIT_OBJECT_0

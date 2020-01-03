@@ -3212,12 +3212,6 @@ GetNumDataObjects
 if
 (
 anItem
->
-=
-0
-&
-&
-anItem
 <
 cnt
 )

@@ -2812,14 +2812,6 @@ AsSourceD3D9
 (
 )
 ;
-MOZ_ASSERT
-(
-aMaskTexture
->
-=
-0
-)
-;
 device
 (
 )
