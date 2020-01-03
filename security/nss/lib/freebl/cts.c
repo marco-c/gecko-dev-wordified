@@ -1821,11 +1821,6 @@ outbuf
 =
 fullblocks
 ;
-maxout
--
-=
-fullblocks
-;
 /
 *
 recover

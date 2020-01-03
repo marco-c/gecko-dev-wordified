@@ -481,6 +481,11 @@ PORT_ZNew
 CMMFCertResponse
 )
 ;
+if
+(
+certResponse
+)
+{
 rv
 =
 cmmf_CopyCertResponse
@@ -513,6 +518,7 @@ certResponse
 =
 NULL
 ;
+}
 }
 return
 certResponse
