@@ -286,6 +286,8 @@ uint16_t
 width
 uint16_t
 height
+uint8_t
+divisor
 int
 num_temporal_layers
 int32_t
@@ -774,6 +776,12 @@ codec_width_
 ;
 uint16_t
 codec_height_
+;
+uint16_t
+min_width_
+;
+uint16_t
+min_height_
 ;
 float
 user_frame_rate_
