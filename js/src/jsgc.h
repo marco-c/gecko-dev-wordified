@@ -204,6 +204,9 @@ h
 namespace
 js
 {
+class
+AutoLockGC
+;
 namespace
 gc
 {
@@ -6484,6 +6487,10 @@ taken
 void
 doSweep
 (
+const
+AutoLockGC
+&
+lock
 )
 ;
 public
