@@ -161,7 +161,7 @@ h
 #
 include
 "
-Opmapi
+opmapi
 .
 h
 "
