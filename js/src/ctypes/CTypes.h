@@ -2225,7 +2225,7 @@ GetABI
 /
 /
 and
-OBJECT_TO_JSVAL
+ObjectValue
 .
 Stored
 as
@@ -2755,7 +2755,7 @@ SLOT_ERRNO
 1
 /
 /
-jsval
+Value
 for
 latest
 |
@@ -2766,7 +2766,7 @@ SLOT_LASTERROR
 2
 /
 /
-jsval
+Value
 for
 latest
 |
@@ -3187,7 +3187,9 @@ SLOT_OWNS
 3
 /
 /
-JSVAL_TRUE
+TrueValue
+(
+)
 if
 this
 CData
@@ -3548,9 +3550,9 @@ type
 JSString
 *
 name
-jsval
+Value
 size
-jsval
+Value
 align
 ffi_type
 *
@@ -3582,9 +3584,9 @@ char
 name
 TypeCode
 type
-jsval
+Value
 size
-jsval
+Value
 align
 ffi_type
 *
@@ -3986,7 +3988,7 @@ HandleObject
 fnObj
 HandleObject
 thisObj
-jsval
+Value
 errVal
 PRFuncPtr
 *
@@ -4081,7 +4083,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -4107,7 +4109,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
