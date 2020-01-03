@@ -271,6 +271,8 @@ bool
 aSkipToNextKeyframe
 int64_t
 aTimeThreshold
+bool
+aForceDecodeAhead
 )
 override
 ;
@@ -933,6 +935,10 @@ mDecodeAhead
 (
 aDecodeAhead
 )
+mForceDecodeAhead
+(
+false
+)
 mActive
 (
 false
@@ -1139,6 +1145,9 @@ mNumSamplesOutput
 ;
 uint32_t
 mDecodeAhead
+;
+bool
+mForceDecodeAhead
 ;
 /
 /

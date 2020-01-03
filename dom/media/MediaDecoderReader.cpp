@@ -1835,6 +1835,13 @@ aSkip
 /
 true
 mTimeThreshold
+/
+*
+aForceDecodeAhead
+=
+*
+/
+false
 )
 ;
 }
@@ -1959,6 +1966,8 @@ bool
 aSkipToNextKeyframe
 int64_t
 aTimeThreshold
+bool
+aForceDecodeAhead
 )
 {
 nsRefPtr
