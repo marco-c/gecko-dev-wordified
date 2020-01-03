@@ -17494,6 +17494,12 @@ mask
 lhs
 rhs
 type
+/
+*
+isElementWise
+*
+/
+true
 )
 ;
 curBlock_
