@@ -55468,7 +55468,11 @@ resultString
 =
 this
 .
-readUCS2String
+context
+.
+ICCPDUHelper
+.
+readAlphaIdentifier
 (
 len
 -
