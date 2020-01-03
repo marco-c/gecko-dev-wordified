@@ -320,13 +320,6 @@ h
 #
 include
 "
-nsRadioInterfaceLayer
-.
-h
-"
-#
-include
-"
 WifiWorker
 .
 h

@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIIccProvider
-.
-h
-"
-#
-include
-"
 nsIIccService
 .
 h

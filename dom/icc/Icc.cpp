@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsIIccProvider
-.
-h
-"
-#
-include
-"
 nsIIccService
 .
 h
@@ -237,13 +230,6 @@ h
 include
 "
 nsIStkProactiveCmd
-.
-h
-"
-#
-include
-"
-nsRadioInterfaceLayer
 .
 h
 "
