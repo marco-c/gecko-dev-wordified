@@ -397,6 +397,9 @@ URIData
 struct
 WalkData
 ;
+struct
+URIFixupData
+;
 class
 OnWalk
 ;
@@ -452,6 +455,7 @@ aURI
 )
 const
 ;
+static
 nsresult
 GetLocalFileFromURI
 (
@@ -463,7 +467,6 @@ nsIFile
 *
 aLocalFile
 )
-const
 ;
 static
 nsresult
