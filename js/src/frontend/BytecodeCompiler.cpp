@@ -1074,6 +1074,8 @@ CanLazilyParse
 ExclusiveContext
 *
 cx
+HandleObject
+staticScope
 const
 ReadOnlyCompileOptions
 &
@@ -1087,9 +1089,10 @@ canLazilyParse
 &
 &
 !
-options
-.
-hasPollutedGlobalScope
+HasNonSyntacticStaticScopeChain
+(
+staticScope
+)
 &
 &
 !
@@ -1867,6 +1870,7 @@ canLazilyParse
 CanLazilyParse
 (
 cx
+enclosingStaticScope
 options
 )
 ;
@@ -4028,6 +4032,7 @@ canLazilyParse
 CanLazilyParse
 (
 cx
+enclosingStaticScope
 options
 )
 ;
