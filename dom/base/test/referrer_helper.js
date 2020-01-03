@@ -16,10 +16,10 @@ tests
 const
 GET_RESULT
 =
-sjs
+SJS
 +
 '
-action
+ACTION
 =
 get
 -
@@ -31,10 +31,10 @@ results
 const
 RESET_STATE
 =
-sjs
+SJS
 +
 '
-action
+ACTION
 =
 resetState
 '
@@ -577,7 +577,9 @@ searchParams
 .
 append
 (
+"
 ACTION
+"
 actionString
 )
 ;
@@ -585,7 +587,9 @@ searchParams
 .
 append
 (
+"
 NAME
+"
 tests
 [
 i
@@ -617,10 +621,7 @@ searchParams
 .
 append
 (
-window
-[
 l
-]
 tests
 [
 i
@@ -637,7 +638,7 @@ iframe
 .
 src
 =
-sjs
+SJS
 +
 searchParams
 .
