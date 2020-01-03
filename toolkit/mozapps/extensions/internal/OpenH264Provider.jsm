@@ -2027,7 +2027,7 @@ this
 .
 _log
 .
-warning
+warn
 (
 "
 startup
