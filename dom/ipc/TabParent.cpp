@@ -5467,6 +5467,7 @@ unused
 SendHandleDoubleTap
 (
 aPoint
+aModifiers
 aGuid
 )
 ;
@@ -5490,21 +5491,6 @@ ScrollableLayerGuid
 aGuid
 )
 {
-/
-/
-TODO
-Send
-the
-modifier
-data
-to
-TabChild
-for
-use
-in
-mouse
-events
-.
 if
 (
 !
@@ -5517,6 +5503,7 @@ unused
 SendHandleSingleTap
 (
 aPoint
+aModifiers
 aGuid
 )
 ;
@@ -5554,6 +5541,7 @@ unused
 SendHandleLongTap
 (
 aPoint
+aModifiers
 aGuid
 aInputBlockId
 )
@@ -5590,6 +5578,7 @@ unused
 SendHandleLongTapUp
 (
 aPoint
+aModifiers
 aGuid
 )
 ;
@@ -6467,6 +6456,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 ScrollableLayerGuid
 &
 aGuid
@@ -6491,6 +6484,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aModifiers
 aGuid
 )
 ;
@@ -6505,6 +6499,10 @@ const
 CSSPoint
 &
 aPoint
+const
+Modifiers
+&
+aModifiers
 const
 ScrollableLayerGuid
 &
@@ -6534,6 +6532,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aModifiers
 aGuid
 aInputBlockId
 )
@@ -6550,6 +6549,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 ScrollableLayerGuid
 &
 aGuid
@@ -6574,6 +6577,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aModifiers
 aGuid
 )
 ;
@@ -6588,6 +6592,10 @@ const
 CSSPoint
 &
 aPoint
+const
+Modifiers
+&
+aModifiers
 const
 ScrollableLayerGuid
 &
@@ -6613,6 +6621,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aModifiers
 aGuid
 )
 ;

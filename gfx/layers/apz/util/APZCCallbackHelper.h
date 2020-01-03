@@ -1019,6 +1019,8 @@ const
 LayoutDevicePoint
 &
 aRefPoint
+Modifiers
+aModifiers
 nsIWidget
 *
 aWidget
@@ -1116,6 +1118,8 @@ const
 LayoutDevicePoint
 &
 aPoint
+Modifiers
+aModifiers
 nsIWidget
 *
 aWidget
