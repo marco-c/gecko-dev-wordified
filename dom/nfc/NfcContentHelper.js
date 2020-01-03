@@ -446,16 +446,6 @@ TransceiveResponse
 "
 NFC
 :
-ConnectResponse
-"
-"
-NFC
-:
-CloseResponse
-"
-"
-NFC
-:
 CheckP2PRegistrationResponse
 "
 "
