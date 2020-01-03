@@ -3799,6 +3799,13 @@ return
 false
 ;
 }
+virtual
+void
+FlushContentDrawing
+(
+)
+{
+}
 protected
 :
 gfxPlatform
