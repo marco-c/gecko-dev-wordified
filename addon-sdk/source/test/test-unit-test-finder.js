@@ -398,6 +398,7 @@ works
 fileFilter
 testFilter
 }
+)
 =
 makeFilters
 (
@@ -409,7 +410,6 @@ i
 :
 "
 }
-)
 )
 ;
 testFiles
@@ -486,6 +486,7 @@ works
 fileFilter
 testFilter
 }
+)
 =
 makeFilters
 (
@@ -497,7 +498,6 @@ z
 :
 "
 }
-)
 )
 ;
 testFiles
@@ -680,6 +680,7 @@ works
 fileFilter
 testFilter
 }
+)
 =
 makeFilters
 (
@@ -691,7 +692,6 @@ filter
 z
 "
 }
-)
 )
 ;
 testFiles
@@ -876,6 +876,7 @@ works
 fileFilter
 testFilter
 }
+)
 =
 makeFilters
 (
@@ -888,7 +889,6 @@ z
 z
 "
 }
-)
 )
 ;
 testFiles
