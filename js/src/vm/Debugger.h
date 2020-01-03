@@ -3227,6 +3227,14 @@ JSTracer
 tracer
 )
 ;
+void
+traceTenurePromotionsLog
+(
+JSTracer
+*
+trc
+)
+;
 static
 const
 Class
@@ -4943,7 +4951,7 @@ global
 ;
 static
 void
-findCompartmentEdges
+findZoneEdges
 (
 JS
 :
