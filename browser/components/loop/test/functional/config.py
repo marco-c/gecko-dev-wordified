@@ -85,9 +85,13 @@ use_document_iceservers
 False
     
 "
-stun
+media
 .
-allow_loopback
+peerconnection
+.
+ice
+.
+loopback
 "
 :
 True
