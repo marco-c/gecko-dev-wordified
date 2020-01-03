@@ -5049,8 +5049,6 @@ const
 LogicalMargin
 &
 aBorderPadding
-nscoord
-aContainerWidth
 )
 ;
 int32_t
@@ -6008,6 +6006,11 @@ Next
 (
 )
 ;
+bool
+IsLeftToRight
+(
+)
+;
 int32_t
 Count
 (
@@ -6022,6 +6025,9 @@ nsIFrame
 *
 aFirstChild
 )
+;
+bool
+mLeftToRight
 ;
 nsIFrame
 *

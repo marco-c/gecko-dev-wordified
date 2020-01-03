@@ -5212,7 +5212,7 @@ computedBSize
 row
 -
 >
-GetUnpaginatedBSize
+GetUnpaginatedHeight
 (
 aPresContext
 )
