@@ -381,11 +381,6 @@ nsCertTree
 (
 )
 ;
-nsresult
-InitCompareHash
-(
-)
-;
 void
 ClearCompareHash
 (
@@ -589,6 +584,13 @@ aCertCmpFnArg
 ;
 private
 :
+static
+const
+uint32_t
+kInitialCacheLength
+=
+64
+;
 nsTArray
 <
 mozilla
@@ -623,7 +625,7 @@ mNumOrgs
 int32_t
 mNumRows
 ;
-PLDHashTable
+PLDHashTable2
 mCompareCache
 ;
 nsCOMPtr
