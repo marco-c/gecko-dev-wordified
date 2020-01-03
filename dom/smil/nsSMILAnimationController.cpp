@@ -5958,7 +5958,7 @@ key
 .
 mIsCSS
 ?
-eRestyle_StyleAttribute
+eRestyle_StyleAttribute_Animations
 :
 eRestyle_SVGAttrAnimations
 ;
