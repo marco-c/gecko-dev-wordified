@@ -409,8 +409,6 @@ gc
 :
 InitialHeap
 heap
-HandleShape
-shape
 HandleArrayObject
 sharedElementsOwner
 )

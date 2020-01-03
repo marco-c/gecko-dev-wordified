@@ -3433,6 +3433,13 @@ macro
 (
 Other
 NotLiveGCThing
+objectMetadataTable
+)
+\
+macro
+(
+Other
+NotLiveGCThing
 crossCompartmentWrappersTable
 )
 \

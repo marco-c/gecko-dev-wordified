@@ -1095,7 +1095,6 @@ TaggedProto
 (
 nullptr
 )
-nullptr
 nfixed
 BaseShape
 :
@@ -1237,7 +1236,6 @@ CallObject
 :
 :
 class_
-nullptr
 BaseShape
 :
 :
