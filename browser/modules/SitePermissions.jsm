@@ -1127,12 +1127,6 @@ indexedDB
 {
 }
 "
-fullscreen
-"
-:
-{
-}
-"
 pointerLock
 "
 :

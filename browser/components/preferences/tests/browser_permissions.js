@@ -194,11 +194,6 @@ popup
 :
 PERM_DENY
 "
-fullscreen
-"
-:
-PERM_UNKNOWN
-"
 camera
 "
 :
@@ -220,9 +215,6 @@ geo
 "
 indexedDB
 "
-"
-fullscreen
-"
 ]
 ;
 /
@@ -237,7 +229,7 @@ interface
 const
 TEST_PERMS_COUNT
 =
-9
+8
 ;
 function
 test
