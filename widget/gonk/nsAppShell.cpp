@@ -3603,10 +3603,11 @@ TimeStamp
 timestamp
 =
 TimeStamp
-:
-:
-Now
 (
+args
+-
+>
+eventTime
 )
 ;
 Modifiers
@@ -3845,10 +3846,7 @@ mTouchDispatcher
 NotifyTouch
 (
 touchData
-args
--
->
-eventTime
+timestamp
 )
 ;
 }

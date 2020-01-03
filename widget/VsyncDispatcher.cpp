@@ -237,8 +237,8 @@ DispatchTouchEvents
 (
 bool
 aNotifiedCompositors
-nsecs_t
-aAndroidVsyncTime
+TimeStamp
+aVsyncTime
 )
 {
 /
@@ -287,7 +287,7 @@ GeckoTouchDispatcher
 :
 NotifyVsync
 (
-aAndroidVsyncTime
+aVsyncTime
 )
 ;
 }
@@ -302,8 +302,6 @@ NotifyVsync
 (
 TimeStamp
 aVsyncTimestamp
-nsecs_t
-aAndroidVsyncTime
 )
 {
 bool
@@ -339,7 +337,7 @@ mCompositorObservers
 DispatchTouchEvents
 (
 notifiedCompositors
-aAndroidVsyncTime
+aVsyncTimestamp
 )
 ;
 }
@@ -410,6 +408,7 @@ aVsyncTimestamp
 ;
 }
 return
+!
 aObservers
 .
 IsEmpty

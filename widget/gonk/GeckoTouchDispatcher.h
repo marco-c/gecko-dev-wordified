@@ -393,7 +393,7 @@ NotifyTouch
 MultiTouchInput
 &
 aTouch
-uint64_t
+TimeStamp
 aEventTime
 )
 ;
@@ -408,7 +408,7 @@ aMultiTouch
 void
 DispatchTouchMoveEvents
 (
-uint64_t
+TimeStamp
 aVsyncTime
 )
 ;
@@ -416,7 +416,7 @@ static
 bool
 NotifyVsync
 (
-uint64_t
+TimeStamp
 aVsyncTimestamp
 )
 ;
@@ -428,7 +428,7 @@ InterpolateTouch
 MultiTouchInput
 &
 aOutTouch
-uint64_t
+TimeStamp
 aSampleTime
 )
 ;
@@ -438,7 +438,7 @@ ExtrapolateTouch
 MultiTouchInput
 &
 aOutTouch
-uint64_t
+TimeStamp
 aSampleTime
 )
 ;
@@ -448,7 +448,7 @@ ResampleTouchMoves
 MultiTouchInput
 &
 aOutTouch
-uint64_t
+TimeStamp
 vsyncTime
 )
 ;
@@ -535,7 +535,7 @@ below
 are
 in
 nanoseconds
-int32_t
+TimeDuration
 mVsyncAdjust
 ;
 /
@@ -548,7 +548,7 @@ create
 sample
 times
 from
-int32_t
+TimeDuration
 mMaxPredict
 ;
 /
@@ -583,7 +583,7 @@ we
 /
 /
 resample
-int32_t
+TimeDuration
 mMinResampleTime
 ;
 /
@@ -598,7 +598,7 @@ two
 touch
 move
 events
-int64_t
+TimeDuration
 mTouchTimeDiff
 ;
 /
@@ -613,7 +613,7 @@ last
 touch
 event
 occured
-uint64_t
+TimeStamp
 mLastTouchTime
 ;
 /
@@ -629,7 +629,7 @@ far
 behind
 touch
 events
-uint64_t
+TimeDuration
 mDelayedVsyncThreshold
 ;
 }

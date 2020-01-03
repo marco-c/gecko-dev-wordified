@@ -138,15 +138,6 @@ ThreadSafeRefcountingWithMainThreadDestruction
 .
 h
 "
-typedef
-int64_t
-nsecs_t
-;
-/
-/
-nano
--
-seconds
 class
 MessageLoop
 ;
@@ -288,8 +279,6 @@ NotifyVsync
 (
 TimeStamp
 aVsyncTimestamp
-nsecs_t
-aAndroidVsyncTime
 )
 ;
 /
@@ -339,8 +328,8 @@ DispatchTouchEvents
 (
 bool
 aNotifiedCompositors
-nsecs_t
-aAndroidVSyncTime
+TimeStamp
+aVsyncTime
 )
 ;
 /
