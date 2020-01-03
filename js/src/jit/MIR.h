@@ -17664,6 +17664,10 @@ setResultType
 MIRType_Object
 )
 ;
+if
+(
+constraints
+)
 setResultTypeSet
 (
 MakeSingletonTypeSet
