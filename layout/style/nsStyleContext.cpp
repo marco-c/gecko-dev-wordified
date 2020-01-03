@@ -6191,7 +6191,7 @@ MaxDifference
 ;
 \
 nsChangeHint
-maxDifferenceNeverInherited
+differenceAlwaysHandledForDescendants
 =
 \
 nsStyle
@@ -6200,7 +6200,7 @@ nsStyle
 struct_
 :
 :
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 ;
@@ -6267,7 +6267,7 @@ NS_SubtractHint
 (
 maxDifference
 \
-maxDifferenceNeverInherited
+differenceAlwaysHandledForDescendants
 )
 &
 \
@@ -9014,7 +9014,7 @@ nsStyle
 name
 :
 :
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 \
