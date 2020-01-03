@@ -11868,7 +11868,9 @@ from
 the
 array
 let
+[
 closedTab
+]
 =
 closedTabs
 .
@@ -11876,10 +11878,6 @@ splice
 (
 aIndex
 1
-)
-.
-shift
-(
 )
 ;
 let
