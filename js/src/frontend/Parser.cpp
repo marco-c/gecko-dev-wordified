@@ -4429,6 +4429,13 @@ globalsc
 (
 context
 directives
+/
+*
+staticEvalScope
+=
+*
+/
+nullptr
 options
 (
 )

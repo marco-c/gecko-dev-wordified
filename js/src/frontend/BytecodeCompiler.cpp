@@ -2043,6 +2043,7 @@ globalsc
 (
 cx
 directives
+evalStaticScope
 options
 .
 extraWarningsOption
@@ -2144,7 +2145,6 @@ options
 .
 forEval
 evalCaller
-evalStaticScope
 insideNonGlobalEval
 options
 .
@@ -3749,13 +3749,6 @@ evalCaller
 nullptr
 /
 *
-evalStaticScope
-=
-*
-/
-nullptr
-/
-*
 insideNonGlobalEval
 =
 *
@@ -4624,13 +4617,6 @@ false
 /
 *
 evalCaller
-=
-*
-/
-nullptr
-/
-*
-evalStaticScope
 =
 *
 /
