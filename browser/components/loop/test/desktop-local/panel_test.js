@@ -1550,7 +1550,7 @@ key
 =
 =
 "
-share_email_subject2
+share_email_subject3
 "
 )
 text
@@ -1569,7 +1569,7 @@ key
 =
 =
 "
-share_email_body2
+share_email_body3
 "
 )
 text
