@@ -876,7 +876,6 @@ ResourceHashEntry
 MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 nullptr
 }
 ;
@@ -1083,7 +1082,6 @@ LiteralHashEntry
 MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 nullptr
 }
 ;
@@ -1283,7 +1281,6 @@ IntHashEntry
 MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 nullptr
 }
 ;
@@ -1524,7 +1521,6 @@ DateHashEntry
 MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 nullptr
 }
 ;
@@ -2109,7 +2105,6 @@ BlobHashEntry
 MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 nullptr
 }
 ;

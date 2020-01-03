@@ -632,7 +632,6 @@ PL_DHashVoidPtrKeyStub
 PL_DHashMatchEntryStub
 PL_DHashMoveEntryStub
 RequestInfoHashClearEntry
-PL_DHashFinalizeStub
 RequestInfoHashInitEntry
 }
 ;

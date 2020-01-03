@@ -553,7 +553,6 @@ PL_DHashVoidPtrKeyStub
 CompareCacheMatchEntry
 PL_DHashMoveEntryStub
 CompareCacheClearEntry
-PL_DHashFinalizeStub
 CompareCacheInitEntry
 }
 ;

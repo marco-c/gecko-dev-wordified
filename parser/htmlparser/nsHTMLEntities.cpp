@@ -330,7 +330,6 @@ PL_DHashStringKey
 matchNodeString
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 nullptr
 }
 ;
@@ -346,7 +345,6 @@ hashUnicodeValue
 matchNodeUnicode
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 nullptr
 }
 ;

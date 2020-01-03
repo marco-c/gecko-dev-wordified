@@ -1738,7 +1738,6 @@ AtomTableGetHash
 AtomTableMatchKey
 PL_DHashMoveEntryStub
 AtomTableClearEntry
-PL_DHashFinalizeStub
 AtomTableInitEntry
 }
 ;

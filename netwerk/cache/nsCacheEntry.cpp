@@ -1915,7 +1915,6 @@ HashKey
 MatchEntry
 MoveEntry
 ClearEntry
-PL_DHashFinalizeStub
 }
 ;
 nsCacheEntryHashTable

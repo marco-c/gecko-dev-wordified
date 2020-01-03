@@ -2392,7 +2392,6 @@ PL_DHashVoidPtrKeyStub
 RuleHash_TagTable_MatchEntry
 RuleHash_TagTable_MoveEntry
 RuleHash_TagTable_ClearEntry
-PL_DHashFinalizeStub
 RuleHash_TagTable_InitEntry
 }
 ;
@@ -2416,7 +2415,6 @@ PL_DHashVoidPtrKeyStub
 RuleHash_CSMatchEntry
 RuleHash_MoveEntry
 RuleHash_ClearEntry
-PL_DHashFinalizeStub
 RuleHash_InitEntry
 }
 RuleHash_ClassTable_GetKey
@@ -2442,7 +2440,6 @@ RuleHash_CIHashKey
 RuleHash_CIMatchEntry
 RuleHash_MoveEntry
 RuleHash_ClearEntry
-PL_DHashFinalizeStub
 RuleHash_InitEntry
 }
 RuleHash_ClassTable_GetKey
@@ -2468,7 +2465,6 @@ PL_DHashVoidPtrKeyStub
 RuleHash_CSMatchEntry
 RuleHash_MoveEntry
 RuleHash_ClearEntry
-PL_DHashFinalizeStub
 RuleHash_InitEntry
 }
 RuleHash_IdTable_GetKey
@@ -2494,7 +2490,6 @@ RuleHash_CIHashKey
 RuleHash_CIMatchEntry
 RuleHash_MoveEntry
 RuleHash_ClearEntry
-PL_DHashFinalizeStub
 RuleHash_InitEntry
 }
 RuleHash_IdTable_GetKey
@@ -2512,7 +2507,6 @@ RuleHash_NameSpaceTable_HashKey
 RuleHash_NameSpaceTable_MatchEntry
 RuleHash_MoveEntry
 RuleHash_ClearEntry
-PL_DHashFinalizeStub
 RuleHash_InitEntry
 }
 ;
@@ -5090,7 +5084,6 @@ PL_DHashVoidPtrKeyStub
 PL_DHashMatchEntryStub
 AtomSelector_MoveEntry
 AtomSelector_ClearEntry
-PL_DHashFinalizeStub
 AtomSelector_InitEntry
 }
 ;
@@ -5114,7 +5107,6 @@ RuleHash_CIHashKey
 RuleHash_CIMatchEntry
 AtomSelector_MoveEntry
 AtomSelector_ClearEntry
-PL_DHashFinalizeStub
 AtomSelector_InitEntry
 }
 AtomSelector_GetKey
@@ -20091,7 +20083,6 @@ HashIntKey
 MatchWeightEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 InitWeightEntry
 }
 ;

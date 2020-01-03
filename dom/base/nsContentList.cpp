@@ -986,7 +986,6 @@ ContentListHashtableHashKey
 ContentListHashtableMatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 /
@@ -1477,7 +1476,6 @@ FuncStringContentListHashtableHashKey
 FuncStringContentListHashtableMatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 /

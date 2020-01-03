@@ -181,7 +181,6 @@ HashKey
 HashMatchEntry
 HashMoveEntry
 HashClearEntry
-PL_DHashFinalizeStub
 }
 ;
 NS_IMPL_ISUPPORTS

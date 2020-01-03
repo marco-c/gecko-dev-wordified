@@ -550,7 +550,6 @@ PL_DHashVoidPtrKeyStub
 PlaceholderMapMatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 nullptr
 }
 ;

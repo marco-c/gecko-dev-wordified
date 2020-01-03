@@ -1745,7 +1745,6 @@ HashIIDPtrKey
 MatchIIDPtrKey
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 /
@@ -1938,7 +1937,6 @@ HashIIDPtrKey
 MatchIIDPtrKey
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 /
@@ -3300,7 +3298,6 @@ HashNativeKey
 Match
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 /
@@ -3680,7 +3677,6 @@ HashIIDPtrKey
 Match
 PL_DHashMoveEntryStub
 Clear
-PL_DHashFinalizeStub
 }
 ;
 /
@@ -4135,7 +4131,6 @@ Hash
 Match
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 /

@@ -524,7 +524,6 @@ PL_DHashStringKey
 matchPrefEntry
 PL_DHashMoveEntryStub
 clearPrefEntry
-PL_DHashFinalizeStub
 nullptr
 }
 ;

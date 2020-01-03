@@ -212,7 +212,6 @@ PL_DHashVoidPtrKeyStub
 ObjectSetMatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 ObjectSetInitEntry
 }
 ;

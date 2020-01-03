@@ -547,7 +547,6 @@ PL_DHashVoidPtrKeyStub
 RequestMapMatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 RequestMapInitEntry
 }
 ;
