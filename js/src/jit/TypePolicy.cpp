@@ -8190,6 +8190,14 @@ ObjectPolicy
 \
 _
 (
+SimdSameAsReturnedTypePolicy
+<
+0
+>
+)
+\
+_
+(
 StringPolicy
 <
 0
