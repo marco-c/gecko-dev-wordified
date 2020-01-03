@@ -11990,6 +11990,10 @@ if
 firstTime
 )
 {
+firstTime
+=
+false
+;
 AssertIsOnMainThread
 (
 )
@@ -12013,10 +12017,6 @@ ClearOnShutdown
 &
 gInstance
 )
-;
-firstTime
-=
-false
 ;
 }
 nsRefPtr
