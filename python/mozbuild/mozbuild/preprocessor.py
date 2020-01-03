@@ -186,10 +186,6 @@ sys
 import
 os
 import
-os
-.
-path
-import
 re
 from
 optparse

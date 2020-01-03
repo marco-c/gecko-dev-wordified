@@ -143,12 +143,6 @@ from
 __future__
 import
 unicode_literals
-import
-os
-from
-collections
-import
-OrderedDict
 from
 mozbuild
 .

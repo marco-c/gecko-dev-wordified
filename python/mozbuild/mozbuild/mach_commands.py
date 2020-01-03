@@ -62,8 +62,6 @@ unicode_literals
 import
 argparse
 import
-itertools
-import
 json
 import
 logging

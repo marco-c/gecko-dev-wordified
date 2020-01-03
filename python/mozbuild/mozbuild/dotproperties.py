@@ -79,8 +79,6 @@ codecs
 import
 re
 import
-os
-import
 sys
 if
 sys

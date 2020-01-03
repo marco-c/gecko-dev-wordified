@@ -61,8 +61,6 @@ unicode_literals
 import
 os
 import
-re
-import
 subprocess
 from
 mach
