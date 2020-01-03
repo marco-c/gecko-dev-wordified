@@ -519,6 +519,12 @@ GMPVideoHost
 *
 mHost
 ;
+GMPVideoCodec
+mCodecParams
+;
+uint32_t
+mMaxPayloadSize
+;
 webrtc
 :
 :
