@@ -3631,7 +3631,7 @@ topFromGecko
 )
 ;
 }
-private
+public
 void
 stopZoomDisplay
 (
