@@ -9300,6 +9300,17 @@ roles
 :
 COMBOBOX_LIST
 ;
+}
+else
+{
+/
+/
+Listbox
+is
+owned
+by
+a
+combobox
 Relation
 rel
 =
