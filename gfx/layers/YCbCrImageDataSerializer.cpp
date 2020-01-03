@@ -207,6 +207,13 @@ for
 ConvertYCbCrToRGB32
 etc
 #
+include
+"
+nsDebug
+.
+h
+"
+#
 define
 MOZ_ALIGN_WORD
 (
