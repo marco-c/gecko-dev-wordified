@@ -204,7 +204,10 @@ getter_AddRefs
 mThread
 )
 nullptr
-MEDIA_THREAD_STACK_SIZE
+SharedThreadPool
+:
+:
+kStackSize
 )
 ;
 mIsOpen
