@@ -408,10 +408,7 @@ if
 !
 emitTracelogStopEvent
 (
-TraceLogger
-:
-:
-IonMonkey
+TraceLogger_IonMonkey
 )
 )
 return

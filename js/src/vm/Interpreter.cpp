@@ -9750,7 +9750,7 @@ script
 )
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =

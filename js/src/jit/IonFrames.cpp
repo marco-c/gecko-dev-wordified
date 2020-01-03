@@ -4604,7 +4604,7 @@ GetJSContextFromJitCode
 (
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =

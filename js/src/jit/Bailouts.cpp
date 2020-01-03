@@ -352,7 +352,7 @@ invalidated
 )
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -894,7 +894,7 @@ iter
 jitActivations
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
