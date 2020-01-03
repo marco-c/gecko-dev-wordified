@@ -124,10 +124,6 @@ gfx2DGlue
 .
 h
 "
-/
-/
-for
-gfxMemoryLocation
 #
 include
 "
