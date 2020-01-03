@@ -231,6 +231,13 @@ h
 #
 include
 "
+nsTObserverArray
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -2909,7 +2916,7 @@ ParentType
 >
 mChildWorkers
 ;
-nsTArray
+nsTObserverArray
 <
 WorkerFeature
 *
