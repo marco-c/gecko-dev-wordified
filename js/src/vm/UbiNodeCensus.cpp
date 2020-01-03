@@ -3356,6 +3356,11 @@ typeName
 (
 )
 ;
+MOZ_ASSERT
+(
+key
+)
+;
 Table
 :
 :
