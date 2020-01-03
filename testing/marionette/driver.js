@@ -285,7 +285,7 @@ cookiemanager
 1
 "
 "
-nsICookieManager
+nsICookieManager2
 "
 )
 ;
@@ -19581,7 +19581,10 @@ en
 =
 cookieManager
 .
-enumerator
+getCookiesFromHost
+(
+host
+)
 ;
 while
 (
@@ -19605,7 +19608,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie
+nsICookie2
 )
 ;
 /
@@ -19702,6 +19705,13 @@ expiry
 cookie
 .
 expires
+"
+httpOnly
+"
+:
+cookie
+.
+isHttpOnly
 }
 )
 ;
@@ -19784,7 +19794,9 @@ value
 cookieToAdd
 .
 secure
-false
+cookieToAdd
+.
+httpOnly
 false
 cookieToAdd
 .

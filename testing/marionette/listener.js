@@ -12553,6 +12553,13 @@ cookie
 .
 isSecure
 '
+httpOnly
+'
+:
+cookie
+.
+httpOnly
+'
 expiry
 '
 :
