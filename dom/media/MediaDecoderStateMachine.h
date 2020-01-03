@@ -4406,9 +4406,9 @@ a
 task
 to
 the
-decode
-task
-queue
+state
+machine
+thread
 to
 begin
 decoding
@@ -4704,6 +4704,11 @@ DispatchDecodeTasksIfNeeded
 (
 )
 ;
+void
+AcquireMonitorAndInvokeDispatchDecodeTasksIfNeeded
+(
+)
+;
 /
 /
 Returns
@@ -4981,7 +4986,8 @@ decoding
 Called
 on
 the
-decode
+state
+machine
 thread
 .
 /
