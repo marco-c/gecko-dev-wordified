@@ -2586,6 +2586,9 @@ aTextureFactoryIdentifier
 uint64_t
 *
 aLayersId
+bool
+*
+aAsyncPanZoomEnabled
 )
 override
 ;
@@ -2795,6 +2798,12 @@ CSSPoint
 &
 aPoint
 )
+;
+bool
+AsyncPanZoomEnabled
+(
+)
+const
 ;
 /
 /
