@@ -246,7 +246,7 @@ dom
 /
 cache
 /
-PCacheTypes
+CacheTypes
 .
 h
 "
@@ -5318,7 +5318,7 @@ mCacheId
 struct
 Entry
 {
-PCacheRequest
+CacheRequest
 mRequest
 ;
 nsCOMPtr
@@ -5336,7 +5336,7 @@ nsISupports
 >
 mRequestCopyContext
 ;
-PCacheResponse
+CacheResponse
 mResponse
 ;
 nsCOMPtr
