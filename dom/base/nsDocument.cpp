@@ -42996,7 +42996,7 @@ false
 allowDoubleTapZoom
 *
 /
-true
+false
 )
 ;
 }
@@ -43027,7 +43027,7 @@ false
 allowDoubleTapZoom
 *
 /
-true
+false
 )
 ;
 }
