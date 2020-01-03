@@ -1601,6 +1601,17 @@ mData
 metaState
 )
 ;
+/
+/
+XXX
+Compute
+the
+location
+from
+code
+value
+later
+.
 event
 .
 location
@@ -1608,7 +1619,7 @@ location
 nsIDOMKeyEvent
 :
 :
-DOM_KEY_LOCATION_MOBILE
+DOM_KEY_LOCATION_STANDARD
 ;
 event
 .
