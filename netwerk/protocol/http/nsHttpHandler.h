@@ -1180,16 +1180,6 @@ mConnMgr
 /
 cache
 support
-bool
-UseCache
-(
-)
-const
-{
-return
-mUseCache
-;
-}
 uint32_t
 GenerateUniqueID
 (
@@ -2500,9 +2490,6 @@ mUserAgent
 should
 be
 rebuilt
-bool
-mUseCache
-;
 bool
 mPromptTempRedirect
 ;
