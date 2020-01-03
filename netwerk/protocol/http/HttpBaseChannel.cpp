@@ -9789,7 +9789,7 @@ id
 846918
 *
 /
-NS_IMETHODIMP
+nsresult
 HttpBaseChannel
 :
 :
