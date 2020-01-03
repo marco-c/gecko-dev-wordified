@@ -274,15 +274,6 @@ next
 item
 that
 asks
-nsIDocument
-*
-mDocument
-;
-/
-/
-pointer
-to
-document
 /
 /
 stores
