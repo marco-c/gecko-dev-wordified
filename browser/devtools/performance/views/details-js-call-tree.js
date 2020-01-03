@@ -106,7 +106,7 @@ data
 ]
 rangeChangeDebounceTime
 :
-50
+75
 /
 /
 ms

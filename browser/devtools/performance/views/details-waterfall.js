@@ -106,7 +106,7 @@ markers
 ]
 rangeChangeDebounceTime
 :
-10
+75
 /
 /
 ms

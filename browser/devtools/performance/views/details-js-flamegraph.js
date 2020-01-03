@@ -92,6 +92,9 @@ extend
 (
 DetailsSubview
 {
+shouldUpdateWhileMouseIsActive
+:
+true
 rerenderPrefs
 :
 [
