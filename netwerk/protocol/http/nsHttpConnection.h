@@ -1510,6 +1510,17 @@ mTotalBytesRead
 )
 ;
 }
+/
+/
+override
+of
+nsAHttpConnection
+virtual
+uint32_t
+Version
+(
+)
+;
 private
 :
 /
