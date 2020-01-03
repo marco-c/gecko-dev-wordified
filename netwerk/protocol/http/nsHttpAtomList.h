@@ -265,6 +265,15 @@ Used
 )
 HTTP_ATOM
 (
+Alternate_Protocol
+"
+Alternate
+-
+Protocol
+"
+)
+HTTP_ATOM
+(
 Assoc_Req
 "
 Assoc
