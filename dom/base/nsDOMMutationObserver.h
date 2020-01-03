@@ -2387,6 +2387,12 @@ MutationObservingInfo
 >
 &
 aResult
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 ;
 mozilla
