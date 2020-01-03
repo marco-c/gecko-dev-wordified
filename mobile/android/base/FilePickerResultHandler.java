@@ -1181,13 +1181,6 @@ final
 int
 tabId
 ;
-/
-*
-inner
--
-access
-*
-/
 String
 tempFile
 ;

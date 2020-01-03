@@ -147,13 +147,6 @@ IconTabWidget
 extends
 TabWidget
 {
-/
-*
-inner
--
-access
-*
-/
 OnTabChangedListener
 mListener
 ;

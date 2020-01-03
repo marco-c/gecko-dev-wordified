@@ -223,13 +223,6 @@ GLSurfaceView
 .
 Renderer
 {
-/
-*
-inner
--
-access
-*
-/
 static
 final
 String
@@ -702,13 +695,6 @@ context
 ;
 }
 }
-/
-*
-inner
--
-access
-*
-/
 static
 void
 checkEglError

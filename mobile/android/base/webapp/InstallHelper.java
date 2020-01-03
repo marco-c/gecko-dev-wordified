@@ -500,13 +500,6 @@ e
 ;
 }
 }
-/
-*
-inner
--
-access
-*
-/
 void
 install
 (

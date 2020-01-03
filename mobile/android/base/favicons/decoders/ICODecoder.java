@@ -1188,13 +1188,6 @@ private
 int
 len
 ;
-/
-*
-inner
--
-access
-*
-/
 IconDirectoryEntry
 [
 ]

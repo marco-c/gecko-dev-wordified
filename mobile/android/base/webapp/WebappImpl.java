@@ -371,13 +371,6 @@ the
 UI
 thread
 .
-/
-*
-inner
--
-access
-*
-/
 View
 mSplashscreen
 ;

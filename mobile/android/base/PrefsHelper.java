@@ -191,13 +191,6 @@ sUniqueRequestId
 =
 1
 ;
-/
-*
-inner
--
-access
-*
-/
 static
 final
 SparseArray

@@ -384,13 +384,6 @@ finishAnimation
 )
 ;
 }
-/
-*
-inner
--
-access
-*
-/
 void
 finishAnimation
 (

@@ -434,13 +434,6 @@ doInBackground
 )
 ;
 }
-/
-*
-inner
--
-access
-*
-/
 final
 Handler
 mBackgroundThreadHandler

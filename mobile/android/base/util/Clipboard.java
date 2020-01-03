@@ -169,13 +169,6 @@ value
 of
 mContext
 .
-/
-*
-inner
--
-access
-*
-/
 volatile
 static
 Context
@@ -801,13 +794,6 @@ SuppressWarnings
 deprecation
 "
 )
-/
-*
-inner
--
-access
-*
-/
 static
 String
 getClipboardTextImpl

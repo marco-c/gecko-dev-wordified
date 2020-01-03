@@ -304,13 +304,6 @@ final
 Application
 mApplication
 ;
-/
-*
-inner
--
-access
-*
-/
 final
 Handler
 mHandler

@@ -358,13 +358,6 @@ private
 int
 rowCount
 ;
-/
-*
-inner
--
-access
-*
-/
 Object
 [
 ]
