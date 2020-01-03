@@ -416,7 +416,12 @@ if
 fp
 -
 >
-isGeneratorFrame
+script
+(
+)
+-
+>
+isGenerator
 (
 )
 )

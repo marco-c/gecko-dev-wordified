@@ -338,7 +338,12 @@ MOZ_ASSERT_IF
 fp
 -
 >
-isGeneratorFrame
+script
+(
+)
+-
+>
+isGenerator
 (
 )
 !
