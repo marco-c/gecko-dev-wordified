@@ -2331,16 +2331,11 @@ JSObject
 *
 getter
 =
-NewFunction
+NewNativeFunction
 (
 cx
 native
 0
-JSFunction
-:
-:
-NATIVE_FUN
-global
 NullPtr
 (
 )

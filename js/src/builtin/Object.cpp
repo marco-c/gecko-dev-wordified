@@ -7130,16 +7130,11 @@ it
 *
 /
 return
-NewFunction
+NewNativeConstructor
 (
 cx
 obj_construct
 1
-JSFunction
-:
-:
-NATIVE_CTOR
-self
 HandlePropertyName
 (
 cx

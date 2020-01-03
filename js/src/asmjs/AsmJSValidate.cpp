@@ -50794,14 +50794,13 @@ m
 cx
 (
 )
-NewFunction
+NewScriptedFunction
 (
 m
 .
 cx
 (
 )
-nullptr
 0
 JSFunction
 :

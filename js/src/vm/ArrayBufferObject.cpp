@@ -9836,7 +9836,7 @@ JSObject
 *
 getter
 =
-NewFunction
+NewNativeFunction
 (
 cx
 ArrayBufferObject
@@ -9844,11 +9844,6 @@ ArrayBufferObject
 :
 byteLengthGetter
 0
-JSFunction
-:
-:
-NATIVE_FUN
-global
 js
 :
 :

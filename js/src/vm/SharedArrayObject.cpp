@@ -2132,7 +2132,7 @@ JSObject
 *
 getter
 =
-NewFunction
+NewNativeFunction
 (
 cx
 SharedArrayBufferObject
@@ -2140,11 +2140,6 @@ SharedArrayBufferObject
 :
 byteLengthGetter
 0
-JSFunction
-:
-:
-NATIVE_FUN
-global
 NullPtr
 (
 )
