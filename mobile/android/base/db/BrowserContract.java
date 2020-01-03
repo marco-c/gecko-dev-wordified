@@ -3679,6 +3679,16 @@ public
 static
 final
 String
+DATE
+=
+"
+date
+"
+;
+public
+static
+final
+String
 TABLE_NAME
 =
 "
