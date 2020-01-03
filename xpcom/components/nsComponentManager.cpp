@@ -3348,7 +3348,7 @@ if
 f
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 No
@@ -3378,6 +3378,12 @@ cid
 ToProvidedString
 (
 idstr
+)
+;
+SafeMutexAutoUnlock
+unlock
+(
+mLock
 )
 ;
 LogMessage
