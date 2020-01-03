@@ -5280,7 +5280,7 @@ urlbar
 .
 unifiedcomplete
 "
-true
+false
 )
 ;
 /
