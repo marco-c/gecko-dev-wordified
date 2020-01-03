@@ -15896,6 +15896,15 @@ noScriptRval
 script
 -
 >
+treatAsRunOnce_
+=
+options
+.
+isRunOnce
+;
+script
+-
+>
 version
 =
 options
