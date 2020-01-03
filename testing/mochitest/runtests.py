@@ -13122,18 +13122,15 @@ MOZ_PROCESS_LOG
 processLog
             
 if
-interactive
+debuggerInfo
 :
                 
 #
 If
-an
-interactive
+a
 debugger
 is
 attached
-                
-#
 don
 '
 t
@@ -13143,6 +13140,8 @@ and
 don
 '
 t
+                
+#
 capture
 ctrl
 -
