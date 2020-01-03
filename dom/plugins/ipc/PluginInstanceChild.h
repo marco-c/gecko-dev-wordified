@@ -1626,7 +1626,7 @@ mWindow
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 double
 mContentsScaleFactor
