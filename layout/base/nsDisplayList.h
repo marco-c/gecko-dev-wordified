@@ -20364,9 +20364,6 @@ aForFrame
 nsIFrame
 *
 aScrollFrame
-nsIContent
-*
-aContent
 const
 nsIFrame
 *
