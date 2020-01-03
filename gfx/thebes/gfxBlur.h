@@ -151,9 +151,6 @@ gfxRect
 struct
 gfxRGBA
 ;
-struct
-gfxCornerSizes
-;
 class
 gfxMatrix
 ;
@@ -165,6 +162,9 @@ gfx
 {
 class
 AlphaBoxBlur
+;
+struct
+RectCornerRadii
 ;
 class
 SourceSurface
@@ -360,6 +360,16 @@ mask
 class
 gfxAlphaBoxBlur
 {
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+RectCornerRadii
+RectCornerRadii
+;
 public
 :
 gfxAlphaBoxBlur
@@ -918,7 +928,7 @@ const
 gfxRect
 &
 aRect
-gfxCornerSizes
+RectCornerRadii
 *
 aCornerRadii
 const

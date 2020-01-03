@@ -97,6 +97,17 @@ gfxRect
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+PathHelpers
+.
+h
+"
 namespace
 mozilla
 {
@@ -162,12 +173,22 @@ flexibility
 struct
 RoundedRect
 {
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+RectCornerRadii
+RectCornerRadii
+;
 RoundedRect
 (
 gfxRect
 &
 aRect
-gfxCornerSizes
+RectCornerRadii
 &
 aCorners
 )
@@ -257,7 +278,7 @@ aBottomWidth
 ;
 corners
 .
-sizes
+radii
 [
 NS_CORNER_TOP_LEFT
 ]
@@ -273,7 +294,7 @@ max
 .
 corners
 .
-sizes
+radii
 [
 NS_CORNER_TOP_LEFT
 ]
@@ -285,7 +306,7 @@ aLeftWidth
 ;
 corners
 .
-sizes
+radii
 [
 NS_CORNER_TOP_LEFT
 ]
@@ -301,7 +322,7 @@ max
 .
 corners
 .
-sizes
+radii
 [
 NS_CORNER_TOP_LEFT
 ]
@@ -313,7 +334,7 @@ aTopWidth
 ;
 corners
 .
-sizes
+radii
 [
 NS_CORNER_TOP_RIGHT
 ]
@@ -329,7 +350,7 @@ max
 .
 corners
 .
-sizes
+radii
 [
 NS_CORNER_TOP_RIGHT
 ]
@@ -341,7 +362,7 @@ aRightWidth
 ;
 corners
 .
-sizes
+radii
 [
 NS_CORNER_TOP_RIGHT
 ]
@@ -357,7 +378,7 @@ max
 .
 corners
 .
-sizes
+radii
 [
 NS_CORNER_TOP_RIGHT
 ]
@@ -369,7 +390,7 @@ aTopWidth
 ;
 corners
 .
-sizes
+radii
 [
 NS_CORNER_BOTTOM_LEFT
 ]
@@ -385,7 +406,7 @@ max
 .
 corners
 .
-sizes
+radii
 [
 NS_CORNER_BOTTOM_LEFT
 ]
@@ -397,7 +418,7 @@ aLeftWidth
 ;
 corners
 .
-sizes
+radii
 [
 NS_CORNER_BOTTOM_LEFT
 ]
@@ -413,7 +434,7 @@ max
 .
 corners
 .
-sizes
+radii
 [
 NS_CORNER_BOTTOM_LEFT
 ]
@@ -425,7 +446,7 @@ aBottomWidth
 ;
 corners
 .
-sizes
+radii
 [
 NS_CORNER_BOTTOM_RIGHT
 ]
@@ -441,7 +462,7 @@ max
 .
 corners
 .
-sizes
+radii
 [
 NS_CORNER_BOTTOM_RIGHT
 ]
@@ -453,7 +474,7 @@ aRightWidth
 ;
 corners
 .
-sizes
+radii
 [
 NS_CORNER_BOTTOM_RIGHT
 ]
@@ -469,7 +490,7 @@ max
 .
 corners
 .
-sizes
+radii
 [
 NS_CORNER_BOTTOM_RIGHT
 ]
@@ -483,7 +504,7 @@ aBottomWidth
 gfxRect
 rect
 ;
-gfxCornerSizes
+RectCornerRadii
 corners
 ;
 }
