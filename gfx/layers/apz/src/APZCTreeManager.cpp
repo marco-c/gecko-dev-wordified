@@ -1887,7 +1887,9 @@ Metrics
 (
 )
 .
-mPresShellResolution
+GetPresShellResolution
+(
+)
 )
 ;
 /
