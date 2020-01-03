@@ -4566,6 +4566,12 @@ this
 _updateWiFiRuntimes
 )
 ;
+this
+.
+_updateWiFiRuntimes
+(
+)
+;
 }
 untrackWiFiRuntimes
 :
