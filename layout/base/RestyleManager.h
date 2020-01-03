@@ -2902,6 +2902,14 @@ mPendingAnimationRestyles
 ;
 #
 ifdef
+DEBUG
+bool
+mIsProcessingRestyles
+;
+#
+endif
+#
+ifdef
 RESTYLE_LOGGING
 int32_t
 mLoggingDepth
