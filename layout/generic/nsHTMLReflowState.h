@@ -3995,16 +3995,6 @@ infinite
 loops
 .
 uint16_t
-mHasClearance
-:
-1
-;
-/
-/
-Block
-has
-clearance
-uint16_t
 mAssumingHScrollbar
 :
 1
