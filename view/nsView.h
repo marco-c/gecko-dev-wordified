@@ -2157,6 +2157,11 @@ mForcedRepaint
 aForceRepaint
 ;
 }
+void
+SetNeedsWindowPropertiesSync
+(
+)
+;
 /
 *
 *
@@ -3332,6 +3337,9 @@ mWidgetIsTopLevel
 ;
 bool
 mForcedRepaint
+;
+bool
+mNeedsWindowPropertiesSync
 ;
 }
 ;

@@ -17633,6 +17633,11 @@ GetPresContext
 )
 viewportFrame
 rootView
+nullptr
+nsContainerFrame
+:
+:
+SET_ASYNC
 )
 ;
 /
