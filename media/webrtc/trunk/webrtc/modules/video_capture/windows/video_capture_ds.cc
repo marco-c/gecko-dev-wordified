@@ -1181,6 +1181,17 @@ capabilityIndex
 ;
 /
 /
+Store
+the
+new
+requested
+size
+_requestedCapability
+=
+requestedCapability
+;
+/
+/
 Match
 the
 requested
