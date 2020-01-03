@@ -440,7 +440,6 @@ global
 GCForReason
 (
 rt
-GC_NORMAL
 gcreason
 :
 :
@@ -456,10 +455,9 @@ global
 remainingIonScripts
 )
 ;
-GCForReason
+ShrinkingGC
 (
 rt
-GC_SHRINK
 gcreason
 :
 :

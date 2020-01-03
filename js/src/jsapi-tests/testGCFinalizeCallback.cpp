@@ -182,10 +182,9 @@ rt
 JS
 :
 :
-StartIncrementalGC
+IncrementalGC
 (
 rt
-GC_NORMAL
 JS
 :
 :
@@ -329,7 +328,6 @@ JS
 GCForReason
 (
 rt
-GC_NORMAL
 JS
 :
 :
@@ -435,7 +433,6 @@ JS
 GCForReason
 (
 rt
-GC_NORMAL
 JS
 :
 :
@@ -510,10 +507,9 @@ zone
 JS
 :
 :
-StartIncrementalGC
+IncrementalGC
 (
 rt
-GC_NORMAL
 JS
 :
 :
@@ -628,10 +624,9 @@ zone
 JS
 :
 :
-StartIncrementalGC
+IncrementalGC
 (
 rt
-GC_NORMAL
 JS
 :
 :
