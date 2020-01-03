@@ -1151,7 +1151,7 @@ video
 )
     
 def
-remote_leave_room_and_verify_feedback
+remote_leave_room
 (
 self
 )
@@ -1185,46 +1185,6 @@ button
 .
 click
 (
-)
-        
-#
-check
-that
-the
-feedback
-form
-is
-displayed
-        
-feedback_form
-=
-self
-.
-wait_for_element_displayed
-(
-By
-.
-CLASS_NAME
-"
-faces
-"
-)
-        
-self
-.
-assertEqual
-(
-feedback_form
-.
-tag_name
-"
-div
-"
-"
-expect
-feedback
-form
-"
 )
         
 self
@@ -1906,7 +1866,7 @@ closes
         
 self
 .
-remote_leave_room_and_verify_feedback
+remote_leave_room
 (
 )
         
