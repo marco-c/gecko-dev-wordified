@@ -115,6 +115,13 @@ decryption
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 namespace
 mp4_demuxer
 {
