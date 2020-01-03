@@ -264,7 +264,7 @@ default_blob_upload_servers
 "
 :
 [
-         
+        
 "
 https
 :
@@ -300,8 +300,6 @@ oauth
 txt
 "
 )
-    
-}
     
 "
 suite_definitions
