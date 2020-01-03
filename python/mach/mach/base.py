@@ -516,6 +516,17 @@ description
 '
         
 #
+Docstring
+associated
+with
+command
+.
+        
+'
+docstring
+'
+        
+#
 Functions
 used
 to
@@ -650,6 +661,9 @@ description
 =
 None
         
+docstring
+=
+None
 conditions
 =
 None
@@ -702,6 +716,12 @@ self
 description
 =
 description
+        
+self
+.
+docstring
+=
+docstring
         
 self
 .
