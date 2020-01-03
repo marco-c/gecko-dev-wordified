@@ -7923,10 +7923,6 @@ rv
 OnPan
 (
 panGestureInput
-ScrollSource
-:
-:
-Touch
 true
 )
 ;
@@ -7973,10 +7969,6 @@ rv
 OnPan
 (
 panGestureInput
-ScrollSource
-:
-:
-Touch
 false
 )
 ;
@@ -12288,8 +12280,6 @@ const
 PanGestureInput
 &
 aEvent
-ScrollSource
-aSource
 bool
 aFingersOnTouchpad
 )
@@ -12569,7 +12559,10 @@ GetOverscrollHandoffChain
 (
 )
 panDistance
-aSource
+ScrollSource
+:
+:
+Wheel
 )
 ;
 CallDispatchScroll
