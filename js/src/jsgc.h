@@ -3134,11 +3134,6 @@ this
 #
 ifdef
 JSGC_COMPACTING
-size_t
-countUsedCells
-(
-)
-;
 ArenaHeader
 *
 removeRemainingArenas
