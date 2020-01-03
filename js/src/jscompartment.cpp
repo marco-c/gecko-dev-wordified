@@ -417,6 +417,14 @@ gcWeakMapList
 (
 nullptr
 )
+gcPreserveJitCode
+(
+options
+.
+preserveJitCode
+(
+)
+)
 debugModeBits
 (
 0
