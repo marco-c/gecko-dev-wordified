@@ -1606,6 +1606,15 @@ BackendType
 :
 :
 DIRECT2D
+&
+&
+aBackendType
+!
+=
+BackendType
+:
+:
+DIRECT2D1_1
 )
 {
 ScaledFontBase
