@@ -8458,10 +8458,7 @@ MDefinition
 *
 box
 =
-BoxInputsPolicy
-:
-:
-alwaysBoxAt
+AlwaysBoxAt
 (
 alloc
 (
