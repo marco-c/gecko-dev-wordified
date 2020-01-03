@@ -3365,7 +3365,7 @@ DispatchKeyDownAndKeyPressEvent
 prevents
 to
 dispatch
-NS_KEY_DOWN
+eKeyDown
 event
 because
 it

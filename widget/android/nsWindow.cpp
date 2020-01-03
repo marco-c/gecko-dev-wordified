@@ -8219,7 +8219,7 @@ event
 mMessage
 !
 =
-NS_KEY_DOWN
+eKeyDown
 &
 &
 event
@@ -8274,7 +8274,7 @@ event
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 ?
 kDown_ANPKeyAction
 :
@@ -8483,7 +8483,7 @@ event
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 |
 |
 event
@@ -8852,7 +8852,7 @@ AKEY_EVENT_ACTION_DOWN
 :
 msg
 =
-NS_KEY_DOWN
+eKeyDown
 ;
 break
 ;
@@ -9427,7 +9427,7 @@ WidgetKeyboardEvent
 downEvent
 (
 true
-NS_KEY_DOWN
+eKeyDown
 this
 )
 ;

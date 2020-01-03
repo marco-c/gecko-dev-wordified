@@ -1596,7 +1596,7 @@ aKeyboardEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 {
 return
@@ -1850,7 +1850,7 @@ If
 the
 mMessage
 is
-NS_KEY_DOWN
+eKeyDown
 the
 caller
 doesn
@@ -1873,7 +1873,7 @@ aKeyboardEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 {
 return
@@ -4447,7 +4447,7 @@ mDispatcher
 >
 DispatchKeyboardEvent
 (
-NS_KEY_DOWN
+eKeyDown
 keyEvent
 status
 GetDispatchTo

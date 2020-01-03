@@ -43358,7 +43358,7 @@ keydown
 )
 msg
 =
-NS_KEY_DOWN
+eKeyDown
 ;
 else
 if

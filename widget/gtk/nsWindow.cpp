@@ -16265,7 +16265,7 @@ WidgetKeyboardEvent
 downEvent
 (
 true
-NS_KEY_DOWN
+eKeyDown
 this
 )
 ;

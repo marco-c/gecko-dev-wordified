@@ -1144,7 +1144,7 @@ eBasicEventClass
 EVENT
 (
 keydown
-NS_KEY_DOWN
+eKeyDown
 EventNameType_HTMLXUL
 eKeyboardEventClass
 )

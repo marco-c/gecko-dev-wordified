@@ -2433,7 +2433,7 @@ HANDLE_NATIVE_TEXT_DIRECTION_SWITCH
 /
 keydown
 case
-NS_KEY_DOWN
+eKeyDown
 :
 {
 nsCOMPtr

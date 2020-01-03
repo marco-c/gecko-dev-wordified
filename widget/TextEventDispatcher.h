@@ -1210,7 +1210,7 @@ param
 aMessage
 Must
 be
-NS_KEY_DOWN
+eKeyDown
 or
 eKeyUp
 .
@@ -1963,7 +1963,7 @@ param
 aMessage
 Must
 be
-NS_KEY_DOWN
+eKeyDown
 eKeyUp
 or
 eKeyPress

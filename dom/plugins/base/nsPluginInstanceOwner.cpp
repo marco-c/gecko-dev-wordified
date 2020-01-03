@@ -10107,7 +10107,7 @@ return
 NPCocoaEventMouseUp
 ;
 case
-NS_KEY_DOWN
+eKeyDown
 :
 return
 NPCocoaEventKeyDown
@@ -10603,7 +10603,7 @@ break
 ;
 }
 case
-NS_KEY_DOWN
+eKeyDown
 :
 case
 eKeyUp
@@ -10660,7 +10660,7 @@ anEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 &
 &
 !
@@ -13058,12 +13058,12 @@ mMessage
 )
 {
 case
-NS_KEY_DOWN
+eKeyDown
 :
 /
 /
 Handle
-NS_KEY_DOWN
+eKeyDown
 for
 modifier
 key

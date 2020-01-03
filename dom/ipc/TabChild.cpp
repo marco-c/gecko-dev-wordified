@@ -11933,7 +11933,7 @@ event
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 {
 mIgnoreKeyPressEvent
