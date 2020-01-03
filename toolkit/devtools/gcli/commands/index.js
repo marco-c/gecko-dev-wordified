@@ -497,6 +497,13 @@ gcli
 /
 commands
 /
+security
+"
+"
+gcli
+/
+commands
+/
 tools
 "
 ]
