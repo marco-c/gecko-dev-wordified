@@ -2997,6 +2997,7 @@ void
 SendResults
 (
 )
+override
 {
 }
 }
@@ -3099,6 +3100,7 @@ void
 SendResults
 (
 )
+override
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIQUOTAREQUEST
@@ -3187,6 +3189,7 @@ void
 SendResults
 (
 )
+override
 {
 }
 }
@@ -3265,6 +3268,7 @@ void
 SendResults
 (
 )
+override
 {
 }
 }
