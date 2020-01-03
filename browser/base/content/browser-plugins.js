@@ -304,11 +304,6 @@ msg
 .
 data
 .
-host
-msg
-.
-data
-.
 location
 )
 ;
@@ -364,11 +359,6 @@ actions
 msg
 .
 principal
-msg
-.
-data
-.
-host
 msg
 .
 data
@@ -1437,7 +1427,6 @@ browser
 plugins
 showNow
 principal
-host
 location
 )
 {
@@ -1972,9 +1961,6 @@ pluginData
 principal
 :
 principal
-host
-:
-host
 }
 ;
 PopupNotifications
@@ -2099,10 +2085,16 @@ browser
 haveInsecure
 actions
 principal
-host
 location
 )
 {
+let
+origin
+=
+principal
+.
+originNoSuffix
+;
 /
 /
 It
@@ -2600,7 +2592,7 @@ message
 "
 [
 pluginName
-host
+origin
 ]
 )
 ;
@@ -2626,7 +2618,7 @@ message
 "
 [
 pluginName
-host
+origin
 brand
 ]
 )
@@ -2653,7 +2645,7 @@ message
 "
 [
 pluginName
-host
+origin
 brand
 ]
 )
@@ -2679,7 +2671,7 @@ pluginActivateMultiple
 message
 "
 [
-host
+origin
 ]
 )
 ;
