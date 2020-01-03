@@ -3823,9 +3823,9 @@ relocateArenas
 void
 updateAllCellPointersParallel
 (
-ArenasToUpdate
-&
-source
+MovingTracer
+*
+trc
 )
 ;
 void
@@ -3834,9 +3834,6 @@ updateAllCellPointersSerial
 MovingTracer
 *
 trc
-ArenasToUpdate
-&
-source
 )
 ;
 void
