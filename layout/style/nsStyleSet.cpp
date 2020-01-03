@@ -8271,6 +8271,9 @@ mLevel
 bool
 mIsImportant
 ;
+bool
+mCheckForImportantRules
+;
 nsRestyleHint
 mLevelReplacementHint
 ;
@@ -8290,6 +8293,7 @@ nsStyleSet
 :
 eAgentSheet
 false
+false
 nsRestyleHint
 (
 0
@@ -8300,6 +8304,7 @@ nsStyleSet
 :
 :
 eUserSheet
+false
 false
 nsRestyleHint
 (
@@ -8312,6 +8317,7 @@ nsStyleSet
 :
 ePresHintSheet
 false
+false
 nsRestyleHint
 (
 0
@@ -8323,6 +8329,7 @@ nsStyleSet
 :
 eSVGAttrAnimationSheet
 false
+false
 eRestyle_SVGAttrAnimations
 }
 {
@@ -8330,6 +8337,7 @@ nsStyleSet
 :
 :
 eDocSheet
+false
 false
 nsRestyleHint
 (
@@ -8342,6 +8350,7 @@ nsStyleSet
 :
 eScopedDocSheet
 false
+false
 nsRestyleHint
 (
 0
@@ -8353,6 +8362,7 @@ nsStyleSet
 :
 eStyleAttrSheet
 false
+false
 nsRestyleHint
 (
 0
@@ -8363,6 +8373,7 @@ nsStyleSet
 :
 :
 eOverrideSheet
+false
 false
 nsRestyleHint
 (
@@ -8375,6 +8386,7 @@ nsStyleSet
 :
 eAnimationSheet
 false
+false
 eRestyle_CSSAnimations
 }
 {
@@ -8383,6 +8395,7 @@ nsStyleSet
 :
 eScopedDocSheet
 true
+false
 nsRestyleHint
 (
 0
@@ -8394,6 +8407,7 @@ nsStyleSet
 :
 eDocSheet
 true
+false
 nsRestyleHint
 (
 0
@@ -8405,6 +8419,7 @@ nsStyleSet
 :
 eStyleAttrSheet
 true
+false
 nsRestyleHint
 (
 0
@@ -8416,6 +8431,7 @@ nsStyleSet
 :
 eOverrideSheet
 true
+false
 nsRestyleHint
 (
 0
@@ -8427,6 +8443,7 @@ nsStyleSet
 :
 eUserSheet
 true
+false
 nsRestyleHint
 (
 0
@@ -8438,6 +8455,7 @@ nsStyleSet
 :
 eAgentSheet
 true
+false
 nsRestyleHint
 (
 0
@@ -8448,6 +8466,7 @@ nsStyleSet
 :
 :
 eTransitionSheet
+false
 false
 eRestyle_CSSTransitions
 }
@@ -8752,6 +8771,16 @@ levelEnd
 level
 )
 {
+bool
+doReplace
+=
+level
+-
+>
+mLevelReplacementHint
+&
+aReplacements
+;
 ruleWalker
 .
 SetLevel
@@ -8764,18 +8793,14 @@ level
 -
 >
 mIsImportant
-false
-)
-;
-bool
-doReplace
-=
 level
 -
 >
-mLevelReplacementHint
+mCheckForImportantRules
 &
-aReplacements
+&
+doReplace
+)
 ;
 if
 (
