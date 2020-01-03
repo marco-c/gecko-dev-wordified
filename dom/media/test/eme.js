@@ -1845,7 +1845,6 @@ test
 elem
 manager
 token
-loadParams
 )
 {
 manager
@@ -1865,7 +1864,6 @@ LoadTest
 test
 elem
 token
-loadParams
 )
 .
 catch
