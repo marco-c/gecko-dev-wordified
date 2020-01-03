@@ -249,7 +249,7 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 )
@@ -263,7 +263,7 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 )
@@ -389,7 +389,7 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
 aMessage
@@ -696,7 +696,7 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 )

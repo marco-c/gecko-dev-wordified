@@ -159,10 +159,10 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
-aMessage
+aBuffer
 )
 =
 0
