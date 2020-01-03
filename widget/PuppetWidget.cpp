@@ -2171,11 +2171,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 PuppetWidget
 :
 :
-NotifyIME
+NotifyIMEInternal
 (
 const
 IMENotification

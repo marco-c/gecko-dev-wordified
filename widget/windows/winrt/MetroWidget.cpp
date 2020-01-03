@@ -8005,11 +8005,11 @@ return
 mInputContext
 ;
 }
-NS_IMETHODIMP
+nsresult
 MetroWidget
 :
 :
-NotifyIME
+NotifyIMEInternal
 (
 const
 IMENotification
