@@ -539,6 +539,10 @@ const
 nsACString
 &
 aNodeId
+const
+nsACString
+&
+aPluginId
 )
 ;
 /

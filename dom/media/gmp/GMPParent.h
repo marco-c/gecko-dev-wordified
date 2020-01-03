@@ -675,6 +675,14 @@ GetVersion
 )
 const
 ;
+const
+nsACString
+&
+GetPluginId
+(
+)
+const
+;
 /
 /
 Returns
@@ -1087,6 +1095,9 @@ to
 users
 nsCString
 mVersion
+;
+nsCString
+mPluginId
 ;
 nsTArray
 <
