@@ -5779,7 +5779,7 @@ aEvent
 ipcDoc
 -
 >
-SendCaretMoveEvent
+SendEvent
 (
 id
 event
