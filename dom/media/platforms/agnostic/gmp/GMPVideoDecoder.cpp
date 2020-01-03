@@ -744,7 +744,9 @@ CreateEmptyFrame
 aSample
 -
 >
-mSize
+Size
+(
+)
 )
 ;
 if
@@ -777,7 +779,9 @@ Buffer
 aSample
 -
 >
-mData
+Data
+(
+)
 frame
 -
 >

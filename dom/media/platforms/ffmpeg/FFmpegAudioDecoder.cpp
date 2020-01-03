@@ -701,7 +701,9 @@ uint8_t
 aSample
 -
 >
-mData
+Data
+(
+)
 )
 ;
 packet
@@ -711,7 +713,9 @@ size
 aSample
 -
 >
-mSize
+Size
+(
+)
 ;
 if
 (

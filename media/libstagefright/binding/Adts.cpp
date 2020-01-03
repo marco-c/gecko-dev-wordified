@@ -205,7 +205,9 @@ newSize
 aSample
 -
 >
-mSize
+Size
+(
+)
 +
 kADTSHeaderSize
 ;
@@ -459,7 +461,9 @@ AppendElement
 aSample
 -
 >
-mSize
+Size
+(
+)
 -
 kADTSHeaderSize
 )
