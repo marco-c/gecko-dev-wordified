@@ -88,6 +88,9 @@ namespace
 dom
 {
 class
+Element
+;
+class
 TabParent
 ;
 namespace
@@ -147,9 +150,9 @@ PIndexedDBPermissionRequestParent
 *
 AllocPIndexedDBPermissionRequestParent
 (
-nsPIDOMWindow
+Element
 *
-aWindow
+aOwnerElement
 nsIPrincipal
 *
 aPrincipal

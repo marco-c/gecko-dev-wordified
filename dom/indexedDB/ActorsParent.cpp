@@ -32435,9 +32435,9 @@ public
 :
 PermissionRequestHelper
 (
-nsPIDOMWindow
+Element
 *
-aWindow
+aOwnerElement
 nsIPrincipal
 *
 aPrincipal
@@ -32445,7 +32445,7 @@ aPrincipal
 :
 PermissionRequestBase
 (
-aWindow
+aOwnerElement
 aPrincipal
 )
 mActorDestroyed
@@ -35436,9 +35436,9 @@ PIndexedDBPermissionRequestParent
 *
 AllocPIndexedDBPermissionRequestParent
 (
-nsPIDOMWindow
+Element
 *
-aWindow
+aOwnerElement
 nsIPrincipal
 *
 aPrincipal
@@ -35460,7 +35460,7 @@ actor
 new
 PermissionRequestHelper
 (
-aWindow
+aOwnerElement
 aPrincipal
 )
 ;
