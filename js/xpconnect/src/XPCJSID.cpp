@@ -176,13 +176,6 @@ StaticPtr
 .
 h
 "
-#
-include
-"
-nsIProgrammingLanguage
-.
-h
-"
 using
 namespace
 mozilla

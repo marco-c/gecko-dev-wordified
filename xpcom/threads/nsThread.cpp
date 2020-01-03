@@ -175,13 +175,6 @@ h
 #
 include
 "
-nsIProgrammingLanguage
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

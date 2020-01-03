@@ -512,13 +512,6 @@ h
 #
 include
 "
-nsIProgrammingLanguage
-.
-h
-"
-#
-include
-"
 nsIProperties
 .
 h
