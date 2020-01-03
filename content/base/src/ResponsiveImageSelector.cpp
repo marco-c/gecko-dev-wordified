@@ -2017,16 +2017,6 @@ Length
 (
 )
 ;
-if
-(
-!
-numSizes
-)
-{
-return
-false
-;
-}
 nsIDocument
 *
 doc
