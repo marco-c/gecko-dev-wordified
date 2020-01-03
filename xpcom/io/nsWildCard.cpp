@@ -2479,13 +2479,15 @@ end
 int
 i
 ;
++
++
+y
+;
 neg
 =
 (
 aExpr
 [
-+
-+
 y
 ]
 =
