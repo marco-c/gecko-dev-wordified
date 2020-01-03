@@ -5905,7 +5905,7 @@ defaultSliceBudget
 const
 {
 return
-sliceBudget
+defaultTimeBudget_
 ;
 }
 bool
@@ -8548,7 +8548,7 @@ h
 *
 /
 int64_t
-sliceBudget
+defaultTimeBudget_
 ;
 /
 *

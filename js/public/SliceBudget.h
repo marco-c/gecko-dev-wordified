@@ -304,7 +304,15 @@ CounterReset
 static
 const
 int64_t
-Unlimited
+UnlimitedTimeBudget
+=
+-
+1
+;
+static
+const
+int64_t
+UnlimitedWorkBudget
 =
 -
 1
