@@ -1810,6 +1810,7 @@ nsIDocShell
 GetDocShell
 (
 )
+const
 {
 if
 (

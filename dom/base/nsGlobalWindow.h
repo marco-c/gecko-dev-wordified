@@ -10056,6 +10056,7 @@ nsIWidget
 GetNearestWidget
 (
 )
+const
 ;
 void
 Freeze
