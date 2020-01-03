@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsonparser_h
+vm_JSONParser_h
 #
 define
-jsonparser_h
+vm_JSONParser_h
 #
 include
 "
@@ -1318,6 +1318,6 @@ js
 endif
 /
 *
-jsonparser_h
+vm_JSONParser_h
 *
 /
