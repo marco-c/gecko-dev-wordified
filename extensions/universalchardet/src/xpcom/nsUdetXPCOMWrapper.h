@@ -298,6 +298,7 @@ nsICharsetDetectionObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoIt
@@ -312,11 +313,13 @@ bool
 *
 oDontFeedMe
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Done
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -335,6 +338,7 @@ char
 *
 aCharset
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -450,6 +454,7 @@ nsDetectionConfident
 &
 oConf
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -468,6 +473,7 @@ char
 *
 aCharset
 )
+MOZ_OVERRIDE
 ;
 private
 :

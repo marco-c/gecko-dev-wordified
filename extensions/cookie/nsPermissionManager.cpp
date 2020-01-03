@@ -1261,6 +1261,7 @@ char16_t
 *
 data
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (

@@ -427,6 +427,7 @@ mozIStorageResultSet
 *
 aResultSet
 )
+MOZ_OVERRIDE
 {
 sResult
 =
@@ -469,6 +470,7 @@ mozIStorageError
 *
 aError
 )
+MOZ_OVERRIDE
 {
 sError
 =
@@ -510,6 +512,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+MOZ_OVERRIDE
 {
 mCompleted
 =

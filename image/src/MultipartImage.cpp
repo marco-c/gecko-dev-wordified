@@ -289,6 +289,7 @@ NextPartObserver
 NS_INLINE_DECL_REFCOUNTING
 (
 NextPartObserver
+MOZ_OVERRIDE
 )
 explicit
 NextPartObserver
