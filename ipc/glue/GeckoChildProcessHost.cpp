@@ -5164,6 +5164,9 @@ break
 ;
 }
 ;
+#
+ifdef
+MOZ_SANDBOX
 if
 (
 shouldSandboxCurrentProcess
@@ -5208,6 +5211,8 @@ c_str
 ;
 }
 }
+#
+endif
 #
 endif
 /
