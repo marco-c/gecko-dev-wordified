@@ -1881,7 +1881,17 @@ TimeRanges
 *
 aBuffered
 )
+{
+return
+mReader
+-
+>
+GetBuffered
+(
+aBuffered
+)
 ;
+}
 void
 SetPlaybackRate
 (
