@@ -286,6 +286,11 @@ nsContentUtils
 :
 :
 eParseHTMLInteger_IsPercent
+|
+nsContentUtils
+:
+:
+eParseHTMLInteger_NonStandard
 )
 )
 ;
