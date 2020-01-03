@@ -5672,6 +5672,16 @@ TimeStamp
 aTarget
 )
 {
+MOZ_ASSERT
+(
+mSelf
+-
+>
+OnTaskQueue
+(
+)
+)
+;
 if
 (
 IsScheduled
