@@ -7245,6 +7245,13 @@ resource
 fetch
 algorithm
 .
+decoder
+-
+>
+Shutdown
+(
+)
+;
 return
 NS_ERROR_FAILURE
 ;
