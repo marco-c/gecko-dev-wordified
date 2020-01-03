@@ -1390,6 +1390,16 @@ if
 link
 .
 frecent_sites
+|
+|
+"
+sponsored
+"
+=
+=
+link
+.
+type
 )
 {
 /
@@ -1409,6 +1419,9 @@ expected
 '
 frecent_sites
 '
+or
+are
+sponsored
 .
 return
 ;
