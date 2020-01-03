@@ -406,7 +406,7 @@ nsIInputStream
 DeserializeCacheStream
 (
 const
-PCacheReadStreamOrVoid
+CacheReadStreamOrVoid
 &
 aStreamOrVoid
 )
