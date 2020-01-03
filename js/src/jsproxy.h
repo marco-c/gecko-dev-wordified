@@ -2103,6 +2103,9 @@ JSContext
 cx
 HandleObject
 proxy
+bool
+*
+succeeded
 )
 const
 =
@@ -3172,6 +3175,9 @@ JSContext
 cx
 HandleObject
 proxy
+bool
+*
+succeeded
 )
 const
 MOZ_OVERRIDE

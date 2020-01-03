@@ -782,6 +782,9 @@ JSContext
 cx
 HandleObject
 wrapper
+bool
+*
+succeeded
 )
 const
 MOZ_OVERRIDE
@@ -1317,6 +1320,9 @@ JSContext
 cx
 HandleObject
 wrapper
+bool
+*
+succeeded
 )
 const
 MOZ_OVERRIDE

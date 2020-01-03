@@ -327,6 +327,9 @@ JSContext
 cx
 HandleObject
 proxy
+bool
+*
+succeeded
 )
 ;
 static
