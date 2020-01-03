@@ -264,7 +264,7 @@ js
 ]
 )
 ;
-gClient
+gThreadClient
 .
 addListener
 (

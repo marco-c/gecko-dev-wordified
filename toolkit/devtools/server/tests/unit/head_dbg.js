@@ -629,7 +629,7 @@ actor
 function
 waitForNewSource
 (
-client
+threadClient
 url
 )
 {
@@ -658,7 +658,7 @@ n
 return
 waitForEvent
 (
-client
+threadClient
 "
 newSource
 "

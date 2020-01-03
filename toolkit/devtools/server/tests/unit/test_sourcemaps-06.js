@@ -174,7 +174,7 @@ numNewSources
 =
 0
 ;
-gClient
+gThreadClient
 .
 addListener
 (
@@ -202,7 +202,7 @@ numNewSources
 return
 ;
 }
-gClient
+gThreadClient
 .
 removeListener
 (

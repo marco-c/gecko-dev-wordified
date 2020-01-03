@@ -8019,7 +8019,7 @@ _onNewGlobal
 ;
 this
 .
-debuggerClient
+activeThread
 .
 addListener
 (
@@ -8122,7 +8122,7 @@ _onNewGlobal
 ;
 this
 .
-debuggerClient
+activeThread
 .
 removeListener
 (

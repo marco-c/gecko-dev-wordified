@@ -177,7 +177,7 @@ test_executable_lines
 (
 )
 {
-gClient
+gThreadClient
 .
 addOneTimeListener
 (

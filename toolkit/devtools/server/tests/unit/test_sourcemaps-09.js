@@ -163,7 +163,7 @@ newSourceFired
 =
 false
 ;
-gClient
+gThreadClient
 .
 addOneTimeListener
 (

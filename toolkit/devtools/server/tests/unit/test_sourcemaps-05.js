@@ -155,7 +155,7 @@ test_relative_source_map
 (
 )
 {
-gClient
+gThreadClient
 .
 addOneTimeListener
 (

@@ -155,7 +155,7 @@ test_absolute_source_map
 (
 )
 {
-gClient
+gThreadClient
 .
 addOneTimeListener
 (
