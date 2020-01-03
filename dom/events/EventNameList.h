@@ -1454,7 +1454,7 @@ eBasicEventClass
 EVENT
 (
 show
-NS_SHOW_EVENT
+eShow
 EventNameType_HTML
 eBasicEventClass
 )

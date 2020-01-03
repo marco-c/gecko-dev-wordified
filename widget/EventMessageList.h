@@ -2430,7 +2430,7 @@ eDeviceEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SHOW_EVENT
+eShow
 5000
 )
 /
