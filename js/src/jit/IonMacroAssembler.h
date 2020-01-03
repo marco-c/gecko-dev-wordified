@@ -8116,7 +8116,7 @@ value
 ifdef
 JS_TRACE_LOGGING
 void
-tracelogStart
+tracelogStartId
 (
 Register
 logger
@@ -8129,7 +8129,7 @@ false
 )
 ;
 void
-tracelogStart
+tracelogStartId
 (
 Register
 logger
@@ -8138,7 +8138,16 @@ textId
 )
 ;
 void
-tracelogStop
+tracelogStartEvent
+(
+Register
+logger
+Register
+event
+)
+;
+void
+tracelogStopId
 (
 Register
 logger
@@ -8151,7 +8160,7 @@ false
 )
 ;
 void
-tracelogStop
+tracelogStopId
 (
 Register
 logger
