@@ -8133,10 +8133,15 @@ Sprinter
 sp
 )
 {
+#
+ifdef
+JS_DISASM_ARM
 printer_
 =
 sp
 ;
+#
+endif
 }
 static
 const
