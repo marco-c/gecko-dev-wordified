@@ -29137,9 +29137,11 @@ NS_STYLE_TEXT_COMBINE_UPRIGHT_NONE
 -
 moz
 -
-text
+control
 -
-discard
+character
+-
+visibility
 :
 enum
 inherit
@@ -29165,7 +29167,7 @@ parentText
 -
 >
 mControlCharacterVisibility
-NS_STYLE_CONTROL_CHARACTER_VISIBILITY_HIDDEN
+NS_STYLE_CONTROL_CHARACTER_VISIBILITY_VISIBLE
 0
 0
 0
