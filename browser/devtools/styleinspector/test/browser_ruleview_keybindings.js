@@ -112,7 +112,6 @@ h1
 ;
 let
 {
-toolbox
 inspector
 view
 }
@@ -120,16 +119,6 @@ view
 yield
 openRuleView
 (
-)
-;
-info
-(
-"
-Selecting
-the
-test
-node
-"
 )
 ;
 yield

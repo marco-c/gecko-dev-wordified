@@ -73,6 +73,7 @@ maps
 /
 are
 involved
+.
 const
 TESTCASE_URI
 =
@@ -152,20 +153,6 @@ setBoolPref
 (
 PREF
 true
-)
-;
-info
-(
-"
-Opening
-the
-test
-page
-and
-opening
-the
-inspector
-"
 )
 ;
 yield
@@ -542,7 +529,6 @@ one
 let
 {
 line
-col
 }
 =
 editor

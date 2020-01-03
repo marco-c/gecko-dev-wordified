@@ -71,6 +71,7 @@ still
 /
 show
 them
+.
 const
 TEST_URI
 =
@@ -96,19 +97,7 @@ TEST_URI
 )
 ;
 let
-target
-=
-getNode
-(
-"
-#
-target
-"
-)
-;
-let
 {
-toolbox
 inspector
 view
 }

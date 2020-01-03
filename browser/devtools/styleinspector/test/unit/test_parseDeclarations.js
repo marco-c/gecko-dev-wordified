@@ -70,6 +70,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 const
 Cu
 =
@@ -306,6 +311,8 @@ by
 whitespaces
 and
 carriage
+/
+/
 returns
 and
 tabs
@@ -830,6 +837,9 @@ wat
 \
 "
 )
+"
++
+"
 repeat
 top
 right
@@ -875,6 +885,9 @@ wat
 \
 "
 )
+"
++
+"
 repeat
 top
 right
@@ -1002,6 +1015,8 @@ not
 parsed
 as
 multiple
+/
+/
 declarations
 {
 input
@@ -2021,6 +2036,9 @@ with
 the
 given
 input
+"
++
+"
 string
 "
 )
@@ -2143,6 +2161,9 @@ has
 the
 expected
 name
+"
++
+"
 value
 and
 priority

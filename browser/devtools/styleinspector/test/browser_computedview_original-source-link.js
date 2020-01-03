@@ -55,7 +55,7 @@ strict
 ;
 /
 /
-Test
+Tests
 that
 the
 computed
@@ -72,6 +72,7 @@ maps
 /
 are
 enabled
+.
 const
 TESTCASE_URI
 =
@@ -168,16 +169,6 @@ view
 yield
 openComputedView
 (
-)
-;
-info
-(
-"
-Select
-the
-test
-node
-"
 )
 ;
 yield
@@ -510,7 +501,6 @@ onEditor
 let
 {
 line
-col
 }
 =
 editor

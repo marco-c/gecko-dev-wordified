@@ -300,6 +300,7 @@ inspector
 context
 menu
 *
+*
 param
 {
 RuleView
@@ -307,6 +308,7 @@ RuleView
 ComputedView
 }
 view
+*
 RuleView
 or
 ComputedView
@@ -320,6 +322,8 @@ param
 Object
 }
 options
+*
+Option
 menu
 configuration
 *
@@ -1592,13 +1596,11 @@ menuitemAddRule
 disabled
 =
 !
-(
 this
 .
 isRuleView
-&
-&
-!
+|
+|
 this
 .
 inspector
@@ -1607,7 +1609,6 @@ selection
 .
 isAnonymousNode
 (
-)
 )
 ;
 }
@@ -2190,6 +2191,7 @@ an
 image
 URL
 *
+*
 return
 {
 Boolean
@@ -2266,9 +2268,11 @@ parent
 node
 otherwise
 return
+*
 popupNode
 itself
 .
+*
 *
 return
 {
@@ -2387,7 +2391,6 @@ _onCopy
 :
 function
 (
-event
 )
 {
 this
@@ -2503,6 +2506,7 @@ copy
 it
 to
 the
+*
 clipboard
 *
 /

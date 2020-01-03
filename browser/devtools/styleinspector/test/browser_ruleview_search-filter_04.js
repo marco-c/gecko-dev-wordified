@@ -67,6 +67,8 @@ properly
 for
 keyframe
 rule
+/
+/
 selectors
 .
 const
@@ -76,6 +78,7 @@ SEARCH
 20
 %
 "
+;
 const
 TEST_URI
 =
@@ -102,7 +105,6 @@ TEST_URI
 ;
 let
 {
-toolbox
 inspector
 view
 }
@@ -297,4 +299,5 @@ highlighted
 .
 "
 )
+;
 }

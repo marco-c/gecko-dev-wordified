@@ -55,7 +55,7 @@ strict
 ;
 /
 /
-Test
+Tests
 that
 pseudoelements
 are
@@ -65,6 +65,7 @@ in
 the
 rule
 view
+.
 const
 TEST_URI
 =
@@ -91,7 +92,6 @@ TEST_URI
 ;
 let
 {
-toolbox
 inspector
 view
 }

@@ -72,8 +72,6 @@ TEST_URL
 ;
 let
 {
-toolbox
-inspector
 view
 }
 =

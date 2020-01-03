@@ -210,7 +210,7 @@ margin
 *
 /
 const
-TEST_DOC
+TEST_URI
 =
 <
 html
@@ -284,7 +284,7 @@ utf8
 +
 encodeURIComponent
 (
-TEST_DOC
+TEST_URI
 )
 )
 ;
@@ -321,7 +321,7 @@ view
 *
 *
 *
-Test
+Tests
 that
 the
 MDN

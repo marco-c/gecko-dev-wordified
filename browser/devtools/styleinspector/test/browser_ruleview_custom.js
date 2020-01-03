@@ -66,7 +66,7 @@ html
 ;
 /
 /
-Test
+Tests
 the
 display
 of
@@ -77,6 +77,7 @@ the
 rule
 -
 view
+.
 add_task
 (
 function

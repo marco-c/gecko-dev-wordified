@@ -67,6 +67,7 @@ the
 computed
 -
 view
+.
 const
 {
 PropertyView
@@ -111,7 +112,6 @@ TEST_URI
 ;
 let
 {
-toolbox
 inspector
 view
 }

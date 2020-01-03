@@ -99,6 +99,19 @@ MPL
 .
 *
 /
+/
+*
+globals
+RuleView
+ComputedView
+gDevTools
+*
+/
+"
+use
+strict
+"
+;
 const
 {
 Cc
@@ -338,7 +351,6 @@ RuleViewTool
 (
 inspector
 window
-iframe
 )
 {
 this
@@ -724,6 +736,8 @@ empty
 the
 view
 on
+/
+/
 navigation
 .
 if
@@ -1033,17 +1047,6 @@ isSystem
 )
 {
 let
-contentDoc
-=
-this
-.
-inspector
-.
-selection
-.
-document
-;
-let
 href
 =
 rule
@@ -1197,6 +1200,7 @@ return
 ;
 }
 )
+;
 }
 onPropertyChanged
 :
@@ -1407,7 +1411,6 @@ ComputedViewTool
 (
 inspector
 window
-iframe
 )
 {
 this
@@ -1607,6 +1610,7 @@ view
 )
 {
 return
+false
 ;
 }
 return
@@ -1688,6 +1692,8 @@ empty
 the
 view
 on
+/
+/
 navigation
 .
 if

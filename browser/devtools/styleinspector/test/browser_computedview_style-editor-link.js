@@ -110,7 +110,7 @@ source
 ;
 /
 /
-Test
+Tests
 the
 links
 from
@@ -121,6 +121,7 @@ to
 the
 style
 editor
+.
 const
 STYLESHEET_URL
 =
@@ -620,17 +621,6 @@ addTab
 DOCUMENT_URL
 )
 ;
-info
-(
-"
-Opening
-the
-computed
--
-view
-"
-)
-;
 let
 {
 toolbox
@@ -641,16 +631,6 @@ view
 yield
 openComputedView
 (
-)
-;
-info
-(
-"
-Selecting
-the
-test
-node
-"
 )
 ;
 yield
@@ -666,7 +646,6 @@ yield
 testInlineStyle
 (
 view
-inspector
 )
 ;
 yield
@@ -698,7 +677,6 @@ function
 testInlineStyle
 (
 view
-inspector
 )
 {
 info
