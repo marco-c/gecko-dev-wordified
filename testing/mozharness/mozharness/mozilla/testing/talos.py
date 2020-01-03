@@ -3755,18 +3755,7 @@ options
 options
 =
 [
-'
--
-v
-'
 ]
-#
-hardcoded
-options
-(
-for
-now
-)
         
 if
 self
@@ -3832,18 +3821,6 @@ binary_path
 4
 ]
         
-kw_options
-=
-{
-'
-output
-'
-:
-'
-talos
-.
-yml
-'
 #
 options
 overwritten
@@ -3851,7 +3828,10 @@ from
 *
 *
 kw
-                      
+        
+kw_options
+=
+{
 '
 executablePath
 '
