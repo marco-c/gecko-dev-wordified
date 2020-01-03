@@ -3785,8 +3785,6 @@ manager
 /
 ssl
 /
-src
-/
 nsNSSCallbacks
 .
 cpp
@@ -4889,8 +4887,6 @@ security
 manager
 /
 ssl
-/
-src
 /
 nsNSSCallbacks
 .
