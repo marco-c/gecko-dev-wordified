@@ -6874,11 +6874,10 @@ UpdateHeader
 (
 )
 ;
-return
 mConnection
 -
 >
-Send
+SendSocketData
 (
 aPDU
 )
@@ -6890,6 +6889,9 @@ PDU
 to
 command
 channel
+return
+NS_OK
+;
 }
 void
 BluetoothDaemonProtocol
