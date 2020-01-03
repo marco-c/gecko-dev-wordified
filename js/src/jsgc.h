@@ -1361,7 +1361,7 @@ there
 .
 #
 ifdef
-XP_WIN
+_MSC_VER
 #
 define
 DEPENDENT_TEMPLATE_HINT
