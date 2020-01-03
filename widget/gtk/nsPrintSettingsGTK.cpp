@@ -4017,9 +4017,15 @@ mPrintSettings
 GTK_PRINT_SETTINGS_DUPLEX
 )
 )
-return
-NS_ERROR_FAILURE
+{
+*
+aDuplex
+=
+GTK_PRINT_DUPLEX_SIMPLEX
 ;
+}
+else
+{
 *
 aDuplex
 =
@@ -4028,6 +4034,7 @@ gtk_print_settings_get_duplex
 mPrintSettings
 )
 ;
+}
 return
 NS_OK
 ;
