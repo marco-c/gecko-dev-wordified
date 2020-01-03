@@ -53,6 +53,13 @@ MPL
 0
 /
 .
+__version__
+=
+'
+0
+.
+16
+'
 from
 .
 marionette_test
