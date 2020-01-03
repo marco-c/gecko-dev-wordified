@@ -5615,7 +5615,7 @@ last
 static
 Shape
 *
-setObjectFlag
+setObjectFlags
 (
 ExclusiveContext
 *

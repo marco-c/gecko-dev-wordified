@@ -1209,8 +1209,6 @@ HeapSlot
 elements
 )
 ;
-protected
-:
 enum
 GenerateShape
 {
@@ -1219,7 +1217,7 @@ GENERATE_SHAPE
 }
 ;
 bool
-setFlag
+setFlags
 (
 js
 :
@@ -1236,15 +1234,13 @@ Flag
 *
 /
 uint32_t
-flag
+flags
 GenerateShape
 generateShape
 =
 GENERATE_NONE
 )
 ;
-public
-:
 /
 *
 *
@@ -1383,7 +1379,7 @@ cx
 )
 {
 return
-setFlag
+setFlags
 (
 cx
 js
@@ -1464,7 +1460,7 @@ cx
 )
 {
 return
-setFlag
+setFlags
 (
 cx
 js
@@ -1506,7 +1502,7 @@ cx
 )
 {
 return
-setFlag
+setFlags
 (
 cx
 js
@@ -1537,7 +1533,7 @@ cx
 )
 {
 return
-setFlag
+setFlags
 (
 cx
 js
@@ -1633,7 +1629,7 @@ cx
 )
 {
 return
-setFlag
+setFlags
 (
 cx
 js
@@ -1708,7 +1704,7 @@ cx
 )
 {
 return
-setFlag
+setFlags
 (
 cx
 js
@@ -2802,7 +2798,7 @@ cx
 )
 {
 return
-setFlag
+setFlags
 (
 cx
 js
@@ -2933,7 +2929,7 @@ cx
 )
 {
 return
-setFlag
+setFlags
 (
 cx
 js
