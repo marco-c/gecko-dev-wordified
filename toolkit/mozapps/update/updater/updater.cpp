@@ -3066,7 +3066,7 @@ remove
 symlinks
 .
 struct
-stat
+NS_tstat_t
 sInfo
 ;
 int
@@ -3563,7 +3563,7 @@ nullptr
 ;
 }
 struct
-stat
+NS_tstat_t
 ss
 ;
 if
@@ -4135,7 +4135,7 @@ return
 #
 else
 struct
-stat
+NS_tstat_t
 ss
 ;
 int
@@ -4752,7 +4752,7 @@ skiplist
 )
 {
 struct
-stat
+NS_tstat_t
 sInfo
 ;
 int
@@ -5175,7 +5175,7 @@ return
 rv
 ;
 struct
-stat
+NS_tstat_t
 spathInfo
 ;
 rv
@@ -6445,7 +6445,7 @@ file
 .
 .
 struct
-stat
+NS_tstat_t
 fileInfo
 ;
 rv
@@ -6987,7 +6987,7 @@ a
 dir
 .
 struct
-stat
+NS_tstat_t
 dirInfo
 ;
 rv
@@ -8703,7 +8703,7 @@ an
 error
 .
 struct
-stat
+NS_tstat_t
 ss
 ;
 rv

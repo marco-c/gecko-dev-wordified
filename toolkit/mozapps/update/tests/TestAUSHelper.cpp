@@ -94,9 +94,16 @@ define
 R_OK
 04
 #
+if
+_MSC_VER
+<
+1900
+#
 define
 stat
 _stat
+#
+endif
 #
 define
 NS_T
