@@ -237,6 +237,14 @@ Orientation
 orientation
 )
 {
+if
+(
+!
+HasSize
+(
+)
+)
+{
 mSize
 .
 emplace
@@ -255,6 +263,7 @@ emplace
 orientation
 )
 ;
+}
 }
 bool
 HasSize
