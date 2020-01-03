@@ -25740,13 +25740,9 @@ tabs
 .
 remote
 .
-autostart
-.
 disabled
 -
-because
--
-using
+for
 -
 a11y
 "
