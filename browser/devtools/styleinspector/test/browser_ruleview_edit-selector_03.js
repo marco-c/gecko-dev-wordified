@@ -252,6 +252,7 @@ editor
 yield
 focusEditableField
 (
+view
 ruleEditor
 .
 selectorText
