@@ -290,13 +290,13 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_JSON
 )
-JS_PropertyStub
+nullptr
 /
 *
 addProperty
 *
 /
-JS_DeletePropertyStub
+nullptr
 /
 *
 delProperty
@@ -314,9 +314,6 @@ JS_StrictPropertyStub
 setProperty
 *
 /
-JS_EnumerateStub
-JS_ResolveStub
-JS_ConvertStub
 }
 ;
 static

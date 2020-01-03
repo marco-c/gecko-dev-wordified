@@ -223,11 +223,11 @@ WeakSetObject
 :
 RESERVED_SLOTS
 )
-JS_PropertyStub
+nullptr
 /
 /
 addProperty
-JS_DeletePropertyStub
+nullptr
 /
 /
 delProperty
@@ -239,9 +239,6 @@ JS_StrictPropertyStub
 /
 /
 setProperty
-JS_EnumerateStub
-JS_ResolveStub
-JS_ConvertStub
 }
 ;
 const

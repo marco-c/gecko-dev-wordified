@@ -195,11 +195,11 @@ ptestClass
 PTest
 "
 JSCLASS_HAS_PRIVATE
-JS_PropertyStub
+nullptr
 /
 /
 add
-JS_DeletePropertyStub
+nullptr
 /
 /
 delete
@@ -211,9 +211,6 @@ JS_StrictPropertyStub
 /
 /
 set
-JS_EnumerateStub
-JS_ResolveStub
-JS_ConvertStub
 }
 ;
 static

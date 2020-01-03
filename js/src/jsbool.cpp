@@ -228,13 +228,13 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Boolean
 )
-JS_PropertyStub
+nullptr
 /
 *
 addProperty
 *
 /
-JS_DeletePropertyStub
+nullptr
 /
 *
 delProperty
@@ -252,9 +252,6 @@ JS_StrictPropertyStub
 setProperty
 *
 /
-JS_EnumerateStub
-JS_ResolveStub
-JS_ConvertStub
 }
 ;
 MOZ_ALWAYS_INLINE

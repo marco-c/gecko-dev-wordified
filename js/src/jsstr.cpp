@@ -2720,13 +2720,13 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_String
 )
-JS_PropertyStub
+nullptr
 /
 *
 addProperty
 *
 /
-JS_DeletePropertyStub
+nullptr
 /
 *
 delProperty
@@ -2746,7 +2746,6 @@ setProperty
 /
 str_enumerate
 str_resolve
-JS_ConvertStub
 }
 ;
 /
