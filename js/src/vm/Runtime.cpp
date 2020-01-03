@@ -1030,7 +1030,7 @@ ionPcScriptCache
 (
 nullptr
 )
-defaultJSContextCallback
+scriptEnvironmentPreparer
 (
 nullptr
 )

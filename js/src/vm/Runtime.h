@@ -8072,8 +8072,9 @@ ionPcScriptCache
 js
 :
 :
-DefaultJSContextCallback
-defaultJSContextCallback
+ScriptEnvironmentPreparer
+*
+scriptEnvironmentPreparer
 ;
 js
 :
