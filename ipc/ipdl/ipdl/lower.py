@@ -14637,6 +14637,15 @@ Message
 PRIORITY_URGENT
 '
     
+routingId
+=
+ExprVar
+(
+'
+routingId
+'
+)
+    
 ctor
 =
 ConstructorDefn
@@ -14645,6 +14654,22 @@ ConstructorDefn
 ConstructorDecl
 (
 clsname
+params
+=
+[
+Decl
+(
+Type
+(
+'
+int32_t
+'
+)
+routingId
+.
+name
+)
+]
 )
         
 memberinits
@@ -14663,12 +14688,7 @@ Message
 )
                                      
 [
-ExprVar
-(
-'
-MSG_ROUTING_NONE
-'
-)
+routingId
                                        
 ExprVar
 (
@@ -41127,6 +41147,12 @@ pqMsgClass
 (
 )
 )
+                                         
+args
+=
+[
+routingId
+]
 )
 )
 ]
@@ -41184,10 +41210,6 @@ msgvar
 reply
 =
 0
-                                        
-routingId
-=
-routingId
 )
 )
         
@@ -41204,6 +41226,22 @@ errfn
 routingId
 )
 :
+        
+if
+routingId
+is
+None
+:
+            
+routingId
+=
+self
+.
+protocol
+.
+routingId
+(
+)
         
 #
 TODO
@@ -41262,6 +41300,7 @@ pqReplyClass
 args
 =
 [
+routingId
 ]
 )
 )
@@ -41310,9 +41349,6 @@ replyvar
 reply
 =
 1
-routingId
-=
-routingId
 )
             
 +
@@ -41343,55 +41379,12 @@ self
 md
 var
 reply
-routingId
-=
-None
 )
 :
-        
-if
-routingId
-is
-None
-:
-            
-routingId
-=
-self
-.
-protocol
-.
-routingId
-(
-)
         
 stmts
 =
 [
-StmtExpr
-(
-ExprCall
-(
-            
-ExprSelect
-(
-var
-'
--
->
-'
-'
-set_routing_id
-'
-)
-            
-args
-=
-[
-routingId
-]
-)
-)
 ]
         
 if
