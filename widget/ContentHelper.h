@@ -259,7 +259,7 @@ nsIWidget
 *
 aWidget
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )

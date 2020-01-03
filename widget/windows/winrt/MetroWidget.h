@@ -1408,7 +1408,7 @@ TouchBehaviorFlags
 ContentGetAllowedTouchBehavior
 (
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )

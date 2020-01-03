@@ -513,7 +513,7 @@ nsIWidget
 *
 aWidget
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )
@@ -550,13 +550,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aWidget
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 aPoint
-)
 viewFrame
 )
 ;
