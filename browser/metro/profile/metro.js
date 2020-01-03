@@ -4246,13 +4246,13 @@ https
 :
 /
 /
-www
+location
 .
-googleapis
+services
+.
+mozilla
 .
 com
-/
-geolocation
 /
 v1
 /
@@ -4261,7 +4261,7 @@ geolocate
 key
 =
 %
-GOOGLE_API_KEY
+MOZILLA_API_KEY
 %
 "
 )
