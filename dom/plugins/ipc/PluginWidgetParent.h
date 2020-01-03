@@ -301,7 +301,7 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-UniquePtr
+nsAutoPtr
 <
 nsPluginNativeWindowGtk
 >
