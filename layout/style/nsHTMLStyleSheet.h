@@ -442,7 +442,8 @@ delete
 nsHTMLStyleSheet
 (
 )
-;
+{
+}
 class
 HTMLColorRule
 ;
@@ -850,10 +851,10 @@ TableTHRule
 >
 mTableTHRule
 ;
-PLDHashTable
+PLDHashTable2
 mMappedAttrTable
 ;
-PLDHashTable
+PLDHashTable2
 mLangRuleTable
 ;
 }
