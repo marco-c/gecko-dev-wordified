@@ -2961,6 +2961,11 @@ sourceCacheKey
 persistArgs
 .
 sourceReferrer
+Ci
+.
+nsIHttpChannel
+.
+REFERRER_POLICY_DEFAULT
 persistArgs
 .
 sourcePostData

@@ -4427,6 +4427,11 @@ saveURI
 sourceURI
 null
 null
+Ci
+.
+nsIHttpChannel
+.
+REFERRER_POLICY_DEFAULT
 null
 null
 targetURI

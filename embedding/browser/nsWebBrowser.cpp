@@ -6018,6 +6018,10 @@ in
 nsIURI
 aReferrer
 in
+unsigned
+long
+aReferrerPolicy
+in
 nsISupports
 aCacheKey
 in
@@ -6051,6 +6055,8 @@ aCacheKey
 nsIURI
 *
 aReferrer
+uint32_t
+aReferrerPolicy
 nsIInputStream
 *
 aPostData
@@ -6072,6 +6078,7 @@ SavePrivacyAwareURI
 aURI
 aCacheKey
 aReferrer
+aReferrerPolicy
 aPostData
 aExtraHeaders
 aFile
@@ -6102,6 +6109,8 @@ aCacheKey
 nsIURI
 *
 aReferrer
+uint32_t
+aReferrerPolicy
 nsIInputStream
 *
 aPostData
@@ -6273,6 +6282,7 @@ SavePrivacyAwareURI
 uri
 aCacheKey
 aReferrer
+aReferrerPolicy
 aPostData
 aExtraHeaders
 aFile

@@ -318,6 +318,8 @@ aCacheKey
 nsIURI
 *
 aReferrer
+uint32_t
+aReferrerPolicy
 nsIInputStream
 *
 aPostData
