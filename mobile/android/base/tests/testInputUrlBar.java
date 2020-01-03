@@ -177,7 +177,7 @@ startEditingMode
 ;
 assertUrlBarText
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )
@@ -547,7 +547,7 @@ BACK
 ;
 waitForText
 (
-StringHelper
+mStringHelper
 .
 TITLE_PLACE_HOLDER
 )
@@ -571,7 +571,7 @@ startEditingMode
 ;
 assertUrlBarText
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )

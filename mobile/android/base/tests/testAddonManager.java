@@ -212,7 +212,7 @@ final
 String
 aboutAddonsURL
 =
-StringHelper
+mStringHelper
 .
 ABOUT_ADDONS_URL
 ;
@@ -232,7 +232,7 @@ Addon
 Manger
 selectMenuItem
 (
-StringHelper
+mStringHelper
 .
 ADDONS_LABEL
 )
@@ -410,7 +410,7 @@ blankURL
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -496,7 +496,7 @@ the
 menu
 selectMenuItem
 (
-StringHelper
+mStringHelper
 .
 ADDONS_LABEL
 )
