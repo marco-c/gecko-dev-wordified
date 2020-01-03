@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 jscompartment
 .
 h
@@ -17866,7 +17875,9 @@ printf
 s
 :
 %
-d
+"
+PRIuSIZE
+"
 )
 has
 variables
@@ -17932,7 +17943,9 @@ printf
 s
 :
 %
-d
+"
+PRIuSIZE
+"
 )
 :
 :

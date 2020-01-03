@@ -137,6 +137,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
 <
 ctype
 .
@@ -4776,7 +4785,9 @@ fp
 s
 :
 %
-d
+"
+PRIuSIZE
+"
 )
 "
 script
@@ -4795,9 +4806,6 @@ filename
 :
 "
 "
-(
-int
-)
 script
 -
 >
