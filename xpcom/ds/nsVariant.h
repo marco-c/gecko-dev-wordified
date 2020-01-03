@@ -239,6 +239,16 @@ Cleanup
 (
 )
 ;
+uint16_t
+GetType
+(
+)
+const
+{
+return
+mType
+;
+}
 nsresult
 ConvertToInt8
 (
