@@ -2260,14 +2260,6 @@ name
 "
 ModuleCompiler
 "
-|
-|
-name
-=
-=
-"
-ModuleValidator
-"
 )
 {
 return
