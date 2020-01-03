@@ -6006,11 +6006,6 @@ Next
 (
 )
 ;
-bool
-IsLeftToRight
-(
-)
-;
 int32_t
 Count
 (
@@ -6025,9 +6020,6 @@ nsIFrame
 *
 aFirstChild
 )
-;
-bool
-mLeftToRight
 ;
 nsIFrame
 *
