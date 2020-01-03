@@ -3138,7 +3138,7 @@ self
 leakLogFile
 options
 .
-leakThreshold
+leakThresholds
 )
       
 self
@@ -3635,7 +3635,7 @@ int
 dest
 =
 "
-leakThreshold
+defaultLeakThreshold
 "
                     
 default
@@ -3652,30 +3652,33 @@ number
 of
 bytes
 leaked
-through
+in
+default
 "
                            
 "
+processes
+through
 refcounted
 objects
 (
 or
 bytes
-in
-classes
-with
 "
                            
 "
+in
+classes
+with
 MOZ_COUNT_CTOR
 and
 MOZ_COUNT_DTOR
 )
-is
-greater
 "
                            
 "
+is
+greater
 than
 the
 given
@@ -4813,6 +4816,20 @@ parallel
 tests
 "
 )
+      
+options
+.
+leakThresholds
+=
+{
+"
+default
+"
+:
+options
+.
+defaultLeakThreshold
+}
     
 return
 options
