@@ -26334,6 +26334,7 @@ MOZ_ASSERT
 (
 mState
 =
+=
 State_Complete
 )
 ;
@@ -33894,6 +33895,7 @@ mCallback
 MOZ_ASSERT
 (
 mState
+=
 =
 State_Complete
 )
