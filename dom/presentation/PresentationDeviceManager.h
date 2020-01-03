@@ -203,6 +203,16 @@ PresentationDeviceManager
 )
 ;
 void
+Init
+(
+)
+;
+void
+Shutdown
+(
+)
+;
+void
 LoadDeviceProviders
 (
 )

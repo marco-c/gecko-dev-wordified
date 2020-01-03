@@ -238,8 +238,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-/
-/
 |
 |
 (
