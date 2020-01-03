@@ -1740,6 +1740,13 @@ WindowUsesOMTC
 MOZ_OVERRIDE
 ;
 virtual
+void
+ConfigureAPZCTreeManager
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 nsresult
 NotifyIMEInternal
 (
