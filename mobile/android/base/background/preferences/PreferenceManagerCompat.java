@@ -268,7 +268,6 @@ be
 invoked
 when
 a
-*
 {
 link
 Preference
@@ -276,6 +275,7 @@ Preference
 in
 the
 hierarchy
+*
 rooted
 at
 this
@@ -284,7 +284,6 @@ link
 PreferenceScreen
 }
 is
-*
 clicked
 .
 *
@@ -306,13 +305,13 @@ tree
 rooted
 at
 this
-*
 {
 link
 PreferenceScreen
 }
 has
 been
+*
 clicked
 .
 *
@@ -326,7 +325,6 @@ PreferenceScreen
 }
 that
 the
-*
 preference
 is
 located
@@ -341,6 +339,7 @@ that
 was
 clicked
 .
+*
 *
 return
 Whether
@@ -482,11 +481,11 @@ Preference
 }
 in
 the
-*
 hierarchy
 rooted
 at
 this
+*
 {
 link
 PreferenceManager
@@ -707,12 +706,12 @@ the
 preference
 hierarchies
 of
-*
 {
 link
 Activity
 Activities
 }
+*
 that
 match
 the
@@ -723,7 +722,6 @@ Intent
 }
 .
 An
-*
 {
 link
 Activity
@@ -733,11 +731,11 @@ its
 preference
 hierarchy
 with
+*
 meta
 -
 data
 using
-*
 the
 {
 link
@@ -749,6 +747,7 @@ key
 *
 <
 p
+/
 >
 *
 If
@@ -762,7 +761,6 @@ new
 preference
 hierarchies
 will
-*
 be
 merged
 in
@@ -787,10 +785,10 @@ to
 merge
 the
 new
-*
 hierarchies
 into
 .
+*
 *
 return
 The
@@ -807,7 +805,6 @@ new
 hierarchy
 '
 s
-*
 root
 )
 .
@@ -919,10 +916,10 @@ a
 preference
 hierarchy
 is
-*
 given
 the
 new
+*
 preference
 hierarchies
 will
@@ -962,10 +959,10 @@ to
 merge
 the
 new
-*
 hierarchies
 into
 .
+*
 *
 return
 The
@@ -982,10 +979,10 @@ new
 hierarchy
 '
 s
-*
 root
 )
 .
+*
 *
 hide
 *
@@ -1314,7 +1311,6 @@ dispatch
 the
 activity
 stop
-*
 event
 .
 *
@@ -1401,7 +1397,6 @@ dispatch
 the
 activity
 destroy
-*
 event
 .
 *
@@ -1499,6 +1494,7 @@ the
 preference
 hierarchy
 .
+*
 *
 return
 Whether
