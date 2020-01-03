@@ -115,6 +115,13 @@ getChromeActors
 client
 )
 ;
+yield
+attachTab
+(
+client
+chromeActors
+)
+;
 ok
 (
 Promise
@@ -123,7 +130,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 native
@@ -254,6 +261,13 @@ target
 tab
 .
 "
+)
+;
+yield
+attachTab
+(
+client
+targetTab
 )
 ;
 yield

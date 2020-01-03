@@ -657,6 +657,8 @@ stack
 stack
 .
 length
+-
+1
 ]
 =
 =
