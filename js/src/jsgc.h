@@ -6147,6 +6147,12 @@ duration_
 )
 {
 }
+virtual
+~
+GCParallelTask
+(
+)
+;
 /
 /
 Time
