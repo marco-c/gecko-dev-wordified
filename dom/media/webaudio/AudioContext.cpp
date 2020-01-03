@@ -3613,6 +3613,13 @@ aPromise
 return
 ;
 }
+#
+ifndef
+WIN32
+/
+/
+Bug
+1170547
 MOZ_ASSERT
 (
 (
@@ -3708,6 +3715,11 @@ transition
 "
 )
 ;
+#
+endif
+/
+/
+WIN32
 MOZ_ASSERT
 (
 mIsOffline
