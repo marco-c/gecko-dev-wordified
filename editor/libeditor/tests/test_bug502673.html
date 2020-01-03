@@ -406,6 +406,10 @@ this
 }
 QueryInterface
 :
+SpecialPowers
+.
+wrapCallback
+(
 function
 (
 iid
@@ -447,6 +451,7 @@ Cr
 NS_ERROR_NO_INTERFACE
 ;
 }
+)
 }
 ;
 function
