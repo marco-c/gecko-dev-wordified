@@ -212,10 +212,6 @@ Register
 reg1
 Register
 reg2
-bool
-useAtStart
-=
-false
 )
 ;
 /

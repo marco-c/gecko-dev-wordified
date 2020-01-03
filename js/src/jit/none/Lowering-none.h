@@ -176,10 +176,6 @@ MDefinition
 *
 Register
 Register
-bool
-useAtStart
-=
-false
 )
 {
 MOZ_CRASH

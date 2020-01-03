@@ -224,10 +224,6 @@ mir
 Register
 reg1
 Register
-bool
-useAtStart
-=
-false
 )
 ;
 /

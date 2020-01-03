@@ -397,9 +397,6 @@ Value
 returnLabel_
 (
 )
-stubSpace_
-(
-)
 nativeToBytecodeMap_
 (
 nullptr
