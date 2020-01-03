@@ -415,6 +415,7 @@ CSSStyleSheet
 *
 aSheet
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -426,6 +427,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -436,6 +438,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMCSSRule
@@ -443,6 +446,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -454,6 +458,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -495,6 +500,7 @@ nsMediaQueryResultCacheKey
 &
 aKey
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -520,6 +526,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 MOZ_MUST_OVERRIDE
 ;
 protected
@@ -613,6 +620,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -623,6 +631,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMCSSRule
@@ -630,6 +639,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -641,6 +651,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -682,6 +693,7 @@ nsMediaQueryResultCacheKey
 &
 aKey
 )
+MOZ_OVERRIDE
 ;
 enum
 Function
@@ -785,6 +797,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 MOZ_MUST_OVERRIDE
 ;
 protected
@@ -1198,6 +1211,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1715,6 +1729,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1725,6 +1740,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1765,6 +1781,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :
@@ -2091,6 +2108,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -2304,6 +2322,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -2320,6 +2339,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMCSSRule
@@ -2327,6 +2347,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -2338,6 +2359,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -2706,6 +2728,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -2887,6 +2910,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -2903,6 +2927,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -2915,6 +2940,7 @@ nsMediaQueryResultCacheKey
 &
 aKey
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMCSSRule
@@ -2922,6 +2948,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -2933,6 +2960,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -2970,6 +2998,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -3115,6 +3144,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /

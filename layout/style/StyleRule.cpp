@@ -6422,6 +6422,7 @@ StyleRule
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 DOMCSSDeclarationImpl
 *

@@ -632,6 +632,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 void
 TakeBuffer
@@ -952,6 +953,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :

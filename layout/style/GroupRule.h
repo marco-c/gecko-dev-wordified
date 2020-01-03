@@ -257,6 +257,7 @@ CSSStyleSheet
 *
 aSheet
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -460,6 +461,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 =
 0
 ;

@@ -940,6 +940,7 @@ aWasAlternate
 nsresult
 aStatus
 )
+MOZ_OVERRIDE
 ;
 /
 /

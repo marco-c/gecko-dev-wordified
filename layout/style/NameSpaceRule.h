@@ -281,6 +281,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -291,6 +292,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsIAtom
 *
@@ -328,6 +330,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 MOZ_MUST_OVERRIDE
 ;
 /
