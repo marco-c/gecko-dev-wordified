@@ -331,6 +331,14 @@ transport
 '
 testing
 /
+marionette
+/
+driver
+'
+    
+'
+testing
+/
 mozbase
 /
 mozcrash
