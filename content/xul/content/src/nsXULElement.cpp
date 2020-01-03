@@ -5296,6 +5296,15 @@ aDocument
 aDocument
 -
 >
+IsLoadedAsInteractiveData
+(
+)
+&
+&
+!
+aDocument
+-
+>
 AllowXULXBL
 (
 )
