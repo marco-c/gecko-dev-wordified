@@ -371,9 +371,6 @@ gThread
 =
 thread
 ;
-sipcc
-:
-:
 PeerConnectionCtx
 :
 :
@@ -21359,9 +21356,6 @@ RUN_ALL_TESTS
 (
 )
 ;
-sipcc
-:
-:
 PeerConnectionCtx
 :
 :
