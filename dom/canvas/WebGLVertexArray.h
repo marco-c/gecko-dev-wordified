@@ -398,6 +398,10 @@ friend
 class
 WebGLVertexArrayFake
 ;
+friend
+class
+WebGL2Context
+;
 }
 ;
 }
