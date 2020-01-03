@@ -609,6 +609,26 @@ parser
 '
 argument_group_names
 '
+        
+#
+Dict
+of
+string
+to
+MethodHandler
+defining
+sub
+commands
+for
+this
+        
+#
+command
+.
+        
+'
+subcommand_handlers
+'
     
 )
     
@@ -642,6 +662,10 @@ None
 pass_context
 =
 False
+        
+subcommand_handlers
+=
+None
 )
 :
         
@@ -713,3 +737,12 @@ self
 pass_context
 =
 pass_context
+        
+self
+.
+subcommand_handlers
+=
+subcommand_handlers
+or
+{
+}
