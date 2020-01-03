@@ -451,7 +451,7 @@ touch
 behaviours
 for
 %
-d
+lu
 points
 \
 n
@@ -776,7 +776,7 @@ TBS_LOG
 p
 dropping
 %
-d
+lu
 events
 \
 n
@@ -823,7 +823,7 @@ returning
 first
 of
 %
-d
+lu
 events
 \
 n

@@ -536,7 +536,7 @@ type
 d
 with
 %
-d
+lu
 touches
 in
 state
