@@ -778,6 +778,10 @@ SimdExtractElement
 )
 SAFE_OP
 (
+SimdBinaryComp
+)
+SAFE_OP
+(
 SimdBinaryArith
 )
 UNSAFE_OP

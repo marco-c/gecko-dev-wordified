@@ -188,6 +188,16 @@ SimdExtractElementF
 \
 _
 (
+SimdBinaryCompIx4
+)
+\
+_
+(
+SimdBinaryCompFx4
+)
+\
+_
+(
 SimdBinaryArithIx4
 )
 \
