@@ -175,6 +175,17 @@ h
 for
 NS_OK
 etc
+#
+include
+"
+nsQueryObject
+.
+h
+"
+/
+/
+for
+do_QueryObject
 using
 namespace
 mozilla

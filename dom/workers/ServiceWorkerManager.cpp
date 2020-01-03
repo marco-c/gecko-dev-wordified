@@ -184,6 +184,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 RuntimeService
 .
 h

@@ -949,6 +949,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

@@ -149,6 +149,13 @@ nsContentList
 .
 h
 "
+#
+include
+"
+nsQueryObject
+.
+h
+"
 NS_IMPL_NS_NEW_HTML_ELEMENT
 (
 FieldSet

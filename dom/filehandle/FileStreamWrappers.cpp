@@ -204,6 +204,13 @@ nsThreadUtils
 h
 "
 #
+include
+"
+nsQueryObject
+.
+h
+"
+#
 ifdef
 DEBUG
 #
