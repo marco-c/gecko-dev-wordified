@@ -248,14 +248,6 @@ override
 ;
 private
 :
-bool
-PerformFormatSpecificProcess
-(
-MediaRawData
-*
-aSample
-)
-;
 nsresult
 CreateAudioData
 (
@@ -281,9 +273,6 @@ mAudioRate
 const
 uint32_t
 mAudioProfile
-;
-bool
-mUseAdts
 ;
 MediaDataDecoderCallback
 *
