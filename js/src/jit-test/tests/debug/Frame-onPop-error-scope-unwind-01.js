@@ -74,8 +74,18 @@ point
 of
 onPop
 is
+at
 the
-outermost
+point
+of
+popping
+(
+the
+/
+/
+noSuchFn
+call
+)
 .
 correct
 =
@@ -93,7 +103,7 @@ e
 =
 =
 =
-undefined
+42
 &
 &
 f
@@ -109,7 +119,7 @@ outer
 =
 =
 =
-43
+undefined
 )
 ;
 }
