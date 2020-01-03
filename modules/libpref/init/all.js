@@ -6243,6 +6243,16 @@ pref
 "
 apz
 .
+highlight_checkerboarded_areas
+"
+false
+)
+;
+pref
+(
+"
+apz
+.
 max_velocity_inches_per_ms
 "
 "
