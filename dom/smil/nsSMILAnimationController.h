@@ -382,6 +382,7 @@ level
 /
 class
 nsSMILAnimationController
+MOZ_FINAL
 :
 public
 nsSMILTimeContainer

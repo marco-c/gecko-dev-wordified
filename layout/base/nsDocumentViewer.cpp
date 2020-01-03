@@ -1310,6 +1310,7 @@ mDocViewer
 -
 class
 nsDocumentViewer
+MOZ_FINAL
 :
 public
 nsIContentViewer

@@ -163,6 +163,7 @@ namespace
 mozilla
 class
 nsFormData
+MOZ_FINAL
 :
 public
 nsIDOMFormData

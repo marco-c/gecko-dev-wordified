@@ -173,6 +173,7 @@ NS_CRYPTO_HMAC_CID
 }
 class
 nsCryptoHash
+MOZ_FINAL
 :
 public
 nsICryptoHash

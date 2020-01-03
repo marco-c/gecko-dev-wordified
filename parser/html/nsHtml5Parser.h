@@ -241,6 +241,7 @@ h
 "
 class
 nsHtml5Parser
+MOZ_FINAL
 :
 public
 nsIParser

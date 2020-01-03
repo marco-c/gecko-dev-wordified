@@ -172,6 +172,7 @@ VoiceData
 ;
 class
 nsSynthVoiceRegistry
+MOZ_FINAL
 :
 public
 nsISynthVoiceRegistry

@@ -361,6 +361,7 @@ NS_ICDOCSHELLTREEOWNER_IID
 )
 class
 nsDocShellTreeOwner
+MOZ_FINAL
 :
 public
 nsIDocShellTreeOwner
@@ -724,6 +725,7 @@ RemoveChromeListeners
 /
 class
 ChromeTooltipListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

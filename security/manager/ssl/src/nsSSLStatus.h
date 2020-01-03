@@ -141,6 +141,7 @@ h
 "
 class
 nsSSLStatus
+MOZ_FINAL
 :
 public
 nsISSLStatus

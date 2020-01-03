@@ -316,6 +316,7 @@ nsJARInputThunk
 -
 class
 nsJARChannel
+MOZ_FINAL
 :
 public
 nsIJARChannel

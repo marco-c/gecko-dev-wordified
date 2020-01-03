@@ -212,6 +212,7 @@ h
 "
 class
 nsUrlClassifierPrefixSet
+MOZ_FINAL
 :
 public
 nsIUrlClassifierPrefixSet

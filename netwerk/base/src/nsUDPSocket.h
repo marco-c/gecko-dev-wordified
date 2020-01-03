@@ -196,6 +196,7 @@ h
 -
 class
 nsUDPSocket
+MOZ_FINAL
 :
 public
 nsASocketHandler

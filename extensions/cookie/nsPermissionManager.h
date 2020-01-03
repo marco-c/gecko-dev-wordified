@@ -291,6 +291,7 @@ mozIStorageAsyncStatement
 /
 class
 nsPermissionManager
+MOZ_FINAL
 :
 public
 nsIPermissionManager

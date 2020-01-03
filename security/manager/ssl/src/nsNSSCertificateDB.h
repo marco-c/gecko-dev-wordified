@@ -109,6 +109,7 @@ nsIArray
 ;
 class
 nsNSSCertificateDB
+MOZ_FINAL
 :
 public
 nsIX509CertDB

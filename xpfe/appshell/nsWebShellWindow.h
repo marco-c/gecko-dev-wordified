@@ -179,6 +179,7 @@ namespace
 mozilla
 class
 nsWebShellWindow
+MOZ_FINAL
 :
 public
 nsXULWindow

@@ -286,6 +286,7 @@ wrapper
 /
 class
 nsDragService
+MOZ_FINAL
 :
 public
 nsBaseDragService

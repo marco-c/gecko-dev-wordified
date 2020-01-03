@@ -294,6 +294,7 @@ mCollection
 ;
 class
 HTMLPropertiesCollection
+MOZ_FINAL
 :
 public
 nsIHTMLCollection

@@ -151,6 +151,7 @@ files
 /
 class
 nsGZFileWriter
+MOZ_FINAL
 :
 public
 nsIGZFileWriter

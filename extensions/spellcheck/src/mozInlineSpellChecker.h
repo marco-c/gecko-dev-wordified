@@ -744,6 +744,7 @@ aRange
 ;
 class
 mozInlineSpellChecker
+MOZ_FINAL
 :
 public
 nsIInlineSpellChecker
