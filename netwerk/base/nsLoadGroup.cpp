@@ -3144,10 +3144,10 @@ damage
 .
 /
 /
-PL_DHashTableRemove
-(
-&
 mRequests
+.
+Remove
+(
 request
 )
 ;

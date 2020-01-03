@@ -965,10 +965,10 @@ void
 key
 )
 {
-PL_DHashTableRemove
-(
-&
 mCompareCache
+.
+Remove
+(
 key
 )
 ;

@@ -1008,10 +1008,10 @@ char
 aName
 )
 {
-PL_DHashTableRemove
-(
-&
 mValuesHash
+.
+Remove
+(
 (
 void
 *

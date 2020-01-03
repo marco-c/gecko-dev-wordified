@@ -126,10 +126,10 @@ aElement
 ;
 do
 {
-PL_DHashTableRemove
-(
-&
 mMap
+.
+Remove
+(
 child
 )
 ;

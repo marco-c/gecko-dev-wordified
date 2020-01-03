@@ -5018,9 +5018,11 @@ gContentListHashTable
 )
 return
 ;
-PL_DHashTableRemove
-(
 gContentListHashTable
+-
+>
+Remove
+(
 &
 key
 )
@@ -5191,9 +5193,11 @@ mFunc
 mString
 )
 ;
-PL_DHashTableRemove
-(
 gFuncStringContentListHashTable
+-
+>
+Remove
+(
 &
 key
 )

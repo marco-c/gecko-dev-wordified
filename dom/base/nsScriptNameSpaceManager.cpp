@@ -884,9 +884,11 @@ nsAString
 aKey
 )
 {
-PL_DHashTableRemove
-(
 aTable
+-
+>
+Remove
+(
 aKey
 )
 ;

@@ -1177,10 +1177,10 @@ doesn
 t
 crash
 .
-PL_DHashTableRemove
-(
-&
 t
+.
+Remove
+(
 (
 const
 void

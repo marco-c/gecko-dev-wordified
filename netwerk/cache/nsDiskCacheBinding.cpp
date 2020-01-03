@@ -2195,10 +2195,10 @@ remove
 this
 hash
 entry
-PL_DHashTableRemove
-(
-&
 table
+.
+Remove
+(
 (
 void
 *

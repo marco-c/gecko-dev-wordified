@@ -236,10 +236,10 @@ nsIContent
 aContent
 )
 {
-PL_DHashTableRemove
-(
-&
 mTable
+.
+Remove
+(
 aContent
 )
 ;

@@ -2265,10 +2265,10 @@ entry
 ;
 #
 endif
-PL_DHashTableRemove
-(
-&
 table
+.
+Remove
+(
 &
 (
 cacheEntry
