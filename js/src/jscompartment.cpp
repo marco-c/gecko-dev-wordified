@@ -4244,6 +4244,10 @@ fixupInitialShapeTable
 (
 )
 ;
+fixupBaseShapeTable
+(
+)
+;
 }
 void
 JSCompartment

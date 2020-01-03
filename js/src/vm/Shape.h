@@ -3825,6 +3825,11 @@ fixupAfterMovingGC
 (
 )
 ;
+bool
+fixupBaseShapeTableEntry
+(
+)
+;
 private
 :
 static
