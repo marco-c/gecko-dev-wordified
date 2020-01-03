@@ -1119,7 +1119,7 @@ It
 is
 /
 /
-currenlty
+currently
 used
 by
 ruby
