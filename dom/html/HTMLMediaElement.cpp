@@ -21178,7 +21178,7 @@ header
 aChannel
 -
 >
-SetReferrer
+SetReferrerWithPolicy
 (
 OwnerDoc
 (
@@ -21186,6 +21186,14 @@ OwnerDoc
 -
 >
 GetDocumentURI
+(
+)
+OwnerDoc
+(
+)
+-
+>
+GetReferrerPolicy
 (
 )
 )
