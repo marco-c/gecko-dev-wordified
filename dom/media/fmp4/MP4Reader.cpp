@@ -2306,6 +2306,10 @@ GetReentrantMonitor
 )
 )
 ;
+mInfo
+.
+mIsEncrypted
+=
 mIsEncrypted
 =
 mDemuxer

@@ -490,6 +490,16 @@ MediaInfo
 {
 public
 :
+MediaInfo
+(
+)
+:
+mIsEncrypted
+(
+false
+)
+{
+}
 bool
 HasVideo
 (
@@ -531,6 +541,9 @@ HasAudio
 )
 ;
 }
+bool
+mIsEncrypted
+;
 /
 /
 TODO
