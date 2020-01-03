@@ -5574,6 +5574,8 @@ SimdTypeDescr
 :
 Type
 type
+unsigned
+numElems
 )
 ;
 InliningStatus

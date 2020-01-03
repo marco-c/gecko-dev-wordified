@@ -4572,6 +4572,10 @@ bool
 canonicalizeDoubles
 =
 true
+unsigned
+numElems
+=
+0
 )
 ;
 template
