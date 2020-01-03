@@ -758,6 +758,11 @@ then
 appsRegistry
 .
 _saveApps
+.
+bind
+(
+appsRegistry
+)
 )
 ;
 }
