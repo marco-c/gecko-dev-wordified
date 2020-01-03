@@ -3611,6 +3611,8 @@ length
 ]
 =
 {
+uint8_t
+(
 (
 aSize
 >
@@ -3619,6 +3621,9 @@ aSize
 )
 &
 0xFF
+)
+uint8_t
+(
 (
 aSize
 >
@@ -3627,6 +3632,9 @@ aSize
 )
 &
 0xFF
+)
+uint8_t
+(
 (
 aSize
 >
@@ -3635,9 +3643,13 @@ aSize
 )
 &
 0xFF
+)
+uint8_t
+(
 aSize
 &
 0xFF
+)
 }
 ;
 aOutputBuf
@@ -6112,9 +6124,12 @@ config
 descriptor
 tag
 .
+uint8_t
+(
 15
 +
 csdSize
+)
 /
 /
 Size
@@ -6196,7 +6211,10 @@ specific
 descriptor
 tag
 .
+uint8_t
+(
 csdSize
+)
 /
 /
 Data
