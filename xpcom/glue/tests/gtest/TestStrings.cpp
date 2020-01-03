@@ -3182,6 +3182,8 @@ IsVoid
 )
 )
 ;
+/
+*
 int32_t
 index
 =
@@ -3200,6 +3202,8 @@ index
 kNotFound
 )
 ;
+*
+/
 }
 TEST
 (
