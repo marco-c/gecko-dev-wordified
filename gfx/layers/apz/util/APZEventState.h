@@ -412,10 +412,6 @@ SendPendingTouchPreventedResponse
 (
 bool
 aPreventDefault
-const
-ScrollableLayerGuid
-&
-aGuid
 )
 ;
 already_AddRefed
