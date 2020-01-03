@@ -373,8 +373,8 @@ aVolume
 {
 }
 virtual
-double
-GetMediaTimeSecs
+int64_t
+GetMediaTimeUs
 (
 )
 {

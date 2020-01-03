@@ -1204,7 +1204,7 @@ return
 mAudioOffloadPlayer
 -
 >
-GetMediaTimeSecs
+GetMediaTimeUs
 (
 )
 ;
