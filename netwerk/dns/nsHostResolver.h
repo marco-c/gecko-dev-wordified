@@ -760,6 +760,15 @@ int
 grace
 )
 ;
+void
+CopyExpirationTimesFrom
+(
+const
+nsHostRecord
+*
+aFromHostRecord
+)
+;
 /
 /
 Checks
