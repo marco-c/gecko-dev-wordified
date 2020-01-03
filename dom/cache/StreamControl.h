@@ -423,12 +423,6 @@ CloseAllReadStreamsWithoutReporting
 (
 )
 ;
-bool
-HasEverBeenRead
-(
-)
-const
-;
 /
 /
 protected
