@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-ProgressTracker_h__
+mozilla_image_src_ProgressTracker_h
 #
 define
-ProgressTracker_h__
+mozilla_image_src_ProgressTracker_h
 #
 include
 "
@@ -1428,3 +1428,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_image_src_ProgressTracker_h
