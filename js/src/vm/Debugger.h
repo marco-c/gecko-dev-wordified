@@ -2995,7 +2995,7 @@ vp
 ;
 static
 bool
-setupTraceLogger
+enableTraceItem
 (
 JSContext
 *
