@@ -1173,6 +1173,9 @@ breaks
 bool
 mLineBreakDue
 ;
+bool
+mPreformattedBlockBoundary
+;
 nsString
 mURL
 ;
