@@ -626,12 +626,7 @@ searchString
 "
 ContentSearchTest
 "
-healthReportKey
-:
-"
-ContentSearchTest
-"
-searchPurpose
+whence
 :
 "
 ContentSearchTest
@@ -790,12 +785,7 @@ searchString
 "
 ContentSearchTest
 "
-healthReportKey
-:
-"
-ContentSearchTest
-"
-searchPurpose
+whence
 :
 "
 ContentSearchTest
