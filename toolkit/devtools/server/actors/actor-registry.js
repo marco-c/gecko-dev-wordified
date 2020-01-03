@@ -155,7 +155,10 @@ main
 )
 ;
 const
-ActorRegistryUtils
+{
+registerActor
+unregisterActor
+}
 =
 require
 (
@@ -175,14 +178,6 @@ registry
 utils
 "
 )
-;
-const
-{
-registerActor
-unregisterActor
-}
-=
-ActorRegistryUtils
 ;
 loader
 .
