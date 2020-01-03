@@ -3287,7 +3287,7 @@ void
 JSCompartment
 :
 :
-markCrossCompartmentWrappers
+traceCrossCompartmentWrappers
 (
 JSTracer
 *
@@ -3487,7 +3487,7 @@ void
 JSCompartment
 :
 :
-markRoots
+traceRoots
 (
 JSTracer
 *

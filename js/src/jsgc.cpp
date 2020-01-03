@@ -16046,7 +16046,7 @@ pointer
 comp
 -
 >
-markCrossCompartmentWrappers
+traceCrossCompartmentWrappers
 (
 &
 trc
