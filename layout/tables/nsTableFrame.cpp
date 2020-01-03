@@ -17695,7 +17695,7 @@ border
 .
 top
 =
-BC_BORDER_TOP_HALF_COORD
+BC_BORDER_START_HALF_COORD
 (
 p2t
 propData
@@ -17708,7 +17708,7 @@ border
 .
 right
 =
-BC_BORDER_RIGHT_HALF_COORD
+BC_BORDER_END_HALF_COORD
 (
 p2t
 propData
@@ -17721,7 +17721,7 @@ border
 .
 bottom
 =
-BC_BORDER_BOTTOM_HALF_COORD
+BC_BORDER_END_HALF_COORD
 (
 p2t
 propData
@@ -17734,7 +17734,7 @@ border
 .
 left
 =
-BC_BORDER_LEFT_HALF_COORD
+BC_BORDER_START_HALF_COORD
 (
 p2t
 propData
@@ -17814,7 +17814,7 @@ border
 top
 +
 =
-BC_BORDER_TOP_HALF_COORD
+BC_BORDER_START_HALF_COORD
 (
 p2t
 propData
@@ -17828,7 +17828,7 @@ border
 right
 +
 =
-BC_BORDER_RIGHT_HALF_COORD
+BC_BORDER_END_HALF_COORD
 (
 p2t
 propData
@@ -17842,7 +17842,7 @@ border
 bottom
 +
 =
-BC_BORDER_BOTTOM_HALF_COORD
+BC_BORDER_END_HALF_COORD
 (
 p2t
 propData
@@ -17856,7 +17856,7 @@ border
 left
 +
 =
-BC_BORDER_LEFT_HALF_COORD
+BC_BORDER_START_HALF_COORD
 (
 p2t
 propData
@@ -36290,7 +36290,7 @@ mRightCol
 BCPixelSize
 half
 =
-BC_BORDER_LEFT_HALF
+BC_BORDER_START_HALF
 (
 aWidth
 )
@@ -36377,7 +36377,7 @@ mBottomRow
 BCPixelSize
 half
 =
-BC_BORDER_TOP_HALF
+BC_BORDER_START_HALF
 (
 aWidth
 )
@@ -36453,7 +36453,7 @@ mTopRow
 BCPixelSize
 half
 =
-BC_BORDER_BOTTOM_HALF
+BC_BORDER_END_HALF
 (
 aWidth
 )
@@ -36529,7 +36529,7 @@ mLeftCol
 BCPixelSize
 half
 =
-BC_BORDER_RIGHT_HALF
+BC_BORDER_END_HALF
 (
 aWidth
 )

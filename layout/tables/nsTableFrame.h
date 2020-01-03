@@ -5898,7 +5898,7 @@ AppUnitsPerCSSPixel
 )
 ;
 return
-BC_BORDER_RIGHT_HALF_COORD
+BC_BORDER_END_HALF_COORD
 (
 aPixelsToTwips
 mBits
