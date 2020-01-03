@@ -38,7 +38,7 @@ gre
 /
 modules
 /
-WebManifest
+ManifestObtainer
 .
 jsm
 '

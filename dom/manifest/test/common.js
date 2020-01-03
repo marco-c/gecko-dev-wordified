@@ -11,6 +11,13 @@ tests
 *
 *
 /
+/
+*
+globals
+SpecialPowers
+ManifestProcessor
+*
+/
 '
 use
 strict
@@ -36,7 +43,7 @@ gre
 /
 modules
 /
-WebManifest
+ManifestProcessor
 .
 jsm
 '
