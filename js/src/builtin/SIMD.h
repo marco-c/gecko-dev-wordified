@@ -2276,6 +2276,17 @@ check
 )
 #
 define
+ION_ONLY_INT32X4_SIMD_OP
+(
+_
+)
+\
+_
+(
+bool
+)
+#
+define
 FOREACH_COMMONX4_SIMD_OP
 (
 _
