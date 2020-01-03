@@ -5675,7 +5675,6 @@ textId
 TraceLogCreateTextId
 (
 logger
-TraceLogger_Scripts
 script
 )
 ;

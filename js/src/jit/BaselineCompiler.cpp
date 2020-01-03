@@ -599,7 +599,6 @@ logger
 TraceLogCreateTextId
 (
 logger
-TraceLogger_AnnotateScripts
 script
 )
 )
