@@ -235,12 +235,7 @@ DisableHardwareAcceleration
 (
 )
 override
-{
-sDXVAEnabled
-=
-false
 ;
-}
 virtual
 bool
 SupportsSharedDecoders
@@ -355,13 +350,8 @@ aConfig
 )
 const
 ;
-static
 bool
-sIsWMFEnabled
-;
-static
-bool
-sDXVAEnabled
+mWMFInitialized
 ;
 }
 ;
