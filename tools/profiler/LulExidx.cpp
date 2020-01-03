@@ -1036,9 +1036,6 @@ mR15expr
 mHow
 =
 =
-LExpr
-:
-:
 UNKNOWN
 )
 {
@@ -1051,9 +1048,6 @@ mR14expr
 mHow
 =
 =
-LExpr
-:
-:
 UNKNOWN
 )
 {
@@ -1063,9 +1057,6 @@ mR15expr
 =
 LExpr
 (
-LExpr
-:
-:
 NODEREF
 DW_REG_ARM_R14
 0
@@ -1387,9 +1378,6 @@ reg_exprP
 mHow
 =
 =
-LExpr
-:
-:
 UNKNOWN
 )
 {
@@ -1399,9 +1387,6 @@ mR13expr
 =
 LExpr
 (
-LExpr
-:
-:
 NODEREF
 reg_no
 0
@@ -1692,9 +1677,6 @@ vsp_
 =
 LExpr
 (
-LExpr
-:
-:
 NODEREF
 DW_REG_ARM_R13
 0
@@ -1995,9 +1977,6 @@ mR7expr
 mHow
 =
 =
-LExpr
-:
-:
 UNKNOWN
 )
 {
@@ -2007,9 +1986,6 @@ mR7expr
 =
 LExpr
 (
-LExpr
-:
-:
 NODEREF
 DW_REG_ARM_R7
 0
@@ -2025,9 +2001,6 @@ mR11expr
 mHow
 =
 =
-LExpr
-:
-:
 UNKNOWN
 )
 {
@@ -2037,9 +2010,6 @@ mR11expr
 =
 LExpr
 (
-LExpr
-:
-:
 NODEREF
 DW_REG_ARM_R11
 0
@@ -2055,9 +2025,6 @@ mR12expr
 mHow
 =
 =
-LExpr
-:
-:
 UNKNOWN
 )
 {
@@ -2067,9 +2034,6 @@ mR12expr
 =
 LExpr
 (
-LExpr
-:
-:
 NODEREF
 DW_REG_ARM_R12
 0
@@ -2085,9 +2049,6 @@ mR14expr
 mHow
 =
 =
-LExpr
-:
-:
 UNKNOWN
 )
 {
@@ -2097,9 +2058,6 @@ mR14expr
 =
 LExpr
 (
-LExpr
-:
-:
 NODEREF
 DW_REG_ARM_R14
 0
