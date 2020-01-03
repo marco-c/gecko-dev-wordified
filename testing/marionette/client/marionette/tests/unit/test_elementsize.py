@@ -55,8 +55,11 @@ MPL
 .
 from
 marionette
+.
+marionette_test
 import
 MarionetteTestCase
+skip_if_b2g
 class
 TestElementSize
 (
@@ -144,6 +147,7 @@ height
 >
 0
 )
+skip_if_b2g
 class
 TestElementSizeChrome
 (
@@ -192,6 +196,7 @@ marionette
 .
 execute_script
 (
+            
 "
 window
 .

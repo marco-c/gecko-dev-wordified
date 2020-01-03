@@ -62,8 +62,11 @@ By
 errors
 from
 marionette
+.
+marionette_test
 import
 MarionetteTestCase
+skip_if_b2g
 def
 inline
 (
@@ -951,6 +954,7 @@ assertIs
 result
 None
 )
+skip_if_b2g
 class
 TestExecuteChrome
 (
