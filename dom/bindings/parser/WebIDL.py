@@ -9583,6 +9583,37 @@ else
 [
 ]
                 
+if
+self
+.
+identifier
+.
+name
+=
+=
+"
+Promise
+"
+:
+                    
+promiseType
+=
+BuiltinTypes
+[
+IDLBuiltinType
+.
+Types
+.
+any
+]
+                
+else
+:
+                    
+promiseType
+=
+None
+                
 retType
 =
 IDLWrapperType
@@ -9591,6 +9622,7 @@ self
 .
 location
 self
+promiseType
 )
                 
 if
@@ -18352,6 +18384,25 @@ Promise
 "
     
 def
+promiseInnerType
+(
+self
+)
+:
+        
+assert
+self
+.
+isPromise
+(
+)
+        
+return
+self
+.
+_promiseInnerType
+    
+def
 isSerializable
 (
 self
@@ -19011,16 +19062,11 @@ True
         
 if
 (
-iface
+self
 .
-identifier
-.
-name
-=
-=
-"
-Promise
-"
+isPromise
+(
+)
 and
             
 #
@@ -19032,7 +19078,9 @@ type
 not
 self
 .
-_promiseInnerType
+promiseInnerType
+(
+)
 .
 unroll
 (
