@@ -571,6 +571,11 @@ RemoveWindowListeners
 (
 )
 ;
+void
+AddWindowListeners
+(
+)
+;
 virtual
 bool
 RecvMoveFocus
