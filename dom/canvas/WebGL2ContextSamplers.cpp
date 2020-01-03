@@ -114,17 +114,9 @@ GLContext
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
+{
 already_AddRefed
 <
 WebGLSampler
@@ -1293,3 +1285,8 @@ return
 ;
 }
 }
+}
+/
+/
+namespace
+mozilla

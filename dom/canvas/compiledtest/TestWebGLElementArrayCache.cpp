@@ -154,10 +154,6 @@ nsTArray
 .
 h
 "
-using
-namespace
-mozilla
-;
 int
 gTestsPassed
 =
@@ -433,6 +429,9 @@ CheckValidate
 (
 bool
 expectSuccess
+mozilla
+:
+:
 WebGLElementArrayCache
 &
 c
@@ -508,6 +507,9 @@ T
 void
 CheckValidateOneTypeVariousBounds
 (
+mozilla
+:
+:
 WebGLElementArrayCache
 &
 c
@@ -679,6 +681,9 @@ count
 void
 CheckValidateAllTypes
 (
+mozilla
+:
+:
 WebGLElementArrayCache
 &
 c
@@ -813,6 +818,9 @@ T
 (
 )
 ;
+mozilla
+:
+:
 WebGLElementArrayCache
 c
 ;
@@ -1141,6 +1149,9 @@ T
 (
 )
 ;
+mozilla
+:
+:
 WebGLElementArrayCache
 c
 ;
@@ -1296,6 +1307,9 @@ uint8_t
 v
 vsub
 ;
+mozilla
+:
+:
 WebGLElementArrayCache
 b
 ;

@@ -242,10 +242,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-gl
-;
 bool
 IsGLDepthFormat
 (
@@ -2230,6 +2226,9 @@ mCanvasElement
 return
 ;
 }
+dom
+:
+:
 AutoJSAPI
 api
 ;

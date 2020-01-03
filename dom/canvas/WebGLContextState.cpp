@@ -174,14 +174,9 @@ ToJSValue
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
-namespace
-dom
-;
+{
 void
 WebGLContext
 :
@@ -1875,6 +1870,9 @@ JSObject
 *
 obj
 =
+dom
+:
+:
 Uint32Array
 :
 :
@@ -2252,6 +2250,9 @@ JSObject
 *
 obj
 =
+dom
+:
+:
 Float32Array
 :
 :
@@ -2318,6 +2319,9 @@ JSObject
 *
 obj
 =
+dom
+:
+:
 Float32Array
 :
 :
@@ -2381,6 +2385,9 @@ JSObject
 *
 obj
 =
+dom
+:
+:
 Int32Array
 :
 :
@@ -2447,6 +2454,9 @@ JSObject
 *
 obj
 =
+dom
+:
+:
 Int32Array
 :
 :
@@ -2561,6 +2571,9 @@ cx
 if
 (
 !
+dom
+:
+:
 ToJSValue
 (
 cx
@@ -3029,3 +3042,8 @@ return
 nullptr
 ;
 }
+}
+/
+/
+namespace
+mozilla

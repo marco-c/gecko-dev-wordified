@@ -103,6 +103,13 @@ h
 #
 include
 "
+GLDefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticMutex

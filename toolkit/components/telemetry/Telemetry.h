@@ -172,6 +172,8 @@ Telemetry
 #
 include
 "
+mozilla
+/
 TelemetryHistogramEnums
 .
 h

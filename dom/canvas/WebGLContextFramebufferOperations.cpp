@@ -128,10 +128,9 @@ GLContext
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 void
 WebGLContext
 :
@@ -1338,3 +1337,8 @@ mask
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

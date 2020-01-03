@@ -118,9 +118,7 @@ h
 #
 include
 "
-mozilla
-/
-MemoryReporting
+nsAutoPtr
 .
 h
 "
@@ -135,13 +133,6 @@ h
 include
 "
 WebGLObjectModel
-.
-h
-"
-#
-include
-"
-WebGLStrongTypes
 .
 h
 "
@@ -329,7 +320,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 override
 ;

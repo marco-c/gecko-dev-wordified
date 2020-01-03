@@ -114,17 +114,9 @@ WebGLSync
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
+{
 /
 /
 -
@@ -768,3 +760,8 @@ pname
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

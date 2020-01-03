@@ -102,6 +102,13 @@ WEBGL_VERTEX_ARRAY_H_
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 mozilla
 /
 LinkedList
@@ -302,7 +309,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 override
 ;

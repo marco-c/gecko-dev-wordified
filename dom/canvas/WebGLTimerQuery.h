@@ -224,7 +224,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 override
 ;
@@ -249,7 +249,7 @@ WebGLContext
 *
 webgl
 GLuint
-aName
+name
 )
 ;
 ~

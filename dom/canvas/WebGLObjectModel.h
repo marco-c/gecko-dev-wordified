@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsICanvasRenderingContextInternal
-.
-h
-"
-#
-include
-"
 WebGLTypes
 .
 h

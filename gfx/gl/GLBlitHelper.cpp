@@ -131,6 +131,13 @@ h
 #
 include
 "
+GLScreenBuffer
+.
+h
+"
+#
+include
+"
 ScopedGLHelpers
 .
 h

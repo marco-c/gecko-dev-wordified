@@ -129,7 +129,7 @@ WrapObject
 (
 JSContext
 *
-aCx
+cx
 JS
 :
 :
@@ -138,7 +138,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 JS
 :
 :
@@ -147,7 +147,7 @@ MutableHandle
 JSObject
 *
 >
-aReflector
+reflector
 )
 {
 return
@@ -159,10 +159,10 @@ WebGLShaderPrecisionFormatBinding
 :
 Wrap
 (
-aCx
+cx
 this
-aGivenProto
-aReflector
+givenProto
+reflector
 )
 ;
 }
