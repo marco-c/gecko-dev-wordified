@@ -348,6 +348,10 @@ nsCopyOrDeleteCommand
 )
 NS_DECL_EDITOR_COMMAND
 (
+nsCopyAndCollapseToEndCommand
+)
+NS_DECL_EDITOR_COMMAND
+(
 nsPasteCommand
 )
 NS_DECL_EDITOR_COMMAND

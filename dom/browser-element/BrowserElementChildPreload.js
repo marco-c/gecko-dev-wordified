@@ -411,7 +411,7 @@ copy
 '
 :
 '
-cmd_copy
+cmd_copyAndCollapseToEnd
 '
 '
 paste
