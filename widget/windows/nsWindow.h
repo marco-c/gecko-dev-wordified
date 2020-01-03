@@ -1450,6 +1450,15 @@ HDC
 dc
 )
 ;
+static
+void
+ClearCompositor
+(
+nsWindow
+*
+aWindow
+)
+;
 /
 *
 *
