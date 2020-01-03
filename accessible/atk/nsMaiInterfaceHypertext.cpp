@@ -238,6 +238,15 @@ if
 (
 !
 hyperLink
+|
+|
+!
+hyperLink
+-
+>
+IsLink
+(
+)
 )
 {
 return
