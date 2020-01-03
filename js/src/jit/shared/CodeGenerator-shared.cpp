@@ -6720,6 +6720,14 @@ safepointIndices_
 empty
 (
 )
+&
+&
+!
+masm
+.
+oom
+(
+)
 offset
 -
 safepointIndices_
