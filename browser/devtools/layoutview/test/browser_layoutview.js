@@ -521,10 +521,7 @@ value
 }
 ]
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
@@ -642,12 +639,6 @@ runTests
 (
 inspector
 view
-)
-;
-yield
-destroyToolbox
-(
-inspector
 )
 ;
 }

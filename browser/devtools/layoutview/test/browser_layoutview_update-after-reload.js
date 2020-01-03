@@ -66,10 +66,7 @@ the
 page
 is
 reloaded
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
@@ -173,12 +170,6 @@ assertLayoutView
 (
 inspector
 view
-)
-;
-yield
-destroyToolbox
-(
-inspector
 )
 ;
 }

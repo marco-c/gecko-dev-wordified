@@ -69,10 +69,7 @@ they
 /
 /
 change
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
@@ -128,12 +125,6 @@ runTests
 inspector
 view
 iframe2
-)
-;
-yield
-destroyToolbox
-(
-inspector
 )
 ;
 }

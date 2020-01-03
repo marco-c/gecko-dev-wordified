@@ -314,10 +314,7 @@ LONG_TEXT_ROTATE_LIMIT
 =
 3
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
@@ -469,12 +466,6 @@ rotated
 )
 ;
 }
-yield
-destroyToolbox
-(
-inspector
-)
-;
 }
 )
 ;
