@@ -635,6 +635,11 @@ promise
 "
 :
 promise
+"
+PromiseDebugging
+"
+:
+PromiseDebugging
 }
 ;
 try
