@@ -10012,9 +10012,11 @@ aInputBlockId
 {
 if
 (
-AsyncPanZoomEnabled
-(
-)
+aEvent
+.
+mFlags
+.
+mHandledByAPZ
 )
 {
 nsCOMPtr
