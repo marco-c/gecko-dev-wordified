@@ -1918,13 +1918,13 @@ hasUnanalyzedPreliminaryObjects
 {
 return
 (
-newScript
+newScriptDontCheckGeneration
 (
 )
 &
 &
 !
-newScript
+newScriptDontCheckGeneration
 (
 )
 -
@@ -1935,7 +1935,7 @@ analyzed
 )
 |
 |
-maybePreliminaryObjects
+maybePreliminaryObjectsDontCheckGeneration
 (
 )
 ;
