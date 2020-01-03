@@ -3345,6 +3345,15 @@ aInfo
 )
 {
 }
+virtual
+void
+BackendErrorNotification
+(
+bool
+aCrashed
+)
+{
+}
 protected
 :
 BluetoothNotificationHandler
