@@ -20428,7 +20428,7 @@ jitinfo
 is
 not
 marked
-movable
+eliminatable
 that
 means
 that
@@ -20452,8 +20452,6 @@ eliminated
 or
 /
 /
-coalesced
-or
 that
 we
 have
@@ -20466,10 +20464,10 @@ the
 sort
 of
 argument
-/
-/
 analysis
 that
+/
+/
 would
 allow
 us
@@ -20485,10 +20483,10 @@ effect
 -
 free
 .
-/
-/
 In
 the
+/
+/
 latter
 case
 we
@@ -20503,9 +20501,9 @@ what
 but
 for
 the
-/
-/
 former
+/
+/
 two
 cases
 we
@@ -20529,7 +20527,7 @@ getJitInfo
 )
 -
 >
-isMovable
+isEliminatable
 )
 setGuard
 (
