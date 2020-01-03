@@ -782,11 +782,6 @@ CantInlineTooManyArgs
 \
 _
 (
-CantInlineRecursive
-)
-\
-_
-(
 CantInlineHeavyweight
 )
 \
@@ -868,6 +863,11 @@ CantInlineBound
 _
 (
 CantInlineNativeNoSpecialization
+)
+\
+_
+(
+HasCommonInliningPath
 )
 \
 \
