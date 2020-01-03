@@ -1106,9 +1106,6 @@ const
 bool
 &
 aCancel
-bool
-*
-aNoCompositionEvent
 nsString
 *
 aComposition
@@ -2396,9 +2393,6 @@ mIMEComposing
 ;
 bool
 mIMECompositionEnding
-;
-uint32_t
-mIMEEventCountAfterEnding
 ;
 /
 /
