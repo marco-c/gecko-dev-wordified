@@ -3908,7 +3908,7 @@ if
 indexDef
 -
 >
-isConstant
+isConstantValue
 (
 )
 )
@@ -3921,12 +3921,7 @@ index
 indexDef
 -
 >
-toConstant
-(
-)
--
->
-value
+constantValue
 (
 )
 ;
@@ -6966,12 +6961,7 @@ index
 )
 -
 >
-toConstant
-(
-)
--
->
-value
+constantValue
 (
 )
 .
