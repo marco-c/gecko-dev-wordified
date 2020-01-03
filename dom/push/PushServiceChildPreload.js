@@ -117,7 +117,7 @@ payload
 addMessageListener
 (
 "
-pushsubscriptionchanged
+pushsubscriptionchange
 "
 function
 (
@@ -126,7 +126,7 @@ aMessage
 {
 swm
 .
-sendPushSubscriptionChangedEvent
+sendPushSubscriptionChangeEvent
 (
 aMessage
 .
