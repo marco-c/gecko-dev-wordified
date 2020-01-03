@@ -4939,11 +4939,12 @@ icons
 .
 sort
 (
-function
 (
 a
 b
 )
+=
+>
 b
 -
 a

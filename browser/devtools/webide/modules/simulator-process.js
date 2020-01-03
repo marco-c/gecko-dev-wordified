@@ -283,11 +283,15 @@ get
 isRunning
 (
 )
+{
+return
 !
 !
 this
 .
 process
+;
+}
 /
 /
 Start
