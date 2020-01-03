@@ -1371,7 +1371,7 @@ aElement
 mEvent
 (
 true
-NS_TRANSITION_END
+eTransitionEnd
 )
 {
 /
@@ -1463,7 +1463,7 @@ mElement
 mEvent
 (
 true
-NS_TRANSITION_END
+eTransitionEnd
 )
 {
 mEvent
