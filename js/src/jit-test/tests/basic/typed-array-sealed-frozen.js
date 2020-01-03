@@ -153,7 +153,7 @@ freeze
 (
 a
 )
-InternalError
+TypeError
 )
 ;
 }

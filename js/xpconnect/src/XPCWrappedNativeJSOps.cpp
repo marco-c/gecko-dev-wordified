@@ -4545,10 +4545,6 @@ getOwnPropertyDescriptor
 nullptr
 /
 /
-setPropertyAttributes
-nullptr
-/
-/
 deleteProperty
 nullptr
 nullptr
