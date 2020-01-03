@@ -317,7 +317,7 @@ engine
 AudioNodeStream
 :
 :
-EXTERNAL_STREAM
+EXTERNAL_OUTPUT
 )
 ;
 mPort

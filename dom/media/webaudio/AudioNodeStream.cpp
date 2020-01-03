@@ -230,8 +230,8 @@ AudioNodeStream
 AudioNodeEngine
 *
 aEngine
-AudioNodeStreamKind
-aKind
+Flags
+aFlags
 TrackRate
 aSampleRate
 AudioContext
@@ -257,9 +257,9 @@ mAudioContextId
 (
 aContextId
 )
-mKind
+mFlags
 (
-aKind
+aFlags
 )
 mNumberOfInputChannels
 (
@@ -372,8 +372,8 @@ aGraph
 AudioNodeEngine
 *
 aEngine
-AudioNodeStreamKind
-aKind
+Flags
+aFlags
 )
 {
 MOZ_ASSERT
@@ -465,7 +465,7 @@ new
 AudioNodeStream
 (
 aEngine
-aKind
+aFlags
 aGraph
 -
 >
@@ -3490,10 +3490,9 @@ AudioSegment
 ;
 if
 (
-mKind
-=
-=
-EXTERNAL_STREAM
+mFlags
+&
+EXTERNAL_OUTPUT
 )
 {
 segment
