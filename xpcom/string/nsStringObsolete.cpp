@@ -6022,7 +6022,7 @@ do
 this
 lazily
 ?
-NS_ABORT_OOM
+AllocFailed
 (
 mLength
 )
