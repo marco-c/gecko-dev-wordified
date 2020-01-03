@@ -20940,7 +20940,7 @@ EXPECT_EQ
 HitTestResult
 :
 :
-ApzcHitRegion
+HitLayer
 result
 )
 ;
@@ -21000,7 +21000,7 @@ result
 |
 will
 be
-ApzcHitRegion
+HitLayer
 but
 there
 '
@@ -21037,7 +21037,7 @@ EXPECT_EQ
 HitTestResult
 :
 :
-ApzcHitRegion
+HitLayer
 result
 )
 ;
