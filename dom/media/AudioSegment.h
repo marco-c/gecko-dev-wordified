@@ -2029,6 +2029,7 @@ bool
 IsNull
 (
 )
+const
 {
 for
 (
@@ -2036,7 +2037,14 @@ ChunkIterator
 ci
 (
 *
+const_cast
+<
+AudioSegment
+*
+>
+(
 this
+)
 )
 ;
 !
