@@ -3352,7 +3352,6 @@ cx
 *
 alloc
 tokenStream
-foldConstants
 syntaxParser
 lazyOuterFunction
 )

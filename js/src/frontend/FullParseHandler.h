@@ -198,9 +198,6 @@ TokenStream
 &
 tokenStream
 ;
-bool
-foldConstants
-;
 ParseNode
 *
 allocParseNode
@@ -453,8 +450,6 @@ alloc
 TokenStream
 &
 tokenStream
-bool
-foldConstants
 Parser
 <
 SyntaxParseHandler
@@ -474,10 +469,6 @@ alloc
 tokenStream
 (
 tokenStream
-)
-foldConstants
-(
-foldConstants
 )
 lazyOuterFunction_
 (
@@ -1459,7 +1450,6 @@ left
 right
 this
 pc
-foldConstants
 )
 ;
 }

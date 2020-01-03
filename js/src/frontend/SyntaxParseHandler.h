@@ -887,8 +887,6 @@ alloc
 TokenStream
 &
 tokenStream
-bool
-foldConstants
 Parser
 <
 SyntaxParseHandler

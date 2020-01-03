@@ -4556,8 +4556,6 @@ FullParseHandler
 >
 *
 pc
-bool
-foldConstants
 )
 ;
 inline

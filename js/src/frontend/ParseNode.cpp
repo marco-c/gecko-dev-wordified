@@ -1687,8 +1687,6 @@ FullParseHandler
 >
 *
 pc
-bool
-foldConstants
 )
 {
 /
