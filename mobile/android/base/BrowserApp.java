@@ -6435,11 +6435,6 @@ if
 (
 AppConstants
 .
-NIGHTLY_BUILD
-&
-&
-AppConstants
-.
 MOZ_ANDROID_TAB_QUEUE
 &
 &
@@ -24062,11 +24057,6 @@ if
 (
 AppConstants
 .
-NIGHTLY_BUILD
-&
-&
-AppConstants
-.
 MOZ_ANDROID_TAB_QUEUE
 &
 &
@@ -24354,11 +24344,6 @@ external
 url
 if
 (
-AppConstants
-.
-NIGHTLY_BUILD
-&
-&
 AppConstants
 .
 MOZ_ANDROID_TAB_QUEUE

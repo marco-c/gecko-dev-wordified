@@ -1675,11 +1675,6 @@ if
 (
 AppConstants
 .
-NIGHTLY_BUILD
-&
-&
-AppConstants
-.
 MOZ_ANDROID_TAB_QUEUE
 )
 {
