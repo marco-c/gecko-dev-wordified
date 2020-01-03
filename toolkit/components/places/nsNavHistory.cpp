@@ -14155,11 +14155,6 @@ MainConn
 (
 )
 false
-mozIStorageConnection
-:
-:
-TRANSACTION_DEFERRED
-true
 )
 ;
 NOTIFY_OBSERVERS
@@ -14523,11 +14518,6 @@ MainConn
 (
 )
 false
-mozIStorageConnection
-:
-:
-TRANSACTION_DEFERRED
-true
 )
 ;
 /
@@ -17088,11 +17078,6 @@ MainConn
 (
 )
 false
-mozIStorageConnection
-:
-:
-TRANSACTION_DEFERRED
-true
 )
 ;
 /
