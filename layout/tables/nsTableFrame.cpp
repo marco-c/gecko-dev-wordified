@@ -12711,7 +12711,7 @@ use
 nsTableRowFrame
 :
 :
-GetBSize
+GetInitialBSize
 instead
 of
 nsIFrame
@@ -22940,7 +22940,7 @@ pctBSize
 rowFrame
 -
 >
-GetBSize
+GetInitialBSize
 (
 pctBasis
 )

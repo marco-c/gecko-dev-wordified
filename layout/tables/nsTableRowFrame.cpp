@@ -2522,7 +2522,7 @@ nscoord
 nsTableRowFrame
 :
 :
-GetBSize
+GetInitialBSize
 (
 nscoord
 aPctBasis
@@ -2728,7 +2728,7 @@ height
 matters
 if
 (
-GetBSize
+GetInitialBSize
 (
 )
 <
@@ -2874,7 +2874,7 @@ in
 sync
 if
 (
-GetBSize
+GetInitialBSize
 (
 )
 <
@@ -3207,7 +3207,7 @@ cellFrame
 }
 }
 return
-GetBSize
+GetInitialBSize
 (
 )
 ;
