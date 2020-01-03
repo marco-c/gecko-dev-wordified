@@ -212,7 +212,7 @@ getService
 (
 Ci
 .
-nsIBrowserGlue
+nsISupports
 )
 ;
 /

@@ -936,13 +936,6 @@ getService
 (
 Ci
 .
-nsIBrowserGlue
-)
-.
-QueryInterface
-(
-Ci
-.
 nsIObserver
 )
 ;
