@@ -316,6 +316,12 @@ js
 gc
 ;
 using
+JS
+:
+:
+MapTypeToTraceKind
+;
+using
 mozilla
 :
 :
@@ -2552,7 +2558,7 @@ type
 *
 )
 ;
-FOR_EACH_GC_LAYOUT
+JS_FOR_EACH_TRACEKIND
 (
 IMPL_CHECK_TRACED_THING
 )
@@ -3692,7 +3698,7 @@ type
 ;
 }
 ;
-FOR_EACH_GC_LAYOUT
+JS_FOR_EACH_TRACEKIND
 (
 IMPL_BASE_GC_TYPE
 )
@@ -4890,7 +4896,7 @@ return
 TraceRootFunctor
 f
 ;
-CallTyped
+DispatchTraceKindTyped
 (
 f
 (
@@ -4996,7 +5002,7 @@ return
 TraceManuallyBarrieredEdgeFunctor
 f
 ;
-CallTyped
+DispatchTraceKindTyped
 (
 f
 (
@@ -5101,7 +5107,7 @@ value
 |
 static_assert
 (
-FOR_EACH_GC_LAYOUT
+JS_FOR_EACH_TRACEKIND
 (
 IS_SAME_TYPE_OR
 )
@@ -12944,7 +12950,7 @@ ArenaHeader
 aheader
 )
 {
-CallTyped
+DispatchTraceKindTyped
 (
 PushArenaFunctor
 (
@@ -15984,7 +15990,7 @@ value
 |
 static_assert
 (
-FOR_EACH_GC_LAYOUT
+JS_FOR_EACH_TRACEKIND
 (
 IS_SAME_TYPE_OR
 )
