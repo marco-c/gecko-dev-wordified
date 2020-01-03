@@ -216,7 +216,7 @@ true
 virtual
 JSObject
 *
-defaultScope
+scopeForTargetObjects
 (
 )
 MOZ_OVERRIDE
