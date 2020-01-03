@@ -5315,6 +5315,14 @@ jsbytecode
 pc
 )
 ;
+void
+FrameIsDebuggeeCheck
+(
+BaselineFrame
+*
+frame
+)
+;
 JSObject
 *
 CreateGenerator
