@@ -3151,6 +3151,15 @@ switchToLocalPaths
 options
 )
         
+#
+ignoreSSLTunnelExts
+is
+a
+workaround
+for
+bug
+1109310
+        
 Mochitest
 .
 startServers
@@ -3158,6 +3167,9 @@ startServers
 self
 options
 debuggerInfo
+ignoreSSLTunnelExts
+=
+True
 )
         
 restoreRemotePaths
