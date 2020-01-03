@@ -677,6 +677,9 @@ MediaSourceDecoder
 :
 CreateResource
 (
+nsIPrincipal
+*
+aPrincipal
 )
 {
 return
@@ -688,6 +691,7 @@ MediaResource
 new
 MediaSourceResource
 (
+aPrincipal
 )
 )
 .
