@@ -288,14 +288,29 @@ return
 var
 sel
 =
+SpecialPowers
+.
+wrap
+(
 arguments
 [
 0
 ]
+)
 .
 editor
 .
 selection
+;
+                   
+sel
+=
+SpecialPowers
+.
+unwrap
+(
+sel
+)
 ;
 '
 '
@@ -420,12 +435,6 @@ self
 element
 direction
 ]
-                
-sandbox
-=
-'
-system
-'
 )
     
 def
@@ -781,7 +790,6 @@ marionette
 execute_script
 (
 cmd
-                                                      
 script_args
 =
 [
@@ -789,12 +797,6 @@ self
 .
 element
 ]
-                                                      
-sandbox
-=
-'
-system
-'
 )
     
 def
@@ -849,7 +851,6 @@ marionette
 execute_script
 (
 cmd
-                                                      
 script_args
 =
 [
@@ -857,12 +858,6 @@ self
 .
 element
 ]
-                                                      
-sandbox
-=
-'
-system
-'
 )
     
 def
@@ -1833,7 +1828,6 @@ marionette
 execute_script
 (
 cmd
-                                                      
 script_args
 =
 [
@@ -1841,10 +1835,4 @@ self
 .
 element
 ]
-                                                      
-sandbox
-=
-'
-system
-'
 )

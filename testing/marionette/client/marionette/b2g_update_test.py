@@ -1790,6 +1790,10 @@ self
 .
 testvars
 ]
+                                                       
+special_powers
+=
+True
 )
         
 self
