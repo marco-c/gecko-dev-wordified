@@ -870,10 +870,10 @@ child
 nsresult
 mStoredStatus
 ;
-uint64_t
+int64_t
 mStoredProgress
 ;
-uint64_t
+int64_t
 mStoredProgressMax
 ;
 bool

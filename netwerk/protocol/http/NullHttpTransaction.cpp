@@ -734,7 +734,7 @@ nsITransport
 transport
 nsresult
 status
-uint64_t
+int64_t
 progress
 )
 {

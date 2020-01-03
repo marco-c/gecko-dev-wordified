@@ -504,10 +504,10 @@ of
 OnTransportStatus
 (
 )
-uint64_t
+int64_t
 mReceivingFromProgress
 ;
-uint64_t
+int64_t
 mSendingToProgress
 ;
 bool

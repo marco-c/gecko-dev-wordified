@@ -2842,10 +2842,7 @@ OnProgress
 this
 nullptr
 aProgress
-uint64_t
-(
 mContentLength
-)
 )
 ;
 }

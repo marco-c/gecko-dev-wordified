@@ -487,7 +487,7 @@ nsITransport
 transport
 nsresult
 status
-uint64_t
+int64_t
 progress
 )
 =
@@ -1532,7 +1532,7 @@ transport
 \
 nsresult
 status
-uint64_t
+int64_t
 progress
 )
 MOZ_OVERRIDE

@@ -516,7 +516,7 @@ false
 )
 mFileSize
 (
-UINT64_MAX
+kJS_MAX_SAFE_UINTEGER
 )
 mServerType
 (
@@ -12635,9 +12635,9 @@ nsITransport
 transport
 nsresult
 status
-uint64_t
+int64_t
 progress
-uint64_t
+int64_t
 progressMax
 )
 {

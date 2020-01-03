@@ -1516,7 +1516,7 @@ nsIInputStream
 >
 mRequestStream
 ;
-uint64_t
+int64_t
 mRequestSize
 ;
 nsRefPtr

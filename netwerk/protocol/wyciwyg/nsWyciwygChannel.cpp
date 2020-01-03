@@ -3888,10 +3888,7 @@ nullptr
 offset
 +
 count
-uint64_t
-(
 mContentLength
-)
 )
 ;
 }

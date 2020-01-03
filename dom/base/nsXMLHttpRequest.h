@@ -2777,9 +2777,9 @@ nsAString
 aType
 bool
 aLengthComputable
-uint64_t
+int64_t
 aLoaded
-uint64_t
+int64_t
 aTotal
 )
 ;
@@ -3740,10 +3740,10 @@ nsXMLHttpRequestUpload
 >
 mUpload
 ;
-uint64_t
+int64_t
 mUploadTransferred
 ;
-uint64_t
+int64_t
 mUploadTotal
 ;
 bool
@@ -3802,7 +3802,7 @@ mWarnAboutSyncHtml
 bool
 mLoadLengthComputable
 ;
-uint64_t
+int64_t
 mLoadTotal
 ;
 /
@@ -3929,7 +3929,7 @@ OnDataAvailable
 is
 undefined
 .
-uint64_t
+int64_t
 mLoadTransferred
 ;
 nsCOMPtr

@@ -3038,9 +3038,9 @@ request
 nsISupports
 *
 aContext
-uint64_t
+int64_t
 aProgress
-uint64_t
+int64_t
 aProgressMax
 )
 {
