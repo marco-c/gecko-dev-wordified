@@ -392,7 +392,7 @@ if
 (
 docShell
 .
-asynPanZoomEnabled
+asyncPanZoomEnabled
 =
 =
 =
