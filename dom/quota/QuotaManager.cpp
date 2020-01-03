@@ -5412,8 +5412,12 @@ int64_t
 aSize
 )
 {
-AssertIsOnIOThread
+MOZ_ASSERT
 (
+!
+NS_IsMainThread
+(
+)
 )
 ;
 MutexAutoLock
