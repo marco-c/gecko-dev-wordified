@@ -75400,6 +75400,14 @@ a
 polymorphic
 cache
 .
+trackOptimizationAttempt
+(
+TrackedStrategy
+:
+:
+SetProp_InlineCache
+)
+;
 return
 setPropTryCache
 (
@@ -78282,6 +78290,10 @@ ins
 )
 return
 false
+;
+trackOptimizationSuccess
+(
+)
 ;
 *
 emitted
