@@ -307,9 +307,15 @@ config
 ;
 navigator
 .
-mozGetUserMedia
+mediaDevices
+.
+getUserMedia
 (
 config
+)
+.
+then
+(
 function
 (
 stream
@@ -381,6 +387,10 @@ cancelVideoCheck
 )
 ;
 }
+)
+.
+catch
+(
 function
 (
 e
