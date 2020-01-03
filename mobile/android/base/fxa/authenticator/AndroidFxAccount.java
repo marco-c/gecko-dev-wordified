@@ -5187,7 +5187,7 @@ context
 .
 sendBroadcast
 (
-makeDeletedAccountIntent
+makeProfileJSONUpdatedIntent
 (
 )
 )
