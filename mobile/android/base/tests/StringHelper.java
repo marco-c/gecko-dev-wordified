@@ -466,6 +466,17 @@ Pin
 Site
 "
 ;
+public
+static
+final
+String
+CONTEXT_MENU_UNPIN_SITE
+=
+"
+Unpin
+Site
+"
+;
 /
 /
 Context
