@@ -1305,6 +1305,15 @@ IsOptimus
 (
 )
 ;
+bool
+IsWARP
+(
+)
+{
+return
+mIsWARP
+;
+}
 protected
 :
 RenderMode
@@ -1434,6 +1443,9 @@ layers
 ReadbackManagerD3D11
 >
 mD3D11ReadbackManager
+;
+bool
+mIsWARP
 ;
 virtual
 void
