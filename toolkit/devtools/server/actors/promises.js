@@ -155,6 +155,12 @@ core
 )
 ;
 /
+*
+global
+events
+*
+/
+/
 /
 Teach
 protocol
@@ -1315,6 +1321,7 @@ _createObjectActorForPromise
 (
 promise
 )
+;
 let
 needsScheduling
 =
@@ -1368,6 +1375,7 @@ length
 ;
 }
 }
+;
 }
 _onWindowReady
 :
