@@ -993,7 +993,7 @@ maxLocalResults
 |
 this
 .
-remoteResult
+maxRemoteResults
 <
 0
 )
