@@ -1054,17 +1054,6 @@ extends
 \
 macro
 (
-SUPER
-"
-keyword
-'
-super
-'
-"
-)
-\
-macro
-(
 RESERVED
 "
 reserved
