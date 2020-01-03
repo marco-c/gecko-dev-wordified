@@ -318,11 +318,10 @@ mVPX
 vpx_codec_iter_t
 mIter
 ;
-uint32_t
-mDisplayWidth
-;
-uint32_t
-mDisplayHeight
+const
+VideoInfo
+&
+mInfo
 ;
 int
 mCodec

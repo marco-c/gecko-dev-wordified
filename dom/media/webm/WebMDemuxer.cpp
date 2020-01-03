@@ -1748,7 +1748,11 @@ mDisplay
 =
 displaySize
 ;
-mPicture
+mInfo
+.
+mVideo
+.
+mImage
 =
 pictureRect
 ;
