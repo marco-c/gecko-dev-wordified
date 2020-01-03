@@ -4438,7 +4438,7 @@ get
 cameraImage
 -
 >
-SetBuffer
+SetMediaBuffer
 (
 aBuffer
 )
@@ -4631,7 +4631,7 @@ thread
 cameraImage
 -
 >
-ClearBuffer
+ClearMediaBuffer
 (
 )
 ;
