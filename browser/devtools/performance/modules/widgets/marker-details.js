@@ -694,6 +694,9 @@ findActionFromEvent
 e
 .
 target
+this
+.
+_parent
 )
 ;
 if
@@ -788,7 +791,7 @@ an
 event
 target
 and
-asend
+ascend
 through
 *
 the
