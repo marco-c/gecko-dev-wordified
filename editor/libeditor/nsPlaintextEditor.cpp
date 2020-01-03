@@ -4078,7 +4078,9 @@ insertText
 ;
 if
 (
-mComposition
+ShouldHandleIMEComposition
+(
+)
 )
 {
 opID
