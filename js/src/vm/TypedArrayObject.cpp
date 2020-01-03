@@ -5186,6 +5186,17 @@ TypedArrayIndexOf
 JS_SELF_HOSTED_FN
 (
 "
+join
+"
+"
+TypedArrayJoin
+"
+1
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 lastIndexOf
 "
 "
