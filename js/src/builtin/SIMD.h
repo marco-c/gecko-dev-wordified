@@ -1562,6 +1562,11 @@ xor
 \
 _
 (
+bitselect
+)
+\
+_
+(
 select
 )
 \
