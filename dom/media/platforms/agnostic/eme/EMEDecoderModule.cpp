@@ -1322,6 +1322,11 @@ forget
 )
 ;
 }
+MOZ_ASSERT
+(
+mPDM
+)
+;
 nsRefPtr
 <
 MediaDataDecoder
@@ -1477,6 +1482,11 @@ forget
 )
 ;
 }
+MOZ_ASSERT
+(
+mPDM
+)
+;
 nsRefPtr
 <
 MediaDataDecoder
