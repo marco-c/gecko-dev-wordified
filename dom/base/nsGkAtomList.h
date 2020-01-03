@@ -5164,6 +5164,13 @@ onaudioprocess
 )
 GK_ATOM
 (
+onavailablechange
+"
+onavailablechange
+"
+)
+GK_ATOM
+(
 onbeforecopy
 "
 onbeforecopy
