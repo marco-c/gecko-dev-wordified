@@ -5546,6 +5546,9 @@ false
 showRoomName
 :
 false
+useDesktopPaths
+:
+true
 }
 )
 )

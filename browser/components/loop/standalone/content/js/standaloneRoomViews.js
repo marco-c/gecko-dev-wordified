@@ -3129,6 +3129,9 @@ true
 showRoomName
 :
 true
+useDesktopPaths
+:
+false
 }
 )
 React
