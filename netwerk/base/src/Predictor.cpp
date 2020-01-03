@@ -6713,7 +6713,7 @@ on
 predictor
 -
 only
-entires
+entries
 to
 open
 nsRefPtr
