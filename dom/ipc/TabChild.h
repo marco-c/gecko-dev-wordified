@@ -1774,7 +1774,7 @@ ScreenOrientation
 &
 orientation
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 chromeDisp
 )
@@ -2780,7 +2780,7 @@ nsIWidget
 aOut
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 GetChromeDisplacement
 (
 )
@@ -3533,7 +3533,7 @@ typically
 the
 window
 )
-nsIntPoint
+LayoutDeviceIntPoint
 mChromeDisp
 ;
 TabId

@@ -11618,7 +11618,7 @@ ScreenOrientation
 &
 orientation
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 chromeDisp
 )

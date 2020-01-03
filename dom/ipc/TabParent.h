@@ -2699,7 +2699,7 @@ mDefaultScale
 bool
 mUpdatedDimensions
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 mChromeOffset
 ;
 private
