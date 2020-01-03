@@ -300,6 +300,15 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 Accessible
 virtual
+nsIAtom
+*
+LandmarkRole
+(
+)
+const
+MOZ_OVERRIDE
+;
+virtual
 int32_t
 GetLevelInternal
 (
