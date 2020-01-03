@@ -986,6 +986,14 @@ extents
 .
 *
 /
+bounder
+-
+>
+current_point
+=
+*
+d
+;
 return
 CAIRO_STATUS_SUCCESS
 ;
