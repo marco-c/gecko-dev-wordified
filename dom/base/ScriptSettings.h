@@ -2741,6 +2741,9 @@ nsIDocShell
 *
 mDocShellForJSRunToCompletion
 ;
+bool
+mIsMainThread
+;
 }
 ;
 /
