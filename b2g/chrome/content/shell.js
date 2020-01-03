@@ -8942,7 +8942,7 @@ of
 our
 implementation
 of
-nsIDownloadManagerUI
+nsITransfer
 .
 *
 /
