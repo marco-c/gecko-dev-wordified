@@ -19989,12 +19989,8 @@ FlattenSubstrings
 JSContext
 *
 cx
-Handle
-<
-JSFlatString
-*
->
-flatStr
+HandleLinearString
+str
 const
 StringRange
 *
@@ -20007,7 +20003,7 @@ outputLen
 {
 JSFatInlineString
 *
-str
+result
 =
 NewGCFatInlineString
 <
@@ -20020,7 +20016,7 @@ cx
 if
 (
 !
-str
+result
 )
 return
 nullptr
@@ -20030,7 +20026,7 @@ nogc
 ;
 if
 (
-flatStr
+str
 -
 >
 hasLatin1Chars
@@ -20039,8 +20035,8 @@ hasLatin1Chars
 )
 CopySubstringsToFatInline
 (
+result
 str
-flatStr
 -
 >
 latin1Chars
@@ -20055,8 +20051,8 @@ outputLen
 else
 CopySubstringsToFatInline
 (
+result
 str
-flatStr
 -
 >
 twoByteChars
@@ -20069,7 +20065,7 @@ outputLen
 )
 ;
 return
-str
+result
 ;
 }
 static
@@ -20080,12 +20076,8 @@ AppendSubstrings
 JSContext
 *
 cx
-Handle
-<
-JSFlatString
-*
->
-flatStr
+HandleLinearString
+str
 const
 StringRange
 *
@@ -20122,7 +20114,7 @@ return
 NewDependentString
 (
 cx
-flatStr
+str
 ranges
 [
 0
@@ -20140,7 +20132,7 @@ length
 bool
 isLatin1
 =
-flatStr
+str
 -
 >
 hasLatin1Chars
@@ -20296,7 +20288,7 @@ part
 NewDependentString
 (
 cx
-flatStr
+str
 sr
 .
 start
@@ -20326,7 +20318,7 @@ part
 FlattenSubstrings
 (
 cx
-flatStr
+str
 ranges
 +
 i
@@ -20400,18 +20392,14 @@ MutableHandleValue
 rval
 )
 {
-Rooted
-<
-JSFlatString
-*
->
-flatStr
+RootedLinearString
+linearStr
 (
 cx
 str
 -
 >
-ensureFlat
+ensureLinear
 (
 cx
 )
@@ -20420,7 +20408,7 @@ cx
 if
 (
 !
-flatStr
+linearStr
 )
 return
 false
@@ -20436,7 +20424,7 @@ ranges
 size_t
 charsLen
 =
-flatStr
+linearStr
 -
 >
 length
@@ -20539,7 +20527,7 @@ re
 execute
 (
 cx
-flatStr
+linearStr
 startIndex
 &
 matches
@@ -20727,7 +20715,7 @@ res
 updateLazily
 (
 cx
-flatStr
+linearStr
 &
 re
 lazyIndex
@@ -20786,7 +20774,7 @@ res
 updateLazily
 (
 cx
-flatStr
+linearStr
 &
 re
 lazyIndex
@@ -20881,7 +20869,7 @@ result
 AppendSubstrings
 (
 cx
-flatStr
+linearStr
 ranges
 .
 begin
