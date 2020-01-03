@@ -22211,7 +22211,6 @@ if
 shape
 |
 |
-!
 shape
 -
 >
@@ -22220,7 +22219,7 @@ runtimeFromAnyThread
 )
 -
 >
-needsIncrementalBarrier
+isHeapBusy
 (
 )
 )
@@ -26005,7 +26004,6 @@ newScript
 {
 if
 (
-!
 newScript
 -
 >
@@ -26019,7 +26017,7 @@ runtimeFromAnyThread
 )
 -
 >
-needsIncrementalBarrier
+isHeapBusy
 (
 )
 )

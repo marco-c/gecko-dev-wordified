@@ -763,14 +763,14 @@ nullptr
 {
 }
 bool
-needsIncrementalBarrier
+isHeapBusy
 (
 )
 const
 {
 return
 heapState_
-=
+!
 =
 JS
 :

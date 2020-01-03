@@ -2743,11 +2743,10 @@ asCell
 ;
 if
 (
-!
 rt
 -
 >
-needsIncrementalBarrier
+isHeapBusy
 (
 )
 )
