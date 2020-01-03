@@ -3311,10 +3311,9 @@ GetURLPrefix
 nsresult
 rv
 =
-GenerateRandomPathName
+AppendRandomPath
 (
 url
-16
 )
 ;
 if
