@@ -2119,11 +2119,6 @@ common
 fixedPositionAnchor
 (
 )
-common
-.
-fixedPositionMargin
-(
-)
 )
 ;
 }
