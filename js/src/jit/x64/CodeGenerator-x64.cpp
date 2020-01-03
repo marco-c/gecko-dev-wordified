@@ -5194,8 +5194,6 @@ isConstant
 )
 )
 {
-masm
-.
 atomicBinopToTypedIntArray
 (
 op
@@ -5237,8 +5235,6 @@ output
 }
 else
 {
-masm
-.
 atomicBinopToTypedIntArray
 (
 op
@@ -5553,8 +5549,6 @@ isConstant
 (
 )
 )
-masm
-.
 atomicBinopToTypedIntArray
 (
 op
@@ -5570,8 +5564,6 @@ srcAddr
 )
 ;
 else
-masm
-.
 atomicBinopToTypedIntArray
 (
 op
