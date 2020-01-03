@@ -402,6 +402,7 @@ bool
 IsEnabled
 (
 )
+const
 ;
 /
 /
@@ -1625,7 +1626,7 @@ aContext
 *
 *
 *
-GetContext
+GetCurrentContext
 (
 )
 returns
@@ -1635,10 +1636,10 @@ context
 which
 is
 chosen
-by
+with
 the
-enabled
 *
+enabled
 state
 .
 *
@@ -1680,9 +1681,10 @@ signals
 /
 GtkIMContext
 *
-GetContext
+GetCurrentContext
 (
 )
+const
 ;
 /
 /
