@@ -2359,6 +2359,12 @@ otherwise
 *
 param
 {
+LOOP_SESSION_TYPE
+}
+sessionType
+*
+param
+{
 Function
 }
 callback
@@ -2395,6 +2401,7 @@ value
 :
 function
 (
+sessionType
 callback
 )
 {
@@ -2432,6 +2439,7 @@ MozLoopService
 .
 promiseRegisteredWithServers
 (
+sessionType
 )
 .
 then

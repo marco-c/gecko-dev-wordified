@@ -193,7 +193,7 @@ stub
 .
 callsArgWith
 (
-0
+1
 null
 )
 noteCallUrlExpiry
@@ -361,7 +361,7 @@ ensureRegistered
 .
 callsArgWith
 (
-0
+1
 "
 offline
 "
@@ -726,7 +726,7 @@ ensureRegistered
 .
 callsArgWith
 (
-0
+1
 "
 offline
 "

@@ -108,6 +108,12 @@ unseen
 "
 )
 ;
+mockPushHandler
+.
+registrationPushURL
+=
+kEndPointUrl
+;
 MozLoopService
 .
 promiseRegisteredWithServers

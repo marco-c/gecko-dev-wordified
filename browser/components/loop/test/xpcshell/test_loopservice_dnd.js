@@ -204,6 +204,12 @@ doNotDisturb
 =
 false
 ;
+mockPushHandler
+.
+registrationPushURL
+=
+kEndPointUrl
+;
 MozLoopService
 .
 promiseRegisteredWithServers

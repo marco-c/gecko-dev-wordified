@@ -361,8 +361,8 @@ equal
 msg
 "
 initialized
-to
-guest
+without
+FxA
 status
 "
 "
@@ -569,7 +569,7 @@ MozLoopServiceInternal
 .
 pushHandler
 .
-pushUrl
+registrationPushURL
 kEndPointUrl
 "
 Push
@@ -866,7 +866,7 @@ mockPushHandler
 ;
 mockPushHandler
 .
-pushUrl
+registrationPushURL
 =
 kEndPointUrl
 ;

@@ -2832,11 +2832,6 @@ registerWithLoopServer
 LOOP_SESSION_TYPE
 .
 FXA
-{
-calls
-:
-pushURL
-}
 )
 ;
 let
@@ -3062,11 +3057,6 @@ registerWithLoopServer
 LOOP_SESSION_TYPE
 .
 FXA
-{
-calls
-:
-pushURL
-}
 )
 ;
 let

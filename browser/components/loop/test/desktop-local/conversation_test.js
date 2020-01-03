@@ -302,6 +302,16 @@ stub
 (
 )
 }
+LOOP_SESSION_TYPE
+:
+{
+GUEST
+:
+1
+FXA
+:
+2
+}
 startAlerting
 :
 sinon
