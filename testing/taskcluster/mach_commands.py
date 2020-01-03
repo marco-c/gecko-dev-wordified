@@ -358,12 +358,7 @@ tasks
 branches
 '
 '
-mozilla
--
-central
-'
-'
-job_flags
+base_jobs
 .
 yml
 '
