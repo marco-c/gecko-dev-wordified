@@ -537,11 +537,6 @@ EnsureDecodersSetup
 (
 )
 ;
-bool
-CheckIfDecoderSetup
-(
-)
-;
 /
 /
 Sends
