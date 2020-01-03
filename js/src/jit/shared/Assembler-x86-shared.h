@@ -13854,6 +13854,16 @@ FloatRegister
 dest
 )
 {
+/
+/
+Negates
+bits
+of
+dest
+and
+then
+applies
+AND
 MOZ_ASSERT
 (
 HasSSE2
