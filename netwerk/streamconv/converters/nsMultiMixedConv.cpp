@@ -2289,7 +2289,9 @@ mTokenLen
 )
 )
 {
-buffer
+char
+*
+newBuffer
 =
 (
 char
@@ -2308,10 +2310,14 @@ mTokenLen
 if
 (
 !
-buffer
+newBuffer
 )
 return
 NS_ERROR_OUT_OF_MEMORY
+;
+buffer
+=
+newBuffer
 ;
 memmove
 (
