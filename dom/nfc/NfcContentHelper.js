@@ -584,7 +584,7 @@ null
 _requestMap
 :
 null
-eventTarget
+eventListener
 :
 null
 init
@@ -1346,19 +1346,19 @@ requestId
 )
 ;
 }
-registerEventTarget
+addEventListener
 :
 function
-registerEventTarget
+addEventListener
 (
-target
+listener
 )
 {
 this
 .
-eventTarget
+eventListener
 =
-target
+listener
 ;
 cpmm
 .
@@ -1367,7 +1367,7 @@ sendAsyncMessage
 "
 NFC
 :
-AddEventTarget
+AddEventListener
 "
 )
 ;
@@ -2151,7 +2151,7 @@ PEER_EVENT_READY
 :
 this
 .
-eventTarget
+eventListener
 .
 notifyPeerFound
 (
@@ -2175,7 +2175,7 @@ PEER_EVENT_FOUND
 :
 this
 .
-eventTarget
+eventListener
 .
 notifyPeerFound
 (
@@ -2193,7 +2193,7 @@ PEER_EVENT_LOST
 :
 this
 .
-eventTarget
+eventListener
 .
 notifyPeerLost
 (
@@ -2234,7 +2234,7 @@ isFormatable
 ;
 this
 .
-eventTarget
+eventListener
 .
 notifyTagFound
 (
@@ -2256,7 +2256,7 @@ TAG_EVENT_LOST
 :
 this
 .
-eventTarget
+eventListener
 .
 notifyTagLost
 (

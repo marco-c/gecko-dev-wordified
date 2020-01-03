@@ -431,7 +431,7 @@ NFC_IPC_ADD_EVENT_TARGET_MSG_NAMES
 "
 NFC
 :
-AddEventTarget
+AddEventListener
 "
 ]
 ;
@@ -648,7 +648,7 @@ peerTargets
 :
 {
 }
-eventTargets
+eventListeners
 :
 [
 ]
@@ -1140,10 +1140,10 @@ options
 )
 ;
 }
-addEventTarget
+addEventListener
 :
 function
-addEventTarget
+addEventListener
 (
 target
 )
@@ -1152,7 +1152,7 @@ if
 (
 this
 .
-eventTargets
+eventListeners
 .
 indexOf
 (
@@ -1169,7 +1169,7 @@ return
 }
 this
 .
-eventTargets
+eventListeners
 .
 push
 (
@@ -1177,10 +1177,10 @@ target
 )
 ;
 }
-removeEventTarget
+removeEventListener
 :
 function
-removeEventTarget
+removeEventListener
 (
 target
 )
@@ -1190,7 +1190,7 @@ index
 =
 this
 .
-eventTargets
+eventListeners
 .
 indexOf
 (
@@ -1209,7 +1209,7 @@ index
 {
 this
 .
-eventTargets
+eventListeners
 .
 splice
 (
@@ -1445,7 +1445,7 @@ target
 of
 this
 .
-eventTargets
+eventListeners
 )
 {
 this
@@ -1478,7 +1478,7 @@ target
 of
 this
 .
-eventTargets
+eventListeners
 )
 {
 this
@@ -1516,7 +1516,7 @@ target
 of
 this
 .
-eventTargets
+eventListeners
 )
 {
 this
@@ -1614,7 +1614,7 @@ target
 ;
 this
 .
-removeEventTarget
+removeEventListener
 (
 message
 .
@@ -1895,12 +1895,12 @@ case
 "
 NFC
 :
-AddEventTarget
+AddEventListener
 "
 :
 this
 .
-addEventTarget
+addEventListener
 (
 message
 .
