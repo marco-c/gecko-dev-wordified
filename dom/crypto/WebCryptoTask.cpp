@@ -10170,6 +10170,7 @@ Value
 AppendElements
 (
 mKeyUsages
+fallible
 )
 )
 {

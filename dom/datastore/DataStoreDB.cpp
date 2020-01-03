@@ -1724,6 +1724,7 @@ RawSetAsStringSequence
 AppendElements
 (
 mObjectStores
+fallible
 )
 )
 {

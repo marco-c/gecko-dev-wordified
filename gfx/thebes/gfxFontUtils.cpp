@@ -5880,6 +5880,7 @@ aNewFont
 AppendElements
 (
 adjFontDataSize
+fallible
 )
 )
 return

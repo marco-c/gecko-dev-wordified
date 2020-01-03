@@ -3331,6 +3331,7 @@ AppendElements
 (
 aData
 aLength
+fallible
 )
 )
 {

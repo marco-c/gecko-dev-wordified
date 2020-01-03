@@ -361,6 +361,7 @@ AppendElements
 (
 aData
 aLength
+fallible
 )
 ;
 }

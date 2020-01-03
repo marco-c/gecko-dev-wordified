@@ -2385,6 +2385,7 @@ args
 AppendElements
 (
 aArguments
+fallible
 )
 )
 {

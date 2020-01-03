@@ -1375,6 +1375,7 @@ first
 aBlob
 .
 second
+fallible
 )
 ;
 }

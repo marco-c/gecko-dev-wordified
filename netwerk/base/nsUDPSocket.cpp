@@ -4351,6 +4351,7 @@ AppendElements
 (
 buff
 count
+fallible
 )
 )
 {

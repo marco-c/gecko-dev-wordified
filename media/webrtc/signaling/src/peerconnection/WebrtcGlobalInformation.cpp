@@ -3419,6 +3419,7 @@ mResult
 AppendElements
 (
 aLog
+fallible
 )
 ;
 auto

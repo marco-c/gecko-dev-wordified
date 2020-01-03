@@ -2814,6 +2814,10 @@ aResult
 AppendElements
 (
 length
+mozilla
+:
+:
+fallible
 )
 ;
 if

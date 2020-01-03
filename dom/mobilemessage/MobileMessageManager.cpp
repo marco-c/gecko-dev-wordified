@@ -3620,6 +3620,7 @@ GetData
 deletedMessageIds
 (
 )
+fallible
 )
 )
 {
@@ -3683,6 +3684,7 @@ GetData
 deletedThreadIds
 (
 )
+fallible
 )
 )
 {
