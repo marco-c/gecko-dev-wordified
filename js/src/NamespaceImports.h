@@ -615,12 +615,6 @@ using
 JS
 :
 :
-TransitiveCompileOptions
-;
-using
-JS
-:
-:
 Rooted
 ;
 using
