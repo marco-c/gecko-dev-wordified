@@ -798,9 +798,6 @@ SaveDocumentWithFixup
 nsIDOMDocument
 *
 pDocument
-nsIDocumentEncoderNodeFixup
-*
-pFixup
 nsIURI
 *
 aFile
@@ -827,17 +824,6 @@ aFrameContent
 URIData
 *
 aData
-)
-;
-nsresult
-SetDocumentBase
-(
-nsIDOMDocument
-*
-aDocument
-nsIURI
-*
-aBaseURI
 )
 ;
 nsresult
