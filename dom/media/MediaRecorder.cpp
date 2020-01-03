@@ -4907,10 +4907,7 @@ aSrcAudioNode
 GetStream
 (
 )
-MediaInputPort
-:
-:
-FLAG_BLOCK_INPUT
+0
 0
 aSrcOutput
 )
