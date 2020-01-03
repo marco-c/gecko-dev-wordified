@@ -185,11 +185,7 @@ active
 )
 ;
 let
-{
-profilerStartTime
-:
-firstStartTime
-}
+recording
 =
 yield
 firstFront
@@ -203,7 +199,9 @@ firstAlreadyActive
 ;
 ok
 (
-firstStartTime
+recording
+.
+_profilerStartTime
 >
 0
 "
@@ -255,11 +253,7 @@ active
 )
 ;
 let
-{
-profilerStartTime
-:
-secondStartTime
-}
+secondRecording
 =
 yield
 secondFront
@@ -273,7 +267,9 @@ secondAlreadyActive
 ;
 ok
 (
-secondStartTime
+secondRecording
+.
+_profilerStartTime
 >
 0
 "
