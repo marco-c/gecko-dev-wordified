@@ -14656,7 +14656,7 @@ wm
 Negative
 containing
 block
-width
+isize
 !
 "
 )
@@ -14701,7 +14701,7 @@ wm
 Negative
 containing
 block
-height
+bsize
 !
 "
 )
@@ -16389,15 +16389,18 @@ cbSize
 Calculate
 the
 computed
-width
+inlineSize
 and
 blockSize
 .
+/
+/
 This
 varies
 by
 frame
 type
+.
 if
 (
 NS_CSS_FRAME_TYPE_INTERNAL_TABLE
@@ -16425,7 +16428,7 @@ type
 Calculate
 the
 computed
-width
+isize
 bool
 rowOrRowGroup
 =
@@ -16625,7 +16628,7 @@ ComputedISize
 "
 Bogus
 computed
-width
+isize
 "
 )
 ;
@@ -16644,7 +16647,8 @@ GetUnit
 )
 "
 unexpected
-width
+inline
+size
 unit
 change
 "
