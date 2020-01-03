@@ -297,6 +297,8 @@ return
 sLog
 ;
 }
+:
+:
 WindowTable
 *
 nsDOMCameraManager
@@ -606,6 +608,8 @@ sActiveWindows
 sActiveWindows
 =
 new
+:
+:
 WindowTable
 (
 )
