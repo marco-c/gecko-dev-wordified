@@ -905,9 +905,6 @@ seeking
 uint64_t
 mSeekPreroll
 ;
-int64_t
-mLastAudioFrameTime
-;
 /
 /
 Calculate
@@ -932,7 +929,16 @@ timestamp
 In
 NS
 .
+Maybe
+<
 int64_t
+>
+mLastAudioFrameTime
+;
+Maybe
+<
+int64_t
+>
 mLastVideoFrameTime
 ;
 /
