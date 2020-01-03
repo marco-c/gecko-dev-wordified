@@ -706,13 +706,9 @@ if
 result
 )
 {
-NS_RUNTIMEABORT
+NS_ABORT_OOM
 (
-"
-out
-of
-memory
-"
+aSize
 )
 ;
 }
