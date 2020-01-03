@@ -2877,6 +2877,16 @@ return
 target
 .
 isAddon
+&
+&
+target
+.
+hasActor
+(
+"
+timeline
+"
+)
 ;
 }
 build
