@@ -459,6 +459,11 @@ update_channel
 '
 ssh_key_dir
 '
+                        
+'
+stage_product
+'
+                        
 )
 #
 some
