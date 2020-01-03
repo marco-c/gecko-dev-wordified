@@ -132,6 +132,9 @@ class
 BluetoothDaemonA2dpInterface
 ;
 class
+BluetoothDaemonAvrcpInterface
+;
+class
 BluetoothDaemonHandsfreeInterface
 ;
 class
@@ -632,6 +635,12 @@ nsAutoPtr
 BluetoothDaemonA2dpInterface
 >
 mA2dpInterface
+;
+nsAutoPtr
+<
+BluetoothDaemonAvrcpInterface
+>
+mAvrcpInterface
 ;
 }
 ;
