@@ -3651,10 +3651,10 @@ event
 )
 ;
 }
-notifyRFStateChange
+notifyRFStateChanged
 :
 function
-notifyRFStateChange
+notifyRFStateChanged
 (
 rfState
 )
