@@ -7243,6 +7243,7 @@ options
 leakThresholds
 =
 {
+        
 "
 default
 "
@@ -7250,6 +7251,20 @@ default
 options
 .
 defaultLeakThreshold
+        
+"
+tab
+"
+:
+25000
+#
+See
+dependencies
+of
+bug
+1051230
+.
+    
 }
     
 return
