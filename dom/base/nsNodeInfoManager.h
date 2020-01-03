@@ -700,6 +700,7 @@ mNodeInfoHash
 ;
 nsIDocument
 *
+MOZ_NON_OWNING_REF
 mDocument
 ;
 /
@@ -747,6 +748,7 @@ dom
 :
 NodeInfo
 *
+MOZ_NON_OWNING_REF
 mTextNodeInfo
 ;
 /
@@ -764,6 +766,7 @@ dom
 :
 NodeInfo
 *
+MOZ_NON_OWNING_REF
 mCommentNodeInfo
 ;
 /
@@ -781,6 +784,7 @@ dom
 :
 NodeInfo
 *
+MOZ_NON_OWNING_REF
 mDocumentNodeInfo
 ;
 /
