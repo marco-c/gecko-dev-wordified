@@ -2460,7 +2460,6 @@ isize
 =
 ReflowColumns
 (
-aPresContext
 allowInternalLineBreak
 aReflowState
 rtcReflowStates
@@ -2544,7 +2543,6 @@ spanISize
 =
 ReflowSpans
 (
-aPresContext
 aReflowState
 spanReflowStates
 )
@@ -3072,9 +3070,6 @@ nsRubyBaseContainerFrame
 :
 ReflowColumns
 (
-nsPresContext
-*
-aPresContext
 bool
 aAllowLineBreak
 const
@@ -3197,7 +3192,6 @@ icoord
 =
 ReflowOneColumn
 (
-aPresContext
 aAllowLineBreak
 aReflowState
 aReflowStates
@@ -3333,7 +3327,6 @@ icoord
 =
 ReflowOneColumn
 (
-aPresContext
 aAllowLineBreak
 aReflowState
 aReflowStates
@@ -3662,9 +3655,6 @@ nsRubyBaseContainerFrame
 :
 ReflowOneColumn
 (
-nsPresContext
-*
-aPresContext
 bool
 aAllowLineBreak
 const
@@ -4649,9 +4639,6 @@ nsRubyBaseContainerFrame
 :
 ReflowSpans
 (
-nsPresContext
-*
-aPresContext
 const
 nsHTMLReflowState
 &
