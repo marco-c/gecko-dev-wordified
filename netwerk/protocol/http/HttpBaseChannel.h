@@ -1625,6 +1625,11 @@ only
 .
 *
 /
+bool
+IsNavigation
+(
+)
+;
 /
 /
 Return
