@@ -127,6 +127,9 @@ namespace
 js
 {
 class
+AutoSetNewObjectMetadata
+;
+class
 ArrayObject
 :
 public
@@ -334,6 +337,9 @@ HandleObjectGroup
 group
 uint32_t
 length
+AutoSetNewObjectMetadata
+&
+metadata
 )
 ;
 /
@@ -409,6 +415,8 @@ HandleShape
 shape
 HandleObjectGroup
 group
+AutoSetNewObjectMetadata
+&
 )
 ;
 static
@@ -422,6 +430,9 @@ ArrayObject
 obj
 HandleShape
 shape
+AutoSetNewObjectMetadata
+&
+metadata
 )
 ;
 }

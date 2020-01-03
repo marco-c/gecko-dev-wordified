@@ -641,6 +641,8 @@ ArrayBuffer
 "
 JSCLASS_IMPLEMENTS_BARRIERS
 |
+JSCLASS_DELAY_METADATA_CALLBACK
+|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 RESERVED_SLOTS
@@ -5096,6 +5098,12 @@ allocKind
 GetGCObjectKind
 (
 nslots
+)
+;
+AutoSetNewObjectMetadata
+metadata
+(
+cx
 )
 ;
 Rooted

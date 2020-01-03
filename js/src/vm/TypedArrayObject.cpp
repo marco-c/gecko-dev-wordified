@@ -2194,6 +2194,12 @@ NativeType
 )
 )
 ;
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 Rooted
 <
 TypedArrayObject
@@ -11517,6 +11523,9 @@ JSProto_
 #
 _typedArray
 )
+|
+\
+JSCLASS_DELAY_METADATA_CALLBACK
 \
 nullptr
 /

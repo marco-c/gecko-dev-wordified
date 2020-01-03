@@ -1885,6 +1885,10 @@ ctorName
 (
 nullptr
 )
+size
+(
+0
+)
 {
 MOZ_ASSERT_IF
 (
@@ -1934,6 +1938,9 @@ className
 ;
 RelocatablePtrAtom
 ctorName
+;
+size_t
+size
 ;
 }
 ;
