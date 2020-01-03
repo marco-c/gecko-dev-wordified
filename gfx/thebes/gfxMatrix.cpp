@@ -192,7 +192,6 @@ this
 CAIRO_STATUS_SUCCESS
 ;
 }
-const
 gfxMatrix
 &
 gfxMatrix
@@ -221,7 +220,6 @@ return
 this
 ;
 }
-const
 gfxMatrix
 &
 gfxMatrix
@@ -254,7 +252,6 @@ return
 this
 ;
 }
-const
 gfxMatrix
 &
 gfxMatrix
@@ -318,7 +315,6 @@ return
 this
 ;
 }
-const
 gfxMatrix
 &
 gfxMatrix
