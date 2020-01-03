@@ -1426,7 +1426,7 @@ eBasicEventClass
 EVENT
 (
 seeked
-NS_SEEKED
+eSeeked
 EventNameType_HTML
 eBasicEventClass
 )

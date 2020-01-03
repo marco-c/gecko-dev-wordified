@@ -1840,7 +1840,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SEEKED
+eSeeked
 eMediaEventFirst
 +
 14
