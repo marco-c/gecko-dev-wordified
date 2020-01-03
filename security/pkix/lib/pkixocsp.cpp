@@ -1001,9 +1001,10 @@ name
 constraints
 rv
 =
-WrappedVerifySignedData
-(
 trustDomain
+.
+VerifySignedData
+(
 potentialSigner
 .
 GetSignedData
@@ -1406,9 +1407,10 @@ spki
 Result
 rv
 =
-WrappedVerifySignedData
-(
 trustDomain
+.
+VerifySignedData
+(
 signedResponseData
 spki
 )

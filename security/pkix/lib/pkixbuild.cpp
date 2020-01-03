@@ -1196,9 +1196,10 @@ keepGoing
 }
 rv
 =
-WrappedVerifySignedData
-(
 trustDomain
+.
+VerifySignedData
+(
 subject
 .
 GetSignedData
