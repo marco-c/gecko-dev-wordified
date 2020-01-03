@@ -212,7 +212,7 @@ mozilla
 /
 dom
 /
-MediaKeySystemAccess
+MediaKeySystemAccessManager
 .
 h
 "
@@ -1852,6 +1852,14 @@ ErrorResult
 &
 aRv
 )
+;
+private
+:
+nsRefPtr
+<
+MediaKeySystemAccessManager
+>
+mMediaKeySystemAccessManager
 ;
 #
 endif
