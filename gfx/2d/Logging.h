@@ -1880,8 +1880,10 @@ str
 }
 mMessage
 .
-clear
+str
 (
+"
+"
 )
 ;
 }
