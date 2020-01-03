@@ -17679,12 +17679,6 @@ nsDocShell
 :
 NotifyAsyncPanZoomStarted
 (
-const
-mozilla
-:
-:
-CSSIntPoint
-aScrollPos
 )
 {
 nsTObserverArray
@@ -17738,7 +17732,6 @@ obs
 >
 AsyncPanZoomStarted
 (
-aScrollPos
 )
 ;
 }
@@ -17820,7 +17813,6 @@ docShell
 >
 NotifyAsyncPanZoomStarted
 (
-aScrollPos
 )
 ;
 }
@@ -17832,12 +17824,6 @@ nsDocShell
 :
 NotifyAsyncPanZoomStopped
 (
-const
-mozilla
-:
-:
-CSSIntPoint
-aScrollPos
 )
 {
 nsTObserverArray
@@ -17891,7 +17877,6 @@ obs
 >
 AsyncPanZoomStopped
 (
-aScrollPos
 )
 ;
 }
@@ -17973,7 +17958,6 @@ docShell
 >
 NotifyAsyncPanZoomStopped
 (
-aScrollPos
 )
 ;
 }

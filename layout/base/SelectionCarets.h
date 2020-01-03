@@ -522,12 +522,6 @@ virtual
 void
 AsyncPanZoomStarted
 (
-const
-mozilla
-:
-:
-CSSIntPoint
-aScrollPos
 )
 override
 ;
@@ -535,12 +529,6 @@ virtual
 void
 AsyncPanZoomStopped
 (
-const
-mozilla
-:
-:
-CSSIntPoint
-aScrollPos
 )
 override
 ;

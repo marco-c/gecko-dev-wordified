@@ -3874,16 +3874,6 @@ state
 e
 .
 state
-scrollX
-:
-e
-.
-scrollX
-scrollY
-:
-e
-.
-scrollY
 }
 ;
 sendAsyncMsg

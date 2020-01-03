@@ -1537,12 +1537,6 @@ applied
 void
 NotifyAsyncPanZoomStarted
 (
-const
-mozilla
-:
-:
-CSSIntPoint
-aScrollPos
 )
 ;
 /
@@ -1566,12 +1560,6 @@ applied
 void
 NotifyAsyncPanZoomStopped
 (
-const
-mozilla
-:
-:
-CSSIntPoint
-aScrollPos
 )
 ;
 /
