@@ -371,6 +371,7 @@ static
 bool
 sError
 ;
+explicit
 UnownedCallback
 (
 mozIStorageConnection

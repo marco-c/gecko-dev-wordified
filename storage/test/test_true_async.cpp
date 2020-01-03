@@ -837,6 +837,7 @@ nsRunnable
 {
 public
 :
+explicit
 ThreadWedger
 (
 nsIEventTarget
