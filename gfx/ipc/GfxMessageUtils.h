@@ -5497,7 +5497,7 @@ layers
 CompositableType
 :
 :
-BUFFER_UNKNOWN
+UNKNOWN
 mozilla
 :
 :
@@ -5507,7 +5507,7 @@ layers
 CompositableType
 :
 :
-BUFFER_COUNT
+COUNT
 >
 {
 }

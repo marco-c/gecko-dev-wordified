@@ -1399,7 +1399,7 @@ return
 CompositableType
 :
 :
-BUFFER_CONTENT_INC
+CONTENT_INC
 ;
 }
 virtual

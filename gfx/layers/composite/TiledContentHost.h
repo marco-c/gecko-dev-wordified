@@ -1438,7 +1438,7 @@ return
 CompositableType
 :
 :
-BUFFER_TILED
+CONTENT_TILED
 ;
 }
 virtual

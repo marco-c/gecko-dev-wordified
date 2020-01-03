@@ -573,7 +573,7 @@ case
 CompositableType
 :
 :
-BUFFER_UNKNOWN
+UNKNOWN
 :
 result
 =

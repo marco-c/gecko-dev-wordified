@@ -320,7 +320,7 @@ mImageClientTypeContainer
 CompositableType
 :
 :
-BUFFER_UNKNOWN
+UNKNOWN
 )
 {
 MOZ_COUNT_CTOR
@@ -370,7 +370,7 @@ mImageClientTypeContainer
 CompositableType
 :
 :
-BUFFER_UNKNOWN
+UNKNOWN
 ;
 }
 virtual
@@ -557,7 +557,7 @@ mImageClientTypeContainer
 CompositableType
 :
 :
-BUFFER_UNKNOWN
+UNKNOWN
 )
 {
 return
@@ -643,7 +643,7 @@ IMAGE
 CompositableType
 :
 :
-BUFFER_UNKNOWN
+UNKNOWN
 ;
 return
 mImageClientTypeContainer
@@ -744,7 +744,7 @@ type
 CompositableType
 :
 :
-BUFFER_UNKNOWN
+UNKNOWN
 )
 {
 return

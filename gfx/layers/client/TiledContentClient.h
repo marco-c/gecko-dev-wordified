@@ -2992,7 +2992,7 @@ TextureInfo
 CompositableType
 :
 :
-BUFFER_TILED
+CONTENT_TILED
 )
 ;
 }
