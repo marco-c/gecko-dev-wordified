@@ -10619,9 +10619,6 @@ duration32
 if
 (
 duration
-&
-&
-mHeaderTimescale
 )
 {
 mFileMetaData
@@ -10630,13 +10627,9 @@ mFileMetaData
 setInt64
 (
 kKeyMovieDuration
-(
 duration
 *
-1000000
-)
-/
-mHeaderTimescale
+1000LL
 )
 ;
 }
