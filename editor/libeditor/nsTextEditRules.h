@@ -353,6 +353,7 @@ nsPlaintextEditor
 *
 aEditor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialValue
@@ -362,11 +363,13 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DetachEditor
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BeforeEdit
@@ -379,6 +382,7 @@ nsIEditor
 EDirection
 aDirection
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AfterEdit
@@ -391,6 +395,7 @@ nsIEditor
 EDirection
 aDirection
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillDoAction
@@ -414,6 +419,7 @@ bool
 *
 aHandled
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidDoAction
@@ -433,6 +439,7 @@ aInfo
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DocumentIsEmpty
@@ -441,11 +448,13 @@ bool
 *
 aDocumentIsEmpty
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DocumentModified
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :

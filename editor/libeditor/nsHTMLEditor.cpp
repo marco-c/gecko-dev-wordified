@@ -16420,7 +16420,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :
@@ -27640,7 +27640,7 @@ the
 block
 background
 color
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :
@@ -29371,7 +29371,7 @@ AsDOMNode
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :

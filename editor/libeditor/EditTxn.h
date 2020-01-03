@@ -176,6 +176,7 @@ RedoTransaction
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIsTransient
@@ -184,6 +185,7 @@ bool
 *
 aIsTransient
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Merge
@@ -195,6 +197,7 @@ bool
 *
 aDidMerge
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -214,12 +217,14 @@ NS_IMETHOD
 DoTransaction
 (
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
 UndoTransaction
 (
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -229,6 +234,7 @@ nsAString
 &
 aTxnDescription
 )
+MOZ_OVERRIDE
 ;
 #
 endif

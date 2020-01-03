@@ -271,6 +271,7 @@ NS_IMETHOD
 RedoTransaction
 (
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
