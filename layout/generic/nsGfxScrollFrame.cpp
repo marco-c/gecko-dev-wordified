@@ -7063,7 +7063,7 @@ NS_THEME_SCROLLBAR_NON_DISAPPEARING
 )
 )
 {
-nsIntSize
+LayoutDeviceIntSize
 size
 ;
 bool

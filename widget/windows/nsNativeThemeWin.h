@@ -155,9 +155,6 @@ nsSize
 .
 h
 "
-struct
-nsIntRect
-;
 class
 nsNativeThemeWin
 :
@@ -277,7 +274,10 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntSize
+mozilla
+:
+:
+LayoutDeviceIntSize
 *
 aResult
 bool
@@ -499,7 +499,10 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntSize
+mozilla
+:
+:
+LayoutDeviceIntSize
 *
 aResult
 bool
