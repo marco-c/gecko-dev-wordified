@@ -4557,12 +4557,11 @@ obj
 NewObjectWithGivenProto
 (
 cx
-proto
--
->
-getClass
-(
-)
+&
+ArrayIteratorObject
+:
+:
+class_
 proto
 cx
 -
