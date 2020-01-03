@@ -236,7 +236,7 @@ length
 =
 itfList
 .
-getInterface
+getInterfaceInfo
 (
 i
 )
