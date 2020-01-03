@@ -20003,13 +20003,13 @@ buffering
 or
 not
 .
-UpdateReadyState
-(
-)
-;
 SetState
 (
 DECODER_STATE_BUFFERING
+)
+;
+UpdateReadyState
+(
 )
 ;
 DECODER_LOG
