@@ -537,16 +537,11 @@ nsHtml5TreeOperation
 nsHtml5TreeOperation
 (
 )
-#
-ifdef
-DEBUG
 :
 mOpCode
 (
 eTreeOpUninitialized
 )
-#
-endif
 {
 MOZ_COUNT_CTOR
 (
@@ -5655,7 +5650,7 @@ rv
 default
 :
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 Bogus

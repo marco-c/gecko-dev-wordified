@@ -109,12 +109,7 @@ nsHtml5DocumentBuilder
 enum
 eHtml5TreeOperation
 {
-#
-ifdef
-DEBUG
 eTreeOpUninitialized
-#
-endif
 /
 /
 main
