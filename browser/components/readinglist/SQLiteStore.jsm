@@ -1356,6 +1356,8 @@ markedReadOn
 INTEGER
 readPosition
 INTEGER
+preview
+TEXT
 )
 ;
 )
