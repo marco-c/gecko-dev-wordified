@@ -18090,8 +18090,6 @@ return
 JSPROP_SHARED
 |
 JSPROP_ENUMERATE
-|
-JSPROP_NATIVE_ACCESSORS
 "
 +
                     
@@ -18215,12 +18213,8 @@ return
 "
 {
 {
-JS_CAST_NATIVE_TO
-(
 %
 s
-JSPropertyOp
-)
 %
 s
 }
@@ -18275,7 +18269,10 @@ None
                 
 return
 "
-JSOP_NULLWRAPPER
+JSNATIVE_WRAPPER
+(
+nullptr
+)
 "
             
 if
@@ -18384,12 +18381,8 @@ return
 "
 {
 {
-JS_CAST_NATIVE_TO
-(
 %
 s
-JSStrictPropertyOp
-)
 %
 s
 }
@@ -60289,16 +60282,25 @@ desc
 attributes
 (
 )
+|
+JSPROP_PROPOP_ACCESSORS
                                        
+JS_PROPERTYOP_GETTER
+(
 desc
 .
 getter
 (
 )
+)
+                                       
+JS_PROPERTYOP_SETTER
+(
 desc
 .
 setter
 (
+)
 )
 )
 )
@@ -75966,16 +75968,25 @@ objDesc
 attributes
 (
 )
+|
+JSPROP_PROPOP_ACCESSORS
                                          
+JS_PROPERTYOP_GETTER
+(
 objDesc
 .
 getter
 (
 )
+)
+                                         
+JS_PROPERTYOP_SETTER
+(
 objDesc
 .
 setter
 (
+)
 )
 )
 )

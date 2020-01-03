@@ -31615,13 +31615,8 @@ x
 JSPROP_SHARED
 |
 JSPROP_ENUMERATE
-|
-JSPROP_NATIVE_ACCESSORS
 {
 {
-(
-JSPropertyOp
-)
 dom_genericGetter
 &
 dom_x_getterinfo
@@ -31629,9 +31624,6 @@ dom_x_getterinfo
 }
 {
 {
-(
-JSStrictPropertyOp
-)
 dom_genericSetter
 &
 dom_x_setterinfo

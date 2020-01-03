@@ -6635,7 +6635,7 @@ JSPROP_GETTER
 JSPROP_SETTER
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSNative
 funObj
 .
 get

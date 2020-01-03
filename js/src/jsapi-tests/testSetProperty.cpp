@@ -169,8 +169,10 @@ globalProp
 "
 obj
 JSPROP_ENUMERATE
-JS_PropertyStub
-JS_StrictPropertyStub
+|
+JSPROP_PROPOP_ACCESSORS
+JS_STUBGETTER
+JS_STUBSETTER
 )
 )
 ;
@@ -188,8 +190,13 @@ JS
 :
 UndefinedHandleValue
 JSPROP_SHARED
+|
+JSPROP_PROPOP_ACCESSORS
+JS_PROPERTYOP_GETTER
+(
 NativeGet
-JS_StrictPropertyStub
+)
+JS_STUBSETTER
 )
 )
 ;

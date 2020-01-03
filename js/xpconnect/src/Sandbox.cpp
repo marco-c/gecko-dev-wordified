@@ -2754,8 +2754,16 @@ obj
 id
 vp
 attrs
+|
+JSPROP_PROPOP_ACCESSORS
+JS_PROPERTYOP_GETTER
+(
 writeToProto_getProperty
+)
+JS_PROPERTYOP_SETTER
+(
 writeToProto_setProperty
+)
 )
 )
 return
