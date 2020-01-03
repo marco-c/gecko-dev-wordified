@@ -439,6 +439,9 @@ i
 ]
 ;
 }
+delete
+mCurSendCodecConfig
+;
 /
 /
 The
@@ -1910,7 +1913,6 @@ webrtc
 CodecInst
 cinst
 ;
-{
 /
 /
 validate
@@ -1935,7 +1937,6 @@ kMediaConduitNoError
 return
 condError
 ;
-}
 }
 condError
 =
@@ -2185,13 +2186,6 @@ return
 condError
 ;
 }
-{
-MutexAutoLock
-lock
-(
-mCodecMutex
-)
-;
 /
 /
 Copy
@@ -2202,6 +2196,9 @@ for
 future
 reference
 .
+delete
+mCurSendCodecConfig
+;
 mCurSendCodecConfig
 =
 new
@@ -2233,7 +2230,6 @@ codecConfig
 mRate
 )
 ;
-}
 return
 kMediaConduitNoError
 ;
@@ -5595,6 +5591,7 @@ codecInfo
 bool
 send
 )
+const
 {
 bool
 codecAppliedAlready
@@ -5734,12 +5731,6 @@ if
 send
 )
 {
-MutexAutoLock
-lock
-(
-mCodecMutex
-)
-;
 codecAppliedAlready
 =
 CheckCodecsForMatch
