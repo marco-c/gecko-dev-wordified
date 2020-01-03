@@ -190,17 +190,6 @@ mozilla
 /
 dom
 /
-UnionTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 MouseEvent
 .
 h

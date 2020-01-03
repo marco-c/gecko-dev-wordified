@@ -225,17 +225,6 @@ MediaKeysBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
 struct
 JSContext
 ;
@@ -248,6 +237,9 @@ CDMProxy
 namespace
 dom
 {
+class
+ArrayBufferViewOrArrayBuffer
+;
 class
 MediaKeyError
 ;

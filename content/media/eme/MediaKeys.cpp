@@ -196,6 +196,17 @@ include
 "
 mozilla
 /
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CDMProxy
 .
 h

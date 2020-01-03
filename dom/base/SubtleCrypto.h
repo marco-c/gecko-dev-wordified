@@ -146,17 +146,6 @@ mozilla
 /
 dom
 /
-UnionTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 CryptoKey
 .
 h
@@ -176,6 +165,9 @@ mozilla
 namespace
 dom
 {
+class
+ObjectOrString
+;
 class
 Promise
 ;

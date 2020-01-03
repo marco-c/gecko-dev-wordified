@@ -132,17 +132,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
 nsIDOMMozMmsMessage
 .
 h
