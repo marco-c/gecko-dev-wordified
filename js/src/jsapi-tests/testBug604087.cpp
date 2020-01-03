@@ -305,11 +305,6 @@ JS
 :
 HandleObject
 obj
-JS
-:
-:
-HandleObject
-parent
 )
 {
 return
@@ -323,7 +318,6 @@ New
 (
 cx
 obj
-parent
 &
 js
 :
@@ -387,7 +381,6 @@ Wrapper
 New
 (
 cx
-global
 global
 &
 js
@@ -633,7 +626,6 @@ Wrapper
 New
 (
 cx
-compartment2
 compartment2
 &
 js
