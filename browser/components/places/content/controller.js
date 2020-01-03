@@ -470,7 +470,7 @@ function
 )
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 this
 .
@@ -5488,7 +5488,7 @@ PlacesTransactions
 NewSeparator
 (
 {
-parentGUID
+parentGuid
 :
 yield
 ip
@@ -5674,7 +5674,7 @@ guid
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 itemId
 )

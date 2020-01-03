@@ -338,7 +338,7 @@ see
 nsINavHistoryResultNode
 :
 :
-bookmarkGUID
+bookmarkGuid
 )
 .
 *
@@ -354,7 +354,7 @@ hand
 use
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 for
 *
 converting
@@ -726,9 +726,9 @@ strings
 .
 *
 -
-GUID
-parentGUID
-newParentGUID
+guid
+parentGuid
+newParentGuid
 :
 a
 valid
@@ -4702,7 +4702,7 @@ DEFAULT_INDEX
 ;
 DefineTransaction
 .
-isGUID
+isGuid
 =
 v
 =
@@ -5711,7 +5711,7 @@ PlacesTransactions
 .
 RemoveItem
 (
-myGUID
+myGuid
 )
 /
 /
@@ -5722,9 +5722,9 @@ PlacesTransactions
 RemoveItem
 (
 {
-GUID
+guid
 :
-myGUID
+myGuid
 }
 )
 .
@@ -5928,18 +5928,18 @@ defineInputProps
 (
 [
 "
-GUID
+guid
 "
 "
-parentGUID
+parentGuid
 "
 "
-newParentGUID
+newParentGuid
 "
 ]
 DefineTransaction
 .
-isGUID
+isGuid
 )
 ;
 DefineTransaction
@@ -6094,10 +6094,10 @@ transaction
 object
 *
 param
-aParentGUID
+aParentGuid
 *
 The
-guid
+GUID
 of
 the
 parent
@@ -6107,7 +6107,7 @@ param
 aCreateItemFunction
 (
 aParentId
-aGUIDToRestore
+aGuidToRestore
 )
 *
 The
@@ -6136,7 +6136,7 @@ new
 item
 *
 -
-aGUIDToRestore
+aGuidToRestore
 -
 the
 GUID
@@ -6186,7 +6186,7 @@ function
 ExecuteCreateItem
 (
 aTransaction
-aParentGUID
+aParentGuid
 aCreateItemFunction
 aOnUndo
 =
@@ -6204,7 +6204,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aParentGUID
+aParentGuid
 )
 itemId
 =
@@ -6220,7 +6220,7 @@ guid
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 itemId
 )
@@ -6329,7 +6329,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aParentGUID
+aParentGuid
 )
 ;
 itemId
@@ -6656,7 +6656,7 @@ function
 createItem
 (
 aItem
-aParentGUID
+aParentGuid
 aIndex
 =
 PlacesUtils
@@ -6688,7 +6688,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aParentGUID
+aParentGuid
 )
 ;
 let
@@ -6863,7 +6863,7 @@ guid
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 itemId
 )
@@ -7082,7 +7082,7 @@ createItem
 aBookmarksTree
 aBookmarksTree
 .
-parentGUID
+parentGuid
 aBookmarksTree
 .
 index
@@ -7296,7 +7296,7 @@ Input
 Properties
 :
 uri
-parentGUID
+parentGuid
 .
 *
 Optional
@@ -7338,7 +7338,7 @@ DefineTransaction
 (
 [
 "
-parentGUID
+parentGuid
 "
 "
 uri
@@ -7381,7 +7381,7 @@ execute
 :
 function
 (
-aParentGUID
+aParentGuid
 aURI
 aIndex
 aTitle
@@ -7395,7 +7395,7 @@ return
 ExecuteCreateItem
 (
 this
-aParentGUID
+aParentGuid
 function
 (
 parentId
@@ -7569,7 +7569,7 @@ Input
 Properties
 :
 title
-parentGUID
+parentGuid
 .
 *
 Optional
@@ -7608,7 +7608,7 @@ DefineTransaction
 (
 [
 "
-parentGUID
+parentGuid
 "
 "
 title
@@ -7639,7 +7639,7 @@ execute
 :
 function
 (
-aParentGUID
+aParentGuid
 aTitle
 aIndex
 aAnnos
@@ -7649,7 +7649,7 @@ return
 ExecuteCreateItem
 (
 this
-aParentGUID
+aParentGuid
 function
 (
 parentId
@@ -7716,7 +7716,7 @@ Required
 Input
 Properties
 :
-parentGUID
+parentGuid
 .
 *
 Optional
@@ -7755,7 +7755,7 @@ DefineTransaction
 (
 [
 "
-parentGUID
+parentGuid
 "
 ]
 [
@@ -7780,7 +7780,7 @@ execute
 :
 function
 (
-aParentGUID
+aParentGuid
 aIndex
 )
 {
@@ -7788,7 +7788,7 @@ return
 ExecuteCreateItem
 (
 this
-aParentGUID
+aParentGuid
 function
 (
 parentId
@@ -7849,7 +7849,7 @@ Properties
 :
 feedURI
 title
-parentGUID
+parentGuid
 .
 *
 Optional
@@ -7874,7 +7874,7 @@ resolved
 to
 the
 new
-separators
+livemark
 '
 s
 *
@@ -7896,7 +7896,7 @@ feedURI
 title
 "
 "
-parentGUID
+parentGuid
 "
 ]
 [
@@ -7930,7 +7930,7 @@ function
 (
 aFeedURI
 aTitle
-aParentGUID
+aParentGuid
 aSiteURI
 aIndex
 aAnnos
@@ -7971,7 +7971,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aParentGUID
+aParentGuid
 )
 ;
 let
@@ -8171,8 +8171,8 @@ Required
 Input
 Properties
 :
-GUID
-newParentGUID
+guid
+newParentGuid
 .
 *
 Optional
@@ -8190,10 +8190,10 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
-newParentGUID
+newParentGuid
 "
 ]
 [
@@ -8219,8 +8219,8 @@ execute
 function
 *
 (
-aGUID
-aNewParentGUID
+aGuid
+aNewParentGuid
 aNewIndex
 )
 {
@@ -8232,7 +8232,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldParentId
 =
@@ -8261,7 +8261,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aNewParentGUID
+aNewParentGuid
 )
 ;
 PlacesUtils
@@ -8386,7 +8386,7 @@ Required
 Input
 Properties
 :
-GUID
+guid
 title
 .
 *
@@ -8399,7 +8399,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
 title
@@ -8423,7 +8423,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 aTitle
 )
 {
@@ -8435,7 +8435,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldTitle
 =
@@ -8502,7 +8502,7 @@ Required
 Input
 Properties
 :
-GUID
+guid
 uri
 .
 *
@@ -8515,7 +8515,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
 uri
@@ -8539,7 +8539,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 aURI
 )
 {
@@ -8551,7 +8551,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldURI
 =
@@ -8825,7 +8825,7 @@ Required
 Input
 Properties
 :
-GUID
+guid
 annotationObject
 *
 /
@@ -8837,7 +8837,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
 annotations
@@ -8857,7 +8857,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 aNewAnnos
 )
 {
@@ -8869,7 +8869,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 ;
 let
@@ -9025,7 +9025,7 @@ Required
 Input
 Properties
 :
-GUID
+guid
 keyword
 .
 *
@@ -9038,7 +9038,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
 keyword
@@ -9062,7 +9062,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 aKeyword
 )
 {
@@ -9074,7 +9074,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldKeyword
 =
@@ -9140,7 +9140,7 @@ Required
 Input
 Properties
 :
-GUID
+guid
 .
 *
 /
@@ -9152,7 +9152,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 ]
 )
@@ -9169,7 +9169,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 )
 {
 let
@@ -9180,7 +9180,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldOrder
 =
@@ -9587,7 +9587,7 @@ Required
 Input
 Properties
 :
-GUID
+guid
 .
 *
 /
@@ -9599,7 +9599,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 ]
 )
@@ -9616,7 +9616,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 )
 {
 const
@@ -9640,7 +9640,7 @@ PlacesUtils
 .
 promiseBookmarksTree
 (
-aGUID
+aGuid
 )
 ;
 }
@@ -9667,7 +9667,7 @@ guid
 :
 "
 +
-aGUID
+aGuid
 +
 "
 )
@@ -9691,7 +9691,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 )
 ;
@@ -9865,12 +9865,12 @@ see
 )
 .
 let
-unfileGUID
+unfiledGuid
 =
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 PlacesUtils
 .
@@ -9895,9 +9895,9 @@ currentURI
 tags
 :
 aTags
-parentGUID
+parentGuid
 :
-unfileGUID
+unfiledGuid
 }
 )
 )
@@ -10376,7 +10376,7 @@ Input
 Properties
 :
 guid
-newParentGUID
+newParentGuid
 *
 Optional
 Input
@@ -10395,10 +10395,10 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
-newParentGUID
+newParentGuid
 "
 ]
 [
@@ -10423,8 +10423,8 @@ execute
 function
 *
 (
-aGUID
-aNewParentGUID
+aGuid
+aNewParentGuid
 aNewIndex
 aExcludingAnnotations
 )
@@ -10443,7 +10443,7 @@ PlacesUtils
 .
 promiseBookmarksTree
 (
-aGUID
+aGuid
 )
 ;
 }
@@ -10470,7 +10470,7 @@ guid
 :
 "
 +
-aGUID
+aGuid
 +
 "
 )
@@ -10485,9 +10485,9 @@ ex
 }
 creationInfo
 .
-parentGUID
+parentGuid
 =
-aNewParentGUID
+aNewParentGuid
 ;
 creationInfo
 .
@@ -10527,12 +10527,12 @@ newItemInfo
 )
 {
 let
-newItemGUID
+newItemGuid
 =
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 newItemId
 )
@@ -10544,7 +10544,7 @@ PlacesUtils
 .
 promiseBookmarksTree
 (
-newItemGUID
+newItemGuid
 )
 ;
 }
@@ -10582,7 +10582,7 @@ return
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 newItemId
 )
