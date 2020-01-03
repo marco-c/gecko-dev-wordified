@@ -173,6 +173,7 @@ PinReason
 {
 RELAYOUT
 ACTION_MODE
+FULL_SCREEN
 }
 public
 enum
