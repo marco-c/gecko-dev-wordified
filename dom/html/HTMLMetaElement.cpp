@@ -645,7 +645,7 @@ true
 asyncDispatcher
 -
 >
-PostDOMEvent
+RunDOMEventWhenSafe
 (
 )
 ;
