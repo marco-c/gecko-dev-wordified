@@ -1710,6 +1710,8 @@ OnEventNeedingAckReceived
 nsIWidget
 *
 aWidget
+uint32_t
+aMessage
 )
 ;
 /

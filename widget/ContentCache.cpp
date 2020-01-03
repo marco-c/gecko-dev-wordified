@@ -6781,6 +6781,8 @@ OnEventNeedingAckReceived
 nsIWidget
 *
 aWidget
+uint32_t
+aMessage
 )
 {
 /
@@ -6820,9 +6822,13 @@ aWidget
 0x
 %
 p
+"
+"
+aMessage
+=
+%
+s
 )
-"
-"
 mPendingEventsNeedingAck
 =
 %
@@ -6830,6 +6836,10 @@ u
 "
 this
 aWidget
+GetEventMessageName
+(
+aMessage
+)
 mPendingEventsNeedingAck
 )
 )

@@ -10559,6 +10559,10 @@ TabParent
 :
 RecvOnEventNeedingAckReceived
 (
+const
+uint32_t
+&
+aMessage
 )
 {
 /
@@ -10634,6 +10638,7 @@ mContentCache
 OnEventNeedingAckReceived
 (
 widget
+aMessage
 )
 ;
 return
