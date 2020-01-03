@@ -1313,8 +1313,6 @@ Handle
 jsid
 >
 id
-bool
-strict
 MutableHandle
 <
 JS
@@ -1323,6 +1321,9 @@ JS
 Value
 >
 vp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -1376,7 +1377,11 @@ done
 )
 {
 return
-true
+result
+.
+succeed
+(
+)
 ;
 }
 /
@@ -1559,8 +1564,8 @@ id
 &
 desc
 descIsOwn
-strict
 vp
+result
 )
 ;
 }

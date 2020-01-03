@@ -2408,6 +2408,9 @@ non
 -
 strict
 .
+ObjectOpResult
+ignored
+;
 if
 (
 !
@@ -2419,7 +2422,7 @@ arrobj
 idx
 &
 tmp
-false
+ignored
 )
 )
 return

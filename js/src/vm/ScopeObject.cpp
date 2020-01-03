@@ -2308,7 +2308,6 @@ callobj
 id
 &
 optimizedOut
-true
 )
 )
 return
@@ -3505,8 +3504,9 @@ HandleId
 id
 MutableHandleValue
 vp
-bool
-strict
+ObjectOpResult
+&
+result
 )
 {
 RootedObject
@@ -3555,7 +3555,7 @@ actual
 actualReceiver
 id
 vp
-strict
+result
 )
 ;
 }
@@ -6355,8 +6355,9 @@ HandleId
 id
 MutableHandleValue
 vp
-bool
-strict
+ObjectOpResult
+&
+result
 )
 {
 ReportUninitializedLexicalId
@@ -10828,10 +10829,11 @@ HandleObject
 receiver
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE
@@ -10927,7 +10929,11 @@ case
 ACCESS_UNALIASED
 :
 return
-true
+result
+.
+succeed
+(
+)
 ;
 case
 ACCESS_GENERIC
@@ -10940,7 +10946,7 @@ scope
 scope
 id
 vp
-strict
+result
 )
 ;
 default

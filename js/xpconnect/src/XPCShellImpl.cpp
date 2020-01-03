@@ -3943,10 +3943,11 @@ HandleObject
 obj
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 {
 /
@@ -4293,7 +4294,11 @@ SOLARIS
 *
 /
 return
-true
+result
+.
+succeed
+(
+)
 ;
 }
 static

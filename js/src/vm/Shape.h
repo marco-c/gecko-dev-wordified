@@ -6491,10 +6491,11 @@ HandleNativeObject
 obj
 HandleObject
 receiver
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 ;
 BaseShape

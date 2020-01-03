@@ -14414,10 +14414,11 @@ HandleObject
 receiver
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -14483,8 +14484,8 @@ cx
 wrapper
 wrapper
 id
-strict
 vp
+result
 )
 ;
 }

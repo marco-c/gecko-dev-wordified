@@ -13978,7 +13978,6 @@ names
 lastIndex
 &
 zero
-true
 )
 ;
 }

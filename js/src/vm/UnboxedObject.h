@@ -1006,8 +1006,9 @@ HandleId
 id
 MutableHandleValue
 vp
-bool
-strict
+ObjectOpResult
+&
+result
 )
 ;
 static
