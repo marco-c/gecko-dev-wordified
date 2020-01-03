@@ -923,6 +923,10 @@ const
 nsAString
 &
 aSizes
+const
+nsAString
+&
+aImageReferrerPolicy
 )
 ;
 void
