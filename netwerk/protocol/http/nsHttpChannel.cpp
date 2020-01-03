@@ -43938,6 +43938,13 @@ request
 -
 uri
 .
+if
+(
+LOG_ENABLED
+(
+)
+)
+{
 nsAutoCString
 key
 ;
@@ -43976,6 +43983,7 @@ get
 )
 )
 ;
+}
 DoInvalidateCacheEntry
 (
 mURI
@@ -44240,6 +44248,13 @@ rv
 nsAutoCString
 key
 ;
+if
+(
+LOG_ENABLED
+(
+)
+)
+{
 aURI
 -
 >
@@ -44248,6 +44263,7 @@ GetAsciiSpec
 key
 )
 ;
+}
 LOG
 (
 (

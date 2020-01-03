@@ -17233,6 +17233,13 @@ while
 "
 )
 ;
+if
+(
+LOG_ENABLED
+(
+)
+)
+{
 nsAutoCString
 path
 ;
@@ -17297,6 +17304,7 @@ get
 )
 )
 ;
+}
 }
 file
 -
@@ -20405,6 +20413,13 @@ rv
 ;
 }
 }
+if
+(
+LOG_ENABLED
+(
+)
+)
+{
 nsAutoCString
 path
 ;
@@ -20440,6 +20455,7 @@ get
 )
 )
 ;
+}
 rv
 =
 file

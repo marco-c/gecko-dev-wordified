@@ -7420,6 +7420,13 @@ contextKey
 )
 ;
 }
+if
+(
+LOG_ENABLED
+(
+)
+)
+{
 nsAutoCString
 uriSpec
 ;
@@ -7472,6 +7479,7 @@ get
 )
 )
 ;
+}
 {
 mozilla
 :
