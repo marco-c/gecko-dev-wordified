@@ -8159,6 +8159,10 @@ AutoEntryScript
 entryScript
 (
 innerWin
+"
+nsXULTemplateBuilder
+creation
+"
 true
 )
 ;

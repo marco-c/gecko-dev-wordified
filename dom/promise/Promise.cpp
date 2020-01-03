@@ -1316,6 +1316,10 @@ rootedThenable
 resolveFunc
 rejectFunc
 rv
+"
+promise
+thenable
+"
 CallbackObject
 :
 :
@@ -3485,6 +3489,10 @@ Call
 resolveFunc
 rejectFunc
 aRv
+"
+promise
+initializer
+"
 CallbackObject
 :
 :

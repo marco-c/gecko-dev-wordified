@@ -21544,6 +21544,14 @@ AutoEntryScript
 aes
 (
 mScriptGlobalObject
+"
+precompiled
+XUL
+<
+script
+>
+element
+"
 )
 ;
 aes

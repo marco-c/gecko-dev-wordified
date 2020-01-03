@@ -9716,6 +9716,11 @@ AutoEntryScript
 aes
 (
 priv
+"
+XPConnect
+sandbox
+evaluation
+"
 )
 ;
 JSContext

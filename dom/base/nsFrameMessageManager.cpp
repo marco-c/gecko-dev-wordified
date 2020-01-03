@@ -5588,6 +5588,11 @@ AutoEntryScript
 aes
 (
 nativeGlobal
+"
+message
+manager
+handler
+"
 )
 ;
 aes
@@ -8429,6 +8434,12 @@ NativeGlobal
 (
 global
 )
+"
+message
+manager
+script
+load
+"
 )
 ;
 aes

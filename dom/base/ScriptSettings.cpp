@@ -3250,6 +3250,10 @@ AutoEntryScript
 nsIGlobalObject
 *
 aGlobalObject
+const
+char
+*
+aReason
 bool
 aIsMainThread
 JSContext
@@ -3392,6 +3396,7 @@ mDocShellForJSRunToCompletion
 >
 NotifyJSRunToCompletionStart
 (
+aReason
 )
 ;
 }

@@ -1204,6 +1204,10 @@ aCallback
 ErrorResult
 &
 aRv
+const
+char
+*
+aExecutionReason
 ExceptionHandling
 aExceptionHandling
 JSCompartment

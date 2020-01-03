@@ -3606,6 +3606,10 @@ AutoEntryScript
 aes
 (
 nativeGlobal
+"
+XPCWrappedJS
+QueryInterface
+"
 /
 *
 aIsMainThread
@@ -6268,6 +6272,11 @@ AutoEntryScript
 aes
 (
 nativeGlobal
+"
+XPCWrappedJS
+method
+call
+"
 /
 *
 aIsMainThread

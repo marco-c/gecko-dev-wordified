@@ -2984,6 +2984,13 @@ AutoEntryScript
 entryScript
 (
 globalObject
+"
+XBL
+<
+field
+>
+initialization
+"
 true
 )
 ;

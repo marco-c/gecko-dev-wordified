@@ -1666,6 +1666,17 @@ AutoEntryScript
 aes
 (
 global
+"
+XBL
+<
+constructor
+>
+/
+<
+destructor
+>
+invocation
+"
 )
 ;
 aes

@@ -1476,6 +1476,12 @@ AutoEntryScript
 aes
 (
 global
+"
+geolocation
+.
+app_settings
+enumeration
+"
 )
 ;
 aes
@@ -1984,6 +1990,12 @@ AutoEntryScript
 aes
 (
 global
+"
+geolocation
+.
+always_precise
+indexing
+"
 )
 ;
 aes
