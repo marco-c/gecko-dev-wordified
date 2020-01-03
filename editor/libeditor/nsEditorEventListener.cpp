@@ -6523,6 +6523,7 @@ GetPresContext
 (
 )
 focusedContent
+mEditor
 )
 ;
 return
