@@ -4947,6 +4947,13 @@ kResizeKTable
 static
 const
 KTableValue
+kRubyAlignKTable
+[
+]
+;
+static
+const
+KTableValue
 kRubyPositionKTable
 [
 ]

@@ -1361,6 +1361,11 @@ Right
 )
 COMPUTED_STYLE_PROP
 (
+ruby_align
+RubyAlign
+)
+COMPUTED_STYLE_PROP
+(
 ruby_position
 RubyPosition
 )
