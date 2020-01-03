@@ -2973,18 +2973,18 @@ JS
 Value
 >
 aResult
+JSContext
+*
+aCx
 )
 {
-AutoSafeJSContext
-cx
-;
 RootedDictionary
 <
 MozMMIResult
 >
 result
 (
-cx
+aCx
 )
 ;
 if
@@ -2994,7 +2994,7 @@ result
 .
 Init
 (
-cx
+aCx
 aResult
 )
 )
@@ -3115,7 +3115,7 @@ Value
 >
 value
 (
-cx
+aCx
 )
 ;
 JS
@@ -3128,7 +3128,7 @@ JSObject
 >
 object
 (
-cx
+aCx
 additionInformation
 .
 GetAsObject
@@ -3141,7 +3141,7 @@ if
 !
 JS_IsArrayObject
 (
-cx
+aCx
 object
 )
 |
@@ -3149,7 +3149,7 @@ object
 !
 JS_GetArrayLength
 (
-cx
+aCx
 object
 &
 length
@@ -3177,7 +3177,7 @@ array
 !
 JS_GetElement
 (
-cx
+aCx
 object
 0
 &
@@ -3242,7 +3242,7 @@ if
 !
 JS_GetElement
 (
-cx
+aCx
 object
 i
 &
@@ -3272,7 +3272,7 @@ str
 .
 init
 (
-cx
+aCx
 value
 .
 toString
@@ -3358,7 +3358,7 @@ if
 !
 JS_GetElement
 (
-cx
+aCx
 object
 i
 &
@@ -3371,7 +3371,7 @@ info
 .
 Init
 (
-cx
+aCx
 value
 )
 )
@@ -3429,13 +3429,13 @@ JS
 Value
 >
 aResults
+JSContext
+*
+aCx
 )
 {
 uint32_t
 length
-;
-AutoSafeJSContext
-cx
 ;
 JS
 :
@@ -3447,7 +3447,7 @@ JSObject
 >
 object
 (
-cx
+aCx
 &
 aResults
 .
@@ -3470,7 +3470,7 @@ if
 !
 JS_IsArrayObject
 (
-cx
+aCx
 object
 )
 |
@@ -3478,7 +3478,7 @@ object
 !
 JS_GetArrayLength
 (
-cx
+aCx
 object
 &
 length
@@ -3517,7 +3517,7 @@ Value
 >
 entry
 (
-cx
+aCx
 )
 ;
 IPC
@@ -3531,7 +3531,7 @@ if
 !
 JS_GetElement
 (
-cx
+aCx
 object
 i
 &
@@ -3544,7 +3544,7 @@ info
 .
 Init
 (
-cx
+aCx
 entry
 )
 )
