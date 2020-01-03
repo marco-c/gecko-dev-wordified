@@ -2359,6 +2359,16 @@ IsInCompositorThread
 (
 )
 ;
+nsIWidget
+*
+GetWidget
+(
+)
+{
+return
+mWidget
+;
+}
 protected
 :
 /
