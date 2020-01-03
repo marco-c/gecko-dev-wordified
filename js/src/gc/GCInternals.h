@@ -181,6 +181,7 @@ trc
 )
 ;
 class
+MOZ_RAII
 AutoCopyFreeListToArenas
 {
 JSRuntime
@@ -209,6 +210,7 @@ AutoCopyFreeListToArenas
 }
 ;
 struct
+MOZ_RAII
 AutoFinishGC
 {
 explicit
@@ -253,6 +255,7 @@ it
 *
 /
 class
+MOZ_RAII
 AutoTraceSession
 {
 public
@@ -323,6 +326,7 @@ prevState
 }
 ;
 struct
+MOZ_RAII
 AutoPrepareForTracing
 {
 AutoFinishGC
@@ -454,7 +458,6 @@ gc
 bool
 restartPreVerifier
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 AutoStopVerifyingBarriers
@@ -464,7 +467,6 @@ JSRuntime
 rt
 bool
 isShutdown
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 gc
@@ -488,8 +490,6 @@ endVerifyPreBarriers
 &
 !
 isShutdown
-;
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 ~
@@ -683,6 +683,7 @@ outer
 #
 else
 struct
+MOZ_RAII
 AutoStopVerifyingBarriers
 {
 AutoStopVerifyingBarriers
@@ -809,13 +810,10 @@ JSRuntime
 *
 runtime
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
-explicit
 AutoMaybeStartBackgroundAllocation
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 runtime
@@ -823,8 +821,6 @@ runtime
 nullptr
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 void
 tryToStartBackgroundAllocation
@@ -884,10 +880,8 @@ AutoSetThreadIsSweeping
 #
 ifdef
 DEBUG
-explicit
 AutoSetThreadIsSweeping
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 threadData_
@@ -918,8 +912,6 @@ gcSweeping
 =
 true
 ;
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 ~
 AutoSetThreadIsSweeping
@@ -948,7 +940,6 @@ PerThreadData
 *
 threadData_
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 #
 else
 AutoSetThreadIsSweeping

@@ -1771,6 +1771,7 @@ current
 edge
 .
 class
+MOZ_RAII
 AutoTracingName
 {
 CallbackTracer
@@ -1861,6 +1862,7 @@ current
 range
 .
 class
+MOZ_RAII
 AutoTracingIndex
 {
 CallbackTracer
@@ -2024,6 +2026,7 @@ edge
 description
 .
 class
+MOZ_RAII
 AutoTracingDetails
 {
 CallbackTracer

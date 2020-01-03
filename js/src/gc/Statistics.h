@@ -1673,7 +1673,6 @@ gcreason
 :
 Reason
 reason
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 stats
@@ -1681,8 +1680,6 @@ stats
 stats
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 stats
 .
 beginSlice
@@ -1710,7 +1707,6 @@ Statistics
 &
 stats
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 struct
@@ -1724,7 +1720,6 @@ Statistics
 stats
 Phase
 phase
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 stats
@@ -1744,8 +1739,6 @@ enabled
 true
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 stats
 .
 beginPhase
@@ -1763,7 +1756,6 @@ bool
 condition
 Phase
 phase
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 stats
@@ -1783,8 +1775,6 @@ enabled
 condition
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 enabled
@@ -1808,7 +1798,6 @@ GCParallelTask
 task
 Phase
 phase
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 stats
@@ -1829,8 +1818,6 @@ enabled
 true
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 enabled
@@ -1890,7 +1877,6 @@ phase
 bool
 enabled
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 struct
@@ -1904,7 +1890,6 @@ Statistics
 stats
 unsigned
 scc
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 stats
@@ -1916,8 +1901,6 @@ scc
 scc
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 start
 =
 stats
@@ -1951,7 +1934,6 @@ scc
 int64_t
 start
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 const
