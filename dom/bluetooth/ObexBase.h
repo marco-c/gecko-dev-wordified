@@ -492,13 +492,6 @@ public
 :
 ObexHeaderSet
 (
-uint8_t
-aOpcode
-)
-:
-mOpcode
-(
-aOpcode
 )
 {
 }
@@ -1304,9 +1297,6 @@ Clear
 }
 private
 :
-uint8_t
-mOpcode
-;
 nsTArray
 <
 nsAutoPtr
