@@ -509,6 +509,15 @@ publish
 -
 media
 "
+USER_UNAVAILABLE
+:
+"
+reason
+-
+user
+-
+unavailable
+"
 COULD_NOT_CONNECT
 :
 "

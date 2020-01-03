@@ -112,17 +112,6 @@ utils
 FAILURE_DETAILS
 ;
 var
-REST_ERRNOS
-=
-loop
-.
-shared
-.
-utils
-.
-REST_ERRNOS
-;
-var
 WEBSOCKET_REASONS
 =
 loop
@@ -3038,7 +3027,7 @@ WEBSOCKET_REASONS
 BUSY
 :
 case
-REST_ERRNOS
+FAILURE_DETAILS
 .
 USER_UNAVAILABLE
 :
