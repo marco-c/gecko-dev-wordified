@@ -1952,6 +1952,9 @@ nsIURI
 >
 mBaseURI
 ;
+nsCString
+mSecurityInfo
+;
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -5292,6 +5295,10 @@ uint8_t
 aString
 uint32_t
 aStringLen
+const
+nsCString
+&
+aSecurityInfo
 )
 {
 AssertIsOnMainThread
@@ -5465,6 +5472,14 @@ GetLoadGroup
 MOZ_ASSERT
 (
 loadGroup
+)
+;
+mWorkerPrivate
+-
+>
+SetSecurityInfo
+(
+aSecurityInfo
 )
 ;
 /
@@ -7325,6 +7340,15 @@ inputStream
 )
 )
 ;
+mSecurityInfo
+=
+response
+-
+>
+GetSecurityInfo
+(
+)
+;
 if
 (
 !
@@ -7353,6 +7377,7 @@ uint8_t
 "
 "
 0
+mSecurityInfo
 )
 ;
 return
@@ -7614,6 +7639,7 @@ DataReceivedFromCache
 mIndex
 aString
 aStringLen
+mSecurityInfo
 )
 ;
 return
