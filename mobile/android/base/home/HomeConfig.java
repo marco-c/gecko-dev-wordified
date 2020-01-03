@@ -2773,6 +2773,12 @@ IMAGE
 image
 "
 )
+ICON
+(
+"
+icon
+"
+)
 ;
 private
 final
