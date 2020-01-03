@@ -4912,6 +4912,15 @@ toggle
 "
 inspect
 "
+"
+media
+-
+eme
+-
+learn
+-
+more
+"
 ]
 )
 _contextMenuInteractions
