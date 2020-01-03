@@ -264,8 +264,10 @@ Methods
 for
 WebIDL
 static
+already_AddRefed
+<
 URL
-*
+>
 Constructor
 (
 const
@@ -285,8 +287,10 @@ aRv
 )
 ;
 static
+already_AddRefed
+<
 URL
-*
+>
 Constructor
 (
 const
