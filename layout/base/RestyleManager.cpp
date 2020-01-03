@@ -19385,6 +19385,9 @@ ElementRestyler
 :
 MustCheckUndisplayedContent
 (
+nsIFrame
+*
+aFrame
 nsIContent
 *
 &
@@ -19427,7 +19430,7 @@ DocElementContainingBlock
 .
 if
 (
-mFrame
+aFrame
 -
 >
 StyleContext
@@ -19445,7 +19448,7 @@ aUndisplayedParent
 nullptr
 ;
 return
-mFrame
+aFrame
 =
 =
 mPresContext
@@ -19463,7 +19466,7 @@ GetDocElementContainingBlock
 }
 aUndisplayedParent
 =
-mFrame
+aFrame
 -
 >
 GetContent
@@ -19973,6 +19976,7 @@ if
 (
 MustCheckUndisplayedContent
 (
+mFrame
 undisplayedParent
 )
 )
@@ -29594,6 +29598,7 @@ if
 (
 MustCheckUndisplayedContent
 (
+mFrame
 undisplayedParent
 )
 )

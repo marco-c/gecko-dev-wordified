@@ -4472,6 +4472,9 @@ aChildRestyleHint
 bool
 MustCheckUndisplayedContent
 (
+nsIFrame
+*
+aFrame
 nsIContent
 *
 &
