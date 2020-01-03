@@ -109,6 +109,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -187,6 +196,10 @@ IrishCasing
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 Unicode
