@@ -7585,6 +7585,8 @@ NS_DispatchToMainThread
 runnable
 )
 ;
+return
+;
 }
 NotifyProgress
 (
