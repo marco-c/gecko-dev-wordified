@@ -471,7 +471,7 @@ setPinCode
 -
 BluetoothPairingHandle
 .
-setPairingConfirmation
+accept
 (
 )
 /
