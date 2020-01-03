@@ -1564,13 +1564,6 @@ nsScriptObjectTracer
 >
 mJSHolders
 ;
-nsTArray
-<
-nsISupports
-*
->
-mDeferredSupports
-;
 typedef
 nsDataHashtable
 <
