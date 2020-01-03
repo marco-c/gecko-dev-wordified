@@ -547,10 +547,13 @@ CacheOpChild
 ;
 if
 (
+NS_WARN_IF
+(
 aRv
 .
 Failed
 (
+)
 )
 )
 {
