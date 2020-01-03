@@ -22973,6 +22973,13 @@ return
 true
 ;
 }
+MOZ_ASSERT
+(
+monitoredResult
+(
+)
+)
+;
 }
 else
 if
