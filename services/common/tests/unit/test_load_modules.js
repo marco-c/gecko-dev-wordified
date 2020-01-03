@@ -43,11 +43,6 @@ bagheeraclient
 js
 "
 "
-logmanager
-.
-js
-"
-"
 rest
 .
 js
