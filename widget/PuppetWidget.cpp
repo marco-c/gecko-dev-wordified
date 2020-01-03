@@ -2403,7 +2403,7 @@ bindings
 .
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 return
 false
 ;
@@ -2413,7 +2413,7 @@ else
 /
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 MOZ_ASSERT
 (
 mNativeKeyCommandsValid
