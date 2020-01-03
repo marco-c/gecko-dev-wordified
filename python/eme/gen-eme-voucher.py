@@ -6,9 +6,7 @@ usr
 bin
 /
 env
-python3
-.
-3
+python
 #
 Copyright
 2014
