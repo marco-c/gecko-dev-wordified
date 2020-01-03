@@ -2829,9 +2829,6 @@ updates
 #
 ifdef
 MOZ_MAINTENANCE_SERVICE
-#
-ifndef
-HAVE_64BIT_BUILD
 pref
 (
 "
@@ -2846,8 +2843,6 @@ enabled
 true
 )
 ;
-#
-endif
 #
 endif
 /
