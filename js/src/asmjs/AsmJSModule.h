@@ -10254,7 +10254,10 @@ using
 AsmJSCacheOps
 .
 extern
-bool
+JS
+:
+:
+AsmJSCacheResult
 StoreAsmJSModuleInCache
 (
 AsmJSParser
