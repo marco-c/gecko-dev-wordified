@@ -2727,6 +2727,11 @@ mStrokePaint
 .
 mSurfaceRect
 mInputImages
+Point
+(
+0
+0
+)
 )
 ;
 return
