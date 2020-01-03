@@ -996,7 +996,7 @@ true
 ;
 editor
 .
-commit
+apply
 (
 )
 ;
