@@ -1365,7 +1365,7 @@ aPtr
 )
 ;
 }
-static
+MOZ_EXPORT
 void
 StatusMsg
 (
