@@ -2006,6 +2006,12 @@ const
 nsAttrValue
 *
 aOtherValue
+mozilla
+:
+:
+RestyleHintData
+&
+aRestyleHintDataResult
 )
 ;
 /
