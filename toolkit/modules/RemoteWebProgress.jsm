@@ -1291,6 +1291,16 @@ json
 .
 principal
 ;
+this
+.
+_browser
+.
+_isSyntheticDocument
+=
+json
+.
+synthetic
+;
 }
 this
 .
