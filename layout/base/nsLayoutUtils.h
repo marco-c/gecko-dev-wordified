@@ -676,6 +676,16 @@ gfx
 StrokeOptions
 StrokeOptions
 ;
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
 public
 :
 typedef
@@ -11114,7 +11124,7 @@ variety
 *
 /
 static
-nsresult
+DrawResult
 DrawBackgroundImage
 (
 gfxContext
@@ -11280,7 +11290,7 @@ variety
 *
 /
 static
-nsresult
+DrawResult
 DrawImage
 (
 gfxContext
@@ -11610,7 +11620,7 @@ pixels
 *
 /
 static
-nsresult
+DrawResult
 DrawSingleUnscaledImage
 (
 gfxContext
@@ -11821,7 +11831,7 @@ pixels
 *
 /
 static
-nsresult
+DrawResult
 DrawSingleImage
 (
 gfxContext
