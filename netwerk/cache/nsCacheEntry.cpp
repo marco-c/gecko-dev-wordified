@@ -2027,10 +2027,10 @@ PLDHashEntryHdr
 *
 hashEntry
 =
-PL_DHashTableSearch
-(
-&
 table
+.
+Search
+(
 key
 )
 ;

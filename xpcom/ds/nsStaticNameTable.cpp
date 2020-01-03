@@ -1030,8 +1030,7 @@ key
 str
 )
 ;
-NameTableEntry
-*
+auto
 entry
 =
 static_cast
@@ -1040,10 +1039,10 @@ NameTableEntry
 *
 >
 (
-PL_DHashTableSearch
-(
-&
 mNameTable
+.
+Search
+(
 &
 key
 )
@@ -1101,8 +1100,7 @@ key
 str
 )
 ;
-NameTableEntry
-*
+auto
 entry
 =
 static_cast
@@ -1111,10 +1109,10 @@ NameTableEntry
 *
 >
 (
-PL_DHashTableSearch
-(
-&
 mNameTable
+.
+Search
+(
 &
 key
 )

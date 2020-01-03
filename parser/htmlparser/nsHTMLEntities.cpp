@@ -774,8 +774,7 @@ temp
 )
 ;
 }
-EntityNodeEntry
-*
+auto
 entry
 =
 static_cast
@@ -784,9 +783,11 @@ EntityNodeEntry
 *
 >
 (
-PL_DHashTableSearch
-(
 gEntityToUnicode
+-
+>
+Search
+(
 aEntity
 .
 get
@@ -891,8 +892,7 @@ addref
 "
 )
 ;
-EntityNodeEntry
-*
+auto
 entry
 =
 static_cast
@@ -901,9 +901,11 @@ EntityNodeEntry
 *
 >
 (
-PL_DHashTableSearch
-(
 gUnicodeToEntity
+-
+>
+Search
+(
 NS_INT32_TO_PTR
 (
 aUnicode

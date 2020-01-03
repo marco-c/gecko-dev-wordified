@@ -4483,8 +4483,7 @@ uint32_t
 aFilesize
 )
 {
-FNCMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -4493,10 +4492,10 @@ FNCMapEntry
 *
 >
 (
-PL_DHashTableSearch
-(
-&
 mMap
+.
+Search
+(
 aFileName
 .
 get
