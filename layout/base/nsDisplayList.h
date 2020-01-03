@@ -16747,7 +16747,7 @@ aFrame
 {
 MOZ_COUNT_CTOR
 (
-nsDisplayEventReceiver
+nsDisplayLayerEventRegions
 )
 ;
 AddFrame
@@ -16768,7 +16768,7 @@ nsDisplayLayerEventRegions
 {
 MOZ_COUNT_DTOR
 (
-nsDisplayEventReceiver
+nsDisplayLayerEventRegions
 )
 ;
 }
