@@ -347,6 +347,9 @@ PRLogModuleInfo
 *
 gHttpLog
 ;
+class
+nsPerformance
+;
 namespace
 mozilla
 {
@@ -1510,6 +1513,12 @@ progress
 sink
 void
 ReleaseListeners
+(
+)
+;
+nsPerformance
+*
+GetPerformance
 (
 )
 ;

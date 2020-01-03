@@ -241,9 +241,6 @@ nsInputStreamPump
 class
 nsISSLStatus
 ;
-class
-nsPerformance
-;
 namespace
 mozilla
 {
@@ -2550,12 +2547,6 @@ protected
 virtual
 void
 DoNotifyListenerCleanup
-(
-)
-;
-nsPerformance
-*
-GetPerformance
 (
 )
 ;
