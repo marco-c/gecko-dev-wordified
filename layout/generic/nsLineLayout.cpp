@@ -4019,6 +4019,13 @@ nullptr
 pfd
 -
 >
+mNextAnnotation
+=
+nullptr
+;
+pfd
+-
+>
 mFlags
 =
 0
