@@ -511,7 +511,7 @@ WebIDL
 virtual
 JSObject
 *
-WrapObject
+WrapNode
 (
 JSContext
 *
