@@ -57,6 +57,8 @@ abcdefghijklmnopqrstuvwxyz
 \
 x80
 \
+x81
+\
 x82
 \
 x83
@@ -79,7 +81,13 @@ x8b
 \
 x8c
 \
+x8d
+\
 x8e
+\
+x8f
+\
+x90
 \
 x91
 \
@@ -104,6 +112,8 @@ x9a
 x9b
 \
 x9c
+\
+x9d
 \
 x9e
 \
@@ -342,6 +352,8 @@ abcdefghijklmnopqrstuvwxyz
 \
 u20ac
 \
+u0081
+\
 u201a
 \
 u0192
@@ -364,7 +376,13 @@ u2039
 \
 u0152
 \
+u008d
+\
 u017d
+\
+u008f
+\
+u0090
 \
 u2018
 \
@@ -389,6 +407,8 @@ u0161
 u203a
 \
 u0153
+\
+u009d
 \
 u017e
 \
