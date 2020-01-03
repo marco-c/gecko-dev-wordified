@@ -396,11 +396,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSystemPrincipal
 :
 :
-GetOrigin
+GetOriginInternal
 (
 nsACString
 &

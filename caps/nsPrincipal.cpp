@@ -809,11 +809,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPrincipal
 :
 :
-GetOrigin
+GetOriginInternal
 (
 nsACString
 &
@@ -4162,11 +4162,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsExpandedPrincipal
 :
 :
-GetOrigin
+GetOriginInternal
 (
 nsACString
 &

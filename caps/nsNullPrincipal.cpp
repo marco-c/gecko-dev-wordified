@@ -571,11 +571,11 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNullPrincipal
 :
 :
-GetOrigin
+GetOriginInternal
 (
 nsACString
 &
