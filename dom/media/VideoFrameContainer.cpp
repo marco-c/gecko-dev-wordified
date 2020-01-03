@@ -824,6 +824,7 @@ nsDisplayItem
 :
 TYPE_VIDEO
 nullptr
+nullptr
 asyncInvalidate
 ?
 nsIFrame
