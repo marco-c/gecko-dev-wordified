@@ -3516,7 +3516,9 @@ MediaDecoder
 :
 QueueMetadata
 (
-int64_t
+const
+TimeUnit
+&
 aPublishTime
 nsAutoPtr
 <
