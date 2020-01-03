@@ -1952,11 +1952,13 @@ shadow
 :
 none
 ;
-height
-:
-18px
-;
 padding
+:
+0
+;
+min
+-
+height
 :
 0
 ;
@@ -1964,7 +1966,7 @@ min
 -
 width
 :
-18px
+0
 ;
 }
 #
