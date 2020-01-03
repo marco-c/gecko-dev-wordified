@@ -2069,7 +2069,7 @@ const
 {
 if
 (
-IsPaused
+IsPausedOrPausing
 (
 )
 |

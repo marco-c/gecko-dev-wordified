@@ -2208,7 +2208,7 @@ PauseFromStyle
 /
 /
 making
-IsPaused
+IsPausedOrPausing
 synonymous
 in
 this
@@ -2229,7 +2229,7 @@ IsStylePaused
 newPlayer
 -
 >
-IsPaused
+IsPausedOrPausing
 (
 )
 )
@@ -2261,7 +2261,7 @@ IsStylePaused
 newPlayer
 -
 >
-IsPaused
+IsPausedOrPausing
 (
 )
 )
