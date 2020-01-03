@@ -585,6 +585,7 @@ mBufferList
 ;
 public
 :
+explicit
 SharedBuffers
 (
 float

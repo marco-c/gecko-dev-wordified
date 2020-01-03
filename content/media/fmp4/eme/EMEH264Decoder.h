@@ -456,6 +456,7 @@ nsRunnable
 {
 public
 :
+explicit
 InitTask
 (
 EMEH264Decoder

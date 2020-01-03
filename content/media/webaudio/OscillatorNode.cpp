@@ -223,6 +223,7 @@ initial
 mPhase
 is
 zero
+explicit
 DCBlocker
 (
 float

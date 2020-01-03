@@ -390,6 +390,7 @@ Stream
 {
 public
 :
+explicit
 MP4Stream
 (
 MediaResource

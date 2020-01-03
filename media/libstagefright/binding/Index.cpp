@@ -168,6 +168,7 @@ last
 used
 point
 .
+explicit
 RangeFinder
 (
 const

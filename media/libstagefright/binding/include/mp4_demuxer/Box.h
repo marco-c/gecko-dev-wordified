@@ -393,6 +393,7 @@ BoxReader
 {
 public
 :
+explicit
 BoxReader
 (
 Box

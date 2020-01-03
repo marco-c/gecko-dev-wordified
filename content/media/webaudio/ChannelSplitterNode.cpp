@@ -167,6 +167,7 @@ AudioNodeEngine
 {
 public
 :
+explicit
 ChannelSplitterNodeEngine
 (
 ChannelSplitterNode
