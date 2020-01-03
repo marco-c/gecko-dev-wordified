@@ -4242,6 +4242,16 @@ this
 props
 .
 dispatcher
+edit
+:
+{
+visible
+:
+false
+enabled
+:
+false
+}
 hangup
 :
 this
