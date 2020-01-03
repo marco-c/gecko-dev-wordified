@@ -2118,9 +2118,6 @@ mPrimitiveDescriptions
 FilterDescription
 mFilterDescription
 ;
-int32_t
-mAppUnitsPerCSSPx
-;
 bool
 mInitialized
 ;
