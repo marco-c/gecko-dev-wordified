@@ -159,12 +159,9 @@ nsRubyTextFrame
 h
 "
 #
-include
-"
-RubyReflowState
-.
-h
-"
+define
+RTC_ARRAY_SIZE
+1
 /
 *
 *
