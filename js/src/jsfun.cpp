@@ -14469,9 +14469,7 @@ marked
 as
 having
 a
-non
--
-syntactic
+polluted
 scope
 .
 If
@@ -14496,12 +14494,12 @@ at
 the
 end
 of
-CopyScriptInternal
+CloneScript
 for
 the
-/
-/
 explanation
+/
+/
 of
 what
 '
@@ -14537,7 +14535,7 @@ nonLazyScript
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
