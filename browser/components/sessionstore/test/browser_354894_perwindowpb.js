@@ -2753,7 +2753,7 @@ removeEventListener
 "
 SSTabRestored
 "
-onSSTabRestored
+whenSSTabRestored
 false
 )
 ;
