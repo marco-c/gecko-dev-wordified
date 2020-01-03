@@ -2716,16 +2716,6 @@ mStreamOrderDirty
 true
 ;
 }
-TrackRate
-AudioSampleRate
-(
-)
-const
-{
-return
-mSampleRate
-;
-}
 /
 /
 Always
