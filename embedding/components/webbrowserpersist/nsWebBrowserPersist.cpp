@@ -190,7 +190,7 @@ h
 #
 include
 "
-nsICachingChannel
+nsICacheInfoChannel
 .
 h
 "
@@ -7474,7 +7474,7 @@ Cache
 key
 nsCOMPtr
 <
-nsICachingChannel
+nsICacheInfoChannel
 >
 cacheChannel
 (
