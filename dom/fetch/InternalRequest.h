@@ -405,9 +405,6 @@ script
 |
 TYPE_SCRIPT
 *
-serviceworker
-|
-*
 sharedworker
 |
 *

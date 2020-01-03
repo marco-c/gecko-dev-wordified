@@ -304,7 +304,7 @@ const
 int32_t
 kMaxWipeSchemaVersion
 =
-11
+12
 ;
 namespace
 {
@@ -312,7 +312,7 @@ const
 int32_t
 kLatestSchemaVersion
 =
-11
+12
 ;
 const
 int32_t
@@ -1004,7 +1004,7 @@ int
 RequestContext
 :
 :
-Serviceworker
+Sharedworker
 )
 =
 =
@@ -1016,7 +1016,7 @@ int
 RequestContext
 :
 :
-Sharedworker
+Subresource
 )
 =
 =
@@ -1028,7 +1028,7 @@ int
 RequestContext
 :
 :
-Subresource
+Style
 )
 =
 =
@@ -1040,7 +1040,7 @@ int
 RequestContext
 :
 :
-Style
+Track
 )
 =
 =
@@ -1052,7 +1052,7 @@ int
 RequestContext
 :
 :
-Track
+Video
 )
 =
 =
@@ -1064,7 +1064,7 @@ int
 RequestContext
 :
 :
-Video
+Worker
 )
 =
 =
@@ -1076,7 +1076,7 @@ int
 RequestContext
 :
 :
-Worker
+Xmlhttprequest
 )
 =
 =
@@ -1088,23 +1088,11 @@ int
 RequestContext
 :
 :
-Xmlhttprequest
-)
-=
-=
-31
-&
-&
-int
-(
-RequestContext
-:
-:
 Xslt
 )
 =
 =
-32
+31
 "
 RequestContext
 values
