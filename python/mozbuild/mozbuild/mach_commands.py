@@ -6936,44 +6936,6 @@ dumps
 '
 )
     
-CommandArgument
-(
-'
--
--
-mode
-'
-choices
-=
-[
-'
-normal
-'
-'
-test
-'
-]
-group
-=
-'
-DMD
-'
-        
-help
-=
-'
-Mode
-of
-operation
-.
-The
-default
-is
-normal
-.
-'
-)
-    
 def
 run
 (
@@ -6992,7 +6954,6 @@ sample_below
 max_frames
         
 show_dump_stats
-mode
 )
 :
         
@@ -7494,24 +7455,6 @@ stats
 =
 yes
 '
-)
-            
-if
-mode
-:
-                
-dmd_params
-.
-append
-(
-'
--
--
-mode
-=
-'
-+
-mode
 )
             
 if
