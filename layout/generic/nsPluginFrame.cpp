@@ -10828,7 +10828,7 @@ anEvent
 mMessage
 =
 =
-NS_PLUGIN_ACTIVATE
+ePluginActivate
 )
 {
 nsIFocusManager

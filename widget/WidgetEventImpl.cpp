@@ -1044,7 +1044,7 @@ return
 mMessage
 =
 =
-NS_PLUGIN_ACTIVATE
+ePluginActivate
 |
 |
 mMessage

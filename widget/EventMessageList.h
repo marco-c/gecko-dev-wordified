@@ -245,7 +245,7 @@ or
 otherwise
 focused
 .
-NS_PLUGIN_ACTIVATE
+ePluginActivate
 should
 be
 /
@@ -297,7 +297,7 @@ beforehand
 .
 NS_EVENT_MESSAGE
 (
-NS_PLUGIN_ACTIVATE
+ePluginActivate
 eWindowEventFirst
 +
 62

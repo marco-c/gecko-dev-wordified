@@ -1056,7 +1056,7 @@ TRUE
 The
 DispatchEvent
 (
-NS_PLUGIN_ACTIVATE
+ePluginActivate
 )
 below
 can
@@ -1604,7 +1604,7 @@ WidgetGUIEvent
 event
 (
 true
-NS_PLUGIN_ACTIVATE
+ePluginActivate
 widget
 )
 ;
