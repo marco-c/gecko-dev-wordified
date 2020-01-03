@@ -995,7 +995,6 @@ aCallback
 mPaintedLayer
 ctx
 paintRegion
-&
 paintRegion
 DrawRegionClip
 :
