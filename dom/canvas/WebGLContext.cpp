@@ -10203,17 +10203,6 @@ elt
 {
 if
 (
-type
-=
-=
-LOCAL_GL_HALF_FLOAT_OES
-)
-type
-=
-LOCAL_GL_HALF_FLOAT
-;
-if
-(
 !
 ValidateTexImageFormatAndType
 (
