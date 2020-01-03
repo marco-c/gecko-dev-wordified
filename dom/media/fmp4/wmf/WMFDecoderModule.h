@@ -161,10 +161,12 @@ dynamic
 libraries
 etc
 .
+virtual
 nsresult
 Startup
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
