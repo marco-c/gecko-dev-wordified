@@ -18833,7 +18833,9 @@ obj
 NewDenseEmptyArray
 (
 cx
-nullptr
+NullPtr
+(
+)
 newKind
 )
 ;
@@ -18980,7 +18982,9 @@ NewDenseFullyAllocatedArray
 (
 cx
 count
-nullptr
+NullPtr
+(
+)
 newKind
 )
 ;

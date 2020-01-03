@@ -6004,7 +6004,9 @@ fieldNames
 begin
 (
 )
-nullptr
+NullPtr
+(
+)
 TenuredObject
 )
 ;
@@ -6068,7 +6070,9 @@ fieldTypeObjs
 begin
 (
 )
-nullptr
+NullPtr
+(
+)
 TenuredObject
 )
 ;
@@ -6131,7 +6135,9 @@ fieldOffsets
 begin
 (
 )
-nullptr
+NullPtr
+(
+)
 TenuredObject
 )
 ;

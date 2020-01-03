@@ -9745,7 +9745,9 @@ NewDenseUnallocatedArray
 (
 cx
 length
-nullptr
+NullPtr
+(
+)
 TenuredObject
 )
 ;
@@ -10529,7 +10531,9 @@ NewDenseUnallocatedArray
 (
 cx
 0
-nullptr
+NullPtr
+(
+)
 TenuredObject
 )
 ;
@@ -18317,7 +18321,9 @@ NewDenseUnallocatedArray
 (
 cx
 0
-nullptr
+NullPtr
+(
+)
 TenuredObject
 )
 ;

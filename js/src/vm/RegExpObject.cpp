@@ -5053,7 +5053,9 @@ NewDenseUnallocatedArray
 (
 cx
 0
-nullptr
+NullPtr
+(
+)
 TenuredObject
 )
 )
