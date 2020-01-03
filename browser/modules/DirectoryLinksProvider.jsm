@@ -13344,7 +13344,14 @@ PREF_NEWTAB_ENHANCED
 let
 enhanced
 =
-true
+Services
+.
+prefs
+.
+getBoolPref
+(
+PREF_NEWTAB_ENHANCED
+)
 ;
 try
 {
