@@ -5706,6 +5706,7 @@ _EU_Ci
 nsITextInputProcessor
 )
 ;
+}
 if
 (
 !
@@ -5725,7 +5726,6 @@ _EU_TIP
 =
 null
 ;
-}
 }
 return
 aWindow
