@@ -1247,7 +1247,7 @@ site
 [
 type
 =
-related
+suggested
 ]
 .
 newtab
@@ -1268,6 +1268,15 @@ sponsored
 -
 explain
 a
+.
+suggested
+-
+explain
+.
+suggested
+-
+explain
+a
 {
 color
 :
@@ -1276,6 +1285,10 @@ white
 }
 .
 sponsored
+-
+explain
+.
+suggested
 -
 explain
 {
@@ -1348,6 +1361,11 @@ panel
 input
 .
 sponsored
+-
+explain
+input
+.
+suggested
 -
 explain
 input

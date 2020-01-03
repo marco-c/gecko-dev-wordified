@@ -1263,7 +1263,7 @@ relatedSite
 of
 link
 .
-related
+suggested
 )
 {
 let
@@ -2821,7 +2821,7 @@ separately
 if
 (
 "
-related
+suggested
 "
 =
 =
@@ -3493,7 +3493,7 @@ sortedLinks
 if
 (
 "
-related
+suggested
 "
 =
 =
@@ -3526,7 +3526,7 @@ lastVisitDate
 type
 :
 "
-related
+suggested
 "
 }
 0
@@ -3853,7 +3853,7 @@ lastVisitDate
 type
 :
 "
-related
+suggested
 "
 /
 /
