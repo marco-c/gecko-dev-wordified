@@ -123,6 +123,13 @@ h
 #
 include
 "
+nsAppRunner
+.
+h
+"
+#
+include
+"
 Composer2D
 .
 h
@@ -5196,6 +5203,9 @@ CompositorParent
 IsInCompositorThread
 (
 )
+|
+|
+gIsGtest
 )
 ;
 if

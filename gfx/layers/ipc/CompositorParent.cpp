@@ -4474,8 +4474,15 @@ content
 side
 counterparts
 .
+/
+*
 static
+*
+/
 void
+CompositorParent
+:
+:
 SetShadowProperties
 (
 Layer
@@ -9029,6 +9036,9 @@ if
 shadowRoot
 )
 {
+CompositorParent
+:
+:
 SetShadowProperties
 (
 shadowRoot

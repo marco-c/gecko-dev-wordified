@@ -1232,6 +1232,11 @@ char
 *
 gRestartArgv
 ;
+bool
+gIsGtest
+=
+false
+;
 #
 ifdef
 MOZ_WIDGET_QT
@@ -19701,6 +19706,10 @@ mozilla
 RunGTest
 )
 {
+gIsGtest
+=
+true
+;
 result
 =
 mozilla
@@ -19709,6 +19718,10 @@ mozilla
 RunGTest
 (
 )
+;
+gIsGtest
+=
+false
 ;
 }
 else
