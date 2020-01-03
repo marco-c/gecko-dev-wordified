@@ -1042,7 +1042,7 @@ aName
 {
 /
 /
-PL_DHASH_REMOVE
+PL_DHashTableRemove
 doesn
 '
 t
