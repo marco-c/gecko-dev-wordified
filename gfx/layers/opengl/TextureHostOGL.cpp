@@ -1204,9 +1204,7 @@ mTexture
 {
 MOZ_ASSERT
 (
-gl
-(
-)
+mCompositor
 )
 ;
 if
