@@ -16533,6 +16533,14 @@ NS_ITEXTTOSUBURI_CONTRACTID
 if
 (
 converter
+&
+&
+nsContentUtils
+:
+:
+EncodeDecodeURLHash
+(
+)
 )
 {
 nsCString
