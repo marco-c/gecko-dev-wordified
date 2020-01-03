@@ -203,7 +203,7 @@ MOZ_LOG
 GetMediaManagerLog
 (
 )
-6
+PR_LOG_VERBOSE
 msg
 )
 class
