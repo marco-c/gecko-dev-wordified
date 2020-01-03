@@ -281,16 +281,6 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-ReadUpdatedMetadata
-(
-MediaInfo
-*
-aInfo
-)
-MOZ_OVERRIDE
-;
-virtual
-void
 Seek
 (
 int64_t
