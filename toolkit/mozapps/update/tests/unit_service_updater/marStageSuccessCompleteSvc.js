@@ -78,6 +78,8 @@ if
 !
 shouldRunServiceTest
 (
+false
+true
 )
 )
 {
