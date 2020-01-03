@@ -1174,7 +1174,7 @@ for
 Chromecast
 support
 (
-go
+got
 status
 code
 "

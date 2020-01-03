@@ -7833,7 +7833,7 @@ doRestart
 ;
 GeckoAppShell
 .
-gracefulExit
+systemExit
 (
 )
 ;

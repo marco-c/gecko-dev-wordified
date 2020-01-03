@@ -3016,6 +3016,12 @@ Ci
 nsILoginManager
 )
 ;
+CastingApps
+.
+init
+(
+)
+;
 }
 Ci
 .
@@ -4037,12 +4043,6 @@ init
 )
 ;
 DesktopUserAgent
-.
-init
-(
-)
-;
-CastingApps
 .
 init
 (
