@@ -4236,7 +4236,10 @@ gfx
 :
 Rect
 src
-gfxIntSize
+gfx
+:
+:
+IntSize
 imgSize
 )
 ;

@@ -313,7 +313,10 @@ dom
 HTMLCanvasElement
 *
 aCanvas
-gfxIntSize
+gfx
+:
+:
+IntSize
 *
 aSize
 )
