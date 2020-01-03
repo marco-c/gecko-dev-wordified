@@ -254,8 +254,10 @@ nsHTTPCompressConv
 (
 )
 ;
+nsCOMPtr
+<
 nsIStreamListener
-*
+>
 mListener
 ;
 /
