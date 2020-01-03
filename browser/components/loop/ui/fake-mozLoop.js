@@ -1057,6 +1057,9 @@ function
 )
 {
 }
+userProfile
+:
+null
 }
 ;
 }
