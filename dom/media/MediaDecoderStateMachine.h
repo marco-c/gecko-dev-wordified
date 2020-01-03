@@ -4797,7 +4797,7 @@ AssertCurrentThreadInMonitor
 return
 mStartTime
 +
-mCurrentFrameTime
+mCurrentPosition
 ;
 }
 /
@@ -7155,7 +7155,7 @@ decoder
 monitor
 .
 int64_t
-mCurrentFrameTime
+mCurrentPosition
 ;
 /
 /
