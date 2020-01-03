@@ -2623,11 +2623,14 @@ isDebuggee
 =
 true
 relazification
-and
 lazy
 /
 /
 parsing
+and
+asm
+.
+js
 are
 disabled
 .
