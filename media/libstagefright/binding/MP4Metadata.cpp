@@ -367,10 +367,7 @@ Indice
 &
 aDest
 const
-stagefright
-:
-:
-Vector
+nsTArray
 <
 stagefright
 :
@@ -395,7 +392,7 @@ SetCapacity
 (
 aIndex
 .
-size
+Length
 (
 )
 mozilla
@@ -420,7 +417,7 @@ i
 <
 aIndex
 .
-size
+Length
 (
 )
 ;
