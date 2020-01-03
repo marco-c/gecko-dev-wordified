@@ -162,6 +162,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -5800,7 +5809,10 @@ false
 >
 mDataReceivedEvent
 ;
+Atomic
+<
 uint32_t
+>
 mSuspendCount
 ;
 /
