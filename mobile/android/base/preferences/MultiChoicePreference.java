@@ -1335,6 +1335,11 @@ getKey
 )
 vals
 )
+.
+apply
+(
+)
+;
 ;
 return
 true
