@@ -530,6 +530,7 @@ nsIObserver
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 nsHtml5ParserThreadTerminator
 (
 nsIThread

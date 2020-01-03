@@ -116,6 +116,7 @@ use
 .
 *
 /
+explicit
 nsHtml5DependentUTF16Buffer
 (
 const

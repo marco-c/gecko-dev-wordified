@@ -87,6 +87,7 @@ nsHtml5ElementName
 {
 public
 :
+explicit
 nsHtml5ReleasableElementName
 (
 nsIAtom
