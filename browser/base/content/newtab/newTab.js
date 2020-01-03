@@ -371,7 +371,7 @@ inPrivateBrowsingMode
 return
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 window
 )

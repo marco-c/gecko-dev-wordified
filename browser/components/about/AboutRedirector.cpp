@@ -715,7 +715,7 @@ newtab
 /
 newTab
 .
-xul
+xhtml
 "
 nsIAboutModule
 :
