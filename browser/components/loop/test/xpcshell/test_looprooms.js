@@ -2134,6 +2134,16 @@ for
 following
 tests
 .
+(
+note
+:
+windowId
+can
+be
+'
+fakeToken
+'
+)
 let
 windowId
 =
@@ -2149,7 +2159,7 @@ loopconversation
 #
 (
 \
-d
+w
 +
 )
 /
