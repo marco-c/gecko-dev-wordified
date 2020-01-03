@@ -11050,9 +11050,7 @@ if
 (
 this
 .
-currentConference
-.
-state
+currentConferenceState
 =
 =
 =
