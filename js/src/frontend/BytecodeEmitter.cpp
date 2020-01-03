@@ -15833,7 +15833,7 @@ value_id
 )
 )
 return
-UINT_MAX
+false
 ;
 jsatomid
 done_id
@@ -15859,7 +15859,7 @@ done_id
 )
 )
 return
-UINT_MAX
+false
 ;
 if
 (
