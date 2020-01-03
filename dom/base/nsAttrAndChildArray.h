@@ -594,6 +594,17 @@ aPos
 )
 const
 ;
+/
+/
+SetAndSwapAttr
+swaps
+the
+current
+attribute
+value
+with
+aValue
+.
 nsresult
 SetAndSwapAttr
 (
