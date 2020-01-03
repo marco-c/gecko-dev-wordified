@@ -508,6 +508,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
