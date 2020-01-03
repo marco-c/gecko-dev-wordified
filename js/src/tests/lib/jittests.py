@@ -1184,6 +1184,9 @@ else
 print
 (
 '
+%
+s
+:
 warning
 :
 unrecognized
@@ -1197,7 +1200,10 @@ attribute
 s
 '
 %
+(
+path
 part
+)
 )
                 
 else
@@ -1310,28 +1316,6 @@ name
 =
 =
 '
-debug
-'
-:
-                        
-test
-.
-jitflags
-.
-append
-(
-'
--
--
-debugjit
-'
-)
-                    
-elif
-name
-=
-=
-'
 ion
 -
 eager
@@ -1411,6 +1395,9 @@ else
 print
 (
 '
+%
+s
+:
 warning
 :
 unrecognized
@@ -1424,7 +1411,10 @@ attribute
 s
 '
 %
+(
+path
 part
+)
 )
         
 if

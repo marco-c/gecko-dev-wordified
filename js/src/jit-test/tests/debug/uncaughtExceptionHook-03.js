@@ -5,8 +5,6 @@ jit
 -
 test
 |
-debug
-;
 error
 :
 ReferenceError
