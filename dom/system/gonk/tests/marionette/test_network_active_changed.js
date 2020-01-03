@@ -252,10 +252,6 @@ is
 subject
 .
 type
-Ci
-.
-nsINetworkInterface
-.
 NETWORK_TYPE_MOBILE
 "
 subject
