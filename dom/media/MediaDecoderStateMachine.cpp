@@ -17263,8 +17263,6 @@ AssertCurrentThreadInMonitor
 )
 ;
 return
-mStreamStartTime
-+
 mDecodedStream
 -
 >
