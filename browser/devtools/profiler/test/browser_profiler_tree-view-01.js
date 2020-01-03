@@ -375,9 +375,7 @@ type
 "
 )
 "
-self
--
-duration
+percentage
 "
 "
 The
@@ -388,9 +386,7 @@ the
 tree
 has
 a
-self
--
-duration
+percentage
 cell
 .
 "
@@ -417,7 +413,8 @@ value
 "
 )
 "
-0
+100
+%
 "
 "
 The
@@ -429,9 +426,7 @@ tree
 has
 the
 correct
-self
--
-duration
+percentage
 cell
 value
 .
@@ -459,7 +454,9 @@ type
 "
 )
 "
-percentage
+self
+-
+duration
 "
 "
 The
@@ -470,7 +467,9 @@ the
 tree
 has
 a
-percentage
+self
+-
+duration
 cell
 .
 "
@@ -497,8 +496,7 @@ value
 "
 )
 "
-100
-%
+0
 "
 "
 The
@@ -510,7 +508,9 @@ tree
 has
 the
 correct
-percentage
+self
+-
+duration
 cell
 value
 .
