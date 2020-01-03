@@ -6967,7 +6967,7 @@ state
 return
 this
 .
-hawkRequest
+hawkRequestInternal
 (
 LOOP_SESSION_TYPE
 .
