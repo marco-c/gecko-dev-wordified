@@ -33,10 +33,6 @@ org
 mozilla
 .
 gecko
-.
-browser
-.
-tests
 ;
 import
 java

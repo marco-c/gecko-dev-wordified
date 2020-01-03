@@ -34,8 +34,6 @@ mozilla
 .
 gecko
 .
-browser
-.
 harness
 ;
 import

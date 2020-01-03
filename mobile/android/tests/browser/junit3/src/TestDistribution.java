@@ -62,10 +62,6 @@ org
 mozilla
 .
 gecko
-.
-browser
-.
-tests
 ;
 import
 org
