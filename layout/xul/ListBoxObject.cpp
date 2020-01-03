@@ -675,15 +675,13 @@ if
 aParent
 -
 >
-Tag
+IsXULElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 listboxbody
+)
 )
 {
 return
