@@ -49748,6 +49748,12 @@ if
 minLengthExclusive
 <
 0xffffff
+|
+|
+minLengthExclusive
+=
+=
+UINT32_MAX
 )
 return
 m
@@ -49762,6 +49768,9 @@ be
 >
 =
 0xffffff
+and
+<
+0xffffffff
 "
 )
 ;
