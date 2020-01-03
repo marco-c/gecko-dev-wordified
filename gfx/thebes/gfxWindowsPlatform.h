@@ -1287,12 +1287,6 @@ GetD3D11ContentDevice
 (
 )
 ;
-ID3D11Device
-*
-GetD3D11DeviceForCurrentThread
-(
-)
-;
 /
 /
 Device
