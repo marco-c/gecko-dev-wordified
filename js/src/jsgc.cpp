@@ -1814,6 +1814,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
@@ -7729,6 +7736,10 @@ rt
 usage
 (
 nullptr
+)
+mMemProfiler
+(
+rt
 )
 maxMallocBytes
 (
