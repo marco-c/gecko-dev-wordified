@@ -443,7 +443,7 @@ aRenderingContext
 )
 ;
 nscoord
-ReflowPairs
+ReflowColumns
 (
 nsPresContext
 *
@@ -467,7 +467,7 @@ aStatus
 )
 ;
 nscoord
-ReflowOnePair
+ReflowOneColumn
 (
 nsPresContext
 *
@@ -541,7 +541,7 @@ after
 them
 .
 void
-PullOnePair
+PullOneColumn
 (
 nsLineLayout
 *
@@ -616,7 +616,7 @@ all
 ruby
 /
 /
-pairs
+columns
 in
 the
 ruby
@@ -651,7 +651,7 @@ nscoord
 mBaseline
 ;
 uint32_t
-mPairCount
+mColumnCount
 ;
 }
 ;
