@@ -1705,6 +1705,16 @@ Now
 (
 )
 ;
+GetRoot
+(
+)
+-
+>
+StartPendingAnimations
+(
+mAnimationReadyTime
+)
+;
 }
 mPaintedLayerCallback
 =
