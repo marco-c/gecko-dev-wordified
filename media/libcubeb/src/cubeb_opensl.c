@@ -435,7 +435,7 @@ stm
 -
 >
 play
-SL_PLAYSTATE_STOPPED
+SL_PLAYSTATE_PAUSED
 )
 ;
 break
@@ -640,7 +640,7 @@ stm
 -
 >
 play
-SL_PLAYSTATE_STOPPED
+SL_PLAYSTATE_PAUSED
 )
 ;
 return
