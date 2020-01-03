@@ -21967,6 +21967,11 @@ crypto
 :
 1
 ;
+bool
+rtcIdentityProvider
+:
+1
+;
 }
 ;
 /
