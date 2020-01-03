@@ -289,7 +289,11 @@ private
 :
 static
 bool
-sIsEnabled
+sIsVTAvailable
+;
+static
+bool
+sIsVDAAvailable
 ;
 }
 ;
