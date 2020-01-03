@@ -708,9 +708,6 @@ mRestrictedPortList
 bool
 mAutoDialEnabled
 ;
-bool
-mNetworkNotifyChanged
-;
 public
 :
 /
