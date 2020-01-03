@@ -509,7 +509,6 @@ dom
 AddForDeferredFinalization
 <
 Table
-nsAutoPtr
 >
 (
 table_
