@@ -850,10 +850,6 @@ _container
 ;
 pane
 .
-parentNode
-.
-parentNode
-.
 addEventListener
 (
 "
