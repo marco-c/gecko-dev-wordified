@@ -176,8 +176,7 @@ this
 .
 _lastEventSize
 =
--
-1
+0
 ;
 }
 /
@@ -246,8 +245,7 @@ this
 .
 _lastEventSize
 =
--
-1
+0
 ;
 }
 /
@@ -319,8 +317,7 @@ this
 .
 _lastEventSize
 =
--
-1
+0
 ;
 }
 /
@@ -940,6 +937,7 @@ if
 (
 index
 >
+=
 this
 .
 _lastEventSize
@@ -952,8 +950,6 @@ index
 this
 .
 _lastEventSize
--
-1
 ]
 =
 this
