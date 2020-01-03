@@ -2404,7 +2404,7 @@ return
 true
 ;
 }
-class
+struct
 MOZ_STACK_CLASS
 TabParent
 :
