@@ -1992,6 +1992,14 @@ iface
 attributes
 .
 builtinclass
+                         
+main_process_scriptable_only
+=
+iface
+.
+attributes
+.
+main_process_scriptable_only
 )
 def
 write_typelib
