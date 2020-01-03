@@ -379,6 +379,14 @@ ReleaseDecoder
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+IsHardwareAccelerated
+(
+)
+const
+MOZ_OVERRIDE
+;
 friend
 class
 SharedDecoderManager
