@@ -412,6 +412,10 @@ GenerateKeyPair
 ASSERT_TRUE
 (
 keyPair
+.
+get
+(
+)
 )
 ;
 issuerSPKI

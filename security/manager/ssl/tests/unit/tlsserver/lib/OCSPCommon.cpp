@@ -1239,11 +1239,14 @@ get
 context
 .
 signerKeyPair
-=
+.
+reset
+(
 CreateTestKeyPairFromCert
 (
 *
 signerCert
+)
 )
 ;
 if

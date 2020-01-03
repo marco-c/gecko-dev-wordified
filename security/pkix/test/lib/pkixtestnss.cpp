@@ -453,9 +453,12 @@ InitNSSIfNeeded
 )
 ;
 reusedKeyPair
-=
+.
+reset
+(
 GenerateKeyPairInner
 (
+)
 )
 ;
 return

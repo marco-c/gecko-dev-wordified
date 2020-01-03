@@ -2047,6 +2047,10 @@ GenerateDSSKeyPair
 ASSERT_TRUE
 (
 subjectKey
+.
+get
+(
+)
 )
 ;
 ByteString
@@ -2079,6 +2083,10 @@ CloneReusedKeyPair
 ASSERT_TRUE
 (
 issuerKey
+.
+get
+(
+)
 )
 ;
 ByteString
