@@ -503,6 +503,11 @@ WriteConsoleLog
 #
 ifdef
 XP_WIN
+void
+UseParentConsole
+(
+)
+;
 BOOL
 WinLaunchChild
 (
