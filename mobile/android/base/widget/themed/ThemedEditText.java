@@ -79,6 +79,8 @@ mozilla
 gecko
 .
 widget
+.
+themed
 ;
 import
 org

@@ -138,6 +138,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedTextSwitcher
 ;
 import

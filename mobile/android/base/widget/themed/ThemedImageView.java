@@ -79,6 +79,8 @@ mozilla
 gecko
 .
 widget
+.
+themed
 ;
 import
 org
@@ -183,13 +185,13 @@ AttributeSet
 ;
 public
 class
-ThemedImageButton
+ThemedImageView
 extends
 android
 .
 widget
 .
-ImageButton
+ImageView
 implements
 LightweightTheme
 .
@@ -341,7 +343,7 @@ ColorStateList
 mDrawableColors
 ;
 public
-ThemedImageButton
+ThemedImageView
 (
 Context
 context
@@ -364,7 +366,7 @@ attrs
 ;
 }
 public
-ThemedImageButton
+ThemedImageView
 (
 Context
 context

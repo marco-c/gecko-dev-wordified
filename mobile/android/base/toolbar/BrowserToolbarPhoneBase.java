@@ -183,6 +183,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedImageView
 ;
 import

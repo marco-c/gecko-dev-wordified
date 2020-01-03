@@ -226,6 +226,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedRelativeLayout
 ;
 import

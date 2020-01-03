@@ -300,13 +300,6 @@ Resources
 import
 android
 .
-graphics
-.
-Rect
-;
-import
-android
-.
 util
 .
 AttributeSet
@@ -396,6 +389,8 @@ mozilla
 gecko
 .
 widget
+.
+themed
 .
 ThemedImageButton
 ;

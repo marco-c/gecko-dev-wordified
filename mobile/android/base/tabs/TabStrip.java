@@ -224,6 +224,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedImageButton
 ;
 import
@@ -234,6 +236,8 @@ mozilla
 gecko
 .
 widget
+.
+themed
 .
 ThemedLinearLayout
 ;
