@@ -219,7 +219,7 @@ HAVE_AVX
 #
 define
 HAVE_AVX2
-1
+0
 #
 define
 HAVE_ALTIVEC
