@@ -915,6 +915,10 @@ int64_t
 aTime
 )
 {
+mAudioRequest
+.
+Begin
+(
 mAudioReader
 -
 >
@@ -923,7 +927,7 @@ RequestAudioData
 )
 -
 >
-Then
+RefableThen
 (
 GetTaskQueue
 (
@@ -940,6 +944,7 @@ MediaSourceReader
 :
 :
 OnAudioNotDecoded
+)
 )
 ;
 }
@@ -973,6 +978,12 @@ AudioData
 aSample
 )
 {
+mAudioRequest
+.
+Complete
+(
+)
+;
 MSE_DEBUGV
 (
 "
@@ -1058,6 +1069,10 @@ mTime
 mTimeThreshold
 )
 ;
+mAudioRequest
+.
+Begin
+(
 mAudioReader
 -
 >
@@ -1066,7 +1081,7 @@ RequestAudioData
 )
 -
 >
-Then
+RefableThen
 (
 GetTaskQueue
 (
@@ -1083,6 +1098,7 @@ MediaSourceReader
 :
 :
 OnAudioNotDecoded
+)
 )
 ;
 return
@@ -1431,6 +1447,12 @@ NotDecodedReason
 aReason
 )
 {
+mAudioRequest
+.
+Complete
+(
+)
+;
 MSE_DEBUG
 (
 "
@@ -1854,6 +1876,10 @@ reader
 .
 default
 :
+mVideoRequest
+.
+Begin
+(
 mVideoReader
 -
 >
@@ -1864,7 +1890,7 @@ aTimeThreshold
 )
 -
 >
-Then
+RefableThen
 (
 GetTaskQueue
 (
@@ -1881,6 +1907,7 @@ MediaSourceReader
 :
 :
 OnVideoNotDecoded
+)
 )
 ;
 break
@@ -1900,6 +1927,10 @@ int64_t
 aTime
 )
 {
+mVideoRequest
+.
+Begin
+(
 mVideoReader
 -
 >
@@ -1910,7 +1941,7 @@ false
 )
 -
 >
-Then
+RefableThen
 (
 GetTaskQueue
 (
@@ -1927,6 +1958,7 @@ MediaSourceReader
 :
 :
 OnVideoNotDecoded
+)
 )
 ;
 }
@@ -1960,6 +1992,12 @@ VideoData
 aSample
 )
 {
+mVideoRequest
+.
+Complete
+(
+)
+;
 MSE_DEBUGV
 (
 "
@@ -2045,6 +2083,10 @@ mTime
 mTimeThreshold
 )
 ;
+mVideoRequest
+.
+Begin
+(
 mVideoReader
 -
 >
@@ -2055,7 +2097,7 @@ false
 )
 -
 >
-Then
+RefableThen
 (
 GetTaskQueue
 (
@@ -2072,6 +2114,7 @@ MediaSourceReader
 :
 :
 OnVideoNotDecoded
+)
 )
 ;
 return
@@ -2154,6 +2197,12 @@ NotDecodedReason
 aReason
 )
 {
+mVideoRequest
+.
+Complete
+(
+)
+;
 MSE_DEBUG
 (
 "
