@@ -26779,15 +26779,19 @@ the
 "
 window
 "
-attribute
+and
+"
+self
+"
+attributes
 on
 the
-Window
                 
 #
+Window
 interface
 because
-that
+those
 can
 '
 t
@@ -26795,10 +26799,10 @@ be
 gotten
 safely
 until
-we
-have
                 
 #
+we
+have
 hooked
 it
 up
@@ -26807,6 +26811,17 @@ to
 the
 outer
 window
+.
+The
+                
+#
+window
+code
+handles
+doing
+the
+get
+itself
 .
                 
 if
@@ -26827,6 +26842,7 @@ Window
 "
 and
                     
+(
 m
 .
 identifier
@@ -26837,6 +26853,18 @@ name
 "
 window
 "
+or
+m
+.
+identifier
+.
+name
+=
+=
+"
+self
+"
+)
 )
 :
                     
