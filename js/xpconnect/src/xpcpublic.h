@@ -2982,6 +2982,16 @@ LogToConsole
 (
 )
 ;
+void
+LogToConsoleWithStack
+(
+JS
+:
+:
+HandleObject
+aStack
+)
+;
 public
 :
 nsCString
