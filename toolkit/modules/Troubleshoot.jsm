@@ -1322,11 +1322,9 @@ appinfo
 name
 version
 :
-Services
+AppConstants
 .
-appinfo
-.
-version
+MOZ_APP_VERSION_ABOUT
 buildID
 :
 Services
