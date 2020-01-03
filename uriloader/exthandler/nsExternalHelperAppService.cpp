@@ -3811,6 +3811,16 @@ Audio
 "
 }
 {
+AUDIO_FLAC
+"
+flac
+"
+"
+FLAC
+Audio
+"
+}
+{
 VIDEO_AVI
 "
 avi
