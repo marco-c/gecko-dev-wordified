@@ -358,6 +358,7 @@ after
 that
 )
 .
+explicit
 nsGtkIMModule
 (
 nsWindow

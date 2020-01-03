@@ -845,6 +845,7 @@ mHardwareKeycode
 guint
 mMask
 ;
+explicit
 ModifierKey
 (
 guint

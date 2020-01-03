@@ -1667,6 +1667,7 @@ data
 nullptr
 ;
 }
+explicit
 nsSimpleRef
 (
 const

@@ -457,6 +457,7 @@ ca_context_play_full
 struct
 ScopedCanberraFile
 {
+explicit
 ScopedCanberraFile
 (
 nsIFile
