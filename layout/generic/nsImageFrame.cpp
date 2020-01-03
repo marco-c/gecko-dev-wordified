@@ -9285,9 +9285,6 @@ ImageContainer
 >
 container
 ;
-nsresult
-rv
-=
 mImage
 -
 >
@@ -9298,12 +9295,6 @@ getter_AddRefs
 (
 container
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-nullptr
 )
 ;
 return
