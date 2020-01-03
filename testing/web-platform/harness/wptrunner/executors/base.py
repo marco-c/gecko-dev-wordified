@@ -134,13 +134,13 @@ timeout_multiplier
 timeout_multiplier
                        
 "
-debug_args
+debug_info
 "
 :
 kwargs
 [
 "
-debug_args
+debug_info
 "
 ]
 }
@@ -581,7 +581,7 @@ timeout_multiplier
 =
 1
                  
-debug_args
+debug_info
 =
 None
 )
@@ -711,9 +711,9 @@ timeout_multiplier
         
 self
 .
-debug_args
+debug_info
 =
-debug_args
+debug_info
         
 self
 .
@@ -1110,7 +1110,7 @@ type
 and
 protocol
 specific
-implmentation
+implementation
 of
 running
 a
@@ -1269,7 +1269,7 @@ screenshot_cache
 =
 None
                  
-debug_args
+debug_info
 =
 None
 )
@@ -1287,9 +1287,9 @@ timeout_multiplier
 =
 timeout_multiplier
                               
-debug_args
+debug_info
 =
-debug_args
+debug_info
 )
         
 self

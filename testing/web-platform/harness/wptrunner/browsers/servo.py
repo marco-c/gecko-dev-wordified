@@ -211,13 +211,13 @@ binary
 ]
             
 "
-debug_args
+debug_info
 "
 :
 kwargs
 [
 "
-debug_args
+debug_info
 "
 ]
             
@@ -308,6 +308,12 @@ servo
 .
 js
 "
+            
+"
+supports_debugger
+"
+:
+True
 }
 class
 ServoBrowser
@@ -322,7 +328,7 @@ __init__
 self
 logger
 binary
-debug_args
+debug_info
 =
 None
 interactive
@@ -347,9 +353,9 @@ binary
         
 self
 .
-debug_args
+debug_info
 =
-debug_args
+debug_info
         
 self
 .
@@ -376,12 +382,12 @@ self
 binary
                                  
 "
-debug_args
+debug_info
 "
 :
 self
 .
-debug_args
+debug_info
                                  
 "
 interactive

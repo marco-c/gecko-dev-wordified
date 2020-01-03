@@ -99,6 +99,14 @@ from
 process
 import
 ProcessTestExecutor
+from
+.
+.
+executors
+.
+base
+import
+browser_command
 hosts_text
 =
 "
@@ -255,7 +263,7 @@ server_config
 timeout_multiplier
 =
 1
-debug_args
+debug_info
 =
 None
                  
@@ -277,9 +285,9 @@ timeout_multiplier
 =
 timeout_multiplier
                                      
-debug_args
+debug_info
 =
-debug_args
+debug_info
 )
         
 self
@@ -374,14 +382,15 @@ Event
 (
 )
         
-self
-.
+debug_args
 command
 =
-[
+browser_command
+(
 self
 .
 binary
+[
 "
 -
 -
@@ -405,6 +414,17 @@ test_url
 test
 )
 ]
+                                              
+self
+.
+debug_info
+)
+        
+self
+.
+command
+=
+command
         
 if
 self
@@ -424,22 +444,11 @@ z
 "
 )
         
-if
-self
-.
-debug_args
-:
-            
 self
 .
 command
 =
-list
-(
-self
-.
 debug_args
-)
 +
 self
 .
@@ -535,7 +544,7 @@ timeout
 if
 self
 .
-debug_args
+debug_info
 is
 None
 and
@@ -969,7 +978,7 @@ timeout_multiplier
 screenshot_cache
 =
 None
-debug_args
+debug_info
 =
 None
 pause_after_test
@@ -992,9 +1001,9 @@ timeout_multiplier
 =
 timeout_multiplier
                                      
-debug_args
+debug_info
 =
-debug_args
+debug_info
 )
         
 self

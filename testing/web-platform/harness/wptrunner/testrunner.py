@@ -1093,7 +1093,7 @@ False
 pause_on_unexpected
 =
 False
-debug_args
+debug_info
 =
 None
 )
@@ -1328,9 +1328,9 @@ pause_on_unexpected
         
 self
 .
-debug_args
+debug_info
 =
-debug_args
+debug_info
         
 self
 .
@@ -2265,7 +2265,7 @@ method
 if
 self
 .
-debug_args
+debug_info
 is
 None
 :
@@ -3859,12 +3859,6 @@ self
 kwargs
 =
 kwargs
-        
-self
-.
-queue
-=
-None
     
 def
 __enter__
@@ -4048,7 +4042,7 @@ pause_on_unexpected
 =
 False
                  
-debug_args
+debug_info
 =
 None
 )
@@ -4133,9 +4127,9 @@ pause_on_unexpected
         
 self
 .
-debug_args
+debug_info
 =
-debug_args
+debug_info
         
 self
 .
@@ -4369,7 +4363,7 @@ pause_on_unexpected
                                             
 self
 .
-debug_args
+debug_info
 )
                 
 manager

@@ -1227,10 +1227,6 @@ None
 )
 :
         
-test_manifests
-=
-test_manifests
-        
 if
 manifest_path
 is
