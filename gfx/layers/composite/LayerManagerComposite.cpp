@@ -5617,10 +5617,15 @@ GetRoot
 if
 (
 !
-gfxPrefs
+gfxPlatform
 :
 :
-UseProgressiveTilePainting
+GetPlatform
+(
+)
+-
+>
+UseProgressivePaint
 (
 )
 |
