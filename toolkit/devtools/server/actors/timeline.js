@@ -275,7 +275,7 @@ jsm
 ;
 const
 {
-MemoryBridge
+Memory
 }
 =
 require
@@ -283,15 +283,11 @@ require
 "
 devtools
 /
-server
+toolkit
 /
-actors
-/
-utils
+shared
 /
 memory
--
-bridge
 "
 )
 ;
@@ -1951,7 +1947,7 @@ this
 _memoryBridge
 =
 new
-MemoryBridge
+Memory
 (
 this
 .
