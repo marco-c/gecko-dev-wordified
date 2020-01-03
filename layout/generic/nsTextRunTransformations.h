@@ -186,8 +186,6 @@ nsStyleContext
 aStyles
 bool
 aOwnsFactory
-=
-true
 )
 ;
 nsTransformedTextRun
@@ -218,8 +216,6 @@ nsStyleContext
 aStyles
 bool
 aOwnsFactory
-=
-true
 )
 ;
 virtual
@@ -232,6 +228,9 @@ aTextRun
 gfxContext
 *
 aRefContext
+gfxMissingFontRecorder
+*
+aMFR
 )
 =
 0
@@ -385,6 +384,9 @@ aTextRun
 gfxContext
 *
 aRefContext
+gfxMissingFontRecorder
+*
+aMFR
 )
 MOZ_OVERRIDE
 ;
@@ -737,6 +739,9 @@ FinishSettingProperties
 gfxContext
 *
 aRefContext
+gfxMissingFontRecorder
+*
+aMFR
 )
 {
 if
@@ -755,6 +760,7 @@ RebuildTextRun
 (
 this
 aRefContext
+aMFR
 )
 ;
 }
