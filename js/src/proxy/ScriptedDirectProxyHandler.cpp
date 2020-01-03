@@ -7027,12 +7027,6 @@ TaggedProto
 :
 :
 LazyProto
-cx
--
->
-global
-(
-)
 )
 ;
 if

@@ -4490,9 +4490,6 @@ priv
 JSObject
 *
 proto
-JSObject
-*
-parent
 const
 ProxyOptions
 &
