@@ -139,6 +139,9 @@ mUsername
 nsString
 mPassword
 ;
+bool
+mNTLMNegotiateSent
+;
 }
 ;
 #
