@@ -1650,11 +1650,12 @@ return
 1
         
 #
-Need
-to
-call
-relpath
+Make
+absolute
+paths
+relative
 before
+calling
 os
 .
 chdir
@@ -1680,6 +1681,17 @@ p
 relpath
 (
 )
+if
+os
+.
+path
+.
+isabs
+(
+p
+)
+else
+p
 for
 p
 in
