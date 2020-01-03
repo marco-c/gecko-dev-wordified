@@ -24960,7 +24960,7 @@ ErrorCode
 )
 ;
 }
-nsIDOMCrypto
+Crypto
 *
 nsGlobalWindow
 :
