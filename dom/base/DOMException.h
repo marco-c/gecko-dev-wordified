@@ -206,6 +206,17 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+BindingDeclarations
+.
+h
+"
 class
 nsIStackFrame
 ;
