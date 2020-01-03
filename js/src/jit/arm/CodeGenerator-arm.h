@@ -1569,9 +1569,9 @@ T
 &
 mem
 Register
-temp1
+flagTemp
 Register
-temp2
+outTemp
 AnyRegister
 output
 )
@@ -1607,6 +1607,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 ;
 protected
