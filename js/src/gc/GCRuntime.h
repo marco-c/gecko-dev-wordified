@@ -9327,6 +9327,7 @@ gc
 ;
 public
 :
+explicit
 AutoEnterIteration
 (
 GCRuntime
