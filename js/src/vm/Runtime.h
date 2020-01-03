@@ -6494,10 +6494,16 @@ API
 .
 *
 /
+JS
+:
+:
+PersistentRooted
+<
 js
 :
 :
 ScriptAndCountsVector
+>
 *
 scriptAndCountsVector
 ;
