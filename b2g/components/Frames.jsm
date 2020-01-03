@@ -235,7 +235,7 @@ message
 -
 manager
 -
-disconnect
+close
 '
 false
 )
@@ -374,7 +374,7 @@ message
 -
 manager
 -
-disconnect
+close
 '
 )
 ;
@@ -525,7 +525,7 @@ message
 -
 manager
 -
-disconnect
+close
 '
 :
 this
