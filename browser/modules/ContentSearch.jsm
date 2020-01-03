@@ -243,6 +243,16 @@ OUTBOUND_MESSAGE
 =
 INBOUND_MESSAGE
 ;
+const
+MAX_LOCAL_SUGGESTIONS
+=
+3
+;
+const
+MAX_SUGGESTIONS
+=
+6
+;
 /
 *
 *
@@ -1855,9 +1865,9 @@ maxLocalResults
 =
 ok
 ?
-2
+MAX_LOCAL_SUGGESTIONS
 :
-6
+MAX_SUGGESTIONS
 ;
 controller
 .
@@ -1865,7 +1875,7 @@ maxRemoteResults
 =
 ok
 ?
-6
+MAX_SUGGESTIONS
 :
 0
 ;
