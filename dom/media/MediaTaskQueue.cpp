@@ -211,15 +211,6 @@ MOZ_ASSERT
 mIsShutdown
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-mTasks
-.
-empty
-(
-)
-)
-;
 MOZ_COUNT_DTOR
 (
 MediaTaskQueue
