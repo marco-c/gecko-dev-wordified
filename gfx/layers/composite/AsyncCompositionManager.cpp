@@ -4428,7 +4428,9 @@ mScale
 scale
 metrics
 .
-mScrollableRect
+GetScrollableRect
+(
+)
 mLayersUpdated
 displayPort
 paintScale
@@ -5309,7 +5311,9 @@ height
 /
 metrics
 .
-mScrollableRect
+GetScrollableRect
+(
+)
 .
 height
 ;
@@ -5474,7 +5478,9 @@ width
 /
 metrics
 .
-mScrollableRect
+GetScrollableRect
+(
+)
 .
 width
 ;
@@ -6385,7 +6391,9 @@ mContentRect
 =
 metrics
 .
-mScrollableRect
+GetScrollableRect
+(
+)
 ;
 SetFirstPaintViewport
 (
@@ -6405,7 +6413,9 @@ if
 !
 metrics
 .
-mScrollableRect
+GetScrollableRect
+(
+)
 .
 IsEqualEdges
 (
@@ -6417,7 +6427,9 @@ mContentRect
 =
 metrics
 .
-mScrollableRect
+GetScrollableRect
+(
+)
 ;
 SetPageRect
 (

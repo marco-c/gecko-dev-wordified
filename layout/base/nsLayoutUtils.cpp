@@ -17770,8 +17770,8 @@ GetScrollPosition
 ;
 metrics
 .
-mScrollableRect
-=
+SetScrollableRect
+(
 CSSRect
 :
 :
@@ -17784,6 +17784,7 @@ CalculateScrollableRectForFrame
 (
 aScrollFrame
 nullptr
+)
 )
 )
 ;
