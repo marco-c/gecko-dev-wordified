@@ -1509,6 +1509,7 @@ this
 .
 _createNFCPeer
 (
+sessionToken
 )
 ;
 }
