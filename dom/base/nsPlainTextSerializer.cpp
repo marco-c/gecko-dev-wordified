@@ -2030,7 +2030,7 @@ bool
 isContainer
 =
 !
-nsContentUtils
+FragmentOrElement
 :
 :
 IsHTMLVoid
@@ -2143,7 +2143,7 @@ bool
 isContainer
 =
 !
-nsContentUtils
+FragmentOrElement
 :
 :
 IsHTMLVoid
