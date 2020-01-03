@@ -5315,6 +5315,15 @@ gfxPrefs
 VsyncAlignedRefreshDriver
 (
 )
+|
+|
+!
+gfxPrefs
+:
+:
+HardwareVsyncEnabled
+(
+)
 )
 {
 return
