@@ -557,6 +557,11 @@ int32_t
 len
 )
 {
+if
+(
+enabled_
+)
+{
 input_
 .
 push
@@ -580,6 +585,7 @@ data
 len
 )
 ;
+}
 }
 int32_t
 TransportLayerNSPRAdapter
