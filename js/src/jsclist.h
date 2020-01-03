@@ -673,6 +673,7 @@ JS_CLIST_IS_EMPTY
 _l
 )
 \
+bool
 (
 (
 _l
