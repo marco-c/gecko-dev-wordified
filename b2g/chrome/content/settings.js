@@ -5077,7 +5077,7 @@ discovery
 enabled
 '
 :
-true
+false
 '
 dom
 .
