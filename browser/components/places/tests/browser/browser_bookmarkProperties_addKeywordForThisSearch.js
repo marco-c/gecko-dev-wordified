@@ -92,6 +92,7 @@ search
 yield
 withBookmarksDialog
 (
+true
 AddKeywordForSearchField
 function
 *
