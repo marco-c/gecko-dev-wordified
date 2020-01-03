@@ -5637,9 +5637,6 @@ mDeviceSizeIsPageSize
 bool
 mWindowDraggingAllowed
 ;
-bool
-mBlockNavigation
-;
 /
 /
 Because
