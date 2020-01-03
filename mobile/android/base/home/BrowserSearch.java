@@ -492,13 +492,6 @@ android
 view
 .
 WindowManager
-;
-import
-android
-.
-view
-.
-WindowManager
 .
 LayoutParams
 ;
