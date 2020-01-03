@@ -14336,7 +14336,7 @@ details
 =
 nullptr
 "
-detaiedGlyph
+detailedGlyph
 record
 should
 not
