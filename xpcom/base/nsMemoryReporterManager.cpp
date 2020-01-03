@@ -1010,6 +1010,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 int64_t
 amount
