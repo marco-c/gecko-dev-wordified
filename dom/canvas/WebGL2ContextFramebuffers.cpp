@@ -1759,6 +1759,7 @@ out
 AppendElement
 (
 LOCAL_GL_COLOR_ATTACHMENT0
+fallible
 )
 )
 {
@@ -1780,6 +1781,7 @@ out
 AppendElement
 (
 LOCAL_GL_DEPTH_ATTACHMENT
+fallible
 )
 )
 {
@@ -1801,6 +1803,7 @@ out
 AppendElement
 (
 LOCAL_GL_STENCIL_ATTACHMENT
+fallible
 )
 )
 {

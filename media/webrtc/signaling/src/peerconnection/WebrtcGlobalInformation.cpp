@@ -1445,6 +1445,7 @@ query
 >
 report
 )
+fallible
 )
 ;
 }
@@ -1499,6 +1500,7 @@ Value
 AppendElement
 (
 pc
+fallible
 )
 ;
 }
@@ -1724,6 +1726,7 @@ c_str
 (
 )
 )
+fallible
 )
 ;
 }
@@ -1752,6 +1755,7 @@ END
 +
 "
 )
+fallible
 )
 ;
 }
@@ -1865,6 +1869,7 @@ c_str
 (
 )
 )
+fallible
 )
 ;
 }
@@ -1896,6 +1901,7 @@ END
 +
 "
 )
+fallible
 )
 ;
 }
@@ -3232,6 +3238,7 @@ Value
 AppendElement
 (
 s
+fallible
 )
 ;
 }
@@ -5439,6 +5446,7 @@ query
 -
 >
 report
+fallible
 )
 ;
 }

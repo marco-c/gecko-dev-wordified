@@ -4790,6 +4790,10 @@ srcs
 AppendElement
 (
 src
+mozilla
+:
+:
+fallible
 )
 ;
 }
@@ -6297,6 +6301,10 @@ srcs
 AppendElement
 (
 mReferrerPolicy
+mozilla
+:
+:
+fallible
 )
 ;
 outCSP

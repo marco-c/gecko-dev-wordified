@@ -36577,6 +36577,7 @@ aActors
 AppendElement
 (
 actor
+fallible
 )
 )
 ;
@@ -36630,6 +36631,7 @@ aFileInfos
 AppendElement
 (
 transferedFileInfo
+fallible
 )
 )
 ;
@@ -55434,6 +55436,7 @@ aEntry
 GetKey
 (
 )
+fallible
 )
 )
 )
@@ -56528,6 +56531,7 @@ mObjectStores
 AppendElement
 (
 aValue
+fallible
 )
 )
 ;
@@ -85912,6 +85916,7 @@ maybeBlockedDatabases
 AppendElement
 (
 database
+fallible
 )
 )
 )
@@ -106862,6 +106867,7 @@ mStoredFileInfos
 .
 AppendElement
 (
+fallible
 )
 ;
 MOZ_ASSERT
@@ -109887,6 +109893,7 @@ mResponse
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -110480,6 +110487,7 @@ mResponse
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -112569,6 +112577,7 @@ mResponse
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -113505,6 +113514,7 @@ mResponse
 .
 AppendElement
 (
+fallible
 )
 ;
 if

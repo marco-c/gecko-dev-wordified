@@ -1084,6 +1084,7 @@ addresses
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -1519,9 +1520,6 @@ i
 +
 )
 {
-mozilla
-:
-:
 dom
 :
 :
@@ -1534,6 +1532,7 @@ sockets
 .
 AppendElement
 (
+fallible
 )
 ;
 CopyASCIItoUTF16
@@ -2015,6 +2014,7 @@ connections
 .
 AppendElement
 (
+fallible
 )
 ;
 CopyASCIItoUTF16
@@ -2258,6 +2258,7 @@ active
 .
 AppendElement
 (
+fallible
 )
 ;
 info
@@ -2355,6 +2356,7 @@ idle
 .
 AppendElement
 (
+fallible
 )
 ;
 info
@@ -2452,6 +2454,7 @@ halfOpens
 .
 AppendElement
 (
+fallible
 )
 ;
 info
@@ -3096,9 +3099,6 @@ i
 +
 )
 {
-mozilla
-:
-:
 dom
 :
 :
@@ -3111,6 +3111,7 @@ websockets
 .
 AppendElement
 (
+fallible
 )
 ;
 CopyASCIItoUTF16
@@ -3552,9 +3553,6 @@ i
 +
 )
 {
-mozilla
-:
-:
 dom
 :
 :
@@ -3567,6 +3565,7 @@ entries
 .
 AppendElement
 (
+fallible
 )
 ;
 entry
@@ -3702,6 +3701,7 @@ addrs
 .
 AppendElement
 (
+fallible
 )
 )
 ;

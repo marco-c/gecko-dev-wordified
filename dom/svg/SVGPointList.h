@@ -887,6 +887,7 @@ mItems
 AppendElement
 (
 aPoint
+fallible
 )
 ;
 }

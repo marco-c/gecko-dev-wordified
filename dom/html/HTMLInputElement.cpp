@@ -10311,6 +10311,7 @@ list
 AppendElement
 (
 aValue
+fallible
 )
 )
 {
@@ -13532,6 +13533,7 @@ aFileNames
 i
 ]
 )
+fallible
 )
 )
 {
@@ -13750,6 +13752,7 @@ list
 AppendElement
 (
 aValue
+fallible
 )
 )
 {

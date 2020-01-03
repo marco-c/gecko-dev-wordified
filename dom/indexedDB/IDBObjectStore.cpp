@@ -6212,6 +6212,7 @@ fileActorOrMutableFileIds
 AppendElement
 (
 fileActor
+fallible
 )
 )
 ;
@@ -6245,6 +6246,7 @@ fileActorOrMutableFileIds
 AppendElement
 (
 fileId
+fallible
 )
 )
 ;
@@ -6259,6 +6261,7 @@ fileInfosToKeepAlive
 .
 AppendElement
 (
+fallible
 )
 ;
 if

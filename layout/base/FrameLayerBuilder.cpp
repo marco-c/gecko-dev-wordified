@@ -34254,6 +34254,7 @@ aRectangles
 AppendElement
 (
 rect
+fallible
 )
 ;
 }

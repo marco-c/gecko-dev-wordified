@@ -806,6 +806,7 @@ mLengths
 AppendElement
 (
 aLength
+fallible
 )
 ;
 }

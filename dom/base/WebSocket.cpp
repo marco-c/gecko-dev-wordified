@@ -5230,6 +5230,7 @@ protocols
 AppendElement
 (
 aProtocol
+fallible
 )
 )
 {

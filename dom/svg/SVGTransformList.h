@@ -819,6 +819,7 @@ mItems
 AppendElement
 (
 aTransform
+fallible
 )
 ;
 }

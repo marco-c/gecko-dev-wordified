@@ -3212,6 +3212,7 @@ values
 3
 ]
 )
+fallible
 )
 )
 {
@@ -3340,6 +3341,7 @@ aArray
 AppendElement
 (
 value
+fallible
 )
 )
 {
@@ -3465,6 +3467,7 @@ mValuesArray
 AppendElement
 (
 newValue
+fallible
 )
 )
 {

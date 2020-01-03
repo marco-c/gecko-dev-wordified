@@ -989,6 +989,7 @@ AppendElement
 0
 .
 0
+fallible
 )
 ;
 }
@@ -1029,6 +1030,7 @@ mPointDistances
 AppendElement
 (
 mDistanceSoFar
+fallible
 )
 ;
 }

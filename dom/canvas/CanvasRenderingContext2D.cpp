@@ -14791,6 +14791,7 @@ dash
 AppendElement
 (
 1
+fallible
 )
 )
 {
@@ -22650,6 +22651,7 @@ aSegments
 [
 x
 ]
+fallible
 )
 )
 {
@@ -22717,6 +22719,7 @@ aSegments
 [
 x
 ]
+fallible
 )
 )
 {

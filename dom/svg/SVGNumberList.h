@@ -810,6 +810,7 @@ mNumbers
 AppendElement
 (
 aNumber
+fallible
 )
 ;
 }

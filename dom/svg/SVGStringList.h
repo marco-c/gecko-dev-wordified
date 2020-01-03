@@ -772,6 +772,7 @@ mStrings
 AppendElement
 (
 aString
+fallible
 )
 )
 {

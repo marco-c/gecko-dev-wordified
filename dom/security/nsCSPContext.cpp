@@ -7374,6 +7374,7 @@ Value
 AppendElement
 (
 jsonCSP
+fallible
 )
 ;
 }

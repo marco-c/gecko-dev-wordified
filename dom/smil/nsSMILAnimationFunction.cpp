@@ -5395,6 +5395,10 @@ result
 AppendElement
 (
 from
+mozilla
+:
+:
+fallible
 )
 )
 ;
@@ -5405,6 +5409,10 @@ result
 AppendElement
 (
 to
+mozilla
+:
+:
+fallible
 )
 )
 ;
@@ -5418,6 +5426,10 @@ result
 AppendElement
 (
 to
+mozilla
+:
+:
+fallible
 )
 )
 ;
@@ -5474,6 +5486,10 @@ result
 AppendElement
 (
 effectiveFrom
+mozilla
+:
+:
+fallible
 )
 )
 ;
@@ -5511,6 +5527,10 @@ result
 AppendElement
 (
 effectiveTo
+mozilla
+:
+:
+fallible
 )
 )
 ;
