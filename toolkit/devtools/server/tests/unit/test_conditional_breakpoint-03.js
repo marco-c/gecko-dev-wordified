@@ -41,7 +41,8 @@ and
 make
 sure
 it
-pauses
+is
+ignored
 *
 /
 var
@@ -217,7 +218,7 @@ why
 .
 type
 "
-breakpoint
+debuggerStatement
 "
 )
 ;
@@ -230,7 +231,7 @@ frame
 where
 .
 line
-3
+4
 )
 ;
 /
@@ -329,9 +330,17 @@ b
 \
 n
 "
++
 /
 /
 3
+"
+debugger
+;
+"
+/
+/
+4
 gDebuggee
 "
 1

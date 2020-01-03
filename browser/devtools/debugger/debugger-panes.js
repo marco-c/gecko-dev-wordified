@@ -4994,17 +4994,12 @@ let
 tooltip
 =
 text
-?
-text
 .
 substr
 (
 0
 BREAKPOINT_LINE_TOOLTIP_MAX_LENGTH
 )
-:
-"
-"
 ;
 lineTextNode
 .
@@ -6845,7 +6840,7 @@ save
 the
 current
 conditional
-expression
+epression
 .
 let
 breakpointPromise
