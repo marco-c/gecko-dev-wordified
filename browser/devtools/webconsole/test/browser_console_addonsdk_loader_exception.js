@@ -344,6 +344,9 @@ querySelector
 "
 .
 message
+>
+.
+message
 -
 location
 "
@@ -499,6 +502,8 @@ locationNode
 ;
 yield
 clickPromise
+.
+promise
 ;
 info
 (

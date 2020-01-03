@@ -9831,6 +9831,11 @@ aScriptError
 .
 columnNumber
 }
+stack
+:
+aScriptError
+.
+stacktrace
 category
 :
 category

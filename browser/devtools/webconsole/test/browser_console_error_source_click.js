@@ -374,6 +374,9 @@ querySelector
 "
 .
 message
+>
+.
+message
 -
 location
 "
