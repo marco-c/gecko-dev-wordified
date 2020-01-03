@@ -15103,8 +15103,6 @@ this
 appKind
 (
 app
-app
-.
 manifest
 )
 )
