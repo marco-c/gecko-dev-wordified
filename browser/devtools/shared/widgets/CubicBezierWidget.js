@@ -1470,7 +1470,6 @@ cy
 r
 )
 {
-return
 ctx
 .
 beginPath
