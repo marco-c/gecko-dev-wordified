@@ -6805,7 +6805,7 @@ event
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchEventOnlyToChrome
 (
 aWindow
 -
