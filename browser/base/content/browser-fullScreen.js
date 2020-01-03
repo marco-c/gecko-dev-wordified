@@ -3559,12 +3559,6 @@ is
 near
 the
 toolbox
-this
-.
-_isChromeCollapsed
-=
-false
-;
 if
 (
 trackMouse
@@ -3624,6 +3618,12 @@ this
 )
 ;
 }
+this
+.
+_isChromeCollapsed
+=
+false
+;
 }
 hideNavToolbox
 :
