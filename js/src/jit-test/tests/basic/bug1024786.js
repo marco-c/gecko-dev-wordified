@@ -526,6 +526,9 @@ lineNumber
 compileAndGo
 :
 9
+isRunOnce
+:
+9
 }
 )
 )
