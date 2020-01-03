@@ -2402,7 +2402,6 @@ operands
 reversed
 .
 static
-inline
 bool
 IsXMMReversedOperands
 (
@@ -32901,7 +32900,6 @@ a
 REX
 prefixe
 .
-inline
 bool
 regRequiresRex
 (
@@ -32929,7 +32927,6 @@ REX
 prefix
 byte
 .
-inline
 void
 emitRex
 (
@@ -33013,7 +33010,6 @@ bit
 operations
 )
 .
-inline
 void
 emitRexW
 (
@@ -33119,7 +33115,6 @@ all
 be
 used
 .
-inline
 void
 emitRexIf
 (
@@ -33190,7 +33185,6 @@ or
 above
 )
 .
-inline
 void
 emitRexIfNeeded
 (
@@ -33240,7 +33234,6 @@ on
 bit
 x86
 .
-inline
 bool
 regRequiresRex
 (
@@ -33251,7 +33244,6 @@ return
 false
 ;
 }
-inline
 void
 emitRexIf
 (
@@ -33281,7 +33273,6 @@ prefix
 )
 ;
 }
-inline
 void
 emitRexIfNeeded
 (
