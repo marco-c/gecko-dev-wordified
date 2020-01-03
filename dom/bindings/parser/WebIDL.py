@@ -25154,6 +25154,13 @@ not
 variadic
 or
 optional
+        
+assert
+not
+variadic
+or
+not
+defaultValue
     
 def
 addExtendedAttributes
@@ -25512,19 +25519,27 @@ not
 self
 .
 defaultValue
+and
+not
+self
+.
+variadic
 )
 :
             
 #
 Default
 optional
+non
+-
+variadic
 dictionaries
 to
 null
-for
-simplicity
             
 #
+for
+simplicity
 so
 the
 codegen
