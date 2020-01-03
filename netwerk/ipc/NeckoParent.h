@@ -447,7 +447,7 @@ NestedFrameAuthPrompt
 PNeckoParent
 *
 aParent
-uint64_t
+TabId
 aNestedFrameId
 )
 ;
@@ -516,7 +516,7 @@ PNeckoParent
 *
 mNeckoParent
 ;
-uint64_t
+TabId
 mNestedFrameId
 ;
 }

@@ -498,7 +498,7 @@ mNestedFrameId
 =
 iframeEmbedding
 .
-get_uint64_t
+get_TabId
 (
 )
 ;
