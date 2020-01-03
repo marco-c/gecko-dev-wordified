@@ -38758,12 +38758,15 @@ progress
 0
 )
 {
-MOZ_ASSERT
+if
 (
 progress
-<
-=
+>
 progressMax
+)
+{
+NS_WARNING
+(
 "
 unexpected
 progress
@@ -38771,6 +38774,7 @@ values
 "
 )
 ;
+}
 /
 /
 Try
