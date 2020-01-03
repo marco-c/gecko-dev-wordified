@@ -2387,6 +2387,13 @@ directionality
 )
 GK_ATOM
 (
+directory
+"
+directory
+"
+)
+GK_ATOM
+(
 disableOutputEscaping
 "
 disable
@@ -17126,13 +17133,6 @@ GK_ATOM
 datatable
 "
 datatable
-"
-)
-GK_ATOM
-(
-directory
-"
-directory
 "
 )
 GK_ATOM
