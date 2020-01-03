@@ -3420,7 +3420,7 @@ gfxContext
 :
 SetLineCap
 (
-GraphicsLineCap
+CapStyle
 cap
 )
 {
@@ -3432,16 +3432,10 @@ strokeOptions
 .
 mLineCap
 =
-ToCapStyle
-(
 cap
-)
 ;
 }
-gfxContext
-:
-:
-GraphicsLineCap
+CapStyle
 gfxContext
 :
 :
@@ -3451,8 +3445,6 @@ CurrentLineCap
 const
 {
 return
-ThebesLineCap
-(
 CurrentState
 (
 )
@@ -3460,7 +3452,6 @@ CurrentState
 strokeOptions
 .
 mLineCap
-)
 ;
 }
 void
@@ -3469,7 +3460,7 @@ gfxContext
 :
 SetLineJoin
 (
-GraphicsLineJoin
+JoinStyle
 join
 )
 {
@@ -3481,16 +3472,10 @@ strokeOptions
 .
 mLineJoin
 =
-ToJoinStyle
-(
 join
-)
 ;
 }
-gfxContext
-:
-:
-GraphicsLineJoin
+JoinStyle
 gfxContext
 :
 :
@@ -3500,8 +3485,6 @@ CurrentLineJoin
 const
 {
 return
-ThebesLineJoin
-(
 CurrentState
 (
 )
@@ -3509,7 +3492,6 @@ CurrentState
 strokeOptions
 .
 mLineJoin
-)
 ;
 }
 void
