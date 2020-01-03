@@ -1687,6 +1687,11 @@ true
 TEST_MOCK_TIMELINE_ACTOR
 =
 true
+/
+/
+TEST_MOCK_BUFFER_CHECK_TIMER
+=
+number
 merge
 (
 target
