@@ -6269,6 +6269,9 @@ false
 process
 )
 ;
+#
+ifdef
+MOZ_SANDBOX
 /
 /
 We
@@ -6331,6 +6334,8 @@ peer
 ;
 }
 }
+#
+endif
 }
 #
 else
