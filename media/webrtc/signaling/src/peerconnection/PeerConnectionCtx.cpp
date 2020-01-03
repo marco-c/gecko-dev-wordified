@@ -2311,6 +2311,9 @@ VCM_CODEC_RESOURCE_H263
 #
 ifdef
 MOZILLA_INTERNAL_API
+#
+ifdef
+MOZ_WEBRTC_OMX
 if
 (
 Preferences
@@ -2336,6 +2339,8 @@ codecMask
 VCM_CODEC_RESOURCE_H264
 ;
 }
+#
+endif
 #
 else
 /
