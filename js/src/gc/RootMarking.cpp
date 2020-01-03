@@ -3321,7 +3321,7 @@ trc
 Debugger
 :
 :
-markAllCrossCompartmentEdges
+markCrossCompartmentDebuggerObjectReferents
 (
 trc
 )
