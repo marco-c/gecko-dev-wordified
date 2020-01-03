@@ -70,17 +70,9 @@ nscore
 .
 h
 "
-#
-if
-defined
-(
-PR_LOGGING
-)
 PRLogModuleInfo
 *
 gWyciwygLog
 =
 nullptr
 ;
-#
-endif

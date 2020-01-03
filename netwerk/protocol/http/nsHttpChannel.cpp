@@ -43938,9 +43938,6 @@ request
 -
 uri
 .
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 key
 ;
@@ -43979,8 +43976,6 @@ get
 )
 )
 ;
-#
-endif
 DoInvalidateCacheEntry
 (
 mURI
@@ -44242,9 +44237,6 @@ safe
 nsresult
 rv
 ;
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 key
 ;
@@ -44281,8 +44273,6 @@ get
 )
 )
 ;
-#
-endif
 nsCOMPtr
 <
 nsICacheStorageService

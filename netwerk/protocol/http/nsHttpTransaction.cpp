@@ -707,12 +707,6 @@ helpers
 -
 -
 -
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 void
 LogHeaders
@@ -855,8 +849,6 @@ endOfLine
 ;
 }
 }
-#
-endif
 /
 /
 -
@@ -2342,12 +2334,6 @@ mReqHeaderBuf
 pruneProxyHeaders
 )
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG3_ENABLED
@@ -2389,8 +2375,6 @@ n
 )
 ;
 }
-#
-endif
 /
 /
 If
@@ -9292,12 +9276,6 @@ if
 mResponseHead
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG3_ENABLED
@@ -9351,8 +9329,6 @@ n
 )
 ;
 }
-#
-endif
 /
 /
 Save
@@ -9901,12 +9877,6 @@ mContentLength
 1
 ;
 }
-#
-if
-defined
-(
-PR_LOGGING
-)
 else
 if
 (
@@ -9938,8 +9908,6 @@ n
 )
 )
 ;
-#
-endif
 }
 if
 (

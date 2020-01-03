@@ -204,12 +204,6 @@ gResHandler
 =
 nullptr
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 /
 /
 /
@@ -286,8 +280,6 @@ PRLogModuleInfo
 *
 gResLog
 ;
-#
-endif
 #
 define
 kAPP
@@ -885,12 +877,6 @@ mSubstitutions
 16
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 gResLog
 =
 PR_NewLogModule
@@ -900,8 +886,6 @@ nsResProtocol
 "
 )
 ;
-#
-endif
 NS_ASSERTION
 (
 !
@@ -3233,12 +3217,6 @@ Length
 result
 )
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 PR_LOG_TEST
@@ -3293,8 +3271,6 @@ get
 )
 ;
 }
-#
-endif
 return
 rv
 ;
