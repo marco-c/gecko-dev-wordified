@@ -1548,7 +1548,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 if

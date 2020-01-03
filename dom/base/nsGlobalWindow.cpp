@@ -18345,12 +18345,10 @@ Bug
 329119
 if
 (
-(
 msg
 =
 =
-NS_MOUSE_MOVE
-)
+eMouseMove
 &
 &
 gEntropyCollector

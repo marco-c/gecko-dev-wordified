@@ -5473,7 +5473,7 @@ ACTION_HOVER_MOVE
 :
 msg
 =
-NS_MOUSE_MOVE
+eMouseMove
 ;
 break
 ;
@@ -5568,7 +5568,7 @@ if
 msg
 !
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 event

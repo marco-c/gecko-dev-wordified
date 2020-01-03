@@ -715,7 +715,7 @@ MULTITOUCH_MOVE
 :
 mouseEventMessage
 =
-NS_MOUSE_MOVE
+eMouseMove
 ;
 break
 ;
@@ -840,7 +840,7 @@ if
 mouseEventMessage
 !
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 event
@@ -1050,7 +1050,7 @@ MULTITOUCH_START
 break
 ;
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 mType
 =

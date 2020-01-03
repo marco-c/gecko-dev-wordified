@@ -3819,7 +3819,7 @@ mouseEvent
 >
 mMessage
 =
-NS_MOUSE_MOVE
+eMouseMove
 ;
 mouseEvent
 -
@@ -3892,7 +3892,7 @@ break
 ;
 }
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 case
 NS_POINTER_DOWN
@@ -6959,7 +6959,7 @@ case
 NS_MOUSE_BUTTON_UP
 :
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 case
 NS_CONTEXTMENU
@@ -24878,7 +24878,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 {
 /

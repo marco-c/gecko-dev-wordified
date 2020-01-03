@@ -6204,7 +6204,7 @@ desc
 =
 {
 "
-NS_MOUSE_MOVE
+eMouseMove
 "
 "
 NS_MOUSE_LEFT_BUTTON_UP

@@ -10023,7 +10023,7 @@ return
 NPCocoaEventMouseExited
 ;
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 {
 /
@@ -10183,7 +10183,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 |
 |
 anEvent
@@ -11708,7 +11708,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 pluginEvent
 .
@@ -12067,7 +12067,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 "
 Incorrect
 event
@@ -12706,7 +12706,7 @@ mContentFocused
 break
 ;
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 {
 XMotionEvent
@@ -13594,7 +13594,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 {
 /

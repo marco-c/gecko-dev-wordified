@@ -855,7 +855,7 @@ aY
 return
 CreateMouseEvent
 (
-NS_MOUSE_MOVE
+eMouseMove
 aX
 aY
 )

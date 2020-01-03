@@ -28338,7 +28338,7 @@ break
 ;
 /
 /
-NS_MOUSE_MOVE
+eMouseMove
 and
 NS_MOUSE_EXIT_WIDGET
 are
@@ -28348,11 +28348,11 @@ we
 need
 to
 make
+/
+/
 sure
 capture
 flag
-/
-/
 isn
 '
 t
@@ -28368,6 +28368,8 @@ wouldn
 t
 see
 a
+/
+/
 button
 up
 message
@@ -28381,7 +28383,7 @@ case
 NS_MOUSE_BUTTON_UP
 :
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 case
 NS_MOUSE_EXIT_WIDGET
@@ -28576,7 +28578,7 @@ if
 aEventMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 if
@@ -28930,7 +28932,7 @@ curMsgTime
 break
 ;
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 if
 (
@@ -29194,7 +29196,7 @@ break
 break
 ;
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 pluginEvent
 .
@@ -29289,7 +29291,7 @@ if
 aEventMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 if
@@ -34848,7 +34850,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_MOVE
+eMouseMove
 wParam
 lParam
 false

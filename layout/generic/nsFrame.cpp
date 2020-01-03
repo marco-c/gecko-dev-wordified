@@ -17254,7 +17254,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 /
@@ -17558,7 +17558,7 @@ aMouseEvent
 mMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 |
 |
 (

@@ -3519,7 +3519,7 @@ WidgetMouseEvent
 dummyEvent
 (
 true
-NS_MOUSE_MOVE
+eMouseMove
 rootWidget
 WidgetMouseEvent
 :

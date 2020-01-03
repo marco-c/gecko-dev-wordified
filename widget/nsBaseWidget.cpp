@@ -20753,9 +20753,9 @@ NS_MOUSE_DBLCLICK
 ;
 _ASSIGN_eventName
 (
-NS_MOUSE_MOVE
+eMouseMove
 "
-NS_MOUSE_MOVE
+eMouseMove
 "
 )
 ;
@@ -21978,7 +21978,7 @@ aGuiEvent
 mMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 if

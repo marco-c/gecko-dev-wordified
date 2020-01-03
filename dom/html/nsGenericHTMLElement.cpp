@@ -14549,7 +14549,7 @@ disabled
 aMessage
 !
 =
-NS_MOUSE_MOVE
+eMouseMove
 ;
 }
 void
