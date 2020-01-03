@@ -6553,6 +6553,7 @@ PresShell
 SynthesizeMouseMove
 (
 false
+false
 )
 ;
 didUpdateCursor
