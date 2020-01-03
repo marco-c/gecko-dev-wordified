@@ -25682,10 +25682,11 @@ false
 ;
 if
 (
+!
 type
 -
 >
-unknownProperties
+newScript
 (
 )
 )
