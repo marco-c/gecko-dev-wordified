@@ -3689,6 +3689,14 @@ FALSE
 ;
 }
 }
+:
+:
+DeleteCriticalSection
+(
+&
+mPresentLock
+)
+;
 NS_IF_RELEASE
 (
 mNativeDragTarget
