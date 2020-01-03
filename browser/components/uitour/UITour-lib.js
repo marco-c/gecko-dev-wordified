@@ -516,6 +516,8 @@ message
 thankyouMessage
 flowId
 engagementURL
+learnMoreLabel
+learnMoreURL
 )
 {
 _sendEvent
@@ -536,6 +538,12 @@ flowId
 engagementURL
 :
 engagementURL
+learnMoreLabel
+:
+learnMoreLabel
+learnMoreURL
+:
+learnMoreURL
 }
 )
 ;
