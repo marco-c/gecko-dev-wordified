@@ -1443,6 +1443,14 @@ aCodeName
 ;
 }
 static
+uint32_t
+ComputeLocationFromCodeValue
+(
+CodeNameIndex
+aCodeNameIndex
+)
+;
+static
 void
 GetDOMKeyName
 (
