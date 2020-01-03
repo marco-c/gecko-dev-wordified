@@ -713,9 +713,7 @@ is
 (
 index
 .
-objectStore
-.
-name
+storeName
 objectStore
 .
 name

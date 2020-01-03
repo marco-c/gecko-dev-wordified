@@ -323,9 +323,7 @@ mozilla
 /
 dom
 /
-ipc
-/
-BlobChild
+PBlobChild
 .
 h
 "
@@ -336,9 +334,7 @@ mozilla
 /
 dom
 /
-ipc
-/
-BlobParent
+PBlobParent
 .
 h
 "
