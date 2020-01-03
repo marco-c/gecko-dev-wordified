@@ -891,7 +891,7 @@ aPromiseId
 nsresult
 aDOMException
 const
-nsAString
+nsCString
 &
 aMsg
 )
@@ -940,6 +940,10 @@ PromiseId
 aId
 nsresult
 aExceptionCode
+const
+nsCString
+&
+aReason
 )
 ;
 /
@@ -1464,6 +1468,10 @@ PromiseId
 aId
 nsresult
 aCode
+const
+nsCString
+&
+aReason
 )
 :
 mProxy
@@ -1477,6 +1485,10 @@ aId
 mCode
 (
 aCode
+)
+mReason
+(
+aReason
 )
 {
 }
@@ -1492,6 +1504,7 @@ RejectPromise
 (
 mId
 mCode
+mReason
 )
 ;
 return
@@ -1511,6 +1524,9 @@ mId
 ;
 nsresult
 mCode
+;
+nsCString
+mReason
 ;
 }
 ;

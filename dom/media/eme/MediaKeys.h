@@ -209,6 +209,15 @@ mozIGeckoMediaPluginService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+DetailedPromise
+.
+h
+"
 namespace
 mozilla
 {
@@ -242,7 +251,7 @@ nsUint32HashKey
 dom
 :
 :
-Promise
+DetailedPromise
 >
 PromiseHashMap
 ;
@@ -366,7 +375,7 @@ aKeySystem
 ;
 already_AddRefed
 <
-Promise
+DetailedPromise
 >
 Init
 (
@@ -464,7 +473,7 @@ SetServerCertificate
 )
 already_AddRefed
 <
-Promise
+DetailedPromise
 >
 SetServerCertificate
 (
@@ -646,7 +655,7 @@ failure
 .
 already_AddRefed
 <
-Promise
+DetailedPromise
 >
 MakePromise
 (
@@ -698,7 +707,7 @@ resolved
 PromiseId
 StorePromise
 (
-Promise
+DetailedPromise
 *
 aPromise
 )
@@ -720,6 +729,10 @@ PromiseId
 aId
 nsresult
 aExceptionCode
+const
+nsCString
+&
+aReason
 )
 ;
 /
@@ -825,7 +838,7 @@ it
 .
 already_AddRefed
 <
-Promise
+DetailedPromise
 >
 RetrievePromise
 (

@@ -525,10 +525,7 @@ aException
 )
 mMsg
 (
-NS_ConvertUTF8toUTF16
-(
 aMessage
-)
 )
 {
 }
@@ -566,7 +563,7 @@ mPid
 nsresult
 mException
 ;
-nsString
+nsCString
 mMsg
 ;
 }

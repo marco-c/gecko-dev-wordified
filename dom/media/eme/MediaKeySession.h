@@ -573,7 +573,7 @@ UpdateKeyStatusMap
 ;
 already_AddRefed
 <
-Promise
+DetailedPromise
 >
 MakePromise
 (
@@ -584,7 +584,7 @@ aRv
 ;
 nsRefPtr
 <
-Promise
+DetailedPromise
 >
 mClosed
 ;
