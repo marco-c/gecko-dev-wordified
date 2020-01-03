@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 let
 state1
 =
@@ -48,7 +53,7 @@ url
 "
 about
 :
-blank
+robots
 #
 1
 "
@@ -75,7 +80,7 @@ url
 "
 about
 :
-blank
+robots
 #
 1
 "
@@ -124,7 +129,7 @@ url
 "
 about
 :
-blank
+robots
 #
 2
 "
@@ -151,7 +156,7 @@ url
 "
 about
 :
-blank
+robots
 #
 2
 "
@@ -335,7 +340,7 @@ url
 "
 about
 :
-blank
+robots
 #
 1
 "
@@ -355,7 +360,7 @@ url
 "
 about
 :
-blank
+robots
 #
 2
 "
@@ -479,7 +484,7 @@ getChild
 "
 about
 :
-blank
+robots
 #
 1
 "
@@ -503,7 +508,7 @@ getChild
 "
 about
 :
-blank
+robots
 #
 2
 "
