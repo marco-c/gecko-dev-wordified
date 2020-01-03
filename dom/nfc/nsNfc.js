@@ -905,7 +905,7 @@ this
 .
 _nfcContentHelper
 .
-registerPeerEventListener
+registerEventTarget
 (
 this
 )
@@ -1801,7 +1801,7 @@ Ci
 nsIDOMGlobalPropertyInitializer
 Ci
 .
-nsINfcPeerEventListener
+nsINfcDOMEventTarget
 ]
 )
 }
