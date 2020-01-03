@@ -13691,7 +13691,7 @@ masm
 .
 ma_vldr
 (
-Operand
+Address
 (
 HeapReg
 ptrImm
@@ -13712,7 +13712,7 @@ masm
 .
 ma_vldr
 (
-Operand
+Address
 (
 HeapReg
 ptrImm
@@ -13935,7 +13935,7 @@ masm
 .
 ma_vldr
 (
-Operand
+Address
 (
 GlobalReg
 AsmJSNaN32GlobalDataOffset
@@ -13978,7 +13978,7 @@ masm
 .
 ma_vldr
 (
-Operand
+Address
 (
 GlobalReg
 AsmJSNaN64GlobalDataOffset
@@ -14337,7 +14337,7 @@ vd
 singleOverlay
 (
 )
-Operand
+Address
 (
 HeapReg
 ptrImm
@@ -14354,7 +14354,7 @@ masm
 ma_vstr
 (
 vd
-Operand
+Address
 (
 HeapReg
 ptrImm
@@ -15906,7 +15906,7 @@ mir
 (
 )
 ;
-Operand
+Address
 dst
 (
 StackPointer
@@ -17060,7 +17060,7 @@ masm
 .
 ma_vldr
 (
-Operand
+Address
 (
 GlobalReg
 addr
@@ -17079,7 +17079,7 @@ masm
 .
 ma_vldr
 (
-Operand
+Address
 (
 GlobalReg
 addr
@@ -17217,7 +17217,7 @@ vd
 singleOverlay
 (
 )
-Operand
+Address
 (
 GlobalReg
 addr
@@ -17240,7 +17240,7 @@ value
 (
 )
 )
-Operand
+Address
 (
 GlobalReg
 addr
@@ -17392,7 +17392,7 @@ masm
 .
 ma_ldr
 (
-Operand
+Address
 (
 GlobalReg
 mir

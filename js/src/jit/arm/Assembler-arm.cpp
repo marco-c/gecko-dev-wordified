@@ -2618,6 +2618,7 @@ Operand2
 toOp2Reg
 (
 )
+const
 {
 return
 *
@@ -2635,6 +2636,7 @@ Op2Reg
 toO2RegImmShift
 (
 )
+const
 {
 return
 *
@@ -2652,6 +2654,7 @@ Op2Reg
 toO2RegRegShift
 (
 )
+const
 {
 return
 *
@@ -7899,6 +7902,7 @@ Instruction
 *
 src
 )
+const
 {
 /
 /
@@ -10787,6 +10791,7 @@ Condition
 getCond
 (
 )
+const
 {
 return
 Assembler
@@ -10805,6 +10810,7 @@ Register
 getReg
 (
 )
+const
 {
 return
 Register
@@ -10820,6 +10826,7 @@ VFPRegister
 getVFPReg
 (
 )
+const
 {
 VFPRegister
 r
@@ -10848,6 +10855,7 @@ int32_t
 getIndex
 (
 )
+const
 {
 return
 index_
@@ -10891,6 +10899,7 @@ LoadType
 getLoadType
 (
 )
+const
 {
 /
 /
@@ -10965,6 +10974,7 @@ bool
 isValidPoolHint
 (
 )
+const
 {
 /
 /
@@ -14628,7 +14638,6 @@ vt2
 =
 InvalidReg
 )
-{
 return
 writeVFPInst
 (
@@ -14657,9 +14666,6 @@ vm
 idx
 )
 ;
-}
-else
-{
 /
 /
 We
@@ -14698,7 +14704,6 @@ vm
 idx
 )
 ;
-}
 }
 enum
 vcvt_destFloatness
@@ -14975,12 +14980,10 @@ isSingle
 (
 )
 )
-{
 sz
 =
 IsSingle
 ;
-}
 if
 (
 vd
