@@ -211,6 +211,9 @@ limit
 sp
 )
 (
+MOZ_LIKELY
+(
+(
 (
 uintptr_t
 )
@@ -220,6 +223,7 @@ sp
 <
 (
 limit
+)
 )
 )
 #
@@ -232,6 +236,8 @@ limit
 sp
 )
 (
+MOZ_LIKELY
+(
 (
 uintptr_t
 )
@@ -241,6 +247,7 @@ sp
 >
 (
 limit
+)
 )
 )
 #

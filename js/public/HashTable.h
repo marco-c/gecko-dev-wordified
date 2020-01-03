@@ -8861,9 +8861,12 @@ code
 .
 if
 (
+MOZ_UNLIKELY
+(
 length
 >
 sMaxInit
+)
 )
 {
 this
@@ -10036,9 +10039,12 @@ newLog2
 ;
 if
 (
+MOZ_UNLIKELY
+(
 newCapacity
 >
 sMaxCapacity
+)
 )
 {
 this

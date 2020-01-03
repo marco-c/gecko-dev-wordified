@@ -3731,11 +3731,14 @@ runtime
 ;
 if
 (
+MOZ_UNLIKELY
+(
 rt
 -
 >
 hasPendingInterrupt
 (
+)
 )
 )
 return

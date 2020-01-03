@@ -1938,6 +1938,8 @@ count
 {
 if
 (
+MOZ_UNLIKELY
+(
 count
 &
 mozilla
@@ -1956,6 +1958,7 @@ T
 :
 :
 value
+)
 )
 return
 nullptr
@@ -3198,6 +3201,8 @@ numElems
 {
 if
 (
+MOZ_UNLIKELY
+(
 numElems
 &
 mozilla
@@ -3216,6 +3221,7 @@ T
 :
 :
 value
+)
 )
 return
 nullptr
