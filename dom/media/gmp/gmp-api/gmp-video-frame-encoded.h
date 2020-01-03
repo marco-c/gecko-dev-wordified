@@ -380,6 +380,16 @@ kGMPAltRefFrame
 kGMPSkipFrame
 =
 4
+kGMPVideoFrameInvalid
+=
+5
+/
+/
+Must
+always
+be
+last
+.
 }
 ;
 /

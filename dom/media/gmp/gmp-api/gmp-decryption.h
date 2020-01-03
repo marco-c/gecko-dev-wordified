@@ -1420,6 +1420,16 @@ kGMPTemporySession
 kGMPPersistentSession
 =
 1
+kGMPSessionInvalid
+=
+2
+/
+/
+Must
+always
+be
+last
+.
 }
 ;
 /
