@@ -117,12 +117,12 @@ is
 (
 networkManager
 .
-active
+activeNetworkInfo
 null
 "
 networkManager
 .
-active
+activeNetworkInfo
 should
 be
 null
@@ -217,7 +217,7 @@ subject
 instanceof
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 "
 subject
 should
@@ -225,7 +225,7 @@ be
 an
 instance
 of
-nsINetworkInterface
+nsINetworkInfo
 "
 )
 ;
@@ -235,7 +235,7 @@ subject
 instanceof
 Ci
 .
-nsIRilNetworkInterface
+nsIRilNetworkInfo
 "
 subject
 should
@@ -243,7 +243,7 @@ be
 an
 instance
 of
-nsIRILNetworkInterface
+nsIRilNetworkInfo
 "
 )
 ;
@@ -269,7 +269,7 @@ is
 subject
 networkManager
 .
-active
+activeNetworkInfo
 "
 subject
 should
@@ -278,7 +278,7 @@ equal
 with
 networkManager
 .
-active
+activeNetworkInfo
 "
 )
 ;
