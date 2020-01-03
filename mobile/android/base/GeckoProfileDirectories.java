@@ -743,14 +743,14 @@ if
 (
 mozillaDir
 .
-exists
+mkdirs
 (
 )
 |
 |
 mozillaDir
 .
-mkdirs
+isDirectory
 (
 )
 )
