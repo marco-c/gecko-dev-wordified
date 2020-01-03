@@ -2967,6 +2967,13 @@ defaultZoom
 ;
 metrics
 .
+SetPresShellId
+(
+presShellId
+)
+;
+metrics
+.
 SetScrollId
 (
 viewId
