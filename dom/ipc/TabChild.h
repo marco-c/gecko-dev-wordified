@@ -3000,6 +3000,17 @@ RecvStopIMEStateManagement
 )
 override
 ;
+virtual
+bool
+RecvMenuKeyboardListenerInstalled
+(
+const
+bool
+&
+aInstalled
+)
+override
+;
 #
 ifdef
 MOZ_WIDGET_GONK
