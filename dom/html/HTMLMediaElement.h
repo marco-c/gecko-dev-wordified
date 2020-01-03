@@ -3034,11 +3034,6 @@ GetTopLevelPrincipal
 (
 )
 ;
-bool
-ContainsRestrictedContent
-(
-)
-;
 #
 endif
 /
