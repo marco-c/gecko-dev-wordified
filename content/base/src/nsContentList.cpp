@@ -1944,7 +1944,7 @@ now
 (
 in
 the
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 sense
@@ -1984,7 +1984,7 @@ doc
 mRootNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -2141,7 +2141,7 @@ now
 (
 in
 the
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 sense
@@ -2181,7 +2181,7 @@ doc
 mRootNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -2337,7 +2337,7 @@ doc
 mRootNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -5108,7 +5108,7 @@ doc
 mRootNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

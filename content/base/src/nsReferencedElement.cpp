@@ -376,7 +376,7 @@ doc
 aFromContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -849,7 +849,7 @@ doc
 aFromContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

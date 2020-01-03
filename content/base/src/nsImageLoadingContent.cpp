@@ -5867,7 +5867,7 @@ return
 thisContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

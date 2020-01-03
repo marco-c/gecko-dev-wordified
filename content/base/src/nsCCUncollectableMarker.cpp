@@ -529,7 +529,7 @@ aNode
 )
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

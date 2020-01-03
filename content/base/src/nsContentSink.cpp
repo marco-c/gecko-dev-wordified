@@ -6636,7 +6636,7 @@ if
 aContainer
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 !

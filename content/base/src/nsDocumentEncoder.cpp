@@ -1570,7 +1570,7 @@ doc
 aNode
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

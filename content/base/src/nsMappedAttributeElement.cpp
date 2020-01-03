@@ -175,7 +175,7 @@ NS_PRECONDITION
 aDocument
 =
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 "

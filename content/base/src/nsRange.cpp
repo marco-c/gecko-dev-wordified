@@ -7092,7 +7092,7 @@ root
 aNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -7128,7 +7128,7 @@ nsINode
 eDOCUMENT
 )
 "
-GetCurrentDoc
+GetUncomposedDoc
 should
 have
 returned

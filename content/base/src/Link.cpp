@@ -529,7 +529,7 @@ mNeedsRegistration
 element
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )
@@ -664,7 +664,7 @@ map
 element
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
@@ -2559,7 +2559,7 @@ doc
 mElement
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

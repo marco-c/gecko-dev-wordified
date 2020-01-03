@@ -1223,7 +1223,7 @@ IsLoadedAsData
 aOwner
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -5197,7 +5197,7 @@ mOwnerContent
 mOwnerContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -5223,7 +5223,7 @@ LayerManagerForDocument
 mOwnerContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -6455,7 +6455,7 @@ ourDoc
 ourContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -6466,7 +6466,7 @@ otherDoc
 otherContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
