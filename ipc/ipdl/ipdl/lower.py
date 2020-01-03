@@ -61,6 +61,10 @@ from
 copy
 import
 deepcopy
+from
+collections
+import
+OrderedDict
 import
 ipdl
 .
@@ -22322,9 +22326,15 @@ side
         
 channelOpenedActors
 =
+OrderedDict
+.
+fromkeys
+(
 bridgeActorsCreated
 +
 opensActorsCreated
+None
+)
         
 friends
 =
