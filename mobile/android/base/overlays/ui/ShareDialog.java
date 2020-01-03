@@ -1262,11 +1262,6 @@ SendTabDeviceListArrayAdapter
 (
 this
 this
-R
-.
-layout
-.
-sync_list_item
 )
 ;
 sendTabList
