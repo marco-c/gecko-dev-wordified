@@ -8445,6 +8445,17 @@ return
 prevJitTop_
 ;
 }
+JitActivation
+*
+prevJitActivation
+(
+)
+const
+{
+return
+prevJitActivation_
+;
+}
 static
 size_t
 offsetOfPrevJitTop
