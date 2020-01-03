@@ -513,7 +513,7 @@ aActor
 static
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 GetBlobImplForID
 (
