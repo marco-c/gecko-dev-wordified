@@ -193,6 +193,13 @@ nsIWidget
 aWidget
 )
 ;
+virtual
+void
+Destroy
+(
+)
+MOZ_OVERRIDE
+;
 /
 /
 GeckoContentController

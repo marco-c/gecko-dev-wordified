@@ -1065,6 +1065,13 @@ GeckoContentController
 )
 {
 }
+virtual
+void
+Destroy
+(
+)
+{
+}
 protected
 :
 /
