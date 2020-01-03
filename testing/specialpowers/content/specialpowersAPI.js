@@ -4358,12 +4358,7 @@ o
 .
 listener
 (
-this
-.
-wrap
-(
 message
-)
 )
 )
 ;
