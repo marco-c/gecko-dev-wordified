@@ -2034,13 +2034,6 @@ mNextFrameStatusUpdater
 Watch
 (
 mState
-/
-*
-aSkipInitialNotify
-=
-*
-/
-true
 )
 ;
 mNextFrameStatusUpdater
@@ -2049,13 +2042,6 @@ mNextFrameStatusUpdater
 Watch
 (
 mAudioCompleted
-/
-*
-aSkipInitialNotify
-=
-*
-/
-true
 )
 ;
 mNextFrameStatusUpdater
