@@ -512,7 +512,10 @@ decode
 thread
 .
 virtual
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )

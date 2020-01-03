@@ -392,7 +392,10 @@ ResetDecode
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )

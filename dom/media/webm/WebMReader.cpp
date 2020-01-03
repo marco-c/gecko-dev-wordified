@@ -1249,7 +1249,10 @@ WebMReader
 )
 ;
 }
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 WebMReader
 :
 :
@@ -1302,6 +1305,7 @@ mVideoDecoder
 nullptr
 ;
 }
+return
 MediaDecoderReader
 :
 :
