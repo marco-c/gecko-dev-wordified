@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsIMobileConnectionService
+nsIMobileConnectionProvider
 .
 h
 "
