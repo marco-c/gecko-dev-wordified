@@ -2480,17 +2480,7 @@ index
 :
 '
 index
-.
-garbage
-.
-staging
-.
-mshal
--
-testing
 '
-#
-TODO
             
 '
 project
