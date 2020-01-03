@@ -1650,16 +1650,6 @@ true
 ]
 [
 '
-dom
-.
-messageChannel
-.
-enabled
-'
-true
-]
-[
-'
 media
 .
 peerconnection
