@@ -173,6 +173,11 @@ BluetoothSocketObserver
 aObserver
 )
 ;
+~
+BluetoothSocket
+(
+)
+;
 nsresult
 Connect
 (

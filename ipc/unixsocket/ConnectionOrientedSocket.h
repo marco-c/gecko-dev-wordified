@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_ipc_connectionorientedsocket_h
+mozilla_ipc_ConnectionOrientedSocket_h
 #
 define
-mozilla_ipc_connectionorientedsocket_h
+mozilla_ipc_ConnectionOrientedSocket_h
 #
 include
 <
@@ -620,6 +620,10 @@ aIO
 ;
 protected
 :
+ConnectionOrientedSocket
+(
+)
+;
 virtual
 ~
 ConnectionOrientedSocket
@@ -632,3 +636,6 @@ ConnectionOrientedSocket
 }
 #
 endif
+/
+/
+mozilla_ipc_ConnectionOrientedSocket
