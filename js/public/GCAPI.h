@@ -336,6 +336,11 @@ D
 PERIODIC_FULL_GC
 )
 \
+D
+(
+INCREMENTAL_TOO_SLOW
+)
+\
 \
 /
 *
@@ -432,11 +437,6 @@ RESERVED15
 D
 (
 RESERVED16
-)
-\
-D
-(
-RESERVED17
 )
 \
 \
