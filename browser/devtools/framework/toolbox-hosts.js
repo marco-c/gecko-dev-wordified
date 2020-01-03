@@ -56,6 +56,13 @@ MPL
 .
 *
 /
+/
+*
+globals
+DOMHelpers
+Services
+*
+/
 "
 use
 strict
@@ -398,7 +405,6 @@ tab
 create
 :
 function
-BH_create
 (
 )
 {
@@ -676,7 +682,6 @@ host
 raise
 :
 function
-BH_raise
 (
 )
 {
@@ -740,7 +745,6 @@ minimized
 minimize
 :
 function
-BH_minimize
 (
 height
 =
@@ -874,7 +878,6 @@ had
 maximize
 :
 function
-BH_maximize
 (
 )
 {
@@ -990,7 +993,6 @@ to
 toggleMinimizeMode
 :
 function
-BH_toggleMinimizedMode
 (
 minHeight
 )
@@ -1023,17 +1025,6 @@ toolbox
 title
 .
 *
-/
-setTitle
-:
-function
-BH_setTitle
-(
-title
-)
-{
-/
-/
 Nothing
 to
 do
@@ -1042,6 +1033,14 @@ this
 host
 type
 .
+*
+/
+setTitle
+:
+function
+(
+)
+{
 }
 /
 *
@@ -1057,7 +1056,6 @@ dock
 destroy
 :
 function
-BH_destroy
 (
 )
 {
@@ -1124,6 +1122,7 @@ null
 ;
 }
 }
+;
 /
 *
 *
@@ -1199,7 +1198,6 @@ tab
 create
 :
 function
-SH_create
 (
 )
 {
@@ -1461,7 +1459,6 @@ host
 raise
 :
 function
-SH_raise
 (
 )
 {
@@ -1483,17 +1480,6 @@ toolbox
 title
 .
 *
-/
-setTitle
-:
-function
-SH_setTitle
-(
-title
-)
-{
-/
-/
 Nothing
 to
 do
@@ -1502,6 +1488,14 @@ this
 host
 type
 .
+*
+/
+setTitle
+:
+function
+(
+)
+{
 }
 /
 *
@@ -1516,7 +1510,6 @@ sidebar
 destroy
 :
 function
-SH_destroy
 (
 )
 {
@@ -1583,6 +1576,7 @@ null
 ;
 }
 }
+;
 /
 *
 *
@@ -1674,7 +1668,6 @@ toolbox
 create
 :
 function
-WH_create
 (
 )
 {
@@ -1723,7 +1716,6 @@ let
 frameLoad
 =
 (
-event
 )
 =
 >
@@ -1896,7 +1888,6 @@ host
 raise
 :
 function
-RH_raise
 (
 )
 {
@@ -1923,7 +1914,6 @@ title
 setTitle
 :
 function
-WH_setTitle
 (
 title
 )
@@ -1952,7 +1942,6 @@ window
 destroy
 :
 function
-WH_destroy
 (
 )
 {
@@ -2063,7 +2052,6 @@ custom
 _sendMessageToTopWindow
 :
 function
-CH__sendMessageToTopWindow
 (
 msg
 data
@@ -2183,7 +2171,6 @@ toolbox
 create
 :
 function
-CH_create
 (
 )
 {
@@ -2211,7 +2198,6 @@ host
 raise
 :
 function
-CH_raise
 (
 )
 {
@@ -2239,7 +2225,6 @@ title
 setTitle
 :
 function
-CH_setTitle
 (
 title
 )
@@ -2272,7 +2257,6 @@ window
 destroy
 :
 function
-WH_destroy
 (
 )
 {
@@ -2310,6 +2294,7 @@ null
 ;
 }
 }
+;
 /
 *
 *
