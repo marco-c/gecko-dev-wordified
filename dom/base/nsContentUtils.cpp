@@ -3225,7 +3225,7 @@ dom
 .
 enable_frame_timing
 "
-true
+false
 )
 ;
 Preferences
