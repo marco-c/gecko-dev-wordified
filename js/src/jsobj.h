@@ -3245,7 +3245,7 @@ which
 is
 not
 marked
-hasNonSyntacticScope
+hasPollutedGlobalScope
 scope
 chains
 can
@@ -3280,7 +3280,7 @@ script
 .
 In
 *
-hasNonSyntacticScope
+hasPollutedGlobalScope
 code
 the
 scope

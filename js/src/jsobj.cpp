@@ -7407,10 +7407,6 @@ AllocKind
 kind
 NewObjectKind
 newKind
-uint32_t
-initialShapeFlags
-=
-0
 )
 {
 const
@@ -7547,7 +7543,6 @@ proto
 (
 )
 nfixed
-initialShapeFlags
 )
 )
 ;
@@ -7863,8 +7858,6 @@ AllocKind
 allocKind
 NewObjectKind
 newKind
-uint32_t
-initialShapeFlags
 )
 {
 if
@@ -8016,7 +8009,6 @@ cxArg
 group
 allocKind
 newKind
-initialShapeFlags
 )
 )
 ;
