@@ -163,7 +163,9 @@ if
 the
 *
 originating
-sendMessageToJava
+Messaging
+.
+sendRequest
 call
 included
 a

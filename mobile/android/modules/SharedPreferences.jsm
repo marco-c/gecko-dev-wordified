@@ -581,7 +581,9 @@ _set
 prefs
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -1301,7 +1303,9 @@ Changed
 false
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -1529,7 +1533,9 @@ Changed
 "
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

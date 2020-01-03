@@ -205,7 +205,7 @@ defineLazyModuleGetter
 (
 this
 "
-sendMessageToJava
+Messaging
 "
 "
 resource
@@ -1247,7 +1247,9 @@ this
 can
 be
 animated
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -3386,7 +3388,9 @@ is
 no
 private
 data
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -7091,7 +7095,9 @@ title
 }
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

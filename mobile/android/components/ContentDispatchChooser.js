@@ -551,7 +551,9 @@ aURI
 scheme
 }
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 message
 )

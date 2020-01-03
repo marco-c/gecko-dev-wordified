@@ -696,7 +696,9 @@ payload
 "
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -931,7 +933,9 @@ settings
 "
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -969,7 +973,9 @@ updater
 "
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

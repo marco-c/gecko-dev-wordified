@@ -170,7 +170,7 @@ defineLazyModuleGetter
 (
 this
 "
-sendMessageToJava
+Messaging
 "
 "
 resource
@@ -587,7 +587,9 @@ contentWindow
 window
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -666,7 +668,9 @@ contentWindow
 window
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

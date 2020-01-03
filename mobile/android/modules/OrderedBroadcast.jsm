@@ -532,7 +532,9 @@ responseEvent
 false
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

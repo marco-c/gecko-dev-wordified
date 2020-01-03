@@ -3745,7 +3745,9 @@ session
 data
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -3813,7 +3815,9 @@ function
 aRemoteMedia
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
