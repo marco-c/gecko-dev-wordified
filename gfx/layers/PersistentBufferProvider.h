@@ -375,12 +375,6 @@ aDT
 =
 0
 ;
-protected
-:
-friend
-class
-CopyableCanvasLayer
-;
 virtual
 TemporaryRef
 <
@@ -395,6 +389,8 @@ GetSnapshot
 =
 0
 ;
+protected
+:
 }
 ;
 class
