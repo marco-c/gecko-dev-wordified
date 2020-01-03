@@ -748,10 +748,6 @@ aDormant
 enter
 dormant
 state
-DestroyDecodedStream
-(
-)
-;
 mDecoderStateMachine
 -
 >
