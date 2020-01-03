@@ -1690,6 +1690,13 @@ h
 #
 include
 "
+MediaPromise
+.
+h
+"
+#
+include
+"
 MediaResource
 .
 h
