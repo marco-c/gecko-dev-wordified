@@ -16296,7 +16296,7 @@ in
 beta
 release
 #
-ifdef
+if
 MOZ_UPDATE_CHANNEL
 =
 =
