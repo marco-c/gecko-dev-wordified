@@ -232,6 +232,9 @@ HEAD
 ignore_existing
 =
 False
+sync_root
+=
+None
 )
 :
     
@@ -271,12 +274,19 @@ metadata_root
 )
     
 if
-rev_old
+sync_root
 is
 not
 None
 :
         
+if
+rev_old
+is
+not
+None
+:
+            
 rev_old
 =
 git
@@ -295,7 +305,7 @@ test_root
 strip
 (
 )
-    
+        
 rev_new
 =
 git

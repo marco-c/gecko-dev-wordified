@@ -1066,6 +1066,8 @@ help
 =
 "
 Path
+or
+url
 to
 symbols
 file
@@ -2065,8 +2067,6 @@ mq
 patch
 or
 git
-branch
-+
 commit
 containing
 the
