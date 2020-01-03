@@ -4527,6 +4527,9 @@ aResult
 if
 (
 T_EscapeURL
+<
+nsSubstring
+>
 (
 aStr
 .
