@@ -46,6 +46,15 @@ waitForExplicitFinish
 (
 )
 ;
+SimpleTest
+.
+requestFlakyTimeout
+(
+"
+untriaged
+"
+)
+;
 browserElementTestHelpers
 .
 setEnabledPref
