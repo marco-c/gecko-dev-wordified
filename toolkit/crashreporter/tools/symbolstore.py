@@ -667,7 +667,7 @@ failure
 "
         
 raise
-NotImplementedErrors
+NotImplementedError
     
 def
 GetRevision
@@ -6093,6 +6093,8 @@ StopIteration
 pass
             
 except
+Exception
+as
 e
 :
                 
