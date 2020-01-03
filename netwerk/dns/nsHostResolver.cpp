@@ -4319,6 +4319,9 @@ NS_NewRunnableMethod
 (
 self
 &
+nsHostResolver
+:
+:
 DnsExperimentChangedInternal
 )
 )
