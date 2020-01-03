@@ -4791,7 +4791,7 @@ Time
 )
 ;
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 offset
 =
@@ -5215,7 +5215,7 @@ offset
 widget
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 ;
@@ -5550,7 +5550,7 @@ LayoutDevice
 pixels
 .
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 offset
 =

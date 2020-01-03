@@ -792,7 +792,10 @@ xulWinType
 MOZ_OVERRIDE
 ;
 virtual
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
@@ -2688,7 +2691,10 @@ gint
 coord
 )
 ;
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 GdkPointToDevicePixels
 (
 GdkPoint

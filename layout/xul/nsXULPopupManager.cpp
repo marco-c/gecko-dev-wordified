@@ -4836,7 +4836,7 @@ mCachedMousePoint
 rootWidget
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 ;

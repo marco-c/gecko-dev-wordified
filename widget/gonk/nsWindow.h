@@ -417,7 +417,10 @@ NS_OK
 ;
 }
 virtual
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
