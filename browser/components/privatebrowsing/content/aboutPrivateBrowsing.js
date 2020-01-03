@@ -137,7 +137,7 @@ if
 !
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 window
 )
@@ -353,7 +353,7 @@ if
 !
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 window
 )
