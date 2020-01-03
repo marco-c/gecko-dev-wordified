@@ -174,9 +174,6 @@ ipc
 DaemonSocketResultHandler
 ;
 class
-BluetoothSetupResultHandler
-;
-class
 BluetoothDaemonHandsfreeModule
 {
 public
