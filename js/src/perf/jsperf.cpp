@@ -134,7 +134,13 @@ context
 /
 using
 namespace
+js
+;
+using
 JS
+:
+:
+PerfMeasurement
 ;
 /
 /

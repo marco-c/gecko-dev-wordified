@@ -142,7 +142,7 @@ h
 "
 using
 namespace
-JS
+js
 ;
 Latin1CharsZ
 JS
@@ -2100,6 +2100,9 @@ accordingly
 .
 v
 =
+JS
+:
+:
 Utf8ToOneUcs4Char
 (
 (

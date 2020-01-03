@@ -278,10 +278,6 @@ namespace
 js
 ;
 using
-namespace
-JS
-;
-using
 mozilla
 :
 :
@@ -6411,6 +6407,9 @@ isIncrementalGc
 }
 char16_t
 *
+JS
+:
+:
 GCDescription
 :
 :
@@ -6437,6 +6436,9 @@ formatMessage
 }
 char16_t
 *
+JS
+:
+:
 GCDescription
 :
 :
