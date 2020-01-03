@@ -4204,8 +4204,6 @@ activation
 rt
 -
 >
-mainThread
-.
 asmJSActivationStack
 (
 )
@@ -5812,8 +5810,6 @@ activation
 rt
 -
 >
-mainThread
-.
 asmJSActivationStack
 (
 )
@@ -7296,8 +7292,6 @@ activation
 rt
 -
 >
-mainThread
-.
 asmJSActivationStack
 (
 )
@@ -7984,8 +7978,6 @@ activation
 rt
 -
 >
-mainThread
-.
 asmJSActivationStack
 (
 )
@@ -8028,8 +8020,6 @@ void
 rt
 -
 >
-mainThread
-.
 simulator
 (
 )
@@ -8043,8 +8033,6 @@ get_pc
 rt
 -
 >
-mainThread
-.
 simulator
 (
 )

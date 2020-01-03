@@ -2485,10 +2485,11 @@ if
 cx
 -
 >
-mainThread
+runtime
 (
 )
-.
+-
+>
 simulator
 (
 )

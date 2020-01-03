@@ -595,8 +595,6 @@ if
 rt
 -
 >
-mainThread
-.
 jitActivation
 )
 {
@@ -609,16 +607,12 @@ GetTopProfilingJitFrame
 rt
 -
 >
-mainThread
-.
 jitTop
 )
 ;
 rt
 -
 >
-mainThread
-.
 jitActivation
 -
 >

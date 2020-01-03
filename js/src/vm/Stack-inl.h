@@ -4874,7 +4874,7 @@ prev_
 cx
 -
 >
-perThreadData
+runtime_
 -
 >
 activation_
@@ -4908,7 +4908,7 @@ kind
 cx
 -
 >
-perThreadData
+runtime_
 -
 >
 activation_
@@ -4935,7 +4935,9 @@ this
 cx_
 -
 >
-perThreadData
+runtime
+(
+)
 -
 >
 profilingActivation_
@@ -4946,7 +4948,7 @@ MOZ_ASSERT
 cx_
 -
 >
-perThreadData
+runtime_
 -
 >
 activation_
@@ -4966,7 +4968,7 @@ hideScriptedCallerCount_
 cx_
 -
 >
-perThreadData
+runtime_
 -
 >
 activation_

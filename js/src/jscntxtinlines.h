@@ -2788,10 +2788,11 @@ Activation
 *
 act
 =
-mainThread
+runtime
 (
 )
-.
+-
+>
 activation
 (
 )

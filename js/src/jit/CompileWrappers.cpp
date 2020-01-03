@@ -242,8 +242,6 @@ runtime
 )
 -
 >
-mainThread
-.
 jitTop
 ;
 }
@@ -264,8 +262,6 @@ runtime
 )
 -
 >
-mainThread
-.
 jitActivation
 ;
 }
@@ -291,8 +287,6 @@ runtime
 )
 -
 >
-mainThread
-.
 profilingActivation_
 ;
 }
@@ -312,8 +306,6 @@ runtime
 )
 -
 >
-mainThread
-.
 addressOfJitStackLimit
 (
 )
@@ -336,8 +328,6 @@ runtime
 )
 -
 >
-mainThread
-.
 jitJSContext
 ;
 }
@@ -357,8 +347,6 @@ runtime
 )
 -
 >
-mainThread
-.
 addressOfActivation
 (
 )

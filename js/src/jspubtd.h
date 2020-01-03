@@ -2554,6 +2554,9 @@ consumption
 uintptr_t
 nativeStackLimit
 [
+js
+:
+:
 StackKindCount
 ]
 ;

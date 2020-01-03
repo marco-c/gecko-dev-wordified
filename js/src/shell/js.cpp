@@ -25168,8 +25168,6 @@ runtime
 )
 -
 >
-mainThread
-.
 simulator
 (
 )
@@ -25269,8 +25267,6 @@ runtime
 )
 -
 >
-mainThread
-.
 simulator
 (
 )

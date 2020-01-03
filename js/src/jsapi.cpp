@@ -9322,8 +9322,6 @@ untrustedScriptStackSize
 rt
 -
 >
-mainThread
-.
 initJitStackLimit
 (
 )
@@ -33364,8 +33362,6 @@ runtime
 )
 -
 >
-mainThread
-.
 activation
 (
 )
@@ -33408,8 +33404,6 @@ runtime
 )
 -
 >
-mainThread
-.
 activation
 (
 )

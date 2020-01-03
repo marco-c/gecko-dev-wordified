@@ -3266,7 +3266,7 @@ JSContext
 *
 cx
 =
-PerThreadData
+JSRuntime
 :
 :
 innermostAsmJSActivation
@@ -3302,7 +3302,7 @@ JSContext
 *
 cx
 =
-PerThreadData
+JSRuntime
 :
 :
 innermostAsmJSActivation
@@ -3333,7 +3333,7 @@ AsmJSActivation
 *
 act
 =
-PerThreadData
+JSRuntime
 :
 :
 innermostAsmJSActivation
@@ -3393,7 +3393,7 @@ JSContext
 *
 cx
 =
-PerThreadData
+JSRuntime
 :
 :
 innermostAsmJSActivation
@@ -3448,7 +3448,7 @@ JSContext
 *
 cx
 =
-PerThreadData
+JSRuntime
 :
 :
 innermostAsmJSActivation
@@ -4043,7 +4043,7 @@ AsmJSActivation
 *
 activation
 =
-PerThreadData
+JSRuntime
 :
 :
 innermostAsmJSActivation
@@ -4127,7 +4127,7 @@ AsmJSActivation
 *
 activation
 =
-PerThreadData
+JSRuntime
 :
 :
 innermostAsmJSActivation
@@ -4246,7 +4246,7 @@ AsmJSActivation
 *
 activation
 =
-PerThreadData
+JSRuntime
 :
 :
 innermostAsmJSActivation
