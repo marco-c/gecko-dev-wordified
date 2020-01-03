@@ -193,9 +193,9 @@ CreateManager
 dom
 :
 :
-SourceBuffer
+SourceBufferAttributes
 *
-aParent
+aAttributes
 MediaSourceDecoder
 *
 aParentDecoder
@@ -241,7 +241,7 @@ manager
 new
 TrackBuffersManager
 (
-aParent
+aAttributes
 aParentDecoder
 aType
 )

@@ -166,6 +166,9 @@ dom
 class
 SourceBuffer
 ;
+class
+SourceBufferAttributes
+;
 }
 class
 SourceBufferContentManager
@@ -206,9 +209,9 @@ CreateManager
 dom
 :
 :
-SourceBuffer
+SourceBufferAttributes
 *
-aParent
+aAttributes
 MediaSourceDecoder
 *
 aParentDecoder
