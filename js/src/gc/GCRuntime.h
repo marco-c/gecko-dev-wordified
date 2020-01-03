@@ -5077,6 +5077,11 @@ reason
 )
 ;
 void
+abortGC
+(
+)
+;
+void
 startDebugGC
 (
 JSGCInvocationKind
