@@ -911,15 +911,6 @@ function
 responseData
 )
 {
-console
-.
-log
-(
-"
-done
-"
-)
-;
 try
 {
 callback

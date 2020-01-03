@@ -823,15 +823,10 @@ check_video
 "
 .
 local
-.
-OT_publisher
-.
-OT_widget
 -
-container
+video
 "
 )
-;
     
 def
 local_get_and_verify_room_url
@@ -980,7 +975,7 @@ click
 #
 Assumes
 the
-standlone
+standalone
 or
 the
 conversation
@@ -998,7 +993,7 @@ selector
 )
 :
         
-video_wrapper
+video
 =
 self
 .
@@ -1010,22 +1005,6 @@ CSS_SELECTOR
                                                         
 selector
 20
-)
-        
-video
-=
-self
-.
-wait_for_subelement_displayed
-(
-video_wrapper
-                                                   
-By
-.
-TAG_NAME
-"
-video
-"
 )
         
 self
@@ -1075,12 +1054,8 @@ check_video
 "
 .
 remote
-.
-OT_subscriber
-.
-OT_widget
 -
-container
+video
 "
 )
     
@@ -1104,12 +1079,8 @@ check_video
 "
 .
 remote
-.
-OT_subscriber
-.
-OT_widget
 -
-container
+video
 "
 )
     
@@ -1171,15 +1142,11 @@ check_video
 (
 "
 .
-media
-.
 screen
-.
-OT_subscriber
-.
-OT_widget
 -
-container
+share
+-
+video
 "
 )
     
