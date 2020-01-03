@@ -1849,13 +1849,10 @@ CreateTextureClientForDrawing
 (
 mSurfaceFormat
 mSize
-gfx
+BackendSelector
 :
 :
-BackendType
-:
-:
-NONE
+Content
 mTextureFlags
 |
 ExtraTextureFlags
