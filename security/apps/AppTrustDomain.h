@@ -346,6 +346,14 @@ pkix
 DERArray
 &
 certChain
+mozilla
+:
+:
+pkix
+:
+:
+Time
+time
 )
 MOZ_OVERRIDE
 ;

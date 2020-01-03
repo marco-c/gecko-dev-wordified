@@ -1604,6 +1604,7 @@ trustDomain
 IsChainValid
 (
 chain
+time
 )
 ;
 }
