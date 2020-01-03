@@ -1782,8 +1782,6 @@ dom
 /
 mobilemessage
 /
-src
-/
 Types
 .
 h
@@ -1865,8 +1863,6 @@ in
 dom
 /
 mobilemessage
-/
-src
 /
 Types
 .
@@ -1986,8 +1982,6 @@ in
 dom
 /
 mobilemessage
-/
-src
 /
 Types
 .
