@@ -361,6 +361,8 @@ nsRenderingContext
 aRenderingContext
 nsPoint
 aPt
+bool
+aSubpixelAA
 )
 ;
 protected
