@@ -3173,7 +3173,12 @@ dom
 :
 :
 MediaSourceEnum
-aSrcType
+aVideoType
+dom
+:
+:
+MediaSourceEnum
+aAudioType
 bool
 aFake
 bool
@@ -3192,7 +3197,12 @@ dom
 :
 :
 MediaSourceEnum
-aSrcType
+aVideoSrcType
+dom
+:
+:
+MediaSourceEnum
+aAudioSrcType
 bool
 aFake
 =

@@ -1610,7 +1610,7 @@ a
 choice
 .
 uint32_t
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 GetBestFitnessDistance
