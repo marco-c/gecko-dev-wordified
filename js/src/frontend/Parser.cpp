@@ -16637,7 +16637,7 @@ JS_HAS_EXPR_CLOSURES
 fun
 -
 >
-setIsExprClosure
+setIsExprBody
 (
 )
 ;

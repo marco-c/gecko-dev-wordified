@@ -24447,7 +24447,7 @@ if
 fun
 -
 >
-isExprClosure
+isExprBody
 (
 )
 )

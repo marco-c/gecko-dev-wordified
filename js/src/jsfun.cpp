@@ -6547,7 +6547,7 @@ MOZ_ASSERT_IF
 fun
 -
 >
-isExprClosure
+isExprBody
 (
 )
 !
@@ -7089,7 +7089,7 @@ exprBody
 fun
 -
 >
-isExprClosure
+isExprBody
 (
 )
 ;
@@ -8151,7 +8151,7 @@ MOZ_ASSERT
 fun
 -
 >
-isExprClosure
+isExprBody
 (
 )
 )
