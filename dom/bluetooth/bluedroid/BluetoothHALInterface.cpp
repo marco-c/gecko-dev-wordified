@@ -550,11 +550,15 @@ void
 nsString
 nsString
 uint32_t
-BluetoothSspVariant
+nsString
 uint32_t
 const
 nsAString
 &
+const
+nsAString
+&
+uint32_t
 const
 nsAString
 &
