@@ -371,6 +371,11 @@ ClearReorderedFrames
 (
 )
 ;
+CFDictionaryRef
+CreateDecoderSpecification
+(
+)
+;
 }
 ;
 }
