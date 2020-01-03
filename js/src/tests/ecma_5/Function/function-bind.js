@@ -1924,7 +1924,7 @@ assertEq
 len1Desc
 .
 configurable
-true
+false
 )
 ;
 var
@@ -1982,7 +1982,7 @@ assertEq
 len2Desc
 .
 configurable
-true
+false
 )
 ;
 /

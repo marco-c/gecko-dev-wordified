@@ -1908,7 +1908,7 @@ enumerable
 false
 configurable
 :
-true
+false
 }
 ;
 expectDescriptor
@@ -2060,7 +2060,7 @@ enumerable
 false
 configurable
 :
-true
+false
 }
 ;
 expectDescriptor

@@ -313,7 +313,7 @@ enumerable
 false
 configurable
 :
-true
+false
 }
 )
 ;
