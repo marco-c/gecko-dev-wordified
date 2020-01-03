@@ -98,6 +98,16 @@ null
 null
 )
 ;
+let
+origin
+=
+"
+mailto
+:
+"
++
+kTestAddr
+;
 /
 /
 add
@@ -122,7 +132,7 @@ do_check_true
 (
 permission_exists
 (
-kTestAddr
+origin
 kType
 kCapability
 )
@@ -153,7 +163,7 @@ do_check_false
 (
 permission_exists
 (
-kTestAddr
+origin
 kType
 kCapability
 )
@@ -192,7 +202,7 @@ do_check_true
 (
 permission_exists
 (
-kTestAddr
+origin
 kType
 kCapability
 )
@@ -212,7 +222,7 @@ do_check_false
 (
 permission_exists
 (
-kTestAddr
+origin
 kType
 kCapability
 )
@@ -222,7 +232,7 @@ kCapability
 function
 permission_exists
 (
-aHost
+aOrigin
 aType
 aCapability
 )
@@ -265,10 +275,12 @@ if
 (
 perm
 .
-host
+principal
+.
+origin
 =
 =
-aHost
+aOrigin
 &
 &
 perm
