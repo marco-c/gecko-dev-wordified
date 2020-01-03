@@ -471,6 +471,8 @@ drawRect
 height
 -
 shadowSize
+layout
+.
 getWidth
 (
 )
