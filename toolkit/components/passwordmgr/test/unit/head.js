@@ -377,7 +377,7 @@ LoginTestUtils
 .
 jsm
 as
-LoginTest
+LoginTestUtils
 .
 XPCOMUtils
 .
@@ -385,7 +385,7 @@ defineLazyModuleGetter
 (
 this
 "
-LoginTest
+LoginTestUtils
 "
 "
 resource
@@ -400,12 +400,9 @@ LoginTestUtils
 .
 jsm
 "
-"
-LoginTestUtils
-"
 )
 ;
-LoginTest
+LoginTestUtils
 .
 Assert
 =
@@ -414,7 +411,7 @@ Assert
 const
 TestData
 =
-LoginTest
+LoginTestUtils
 .
 testData
 ;
@@ -1517,7 +1514,7 @@ an
 empty
 database
 .
-LoginTest
+LoginTestUtils
 .
 clearData
 (
@@ -1537,7 +1534,7 @@ do_register_cleanup
 )
 =
 >
-LoginTest
+LoginTestUtils
 .
 clearData
 (

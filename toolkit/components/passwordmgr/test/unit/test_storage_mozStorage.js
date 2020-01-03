@@ -71,11 +71,8 @@ CURRENT_SCHEMA
 =
 5
 ;
-LoginTest
-.
-copyFile
-=
 function
+copyFile
 (
 aLeafName
 )
@@ -122,11 +119,8 @@ aLeafName
 ;
 }
 ;
-LoginTest
-.
-openDB
-=
 function
+openDB
 (
 aLeafName
 )
@@ -167,11 +161,8 @@ dbFile
 ;
 }
 ;
-LoginTest
-.
-deleteFile
-=
 function
+deleteFile
 (
 pathname
 filename
@@ -265,11 +256,8 @@ e
 }
 }
 ;
-LoginTest
-.
-reloadStorage
-=
 function
+reloadStorage
 (
 aInputPathName
 aInputFileName
@@ -380,18 +368,15 @@ storage
 ;
 }
 ;
-LoginTest
-.
-checkStorageData
-=
 function
+checkStorageData
 (
 storage
 ref_disabledHosts
 ref_logins
 )
 {
-LoginTest
+LoginTestUtils
 .
 assertLoginListsEqual
 (
@@ -403,7 +388,7 @@ getAllLogins
 ref_logins
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -973,8 +958,6 @@ v999
 storage
 "
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -999,8 +982,6 @@ file
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -1028,8 +1009,6 @@ close
 ;
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -1042,8 +1021,6 @@ sqlite
 "
 )
 ;
-LoginTest
-.
 checkStorageData
 (
 storage
@@ -1077,8 +1054,6 @@ version
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -1104,8 +1079,6 @@ close
 (
 )
 ;
-LoginTest
-.
 deleteFile
 (
 OUTDIR
@@ -1230,8 +1203,6 @@ clean
 state
 .
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -1263,8 +1234,6 @@ throws
 )
 =
 >
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -1376,8 +1345,6 @@ v2
 storage
 "
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -1399,8 +1366,6 @@ file
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -1428,8 +1393,6 @@ close
 ;
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -1442,8 +1405,6 @@ sqlite
 "
 )
 ;
-LoginTest
-.
 checkStorageData
 (
 storage
@@ -1480,8 +1441,6 @@ logins
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -1544,8 +1503,6 @@ close
 (
 )
 ;
-LoginTest
-.
 deleteFile
 (
 OUTDIR
@@ -1640,8 +1597,6 @@ properly
 upgraded
 .
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -1663,8 +1618,6 @@ file
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -1692,8 +1645,6 @@ close
 ;
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -1706,8 +1657,6 @@ sqlite
 "
 )
 ;
-LoginTest
-.
 checkStorageData
 (
 storage
@@ -1763,8 +1712,6 @@ testuser1
 testuser1B
 )
 ;
-LoginTest
-.
 checkStorageData
 (
 storage
@@ -1822,8 +1769,6 @@ previously
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -1919,8 +1864,6 @@ close
 (
 )
 ;
-LoginTest
-.
 deleteFile
 (
 OUTDIR
@@ -1975,8 +1918,6 @@ v3
 storage
 "
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -1998,8 +1939,6 @@ file
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -2021,8 +1960,6 @@ schemaVersion
 ;
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -2137,8 +2074,6 @@ testuser1
 /
 5
 )
-LoginTest
-.
 checkStorageData
 (
 storage
@@ -2158,8 +2093,6 @@ testuser2
 ]
 )
 ;
-LoginTest
-.
 deleteFile
 (
 OUTDIR
@@ -2254,8 +2187,6 @@ properly
 upgraded
 .
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -2277,8 +2208,6 @@ file
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -2358,8 +2287,6 @@ others
 untouched
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -2470,8 +2397,6 @@ reencrypt
 with
 SDR
 .
-LoginTest
-.
 checkStorageData
 (
 storage
@@ -2540,8 +2465,6 @@ close
 (
 )
 ;
-LoginTest
-.
 deleteFile
 (
 OUTDIR
@@ -2596,8 +2519,6 @@ v4
 storage
 "
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -2619,8 +2540,6 @@ file
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -2642,8 +2561,6 @@ schemaVersion
 ;
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -2674,8 +2591,6 @@ counts
 were
 initialized
 correctly
-LoginTest
-.
 checkStorageData
 (
 storage
@@ -2735,7 +2650,7 @@ i
 timesUsed
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertTimeIsAboutNow
 (
@@ -2747,7 +2662,7 @@ i
 timeCreated
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertTimeIsAboutNow
 (
@@ -2759,7 +2674,7 @@ i
 timeLastUsed
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertTimeIsAboutNow
 (
@@ -2817,8 +2732,6 @@ v3
 storage
 "
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -2840,8 +2753,6 @@ file
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -2863,8 +2774,6 @@ schemaVersion
 ;
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -2894,8 +2803,6 @@ timestamps
 testuser2
 does
 not
-.
-LoginTest
 .
 checkStorageData
 (
@@ -3026,7 +2933,7 @@ t2
 timesUsed
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertTimeIsAboutNow
 (
@@ -3035,7 +2942,7 @@ t2
 timeCreated
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertTimeIsAboutNow
 (
@@ -3044,7 +2951,7 @@ t2
 timeLastUsed
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertTimeIsAboutNow
 (
@@ -3092,8 +2999,6 @@ v4
 storage
 "
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -3115,8 +3020,6 @@ file
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -3150,8 +3053,6 @@ moz_deleted_logins
 ;
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -3229,8 +3130,6 @@ v4
 storage
 "
 yield
-LoginTest
-.
 copyFile
 (
 "
@@ -3252,8 +3151,6 @@ file
 .
 dbConnection
 =
-LoginTest
-.
 openDB
 (
 "
@@ -3287,8 +3184,6 @@ moz_deleted_logins
 ;
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OUTDIR
@@ -3584,8 +3479,6 @@ throws
 )
 =
 >
-LoginTest
-.
 reloadStorage
 (
 OS
@@ -3662,8 +3555,6 @@ module
 again
 storage
 =
-LoginTest
-.
 reloadStorage
 (
 OS
@@ -3693,8 +3584,6 @@ addLogin
 testuser1
 )
 ;
-LoginTest
-.
 checkStorageData
 (
 storage
@@ -3765,8 +3654,6 @@ exists
 )
 )
 ;
-LoginTest
-.
 deleteFile
 (
 OS
@@ -3784,8 +3671,6 @@ corrupt
 "
 )
 ;
-LoginTest
-.
 deleteFile
 (
 OS

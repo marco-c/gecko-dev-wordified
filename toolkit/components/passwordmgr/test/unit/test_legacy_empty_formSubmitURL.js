@@ -1052,7 +1052,7 @@ formSubmitURL
 }
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertLoginListsEqual
 (

@@ -872,7 +872,7 @@ gLoginMetaInfo1
 .
 timeCreated
 ;
-LoginTest
+LoginTestUtils
 .
 assertTimeIsAboutNow
 (
@@ -1012,7 +1012,7 @@ retrieveLoginMatching
 gLoginInfo3
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -1118,7 +1118,7 @@ the
 previous
 call
 .
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -1503,7 +1503,7 @@ originalLogin
 timeLastUsed
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertTimeIsAboutNow
 (
@@ -1751,7 +1751,7 @@ exists
 /
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -2004,13 +2004,13 @@ test_storage_metainfo
 )
 {
 yield
-LoginTest
+LoginTestUtils
 .
 reloadData
 (
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (

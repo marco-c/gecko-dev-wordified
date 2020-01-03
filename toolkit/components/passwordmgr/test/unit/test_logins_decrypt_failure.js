@@ -598,7 +598,7 @@ loginInfo
 )
 ;
 }
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (

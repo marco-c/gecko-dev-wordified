@@ -476,7 +476,7 @@ expectedLogins
 length
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertLoginListsEqual
 (
@@ -755,7 +755,7 @@ expectedLogins
 length
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertLoginListsEqual
 (

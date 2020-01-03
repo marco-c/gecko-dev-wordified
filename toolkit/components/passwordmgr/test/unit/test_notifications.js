@@ -515,7 +515,7 @@ addLogin
 testuser1
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -602,7 +602,7 @@ expectedNotification
 null
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -671,7 +671,7 @@ expectedNotification
 null
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -738,7 +738,7 @@ expectedNotification
 null
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -808,7 +808,7 @@ expectedNotification
 null
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -895,7 +895,7 @@ expectedNotification
 null
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -1001,7 +1001,7 @@ expectedNotification
 null
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -1104,7 +1104,7 @@ expectedNotification
 null
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -1194,7 +1194,7 @@ expectedNotification
 null
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -1218,7 +1218,7 @@ changed
 "
 )
 ;
-LoginTest
+LoginTestUtils
 .
 clearData
 (
