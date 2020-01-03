@@ -9228,11 +9228,7 @@ listener
 .
 getCurrentUrl
 (
-{
 isB2G
-:
-isB2G
-}
 )
 ;
 break
