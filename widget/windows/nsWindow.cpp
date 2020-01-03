@@ -10481,7 +10481,7 @@ bottom
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 window
@@ -13295,7 +13295,7 @@ mWnd
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -13323,7 +13323,7 @@ else
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -19336,7 +19336,7 @@ break
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 glass
@@ -21469,7 +21469,7 @@ iconPath
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 \
@@ -21564,7 +21564,7 @@ iconPath
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 \
@@ -27692,7 +27692,7 @@ NS_DEBUG_XX
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 Msg
@@ -39369,7 +39369,7 @@ mWnd
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -39390,7 +39390,7 @@ else
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -39409,7 +39409,7 @@ child
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 WINDOWPOS
@@ -39432,7 +39432,7 @@ SWP_FRAMECHANGED
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 SWP_FRAMECHANGED
@@ -39454,7 +39454,7 @@ SWP_SHOWWINDOW
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 SWP_SHOWWINDOW
@@ -39476,7 +39476,7 @@ SWP_NOSIZE
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 SWP_NOSIZE
@@ -39498,7 +39498,7 @@ SWP_HIDEWINDOW
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 SWP_HIDEWINDOW
@@ -39520,7 +39520,7 @@ SWP_NOZORDER
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 SWP_NOZORDER
@@ -39542,7 +39542,7 @@ SWP_NOACTIVATE
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 SWP_NOACTIVATE
@@ -39554,7 +39554,7 @@ SWP_NOACTIVATE
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 \
@@ -39918,7 +39918,7 @@ nsSizeMode_Normal
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -39941,7 +39941,7 @@ nsSizeMode_Minimized
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -39964,7 +39964,7 @@ nsSizeMode_Maximized
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -39986,7 +39986,7 @@ default
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -40436,7 +40436,7 @@ WINSTATE_DEBUG_OUTPUT
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -45094,7 +45094,7 @@ DEBUG_KBSTATE
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GetToggledKeyState
@@ -46938,7 +46938,7 @@ DEBUG
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MozSpecialMessageProc
@@ -46983,7 +46983,7 @@ DEBUG
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MozSpecialMessageProc
@@ -47563,7 +47563,7 @@ sMsgFilterHook
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -47641,7 +47641,7 @@ sCallProcHook
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *
@@ -47720,7 +47720,7 @@ sCallMouseHook
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 *

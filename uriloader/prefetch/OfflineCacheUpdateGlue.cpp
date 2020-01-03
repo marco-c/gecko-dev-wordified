@@ -201,7 +201,7 @@ log
 /
 this
 enables
-PR_LOG_ALWAYS
+PR_LOG_INFO
 level
 information
 and

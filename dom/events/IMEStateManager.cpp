@@ -360,7 +360,7 @@ static
 variables
 *
 with
-PR_LOG_ALWAYS
+PR_LOG_INFO
 .
 However
 if
@@ -1092,7 +1092,7 @@ Shutdown
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -1364,7 +1364,7 @@ NS_OK
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -1699,7 +1699,7 @@ NS_OK
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -1844,7 +1844,7 @@ aCause
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -1918,7 +1918,7 @@ aAction
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -2749,7 +2749,7 @@ aInstalling
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -2837,7 +2837,7 @@ aMouseEvent
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -3091,7 +3091,7 @@ if
 MOZ_LOG_TEST
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -3109,7 +3109,7 @@ eventType
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -3191,7 +3191,7 @@ aMouseEvent
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -3562,7 +3562,7 @@ aEditor
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -3767,7 +3767,7 @@ aEditor
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -4254,7 +4254,7 @@ aContent
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -4737,7 +4737,7 @@ observerService
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -4838,7 +4838,7 @@ aAction
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -5752,7 +5752,7 @@ aIsSynthesized
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -6328,7 +6328,7 @@ composition
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -6495,7 +6495,7 @@ here
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -6589,7 +6589,7 @@ IsSynthesizedForTests
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -6791,7 +6791,7 @@ aPresContext
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -7216,7 +7216,7 @@ DestroyIMEContentObserver
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM
@@ -7333,7 +7333,7 @@ aEditor
 MOZ_LOG
 (
 sISMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ISM

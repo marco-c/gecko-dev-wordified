@@ -821,7 +821,7 @@ uriSpec
 MOZ_LOG
 (
 gWin32SoundLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 Failed
@@ -975,7 +975,7 @@ url
 MOZ_LOG
 (
 gWin32SoundLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
