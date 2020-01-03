@@ -1023,7 +1023,7 @@ thread
 only
 .
 void
-OnKeysChange
+OnKeyStatusesChange
 (
 const
 nsAString
