@@ -519,14 +519,6 @@ MacIOSurfaceTextureHostOGL
 endif
 protected
 :
-GLTextureSource
-*
-CreateTextureSourceForPlane
-(
-size_t
-aPlane
-)
-;
 RefPtr
 <
 CompositorOGL
