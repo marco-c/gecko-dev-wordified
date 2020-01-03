@@ -10447,6 +10447,9 @@ ActorDestroyReason
 why
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -10466,6 +10469,8 @@ ActorDestroy
 )
 )
 ;
+#
+endif
 if
 (
 mForceKillTimer
@@ -16141,6 +16146,9 @@ shutdown
 )
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -16160,6 +16168,8 @@ Begin
 )
 )
 ;
+#
+endif
 /
 /
 Okay
@@ -18777,6 +18787,9 @@ char
 aReason
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -18796,6 +18809,8 @@ KillHard
 )
 )
 ;
+#
+endif
 /
 /
 On
