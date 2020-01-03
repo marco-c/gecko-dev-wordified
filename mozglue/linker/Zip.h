@@ -1421,6 +1421,7 @@ str
 const
 {
 return
+(
 strncmp
 (
 str
@@ -1430,6 +1431,19 @@ length
 =
 =
 0
+&
+&
+str
+[
+length
+]
+=
+=
+'
+\
+0
+'
+)
 ;
 }
 private
