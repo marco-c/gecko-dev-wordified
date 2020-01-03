@@ -648,7 +648,7 @@ mGlobal
 NativePromiseCallback
 wraps
 a
-NativePromiseHandler
+PromiseNativeHandler
 .
 class
 NativePromiseCallback
