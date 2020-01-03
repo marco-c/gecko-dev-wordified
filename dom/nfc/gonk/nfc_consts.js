@@ -322,6 +322,12 @@ RF_EVENT_STATE_CHANGED
 =
 0x06
 ;
+this
+.
+FOCUS_CHANGED
+=
+0x07
+;
 /
 /
 This
