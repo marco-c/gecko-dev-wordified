@@ -135,7 +135,10 @@ bool
 aForceBridgeNow
 nsresult
 *
-rv
+aResult
+uint32_t
+*
+aRunID
 )
 ;
 bool
