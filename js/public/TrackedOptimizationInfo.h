@@ -683,6 +683,11 @@ _
 CantInlineBound
 )
 \
+_
+(
+CantInlineNativeNoSpecialization
+)
+\
 \
 _
 (
