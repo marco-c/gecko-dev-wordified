@@ -2522,9 +2522,8 @@ NS_ERROR_FAILURE
 mTrackUnionStream
 -
 >
-ChangeExplicitBlockerCount
+Suspend
 (
-1
 )
 ;
 return
@@ -2567,10 +2566,8 @@ NS_ERROR_FAILURE
 mTrackUnionStream
 -
 >
-ChangeExplicitBlockerCount
+Resume
 (
--
-1
 )
 ;
 return

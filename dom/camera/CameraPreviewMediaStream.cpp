@@ -510,17 +510,6 @@ void
 CameraPreviewMediaStream
 :
 :
-ChangeExplicitBlockerCount
-(
-int32_t
-aDelta
-)
-{
-}
-void
-CameraPreviewMediaStream
-:
-:
 AddListener
 (
 MediaStreamListener
