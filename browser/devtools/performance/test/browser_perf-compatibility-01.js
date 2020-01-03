@@ -93,12 +93,13 @@ timeline
 =
 front
 .
-getMocksInUse
+getActorSupport
 (
 )
 ;
 ok
 (
+!
 memory
 "
 memory
@@ -111,6 +112,7 @@ mocked
 ;
 ok
 (
+!
 timeline
 "
 timeline
@@ -131,6 +133,9 @@ startRecording
 (
 {
 withTicks
+:
+true
+withMarkers
 :
 true
 withMemory

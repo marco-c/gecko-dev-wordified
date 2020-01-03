@@ -81,6 +81,9 @@ let
 config
 =
 {
+withMarkers
+:
+true
 withMemory
 :
 true

@@ -81,6 +81,18 @@ panel
 .
 panelWin
 ;
+yield
+startRecording
+(
+panel
+)
+;
+yield
+stopRecording
+(
+panel
+)
+;
 ok
 (
 DetailsView
@@ -160,7 +172,7 @@ JsCallTreeView
 )
 "
 The
-waterfall
+jscalltree
 view
 is
 now

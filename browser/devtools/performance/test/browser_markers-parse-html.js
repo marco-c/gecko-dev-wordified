@@ -126,6 +126,9 @@ front
 startRecording
 (
 {
+withMarkers
+:
+true
 withTicks
 :
 true

@@ -132,6 +132,9 @@ front
 startRecording
 (
 {
+withMarkers
+:
+true
 withMemory
 :
 true
