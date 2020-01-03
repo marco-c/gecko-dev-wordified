@@ -450,7 +450,6 @@ function
 )
 {
 return
-new
 g
 (
 )
@@ -465,7 +464,6 @@ function
 )
 {
 return
-new
 g
 (
 )
@@ -480,7 +478,6 @@ function
 )
 {
 return
-new
 g
 (
 )
