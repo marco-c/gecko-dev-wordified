@@ -152,9 +152,6 @@ h
 #
 undef
 LOG
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -199,16 +196,6 @@ GetRedirectLog
 PR_LOG_DEBUG
 args
 )
-#
-else
-#
-define
-LOG
-(
-args
-)
-#
-endif
 NS_IMPL_ISUPPORTS
 (
 nsAsyncRedirectVerifyHelper

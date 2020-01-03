@@ -308,14 +308,6 @@ mozilla
 net
 ;
 #
-if
-defined
-(
-PR_LOGGING
-)
-#
-endif
-#
 undef
 LOG
 #

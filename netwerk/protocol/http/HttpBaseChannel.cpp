@@ -13917,9 +13917,6 @@ Count
 i
 )
 {
-#
-ifdef
-PR_LOGGING
 nsCOMPtr
 <
 nsIURI
@@ -13991,8 +13988,6 @@ this
 )
 )
 ;
-#
-endif
 httpInternal
 -
 >

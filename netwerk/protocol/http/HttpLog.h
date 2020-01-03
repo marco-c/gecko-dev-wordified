@@ -370,12 +370,6 @@ definition
 #
 undef
 LOG
-#
-if
-defined
-(
-PR_LOGGING
-)
 /
 /
 /
@@ -452,8 +446,6 @@ PRLogModuleInfo
 *
 gHttpLog
 ;
-#
-endif
 /
 /
 http
