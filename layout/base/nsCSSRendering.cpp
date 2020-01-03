@@ -24865,6 +24865,8 @@ nsRect
 aRect
 nscolor
 aColor
+int32_t
+aAppUnitsPerDevPixel
 nscoord
 aTwipsPerPixel
 uint8_t
@@ -24892,15 +24894,6 @@ drawTarget
 aContext
 .
 GetDrawTarget
-(
-)
-;
-int32_t
-appUnitsPerDevPixel
-=
-aContext
-.
-AppUnitsPerDevPixel
 (
 )
 ;
@@ -25014,7 +25007,7 @@ aRect
 BottomLeft
 (
 )
-appUnitsPerDevPixel
+aAppUnitsPerDevPixel
 *
 drawTarget
 color
@@ -25033,7 +25026,7 @@ FillRect
 NSRectToRect
 (
 aRect
-appUnitsPerDevPixel
+aAppUnitsPerDevPixel
 *
 drawTarget
 )
@@ -25065,7 +25058,7 @@ aRect
 TopRight
 (
 )
-appUnitsPerDevPixel
+aAppUnitsPerDevPixel
 *
 drawTarget
 color
@@ -25084,7 +25077,7 @@ FillRect
 NSRectToRect
 (
 aRect
-appUnitsPerDevPixel
+aAppUnitsPerDevPixel
 *
 drawTarget
 )
@@ -25112,7 +25105,7 @@ SetPoly
 NSRectToRect
 (
 aRect
-appUnitsPerDevPixel
+aAppUnitsPerDevPixel
 )
 poly
 )
@@ -25123,7 +25116,7 @@ startBevelOffset
 NSAppUnitsToFloatPixels
 (
 aStartBevelOffset
-appUnitsPerDevPixel
+aAppUnitsPerDevPixel
 )
 ;
 switch
@@ -25196,7 +25189,7 @@ endBevelOffset
 NSAppUnitsToFloatPixels
 (
 aEndBevelOffset
-appUnitsPerDevPixel
+aAppUnitsPerDevPixel
 )
 ;
 switch
@@ -25497,6 +25490,8 @@ const
 nsRect
 &
 aBorder
+int32_t
+aAppUnitsPerDevPixel
 int32_t
 aAppUnitsPerCSSPixel
 uint8_t
@@ -25820,6 +25815,7 @@ DrawSolidBorderSegment
 aContext
 rect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 )
 ;
@@ -25874,6 +25870,7 @@ DrawSolidBorderSegment
 aContext
 rect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 )
 ;
@@ -25913,6 +25910,7 @@ DrawSolidBorderSegment
 aContext
 rect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 )
 ;
@@ -25967,6 +25965,7 @@ DrawSolidBorderSegment
 aContext
 rect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 )
 ;
@@ -26036,6 +26035,7 @@ DrawSolidBorderSegment
 aContext
 aBorder
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 aStartBevelOffset
@@ -26239,6 +26239,7 @@ DrawSolidBorderSegment
 aContext
 rect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 startBevel
@@ -26320,6 +26321,7 @@ DrawSolidBorderSegment
 aContext
 rect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 startBevel
@@ -26455,6 +26457,7 @@ DrawSolidBorderSegment
 aContext
 rect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 startBevel
@@ -26531,6 +26534,7 @@ DrawSolidBorderSegment
 aContext
 rect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 startBevel
@@ -26759,6 +26763,7 @@ DrawSolidBorderSegment
 aContext
 topRect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 startBevel
@@ -26854,6 +26859,7 @@ DrawSolidBorderSegment
 aContext
 bottomRect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 startBevel
@@ -26951,6 +26957,7 @@ DrawSolidBorderSegment
 aContext
 leftRect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 startBevel
@@ -27038,6 +27045,7 @@ DrawSolidBorderSegment
 aContext
 rightRect
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 startBevel
@@ -27064,6 +27072,7 @@ DrawSolidBorderSegment
 aContext
 aBorder
 aBorderColor
+aAppUnitsPerDevPixel
 twipsPerPixel
 aStartBevelSide
 aStartBevelOffset

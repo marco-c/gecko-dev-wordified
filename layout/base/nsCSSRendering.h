@@ -3365,6 +3365,8 @@ nsRect
 &
 aBorderRect
 int32_t
+aAppUnitsPerDevPixel
+int32_t
 aAppUnitsPerCSSPixel
 uint8_t
 aStartBevelSide
