@@ -156,6 +156,15 @@ MOZ_WIDGET_GONK
 #
 include
 "
+mozilla
+/
+Services
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
