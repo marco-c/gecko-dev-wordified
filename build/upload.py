@@ -2139,6 +2139,23 @@ ssh_key
 ssh_key
 )
             
+#
+We
+print
+since
+mozharness
+may
+parse
+URLs
+from
+the
+output
+stream
+.
+            
+print
+output
+            
 if
 properties_file
 :
