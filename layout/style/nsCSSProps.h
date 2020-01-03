@@ -4803,6 +4803,13 @@ kMathDisplayKTable
 static
 const
 KTableValue
+kContainKTable
+[
+]
+;
+static
+const
+KTableValue
 kContextOpacityKTable
 [
 ]
