@@ -1231,11 +1231,6 @@ throwing
 an
 error
 .
-let
-n
-=
-0
-;
 switch
 (
 +
@@ -1244,9 +1239,7 @@ pushServerRequestCount
 )
 {
 case
-+
-+
-n
+1
 :
 /
 /
@@ -1280,9 +1273,7 @@ finish
 break
 ;
 case
-+
-+
-n
+2
 :
 /
 /
@@ -1330,9 +1321,7 @@ finish
 break
 ;
 case
-+
-+
-n
+3
 :
 /
 /
@@ -1365,9 +1354,7 @@ finish
 break
 ;
 case
-+
-+
-n
+4
 :
 response
 .
