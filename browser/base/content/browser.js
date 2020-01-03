@@ -11645,12 +11645,17 @@ init
 ;
 #
 endif
+#
+ifdef
+E10S_TESTING_ONLY
 gRemoteTabsUI
 .
 init
 (
 )
 ;
+#
+endif
 }
 nonBrowserWindowShutdown
 :
