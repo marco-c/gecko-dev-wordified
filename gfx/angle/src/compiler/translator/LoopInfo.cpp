@@ -481,7 +481,7 @@ in
 ValidateLimitations
 .
 TIntermSequence
-&
+*
 declSeq
 =
 node
@@ -505,7 +505,10 @@ TIntermBinary
 *
 declInit
 =
+(
+*
 declSeq
+)
 [
 0
 ]

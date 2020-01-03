@@ -243,6 +243,9 @@ return
 mGLName
 ;
 }
+sh
+:
+:
 GLenum
 ShaderType
 (
@@ -438,6 +441,9 @@ DeleteOnce
 GLuint
 mGLName
 ;
+sh
+:
+:
 GLenum
 mType
 ;

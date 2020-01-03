@@ -70,7 +70,7 @@ compiler
 /
 translator
 /
-ShHandle
+Compiler
 .
 h
 "
@@ -88,7 +88,10 @@ h
 void
 InsertBuiltInFunctions
 (
-ShShaderType
+sh
+:
+:
+GLenum
 type
 ShShaderSpec
 spec
@@ -104,7 +107,10 @@ table
 void
 IdentifyBuiltIns
 (
-ShShaderType
+sh
+:
+:
+GLenum
 type
 ShShaderSpec
 spec

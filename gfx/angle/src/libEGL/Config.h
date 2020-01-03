@@ -102,9 +102,6 @@ INCLUDE_CONFIG_H_
 define
 INCLUDE_CONFIG_H_
 #
-define
-EGLAPI
-#
 include
 <
 EGL

@@ -98,7 +98,7 @@ Buffer
 class
 ProgramBinary
 ;
-class
+struct
 VertexAttribute
 ;
 struct
@@ -586,6 +586,10 @@ stencilBackWritemask
 struct
 SamplerState
 {
+SamplerState
+(
+)
+;
 GLenum
 minFilter
 ;

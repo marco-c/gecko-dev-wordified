@@ -1,10 +1,3 @@
-#
-include
-"
-precompiled
-.
-h
-"
 /
 /
 /
@@ -237,6 +230,13 @@ include
 libGLESv2
 /
 main
+.
+h
+"
+#
+include
+"
+angle_gl
 .
 h
 "

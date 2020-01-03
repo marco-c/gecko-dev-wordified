@@ -106,9 +106,6 @@ LIBEGL_SURFACE_H_
 define
 LIBEGL_SURFACE_H_
 #
-define
-EGLAPI
-#
 include
 <
 EGL

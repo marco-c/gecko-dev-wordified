@@ -59,7 +59,7 @@ compiler
 /
 translator
 /
-intermediate
+IntermNode
 .
 h
 "
@@ -136,7 +136,6 @@ bool
 visitBinary
 (
 Visit
-visit
 TIntermBinary
 *
 node
@@ -151,7 +150,6 @@ bool
 visitUnary
 (
 Visit
-visit
 TIntermUnary
 *
 node
@@ -166,7 +164,6 @@ bool
 visitSelection
 (
 Visit
-visit
 TIntermSelection
 *
 node
@@ -181,7 +178,6 @@ bool
 visitLoop
 (
 Visit
-visit
 TIntermLoop
 *
 node
@@ -196,7 +192,6 @@ bool
 visitBranch
 (
 Visit
-visit
 TIntermBranch
 *
 node
@@ -223,7 +218,7 @@ void
 insertInitCode
 (
 TIntermSequence
-&
+*
 sequence
 )
 ;

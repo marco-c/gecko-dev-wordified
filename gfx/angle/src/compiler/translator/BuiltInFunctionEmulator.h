@@ -68,7 +68,7 @@ compiler
 /
 translator
 /
-intermediate
+IntermNode
 .
 h
 "
@@ -124,7 +124,10 @@ public
 :
 BuiltInFunctionEmulator
 (
-ShShaderType
+sh
+:
+:
+GLenum
 shaderType
 )
 ;

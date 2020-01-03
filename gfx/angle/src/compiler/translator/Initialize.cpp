@@ -104,14 +104,24 @@ compiler
 /
 translator
 /
-intermediate
+IntermNode
+.
+h
+"
+#
+include
+"
+angle_gl
 .
 h
 "
 void
 InsertBuiltInFunctions
 (
-ShShaderType
+sh
+:
+:
+GLenum
 type
 ShShaderSpec
 spec
@@ -3392,7 +3402,7 @@ if
 type
 =
 =
-SH_FRAGMENT_SHADER
+GL_FRAGMENT_SHADER
 )
 {
 symbolTable
@@ -3673,7 +3683,7 @@ if
 type
 =
 =
-SH_VERTEX_SHADER
+GL_VERTEX_SHADER
 )
 {
 symbolTable
@@ -3949,7 +3959,7 @@ if
 type
 =
 =
-SH_FRAGMENT_SHADER
+GL_FRAGMENT_SHADER
 )
 {
 symbolTable
@@ -4152,7 +4162,7 @@ if
 type
 =
 =
-SH_FRAGMENT_SHADER
+GL_FRAGMENT_SHADER
 )
 {
 symbolTable
@@ -4294,7 +4304,7 @@ if
 type
 =
 =
-SH_FRAGMENT_SHADER
+GL_FRAGMENT_SHADER
 )
 {
 symbolTable
@@ -4503,7 +4513,7 @@ if
 type
 =
 =
-SH_FRAGMENT_SHADER
+GL_FRAGMENT_SHADER
 )
 {
 symbolTable
@@ -4628,7 +4638,7 @@ if
 type
 =
 =
-SH_FRAGMENT_SHADER
+GL_FRAGMENT_SHADER
 )
 {
 symbolTable
@@ -5428,7 +5438,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 depthRangeParameters
 )
 ;
@@ -5464,7 +5473,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 depthRange
 )
 ;
@@ -5650,7 +5658,10 @@ MaxProgramTexelOffset
 void
 IdentifyBuiltIns
 (
-ShShaderType
+sh
+:
+:
+GLenum
 type
 ShShaderSpec
 spec
@@ -5696,14 +5707,13 @@ type
 )
 {
 case
-SH_FRAGMENT_SHADER
+GL_FRAGMENT_SHADER
 :
 symbolTable
 .
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -5728,7 +5738,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -5753,7 +5762,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -5812,7 +5820,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5837,7 +5844,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5872,7 +5878,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5920,7 +5925,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5945,7 +5949,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5970,14 +5973,13 @@ EvqGlobal
 break
 ;
 case
-SH_VERTEX_SHADER
+GL_VERTEX_SHADER
 :
 symbolTable
 .
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -6002,7 +6004,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -6599,12 +6600,12 @@ type
 )
 {
 case
-SH_VERTEX_SHADER
+GL_VERTEX_SHADER
 :
 break
 ;
 case
-SH_FRAGMENT_SHADER
+GL_FRAGMENT_SHADER
 :
 if
 (
@@ -6835,7 +6836,7 @@ type
 )
 {
 case
-SH_FRAGMENT_SHADER
+GL_FRAGMENT_SHADER
 :
 if
 (
@@ -6880,7 +6881,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (

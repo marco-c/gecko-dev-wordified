@@ -17334,9 +17334,6 @@ compiler
 =
 ShConstructCompiler
 (
-(
-ShShaderType
-)
 shader
 -
 >
@@ -17897,7 +17894,10 @@ length
 int
 size
 ;
-ShDataType
+sh
+:
+:
+GLenum
 type
 ;
 ShPrecisionType
@@ -18026,7 +18026,10 @@ length
 int
 size
 ;
-ShDataType
+sh
+:
+:
+GLenum
 type
 ;
 ShPrecisionType

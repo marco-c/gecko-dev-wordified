@@ -844,7 +844,7 @@ u
 type
 =
 =
-SH_SAMPLER_2D
+LOCAL_GL_SAMPLER_2D
 |
 |
 u
@@ -852,7 +852,7 @@ u
 type
 =
 =
-SH_SAMPLER_CUBE
+LOCAL_GL_SAMPLER_CUBE
 )
 {
 numSamplerUniforms

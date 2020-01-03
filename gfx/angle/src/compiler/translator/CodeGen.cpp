@@ -115,7 +115,10 @@ TCompiler
 *
 ConstructCompiler
 (
-ShShaderType
+sh
+:
+:
+GLenum
 type
 ShShaderSpec
 spec

@@ -324,7 +324,7 @@ validateForLoopInit
 )
 .
 TIntermSequence
-&
+*
 declSeq
 =
 node
@@ -348,7 +348,10 @@ TIntermSymbol
 *
 symbol
 =
+(
+*
 declSeq
+)
 [
 0
 ]

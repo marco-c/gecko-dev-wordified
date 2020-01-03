@@ -59,7 +59,7 @@ compiler
 /
 translator
 /
-ShHandle
+Compiler
 .
 h
 "
@@ -73,7 +73,10 @@ public
 :
 TranslatorESSL
 (
-ShShaderType
+sh
+:
+:
+GLenum
 type
 ShShaderSpec
 spec
