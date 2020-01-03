@@ -209,10 +209,14 @@ Observable
 )
 ;
 virtual
-void
-UpdateReadyStateForData
+MediaDecoderOwner
+:
+:
+NextFrameStatus
+NextFrameStatus
 (
 )
+override
 ;
 virtual
 void
