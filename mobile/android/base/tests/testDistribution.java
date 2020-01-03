@@ -155,17 +155,6 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 ThreadUtils
@@ -398,7 +387,6 @@ doInit
 )
 ;
 }
-RobocopTarget
 public
 static
 void
@@ -411,7 +399,6 @@ referrer
 null
 ;
 }
-RobocopTarget
 public
 static
 ReferrerDescriptor
