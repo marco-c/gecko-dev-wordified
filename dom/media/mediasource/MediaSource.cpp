@@ -2233,6 +2233,17 @@ TimeRanges
 aBuffered
 )
 {
+ReentrantMonitorAutoEnter
+mon
+(
+mDecoder
+-
+>
+GetReentrantMonitor
+(
+)
+)
+;
 MOZ_ASSERT
 (
 aBuffered
