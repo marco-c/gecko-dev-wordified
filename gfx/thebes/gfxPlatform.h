@@ -3118,6 +3118,12 @@ CanUseHardwareVideoDecoding
 (
 )
 ;
+static
+bool
+CanUseDirect3D11ANGLE
+(
+)
+;
 /
 *
 *

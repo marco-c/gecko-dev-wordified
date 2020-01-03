@@ -1584,6 +1584,14 @@ gfxPrefs
 WebGLANGLETryD3D11
 (
 )
+&
+&
+gfxPlatform
+:
+:
+CanUseDirect3D11ANGLE
+(
+)
 )
 {
 newDisplay
