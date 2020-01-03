@@ -174,7 +174,6 @@ std
 :
 set
 <
-const
 base
 :
 :
