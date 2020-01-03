@@ -7165,7 +7165,7 @@ types
 struct
 TypeObject
 ;
-struct
+class
 TypeNewScript
 ;
 }
