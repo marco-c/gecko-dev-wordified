@@ -284,6 +284,9 @@ mozilla
 class
 MediaDecoder
 ;
+class
+LargeDataBuffer
+;
 namespace
 dom
 {
@@ -854,12 +857,9 @@ SourceBuffer
 void
 AppendData
 (
-const
-uint8_t
+LargeDataBuffer
 *
 aData
-uint32_t
-aLength
 )
 ;
 void
