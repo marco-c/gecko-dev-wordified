@@ -251,7 +251,7 @@ blockForGeckoReady
 Test
 geolocation
 notification
-inputAndLoadUrl
+loadUrlAndWait
 (
 GEO_URL
 )
@@ -354,7 +354,7 @@ Re
 trigger
 geolocation
 notification
-inputAndLoadUrl
+loadUrlAndWait
 (
 GEO_URL
 )
@@ -459,7 +459,7 @@ Re
 trigger
 geolocation
 notification
-inputAndLoadUrl
+loadUrlAndWait
 (
 GEO_URL
 )
@@ -784,7 +784,7 @@ Load
 offline
 storage
 page
-inputAndLoadUrl
+loadUrlAndWait
 (
 OFFLINE_STORAGE_URL
 )
@@ -868,7 +868,7 @@ Load
 offline
 storage
 page
-inputAndLoadUrl
+loadUrlAndWait
 (
 OFFLINE_STORAGE_URL
 )
@@ -937,7 +937,7 @@ storage
 "
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 OFFLINE_STORAGE_URL
 )
@@ -1054,7 +1054,7 @@ toString
 Load
 login
 page
-inputAndLoadUrl
+loadUrlAndWait
 (
 LOGIN_URL
 )
@@ -1127,7 +1127,7 @@ password
 Load
 login
 page
-inputAndLoadUrl
+loadUrlAndWait
 (
 LOGIN_URL
 )
@@ -1300,7 +1300,7 @@ Load
 page
 with
 popup
-inputAndLoadUrl
+loadUrlAndWait
 (
 POPUP_URL
 )
@@ -1528,7 +1528,7 @@ Load
 page
 with
 popup
-inputAndLoadUrl
+loadUrlAndWait
 (
 POPUP_URL
 )

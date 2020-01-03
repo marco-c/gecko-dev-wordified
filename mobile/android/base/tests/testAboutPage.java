@@ -216,7 +216,7 @@ StringHelper
 ROBOCOP_BLANK_PAGE_01_URL
 )
 ;
-inputAndLoadUrl
+loadUrl
 (
 url
 )

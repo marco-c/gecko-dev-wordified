@@ -120,7 +120,7 @@ expectPaint
 (
 )
 ;
-inputAndLoadUrl
+loadUrl
 (
 url
 )

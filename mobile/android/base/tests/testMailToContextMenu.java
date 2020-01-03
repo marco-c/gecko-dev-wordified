@@ -131,7 +131,7 @@ StringHelper
 ROBOCOP_BIG_MAILTO_URL
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 MAILTO_PAGE_URL
 )
