@@ -7354,7 +7354,9 @@ later
 /
 and
 our
-width
+inline
+-
+size
 has
 changed
 mark
@@ -7389,7 +7391,7 @@ NS_FRAME_IS_DIRTY
 reflowState
 -
 >
-IsHResize
+IsIResize
 (
 )
 )
@@ -14547,7 +14549,7 @@ aState
 .
 mReflowState
 .
-IsVResize
+IsBResize
 (
 )
 &
@@ -15535,7 +15537,7 @@ aState
 .
 mReflowState
 .
-IsVResize
+IsBResize
 (
 )
 |
