@@ -88,6 +88,16 @@ visible
 ;
 }
 .
+overflow
+-
+hidden
+{
+overflow
+:
+hidden
+;
+}
+.
 showcase
 {
 width
