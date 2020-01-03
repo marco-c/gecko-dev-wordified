@@ -842,6 +842,11 @@ setFileAndLine
 uriStr
 1
 )
+.
+setVersion
+(
+JSVERSION_LATEST
+)
 ;
 if
 (
