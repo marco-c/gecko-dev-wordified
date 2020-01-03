@@ -4866,6 +4866,8 @@ baseTag
 )
 ;
 }
+mBinding
+=
 aDocument
 -
 >
@@ -4879,10 +4881,6 @@ binding
 )
 nullptr
 kNameSpaceID_XBL
-getter_AddRefs
-(
-mBinding
-)
 )
 ;
 nsCOMPtr

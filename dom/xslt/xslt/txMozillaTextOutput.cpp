@@ -897,7 +897,7 @@ rv
 rv
 )
 ;
-rv
+mTextParent
 =
 mDocument
 -
@@ -916,16 +916,6 @@ nsGkAtoms
 :
 transformiix
 namespaceID
-getter_AddRefs
-(
-mTextParent
-)
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 rv
