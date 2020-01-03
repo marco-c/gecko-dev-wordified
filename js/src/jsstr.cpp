@@ -4949,7 +4949,10 @@ construct
 Latin1CharPtr
 >
 (
+Move
+(
 buf
+)
 )
 ;
 }
@@ -4998,7 +5001,10 @@ construct
 TwoByteCharPtr
 >
 (
+Move
+(
 buf
+)
 )
 ;
 }
