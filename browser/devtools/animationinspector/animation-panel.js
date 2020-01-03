@@ -342,6 +342,8 @@ if
 !
 AnimationsController
 .
+traits
+.
 hasToggleAll
 )
 {
@@ -465,6 +467,8 @@ this
 if
 (
 AnimationsController
+.
+traits
 .
 isNewUI
 )
@@ -995,6 +999,8 @@ if
 !
 AnimationsController
 .
+traits
+.
 isNewUI
 )
 {
@@ -1332,6 +1338,8 @@ if
 !
 AnimationsController
 .
+traits
+.
 isNewUI
 )
 {
@@ -1612,6 +1620,8 @@ if
 (
 AnimationsController
 .
+traits
+.
 hasSetPlaybackRate
 )
 {
@@ -1628,6 +1638,8 @@ PlaybackRateSelector
 if
 (
 AnimationsController
+.
+traits
 .
 hasTargetNode
 )
@@ -1857,6 +1869,8 @@ if
 (
 AnimationsController
 .
+traits
+.
 hasSetCurrentTime
 )
 {
@@ -1967,6 +1981,8 @@ onPlayPauseBtnClick
 if
 (
 AnimationsController
+.
+traits
 .
 hasSetCurrentTime
 )
@@ -2238,6 +2254,8 @@ button
 if
 (
 AnimationsController
+.
+traits
 .
 hasSetCurrentTime
 )
@@ -2513,6 +2531,8 @@ if
 (
 !
 AnimationsController
+.
+traits
 .
 hasSetCurrentTime
 )
@@ -3036,6 +3056,8 @@ if
 !
 AnimationsController
 .
+traits
+.
 hasSetCurrentTime
 )
 {
@@ -3193,6 +3215,8 @@ if
 (
 !
 AnimationsController
+.
+traits
 .
 hasSetPlaybackRate
 )

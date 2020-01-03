@@ -228,6 +228,8 @@ setting
 "
 AnimationsController
 .
+traits
+.
 hasSetCurrentTime
 to
 false
@@ -244,6 +246,8 @@ inspector
 )
 ;
 controller
+.
+traits
 .
 hasSetCurrentTime
 =
@@ -320,6 +324,8 @@ inspector
 )
 ;
 controller
+.
+traits
 .
 hasSetCurrentTime
 =

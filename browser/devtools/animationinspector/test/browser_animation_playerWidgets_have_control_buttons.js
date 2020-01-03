@@ -304,6 +304,8 @@ setting
 "
 AnimationsController
 .
+traits
+.
 hasSetCurrentTime
 to
 false
@@ -340,6 +342,8 @@ inspector
 )
 ;
 controller
+.
+traits
 .
 hasSetCurrentTime
 =
@@ -469,6 +473,8 @@ inspector
 ;
 controller
 .
+traits
+.
 hasSetCurrentTime
 =
 true
@@ -488,6 +494,8 @@ setting
 "
 AnimationsController
 .
+traits
+.
 hasSetPlaybackRate
 to
 false
@@ -495,6 +503,8 @@ false
 )
 ;
 controller
+.
+traits
 .
 hasSetPlaybackRate
 =
@@ -592,6 +602,8 @@ inspector
 )
 ;
 controller
+.
+traits
 .
 hasSetPlaybackRate
 =
