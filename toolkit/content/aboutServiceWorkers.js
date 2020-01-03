@@ -954,7 +954,7 @@ function
 {
 gSWM
 .
-propagateSoftUpdate
+softUpdate
 (
 info
 .
@@ -1166,7 +1166,7 @@ inactive
 ;
 gSWM
 .
-propagateUnregister
+unregister
 (
 info
 .
