@@ -2696,7 +2696,8 @@ delete
 ;
 }
 ;
-bool
+JSString
+*
 str_replace_regexp_raw
 (
 JSContext
@@ -2712,8 +2713,6 @@ RegExpObject
 regexp
 HandleString
 replacement
-MutableHandleValue
-rval
 )
 ;
 /
