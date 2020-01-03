@@ -1349,6 +1349,8 @@ and
 a
 tag
 .
+PlacesTestUtils
+.
 addVisits
 (
 [
@@ -1405,10 +1407,14 @@ history
 TRANSITION_DOWNLOAD
 }
 ]
-window
-function
+)
+.
+then
+(
 (
 )
+=
+>
 {
 PlacesUtils
 .

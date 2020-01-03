@@ -3372,6 +3372,8 @@ Add
 a
 visit
 .
+PlacesTestUtils
+.
 addVisits
 (
 {
@@ -3391,7 +3393,10 @@ history
 .
 TRANSITION_TYPED
 }
-window
+)
+.
+then
+(
 aCallback
 )
 ;

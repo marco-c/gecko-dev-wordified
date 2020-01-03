@@ -452,6 +452,8 @@ context
 "
 )
 ;
+PlacesTestUtils
+.
 addVisits
 (
 {
@@ -480,10 +482,14 @@ history
 .
 TRANSITION_TYPED
 }
-window
-function
+)
+.
+then
+(
 (
 )
+=
+>
 {
 openLibrary
 (
