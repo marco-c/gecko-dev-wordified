@@ -1020,11 +1020,15 @@ id
 return
 memExpr
 (
-ident
+Pattern
 (
+{
+type
+:
 "
-super
+Super
 "
+}
 )
 id
 )
