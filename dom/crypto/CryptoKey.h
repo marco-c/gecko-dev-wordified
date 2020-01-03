@@ -825,6 +825,14 @@ bool
 aExtractable
 )
 ;
+nsresult
+AddPublicKeyData
+(
+SECKEYPublicKey
+*
+point
+)
+;
 void
 ClearUsages
 (
