@@ -112,6 +112,10 @@ ELF
     
 MACHO
 )
+from
+buildconfig
+import
+substs
 TOOLCHAIN_PREFIX
 =
 '
@@ -601,9 +605,12 @@ subprocess
 Popen
 (
 [
+substs
+[
 '
-otool
+OTOOL
 '
+]
 '
 -
 l
