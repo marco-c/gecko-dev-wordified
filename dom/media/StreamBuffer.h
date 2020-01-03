@@ -613,8 +613,6 @@ aStart
 MediaSegment
 *
 aSegment
-TrackRate
-aGraphRate
 )
 :
 mStart
@@ -624,10 +622,6 @@ aStart
 mSegment
 (
 aSegment
-)
-mGraphRate
-(
-aGraphRate
 )
 mID
 (
@@ -1079,17 +1073,6 @@ MediaSegment
 >
 mSegment
 ;
-TrackRate
-mGraphRate
-;
-/
-/
-graph
-rate
-in
-StreamTime
-per
-second
 /
 /
 Unique
@@ -1428,9 +1411,6 @@ Track
 aID
 aStart
 aSegment
-GraphRate
-(
-)
 )
 ;
 mTracks
