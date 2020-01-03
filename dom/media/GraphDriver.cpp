@@ -1932,8 +1932,6 @@ mGraphImpl
 >
 OneIteration
 (
-mIterationStart
-mIterationEnd
 nextStateComputedTime
 )
 ;
@@ -5216,8 +5214,6 @@ mGraphImpl
 >
 OneIteration
 (
-mIterationStart
-mIterationEnd
 nextStateComputedTime
 )
 ;
