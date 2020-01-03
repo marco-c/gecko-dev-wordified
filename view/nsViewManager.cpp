@@ -1159,6 +1159,15 @@ mPresShell
 IsVisible
 (
 )
+&
+&
+!
+mPresShell
+-
+>
+IsInFullscreenChange
+(
+)
 )
 {
 if
