@@ -1140,7 +1140,7 @@ KillHard
 (
 )
 ;
-uint64_t
+ContentParentId
 ChildID
 (
 )
@@ -1744,9 +1744,9 @@ uint32_t
 &
 chromeFlags
 const
-uint64_t
+ContentParentId
 &
-aId
+aCpId
 const
 bool
 &
@@ -2341,9 +2341,9 @@ virtual
 bool
 RecvGetProcessAttributes
 (
-uint64_t
+ContentParentId
 *
-aId
+aCpId
 bool
 *
 aIsForApp
@@ -2410,9 +2410,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aId
+aCpId
 const
 bool
 &
@@ -3913,7 +3913,7 @@ ContentParent
 *
 mOpener
 ;
-uint64_t
+ContentParentId
 mChildID
 ;
 int32_t
