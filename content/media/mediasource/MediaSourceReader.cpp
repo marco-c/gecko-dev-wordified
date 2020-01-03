@@ -587,6 +587,12 @@ RequestAudioData
 ;
 }
 else
+if
+(
+IsEnded
+(
+)
+)
 {
 /
 /
