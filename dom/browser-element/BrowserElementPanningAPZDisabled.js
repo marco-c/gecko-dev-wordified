@@ -4335,7 +4335,11 @@ startTime
 =
 content
 .
-mozAnimationStartTime
+performance
+.
+now
+(
+)
 ;
 let
 elapsedTime
@@ -4662,7 +4666,7 @@ return
 }
 content
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 callback
 )
@@ -4677,7 +4681,7 @@ this
 ;
 content
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 callback
 )

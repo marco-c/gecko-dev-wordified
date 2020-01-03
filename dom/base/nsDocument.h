@@ -10266,7 +10266,7 @@ pending
 notifications
 due
 to
-mozRequestAnimationFrame
+requestAnimationFrame
 calls
 void
 RevokeAnimationFrameNotifications
@@ -10284,7 +10284,7 @@ to
 handle
 /
 /
-mozRequestAnimationFrame
+requestAnimationFrame
 if
 it
 '
