@@ -1055,7 +1055,6 @@ true
 ;
 }
 static
-const
 JSStructuredCloneCallbacks
 kGetDataStoresStructuredCloneCallbacks
 =

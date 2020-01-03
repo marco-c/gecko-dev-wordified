@@ -4423,7 +4423,6 @@ SCTAG_DOM_MAX
 DOMWORKER_SCTAG_END
 }
 ;
-const
 JSStructuredCloneCallbacks
 *
 WorkerStructuredCloneCallbacks
@@ -4432,7 +4431,6 @@ bool
 aMainRuntime
 )
 ;
-const
 JSStructuredCloneCallbacks
 *
 ChromeWorkerStructuredCloneCallbacks

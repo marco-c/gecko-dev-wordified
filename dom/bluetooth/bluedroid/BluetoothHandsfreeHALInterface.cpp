@@ -844,7 +844,6 @@ aRes
 )
 {
 static
-const
 bthf_callbacks_t
 sCallbacks
 =

@@ -33911,7 +33911,6 @@ JS_SetLocaleCallbacks
 JSRuntime
 *
 rt
-const
 JSLocaleCallbacks
 *
 callbacks
@@ -33932,7 +33931,6 @@ callbacks
 }
 JS_PUBLIC_API
 (
-const
 JSLocaleCallbacks
 *
 )

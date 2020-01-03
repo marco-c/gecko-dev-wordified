@@ -426,7 +426,6 @@ aRes
 )
 {
 static
-const
 btav_callbacks_t
 sCallbacks
 =
