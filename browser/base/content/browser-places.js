@@ -2994,7 +2994,7 @@ doc
 =
 gBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 ;
 var
 title
