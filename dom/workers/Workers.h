@@ -890,6 +890,16 @@ webnotifications
 workers
 .
 enabled
+WORKERPREF_DOM_SERVICEWORKERNOTIFICATION
+/
+/
+dom
+.
+webnotifications
+.
+serviceworker
+.
+enabled
 WORKERPREF_DOM_CACHES_TESTING
 /
 /

@@ -231,6 +231,17 @@ JSObject
 aObj
 )
 ;
+bool
+ServiceWorkerNotificationAPIVisible
+(
+JSContext
+*
+aCx
+JSObject
+*
+aObj
+)
+;
 /
 /
 This
