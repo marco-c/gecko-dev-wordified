@@ -17552,7 +17552,7 @@ because
 /
 /
 the
-useCount
+warmUpCounter
 only
 applies
 to
@@ -17593,7 +17593,7 @@ that
 /
 /
 the
-useCount
+warmUpCounter
 is
 at
 least
@@ -17635,7 +17635,7 @@ ParallelExecution
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;
@@ -20649,7 +20649,7 @@ script
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;

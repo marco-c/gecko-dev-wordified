@@ -2872,8 +2872,10 @@ slow
 .
 Reset
 the
-use
-count
+warm
+-
+up
+counter
 so
 that
 if
@@ -2896,7 +2898,7 @@ script
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;
@@ -3696,8 +3698,10 @@ slow
 .
 Reset
 the
-use
-count
+warm
+-
+up
+counter
 so
 that
 if
@@ -3720,7 +3724,7 @@ script
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;

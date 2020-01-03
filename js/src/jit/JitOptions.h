@@ -310,7 +310,7 @@ void
 setUsesBeforeCompile
 (
 uint32_t
-useCount
+warmUpCounter
 )
 ;
 void

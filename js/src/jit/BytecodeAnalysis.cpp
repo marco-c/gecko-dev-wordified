@@ -532,7 +532,7 @@ endif
 unsigned
 nuses
 =
-GetUseCount
+GetWarmUpCounter
 (
 script_
 offset

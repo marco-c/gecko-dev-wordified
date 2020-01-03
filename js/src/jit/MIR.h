@@ -4037,7 +4037,7 @@ hasOneUse
 instead
 .
 size_t
-useCount
+warmUpCounter
 (
 )
 const
@@ -4093,7 +4093,7 @@ hasOneUse
 instead
 .
 size_t
-defUseCount
+defWarmUpCounter
 (
 )
 const
@@ -52971,7 +52971,10 @@ ins
 /
 Increase
 the
-usecount
+warm
+-
+up
+counter
 of
 the
 provided
@@ -52984,7 +52987,10 @@ if
 /
 /
 the
-usecount
+warm
+-
+up
+counter
 surpasses
 the
 threshold
@@ -53065,7 +53071,7 @@ JSScript
 *
 script_
 uint32_t
-useCount
+warmUpCounter
 )
 {
 return
@@ -53076,7 +53082,7 @@ alloc
 MRecompileCheck
 (
 script_
-useCount
+warmUpCounter
 )
 ;
 }

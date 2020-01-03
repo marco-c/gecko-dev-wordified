@@ -4789,8 +4789,10 @@ faster
 here
 bump
 the
-use
-count
+warm
+-
+up
+counter
 a
 bit
 to
@@ -4801,7 +4803,7 @@ this
 script_
 -
 >
-incUseCount
+incWarmUpCounter
 (
 5
 )

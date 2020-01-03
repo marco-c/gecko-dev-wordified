@@ -745,7 +745,7 @@ JitOptions
 setUsesBeforeCompile
 (
 uint32_t
-useCount
+warmUpCounter
 )
 {
 forceDefaultIonUsesBeforeCompile
@@ -754,7 +754,7 @@ true
 ;
 forcedDefaultIonUsesBeforeCompile
 =
-useCount
+warmUpCounter
 ;
 /
 /
@@ -766,7 +766,7 @@ if
 eagerCompilation
 &
 &
-useCount
+warmUpCounter
 !
 =
 0

@@ -15,7 +15,7 @@ setJitCompilerOption
 "
 ion
 .
-usecount
+warmup
 .
 trigger
 "
@@ -27,7 +27,7 @@ setJitCompilerOption
 "
 baseline
 .
-usecount
+warmup
 .
 trigger
 "
@@ -45,7 +45,9 @@ f
 ;
 /
 /
-usecount
+warm
+-
+up
 =
 =
 1
@@ -71,7 +73,9 @@ f
 ;
 /
 /
-usecount
+warm
+-
+up
 =
 =
 2
@@ -99,7 +103,7 @@ setJitCompilerOption
 "
 ion
 .
-usecount
+warmup
 .
 trigger
 "
@@ -111,7 +115,7 @@ setJitCompilerOption
 "
 baseline
 .
-usecount
+warmup
 .
 trigger
 "
@@ -129,7 +133,7 @@ setJitCompilerOption
 "
 ion
 .
-usecount
+warmup
 .
 trigger
 "
@@ -244,7 +248,7 @@ var
 ion
 =
 {
-usecount
+warmup
 :
 {
 trigger
@@ -257,7 +261,7 @@ setJitCompilerOption
 (
 ion
 .
-usecount
+warmup
 .
 trigger
 42
@@ -283,7 +287,7 @@ setJitCompilerOption
 "
 ion
 .
-usecount
+warmup
 .
 trigger
 "

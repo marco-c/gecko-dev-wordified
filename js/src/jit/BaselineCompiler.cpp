@@ -2774,7 +2774,7 @@ false
 if
 (
 !
-emitUseCountIncrement
+emitWarmUpCounterIncrement
 (
 )
 )
@@ -4416,7 +4416,7 @@ bool
 BaselineCompiler
 :
 :
-emitUseCountIncrement
+emitWarmUpCounterIncrement
 (
 bool
 allowOsr
@@ -4426,8 +4426,10 @@ allowOsr
 /
 Emit
 no
-use
-count
+warm
+-
+up
+counter
 increments
 or
 bailouts
@@ -4479,13 +4481,13 @@ scratchReg
 )
 ;
 Address
-useCountAddr
+warmUpCounterAddr
 (
 scriptReg
 JSScript
 :
 :
-offsetOfUseCount
+offsetOfWarmUpCounter
 (
 )
 )
@@ -4505,7 +4507,7 @@ masm
 .
 load32
 (
-useCountAddr
+warmUpCounterAddr
 countReg
 )
 ;
@@ -4525,7 +4527,7 @@ masm
 store32
 (
 countReg
-useCountAddr
+warmUpCounterAddr
 )
 ;
 /
@@ -4543,10 +4545,10 @@ finally
 block
 increment
 the
-use
+warmup
 /
 /
-count
+counter
 but
 don
 '
@@ -4701,7 +4703,7 @@ skipCall
 Call
 IC
 .
-ICUseCount_Fallback
+ICWarmUpCounter_Fallback
 :
 :
 Compiler
@@ -6918,7 +6920,7 @@ syncStack
 )
 ;
 return
-emitUseCountIncrement
+emitWarmUpCounterIncrement
 (
 LoopEntryCanIonOsr
 (

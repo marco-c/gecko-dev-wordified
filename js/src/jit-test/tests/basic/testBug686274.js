@@ -33,7 +33,7 @@ setJitCompilerOption
 "
 baseline
 .
-usecount
+warmup
 .
 trigger
 "

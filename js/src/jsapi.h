@@ -32026,11 +32026,11 @@ Register
 \
 Register
 (
-BASELINE_USECOUNT_TRIGGER
+BASELINE_WARMUP_TRIGGER
 "
 baseline
 .
-usecount
+warmup
 .
 trigger
 "
@@ -32038,11 +32038,11 @@ trigger
 \
 Register
 (
-ION_USECOUNT_TRIGGER
+ION_WARMUP_TRIGGER
 "
 ion
 .
-usecount
+warmup
 .
 trigger
 "

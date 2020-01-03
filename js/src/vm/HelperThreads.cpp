@@ -3331,7 +3331,10 @@ hasIonScript
 /
 A
 higher
-useCount
+warm
+-
+up
+counter
 indicates
 a
 higher
@@ -3346,7 +3349,7 @@ script
 )
 -
 >
-getUseCount
+getWarmUpCounter
 (
 )
 /
@@ -3370,7 +3373,7 @@ script
 )
 -
 >
-getUseCount
+getWarmUpCounter
 (
 )
 /

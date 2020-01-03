@@ -8103,7 +8103,7 @@ invalidate
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;
@@ -14945,7 +14945,7 @@ cx
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;

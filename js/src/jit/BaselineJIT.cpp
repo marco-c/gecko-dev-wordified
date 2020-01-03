@@ -1774,8 +1774,10 @@ Method_Compiled
 /
 Check
 script
-use
-count
+warm
+-
+up
+counter
 .
 /
 /
@@ -1825,7 +1827,9 @@ OSRing
 during
 /
 /
-warmup
+warm
+-
+up
 and
 only
 gathering
@@ -1873,7 +1877,7 @@ if
 script
 -
 >
-incUseCount
+incWarmUpCounter
 (
 )
 <

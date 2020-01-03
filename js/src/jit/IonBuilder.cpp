@@ -4458,7 +4458,9 @@ d
 p
 )
 (
-usecount
+warmup
+-
+counter
 =
 %
 d
@@ -4499,7 +4501,7 @@ script
 )
 -
 >
-getUseCount
+getWarmUpCounter
 (
 )
 OptimizationLevelString
@@ -4533,7 +4535,9 @@ d
 p
 )
 (
-usecount
+warmup
+-
+counter
 =
 %
 d
@@ -4574,7 +4578,7 @@ script
 )
 -
 >
-getUseCount
+getWarmUpCounter
 (
 )
 OptimizationLevelString
@@ -9466,7 +9470,7 @@ alloc
 unsigned
 nuses
 =
-GetUseCount
+GetWarmUpCounter
 (
 script_
 script_
@@ -9531,7 +9535,7 @@ append
 def
 -
 >
-defUseCount
+defWarmUpCounter
 (
 )
 )
@@ -9799,7 +9803,7 @@ i
 ]
 -
 >
-defUseCount
+defWarmUpCounter
 (
 )
 >
@@ -29227,7 +29231,7 @@ if
 targetScript
 -
 >
-getUseCount
+getWarmUpCounter
 (
 )
 <
@@ -44083,7 +44087,10 @@ recompiled
 when
 /
 /
-usecount
+warm
+-
+up
+counter
 is
 high
 enough
@@ -44123,12 +44130,15 @@ to
 recompile
 when
 the
-usecount
+warm
+-
+up
+counter
 reaches
 the
-usecount
 /
 /
+threshold
 of
 the
 next
@@ -44158,7 +44168,7 @@ nextLevel
 )
 ;
 uint32_t
-useCount
+warmUpCounter
 =
 info
 -
@@ -44192,7 +44202,7 @@ topBuilder
 script
 (
 )
-useCount
+warmUpCounter
 )
 )
 ;

@@ -3983,7 +3983,7 @@ this
 JIT
 code
 increments
-activeUseCount
+activeWarmUpCounter
 for
 any
 RegExpShared

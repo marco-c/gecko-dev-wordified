@@ -1374,8 +1374,10 @@ script
 /
 *
 *
-Use
-counts
+Warm
+-
+up
+counter
 for
 scripts
 are
@@ -1417,7 +1419,7 @@ properties
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;
