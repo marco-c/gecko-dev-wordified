@@ -98,10 +98,6 @@ requestLongerTimeout
 2
 )
 ;
-requestCompleteLog
-(
-)
-;
 gTests
 =
 runTest
