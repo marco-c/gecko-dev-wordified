@@ -1221,7 +1221,7 @@ eMouseEventClass
 EVENT
 (
 mouseenter
-NS_MOUSEENTER
+eMouseEnter
 EventNameType_All
 eMouseEventClass
 )

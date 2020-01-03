@@ -438,7 +438,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSEENTER
+eMouseEnter
 eMouseEventFirst
 +
 34
