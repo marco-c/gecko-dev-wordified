@@ -615,6 +615,7 @@ char
 *
 messageID
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPIPNSSBundleString
@@ -627,6 +628,7 @@ nsAString
 &
 outString
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PIPBundleFormatStringFromName
@@ -646,6 +648,7 @@ nsAString
 &
 outString
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNSSBundleString
@@ -658,6 +661,7 @@ nsAString
 &
 outString
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NSSBundleFormatStringFromName
@@ -677,11 +681,13 @@ nsAString
 &
 outString
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 LogoutAuthenticatedPK11
 (
 )
+MOZ_OVERRIDE
 ;
 #
 ifndef
@@ -693,6 +699,7 @@ SECMODModule
 *
 module
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ShutdownSmartCardThread
@@ -701,6 +708,7 @@ SECMODModule
 *
 module
 )
+MOZ_OVERRIDE
 ;
 void
 LaunchSmartCardThreads
@@ -737,6 +745,7 @@ bool
 *
 initialized
 )
+MOZ_OVERRIDE
 ;
 :
 :
