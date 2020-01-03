@@ -2225,6 +2225,16 @@ nsACString
 aBaseDomain
 )
 {
+if
+(
+!
+aHostURI
+)
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
 /
 /
 Get
