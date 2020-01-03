@@ -1542,16 +1542,6 @@ Atomic
 <
 size_t
 >
-sD3D9SurfaceImageUsed
-;
-static
-mozilla
-:
-:
-Atomic
-<
-size_t
->
 sD3D9SharedTextureUsed
 ;
 void
