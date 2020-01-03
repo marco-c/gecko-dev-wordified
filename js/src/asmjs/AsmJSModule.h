@@ -464,6 +464,8 @@ AsmJSSimdOperation_withX
 AsmJSSimdOperation_withY
 AsmJSSimdOperation_withZ
 AsmJSSimdOperation_withW
+AsmJSSimdOperation_fromInt32x4
+AsmJSSimdOperation_fromFloat32x4
 }
 ;
 /
