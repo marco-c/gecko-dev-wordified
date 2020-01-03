@@ -777,10 +777,7 @@ gNodeInfoManagerLeakPRLog
 MOZ_LOG
 (
 gNodeInfoManagerLeakPRLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 NODEINFOMANAGER
@@ -853,10 +850,7 @@ gNodeInfoManagerLeakPRLog
 MOZ_LOG
 (
 gNodeInfoManagerLeakPRLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 NODEINFOMANAGER
@@ -1082,10 +1076,7 @@ gNodeInfoManagerLeakPRLog
 MOZ_LOG
 (
 gNodeInfoManagerLeakPRLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 NODEINFOMANAGER

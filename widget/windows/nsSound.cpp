@@ -223,12 +223,6 @@ nsThreadUtils
 .
 h
 "
-using
-mozilla
-:
-:
-LogLevel
-;
 PRLogModuleInfo
 *
 gWin32SoundLog
@@ -827,10 +821,7 @@ uriSpec
 MOZ_LOG
 (
 gWin32SoundLog
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 (
 "
 Failed
@@ -984,10 +975,7 @@ url
 MOZ_LOG
 (
 gWin32SoundLog
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 (
 "
 %

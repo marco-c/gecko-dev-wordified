@@ -2619,10 +2619,7 @@ aQueryNode
 MOZ_LOG
 (
 gXULTemplateLog
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 (
 "
 nsXULTemplateBuilder
@@ -10303,13 +10300,10 @@ is
 used
 if
 (
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 gXULTemplateLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 )
 )
 mFlags

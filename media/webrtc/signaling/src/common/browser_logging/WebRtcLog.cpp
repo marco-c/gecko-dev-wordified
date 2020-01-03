@@ -152,12 +152,6 @@ h
 "
 #
 endif
-using
-mozilla
-:
-:
-LogLevel
-;
 static
 int
 gWebRtcTraceLoggingOn
@@ -283,10 +277,7 @@ GetWebRtcTraceLog
 MOZ_LOG
 (
 log
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 %

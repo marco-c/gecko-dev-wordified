@@ -1127,13 +1127,10 @@ rv
 )
 &
 &
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 gConPolLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 )
 )
 {
@@ -1230,10 +1227,7 @@ refSpec
 MOZ_LOG
 (
 gConPolLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 \
 (
 "

@@ -215,13 +215,7 @@ MOZ_LOG
 GetLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 nsEventQueue

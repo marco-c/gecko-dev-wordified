@@ -287,10 +287,7 @@ msg
 MOZ_LOG
 (
 gWindowsLog
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 (
 "
 %
@@ -359,10 +356,7 @@ nicer
 MOZ_LOG
 (
 gWindowsLog
-LogLevel
-:
-:
-Error
+PR_LOG_ERROR
 (
 "
 direct
@@ -409,10 +403,7 @@ DEBUG
 MOZ_LOG
 (
 gWindowsLog
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 (
 "
 is_vk_down

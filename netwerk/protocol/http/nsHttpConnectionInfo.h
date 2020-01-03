@@ -554,10 +554,7 @@ nsHttpConnectionInfo
 MOZ_LOG
 (
 gHttpLog
-LogLevel
-:
-:
-Debug
+4
 (
 "
 Destroying

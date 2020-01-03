@@ -242,13 +242,7 @@ args
 MOZ_LOG
 (
 gUrlClassifierStreamUpdaterLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 /

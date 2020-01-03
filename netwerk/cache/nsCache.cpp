@@ -175,10 +175,7 @@ n
 void
 CacheLogPrintPath
 (
-mozilla
-:
-:
-LogLevel
+PRLogModuleLevel
 level
 const
 char

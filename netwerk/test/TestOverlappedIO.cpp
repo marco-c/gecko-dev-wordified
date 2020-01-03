@@ -243,13 +243,7 @@ args
 MOZ_LOG
 (
 gTestSocketIOLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 static

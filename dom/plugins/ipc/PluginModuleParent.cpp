@@ -12177,10 +12177,7 @@ MOZ_LOG
 GetPluginLog
 (
 )
-LogLevel
-:
-:
-Warning
+PR_LOG_WARNING
 (
 "
 %

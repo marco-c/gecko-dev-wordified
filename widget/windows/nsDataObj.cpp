@@ -4747,10 +4747,7 @@ pSTM
 MOZ_LOG
 (
 gWindowsLog
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 /
 /
 (

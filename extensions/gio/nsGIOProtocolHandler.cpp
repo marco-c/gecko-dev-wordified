@@ -322,13 +322,7 @@ args
 MOZ_LOG
 (
 sGIOLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 /

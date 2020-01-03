@@ -253,10 +253,7 @@ log
 /
 this
 enables
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 level
 information
 and
@@ -314,13 +311,7 @@ MOZ_LOG
 GetObserverServiceLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 x
 )
 namespace

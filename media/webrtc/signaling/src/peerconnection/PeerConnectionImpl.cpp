@@ -2080,15 +2080,12 @@ aGlobal
 :
 mTimeCard
 (
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 signalingLogInfo
 (
 )
-LogLevel
-:
-:
-Error
+PR_LOG_ERROR
 )
 ?
 create_timecard

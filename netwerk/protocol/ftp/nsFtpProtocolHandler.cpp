@@ -394,10 +394,7 @@ log
 /
 this
 enables
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 level
 information
 and
@@ -432,13 +429,7 @@ args
 MOZ_LOG
 (
 gFTPLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 /

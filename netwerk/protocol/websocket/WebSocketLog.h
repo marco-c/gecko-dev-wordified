@@ -163,13 +163,7 @@ args
 MOZ_LOG
 (
 webSocketLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 #

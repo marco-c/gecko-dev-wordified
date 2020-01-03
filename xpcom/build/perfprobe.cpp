@@ -270,13 +270,7 @@ MOZ_LOG
 GetProbeLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 x
 )
 #

@@ -360,13 +360,7 @@ x
 )
 LOG
 (
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 "
 GMPChild
 [

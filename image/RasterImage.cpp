@@ -621,15 +621,12 @@ LOG_CONTAINER_ERROR
 \
 PR_BEGIN_MACRO
 \
-MOZ_LOG
+PR_LOG
 (
 GetImgLog
 (
 )
-LogLevel
-:
-:
-Error
+PR_LOG_ERROR
 \
 (
 "

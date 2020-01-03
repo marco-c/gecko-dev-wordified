@@ -224,13 +224,7 @@ args
 MOZ_LOG
 (
 gRtspChildLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 const

@@ -635,10 +635,7 @@ sInstance
 ;
 DECODER_LOG
 (
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 MediaShutdownManager
@@ -852,10 +849,7 @@ nullptr
 ;
 DECODER_LOG
 (
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 MediaShutdownManager
