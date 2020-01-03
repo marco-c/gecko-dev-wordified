@@ -592,12 +592,14 @@ Browsing
 history
 "
 "
+Search
+history
+"
+"
 Downloads
 "
 "
 Form
-&
-search
 history
 "
 "
