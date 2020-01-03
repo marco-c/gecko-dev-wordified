@@ -2633,9 +2633,7 @@ nullptr
 )
 mTaskFactory
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 )
 mIsStartingAsync
 (
@@ -2787,9 +2785,7 @@ aPluginId
 )
 mChromeTaskFactory
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 )
 mHangAnnotationFlags
 (

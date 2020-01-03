@@ -7224,15 +7224,11 @@ AsyncPanZoomController
 )
 mX
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 )
 mY
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 )
 mPanDirRestricted
 (

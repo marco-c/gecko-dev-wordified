@@ -212,9 +212,7 @@ notifyData
 )
 mDeliveryTracker
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 )
 {
 PLUGIN_LOG_DEBUG

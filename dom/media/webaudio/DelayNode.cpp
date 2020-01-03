@@ -1116,9 +1116,7 @@ mDelay
 new
 AudioParam
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 SendDelayToStream
 0
 .

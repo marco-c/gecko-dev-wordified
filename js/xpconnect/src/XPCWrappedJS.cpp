@@ -2567,9 +2567,7 @@ root
 ?
 root
 :
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 )
 mNext
 (

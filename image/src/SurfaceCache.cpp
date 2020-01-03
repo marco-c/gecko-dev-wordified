@@ -1858,9 +1858,7 @@ aSurfaceCacheSize
 :
 mExpirationTracker
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 aSurfaceCacheExpirationTimeMS
 )
 mMemoryPressureObserver
