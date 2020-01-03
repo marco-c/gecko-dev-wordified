@@ -2229,13 +2229,10 @@ r
 forget
 (
 )
-/
-*
-aAssertDispatchSuccess
-=
-*
-/
-false
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 }

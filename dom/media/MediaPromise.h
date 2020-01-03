@@ -1559,13 +1559,10 @@ runnable
 forget
 (
 )
-/
-*
-aAssertDispatchSuccess
-=
-*
-/
-false
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 }
