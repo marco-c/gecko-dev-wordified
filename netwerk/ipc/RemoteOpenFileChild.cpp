@@ -1499,10 +1499,6 @@ file
 )
 ;
 }
-mListener
-=
-aListener
-;
 if
 (
 mTabChild
@@ -1605,6 +1601,10 @@ Send__delete
 AddIPDLReference
 (
 )
+;
+mListener
+=
+aListener
 ;
 mAsyncOpenCalled
 =
