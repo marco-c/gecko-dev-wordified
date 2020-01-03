@@ -784,6 +784,19 @@ armeabi
 v7a
 "
             
+for
+subdir
+in
+[
+"
+assets
+"
+"
+lib
+"
+]
+:
+                
 local_arm_lib
 =
 os
@@ -797,11 +810,9 @@ self
 options
 .
 local_lib
-"
-lib
-"
+subdir
 )
-            
+                
 if
 os
 .
@@ -812,7 +823,7 @@ isdir
 local_arm_lib
 )
 :
-                
+                    
 for
 root
 dirs
@@ -825,13 +836,13 @@ walk
 local_arm_lib
 )
 :
-                    
+                        
 for
 file
 in
 files
 :
-                        
+                            
 if
 (
 file
@@ -845,7 +856,7 @@ so
 )
 )
 :
-                            
+                                
 remote_file
 =
 posixpath
@@ -857,7 +868,7 @@ self
 remote_bin_dir
 file
 )
-                            
+                                
 self
 .
 device
