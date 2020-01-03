@@ -3482,6 +3482,9 @@ SendPlaybackRateToStream
 1
 .
 0f
+"
+playbackRate
+"
 )
 )
 mDetune
@@ -3494,6 +3497,9 @@ SendDetuneToStream
 0
 .
 0f
+"
+detune
+"
 )
 )
 mLoop
