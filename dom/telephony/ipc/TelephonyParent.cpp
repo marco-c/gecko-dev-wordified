@@ -2634,6 +2634,8 @@ TelephonyRequestParent
 NotifyDialCallSuccess
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 const
 nsAString
@@ -2646,6 +2648,7 @@ SendResponse
 (
 DialResponseCallSuccess
 (
+aClientId
 aCallIndex
 nsAutoString
 (
