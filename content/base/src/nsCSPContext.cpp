@@ -3115,11 +3115,15 @@ GetCurrentInnerWindow
 ;
 return
 inner
+?
+inner
 -
 >
 WindowID
 (
 )
+:
+0
 ;
 }
 NS_IMETHODIMP
