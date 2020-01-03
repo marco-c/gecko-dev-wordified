@@ -858,9 +858,6 @@ rilMessageType
 "
 exitEmergencyCbMode
 "
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;

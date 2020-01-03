@@ -291,9 +291,6 @@ REQUEST_SET_CALL_FORWARD
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -401,9 +398,6 @@ REQUEST_SET_CALL_FORWARD
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -516,9 +510,6 @@ REQUEST_QUERY_CALL_FORWARD_STATUS
 (
 1
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;

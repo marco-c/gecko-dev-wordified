@@ -300,9 +300,6 @@ REQUEST_SEND_USSD
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -431,9 +428,6 @@ REQUEST_ENTER_SIM_PIN
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -702,9 +696,6 @@ REQUEST_ENTER_SIM_PIN2
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -973,9 +964,6 @@ REQUEST_ENTER_SIM_PUK
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -1244,9 +1232,6 @@ REQUEST_ENTER_SIM_PUK2
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -1522,9 +1507,6 @@ REQUEST_SEND_USSD
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -1642,9 +1624,6 @@ REQUEST_SEND_USSD
 (
 0
 {
-rilRequestError
-:
-ERROR_RADIO_NOT_AVAILABLE
 errorMsg
 :
 GECKO_ERROR_RADIO_NOT_AVAILABLE
@@ -1790,9 +1769,6 @@ rilMessageType
 "
 sendMMI
 "
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -1958,9 +1934,6 @@ sendMMI
 procedure
 :
 MMI_PROCEDURE_ACTIVATION
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -2101,9 +2074,6 @@ sendMMI
 procedure
 :
 MMI_PROCEDURE_DEACTIVATION
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -2268,9 +2238,6 @@ REQUEST_SEND_USSD
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -2409,9 +2376,6 @@ REQUEST_SEND_USSD
 (
 0
 {
-rilRequestError
-:
-ERROR_GENERIC_FAILURE
 errorMsg
 :
 GECKO_ERROR_GENERIC_FAILURE
@@ -2555,9 +2519,6 @@ REQUEST_SET_CALL_WAITING
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -2813,9 +2774,6 @@ REQUEST_QUERY_CALL_WAITING
 (
 1
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;

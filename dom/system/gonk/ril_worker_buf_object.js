@@ -650,12 +650,6 @@ options
 .
 rilRequestType
 ;
-options
-.
-rilRequestError
-=
-error
-;
 if
 (
 error
@@ -951,12 +945,6 @@ options
 rilRequestType
 =
 type
-;
-options
-.
-rilRequestError
-=
-null
 ;
 this
 .

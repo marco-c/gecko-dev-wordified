@@ -554,9 +554,9 @@ REQUEST_SIM_IO
 (
 0
 {
-rilRequestError
+errorMsg
 :
-ERROR_GENERIC_FAILURE
+GECKO_ERROR_GENERIC_FAILURE
 }
 )
 ;

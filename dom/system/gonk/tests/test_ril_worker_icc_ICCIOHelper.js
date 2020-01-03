@@ -402,9 +402,6 @@ REQUEST_SIM_IO
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 fileId
 :
 0xffff

@@ -299,9 +299,6 @@ REQUEST_CHANGE_BARRING_PASSWORD
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;

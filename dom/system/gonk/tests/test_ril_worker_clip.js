@@ -155,9 +155,6 @@ REQUEST_QUERY_CLIP
 (
 1
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -308,9 +305,6 @@ REQUEST_QUERY_CLIP
 (
 1
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;

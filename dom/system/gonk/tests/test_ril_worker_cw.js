@@ -112,9 +112,6 @@ REQUEST_SET_CALL_WAITING
 (
 0
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -216,9 +213,6 @@ REQUEST_SET_CALL_WAITING
 (
 0
 {
-rilRequestError
-:
-ERROR_GENERIC_FAILURE
 errorMsg
 :
 GECKO_ERROR_GENERIC_FAILURE
@@ -369,9 +363,6 @@ REQUEST_QUERY_CALL_WAITING
 (
 1
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -530,9 +521,6 @@ REQUEST_QUERY_CALL_WAITING
 (
 1
 {
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
