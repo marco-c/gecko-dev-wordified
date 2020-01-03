@@ -3062,7 +3062,7 @@ WidgetEvent
 svgScrollEvent
 (
 true
-NS_SVG_SCROLL
+eSVGScroll
 )
 ;
 presShell

@@ -1334,7 +1334,7 @@ eSVGEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SVG_SCROLL
+eSVGScroll
 eSVGEventFirst
 +
 5
