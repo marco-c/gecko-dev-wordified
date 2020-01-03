@@ -430,6 +430,10 @@ typedef
 RegisterID
 Code
 ;
+typedef
+RegisterID
+Encoding
+;
 static
 const
 char
@@ -1156,6 +1160,10 @@ invalid_freg
 typedef
 FPRegisterID
 Code
+;
+typedef
+FPRegisterID
+Encoding
 ;
 static
 const
@@ -1916,6 +1924,13 @@ Codes
 :
 Code
 Code
+;
+typedef
+Codes
+:
+:
+Encoding
+Encoding
 ;
 protected
 :
