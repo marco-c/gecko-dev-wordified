@@ -22000,11 +22000,11 @@ bug
 comment
 4
 .
-NS_ASSERTION
+NS_WARN_IF_FALSE
 (
 aFrame
 "
-No
+no
 ruby
 base
 ancestor
