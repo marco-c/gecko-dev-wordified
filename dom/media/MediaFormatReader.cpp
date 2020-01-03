@@ -8827,11 +8827,15 @@ VideoFrameContainer
 container
 =
 mDecoder
+?
+mDecoder
 -
 >
 GetVideoFrameContainer
 (
 )
+:
+nullptr
 ;
 if
 (
