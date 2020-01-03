@@ -5925,6 +5925,8 @@ obj
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 )
 {
 XPCCallContext

@@ -13073,6 +13073,8 @@ obj
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 )
 {
 MOZ_ASSERT

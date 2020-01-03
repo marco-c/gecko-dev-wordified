@@ -3734,6 +3734,8 @@ obj
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 )
 ;
 public
