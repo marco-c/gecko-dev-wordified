@@ -117,7 +117,9 @@ proxy_DeadObjectProxy_h
 #
 include
 "
-jsproxy
+js
+/
+Proxy
 .
 h
 "

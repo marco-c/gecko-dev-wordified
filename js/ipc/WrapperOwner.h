@@ -153,7 +153,9 @@ h
 #
 include
 "
-jsproxy
+js
+/
+Proxy
 .
 h
 "
@@ -227,9 +229,7 @@ order
 like
 js
 /
-src
-/
-jsproxy
+Proxy
 .
 h
 )

@@ -111,7 +111,9 @@ MPL
 #
 include
 "
-jsproxy
+js
+/
+Proxy
 .
 h
 "
