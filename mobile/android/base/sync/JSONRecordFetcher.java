@@ -497,6 +497,7 @@ exception
 null
 ;
 private
+final
 CountDownLatch
 latch
 ;

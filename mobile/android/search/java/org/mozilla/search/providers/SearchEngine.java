@@ -531,6 +531,7 @@ s
 "
 ;
 private
+final
 String
 identifier
 ;

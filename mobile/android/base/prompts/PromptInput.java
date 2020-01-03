@@ -785,6 +785,7 @@ checkbox
 "
 ;
 private
+final
 boolean
 mChecked
 ;

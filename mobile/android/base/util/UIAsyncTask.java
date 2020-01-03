@@ -525,6 +525,7 @@ implements
 Runnable
 {
 private
+final
 Param
 mParam
 ;

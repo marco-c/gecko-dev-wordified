@@ -290,6 +290,7 @@ PanelViewAdapter
 adapter
 ;
 private
+final
 PanelViewItemHandler
 itemHandler
 ;

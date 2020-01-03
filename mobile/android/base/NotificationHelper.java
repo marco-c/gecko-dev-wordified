@@ -581,6 +581,7 @@ closed
 "
 ;
 private
+final
 Context
 mContext
 ;

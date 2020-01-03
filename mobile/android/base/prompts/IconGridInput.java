@@ -374,6 +374,7 @@ mSelected
 Current
 selection
 private
+final
 JSONArray
 mArray
 ;

@@ -1072,6 +1072,7 @@ frame
 *
 /
 private
+final
 float
 [
 ]

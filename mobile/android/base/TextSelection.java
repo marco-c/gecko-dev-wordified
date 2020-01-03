@@ -385,6 +385,7 @@ selection
 mode
 .
 private
+final
 Timer
 mActionModeTimer
 =

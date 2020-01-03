@@ -264,6 +264,7 @@ mUrlOpenListener
 Top
 divider
 private
+final
 boolean
 mShowTopDivider
 ;

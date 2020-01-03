@@ -6746,6 +6746,7 @@ too
 *
 /
 private
+final
 HashMap
 <
 String

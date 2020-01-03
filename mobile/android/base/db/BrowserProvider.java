@@ -2028,6 +2028,7 @@ call
 .
 private
 static
+final
 boolean
 logDebug
 =
@@ -2043,6 +2044,7 @@ DEBUG
 ;
 private
 static
+final
 boolean
 logVerbose
 =

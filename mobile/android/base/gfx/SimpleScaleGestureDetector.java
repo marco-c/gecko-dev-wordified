@@ -333,6 +333,7 @@ GeckoSimpleScaleGestureDetector
 "
 ;
 private
+final
 SimpleScaleGestureListener
 mListener
 ;
@@ -357,6 +358,7 @@ down
 *
 /
 private
+final
 LinkedList
 <
 PointerInfo

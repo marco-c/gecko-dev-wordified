@@ -373,6 +373,7 @@ stroke
 .
 private
 static
+final
 Paint
 sStrokePaint
 ;
@@ -386,6 +387,7 @@ background
 .
 private
 static
+final
 Paint
 sBackgroundPaint
 ;

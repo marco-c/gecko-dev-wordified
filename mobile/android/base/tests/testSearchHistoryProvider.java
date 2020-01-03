@@ -571,6 +571,7 @@ class
 /
 private
 static
+final
 Callable
 <
 ContentProvider

@@ -311,6 +311,7 @@ URI_MATCHER
 ;
 private
 static
+final
 HashMap
 <
 String
@@ -320,6 +321,7 @@ PASSWORDS_PROJECTION_MAP
 ;
 private
 static
+final
 HashMap
 <
 String

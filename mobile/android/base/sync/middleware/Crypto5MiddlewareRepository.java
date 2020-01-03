@@ -219,10 +219,12 @@ MiddlewareRepository
 SessionCreationDelegate
 {
 private
+final
 Crypto5MiddlewareRepository
 repository
 ;
 private
+final
 RepositorySessionCreationDelegate
 outerDelegate
 ;
@@ -345,6 +347,7 @@ KeyBundle
 keyBundle
 ;
 private
+final
 Repository
 inner
 ;

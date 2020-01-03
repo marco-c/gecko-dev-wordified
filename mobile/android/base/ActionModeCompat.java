@@ -143,14 +143,17 @@ GeckoActionModeCompat
 "
 ;
 private
+final
 Callback
 mCallback
 ;
 private
+final
 ActionModeCompatView
 mView
 ;
 private
+final
 Presenter
 mPresenter
 ;

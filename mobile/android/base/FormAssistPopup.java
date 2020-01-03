@@ -2605,10 +2605,12 @@ String
 >
 {
 private
+final
 LayoutInflater
 mInflater
 ;
 private
+final
 int
 mTextViewResourceId
 ;

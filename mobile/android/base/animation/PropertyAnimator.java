@@ -265,6 +265,7 @@ onPropertyAnimationEnd
 ;
 }
 private
+final
 Interpolator
 mInterpolator
 ;
@@ -273,14 +274,17 @@ long
 mStartTime
 ;
 private
+final
 long
 mDuration
 ;
 private
+final
 float
 mDurationReciprocal
 ;
 private
+final
 List
 <
 ElementHolder

@@ -146,6 +146,7 @@ extends
 InputStream
 {
 private
+final
 ByteBuffer
 mByteBuffer
 ;

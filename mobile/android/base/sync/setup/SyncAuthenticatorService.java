@@ -1001,6 +1001,7 @@ extends
 AbstractAccountAuthenticator
 {
 private
+final
 Context
 mContext
 ;

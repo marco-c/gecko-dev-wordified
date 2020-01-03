@@ -368,6 +368,7 @@ panelInfos
 }
 private
 static
+final
 AtomicInteger
 sRequestId
 =

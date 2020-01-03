@@ -411,14 +411,17 @@ in
 inches
 ;
 private
+final
 int
 mScreenWidth
 ;
 private
+final
 int
 mScreenHeight
 ;
 private
+final
 OnValueChangeListener
 mOnChangeListener
 ;
@@ -540,6 +543,7 @@ Calendar
 mMaxDate
 ;
 private
+final
 PickersState
 mState
 ;

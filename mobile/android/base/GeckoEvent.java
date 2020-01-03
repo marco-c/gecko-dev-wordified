@@ -372,6 +372,7 @@ here
 .
 private
 static
+final
 SparseArray
 <
 ArrayBlockingQueue

@@ -402,6 +402,7 @@ short
 lived
 .
 private
+final
 Handler
 mHandler
 =
@@ -1602,6 +1603,7 @@ mRequestFocus
 ;
 }
 private
+final
 OnKeyListener
 mListOnKeyListener
 =

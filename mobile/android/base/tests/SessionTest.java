@@ -209,10 +209,12 @@ class
 PageInfo
 {
 private
+final
 String
 url
 ;
 private
+final
 String
 title
 ;

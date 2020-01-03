@@ -378,6 +378,7 @@ HomeConfig
 mConfig
 ;
 private
+final
 ConfigLoaderCallbacks
 mConfigLoaderCallbacks
 ;

@@ -591,10 +591,12 @@ implements
 BooleanTest
 {
 private
+final
 String
 mTitle
 ;
 private
+final
 int
 mColor
 ;

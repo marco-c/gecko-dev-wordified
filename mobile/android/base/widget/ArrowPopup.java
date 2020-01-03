@@ -241,6 +241,7 @@ int
 mArrowWidth
 ;
 private
+final
 int
 mYOffset
 ;

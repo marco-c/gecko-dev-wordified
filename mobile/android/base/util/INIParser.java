@@ -145,6 +145,7 @@ and
 write
 to
 private
+final
 File
 mFile
 ;

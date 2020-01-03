@@ -326,6 +326,7 @@ robocop
 for
 testing
 private
+final
 boolean
 mCheckNetwork
 ;

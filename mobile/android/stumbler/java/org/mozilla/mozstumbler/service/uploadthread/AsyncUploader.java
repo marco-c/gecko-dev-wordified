@@ -315,6 +315,7 @@ mListener
 ;
 private
 static
+final
 AtomicBoolean
 sIsUploading
 =

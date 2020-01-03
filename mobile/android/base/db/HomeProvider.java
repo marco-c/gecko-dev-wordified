@@ -237,6 +237,7 @@ HomeProvider
 jsm
 private
 static
+final
 int
 DB_VERSION
 =
@@ -244,6 +245,7 @@ DB_VERSION
 ;
 private
 static
+final
 String
 DB_FILENAME
 =

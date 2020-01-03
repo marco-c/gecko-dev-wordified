@@ -499,6 +499,7 @@ RenderTask
 mTasks
 ;
 private
+final
 CopyOnWriteArrayList
 <
 Layer
@@ -519,6 +520,7 @@ Dropped
 frames
 display
 private
+final
 int
 [
 ]
@@ -2731,6 +2733,7 @@ render
 content
 .
 private
+final
 ImmutableViewportMetrics
 mFrameMetrics
 ;
@@ -2753,6 +2756,7 @@ positioned
 layers
 .
 private
+final
 RenderContext
 mPageContext
 mScreenContext

@@ -167,6 +167,7 @@ mFormat
 ;
 private
 static
+final
 String
 LOGTAG
 =

@@ -322,6 +322,7 @@ Utils
 ;
 private
 static
+final
 SecureRandom
 sharedSecureRandom
 =

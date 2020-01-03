@@ -129,6 +129,7 @@ the
 device
 .
 private
+final
 int
 mDensity
 ;

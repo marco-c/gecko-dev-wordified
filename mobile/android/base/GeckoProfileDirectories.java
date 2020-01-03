@@ -342,6 +342,7 @@ profile
 /
 private
 static
+final
 INISectionPredicate
 sectionIsDefault
 =
@@ -397,6 +398,7 @@ field
 /
 private
 static
+final
 INISectionPredicate
 sectionHasName
 =

@@ -144,6 +144,7 @@ subsequent
 fetch
 .
 private
+final
 HashSet
 <
 String

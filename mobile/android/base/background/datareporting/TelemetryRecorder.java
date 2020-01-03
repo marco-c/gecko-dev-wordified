@@ -410,6 +410,7 @@ File
 destFile
 ;
 private
+final
 File
 cacheDir
 ;

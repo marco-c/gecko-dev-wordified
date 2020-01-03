@@ -305,6 +305,7 @@ need
 it
 .
 private
+final
 JSONRecordFetcher
 countFetcher
 ;
@@ -444,6 +445,7 @@ limit
 *
 /
 private
+final
 long
 fetchLimit
 ;

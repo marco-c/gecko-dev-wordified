@@ -188,6 +188,7 @@ GeckoSubdocScroll
 ;
 private
 static
+final
 String
 MESSAGE_PANNING_OVERRIDE
 =
@@ -199,6 +200,7 @@ Override
 ;
 private
 static
+final
 String
 MESSAGE_CANCEL_OVERRIDE
 =
@@ -210,6 +212,7 @@ CancelOverride
 ;
 private
 static
+final
 String
 MESSAGE_SCROLL
 =
@@ -221,6 +224,7 @@ Scroll
 ;
 private
 static
+final
 String
 MESSAGE_SCROLL_ACK
 =

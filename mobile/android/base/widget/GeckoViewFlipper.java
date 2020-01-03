@@ -199,6 +199,7 @@ extends
 ViewFlipper
 {
 private
+final
 Rect
 mRect
 =

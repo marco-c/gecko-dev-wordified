@@ -232,6 +232,7 @@ UPDATE_THRESHOLD
 01
 ;
 private
+final
 Context
 mContext
 ;

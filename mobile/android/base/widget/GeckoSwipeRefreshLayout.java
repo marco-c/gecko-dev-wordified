@@ -599,6 +599,7 @@ boolean
 mRefreshing
 ;
 private
+final
 int
 mTouchSlop
 ;
@@ -614,6 +615,7 @@ float
 mPrevY
 ;
 private
+final
 int
 mProgressBarHeight
 ;
@@ -3143,10 +3145,12 @@ int
 mColor4
 ;
 private
+final
 View
 mParent
 ;
 private
+final
 Rect
 mBounds
 =

@@ -170,6 +170,7 @@ String
 ellipsis
 ;
 private
+final
 int
 maxLines
 ;

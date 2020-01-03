@@ -219,6 +219,7 @@ implements
 Editor
 {
 private
+final
 String
 prefix
 ;
@@ -616,10 +617,12 @@ implements
 SharedPreferences
 {
 private
+final
 SyncConfiguration
 config
 ;
 private
+final
 String
 prefix
 ;

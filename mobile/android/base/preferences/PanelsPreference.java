@@ -338,6 +338,7 @@ boolean
 mIsHidden
 ;
 private
+final
 boolean
 mIsRemovable
 ;

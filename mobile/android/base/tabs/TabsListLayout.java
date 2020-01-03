@@ -329,6 +329,7 @@ getSimpleName
 )
 ;
 private
+final
 Context
 mContext
 ;
@@ -342,10 +343,12 @@ boolean
 mIsPrivate
 ;
 private
+final
 TabsLayoutAdapter
 mTabsAdapter
 ;
 private
+final
 List
 <
 View
@@ -361,6 +364,7 @@ int
 mCloseAllAnimationCount
 ;
 private
+final
 TabSwipeGestureListener
 mSwipeListener
 ;
@@ -566,6 +570,7 @@ extends
 TabsLayoutAdapter
 {
 private
+final
 Button
 .
 OnClickListener
@@ -2347,14 +2352,17 @@ MIN_VELOCITY
 750
 ;
 private
+final
 int
 mSwipeThreshold
 ;
 private
+final
 int
 mMinFlingVelocity
 ;
 private
+final
 int
 mMaxFlingVelocity
 ;

@@ -6336,6 +6336,7 @@ InputConnection
 mProxy
 ;
 private
+final
 StringBuilder
 mCallLevel
 ;

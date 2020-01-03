@@ -619,6 +619,7 @@ menu
 items
 .
 private
+final
 List
 <
 GeckoMenuItem
@@ -644,6 +645,7 @@ their
 views
 .
 private
+final
 Map
 <
 GeckoMenuItem
@@ -670,6 +672,7 @@ their
 views
 .
 private
+final
 Map
 <
 GeckoMenuItem
@@ -755,6 +758,7 @@ menu
 items
 .
 private
+final
 MenuItemsAdapter
 mAdapter
 ;
@@ -3632,6 +3636,7 @@ VIEW_TYPE_ACTION_MODE
 1
 ;
 private
+final
 List
 <
 GeckoMenuItem

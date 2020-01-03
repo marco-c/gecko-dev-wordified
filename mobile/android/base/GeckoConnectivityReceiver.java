@@ -241,6 +241,7 @@ GeckoConnectivityReceiver
 ;
 private
 static
+final
 GeckoConnectivityReceiver
 sInstance
 =

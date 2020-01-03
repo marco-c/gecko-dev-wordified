@@ -429,6 +429,7 @@ INSERT_ITEM_THRESHOLD
 ;
 private
 static
+final
 Uri
 FORM_HISTORY_CONTENT_URI
 =
@@ -438,6 +439,7 @@ FORM_HISTORY_CONTENT_URI
 ;
 private
 static
+final
 Uri
 DELETED_FORM_HISTORY_CONTENT_URI
 =

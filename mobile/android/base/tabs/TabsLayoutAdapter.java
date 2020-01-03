@@ -193,6 +193,7 @@ getSimpleName
 )
 ;
 private
+final
 Context
 mContext
 ;
@@ -204,6 +205,7 @@ Tab
 mTabs
 ;
 private
+final
 LayoutInflater
 mInflater
 ;

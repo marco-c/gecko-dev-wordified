@@ -521,6 +521,7 @@ SendTabTargetSelectedListener
 listener
 ;
 private
+final
 State
 currentState
 =

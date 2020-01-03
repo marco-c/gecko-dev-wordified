@@ -136,6 +136,7 @@ the
 ByteBuffer
 .
 private
+final
 NativeReference
 mNativeRef
 ;

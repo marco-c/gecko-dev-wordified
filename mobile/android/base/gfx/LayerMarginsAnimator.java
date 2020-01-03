@@ -1818,6 +1818,7 @@ extends
 RenderTask
 {
 private
+final
 float
 mStartLeft
 mStartTop
@@ -1825,6 +1826,7 @@ mStartRight
 mStartBottom
 ;
 private
+final
 float
 mTop
 mBottom

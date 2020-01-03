@@ -155,6 +155,7 @@ PluginLayer
 "
 ;
 private
+final
 View
 mView
 ;
@@ -163,10 +164,12 @@ SurfaceView
 mSurfaceView
 ;
 private
+final
 PluginLayoutParams
 mLayoutParams
 ;
 private
+final
 AbsoluteLayout
 mContainer
 ;
@@ -614,6 +617,7 @@ RectF
 mRect
 ;
 private
+final
 int
 mMaxDimension
 ;

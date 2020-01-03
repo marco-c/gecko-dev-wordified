@@ -559,6 +559,7 @@ INVALID_TAB_ID
 ;
 private
 static
+final
 AtomicInteger
 sTabId
 =

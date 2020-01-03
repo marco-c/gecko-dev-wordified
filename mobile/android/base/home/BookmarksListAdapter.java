@@ -621,6 +621,7 @@ folder
 hierarchy
 .
 private
+final
 LinkedList
 <
 FolderInfo

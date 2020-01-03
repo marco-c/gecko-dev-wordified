@@ -406,6 +406,7 @@ for
 these
 .
 private
+final
 HashMap
 <
 String
@@ -423,6 +424,7 @@ Long
 )
 ;
 private
+final
 HashMap
 <
 Long
@@ -1035,6 +1037,7 @@ to
 these
 ?
 private
+final
 HashMap
 <
 String
@@ -1058,6 +1061,7 @@ String
 )
 ;
 private
+final
 HashMap
 <
 String
@@ -1081,6 +1085,7 @@ needsReparenting
 0
 ;
 private
+final
 AndroidBrowserBookmarksDataAccessor
 dataAccessor
 ;

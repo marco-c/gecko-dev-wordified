@@ -361,6 +361,7 @@ test
 /
 private
 static
+final
 Callable
 <
 ContentProvider

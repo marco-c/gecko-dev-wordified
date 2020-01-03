@@ -365,6 +365,7 @@ boolean
 mHasOpenSearch
 ;
 private
+final
 SiteIdentity
 mSiteIdentity
 ;
@@ -385,10 +386,12 @@ int
 mHistorySize
 ;
 private
+final
 int
 mParentId
 ;
 private
+final
 boolean
 mExternal
 ;
@@ -417,6 +420,7 @@ boolean
 mIsRTL
 ;
 private
+final
 ArrayList
 <
 View
@@ -424,6 +428,7 @@ View
 mPluginViews
 ;
 private
+final
 HashMap
 <
 Object
@@ -452,6 +457,7 @@ boolean
 mEnteringReaderMode
 ;
 private
+final
 Context
 mAppContext
 ;

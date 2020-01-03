@@ -248,6 +248,7 @@ RectF
 mCapRectF
 ;
 private
+final
 LayerRenderer
 mRenderer
 ;

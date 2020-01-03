@@ -622,6 +622,7 @@ ReportBatchIterator
 mReportBatchIterator
 ;
 private
+final
 ReportFileList
 mFileList
 ;

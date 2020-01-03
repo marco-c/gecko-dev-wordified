@@ -181,6 +181,7 @@ String
 mPropertyName
 ;
 private
+final
 List
 <
 Animator

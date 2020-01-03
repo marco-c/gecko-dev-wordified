@@ -274,6 +274,7 @@ and
 value
 .
 private
+final
 HashSet
 <
 DoorHanger

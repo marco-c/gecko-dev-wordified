@@ -205,6 +205,7 @@ extends
 AndroidBrowserRepositoryDataAccessor
 {
 private
+final
 AndroidBrowserHistoryDataExtender
 dataExtender
 ;

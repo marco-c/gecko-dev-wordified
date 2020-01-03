@@ -221,6 +221,7 @@ every
 query
 .
 private
+final
 String
 mDb
 ;

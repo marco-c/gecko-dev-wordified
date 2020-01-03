@@ -207,10 +207,12 @@ extends
 Thread
 {
 private
+final
 RepositorySessionCleanDelegate
 delegate
 ;
 private
+final
 Context
 context
 ;
@@ -349,10 +351,12 @@ extends
 Thread
 {
 private
+final
 RepositorySessionCreationDelegate
 delegate
 ;
 private
+final
 Context
 context
 ;

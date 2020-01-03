@@ -1395,6 +1395,7 @@ View
 mFullScreenPluginView
 ;
 private
+final
 HashMap
 <
 String

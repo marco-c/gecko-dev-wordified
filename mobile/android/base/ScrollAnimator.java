@@ -219,6 +219,7 @@ extends
 TimerTask
 {
 private
+final
 View
 mView
 ;
