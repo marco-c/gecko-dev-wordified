@@ -692,6 +692,9 @@ aRect
 MOZ_OVERRIDE
 ;
 virtual
+mozilla
+:
+:
 gfx
 :
 :
