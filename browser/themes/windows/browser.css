@@ -16154,7 +16154,7 @@ background
 not
 (
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -16244,7 +16244,7 @@ background
 -
 middle
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -16285,7 +16285,7 @@ background
 -
 start
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -16309,7 +16309,7 @@ background
 -
 end
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -16361,7 +16361,7 @@ background
 -
 end
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -16385,7 +16385,7 @@ background
 -
 start
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -16503,7 +16503,7 @@ tab
 not
 (
 [
-visuallyselected
+selected
 ]
 )
 :
@@ -16569,7 +16569,7 @@ tab
 not
 (
 [
-visuallyselected
+selected
 ]
 )
 :
@@ -16643,7 +16643,7 @@ hover
 not
 (
 [
-visuallyselected
+selected
 =
 "
 true
@@ -16818,7 +16818,7 @@ middle
 not
 (
 [
-visuallyselected
+selected
 =
 true
 ]

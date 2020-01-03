@@ -9150,13 +9150,6 @@ visibility
 )
 GK_ATOM
 (
-visuallyselected
-"
-visuallyselected
-"
-)
-GK_ATOM
-(
 vlink
 "
 vlink
