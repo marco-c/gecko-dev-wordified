@@ -15455,7 +15455,6 @@ mPresContext
 )
 nsStyleTableBorder
 (
-mPresContext
 )
 ;
 aContext
@@ -51695,7 +51694,6 @@ COMPUTE_START_INHERITED
 (
 TableBorder
 (
-mPresContext
 )
 table
 parentTable
@@ -51935,20 +51933,6 @@ parentTable
 -
 >
 mEmptyCells
-(
-mPresContext
--
->
-CompatibilityMode
-(
-)
-=
-=
-eCompatibility_NavQuirks
-)
-?
-NS_STYLE_TABLE_EMPTY_CELLS_SHOW_BACKGROUND
-:
 NS_STYLE_TABLE_EMPTY_CELLS_SHOW
 0
 0
