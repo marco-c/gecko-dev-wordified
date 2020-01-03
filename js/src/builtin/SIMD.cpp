@@ -3630,10 +3630,10 @@ x
 )
 {
 return
-sqrt
-(
 1
 /
+sqrt
+(
 x
 )
 ;
