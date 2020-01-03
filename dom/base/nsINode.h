@@ -6528,7 +6528,7 @@ XBL
 content
 if
 the
-binging
+binding
 /
 /
 has
