@@ -1546,15 +1546,6 @@ layers
 LayersBackend
 mLayersBackendType
 ;
-nsTArray
-<
-nsTArray
-<
-uint8_t
->
->
-mInitDataEncountered
-;
 /
 /
 True
