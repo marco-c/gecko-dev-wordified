@@ -5523,6 +5523,13 @@ TouchCaret
 this
 )
 ;
+mTouchCaret
+-
+>
+Init
+(
+)
+;
 }
 if
 (
