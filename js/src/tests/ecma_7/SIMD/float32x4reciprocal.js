@@ -106,7 +106,7 @@ SIMD
 .
 float32x4
 .
-reciprocal
+reciprocalApproximation
 (
 a
 )
@@ -169,7 +169,7 @@ SIMD
 .
 float32x4
 .
-reciprocal
+reciprocalApproximation
 (
 d
 )
@@ -246,7 +246,7 @@ SIMD
 .
 float32x4
 .
-reciprocal
+reciprocalApproximation
 (
 g
 )

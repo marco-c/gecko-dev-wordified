@@ -132,7 +132,7 @@ a
 ;
 }
 function
-reciprocal
+reciprocalApproximation
 (
 a
 )
@@ -144,7 +144,7 @@ a
 ;
 }
 function
-reciprocalSqrt
+reciprocalSqrtApproximation
 (
 a
 )
@@ -273,7 +273,7 @@ neg
 ;
 }
 function
-testReciprocal
+testReciprocalApproximation
 (
 v
 )
@@ -284,13 +284,13 @@ testUnaryFunc
 v
 float64x2
 .
-reciprocal
-reciprocal
+reciprocalApproximation
+reciprocalApproximation
 )
 ;
 }
 function
-testReciprocalSqrt
+testReciprocalSqrtApproximation
 (
 v
 )
@@ -301,8 +301,8 @@ testUnaryFunc
 v
 float64x2
 .
-reciprocalSqrt
-reciprocalSqrt
+reciprocalSqrtApproximation
+reciprocalSqrtApproximation
 )
 ;
 }
@@ -454,7 +454,7 @@ testNeg
 v
 )
 ;
-testReciprocal
+testReciprocalApproximation
 (
 v
 )
@@ -464,7 +464,7 @@ testSqrt
 v
 )
 ;
-testReciprocalSqrt
+testReciprocalSqrtApproximation
 (
 v
 )

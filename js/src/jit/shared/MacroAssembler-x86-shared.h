@@ -6233,7 +6233,7 @@ dest
 ;
 }
 void
-packedReciprocalFloat32x4
+packedRcpApproximationFloat32x4
 (
 const
 Operand
@@ -6287,7 +6287,7 @@ dest
 ;
 }
 void
-packedReciprocalSqrtFloat32x4
+packedRcpSqrtApproximationFloat32x4
 (
 const
 Operand
