@@ -45289,7 +45289,7 @@ try
 -
 d3d11
 "
-false
+true
 )
 ;
 pref
