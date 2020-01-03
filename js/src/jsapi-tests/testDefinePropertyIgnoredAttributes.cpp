@@ -383,6 +383,8 @@ defineValue
 IgnoreAll
 |
 JSPROP_NATIVE_ACCESSORS
+|
+JSPROP_SHARED
 (
 JSPropertyOp
 )
@@ -471,6 +473,8 @@ defineValue
 AllowConfigure
 |
 JSPROP_NATIVE_ACCESSORS
+|
+JSPROP_SHARED
 (
 JSPropertyOp
 )
@@ -537,6 +541,8 @@ AllowEnumerate
 JSPROP_ENUMERATE
 |
 JSPROP_NATIVE_ACCESSORS
+|
+JSPROP_SHARED
 (
 JSPropertyOp
 )
