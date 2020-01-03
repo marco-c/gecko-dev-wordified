@@ -696,6 +696,17 @@ aRv
 void
 Send
 (
+nsFormData
+&
+aBody
+ErrorResult
+&
+aRv
+)
+;
+void
+Send
+(
 const
 ArrayBuffer
 &
