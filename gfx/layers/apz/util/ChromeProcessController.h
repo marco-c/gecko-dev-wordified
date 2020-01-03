@@ -343,8 +343,7 @@ ScrollableLayerGuid
 aGuid
 )
 MOZ_OVERRIDE
-{
-}
+;
 virtual
 void
 SendAsyncScrollDOMEvent
