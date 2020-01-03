@@ -450,12 +450,16 @@ value
 )
 )
 ;
+ASSERT_TRUE
+(
 array
 -
 >
 AppendElement
 (
 obj
+fallible
+)
 )
 ;
 }

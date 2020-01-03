@@ -6641,6 +6641,7 @@ SetCapacity
 1024
 *
 1024
+fallible
 )
 ;
 if
@@ -7422,6 +7423,7 @@ FOR_EACH
 SetLength
 (
 N
+fallible
 )
 )
 ;
