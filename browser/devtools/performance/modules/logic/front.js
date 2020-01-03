@@ -3424,12 +3424,12 @@ length
 }
 exports
 .
-getPerformanceActorsConnection
+getPerformanceFront
 =
 t
 =
 >
-SharedPerformanceActors
+PerformanceFronts
 .
 forTarget
 (
