@@ -946,6 +946,7 @@ DoCancel
 )
 ;
 }
+virtual
 void
 Tick
 (
