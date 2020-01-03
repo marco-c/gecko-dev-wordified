@@ -425,6 +425,10 @@ nsIFile
 *
 mPrevDisplayDirectory
 ;
+GtkFileChooserWidget
+*
+mFileChooserDelegate
+;
 }
 ;
 #
