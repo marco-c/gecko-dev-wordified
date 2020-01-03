@@ -3869,6 +3869,13 @@ InitGfxDriverInfoShutdownObserver
 (
 )
 ;
+gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
 nsCOMPtr
 <
 nsIObserverService
