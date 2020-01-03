@@ -2881,9 +2881,9 @@ dt
 >
 SetTransform
 (
-oldMatrix
-*
 rotate
+*
+oldMatrix
 )
 ;
 dt
