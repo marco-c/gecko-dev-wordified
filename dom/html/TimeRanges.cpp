@@ -495,8 +495,6 @@ TimeRanges
 :
 Normalize
 (
-double
-aError
 )
 {
 if
@@ -599,8 +597,6 @@ if
 current
 .
 mEnd
-+
-aError
 >
 =
 mRanges
@@ -664,8 +660,6 @@ const
 TimeRanges
 *
 aOtherRanges
-double
-aError
 )
 {
 mRanges
@@ -680,7 +674,6 @@ mRanges
 ;
 Normalize
 (
-aError
 )
 ;
 }
