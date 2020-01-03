@@ -172,6 +172,14 @@ undefined
 OT
 session
 token
+sessionType
+:
+undefined
+/
+/
+Hawk
+session
+type
 apiKey
 :
 undefined
@@ -842,6 +850,11 @@ sessionToken
 sessionData
 .
 sessionToken
+sessionType
+:
+sessionData
+.
+sessionType
 apiKey
 :
 sessionData
