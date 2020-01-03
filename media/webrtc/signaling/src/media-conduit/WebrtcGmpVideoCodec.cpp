@@ -2453,9 +2453,10 @@ size
 ;
 }
 ;
-nsTArray
+nsAutoTArray
 <
 nal_entry
+1
 >
 nals
 ;
