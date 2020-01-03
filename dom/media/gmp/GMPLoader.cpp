@@ -514,6 +514,12 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+defined
+(
+MOZ_GMP_SANDBOX
+)
 virtual
 void
 SetSandboxInfo
@@ -1744,6 +1750,12 @@ if
 defined
 (
 XP_MACOSX
+)
+&
+&
+defined
+(
+MOZ_GMP_SANDBOX
 )
 void
 GMPLoaderImpl
