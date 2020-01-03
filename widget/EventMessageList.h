@@ -151,7 +151,7 @@ EventListenerManager
 .
 NS_EVENT_MESSAGE
 (
-NS_EVENT_ALL
+eAllEvents
 1
 )
 NS_EVENT_MESSAGE
