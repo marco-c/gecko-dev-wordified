@@ -529,6 +529,7 @@ char
 *
 value
 )
+const
 {
 uint32_t
 type
@@ -592,6 +593,7 @@ int32_t
 *
 value
 )
+const
 {
 uint32_t
 type
@@ -665,6 +667,7 @@ int64_t
 *
 value
 )
+const
 {
 uint32_t
 type
@@ -738,6 +741,7 @@ float
 *
 value
 )
+const
 {
 uint32_t
 type
@@ -812,6 +816,7 @@ void
 *
 value
 )
+const
 {
 uint32_t
 type
@@ -895,6 +900,7 @@ int32_t
 *
 bottom
 )
+const
 {
 uint32_t
 type

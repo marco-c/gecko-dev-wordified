@@ -685,6 +685,10 @@ mAudioConfig
 Update
 (
 metaData
+.
+get
+(
+)
 mimeType
 )
 ;
@@ -811,6 +815,10 @@ mVideoConfig
 Update
 (
 metaData
+.
+get
+(
+)
 mimeType
 )
 ;
