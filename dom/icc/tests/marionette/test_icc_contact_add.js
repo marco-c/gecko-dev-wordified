@@ -657,12 +657,6 @@ contact
 .
 id
 =
-aIcc
-.
-iccInfo
-.
-iccid
-+
 aContactId
 ;
 return
