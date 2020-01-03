@@ -577,6 +577,15 @@ nsACString
 aPath
 )
 ;
+bool
+GetDirectionForLocale
+(
+const
+nsACString
+&
+aLocale
+)
+;
 public
 :
 static
