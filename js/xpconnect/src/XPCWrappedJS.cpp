@@ -1286,6 +1286,11 @@ call
 "
 )
 ;
+*
+aInstancePtr
+=
+nullptr
+;
 if
 (
 !
@@ -1427,7 +1432,7 @@ aInstancePtr
 {
 NS_PRECONDITION
 (
-0
+false
 "
 null
 pointer
@@ -1438,6 +1443,11 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
+*
+aInstancePtr
+=
+nullptr
+;
 if
 (
 aIID
