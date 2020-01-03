@@ -9565,7 +9565,7 @@ gc
 TenuredHeap
 )
 ?
-MaybeSingletonObject
+TenuredObject
 :
 GenericObject
 ;
@@ -13496,7 +13496,7 @@ gc
 TenuredHeap
 )
 ?
-MaybeSingletonObject
+TenuredObject
 :
 GenericObject
 ;

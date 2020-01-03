@@ -24106,7 +24106,7 @@ PlainObject
 cx
 groupRoot
 kind
-MaybeSingletonObject
+TenuredObject
 )
 ;
 if

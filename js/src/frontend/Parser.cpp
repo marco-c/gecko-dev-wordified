@@ -8156,7 +8156,7 @@ NullPtr
 atom
 proto
 allocKind
-MaybeSingletonObject
+TenuredObject
 )
 ;
 if

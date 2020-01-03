@@ -9347,7 +9347,7 @@ GenericObject
 )
 newKind
 =
-MaybeSingletonObject
+TenuredObject
 ;
 /
 /
@@ -13669,7 +13669,7 @@ PlainObject
 cx
 group
 kind
-MaybeSingletonObject
+TenuredObject
 )
 )
 ;
@@ -13831,7 +13831,7 @@ length
 NullPtr
 (
 )
-MaybeSingletonObject
+TenuredObject
 )
 )
 ;

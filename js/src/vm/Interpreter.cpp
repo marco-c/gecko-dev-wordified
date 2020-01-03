@@ -18883,10 +18883,7 @@ DeepCloneObjectLiteral
 (
 cx
 ref
-js
-:
-:
-MaybeSingletonObject
+TenuredObject
 )
 ;
 if
