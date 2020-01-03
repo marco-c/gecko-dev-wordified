@@ -300,7 +300,7 @@ source_event_type
 SourceEventType
 :
 :
-UNKNOWN
+Unknown
 ;
 #
 endif
@@ -487,7 +487,7 @@ source_event_type
 SourceEventType
 :
 :
-UNKNOWN
+Unknown
 ;
 #
 endif
