@@ -371,6 +371,10 @@ const
 nsAString
 &
 aKeySystem
+const
+nsAString
+&
+aCDMVersion
 )
 ;
 already_AddRefed
@@ -901,8 +905,13 @@ nsPIDOMWindow
 >
 mParent
 ;
+const
 nsString
 mKeySystem
+;
+const
+nsString
+mCDMVersion
 ;
 nsCString
 mNodeId

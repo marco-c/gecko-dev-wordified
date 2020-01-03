@@ -295,6 +295,10 @@ const
 nsAString
 &
 aKeySystem
+const
+nsAString
+&
+aCDMVersion
 SessionType
 aSessionType
 ErrorResult
@@ -616,6 +620,10 @@ mKeys
 const
 nsString
 mKeySystem
+;
+const
+nsString
+mCDMVersion
 ;
 nsString
 mSessionId
