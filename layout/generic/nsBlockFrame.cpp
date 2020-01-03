@@ -22881,15 +22881,6 @@ ContentSize
 wm
 )
 ;
-availSpace
-.
-BSize
-(
-wm
-)
-=
-NS_UNCONSTRAINEDSIZE
-;
 nsHTMLReflowState
 reflowState
 (
