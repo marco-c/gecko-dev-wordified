@@ -2151,7 +2151,7 @@ endif
 }
 /
 /
-Determemine
+Determine
 if
 some
 register
