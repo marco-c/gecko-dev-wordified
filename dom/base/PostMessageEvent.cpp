@@ -213,6 +213,13 @@ nsIPrincipal
 .
 h
 "
+#
+include
+"
+nsPresContext
+.
+h
+"
 namespace
 mozilla
 {

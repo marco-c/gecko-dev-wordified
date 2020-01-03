@@ -187,6 +187,13 @@ h
 #
 include
 "
+nsIDOMElement
+.
+h
+"
+#
+include
+"
 nsIDOMNode
 .
 h
@@ -216,6 +223,13 @@ h
 include
 "
 nsCOMArray
+.
+h
+"
+#
+include
+"
+nsContentUtils
 .
 h
 "

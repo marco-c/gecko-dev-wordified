@@ -121,6 +121,13 @@ SameProcessMessageQueue
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 using
 namespace
 mozilla

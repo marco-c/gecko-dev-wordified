@@ -325,6 +325,13 @@ nsFocusManager
 .
 h
 "
+#
+include
+"
+nsIInterfaceRequestorUtils
+.
+h
+"
 using
 namespace
 mozilla
