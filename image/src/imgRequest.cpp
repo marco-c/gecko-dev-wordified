@@ -389,7 +389,6 @@ mProgressTracker
 new
 ProgressTracker
 (
-nullptr
 )
 )
 mValidator
@@ -1173,7 +1172,6 @@ progressTracker
 RemoveObserver
 (
 proxy
-aStatus
 )
 )
 return
@@ -5358,7 +5356,6 @@ freshTracker
 new
 ProgressTracker
 (
-nullptr
 )
 ;
 freshTracker
