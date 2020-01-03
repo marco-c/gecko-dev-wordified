@@ -869,7 +869,7 @@ this
 .
 link
 .
-targetedSite
+targetedName
 }
 <
 /
