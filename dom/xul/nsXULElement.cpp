@@ -14076,6 +14076,8 @@ Node
 Info
 uint32_t
 number
+=
+0
 ;
 nsresult
 rv
