@@ -4722,6 +4722,12 @@ _addObservers
 (
 )
 ;
+this
+.
+_updateGraphicsFeatures
+(
+)
+;
 return
 this
 .
@@ -5850,7 +5856,7 @@ again
 .
 this
 .
-_onCompositorCreated
+_updateGraphicsFeatures
 (
 )
 ;
@@ -6285,7 +6291,7 @@ object
 .
 *
 /
-_onCompositorCreated
+_updateGraphicsFeatures
 :
 function
 (
