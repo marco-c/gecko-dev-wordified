@@ -3477,7 +3477,7 @@ uint8
 8
 *
 (
-BTRC_UID_SIZE
+AVRCP_UID_SIZE
 -
 1
 )
@@ -3490,7 +3490,7 @@ i
 ;
 i
 <
-BTRC_UID_SIZE
+AVRCP_UID_SIZE
 ;
 +
 +
@@ -4021,7 +4021,7 @@ index
 ;
 index
 <
-BTRC_UID_SIZE
+AVRCP_UID_SIZE
 ;
 +
 +
