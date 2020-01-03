@@ -39889,7 +39889,7 @@ AppUnitsPerCSSPixel
 (
 )
 ;
-CSSIntSize
+nsIntSize
 pixelImageSize
 (
 ComputeSizeForDrawingWithFallback
@@ -40167,7 +40167,7 @@ ComputeSizeForDrawing
 imgIContainer
 *
 aImage
-CSSIntSize
+nsIntSize
 &
 aImageSize
 /
@@ -40300,7 +40300,7 @@ true
 ;
 aImageSize
 =
-CSSIntSize
+nsIntSize
 (
 0
 0
@@ -40321,7 +40321,7 @@ nsSize
 static
 *
 /
-CSSIntSize
+nsIntSize
 nsLayoutUtils
 :
 :
@@ -40336,7 +40336,7 @@ nsSize
 aFallbackSize
 )
 {
-CSSIntSize
+nsIntSize
 imageSize
 ;
 nsSize
