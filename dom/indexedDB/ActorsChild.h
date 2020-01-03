@@ -334,6 +334,7 @@ created
 by
 IDBFactory
 .
+explicit
 BackgroundFactoryChild
 (
 IDBFactory
@@ -505,6 +506,7 @@ mActorDestroyed
 }
 protected
 :
+explicit
 BackgroundRequestChildBase
 (
 IDBRequest
@@ -1149,6 +1151,7 @@ BackgroundTransactionBase
 (
 )
 ;
+explicit
 BackgroundTransactionBase
 (
 IDBTransaction
@@ -1237,6 +1240,7 @@ created
 by
 IDBDatabase
 .
+explicit
 BackgroundTransactionChild
 (
 IDBTransaction
@@ -1383,6 +1387,7 @@ created
 by
 BackgroundDatabaseChild
 .
+explicit
 BackgroundVersionChangeTransactionChild
 (
 IDBOpenDBRequest
@@ -1541,6 +1546,7 @@ mFileInfos
 ;
 public
 :
+explicit
 BackgroundRequestChild
 (
 IDBRequest

@@ -718,6 +718,7 @@ mThreadLocalSlot
 ;
 public
 :
+explicit
 AutoSetCurrentTransaction
 (
 IDBTransaction
@@ -9280,6 +9281,7 @@ mRequest
 ;
 public
 :
+explicit
 DelayedDeleteRunnable
 (
 BackgroundCursorChild

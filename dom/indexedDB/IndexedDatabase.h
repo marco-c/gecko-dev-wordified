@@ -318,6 +318,7 @@ IndexedDatabaseInlines
 .
 h
 inline
+MOZ_IMPLICIT
 StructuredCloneReadInfo
 (
 SerializedStructuredCloneReadInfo

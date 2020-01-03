@@ -271,6 +271,7 @@ AbortablePromise
 :
 Constructor
 .
+explicit
 AbortablePromise
 (
 nsIGlobalObject
