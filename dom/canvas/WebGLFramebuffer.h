@@ -262,6 +262,12 @@ IsDeleteRequested
 )
 const
 ;
+TexInternalFormat
+EffectiveInternalFormat
+(
+)
+const
+;
 bool
 HasAlpha
 (
