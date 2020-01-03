@@ -187,10 +187,10 @@ gBrowser
 .
 contentDocument
 .
-getElementsByClassName
+getElementsByTagName
 (
 "
-decoded
+img
 "
 )
 [
