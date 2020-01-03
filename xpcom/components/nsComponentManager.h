@@ -557,6 +557,14 @@ mozilla
 Module
 kNeckoStandaloneModule
 ;
+extern
+const
+mozilla
+:
+:
+Module
+kStunUDPSocketFilterHandlerModule
+;
 #
 else
 extern
