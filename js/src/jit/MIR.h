@@ -38003,6 +38003,7 @@ MDefinition
 store
 )
 const
+MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -38915,6 +38916,7 @@ MDefinition
 store
 )
 const
+MOZ_OVERRIDE
 ;
 void
 computeRange
@@ -41388,6 +41390,7 @@ MDefinition
 store
 )
 const
+MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
