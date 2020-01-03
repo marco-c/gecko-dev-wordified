@@ -308,7 +308,7 @@ then
 waitForCaretAndScopes
 (
 gPanel
-27
+26
 )
 .
 then
