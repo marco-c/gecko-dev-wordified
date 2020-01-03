@@ -384,7 +384,7 @@ xpcom
 shutdown
 '
 '
-media
+audio
 -
 playback
 '
@@ -2086,7 +2086,7 @@ topic
 =
 =
 '
-media
+audio
 -
 playback
 '
@@ -2167,7 +2167,7 @@ break
 ;
 case
 '
-media
+audio
 -
 playback
 '
