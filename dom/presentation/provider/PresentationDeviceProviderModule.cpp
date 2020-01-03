@@ -234,9 +234,15 @@ kPresentationDeviceProviderCategories
 {
 #
 if
-0
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 /
 /
+|
+|
+(
 defined
 (
 MOZ_WIDGET_GONK
@@ -247,6 +253,7 @@ ANDROID_VERSION
 >
 =
 16
+)
 {
 PRESENTATION_DEVICE_PROVIDER_CATEGORY
 "
