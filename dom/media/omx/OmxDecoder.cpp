@@ -353,6 +353,9 @@ OmxDecoder
 __VA_ARGS__
 )
 #
+undef
+LOG
+#
 ifdef
 PR_LOGGING
 PRLogModuleInfo
