@@ -11075,6 +11075,7 @@ MOZ_ASSERT
 (
 adjust
 >
+=
 0
 )
 ;
