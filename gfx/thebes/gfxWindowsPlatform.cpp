@@ -469,7 +469,7 @@ h
 #
 include
 "
-DriverInitCrashDetection
+DriverCrashGuard
 .
 h
 "
@@ -11470,7 +11470,7 @@ a
 lock
 file
 .
-DriverInitCrashDetection
+DriverCrashGuard
 detectCrashes
 ;
 if
