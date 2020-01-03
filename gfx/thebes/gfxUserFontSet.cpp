@@ -6378,6 +6378,15 @@ getter_AddRefs
 chan
 )
 aSrcURI
+aPrincipal
+nsILoadInfo
+:
+:
+SEC_NORMAL
+nsIContentPolicy
+:
+:
+TYPE_OTHER
 )
 )
 )
