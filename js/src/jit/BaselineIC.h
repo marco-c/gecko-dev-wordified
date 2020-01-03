@@ -11458,7 +11458,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrPlainObject
+HeapPtrNativeObject
 templateObject_
 ;
 ICNewObject_Fallback
@@ -11466,7 +11466,7 @@ ICNewObject_Fallback
 JitCode
 *
 stubCode
-PlainObject
+NativeObject
 *
 templateObject
 )
@@ -11499,7 +11499,7 @@ space
 JitCode
 *
 code
-PlainObject
+NativeObject
 *
 templateObject
 )
@@ -11532,7 +11532,7 @@ Compiler
 public
 ICStubCompiler
 {
-RootedPlainObject
+RootedNativeObject
 templateObject
 ;
 bool
@@ -11550,7 +11550,7 @@ Compiler
 JSContext
 *
 cx
-PlainObject
+NativeObject
 *
 templateObject
 )
@@ -11595,7 +11595,7 @@ templateObject
 }
 }
 ;
-HeapPtrPlainObject
+HeapPtrNativeObject
 &
 templateObject
 (
@@ -31457,7 +31457,7 @@ expectedThis_
 HeapPtrString
 expectedArg_
 ;
-HeapPtrArrayObject
+HeapPtrNativeObject
 templateObject_
 ;
 ICCall_StringSplit
@@ -31474,7 +31474,7 @@ HandleString
 thisString
 HandleString
 argString
-HandleArrayObject
+HandleNativeObject
 templateObject
 )
 :
@@ -31528,7 +31528,7 @@ HandleString
 thisString
 HandleString
 argString
-HandleArrayObject
+HandleNativeObject
 templateObject
 )
 {
@@ -31620,7 +31620,7 @@ return
 expectedArg_
 ;
 }
-HeapPtrArrayObject
+HeapPtrNativeObject
 &
 templateObject
 (
@@ -31651,7 +31651,7 @@ expectedThis_
 RootedString
 expectedArg_
 ;
-RootedArrayObject
+RootedNativeObject
 templateObject_
 ;
 bool
@@ -31737,7 +31737,7 @@ toObject
 .
 as
 <
-ArrayObject
+NativeObject
 >
 (
 )

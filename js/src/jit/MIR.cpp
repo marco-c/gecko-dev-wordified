@@ -21539,7 +21539,7 @@ shouldUseVM
 )
 const
 {
-PlainObject
+NativeObject
 *
 obj
 =
@@ -21639,7 +21639,7 @@ setRecoveredOnBailout
 (
 )
 ;
-PlainObject
+NativeObject
 *
 templateObject
 =

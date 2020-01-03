@@ -766,6 +766,14 @@ obj
 ;
 public
 :
+static
+const
+js
+:
+:
+Class
+class_
+;
 js
 :
 :
@@ -7550,7 +7558,7 @@ known
 prototype
 .
 extern
-PlainObject
+NativeObject
 *
 CreateThisForFunctionWithProto
 (
@@ -7587,7 +7595,7 @@ function
 callee
 .
 extern
-PlainObject
+NativeObject
 *
 CreateThisForFunction
 (

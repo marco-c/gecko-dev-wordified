@@ -596,10 +596,11 @@ real
 Object
 1
 js_InitViaClassSpec
-OCLASP
-(
-Plain
-)
+&
+JSObject
+:
+:
+class_
 )
 \
 real

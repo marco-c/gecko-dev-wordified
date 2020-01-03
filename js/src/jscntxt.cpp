@@ -3310,7 +3310,7 @@ callee
 >
 as
 <
-JSFunction
+NativeObject
 >
 (
 )

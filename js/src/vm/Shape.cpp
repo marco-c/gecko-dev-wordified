@@ -4354,14 +4354,11 @@ NewObjectKind
 newKind
 )
 {
-RootedPlainObject
+RootedNativeObject
 res
 (
 cx
-NewObjectWithType
-<
-PlainObject
->
+NewNativeObjectWithType
 (
 cx
 type
