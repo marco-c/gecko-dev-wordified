@@ -23710,7 +23710,7 @@ mTouchCaret
 mTouchCaret
 -
 >
-UpdatePositionIfNeeded
+SyncVisibilityWithCaret
 (
 )
 ;
