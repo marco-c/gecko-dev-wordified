@@ -1038,6 +1038,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -1082,6 +1085,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -1216,6 +1222,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -1260,6 +1269,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -1340,6 +1352,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -1969,6 +1984,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -2413,6 +2431,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -2489,6 +2510,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -2553,6 +2577,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -2676,6 +2703,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -2779,6 +2809,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -3574,6 +3607,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -3620,6 +3656,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -4113,6 +4152,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -5281,6 +5323,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
@@ -5327,6 +5372,9 @@ err
 d
 "
 __FUNCTION__
+(
+int
+)
 res
 )
 ;
