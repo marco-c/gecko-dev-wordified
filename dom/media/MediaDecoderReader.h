@@ -492,6 +492,16 @@ ReleaseMediaResources
 )
 is
 .
+Must
+be
+called
+on
+the
+decode
+/
+/
+thread
+.
 virtual
 void
 Shutdown
