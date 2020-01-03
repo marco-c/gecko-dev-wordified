@@ -730,7 +730,7 @@ non
 -
 null
 .
-RefPtr
+nsRefPtr
 <
 AudioStream
 >
