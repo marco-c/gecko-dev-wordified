@@ -1451,7 +1451,7 @@ const
 PRLogModuleLevel
 logLevel
 =
-PR_LOG_WARNING
+PR_LOG_DEBUG
 ;
 if
 (
