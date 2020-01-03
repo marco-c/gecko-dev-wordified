@@ -479,10 +479,6 @@ SpeechTaskParent
 :
 DispatchStartImpl
 (
-const
-nsAString
-&
-aUri
 )
 {
 MOZ_ASSERT
@@ -497,10 +493,6 @@ mActor
 >
 SendOnStart
 (
-nsString
-(
-aUri
-)
 )
 NS_ERROR_FAILURE
 )

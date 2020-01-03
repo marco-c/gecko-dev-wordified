@@ -365,15 +365,6 @@ float
 aPitch
 )
 ;
-void
-GetChosenVoiceURI
-(
-nsString
-&
-aResult
-)
-const
-;
 enum
 {
 STATE_NONE
@@ -467,9 +458,6 @@ mRate
 ;
 float
 mPitch
-;
-nsString
-mChosenVoiceURI
 ;
 uint32_t
 mState

@@ -2959,17 +2959,6 @@ aUri
 aLang
 )
 ;
-aTask
--
->
-SetChosenVoiceURI
-(
-voice
--
->
-mUri
-)
-;
 if
 (
 !
