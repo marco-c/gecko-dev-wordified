@@ -8312,6 +8312,15 @@ counter
 =
 0
 ;
+var
+assertionLabel
+=
+msgs
+.
+toSource
+(
+)
+;
 function
 listener
 (
@@ -8350,6 +8359,8 @@ number
 of
 messages
 "
++
+assertionLabel
 )
 ;
 SimpleTest
