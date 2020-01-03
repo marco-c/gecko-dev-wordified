@@ -9802,11 +9802,6 @@ mRoot
 GetParent
 (
 )
-&
-&
-lts
-.
-mUpdatedPluginDataAvailable
 ;
 bool
 shouldHidePlugin
@@ -9924,6 +9919,12 @@ SendUpdatePluginVisibility
 (
 aVisibleIdList
 )
+;
+lts
+.
+mUpdatedPluginDataAvailable
+=
+false
 ;
 return
 ;
