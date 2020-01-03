@@ -5147,16 +5147,6 @@ info
 if
 needed
 .
-if
-(
-mWorkerPrivate
--
->
-IsServiceWorker
-(
-)
-)
-{
 mWorkerPrivate
 -
 >
@@ -5165,7 +5155,6 @@ InitChannelInfo
 channel
 )
 ;
-}
 /
 /
 Now
