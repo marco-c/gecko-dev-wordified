@@ -1975,6 +1975,15 @@ ResponseEndHighRes
 if
 (
 !
+nsContentUtils
+:
+:
+IsPerformanceTimingEnabled
+(
+)
+|
+|
+!
 IsInitialized
 (
 )
