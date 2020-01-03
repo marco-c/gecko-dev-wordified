@@ -647,14 +647,14 @@ if
 (
 rv
 .
-IsTypeError
+IsErrorWithMessage
 (
 )
 )
 {
 rv
 .
-ReportTypeError
+ReportErrorWithMessage
 (
 cx
 )

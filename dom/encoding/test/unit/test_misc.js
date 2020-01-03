@@ -511,7 +511,7 @@ assert_throws
 name
 :
 '
-EncodingError
+TypeError
 '
 }
 function
@@ -2243,7 +2243,7 @@ assert_throws
 name
 :
 '
-EncodingError
+TypeError
 '
 }
 function
@@ -2313,7 +2313,7 @@ assert_throws
 name
 :
 '
-EncodingError
+TypeError
 '
 }
 function
@@ -2383,7 +2383,7 @@ assert_throws
 name
 :
 '
-EncodingError
+TypeError
 '
 }
 function
@@ -2756,7 +2756,7 @@ assert_throws
 name
 :
 '
-TypeError
+RangeError
 '
 }
 function

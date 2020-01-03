@@ -1572,9 +1572,9 @@ kRadPerDegree
 {
 rv
 .
-Throw
+ThrowRangeError
 (
-NS_ERROR_RANGE_ERR
+MSG_INVALID_TRANSFORM_ANGLE_ERROR
 )
 ;
 return
@@ -1688,9 +1688,9 @@ kRadPerDegree
 {
 rv
 .
-Throw
+ThrowRangeError
 (
-NS_ERROR_RANGE_ERR
+MSG_INVALID_TRANSFORM_ANGLE_ERROR
 )
 ;
 return

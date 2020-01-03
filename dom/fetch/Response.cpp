@@ -629,9 +629,9 @@ aStatus
 {
 aRv
 .
-Throw
+ThrowRangeError
 (
-NS_ERROR_RANGE_ERR
+MSG_INVALID_REDIRECT_STATUSCODE_ERROR
 )
 ;
 return
@@ -785,9 +785,9 @@ mStatus
 {
 aRv
 .
-Throw
+ThrowRangeError
 (
-NS_ERROR_RANGE_ERR
+MSG_INVALID_RESPONSE_STATUSCODE_ERROR
 )
 ;
 return

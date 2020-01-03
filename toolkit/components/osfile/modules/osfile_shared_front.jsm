@@ -2529,7 +2529,7 @@ ex
 if
 ex
 instanceof
-TypeError
+RangeError
 )
 {
 throw

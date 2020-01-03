@@ -1378,7 +1378,7 @@ MSG_DEFINEPROPERTY_ON_GSP
 ;
 rv
 .
-ReportTypeError
+ReportErrorWithMessage
 (
 aCx
 )
