@@ -4412,6 +4412,13 @@ mCloseCalled
 =
 true
 ;
+if
+(
+Destination
+(
+)
+)
+{
 Destination
 (
 )
@@ -4421,6 +4428,7 @@ DestroyAudioChannelAgent
 (
 )
 ;
+}
 mPromiseGripArray
 .
 AppendElement
