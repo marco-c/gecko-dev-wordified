@@ -1394,6 +1394,13 @@ strip
 )
         
 if
+not
+f
+:
+            
+return
+        
+if
 self
 .
 copier
@@ -2803,17 +2810,10 @@ args
 removals
 :
             
-lines
+removals_in
 =
-[
-l
-.
-lstrip
+StringIO
 (
-)
-for
-l
-in
 open
 (
 args
@@ -2821,21 +2821,8 @@ args
 removals
 )
 .
-readlines
+read
 (
-)
-]
-            
-removals_in
-=
-StringIO
-(
-'
-'
-.
-join
-(
-lines
 )
 )
             
