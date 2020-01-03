@@ -709,9 +709,12 @@ RequestId
 &
 requestId
 const
-nsresult
+mozilla
+:
+:
+ErrorResult
 &
-aRv
+aError
 )
 {
 NS_ASSERT_OWNINGTHREAD
@@ -738,7 +741,7 @@ listener
 RecvAddAllResponse
 (
 requestId
-aRv
+aError
 )
 ;
 }
