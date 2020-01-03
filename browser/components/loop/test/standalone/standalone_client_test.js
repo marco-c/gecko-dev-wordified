@@ -929,6 +929,13 @@ callType
 "
 audio
 "
+"
+channel
+"
+:
+"
+standalone
+"
 }
 '
 )
