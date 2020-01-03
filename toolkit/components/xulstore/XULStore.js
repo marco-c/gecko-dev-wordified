@@ -1071,7 +1071,7 @@ MODE_RDONLY
 const
 FILE_PERMS
 =
-0600
+0o600
 ;
 let
 stream
