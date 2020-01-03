@@ -145,7 +145,8 @@ NamedTemporaryFile
 mode
 =
 '
-rw
+r
++
 '
 )
 as
