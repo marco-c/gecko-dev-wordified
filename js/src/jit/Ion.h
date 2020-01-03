@@ -435,8 +435,7 @@ CanEnterAtBranch
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 BaselineFrame
 *
@@ -828,6 +827,16 @@ StopAllOffThreadCompilations
 JSCompartment
 *
 comp
+)
+;
+void
+LazyLink
+(
+JSContext
+*
+cx
+HandleScript
+calleescript
 )
 ;
 uint8_t
