@@ -258,6 +258,13 @@ FeatureStatus
 aStatus
 )
 ;
+bool
+IsFeatureStatusFailure
+(
+FeatureStatus
+aStatus
+)
+;
 }
 /
 /
