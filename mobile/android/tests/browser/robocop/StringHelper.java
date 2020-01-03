@@ -1172,7 +1172,7 @@ COOKIES_LABEL
 public
 final
 String
-REMEMBER_PASSWORDS_LABEL
+REMEMBER_LOGINS_LABEL
 ;
 public
 final
@@ -2294,7 +2294,7 @@ string
 pref_cookies_menu
 )
 ;
-REMEMBER_PASSWORDS_LABEL
+REMEMBER_LOGINS_LABEL
 =
 res
 .

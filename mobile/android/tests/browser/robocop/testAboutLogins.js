@@ -276,7 +276,7 @@ LOGIN_FIELDS
 Load
 about
 :
-passwords
+logins
 .
 BrowserApp
 =

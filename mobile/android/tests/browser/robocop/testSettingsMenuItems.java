@@ -789,7 +789,7 @@ Disabled
 {
 mStringHelper
 .
-REMEMBER_PASSWORDS_LABEL
+REMEMBER_LOGINS_LABEL
 }
 MANAGE_LOGINS_ARR
 {
@@ -824,10 +824,9 @@ Cookies
 active
 logins
 "
-"
-Saved
-passwords
-"
+mStringHelper
+.
+CLEAR_PRIVATE_DATA_LABEL
 "
 Cache
 "
