@@ -1388,11 +1388,9 @@ ImageBridgeParent
 aImageBridgeParent
 )
 {
-aImageBridgeParent
--
->
-Release
+RELEASE_MANUALLY
 (
+aImageBridgeParent
 )
 ;
 }
@@ -1475,8 +1473,9 @@ assertion
 of
 MessageChannel
 .
-AddRef
+ADDREF_MANUALLY
 (
+this
 )
 ;
 MessageLoop

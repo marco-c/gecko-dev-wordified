@@ -390,6 +390,12 @@ GetData
 (
 )
 ;
+const
+bool
+hasAlpha
+=
+true
+;
 aOutDescriptor
 =
 EGLImageDescriptor
@@ -409,6 +415,7 @@ data
 >
 mSync
 mSize
+hasAlpha
 )
 ;
 return
