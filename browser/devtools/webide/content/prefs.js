@@ -208,7 +208,7 @@ querySelector
 (
 "
 #
-manageSimulators
+manageComponents
 "
 )
 .
