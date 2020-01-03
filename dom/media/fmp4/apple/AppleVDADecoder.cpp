@@ -2027,6 +2027,13 @@ decoder
 "
 )
 ;
+mCallback
+-
+>
+Error
+(
+)
+;
 return
 NS_ERROR_FAILURE
 ;
