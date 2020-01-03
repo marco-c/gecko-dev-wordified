@@ -780,6 +780,8 @@ can
 '
 t
 be
+nsCOMPtr
+/
 nsRefPtr
 '
 s
@@ -807,6 +809,7 @@ mString
 ;
 nsIURI
 *
+MOZ_OWNING_REF
 mURI
 ;
 nsCSSKeyword
