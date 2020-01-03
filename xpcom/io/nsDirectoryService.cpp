@@ -3202,6 +3202,15 @@ nsDirectoryService
 :
 :
 sGRE_Directory
+|
+|
+inAtom
+=
+=
+nsDirectoryService
+:
+:
+sGRE_BinDirectory
 )
 {
 rv
