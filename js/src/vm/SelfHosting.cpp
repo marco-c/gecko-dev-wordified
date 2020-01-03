@@ -155,13 +155,6 @@ h
 #
 include
 "
-jsobj
-.
-h
-"
-#
-include
-"
 jsweakmap
 .
 h
@@ -311,7 +304,7 @@ include
 "
 vm
 /
-NumberObject
+NativeObject
 -
 inl
 .
@@ -322,7 +315,7 @@ include
 "
 vm
 /
-ObjectImpl
+NumberObject
 -
 inl
 .

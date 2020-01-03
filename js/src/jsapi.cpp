@@ -735,7 +735,7 @@ include
 "
 vm
 /
-ObjectImpl
+NativeObject
 -
 inl
 .
@@ -20947,10 +20947,10 @@ cx
 obj
 )
 ;
-NativeObject
-*
+RootedNativeObject
 iterobj
-=
+(
+cx
 NewNativeObjectWithClassProto
 (
 cx
@@ -20958,6 +20958,7 @@ cx
 prop_iter_class
 nullptr
 obj
+)
 )
 ;
 if

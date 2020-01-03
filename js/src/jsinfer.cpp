@@ -330,7 +330,7 @@ include
 "
 vm
 /
-ObjectImpl
+NativeObject
 -
 inl
 .
