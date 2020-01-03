@@ -7997,13 +7997,6 @@ case
 AKEYCODE_ENDCALL
 :
 case
-AKEYCODE_SYM
-:
-/
-/
-Symbol
-modifier
-case
 AKEYCODE_NUM
 :
 /

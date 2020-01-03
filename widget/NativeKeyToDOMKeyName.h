@@ -1172,6 +1172,14 @@ Shift
 AKEYCODE_SHIFT_RIGHT
 )
 /
+/
+Symbol
+KEY_MAP_ANDROID
+(
+Symbol
+AKEYCODE_SYM
+)
+/
 *
 *
 *
