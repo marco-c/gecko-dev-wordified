@@ -2556,6 +2556,14 @@ nsScriptLoadRequest
 aRequest
 )
 ;
+nsresult
+ParseOffThreadOrProcessRequest
+(
+nsScriptLoadRequest
+*
+aRequest
+)
+;
 void
 FireScriptAvailable
 (
