@@ -2340,7 +2340,7 @@ SettingsService
 .
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+IsMainProcess
 (
 )
 )

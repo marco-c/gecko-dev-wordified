@@ -2437,9 +2437,12 @@ true
 ;
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 Manager
@@ -2560,9 +2563,12 @@ Recv__delete__
 {
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 Manager

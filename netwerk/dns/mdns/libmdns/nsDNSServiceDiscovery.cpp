@@ -202,7 +202,6 @@ mdnsd
 )
 ;
 }
-inline
 void
 StopService
 (

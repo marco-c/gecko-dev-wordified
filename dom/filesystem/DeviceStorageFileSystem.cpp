@@ -397,7 +397,10 @@ process
 if
 (
 !
-XRE_IsParentProcess
+FileSystemUtils
+:
+:
+IsParentProcess
 (
 )
 )
@@ -645,7 +648,10 @@ const
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+FileSystemUtils
+:
+:
+IsParentProcess
 (
 )
 "
@@ -735,7 +741,10 @@ const
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+FileSystemUtils
+:
+:
+IsParentProcess
 (
 )
 "
@@ -835,7 +844,10 @@ const
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+FileSystemUtils
+:
+:
+IsParentProcess
 (
 )
 "

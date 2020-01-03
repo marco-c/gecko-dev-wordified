@@ -1963,9 +1963,12 @@ TYPE_REPEATING_PRECISE_CAN_SKIP
 ;
 if
 (
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 WebrtcGlobalChild

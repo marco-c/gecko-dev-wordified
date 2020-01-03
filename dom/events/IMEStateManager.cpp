@@ -5915,10 +5915,12 @@ InputContextAction
 CAUSE_UNKNOWN
 &
 &
-!
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+!
+=
+GeckoProcessType_Content
 )
 {
 aAction
