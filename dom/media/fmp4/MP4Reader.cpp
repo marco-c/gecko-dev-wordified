@@ -3832,6 +3832,12 @@ return
 nextKeyframe
 <
 aTimeThreshold
+&
+&
+nextKeyframe
+>
+=
+0
 ;
 }
 nsRefPtr
