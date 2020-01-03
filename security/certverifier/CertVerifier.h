@@ -517,6 +517,8 @@ OcspStrictConfig
 osc
 OcspGetConfig
 ogc
+uint32_t
+certShortLifetimeInDays
 PinningMode
 pinningMode
 )
@@ -549,6 +551,10 @@ mOCSPStrict
 const
 bool
 mOCSPGETEnabled
+;
+const
+uint32_t
+mCertShortLifetimeInDays
 ;
 const
 PinningMode

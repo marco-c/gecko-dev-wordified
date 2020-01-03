@@ -300,6 +300,14 @@ pkix
 :
 Time
 time
+mozilla
+:
+:
+pkix
+:
+:
+Duration
+validityDuration
 /
 *
 optional

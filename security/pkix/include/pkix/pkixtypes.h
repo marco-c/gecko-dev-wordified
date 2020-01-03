@@ -2042,6 +2042,8 @@ CertID
 certID
 Time
 time
+Duration
+validityDuration
 /
 *
 optional

@@ -970,6 +970,7 @@ const
 CertID
 &
 Time
+Duration
 /
 *
 optional
@@ -2330,6 +2331,7 @@ const
 CertID
 &
 Time
+Duration
 /
 *
 optional

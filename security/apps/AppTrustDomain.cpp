@@ -1437,6 +1437,7 @@ const
 CertID
 &
 Time
+Duration
 /
 *
 optional
