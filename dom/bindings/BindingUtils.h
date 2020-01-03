@@ -6572,7 +6572,7 @@ obj
 )
 ;
 return
-JS_WrapValue
+MaybeWrapObjectValue
 (
 cx
 rval
@@ -6995,7 +6995,7 @@ obj
 )
 ;
 return
-JS_WrapValue
+MaybeWrapObjectValue
 (
 cx
 rval
