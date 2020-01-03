@@ -956,6 +956,10 @@ AutoTaskGuard
 (
 )
 {
+DrainDirectTasks
+(
+)
+;
 MOZ_ASSERT
 (
 mQueue
