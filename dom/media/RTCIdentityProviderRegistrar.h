@@ -218,6 +218,7 @@ JSContext
 *
 aCx
 )
+MOZ_OVERRIDE
 ;
 /
 /
