@@ -587,9 +587,7 @@ example
 .
 com
 "
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 null
 function
 withSecurityInfo
@@ -646,10 +644,7 @@ example
 .
 com
 "
-getXPCOMStatusFromNSS
-(
 SEC_ERROR_EXPIRED_CERTIFICATE
-)
 null
 function
 withSecurityInfo
@@ -738,10 +733,7 @@ example
 .
 com
 "
-getXPCOMStatusFromNSS
-(
 SEC_ERROR_INADEQUATE_KEY_USAGE
-)
 null
 function
 withSecurityInfo

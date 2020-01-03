@@ -279,9 +279,7 @@ example
 .
 com
 "
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 )
 ;
 add_test
