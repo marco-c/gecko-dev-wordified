@@ -525,8 +525,8 @@ mGraphicBufferProducer
 allocateBuffers
 (
 mSwapIntervalZero
-mReqWidth
-mReqHeight
+reqWidth
+reqHeight
 mReqFormat
 mReqUsage
 )
@@ -1580,11 +1580,6 @@ buffer
 )
 const
 {
-bool
-dumpedState
-=
-false
-;
 for
 (
 int

@@ -183,9 +183,6 @@ h
 namespace
 android
 {
-class
-Fence
-;
 struct
 GonkBufferSlot
 {
