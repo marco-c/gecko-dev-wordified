@@ -1250,6 +1250,28 @@ groups
 0
 ]
             
+nl
+=
+'
+\
+n
+'
+if
+line
+[
+-
+1
+]
+=
+=
+'
+\
+n
+'
+else
+'
+'
+            
 return
 before
 +
@@ -1257,10 +1279,7 @@ info
 +
 after
 +
-"
-\
-n
-"
+nl
         
 else
 :
