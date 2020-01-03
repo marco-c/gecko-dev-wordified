@@ -3455,11 +3455,6 @@ GetGeometryBounds
 &
 simpleBounds
 strokeOptions
-.
-mLineWidth
-strokeOptions
-.
-mLineCap
 aToBBoxUserspace
 )
 ;
