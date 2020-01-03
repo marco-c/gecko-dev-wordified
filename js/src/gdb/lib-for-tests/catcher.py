@@ -139,7 +139,9 @@ testlibdir
 .
 .
     
-execfile
+exec
+(
+open
 (
 os
 .
@@ -153,6 +155,11 @@ prologue
 .
 py
 '
+)
+)
+.
+read
+(
 )
 )
 except
