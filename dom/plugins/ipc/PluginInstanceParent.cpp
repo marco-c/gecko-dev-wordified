@@ -7350,7 +7350,10 @@ seekable
 *
 stype
 =
-UINT16_MAX
+nsPluginStreamListenerPeer
+:
+:
+STREAM_TYPE_UNKNOWN
 ;
 }
 else
