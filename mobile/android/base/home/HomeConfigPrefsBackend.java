@@ -244,6 +244,17 @@ mozilla
 .
 gecko
 .
+restrictions
+.
+Restriction
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 HardwareUtils
@@ -609,8 +620,6 @@ RestrictedProfiles
 isAllowed
 (
 mContext
-RestrictedProfiles
-.
 Restriction
 .
 DISALLOW_MODIFY_ACCOUNTS
