@@ -58,11 +58,10 @@ function
 )
 {
 let
-[
+{
 target
-debuggee
 panel
-]
+}
 =
 yield
 initTimelinePanel
