@@ -888,9 +888,6 @@ nsImageFrame
 void
 EnsureIntrinsicSizeAndRatio
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 virtual
