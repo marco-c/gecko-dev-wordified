@@ -1931,8 +1931,13 @@ cx
 compartment
 )
 ;
+mozilla
+:
+:
+RefPtr
+<
 PerformanceGroup
-*
+>
 group
 =
 compartment
