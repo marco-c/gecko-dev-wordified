@@ -104,6 +104,13 @@ java
 .
 util
 .
+ArrayList
+;
+import
+java
+.
+util
+.
 List
 ;
 import
@@ -2638,7 +2645,6 @@ mResumeCapture
 false
 ;
 return
-true
 ;
 }
 throw
@@ -3277,8 +3283,9 @@ data
 data
 .
 length
-native_capturer
 mCaptureRotation
+lastCaptureTimeMs
+native_capturer
 )
 ;
 camera
