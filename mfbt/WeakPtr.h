@@ -643,6 +643,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NullPtr
 .
 h
@@ -955,6 +964,7 @@ nullptr
 }
 T
 *
+MOZ_WEAK_REF
 mPtr
 ;
 }
