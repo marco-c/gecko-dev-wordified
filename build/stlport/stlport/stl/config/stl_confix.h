@@ -491,6 +491,13 @@ defined
 (
 _STLP_HAS_INCLUDE_NEXT
 )
+&
+&
+!
+defined
+(
+__ANDROID__
+)
 #
 define
 _STLP_HAS_INCLUDE_NEXT

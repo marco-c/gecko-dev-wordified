@@ -455,7 +455,13 @@ _M_static_name
 )
 )
 :
+static_cast
+<
+size_t
+>
+(
 _S_bufsize
+)
 ;
 if
 (
