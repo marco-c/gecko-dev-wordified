@@ -264,13 +264,6 @@ methods
 for
 ServiceWorkerManager
 :
-nsIURI
-*
-GetDocumentURI
-(
-)
-const
-;
 void
 InvalidateWorkerReference
 (
