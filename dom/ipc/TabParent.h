@@ -2629,6 +2629,13 @@ BrowserConfiguration
 aConfiguration
 )
 ;
+void
+SetHasContentOpener
+(
+bool
+aHasContentOpener
+)
+;
 /
 /
 IME
@@ -3628,6 +3635,9 @@ nsRefPtr
 nsIPresShell
 >
 mPresShellWithRefreshListener
+;
+bool
+mHasContentOpener
 ;
 private
 :
