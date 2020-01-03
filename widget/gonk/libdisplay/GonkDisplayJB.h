@@ -302,6 +302,11 @@ fence
 ;
 private
 :
+void
+StopBootAnim
+(
+)
+;
 hw_module_t
 const
 *
