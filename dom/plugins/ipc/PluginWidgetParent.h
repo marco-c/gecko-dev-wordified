@@ -169,6 +169,16 @@ value
 )
 override
 ;
+bool
+RecvSetNativeChildWindow
+(
+const
+uintptr_t
+&
+aChildWindow
+)
+override
+;
 /
 /
 Helper

@@ -602,6 +602,10 @@ NS_NATIVE_ICOREWINDOW
 winrt
 specific
 #
+define
+NS_NATIVE_CHILD_WINDOW
+104
+#
 endif
 #
 if

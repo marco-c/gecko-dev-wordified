@@ -853,6 +853,16 @@ uint32_t
 aDataType
 )
 ;
+void
+SetNativeData
+(
+uint32_t
+aDataType
+uintptr_t
+aVal
+)
+override
+;
 virtual
 void
 FreeNativeData
