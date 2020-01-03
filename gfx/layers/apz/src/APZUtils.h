@@ -171,6 +171,10 @@ overscroll
 /
 }
 ;
+typedef
+uint32_t
+TouchBehaviorFlags
+;
 }
 }
 #

@@ -204,12 +204,6 @@ InputQueue
 )
 public
 :
-typedef
-uint32_t
-TouchBehaviorFlags
-;
-public
-:
 InputQueue
 (
 )
