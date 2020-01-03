@@ -506,6 +506,10 @@ ChaosMode
 :
 isActive
 (
+ChaosMode
+:
+:
+NetworkScheduling
 )
 )
 {
