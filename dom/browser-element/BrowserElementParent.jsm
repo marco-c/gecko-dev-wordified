@@ -1312,7 +1312,7 @@ ownsWeak
 =
 *
 /
-true
+false
 )
 ;
 this
@@ -6159,6 +6159,20 @@ frame
 shown
 '
 :
+/
+/
+XXXkhuey
+why
+don
+'
+t
+we
+check
+_isAlive
+(
+)
+here
+?
 if
 (
 this
@@ -6233,6 +6247,8 @@ subject
 this
 .
 _frameLoader
+.
+tabParent
 )
 {
 Services
@@ -6264,6 +6280,7 @@ this
 .
 _doCommandHandlerBinder
 )
+;
 }
 break
 ;
