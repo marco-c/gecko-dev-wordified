@@ -341,7 +341,7 @@ h
 #
 include
 <
-hash_map
+unordered_map
 >
 #
 include
@@ -367,10 +367,10 @@ std
 wstring
 ;
 using
-stdext
+std
 :
 :
-hash_map
+unordered_map
 ;
 /
 /
@@ -1422,7 +1422,7 @@ DWORD
 id
 )
 {
-hash_map
+unordered_map
 <
 wstring
 DWORD
@@ -1533,7 +1533,7 @@ DWORD
 id
 )
 {
-hash_map
+unordered_map
 <
 DWORD
 DWORD
@@ -1829,7 +1829,7 @@ unique
 /
 filename
 .
-hash_map
+unordered_map
 <
 DWORD
 DWORD
@@ -1846,7 +1846,7 @@ to
 file
 IDs
 .
-hash_map
+unordered_map
 <
 wstring
 DWORD
