@@ -588,7 +588,7 @@ error
 =
 NS_OK
 ;
-nsString
+nsAutoString
 realPath
 ;
 nsRefPtr
@@ -885,7 +885,7 @@ error
 =
 NS_OK
 ;
-nsString
+nsAutoString
 realPath
 ;
 if
@@ -978,7 +978,7 @@ error
 =
 NS_OK
 ;
-nsString
+nsAutoString
 realPath
 ;
 if
@@ -1128,7 +1128,7 @@ error
 =
 NS_OK
 ;
-nsString
+nsAutoString
 realPath
 ;
 nsRefPtr
