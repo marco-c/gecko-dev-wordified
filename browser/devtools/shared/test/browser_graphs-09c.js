@@ -170,6 +170,7 @@ testGraph
 graph
 )
 ;
+yield
 graph
 .
 destroy

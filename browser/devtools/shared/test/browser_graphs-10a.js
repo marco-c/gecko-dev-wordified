@@ -558,6 +558,7 @@ times
 "
 )
 ;
+yield
 graph
 .
 destroy
