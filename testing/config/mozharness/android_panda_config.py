@@ -106,7 +106,7 @@ bin
 -
 dm_trans
 =
-SUT
+sut
 "
                 
 "
@@ -658,6 +658,14 @@ options
 "
 -
 -
+dm_trans
+=
+sut
+"
+                
+"
+-
+-
 deviceIP
 =
 %
@@ -717,16 +725,6 @@ app
 app_name
 )
 s
-"
-                
-"
--
--
-console
--
-level
-=
-INFO
 "
                 
 "
@@ -988,6 +986,14 @@ options
 "
 -
 -
+dm_trans
+=
+sut
+"
+                
+"
+-
+-
 deviceIP
 =
 %
@@ -1105,6 +1111,8 @@ s
 -
 -
 robocop
+-
+ini
 =
 mochitest
 /
