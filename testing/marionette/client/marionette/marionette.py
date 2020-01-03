@@ -3656,12 +3656,6 @@ bin
         
 self
 .
-profile
-=
-profile
-        
-self
-.
 instance
 =
 None
@@ -3973,8 +3967,6 @@ self
 bin
 profile
 =
-self
-.
 profile
                                            
 app_args
@@ -4064,8 +4056,6 @@ emulator_res
                                             
 profile
 =
-self
-.
 profile
                                             
 adb_path
@@ -6358,12 +6348,9 @@ _reset_timeouts
 )
     
 def
-restart
+restart_with_clean_profile
 (
 self
-clean
-=
-False
 )
 :
         
@@ -6385,20 +6372,9 @@ new
 instance
         
 with
-the
-same
-profile
-and
-then
-reuse
-the
-session
-id
-when
-creating
 a
-session
-again
+clean
+profile
 .
         
 :
@@ -6431,7 +6407,7 @@ errors
 MarionetteException
 (
 "
-restart
+enforce_gecko_prefs
 can
 only
 be
@@ -6461,9 +6437,6 @@ instance
 .
 restart
 (
-clean
-=
-clean
 )
         
 assert
@@ -6487,11 +6460,6 @@ self
 .
 start_session
 (
-session_id
-=
-self
-.
-session_id
 )
         
 self

@@ -244,9 +244,7 @@ self
 host
 port
 bin
-profile_path
-=
-None
+profile
 app_args
 =
 None
@@ -258,9 +256,6 @@ gecko_log
 =
 None
 prefs
-=
-None
-profile
 =
 None
 )
@@ -288,13 +283,7 @@ self
 .
 profile_path
 =
-profile_path
-        
-self
-.
 profile
-=
-None
         
 self
 .
@@ -375,16 +364,9 @@ if
 not
 self
 .
-profile
-:
-            
-if
-not
-self
-.
 profile_path
 :
-                
+            
 profile_args
 [
 "
@@ -393,9 +375,7 @@ restore
 ]
 =
 False
-                
-self
-.
+            
 profile
 =
 Profile
@@ -404,10 +384,10 @@ Profile
 *
 profile_args
 )
-            
+        
 else
 :
-                
+            
 profile_args
 [
 "
@@ -418,9 +398,7 @@ path_from
 self
 .
 profile_path
-                
-self
-.
+            
 profile
 =
 Profile
@@ -776,8 +754,6 @@ bin
             
 profile
 =
-self
-.
 profile
             
 cmdargs
@@ -877,29 +853,8 @@ self
 prefs
 =
 None
-clean
-=
-True
 )
 :
-        
-if
-clean
-:
-            
-self
-.
-profile
-.
-cleanup
-(
-)
-            
-self
-.
-profile
-=
-None
         
 self
 .
