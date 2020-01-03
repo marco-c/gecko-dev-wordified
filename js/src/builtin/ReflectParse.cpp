@@ -9887,11 +9887,11 @@ newNode
 type
 pos
 "
-name
+id
 "
 name
 "
-heritage
+superClass
 "
 heritage
 "
