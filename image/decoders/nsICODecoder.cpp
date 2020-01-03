@@ -539,8 +539,9 @@ TakeProgress
 ;
 mInvalidRect
 .
-Union
+UnionRect
 (
+mInvalidRect
 mContainedDecoder
 -
 >
@@ -3971,8 +3972,9 @@ TakeProgress
 ;
 mInvalidRect
 .
-Union
+UnionRect
 (
+mInvalidRect
 mContainedDecoder
 -
 >
@@ -4337,8 +4339,9 @@ TakeProgress
 ;
 mInvalidRect
 .
-Union
+UnionRect
 (
+mInvalidRect
 mContainedDecoder
 -
 >
