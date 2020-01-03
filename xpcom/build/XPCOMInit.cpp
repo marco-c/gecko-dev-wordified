@@ -2736,7 +2736,7 @@ hangs
 :
 /
 /
-512ms
+128ms
 for
 transient
 hangs
@@ -2750,7 +2750,7 @@ sMessageLoop
 >
 set_hang_timeouts
 (
-512
+128
 8192
 )
 ;
