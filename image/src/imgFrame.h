@@ -598,13 +598,6 @@ GetPaletteData
 )
 const
 ;
-uint8_t
-*
-GetRawData
-(
-)
-const
-;
 int32_t
 GetRawTimeout
 (
