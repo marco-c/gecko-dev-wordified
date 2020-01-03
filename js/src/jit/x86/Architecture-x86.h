@@ -1016,6 +1016,12 @@ X86Registers
 xmm7
 )
 ;
+/
+/
+This
+is
+ScratchDoubleReg
+.
 static
 const
 uint32_t
