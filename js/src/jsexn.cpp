@@ -3063,10 +3063,13 @@ GenericCreateConstructor
 <
 Error
 1
-JSFunction
+gc
 :
 :
-ExtendedFinalizeKind
+AllocKind
+:
+:
+FUNCTION_EXTENDED
 >
 (
 cx

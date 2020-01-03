@@ -21351,10 +21351,13 @@ GenericCreateConstructor
 <
 ArrayConstructor
 1
-JSFunction
+gc
 :
 :
-FinalizeKind
+AllocKind
+:
+:
+FUNCTION
 >
 CreateArrayPrototype
 array_static_methods

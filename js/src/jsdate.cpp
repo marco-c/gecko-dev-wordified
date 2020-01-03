@@ -20571,10 +20571,13 @@ GenericCreateConstructor
 <
 DateConstructor
 7
-JSFunction
+gc
 :
 :
-FinalizeKind
+AllocKind
+:
+:
+FUNCTION
 >
 GenericCreatePrototype
 date_static_methods

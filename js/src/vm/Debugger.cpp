@@ -40526,10 +40526,13 @@ js
 NullPtr
 (
 )
-JSFunction
+gc
 :
 :
-ExtendedFinalizeKind
+AllocKind
+:
+:
+FUNCTION_EXTENDED
 )
 ;
 if

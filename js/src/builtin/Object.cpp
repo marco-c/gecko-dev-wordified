@@ -7245,10 +7245,13 @@ names
 .
 Object
 )
-JSFunction
+gc
 :
 :
-FinalizeKind
+AllocKind
+:
+:
+FUNCTION
 SingletonObject
 )
 ;
