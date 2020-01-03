@@ -539,6 +539,7 @@ int32_t
 *
 aDestLength
 )
+override
 ;
 /
 /
@@ -623,6 +624,7 @@ NS_IMETHOD
 Reset
 (
 )
+override
 ;
 }
 ;

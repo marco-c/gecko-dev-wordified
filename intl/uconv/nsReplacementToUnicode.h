@@ -139,6 +139,7 @@ int32_t
 *
 aDestLength
 )
+override
 ;
 MOZ_WARN_UNUSED_RESULT
 NS_IMETHOD
@@ -160,6 +161,7 @@ NS_IMETHOD
 Reset
 (
 )
+override
 ;
 private
 :
