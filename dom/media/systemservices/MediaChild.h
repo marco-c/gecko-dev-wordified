@@ -311,6 +311,7 @@ nsCString
 &
 aKey
 )
+override
 ;
 void
 ActorDestroy
