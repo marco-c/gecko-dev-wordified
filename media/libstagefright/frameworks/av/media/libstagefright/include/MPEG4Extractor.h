@@ -594,6 +594,9 @@ mIsDrm
 TrackExtends
 mTrackExtends
 ;
+uint32_t
+mDrmScheme
+;
 status_t
 parseDrmSINF
 (
