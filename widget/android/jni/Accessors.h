@@ -225,7 +225,7 @@ Constructor
 class
 Accessor
 {
-private
+public
 :
 template
 <
@@ -233,7 +233,7 @@ class
 Cls
 >
 static
-void
+jclass
 EnsureClassRef
 (
 JNIEnv
@@ -271,7 +271,15 @@ name
 )
 ;
 }
+return
+Cls
+:
+:
+sClassRef
+;
 }
+private
+:
 static
 void
 GetNsresult
