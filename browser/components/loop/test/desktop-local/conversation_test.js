@@ -313,6 +313,10 @@ sinon
 stub
 (
 )
+document
+:
+{
+}
 addEventListener
 :
 function
