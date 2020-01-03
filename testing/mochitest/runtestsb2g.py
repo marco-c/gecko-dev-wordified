@@ -1625,10 +1625,7 @@ local_leak_file
 name
 options
 .
-leakThresholds
-options
-.
-ignoreMissingLeaks
+leakThreshold
 )
         
 except
