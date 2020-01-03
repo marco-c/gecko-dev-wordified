@@ -159,6 +159,7 @@ supplying
 a
 locator
 :
+:
         
 el
 =
@@ -192,6 +193,7 @@ lambda
 returning
 an
 element
+:
 :
         
 el
@@ -371,6 +373,7 @@ supplying
 a
 locator
 :
+:
         
 r
 =
@@ -404,6 +407,7 @@ lambda
 returning
 an
 element
+:
 :
         
 r
@@ -554,6 +558,7 @@ present
     
 Sample
 usage
+:
 :
         
 el
@@ -728,6 +733,7 @@ supplying
 a
 locator
 :
+:
         
 els
 =
@@ -763,6 +769,7 @@ a
 list
 of
 elements
+:
 :
         
 els
@@ -945,6 +952,7 @@ supplying
 a
 locator
 :
+:
         
 r
 =
@@ -980,6 +988,7 @@ a
 list
 of
 elements
+:
 :
         
 r
@@ -1520,6 +1529,7 @@ selected
     
 :
 returns
+:
 True
 if
 element
