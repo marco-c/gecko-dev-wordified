@@ -267,7 +267,7 @@ GetID
 track
 -
 >
-GetEndTimeRoundDown
+GetEnd
 (
 )
 )
@@ -343,7 +343,7 @@ t
 track
 -
 >
-GetEndTimeRoundDown
+GetEnd
 (
 )
 )
@@ -442,7 +442,7 @@ t
 track
 -
 >
-GetEndTimeRoundDown
+GetEnd
 (
 )
 )
@@ -631,7 +631,7 @@ IsEnded
 track
 -
 >
-GetEndTimeRoundDown
+GetEnd
 (
 )
 <
@@ -669,13 +669,7 @@ GetEnd
 )
 -
 1
-track
--
->
-TimeToTicksRoundDown
-(
 aTime
-)
 )
 ;
 track

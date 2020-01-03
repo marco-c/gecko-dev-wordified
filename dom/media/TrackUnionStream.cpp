@@ -2020,7 +2020,7 @@ IsEnded
 aInputTrack
 -
 >
-GetEndTimeRoundDown
+GetEnd
 (
 )
 <
