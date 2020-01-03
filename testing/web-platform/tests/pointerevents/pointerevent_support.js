@@ -1140,6 +1140,7 @@ isVertical
 currentMoveCount
 moveCountToPass
 delta
+event
 )
 {
 if
