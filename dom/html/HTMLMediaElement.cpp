@@ -17608,6 +17608,9 @@ DecodeError
 return
 ;
 }
+#
+ifdef
+MOZ_EME
 DispatchEncrypted
 (
 aInfo
@@ -17624,6 +17627,8 @@ mCrypto
 mType
 )
 ;
+#
+endif
 }
 /
 /
