@@ -1805,11 +1805,9 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 aboutFeedsURI
-{
-}
 )
 ;
 }

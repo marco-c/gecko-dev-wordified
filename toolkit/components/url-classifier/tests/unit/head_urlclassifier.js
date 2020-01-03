@@ -1606,7 +1606,7 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 iosvc
 .
@@ -1623,8 +1623,6 @@ fragment
 null
 null
 )
-{
-}
 )
 ;
 dbservice

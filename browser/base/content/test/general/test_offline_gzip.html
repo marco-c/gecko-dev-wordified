@@ -370,7 +370,7 @@ null
 )
 ;
 var
-ssm
+principal
 =
 Cc
 [
@@ -393,17 +393,10 @@ Ci
 .
 nsIScriptSecurityManager
 )
-;
-var
-principal
-=
-ssm
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 uri
-{
-}
 )
 ;
 pm

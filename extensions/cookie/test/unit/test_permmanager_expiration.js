@@ -125,11 +125,9 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 permURI
-{
-}
 )
 ;
 let

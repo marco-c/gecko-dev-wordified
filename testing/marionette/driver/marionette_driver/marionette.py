@@ -6359,28 +6359,11 @@ scriptSecurityManager
 ;
                 
 let
-attrs
-=
-{
-appId
-:
-perm
-.
-appId
-inBrowser
-:
-perm
-.
-isInBrowserElement
-}
-;
-                
-let
 principal
 =
 secMan
 .
-createCodebasePrincipal
+getAppCodebasePrincipal
 (
                                 
 Services
@@ -6396,7 +6379,12 @@ null
 null
 )
                                 
-attrs
+perm
+.
+appId
+perm
+.
+isInBrowserElement
 )
 ;
                 
@@ -6902,28 +6890,11 @@ scriptSecurityManager
 ;
                 
 let
-attrs
-=
-{
-appId
-:
-perm
-.
-appId
-inBrowser
-:
-perm
-.
-isInBrowserElement
-}
-;
-                
-let
 principal
 =
 secMan
 .
-createCodebasePrincipal
+getAppCodebasePrincipal
 (
 Services
 .
@@ -6937,8 +6908,13 @@ url
 null
 null
 )
-                                                               
-attrs
+                                
+perm
+.
+appId
+perm
+.
+isInBrowserElement
 )
 ;
                 

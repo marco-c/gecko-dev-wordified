@@ -222,14 +222,11 @@ null
 return
 secMan
 .
-createCodebasePrincipal
+getAppCodebasePrincipal
 (
 uri
-{
 appId
-:
-appId
-}
+false
 )
 ;
 }

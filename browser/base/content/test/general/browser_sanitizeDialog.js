@@ -4065,11 +4065,9 @@ principal
 =
 sm
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 URI
-{
-}
 )
 ;
 /
@@ -4614,11 +4612,9 @@ principal
 =
 sm
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 URI
-{
-}
 )
 ;
 /

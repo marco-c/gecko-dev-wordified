@@ -196,7 +196,7 @@ null
 )
 ;
 var
-ssm
+principal
 =
 Components
 .
@@ -221,17 +221,10 @@ interfaces
 .
 nsIScriptSecurityManager
 )
-;
-var
-principal
-=
-ssm
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 uri
-{
-}
 )
 ;
 var

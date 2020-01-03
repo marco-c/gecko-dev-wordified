@@ -206,9 +206,7 @@ null
 null
 )
 ;
-let
-ssm
-=
+return
 Cc
 [
 "
@@ -228,15 +226,10 @@ Ci
 .
 nsIScriptSecurityManager
 )
-;
-return
-ssm
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 uri
-{
-}
 )
 ;
 }
