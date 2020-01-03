@@ -8321,6 +8321,10 @@ aReplacements
 eRestyle_CSSTransitions
 |
 eRestyle_CSSAnimations
+|
+eRestyle_Force
+|
+eRestyle_ForceDescendants
 )
 )
 /
@@ -8329,7 +8333,7 @@ FIXME
 :
 Once
 bug
-931668
+979133
 lands
 we
 '
