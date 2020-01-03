@@ -47604,15 +47604,8 @@ NS_LITERAL_STRING
 "
 "
 )
-mPresContext
--
->
-CounterStyleManager
-(
-)
--
->
-BuildCounterStyle
+new
+AnonymousCounterStyle
 (
 typeValue
 -

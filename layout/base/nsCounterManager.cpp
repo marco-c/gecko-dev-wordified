@@ -450,10 +450,8 @@ eCSSUnit_Symbols
 {
 mCounterStyle
 =
-manager
--
->
-BuildCounterStyle
+new
+AnonymousCounterStyle
 (
 style
 .
