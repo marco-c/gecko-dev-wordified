@@ -12898,6 +12898,9 @@ slotSpan
 (
 )
 ;
+if
+(
+!
 clone
 -
 >
@@ -12906,6 +12909,9 @@ setLastProperty
 cx
 shape
 )
+)
+return
+nullptr
 ;
 for
 (
