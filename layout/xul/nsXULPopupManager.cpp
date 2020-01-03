@@ -8584,7 +8584,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_XUL_POPUP_SHOWING
+eXULPopupShowing
 nullptr
 WidgetMouseEvent
 :
