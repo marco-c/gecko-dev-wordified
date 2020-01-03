@@ -4056,7 +4056,6 @@ submitButton
 ;
 #
 endif
-let
 notification
 =
 notificationBox
