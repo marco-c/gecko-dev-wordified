@@ -2528,8 +2528,6 @@ autoCloseBrackets
 }
 (
 )
-[
-]
 "
 extraKeys
 :
