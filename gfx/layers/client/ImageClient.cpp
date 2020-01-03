@@ -1300,6 +1300,9 @@ texture
 new
 EGLImageTextureClient
 (
+GetForwarder
+(
+)
 mTextureFlags
 typedImage
 size
@@ -1359,6 +1362,9 @@ texture
 new
 SurfaceTextureClient
 (
+GetForwarder
+(
+)
 mTextureFlags
 data
 -
