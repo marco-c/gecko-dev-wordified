@@ -228,6 +228,11 @@ mNpp
 ;
 }
 ;
+extern
+const
+JSClass
+sNPObjectJSWrapperClass
+;
 class
 nsJSObjWrapper
 :
@@ -239,7 +244,7 @@ public
 JS
 :
 :
-Heap
+PersistentRooted
 <
 JSObject
 *
@@ -461,15 +466,6 @@ nsNPObjWrapper
 {
 public
 :
-static
-bool
-IsWrapper
-(
-JSObject
-*
-obj
-)
-;
 static
 void
 OnDestroy
