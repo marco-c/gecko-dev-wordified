@@ -143,6 +143,15 @@ AVRCP
 module
 /
 /
+const
+int
+BluetoothDaemonAvrcpModule
+:
+:
+MAX_NUM_CLIENTS
+=
+1
+;
 BluetoothAvrcpNotificationHandler
 *
 BluetoothDaemonAvrcpModule
@@ -3854,6 +3863,10 @@ BluetoothDaemonAvrcpModule
 :
 :
 SERVICE_ID
+BluetoothDaemonAvrcpModule
+:
+:
+MAX_NUM_CLIENTS
 0x00
 res
 )

@@ -1571,6 +1571,16 @@ BluetoothDaemonPDU
 aPDU
 )
 ;
+nsresult
+PackPDU
+(
+BluetoothTransport
+aIn
+BluetoothDaemonPDU
+&
+aPDU
+)
+;
 /
 *
 |

@@ -5389,6 +5389,7 @@ BluetoothDaemonHandsfreeModule
 :
 SERVICE_ID
 MODE_NARROWBAND_SPEECH
+aMaxNumClients
 res
 )
 ;
