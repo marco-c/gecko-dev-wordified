@@ -466,7 +466,9 @@ ok
 (
 computed
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 filter
@@ -857,7 +859,9 @@ ok
 !
 computed
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 filter
