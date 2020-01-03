@@ -5747,7 +5747,7 @@ needsClone
 )
 si
 .
-frame
+initialFrame
 (
 )
 .
@@ -5766,7 +5766,7 @@ With
 :
 si
 .
-frame
+initialFrame
 (
 )
 .
@@ -5787,7 +5787,7 @@ case
 ScopeIter
 :
 :
-StrictEvalScope
+Eval
 :
 break
 ;
@@ -5833,25 +5833,22 @@ pc
 {
 if
 (
+!
 si
 .
-done
+withinInitialFrame
 (
 )
 )
 return
 ;
-Rooted
-<
-NestedScopeObject
-*
->
+RootedObject
 staticScope
 (
 cx
 si
 .
-frame
+initialFrame
 (
 )
 .
@@ -5860,7 +5857,7 @@ script
 )
 -
 >
-getStaticScope
+innermostStaticScope
 (
 pc
 )
@@ -5871,7 +5868,7 @@ for
 ;
 si
 .
-staticScope
+maybeStaticScope
 (
 )
 !
@@ -5964,7 +5961,7 @@ void
 js
 :
 :
-UnwindAllScopes
+UnwindAllScopesInFrame
 (
 JSContext
 *
@@ -5977,10 +5974,9 @@ si
 for
 (
 ;
-!
 si
 .
-done
+withinInitialFrame
 (
 )
 ;
@@ -6134,7 +6130,7 @@ InterpreterRegs
 regs
 )
 {
-UnwindAllScopes
+UnwindAllScopesInFrame
 (
 cx
 si
@@ -6162,6 +6158,7 @@ regs
 ScopeIter
 si
 (
+cx
 regs
 .
 fp
@@ -6170,7 +6167,6 @@ fp
 regs
 .
 pc
-cx
 )
 ;
 ForcedReturn
@@ -6719,6 +6715,7 @@ pc
 ScopeIter
 si
 (
+cx
 regs
 .
 fp
@@ -6727,7 +6724,6 @@ fp
 regs
 .
 pc
-cx
 )
 ;
 bool
@@ -20530,7 +20526,7 @@ scope
 script
 -
 >
-getStaticScope
+getStaticBlockScope
 (
 REGS
 .
@@ -20615,7 +20611,7 @@ MOZ_ASSERT
 script
 -
 >
-getStaticScope
+getStaticBlockScope
 (
 REGS
 .
@@ -20628,7 +20624,7 @@ MOZ_ASSERT
 script
 -
 >
-getStaticScope
+getStaticBlockScope
 (
 REGS
 .
@@ -24798,7 +24794,7 @@ cx
 script
 -
 >
-getStaticScope
+getStaticBlockScope
 (
 pc
 )
