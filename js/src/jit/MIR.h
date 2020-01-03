@@ -34752,8 +34752,6 @@ operandMightEmulateUndefined_
 bool
 operandIsNeverNaN_
 ;
-public
-:
 explicit
 MNot
 (
@@ -34785,6 +34783,8 @@ setMovable
 )
 ;
 }
+public
+:
 static
 MNot
 *
