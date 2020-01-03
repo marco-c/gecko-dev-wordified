@@ -1117,15 +1117,8 @@ nsFrameMessageManager
 *
 NewProcessMessageManager
 (
-mozilla
-:
-:
-dom
-:
-:
-nsIContentParent
-*
-aProcess
+bool
+aIsRemote
 )
 ;
 nsresult

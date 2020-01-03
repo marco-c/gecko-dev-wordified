@@ -332,7 +332,7 @@ nsFrameMessageManager
 :
 NewProcessMessageManager
 (
-this
+true
 )
 ;
 }
