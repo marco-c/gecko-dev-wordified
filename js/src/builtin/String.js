@@ -94,7 +94,7 @@ Steps
 -
 3
 .
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -368,7 +368,7 @@ Steps
 -
 2
 .
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -644,7 +644,7 @@ Steps
 -
 3
 .
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -907,7 +907,7 @@ Steps
 -
 3
 .
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -1099,7 +1099,7 @@ Steps
 -
 3
 .
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -1283,7 +1283,7 @@ String_iterator
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -1598,7 +1598,7 @@ Steps
 -
 3
 .
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2404,7 +2404,7 @@ String_big
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2450,7 +2450,7 @@ String_blink
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2496,7 +2496,7 @@ String_bold
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2542,7 +2542,7 @@ String_fixed
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2588,7 +2588,7 @@ String_italics
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2634,7 +2634,7 @@ String_small
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2680,7 +2680,7 @@ String_strike
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2726,7 +2726,7 @@ String_sub
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2772,7 +2772,7 @@ String_sup
 (
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -2937,7 +2937,7 @@ String_anchor
 name
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -3001,7 +3001,7 @@ String_fontcolor
 color
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -3065,7 +3065,7 @@ String_fontsize
 size
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )
@@ -3129,7 +3129,7 @@ String_link
 url
 )
 {
-CheckObjectCoercible
+RequireObjectCoercible
 (
 this
 )

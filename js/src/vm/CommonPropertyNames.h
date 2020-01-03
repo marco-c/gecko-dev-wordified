@@ -1651,6 +1651,15 @@ Reify
 \
 macro
 (
+RequireObjectCoercible
+RequireObjectCoercible
+"
+RequireObjectCoercible
+"
+)
+\
+macro
+(
 resumeGenerator
 resumeGenerator
 "
