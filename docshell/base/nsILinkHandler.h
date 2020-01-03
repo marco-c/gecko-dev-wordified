@@ -148,12 +148,6 @@ nsIInputStream
 class
 nsIRequest
 ;
-/
-/
-Interface
-ID
-for
-nsILinkHandler
 #
 define
 NS_ILINKHANDLER_IID

@@ -153,12 +153,6 @@ h
 class
 nsCString
 ;
-/
-/
-Class
-ID
-for
-webnavigationinfo
 #
 define
 NS_WEBNAVIGATION_INFO_CID

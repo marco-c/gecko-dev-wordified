@@ -187,7 +187,7 @@ nsSHEntry
 const
 nsSHEntry
 &
-other
+aOther
 )
 ;
 NS_DECL_ISUPPORTS
