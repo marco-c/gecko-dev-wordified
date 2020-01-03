@@ -922,6 +922,14 @@ interception
 opaque
 .
 enabled
+WORKERPREF_PUSH
+/
+/
+dom
+.
+push
+.
+enabled
 WORKERPREF_COUNT
 }
 ;
