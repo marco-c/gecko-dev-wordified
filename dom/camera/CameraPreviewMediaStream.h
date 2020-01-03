@@ -106,6 +106,7 @@ FakeMediaStreamGraph
 :
 MediaStreamGraph
 (
+16000
 )
 {
 }
