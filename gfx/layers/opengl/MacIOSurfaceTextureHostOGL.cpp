@@ -148,7 +148,7 @@ LookupSurface
 (
 aDescriptor
 .
-surface
+surfaceId
 (
 )
 aDescriptor
