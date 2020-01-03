@@ -8190,7 +8190,11 @@ window
 )
 focusedWindow
 =
-content
+gBrowser
+.
+selectedBrowser
+.
+contentWindowAsCPOW
 ;
 var
 docCharset
@@ -12703,7 +12707,7 @@ this
 .
 browser
 .
-contentDocument
+contentDocumentAsCPOW
 )
 ;
 }
@@ -12741,7 +12745,7 @@ this
 .
 browser
 .
-contentWindow
+contentWindowAsCPOW
 )
 ;
 }
