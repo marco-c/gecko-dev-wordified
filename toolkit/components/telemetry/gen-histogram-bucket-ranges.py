@@ -98,7 +98,7 @@ this
 in
 sync
 with
-TelemetryPing
+TelemetryController
 .
 startup_histogram_re
 =

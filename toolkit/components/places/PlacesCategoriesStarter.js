@@ -201,7 +201,7 @@ utils
 /
 Fired
 by
-TelemetryPing
+TelemetryController
 when
 async
 telemetry

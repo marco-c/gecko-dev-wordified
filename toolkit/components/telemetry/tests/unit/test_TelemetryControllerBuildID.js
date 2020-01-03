@@ -168,7 +168,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -277,7 +277,7 @@ prefs
 .
 setBoolPref
 (
-TelemetryPing
+TelemetryController
 .
 Constants
 .

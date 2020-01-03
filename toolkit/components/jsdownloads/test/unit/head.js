@@ -683,7 +683,7 @@ Generate
 using
 gzipCompressString
 in
-TelemetryPing
+TelemetryController
 .
 jsm
 .

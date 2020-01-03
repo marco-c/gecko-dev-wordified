@@ -160,7 +160,7 @@ telemetryRecorder
 ;
 private
 File
-telemetryPingDir
+TelemetryControllerDir
 ;
 private
 File
@@ -266,7 +266,7 @@ setUp
 (
 )
 ;
-telemetryPingDir
+TelemetryControllerDir
 =
 new
 File
@@ -282,7 +282,7 @@ ping
 if
 (
 !
-telemetryPingDir
+TelemetryControllerDir
 .
 mkdir
 (
@@ -352,7 +352,7 @@ fileNotDirectory
 new
 File
 (
-telemetryPingDir
+TelemetryControllerDir
 "
 testFile
 "
@@ -484,7 +484,7 @@ telemetryRecorder
 new
 TelemetryRecorder
 (
-telemetryPingDir
+TelemetryControllerDir
 cacheDir
 DEST_FILENAME
 )
@@ -567,7 +567,7 @@ telemetryRecorder
 new
 TelemetryRecorder
 (
-telemetryPingDir
+TelemetryControllerDir
 cacheDir
 DEST_FILENAME
 )
@@ -635,7 +635,7 @@ destFile
 new
 File
 (
-telemetryPingDir
+TelemetryControllerDir
 DEST_FILENAME
 )
 ;

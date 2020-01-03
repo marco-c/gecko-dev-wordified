@@ -910,7 +910,7 @@ aEvent
 *
 Called
 by
-TelemetryPing
+TelemetryController
 to
 populate
 the

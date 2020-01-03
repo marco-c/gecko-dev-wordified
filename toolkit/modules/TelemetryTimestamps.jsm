@@ -97,7 +97,7 @@ events
 *
 *
 The
-TelemetryPing
+TelemetryController
 component
 attaches
 the
@@ -347,7 +347,7 @@ JSON
 .
 Used
 by
-TelemetryPing
+TelemetryController
 to
 retrieve
 the

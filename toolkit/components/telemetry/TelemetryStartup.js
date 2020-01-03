@@ -101,6 +101,7 @@ Cu
 =
 Components
 ;
++
 Cu
 .
 import
@@ -114,7 +115,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -201,7 +202,7 @@ change
 notification
 *
 to
-TelemetryPing
+TelemetryController
 .
 jsm
 .
@@ -294,7 +295,7 @@ startup
 "
 )
 {
-TelemetryPing
+TelemetryController
 .
 observe
 (

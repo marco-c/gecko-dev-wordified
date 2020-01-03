@@ -200,7 +200,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -851,7 +851,7 @@ if
 gServerStarted
 )
 {
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -881,7 +881,7 @@ testPing
 }
 else
 {
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -2992,7 +2992,7 @@ units
 /
 /
 because
-TelemetryPing
+TelemetryController
 has
 separate
 logic
@@ -3738,7 +3738,7 @@ setup
 )
 ;
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (
@@ -6369,7 +6369,7 @@ available
 let
 sessionRecorder
 =
-TelemetryPing
+TelemetryController
 .
 getSessionRecorder
 (
@@ -6826,7 +6826,7 @@ setup
 (
 )
 ;
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -8435,7 +8435,7 @@ setup
 (
 )
 ;
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -10535,7 +10535,7 @@ when
 /
 /
 resetting
-TelemetryPing
+TelemetryController
 .
 const
 OVERDUE_PING_FILE_AGE
@@ -10567,7 +10567,7 @@ OVERDUE_PING_FILE_AGE
 )
 ;
 yield
-TelemetryPing
+TelemetryController
 .
 reset
 (

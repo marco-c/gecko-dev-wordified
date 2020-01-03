@@ -330,7 +330,7 @@ const
 LOGGER_PREFIX
 =
 "
-TelemetryPing
+TelemetryController
 :
 :
 "
@@ -1091,13 +1091,13 @@ EXPORTED_SYMBOLS
 =
 [
 "
-TelemetryPing
+TelemetryController
 "
 ]
 ;
 this
 .
-TelemetryPing
+TelemetryController
 =
 Object
 .
@@ -2479,7 +2479,7 @@ Barrier
 to
 synchronize
 with
-TelemetryPing
+TelemetryController
 shutdown
 .
 *
@@ -2545,7 +2545,7 @@ _sessionRecorder
 Allows
 waiting
 for
-TelemetryPings
+TelemetryControllers
 delayed
 initialization
 to
@@ -2560,7 +2560,7 @@ guaranteed
 to
 resolve
 before
-TelemetryPing
+TelemetryController
 is
 shutting
 down
@@ -2573,7 +2573,7 @@ Promise
 Resolved
 when
 delayed
-TelemetryPing
+TelemetryController
 initialization
 completed
 .
@@ -2613,7 +2613,7 @@ we
 started
 setting
 up
-TelemetryPing
+TelemetryController
 .
 _log
 :
@@ -2725,7 +2725,7 @@ shutdown
 /
 /
 of
-TelemetryPing
+TelemetryController
 .
 /
 /
@@ -2748,7 +2748,7 @@ AsyncShutdown
 Barrier
 (
 "
-TelemetryPing
+TelemetryController
 :
 Waiting
 for
@@ -2783,7 +2783,7 @@ AsyncShutdown
 Barrier
 (
 "
-TelemetryPing
+TelemetryController
 :
 Waiting
 for
@@ -6710,7 +6710,7 @@ This
 delayed
 initialization
 means
-TelemetryPing
+TelemetryController
 init
 can
 be
@@ -7164,7 +7164,7 @@ If
 we
 have
 any
-TelemetryPings
+TelemetryControllers
 lying
 around
 we
@@ -7376,7 +7376,7 @@ sendTelemetry
 addBlocker
 (
 "
-TelemetryPing
+TelemetryController
 :
 shutting
 down
@@ -8176,7 +8176,7 @@ state
 Allows
 waiting
 for
-TelemetryPings
+TelemetryControllers
 delayed
 initialization
 to
@@ -8187,7 +8187,7 @@ This
 will
 complete
 before
-TelemetryPing
+TelemetryController
 is
 shutting
 down
@@ -8200,7 +8200,7 @@ Promise
 Resolved
 when
 delayed
-TelemetryPing
+TelemetryController
 initialization
 completed
 .

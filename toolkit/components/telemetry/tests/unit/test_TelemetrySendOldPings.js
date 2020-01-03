@@ -202,7 +202,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -639,7 +639,7 @@ let
 pingId
 =
 yield
-TelemetryPing
+TelemetryController
 .
 addPendingPing
 (
@@ -1184,7 +1184,7 @@ Creates
 and
 returns
 a
-TelemetryPing
+TelemetryController
 instance
 in
 "
@@ -1201,7 +1201,7 @@ startTelemetry
 )
 {
 return
-TelemetryPing
+TelemetryController
 .
 setup
 (
@@ -1319,7 +1319,7 @@ prefs
 .
 setBoolPref
 (
-TelemetryPing
+TelemetryController
 .
 Constants
 .
@@ -1333,7 +1333,7 @@ prefs
 .
 setCharPref
 (
-TelemetryPing
+TelemetryController
 .
 Constants
 .
@@ -1378,7 +1378,7 @@ available
 otherwise
 *
 |
-TelemetryPing
+TelemetryController
 .
 testSaveDirectoryToFile
 |
@@ -1396,7 +1396,7 @@ setupEnvironment
 )
 {
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (

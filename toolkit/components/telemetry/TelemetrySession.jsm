@@ -1172,7 +1172,7 @@ defineLazyModuleGetter
 (
 this
 "
-TelemetryPing
+TelemetryController
 "
 "
 resource
@@ -1183,7 +1183,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -6978,7 +6978,7 @@ activeTicks
 let
 sr
 =
-TelemetryPing
+TelemetryController
 .
 getSessionRecorder
 (
@@ -8451,7 +8451,7 @@ bug
 /
 /
 /
-test_TelemetryPing
+test_TelemetryController
 .
 js
 relies
@@ -8483,7 +8483,7 @@ ll
 have
 to
 modify
-test_TelemetryPing
+test_TelemetryController
 .
 js
 :
@@ -10085,7 +10085,7 @@ true
 }
 ;
 return
-TelemetryPing
+TelemetryController
 .
 send
 (
@@ -10554,7 +10554,7 @@ resolve
 )
 ;
 }
-TelemetryPing
+TelemetryController
 .
 shutdown
 .
@@ -11587,7 +11587,7 @@ shutdown
 ping
 .
 return
-TelemetryPing
+TelemetryController
 .
 addPendingPing
 (
@@ -11647,7 +11647,7 @@ session
 ping
 and
 make
-TelemetryPing
+TelemetryController
 save
 all
 the
@@ -11703,7 +11703,7 @@ true
 }
 ;
 return
-TelemetryPing
+TelemetryController
 .
 savePendingPings
 (
@@ -11772,7 +11772,7 @@ true
 }
 ;
 return
-TelemetryPing
+TelemetryController
 .
 savePing
 (
@@ -12633,7 +12633,7 @@ of
 this
 module
 .
-TelemetryPing
+TelemetryController
 .
 sendPersistedPings
 (
@@ -12955,7 +12955,7 @@ overwrite
 true
 }
 ;
-TelemetryPing
+TelemetryController
 .
 addPendingPing
 (
@@ -13430,7 +13430,7 @@ true
 let
 promise
 =
-TelemetryPing
+TelemetryController
 .
 send
 (
@@ -13940,7 +13940,7 @@ overrideEnvironment
 oldEnvironment
 }
 ;
-TelemetryPing
+TelemetryController
 .
 send
 (
@@ -14194,7 +14194,7 @@ available
 If
 so
 tell
-TelemetryPing
+TelemetryController
 about
 *
 it
@@ -14364,7 +14364,7 @@ enqueueTask
 )
 =
 >
-TelemetryPing
+TelemetryController
 .
 addPendingPingFromFile
 (
@@ -14553,7 +14553,7 @@ enqueueTask
 )
 =
 >
-TelemetryPing
+TelemetryController
 .
 savePing
 (

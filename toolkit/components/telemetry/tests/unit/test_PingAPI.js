@@ -57,7 +57,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -225,7 +225,7 @@ test_archivedPings
 )
 {
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (
@@ -341,7 +341,7 @@ data
 id
 =
 yield
-TelemetryPing
+TelemetryController
 .
 send
 (
@@ -555,7 +555,7 @@ a
 restart
 .
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (

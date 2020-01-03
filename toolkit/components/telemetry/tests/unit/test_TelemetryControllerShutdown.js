@@ -32,7 +32,7 @@ zero
 /
 Test
 that
-TelemetryPing
+TelemetryController
 sends
 close
 to
@@ -85,7 +85,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -513,13 +513,13 @@ start
 )
 ;
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (
 )
 ;
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -539,7 +539,7 @@ identity
 primaryPort
 )
 ;
-TelemetryPing
+TelemetryController
 .
 send
 (
@@ -560,7 +560,7 @@ Trigger
 the
 AsyncShutdown
 phase
-TelemetryPing
+TelemetryController
 hangs
 off
 .

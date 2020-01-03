@@ -66,7 +66,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -449,7 +449,7 @@ null
 ;
 }
 return
-TelemetryPing
+TelemetryController
 .
 setup
 (

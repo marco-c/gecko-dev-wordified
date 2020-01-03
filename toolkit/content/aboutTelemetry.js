@@ -133,7 +133,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -987,7 +987,7 @@ row
 "
 td
 "
-TelemetryPing
+TelemetryController
 .
 clientID
 +

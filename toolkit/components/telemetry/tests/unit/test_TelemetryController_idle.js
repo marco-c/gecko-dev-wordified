@@ -152,7 +152,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -353,13 +353,13 @@ not
 overdue
 .
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (
 )
 ;
-TelemetryPing
+TelemetryController
 .
 setServer
 (
