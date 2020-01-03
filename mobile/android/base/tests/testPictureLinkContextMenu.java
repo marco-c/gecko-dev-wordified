@@ -143,6 +143,7 @@ PICTURE_PAGE_URL
 verifyPageTitle
 (
 PICTURE_PAGE_TITLE
+PICTURE_PAGE_URL
 )
 ;
 switchTabs
