@@ -281,7 +281,7 @@ href
 "
 '
 +
-TILES_EXPLAIN_LINK
+TILES_INTRO_LINK
 +
 '
 "
