@@ -1737,9 +1737,6 @@ HideOSChromeOnScreen
 (
 bool
 aShouldHide
-NSScreen
-*
-aScreen
 )
 ;
 static
