@@ -2183,31 +2183,19 @@ main
 :
     
 from
-optparse
+argparse
 import
-OptionParser
+ArgumentParser
     
 o
 =
-OptionParser
+ArgumentParser
 (
-usage
-=
-"
-usage
-:
-%
-prog
-[
-options
-]
-configfile
-"
 )
     
 o
 .
-add_option
+add_argument
 (
 '
 -
@@ -2245,7 +2233,7 @@ files
     
 o
 .
-add_option
+add_argument
 (
 '
 -
@@ -2259,11 +2247,6 @@ stub
 output
 "
                  
-type
-=
-'
-string
-'
 dest
 =
 '
@@ -2292,7 +2275,7 @@ FILE
     
 o
 .
-add_option
+add_argument
 (
 '
 -
@@ -2300,11 +2283,6 @@ add_option
 header
 -
 output
-'
-type
-=
-'
-string
 '
 default
 =
@@ -2328,7 +2306,7 @@ FILE
     
 o
 .
-add_option
+add_argument
 (
 '
 -
@@ -2336,11 +2314,6 @@ add_option
 makedepend
 -
 output
-'
-type
-=
-'
-string
 '
 default
 =
@@ -2361,49 +2334,34 @@ FILE
 "
 )
     
+o
+.
+add_argument
+(
+'
+config
+'
+                 
+help
+=
+'
+Config
+file
+to
+load
+'
+)
+    
 global
 options
     
 options
-filenames
 =
 o
 .
 parse_args
 (
 )
-    
-if
-len
-(
-filenames
-)
-!
-=
-1
-:
-        
-o
-.
-error
-(
-"
-Exactly
-one
-config
-filename
-is
-needed
-.
-"
-)
-    
-filename
-=
-filenames
-[
-0
-]
     
 #
 Instantiate
@@ -2426,7 +2384,9 @@ conf
 =
 readConfigFile
 (
-filename
+options
+.
+config
 )
     
 if
