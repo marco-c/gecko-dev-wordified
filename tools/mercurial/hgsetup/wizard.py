@@ -224,7 +224,9 @@ LooseVersion
 '
 3
 .
-0
+2
+.
+4
 '
 )
 LEGACY_MERCURIAL
@@ -737,8 +739,6 @@ LooseVersion
 '
 3
 .
-0
-.
 1
 '
 )
@@ -866,7 +866,7 @@ LooseVersion
 '
 3
 .
-0
+1
 '
 )
 BZPOST_INFO
@@ -911,7 +911,7 @@ LooseVersion
 '
 3
 .
-0
+1
 '
 )
 FIREFOXTREE_INFO
