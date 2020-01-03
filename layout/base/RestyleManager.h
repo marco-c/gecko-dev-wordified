@@ -4537,6 +4537,14 @@ Element
 aRestyleRoot
 )
 ;
+void
+AddPendingRestylesForDescendantsMatchingSelectors
+(
+nsIContent
+*
+aContent
+)
+;
 #
 ifdef
 RESTYLE_LOGGING
