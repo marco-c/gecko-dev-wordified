@@ -4813,10 +4813,12 @@ AddChromeListeners
 ;
 }
 else
+{
 rv
 =
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 }
 /
@@ -4892,10 +4894,12 @@ AddChromeListeners
 ;
 }
 else
+{
 rv
 =
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 }
 /
@@ -6128,10 +6132,12 @@ Length
 (
 )
 )
+{
 found
 =
 true
 ;
+}
 else
 {
 /
@@ -7650,6 +7656,7 @@ nullptr
 }
 }
 else
+{
 NS_WARNING
 (
 "
@@ -7664,6 +7671,7 @@ tracking
 "
 )
 ;
+}
 }
 else
 {
