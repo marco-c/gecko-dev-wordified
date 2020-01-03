@@ -2636,9 +2636,6 @@ String
 -
 Optional
 .
-roomOwner
-:
-String
 roomToken
 :
 String
@@ -2732,9 +2729,6 @@ String
 -
 Optional
 .
-roomOwner
-:
-String
 roomUrl
 :
 String

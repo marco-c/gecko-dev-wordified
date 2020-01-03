@@ -594,11 +594,6 @@ http
 /
 invalid
 "
-roomOwner
-:
-"
-gavin
-"
 }
 ;
 requests
