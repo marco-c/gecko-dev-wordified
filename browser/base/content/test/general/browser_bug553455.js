@@ -6538,12 +6538,6 @@ complete
 false
 )
 ;
-PopupNotifications
-.
-transitionsEnabled
-=
-false
-;
 registerCleanupFunction
 (
 function
@@ -6582,12 +6576,6 @@ popupshown
 check_notification
 false
 )
-;
-PopupNotifications
-.
-transitionsEnabled
-=
-true
 ;
 AddonManager
 .

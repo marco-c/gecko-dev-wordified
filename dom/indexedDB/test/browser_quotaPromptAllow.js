@@ -103,12 +103,6 @@ requestLongerTimeout
 10
 )
 ;
-PopupNotifications
-.
-transitionsEnabled
-=
-false
-;
 setPermission
 (
 testPageURL
@@ -745,12 +739,6 @@ indexedDB
 warningQuota
 "
 )
-;
-PopupNotifications
-.
-transitionsEnabled
-=
-true
 ;
 executeSoon
 (

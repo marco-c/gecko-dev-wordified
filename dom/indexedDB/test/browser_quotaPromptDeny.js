@@ -103,12 +103,6 @@ requestLongerTimeout
 10
 )
 ;
-PopupNotifications
-.
-transitionsEnabled
-=
-false
-;
 setPermission
 (
 testPageURL
@@ -340,12 +334,6 @@ unregisterAllPopupEventHandlers
 addMoreTest1Count
 =
 seenPopupCount
-;
-PopupNotifications
-.
-transitionsEnabled
-=
-true
 ;
 executeSoon
 (

@@ -666,12 +666,6 @@ a
 predictable
 location
 .
-PopupNotifications
-.
-transitionsEnabled
-=
-false
-;
 registerCleanupFunction
 (
 (
@@ -684,12 +678,6 @@ PopupNotifications
 buttonDelay
 =
 PREF_SECURITY_DELAY_INITIAL
-;
-PopupNotifications
-.
-transitionsEnabled
-=
-true
 ;
 }
 )
