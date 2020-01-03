@@ -3773,7 +3773,9 @@ aIMENotification
 .
 mSelectionChangeData
 .
-mLength
+Length
+(
+)
 aIMENotification
 .
 mSelectionChangeData
