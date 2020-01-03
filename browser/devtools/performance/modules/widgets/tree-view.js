@@ -1011,12 +1011,6 @@ document
 arrowNode
 )
 {
-this
-.
-document
-=
-document
-;
 let
 displayedData
 =
@@ -1053,6 +1047,7 @@ this
 .
 _createTimeCell
 (
+document
 displayedData
 .
 totalDuration
@@ -1075,6 +1070,7 @@ this
 .
 _createTimeCell
 (
+document
 displayedData
 .
 selfDuration
@@ -1098,6 +1094,7 @@ this
 .
 _createExecutionCell
 (
+document
 displayedData
 .
 totalPercentage
@@ -1120,6 +1117,7 @@ this
 .
 _createExecutionCell
 (
+document
 displayedData
 .
 selfPercentage
@@ -1143,6 +1141,7 @@ this
 .
 _createAllocationsCell
 (
+document
 displayedData
 .
 totalAllocations
@@ -1165,6 +1164,7 @@ this
 .
 _createAllocationsCell
 (
+document
 displayedData
 .
 selfAllocations
@@ -1188,6 +1188,7 @@ this
 .
 _createSamplesCell
 (
+document
 displayedData
 .
 samples
@@ -1210,6 +1211,7 @@ this
 .
 _createFunctionCell
 (
+document
 arrowNode
 displayedData
 .
@@ -1620,6 +1622,7 @@ _createTimeCell
 :
 function
 (
+doc
 duration
 isSelf
 =
@@ -1629,9 +1632,7 @@ false
 let
 cell
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -1714,6 +1715,7 @@ _createExecutionCell
 :
 function
 (
+doc
 percentage
 isSelf
 =
@@ -1723,9 +1725,7 @@ false
 let
 cell
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -1805,6 +1805,7 @@ _createAllocationsCell
 :
 function
 (
+doc
 count
 isSelf
 =
@@ -1814,9 +1815,7 @@ false
 let
 cell
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -1891,15 +1890,14 @@ _createSamplesCell
 :
 function
 (
+doc
 count
 )
 {
 let
 cell
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -1967,6 +1965,7 @@ _createFunctionCell
 :
 function
 (
+doc
 arrowNode
 frameName
 frameInfo
@@ -1976,9 +1975,7 @@ frameLevel
 let
 cell
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -2072,9 +2069,7 @@ frameName
 let
 nameNode
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -2162,6 +2157,7 @@ this
 .
 _appendFunctionDetailsCells
 (
+doc
 cell
 frameInfo
 )
@@ -2225,6 +2221,7 @@ _appendFunctionDetailsCells
 :
 function
 (
+doc
 cell
 frameInfo
 )
@@ -2239,9 +2236,7 @@ fileName
 let
 urlNode
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -2346,9 +2341,7 @@ line
 let
 lineNode
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -2404,9 +2397,7 @@ column
 let
 columnNode
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -2462,9 +2453,7 @@ host
 let
 hostNode
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -2509,9 +2498,7 @@ hostNode
 let
 spacerNode
 =
-this
-.
-document
+doc
 .
 createElement
 (
@@ -2551,9 +2538,7 @@ label
 let
 categoryNode
 =
-this
-.
-document
+doc
 .
 createElement
 (
