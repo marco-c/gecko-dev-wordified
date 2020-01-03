@@ -11441,6 +11441,7 @@ ptr_
 ;
 public
 :
+explicit
 AutoInitGCManagedObject
 (
 UniquePtrT
