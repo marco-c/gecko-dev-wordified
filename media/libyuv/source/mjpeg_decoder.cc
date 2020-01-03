@@ -150,16 +150,6 @@ define
 HAVE_SETJMP
 #
 endif
-struct
-FILE
-;
-/
-/
-For
-jpeglib
-.
-h
-.
 /
 /
 C
