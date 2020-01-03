@@ -187,7 +187,6 @@ aPresShell
 )
 nsGridRowGroupFrame
 (
-aPresShell
 aContext
 layout
 )

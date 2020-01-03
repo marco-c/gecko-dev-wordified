@@ -345,7 +345,6 @@ aPresShell
 )
 nsProgressMeterFrame
 (
-aPresShell
 aContext
 )
 ;

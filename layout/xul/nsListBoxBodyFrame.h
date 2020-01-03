@@ -188,9 +188,6 @@ nsIReflowCallback
 {
 nsListBoxBodyFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext

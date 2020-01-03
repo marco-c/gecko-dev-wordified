@@ -746,7 +746,6 @@ aPresShell
 )
 nsHTMLScrollFrame
 (
-aPresShell
 aContext
 aIsRoot
 )
@@ -761,9 +760,6 @@ nsHTMLScrollFrame
 :
 nsHTMLScrollFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -6592,7 +6588,6 @@ aPresShell
 )
 nsXULScrollFrame
 (
-aPresShell
 aContext
 aIsRoot
 aClipAllDescendants
@@ -6608,9 +6603,6 @@ nsXULScrollFrame
 :
 nsXULScrollFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -6622,7 +6614,6 @@ aClipAllDescendants
 :
 nsBoxFrame
 (
-aShell
 aContext
 aIsRoot
 )

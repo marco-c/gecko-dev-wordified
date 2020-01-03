@@ -868,11 +868,9 @@ nsBoxFrame
 (
 )
 ;
+explicit
 nsBoxFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext

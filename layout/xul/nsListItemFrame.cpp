@@ -152,9 +152,6 @@ nsListItemFrame
 :
 nsListItemFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -167,7 +164,6 @@ aLayoutManager
 :
 nsGridRowLeafFrame
 (
-aPresShell
 aContext
 aIsRoot
 aLayoutManager
@@ -435,7 +431,6 @@ aPresShell
 )
 nsListItemFrame
 (
-aPresShell
 aContext
 false
 layout

@@ -141,11 +141,9 @@ nsBoxFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsPopupSetFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -153,7 +151,6 @@ aContext
 :
 nsBoxFrame
 (
-aShell
 aContext
 )
 {

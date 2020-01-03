@@ -1789,14 +1789,9 @@ bool
 aAllowScrolling
 )
 ;
+explicit
 nsListControlFrame
 (
-nsIPresShell
-*
-aShell
-nsIDocument
-*
-aDocument
 nsStyleContext
 *
 aContext

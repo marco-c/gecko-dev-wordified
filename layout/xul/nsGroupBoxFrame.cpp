@@ -176,11 +176,9 @@ nsBoxFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsGroupBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -188,7 +186,6 @@ aContext
 :
 nsBoxFrame
 (
-aShell
 aContext
 )
 {
@@ -490,7 +487,6 @@ aPresShell
 )
 nsGroupBoxFrame
 (
-aPresShell
 aContext
 )
 ;

@@ -258,7 +258,6 @@ aPresShell
 )
 nsDeckFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -284,9 +283,6 @@ nsDeckFrame
 :
 nsDeckFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -294,7 +290,6 @@ aContext
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 )
 mIndex
@@ -310,7 +305,14 @@ layout
 ;
 NS_NewStackLayout
 (
-aPresShell
+PresContext
+(
+)
+-
+>
+PresShell
+(
+)
 layout
 )
 ;

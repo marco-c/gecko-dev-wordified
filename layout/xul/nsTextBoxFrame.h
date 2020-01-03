@@ -482,11 +482,9 @@ nsRenderingContext
 aRenderingContext
 )
 ;
+explicit
 nsTextBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

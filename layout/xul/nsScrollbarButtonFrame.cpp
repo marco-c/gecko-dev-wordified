@@ -245,7 +245,6 @@ aPresShell
 )
 nsScrollbarButtonFrame
 (
-aPresShell
 aContext
 )
 ;

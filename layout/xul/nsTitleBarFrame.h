@@ -146,11 +146,9 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsTitleBarFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext

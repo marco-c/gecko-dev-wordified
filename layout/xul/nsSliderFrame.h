@@ -250,11 +250,9 @@ friend
 class
 nsSliderMediator
 ;
+explicit
 nsSliderFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

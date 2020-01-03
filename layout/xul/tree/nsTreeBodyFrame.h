@@ -332,11 +332,9 @@ layout
 ScrollbarActivity
 ScrollbarActivity
 ;
+explicit
 nsTreeBodyFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext

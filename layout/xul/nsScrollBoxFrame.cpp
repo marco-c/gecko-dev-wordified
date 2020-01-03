@@ -249,11 +249,9 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsAutoRepeatBoxFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -261,7 +259,6 @@ aContext
 :
 nsButtonBoxFrame
 (
-aPresShell
 aContext
 )
 {
@@ -398,7 +395,6 @@ aPresShell
 )
 nsAutoRepeatBoxFrame
 (
-aPresShell
 aContext
 )
 ;

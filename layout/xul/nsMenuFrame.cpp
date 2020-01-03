@@ -951,7 +951,6 @@ aPresShell
 )
 nsMenuFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -989,7 +988,6 @@ aPresShell
 )
 nsMenuFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -1026,9 +1024,6 @@ nsMenuFrame
 :
 nsMenuFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -1036,7 +1031,6 @@ aContext
 :
 nsBoxFrame
 (
-aShell
 aContext
 )
 mIsMenu

@@ -223,7 +223,6 @@ aPresShell
 )
 nsTreeColFrame
 (
-aPresShell
 aContext
 )
 ;

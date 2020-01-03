@@ -500,11 +500,9 @@ GetIntrinsicISize
 )
 MOZ_OVERRIDE
 ;
+explicit
 nsLeafBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

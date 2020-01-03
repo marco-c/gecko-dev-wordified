@@ -306,11 +306,9 @@ aResult
 }
 #
 endif
+explicit
 nsDeckFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext

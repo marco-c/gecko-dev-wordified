@@ -537,7 +537,6 @@ aPresShell
 )
 nsMenuPopupFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -571,9 +570,6 @@ nsMenuPopupFrame
 :
 nsMenuPopupFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -581,7 +577,6 @@ aContext
 :
 nsBoxFrame
 (
-aShell
 aContext
 )
 mCurrentMenu

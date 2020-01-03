@@ -133,11 +133,9 @@ nsBoxFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsTreeColFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -145,7 +143,6 @@ aContext
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 )
 {

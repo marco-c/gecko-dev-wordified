@@ -431,11 +431,9 @@ nsBoxFrame
 {
 public
 :
+explicit
 nsMenuFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

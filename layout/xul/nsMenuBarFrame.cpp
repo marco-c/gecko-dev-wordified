@@ -289,7 +289,6 @@ aPresShell
 )
 nsMenuBarFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -323,9 +322,6 @@ nsMenuBarFrame
 :
 nsMenuBarFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -333,7 +329,6 @@ aContext
 :
 nsBoxFrame
 (
-aShell
 aContext
 )
 mMenuBarListener

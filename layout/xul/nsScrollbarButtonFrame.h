@@ -160,11 +160,9 @@ nsButtonBoxFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsScrollbarButtonFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -172,7 +170,6 @@ aContext
 :
 nsButtonBoxFrame
 (
-aPresShell
 aContext
 )
 mCursorOnThis

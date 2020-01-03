@@ -187,7 +187,6 @@ aPresShell
 )
 nsGridRowLeafFrame
 (
-aPresShell
 aContext
 false
 layout
