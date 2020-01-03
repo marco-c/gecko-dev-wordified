@@ -1336,10 +1336,6 @@ nsIntRect
 aTargetBounds
 ScreenRotation
 aRotation
-const
-nsIntRect
-&
-aClientBounds
 mozilla
 :
 :

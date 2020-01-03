@@ -1421,13 +1421,6 @@ gfx
 IntSize
 &
 aSize
-const
-gfx
-:
-:
-Matrix
-&
-aWorldTransform
 )
 MOZ_OVERRIDE
 ;
@@ -1898,13 +1891,6 @@ gfx
 Rect
 *
 aClipRectIn
-const
-gfx
-:
-:
-Matrix
-&
-aTransform
 const
 gfx
 :

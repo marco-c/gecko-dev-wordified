@@ -1467,13 +1467,6 @@ GetLayer
 CalculateScissorRect
 (
 aClipRect
-&
-aManager
--
->
-GetWorldTransform
-(
-)
 )
 ;
 if

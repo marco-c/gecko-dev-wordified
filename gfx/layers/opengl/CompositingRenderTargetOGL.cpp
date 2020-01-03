@@ -458,7 +458,6 @@ PrepareViewport
 mInitParams
 .
 mSize
-mTransform
 )
 ;
 }
@@ -679,7 +678,6 @@ PrepareViewport
 mInitParams
 .
 mSize
-mTransform
 )
 ;
 mGL

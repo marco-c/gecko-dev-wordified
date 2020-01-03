@@ -4292,7 +4292,7 @@ UpdateRenderBounds
 (
 aTargetConfig
 .
-clientBounds
+naturalBounds
 (
 )
 )

@@ -1102,7 +1102,6 @@ FromUntyped
 (
 oldScissor
 )
-nullptr
 )
 )
 ;

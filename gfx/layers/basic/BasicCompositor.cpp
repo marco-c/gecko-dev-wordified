@@ -2322,13 +2322,6 @@ const
 gfx
 :
 :
-Matrix
-&
-aTransform
-const
-gfx
-:
-:
 Rect
 &
 aRenderBounds
