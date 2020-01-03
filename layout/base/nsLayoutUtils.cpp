@@ -14496,9 +14496,11 @@ gfxSize
 )
 ;
 }
-static
 nsIFrame
 *
+nsLayoutUtils
+:
+:
 FindNearestCommonAncestorFrame
 (
 nsIFrame
