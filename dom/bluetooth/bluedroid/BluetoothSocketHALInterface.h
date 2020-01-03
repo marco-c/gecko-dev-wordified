@@ -228,6 +228,14 @@ BluetoothSocketResultHandler
 aRes
 )
 ;
+void
+Close
+(
+BluetoothSocketResultHandler
+*
+aRes
+)
+;
 protected
 :
 BluetoothSocketHALInterface
