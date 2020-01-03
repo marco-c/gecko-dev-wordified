@@ -2376,8 +2376,6 @@ gfx
 :
 IntSize
 aSize
-bool
-hasAlpha
 )
 ;
 virtual
@@ -2541,10 +2539,6 @@ gfx
 :
 IntSize
 mSize
-;
-const
-bool
-mHasAlpha
 ;
 RefPtr
 <

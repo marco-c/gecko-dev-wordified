@@ -2047,9 +2047,11 @@ InImageBridgeChildThread
 )
 )
 ;
-RELEASE_MANUALLY
-(
 aClient
+-
+>
+Release
+(
 )
 ;
 }
@@ -2164,9 +2166,11 @@ GetIPDLActor
 nullptr
 )
 ;
-RELEASE_MANUALLY
-(
 aClient
+-
+>
+Release
+(
 )
 ;
 return
