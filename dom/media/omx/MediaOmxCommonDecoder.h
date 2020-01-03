@@ -160,14 +160,11 @@ MediaOmxCommonDecoder
 ;
 virtual
 void
-MetadataLoaded
+FirstFrameLoaded
 (
 MediaInfo
 *
 aInfo
-MetadataTags
-*
-aTags
 )
 ;
 virtual
