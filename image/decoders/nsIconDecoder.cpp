@@ -335,6 +335,10 @@ mWidth
 mHeight
 )
 ;
+PostHasTransparency
+(
+)
+;
 if
 (
 HasError
