@@ -8683,7 +8683,13 @@ offsetToPC
 curBc
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 JSOp
+>
 op
 =
 JSOp

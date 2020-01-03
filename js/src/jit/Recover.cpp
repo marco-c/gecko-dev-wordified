@@ -893,6 +893,9 @@ SNAPSHOT_MAX_NARGS
 4
 )
 ;
+#
+ifdef
+DEBUG
 uint32_t
 implicit
 =
@@ -901,6 +904,8 @@ StartArgSlot
 script
 )
 ;
+#
+endif
 uint32_t
 formalArgs
 =
