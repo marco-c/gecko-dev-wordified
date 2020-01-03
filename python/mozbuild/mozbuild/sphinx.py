@@ -547,21 +547,36 @@ subcontext
             
 '
 '
-            
+        
+]
+)
+        
+lines
+.
+extend
+(
 prepare_docstring
 (
 cls
 .
 __doc__
 )
-[
-0
-]
-            
-'
-'
+)
         
+if
+lines
+[
+-
+1
 ]
+:
+            
+lines
+.
+append
+(
+'
+'
 )
         
 for
