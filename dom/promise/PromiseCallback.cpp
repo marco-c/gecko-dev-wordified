@@ -407,10 +407,6 @@ ResolveInternal
 (
 aCx
 value
-Promise
-:
-:
-SyncTask
 )
 ;
 }
@@ -631,10 +627,6 @@ RejectInternal
 (
 aCx
 value
-Promise
-:
-:
-SyncTask
 )
 ;
 }
@@ -1411,10 +1403,6 @@ RejectInternal
 (
 aCx
 typeError
-Promise
-:
-:
-SyncTask
 )
 ;
 return
