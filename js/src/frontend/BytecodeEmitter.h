@@ -1731,7 +1731,7 @@ bytecode
 .
 *
 /
-ptrdiff_t
+bool
 Emit1
 (
 ExclusiveContext
@@ -1767,7 +1767,7 @@ op1
 .
 *
 /
-ptrdiff_t
+bool
 Emit2
 (
 ExclusiveContext
