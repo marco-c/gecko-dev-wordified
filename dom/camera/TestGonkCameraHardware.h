@@ -178,6 +178,12 @@ android
 :
 GonkCameraHardware
 {
+#
+ifndef
+MOZ_WIDGET_GONK
+NS_DECL_ISUPPORTS_INHERITED
+#
+endif
 public
 :
 virtual
@@ -286,6 +292,9 @@ aEnabled
 )
 MOZ_OVERRIDE
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 virtual
 int
 PushParameters
@@ -313,6 +322,8 @@ aParams
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 TestGonkCameraHardware
 (
 mozilla

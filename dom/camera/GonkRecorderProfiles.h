@@ -63,6 +63,9 @@ DOM_CAMERA_GONK_RECORDER_PROFILES_H
 define
 DOM_CAMERA_GONK_RECORDER_PROFILES_H
 #
+ifdef
+MOZ_WIDGET_GONK
+#
 include
 <
 media
@@ -71,6 +74,17 @@ MediaProfiles
 .
 h
 >
+#
+else
+#
+include
+"
+FallbackCameraPlatform
+.
+h
+"
+#
+endif
 #
 include
 "
@@ -513,6 +527,9 @@ RecorderProfile
 aProfiles
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 /
 /
 Configures
@@ -579,6 +596,8 @@ nsAString
 aProfileName
 )
 ;
+#
+endif
 protected
 :
 GonkRecorderProfile
@@ -635,6 +654,9 @@ mIsValid
 ;
 }
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 nsresult
 ConfigureRecorder
 (
@@ -646,6 +668,8 @@ GonkRecorder
 aRecorder
 )
 ;
+#
+endif
 static
 already_AddRefed
 <

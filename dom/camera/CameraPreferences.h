@@ -474,6 +474,10 @@ static
 bool
 sPrefCameraParametersIsLowMemory
 ;
+static
+bool
+sPrefCameraParametersPermission
+;
 #
 ifdef
 MOZ_WIDGET_GONK
