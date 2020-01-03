@@ -651,6 +651,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -658,6 +659,7 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla

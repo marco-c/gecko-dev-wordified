@@ -275,6 +275,7 @@ nsSVGString
 GetResultImageName
 (
 )
+MOZ_OVERRIDE
 {
 return
 mStringAttributes

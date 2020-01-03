@@ -300,6 +300,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /

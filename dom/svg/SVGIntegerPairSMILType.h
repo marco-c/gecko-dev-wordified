@@ -201,6 +201,7 @@ nsSMILValue
 &
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

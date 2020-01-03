@@ -513,6 +513,7 @@ float
 X
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -524,12 +525,14 @@ ErrorResult
 &
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 float
 Y
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -541,6 +544,7 @@ ErrorResult
 &
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -556,6 +560,7 @@ SVGMatrix
 &
 matrix
 )
+MOZ_OVERRIDE
 ;
 nsISupports
 *

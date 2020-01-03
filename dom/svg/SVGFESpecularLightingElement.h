@@ -276,6 +276,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 FilterPrimitiveDescription
@@ -321,6 +322,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /

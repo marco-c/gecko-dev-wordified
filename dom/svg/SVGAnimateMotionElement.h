@@ -257,6 +257,7 @@ nsSMILAnimationFunction
 AnimationFunction
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -271,6 +272,7 @@ nsIAtom
 aLocalName
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsSMILTargetAttrType
@@ -278,6 +280,7 @@ GetTargetAttributeType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
