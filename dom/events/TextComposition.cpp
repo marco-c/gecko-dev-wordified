@@ -716,7 +716,7 @@ true
 CloneAndDispatchAs
 (
 aCompositionEvent
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 )
 ;
 return
@@ -867,7 +867,7 @@ if
 aMessage
 =
 =
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 )
 {
 mLastData

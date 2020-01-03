@@ -961,7 +961,7 @@ eCompositionEventFirst
 )
 /
 /
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 is
 the
 message
@@ -1005,7 +1005,7 @@ string
 .
 NS_EVENT_MESSAGE
 (
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 eCompositionEventFirst
 +
 2
