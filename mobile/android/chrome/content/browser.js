@@ -42056,6 +42056,11 @@ aElement
 readOnly
 |
 |
+aElement
+.
+disabled
+|
+|
 (
 aElement
 .
