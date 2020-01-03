@@ -18158,8 +18158,6 @@ popup
 =
 this
 .
-ruleEditor
-.
 ruleView
 .
 popup
@@ -18356,8 +18354,6 @@ inplaceEditor
 |
 |
 this
-.
-ruleEditor
 .
 ruleView
 .
@@ -18874,8 +18870,6 @@ let
 outputParser
 =
 this
-.
-ruleEditor
 .
 ruleView
 .
@@ -19630,8 +19624,6 @@ if
 (
 this
 .
-ruleEditor
-.
 ruleView
 .
 isDestroyed
@@ -19967,8 +19959,6 @@ outputParser
 =
 this
 .
-ruleEditor
-.
 ruleView
 .
 _outputParser
@@ -20126,8 +20116,6 @@ knows
 about
 this
 .
-ruleEditor
-.
 ruleView
 .
 tooltips
@@ -20255,8 +20243,6 @@ knows
 about
 this
 .
-ruleEditor
-.
 ruleView
 .
 tooltips
@@ -20366,8 +20352,6 @@ filterSwatch
 true
 ;
 this
-.
-ruleEditor
 .
 ruleView
 .
@@ -20686,8 +20670,6 @@ let
 outputParser
 =
 this
-.
-ruleEditor
 .
 ruleView
 .
@@ -21572,8 +21554,6 @@ _colorSwatchSpans
 )
 {
 this
-.
-ruleEditor
 .
 ruleView
 .
