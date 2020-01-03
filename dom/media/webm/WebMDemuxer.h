@@ -485,16 +485,6 @@ Init
 )
 override
 ;
-already_AddRefed
-<
-MediaDataDemuxer
->
-Clone
-(
-)
-const
-override
-;
 bool
 HasTrackType
 (

@@ -207,17 +207,6 @@ Init
 override
 ;
 virtual
-already_AddRefed
-<
-MediaDataDemuxer
->
-Clone
-(
-)
-const
-override
-;
-virtual
 bool
 HasTrackType
 (
