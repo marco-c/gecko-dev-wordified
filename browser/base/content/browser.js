@@ -9059,7 +9059,7 @@ about
 the
 results
 if
-somenoe
+someone
 is
 interested
 they
@@ -9076,6 +9076,17 @@ gmpInstallManager
 .
 simpleCheckAndInstall
 (
+)
+.
+then
+(
+null
+(
+)
+=
+>
+{
+}
 )
 ;
 }
