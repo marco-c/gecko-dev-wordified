@@ -710,6 +710,7 @@ left
 )
 ;
 }
+synchronized
 RectF
 getMaxMargins
 (
