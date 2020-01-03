@@ -3523,6 +3523,8 @@ mozilla
 UniquePtr
 <
 char
+[
+]
 JS
 :
 :
