@@ -962,7 +962,7 @@ MOZ_WIDGET_GONK
 #
 include
 "
-nsIGonkMobileConnectionService
+nsIMobileConnectionGonkService
 .
 h
 "
@@ -5101,7 +5101,7 @@ service
 =
 do_CreateInstance
 (
-GONK_MOBILECONNECTION_SERVICE_CONTRACTID
+NS_MOBILECONNECTION_GONK_SERVICE_CONTRACTID
 )
 ;
 #
