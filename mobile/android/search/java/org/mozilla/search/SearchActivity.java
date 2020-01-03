@@ -2015,13 +2015,10 @@ ends
 .
 if
 (
-SearchActivity
-.
-this
-.
-isDestroyed
-(
-)
+searchEngineManager
+=
+=
+null
 )
 {
 return
