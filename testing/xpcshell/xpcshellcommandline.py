@@ -1439,7 +1439,7 @@ sut
 default
 =
 "
-sut
+adb
 "
                         
 help
@@ -1462,7 +1462,7 @@ sut
 ;
 default
 =
-sut
+adb
 "
 )
     
