@@ -10929,14 +10929,6 @@ GetStringBufferValue
 )
 )
 ;
-if
-(
-!
-counterList
-)
-return
-nullptr
-;
 nsCounterUseNode
 *
 node
