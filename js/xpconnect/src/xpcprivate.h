@@ -13077,6 +13077,11 @@ mJSObject
 nullptr
 )
 {
+MOZ_COUNT_CTOR
+(
+XPCWrappedNativeTearOff
+)
+;
 }
 ~
 XPCWrappedNativeTearOff
