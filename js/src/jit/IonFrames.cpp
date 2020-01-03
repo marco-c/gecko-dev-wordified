@@ -14551,6 +14551,14 @@ snapshotIterator
 (
 )
 ;
+MaybeReadFallback
+fallback
+(
+UndefinedValue
+(
+)
+)
+;
 fprintf
 (
 stderr
@@ -14718,6 +14726,7 @@ GetJSContextFromJitCode
 )
 d
 ReadFrame_Overflown
+fallback
 )
 ;
 }
@@ -14771,6 +14780,7 @@ si
 .
 maybeRead
 (
+fallback
 )
 )
 ;
