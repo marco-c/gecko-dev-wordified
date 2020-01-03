@@ -655,6 +655,10 @@ if
 mRemovingProp
 )
 {
+found
+=
+false
+;
 return
 ;
 }
@@ -671,6 +675,10 @@ attr
 )
 )
 {
+found
+=
+false
+;
 return
 ;
 }
