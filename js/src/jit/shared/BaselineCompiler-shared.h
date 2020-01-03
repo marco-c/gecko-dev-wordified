@@ -396,12 +396,6 @@ CodeOffsetLabel
 spsPushToggleOffset_
 ;
 CodeOffsetLabel
-profilerEnterFrameToggleOffset_
-;
-CodeOffsetLabel
-profilerExitFrameToggleOffset_
-;
-CodeOffsetLabel
 traceLoggerEnterToggleOffset_
 ;
 CodeOffsetLabel

@@ -1419,13 +1419,13 @@ emitTraceLoggerExit
 (
 )
 ;
-void
-emitProfilerEnterFrame
+bool
+emitSPSPush
 (
 )
 ;
 void
-emitProfilerExitFrame
+emitSPSPop
 (
 )
 ;
