@@ -6056,9 +6056,7 @@ aType
 =
 0
 ;
-const
 Matrix
-&
 GetTransform
 (
 )
