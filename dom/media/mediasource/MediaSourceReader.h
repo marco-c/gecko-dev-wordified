@@ -656,8 +656,8 @@ aEndTime
 )
 MOZ_OVERRIDE
 ;
-void
-CancelSeek
+nsresult
+ResetDecode
 (
 )
 MOZ_OVERRIDE
