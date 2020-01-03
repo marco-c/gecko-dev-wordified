@@ -304,6 +304,15 @@ include
 "
 js
 /
+TrackedOptimizationInfo
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
