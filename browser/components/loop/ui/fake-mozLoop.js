@@ -826,6 +826,9 @@ false
 ;
 }
 }
+hasEncryptionKey
+:
+true
 setLoopPref
 :
 function
