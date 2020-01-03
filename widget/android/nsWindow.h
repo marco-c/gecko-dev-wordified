@@ -944,7 +944,7 @@ IsCompositionPaused
 ;
 static
 void
-ScheduleComposite
+InvalidateAndScheduleComposite
 (
 )
 ;

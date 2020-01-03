@@ -1686,6 +1686,11 @@ SchedulePauseOnCompositorThread
 (
 )
 ;
+void
+InvalidateOnCompositorThread
+(
+)
+;
 /
 *
 *
@@ -2537,6 +2542,11 @@ ForceComposition
 ;
 void
 CancelCurrentCompositeTask
+(
+)
+;
+void
+Invalidate
 (
 )
 ;

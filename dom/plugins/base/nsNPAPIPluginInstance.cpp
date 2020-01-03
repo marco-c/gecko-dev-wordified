@@ -5277,7 +5277,7 @@ Bridge
 )
 -
 >
-ScheduleComposite
+InvalidateAndScheduleComposite
 (
 )
 ;

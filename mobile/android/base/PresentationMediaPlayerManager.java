@@ -606,7 +606,7 @@ a
 composite
 GeckoAppShell
 .
-scheduleComposite
+invalidateAndScheduleComposite
 (
 )
 ;
@@ -633,7 +633,7 @@ getSurface
 ;
 GeckoAppShell
 .
-scheduleComposite
+invalidateAndScheduleComposite
 (
 )
 ;

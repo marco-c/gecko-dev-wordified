@@ -14024,7 +14024,7 @@ void
 nsWindow
 :
 :
-ScheduleComposite
+InvalidateAndScheduleComposite
 (
 )
 {
@@ -14033,6 +14033,13 @@ if
 sCompositorParent
 )
 {
+sCompositorParent
+-
+>
+InvalidateOnCompositorThread
+(
+)
+;
 sCompositorParent
 -
 >
