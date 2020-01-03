@@ -3422,10 +3422,6 @@ errno
 )
 )
 ;
-gExitCode
-=
-EXITCODE_FILE_NOT_FOUND
-;
 return
 ;
 }
@@ -8502,10 +8498,6 @@ s
 "
 pathname
 )
-;
-gExitCode
-=
-EXITCODE_RUNTIME_ERROR
 ;
 return
 nullptr
