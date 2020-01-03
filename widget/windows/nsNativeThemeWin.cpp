@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 nsRenderingContext
 .
 h

@@ -1533,17 +1533,6 @@ tmpCtx
 >
 Init
 (
-this
--
->
-PresContext
-(
-)
--
->
-DeviceContext
-(
-)
 maskDT
 )
 ;

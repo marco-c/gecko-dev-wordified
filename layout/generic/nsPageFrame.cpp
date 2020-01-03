@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

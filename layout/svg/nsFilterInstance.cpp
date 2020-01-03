@@ -2520,17 +2520,6 @@ tmpCtx
 >
 Init
 (
-mTargetFrame
--
->
-PresContext
-(
-)
--
->
-DeviceContext
-(
-)
 ctx
 )
 ;

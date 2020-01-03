@@ -30235,12 +30235,6 @@ renderingContext
 >
 Init
 (
-presCtx
--
->
-DeviceContext
-(
-)
 shadowContext
 )
 ;

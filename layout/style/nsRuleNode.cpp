@@ -192,6 +192,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 nsRuleNode
 .
 h

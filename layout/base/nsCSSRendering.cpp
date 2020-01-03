@@ -8958,12 +8958,6 @@ wrapperCtx
 >
 Init
 (
-aPresContext
--
->
-DeviceContext
-(
-)
 shadowContext
 )
 ;
