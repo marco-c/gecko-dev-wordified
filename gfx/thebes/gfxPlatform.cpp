@@ -3356,14 +3356,6 @@ if
 XRE_IsParentProcess
 (
 )
-&
-&
-gfxPrefs
-:
-:
-HardwareVsyncEnabled
-(
-)
 )
 {
 gPlatform

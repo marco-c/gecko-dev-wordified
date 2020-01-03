@@ -4410,15 +4410,6 @@ VsyncAlignedRefreshDriver
 )
 |
 |
-!
-gfxPrefs
-:
-:
-HardwareVsyncEnabled
-(
-)
-|
-|
 gfxPlatform
 :
 :

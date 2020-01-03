@@ -8025,16 +8025,6 @@ CreateCompositorVsyncDispatcher
 (
 )
 {
-if
-(
-gfxPrefs
-:
-:
-HardwareVsyncEnabled
-(
-)
-)
-{
 /
 /
 Parent
@@ -8075,7 +8065,6 @@ CompositorVsyncDispatcher
 (
 )
 ;
-}
 }
 }
 CompositorVsyncDispatcher
