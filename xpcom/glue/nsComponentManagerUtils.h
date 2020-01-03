@@ -267,6 +267,7 @@ void
 *
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :
@@ -338,6 +339,7 @@ void
 *
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :
@@ -408,6 +410,7 @@ void
 *
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :
@@ -629,6 +632,7 @@ void
 *
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :
@@ -688,6 +692,7 @@ void
 *
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :

@@ -267,6 +267,7 @@ void
 *
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
