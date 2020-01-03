@@ -90,7 +90,7 @@ LOG
 (
 x
 )
-PR_LOG
+MOZ_LOG
 (
 GetCache2Log
 (

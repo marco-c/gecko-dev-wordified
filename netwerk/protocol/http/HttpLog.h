@@ -456,7 +456,7 @@ LOG1
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gHttpLog
 1
@@ -468,7 +468,7 @@ LOG2
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gHttpLog
 2
@@ -480,7 +480,7 @@ LOG3
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gHttpLog
 3
@@ -492,7 +492,7 @@ LOG4
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gHttpLog
 4
@@ -504,7 +504,7 @@ LOG5
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gHttpLog
 5

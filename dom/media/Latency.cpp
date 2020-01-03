@@ -988,7 +988,7 @@ IsNull
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetLatencyLog
 (
@@ -1022,7 +1022,7 @@ aValue
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 GetLatencyLog
 (

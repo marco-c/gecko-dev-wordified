@@ -324,7 +324,7 @@ i
 ]
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_DEBUG
@@ -411,7 +411,7 @@ Unknown
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_DEBUG
@@ -909,7 +909,7 @@ mSynthesizingEvent
 nullptr
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -943,7 +943,7 @@ MouseScrollHandler
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -1361,7 +1361,7 @@ WM_KEYDOWN
 case
 WM_KEYUP
 :
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -2140,7 +2140,7 @@ aLParam
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -2249,7 +2249,7 @@ aWParam
 aLParam
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -2355,7 +2355,7 @@ if
 underCursorWnd
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -2483,7 +2483,7 @@ if
 underCursorWnd
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -2578,7 +2578,7 @@ if
 destWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -2659,7 +2659,7 @@ if
 wnd
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -2799,7 +2799,7 @@ if
 destWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -2833,7 +2833,7 @@ return
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -3002,7 +3002,7 @@ handle
 this
 message
 .
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -3141,7 +3141,7 @@ if
 destWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -3175,7 +3175,7 @@ found
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -3267,7 +3267,7 @@ message
 to
 it
 .
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -3410,7 +3410,7 @@ aLParam
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -3746,7 +3746,7 @@ MOZ_WM_MOUSEHWHEEL
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -3826,7 +3826,7 @@ CanDispatchWheelEvent
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -3972,7 +3972,7 @@ modKeyState
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -4011,7 +4011,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -4047,7 +4047,7 @@ return
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -4306,7 +4306,7 @@ aWidget
 wheelEvent
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -5148,7 +5148,7 @@ mWnd
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -5523,7 +5523,7 @@ RoundDelta
 nativeDeltaPerUnit
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -5892,7 +5892,7 @@ by
 the
 pref
 .
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -5941,7 +5941,7 @@ mScrollLines
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -5982,7 +5982,7 @@ mScrollLines
 WHEEL_DELTA
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -6115,7 +6115,7 @@ by
 the
 pref
 .
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -6164,7 +6164,7 @@ mScrollChars
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -6233,7 +6233,7 @@ mScrollChars
 WHEEL_DELTA
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -6288,7 +6288,7 @@ mScrollChars
 WHEEL_PAGESCROLL
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -6333,7 +6333,7 @@ MarkDirty
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -6777,7 +6777,7 @@ timeout
 DEFAULT_TIMEOUT_DURATION
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -6841,7 +6841,7 @@ MarkDirty
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -7129,7 +7129,7 @@ if
 aPrefName
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -7178,7 +7178,7 @@ lHackValue
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -7228,7 +7228,7 @@ return
 aValueIfAutomatic
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -7354,7 +7354,7 @@ IsObsoleteDriverInstalled
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -7622,7 +7622,7 @@ version
 =
 8
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -8345,7 +8345,7 @@ aMsg
 WM_KEYDOWN
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -8432,7 +8432,7 @@ commandEvent
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -8702,7 +8702,7 @@ GetTickCount
 &
 0x7FFFFFFF
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -8940,7 +8940,7 @@ sZoomUntil
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -9250,7 +9250,7 @@ TrackPoint
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -9310,7 +9310,7 @@ TrackPoint
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -9552,7 +9552,7 @@ UltraNav
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -9617,7 +9617,7 @@ UltraNavUSB
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -9682,7 +9682,7 @@ UltraNavPS2
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -9777,7 +9777,7 @@ if
 foundKey
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -9857,7 +9857,7 @@ nullptr
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -10317,7 +10317,7 @@ sMightBeUsing
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -10402,7 +10402,7 @@ sMightBeUsing
 =
 false
 ;
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -10687,7 +10687,7 @@ aKeyStates
 ]
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -11044,7 +11044,7 @@ by
 us
 .
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -11169,7 +11169,7 @@ IsSynthesizing
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -11287,7 +11287,7 @@ IsSynthesizing
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS
@@ -11335,7 +11335,7 @@ IsSynthesizing
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gMouseScrollLog
 PR_LOG_ALWAYS

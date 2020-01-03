@@ -1102,7 +1102,7 @@ Now
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1338,7 +1338,7 @@ mHandshakeCompleted
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3248,7 +3248,7 @@ PRIntervalTime
 timeout
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3318,7 +3318,7 @@ status
 PR_SUCCESS
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -3353,7 +3353,7 @@ return
 status
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4498,7 +4498,7 @@ fd
 return
 PR_FAILURE
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4981,7 +4981,7 @@ l
 DUMPBUF_LINESIZE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5139,7 +5139,7 @@ l
 +
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6612,7 +6612,7 @@ if
 wantRetry
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6927,7 +6927,7 @@ after
 the
 failure
 .
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -7051,7 +7051,7 @@ return
 in_flags
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -7179,7 +7179,7 @@ in_flags
 out_flags
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -7658,7 +7658,7 @@ flags
 timeout
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -7811,7 +7811,7 @@ flags
 timeout
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -11209,7 +11209,7 @@ client
 certificate
 UI
 .
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -13497,7 +13497,7 @@ nsISocketProvider
 MITM_OK
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -13748,7 +13748,7 @@ range
 strongCiphersStatus
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -13890,7 +13890,7 @@ max
 maxEnabledVersion
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -14474,7 +14474,7 @@ trackSSLSocketCreate
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG

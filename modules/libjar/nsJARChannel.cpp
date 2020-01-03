@@ -460,7 +460,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gJarProtocolLog
 PR_LOG_DEBUG

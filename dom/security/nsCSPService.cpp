@@ -814,7 +814,7 @@ GetSpec
 location
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -1568,7 +1568,7 @@ i
 policy
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -1658,7 +1658,7 @@ GetSpec
 uriSpec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -2154,7 +2154,7 @@ GetSpec
 newUriSpec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -2186,7 +2186,7 @@ aDecision
 1
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -2206,7 +2206,7 @@ request
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG

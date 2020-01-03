@@ -1789,7 +1789,7 @@ LOG_FORCE
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 GetLoaderLog
 (
@@ -1803,7 +1803,7 @@ LOG_ERROR
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 GetLoaderLog
 (
@@ -1817,7 +1817,7 @@ LOG_WARN
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 GetLoaderLog
 (
@@ -1831,7 +1831,7 @@ LOG_DEBUG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 GetLoaderLog
 (

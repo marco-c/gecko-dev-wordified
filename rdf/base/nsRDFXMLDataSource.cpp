@@ -4353,7 +4353,7 @@ GetSpec
 spec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -4764,7 +4764,7 @@ spec
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -4828,7 +4828,7 @@ IsLoading
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -5114,7 +5114,7 @@ spec
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -5269,7 +5269,7 @@ spec
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -5418,7 +5418,7 @@ spec
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -5567,7 +5567,7 @@ spec
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE

@@ -121,7 +121,7 @@ LOG
 (
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 GetMediaManagerLog
 (
@@ -135,7 +135,7 @@ LOGFRAME
 (
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 GetMediaManagerLog
 (

@@ -327,7 +327,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gPrefetchLog
 4

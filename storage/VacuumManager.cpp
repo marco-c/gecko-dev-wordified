@@ -1847,7 +1847,7 @@ rv
 rv
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_ERROR

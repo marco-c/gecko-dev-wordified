@@ -412,7 +412,7 @@ NS_ADDREF
 mFinalListener
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gFTPDirListConvLog
 PR_LOG_DEBUG
@@ -613,7 +613,7 @@ streamLen
 0
 '
 ;
-PR_LOG
+MOZ_LOG
 (
 gFTPDirListConvLog
 PR_LOG_DEBUG
@@ -749,7 +749,7 @@ Truncate
 #
 ifndef
 DEBUG_dougt
-PR_LOG
+MOZ_LOG
 (
 gFTPDirListConvLog
 PR_LOG_DEBUG
@@ -906,7 +906,7 @@ indexFormat
 #
 ifndef
 DEBUG_dougt
-PR_LOG
+MOZ_LOG
 (
 gFTPDirListConvLog
 PR_LOG_DEBUG
@@ -1047,7 +1047,7 @@ Append
 line
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gFTPDirListConvLog
 PR_LOG_DEBUG

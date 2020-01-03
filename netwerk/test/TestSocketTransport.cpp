@@ -317,7 +317,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gTestLog
 PR_LOG_DEBUG

@@ -1061,7 +1061,7 @@ char
 aStmt
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_DEBUG
@@ -4009,7 +4009,7 @@ tracefunc
 this
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_NOTICE
@@ -5288,7 +5288,7 @@ GetNativeLeafName
 leafName
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_NOTICE
@@ -5471,7 +5471,7 @@ stmt
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_NOTICE
@@ -6306,7 +6306,7 @@ get
 ;
 #
 endif
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_ERROR

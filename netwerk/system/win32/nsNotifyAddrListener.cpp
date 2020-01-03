@@ -320,7 +320,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gNotifyAddrLog
 PR_LOG_DEBUG

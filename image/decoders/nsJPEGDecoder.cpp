@@ -528,7 +528,7 @@ mCMSMode
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -608,7 +608,7 @@ mInProfile
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -1195,7 +1195,7 @@ mState
 =
 JPEG_SINK_NON_JPEG_TRAILER
 ;
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -1267,7 +1267,7 @@ mState
 =
 JPEG_ERROR
 ;
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -1290,7 +1290,7 @@ return
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 GetJPEGLog
 (
@@ -1374,7 +1374,7 @@ TRUE
 JPEG_SUSPENDED
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -1707,7 +1707,7 @@ PostDataError
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -1774,7 +1774,7 @@ PostDataError
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -2076,7 +2076,7 @@ PostDataError
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -2152,7 +2152,7 @@ PostDecoderError
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -2217,7 +2217,7 @@ return
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -2360,7 +2360,7 @@ mInfo
 FALSE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -2459,7 +2459,7 @@ if
 suspend
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -2696,7 +2696,7 @@ scan
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -2810,7 +2810,7 @@ output_scanline
 0xffffff
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -2866,7 +2866,7 @@ mInfo
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -2994,7 +2994,7 @@ mInfo
 FALSE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (
@@ -3045,7 +3045,7 @@ break
 case
 JPEG_SINK_NON_JPEG_TRAILER
 :
-PR_LOG
+MOZ_LOG
 (
 GetJPEGLog
 (
@@ -3104,7 +3104,7 @@ decoder
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 GetJPEGDecoderAccountingLog
 (

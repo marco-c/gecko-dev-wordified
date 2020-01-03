@@ -496,7 +496,7 @@ LOG
 (
 format
 )
-PR_LOG
+MOZ_LOG
 (
 GetSHistoryLog
 (

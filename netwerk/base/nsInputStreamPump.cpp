@@ -244,7 +244,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gStreamPumpLog
 PR_LOG_DEBUG

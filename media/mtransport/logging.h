@@ -240,7 +240,7 @@ str
 b
 ;
 \
-PR_LOG
+MOZ_LOG
 (
 getLogModule
 (

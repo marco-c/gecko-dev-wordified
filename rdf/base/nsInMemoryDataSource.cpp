@@ -4153,7 +4153,7 @@ PL_DHashTableFinish
 mReverseArcs
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE

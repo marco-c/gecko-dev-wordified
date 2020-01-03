@@ -193,7 +193,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gUrlClassifierDbServiceLog
 PR_LOG_DEBUG

@@ -2522,7 +2522,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_WARNING
@@ -3761,7 +3761,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_WARNING
@@ -13192,7 +13192,7 @@ rv
 return
 rv
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_ERROR
@@ -14846,7 +14846,7 @@ parentDoc
 "
 "
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_DEBUG
@@ -15335,7 +15335,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_DEBUG
@@ -15408,7 +15408,7 @@ Initiate
 a
 load
 .
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_DEBUG
@@ -15429,7 +15429,7 @@ if
 mIsGoingAway
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_DEBUG
@@ -21738,7 +21738,7 @@ PR_LOG_NOTICE
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_NOTICE
@@ -23461,7 +23461,7 @@ AssignWithConversion
 id
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_NOTICE
@@ -24686,7 +24686,7 @@ GetSpec
 parentDoc
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_WARNING
@@ -24983,7 +24983,7 @@ AssignWithConversion
 broadcasterID
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_WARNING
@@ -26306,7 +26306,7 @@ AssignWithConversion
 broadcasterID
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULLog
 PR_LOG_NOTICE

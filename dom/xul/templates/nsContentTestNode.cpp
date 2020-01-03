@@ -256,7 +256,7 @@ ToString
 refvar
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG

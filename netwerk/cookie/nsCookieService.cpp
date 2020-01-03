@@ -1661,7 +1661,7 @@ fmt
 \
 PR_BEGIN_MACRO
 \
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -1671,7 +1671,7 @@ fmt
 )
 ;
 \
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -1747,7 +1747,7 @@ GetAsciiSpec
 spec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -1786,7 +1786,7 @@ SENT
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -1814,7 +1814,7 @@ if
 (
 aSetCookie
 )
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -1866,7 +1866,7 @@ GMT
 explodedTime
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -1884,7 +1884,7 @@ timeString
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -1903,7 +1903,7 @@ aReason
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -1959,7 +1959,7 @@ GMT
 explodedTime
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -1982,7 +1982,7 @@ if
 aCookie
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2012,7 +2012,7 @@ n
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2040,7 +2040,7 @@ get
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2068,7 +2068,7 @@ get
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2111,7 +2111,7 @@ get
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2170,7 +2170,7 @@ GMT
 explodedTime
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2233,7 +2233,7 @@ GMT
 explodedTime
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2250,7 +2250,7 @@ timeString
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2283,7 +2283,7 @@ false
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2381,7 +2381,7 @@ GetAsciiSpec
 spec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2418,7 +2418,7 @@ SENT
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2442,7 +2442,7 @@ get
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2466,7 +2466,7 @@ if
 (
 aSetCookie
 )
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2500,7 +2500,7 @@ LogCookie
 aCookie
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2528,7 +2528,7 @@ char
 details
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2554,7 +2554,7 @@ n
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (
@@ -2576,7 +2576,7 @@ LogCookie
 aCookie
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetCookieLog
 (

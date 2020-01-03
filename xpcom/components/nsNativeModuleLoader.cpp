@@ -364,7 +364,7 @@ LOG
 level
 args
 )
-PR_LOG
+MOZ_LOG
 (
 GetNativeModuleLoaderLog
 (

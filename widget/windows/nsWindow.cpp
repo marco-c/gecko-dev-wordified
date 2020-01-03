@@ -10478,7 +10478,7 @@ workArea
 bottom
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -13292,7 +13292,7 @@ mWnd
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -13320,7 +13320,7 @@ aRaise
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -19333,7 +19333,7 @@ default
 break
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -21434,7 +21434,7 @@ cPath
 iconPath
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -21529,7 +21529,7 @@ cPath
 iconPath
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -27657,7 +27657,7 @@ sLastClickCount
 #
 ifdef
 NS_DEBUG_XX
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39334,7 +39334,7 @@ mWnd
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39355,7 +39355,7 @@ top
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39374,7 +39374,7 @@ child
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39397,7 +39397,7 @@ flags
 SWP_FRAMECHANGED
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39419,7 +39419,7 @@ flags
 SWP_SHOWWINDOW
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39441,7 +39441,7 @@ flags
 SWP_NOSIZE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39463,7 +39463,7 @@ flags
 SWP_HIDEWINDOW
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39485,7 +39485,7 @@ flags
 SWP_NOZORDER
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39507,7 +39507,7 @@ flags
 SWP_NOACTIVATE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39519,7 +39519,7 @@ SWP_NOACTIVATE
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39883,7 +39883,7 @@ mSizeMode
 case
 nsSizeMode_Normal
 :
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39906,7 +39906,7 @@ break
 case
 nsSizeMode_Minimized
 :
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39929,7 +39929,7 @@ break
 case
 nsSizeMode_Maximized
 :
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -39951,7 +39951,7 @@ break
 ;
 default
 :
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -40401,7 +40401,7 @@ newHeight
 #
 ifdef
 WINSTATE_DEBUG_OUTPUT
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -45055,7 +45055,7 @@ aLEDState
 #
 ifdef
 DEBUG_KBSTATE
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -46899,7 +46899,7 @@ code
 #
 ifdef
 DEBUG
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -46944,7 +46944,7 @@ else
 #
 ifdef
 DEBUG
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -47524,7 +47524,7 @@ if
 sMsgFilterHook
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -47602,7 +47602,7 @@ if
 sCallProcHook
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -47681,7 +47681,7 @@ if
 sCallMouseHook
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS

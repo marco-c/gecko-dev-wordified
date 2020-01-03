@@ -477,7 +477,7 @@ XRemoteClient
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -500,7 +500,7 @@ XRemoteClient
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -573,7 +573,7 @@ Init
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -735,7 +735,7 @@ Shutdown
 void
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -875,7 +875,7 @@ bool
 aWindowFound
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -1131,7 +1131,7 @@ XSetErrorHandler
 sOldHandler
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -1863,7 +1863,7 @@ again
 .
 *
 /
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -1989,7 +1989,7 @@ select_retval
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -2013,7 +2013,7 @@ NS_ERROR_FAILURE
 break
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -2130,7 +2130,7 @@ again
 .
 *
 /
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -2194,7 +2194,7 @@ waited
 locked
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -2217,7 +2217,7 @@ if
 aDestroyed
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -2337,7 +2337,7 @@ nkids
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -2369,7 +2369,7 @@ nkids
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -3215,7 +3215,7 @@ result
 Success
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -3252,7 +3252,7 @@ data
 data
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -3299,7 +3299,7 @@ mLockData
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -4002,7 +4002,7 @@ user
 .
 *
 /
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -4160,7 +4160,7 @@ result
 Success
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -4228,7 +4228,7 @@ data
 5
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -4298,7 +4298,7 @@ preliminary
 reply
 *
 /
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -4389,7 +4389,7 @@ positive
 completion
 *
 /
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -4446,7 +4446,7 @@ intermediate
 reply
 *
 /
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -4525,7 +4525,7 @@ negative
 completion
 *
 /
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -4561,7 +4561,7 @@ true
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG
@@ -4661,7 +4661,7 @@ atom
 aCommandAtom
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sRemoteLm
 PR_LOG_DEBUG

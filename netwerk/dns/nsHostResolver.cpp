@@ -729,7 +729,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gHostResolverLog
 PR_LOG_DEBUG

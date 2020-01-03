@@ -221,7 +221,7 @@ msg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gRtspMediaResourceLog
 PR_LOG_DEBUG

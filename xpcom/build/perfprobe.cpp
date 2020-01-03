@@ -265,7 +265,7 @@ LOG
 (
 x
 )
-PR_LOG
+MOZ_LOG
 (
 GetProbeLog
 (

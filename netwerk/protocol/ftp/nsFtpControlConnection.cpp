@@ -181,7 +181,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gFTPLog
 PR_LOG_DEBUG
@@ -193,7 +193,7 @@ LOG_ALWAYS
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gFTPLog
 PR_LOG_ALWAYS

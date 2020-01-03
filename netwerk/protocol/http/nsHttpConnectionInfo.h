@@ -542,7 +542,7 @@ nsHttpConnectionInfo
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gHttpLog
 4

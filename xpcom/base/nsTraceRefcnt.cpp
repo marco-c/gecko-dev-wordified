@@ -5787,7 +5787,7 @@ Can
 '
 t
 use
-PR_LOG
+MOZ_LOG
 (
 )
 b
@@ -6056,7 +6056,7 @@ Can
 '
 t
 use
-PR_LOG
+MOZ_LOG
 (
 )
 b

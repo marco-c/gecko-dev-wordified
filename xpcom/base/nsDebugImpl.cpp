@@ -1784,7 +1784,7 @@ to
 the
 debug
 log
-PR_LOG
+MOZ_LOG
 (
 gDebugLog
 ll

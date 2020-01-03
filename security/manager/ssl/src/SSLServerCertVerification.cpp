@@ -3248,7 +3248,7 @@ CheckCertOverrides
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3369,7 +3369,7 @@ GetBypassAuthentication
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3521,7 +3521,7 @@ if
 sss
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3594,7 +3594,7 @@ nsrv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3659,7 +3659,7 @@ nsrv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3704,7 +3704,7 @@ strictTransportSecurityEnabled
 hasPinningInformation
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3985,7 +3985,7 @@ s
 accept
 the
 cert
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4025,7 +4025,7 @@ mInfoObject
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4055,7 +4055,7 @@ this
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4581,7 +4581,7 @@ overridable
 certificate
 errors
 .
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5467,7 +5467,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5555,7 +5555,7 @@ changed
 cert
 is
 confirmed
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5630,7 +5630,7 @@ if
 commonNameInSubjectAltNames
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6142,7 +6142,7 @@ SECSuccess
 isBuiltIn
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6207,7 +6207,7 @@ rv
 SECSuccess
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6366,7 +6366,7 @@ if
 subjectAltNames
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6634,7 +6634,7 @@ Length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6810,7 +6810,7 @@ buf
 PR_SUCCESS
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6928,7 +6928,7 @@ buf
 PR_SUCCESS
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6979,7 +6979,7 @@ buf
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -7017,7 +7017,7 @@ true
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -8455,7 +8455,7 @@ nsc
 evStatus
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -8875,7 +8875,7 @@ a
 cert
 verification
 thread
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -9224,7 +9224,7 @@ waiting
 for
 it
 .
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -9466,7 +9466,7 @@ the
 socket
 transport
 thread
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG

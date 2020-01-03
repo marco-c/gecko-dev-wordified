@@ -148,7 +148,7 @@ msg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gI420ColorConverterHelperLog
 PR_LOG_WARNING

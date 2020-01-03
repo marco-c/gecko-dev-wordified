@@ -164,7 +164,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gOpenSLESProviderLog
 PR_LOG_DEBUG

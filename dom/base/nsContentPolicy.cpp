@@ -1224,7 +1224,7 @@ refSpec
 \
 }
 \
-PR_LOG
+MOZ_LOG
 (
 gConPolLog
 PR_LOG_DEBUG

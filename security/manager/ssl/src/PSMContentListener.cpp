@@ -624,7 +624,7 @@ nsISupports
 context
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -691,7 +691,7 @@ uint32_t
 aLength
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -759,7 +759,7 @@ nsresult
 aStatus
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1913,7 +1913,7 @@ if
 gPIPNSSLog
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG

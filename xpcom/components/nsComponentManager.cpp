@@ -2818,7 +2818,7 @@ InitMemoryReporter
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_DEBUG
@@ -5167,7 +5167,7 @@ Shutdown
 the
 component
 manager
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_DEBUG
@@ -5306,7 +5306,7 @@ mStatus
 =
 SHUTDOWN_COMPLETE
 ;
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_DEBUG
@@ -5333,7 +5333,7 @@ nsComponentManagerImpl
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_DEBUG
@@ -5361,7 +5361,7 @@ Shutdown
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_DEBUG
@@ -5740,7 +5740,7 @@ aIID
 aResult
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_WARNING
@@ -5817,7 +5817,7 @@ NS_ERROR_INVALID_ARG
 nsresult
 rv
 ;
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_DEBUG
@@ -5871,7 +5871,7 @@ aIID
 aResult
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_WARNING
@@ -6320,7 +6320,7 @@ ToString
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_WARNING
@@ -6782,7 +6782,7 @@ rv
 NS_ERROR_FACTORY_NOT_REGISTERED
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 nsComponentManagerLog
 PR_LOG_WARNING

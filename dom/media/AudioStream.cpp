@@ -267,7 +267,7 @@ LOG
 (
 x
 )
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_DEBUG
@@ -2125,7 +2125,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_DEBUG
@@ -3585,7 +3585,7 @@ mNeedsStart
 =
 false
 ;
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -3634,7 +3634,7 @@ before
 we
 got
 here
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_DEBUG
@@ -4277,7 +4277,7 @@ account
 for
 dropping
 samples
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -4394,7 +4394,7 @@ mState
 RUNNING
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -4434,7 +4434,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -6877,7 +6877,7 @@ ToMilliseconds
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -6905,7 +6905,7 @@ mOutRate
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -6949,7 +6949,7 @@ Write
 as
 well
 !
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -7253,7 +7253,7 @@ if
 underrunFrames
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING

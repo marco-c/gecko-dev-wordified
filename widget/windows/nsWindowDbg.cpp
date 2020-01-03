@@ -284,7 +284,7 @@ msg
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -353,7 +353,7 @@ make
 nicer
 *
 /
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ERROR
@@ -400,7 +400,7 @@ vk
 #
 ifdef
 DEBUG
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS

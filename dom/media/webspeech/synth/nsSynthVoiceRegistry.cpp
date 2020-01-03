@@ -239,7 +239,7 @@ LOG
 type
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 GetSpeechSynthLog
 (

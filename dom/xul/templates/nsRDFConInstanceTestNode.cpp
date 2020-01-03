@@ -389,7 +389,7 @@ ToString
 cvar
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -660,7 +660,7 @@ GetValueConst
 container
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1224,7 +1224,7 @@ break
 }
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1253,7 +1253,7 @@ inconsistent
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1548,7 +1548,7 @@ aTarget
 target
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG

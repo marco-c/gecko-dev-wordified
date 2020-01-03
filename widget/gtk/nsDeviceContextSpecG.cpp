@@ -289,7 +289,7 @@ DO_PR_DEBUG_LOG
 (
 x
 )
-PR_LOG
+MOZ_LOG
 (
 GetDeviceContextSpecGTKLog
 (

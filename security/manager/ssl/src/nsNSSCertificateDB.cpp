@@ -684,7 +684,7 @@ get
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -734,7 +734,7 @@ if
 cert
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -2144,7 +2144,7 @@ rv
 return
 rv
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -2329,7 +2329,7 @@ allows
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -2363,7 +2363,7 @@ get
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5301,7 +5301,7 @@ GetTrust
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6583,7 +6583,7 @@ tmpArray
 =
 nullptr
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6646,7 +6646,7 @@ numcerts
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -8683,7 +8683,7 @@ rv
 rv
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -8843,7 +8843,7 @@ get
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG

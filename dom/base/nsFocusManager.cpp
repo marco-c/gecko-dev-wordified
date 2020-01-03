@@ -570,7 +570,7 @@ LOGFOCUS
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gFocusLog
 PR_LOG_DEBUG
@@ -582,7 +582,7 @@ LOGFOCUSNAVIGATION
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gFocusNavigationLog
 PR_LOG_DEBUG
@@ -648,7 +648,7 @@ tag
 \
 }
 \
-PR_LOG
+MOZ_LOG
 (
 log
 PR_LOG_DEBUG

@@ -217,6 +217,15 @@ include
 "
 mozilla
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 DNS
@@ -261,7 +270,7 @@ LOGDEBUG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gSOCKSLog
 PR_LOG_DEBUG
@@ -273,7 +282,7 @@ LOGERROR
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gSOCKSLog
 PR_LOG_ERROR

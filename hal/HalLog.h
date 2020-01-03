@@ -198,7 +198,7 @@ HAL_LOG
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 mozilla
 :
@@ -223,7 +223,7 @@ HAL_ERR
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 mozilla
 :

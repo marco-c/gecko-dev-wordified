@@ -452,7 +452,7 @@ format
 args
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLogModuleInfo
 level

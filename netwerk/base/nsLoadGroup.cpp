@@ -340,7 +340,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gLoadGroupLog
 PR_LOG_DEBUG

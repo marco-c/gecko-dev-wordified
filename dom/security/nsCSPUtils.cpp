@@ -213,7 +213,7 @@ CSPUTILSLOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 GetCspUtilsLog
 (

@@ -418,7 +418,7 @@ le
 slot
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -728,7 +728,7 @@ KeySizeStatus
 keySizeStatus
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG

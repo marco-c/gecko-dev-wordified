@@ -1884,7 +1884,7 @@ if
 mContextStack
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_WARNING
@@ -2039,7 +2039,7 @@ uri
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -2481,7 +2481,7 @@ break
 case
 eRDFContentSinkState_InEpilog
 :
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_WARNING
@@ -4759,7 +4759,7 @@ aboutEach
 .
 /
 /
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_WARNING
@@ -5958,7 +5958,7 @@ kRDFAtom
 {
 /
 /
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -7100,7 +7100,7 @@ localName
 kLiAtom
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS

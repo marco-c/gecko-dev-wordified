@@ -158,7 +158,7 @@ msg
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gMediaDecoderLog
 PR_LOG_DEBUG
@@ -186,7 +186,7 @@ msg
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gMediaDecoderLog
 PR_LOG_DEBUG

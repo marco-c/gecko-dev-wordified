@@ -872,7 +872,7 @@ KeymapWrapperWidgets
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -972,7 +972,7 @@ mInitialized
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1031,7 +1031,7 @@ FilterEvents
 this
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1189,7 +1189,7 @@ xkbMinorVer
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1312,7 +1312,7 @@ xkbMinorVer
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1362,7 +1362,7 @@ XkbModifierStateMask
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1414,7 +1414,7 @@ XkbPerKeyRepeatMask
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1464,7 +1464,7 @@ mKeyboardState
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1501,7 +1501,7 @@ display
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1529,7 +1529,7 @@ InitBySystemSettings
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1610,7 +1610,7 @@ if
 xkeymap
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1653,7 +1653,7 @@ if
 xmodmap
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1686,7 +1686,7 @@ xkeymap
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -1943,7 +1943,7 @@ modifiermap
 i
 ]
 ;
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -2132,7 +2132,7 @@ j
 ]
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -2563,7 +2563,7 @@ NS_IF_RELEASE
 sBidiKeyboard
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -3003,7 +3003,7 @@ mKeyboardState
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -3070,7 +3070,7 @@ GdkKeymap
 aGdkKeymap
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -3133,7 +3133,7 @@ KeymapWrapper
 aKeymapWrapper
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -3698,7 +3698,7 @@ modifiers
 MODIFIER_SCROLLLOCK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_DEBUG
@@ -3948,7 +3948,7 @@ WidgetMouseEvent
 eMiddleButtonFlag
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_DEBUG
@@ -5859,7 +5859,7 @@ DOM_KEY_LOCATION_STANDARD
 break
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -8152,7 +8152,7 @@ aKeyEvent
 charCode
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -8280,7 +8280,7 @@ IsOS
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -8341,7 +8341,7 @@ level
 1
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -8639,7 +8639,7 @@ if
 needLatinKeyCodes
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -8728,7 +8728,7 @@ minGroup
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS
@@ -9028,7 +9028,7 @@ charCode
 ch
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gKeymapWrapperLog
 PR_LOG_ALWAYS

@@ -240,7 +240,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gTestSocketIOLog
 PR_LOG_DEBUG

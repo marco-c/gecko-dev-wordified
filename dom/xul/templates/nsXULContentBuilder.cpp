@@ -2637,7 +2637,7 @@ PR_LOG_DEBUG
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS
@@ -2670,7 +2670,7 @@ GetId
 id
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS
@@ -3322,7 +3322,7 @@ PR_LOG_DEBUG
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -5905,7 +5905,7 @@ container
 result
 )
 .
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS
@@ -6108,7 +6108,7 @@ true
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS
@@ -6610,7 +6610,7 @@ GetId
 id
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS

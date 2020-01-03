@@ -178,7 +178,7 @@ mFunc
 aFunc
 )
 {
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG
@@ -252,7 +252,7 @@ mFunc
 fn
 )
 {
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG
@@ -338,7 +338,7 @@ mFunc
 fn
 )
 {
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG
@@ -417,7 +417,7 @@ mFunc
 fn
 )
 {
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG
@@ -500,7 +500,7 @@ mFunc
 fn
 )
 {
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG
@@ -549,7 +549,7 @@ LogScope
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG
@@ -616,7 +616,7 @@ char
 fn
 )
 {
-PR_LOG
+MOZ_LOG
 (
 aLog
 PR_LOG_DEBUG
@@ -666,7 +666,7 @@ char
 paramValue
 )
 {
-PR_LOG
+MOZ_LOG
 (
 aLog
 PR_LOG_DEBUG
@@ -729,7 +729,7 @@ void
 paramValue
 )
 {
-PR_LOG
+MOZ_LOG
 (
 aLog
 PR_LOG_DEBUG
@@ -790,7 +790,7 @@ uint32_t
 paramValue
 )
 {
-PR_LOG
+MOZ_LOG
 (
 aLog
 PR_LOG_DEBUG
@@ -856,7 +856,7 @@ char
 msg
 )
 {
-PR_LOG
+MOZ_LOG
 (
 aLog
 PR_LOG_DEBUG

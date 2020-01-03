@@ -223,7 +223,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gThirdPartyLog
 PR_LOG_DEBUG

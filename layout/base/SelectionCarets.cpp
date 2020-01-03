@@ -403,7 +403,7 @@ message
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gSelectionCaretsLog
 PR_LOG_DEBUG
@@ -448,7 +448,7 @@ message
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gSelectionCaretsLog
 PR_LOG_DEBUG

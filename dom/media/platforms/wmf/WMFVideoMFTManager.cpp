@@ -244,7 +244,7 @@ LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetDemuxerLog
 (

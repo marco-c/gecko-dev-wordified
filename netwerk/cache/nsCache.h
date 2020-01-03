@@ -203,7 +203,7 @@ CACHE_LOG_ALWAYS
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gCacheLog
 PR_LOG_ALWAYS
@@ -215,7 +215,7 @@ CACHE_LOG_ERROR
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gCacheLog
 PR_LOG_ERROR
@@ -227,7 +227,7 @@ CACHE_LOG_WARNING
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gCacheLog
 PR_LOG_WARNING
@@ -239,7 +239,7 @@ CACHE_LOG_DEBUG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gCacheLog
 PR_LOG_DEBUG

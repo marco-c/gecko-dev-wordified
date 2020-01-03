@@ -965,7 +965,7 @@ mFrameRect
 =
 neededRect
 ;
-PR_LOG
+MOZ_LOG
 (
 GetPNGDecoderAccountingLog
 (
@@ -5305,7 +5305,7 @@ png_const_charp
 error_msg
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetPNGLog
 (
@@ -5344,7 +5344,7 @@ png_const_charp
 warning_msg
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetPNGLog
 (

@@ -181,7 +181,7 @@ LOG1
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gWyciwygLog
 1
@@ -193,7 +193,7 @@ LOG2
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gWyciwygLog
 2
@@ -205,7 +205,7 @@ LOG3
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gWyciwygLog
 3
@@ -217,7 +217,7 @@ LOG4
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gWyciwygLog
 4

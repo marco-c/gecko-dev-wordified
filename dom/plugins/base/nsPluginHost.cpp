@@ -2045,7 +2045,7 @@ PR_NewLogModule
 PLUGIN_LOG_NAME
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -2064,7 +2064,7 @@ n
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -2090,7 +2090,7 @@ n
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -4963,7 +4963,7 @@ GetAsciiSpec
 urlSpec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -5314,7 +5314,7 @@ GetAsciiSpec
 urlSpec2
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -5721,7 +5721,7 @@ GetSpec
 urlSpec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -6156,7 +6156,7 @@ GetSpec
 urlSpec2
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -17273,7 +17273,7 @@ tagflag
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :

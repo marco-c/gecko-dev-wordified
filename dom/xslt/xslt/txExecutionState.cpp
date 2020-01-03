@@ -1842,7 +1842,7 @@ return
 nullptr
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 txLog
 :

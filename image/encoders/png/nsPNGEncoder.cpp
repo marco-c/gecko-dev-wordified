@@ -3738,7 +3738,7 @@ png_const_charp
 warning_msg
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetPNGEncoderLog
 (
@@ -3777,7 +3777,7 @@ png_const_charp
 error_msg
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetPNGEncoderLog
 (

@@ -232,7 +232,7 @@ LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetAppleMediaLog
 (

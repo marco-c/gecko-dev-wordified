@@ -216,7 +216,7 @@ LOG_FONTLIST
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gfxPlatform
 :
@@ -253,7 +253,7 @@ LOG_FONTINIT
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gfxPlatform
 :
@@ -3714,7 +3714,7 @@ GetScriptCode
 aCh
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 log
 PR_LOG_WARNING

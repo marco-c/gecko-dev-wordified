@@ -8679,7 +8679,7 @@ if
 (
 gDocumentLeakPRLog
 )
-PR_LOG
+MOZ_LOG
 (
 gDocumentLeakPRLog
 PR_LOG_DEBUG
@@ -8869,7 +8869,7 @@ if
 (
 gDocumentLeakPRLog
 )
-PR_LOG
+MOZ_LOG
 (
 gDocumentLeakPRLog
 PR_LOG_DEBUG
@@ -15262,7 +15262,7 @@ rv
 )
 ;
 {
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -15491,7 +15491,7 @@ CSPService
 sCSPEnabled
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -15831,7 +15831,7 @@ GetAsciiSpec
 aspec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -15871,7 +15871,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -16064,7 +16064,7 @@ if
 csp
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -16142,7 +16142,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -16530,7 +16530,7 @@ rv
 safeAncestry
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -16698,7 +16698,7 @@ net
 RP_No_Referrer
 ;
 {
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -16786,7 +16786,7 @@ rv
 rv
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCspPRLog
 PR_LOG_DEBUG

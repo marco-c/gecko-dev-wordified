@@ -2922,7 +2922,7 @@ nsresult
 status
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gHttpLog
 4
@@ -3055,7 +3055,7 @@ mThis
 mSuspendCount
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gHttpLog
 4

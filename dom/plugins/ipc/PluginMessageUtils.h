@@ -382,7 +382,7 @@ PLUGIN_LOG_DEBUG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (
@@ -393,7 +393,7 @@ args
 #
 define
 PLUGIN_LOG_DEBUG_FUNCTION
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (
@@ -410,7 +410,7 @@ FULLFUNCTION
 #
 define
 PLUGIN_LOG_DEBUG_METHOD
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (

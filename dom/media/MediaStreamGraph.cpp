@@ -338,7 +338,7 @@ STREAM_LOG
 type
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaStreamGraphLog
 type

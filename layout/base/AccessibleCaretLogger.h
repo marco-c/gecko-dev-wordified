@@ -149,7 +149,7 @@ AC_LOG_BASE
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetAccessibleCaretLog
 (
@@ -174,7 +174,7 @@ AC_LOGV_BASE
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 GetAccessibleCaretLog
 (

@@ -13802,7 +13802,7 @@ aString
 aLength
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 log
 PR_LOG_WARNING
@@ -14179,7 +14179,7 @@ runLimit
 -
 runStart
 ;
-PR_LOG
+MOZ_LOG
 (
 log
 PR_LOG_WARNING

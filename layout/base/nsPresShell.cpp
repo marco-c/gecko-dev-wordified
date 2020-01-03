@@ -6293,7 +6293,7 @@ aLogType
 eLog_loaddone
 )
 {
-PR_LOG
+MOZ_LOG
 (
 tpLog
 logLevel
@@ -6477,7 +6477,7 @@ textrunDestr
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 tpLog
 logLevel
@@ -15962,7 +15962,7 @@ spec
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -16123,7 +16123,7 @@ if
 shouldLog
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG

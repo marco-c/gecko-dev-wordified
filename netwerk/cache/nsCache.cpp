@@ -208,7 +208,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCacheLog
 level
@@ -225,7 +225,7 @@ get
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gCacheLog
 level

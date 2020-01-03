@@ -1097,7 +1097,7 @@ Shutdown
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -1229,7 +1229,7 @@ TextCompositionArray
 NoIndex
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -1312,7 +1312,7 @@ TextCompositionArray
 NoIndex
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ERROR
@@ -1369,7 +1369,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -1541,7 +1541,7 @@ if
 compositionInContent
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -1704,7 +1704,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -1849,7 +1849,7 @@ Cause
 aCause
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -1923,7 +1923,7 @@ InputContextAction
 aAction
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -2120,7 +2120,7 @@ if
 aPresContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -2184,7 +2184,7 @@ widget
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ERROR
@@ -2392,7 +2392,7 @@ GetIMETabParent
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -2518,7 +2518,7 @@ newState
 mEnabled
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -2754,7 +2754,7 @@ bool
 aInstalling
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -2842,7 +2842,7 @@ nsIDOMMouseEvent
 aMouseEvent
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -2906,7 +2906,7 @@ sContent
 aContent
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -2949,7 +2949,7 @@ if
 sActiveIMEContentObserver
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -2991,7 +2991,7 @@ aContent
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -3049,7 +3049,7 @@ internalEvent
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -3114,7 +3114,7 @@ GetType
 eventType
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -3196,7 +3196,7 @@ nsIDOMMouseEvent
 aMouseEvent
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -3260,7 +3260,7 @@ sContent
 aContent
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -3340,7 +3340,7 @@ if
 isTrusted
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -3405,7 +3405,7 @@ button
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -3474,7 +3474,7 @@ clickCount
 1
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -3567,7 +3567,7 @@ nsIEditor
 aEditor
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -3639,7 +3639,7 @@ sContent
 aContent
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -3709,7 +3709,7 @@ aContent
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -3772,7 +3772,7 @@ nsIEditor
 aEditor
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -3863,7 +3863,7 @@ if
 sIsGettingNewIMEState
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -3905,7 +3905,7 @@ sPresContext
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ERROR
@@ -3956,7 +3956,7 @@ widget
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ERROR
@@ -4154,7 +4154,7 @@ nsIContent
 aContent
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -4238,7 +4238,7 @@ nsPresContext
 eContext_Print
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -4284,7 +4284,7 @@ if
 sInstalledMenuKeyboardListener
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -4376,7 +4376,7 @@ NODE_IS_EDITABLE
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -4414,7 +4414,7 @@ ENABLED
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -4535,7 +4535,7 @@ GetDesiredIMEState
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -4637,7 +4637,7 @@ if
 observerService
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -4738,7 +4738,7 @@ InputContextAction
 aAction
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -5411,7 +5411,7 @@ InputContextAction
 CAUSE_UNKNOWN_CHROME
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -5652,7 +5652,7 @@ bool
 aIsSynthesized
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -5846,7 +5846,7 @@ aIsSynthesized
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -6137,7 +6137,7 @@ TextCompositionArray
 NoIndex
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -6228,7 +6228,7 @@ or
 cancel
 composition
 .
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -6395,7 +6395,7 @@ TextComposition
 instance
 here
 .
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -6489,7 +6489,7 @@ IsSynthesizedForTests
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -6555,7 +6555,7 @@ aWidget
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ERROR
@@ -6691,7 +6691,7 @@ nsPresContext
 aPresContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -6749,7 +6749,7 @@ widget
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ERROR
@@ -7165,7 +7165,7 @@ DestroyIMEContentObserver
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -7197,7 +7197,7 @@ if
 sActiveIMEContentObserver
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -7220,7 +7220,7 @@ nothing
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -7282,7 +7282,7 @@ nsIEditor
 aEditor
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ALWAYS
@@ -7362,7 +7362,7 @@ sActiveIMEContentObserver
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ERROR
@@ -7425,7 +7425,7 @@ if
 widget
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_ERROR
@@ -7494,7 +7494,7 @@ widget
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG
@@ -7560,7 +7560,7 @@ sInitializeIsTestingIME
 false
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sISMLog
 PR_LOG_DEBUG

@@ -555,7 +555,7 @@ Init
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -917,7 +917,7 @@ sLastFocusedModule
 nullptr
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -947,7 +947,7 @@ nsWindow
 aWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -1256,7 +1256,7 @@ IMEState
 :
 DISABLED
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -1612,7 +1612,7 @@ IsDestroyed
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -1673,7 +1673,7 @@ IsDestroyed
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -1790,7 +1790,7 @@ return
 false
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -1896,7 +1896,7 @@ aCaller
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -1965,7 +1965,7 @@ currentContext
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -2264,7 +2264,7 @@ true
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -2323,7 +2323,7 @@ bool
 aFocus
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -2396,7 +2396,7 @@ ResetIME
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -2446,7 +2446,7 @@ activeContext
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -2552,7 +2552,7 @@ activeContext
 compositionString
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -2741,7 +2741,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -2781,7 +2781,7 @@ aCaller
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -2987,7 +2987,7 @@ IsDestroyed
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -3046,7 +3046,7 @@ aCaller
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -3078,7 +3078,7 @@ if
 mContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -3109,7 +3109,7 @@ mInputContext
 *
 aContext
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -3863,7 +3863,7 @@ Focus
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -3929,7 +3929,7 @@ if
 currentContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4027,7 +4027,7 @@ Blur
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4076,7 +4076,7 @@ if
 currentContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4128,7 +4128,7 @@ IsDestroyed
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4184,7 +4184,7 @@ aCaller
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4319,7 +4319,7 @@ IsDestroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4360,7 +4360,7 @@ cannotContinueComposition
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4396,7 +4396,7 @@ cannotContinueComposition
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4434,7 +4434,7 @@ cannotContinueComposition
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4471,7 +4471,7 @@ cannotContinueComposition
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4522,7 +4522,7 @@ mReply
 .
 mOffset
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4660,7 +4660,7 @@ GtkIMContext
 aContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4720,7 +4720,7 @@ GetCurrentContext
 aContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4810,7 +4810,7 @@ GtkIMContext
 aContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4882,7 +4882,7 @@ aContext
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -4993,7 +4993,7 @@ GtkIMContext
 aContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -5065,7 +5065,7 @@ aContext
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -5188,7 +5188,7 @@ GtkIMContext
 aContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -5248,7 +5248,7 @@ GetCurrentContext
 aContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -5391,7 +5391,7 @@ gint
 aNChars
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -5451,7 +5451,7 @@ GetCurrentContext
 aContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -5508,7 +5508,7 @@ TRUE
 /
 /
 failed
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -5592,7 +5592,7 @@ aUTF8Char
 &
 emptyStr
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -5689,7 +5689,7 @@ aContext
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -5934,7 +5934,7 @@ keyval_utf8
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6050,7 +6050,7 @@ Truncate
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6099,7 +6099,7 @@ GtkIMContext
 aContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6129,7 +6129,7 @@ IsComposing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6156,7 +6156,7 @@ if
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6223,7 +6223,7 @@ mOffset
 UINT32_MAX
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6378,7 +6378,7 @@ mProcessingKeyEvent
 isCancelled
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6419,7 +6419,7 @@ kungFuDeathGrip
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6445,7 +6445,7 @@ false
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6522,7 +6522,7 @@ kungFuDeathGrip
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6566,7 +6566,7 @@ nsAString
 aCompositionString
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6595,7 +6595,7 @@ if
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6626,7 +6626,7 @@ IsComposing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6850,7 +6850,7 @@ lastFocusedWindow
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6932,7 +6932,7 @@ nsAString
 aCommitString
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -6990,7 +6990,7 @@ if
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7035,7 +7035,7 @@ IsEmpty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7060,7 +7060,7 @@ return
 true
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7200,7 +7200,7 @@ lastFocusedWindow
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7249,7 +7249,7 @@ nsAString
 aLastDispatchedData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7345,7 +7345,7 @@ preedit_string
 preedit_string
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7393,7 +7393,7 @@ if
 iter
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7735,7 +7735,7 @@ AppendElement
 range
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7855,7 +7855,7 @@ AppendElement
 range
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7925,7 +7925,7 @@ uint32_t
 aTargetOffset
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7961,7 +7961,7 @@ aTargetOffset
 UINT32_MAX
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -7985,7 +7985,7 @@ if
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8013,7 +8013,7 @@ aContext
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8073,7 +8073,7 @@ charRect
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8255,7 +8255,7 @@ uint32_t
 aCursorPos
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8286,7 +8286,7 @@ if
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8407,7 +8407,7 @@ Length
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8481,7 +8481,7 @@ selLength
 INT32_MAX
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8569,7 +8569,7 @@ Length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8762,7 +8762,7 @@ uint32_t
 parStart
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8821,7 +8821,7 @@ uint32_t
 aNChars
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8869,7 +8869,7 @@ if
 mLastFocusedWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8898,7 +8898,7 @@ if
 aNChars
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -8987,7 +8987,7 @@ mSelectedString
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -9107,7 +9107,7 @@ IsEmpty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -9167,7 +9167,7 @@ offsetInUTF8Characters
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -9245,7 +9245,7 @@ countOfCharactersInUTF8
 endInUTF8Characters
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -9424,7 +9424,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -9494,7 +9494,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -9549,7 +9549,7 @@ aContext
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS
@@ -9596,7 +9596,7 @@ compositionString
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gGtkIMLog
 PR_LOG_ALWAYS

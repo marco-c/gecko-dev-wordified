@@ -272,7 +272,7 @@ LOG_FONTLIST
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gfxPlatform
 :

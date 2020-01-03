@@ -309,7 +309,7 @@ DECODER_LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaDecoderLog
 PR_LOG_DEBUG

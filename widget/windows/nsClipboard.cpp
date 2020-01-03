@@ -2945,7 +2945,7 @@ hres
 E_INVALIDARG
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -2968,7 +2968,7 @@ hres
 E_UNEXPECTED
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -2991,7 +2991,7 @@ hres
 E_OUTOFMEMORY
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -3014,7 +3014,7 @@ hres
 DV_E_LINDEX
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -3037,7 +3037,7 @@ hres
 DV_E_FORMATETC
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -3060,7 +3060,7 @@ hres
 DV_E_TYMED
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -3083,7 +3083,7 @@ hres
 DV_E_DVASPECT
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -3106,7 +3106,7 @@ hres
 OLE_E_NOTRUNNING
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -3129,7 +3129,7 @@ hres
 STG_E_MEDIUMFULL
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -3152,7 +3152,7 @@ hres
 DV_E_CLIPFORMAT
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -3175,7 +3175,7 @@ hres
 S_OK
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -3191,7 +3191,7 @@ n
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS
@@ -4742,7 +4742,7 @@ TYMED_GDI
 #
 ifdef
 DEBUG
-PR_LOG
+MOZ_LOG
 (
 gWin32ClipboardLog
 PR_LOG_ALWAYS

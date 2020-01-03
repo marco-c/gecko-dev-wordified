@@ -2623,7 +2623,7 @@ ToString
 mvar
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS
@@ -4565,7 +4565,7 @@ aTarget
 targetStr
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS
@@ -5172,7 +5172,7 @@ aTarget
 targetStr
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS
@@ -5635,7 +5635,7 @@ rv
 return
 rv
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -5721,7 +5721,7 @@ AssignWithConversion
 targetStr
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -6902,7 +6902,7 @@ AssignWithConversion
 tagstr
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS

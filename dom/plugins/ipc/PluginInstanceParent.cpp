@@ -5778,7 +5778,7 @@ NPERR_NO_ERROR
 endif
 default
 :
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (
@@ -5877,7 +5877,7 @@ NPP_SetValue
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (

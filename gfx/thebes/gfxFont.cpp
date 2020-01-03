@@ -475,7 +475,7 @@ LOG_FONTINIT
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gfxPlatform
 :

@@ -239,7 +239,7 @@ LOG
 (
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 GetMediaManagerLog
 (
@@ -253,7 +253,7 @@ LOG_FRAMES
 (
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 GetMediaManagerLog
 (

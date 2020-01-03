@@ -1295,7 +1295,7 @@ mBadChildLevel
 -
 mBadChildLevel
 ;
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -2460,7 +2460,7 @@ mBadChildLevel
 +
 mBadChildLevel
 ;
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -2550,7 +2550,7 @@ allow
 +
 mBadChildLevel
 ;
-PR_LOG
+MOZ_LOG
 (
 txLog
 :

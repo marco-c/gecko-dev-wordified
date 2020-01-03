@@ -599,7 +599,7 @@ b
 \
 PR_BEGIN_MACRO
 \
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -640,7 +640,7 @@ b
 \
 PR_BEGIN_MACRO
 \
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -681,7 +681,7 @@ b
 \
 PR_BEGIN_MACRO
 \
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :

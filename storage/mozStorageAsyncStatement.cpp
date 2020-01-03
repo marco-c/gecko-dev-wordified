@@ -716,7 +716,7 @@ mSQLString
 =
 aSQLStatement
 ;
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_NOTICE
@@ -1885,7 +1885,7 @@ rc
 SQLITE_OK
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_ERROR
@@ -1913,7 +1913,7 @@ mNativeConnection
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_ERROR
@@ -1944,7 +1944,7 @@ return
 rc
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_NOTICE
@@ -2296,7 +2296,7 @@ mFinalized
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_NOTICE

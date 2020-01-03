@@ -387,7 +387,7 @@ fingerprints
 dynamicFingerprints
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -436,7 +436,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -497,7 +497,7 @@ i
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -576,7 +576,7 @@ i
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -804,7 +804,7 @@ node
 >
 cert
 ;
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -829,7 +829,7 @@ subjectName
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -888,7 +888,7 @@ NS_OK
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -1316,7 +1316,7 @@ evalHost
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -1405,7 +1405,7 @@ includeSubdomains
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -1469,7 +1469,7 @@ if
 foundEntry
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -1529,7 +1529,7 @@ nullptr
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG
@@ -2097,7 +2097,7 @@ cert
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningLog
 PR_LOG_DEBUG

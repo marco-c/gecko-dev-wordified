@@ -2616,7 +2616,7 @@ nsIDOMNode
 aQueryNode
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_ALWAYS

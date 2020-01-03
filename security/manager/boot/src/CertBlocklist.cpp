@@ -790,7 +790,7 @@ Init
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -825,7 +825,7 @@ NS_IsMainThread
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -937,7 +937,7 @@ rv
 mBackingFile
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -1066,7 +1066,7 @@ return
 rv
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -1105,7 +1105,7 @@ MutexAutoLock
 lock
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -1132,7 +1132,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -1184,7 +1184,7 @@ if
 exists
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_WARN
@@ -1575,7 +1575,7 @@ IsEmpty
 continue
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -1605,7 +1605,7 @@ get
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -1665,7 +1665,7 @@ as
 possible
 are
 read
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_WARN
@@ -1729,7 +1729,7 @@ char
 aPubKeyHash
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -1808,7 +1808,7 @@ char
 aSerialNumber
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -2734,7 +2734,7 @@ SaveEntries
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_DEBUG
@@ -2806,7 +2806,7 @@ profile
 directory
 for
 tests
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_WARN
@@ -2922,7 +2922,7 @@ saveInfo
 success
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_WARN
@@ -2963,7 +2963,7 @@ saveInfo
 success
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_WARN
@@ -3038,7 +3038,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_WARN
@@ -3475,7 +3475,7 @@ now
 -
 sLastBlocklistUpdate
 ;
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_WARN
@@ -3515,7 +3515,7 @@ sMaxStaleness
 interval
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_WARN
@@ -3588,7 +3588,7 @@ blocklist
 mMutex
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCertBlockPRLog
 PR_LOG_WARN

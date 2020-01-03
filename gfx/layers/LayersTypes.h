@@ -186,7 +186,7 @@ MOZ_LAYERS_LOG
 _args
 )
 \
-PR_LOG
+MOZ_LOG
 (
 LayerManager
 :
@@ -217,7 +217,7 @@ AsShadowableLayer
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 LayerManager
 :

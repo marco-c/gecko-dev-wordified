@@ -268,7 +268,7 @@ msg
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gMediaDecoderLog
 type

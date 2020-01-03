@@ -133,7 +133,7 @@ STREAM_LOG
 type
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaStreamGraphLog
 type
@@ -1984,7 +1984,7 @@ mCurrentTimeStamp
 =
 now
 ;
-PR_LOG
+MOZ_LOG
 (
 gMediaStreamGraphLog
 PR_LOG_DEBUG

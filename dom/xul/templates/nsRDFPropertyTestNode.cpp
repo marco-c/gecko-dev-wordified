@@ -269,7 +269,7 @@ ToString
 tvar
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -455,7 +455,7 @@ ToString
 tvar
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -622,7 +622,7 @@ aTarget
 target
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -905,7 +905,7 @@ targetValue
 target
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1001,7 +1001,7 @@ rv
 return
 rv
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1344,7 +1344,7 @@ value
 s
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1446,7 +1446,7 @@ GetValueConst
 s
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1779,7 +1779,7 @@ aTarget
 target
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1922,7 +1922,7 @@ aTarget
 target
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
