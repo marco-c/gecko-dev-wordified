@@ -5584,6 +5584,9 @@ case
 GetElem_NativePrototypeCallScripted
 :
 case
+GetElem_UnboxedProperty
+:
+case
 GetProp_CallScripted
 :
 case

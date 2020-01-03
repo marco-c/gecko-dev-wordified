@@ -2468,6 +2468,10 @@ UnboxedExpandoObject
 (
 cx
 nullptr
+AllocKind
+:
+:
+OBJECT4
 )
 ;
 if

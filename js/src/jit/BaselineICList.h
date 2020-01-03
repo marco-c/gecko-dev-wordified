@@ -424,6 +424,11 @@ GetElem_NativePrototypeCallScripted
 \
 _
 (
+GetElem_UnboxedProperty
+)
+\
+_
+(
 GetElem_String
 )
 \

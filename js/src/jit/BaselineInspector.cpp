@@ -4333,6 +4333,12 @@ case
 ICStub
 :
 :
+GetElem_UnboxedProperty
+:
+case
+ICStub
+:
+:
 GetElem_String
 :
 case
