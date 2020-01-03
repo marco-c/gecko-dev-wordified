@@ -2639,7 +2639,7 @@ if
 gMenuPopupWidget
 )
 {
-ensure_menu_bar_item_widget
+ensure_window_widget
 (
 )
 ;
@@ -2649,13 +2649,14 @@ gtk_menu_new
 (
 )
 ;
-gtk_menu_item_set_submenu
+gtk_menu_attach_to_widget
 (
-GTK_MENU_ITEM
+GTK_MENU
 (
-gMenuBarItemWidget
-)
 gMenuPopupWidget
+)
+gProtoWindow
+NULL
 )
 ;
 gtk_widget_realize
