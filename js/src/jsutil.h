@@ -2086,14 +2086,6 @@ JS_END_MACRO
 elif
 MOZ_IS_GCC
 #
-if
-MOZ_GCC_VERSION_AT_LEAST
-(
-4
-6
-0
-)
-#
 define
 JS_SILENCE_UNUSED_VALUE_IN_EXPR
 (
@@ -2145,8 +2137,6 @@ pop
 )
 \
 JS_END_MACRO
-#
-endif
 #
 endif
 #

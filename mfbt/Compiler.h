@@ -176,7 +176,7 @@ for
 gcc
 4
 .
-5
+7
 .
 1
 or
@@ -187,7 +187,7 @@ if
 MOZ_GCC_VERSION_AT_LEAST
 (
 4
-5
+7
 1
 )
 .

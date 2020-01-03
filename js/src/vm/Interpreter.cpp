@@ -8975,10 +8975,10 @@ compiler
 #
 if
 (
+defined
+(
 __GNUC__
->
-=
-3
+)
 |
 |
 \
