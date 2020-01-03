@@ -1345,7 +1345,7 @@ done
 void
 memoryBarrier
 (
-int
+MemoryBarrierBits
 barrier
 )
 ;
