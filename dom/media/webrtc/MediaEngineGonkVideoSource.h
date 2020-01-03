@@ -610,7 +610,7 @@ calling
 GonkCameraImage
 :
 :
-ClearBuffer
+ClearMediaBuffer
 (
 )
 before
