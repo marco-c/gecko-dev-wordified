@@ -246,9 +246,14 @@ String
 roomUrl
 :
 String
+/
+/
 roomName
 :
 String
+-
+Optional
+.
 maxSize
 :
 Number
