@@ -1887,6 +1887,9 @@ work
 void
 BeginProcessingRestyles
 (
+RestyleTracker
+&
+aRestyleTracker
 )
 ;
 void
