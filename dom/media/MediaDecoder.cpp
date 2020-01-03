@@ -3989,10 +3989,6 @@ if
 mOwner
 )
 {
-Invalidate
-(
-)
-;
 mOwner
 -
 >
