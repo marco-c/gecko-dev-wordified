@@ -348,10 +348,6 @@ bool
 RecvNotifyCFStateChanged
 (
 const
-bool
-&
-aSuccess
-const
 uint16_t
 &
 aAction

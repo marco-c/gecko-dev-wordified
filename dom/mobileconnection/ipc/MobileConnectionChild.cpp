@@ -1804,10 +1804,6 @@ MobileConnectionChild
 RecvNotifyCFStateChanged
 (
 const
-bool
-&
-aSuccess
-const
 uint16_t
 &
 aAction
@@ -1857,7 +1853,6 @@ i
 >
 NotifyCFStateChanged
 (
-aSuccess
 aAction
 aReason
 aNumber

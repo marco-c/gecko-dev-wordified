@@ -1297,8 +1297,6 @@ MobileConnectionParent
 :
 NotifyCFStateChanged
 (
-bool
-aSuccess
 uint16_t
 aAction
 uint16_t
@@ -1322,7 +1320,6 @@ NS_ERROR_FAILURE
 return
 SendNotifyCFStateChanged
 (
-aSuccess
 aAction
 aReason
 nsAutoString

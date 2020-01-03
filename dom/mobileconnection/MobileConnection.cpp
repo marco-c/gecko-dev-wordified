@@ -5098,8 +5098,6 @@ MobileConnection
 :
 NotifyCFStateChanged
 (
-bool
-aSuccess
 unsigned
 short
 aAction
@@ -5147,12 +5145,6 @@ init
 mCancelable
 =
 false
-;
-init
-.
-mSuccess
-=
-aSuccess
 ;
 init
 .

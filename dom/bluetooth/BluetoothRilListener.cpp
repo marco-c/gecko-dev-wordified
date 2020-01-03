@@ -489,8 +489,6 @@ MobileConnectionListener
 :
 NotifyCFStateChanged
 (
-bool
-success
 uint16_t
 action
 uint16_t
