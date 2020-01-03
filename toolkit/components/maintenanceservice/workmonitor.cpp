@@ -274,17 +274,6 @@ int
 errorCode
 )
 ;
-BOOL
-PathGetSiblingFilePath
-(
-LPWSTR
-destinationBuffer
-LPCWSTR
-siblingFilePath
-LPCWSTR
-newFileName
-)
-;
 /
 *
 *

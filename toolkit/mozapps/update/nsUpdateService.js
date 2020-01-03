@@ -1356,6 +1356,11 @@ FOTA_RECOVERY_ERROR
 50
 ;
 const
+SECURE_LOCATION_UPDATE_ERROR
+=
+51
+;
+const
 CERT_ATTR_CHECK_FAILED_NO_UPDATE
 =
 100
@@ -10103,6 +10108,14 @@ errorCode
 =
 =
 ELEVATION_CANCELED
+|
+|
+update
+.
+errorCode
+=
+=
+SECURE_LOCATION_UPDATE_ERROR
 )
 {
 writeStatusFile
@@ -16142,7 +16155,7 @@ telemetry
 getHistogramById
 (
 "
-UPDATER_STATUS_CODES
+UPDATER_ALL_STATUS_CODES
 "
 )
 .
