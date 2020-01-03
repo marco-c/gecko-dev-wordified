@@ -382,6 +382,9 @@ Ci
 nsISmsMessenger
 Ci
 .
+nsISmsMessenger_new
+Ci
+.
 nsICellbroadcastMessenger
 Ci
 .
