@@ -6766,7 +6766,7 @@ best
 fit
 "
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_INVALID_LOCALE_MATCHER
 matcher
@@ -7053,7 +7053,7 @@ value
 -
 1
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_INVALID_OPTION_VALUE
 property
@@ -7251,7 +7251,7 @@ value
 >
 maximum
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_INVALID_DIGITS_VALUE
 value
@@ -8636,7 +8636,7 @@ type
 =
 className
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INTL_OBJECT_NOT_INITED
 className
@@ -9636,7 +9636,7 @@ isInitializedIntlObject
 collator
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INTL_OBJECT_REINITED
 )
@@ -11769,7 +11769,7 @@ isInitializedIntlObject
 numberFormat
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INTL_OBJECT_REINITED
 )
@@ -12302,7 +12302,7 @@ IsWellFormedCurrencyCode
 c
 )
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_INVALID_CURRENCY_CODE
 c
@@ -12330,7 +12330,7 @@ c
 =
 undefined
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_UNDEFINED_CURRENCY
 )
@@ -14680,7 +14680,7 @@ isInitializedIntlObject
 dateTimeFormat
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INTL_OBJECT_REINITED
 )
@@ -15037,7 +15037,7 @@ tz
 UTC
 "
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_INVALID_TIME_ZONE
 tz
