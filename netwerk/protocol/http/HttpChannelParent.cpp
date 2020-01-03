@@ -8468,6 +8468,9 @@ aMessageCategory
 {
 if
 (
+mIPCClosed
+|
+|
 NS_WARN_IF
 (
 !
