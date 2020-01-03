@@ -1107,6 +1107,12 @@ mIdleService
 bool
 mIMEComposing
 ;
+int32_t
+mIMEComposingStart
+;
+nsString
+mIMEComposingText
+;
 bool
 mIMEMaskSelectionUpdate
 mIMEMaskTextUpdate
@@ -1121,9 +1127,6 @@ events
 when
 >
 0
-nsString
-mIMEComposingText
-;
 nsRefPtr
 <
 mozilla
