@@ -586,8 +586,10 @@ cx
 Shape
 *
 parent
+Handle
+<
 StackShape
-&
+>
 child
 )
 ;
