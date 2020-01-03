@@ -121,9 +121,10 @@ dispatcher
 store
 fakeMozLoop
 fakeSdkDriver
+fakeMultiplexGum
 ;
 var
-fakeMultiplexGum
+standaloneMediaRestore
 ;
 beforeEach
 (
@@ -372,6 +373,12 @@ spy
 )
 }
 ;
+standaloneMediaRestore
+=
+loop
+.
+standaloneMedia
+;
 loop
 .
 standaloneMedia
@@ -416,6 +423,12 @@ sandbox
 restore
 (
 )
+;
+loop
+.
+standaloneMedia
+=
+standaloneMediaRestore
 ;
 }
 )
