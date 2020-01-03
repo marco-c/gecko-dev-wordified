@@ -263,6 +263,8 @@ ProcessAudioSegment
 AudioSegment
 *
 aAudioSegment
+int32_t
+aSampleRate
 )
 {
 return

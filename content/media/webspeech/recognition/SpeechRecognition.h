@@ -734,6 +734,8 @@ aDuration
 MediaStreamListener
 *
 aProvider
+TrackRate
+aTrackRate
 )
 ;
 static
@@ -956,6 +958,8 @@ ProcessAudioSegment
 AudioSegment
 *
 aSegment
+TrackRate
+aTrackRate
 )
 ;
 void
@@ -1217,6 +1221,10 @@ mType
 (
 aType
 )
+mTrackRate
+(
+0
+)
 {
 }
 ~
@@ -1329,6 +1337,9 @@ SpeechRecognition
 :
 EventType
 mType
+;
+TrackRate
+mTrackRate
 ;
 }
 ;

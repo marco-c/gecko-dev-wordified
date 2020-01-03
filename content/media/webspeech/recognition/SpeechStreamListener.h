@@ -217,6 +217,8 @@ aVolume
 SampleFormatType
 *
 aData
+TrackRate
+aTrackRate
 )
 ;
 nsRefPtr
