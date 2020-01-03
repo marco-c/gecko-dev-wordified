@@ -4213,7 +4213,12 @@ dstHeight
 uvStride
 0
 0
-aWidth
+graphicBuffer
+-
+>
+getStride
+(
+)
 aHeight
 aWidth
 aHeight
@@ -4366,7 +4371,12 @@ dstHeight
 half_width
 0
 0
-aWidth
+graphicBuffer
+-
+>
+getStride
+(
+)
 aHeight
 aWidth
 aHeight
