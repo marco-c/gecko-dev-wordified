@@ -7612,10 +7612,6 @@ void
 *
 verifyPreData
 ;
-void
-*
-verifyPostData
-;
 bool
 chunkAllocationSinceLastGC
 ;
