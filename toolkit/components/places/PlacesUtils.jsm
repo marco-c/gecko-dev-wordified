@@ -1372,6 +1372,7 @@ node
 nodeAncestors
 :
 function
+*
 PU_nodeAncestors
 (
 aNode
