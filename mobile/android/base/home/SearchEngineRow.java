@@ -105,6 +105,15 @@ mozilla
 .
 gecko
 .
+AppConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 db
 .
 BrowserContract
@@ -1793,6 +1802,13 @@ animate
 recycledSuggestionCount
 )
 ;
+if
+(
+AppConstants
+.
+NIGHTLY_BUILD
+)
+{
 updateFromSavedSearches
 (
 searchTerm
@@ -1801,6 +1817,7 @@ suggestionViewCount
 recycledSuggestionCount
 )
 ;
+}
 }
 }
 Override
