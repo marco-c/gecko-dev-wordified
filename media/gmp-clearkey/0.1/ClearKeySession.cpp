@@ -115,9 +115,6 @@ std
 string
 &
 aSessionId
-GMPDecryptorHost
-*
-aHost
 GMPDecryptorCallback
 *
 aCallback
@@ -126,10 +123,6 @@ aCallback
 mSessionId
 (
 aSessionId
-)
-mHost
-(
-aHost
 )
 mCallback
 (
