@@ -727,15 +727,6 @@ RecorderProfile
 )
 RecorderProfile
 (
-const
-nsAString
-&
-aName
-)
-:
-mName
-(
-aName
 )
 {
 }
