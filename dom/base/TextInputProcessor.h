@@ -261,6 +261,16 @@ UnlinkFromTextEventDispatcher
 (
 )
 ;
+nsresult
+PrepareKeyboardEventToDispatch
+(
+WidgetKeyboardEvent
+&
+aKeyboardEvent
+uint32_t
+aKeyFlags
+)
+;
 TextEventDispatcher
 *
 mDispatcher
