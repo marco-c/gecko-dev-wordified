@@ -6062,7 +6062,7 @@ allDriverVersions
 *
 *
 Disable
-D2D
+acceleration
 on
 Intel
 HD
@@ -6084,6 +6084,9 @@ drivers
 See
 bug
 1018278
+and
+bug
+1060736
 .
 *
 /
@@ -6112,10 +6115,10 @@ GetDeviceFamily
 (
 IntelHD3000
 )
-nsIGfxInfo
+GfxDriverInfo
 :
 :
-FEATURE_DIRECT2D
+allFeatures
 nsIGfxInfo
 :
 :
