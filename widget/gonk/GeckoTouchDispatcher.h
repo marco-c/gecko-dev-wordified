@@ -232,9 +232,6 @@ nsIWidget
 namespace
 mozilla
 {
-class
-WidgetMouseEvent
-;
 namespace
 layers
 {
@@ -415,7 +412,6 @@ void
 DispatchTouchEvent
 (
 MultiTouchInput
-&
 aMultiTouch
 )
 ;
