@@ -136,7 +136,6 @@ FXA
 *
 *
 *
-*
 Values
 that
 we
@@ -4525,12 +4524,6 @@ false
 =
 >
 {
-return
-handle401Error
-(
-error
-)
-;
 /
 /
 Process
@@ -4542,6 +4535,12 @@ triggered
 the
 retry
 .
+return
+handle401Error
+(
+error
+)
+;
 }
 )
 ;
@@ -6719,9 +6718,6 @@ split
 "
 )
 ;
-/
-/
-)
 if
 (
 pair
@@ -6777,9 +6773,6 @@ pair
 1
 ]
 ;
-/
-/
-)
 }
 }
 if

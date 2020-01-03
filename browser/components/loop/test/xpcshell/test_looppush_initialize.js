@@ -748,13 +748,6 @@ uaID
 =
 undefined
 ;
-MozLoopPushHandler
-.
-registeredChannels
-=
-{
-}
-;
 /
 /
 Do
@@ -766,6 +759,13 @@ new
 registration
 callback
 .
+MozLoopPushHandler
+.
+registeredChannels
+=
+{
+}
+;
 mockWebSocket
 .
 serverClose

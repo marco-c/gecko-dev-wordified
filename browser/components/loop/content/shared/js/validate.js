@@ -766,14 +766,6 @@ function
 Type
 )
 {
-/
-*
-jshint
-eqeqeq
-:
-false
-*
-/
 try
 {
 return
