@@ -4227,14 +4227,10 @@ Label
 *
 res
 =
-GetJitContext
+alloc
 (
 )
--
->
-temp
--
->
+.
 lifoAlloc
 (
 )
