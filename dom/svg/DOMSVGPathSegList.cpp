@@ -1626,7 +1626,7 @@ truncate
 mItems
 mItems
 .
-SetLength
+TruncateLength
 (
 newLength
 )

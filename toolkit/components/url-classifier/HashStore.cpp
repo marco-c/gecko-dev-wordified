@@ -3338,7 +3338,7 @@ addIter
 aEntries
 -
 >
-SetLength
+TruncateLength
 (
 addIter
 -
@@ -5941,7 +5941,7 @@ subIter
 ;
 aSubs
 .
-SetLength
+TruncateLength
 (
 subIter
 -
