@@ -7196,17 +7196,6 @@ aUsePrefOverriddenValue
 /
 )
 )
-|
-|
-NS_FAILED
-(
-NS_GetNavigatorUserAgent
-(
-mNavigatorProperties
-.
-mUserAgent
-)
-)
 )
 {
 JS_ReportError
