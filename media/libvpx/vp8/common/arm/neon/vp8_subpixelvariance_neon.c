@@ -110,17 +110,6 @@ vpx_integer
 .
 h
 "
-#
-ifdef
-_MSC_VER
-#
-define
-__builtin_prefetch
-(
-x
-)
-#
-endif
 static
 const
 uint16_t

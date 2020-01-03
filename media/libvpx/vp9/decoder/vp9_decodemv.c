@@ -838,6 +838,8 @@ mi
 [
 0
 ]
+.
+src_mi
 -
 >
 mbmi
@@ -942,6 +944,8 @@ mi
 [
 0
 ]
+.
+src_mi
 -
 >
 mbmi
@@ -1196,6 +1200,8 @@ mi
 [
 0
 ]
+.
+src_mi
 ;
 MB_MODE_INFO
 *
@@ -1224,6 +1230,8 @@ cm
 >
 mi_stride
 ]
+.
+src_mi
 ;
 const
 MODE_INFO
@@ -1243,6 +1251,8 @@ mi
 -
 1
 ]
+.
+src_mi
 :
 NULL
 ;
@@ -4013,6 +4023,8 @@ mi
 [
 0
 ]
+.
+src_mi
 ;
 MB_MODE_INFO
 *

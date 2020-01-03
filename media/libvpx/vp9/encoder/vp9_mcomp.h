@@ -448,6 +448,9 @@ int
 further_steps
 int
 do_refine
+int
+*
+cost_list
 const
 vp9_variance_fn_ptr_t
 *

@@ -94,6 +94,15 @@ VP9_COMMON_VP9_QUANT_COMMON_H_
 #
 include
 "
+vpx
+/
+vpx_codec
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -141,6 +150,8 @@ int
 qindex
 int
 delta
+vpx_bit_depth_t
+bit_depth
 )
 ;
 int16_t
@@ -150,6 +161,8 @@ int
 qindex
 int
 delta
+vpx_bit_depth_t
+bit_depth
 )
 ;
 int

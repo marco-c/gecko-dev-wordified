@@ -257,13 +257,12 @@ synchronization
 void
 vp9_loop_filter_alloc
 (
-struct
-VP9Common
-*
-cm
 VP9LfSync
 *
 lf_sync
+VP9_COMMON
+*
+cm
 int
 rows
 int

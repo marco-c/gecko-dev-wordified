@@ -394,6 +394,13 @@ setjmp
 =
 1
 ;
+pbi
+-
+>
+need_resync
+=
+1
+;
 initialize_dec
 (
 )
@@ -1732,6 +1739,13 @@ jmp
 )
 )
 {
+pbi
+-
+>
+need_resync
+=
+1
+;
 cm
 -
 >

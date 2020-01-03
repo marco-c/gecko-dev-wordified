@@ -485,6 +485,10 @@ cm
 -
 >
 base_qindex
+cm
+-
+>
+bit_depth
 )
 ;
 const
@@ -630,6 +634,10 @@ Q_RATIO
 (
 i
 )
+cm
+-
+>
+bit_depth
 )
 ;
 vp9_set_segdata

@@ -485,6 +485,10 @@ define
 CONFIG_FP_MB_STATS
 0
 #
+define
+CONFIG_EMULATE_HARDWARE_HIGHBITDEPTH
+0
+#
 endif
 /
 *

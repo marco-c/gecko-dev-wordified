@@ -631,7 +631,7 @@ shift_inc
 1
 ;
 /
-*
+/
 If
 motion_magnitude
 is
@@ -642,7 +642,8 @@ denoiser
 more
 aggressive
 by
-*
+/
+/
 increasing
 the
 adjustment
@@ -654,7 +655,8 @@ Add
 another
 increment
 for
-*
+/
+/
 blocks
 that
 are
@@ -663,8 +665,6 @@ for
 increase
 denoising
 .
-*
-/
 if
 (
 motion_magnitude
@@ -1451,6 +1451,8 @@ mi
 [
 0
 ]
+.
+src_mi
 -
 >
 mbmi
