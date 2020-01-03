@@ -4859,6 +4859,24 @@ build_targets
 ]
 )
         
+build_targets
+.
+extend
+(
+self
+.
+config
+.
+get
+(
+"
+build_targets
+"
+[
+]
+)
+)
+        
 if
 not
 build_targets

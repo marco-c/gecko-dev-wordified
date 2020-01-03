@@ -3981,14 +3981,21 @@ options
         
 run_file
 =
-c
+self
+.
+tree_config
 [
-'
-run_file_names
-'
+"
+suite_definitions
+"
 ]
 [
 suite_category
+]
+[
+"
+run_filename
+"
 ]
         
 base_cmd

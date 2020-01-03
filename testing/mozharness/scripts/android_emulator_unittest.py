@@ -5473,6 +5473,10 @@ self
 fatal
 (
 '
+INFRA
+-
+ERROR
+:
 Unable
 to
 start

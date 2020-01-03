@@ -2798,10 +2798,15 @@ default_notify_from
 developer
 -
 services
++
+%
+s
 mozilla
 .
 org
 "
+%
+hostname
     
 "
 notify_config
@@ -2815,7 +2820,11 @@ to
 "
 :
 "
-pmoore
+releng
+-
+ops
+-
+trial
 mozilla
 .
 com
@@ -2831,7 +2840,7 @@ False
 skip_empty_messages
 "
 :
-False
+True
     
 }
 ]
