@@ -12924,6 +12924,10 @@ NullValue
 ;
 if
 (
+ParseNode
+*
+catchList
+=
 pn
 -
 >
@@ -12937,10 +12941,7 @@ guarded
 .
 reserve
 (
-pn
--
->
-pn_kid2
+catchList
 -
 >
 pn_count
@@ -12955,10 +12956,7 @@ ParseNode
 *
 next
 =
-pn
--
->
-pn_kid2
+catchList
 -
 >
 pn_head
