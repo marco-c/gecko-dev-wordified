@@ -264,7 +264,7 @@ virtual
 void
 SetAudioOutputVolume
 (
-uint32_t
+float
 aVolume
 )
 ;
