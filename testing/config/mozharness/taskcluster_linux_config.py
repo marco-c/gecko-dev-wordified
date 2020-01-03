@@ -299,20 +299,6 @@ tests
 /
 certs
 "
-"
--
--
-autorun
-"
-"
--
--
-close
--
-when
--
-done
-"
         
 "
 -
