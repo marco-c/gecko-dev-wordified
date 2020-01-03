@@ -8017,15 +8017,6 @@ NYI
 }
 }
 void
-xor32
-(
-Imm32
-imm
-Register
-dest
-)
-;
-void
 xorPtr
 (
 Imm32
