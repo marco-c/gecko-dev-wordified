@@ -1593,6 +1593,13 @@ return
 mInterrupted
 ;
 }
+void
+SetNeedsToWaitForContentResponse
+(
+bool
+aWaitForContentResponse
+)
+;
 private
 :
 nsTArray
