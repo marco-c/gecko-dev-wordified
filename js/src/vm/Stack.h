@@ -173,15 +173,6 @@ for
 RegisterDump
 #
 endif
-#
-include
-"
-js
-/
-OldDebugAPI
-.
-h
-"
 struct
 JSCompartment
 ;
