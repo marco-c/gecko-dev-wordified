@@ -270,7 +270,9 @@ failure
 /
 }
 return
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

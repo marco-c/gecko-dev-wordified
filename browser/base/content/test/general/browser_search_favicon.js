@@ -506,7 +506,9 @@ gEngine
 )
 ;
 return
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
