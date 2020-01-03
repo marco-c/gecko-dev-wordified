@@ -185,6 +185,12 @@ devel
 '
             
 '
+GConf2
+-
+devel
+'
+            
+'
 glibc
 -
 static

@@ -171,6 +171,12 @@ c
 '
             
 '
+GConf2
+-
+devel
+'
+            
+'
 glibc
 -
 static
