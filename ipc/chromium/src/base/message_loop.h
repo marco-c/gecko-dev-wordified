@@ -936,6 +936,7 @@ Run
 (
 )
 .
+B2G_ACL_EXPORT
 void
 PostTask
 (

@@ -603,6 +603,7 @@ GonkConsumerBase
 is
 connected
 .
+B2G_ACL_EXPORT
 sp
 <
 GonkBufferQueue

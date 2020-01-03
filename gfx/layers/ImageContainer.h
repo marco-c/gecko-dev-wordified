@@ -2010,6 +2010,7 @@ state
 .
 *
 /
+B2G_ACL_EXPORT
 already_AddRefed
 <
 Image
@@ -3455,6 +3456,7 @@ Release
 (
 )
 :
+B2G_ACL_EXPORT
 ~
 ImageContainer
 (

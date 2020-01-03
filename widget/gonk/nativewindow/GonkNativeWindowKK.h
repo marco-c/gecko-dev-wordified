@@ -448,6 +448,7 @@ the
 /
 application
 .
+B2G_ACL_EXPORT
 GonkNativeWindow
 (
 int
@@ -850,6 +851,7 @@ the
 returned
 buffer
 .
+B2G_ACL_EXPORT
 already_AddRefed
 <
 TextureClient
@@ -904,6 +906,7 @@ ANativeWindowBuffer
 buffer
 )
 ;
+B2G_ACL_EXPORT
 void
 setNewFrameCallback
 (
