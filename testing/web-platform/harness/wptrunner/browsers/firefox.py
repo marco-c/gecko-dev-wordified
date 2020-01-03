@@ -339,6 +339,17 @@ ssl_env
 ca_cert_path
 (
 )
+            
+"
+e10s
+"
+:
+kwargs
+[
+"
+gecko_e10s
+"
+]
 }
 def
 executor_kwargs
@@ -502,6 +513,9 @@ None
 ca_certificate_path
 =
 None
+e10s
+=
+False
 )
 :
         
@@ -572,6 +586,12 @@ self
 certutil_binary
 =
 certutil_binary
+        
+self
+.
+e10s
+=
+e10s
     
 def
 start
@@ -724,6 +744,33 @@ join
 (
 hostnames
 )
+}
+)
+        
+if
+self
+.
+e10s
+:
+            
+self
+.
+profile
+.
+set_preferences
+(
+{
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+:
+True
 }
 )
         
