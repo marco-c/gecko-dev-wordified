@@ -10065,9 +10065,11 @@ event
 ;
 if
 (
-AsyncPanZoomEnabled
-(
-)
+aEvent
+.
+mFlags
+.
+mHandledByAPZ
 )
 {
 mAPZEventState
