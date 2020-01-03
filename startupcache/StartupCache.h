@@ -271,7 +271,7 @@ init
 (
 NS_InitXPCOM3
 in
-nsXPComInit
+XPCOMInit
 .
 cpp
 )

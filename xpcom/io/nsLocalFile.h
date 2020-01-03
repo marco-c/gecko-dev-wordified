@@ -325,7 +325,7 @@ aRelativePath
 ;
 /
 /
-nsXPComInit
+XPCOMInit
 needs
 to
 know
