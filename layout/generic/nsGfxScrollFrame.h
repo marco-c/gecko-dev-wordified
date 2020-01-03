@@ -544,6 +544,11 @@ FireScrolledAreaEvent
 (
 )
 ;
+bool
+IsSmoothScrollingEnabled
+(
+)
+;
 class
 ScrollEvent
 :
