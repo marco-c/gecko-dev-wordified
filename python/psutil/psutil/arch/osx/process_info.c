@@ -50,10 +50,10 @@ fetching
 process
 information
 .
-*
 Used
 by
 _psutil_osx
+*
 module
 methods
 .
@@ -88,9 +88,11 @@ limits
 h
 >
 /
-/
+*
 for
 INT_MAX
+*
+/
 #
 include
 <
@@ -357,7 +359,7 @@ procCount
 )
 {
 /
-/
+*
 Declaring
 mib
 as
@@ -369,8 +371,7 @@ a
 cast
 since
 the
-/
-/
+*
 sysctl
 prototype
 doesn
@@ -381,6 +382,8 @@ the
 const
 modifier
 .
+*
+/
 static
 const
 int
@@ -410,9 +413,11 @@ lim
 8
 ;
 /
-/
+*
 some
 limit
+*
+/
 assert
 (
 procList
@@ -444,7 +449,6 @@ procCount
 0
 ;
 /
-*
 *
 We
 start
@@ -613,9 +617,11 @@ size
 )
 ;
 /
-/
+*
 add
 some
+*
+/
 if
 (
 size2
@@ -751,7 +757,7 @@ ENOMEM
 ;
 }
 /
-/
+*
 Read
 the
 maximum
@@ -759,6 +765,8 @@ argument
 size
 for
 processes
+*
+/
 int
 psutil_get_argmax
 (
@@ -812,7 +820,7 @@ return
 ;
 }
 /
-/
+*
 return
 process
 args
@@ -820,6 +828,8 @@ as
 a
 python
 list
+*
+/
 PyObject
 *
 psutil_get_arg_list
@@ -907,7 +917,7 @@ Py_BuildValue
 ;
 }
 /
-/
+*
 read
 argmax
 and
@@ -917,6 +927,8 @@ for
 argument
 space
 .
+*
+/
 argmax
 =
 psutil_get_argmax
@@ -967,10 +979,12 @@ error
 ;
 }
 /
-/
+*
 read
 argument
 space
+*
+/
 mib
 [
 0
@@ -1018,7 +1032,7 @@ errno
 {
 /
 /
-EINVAL
+invalid
 =
 =
 access
@@ -1060,7 +1074,7 @@ argmax
 ]
 ;
 /
-/
+*
 copy
 the
 number
@@ -1068,6 +1082,8 @@ of
 arguments
 to
 nargs
+*
+/
 memcpy
 (
 &
@@ -1162,10 +1178,12 @@ break
 }
 }
 /
-/
+*
 iterate
 through
 arguments
+*
+/
 curr_arg
 =
 arg_ptr
@@ -1418,7 +1436,8 @@ return
 ;
 }
 /
-/
+*
+*
 sysctl
 succeeds
 but
@@ -1431,6 +1450,8 @@ process
 has
 gone
 away
+*
+/
 if
 (
 len

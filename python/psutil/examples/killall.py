@@ -127,8 +127,6 @@ if
 proc
 .
 name
-(
-)
 =
 =
 NAME

@@ -49,14 +49,14 @@ h
 >
 PyObject
 *
-AccessDenied
+NoSuchProcess
 (
 void
 )
 ;
 PyObject
 *
-NoSuchProcess
+AccessDenied
 (
 void
 )

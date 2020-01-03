@@ -65,15 +65,17 @@ py
 "
 "
 import
-os
-import
-re
+unittest
 import
 subprocess
 import
+time
+import
 sys
 import
-time
+os
+import
+re
 import
 psutil
 from
@@ -85,15 +87,7 @@ PY3
 from
 test_psutil
 import
-(
-TOLERANCE
-sh
-get_test_subprocess
-reap_children
-                         
-retry_before_failing
-unittest
-)
+*
 PAGESIZE
 =
 os
@@ -305,16 +299,14 @@ TestCase
 )
 :
     
-classmethod
-    
 def
-setUpClass
+setUp
 (
-cls
+self
 )
 :
         
-cls
+self
 .
 pid
 =
@@ -324,12 +316,10 @@ get_test_subprocess
 .
 pid
     
-classmethod
-    
 def
-tearDownClass
+tearDown
 (
-cls
+self
 )
 :
         
@@ -434,8 +424,6 @@ pid
 )
 .
 create_time
-(
-)
         
 start_psutil
 =
@@ -795,11 +783,7 @@ assertEqual
 sysctl_hwphymem
 psutil
 .
-virtual_memory
-(
-)
-.
-total
+TOTAL_PHYMEM
 )
     
 retry_before_failing

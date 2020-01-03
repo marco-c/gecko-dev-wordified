@@ -39,6 +39,14 @@ LICENSE
 file
 .
 *
+*
+POSIX
+specific
+module
+methods
+for
+_psutil_posix
+*
 /
 #
 include
@@ -50,7 +58,7 @@ h
 static
 PyObject
 *
-psutil_posix_getpriority
+posix_getpriority
 (
 PyObject
 *
@@ -63,7 +71,7 @@ args
 static
 PyObject
 *
-psutil_posix_setpriority
+posix_setpriority
 (
 PyObject
 *
