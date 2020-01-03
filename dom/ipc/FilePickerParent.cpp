@@ -922,15 +922,6 @@ nsIFilePicker
 :
 :
 modeOpenMultiple
-|
-|
-mMode
-=
-=
-nsIFilePicker
-:
-:
-modeGetFolder
 )
 {
 nsCOMPtr
