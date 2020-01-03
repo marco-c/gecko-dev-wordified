@@ -3227,7 +3227,7 @@ File
 &
 aData
 const
-FilePropertyBag
+ChromeFilePropertyBag
 &
 aBag
 ErrorResult
@@ -3351,7 +3351,7 @@ nsIFile
 *
 aData
 const
-FilePropertyBag
+ChromeFilePropertyBag
 &
 aBag
 ErrorResult
@@ -3493,7 +3493,7 @@ nsAString
 &
 aData
 const
-FilePropertyBag
+ChromeFilePropertyBag
 &
 aBag
 ErrorResult

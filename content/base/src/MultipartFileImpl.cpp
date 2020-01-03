@@ -1363,7 +1363,7 @@ File
 &
 aBlob
 const
-FilePropertyBag
+ChromeFilePropertyBag
 &
 aBag
 ErrorResult
@@ -1489,7 +1489,7 @@ nsIFile
 *
 aFile
 const
-FilePropertyBag
+ChromeFilePropertyBag
 &
 aBag
 bool
@@ -1823,7 +1823,7 @@ nsAString
 &
 aData
 const
-FilePropertyBag
+ChromeFilePropertyBag
 &
 aBag
 ErrorResult
