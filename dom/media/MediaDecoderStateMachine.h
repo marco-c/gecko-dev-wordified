@@ -9054,9 +9054,6 @@ successeeding
 bool
 mDecodingFirstFrame
 ;
-bool
-mDisabledHardwareAcceleration
-;
 /
 /
 True

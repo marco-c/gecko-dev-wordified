@@ -2144,6 +2144,9 @@ blocking
 bool
 mTrackDemuxersMayBlock
 ;
+bool
+mHardwareAccelerationDisabled
+;
 /
 /
 Seeking
