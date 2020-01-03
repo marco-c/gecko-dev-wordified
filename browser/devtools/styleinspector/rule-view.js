@@ -19111,6 +19111,9 @@ colorSwatchClass
 "
 ruleview
 -
+swatch
+ruleview
+-
 colorswatch
 "
 urlClass
