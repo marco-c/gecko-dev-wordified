@@ -234,7 +234,8 @@ Promise
 .
 jsm
 "
-this
+{
+}
 )
 .
 Promise
