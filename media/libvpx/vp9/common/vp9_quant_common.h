@@ -94,15 +94,6 @@ VP9_COMMON_VP9_QUANT_COMMON_H_
 #
 include
 "
-vpx
-/
-vpx_codec
-.
-h
-"
-#
-include
-"
 vp9
 /
 common
@@ -143,6 +134,11 @@ MINQ
 define
 QINDEX_BITS
 8
+void
+vp9_init_quant_tables
+(
+)
+;
 int16_t
 vp9_dc_quant
 (
@@ -150,8 +146,6 @@ int
 qindex
 int
 delta
-vpx_bit_depth_t
-bit_depth
 )
 ;
 int16_t
@@ -161,8 +155,6 @@ int
 qindex
 int
 delta
-vpx_bit_depth_t
-bit_depth
 )
 ;
 int

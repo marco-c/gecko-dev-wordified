@@ -426,10 +426,6 @@ returndistortion
 int
 *
 returnintra
-int
-mb_row
-int
-mb_col
 )
 ;
 extern

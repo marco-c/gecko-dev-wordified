@@ -167,6 +167,17 @@ h
 #
 include
 "
+vp8
+/
+common
+/
+pragmas
+.
+h
+"
+#
+include
+"
 vpx
 /
 vpx_encoder

@@ -98,6 +98,17 @@ vp9
 /
 decoder
 /
+vp9_onyxd_int
+.
+h
+"
+#
+include
+"
+vp9
+/
+decoder
+/
 vp9_reader
 .
 h

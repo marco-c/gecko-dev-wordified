@@ -855,7 +855,6 @@ n
 #
 endif
 static
-INLINE
 int
 x86_simd_caps
 (
@@ -1200,7 +1199,6 @@ __rdtsc
 #
 endif
 static
-INLINE
 unsigned
 int
 x86_readtsc
@@ -1639,16 +1637,15 @@ mode
 #
 endif
 static
-INLINE
 unsigned
-int
+short
 x87_set_double_precision
 (
 void
 )
 {
 unsigned
-int
+short
 mode
 =
 x87_get_control_word

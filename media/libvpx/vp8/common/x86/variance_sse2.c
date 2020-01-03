@@ -106,6 +106,17 @@ h
 #
 include
 "
+vp8
+/
+common
+/
+pragmas
+.
+h
+"
+#
+include
+"
 vpx_ports
 /
 mem

@@ -16885,6 +16885,7 @@ with
 its
 current
 meaning
+but
 this
 code
 is
@@ -16916,7 +16917,7 @@ is
 *
 temporary
 code
-until
+till
 we
 decide
 what
@@ -19116,14 +19117,14 @@ coded_error
 ;
 /
 *
-Load
+load
+a
 the
 next
 frame
 '
 s
 stats
-.
 *
 /
 vpx_memcpy

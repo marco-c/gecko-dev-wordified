@@ -3103,12 +3103,10 @@ max_txsize_lookup
 xd
 -
 >
-mi
+mi_8x8
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -3176,9 +3174,6 @@ above_mbmi
 skip
 )
 ?
-(
-int
-)
 above_mbmi
 -
 >
@@ -3200,9 +3195,6 @@ left_mbmi
 skip
 )
 ?
-(
-int
-)
 left_mbmi
 -
 >
@@ -3241,7 +3233,6 @@ max_tx_size
 int
 vp9_get_segment_id
 (
-const
 VP9_COMMON
 *
 cm

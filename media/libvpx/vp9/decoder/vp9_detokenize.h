@@ -98,7 +98,7 @@ vp9
 /
 decoder
 /
-vp9_decoder
+vp9_onyxd_int
 .
 h
 "

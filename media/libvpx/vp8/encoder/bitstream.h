@@ -116,6 +116,7 @@ TOKENEXTRA
 p
 int
 xcount
+const
 vp8_token
 *
 const
@@ -142,6 +143,7 @@ char
 cx_data_end
 int
 num_parts
+const
 vp8_token
 *
 const
@@ -161,6 +163,7 @@ cpi
 vp8_writer
 *
 w
+const
 vp8_token
 *
 const

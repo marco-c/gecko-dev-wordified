@@ -211,8 +211,6 @@ int
 low_var_thresh
 int
 flag
-int
-uvfilter
 )
 ;
 void

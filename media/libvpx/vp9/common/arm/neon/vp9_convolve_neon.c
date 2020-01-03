@@ -236,7 +236,7 @@ y_step_q4
 =
 16
 )
-{
+return
 vp9_convolve8_c
 (
 src
@@ -251,9 +251,6 @@ w
 h
 )
 ;
-return
-;
-}
 /
 *
 Filter
@@ -426,7 +423,7 @@ y_step_q4
 =
 16
 )
-{
+return
 vp9_convolve8_avg_c
 (
 src
@@ -441,9 +438,6 @@ w
 h
 )
 ;
-return
-;
-}
 /
 *
 This

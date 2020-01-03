@@ -129,17 +129,6 @@ rdopt
 .
 h
 "
-#
-include
-"
-vp8
-/
-common
-/
-common
-.
-h
-"
 void
 vp8_cal_low_res_mb_cols
 (
