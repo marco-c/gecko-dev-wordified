@@ -2541,6 +2541,7 @@ if
 (
 os
 )
+{
 os
 -
 >
@@ -2555,6 +2556,7 @@ pressure
 false
 )
 ;
+}
 }
 private
 :
@@ -2581,6 +2583,7 @@ if
 (
 os
 )
+{
 os
 -
 >
@@ -2594,6 +2597,7 @@ pressure
 "
 )
 ;
+}
 UnregisterWeakMemoryReporter
 (
 this
@@ -3578,6 +3582,7 @@ if
 !
 cache
 )
+{
 return
 DrawableFrameRef
 (
@@ -3592,6 +3597,7 @@ for
 this
 image
 .
+}
 nsRefPtr
 <
 CachedSurface
@@ -3611,6 +3617,7 @@ if
 !
 surface
 )
+{
 return
 DrawableFrameRef
 (
@@ -3627,6 +3634,7 @@ image
 cache
 missed
 .
+}
 DrawableFrameRef
 ref
 =
@@ -3739,6 +3747,7 @@ if
 !
 cache
 )
+{
 return
 DrawableFrameRef
 (
@@ -3753,6 +3762,7 @@ for
 this
 image
 .
+}
 /
 /
 Repeatedly
@@ -3982,6 +3992,7 @@ if
 !
 cache
 )
+{
 return
 ;
 /
@@ -3993,6 +4004,7 @@ for
 this
 image
 .
+}
 nsRefPtr
 <
 CachedSurface
@@ -4012,6 +4024,7 @@ if
 !
 surface
 )
+{
 return
 ;
 /
@@ -4025,6 +4038,7 @@ image
 cache
 missed
 .
+}
 Remove
 (
 surface
@@ -4327,6 +4341,7 @@ if
 !
 cache
 )
+{
 return
 ;
 /
@@ -4342,6 +4357,7 @@ nothing
 to
 do
 .
+}
 /
 /
 Discard
