@@ -893,7 +893,7 @@ principal
 loadInfo
 -
 >
-LoadingPrincipal
+TriggeringPrincipal
 (
 )
 ;
