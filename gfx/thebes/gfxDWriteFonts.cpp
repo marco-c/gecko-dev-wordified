@@ -3192,6 +3192,8 @@ aRefContext
 Spacing
 *
 aSpacing
+uint16_t
+aOrientation
 )
 {
 gfxFont
@@ -3211,6 +3213,7 @@ aEnd
 aBoundingBoxType
 aRefContext
 aSpacing
+aOrientation
 )
 ;
 /
