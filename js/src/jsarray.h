@@ -495,7 +495,6 @@ excessive
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewDenseArray
 (
 ExclusiveContext
