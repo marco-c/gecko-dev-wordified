@@ -36933,6 +36933,7 @@ Ci
 nsIDOMMouseEvent
 .
 MOZ_SOURCE_TOUCH
+false
 )
 ;
 }
