@@ -13329,12 +13329,12 @@ TabChild
 RecvTextEvent
 (
 const
-WidgetTextEvent
+WidgetCompositionEvent
 &
 event
 )
 {
-WidgetTextEvent
+WidgetCompositionEvent
 localEvent
 (
 event

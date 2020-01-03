@@ -3624,7 +3624,7 @@ mIMEComposingText
 aEvent
 -
 >
-AsTextEvent
+AsCompositionEvent
 (
 )
 -
@@ -9643,7 +9643,7 @@ textMask
 mIMEMaskTextUpdate
 )
 ;
-WidgetTextEvent
+WidgetCompositionEvent
 textEvent
 (
 true
@@ -10488,7 +10488,7 @@ Start
 }
 }
 {
-WidgetTextEvent
+WidgetCompositionEvent
 event
 (
 true
@@ -11217,7 +11217,7 @@ textMask
 mIMEMaskTextUpdate
 )
 ;
-WidgetTextEvent
+WidgetCompositionEvent
 event
 (
 true
@@ -11948,7 +11948,7 @@ kungFuDeathGrip
 this
 )
 ;
-WidgetTextEvent
+WidgetCompositionEvent
 textEvent
 (
 true

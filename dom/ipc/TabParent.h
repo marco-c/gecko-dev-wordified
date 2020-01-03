@@ -1884,7 +1884,7 @@ SendTextEvent
 mozilla
 :
 :
-WidgetTextEvent
+WidgetCompositionEvent
 &
 event
 )

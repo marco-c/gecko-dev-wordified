@@ -2057,7 +2057,7 @@ const
 mozilla
 :
 :
-WidgetTextEvent
+WidgetCompositionEvent
 &
 event
 )

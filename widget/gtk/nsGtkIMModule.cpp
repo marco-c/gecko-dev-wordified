@@ -6230,7 +6230,7 @@ mOffset
 ;
 }
 }
-WidgetTextEvent
+WidgetCompositionEvent
 textEvent
 (
 true

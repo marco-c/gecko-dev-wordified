@@ -8190,7 +8190,7 @@ TabParent
 :
 SendTextEvent
 (
-WidgetTextEvent
+WidgetCompositionEvent
 &
 event
 )

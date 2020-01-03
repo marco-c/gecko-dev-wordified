@@ -1850,7 +1850,7 @@ endif
 nsEventStatus
 status
 ;
-WidgetTextEvent
+WidgetCompositionEvent
 textEvent
 (
 true

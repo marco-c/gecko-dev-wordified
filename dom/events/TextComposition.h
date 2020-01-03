@@ -885,7 +885,7 @@ TextComposition
 *
 aComposition
 const
-WidgetTextEvent
+WidgetCompositionEvent
 *
 aTextEvent
 )
@@ -1498,7 +1498,7 @@ void
 EditorWillHandleTextEvent
 (
 const
-WidgetTextEvent
+WidgetCompositionEvent
 *
 aTextEvent
 )
@@ -1618,7 +1618,7 @@ bool
 MaybeDispatchCompositionUpdate
 (
 const
-WidgetTextEvent
+WidgetCompositionEvent
 *
 aEvent
 )
