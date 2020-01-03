@@ -101,7 +101,7 @@ utilities
 h
 "
 namespace
-sh
+gl
 {
 BlockLayoutEncoder
 :
@@ -535,12 +535,12 @@ ASSERT
 gl
 :
 :
-VariableComponentSize
+UniformComponentSize
 (
 gl
 :
 :
-VariableComponentType
+UniformComponentType
 (
 type
 )
@@ -638,7 +638,7 @@ numComponents
 gl
 :
 :
-VariableComponentCount
+UniformComponentCount
 (
 type
 )
@@ -768,7 +768,7 @@ mCurrentOffset
 gl
 :
 :
-VariableComponentCount
+UniformComponentCount
 (
 type
 )
@@ -872,12 +872,12 @@ ASSERT
 gl
 :
 :
-VariableComponentSize
+UniformComponentSize
 (
 gl
 :
 :
-VariableComponentType
+UniformComponentType
 (
 type
 )
@@ -1026,7 +1026,7 @@ numComponents
 gl
 :
 :
-VariableComponentCount
+UniformComponentCount
 (
 type
 )
@@ -1177,7 +1177,7 @@ mCurrentOffset
 gl
 :
 :
-VariableComponentCount
+UniformComponentCount
 (
 type
 )
@@ -1219,6 +1219,9 @@ HLSLVariableGetRegisterInfo
 unsigned
 int
 baseRegisterIndex
+gl
+:
+:
 Uniform
 *
 variable
@@ -1231,6 +1234,9 @@ std
 :
 vector
 <
+gl
+:
+:
 BlockMemberInfo
 >
 &
@@ -1494,6 +1500,9 @@ HLSLVariableGetRegisterInfo
 unsigned
 int
 baseRegisterIndex
+gl
+:
+:
 Uniform
 *
 variable
