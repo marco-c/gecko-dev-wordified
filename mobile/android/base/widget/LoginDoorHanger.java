@@ -1282,12 +1282,6 @@ LoginDoorHanger
 this
 )
 ;
-dialog
-.
-dismiss
-(
-)
-;
 }
 }
 )
