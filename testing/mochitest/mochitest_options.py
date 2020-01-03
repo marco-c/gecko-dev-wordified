@@ -65,6 +65,12 @@ import
 ArgumentParser
 SUPPRESS
 from
+distutils
+.
+util
+import
+strtobool
+from
 urlparse
 import
 urlparse
@@ -380,26 +386,32 @@ open
          
 {
 "
-action
+nargs
 "
 :
 "
-store_false
+?
 "
           
 "
-dest
+type
+"
+:
+strtobool
+          
+"
+const
 "
 :
 "
-closeWhenDone
+true
 "
           
 "
 default
 "
 :
-True
+None
           
 "
 help
@@ -415,6 +427,22 @@ after
 tests
 complete
 .
+Or
+always
+close
+the
+"
+                  
+"
+browser
+with
+-
+-
+keep
+-
+open
+=
+false
 "
           
 }
