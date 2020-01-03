@@ -526,7 +526,7 @@ abort
 {
 mAbortOnError
 =
-true
+abort
 ;
 }
 /
