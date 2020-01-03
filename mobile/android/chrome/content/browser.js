@@ -42063,6 +42063,7 @@ this
 .
 _formAutoCompleteService
 )
+{
 this
 .
 _formAutoCompleteService
@@ -42091,6 +42092,7 @@ Ci
 nsIFormAutoComplete
 )
 ;
+}
 let
 resultsAvailable
 =
