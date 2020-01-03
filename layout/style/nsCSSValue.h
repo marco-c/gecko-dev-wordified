@@ -5793,6 +5793,9 @@ makes
 a
 deep
 copy
+.
+Infallible
+.
 void
 CloneInto
 (
@@ -7759,6 +7762,9 @@ makes
 a
 deep
 copy
+.
+Infallible
+.
 void
 AppendToString
 (
