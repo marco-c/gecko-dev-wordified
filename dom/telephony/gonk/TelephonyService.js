@@ -6787,6 +6787,12 @@ aCallback
 }
 else
 {
+call
+.
+hangUpLocal
+=
+true
+;
 this
 .
 _sendToRilWorker
