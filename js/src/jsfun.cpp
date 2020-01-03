@@ -6163,9 +6163,6 @@ initScript
 script
 )
 ;
-types
-:
-:
 ObjectGroup
 *
 protoGroup
@@ -14377,10 +14374,10 @@ isSingleton
 &
 &
 !
-types
+ObjectGroup
 :
 :
-UseSingletonForClone
+useSingletonForClone
 (
 fun
 )

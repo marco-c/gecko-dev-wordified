@@ -650,9 +650,6 @@ baseshape
 ;
 MarkExactStackRootList
 <
-types
-:
-:
 ObjectGroup
 *
 MarkObjectGroupRoot

@@ -150,13 +150,9 @@ ScriptSourceObject
 class
 Shape
 ;
-namespace
-types
-{
-struct
+class
 ObjectGroup
 ;
-}
 /
 /
 These
@@ -199,9 +195,6 @@ JS
 :
 Handle
 <
-types
-:
-:
 ObjectGroup
 *
 >
@@ -334,9 +327,6 @@ JS
 :
 Rooted
 <
-types
-:
-:
 ObjectGroup
 *
 >

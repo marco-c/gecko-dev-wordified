@@ -14671,9 +14671,6 @@ cmpPtr
 Operand
 (
 tmp
-types
-:
-:
 ObjectGroup
 :
 :

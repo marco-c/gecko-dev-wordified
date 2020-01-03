@@ -198,6 +198,9 @@ class
 InterpreterRegs
 ;
 class
+CallObject
+;
+class
 ScopeObject
 ;
 class

@@ -426,9 +426,6 @@ t
 use
 runtimeFromAnyThread
 .
-types
-:
-:
 ObjectGroup
 *
 group

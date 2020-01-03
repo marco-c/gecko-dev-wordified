@@ -229,6 +229,9 @@ NativeObject
 class
 HeapSlot
 ;
+class
+ObjectGroup
+;
 void
 SetGCZeal
 (
@@ -257,13 +260,6 @@ namespace
 gc
 *
 /
-namespace
-types
-{
-struct
-ObjectGroup
-;
-}
 namespace
 jit
 {
@@ -708,9 +704,6 @@ slots
 typedef
 Vector
 <
-types
-:
-:
 ObjectGroup
 *
 0

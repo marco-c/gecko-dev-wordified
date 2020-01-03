@@ -3542,9 +3542,6 @@ cx
 ;
 }
 inline
-types
-:
-:
 ObjectGroup
 *
 NewObjectGroup
@@ -3563,9 +3560,6 @@ gc
 :
 AllocateNonObject
 <
-types
-:
-:
 ObjectGroup
 js
 :

@@ -515,9 +515,6 @@ ShapeVector
 typedef
 Vector
 <
-types
-:
-:
 ObjectGroup
 *
 4

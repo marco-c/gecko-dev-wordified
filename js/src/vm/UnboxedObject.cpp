@@ -3051,9 +3051,6 @@ cx
 Shape
 *
 templateShape
-types
-:
-:
 ObjectGroup
 *
 group

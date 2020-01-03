@@ -439,9 +439,6 @@ template
 struct
 MapTypeToFinalizeKind
 <
-types
-:
-:
 ObjectGroup
 >
 {

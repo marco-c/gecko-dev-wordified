@@ -2338,9 +2338,6 @@ isSingleton
 }
 else
 {
-types
-:
-:
 ObjectGroup
 *
 group
@@ -35609,9 +35606,6 @@ at
 the
 callsite
 .
-types
-:
-:
 ObjectGroup
 *
 funcGroup
@@ -37321,9 +37315,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_NEW_SCRIPT_CLEARED
 )
 )
@@ -42568,10 +42559,10 @@ ArrayObject
 *
 templateObject
 =
-types
+ObjectGroup
 :
 :
-GetCopyOnWriteObject
+getCopyOnWriteObject
 (
 script
 (
@@ -42659,9 +42650,6 @@ group
 >
 hasAnyFlags
 (
-types
-:
-:
 OBJECT_FLAG_COPY_ON_WRITE
 )
 )
@@ -43122,9 +43110,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_NON_PACKED
 )
 )
@@ -52185,9 +52170,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_TYPED_OBJECT_NEUTERED
 )
 )
@@ -61301,9 +61283,6 @@ hasObjectFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_LENGTH_OVERFLOW
 )
 )
@@ -61442,9 +61421,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_TYPED_OBJECT_NEUTERED
 )
 )
@@ -62425,9 +62401,6 @@ continue
 ;
 if
 (
-types
-:
-:
 ObjectGroup
 *
 group
@@ -64484,9 +64457,6 @@ i
 +
 )
 {
-types
-:
-:
 ObjectGroup
 *
 group
@@ -67325,9 +67295,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_TYPED_OBJECT_NEUTERED
 )
 )
@@ -67443,9 +67410,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_TYPED_OBJECT_NEUTERED
 )
 )
@@ -67563,9 +67527,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_TYPED_OBJECT_NEUTERED
 )
 )
@@ -69884,9 +69845,6 @@ GETPROP
 "
 )
 ;
-types
-:
-:
 ObjectGroup
 *
 group
@@ -71128,9 +71086,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_UNKNOWN_PROPERTIES
 )
 )
@@ -72873,9 +72828,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_TYPED_OBJECT_NEUTERED
 )
 )
@@ -73033,9 +72985,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_TYPED_OBJECT_NEUTERED
 )
 )
@@ -74137,9 +74086,6 @@ SETPROP
 "
 )
 ;
-types
-:
-:
 ObjectGroup
 *
 group
@@ -75026,9 +74972,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_REGEXP_FLAGS_SET
 )
 )
@@ -77782,9 +77725,6 @@ hasFlags
 constraints
 (
 )
-types
-:
-:
 OBJECT_FLAG_RUNONCE_INVALIDATED
 )
 )
@@ -80844,9 +80784,6 @@ i
 +
 )
 {
-types
-:
-:
 ObjectGroup
 *
 group

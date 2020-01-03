@@ -816,9 +816,6 @@ modifiesFrameArguments_
 typedef
 Vector
 <
-types
-:
-:
 ObjectGroup
 *
 0
@@ -1058,9 +1055,6 @@ nurseryObjects_
 void
 addAbortedNewScriptPropertiesGroup
 (
-types
-:
-:
 ObjectGroup
 *
 type
