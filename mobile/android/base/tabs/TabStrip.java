@@ -317,7 +317,7 @@ R
 .
 layout
 .
-tab_strip
+tab_strip_inner
 this
 )
 ;
