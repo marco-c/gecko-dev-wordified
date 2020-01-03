@@ -990,3 +990,15 @@ cursor
 pointer
 ;
 }
+.
+editor
+.
+text
+{
+display
+:
+inline
+-
+block
+;
+}
