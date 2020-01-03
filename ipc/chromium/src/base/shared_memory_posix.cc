@@ -562,7 +562,6 @@ file_util
 Delete
 (
 path
-false
 )
 ;
 }
@@ -1121,7 +1120,6 @@ file_util
 Delete
 (
 path
-false
 )
 ;
 }
