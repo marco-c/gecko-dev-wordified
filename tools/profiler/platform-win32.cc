@@ -348,13 +348,6 @@ ProfileEntry
 .
 h
 "
-#
-include
-"
-UnwinderThread2
-.
-h
-"
 /
 /
 Memory
@@ -2078,11 +2071,6 @@ sRegisteredThreads
 push_back
 (
 info
-)
-;
-uwt__register_thread_for_profiling
-(
-stackTop
 )
 ;
 return

@@ -200,6 +200,12 @@ using
 mozilla
 :
 :
+MakeUnique
+;
+using
+mozilla
+:
+:
 Maybe
 ;
 using
