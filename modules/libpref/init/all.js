@@ -16401,7 +16401,7 @@ IDN
 .
 use_whitelist
 "
-false
+true
 )
 ;
 /
@@ -55493,7 +55493,7 @@ https
 :
 /
 /
-tracking
+shavar
 .
 services
 .
@@ -55539,7 +55539,7 @@ https
 :
 /
 /
-tracking
+shavar
 .
 services
 .
