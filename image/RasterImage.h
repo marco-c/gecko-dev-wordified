@@ -1900,13 +1900,6 @@ SourceSurface
 >
 GetFrameInternal
 (
-const
-gfx
-:
-:
-IntSize
-&
-aSize
 uint32_t
 aWhichFrame
 uint32_t
