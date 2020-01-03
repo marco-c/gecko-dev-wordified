@@ -1973,6 +1973,14 @@ pipe
 )
 )
 ;
+Allow
+(
+SYSCALL
+(
+set_tid_address
+)
+)
+;
 /
 *
 Always
