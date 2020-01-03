@@ -535,8 +535,7 @@ target
 =
 0
 ;
-JSObject
-*
+bool
 getExpandoObject
 (
 JSContext
@@ -552,6 +551,11 @@ JS
 :
 HandleObject
 consumer
+JS
+:
+:
+MutableHandleObject
+expandObject
 )
 ;
 JSObject
@@ -681,8 +685,7 @@ HandleObject
 exclusiveGlobal
 )
 ;
-JSObject
-*
+bool
 getExpandoObjectInternal
 (
 JSContext
@@ -699,6 +702,11 @@ origin
 JSObject
 *
 exclusiveGlobal
+JS
+:
+:
+MutableHandleObject
+expandoObject
 )
 ;
 JSObject
