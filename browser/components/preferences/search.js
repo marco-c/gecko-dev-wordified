@@ -150,6 +150,12 @@ iconic
 "
 )
 ;
+if
+(
+e
+.
+iconURI
+)
 item
 .
 setAttribute
@@ -367,6 +373,12 @@ true
 "
 )
 ;
+if
+(
+e
+.
+iconURI
+)
 item
 .
 setAttribute
