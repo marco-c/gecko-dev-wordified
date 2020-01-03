@@ -8385,6 +8385,15 @@ delete
 ;
 }
 ;
+JSObject
+*
+NewMemoryStatisticsObject
+(
+JSContext
+*
+cx
+)
+;
 }
 /
 *

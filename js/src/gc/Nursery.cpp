@@ -5394,6 +5394,15 @@ rt
 >
 gc
 .
+incMinorGcNumber
+(
+)
+;
+rt
+-
+>
+gc
+.
 stats
 .
 count
