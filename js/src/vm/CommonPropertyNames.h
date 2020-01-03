@@ -1833,6 +1833,15 @@ super
 \
 macro
 (
+target
+target
+"
+target
+"
+)
+\
+macro
+(
 test
 test
 "
