@@ -2458,6 +2458,9 @@ promise
 .
 reject
 (
+new
+Error
+(
 "
 Can
 '
@@ -2470,6 +2473,7 @@ device
 this
 .
 name
+)
 )
 ;
 }
@@ -2720,6 +2724,9 @@ promise
 .
 reject
 (
+new
+Error
+(
 "
 Can
 '
@@ -2732,6 +2739,7 @@ device
 this
 .
 name
+)
 )
 ;
 }
@@ -2877,6 +2885,9 @@ promise
 .
 reject
 (
+new
+Error
+(
 "
 Can
 '
@@ -2889,6 +2900,7 @@ simulator
 this
 .
 name
+)
 )
 ;
 }
@@ -3132,6 +3144,16 @@ promise
 .
 reject
 (
+new
+Error
+(
+"
+No
+WebIDE
+window
+found
+"
+)
 )
 ;
 }
@@ -3247,6 +3269,16 @@ promise
 .
 reject
 (
+new
+Error
+(
+"
+Invalid
+host
+or
+port
+"
+)
 )
 ;
 }
