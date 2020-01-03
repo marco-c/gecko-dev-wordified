@@ -882,9 +882,12 @@ crashed
 Notify
 (
 NotificationType
+(
+NotificationType
 :
 :
 CHILD_PROCESS_CRASHED
+)
 )
 ;
 }
@@ -902,9 +905,12 @@ disconnection
 Notify
 (
 NotificationType
+(
+NotificationType
 :
 :
 CHILD_PROCESS_HOST_DISCONNECTED
+)
 )
 ;
 #
