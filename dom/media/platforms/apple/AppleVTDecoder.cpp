@@ -1005,9 +1005,12 @@ data
 "
 )
 ;
-return
+image
+=
+nullptr
 ;
 }
+else
 if
 (
 flags
@@ -1032,6 +1035,8 @@ dropped
 )
 ;
 }
+else
+{
 MOZ_ASSERT
 (
 CFGetTypeID
@@ -1053,6 +1058,7 @@ type
 "
 )
 ;
+}
 nsCOMPtr
 <
 nsIRunnable
@@ -1456,6 +1462,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+mQueuedSamples
++
++
+;
 VTDecodeFrameFlags
 decodeFlags
 =
@@ -1540,6 +1550,12 @@ if
 (
 !
 mInputIncoming
+&
+&
+mQueuedSamples
+<
+=
+mMaxRefFrames
 )
 {
 LOG
