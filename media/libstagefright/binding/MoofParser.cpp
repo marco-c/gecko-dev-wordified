@@ -3130,6 +3130,7 @@ mIndex
 SetCapacity
 (
 sampleCount
+fallible
 )
 )
 {
@@ -3400,6 +3401,19 @@ sampleFlags
 |
 aIsAudio
 ;
+/
+/
+FIXME
+:
+Make
+this
+infallible
+after
+bug
+968520
+is
+done
+.
 MOZ_ALWAYS_TRUE
 (
 mIndex
@@ -3407,6 +3421,7 @@ mIndex
 AppendElement
 (
 sample
+fallible
 )
 )
 ;

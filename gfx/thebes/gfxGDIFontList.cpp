@@ -1325,6 +1325,7 @@ aBuffer
 SetLength
 (
 tableSize
+fallible
 )
 )
 {
@@ -5784,6 +5785,7 @@ nameData
 SetLength
 (
 nameSize
+fallible
 )
 )
 {
@@ -6050,6 +6052,7 @@ cmapData
 SetLength
 (
 cmapSize
+fallible
 )
 )
 {

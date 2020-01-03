@@ -1857,6 +1857,7 @@ SetLength
 length
 +
 1
+fallible
 )
 )
 {
@@ -2354,6 +2355,7 @@ aBuffer
 SetLength
 (
 tableSize
+fallible
 )
 )
 {
@@ -2498,6 +2500,7 @@ aBuffer
 SetLength
 (
 len
+fallible
 )
 )
 {
@@ -6609,6 +6612,7 @@ SetLength
 length
 +
 1
+fallible
 )
 )
 {
@@ -6844,6 +6848,7 @@ SetLength
 nameLen
 +
 1
+fallible
 )
 )
 {
@@ -7983,6 +7988,7 @@ SetLength
 length
 +
 1
+fallible
 )
 )
 {
@@ -8823,6 +8829,7 @@ SetLength
 len
 +
 1
+fallible
 )
 ;
 memcpy

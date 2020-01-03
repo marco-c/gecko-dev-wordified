@@ -1396,6 +1396,7 @@ aIndex
 Length
 (
 )
+fallible
 )
 )
 {
@@ -1478,6 +1479,19 @@ indice
 .
 sync
 ;
+/
+/
+FIXME
+:
+Make
+this
+infallible
+after
+bug
+968520
+is
+done
+.
 MOZ_ALWAYS_TRUE
 (
 mIndex
@@ -1485,6 +1499,7 @@ mIndex
 AppendElement
 (
 sample
+fallible
 )
 )
 ;
