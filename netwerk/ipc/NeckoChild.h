@@ -174,12 +174,6 @@ InitNeckoChild
 (
 )
 ;
-static
-void
-DestroyNeckoChild
-(
-)
-;
 protected
 :
 virtual

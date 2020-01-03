@@ -1427,7 +1427,7 @@ SetupTransaction
 )
 ;
 void
-SetupTransactionLoadGroupInfo
+SetupTransactionSchedulingContext
 (
 )
 ;
