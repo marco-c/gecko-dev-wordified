@@ -500,7 +500,7 @@ CanvasLayerComposite
 RenderLayer
 (
 const
-nsIntRect
+IntRect
 &
 aClipRect
 )

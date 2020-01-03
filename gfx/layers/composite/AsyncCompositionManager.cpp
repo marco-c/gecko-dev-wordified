@@ -421,7 +421,13 @@ h
 /
 /
 for
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 #
 include
 "
@@ -596,7 +602,7 @@ bool
 ContentMightReflowOnOrientationChange
 (
 const
-nsIntRect
+IntRect
 &
 rect
 )

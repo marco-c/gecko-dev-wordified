@@ -916,7 +916,7 @@ BeginBigImageIteration
 ;
 do
 {
-nsIntRect
+IntRect
 tileRect
 =
 it
@@ -2257,4 +2257,12 @@ get
 #
 endif
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

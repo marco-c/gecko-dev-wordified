@@ -402,7 +402,13 @@ h
 /
 /
 for
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 #
 include
 "
@@ -754,7 +760,10 @@ TopLeft
 mBufferRotation
 ;
 }
-nsIntRect
+gfx
+:
+:
+IntRect
 mBufferRect
 ;
 nsIntPoint
