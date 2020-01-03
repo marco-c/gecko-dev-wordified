@@ -2316,6 +2316,14 @@ Key_Paste
 )
 /
 /
+Redo
+KEY_MAP_GTK
+(
+Redo
+GDK_Redo
+)
+/
+/
 Undo
 KEY_MAP_GTK
 (
