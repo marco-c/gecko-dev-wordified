@@ -1004,20 +1004,6 @@ START_ASSERT_SAME_COMPARTMENT
 \
 if
 (
-!
-cx
--
->
-isExclusiveContext
-(
-)
-)
-\
-return
-;
-\
-if
-(
 cx
 -
 >
@@ -1051,11 +1037,6 @@ CompartmentChecker
 c
 (
 cx
--
->
-asExclusiveContext
-(
-)
 )
 template
 <
@@ -1066,7 +1047,7 @@ inline
 void
 assertSameCompartment
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -1101,7 +1082,7 @@ inline
 void
 assertSameCompartmentDebugOnly
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -1147,7 +1128,7 @@ inline
 void
 assertSameCompartment
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -1197,7 +1178,7 @@ inline
 void
 assertSameCompartment
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -1260,7 +1241,7 @@ inline
 void
 assertSameCompartment
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -1336,7 +1317,7 @@ inline
 void
 assertSameCompartment
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -2174,7 +2155,7 @@ inline
 uintptr_t
 GetNativeStackLimit
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 )
