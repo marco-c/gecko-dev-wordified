@@ -146,7 +146,7 @@ include
 "
 jit
 /
-ValueNumbering
+RangeAnalysis
 .
 h
 "
@@ -155,7 +155,7 @@ include
 "
 jit
 /
-RangeAnalysis
+ValueNumbering
 .
 h
 "
