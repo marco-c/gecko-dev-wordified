@@ -379,11 +379,7 @@ and
 update
 information
 .
-Must
-own
-lock
-.
-void
+bool
 ScanSourceBuffersForContent
 (
 )
