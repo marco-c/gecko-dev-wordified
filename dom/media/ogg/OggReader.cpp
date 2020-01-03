@@ -12988,13 +12988,6 @@ GetBuffered
 (
 )
 {
-MOZ_ASSERT
-(
-OnTaskQueue
-(
-)
-)
-;
 NS_ENSURE_TRUE
 (
 mStartTime

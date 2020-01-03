@@ -354,12 +354,14 @@ GetBuffered
 )
 override
 ;
-protected
-:
 virtual
 void
-NotifyDataArrivedInternal
+NotifyDataArrived
 (
+const
+char
+*
+aBuffer
 uint32_t
 aLength
 int64_t
@@ -367,8 +369,6 @@ aOffset
 )
 override
 ;
-public
-:
 virtual
 bool
 HasAudio

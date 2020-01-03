@@ -740,7 +740,7 @@ void
 Parse
 (
 const
-uint8_t
+char
 *
 aBuffer
 uint32_t
