@@ -5882,16 +5882,6 @@ sas
 cx
 stack
 asyncCause
-JS
-:
-:
-AutoSetAsyncStackForNewCalls
-:
-:
-AsyncCallKind
-:
-:
-EXPLICIT
 )
 ;
 return

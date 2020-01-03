@@ -674,8 +674,7 @@ asyncParent
 .
 asyncCause
 "
-promise
-callback
+Promise
 "
 "
 Async
