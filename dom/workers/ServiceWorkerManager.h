@@ -1072,6 +1072,16 @@ MOZ_ASSERT
 mRegistration
 )
 ;
+MOZ_ASSERT
+(
+!
+aCacheName
+.
+IsEmpty
+(
+)
+)
+;
 }
 ServiceWorkerState
 State
