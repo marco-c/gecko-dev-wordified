@@ -1780,6 +1780,14 @@ return
 }
 this
 .
+driver
+.
+responseCompleted
+(
+)
+;
+this
+.
 sendRaw
 (
 "
