@@ -1863,8 +1863,6 @@ aRect
 height
 )
 ;
-mTextureInfo
-.
 mTextureFlags
 =
 TextureFlagsForRotatedContentBufferFlags
@@ -1879,8 +1877,6 @@ aFlags
 BUFFER_COMPONENT_ALPHA
 )
 {
-mTextureInfo
-.
 mTextureFlags
 |
 =
@@ -1936,8 +1932,6 @@ BackendType
 :
 :
 NONE
-mTextureInfo
-.
 mTextureFlags
 TextureAllocationFlags
 :
@@ -1967,8 +1961,6 @@ return
 }
 if
 (
-mTextureInfo
-.
 mTextureFlags
 &
 TextureFlags
@@ -1984,8 +1976,6 @@ mTextureClient
 >
 CreateSimilar
 (
-mTextureInfo
-.
 mTextureFlags
 TextureAllocationFlags
 :

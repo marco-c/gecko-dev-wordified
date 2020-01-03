@@ -364,8 +364,6 @@ aFwd
 aFlags
 )
 {
-mTextureInfo
-.
 mTextureFlags
 =
 aFlags
@@ -409,11 +407,6 @@ Updated
 )
 {
 }
-protected
-:
-TextureInfo
-mTextureInfo
-;
 }
 ;
 /
@@ -472,6 +465,7 @@ CompositableType
 :
 :
 IMAGE
+mTextureFlags
 )
 ;
 }
@@ -515,8 +509,6 @@ MOZ_OVERRIDE
 MOZ_ASSERT
 (
 (
-mTextureInfo
-.
 mTextureFlags
 &
 aTexture
@@ -528,8 +520,6 @@ GetFlags
 )
 =
 =
-mTextureInfo
-.
 mTextureFlags
 )
 ;

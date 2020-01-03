@@ -1433,6 +1433,13 @@ TextureInfo
 (
 CompositableType
 aType
+TextureFlags
+aTextureFlags
+=
+TextureFlags
+:
+:
+DEFAULT
 )
 :
 mCompositableType
@@ -1448,10 +1455,7 @@ DEFAULT
 )
 mTextureFlags
 (
-TextureFlags
-:
-:
-NO_FLAGS
+aTextureFlags
 )
 {
 }
