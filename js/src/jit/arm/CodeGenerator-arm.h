@@ -1519,6 +1519,14 @@ generateInvalidateEpilogue
 (
 )
 ;
+void
+visitRandom
+(
+LRandom
+*
+ins
+)
+;
 protected
 :
 void

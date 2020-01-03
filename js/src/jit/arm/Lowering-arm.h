@@ -798,6 +798,14 @@ MSubstr
 ins
 )
 ;
+void
+visitRandom
+(
+MRandom
+*
+ins
+)
+;
 }
 ;
 typedef

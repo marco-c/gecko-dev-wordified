@@ -1639,14 +1639,6 @@ lir
 )
 ;
 void
-visitRandom
-(
-LRandom
-*
-lir
-)
-;
-void
 visitMathFunctionD
 (
 LMathFunctionD

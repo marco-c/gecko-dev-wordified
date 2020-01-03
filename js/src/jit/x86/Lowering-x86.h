@@ -499,6 +499,14 @@ ins
 )
 ;
 void
+visitRandom
+(
+MRandom
+*
+ins
+)
+;
+void
 lowerPhi
 (
 MPhi
