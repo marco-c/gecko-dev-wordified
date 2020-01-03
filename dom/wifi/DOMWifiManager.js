@@ -1288,8 +1288,14 @@ aNetworks
 let
 networks
 =
-[
-]
+new
+this
+.
+_window
+.
+Array
+(
+)
 ;
 for
 (
