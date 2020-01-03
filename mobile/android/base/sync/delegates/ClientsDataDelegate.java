@@ -121,6 +121,12 @@ String
 guid
 )
 ;
+public
+String
+getFormFactor
+(
+)
+;
 /
 *
 *
