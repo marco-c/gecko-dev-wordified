@@ -1200,9 +1200,7 @@ mSkip
 ;
 /
 /
-Number
-of
-samples
+Samples
 left
 to
 trim
@@ -1214,13 +1212,9 @@ mSeekPreroll
 ;
 /
 /
-Number
-of
-nanoseconds
-that
-must
-be
-discarded
+Nanoseconds
+to
+discard
 after
 seeking
 .
