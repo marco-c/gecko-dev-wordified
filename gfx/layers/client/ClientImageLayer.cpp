@@ -756,7 +756,7 @@ flags
 TextureFlags
 :
 :
-FRONT
+DEFAULT
 ;
 if
 (

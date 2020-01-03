@@ -3677,10 +3677,6 @@ destDTBufferOnWhite
 uint32_t
 bufferFlags
 =
-canHaveRotation
-?
-ALLOW_REPEAT
-:
 0
 ;
 if
