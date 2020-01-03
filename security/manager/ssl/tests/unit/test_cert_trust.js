@@ -272,6 +272,7 @@ verifyCertNow
 cert
 usage
 NO_FLAGS
+null
 verifiedChain
 hasEVPolicy
 )

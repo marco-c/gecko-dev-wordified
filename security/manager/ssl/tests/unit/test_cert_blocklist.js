@@ -1231,6 +1231,7 @@ verifyCertNow
 ee
 certificateUsageSSLServer
 NO_FLAGS
+null
 {
 }
 {

@@ -307,7 +307,7 @@ pinning
 example
 .
 com
-services
+serves
 an
 incorrect
 cert
@@ -318,7 +318,7 @@ TODO
 :
 test
 using
-verifyCertnow
+verifyCertNow
 )
 /
 /

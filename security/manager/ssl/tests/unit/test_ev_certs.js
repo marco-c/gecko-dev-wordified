@@ -424,6 +424,7 @@ verifyCertNow
 cert
 certificateUsageSSLServer
 NO_FLAGS
+null
 verifiedChain
 hasEVPolicy
 )
@@ -475,6 +476,7 @@ verifyCertNow
 cert
 certificateUsageSSLServer
 NO_FLAGS
+null
 verifiedChain
 hasEVPolicy
 )
@@ -1671,6 +1673,7 @@ verifyCertNow
 cert
 certificateUsageSSLServer
 flags
+null
 verifiedChain
 hasEVPolicy
 )
@@ -2302,6 +2305,7 @@ verifyCertNow
 cert
 certificateUsageSSLServer
 flags
+null
 verifiedChain
 hasEVPolicy
 )

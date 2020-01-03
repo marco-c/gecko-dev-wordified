@@ -300,6 +300,7 @@ verifyCertNow
 ee
 certificateUsageSSLServer
 NO_FLAGS
+null
 verifiedChain
 hasEVPolicy
 )
@@ -395,6 +396,7 @@ verifyCertNow
 ee
 certificateUsageSSLServer
 NO_FLAGS
+null
 verifiedChain
 hasEVPolicy
 )

@@ -1409,6 +1409,7 @@ Ci
 nsIX509CertDB
 .
 LOCAL_ONLY
+null
 {
 }
 {
