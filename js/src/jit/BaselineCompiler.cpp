@@ -1670,6 +1670,9 @@ toggleSPS
 true
 )
 ;
+#
+ifdef
+JS_TRACE_LOGGING
 /
 /
 Initialize
@@ -1691,6 +1694,8 @@ runtime
 script
 )
 ;
+#
+endif
 uint32_t
 *
 bytecodeMap
@@ -2801,6 +2806,9 @@ bind
 earlyStackCheckFailed
 )
 ;
+#
+ifdef
+JS_TRACE_LOGGING
 if
 (
 !
@@ -2811,6 +2819,8 @@ emitTraceLoggerEnter
 return
 false
 ;
+#
+endif
 /
 /
 Record
@@ -5141,6 +5151,9 @@ return
 true
 ;
 }
+#
+ifdef
+JS_TRACE_LOGGING
 bool
 BaselineCompiler
 :
@@ -5452,6 +5465,8 @@ return
 true
 ;
 }
+#
+endif
 bool
 BaselineCompiler
 :
