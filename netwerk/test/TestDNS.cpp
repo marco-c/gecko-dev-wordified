@@ -209,6 +209,7 @@ rec
 nsresult
 status
 )
+MOZ_OVERRIDE
 {
 printf
 (
