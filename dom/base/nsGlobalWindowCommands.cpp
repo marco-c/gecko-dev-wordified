@@ -863,7 +863,6 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCommandStateParams
@@ -879,7 +878,6 @@ nsISupports
 *
 aCommandContext
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoCommandParams
@@ -895,7 +893,6 @@ nsISupports
 *
 aCommandContext
 )
-MOZ_OVERRIDE
 ;
 protected
 :

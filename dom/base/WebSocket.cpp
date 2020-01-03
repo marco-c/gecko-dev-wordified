@@ -10685,7 +10685,6 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
 {
 mWebSocketImpl
 -

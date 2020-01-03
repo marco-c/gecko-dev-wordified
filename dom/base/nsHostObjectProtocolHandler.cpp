@@ -389,7 +389,6 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
 {
 return
 MOZ_COLLECT_REPORT
@@ -472,7 +471,6 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
 {
 EnumArg
 env

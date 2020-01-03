@@ -19045,7 +19045,6 @@ OnRedirectVerifyCallback
 nsresult
 result
 )
-MOZ_OVERRIDE
 {
 mXHR
 -

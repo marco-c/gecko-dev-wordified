@@ -994,7 +994,6 @@ Element
 *
 aTo
 )
-MOZ_OVERRIDE
 {
 mTo
 =
@@ -1006,7 +1005,6 @@ void
 Clear
 (
 )
-MOZ_OVERRIDE
 {
 Notification
 :
@@ -1113,7 +1111,6 @@ Element
 *
 aTo
 )
-MOZ_OVERRIDE
 {
 }
 nsString

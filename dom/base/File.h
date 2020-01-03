@@ -2123,7 +2123,6 @@ IsFile
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 mIsFile
@@ -2185,7 +2184,6 @@ IsSizeUnknown
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 mLength
@@ -2199,7 +2197,6 @@ void
 Unlink
 (
 )
-MOZ_OVERRIDE
 {
 }
 virtual
@@ -2210,7 +2207,6 @@ nsCycleCollectionTraversalCallback
 &
 aCb
 )
-MOZ_OVERRIDE
 {
 }
 protected

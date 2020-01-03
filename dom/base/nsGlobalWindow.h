@@ -2022,7 +2022,6 @@ JSObject
 GetGlobalJSObject
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2053,7 +2052,6 @@ nsresult
 EnsureScriptEnvironment
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsIScriptContext
@@ -2061,7 +2059,6 @@ nsIScriptContext
 GetScriptContext
 (
 )
-MOZ_OVERRIDE
 ;
 void
 PoisonOuterWindowProxy
@@ -2080,7 +2077,6 @@ aTracingNeeded
 =
 true
 )
-MOZ_OVERRIDE
 ;
 static
 JSObject
@@ -2110,7 +2106,6 @@ nsIPrincipal
 GetPrincipal
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2235,7 +2230,6 @@ nsPIDOMWindow
 GetPrivateRoot
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2250,7 +2244,6 @@ ActivateOrDeactivate
 bool
 aActivate
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2259,7 +2252,6 @@ SetActive
 bool
 aActive
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2268,7 +2260,6 @@ SetIsBackground
 bool
 aIsBackground
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2284,7 +2275,6 @@ EventTarget
 *
 aChromeEventHandler
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2297,7 +2287,6 @@ void
 SetInitialPrincipalToSubject
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 PopupControlState
@@ -2309,7 +2298,6 @@ bool
 aForce
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2319,7 +2307,6 @@ PopupControlState
 state
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 PopupControlState
@@ -2327,7 +2314,6 @@ GetPopupControlState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -2337,7 +2323,6 @@ nsISupports
 SaveWindowState
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -2347,7 +2332,6 @@ nsISupports
 *
 aState
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2362,7 +2346,6 @@ aFreezeChildren
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -2373,21 +2356,18 @@ aThawChildren
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 TimeoutSuspendCount
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
 FireDelayedDOMEvents
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -2395,7 +2375,6 @@ IsFrozen
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 mIsFrozen
@@ -2406,7 +2385,6 @@ bool
 IsRunningTimeout
 (
 )
-MOZ_OVERRIDE
 {
 return
 mTimeoutFiringDepth
@@ -2428,7 +2406,6 @@ nsIDocument
 *
 aNewDocument
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2438,14 +2415,12 @@ nsIDocShell
 *
 aDocShell
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 DetachFromDocShell
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -2460,7 +2435,6 @@ aState
 bool
 aForceReuseInnerWindow
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2483,7 +2457,6 @@ aOpener
 bool
 aOriginalOpener
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2496,21 +2469,18 @@ void
 EnsureSizeUpToDate
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 EnterModalState
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 LeaveModalState
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2523,28 +2493,24 @@ bool
 CanClose
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 ForceClose
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 MaybeUpdateTouchState
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 UpdateTouchState
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2561,7 +2527,6 @@ nsAString
 &
 aEventName
 )
-MOZ_OVERRIDE
 ;
 bool
 DispatchResizeEvent
@@ -2586,7 +2551,6 @@ void
 RefreshCompartmentPrincipal
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2614,7 +2578,6 @@ aHMD
 =
 nullptr
 )
-MOZ_OVERRIDE
 ;
 bool
 FullScreen
@@ -2637,7 +2600,6 @@ aHasGamepad
 =
 true
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -3409,7 +3371,6 @@ nsXBLPrototypeHandler
 *
 aKey
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3428,7 +3389,6 @@ JSObject
 >
 aHandler
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -3439,21 +3399,18 @@ aFocus
 uint32_t
 aFocusMethod
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 SetReadyForFocus
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 PageHidden
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3466,14 +3423,12 @@ nsIURI
 *
 aNewURI
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
 DispatchSyncPopState
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -3488,7 +3443,6 @@ EnableDeviceSensor
 uint32_t
 aType
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3497,21 +3451,18 @@ DisableDeviceSensor
 uint32_t
 aType
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 EnableTimeChangeNotifications
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 DisableTimeChangeNotifications
 (
 )
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -3529,7 +3480,6 @@ EnableNetworkEvent
 uint32_t
 aType
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3538,7 +3488,6 @@ DisableNetworkEvent
 uint32_t
 aType
 )
-MOZ_OVERRIDE
 ;
 #
 endif
@@ -3553,7 +3502,6 @@ nsIArray
 *
 aArguments
 )
-MOZ_OVERRIDE
 ;
 void
 MaybeForgiveSpamCount
@@ -3606,7 +3554,6 @@ uint32_t
 GetSerial
 (
 )
-MOZ_OVERRIDE
 {
 return
 mSerial
@@ -7213,7 +7160,6 @@ nsIDOMWindow
 *
 _retval
 )
-MOZ_OVERRIDE
 ;
 private
 :
@@ -7705,7 +7651,6 @@ int32_t
 *
 aReturn
 )
-MOZ_OVERRIDE
 ;
 int32_t
 SetTimeoutOrInterval
@@ -7788,7 +7733,6 @@ ClearTimeoutOrInterval
 int32_t
 aTimerID
 )
-MOZ_OVERRIDE
 {
 mozilla
 :
@@ -8083,7 +8027,6 @@ nsIIdleObserver
 *
 aIdleObserverPtr
 )
-MOZ_OVERRIDE
 ;
 nsresult
 FindIndexOfElementToRemove
@@ -8104,7 +8047,6 @@ nsIIdleObserver
 *
 aIdleObserverPtr
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -8605,21 +8547,18 @@ aNeedsFocus
 =
 false
 )
-MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 GetFocusMethod
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
 ShouldShowFocusRing
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -8630,7 +8569,6 @@ aShowAccelerators
 UIStateChangeType
 aShowFocusRings
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -8643,7 +8581,6 @@ bool
 *
 aShowFocusRings
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -8721,7 +8658,6 @@ void
 UpdateParentTarget
 (
 )
-MOZ_OVERRIDE
 ;
 inline
 int32_t

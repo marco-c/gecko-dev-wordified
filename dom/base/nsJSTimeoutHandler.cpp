@@ -344,7 +344,6 @@ char16_t
 GetHandlerText
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 Function
@@ -352,7 +351,6 @@ Function
 GetCallback
 (
 )
-MOZ_OVERRIDE
 {
 return
 mFunction
@@ -371,7 +369,6 @@ uint32_t
 *
 aLineNo
 )
-MOZ_OVERRIDE
 {
 *
 aFileName
@@ -401,7 +398,6 @@ Value
 GetArgs
 (
 )
-MOZ_OVERRIDE
 {
 return
 mArgs

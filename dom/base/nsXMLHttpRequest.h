@@ -873,7 +873,6 @@ void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -1431,7 +1430,6 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
 ;
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (

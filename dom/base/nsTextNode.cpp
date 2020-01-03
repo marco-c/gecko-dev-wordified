@@ -316,7 +316,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -331,7 +330,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
@@ -353,7 +351,6 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
 {
 already_AddRefed
 <

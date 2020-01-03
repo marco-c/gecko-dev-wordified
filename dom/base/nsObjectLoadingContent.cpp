@@ -2058,7 +2058,6 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2070,7 +2069,6 @@ nsITimer
 *
 timer
 )
-MOZ_OVERRIDE
 ;
 protected
 :
