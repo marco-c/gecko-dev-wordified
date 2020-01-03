@@ -192,6 +192,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
+MOZ_OVERRIDE
 {
 return
 mPrincipal
@@ -203,8 +204,8 @@ JSObject
 GetGlobalJSObject
 (
 )
+MOZ_OVERRIDE
 ;
-virtual
 void
 ForgetGlobalObject
 (
@@ -215,7 +216,6 @@ mWrapper
 nullptr
 ;
 }
-virtual
 void
 SetGlobalObject
 (

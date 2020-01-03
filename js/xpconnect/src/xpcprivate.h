@@ -2663,6 +2663,7 @@ bool
 allowShortCircuit
 )
 const
+MOZ_OVERRIDE
 ;
 void
 RecordTraversal
@@ -2687,6 +2688,7 @@ showLocals
 bool
 showThisProps
 )
+MOZ_OVERRIDE
 ;
 static
 bool
@@ -15284,6 +15286,7 @@ DebugDump
 int16_t
 depth
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -15794,6 +15797,7 @@ nsXPTCMiniVariant
 *
 params
 )
+MOZ_OVERRIDE
 ;
 /
 *
