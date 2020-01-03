@@ -21835,11 +21835,11 @@ nsTArray
 <
 LookAndFeelInt
 >
-&
-&
+*
 aLookAndFeelIntCache
 )
 {
+*
 aLookAndFeelIntCache
 =
 LookAndFeel
