@@ -2497,8 +2497,9 @@ const
 ExceptionBailoutInfo
 *
 exceptionInfo
-=
-nullptr
+bool
+*
+poppedLastSPSFrame
 )
 ;
 /
