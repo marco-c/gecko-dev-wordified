@@ -11878,7 +11878,7 @@ cc
 )
 ;
 }
-bool
+void
 MacroAssemblerARMCompat
 :
 :
@@ -12039,9 +12039,6 @@ offsetBeforePush
 offset
 =
 pseudoReturnOffset
-;
-return
-true
 ;
 }
 bool

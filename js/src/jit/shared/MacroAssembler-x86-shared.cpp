@@ -1169,7 +1169,7 @@ markSafepointAt
 (
 )
 .
-bool
+void
 MacroAssemblerX86Shared
 :
 :
@@ -1265,7 +1265,6 @@ Size
 )
 )
 ;
-return
 addCodeLabel
 (
 cl

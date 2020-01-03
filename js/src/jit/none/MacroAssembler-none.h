@@ -4802,7 +4802,7 @@ MOZ_CRASH
 }
 #
 endif
-bool
+void
 buildFakeExitFrame
 (
 Register

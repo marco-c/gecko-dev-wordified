@@ -309,7 +309,7 @@ CodeGenerator
 public
 CodeGeneratorSpecific
 {
-bool
+void
 generateArgumentsChecks
 (
 bool
@@ -374,7 +374,7 @@ CompilerConstraintList
 constraints
 )
 ;
-bool
+void
 visitLabel
 (
 LLabel
@@ -382,7 +382,7 @@ LLabel
 lir
 )
 ;
-bool
+void
 visitNop
 (
 LNop
@@ -390,7 +390,7 @@ LNop
 lir
 )
 ;
-bool
+void
 visitOsiPoint
 (
 LOsiPoint
@@ -398,7 +398,7 @@ LOsiPoint
 lir
 )
 ;
-bool
+void
 visitGoto
 (
 LGoto
@@ -406,7 +406,7 @@ LGoto
 lir
 )
 ;
-bool
+void
 visitTableSwitch
 (
 LTableSwitch
@@ -414,7 +414,7 @@ LTableSwitch
 ins
 )
 ;
-bool
+void
 visitTableSwitchV
 (
 LTableSwitchV
@@ -422,7 +422,7 @@ LTableSwitchV
 ins
 )
 ;
-bool
+void
 visitCloneLiteral
 (
 LCloneLiteral
@@ -430,7 +430,7 @@ LCloneLiteral
 lir
 )
 ;
-bool
+void
 visitParameter
 (
 LParameter
@@ -438,7 +438,7 @@ LParameter
 lir
 )
 ;
-bool
+void
 visitCallee
 (
 LCallee
@@ -446,7 +446,7 @@ LCallee
 lir
 )
 ;
-bool
+void
 visitIsConstructing
 (
 LIsConstructing
@@ -454,7 +454,7 @@ LIsConstructing
 lir
 )
 ;
-bool
+void
 visitStart
 (
 LStart
@@ -462,7 +462,7 @@ LStart
 lir
 )
 ;
-bool
+void
 visitReturn
 (
 LReturn
@@ -470,7 +470,7 @@ LReturn
 ret
 )
 ;
-bool
+void
 visitDefVar
 (
 LDefVar
@@ -478,7 +478,7 @@ LDefVar
 lir
 )
 ;
-bool
+void
 visitDefFun
 (
 LDefFun
@@ -486,7 +486,7 @@ LDefFun
 lir
 )
 ;
-bool
+void
 visitOsrEntry
 (
 LOsrEntry
@@ -494,7 +494,7 @@ LOsrEntry
 lir
 )
 ;
-bool
+void
 visitOsrScopeChain
 (
 LOsrScopeChain
@@ -502,7 +502,7 @@ LOsrScopeChain
 lir
 )
 ;
-bool
+void
 visitOsrValue
 (
 LOsrValue
@@ -510,7 +510,7 @@ LOsrValue
 lir
 )
 ;
-bool
+void
 visitOsrReturnValue
 (
 LOsrReturnValue
@@ -518,7 +518,7 @@ LOsrReturnValue
 lir
 )
 ;
-bool
+void
 visitOsrArgumentsObject
 (
 LOsrArgumentsObject
@@ -526,7 +526,7 @@ LOsrArgumentsObject
 lir
 )
 ;
-bool
+void
 visitStackArgT
 (
 LStackArgT
@@ -534,7 +534,7 @@ LStackArgT
 lir
 )
 ;
-bool
+void
 visitStackArgV
 (
 LStackArgV
@@ -542,7 +542,7 @@ LStackArgV
 lir
 )
 ;
-bool
+void
 visitMoveGroup
 (
 LMoveGroup
@@ -550,7 +550,7 @@ LMoveGroup
 group
 )
 ;
-bool
+void
 visitValueToInt32
 (
 LValueToInt32
@@ -558,7 +558,7 @@ LValueToInt32
 lir
 )
 ;
-bool
+void
 visitValueToDouble
 (
 LValueToDouble
@@ -566,7 +566,7 @@ LValueToDouble
 lir
 )
 ;
-bool
+void
 visitValueToFloat32
 (
 LValueToFloat32
@@ -574,7 +574,7 @@ LValueToFloat32
 lir
 )
 ;
-bool
+void
 visitFloat32ToDouble
 (
 LFloat32ToDouble
@@ -582,7 +582,7 @@ LFloat32ToDouble
 lir
 )
 ;
-bool
+void
 visitDoubleToFloat32
 (
 LDoubleToFloat32
@@ -590,7 +590,7 @@ LDoubleToFloat32
 lir
 )
 ;
-bool
+void
 visitInt32ToFloat32
 (
 LInt32ToFloat32
@@ -598,7 +598,7 @@ LInt32ToFloat32
 lir
 )
 ;
-bool
+void
 visitInt32ToDouble
 (
 LInt32ToDouble
@@ -621,7 +621,7 @@ Register
 scratch
 )
 ;
-bool
+void
 visitTestOAndBranch
 (
 LTestOAndBranch
@@ -629,7 +629,7 @@ LTestOAndBranch
 lir
 )
 ;
-bool
+void
 visitTestVAndBranch
 (
 LTestVAndBranch
@@ -637,7 +637,7 @@ LTestVAndBranch
 lir
 )
 ;
-bool
+void
 visitFunctionDispatch
 (
 LFunctionDispatch
@@ -645,7 +645,7 @@ LFunctionDispatch
 lir
 )
 ;
-bool
+void
 visitTypeObjectDispatch
 (
 LTypeObjectDispatch
@@ -653,7 +653,7 @@ LTypeObjectDispatch
 lir
 )
 ;
-bool
+void
 visitBooleanToString
 (
 LBooleanToString
@@ -673,7 +673,7 @@ Label
 ool
 )
 ;
-bool
+void
 visitIntToString
 (
 LIntToString
@@ -681,7 +681,7 @@ LIntToString
 lir
 )
 ;
-bool
+void
 visitDoubleToString
 (
 LDoubleToString
@@ -689,7 +689,7 @@ LDoubleToString
 lir
 )
 ;
-bool
+void
 visitValueToString
 (
 LValueToString
@@ -697,7 +697,7 @@ LValueToString
 lir
 )
 ;
-bool
+void
 visitValueToObjectOrNull
 (
 LValueToObjectOrNull
@@ -705,7 +705,7 @@ LValueToObjectOrNull
 lir
 )
 ;
-bool
+void
 visitInteger
 (
 LInteger
@@ -713,7 +713,7 @@ LInteger
 lir
 )
 ;
-bool
+void
 visitRegExp
 (
 LRegExp
@@ -721,7 +721,7 @@ LRegExp
 lir
 )
 ;
-bool
+void
 visitRegExpExec
 (
 LRegExpExec
@@ -729,7 +729,7 @@ LRegExpExec
 lir
 )
 ;
-bool
+void
 visitOutOfLineRegExpExec
 (
 OutOfLineRegExpExec
@@ -737,7 +737,7 @@ OutOfLineRegExpExec
 ool
 )
 ;
-bool
+void
 visitRegExpTest
 (
 LRegExpTest
@@ -745,7 +745,7 @@ LRegExpTest
 lir
 )
 ;
-bool
+void
 visitOutOfLineRegExpTest
 (
 OutOfLineRegExpTest
@@ -753,7 +753,7 @@ OutOfLineRegExpTest
 ool
 )
 ;
-bool
+void
 visitRegExpReplace
 (
 LRegExpReplace
@@ -761,7 +761,7 @@ LRegExpReplace
 lir
 )
 ;
-bool
+void
 visitStringReplace
 (
 LStringReplace
@@ -769,7 +769,7 @@ LStringReplace
 lir
 )
 ;
-bool
+void
 visitLambda
 (
 LLambda
@@ -777,7 +777,7 @@ LLambda
 lir
 )
 ;
-bool
+void
 visitLambdaArrow
 (
 LLambdaArrow
@@ -785,7 +785,7 @@ LLambdaArrow
 lir
 )
 ;
-bool
+void
 visitLambdaForSingleton
 (
 LLambdaForSingleton
@@ -793,7 +793,7 @@ LLambdaForSingleton
 lir
 )
 ;
-bool
+void
 visitLambdaPar
 (
 LLambdaPar
@@ -801,7 +801,7 @@ LLambdaPar
 lir
 )
 ;
-bool
+void
 visitPointer
 (
 LPointer
@@ -809,7 +809,7 @@ LPointer
 lir
 )
 ;
-bool
+void
 visitSlots
 (
 LSlots
@@ -817,7 +817,7 @@ LSlots
 lir
 )
 ;
-bool
+void
 visitLoadSlotT
 (
 LLoadSlotT
@@ -825,7 +825,7 @@ LLoadSlotT
 lir
 )
 ;
-bool
+void
 visitLoadSlotV
 (
 LLoadSlotV
@@ -833,7 +833,7 @@ LLoadSlotV
 lir
 )
 ;
-bool
+void
 visitStoreSlotT
 (
 LStoreSlotT
@@ -841,7 +841,7 @@ LStoreSlotT
 lir
 )
 ;
-bool
+void
 visitStoreSlotV
 (
 LStoreSlotV
@@ -849,7 +849,7 @@ LStoreSlotV
 lir
 )
 ;
-bool
+void
 visitElements
 (
 LElements
@@ -857,7 +857,7 @@ LElements
 lir
 )
 ;
-bool
+void
 visitConvertElementsToDoubles
 (
 LConvertElementsToDoubles
@@ -865,7 +865,7 @@ LConvertElementsToDoubles
 lir
 )
 ;
-bool
+void
 visitMaybeToDoubleElement
 (
 LMaybeToDoubleElement
@@ -873,7 +873,7 @@ LMaybeToDoubleElement
 lir
 )
 ;
-bool
+void
 visitMaybeCopyElementsForWrite
 (
 LMaybeCopyElementsForWrite
@@ -881,7 +881,7 @@ LMaybeCopyElementsForWrite
 lir
 )
 ;
-bool
+void
 visitGuardObjectIdentity
 (
 LGuardObjectIdentity
@@ -889,7 +889,7 @@ LGuardObjectIdentity
 guard
 )
 ;
-bool
+void
 visitGuardShapePolymorphic
 (
 LGuardShapePolymorphic
@@ -897,7 +897,7 @@ LGuardShapePolymorphic
 lir
 )
 ;
-bool
+void
 visitTypeBarrierV
 (
 LTypeBarrierV
@@ -905,7 +905,7 @@ LTypeBarrierV
 lir
 )
 ;
-bool
+void
 visitTypeBarrierO
 (
 LTypeBarrierO
@@ -913,7 +913,7 @@ LTypeBarrierO
 lir
 )
 ;
-bool
+void
 visitMonitorTypes
 (
 LMonitorTypes
@@ -921,7 +921,7 @@ LMonitorTypes
 lir
 )
 ;
-bool
+void
 visitPostWriteBarrierO
 (
 LPostWriteBarrierO
@@ -929,7 +929,7 @@ LPostWriteBarrierO
 lir
 )
 ;
-bool
+void
 visitPostWriteBarrierV
 (
 LPostWriteBarrierV
@@ -937,7 +937,7 @@ LPostWriteBarrierV
 lir
 )
 ;
-bool
+void
 visitOutOfLineCallPostWriteBarrier
 (
 OutOfLineCallPostWriteBarrier
@@ -945,7 +945,7 @@ OutOfLineCallPostWriteBarrier
 ool
 )
 ;
-bool
+void
 visitCallNative
 (
 LCallNative
@@ -953,7 +953,7 @@ LCallNative
 call
 )
 ;
-bool
+void
 emitCallInvokeFunction
 (
 LInstruction
@@ -967,7 +967,7 @@ uint32_t
 unusedStack
 )
 ;
-bool
+void
 visitCallGeneric
 (
 LCallGeneric
@@ -975,7 +975,7 @@ LCallGeneric
 call
 )
 ;
-bool
+void
 visitCallKnown
 (
 LCallKnown
@@ -983,7 +983,7 @@ LCallKnown
 call
 )
 ;
-bool
+void
 emitCallInvokeFunction
 (
 LApplyArgsGeneric
@@ -1013,7 +1013,7 @@ Register
 extraStackSize
 )
 ;
-bool
+void
 visitApplyArgsGeneric
 (
 LApplyArgsGeneric
@@ -1021,7 +1021,7 @@ LApplyArgsGeneric
 apply
 )
 ;
-bool
+void
 visitBail
 (
 LBail
@@ -1029,7 +1029,7 @@ LBail
 lir
 )
 ;
-bool
+void
 visitUnreachable
 (
 LUnreachable
@@ -1037,7 +1037,7 @@ LUnreachable
 unreachable
 )
 ;
-bool
+void
 visitGetDynamicName
 (
 LGetDynamicName
@@ -1045,7 +1045,7 @@ LGetDynamicName
 lir
 )
 ;
-bool
+void
 visitFilterArgumentsOrEvalS
 (
 LFilterArgumentsOrEvalS
@@ -1053,7 +1053,7 @@ LFilterArgumentsOrEvalS
 lir
 )
 ;
-bool
+void
 visitFilterArgumentsOrEvalV
 (
 LFilterArgumentsOrEvalV
@@ -1061,7 +1061,7 @@ LFilterArgumentsOrEvalV
 lir
 )
 ;
-bool
+void
 visitCallDirectEvalS
 (
 LCallDirectEvalS
@@ -1069,7 +1069,7 @@ LCallDirectEvalS
 lir
 )
 ;
-bool
+void
 visitCallDirectEvalV
 (
 LCallDirectEvalV
@@ -1077,7 +1077,7 @@ LCallDirectEvalV
 lir
 )
 ;
-bool
+void
 visitDoubleToInt32
 (
 LDoubleToInt32
@@ -1085,7 +1085,7 @@ LDoubleToInt32
 lir
 )
 ;
-bool
+void
 visitFloat32ToInt32
 (
 LFloat32ToInt32
@@ -1093,7 +1093,7 @@ LFloat32ToInt32
 lir
 )
 ;
-bool
+void
 visitNewArrayCallVM
 (
 LNewArray
@@ -1101,7 +1101,7 @@ LNewArray
 lir
 )
 ;
-bool
+void
 visitNewArray
 (
 LNewArray
@@ -1109,7 +1109,7 @@ LNewArray
 lir
 )
 ;
-bool
+void
 visitOutOfLineNewArray
 (
 OutOfLineNewArray
@@ -1117,7 +1117,7 @@ OutOfLineNewArray
 ool
 )
 ;
-bool
+void
 visitNewArrayCopyOnWrite
 (
 LNewArrayCopyOnWrite
@@ -1125,7 +1125,7 @@ LNewArrayCopyOnWrite
 lir
 )
 ;
-bool
+void
 visitNewArrayDynamicLength
 (
 LNewArrayDynamicLength
@@ -1133,7 +1133,7 @@ LNewArrayDynamicLength
 lir
 )
 ;
-bool
+void
 visitNewObjectVMCall
 (
 LNewObject
@@ -1141,7 +1141,7 @@ LNewObject
 lir
 )
 ;
-bool
+void
 visitNewObject
 (
 LNewObject
@@ -1149,7 +1149,7 @@ LNewObject
 lir
 )
 ;
-bool
+void
 visitOutOfLineNewObject
 (
 OutOfLineNewObject
@@ -1157,7 +1157,7 @@ OutOfLineNewObject
 ool
 )
 ;
-bool
+void
 visitNewTypedObject
 (
 LNewTypedObject
@@ -1165,7 +1165,7 @@ LNewTypedObject
 lir
 )
 ;
-bool
+void
 visitNewDeclEnvObject
 (
 LNewDeclEnvObject
@@ -1173,7 +1173,7 @@ LNewDeclEnvObject
 lir
 )
 ;
-bool
+void
 visitNewCallObject
 (
 LNewCallObject
@@ -1181,7 +1181,7 @@ LNewCallObject
 lir
 )
 ;
-bool
+void
 visitNewSingletonCallObject
 (
 LNewSingletonCallObject
@@ -1189,7 +1189,7 @@ LNewSingletonCallObject
 lir
 )
 ;
-bool
+void
 visitNewCallObjectPar
 (
 LNewCallObjectPar
@@ -1197,7 +1197,7 @@ LNewCallObjectPar
 lir
 )
 ;
-bool
+void
 visitNewStringObject
 (
 LNewStringObject
@@ -1205,7 +1205,7 @@ LNewStringObject
 lir
 )
 ;
-bool
+void
 visitNewPar
 (
 LNewPar
@@ -1213,7 +1213,7 @@ LNewPar
 lir
 )
 ;
-bool
+void
 visitNewDenseArrayPar
 (
 LNewDenseArrayPar
@@ -1221,7 +1221,7 @@ LNewDenseArrayPar
 lir
 )
 ;
-bool
+void
 visitNewDerivedTypedObject
 (
 LNewDerivedTypedObject
@@ -1229,7 +1229,7 @@ LNewDerivedTypedObject
 lir
 )
 ;
-bool
+void
 visitInitElem
 (
 LInitElem
@@ -1237,7 +1237,7 @@ LInitElem
 lir
 )
 ;
-bool
+void
 visitInitElemGetterSetter
 (
 LInitElemGetterSetter
@@ -1245,7 +1245,7 @@ LInitElemGetterSetter
 lir
 )
 ;
-bool
+void
 visitMutateProto
 (
 LMutateProto
@@ -1253,7 +1253,7 @@ LMutateProto
 lir
 )
 ;
-bool
+void
 visitInitProp
 (
 LInitProp
@@ -1261,7 +1261,7 @@ LInitProp
 lir
 )
 ;
-bool
+void
 visitInitPropGetterSetter
 (
 LInitPropGetterSetter
@@ -1269,7 +1269,7 @@ LInitPropGetterSetter
 lir
 )
 ;
-bool
+void
 visitCreateThis
 (
 LCreateThis
@@ -1277,7 +1277,7 @@ LCreateThis
 lir
 )
 ;
-bool
+void
 visitCreateThisWithProto
 (
 LCreateThisWithProto
@@ -1285,7 +1285,7 @@ LCreateThisWithProto
 lir
 )
 ;
-bool
+void
 visitCreateThisWithTemplate
 (
 LCreateThisWithTemplate
@@ -1293,7 +1293,7 @@ LCreateThisWithTemplate
 lir
 )
 ;
-bool
+void
 visitCreateArgumentsObject
 (
 LCreateArgumentsObject
@@ -1301,7 +1301,7 @@ LCreateArgumentsObject
 lir
 )
 ;
-bool
+void
 visitGetArgumentsObjectArg
 (
 LGetArgumentsObjectArg
@@ -1309,7 +1309,7 @@ LGetArgumentsObjectArg
 lir
 )
 ;
-bool
+void
 visitSetArgumentsObjectArg
 (
 LSetArgumentsObjectArg
@@ -1317,7 +1317,7 @@ LSetArgumentsObjectArg
 lir
 )
 ;
-bool
+void
 visitReturnFromCtor
 (
 LReturnFromCtor
@@ -1325,7 +1325,7 @@ LReturnFromCtor
 lir
 )
 ;
-bool
+void
 visitComputeThis
 (
 LComputeThis
@@ -1333,7 +1333,7 @@ LComputeThis
 lir
 )
 ;
-bool
+void
 visitLoadArrowThis
 (
 LLoadArrowThis
@@ -1341,7 +1341,7 @@ LLoadArrowThis
 lir
 )
 ;
-bool
+void
 visitArrayLength
 (
 LArrayLength
@@ -1349,7 +1349,7 @@ LArrayLength
 lir
 )
 ;
-bool
+void
 visitSetArrayLength
 (
 LSetArrayLength
@@ -1357,7 +1357,7 @@ LSetArrayLength
 lir
 )
 ;
-bool
+void
 visitTypedArrayLength
 (
 LTypedArrayLength
@@ -1365,7 +1365,7 @@ LTypedArrayLength
 lir
 )
 ;
-bool
+void
 visitTypedArrayElements
 (
 LTypedArrayElements
@@ -1373,7 +1373,7 @@ LTypedArrayElements
 lir
 )
 ;
-bool
+void
 visitTypedObjectElements
 (
 LTypedObjectElements
@@ -1381,7 +1381,7 @@ LTypedObjectElements
 lir
 )
 ;
-bool
+void
 visitSetTypedObjectOffset
 (
 LSetTypedObjectOffset
@@ -1389,7 +1389,7 @@ LSetTypedObjectOffset
 lir
 )
 ;
-bool
+void
 visitTypedObjectProto
 (
 LTypedObjectProto
@@ -1397,7 +1397,7 @@ LTypedObjectProto
 ins
 )
 ;
-bool
+void
 visitStringLength
 (
 LStringLength
@@ -1405,7 +1405,7 @@ LStringLength
 lir
 )
 ;
-bool
+void
 visitSubstr
 (
 LSubstr
@@ -1413,7 +1413,7 @@ LSubstr
 lir
 )
 ;
-bool
+void
 visitInitializedLength
 (
 LInitializedLength
@@ -1421,7 +1421,7 @@ LInitializedLength
 lir
 )
 ;
-bool
+void
 visitSetInitializedLength
 (
 LSetInitializedLength
@@ -1429,7 +1429,7 @@ LSetInitializedLength
 lir
 )
 ;
-bool
+void
 visitNotO
 (
 LNotO
@@ -1437,7 +1437,7 @@ LNotO
 ins
 )
 ;
-bool
+void
 visitNotV
 (
 LNotV
@@ -1445,7 +1445,7 @@ LNotV
 ins
 )
 ;
-bool
+void
 visitBoundsCheck
 (
 LBoundsCheck
@@ -1453,7 +1453,7 @@ LBoundsCheck
 lir
 )
 ;
-bool
+void
 visitBoundsCheckRange
 (
 LBoundsCheckRange
@@ -1461,7 +1461,7 @@ LBoundsCheckRange
 lir
 )
 ;
-bool
+void
 visitBoundsCheckLower
 (
 LBoundsCheckLower
@@ -1469,7 +1469,7 @@ LBoundsCheckLower
 lir
 )
 ;
-bool
+void
 visitLoadFixedSlotV
 (
 LLoadFixedSlotV
@@ -1477,7 +1477,7 @@ LLoadFixedSlotV
 ins
 )
 ;
-bool
+void
 visitLoadFixedSlotT
 (
 LLoadFixedSlotT
@@ -1485,7 +1485,7 @@ LLoadFixedSlotT
 ins
 )
 ;
-bool
+void
 visitStoreFixedSlotV
 (
 LStoreFixedSlotV
@@ -1493,7 +1493,7 @@ LStoreFixedSlotV
 ins
 )
 ;
-bool
+void
 visitStoreFixedSlotT
 (
 LStoreFixedSlotT
@@ -1501,7 +1501,7 @@ LStoreFixedSlotT
 ins
 )
 ;
-bool
+void
 emitGetPropertyPolymorphic
 (
 LInstruction
@@ -1517,7 +1517,7 @@ TypedOrValueRegister
 output
 )
 ;
-bool
+void
 visitGetPropertyPolymorphicV
 (
 LGetPropertyPolymorphicV
@@ -1525,7 +1525,7 @@ LGetPropertyPolymorphicV
 ins
 )
 ;
-bool
+void
 visitGetPropertyPolymorphicT
 (
 LGetPropertyPolymorphicT
@@ -1533,7 +1533,7 @@ LGetPropertyPolymorphicT
 ins
 )
 ;
-bool
+void
 emitSetPropertyPolymorphic
 (
 LInstruction
@@ -1549,7 +1549,7 @@ ConstantOrRegister
 value
 )
 ;
-bool
+void
 visitSetPropertyPolymorphicV
 (
 LSetPropertyPolymorphicV
@@ -1557,7 +1557,7 @@ LSetPropertyPolymorphicV
 ins
 )
 ;
-bool
+void
 visitArraySplice
 (
 LArraySplice
@@ -1565,7 +1565,7 @@ LArraySplice
 splice
 )
 ;
-bool
+void
 visitSetPropertyPolymorphicT
 (
 LSetPropertyPolymorphicT
@@ -1573,7 +1573,7 @@ LSetPropertyPolymorphicT
 ins
 )
 ;
-bool
+void
 visitAbsI
 (
 LAbsI
@@ -1581,7 +1581,7 @@ LAbsI
 lir
 )
 ;
-bool
+void
 visitAtan2D
 (
 LAtan2D
@@ -1589,7 +1589,7 @@ LAtan2D
 lir
 )
 ;
-bool
+void
 visitHypot
 (
 LHypot
@@ -1597,7 +1597,7 @@ LHypot
 lir
 )
 ;
-bool
+void
 visitPowI
 (
 LPowI
@@ -1605,7 +1605,7 @@ LPowI
 lir
 )
 ;
-bool
+void
 visitPowD
 (
 LPowD
@@ -1613,7 +1613,7 @@ LPowD
 lir
 )
 ;
-bool
+void
 visitRandom
 (
 LRandom
@@ -1621,7 +1621,7 @@ LRandom
 lir
 )
 ;
-bool
+void
 visitMathFunctionD
 (
 LMathFunctionD
@@ -1629,7 +1629,7 @@ LMathFunctionD
 ins
 )
 ;
-bool
+void
 visitMathFunctionF
 (
 LMathFunctionF
@@ -1637,7 +1637,7 @@ LMathFunctionF
 ins
 )
 ;
-bool
+void
 visitModD
 (
 LModD
@@ -1645,7 +1645,7 @@ LModD
 ins
 )
 ;
-bool
+void
 visitMinMaxI
 (
 LMinMaxI
@@ -1653,7 +1653,7 @@ LMinMaxI
 lir
 )
 ;
-bool
+void
 visitBinaryV
 (
 LBinaryV
@@ -1661,7 +1661,7 @@ LBinaryV
 lir
 )
 ;
-bool
+void
 emitCompareS
 (
 LInstruction
@@ -1677,7 +1677,7 @@ Register
 output
 )
 ;
-bool
+void
 visitCompareS
 (
 LCompareS
@@ -1685,7 +1685,7 @@ LCompareS
 lir
 )
 ;
-bool
+void
 visitCompareStrictS
 (
 LCompareStrictS
@@ -1693,7 +1693,7 @@ LCompareStrictS
 lir
 )
 ;
-bool
+void
 visitCompareVM
 (
 LCompareVM
@@ -1701,7 +1701,7 @@ LCompareVM
 lir
 )
 ;
-bool
+void
 visitIsNullOrLikeUndefined
 (
 LIsNullOrLikeUndefined
@@ -1709,7 +1709,7 @@ LIsNullOrLikeUndefined
 lir
 )
 ;
-bool
+void
 visitIsNullOrLikeUndefinedAndBranch
 (
 LIsNullOrLikeUndefinedAndBranch
@@ -1717,7 +1717,7 @@ LIsNullOrLikeUndefinedAndBranch
 lir
 )
 ;
-bool
+void
 visitEmulatesUndefined
 (
 LEmulatesUndefined
@@ -1725,7 +1725,7 @@ LEmulatesUndefined
 lir
 )
 ;
-bool
+void
 visitEmulatesUndefinedAndBranch
 (
 LEmulatesUndefinedAndBranch
@@ -1733,7 +1733,7 @@ LEmulatesUndefinedAndBranch
 lir
 )
 ;
-bool
+void
 emitConcat
 (
 LInstruction
@@ -1747,7 +1747,7 @@ Register
 output
 )
 ;
-bool
+void
 visitConcat
 (
 LConcat
@@ -1755,7 +1755,7 @@ LConcat
 lir
 )
 ;
-bool
+void
 visitConcatPar
 (
 LConcatPar
@@ -1763,7 +1763,7 @@ LConcatPar
 lir
 )
 ;
-bool
+void
 visitCharCodeAt
 (
 LCharCodeAt
@@ -1771,7 +1771,7 @@ LCharCodeAt
 lir
 )
 ;
-bool
+void
 visitFromCharCode
 (
 LFromCharCode
@@ -1779,7 +1779,7 @@ LFromCharCode
 lir
 )
 ;
-bool
+void
 visitStringSplit
 (
 LStringSplit
@@ -1787,7 +1787,7 @@ LStringSplit
 lir
 )
 ;
-bool
+void
 visitFunctionEnvironment
 (
 LFunctionEnvironment
@@ -1795,7 +1795,7 @@ LFunctionEnvironment
 lir
 )
 ;
-bool
+void
 visitForkJoinContext
 (
 LForkJoinContext
@@ -1803,7 +1803,7 @@ LForkJoinContext
 lir
 )
 ;
-bool
+void
 visitGuardThreadExclusive
 (
 LGuardThreadExclusive
@@ -1811,7 +1811,7 @@ LGuardThreadExclusive
 lir
 )
 ;
-bool
+void
 visitCallGetProperty
 (
 LCallGetProperty
@@ -1819,7 +1819,7 @@ LCallGetProperty
 lir
 )
 ;
-bool
+void
 visitCallGetElement
 (
 LCallGetElement
@@ -1827,7 +1827,7 @@ LCallGetElement
 lir
 )
 ;
-bool
+void
 visitCallSetElement
 (
 LCallSetElement
@@ -1835,7 +1835,7 @@ LCallSetElement
 lir
 )
 ;
-bool
+void
 visitCallInitElementArray
 (
 LCallInitElementArray
@@ -1843,7 +1843,7 @@ LCallInitElementArray
 lir
 )
 ;
-bool
+void
 visitThrow
 (
 LThrow
@@ -1851,7 +1851,7 @@ LThrow
 lir
 )
 ;
-bool
+void
 visitTypeOfV
 (
 LTypeOfV
@@ -1859,7 +1859,7 @@ LTypeOfV
 lir
 )
 ;
-bool
+void
 visitOutOfLineTypeOfV
 (
 OutOfLineTypeOfV
@@ -1867,7 +1867,7 @@ OutOfLineTypeOfV
 ool
 )
 ;
-bool
+void
 visitToIdV
 (
 LToIdV
@@ -1880,7 +1880,7 @@ template
 typename
 T
 >
-bool
+void
 emitLoadElementT
 (
 LLoadElementT
@@ -1892,7 +1892,7 @@ T
 source
 )
 ;
-bool
+void
 visitLoadElementT
 (
 LLoadElementT
@@ -1900,7 +1900,7 @@ LLoadElementT
 lir
 )
 ;
-bool
+void
 visitLoadElementV
 (
 LLoadElementV
@@ -1908,7 +1908,7 @@ LLoadElementV
 load
 )
 ;
-bool
+void
 visitLoadElementHole
 (
 LLoadElementHole
@@ -1916,7 +1916,7 @@ LLoadElementHole
 lir
 )
 ;
-bool
+void
 visitLoadUnboxedPointerV
 (
 LLoadUnboxedPointerV
@@ -1924,7 +1924,7 @@ LLoadUnboxedPointerV
 lir
 )
 ;
-bool
+void
 visitLoadUnboxedPointerT
 (
 LLoadUnboxedPointerT
@@ -1932,7 +1932,7 @@ LLoadUnboxedPointerT
 lir
 )
 ;
-bool
+void
 visitStoreElementT
 (
 LStoreElementT
@@ -1940,7 +1940,7 @@ LStoreElementT
 lir
 )
 ;
-bool
+void
 visitStoreElementV
 (
 LStoreElementV
@@ -1948,7 +1948,7 @@ LStoreElementV
 lir
 )
 ;
-bool
+void
 visitStoreElementHoleT
 (
 LStoreElementHoleT
@@ -1956,7 +1956,7 @@ LStoreElementHoleT
 lir
 )
 ;
-bool
+void
 visitStoreElementHoleV
 (
 LStoreElementHoleV
@@ -1964,7 +1964,7 @@ LStoreElementHoleV
 lir
 )
 ;
-bool
+void
 visitStoreUnboxedPointer
 (
 LStoreUnboxedPointer
@@ -1972,7 +1972,7 @@ LStoreUnboxedPointer
 lir
 )
 ;
-bool
+void
 emitArrayPopShift
 (
 LInstruction
@@ -1992,7 +1992,7 @@ TypedOrValueRegister
 out
 )
 ;
-bool
+void
 visitArrayPopShiftV
 (
 LArrayPopShiftV
@@ -2000,7 +2000,7 @@ LArrayPopShiftV
 lir
 )
 ;
-bool
+void
 visitArrayPopShiftT
 (
 LArrayPopShiftT
@@ -2008,7 +2008,7 @@ LArrayPopShiftT
 lir
 )
 ;
-bool
+void
 emitArrayPush
 (
 LInstruction
@@ -2028,7 +2028,7 @@ Register
 length
 )
 ;
-bool
+void
 visitArrayPushV
 (
 LArrayPushV
@@ -2036,7 +2036,7 @@ LArrayPushV
 lir
 )
 ;
-bool
+void
 visitArrayPushT
 (
 LArrayPushT
@@ -2044,7 +2044,7 @@ LArrayPushT
 lir
 )
 ;
-bool
+void
 visitArrayConcat
 (
 LArrayConcat
@@ -2052,7 +2052,7 @@ LArrayConcat
 lir
 )
 ;
-bool
+void
 visitArrayJoin
 (
 LArrayJoin
@@ -2060,7 +2060,7 @@ LArrayJoin
 lir
 )
 ;
-bool
+void
 visitLoadTypedArrayElement
 (
 LLoadTypedArrayElement
@@ -2068,7 +2068,7 @@ LLoadTypedArrayElement
 lir
 )
 ;
-bool
+void
 visitLoadTypedArrayElementHole
 (
 LLoadTypedArrayElementHole
@@ -2076,7 +2076,7 @@ LLoadTypedArrayElementHole
 lir
 )
 ;
-bool
+void
 visitStoreTypedArrayElement
 (
 LStoreTypedArrayElement
@@ -2084,7 +2084,7 @@ LStoreTypedArrayElement
 lir
 )
 ;
-bool
+void
 visitStoreTypedArrayElementHole
 (
 LStoreTypedArrayElementHole
@@ -2092,7 +2092,7 @@ LStoreTypedArrayElementHole
 lir
 )
 ;
-bool
+void
 visitCompareExchangeTypedArrayElement
 (
 LCompareExchangeTypedArrayElement
@@ -2100,7 +2100,7 @@ LCompareExchangeTypedArrayElement
 lir
 )
 ;
-bool
+void
 visitAtomicTypedArrayElementBinop
 (
 LAtomicTypedArrayElementBinop
@@ -2108,7 +2108,7 @@ LAtomicTypedArrayElementBinop
 lir
 )
 ;
-bool
+void
 visitClampIToUint8
 (
 LClampIToUint8
@@ -2116,7 +2116,7 @@ LClampIToUint8
 lir
 )
 ;
-bool
+void
 visitClampDToUint8
 (
 LClampDToUint8
@@ -2124,7 +2124,7 @@ LClampDToUint8
 lir
 )
 ;
-bool
+void
 visitClampVToUint8
 (
 LClampVToUint8
@@ -2132,7 +2132,7 @@ LClampVToUint8
 lir
 )
 ;
-bool
+void
 visitCallIteratorStart
 (
 LCallIteratorStart
@@ -2140,7 +2140,7 @@ LCallIteratorStart
 lir
 )
 ;
-bool
+void
 visitIteratorStart
 (
 LIteratorStart
@@ -2148,7 +2148,7 @@ LIteratorStart
 lir
 )
 ;
-bool
+void
 visitIteratorMore
 (
 LIteratorMore
@@ -2156,7 +2156,7 @@ LIteratorMore
 lir
 )
 ;
-bool
+void
 visitIsNoIterAndBranch
 (
 LIsNoIterAndBranch
@@ -2164,7 +2164,7 @@ LIsNoIterAndBranch
 lir
 )
 ;
-bool
+void
 visitIteratorEnd
 (
 LIteratorEnd
@@ -2172,7 +2172,7 @@ LIteratorEnd
 lir
 )
 ;
-bool
+void
 visitArgumentsLength
 (
 LArgumentsLength
@@ -2180,7 +2180,7 @@ LArgumentsLength
 lir
 )
 ;
-bool
+void
 visitGetFrameArgument
 (
 LGetFrameArgument
@@ -2188,7 +2188,7 @@ LGetFrameArgument
 lir
 )
 ;
-bool
+void
 visitSetFrameArgumentT
 (
 LSetFrameArgumentT
@@ -2196,7 +2196,7 @@ LSetFrameArgumentT
 lir
 )
 ;
-bool
+void
 visitSetFrameArgumentC
 (
 LSetFrameArgumentC
@@ -2204,7 +2204,7 @@ LSetFrameArgumentC
 lir
 )
 ;
-bool
+void
 visitSetFrameArgumentV
 (
 LSetFrameArgumentV
@@ -2212,7 +2212,7 @@ LSetFrameArgumentV
 lir
 )
 ;
-bool
+void
 visitRunOncePrologue
 (
 LRunOncePrologue
@@ -2220,7 +2220,7 @@ LRunOncePrologue
 lir
 )
 ;
-bool
+void
 emitRest
 (
 LInstruction
@@ -2245,7 +2245,7 @@ Register
 resultreg
 )
 ;
-bool
+void
 visitRest
 (
 LRest
@@ -2253,7 +2253,7 @@ LRest
 lir
 )
 ;
-bool
+void
 visitRestPar
 (
 LRestPar
@@ -2261,7 +2261,7 @@ LRestPar
 lir
 )
 ;
-bool
+void
 visitCallSetProperty
 (
 LCallSetProperty
@@ -2269,7 +2269,7 @@ LCallSetProperty
 ins
 )
 ;
-bool
+void
 visitCallDeleteProperty
 (
 LCallDeleteProperty
@@ -2277,7 +2277,7 @@ LCallDeleteProperty
 lir
 )
 ;
-bool
+void
 visitCallDeleteElement
 (
 LCallDeleteElement
@@ -2285,7 +2285,7 @@ LCallDeleteElement
 lir
 )
 ;
-bool
+void
 visitBitNotV
 (
 LBitNotV
@@ -2293,7 +2293,7 @@ LBitNotV
 lir
 )
 ;
-bool
+void
 visitBitOpV
 (
 LBitOpV
@@ -2301,7 +2301,7 @@ LBitOpV
 lir
 )
 ;
-bool
+void
 emitInstanceOf
 (
 LInstruction
@@ -2312,7 +2312,7 @@ JSObject
 prototypeObject
 )
 ;
-bool
+void
 visitIn
 (
 LIn
@@ -2320,7 +2320,7 @@ LIn
 ins
 )
 ;
-bool
+void
 visitInArray
 (
 LInArray
@@ -2328,7 +2328,7 @@ LInArray
 ins
 )
 ;
-bool
+void
 visitInstanceOfO
 (
 LInstanceOfO
@@ -2336,7 +2336,7 @@ LInstanceOfO
 ins
 )
 ;
-bool
+void
 visitInstanceOfV
 (
 LInstanceOfV
@@ -2344,7 +2344,7 @@ LInstanceOfV
 ins
 )
 ;
-bool
+void
 visitCallInstanceOf
 (
 LCallInstanceOf
@@ -2352,7 +2352,7 @@ LCallInstanceOf
 ins
 )
 ;
-bool
+void
 visitProfilerStackOp
 (
 LProfilerStackOp
@@ -2360,7 +2360,7 @@ LProfilerStackOp
 lir
 )
 ;
-bool
+void
 visitGetDOMProperty
 (
 LGetDOMProperty
@@ -2368,7 +2368,7 @@ LGetDOMProperty
 lir
 )
 ;
-bool
+void
 visitGetDOMMember
 (
 LGetDOMMember
@@ -2376,7 +2376,7 @@ LGetDOMMember
 lir
 )
 ;
-bool
+void
 visitSetDOMProperty
 (
 LSetDOMProperty
@@ -2384,7 +2384,7 @@ LSetDOMProperty
 lir
 )
 ;
-bool
+void
 visitCallDOMNative
 (
 LCallDOMNative
@@ -2392,7 +2392,7 @@ LCallDOMNative
 lir
 )
 ;
-bool
+void
 visitCallGetIntrinsicValue
 (
 LCallGetIntrinsicValue
@@ -2400,7 +2400,7 @@ LCallGetIntrinsicValue
 lir
 )
 ;
-bool
+void
 visitIsCallable
 (
 LIsCallable
@@ -2408,7 +2408,7 @@ LIsCallable
 lir
 )
 ;
-bool
+void
 visitOutOfLineIsCallable
 (
 OutOfLineIsCallable
@@ -2416,7 +2416,7 @@ OutOfLineIsCallable
 ool
 )
 ;
-bool
+void
 visitIsObject
 (
 LIsObject
@@ -2424,7 +2424,7 @@ LIsObject
 lir
 )
 ;
-bool
+void
 visitIsObjectAndBranch
 (
 LIsObjectAndBranch
@@ -2432,7 +2432,7 @@ LIsObjectAndBranch
 lir
 )
 ;
-bool
+void
 visitHaveSameClass
 (
 LHaveSameClass
@@ -2440,7 +2440,7 @@ LHaveSameClass
 lir
 )
 ;
-bool
+void
 visitHasClass
 (
 LHasClass
@@ -2448,7 +2448,7 @@ LHasClass
 lir
 )
 ;
-bool
+void
 visitAsmJSParameter
 (
 LAsmJSParameter
@@ -2456,7 +2456,7 @@ LAsmJSParameter
 lir
 )
 ;
-bool
+void
 visitAsmJSReturn
 (
 LAsmJSReturn
@@ -2464,7 +2464,7 @@ LAsmJSReturn
 ret
 )
 ;
-bool
+void
 visitAsmJSVoidReturn
 (
 LAsmJSVoidReturn
@@ -2472,7 +2472,7 @@ LAsmJSVoidReturn
 ret
 )
 ;
-bool
+void
 visitLexicalCheck
 (
 LLexicalCheck
@@ -2480,7 +2480,7 @@ LLexicalCheck
 ins
 )
 ;
-bool
+void
 visitThrowUninitializedLexical
 (
 LThrowUninitializedLexical
@@ -2488,7 +2488,7 @@ LThrowUninitializedLexical
 ins
 )
 ;
-bool
+void
 visitDebugger
 (
 LDebugger
@@ -2496,7 +2496,7 @@ LDebugger
 ins
 )
 ;
-bool
+void
 visitCheckOverRecursed
 (
 LCheckOverRecursed
@@ -2504,7 +2504,7 @@ LCheckOverRecursed
 lir
 )
 ;
-bool
+void
 visitCheckOverRecursedFailure
 (
 CheckOverRecursedFailure
@@ -2512,7 +2512,7 @@ CheckOverRecursedFailure
 ool
 )
 ;
-bool
+void
 visitCheckOverRecursedPar
 (
 LCheckOverRecursedPar
@@ -2520,7 +2520,7 @@ LCheckOverRecursedPar
 lir
 )
 ;
-bool
+void
 visitInterruptCheckPar
 (
 LInterruptCheckPar
@@ -2528,7 +2528,7 @@ LInterruptCheckPar
 lir
 )
 ;
-bool
+void
 visitOutOfLineInterruptCheckPar
 (
 OutOfLineInterruptCheckPar
@@ -2536,7 +2536,7 @@ OutOfLineInterruptCheckPar
 ool
 )
 ;
-bool
+void
 visitInterruptCheckImplicit
 (
 LInterruptCheckImplicit
@@ -2544,7 +2544,7 @@ LInterruptCheckImplicit
 ins
 )
 ;
-bool
+void
 visitOutOfLineInterruptCheckImplicit
 (
 OutOfLineInterruptCheckImplicit
@@ -2552,7 +2552,7 @@ OutOfLineInterruptCheckImplicit
 ins
 )
 ;
-bool
+void
 visitUnboxFloatingPoint
 (
 LUnboxFloatingPoint
@@ -2560,7 +2560,7 @@ LUnboxFloatingPoint
 lir
 )
 ;
-bool
+void
 visitOutOfLineUnboxFloatingPoint
 (
 OutOfLineUnboxFloatingPoint
@@ -2568,7 +2568,7 @@ OutOfLineUnboxFloatingPoint
 ool
 )
 ;
-bool
+void
 visitOutOfLineStoreElementHole
 (
 OutOfLineStoreElementHole
@@ -2576,7 +2576,7 @@ OutOfLineStoreElementHole
 ool
 )
 ;
-bool
+void
 visitOutOfLineNewGCThingPar
 (
 OutOfLineNewGCThingPar
@@ -2607,7 +2607,7 @@ Inline
 caches
 visitors
 .
-bool
+void
 visitOutOfLineCache
 (
 OutOfLineUpdateCache
@@ -2615,7 +2615,7 @@ OutOfLineUpdateCache
 ool
 )
 ;
-bool
+void
 visitGetPropertyCacheV
 (
 LGetPropertyCacheV
@@ -2623,7 +2623,7 @@ LGetPropertyCacheV
 ins
 )
 ;
-bool
+void
 visitGetPropertyCacheT
 (
 LGetPropertyCacheT
@@ -2631,7 +2631,7 @@ LGetPropertyCacheT
 ins
 )
 ;
-bool
+void
 visitGetElementCacheV
 (
 LGetElementCacheV
@@ -2639,7 +2639,7 @@ LGetElementCacheV
 ins
 )
 ;
-bool
+void
 visitGetElementCacheT
 (
 LGetElementCacheT
@@ -2647,7 +2647,7 @@ LGetElementCacheT
 ins
 )
 ;
-bool
+void
 visitSetElementCacheV
 (
 LSetElementCacheV
@@ -2655,7 +2655,7 @@ LSetElementCacheV
 ins
 )
 ;
-bool
+void
 visitSetElementCacheT
 (
 LSetElementCacheT
@@ -2663,7 +2663,7 @@ LSetElementCacheT
 ins
 )
 ;
-bool
+void
 visitBindNameCache
 (
 LBindNameCache
@@ -2671,7 +2671,7 @@ LBindNameCache
 ins
 )
 ;
-bool
+void
 visitCallSetProperty
 (
 LInstruction
@@ -2679,7 +2679,7 @@ LInstruction
 ins
 )
 ;
-bool
+void
 visitSetPropertyCacheV
 (
 LSetPropertyCacheV
@@ -2687,7 +2687,7 @@ LSetPropertyCacheV
 ins
 )
 ;
-bool
+void
 visitSetPropertyCacheT
 (
 LSetPropertyCacheT
@@ -2695,7 +2695,7 @@ LSetPropertyCacheT
 ins
 )
 ;
-bool
+void
 visitGetNameCache
 (
 LGetNameCache
@@ -2703,7 +2703,7 @@ LGetNameCache
 ins
 )
 ;
-bool
+void
 visitCallsiteCloneCache
 (
 LCallsiteCloneCache
@@ -2711,7 +2711,7 @@ LCallsiteCloneCache
 ins
 )
 ;
-bool
+void
 visitGetPropertyIC
 (
 OutOfLineUpdateCache
@@ -2725,7 +2725,7 @@ GetPropertyIC
 ic
 )
 ;
-bool
+void
 visitGetPropertyParIC
 (
 OutOfLineUpdateCache
@@ -2739,7 +2739,7 @@ GetPropertyParIC
 ic
 )
 ;
-bool
+void
 visitSetPropertyIC
 (
 OutOfLineUpdateCache
@@ -2753,7 +2753,7 @@ SetPropertyIC
 ic
 )
 ;
-bool
+void
 visitSetPropertyParIC
 (
 OutOfLineUpdateCache
@@ -2767,7 +2767,7 @@ SetPropertyParIC
 ic
 )
 ;
-bool
+void
 visitGetElementIC
 (
 OutOfLineUpdateCache
@@ -2781,7 +2781,7 @@ GetElementIC
 ic
 )
 ;
-bool
+void
 visitGetElementParIC
 (
 OutOfLineUpdateCache
@@ -2795,7 +2795,7 @@ GetElementParIC
 ic
 )
 ;
-bool
+void
 visitSetElementIC
 (
 OutOfLineUpdateCache
@@ -2809,7 +2809,7 @@ SetElementIC
 ic
 )
 ;
-bool
+void
 visitSetElementParIC
 (
 OutOfLineUpdateCache
@@ -2823,7 +2823,7 @@ SetElementParIC
 ic
 )
 ;
-bool
+void
 visitBindNameIC
 (
 OutOfLineUpdateCache
@@ -2837,7 +2837,7 @@ BindNameIC
 ic
 )
 ;
-bool
+void
 visitNameIC
 (
 OutOfLineUpdateCache
@@ -2851,7 +2851,7 @@ NameIC
 ic
 )
 ;
-bool
+void
 visitCallsiteCloneIC
 (
 OutOfLineUpdateCache
@@ -2865,7 +2865,7 @@ CallsiteCloneIC
 ic
 )
 ;
-bool
+void
 visitAssertRangeI
 (
 LAssertRangeI
@@ -2873,7 +2873,7 @@ LAssertRangeI
 ins
 )
 ;
-bool
+void
 visitAssertRangeD
 (
 LAssertRangeD
@@ -2881,7 +2881,7 @@ LAssertRangeD
 ins
 )
 ;
-bool
+void
 visitAssertRangeF
 (
 LAssertRangeF
@@ -2889,7 +2889,7 @@ LAssertRangeF
 ins
 )
 ;
-bool
+void
 visitAssertRangeV
 (
 LAssertRangeV
@@ -2897,7 +2897,7 @@ LAssertRangeV
 ins
 )
 ;
-bool
+void
 visitInterruptCheck
 (
 LInterruptCheck
@@ -2905,7 +2905,7 @@ LInterruptCheck
 lir
 )
 ;
-bool
+void
 visitAsmJSInterruptCheck
 (
 LAsmJSInterruptCheck
@@ -2913,7 +2913,7 @@ LAsmJSInterruptCheck
 lir
 )
 ;
-bool
+void
 visitRecompileCheck
 (
 LRecompileCheck
@@ -2949,7 +2949,7 @@ counts
 }
 private
 :
-bool
+void
 addGetPropertyCache
 (
 LInstruction
@@ -2971,7 +2971,7 @@ jsbytecode
 profilerLeavePc
 )
 ;
-bool
+void
 addGetElementCache
 (
 LInstruction
@@ -2992,7 +2992,7 @@ jsbytecode
 profilerLeavePc
 )
 ;
-bool
+void
 addSetPropertyCache
 (
 LInstruction
@@ -3016,7 +3016,7 @@ jsbytecode
 profilerLeavePc
 )
 ;
-bool
+void
 addSetElementCache
 (
 LInstruction
@@ -3062,7 +3062,7 @@ FloatRegister
 fr
 )
 ;
-bool
+void
 emitAllocateGCThingPar
 (
 LInstruction
@@ -3081,7 +3081,7 @@ NativeObject
 templateObj
 )
 ;
-bool
+void
 emitCallToUncompiledScriptPar
 (
 LInstruction
@@ -3104,7 +3104,7 @@ LambdaFunctionInfo
 info
 )
 ;
-bool
+void
 emitFilterArgumentsOrEval
 (
 LInstruction
@@ -3604,7 +3604,7 @@ is
 a
 hole
 .
-bool
+void
 emitStoreHoleCheck
 (
 Register
@@ -3620,7 +3620,7 @@ LSnapshot
 snapshot
 )
 ;
-bool
+void
 emitAssertRangeI
 (
 const
@@ -3631,7 +3631,7 @@ Register
 input
 )
 ;
-bool
+void
 emitAssertRangeD
 (
 const
@@ -3655,7 +3655,7 @@ ionScriptLabels_
 #
 ifdef
 DEBUG
-bool
+void
 branchIfInvalidated
 (
 Register
@@ -3665,7 +3665,7 @@ Label
 invalidated
 )
 ;
-bool
+void
 emitDebugResultChecks
 (
 LInstruction
@@ -3673,7 +3673,7 @@ LInstruction
 ins
 )
 ;
-bool
+void
 emitObjectOrStringResultChecks
 (
 LInstruction
@@ -3684,7 +3684,7 @@ MDefinition
 mir
 )
 ;
-bool
+void
 emitValueResultChecks
 (
 LInstruction

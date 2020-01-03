@@ -9865,7 +9865,7 @@ markSafepointAt
 (
 )
 .
-bool
+void
 buildFakeExitFrame
 (
 Register

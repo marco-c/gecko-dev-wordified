@@ -4839,7 +4839,7 @@ uint8_t
 dest
 )
 ;
-bool
+void
 addCodeLabel
 (
 CodeLabel

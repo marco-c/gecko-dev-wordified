@@ -179,7 +179,7 @@ template
 typename
 T
 >
-bool
+void
 bailout
 (
 const
@@ -281,7 +281,7 @@ return
 viewType_
 ;
 }
-bool
+void
 accept
 (
 CodeGeneratorX86Shared
@@ -289,7 +289,6 @@ CodeGeneratorX86Shared
 codegen
 )
 {
-return
 codegen
 -
 >
@@ -434,7 +433,7 @@ a
 )
 const
 ;
-bool
+void
 bailoutIf
 (
 Assembler
@@ -447,7 +446,7 @@ LSnapshot
 snapshot
 )
 ;
-bool
+void
 bailoutIf
 (
 Assembler
@@ -460,7 +459,7 @@ LSnapshot
 snapshot
 )
 ;
-bool
+void
 bailoutFrom
 (
 Label
@@ -471,7 +470,7 @@ LSnapshot
 snapshot
 )
 ;
-bool
+void
 bailout
 (
 LSnapshot
@@ -486,7 +485,7 @@ T1
 typename
 T2
 >
-bool
+void
 bailoutCmpPtr
 (
 Assembler
@@ -511,7 +510,6 @@ lhs
 rhs
 )
 ;
-return
 bailoutIf
 (
 c
@@ -519,7 +517,7 @@ snapshot
 )
 ;
 }
-bool
+void
 bailoutTestPtr
 (
 Assembler
@@ -544,7 +542,6 @@ lhs
 rhs
 )
 ;
-return
 bailoutIf
 (
 c
@@ -559,7 +556,7 @@ T1
 typename
 T2
 >
-bool
+void
 bailoutCmp32
 (
 Assembler
@@ -584,7 +581,6 @@ lhs
 rhs
 )
 ;
-return
 bailoutIf
 (
 c
@@ -599,7 +595,7 @@ T1
 typename
 T2
 >
-bool
+void
 bailoutTest32
 (
 Assembler
@@ -624,7 +620,6 @@ lhs
 rhs
 )
 ;
-return
 bailoutIf
 (
 c
@@ -632,7 +627,7 @@ snapshot
 )
 ;
 }
-bool
+void
 bailoutIfFalseBool
 (
 Register
@@ -653,7 +648,6 @@ Imm32
 )
 )
 ;
-return
 bailoutIf
 (
 Assembler
@@ -664,7 +658,7 @@ snapshot
 )
 ;
 }
-bool
+void
 bailoutCvttsd2si
 (
 FloatRegister
@@ -739,7 +733,6 @@ Imm32
 )
 )
 ;
-return
 bailoutIf
 (
 Assembler
@@ -750,7 +743,7 @@ snapshot
 )
 ;
 }
-bool
+void
 bailoutCvttss2si
 (
 FloatRegister
@@ -792,7 +785,6 @@ Imm32
 )
 )
 ;
-return
 bailoutIf
 (
 Assembler
@@ -1026,7 +1018,7 @@ ifFalse
 )
 ;
 }
-bool
+void
 emitTableSwitchDispatch
 (
 MTableSwitch
@@ -1061,7 +1053,7 @@ Instruction
 visitors
 .
 virtual
-bool
+void
 visitDouble
 (
 LDouble
@@ -1070,7 +1062,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitFloat32
 (
 LFloat32
@@ -1079,7 +1071,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitMinMaxD
 (
 LMinMaxD
@@ -1088,7 +1080,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitMinMaxF
 (
 LMinMaxF
@@ -1097,7 +1089,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitAbsD
 (
 LAbsD
@@ -1106,7 +1098,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitAbsF
 (
 LAbsF
@@ -1115,7 +1107,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitClzI
 (
 LClzI
@@ -1124,7 +1116,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitSqrtD
 (
 LSqrtD
@@ -1133,7 +1125,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitSqrtF
 (
 LSqrtF
@@ -1142,7 +1134,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitPowHalfD
 (
 LPowHalfD
@@ -1151,7 +1143,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitAddI
 (
 LAddI
@@ -1160,7 +1152,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitSubI
 (
 LSubI
@@ -1169,7 +1161,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitMulI
 (
 LMulI
@@ -1178,7 +1170,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitDivI
 (
 LDivI
@@ -1187,7 +1179,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitDivPowTwoI
 (
 LDivPowTwoI
@@ -1196,7 +1188,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitDivOrModConstantI
 (
 LDivOrModConstantI
@@ -1205,7 +1197,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitModI
 (
 LModI
@@ -1214,7 +1206,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitModPowTwoI
 (
 LModPowTwoI
@@ -1223,7 +1215,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitBitNotI
 (
 LBitNotI
@@ -1232,7 +1224,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitBitOpI
 (
 LBitOpI
@@ -1241,7 +1233,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitShiftI
 (
 LShiftI
@@ -1250,7 +1242,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitUrshD
 (
 LUrshD
@@ -1259,7 +1251,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitTestIAndBranch
 (
 LTestIAndBranch
@@ -1268,7 +1260,7 @@ test
 )
 ;
 virtual
-bool
+void
 visitTestDAndBranch
 (
 LTestDAndBranch
@@ -1277,7 +1269,7 @@ test
 )
 ;
 virtual
-bool
+void
 visitTestFAndBranch
 (
 LTestFAndBranch
@@ -1286,7 +1278,7 @@ test
 )
 ;
 virtual
-bool
+void
 visitCompare
 (
 LCompare
@@ -1295,7 +1287,7 @@ comp
 )
 ;
 virtual
-bool
+void
 visitCompareAndBranch
 (
 LCompareAndBranch
@@ -1304,7 +1296,7 @@ comp
 )
 ;
 virtual
-bool
+void
 visitCompareD
 (
 LCompareD
@@ -1313,7 +1305,7 @@ comp
 )
 ;
 virtual
-bool
+void
 visitCompareDAndBranch
 (
 LCompareDAndBranch
@@ -1322,7 +1314,7 @@ comp
 )
 ;
 virtual
-bool
+void
 visitCompareF
 (
 LCompareF
@@ -1331,7 +1323,7 @@ comp
 )
 ;
 virtual
-bool
+void
 visitCompareFAndBranch
 (
 LCompareFAndBranch
@@ -1340,7 +1332,7 @@ comp
 )
 ;
 virtual
-bool
+void
 visitBitAndAndBranch
 (
 LBitAndAndBranch
@@ -1349,7 +1341,7 @@ baab
 )
 ;
 virtual
-bool
+void
 visitNotI
 (
 LNotI
@@ -1358,7 +1350,7 @@ comp
 )
 ;
 virtual
-bool
+void
 visitNotD
 (
 LNotD
@@ -1367,7 +1359,7 @@ comp
 )
 ;
 virtual
-bool
+void
 visitNotF
 (
 LNotF
@@ -1376,7 +1368,7 @@ comp
 )
 ;
 virtual
-bool
+void
 visitMathD
 (
 LMathD
@@ -1385,7 +1377,7 @@ math
 )
 ;
 virtual
-bool
+void
 visitMathF
 (
 LMathF
@@ -1394,7 +1386,7 @@ math
 )
 ;
 virtual
-bool
+void
 visitFloor
 (
 LFloor
@@ -1403,7 +1395,7 @@ lir
 )
 ;
 virtual
-bool
+void
 visitFloorF
 (
 LFloorF
@@ -1412,7 +1404,7 @@ lir
 )
 ;
 virtual
-bool
+void
 visitCeil
 (
 LCeil
@@ -1421,7 +1413,7 @@ lir
 )
 ;
 virtual
-bool
+void
 visitCeilF
 (
 LCeilF
@@ -1430,7 +1422,7 @@ lir
 )
 ;
 virtual
-bool
+void
 visitRound
 (
 LRound
@@ -1439,7 +1431,7 @@ lir
 )
 ;
 virtual
-bool
+void
 visitRoundF
 (
 LRoundF
@@ -1448,7 +1440,7 @@ lir
 )
 ;
 virtual
-bool
+void
 visitGuardShape
 (
 LGuardShape
@@ -1457,7 +1449,7 @@ guard
 )
 ;
 virtual
-bool
+void
 visitGuardObjectType
 (
 LGuardObjectType
@@ -1466,7 +1458,7 @@ guard
 )
 ;
 virtual
-bool
+void
 visitGuardClass
 (
 LGuardClass
@@ -1475,7 +1467,7 @@ guard
 )
 ;
 virtual
-bool
+void
 visitEffectiveAddress
 (
 LEffectiveAddress
@@ -1484,7 +1476,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitUDivOrMod
 (
 LUDivOrMod
@@ -1493,7 +1485,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitAsmJSPassStackArg
 (
 LAsmJSPassStackArg
@@ -1502,7 +1494,7 @@ ins
 )
 ;
 virtual
-bool
+void
 visitMemoryBarrier
 (
 LMemoryBarrier
@@ -1510,7 +1502,7 @@ LMemoryBarrier
 ins
 )
 ;
-bool
+void
 visitOutOfLineLoadTypedArrayOutOfBounds
 (
 OutOfLineLoadTypedArrayOutOfBounds
@@ -1518,7 +1510,7 @@ OutOfLineLoadTypedArrayOutOfBounds
 ool
 )
 ;
-bool
+void
 visitForkJoinGetSlice
 (
 LForkJoinGetSlice
@@ -1526,7 +1518,7 @@ LForkJoinGetSlice
 ins
 )
 ;
-bool
+void
 visitNegI
 (
 LNegI
@@ -1534,7 +1526,7 @@ LNegI
 lir
 )
 ;
-bool
+void
 visitNegD
 (
 LNegD
@@ -1542,7 +1534,7 @@ LNegD
 lir
 )
 ;
-bool
+void
 visitNegF
 (
 LNegF
@@ -1554,7 +1546,7 @@ lir
 /
 SIMD
 operators
-bool
+void
 visitSimdValueInt32x4
 (
 LSimdValueInt32x4
@@ -1562,7 +1554,7 @@ LSimdValueInt32x4
 lir
 )
 ;
-bool
+void
 visitSimdValueFloat32x4
 (
 LSimdValueFloat32x4
@@ -1570,7 +1562,7 @@ LSimdValueFloat32x4
 lir
 )
 ;
-bool
+void
 visitSimdSplatX4
 (
 LSimdSplatX4
@@ -1578,7 +1570,7 @@ LSimdSplatX4
 lir
 )
 ;
-bool
+void
 visitInt32x4
 (
 LInt32x4
@@ -1586,7 +1578,7 @@ LInt32x4
 ins
 )
 ;
-bool
+void
 visitFloat32x4
 (
 LFloat32x4
@@ -1594,7 +1586,7 @@ LFloat32x4
 ins
 )
 ;
-bool
+void
 visitInt32x4ToFloat32x4
 (
 LInt32x4ToFloat32x4
@@ -1602,7 +1594,7 @@ LInt32x4ToFloat32x4
 ins
 )
 ;
-bool
+void
 visitFloat32x4ToInt32x4
 (
 LFloat32x4ToInt32x4
@@ -1610,7 +1602,7 @@ LFloat32x4ToInt32x4
 ins
 )
 ;
-bool
+void
 visitSimdExtractElementI
 (
 LSimdExtractElementI
@@ -1618,7 +1610,7 @@ LSimdExtractElementI
 lir
 )
 ;
-bool
+void
 visitSimdExtractElementF
 (
 LSimdExtractElementF
@@ -1626,7 +1618,7 @@ LSimdExtractElementF
 lir
 )
 ;
-bool
+void
 visitSimdInsertElementI
 (
 LSimdInsertElementI
@@ -1634,7 +1626,7 @@ LSimdInsertElementI
 lir
 )
 ;
-bool
+void
 visitSimdInsertElementF
 (
 LSimdInsertElementF
@@ -1642,7 +1634,7 @@ LSimdInsertElementF
 lir
 )
 ;
-bool
+void
 visitSimdSignMaskX4
 (
 LSimdSignMaskX4
@@ -1650,7 +1642,7 @@ LSimdSignMaskX4
 ins
 )
 ;
-bool
+void
 visitSimdSwizzleI
 (
 LSimdSwizzleI
@@ -1658,7 +1650,7 @@ LSimdSwizzleI
 lir
 )
 ;
-bool
+void
 visitSimdSwizzleF
 (
 LSimdSwizzleF
@@ -1666,7 +1658,7 @@ LSimdSwizzleF
 lir
 )
 ;
-bool
+void
 visitSimdShuffle
 (
 LSimdShuffle
@@ -1674,7 +1666,7 @@ LSimdShuffle
 lir
 )
 ;
-bool
+void
 visitSimdUnaryArithIx4
 (
 LSimdUnaryArithIx4
@@ -1682,7 +1674,7 @@ LSimdUnaryArithIx4
 lir
 )
 ;
-bool
+void
 visitSimdUnaryArithFx4
 (
 LSimdUnaryArithFx4
@@ -1690,7 +1682,7 @@ LSimdUnaryArithFx4
 lir
 )
 ;
-bool
+void
 visitSimdBinaryCompIx4
 (
 LSimdBinaryCompIx4
@@ -1698,7 +1690,7 @@ LSimdBinaryCompIx4
 lir
 )
 ;
-bool
+void
 visitSimdBinaryCompFx4
 (
 LSimdBinaryCompFx4
@@ -1706,7 +1698,7 @@ LSimdBinaryCompFx4
 lir
 )
 ;
-bool
+void
 visitSimdBinaryArithIx4
 (
 LSimdBinaryArithIx4
@@ -1714,7 +1706,7 @@ LSimdBinaryArithIx4
 lir
 )
 ;
-bool
+void
 visitSimdBinaryArithFx4
 (
 LSimdBinaryArithFx4
@@ -1722,7 +1714,7 @@ LSimdBinaryArithFx4
 lir
 )
 ;
-bool
+void
 visitSimdBinaryBitwiseX4
 (
 LSimdBinaryBitwiseX4
@@ -1730,7 +1722,7 @@ LSimdBinaryBitwiseX4
 lir
 )
 ;
-bool
+void
 visitSimdShift
 (
 LSimdShift
@@ -1738,7 +1730,7 @@ LSimdShift
 lir
 )
 ;
-bool
+void
 visitSimdSelect
 (
 LSimdSelect
@@ -1753,7 +1745,7 @@ of
 line
 visitors
 .
-bool
+void
 visitOutOfLineBailout
 (
 OutOfLineBailout
@@ -1761,7 +1753,7 @@ OutOfLineBailout
 ool
 )
 ;
-bool
+void
 visitOutOfLineUndoALUOperation
 (
 OutOfLineUndoALUOperation
@@ -1769,7 +1761,7 @@ OutOfLineUndoALUOperation
 ool
 )
 ;
-bool
+void
 visitMulNegativeZeroCheck
 (
 MulNegativeZeroCheck
@@ -1777,7 +1769,7 @@ MulNegativeZeroCheck
 ool
 )
 ;
-bool
+void
 visitModOverflowCheck
 (
 ModOverflowCheck
@@ -1785,7 +1777,7 @@ ModOverflowCheck
 ool
 )
 ;
-bool
+void
 visitReturnZero
 (
 ReturnZero
@@ -1793,7 +1785,7 @@ ReturnZero
 ool
 )
 ;
-bool
+void
 visitOutOfLineTableSwitch
 (
 OutOfLineTableSwitch
@@ -1801,7 +1793,7 @@ OutOfLineTableSwitch
 ool
 )
 ;
-bool
+void
 generateInvalidateEpilogue
 (
 )
@@ -1848,7 +1840,7 @@ snapshot
 )
 {
 }
-bool
+void
 accept
 (
 CodeGeneratorX86Shared

@@ -695,6 +695,16 @@ true
 )
 {
 }
+void
+setOOM
+(
+)
+{
+enoughMemory_
+=
+false
+;
+}
 /
 /
 Note

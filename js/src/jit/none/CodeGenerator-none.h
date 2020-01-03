@@ -207,7 +207,7 @@ T1
 typename
 T2
 >
-bool
+void
 bailoutCmp32
 (
 Assembler
@@ -230,7 +230,7 @@ template
 typename
 T
 >
-bool
+void
 bailoutTest32
 (
 Assembler
@@ -255,7 +255,7 @@ T1
 typename
 T2
 >
-bool
+void
 bailoutCmpPtr
 (
 Assembler
@@ -273,7 +273,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 bailoutTestPtr
 (
 Assembler
@@ -291,7 +291,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 bailoutIfFalseBool
 (
 Register
@@ -304,7 +304,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 bailoutFrom
 (
 Label
@@ -318,7 +318,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 bailout
 (
 LSnapshot
@@ -330,7 +330,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 bailoutIf
 (
 Assembler
@@ -433,7 +433,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 emitTableSwitchDispatch
 (
 MTableSwitch
@@ -485,7 +485,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 generateInvalidateEpilogue
 (
 )
