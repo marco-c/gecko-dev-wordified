@@ -12745,6 +12745,11 @@ NS_OK
 }
 SendOfflineStatusChangeEventToAllWorkers
 (
+NS_IsOffline
+(
+)
+|
+|
 NS_IsAppOffline
 (
 appId
