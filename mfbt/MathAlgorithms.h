@@ -1217,6 +1217,9 @@ unsigned
 long
 index
 ;
+if
+(
+!
 _BitScanReverse
 (
 &
@@ -1230,6 +1233,9 @@ long
 aValue
 )
 )
+)
+return
+32
 ;
 return
 uint_fast8_t
@@ -1252,6 +1258,9 @@ unsigned
 long
 index
 ;
+if
+(
+!
 _BitScanForward
 (
 &
@@ -1265,6 +1274,9 @@ long
 aValue
 )
 )
+)
+return
+32
 ;
 return
 uint_fast8_t
@@ -1386,6 +1398,9 @@ unsigned
 long
 index
 ;
+if
+(
+!
 _BitScanReverse64
 (
 &
@@ -1399,6 +1414,9 @@ __int64
 aValue
 )
 )
+)
+return
+64
 ;
 return
 uint_fast8_t
@@ -1468,6 +1486,9 @@ unsigned
 long
 index
 ;
+if
+(
+!
 _BitScanForward64
 (
 &
@@ -1481,6 +1502,9 @@ __int64
 aValue
 )
 )
+)
+return
+64
 ;
 return
 uint_fast8_t
