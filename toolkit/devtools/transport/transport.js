@@ -2133,6 +2133,12 @@ stream
 {
 if
 (
+!
+this
+.
+_outgoingEnabled
+|
+|
 this
 .
 _outgoing
