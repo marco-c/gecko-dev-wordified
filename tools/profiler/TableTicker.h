@@ -768,7 +768,6 @@ tasktracer
 :
 StartLogging
 (
-sStartTime
 )
 ;
 }
