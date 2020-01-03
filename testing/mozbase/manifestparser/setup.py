@@ -219,7 +219,7 @@ manifestparser
 =
 manifestparser
 .
-manifestparser
+cli
 :
 main
       
