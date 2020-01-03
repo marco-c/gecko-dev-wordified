@@ -23316,7 +23316,7 @@ group
 static
 *
 /
-void
+bool
 TypeNewScript
 :
 :
@@ -23380,6 +23380,7 @@ unknownProperties
 )
 )
 return
+true
 ;
 ScopedJSDeletePtr
 <
@@ -23404,6 +23405,7 @@ if
 newScript
 )
 return
+false
 ;
 newScript
 -
@@ -23441,6 +23443,7 @@ newScript
 preliminaryObjects
 )
 return
+true
 ;
 group
 -
@@ -23461,6 +23464,9 @@ TraceTypeNewScript
 (
 group
 )
+;
+return
+true
 ;
 }
 /

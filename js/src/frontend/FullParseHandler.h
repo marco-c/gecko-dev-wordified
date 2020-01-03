@@ -3259,6 +3259,14 @@ genName
 makeGen
 )
 ;
+if
+(
+!
+genInit
+)
+return
+false
+;
 ParseNode
 *
 initialYield

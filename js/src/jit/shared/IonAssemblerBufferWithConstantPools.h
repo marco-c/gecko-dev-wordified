@@ -4282,6 +4282,9 @@ the
 next
 node
 .
+if
+(
+!
 this
 -
 >
@@ -4289,6 +4292,8 @@ ensureSpace
 (
 InstSize
 )
+)
+return
 ;
 MOZ_ASSERT
 (
