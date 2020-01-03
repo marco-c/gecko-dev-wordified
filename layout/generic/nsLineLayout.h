@@ -4024,9 +4024,6 @@ ApplyLineJustificationToAnnotations
 PerFrameData
 *
 aPFD
-PerSpanData
-*
-aContainingSpan
 nscoord
 aDeltaICoord
 nscoord
