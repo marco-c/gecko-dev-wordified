@@ -7350,6 +7350,8 @@ obj
 MOZ_ASSERT
 (
 result
+.
+value
 =
 =
 DenseElementResult
