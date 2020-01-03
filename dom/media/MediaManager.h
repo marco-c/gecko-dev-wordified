@@ -2883,6 +2883,13 @@ Get
 )
 ;
 static
+MediaManager
+*
+GetIfExists
+(
+)
+;
+static
 MessageLoop
 *
 GetMessageLoop
