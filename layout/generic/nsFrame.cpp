@@ -15371,6 +15371,15 @@ NS_STYLE_WILL_CHANGE_STACKING_CONTEXT
 )
 |
 |
+disp
+-
+>
+mIsolation
+!
+=
+NS_STYLE_ISOLATION_AUTO
+|
+|
 isVisuallyAtomic
 |
 |
