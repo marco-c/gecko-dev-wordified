@@ -163,6 +163,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

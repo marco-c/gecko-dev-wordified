@@ -214,6 +214,7 @@ uint64_t
 NativeState
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /

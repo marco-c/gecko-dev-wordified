@@ -160,6 +160,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
