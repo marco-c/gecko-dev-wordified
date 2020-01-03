@@ -30409,13 +30409,6 @@ value
 toObject
 (
 )
-.
-as
-<
-NativeObject
->
-(
-)
 )
 ;
 if
@@ -30471,13 +30464,6 @@ newObjectBox
 value
 .
 toObject
-(
-)
-.
-as
-<
-NativeObject
->
 (
 )
 )
