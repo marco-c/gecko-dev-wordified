@@ -185,6 +185,9 @@ createElement
 iframe
 "
 {
+hidden
+:
+true
 id
 :
 "
@@ -197,9 +200,6 @@ this
 props
 .
 marketplaceSrc
-hidden
-:
-true
 }
 )
 ;

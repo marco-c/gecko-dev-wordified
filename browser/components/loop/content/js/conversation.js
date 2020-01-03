@@ -990,9 +990,6 @@ createElement
 (
 AppControllerView
 {
-roomStore
-:
-roomStore
 dispatcher
 :
 dispatcher
@@ -1001,6 +998,9 @@ mozLoop
 navigator
 .
 mozLoop
+roomStore
+:
+roomStore
 }
 )
 document
