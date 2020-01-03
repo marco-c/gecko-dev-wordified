@@ -241,6 +241,14 @@ CLSID_CMSAACDecMFT
 ;
 #
 endif
+extern
+"
+C
+"
+const
+CLSID
+CLSID_CMSH264DecMFT
+;
 namespace
 wmf
 {
