@@ -149,6 +149,9 @@ getTelemetryDetails
 "
 callNoUpdateListeners
 "
+"
+backgroundUpdateTimerHandler
+"
 ]
 ;
 function
