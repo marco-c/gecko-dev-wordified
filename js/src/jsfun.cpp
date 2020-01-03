@@ -6188,6 +6188,7 @@ fun_trace
 CreateFunctionConstructor
 CreateFunctionPrototype
 nullptr
+nullptr
 function_methods
 function_properties
 }

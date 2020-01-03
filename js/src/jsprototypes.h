@@ -649,7 +649,7 @@ real
 (
 RegExp
 10
-InitRegExpClass
+InitViaClassSpec
 OCLASP
 (
 RegExp

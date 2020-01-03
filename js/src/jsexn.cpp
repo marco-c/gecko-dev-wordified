@@ -498,6 +498,8 @@ createProto
 \
 nullptr
 \
+nullptr
+\
 exception_methods
 \
 nullptr
@@ -612,6 +614,7 @@ ErrorObject
 :
 :
 createProto
+nullptr
 nullptr
 exception_methods
 0

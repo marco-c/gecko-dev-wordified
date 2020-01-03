@@ -4921,6 +4921,8 @@ CreatePrototype
 \
 nullptr
 \
+nullptr
+\
 Shared
 #
 #
