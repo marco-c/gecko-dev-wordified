@@ -8874,9 +8874,6 @@ do
 it
 here
 .
-nsresult
-rv
-=
 painter
 .
 PaintTable
@@ -8894,15 +8891,6 @@ nsMargin
 0
 )
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
 ;
 if
 (
