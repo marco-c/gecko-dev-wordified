@@ -419,14 +419,6 @@ CLOSINGBRACE
 static
 const
 char16_t
-COMMA
-=
-'
-'
-;
-static
-const
-char16_t
 EQUALS
 =
 '
@@ -442,6 +434,7 @@ ATSYMBOL
 '
 ;
 static
+const
 uint32_t
 kSubHostPathCharacterCutoff
 =
@@ -451,6 +444,7 @@ static
 const
 char
 *
+const
 kHashSourceValidFns
 [
 ]
@@ -872,6 +866,7 @@ nsCSPParser
 )
 ;
 }
+static
 bool
 isCharacterToken
 (
@@ -916,6 +911,7 @@ Z
 )
 ;
 }
+static
 bool
 isNumberToken
 (
@@ -942,6 +938,7 @@ aSymbol
 )
 ;
 }
+static
 bool
 isValidHexDig
 (
