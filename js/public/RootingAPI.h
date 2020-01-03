@@ -1823,6 +1823,7 @@ variant
 .
 *
 /
+explicit
 Heap
 (
 const
