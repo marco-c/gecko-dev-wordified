@@ -561,6 +561,17 @@ int64_t
 (
 usecs
 )
+kKeyMovieDuration
+=
+'
+mdur
+'
+/
+/
+int64_t
+(
+usecs
+)
 kKeyColorFormat
 =
 '
