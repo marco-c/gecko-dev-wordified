@@ -1318,6 +1318,12 @@ includes
 *
 {
 *
+authentication
+:
+"
+PROMPT
+"
+*
 client
 :
 {
@@ -3392,6 +3398,12 @@ includes
 :
 *
 {
+*
+authentication
+:
+"
+OOB_CERT
+"
 *
 client
 :
