@@ -271,8 +271,6 @@ global
 content
 /
 aboutRights
--
-unbranded
 .
 xhtml
 "
