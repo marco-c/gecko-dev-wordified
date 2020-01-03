@@ -3207,19 +3207,6 @@ enable
 pic
 '
 ]
-            
-configure
-+
-=
-[
-'
--
--
-disable
--
-avx2
-'
-]
         
 #
 x86inc
