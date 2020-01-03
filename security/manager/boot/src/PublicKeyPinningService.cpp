@@ -1835,9 +1835,11 @@ if
 (
 time
 >
-TimeFromElapsedSecondsAD
+TimeFromEpochInSeconds
 (
 kPreloadPKPinsExpirationTime
+/
+PR_USEC_PER_SEC
 )
 )
 {
