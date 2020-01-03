@@ -575,10 +575,6 @@ nsWebBrowser
 (
 )
 :
-mDocShellTreeOwner
-(
-nullptr
-)
 mInitInfo
 (
 nullptr
@@ -738,10 +734,9 @@ WebBrowser
 nullptr
 )
 ;
-NS_RELEASE
-(
 mDocShellTreeOwner
-)
+=
+nullptr
 ;
 }
 if
@@ -9909,11 +9904,6 @@ mDocShellTreeOwner
 new
 nsDocShellTreeOwner
 (
-)
-;
-NS_ADDREF
-(
-mDocShellTreeOwner
 )
 ;
 mDocShellTreeOwner
