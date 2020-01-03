@@ -933,7 +933,7 @@ used
 endif
 const
 BYTE
-OculusVRDistortionVS
+Oculus050VRDistortionVS
 [
 ]
 =
@@ -3133,7 +3133,7 @@ used
 endif
 const
 BYTE
-OculusVRDistortionPS
+Oculus050VRDistortionPS
 [
 ]
 =
