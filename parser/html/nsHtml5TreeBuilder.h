@@ -15,7 +15,7 @@ c
 )
 2007
 -
-2011
+2015
 Mozilla
 Foundation
 *
@@ -746,6 +746,9 @@ extractCharsetFromContent
 nsString
 *
 attributeValue
+nsHtml5TreeBuilder
+*
+tb
 )
 ;
 private

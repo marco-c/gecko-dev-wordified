@@ -7,7 +7,7 @@ c
 )
 2008
 -
-2009
+2015
 Mozilla
 Foundation
 *
@@ -363,6 +363,12 @@ int
 offset
 int
 length
+/
+/
+CPPONLY
+:
+TreeBuilder
+treeBuilder
 )
 {
 return

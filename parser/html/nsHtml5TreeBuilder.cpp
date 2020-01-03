@@ -15,7 +15,7 @@ c
 )
 2007
 -
-2011
+2015
 Mozilla
 Foundation
 *
@@ -10069,6 +10069,9 @@ extractCharsetFromContent
 nsString
 *
 attributeValue
+nsHtml5TreeBuilder
+*
+tb
 )
 {
 int32_t
@@ -10740,6 +10743,7 @@ start
 end
 -
 start
+tb
 )
 ;
 }
@@ -10858,6 +10862,7 @@ nsHtml5TreeBuilder
 extractCharsetFromContent
 (
 content
+this
 )
 ;
 if

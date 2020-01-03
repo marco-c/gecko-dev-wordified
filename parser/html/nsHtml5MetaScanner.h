@@ -15,7 +15,7 @@ c
 )
 2008
 -
-2010
+2015
 Mozilla
 Foundation
 *
@@ -457,10 +457,18 @@ charset
 int32_t
 httpEquivState
 ;
+nsHtml5TreeBuilder
+*
+treeBuilder
+;
 public
 :
+explicit
 nsHtml5MetaScanner
 (
+nsHtml5TreeBuilder
+*
+tb
 )
 ;
 ~

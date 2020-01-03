@@ -15,7 +15,7 @@ c
 )
 2007
 -
-2011
+2015
 Mozilla
 Foundation
 *
@@ -17195,6 +17195,12 @@ extractCharsetFromContent
 (
 String
 attributeValue
+/
+/
+CPPONLY
+:
+TreeBuilder
+tb
 )
 {
 /
@@ -17802,6 +17808,11 @@ start
 end
 -
 start
+/
+/
+CPPONLY
+:
+tb
 )
 ;
 }
@@ -17913,6 +17924,11 @@ TreeBuilder
 extractCharsetFromContent
 (
 content
+/
+/
+CPPONLY
+:
+this
 )
 ;
 /

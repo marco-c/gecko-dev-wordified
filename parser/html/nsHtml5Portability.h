@@ -7,7 +7,7 @@ c
 )
 2008
 -
-2009
+2015
 Mozilla
 Foundation
 *
@@ -395,6 +395,9 @@ int32_t
 offset
 int32_t
 length
+nsHtml5TreeBuilder
+*
+treeBuilder
 )
 ;
 static
