@@ -1098,6 +1098,16 @@ video
 avc
 "
 )
+|
+|
+!
+mPDM
+-
+>
+DecoderNeedsAVCC
+(
+aConfig
+)
 )
 {
 /
