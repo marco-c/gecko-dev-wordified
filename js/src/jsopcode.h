@@ -4350,9 +4350,6 @@ op
 JSOP_STRICTNE
 ;
 }
-#
-ifdef
-DEBUG
 inline
 bool
 IsCheckStrictOp
@@ -4372,6 +4369,9 @@ format
 JOF_CHECKSTRICT
 ;
 }
+#
+ifdef
+DEBUG
 inline
 bool
 IsCheckSloppyOp

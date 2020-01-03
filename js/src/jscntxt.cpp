@@ -2924,6 +2924,10 @@ bug
 .
 *
 /
+jsbytecode
+*
+pc
+;
 JSScript
 *
 script
@@ -2933,6 +2937,8 @@ cx
 >
 currentScript
 (
+&
+pc
 )
 ;
 if
@@ -2940,11 +2946,13 @@ if
 script
 &
 &
-script
--
->
-strict
+IsCheckStrictOp
 (
+JSOp
+(
+*
+pc
+)
 )
 )
 *
