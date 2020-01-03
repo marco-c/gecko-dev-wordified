@@ -4971,6 +4971,16 @@ IsLogicallyVisible
 (
 )
 ;
+sel
+-
+>
+Stringify
+(
+init
+.
+mSelectedTextContent
+)
+;
 nsRefPtr
 <
 CaretStateChangedEvent

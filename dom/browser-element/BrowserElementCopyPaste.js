@@ -545,6 +545,11 @@ selectionEditable
 e
 .
 selectionEditable
+selectedTextContent
+:
+e
+.
+selectedTextContent
 }
 ;
 /
