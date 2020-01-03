@@ -140,6 +140,10 @@ nicely
 *
 *
 /
+this
+.
+SpecialPowersException
+=
 function
 SpecialPowersException
 (
@@ -164,10 +168,12 @@ SpecialPowersException
 SpecialPowersException
 .
 prototype
-.
-toString
 =
+{
+toString
+:
 function
+SPE_toString
 (
 )
 {
@@ -189,6 +195,7 @@ message
 "
 '
 ;
+}
 }
 ;
 this
