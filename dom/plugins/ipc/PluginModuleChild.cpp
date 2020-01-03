@@ -10570,9 +10570,6 @@ QUIRK_SILVERLIGHT_FOCUS_CHECK_PARENT
 #
 endif
 }
-#
-ifdef
-OS_WIN
 if
 (
 specialType
@@ -10584,6 +10581,14 @@ nsPluginHost
 eSpecialType_Flash
 )
 {
+mQuirks
+|
+=
+QUIRK_FLASH_RETURN_EMPTY_DOCUMENT_ORIGIN
+;
+#
+ifdef
+OS_WIN
 mQuirks
 |
 =
@@ -10609,7 +10614,12 @@ mQuirks
 =
 QUIRK_FLASH_FIXUP_MOUSE_CAPTURE
 ;
+#
+endif
 }
+#
+ifdef
+OS_WIN
 /
 /
 QuickTime
