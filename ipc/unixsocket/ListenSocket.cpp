@@ -181,7 +181,7 @@ final
 :
 public
 UnixSocketWatcher
-protected
+public
 SocketIOBase
 {
 public
