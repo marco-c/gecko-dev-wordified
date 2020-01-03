@@ -3841,9 +3841,11 @@ locationHash
 =
 helper
 .
-locationHash
+locationData
 (
 )
+.
+hash
 ;
 var
 callId

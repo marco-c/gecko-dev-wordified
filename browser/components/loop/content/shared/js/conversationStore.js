@@ -2553,9 +2553,11 @@ Helper
 (
 )
 .
-locationHash
+locationData
 (
 )
+.
+hash
 ;
 var
 callId
