@@ -507,6 +507,11 @@ IdpSandbox
 (
 provider
 protocol
+this
+.
+_win
+.
+document
 )
 ;
 }
