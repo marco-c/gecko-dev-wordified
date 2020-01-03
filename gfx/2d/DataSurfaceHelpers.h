@@ -119,6 +119,7 @@ const
 IntSize
 &
 aSize
+const
 int32_t
 aStride
 )
