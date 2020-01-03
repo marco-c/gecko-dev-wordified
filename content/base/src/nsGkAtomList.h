@@ -14776,6 +14776,13 @@ onstop
 onstop
 "
 )
+GK_ATOM
+(
+onphoto
+"
+onphoto
+"
+)
 #
 ifdef
 MOZ_GAMEPAD
