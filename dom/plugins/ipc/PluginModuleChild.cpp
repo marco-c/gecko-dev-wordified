@@ -848,13 +848,6 @@ gChromeInstance
 this
 ;
 }
-mUserAgent
-.
-SetIsVoid
-(
-true
-)
-;
 #
 ifdef
 XP_MACOSX

@@ -1842,9 +1842,6 @@ mPluginFilename
 /
 /
 UTF8
-nsCString
-mUserAgent
-;
 int
 mQuirks
 ;
