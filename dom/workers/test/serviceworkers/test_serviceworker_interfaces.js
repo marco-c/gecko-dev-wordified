@@ -242,9 +242,6 @@ name
 "
 Intl
 "
-b2g
-:
-false
 android
 :
 false
