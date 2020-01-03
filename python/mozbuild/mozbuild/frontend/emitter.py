@@ -5012,6 +5012,18 @@ SharedLibrary
 FRAMEWORK
             
 if
+not
+static_lib
+and
+not
+shared_lib
+:
+                
+static_lib
+=
+True
+            
+if
 static_name
 :
                 
@@ -5102,18 +5114,6 @@ soname
 ]
 =
 soname
-            
-if
-not
-static_lib
-and
-not
-shared_lib
-:
-                
-static_lib
-=
-True
             
 #
 If
