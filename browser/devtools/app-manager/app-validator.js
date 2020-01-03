@@ -1905,9 +1905,6 @@ if
 web
 "
 "
-trusted
-"
-"
 privileged
 "
 "
