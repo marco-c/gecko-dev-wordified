@@ -2057,7 +2057,7 @@ additional
 checks
 /
 /
-especilaly
+especially
 checks
 that
 require
