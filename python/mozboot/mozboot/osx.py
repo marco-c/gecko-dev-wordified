@@ -1702,7 +1702,7 @@ print
 path
 '
 ]
-                    
+                                           
 stderr
 =
 subprocess
@@ -1903,7 +1903,7 @@ xcrun
 clang
 '
 ]
-                
+                                       
 stderr
 =
 subprocess
@@ -1954,7 +1954,7 @@ xcodebuild
 license
 '
 ]
-                        
+                                          
 stderr
 =
 subprocess
@@ -2588,7 +2588,7 @@ install
 '
 llvm
 '
-                
+                                   
 '
 -
 -
@@ -3913,7 +3913,7 @@ URL
 for
 your
 '
-                
+                            
 '
 OS
 X
@@ -4128,7 +4128,7 @@ upgrade
 '
 package
 ]
-                    
+                                        
 stderr
 =
 subprocess

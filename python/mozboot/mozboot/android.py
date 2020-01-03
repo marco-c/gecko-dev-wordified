@@ -626,7 +626,7 @@ check_output
 (
 [
 android_tool
-        
+                          
 '
 list
 '
@@ -1475,7 +1475,7 @@ check_call
 (
 [
 android_tool
-        
+                           
 '
 update
 '
@@ -1489,7 +1489,7 @@ no
 -
 ui
 '
-        
+                           
 '
 -
 -

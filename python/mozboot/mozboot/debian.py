@@ -999,7 +999,7 @@ ensure_android_sdk_and_ndk
 path
 =
 mozbuild_path
-            
+                                           
 sdk_path
 =
 self
@@ -1010,7 +1010,7 @@ sdk_url
 self
 .
 sdk_url
-            
+                                           
 ndk_path
 =
 self
@@ -1132,7 +1132,7 @@ suggest_mozconfig
 sdk_path
 =
 sdk_path
-            
+                                  
 ndk_path
 =
 self
