@@ -1648,7 +1648,7 @@ starts
 playing
 to
 send
-PlaybackPositionChanged
+UpdateLogicalPosition
 events
 once
 in
@@ -1737,7 +1737,7 @@ changed
 event
 by
 sending
-PlaybackPositionChanged
+UpdateLogicalPosition
 event
 to
 /
