@@ -705,15 +705,6 @@ mEnableSpdy
 ;
 }
 bool
-IsSpdyV3Enabled
-(
-)
-{
-return
-mSpdyV3
-;
-}
-bool
 IsSpdyV31Enabled
 (
 )
@@ -2529,11 +2520,6 @@ mHandlerActive
 ;
 uint32_t
 mEnableSpdy
-:
-1
-;
-uint32_t
-mSpdyV3
 :
 1
 ;

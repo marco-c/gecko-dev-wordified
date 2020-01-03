@@ -1174,14 +1174,6 @@ version
 =
 SPDY_VERSION_31
 )
-&
-&
-(
-version
-!
-=
-SPDY_VERSION_3
-)
 )
 {
 LOG

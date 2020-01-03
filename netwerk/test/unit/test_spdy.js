@@ -4,6 +4,8 @@ test
 spdy
 /
 3
+.
+1
 var
 Ci
 =
@@ -169,6 +171,8 @@ Spdy
 =
 "
 3
+.
+1
 "
 )
 {
@@ -2564,6 +2568,8 @@ spdy
 enabled
 .
 v3
+-
+1
 "
 spdy3pref
 )
@@ -2730,6 +2736,8 @@ negotiate
 spdy
 /
 3
+.
+1
 spdypref
 =
 prefs
@@ -2763,6 +2771,8 @@ spdy
 enabled
 .
 v3
+-
+1
 "
 )
 ;
@@ -2815,6 +2825,8 @@ spdy
 enabled
 .
 v3
+-
+1
 "
 true
 )
