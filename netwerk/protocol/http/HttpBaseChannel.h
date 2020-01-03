@@ -1350,6 +1350,12 @@ aTopWindowURI
 )
 MOZ_OVERRIDE
 ;
+NS_IMETHOD
+ContinueBeginConnect
+(
+)
+MOZ_OVERRIDE
+;
 inline
 void
 CleanRedirectCacheChainIfNecessary
