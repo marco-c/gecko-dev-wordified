@@ -1604,6 +1604,12 @@ blockid
 ]
 ;
 }
+bool
+atBodyLevel
+(
+)
+const
+;
 uint32_t
 computeHops
 (
