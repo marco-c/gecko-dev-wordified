@@ -2764,12 +2764,6 @@ SetPrefFocusRules
 void
 )
 ;
-nsresult
-SetPrefNoFramesRule
-(
-void
-)
-;
 /
 /
 methods
