@@ -1614,7 +1614,7 @@ ButtonText
 }
 .
 subviewbutton
-menuStateHover
+menuStateMenuActive
 menuitem
 .
 panel
@@ -1672,7 +1672,7 @@ panel
 subview
 -
 footer
-menuStateHover
+menuStateMenuActive
 >
 .
 menu
