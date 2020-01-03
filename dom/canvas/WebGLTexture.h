@@ -276,8 +276,6 @@ WebGLTexture
 WebGLContext
 *
 aContext
-GLuint
-tex
 )
 ;
 void

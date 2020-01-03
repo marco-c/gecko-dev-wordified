@@ -186,7 +186,7 @@ WebGLContext
 context
 )
 :
-WebGLBindable
+WebGLBindableName
 <
 VAOBinding
 >
@@ -195,10 +195,6 @@ VAOBinding
 WebGLContextBoundObject
 (
 context
-)
-mGLName
-(
-0
 )
 {
 context

@@ -196,9 +196,7 @@ WebGLBuffer
 (
 WebGLContext
 *
-context
-GLuint
-buf
+aContext
 )
 ;
 void
