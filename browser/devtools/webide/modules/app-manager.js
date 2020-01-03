@@ -1238,13 +1238,6 @@ response
 "
 )
 ;
-return
-front
-.
-fetchIcons
-(
-)
-;
 }
 )
 .
@@ -1272,6 +1265,12 @@ apps
 -
 found
 "
+)
+;
+front
+.
+fetchIcons
+(
 )
 ;
 }
