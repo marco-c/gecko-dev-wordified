@@ -1160,7 +1160,6 @@ this
 .
 showInAboutDownloads
 (
-id
 download
 )
 ;
