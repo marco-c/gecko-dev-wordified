@@ -1137,12 +1137,6 @@ shuffle
 shuffle
             
 '
-testsRootDir
-'
-:
-tests_dir
-            
-'
 testingModulesDir
 '
 :
@@ -3032,14 +3026,6 @@ tests_dir
 modules
 '
 )
-        
-options
-.
-testsRootDir
-=
-self
-.
-xpcshell_dir
         
 options
 .
