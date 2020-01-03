@@ -217,7 +217,11 @@ layout
 const
 MIN_PAGE_SIZE
 =
-25
+exports
+.
+MIN_PAGE_SIZE
+=
+100
 ;
 /
 *
