@@ -494,6 +494,11 @@ EnsureUpToDateIndex
 (
 )
 ;
+void
+SetNextKeyFrameTime
+(
+)
+;
 nsRefPtr
 <
 MP4Demuxer
