@@ -236,6 +236,7 @@ isUpgrade
 )
 MOZ_OVERRIDE
 ;
+explicit
 OfflineCacheUpdateChild
 (
 nsIDOMWindow
