@@ -783,14 +783,6 @@ nullptr
 MOZ_OVERRIDE
 ;
 virtual
-nsDeviceContext
-*
-GetDeviceContext
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 LayerManager
 *
 GetLayerManager
@@ -2732,9 +2724,6 @@ mRequireOffMainThreadCompositing
 ;
 bool
 mUseAttachedEvents
-;
-bool
-mContextInitialized
 ;
 nsIntRect
 mBounds
