@@ -243,6 +243,13 @@ tests
 not
 in
 locations
+and
+'
+test_packages
+'
+not
+in
+locations
 :
         
 raise
@@ -256,6 +263,17 @@ extra
 locations
 .
 tests
+or
+'
+                                           
+'
+task
+.
+extra
+.
+locations
+.
+tests_packages
 missing
 '
 )
