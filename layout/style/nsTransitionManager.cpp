@@ -4518,12 +4518,7 @@ timeline
 player
 -
 >
-mStartTime
-=
-timeline
--
->
-GetCurrentTime
+PlayFromStyle
 (
 )
 ;
