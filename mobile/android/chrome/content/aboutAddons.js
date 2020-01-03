@@ -61,6 +61,12 @@ use
 strict
 "
 ;
+/
+*
+globals
+gChromeWin
+*
+/
 let
 Ci
 =
@@ -190,6 +196,7 @@ gChromeWin
 function
 (
 )
+{
 window
 .
 QueryInterface
@@ -235,6 +242,7 @@ Ci
 .
 nsIDOMChromeWindow
 )
+}
 )
 ;
 var

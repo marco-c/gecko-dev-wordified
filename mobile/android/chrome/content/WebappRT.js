@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+/
+*
+globals
+PermissionsInstaller
+*
+/
 let
 Cc
 =

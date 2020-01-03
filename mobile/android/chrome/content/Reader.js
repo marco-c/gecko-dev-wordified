@@ -84,6 +84,13 @@ use
 strict
 "
 ;
+/
+*
+globals
+MAX_URI_LENGTH
+MAX_TITLE_LENGTH
+*
+/
 let
 Reader
 =
