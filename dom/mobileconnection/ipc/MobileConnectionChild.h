@@ -460,7 +460,7 @@ bool
 RecvNotifyNetworkSelectionModeChanged
 (
 const
-nsString
+int32_t
 &
 aMode
 )
@@ -504,7 +504,7 @@ mLastNetwork
 nsString
 mLastHomeNetwork
 ;
-nsString
+int32_t
 mNetworkSelectionMode
 ;
 nsTArray

@@ -879,7 +879,7 @@ aLastKnownHomeNetwork
 nsString
 *
 aIccId
-nsString
+int32_t
 *
 aNetworkSelectionMode
 nsString
@@ -969,7 +969,6 @@ mMobileConnection
 >
 GetNetworkSelectionMode
 (
-*
 aNetworkSelectionMode
 )
 false
@@ -1623,7 +1622,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
-nsAutoString
+int32_t
 mode
 ;
 rv
@@ -1633,6 +1632,7 @@ mMobileConnection
 >
 GetNetworkSelectionMode
 (
+&
 mode
 )
 ;

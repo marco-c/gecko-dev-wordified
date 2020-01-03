@@ -237,7 +237,7 @@ aLastKnownHomeNetwork
 nsString
 *
 aIccId
-nsString
+int32_t
 *
 aNetworkSelectionMode
 nsString
