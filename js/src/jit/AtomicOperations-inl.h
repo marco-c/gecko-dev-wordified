@@ -163,11 +163,15 @@ include
 "
 jit
 /
-mips32
+mips
+-
+shared
 /
 AtomicOperations
 -
-mips32
+mips
+-
+shared
 .
 h
 "
