@@ -217,7 +217,7 @@ DeviceStorageRequestParent
 mMutex
 "
 )
-mActorDestoryed
+mActorDestroyed
 (
 false
 )
@@ -1958,7 +1958,7 @@ lock
 mMutex
 )
 ;
-mActorDestoryed
+mActorDestroyed
 =
 true
 ;
