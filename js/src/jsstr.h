@@ -2769,7 +2769,8 @@ HandleString
 sep
 )
 ;
-bool
+JSString
+*
 str_replace_string_raw
 (
 JSContext
@@ -2781,8 +2782,6 @@ HandleString
 pattern
 HandleString
 replacement
-MutableHandleValue
-rval
 )
 ;
 extern
