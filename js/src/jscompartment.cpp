@@ -3561,7 +3561,7 @@ unbarrieredGet
 )
 &
 &
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 global_
 .
@@ -3612,7 +3612,7 @@ unbarrieredGet
 )
 &
 &
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 (
 JSObject
@@ -3841,7 +3841,7 @@ if
 gc
 :
 :
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 &
 iterObj
@@ -4012,7 +4012,7 @@ JSTRACE_OBJECT
 ;
 keyDying
 =
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 reinterpret_cast
 <
@@ -4057,7 +4057,7 @@ JSTRACE_STRING
 ;
 keyDying
 =
-IsStringAboutToBeFinalizedFromAnyThread
+IsStringAboutToBeFinalized
 (
 reinterpret_cast
 <
@@ -4102,7 +4102,7 @@ JSTRACE_SCRIPT
 ;
 keyDying
 =
-IsScriptAboutToBeFinalizedFromAnyThread
+IsScriptAboutToBeFinalized
 (
 reinterpret_cast
 <
@@ -4135,7 +4135,7 @@ kind
 bool
 valDying
 =
-IsValueAboutToBeFinalizedFromAnyThread
+IsValueAboutToBeFinalized
 (
 e
 .
@@ -4160,7 +4160,7 @@ key
 debugger
 &
 &
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 &
 key

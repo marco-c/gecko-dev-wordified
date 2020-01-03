@@ -5619,7 +5619,7 @@ marked
 )
 &
 &
-IsStringMarkedFromAnyThread
+IsStringMarked
 (
 &
 shared
@@ -5672,7 +5672,7 @@ compilation
 jitCode
 &
 &
-IsJitCodeAboutToBeFinalizedFromAnyThread
+IsJitCodeAboutToBeFinalized
 (
 compilation
 .
@@ -5731,7 +5731,7 @@ if
 matchResultTemplateObject_
 &
 &
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 matchResultTemplateObject_
 .
