@@ -508,15 +508,6 @@ blob
 /
 /
 nsIClassInfo
-implementationLanguage
-:
-Components
-.
-interfaces
-.
-nsIProgrammingLanguage
-.
-JAVASCRIPT
 flags
 :
 0

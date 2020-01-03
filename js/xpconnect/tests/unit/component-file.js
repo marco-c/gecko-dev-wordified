@@ -643,15 +643,6 @@ file
 /
 /
 nsIClassInfo
-implementationLanguage
-:
-Components
-.
-interfaces
-.
-nsIProgrammingLanguage
-.
-JAVASCRIPT
 flags
 :
 0
