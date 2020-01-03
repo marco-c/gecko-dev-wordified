@@ -669,9 +669,6 @@ Param
 <
 String
 >
-:
-:
-Type
 (
 className
 env

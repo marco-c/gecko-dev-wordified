@@ -163,7 +163,7 @@ object
 /
 reference
 but
-Param
+ParamImpl
 can
 be
 specialized
@@ -200,7 +200,7 @@ class
 Cls
 >
 struct
-Param
+ParamImpl
 {
 typedef
 Ref
@@ -210,6 +210,23 @@ Cls
 Type
 ;
 }
+;
+template
+<
+class
+Cls
+>
+using
+Param
+=
+typename
+ParamImpl
+<
+Cls
+>
+:
+:
+Type
 ;
 /
 /
@@ -426,7 +443,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 jni
 :
 :
@@ -434,9 +450,6 @@ Param
 <
 Object
 >
-:
-:
-Type
 &
 Param
 ;
@@ -522,7 +535,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 jni
 :
 :
@@ -530,9 +542,6 @@ Param
 <
 Self
 >
-:
-:
-Type
 &
 Param
 ;
@@ -636,7 +645,7 @@ template
 <
 >
 struct
-Param
+ParamImpl
 <
 String
 >
@@ -3088,7 +3097,7 @@ nsAString
 /
 nsACString
 class
-Param
+ParamImpl
 <
 String
 >

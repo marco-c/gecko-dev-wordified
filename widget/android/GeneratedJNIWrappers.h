@@ -135,7 +135,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -146,9 +145,6 @@ Param
 <
 DownloadsIntegration
 >
-:
-:
-Type
 &
 Param
 ;
@@ -360,7 +356,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -371,9 +366,6 @@ Param
 <
 GeckoAppShell
 >
-:
-:
-Type
 &
 Param
 ;
@@ -8921,7 +8913,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -8932,9 +8923,6 @@ Param
 <
 GeckoJavaSampler
 >
-:
-:
-Type
 &
 Param
 ;
@@ -9700,7 +9688,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -9711,9 +9698,6 @@ Param
 <
 RestrictedProfiles
 >
-:
-:
-Type
 &
 Param
 ;
@@ -10112,7 +10096,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -10123,9 +10106,6 @@ Param
 <
 SurfaceBits
 >
-:
-:
-Type
 &
 Param
 ;
@@ -10717,7 +10697,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -10728,9 +10707,6 @@ Param
 <
 ThumbnailHelper
 >
-:
-:
-Type
 &
 Param
 ;
@@ -10930,7 +10906,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -10941,9 +10916,6 @@ Param
 <
 DisplayPortMetrics
 >
-:
-:
-Type
 &
 Param
 ;
@@ -11340,7 +11312,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -11351,9 +11322,6 @@ Param
 <
 GLController
 >
-:
-:
-Type
 &
 Param
 ;
@@ -11571,7 +11539,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -11582,9 +11549,6 @@ Param
 <
 GeckoLayerClient
 >
-:
-:
-Type
 &
 Param
 ;
@@ -12869,7 +12833,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -12880,9 +12843,6 @@ Param
 <
 ImmutableViewportMetrics
 >
-:
-:
-Type
 &
 Param
 ;
@@ -13089,7 +13049,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -13100,9 +13059,6 @@ Param
 <
 LayerView
 >
-:
-:
-Type
 &
 Param
 ;
@@ -13421,7 +13377,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -13432,9 +13387,6 @@ Param
 <
 NativePanZoomController
 >
-:
-:
-Type
 &
 Param
 ;
@@ -13622,7 +13574,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -13633,9 +13584,6 @@ Param
 <
 ProgressiveUpdateData
 >
-:
-:
-Type
 &
 Param
 ;
@@ -14293,7 +14241,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -14304,9 +14251,6 @@ Param
 <
 ViewTransform
 >
-:
-:
-Type
 &
 Param
 ;
@@ -15313,7 +15257,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -15324,9 +15267,6 @@ Param
 <
 NativeZip
 >
-:
-:
-Type
 &
 Param
 ;
@@ -15558,7 +15498,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -15569,9 +15508,6 @@ Param
 <
 MatrixBlobCursor
 >
-:
-:
-Type
 &
 Param
 ;
@@ -16202,7 +16138,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -16213,9 +16148,6 @@ Param
 <
 SQLiteBridgeException
 >
-:
-:
-Type
 &
 Param
 ;
@@ -16603,7 +16535,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 mozilla
 :
 :
@@ -16614,9 +16545,6 @@ Param
 <
 Clipboard
 >
-:
-:
-Type
 &
 Param
 ;

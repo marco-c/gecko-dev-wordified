@@ -600,14 +600,10 @@ template
 struct
 TypeAdapter
 <
-class
 Param
 <
 String
 >
-:
-:
-Type
 >
 :
 public
