@@ -1350,15 +1350,11 @@ Assert
 that
 if
 CSS_PROPERTY_ALWAYS_ENABLED_IN_UA_SHEETS
-or
-/
-/
-CSS_PROPERTY_ALWAYS_ENABLED_IN_CHROME_OR_CERTIFIED_APP
 is
 used
+/
+/
 on
-/
-/
 a
 shorthand
 property
@@ -1368,9 +1364,9 @@ of
 its
 component
 longhands
+/
+/
 also
-/
-/
 has
 the
 flag
@@ -1383,7 +1379,6 @@ flagsToCheck
 =
 {
 CSS_PROPERTY_ALWAYS_ENABLED_IN_UA_SHEETS
-CSS_PROPERTY_ALWAYS_ENABLED_IN_CHROME_OR_CERTIFIED_APP
 }
 ;
 for
