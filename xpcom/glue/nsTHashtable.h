@@ -959,7 +959,7 @@ EntryType
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 EntryType
 *
@@ -2885,7 +2885,7 @@ PLDHashEntryHdr
 aEntry
 )
 {
-reinterpret_cast
+static_cast
 <
 EntryType
 *
@@ -3003,7 +3003,7 @@ aArg
 userFunc
 )
 (
-reinterpret_cast
+static_cast
 <
 EntryType
 *
@@ -3082,7 +3082,7 @@ aArg
 userFunc
 )
 (
-reinterpret_cast
+static_cast
 <
 EntryType
 *

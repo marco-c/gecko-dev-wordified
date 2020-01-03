@@ -840,10 +840,9 @@ mHashEntry
 ;
 struct
 Entry
-{
+:
 PLDHashEntryHdr
-mHdr
-;
+{
 nsIRDFNode
 *
 mNode
@@ -1146,7 +1145,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -1632,7 +1631,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -1673,7 +1672,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -1708,7 +1707,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -1774,7 +1773,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -2243,7 +2242,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -2938,7 +2937,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -4222,7 +4221,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -5128,7 +5127,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -5390,7 +5389,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -5906,7 +5905,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -6150,7 +6149,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -6213,7 +6212,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -6647,7 +6646,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -6786,7 +6785,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -8220,7 +8219,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -8469,7 +8468,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -9053,7 +9052,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -9111,7 +9110,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -9472,7 +9471,7 @@ PL_DHASH_ENTRY_IS_BUSY
 hdr
 )
 ?
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -10002,7 +10001,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -10270,7 +10269,7 @@ Entry
 *
 rentry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -10627,7 +10626,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -10835,7 +10834,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -10996,7 +10995,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
