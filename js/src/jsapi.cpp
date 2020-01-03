@@ -25156,7 +25156,6 @@ args
 begin
 (
 )
-false
 rval
 )
 ;
@@ -25271,7 +25270,6 @@ inputArgs
 length
 (
 )
-true
 )
 )
 return
@@ -25314,18 +25312,6 @@ inputArgs
 length
 (
 )
-)
-;
-args
-.
-newTarget
-(
-)
-.
-setObject
-(
-*
-ctor
 )
 ;
 if

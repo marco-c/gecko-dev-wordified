@@ -4241,13 +4241,6 @@ argumentsHasVarBinding
 :
 0
 ;
-bool
-hasNewTarget
-=
-isConstructing
-(
-)
-;
 SnapshotIterator
 parent_s
 (
@@ -4318,8 +4311,6 @@ nactual
 3
 +
 argsObjAdj
-+
-hasNewTarget
 )
 ;
 unsigned
@@ -4336,8 +4327,6 @@ nactual
 3
 -
 argsObjAdj
--
-hasNewTarget
 ;
 for
 (
@@ -4398,10 +4387,6 @@ nullptr
 nullptr
 nformal
 nactual
-+
-isConstructing
-(
-)
 it
 .
 script
@@ -4459,10 +4444,6 @@ nformal
 i
 <
 nactual
-+
-isConstructing
-(
-)
 ;
 i
 +

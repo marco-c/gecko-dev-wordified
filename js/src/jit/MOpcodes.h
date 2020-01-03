@@ -1416,16 +1416,6 @@ _
 (
 Debugger
 )
-\
-_
-(
-NewTarget
-)
-\
-_
-(
-ArrowNewTarget
-)
 /
 /
 Forward

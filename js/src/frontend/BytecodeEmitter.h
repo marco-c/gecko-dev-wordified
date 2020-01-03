@@ -3133,11 +3133,6 @@ uint32_t
 index
 )
 ;
-bool
-arrowNeedsNewTarget
-(
-)
-;
 MOZ_NEVER_INLINE
 bool
 emitFunction
