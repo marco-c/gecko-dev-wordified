@@ -1210,7 +1210,7 @@ name
 "
 ServiceWorkerRegistration
 "
-nightly
+disabled
 :
 true
 b2g
