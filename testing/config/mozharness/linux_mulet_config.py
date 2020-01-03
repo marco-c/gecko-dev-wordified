@@ -25,7 +25,7 @@ reftest_options
 "
 -
 -
-desktop
+mulet
 "
 "
 -
