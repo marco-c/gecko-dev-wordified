@@ -149,12 +149,6 @@ h
 namespace
 mozilla
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 nsCString
 DumpTimeRanges
 (
@@ -256,8 +250,6 @@ return
 dump
 ;
 }
-#
-endif
 }
 /
 /
