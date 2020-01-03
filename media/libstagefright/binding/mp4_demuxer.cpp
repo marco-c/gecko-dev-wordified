@@ -1288,11 +1288,11 @@ sample
 sample
 -
 >
-prefix_data
+extra_data
 =
 mVideoConfig
 .
-annex_b
+extra_data
 ;
 if
 (
@@ -1411,11 +1411,11 @@ media_time
 sample
 -
 >
-prefix_data
+extra_data
 =
 mVideoConfig
 .
-annex_b
+extra_data
 ;
 return
 sample

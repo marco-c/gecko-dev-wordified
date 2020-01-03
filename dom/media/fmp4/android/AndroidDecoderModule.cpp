@@ -1497,9 +1497,12 @@ csd0
 0
 ]
 =
+(
+*
 aConfig
 .
 audio_specific_config
+)
 [
 0
 ]
@@ -1509,9 +1512,12 @@ csd0
 1
 ]
 =
+(
+*
 aConfig
 .
 audio_specific_config
+)
 [
 1
 ]
