@@ -9291,6 +9291,12 @@ WebGLTexture
 >
 mBound3DTextures
 ;
+void
+ResolveTexturesForDraw
+(
+)
+const
+;
 WebGLRefPtr
 <
 WebGLProgram
