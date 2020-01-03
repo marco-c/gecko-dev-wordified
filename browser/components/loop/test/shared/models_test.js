@@ -426,7 +426,7 @@ describe
 (
 "
 #
-incoming
+accepted
 "
 function
 (
@@ -440,7 +440,7 @@ trigger
 a
 call
 :
-incoming
+accepted
 event
 "
 function
@@ -455,7 +455,7 @@ once
 "
 call
 :
-incoming
+accepted
 "
 function
 (
@@ -470,7 +470,7 @@ done
 ;
 conversation
 .
-incoming
+accepted
 (
 )
 ;
