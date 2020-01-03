@@ -3629,6 +3629,11 @@ break
 ;
 }
 }
+gst_iterator_free
+(
+it
+)
+;
 return
 unsupported
 ?
