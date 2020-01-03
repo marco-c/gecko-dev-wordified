@@ -9203,6 +9203,12 @@ length
 length
 )
 ;
+hb_buffer_set_cluster_level
+(
+buffer
+HB_BUFFER_CLUSTER_LEVEL_MONOTONE_CHARACTERS
+)
+;
 hb_shape
 (
 mHBFont
