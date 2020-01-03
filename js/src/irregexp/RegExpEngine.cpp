@@ -11348,6 +11348,8 @@ bool
 is_ascii
 bool
 match_only
+bool
+force_bytecode
 )
 {
 if
@@ -11913,6 +11915,10 @@ IsNativeRegExpEnabled
 (
 cx
 )
+&
+&
+!
+force_bytecode
 )
 {
 NativeRegExpMacroAssembler
