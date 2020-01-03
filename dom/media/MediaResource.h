@@ -1027,6 +1027,7 @@ int64_t
 Length
 (
 )
+const
 {
 return
 mEnd
