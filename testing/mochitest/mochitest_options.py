@@ -511,7 +511,10 @@ binary
 suppress
 "
 :
-True
+build_obj
+is
+not
+None
           
 }
 ]
@@ -5106,6 +5109,12 @@ allow
 relative
 paths
         
+if
+options
+.
+xrePath
+:
+            
 options
 .
 xrePath
@@ -9848,9 +9857,7 @@ ArgumentParser
 Usage
 instructions
 for
-runtests
-.
-py
+Mochitest
 .
     
 All
