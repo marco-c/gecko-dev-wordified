@@ -328,6 +328,16 @@ S_OK
 ;
 }
 virtual
+bool
+IsD3D11
+(
+)
+{
+return
+false
+;
+}
+virtual
 ~
 DXVA2Manager
 (
