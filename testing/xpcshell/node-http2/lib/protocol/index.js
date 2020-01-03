@@ -21,7 +21,7 @@ HTTP
 2
 (
 draft
-14
+16
 )
 ]
 [
@@ -420,7 +420,7 @@ httpbis
 -
 http2
 -
-14
+16
 /
 /
 [
@@ -449,7 +449,7 @@ httpbis
 -
 http2
 -
-14
+16
 #
 section
 -
@@ -484,7 +484,7 @@ httpbis
 -
 http2
 -
-14
+16
 #
 section
 -
@@ -517,7 +517,7 @@ httpbis
 -
 http2
 -
-14
+16
 #
 section
 -
