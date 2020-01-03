@@ -407,13 +407,14 @@ __lookupGetter__
 __lookupSetter__
 /
 /
+__proto__
 hasOwnProperty
 isPrototypeOf
 propertyIsEnumerable
+/
+/
 toLocaleString
 toString
-/
-/
 toSource
 unwatch
 valueOf
@@ -425,7 +426,7 @@ is
 popup
 .
 itemCount
-18
+19
 "
 popup
 .
@@ -488,6 +489,9 @@ __lookupGetter__
 "
 "
 __lookupSetter__
+"
+"
+__proto__
 "
 "
 constructor
@@ -556,7 +560,7 @@ is
 popup
 .
 selectedIndex
-17
+18
 "
 Index
 of
@@ -860,7 +864,7 @@ is
 popup
 .
 selectedIndex
-17
+18
 "
 index
 is
@@ -1124,7 +1128,7 @@ is
 popup
 .
 itemCount
-18
+19
 "
 popup
 .
@@ -1139,7 +1143,7 @@ is
 popup
 .
 selectedIndex
-17
+18
 "
 First
 index
@@ -1462,7 +1466,7 @@ is
 popup
 .
 itemCount
-18
+19
 "
 popup
 .
@@ -1477,7 +1481,7 @@ is
 popup
 .
 selectedIndex
-17
+18
 "
 First
 index
