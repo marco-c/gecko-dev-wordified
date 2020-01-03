@@ -6668,14 +6668,6 @@ TelemetrySend
 .
 overduePingsCount
 ;
-ret
-.
-pingsDiscarded
-=
-TelemetrySend
-.
-discardedPingsCount
-;
 return
 ret
 ;
