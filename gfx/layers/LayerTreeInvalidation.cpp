@@ -809,7 +809,7 @@ mTransform
 aLayer
 -
 >
-GetTransform
+GetLocalTransform
 (
 )
 ;
@@ -889,7 +889,7 @@ FuzzyEqual
 mLayer
 -
 >
-GetTransform
+GetLocalTransform
 (
 )
 )
@@ -1176,7 +1176,7 @@ GetBounds
 mLayer
 -
 >
-GetTransform
+GetLocalTransform
 (
 )
 )
@@ -1928,7 +1928,7 @@ GetVisibleRegion
 child
 -
 >
-GetTransform
+GetLocalTransform
 (
 )
 )
@@ -2016,7 +2016,7 @@ To3DMatrix
 mLayer
 -
 >
-GetTransform
+GetLocalTransform
 (
 )
 )
@@ -2717,7 +2717,7 @@ GetBounds
 aRoot
 -
 >
-GetTransform
+GetLocalTransform
 (
 )
 )
