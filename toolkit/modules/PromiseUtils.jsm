@@ -117,6 +117,11 @@ shutdown
 (
 )
 1000
+*
+(
+)
+=
+>
 new
 Error
 (
