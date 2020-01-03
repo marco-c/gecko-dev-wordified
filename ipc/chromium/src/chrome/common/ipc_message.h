@@ -1078,7 +1078,7 @@ void
 set_seqno
 (
 int32_t
-seqno
+aSeqno
 )
 {
 header
@@ -1088,7 +1088,7 @@ header
 >
 seqno
 =
-seqno
+aSeqno
 ;
 }
 const
@@ -1111,12 +1111,12 @@ const
 char
 *
 const
-name
+aName
 )
 {
 name_
 =
-name
+aName
 ;
 }
 #
