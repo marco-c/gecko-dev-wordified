@@ -300,11 +300,6 @@ NotifyBootAnimationStopped
 private
 :
 void
-StopBootAnim
-(
-)
-;
-void
 CreateSurface
 (
 android
