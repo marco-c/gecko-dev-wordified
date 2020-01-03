@@ -2357,8 +2357,8 @@ imgLoader
 loader
 imgRequest
 *
-request
-void
+aRequest
+nsISupports
 *
 aContext
 bool
@@ -2436,8 +2436,10 @@ imgCacheEntry
 >
 mNewEntry
 ;
-void
-*
+nsCOMPtr
+<
+nsISupports
+>
 mContext
 ;
 imgLoader
