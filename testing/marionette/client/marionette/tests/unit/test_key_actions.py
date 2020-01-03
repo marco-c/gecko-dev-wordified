@@ -58,13 +58,8 @@ marionette
 .
 marionette_test
 import
-(
 MarionetteTestCase
-                                        
 skip_if_b2g
-                                        
-skip_if_e10s
-)
 from
 marionette_driver
 .
@@ -660,8 +655,6 @@ key_reporter_value
     
 skip_if_b2g
     
-skip_if_e10s
-    
 def
 test_open_in_new_window_shortcut
 (
@@ -744,7 +737,7 @@ self
 .
 marionette
 .
-chrome_window_handles
+window_handles
 )
 =
 =
