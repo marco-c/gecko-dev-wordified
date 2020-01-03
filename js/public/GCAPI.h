@@ -577,7 +577,7 @@ writing
 *
 there
 are
-26
+52
 .
 But
 the
