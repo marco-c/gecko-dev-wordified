@@ -20983,7 +20983,7 @@ this
 .
 DOMAINS
 .
-includes
+indexOf
 (
 channel
 .
@@ -20991,6 +20991,10 @@ URI
 .
 host
 )
+!
+=
+-
+1
 )
 {
 return
