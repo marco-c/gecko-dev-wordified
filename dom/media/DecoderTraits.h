@@ -473,6 +473,16 @@ nsACString
 aType
 )
 ;
+static
+bool
+IsWebMType
+(
+const
+nsACString
+&
+aType
+)
+;
 }
 ;
 }

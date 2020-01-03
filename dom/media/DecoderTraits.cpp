@@ -979,8 +979,15 @@ opus
 nullptr
 }
 ;
+/
+*
 static
+*
+/
 bool
+DecoderTraits
+:
+:
 IsWebMType
 (
 const
@@ -1045,6 +1052,9 @@ ifdef
 MOZ_WEBM
 if
 (
+DecoderTraits
+:
+:
 IsWebMType
 (
 aMimeType
@@ -3177,6 +3187,9 @@ ifdef
 MOZ_WEBM
 if
 (
+DecoderTraits
+:
+:
 IsWebMType
 (
 aType
