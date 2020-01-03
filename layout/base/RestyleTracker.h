@@ -3220,6 +3220,9 @@ case
 .
 if
 (
+curData
+&
+&
 !
 (
 curData
