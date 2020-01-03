@@ -423,6 +423,11 @@ aRv
 )
 ;
 void
+Abort
+(
+)
+;
+void
 Remove
 (
 double
