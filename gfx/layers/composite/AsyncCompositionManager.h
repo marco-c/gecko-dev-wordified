@@ -602,7 +602,7 @@ aManager
 )
 mIsFirstPaint
 (
-false
+true
 )
 mLayersUpdated
 (
