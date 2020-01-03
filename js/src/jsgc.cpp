@@ -24419,8 +24419,6 @@ phase
 ;
 if
 (
-marker
-.
 hasBufferedGrayRoots
 (
 )
@@ -35425,8 +35423,6 @@ done
 if
 (
 !
-marker
-.
 hasBufferedGrayRoots
 (
 )
