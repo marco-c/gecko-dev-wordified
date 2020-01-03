@@ -175,7 +175,7 @@ WorkerFeature
 class
 BroadcastChannelChild
 ;
-struct
+class
 BroadcastChannelMessage
 ;
 class
