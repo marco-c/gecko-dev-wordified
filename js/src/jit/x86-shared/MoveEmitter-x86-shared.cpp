@@ -3942,8 +3942,6 @@ return
 scratchRegister_
 ;
 /
-*
-/
 /
 All
 registers
@@ -4193,8 +4191,6 @@ base
 ;
 }
 }
-*
-/
 return
 mozilla
 :
