@@ -162,6 +162,14 @@ resource
 /
 /
 "
+"
+jar
+:
+file
+:
+/
+/
+"
 ]
 ;
 const
@@ -182,6 +190,12 @@ https
 "
 "
 file
+:
+/
+/
+"
+"
+app
 :
 /
 /
