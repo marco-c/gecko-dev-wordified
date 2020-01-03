@@ -835,6 +835,9 @@ id
 if
 (
 device
+&
+&
+device
 .
 summonRoot
 )

@@ -203,6 +203,14 @@ jsm
 "
 )
 ;
+if
+(
+!
+DebuggerServer
+.
+initialized
+)
+{
 DebuggerServer
 .
 init
@@ -223,6 +231,7 @@ addBrowserActors
 (
 )
 ;
+}
 function
 compare
 (
