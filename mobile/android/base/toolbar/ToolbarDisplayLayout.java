@@ -1954,6 +1954,7 @@ mPrefs
 .
 shouldShowUrl
 (
+mActivity
 )
 |
 |
