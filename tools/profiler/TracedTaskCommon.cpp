@@ -148,7 +148,7 @@ mSourceEventType
 SourceEventType
 :
 :
-UNKNOWN
+Unknown
 )
 {
 Init
@@ -296,7 +296,7 @@ mCurTraceSourceType
 SourceEventType
 :
 :
-UNKNOWN
+Unknown
 ;
 info
 -

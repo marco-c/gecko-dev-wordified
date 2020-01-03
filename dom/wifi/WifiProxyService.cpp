@@ -402,7 +402,7 @@ taskTracerEvent
 SourceEventType
 :
 :
-WIFI
+Wifi
 )
 ;
 AddLabel

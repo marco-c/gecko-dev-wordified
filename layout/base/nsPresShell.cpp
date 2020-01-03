@@ -43926,7 +43926,7 @@ type
 SourceEventType
 :
 :
-UNKNOWN
+Unknown
 ;
 if
 (
@@ -43947,7 +43947,7 @@ type
 SourceEventType
 :
 :
-TOUCH
+Touch
 ;
 }
 else
@@ -43970,7 +43970,7 @@ type
 SourceEventType
 :
 :
-MOUSE
+Mouse
 ;
 }
 else
@@ -43993,7 +43993,7 @@ type
 SourceEventType
 :
 :
-KEY
+Key
 ;
 }
 AutoSourceEvent

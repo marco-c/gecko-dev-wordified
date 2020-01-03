@@ -2232,7 +2232,7 @@ taskTracerEvent
 SourceEventType
 :
 :
-UNIXSOCKET
+Unixsocket
 )
 ;
 #
