@@ -1298,10 +1298,10 @@ ReturnStatus
 rs
 nsTArray
 <
-nsString
+JSIDVariant
 >
 *
-names
+ids
 )
 =
 0

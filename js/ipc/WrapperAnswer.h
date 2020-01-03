@@ -457,10 +457,10 @@ ReturnStatus
 rs
 nsTArray
 <
-nsString
+JSIDVariant
 >
 *
-names
+ids
 )
 ;
 bool

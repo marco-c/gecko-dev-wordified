@@ -1372,6 +1372,8 @@ proxy
 JSITER_OWNONLY
 |
 JSITER_HIDDEN
+|
+JSITER_SYMBOLS
 props
 )
 ;
@@ -4129,9 +4131,9 @@ status
 ;
 InfallibleTArray
 <
-nsString
+JSIDVariant
 >
-names
+ids
 ;
 if
 (
@@ -4143,7 +4145,7 @@ flags
 &
 status
 &
-names
+ids
 )
 )
 return
@@ -4177,7 +4179,7 @@ i
 ;
 i
 <
-names
+ids
 .
 Length
 (
@@ -4189,7 +4191,7 @@ i
 )
 {
 RootedId
-name
+id
 (
 cx
 )
@@ -4197,15 +4199,15 @@ cx
 if
 (
 !
-convertGeckoStringToId
+fromJSIDVariant
 (
 cx
-names
+ids
 [
 i
 ]
 &
-name
+id
 )
 )
 return
@@ -4218,7 +4220,7 @@ props
 .
 append
 (
-name
+id
 )
 )
 return

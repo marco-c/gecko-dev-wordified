@@ -828,10 +828,10 @@ ReturnStatus
 rs
 nsTArray
 <
-nsString
+JSIDVariant
 >
 *
-names
+ids
 )
 {
 return
@@ -849,7 +849,7 @@ objId
 )
 flags
 rs
-names
+ids
 )
 ;
 }
@@ -1615,10 +1615,10 @@ ReturnStatus
 rs
 nsTArray
 <
-nsString
+JSIDVariant
 >
 *
-names
+ids
 )
 {
 return
@@ -1634,7 +1634,7 @@ serialize
 )
 flags
 rs
-names
+ids
 )
 ;
 }
