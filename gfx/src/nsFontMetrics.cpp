@@ -915,8 +915,17 @@ GetFirstValidFont
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 ;
+/
+/
+XXX
+vertical
+?
 }
 nscoord
 nsFontMetrics

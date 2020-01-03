@@ -19649,8 +19649,17 @@ GetFirstValidFont
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 ;
+/
+/
+XXX
+vertical
+?
 gfxFloat
 anchorY
 ;

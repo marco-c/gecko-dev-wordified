@@ -11247,8 +11247,17 @@ font
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 ;
+/
+/
+XXX
+vertical
+?
 /
 /
 The
