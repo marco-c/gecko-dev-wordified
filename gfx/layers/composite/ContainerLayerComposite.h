@@ -532,6 +532,12 @@ PreparedData
 >
 mPrepared
 ;
+RefPtr
+<
+CompositingRenderTarget
+>
+mLastIntermediateSurface
+;
 }
 ;
 class
@@ -831,6 +837,12 @@ UniquePtr
 PreparedData
 >
 mPrepared
+;
+RefPtr
+<
+CompositingRenderTarget
+>
+mLastIntermediateSurface
 ;
 }
 ;

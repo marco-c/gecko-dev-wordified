@@ -1067,6 +1067,14 @@ return
 this
 ;
 }
+void
+BindRenderTarget
+(
+ID3D11DeviceContext
+*
+aContext
+)
+;
 virtual
 gfx
 :
