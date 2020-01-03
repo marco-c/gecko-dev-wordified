@@ -8159,7 +8159,9 @@ if
 request
 -
 >
-mValidator
+GetValidator
+(
+)
 )
 {
 rv
@@ -8281,7 +8283,9 @@ notifying
 request
 -
 >
-mValidator
+GetValidator
+(
+)
 -
 >
 AddProxy
@@ -8600,9 +8604,10 @@ corsproxy
 request
 -
 >
-mValidator
-=
+SetValidator
+(
 hvc
+)
 ;
 /
 /
@@ -9188,7 +9193,9 @@ if
 request
 -
 >
-mLoadId
+LoadId
+(
+)
 !
 =
 key
@@ -9403,10 +9410,13 @@ do_GetInterface
 request
 -
 >
-mRequest
+GetRequest
+(
 )
 )
 )
+)
+{
 appCacheContainer
 -
 >
@@ -9418,6 +9428,7 @@ requestAppCache
 )
 )
 ;
+}
 if
 (
 (
@@ -9429,6 +9440,7 @@ aLoadGroup
 )
 )
 )
+{
 appCacheContainer
 -
 >
@@ -9440,6 +9452,7 @@ groupAppCache
 )
 )
 ;
+}
 if
 (
 requestAppCache
@@ -14768,8 +14781,9 @@ mRequest
 mRequest
 -
 >
-ClearValidator
+SetValidator
 (
+nullptr
 )
 ;
 }
@@ -15176,8 +15190,9 @@ mContext
 mRequest
 -
 >
-ClearValidator
+SetValidator
 (
+nullptr
 )
 ;
 mRequest
@@ -15360,8 +15375,9 @@ RemoveFromCache
 mRequest
 -
 >
-ClearValidator
+SetValidator
 (
+nullptr
 )
 ;
 mRequest
