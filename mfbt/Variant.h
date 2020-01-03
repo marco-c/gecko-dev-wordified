@@ -2144,7 +2144,6 @@ construction
 .
 *
 /
-explicit
 Variant
 (
 const
@@ -2180,7 +2179,6 @@ construction
 .
 *
 /
-explicit
 Variant
 (
 Variant
