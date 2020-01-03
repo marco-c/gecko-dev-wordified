@@ -482,11 +482,15 @@ aDecoder
 MediaDataDemuxer
 *
 aDemuxer
+MediaTaskQueue
+*
+aBorrowedTaskQueue
 )
 :
 MediaDecoderReader
 (
 aDecoder
+aBorrowedTaskQueue
 )
 mDemuxer
 (
