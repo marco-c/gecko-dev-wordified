@@ -123,15 +123,6 @@ whitelist
 .
 *
 /
-/
-/
-XXXdholbert
-whitelist
-is
-coming
-in
-bug
-1132743
 "
 use
 strict
