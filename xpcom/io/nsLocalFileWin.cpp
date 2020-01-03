@@ -8596,16 +8596,13 @@ an
 '
 aNode
 .
-FindChar
+Contains
 (
 L
 '
 /
 '
 )
-!
-=
-kNotFound
 |
 |
 /
@@ -8845,7 +8842,7 @@ if
 (
 aNode
 .
-FindChar
+Contains
 (
 L
 '
@@ -8853,9 +8850,6 @@ L
 \
 '
 )
-!
-=
-kNotFound
 )
 {
 return

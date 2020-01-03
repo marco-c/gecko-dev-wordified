@@ -9659,15 +9659,12 @@ IsEmpty
 |
 manifestSpec
 .
-FindChar
+Contains
 (
 '
 #
 '
 )
-!
-=
-kNotFound
 )
 {
 return

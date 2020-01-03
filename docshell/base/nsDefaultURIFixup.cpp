@@ -4335,12 +4335,9 @@ PC
 )
 if
 (
-kNotFound
-!
-=
 aIn
 .
-FindChar
+Contains
 (
 '
 \

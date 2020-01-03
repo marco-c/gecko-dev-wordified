@@ -417,13 +417,10 @@ strRes
 >
 mValue
 .
-FindChar
+Contains
 (
 ch
 )
-!
-=
-kNotFound
 )
 {
 ch

@@ -979,9 +979,10 @@ IsEmpty
 )
 &
 &
+!
 language
 .
-FindChar
+Contains
 (
 char16_t
 (
@@ -989,9 +990,6 @@ char16_t
 '
 )
 )
-=
-=
-kNotFound
 )
 {
 mLanguage
