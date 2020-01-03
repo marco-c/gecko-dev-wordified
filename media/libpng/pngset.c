@@ -4167,6 +4167,7 @@ the
 old
 members
 in
+;
 this
 does
 all
@@ -5794,7 +5795,7 @@ depth
 *
 In
 the
-even
+event
 of
 out
 -
@@ -5810,8 +5811,8 @@ s
 no
 point
 keeping
-on
 *
+on
 trying
 to
 add
@@ -5892,6 +5893,7 @@ else
 *
 goes
 wrong
+;
 this
 code
 must
@@ -5903,6 +5905,7 @@ produces
 no
 *
 warnings
+;
 use
 a
 png_chunk_report
@@ -6883,6 +6886,7 @@ an
 API
 *
 change
+;
 previously
 the
 app
@@ -9738,7 +9742,7 @@ any
 incomplete
 palette
 with
-zeroes
+zeros
 *
 (
 opaque

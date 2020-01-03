@@ -4789,7 +4789,7 @@ image
 row
 when
 reading
-and
+an
 *
 interlaced
 image
