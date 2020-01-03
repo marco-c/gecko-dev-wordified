@@ -332,7 +332,6 @@ AsMutableChunk
 (
 )
 {
-void
 ClearDownstreamMark
 (
 )
