@@ -177,17 +177,6 @@ mozilla
 /
 dom
 /
-MediaSourceBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 TimeRanges
 .
 h
