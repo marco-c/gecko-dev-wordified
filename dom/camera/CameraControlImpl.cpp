@@ -1146,6 +1146,7 @@ CameraControlImpl
 :
 OnTakePictureComplete
 (
+const
 uint8_t
 *
 aData

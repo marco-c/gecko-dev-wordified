@@ -365,6 +365,7 @@ virtual
 void
 OnTakePictureComplete
 (
+const
 uint8_t
 *
 aData
