@@ -2439,7 +2439,7 @@ callback
 for
 selecting
 a
-suggesteed
+suggested
 replacement
 replaceMisspelling
 :
