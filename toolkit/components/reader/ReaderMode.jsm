@@ -628,7 +628,9 @@ newURI
 (
 doc
 .
-documentURI
+location
+.
+href
 null
 null
 )
