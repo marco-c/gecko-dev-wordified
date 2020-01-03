@@ -358,7 +358,7 @@ this
 const
 PING_FORMAT_VERSION
 =
-2
+4
 ;
 const
 PING_TYPE_MAIN
