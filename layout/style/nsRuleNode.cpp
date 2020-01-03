@@ -422,6 +422,13 @@ RuleNodeCacheConditions
 h
 "
 #
+include
+"
+nsDeviceContext
+.
+h
+"
+#
 if
 defined
 (
