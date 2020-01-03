@@ -1822,6 +1822,10 @@ NPERR_NO_ERROR
 return
 NS_ERROR_FAILURE
 ;
+mStreamState
+=
+eNewStreamCalled
+;
 if
 (
 streamType
