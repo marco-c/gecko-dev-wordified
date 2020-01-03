@@ -7621,11 +7621,11 @@ fail
 /
 passively
 .
-aWindow
+Services
 .
-messageManager
+ppmm
 .
-loadFrameScript
+loadProcessScript
 (
 "
 resource
