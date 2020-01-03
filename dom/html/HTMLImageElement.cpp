@@ -2008,7 +2008,9 @@ mResponsiveSelector
 >
 SetDefaultSource
 (
-nullptr
+NullString
+(
+)
 )
 ;
 }
@@ -4818,6 +4820,11 @@ GetSelectedImageURL
 (
 )
 ;
+if
+(
+url
+)
+{
 rv
 =
 LoadImage
@@ -4828,6 +4835,7 @@ aNotify
 eImageLoadType_Imageset
 )
 ;
+}
 }
 else
 {
