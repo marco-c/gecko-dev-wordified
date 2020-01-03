@@ -16559,7 +16559,7 @@ aBuilder
 nsDisplayLayerEventRegions
 (
 aBuilder
-this
+child
 )
 ;
 aBuilder
