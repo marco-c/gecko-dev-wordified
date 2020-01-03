@@ -9939,7 +9939,7 @@ init
 .
 mCancelable
 =
-true
+false
 ;
 event
 =
@@ -12004,7 +12004,7 @@ pei
 .
 mCancelable
 =
-true
+false
 ;
 ErrorResult
 result
@@ -12856,7 +12856,7 @@ nei
 .
 mCancelable
 =
-true
+false
 ;
 nsRefPtr
 <
@@ -19561,7 +19561,7 @@ init
 .
 mCancelable
 =
-true
+false
 ;
 init
 .
