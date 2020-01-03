@@ -1795,17 +1795,6 @@ decorMask
 =
 NS_STYLE_TEXT_DECORATION_LINE_LINES_MASK
 ;
-bool
-vertical
-=
-GetWritingMode
-(
-)
-.
-IsVertical
-(
-)
-;
 nsIFrame
 *
 f
@@ -2351,7 +2340,6 @@ ascentPixel
 offsetPixel
 NS_STYLE_TEXT_DECORATION_LINE_UNDERLINE
 underStyle
-vertical
 )
 ;
 }
@@ -2390,7 +2378,6 @@ ascentPixel
 ascentPixel
 NS_STYLE_TEXT_DECORATION_LINE_OVERLINE
 overStyle
-vertical
 )
 ;
 }
@@ -2900,7 +2887,6 @@ ascentPixel
 offsetPixel
 NS_STYLE_TEXT_DECORATION_LINE_LINE_THROUGH
 strikeStyle
-vertical
 )
 ;
 }
