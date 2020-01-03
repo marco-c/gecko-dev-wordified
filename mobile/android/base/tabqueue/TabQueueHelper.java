@@ -769,7 +769,7 @@ tabsQueued
 0
 ;
 }
-private
+public
 static
 int
 getTabQueueLength
