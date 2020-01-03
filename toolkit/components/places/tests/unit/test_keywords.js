@@ -453,12 +453,11 @@ onItemChanged
 )
 {
 return
+function
 (
 itemId
 property
 )
-=
->
 {
 if
 (

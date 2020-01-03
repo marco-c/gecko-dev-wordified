@@ -401,6 +401,10 @@ prop
 ]
 =
 (
+.
+.
+.
+args
 )
 =
 >
@@ -412,7 +416,7 @@ prop
 apply
 (
 assert
-arguments
+args
 )
 ;
 this

@@ -692,6 +692,10 @@ handler
 (
 aEvent
 aFirstArg
+.
+.
+.
+aRest
 )
 =
 >
@@ -714,7 +718,14 @@ aListener
 apply
 (
 null
-arguments
+[
+aEvent
+aFirstArg
+.
+.
+.
+aRest
+]
 )
 ;
 }

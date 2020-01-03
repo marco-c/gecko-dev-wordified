@@ -255,13 +255,12 @@ specified
 const
 wait
 =
+function
 (
 target
 type
 capture
 )
-=
->
 {
 let
 {

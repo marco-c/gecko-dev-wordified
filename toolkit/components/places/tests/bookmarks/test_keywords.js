@@ -341,6 +341,7 @@ onItemChanged
 )
 {
 return
+function
 (
 id
 prop
@@ -353,8 +354,6 @@ guid
 parentGuid
 oldVal
 )
-=
->
 {
 if
 (
