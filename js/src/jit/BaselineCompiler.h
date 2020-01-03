@@ -419,6 +419,11 @@ JSOP_STRING
 \
 _
 (
+JSOP_SYMBOL
+)
+\
+_
+(
 JSOP_OBJECT
 )
 \
