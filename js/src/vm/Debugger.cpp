@@ -6651,8 +6651,7 @@ JSContext
 cx
 HandleObject
 obj
-PropertyName
-*
+HandlePropertyName
 name
 JSTrapStatus
 status
