@@ -1590,6 +1590,11 @@ Close
 (
 )
 {
+if
+(
+mSocket
+)
+{
 mSocket
 -
 >
@@ -1601,6 +1606,7 @@ mSocket
 =
 nullptr
 ;
+}
 }
 /
 /
