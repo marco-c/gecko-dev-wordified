@@ -490,6 +490,10 @@ recording
 {
 if
 (
+!
+recording
+|
+|
 recording
 .
 isRecording
