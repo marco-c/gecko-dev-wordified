@@ -387,6 +387,8 @@ data
 uri
 :
 aURI
+.
+spec
 }
 ;
 let
