@@ -210,9 +210,9 @@ AnimationTimeline
 aTimeline
 )
 :
-mPlayState
+mIsPaused
 (
-NS_STYLE_ANIMATION_PLAY_STATE_RUNNING
+false
 )
 mIsRunningOnCompositor
 (
@@ -390,10 +390,7 @@ IsPaused
 const
 {
 return
-mPlayState
-=
-=
-NS_STYLE_ANIMATION_PLAY_STATE_PAUSED
+mIsPaused
 ;
 }
 bool
@@ -503,8 +500,8 @@ TimeDuration
 >
 mHoldTime
 ;
-uint8_t
-mPlayState
+bool
+mIsPaused
 ;
 bool
 mIsRunningOnCompositor
