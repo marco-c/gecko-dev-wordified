@@ -4707,18 +4707,6 @@ gonk
 "
 )
 {
-if
-(
-getPref
-(
-"
-getBoolPref
-"
-PREF_APP_UPDATE_SERVICE_ENABLED
-false
-)
-)
-{
 LOG
 (
 "
@@ -4738,7 +4726,6 @@ gonk
 return
 true
 ;
-}
 }
 if
 (
