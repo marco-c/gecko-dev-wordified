@@ -325,6 +325,7 @@ Baseline
 exception
 unwinding
 .
+JitFrame_Unwound_BaselineJS
 JitFrame_Unwound_IonJS
 /
 /

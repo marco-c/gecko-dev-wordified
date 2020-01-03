@@ -16329,6 +16329,9 @@ case
 JitFrame_Unwound_IonJS
 :
 case
+JitFrame_Unwound_BaselineJS
+:
+case
 JitFrame_Unwound_BaselineStub
 :
 MOZ_CRASH
