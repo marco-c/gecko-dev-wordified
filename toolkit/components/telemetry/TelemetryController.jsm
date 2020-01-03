@@ -6090,6 +6090,13 @@ this
 _connectionsBarrier
 .
 state
+sendModule
+:
+TelemetrySend
+.
+getShutdownState
+(
+)
 }
 ;
 }
