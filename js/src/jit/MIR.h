@@ -17281,7 +17281,12 @@ function
 execution
 .
 return
-true
+templateObject
+(
+)
+!
+=
+nullptr
 ;
 }
 }
