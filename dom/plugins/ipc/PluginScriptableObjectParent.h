@@ -176,6 +176,10 @@ invalidated
 (
 false
 )
+asyncWrapperCount
+(
+0
+)
 {
 }
 /
@@ -214,6 +218,9 @@ parent
 ;
 bool
 invalidated
+;
+int32_t
+asyncWrapperCount
 ;
 }
 ;
