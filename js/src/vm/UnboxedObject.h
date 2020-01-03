@@ -260,6 +260,15 @@ UnboxedPlainObject
 .
 class
 UnboxedLayout
+:
+public
+mozilla
+:
+:
+LinkedListElement
+<
+UnboxedLayout
+>
 {
 public
 :
@@ -286,7 +295,7 @@ nullptr
 )
 offset
 (
-0
+UINT32_MAX
 )
 type
 (
