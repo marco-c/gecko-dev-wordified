@@ -486,7 +486,6 @@ prev_frame_
 .
 reset
 (
-NULL
 )
 ;
 width_
@@ -636,7 +635,6 @@ prev_frame_
 .
 reset
 (
-NULL
 )
 ;
 /
