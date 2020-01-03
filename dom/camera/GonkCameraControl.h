@@ -704,6 +704,15 @@ Configuration
 aConfig
 )
 ;
+nsresult
+StartInternal
+(
+const
+Configuration
+*
+aInitialConfig
+)
+;
 template
 <
 class
