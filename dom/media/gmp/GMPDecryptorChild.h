@@ -181,6 +181,13 @@ uint8_t
 >
 &
 aPluginVoucher
+const
+nsTArray
+<
+uint8_t
+>
+&
+aSandboxVoucher
 )
 ;
 void
@@ -615,7 +622,7 @@ mPlugin
 Reference
 to
 the
-voucher
+vouchers
 owned
 by
 the
@@ -628,6 +635,14 @@ uint8_t
 >
 &
 mPluginVoucher
+;
+const
+nsTArray
+<
+uint8_t
+>
+&
+mSandboxVoucher
 ;
 }
 ;
