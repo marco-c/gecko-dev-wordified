@@ -440,7 +440,6 @@ stack
 *
 /
 class
-MOZ_STACK_CLASS
 AutoTaskDispatcher
 :
 public
