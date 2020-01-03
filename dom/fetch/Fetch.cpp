@@ -624,6 +624,21 @@ rv
 )
 )
 ;
+if
+(
+NS_WARN_IF
+(
+NS_FAILED
+(
+rv
+)
+)
+)
+{
+return
+rv
+;
+}
 return
 NS_OK
 ;
@@ -972,6 +987,7 @@ NS_ASSERT_OWNINGTHREAD
 (
 MainThreadFetchResolver
 )
+;
 AssertIsOnMainThread
 (
 )
@@ -1027,6 +1043,7 @@ NS_ASSERT_OWNINGTHREAD
 (
 MainThreadFetchResolver
 )
+;
 }
 class
 WorkerFetchResponseRunnable
