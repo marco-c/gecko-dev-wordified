@@ -3525,6 +3525,14 @@ mochitest
 '
             
 '
+webapprt
+'
+:
+'
+mochitest
+'
+            
+'
 jsreftest
 '
 :

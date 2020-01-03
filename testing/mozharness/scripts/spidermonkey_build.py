@@ -3115,9 +3115,19 @@ self
 query_compiler_manifest
 (
 )
+"
+sh
+"
++
+self
+.
+config
+[
+'
+compiler_setup
+'
+]
                             
-output_dir
-=
 work_dir
 )
         
@@ -3130,9 +3140,19 @@ self
 query_sixgill_manifest
 (
 )
+"
+sh
+"
++
+self
+.
+config
+[
+'
+sixgill_setup
+'
+]
                             
-output_dir
-=
 work_dir
 )
     

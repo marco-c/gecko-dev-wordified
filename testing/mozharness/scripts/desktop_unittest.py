@@ -269,6 +269,9 @@ mozbase
 '
 mozmill
 '
+'
+webapprt
+'
 ]
 #
 DesktopUnittest
