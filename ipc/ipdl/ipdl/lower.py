@@ -6031,21 +6031,20 @@ else
 :
             
 return
-TypeArray
-(
 Type
 (
 '
-char
+mozilla
+:
+:
+AlignedStorage2
 '
-)
-ExprSizeof
-(
+T
+=
 self
 .
 internalType
 (
-)
 )
 )
     
@@ -6547,20 +6546,18 @@ else
 :
             
 return
-ExprCast
+ExprCall
 (
-ExprAddrOf
+ExprSelect
 (
 v
-)
-self
+'
 .
-ptrToType
-(
+'
+'
+addr
+'
 )
-reinterpret
-=
-1
 )
     
 def
@@ -6610,20 +6607,18 @@ return
 v
         
 return
-ExprCast
+ExprCall
 (
-ExprAddrOf
+ExprSelect
 (
 v
-)
-self
+'
 .
-constPtrToType
-(
+'
+'
+addr
+'
 )
-reinterpret
-=
-1
 )
     
 def
