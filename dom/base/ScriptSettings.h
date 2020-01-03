@@ -2926,9 +2926,6 @@ DocshellEntryMonitor
 >
 mDocShellEntryMonitor
 ;
-bool
-mIsMainThread
-;
 }
 ;
 /
