@@ -1770,7 +1770,7 @@ GetSecurityManager
 )
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 channel
 getter_AddRefs

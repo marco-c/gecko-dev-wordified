@@ -11684,7 +11684,7 @@ GetSecurityManager
 )
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 aChannel
 getter_AddRefs
@@ -27454,7 +27454,7 @@ principal
 secMan
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 channel
 getter_AddRefs

@@ -10310,7 +10310,7 @@ nullptr
 securityManager
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 this
 getter_AddRefs

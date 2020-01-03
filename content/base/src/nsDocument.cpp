@@ -12016,7 +12016,7 @@ and
 nsScriptSecurityManager
 :
 :
-GetChannelPrincipal
+GetChannelResultPrincipal
 .
 /
 /
@@ -12057,7 +12057,7 @@ securityManager
 securityManager
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 aChannel
 getter_AddRefs

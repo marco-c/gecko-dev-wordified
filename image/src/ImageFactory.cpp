@@ -1557,7 +1557,7 @@ GetSecurityManager
 )
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 chan
 getter_AddRefs
