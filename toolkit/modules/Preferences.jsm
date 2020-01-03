@@ -241,7 +241,7 @@ branch
 )
 this
 .
-_prefBranch
+_branchStr
 =
 args
 .
@@ -283,7 +283,7 @@ args
 )
 this
 .
-_prefBranch
+_branchStr
 =
 args
 ;
@@ -2112,7 +2112,7 @@ fullPrefName
 =
 this
 .
-_prefBranch
+_branchStr
 +
 (
 prefName
@@ -2362,7 +2362,7 @@ fullPrefName
 =
 this
 .
-_prefBranch
+_branchStr
 +
 (
 prefName
@@ -2619,7 +2619,7 @@ private
 /
 Preferences
 .
-_prefBranch
+_branchStr
 =
 "
 "
@@ -2720,7 +2720,7 @@ getDefaultBranch
 (
 this
 .
-_prefBranch
+_branchStr
 )
 :
 prefSvc
@@ -2729,7 +2729,7 @@ getBranch
 (
 this
 .
-_prefBranch
+_branchStr
 )
 ;
 }
