@@ -1362,8 +1362,14 @@ IsExpectingMoreData
 )
 {
 return
-!
-mEnded
+GetResource
+(
+)
+-
+>
+IsExpectingMoreData
+(
+)
 ;
 }
 void
