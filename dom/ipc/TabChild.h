@@ -924,7 +924,7 @@ TabChildBase
 public
 nsISupports
 public
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 public
 ipc
 :

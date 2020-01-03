@@ -1630,7 +1630,7 @@ this
 ;
 NS_ENSURE_STATE
 (
-InitTabChildGlobalInternal
+InitChildGlobalInternal
 (
 scopeSupports
 id
@@ -1774,7 +1774,7 @@ mLoadingScript
 =
 true
 ;
-LoadFrameScriptInternal
+LoadScriptInternal
 (
 aURL
 aRunInGlobalScope

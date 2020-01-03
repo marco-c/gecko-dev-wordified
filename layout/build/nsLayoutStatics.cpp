@@ -1679,7 +1679,7 @@ memory
 reporter
 manager
 .
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
 Shutdown
