@@ -7259,6 +7259,14 @@ GetParentObject
 )
 const
 ;
+nsINode
+*
+GetScopeChainParent
+(
+)
+const
+MOZ_OVERRIDE
+;
 virtual
 bool
 IsNodeOfType
