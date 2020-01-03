@@ -859,6 +859,11 @@ f
 {
 return
 ;
+;
+/
+/
+empty
+statement
 }
 )
 ;
