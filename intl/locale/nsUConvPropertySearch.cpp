@@ -96,6 +96,7 @@ nsCString
 &
 mKey
 ;
+explicit
 PropertyComparator
 (
 const

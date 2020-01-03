@@ -1594,6 +1594,7 @@ composition
 const
 mSequence
 ;
+explicit
 SequenceAdaptor
 (
 const
