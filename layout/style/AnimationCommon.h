@@ -420,6 +420,17 @@ const
 MOZ_MUST_OVERRIDE
 override
 ;
+#
+ifdef
+DEBUG
+static
+void
+Initialize
+(
+)
+;
+#
+endif
 /
 *
 *
