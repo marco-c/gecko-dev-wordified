@@ -1033,12 +1033,12 @@ new
 Manager
 .
 void
-NoteClosing
+Invalidate
 (
 )
 ;
 bool
-IsClosing
+IsValid
 (
 )
 const
@@ -1341,11 +1341,6 @@ Manager
 )
 ;
 void
-Init
-(
-)
-;
-void
 Shutdown
 (
 )
@@ -1594,7 +1589,7 @@ bool
 mShuttingDown
 ;
 bool
-mClosing
+mValid
 ;
 struct
 CacheIdRefCounter
