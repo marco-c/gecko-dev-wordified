@@ -297,7 +297,7 @@ clientX
 <
 rect
 .
-y
+x
 ;
 }
 #
