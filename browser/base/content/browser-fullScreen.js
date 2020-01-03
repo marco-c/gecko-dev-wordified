@@ -716,6 +716,12 @@ true
 if
 (
 enterFS
+&
+&
+!
+document
+.
+mozFullScreen
 )
 {
 Services
