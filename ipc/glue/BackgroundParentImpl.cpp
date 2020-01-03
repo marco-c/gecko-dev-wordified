@@ -263,6 +263,13 @@ h
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 nsRefPtr
 .
 h

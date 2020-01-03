@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsISafeOutputStream
+.
+h
+"
+#
+include
+"
 nsIX509Cert
 .
 h
@@ -219,6 +226,13 @@ include
 mozilla
 /
 Logging
+.
+h
+"
+#
+include
+"
+prtime
 .
 h
 "

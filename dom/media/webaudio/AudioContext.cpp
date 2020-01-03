@@ -347,6 +347,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 blink
 /
 PeriodicWave

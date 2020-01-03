@@ -234,6 +234,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h
@@ -263,6 +270,13 @@ h
 include
 "
 nsAutoPtr
+.
+h
+"
+#
+include
+"
+prtime
 .
 h
 "

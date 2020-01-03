@@ -670,6 +670,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 nsIAppsService
 .
 h

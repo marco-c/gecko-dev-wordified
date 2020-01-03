@@ -196,6 +196,13 @@ h
 #
 include
 "
+nsIURIWithPrincipal
+.
+h
+"
+#
+include
+"
 nsIClassInfoImpl
 .
 h

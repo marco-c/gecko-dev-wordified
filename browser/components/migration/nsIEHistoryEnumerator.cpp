@@ -94,6 +94,13 @@ h
 #
 include
 "
+prtime
+.
+h
+"
+#
+include
+"
 nsIVariant
 .
 h

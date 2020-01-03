@@ -190,7 +190,7 @@ h
 #
 include
 "
-nsWeakPtr
+nsWeakReference
 .
 h
 "

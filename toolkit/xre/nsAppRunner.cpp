@@ -559,6 +559,13 @@ h
 #
 include
 "
+nsIURL
+.
+h
+"
+#
+include
+"
 nsIWindowCreator
 .
 h

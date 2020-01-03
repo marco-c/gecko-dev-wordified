@@ -254,6 +254,13 @@ h
 #
 include
 "
+nsInterfaceRequestorAgg
+.
+h
+"
+#
+include
+"
 nsISocketTransportService
 .
 h

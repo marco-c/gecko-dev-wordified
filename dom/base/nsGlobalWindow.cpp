@@ -304,6 +304,13 @@ h
 #
 include
 "
+nsIInterfaceRequestorUtils
+.
+h
+"
+#
+include
+"
 nsIPermissionManager
 .
 h

@@ -220,6 +220,13 @@ h
 #
 include
 "
+nsISocketProvider
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

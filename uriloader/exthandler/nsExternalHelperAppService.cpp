@@ -467,6 +467,13 @@ h
 #
 include
 "
+nsIPrivateBrowsingChannel
+.
+h
+"
+#
+include
+"
 nsIIOService
 .
 h

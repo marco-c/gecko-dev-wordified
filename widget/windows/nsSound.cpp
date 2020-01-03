@@ -168,6 +168,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

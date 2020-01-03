@@ -172,6 +172,13 @@ nsNetUtil
 h
 "
 #
+include
+"
+nsIOutputStream
+.
+h
+"
+#
 if
 DEBUG
 #

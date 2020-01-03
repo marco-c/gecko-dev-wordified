@@ -201,6 +201,13 @@ h
 #
 include
 "
+nsISafeOutputStream
+.
+h
+"
+#
+include
+"
 nsPromiseFlatString
 .
 h

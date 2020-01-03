@@ -128,6 +128,13 @@ DataChannelChild
 .
 h
 "
+#
+include
+"
+plstr
+.
+h
+"
 static
 NS_DEFINE_CID
 (

@@ -763,6 +763,13 @@ h
 #
 include
 "
+nsIAuthPrompt2
+.
+h
+"
+#
+include
+"
 gfxDrawable
 .
 h

@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

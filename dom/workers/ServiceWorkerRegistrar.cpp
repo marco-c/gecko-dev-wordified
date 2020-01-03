@@ -163,6 +163,13 @@ h
 #
 include
 "
+nsISafeOutputStream
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h

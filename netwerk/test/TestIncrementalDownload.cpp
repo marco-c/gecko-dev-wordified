@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIIncrementalDownload
 .
 h

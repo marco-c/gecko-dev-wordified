@@ -1313,6 +1313,13 @@ h
 #
 include
 "
+nsISocketProvider
+.
+h
+"
+#
+include
+"
 nsXPCOMCIDInternal
 .
 h

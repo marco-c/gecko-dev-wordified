@@ -1116,6 +1116,13 @@ h
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 nsISiteSecurityService
 .
 h

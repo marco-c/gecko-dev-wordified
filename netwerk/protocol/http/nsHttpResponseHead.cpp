@@ -153,6 +153,13 @@ h
 #
 include
 "
+plstr
+.
+h
+"
+#
+include
+"
 nsURLHelper
 .
 h

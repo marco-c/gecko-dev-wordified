@@ -296,6 +296,13 @@ h
 #
 include
 "
+mozIApplicationClearPrivateDataParams
+.
+h
+"
+#
+include
+"
 nsIEffectiveTLDService
 .
 h

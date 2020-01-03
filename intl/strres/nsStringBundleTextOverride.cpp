@@ -128,6 +128,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsDirectoryServiceUtils
+.
+h
+"
 /
 /
 first

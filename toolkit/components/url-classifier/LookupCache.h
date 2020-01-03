@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsRefPtr
+.
+h
+"
+#
+include
+"
 nsUrlClassifierPrefixSet
 .
 h

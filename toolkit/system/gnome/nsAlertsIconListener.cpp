@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsIImageToPixbuf
 .
 h

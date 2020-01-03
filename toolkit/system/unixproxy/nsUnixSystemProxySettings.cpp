@@ -168,6 +168,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

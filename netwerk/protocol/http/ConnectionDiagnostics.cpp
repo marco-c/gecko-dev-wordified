@@ -177,6 +177,13 @@ nsHttpRequestHead
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 extern
 PRThread
 *

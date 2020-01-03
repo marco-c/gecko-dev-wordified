@@ -416,6 +416,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticMutex

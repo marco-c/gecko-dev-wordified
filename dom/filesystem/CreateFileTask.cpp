@@ -229,6 +229,13 @@ h
 #
 include
 "
+nsIOutputStream
+.
+h
+"
+#
+include
+"
 nsStringGlue
 .
 h

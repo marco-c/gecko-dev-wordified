@@ -404,6 +404,13 @@ h
 #
 include
 "
+nsIOutputStream
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

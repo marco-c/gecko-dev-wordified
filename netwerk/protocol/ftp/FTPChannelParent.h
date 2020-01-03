@@ -167,6 +167,13 @@ OfflineObserver
 .
 h
 "
+#
+include
+"
+nsIChannelEventSink
+.
+h
+"
 class
 nsILoadContext
 ;

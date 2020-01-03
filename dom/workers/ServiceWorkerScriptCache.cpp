@@ -260,6 +260,13 @@ Workers
 .
 h
 "
+#
+include
+"
+nsStringStream
+.
+h
+"
 using
 mozilla
 :

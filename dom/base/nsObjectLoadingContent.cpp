@@ -234,6 +234,13 @@ h
 #
 include
 "
+nsIInterfaceRequestorUtils
+.
+h
+"
+#
+include
+"
 nsIHttpChannelInternal
 .
 h

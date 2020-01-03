@@ -122,6 +122,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 LoadContextInfo
 .
 h
