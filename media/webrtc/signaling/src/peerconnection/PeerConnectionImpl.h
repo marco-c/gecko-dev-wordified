@@ -2894,6 +2894,10 @@ dom
 :
 PCImplSignalingState
 aSignalingState
+bool
+rollback
+=
+false
 )
 ;
 /
@@ -2911,6 +2915,10 @@ state
 void
 UpdateSignalingState
 (
+bool
+rollback
+=
+false
 )
 ;
 bool

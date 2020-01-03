@@ -2830,6 +2830,8 @@ function
 (
 functionOrName
 commands
+all
+start
 )
 {
 this
@@ -2839,6 +2841,8 @@ _insertHelper
 functionOrName
 commands
 1
+all
+start
 )
 ;
 }
@@ -3114,6 +3118,7 @@ removeAfter
 function
 (
 functionOrName
+start
 )
 {
 var
@@ -3124,6 +3129,7 @@ this
 indexOf
 (
 functionOrName
+start
 )
 ;
 if
@@ -3276,6 +3282,7 @@ function
 (
 functionOrName
 commands
+start
 )
 {
 var
@@ -3286,6 +3293,7 @@ this
 removeAfter
 (
 functionOrName
+start
 )
 ;
 this
