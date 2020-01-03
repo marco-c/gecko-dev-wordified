@@ -3887,7 +3887,7 @@ implementation
 NS_IMPL_ISUPPORTS
 (
 FileImpl
-PIFileImpl
+FileImpl
 )
 /
 /
