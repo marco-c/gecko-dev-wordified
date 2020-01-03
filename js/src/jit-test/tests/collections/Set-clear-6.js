@@ -13,6 +13,7 @@ properties
 var
 s
 =
+new
 Set
 (
 )

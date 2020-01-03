@@ -130,9 +130,11 @@ Map
 ;
 test
 (
+new
 Set
 (
 )
+new
 Set
 (
 [

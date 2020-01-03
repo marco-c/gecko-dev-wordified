@@ -15,8 +15,10 @@ Duplicates
 are
 discarded
 .
-assertEq
-(
+var
+s
+=
+new
 Set
 (
 [
@@ -29,6 +31,10 @@ testing
 123
 ]
 )
+;
+assertEq
+(
+s
 .
 size
 2
@@ -88,9 +94,9 @@ v
 v
 ]
 ;
-var
 s
 =
+new
 Set
 (
 a

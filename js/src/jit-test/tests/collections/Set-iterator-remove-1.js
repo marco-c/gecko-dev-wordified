@@ -21,6 +21,7 @@ toRemove
 var
 set
 =
+new
 Set
 (
 letters
@@ -28,6 +29,7 @@ letters
 ;
 toRemove
 =
+new
 Set
 (
 toRemove

@@ -12,6 +12,7 @@ works
 var
 s
 =
+new
 Set
 (
 [

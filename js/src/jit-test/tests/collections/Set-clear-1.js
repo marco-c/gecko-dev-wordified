@@ -11,6 +11,7 @@ effect
 var
 s
 =
+new
 Set
 (
 )

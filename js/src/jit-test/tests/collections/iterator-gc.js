@@ -111,6 +111,7 @@ key
 ;
 test
 (
+new
 Set
 (
 [

@@ -18,6 +18,7 @@ visited
 var
 set
 =
+new
 Set
 (
 [

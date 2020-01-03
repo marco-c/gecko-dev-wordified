@@ -10,11 +10,13 @@ size
 var
 s1
 =
+new
 Set
 (
 )
 s2
 =
+new
 Set
 (
 )

@@ -33,6 +33,7 @@ set
 var
 set
 =
+new
 Set
 (
 )

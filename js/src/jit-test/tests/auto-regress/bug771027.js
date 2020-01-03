@@ -55,8 +55,10 @@ Uint8ClampedArray
 }
 )
 ;
-assertEq
-(
+var
+s
+=
+new
 Set
 (
 [
@@ -69,6 +71,10 @@ testing
 123
 ]
 )
+;
+assertEq
+(
+s
 .
 size
 (

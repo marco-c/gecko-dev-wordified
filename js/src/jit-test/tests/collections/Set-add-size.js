@@ -22,6 +22,7 @@ v
 var
 s
 =
+new
 Set
 (
 )

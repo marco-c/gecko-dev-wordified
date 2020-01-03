@@ -25,6 +25,7 @@ js
 var
 s
 =
+new
 Set
 (
 )

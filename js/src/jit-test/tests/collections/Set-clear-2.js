@@ -16,6 +16,7 @@ afterwards
 var
 s
 =
+new
 Set
 (
 [

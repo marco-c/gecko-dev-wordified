@@ -24,6 +24,7 @@ iterators
 var
 s
 =
+new
 Set
 (
 )

@@ -14,6 +14,7 @@ Set
 var
 map
 =
+new
 Set
 (
 [

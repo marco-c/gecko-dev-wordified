@@ -42,6 +42,7 @@ toString
 var
 s
 =
+new
 Set
 (
 hexData

@@ -14,6 +14,7 @@ expression
 var
 s
 =
+new
 Set
 (
 k

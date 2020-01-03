@@ -14,6 +14,7 @@ inserted
 var
 set
 =
+new
 Set
 (
 )

@@ -335,6 +335,7 @@ assertEqArray
 .
 .
 .
+new
 Set
 (
 [

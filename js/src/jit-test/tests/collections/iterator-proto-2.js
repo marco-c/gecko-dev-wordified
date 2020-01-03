@@ -68,8 +68,11 @@ Object
 .
 getPrototypeOf
 (
+(
+new
 Set
 (
+)
 )
 [
 Symbol

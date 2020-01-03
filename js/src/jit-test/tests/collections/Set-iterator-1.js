@@ -16,6 +16,7 @@ twice
 var
 set
 =
+new
 Set
 (
 [
