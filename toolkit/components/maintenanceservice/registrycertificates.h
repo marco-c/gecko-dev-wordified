@@ -76,6 +76,10 @@ LPCWSTR
 basePathForUpdate
 LPCWSTR
 filePath
+BOOL
+allowFallbackKeySkip
+=
+TRUE
 )
 ;
 #
