@@ -508,15 +508,13 @@ PageSource
 oncommand
 =
 "
-BrowserViewSourceOfDocument
+BrowserViewSource
 (
 window
 .
 gBrowser
 .
 selectedBrowser
-.
-contentDocumentAsCPOW
 )
 ;
 "

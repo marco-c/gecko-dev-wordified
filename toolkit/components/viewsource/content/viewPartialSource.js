@@ -1741,9 +1741,9 @@ nsIHttpChannel
 .
 REFERRER_POLICY_DEFAULT
 ;
-getWebNavigation
-(
-)
+ViewSourceChrome
+.
+webNav
 .
 loadURIWithOptions
 (
