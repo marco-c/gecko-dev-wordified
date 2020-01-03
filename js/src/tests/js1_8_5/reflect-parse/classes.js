@@ -1206,7 +1206,7 @@ constructor
 ;
 }
 "
-TypeError
+InternalError
 )
 ;
 /

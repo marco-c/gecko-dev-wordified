@@ -54984,6 +54984,12 @@ kind
 =
 =
 ClassConstructor
+|
+|
+kind
+=
+=
+DerivedClassConstructor
 )
 &
 &
@@ -54994,6 +55000,7 @@ isCurrentTokenType
 TOK_NAME
 )
 )
+{
 funName
 =
 tokenStream
@@ -55002,11 +55009,14 @@ currentName
 (
 )
 ;
+}
 else
+{
 funName
 =
 nullptr
 ;
+}
 Node
 fn
 =
