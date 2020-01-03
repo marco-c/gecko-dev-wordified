@@ -2352,12 +2352,7 @@ PossiblyFail
 {
 js_ReportOutOfMemory
 (
-cx
--
->
-asJSContext
-(
-)
+ncx
 )
 ;
 return
