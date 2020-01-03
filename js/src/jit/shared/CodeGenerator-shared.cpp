@@ -10287,7 +10287,7 @@ isStart
 )
 masm
 .
-tracelogStartId
+tracelogStart
 (
 logger
 script
@@ -10296,7 +10296,7 @@ script
 else
 masm
 .
-tracelogStopId
+tracelogStop
 (
 logger
 script
@@ -10442,7 +10442,7 @@ isStart
 )
 masm
 .
-tracelogStartId
+tracelogStart
 (
 logger
 textId
@@ -10451,7 +10451,7 @@ textId
 else
 masm
 .
-tracelogStopId
+tracelogStop
 (
 logger
 textId

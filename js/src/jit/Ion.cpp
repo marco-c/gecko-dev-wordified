@@ -3098,8 +3098,10 @@ runtime
 )
 )
 ;
-TraceLoggerEvent
-event
+uint32_t
+textId
+=
+TraceLogCreateTextId
 (
 logger
 TraceLogger_AnnotateScripts
@@ -3110,7 +3112,7 @@ AutoTraceLog
 logScript
 (
 logger
-event
+textId
 )
 ;
 AutoTraceLog
@@ -10860,8 +10862,10 @@ alloc
 )
 )
 ;
-TraceLoggerEvent
-event
+uint32_t
+textId
+=
+TraceLogCreateTextId
 (
 logger
 TraceLogger_AnnotateScripts
@@ -10872,7 +10876,7 @@ AutoTraceLog
 logScript
 (
 logger
-event
+textId
 )
 ;
 AutoTraceLog
@@ -11404,8 +11408,10 @@ runtime
 )
 )
 ;
-TraceLoggerEvent
-event
+uint32_t
+textId
+=
+TraceLogCreateTextId
 (
 logger
 TraceLogger_AnnotateScripts
@@ -11416,7 +11422,7 @@ AutoTraceLog
 logScript
 (
 logger
-event
+textId
 )
 ;
 AutoTraceLog
