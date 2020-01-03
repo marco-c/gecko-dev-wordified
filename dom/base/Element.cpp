@@ -12901,7 +12901,7 @@ we
 call
 /
 /
-SetAndTakeMappedAttr
+SetAndSwapMappedAttr
 below
 nsAttrValue
 aValueForAfterSetAttr
@@ -13019,7 +13019,7 @@ rv
 =
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 aName
 aParsedValue
@@ -13066,7 +13066,7 @@ rv
 =
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 ni
 aParsedValue

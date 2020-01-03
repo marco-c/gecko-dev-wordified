@@ -6555,6 +6555,17 @@ new
 value
 of
 attribute
+.
+Replaced
+by
+the
+*
+old
+value
+of
+the
+attribute
+.
 *
 param
 aModType

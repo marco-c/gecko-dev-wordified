@@ -1969,7 +1969,7 @@ rv
 =
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 nsGkAtoms
 :
@@ -9510,6 +9510,16 @@ is
 updated
 .
 *
+*
+aNewValue
+is
+replaced
+with
+the
+old
+value
+.
+*
 /
 void
 nsSVGElement
@@ -9659,7 +9669,7 @@ serializedValue
 ;
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 aName
 oldAttrValue

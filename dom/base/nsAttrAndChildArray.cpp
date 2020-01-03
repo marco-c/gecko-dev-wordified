@@ -2392,7 +2392,7 @@ nsresult
 nsAttrAndChildArray
 :
 :
-SetAndTakeAttr
+SetAndSwapAttr
 (
 nsIAtom
 *
@@ -2449,20 +2449,6 @@ aLocalName
 )
 )
 {
-ATTRS
-(
-mImpl
-)
-[
-i
-]
-.
-mValue
-.
-Reset
-(
-)
-;
 ATTRS
 (
 mImpl
@@ -2567,7 +2553,7 @@ nsresult
 nsAttrAndChildArray
 :
 :
-SetAndTakeAttr
+SetAndSwapAttr
 (
 mozilla
 :
@@ -2613,7 +2599,7 @@ kNameSpaceID_None
 )
 {
 return
-SetAndTakeAttr
+SetAndSwapAttr
 (
 localName
 aValue

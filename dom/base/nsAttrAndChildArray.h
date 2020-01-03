@@ -595,7 +595,7 @@ aPos
 const
 ;
 nsresult
-SetAndTakeAttr
+SetAndSwapAttr
 (
 nsIAtom
 *
@@ -606,7 +606,7 @@ aValue
 )
 ;
 nsresult
-SetAndTakeAttr
+SetAndSwapAttr
 (
 mozilla
 :
