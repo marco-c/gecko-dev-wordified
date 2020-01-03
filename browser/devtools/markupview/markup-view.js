@@ -17993,6 +17993,9 @@ value
 if
 (
 value
+&
+&
+value
 .
 match
 (
@@ -18008,8 +18011,6 @@ COLLAPSE_DATA_URL_LENGTH
 )
 ;
 }
-else
-{
 return
 truncateString
 (
@@ -18017,7 +18018,6 @@ value
 COLLAPSE_ATTRIBUTE_LENGTH
 )
 ;
-}
 }
 ;
 val
@@ -19287,6 +19287,10 @@ maxLength
 {
 if
 (
+!
+str
+|
+|
 str
 .
 length
