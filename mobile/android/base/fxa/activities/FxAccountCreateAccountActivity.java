@@ -232,7 +232,7 @@ background
 .
 fxa
 .
-FxAccountUtils
+PasswordStretcher
 ;
 import
 org
@@ -241,11 +241,9 @@ mozilla
 .
 gecko
 .
-background
-.
 fxa
 .
-PasswordStretcher
+FxAccountConstants
 ;
 import
 org
@@ -1816,7 +1814,7 @@ yearItems
 )
 )
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -1839,7 +1837,7 @@ engines
 }
 else
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -2274,7 +2272,7 @@ INDEX_PASSWORDS
 ]
 )
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (

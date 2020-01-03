@@ -178,6 +178,17 @@ gecko
 .
 fxa
 .
+FxAccountConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+fxa
+.
 login
 .
 FxAccountLoginStateMachine
@@ -508,7 +519,7 @@ expiresAt
 if
 (
 !
-FxAccountUtils
+FxAccountConstants
 .
 LOG_PERSONAL_INFORMATION
 )
@@ -519,7 +530,7 @@ assertion
 }
 try
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -551,7 +562,7 @@ a
 null
 )
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -571,7 +582,7 @@ header
 )
 )
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -591,7 +602,7 @@ payload
 )
 )
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -641,7 +652,7 @@ parseCertificate
 certificate
 )
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -661,7 +672,7 @@ header
 )
 )
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -681,7 +692,7 @@ payload
 )
 )
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -859,7 +870,7 @@ value
 values
 )
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -882,7 +893,7 @@ value
 }
 else
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -900,7 +911,7 @@ certificate
 }
 else
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -922,7 +933,7 @@ Exception
 e
 )
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -981,12 +992,12 @@ getClientState
 {
 if
 (
-FxAccountUtils
+FxAccountConstants
 .
 LOG_PERSONAL_INFORMATION
 )
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
