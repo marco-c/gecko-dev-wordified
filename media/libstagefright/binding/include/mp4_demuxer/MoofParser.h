@@ -799,7 +799,7 @@ of
 tracks
 .
 }
-void
+bool
 RebuildFragmentedIndex
 (
 const
@@ -814,7 +814,7 @@ MediaByteRange
 aByteRanges
 )
 ;
-void
+bool
 RebuildFragmentedIndex
 (
 BoxContext
