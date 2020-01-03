@@ -457,7 +457,7 @@ all
 MOZ_BEGIN_ENUM_CLASS
 (
 WebGLContextFakeBlackStatus
-int
+uint8_t
 )
 Unknown
 NotNeeded
@@ -469,7 +469,7 @@ WebGLContextFakeBlackStatus
 MOZ_BEGIN_ENUM_CLASS
 (
 WebGLTextureFakeBlackStatus
-int
+uint8_t
 )
 Unknown
 NotNeeded
@@ -541,7 +541,7 @@ that
 MOZ_BEGIN_ENUM_CLASS
 (
 WebGLVertexAttrib0Status
-int
+uint8_t
 )
 Default
 /
@@ -688,7 +688,7 @@ data
 MOZ_BEGIN_ENUM_CLASS
 (
 WebGLImageDataStatus
-int
+uint8_t
 )
 NoImageData
 UninitializedImageData
@@ -778,7 +778,7 @@ Format
 MOZ_BEGIN_ENUM_CLASS
 (
 WebGLTexelFormat
-int
+uint8_t
 )
 /
 /
@@ -944,7 +944,7 @@ WebGLTexelFormat
 MOZ_BEGIN_ENUM_CLASS
 (
 WebGLTexImageFunc
-int
+uint8_t
 )
 TexImage
 TexSubImage
@@ -955,6 +955,17 @@ CompTexSubImage
 MOZ_END_ENUM_CLASS
 (
 WebGLTexImageFunc
+)
+MOZ_BEGIN_ENUM_CLASS
+(
+WebGLTexDimensions
+uint8_t
+)
+Tex2D
+Tex3D
+MOZ_END_ENUM_CLASS
+(
+WebGLTexDimensions
 )
 /
 /

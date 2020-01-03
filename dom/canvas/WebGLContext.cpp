@@ -9723,11 +9723,17 @@ WebGLTexImageFunc
 :
 :
 TexImage
+WebGLTexDimensions
+:
+:
+Tex2D
 )
 )
+{
 return
 false
 ;
+}
 HTMLVideoElement
 *
 video
