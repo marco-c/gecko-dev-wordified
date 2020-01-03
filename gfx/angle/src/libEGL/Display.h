@@ -221,7 +221,7 @@ value
 EGLSurface
 createWindowSurface
 (
-HWND
+EGLNativeWindowType
 window
 EGLConfig
 config
@@ -324,7 +324,7 @@ surface
 bool
 hasExistingWindowSurface
 (
-HWND
+EGLNativeWindowType
 window
 )
 ;

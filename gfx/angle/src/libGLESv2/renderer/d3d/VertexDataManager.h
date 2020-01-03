@@ -246,7 +246,10 @@ VertexDataManager
 (
 )
 ;
-GLenum
+gl
+:
+:
+Error
 prepareVertexData
 (
 const
@@ -289,7 +292,10 @@ DISALLOW_COPY_AND_ASSIGN
 VertexDataManager
 )
 ;
-bool
+gl
+:
+:
+Error
 reserveSpaceForAttrib
 (
 const
@@ -333,7 +339,10 @@ currentValue
 )
 const
 ;
-GLenum
+gl
+:
+:
+Error
 storeAttribute
 (
 const
@@ -361,7 +370,10 @@ GLsizei
 instances
 )
 ;
-GLenum
+gl
+:
+:
+Error
 storeCurrentValue
 (
 const

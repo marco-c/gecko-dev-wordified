@@ -72,6 +72,15 @@ h
 "
 #
 include
+"
+libGLESv2
+/
+Error
+.
+h
+"
+#
+include
 <
 map
 >
@@ -132,7 +141,10 @@ is
 currently
 applied
 .
-void
+gl
+:
+:
+Error
 clearFramebuffer
 (
 const

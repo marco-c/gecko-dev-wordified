@@ -108,8 +108,11 @@ SwapChain9
 Renderer9
 *
 renderer
-HWND
-window
+rx
+:
+:
+NativeWindow
+nativeWindow
 HANDLE
 shareHandle
 GLenum

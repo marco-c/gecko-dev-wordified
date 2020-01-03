@@ -198,11 +198,11 @@ std
 :
 string
 (
+&
 buffer
-.
-data
-(
-)
+[
+0
+]
 len
 )
 ;

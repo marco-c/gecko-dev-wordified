@@ -72,6 +72,15 @@ include
 "
 libGLESv2
 /
+Error
+.
+h
+"
+#
+include
+"
+libGLESv2
+/
 renderer
 /
 d3d
@@ -104,7 +113,10 @@ VertexDeclarationCache
 (
 )
 ;
-GLenum
+gl
+:
+:
+Error
 applyDeclaration
 (
 IDirect3DDevice9

@@ -339,7 +339,7 @@ checkTextureAllocation
 (
 GLuint
 texture
-TextureType
+GLenum
 type
 )
 ;

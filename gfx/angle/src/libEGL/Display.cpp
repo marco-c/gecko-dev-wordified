@@ -1217,7 +1217,7 @@ Display
 :
 createWindowSurface
 (
-HWND
+EGLNativeWindowType
 window
 EGLConfig
 config
@@ -2636,7 +2636,7 @@ Display
 :
 hasExistingWindowSurface
 (
-HWND
+EGLNativeWindowType
 window
 )
 {
@@ -2925,6 +2925,12 @@ EGL_NV_post_sub_buffer
 )
 ;
 }
+#
+if
+defined
+(
+ANGLE_TEST_CONFIG
+)
 /
 /
 TODO
@@ -2944,6 +2950,8 @@ EGL_KHR_create_context
 "
 )
 ;
+#
+endif
 std
 :
 :

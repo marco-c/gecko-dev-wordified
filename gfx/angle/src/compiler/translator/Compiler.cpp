@@ -2736,6 +2736,9 @@ TIntermNode
 root
 )
 {
+sh
+:
+:
 CollectVariables
 collect
 (
@@ -2782,6 +2785,9 @@ for
 each
 field
 .
+sh
+:
+:
 ExpandVariables
 (
 uniforms
@@ -2789,6 +2795,9 @@ uniforms
 expandedUniforms
 )
 ;
+sh
+:
+:
 ExpandVariables
 (
 varyings

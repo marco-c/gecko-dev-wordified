@@ -106,6 +106,15 @@ LIBGLESV2_BUFFER_H_
 #
 include
 "
+libGLESv2
+/
+Error
+.
+h
+"
+#
+include
+"
 common
 /
 angleutils
@@ -172,7 +181,7 @@ Buffer
 (
 )
 ;
-void
+Error
 bufferData
 (
 const
@@ -185,7 +194,7 @@ GLenum
 usage
 )
 ;
-void
+Error
 bufferSubData
 (
 const
@@ -198,7 +207,7 @@ GLintptr
 offset
 )
 ;
-void
+Error
 copyBufferSubData
 (
 Buffer
@@ -212,8 +221,7 @@ GLsizeiptr
 size
 )
 ;
-GLvoid
-*
+Error
 mapRange
 (
 GLintptr
@@ -224,7 +232,7 @@ GLbitfield
 access
 )
 ;
-void
+Error
 unmap
 (
 )
