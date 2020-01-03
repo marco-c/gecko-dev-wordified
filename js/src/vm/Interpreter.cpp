@@ -9770,6 +9770,7 @@ scriptLogId
 TraceLogCreateTextId
 (
 logger
+TraceLogger_Scripts
 script
 )
 ;
@@ -16043,6 +16044,7 @@ scriptLogId
 TraceLogCreateTextId
 (
 logger
+TraceLogger_Scripts
 script
 )
 ;
