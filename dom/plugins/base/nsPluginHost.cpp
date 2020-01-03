@@ -9201,8 +9201,7 @@ the
 matches
 and
 clear
-virtual
-nsresult
+NS_IMETHOD
 Callback
 (
 nsresult
@@ -9343,8 +9342,7 @@ to
 clear
 the
 data
-virtual
-nsresult
+NS_IMETHOD
 SitesWithData
 (
 InfallibleTArray
@@ -9813,8 +9811,7 @@ host
 )
 {
 }
-virtual
-nsresult
+NS_IMETHOD
 SitesWithData
 (
 InfallibleTArray
