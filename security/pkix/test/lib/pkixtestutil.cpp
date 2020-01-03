@@ -4308,6 +4308,8 @@ const
 ByteString
 &
 value
+uint8_t
+encodingTag
 )
 {
 /
@@ -4392,10 +4394,7 @@ return
 AVA
 (
 tlv_id_at_organizationalUnitName
-der
-:
-:
-UTF8String
+encodingTag
 value
 )
 ;
