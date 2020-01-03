@@ -2441,7 +2441,7 @@ Gaps
 of
 up
 to
-20ms
+35ms
 (
 marginally
 longer
@@ -2450,7 +2450,7 @@ a
 single
 frame
 at
-60fps
+30fps
 )
 are
 considered
@@ -2467,7 +2467,7 @@ GetRoundingError
 )
 {
 return
-20000
+35000
 ;
 }
 private
