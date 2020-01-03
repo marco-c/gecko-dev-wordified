@@ -635,6 +635,11 @@ Tick
 )
 override
 ;
+void
+QueueEvents
+(
+)
+;
 bool
 IsStylePaused
 (
@@ -1056,11 +1061,6 @@ GetAnimationManager
 )
 const
 override
-;
-void
-QueueEvents
-(
-)
 ;
 nsString
 mAnimationName
