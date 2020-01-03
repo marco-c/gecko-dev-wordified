@@ -14907,16 +14907,6 @@ window
 is
 opened
 .
-It
-was
-decided
-to
-default
-this
-setting
-to
-1
-.
 pref
 (
 "
@@ -14930,7 +14920,7 @@ content
 .
 level
 "
-1
+0
 )
 ;
 #
