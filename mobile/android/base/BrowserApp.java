@@ -5167,6 +5167,9 @@ new
 ReadingListHelper
 (
 appContext
+getProfile
+(
+)
 )
 ;
 if
