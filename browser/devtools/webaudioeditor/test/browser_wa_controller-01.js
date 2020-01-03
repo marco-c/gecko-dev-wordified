@@ -129,12 +129,6 @@ gAudioNodes
 disconnect
 "
 )
-waitForGraphRendered
-(
-panelWin
-2
-0
-)
 ]
 )
 ;
