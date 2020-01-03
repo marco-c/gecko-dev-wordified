@@ -487,6 +487,12 @@ get_ArrayOfBluetoothGattServiceId
 (
 )
 ;
+mIncludedServices
+.
+Clear
+(
+)
+;
 for
 (
 uint32_t
@@ -573,6 +579,12 @@ characteristics
 aValue
 .
 get_ArrayOfBluetoothGattCharAttribute
+(
+)
+;
+mCharacteristics
+.
+Clear
 (
 )
 ;

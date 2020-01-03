@@ -816,6 +816,12 @@ get_ArrayOfBluetoothGattId
 (
 )
 ;
+mDescriptors
+.
+Clear
+(
+)
+;
 for
 (
 uint32_t
