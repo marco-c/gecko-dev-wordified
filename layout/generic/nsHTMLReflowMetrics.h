@@ -115,7 +115,9 @@ nsHTMLReflowMetrics_h___
 #
 include
 "
-nsRect
+mozilla
+/
+WritingModes
 .
 h
 "
@@ -129,7 +131,7 @@ h
 #
 include
 "
-WritingModes
+nsRect
 .
 h
 "

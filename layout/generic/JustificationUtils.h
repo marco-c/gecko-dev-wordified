@@ -129,6 +129,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+nsCoord
+.
+h
+"
 namespace
 mozilla
 {
