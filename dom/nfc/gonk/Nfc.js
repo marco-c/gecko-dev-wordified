@@ -2816,6 +2816,9 @@ isP2P
 message
 .
 records
+|
+|
+null
 )
 ;
 gSystemMessenger
