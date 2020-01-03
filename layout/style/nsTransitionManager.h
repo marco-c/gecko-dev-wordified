@@ -1342,7 +1342,6 @@ false
 )
 {
 }
-NS_DECL_ISUPPORTS
 typedef
 mozilla
 :
