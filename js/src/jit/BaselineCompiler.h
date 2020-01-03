@@ -523,11 +523,6 @@ JSOP_MOD
 \
 _
 (
-JSOP_POW
-)
-\
-_
-(
 JSOP_LT
 )
 \
