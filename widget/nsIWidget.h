@@ -6118,7 +6118,7 @@ nsTArray
 uintptr_t
 >
 &
-aVisibleList
+aPluginIds
 )
 ;
 /
