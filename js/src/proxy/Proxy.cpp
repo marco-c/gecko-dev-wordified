@@ -110,13 +110,6 @@ MPL
 /
 #
 include
-"
-jsproxy
-.
-h
-"
-#
-include
 <
 string
 .
@@ -147,6 +140,13 @@ h
 include
 "
 jsgc
+.
+h
+"
+#
+include
+"
+jsproxy
 .
 h
 "
