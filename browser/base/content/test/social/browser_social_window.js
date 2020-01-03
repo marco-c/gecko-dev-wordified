@@ -614,6 +614,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 runSocialTests
 (
 tests
