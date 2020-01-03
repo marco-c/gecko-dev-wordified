@@ -220,7 +220,7 @@ GeckoMediaPluginService
 (
 )
 ;
-void
+nsresult
 Init
 (
 )
@@ -525,6 +525,12 @@ GMP
 Thread
 only
 .
+nsCOMPtr
+<
+nsIFile
+>
+mStorageBaseDir
+;
 }
 ;
 }
