@@ -160,6 +160,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -187,6 +188,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -195,6 +197,7 @@ ContainerWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :

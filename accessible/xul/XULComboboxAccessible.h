@@ -166,6 +166,7 @@ nsString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -175,6 +176,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -191,12 +193,14 @@ uint64_t
 NativeState
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 CanHaveAnonChildren
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -238,6 +242,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -245,6 +250,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;

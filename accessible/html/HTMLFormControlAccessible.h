@@ -231,6 +231,7 @@ uint64_t
 NativeState
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -272,6 +273,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -362,6 +364,7 @@ int32_t
 *
 aSetSize
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -491,6 +494,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -577,6 +581,7 @@ GetEditor
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -589,6 +594,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -599,6 +605,7 @@ uint64_t
 aState
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -670,6 +677,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -678,6 +686,7 @@ ContainerWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -794,6 +803,7 @@ AccEvent
 *
 aAccEvent
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -969,6 +979,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -1036,6 +1047,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;

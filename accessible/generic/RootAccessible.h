@@ -163,6 +163,7 @@ nsIDOMEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -172,6 +173,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -187,6 +189,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 Relation
@@ -208,6 +211,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t
@@ -269,12 +273,14 @@ nsresult
 AddEventListeners
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 RemoveEventListeners
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *

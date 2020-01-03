@@ -233,6 +233,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIntRect
@@ -257,6 +258,7 @@ GroupPos
 GroupPosition
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 ENameValueFlag
@@ -266,6 +268,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -276,6 +279,7 @@ uint64_t
 aState
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -285,6 +289,7 @@ nsString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -294,6 +299,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -343,6 +349,7 @@ aY
 EWhichChildAtPoint
 aWhichChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -350,12 +357,14 @@ Accessible
 FocusedChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 InvalidateChildren
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -366,6 +375,7 @@ AccessKey
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -487,6 +497,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -502,6 +513,7 @@ aError
 nullptr
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :

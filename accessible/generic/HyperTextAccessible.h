@@ -304,6 +304,7 @@ int32_t
 GetLevelInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -340,6 +341,7 @@ void
 InvalidateChildren
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -349,6 +351,7 @@ Accessible
 *
 aAccessible
 )
+MOZ_OVERRIDE
 ;
 /
 /

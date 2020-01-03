@@ -187,6 +187,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -210,6 +211,7 @@ uint32_t
 SelectedItemCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -219,6 +221,7 @@ GetSelectedItem
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -227,6 +230,7 @@ IsItemSelected
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -235,6 +239,7 @@ AddItemToSelection
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -243,18 +248,21 @@ RemoveItemFromSelection
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 SelectAll
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 UnselectAll
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -265,6 +273,7 @@ Accessible
 CurrentItem
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -274,6 +283,7 @@ Accessible
 *
 aItem
 )
+MOZ_OVERRIDE
 ;
 protected
 :

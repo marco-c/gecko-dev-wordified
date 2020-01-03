@@ -181,6 +181,7 @@ aLength
 =
 UINT32_MAX
 )
+MOZ_OVERRIDE
 ;
 virtual
 ENameValueFlag
@@ -190,6 +191,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -230,6 +232,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :

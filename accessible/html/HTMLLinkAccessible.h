@@ -142,6 +142,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -215,6 +216,7 @@ bool
 IsLink
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -226,6 +228,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
+MOZ_OVERRIDE
 ;
 protected
 :

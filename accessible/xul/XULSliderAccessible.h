@@ -162,6 +162,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -187,12 +188,14 @@ NativelyUnavailable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
 CanHaveAnonChildren
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /

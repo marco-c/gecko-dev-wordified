@@ -185,6 +185,7 @@ uint32_t
 AnchorCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -194,6 +195,7 @@ AnchorAt
 uint32_t
 aAnchorIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -205,6 +207,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -269,6 +272,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -320,6 +324,7 @@ nsString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -333,6 +338,7 @@ aY
 EWhichChildAtPoint
 aWhichChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRect
@@ -354,12 +360,14 @@ uint32_t
 StartOffset
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 EndOffset
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -381,6 +389,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

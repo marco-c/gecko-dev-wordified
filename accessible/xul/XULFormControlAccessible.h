@@ -287,6 +287,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -294,6 +295,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -301,6 +303,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -309,6 +312,7 @@ ContainerWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -671,6 +675,7 @@ ContainerWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -737,6 +742,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -744,6 +750,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -751,6 +758,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;

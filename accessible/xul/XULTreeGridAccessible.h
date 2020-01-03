@@ -207,12 +207,14 @@ uint32_t
 ColCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 RowCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -224,6 +226,7 @@ aRowIndex
 uint32_t
 aColumnIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -235,6 +238,7 @@ nsString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -243,6 +247,7 @@ IsColSelected
 uint32_t
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -251,6 +256,7 @@ IsRowSelected
 uint32_t
 aRowIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -261,24 +267,28 @@ aRowIdx
 uint32_t
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 SelectedCellCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 SelectedColCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 SelectedRowCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -292,6 +302,7 @@ Accessible
 *
 aCells
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -304,6 +315,7 @@ uint32_t
 *
 aCells
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -316,6 +328,7 @@ uint32_t
 *
 aCols
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -328,6 +341,7 @@ uint32_t
 *
 aRows
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -336,6 +350,7 @@ SelectRow
 uint32_t
 aRowIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -344,6 +359,7 @@ UnselectRow
 uint32_t
 aRowIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -351,6 +367,7 @@ Accessible
 AsAccessible
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -365,6 +382,7 @@ TableAccessible
 AsTable
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -485,6 +503,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -504,6 +523,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -517,6 +537,7 @@ aY
 EWhichChildAtPoint
 aWhichChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -562,6 +583,7 @@ aStartColIdx
 int32_t
 aEndColIdx
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -579,6 +601,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -673,6 +696,7 @@ TableCellAccessible
 AsTableCell
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -694,6 +718,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -701,6 +726,7 @@ Accessible
 FocusedChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -718,6 +744,7 @@ IndexInParent
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Relation
@@ -908,6 +935,7 @@ aError
 nullptr
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -919,6 +947,7 @@ aContent
 uint32_t
 aActionIndex
 )
+MOZ_OVERRIDE
 ;
 /
 /
