@@ -284,8 +284,8 @@ updated
 "
 The
 overview
-graphs
-were
+graph
+was
 updated
 a
 bunch
