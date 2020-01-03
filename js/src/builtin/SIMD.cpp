@@ -221,6 +221,15 @@ h
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 js
 /
 Value
@@ -1747,7 +1756,7 @@ Func
 Operands
 )
 \
-JS_FN
+JS_INLINABLE_FN
 (
 #
 Name
@@ -1760,6 +1769,7 @@ simd_float32x4_
 Name
 Operands
 0
+SimdFloat32x4
 )
 FLOAT32X4_FUNCTION_LIST
 (
@@ -2283,7 +2293,7 @@ Func
 Operands
 )
 \
-JS_FN
+JS_INLINABLE_FN
 (
 #
 Name
@@ -2296,6 +2306,7 @@ simd_int32x4_
 Name
 Operands
 0
+SimdInt32x4
 )
 INT32X4_FUNCTION_LIST
 (
