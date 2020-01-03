@@ -52880,6 +52880,16 @@ this
 Eyedropper
 (
 this
+{
+context
+:
+"
+menu
+"
+copyOnSelect
+:
+true
+}
 )
 ;
 eyedropper

@@ -298,6 +298,16 @@ EyedropperManager
 createInstance
 (
 chromeWindow
+{
+context
+:
+"
+command
+"
+copyOnSelect
+:
+true
+}
 )
 ;
 dropper
