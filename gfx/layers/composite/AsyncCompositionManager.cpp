@@ -196,17 +196,6 @@ gfxSize
 #
 include
 "
-gfxPoint3D
-.
-h
-"
-/
-/
-for
-gfxPoint3D
-#
-include
-"
 mozilla
 /
 StyleAnimationValue
@@ -2798,7 +2787,7 @@ appUnitsPerDevPixel
 )
 )
 ;
-gfxPoint3D
+Point3D
 transformOrigin
 =
 data
@@ -2827,7 +2816,7 @@ y
 *
 cssPerDev
 ;
-gfxPoint3D
+Point3D
 perspectiveOrigin
 =
 data
@@ -2895,10 +2884,10 @@ bounds
 )
 )
 ;
-gfxPoint3D
+Point3D
 scaledOrigin
 =
-gfxPoint3D
+Point3D
 (
 NS_round
 (
@@ -6610,7 +6599,7 @@ mContentRect
 *
 userZoom
 ;
-gfxPoint3D
+Point3D
 overscrollTranslation
 ;
 if

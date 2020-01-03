@@ -2227,7 +2227,7 @@ transform
 .
 Translate
 (
-gfxPoint3D
+Point3D
 (
 -
 aOffset

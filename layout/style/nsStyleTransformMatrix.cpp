@@ -167,6 +167,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 namespace
 nsStyleTransformMatrix
 {
@@ -1387,7 +1394,7 @@ array
 "
 )
 ;
-gfxPoint3D
+Point3D
 temp
 ;
 temp
@@ -1479,7 +1486,7 @@ array
 "
 )
 ;
-gfxPoint3D
+Point3D
 temp
 ;
 temp
@@ -1556,7 +1563,7 @@ array
 "
 )
 ;
-gfxPoint3D
+Point3D
 temp
 ;
 temp
@@ -1655,7 +1662,7 @@ array
 "
 )
 ;
-gfxPoint3D
+Point3D
 temp
 ;
 temp
@@ -1786,7 +1793,7 @@ array
 "
 )
 ;
-gfxPoint3D
+Point3D
 temp
 ;
 temp
@@ -3128,7 +3135,7 @@ theta
 )
 )
 ;
-gfxPoint3D
+Point3D
 vector
 (
 aData

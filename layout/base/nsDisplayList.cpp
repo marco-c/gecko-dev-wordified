@@ -3282,7 +3282,7 @@ AppUnitsPerCSSPixel
 (
 )
 ;
-gfxPoint3D
+Point3D
 offsetToTransformOrigin
 =
 nsDisplayTransform
@@ -3296,7 +3296,7 @@ scale
 bounds
 )
 ;
-gfxPoint3D
+Point3D
 offsetToPerspectiveOrigin
 =
 nsDisplayTransform
@@ -27832,7 +27832,7 @@ thread
 static
 *
 /
-gfxPoint3D
+Point3D
 nsDisplayTransform
 :
 :
@@ -27915,7 +27915,7 @@ IsTransformed
 )
 {
 return
-gfxPoint3D
+Point3D
 (
 )
 ;
@@ -28380,7 +28380,7 @@ aAppUnitsPerPixel
 )
 ;
 return
-gfxPoint3D
+Point3D
 (
 coords
 [
@@ -28460,7 +28460,7 @@ thread
 static
 *
 /
-gfxPoint3D
+Point3D
 nsDisplayTransform
 :
 :
@@ -28539,7 +28539,7 @@ IsTransformed
 )
 {
 return
-gfxPoint3D
+Point3D
 (
 )
 ;
@@ -28641,7 +28641,7 @@ parent
 )
 {
 return
-gfxPoint3D
+Point3D
 (
 )
 ;
@@ -28682,7 +28682,7 @@ index
 .
 *
 /
-gfxPoint3D
+Point3D
 result
 ;
 result
@@ -28693,7 +28693,10 @@ z
 .
 0f
 ;
-gfxFloat
+gfx
+:
+:
+Float
 *
 coords
 [
@@ -28925,7 +28928,7 @@ GetOffsetTo
 parent
 )
 ;
-gfxPoint3D
+Point3D
 gfxOffset
 (
 NSAppUnitsToFloatPixels
@@ -29673,10 +29676,10 @@ origin
 .
 *
 /
-gfxPoint3D
+Point3D
 newOrigin
 =
-gfxPoint3D
+Point3D
 (
 NSAppUnitsToFloatPixels
 (
@@ -29697,7 +29700,7 @@ aAppUnitsPerPixel
 0f
 )
 ;
-gfxPoint3D
+Point3D
 roundedOrigin
 (
 hasSVGTransforms
@@ -29727,7 +29730,7 @@ y
 0
 )
 ;
-gfxPoint3D
+Point3D
 offsetBetweenOrigins
 =
 roundedOrigin
@@ -30708,10 +30711,10 @@ AppUnitsPerDevPixel
 (
 )
 ;
-gfxPoint3D
+Point3D
 newOrigin
 =
-gfxPoint3D
+Point3D
 (
 NSAppUnitsToFloatPixels
 (

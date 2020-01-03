@@ -169,17 +169,6 @@ GraphicsFilter
 #
 include
 "
-gfxPoint3D
-.
-h
-"
-/
-/
-for
-gfxPoint3D
-#
-include
-"
 gfxRect
 .
 h
