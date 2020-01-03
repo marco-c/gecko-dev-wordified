@@ -20348,7 +20348,7 @@ rooms
 .
 enabled
 "
-false
+true
 )
 ;
 pref
