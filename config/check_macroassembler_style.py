@@ -898,7 +898,23 @@ inline
 =
 True
     
-return
+inlinePrefx
+=
+'
+'
+    
+if
+inline
+:
+        
+inlinePrefx
+=
+'
+inline
+'
+    
+signatures
+=
 [
         
 {
@@ -911,9 +927,7 @@ a
 sig
 '
 :
-'
-inline
-'
+inlinePrefx
 +
 signature
 }
@@ -924,6 +938,9 @@ in
 archs
     
 ]
+    
+return
+signatures
 file_suffixes
 =
 set
