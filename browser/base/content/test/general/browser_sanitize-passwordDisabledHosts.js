@@ -80,10 +80,8 @@ tempScope
 .
 Sanitizer
 ;
-add_task
-(
 function
-*
+test
 (
 )
 {
@@ -318,7 +316,6 @@ true
 /
 Clear
 it
-yield
 s
 .
 sanitize
@@ -372,5 +369,3 @@ cleared
 )
 ;
 }
-)
-;
