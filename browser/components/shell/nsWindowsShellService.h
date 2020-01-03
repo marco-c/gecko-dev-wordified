@@ -185,6 +185,11 @@ LaunchModernSettingsDialogDefaultApps
 )
 ;
 nsresult
+InvokeHTTPOpenAsVerb
+(
+)
+;
+nsresult
 LaunchHTTPHandlerPane
 (
 )
