@@ -1932,7 +1932,7 @@ devtools
 /
 tool
 -
-styleeditor
+shadereditor
 .
 svg
 "
