@@ -281,6 +281,12 @@ ReturnOutput
 IMFSample
 *
 aSample
+int32_t
+aWidth
+int32_t
+aHeight
+int32_t
+aStride
 )
 ;
 HRESULT
@@ -289,6 +295,12 @@ SampleToVideoFrame
 IMFSample
 *
 aSample
+int32_t
+aWidth
+int32_t
+aHeight
+int32_t
+aStride
 GMPVideoi420Frame
 *
 aVideoFrame
