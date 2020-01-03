@@ -325,6 +325,7 @@ void
 InitInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -346,6 +347,7 @@ void
 FinishInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Telemetry
@@ -355,6 +357,7 @@ ID
 SpeedHistogram
 (
 )
+MOZ_OVERRIDE
 ;
 void
 NotifyDone

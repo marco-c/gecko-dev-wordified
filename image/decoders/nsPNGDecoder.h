@@ -168,6 +168,7 @@ void
 InitInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -192,6 +193,7 @@ ID
 SpeedHistogram
 (
 )
+MOZ_OVERRIDE
 ;
 void
 CreateFrame

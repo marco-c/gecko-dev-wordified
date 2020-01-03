@@ -347,6 +347,7 @@ void
 FinishInternal
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
