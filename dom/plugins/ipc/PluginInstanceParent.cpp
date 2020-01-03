@@ -266,7 +266,7 @@ h
 #
 include
 "
-ImageContainer
+SharedTextureImage
 .
 h
 "

@@ -573,16 +573,13 @@ access
 to
 it
 .
-if
-(
 mGLContext
 -
 >
 MakeCurrent
 (
 )
-)
-{
+;
 mGLContext
 -
 >
@@ -593,7 +590,6 @@ fDeleteTextures
 mTexture
 )
 ;
-}
 ReleaseTexImage
 (
 )
