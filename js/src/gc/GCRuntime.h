@@ -1756,10 +1756,9 @@ reason
 void
 gcDebugSlice
 (
-bool
-limit
-int64_t
-objCount
+SliceBudget
+&
+budget
 )
 ;
 void
@@ -3069,7 +3068,8 @@ collect
 (
 bool
 incremental
-int64_t
+SliceBudget
+&
 budget
 JSGCInvocationKind
 gckind
@@ -3088,7 +3088,8 @@ gcCycle
 (
 bool
 incremental
-int64_t
+SliceBudget
+&
 budget
 JSGCInvocationKind
 gckind
@@ -3113,8 +3114,8 @@ scanZonesBeforeGC
 void
 budgetIncrementalGC
 (
-int64_t
-*
+SliceBudget
+&
 budget
 )
 ;
@@ -3130,7 +3131,8 @@ reason
 void
 incrementalCollectSlice
 (
-int64_t
+SliceBudget
+&
 budget
 JS
 :
