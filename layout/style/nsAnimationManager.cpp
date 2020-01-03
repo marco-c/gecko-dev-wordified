@@ -6887,9 +6887,6 @@ now
 ;
 nsRefPtr
 <
-css
-:
-:
 AnimValuesStyleRule
 >
 oldStyleRule

@@ -251,17 +251,9 @@ nsCSSPropertySet
 namespace
 mozilla
 {
-namespace
-css
-{
 class
 AnimValuesStyleRule
 ;
-}
-/
-/
-namespace
-css
 /
 *
 *
@@ -2006,9 +1998,6 @@ ComposeStyle
 (
 nsRefPtr
 <
-css
-:
-:
 AnimValuesStyleRule
 >
 &
