@@ -672,6 +672,14 @@ IsDuringFastMotion
 )
 )
 {
+block
+-
+>
+SetConfirmedTargetApzc
+(
+aTarget
+)
+;
 waitForMainThread
 =
 false
