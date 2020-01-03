@@ -1035,7 +1035,7 @@ GetPlatform
 )
 -
 >
-GetD3D11ImageBridgeDevice
+GetD3D11MediaDevice
 (
 )
 ;
