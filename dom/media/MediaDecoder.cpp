@@ -5166,11 +5166,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
-(
-mDecoderStateMachine
-)
-;
 if
 (
 mShuttingDown
@@ -5182,6 +5177,11 @@ mIgnoreProgressData
 return
 ;
 }
+MOZ_ASSERT
+(
+mDecoderStateMachine
+)
+;
 ReentrantMonitorAutoEnter
 mon
 (
