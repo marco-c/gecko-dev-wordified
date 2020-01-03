@@ -5293,10 +5293,13 @@ if
 mApzcForInputBlock
 &
 &
+BuildOverscrollHandoffChain
+(
 mApzcForInputBlock
+)
 -
 >
-IsOverscrolled
+HasOverscrolledApzc
 (
 )
 )
