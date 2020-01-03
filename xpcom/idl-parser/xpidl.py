@@ -4372,9 +4372,6 @@ s
 "
 %
 name
-c
-.
-location
 )
         
 c
