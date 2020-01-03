@@ -259,6 +259,16 @@ MOZ_ASSERT
 aWindow
 )
 ;
+MOZ_ASSERT
+(
+aWindow
+-
+>
+IsInnerWindow
+(
+)
+)
+;
 if
 (
 !

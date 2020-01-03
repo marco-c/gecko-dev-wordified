@@ -380,6 +380,16 @@ mParent
 aParent
 )
 {
+MOZ_ASSERT
+(
+aParent
+-
+>
+IsInnerWindow
+(
+)
+)
+;
 }
 SpeechSynthesis
 :

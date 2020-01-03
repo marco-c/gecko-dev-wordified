@@ -338,6 +338,16 @@ aInnerWindow
 )
 )
 {
+MOZ_ASSERT
+(
+aInnerWindow
+-
+>
+IsInnerWindow
+(
+)
+)
+;
 }
 nsHistory
 :

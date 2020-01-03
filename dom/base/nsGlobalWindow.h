@@ -10568,6 +10568,15 @@ nsDOMWindowList
 >
 mFrames
 ;
+/
+/
+All
+BarProps
+are
+inner
+window
+only
+.
 nsRefPtr
 <
 mozilla
