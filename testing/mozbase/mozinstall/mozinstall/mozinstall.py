@@ -817,10 +817,12 @@ s
 "
 '
 %
+(
 src
 str
 (
 ex
+)
 )
 )
         
@@ -1347,9 +1349,9 @@ cmdArgs
 )
                 
 if
-not
 result
 is
+not
 0
 :
                     
@@ -1483,10 +1485,12 @@ s
 )
 '
 %
+(
 install_folder
 str
 (
 ex
+)
 )
 )
                 
@@ -2019,9 +2023,9 @@ cmd
 )
     
 if
-not
 result
 is
+not
 0
 :
         
