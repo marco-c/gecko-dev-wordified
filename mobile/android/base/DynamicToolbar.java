@@ -481,13 +481,11 @@ boolean
 immediate
 =
 transition
-.
-equals
-(
+=
+=
 VisibilityTransition
 .
 IMMEDIATE
-)
 ;
 if
 (
