@@ -324,7 +324,7 @@ null
 )
 ;
 let
-principal
+ssm
 =
 Cc
 [
@@ -345,10 +345,17 @@ Ci
 .
 nsIScriptSecurityManager
 )
+;
+let
+principal
+=
+ssm
 .
-getCodebasePrincipal
+createCodebasePrincipal
 (
 principaluri
+{
+}
 )
 ;
 function
