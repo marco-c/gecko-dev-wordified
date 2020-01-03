@@ -1163,7 +1163,11 @@ id
 0
 ]
 ;
-SetPref
+Services
+.
+prefs
+.
+setBoolPref
 (
 toolDefinition
 .
@@ -1391,7 +1395,11 @@ pref
 boolean
 to
 true
-SetPref
+Services
+.
+prefs
+.
+setBoolPref
 (
 toolDefinition
 .
