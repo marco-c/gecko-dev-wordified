@@ -556,6 +556,7 @@ this
 _blueprint
 =
 blueprint
+;
 this
 .
 _setNamedTimeout
