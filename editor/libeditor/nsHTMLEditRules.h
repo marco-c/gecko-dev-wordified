@@ -1354,8 +1354,8 @@ DidAbsolutePosition
 nsresult
 AlignInnerBlocks
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 const
 nsAString
