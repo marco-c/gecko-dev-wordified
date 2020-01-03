@@ -1331,6 +1331,9 @@ SplayNoCopy
 &
 )
 {
+return
+0
+;
 }
 }
 ;
