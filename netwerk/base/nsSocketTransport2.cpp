@@ -17240,12 +17240,11 @@ NS_OK
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 /
 /
-OS
-X
+Darwin
 uses
 sec
 ;
