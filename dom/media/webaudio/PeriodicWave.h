@@ -155,13 +155,6 @@ AudioNodeEngine
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {

@@ -347,6 +347,11 @@ PeriodicWave
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+PeriodicWave
+)
+;
 static
 PeriodicWave
 *
@@ -616,6 +621,12 @@ float
 sampleRate
 )
 ;
+~
+PeriodicWave
+(
+)
+{
+}
 void
 generateBasicWaveform
 (
