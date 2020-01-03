@@ -15253,7 +15253,7 @@ nsCopySupport
 :
 FireClipboardEvent
 (
-NS_COPY
+eCopy
 nsIClipboard
 :
 :

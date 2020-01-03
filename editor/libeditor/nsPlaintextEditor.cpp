@@ -6913,7 +6913,7 @@ false
 ;
 FireClipboardEvent
 (
-NS_COPY
+eCopy
 nsIClipboard
 :
 :

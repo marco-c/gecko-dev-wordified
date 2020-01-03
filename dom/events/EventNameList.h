@@ -1503,7 +1503,7 @@ eWheelEventClass
 EVENT
 (
 copy
-NS_COPY
+eCopy
 EventNameType_HTMLXUL
 eClipboardEventClass
 )

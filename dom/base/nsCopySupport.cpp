@@ -3744,7 +3744,7 @@ NS_CUT
 aEventMessage
 =
 =
-NS_COPY
+eCopy
 |
 |
 aEventMessage

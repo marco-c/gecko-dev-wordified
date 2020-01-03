@@ -466,7 +466,7 @@ should
 be
 either
 NS_CUT
-NS_COPY
+eCopy
 or
 *
 NS_PASTE
