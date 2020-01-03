@@ -2527,9 +2527,9 @@ style
 -
 >
 mStrokeLinecap
+!
 =
-=
-NS_STYLE_STROKE_LINECAP_SQUARE
+NS_STYLE_STROKE_LINECAP_BUTT
 )
 {
 strokeLineCap
