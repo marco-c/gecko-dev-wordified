@@ -1031,7 +1031,7 @@ useCapture
 =
 *
 /
-false
+true
 /
 *
 wantsUntrusted
@@ -1060,7 +1060,7 @@ useCapture
 =
 *
 /
-false
+true
 /
 *
 wantsUntrusted
@@ -1089,7 +1089,7 @@ useCapture
 =
 *
 /
-false
+true
 /
 *
 wantsUntrusted
@@ -4473,10 +4473,7 @@ while
 (
 currentWindow
 .
-top
-!
-=
-currentWindow
+realFrameElement
 )
 {
 let
@@ -4484,7 +4481,7 @@ currentRect
 =
 currentWindow
 .
-frameElement
+realFrameElement
 .
 getBoundingClientRect
 (
@@ -4538,7 +4535,11 @@ currentWindow
 =
 currentWindow
 .
-parent
+realFrameElement
+.
+ownerDocument
+.
+defaultView
 ;
 }
 sendAsyncMsg
