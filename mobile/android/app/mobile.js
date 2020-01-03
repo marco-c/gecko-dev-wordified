@@ -9694,17 +9694,6 @@ packaged
 UA
 override
 list
-/
-/
-Disabling
-until
-we
-understand
-the
-cause
-of
-Bug
-1178760
 pref
 (
 "
@@ -9716,7 +9705,7 @@ updates
 .
 enabled
 "
-false
+true
 )
 ;
 pref
