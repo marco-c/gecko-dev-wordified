@@ -477,10 +477,9 @@ for
 (
 var
 x
-=
-arguments
 in
 [
+arguments
 ]
 )
 {
