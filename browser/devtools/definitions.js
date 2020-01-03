@@ -1241,7 +1241,8 @@ Darwin
 "
 Cmd
 +
-Alt
+Opt
++
 "
 :
 "
@@ -1502,7 +1503,8 @@ Darwin
 "
 Cmd
 +
-Alt
+Opt
++
 "
 :
 "
@@ -1754,7 +1756,8 @@ Darwin
 "
 Cmd
 +
-Alt
+Opt
++
 "
 :
 "
@@ -2648,7 +2651,8 @@ Darwin
 "
 Cmd
 +
-Alt
+Opt
++
 "
 :
 "
