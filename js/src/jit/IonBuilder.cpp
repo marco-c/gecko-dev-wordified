@@ -49113,7 +49113,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 /
 /
@@ -55281,7 +55281,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 /
 /
@@ -62747,7 +62747,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 /
 /
@@ -66873,7 +66873,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 /
 /

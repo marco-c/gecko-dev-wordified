@@ -1205,9 +1205,9 @@ JS_TYPEREPR_SCALAR_KIND
 Reference
 =
 JS_TYPEREPR_REFERENCE_KIND
-X4
+Simd
 =
-JS_TYPEREPR_X4_KIND
+JS_TYPEREPR_SIMD_KIND
 Struct
 =
 JS_TYPEREPR_STRUCT_KIND
@@ -1327,7 +1327,7 @@ class
 ComplexTypeDescr
 ;
 class
-X4TypeDescr
+SimdTypeDescr
 ;
 class
 StructTypeDescr
@@ -2535,7 +2535,7 @@ int32x4
 *
 /
 class
-X4TypeDescr
+SimdTypeDescr
 :
 public
 ComplexTypeDescr
@@ -2547,10 +2547,10 @@ Type
 {
 TYPE_INT32
 =
-JS_X4TYPEREPR_INT32
+JS_SIMDTYPEREPR_INT32
 TYPE_FLOAT32
 =
-JS_X4TYPEREPR_FLOAT32
+JS_SIMDTYPEREPR_FLOAT32
 }
 ;
 static
@@ -2564,7 +2564,7 @@ Kind
 type
 :
 :
-X4
+Simd
 ;
 static
 const
@@ -2594,7 +2594,7 @@ Type
 t
 )
 ;
-X4TypeDescr
+SimdTypeDescr
 :
 :
 Type
@@ -2605,7 +2605,7 @@ const
 {
 return
 (
-X4TypeDescr
+SimdTypeDescr
 :
 :
 Type
@@ -2648,14 +2648,14 @@ v
 ;
 #
 define
-JS_FOR_EACH_X4_TYPE_REPR
+JS_FOR_EACH_SIMD_TYPE_REPR
 (
 macro_
 )
 \
 macro_
 (
-X4TypeDescr
+SimdTypeDescr
 :
 :
 TYPE_INT32
@@ -2665,7 +2665,7 @@ int32
 \
 macro_
 (
-X4TypeDescr
+SimdTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -4751,7 +4751,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 case
 type
@@ -6406,7 +6406,7 @@ clasp
 =
 =
 &
-X4TypeDescr
+SimdTypeDescr
 :
 :
 class_

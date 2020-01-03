@@ -572,7 +572,7 @@ JS_TYPEREPR_SIZED_ARRAY_KIND
 4
 #
 define
-JS_TYPEREPR_X4_KIND
+JS_TYPEREPR_SIMD_KIND
 5
 /
 /
@@ -734,7 +734,7 @@ code
 /
 /
 prefer
-X4TypeRepresentation
+SimdTypeRepresentation
 :
 :
 TYPE_INT32
@@ -764,11 +764,11 @@ case
 .
 #
 define
-JS_X4TYPEREPR_INT32
+JS_SIMDTYPEREPR_INT32
 0
 #
 define
-JS_X4TYPEREPR_FLOAT32
+JS_SIMDTYPEREPR_FLOAT32
 1
 /
 /

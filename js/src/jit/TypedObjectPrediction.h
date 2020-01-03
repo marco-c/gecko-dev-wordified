@@ -1566,11 +1566,11 @@ referenceType
 )
 const
 ;
-X4TypeDescr
+SimdTypeDescr
 :
 :
 Type
-x4Type
+simdType
 (
 )
 const
