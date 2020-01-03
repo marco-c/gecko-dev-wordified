@@ -734,6 +734,16 @@ prettyPrintArray
 /
 proc
 /
+last_kmsg
+"
+:
+LogParser
+.
+prettyPrintArray
+"
+/
+proc
+/
 meminfo
 "
 :
