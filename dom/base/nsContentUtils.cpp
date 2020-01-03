@@ -19253,6 +19253,8 @@ cx
 spec
 &
 aLineNumber
+&
+aColumnNumber
 )
 ;
 }
