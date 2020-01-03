@@ -5124,6 +5124,14 @@ attr_type
 =
 SDP_ATTR_ICE_OPTIONS
 )
+&
+&
+(
+attr_type
+!
+=
+SDP_ATTR_IMAGEATTR
+)
 )
 {
 return
