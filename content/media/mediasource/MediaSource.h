@@ -586,7 +586,7 @@ first
 time
 (
 using
-mFirstSourceBufferInitialization
+mFirstSourceBufferInitialized
 )
 .
 /
@@ -773,7 +773,7 @@ MediaSourceReadyState
 mReadyState
 ;
 bool
-mFirstSourceBufferInitialization
+mFirstSourceBufferInitialized
 ;
 }
 ;
