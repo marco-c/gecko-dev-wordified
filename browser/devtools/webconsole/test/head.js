@@ -368,6 +368,11 @@ CATEGORY_SECURITY
 =
 6
 ;
+const
+CATEGORY_SERVER
+=
+7
+;
 /
 /
 The

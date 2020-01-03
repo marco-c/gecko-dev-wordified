@@ -155,6 +155,13 @@ security
 "
 )
 ;
+testMenuFilterButton
+(
+"
+server
+"
+)
+;
 testIsolateFilterButton
 (
 "
@@ -187,6 +194,13 @@ testIsolateFilterButton
 (
 "
 security
+"
+)
+;
+testIsolateFilterButton
+(
+"
+server
 "
 )
 ;
