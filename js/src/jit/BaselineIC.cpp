@@ -36907,7 +36907,7 @@ failurePopR0Scratch
 ;
 masm
 .
-addPtr
+addToStackPtr
 (
 Imm32
 (
@@ -36916,7 +36916,6 @@ sizeof
 size_t
 )
 )
-StackPointer
 )
 ;
 }
