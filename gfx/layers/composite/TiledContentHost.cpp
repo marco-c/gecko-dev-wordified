@@ -2388,12 +2388,6 @@ nsIntRegion
 (
 )
 ;
-mPaintedRegion
-=
-nsIntRegion
-(
-)
-;
 mResolution
 =
 1
