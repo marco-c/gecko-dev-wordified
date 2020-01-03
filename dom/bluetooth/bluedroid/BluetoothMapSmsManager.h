@@ -459,7 +459,7 @@ aHeader
 )
 ;
 void
-HandleMessageStatus
+HandleSetMessageStatus
 (
 const
 ObexHeaderSet
