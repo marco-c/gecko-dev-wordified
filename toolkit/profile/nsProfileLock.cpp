@@ -253,7 +253,7 @@ endif
 if
 defined
 (
-MOZ_B2G
+MOZ_WIDGET_GONK
 )
 &
 &
@@ -1076,7 +1076,7 @@ signo
 }
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 switch
 (
 signo
