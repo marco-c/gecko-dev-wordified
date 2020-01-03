@@ -2053,11 +2053,9 @@ script
 &
 &
 !
-script
--
->
-strict
+IsStrictSetPC
 (
+pc
 )
 &
 &

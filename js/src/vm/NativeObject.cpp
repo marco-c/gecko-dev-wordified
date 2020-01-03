@@ -12789,6 +12789,10 @@ propname
 )
 {
 {
+jsbytecode
+*
+pc
+;
 JSScript
 *
 script
@@ -12798,7 +12802,8 @@ cx
 >
 currentScript
 (
-nullptr
+&
+pc
 JSContext
 :
 :
@@ -12839,11 +12844,9 @@ needed
 if
 (
 !
-script
--
->
-strict
+IsStrictSetPC
 (
+pc
 )
 &
 &
