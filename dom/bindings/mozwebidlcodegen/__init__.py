@@ -1230,7 +1230,6 @@ self
 _generated_events_stems_as_array
 =
 generated_events_stems
-;
         
 self
 .

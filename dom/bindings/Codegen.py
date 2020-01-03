@@ -18213,8 +18213,7 @@ False
     
 if
 crossOriginWritable
-=
-=
+is
 True
 :
         
@@ -19636,7 +19635,6 @@ iteratorAliasIndex
 )
 )
 )
-;
             
 return
 CGWrapper
@@ -96260,7 +96258,6 @@ convert
 rstrip
 (
 )
-;
         
 else
 :
@@ -97652,7 +97649,6 @@ CGDictionary
 getNonInitializingCtorArg
 (
 )
-;
         
 return
 None
@@ -121625,7 +121621,6 @@ CGList
 [
 ]
 )
-;
         
 for
 generatedEvent
@@ -125392,7 +125387,6 @@ case
 target
 =
 name
-;
                         
 source
 =

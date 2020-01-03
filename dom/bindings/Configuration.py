@@ -212,14 +212,12 @@ self
 generatedEvents
 =
 generatedEvents
-;
         
 self
 .
 maxProtoChainLength
 =
 0
-;
         
 for
 thing
@@ -443,7 +441,6 @@ thing
 isType
 (
 )
-;
             
 if
 not
@@ -1040,7 +1037,6 @@ workerTypes
 set
 (
 )
-;
         
 for
 descriptor
@@ -2011,8 +2007,8 @@ interface
 getNavigatorProperty
 (
 )
-!
-=
+is
+not
 None
             
 elif
@@ -2585,7 +2581,6 @@ no
 matches
 "
 )
-;
     
 def
 getDescriptorProvider
@@ -4044,7 +4039,6 @@ m
 .
 location
 )
-;
                     
 if
 len
@@ -4535,8 +4529,8 @@ wantsQI
 '
 None
 )
-!
-=
+is
+not
 None
 :
             
