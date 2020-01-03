@@ -1442,11 +1442,6 @@ aIMENotification
 )
 ;
 nsresult
-NotifyIMEOfEditorRect
-(
-)
-;
-nsresult
 NotifyIMEOfPositionChange
 (
 )
