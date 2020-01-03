@@ -467,6 +467,12 @@ unloaded
 }
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 gBrowser
 .
 removeTab
@@ -479,6 +485,9 @@ gBrowser
 selectedTab
 =
 tab1
+;
+}
+)
 ;
 }
 let
