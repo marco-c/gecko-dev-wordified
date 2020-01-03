@@ -4667,9 +4667,6 @@ dump
 (
 TestRunner
 .
-structuredLogger
-TestRunner
-.
 _currentTest
 TestRunner
 .
