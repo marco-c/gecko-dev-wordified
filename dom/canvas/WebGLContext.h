@@ -9050,6 +9050,13 @@ Context
 customization
 points
 virtual
+WebGLVertexArray
+*
+CreateVertexArrayImpl
+(
+)
+;
+virtual
 bool
 ValidateAttribPointerType
 (
