@@ -155,6 +155,9 @@ h
 >
 #
 undef
+assert
+#
+undef
 min
 #
 undef
