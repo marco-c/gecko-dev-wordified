@@ -688,6 +688,8 @@ EVERYTHING
 def
 main
 (
+output
+effective_tld_filename
 )
 :
   
@@ -695,10 +697,7 @@ main
 "
 "
   
-argv
-[
-1
-]
+effective_tld_filename
 is
 the
 effective
@@ -729,7 +728,7 @@ is
 then
 printed
 to
-stdout
+output
 .
   
 "
@@ -762,12 +761,7 @@ etld
 in
 getEffectiveTLDs
 (
-sys
-.
-argv
-[
-1
-]
+effective_tld_filename
 )
 :
     
@@ -793,7 +787,10 @@ wild
 )
 )
     
-print
+output
+.
+write
+(
 '
 ETLD_ENTRY
 (
@@ -806,6 +803,8 @@ s
 %
 s
 )
+\
+n
 '
 %
 (
@@ -817,15 +816,4 @@ domain
 exception
 wild
 )
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-  
-main
-(
 )
