@@ -6181,7 +6181,7 @@ null
 {
 mLayerView
 .
-setOnMetricsChangedListener
+setOnMetricsChangedDynamicToolbarViewportListener
 (
 this
 )
@@ -6233,7 +6233,7 @@ null
 {
 mLayerView
 .
-setOnMetricsChangedListener
+setOnMetricsChangedDynamicToolbarViewportListener
 (
 null
 )
