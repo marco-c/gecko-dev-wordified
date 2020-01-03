@@ -168,7 +168,7 @@ MediaInfo
 >
 aInfo
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 ;
 virtual

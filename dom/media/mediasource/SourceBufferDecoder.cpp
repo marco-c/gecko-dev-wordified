@@ -480,7 +480,7 @@ MetadataTags
 >
 aTags
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 MSE_DEBUG
@@ -512,7 +512,7 @@ MediaInfo
 >
 aInfo
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 MSE_DEBUG

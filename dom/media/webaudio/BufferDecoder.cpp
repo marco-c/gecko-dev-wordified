@@ -535,7 +535,7 @@ MetadataTags
 >
 aTags
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 /
@@ -554,7 +554,7 @@ MediaInfo
 >
 aInfo
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 /

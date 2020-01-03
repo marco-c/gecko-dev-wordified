@@ -5762,7 +5762,7 @@ MetadataTags
 >
 aTags
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 MOZ_OVERRIDE
 ;
@@ -5808,7 +5808,7 @@ MediaInfo
 >
 aInfo
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 MOZ_OVERRIDE
 ;

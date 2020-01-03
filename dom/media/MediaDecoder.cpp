@@ -3812,7 +3812,7 @@ MetadataTags
 >
 aTags
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 MOZ_ASSERT
@@ -3977,7 +3977,7 @@ Invalidate
 if
 (
 !
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 mOwner
@@ -4015,7 +4015,7 @@ MediaInfo
 >
 aInfo
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 MOZ_ASSERT
@@ -4100,7 +4100,7 @@ Invalidate
 if
 (
 !
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 mOwner
