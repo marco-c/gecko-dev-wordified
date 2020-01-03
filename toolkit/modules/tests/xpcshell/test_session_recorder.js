@@ -74,11 +74,7 @@ gre
 /
 modules
 /
-services
-/
-datareporting
-/
-sessions
+SessionRecorder
 .
 jsm
 "
