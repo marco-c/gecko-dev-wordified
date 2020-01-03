@@ -632,6 +632,7 @@ return
 out
 ;
 }
+Override
 public
 void
 error
@@ -663,6 +664,7 @@ error
 ;
 }
 }
+Override
 public
 void
 warn
@@ -694,6 +696,7 @@ error
 ;
 }
 }
+Override
 public
 void
 info
@@ -725,6 +728,7 @@ error
 ;
 }
 }
+Override
 public
 void
 debug
@@ -756,6 +760,7 @@ error
 ;
 }
 }
+Override
 public
 void
 trace
@@ -787,6 +792,7 @@ error
 ;
 }
 }
+Override
 public
 void
 close

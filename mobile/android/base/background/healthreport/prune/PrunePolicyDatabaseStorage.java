@@ -348,6 +348,7 @@ currentEnvironmentID
 1
 ;
 }
+Override
 public
 void
 pruneEvents
@@ -367,6 +368,7 @@ count
 )
 ;
 }
+Override
 public
 void
 pruneEnvironments
@@ -479,6 +481,7 @@ well
 .
 *
 /
+Override
 public
 int
 deleteDataBefore
@@ -502,6 +505,7 @@ getCurrentEnvironmentID
 )
 ;
 }
+Override
 public
 void
 cleanup
@@ -543,6 +547,7 @@ vacuum
 )
 ;
 }
+Override
 public
 int
 getEventCount
@@ -559,6 +564,7 @@ getEventCount
 )
 ;
 }
+Override
 public
 int
 getEnvironmentCount
@@ -575,6 +581,7 @@ getEnvironmentCount
 )
 ;
 }
+Override
 public
 void
 close
