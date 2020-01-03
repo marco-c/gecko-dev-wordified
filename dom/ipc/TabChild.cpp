@@ -12281,6 +12281,9 @@ NS_TOUCH_MOVE
 :
 if
 (
+std
+:
+:
 abs
 (
 currentPoint
@@ -12297,6 +12300,9 @@ sDragThreshold
 width
 |
 |
+std
+:
+:
 abs
 (
 currentPoint

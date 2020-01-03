@@ -1476,6 +1476,9 @@ aTolerance
 3
 .
 *
+std
+:
+:
 abs
 (
 s3
@@ -1680,6 +1683,9 @@ aT
 -
 CubicRoot
 (
+std
+:
+:
 abs
 (
 aTolerance
@@ -1703,6 +1709,9 @@ aT
 +
 CubicRoot
 (
+std
+:
+:
 abs
 (
 aTolerance
@@ -1822,6 +1831,9 @@ tf
 =
 CubicRoot
 (
+std
+:
+:
 abs
 (
 aTolerance

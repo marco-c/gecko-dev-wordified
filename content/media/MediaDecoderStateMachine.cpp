@@ -8604,6 +8604,9 @@ aDuration
 duration
 &
 &
+std
+:
+:
 abs
 (
 aDuration
