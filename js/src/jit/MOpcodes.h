@@ -149,6 +149,11 @@ SimdConstant
 \
 _
 (
+SimdConvert
+)
+\
+_
+(
 SimdExtractElement
 )
 \

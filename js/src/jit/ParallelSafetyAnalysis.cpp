@@ -769,6 +769,10 @@ SimdConstant
 )
 SAFE_OP
 (
+SimdConvert
+)
+SAFE_OP
+(
 SimdExtractElement
 )
 SAFE_OP
