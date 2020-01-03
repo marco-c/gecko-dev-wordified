@@ -1524,9 +1524,6 @@ const
 nsIntRect
 &
 aRect
-nsDeviceContext
-*
-aContext
 nsWidgetInitData
 *
 aInitData
@@ -2297,9 +2294,6 @@ const
 nsIntRect
 &
 aRect
-nsDeviceContext
-*
-aContext
 )
 ;
 void

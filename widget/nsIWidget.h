@@ -3954,9 +3954,6 @@ widget
 dimension
 *
 param
-aContext
-*
-param
 aInitData
 data
 that
@@ -3980,9 +3977,6 @@ const
 nsIntRect
 &
 aRect
-nsDeviceContext
-*
-aContext
 nsWidgetInitData
 *
 aInitData

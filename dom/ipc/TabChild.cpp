@@ -6650,10 +6650,6 @@ nullptr
 /
 /
 HandleWidgetEvent
-nullptr
-/
-/
-nsDeviceContext
 )
 ;
 baseWindow
@@ -18960,7 +18956,6 @@ nsIntSize
 0
 )
 )
-nullptr
 &
 initData
 )

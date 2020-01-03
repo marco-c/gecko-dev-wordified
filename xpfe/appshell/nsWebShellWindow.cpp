@@ -1048,11 +1048,6 @@ r
 /
 Widget
 dimensions
-nullptr
-/
-/
-Device
-context
 &
 widgetInitData
 )
