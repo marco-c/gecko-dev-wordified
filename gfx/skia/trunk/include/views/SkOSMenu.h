@@ -880,8 +880,7 @@ int
 defaultIndex
 const
 char
-[
-]
+*
 .
 .
 .

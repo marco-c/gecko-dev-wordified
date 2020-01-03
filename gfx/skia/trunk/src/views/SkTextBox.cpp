@@ -947,10 +947,6 @@ SkASSERT
 canvas
 &
 &
-&
-paint
-&
-&
 (
 text
 |
