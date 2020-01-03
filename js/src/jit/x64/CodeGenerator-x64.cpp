@@ -1747,11 +1747,10 @@ NoLengthCheck
 ;
 if
 (
-!
 mir
 -
 >
-skipBoundsCheck
+needsBoundsCheck
 (
 )
 )
@@ -2177,11 +2176,10 @@ NoLengthCheck
 ;
 if
 (
-!
 mir
 -
 >
-skipBoundsCheck
+needsBoundsCheck
 (
 )
 )

@@ -2768,10 +2768,11 @@ ptrReg
 ;
 if
 (
+!
 mir
 -
 >
-skipBoundsCheck
+needsBoundsCheck
 (
 )
 )
@@ -3447,10 +3448,11 @@ ptrReg
 ;
 if
 (
+!
 mir
 -
 >
-skipBoundsCheck
+needsBoundsCheck
 (
 )
 )
