@@ -1511,7 +1511,7 @@ mobileconnectionservice
 1
 "
 "
-nsIMobileConnectionGonkService
+nsIGonkMobileConnectionService
 "
 )
 ;
@@ -18317,7 +18317,8 @@ will
 be
 move
 to
-IccGonkProvider
+gonk
+IccProvider
 we
 may
 /
@@ -18331,7 +18332,7 @@ notify
 icc
 change
 to
-MobileConnectionGonkProvider
+MobileConnectionService
 .
 gMobileConnectionService
 .
