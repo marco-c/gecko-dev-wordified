@@ -326,7 +326,7 @@ is
 a
 bug
 in
-Windns
+windns
 .
 h
 where
@@ -394,7 +394,7 @@ GetAddrInfo
 #
 include
 <
-Windns
+windns
 .
 h
 >
