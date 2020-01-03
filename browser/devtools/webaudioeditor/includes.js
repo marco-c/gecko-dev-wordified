@@ -360,8 +360,9 @@ shared
 /
 widgets
 /
-LineGraphWidget
+Graphs
 "
+true
 )
 ;
 /

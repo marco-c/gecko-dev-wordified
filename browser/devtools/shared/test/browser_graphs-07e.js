@@ -357,7 +357,9 @@ value
 ]
 ;
 let
+{
 LineGraphWidget
+}
 =
 devtools
 .
@@ -370,7 +372,7 @@ shared
 /
 widgets
 /
-LineGraphWidget
+Graphs
 "
 )
 ;

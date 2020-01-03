@@ -42,7 +42,9 @@ or
 height
 .
 let
+{
 LineGraphWidget
+}
 =
 devtools
 .
@@ -55,7 +57,7 @@ shared
 /
 widgets
 /
-LineGraphWidget
+Graphs
 "
 )
 ;

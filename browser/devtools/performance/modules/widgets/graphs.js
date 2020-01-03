@@ -142,7 +142,9 @@ jsm
 )
 ;
 const
+{
 LineGraphWidget
+}
 =
 require
 (
@@ -153,12 +155,14 @@ shared
 /
 widgets
 /
-LineGraphWidget
+Graphs
 "
 )
 ;
 const
+{
 BarGraphWidget
+}
 =
 require
 (
@@ -169,7 +173,7 @@ shared
 /
 widgets
 /
-BarGraphWidget
+Graphs
 "
 )
 ;
