@@ -1131,3 +1131,10 @@ WaterfallView
 }
 )
 ;
+EventEmitter
+.
+decorate
+(
+WaterfallView
+)
+;

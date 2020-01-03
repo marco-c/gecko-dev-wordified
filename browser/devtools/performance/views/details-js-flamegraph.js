@@ -762,3 +762,10 @@ JsFlameGraphView
 }
 )
 ;
+EventEmitter
+.
+decorate
+(
+JsFlameGraphView
+)
+;
