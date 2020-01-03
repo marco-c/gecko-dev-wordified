@@ -1678,9 +1678,6 @@ min
 (
 StickyTimeDuration
 (
-mEffect
--
->
 InitialAdvance
 (
 )
@@ -1780,9 +1777,6 @@ std
 max
 (
 iterationStart
-mEffect
--
->
 InitialAdvance
 (
 )
