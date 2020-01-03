@@ -895,15 +895,6 @@ self
 pass
     
 def
-test_same_context
-(
-self
-)
-:
-        
-pass
-    
-def
 test_execute_permission
 (
 self
@@ -941,12 +932,3 @@ marionetteScriptFinished
 "
 )
 )
-    
-def
-test_sandbox_reuse
-(
-self
-)
-:
-        
-pass

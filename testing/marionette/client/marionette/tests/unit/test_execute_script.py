@@ -1029,12 +1029,3 @@ assertEqual
 expected
 actual
 )
-    
-def
-test_sandbox_reuse
-(
-self
-)
-:
-        
-pass
