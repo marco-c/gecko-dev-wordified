@@ -2623,6 +2623,10 @@ UniquePtr
 KeepAlive
 >
 aKeep
+bool
+aMainThreadOnly
+=
+false
 )
 ;
 /

@@ -2822,6 +2822,7 @@ YCbCrKeepAliveD3D11
 (
 mHoldRefs
 )
+true
 )
 ;
 }
