@@ -885,6 +885,16 @@ caches
 testing
 .
 enabled
+WORKERPREF_SERVICEWORKERS_TESTING
+/
+/
+dom
+.
+serviceWorkers
+.
+testing
+.
+enabled
 WORKERPREF_COUNT
 }
 ;
