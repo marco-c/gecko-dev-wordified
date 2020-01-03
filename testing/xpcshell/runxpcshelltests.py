@@ -6073,6 +6073,8 @@ buildTestList
 (
 self
 test_tags
+=
+None
 )
 :
         
