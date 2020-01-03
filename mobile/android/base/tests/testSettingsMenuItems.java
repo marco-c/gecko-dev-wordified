@@ -1413,6 +1413,7 @@ the
 world
 !
 Share
+the
 approximate
 Wi
 -
@@ -1428,6 +1429,7 @@ improve
 our
 geolocation
 service
+.
 "
 }
 ;
