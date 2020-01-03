@@ -1130,7 +1130,7 @@ eBasicEventClass
 EVENT
 (
 input
-NS_EDITOR_INPUT
+eEditorInput
 EventNameType_HTMLXUL
 eEditorInputEventClass
 )

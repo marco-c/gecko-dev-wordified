@@ -20589,9 +20589,9 @@ eDragOver
 ;
 _ASSIGN_eventName
 (
-NS_EDITOR_INPUT
+eEditorInput
 "
-NS_EDITOR_INPUT
+eEditorInput
 "
 )
 ;

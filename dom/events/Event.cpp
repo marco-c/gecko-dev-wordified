@@ -3733,7 +3733,7 @@ mMessage
 )
 {
 case
-NS_EDITOR_INPUT
+eEditorInput
 :
 if
 (
