@@ -927,6 +927,10 @@ haveCreatedContext
 (
 false
 )
+allowRelazificationForTesting
+(
+false
+)
 data
 (
 nullptr
