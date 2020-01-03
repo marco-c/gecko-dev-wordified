@@ -106605,6 +106605,12 @@ descriptor
 wrapperCache
 :
             
+wrapReturnType
+=
+"
+bool
+"
+            
 wrapArgs
 .
 append
@@ -106628,6 +106634,16 @@ aReflector
 )
 )
         
+else
+:
+            
+wrapReturnType
+=
+"
+JSObject
+*
+"
+        
 self
 .
 methodDecls
@@ -106639,10 +106655,7 @@ insert
 ClassMethod
 (
 wrapMethodName
-"
-JSObject
-*
-"
+wrapReturnType
                                             
 wrapArgs
 virtual
@@ -107459,6 +107472,13 @@ reflectorPassArg
 =
 "
 "
+            
+returnType
+=
+"
+JSObject
+*
+"
         
 else
 :
@@ -107482,6 +107502,12 @@ reflectorPassArg
 "
 aReflector
 "
+            
+returnType
+=
+"
+bool
+"
         
 classImpl
 =
@@ -107500,8 +107526,9 @@ dedent
 "
 "
             
-JSObject
-*
+{
+returnType
+}
             
 {
 nativeType
@@ -107601,6 +107628,10 @@ parentIface
 else
 "
 "
+            
+returnType
+=
+returnType
             
 reflectorArg
 =
