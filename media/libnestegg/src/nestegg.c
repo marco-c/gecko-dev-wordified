@@ -10138,6 +10138,16 @@ offset
 int
 r
 ;
+if
+(
+offset
+>
+INT64_MAX
+)
+return
+-
+1
+;
 /
 *
 Seek
