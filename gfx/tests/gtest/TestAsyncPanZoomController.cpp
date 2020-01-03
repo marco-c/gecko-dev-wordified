@@ -1292,14 +1292,15 @@ ParentLayerRect
 ;
 fm
 .
-mCriticalDisplayPort
-=
+SetCriticalDisplayPort
+(
 CSSRect
 (
 0
 0
 10
 10
+)
 )
 ;
 fm

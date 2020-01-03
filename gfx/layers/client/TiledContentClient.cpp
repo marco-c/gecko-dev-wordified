@@ -1969,7 +1969,9 @@ painted
 (
 aContentMetrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 .
 IsEmpty
 (
@@ -1983,7 +1985,9 @@ GetDisplayPort
 :
 aContentMetrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 )
 +
 aContentMetrics
