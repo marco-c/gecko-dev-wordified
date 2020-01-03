@@ -132,6 +132,15 @@ define
 mozilla_Alignment_h
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -667,6 +676,7 @@ typename
 T
 >
 struct
+MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 AlignedStorage2
 {
 union
