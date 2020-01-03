@@ -6092,7 +6092,7 @@ uint32_t
 MediaEngineWebRTCVideoSource
 :
 :
-ConvertPixexFormatToFOURCC
+ConvertPixelFormatToFOURCC
 (
 int
 aFormat
@@ -6421,7 +6421,7 @@ RotationMode
 (
 mRotation
 )
-ConvertPixexFormatToFOURCC
+ConvertPixelFormatToFOURCC
 (
 graphicBuffer
 -
