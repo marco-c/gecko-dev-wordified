@@ -750,8 +750,11 @@ ShutdownOnThread
 )
 ;
 static
+Atomic
+<
 HangMonitorChild
 *
+>
 sInstance
 ;
 const
@@ -814,8 +817,11 @@ mIPCOpen
 ;
 }
 ;
+Atomic
+<
 HangMonitorChild
 *
+>
 HangMonitorChild
 :
 :
