@@ -222,7 +222,7 @@ void
 wrapper
 )
 {
-a0free
+a0dalloc
 (
 wrapper
 )
@@ -731,11 +731,11 @@ JEMALLOC_ATTR
 used
 )
 static
-const
 BOOL
 (
 WINAPI
 *
+const
 tls_callback
 )
 (

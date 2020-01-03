@@ -314,6 +314,9 @@ void
 *
 chunk_alloc_dss
 (
+arena_t
+*
+arena
 void
 *
 new_addr
@@ -324,6 +327,9 @@ alignment
 bool
 *
 zero
+bool
+*
+commit
 )
 ;
 bool

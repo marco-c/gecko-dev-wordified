@@ -261,16 +261,6 @@ JEMALLOC_H_STRUCTS
 #
 ifdef
 JEMALLOC_H_EXTERNS
-bool
-pages_purge
-(
-void
-*
-addr
-size_t
-length
-)
-;
 void
 *
 chunk_alloc_mmap
@@ -282,6 +272,9 @@ alignment
 bool
 *
 zero
+bool
+*
+commit
 )
 ;
 bool

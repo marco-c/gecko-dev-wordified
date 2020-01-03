@@ -307,7 +307,9 @@ do
 \
 assert
 (
+(
 lg_range
+)
 >
 0
 )
@@ -315,7 +317,9 @@ lg_range
 \
 assert
 (
+(
 lg_range
+)
 <
 =
 32
@@ -350,7 +354,9 @@ r
 (
 32
 -
+(
 lg_range
+)
 )
 ;
 \
@@ -393,7 +399,9 @@ do
 \
 assert
 (
+(
 lg_range
+)
 >
 0
 )
@@ -401,7 +409,9 @@ lg_range
 \
 assert
 (
+(
 lg_range
+)
 <
 =
 64
@@ -436,7 +446,9 @@ r
 (
 64
 -
+(
 lg_range
+)
 )
 ;
 \
