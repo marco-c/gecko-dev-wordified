@@ -496,10 +496,6 @@ jsbytecode
 *
 pc
 ;
-NestedScopeObject
-*
-staticScope
-;
 frameIterator
 .
 baselineScriptAndPc
@@ -509,6 +505,8 @@ nullptr
 pc
 )
 ;
+NestedScopeObject
+*
 staticScope
 =
 script
