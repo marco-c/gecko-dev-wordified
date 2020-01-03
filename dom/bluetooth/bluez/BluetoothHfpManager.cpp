@@ -7187,7 +7187,7 @@ mHandsfreeSocket
 mHandsfreeSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -7204,7 +7204,7 @@ mHeadsetSocket
 mHeadsetSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -7424,7 +7424,7 @@ socket
 mHandsfreeSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -7502,7 +7502,7 @@ aController
 mSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -10934,7 +10934,7 @@ mSocket
 mHeadsetSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -10972,7 +10972,7 @@ mSocket
 mHandsfreeSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -11761,7 +11761,7 @@ listening
 mScoSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -11828,7 +11828,7 @@ false
 mScoSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -11907,7 +11907,7 @@ false
 mScoSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;

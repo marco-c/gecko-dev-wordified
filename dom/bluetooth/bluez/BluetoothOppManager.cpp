@@ -999,7 +999,7 @@ SOCKET_CONNECTED
 mSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -1366,7 +1366,7 @@ mRfcommSocket
 mRfcommSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -1383,7 +1383,7 @@ mL2capSocket
 mL2capSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -1685,7 +1685,7 @@ socket
 mRfcommSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -8279,7 +8279,7 @@ mSocket
 mL2capSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -8313,7 +8313,7 @@ mSocket
 mRfcommSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
@@ -8716,7 +8716,7 @@ mSocket
 mSocket
 -
 >
-Disconnect
+Close
 (
 )
 ;
