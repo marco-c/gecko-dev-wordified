@@ -4324,6 +4324,15 @@ HandleValue
 rval
 )
 ;
+static
+bool
+hasLiveOnExceptionUnwind
+(
+GlobalObject
+*
+global
+)
+;
 /
 *
 *
