@@ -342,9 +342,6 @@ mPathBytes
 NSID_LENGTH
 ]
 ;
-nsCString
-mScheme
-;
 nsFixedCString
 mPath
 ;
