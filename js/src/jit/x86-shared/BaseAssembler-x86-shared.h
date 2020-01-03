@@ -25442,7 +25442,7 @@ offset
 -
 4
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 src
 .
@@ -25459,7 +25459,7 @@ int32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 size_t
 (
@@ -25569,7 +25569,7 @@ offset
 return
 false
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 size_t
 (
@@ -25648,7 +25648,7 @@ assertValidJmpSrc
 from
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 to
 .
@@ -25781,7 +25781,7 @@ assertValidJmpSrc
 from
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 size_t
 (
