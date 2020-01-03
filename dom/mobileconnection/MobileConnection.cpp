@@ -4447,6 +4447,10 @@ mMobileConnection
 SetCallWaiting
 (
 aEnabled
+nsIMobileConnection
+:
+:
+ICC_SERVICE_CLASS_VOICE
 requestCallback
 )
 ;

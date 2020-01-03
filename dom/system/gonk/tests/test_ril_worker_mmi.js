@@ -2823,15 +2823,8 @@ equal
 (
 postedMessage
 .
-length
-2
-)
-;
-ok
-(
-postedMessage
-.
-enabled
+serviceClass
+7
 )
 ;
 run_next_test

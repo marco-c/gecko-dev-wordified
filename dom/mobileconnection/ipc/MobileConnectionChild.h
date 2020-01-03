@@ -816,6 +816,15 @@ bool
 DoReply
 (
 const
+MobileConnectionReplySuccessCallWaiting
+&
+aReply
+)
+;
+bool
+DoReply
+(
+const
 MobileConnectionReplySuccessClirStatus
 &
 aReply
