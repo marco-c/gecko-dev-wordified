@@ -8497,9 +8497,13 @@ memory
 )
 ;
 delete
+[
+]
 hostname_copy
 ;
 delete
+[
+]
 redir_copy
 ;
 return
