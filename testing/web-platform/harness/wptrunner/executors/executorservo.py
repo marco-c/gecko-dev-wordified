@@ -157,11 +157,6 @@ binary
 "
 -
 -
-cpu
-"
-"
--
--
 hard
 -
 fail

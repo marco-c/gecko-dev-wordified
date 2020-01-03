@@ -2337,7 +2337,7 @@ filter
 (
 self
 bytes
-end
+flush
 =
 True
 bfinal
@@ -2352,6 +2352,14 @@ self
 _deflater
 is
 None
+or
+(
+self
+.
+_no_context_takeover
+and
+flush
+)
 :
             
 self
@@ -2413,19 +2421,8 @@ None
 return
 result
         
-result
-=
-self
-.
-_deflater
-.
-compress_and_flush
-(
-bytes
-)
-        
 if
-end
+flush
 :
             
 #
@@ -2452,31 +2449,30 @@ for
 Z_SYNC_FLUSH
 .
             
-result
-=
-result
+return
+self
+.
+_deflater
+.
+compress_and_flush
+(
+bytes
+)
 [
 :
 -
 4
 ]
         
-if
-self
-.
-_no_context_takeover
-and
-end
-:
-            
+return
 self
 .
 _deflater
-=
-None
-        
-return
-result
+.
+compress
+(
+bytes
+)
 class
 _RFC1979Inflater
 (

@@ -1620,7 +1620,7 @@ self
 .
 close_connection
 =
-True
+1
             
 return
         
@@ -1670,9 +1670,6 @@ self
 )
 :
         
-try
-:
-            
 self
 .
 raw_requestline
@@ -1685,21 +1682,6 @@ readline
 (
 65537
 )
-        
-except
-socket
-.
-error
-:
-            
-self
-.
-close_connection
-=
-True
-            
-return
-False
         
 if
 len
@@ -1747,7 +1729,7 @@ self
 .
 close_connection
 =
-True
+1
         
 return
 True

@@ -2496,7 +2496,7 @@ doesn
 t
 accept
 the
-server_
+s2c_
 .
 *
 parameters
@@ -2506,32 +2506,32 @@ parameters
 "
 "
     
-client_max_window_bits
+c2s_max_window_bits
 =
 None
     
-client_no_context_takeover
+c2s_no_context_takeover
 =
 None
     
-client_max_window_bits_name
+c2s_max_window_bits_name
 =
 (
             
 PerMessageDeflateExtensionProcessor
 .
                     
-_CLIENT_MAX_WINDOW_BITS_PARAM
+_C2S_MAX_WINDOW_BITS_PARAM
 )
     
-client_no_context_takeover_name
+c2s_no_context_takeover_name
 =
 (
             
 PerMessageDeflateExtensionProcessor
 .
                     
-_CLIENT_NO_CONTEXT_TAKEOVER_PARAM
+_C2S_NO_CONTEXT_TAKEOVER_PARAM
 )
     
 #
@@ -2541,18 +2541,18 @@ didn
 t
 send
 any
-server_
+s2c_
 .
 *
 parameter
 .
-    
-#
 Handle
 those
 parameters
 as
 invalid
+    
+#
 if
 found
 in
@@ -2575,11 +2575,11 @@ if
 param_name
 =
 =
-client_max_window_bits_name
+c2s_max_window_bits_name
 :
             
 if
-client_max_window_bits
+c2s_max_window_bits
 is
 not
 None
@@ -2596,7 +2596,7 @@ s
 found
 '
 %
-client_max_window_bits_name
+c2s_max_window_bits_name
 )
             
 parsed_value
@@ -2627,12 +2627,12 @@ r
 %
                         
 (
-client_max_window_bits_name
+c2s_max_window_bits_name
 param_value
 )
 )
             
-client_max_window_bits
+c2s_max_window_bits
 =
 parsed_value
         
@@ -2640,11 +2640,11 @@ elif
 param_name
 =
 =
-client_no_context_takeover_name
+c2s_no_context_takeover_name
 :
             
 if
-client_no_context_takeover
+c2s_no_context_takeover
 is
 not
 None
@@ -2661,7 +2661,7 @@ s
 found
 '
 %
-client_no_context_takeover_name
+c2s_no_context_takeover_name
 )
             
 if
@@ -2688,31 +2688,31 @@ r
 %
                         
 (
-client_no_context_takeover_name
+c2s_no_context_takeover_name
 param_value
 )
 )
             
-client_no_context_takeover
+c2s_no_context_takeover
 =
 True
     
 if
-client_no_context_takeover
+c2s_no_context_takeover
 is
 None
 :
         
-client_no_context_takeover
+c2s_no_context_takeover
 =
 False
     
 return
 _PerMessageDeflateFramer
 (
-client_max_window_bits
+c2s_max_window_bits
                                     
-client_no_context_takeover
+c2s_no_context_takeover
 )
 class
 ClientHandshakeProcessor
@@ -3213,7 +3213,7 @@ PERMESSAGE_DEFLATE_EXTENSION
 #
 Accept
 the
-client_max_window_bits
+c2s_max_window_bits
 extension
 parameter
 by
@@ -3228,7 +3228,7 @@ add_parameter
 PerMessageDeflateExtensionProcessor
 .
                             
-_CLIENT_MAX_WINDOW_BITS_PARAM
+_C2S_MAX_WINDOW_BITS_PARAM
                     
 None
 )
