@@ -1358,8 +1358,10 @@ GetCompositor
 DrawDiagnostics
 (
 diagnostics
-*
-aVisibleRegion
+nsIntRegion
+(
+mBufferRect
+)
 aClipRect
 aTransform
 mFlashCounter
