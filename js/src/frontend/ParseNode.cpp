@@ -2790,6 +2790,12 @@ PNK_GLOBALCONST
 case
 PNK_CATCHLIST
 :
+case
+PNK_SEQ
+:
+case
+PNK_ARGSBODY
+:
 return
 PushListNodeChildren
 (
@@ -2878,12 +2884,6 @@ PNK_EXPORT_SPEC_LIST
 :
 case
 PNK_EXPORT_SPEC
-:
-case
-PNK_SEQ
-:
-case
-PNK_ARGSBODY
 :
 break
 ;
