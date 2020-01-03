@@ -338,7 +338,7 @@ The
 cursor
 for
 the
-sugested
+suggested
 sites
 query
 private

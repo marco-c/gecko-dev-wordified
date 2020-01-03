@@ -410,7 +410,7 @@ false
 static
 final
 String
-MIRROR_RECIEVER_APP_ID
+MIRROR_RECEIVER_APP_ID
 =
 "
 5F72F863
@@ -1066,7 +1066,7 @@ CastMediaControlIntent
 .
 categoryForCast
 (
-MIRROR_RECIEVER_APP_ID
+MIRROR_RECEIVER_APP_ID
 )
 )
 ;
@@ -2816,7 +2816,7 @@ CastApi
 launchApplication
 (
 apiClient
-MIRROR_RECIEVER_APP_ID
+MIRROR_RECEIVER_APP_ID
 true
 )
 .

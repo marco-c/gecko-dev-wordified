@@ -1227,7 +1227,7 @@ we
 re
 adding
 a
-notifcation
+notification
 to
 the
 selected

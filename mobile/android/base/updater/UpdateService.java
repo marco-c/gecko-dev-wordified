@@ -1573,13 +1573,14 @@ e
 .
 the
 user
+*
 is
 OK
 with
 large
 data
 transfers
-occuring
+occurring
 )
 *
 /

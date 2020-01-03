@@ -417,7 +417,7 @@ don
 t
 expect
 a
-DOMCOntentLoaded
+DOMContentLoaded
 event
 verifyPageTitle
 (

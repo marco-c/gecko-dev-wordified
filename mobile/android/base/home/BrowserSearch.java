@@ -2043,7 +2043,7 @@ savedInstanceState
 ;
 /
 /
-Intialize
+Initialize
 the
 search
 adapter

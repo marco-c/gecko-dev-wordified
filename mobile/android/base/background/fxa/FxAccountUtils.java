@@ -984,7 +984,7 @@ e
 This
 will
 throw
-UnsatisifiedLinkError
+UnsatisfiedLinkError
 (
 missing
 mozglue

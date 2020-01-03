@@ -815,7 +815,7 @@ Bundle
 }
 object
 of
-miscellaenous
+miscellaneous
 data
 associated
 with

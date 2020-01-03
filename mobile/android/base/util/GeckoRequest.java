@@ -164,7 +164,7 @@ can
 be
 any
 object
-serializeable
+serializable
 by
 *
 {

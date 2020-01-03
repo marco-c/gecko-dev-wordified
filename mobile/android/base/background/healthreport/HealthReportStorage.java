@@ -1249,7 +1249,7 @@ as
 "
 org
 .
-mozila
+mozilla
 .
 appInfo
 .

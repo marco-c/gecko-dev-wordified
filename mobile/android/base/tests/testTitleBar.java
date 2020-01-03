@@ -99,7 +99,7 @@ title
 ;
 /
 /
-Verifing
+Ensure
 the
 full
 URL
@@ -128,7 +128,7 @@ blank1
 ;
 /
 /
-Verifing
+Ensure
 the
 title
 is

@@ -2409,7 +2409,7 @@ false
 "
 Batch
 updating
-succeded
+succeeded
 "
 )
 ;

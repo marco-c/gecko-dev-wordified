@@ -347,7 +347,7 @@ is
 set
 /
 /
-intenally
+internally
 to
 something
 that

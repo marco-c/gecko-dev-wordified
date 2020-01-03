@@ -298,7 +298,7 @@ focusedBackground
 private
 final
 Drawable
-defaultBackgound
+defaultBackground
 ;
 private
 final
@@ -694,7 +694,7 @@ drawable
 edit_text_focused
 )
 ;
-defaultBackgound
+defaultBackground
 =
 getResources
 (
@@ -1085,7 +1085,7 @@ active
 ?
 focusedBackground
 :
-defaultBackgound
+defaultBackground
 )
 ;
 if

@@ -2823,7 +2823,7 @@ pending
 state
 /
 /
-seting
+setting
 the
 state
 will
@@ -7648,7 +7648,7 @@ mLastZoomFocus
 If
 overscroll
 is
-diabled
+disabled
 prevent
 zooming
 outside

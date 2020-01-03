@@ -122,7 +122,7 @@ set
 of
 tabs
 and
-perists
+persists
 them
 through
 TabsAccessor

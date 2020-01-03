@@ -4394,7 +4394,7 @@ successfully
 or
 an
 error
-occured
+occurred
 .
 *
 /

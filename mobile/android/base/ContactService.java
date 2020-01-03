@@ -931,7 +931,7 @@ handling
 becomes
 /
 /
-asychronous
+asynchronous
 so
 it
 needs
@@ -7576,7 +7576,7 @@ deleted
 Android
 will
 "
-conviently
+conveniently
 "
 remove
 the
@@ -14347,7 +14347,7 @@ int
 getWebsiteType
 (
 String
-webisteType
+websiteType
 )
 {
 initWebsiteTypesMap
@@ -14361,7 +14361,7 @@ mWebsiteTypesMap
 .
 get
 (
-webisteType
+websiteType
 .
 toLowerCase
 (

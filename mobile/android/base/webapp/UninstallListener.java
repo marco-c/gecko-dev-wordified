@@ -992,7 +992,7 @@ Perform
 webapp
 uninstalls
 as
-appropiate
+appropriate
 .
 UninstallListener
 .

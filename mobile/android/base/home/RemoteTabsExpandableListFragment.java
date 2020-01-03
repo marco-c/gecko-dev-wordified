@@ -1756,7 +1756,7 @@ true
 ;
 /
 /
-Intialize
+Initialize
 adapter
 mAdapter
 =

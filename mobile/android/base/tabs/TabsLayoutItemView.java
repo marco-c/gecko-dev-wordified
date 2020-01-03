@@ -610,7 +610,7 @@ thumbnail
 }
 public
 void
-setCloseVisibile
+setCloseVisible
 (
 boolean
 visible

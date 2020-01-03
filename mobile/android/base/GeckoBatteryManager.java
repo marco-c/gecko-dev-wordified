@@ -559,7 +559,7 @@ the
 Galaxy
 Nexus
 phone
-advertizes
+advertises
 itself
 as
 battery

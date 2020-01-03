@@ -671,7 +671,7 @@ visible
 should
 have
 increased
-substatially
+substantially
 if
 (
 shouldZoom

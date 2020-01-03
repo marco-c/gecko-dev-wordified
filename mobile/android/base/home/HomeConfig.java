@@ -6659,7 +6659,7 @@ a
 new
 panel
 is
-sucessfully
+successfully
 installed
 .
 mEventQueue
@@ -6841,7 +6841,7 @@ if
 a
 panel
 is
-succesfully
+successfully
 uninstalled
 .
 mEventQueue

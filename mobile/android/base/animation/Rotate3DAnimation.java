@@ -311,7 +311,7 @@ on
 the
 2D
 space
-definied
+defined
 by
 a
 pair

@@ -2516,7 +2516,8 @@ compatible
 with
 this
 Android
-verison
+version
+.
 *
 /
 private
@@ -2573,7 +2574,7 @@ If
 any
 of
 the
-innuts
+inputs
 are
 scrollable
 we

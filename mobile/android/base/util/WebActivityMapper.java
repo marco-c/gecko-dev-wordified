@@ -395,7 +395,7 @@ data
 object
 uses
 the
-respecitve
+respective
 value
 as
 the

@@ -629,7 +629,7 @@ object
 *
 3
 )
-whenver
+whenever
 reading
 multiple
 fields
@@ -651,7 +651,7 @@ above
 you
 should
 always
-frist
+first
 grab
 a
 local
@@ -4902,7 +4902,8 @@ a
 new
 ViewTransform
 *
-everytime
+every
+time
 we
 '
 re

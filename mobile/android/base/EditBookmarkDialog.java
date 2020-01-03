@@ -386,7 +386,8 @@ to
 do
 data
 checking
-diffferent
+on
+different
 fields
 .
 *
@@ -403,7 +404,7 @@ button
 Callers
 can
 also
-assing
+assign
 a
 paired
 partner

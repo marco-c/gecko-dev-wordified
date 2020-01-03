@@ -367,10 +367,10 @@ showing
 hiding
 quickly
 .
+/
+/
 For
-isntance
-/
-/
+instance
 when
 moving
 between

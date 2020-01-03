@@ -1566,7 +1566,7 @@ awful
 but
 the
 API
-impedence
+impedance
 is
 strong
 :

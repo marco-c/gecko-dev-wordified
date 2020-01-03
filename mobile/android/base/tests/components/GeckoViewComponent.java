@@ -565,7 +565,7 @@ whether
 an
 InputConnection
 is
-avaiable
+available
 .
 *
 An

@@ -4563,7 +4563,7 @@ buttons
 adding
 a
 special
-deubg
+debug
 preference
 click
 *

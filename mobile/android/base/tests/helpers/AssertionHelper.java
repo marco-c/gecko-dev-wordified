@@ -165,7 +165,7 @@ AssertionHelper
 *
 To
 disallow
-instantation
+instantiation
 .
 *
 /

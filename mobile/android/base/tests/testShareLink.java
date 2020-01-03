@@ -318,7 +318,7 @@ Get
 list
 of
 current
-avaliable
+available
 share
 activities
 and
@@ -1209,7 +1209,7 @@ is
 no
 need
 for
-handeling
+handling
 this
 different
 depending
@@ -1219,7 +1219,7 @@ the
 share
 menu
 was
-invoced
+invoked
 from
 *
 TODO

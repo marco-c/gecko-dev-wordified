@@ -721,7 +721,7 @@ show
 a
 list
 of
-Activitiees
+Activities
 that
 match
 this

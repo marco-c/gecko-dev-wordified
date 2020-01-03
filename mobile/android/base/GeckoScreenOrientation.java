@@ -1633,7 +1633,7 @@ get
 *
 Retrieve
 the
-scren
+screen
 orientation
 from
 a

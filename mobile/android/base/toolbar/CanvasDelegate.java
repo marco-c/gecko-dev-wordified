@@ -160,7 +160,7 @@ void
 defaultDraw
 (
 Canvas
-cavas
+canvas
 )
 ;
 }

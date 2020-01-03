@@ -146,7 +146,7 @@ page
 at
 least
 60px
-heigh
+high
 and
 aligned
 to

@@ -2176,7 +2176,7 @@ out
 Override
 public
 String
-getSuccessMesssage
+getSuccessMessage
 (
 )
 {

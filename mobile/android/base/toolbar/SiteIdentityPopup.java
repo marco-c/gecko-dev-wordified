@@ -728,7 +728,7 @@ blocked
 /
 Remove
 any
-exixting
+existing
 mixed
 content
 notification

@@ -1707,7 +1707,7 @@ e
 /
 KeyCharacterMap
 .
-UnavailableExcepton
+UnavailableException
 is
 not
 found
@@ -1732,7 +1732,7 @@ than
 /
 KeyCharacterMap
 .
-UnavailableExcepton
+UnavailableException
 ;
 so
 use

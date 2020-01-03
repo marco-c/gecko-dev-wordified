@@ -3552,7 +3552,7 @@ entry
 /
 /
 is
-schrunk
+shrunk
 back
 to
 its

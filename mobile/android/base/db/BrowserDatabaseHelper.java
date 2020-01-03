@@ -3000,7 +3000,7 @@ URL
 +
 /
 /
-Prioritze
+Prioritize
 bookmark
 titles
 over
@@ -3760,7 +3760,7 @@ URL
 +
 /
 /
-Prioritze
+Prioritize
 bookmark
 titles
 over
@@ -4595,7 +4595,7 @@ URL
 +
 /
 /
-Prioritze
+Prioritize
 bookmark
 titles
 over
@@ -5430,7 +5430,7 @@ URL
 +
 /
 /
-Prioritze
+Prioritize
 bookmark
 titles
 over
