@@ -790,6 +790,25 @@ CommandArgument
 '
 -
 -
+revision
+-
+hash
+'
+        
+help
+=
+'
+Treeherder
+revision
+hash
+'
+)
+    
+CommandArgument
+(
+'
+-
+-
 comment
 '
         
@@ -940,6 +959,21 @@ params
 revision
 '
 ]
+            
+'
+revision_hash
+'
+:
+params
+.
+get
+(
+'
+revision_hash
+'
+'
+'
+)
             
 '
 owner
