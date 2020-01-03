@@ -6637,7 +6637,7 @@ RootedObject
 expandoObject
 (
 cx
-JS_NewObjectWithGivenProto
+JS_DeprecatedNewObjectWithGivenProtoAndParent
 (
 cx
 &
