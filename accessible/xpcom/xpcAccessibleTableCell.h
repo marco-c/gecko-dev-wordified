@@ -170,12 +170,6 @@ public
 explicit
 xpcAccessibleTableCell
 (
-mozilla
-:
-:
-a11y
-:
-:
 TableCellAccessible
 *
 aTableCell
