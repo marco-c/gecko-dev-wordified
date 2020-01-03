@@ -482,6 +482,9 @@ isLoaded
 =
 (
 content
+&
+&
+content
 .
 document
 .
@@ -556,6 +559,9 @@ let
 isImageDocument
 =
 (
+content
+&
+&
 content
 .
 document

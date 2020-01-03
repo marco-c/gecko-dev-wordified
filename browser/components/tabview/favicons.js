@@ -645,6 +645,11 @@ tabImageURI
 spec
 ;
 }
+if
+(
+tabImage
+)
+{
 tabImage
 =
 PlacesUtils
@@ -655,6 +660,7 @@ window
 tabImage
 )
 ;
+}
 callback
 (
 tabImage
