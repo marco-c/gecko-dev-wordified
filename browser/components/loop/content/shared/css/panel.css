@@ -56,6 +56,13 @@ MPL
 .
 *
 /
+body
+{
+background
+:
+none
+;
+}
 /
 *
 Panel
@@ -153,13 +160,6 @@ bottom
 solid
 #
 ccc
-;
-background
--
-color
-:
-#
-fbfbfb
 ;
 color
 :
