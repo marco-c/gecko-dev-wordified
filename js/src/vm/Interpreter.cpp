@@ -19714,9 +19714,6 @@ PlainObject
 )
 )
 ;
-bool
-succeeded
-;
 if
 (
 !
@@ -19725,17 +19722,10 @@ SetPrototype
 cx
 obj
 newProto
-&
-succeeded
 )
 )
 goto
 error
-;
-MOZ_ASSERT
-(
-succeeded
-)
 ;
 }
 REGS

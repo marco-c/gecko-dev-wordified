@@ -350,7 +350,7 @@ bool
 DeadObjectProxy
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *

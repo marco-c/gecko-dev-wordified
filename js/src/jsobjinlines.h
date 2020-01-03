@@ -1047,7 +1047,7 @@ js
 Proxy
 :
 :
-getPrototypeOf
+getPrototype
 (
 cx
 obj

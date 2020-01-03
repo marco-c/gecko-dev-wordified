@@ -663,7 +663,7 @@ bool
 WaiveXrayWrapper
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -679,7 +679,7 @@ return
 CrossCompartmentWrapper
 :
 :
-getPrototypeOf
+getPrototype
 (
 cx
 wrapper

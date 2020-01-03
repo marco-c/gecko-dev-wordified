@@ -1407,7 +1407,7 @@ baseInstance
 ;
 static
 bool
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -1871,7 +1871,7 @@ false
 ;
 }
 bool
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -2556,7 +2556,7 @@ false
 ;
 }
 bool
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -2969,7 +2969,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -2990,7 +2990,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-setPrototypeOf
+setPrototype
 (
 JSContext
 *
@@ -3005,9 +3005,12 @@ JS
 :
 HandleObject
 proto
-bool
-*
-bp
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE
@@ -3432,7 +3435,7 @@ bool
 :
 :
 Type
-getPrototypeOfHelper
+getPrototypeHelper
 (
 JSContext
 *
@@ -3461,7 +3464,7 @@ Traits
 :
 singleton
 .
-getPrototypeOf
+getPrototype
 (
 cx
 wrapper
@@ -3488,7 +3491,7 @@ bool
 :
 :
 Type
-getPrototypeOfHelper
+getPrototypeHelper
 (
 JSContext
 *
@@ -3515,7 +3518,7 @@ return
 Base
 :
 :
-getPrototypeOf
+getPrototype
 (
 cx
 wrapper
@@ -3524,7 +3527,7 @@ protop
 ;
 }
 bool
-getPrototypeOfHelper
+getPrototypeHelper
 (
 JSContext
 *
@@ -3548,7 +3551,7 @@ protop
 const
 {
 return
-getPrototypeOfHelper
+getPrototypeHelper
 <
 Traits
 :

@@ -843,7 +843,7 @@ bool
 DirectProxyHandler
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -887,7 +887,7 @@ bool
 DirectProxyHandler
 :
 :
-setPrototypeOf
+setPrototype
 (
 JSContext
 *
@@ -896,9 +896,9 @@ HandleObject
 proxy
 HandleObject
 proto
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -927,7 +927,7 @@ SetPrototype
 cx
 target
 proto
-bp
+result
 )
 ;
 }

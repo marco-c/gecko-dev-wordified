@@ -205,7 +205,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-getPrototypeOf
+getPrototype
 (
 JSContext
 *

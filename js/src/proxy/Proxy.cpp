@@ -1418,7 +1418,7 @@ bool
 Proxy
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -1462,7 +1462,7 @@ handler
 )
 -
 >
-getPrototypeOf
+getPrototype
 (
 cx
 proxy
@@ -1479,7 +1479,7 @@ bool
 Proxy
 :
 :
-setPrototypeOf
+setPrototype
 (
 JSContext
 *
@@ -1488,9 +1488,9 @@ HandleObject
 proxy
 HandleObject
 proto
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 {
 MOZ_ASSERT
@@ -1526,12 +1526,12 @@ handler
 )
 -
 >
-setPrototypeOf
+setPrototype
 (
 cx
 proxy
 proto
-bp
+result
 )
 ;
 }

@@ -882,7 +882,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -3748,7 +3748,7 @@ bool
 CPOWProxyHandler
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -3762,7 +3762,7 @@ const
 {
 FORWARD
 (
-getPrototypeOf
+getPrototype
 (
 cx
 proxy
@@ -3775,7 +3775,7 @@ bool
 WrapperOwner
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -3803,7 +3803,7 @@ status
 if
 (
 !
-SendGetPrototypeOf
+SendGetPrototype
 (
 objId
 &
@@ -5501,7 +5501,7 @@ to
 setLazyProto
 for
 the
-getPrototypeOf
+getPrototype
 hook
 .
 ProxyOptions

@@ -321,7 +321,7 @@ result
 ;
 static
 bool
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -334,7 +334,7 @@ protop
 ;
 static
 bool
-setPrototypeOf
+setPrototype
 (
 JSContext
 *
@@ -343,9 +343,9 @@ HandleObject
 proxy
 HandleObject
 proto
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 ;
 static

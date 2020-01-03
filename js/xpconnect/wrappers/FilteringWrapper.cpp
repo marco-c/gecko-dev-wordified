@@ -1149,7 +1149,7 @@ Policy
 >
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
