@@ -2235,9 +2235,10 @@ aEventStatus
 EventDispatchingCallback
 *
 aCallback
-nsCOMArray
+nsTArray
 <
 EventTarget
+*
 >
 *
 aTargets
@@ -2735,6 +2736,15 @@ ifdef
 DEBUG
 if
 (
+aEvent
+-
+>
+message
+!
+=
+NS_EVENT_NULL
+&
+&
 !
 nsContentUtils
 :
@@ -3768,7 +3778,7 @@ i
 aTargets
 -
 >
-AppendObject
+AppendElement
 (
 chain
 [

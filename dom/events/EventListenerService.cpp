@@ -1167,9 +1167,10 @@ true
 NS_EVENT_NULL
 )
 ;
-nsCOMArray
+nsTArray
 <
 EventTarget
+*
 >
 targets
 ;
@@ -1203,7 +1204,7 @@ count
 =
 targets
 .
-Count
+Length
 (
 )
 ;
