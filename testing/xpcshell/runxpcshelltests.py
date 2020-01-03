@@ -2553,6 +2553,14 @@ tempDir
 =
 mkdtemp
 (
+prefix
+=
+'
+xpc
+-
+other
+-
+'
 )
         
 self
@@ -2620,6 +2628,14 @@ pluginsDir
 =
 mkdtemp
 (
+prefix
+=
+'
+xpc
+-
+plugins
+-
+'
 )
         
 #
@@ -2837,6 +2853,14 @@ profileDir
 =
 mkdtemp
 (
+prefix
+=
+'
+xpc
+-
+profile
+-
+'
 )
         
 self
