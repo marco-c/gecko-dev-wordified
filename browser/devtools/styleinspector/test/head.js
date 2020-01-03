@@ -2710,9 +2710,7 @@ mm
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 messageManager
 ;
@@ -2932,9 +2930,7 @@ mm
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 messageManager
 ;

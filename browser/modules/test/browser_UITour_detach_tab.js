@@ -399,9 +399,7 @@ gContentDoc
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 contentDocument
 ;

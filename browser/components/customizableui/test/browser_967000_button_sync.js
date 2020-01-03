@@ -293,9 +293,7 @@ originalTarget
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 contentDocument
 |
@@ -342,9 +340,7 @@ return
 }
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 removeEventListener
 (
@@ -364,9 +360,7 @@ resolve
 }
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 addEventListener
 (

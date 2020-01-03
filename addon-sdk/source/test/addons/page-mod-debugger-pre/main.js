@@ -843,9 +843,7 @@ getMostRecentBrowserWindow
 .
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 contentWindow
 .

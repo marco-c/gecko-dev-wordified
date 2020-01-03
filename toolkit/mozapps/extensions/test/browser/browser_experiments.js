@@ -1387,9 +1387,7 @@ browser
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 ;
 let
 expected

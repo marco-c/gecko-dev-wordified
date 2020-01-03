@@ -280,9 +280,7 @@ frameCount
 ;
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 addEventListener
 (
@@ -314,9 +312,7 @@ return
 ;
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 removeEventListener
 (

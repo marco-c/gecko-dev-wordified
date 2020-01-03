@@ -5716,9 +5716,7 @@ browser
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 ;
 browser
 .

@@ -776,9 +776,7 @@ doc
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 contentDocument
 ;
@@ -986,9 +984,7 @@ doc
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 contentDocument
 ;

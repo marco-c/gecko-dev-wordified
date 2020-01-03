@@ -384,9 +384,7 @@ tab
 ;
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 loadURI
 (

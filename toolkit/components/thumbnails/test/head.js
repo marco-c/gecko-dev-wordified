@@ -669,9 +669,7 @@ browser
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 ;
 whenLoaded
 (
