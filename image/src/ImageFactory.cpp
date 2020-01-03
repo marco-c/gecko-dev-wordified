@@ -658,9 +658,9 @@ CreateImage
 nsIRequest
 *
 aRequest
-imgStatusTracker
+ProgressTracker
 *
-aStatusTracker
+aProgressTracker
 const
 nsCString
 &
@@ -740,7 +740,7 @@ return
 CreateVectorImage
 (
 aRequest
-aStatusTracker
+aProgressTracker
 aMimeType
 aURI
 imageFlags
@@ -754,7 +754,7 @@ return
 CreateRasterImage
 (
 aRequest
-aStatusTracker
+aProgressTracker
 aMimeType
 aURI
 imageFlags
@@ -1146,9 +1146,9 @@ CreateRasterImage
 nsIRequest
 *
 aRequest
-imgStatusTracker
+ProgressTracker
 *
-aStatusTracker
+aProgressTracker
 const
 nsCString
 &
@@ -1174,7 +1174,7 @@ newImage
 new
 RasterImage
 (
-aStatusTracker
+aProgressTracker
 aURI
 )
 ;
@@ -1529,9 +1529,9 @@ CreateVectorImage
 nsIRequest
 *
 aRequest
-imgStatusTracker
+ProgressTracker
 *
-aStatusTracker
+aProgressTracker
 const
 nsCString
 &
@@ -1557,7 +1557,7 @@ newImage
 new
 VectorImage
 (
-aStatusTracker
+aProgressTracker
 aURI
 )
 ;

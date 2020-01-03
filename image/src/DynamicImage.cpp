@@ -226,12 +226,12 @@ NS_OK
 }
 already_AddRefed
 <
-imgStatusTracker
+ProgressTracker
 >
 DynamicImage
 :
 :
-GetStatusTracker
+GetProgressTracker
 (
 )
 {

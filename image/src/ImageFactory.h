@@ -117,9 +117,6 @@ nsCString
 class
 nsIRequest
 ;
-class
-imgStatusTracker
-;
 namespace
 mozilla
 {
@@ -131,6 +128,9 @@ Image
 ;
 class
 ImageURL
+;
+class
+ProgressTracker
 ;
 class
 ImageFactory
@@ -250,7 +250,7 @@ request
 .
 *
 param
-aStatusTracker
+aProgressTracker
 A
 status
 tracker
@@ -313,9 +313,9 @@ CreateImage
 nsIRequest
 *
 aRequest
-imgStatusTracker
+ProgressTracker
 *
-aStatusTracker
+aProgressTracker
 const
 nsCString
 &
@@ -404,9 +404,9 @@ CreateRasterImage
 nsIRequest
 *
 aRequest
-imgStatusTracker
+ProgressTracker
 *
-aStatusTracker
+aProgressTracker
 const
 nsCString
 &
@@ -430,9 +430,9 @@ CreateVectorImage
 nsIRequest
 *
 aRequest
-imgStatusTracker
+ProgressTracker
 *
-aStatusTracker
+aProgressTracker
 const
 nsCString
 &

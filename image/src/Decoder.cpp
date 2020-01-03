@@ -159,6 +159,10 @@ mCurrentFrame
 (
 nullptr
 )
+mProgress
+(
+NoProgress
+)
 mImageData
 (
 nullptr
@@ -289,9 +293,7 @@ IsSizeDecode
 )
 )
 {
-mDiff
-.
-diffState
+mProgress
 |
 =
 FLAG_DECODE_STARTED
@@ -1016,9 +1018,7 @@ PostDecodeDone
 }
 else
 {
-mDiff
-.
-diffState
+mProgress
 |
 =
 FLAG_DECODE_STOPPED
@@ -1499,9 +1499,7 @@ Record
 this
 notification
 .
-mDiff
-.
-diffState
+mProgress
 |
 =
 FLAG_HAS_SIZE
@@ -1584,9 +1582,7 @@ mIsAnimated
 =
 true
 ;
-mDiff
-.
-diffState
+mProgress
 |
 =
 FLAG_IS_ANIMATED
@@ -1817,9 +1813,7 @@ GetRect
 )
 )
 ;
-mDiff
-.
-diffState
+mProgress
 |
 =
 FLAG_FRAME_STOPPED
@@ -1997,9 +1991,7 @@ GetDecodeFlags
 DECODER_NO_PREMULTIPLY_ALPHA
 )
 ;
-mDiff
-.
-diffState
+mProgress
 |
 =
 FLAG_DECODE_STOPPED

@@ -406,9 +406,9 @@ protected
 explicit
 VectorImage
 (
-imgStatusTracker
+ProgressTracker
 *
-aStatusTracker
+aProgressTracker
 =
 nullptr
 ImageURL
@@ -570,7 +570,7 @@ tick
 /
 /
 Initializes
-imgStatusTracker
+ProgressTracker
 and
 resets
 it
@@ -580,9 +580,9 @@ destruction
 .
 nsAutoPtr
 <
-imgStatusTrackerInit
+ProgressTrackerInit
 >
-mStatusTrackerInit
+mProgressTrackerInit
 ;
 friend
 class
