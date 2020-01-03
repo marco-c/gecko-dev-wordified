@@ -965,12 +965,6 @@ nsIChildChannel
 >
 mRedirectChannelChild
 ;
-nsCOMPtr
-<
-nsISupports
->
-mSecurityInfo
-;
 nsRefPtr
 <
 InterceptStreamListener

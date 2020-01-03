@@ -1612,6 +1612,14 @@ return
 mPeerAddr
 ;
 }
+nsresult
+OverrideSecurityInfo
+(
+nsISupports
+*
+aSecurityInfo
+)
+;
 public
 :
 /
@@ -2015,6 +2023,12 @@ nsCOMPtr
 nsIProxyInfo
 >
 mProxyInfo
+;
+nsCOMPtr
+<
+nsISupports
+>
+mSecurityInfo
 ;
 nsCString
 mSpec
