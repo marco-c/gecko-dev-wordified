@@ -2701,6 +2701,9 @@ bool
 ;
 if
 (
+rv
+&
+&
 !
 isNull
 )
