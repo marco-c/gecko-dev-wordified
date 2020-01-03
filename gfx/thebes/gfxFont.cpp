@@ -13177,6 +13177,8 @@ aRefContext
 Spacing
 *
 aSpacing
+uint16_t
+aOrientation
 )
 {
 /
@@ -13296,6 +13298,7 @@ aEnd
 TIGHT_HINTED_OUTLINE_EXTENTS
 aRefContext
 aSpacing
+aOrientation
 )
 ;
 }
@@ -13323,12 +13326,13 @@ gfxFont
 Orientation
 orientation
 =
-aTextRun
--
->
-IsVertical
-(
-)
+aOrientation
+=
+=
+gfxTextRunFactory
+:
+:
+TEXT_ORIENT_VERTICAL_UPRIGHT
 ?
 gfxFont
 :
