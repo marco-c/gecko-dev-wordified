@@ -4294,9 +4294,6 @@ com
 projectsquared
 .
 com
-example
-.
-com
 "
 )
 ;
@@ -4352,9 +4349,6 @@ com
 *
 .
 projectsquared
-.
-com
-example
 .
 com
 "
