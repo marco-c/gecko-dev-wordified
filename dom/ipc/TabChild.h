@@ -389,9 +389,6 @@ APZEventState
 class
 ImageCompositeNotification
 ;
-struct
-SetTargetAPZCCallback
-;
 }
 /
 /
@@ -1259,16 +1256,6 @@ layers
 :
 APZEventState
 APZEventState
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-SetTargetAPZCCallback
-SetTargetAPZCCallback
 ;
 typedef
 mozilla
