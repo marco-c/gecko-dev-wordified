@@ -1321,9 +1321,28 @@ line
 )
 :
         
-print
+sys
+.
+stdout
+.
+write
 (
+"
+%
+s
+\
+n
+"
+%
 line
+)
+        
+sys
+.
+stdout
+.
+flush
+(
 )
         
 #
