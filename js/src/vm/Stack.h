@@ -2826,8 +2826,7 @@ initExecuteFrame
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 AbstractFramePtr
 prev
@@ -2835,8 +2834,7 @@ const
 Value
 &
 thisv
-JSObject
-&
+HandleObject
 scopeChain
 ExecuteType
 type

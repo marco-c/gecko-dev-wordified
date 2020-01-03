@@ -340,8 +340,7 @@ initExecuteFrame
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 AbstractFramePtr
 evalInFramePrev
@@ -349,8 +348,7 @@ const
 Value
 &
 thisv
-JSObject
-&
+HandleObject
 scopeChain
 ExecuteType
 type
@@ -641,8 +639,11 @@ endif
 }
 scopeChain_
 =
-&
 scopeChain
+.
+get
+(
+)
 ;
 prev_
 =
@@ -3405,7 +3406,6 @@ cx
 script
 evalInFrame
 thisv
-*
 scopeChain
 type
 )
