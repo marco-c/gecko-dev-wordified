@@ -2236,7 +2236,7 @@ toNumber
 double
 r
 =
-lhs
+rhs
 .
 toBoolean
 (
