@@ -3735,13 +3735,6 @@ window
 return
 ;
 }
-mUseLayersAcceleration
-=
-ComputeShouldAccelerate
-(
-mUseLayersAcceleration
-)
-;
 if
 (
 ShouldUseOffMainThreadCompositing
@@ -3826,7 +3819,9 @@ true
 if
 (
 !
-mUseLayersAcceleration
+ComputeShouldAccelerate
+(
+)
 |
 |
 sFailedToCreateGLContext

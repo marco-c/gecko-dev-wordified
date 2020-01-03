@@ -3085,8 +3085,6 @@ virtual
 bool
 ComputeShouldAccelerate
 (
-bool
-aDefault
 )
 override
 ;
