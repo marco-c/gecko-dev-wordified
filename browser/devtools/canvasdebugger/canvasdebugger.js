@@ -5573,8 +5573,7 @@ value
 actualWidth
 +
 "
-\
-u00D7
+x
 "
 +
 actualHeight
