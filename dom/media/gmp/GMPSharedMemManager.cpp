@@ -430,6 +430,11 @@ aType
 aMem
 )
 ;
+if
+(
+retval
+)
+{
 /
 /
 The
@@ -466,11 +471,6 @@ uint8_t
 aSize
 )
 ;
-if
-(
-retval
-)
-{
 mData
 -
 >
