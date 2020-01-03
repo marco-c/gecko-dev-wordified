@@ -3178,9 +3178,9 @@ zoom
 .
 enabled
 "
-AsyncPanZoomEnabledDoNotUseDirectly
+AsyncPanZoomEnabled
 bool
-true
+false
 )
 ;
 DECL_GFX_PREF

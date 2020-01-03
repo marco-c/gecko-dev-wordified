@@ -1664,13 +1664,6 @@ aProperty
 )
 override
 ;
-bool
-AsyncPanZoomEnabled
-(
-)
-const
-override
-;
 protected
 :
 enum

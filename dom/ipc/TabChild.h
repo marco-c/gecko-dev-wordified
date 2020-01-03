@@ -1763,10 +1763,6 @@ const
 bool
 &
 aParentIsActive
-const
-bool
-&
-aAsyncPanZoomEnabled
 )
 override
 ;
@@ -2858,15 +2854,6 @@ return
 mParentIsActive
 ;
 }
-bool
-AsyncPanZoomEnabled
-(
-)
-{
-return
-mAsyncPanZoomEnabled
-;
-}
 protected
 :
 virtual
@@ -3186,8 +3173,6 @@ aLayersId
 PRenderFrameChild
 *
 aRenderFrame
-bool
-aAsyncPanZoomEnabled
 )
 ;
 void
@@ -3611,9 +3596,6 @@ mIPCOpen
 ;
 bool
 mParentIsActive
-;
-bool
-mAsyncPanZoomEnabled
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
