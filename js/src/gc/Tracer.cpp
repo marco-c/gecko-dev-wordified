@@ -2669,7 +2669,7 @@ gc
 gcstats
 :
 :
-MaybeAutoPhase
+AutoPhase
 ap
 (
 gc

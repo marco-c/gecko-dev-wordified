@@ -33737,7 +33737,7 @@ newCompilerOutputCount
 gcstats
 :
 :
-MaybeAutoPhase
+AutoPhase
 ap2
 (
 rt
@@ -33974,7 +33974,7 @@ this
 gcstats
 :
 :
-MaybeAutoPhase
+AutoPhase
 ap2
 (
 rt
@@ -34191,7 +34191,7 @@ newCompilerOutputCount
 gcstats
 :
 :
-MaybeAutoPhase
+AutoPhase
 ap2
 (
 rt
