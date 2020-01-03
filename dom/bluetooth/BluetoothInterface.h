@@ -3842,6 +3842,15 @@ GetBluetoothGattClientInterface
 =
 0
 ;
+virtual
+BluetoothGattServerInterface
+*
+GetBluetoothGattServerInterface
+(
+)
+=
+0
+;
 protected
 :
 BluetoothGattInterface
