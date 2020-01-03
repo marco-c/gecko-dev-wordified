@@ -318,6 +318,10 @@ protected
 uint32_t
 mCaps
 ;
+nsHttpRequestHead
+*
+mRequestHead
+;
 private
 :
 /
@@ -428,10 +432,6 @@ Atomic
 uint32_t
 >
 mCapsToClear
-;
-nsHttpRequestHead
-*
-mRequestHead
 ;
 bool
 mIsDone
