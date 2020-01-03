@@ -16285,6 +16285,17 @@ LIRGeneratorX86Shared
 :
 :
 lowerForFPU
+/
+/
+FIXME
+:
+This
+logic
+belongs
+in
+the
+MacroAssembler
+.
 if
 (
 !
