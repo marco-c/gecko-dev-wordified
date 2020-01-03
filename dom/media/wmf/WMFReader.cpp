@@ -778,15 +778,6 @@ backend
 LayersBackend
 :
 :
-LAYERS_D3D10
-&
-&
-backend
-!
-=
-LayersBackend
-:
-:
 LAYERS_D3D11
 )
 {
