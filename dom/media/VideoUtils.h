@@ -121,6 +121,13 @@ VideoUtils_h
 #
 include
 "
+FlushableTaskQueue
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -1722,12 +1729,6 @@ aOutSalt
 uint32_t
 aLength
 )
-;
-class
-TaskQueue
-;
-class
-FlushableTaskQueue
 ;
 already_AddRefed
 <
