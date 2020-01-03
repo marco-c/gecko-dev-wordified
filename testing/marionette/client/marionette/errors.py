@@ -94,6 +94,10 @@ UNKNOWN_ERROR
 =
 13
     
+ELEMENT_NOT_ACCESSIBLE
+=
+56
+    
 ELEMENT_IS_NOT_SELECTABLE
 =
 15
@@ -641,6 +645,14 @@ stacktrace
 =
 stacktrace
 )
+class
+ElementNotAccessibleException
+(
+MarionetteException
+)
+:
+    
+pass
 class
 NoSuchFrameException
 (
