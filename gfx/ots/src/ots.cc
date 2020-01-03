@@ -3147,6 +3147,7 @@ ots
 :
 ConvertWOFF2ToTTF
 (
+header
 &
 decompressed_buffer
 [

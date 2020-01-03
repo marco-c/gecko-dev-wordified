@@ -1240,6 +1240,7 @@ OTSContext
 )
 {
 }
+virtual
 ~
 OTSContext
 (
