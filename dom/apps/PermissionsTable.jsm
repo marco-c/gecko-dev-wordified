@@ -227,6 +227,9 @@ geolocation
 app
 :
 PROMPT_ACTION
+trusted
+:
+PROMPT_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -242,6 +245,9 @@ noprompt
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -264,6 +270,9 @@ camera
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -275,6 +284,9 @@ alarms
 :
 {
 app
+:
+ALLOW_ACTION
+trusted
 :
 ALLOW_ACTION
 privileged
@@ -294,6 +306,9 @@ socket
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -309,6 +324,9 @@ socket
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -328,6 +346,9 @@ events
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -339,6 +360,9 @@ contacts
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -373,6 +397,9 @@ apps
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -399,6 +426,9 @@ crashes
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -423,6 +453,9 @@ pictures
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -457,6 +490,9 @@ videos
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -487,6 +523,9 @@ music
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -521,6 +560,9 @@ sdcard
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -547,6 +589,9 @@ sms
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -558,6 +603,9 @@ telephony
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -573,6 +621,9 @@ browser
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -584,6 +635,9 @@ bluetooth
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -599,6 +653,9 @@ mobileconnection
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -610,6 +667,9 @@ mobilenetwork
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -625,6 +685,9 @@ power
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -638,6 +701,9 @@ push
 app
 :
 ALLOW_ACTION
+trusted
+:
+ALLOW_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -649,6 +715,9 @@ settings
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -721,6 +790,9 @@ clear
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -750,6 +822,9 @@ permissions
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -761,6 +836,9 @@ phonenumberservice
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -776,6 +854,9 @@ fmradio
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -787,6 +868,9 @@ attention
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -804,6 +888,9 @@ attention
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -830,6 +917,9 @@ manage
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -843,6 +933,9 @@ backgroundservice
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -862,6 +955,9 @@ notification
 app
 :
 ALLOW_ACTION
+trusted
+:
+ALLOW_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -877,6 +973,9 @@ manage
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -896,6 +995,9 @@ manage
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -913,6 +1015,9 @@ manage
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -926,6 +1031,9 @@ systemXHR
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -943,6 +1051,9 @@ voicemail
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -958,6 +1069,9 @@ idle
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -971,6 +1085,9 @@ time
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -990,6 +1107,9 @@ apps
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1007,6 +1127,9 @@ widgets
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -1020,6 +1143,9 @@ storage
 :
 {
 app
+:
+ALLOW_ACTION
+trusted
 :
 ALLOW_ACTION
 privileged
@@ -1055,6 +1181,9 @@ sensors
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1066,6 +1195,9 @@ cellbroadcast
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1087,6 +1219,9 @@ normal
 app
 :
 ALLOW_ACTION
+trusted
+:
+ALLOW_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -1104,6 +1239,9 @@ content
 :
 {
 app
+:
+ALLOW_ACTION
+trusted
 :
 ALLOW_ACTION
 privileged
@@ -1125,6 +1263,9 @@ notification
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -1144,6 +1285,9 @@ alarm
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -1161,6 +1305,9 @@ telephony
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1182,6 +1329,9 @@ telephony
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1214,6 +1364,9 @@ ringer
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1233,6 +1386,9 @@ ringer
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1265,6 +1421,9 @@ publicnotification
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1284,6 +1443,9 @@ window
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1297,6 +1459,9 @@ input
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1316,6 +1481,9 @@ manage
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1329,6 +1497,9 @@ wappush
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1348,6 +1519,9 @@ capture
 app
 :
 PROMPT_ACTION
+trusted
+:
+PROMPT_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -1361,6 +1535,9 @@ nfc
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1390,6 +1567,9 @@ manager
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1409,6 +1589,9 @@ events
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1426,6 +1609,9 @@ control
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -1439,6 +1625,9 @@ downloads
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1458,6 +1647,9 @@ capture
 app
 :
 PROMPT_ACTION
+trusted
+:
+PROMPT_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -1475,6 +1667,9 @@ detection
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION
@@ -1488,6 +1683,9 @@ mobileid
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1539,6 +1737,9 @@ permission
 app
 :
 PROMPT_ACTION
+trusted
+:
+PROMPT_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -1569,6 +1770,9 @@ accounts
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1586,6 +1790,9 @@ accounts
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
@@ -1612,6 +1819,9 @@ themeable
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 DENY_ACTION
@@ -1629,6 +1839,9 @@ image
 :
 {
 app
+:
+DENY_ACTION
+trusted
 :
 DENY_ACTION
 privileged
