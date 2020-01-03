@@ -6,7 +6,7 @@ Object
 .
 prototype
 .
-evalInGlobal
+executeInGlobal
 argument
 validation
 load
@@ -73,7 +73,7 @@ function
 {
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 )
 ;
@@ -89,7 +89,7 @@ function
 {
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 10
 )
@@ -106,7 +106,7 @@ function
 {
 gobj
 .
-evalInGlobal
+executeInGlobal
 (
 '
 42
@@ -121,7 +121,7 @@ assertEq
 (
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 '
 42
@@ -140,7 +140,7 @@ function
 {
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 )
 ;
@@ -156,7 +156,7 @@ function
 {
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 42
@@ -175,7 +175,7 @@ function
 {
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 10
 1729
@@ -193,7 +193,7 @@ function
 {
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 42
@@ -213,7 +213,7 @@ function
 {
 gobj
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 42
@@ -230,7 +230,7 @@ assertEq
 (
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 42

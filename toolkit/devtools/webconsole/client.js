@@ -1309,7 +1309,7 @@ Debugger
 .
 Object
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 )
 for

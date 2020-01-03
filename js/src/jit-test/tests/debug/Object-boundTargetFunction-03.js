@@ -81,7 +81,7 @@ bfw
 =
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 expr
 )

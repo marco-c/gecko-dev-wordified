@@ -4,7 +4,7 @@ The
 frame
 created
 for
-evalInGlobal
+executeInGlobal
 is
 never
 marked
@@ -45,7 +45,7 @@ g
 ;
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 "
 eval

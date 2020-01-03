@@ -6,7 +6,7 @@ Object
 .
 prototype
 .
-evalInGlobal
+executeInGlobal
 :
 closures
 capturing
@@ -80,7 +80,7 @@ c1
 =
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 '
 (
@@ -103,7 +103,7 @@ c2
 =
 hw
 .
-evalInGlobal
+executeInGlobal
 (
 '
 (
@@ -126,7 +126,7 @@ c3
 =
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 (
@@ -159,7 +159,7 @@ c4
 =
 hw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 (

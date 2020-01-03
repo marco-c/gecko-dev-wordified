@@ -6,7 +6,7 @@ Object
 .
 prototype
 .
-evalInGlobal
+executeInGlobal
 sets
 '
 this
@@ -42,7 +42,7 @@ assertEq
 (
 g1w
 .
-evalInGlobal
+executeInGlobal
 (
 '
 this
@@ -57,7 +57,7 @@ assertEq
 (
 g1w
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 this

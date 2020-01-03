@@ -55,7 +55,7 @@ assertEq
 (
 gDO
 .
-evalInGlobal
+executeInGlobal
 (
 expr
 )

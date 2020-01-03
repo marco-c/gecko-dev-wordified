@@ -455,7 +455,7 @@ Object
 .
 prototype
 .
-evalInGlobal
+executeInGlobal
 would
 simplify
 this

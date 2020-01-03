@@ -35,7 +35,7 @@ arrw
 =
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 var
@@ -56,7 +56,7 @@ pushw
 =
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 var
@@ -109,7 +109,7 @@ arr2
 =
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 var

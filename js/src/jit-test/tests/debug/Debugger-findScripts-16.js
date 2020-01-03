@@ -9,7 +9,7 @@ findScripts
 finds
 active
 debugger
-evalInGlobal
+executeInGlobal
 scripts
 .
 var
@@ -83,7 +83,7 @@ true
 ;
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 debugger

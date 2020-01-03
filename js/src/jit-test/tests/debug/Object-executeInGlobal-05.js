@@ -6,7 +6,7 @@ Object
 .
 prototype
 .
-evalInGlobal
+executeInGlobal
 throws
 when
 asked
@@ -123,7 +123,7 @@ function
 {
 dg1wg2
 .
-evalInGlobal
+executeInGlobal
 (
 '
 1
@@ -142,7 +142,7 @@ function
 {
 dg1wg2
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 x
@@ -174,7 +174,7 @@ unwrap
 (
 )
 .
-evalInGlobal
+executeInGlobal
 (
 '
 1729
@@ -193,7 +193,7 @@ unwrap
 (
 )
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 x

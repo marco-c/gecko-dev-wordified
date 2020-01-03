@@ -729,7 +729,7 @@ Debugger
 .
 Object
 .
-evalInGlobal
+executeInGlobal
 dbg
 .
 onDebuggerStatement
@@ -770,7 +770,7 @@ log
 ;
 gDO
 .
-evalInGlobal
+executeInGlobal
 (
 '
 debugger
@@ -792,7 +792,7 @@ Debugger
 .
 Object
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 dbg
 .
 onDebuggerStatement
@@ -833,7 +833,7 @@ log
 ;
 gDO
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 debugger

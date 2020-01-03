@@ -154,7 +154,7 @@ rv
 =
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 it

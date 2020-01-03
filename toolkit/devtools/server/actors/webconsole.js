@@ -5934,7 +5934,7 @@ during
 expression
 evaluation
 (
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 )
 )
@@ -7197,7 +7197,7 @@ result
 =
 dbgWindow
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 aString
 bindings
