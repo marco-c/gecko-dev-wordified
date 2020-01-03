@@ -3923,6 +3923,10 @@ nullptr
 )
 ;
 }
+NS_SetIgnoreStatusOfCurrentThread
+(
+)
+;
 #
 endif
 SOCKET_LOG
