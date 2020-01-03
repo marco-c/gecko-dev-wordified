@@ -120,7 +120,7 @@ testsdir
 "
 :
 "
-cppunittest
+cppunittests
 "
         
 }
