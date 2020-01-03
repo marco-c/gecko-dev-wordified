@@ -372,31 +372,18 @@ com
 "
 "
 import
-os
+atexit
+import
+time
 import
 sys
+try
+:
+    
 import
-psutil
-if
-not
-hasattr
-(
-psutil
-.
-Process
-'
-io_counters
-'
-)
-or
-os
-.
-name
-!
-=
-'
-posix
-'
+curses
+except
+ImportError
 :
     
 sys
@@ -410,11 +397,7 @@ supported
 '
 )
 import
-time
-import
-curses
-import
-atexit
+psutil
 #
 -
 -
@@ -967,9 +950,14 @@ username
 )
         
 except
+(
 psutil
 .
 NoSuchProcess
+psutil
+.
+ZombieProcess
+)
 :
             
 procs
@@ -1314,7 +1302,7 @@ interval
 0
         
 while
-1
+True
 :
             
 args

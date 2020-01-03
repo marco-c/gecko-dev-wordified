@@ -492,6 +492,8 @@ except
 psutil
 .
 NoSuchProcess
+as
+err
 :
         
 sys
@@ -500,14 +502,7 @@ exit
 (
 str
 (
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+err
 )
 )
     
@@ -560,6 +555,18 @@ parent
 '
 '
     
+if
+pinfo
+[
+'
+create_time
+'
+]
+!
+=
+ACCESS_DENIED
+:
+        
 started
 =
 datetime
@@ -568,7 +575,7 @@ datetime
 .
 fromtimestamp
 (
-        
+            
 pinfo
 [
 '
@@ -596,6 +603,13 @@ M
 '
 )
     
+else
+:
+        
+started
+=
+ACCESS_DENIED
+    
 io
 =
 pinfo
@@ -608,6 +622,18 @@ io_counters
 ACCESS_DENIED
 )
     
+if
+pinfo
+[
+'
+memory_info
+'
+]
+!
+=
+ACCESS_DENIED
+:
+        
 mem
 =
 '
@@ -628,7 +654,7 @@ s
 '
 %
 (
-        
+            
 round
 (
 pinfo
@@ -639,7 +665,7 @@ memory_percent
 ]
 1
 )
-        
+            
 convert_bytes
 (
 pinfo
@@ -651,7 +677,7 @@ memory_info
 .
 rss
 )
-        
+            
 convert_bytes
 (
 pinfo
@@ -664,6 +690,13 @@ memory_info
 vms
 )
 )
+    
+else
+:
+        
+mem
+=
+ACCESS_DENIED
     
 children
 =
@@ -880,16 +913,6 @@ or
 '
 )
     
-if
-hasattr
-(
-p
-'
-getcwd
-'
-)
-:
-        
 print_
 (
 '

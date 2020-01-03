@@ -68,33 +68,46 @@ subprocess
 import
 sys
 from
-psutil
+collections
+import
+namedtuple
+from
+.
 import
 _common
 from
-psutil
+.
 import
 _psposix
 from
-psutil
 .
-_common
-import
-usage_percent
-isfile_strict
-from
-psutil
-.
-_compat
-import
-namedtuple
-PY3
 import
 _psutil_posix
+as
+cext_posix
+from
+.
 import
 _psutil_sunos
 as
 cext
+from
+.
+_common
+import
+isfile_strict
+socktype_to_enum
+sockfam_to_enum
+from
+.
+_common
+import
+usage_percent
+from
+.
+_compat
+import
+PY3
 __extra__all__
 =
 [
@@ -115,6 +128,11 @@ sysconf
 SC_PAGE_SIZE
 '
 )
+AF_LINK
+=
+cext_posix
+.
+AF_LINK
 CONN_IDLE
 =
 "
@@ -425,6 +443,9 @@ py
 NoSuchProcess
 =
 None
+ZombieProcess
+=
+None
 AccessDenied
 =
 None
@@ -451,6 +472,11 @@ disk_usage
 _psposix
 .
 disk_usage
+net_if_addrs
+=
+cext_posix
+.
+net_if_addrs
 def
 virtual_memory
 (
@@ -647,6 +673,38 @@ Popen
 (
 [
 '
+/
+usr
+/
+bin
+/
+env
+'
+'
+PATH
+=
+/
+usr
+/
+sbin
+:
+/
+sbin
+:
+%
+s
+'
+%
+                          
+os
+.
+environ
+[
+'
+PATH
+'
+]
+'
 swap
 '
 '
@@ -658,6 +716,7 @@ l
 k
 '
 ]
+                         
 stdout
 =
 subprocess
@@ -1621,8 +1680,9 @@ types
     
 ret
 =
-[
-]
+set
+(
+)
     
 for
 item
@@ -1664,6 +1724,20 @@ TCP_STATUSES
 [
 status
 ]
+        
+fam
+=
+sockfam_to_enum
+(
+fam
+)
+        
+type_
+=
+socktype_to_enum
+(
+type_
+)
         
 if
 _pid
@@ -1707,9 +1781,97 @@ status
         
 ret
 .
-append
+add
 (
 nt
+)
+    
+return
+list
+(
+ret
+)
+def
+net_if_stats
+(
+)
+:
+    
+"
+"
+"
+Get
+NIC
+stats
+(
+isup
+duplex
+speed
+mtu
+)
+.
+"
+"
+"
+    
+ret
+=
+cext
+.
+net_if_stats
+(
+)
+    
+for
+name
+items
+in
+ret
+.
+items
+(
+)
+:
+        
+isup
+duplex
+speed
+mtu
+=
+items
+        
+if
+hasattr
+(
+_common
+'
+NicDuplex
+'
+)
+:
+            
+duplex
+=
+_common
+.
+NicDuplex
+(
+duplex
+)
+        
+ret
+[
+name
+]
+=
+_common
+.
+snicstats
+(
+isup
+duplex
+speed
+mtu
 )
     
 return
@@ -1778,6 +1940,8 @@ kwargs
         
 except
 EnvironmentError
+as
+err
 :
             
 #
@@ -1788,6 +1952,7 @@ module
 import
             
 if
+(
 NoSuchProcess
 is
 None
@@ -1795,6 +1960,12 @@ or
 AccessDenied
 is
 None
+or
+                    
+ZombieProcess
+is
+None
+)
 :
                 
 raise
@@ -1840,17 +2011,6 @@ in
 meantime
 .
             
-err
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
-            
 if
 err
 .
@@ -1866,6 +2026,16 @@ ESRCH
 )
 :
                 
+if
+not
+pid_exists
+(
+self
+.
+pid
+)
+:
+                    
 raise
 NoSuchProcess
 (
@@ -1875,6 +2045,23 @@ pid
 self
 .
 _name
+)
+                
+else
+:
+                    
+raise
+ZombieProcess
+(
+self
+.
+pid
+self
+.
+_name
+self
+.
+_ppid
 )
             
 if
@@ -1937,6 +2124,9 @@ pid
 "
 _name
 "
+"
+_ppid
+"
 ]
     
 def
@@ -1956,6 +2146,12 @@ pid
 self
 .
 _name
+=
+None
+        
+self
+.
+_ppid
 =
 None
     
@@ -2214,7 +2410,7 @@ try
 :
             
 return
-_psutil_posix
+cext_posix
 .
 getpriority
 (
@@ -2225,18 +2421,34 @@ pid
         
 except
 EnvironmentError
+as
+err
 :
             
-err
-=
-sys
+#
+48
+is
+'
+operation
+not
+supported
+'
+but
+errno
+does
+not
+expose
+            
+#
+it
 .
-exc_info
-(
-)
-[
-1
-]
+It
+occurs
+for
+low
+system
+pids
+.
             
 if
 err
@@ -2250,6 +2462,7 @@ ENOENT
 errno
 .
 ESRCH
+48
 )
 :
                 
@@ -2350,7 +2563,7 @@ _name
 )
         
 return
-_psutil_posix
+cext_posix
 .
 setpriority
 (
@@ -2564,18 +2777,9 @@ x
                 
 except
 OSError
-:
-                    
+as
 err
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
                     
 if
 err
@@ -2732,18 +2936,9 @@ pid
         
 except
 OSError
-:
-            
+as
 err
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
             
 if
 err
@@ -2962,6 +3157,8 @@ tid
             
 except
 EnvironmentError
+as
+err
 :
                 
 #
@@ -2972,17 +3169,6 @@ thread
 gone
 in
 meantime
-                
-err
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
                 
 if
 err
@@ -3152,6 +3338,8 @@ path
                 
 except
 OSError
+as
+err
 :
                     
 #
@@ -3165,17 +3353,6 @@ gone
 in
 the
 meantime
-                    
-err
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
                     
 if
 err
@@ -3935,18 +4112,9 @@ name
                 
 except
 OSError
-:
-                    
+as
 err
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
                     
 if
 err

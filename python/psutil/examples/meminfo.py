@@ -141,12 +141,6 @@ Sout
 "
 import
 psutil
-from
-psutil
-.
-_compat
-import
-print_
 def
 bytes2human
 (
@@ -352,7 +346,7 @@ bytes2human
 value
 )
         
-print_
+print
 (
 '
 %
@@ -378,7 +372,7 @@ main
 )
 :
     
-print_
+print
 (
 '
 MEMORY
@@ -402,7 +396,7 @@ virtual_memory
 )
 )
     
-print_
+print
 (
 '
 \

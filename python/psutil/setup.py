@@ -140,8 +140,7 @@ py
 '
 )
     
-f
-=
+with
 open
 (
 INIT
@@ -149,8 +148,8 @@ INIT
 r
 '
 )
-    
-try
+as
+f
 :
         
 for
@@ -244,15 +243,6 @@ version
 string
 "
 )
-    
-finally
-:
-        
-f
-.
-close
-(
-)
 def
 get_description
 (
@@ -275,8 +265,7 @@ rst
 '
 )
     
-f
-=
+with
 open
 (
 README
@@ -284,8 +273,8 @@ README
 r
 '
 )
-    
-try
+as
+f
 :
         
 return
@@ -294,14 +283,30 @@ f
 read
 (
 )
-    
-finally
-:
-        
-f
-.
-close
+VERSION
+=
+get_version
 (
+)
+VERSION_MACRO
+=
+(
+'
+PSUTIL_VERSION
+'
+int
+(
+VERSION
+.
+replace
+(
+'
+.
+'
+'
+'
+)
+)
 )
 #
 POSIX
@@ -316,12 +321,41 @@ posix
 '
 :
     
+libraries
+=
+[
+]
+    
+if
+sys
+.
+platform
+.
+startswith
+(
+"
+sunos
+"
+)
+:
+        
+libraries
+.
+append
+(
+'
+socket
+'
+)
+    
 posix_extension
 =
 Extension
 (
         
 '
+psutil
+.
 _psutil_posix
 '
         
@@ -336,6 +370,10 @@ _psutil_posix
 c
 '
 ]
+        
+libraries
+=
+libraries
     
 )
 #
@@ -397,6 +435,8 @@ Extension
 (
         
 '
+psutil
+.
 _psutil_windows
 '
         
@@ -455,12 +495,26 @@ security
 .
 c
 '
+            
+'
+psutil
+/
+arch
+/
+windows
+/
+inet_ntop
+.
+c
+'
         
 ]
         
 define_macros
 =
 [
+            
+VERSION_MACRO
             
 #
 be
@@ -501,6 +555,13 @@ _AVAIL_WINVER_
 get_winver
 (
 )
+)
+            
+(
+'
+_CRT_SECURE_NO_WARNINGS
+'
+None
 )
             
 #
@@ -557,6 +618,9 @@ iphlpapi
 "
 wtsapi32
 "
+"
+ws2_32
+"
         
 ]
         
@@ -605,6 +669,8 @@ Extension
 (
         
 '
+psutil
+.
 _psutil_osx
 '
         
@@ -640,6 +706,12 @@ process_info
 c
 '
         
+]
+        
+define_macros
+=
+[
+VERSION_MACRO
 ]
         
 extra_link_args
@@ -690,6 +762,8 @@ Extension
 (
         
 '
+psutil
+.
 _psutil_bsd
 '
         
@@ -727,6 +801,12 @@ c
         
 ]
         
+define_macros
+=
+[
+VERSION_MACRO
+]
+        
 libraries
 =
 [
@@ -761,6 +841,8 @@ Extension
 (
         
 '
+psutil
+.
 _psutil_linux
 '
         
@@ -774,6 +856,12 @@ _psutil_linux
 .
 c
 '
+]
+        
+define_macros
+=
+[
+VERSION_MACRO
 ]
 )
         
@@ -806,6 +894,8 @@ Extension
 (
         
 '
+psutil
+.
 _psutil_sunos
 '
         
@@ -821,6 +911,12 @@ c
 '
 ]
         
+define_macros
+=
+[
+VERSION_MACRO
+]
+        
 libraries
 =
 [
@@ -829,6 +925,9 @@ kstat
 '
 '
 nsl
+'
+'
+socket
 '
 ]
 )
@@ -875,9 +974,7 @@ psutil
         
 version
 =
-get_version
-(
-)
+VERSION
         
 description
 =
@@ -928,10 +1025,10 @@ netstat
 '
 nice
 '
-            
 '
 tty
 '
+            
 '
 ionice
 '
@@ -947,13 +1044,13 @@ process
 '
 df
 '
-            
 '
 iotop
 '
 '
 iostat
 '
+            
 '
 ifconfig
 '
@@ -966,13 +1063,16 @@ who
 '
 pidof
 '
-            
 '
 pmap
 '
 '
 smem
 '
+'
+pstree
+'
+            
 '
 monitoring
 '
@@ -1240,32 +1340,6 @@ Python
 :
 :
 2
-'
-            
-'
-Programming
-Language
-:
-:
-Python
-:
-:
-2
-.
-4
-'
-            
-'
-Programming
-Language
-:
-:
-Python
-:
-:
-2
-.
-5
 '
             
 '

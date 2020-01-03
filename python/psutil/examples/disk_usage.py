@@ -161,12 +161,6 @@ import
 os
 import
 psutil
-from
-psutil
-.
-_compat
-import
-print_
 def
 bytes2human
 (
@@ -361,7 +355,7 @@ templ
 s
 "
     
-print_
+print
 (
 templ
 %
@@ -384,7 +378,7 @@ Use
 "
 Type
 "
-                    
+                   
 "
 Mount
 "
@@ -484,7 +478,7 @@ part
 mountpoint
 )
         
-print_
+print
 (
 templ
 %

@@ -69,7 +69,6 @@ sys
 import
 time
 from
-psutil
 .
 _common
 import
@@ -77,7 +76,6 @@ sdiskusage
 usage_percent
 memoize
 from
-psutil
 .
 _compat
 import
@@ -209,18 +207,9 @@ pid
     
 except
 OSError
-:
-        
+as
 err
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
         
 if
 err
@@ -480,10 +469,13 @@ not
 None
 :
         
+def
 waitcall
-=
-lambda
+(
+)
 :
+            
+return
 os
 .
 waitpid
@@ -505,10 +497,13 @@ timeout
 else
 :
         
+def
 waitcall
-=
-lambda
+(
+)
 :
+            
+return
 os
 .
 waitpid
@@ -524,7 +519,7 @@ delay
 0001
     
 while
-1
+True
 :
         
 try
@@ -539,18 +534,9 @@ waitcall
         
 except
 OSError
-:
-            
+as
 err
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
             
 if
 err
@@ -652,7 +638,7 @@ code
 .
                 
 while
-1
+True
 :
                     
 if
@@ -1110,18 +1096,9 @@ name
         
 except
 OSError
-:
-            
+as
 err
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
             
 if
 err

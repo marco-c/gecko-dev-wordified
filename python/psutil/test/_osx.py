@@ -87,10 +87,11 @@ test_psutil
 import
 (
 TOLERANCE
+OSX
 sh
 get_test_subprocess
-reap_children
                          
+reap_children
 retry_before_failing
 unittest
 )
@@ -296,6 +297,18 @@ group
 )
 *
 PAGESIZE
+unittest
+.
+skipUnless
+(
+OSX
+"
+not
+an
+OSX
+system
+"
+)
 class
 OSXSpecificTestCase
 (
@@ -1132,7 +1145,7 @@ tot1
 tot2
 )
 def
-test_main
+main
 (
 )
 :
@@ -1190,7 +1203,7 @@ __main__
     
 if
 not
-test_main
+main
 (
 )
 :
