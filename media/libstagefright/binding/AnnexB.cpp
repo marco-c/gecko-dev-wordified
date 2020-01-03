@@ -168,11 +168,19 @@ aSample
 data
 )
 ;
+if
+(
+!
 ConvertSampleTo4BytesAVCC
 (
 aSample
 )
+)
+{
+return
+false
 ;
+}
 if
 (
 aSample
@@ -288,6 +296,9 @@ nalLen
 )
 ;
 }
+if
+(
+!
 aSample
 -
 >
@@ -304,7 +315,12 @@ length
 (
 )
 )
+)
+{
+return
+false
 ;
+}
 /
 /
 Prepend
@@ -1609,7 +1625,7 @@ sizeNAL
 ;
 }
 }
-void
+bool
 AnnexB
 :
 :
@@ -1628,12 +1644,11 @@ aSample
 )
 )
 {
+return
 ConvertSampleTo4BytesAVCC
 (
 aSample
 )
-;
-return
 ;
 }
 uint32_t
@@ -1682,6 +1697,7 @@ t
 convert
 .
 return
+true
 ;
 }
 mozilla
@@ -1718,6 +1734,7 @@ writer
 reader
 )
 ;
+return
 aSample
 -
 >
@@ -2307,7 +2324,7 @@ numSps
 0
 ;
 }
-void
+bool
 AnnexB
 :
 :
@@ -2355,6 +2372,7 @@ nalLenSize
 )
 {
 return
+true
 ;
 }
 mozilla
@@ -2476,6 +2494,7 @@ p
 )
 {
 return
+true
 ;
 }
 writer
@@ -2494,6 +2513,7 @@ nalLen
 )
 ;
 }
+return
 aSample
 -
 >

@@ -715,7 +715,7 @@ size_t
 aSize
 )
 ;
-void
+bool
 Replace
 (
 const
