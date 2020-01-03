@@ -371,6 +371,11 @@ DestroyScriptSettings
 (
 )
 ;
+bool
+ScriptSettingsInitialized
+(
+)
+;
 /
 *
 *
