@@ -1517,17 +1517,6 @@ override
 ;
 virtual
 bool
-RecvSetConnectivity
-(
-const
-bool
-&
-connectivity
-)
-override
-;
-virtual
-bool
 RecvSpeakerManagerNotify
 (
 )

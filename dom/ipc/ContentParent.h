@@ -2966,9 +2966,6 @@ RecvGetXPCOMProcessAttributes
 bool
 *
 aIsOffline
-bool
-*
-aIsConnected
 InfallibleTArray
 <
 nsString
