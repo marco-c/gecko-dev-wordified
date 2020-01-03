@@ -3495,14 +3495,14 @@ window
 .
 wrappedJSObject
 .
-AppWindowManager
+appWindowManager
 |
 |
 window
 .
 wrappedJSObject
 .
-WindowManager
+AppWindowManager
 ;
                 
 if
