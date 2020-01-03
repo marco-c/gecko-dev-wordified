@@ -7423,10 +7423,6 @@ Init
 (
 )
 {
-InitPrefs
-(
-)
-;
 nsresult
 rv
 =
@@ -7441,6 +7437,10 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+InitPrefs
+(
 )
 ;
 nsCOMPtr
