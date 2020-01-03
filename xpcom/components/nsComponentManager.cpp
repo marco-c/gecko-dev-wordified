@@ -2532,7 +2532,7 @@ cl
 >
 type
 =
-NS_COMPONENT_LOCATION
+NS_APP_LOCATION
 ;
 cl
 -
@@ -2586,7 +2586,7 @@ cl
 >
 type
 =
-NS_COMPONENT_LOCATION
+NS_APP_LOCATION
 ;
 cl
 -
@@ -2639,7 +2639,7 @@ cl
 >
 type
 =
-NS_COMPONENT_LOCATION
+NS_APP_LOCATION
 ;
 lf
 =
@@ -2709,7 +2709,7 @@ cl
 >
 type
 =
-NS_COMPONENT_LOCATION
+NS_APP_LOCATION
 ;
 cl
 -
@@ -9599,7 +9599,7 @@ MOZILLA_XPCOMRT_API
 )
 XRE_AddManifestLocation
 (
-NS_COMPONENT_LOCATION
+NS_EXTENSION_LOCATION
 aLocation
 )
 ;
@@ -11970,7 +11970,7 @@ file
 ;
 DoRegisterManifest
 (
-NS_COMPONENT_LOCATION
+NS_APP_LOCATION
 f
 false
 true
@@ -12102,7 +12102,7 @@ manifest
 ;
 DoRegisterManifest
 (
-NS_COMPONENT_LOCATION
+NS_APP_LOCATION
 location
 false
 true

@@ -82,11 +82,7 @@ the
 component
 manifests
 .
-Components
-.
-manager
-.
-autoRegister
+registerAppManifest
 (
 do_get_file
 (
@@ -105,11 +101,7 @@ manifest
 )
 )
 ;
-Components
-.
-manager
-.
-autoRegister
+registerAppManifest
 (
 do_get_file
 (

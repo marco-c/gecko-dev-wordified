@@ -175,9 +175,7 @@ the
 component
 manifests
 .
-Cm
-.
-autoRegister
+registerAppManifest
 (
 do_get_file
 (
@@ -196,9 +194,7 @@ manifest
 )
 )
 ;
-Cm
-.
-autoRegister
+registerAppManifest
 (
 do_get_file
 (
