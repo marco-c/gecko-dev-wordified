@@ -1847,7 +1847,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_TIMEUPDATE
+eTimeUpdate
 eMediaEventFirst
 +
 15
