@@ -274,7 +274,11 @@ namespace
 dom
 {
 class
-HTMLImageElementOrHTMLCanvasElementOrHTMLVideoElement
+HTMLImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBitmap
+;
+typedef
+HTMLImageElementOrHTMLCanvasElementOrHTMLVideoElementOrImageBitmap
+CanvasImageSource
 ;
 class
 ImageData
@@ -340,10 +344,6 @@ nsICanvasRenderingContextInternal
 public
 nsWrapperCache
 {
-typedef
-HTMLImageElementOrHTMLCanvasElementOrHTMLVideoElement
-HTMLImageOrCanvasOrVideoElement
-;
 virtual
 ~
 CanvasRenderingContext2D
@@ -749,7 +749,7 @@ CanvasPattern
 CreatePattern
 (
 const
-HTMLImageOrCanvasOrVideoElement
+CanvasImageSource
 &
 element
 const
@@ -1222,7 +1222,7 @@ void
 DrawImage
 (
 const
-HTMLImageOrCanvasOrVideoElement
+CanvasImageSource
 &
 image
 double
@@ -1269,7 +1269,7 @@ void
 DrawImage
 (
 const
-HTMLImageOrCanvasOrVideoElement
+CanvasImageSource
 &
 image
 double
@@ -1316,7 +1316,7 @@ void
 DrawImage
 (
 const
-HTMLImageOrCanvasOrVideoElement
+CanvasImageSource
 &
 image
 double
@@ -3892,7 +3892,7 @@ void
 DrawImage
 (
 const
-HTMLImageOrCanvasOrVideoElement
+CanvasImageSource
 &
 imgElt
 double
