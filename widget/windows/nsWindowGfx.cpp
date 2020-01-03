@@ -2125,10 +2125,9 @@ false
 ;
 if
 (
-mWindowType
-=
-=
-eWindowType_plugin
+IsPlugin
+(
+)
 )
 {
 /

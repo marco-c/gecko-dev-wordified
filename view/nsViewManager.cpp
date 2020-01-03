@@ -3481,10 +3481,12 @@ eWindowType_popup
 {
 NS_ASSERTION
 (
-type
-=
-=
-eWindowType_plugin
+childWidget
+-
+>
+IsPlugin
+(
+)
 "
 Only
 plugin
