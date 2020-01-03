@@ -1266,7 +1266,7 @@ _elt
 addEventListener
 (
 "
-mouseleave
+mouseout
 "
 this
 .
@@ -9874,7 +9874,7 @@ _elt
 removeEventListener
 (
 "
-mouseleave
+mouseout
 "
 this
 .
