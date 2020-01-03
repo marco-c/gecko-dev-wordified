@@ -115,13 +115,12 @@ str
 .
 replace
 (
-"
+/
+\
 .
-"
-gDecimalSymbol
-"
+/
 g
-"
+gDecimalSymbol
 )
 ;
 }
