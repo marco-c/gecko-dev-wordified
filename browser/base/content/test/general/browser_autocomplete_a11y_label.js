@@ -252,6 +252,14 @@ Tab
 "
 )
 ;
+gURLBar
+.
+popup
+.
+hidePopup
+(
+)
+;
 yield
 promisePopupHidden
 (

@@ -110,7 +110,7 @@ test
 /
 general
 /
-bug564387
+web_video
 .
 html
 "
@@ -441,7 +441,9 @@ is
 (
 fileName
 "
-Bug564387
+web
+-
+video1
 -
 expectedName
 .
