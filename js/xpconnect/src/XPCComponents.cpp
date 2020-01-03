@@ -17779,6 +17779,9 @@ propobj
 )
 continue
 ;
+FunctionForwarderOptions
+forwarderOptions
+;
 if
 (
 !
@@ -17787,6 +17790,7 @@ NewFunctionForwarder
 cx
 id
 propobj
+forwarderOptions
 &
 v
 )
