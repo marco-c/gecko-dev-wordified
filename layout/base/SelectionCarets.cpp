@@ -1471,7 +1471,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 |
 |
 aEvent

@@ -926,7 +926,7 @@ mEvent
 mMessage
 =
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 )
 {
 /
@@ -1149,7 +1149,7 @@ mEvent
 mMessage
 !
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 )
 |
 |

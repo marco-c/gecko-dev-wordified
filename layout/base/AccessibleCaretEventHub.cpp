@@ -3533,13 +3533,13 @@ rv
 break
 ;
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 AC_LOGV
 (
 "
 Before
-NS_TOUCH_CANCEL
+eTouchCancel
 state
 :
 %
@@ -3567,7 +3567,7 @@ AC_LOGV
 (
 "
 After
-NS_TOUCH_CANCEL
+eTouchCancel
 state
 :
 %

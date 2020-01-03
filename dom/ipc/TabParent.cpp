@@ -9479,7 +9479,7 @@ event
 mMessage
 =
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 )
 {
 for
@@ -15138,7 +15138,7 @@ eTouchEnd
 msg
 !
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 )
 {
 return

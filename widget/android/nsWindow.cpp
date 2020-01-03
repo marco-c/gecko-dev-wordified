@@ -5463,7 +5463,7 @@ canceltouchEvent
 .
 mMessage
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 ;
 DispatchEvent
 (

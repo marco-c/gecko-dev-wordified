@@ -306,7 +306,7 @@ MULTITOUCH_END
 break
 ;
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 mType
 =
@@ -542,7 +542,7 @@ MULTITOUCH_CANCEL
 :
 touchEventMessage
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 ;
 break
 ;

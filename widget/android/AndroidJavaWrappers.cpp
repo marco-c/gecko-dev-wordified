@@ -4826,7 +4826,7 @@ ACTION_CANCEL
 {
 type
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 ;
 break
 ;

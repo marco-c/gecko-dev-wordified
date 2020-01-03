@@ -1623,7 +1623,7 @@ false
 fall
 through
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 mActiveElementManager
 -
@@ -1707,7 +1707,7 @@ cancelEvent
 .
 mMessage
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 ;
 cancelEvent
 .
@@ -1722,7 +1722,7 @@ false
 mMessage
 !
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 ;
 for
 (

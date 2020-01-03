@@ -39974,7 +39974,7 @@ ePointerDown
 break
 ;
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 pointerMessage
 =
@@ -45307,7 +45307,7 @@ case
 eTouchMove
 :
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 case
 eTouchEnd

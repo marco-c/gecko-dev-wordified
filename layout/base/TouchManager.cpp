@@ -1323,7 +1323,7 @@ to
 touchcancel
 code
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 {
 /
