@@ -2467,6 +2467,17 @@ IsSameProcess
 const
 override
 ;
+virtual
+base
+:
+:
+ProcessId
+ParentPid
+(
+)
+const
+override
+;
 /
 *
 *
