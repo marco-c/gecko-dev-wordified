@@ -1802,7 +1802,7 @@ support
 *
 /
 void
-markChildren
+traceChildren
 (
 JSTracer
 *

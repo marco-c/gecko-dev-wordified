@@ -3895,7 +3895,7 @@ void
 JitCode
 :
 :
-trace
+traceChildren
 (
 JSTracer
 *
@@ -16562,7 +16562,7 @@ edges
 ionCode
 -
 >
-trace
+traceChildren
 (
 zone
 -

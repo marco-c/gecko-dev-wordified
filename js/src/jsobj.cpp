@@ -15467,7 +15467,7 @@ needsIncrementalBarrier
 a
 -
 >
-markChildren
+traceChildren
 (
 zone
 -
@@ -15480,7 +15480,7 @@ barrierTracer
 b
 -
 >
-markChildren
+traceChildren
 (
 zone
 -
@@ -28988,7 +28988,7 @@ void
 JSObject
 :
 :
-markChildren
+traceChildren
 (
 JSTracer
 *

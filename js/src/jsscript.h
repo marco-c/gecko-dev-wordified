@@ -10651,7 +10651,7 @@ THING_ROOT_SCRIPT
 ;
 }
 void
-markChildren
+traceChildren
 (
 JSTracer
 *
@@ -13077,7 +13077,7 @@ cx
 const
 ;
 void
-markChildren
+traceChildren
 (
 JSTracer
 *

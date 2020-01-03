@@ -3309,7 +3309,7 @@ THING_ROOT_BASE_SHAPE
 ;
 }
 void
-markChildren
+traceChildren
 (
 JSTracer
 *
@@ -6492,7 +6492,7 @@ THING_ROOT_SHAPE
 }
 inline
 void
-markChildren
+traceChildren
 (
 JSTracer
 *
@@ -8801,7 +8801,7 @@ void
 Shape
 :
 :
-markChildren
+traceChildren
 (
 JSTracer
 *

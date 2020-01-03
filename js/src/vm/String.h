@@ -3436,7 +3436,7 @@ base
 const
 ;
 void
-markBase
+traceBase
 (
 JSTracer
 *
@@ -3729,7 +3729,7 @@ s
 endif
 inline
 void
-markChildren
+traceChildren
 (
 JSTracer
 *
@@ -4165,7 +4165,7 @@ right
 ;
 }
 void
-markChildren
+traceChildren
 (
 JSTracer
 *
@@ -8478,7 +8478,7 @@ void
 JSString
 :
 :
-markChildren
+traceChildren
 (
 JSTracer
 *
@@ -8491,7 +8491,7 @@ hasBase
 (
 )
 )
-markBase
+traceBase
 (
 trc
 )
@@ -8507,7 +8507,7 @@ asRope
 (
 )
 .
-markChildren
+traceChildren
 (
 trc
 )

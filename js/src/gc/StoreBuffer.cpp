@@ -451,7 +451,7 @@ object
 object
 -
 >
-markChildren
+traceChildren
 (
 trc
 )
@@ -480,7 +480,7 @@ edge
 )
 -
 >
-trace
+traceChildren
 (
 trc
 )
