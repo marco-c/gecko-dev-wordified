@@ -3876,6 +3876,11 @@ AnimationPlayState
 :
 :
 Pending
+|
+|
+HasEndEventToQueue
+(
+)
 )
 {
 aNeedsRefreshes
