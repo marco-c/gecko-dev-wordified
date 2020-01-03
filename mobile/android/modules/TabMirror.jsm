@@ -869,7 +869,6 @@ com
 ]
 }
 ;
-let
 pc
 =
 new
