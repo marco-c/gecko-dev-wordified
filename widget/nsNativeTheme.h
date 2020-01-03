@@ -480,7 +480,7 @@ aFrame
 nsGkAtoms
 :
 :
-selected
+visuallyselected
 )
 ;
 }

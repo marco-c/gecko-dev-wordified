@@ -341,7 +341,7 @@ tabbrowser
 -
 tab
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1155,7 +1155,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1169,7 +1169,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1195,7 +1195,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1209,7 +1209,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1245,7 +1245,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1366,7 +1366,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1380,7 +1380,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1444,7 +1444,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1458,7 +1458,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1496,7 +1496,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1529,7 +1529,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1598,7 +1598,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1631,7 +1631,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1717,7 +1717,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1746,7 +1746,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1806,7 +1806,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1835,7 +1835,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1895,7 +1895,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1919,7 +1919,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1970,7 +1970,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1994,7 +1994,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2045,7 +2045,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2191,7 +2191,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2288,7 +2288,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2307,7 +2307,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2334,7 +2334,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2353,7 +2353,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2372,7 +2372,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2428,7 +2428,7 @@ background
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2664,7 +2664,7 @@ titlechanged
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true
@@ -2828,7 +2828,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -2894,7 +2894,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :

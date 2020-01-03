@@ -15004,7 +15004,7 @@ button
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -15065,7 +15065,7 @@ button
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -15121,7 +15121,7 @@ button
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -15763,7 +15763,7 @@ alltabs
 -
 item
 [
-selected
+visuallyselected
 =
 "
 true
