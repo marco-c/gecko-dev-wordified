@@ -327,6 +327,17 @@ TextureClientPool
 #
 include
 "
+mozilla
+/
+layers
+/
+PersistentBufferProvider
+.
+h
+"
+#
+include
+"
 ClientReadbackLayer
 .
 h
