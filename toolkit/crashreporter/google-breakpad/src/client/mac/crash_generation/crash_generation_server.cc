@@ -388,10 +388,6 @@ string
 dump_path
 )
 :
-dump_callback_
-(
-dump_callback
-)
 filter_
 (
 filter
@@ -399,6 +395,10 @@ filter
 filter_context_
 (
 filter_context
+)
+dump_callback_
+(
+dump_callback
 )
 dump_context_
 (
