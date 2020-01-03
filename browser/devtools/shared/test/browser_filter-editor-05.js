@@ -737,6 +737,8 @@ getValueAt
 1
 )
 "
+\
+"
 chrome
 :
 /
@@ -750,6 +752,8 @@ devtools
 test
 .
 svg
+\
+"
 "
 "
 Label
