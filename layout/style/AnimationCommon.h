@@ -1903,11 +1903,6 @@ aFlags
 )
 const
 ;
-void
-PostUpdateLayerAnimations
-(
-)
-;
 bool
 HasCurrentAnimationOfProperty
 (
