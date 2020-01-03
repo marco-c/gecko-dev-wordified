@@ -388,11 +388,6 @@ menu
 button
 "
 "
-pocket
--
-button
-"
-"
 downloads
 -
 button
