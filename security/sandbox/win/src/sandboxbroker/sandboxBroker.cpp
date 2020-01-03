@@ -1171,6 +1171,11 @@ mitigations
 sandbox
 :
 :
+MITIGATION_HEAP_TERMINATE
+|
+sandbox
+:
+:
 MITIGATION_SEHOP
 |
 sandbox
