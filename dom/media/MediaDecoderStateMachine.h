@@ -3188,7 +3188,7 @@ available
 bool
 HasLowUndecodedData
 (
-double
+int64_t
 aUsecs
 )
 ;
