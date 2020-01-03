@@ -789,9 +789,6 @@ retry
 =
 True
             
-tests_root_dir
-=
-None
 app_dir_key
 =
 None
@@ -1103,12 +1100,6 @@ get
 stack_fixer_function
 '
 )
-        
-self
-.
-tests_root_dir
-=
-tests_root_dir
         
 self
 .
@@ -8961,6 +8952,8 @@ runTests
 (
 self
 xpcshell
+=
+None
 xrePath
 =
 None
@@ -9027,9 +9020,6 @@ shuffle
 =
 False
                  
-testsRootDir
-=
-None
 testingModulesDir
 =
 None
@@ -9401,35 +9391,6 @@ tests
 in
 random
 order
-.
-        
-|
-testsRootDir
-|
-absolute
-path
-to
-root
-directory
-of
-all
-tests
-.
-This
-is
-used
-          
-by
-xUnit
-generation
-to
-determine
-the
-package
-name
-of
-the
-tests
 .
         
 |
@@ -10907,27 +10868,6 @@ singleFile
                 
 continue
             
-if
-self
-.
-testPath
-and
-path
-.
-find
-(
-self
-.
-testPath
-)
-=
-=
--
-1
-:
-                
-continue
-            
 self
 .
 testCount
@@ -10947,9 +10887,6 @@ self
 .
 cleanup_dir_list
                     
-tests_root_dir
-=
-testsRootDir
 app_dir_key
 =
 appDirKey
@@ -11694,9 +11631,6 @@ cleanup_dir_list
 retry
 =
 False
-tests_root_dir
-=
-testsRootDir
                     
 app_dir_key
 =
@@ -12604,58 +12538,6 @@ test
 filename
 to
 test
-"
-)
-        
-self
-.
-add_option
-(
-"
--
--
-tests
--
-root
--
-dir
-"
-                        
-type
-=
-"
-string
-"
-dest
-=
-"
-testsRootDir
-"
-default
-=
-None
-                        
-help
-=
-"
-absolute
-path
-to
-directory
-where
-all
-tests
-are
-located
-.
-this
-is
-typically
-(
-objdir
-)
-/
-_tests
 "
 )
         

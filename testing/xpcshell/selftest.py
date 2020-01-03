@@ -2545,12 +2545,6 @@ shuffle
 =
 shuffle
                                           
-testsRootDir
-=
-self
-.
-tempdir
-                                          
 verbose
 =
 verbose
