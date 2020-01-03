@@ -41378,7 +41378,13 @@ i
 ]
 .
 dwID
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 touchPoint
+)
 /
 *
 radius

@@ -5648,13 +5648,7 @@ aIdentifiers
 [
 i
 ]
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 pt
-)
 nsIntPoint
 (
 aRxs
@@ -16828,14 +16822,9 @@ GetWidget
 offset
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 pt
 =
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 ToWidgetPoint
 (
 CSSPoint
@@ -16846,7 +16835,6 @@ aY
 offset
 GetPresContext
 (
-)
 )
 )
 ;

@@ -3693,7 +3693,10 @@ PrepareToUseCaretPosition
 nsIWidget
 *
 aEventWidget
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 &
 aTargetPt
 )

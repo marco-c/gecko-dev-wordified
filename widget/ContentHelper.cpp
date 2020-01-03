@@ -550,7 +550,13 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aWidget
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 aPoint
+)
 viewFrame
 )
 ;

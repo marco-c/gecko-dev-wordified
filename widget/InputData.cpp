@@ -199,7 +199,7 @@ new
 Touch
 (
 mIdentifier
-nsIntPoint
+LayoutDeviceIntPoint
 (
 mScreenPoint
 .

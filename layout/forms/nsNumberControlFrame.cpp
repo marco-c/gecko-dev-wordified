@@ -3429,13 +3429,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 absPoint
-)
 mSpinBox
 -
 >

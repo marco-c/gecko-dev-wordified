@@ -965,7 +965,7 @@ AsTouchEvent
 (
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 movePoint
 ;
 int32_t
@@ -1143,11 +1143,6 @@ mouseEvent
 {
 movePoint
 =
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 mouseEvent
 -
 >
@@ -1157,7 +1152,6 @@ AsGUIEvent
 -
 >
 refPoint
-)
 ;
 }
 /

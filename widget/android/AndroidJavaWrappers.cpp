@@ -4885,7 +4885,7 @@ GetDefaultScale
 (
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 pt
 (
 (

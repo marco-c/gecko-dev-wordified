@@ -197,7 +197,7 @@ Touch
 (
 int32_t
 aIdentifier
-nsIntPoint
+LayoutDeviceIntPoint
 aPoint
 nsIntPoint
 aRadius
@@ -398,7 +398,7 @@ EventTarget
 >
 mTarget
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 mRefPoint
 ;
 bool

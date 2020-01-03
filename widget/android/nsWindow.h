@@ -1372,7 +1372,10 @@ direction
 double
 delta
 const
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 &
 refPoint
 uint64_t
