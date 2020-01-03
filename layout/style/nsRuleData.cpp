@@ -267,10 +267,6 @@ mSIDs
 (
 aSIDs
 )
-mCanStoreInRuleTree
-(
-true
-)
 mPresContext
 (
 aContext

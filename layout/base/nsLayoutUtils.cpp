@@ -828,6 +828,15 @@ EventStateManager
 h
 "
 #
+include
+"
+mozilla
+/
+RuleNodeCacheConditions
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -3033,7 +3042,7 @@ gfxSize
 )
 ;
 }
-bool
+RuleNodeCacheConditions
 dontCare
 ;
 TransformReferenceBox

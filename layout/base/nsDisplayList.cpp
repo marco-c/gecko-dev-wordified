@@ -556,6 +556,15 @@ nsDOMTokenList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+RuleNodeCacheConditions
+.
+h
+"
 /
 /
 GetCurrentTime
@@ -838,10 +847,8 @@ GetArrayValue
 (
 )
 ;
-bool
-canStoreInRuleTree
-=
-true
+RuleNodeCacheConditions
+conditions
 ;
 switch
 (
@@ -1320,7 +1327,7 @@ Item
 )
 aContext
 aPresContext
-canStoreInRuleTree
+conditions
 &
 aRefBox
 &
@@ -1366,7 +1373,7 @@ Item
 )
 aContext
 aPresContext
-canStoreInRuleTree
+conditions
 &
 aRefBox
 &
@@ -1412,7 +1419,7 @@ Item
 )
 aContext
 aPresContext
-canStoreInRuleTree
+conditions
 nullptr
 )
 ;
@@ -1452,7 +1459,7 @@ Item
 )
 aContext
 aPresContext
-canStoreInRuleTree
+conditions
 &
 aRefBox
 &
@@ -1510,7 +1517,7 @@ Item
 )
 aContext
 aPresContext
-canStoreInRuleTree
+conditions
 &
 aRefBox
 &
@@ -1557,7 +1564,7 @@ Item
 )
 aContext
 aPresContext
-canStoreInRuleTree
+conditions
 &
 aRefBox
 &
@@ -1584,7 +1591,7 @@ Item
 )
 aContext
 aPresContext
-canStoreInRuleTree
+conditions
 &
 aRefBox
 &
@@ -1611,7 +1618,7 @@ Item
 )
 aContext
 aPresContext
-canStoreInRuleTree
+conditions
 nullptr
 )
 ;
@@ -2248,7 +2255,7 @@ matrix
 array
 aContext
 aPresContext
-canStoreInRuleTree
+conditions
 aRefBox
 )
 ;
@@ -31085,7 +31092,7 @@ origin
 .
 *
 /
-bool
+RuleNodeCacheConditions
 dummy
 ;
 gfx3DMatrix
