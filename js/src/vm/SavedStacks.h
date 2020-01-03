@@ -1502,6 +1502,7 @@ typedef
 Vector
 <
 FrameState
+20
 >
 FrameStateVector
 ;
