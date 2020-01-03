@@ -1236,6 +1236,13 @@ nsGkAtoms
 :
 animationsProperty
 aProperty
+mozilla
+:
+:
+GetCompositorAnimationOptions
+:
+:
+NotifyActiveLayerTracker
 )
 ;
 }

@@ -886,6 +886,13 @@ nsGkAtoms
 :
 transitionsProperty
 aProperty
+mozilla
+:
+:
+GetCompositorAnimationOptions
+:
+:
+NotifyActiveLayerTracker
 )
 ;
 }
