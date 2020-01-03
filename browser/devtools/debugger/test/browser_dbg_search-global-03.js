@@ -425,7 +425,7 @@ getSelectedSourceURL
 gSources
 )
 .
-contains
+includes
 (
 "
 -

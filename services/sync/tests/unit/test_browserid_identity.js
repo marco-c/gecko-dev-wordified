@@ -1116,7 +1116,7 @@ _headers
 .
 authorization
 .
-contains
+includes
 (
 '
 nonce

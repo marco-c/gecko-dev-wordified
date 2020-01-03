@@ -866,7 +866,7 @@ value
 "
 )
 .
-contains
+includes
 (
 L10N
 .

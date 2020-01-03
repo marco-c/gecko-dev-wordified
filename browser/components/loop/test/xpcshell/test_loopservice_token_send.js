@@ -145,7 +145,7 @@ notEqual
 (
 header
 .
-contains
+includes
 (
 "
 Hawk
@@ -170,7 +170,7 @@ notEqual
 (
 header
 .
-contains
+includes
 (
 "
 ts
@@ -193,7 +193,7 @@ notEqual
 (
 header
 .
-contains
+includes
 (
 "
 nonce
@@ -216,7 +216,7 @@ notEqual
 (
 header
 .
-contains
+includes
 (
 "
 hash
@@ -239,7 +239,7 @@ notEqual
 (
 header
 .
-contains
+includes
 (
 "
 mac

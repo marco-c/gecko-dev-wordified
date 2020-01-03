@@ -1906,7 +1906,7 @@ if
 !
 sourceUrl
 .
-contains
+includes
 (
 aUrl
 )
@@ -2003,7 +2003,7 @@ source
 .
 url
 .
-contains
+includes
 (
 aUrlOrSource
 )

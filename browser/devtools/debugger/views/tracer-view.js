@@ -1974,7 +1974,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 query
 )

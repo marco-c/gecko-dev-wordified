@@ -3475,7 +3475,7 @@ regex
 &
 value
 .
-contains
+includes
 (
 kv
 )
@@ -3484,7 +3484,7 @@ kv
 (
 value
 .
-contains
+includes
 (
 p
 )

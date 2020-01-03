@@ -603,7 +603,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 can
@@ -702,7 +702,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 can

@@ -866,7 +866,7 @@ if
 (
 loc
 .
-contains
+includes
 (
 "
 example
@@ -880,7 +880,7 @@ ok
 (
 xpi
 .
-contains
+includes
 (
 "
 example
@@ -907,7 +907,7 @@ if
 (
 loc
 .
-contains
+includes
 (
 "
 example
@@ -921,7 +921,7 @@ ok
 (
 xpi
 .
-contains
+includes
 (
 "
 example

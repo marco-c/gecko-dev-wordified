@@ -927,7 +927,7 @@ url
 (
 url
 .
-contains
+includes
 (
 "
 ?

@@ -246,7 +246,7 @@ image
 .
 backgroundImage
 .
-contains
+includes
 (
 "
 #

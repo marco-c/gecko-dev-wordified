@@ -289,7 +289,7 @@ ok
 (
 infoLog
 .
-contains
+includes
 (
 "
 ERROR
@@ -321,7 +321,7 @@ ok
 (
 infoLog
 .
-contains
+includes
 (
 "
 ERROR
@@ -479,7 +479,7 @@ ok
 (
 infoLog
 .
-contains
+includes
 (
 "
 ERROR

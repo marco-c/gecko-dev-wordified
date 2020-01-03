@@ -672,7 +672,7 @@ str
 >
 type
 .
-contains
+includes
 (
 str
 )

@@ -631,7 +631,7 @@ menuItem
 .
 label
 .
-contains
+includes
 (
 test
 .

@@ -3673,7 +3673,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 '
 Exception
@@ -3695,7 +3695,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 "
 (
@@ -3720,7 +3720,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 '
 Exception
@@ -3761,7 +3761,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 '
 Exception
@@ -3813,7 +3813,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 '
 Exception
@@ -4755,7 +4755,7 @@ messages
 0
 ]
 .
-contains
+includes
 (
 '
 {
@@ -4858,7 +4858,7 @@ messages
 1
 ]
 .
-contains
+includes
 (
 '
 Structured
@@ -5152,7 +5152,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 "
 ReferenceError
@@ -5164,7 +5164,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 "
 ERROR_FILE
@@ -5178,7 +5178,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 "
 Ref
@@ -5242,7 +5242,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 "
 SyntaxError
@@ -5279,7 +5279,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 "
 :
@@ -5331,7 +5331,7 @@ do_check_false
 (
 str
 .
-contains
+includes
 (
 "
 Promise
@@ -5345,7 +5345,7 @@ do_check_false
 (
 str
 .
-contains
+includes
 (
 "
 Task
@@ -5359,7 +5359,7 @@ do_check_true
 (
 str
 .
-contains
+includes
 (
 "
 format_errors

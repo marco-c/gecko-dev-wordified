@@ -229,7 +229,7 @@ ok
 (
 prettyText
 .
-contains
+includes
 (
 space
 )
