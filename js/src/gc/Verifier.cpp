@@ -944,13 +944,8 @@ label
 trc
 -
 >
-tracingName
+contextName
 (
-"
-<
-unknown
->
-"
 )
 ;
 node
@@ -2104,15 +2099,6 @@ msgbuf
 1024
 ]
 ;
-const
-char
-*
-label
-=
-edge
-.
-label
-;
 JS_snprintf
 (
 msgbuf
@@ -2131,6 +2117,8 @@ edge
 %
 s
 "
+edge
+.
 label
 )
 ;
@@ -2543,11 +2531,13 @@ HashSet
 <
 void
 *
+const
 *
 PointerHasher
 <
 void
 *
+const
 *
 3
 >
@@ -2861,6 +2851,7 @@ correctly
 /
 void
 *
+const
 *
 loc
 =
@@ -2896,6 +2887,7 @@ EdgeSet
 edges
 void
 *
+const
 *
 loc
 JSObject
@@ -3126,6 +3118,7 @@ cases
 /
 void
 *
+const
 *
 loc
 =
