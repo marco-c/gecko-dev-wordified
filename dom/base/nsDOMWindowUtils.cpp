@@ -6275,10 +6275,12 @@ MozRotateGesture
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_ROTATE
+eRotateGesture
 ;
+}
 else
 if
 (

@@ -2509,7 +2509,7 @@ eSimpleGestureEventClass
 NON_IDL_EVENT
 (
 MozRotateGesture
-NS_SIMPLE_GESTURE_ROTATE
+eRotateGesture
 EventNameType_None
 eSimpleGestureEventClass
 )
