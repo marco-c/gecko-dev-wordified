@@ -190,6 +190,16 @@ nullptr
 }
 virtual
 void
+NotifyClearCachedResources
+(
+LayerTransactionParent
+*
+aLayerTree
+)
+{
+}
+virtual
+void
 ForceComposite
 (
 LayerTransactionParent
