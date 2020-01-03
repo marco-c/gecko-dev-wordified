@@ -281,6 +281,13 @@ __func__
 __VA_ARGS__
 )
 )
+using
+namespace
+mozilla
+:
+:
+media
+;
 namespace
 mozilla
 {
@@ -1251,6 +1258,13 @@ MediaDecoder
 :
 DurationChanged
 (
+TimeUnit
+:
+:
+FromSeconds
+(
+mMediaSourceDuration
+)
 )
 ;
 if

@@ -4124,6 +4124,11 @@ changed
 void
 DurationChanged
 (
+media
+:
+:
+TimeUnit
+aNewDuration
 )
 ;
 bool
