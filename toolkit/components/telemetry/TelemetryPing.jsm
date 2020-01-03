@@ -6143,10 +6143,6 @@ if
 Telemetry
 .
 canSend
-&
-&
-!
-aTesting
 )
 {
 /
