@@ -195,6 +195,17 @@ gfxSize
 #
 include
 "
+gfxPrefs
+.
+h
+"
+/
+/
+for
+gfxPrefs
+#
+include
+"
 mozilla
 /
 StyleAnimationValue
