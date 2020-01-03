@@ -271,6 +271,17 @@ JSObject
 obj
 )
 ;
+static
+bool
+HasOwnProperty
+(
+NPObject
+*
+npobj
+NPIdentifier
+npid
+)
+;
 protected
 :
 explicit
