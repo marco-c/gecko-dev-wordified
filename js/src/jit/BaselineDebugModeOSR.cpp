@@ -4535,11 +4535,6 @@ GetProp_CallNative
 \
 _
 (
-GetProp_CallNativePrototype
-)
-\
-_
-(
 GetProp_CallDOMProxyNative
 )
 \
