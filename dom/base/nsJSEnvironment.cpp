@@ -8758,6 +8758,16 @@ js
 :
 SliceBudget
 budget
+=
+js
+:
+:
+SliceBudget
+:
+:
+unlimited
+(
+)
 ;
 if
 (
