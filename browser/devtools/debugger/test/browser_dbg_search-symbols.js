@@ -132,6 +132,8 @@ gDebugger
 .
 DebuggerView
 .
+Filtering
+.
 FilteredFunctions
 ;
 waitForSourceShown

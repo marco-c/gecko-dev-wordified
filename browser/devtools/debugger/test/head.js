@@ -5146,6 +5146,8 @@ false
 ;
 view
 .
+Filtering
+.
 FilteredSources
 .
 _autoSelectFirstItem
@@ -5153,6 +5155,8 @@ _autoSelectFirstItem
 true
 ;
 view
+.
+Filtering
 .
 FilteredFunctions
 .
