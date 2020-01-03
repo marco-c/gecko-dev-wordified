@@ -3704,7 +3704,7 @@ aReferenceFrame
 )
 mCurrentAnimatedGeometryRoot
 (
-aReferenceFrame
+nullptr
 )
 mWillChangeBudgetCalculated
 (
@@ -3846,6 +3846,10 @@ double
 )
 -
 1
+)
+;
+RecomputeCurrentAnimatedGeometryRoot
+(
 )
 ;
 nsPresContext
