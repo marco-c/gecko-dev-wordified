@@ -274,6 +274,7 @@ aReason
 ;
 private
 :
+explicit
 DetailedPromise
 (
 nsIGlobalObject
