@@ -2262,9 +2262,6 @@ numFramesOnLine
 nsRect
 lineBounds
 ;
-uint32_t
-lineFlags
-;
 if
 (
 aFrame
@@ -2281,8 +2278,6 @@ firstFrameOnLine
 &
 numFramesOnLine
 lineBounds
-&
-lineFlags
 )
 ;
 if
@@ -2359,8 +2354,6 @@ firstFrameOnLine
 &
 numFramesOnLine
 lineBounds
-&
-lineFlags
 )
 ;
 if
@@ -2706,9 +2699,6 @@ numFramesOnLine
 nsRect
 lineBounds
 ;
-uint32_t
-lineFlags
-;
 if
 (
 aFrame
@@ -2725,8 +2715,6 @@ firstFrameOnLine
 &
 numFramesOnLine
 lineBounds
-&
-lineFlags
 )
 ;
 if
@@ -2815,8 +2803,6 @@ firstFrameOnLine
 &
 numFramesOnLine
 lineBounds
-&
-lineFlags
 )
 ;
 if

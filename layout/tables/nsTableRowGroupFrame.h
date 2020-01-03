@@ -1252,14 +1252,6 @@ of
 the
 row
 *
-param
-aLineFlags
--
-unused
-set
-to
-0
-*
 /
 NS_IMETHOD
 GetLine
@@ -1276,9 +1268,6 @@ aNumFramesOnLine
 nsRect
 &
 aLineBounds
-uint32_t
-*
-aLineFlags
 )
 MOZ_OVERRIDE
 ;

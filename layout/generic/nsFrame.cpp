@@ -39929,9 +39929,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint32_t
-lineFlags
-;
 result
 =
 it
@@ -39945,8 +39942,6 @@ firstFrame
 &
 lineFrameCount
 rect
-&
-lineFlags
 )
 ;
 if
@@ -44290,9 +44285,6 @@ firstFrame
 nsRect
 usedRect
 ;
-uint32_t
-lineFlags
-;
 nsIFrame
 *
 baseFrame
@@ -44458,8 +44450,6 @@ firstFrame
 &
 lineFrameCount
 usedRect
-&
-lineFlags
 )
 ;
 nsIFrame
@@ -45920,9 +45910,6 @@ nonUsedRect
 int32_t
 lineFrameCount
 ;
-uint32_t
-lineFlags
-;
 result
 =
 it
@@ -45936,8 +45923,6 @@ firstFrame
 &
 lineFrameCount
 nonUsedRect
-&
-lineFlags
 )
 ;
 if
@@ -54347,9 +54332,6 @@ framesOnLine
 nsRect
 lineBounds
 ;
-uint32_t
-lineFlags
-;
 do
 {
 lines
@@ -54363,8 +54345,6 @@ firstFrame
 &
 framesOnLine
 lineBounds
-&
-lineFlags
 )
 ;
 if
