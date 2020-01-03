@@ -1612,11 +1612,6 @@ nsACString
 userPass
 )
 {
-NS_ENSURE_STATE
-(
-mMutable
-)
-;
 return
 NS_ERROR_FAILURE
 ;
