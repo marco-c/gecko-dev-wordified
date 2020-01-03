@@ -309,7 +309,7 @@ uint32_t
 &
 aServiceId
 const
-nsString
+uint32_t
 &
 aGsmGeographicalScope
 const
@@ -329,7 +329,7 @@ nsString
 &
 aBody
 const
-nsString
+uint32_t
 &
 aMessageClass
 const
@@ -345,7 +345,7 @@ bool
 &
 aHasEtwsInfo
 const
-nsString
+uint32_t
 &
 aEtwsWarningType
 const
