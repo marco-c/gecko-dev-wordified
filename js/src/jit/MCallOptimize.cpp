@@ -3851,7 +3851,7 @@ constructing
 )
 )
 return
-InliningStatus_Error
+InliningStatus_NotInlined
 ;
 if
 (
@@ -3863,7 +3863,7 @@ getInlineReturnType
 MIRType_String
 )
 return
-InliningStatus_Error
+InliningStatus_NotInlined
 ;
 if
 (
@@ -3882,7 +3882,7 @@ type
 MIRType_Object
 )
 return
-InliningStatus_Error
+InliningStatus_NotInlined
 ;
 if
 (
@@ -3902,7 +3902,7 @@ type
 MIRType_String
 )
 return
-InliningStatus_Error
+InliningStatus_NotInlined
 ;
 callInfo
 .
