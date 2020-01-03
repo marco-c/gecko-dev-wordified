@@ -298,7 +298,7 @@ describe
 (
 "
 #
-setLoopCharPref
+setLoopPref
 "
 function
 (
@@ -339,7 +339,7 @@ function
 {
 mozLoop
 .
-setLoopCharPref
+setLoopPref
 (
 "
 fakePref
@@ -388,7 +388,7 @@ function
 {
 mozLoop
 .
-setLoopCharPref
+setLoopPref
 (
 "
 seenToS
@@ -425,7 +425,7 @@ describe
 (
 "
 #
-getLoopCharPref
+getLoopPref
 "
 function
 (
@@ -480,7 +480,7 @@ expect
 (
 mozLoop
 .
-getLoopCharPref
+getLoopPref
 (
 "
 fakePref

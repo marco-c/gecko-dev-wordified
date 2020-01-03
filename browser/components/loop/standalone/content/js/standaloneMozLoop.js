@@ -1231,7 +1231,7 @@ set
 .
 *
 /
-setLoopCharPref
+setLoopPref
 :
 function
 (
@@ -1301,7 +1301,7 @@ set
 .
 *
 /
-getLoopCharPref
+getLoopPref
 :
 function
 (

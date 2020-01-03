@@ -387,7 +387,7 @@ navigator
 .
 mozLoop
 .
-getLoopBoolPref
+getLoopPref
 (
 prefName
 )
@@ -776,7 +776,7 @@ navigator
 .
 mozLoop
 .
-getLoopCharPref
+getLoopPref
 (
 "
 learnMoreUrl
