@@ -440,6 +440,13 @@ status
 aOrigin
 :
 aType
++
+"
+-
+panel
+-
+iframe
+"
 ;
 let
 doc
