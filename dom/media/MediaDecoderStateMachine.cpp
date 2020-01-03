@@ -21068,7 +21068,7 @@ aStream
 mDecodedStream
 -
 >
-Connect
+AddOutput
 (
 aStream
 aFinishWhenEnded
@@ -21112,7 +21112,7 @@ aStream
 mDecodedStream
 -
 >
-Remove
+RemoveOutput
 (
 aStream
 )
