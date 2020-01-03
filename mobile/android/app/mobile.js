@@ -7257,7 +7257,7 @@ draw
 .
 enabled
 "
-true
+false
 )
 ;
 #
