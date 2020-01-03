@@ -1916,7 +1916,7 @@ system
 .
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 pref
 (
 "
@@ -27002,7 +27002,7 @@ resolved
 .
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 pref
 (
 "

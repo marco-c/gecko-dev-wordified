@@ -22702,7 +22702,7 @@ false
 endif
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 /
 /
 At
@@ -22786,7 +22786,7 @@ true
 endif
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 /
 /
 Enable
