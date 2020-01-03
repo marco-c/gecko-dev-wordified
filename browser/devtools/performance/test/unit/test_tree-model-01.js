@@ -49,6 +49,18 @@ array
 *
 /
 function
+run_test
+(
+)
+{
+run_next_test
+(
+)
+;
+}
+add_task
+(
+function
 test
 (
 )
@@ -114,7 +126,7 @@ the
 root
 node
 .
-is
+equal
 (
 threadNode
 .
@@ -141,7 +153,7 @@ node
 "
 )
 ;
-is
+equal
 (
 root
 .
@@ -161,7 +173,7 @@ node
 "
 )
 ;
-is
+equal
 (
 root
 .
@@ -190,7 +202,7 @@ node
 "
 )
 ;
-is
+equal
 (
 root
 .
@@ -225,7 +237,7 @@ node
 "
 )
 ;
-is
+equal
 (
 root
 .
@@ -282,7 +294,7 @@ the
 descendant
 nodes
 .
-is
+equal
 (
 getFrameNodePath
 (
@@ -371,7 +383,7 @@ call
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -472,7 +484,7 @@ call
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -541,7 +553,7 @@ call
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -618,7 +630,7 @@ call
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -703,7 +715,7 @@ call
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -796,7 +808,7 @@ call
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -897,7 +909,7 @@ call
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -954,7 +966,7 @@ node
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -995,7 +1007,7 @@ node
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -1050,7 +1062,7 @@ of
 the
 root
 .
-is
+equal
 (
 getFrameNodePath
 (
@@ -1078,7 +1090,7 @@ location
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -1106,7 +1118,7 @@ milliseconds
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -1144,7 +1156,7 @@ the
 rightmost
 leaf
 .
-is
+equal
 (
 getFrameNodePath
 (
@@ -1180,7 +1192,7 @@ location
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -1216,7 +1228,7 @@ milliseconds
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -1262,7 +1274,7 @@ the
 leftmost
 leaf
 .
-is
+equal
 (
 getFrameNodePath
 (
@@ -1314,7 +1326,7 @@ location
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -1366,7 +1378,7 @@ milliseconds
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -1418,11 +1430,9 @@ samples
 "
 )
 ;
-finish
-(
+}
 )
 ;
-}
 let
 gThread
 =

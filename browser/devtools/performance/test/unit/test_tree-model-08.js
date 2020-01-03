@@ -44,6 +44,18 @@ appropriately
 *
 /
 function
+run_test
+(
+)
+{
+run_next_test
+(
+)
+;
+}
+add_task
+(
+function
 test
 (
 )
@@ -197,7 +209,7 @@ js
 false
 )
 ;
-is
+equal
 (
 frame1
 .
@@ -222,7 +234,7 @@ type
 "
 )
 ;
-is
+equal
 (
 frame1
 .
@@ -252,7 +264,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame1
 .
@@ -280,7 +292,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame1
 .
@@ -306,7 +318,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame1
 .
@@ -339,7 +351,7 @@ url
 "
 )
 ;
-is
+equal
 (
 frame1
 .
@@ -362,7 +374,7 @@ line
 "
 )
 ;
-is
+equal
 (
 frame1
 .
@@ -385,7 +397,7 @@ column
 "
 )
 ;
-is
+equal
 (
 frame1
 .
@@ -418,7 +430,7 @@ data
 "
 )
 ;
-is
+equal
 (
 frame1
 .
@@ -541,7 +553,7 @@ baz
 false
 )
 ;
-is
+equal
 (
 frame2
 .
@@ -566,7 +578,7 @@ type
 "
 )
 ;
-is
+equal
 (
 frame2
 .
@@ -596,7 +608,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame2
 .
@@ -624,7 +636,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame2
 .
@@ -650,7 +662,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame2
 .
@@ -685,7 +697,7 @@ url
 "
 )
 ;
-is
+equal
 (
 frame2
 .
@@ -708,7 +720,7 @@ line
 "
 )
 ;
-is
+equal
 (
 frame2
 .
@@ -731,7 +743,7 @@ column
 "
 )
 ;
-is
+equal
 (
 frame2
 .
@@ -764,7 +776,7 @@ data
 "
 )
 ;
-is
+equal
 (
 frame2
 .
@@ -878,7 +890,7 @@ bar
 false
 )
 ;
-is
+equal
 (
 frame3
 .
@@ -903,7 +915,7 @@ type
 "
 )
 ;
-is
+equal
 (
 frame3
 .
@@ -933,7 +945,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame3
 .
@@ -959,7 +971,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame3
 .
@@ -985,7 +997,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame3
 .
@@ -1017,7 +1029,7 @@ url
 "
 )
 ;
-is
+equal
 (
 frame3
 .
@@ -1040,7 +1052,7 @@ line
 "
 )
 ;
-is
+equal
 (
 frame3
 .
@@ -1063,7 +1075,7 @@ column
 "
 )
 ;
-is
+equal
 (
 frame3
 .
@@ -1096,7 +1108,7 @@ data
 "
 )
 ;
-is
+equal
 (
 frame3
 .
@@ -1204,7 +1216,7 @@ foo
 false
 )
 ;
-is
+equal
 (
 frame4
 .
@@ -1229,7 +1241,7 @@ type
 "
 )
 ;
-is
+equal
 (
 frame4
 .
@@ -1259,7 +1271,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame4
 .
@@ -1285,7 +1297,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame4
 .
@@ -1311,7 +1323,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame4
 .
@@ -1341,7 +1353,7 @@ url
 "
 )
 ;
-is
+equal
 (
 frame4
 .
@@ -1364,7 +1376,7 @@ line
 "
 )
 ;
-is
+equal
 (
 frame4
 .
@@ -1387,7 +1399,7 @@ column
 "
 )
 ;
-is
+equal
 (
 frame4
 .
@@ -1420,7 +1432,7 @@ data
 "
 )
 ;
-is
+equal
 (
 frame4
 .
@@ -1564,7 +1576,7 @@ js
 false
 )
 ;
-is
+equal
 (
 frame5
 .
@@ -1589,7 +1601,7 @@ type
 "
 )
 ;
-is
+equal
 (
 frame5
 .
@@ -1619,7 +1631,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame5
 .
@@ -1647,7 +1659,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame5
 .
@@ -1673,7 +1685,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame5
 .
@@ -1706,7 +1718,7 @@ url
 "
 )
 ;
-is
+equal
 (
 frame5
 .
@@ -1729,7 +1741,7 @@ line
 "
 )
 ;
-is
+equal
 (
 frame5
 .
@@ -1752,7 +1764,7 @@ column
 "
 )
 ;
-is
+equal
 (
 frame5
 .
@@ -1785,7 +1797,7 @@ data
 "
 )
 ;
-is
+equal
 (
 frame5
 .
@@ -1869,7 +1881,7 @@ CATEGORY_OTHER
 false
 )
 ;
-is
+equal
 (
 frame6
 .
@@ -1894,7 +1906,7 @@ type
 "
 )
 ;
-is
+equal
 (
 frame6
 .
@@ -1926,7 +1938,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame6
 .
@@ -1950,7 +1962,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame6
 .
@@ -1974,7 +1986,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame6
 .
@@ -1997,7 +2009,7 @@ url
 "
 )
 ;
-is
+equal
 (
 frame6
 .
@@ -2020,7 +2032,7 @@ line
 "
 )
 ;
-is
+equal
 (
 frame6
 .
@@ -2048,7 +2060,7 @@ data
 "
 )
 ;
-is
+equal
 (
 frame6
 .
@@ -2105,7 +2117,7 @@ EnterJIT
 false
 )
 ;
-is
+equal
 (
 frame7
 .
@@ -2130,7 +2142,7 @@ type
 "
 )
 ;
-is
+equal
 (
 frame7
 .
@@ -2156,7 +2168,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame7
 .
@@ -2180,7 +2192,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame7
 .
@@ -2204,7 +2216,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame7
 .
@@ -2227,7 +2239,7 @@ url
 "
 )
 ;
-is
+equal
 (
 frame7
 .
@@ -2250,7 +2262,7 @@ line
 "
 )
 ;
-is
+equal
 (
 frame7
 .
@@ -2273,7 +2285,7 @@ column
 "
 )
 ;
-is
+equal
 (
 frame7
 .
@@ -2301,7 +2313,7 @@ data
 "
 )
 ;
-is
+equal
 (
 frame7
 .
@@ -2370,7 +2382,7 @@ column
 false
 )
 ;
-is
+equal
 (
 frame8
 .
@@ -2454,7 +2466,7 @@ line
 false
 )
 ;
-is
+equal
 (
 frame9
 .
@@ -2565,7 +2577,7 @@ js
 false
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2590,7 +2602,7 @@ type
 "
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2616,7 +2628,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2644,7 +2656,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2670,7 +2682,7 @@ name
 "
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2705,7 +2717,7 @@ url
 "
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2728,7 +2740,7 @@ line
 "
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2751,7 +2763,7 @@ column
 "
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2775,7 +2787,7 @@ flag
 "
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2802,7 +2814,7 @@ host
 "
 )
 ;
-is
+equal
 (
 frame10
 .
@@ -2825,8 +2837,6 @@ port
 "
 )
 ;
-finish
-(
+}
 )
 ;
-}

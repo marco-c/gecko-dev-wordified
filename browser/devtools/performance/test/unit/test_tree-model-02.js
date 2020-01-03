@@ -47,6 +47,18 @@ information
 *
 /
 function
+run_test
+(
+)
+{
+run_next_test
+(
+)
+;
+}
+add_task
+(
+function
 test
 (
 )
@@ -107,7 +119,7 @@ the
 root
 node
 .
-is
+equal
 (
 root
 .
@@ -127,7 +139,7 @@ node
 "
 )
 ;
-is
+equal
 (
 root
 .
@@ -184,7 +196,7 @@ the
 descendant
 nodes
 .
-is
+equal
 (
 getFrameNodePath
 (
@@ -245,7 +257,7 @@ correct
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -314,7 +326,7 @@ correct
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -355,11 +367,9 @@ node
 "
 )
 ;
-finish
-(
+}
 )
 ;
-}
 let
 gThread
 =
