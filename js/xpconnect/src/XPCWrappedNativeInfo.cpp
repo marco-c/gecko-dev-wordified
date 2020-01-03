@@ -1448,6 +1448,7 @@ if
 console
 )
 {
+const
 char
 *
 intfNameChars
@@ -1455,7 +1456,7 @@ intfNameChars
 aInfo
 -
 >
-GetName
+GetNameShared
 (
 &
 intfNameChars
