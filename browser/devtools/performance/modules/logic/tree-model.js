@@ -3195,6 +3195,12 @@ function
 {
 return
 !
+this
+.
+isMetaCategory
+&
+&
+!
 !
 this
 .

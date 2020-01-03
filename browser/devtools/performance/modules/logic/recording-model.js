@@ -1269,9 +1269,7 @@ and
 withAllocations
 and
 other
-*
-recording
-options
+configurations
 .
 *
 return
