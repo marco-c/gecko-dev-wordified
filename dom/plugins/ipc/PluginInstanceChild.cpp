@@ -9727,7 +9727,10 @@ Length
 unityClassName
 =
 =
+wwc
+(
 className
+)
 )
 {
 sSetCaptureHookData
