@@ -393,7 +393,12 @@ obj
 assignSnapshot
 (
 guard
-Bailout_ObjectIdentityOrTypeGuard
+ins
+-
+>
+bailoutKind
+(
+)
 )
 ;
 add
