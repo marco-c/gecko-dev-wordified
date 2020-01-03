@@ -6061,6 +6061,17 @@ HasReadyTouchBlock
 (
 )
 ;
+bool
+NeedToWaitForContent
+(
+)
+const
+;
+void
+ResetInputState
+(
+)
+;
 private
 :
 /
