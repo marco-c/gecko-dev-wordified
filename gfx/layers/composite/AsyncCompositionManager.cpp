@@ -1288,7 +1288,7 @@ AsContainerLayer
 {
 layerTransform3D
 .
-Scale
+PreScale
 (
 1
 .
@@ -4453,7 +4453,7 @@ AsContainerLayer
 {
 transform
 .
-Scale
+PreScale
 (
 1
 .
@@ -4624,7 +4624,7 @@ mCumulativeResolution
 ;
 oldTransform
 .
-Scale
+PreScale
 (
 resolution
 .
@@ -5805,7 +5805,7 @@ AsContainerLayer
 {
 transform
 .
-Scale
+PreScale
 (
 1
 .
@@ -6915,7 +6915,7 @@ AsContainerLayer
 {
 computedTransform
 .
-Scale
+PreScale
 (
 1
 .
@@ -7024,7 +7024,7 @@ correctly
 .
 oldTransform
 .
-Scale
+PreScale
 (
 metrics
 .
@@ -7241,7 +7241,7 @@ height
 }
 oldTransform
 .
-Translate
+PreTranslate
 (
 overscrollTranslation
 .
@@ -7346,7 +7346,7 @@ height
 }
 oldTransform
 .
-Scale
+PreScale
 (
 underZoomScale
 .

@@ -4475,7 +4475,7 @@ AsyncCompositionManager
 SampleValue
 transform
 .
-Translate
+PreTranslate
 (
 -
 scaledOrigin

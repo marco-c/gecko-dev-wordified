@@ -2312,7 +2312,7 @@ transform
 ;
 transform
 .
-Scale
+PreScale
 (
 FontScaleX
 FontScaleY

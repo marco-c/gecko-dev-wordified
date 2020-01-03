@@ -841,7 +841,7 @@ yet
 ;
 local
 .
-Scale
+PreScale
 (
 mScaleToSize
 .
