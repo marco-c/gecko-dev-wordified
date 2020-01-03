@@ -6217,6 +6217,13 @@ this
 props
 .
 dispatcher
+helper
+:
+this
+.
+props
+.
+helper
 }
 )
 )
