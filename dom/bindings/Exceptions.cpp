@@ -3631,7 +3631,7 @@ if
 JS
 :
 :
-StringifySavedFrameStack
+BuildStackString
 (
 cx
 stack

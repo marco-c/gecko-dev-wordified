@@ -486,7 +486,7 @@ CHECK
 JS
 :
 :
-StringifySavedFrameStack
+BuildStackString
 (
 cx
 savedFrame

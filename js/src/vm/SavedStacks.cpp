@@ -3939,7 +3939,7 @@ JS_PUBLIC_API
 (
 bool
 )
-StringifySavedFrameStack
+BuildStackString
 (
 JSContext
 *
@@ -5063,7 +5063,7 @@ if
 JS
 :
 :
-StringifySavedFrameStack
+BuildStackString
 (
 cx
 frame

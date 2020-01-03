@@ -1569,7 +1569,7 @@ cx
 if
 (
 !
-StringifySavedFrameStack
+BuildStackString
 (
 cx
 savedFrameObj
