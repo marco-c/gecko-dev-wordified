@@ -2185,7 +2185,7 @@ timer
 mFadeBeginTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 FadeBeginTimerFired
 this
@@ -2194,6 +2194,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+ScrollbarActivity
+:
+:
+FadeBeginTimerFired
+"
 )
 ;
 }

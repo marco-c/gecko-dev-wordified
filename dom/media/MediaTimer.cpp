@@ -1159,7 +1159,7 @@ rv
 mTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 &
 TimerCallback
@@ -1169,6 +1169,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+MediaTimer
+:
+:
+TimerCallback
+"
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT

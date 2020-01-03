@@ -2617,7 +2617,7 @@ NS_ERROR_OUT_OF_MEMORY
 mTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 TimerCallback
 this
@@ -2626,6 +2626,7 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+mName
 )
 ;
 return
