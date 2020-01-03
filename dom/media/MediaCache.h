@@ -4220,6 +4220,9 @@ FlushPartialBlockInternal
 (
 bool
 aNotify
+ReentrantMonitorAutoEnter
+&
+aReentrantMonitor
 )
 ;
 /
