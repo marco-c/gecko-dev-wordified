@@ -67071,6 +67071,7 @@ aError
 return
 SetTimeoutOrInterval
 (
+aCx
 aFunction
 aTimeout
 aArguments
@@ -67241,6 +67242,7 @@ timeout
 return
 SetTimeoutOrInterval
 (
+aCx
 aFunction
 timeout
 aArguments
@@ -68224,6 +68226,9 @@ nsGlobalWindow
 :
 SetTimeoutOrInterval
 (
+JSContext
+*
+aCx
 Function
 &
 aFunction
@@ -68280,6 +68285,7 @@ inner
 >
 SetTimeoutOrInterval
 (
+aCx
 aFunction
 aTimeout
 aArguments
@@ -68296,6 +68302,7 @@ handler
 =
 NS_CreateJSTimeoutHandler
 (
+aCx
 this
 aFunction
 aArguments

@@ -718,6 +718,9 @@ nsIScriptTimeoutHandler
 >
 NS_CreateJSTimeoutHandler
 (
+JSContext
+*
+aCx
 nsGlobalWindow
 *
 aWindow
@@ -9287,6 +9290,9 @@ override
 int32_t
 SetTimeoutOrInterval
 (
+JSContext
+*
+aCx
 mozilla
 :
 :
