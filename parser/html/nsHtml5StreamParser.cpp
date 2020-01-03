@@ -6150,12 +6150,10 @@ bug
 1015466
 if
 (
-XRE_GetProcessType
+!
+XRE_IsContentProcess
 (
 )
-!
-=
-GeckoProcessType_Content
 )
 {
 NS_WARNING

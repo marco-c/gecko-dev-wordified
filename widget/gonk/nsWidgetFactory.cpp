@@ -463,12 +463,9 @@ aResult
 {
 return
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 ?
 nsScreenManagerGonkConstructor
