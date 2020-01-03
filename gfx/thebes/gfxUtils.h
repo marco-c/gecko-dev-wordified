@@ -2088,12 +2088,9 @@ DrawTarget
 aDT
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 static
 bool
-DumpPaintList
+DumpDisplayList
 (
 )
 ;
@@ -2110,8 +2107,6 @@ FILE
 *
 sDumpPaintFile
 ;
-#
-endif
 }
 ;
 namespace

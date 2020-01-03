@@ -2681,9 +2681,6 @@ gNoClip
 nullptr
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 nsCString
 DisplayItemClip
 :
@@ -2868,6 +2865,4 @@ return
 str
 ;
 }
-#
-endif
 }

@@ -13688,9 +13688,6 @@ mColor
 )
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 nsDisplaySolidColor
 :
@@ -13767,8 +13764,6 @@ mColor
 "
 ;
 }
-#
-endif
 static
 void
 RegisterThemeGeometry
@@ -17947,9 +17942,6 @@ nsDisplayThemedBackground
 #
 endif
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 nsDisplayThemedBackground
 :
@@ -17986,8 +17978,6 @@ mAppearance
 "
 ;
 }
-#
-endif
 void
 nsDisplayThemedBackground
 :
@@ -19037,9 +19027,6 @@ mFrame
 )
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 nsDisplayBackgroundColor
 :
@@ -19100,8 +19087,6 @@ a
 "
 ;
 }
-#
-endif
 already_AddRefed
 <
 Layer
@@ -19822,9 +19807,6 @@ aRect
 )
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 nsDisplayLayerEventRegions
 :
@@ -19912,8 +19894,6 @@ dispatchToContentRegion
 ;
 }
 }
-#
-endif
 nsDisplayCaret
 :
 :
@@ -24197,9 +24177,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 nsDisplayOpacity
 :
@@ -24231,8 +24208,6 @@ mOpacity
 "
 ;
 }
-#
-endif
 nsDisplayMixBlendMode
 :
 :
@@ -28693,9 +28668,6 @@ ScrollLayerCount
 #
 endif
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 nsDisplayScrollLayer
 :
@@ -28735,8 +28707,6 @@ mScrolledFrame
 "
 ;
 }
-#
-endif
 nsDisplayScrollInfoLayer
 :
 :
@@ -36630,9 +36600,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 nsDisplayTransform
 :
@@ -36656,8 +36623,6 @@ GetTransform
 )
 ;
 }
-#
-endif
 nsDisplaySVGEffects
 :
 :

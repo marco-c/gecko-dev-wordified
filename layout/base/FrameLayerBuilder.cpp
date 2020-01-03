@@ -31661,9 +31661,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 /
 *
 static
@@ -31700,8 +31697,6 @@ aDumpHtml
 )
 ;
 }
-#
-endif
 gfx
 :
 :

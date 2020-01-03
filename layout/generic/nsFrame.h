@@ -5046,9 +5046,6 @@ GetShowEventTargetFrameBorder
 ;
 #
 endif
-#
-ifdef
-MOZ_DUMP_PAINTING
 public
 :
 static
@@ -5173,8 +5170,6 @@ aDumpHtml
 false
 )
 ;
-#
-endif
 }
 ;
 /

@@ -24592,12 +24592,8 @@ log
 Useful
 for
 debugging
-invalidation
-problems
+drawing
 .
-#
-ifdef
-MOZ_DUMP_PAINTING
 pref
 (
 "
@@ -24612,8 +24608,6 @@ dump
 false
 )
 ;
-#
-endif
 /
 /
 pref

@@ -1693,9 +1693,6 @@ void
 aCallbackData
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 /
 *
 *
@@ -1747,8 +1744,6 @@ aDumpHtml
 false
 )
 ;
-#
-endif
 /
 *
 *
