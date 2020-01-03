@@ -136,6 +136,9 @@ nsIDOMDocument
 .
 h
 "
+class
+nsXULTemplateQueryProcessorRDF
+;
 /
 *
 *

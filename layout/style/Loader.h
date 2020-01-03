@@ -221,9 +221,6 @@ ReferrerPolicy
 h
 "
 class
-nsIAtom
-;
-class
 nsICSSLoaderObserver
 ;
 class
@@ -233,16 +230,10 @@ class
 nsIDocument
 ;
 class
-nsCSSParser
-;
-class
 nsMediaList
 ;
 class
 nsIStyleSheetLinkingElement
-;
-class
-nsCycleCollectionTraversalCallback
 ;
 namespace
 mozilla

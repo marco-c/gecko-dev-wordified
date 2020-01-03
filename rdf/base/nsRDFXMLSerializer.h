@@ -147,9 +147,6 @@ rdfITripleVisitor
 h
 "
 class
-nsString
-;
-class
 nsIOutputStream
 ;
 class

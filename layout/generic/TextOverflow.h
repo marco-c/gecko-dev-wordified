@@ -148,9 +148,6 @@ class
 nsIScrollableFrame
 ;
 class
-gfxTextRun
-;
-class
 nsLineBox
 ;
 namespace

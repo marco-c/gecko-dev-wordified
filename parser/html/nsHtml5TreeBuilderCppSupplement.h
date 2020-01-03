@@ -148,9 +148,6 @@ Likely
 .
 h
 "
-class
-nsPresContext
-;
 nsHtml5TreeBuilder
 :
 :

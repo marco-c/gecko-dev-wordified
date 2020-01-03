@@ -118,12 +118,6 @@ nsCoord
 h
 "
 class
-nsGridLayout2
-;
-class
-nsBoxLayoutState
-;
-class
 nsIFrame
 ;
 /

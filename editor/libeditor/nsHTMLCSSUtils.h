@@ -194,9 +194,6 @@ mozilla
 class
 nsHTMLEditor
 ;
-class
-nsIDOMWindow
-;
 typedef
 void
 (

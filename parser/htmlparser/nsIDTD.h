@@ -271,12 +271,6 @@ eDTDMode_fragment
 }
 ;
 class
-nsIParser
-;
-class
-nsIURI
-;
-class
 nsIContentSink
 ;
 class

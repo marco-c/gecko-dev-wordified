@@ -126,9 +126,6 @@ class
 SVGBBox
 ;
 struct
-nsPoint
-;
-struct
 nsRect
 ;
 namespace

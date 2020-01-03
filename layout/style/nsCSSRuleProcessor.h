@@ -202,10 +202,16 @@ struct
 CascadeEnumData
 ;
 struct
+ElementDependentRuleProcessorData
+;
+struct
 nsCSSSelector
 ;
 struct
 nsCSSSelectorList
+;
+struct
+nsFontFaceRuleContainer
 ;
 struct
 RuleCascadeData

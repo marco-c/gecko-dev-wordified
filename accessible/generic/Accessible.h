@@ -193,9 +193,6 @@ nsIAtom
 class
 nsIPersistentProperties
 ;
-class
-nsView
-;
 namespace
 mozilla
 {
@@ -234,9 +231,6 @@ ImageAccessible
 ;
 class
 KeyBinding
-;
-class
-MathMLAccessible
 ;
 class
 ProxyAccessible

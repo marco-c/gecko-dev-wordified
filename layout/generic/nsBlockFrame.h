@@ -398,9 +398,6 @@ nsBlockInFlowLineIterator
 class
 nsBulletFrame
 ;
-class
-nsFirstLineFrame
-;
 /
 *
 *

@@ -156,9 +156,6 @@ nsIWordBreaker
 h
 "
 class
-nsIAtom
-;
-class
 nsIContent
 ;
 #

@@ -167,9 +167,6 @@ h
 class
 nsPresContext
 ;
-class
-nsCSSCounterStyleRule
-;
 namespace
 mozilla
 {

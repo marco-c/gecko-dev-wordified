@@ -1246,9 +1246,6 @@ class
 NoExecDeathTest
 ;
 class
-FinalSuccessChecker
-;
-class
 GTestFlagSaver
 ;
 class

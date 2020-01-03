@@ -258,9 +258,6 @@ class
 nsCSSRuleProcessor
 ;
 class
-nsICSSRuleList
-;
-class
 nsIPrincipal
 ;
 class

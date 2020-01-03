@@ -464,9 +464,6 @@ class
 nsIDTD
 ;
 class
-nsScanner
-;
-class
 nsIRunnable
 ;
 #

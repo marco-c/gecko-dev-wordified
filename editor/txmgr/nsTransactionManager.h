@@ -168,9 +168,6 @@ nsITransaction
 class
 nsITransactionListener
 ;
-class
-nsTransactionItem
-;
 /
 *
 *

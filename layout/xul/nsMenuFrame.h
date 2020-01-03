@@ -198,9 +198,6 @@ aContext
 class
 nsIContent
 ;
-class
-nsMenuBarFrame
-;
 #
 define
 NS_STATE_ACCELTEXT_IS_DERIVED

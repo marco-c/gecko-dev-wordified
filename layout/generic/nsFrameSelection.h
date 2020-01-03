@@ -166,9 +166,6 @@ h
 class
 nsRange
 ;
-class
-nsTableOuterFrame
-;
 /
 /
 IID

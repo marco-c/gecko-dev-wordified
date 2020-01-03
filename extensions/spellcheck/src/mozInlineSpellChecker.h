@@ -199,9 +199,6 @@ KeyPress
 #
 endif
 class
-nsIDOMMouseEventListener
-;
-class
 mozInlineSpellWordUtil
 ;
 class

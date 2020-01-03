@@ -137,9 +137,6 @@ nsGrid
 h
 "
 class
-nsIPresContext
-;
-class
 nsGridRowGroupLayout
 ;
 class
@@ -150,9 +147,6 @@ nsGridRow
 ;
 class
 nsBoxLayoutState
-;
-class
-nsGridCell
 ;
 /
 *

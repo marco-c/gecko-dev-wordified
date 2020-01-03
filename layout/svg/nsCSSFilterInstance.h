@@ -149,9 +149,6 @@ nsColor
 .
 h
 "
-class
-nsIFrame
-;
 struct
 nsStyleFilter
 ;

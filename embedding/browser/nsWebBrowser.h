@@ -322,9 +322,6 @@ nsWeakPtr
 h
 "
 class
-nsIContentViewerFile
-;
-class
 nsWebBrowserInitInfo
 {
 public

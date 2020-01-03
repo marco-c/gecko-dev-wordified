@@ -120,9 +120,6 @@ class
 nsHTMLEditor
 ;
 class
-nsIDOMEvent
-;
-class
 nsHTMLEditorEventListener
 :
 public

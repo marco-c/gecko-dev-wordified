@@ -207,16 +207,7 @@ class
 nsPIDOMWindow
 ;
 class
-nsIWebBrowserChrome
-;
-class
-nsString
-;
-class
 nsWatcherWindowEnumerator
-;
-class
-nsIScriptContext
 ;
 class
 nsPromptService

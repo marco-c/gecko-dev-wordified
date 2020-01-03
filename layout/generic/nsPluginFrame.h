@@ -214,9 +214,6 @@ class
 nsDisplayPlugin
 ;
 class
-nsIOSurface
-;
-class
 PluginBackgroundSink
 ;
 class

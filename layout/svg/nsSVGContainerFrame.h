@@ -173,9 +173,6 @@ class
 nsStyleContext
 ;
 struct
-nsPoint
-;
-struct
 nsRect
 ;
 typedef

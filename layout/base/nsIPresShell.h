@@ -518,9 +518,6 @@ namespace
 mozilla
 #
 endif
-class
-nsIWidget
-;
 struct
 nsArenaMemoryStats
 ;

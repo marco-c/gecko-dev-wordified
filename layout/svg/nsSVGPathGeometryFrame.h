@@ -193,9 +193,6 @@ class
 nsSVGMarkerProperty
 ;
 struct
-nsPoint
-;
-struct
 nsRect
 ;
 typedef

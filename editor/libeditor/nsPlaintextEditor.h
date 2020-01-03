@@ -159,9 +159,6 @@ class
 nsIContent
 ;
 class
-nsIDOMDataTransfer
-;
-class
 nsIDOMDocument
 ;
 class
@@ -169,9 +166,6 @@ nsIDOMElement
 ;
 class
 nsIDOMEvent
-;
-class
-nsIDOMEventTarget
 ;
 class
 nsIDOMKeyEvent

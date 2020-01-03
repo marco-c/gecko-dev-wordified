@@ -198,12 +198,6 @@ class
 nsHtml5Parser
 ;
 class
-nsHtml5TreeBuilder
-;
-class
-nsHtml5Tokenizer
-;
-class
 nsHtml5StreamParser
 ;
 class

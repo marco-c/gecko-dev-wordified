@@ -279,9 +279,6 @@ h
 class
 nsXULTemplateResultSetRDF
 ;
-class
-nsXULTemplateQueryProcessorRDF
-;
 /
 /
 -

@@ -155,9 +155,6 @@ class
 nsHTMLEditor
 ;
 class
-nsIDOMDocument
-;
-class
 nsIDOMNode
 ;
 struct

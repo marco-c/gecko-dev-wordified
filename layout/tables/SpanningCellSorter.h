@@ -152,9 +152,6 @@ StackArena
 .
 h
 "
-class
-nsIPresShell
-;
 /
 *
 *

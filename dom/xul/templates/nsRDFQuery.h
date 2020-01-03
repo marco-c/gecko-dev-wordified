@@ -149,6 +149,9 @@ NS_ITEMPLATERDFQUERY_IID
 0xc4
 }
 }
+class
+nsXULTemplateQueryProcessorRDF
+;
 /
 *
 *

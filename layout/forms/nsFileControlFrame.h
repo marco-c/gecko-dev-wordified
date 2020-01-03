@@ -144,9 +144,6 @@ nsCOMPtr
 h
 "
 class
-nsTextControlFrame
-;
-class
 nsIDOMDataTransfer
 ;
 class

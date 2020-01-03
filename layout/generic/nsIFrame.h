@@ -586,9 +586,6 @@ struct
 nsHTMLReflowState
 ;
 class
-nsHTMLReflowCommand
-;
-class
 nsIAtom
 ;
 class
@@ -605,9 +602,6 @@ nsView
 ;
 class
 nsIWidget
-;
-class
-nsIDOMRange
 ;
 class
 nsISelectionController

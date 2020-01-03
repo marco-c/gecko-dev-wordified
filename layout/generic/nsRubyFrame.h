@@ -136,9 +136,6 @@ h
 class
 nsRubyBaseContainerFrame
 ;
-class
-nsRubyTextContainerFrame
-;
 typedef
 nsInlineFrame
 nsRubyFrameSuper

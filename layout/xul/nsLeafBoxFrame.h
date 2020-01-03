@@ -123,9 +123,6 @@ nsBox
 h
 "
 class
-nsAccessKeyInfo
-;
-class
 nsLeafBoxFrame
 :
 public

@@ -149,9 +149,6 @@ nsRepeatService
 h
 "
 class
-nsSliderFrame
-;
-class
 nsScrollbarButtonFrame
 :
 public

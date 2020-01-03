@@ -181,9 +181,6 @@ nsIAtom
 struct
 nsCSSSelectorList
 ;
-class
-nsCSSCompressedDataBlock
-;
 namespace
 mozilla
 {

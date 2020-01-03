@@ -101,9 +101,6 @@ class
 nsHtml5TreeOpExecutor
 ;
 class
-nsHtml5StateSnapshot
-;
-class
 nsHtml5DocumentBuilder
 ;
 enum

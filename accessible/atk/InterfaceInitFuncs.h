@@ -147,9 +147,6 @@ a11y
 /
 namespace
 mozilla
-struct
-MaiUtilClass
-;
 extern
 "
 C

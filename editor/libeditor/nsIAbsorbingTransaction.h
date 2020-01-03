@@ -155,9 +155,6 @@ class
 nsSelectionState
 ;
 class
-nsIEditor
-;
-class
 nsIAtom
 ;
 /

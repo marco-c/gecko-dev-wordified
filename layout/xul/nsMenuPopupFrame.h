@@ -909,9 +909,6 @@ aContext
 )
 ;
 class
-nsViewManager
-;
-class
 nsView
 ;
 class

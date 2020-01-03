@@ -618,12 +618,6 @@ class
 JSStreamWriter
 ;
 class
-JSCustomArray
-;
-class
-ThreadProfile
-;
-class
 ProfilerMarker
 {
 friend

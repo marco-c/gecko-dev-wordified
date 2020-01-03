@@ -305,9 +305,6 @@ int
 sLastFrameNumber
 ;
 class
-BreakpadSampler
-;
-class
 TableTicker
 :
 public

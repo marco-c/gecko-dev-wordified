@@ -132,9 +132,6 @@ nsIStyleRuleProcessor
 h
 "
 class
-nsIDocument
-;
-class
 nsRuleWalker
 ;
 namespace

@@ -156,12 +156,6 @@ nsLineBox
 class
 nsPresContext
 ;
-class
-nsLineLayout
-;
-struct
-nsBlockHorizontalAlign
-;
 /
 *
 *

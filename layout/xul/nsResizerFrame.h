@@ -128,9 +128,6 @@ class
 nsIBaseWindow
 ;
 class
-nsMenuPopupFrame
-;
-class
 nsResizerFrame
 :
 public

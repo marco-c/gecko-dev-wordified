@@ -106,9 +106,6 @@ HTMLFormControlAccessible
 .
 h
 "
-class
-nsIMutableArray
-;
 namespace
 mozilla
 {

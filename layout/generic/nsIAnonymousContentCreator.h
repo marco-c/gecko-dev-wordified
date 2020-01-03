@@ -138,9 +138,6 @@ nsTArrayForwardDeclare
 h
 "
 class
-nsBaseContentList
-;
-class
 nsIContent
 ;
 class

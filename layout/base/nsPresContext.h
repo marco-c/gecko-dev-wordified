@@ -339,9 +339,6 @@ RestyleLogging
 h
 "
 class
-nsBidiPresUtils
-;
-class
 nsAString
 ;
 class
@@ -378,15 +375,6 @@ class
 nsIAtom
 ;
 class
-nsICSSPseudoComparator
-;
-struct
-nsStyleBackground
-;
-struct
-nsStyleBorder
-;
-class
 nsIRunnable
 ;
 class
@@ -397,9 +385,6 @@ gfxUserFontSet
 ;
 class
 gfxTextPerfMetrics
-;
-struct
-nsFontFaceRuleContainer
 ;
 class
 nsPluginFrame

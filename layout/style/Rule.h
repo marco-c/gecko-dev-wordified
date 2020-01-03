@@ -147,9 +147,6 @@ nsIDOMCSSRule
 h
 "
 class
-nsIStyleSheet
-;
-class
 nsIDocument
 ;
 struct

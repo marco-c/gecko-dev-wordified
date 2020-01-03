@@ -204,9 +204,6 @@ class
 nsIDocShell
 ;
 class
-nsDeviceContext
-;
-class
 nsIDocument
 ;
 class
@@ -220,9 +217,6 @@ nsIDocShell
 ;
 class
 nsIPageSequenceFrame
-;
-class
-nsIWeakReference
 ;
 /
 /
