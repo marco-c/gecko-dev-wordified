@@ -1047,7 +1047,7 @@ memalign
         
 #
 These
-two
+three
 aren
 '
 t
@@ -1070,6 +1070,7 @@ r
 aligned_alloc
 '
         
+#
 r
 '
 valloc

@@ -355,6 +355,16 @@ configurations
 .
 /
 /
+valloc
+was
+deprecated
+in
+Android
+5
+.
+0
+/
+/
 char
 *
 q
@@ -457,6 +467,8 @@ aligned_alloc
 )
 )
 +
+/
+/
 intptr_t
 (
 valloc
