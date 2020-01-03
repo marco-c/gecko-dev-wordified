@@ -1394,6 +1394,12 @@ self
 mod_jsval
 =
 None
+        
+self
+.
+mod_Interpreter
+=
+None
 #
 Yield
 a
