@@ -8998,6 +8998,10 @@ ShouldIntercept
 )
 )
 {
+mResponseCouldBeSynthesized
+=
+true
+;
 nsCOMPtr
 <
 nsINetworkInterceptController

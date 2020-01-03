@@ -32279,6 +32279,10 @@ mInterceptCache
 =
 MAYBE_INTERCEPT
 ;
+mResponseCouldBeSynthesized
+=
+true
+;
 }
 /
 /
