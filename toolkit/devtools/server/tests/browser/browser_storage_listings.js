@@ -4051,10 +4051,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 addTab
 (
 MAIN_DOMAIN
@@ -4066,6 +4062,10 @@ listings
 .
 html
 "
+)
+.
+then
+(
 function
 (
 doc

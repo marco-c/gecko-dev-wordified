@@ -960,10 +960,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 /
 /
 Open
@@ -973,6 +969,10 @@ tab
 addTab
 (
 URL1
+)
+.
+then
+(
 function
 (
 doc

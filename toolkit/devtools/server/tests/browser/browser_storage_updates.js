@@ -1579,10 +1579,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 addTab
 (
 MAIN_DOMAIN
@@ -1594,6 +1590,10 @@ updates
 .
 html
 "
+)
+.
+then
+(
 function
 (
 doc

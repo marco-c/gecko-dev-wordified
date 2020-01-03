@@ -2506,10 +2506,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 addTab
 (
 MAIN_DOMAIN
@@ -2523,6 +2519,10 @@ windows
 .
 html
 "
+)
+.
+then
+(
 function
 (
 doc
