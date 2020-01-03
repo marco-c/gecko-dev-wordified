@@ -141,12 +141,6 @@ mozilla
 .
 gecko
 .
-sync
-.
-setup
-.
-activities
-.
 LocaleAware
 .
 LocaleAwareActivity
