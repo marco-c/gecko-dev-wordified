@@ -27970,7 +27970,7 @@ parent
 anc1
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -28009,7 +28009,7 @@ parent
 anc2
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -28053,7 +28053,7 @@ anc1
 anc1
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -28074,7 +28074,7 @@ anc2
 anc2
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -28096,7 +28096,7 @@ anc1
 anc1
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -28105,7 +28105,7 @@ anc2
 anc2
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -28346,7 +28346,7 @@ aStartNode
 aStartNode
 -
 >
-GetParentElementCrossingShadowRoot
+GetFlattenedTreeParent
 (
 )
 )
@@ -28635,7 +28635,7 @@ aStartNode
 aStartNode
 -
 >
-GetParentElementCrossingShadowRoot
+GetFlattenedTreeParent
 (
 )
 )
