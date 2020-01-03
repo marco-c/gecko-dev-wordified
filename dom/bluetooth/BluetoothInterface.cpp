@@ -407,8 +407,8 @@ else
 static
 const
 char
-const
 *
+const
 sDefaultBackend
 =
 nullptr
