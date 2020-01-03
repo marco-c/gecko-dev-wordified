@@ -441,10 +441,6 @@ mImageContainer
 (
 aImageContainer
 )
-mConfig
-(
-aConfig
-)
 mReaderCallback
 (
 nullptr
@@ -2572,9 +2568,6 @@ AnnexB
 ConvertSample
 (
 aSample
-mConfig
-.
-annex_b
 )
 ;
 /
