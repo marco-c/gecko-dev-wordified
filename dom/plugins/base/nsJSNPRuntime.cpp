@@ -6917,9 +6917,9 @@ true
 ;
 }
 }
-if
-(
-!
+*
+succeeded
+=
 npobj
 -
 >
@@ -6931,11 +6931,6 @@ removeProperty
 npobj
 identifier
 )
-)
-*
-succeeded
-=
-false
 ;
 return
 ReportExceptionIfPending
