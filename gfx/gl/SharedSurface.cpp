@@ -1308,6 +1308,14 @@ mIsLocked
 (
 false
 )
+mIsProducerAcquired
+(
+false
+)
+mIsConsumerAcquired
+(
+false
+)
 #
 ifdef
 DEBUG

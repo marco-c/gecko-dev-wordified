@@ -4330,13 +4330,6 @@ mSurf
 mGL
 )
 {
-mSurf
--
->
-Fence
-(
-)
-;
 }
 SharedSurfaceTextureClient
 :
