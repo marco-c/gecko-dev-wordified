@@ -280,12 +280,6 @@ CheckedInt
 .
 h
 "
-#
-if
-defined
-(
-PR_LOGGING
-)
 GFX2D_API
 PRLogModuleInfo
 *
@@ -316,8 +310,6 @@ return
 sLog
 ;
 }
-#
-endif
 /
 /
 The

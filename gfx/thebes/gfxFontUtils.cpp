@@ -215,9 +215,6 @@ prlog
 h
 "
 #
-ifdef
-PR_LOGGING
-#
 define
 LOG
 (
@@ -237,11 +234,6 @@ log
 PR_LOG_DEBUG
 args
 )
-#
-endif
-/
-/
-PR_LOGGING
 #
 define
 UNICODE_BMP_LIMIT
@@ -321,9 +313,6 @@ pragma
 pack
 (
 )
-#
-if
-PR_LOGGING
 void
 gfxSparseBitSet
 :
@@ -632,8 +621,6 @@ outStr
 ;
 }
 }
-#
-endif
 nsresult
 gfxFontUtils
 :

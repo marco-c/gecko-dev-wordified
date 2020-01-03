@@ -209,9 +209,6 @@ namespace
 mozilla
 ;
 #
-ifdef
-PR_LOGGING
-#
 define
 LOG_FONTLIST
 (
@@ -285,11 +282,6 @@ eGfxLog_fontinit
 \
 PR_LOG_DEBUG
 )
-#
-endif
-/
-/
-PR_LOGGING
 gfxPlatformFontList
 *
 gfxPlatformFontList
@@ -1987,9 +1979,6 @@ start
 end
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTINIT_ENABLED
@@ -2042,8 +2031,6 @@ timeout
 )
 ;
 }
-#
-endif
 }
 #
 define
@@ -2302,9 +2289,6 @@ start
 end
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTINIT_ENABLED
@@ -2370,8 +2354,6 @@ timeout
 )
 ;
 }
-#
-endif
 return
 lookup
 ;
@@ -3684,9 +3666,6 @@ Now
 -
 start
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 log
@@ -3837,8 +3816,6 @@ cmapCount
 )
 ;
 }
-#
-endif
 /
 /
 no
@@ -5001,9 +4978,6 @@ key
 aFamilyEntry
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -5052,8 +5026,6 @@ get
 )
 )
 ;
-#
-endif
 if
 (
 mBadUnderlineFamilyNames
@@ -5111,9 +5083,6 @@ aFullname
 aFontEntry
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -5158,8 +5127,6 @@ get
 )
 )
 ;
-#
-endif
 }
 }
 void
@@ -5201,9 +5168,6 @@ aPostscriptName
 aFontEntry
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -5248,8 +5212,6 @@ get
 )
 )
 ;
-#
-endif
 }
 }
 bool
@@ -5879,9 +5841,6 @@ mStartIndex
 =
 mNumFamilies
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTINIT_ENABLED
@@ -5942,8 +5901,6 @@ false
 )
 ;
 }
-#
-endif
 if
 (
 done
@@ -6293,9 +6250,6 @@ ForceGlobalReflow
 ;
 }
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTINIT_ENABLED
@@ -6412,8 +6366,6 @@ reflow
 )
 ;
 }
-#
-endif
 gfxFontInfoLoader
 :
 :

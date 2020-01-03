@@ -376,9 +376,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -409,13 +406,6 @@ return
 sLog
 ;
 }
-#
-endif
-/
-*
-PR_LOGGING
-*
-/
 #
 undef
 LOG
@@ -6484,9 +6474,6 @@ name
 fe
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -6584,8 +6571,6 @@ Stretch
 )
 ;
 }
-#
-endif
 }
 }
 void

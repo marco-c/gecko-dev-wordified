@@ -11961,9 +11961,6 @@ logs
 shared
 across
 gfx
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -12139,13 +12136,6 @@ break
 return
 nullptr
 ;
-#
-else
-return
-nullptr
-;
-#
-endif
 }
 int
 gfxPlatform

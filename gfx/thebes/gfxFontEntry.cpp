@@ -8606,9 +8606,6 @@ mCount
 +
 +
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 log
@@ -8721,8 +8718,6 @@ get
 )
 ;
 }
-#
-endif
 }
 aMatchData
 -

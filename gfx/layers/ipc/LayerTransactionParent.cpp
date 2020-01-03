@@ -4073,9 +4073,6 @@ VisualFrameWarning
 severity
 )
 ;
-#
-ifdef
-PR_LOGGING
 PR_LogPrint
 (
 "
@@ -4103,8 +4100,6 @@ ToMilliseconds
 )
 )
 ;
-#
-endif
 }
 }
 profiler_tracing

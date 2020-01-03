@@ -1284,9 +1284,6 @@ fullname
 ;
 }
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTLIST_ENABLED
@@ -1407,8 +1404,6 @@ get
 )
 ;
 }
-#
-endif
 }
 /
 /
@@ -3119,9 +3114,6 @@ gfxCharacterMap
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -3229,8 +3221,6 @@ eGfxLog_cmapdata
 )
 ;
 }
-#
-endif
 return
 rv
 ;
@@ -5868,9 +5858,6 @@ i
 ]
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTLIST_ENABLED
@@ -5979,8 +5966,6 @@ Stretch
 )
 ;
 }
-#
-endif
 }
 /
 /

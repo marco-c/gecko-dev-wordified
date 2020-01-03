@@ -13648,9 +13648,6 @@ newCh
 ;
 }
 }
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 log
@@ -13677,8 +13674,6 @@ eGfxLog_textrun
 )
 )
 ;
-#
-endif
 /
 /
 variant
@@ -13718,9 +13713,6 @@ uint8_t
 transformedString
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 MOZ_UNLIKELY
@@ -13953,8 +13945,6 @@ get
 )
 ;
 }
-#
-endif
 /
 /
 the
@@ -14105,9 +14095,6 @@ runScript
 )
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 MOZ_UNLIKELY
@@ -14341,8 +14328,6 @@ get
 )
 ;
 }
-#
-endif
 InitScriptRun
 (
 aContext

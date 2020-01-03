@@ -220,9 +220,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gfxUserFontSet
@@ -255,13 +252,6 @@ return
 sLog
 ;
 }
-#
-endif
-/
-*
-PR_LOGGING
-*
-/
 #
 define
 LOG
@@ -2928,9 +2918,6 @@ if
 loadOK
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -2999,8 +2986,6 @@ get
 )
 ;
 }
-#
-endif
 return
 ;
 }
@@ -3798,9 +3783,6 @@ metaOrigLen
 compression
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -3890,8 +3872,6 @@ mGeneration
 )
 ;
 }
-#
-endif
 mPlatformFontEntry
 =
 fe
@@ -3915,9 +3895,6 @@ fe
 }
 else
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -3995,8 +3972,6 @@ get
 )
 ;
 }
-#
-endif
 }
 /
 /
@@ -4840,9 +4815,6 @@ AddFontEntry
 aUserFontEntry
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -4928,8 +4900,6 @@ Stretch
 )
 ;
 }
-#
-endif
 }
 gfxUserFontEntry
 *
