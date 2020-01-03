@@ -2446,6 +2446,8 @@ char
 aFilePath
 uint32_t
 aPluginId
+int32_t
+aSandboxLevel
 )
 ;
 CrashReporterParent
@@ -2607,6 +2609,9 @@ mHangUIEnabled
 ;
 bool
 mIsTimerReset
+;
+int32_t
+mSandboxLevel
 ;
 #
 ifdef
