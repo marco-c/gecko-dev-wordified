@@ -13073,6 +13073,9 @@ target
 ownerDocument
 .
 defaultView
+this
+.
+browser
 )
 ;
 }
