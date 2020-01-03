@@ -1266,6 +1266,14 @@ return
 NS_OK
 ;
 }
+protected
+:
+~
+ReadAirplaneModeSettingTask
+(
+)
+{
+}
 private
 :
 nsRefPtr

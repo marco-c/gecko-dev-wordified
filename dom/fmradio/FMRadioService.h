@@ -1280,12 +1280,6 @@ Singleton
 (
 )
 ;
-virtual
-~
-FMRadioService
-(
-)
-;
 NS_DECL_ISUPPORTS
 virtual
 bool
@@ -1547,6 +1541,12 @@ MOZ_OVERRIDE
 NS_DECL_NSIOBSERVER
 protected
 :
+FMRadioService
+(
+)
+;
+virtual
+~
 FMRadioService
 (
 )
