@@ -536,9 +536,6 @@ uint16_t
 callState
 ;
 nsString
-disconnectedReason
-;
-nsString
 number
 ;
 uint16_t
@@ -610,15 +607,6 @@ aMsg
 aIter
 &
 callState
-)
-&
-&
-ReadParam
-(
-aMsg
-aIter
-&
-disconnectedReason
 )
 &
 &
@@ -720,7 +708,6 @@ TelephonyCallInfo
 clientId
 callIndex
 callState
-disconnectedReason
 number
 numberPresentation
 name
