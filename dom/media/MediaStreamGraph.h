@@ -4203,7 +4203,6 @@ mAudioChannelType
 }
 protected
 :
-virtual
 void
 AdvanceTimeVaryingValuesToCurrentTime
 (
