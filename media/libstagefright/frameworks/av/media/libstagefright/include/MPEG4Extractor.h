@@ -470,9 +470,6 @@ mSidxEntries
 uint64_t
 mSidxDuration
 ;
-off64_t
-mMoofOffset
-;
 Vector
 <
 PsshInfo
