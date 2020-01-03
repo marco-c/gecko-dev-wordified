@@ -890,12 +890,6 @@ JSProto_Object
 key
 =
 =
-JSProto_Array
-|
-|
-key
-=
-=
 JSProto_Function
 )
 {
