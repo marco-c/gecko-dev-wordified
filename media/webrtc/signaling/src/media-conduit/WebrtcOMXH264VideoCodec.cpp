@@ -301,7 +301,7 @@ DRAIN_THREAD_TIMEOUT_US
 .
 #
 define
-LOG_TAG
+WOHVC_LOG_TAG
 "
 WebrtcOMXH264VideoCodec
 "
@@ -315,7 +315,7 @@ CODEC_LOGV
 )
 CSFLogInfo
 (
-LOG_TAG
+WOHVC_LOG_TAG
 __VA_ARGS__
 )
 #
@@ -328,7 +328,7 @@ CODEC_LOGD
 )
 CSFLogDebug
 (
-LOG_TAG
+WOHVC_LOG_TAG
 __VA_ARGS__
 )
 #
@@ -341,7 +341,7 @@ CODEC_LOGI
 )
 CSFLogInfo
 (
-LOG_TAG
+WOHVC_LOG_TAG
 __VA_ARGS__
 )
 #
@@ -354,7 +354,7 @@ CODEC_LOGW
 )
 CSFLogWarn
 (
-LOG_TAG
+WOHVC_LOG_TAG
 __VA_ARGS__
 )
 #
@@ -367,7 +367,7 @@ CODEC_LOGE
 )
 CSFLogError
 (
-LOG_TAG
+WOHVC_LOG_TAG
 __VA_ARGS__
 )
 namespace
