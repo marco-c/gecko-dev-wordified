@@ -6528,18 +6528,6 @@ type
 "
 custom
 "
-/
-/
-XXX
-Bug
-1013989
-will
-provide
-a
-label
-for
-the
-button
 label
 :
 "
@@ -6547,7 +6535,7 @@ loop
 -
 call
 -
-button
+button2
 .
 label
 "
@@ -6558,7 +6546,7 @@ loop
 -
 call
 -
-button
+button2
 .
 tooltiptext
 "
