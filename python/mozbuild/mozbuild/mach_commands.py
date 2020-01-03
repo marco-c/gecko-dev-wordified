@@ -8023,6 +8023,12 @@ Linux
 {
                 
 "
+LD_PRELOAD
+"
+:
+dmd_lib
+                
+"
 LD_LIBRARY_PATH
 "
 :
