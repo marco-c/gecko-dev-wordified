@@ -954,6 +954,12 @@ nsILoadContext
 >
 mLoadContext
 ;
+nsCOMPtr
+<
+nsIInterfaceRequestor
+>
+mOuterRequestor
+;
 /
 /
 Array
