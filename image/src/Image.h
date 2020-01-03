@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_IMAGELIB_IMAGE_H_
+mozilla_image_src_Image_h
 #
 define
-MOZILLA_IMAGELIB_IMAGE_H_
+mozilla_image_src_Image_h
 #
 include
 "
@@ -1337,4 +1337,4 @@ mozilla
 endif
 /
 /
-MOZILLA_IMAGELIB_IMAGE_H_
+mozilla_image_src_Image_h

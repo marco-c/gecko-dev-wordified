@@ -222,10 +222,12 @@ aMimeType
 IMAGE_PNG
 )
 )
+{
 rv
 =
 eDecoderType_png
 ;
+}
 else
 if
 (
@@ -236,6 +238,7 @@ aMimeType
 IMAGE_X_PNG
 )
 )
+{
 rv
 =
 eDecoderType_png
@@ -243,6 +246,7 @@ eDecoderType_png
 /
 /
 GIF
+}
 else
 if
 (
@@ -253,6 +257,7 @@ aMimeType
 IMAGE_GIF
 )
 )
+{
 rv
 =
 eDecoderType_gif
@@ -260,6 +265,7 @@ eDecoderType_gif
 /
 /
 JPEG
+}
 else
 if
 (
@@ -270,10 +276,12 @@ aMimeType
 IMAGE_JPEG
 )
 )
+{
 rv
 =
 eDecoderType_jpeg
 ;
+}
 else
 if
 (
@@ -284,10 +292,12 @@ aMimeType
 IMAGE_PJPEG
 )
 )
+{
 rv
 =
 eDecoderType_jpeg
 ;
+}
 else
 if
 (
@@ -298,6 +308,7 @@ aMimeType
 IMAGE_JPG
 )
 )
+{
 rv
 =
 eDecoderType_jpeg
@@ -305,6 +316,7 @@ eDecoderType_jpeg
 /
 /
 BMP
+}
 else
 if
 (
@@ -315,10 +327,12 @@ aMimeType
 IMAGE_BMP
 )
 )
+{
 rv
 =
 eDecoderType_bmp
 ;
+}
 else
 if
 (
@@ -329,6 +343,7 @@ aMimeType
 IMAGE_BMP_MS
 )
 )
+{
 rv
 =
 eDecoderType_bmp
@@ -336,6 +351,7 @@ eDecoderType_bmp
 /
 /
 ICO
+}
 else
 if
 (
@@ -346,10 +362,12 @@ aMimeType
 IMAGE_ICO
 )
 )
+{
 rv
 =
 eDecoderType_ico
 ;
+}
 else
 if
 (
@@ -360,6 +378,7 @@ aMimeType
 IMAGE_ICO_MS
 )
 )
+{
 rv
 =
 eDecoderType_ico
@@ -367,6 +386,7 @@ eDecoderType_ico
 /
 /
 Icon
+}
 else
 if
 (
@@ -377,10 +397,12 @@ aMimeType
 IMAGE_ICON_MS
 )
 )
+{
 rv
 =
 eDecoderType_icon
 ;
+}
 return
 rv
 ;
@@ -481,9 +503,11 @@ if
 (
 mError
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 NS_ENSURE_ARG_POINTER
 (
 aAnimationMode
@@ -512,9 +536,11 @@ if
 (
 mError
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 NS_ASSERTION
 (
 aAnimationMode
