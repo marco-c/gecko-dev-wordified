@@ -295,6 +295,9 @@ below
 ifndef
 MOZ_NO_SMART_CARDS
 {
+mozilla
+:
+:
 ScopedSECMODModule
 module
 (
@@ -529,6 +532,9 @@ NS_ERROR_FAILURE
 #
 ifndef
 MOZ_NO_SMART_CARDS
+mozilla
+:
+:
 ScopedSECMODModule
 module
 (
