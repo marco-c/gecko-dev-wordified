@@ -8075,6 +8075,16 @@ max_br
 ;
 }
 ;
+/
+/
+Also
+used
+for
+VP9
+since
+they
+share
+parameters
 class
 VP8Parameters
 :
