@@ -1024,13 +1024,6 @@ Updated
 (
 )
 ;
-mCanvasClient
--
->
-OnTransaction
-(
-)
-;
 }
 CanvasClient
 :
