@@ -2488,14 +2488,6 @@ border
 ;
 if
 (
-!
-mWarnTime
-.
-IsNull
-(
-)
-&
-&
 (
 now
 -
