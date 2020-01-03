@@ -145,15 +145,6 @@ h
 >
 #
 include
-"
-mozilla
-/
-Snprintf
-.
-h
-"
-#
-include
 <
 stddef
 .
@@ -269,7 +260,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -300,7 +291,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -336,7 +327,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -367,7 +358,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -403,7 +394,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -434,7 +425,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -470,7 +461,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -504,7 +495,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -566,7 +557,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -597,7 +588,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -633,7 +624,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -664,7 +655,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -700,7 +691,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -731,7 +722,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -767,7 +758,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -801,7 +792,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -863,7 +854,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -894,7 +885,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -930,7 +921,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -961,7 +952,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -997,7 +988,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1028,7 +1019,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1064,7 +1055,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1098,7 +1089,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1160,7 +1151,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1194,7 +1185,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1233,7 +1224,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1269,7 +1260,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1399,7 +1390,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1428,7 +1419,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1457,7 +1448,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1486,7 +1477,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1522,7 +1513,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1551,7 +1542,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1580,7 +1571,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1609,7 +1600,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1645,7 +1636,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1674,7 +1665,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1703,7 +1694,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1732,7 +1723,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1768,7 +1759,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1800,7 +1791,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1832,7 +1823,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1864,7 +1855,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1926,7 +1917,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1955,7 +1946,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -1984,7 +1975,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2013,7 +2004,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2049,7 +2040,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2078,7 +2069,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2107,7 +2098,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2136,7 +2127,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2172,7 +2163,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2201,7 +2192,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2230,7 +2221,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2259,7 +2250,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2295,7 +2286,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2327,7 +2318,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2359,7 +2350,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2391,7 +2382,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2453,7 +2444,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2482,7 +2473,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2511,7 +2502,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2540,7 +2531,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2576,7 +2567,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2605,7 +2596,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2634,7 +2625,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2663,7 +2654,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2699,7 +2690,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2728,7 +2719,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2757,7 +2748,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2786,7 +2777,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2822,7 +2813,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2854,7 +2845,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2886,7 +2877,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2918,7 +2909,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -2980,7 +2971,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -3012,7 +3003,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -3044,7 +3035,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -3076,7 +3067,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -3115,7 +3106,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -3151,7 +3142,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -3187,7 +3178,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "
@@ -3223,7 +3214,7 @@ PoisonOutput
 (
 )
 ;
-snprintf_literal
+sprintf
 (
 gOutput
 "

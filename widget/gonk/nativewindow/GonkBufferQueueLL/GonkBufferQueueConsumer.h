@@ -1143,7 +1143,7 @@ a
 String
 virtual
 void
-dumpToString
+dump
 (
 String8
 &

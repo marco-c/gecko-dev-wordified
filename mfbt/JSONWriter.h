@@ -922,15 +922,6 @@ include
 "
 mozilla
 /
-Snprintf
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
@@ -2756,7 +2747,7 @@ buf
 64
 ]
 ;
-snprintf_literal
+sprintf
 (
 buf
 "

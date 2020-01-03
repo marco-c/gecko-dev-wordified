@@ -2576,7 +2576,7 @@ stream
 }
 virtual
 void
-dumpToString
+dump
 (
 String8
 &
@@ -3561,7 +3561,7 @@ this
 )
 -
 >
-dumpToString
+dump
 (
 result
 prefix

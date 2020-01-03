@@ -117,15 +117,6 @@ include
 "
 mozilla
 /
-Snprintf
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 ContentParent
@@ -605,7 +596,7 @@ startTime
 32
 ]
 ;
-snprintf_literal
+sprintf
 (
 startTime
 "

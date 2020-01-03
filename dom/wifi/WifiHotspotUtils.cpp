@@ -184,15 +184,6 @@ h
 #
 include
 "
-mozilla
-/
-Snprintf
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -1055,7 +1046,7 @@ stations
 +
 +
 ;
-snprintf_literal
+sprintf
 (
 cmd
 "
@@ -1087,7 +1078,7 @@ stations
 +
 +
 ;
-snprintf_literal
+sprintf
 (
 cmd
 "

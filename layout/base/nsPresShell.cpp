@@ -291,15 +291,6 @@ include
 "
 mozilla
 /
-Snprintf
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextEvents
 .
 h
@@ -6169,7 +6160,7 @@ aLogType
 case
 eLog_reflow
 :
-snprintf_literal
+sprintf
 (
 prefix
 "
@@ -6198,7 +6189,7 @@ break
 case
 eLog_loaddone
 :
-snprintf_literal
+sprintf
 (
 prefix
 "
@@ -6240,7 +6231,7 @@ type
 "
 )
 ;
-snprintf_literal
+sprintf
 (
 prefix
 "
@@ -65481,7 +65472,7 @@ key
 KEY_BUF_SIZE_FOR_PTR
 ]
 ;
-snprintf_literal
+sprintf
 (
 key
 "
@@ -65719,7 +65710,7 @@ key
 KEY_BUF_SIZE_FOR_PTR
 ]
 ;
-snprintf_literal
+sprintf
 (
 key
 "
@@ -65930,7 +65921,7 @@ buf
 int
 len
 =
-snprintf_literal
+sprintf
 (
 buf
 "
@@ -66940,7 +66931,7 @@ key
 KEY_BUF_SIZE_FOR_PTR
 ]
 ;
-snprintf_literal
+sprintf
 (
 key
 "

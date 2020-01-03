@@ -196,15 +196,6 @@ include
 "
 mozilla
 /
-Snprintf
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -7082,7 +7073,7 @@ the
 path
 :
 :
-snprintf_literal
+sprintf
 (
 name
 "
@@ -7266,7 +7257,7 @@ name
 ;
 :
 :
-snprintf_literal
+sprintf
 (
 name
 "

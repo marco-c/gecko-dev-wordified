@@ -2693,7 +2693,7 @@ a
 string
 virtual
 void
-dumpToString
+dump
 (
 String8
 &

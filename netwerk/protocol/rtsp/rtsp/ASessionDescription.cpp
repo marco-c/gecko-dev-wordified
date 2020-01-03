@@ -153,15 +153,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-Snprintf
-.
-h
-"
-#
-include
 <
 media
 /
@@ -1217,7 +1208,7 @@ key
 20
 ]
 ;
-snprintf_literal
+sprintf
 (
 key
 "
@@ -1290,7 +1281,7 @@ return
 false
 ;
 }
-snprintf_literal
+sprintf
 (
 key
 "
@@ -1363,7 +1354,7 @@ key
 20
 ]
 ;
-snprintf_literal
+sprintf
 (
 key
 "
