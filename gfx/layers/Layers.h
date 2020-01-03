@@ -14720,7 +14720,10 @@ of
 the
 canvas
 content
-nsIntSize
+gfx
+:
+:
+IntSize
 mSize
 ;
 /

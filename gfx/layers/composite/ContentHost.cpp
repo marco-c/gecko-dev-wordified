@@ -1809,7 +1809,7 @@ nsIntRegion
 &
 aOutput
 const
-nsIntSize
+IntSize
 &
 aSize
 const
@@ -2089,7 +2089,7 @@ rotation
 )
 )
 ;
-nsIntSize
+IntSize
 bufferSize
 =
 aData

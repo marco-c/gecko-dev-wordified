@@ -1169,7 +1169,7 @@ TextureImageTextureSourceOGL
 EnsureBuffer
 (
 const
-nsIntSize
+IntSize
 &
 aSize
 gfxContentType

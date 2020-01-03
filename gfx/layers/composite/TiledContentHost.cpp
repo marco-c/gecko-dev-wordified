@@ -2871,7 +2871,7 @@ IntPoint
 &
 aTextureOffset
 const
-nsIntSize
+IntSize
 &
 aTextureBounds
 const
@@ -3993,7 +3993,7 @@ aFilter
 aClipRect
 tileDrawRegion
 tileOffset
-nsIntSize
+IntSize
 (
 tileSize
 .

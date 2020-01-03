@@ -2886,7 +2886,7 @@ mLayerRef
 uint32_t
 mColor
 ;
-nsIntSize
+IntSize
 mSize
 ;
 }

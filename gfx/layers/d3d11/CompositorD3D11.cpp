@@ -6324,7 +6324,7 @@ Rect
 return
 ;
 }
-nsIntSize
+IntSize
 oldSize
 =
 mSize
@@ -6746,7 +6746,7 @@ mDefaultRT
 return
 ;
 }
-nsIntSize
+IntSize
 oldSize
 =
 mSize

@@ -2408,7 +2408,7 @@ RotatedContentBuffer
 BufferSizeOkFor
 (
 const
-nsIntSize
+IntSize
 &
 aSize
 )

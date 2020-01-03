@@ -326,7 +326,10 @@ CreateSharedRGBImage
 ImageContainer
 *
 aImageContainer
-nsIntSize
+gfx
+:
+:
+IntSize
 aSize
 gfxImageFormat
 aImageFormat
