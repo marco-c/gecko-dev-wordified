@@ -761,7 +761,7 @@ grace
 )
 ;
 void
-CopyExpirationTimesFrom
+CopyExpirationTimesAndFlagsFrom
 (
 const
 nsHostRecord
