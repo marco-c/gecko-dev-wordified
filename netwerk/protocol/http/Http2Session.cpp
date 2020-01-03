@@ -10264,6 +10264,7 @@ s
 %
 s
 "
+self
 associatedStream
 -
 >
