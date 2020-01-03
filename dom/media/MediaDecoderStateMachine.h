@@ -1197,6 +1197,12 @@ FinishShutdown
 (
 )
 ;
+bool
+IsRealTime
+(
+)
+const
+;
 /
 /
 Called
