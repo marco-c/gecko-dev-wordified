@@ -265,9 +265,9 @@ Operand
 Csel
 (
 dest
-wzr
 dest
-LessThan
+wzr
+GreaterThan
 )
 ;
 }
