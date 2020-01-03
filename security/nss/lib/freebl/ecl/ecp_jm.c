@@ -138,6 +138,7 @@ encoded
 *
 *
 /
+static
 mp_err
 ec_GFp_pt_dbl_jm
 (
@@ -878,6 +879,7 @@ encoded
 .
 *
 /
+static
 mp_err
 ec_GFp_pt_add_jm_aff
 (
