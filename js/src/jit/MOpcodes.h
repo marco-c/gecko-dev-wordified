@@ -1204,11 +1204,6 @@ AsmJSInterruptCheck
 \
 _
 (
-ProfilerStackOp
-)
-\
-_
-(
 GetDOMProperty
 )
 \

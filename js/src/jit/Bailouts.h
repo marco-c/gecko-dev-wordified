@@ -1478,9 +1478,6 @@ excInfo
 bool
 *
 overrecursed
-bool
-*
-poppedLastSPSFrameOut
 )
 ;
 uint32_t

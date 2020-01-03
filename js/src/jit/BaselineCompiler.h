@@ -1419,16 +1419,6 @@ emitTraceLoggerExit
 (
 )
 ;
-bool
-emitSPSPush
-(
-)
-;
-void
-emitSPSPop
-(
-)
-;
 void
 emitProfilerEnterFrame
 (
