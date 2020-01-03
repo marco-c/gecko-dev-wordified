@@ -7790,6 +7790,12 @@ SelectorCacheKey
 >
 (
 1000
+"
+nsIDocument
+:
+:
+SelectorCache
+"
 )
 {
 }

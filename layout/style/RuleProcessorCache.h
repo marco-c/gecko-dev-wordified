@@ -467,6 +467,12 @@ nsCSSRuleProcessor
 >
 (
 10000
+"
+RuleProcessorCache
+:
+:
+ExpirationTracker
+"
 )
 mCache
 (

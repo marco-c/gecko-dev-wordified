@@ -6185,6 +6185,9 @@ CachedSurface
 >
 (
 aSurfaceCacheExpirationTimeMS
+"
+SurfaceTracker
+"
 )
 {
 }

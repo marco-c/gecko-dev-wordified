@@ -304,6 +304,9 @@ HistoryTrackerBase
 aTimeout
 /
 2
+"
+HistoryTracker
+"
 )
 {
 }

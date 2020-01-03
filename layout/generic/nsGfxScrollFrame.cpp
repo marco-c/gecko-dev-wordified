@@ -11127,6 +11127,9 @@ ScrollFrameHelper
 >
 (
 TIMEOUT_MS
+"
+ScrollFrameActivityTracker
+"
 )
 {
 }
