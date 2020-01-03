@@ -283,6 +283,12 @@ Shutdown
 (
 )
 ;
+static
+bool
+IsAudioChannelMutedByDefault
+(
+)
+;
 /
 *
 *
@@ -760,7 +766,9 @@ mVolume
 )
 mMuted
 (
-false
+IsAudioChannelMutedByDefault
+(
+)
 )
 mNumberOfAgents
 (
