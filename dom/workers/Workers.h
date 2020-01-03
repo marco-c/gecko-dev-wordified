@@ -875,6 +875,16 @@ webnotifications
 workers
 .
 enabled
+WORKERPREF_DOM_CACHES_TESTING
+/
+/
+dom
+.
+caches
+.
+testing
+.
+enabled
 WORKERPREF_COUNT
 }
 ;
