@@ -291,6 +291,15 @@ default
 boolean
 "
 }
+dialog
+:
+{
+open
+:
+"
+boolean
+"
+}
 /
 /
 Global
