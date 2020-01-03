@@ -25864,7 +25864,7 @@ UINT32_MAX
 /
 /
 See
-nsIIcc
+nsIIccProvider
 :
 :
 CARD_STATE_
@@ -26061,7 +26061,7 @@ GECKO_CARDSTATE_ILLEGAL
 /
 /
 See
-nsIIcc
+nsIIccProvider
 :
 :
 CARD_LOCK_TYPE_
@@ -26332,7 +26332,7 @@ GECKO_CARDLOCK_PCK
 /
 /
 See
-nsIIcc
+nsIIccProvider
 :
 :
 CARD_CONTACT_TYPE_
@@ -26358,7 +26358,7 @@ GECKO_CARDCONTACT_TYPE_SDN
 /
 /
 See
-nsIIcc
+nsIIccProvider
 :
 :
 CARD_MVNO_TYPE_
@@ -26384,10 +26384,10 @@ GECKO_CARDMVNO_TYPE_GID
 /
 /
 See
-nsIIcc
+nsIIccProvider
 :
 :
-CARD_SERVICE_
+CARD_MVNO_TYPE_
 *
 this
 .

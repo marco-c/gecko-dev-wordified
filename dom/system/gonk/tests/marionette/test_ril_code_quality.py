@@ -20,13 +20,6 @@ files
 RILContentHelper
 .
 js
-TODO
-:
-Bug
-815526
-deprecate
-RILContentHelper
-.
 -
 RadioInterfaceLayer
 .
@@ -812,14 +805,6 @@ RILContentHelper
 .
 js
 '
-#
-TODO
-:
-Bug
-815526
-deprecate
-RILContentHelper
-.
         
 '
 RadioInterfaceLayer
@@ -2985,15 +2970,6 @@ tearDown
 (
 self
 )
-    
-#
-TODO
-:
-Bug
-815526
-deprecate
-RILContentHelper
-.
     
 def
 test_RILContentHelper
