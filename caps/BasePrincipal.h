@@ -239,6 +239,14 @@ mInBrowser
 aOther
 .
 mInBrowser
+&
+&
+mAddonId
+=
+=
+aOther
+.
+mAddonId
 ;
 }
 bool
