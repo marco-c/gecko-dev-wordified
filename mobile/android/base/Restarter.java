@@ -242,6 +242,14 @@ Intent
 FLAG_ACTIVITY_NEW_TASK
 )
 .
+putExtra
+(
+"
+didRestart
+"
+true
+)
+.
 setClassName
 (
 getApplicationContext
