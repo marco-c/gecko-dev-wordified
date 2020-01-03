@@ -28395,13 +28395,6 @@ updateState
 location
 )
 ;
-UITour
-.
-onLocationChange
-(
-location
-)
-;
 }
 /
 /
