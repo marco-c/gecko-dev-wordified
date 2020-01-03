@@ -2656,6 +2656,9 @@ nsIPrincipal
 *
 mWebIDLCallerPrincipal
 ;
+bool
+mIsMainThread
+;
 friend
 nsIPrincipal
 *
