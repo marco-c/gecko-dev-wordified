@@ -7776,14 +7776,6 @@ Key_BrightnessAdjust
 )
 /
 /
-Exit
-KEY_MAP_ANDROID
-(
-Exit
-AKEYCODE_HOME
-)
-/
-/
 Guide
 KEY_MAP_ANDROID
 (
