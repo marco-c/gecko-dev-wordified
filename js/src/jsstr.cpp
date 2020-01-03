@@ -299,6 +299,15 @@ h
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 js
 /
 Conversions
@@ -25784,7 +25793,7 @@ str_toUpperCase
 0
 JSFUN_GENERIC_NATIVE
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 charAt
@@ -25792,8 +25801,9 @@ charAt
 str_charAt
 1
 JSFUN_GENERIC_NATIVE
+StringCharAt
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 charCodeAt
@@ -25801,6 +25811,7 @@ charCodeAt
 str_charCodeAt
 1
 JSFUN_GENERIC_NATIVE
+StringCharCodeAt
 )
 JS_SELF_HOSTED_FN
 (
@@ -26010,7 +26021,7 @@ str_search
 1
 JSFUN_GENERIC_NATIVE
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 replace
@@ -26018,8 +26029,9 @@ replace
 str_replace
 2
 JSFUN_GENERIC_NATIVE
+StringReplace
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 split
@@ -26027,6 +26039,7 @@ split
 str_split
 2
 JSFUN_GENERIC_NATIVE
+StringSplit
 )
 JS_SELF_HOSTED_FN
 (
@@ -26991,7 +27004,7 @@ string_static_methods
 ]
 =
 {
-JS_FN
+JS_INLINABLE_FN
 (
 "
 fromCharCode
@@ -27002,6 +27015,7 @@ js
 str_fromCharCode
 1
 0
+StringFromCharCode
 )
 JS_SELF_HOSTED_FN
 (
