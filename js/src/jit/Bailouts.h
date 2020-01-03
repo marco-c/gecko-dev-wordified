@@ -1183,12 +1183,14 @@ snapshotOffset_
 }
 const
 MachineState
+*
 machineState
 (
 )
 const
 {
 return
+&
 machine_
 ;
 }
