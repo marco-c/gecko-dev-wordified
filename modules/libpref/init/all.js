@@ -27813,6 +27813,8 @@ default
 th
 "
 "
+sans
+-
 serif
 "
 )
