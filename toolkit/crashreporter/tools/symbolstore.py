@@ -5788,6 +5788,22 @@ filename
 )
 )
                             
+#
+We
+want
+original
+file
+paths
+for
+the
+source
+server
+.
+                            
+sourcepath
+=
+filename
+                            
 if
 filename
 in
@@ -5804,10 +5820,6 @@ file_mapping
 [
 filename
 ]
-                            
-sourcepath
-=
-filename
                             
 if
 self
