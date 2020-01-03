@@ -2987,7 +2987,7 @@ by
 captureStreamUntilEnded
 .
 void
-UpdateDecodedStream
+UpdateStreamBlockingForPlayState
 (
 )
 ;
