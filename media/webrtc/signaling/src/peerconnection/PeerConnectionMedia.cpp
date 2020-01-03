@@ -1349,6 +1349,11 @@ NrIceTurnServer
 >
 &
 turn_servers
+NrIceCtx
+:
+:
+Policy
+policy
 )
 {
 nsresult
@@ -1949,6 +1954,7 @@ mParent
 GetAllowIceLinkLocal
 (
 )
+policy
 )
 ;
 if
