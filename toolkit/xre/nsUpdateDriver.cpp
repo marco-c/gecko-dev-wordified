@@ -2275,7 +2275,7 @@ if
 !
 CopyFileIntoUpdateDir
 (
-greDir
+appDir
 kUpdaterApp
 updateDir
 )
