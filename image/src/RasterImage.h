@@ -266,15 +266,6 @@ include
 "
 mozilla
 /
-TypedEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WeakPtr
 .
 h

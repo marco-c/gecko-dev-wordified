@@ -137,15 +137,6 @@ h
 #
 include
 "
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
-"
 jsalloc
 .
 h

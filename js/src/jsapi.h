@@ -159,15 +159,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
 <
 stdarg
 .

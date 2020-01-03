@@ -106,15 +106,6 @@ GLTypes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
 namespace
 mozilla
 {

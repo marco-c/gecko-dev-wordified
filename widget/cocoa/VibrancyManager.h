@@ -132,15 +132,6 @@ h
 #
 include
 "
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h

@@ -137,15 +137,6 @@ include
 "
 mozilla
 /
-TypedEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h

@@ -108,15 +108,6 @@ include
 "
 mozilla
 /
-TypedEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TypedEnumBits
 .
 h

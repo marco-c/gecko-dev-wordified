@@ -67021,13 +67021,14 @@ fill
 "
 "
             
-MOZ_BEGIN_ENUM_CLASS
-(
+enum
+class
 {
 name
 }
+:
 uint32_t
-)
+{
               
 *
 {
@@ -67036,12 +67037,8 @@ enums
               
 EndGuard_
             
-MOZ_END_ENUM_CLASS
-(
-{
-name
 }
-)
+;
             
 "
 "

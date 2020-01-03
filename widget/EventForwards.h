@@ -106,15 +106,6 @@ stdint
 .
 h
 >
-#
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
 /
 *
 *

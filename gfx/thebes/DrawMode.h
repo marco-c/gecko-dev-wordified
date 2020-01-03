@@ -96,15 +96,6 @@ DrawMode_h
 #
 define
 DrawMode_h
-#
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
 /
 /
 Options

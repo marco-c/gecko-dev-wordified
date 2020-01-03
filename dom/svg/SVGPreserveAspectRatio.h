@@ -115,15 +115,6 @@ HashGeneric
 #
 include
 "
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h

@@ -134,15 +134,6 @@ h
 #
 include
 "
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLCanvasElement
 .
 h

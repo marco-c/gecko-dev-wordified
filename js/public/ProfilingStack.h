@@ -117,15 +117,6 @@ js_ProfilingStack_h
 #
 include
 "
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
-"
 jsbytecode
 .
 h

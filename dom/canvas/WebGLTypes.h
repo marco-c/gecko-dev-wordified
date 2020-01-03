@@ -99,15 +99,6 @@ WEBGLTYPES_H_
 #
 define
 WEBGLTYPES_H_
-#
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
 /
 /
 Most
