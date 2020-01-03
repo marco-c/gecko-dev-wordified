@@ -1145,6 +1145,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 nsCSPService
 .
 h

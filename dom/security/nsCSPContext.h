@@ -102,6 +102,10 @@ nsCSPContext_h___
 #
 include
 "
+mozilla
+/
+dom
+/
 nsCSPUtils
 .
 h

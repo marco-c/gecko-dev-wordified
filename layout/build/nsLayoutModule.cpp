@@ -1354,6 +1354,10 @@ endif
 #
 include
 "
+mozilla
+/
+dom
+/
 nsCSPService
 .
 h
@@ -1361,6 +1365,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 nsCSPContext
 .
 h
