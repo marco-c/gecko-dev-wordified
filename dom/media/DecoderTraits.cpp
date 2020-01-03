@@ -3333,6 +3333,16 @@ decoderReader
 =
 nullptr
 ;
+if
+(
+!
+aDecoder
+)
+{
+return
+decoderReader
+;
+}
 #
 ifdef
 MOZ_FMP4
