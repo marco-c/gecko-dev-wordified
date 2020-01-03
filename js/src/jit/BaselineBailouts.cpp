@@ -13127,7 +13127,7 @@ JS_MIPS_SIMULATOR
 )
 if
 (
-SimulatorType
+Simulator
 :
 :
 Current
