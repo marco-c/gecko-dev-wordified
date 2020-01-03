@@ -1994,6 +1994,15 @@ watch
 \
 macro
 (
+WeakSet_add
+WeakSet_add
+"
+WeakSet_add
+"
+)
+\
+macro
+(
 writable
 writable
 "
