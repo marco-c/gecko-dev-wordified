@@ -348,6 +348,8 @@ OnHardwareStateChange
 (
 HardwareState
 aState
+nsresult
+aReason
 )
 {
 class
@@ -367,6 +369,8 @@ nsDOMCameraControl
 aDOMCameraControl
 HardwareState
 aState
+nsresult
+aReason
 )
 :
 DOMCallback
@@ -376,6 +380,10 @@ aDOMCameraControl
 mState
 (
 aState
+)
+mReason
+(
+aReason
 )
 {
 }
@@ -394,6 +402,7 @@ aDOMCameraControl
 OnHardwareStateChange
 (
 mState
+mReason
 )
 ;
 }
@@ -401,6 +410,9 @@ protected
 :
 HardwareState
 mState
+;
+nsresult
+mReason
 ;
 }
 ;
@@ -411,6 +423,7 @@ Callback
 (
 mDOMCameraControl
 aState
+aReason
 )
 )
 ;

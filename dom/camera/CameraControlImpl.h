@@ -349,11 +349,6 @@ OnShutter
 )
 ;
 void
-OnClosed
-(
-)
-;
-void
 OnUserError
 (
 CameraControlListener
@@ -484,6 +479,8 @@ CameraControlListener
 :
 HardwareState
 aState
+nsresult
+aReason
 )
 ;
 void
@@ -933,6 +930,9 @@ CameraControlListener
 :
 HardwareState
 mHardwareState
+;
+nsresult
+mHardwareStateChangeReason
 ;
 private
 :

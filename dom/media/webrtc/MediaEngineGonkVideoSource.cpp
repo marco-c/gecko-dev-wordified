@@ -1799,6 +1799,8 @@ OnHardwareStateChange
 (
 HardwareState
 aState
+nsresult
+aReason
 )
 {
 ReentrantMonitorAutoEnter

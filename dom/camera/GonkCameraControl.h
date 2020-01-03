@@ -723,6 +723,11 @@ Configuration
 aInitialConfig
 )
 ;
+nsresult
+StopInternal
+(
+)
+;
 template
 <
 class
@@ -1272,14 +1277,6 @@ aBuffer
 ;
 void
 OnShutter
-(
-nsGonkCameraControl
-*
-gc
-)
-;
-void
-OnClosed
 (
 nsGonkCameraControl
 *

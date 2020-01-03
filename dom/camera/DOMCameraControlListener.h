@@ -160,6 +160,8 @@ OnHardwareStateChange
 (
 HardwareState
 aState
+nsresult
+aReason
 )
 MOZ_OVERRIDE
 ;
