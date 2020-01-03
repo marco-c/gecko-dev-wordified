@@ -796,6 +796,12 @@ ShouldDrawCompositionStringOurselves
 )
 ;
 static
+bool
+IsVerticalWritingSupported
+(
+)
+;
+static
 void
 InitKeyboardLayout
 (
@@ -2146,6 +2152,14 @@ sCodePage
 static
 DWORD
 sIMEProperty
+;
+static
+DWORD
+sIMEUIProperty
+;
+static
+bool
+sAssumeVerticalWritingModeNotSupported
 ;
 }
 ;
