@@ -28061,12 +28061,15 @@ uint32_t
 iterator
 /
 /
-well
--
-known
 Symbol
 .
 iterator
+match
+/
+/
+Symbol
+.
+match
 InSymbolRegistry
 =
 0xfffffffe
@@ -28126,7 +28129,7 @@ const
 size_t
 WellKnownSymbolLimit
 =
-1
+2
 ;
 /
 *
