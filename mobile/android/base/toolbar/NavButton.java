@@ -436,7 +436,7 @@ R
 .
 color
 .
-new_tablet_highlight
+toolbar_grey_pressed
 )
 )
 ;
