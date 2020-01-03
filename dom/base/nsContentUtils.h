@@ -11685,16 +11685,6 @@ return
 sIsResourceTimingEnabled
 ;
 }
-static
-bool
-ShouldEncodeURLHash
-(
-)
-{
-return
-sEncodeURLHash
-;
-}
 /
 *
 *
@@ -14352,10 +14342,6 @@ sIsResourceTimingEnabled
 static
 bool
 sIsExperimentalAutocompleteEnabled
-;
-static
-bool
-sEncodeURLHash
 ;
 static
 nsHtml5StringParser
