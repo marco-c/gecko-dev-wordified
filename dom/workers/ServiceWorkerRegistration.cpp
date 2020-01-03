@@ -1012,7 +1012,6 @@ swm
 >
 Unregister
 (
-documentPrincipal
 cb
 scope
 )

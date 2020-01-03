@@ -1694,11 +1694,7 @@ RecvLoadURL
 const
 nsCString
 &
-aURI
-const
-BrowserConfiguration
-&
-aConfiguration
+uri
 )
 MOZ_OVERRIDE
 ;

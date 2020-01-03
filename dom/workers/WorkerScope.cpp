@@ -2620,12 +2620,6 @@ swm
 >
 Unregister
 (
-mWorkerPrivate
--
->
-GetPrincipal
-(
-)
 this
 mScope
 )
