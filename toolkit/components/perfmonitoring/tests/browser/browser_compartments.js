@@ -91,7 +91,7 @@ toolkit
 /
 components
 /
-aboutperformance
+perfmonitoring
 /
 tests
 /
@@ -406,7 +406,7 @@ prev
 next
 )
 {
-dump
+info
 (
 Sanity
 check
@@ -424,8 +424,6 @@ t
 "
 )
 }
-\
-n
 )
 ;
 if
@@ -473,7 +471,7 @@ Sanity
 check
 (
 {
-name
+testName
 }
 )
 :
@@ -525,7 +523,7 @@ Sanity
 check
 (
 {
-name
+testName
 }
 )
 :
@@ -552,7 +550,7 @@ Sanity
 check
 (
 {
-name
+testName
 }
 )
 :
@@ -575,7 +573,7 @@ Sanity
 check
 (
 {
-name
+testName
 }
 )
 :
@@ -656,7 +654,7 @@ Sanity
 check
 (
 {
-name
+testName
 }
 )
 :
@@ -693,7 +691,7 @@ Sanity
 check
 (
 {
-name
+testName
 }
 )
 :
@@ -750,7 +748,7 @@ Sanity
 check
 (
 {
-name
+testName
 }
 )
 :
@@ -1052,7 +1050,7 @@ Sanity
 check
 (
 {
-name
+testName
 }
 )
 :
