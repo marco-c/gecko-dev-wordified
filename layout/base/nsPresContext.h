@@ -3143,7 +3143,7 @@ them
 .
 MediaFeatureValuesChanged
 (
-eRestyle_Subtree
+eRestyle_ForceDescendants
 NS_STYLE_HINT_REFLOW
 )
 ;
@@ -3351,7 +3351,7 @@ them
 .
 MediaFeatureValuesChanged
 (
-eRestyle_Subtree
+eRestyle_ForceDescendants
 NS_STYLE_HINT_REFLOW
 )
 ;
