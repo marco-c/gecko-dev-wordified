@@ -23,6 +23,7 @@ g
 var
 seen
 =
+new
 WeakMap
 (
 )

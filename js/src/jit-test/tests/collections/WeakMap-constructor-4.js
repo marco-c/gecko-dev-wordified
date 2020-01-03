@@ -1,5 +1,6 @@
 /
 /
+new
 WeakMap
 (
 x

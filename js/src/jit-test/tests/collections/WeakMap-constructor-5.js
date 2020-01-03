@@ -1,5 +1,6 @@
 /
 /
+new
 WeakMap
 (
 arr
@@ -152,6 +153,7 @@ TypeError
 ;
 /
 /
+new
 WeakMap
 (
 iterable
