@@ -481,9 +481,6 @@ uint8_t
 mChannels
 ;
 bool
-mFrameHasNoAlpha
-;
-bool
 mFrameIsHidden
 ;
 bool
