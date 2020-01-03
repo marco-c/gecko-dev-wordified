@@ -30532,7 +30532,7 @@ aDragEvent
 mMessage
 =
 =
-NS_DRAGDROP_DRAGDROP
+eLegacyDragDrop
 )
 {
 isCrossDomainSubFrameDrop
@@ -30709,7 +30709,7 @@ aDragEvent
 mMessage
 =
 =
-NS_DRAGDROP_DRAGDROP
+eLegacyDragDrop
 |
 |
 aDragEvent

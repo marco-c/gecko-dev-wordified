@@ -2149,7 +2149,7 @@ eDragEventClass
 NON_IDL_EVENT
 (
 dragdrop
-NS_DRAGDROP_DRAGDROP
+eLegacyDragDrop
 EventNameType_XUL
 eDragEventClass
 )

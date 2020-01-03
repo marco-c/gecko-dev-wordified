@@ -1422,7 +1422,7 @@ eDrop
 mEventMessage
 !
 =
-NS_DRAGDROP_DRAGDROP
+eLegacyDragDrop
 &
 &
 mEventMessage
@@ -3110,7 +3110,7 @@ eDrop
 mEventMessage
 !
 =
-NS_DRAGDROP_DRAGDROP
+eLegacyDragDrop
 &
 &
 mEventMessage
