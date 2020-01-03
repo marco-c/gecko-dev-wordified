@@ -1407,8 +1407,6 @@ int
 aPid
 ProcessPriority
 aPriority
-ProcessCPUPriority
-aCPUPriority
 uint32_t
 aBackgroundLRU
 )

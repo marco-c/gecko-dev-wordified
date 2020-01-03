@@ -10129,8 +10129,6 @@ int
 aPid
 ProcessPriority
 aPriority
-ProcessCPUPriority
-aCPUPriority
 uint32_t
 aBackgroundLRU
 )
@@ -10148,10 +10146,6 @@ priority
 =
 %
 d
-cpuPriority
-=
-%
-d
 LRU
 =
 %
@@ -10160,7 +10154,6 @@ u
 "
 aPid
 aPriority
-aCPUPriority
 aBackgroundLRU
 )
 ;
