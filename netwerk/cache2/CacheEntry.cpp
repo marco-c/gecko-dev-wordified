@@ -2049,10 +2049,6 @@ if
 directLoad
 )
 {
-mFileStatus
-=
-NS_OK
-;
 /
 /
 mLoadStart
@@ -2199,6 +2195,10 @@ as
 new
 "
 .
+mFileStatus
+=
+NS_OK
+;
 mState
 =
 EMPTY
