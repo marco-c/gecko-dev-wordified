@@ -1699,7 +1699,7 @@ input
 end
 ;
 }
-void
+Result
 SkipToEnd
 (
 /
@@ -1712,9 +1712,7 @@ Input
 skipped
 )
 {
-(
-void
-)
+return
 Skip
 (
 static_cast
