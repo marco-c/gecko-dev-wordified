@@ -203,11 +203,6 @@ AssertBehavior
 import
 android
 .
-R
-;
-import
-android
-.
 content
 .
 Context
@@ -1748,6 +1743,8 @@ id
 )
 {
 case
+android
+.
 R
 .
 id
@@ -1767,6 +1764,8 @@ length
 break
 ;
 case
+android
+.
 R
 .
 id
@@ -1854,6 +1853,8 @@ selEnd
 break
 ;
 case
+android
+.
 R
 .
 id
@@ -1873,6 +1874,8 @@ getText
 break
 ;
 case
+android
+.
 R
 .
 id
