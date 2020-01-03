@@ -754,7 +754,13 @@ IsOpaque
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+already_AddRefed
+<
+ImageContainer
+>
+)
 ImageWrapper
 :
 :
@@ -763,10 +769,8 @@ GetImageContainer
 LayerManager
 *
 aManager
-ImageContainer
-*
-*
-_retval
+uint32_t
+aFlags
 )
 {
 return
@@ -776,7 +780,7 @@ mInnerImage
 GetImageContainer
 (
 aManager
-_retval
+aFlags
 )
 ;
 }
