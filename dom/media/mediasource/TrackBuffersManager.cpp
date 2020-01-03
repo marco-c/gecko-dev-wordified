@@ -8470,6 +8470,7 @@ i
 >
 mTimecode
 <
+=
 track
 [
 i
@@ -8616,6 +8617,7 @@ i
 >
 mTimecode
 <
+=
 track
 [
 i
