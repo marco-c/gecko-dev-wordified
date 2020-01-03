@@ -632,7 +632,7 @@ TABLE
 table
 "
 ATK_ROLE_TABLE
-NSAccessibilityGroupRole
+NSAccessibilityTableRole
 ROLE_SYSTEM_TABLE
 ROLE_SYSTEM_TABLE
 eNoNameRule
@@ -644,7 +644,7 @@ COLUMNHEADER
 columnheader
 "
 ATK_ROLE_COLUMN_HEADER
-NSAccessibilityGroupRole
+NSAccessibilityCellRole
 ROLE_SYSTEM_COLUMNHEADER
 ROLE_SYSTEM_COLUMNHEADER
 eNameFromSubtreeRule
@@ -656,7 +656,7 @@ ROWHEADER
 rowheader
 "
 ATK_ROLE_ROW_HEADER
-NSAccessibilityGroupRole
+NSAccessibilityCellRole
 ROLE_SYSTEM_ROWHEADER
 ROLE_SYSTEM_ROWHEADER
 eNameFromSubtreeRule
@@ -692,7 +692,7 @@ CELL
 cell
 "
 ATK_ROLE_TABLE_CELL
-NSAccessibilityGroupRole
+NSAccessibilityCellRole
 ROLE_SYSTEM_CELL
 ROLE_SYSTEM_CELL
 eNameFromSubtreeIfReqRule
