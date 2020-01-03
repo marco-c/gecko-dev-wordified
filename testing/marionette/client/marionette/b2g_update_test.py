@@ -76,10 +76,14 @@ b2ginstance
 import
 B2GInstance
 from
+marionette_driver
+.
 errors
 import
 InvalidResponseException
 from
+marionette_driver
+.
 marionette
 import
 Marionette
