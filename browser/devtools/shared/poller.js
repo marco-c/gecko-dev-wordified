@@ -93,10 +93,6 @@ this
 defer
 "
 "
-sdk
-/
-core
-/
 promise
 "
 true

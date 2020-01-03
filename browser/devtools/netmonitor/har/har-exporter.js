@@ -110,10 +110,6 @@ resolve
 require
 (
 "
-sdk
-/
-core
-/
 promise
 "
 )

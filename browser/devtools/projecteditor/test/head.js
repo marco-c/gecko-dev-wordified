@@ -141,10 +141,6 @@ promise
 require
 (
 "
-sdk
-/
-core
-/
 promise
 "
 )
