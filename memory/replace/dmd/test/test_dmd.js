@@ -1116,6 +1116,18 @@ different
 sort
 values
 .
+It
+also
+tests
+the
+handling
+of
+gzipped
+JSON
+/
+/
+files
+.
 jsonFile
 =
 FileUtils
@@ -1134,6 +1146,8 @@ sort
 by
 .
 json
+.
+gz
 "
 ]
 )
