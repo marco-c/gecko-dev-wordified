@@ -1254,7 +1254,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_CLICK
+eMouseClick
 )
 {
 bool
@@ -1411,7 +1411,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_CLICK
+eMouseClick
 &
 &
 aVisitor

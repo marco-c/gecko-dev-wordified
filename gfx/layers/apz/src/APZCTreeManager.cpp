@@ -6851,7 +6851,7 @@ case
 eMouseDoubleClick
 :
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 case
 NS_CONTEXTMENU

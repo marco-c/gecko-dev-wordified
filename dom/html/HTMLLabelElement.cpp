@@ -719,7 +719,7 @@ we
 will
 reach
 the
-NS_MOUSE_CLICK
+eMouseClick
 code
 below
 .
@@ -763,7 +763,7 @@ LayoutDeviceIntPoint
 break
 ;
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 if
 (
@@ -1439,7 +1439,7 @@ WidgetMouseEvent
 event
 (
 aIsTrustedEvent
-NS_MOUSE_CLICK
+eMouseClick
 nullptr
 WidgetMouseEvent
 :

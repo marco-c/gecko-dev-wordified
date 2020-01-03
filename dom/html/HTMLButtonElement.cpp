@@ -1651,7 +1651,7 @@ mEvent
 mFlags
 .
 mIsTrusted
-NS_MOUSE_CLICK
+eMouseClick
 nullptr
 WidgetMouseEvent
 :

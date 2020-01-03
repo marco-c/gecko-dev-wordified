@@ -20737,9 +20737,9 @@ eMouseUp
 ;
 _ASSIGN_eventName
 (
-NS_MOUSE_CLICK
+eMouseClick
 "
-NS_MOUSE_CLICK
+eMouseClick
 "
 )
 ;

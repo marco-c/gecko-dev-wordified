@@ -2750,7 +2750,7 @@ referred
 /
 only
 by
-NS_MOUSE_CLICK
+eMouseClick
 case
 but
 click
@@ -2816,7 +2816,7 @@ mouseEvent
 /
 click
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 {
 nsCOMPtr

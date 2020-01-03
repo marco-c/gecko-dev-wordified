@@ -11768,7 +11768,7 @@ aSourceEvent
 mFlags
 .
 mIsTrusted
-NS_MOUSE_CLICK
+eMouseClick
 aSourceEvent
 -
 >
@@ -16372,7 +16372,7 @@ mEvent
 mMessage
 !
 =
-NS_MOUSE_CLICK
+eMouseClick
 )
 &
 &
@@ -16838,7 +16838,7 @@ case
 eMouseDown
 :
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 case
 NS_UI_ACTIVATE
@@ -17051,7 +17051,7 @@ this
 break
 ;
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 {
 WidgetMouseEvent

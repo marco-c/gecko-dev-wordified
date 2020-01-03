@@ -3899,7 +3899,7 @@ button
 see
 note
 at
-NS_MOUSE_CLICK
+eMouseClick
 .
 if
 (
@@ -3949,7 +3949,7 @@ button
 see
 note
 at
-NS_MOUSE_CLICK
+eMouseClick
 .
 if
 (
@@ -4161,7 +4161,7 @@ openControlled
 break
 ;
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 /
 *

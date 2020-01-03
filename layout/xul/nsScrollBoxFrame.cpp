@@ -546,7 +546,7 @@ false
 break
 ;
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 {
 WidgetMouseEvent
