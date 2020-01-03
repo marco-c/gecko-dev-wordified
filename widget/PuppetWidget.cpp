@@ -555,6 +555,10 @@ MOZ_COUNT_DTOR
 PuppetWidget
 )
 ;
+Destroy
+(
+)
+;
 }
 NS_IMETHODIMP
 PuppetWidget
