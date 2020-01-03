@@ -640,6 +640,7 @@ description
 iconURL
 priority
 buttons
+link
 )
 {
 this
@@ -683,6 +684,16 @@ this
 buttons
 =
 buttons
+;
+if
+(
+link
+)
+this
+.
+link
+=
+link
 ;
 }
 /

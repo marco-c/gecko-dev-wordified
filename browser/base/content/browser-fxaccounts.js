@@ -2069,6 +2069,7 @@ let
 msg
 upgradeLabel
 upgradeAccessKey
+learnMoreLink
 ;
 if
 (
@@ -2178,6 +2179,14 @@ accessKey
 "
 )
 ;
+learnMoreLink
+=
+this
+.
+fxaMigrator
+.
+learnMoreLink
+;
 }
 note
 =
@@ -2225,6 +2234,7 @@ window
 }
 )
 ]
+learnMoreLink
 )
 ;
 break
