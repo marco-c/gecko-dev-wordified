@@ -157,6 +157,15 @@ include
 "
 mozilla
 /
+Snprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SyncRunnable
 .
 h
@@ -7782,7 +7791,7 @@ buf
 16
 ]
 ;
-sprintf
+snprintf_literal
 (
 buf
 "

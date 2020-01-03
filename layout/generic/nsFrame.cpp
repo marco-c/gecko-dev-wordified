@@ -141,6 +141,13 @@ algorithm
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -188,7 +195,9 @@ h
 #
 include
 "
-gfx2DGlue
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -60490,6 +60499,8 @@ aSize
 char
 *
 aBuf
+int
+aBufSize
 )
 ;
 void
@@ -63450,6 +63461,8 @@ aSize
 char
 *
 aBuf
+int
+aBufSize
 )
 {
 if
@@ -63493,9 +63506,10 @@ deadbeef
 }
 else
 {
-sprintf
+snprintf
 (
 aBuf
+aBufSize
 "
 %
 d
@@ -63552,6 +63566,7 @@ aMargin
 >
 top
 t
+16
 )
 ;
 PrettyUC
@@ -63561,6 +63576,7 @@ aMargin
 >
 right
 r
+16
 )
 ;
 PrettyUC
@@ -63570,6 +63586,7 @@ aMargin
 >
 bottom
 b
+16
 )
 ;
 PrettyUC
@@ -63579,6 +63596,7 @@ aMargin
 >
 left
 l
+16
 )
 ;
 printf
@@ -63841,6 +63859,7 @@ AvailableWidth
 (
 )
 width
+16
 )
 ;
 DR_state
@@ -63854,6 +63873,7 @@ AvailableHeight
 (
 )
 height
+16
 )
 ;
 printf
@@ -63882,6 +63902,7 @@ ComputedWidth
 (
 )
 width
+16
 )
 ;
 DR_state
@@ -63895,6 +63916,7 @@ ComputedHeight
 (
 )
 height
+16
 )
 ;
 printf
@@ -64661,6 +64683,7 @@ Width
 (
 )
 width
+16
 )
 ;
 DR_state
@@ -64674,6 +64697,7 @@ Height
 (
 )
 height
+16
 )
 ;
 printf
@@ -64736,6 +64760,7 @@ VisualOverflow
 .
 x
 x
+16
 )
 ;
 DR_state
@@ -64751,6 +64776,7 @@ VisualOverflow
 .
 y
 y
+16
 )
 ;
 DR_state
@@ -64766,6 +64792,7 @@ VisualOverflow
 .
 width
 width
+16
 )
 ;
 DR_state
@@ -64781,6 +64808,7 @@ VisualOverflow
 .
 height
 height
+16
 )
 ;
 printf
@@ -64827,6 +64855,7 @@ storedOverflow
 .
 x
 x
+16
 )
 ;
 DR_state
@@ -64838,6 +64867,7 @@ storedOverflow
 .
 y
 y
+16
 )
 ;
 DR_state
@@ -64849,6 +64879,7 @@ storedOverflow
 .
 width
 width
+16
 )
 ;
 DR_state
@@ -64860,6 +64891,7 @@ storedOverflow
 .
 height
 height
+16
 )
 ;
 printf
@@ -64900,6 +64932,7 @@ ScrollableOverflow
 .
 x
 x
+16
 )
 ;
 DR_state
@@ -64915,6 +64948,7 @@ ScrollableOverflow
 .
 y
 y
+16
 )
 ;
 DR_state
@@ -64930,6 +64964,7 @@ ScrollableOverflow
 .
 width
 width
+16
 )
 ;
 DR_state
@@ -64945,6 +64980,7 @@ ScrollableOverflow
 .
 height
 height
+16
 )
 ;
 printf
@@ -64990,6 +65026,7 @@ storedOverflow
 .
 x
 x
+16
 )
 ;
 DR_state
@@ -65001,6 +65038,7 @@ storedOverflow
 .
 y
 y
+16
 )
 ;
 DR_state
@@ -65012,6 +65050,7 @@ storedOverflow
 .
 width
 width
+16
 )
 ;
 DR_state
@@ -65023,6 +65062,7 @@ storedOverflow
 .
 height
 height
+16
 )
 ;
 printf
@@ -65325,6 +65365,7 @@ PrettyUC
 (
 aResult
 width
+16
 )
 ;
 printf
@@ -65454,6 +65495,7 @@ aResult
 .
 width
 width
+16
 )
 ;
 DR_state
@@ -65465,6 +65507,7 @@ aResult
 .
 height
 height
+16
 )
 ;
 printf
@@ -65737,6 +65780,7 @@ PrettyUC
 (
 aContainingBlockWidth
 width
+16
 )
 ;
 DR_state
@@ -65746,6 +65790,7 @@ PrettyUC
 (
 aContainingBlockHeight
 height
+16
 )
 ;
 printf
@@ -65774,6 +65819,7 @@ AvailableWidth
 (
 )
 width
+16
 )
 ;
 DR_state
@@ -65788,6 +65834,7 @@ AvailableHeight
 (
 )
 height
+16
 )
 ;
 printf
@@ -65970,6 +66017,7 @@ ComputedMinWidth
 (
 )
 cmiw
+16
 )
 ;
 DR_state
@@ -65984,6 +66032,7 @@ ComputedWidth
 (
 )
 cw
+16
 )
 ;
 DR_state
@@ -65998,6 +66047,7 @@ ComputedMaxWidth
 (
 )
 cmxw
+16
 )
 ;
 DR_state
@@ -66012,6 +66062,7 @@ ComputedMinHeight
 (
 )
 cmih
+16
 )
 ;
 DR_state
@@ -66026,6 +66077,7 @@ ComputedHeight
 (
 )
 ch
+16
 )
 ;
 DR_state
@@ -66040,6 +66092,7 @@ ComputedMaxHeight
 (
 )
 cmxh
+16
 )
 ;
 printf
@@ -66265,6 +66318,7 @@ PrettyUC
 (
 aHorizontalPercentBasis
 horizPctBasisStr
+16
 )
 ;
 DR_state
@@ -66274,6 +66328,7 @@ PrettyUC
 (
 aVerticalPercentBasis
 vertPctBasisStr
+16
 )
 ;
 printf

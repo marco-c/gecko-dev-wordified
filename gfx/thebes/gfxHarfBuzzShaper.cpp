@@ -138,6 +138,15 @@ h
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nsUnicodeProperties
 .
 h
@@ -5699,7 +5708,7 @@ buf
 1024
 ]
 ;
-sprintf
+snprintf_literal
 (
 buf
 "
@@ -6098,7 +6107,7 @@ buf
 1024
 ]
 ;
-sprintf
+snprintf_literal
 (
 buf
 "
