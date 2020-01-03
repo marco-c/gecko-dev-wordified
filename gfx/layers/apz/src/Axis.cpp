@@ -259,6 +259,17 @@ NS_lround
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+/
+/
+for
+nsPrintfCString
+#
+include
+"
 nsThreadUtils
 .
 h
