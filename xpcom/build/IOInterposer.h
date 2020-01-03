@@ -80,15 +80,6 @@ TimeStamp
 .
 h
 "
-#
-include
-"
-mozilla
-/
-XPCOM
-.
-h
-"
 namespace
 mozilla
 {

@@ -416,6 +416,13 @@ h
 #
 include
 "
+nsIConsoleService
+.
+h
+"
+#
+include
+"
 nsIContentHandler
 .
 h

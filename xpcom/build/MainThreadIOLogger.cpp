@@ -169,6 +169,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsNativeCharsetUtils
+.
+h
+"
 /
 *
 *
