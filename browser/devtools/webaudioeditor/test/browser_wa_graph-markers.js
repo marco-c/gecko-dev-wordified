@@ -74,7 +74,6 @@ panel
 let
 {
 gFront
-EVENTS
 MARKER_STYLING
 }
 =

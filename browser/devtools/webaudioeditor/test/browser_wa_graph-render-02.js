@@ -69,7 +69,6 @@ panel
 let
 {
 gFront
-EVENTS
 }
 =
 panelWin
