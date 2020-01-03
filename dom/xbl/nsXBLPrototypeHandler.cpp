@@ -2095,6 +2095,7 @@ handlerCallback
 new
 EventHandlerNonNull
 (
+nullptr
 bound
 /
 *
