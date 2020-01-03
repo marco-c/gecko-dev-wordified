@@ -4035,12 +4035,6 @@ contentFragment
 ;
 this
 .
-_updateImageMargins
-(
-)
-;
-this
-.
 _maybeSetTextDirection
 (
 article
@@ -4057,6 +4051,12 @@ display
 "
 block
 "
+;
+this
+.
+_updateImageMargins
+(
+)
 ;
 this
 .
