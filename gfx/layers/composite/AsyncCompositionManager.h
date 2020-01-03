@@ -241,6 +241,8 @@ TargetConfig
 #
 include
 "
+mozilla
+/
 nsRefPtr
 .
 h

@@ -123,6 +123,8 @@ DecodedStream_h_
 #
 include
 "
+mozilla
+/
 nsRefPtr
 .
 h

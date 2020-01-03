@@ -180,6 +180,8 @@ nsWeakPtr
 #
 include
 "
+mozilla
+/
 nsRefPtr
 .
 h

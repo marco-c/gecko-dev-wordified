@@ -384,6 +384,8 @@ etc
 #
 include
 "
+mozilla
+/
 nsRefPtr
 .
 h

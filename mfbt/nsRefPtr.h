@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsRefPtr_h
+mozilla_nsRefPtr_h
 #
 define
-nsRefPtr_h
+mozilla_nsRefPtr_h
 #
 include
 "
@@ -2979,9 +2979,7 @@ forget
 #
 endif
 /
+*
+mozilla_nsRefPtr_h
+*
 /
-!
-defined
-(
-nsRefPtr_h
-)

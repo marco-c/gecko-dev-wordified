@@ -185,6 +185,8 @@ Maybe
 #
 include
 "
+mozilla
+/
 nsRefPtr
 .
 h

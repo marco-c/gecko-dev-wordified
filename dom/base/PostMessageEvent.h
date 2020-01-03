@@ -141,6 +141,8 @@ h
 #
 include
 "
+mozilla
+/
 nsRefPtr
 .
 h

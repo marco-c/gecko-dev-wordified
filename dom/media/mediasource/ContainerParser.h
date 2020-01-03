@@ -123,6 +123,8 @@ MOZILLA_CONTAINERPARSER_H_
 #
 include
 "
+mozilla
+/
 nsRefPtr
 .
 h

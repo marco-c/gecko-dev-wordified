@@ -735,6 +735,8 @@ get
 /
 Declared
 in
+mozilla
+/
 nsRefPtr
 .
 h
