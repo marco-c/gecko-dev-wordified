@@ -31905,6 +31905,15 @@ nsGkAtoms
 :
 :
 title
+|
+|
+aTag
+=
+=
+nsGkAtoms
+:
+:
+metadata
 )
 )
 {
@@ -32045,6 +32054,8 @@ for
 desc
 /
 title
+/
+metadata
 return
 &
 sSuppressData
