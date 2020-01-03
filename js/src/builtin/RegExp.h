@@ -337,6 +337,9 @@ HandleObject
 regexp
 HandleString
 input
+MatchPairs
+*
+maybeMatches
 MutableHandleValue
 output
 )
