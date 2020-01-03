@@ -2327,6 +2327,14 @@ mManager
 (
 nullptr
 )
+mCallback
+(
+nullptr
+)
+mCallbackData
+(
+nullptr
+)
 mLastPaintContentType
 (
 gfxContentType
