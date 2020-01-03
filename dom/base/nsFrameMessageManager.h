@@ -346,7 +346,7 @@ MessageManagerCallback
 }
 virtual
 bool
-DoLoadFrameScript
+DoLoadMessageManagerScript
 (
 const
 nsAString

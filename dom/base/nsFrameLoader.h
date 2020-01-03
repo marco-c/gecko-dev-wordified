@@ -458,7 +458,7 @@ override
 /
 virtual
 bool
-DoLoadFrameScript
+DoLoadMessageManagerScript
 (
 const
 nsAString
