@@ -1386,9 +1386,13 @@ get
 "
 browser
 .
-shell
+dom
 .
-checkDefaultBrowser
+window
+.
+dump
+.
+enabled
 "
 )
 .
