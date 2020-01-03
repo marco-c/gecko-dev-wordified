@@ -1827,6 +1827,11 @@ return
 tabActor
 .
 window
+&
+&
+tabActor
+.
+window
 .
 document
 ;
