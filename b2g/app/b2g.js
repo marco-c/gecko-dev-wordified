@@ -10772,16 +10772,6 @@ neterror
 url
 "
 "
-app
-:
-/
-/
-system
-.
-gaiamobile
-.
-org
-/
 net_error
 .
 html
