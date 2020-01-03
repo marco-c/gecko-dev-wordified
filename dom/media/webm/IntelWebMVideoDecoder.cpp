@@ -244,10 +244,6 @@ Debug
 __VA_ARGS__
 )
 )
-using
-namespace
-mp4_demuxer
-;
 namespace
 mozilla
 {
