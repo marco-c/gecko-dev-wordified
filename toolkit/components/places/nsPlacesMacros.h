@@ -355,6 +355,8 @@ PR_BEGIN_MACRO
 \
 nsCString
 msg
+=
+NS_LITERAL_CSTRING
 (
 __FUNCTION__
 )
