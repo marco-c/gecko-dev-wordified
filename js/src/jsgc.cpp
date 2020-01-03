@@ -13669,6 +13669,11 @@ Zone
 Compact
 )
 ;
+StopAllOffThreadCompilations
+(
+zone
+)
+;
 relocatedList
 =
 zone
