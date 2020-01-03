@@ -9173,7 +9173,7 @@ elt
 ;
 if
 (
-PlacesUIUtils
+PlacesUtils
 .
 nodeIsFolder
 (
