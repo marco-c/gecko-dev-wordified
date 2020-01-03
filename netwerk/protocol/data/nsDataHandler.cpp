@@ -236,6 +236,7 @@ NS_IMPL_ISUPPORTS
 (
 nsDataHandler
 nsIProtocolHandler
+nsISupportsWeakReference
 )
 nsresult
 nsDataHandler
