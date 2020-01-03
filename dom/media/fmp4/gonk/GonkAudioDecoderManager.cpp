@@ -364,13 +364,13 @@ aConfig
 .
 aac_profile
 )
-mAudioBuffer
-(
-nullptr
-)
 mUseAdts
 (
 true
+)
+mAudioBuffer
+(
+nullptr
 )
 {
 MOZ_COUNT_CTOR
