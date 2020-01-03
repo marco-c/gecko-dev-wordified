@@ -520,7 +520,8 @@ multiple
 views
 in
 the
-tray
+tabs
+panel
 for
 each
 child
@@ -624,7 +625,8 @@ multiple
 views
 in
 the
-tray
+tabs
+panel
 for
 each
 child

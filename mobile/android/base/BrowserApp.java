@@ -11466,7 +11466,7 @@ areTabsShown
 If
 the
 tabs
-layout
+panel
 is
 animating
 onto
@@ -15102,7 +15102,7 @@ g
 button
 toast
 tabs
-tray
+panel
 )
 when
 the
@@ -15372,14 +15372,14 @@ false
 /
 If
 the
-tab
-tray
+tabs
+panel
 is
 showing
 hide
 the
 tab
-tray
+panel
 and
 don
 '

@@ -869,7 +869,7 @@ not
 for
 the
 tabs
-tray
+panel
 groups
 .
 /
@@ -1177,7 +1177,7 @@ not
 for
 the
 tabs
-tray
+panel
 /
 /
 children

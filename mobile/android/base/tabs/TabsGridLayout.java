@@ -359,7 +359,7 @@ R
 .
 styleable
 .
-TabsTray
+TabsLayout
 )
 ;
 mIsPrivate
@@ -373,7 +373,7 @@ R
 .
 styleable
 .
-TabsTray_tabs
+TabsLayout_tabs
 0x0
 )
 =

@@ -4397,7 +4397,7 @@ view
 in
 the
 tabs
-tray
+panel
 *
 /
 private
@@ -4406,7 +4406,7 @@ AdapterView
 <
 ListAdapter
 >
-getTabsList
+getTabsLayout
 (
 )
 {
@@ -4464,7 +4464,7 @@ view
 in
 the
 tabs
-tray
+panel
 at
 the
 specified
@@ -4504,7 +4504,7 @@ ListAdapter
 >
 view
 =
-getTabsList
+getTabsLayout
 (
 )
 ;

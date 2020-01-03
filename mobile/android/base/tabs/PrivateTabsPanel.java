@@ -322,7 +322,7 @@ R
 .
 id
 .
-private_tabs_tray
+private_tabs_layout
 )
 ;
 final
