@@ -5846,7 +5846,8 @@ flag
 equal
 false
 .
-mActiveTrack
+bool
+activeTrack
 =
 false
 ;
@@ -6403,7 +6404,7 @@ flag
 to
 true
 .
-mActiveTrack
+activeTrack
 =
 true
 ;
@@ -7041,7 +7042,7 @@ flag
 to
 true
 .
-mActiveTrack
+activeTrack
 =
 true
 ;
@@ -7255,6 +7256,16 @@ promise
 is
 resolved
 .
+if
+(
+activeTrack
+)
+{
+mActiveTrack
+=
+true
+;
+}
 /
 /
 6
