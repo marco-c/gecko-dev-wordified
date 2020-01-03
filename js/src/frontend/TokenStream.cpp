@@ -6269,15 +6269,6 @@ tokentype
 =
 =
 TOK_CLASS
-|
-|
-kw
--
->
-tokentype
-=
-=
-TOK_EXTENDS
 #
 endif
 )

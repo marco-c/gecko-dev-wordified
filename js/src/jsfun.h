@@ -3953,12 +3953,6 @@ NewObjectKind
 newKindArg
 =
 GenericObject
-HandleObject
-proto
-=
-NullPtr
-(
-)
 )
 ;
 extern
