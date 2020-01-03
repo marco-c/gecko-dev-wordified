@@ -420,7 +420,7 @@ namespace
 layers
 {
 class
-AsyncTransactionTracker
+AsyncTransactionWaiter
 ;
 class
 CompositableForwarder
@@ -2836,11 +2836,11 @@ transaction
 /
 virtual
 void
-SetRemoveFromCompositableTracker
+SetRemoveFromCompositableWaiter
 (
-AsyncTransactionTracker
+AsyncTransactionWaiter
 *
-aTracker
+aWaiter
 )
 {
 }
