@@ -1266,6 +1266,11 @@ TypeError
 )
 ;
 }
+function
+runTest
+(
+)
+{
 TestEmptyHeaders
 (
 )
@@ -1274,3 +1279,11 @@ TestFilledHeaders
 (
 )
 ;
+return
+Promise
+.
+resolve
+(
+)
+;
+}
