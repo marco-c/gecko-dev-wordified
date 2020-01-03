@@ -2042,6 +2042,11 @@ do_QueryInterface
 mDocument
 -
 >
+MasterDocument
+(
+)
+-
+>
 GetWindow
 (
 )
