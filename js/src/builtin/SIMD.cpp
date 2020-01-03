@@ -5181,7 +5181,7 @@ ErrorBadArgs
 cx
 )
 ;
-int32_t
+uint32_t
 lanes
 [
 V
@@ -5241,7 +5241,10 @@ lane
 0
 |
 |
+uint32_t
+(
 lane
+)
 >
 =
 V
@@ -5260,7 +5263,10 @@ lanes
 i
 ]
 =
+uint32_t
+(
 lane
+)
 ;
 }
 Elem
@@ -5417,7 +5423,7 @@ ErrorBadArgs
 cx
 )
 ;
-int32_t
+uint32_t
 lanes
 [
 V
@@ -5477,7 +5483,10 @@ lane
 0
 |
 |
+uint32_t
+(
 lane
+)
 >
 =
 (
@@ -5500,7 +5509,10 @@ lanes
 i
 ]
 =
+uint32_t
+(
 lane
+)
 ;
 }
 Elem
