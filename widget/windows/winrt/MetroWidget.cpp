@@ -8145,6 +8145,16 @@ InputContextAction
 aAction
 )
 {
+/
+/
+XXX
+This
+should
+set
+mInputContext
+.
+mNativeIMEContext
+properly
 mInputContext
 =
 aContext
