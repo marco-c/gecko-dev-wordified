@@ -1268,6 +1268,8 @@ commands
 "
 devtools
 /
+responsivedesign
+/
 resize
 -
 commands
