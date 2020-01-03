@@ -19388,7 +19388,7 @@ BrowserApp
 .
 deck
 .
-addEventListener
+removeEventListener
 (
 "
 InstallBrowserTheme
@@ -19402,7 +19402,7 @@ BrowserApp
 .
 deck
 .
-addEventListener
+removeEventListener
 (
 "
 PreviewBrowserTheme
@@ -19416,7 +19416,7 @@ BrowserApp
 .
 deck
 .
-addEventListener
+removeEventListener
 (
 "
 ResetBrowserThemePreview
