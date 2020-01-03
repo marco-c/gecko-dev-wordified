@@ -290,7 +290,7 @@ obj
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewObjectCache
 :
@@ -369,13 +369,13 @@ entries
 entryIndex
 ]
 ;
-JSObject
+NativeObject
 *
 templateObj
 =
 reinterpret_cast
 <
-JSObject
+NativeObject
 *
 >
 (
@@ -465,7 +465,7 @@ upcomingZealousGC
 return
 nullptr
 ;
-JSObject
+NativeObject
 *
 obj
 =

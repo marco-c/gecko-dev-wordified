@@ -7025,6 +7025,14 @@ obj
 hasLazyGroup
 (
 )
+&
+&
+obj
+-
+>
+maybeShape
+(
+)
 obj
 -
 >
@@ -7041,7 +7049,7 @@ clasp
 obj
 -
 >
-lastProperty
+maybeShape
 (
 )
 -

@@ -10703,6 +10703,13 @@ range
 obj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 lastProperty
 (
 )

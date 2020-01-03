@@ -18152,6 +18152,13 @@ r
 pobj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 lastProperty
 (
 )
@@ -22990,6 +22997,13 @@ cx
 templateObject
 -
 >
+as
+<
+ArrayObject
+>
+(
+)
+.
 lastProperty
 (
 )

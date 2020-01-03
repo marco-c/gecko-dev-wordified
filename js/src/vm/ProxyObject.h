@@ -164,6 +164,9 @@ ProxyObject
 public
 JSObject
 {
+HeapPtrShape
+shape
+;
 /
 /
 GetProxyDataLayout
