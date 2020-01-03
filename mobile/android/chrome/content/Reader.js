@@ -1950,7 +1950,6 @@ null
 }
 )
 ;
-;
 }
 )
 _getSavedArticle
