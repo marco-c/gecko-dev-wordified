@@ -509,6 +509,7 @@ IntrinsicState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *

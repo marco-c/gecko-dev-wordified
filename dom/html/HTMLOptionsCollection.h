@@ -322,6 +322,7 @@ GetElementAt
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsINode

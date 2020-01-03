@@ -884,6 +884,7 @@ WillParse
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillBuildModel
@@ -891,6 +892,7 @@ WillBuildModel
 nsDTDMode
 aDTDMode
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidBuildModel
@@ -898,18 +900,21 @@ DidBuildModel
 bool
 aTerminated
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillInterrupt
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillResume
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetParser
@@ -918,6 +923,7 @@ nsParserBase
 *
 aParser
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -926,6 +932,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetDocumentCharset
@@ -934,6 +941,7 @@ nsACString
 &
 aCharset
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsISupports
@@ -941,12 +949,14 @@ nsISupports
 GetTarget
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsScriptExecuting
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -957,6 +967,7 @@ OpenContainer
 ElementType
 aNodeType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CloseContainer
@@ -964,6 +975,7 @@ CloseContainer
 ElementType
 aTag
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -1103,6 +1115,7 @@ nsresult
 FlushTags
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1141,6 +1154,7 @@ void
 UpdateChildCounts
 (
 )
+MOZ_OVERRIDE
 ;
 void
 NotifyInsert

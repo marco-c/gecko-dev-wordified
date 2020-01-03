@@ -915,6 +915,7 @@ AddStates
 EventStates
 aStates
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -923,6 +924,7 @@ RemoveStates
 EventStates
 aStates
 )
+MOZ_OVERRIDE
 ;
 public
 :

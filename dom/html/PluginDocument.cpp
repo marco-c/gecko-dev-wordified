@@ -256,6 +256,7 @@ aSink
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -265,6 +266,7 @@ nsIScriptGlobalObject
 *
 aScriptGlobalObject
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -274,6 +276,7 @@ nsIRequest
 *
 aNewRequest
 )
+MOZ_OVERRIDE
 ;
 const
 nsCString

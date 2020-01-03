@@ -428,6 +428,7 @@ nsContentList
 GetForms
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsContentList
@@ -435,6 +436,7 @@ nsContentList
 GetFormControls
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -773,6 +775,7 @@ nsAString
 &
 aElementId
 )
+MOZ_OVERRIDE
 {
 return
 nsDocument

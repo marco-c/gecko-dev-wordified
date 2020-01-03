@@ -184,6 +184,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -191,6 +192,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -212,6 +214,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -226,6 +229,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -329,6 +333,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -342,6 +347,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -555,6 +561,7 @@ Item
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -564,6 +571,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsINode
@@ -571,18 +579,12 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 {
 return
 mParent
 ;
 }
-virtual
-uint32_t
-Length
-(
-)
-const
-;
 virtual
 JSObject
 *

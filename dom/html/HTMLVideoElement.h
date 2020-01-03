@@ -547,12 +547,14 @@ void
 WakeLockCreate
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 WakeLockRelease
 (
 )
+MOZ_OVERRIDE
 ;
 void
 UpdateScreenWakeLock

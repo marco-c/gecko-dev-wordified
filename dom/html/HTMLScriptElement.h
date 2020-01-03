@@ -282,6 +282,7 @@ GetCORSMode
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /

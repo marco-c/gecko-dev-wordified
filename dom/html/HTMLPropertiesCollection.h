@@ -376,6 +376,7 @@ GetElementAt
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 void
 SetDocument

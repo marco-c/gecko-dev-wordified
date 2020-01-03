@@ -288,6 +288,7 @@ CORSMode
 GetCORSMode
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /

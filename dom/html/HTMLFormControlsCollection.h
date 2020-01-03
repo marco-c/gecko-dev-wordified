@@ -231,6 +231,7 @@ GetElementAt
 uint32_t
 index
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsINode

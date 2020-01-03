@@ -194,6 +194,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -208,6 +209,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 bool
 IsInsertionPoint

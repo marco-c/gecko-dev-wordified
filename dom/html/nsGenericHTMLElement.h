@@ -413,6 +413,7 @@ nsAString
 &
 aTitle
 )
+MOZ_OVERRIDE
 {
 SetHTMLAttr
 (
@@ -453,6 +454,7 @@ nsAString
 &
 aLang
 )
+MOZ_OVERRIDE
 {
 SetHTMLAttr
 (
@@ -1725,6 +1727,7 @@ UndoManager
 GetUndoManager
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -7287,6 +7290,7 @@ HTMLFieldSetElement
 GetFieldSet
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla

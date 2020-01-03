@@ -219,6 +219,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mType
