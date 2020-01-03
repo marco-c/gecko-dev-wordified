@@ -303,10 +303,6 @@ ObjectId
 &
 objId
 const
-ObjectVariant
-&
-receiverVar
-const
 JSIDVariant
 &
 id
@@ -314,12 +310,13 @@ const
 JSVariant
 &
 value
+const
+JSVariant
+&
+receiverVar
 ReturnStatus
 *
 rs
-JSVariant
-*
-result
 )
 ;
 bool
