@@ -1584,7 +1584,7 @@ describe
 (
 "
 #
-resetRoom
+feedbackComplete
 "
 function
 (
@@ -1639,12 +1639,12 @@ foo
 ;
 store
 .
-resetRoom
+feedbackComplete
 (
 new
 sharedActions
 .
-ResetRoom
+FeedbackComplete
 (
 )
 )
