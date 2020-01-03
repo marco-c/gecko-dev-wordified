@@ -3292,11 +3292,6 @@ video
 /
 mp4
 "
-duration
-:
-2
-.
-401
 }
 {
 name
