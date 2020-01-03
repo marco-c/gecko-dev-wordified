@@ -2036,6 +2036,16 @@ return
 instructionResults_
 ;
 }
+bool
+hasInstructionResults
+(
+)
+const
+{
+return
+instructionResults_
+;
+}
 Value
 fromInstructionResult
 (
