@@ -7019,7 +7019,7 @@ APZStateChange
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 APZStateChange
 APZStateChange
