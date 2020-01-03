@@ -7964,9 +7964,12 @@ sandboxed
 process
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 uint32_t
@@ -13731,9 +13734,12 @@ aGlobal
 )
 {
 return
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 ;
 }
 bool

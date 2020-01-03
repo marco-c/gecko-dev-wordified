@@ -621,9 +621,12 @@ PromiseDebugging
 ;
 if
 (
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 sIDPrefix

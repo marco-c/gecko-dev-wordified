@@ -3485,10 +3485,12 @@ this
 {
 MOZ_ASSERT
 (
-!
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+!
+=
+GeckoProcessType_Content
 "
 Cannot
 instantiate

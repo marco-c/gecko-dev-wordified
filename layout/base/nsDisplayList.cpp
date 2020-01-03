@@ -10958,9 +10958,12 @@ WillComputePluginGeometry
 )
 &
 &
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 rootPresContext

@@ -281,6 +281,12 @@ aDescendantPath
 )
 ;
 static
+bool
+IsParentProcess
+(
+)
+;
+static
 const
 char16_t
 kSeparatorChar

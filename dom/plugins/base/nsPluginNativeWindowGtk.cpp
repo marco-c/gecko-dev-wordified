@@ -440,9 +440,12 @@ type
 NPWindowTypeWindow
 &
 &
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 /

@@ -3809,9 +3809,12 @@ sDatabase
 }
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 nsAutoPtr
@@ -3998,9 +4001,12 @@ Shutdown
 ;
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 delete

@@ -651,8 +651,13 @@ e
 )
 amChild
 =
-XRE_IsContentProcess
 (
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Content
 )
 ;
 didCheck

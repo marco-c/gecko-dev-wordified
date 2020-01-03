@@ -4004,9 +4004,12 @@ called
 .
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 ActivateOrDeactivate
@@ -4473,9 +4476,12 @@ called
 .
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 ActivateOrDeactivate
