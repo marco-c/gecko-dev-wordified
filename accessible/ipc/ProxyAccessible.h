@@ -330,14 +330,6 @@ this
 )
 ;
 }
-ssize_t
-IndexOfEmbeddedChild
-(
-const
-ProxyAccessible
-*
-)
-;
 bool
 MustPruneChildren
 (
@@ -1644,9 +1636,6 @@ TABLE
 TABLECELL
 =
 32
-DOCUMENT
-=
-64
 }
 ;
 }
