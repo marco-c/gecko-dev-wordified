@@ -185,6 +185,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+nsPIDOMWindow
+.
+h
+"
 using
 namespace
 mozilla
