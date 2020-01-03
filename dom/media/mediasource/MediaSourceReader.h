@@ -839,6 +839,11 @@ IsEnded
 bool
 IsNearEnd
 (
+MediaData
+:
+:
+Type
+aType
 int64_t
 aTime
 /
