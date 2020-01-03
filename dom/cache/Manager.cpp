@@ -3021,7 +3021,7 @@ rv
 db
 :
 :
-DeleteCacheId
+DeleteCache
 (
 aConn
 mCacheId
@@ -7513,7 +7513,7 @@ rv
 db
 :
 :
-CreateCacheId
+CreateCache
 (
 aConn
 &
