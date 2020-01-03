@@ -2101,7 +2101,7 @@ time
 oldPlayer
 -
 >
-mPauseStart
+mHoldTime
 =
 timeline
 -
@@ -2220,13 +2220,13 @@ now
 oldPlayer
 -
 >
-mPauseStart
+mHoldTime
 ;
 }
 oldPlayer
 -
 >
-mPauseStart
+mHoldTime
 =
 TimeStamp
 (
@@ -3200,7 +3200,7 @@ IsPaused
 dest
 -
 >
-mPauseStart
+mHoldTime
 =
 now
 ;
@@ -3210,7 +3210,7 @@ else
 dest
 -
 >
-mPauseStart
+mHoldTime
 =
 TimeStamp
 (
