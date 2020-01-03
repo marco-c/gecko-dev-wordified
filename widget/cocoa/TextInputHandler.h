@@ -5523,6 +5523,10 @@ IMEInputHandler
 *
 sFocusedIMEHandler
 ;
+static
+bool
+sCachedIsForRTLLangage
+;
 }
 ;
 /

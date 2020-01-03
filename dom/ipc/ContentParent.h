@@ -2966,6 +2966,9 @@ RecvGetXPCOMProcessAttributes
 bool
 *
 aIsOffline
+bool
+*
+aIsLangRTL
 InfallibleTArray
 <
 nsString
