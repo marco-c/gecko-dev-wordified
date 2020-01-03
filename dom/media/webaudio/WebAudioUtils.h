@@ -1098,10 +1098,13 @@ type
 ;
 if
 (
+mozilla
+:
+:
+IsNaN
+(
 f
-!
-=
-f
+)
 )
 {
 /
