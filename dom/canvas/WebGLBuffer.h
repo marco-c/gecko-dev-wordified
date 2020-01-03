@@ -299,7 +299,6 @@ Context
 )
 ;
 }
-;
 virtual
 JSObject
 *

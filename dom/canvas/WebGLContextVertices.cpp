@@ -161,13 +161,6 @@ h
 #
 include
 "
-WebGLUniformInfo
-.
-h
-"
-#
-include
-"
 WebGLVertexArray
 .
 h
