@@ -1278,7 +1278,6 @@ length_
 )
 {
 }
-MOZ_IMPLICIT
 BasicStringPiece
 (
 const
@@ -1315,7 +1314,6 @@ str
 )
 {
 }
-MOZ_IMPLICIT
 BasicStringPiece
 (
 const
