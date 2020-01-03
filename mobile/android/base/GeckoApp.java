@@ -10321,12 +10321,6 @@ id
 .
 focus_handle
 )
-EventDispatcher
-.
-getInstance
-(
-)
-this
 )
 ;
 PrefsHelper
