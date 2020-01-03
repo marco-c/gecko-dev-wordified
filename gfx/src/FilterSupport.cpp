@@ -8743,6 +8743,10 @@ SourceSurface
 >
 &
 aAdditionalImages
+const
+DrawOptions
+&
+aOptions
 )
 {
 RefPtr
@@ -8777,6 +8781,7 @@ Point
 0
 0
 )
+aOptions
 )
 ;
 }
