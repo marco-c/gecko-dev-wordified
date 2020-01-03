@@ -93,5 +93,12 @@ function
 )
 {
 }
+getLoopBoolPref
+:
+function
+(
+)
+{
+}
 }
 ;
