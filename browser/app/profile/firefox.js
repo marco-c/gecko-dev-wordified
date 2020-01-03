@@ -23206,6 +23206,12 @@ enabledLocales
 en
 -
 US
+de
+es
+-
+ES
+ja
+ru
 "
 )
 ;
