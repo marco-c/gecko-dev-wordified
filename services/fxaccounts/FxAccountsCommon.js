@@ -920,12 +920,13 @@ FX_OAUTH_CLIENT_ID
 ;
 /
 /
-Profile
+Firefox
+Accounts
 WebChannel
 ID
 exports
 .
-PROFILE_WEBCHANNEL_ID
+WEBCHANNEL_ID
 =
 "
 account_updates
