@@ -1018,7 +1018,7 @@ MOZ_WIDGET_ANDROID
 |
 defined
 (
-MOZ_B2G
+MOZ_WIDGET_GONK
 )
 /
 /
@@ -1026,6 +1026,8 @@ Both
 Android
 and
 b2g
+on
+phones
 are
 guaranteed
 to
