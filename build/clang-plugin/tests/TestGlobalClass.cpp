@@ -169,7 +169,7 @@ Global
 }
 static
 Global
-valid
+notValid2
 ;
 /
 /
@@ -192,7 +192,7 @@ global
 }
 static
 Global
-alsoValid
+alsoNotValid2
 [
 2
 ]
@@ -250,7 +250,7 @@ Global
 gobble
 (
 &
-valid
+notValid2
 )
 ;
 gobble
@@ -262,7 +262,7 @@ notValid
 gobble
 (
 &
-alsoValid
+alsoNotValid2
 [
 0
 ]
@@ -360,7 +360,7 @@ len
 5
 ?
 &
-valid
+notValid2
 :
 new
 Global
