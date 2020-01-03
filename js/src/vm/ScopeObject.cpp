@@ -17147,10 +17147,11 @@ isInterpreted
 )
 )
 return
+&
 fun
 -
 >
-getParent
+global
 (
 )
 ;
@@ -17183,10 +17184,11 @@ DynamicWithObject
 )
 )
 return
+&
 fun
 -
 >
-getParent
+global
 (
 )
 ;
