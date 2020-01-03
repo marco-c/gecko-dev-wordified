@@ -96,7 +96,7 @@ SIMD
 .
 int32x4
 .
-shiftLeft
+shiftLeftByScalar
 (
 a
 bits
@@ -192,7 +192,7 @@ SIMD
 .
 int32x4
 .
-shiftLeft
+shiftLeftByScalar
 (
 d
 1

@@ -96,7 +96,7 @@ SIMD
 .
 int32x4
 .
-shiftRight
+shiftRightArithmeticByScalar
 (
 a
 bits
@@ -192,7 +192,7 @@ SIMD
 .
 int32x4
 .
-shiftRight
+shiftRightArithmeticByScalar
 (
 d
 1

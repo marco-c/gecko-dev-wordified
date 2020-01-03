@@ -38824,7 +38824,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_shiftLeft
+AsmJSSimdOperation_shiftLeftByScalar
 :
 return
 CheckSimdBinary
@@ -38841,7 +38841,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_shiftRight
+AsmJSSimdOperation_shiftRightArithmeticByScalar
 :
 return
 CheckSimdBinary
@@ -38858,7 +38858,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_shiftRightLogical
+AsmJSSimdOperation_shiftRightLogicalByScalar
 :
 return
 CheckSimdBinary

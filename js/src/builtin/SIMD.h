@@ -1123,7 +1123,7 @@ Int32x4
 \
 V
 (
-shiftLeft
+shiftLeftByScalar
 (
 Int32x4BinaryScalar
 <
@@ -1136,7 +1136,7 @@ ShiftLeft
 \
 V
 (
-shiftRight
+shiftRightArithmeticByScalar
 (
 Int32x4BinaryScalar
 <
@@ -1149,7 +1149,7 @@ ShiftRight
 \
 V
 (
-shiftRightLogical
+shiftRightLogicalByScalar
 (
 Int32x4BinaryScalar
 <
@@ -1393,17 +1393,17 @@ fromFloat32x4Bits
 \
 _
 (
-shiftLeft
+shiftLeftByScalar
 )
 \
 _
 (
-shiftRight
+shiftRightArithmeticByScalar
 )
 \
 _
 (
-shiftRightLogical
+shiftRightLogicalByScalar
 )
 #
 define
