@@ -299,6 +299,10 @@ GonkBufferQueue
 true
 )
 )
+mNewFrameCallback
+(
+nullptr
+)
 {
 mBufferQueue
 -

@@ -210,6 +210,10 @@ true
 )
 false
 )
+mNewFrameCallback
+(
+nullptr
+)
 {
 mConsumer
 -
