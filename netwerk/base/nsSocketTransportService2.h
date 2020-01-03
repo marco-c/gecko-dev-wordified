@@ -267,6 +267,12 @@ PRPollDesc
 -
 -
 -
+#
+if
+defined
+(
+PR_LOGGING
+)
 /
 /
 /
@@ -284,6 +290,8 @@ PRLogModuleInfo
 *
 gSocketTransportLog
 ;
+#
+endif
 #
 define
 SOCKET_LOG

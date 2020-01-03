@@ -15967,6 +15967,9 @@ nsIFile
 aFile
 )
 {
+#
+ifdef
+PR_LOGGING
 nsAutoCString
 path
 ;
@@ -15978,6 +15981,8 @@ GetNativePath
 path
 )
 ;
+#
+endif
 LOG
 (
 (
@@ -17233,13 +17238,9 @@ while
 "
 )
 ;
-if
-(
-LOG_ENABLED
-(
-)
-)
-{
+#
+ifdef
+PR_LOGGING
 nsAutoCString
 path
 ;
@@ -17251,6 +17252,8 @@ GetNativePath
 path
 )
 ;
+#
+endif
 LOG
 (
 (
@@ -17304,7 +17307,6 @@ get
 )
 )
 ;
-}
 }
 file
 -
@@ -20413,13 +20415,9 @@ rv
 ;
 }
 }
-if
-(
-LOG_ENABLED
-(
-)
-)
-{
+#
+ifdef
+PR_LOGGING
 nsAutoCString
 path
 ;
@@ -20431,6 +20429,8 @@ GetNativePath
 path
 )
 ;
+#
+endif
 LOG
 (
 (
@@ -20455,7 +20455,6 @@ get
 )
 )
 ;
-}
 rv
 =
 file

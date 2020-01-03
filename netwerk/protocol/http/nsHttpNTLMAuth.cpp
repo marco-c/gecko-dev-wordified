@@ -2044,6 +2044,9 @@ endif
 /
 /
 XP_WIN
+#
+ifdef
+PR_LOGGING
 if
 (
 !
@@ -2068,6 +2071,8 @@ n
 )
 )
 ;
+#
+endif
 }
 #
 ifdef

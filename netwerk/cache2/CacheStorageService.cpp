@@ -5982,6 +5982,9 @@ PurgeOverMemoryLimit
 (
 )
 {
+#
+ifdef
+PR_LOGGING
 TimeStamp
 start
 (
@@ -5993,6 +5996,8 @@ Now
 )
 )
 ;
+#
+endif
 uint32_t
 const
 memoryLimit
@@ -7420,13 +7425,9 @@ contextKey
 )
 ;
 }
-if
-(
-LOG_ENABLED
-(
-)
-)
-{
+#
+ifdef
+PR_LOGGING
 nsAutoCString
 uriSpec
 ;
@@ -7479,7 +7480,8 @@ get
 )
 )
 ;
-}
+#
+endif
 {
 mozilla
 :

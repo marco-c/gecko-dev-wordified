@@ -69,6 +69,12 @@ mozilla
 namespace
 net
 {
+#
+if
+defined
+(
+PR_LOGGING
+)
 /
 /
 Log
@@ -169,6 +175,8 @@ return
 sLog
 ;
 }
+#
+endif
 }
 /
 /

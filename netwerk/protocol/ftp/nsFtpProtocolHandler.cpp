@@ -338,6 +338,12 @@ h
 -
 -
 -
+#
+if
+defined
+(
+PR_LOGGING
+)
 /
 /
 /
@@ -415,6 +421,8 @@ gFTPLog
 =
 nullptr
 ;
+#
+endif
 #
 undef
 LOG
@@ -664,6 +672,12 @@ mDataQoSBits
 0x00
 )
 {
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 !
@@ -678,6 +692,8 @@ nsFtp
 "
 )
 ;
+#
+endif
 LOG
 (
 (

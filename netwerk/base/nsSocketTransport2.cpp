@@ -7739,6 +7739,9 @@ mNetAddr
 )
 )
 {
+#
+ifdef
+PR_LOGGING
 if
 (
 SOCKET_LOG_ENABLED
@@ -7849,6 +7852,8 @@ get
 )
 ;
 }
+#
+endif
 mCondition
 =
 NS_ERROR_CONNECTION_REFUSED
@@ -8544,6 +8549,12 @@ SendStatus
 NS_NET_STATUS_CONNECTING_TO
 )
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 SOCKET_LOG_ENABLED
@@ -8585,6 +8596,8 @@ buf
 )
 ;
 }
+#
+endif
 /
 /
 /
@@ -16580,6 +16593,12 @@ aObjPtr
 if
 defined
 (
+PR_LOGGING
+)
+&
+&
+defined
+(
 DEBUG
 )
 PRErrorCode
@@ -16835,6 +16854,12 @@ aObjPtr
 {
 #
 if
+defined
+(
+PR_LOGGING
+)
+&
+&
 defined
 (
 DEBUG

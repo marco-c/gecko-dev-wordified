@@ -303,6 +303,12 @@ mozilla
 :
 Preferences
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 /
 /
 /
@@ -319,6 +325,8 @@ PRLogModuleInfo
 *
 gChannelClassifierLog
 ;
+#
+endif
 #
 undef
 LOG
@@ -355,6 +363,12 @@ mSuspendedChannel
 false
 )
 {
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 !
@@ -369,6 +383,8 @@ nsChannelClassifier
 "
 )
 ;
+#
+endif
 }
 nsresult
 nsChannelClassifier

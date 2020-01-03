@@ -185,6 +185,12 @@ mReceivedAppData
 false
 )
 {
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 !
@@ -199,6 +205,8 @@ nsWyciwygChannel
 "
 )
 ;
+#
+endif
 }
 WyciwygChannelParent
 :

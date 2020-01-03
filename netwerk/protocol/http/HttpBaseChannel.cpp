@@ -13917,13 +13917,9 @@ Count
 i
 )
 {
-if
-(
-LOG_ENABLED
-(
-)
-)
-{
+#
+ifdef
+PR_LOGGING
 nsCOMPtr
 <
 nsIURI
@@ -13995,7 +13991,8 @@ this
 )
 )
 ;
-}
+#
+endif
 httpInternal
 -
 >

@@ -276,6 +276,12 @@ h
 /
 /
 /
+#
+if
+defined
+(
+PR_LOGGING
+)
 /
 /
 /
@@ -295,6 +301,8 @@ gTestLog
 =
 nullptr
 ;
+#
+endif
 #
 define
 LOG
@@ -1909,6 +1917,12 @@ AutoRegister
 nullptr
 )
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 gTestLog
 =
 PR_NewLogModule
@@ -1918,6 +1932,8 @@ Test
 "
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIFile

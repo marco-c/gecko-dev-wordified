@@ -93,6 +93,12 @@ prlog
 .
 h
 "
+#
+if
+defined
+(
+PR_LOGGING
+)
 /
 /
 /
@@ -169,6 +175,8 @@ PRLogModuleInfo
 *
 gWyciwygLog
 ;
+#
+endif
 /
 /
 http

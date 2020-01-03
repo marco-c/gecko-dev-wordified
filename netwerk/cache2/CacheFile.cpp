@@ -10237,6 +10237,9 @@ void
 aClosure
 )
 {
+#
+ifdef
+PR_LOGGING
 CacheFile
 *
 file
@@ -10250,6 +10253,8 @@ CacheFile
 aClosure
 )
 ;
+#
+endif
 LOG
 (
 (

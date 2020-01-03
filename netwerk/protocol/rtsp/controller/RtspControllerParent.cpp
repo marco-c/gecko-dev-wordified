@@ -454,6 +454,12 @@ mTotalTracks
 0
 )
 {
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 !
@@ -468,6 +474,8 @@ nsRtsp
 "
 )
 ;
+#
+endif
 }
 RtspControllerParent
 :

@@ -341,6 +341,12 @@ gHostLimitDigits
 0
 }
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 /
 /
 /
@@ -357,6 +363,8 @@ PRLogModuleInfo
 *
 gStandardURLLog
 ;
+#
+endif
 /
 /
 The
@@ -2100,6 +2108,12 @@ mSupportsFileURL
 aSupportsFileURL
 )
 {
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 !
@@ -2114,6 +2128,8 @@ nsStandardURL
 "
 )
 ;
+#
+endif
 LOG
 (
 (
@@ -8157,6 +8173,12 @@ return
 rv
 ;
 }
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 LOG_ENABLED
@@ -8487,6 +8509,8 @@ mLen
 )
 ;
 }
+#
+endif
 return
 rv
 ;
@@ -17528,6 +17552,12 @@ rv
 return
 rv
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 LOG_ENABLED
@@ -17586,6 +17616,8 @@ get
 )
 ;
 }
+#
+endif
 /
 /
 clone

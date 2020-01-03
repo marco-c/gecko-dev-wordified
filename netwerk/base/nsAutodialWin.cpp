@@ -220,6 +220,9 @@ nspr
 log
 /
 /
+#
+ifdef
+PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -227,6 +230,8 @@ gLog
 =
 nullptr
 ;
+#
+endif
 #
 undef
 LOGD
@@ -400,6 +405,9 @@ Init
 (
 )
 {
+#
+ifdef
+PR_LOGGING
 if
 (
 !
@@ -414,6 +422,8 @@ Autodial
 "
 )
 ;
+#
+endif
 mDefaultEntryName
 [
 0

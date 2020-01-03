@@ -451,6 +451,14 @@ prlog
 h
 "
 #
+if
+defined
+(
+PR_LOGGING
+)
+#
+endif
+#
 undef
 LOG
 #

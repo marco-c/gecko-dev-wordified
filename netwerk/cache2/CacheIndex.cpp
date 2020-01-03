@@ -17413,6 +17413,9 @@ return
 PL_DHASH_REMOVE
 ;
 }
+#
+ifdef
+PR_LOGGING
 /
 /
 static
@@ -17506,6 +17509,8 @@ return
 "
 ;
 }
+#
+endif
 void
 CacheIndex
 :

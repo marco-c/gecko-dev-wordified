@@ -178,11 +178,16 @@ prtime
 .
 h
 "
+#
+ifdef
+PR_LOGGING
 static
 PRLogModuleInfo
 *
 gLog
 ;
+#
+endif
 #
 include
 "
@@ -366,6 +371,9 @@ mPos
 0
 )
 {
+#
+ifdef
+PR_LOGGING
 if
 (
 !
@@ -380,6 +388,8 @@ nsDirectoryIndexStream
 "
 )
 ;
+#
+endif
 PR_LOG
 (
 gLog
@@ -730,6 +740,9 @@ isDir
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
+#
+ifdef
+PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -777,6 +790,8 @@ get
 )
 ;
 }
+#
+endif
 /
 /
 Sigh
@@ -1601,6 +1616,9 @@ mPos
 +
 mPos
 ;
+#
+ifdef
+PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1647,6 +1665,8 @@ get
 )
 ;
 }
+#
+endif
 /
 /
 rjc

@@ -270,6 +270,12 @@ nsWyciwygProtocolHandler
 (
 )
 {
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 !
@@ -284,6 +290,8 @@ nsWyciwygChannel
 "
 )
 ;
+#
+endif
 LOG
 (
 (

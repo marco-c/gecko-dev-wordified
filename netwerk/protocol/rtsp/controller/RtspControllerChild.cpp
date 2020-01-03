@@ -584,6 +584,12 @@ mPauseTimer
 nullptr
 )
 {
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 !
@@ -598,6 +604,8 @@ nsRtspChild
 "
 )
 ;
+#
+endif
 AddIPDLReference
 (
 )
