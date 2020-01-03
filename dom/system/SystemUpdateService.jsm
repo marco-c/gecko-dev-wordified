@@ -252,11 +252,13 @@ this
 .
 _instance
 =
-Cc
+Components
+.
+classesByID
 [
 aProvider
 .
-contractId
+id
 ]
 .
 getService
