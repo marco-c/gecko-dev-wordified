@@ -1116,7 +1116,7 @@ eBasicEventClass
 EVENT
 (
 emptied
-NS_EMPTIED
+eEmptied
 EventNameType_HTML
 eBasicEventClass
 )
