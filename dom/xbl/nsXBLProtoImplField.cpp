@@ -2634,7 +2634,6 @@ aCx
 FieldGetter
 0
 0
-scopeObject
 id
 )
 )
@@ -2701,7 +2700,6 @@ aCx
 FieldSetter
 1
 0
-scopeObject
 id
 )
 )

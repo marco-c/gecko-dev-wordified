@@ -2128,13 +2128,6 @@ cx
 FunctionForwarder
 0
 0
-JS
-:
-:
-CurrentGlobalOrNull
-(
-cx
-)
 id
 )
 ;
