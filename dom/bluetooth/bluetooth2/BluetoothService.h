@@ -1319,16 +1319,6 @@ aRunnable
 0
 ;
 virtual
-bool
-IsConnected
-(
-uint16_t
-aServiceUuid
-)
-=
-0
-;
-virtual
 void
 SendFile
 (
