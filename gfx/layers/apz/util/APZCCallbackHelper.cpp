@@ -5216,10 +5216,7 @@ aEvent
 uint64_t
 aInputBlockId
 const
-nsRefPtr
-<
 SetAllowedTouchBehaviorCallback
->
 &
 aCallback
 )
@@ -5279,9 +5276,6 @@ mRefPoint
 ;
 }
 aCallback
--
->
-Run
 (
 aInputBlockId
 flags
