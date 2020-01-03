@@ -17046,7 +17046,7 @@ GDK_F18
 return
 DispatchContentCommandEvent
 (
-NS_CONTENT_COMMAND_PASTE
+eContentCommandPaste
 )
 ;
 case

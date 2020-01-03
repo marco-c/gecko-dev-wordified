@@ -8135,7 +8135,7 @@ APPCOMMAND_PASTE
 :
 contentCommandMessage
 =
-NS_CONTENT_COMMAND_PASTE
+eContentCommandPaste
 ;
 break
 ;

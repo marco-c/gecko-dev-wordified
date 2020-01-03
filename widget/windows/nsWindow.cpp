@@ -37552,7 +37552,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_PASTE
+eContentCommandPaste
 this
 )
 ;
@@ -37701,7 +37701,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_PASTE
+eContentCommandPaste
 this
 true
 )
