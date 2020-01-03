@@ -28212,6 +28212,12 @@ case
 CORS
 "
 :
+case
+"
+Iframe
+Sandbox
+"
+:
 return
 CATEGORY_SECURITY
 ;
