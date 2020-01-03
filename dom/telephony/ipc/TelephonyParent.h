@@ -477,6 +477,15 @@ ActorDestroyReason
 why
 )
 ;
+nsresult
+SendResponse
+(
+const
+IPCTelephonyResponse
+&
+aResponse
+)
+;
 private
 :
 bool
