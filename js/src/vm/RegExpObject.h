@@ -1019,9 +1019,6 @@ MOZ_ASSERT
 isCompiled
 (
 )
-|
-|
-canStringMatch
 )
 ;
 return
