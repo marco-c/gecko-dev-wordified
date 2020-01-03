@@ -195,9 +195,9 @@ x
 '
 )
 ;
-setLazyParsingEnabled
+setLazyParsingDisabled
 (
-false
+true
 )
 ;
 var
@@ -229,9 +229,9 @@ x
 '
 )
 ;
-setLazyParsingEnabled
+setLazyParsingDisabled
 (
-true
+false
 )
 ;
 {
@@ -272,9 +272,9 @@ x
 )
 ;
 }
-setLazyParsingEnabled
+setLazyParsingDisabled
 (
-false
+true
 )
 ;
 {
@@ -315,8 +315,8 @@ x
 )
 ;
 }
-setLazyParsingEnabled
+setLazyParsingDisabled
 (
-true
+false
 )
 ;
