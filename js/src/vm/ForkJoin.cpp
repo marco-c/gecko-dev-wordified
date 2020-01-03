@@ -9648,6 +9648,8 @@ transferArenasToCompartmentAndProcessGCRequests
 (
 )
 {
+/
+/
 JSCompartment
 *
 comp
@@ -9659,6 +9661,8 @@ compartment
 (
 )
 ;
+/
+/
 for
 (
 unsigned
@@ -9679,6 +9683,8 @@ i
 +
 +
 )
+/
+/
 comp
 -
 >
@@ -14000,6 +14006,8 @@ Value
 vp
 )
 {
+/
+/
 cx
 -
 >

@@ -879,7 +879,7 @@ next
 )
 MarkExactStackRootsAcrossTypes
 <
-ThreadSafeContext
+JSContext
 *
 >
 (

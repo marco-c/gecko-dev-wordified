@@ -1367,7 +1367,11 @@ allocator
 (
 )
 const
+{
+return
+allocator_
 ;
+}
 /
 /
 Allocations
@@ -1463,7 +1467,14 @@ T
 thing
 )
 const
+{
+return
+true
 ;
+}
+/
+/
+obsolete
 void
 *
 onOutOfMemory
