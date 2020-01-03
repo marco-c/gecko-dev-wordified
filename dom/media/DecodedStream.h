@@ -398,6 +398,13 @@ bool
 aPlaying
 )
 ;
+void
+SetVolume
+(
+double
+aVolume
+)
+;
 int64_t
 AudioEndTime
 (
@@ -434,8 +441,6 @@ finished
 bool
 SendData
 (
-double
-aVolume
 bool
 aIsSameOrigin
 )
@@ -632,6 +637,9 @@ mMonitor
 ;
 bool
 mPlaying
+;
+double
+mVolume
 ;
 Maybe
 <
