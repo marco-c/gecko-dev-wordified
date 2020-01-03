@@ -393,6 +393,8 @@ JSAtom
 str
 bool
 multiline
+bool
+match_only
 RegExpCompileData
 *
 data

@@ -203,7 +203,7 @@ regexp
 HandleString
 string
 MatchPairs
-&
+*
 matches
 RegExpStaticsUpdate
 staticsUpdate

@@ -935,6 +935,8 @@ GenerateCode
 JSContext
 *
 cx
+bool
+match_only
 )
 {
 if
@@ -1419,6 +1421,11 @@ registers
 to
 FrameData
 .
+if
+(
+!
+match_only
+)
 {
 Register
 matchPairsRegister
@@ -2172,6 +2179,11 @@ bind
 success_label_
 )
 ;
+if
+(
+!
+match_only
+)
 {
 Register
 outputRegisters

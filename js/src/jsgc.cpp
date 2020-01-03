@@ -21054,15 +21054,6 @@ clear
 (
 )
 ;
-rt
--
->
-regExpTestCache
-.
-purge
-(
-)
-;
 if
 (
 !

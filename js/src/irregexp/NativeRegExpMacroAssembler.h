@@ -602,6 +602,8 @@ GenerateCode
 JSContext
 *
 cx
+bool
+match_only
 )
 ;
 int

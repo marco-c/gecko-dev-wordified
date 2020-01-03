@@ -10557,6 +10557,8 @@ bool
 ignore_case
 bool
 is_ascii
+bool
+match_only
 )
 ;
 int
@@ -10836,6 +10838,9 @@ bool
 ascii_
 ;
 bool
+match_only_
+;
+bool
 reg_exp_too_big_
 ;
 int
@@ -10947,6 +10952,8 @@ bool
 ignore_case
 bool
 ascii
+bool
+match_only
 )
 :
 next_register_
@@ -10970,6 +10977,10 @@ ignore_case
 ascii_
 (
 ascii
+)
+match_only_
+(
+match_only
 )
 reg_exp_too_big_
 (
@@ -11129,6 +11140,7 @@ macro_assembler_
 GenerateCode
 (
 cx
+match_only_
 )
 ;
 if
@@ -11334,6 +11346,8 @@ bool
 ignore_case
 bool
 is_ascii
+bool
+match_only
 )
 {
 if
@@ -11396,6 +11410,7 @@ data
 capture_count
 ignore_case
 is_ascii
+match_only
 )
 ;
 /

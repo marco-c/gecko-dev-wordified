@@ -648,6 +648,8 @@ GenerateCode
 JSContext
 *
 cx
+bool
+match_only
 )
 =
 0
@@ -1860,6 +1862,8 @@ GenerateCode
 JSContext
 *
 cx
+bool
+match_only
 )
 ;
 void
