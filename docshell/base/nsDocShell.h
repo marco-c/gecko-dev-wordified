@@ -4490,6 +4490,8 @@ MaybeInitTiming
 (
 )
 ;
+public
+:
 /
 /
 Event
@@ -4540,6 +4542,8 @@ mDocShell
 ;
 }
 ;
+protected
+:
 bool
 JustStartedNetworkLoad
 (
