@@ -199,6 +199,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGFilterFrame
 (
 nsStyleContext

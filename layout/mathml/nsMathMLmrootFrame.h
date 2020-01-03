@@ -307,6 +307,7 @@ LastChild
 }
 protected
 :
+explicit
 nsMathMLmrootFrame
 (
 nsStyleContext

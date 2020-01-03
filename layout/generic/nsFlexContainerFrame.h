@@ -320,6 +320,7 @@ Protected
 constructor
 &
 destructor
+explicit
 nsFlexContainerFrame
 (
 nsStyleContext

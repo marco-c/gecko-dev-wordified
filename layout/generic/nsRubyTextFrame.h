@@ -313,6 +313,7 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsRubyTextFrame
 (
 nsStyleContext

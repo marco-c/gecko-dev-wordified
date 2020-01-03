@@ -524,6 +524,7 @@ nsRunnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 ScrollEvent
 (
 ScrollFrameHelper
@@ -564,6 +565,7 @@ nsRunnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 AsyncScrollPortEvent
 (
 ScrollFrameHelper
@@ -604,6 +606,7 @@ nsRunnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 ScrolledAreaEvent
 (
 ScrollFrameHelper

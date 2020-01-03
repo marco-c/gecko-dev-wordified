@@ -270,6 +270,7 @@ FirstChild
 }
 protected
 :
+explicit
 nsMathMLmrowFrame
 (
 nsStyleContext

@@ -231,6 +231,7 @@ nsCSSParser
 {
 public
 :
+explicit
 nsCSSParser
 (
 mozilla

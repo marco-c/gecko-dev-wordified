@@ -559,6 +559,7 @@ nsListScrollSmoother
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 nsListScrollSmoother
 (
 nsListBoxBodyFrame

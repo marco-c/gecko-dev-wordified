@@ -168,6 +168,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGMaskFrame
 (
 nsStyleContext
@@ -400,6 +401,7 @@ AutoMaskReferencer
 {
 public
 :
+explicit
 AutoMaskReferencer
 (
 nsSVGMaskFrame

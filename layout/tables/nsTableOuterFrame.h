@@ -272,6 +272,7 @@ MOZ_OVERRIDE
 endif
 protected
 :
+explicit
 nsTableCaptionFrame
 (
 nsStyleContext
@@ -1142,6 +1143,7 @@ aColIdx
 }
 protected
 :
+explicit
 nsTableOuterFrame
 (
 nsStyleContext

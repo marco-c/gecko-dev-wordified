@@ -88,6 +88,7 @@ inSearchLoop
 {
 public
 :
+explicit
 inSearchLoop
 (
 inISearchProcess

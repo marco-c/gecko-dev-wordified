@@ -178,6 +178,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGSwitchFrame
 (
 nsStyleContext

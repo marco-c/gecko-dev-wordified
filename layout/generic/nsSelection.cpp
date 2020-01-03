@@ -878,6 +878,7 @@ mSelection
 ;
 public
 :
+explicit
 nsSelectionBatcher
 (
 nsISelectionPrivate

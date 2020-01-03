@@ -156,6 +156,7 @@ aContext
 ;
 protected
 :
+explicit
 nsMathMLsemanticsFrame
 (
 nsStyleContext

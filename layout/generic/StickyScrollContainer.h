@@ -545,6 +545,7 @@ MOZ_OVERRIDE
 ;
 private
 :
+explicit
 StickyScrollContainer
 (
 nsIScrollableFrame

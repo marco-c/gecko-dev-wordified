@@ -216,6 +216,7 @@ nsFrameContinuationState
 public
 nsVoidPtrHashKey
 {
+explicit
 nsFrameContinuationState
 (
 const

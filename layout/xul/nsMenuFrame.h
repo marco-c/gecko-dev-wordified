@@ -386,6 +386,7 @@ nsITimerCallback
 {
 public
 :
+explicit
 nsMenuTimerMediator
 (
 nsMenuFrame

@@ -206,6 +206,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGMarkerFrame
 (
 nsStyleContext
@@ -768,6 +769,7 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsSVGMarkerAnonChildFrame
 (
 nsStyleContext

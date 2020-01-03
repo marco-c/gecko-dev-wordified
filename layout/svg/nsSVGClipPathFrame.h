@@ -160,6 +160,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGClipPathFrame
 (
 nsStyleContext
@@ -665,6 +666,7 @@ AutoClipPathReferencer
 {
 public
 :
+explicit
 AutoClipPathReferencer
 (
 nsSVGClipPathFrame

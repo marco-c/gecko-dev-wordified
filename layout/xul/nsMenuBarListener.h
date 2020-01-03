@@ -172,6 +172,7 @@ default
 constructor
 *
 /
+explicit
 nsMenuBarListener
 (
 nsMenuBarFrame

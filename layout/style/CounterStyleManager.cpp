@@ -3292,6 +3292,7 @@ NS_STYLE_LIST_STYLE_NONE
 protected
 :
 MOZ_CONSTEXPR
+explicit
 BuiltinCounterStyle
 (
 int32_t

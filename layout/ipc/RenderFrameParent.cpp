@@ -618,6 +618,7 @@ GeckoContentController
 {
 public
 :
+explicit
 RemoteContentController
 (
 RenderFrameParent

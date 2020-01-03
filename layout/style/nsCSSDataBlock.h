@@ -273,6 +273,7 @@ compressed
 data
 blocks
 .
+explicit
 nsCSSCompressedDataBlock
 (
 uint32_t

@@ -286,6 +286,7 @@ AutoGradientReferencer
 {
 public
 :
+explicit
 AutoGradientReferencer
 (
 nsSVGGradientFrame

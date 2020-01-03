@@ -298,6 +298,7 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsRubyBaseContainerFrame
 (
 nsStyleContext

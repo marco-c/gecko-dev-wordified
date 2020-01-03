@@ -197,6 +197,7 @@ mNCAWidth
 }
 private
 :
+explicit
 nsFontInflationData
 (
 nsIFrame

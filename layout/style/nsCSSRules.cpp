@@ -830,6 +830,7 @@ CSSRuleList
 {
 public
 :
+explicit
 GroupRuleRuleList
 (
 GroupRule
@@ -10469,6 +10470,7 @@ NS_ERROR_NOT_IMPLEMENTED
 struct
 MakeFamilyArray
 {
+explicit
 MakeFamilyArray
 (
 nsTArray

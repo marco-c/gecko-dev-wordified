@@ -155,6 +155,7 @@ nsBoxLayoutState
 {
 public
 :
+explicit
 nsBoxLayoutState
 (
 nsPresContext
@@ -341,6 +342,7 @@ mRenderingContext
 struct
 AutoReflowDepth
 {
+explicit
 AutoReflowDepth
 (
 nsBoxLayoutState

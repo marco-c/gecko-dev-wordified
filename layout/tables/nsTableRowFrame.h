@@ -1346,6 +1346,7 @@ see
 NewFrame
 *
 /
+explicit
 nsTableRowFrame
 (
 nsStyleContext

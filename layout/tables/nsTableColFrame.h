@@ -1606,6 +1606,7 @@ InvalidateFrameSubtree
 }
 protected
 :
+explicit
 nsTableColFrame
 (
 nsStyleContext

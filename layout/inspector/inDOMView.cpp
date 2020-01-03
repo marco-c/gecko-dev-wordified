@@ -347,6 +347,7 @@ inDOMViewNode
 )
 {
 }
+explicit
 inDOMViewNode
 (
 nsIDOMNode

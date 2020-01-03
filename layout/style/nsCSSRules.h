@@ -1743,6 +1743,7 @@ nsDOMCSSDeclaration
 {
 public
 :
+explicit
 nsCSSKeyframeStyleDeclaration
 (
 nsCSSKeyframeRule
@@ -2370,6 +2371,7 @@ nsDOMCSSDeclaration
 {
 public
 :
+explicit
 nsCSSPageStyleDeclaration
 (
 nsCSSPageRule

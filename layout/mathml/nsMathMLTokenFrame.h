@@ -300,6 +300,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsMathMLTokenFrame
 (
 nsStyleContext

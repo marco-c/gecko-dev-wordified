@@ -206,6 +206,7 @@ typedef
 nsContainerFrame
 Super
 ;
+explicit
 ViewportFrame
 (
 nsStyleContext

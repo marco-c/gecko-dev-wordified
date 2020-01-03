@@ -124,6 +124,7 @@ nsFormControlFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsGfxCheckboxControlFrame
 (
 nsStyleContext

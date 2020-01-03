@@ -197,6 +197,7 @@ nsIStyleRuleProcessor
 {
 public
 :
+explicit
 nsHTMLStyleSheet
 (
 nsIDocument
@@ -728,6 +729,7 @@ LangRule
 }
 public
 :
+explicit
 LangRule
 (
 const

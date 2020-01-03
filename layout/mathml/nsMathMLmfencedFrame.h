@@ -474,6 +474,7 @@ true
 }
 protected
 :
+explicit
 nsMathMLmfencedFrame
 (
 nsStyleContext

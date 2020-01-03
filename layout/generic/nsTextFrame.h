@@ -216,6 +216,7 @@ friend
 class
 nsDisplayText
 ;
+explicit
 nsTextFrame
 (
 nsStyleContext
@@ -1990,6 +1991,7 @@ painted
 .
 *
 /
+explicit
 DrawPathCallbacks
 (
 bool

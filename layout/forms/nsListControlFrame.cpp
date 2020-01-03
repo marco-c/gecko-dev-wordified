@@ -653,6 +653,7 @@ nsIDOMEventListener
 {
 public
 :
+explicit
 nsListEventListener
 (
 nsListControlFrame

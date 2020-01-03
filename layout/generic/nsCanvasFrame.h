@@ -222,6 +222,7 @@ nsIAnonymousContentCreator
 {
 public
 :
+explicit
 nsCanvasFrame
 (
 nsStyleContext

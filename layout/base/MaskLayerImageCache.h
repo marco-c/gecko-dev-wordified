@@ -1178,6 +1178,7 @@ MaskLayerImageKey
 *
 KeyTypePointer
 ;
+explicit
 MaskLayerImageEntry
 (
 KeyTypePointer

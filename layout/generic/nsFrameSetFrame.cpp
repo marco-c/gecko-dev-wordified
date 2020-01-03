@@ -1226,6 +1226,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsHTMLFramesetBlankFrame
 (
 nsStyleContext

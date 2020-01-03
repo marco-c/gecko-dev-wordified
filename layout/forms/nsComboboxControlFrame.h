@@ -279,6 +279,7 @@ friend
 class
 nsComboboxDisplayFrame
 ;
+explicit
 nsComboboxControlFrame
 (
 nsStyleContext
@@ -1260,6 +1261,7 @@ nsRunnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 RedisplayTextEvent
 (
 nsComboboxControlFrame

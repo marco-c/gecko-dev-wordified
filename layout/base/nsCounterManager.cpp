@@ -2120,6 +2120,7 @@ nullptr
 struct
 DestroyNodesData
 {
+explicit
 DestroyNodesData
 (
 nsIFrame

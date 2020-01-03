@@ -471,6 +471,7 @@ nsRunnable
 {
 public
 :
+explicit
 AsyncFrameInit
 (
 nsIFrame

@@ -183,6 +183,7 @@ aContext
 ;
 protected
 :
+explicit
 SVGFELeafFrame
 (
 nsStyleContext

@@ -168,6 +168,7 @@ nsITableLayoutStrategy
 {
 public
 :
+explicit
 FixedTableLayoutStrategy
 (
 nsTableFrame

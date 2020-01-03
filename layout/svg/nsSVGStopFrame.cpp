@@ -202,6 +202,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGStopFrame
 (
 nsStyleContext

@@ -257,6 +257,7 @@ MOZ_OVERRIDE
 endif
 protected
 :
+explicit
 nsXULLabelFrame
 (
 nsStyleContext

@@ -227,6 +227,7 @@ dom
 Element
 Element
 ;
+explicit
 RestyleManager
 (
 nsPresContext

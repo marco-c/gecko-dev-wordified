@@ -7767,6 +7767,7 @@ subtree
 .
 *
 /
+explicit
 TextNodeIterator
 (
 nsIContent
@@ -8473,6 +8474,7 @@ property
 struct
 TextNodeCorrespondence
 {
+explicit
 TextNodeCorrespondence
 (
 uint32_t
@@ -8698,6 +8700,7 @@ aRoot
 ;
 private
 :
+explicit
 TextNodeCorrespondenceRecorder
 (
 SVGTextFrame
@@ -10069,6 +10072,7 @@ to
 .
 *
 /
+explicit
 TextFrameIterator
 (
 SVGTextFrame
@@ -11711,6 +11715,7 @@ to
 .
 *
 /
+explicit
 TextRenderedRunIterator
 (
 SVGTextFrame
@@ -16175,6 +16180,7 @@ nsCharClipDisplayItem
 {
 public
 :
+explicit
 SVGCharClipDisplayItem
 (
 const

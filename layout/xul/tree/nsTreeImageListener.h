@@ -154,6 +154,7 @@ imgINotificationObserver
 {
 public
 :
+explicit
 nsTreeImageListener
 (
 nsTreeBodyFrame
@@ -229,6 +230,7 @@ InvalidationArea
 {
 public
 :
+explicit
 InvalidationArea
 (
 nsITreeColumn

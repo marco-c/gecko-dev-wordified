@@ -157,6 +157,7 @@ EnumerateVariableReferencesData
 {
 public
 :
+explicit
 EnumerateVariableReferencesData
 (
 CSSVariableResolver

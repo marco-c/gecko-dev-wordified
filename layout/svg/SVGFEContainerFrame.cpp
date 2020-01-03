@@ -194,6 +194,7 @@ aContext
 ;
 protected
 :
+explicit
 SVGFEContainerFrame
 (
 nsStyleContext

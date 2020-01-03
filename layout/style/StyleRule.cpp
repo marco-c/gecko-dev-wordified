@@ -6116,6 +6116,7 @@ void
 ;
 public
 :
+explicit
 DOMCSSDeclarationImpl
 (
 css
@@ -6351,6 +6352,7 @@ nsICSSStyleRuleDOMWrapper
 {
 public
 :
+explicit
 DOMCSSStyleRule
 (
 StyleRule

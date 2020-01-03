@@ -448,6 +448,7 @@ nsARefreshObserver
 {
 public
 :
+explicit
 ScrollbarActivity
 (
 nsIScrollbarMediator

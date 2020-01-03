@@ -240,6 +240,7 @@ mozilla
 WidgetGUIEvent
 WidgetGUIEvent
 ;
+explicit
 nsNumberControlFrame
 (
 nsStyleContext
@@ -1074,6 +1075,7 @@ nsRunnable
 {
 public
 :
+explicit
 SyncDisabledStateEvent
 (
 nsNumberControlFrame

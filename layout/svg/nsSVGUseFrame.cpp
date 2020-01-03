@@ -177,6 +177,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGUseFrame
 (
 nsStyleContext

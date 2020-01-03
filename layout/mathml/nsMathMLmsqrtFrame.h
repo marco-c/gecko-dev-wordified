@@ -361,6 +361,7 @@ FirstChild
 }
 protected
 :
+explicit
 nsMathMLmsqrtFrame
 (
 nsStyleContext

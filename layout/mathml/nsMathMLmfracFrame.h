@@ -574,6 +574,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsMathMLmfracFrame
 (
 nsStyleContext

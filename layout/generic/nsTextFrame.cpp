@@ -623,6 +623,7 @@ units
 struct
 TabWidthStore
 {
+explicit
 TabWidthStore
 (
 int32_t
@@ -1853,6 +1854,7 @@ nsTextPaintStyle
 {
 public
 :
+explicit
 nsTextPaintStyle
 (
 nsTextFrame
@@ -26479,6 +26481,7 @@ frame
 only
 protected
 :
+explicit
 nsContinuingTextFrame
 (
 nsStyleContext

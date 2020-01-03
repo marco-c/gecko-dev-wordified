@@ -239,6 +239,7 @@ FirstChild
 }
 protected
 :
+explicit
 nsMathMLmpaddedFrame
 (
 nsStyleContext

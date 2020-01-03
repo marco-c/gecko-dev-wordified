@@ -387,6 +387,7 @@ nsIReflowCallback
 {
 public
 :
+explicit
 nsAsyncProgressMeterInit
 (
 nsIFrame

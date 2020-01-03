@@ -277,6 +277,7 @@ supplied
 by
 the
 compiler
+explicit
 nsTableCellFrame
 (
 nsStyleContext
@@ -1719,6 +1720,7 @@ nsTableCellFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsBCTableCellFrame
 (
 nsStyleContext

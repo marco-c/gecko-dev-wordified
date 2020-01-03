@@ -2541,6 +2541,7 @@ RuleHash
 {
 public
 :
+explicit
 RuleHash
 (
 bool
@@ -16291,6 +16292,7 @@ mStateMask
 struct
 AttributeEnumData
 {
+explicit
 AttributeEnumData
 (
 AttributeRuleProcessorData
@@ -20746,6 +20748,7 @@ first
 struct
 FillWeightArrayData
 {
+explicit
 FillWeightArrayData
 (
 PerWeightData

@@ -727,6 +727,7 @@ MOZ_OVERRIDE
 endif
 protected
 :
+explicit
 nsSimplePageSequenceFrame
 (
 nsStyleContext

@@ -294,6 +294,7 @@ nsFloatManager
 {
 public
 :
+explicit
 nsFloatManager
 (
 nsIPresShell
@@ -2307,6 +2308,7 @@ nsAutoFloatManager
 {
 public
 :
+explicit
 nsAutoFloatManager
 (
 nsHTMLReflowState

@@ -2302,6 +2302,7 @@ PerFrameData
 struct
 PerFrameData
 {
+explicit
 PerFrameData
 (
 mozilla

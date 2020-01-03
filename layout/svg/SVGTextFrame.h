@@ -601,6 +601,7 @@ nsRunnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 GlyphMetricsUpdater
 (
 SVGTextFrame
@@ -1414,6 +1415,7 @@ SVGTextContextPaint
 ;
 protected
 :
+explicit
 SVGTextFrame
 (
 nsStyleContext
@@ -2416,6 +2418,7 @@ nsStubMutationObserver
 {
 public
 :
+explicit
 MutationObserver
 (
 SVGTextFrame

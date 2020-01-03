@@ -244,6 +244,7 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsSVGPatternFrame
 (
 nsStyleContext

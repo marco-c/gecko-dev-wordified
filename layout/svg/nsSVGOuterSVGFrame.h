@@ -236,6 +236,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGOuterSVGFrame
 (
 nsStyleContext
@@ -1630,6 +1631,7 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsSVGOuterSVGAnonChildFrame
 (
 nsStyleContext

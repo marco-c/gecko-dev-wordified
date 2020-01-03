@@ -1136,6 +1136,7 @@ LayerUserData
 {
 public
 :
+explicit
 LayerManagerData
 (
 LayerManager

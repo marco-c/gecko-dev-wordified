@@ -1299,6 +1299,7 @@ FlexboxAxisTracker
 {
 public
 :
+explicit
 FlexboxAxisTracker
 (
 nsFlexContainerFrame
@@ -12813,6 +12814,7 @@ via
 a
 subclass
 .
+explicit
 PositionTracker
 (
 AxisOrientationType
@@ -13350,6 +13352,7 @@ PositionTracker
 {
 public
 :
+explicit
 SingleLineCrossAxisPositionTracker
 (
 const
@@ -26318,6 +26321,7 @@ AutoFlexLineListClearer
 {
 public
 :
+explicit
 AutoFlexLineListClearer
 (
 LinkedList

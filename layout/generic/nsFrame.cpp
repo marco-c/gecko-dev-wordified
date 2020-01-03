@@ -11952,6 +11952,7 @@ mSavedBlendModes
 ;
 public
 :
+explicit
 AutoSaveRestoreBlendMode
 (
 nsDisplayListBuilder
@@ -58722,6 +58723,7 @@ DR_State
 struct
 DR_RulePart
 {
+explicit
 DR_RulePart
 (
 nsIAtom

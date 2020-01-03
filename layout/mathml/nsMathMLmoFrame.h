@@ -351,6 +351,7 @@ aModType
 }
 protected
 :
+explicit
 nsMathMLmoFrame
 (
 nsStyleContext

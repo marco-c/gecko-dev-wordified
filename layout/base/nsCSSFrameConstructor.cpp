@@ -4549,6 +4549,7 @@ nsContainerFrame
 *
 containingBlock
 ;
+explicit
 nsAbsoluteItems
 (
 nsContainerFrame

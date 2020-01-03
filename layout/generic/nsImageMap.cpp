@@ -241,6 +241,7 @@ Area
 {
 public
 :
+explicit
 Area
 (
 nsIContent
@@ -1317,6 +1318,7 @@ Area
 {
 public
 :
+explicit
 DefaultArea
 (
 nsIContent
@@ -1656,6 +1658,7 @@ Area
 {
 public
 :
+explicit
 RectArea
 (
 nsIContent
@@ -2398,6 +2401,7 @@ Area
 {
 public
 :
+explicit
 PolyArea
 (
 nsIContent
@@ -3482,6 +3486,7 @@ Area
 {
 public
 :
+explicit
 CircleArea
 (
 nsIContent

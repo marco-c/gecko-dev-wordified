@@ -171,6 +171,7 @@ nsITableLayoutStrategy
 {
 public
 :
+explicit
 BasicTableLayoutStrategy
 (
 nsTableFrame

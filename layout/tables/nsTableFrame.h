@@ -3671,6 +3671,7 @@ see
 NewFrame
 *
 /
+explicit
 nsTableFrame
 (
 nsStyleContext
@@ -5843,6 +5844,7 @@ nsTableIterator
 {
 public
 :
+explicit
 nsTableIterator
 (
 nsIFrame
@@ -5850,6 +5852,7 @@ nsIFrame
 aSource
 )
 ;
+explicit
 nsTableIterator
 (
 nsFrameList

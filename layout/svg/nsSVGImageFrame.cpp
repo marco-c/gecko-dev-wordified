@@ -272,6 +272,7 @@ imgINotificationObserver
 {
 public
 :
+explicit
 nsSVGImageListener
 (
 nsSVGImageFrame
@@ -335,6 +336,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGImageFrame
 (
 nsStyleContext

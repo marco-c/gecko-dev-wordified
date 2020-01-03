@@ -149,6 +149,7 @@ nsINativeTreeSelection
 {
 public
 :
+explicit
 nsTreeSelection
 (
 nsITreeBoxObject

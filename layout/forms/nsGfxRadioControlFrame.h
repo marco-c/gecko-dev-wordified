@@ -126,6 +126,7 @@ nsFormControlFrame
 {
 public
 :
+explicit
 nsGfxRadioControlFrame
 (
 nsStyleContext

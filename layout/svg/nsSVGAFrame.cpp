@@ -179,6 +179,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGAFrame
 (
 nsStyleContext

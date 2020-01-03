@@ -9656,6 +9656,7 @@ testing
 struct
 FramesWithDepth
 {
+explicit
 FramesWithDepth
 (
 float

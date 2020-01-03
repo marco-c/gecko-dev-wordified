@@ -242,6 +242,7 @@ aContext
 ;
 protected
 :
+explicit
 SVGViewFrame
 (
 nsStyleContext

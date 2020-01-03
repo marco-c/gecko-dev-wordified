@@ -413,6 +413,7 @@ FirstChild
 }
 protected
 :
+explicit
 nsMathMLmencloseFrame
 (
 nsStyleContext

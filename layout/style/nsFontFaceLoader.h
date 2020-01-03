@@ -215,6 +215,7 @@ gfxUserFontSet
 {
 public
 :
+explicit
 nsUserFontSet
 (
 nsPresContext

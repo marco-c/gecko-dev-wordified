@@ -224,6 +224,7 @@ nsDisplaySVGPathGeometry
 ;
 protected
 :
+explicit
 nsSVGPathGeometryFrame
 (
 nsStyleContext

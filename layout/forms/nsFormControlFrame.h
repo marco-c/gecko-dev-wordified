@@ -192,6 +192,7 @@ parent
 frame
 *
 /
+explicit
 nsFormControlFrame
 (
 nsStyleContext

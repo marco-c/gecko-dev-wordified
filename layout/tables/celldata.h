@@ -895,6 +895,7 @@ mOrigCell
 .
 *
 /
+explicit
 CellData
 (
 nsTableCellFrame
@@ -1714,6 +1715,7 @@ CellData
 {
 public
 :
+explicit
 BCCellData
 (
 nsTableCellFrame

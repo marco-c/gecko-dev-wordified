@@ -1436,6 +1436,7 @@ ElementRestyler
 /
 for
 AddPendingRestyleToTable
+explicit
 RestyleTracker
 (
 Element

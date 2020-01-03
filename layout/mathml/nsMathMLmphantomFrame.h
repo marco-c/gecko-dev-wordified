@@ -226,6 +226,7 @@ FirstChild
 }
 protected
 :
+explicit
 nsMathMLmphantomFrame
 (
 nsStyleContext

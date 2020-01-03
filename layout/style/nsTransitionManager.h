@@ -671,6 +671,7 @@ CommonAnimationManager
 {
 public
 :
+explicit
 nsTransitionManager
 (
 nsPresContext
