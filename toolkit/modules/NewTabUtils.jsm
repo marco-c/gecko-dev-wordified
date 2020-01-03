@@ -253,9 +253,11 @@ Services
 .
 scriptSecurityManager
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 }

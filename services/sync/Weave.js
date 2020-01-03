@@ -1520,9 +1520,11 @@ principal
 =
 ssm
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 channel

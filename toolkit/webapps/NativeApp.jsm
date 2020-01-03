@@ -3061,9 +3061,11 @@ Services
 .
 scriptSecurityManager
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 aIconURI
+{
+}
 )
 ;
 let

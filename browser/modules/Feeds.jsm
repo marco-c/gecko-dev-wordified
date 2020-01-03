@@ -546,9 +546,11 @@ Services
 .
 scriptSecurityManager
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 principalURI
+{
+}
 )
 ;
 try
