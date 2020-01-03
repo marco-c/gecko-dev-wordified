@@ -418,17 +418,6 @@ aGlobalLastDir
 aCallback
 )
 {
-let
-context
-=
-aWin
-.
-gBrowser
-.
-selectedBrowser
-.
-contentWindow
-;
 /
 /
 Check
@@ -661,7 +650,7 @@ launcherDialog
 promptForSaveToFileAsync
 (
 launcher
-context
+aWin
 null
 null
 null
