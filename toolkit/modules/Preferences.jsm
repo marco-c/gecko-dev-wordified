@@ -171,6 +171,10 @@ platforms
 const
 MAX_INT
 =
+0x7FFFFFFF
+;
+/
+/
 Math
 .
 pow
@@ -180,7 +184,6 @@ pow
 )
 -
 1
-;
 const
 MIN_INT
 =
