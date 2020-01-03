@@ -322,6 +322,11 @@ aHyphens
 Length
 (
 )
+*
+sizeof
+(
+bool
+)
 )
 ;
 bool
