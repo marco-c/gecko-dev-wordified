@@ -716,6 +716,10 @@ f0ad4e
 .
 btn
 -
+cancel
+.
+btn
+-
 error
 .
 btn
@@ -746,6 +750,12 @@ solid
 d74345
 ;
 }
+.
+btn
+-
+cancel
+:
+hover
 .
 btn
 -
@@ -785,6 +795,12 @@ solid
 c53436
 ;
 }
+.
+btn
+-
+cancel
+:
+active
 .
 btn
 -
