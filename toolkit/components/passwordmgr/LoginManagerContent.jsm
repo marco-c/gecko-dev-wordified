@@ -4941,11 +4941,6 @@ at
 this
 point
 .
-var
-didFillForm
-=
-false
-;
 if
 (
 autofillForm
@@ -5123,10 +5118,6 @@ password
 )
 ;
 }
-didFillForm
-=
-true
-;
 }
 else
 if
@@ -5159,6 +5150,8 @@ AUTOFILL_RESULT
 NO_AUTOFILL_FORMS
 )
 ;
+return
+;
 }
 else
 if
@@ -5190,12 +5183,9 @@ AUTOFILL_RESULT
 AUTOCOMPLETE_OFF
 )
 ;
+return
+;
 }
-if
-(
-didFillForm
-)
-{
 recordAutofillResult
 (
 AUTOFILL_RESULT
@@ -5203,7 +5193,6 @@ AUTOFILL_RESULT
 FILLED
 )
 ;
-}
 }
 }
 ;
