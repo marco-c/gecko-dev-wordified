@@ -67,7 +67,7 @@ sys
 import
 os
 import
-sha
+hashlib
 import
 json
 import
@@ -85,7 +85,7 @@ filename
 )
 :
     
-sha1Hash
+sha512Hash
 =
 '
 UNKNOWN
@@ -130,9 +130,9 @@ rb
         
 shaObj
 =
-sha
+hashlib
 .
-new
+sha512
 (
 f
 .
@@ -141,7 +141,7 @@ read
 )
 )
         
-sha1Hash
+sha512Hash
 =
 shaObj
 .
@@ -167,7 +167,7 @@ pass
     
 return
 (
-sha1Hash
+sha512Hash
 size
 )
 def
