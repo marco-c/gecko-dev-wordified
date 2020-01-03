@@ -1581,6 +1581,10 @@ const
 MediaEnginePrefs
 &
 aPrefs
+const
+nsString
+&
+aDeviceId
 )
 {
 LOG
@@ -1642,6 +1646,7 @@ ChooseCapability
 (
 aConstraints
 aPrefs
+aDeviceId
 )
 )
 {
