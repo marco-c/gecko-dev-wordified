@@ -701,9 +701,6 @@ rgba
 )
 ;
 }
-%
-ifdef
-WINDOWS_AERO
 media
 (
 -
@@ -842,8 +839,6 @@ inset
 ;
 }
 }
-%
-endif
 .
 popup
 -
@@ -1026,9 +1021,6 @@ offset
 3px
 ;
 }
-%
-ifdef
-WINDOWS_AERO
 media
 (
 -
@@ -1154,8 +1146,6 @@ radius
 ;
 }
 }
-%
-endif
 .
 popup
 -
@@ -1331,9 +1321,6 @@ rgba
 inset
 ;
 }
-%
-ifdef
-WINDOWS_AERO
 media
 (
 -
@@ -1625,8 +1612,6 @@ rgba
 ;
 }
 }
-%
-endif
 /
 *
 }
