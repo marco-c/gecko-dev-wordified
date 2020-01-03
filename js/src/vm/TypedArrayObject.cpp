@@ -4697,7 +4697,7 @@ to
 *
 reinterpret_cast
 <
-JSPropertyOp
+JSGetterOp
 >
 so
 this
@@ -12618,7 +12618,7 @@ id
 UndefinedHandleValue
 JS_DATA_TO_FUNC_PTR
 (
-PropertyOp
+GetterOp
 getter
 )
 nullptr

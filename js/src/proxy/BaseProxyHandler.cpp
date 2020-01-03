@@ -470,7 +470,7 @@ setUndefined
 )
 ;
 return
-CallJSPropertyOp
+CallJSGetterOp
 (
 cx
 desc
@@ -827,7 +827,7 @@ case
 setter
 ops
 .
-StrictPropertyOp
+SetterOp
 setter
 =
 ownDesc

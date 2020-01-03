@@ -3501,7 +3501,7 @@ setGetter
 (
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSGetterOp
 getter
 .
 get
@@ -3612,7 +3612,7 @@ setSetter
 (
 JS_DATA_TO_FUNC_PTR
 (
-JSStrictPropertyOp
+JSSetterOp
 setter
 .
 get

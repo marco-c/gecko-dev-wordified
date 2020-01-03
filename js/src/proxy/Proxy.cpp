@@ -4071,9 +4071,9 @@ HandleId
 id
 HandleValue
 value
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 unsigned
 attrs

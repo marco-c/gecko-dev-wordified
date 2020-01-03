@@ -15335,10 +15335,10 @@ GenericObject
 /
 )
 {
-PropertyOp
+GetterOp
 gop
 ;
-StrictPropertyOp
+SetterOp
 sop
 ;
 if

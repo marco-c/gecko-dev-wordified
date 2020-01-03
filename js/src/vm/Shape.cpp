@@ -3086,9 +3086,9 @@ HandleNativeObject
 obj
 HandleId
 id
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 uint32_t
 slot
@@ -3331,9 +3331,9 @@ HandleNativeObject
 obj
 HandleId
 id
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 uint32_t
 slot
@@ -4468,9 +4468,9 @@ HandleNativeObject
 obj
 HandleId
 id
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 uint32_t
 slot
@@ -5908,9 +5908,9 @@ unsigned
 attrs
 unsigned
 mask
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 )
 {

@@ -3482,12 +3482,12 @@ JSPROP_SHARED
 |
 JSPROP_SHADOWABLE
 ;
-PropertyOp
+GetterOp
 getter
 =
 StrictArgGetter
 ;
-StrictPropertyOp
+SetterOp
 setter
 =
 StrictArgSetter
@@ -3619,7 +3619,7 @@ JSPROP_SHARED
 ;
 getter
 =
-CastAsPropertyOp
+CastAsGetterOp
 (
 argsobj
 -
@@ -3635,7 +3635,7 @@ getThrowTypeError
 ;
 setter
 =
-CastAsStrictPropertyOp
+CastAsSetterOp
 (
 argsobj
 -

@@ -2235,7 +2235,7 @@ this
 *
 *
 *
-JSPropertyOp
+JSGetterOp
 nativeGetter
 ;
 *
@@ -2271,7 +2271,7 @@ nativeGetter
 =
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSGetterOp
 scriptedGetter
 )
 ;

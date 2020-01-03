@@ -6368,7 +6368,7 @@ flags
 =
 XPCONNECT_GLOBAL_FLAGS
 ;
-JSPropertyOp
+JSAddPropertyOp
 addProperty
 ;
 if
@@ -6488,7 +6488,7 @@ getProperty
 =
 nullptr
 ;
-JSStrictPropertyOp
+JSSetterOp
 setProperty
 ;
 if

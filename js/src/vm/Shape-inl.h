@@ -386,7 +386,7 @@ propid
 )
 ;
 return
-CallJSPropertyOpSetter
+CallJSSetterOp
 (
 cx
 setterOp
@@ -1094,10 +1094,10 @@ ExclusiveContext
 cx
 uint8_t
 attrs
-PropertyOp
+GetterOp
 *
 pgetter_
-StrictPropertyOp
+SetterOp
 *
 psetter_
 )
@@ -1157,10 +1157,10 @@ ExclusiveContext
 cx
 uint8_t
 attrs
-PropertyOp
+GetterOp
 *
 pgetter
-StrictPropertyOp
+SetterOp
 *
 psetter
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
@@ -1228,7 +1228,7 @@ cx
 attrs
 reinterpret_cast
 <
-PropertyOp
+GetterOp
 *
 >
 (
@@ -1236,7 +1236,7 @@ pgetter
 )
 reinterpret_cast
 <
-StrictPropertyOp
+SetterOp
 *
 >
 (

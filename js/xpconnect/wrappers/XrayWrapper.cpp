@@ -3686,7 +3686,7 @@ getter
 native
 .
 op
-JSPropertyOp
+JSGetterOp
 )
 )
 ;
@@ -3704,7 +3704,7 @@ setter
 native
 .
 op
-JSStrictPropertyOp
+JSSetterOp
 )
 )
 ;

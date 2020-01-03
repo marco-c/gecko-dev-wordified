@@ -377,7 +377,7 @@ typedef
 bool
 (
 *
-JSPropertyOp
+JSGetterOp
 )
 (
 JSContext
@@ -399,6 +399,10 @@ JS
 MutableHandleValue
 vp
 )
+;
+typedef
+JSGetterOp
+JSAddPropertyOp
 ;
 /
 /
@@ -475,7 +479,7 @@ typedef
 bool
 (
 *
-JSStrictPropertyOp
+JSSetterOp
 )
 (
 JSContext
@@ -1518,9 +1522,9 @@ JS
 :
 HandleValue
 value
-JSPropertyOp
+JSGetterOp
 getter
-JSStrictPropertyOp
+JSSetterOp
 setter
 unsigned
 attrs
@@ -2057,7 +2061,7 @@ null
 *
 /
 \
-JSPropertyOp
+JSAddPropertyOp
 addProperty
 ;
 \
@@ -2065,11 +2069,11 @@ JSDeletePropertyOp
 delProperty
 ;
 \
-JSPropertyOp
+JSGetterOp
 getProperty
 ;
 \
-JSStrictPropertyOp
+JSSetterOp
 setProperty
 ;
 \
