@@ -7041,7 +7041,7 @@ value
 capabilities
 =
 desired_capabilities
-session_id
+sessionId
 =
 session_id
 )
