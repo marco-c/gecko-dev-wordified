@@ -4576,6 +4576,7 @@ owner
 addRequestHeaders
 (
 headers
+aExtraStringData
 )
 ;
 httpActivity
@@ -5406,7 +5407,7 @@ channel
 visitResponseHeaders
 (
 )
-methood
+method
 at
 this
 point
@@ -5614,6 +5615,7 @@ owner
 addResponseStart
 (
 response
+aExtraStringData
 )
 ;
 }
