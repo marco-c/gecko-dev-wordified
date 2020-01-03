@@ -8975,6 +8975,18 @@ mLoadResult
 false
 )
 ;
+/
+/
+Top
+level
+scripts
+only
+!
+if
+(
+mIsWorkerScript
+)
+{
 aWorkerPrivate
 -
 >
@@ -8982,6 +8994,7 @@ MaybeDispatchLoadFailedRunnable
 (
 )
 ;
+}
 return
 true
 ;
