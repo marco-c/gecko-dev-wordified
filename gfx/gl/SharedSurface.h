@@ -1275,6 +1275,7 @@ mSurfToLock
 ;
 public
 :
+explicit
 ScopedReadbackFB
 (
 SharedSurface

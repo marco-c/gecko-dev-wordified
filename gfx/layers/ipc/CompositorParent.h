@@ -626,6 +626,7 @@ CompositorParent
 ;
 public
 :
+explicit
 CompositorVsyncObserver
 (
 CompositorParent

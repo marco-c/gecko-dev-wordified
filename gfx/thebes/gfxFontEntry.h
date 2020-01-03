@@ -374,6 +374,7 @@ false
 )
 {
 }
+explicit
 gfxCharacterMap
 (
 const

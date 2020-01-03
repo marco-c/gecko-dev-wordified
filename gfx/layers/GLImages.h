@@ -175,6 +175,7 @@ Image
 {
 public
 :
+explicit
 GLImage
 (
 ImageFormat

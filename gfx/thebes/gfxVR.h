@@ -1096,6 +1096,7 @@ mScreen
 }
 protected
 :
+explicit
 VRHMDInfo
 (
 VRHMDType
