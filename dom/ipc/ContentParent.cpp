@@ -5775,6 +5775,13 @@ chromeFlags
 tp
 -
 >
+SetInitedByParent
+(
+)
+;
+tp
+-
+>
 SetOwnerElement
 (
 aFrameElement
@@ -6412,6 +6419,13 @@ parent
 tabId
 aContext
 chromeFlags
+)
+;
+tp
+-
+>
+SetInitedByParent
+(
 )
 ;
 tp
