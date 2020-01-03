@@ -474,7 +474,7 @@ ls
 mEventMessage
 !
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 |
 |
 \
@@ -3261,7 +3261,7 @@ aEvent
 mMessage
 =
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 and
 /
 /
@@ -3271,7 +3271,7 @@ aListener
 mEventMessage
 !
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 as
 long
 as
@@ -3302,7 +3302,7 @@ aEvent
 mMessage
 =
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 )
 {
 if

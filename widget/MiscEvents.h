@@ -800,7 +800,7 @@ aWidget
 WidgetGUIEvent
 (
 aIsTrusted
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 aWidget
 eCommandEventClass
 )

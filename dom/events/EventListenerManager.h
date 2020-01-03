@@ -1583,7 +1583,7 @@ mMessage
 mNoListenerForEvent
 !
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 |
 |
 mNoListenerForEventAtom

@@ -1487,7 +1487,7 @@ mEvent
 mMessage
 =
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 &
 &
 mEvent
@@ -2906,7 +2906,7 @@ mEvent
 >
 mMessage
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 ;
 mEvent
 -

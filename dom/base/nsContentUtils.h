@@ -6797,7 +6797,7 @@ on
 prefix
 .
 Returns
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 if
 the
 *
@@ -6944,7 +6944,7 @@ prefix
 .
 *
 Returns
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 on
 the
 aEventID
