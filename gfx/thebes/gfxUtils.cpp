@@ -2461,6 +2461,9 @@ GraphicsFilter
 :
 :
 FILTER_FAST
+1
+.
+0
 gfxMatrix
 (
 )
@@ -3576,6 +3579,8 @@ GraphicsFilter
 aFilter
 uint32_t
 aImageFlags
+gfxFloat
+aOpacity
 )
 {
 PROFILER_LABEL
@@ -3939,6 +3944,7 @@ Rect
 )
 doTile
 aFilter
+aOpacity
 )
 ;
 }
