@@ -192,10 +192,6 @@ nsIUnicharInputStream
 >
 mIn
 ;
-nsIPersistentProperties
-*
-mSubclass
-;
 PLDHashTable
 mTable
 ;
