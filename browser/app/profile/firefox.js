@@ -8820,16 +8820,6 @@ true
 pref
 (
 "
-plugins
-.
-testmode
-"
-false
-)
-;
-pref
-(
-"
 plugin
 .
 default
