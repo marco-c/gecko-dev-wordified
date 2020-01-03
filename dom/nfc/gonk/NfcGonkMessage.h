@@ -72,7 +72,7 @@ NFCD_MAJOR_VERSION
 #
 define
 NFCD_MINOR_VERSION
-16
+17
 enum
 NfcRequest
 {
@@ -84,6 +84,7 @@ CloseReq
 ReadNDEFReq
 WriteNDEFReq
 MakeReadOnlyReq
+FormatReq
 }
 ;
 enum
