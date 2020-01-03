@@ -315,7 +315,6 @@ carry_buf_len
 /
 unsigned
 int
-linelen
 pos
 ;
 const
@@ -383,10 +382,6 @@ state
 -
 >
 carry_buf_len
-=
-0
-;
-linelen
 =
 0
 ;
@@ -461,6 +456,8 @@ p
 +
 +
 ;
+unsigned
+int
 linelen
 =
 p
