@@ -892,7 +892,7 @@ EnsureSize
 (
 )
 ;
-void
+bool
 VerifyBufferSize
 (
 )
