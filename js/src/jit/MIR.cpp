@@ -32336,6 +32336,13 @@ group
 )
 bailOnEquality
 Bailout_ObjectIdentityOrTypeGuard
+/
+*
+checkUnboxedExpando
+=
+*
+/
+false
 )
 ;
 }

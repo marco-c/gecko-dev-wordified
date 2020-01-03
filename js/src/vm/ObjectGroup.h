@@ -2447,6 +2447,13 @@ elements
 in
 the
 object
+and
+expando
+properties
+in
+unboxed
+*
+objects
 .
 *
 *

@@ -51176,6 +51176,9 @@ bailOnEquality_
 BailoutKind
 bailoutKind_
 ;
+bool
+checkUnboxedExpando_
+;
 MGuardObjectGroup
 (
 MDefinition
@@ -51188,6 +51191,8 @@ bool
 bailOnEquality
 BailoutKind
 bailoutKind
+bool
+checkUnboxedExpando
 )
 :
 MUnaryInstruction
@@ -51205,6 +51210,10 @@ bailOnEquality
 bailoutKind_
 (
 bailoutKind
+)
+checkUnboxedExpando_
+(
+checkUnboxedExpando
 )
 {
 setGuard
@@ -51288,6 +51297,8 @@ bool
 bailOnEquality
 BailoutKind
 bailoutKind
+bool
+checkUnboxedExpando
 )
 {
 return
@@ -51301,6 +51312,7 @@ obj
 group
 bailOnEquality
 bailoutKind
+checkUnboxedExpando
 )
 ;
 }
@@ -51348,6 +51360,16 @@ const
 {
 return
 bailoutKind_
+;
+}
+bool
+checkUnboxedExpando
+(
+)
+const
+{
+return
+checkUnboxedExpando_
 ;
 }
 bool
