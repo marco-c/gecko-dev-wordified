@@ -5572,6 +5572,15 @@ characterencoding
 -
 button
 "
+label
+:
+"
+characterencoding
+-
+button2
+.
+label
+"
 type
 :
 "
@@ -5589,9 +5598,9 @@ tooltiptext
 "
 characterencoding
 -
-button
+button2
 .
-tooltiptext2
+tooltiptext
 "
 defaultArea
 :
