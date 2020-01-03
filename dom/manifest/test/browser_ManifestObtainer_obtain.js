@@ -8,11 +8,9 @@ JSHint
 *
 global
 Cu
-ManifestObtainer
 BrowserTestUtils
 add_task
 SpecialPowers
-todo_is
 gBrowser
 Assert
 *
@@ -22,6 +20,11 @@ use
 strict
 '
 ;
+const
+{
+ManifestObtainer
+}
+=
 Cu
 .
 import
@@ -35,11 +38,12 @@ gre
 /
 modules
 /
-ManifestObtainer
+WebManifest
 .
 jsm
 '
-this
+{
+}
 )
 ;
 requestLongerTimeout
@@ -1720,7 +1724,7 @@ of
 randBrowsers
 (
 browsers
-1000
+100
 )
 )
 obtainer
