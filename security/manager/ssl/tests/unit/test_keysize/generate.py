@@ -267,13 +267,15 @@ def
 generate_and_maybe_import_cert
 (
 key_type
+cert_name_prefix
 cert_name_suffix
+                                   
 base_ext_text
-                                   
 signer_key_filename
-signer_cert_filename
                                    
+signer_cert_filename
 dsa_param_filename
+                                   
 key_size
 generate_ev
 )
@@ -332,6 +334,16 @@ ecparam
 -
 list_curves
 '
+      
+cert_name_prefix
+-
+-
+prefix
+of
+the
+generated
+cert
+name
       
 cert_name_suffix
 -
@@ -485,6 +497,19 @@ generated
 Output
 :
       
+cert_name
+-
+-
+the
+resultant
+(
+nick
+)
+name
+of
+the
+certificate
+      
 key_filename
 -
 -
@@ -518,7 +543,46 @@ format
     
 cert_name
 =
+cert_name_prefix
++
+'
+_
+'
++
 key_type
++
+'
+_
+'
++
+key_size
+    
+#
+If
+the
+suffix
+is
+not
+the
+empty
+string
+add
+a
+hyphen
+for
+visual
+separation
+    
+if
+cert_name_suffix
+:
+        
+cert_name
++
+=
+'
+-
+'
 +
 cert_name_suffix
     
@@ -560,8 +624,7 @@ generate_ev
 cert_name
 =
 '
-ev
--
+ev_
 '
 +
 cert_name
@@ -733,6 +796,7 @@ cert_filename
     
 return
 [
+cert_name
 key_filename
 cert_filename
 ]
@@ -903,7 +967,7 @@ RSA
 EV
 root
         
-caOK_cert_name
+rootOK_nick
 =
 '
 evroot
@@ -956,7 +1020,7 @@ srcdir
 caOK_cert
 caOK_pkcs12_filename
                                          
-caOK_cert_name
+rootOK_nick
 '
 '
 )
@@ -965,6 +1029,7 @@ else
 :
         
 [
+rootOK_nick
 caOK_key
 caOK_cert
 ]
@@ -975,8 +1040,10 @@ generate_and_maybe_import_cert
 key_type
             
 '
--
-caOK
+root
+'
+            
+'
 '
             
 ca_ext_text
@@ -995,6 +1062,7 @@ generate_ev
 )
     
 [
+intOK_nick
 intOK_key
 intOK_cert
 ]
@@ -1005,11 +1073,10 @@ generate_and_maybe_import_cert
 key_type
         
 '
--
-intOK
--
-caOK
+int
 '
+        
+rootOK_nick
         
 ca_ext_text
         
@@ -1030,13 +1097,10 @@ generate_and_maybe_import_cert
 key_type
         
 '
--
-eeOK
--
-intOK
--
-caOK
+ee
 '
+        
+intOK_nick
         
 ee_ext_text
         
@@ -1065,6 +1129,7 @@ inadequate
 size
     
 [
+rootNotOK_nick
 rootNotOK_key
 rootNotOK_cert
 ]
@@ -1075,8 +1140,10 @@ generate_and_maybe_import_cert
 key_type
         
 '
--
-caBad
+root
+'
+        
+'
 '
         
 ca_ext_text
@@ -1095,6 +1162,7 @@ generate_ev
 )
     
 [
+int_nick
 int_key
 int_cert
 ]
@@ -1105,11 +1173,10 @@ generate_and_maybe_import_cert
 key_type
         
 '
--
-intOK
--
-caBad
+int
 '
+        
+rootNotOK_nick
         
 ca_ext_text
         
@@ -1130,13 +1197,10 @@ generate_and_maybe_import_cert
 key_type
         
 '
--
-eeOK
--
-intOK
--
-caBad
+ee
 '
+        
+int_nick
         
 ee_ext_text
         
@@ -1165,6 +1229,7 @@ inadequate
 size
     
 [
+intNotOK_nick
 intNotOK_key
 intNotOK_cert
 ]
@@ -1175,11 +1240,10 @@ generate_and_maybe_import_cert
 key_type
         
 '
--
-intBad
--
-caOK
+int
 '
+        
+rootOK_nick
         
 ca_ext_text
         
@@ -1200,13 +1264,10 @@ generate_and_maybe_import_cert
 key_type
         
 '
--
-eeOK
--
-intBad
--
-caOK
+ee
 '
+        
+intNotOK_nick
         
 ee_ext_text
         
@@ -1241,13 +1302,10 @@ generate_and_maybe_import_cert
 key_type
         
 '
--
-eeBad
--
-intOK
--
-caOK
+ee
 '
+        
+intOK_nick
         
 ee_ext_text
         
