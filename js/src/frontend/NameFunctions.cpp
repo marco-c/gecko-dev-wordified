@@ -2918,9 +2918,6 @@ PNK_MUTATEPROTO
 case
 PNK_EXPORT
 :
-case
-PNK_EXPORT_DEFAULT
-:
 MOZ_ASSERT
 (
 cur
@@ -3542,6 +3539,9 @@ PNK_IMPORT
 case
 PNK_EXPORT_FROM
 :
+case
+PNK_EXPORT_DEFAULT
+:
 MOZ_ASSERT
 (
 cur
@@ -3606,8 +3606,16 @@ prefix
 return
 false
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+cur
+-
+>
+isKind
+(
+PNK_EXPORT_DEFAULT
+)
 cur
 -
 >
