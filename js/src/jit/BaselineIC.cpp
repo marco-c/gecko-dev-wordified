@@ -69548,12 +69548,7 @@ masm
 .
 enterFakeExitFrame
 (
-NativeExitFrameLayout
-:
-:
-Token
-(
-)
+NativeExitFrameLayoutToken
 )
 ;
 /
@@ -70212,12 +70207,7 @@ masm
 .
 enterFakeExitFrame
 (
-NativeExitFrameLayout
-:
-:
-Token
-(
-)
+NativeExitFrameLayoutToken
 )
 ;
 /
