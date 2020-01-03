@@ -1738,15 +1738,7 @@ ActivateBundledFonts
 ;
 #
 endif
-typedef
-nsRefPtrHashtable
-<
-nsStringHashKey
-gfxFontFamily
->
-FontTable
-;
-FontTable
+FontFamilyTable
 mFontSubstitutes
 ;
 nsTArray
