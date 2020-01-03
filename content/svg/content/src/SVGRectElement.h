@@ -230,6 +230,16 @@ nsSVGPathGeometryElement
 methods
 :
 virtual
+void
+GetAsSimplePath
+(
+SimplePath
+*
+aSimplePath
+)
+MOZ_OVERRIDE
+;
+virtual
 TemporaryRef
 <
 Path
