@@ -425,6 +425,11 @@ EnableSomeEcdheCiphers
 )
 ;
 void
+DisableDheCiphers
+(
+)
+;
+void
 ConfigureSessionCache
 (
 SessionResumptionMode
