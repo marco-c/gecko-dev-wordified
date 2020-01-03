@@ -1518,6 +1518,7 @@ innerObject
 iteratorObject
 \
 isWrappedNative
+objectMoved
 )
 \
 {
@@ -1535,10 +1536,7 @@ js
 :
 proxy_WeakmapKeyDelegate
 \
-js
-:
-:
-proxy_ObjectMoved
+objectMoved
 \
 }
 #
@@ -1823,6 +1821,11 @@ false
 isWrappedNative
 *
 /
+\
+js
+:
+:
+proxy_ObjectMoved
 \
 )
 )
