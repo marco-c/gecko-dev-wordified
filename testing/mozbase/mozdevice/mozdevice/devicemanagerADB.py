@@ -2179,6 +2179,9 @@ remoteDir
 retryLimit
 =
 retryLimit
+timeout
+=
+timeout
 )
         
 else
@@ -2240,9 +2243,13 @@ push
 tmpDirTarget
 remoteDir
 ]
+                           
 retryLimit
 =
 retryLimit
+timeout
+=
+timeout
 )
             
 mozfile
