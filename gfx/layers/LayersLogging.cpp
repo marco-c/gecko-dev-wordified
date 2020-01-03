@@ -1266,7 +1266,7 @@ z
 %
 .
 3f
-ts
+er
 =
 %
 .
@@ -1281,8 +1281,6 @@ scale
 m
 .
 mPresShellResolution
-.
-scale
 m
 .
 mCumulativeResolution
@@ -1297,7 +1295,9 @@ GetZoom
 scale
 m
 .
-mTransformScale
+GetExtraResolution
+(
+)
 .
 scale
 )
