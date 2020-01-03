@@ -1267,14 +1267,15 @@ fm
 ;
 fm
 .
-mDisplayPort
-=
+SetDisplayPort
+(
 CSSRect
 (
 0
 0
 10
 10
+)
 )
 ;
 fm
@@ -5252,8 +5253,8 @@ ParentLayerRect
 ;
 metrics
 .
-mDisplayPort
-=
+SetDisplayPort
+(
 CSSRect
 (
 -
@@ -5262,6 +5263,7 @@ CSSRect
 1
 6
 6
+)
 )
 ;
 metrics

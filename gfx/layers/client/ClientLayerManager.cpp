@@ -4213,7 +4213,9 @@ mCriticalDisplayPort
 :
 aMetrics
 .
-mDisplayPort
+GetDisplayPort
+(
+)
 ;
 LayerRect
 displayPort

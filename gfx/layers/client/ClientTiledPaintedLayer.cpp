@@ -648,7 +648,9 @@ if
 !
 metrics
 .
-mDisplayPort
+GetDisplayPort
+(
+)
 .
 IsEmpty
 (
@@ -1389,7 +1391,9 @@ isFixed
 |
 parentMetrics
 .
-mDisplayPort
+GetDisplayPort
+(
+)
 .
 IsEmpty
 (

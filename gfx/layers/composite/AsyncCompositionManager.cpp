@@ -4371,7 +4371,9 @@ IsEmpty
 ?
 metrics
 .
-mDisplayPort
+GetDisplayPort
+(
+)
 :
 metrics
 .
@@ -6478,7 +6480,9 @@ IsEmpty
 ?
 metrics
 .
-mDisplayPort
+GetDisplayPort
+(
+)
 :
 metrics
 .
