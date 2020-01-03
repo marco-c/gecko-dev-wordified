@@ -780,7 +780,7 @@ enable
 #
 option
 -
-show
+enable
 -
 jit
 -

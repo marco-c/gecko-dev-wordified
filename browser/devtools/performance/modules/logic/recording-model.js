@@ -249,6 +249,14 @@ withAllocations
 |
 |
 false
+withJITOptimizations
+:
+options
+.
+withJITOptimizations
+|
+|
+false
 allocationsSampleProbability
 :
 options
@@ -1259,6 +1267,11 @@ withTicks
 withMemory
 and
 withAllocations
+and
+other
+*
+recording
+options
 .
 *
 return
