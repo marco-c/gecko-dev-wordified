@@ -8567,7 +8567,11 @@ LCallInstructionHelper
 BOX_PIECES
 2
 +
+(
+2
+*
 BOX_PIECES
+)
 0
 >
 {
@@ -8608,6 +8612,15 @@ size_t
 ThisValue
 =
 2
+;
+static
+const
+size_t
+NewTarget
+=
+2
++
+BOX_PIECES
 ;
 MCallDirectEval
 *
