@@ -1311,6 +1311,11 @@ nsIURI
 aBaseURI
 =
 nullptr
+nsILoadGroup
+*
+aLoadGroup
+=
+nullptr
 )
 {
 MOZ_ASSERT
@@ -1350,6 +1355,10 @@ aGlobalObject
 mBaseURI
 =
 aBaseURI
+;
+mLoadGroup
+=
+aLoadGroup
 ;
 }
 void
@@ -3715,6 +3724,12 @@ nsCOMPtr
 nsIURI
 >
 mBaseURI
+;
+nsCOMPtr
+<
+nsILoadGroup
+>
+mLoadGroup
 ;
 uint32_t
 mState
