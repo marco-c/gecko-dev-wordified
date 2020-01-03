@@ -458,6 +458,11 @@ Unreachable
 \
 _
 (
+EncodeSnapshot
+)
+\
+_
+(
 GetDynamicName
 )
 \

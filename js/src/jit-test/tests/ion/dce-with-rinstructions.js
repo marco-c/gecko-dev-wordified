@@ -1323,6 +1323,11 @@ x
 /
 )
 ;
+assertRecoveredOnBailout
+(
+x
+)
+;
 return
 i
 ;
