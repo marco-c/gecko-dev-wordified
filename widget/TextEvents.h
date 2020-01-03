@@ -3511,6 +3511,12 @@ NS_QUERY_SELECTED_TEXT
 message
 =
 =
+NS_QUERY_CARET_RECT
+|
+|
+message
+=
+=
 NS_QUERY_TEXT_RECT
 "
 not
