@@ -1461,7 +1461,7 @@ eBasicEventClass
 EVENT
 (
 submit
-NS_FORM_SUBMIT
+eFormSubmit
 EventNameType_HTMLXUL
 eBasicEventClass
 )

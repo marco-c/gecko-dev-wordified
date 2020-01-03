@@ -15064,7 +15064,7 @@ InternalFormEvent
 event
 (
 true
-NS_FORM_SUBMIT
+eFormSubmit
 )
 ;
 nsEventStatus
@@ -22987,7 +22987,7 @@ NS_FORM_INPUT_RESET
 ?
 NS_FORM_RESET
 :
-NS_FORM_SUBMIT
+eFormSubmit
 )
 ;
 event
@@ -23084,7 +23084,7 @@ event
 mMessage
 !
 =
-NS_FORM_SUBMIT
+eFormSubmit
 |
 |
 mForm

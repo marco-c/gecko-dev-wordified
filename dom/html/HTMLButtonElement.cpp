@@ -2094,7 +2094,7 @@ NS_FORM_BUTTON_RESET
 ?
 NS_FORM_RESET
 :
-NS_FORM_SUBMIT
+eFormSubmit
 )
 ;
 event
@@ -2197,7 +2197,7 @@ event
 mMessage
 !
 =
-NS_FORM_SUBMIT
+eFormSubmit
 |
 |
 mForm
