@@ -6833,8 +6833,6 @@ HandleFunction
 callee
 HandleValue
 thisv
-HandleValue
-newTarget
 HandleObject
 scopeChain
 )
@@ -8019,8 +8017,6 @@ HandleFunction
 callee
 HandleValue
 thisv
-HandleValue
-newTarget
 HandleObject
 scopeChain
 )
