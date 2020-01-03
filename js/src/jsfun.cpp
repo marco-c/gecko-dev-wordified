@@ -620,6 +620,9 @@ static
 bool
 AdvanceToActiveCallLinear
 (
+JSContext
+*
+cx
 NonBuiltinScriptFrameIter
 &
 iter
@@ -698,12 +701,11 @@ if
 (
 iter
 .
-callee
+matchCallee
 (
-)
-=
-=
+cx
 fun
+)
 )
 return
 true
@@ -1109,6 +1111,7 @@ if
 !
 AdvanceToActiveCallLinear
 (
+cx
 iter
 fun
 )
@@ -1767,6 +1770,7 @@ if
 !
 AdvanceToActiveCallLinear
 (
+cx
 iter
 fun
 )
@@ -1904,6 +1908,7 @@ iter
 .
 callee
 (
+cx
 )
 ;
 MOZ_ASSERT
@@ -2361,6 +2366,7 @@ if
 !
 AdvanceToActiveCallLinear
 (
+cx
 iter
 fun
 )
@@ -2474,6 +2480,7 @@ iter
 .
 callee
 (
+cx
 )
 ;
 MOZ_ASSERT

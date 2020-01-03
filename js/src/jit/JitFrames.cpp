@@ -15743,6 +15743,9 @@ computeScopeChain
 (
 Value
 scopeChainValue
+MaybeReadFallback
+&
+fallback
 bool
 *
 hasCallObj
@@ -15772,6 +15775,7 @@ isFunctionFrame
 &
 callee
 (
+fallback
 )
 -
 >
@@ -15832,6 +15836,7 @@ isFunctionFrame
 return
 callee
 (
+fallback
 )
 -
 >
