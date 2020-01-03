@@ -174,6 +174,9 @@ HttpChannelParent
 class
 FTPChannelParent
 ;
+class
+WebSocketChannelParent
+;
 }
 /
 *
@@ -299,6 +302,13 @@ net
 :
 :
 FTPChannelParent
+;
+friend
+class
+net
+:
+:
+WebSocketChannelParent
 ;
 ~
 LoadInfo
