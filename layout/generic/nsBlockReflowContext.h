@@ -206,7 +206,10 @@ void
 ReflowBlock
 (
 const
-nsRect
+mozilla
+:
+:
+LogicalRect
 &
 aSpace
 bool

@@ -1529,7 +1529,7 @@ nsBlockReflowContext
 ReflowBlock
 (
 const
-nsRect
+LogicalRect
 &
 aSpace
 bool
@@ -1579,12 +1579,7 @@ mContainerWidth
 ;
 mSpace
 =
-LogicalRect
-(
-mWritingMode
 aSpace
-mContainerWidth
-)
 ;
 if
 (
