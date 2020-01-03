@@ -1373,6 +1373,14 @@ ReleaseMediaResources
 {
 }
 ;
+virtual
+bool
+OnReaderTaskQueue
+(
+)
+=
+0
+;
 }
 ;
 /
