@@ -22901,7 +22901,7 @@ offset
 However
 dispatching
 2
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 may
 be
 expensive
@@ -24224,7 +24224,7 @@ TS_E_NOLAYOUT
 /
 /
 use
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 to
 get
 rect
@@ -24236,7 +24236,7 @@ WidgetQueryContentEvent
 event
 (
 true
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 mWidget
 )
 ;
@@ -24296,7 +24296,7 @@ due
 to
 "
 "
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 failure
 "
 this

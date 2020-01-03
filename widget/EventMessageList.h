@@ -1568,7 +1568,7 @@ widget
 coordinates
 NS_EVENT_MESSAGE
 (
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 eQueryContentEventFirst
 +
 4

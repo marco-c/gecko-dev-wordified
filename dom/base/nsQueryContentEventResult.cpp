@@ -318,7 +318,7 @@ eQueryCaretRect
 aEventMessage
 =
 =
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 |
 |
 aEventMessage

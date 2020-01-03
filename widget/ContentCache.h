@@ -1516,7 +1516,7 @@ length
 *
 *
 For
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 fail
 if
 cached

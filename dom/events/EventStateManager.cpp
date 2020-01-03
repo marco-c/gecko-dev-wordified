@@ -4807,7 +4807,7 @@ case
 eQueryCaretRect
 :
 case
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 :
 case
 eQueryEditorRect

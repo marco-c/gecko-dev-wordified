@@ -10731,7 +10731,7 @@ useCaret
 ?
 eQueryCaretRect
 :
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 mLastFocusedWindow
 )
 ;
@@ -10883,7 +10883,7 @@ eQueryCaretRect
 "
 :
 "
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 "
 )
 )

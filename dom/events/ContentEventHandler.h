@@ -307,7 +307,7 @@ aEvent
 ;
 /
 /
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 event
 handler
 nsresult
