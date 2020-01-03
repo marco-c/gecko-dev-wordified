@@ -748,9 +748,8 @@ rt
 >
 gc
 .
-startDebugGC
+gcDebugSlice
 (
-GC_NORMAL
 budget
 )
 ;
@@ -820,7 +819,7 @@ rt
 >
 gc
 .
-debugGCSlice
+gcDebugSlice
 (
 budget
 )
