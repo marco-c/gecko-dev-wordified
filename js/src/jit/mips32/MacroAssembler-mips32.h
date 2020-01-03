@@ -8167,13 +8167,6 @@ dest
 )
 ;
 void
-not32
-(
-Register
-reg
-)
-;
-void
 move32
 (
 Imm32

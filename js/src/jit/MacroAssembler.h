@@ -4840,6 +4840,15 @@ Logical
 instructions
 inline
 void
+not32
+(
+Register
+reg
+)
+PER_SHARED_ARCH
+;
+inline
+void
 and32
 (
 Register
