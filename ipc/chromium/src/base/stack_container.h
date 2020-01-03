@@ -760,6 +760,7 @@ U
 size_t
 other_capacity
 >
+explicit
 StackAllocator
 (
 const
