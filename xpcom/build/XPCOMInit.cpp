@@ -2421,6 +2421,10 @@ mozPoisonValueInit
 (
 )
 ;
+NS_LogInit
+(
+)
+;
 char
 aLocal
 ;
@@ -2602,10 +2606,6 @@ gUserUmask
 ;
 #
 endif
-NS_LogInit
-(
-)
-;
 /
 /
 Set
