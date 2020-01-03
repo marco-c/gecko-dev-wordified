@@ -580,9 +580,6 @@ budget
 js
 :
 :
-SliceBudget
-:
-:
 WorkBudget
 (
 1000000
@@ -718,9 +715,6 @@ js
 SliceBudget
 (
 js
-:
-:
-SliceBudget
 :
 :
 WorkBudget
