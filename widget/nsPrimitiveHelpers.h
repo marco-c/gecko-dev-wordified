@@ -491,7 +491,9 @@ that
 it
 can
 use
-nsMemory
+'
+free
+'
 to
 dispose
 of
