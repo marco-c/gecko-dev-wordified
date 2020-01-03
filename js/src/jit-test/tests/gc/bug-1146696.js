@@ -87,6 +87,8 @@ gcBytes
 8000
 )
 ;
+try
+{
 function
 g
 (
@@ -133,3 +135,10 @@ g
 100
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
