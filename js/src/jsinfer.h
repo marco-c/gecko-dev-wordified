@@ -10004,6 +10004,10 @@ const
 uint32_t
 INVALID_SWEEP_INDEX
 =
+static_cast
+<
+uint32_t
+>
 (
 1
 <
@@ -10011,7 +10015,7 @@ INVALID_SWEEP_INDEX
 31
 )
 -
-1u
+1
 ;
 CompilerOutput
 (
