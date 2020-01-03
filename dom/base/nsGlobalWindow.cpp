@@ -62377,14 +62377,6 @@ mNavigator
 NavigatorBinding
 :
 :
-ClearCachedLanguageValue
-(
-mNavigator
-)
-;
-NavigatorBinding
-:
-:
 ClearCachedLanguagesValue
 (
 mNavigator
