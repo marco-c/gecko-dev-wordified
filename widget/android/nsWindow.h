@@ -1190,6 +1190,11 @@ RemoveIMEComposition
 )
 ;
 void
+SendIMEDummyKeyEvents
+(
+)
+;
+void
 AddIMETextChange
 (
 const
