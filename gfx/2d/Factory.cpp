@@ -2929,6 +2929,11 @@ GetDirect3D10Device
 #
 ifdef
 DEBUG
+if
+(
+mD3D10Device
+)
+{
 UINT
 mode
 =
@@ -2947,6 +2952,7 @@ MOZ_ASSERT
 mode
 )
 ;
+}
 #
 endif
 return
