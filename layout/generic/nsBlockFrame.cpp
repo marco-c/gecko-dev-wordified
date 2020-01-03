@@ -25715,9 +25715,9 @@ allowPullUp
 =
 true
 ;
-nsIContent
+nsIFrame
 *
-forceBreakInContent
+forceBreakInFrame
 =
 nullptr
 ;
@@ -25896,14 +25896,14 @@ mLineNumber
 ;
 if
 (
-forceBreakInContent
+forceBreakInFrame
 )
 {
 lineLayout
 .
 ForceBreakAtPosition
 (
-forceBreakInContent
+forceBreakInFrame
 forceBreakOffset
 )
 ;
@@ -25961,7 +25961,7 @@ NeedsBackup
 NS_ASSERTION
 (
 !
-forceBreakInContent
+forceBreakInFrame
 "
 Backing
 up
@@ -25991,7 +25991,7 @@ set
 /
 /
 set
-forceBreakInContent
+forceBreakInFrame
 to
 null
 and
@@ -26007,7 +26007,7 @@ is
 /
 correct
 .
-forceBreakInContent
+forceBreakInFrame
 =
 lineLayout
 .
@@ -26022,7 +26022,7 @@ forceBreakPriority
 }
 else
 {
-forceBreakInContent
+forceBreakInFrame
 =
 nullptr
 ;
@@ -26637,11 +26637,6 @@ aLineLayout
 NotifyOptionalBreakPosition
 (
 frame
--
->
-GetContent
-(
-)
 0
 true
 gfxBreakPriority
@@ -27179,9 +27174,9 @@ offset
 gfxBreakPriority
 breakPriority
 ;
-nsIContent
+nsIFrame
 *
-breakContent
+breakFrame
 =
 aLineLayout
 .
@@ -27237,7 +27232,7 @@ line
 .
 if
 (
-breakContent
+breakFrame
 )
 {
 /
