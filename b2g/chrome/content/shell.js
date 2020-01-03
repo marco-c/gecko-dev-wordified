@@ -733,9 +733,6 @@ libcutils
 ;
 #
 endif
-#
-ifdef
-MOZ_CAPTIVEDETECT
 XPCOMUtils
 .
 defineLazyServiceGetter
@@ -762,8 +759,6 @@ nsICaptivePortalDetector
 '
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_SAFE_BROWSING
