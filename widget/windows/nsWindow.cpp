@@ -37527,7 +37527,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_COPY
+eContentCommandCopy
 this
 )
 ;

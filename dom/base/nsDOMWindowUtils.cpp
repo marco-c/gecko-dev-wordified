@@ -10172,7 +10172,7 @@ copy
 )
 msg
 =
-NS_CONTENT_COMMAND_COPY
+eContentCommandCopy
 ;
 else
 if

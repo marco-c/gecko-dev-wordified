@@ -8117,7 +8117,7 @@ APPCOMMAND_COPY
 :
 contentCommandMessage
 =
-NS_CONTENT_COMMAND_COPY
+eContentCommandCopy
 ;
 break
 ;
