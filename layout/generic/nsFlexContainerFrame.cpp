@@ -28652,9 +28652,6 @@ size
 ?
 if
 (
-finalFlexedPhysicalSize
-=
-=
 item
 -
 >
@@ -28663,13 +28660,12 @@ Frame
 )
 -
 >
-GetContentRectRelativeToSelf
+GetSize
 (
 )
-.
-Size
-(
-)
+=
+=
+finalFlexedPhysicalSize
 )
 {
 /
