@@ -243,6 +243,10 @@ virtual
 bool
 RecvOnStart
 (
+const
+nsString
+&
+aUri
 )
 override
 ;
