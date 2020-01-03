@@ -1464,6 +1464,7 @@ nsDOMIterator
 {
 public
 :
+explicit
 nsDOMIterator
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
@@ -1534,6 +1535,7 @@ nsDOMIterator
 {
 public
 :
+explicit
 nsDOMSubtreeIterator
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
