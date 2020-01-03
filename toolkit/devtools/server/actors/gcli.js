@@ -1827,15 +1827,6 @@ window
 document
 ;
 }
-get
-__deprecatedTabActor
-(
-)
-{
-return
-tabActor
-;
-}
 }
 ;
 return
