@@ -395,10 +395,6 @@ get
 (
 )
 ;
-/
-/
-additional
-addref
 break
 ;
 default
@@ -499,11 +495,6 @@ mISupports
 =
 nullptr
 ;
-/
-/
-clear
-the
-nsCOMPtr
 break
 ;
 case
