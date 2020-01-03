@@ -146,6 +146,15 @@ macro
 \
 macro
 (
+add
+add
+"
+add
+"
+)
+\
+macro
+(
 anonymous
 anonymous
 "
