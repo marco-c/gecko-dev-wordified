@@ -37,7 +37,7 @@ num
 }
 gcslice
 (
-0
+1
 )
 schedulegc
 (
@@ -46,7 +46,7 @@ this
 ;
 gcslice
 (
-1
+2
 )
 ;
 var
