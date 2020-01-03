@@ -316,7 +316,7 @@ WebGLContext
 context
 )
 :
-WebGLBindableName
+WebGLBindable
 <
 RBTarget
 >

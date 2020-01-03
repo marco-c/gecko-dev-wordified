@@ -196,6 +196,8 @@ WebGLFramebuffer
 WebGLContext
 *
 context
+GLuint
+fbo
 )
 ;
 struct
