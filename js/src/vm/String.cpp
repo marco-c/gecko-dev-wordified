@@ -3361,9 +3361,6 @@ ExclusiveContext
 maybecx
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 if
 (
 zone
@@ -3384,8 +3381,6 @@ WithIncrementalBarrier
 maybecx
 )
 ;
-#
-endif
 return
 flattenInternal
 <

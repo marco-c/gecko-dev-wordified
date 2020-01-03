@@ -3563,9 +3563,6 @@ JSString
 thing
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 if
 (
 thing
@@ -3585,8 +3582,6 @@ readBarrier
 thing
 )
 ;
-#
-endif
 }
 static
 MOZ_ALWAYS_INLINE
@@ -3598,9 +3593,6 @@ JSString
 thing
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 if
 (
 isNullLike
@@ -3626,8 +3618,6 @@ writeBarrierPre
 thing
 )
 ;
-#
-endif
 }
 private
 :

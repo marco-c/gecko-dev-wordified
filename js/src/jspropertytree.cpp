@@ -1019,9 +1019,6 @@ insert
 *
 /
 }
-#
-ifdef
-JSGC_INCREMENTAL
 if
 (
 existingShape
@@ -1217,8 +1214,6 @@ JSTRACE_SHAPE
 ;
 }
 }
-#
-endif
 if
 (
 existingShape
@@ -1405,18 +1400,6 @@ return
 nullptr
 ;
 }
-#
-if
-defined
-(
-JSGC_INCREMENTAL
-)
-&
-&
-defined
-(
-DEBUG
-)
 if
 (
 shape
@@ -1485,8 +1468,6 @@ allocatedDuringIncremental
 )
 ;
 }
-#
-endif
 return
 shape
 ;

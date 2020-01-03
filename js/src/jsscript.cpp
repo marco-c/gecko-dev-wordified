@@ -14021,9 +14021,6 @@ false
 ;
 }
 }
-#
-ifdef
-JSGC_INCREMENTAL
 /
 *
 *
@@ -14135,8 +14132,6 @@ marked
 true
 ;
 }
-#
-endif
 script
 -
 >

@@ -16575,9 +16575,6 @@ hasSingletonType
 )
 )
 ;
-#
-ifdef
-JSGC_INCREMENTAL
 /
 *
 *
@@ -16702,8 +16699,6 @@ b
 )
 ;
 }
-#
-endif
 NotifyGCPostSwap
 (
 a

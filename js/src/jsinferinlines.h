@@ -8667,9 +8667,6 @@ TypeNewScript
 newScript
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 if
 (
 !
@@ -8733,8 +8730,6 @@ barrierTracer
 )
 )
 ;
-#
-endif
 }
 }
 }
