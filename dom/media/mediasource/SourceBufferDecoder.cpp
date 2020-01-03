@@ -801,10 +801,6 @@ SourceBufferDecoder
 :
 NotifyDataArrived
 (
-const
-char
-*
-aBuffer
 uint32_t
 aLength
 int64_t
@@ -814,9 +810,8 @@ aOffset
 mReader
 -
 >
-NotifyDataArrived
+DispatchNotifyDataArrived
 (
-aBuffer
 aLength
 aOffset
 )
@@ -876,7 +871,6 @@ mParentDecoder
 >
 NotifyDataArrived
 (
-nullptr
 0
 0
 )

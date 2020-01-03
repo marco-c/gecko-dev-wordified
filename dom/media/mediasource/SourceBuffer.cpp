@@ -1855,7 +1855,6 @@ GetDecoder
 >
 NotifyDataArrived
 (
-nullptr
 1
 mReportedOffset
 +
@@ -2936,7 +2935,6 @@ GetDecoder
 >
 NotifyDataArrived
 (
-nullptr
 1
 mReportedOffset
 +
