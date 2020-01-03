@@ -928,6 +928,10 @@ WebGLExtensionDepthTexture
 ;
 friend
 class
+WebGLExtensionDisjointTimerQuery
+;
+friend
+class
 WebGLExtensionDrawBuffers
 ;
 friend
@@ -10162,6 +10166,10 @@ WebGLShader
 friend
 class
 WebGLSync
+;
+friend
+class
+WebGLTimerQuery
 ;
 friend
 class
