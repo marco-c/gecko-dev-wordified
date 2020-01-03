@@ -4550,6 +4550,11 @@ GetProp_DOMProxyShadowed
 \
 _
 (
+GetProp_Generic
+)
+\
+_
+(
 SetProp_CallScripted
 )
 \
