@@ -297,6 +297,7 @@ gfxFontFaceBufferSource
 {
 public
 :
+explicit
 FontFaceBufferSource
 (
 FontFace
@@ -578,6 +579,7 @@ nsIRunnable
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 FontFaceInitializer
 (
 FontFace

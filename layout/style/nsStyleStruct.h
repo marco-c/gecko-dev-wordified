@@ -16945,6 +16945,7 @@ eEllipse
 ePolygon
 }
 ;
+explicit
 nsStyleBasicShape
 (
 Type
