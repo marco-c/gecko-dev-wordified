@@ -313,8 +313,6 @@ HandleScript
 callerScript
 HandleValue
 thisValue
-HandleValue
-newTargetValue
 HandleString
 str
 jsbytecode

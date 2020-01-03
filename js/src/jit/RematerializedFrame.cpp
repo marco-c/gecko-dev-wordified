@@ -259,14 +259,6 @@ isDebuggee
 (
 )
 )
-isConstructing_
-(
-iter
-.
-isConstructing
-(
-)
-)
 top_
 (
 top
@@ -409,12 +401,6 @@ iter
 numActualArgs
 (
 )
-)
-+
-iter
-.
-isConstructing
-(
 )
 ;
 size_t
@@ -1050,8 +1036,6 @@ TraceRootRange
 (
 trc
 numActualArgs_
-+
-isConstructing_
 +
 script_
 -
