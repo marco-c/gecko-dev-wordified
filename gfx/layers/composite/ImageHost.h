@@ -575,10 +575,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
-RefPtr
-<
-TextureHost
->
+CompositableTextureHostRef
 mFrontBuffer
 ;
 CompositableTextureSourceRef
