@@ -543,8 +543,7 @@ virtual
 nsBaseChannel
 (
 )
-{
-}
+;
 private
 :
 /
