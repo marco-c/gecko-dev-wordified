@@ -4846,7 +4846,7 @@ null
 "
 weave
 :
-service
+ui
 :
 login
 :
