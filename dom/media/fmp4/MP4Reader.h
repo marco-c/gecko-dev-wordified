@@ -696,6 +696,9 @@ IsWaitingOnCDMResource
 )
 override
 ;
+mp4_demuxer
+:
+:
 Microseconds
 GetNextKeyframeTime
 (

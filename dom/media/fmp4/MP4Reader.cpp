@@ -2891,6 +2891,9 @@ we
 have
 it
 .
+mp4_demuxer
+:
+:
 Microseconds
 duration
 ;
@@ -3553,6 +3556,9 @@ return
 mVideo
 ;
 }
+mp4_demuxer
+:
+:
 Microseconds
 MP4Reader
 :
@@ -3770,6 +3776,9 @@ of
 ever
 playing
 .
+mp4_demuxer
+:
+:
 Microseconds
 nextKeyframe
 =
@@ -6500,6 +6509,9 @@ nsTArray
 <
 Interval
 <
+mp4_demuxer
+:
+:
 Microseconds
 >
 >
