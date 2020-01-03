@@ -1086,7 +1086,11 @@ toArray
 new
 String
 [
-0
+guids
+.
+size
+(
+)
 ]
 )
 ;
@@ -3009,7 +3013,11 @@ toArray
 new
 ContentValues
 [
-0
+recordsBuffer
+.
+size
+(
+)
 ]
 )
 ;
