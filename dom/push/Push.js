@@ -577,7 +577,7 @@ resolver
 .
 resolve
 (
-false
+true
 )
 ;
 break
@@ -593,9 +593,9 @@ KO
 :
 resolver
 .
-reject
+resolve
 (
-true
+false
 )
 ;
 break
