@@ -172,8 +172,8 @@ if
 (
 !
 accWrap
-|
-|
+&
+&
 !
 GetProxy
 (
