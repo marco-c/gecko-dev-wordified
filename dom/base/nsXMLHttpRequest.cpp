@@ -10978,6 +10978,19 @@ jarFile
 )
 )
 ;
+if
+(
+!
+jarFile
+)
+{
+mIsMappedArrayBuffer
+=
+false
+;
+}
+else
+{
 rv
 =
 mArrayBufferBuilder
@@ -11023,6 +11036,7 @@ mapped
 )
 )
 ;
+}
 }
 }
 }
