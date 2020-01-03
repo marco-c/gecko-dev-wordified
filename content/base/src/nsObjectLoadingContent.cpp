@@ -524,7 +524,7 @@ h
 #
 include
 "
-nsObjectFrame
+nsPluginFrame
 .
 h
 "

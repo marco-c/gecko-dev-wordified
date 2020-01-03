@@ -126,7 +126,7 @@ plugin
 #
 include
 "
-nsObjectFrame
+nsPluginFrame
 .
 h
 "
