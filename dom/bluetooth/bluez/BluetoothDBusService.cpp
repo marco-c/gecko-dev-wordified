@@ -21123,7 +21123,7 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
+Blob
 *
 aBlob
 BluetoothReplyRunnable

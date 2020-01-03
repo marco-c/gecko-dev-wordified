@@ -1017,7 +1017,7 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
+Blob
 *
 aBlobChild
 BluetoothReplyRunnable
