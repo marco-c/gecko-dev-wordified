@@ -1621,8 +1621,10 @@ attach
 nobrowse
 -
 noautoopen
+"
 %
 s
+"
 '
 %
 src
