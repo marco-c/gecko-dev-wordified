@@ -3621,14 +3621,6 @@ create
 a
 stream
 .
-This
-does
-/
-/
-NS_OpenURI
-(
-)
-!
 if
 (
 streamListener
