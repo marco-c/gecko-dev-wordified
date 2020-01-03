@@ -1653,7 +1653,7 @@ result
 {
 this
 .
-openInInternalViewer
+_openInInternalViewer
 (
 data
 .
