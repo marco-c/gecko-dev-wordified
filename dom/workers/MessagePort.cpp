@@ -220,6 +220,15 @@ WorkerRunnable
 {
 nsRefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
+workers
+:
+:
 MessagePort
 >
 mMessagePort
@@ -242,6 +251,15 @@ WorkerPrivate
 aWorkerPrivate
 TargetAndBusyBehavior
 aBehavior
+mozilla
+:
+:
+dom
+:
+:
+workers
+:
+:
 MessagePort
 *
 aMessagePort
@@ -394,6 +412,7 @@ aWorkerPrivate
 /
 anonymous
 namespace
+BEGIN_WORKERS_NAMESPACE
 MessagePort
 :
 :
@@ -1281,6 +1300,7 @@ aVisitor
 )
 ;
 }
+END_WORKERS_NAMESPACE
 bool
 DelayedEventRunnable
 :

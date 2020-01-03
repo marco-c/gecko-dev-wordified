@@ -261,6 +261,15 @@ aRv
 ;
 already_AddRefed
 <
+mozilla
+:
+:
+dom
+:
+:
+workers
+:
+:
 MessagePort
 >
 Port

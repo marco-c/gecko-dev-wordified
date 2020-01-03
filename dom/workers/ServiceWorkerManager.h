@@ -929,10 +929,6 @@ friend
 class
 GetRegistrationRunnable
 ;
-friend
-class
-UnregisterRunnable
-;
 public
 :
 NS_DECL_ISUPPORTS
