@@ -745,6 +745,17 @@ const
 ;
 }
 ;
+JS_FRIEND_API
+(
+bool
+)
+IsProfilingEnabledForRuntime
+(
+JSRuntime
+*
+runtime
+)
+;
 /
 *
 *
