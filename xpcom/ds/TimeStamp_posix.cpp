@@ -361,6 +361,15 @@ include
 "
 mozilla
 /
+Snprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -1597,7 +1606,7 @@ threadStat
 40
 ]
 ;
-sprintf
+snprintf_literal
 (
 threadStat
 "

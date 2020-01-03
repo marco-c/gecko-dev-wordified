@@ -96,6 +96,15 @@ MPL
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nsILocaleService
 .
 h
@@ -615,7 +624,7 @@ string
 32
 ]
 ;
-sprintf
+snprintf_literal
 (
 string
 "

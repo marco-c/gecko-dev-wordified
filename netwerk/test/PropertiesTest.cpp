@@ -103,6 +103,15 @@ h
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h
@@ -598,7 +607,7 @@ name
 =
 0
 ;
-sprintf
+snprintf_literal
 (
 name
 "
