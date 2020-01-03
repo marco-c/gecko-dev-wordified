@@ -2070,13 +2070,6 @@ ReleaseMediaResources
 {
 }
 virtual
-void
-ReleaseDecoder
-(
-)
-{
-}
-virtual
 bool
 IsHardwareAccelerated
 (

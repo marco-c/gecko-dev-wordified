@@ -557,13 +557,6 @@ ReleaseMediaResources
 MOZ_OVERRIDE
 ;
 virtual
-void
-ReleaseDecoder
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 bool
 IsHardwareAccelerated
 (
