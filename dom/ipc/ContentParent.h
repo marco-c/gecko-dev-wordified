@@ -2307,9 +2307,6 @@ nsString
 >
 *
 dictionaries
-ClipboardCapabilities
-*
-clipboardCaps
 )
 MOZ_OVERRIDE
 ;
