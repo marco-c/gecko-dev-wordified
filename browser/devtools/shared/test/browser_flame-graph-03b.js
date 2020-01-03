@@ -470,6 +470,10 @@ HORIZONTAL_AXIS
 ;
 is
 (
+Math
+.
+round
+(
 graph
 .
 getViewRange
@@ -477,7 +481,8 @@ getViewRange
 )
 .
 startTime
-140
+)
+150
 "
 The
 selection
@@ -496,6 +501,10 @@ HiDPI
 ;
 is
 (
+Math
+.
+round
+(
 graph
 .
 getViewRange
@@ -503,6 +512,7 @@ getViewRange
 )
 .
 endTime
+)
 150
 "
 The
