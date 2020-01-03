@@ -4624,7 +4624,9 @@ resolution
 =
 bottom
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 ;
 oldTransform
 .
@@ -6575,7 +6577,9 @@ GetDevPixelsPerCSSPixel
 *
 metrics
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 *
 LayerToParentLayerScale
 (

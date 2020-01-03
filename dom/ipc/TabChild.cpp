@@ -1488,8 +1488,8 @@ amount
 .
 mLastRootMetrics
 .
-mCumulativeResolution
-=
+SetCumulativeResolution
+(
 mLastRootMetrics
 .
 GetZoom
@@ -1505,6 +1505,7 @@ GetDevPixelsPerCSSPixel
 ParentLayerToLayerScale
 (
 1
+)
 )
 ;
 /
@@ -1533,7 +1534,9 @@ mPresShellResolution
 =
 mLastRootMetrics
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 .
 scale
 ;
@@ -2918,8 +2921,8 @@ AppUnitsPerDevPixel
 }
 metrics
 .
-mCumulativeResolution
-=
+SetCumulativeResolution
+(
 metrics
 .
 GetZoom
@@ -2935,6 +2938,7 @@ GetDevPixelsPerCSSPixel
 ParentLayerToLayerScale
 (
 1
+)
 )
 ;
 /
@@ -2963,7 +2967,9 @@ mPresShellResolution
 =
 metrics
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 .
 scale
 ;

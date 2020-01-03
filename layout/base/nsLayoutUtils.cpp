@@ -17578,9 +17578,10 @@ resolution
 ;
 metrics
 .
-mCumulativeResolution
-=
+SetCumulativeResolution
+(
 cumulativeResolution
+)
 ;
 metrics
 .
