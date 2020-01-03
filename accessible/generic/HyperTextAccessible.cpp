@@ -6531,6 +6531,16 @@ LandmarkRole
 )
 const
 {
+if
+(
+!
+HasOwnContent
+(
+)
+)
+return
+nullptr
+;
 /
 /
 For
