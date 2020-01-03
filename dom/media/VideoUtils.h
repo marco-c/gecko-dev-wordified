@@ -1697,6 +1697,17 @@ uint32_t
 aLength
 )
 ;
+class
+MediaTaskQueue
+;
+already_AddRefed
+<
+MediaTaskQueue
+>
+CreateMediaDecodeTaskQueue
+(
+)
+;
 }
 /
 /
