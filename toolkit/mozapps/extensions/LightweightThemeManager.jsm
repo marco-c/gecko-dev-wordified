@@ -1856,7 +1856,7 @@ id
 else
 _prefs
 .
-clearUserPref
+deleteBranch
 (
 "
 selectedThemeID
