@@ -249,7 +249,6 @@ clipboardHelper
 copyString
 (
 stringToCopy
-document
 )
 ;
 }

@@ -4620,7 +4620,6 @@ copyString
 selected
 .
 url
-document
 )
 ;
 }
@@ -4714,7 +4713,6 @@ clipboardHelper
 copyString
 (
 string
-document
 )
 ;
 }
@@ -5274,7 +5272,6 @@ clipboardHelper
 copyString
 (
 string
-document
 )
 ;
 }
@@ -5456,7 +5453,6 @@ generateCommand
 (
 data
 )
-document
 )
 ;
 }
@@ -5544,7 +5540,6 @@ clipboardHelper
 copyString
 (
 rawHeaders
-document
 )
 ;
 }
@@ -5629,7 +5624,6 @@ clipboardHelper
 copyString
 (
 rawHeaders
-document
 )
 ;
 }
@@ -5712,7 +5706,6 @@ clipboardHelper
 copyString
 (
 data
-document
 )
 ;
 }
@@ -5776,7 +5769,6 @@ clipboardHelper
 copyString
 (
 aString
-document
 )
 ;
 }

@@ -9101,7 +9101,6 @@ join
 n
 "
 )
-document
 )
 ;
 }

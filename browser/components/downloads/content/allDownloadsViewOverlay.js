@@ -8542,7 +8542,6 @@ join
 n
 "
 )
-document
 )
 ;
 }

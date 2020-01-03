@@ -2502,7 +2502,6 @@ join
 n
 "
 )
-document
 )
 ;
 }
@@ -2555,7 +2554,6 @@ clipboard
 copyString
 (
 uri
-document
 )
 ;
 }

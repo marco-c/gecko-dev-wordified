@@ -3271,7 +3271,6 @@ this
 contextMenuData
 .
 href
-document
 )
 ;
 }

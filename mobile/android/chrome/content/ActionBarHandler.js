@@ -2062,9 +2062,6 @@ clipboard
 copyString
 (
 selectedText
-win
-.
-document
 )
 ;
 let
@@ -2291,9 +2288,6 @@ clipboard
 copyString
 (
 selectedText
-win
-.
-document
 )
 ;
 let

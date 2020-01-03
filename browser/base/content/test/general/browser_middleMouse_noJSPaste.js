@@ -144,7 +144,6 @@ nsIClipboardHelper
 copyString
 (
 url
-document
 )
 ;
 }

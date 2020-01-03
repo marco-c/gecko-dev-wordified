@@ -18085,9 +18085,6 @@ join
 n
 "
 )
-this
-.
-document
 )
 ;
 }

@@ -300,7 +300,6 @@ cbHelper
 copyString
 (
 kTestString
-document
 )
 ;
 }

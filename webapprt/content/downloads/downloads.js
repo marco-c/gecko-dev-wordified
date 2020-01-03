@@ -3816,7 +3816,6 @@ copyString
 this
 .
 uri
-document
 )
 ;
 break

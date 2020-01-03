@@ -7283,11 +7283,6 @@ clipboard
 copyString
 (
 selectedText
-this
-.
-_contentWindow
-.
-document
 )
 ;
 NativeWindow
