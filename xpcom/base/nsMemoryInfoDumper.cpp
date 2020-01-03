@@ -4544,8 +4544,10 @@ to
 the
 file
 .
-JSONWriter
-jsonWriter
+dmd
+:
+:
+AnalyzeReports
 (
 MakeUnique
 <
@@ -4554,14 +4556,6 @@ GZWriterWrapper
 (
 gzWriter
 )
-)
-;
-dmd
-:
-:
-AnalyzeReports
-(
-jsonWriter
 )
 ;
 rv
