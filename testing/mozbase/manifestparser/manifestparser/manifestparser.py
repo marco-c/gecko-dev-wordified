@@ -8440,6 +8440,8 @@ get
 '
 subsuite
 '
+'
+'
 )
             
 if
@@ -8550,6 +8552,14 @@ options
 :
             
 if
+hasattr
+(
+options
+'
+subsuite
+'
+)
+and
 options
 .
 subsuite
