@@ -291,11 +291,9 @@ GetCurrent
 )
 &
 &
-currentThread
--
->
 RequiresTailDispatch
 (
+currentThread
 )
 )
 {
