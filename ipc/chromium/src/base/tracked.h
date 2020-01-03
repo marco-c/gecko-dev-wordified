@@ -990,6 +990,12 @@ Location
 from_here
 )
 ;
+Location
+GetBirthPlace
+(
+)
+const
+;
 /
 /
 When
