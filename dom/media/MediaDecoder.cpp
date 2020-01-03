@@ -7985,10 +7985,6 @@ GetReentrantMonitor
 {
 return
 mReentrantMonitor
-.
-GetReentrantMonitor
-(
-)
 ;
 }
 ImageContainer
