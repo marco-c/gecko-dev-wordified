@@ -627,9 +627,11 @@ Services
 .
 scriptSecurityManager
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 /
@@ -684,9 +686,11 @@ Services
 .
 scriptSecurityManager
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 /

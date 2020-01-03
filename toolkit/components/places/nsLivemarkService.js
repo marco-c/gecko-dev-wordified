@@ -4208,11 +4208,13 @@ Services
 .
 scriptSecurityManager
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 this
 .
 feedURI
+{
+}
 )
 contentPolicyType
 :

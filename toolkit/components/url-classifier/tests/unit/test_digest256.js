@@ -1052,9 +1052,11 @@ principal
 =
 gSecMan
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 gDbService
@@ -1149,9 +1151,11 @@ principal
 =
 gSecMan
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 gDbService

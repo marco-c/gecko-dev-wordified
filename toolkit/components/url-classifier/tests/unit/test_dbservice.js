@@ -723,7 +723,7 @@ principal
 =
 secMan
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 iosvc
 .
@@ -747,6 +747,8 @@ b
 null
 null
 )
+{
+}
 )
 ;
 dbservice
@@ -1292,7 +1294,7 @@ principal
 =
 secMan
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 iosvc
 .
@@ -1309,6 +1311,8 @@ key
 null
 null
 )
+{
+}
 )
 ;
 dbservice
@@ -1339,7 +1343,7 @@ principal
 =
 secMan
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 iosvc
 .
@@ -1356,6 +1360,8 @@ key
 null
 null
 )
+{
+}
 )
 ;
 dbservice
@@ -1386,7 +1392,7 @@ principal
 =
 secMan
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 iosvc
 .
@@ -1403,6 +1409,8 @@ key
 null
 null
 )
+{
+}
 )
 ;
 dbservice
@@ -1433,7 +1441,7 @@ principal
 =
 secMan
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 iosvc
 .
@@ -1450,6 +1458,8 @@ key
 null
 null
 )
+{
+}
 )
 ;
 dbservice

@@ -686,9 +686,11 @@ principal
 =
 ssm
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 request
