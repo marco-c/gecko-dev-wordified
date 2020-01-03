@@ -8706,6 +8706,15 @@ this
 .
 matchedSelectorsContainer
 .
+innerHTML
+=
+"
+"
+;
+this
+.
+matchedSelectorsContainer
+.
 appendChild
 (
 frag
