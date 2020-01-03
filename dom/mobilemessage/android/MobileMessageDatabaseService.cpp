@@ -291,6 +291,8 @@ bool
 aHasRead
 bool
 aRead
+bool
+aHasThreadId
 uint64_t
 aThreadId
 bool

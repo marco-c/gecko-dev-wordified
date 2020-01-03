@@ -597,6 +597,7 @@ aNumbersCount
 aDelivery
 aHasRead
 aRead
+aHasThreadId
 aThreadId
 aReverse
 aCallback
@@ -618,6 +619,7 @@ aNumbersCount
 aDelivery
 aHasRead
 aRead
+aHasThreadId
 aThreadId
 aReverse
 aCallback

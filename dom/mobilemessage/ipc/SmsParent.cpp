@@ -4883,6 +4883,11 @@ read
 )
 filter
 .
+hasThreadId
+(
+)
+filter
+.
 threadId
 (
 )
