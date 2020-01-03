@@ -93,6 +93,9 @@ class
 BroadcastChannelParent
 ;
 class
+BroadcastChannelMessageData
+;
+class
 BroadcastChannelService
 MOZ_FINAL
 {
@@ -134,9 +137,9 @@ BroadcastChannelParent
 *
 aParent
 const
-nsAString
+BroadcastChannelMessageData
 &
-aMessage
+aData
 const
 nsAString
 &

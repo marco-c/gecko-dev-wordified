@@ -347,9 +347,9 @@ BroadcastChannelParent
 *
 aParent
 const
-nsAString
+BroadcastChannelMessageData
 &
-aMessage
+aData
 const
 nsAString
 &
@@ -364,9 +364,9 @@ mParent
 (
 aParent
 )
-mMessage
+mData
 (
-aMessage
+aData
 )
 mOrigin
 (
@@ -404,8 +404,9 @@ BroadcastChannelParent
 mParent
 ;
 const
-nsString
-mMessage
+BroadcastChannelMessageData
+&
+mData
 ;
 const
 nsString
@@ -483,7 +484,7 @@ CheckAndDeliver
 data
 -
 >
-mMessage
+mData
 data
 -
 >
@@ -514,9 +515,9 @@ BroadcastChannelParent
 *
 aParent
 const
-nsAString
+BroadcastChannelMessageData
 &
-aMessage
+aData
 const
 nsAString
 &
@@ -550,7 +551,7 @@ PostMessageData
 data
 (
 aParent
-aMessage
+aData
 aOrigin
 aChannel
 )
