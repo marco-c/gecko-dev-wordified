@@ -37698,9 +37698,6 @@ functions
 )
 #
 endif
-#
-ifdef
-JSGC_GENERATIONAL
 |
 |
 !
@@ -37723,8 +37720,6 @@ Generational
 GC
 "
 )
-#
-endif
 |
 |
 !
@@ -38070,9 +38065,6 @@ instructions
 )
 #
 endif
-#
-ifdef
-JSGC_GENERATIONAL
 |
 |
 !
@@ -38105,8 +38097,6 @@ MB
 "
 16
 )
-#
-endif
 #
 ifdef
 JS_GC_ZEAL
@@ -38535,9 +38525,6 @@ JS
 :
 DefaultNurseryBytes
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 nurseryBytes
 =
 op
@@ -38555,8 +38542,6 @@ size
 *
 1024L
 ;
-#
-endif
 /
 *
 Use
@@ -38637,9 +38622,6 @@ JSGC_MAX_BYTES
 0xffffffff
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 Maybe
 <
 JS
@@ -38669,8 +38651,6 @@ emplace
 rt
 )
 ;
-#
-endif
 size_t
 availMem
 =
@@ -39020,17 +39000,12 @@ i
 ]
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 noggc
 .
 reset
 (
 )
 ;
-#
-endif
 JS_DestroyRuntime
 (
 rt

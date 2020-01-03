@@ -12599,9 +12599,6 @@ PreBarrieredObject
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 key
@@ -12632,12 +12629,7 @@ get
 )
 )
 ;
-#
-endif
 }
-#
-ifdef
-JSGC_GENERATIONAL
 class
 DebugScopes
 :
@@ -12765,8 +12757,6 @@ key
 }
 }
 ;
-#
-endif
 /
 *
 static
@@ -12791,9 +12781,6 @@ ScopeIterKey
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 key
@@ -12828,8 +12815,6 @@ key
 )
 )
 ;
-#
-endif
 }
 /
 *
@@ -12854,9 +12839,6 @@ ScopeObject
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 As
@@ -12935,8 +12917,6 @@ key
 )
 )
 ;
-#
-endif
 }
 DebugScopes
 :

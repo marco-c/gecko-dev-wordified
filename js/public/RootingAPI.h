@@ -1385,9 +1385,6 @@ constNullValue
 ;
 }
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 JS_FRIEND_API
 (
 void
@@ -1424,8 +1421,6 @@ Cell
 cellp
 )
 ;
-#
-endif
 #
 ifdef
 JS_DEBUG
@@ -2266,9 +2261,6 @@ post
 (
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 js
@@ -2301,17 +2293,12 @@ postBarrier
 ptr
 )
 ;
-#
-endif
 }
 void
 relocate
 (
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 js
 :
 :
@@ -2327,8 +2314,6 @@ relocate
 ptr
 )
 ;
-#
-endif
 }
 enum
 {
@@ -5034,9 +5019,6 @@ return
 false
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 static
 void
 postBarrier
@@ -5059,8 +5041,6 @@ vp
 )
 {
 }
-#
-endif
 }
 ;
 template
@@ -5183,9 +5163,6 @@ v
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 static
 void
 postBarrier
@@ -5252,8 +5229,6 @@ vp
 )
 ;
 }
-#
-endif
 }
 ;
 template
@@ -5331,9 +5306,6 @@ v
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 static
 void
 postBarrier
@@ -5400,8 +5372,6 @@ vp
 )
 ;
 }
-#
-endif
 }
 ;
 #

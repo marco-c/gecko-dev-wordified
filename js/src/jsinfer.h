@@ -8210,9 +8210,6 @@ newFunction
 )
 {
 }
-#
-ifdef
-JSGC_GENERATIONAL
 /
 *
 *
@@ -8277,8 +8274,6 @@ newFunction
 )
 {
 }
-#
-endif
 }
 ;
 static

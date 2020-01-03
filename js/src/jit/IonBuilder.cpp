@@ -48778,9 +48778,6 @@ MDefinition
 value
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 !
@@ -48803,8 +48800,6 @@ exists
 return
 false
 ;
-#
-endif
 return
 info
 .
@@ -55214,9 +55209,6 @@ we
 move
 them
 .
-#
-ifdef
-JSGC_GENERATIONAL
 bool
 isTenured
 =
@@ -55238,15 +55230,6 @@ isInside
 data
 )
 ;
-#
-else
-bool
-isTenured
-=
-true
-;
-#
-endif
 if
 (
 isTenured
@@ -57367,9 +57350,6 @@ tarrObj
 return
 true
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 tarrObj
@@ -57395,8 +57375,6 @@ tarrObj
 return
 true
 ;
-#
-endif
 types
 :
 :

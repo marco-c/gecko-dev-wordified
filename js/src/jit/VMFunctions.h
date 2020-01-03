@@ -5374,9 +5374,6 @@ JSString
 str
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 void
 PostWriteBarrier
 (
@@ -5399,8 +5396,6 @@ JSObject
 obj
 )
 ;
-#
-endif
 uint32_t
 GetIndexFromString
 (

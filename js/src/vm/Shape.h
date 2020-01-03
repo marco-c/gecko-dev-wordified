@@ -2081,9 +2081,6 @@ target
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 This
@@ -2173,8 +2170,6 @@ trc
 ;
 }
 ;
-#
-endif
 static
 inline
 void
@@ -2189,9 +2184,6 @@ JSObject
 objp
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 shape
@@ -2260,8 +2252,6 @@ objp
 )
 )
 ;
-#
-endif
 }
 static
 inline
@@ -2277,9 +2267,6 @@ JSObject
 objp
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 JS
 :
 :
@@ -2328,8 +2315,6 @@ objp
 )
 )
 ;
-#
-endif
 }
 class
 BaseShape
@@ -7892,9 +7877,6 @@ baseFlags
 )
 {
 }
-#
-ifdef
-JSGC_GENERATIONAL
 /
 *
 *
@@ -7995,8 +7977,6 @@ baseFlags
 )
 {
 }
-#
-endif
 }
 ;
 inline

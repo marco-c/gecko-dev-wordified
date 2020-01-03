@@ -3158,9 +3158,6 @@ MIRType
 slotType
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 void
 MacroAssemblerX86
 :
@@ -3376,5 +3373,3 @@ done
 )
 ;
 }
-#
-endif

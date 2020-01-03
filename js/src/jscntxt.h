@@ -3268,9 +3268,6 @@ the
 main
 thread
 .
-#
-ifdef
-JSGC_GENERATIONAL
 inline
 js
 :
@@ -3290,8 +3287,6 @@ gc
 nursery
 ;
 }
-#
-endif
 void
 minorGC
 (

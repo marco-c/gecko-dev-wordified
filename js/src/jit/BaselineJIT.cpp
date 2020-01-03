@@ -2870,9 +2870,6 @@ BaselineScript
 script
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 /
 *
 *
@@ -2962,8 +2959,6 @@ isEmpty
 )
 )
 ;
-#
-endif
 script
 -
 >

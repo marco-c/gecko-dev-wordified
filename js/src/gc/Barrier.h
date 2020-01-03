@@ -131,9 +131,6 @@ Heap
 h
 "
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -142,8 +139,6 @@ StoreBuffer
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3274,9 +3269,6 @@ Value
 vp
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 !
@@ -3338,8 +3330,6 @@ vp
 )
 ;
 }
-#
-endif
 }
 static
 void
@@ -3350,9 +3340,6 @@ Value
 vp
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 !
@@ -3414,8 +3401,6 @@ vp
 )
 ;
 }
-#
-endif
 }
 static
 void
@@ -3426,9 +3411,6 @@ Value
 vp
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 vp
@@ -3518,8 +3500,6 @@ removeRelocatableValueFromAnyThread
 vp
 )
 ;
-#
-endif
 }
 static
 void
@@ -5732,9 +5712,6 @@ post
 (
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 GCMethods
@@ -5767,17 +5744,12 @@ this
 value
 )
 ;
-#
-endif
 }
 void
 relocate
 (
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 GCMethods
@@ -5810,8 +5782,6 @@ this
 value
 )
 ;
-#
-endif
 }
 }
 ;
@@ -7378,9 +7348,6 @@ target
 )
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 this
@@ -7446,8 +7413,6 @@ slot
 )
 ;
 }
-#
-endif
 }
 }
 ;

@@ -116,9 +116,6 @@ gc_Nursery_inl_h
 define
 gc_Nursery_inl_h
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -306,13 +303,6 @@ pSlotElems
 )
 ;
 }
-#
-endif
-/
-*
-JSGC_GENERATIONAL
-*
-/
 #
 endif
 /

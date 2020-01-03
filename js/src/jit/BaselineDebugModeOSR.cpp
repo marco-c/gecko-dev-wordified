@@ -5446,9 +5446,6 @@ empty
 return
 true
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 Scripts
@@ -5479,8 +5476,6 @@ evictNursery
 (
 )
 ;
-#
-endif
 /
 /
 When

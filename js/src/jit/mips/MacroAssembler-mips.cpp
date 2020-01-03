@@ -20254,9 +20254,6 @@ return
 offset
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 void
 MacroAssemblerMIPSCompat
 :
@@ -20462,5 +20459,3 @@ done
 )
 ;
 }
-#
-endif

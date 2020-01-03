@@ -109,9 +109,6 @@ MPL
 *
 /
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -1582,10 +1579,3 @@ StoreBuffer
 WholeCellEdges
 >
 ;
-#
-endif
-/
-*
-JSGC_GENERATIONAL
-*
-/

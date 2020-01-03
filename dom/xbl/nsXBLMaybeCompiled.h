@@ -618,9 +618,6 @@ GetJSFunction
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 static
 void
 postBarrier
@@ -675,8 +672,6 @@ UnsafeGetJSFunction
 )
 ;
 }
-#
-endif
 }
 ;
 template

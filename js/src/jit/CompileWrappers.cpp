@@ -699,9 +699,6 @@ maybeGetMathCache
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 const
 Nursery
 &
@@ -723,8 +720,6 @@ gc
 nursery
 ;
 }
-#
-endif
 Zone
 *
 CompileZone

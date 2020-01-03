@@ -2318,9 +2318,6 @@ JSObject
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 Strip
@@ -2376,8 +2373,6 @@ key
 )
 )
 ;
-#
-endif
 }
 static
 MOZ_ALWAYS_INLINE

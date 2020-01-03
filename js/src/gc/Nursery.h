@@ -113,9 +113,6 @@ gc_Nursery_h
 define
 gc_Nursery_h
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 jsalloc
@@ -2221,13 +2218,6 @@ MacroAssembler
 *
 namespace
 js
-*
-/
-#
-endif
-/
-*
-JSGC_GENERATIONAL
 *
 /
 #

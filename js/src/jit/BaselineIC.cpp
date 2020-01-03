@@ -6030,9 +6030,6 @@ stubPcOffset
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 inline
 bool
 ICStubCompiler
@@ -6210,11 +6207,6 @@ return
 true
 ;
 }
-#
-endif
-/
-/
-JSGC_GENERATIONAL
 /
 /
 /
@@ -23268,9 +23260,6 @@ JSFunction
 (
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 Information
@@ -23318,8 +23307,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 func
@@ -24090,9 +24077,6 @@ JSFunction
 (
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 Information
@@ -24140,8 +24124,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 func
@@ -36272,9 +36254,6 @@ add
 key
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -36323,8 +36302,6 @@ r
 )
 ;
 }
-#
-endif
 EmitReturnFromIC
 (
 masm
@@ -37684,9 +37661,6 @@ add
 key
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -37735,8 +37709,6 @@ r
 )
 ;
 }
-#
-endif
 EmitReturnFromIC
 (
 masm
@@ -55999,9 +55971,6 @@ add
 holderReg
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -56057,8 +56026,6 @@ scr
 )
 ;
 }
-#
-endif
 /
 /
 The
@@ -57057,9 +57024,6 @@ add
 holderReg
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -57108,8 +57072,6 @@ saveRegs
 )
 ;
 }
-#
-endif
 /
 /
 The

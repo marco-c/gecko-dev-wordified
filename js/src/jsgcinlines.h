@@ -435,9 +435,6 @@ nslots
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 inline
 bool
 ShouldNurseryAllocate
@@ -472,8 +469,6 @@ heap
 TenuredHeap
 ;
 }
-#
-endif
 #
 ifdef
 JSGC_FJGENERATIONAL
@@ -536,9 +531,6 @@ Cell
 thing
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 IsInsideNursery
@@ -549,8 +541,6 @@ cell
 return
 JSTRACE_OBJECT
 ;
-#
-endif
 return
 MapAllocToTraceKind
 (
@@ -1649,9 +1639,6 @@ AllocKind
 kind
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 zone
@@ -1671,8 +1658,6 @@ isEmpty
 )
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 zone
@@ -1833,9 +1818,6 @@ waitBackgroundSweepEnd
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 /
 *
 Evict
@@ -1872,8 +1854,6 @@ evictNursery
 (
 )
 ;
-#
-endif
 if
 (
 lists
@@ -2293,9 +2273,6 @@ GCZoneGroupIter
 >
 GCCompartmentGroupIter
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 /
 *
 *
@@ -2486,13 +2463,6 @@ return
 nullptr
 ;
 }
-#
-endif
-/
-*
-JSGC_GENERATIONAL
-*
-/
 #
 ifdef
 JSGC_FJGENERATIONAL
@@ -3131,9 +3101,6 @@ kind
 return
 nullptr
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -3189,8 +3156,6 @@ return
 obj
 ;
 }
-#
-endif
 #
 ifdef
 JSGC_FJGENERATIONAL
@@ -3696,9 +3661,6 @@ InitialHeap
 heap
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 ShouldNurseryAllocate
@@ -3799,8 +3761,6 @@ return
 obj
 ;
 }
-#
-endif
 JSObject
 *
 obj
@@ -3869,9 +3829,6 @@ Cell
 cell
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 !
@@ -3943,13 +3900,6 @@ gc
 :
 ChunkLocationBitNursery
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 }
 /

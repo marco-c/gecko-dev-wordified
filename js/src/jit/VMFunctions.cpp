@@ -3497,9 +3497,6 @@ obj
 return
 nullptr
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 The
@@ -3566,8 +3563,6 @@ putWholeCellFromMainThread
 obj
 )
 ;
-#
-endif
 return
 obj
 ;
@@ -3607,9 +3602,6 @@ obj
 return
 nullptr
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 The
@@ -3686,8 +3678,6 @@ putWholeCellFromMainThread
 obj
 )
 ;
-#
-endif
 return
 obj
 ;
@@ -4523,9 +4513,6 @@ eval
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 void
 PostWriteBarrier
 (
@@ -4617,8 +4604,6 @@ true
 ;
 }
 }
-#
-endif
 uint32_t
 GetIndexFromString
 (

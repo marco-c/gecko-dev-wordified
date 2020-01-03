@@ -2318,9 +2318,6 @@ endif
 /
 /
 JSGC_COMPACTING
-#
-ifdef
-JSGC_GENERATIONAL
 void
 ShapeGetterSetterRef
 :
@@ -2506,8 +2503,6 @@ shape
 )
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG

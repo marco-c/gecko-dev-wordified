@@ -107,9 +107,6 @@ MPL
 *
 /
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -6354,10 +6351,3 @@ updateDecommittedRegion
 )
 ;
 }
-#
-endif
-/
-*
-JSGC_GENERATIONAL
-*
-/

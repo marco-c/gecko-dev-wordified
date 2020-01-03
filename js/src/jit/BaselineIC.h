@@ -7933,9 +7933,6 @@ return
 regs
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 inline
 bool
 emitPostWriteBarrierSlot
@@ -7953,8 +7950,6 @@ GeneralRegisterSet
 saveRegs
 )
 ;
-#
-endif
 public
 :
 virtual

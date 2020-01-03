@@ -12380,9 +12380,6 @@ js
 :
 jit
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 See
@@ -12407,8 +12404,6 @@ evictNursery
 (
 )
 ;
-#
-endif
 AutoSuppressProfilerSampling
 suppressProfilerSampling
 (

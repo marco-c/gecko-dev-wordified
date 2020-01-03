@@ -2829,9 +2829,6 @@ uint32_t
 nslots
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -2865,8 +2862,6 @@ obj
 nslots
 )
 ;
-#
-endif
 #
 ifdef
 JSGC_FJGENERATIONAL
@@ -2989,9 +2984,6 @@ uint32_t
 newCount
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -3029,8 +3021,6 @@ newCount
 )
 ;
 }
-#
-endif
 #
 ifdef
 JSGC_FJGENERATIONAL
@@ -3314,9 +3304,6 @@ HeapSlot
 slots
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 /
 /
 Note
@@ -3367,8 +3354,6 @@ freeSlots
 slots
 )
 ;
-#
-endif
 #
 ifdef
 JSGC_FJGENERATIONAL
@@ -4733,9 +4718,6 @@ uint32_t
 nelems
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -4769,8 +4751,6 @@ obj
 nelems
 )
 ;
-#
-endif
 #
 ifdef
 JSGC_FJGENERATIONAL
@@ -4886,9 +4866,6 @@ uint32_t
 newCount
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -4926,8 +4903,6 @@ newCount
 )
 ;
 }
-#
-endif
 #
 ifdef
 JSGC_FJGENERATIONAL

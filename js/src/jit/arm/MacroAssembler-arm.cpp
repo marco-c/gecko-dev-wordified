@@ -30025,9 +30025,6 @@ return
 ret
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 void
 MacroAssemblerARMCompat
 :
@@ -31931,5 +31928,3 @@ Register
 output
 )
 ;
-#
-endif

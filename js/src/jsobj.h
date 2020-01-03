@@ -6370,9 +6370,6 @@ MOZ_ASSERT
 cellp
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 IsNullTaggedPointer
@@ -6442,8 +6439,6 @@ cellp
 )
 )
 ;
-#
-endif
 }
 /
 *
@@ -6492,9 +6487,6 @@ cellp
 )
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 js
 :
 :
@@ -6538,8 +6530,6 @@ cellp
 )
 )
 ;
-#
-endif
 }
 /
 *
@@ -6588,9 +6578,6 @@ cellp
 )
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 obj
 -
 >
@@ -6623,8 +6610,6 @@ cellp
 )
 )
 ;
-#
-endif
 }
 namespace
 js

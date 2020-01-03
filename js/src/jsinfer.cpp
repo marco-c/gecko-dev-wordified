@@ -29354,9 +29354,6 @@ return
 true
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 /
 *
 *
@@ -29704,8 +29701,6 @@ fun
 ;
 }
 }
-#
-endif
 TypeObject
 *
 ExclusiveContext
@@ -30142,9 +30137,6 @@ fun
 return
 nullptr
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 TypeObjectTablePostBarrier
 (
 this
@@ -30155,8 +30147,6 @@ proto
 fun
 )
 ;
-#
-endif
 if
 (
 proto
@@ -30686,9 +30676,6 @@ nullptr
 return
 nullptr
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 TypeObjectTablePostBarrier
 (
 this
@@ -30699,8 +30686,6 @@ proto
 nullptr
 )
 ;
-#
-endif
 type
 -
 >

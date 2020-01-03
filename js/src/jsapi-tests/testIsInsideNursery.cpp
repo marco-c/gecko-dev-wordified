@@ -122,9 +122,6 @@ tests
 .
 h
 "
-#
-ifdef
-JSGC_GENERATIONAL
 BEGIN_TEST
 (
 testIsInsideNursery
@@ -279,5 +276,3 @@ END_TEST
 (
 testIsInsideNursery
 )
-#
-endif

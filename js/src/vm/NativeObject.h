@@ -2211,9 +2211,6 @@ uint32_t
 count
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 count
@@ -2265,8 +2262,6 @@ count
 )
 ;
 }
-#
-endif
 }
 /
 *
@@ -8003,9 +7998,6 @@ void
 pprivate
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 gc
 :
 :
@@ -8067,8 +8059,6 @@ putCellFromAnyThread
 cellp
 )
 ;
-#
-endif
 }
 /
 *

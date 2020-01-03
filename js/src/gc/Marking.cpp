@@ -227,9 +227,6 @@ jsobjinlines
 h
 "
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -240,8 +237,6 @@ inl
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2916,9 +2911,6 @@ MOZ_ASSERT
 thingp
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 JSRuntime
 *
 rt
@@ -2943,7 +2935,7 @@ precede
 the
 case
 for
-JSGC_GENERATIONAL
+GGC
 because
 IsInsideNursery
 (
@@ -3043,11 +3035,6 @@ thingp
 ;
 }
 }
-#
-endif
-/
-/
-JSGC_GENERATIONAL
 Zone
 *
 zone
@@ -3262,9 +3249,6 @@ false
 ;
 #
 ifdef
-JSGC_GENERATIONAL
-#
-ifdef
 JSGC_FJGENERATIONAL
 if
 (
@@ -3379,11 +3363,6 @@ false
 ;
 }
 }
-#
-endif
-/
-/
-JSGC_GENERATIONAL
 Zone
 *
 zone
@@ -3514,9 +3493,6 @@ nullptr
 ;
 #
 ifdef
-JSGC_GENERATIONAL
-#
-ifdef
 JSGC_FJGENERATIONAL
 if
 (
@@ -3608,11 +3584,6 @@ return
 thingp
 ;
 }
-#
-endif
-/
-/
-JSGC_GENERATIONAL
 #
 ifdef
 JSGC_COMPACTING

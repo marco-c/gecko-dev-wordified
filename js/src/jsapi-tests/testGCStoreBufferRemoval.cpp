@@ -112,9 +112,6 @@ MPL
 *
 /
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -874,5 +871,3 @@ END_TEST
 (
 testGCStoreBufferRemoval
 )
-#
-endif
