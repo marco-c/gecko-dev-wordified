@@ -283,7 +283,7 @@ cookie2
 )
 pm
 .
-DENY_ACTION
+PROMPT_ACTION
 )
 ;
 do_check_eq
@@ -426,6 +426,15 @@ Stage2A
 messageListener
 )
 ;
+/
+/
+Permissions
+created
+before
+the
+child
+is
+present
 var
 pm
 =
@@ -500,7 +509,7 @@ cookie2
 )
 pm
 .
-DENY_ACTION
+PROMPT_ACTION
 )
 ;
 do_check_eq
