@@ -145,6 +145,9 @@ class
 nsCaret
 ;
 class
+nsIContent
+;
+class
 nsIDOMDragEvent
 ;
 class
@@ -161,6 +164,9 @@ nsIPresShell
 ;
 class
 nsEditor
+;
+class
+nsPresContext
 ;
 /
 /

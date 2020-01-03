@@ -99,6 +99,13 @@ nsHTMLEditUtils_h__
 #
 define
 nsHTMLEditUtils_h__
+#
+include
+<
+stdint
+.
+h
+>
 class
 nsIDOMNode
 ;

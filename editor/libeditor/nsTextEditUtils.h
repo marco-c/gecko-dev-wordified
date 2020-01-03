@@ -129,6 +129,9 @@ class
 nsIDOMNode
 ;
 class
+nsINode
+;
+class
 nsPlaintextEditor
 ;
 class

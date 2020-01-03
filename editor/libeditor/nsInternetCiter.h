@@ -106,6 +106,13 @@ nscore
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 /
 *
 *
