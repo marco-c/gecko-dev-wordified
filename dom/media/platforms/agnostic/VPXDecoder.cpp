@@ -157,6 +157,13 @@ algorithm
 #
 undef
 LOG
+extern
+PRLogModuleInfo
+*
+GetPDMLog
+(
+)
+;
 #
 define
 LOG
@@ -168,7 +175,9 @@ arg
 )
 MOZ_LOG
 (
-gMediaDecoderLog
+GetPDMLog
+(
+)
 mozilla
 :
 :
@@ -207,11 +216,6 @@ gfx
 using
 namespace
 layers
-;
-extern
-PRLogModuleInfo
-*
-gMediaDecoderLog
 ;
 VPXDecoder
 :

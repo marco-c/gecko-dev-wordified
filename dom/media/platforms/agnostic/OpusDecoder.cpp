@@ -160,6 +160,13 @@ h
 /
 For
 PRId64
+extern
+PRLogModuleInfo
+*
+GetPDMLog
+(
+)
+;
 #
 define
 OPUS_DEBUG
@@ -171,7 +178,9 @@ arg
 )
 MOZ_LOG
 (
-gMediaDecoderLog
+GetPDMLog
+(
+)
 mozilla
 :
 :
@@ -204,11 +213,6 @@ __VA_ARGS__
 namespace
 mozilla
 {
-extern
-PRLogModuleInfo
-*
-gMediaDecoderLog
-;
 OpusDataDecoder
 :
 :
