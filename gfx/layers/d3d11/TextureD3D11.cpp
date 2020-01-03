@@ -1857,9 +1857,6 @@ return
 a
 null
 DrawTarget
-#
-if
-USE_D2D1_1
 if
 (
 mTexture
@@ -1878,8 +1875,6 @@ mFormat
 ;
 }
 else
-#
-endif
 {
 MOZ_ASSERT
 (
@@ -1951,9 +1946,6 @@ return
 false
 ;
 }
-#
-ifdef
-USE_D2D1_1
 ID3D11Device
 *
 d3d11device
@@ -2034,8 +2026,6 @@ mTexture
 ;
 }
 else
-#
-endif
 {
 ID3D10Device
 *

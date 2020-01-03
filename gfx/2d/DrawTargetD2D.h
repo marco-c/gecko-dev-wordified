@@ -825,9 +825,6 @@ ID2D1RenderTarget
 aRT
 )
 ;
-#
-ifdef
-USE_D2D1_1
 TemporaryRef
 <
 ID2D1Image
@@ -839,8 +836,6 @@ SourceSurface
 aSurface
 )
 ;
-#
-endif
 static
 ID2D1Factory
 *
