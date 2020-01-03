@@ -233,12 +233,6 @@ MAX_PACKET_LENGTH
 =
 0xFFFE
 ;
-virtual
-~
-BluetoothOppManager
-(
-)
-;
 static
 BluetoothOppManager
 *
@@ -431,6 +425,14 @@ BluetoothSocket
 aSocket
 )
 MOZ_OVERRIDE
+;
+protected
+:
+virtual
+~
+BluetoothOppManager
+(
+)
 ;
 private
 :
