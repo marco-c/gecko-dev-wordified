@@ -8756,6 +8756,9 @@ as
 {
 JS_ASSERT
 (
+this
+-
+>
 is
 <
 T
@@ -8791,6 +8794,9 @@ const
 {
 JS_ASSERT
 (
+this
+-
+>
 is
 <
 T
