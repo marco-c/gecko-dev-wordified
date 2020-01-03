@@ -4152,8 +4152,7 @@ cmd_toggleMute
 modifiers
 =
 "
-alt
-shift
+control
 "
 /
 >
