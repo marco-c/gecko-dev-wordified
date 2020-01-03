@@ -5549,7 +5549,7 @@ reader
 .
 webm
 "
-false
+true
 )
 ;
 #
@@ -47829,18 +47829,6 @@ pref
 signon
 .
 rememberSignons
-"
-true
-)
-;
-pref
-(
-"
-signon
-.
-rememberSignons
-.
-visibilityToggle
 "
 true
 )
