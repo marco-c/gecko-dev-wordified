@@ -438,13 +438,13 @@ this
 element
 .
 item
-[
+(
 this
 .
 element
 .
 selectedIndex
-]
+)
 )
 {
 let
