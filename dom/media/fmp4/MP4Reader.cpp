@@ -514,11 +514,11 @@ mIndexReady
 (
 false
 )
-mIndexMonitor
+mDemuxerMonitor
 (
 "
 MP4
-index
+Demuxer
 "
 )
 {
@@ -1000,10 +1000,10 @@ GetResource
 (
 )
 &
-mIndexMonitor
+mDemuxerMonitor
 )
 &
-mIndexMonitor
+mDemuxerMonitor
 )
 ;
 InitLayersBackendType
@@ -1747,7 +1747,7 @@ mDemuxerInitialized
 MonitorAutoLock
 mon
 (
-mIndexMonitor
+mDemuxerMonitor
 )
 ;
 bool
@@ -2524,7 +2524,7 @@ nullptr
 MonitorAutoLock
 mon
 (
-mIndexMonitor
+mDemuxerMonitor
 )
 ;
 UpdateIndex
@@ -3744,7 +3744,7 @@ aTrack
 MonitorAutoLock
 mon
 (
-mIndexMonitor
+mDemuxerMonitor
 )
 ;
 switch
@@ -3900,7 +3900,7 @@ kVideo
 MonitorAutoLock
 mon
 (
-mIndexMonitor
+mDemuxerMonitor
 )
 ;
 mDemuxer
@@ -3921,7 +3921,7 @@ kAudio
 MonitorAutoLock
 mon
 (
-mIndexMonitor
+mDemuxerMonitor
 )
 ;
 mDemuxer
@@ -4877,7 +4877,7 @@ aTime
 MonitorAutoLock
 mon
 (
-mIndexMonitor
+mDemuxerMonitor
 )
 ;
 if
@@ -4921,7 +4921,7 @@ aBuffered
 MonitorAutoLock
 mon
 (
-mIndexMonitor
+mDemuxerMonitor
 )
 ;
 if
