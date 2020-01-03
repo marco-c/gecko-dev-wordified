@@ -121,6 +121,13 @@ h
 #
 include
 "
+HalLog
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AppProcessChecker
@@ -349,7 +356,6 @@ id
 {
 HAL_LOG
 (
-(
 "
 Vibrate
 :
@@ -359,7 +365,6 @@ parent
 process
 .
 "
-)
 )
 ;
 AutoInfallibleTArray
@@ -422,7 +427,6 @@ id
 {
 HAL_LOG
 (
-(
 "
 CancelVibrate
 :
@@ -432,7 +436,6 @@ parent
 process
 .
 "
-)
 )
 ;
 WindowIdentifier

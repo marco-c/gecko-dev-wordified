@@ -63,6 +63,13 @@ Hal
 .
 h
 "
+#
+include
+"
+HalLog
+.
+h
+"
 using
 namespace
 mozilla
@@ -91,7 +98,6 @@ aBackgroundLRU
 {
 HAL_LOG
 (
-(
 "
 FallbackProcessPriority
 -
@@ -114,7 +120,6 @@ aPriority
 aCPUPriority
 )
 aBackgroundLRU
-)
 )
 ;
 }

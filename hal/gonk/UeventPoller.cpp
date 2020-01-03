@@ -261,6 +261,13 @@ h
 #
 include
 "
+HalLog
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -776,7 +783,7 @@ print
 warning
 message
 .
-printf_stderr
+HAL_LOG
 (
 "
 The
@@ -793,6 +800,8 @@ is
 in
 use
 .
+"
+"
 Let
 the
 kernel

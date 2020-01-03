@@ -258,9 +258,9 @@ if
 sTimer
 )
 {
-HAL_LOG
+MOZ_ASSERT
 (
-(
+false
 "
 We
 should
@@ -269,12 +269,6 @@ enabled
 the
 alarm
 "
-)
-)
-;
-MOZ_ASSERT
-(
-false
 )
 ;
 return

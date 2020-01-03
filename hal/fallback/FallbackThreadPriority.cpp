@@ -63,6 +63,13 @@ Hal
 .
 h
 "
+#
+include
+"
+HalLog
+.
+h
+"
 using
 namespace
 mozilla
@@ -85,7 +92,6 @@ aPriority
 {
 HAL_LOG
 (
-(
 "
 FallbackThreadPriority
 -
@@ -100,7 +106,6 @@ n
 ThreadPriorityToString
 (
 aPriority
-)
 )
 )
 ;

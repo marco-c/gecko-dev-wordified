@@ -128,6 +128,13 @@ h
 #
 include
 "
+HalLog
+.
+h
+"
+#
+include
+"
 HalSandbox
 .
 h
@@ -741,7 +748,6 @@ GetWindow
 {
 HAL_LOG
 (
-(
 "
 Vibrate
 :
@@ -752,7 +758,6 @@ dropping
 vibrate
 .
 "
-)
 )
 ;
 return

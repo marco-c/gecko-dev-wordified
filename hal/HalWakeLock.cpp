@@ -96,8 +96,6 @@ MPL
 #
 include
 "
-mozilla
-/
 Hal
 .
 h
