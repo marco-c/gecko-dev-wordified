@@ -79,6 +79,15 @@ string16
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 This
@@ -598,6 +607,7 @@ not
 be
 extracted
 .
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadBool
 (
@@ -611,6 +621,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadInt16
 (
@@ -624,6 +635,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadUInt16
 (
@@ -637,6 +649,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadShort
 (
@@ -650,6 +663,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadInt
 (
@@ -663,6 +677,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadLong
 (
@@ -676,6 +691,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadULong
 (
@@ -690,6 +706,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadSize
 (
@@ -703,6 +720,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadInt32
 (
@@ -716,6 +734,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadUInt32
 (
@@ -729,6 +748,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadInt64
 (
@@ -742,6 +762,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadUInt64
 (
@@ -755,6 +776,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadDouble
 (
@@ -768,6 +790,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadIntPtr
 (
@@ -781,6 +804,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadUnsignedChar
 (
@@ -795,6 +819,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadString
 (
@@ -811,6 +836,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadWString
 (
@@ -827,6 +853,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadString16
 (
@@ -840,6 +867,7 @@ result
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadData
 (
@@ -858,6 +886,7 @@ length
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadBytes
 (
@@ -908,6 +937,7 @@ the
 object
 sizes
 .
+MOZ_WARN_UNUSED_RESULT
 bool
 ReadLength
 (
