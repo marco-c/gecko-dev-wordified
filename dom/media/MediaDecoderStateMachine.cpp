@@ -13604,6 +13604,10 @@ HasAudio
 HasVideo
 (
 )
+&
+&
+!
+mSentFirstFrameLoadedEvent
 )
 {
 /
