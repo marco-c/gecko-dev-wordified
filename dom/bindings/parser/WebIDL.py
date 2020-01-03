@@ -30786,19 +30786,19 @@ OCTET
 "
         
 "
-optional
-"
-:
-"
-OPTIONAL
-"
-        
-"
 Promise
 "
 :
 "
 PROMISE
+"
+        
+"
+required
+"
+:
+"
+REQUIRED
 "
         
 "
@@ -32742,6 +32742,7 @@ p
             
 DictionaryMember
 :
+Required
 Type
 IDENTIFIER
 Default
@@ -32771,7 +32772,7 @@ t
 =
 p
 [
-1
+2
 ]
         
 assert
@@ -32790,11 +32791,11 @@ self
 getLocation
 (
 p
-2
+3
 )
 p
 [
-2
+3
 ]
 )
         
@@ -32802,8 +32803,51 @@ defaultValue
 =
 p
 [
-3
+4
 ]
+        
+optional
+=
+not
+p
+[
+1
+]
+        
+if
+not
+optional
+and
+defaultValue
+:
+            
+raise
+WebIDLError
+(
+"
+Required
+dictionary
+members
+can
+'
+t
+have
+a
+default
+value
+.
+"
+                              
+[
+self
+.
+getLocation
+(
+p
+4
+)
+]
+)
         
 p
 [
@@ -32817,13 +32861,14 @@ self
 getLocation
 (
 p
-2
+3
 )
 identifier
 t
+                           
 optional
 =
-True
+optional
                            
 defaultValue
 =
@@ -34124,7 +34169,7 @@ AttributeRest
 ReadOnly
 ATTRIBUTE
 Type
-IDENTIFIER
+AttributeName
 SEMICOLON
         
 "
@@ -36552,6 +36597,9 @@ LEGACYCALLER
 PARTIAL
                          
 |
+REQUIRED
+                         
+|
 SERIALIZER
                          
 |
@@ -36571,6 +36619,39 @@ TYPEDEF
                          
 |
 UNRESTRICTED
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+p
+[
+1
+]
+    
+def
+p_AttributeName
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+AttributeName
+:
+IDENTIFIER
+                          
+|
+REQUIRED
         
 "
 "
@@ -36626,6 +36707,59 @@ p
 "
             
 Optional
+:
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+False
+    
+def
+p_Required
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+Required
+:
+REQUIRED
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+True
+    
+def
+p_RequiredEmpty
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+Required
 :
         
 "
