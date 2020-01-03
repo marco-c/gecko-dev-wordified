@@ -2369,6 +2369,15 @@ originalTarget
 .
 ownerDocument
 ;
+if
+(
+!
+ownerDoc
+)
+{
+return
+;
+}
 /
 /
 Handle

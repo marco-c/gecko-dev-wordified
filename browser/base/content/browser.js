@@ -16293,6 +16293,15 @@ ownerDocument
 ;
 if
 (
+!
+ownerDoc
+)
+{
+return
+;
+}
+if
+(
 gMultiProcessBrowser
 &
 &
