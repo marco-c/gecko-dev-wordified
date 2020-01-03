@@ -433,6 +433,8 @@ yield
 player
 .
 ready
+(
+)
 ;
 ok
 (
