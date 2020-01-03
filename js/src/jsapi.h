@@ -33563,6 +33563,9 @@ zeal
 uint32_t
 *
 frequency
+uint32_t
+*
+nextScheduled
 )
 ;
 extern

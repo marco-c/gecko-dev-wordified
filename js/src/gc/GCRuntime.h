@@ -2052,6 +2052,9 @@ zeal
 uint32_t
 *
 frequency
+uint32_t
+*
+nextScheduled
 )
 ;
 void
@@ -5228,7 +5231,7 @@ variable
 *
 -
 Call
-zeal
+gczeal
 (
 )
 or
@@ -5253,7 +5256,7 @@ details
 *
 *
 If
-gzZeal_
+gcZeal_
 =
 =
 1

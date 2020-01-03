@@ -7617,6 +7617,9 @@ zeal
 uint32_t
 *
 frequency
+uint32_t
+*
+scheduled
 )
 {
 *
@@ -7628,6 +7631,11 @@ zealMode
 frequency
 =
 zealFrequency
+;
+*
+scheduled
+=
+nextScheduled
 ;
 }
 const

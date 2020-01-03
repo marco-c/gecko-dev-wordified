@@ -32670,6 +32670,9 @@ zeal
 uint32_t
 *
 frequency
+uint32_t
+*
+nextScheduled
 )
 {
 cx
@@ -32686,6 +32689,7 @@ getZeal
 (
 zeal
 frequency
+nextScheduled
 )
 ;
 }

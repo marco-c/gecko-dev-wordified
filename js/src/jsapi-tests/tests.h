@@ -2763,6 +2763,9 @@ cx_
 cx
 )
 {
+uint32_t
+dummy
+;
 JS_GetGCZeal
 (
 cx_
@@ -2770,6 +2773,8 @@ cx_
 zeal_
 &
 frequency_
+&
+dummy
 )
 ;
 JS_SetGCZeal
