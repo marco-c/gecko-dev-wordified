@@ -230,6 +230,9 @@ ServiceWorkerClientInfo
 nsIDocument
 *
 aDoc
+nsPIDOMWindow
+*
+aWindow
 )
 :
 mWindowId
@@ -397,12 +400,7 @@ nsGlobalWindow
 *
 >
 (
-aDoc
--
->
-GetWindow
-(
-)
+aWindow
 )
 ;
 MOZ_ASSERT
