@@ -40113,8 +40113,7 @@ GetWrapCols
 )
 {
 return
--
-1
+0
 ;
 /
 /
