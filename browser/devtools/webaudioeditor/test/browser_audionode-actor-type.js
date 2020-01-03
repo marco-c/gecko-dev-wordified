@@ -34,9 +34,7 @@ zero
 Test
 AudioNode
 #
-getType
-(
-)
+type
 *
 /
 add_task
@@ -96,11 +94,6 @@ node
 let
 actualTypes
 =
-yield
-Promise
-.
-all
-(
 nodes
 .
 map
@@ -110,10 +103,7 @@ node
 >
 node
 .
-getType
-(
-)
-)
+type
 )
 ;
 let

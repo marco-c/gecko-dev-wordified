@@ -1323,17 +1323,11 @@ editor
 /
 _onCreateNode
 :
-Task
-.
-async
-(
 function
-*
 (
 nodeActor
 )
 {
-yield
 gAudioNodes
 .
 add
@@ -1342,7 +1336,6 @@ nodeActor
 )
 ;
 }
-)
 /
 *
 *
