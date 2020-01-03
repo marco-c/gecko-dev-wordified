@@ -995,12 +995,10 @@ list
 .
         
 debugger_arguments
-+
-=
-debuggerArgs
 .
-split
+extend
 (
+debuggerArgs
 )
     
 #
