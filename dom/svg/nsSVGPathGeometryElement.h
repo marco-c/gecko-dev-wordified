@@ -197,6 +197,16 @@ mozilla
 gfx
 :
 :
+CapStyle
+CapStyle
+;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
 DrawTarget
 DrawTarget
 ;
@@ -543,6 +553,8 @@ Rect
 aBounds
 Float
 aStrokeWidth
+CapStyle
+aCapStyle
 const
 Matrix
 &

@@ -780,6 +780,8 @@ Rect
 aBounds
 Float
 aStrokeWidth
+CapStyle
+aCapStyle
 const
 Matrix
 &
