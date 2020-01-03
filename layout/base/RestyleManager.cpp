@@ -4182,7 +4182,7 @@ aFrame
 OverflowChangedTracker
 :
 :
-CHILDREN_AND_PARENT_CHANGED
+CHILDREN_CHANGED
 )
 ;
 nsIFrame
@@ -6184,7 +6184,7 @@ childFrame
 OverflowChangedTracker
 :
 :
-CHILDREN_AND_PARENT_CHANGED
+CHILDREN_CHANGED
 )
 ;
 }
@@ -6323,7 +6323,7 @@ and
 nsChangeHint_UpdatePostTransformOverflow
 /
 /
-CHILDREN_AND_PARENT_CHANGED
+CHILDREN_CHANGED
 is
 selected
 as
@@ -6350,7 +6350,7 @@ changeKind
 OverflowChangedTracker
 :
 :
-CHILDREN_AND_PARENT_CHANGED
+CHILDREN_CHANGED
 ;
 }
 else
