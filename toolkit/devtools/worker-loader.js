@@ -3025,6 +3025,11 @@ requestors
 ]
 ;
 let
+scope
+=
+this
+;
+let
 xpcInspector
 =
 {
@@ -3064,7 +3069,7 @@ push
 requestor
 )
 ;
-this
+scope
 .
 enterEventLoop
 (
@@ -3088,7 +3093,7 @@ pop
 (
 )
 ;
-this
+scope
 .
 leaveEventLoop
 (
