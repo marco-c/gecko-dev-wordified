@@ -2965,7 +2965,7 @@ IsFinishedTransition
 anim
 -
 >
-Cancel
+CancelFromStyle
 (
 )
 ;
@@ -4010,7 +4010,7 @@ currentIndex
 ]
 -
 >
-Cancel
+CancelFromStyle
 (
 )
 ;
@@ -4836,7 +4836,7 @@ currentIndex
 ]
 -
 >
-Cancel
+CancelFromStyle
 (
 )
 ;

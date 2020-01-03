@@ -2548,7 +2548,7 @@ iterations
 newAnim
 -
 >
-Cancel
+CancelFromStyle
 (
 )
 ;
@@ -2682,7 +2682,7 @@ newAnimIdx
 ]
 -
 >
-Cancel
+CancelFromStyle
 (
 )
 ;
