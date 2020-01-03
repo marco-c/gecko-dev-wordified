@@ -133,11 +133,13 @@ TempAllocPolicy
 :
 onOutOfMemory
 (
-void
-*
-p
+AllocFunction
+allocFunc
 size_t
 nbytes
+void
+*
+reallocPtr
 )
 {
 return
@@ -153,8 +155,9 @@ cx_
 >
 onOutOfMemory
 (
-p
+allocFunc
 nbytes
+reallocPtr
 )
 ;
 }
