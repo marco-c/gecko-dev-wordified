@@ -11039,7 +11039,7 @@ autoBSize
 =
 aReflowState
 .
-ApplyMinMaxHeight
+ApplyMinMaxBSize
 (
 contentBSize
 )
@@ -11057,14 +11057,14 @@ contentBSize
 Our
 min
 -
-height
 or
 max
 -
-height
+bsize
+value
 made
 our
-height
+bsize
 change
 .
 Don
