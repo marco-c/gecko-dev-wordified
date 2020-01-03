@@ -5145,7 +5145,7 @@ nsresult
 GetInlinePropertyBase
 (
 nsIAtom
-*
+&
 aProperty
 const
 nsAString
