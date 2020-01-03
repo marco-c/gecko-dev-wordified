@@ -768,6 +768,8 @@ std
 min
 (
 aOffset
+mOffset
++
 (
 uint64_t
 )
