@@ -189,6 +189,15 @@ jsm
 '
 )
 ;
+const
+TYPE_NAME
+=
+"
+Robocop
+:
+testSelectionHandler
+"
+;
 /
 *
 =
