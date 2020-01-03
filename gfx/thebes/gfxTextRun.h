@@ -3101,6 +3101,17 @@ string
 uint8_t
 mMatchType
 ;
+uint16_t
+mOrientation
+;
+/
+/
+gfxTextRunFactory
+:
+:
+TEXT_ORIENT_
+*
+value
 }
 ;
 class
@@ -3425,6 +3436,8 @@ uint32_t
 aStartCharIndex
 bool
 aForceNewRun
+uint16_t
+aOrientation
 )
 ;
 void
@@ -3499,6 +3512,8 @@ gfxContext
 aContext
 uint32_t
 aCharIndex
+uint16_t
+aOrientation
 )
 ;
 /
@@ -3691,6 +3706,8 @@ uint32_t
 aCharIndex
 char16_t
 aSpaceChar
+uint16_t
+aOrientation
 )
 ;
 /
@@ -6254,6 +6271,8 @@ uint32_t
 aLength
 int32_t
 aRunScript
+uint16_t
+aOrientation
 )
 ;
 gfxUserFontSet
