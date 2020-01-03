@@ -675,6 +675,7 @@ DecodedStreamData
 GetData
 (
 )
+const
 ;
 void
 DestroyData
@@ -705,6 +706,7 @@ ReentrantMonitor
 GetReentrantMonitor
 (
 )
+const
 ;
 void
 Connect
