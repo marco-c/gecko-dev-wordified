@@ -61,6 +61,12 @@ use
 strict
 "
 ;
+/
+*
+globals
+ContentAreaUtils
+*
+/
 const
 {
 classes
