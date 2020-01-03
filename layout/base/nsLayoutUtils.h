@@ -15376,6 +15376,16 @@ return
 sFontSizeInflationDisabledInMasterProcess
 ;
 }
+static
+bool
+SVGTransformOriginEnabled
+(
+)
+{
+return
+sSVGTransformOriginEnabled
+;
+}
 /
 *
 *
@@ -17715,6 +17725,10 @@ sCSSVariablesEnabled
 static
 bool
 sInterruptibleReflowEnabled
+;
+static
+bool
+sSVGTransformOriginEnabled
 ;
 /
 *
