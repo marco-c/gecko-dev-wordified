@@ -2754,6 +2754,12 @@ JSPROP_GETTER
 |
 JSPROP_SHARED
 ;
+propFlags
+&
+=
+~
+JSPROP_READONLY
+;
 JSObject
 *
 funobj
@@ -2791,12 +2797,6 @@ propFlags
 =
 JSPROP_SETTER
 ;
-propFlags
-&
-=
-~
-JSPROP_READONLY
-;
 setter
 =
 JS_DATA_TO_FUNC_PTR
@@ -2810,7 +2810,7 @@ else
 {
 setter
 =
-js_GetterOnlyPropertyStub
+nullptr
 ;
 }
 AutoResolveName
