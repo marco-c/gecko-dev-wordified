@@ -439,8 +439,8 @@ to
 a
 network
 .
+{
 let
-(
 ios
 =
 Components
@@ -470,8 +470,7 @@ interfaces
 .
 nsIIOService2
 )
-)
-{
+;
 ios
 .
 manageOfflineStatus
@@ -597,7 +596,6 @@ disable
 it
 .
 let
-(
 prefs
 =
 Components
@@ -625,8 +623,7 @@ interfaces
 .
 nsIPrefBranch
 )
-)
-{
+;
 prefs
 .
 setBoolPref
@@ -640,8 +637,6 @@ enabled
 "
 true
 )
-;
-}
 ;
 }
 try
@@ -853,7 +848,6 @@ classes
 )
 {
 let
-(
 crashReporter
 =
 Components
@@ -883,8 +877,7 @@ interfaces
 .
 nsICrashReporter
 )
-)
-{
+;
 crashReporter
 .
 UpdateCrashEventsDir
@@ -899,7 +892,6 @@ do_get_minidumpdir
 (
 )
 ;
-}
 }
 }
 catch
