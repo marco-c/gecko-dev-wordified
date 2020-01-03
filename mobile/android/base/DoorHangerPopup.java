@@ -195,6 +195,17 @@ gecko
 .
 widget
 .
+DefaultDoorHanger
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
 DoorHanger
 ;
 import
@@ -1087,7 +1098,7 @@ DoorHanger
 newDoorHanger
 =
 new
-DoorHanger
+DefaultDoorHanger
 (
 mContext
 tabId
@@ -1514,7 +1525,7 @@ tabId
 &
 dh
 .
-getValue
+getIdentifier
 (
 )
 .
