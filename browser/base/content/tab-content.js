@@ -1833,6 +1833,16 @@ isAboutReader
 (
 )
 {
+if
+(
+!
+content
+)
+{
+return
+false
+;
+}
 return
 content
 .
