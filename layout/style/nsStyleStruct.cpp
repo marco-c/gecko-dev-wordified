@@ -11824,9 +11824,7 @@ crop
 region
 of
 the
-current
 image
-frame
 is
 opaque
 .
@@ -11835,12 +11833,8 @@ if
 imageContainer
 -
 >
-FrameIsOpaque
+IsOpaque
 (
-imgIContainer
-:
-:
-FRAME_CURRENT
 )
 )
 {

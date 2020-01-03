@@ -896,10 +896,8 @@ bool
 DynamicImage
 :
 :
-FrameIsOpaque
+IsOpaque
 (
-uint32_t
-aWhichFrame
 )
 {
 /

@@ -534,12 +534,6 @@ GetFormat
 )
 const
 ;
-bool
-GetNeedsBackground
-(
-)
-const
-;
 uint32_t
 GetImageBytesPerRow
 (
