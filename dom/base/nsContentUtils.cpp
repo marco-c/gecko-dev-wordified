@@ -30323,7 +30323,7 @@ aDragEvent
 mMessage
 !
 =
-NS_DRAGDROP_GESTURE
+eLegacyDragGesture
 &
 &
 aDragEvent

@@ -917,7 +917,7 @@ case
 eLegacyDragDrop
 :
 case
-NS_DRAGDROP_GESTURE
+eLegacyDragGesture
 :
 case
 eDrag
