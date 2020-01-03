@@ -414,9 +414,10 @@ aEnable
 virtual
 const
 uint32_t
-ParentID
+GetPluginId
 (
 )
+const
 =
 0
 ;

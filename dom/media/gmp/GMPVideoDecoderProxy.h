@@ -367,10 +367,11 @@ Drain
 ;
 virtual
 const
-uint64_t
-ParentID
+uint32_t
+GetPluginId
 (
 )
+const
 =
 0
 ;
