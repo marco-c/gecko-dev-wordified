@@ -1163,9 +1163,16 @@ trace
 :
 "
 +
+Task
+.
+Debugging
+.
+generateReadableStack
+(
 e
 .
 stack
+)
 .
 trim
 (
