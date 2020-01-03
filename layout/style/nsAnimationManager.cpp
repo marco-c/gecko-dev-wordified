@@ -1658,7 +1658,7 @@ isActive
 {
 message
 =
-NS_ANIMATION_START
+eAnimationStart
 ;
 }
 else
@@ -1749,7 +1749,7 @@ AnimationEventInfo
 (
 owningElement
 mAnimationName
-NS_ANIMATION_START
+eAnimationStart
 elapsedTime
 owningPseudoType
 )
@@ -1795,7 +1795,7 @@ if
 message
 =
 =
-NS_ANIMATION_START
+eAnimationStart
 |
 |
 message

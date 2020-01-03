@@ -2266,7 +2266,7 @@ eAnimationEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_ANIMATION_START
+eAnimationStart
 eAnimationEventFirst
 )
 NS_EVENT_MESSAGE
