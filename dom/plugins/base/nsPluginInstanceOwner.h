@@ -954,6 +954,11 @@ bool
 aVisible
 )
 ;
+#
+endif
+/
+/
+XP_MACOSX
 void
 UpdateDocumentActiveState
 (
@@ -961,11 +966,6 @@ bool
 aIsActive
 )
 ;
-#
-endif
-/
-/
-XP_MACOSX
 void
 SetFrame
 (

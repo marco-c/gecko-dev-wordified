@@ -12049,9 +12049,6 @@ bool
 aIsActive
 )
 {
-#
-ifndef
-XP_MACOSX
 if
 (
 mInstanceOwner
@@ -12066,8 +12063,6 @@ aIsActive
 )
 ;
 }
-#
-endif
 }
 /
 /
