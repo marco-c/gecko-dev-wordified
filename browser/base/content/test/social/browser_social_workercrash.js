@@ -662,6 +662,9 @@ about
 :
 socialerror
 ?
+mode
+=
+workerFailure
 "
 )
 =
