@@ -4584,7 +4584,7 @@ nuke
 to
 cope
 .
-MarkCrossCompartmentSlot
+TraceCrossCompartmentEdge
 (
 trc
 obj
