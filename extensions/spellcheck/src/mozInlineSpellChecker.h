@@ -224,6 +224,7 @@ mozInlineSpellStatus
 {
 public
 :
+explicit
 mozInlineSpellStatus
 (
 mozInlineSpellChecker

@@ -95,6 +95,7 @@ PRemoteSpellcheckEngineChild
 {
 public
 :
+explicit
 RemoteSpellcheckEngineChild
 (
 mozSpellChecker

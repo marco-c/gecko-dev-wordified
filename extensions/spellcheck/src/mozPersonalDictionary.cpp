@@ -337,6 +337,7 @@ nsRunnable
 {
 public
 :
+explicit
 mozPersonalDictionaryLoader
 (
 mozPersonalDictionary
