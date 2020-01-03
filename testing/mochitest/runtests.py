@@ -5765,11 +5765,9 @@ path
 join
 (
 SCRIPT_DIR
-'
-tests
+options
 .
-json
-'
+testRunManifestFile
 )
 '
 w
@@ -5801,11 +5799,9 @@ options
 .
 manifestFile
 =
-'
-tests
+options
 .
-json
-'
+testRunManifestFile
     
 return
 self
@@ -11468,6 +11464,14 @@ profile
 "
     
 if
+hasattr
+(
+self
+'
+manifest
+'
+)
+and
 self
 .
 manifest
@@ -11485,6 +11489,16 @@ self
 manifest
 )
     
+if
+hasattr
+(
+self
+'
+profile
+'
+)
+:
+        
 del
 self
 .
@@ -15617,11 +15631,9 @@ path
 join
 (
 SCRIPT_DIR
-'
-tests
+options
 .
-json
-'
+testRunManifestFile
 )
 )
 :
@@ -15636,11 +15648,9 @@ path
 join
 (
 SCRIPT_DIR
-'
-tests
+options
 .
-json
-'
+testRunManifestFile
 )
 )
 as
@@ -18104,7 +18114,7 @@ manifestFile
 TestManifest
 )
 :
-        
+      
 manifest
 =
 options
@@ -18282,6 +18292,28 @@ masterPath
 strict
 =
 False
+)
+      
+else
+:
+        
+self
+.
+_log
+.
+warning
+(
+'
+TestManifest
+masterPath
+%
+s
+does
+not
+exist
+'
+%
+masterPath
 )
     
 return
