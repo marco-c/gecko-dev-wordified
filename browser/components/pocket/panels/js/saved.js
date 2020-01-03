@@ -728,8 +728,6 @@ function
 manualtime
 )
 {
-/
-*
 var
 settime
 =
@@ -801,8 +799,6 @@ closePopup
 settime
 )
 ;
-*
-/
 }
 ;
 this
