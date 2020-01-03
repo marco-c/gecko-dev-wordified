@@ -15574,6 +15574,14 @@ auto
 select
 )
 uint8_t
+mWindowDragging
+;
+/
+/
+[
+inherited
+]
+uint8_t
 mCursor
 ;
 /

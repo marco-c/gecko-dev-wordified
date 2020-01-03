@@ -4707,6 +4707,13 @@ width
 static
 const
 KTableValue
+kWindowDraggingKTable
+[
+]
+;
+static
+const
+KTableValue
 kWindowShadowKTable
 [
 ]

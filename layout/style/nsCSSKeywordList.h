@@ -1724,6 +1724,11 @@ double_struck
 )
 CSS_KEY
 (
+drag
+drag
+)
+CSS_KEY
+(
 drop
 -
 shadow
@@ -2527,6 +2532,13 @@ discretionary
 -
 ligatures
 no_discretionary_ligatures
+)
+CSS_KEY
+(
+no
+-
+drag
+no_drag
 )
 CSS_KEY
 (
