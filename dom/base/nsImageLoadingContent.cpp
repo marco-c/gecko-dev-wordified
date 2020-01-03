@@ -338,6 +338,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozAutoDocUpdate
 .
 h
