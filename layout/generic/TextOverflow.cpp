@@ -1267,6 +1267,11 @@ this
 aCtx
 -
 >
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 foregroundColor

@@ -399,17 +399,6 @@ mP2A
 }
 /
 /
-Graphics
-state
-void
-SetColor
-(
-nscolor
-aColor
-)
-;
-/
-/
 Text
 void
 SetFont

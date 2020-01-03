@@ -2507,6 +2507,11 @@ c
 ;
 aRenderingContext
 .
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 c

@@ -4713,6 +4713,11 @@ eCSSProperty_color
 aCtx
 -
 >
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 mFrame

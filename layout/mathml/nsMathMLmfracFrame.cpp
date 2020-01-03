@@ -3734,6 +3734,11 @@ color
 aCtx
 -
 >
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 mFrame

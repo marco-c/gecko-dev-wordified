@@ -6904,6 +6904,11 @@ and
 color
 aRenderingContext
 .
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 StyleColor
