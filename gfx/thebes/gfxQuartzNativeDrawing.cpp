@@ -323,6 +323,11 @@ SurfaceFormat
 B8G8R8A8
 )
 ;
+if
+(
+mTempDrawTarget
+)
+{
 transform
 .
 PostTranslate
@@ -345,11 +350,17 @@ SetTransform
 transform
 )
 ;
+}
 dt
 =
 mTempDrawTarget
 ;
 }
+if
+(
+dt
+)
+{
 mCGContext
 =
 mBorrowedContext
@@ -364,6 +375,7 @@ MOZ_ASSERT
 mCGContext
 )
 ;
+}
 return
 mCGContext
 ;
