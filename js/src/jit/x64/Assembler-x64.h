@@ -5290,7 +5290,7 @@ rhs
 {
 masm
 .
-testq_i32r
+testq_ir
 (
 rhs
 .
@@ -5357,7 +5357,7 @@ REG
 :
 masm
 .
-testq_i32r
+testq_ir
 (
 rhs
 .
