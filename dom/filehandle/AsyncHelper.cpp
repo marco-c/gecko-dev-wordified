@@ -244,7 +244,7 @@ target
 service
 -
 >
-StreamTransportTarget
+ThreadPoolTarget
 (
 )
 ;
