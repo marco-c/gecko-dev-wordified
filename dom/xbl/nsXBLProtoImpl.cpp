@@ -1804,7 +1804,7 @@ dom
 XULElementBinding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 (
 cx
 global

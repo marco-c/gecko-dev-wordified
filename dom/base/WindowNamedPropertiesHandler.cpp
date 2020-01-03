@@ -125,6 +125,17 @@ mozilla
 /
 dom
 /
+EventTargetBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowBinding
 .
 h
@@ -1740,7 +1751,7 @@ slots
 /
 0
 )
-eInterfacePrototype
+eNamedPropertiesObject
 sWindowNamedPropertiesNativePropertyHooks
 "
 [
@@ -1756,6 +1767,10 @@ id
 :
 _ID_Count
 0
+EventTargetBinding
+:
+:
+GetProtoObject
 }
 ;
 /
