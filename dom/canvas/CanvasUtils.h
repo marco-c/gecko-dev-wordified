@@ -126,6 +126,15 @@ jsapi
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
 class
 nsIPrincipal
 ;
@@ -374,7 +383,7 @@ _f
 if
 (
 !
-NS_finite
+IsFinite
 (
 _f
 )

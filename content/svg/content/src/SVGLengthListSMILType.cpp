@@ -123,6 +123,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
 <
 math
 .
@@ -1911,7 +1920,7 @@ total
 if
 (
 !
-NS_finite
+IsFinite
 (
 distance
 )

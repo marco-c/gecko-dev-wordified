@@ -273,6 +273,15 @@ h
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 nsStyleContext
 .
 h
@@ -4080,7 +4089,7 @@ value
 if
 (
 !
-NS_finite
+IsFinite
 (
 floatValue
 )

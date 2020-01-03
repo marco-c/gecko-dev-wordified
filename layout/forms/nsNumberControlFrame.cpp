@@ -231,6 +231,15 @@ nsThreadUtils
 h
 "
 #
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -4901,7 +4910,7 @@ langTagIter
 ;
 if
 (
-NS_finite
+IsFinite
 (
 value
 )

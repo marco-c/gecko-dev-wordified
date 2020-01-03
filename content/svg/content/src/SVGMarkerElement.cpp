@@ -186,6 +186,15 @@ h
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 SVGContentUtils
 .
 h
@@ -1134,7 +1143,7 @@ Value
 if
 (
 !
-NS_finite
+IsFinite
 (
 f
 )

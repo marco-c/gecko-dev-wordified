@@ -865,7 +865,7 @@ userUnitsPerCurrentUnit
 |
 |
 !
-NS_finite
+IsFinite
 (
 userUnitsPerCurrentUnit
 )
@@ -884,7 +884,7 @@ userUnitsPerNewUnit
 |
 |
 !
-NS_finite
+IsFinite
 (
 userUnitsPerNewUnit
 )
@@ -919,7 +919,7 @@ zero
 .
 if
 (
-NS_finite
+IsFinite
 (
 value
 )

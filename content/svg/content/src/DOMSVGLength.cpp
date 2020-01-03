@@ -177,6 +177,15 @@ h
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 nsSVGAttrTearoffTable
 .
 h
@@ -1303,7 +1312,7 @@ Axis
 if
 (
 !
-NS_finite
+IsFinite
 (
 value
 )
@@ -1577,7 +1586,7 @@ uuPerUnit
 ;
 if
 (
-NS_finite
+IsFinite
 (
 newValue
 )
@@ -1682,7 +1691,7 @@ aUserUnitValue
 if
 (
 !
-NS_finite
+IsFinite
 (
 aUserUnitValue
 )
@@ -1922,7 +1931,7 @@ aValue
 if
 (
 !
-NS_finite
+IsFinite
 (
 aValue
 )
@@ -2374,7 +2383,7 @@ aValue
 if
 (
 !
-NS_finite
+IsFinite
 (
 aValue
 )
@@ -2513,7 +2522,7 @@ Axis
 ;
 if
 (
-NS_finite
+IsFinite
 (
 val
 )
@@ -2562,7 +2571,7 @@ nullptr
 ;
 if
 (
-NS_finite
+IsFinite
 (
 val
 )
