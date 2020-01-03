@@ -149,11 +149,11 @@ navigate
 "
 )
 ;
-navigateTo
-(
-toolbox
+content
+.
+location
+=
 URL_2
-)
 ;
 info
 (
