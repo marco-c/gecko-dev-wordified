@@ -184,7 +184,6 @@ GLContextProviderNull
 :
 GetGlobalContext
 (
-ContextFlags
 )
 {
 return
