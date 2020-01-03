@@ -252,7 +252,7 @@ namespace
 mozilla
 {
 class
-VsyncDispatcher
+CompositorVsyncDispatcher
 ;
 namespace
 dom
@@ -3452,8 +3452,8 @@ typedef
 mozilla
 :
 :
-VsyncDispatcher
-VsyncDispatcher
+CompositorVsyncDispatcher
+CompositorVsyncDispatcher
 ;
 /
 /
@@ -4563,7 +4563,7 @@ GetDPI
 *
 Returns
 the
-VsyncDispatcher
+CompositorVsyncDispatcher
 associated
 with
 this
@@ -4571,9 +4571,9 @@ widget
 *
 /
 virtual
-VsyncDispatcher
+CompositorVsyncDispatcher
 *
-GetVsyncDispatcher
+GetCompositorVsyncDispatcher
 (
 )
 =

@@ -1324,14 +1324,14 @@ gFocusedWindow
 return
 ;
 }
-VsyncDispatcher
+CompositorVsyncDispatcher
 *
 vsyncDispatcher
 =
 gFocusedWindow
 -
 >
-GetVsyncDispatcher
+GetCompositorVsyncDispatcher
 (
 )
 ;
