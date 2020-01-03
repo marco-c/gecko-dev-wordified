@@ -1395,7 +1395,6 @@ Assert
 .
 ok
 (
-!
 addon
 .
 appDisabled
@@ -1405,6 +1404,7 @@ Assert
 .
 ok
 (
+!
 addon
 .
 userDisabled
@@ -1417,13 +1417,7 @@ equal
 addon
 .
 permissions
-AddonManager
-.
-PERM_CAN_UPGRADE
-|
-AddonManager
-.
-PERM_CAN_ENABLE
+0
 )
 ;
 }
