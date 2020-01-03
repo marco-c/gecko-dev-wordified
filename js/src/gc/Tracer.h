@@ -1467,6 +1467,14 @@ Symbol
 sym
 )
 ;
+void
+eagerlyMarkChildren
+(
+LazyScript
+*
+thing
+)
+;
 /
 /
 We
