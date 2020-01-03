@@ -5617,8 +5617,6 @@ cx
 AllocatableGeneralRegisterSet
 regs
 (
-GeneralRegisterSet
-(
 Register
 :
 :
@@ -5626,7 +5624,6 @@ Codes
 :
 :
 WrapperMask
-)
 )
 ;
 /
