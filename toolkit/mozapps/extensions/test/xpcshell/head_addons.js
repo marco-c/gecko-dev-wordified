@@ -7300,7 +7300,7 @@ aPersistent
 .
 value
 =
-false
+true
 ;
 if
 (
