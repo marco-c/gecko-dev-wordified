@@ -715,13 +715,6 @@ InitStatics
 (
 )
 ;
-MediaTaskQueue
-:
-:
-InitStatics
-(
-)
-;
 }
 NS_IMPL_ISUPPORTS
 (
