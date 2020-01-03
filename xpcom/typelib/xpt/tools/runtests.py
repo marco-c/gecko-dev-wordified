@@ -284,16 +284,12 @@ import
 difflib
 import
 os
-import
-shutil
 from
 StringIO
 import
 StringIO
 import
 subprocess
-import
-sys
 import
 tempfile
 import
@@ -418,7 +414,7 @@ path
 join
 (
 MOZILLA_OBJDIR
-                                                   
+                                                      
 "
 dist
 "
