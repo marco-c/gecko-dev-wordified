@@ -20215,6 +20215,10 @@ mPlaybackRate
 )
 ;
 }
+ScheduleStateMachine
+(
+)
+;
 }
 void
 MediaDecoderStateMachine
