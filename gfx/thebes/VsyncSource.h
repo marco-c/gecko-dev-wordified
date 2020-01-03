@@ -454,8 +454,6 @@ GetRefreshTimerVsyncDispatcher
 (
 )
 ;
-protected
-:
 virtual
 Display
 &
@@ -471,6 +469,8 @@ Works
 across
 all
 displays
+protected
+:
 virtual
 ~
 VsyncSource
