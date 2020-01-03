@@ -249,6 +249,17 @@ bool
 aLookupAppCache
 )
 ;
+virtual
+bool
+IsPinning
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 virtual
