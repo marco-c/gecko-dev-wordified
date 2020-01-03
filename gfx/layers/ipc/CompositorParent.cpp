@@ -2307,10 +2307,6 @@ VsyncDispatcher
 (
 this
 platformVsyncSource
-.
-get
-(
-)
 )
 ;
 }
