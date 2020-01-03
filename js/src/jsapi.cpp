@@ -33347,6 +33347,7 @@ JSContext
 cx
 HandleObject
 obj
+const
 char
 *
 bytes
@@ -33458,6 +33459,7 @@ JSContext
 cx
 HandleObject
 obj
+const
 char16_t
 *
 chars
