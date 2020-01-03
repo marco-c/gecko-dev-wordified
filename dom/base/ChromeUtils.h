@@ -181,7 +181,7 @@ toolkit
 /
 devtools
 /
-server
+heapsnapshot
 /
 HeapSnapshot
 .
@@ -197,13 +197,12 @@ JSContext
 *
 cx
 const
-nsAString
-&
-filePath
-const
 HeapSnapshotBoundaries
 &
 boundaries
+nsAString
+&
+filePath
 ErrorResult
 &
 rv
@@ -217,7 +216,7 @@ toolkit
 /
 devtools
 /
-server
+heapsnapshot
 /
 HeapSnapshot
 .

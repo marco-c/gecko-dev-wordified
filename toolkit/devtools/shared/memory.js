@@ -987,17 +987,10 @@ function
 const
 path
 =
-HeapSnapshotFileUtils
-.
-getNewUniqueHeapSnapshotTempFilePath
-(
-)
-;
 ThreadSafeChromeUtils
 .
 saveHeapSnapshot
 (
-path
 {
 debugger
 :
