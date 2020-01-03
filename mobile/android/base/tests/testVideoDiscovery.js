@@ -246,7 +246,7 @@ We
 must
 register
 a
-target
+device
 and
 make
 a
@@ -256,9 +256,9 @@ mock
 service
 for
 the
-target
+device
 var
-testTarget
+testDevice
 =
 {
 id
@@ -364,9 +364,9 @@ browser
 ;
 SimpleServiceDiscovery
 .
-unregisterTarget
+unregisterDevice
 (
-testTarget
+testDevice
 )
 ;
 }
@@ -379,7 +379,7 @@ need
 to
 register
 a
-target
+device
 or
 processService
 will
@@ -387,9 +387,9 @@ ignore
 us
 SimpleServiceDiscovery
 .
-registerTarget
+registerDevice
 (
-testTarget
+testDevice
 )
 ;
 /
