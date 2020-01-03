@@ -4766,7 +4766,6 @@ script
 JS_ExecuteScript
 (
 cx
-global
 script
 )
 )

@@ -182,11 +182,6 @@ tryScript
 JS
 :
 :
-HandleObject
-global
-JS
-:
-:
 HandleScript
 script
 )
@@ -229,7 +224,6 @@ CHECK
 JS_ExecuteScript
 (
 cx
-global
 script
 &
 result
@@ -357,7 +351,6 @@ script
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -417,7 +410,6 @@ script
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -476,7 +468,6 @@ script
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -535,7 +526,6 @@ script
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -594,7 +584,6 @@ script
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -653,7 +642,6 @@ script
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -765,7 +753,6 @@ remove
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -861,7 +848,6 @@ remove
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -975,7 +961,6 @@ script
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -1065,7 +1050,6 @@ script
 return
 tryScript
 (
-global
 script
 )
 ;
@@ -1172,7 +1156,6 @@ script
 return
 tryScript
 (
-global
 script
 )
 ;
