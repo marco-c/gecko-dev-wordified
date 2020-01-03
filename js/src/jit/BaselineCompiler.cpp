@@ -19712,7 +19712,10 @@ storeValue
 (
 Int32Value
 (
-0
+GeneratorObject
+:
+:
+YIELD_INDEX_RUNNING
 )
 Address
 (
@@ -19720,7 +19723,7 @@ genObj
 GeneratorObject
 :
 :
-offsetOfBytecodeOffsetSlot
+offsetOfYieldIndexSlot
 (
 )
 )
