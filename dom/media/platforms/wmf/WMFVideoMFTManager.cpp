@@ -747,7 +747,7 @@ LayersBackend
 LAYERS_D3D11
 &
 &
-Preference
+Preferences
 :
 :
 GetBool
