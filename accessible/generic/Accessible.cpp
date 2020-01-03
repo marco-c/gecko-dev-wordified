@@ -5585,6 +5585,16 @@ IPCDoc
 (
 )
 ;
+MOZ_ASSERT
+(
+ipcDoc
+)
+;
+if
+(
+ipcDoc
+)
+{
 uint64_t
 id
 =
@@ -5872,6 +5882,7 @@ GetEventType
 )
 )
 ;
+}
 }
 }
 nsCOMPtr
