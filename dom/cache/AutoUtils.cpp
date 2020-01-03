@@ -1829,10 +1829,7 @@ entry
 .
 if
 (
-NS_ConvertUTF8toUTF16
-(
 url
-)
 !
 =
 cachedRequest
