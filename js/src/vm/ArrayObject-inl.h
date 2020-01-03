@@ -745,7 +745,7 @@ InitialHeap
 heap
 HandleShape
 shape
-HandleNativeObject
+HandleArrayObject
 sharedElementsOwner
 )
 {

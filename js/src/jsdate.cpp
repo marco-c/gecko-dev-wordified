@@ -19763,7 +19763,7 @@ proto
 .
 as
 <
-NativeObject
+DateObject
 >
 (
 )
@@ -19783,7 +19783,7 @@ proto
 .
 as
 <
-NativeObject
+DateObject
 >
 (
 )

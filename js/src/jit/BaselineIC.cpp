@@ -13094,7 +13094,7 @@ NewObject
 "
 )
 ;
-RootedNativeObject
+RootedPlainObject
 templateObject
 (
 cx
@@ -54975,7 +54975,7 @@ obj
 >
 is
 <
-JSObject
+PlainObject
 >
 (
 )
@@ -54991,7 +54991,7 @@ obj
 .
 as
 <
-NativeObject
+PlainObject
 >
 (
 )
@@ -61622,7 +61622,7 @@ during
 Ion
 compilation
 .
-RootedNativeObject
+RootedPlainObject
 templateObject
 (
 cx

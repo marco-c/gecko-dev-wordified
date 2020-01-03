@@ -29254,7 +29254,7 @@ NewInitObjectFn
 (
 JSContext
 *
-HandleNativeObject
+HandlePlainObject
 )
 ;
 static
@@ -29280,7 +29280,7 @@ NewInitObjectWithClassPrototypeFn
 (
 JSContext
 *
-HandleObject
+HandlePlainObject
 )
 ;
 static
@@ -30139,7 +30139,7 @@ temp
 )
 )
 ;
-NativeObject
+PlainObject
 *
 templateObject
 =
@@ -30524,7 +30524,7 @@ temp
 )
 )
 ;
-NativeObject
+DeclEnvObject
 *
 templateObj
 =
@@ -30717,7 +30717,7 @@ temp
 )
 )
 ;
-NativeObject
+CallObject
 *
 templateObj
 =
@@ -31134,7 +31134,7 @@ getTemp1
 )
 )
 ;
-NativeObject
+CallObject
 *
 templateObj
 =
@@ -32308,7 +32308,7 @@ MutatePrototypeFn
 JSContext
 *
 cx
-HandleObject
+HandlePlainObject
 obj
 HandleValue
 value
@@ -32919,7 +32919,7 @@ LCreateThisWithTemplate
 lir
 )
 {
-NativeObject
+PlainObject
 *
 templateObject
 =

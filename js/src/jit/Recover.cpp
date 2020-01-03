@@ -5899,7 +5899,7 @@ iter
 )
 const
 {
-RootedNativeObject
+RootedPlainObject
 templateObject
 (
 cx
@@ -5916,7 +5916,7 @@ toObject
 .
 as
 <
-NativeObject
+PlainObject
 >
 (
 )
@@ -6446,7 +6446,7 @@ iter
 )
 const
 {
-RootedNativeObject
+RootedPlainObject
 templateObject
 (
 cx
@@ -6463,7 +6463,7 @@ toObject
 .
 as
 <
-NativeObject
+PlainObject
 >
 (
 )
@@ -6638,7 +6638,7 @@ iter
 )
 const
 {
-RootedNativeObject
+RootedPlainObject
 object
 (
 cx
@@ -6655,7 +6655,7 @@ toObject
 .
 as
 <
-NativeObject
+PlainObject
 >
 (
 )
