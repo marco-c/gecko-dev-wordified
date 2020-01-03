@@ -2409,8 +2409,9 @@ get
 the
 selection
 location
-NS_ENSURE_STATE
+if
 (
+!
 selection
 -
 >
@@ -2418,7 +2419,11 @@ RangeCount
 (
 )
 )
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 mRangeItem
 -
 >
