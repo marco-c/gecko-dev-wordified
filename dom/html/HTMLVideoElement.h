@@ -528,8 +528,8 @@ MozHasAudio
 )
 const
 ;
-bool
-NotifyOwnerDocumentActivityChangedInternal
+void
+NotifyOwnerDocumentActivityChanged
 (
 )
 override
