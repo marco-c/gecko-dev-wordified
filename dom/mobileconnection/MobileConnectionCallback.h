@@ -245,6 +245,15 @@ aResult
 )
 ;
 nsresult
+NotifySuccessWithString
+(
+const
+nsAString
+&
+aResult
+)
+;
+nsresult
 NotifySendCancelMmiSuccess
 (
 const
