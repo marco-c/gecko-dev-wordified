@@ -8113,6 +8113,10 @@ style
 match
 .
 finalCompleteValue
+|
+|
+"
+"
 )
 ;
 notifyResults
