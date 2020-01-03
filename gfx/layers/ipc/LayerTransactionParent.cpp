@@ -3731,7 +3731,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-200
+kVisualWarningTrigger
 )
 )
 {
@@ -3746,7 +3746,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-200
+kVisualWarningTrigger
 )
 )
 .
@@ -3754,7 +3754,11 @@ ToMilliseconds
 (
 )
 /
-800
+(
+kVisualWarningMax
+-
+kVisualWarningTrigger
+)
 ;
 if
 (
