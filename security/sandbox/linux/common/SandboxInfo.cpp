@@ -818,6 +818,10 @@ __NR_clone
 SIGCHLD
 |
 CLONE_NEWUSER
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 if
