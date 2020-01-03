@@ -3573,6 +3573,7 @@ ScreenPoint
 GetVelocityVector
 (
 )
+const
 ;
 /
 *
