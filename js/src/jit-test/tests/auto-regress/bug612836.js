@@ -19,7 +19,10 @@ Flags
 :
 /
 /
-wrap
+new
+Proxy
 (
 this
+{
+}
 )
