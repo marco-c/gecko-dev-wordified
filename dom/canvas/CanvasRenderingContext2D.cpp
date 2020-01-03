@@ -19467,6 +19467,14 @@ i
 IsMissing
 (
 )
+&
+&
+d
+-
+>
+mAdvance
+>
+0
 )
 {
 newGlyph
