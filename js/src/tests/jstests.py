@@ -81,7 +81,6 @@ progressbar
 import
 ProgressBar
 if
-(
 sys
 .
 platform
@@ -93,7 +92,6 @@ linux
 '
 )
 or
-    
 sys
 .
 platform
@@ -103,8 +101,6 @@ startswith
 '
 darwin
 '
-)
-   
 )
 :
     
@@ -146,6 +142,7 @@ to
 the
 given
 results
+    
 accumulator
 .
 "
@@ -489,6 +486,9 @@ config
 data
 for
 xulRuntime
+'
+                  
+'
 (
 avoids
 search
@@ -511,6 +511,7 @@ op
 Harness
 Controls
 "
+                             
 "
 Control
 how
@@ -539,6 +540,7 @@ count
 type
 =
 int
+                          
 default
 =
 max
@@ -559,6 +561,9 @@ to
 run
 in
 parallel
+'
+                          
+'
 (
 default
 %
@@ -601,6 +606,9 @@ is
 allows
 to
 run
+'
+                          
+'
 (
 in
 seconds
@@ -660,6 +668,7 @@ default
 =
 '
 '
+                          
 help
 =
 "
@@ -696,6 +705,9 @@ in
 all
 configurations
 tbpl
+'
+                          
+'
 tests
 .
 '
@@ -719,6 +731,7 @@ action
 '
 store_true
 '
+                          
 help
 =
 '
@@ -750,6 +763,7 @@ q
 -
 args
 '
+                          
 help
 =
 '
@@ -777,6 +791,7 @@ action
 '
 store_true
 '
+                          
 help
 =
 '
@@ -802,6 +817,7 @@ action
 '
 store_true
 '
+                          
 help
 =
 '
@@ -813,6 +829,9 @@ stdin
 stdout
 attached
 to
+'
+                          
+'
 caller
 .
 '
@@ -832,6 +851,7 @@ action
 '
 store_true
 '
+                          
 help
 =
 '
@@ -858,6 +878,7 @@ default
 =
 '
 '
+                          
 help
 =
 '
@@ -987,6 +1008,7 @@ dest
 '
 random
 '
+                        
 action
 =
 '
@@ -1023,6 +1045,7 @@ action
 '
 store_true
 '
+                        
 help
 =
 '
@@ -1055,6 +1078,7 @@ action
 '
 store_true
 '
+                        
 help
 =
 '
@@ -1133,6 +1157,9 @@ to
 the
 ECMAScript
 5
+'
+                        
+'
 standard
 .
 '
@@ -1153,6 +1180,7 @@ op
 "
 Output
 "
+                            
 "
 Modify
 the
@@ -1235,6 +1263,9 @@ the
 file
 given
 by
+"
+                         
+"
 -
 -
 output
@@ -1280,6 +1311,9 @@ is
 given
 only
 print
+"
+                         
+"
 output
 for
 failed
@@ -1318,6 +1352,9 @@ output
 for
 failed
 tests
+"
+                         
+"
 (
 no
 -
@@ -1359,6 +1396,9 @@ to
 the
 given
 file
+'
+                         
+'
 (
 default
 :
@@ -1413,6 +1453,7 @@ dest
 '
 hide_progress
 '
+                         
 action
 =
 '
@@ -1475,6 +1516,7 @@ op
 "
 Special
 "
+                             
 "
 Special
 modes
@@ -1794,6 +1836,7 @@ path
 .
 join
 (
+            
 abspath
 (
 dirname
@@ -1804,6 +1847,7 @@ __file__
 )
 )
 )
+            
 '
 .
 .
@@ -1896,6 +1940,7 @@ requested_paths
 =
 set
 (
+                
 [
 line
 .
@@ -2322,6 +2367,7 @@ load
 test_dir
 requested_paths
 excluded_paths
+                              
 xul_tester
 )
     
@@ -2454,6 +2500,9 @@ obsolete
 and
 does
 nothing
+"
+              
+"
 now
 .
 "
@@ -2484,6 +2533,7 @@ paths
 =
 set
 (
+                
 [
 line
 .
@@ -2776,6 +2826,9 @@ match
 command
 line
 arguments
+'
+                  
+'
 debugger
 can
 only
@@ -2793,13 +2846,16 @@ test_list
 print
 (
 '
-%
-s
+{
+}
 '
-%
+.
+format
+(
 tc
 .
 path
+)
 )
             
 return
