@@ -70,14 +70,13 @@ ifTestingSupported
 )
 {
 let
-[
+{
 target
-debuggee
 front
-]
+}
 =
 yield
-initCanavsDebuggerBackend
+initCanvasDebuggerBackend
 (
 WEBGL_ENUM_URL
 )

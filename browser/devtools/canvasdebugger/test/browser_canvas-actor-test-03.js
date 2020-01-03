@@ -57,14 +57,13 @@ ifTestingSupported
 )
 {
 let
-[
+{
 target
-debuggee
 front
-]
+}
 =
 yield
-initCanavsDebuggerBackend
+initCanvasDebuggerBackend
 (
 SIMPLE_CANVAS_URL
 )

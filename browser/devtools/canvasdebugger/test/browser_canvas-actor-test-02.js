@@ -60,11 +60,10 @@ ifTestingSupported
 )
 {
 let
-[
+{
 target
-debuggee
 front
-]
+}
 =
 yield
 initCallWatcherBackend

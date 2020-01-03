@@ -58,14 +58,13 @@ ifTestingSupported
 )
 {
 let
-[
+{
 target
-debuggee
 panel
-]
+}
 =
 yield
-initCanavsDebuggerFrontend
+initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
 )
