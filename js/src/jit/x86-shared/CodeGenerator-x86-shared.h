@@ -2052,14 +2052,6 @@ generateInvalidateEpilogue
 (
 )
 ;
-void
-setReturnDoubleRegs
-(
-LiveRegisterSet
-*
-regs
-)
-;
 }
 ;
 /
