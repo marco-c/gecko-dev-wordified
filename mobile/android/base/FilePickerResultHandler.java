@@ -1715,6 +1715,15 @@ data
 {
 if
 (
+(
+tab
+=
+=
+null
+)
+|
+|
+(
 tab
 .
 getId
@@ -1723,6 +1732,7 @@ getId
 !
 =
 tabId
+)
 )
 {
 return
