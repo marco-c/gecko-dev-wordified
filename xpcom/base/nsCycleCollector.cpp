@@ -5250,7 +5250,6 @@ PL_DHashTableInit
 mPtrToNodeMap
 &
 PtrNodeOps
-nullptr
 sizeof
 (
 PtrToNodeEntry

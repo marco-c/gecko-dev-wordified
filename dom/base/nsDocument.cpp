@@ -21916,7 +21916,6 @@ PL_NewDHashTable
 (
 &
 hash_table_ops
-nullptr
 sizeof
 (
 SubDocMapEntry

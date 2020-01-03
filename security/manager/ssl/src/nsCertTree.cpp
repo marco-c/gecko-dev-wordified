@@ -929,7 +929,6 @@ PL_DHashTableInit
 mCompareCache
 &
 gMapOps
-nullptr
 sizeof
 (
 CompareCacheHashEntryPtr

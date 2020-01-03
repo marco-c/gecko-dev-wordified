@@ -2873,7 +2873,6 @@ PL_DHashTableInit
 sEventListenerManagersHash
 &
 hash_table_ops
-nullptr
 sizeof
 (
 EventListenerManagerMapEntry

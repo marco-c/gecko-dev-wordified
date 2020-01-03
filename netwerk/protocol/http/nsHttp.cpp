@@ -676,7 +676,6 @@ PL_DHashTableInit
 sAtomTable
 &
 ops
-nullptr
 sizeof
 (
 PLDHashEntryStub

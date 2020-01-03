@@ -2971,7 +2971,6 @@ PL_DHashTableInit
 mMappedAttrTable
 &
 MappedAttrTable_Ops
-nullptr
 sizeof
 (
 MappedAttrTableEntry
@@ -3153,7 +3152,6 @@ PL_DHashTableInit
 mLangRuleTable
 &
 LangRuleTable_Ops
-nullptr
 sizeof
 (
 LangRuleTableEntry

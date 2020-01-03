@@ -3805,7 +3805,6 @@ PL_DHashTableInit
 mMap
 &
 mOps
-nullptr
 sizeof
 (
 FNCMapEntry

@@ -1710,7 +1710,6 @@ mObjectValueMap
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 PropertyListMapEntry

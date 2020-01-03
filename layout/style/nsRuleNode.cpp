@@ -9710,7 +9710,6 @@ PL_NewDHashTable
 (
 &
 ChildrenHashOps
-nullptr
 sizeof
 (
 ChildrenHashEntry

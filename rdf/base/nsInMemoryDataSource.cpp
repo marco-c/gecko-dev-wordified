@@ -902,7 +902,6 @@ PL_NewDHashTable
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 Entry
@@ -4026,7 +4025,6 @@ mForwardArcs
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 Entry
@@ -4040,7 +4038,6 @@ mReverseArcs
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 Entry

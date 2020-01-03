@@ -2635,7 +2635,6 @@ PL_DHashTableInit
 mTable
 &
 sOps
-nullptr
 sizeof
 (
 EntryType

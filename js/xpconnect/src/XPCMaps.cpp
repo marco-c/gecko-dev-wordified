@@ -1531,7 +1531,6 @@ PL_NewDHashTable
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 Entry
@@ -1811,7 +1810,6 @@ Entry
 :
 :
 sOps
-nullptr
 sizeof
 (
 Entry
@@ -2005,7 +2003,6 @@ Entry
 :
 :
 sOps
-nullptr
 sizeof
 (
 Entry
@@ -2271,7 +2268,6 @@ PL_NewDHashTable
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 Entry
@@ -2561,7 +2557,6 @@ PL_NewDHashTable
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 Entry
@@ -3370,7 +3365,6 @@ Entry
 :
 :
 sOps
-nullptr
 sizeof
 (
 Entry
@@ -3751,7 +3745,6 @@ Entry
 :
 :
 sOps
-nullptr
 sizeof
 (
 Entry
@@ -4207,7 +4200,6 @@ Entry
 :
 :
 sOps
-nullptr
 sizeof
 (
 Entry
@@ -4503,7 +4495,6 @@ PL_NewDHashTable
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 PLDHashEntryStub

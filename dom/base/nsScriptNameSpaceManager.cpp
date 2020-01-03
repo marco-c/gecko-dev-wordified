@@ -1710,7 +1710,6 @@ PL_DHashTableInit
 mGlobalNames
 &
 hash_table_ops
-nullptr
 sizeof
 (
 GlobalNameMapEntry
@@ -1735,7 +1734,6 @@ PL_DHashTableInit
 mNavigatorNames
 &
 hash_table_ops
-nullptr
 sizeof
 (
 GlobalNameMapEntry

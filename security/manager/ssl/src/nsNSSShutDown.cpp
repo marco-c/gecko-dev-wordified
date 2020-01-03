@@ -263,7 +263,6 @@ PL_DHashTableInit
 mObjects
 &
 gSetOps
-nullptr
 sizeof
 (
 ObjectHashEntry
@@ -276,7 +275,6 @@ PL_DHashTableInit
 mPK11LogoutCancelObjects
 &
 gSetOps
-nullptr
 sizeof
 (
 ObjectHashEntry

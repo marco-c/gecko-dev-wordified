@@ -3894,7 +3894,6 @@ PL_DHashTableInit
 mDB
 &
 gHostDB_ops
-nullptr
 sizeof
 (
 nsHostDBEnt

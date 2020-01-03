@@ -970,9 +970,6 @@ const
 PLDHashTableOps
 *
 aOps
-void
-*
-aData
 uint32_t
 aEntrySize
 uint32_t
@@ -1017,7 +1014,6 @@ PL_DHashTableInit
 (
 table
 aOps
-aData
 aEntrySize
 fallible_t
 (
@@ -1282,9 +1278,6 @@ const
 PLDHashTableOps
 *
 aOps
-void
-*
-aData
 uint32_t
 aEntrySize
 const
@@ -1308,10 +1301,6 @@ false
 ops
 =
 aOps
-;
-data
-=
-aData
 ;
 /
 /
@@ -1486,9 +1475,6 @@ const
 PLDHashTableOps
 *
 aOps
-void
-*
-aData
 uint32_t
 aEntrySize
 const
@@ -1506,7 +1492,6 @@ aTable
 Init
 (
 aOps
-aData
 aEntrySize
 aFallible
 aLength
@@ -1523,9 +1508,6 @@ const
 PLDHashTableOps
 *
 aOps
-void
-*
-aData
 uint32_t
 aEntrySize
 uint32_t
@@ -1539,7 +1521,6 @@ PL_DHashTableInit
 (
 aTable
 aOps
-aData
 aEntrySize
 fallible_t
 (

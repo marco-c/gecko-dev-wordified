@@ -3125,7 +3125,6 @@ PL_DHashTableInit
 gAtomTable
 &
 AtomTableOps
-0
 sizeof
 (
 AtomTableEntry

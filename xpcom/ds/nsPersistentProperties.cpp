@@ -2571,7 +2571,6 @@ PL_DHashTableInit
 mTable
 &
 property_HashTableOps
-nullptr
 sizeof
 (
 PropertyTableEntry

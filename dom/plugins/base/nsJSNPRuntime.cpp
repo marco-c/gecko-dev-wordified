@@ -2244,7 +2244,6 @@ sNPObjWrappers
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 NPObjWrapperHashEntry

@@ -6459,7 +6459,6 @@ PL_DHashTableInit
 mRequests
 &
 hash_table_ops
-nullptr
 sizeof
 (
 RequestMapEntry
