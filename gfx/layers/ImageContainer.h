@@ -2484,6 +2484,9 @@ Image
 >
 mImage
 ;
+TimeStamp
+mTimeStamp
+;
 }
 ;
 /
