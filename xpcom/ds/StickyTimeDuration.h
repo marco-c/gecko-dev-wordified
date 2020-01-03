@@ -127,6 +127,15 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
 namespace
 mozilla
 {
