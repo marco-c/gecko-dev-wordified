@@ -7021,6 +7021,7 @@ ChromeProcessController
 (
 this
 mAPZEventState
+mAPZC
 )
 ;
 return
