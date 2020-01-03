@@ -270,6 +270,10 @@ friend
 class
 BorrowedCairoContext
 ;
+friend
+class
+BorrowedXlibDrawable
+;
 DrawTargetCairo
 (
 )

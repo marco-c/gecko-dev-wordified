@@ -148,6 +148,13 @@ dlfcn
 .
 h
 >
+#
+include
+"
+gfxPlatformGtk
+.
+h
+"
 static
 uint32_t
 sScreenId
