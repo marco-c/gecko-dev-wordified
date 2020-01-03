@@ -1921,6 +1921,13 @@ function
 (
 )
 {
+yield
+TelemetrySend
+.
+shutdown
+(
+)
+;
 do_test_finished
 (
 )

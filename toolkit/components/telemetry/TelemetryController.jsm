@@ -1538,7 +1538,11 @@ returns
 {
 Promise
 }
-A
+Test
+-
+only
+-
+a
 promise
 that
 resolves
@@ -1590,7 +1594,9 @@ addEnvironment
 |
 false
 ;
-return
+const
+testOnly
+=
 Impl
 .
 submitExternalPing
@@ -1599,6 +1605,9 @@ aType
 aPayload
 aOptions
 )
+;
+return
+testOnly
 ;
 }
 /
@@ -3452,7 +3461,11 @@ returns
 {
 Promise
 }
-A
+Test
+-
+only
+-
+a
 promise
 that
 is
