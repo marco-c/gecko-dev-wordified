@@ -2906,14 +2906,14 @@ rtSizes
 >
 gc
 .
-nurseryHugeSlots
+nurseryMallocedBuffers
 +
 =
 gc
 .
 nursery
 .
-sizeOfHugeSlots
+sizeOfMallocedBuffers
 (
 mallocSizeOf
 )
