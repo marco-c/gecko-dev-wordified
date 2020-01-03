@@ -337,6 +337,7 @@ SiteHPKPState
 (
 )
 ;
+explicit
 SiteHPKPState
 (
 nsCString
@@ -500,6 +501,7 @@ SiteHSTSState
 {
 public
 :
+explicit
 SiteHSTSState
 (
 nsCString
