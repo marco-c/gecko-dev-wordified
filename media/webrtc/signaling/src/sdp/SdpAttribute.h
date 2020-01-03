@@ -7667,6 +7667,13 @@ Parameters
 {
 public
 :
+static
+const
+uint32_t
+kDefaultProfileLevelId
+=
+0x420010
+;
 H264Parameters
 (
 )
@@ -7688,7 +7695,7 @@ false
 )
 profile_level_id
 (
-0
+kDefaultProfileLevelId
 )
 max_mbps
 (
