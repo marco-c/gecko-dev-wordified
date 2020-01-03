@@ -109,6 +109,10 @@ data
 =
 PerformanceController
 .
+getCurrentRecording
+(
+)
+.
 getAllData
 (
 )
@@ -325,6 +329,10 @@ let
 importedData
 =
 PerformanceController
+.
+getCurrentRecording
+(
+)
 .
 getAllData
 (
