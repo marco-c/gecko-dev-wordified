@@ -17594,7 +17594,7 @@ fc
 >
 IsDisabledForEvents
 (
-NS_EVENT_NULL
+eVoidEvent
 )
 )
 {

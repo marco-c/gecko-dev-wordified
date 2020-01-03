@@ -7979,7 +7979,7 @@ lParam
 EventMessage
 contentCommandMessage
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 switch
 (

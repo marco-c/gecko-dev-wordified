@@ -39839,7 +39839,7 @@ aTargetContent
 EventMessage
 pointerMessage
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 if
 (

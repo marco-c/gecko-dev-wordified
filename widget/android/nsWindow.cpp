@@ -5236,7 +5236,7 @@ event
 mMessage
 =
 =
-NS_EVENT_NULL
+eVoidEvent
 )
 {
 /
@@ -5754,7 +5754,7 @@ event
 mMessage
 !
 =
-NS_EVENT_NULL
+eVoidEvent
 )
 {
 nsEventStatus
@@ -6308,7 +6308,7 @@ X
 EventMessage
 msg
 =
-NS_EVENT_NULL
+eVoidEvent
 ;
 switch
 (

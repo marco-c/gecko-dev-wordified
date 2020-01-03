@@ -128,7 +128,7 @@ aValue
 /
 NS_EVENT_MESSAGE
 (
-NS_EVENT_NULL
+eVoidEvent
 0
 )
 /

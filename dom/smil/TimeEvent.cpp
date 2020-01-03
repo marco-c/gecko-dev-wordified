@@ -189,7 +189,7 @@ new
 InternalSMILTimeEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 )
 )
 mDetail

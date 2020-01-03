@@ -186,7 +186,7 @@ new
 InternalClipboardEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 )
 )
 {

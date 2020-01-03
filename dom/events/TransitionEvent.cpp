@@ -175,7 +175,7 @@ new
 InternalTransitionEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 )
 )
 {

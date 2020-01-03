@@ -406,7 +406,7 @@ aEventMessage
 mozilla
 :
 :
-NS_EVENT_NULL
+eVoidEvent
 nsInvalidateRequestList
 *
 aInvalidateRequests

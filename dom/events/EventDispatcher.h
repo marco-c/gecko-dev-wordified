@@ -1385,7 +1385,7 @@ mMessage
 should
 be
 *
-NS_EVENT_NULL
+eVoidEvent
 .
 *
 note

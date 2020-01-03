@@ -1528,7 +1528,7 @@ WidgetEvent
 event
 (
 true
-NS_EVENT_NULL
+eVoidEvent
 )
 ;
 nsTArray

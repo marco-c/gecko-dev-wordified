@@ -189,7 +189,7 @@ new
 WidgetMouseEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 nullptr
 WidgetMouseEvent
 :

@@ -175,7 +175,7 @@ new
 InternalAnimationEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 )
 )
 {

@@ -178,7 +178,7 @@ new
 InternalMutationEvent
 (
 false
-NS_EVENT_NULL
+eVoidEvent
 )
 )
 {
