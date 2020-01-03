@@ -3430,7 +3430,7 @@ nsILoadGroup
 >
 loadGroup
 =
-mImportParent
+master
 -
 >
 GetDocumentLoadGroup
