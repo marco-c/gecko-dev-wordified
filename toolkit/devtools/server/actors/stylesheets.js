@@ -4398,6 +4398,7 @@ column
 :
 column
 }
+;
 }
 )
 ;
