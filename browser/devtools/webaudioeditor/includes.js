@@ -159,8 +159,6 @@ jsm
 ;
 const
 {
-devtools
-:
 loader
 require
 }

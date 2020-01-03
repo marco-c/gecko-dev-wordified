@@ -133,8 +133,6 @@ jsm
 const
 {
 require
-devtools
-:
 loader
 }
 =

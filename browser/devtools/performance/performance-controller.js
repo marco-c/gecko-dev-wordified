@@ -81,8 +81,6 @@ Components
 ;
 const
 {
-devtools
-:
 loader
 require
 }

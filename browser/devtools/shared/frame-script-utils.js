@@ -81,7 +81,7 @@ Components
 ;
 const
 {
-devtools
+loader
 }
 =
 Cu
@@ -107,7 +107,7 @@ jsm
 }
 )
 ;
-devtools
+loader
 .
 lazyImporter
 (
@@ -133,7 +133,7 @@ Promise
 "
 )
 ;
-devtools
+loader
 .
 lazyImporter
 (
@@ -160,7 +160,7 @@ Task
 )
 ;
 const
-loader
+subScriptLoader
 =
 Cc
 [
@@ -192,7 +192,7 @@ EventUtils
 {
 }
 ;
-loader
+subScriptLoader
 .
 loadSubScript
 (
@@ -212,7 +212,7 @@ js
 EventUtils
 )
 ;
-devtools
+loader
 .
 lazyGetter
 (
