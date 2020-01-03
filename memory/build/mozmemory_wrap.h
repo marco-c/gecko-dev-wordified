@@ -990,6 +990,13 @@ defined
 (
 MOZ_REPLACE_MALLOC
 )
+&
+&
+!
+defined
+(
+MOZ_REPLACE_JEMALLOC
+)
 #
 define
 mozmem_malloc_impl
