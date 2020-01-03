@@ -214,6 +214,17 @@ mozilla
 /
 ipc
 /
+DaemonSocket
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 ListenSocket
 .
 h
