@@ -3028,6 +3028,7 @@ for
 subclass
 *
 /
+explicit
 ProxyOptions
 (
 bool

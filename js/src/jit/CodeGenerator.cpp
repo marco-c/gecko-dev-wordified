@@ -61552,6 +61552,7 @@ ins_
 ;
 public
 :
+explicit
 OutOfLineIsCallable
 (
 LIsCallable
