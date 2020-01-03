@@ -5698,7 +5698,6 @@ NS_WARN_IF
 GetOrCreateDOMReflector
 (
 cx
-target
 aElement
 &
 v

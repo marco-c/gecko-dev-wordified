@@ -313,6 +313,7 @@ p
 >
 CreateWrapper
 (
+nullptr
 aRv
 )
 ;
@@ -397,6 +398,15 @@ aAbortCallback
 ErrorResult
 &
 aRv
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aDesiredProto
 )
 {
 nsCOMPtr
@@ -450,6 +460,7 @@ promise
 >
 CreateWrapper
 (
+aDesiredProto
 aRv
 )
 ;

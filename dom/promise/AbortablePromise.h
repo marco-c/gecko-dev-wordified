@@ -330,6 +330,15 @@ aAbortCallback
 ErrorResult
 &
 aRv
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aDesiredProto
 )
 ;
 void
