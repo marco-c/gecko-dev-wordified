@@ -8777,8 +8777,9 @@ false
 ;
 /
 /
-Disable
-scanning
+Whether
+to
+scan
 for
 DevTools
 devices
@@ -8795,12 +8796,12 @@ wifi
 .
 scan
 "
-false
+true
 )
 ;
 /
 /
-Hide
+Whether
 UI
 options
 for
@@ -8809,6 +8810,8 @@ device
 visibility
 over
 WiFi
+are
+shown
 /
 /
 N
@@ -8856,7 +8859,7 @@ wifi
 .
 visible
 "
-false
+true
 )
 ;
 /
