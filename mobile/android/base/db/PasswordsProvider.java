@@ -1124,14 +1124,11 @@ guid
 String
 nowString
 =
-new
 Long
-(
-now
-)
 .
 toString
 (
+now
 )
 ;
 DBUtils
