@@ -1038,8 +1038,6 @@ mNumCacheMisses
 void
 GetLocation
 (
-uint32_t
-aFrameNumber
 const
 void
 *

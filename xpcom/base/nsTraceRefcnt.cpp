@@ -5415,8 +5415,6 @@ static
 void
 PrintStackFrame
 (
-uint32_t
-aFrameNumber
 void
 *
 aPC
@@ -5456,7 +5454,6 @@ details
 ;
 NS_FormatCodeAddressDetails
 (
-aFrameNumber
 aPC
 &
 details
@@ -5478,8 +5475,6 @@ static
 void
 PrintStackFrameCached
 (
-uint32_t
-aFrameNumber
 void
 *
 aPC
@@ -5521,7 +5516,6 @@ gCodeAddressService
 >
 GetLocation
 (
-aFrameNumber
 aPC
 buf
 buflen

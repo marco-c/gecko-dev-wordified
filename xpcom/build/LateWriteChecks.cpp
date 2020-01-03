@@ -557,8 +557,6 @@ static
 void
 RecordStackWalker
 (
-uint32_t
-aFrameNumber
 void
 *
 aPC

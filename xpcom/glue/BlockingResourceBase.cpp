@@ -315,8 +315,6 @@ BlockingResourceBase
 :
 StackWalkCallback
 (
-uint32_t
-aFrameNumber
 void
 *
 aPc

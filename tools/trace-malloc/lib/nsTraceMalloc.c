@@ -5569,8 +5569,6 @@ static
 void
 stack_callback
 (
-uint32_t
-frameNumber
 void
 *
 pc
