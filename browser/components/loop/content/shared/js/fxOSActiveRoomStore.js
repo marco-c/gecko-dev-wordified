@@ -209,6 +209,14 @@ false
 failureReason
 :
 undefined
+localVideoDimensions
+:
+{
+}
+remoteVideoDimensions
+:
+{
+}
 }
 ;
 }
