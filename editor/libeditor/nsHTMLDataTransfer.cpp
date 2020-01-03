@@ -4560,6 +4560,11 @@ rv
 rv
 )
 ;
+if
+(
+leftLink
+)
+{
 selNode
 =
 GetNodeLocation
@@ -4580,6 +4585,7 @@ selOffset
 1
 )
 ;
+}
 }
 }
 }
