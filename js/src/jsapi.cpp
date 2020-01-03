@@ -3105,6 +3105,16 @@ init
 return
 false
 ;
+jit
+:
+:
+ExecutableAllocator
+:
+:
+initStatic
+(
+)
+;
 if
 (
 !
