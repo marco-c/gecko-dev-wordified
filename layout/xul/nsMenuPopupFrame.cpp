@@ -8524,7 +8524,7 @@ device
 pixels
 ignoring
 any
-zoom
+scaling
 as
 mScreenXPos
 and
@@ -8532,7 +8532,7 @@ and
 /
 mScreenYPos
 are
-unzoomed
+unscaled
 screen
 coordinates
 .
@@ -8542,7 +8542,7 @@ factor
 devContext
 -
 >
-AppUnitsPerDevPixelAtUnitFullZoom
+UnscaledAppUnitsPerDevPixel
 (
 )
 ;
@@ -8626,7 +8626,7 @@ units
 accounting
 for
 the
-zoom
+scaling
 screenPoint
 .
 x
