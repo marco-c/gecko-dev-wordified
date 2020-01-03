@@ -198,9 +198,8 @@ inputAndLoadUrl
 blank1
 )
 ;
-verifyPageTitle
+verifyUrlBarTitle
 (
-title
 blank1
 )
 ;
@@ -698,9 +697,8 @@ SpecialKey
 BACK
 )
 ;
-verifyPageTitle
+verifyUrlBarTitle
 (
-title
 url
 )
 ;

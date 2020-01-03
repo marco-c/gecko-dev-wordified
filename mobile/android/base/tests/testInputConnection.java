@@ -229,9 +229,6 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
-.
-ROBOCOP_INPUT_TITLE
 url
 )
 ;

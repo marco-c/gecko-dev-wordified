@@ -391,9 +391,8 @@ dismissal
 "
 )
 ;
-verifyPageTitle
+verifyUrlBarTitle
 (
-GUM_PAGE_FAILED
 GUM_CAMERA_URL
 )
 ;
@@ -699,9 +698,8 @@ hidden
 "
 )
 ;
-verifyPageTitle
+verifyUrlBarTitle
 (
-GUM_PAGE_VIDEO
 GUM_TAB_HTTPS_URL
 )
 ;
@@ -891,9 +889,8 @@ hidden
 "
 )
 ;
-verifyPageTitle
+verifyUrlBarTitle
 (
-GUM_PAGE_AUDIOVIDEO
 GUM_TAB_HTTPS_URL
 )
 ;
@@ -1037,9 +1034,8 @@ dismissal
 "
 )
 ;
-verifyPageTitle
+verifyUrlBarTitle
 (
-GUM_PAGE_AUDIO
 GUM_TAB_HTTPS_URL
 )
 ;

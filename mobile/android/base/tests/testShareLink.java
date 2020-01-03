@@ -246,9 +246,8 @@ inputAndLoadUrl
 url
 )
 ;
-verifyPageTitle
+verifyUrlBarTitle
 (
-urlTitle
 url
 )
 ;
