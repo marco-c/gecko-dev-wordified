@@ -28425,6 +28425,15 @@ if
 (
 !
 shell
+|
+|
+!
+shell
+-
+>
+GetCanvasFrame
+(
+)
 )
 {
 aRv
