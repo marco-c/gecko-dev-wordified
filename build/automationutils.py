@@ -2899,17 +2899,6 @@ XRE_NO_WINDOWS_CRASH_DIALOG
 1
 '
   
-env
-[
-'
-NS_TRACE_MALLOC_DISABLE_STACKS
-'
-]
-=
-'
-1
-'
-  
 if
 crashreporter
 and
