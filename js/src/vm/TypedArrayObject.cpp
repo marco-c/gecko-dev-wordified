@@ -574,6 +574,9 @@ newData
 {
 setSlot
 (
+TypedArrayLayout
+:
+:
 LENGTH_SLOT
 Int32Value
 (
@@ -583,6 +586,9 @@ Int32Value
 ;
 setSlot
 (
+TypedArrayLayout
+:
+:
 BYTEOFFSET_SLOT
 Int32Value
 (
@@ -747,6 +753,9 @@ tarray
 >
 setSlot
 (
+TypedArrayLayout
+:
+:
 BUFFER_SLOT
 ObjectValue
 (
@@ -2131,6 +2140,9 @@ obj
 >
 setSlot
 (
+TypedArrayLayout
+:
+:
 BUFFER_SLOT
 ObjectOrNullValue
 (
@@ -2191,6 +2203,9 @@ obj
 >
 setSlot
 (
+TypedArrayLayout
+:
+:
 LENGTH_SLOT
 Int32Value
 (
@@ -2203,6 +2218,9 @@ obj
 >
 setSlot
 (
+TypedArrayLayout
+:
+:
 BYTEOFFSET_SLOT
 Int32Value
 (
@@ -2314,6 +2332,9 @@ numFixedSlots
 )
 =
 =
+TypedArrayLayout
+:
+:
 DATA_SLOT
 )
 ;
@@ -6035,6 +6056,9 @@ dvobj
 .
 setFixedSlot
 (
+TypedArrayLayout
+:
+:
 BYTEOFFSET_SLOT
 Int32Value
 (
@@ -6046,6 +6070,9 @@ dvobj
 .
 setFixedSlot
 (
+TypedArrayLayout
+:
+:
 LENGTH_SLOT
 Int32Value
 (
@@ -6057,6 +6084,9 @@ dvobj
 .
 setFixedSlot
 (
+TypedArrayLayout
+:
+:
 BUFFER_SLOT
 ObjectValue
 (
@@ -6109,6 +6139,9 @@ numFixedSlots
 )
 =
 =
+TypedArrayLayout
+:
+:
 DATA_SLOT
 )
 ;
@@ -10783,7 +10816,7 @@ _typedArray
 \
 JSCLASS_HAS_RESERVED_SLOTS
 (
-TypedArrayObject
+TypedArrayLayout
 :
 :
 RESERVED_SLOTS
@@ -10865,7 +10898,10 @@ construct
 *
 /
 \
-nullptr
+ArrayBufferViewObject
+:
+:
+trace
 /
 *
 trace
@@ -11763,7 +11799,10 @@ nullptr
 construct
 *
 /
-nullptr
+ArrayBufferViewObject
+:
+:
+trace
 /
 *
 trace
@@ -12526,6 +12565,9 @@ newData
 {
 setSlot
 (
+TypedArrayLayout
+:
+:
 LENGTH_SLOT
 Int32Value
 (
@@ -12535,6 +12577,9 @@ Int32Value
 ;
 setSlot
 (
+TypedArrayLayout
+:
+:
 BYTEOFFSET_SLOT
 Int32Value
 (
