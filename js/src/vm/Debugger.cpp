@@ -19615,6 +19615,11 @@ NullValue
 )
 )
 ;
+Debugger
+*
+debugger
+;
+{
 /
 *
 Construct
@@ -19664,8 +19669,6 @@ cx
 return
 false
 ;
-Debugger
-*
 debugger
 =
 dbg
@@ -19688,6 +19691,7 @@ owns
 the
 released
 pointer
+}
 /
 *
 Add
