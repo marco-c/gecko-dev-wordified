@@ -8955,6 +8955,9 @@ soon
 bool
 mSentFirstFrameLoadedEvent
 ;
+bool
+mSentPlaybackEndedEvent
+;
 }
 ;
 }
