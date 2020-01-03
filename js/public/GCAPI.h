@@ -798,7 +798,7 @@ GC
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -826,7 +826,7 @@ GC
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -876,7 +876,7 @@ automatically
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -919,7 +919,7 @@ engine
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -958,7 +958,7 @@ GC
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -1065,7 +1065,7 @@ system
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -1336,7 +1336,7 @@ interval
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -1424,7 +1424,7 @@ interval
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -1496,7 +1496,7 @@ false
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -1581,7 +1581,7 @@ GC_CYCLE_END
 }
 ;
 struct
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 GCDescription
 )
@@ -1683,7 +1683,7 @@ marking
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 GCSliceCallback
 )
@@ -1751,7 +1751,7 @@ runtime
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -1842,7 +1842,7 @@ expected
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -1911,7 +1911,7 @@ runtime
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -1936,7 +1936,7 @@ enabled
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -1969,7 +1969,8 @@ slices
 .
 *
 /
-JS_FRIEND_API
+extern
+JS_PUBLIC_API
 (
 bool
 )
@@ -2030,7 +2031,7 @@ performance
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -2042,7 +2043,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -2084,7 +2085,7 @@ IsIncrementalBarrierNeeded
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -2095,7 +2096,7 @@ thing
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -2108,7 +2109,7 @@ v
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -2135,7 +2136,7 @@ incrementally
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -2202,7 +2203,7 @@ scope
 *
 /
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 AutoDisableGenerationalGC
 )
@@ -2264,7 +2265,7 @@ runtime
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -2317,7 +2318,7 @@ activity
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 size_t
 )
@@ -2368,7 +2369,7 @@ immediately
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
