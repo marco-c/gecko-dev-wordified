@@ -144,11 +144,6 @@ setup
 explicit_done
 :
 true
-timeout
-:
-30
-*
-1000
 }
 )
 ;

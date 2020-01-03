@@ -42,7 +42,7 @@ aborted
 timeout
 will
 be
-400
+TIME_REGULAR_TIMEOUT
 but
 will
 never
@@ -57,10 +57,7 @@ t
 called
 .
 After
-a
-1
-second
-delay
+TIME_NORMAL_LOAD
 the
 test
 asserts
@@ -101,16 +98,13 @@ abort
 (
 )
 after
-a
-1
-second
-delay
+TIME_NORMAL_LOAD
 but
 it
 also
 has
 a
-400ms
+TIME_REGULAR_TIMEOUT
 timeout
 .
 Asserts
@@ -124,7 +118,6 @@ abort
 )
 is
 called
-600ms
 later
 and
 should
