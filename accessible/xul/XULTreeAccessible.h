@@ -136,6 +136,9 @@ mozilla
 namespace
 a11y
 {
+class
+XULTreeGridCellAccessible
+;
 /
 *
 *
@@ -954,7 +957,7 @@ null
 *
 /
 virtual
-Accessible
+XULTreeGridCellAccessible
 *
 GetCellAccessible
 (
