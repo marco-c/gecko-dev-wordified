@@ -332,6 +332,7 @@ CacheRequestResponse
 &
 aPut
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
