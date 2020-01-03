@@ -281,10 +281,6 @@ android
 ;
 using
 namespace
-base
-;
-using
-namespace
 mozilla
 :
 :
@@ -296,6 +292,12 @@ mozilla
 :
 :
 gl
+;
+using
+base
+:
+:
+FileDescriptor
 ;
 namespace
 IPC

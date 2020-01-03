@@ -151,11 +151,13 @@ h
 "
 using
 namespace
-base
+std
 ;
 using
-namespace
-std
+base
+:
+:
+ProcessHandle
 ;
 namespace
 mozilla

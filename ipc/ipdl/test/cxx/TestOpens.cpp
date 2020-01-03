@@ -126,10 +126,6 @@ obj
 ;
 using
 namespace
-base
-;
-using
-namespace
 mozilla
 :
 :
