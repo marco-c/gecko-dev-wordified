@@ -589,9 +589,6 @@ candidate
 int32_t
 charRefBufMark
 ;
-int32_t
-prevValue
-;
 protected
 :
 int32_t
