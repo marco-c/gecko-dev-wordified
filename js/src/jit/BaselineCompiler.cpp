@@ -1002,9 +1002,16 @@ append
 indexEntry
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 Method_Error
 ;
+}
 previousOffset
 =
 entry

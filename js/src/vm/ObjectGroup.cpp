@@ -6078,6 +6078,11 @@ init
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 js_delete
 (
 table
@@ -6932,6 +6937,11 @@ init
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 js_delete
 (
 table
@@ -8416,6 +8426,11 @@ init
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 js_delete
 (
 table
