@@ -1729,7 +1729,13 @@ has
 exponent
 1
 .
+mozilla
+:
+:
+DebugOnly
+<
 uint32_t
+>
 adjustedExponent
 =
 max_exponent_
