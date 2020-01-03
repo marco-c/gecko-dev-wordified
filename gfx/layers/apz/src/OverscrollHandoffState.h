@@ -664,7 +664,7 @@ AsyncPanZoomController
 FindFirstScrollable
 (
 const
-ScrollWheelInput
+InputData
 &
 aInput
 )

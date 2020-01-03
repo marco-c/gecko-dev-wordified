@@ -2926,6 +2926,17 @@ mLineScrollAmount
 .
 /
 /
+For
+pixel
+deltas
+these
+values
+are
+in
+ScreenCoords
+.
+/
+/
 /
 /
 The

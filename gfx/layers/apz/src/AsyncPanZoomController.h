@@ -2774,7 +2774,7 @@ bool
 CanScroll
 (
 const
-ScrollWheelInput
+InputData
 &
 aEvent
 )
