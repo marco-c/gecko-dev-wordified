@@ -1143,8 +1143,6 @@ yet
 require
 (
 "
-sdk
-/
 test
 "
 )

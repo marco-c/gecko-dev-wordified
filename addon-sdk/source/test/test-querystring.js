@@ -2391,8 +2391,6 @@ undefined
 require
 (
 "
-sdk
-/
 test
 "
 )

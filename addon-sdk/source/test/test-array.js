@@ -1195,8 +1195,6 @@ null
 require
 (
 '
-sdk
-/
 test
 '
 )

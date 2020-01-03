@@ -78,7 +78,7 @@ traceback
 const
 REQUIRE_LINE_NO
 =
-29
+30
 ;
 exports
 .
@@ -566,8 +566,6 @@ number
 require
 (
 '
-sdk
-/
 test
 '
 )

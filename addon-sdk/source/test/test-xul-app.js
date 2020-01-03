@@ -310,6 +310,9 @@ Firefox
 Mozilla
 "
 "
+Sunbird
+"
+"
 SeaMonkey
 "
 "
@@ -2158,8 +2161,6 @@ v
 require
 (
 "
-sdk
-/
 test
 "
 )

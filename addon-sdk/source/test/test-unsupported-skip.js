@@ -187,8 +187,6 @@ applications
 require
 (
 '
-sdk
-/
 test
 '
 )

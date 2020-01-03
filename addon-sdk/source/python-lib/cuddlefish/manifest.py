@@ -3942,25 +3942,6 @@ intentionally
 continue
                     
 if
-reqname
-.
-endswith
-(
-"
-.
-jsm
-"
-)
-:
-                        
-#
-ignore
-JSM
-modules
-                        
-continue
-                    
-if
 not
 self
 .

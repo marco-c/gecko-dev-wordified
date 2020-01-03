@@ -2403,8 +2403,6 @@ e
 require
 (
 "
-sdk
-/
 test
 "
 )

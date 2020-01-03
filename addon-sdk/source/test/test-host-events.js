@@ -1010,8 +1010,6 @@ e
 require
 (
 '
-sdk
-/
 test
 '
 )

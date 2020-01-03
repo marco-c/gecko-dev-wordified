@@ -314,8 +314,6 @@ throws
 require
 (
 '
-sdk
-/
 test
 '
 )

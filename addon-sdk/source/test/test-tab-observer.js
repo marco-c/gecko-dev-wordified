@@ -403,8 +403,6 @@ done
 require
 (
 "
-sdk
-/
 test
 "
 )

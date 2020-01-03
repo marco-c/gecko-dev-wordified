@@ -1451,8 +1451,6 @@ worked
 require
 (
 "
-sdk
-/
 test
 "
 )

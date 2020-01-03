@@ -2220,8 +2220,6 @@ false
 require
 (
 "
-sdk
-/
 test
 "
 )

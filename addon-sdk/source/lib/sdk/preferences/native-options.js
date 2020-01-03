@@ -982,10 +982,6 @@ title
 title
 )
 ;
-if
-(
-description
-)
 setting
 .
 setAttribute

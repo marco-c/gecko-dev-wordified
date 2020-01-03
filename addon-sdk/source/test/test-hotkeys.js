@@ -1111,8 +1111,6 @@ done
 require
 (
 "
-sdk
-/
 test
 "
 )

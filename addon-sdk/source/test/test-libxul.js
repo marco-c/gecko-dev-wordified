@@ -197,8 +197,6 @@ successfully
 require
 (
 '
-sdk
-/
 test
 '
 )

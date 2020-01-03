@@ -539,8 +539,6 @@ throws
 require
 (
 "
-sdk
-/
 test
 "
 )

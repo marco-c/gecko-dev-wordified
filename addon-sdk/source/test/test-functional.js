@@ -4145,8 +4145,6 @@ fn
 require
 (
 '
-sdk
-/
 test
 '
 )

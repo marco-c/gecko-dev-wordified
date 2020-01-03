@@ -1836,8 +1836,6 @@ called
 require
 (
 "
-sdk
-/
 test
 "
 )

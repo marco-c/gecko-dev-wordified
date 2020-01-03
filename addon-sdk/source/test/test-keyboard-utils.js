@@ -573,8 +573,6 @@ key
 require
 (
 "
-sdk
-/
 test
 "
 )

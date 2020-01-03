@@ -557,8 +557,6 @@ done
 require
 (
 "
-sdk
-/
 test
 "
 )

@@ -2264,8 +2264,6 @@ invoked
 require
 (
 "
-sdk
-/
 test
 "
 )

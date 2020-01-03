@@ -98,13 +98,6 @@ SeaMonkey
 "
 *
 "
-"
-Thunderbird
-"
-:
-"
-*
-"
 }
 }
 ;
@@ -879,6 +872,7 @@ text
 html
 flavor
 let
+(
 str
 =
 Cc
@@ -902,7 +896,8 @@ Ci
 .
 nsISupportsString
 )
-;
+)
+{
 str
 .
 data
@@ -933,6 +928,7 @@ length
 2
 )
 ;
+}
 /
 /
 add
@@ -948,6 +944,8 @@ to
 plain
 text
 )
+let
+(
 str
 =
 Cc
@@ -971,8 +969,6 @@ Ci
 .
 nsISupportsString
 )
-;
-let
 converter
 =
 Cc
@@ -996,7 +992,8 @@ Ci
 .
 nsIFeedTextConstruct
 )
-;
+)
+{
 converter
 .
 type
@@ -1053,6 +1050,7 @@ length
 2
 )
 ;
+}
 break
 ;
 /

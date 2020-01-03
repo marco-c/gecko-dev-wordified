@@ -73,6 +73,8 @@ require
 content
 /
 worker
+-
+parent
 '
 )
 .

@@ -273,7 +273,6 @@ win
 let
 processes
 =
-new
 WeakMap
 (
 )

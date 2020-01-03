@@ -2267,8 +2267,6 @@ test
 .
 run
 (
-module
-.
 exports
 )
 ;

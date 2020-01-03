@@ -616,8 +616,6 @@ false
 require
 (
 '
-sdk
-/
 test
 '
 )
