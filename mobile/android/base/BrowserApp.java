@@ -8141,6 +8141,15 @@ stop
 boolean
 isSideBar
 =
+!
+NewTabletUI
+.
+isEnabled
+(
+this
+)
+&
+&
 (
 HardwareUtils
 .
