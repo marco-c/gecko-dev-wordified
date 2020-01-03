@@ -469,7 +469,7 @@ eCut
 eCopy
 or
 *
-NS_PASTE
+ePaste
 and
 perform
 the

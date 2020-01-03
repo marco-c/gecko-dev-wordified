@@ -1394,7 +1394,7 @@ eClipboardEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_PASTE
+ePaste
 eClipboardEventFirst
 +
 2
