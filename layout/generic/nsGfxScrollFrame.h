@@ -2819,6 +2819,11 @@ DisplayItemClip
 *
 mAncestorClip
 ;
+const
+DisplayItemClip
+*
+mAncestorClipForCaret
+;
 bool
 mNeverHasVerticalScrollbar
 :
