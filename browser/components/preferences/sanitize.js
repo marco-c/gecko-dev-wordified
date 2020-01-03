@@ -154,6 +154,8 @@ dialogWidth
 )
 ;
 }
+this
+.
 onClearHistoryChanged
 (
 )
