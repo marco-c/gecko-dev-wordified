@@ -651,9 +651,7 @@ flex
 :
 1
 1
-main
--
-size
+auto
 ;
 vertical
 -
@@ -1276,9 +1274,7 @@ flex
 :
 1
 1
-main
--
-size
+auto
 ;
 /
 *
@@ -2649,9 +2645,7 @@ flex
 :
 1
 1
-main
--
-size
+auto
 ;
 }
 .
