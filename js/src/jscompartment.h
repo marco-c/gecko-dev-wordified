@@ -3319,6 +3319,17 @@ JS
 .
 7
 +
+DeprecatedFlagsArgument
+=
+7
+/
+/
+JS
+1
+.
+3
+or
+older
 DeprecatedLanguageExtensionCount
 }
 ;
