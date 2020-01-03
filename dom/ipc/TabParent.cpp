@@ -11330,7 +11330,7 @@ TryCacheDPIAndScale
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDPI
 >
@@ -11373,7 +11373,7 @@ TryCacheDPIAndScale
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDefaultScale
 .

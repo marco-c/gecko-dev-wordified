@@ -4477,7 +4477,7 @@ int16_t
 aHowToEnableFrameUI
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aHowToEnableFrameUI
 !

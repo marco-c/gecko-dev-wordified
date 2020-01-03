@@ -751,7 +751,7 @@ uint32_t
 aSize
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mTextureClient
@@ -880,7 +880,7 @@ Data
 aData
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mTextureClient
 "
@@ -1060,7 +1060,7 @@ uint32_t
 aSize
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mTextureClient
@@ -1147,7 +1147,7 @@ PlanarYCbCrData
 aData
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mTextureClient

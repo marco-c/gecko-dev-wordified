@@ -4465,7 +4465,7 @@ aName
 aValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 -
@@ -12975,7 +12975,7 @@ IsEmptyString
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 -

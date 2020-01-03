@@ -849,7 +849,7 @@ Init
 this
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mType
 =
@@ -887,7 +887,7 @@ Destroy
 this
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsNull
 (

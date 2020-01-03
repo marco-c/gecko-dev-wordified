@@ -8378,7 +8378,7 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 node
 -
@@ -11548,7 +11548,7 @@ toObjectOrNull
 name
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 *
 aName
@@ -13516,7 +13516,7 @@ property
 eCSSProperty_UNKNOWN
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 property
 =

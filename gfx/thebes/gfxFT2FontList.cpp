@@ -3809,7 +3809,7 @@ FNCMapEntry
 0
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 XRE_GetProcessType
 (
@@ -3825,8 +3825,6 @@ be
 used
 in
 chrome
-"
-"
 process
 "
 )

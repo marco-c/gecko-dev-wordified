@@ -550,7 +550,7 @@ in
 the
 header
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aList
 &
@@ -567,7 +567,7 @@ arg
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IndexIsValid
 (
@@ -618,7 +618,7 @@ bool
 aIsAnimValItem
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasOwner
@@ -648,7 +648,7 @@ mIsAnimValItem
 =
 aIsAnimValItem
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IndexIsValid
 (
@@ -738,7 +738,7 @@ float
 aRaw
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aRaw
 "

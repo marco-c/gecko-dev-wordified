@@ -169,7 +169,7 @@ ToNewDOMTouch
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -254,7 +254,7 @@ aTouchEvent
 modifiers
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -483,7 +483,7 @@ aWidget
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -668,7 +668,7 @@ aWidget
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -1016,7 +1016,7 @@ aMouseEvent
 modifiers
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (

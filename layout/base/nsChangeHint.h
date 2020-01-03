@@ -1686,7 +1686,7 @@ nsChangeHint_ClearAncestorIntrinsics
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsHintSubset
 (

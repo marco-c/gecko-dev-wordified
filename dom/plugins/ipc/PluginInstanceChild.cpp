@@ -14355,7 +14355,7 @@ CreateOptSurface
 void
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mSurfaceType
 !
@@ -17077,7 +17077,7 @@ gfxASurface
 aSurface
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aSurface
 -
@@ -17685,7 +17685,7 @@ gfxRGBA
 ;
 #
 endif
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 whiteImage
 &
@@ -20056,7 +20056,7 @@ nsIntRect
 aRect
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mIsTransparent
 "

@@ -936,7 +936,7 @@ nsIContent
 aContextElem
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasAttr
@@ -961,7 +961,7 @@ it
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mPath
@@ -975,7 +975,7 @@ path
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mPathVertices
 .
@@ -1823,7 +1823,7 @@ nsIContent
 aTargetElement
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mIsPathStale
 "
@@ -1992,7 +1992,7 @@ nsSMILValueArray
 aResult
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aResult
 .
@@ -2159,7 +2159,7 @@ GetTargetNode
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mIsPathStale
@@ -2197,7 +2197,7 @@ a
 parse
 error
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mPathVertices
 .
@@ -2217,7 +2217,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mPathVertices

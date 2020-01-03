@@ -3031,7 +3031,7 @@ SetupPushedFloatList
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 GetFlag
@@ -4156,7 +4156,7 @@ frame
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFloat
 -
@@ -4172,7 +4172,7 @@ parent
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFloat
 -
@@ -4200,7 +4200,7 @@ block
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFloat
 -
@@ -7317,7 +7317,7 @@ wm
 mContainerWidth
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_SUCCEEDED
 (
@@ -7820,7 +7820,7 @@ SetPushedLeftFloatPastBreak
 }
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFloat
 -

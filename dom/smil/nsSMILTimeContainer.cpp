@@ -1301,7 +1301,7 @@ aMilestone
 mIsEnd
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mMilestoneEntries
 .
@@ -1326,9 +1326,9 @@ have
 earlier
 ones
 that
-"
-"
 were
+"
+"
 overlooked
 "
 )
@@ -1500,7 +1500,7 @@ now
 -
 mParentOffset
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mCurrentTime
 >
@@ -1702,7 +1702,7 @@ HandleContainerTimeChange
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 queueLength
 =

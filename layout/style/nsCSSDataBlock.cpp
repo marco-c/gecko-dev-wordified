@@ -572,7 +572,7 @@ GetArrayValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 arguments
 -
@@ -872,7 +872,7 @@ nsRuleData
 aRuleData
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 -
@@ -989,7 +989,7 @@ mImageValues
 for
 why
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aTarget
 -
@@ -1921,7 +1921,7 @@ aProperty
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -2083,7 +2083,7 @@ PropertyAt
 aProperty
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 newValue
 &
@@ -2296,7 +2296,7 @@ ValueAtIndex
 i
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 val
 -
@@ -2750,7 +2750,7 @@ PropertyAtIndex
 i
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -2767,7 +2767,7 @@ range
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasPropertyBit
@@ -2820,7 +2820,7 @@ PropertyAt
 iProp
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 val
 -
@@ -2836,7 +2836,7 @@ oops
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 dest
 -
@@ -2932,7 +2932,7 @@ nsCSSCompressedDataBlock
 aImportantBlock
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aNormalBlock
 "
@@ -3067,7 +3067,7 @@ iLow
 ;
 #
 endif
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -3084,7 +3084,7 @@ range
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PropertyAt
 (
@@ -3308,7 +3308,7 @@ property
 continue
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mPropertiesSet
 .
@@ -3332,7 +3332,7 @@ block
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -3390,7 +3390,7 @@ PropertyAt
 iProp
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 val
 -
@@ -3465,7 +3465,7 @@ iProp
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 numPropsNormal
 =
@@ -3482,7 +3482,7 @@ if
 result_important
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 numPropsImportant
 =
@@ -3601,7 +3601,7 @@ numPropsInSet
 }
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 numPropsNormal
 +
@@ -3617,6 +3617,8 @@ from
 the
 expanded
 data
+"
+"
 block
 "
 )
@@ -3665,7 +3667,7 @@ nsCSSValue
 aValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -3863,7 +3865,7 @@ nsCSSProperty
 aPropID
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -4081,7 +4083,7 @@ changed
 =
 false
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFromBlock
 .
@@ -4476,7 +4478,7 @@ nsCSSProperty
 i
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PropertyAt
 (

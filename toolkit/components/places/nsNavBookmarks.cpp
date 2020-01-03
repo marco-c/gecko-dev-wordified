@@ -15737,7 +15737,7 @@ placeId
 nsAutoCString
 placeGuid
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 history
 &

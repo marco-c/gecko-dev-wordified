@@ -8068,7 +8068,7 @@ for
 view
 source
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aParserContext
 .
@@ -8089,8 +8089,6 @@ used
 for
 View
 Source
-"
-"
 anymore
 .
 "

@@ -248,7 +248,7 @@ MoveToOrigin
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mHaveReceivedCommands
@@ -312,7 +312,7 @@ nsAString
 aCoordPairStr
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mHaveReceivedCommands

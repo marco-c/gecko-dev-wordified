@@ -29320,7 +29320,7 @@ is
 processed
 last
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 hasCount
 "
@@ -30777,7 +30777,7 @@ MOZ_COUNT_CTOR
 nsDisplayTransform
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 "
@@ -30789,7 +30789,7 @@ frame
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 aFrame
@@ -31021,7 +31021,7 @@ MOZ_COUNT_CTOR
 nsDisplayTransform
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 "
@@ -31095,7 +31095,7 @@ MOZ_COUNT_CTOR
 nsDisplayTransform
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 "
@@ -31533,7 +31533,7 @@ GetPercentValue
 }
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 coord
 .
@@ -32266,7 +32266,7 @@ GetPercentValue
 }
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 coord
 .

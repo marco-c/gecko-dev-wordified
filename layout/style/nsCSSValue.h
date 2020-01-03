@@ -2835,7 +2835,7 @@ mUnit
 aUnit
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aUnit
 <
@@ -3672,7 +3672,7 @@ GetIntValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -3710,7 +3710,7 @@ GetKeywordValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -3742,7 +3742,7 @@ GetPercentValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -3768,7 +3768,7 @@ GetFloatValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 eCSSUnit_Number
 <
@@ -3808,7 +3808,7 @@ GetAngleValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 eCSSUnit_Degree
 <
@@ -3858,7 +3858,7 @@ aBuffer
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 UnitHasStringValue
 (
@@ -3913,7 +3913,7 @@ GetStringBufferValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 UnitHasStringValue
 (
@@ -3954,7 +3954,7 @@ GetArrayValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 UnitHasArrayValue
 (
@@ -3980,7 +3980,7 @@ GetURLValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -4032,7 +4032,7 @@ GetGradientValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -4059,7 +4059,7 @@ GetTokenStreamValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -4087,7 +4087,7 @@ GetSharedListValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -4118,7 +4118,7 @@ GetFontFamilyListValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -4290,7 +4290,7 @@ delete
 them
 properly
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -4323,7 +4323,7 @@ GetImageStructValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -4356,7 +4356,7 @@ GetGridTemplateAreas
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -4388,7 +4388,7 @@ GetOriginalURLValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -5266,7 +5266,7 @@ size_t
 aIndex
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aIndex
 <
@@ -5297,7 +5297,7 @@ aIndex
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aIndex
 <
@@ -5668,7 +5668,7 @@ aItemCount
 )
 CPP_THROW_NEW
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aItemCount
 >
@@ -6433,7 +6433,7 @@ mList
 ;
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -6480,7 +6480,7 @@ mList
 ;
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -6889,7 +6889,7 @@ GetRectValue
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -6922,7 +6922,7 @@ GetRectValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -7794,7 +7794,7 @@ GetPairValue
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -7827,7 +7827,7 @@ GetPairValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -7858,7 +7858,7 @@ GetTripletValue
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -7891,7 +7891,7 @@ GetTripletValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -8251,7 +8251,7 @@ mPairList
 ;
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -8298,7 +8298,7 @@ mPairList
 ;
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =

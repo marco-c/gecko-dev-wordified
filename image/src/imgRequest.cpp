@@ -599,7 +599,7 @@ Init
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mImage
@@ -611,7 +611,7 @@ init
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aURI
 "
@@ -620,7 +620,7 @@ uri
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aCurrentURI
 "
@@ -630,7 +630,7 @@ uri
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aRequest
 "
@@ -639,7 +639,7 @@ request
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aChannel
 "
@@ -798,7 +798,7 @@ if
 mImage
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mProgressTracker
@@ -823,7 +823,7 @@ GetProgressTracker
 }
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mProgressTracker
 "
@@ -1000,7 +1000,7 @@ ObserverCount
 0
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mURI
 "
@@ -1251,7 +1251,7 @@ if
 mCacheEntry
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mURI
 "
@@ -3519,7 +3519,7 @@ true
 }
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mIsMultiPartChannel
@@ -3547,7 +3547,7 @@ have
 an
 image
 yet
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mIsMultiPartChannel
 |

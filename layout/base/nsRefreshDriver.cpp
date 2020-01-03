@@ -6189,7 +6189,7 @@ nsRefreshDriver
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 ObserverCount
 (
@@ -6205,7 +6205,7 @@ unregistered
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mActiveTimer
@@ -7930,7 +7930,7 @@ mObservers
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -10434,7 +10434,7 @@ GetKey
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 req
 "
@@ -10533,7 +10533,7 @@ GetKey
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 req
 "

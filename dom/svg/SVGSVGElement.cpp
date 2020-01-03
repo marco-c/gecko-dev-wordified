@@ -4318,7 +4318,7 @@ Avoid
 wasteful
 calls
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (
@@ -6130,7 +6130,7 @@ y
 fromUserSpace
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aWhich
 =
@@ -6437,7 +6437,7 @@ ShouldSynthesizeViewBox
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasViewBoxRect
@@ -6528,7 +6528,7 @@ SVGPreserveAspectRatio
 true
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 rv
 !
@@ -6683,7 +6683,7 @@ aPAR
 #
 ifdef
 DEBUG
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 OwnerDoc
 (
@@ -6860,7 +6860,7 @@ ClearImageOverridePreserveAspectRatio
 #
 ifdef
 DEBUG
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 OwnerDoc
 (
@@ -6976,7 +6976,7 @@ FlushImageTransformInvalidation
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 GetParent
@@ -6993,7 +6993,7 @@ node
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 OwnerDoc
 (
@@ -7071,7 +7071,7 @@ nsSVGViewBoxRect
 true
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 rv
 !
@@ -7242,7 +7242,7 @@ nullptr
 true
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 rv
 !
@@ -7372,7 +7372,7 @@ SVGTransformList
 true
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 rv
 !

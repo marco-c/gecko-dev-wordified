@@ -457,7 +457,7 @@ Image
 aImage
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aImage
 "
@@ -467,7 +467,7 @@ image
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mImage
@@ -495,7 +495,7 @@ ResetImage
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mImage
 "

@@ -1786,7 +1786,7 @@ uint32_t
 aCount
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasError
@@ -5295,7 +5295,7 @@ ve
 hit
 an
 error
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 decoder

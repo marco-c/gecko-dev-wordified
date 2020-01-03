@@ -372,7 +372,7 @@ autoMon
 aBarrier
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 InSharedBufferManagerChildThread
 (
@@ -836,7 +836,7 @@ Thread
 aThread
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aThread
 "
@@ -973,7 +973,7 @@ DestroyManager
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 InSharedBufferManagerChildThread

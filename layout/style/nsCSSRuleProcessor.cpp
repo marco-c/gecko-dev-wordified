@@ -3861,7 +3861,7 @@ GetClasses
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 tag
 "
@@ -7671,7 +7671,7 @@ NS_EVENT_STATE_UNVISITED
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsLink
 (
@@ -10232,7 +10232,7 @@ SelectorMatches
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aTreeMatchContext
 .
@@ -11567,7 +11567,7 @@ l
 >
 mSelectors
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 s
@@ -12844,7 +12844,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "

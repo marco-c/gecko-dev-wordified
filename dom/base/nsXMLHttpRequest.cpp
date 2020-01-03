@@ -2006,7 +2006,7 @@ Abort
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (
@@ -10257,7 +10257,7 @@ NS_ENSURE_ARG_POINTER
 inStr
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mContext
 .
@@ -18291,7 +18291,7 @@ StartTimeoutTimer
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mRequestSentTime
 "

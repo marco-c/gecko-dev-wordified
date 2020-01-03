@@ -58829,7 +58829,7 @@ nsIFrame
 aFrame
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 "
@@ -63086,7 +63086,7 @@ wrappable
 after
 it
 )
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 iter
@@ -63405,7 +63405,7 @@ newItem
 >
 mIsAllInline
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 newItem
@@ -67577,7 +67577,7 @@ things
 about
 this
 content
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (
@@ -67605,7 +67605,7 @@ frames
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 content
@@ -67637,7 +67637,7 @@ flags
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 content
@@ -67655,7 +67655,7 @@ frame
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 content
@@ -68206,7 +68206,7 @@ Length
 i
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 anonymousItems
 [

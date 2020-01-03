@@ -230,7 +230,7 @@ mRegistered
 false
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mElement
 "
@@ -388,7 +388,7 @@ mRegistered
 =
 false
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 LinkState
 (

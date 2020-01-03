@@ -2055,7 +2055,7 @@ See
 bug
 724680
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mAttrsAndChildren
@@ -2156,7 +2156,7 @@ aName
 aValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 -
@@ -7402,7 +7402,7 @@ MappedAttrParser
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mDecl
@@ -7540,7 +7540,7 @@ true
 return
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aMappedAttrName
 =
@@ -8399,7 +8399,7 @@ unused
 /
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aPropertyName
 =
@@ -8410,6 +8410,8 @@ unexpected
 property
 name
 for
+"
+"
 animated
 content
 style
@@ -8436,7 +8438,7 @@ StyleRule
 aPropertyValue
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 styleRule
 "
@@ -8463,7 +8465,7 @@ UpdateAnimatedContentStyleRule
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 GetAnimatedContentStyleRule
@@ -8597,7 +8599,7 @@ forget
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 rv
 =
@@ -9382,7 +9384,7 @@ calling
 code
 significantly
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_SUCCEEDED
 (
@@ -10148,7 +10150,7 @@ return
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -10396,7 +10398,7 @@ i
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -11028,7 +11030,7 @@ uint8_t
 aAttrEnum
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aAttrEnum
 <
@@ -11103,7 +11105,7 @@ GetNumberListInfo
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 info
 .
@@ -11122,7 +11124,7 @@ attribs
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aAttrEnum
 <
@@ -11203,7 +11205,7 @@ GetNumberListInfo
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aAttrEnum
 <
@@ -11280,7 +11282,7 @@ aAttrEnum
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -11357,7 +11359,7 @@ i
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -11378,7 +11380,7 @@ WillChangePointList
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetPointListAttrName
 (
@@ -11415,7 +11417,7 @@ nsAttrValue
 aEmptyOrOldValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetPointListAttrName
 (
@@ -11467,7 +11469,7 @@ DidAnimatePointList
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetPointListAttrName
 (
@@ -11525,7 +11527,7 @@ WillChangePathSegList
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetPathDataAttrName
 (
@@ -11563,7 +11565,7 @@ nsAttrValue
 aEmptyOrOldValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetPathDataAttrName
 (
@@ -11616,7 +11618,7 @@ DidAnimatePathSegList
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetPathDataAttrName
 (
@@ -13580,7 +13582,7 @@ nsAttrValue
 aEmptyOrOldValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetTransformListAttrName
 (
@@ -13658,7 +13660,7 @@ int32_t
 aModType
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetTransformListAttrName
 (
@@ -15431,7 +15433,7 @@ i
 mName
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 i
 <
@@ -15510,7 +15512,7 @@ i
 mName
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 i
 <

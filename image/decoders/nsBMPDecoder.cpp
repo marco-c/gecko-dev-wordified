@@ -784,7 +784,7 @@ called
 in
 error
 cases
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasError
@@ -810,7 +810,7 @@ never
 make
 multiple
 frames
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetFrameCount
 (
@@ -1201,7 +1201,7 @@ uint32_t
 aCount
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasError
@@ -5502,7 +5502,7 @@ continue
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 "

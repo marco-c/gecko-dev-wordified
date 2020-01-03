@@ -336,7 +336,7 @@ CommonAnimationManager
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mPresContext
@@ -903,7 +903,7 @@ ElementRuleProcessorData
 aData
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aData
 -
@@ -969,7 +969,7 @@ PseudoElementRuleProcessorData
 aData
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aData
 -
@@ -1441,7 +1441,7 @@ aProperty
 eCSSProperty_visibility
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aComputedValue
 .
@@ -1769,7 +1769,7 @@ Type
 aPseudoType
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aPseudoType
 =
@@ -2275,7 +2275,7 @@ mValue
 prop
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 ok
 "
@@ -3786,7 +3786,7 @@ aPropertyValue
 #
 ifdef
 DEBUG
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 collection

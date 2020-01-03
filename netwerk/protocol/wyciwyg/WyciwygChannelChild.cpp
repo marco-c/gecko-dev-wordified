@@ -363,7 +363,7 @@ AddIPDLReference
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mIPCOpen
@@ -396,7 +396,7 @@ ReleaseIPDLReference
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mIPCOpen
 "

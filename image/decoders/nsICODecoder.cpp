@@ -479,7 +479,7 @@ called
 in
 error
 cases
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasError
@@ -1343,7 +1343,7 @@ uint32_t
 aCount
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasError
@@ -3660,7 +3660,7 @@ allocated
 before
 decoding
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mRow
 "

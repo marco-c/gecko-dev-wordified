@@ -281,7 +281,7 @@ refcnt
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 _mOwningThread
 .
@@ -345,7 +345,7 @@ release
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 _mOwningThread
 .

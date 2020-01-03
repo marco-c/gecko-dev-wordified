@@ -11773,7 +11773,7 @@ with
 this
 URI
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 key
 =
@@ -13715,7 +13715,7 @@ NS_IHISTORY_CONTRACTID
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 service
 "

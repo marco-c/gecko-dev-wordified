@@ -250,7 +250,7 @@ FireAndWaitForTracerEvent
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 sMutex
 &
@@ -293,7 +293,7 @@ lock
 sMutex
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 sTracerProcessed

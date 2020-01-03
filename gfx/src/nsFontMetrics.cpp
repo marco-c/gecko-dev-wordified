@@ -199,6 +199,7 @@ h
 /
 for
 NS_ERROR
+NS_ABORT_IF_FALSE
 #
 include
 "
@@ -265,19 +266,6 @@ h
 /
 for
 NS_STYLE_HYPHENS_NONE
-#
-include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-/
-/
-for
-MOZ_ASSERT
 class
 gfxUserFontSet
 ;
@@ -798,7 +786,7 @@ gfxTextPerfMetrics
 aTextPerf
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mP2A
 =

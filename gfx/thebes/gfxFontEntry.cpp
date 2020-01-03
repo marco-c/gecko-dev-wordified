@@ -1771,7 +1771,7 @@ gfxRect
 aResult
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mSVGInitialized
 "
@@ -1791,7 +1791,7 @@ first
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnitsPerEm
 >

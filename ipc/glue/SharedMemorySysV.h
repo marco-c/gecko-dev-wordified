@@ -543,7 +543,7 @@ info
 return
 false
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 nBytes
 <
@@ -605,7 +605,7 @@ GetHandle
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsHandleValid
 (

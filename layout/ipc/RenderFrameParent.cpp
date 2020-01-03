@@ -2084,7 +2084,7 @@ ContainerLayerParameters
 aContainerParameters
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 "
@@ -2102,7 +2102,7 @@ frame
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mContainer
@@ -2225,10 +2225,10 @@ bad
 bad
 but
 the
+/
+/
 the
-/
-/
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 )
 above
@@ -2238,11 +2238,11 @@ it
 .
 Returning
 nullptr
+/
+/
 here
 will
 just
-/
-/
 cause
 the
 shadow
@@ -2522,7 +2522,7 @@ nsIContent
 aContent
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mFrameLoader
 -

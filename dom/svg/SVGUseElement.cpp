@@ -3048,7 +3048,7 @@ toUserSpace
 aMatrix
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aWhich
 =

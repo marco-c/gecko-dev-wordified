@@ -5698,7 +5698,7 @@ nsIDOMBlob
 aBlob
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -5839,7 +5839,7 @@ nsAString
 aStr
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -6008,7 +6008,7 @@ nsresult
 aRv
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -6185,7 +6185,7 @@ CheckPrincipal
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (

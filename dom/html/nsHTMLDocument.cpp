@@ -11531,7 +11531,7 @@ return
 rv
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 JS_IsExceptionPending
@@ -15726,7 +15726,7 @@ do_QueryInterface
 existingEditor
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 htmlEditor
 "

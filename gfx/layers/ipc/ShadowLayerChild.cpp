@@ -133,6 +133,17 @@ h
 /
 for
 ShadowableLayer
+#
+include
+"
+nsDebug
+.
+h
+"
+/
+/
+for
+NS_ABORT_IF_FALSE
 namespace
 mozilla
 {
@@ -174,7 +185,7 @@ ActorDestroyReason
 why
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 AncestorDeletion
 !

@@ -15680,7 +15680,7 @@ INT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 bytes
 >
@@ -15828,7 +15828,7 @@ offsetInStreamBlock
 int32_t
 bytes
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 size
 >
@@ -16377,7 +16377,7 @@ INT32_MAX
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 bytes
 >
@@ -16455,7 +16455,7 @@ BLOCK_SIZE
 +
 offsetInStreamBlock
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 size
 >

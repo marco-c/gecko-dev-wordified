@@ -419,7 +419,7 @@ int32_t
 aBehavior
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aBehavior
 =

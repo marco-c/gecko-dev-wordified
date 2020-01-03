@@ -244,7 +244,7 @@ aValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
@@ -954,7 +954,7 @@ return
 NS_OK
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 dest
 .
@@ -1029,7 +1029,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 valueToAdd
 .

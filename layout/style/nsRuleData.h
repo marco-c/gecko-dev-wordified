@@ -464,7 +464,7 @@ nsCSSProperty
 aProperty
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aProperty
 <
@@ -524,7 +524,7 @@ it
 includes
 us
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mSIDs
 &
@@ -548,7 +548,7 @@ mSIDs
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 sid
 !
@@ -720,7 +720,7 @@ method_
 )
 {
 \
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mSIDs
 &
@@ -781,7 +781,7 @@ id_
 )
 ;
 \
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 sid
 !

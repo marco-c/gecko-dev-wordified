@@ -162,7 +162,7 @@ CHECK_ARG_COUNT_IN_SYNC
 segType
 )
 \
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 ArrayLength
 (

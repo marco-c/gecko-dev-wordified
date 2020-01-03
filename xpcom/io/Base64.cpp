@@ -942,7 +942,7 @@ countRemaining
 %
 3
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 encodeLength
 %
@@ -1037,7 +1037,7 @@ at
 this
 point
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 countRemaining
 <

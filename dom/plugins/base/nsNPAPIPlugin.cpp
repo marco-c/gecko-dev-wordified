@@ -7807,7 +7807,7 @@ cx
 obj
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 obj
 "
@@ -7820,8 +7820,6 @@ with
 non
 -
 null
-"
-"
 input
 .
 "

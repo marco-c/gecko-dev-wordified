@@ -785,7 +785,7 @@ SVGPoint
 aPoint
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aIndex
 <
@@ -820,7 +820,7 @@ uint32_t
 aIndex
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aIndex
 <
@@ -1177,7 +1177,7 @@ if
 mElement
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsEmpty
 (

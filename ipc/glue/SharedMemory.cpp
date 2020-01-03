@@ -434,7 +434,7 @@ Unmapped
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gShmemMapped
 >
@@ -474,7 +474,7 @@ Destroyed
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gShmemAllocated
 >

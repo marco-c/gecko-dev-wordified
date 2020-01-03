@@ -2198,7 +2198,7 @@ AssertWorkerThread
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mWorkerLoopID
 =
@@ -2273,7 +2273,7 @@ AssertLinkThread
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mWorkerLoopID
 !

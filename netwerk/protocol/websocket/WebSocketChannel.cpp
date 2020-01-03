@@ -2381,7 +2381,7 @@ WebSocketChannel
 ws
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 ws
 -
@@ -2529,7 +2529,7 @@ WebSocketChannel
 aChannel
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aChannel
 -
@@ -2954,7 +2954,7 @@ tab
 close
 etc
 .
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_FAILED
 (
@@ -3258,7 +3258,7 @@ index
 >
 mChannel
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 chan
 -
@@ -3325,7 +3325,7 @@ IndexOf
 aChannel
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 index
 >
@@ -6376,7 +6376,7 @@ BeginWriting
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mMsgType
 !
@@ -6424,7 +6424,7 @@ BeginReading
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mMsgType
 !
@@ -6471,7 +6471,7 @@ ConvertStreamToString
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mMsgType
 =
@@ -6606,7 +6606,7 @@ PMCECompression
 aCompressor
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mMsgType
 !
@@ -7499,7 +7499,7 @@ mAppId
 NECKO_NO_APP_ID
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -8868,7 +8868,7 @@ mFramePtr
 =
 mBuffer
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsPersistentFramePtr
 (
@@ -8882,7 +8882,7 @@ mFramePtr
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mFramePtr
 -
@@ -9171,7 +9171,7 @@ mBuffered
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PR_GetCurrentThread
 (
@@ -10044,7 +10044,7 @@ contiguous
 stream
 of
 data
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mFramePtr
 +
@@ -11030,7 +11030,7 @@ n
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mFramePtr
 +
@@ -12024,7 +12024,7 @@ OutboundMessage
 aMsg
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PR_GetCurrentThread
 (
@@ -12181,7 +12181,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PR_GetCurrentThread
 (
@@ -12196,7 +12196,7 @@ thread
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mCurrentOut
@@ -12230,7 +12230,7 @@ if
 mCurrentOut
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mCurrentOut
 -
@@ -12268,7 +12268,7 @@ if
 (
 mCurrentOut
 )
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mCurrentOut
 -
@@ -12535,7 +12535,7 @@ IsEmpty
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mScriptCloseReason
 .
@@ -12927,7 +12927,7 @@ break
 case
 kMsgTypeFin
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -13168,7 +13168,7 @@ mOutHeader
 mHdrOutToSend
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 payload
 "
@@ -14658,7 +14658,7 @@ if
 mLingeringCloseTimer
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mStopped
 "
@@ -14805,7 +14805,7 @@ mStopped
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PR_GetCurrentThread
 (
@@ -14981,7 +14981,7 @@ rv
 nsAutoCString
 extensions
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -16383,7 +16383,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mDataStarted
@@ -16891,7 +16891,7 @@ aStatus
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -18216,7 +18216,7 @@ timer
 mCloseTimer
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mClientClosed
 "
@@ -18228,7 +18228,7 @@ close
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PR_GetCurrentThread
 (
@@ -18298,7 +18298,7 @@ timer
 mOpenTimer
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mGotUpgradeOK
@@ -18311,7 +18311,7 @@ complete
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -18375,7 +18375,7 @@ timer
 mReconnectDelayTimer
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mConnecting
 =
@@ -18434,7 +18434,7 @@ timer
 mPingTimer
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PR_GetCurrentThread
 (
@@ -18627,7 +18627,7 @@ CleanupConnection
 }
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 "
@@ -18675,7 +18675,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -18755,7 +18755,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -19842,7 +19842,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -20191,7 +20191,7 @@ nsIInputStream
 aStream
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsOnTargetThread
 (
@@ -20257,7 +20257,7 @@ return
 NS_ERROR_NOT_CONNECTED
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mMaxMessageSize
 >
@@ -20492,7 +20492,7 @@ return
 NS_OK
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -20504,7 +20504,7 @@ thread
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mRecvdHttpUpgradeTransport
@@ -20514,7 +20514,7 @@ duplicated
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aSocketIn
 "
@@ -20652,7 +20652,7 @@ mRecvdHttpUpgradeTransport
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -20664,7 +20664,7 @@ thread
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mGotUpgradeOK
@@ -21590,7 +21590,7 @@ aStatusCode
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -21677,7 +21677,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PR_GetCurrentThread
 (
@@ -21942,7 +21942,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 PR_GetCurrentThread
 (

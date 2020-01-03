@@ -2718,7 +2718,7 @@ AnimationPlayerPtrArray
 aPlayers
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aPlayers
 .
@@ -3227,7 +3227,7 @@ GetStyleRuleAt
 ruleIdx
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 cssRule
 "
@@ -3237,7 +3237,7 @@ rule
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 cssRule
 -
@@ -4415,7 +4415,7 @@ TimeStamp
 aTime
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mPresContext
 "

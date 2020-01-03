@@ -554,7 +554,7 @@ XYWH
 4
 ]
 ;
-static_assert
+NS_ABORT_IF_FALSE
 (
 sizeof
 (

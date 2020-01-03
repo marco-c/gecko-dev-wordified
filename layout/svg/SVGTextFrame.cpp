@@ -18832,7 +18832,7 @@ MOZ_COUNT_CTOR
 nsDisplaySVGText
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 "
@@ -21289,7 +21289,7 @@ uint32_t
 aFlags
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFlags
 &
@@ -23367,7 +23367,7 @@ mistake
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (

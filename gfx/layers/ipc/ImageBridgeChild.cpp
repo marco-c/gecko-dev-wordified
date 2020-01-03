@@ -695,7 +695,7 @@ CompositableOperation
 op
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 Finished
@@ -1318,7 +1318,7 @@ autoMon
 aBarrier
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 InImageBridgeChildThread
 (
@@ -1536,7 +1536,7 @@ autoMon
 aBarrier
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 InImageBridgeChildThread
 (
@@ -3500,7 +3500,7 @@ Thread
 aThread
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aThread
 "

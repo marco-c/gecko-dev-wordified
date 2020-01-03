@@ -908,7 +908,7 @@ mTransformType
 aType
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aType
 >
@@ -973,7 +973,7 @@ mTransformType
 aType
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aType
 >

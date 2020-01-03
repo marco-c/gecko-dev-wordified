@@ -443,7 +443,7 @@ nsIntSize
 aViewportSize
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mIgnoreInvalidation
@@ -532,7 +532,7 @@ FlushImageTransformInvalidation
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mIgnoreInvalidation
@@ -1805,7 +1805,7 @@ RegisterForXPCOMShutdown
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mRegisteredForXPCOMShutdown
@@ -1945,7 +1945,7 @@ UnregisterForXPCOMShutdown
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mRegisteredForXPCOMShutdown
 "

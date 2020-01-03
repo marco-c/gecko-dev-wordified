@@ -610,7 +610,7 @@ get
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mHrefTarget
@@ -1211,7 +1211,7 @@ bool
 aCompileEventHandlers
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mHrefTarget
@@ -1228,6 +1228,8 @@ href
 -
 target
 yet
+"
+"
 (
 or
 it
@@ -1878,7 +1880,7 @@ IsInDoc
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 -

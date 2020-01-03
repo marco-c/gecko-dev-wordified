@@ -1443,7 +1443,7 @@ ClearHasChanged
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 HasChanged
 (
@@ -1461,7 +1461,7 @@ false
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 IsActiveOrFrozen

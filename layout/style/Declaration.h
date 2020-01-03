@@ -1008,7 +1008,7 @@ nsCSSExpandedDataBlock
 aExpandedData
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mData
@@ -1017,7 +1017,7 @@ oops
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mImportantData
@@ -1129,7 +1129,7 @@ AssertInitialState
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mData
 "
@@ -1192,7 +1192,7 @@ aRuleData
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mData
 "
@@ -1234,7 +1234,7 @@ aRuleData
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mData
 "
@@ -1244,7 +1244,7 @@ expanded
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mImportantData
 |
@@ -1417,7 +1417,7 @@ AssertMutable
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mData
 "
@@ -1492,7 +1492,7 @@ mData
 :
 mImportantData
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 other
@@ -1549,7 +1549,7 @@ aProperty
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -1651,7 +1651,7 @@ AssertMutable
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsMutable
 (

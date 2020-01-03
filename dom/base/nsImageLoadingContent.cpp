@@ -800,7 +800,7 @@ have
 a
 request
 here
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aRequest
 "
@@ -1344,7 +1344,7 @@ MakePendingRequestCurrent
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aRequest
 =
@@ -4968,7 +4968,7 @@ this
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 thisContent
 &
@@ -6731,7 +6731,7 @@ aContentDecision
 /
 /
 Sanity
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 NS_CP_ACCEPTED
@@ -7371,7 +7371,7 @@ mCurrentRequestFlags
 return
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mCurrentURI

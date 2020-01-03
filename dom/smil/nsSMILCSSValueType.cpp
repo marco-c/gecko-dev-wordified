@@ -343,7 +343,7 @@ StyleAnimationValue
 ColorConstructor
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aUnit
 !
@@ -547,7 +547,7 @@ StyleAnimationValue
 aValue2
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue1
 |
@@ -1003,7 +1003,7 @@ aValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
@@ -1045,7 +1045,7 @@ aValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
@@ -1103,7 +1103,7 @@ aSrc
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDest
 .
@@ -1120,7 +1120,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDest
 .
@@ -1285,7 +1285,7 @@ aRight
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aLeft
 .
@@ -1302,7 +1302,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aLeft
 .
@@ -1451,7 +1451,7 @@ aCount
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValueToAdd
 .
@@ -1470,7 +1470,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValueToAdd
 .
@@ -1504,7 +1504,7 @@ ExtractValueWrapper
 aValueToAdd
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 destWrapper
 |
@@ -1751,7 +1751,7 @@ aDistance
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrom
 .
@@ -1770,7 +1770,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrom
 .
@@ -1805,7 +1805,7 @@ ExtractValueWrapper
 aTo
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 toWrapper
 "
@@ -1901,7 +1901,7 @@ aResult
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aStartVal
 .
@@ -1920,7 +1920,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aStartVal
 .
@@ -1936,7 +1936,7 @@ interpolation
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aResult
 .
@@ -1951,7 +1951,7 @@ type
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aUnitDistance
 >
@@ -1977,7 +1977,7 @@ bounds
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 aResult
@@ -2014,7 +2014,7 @@ ExtractValueWrapper
 aEndVal
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 endWrapper
 "
@@ -2491,7 +2491,7 @@ supposed
 to
 ignore
 it
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aStyleAnimValue
 .
@@ -2567,7 +2567,7 @@ bool
 aIsContextSensitive
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
@@ -2717,7 +2717,7 @@ nsAString
 aString
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
