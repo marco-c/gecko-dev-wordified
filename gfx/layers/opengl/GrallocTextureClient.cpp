@@ -423,7 +423,6 @@ aOutDescriptor
 NewSurfaceDescriptorGralloc
 (
 mGrallocHandle
-mSize
 mIsOpaque
 )
 ;

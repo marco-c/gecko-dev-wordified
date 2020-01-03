@@ -244,7 +244,7 @@ const
 override
 {
 return
-mDescriptorSize
+mCropSize
 ;
 }
 virtual
@@ -406,7 +406,7 @@ gfx
 :
 :
 IntSize
-mDescriptorSize
+mCropSize
 ;
 gfx
 :

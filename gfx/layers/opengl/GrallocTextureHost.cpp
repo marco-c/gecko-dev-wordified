@@ -807,13 +807,10 @@ mSize
 0
 0
 )
-mDescriptorSize
+mCropSize
 (
-aDescriptor
-.
-size
-(
-)
+0
+0
 )
 mFormat
 (
@@ -902,6 +899,10 @@ getHeight
 (
 )
 )
+;
+mCropSize
+=
+mSize
 ;
 }
 else
@@ -1317,7 +1318,7 @@ return
 LayerRenderState
 (
 graphicBuffer
-mDescriptorSize
+mCropSize
 flags
 this
 )
