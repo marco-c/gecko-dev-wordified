@@ -325,14 +325,6 @@ osx
 .
 py
 '
-    
-'
-mozboot
-/
-ubuntu
-.
-py
-'
 ]
 TEMPDIR
 =
