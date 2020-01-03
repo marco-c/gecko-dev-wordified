@@ -4039,6 +4039,8 @@ true
 ;
 ViewTransform
 asyncTransformWithoutOverscroll
+;
+Matrix4x4
 overscrollTransform
 ;
 ScreenPoint
@@ -4191,7 +4193,10 @@ combinedAsyncTransform
 *
 =
 (
+Matrix4x4
+(
 asyncTransformWithoutOverscroll
+)
 *
 overscrollTransform
 )

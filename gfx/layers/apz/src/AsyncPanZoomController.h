@@ -1451,7 +1451,7 @@ aOutTransform
 ScreenPoint
 &
 aScrollOffset
-ViewTransform
+Matrix4x4
 *
 aOutOverscrollTransform
 )
@@ -4118,7 +4118,7 @@ any
 void
 GetOverscrollTransform
 (
-ViewTransform
+Matrix4x4
 *
 aTransform
 )
