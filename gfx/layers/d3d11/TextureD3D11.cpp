@@ -1955,12 +1955,8 @@ sD3D11TextureUsage
 *
 This
 class
-get
-'
-s
-it
-'
-s
+gets
+its
 lifetime
 tied
 to
