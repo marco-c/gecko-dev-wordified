@@ -72,7 +72,7 @@ NFCD_MAJOR_VERSION
 #
 define
 NFCD_MINOR_VERSION
-9
+10
 enum
 NfcRequest
 {
@@ -81,7 +81,6 @@ ConfigReq
 0
 ConnectReq
 CloseReq
-GetDetailsNDEFReq
 ReadNDEFReq
 WriteNDEFReq
 MakeReadOnlyNDEFReq
@@ -94,7 +93,6 @@ GeneralRsp
 =
 1000
 ConfigRsp
-GetDetailsNDEFRsp
 ReadNDEFRsp
 }
 ;
