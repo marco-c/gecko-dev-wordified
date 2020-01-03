@@ -149,14 +149,13 @@ mCheckBox
 !
 =
 null
-?
+&
+&
 mCheckBox
 .
 isChecked
 (
 )
-:
-false
 ;
 }
 Override
@@ -175,6 +174,7 @@ mCheckBox
 =
 null
 )
+{
 mCheckBox
 .
 setChecked
@@ -182,6 +182,7 @@ setChecked
 isChecked
 )
 ;
+}
 }
 Override
 public
@@ -197,12 +198,14 @@ mCheckBox
 =
 null
 )
+{
 mCheckBox
 .
 toggle
 (
 )
 ;
+}
 }
 Override
 protected

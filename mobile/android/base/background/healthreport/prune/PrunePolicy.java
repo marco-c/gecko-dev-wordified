@@ -340,9 +340,8 @@ attemptExpiration
 (
 time
 )
-?
-true
-:
+|
+|
 pruned
 ;
 /
