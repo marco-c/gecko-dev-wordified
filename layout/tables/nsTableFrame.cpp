@@ -36091,7 +36091,7 @@ mCell
 >
 SetBorderWidth
 (
-mEndSide
+eLogicalSideIEnd
 std
 :
 :
@@ -36103,7 +36103,7 @@ mCell
 >
 GetBorderWidth
 (
-mEndSide
+eLogicalSideIEnd
 )
 )
 )
@@ -36178,7 +36178,7 @@ mCell
 >
 SetBorderWidth
 (
-NS_SIDE_BOTTOM
+eLogicalSideBEnd
 std
 :
 :
@@ -36190,7 +36190,7 @@ mCell
 >
 GetBorderWidth
 (
-NS_SIDE_BOTTOM
+eLogicalSideBEnd
 )
 )
 )
@@ -36254,7 +36254,7 @@ mCell
 >
 SetBorderWidth
 (
-NS_SIDE_TOP
+eLogicalSideBStart
 std
 :
 :
@@ -36266,7 +36266,7 @@ mCell
 >
 GetBorderWidth
 (
-NS_SIDE_TOP
+eLogicalSideBStart
 )
 )
 )
@@ -36330,7 +36330,7 @@ mCell
 >
 SetBorderWidth
 (
-mStartSide
+eLogicalSideIStart
 std
 :
 :
@@ -36342,7 +36342,7 @@ mCell
 >
 GetBorderWidth
 (
-mStartSide
+eLogicalSideIStart
 )
 )
 )
