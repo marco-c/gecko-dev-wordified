@@ -774,13 +774,11 @@ layerRect
 =
 rect
 -
-nsLayoutUtils
-:
-:
-GetAnimatedGeometryRootFor
-(
 aItem
-aBuilder
+-
+>
+AnimatedGeometryRoot
+(
 )
 -
 >
