@@ -1155,6 +1155,8 @@ scaledTileSize
 .
 height
 )
++
+mTileOrigin
 ;
 }
 const
@@ -1492,6 +1494,12 @@ gfx
 :
 IntSize
 mTileSize
+;
+gfx
+:
+:
+IntPoint
+mTileOrigin
 ;
 }
 ;

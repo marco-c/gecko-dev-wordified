@@ -5343,6 +5343,8 @@ SurfaceDescriptorTiles
 (
 mValidRegion
 tiles
+mTileOrigin
+mTileSize
 mTiles
 .
 mFirst
