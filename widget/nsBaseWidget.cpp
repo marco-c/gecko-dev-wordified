@@ -7636,6 +7636,7 @@ controller
 new
 ChromeProcessController
 (
+this
 )
 ;
 return
