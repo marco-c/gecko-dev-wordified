@@ -1412,6 +1412,12 @@ GetInputContext
 (
 )
 ;
+virtual
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+;
 NS_IMETHOD_
 (
 bool
