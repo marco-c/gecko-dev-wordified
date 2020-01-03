@@ -8222,7 +8222,7 @@ flags
 JSFunction
 :
 :
-INTERPRETED
+INTERPRETED_NORMAL
 ;
 break
 ;

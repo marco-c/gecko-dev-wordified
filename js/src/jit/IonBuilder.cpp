@@ -2999,7 +2999,7 @@ constructing
 target
 -
 >
-isInterpretedConstructor
+isConstructor
 (
 )
 )
@@ -40151,7 +40151,7 @@ if
 target
 -
 >
-isNativeConstructor
+isConstructor
 (
 )
 )
@@ -43319,15 +43319,7 @@ target
 target
 -
 >
-isInterpretedConstructor
-(
-)
-|
-|
-target
--
->
-isNativeConstructor
+isConstructor
 (
 )
 )

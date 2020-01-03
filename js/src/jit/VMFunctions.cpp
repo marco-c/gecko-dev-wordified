@@ -3575,7 +3575,15 @@ if
 fun
 -
 >
-isInterpretedConstructor
+isInterpreted
+(
+)
+&
+&
+fun
+-
+>
+isConstructor
 (
 )
 )
