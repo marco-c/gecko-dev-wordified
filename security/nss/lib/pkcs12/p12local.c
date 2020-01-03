@@ -4787,6 +4787,17 @@ if
 dest
 -
 >
+len
+>
+=
+2
+)
+&
+&
+(
+dest
+-
+>
 data
 [
 dest
