@@ -6849,7 +6849,10 @@ mRequestedSeekTarget
 >
 RefableThen
 (
-NS_GetCurrentThread
+AbstractThread
+:
+:
+MainThread
 (
 )
 __func__
