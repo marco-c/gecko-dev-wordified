@@ -5144,10 +5144,7 @@ i
 +
 +
 )
-gc
-:
-:
-MarkValue
+TraceEdge
 (
 trc
 &

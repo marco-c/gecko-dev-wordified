@@ -3927,7 +3927,7 @@ data
 (
 )
 ;
-MarkValue
+TraceEdge
 (
 trc
 &
@@ -3938,7 +3938,7 @@ callee
 js_callee_str
 )
 ;
-MarkValueRange
+TraceRange
 (
 trc
 data
@@ -3948,7 +3948,9 @@ numArgs
 data
 -
 >
-args
+begin
+(
+)
 js_arguments_str
 )
 ;
