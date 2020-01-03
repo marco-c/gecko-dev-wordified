@@ -97,6 +97,7 @@ private
 cc_callserver_ref_t
 callserverinfo_ref
 ;
+explicit
 CC_SIPCCCallServerInfo
 (
 cc_callserver_ref_t

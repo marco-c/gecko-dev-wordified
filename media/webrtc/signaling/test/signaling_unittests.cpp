@@ -3563,6 +3563,7 @@ ParsedSDP
 {
 public
 :
+explicit
 ParsedSDP
 (
 const
@@ -4639,6 +4640,7 @@ PCDispatchWrapper
 }
 public
 :
+explicit
 PCDispatchWrapper
 (
 sipcc
@@ -5695,6 +5697,7 @@ SignalingAgent
 {
 public
 :
+explicit
 SignalingAgent
 (
 const
@@ -12738,6 +12741,7 @@ FsFrPrefClearer
 {
 public
 :
+explicit
 FsFrPrefClearer
 (
 nsCOMPtr

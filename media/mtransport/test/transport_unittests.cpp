@@ -1699,6 +1699,7 @@ DtlsRecordInspector
 {
 public
 :
+explicit
 DtlsInspectorRecordHandshakeMessage
 (
 uint8_t

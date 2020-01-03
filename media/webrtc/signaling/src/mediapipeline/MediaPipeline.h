@@ -2039,6 +2039,7 @@ TrackAddedCallback
 {
 public
 :
+explicit
 GenericReceiveCallback
 (
 GenericReceiveListener
@@ -2086,6 +2087,7 @@ nsRunnable
 {
 public
 :
+explicit
 ConduitDeleteEvent
 (
 TemporaryRef
@@ -2575,6 +2577,7 @@ MediaPipelineTransmit
 ;
 public
 :
+explicit
 PipelineListener
 (
 const
@@ -3894,6 +3897,7 @@ VideoRenderer
 {
 public
 :
+explicit
 PipelineRenderer
 (
 MediaPipelineReceiveVideo

@@ -401,6 +401,7 @@ nsRunnable
 {
 public
 :
+explicit
 EventReceived
 (
 SocketTransportServiceTest
@@ -452,6 +453,7 @@ nsRunnable
 {
 public
 :
+explicit
 RegisterEvent
 (
 SocketTransportServiceTest
@@ -495,6 +497,7 @@ nsASocketHandler
 {
 public
 :
+explicit
 SocketHandler
 (
 SocketTransportServiceTest

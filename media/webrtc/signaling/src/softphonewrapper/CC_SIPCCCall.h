@@ -298,6 +298,7 @@ private
 cc_call_handle_t
 callHandle
 ;
+explicit
 CC_SIPCCCall
 (
 cc_call_handle_t
