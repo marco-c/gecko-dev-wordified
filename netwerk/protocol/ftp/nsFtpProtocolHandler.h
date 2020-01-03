@@ -141,9 +141,6 @@ nsWeakReference
 .
 h
 "
-class
-nsICacheSession
-;
 /
 /
 -
@@ -425,12 +422,6 @@ timerStruct
 *
 >
 mRootConnectionList
-;
-nsCOMPtr
-<
-nsICacheSession
->
-mCacheSession
 ;
 int32_t
 mIdleTimeout
