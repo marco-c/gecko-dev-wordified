@@ -35456,7 +35456,7 @@ mCurrentColFrame
 >
 SetContinuousBCBorderWidth
 (
-NS_SIDE_TOP
+eLogicalSideBStart
 currentBorder
 .
 width
@@ -35515,7 +35515,7 @@ mCurrentColFrame
 >
 SetContinuousBCBorderWidth
 (
-NS_SIDE_RIGHT
+eLogicalSideIEnd
 currentBorder
 .
 width
@@ -35559,7 +35559,7 @@ mCurrentColFrame
 >
 SetContinuousBCBorderWidth
 (
-NS_SIDE_BOTTOM
+eLogicalSideBEnd
 currentBorder
 .
 width
@@ -36103,7 +36103,7 @@ aWidth
 mEndCol
 -
 >
-SetRightBorderWidth
+SetIEndBorderWidth
 (
 std
 :
@@ -36117,7 +36117,7 @@ half
 mEndCol
 -
 >
-GetRightBorderWidth
+GetIEndBorderWidth
 (
 )
 )
@@ -36342,7 +36342,7 @@ aWidth
 mStartCol
 -
 >
-SetLeftBorderWidth
+SetIStartBorderWidth
 (
 std
 :
@@ -36356,7 +36356,7 @@ half
 mStartCol
 -
 >
-GetLeftBorderWidth
+GetIStartBorderWidth
 (
 )
 )
@@ -43466,7 +43466,7 @@ outside
 the
 col
 nscoord
-leftBorderHalf
+istartBorderHalf
 =
 nsPresContext
 :
@@ -43476,7 +43476,7 @@ CSSPixelsToAppUnits
 colFrame
 -
 >
-GetLeftBorderWidth
+GetIStartBorderWidth
 (
 )
 +
@@ -43492,11 +43492,9 @@ XMost
 )
 >
 =
-(
 x
 -
-leftBorderHalf
-)
+istartBorderHalf
 )
 {
 endColIndex
@@ -43523,7 +43521,7 @@ outside
 the
 col
 nscoord
-rightBorderHalf
+iendBorderHalf
 =
 nsPresContext
 :
@@ -43533,7 +43531,7 @@ CSSPixelsToAppUnits
 colFrame
 -
 >
-GetRightBorderWidth
+GetIEndBorderWidth
 (
 )
 +
@@ -43542,15 +43540,13 @@ GetRightBorderWidth
 ;
 if
 (
-(
 x
 +
 size
 .
 width
 +
-rightBorderHalf
-)
+iendBorderHalf
 >
 =
 aDirtyRect
