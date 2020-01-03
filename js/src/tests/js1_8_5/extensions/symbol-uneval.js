@@ -23,18 +23,6 @@ licenses
 /
 publicdomain
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 assertEq
 (
 uneval
@@ -157,7 +145,6 @@ Symbol
 "
 )
 ;
-}
 if
 (
 typeof

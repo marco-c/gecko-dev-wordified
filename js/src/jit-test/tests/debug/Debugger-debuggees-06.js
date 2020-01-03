@@ -129,17 +129,6 @@ ok
 "
 )
 ;
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
 check
 (
 Symbol

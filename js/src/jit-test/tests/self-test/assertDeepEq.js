@@ -93,18 +93,6 @@ null
 /
 /
 symbols
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 assertDeepEq
 (
 Symbol
@@ -321,7 +309,6 @@ obj1
 obj2
 )
 ;
-}
 /
 /
 objects

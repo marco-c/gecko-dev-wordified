@@ -24,18 +24,6 @@ publicdomain
 /
 *
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 /
 /
 Symbols
@@ -379,7 +367,6 @@ rainbows
 )
 )
 ;
-}
 }
 if
 (

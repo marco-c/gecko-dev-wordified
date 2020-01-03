@@ -17,18 +17,6 @@ SYMBOL_INDEX
 =
 999
 ;
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 big
 =
@@ -226,6 +214,5 @@ SYMBOL_INDEX
 0
 )
 ;
-}
 }
 }

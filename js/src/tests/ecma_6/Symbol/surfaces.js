@@ -24,18 +24,6 @@ publicdomain
 /
 *
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 /
 /
 Test
@@ -256,7 +244,6 @@ length
 0
 )
 ;
-}
 if
 (
 typeof

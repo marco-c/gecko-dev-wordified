@@ -24,18 +24,6 @@ publicdomain
 /
 *
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 /
 /
 for
@@ -496,7 +484,6 @@ gopd
 ]
 )
 ;
-}
 if
 (
 typeof

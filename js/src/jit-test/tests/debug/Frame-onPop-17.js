@@ -160,17 +160,6 @@ stringy
 "
 )
 ;
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
 test
 (
 Symbol

@@ -12,18 +12,6 @@ April
 27
 )
 .
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 symbols
 =
@@ -597,7 +585,6 @@ new
 object
 each
 time
-}
 }
 if
 (

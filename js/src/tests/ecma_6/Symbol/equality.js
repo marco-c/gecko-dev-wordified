@@ -24,18 +24,6 @@ publicdomain
 /
 *
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 /
 /
 Symbol
@@ -279,7 +267,6 @@ j
 expected
 )
 ;
-}
 }
 }
 if

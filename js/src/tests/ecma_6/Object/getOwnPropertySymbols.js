@@ -24,18 +24,6 @@ publicdomain
 /
 *
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 assertDeepEq
 (
 Object
@@ -502,7 +490,6 @@ length
 1
 )
 ;
-}
 if
 (
 typeof

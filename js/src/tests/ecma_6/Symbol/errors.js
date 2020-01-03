@@ -24,18 +24,6 @@ publicdomain
 /
 *
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 /
 /
 Section
@@ -130,7 +118,6 @@ Symbol
 TypeError
 )
 ;
-}
 if
 (
 typeof

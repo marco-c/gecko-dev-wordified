@@ -24,18 +24,6 @@ publicdomain
 /
 *
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 symbols
 =
@@ -141,7 +129,6 @@ nonsym
 TypeError
 )
 ;
-}
 if
 (
 typeof

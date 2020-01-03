@@ -24,18 +24,6 @@ publicdomain
 /
 *
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 /
 /
 Well
@@ -150,7 +138,6 @@ Symbol
 iterator
 )
 ;
-}
 }
 if
 (

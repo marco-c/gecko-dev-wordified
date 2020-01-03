@@ -24,18 +24,6 @@ publicdomain
 /
 *
 /
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 symbols
 =
@@ -257,7 +245,6 @@ b
 TypeError
 )
 ;
-}
 }
 }
 if

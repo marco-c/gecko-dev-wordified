@@ -303,17 +303,6 @@ aSymbol
 )
 ;
 }
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
 basicSymbols
 (
 )
