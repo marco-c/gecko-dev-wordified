@@ -270,7 +270,7 @@ CreateReader
 virtual
 MediaDecoderStateMachine
 *
-CreateStateMachine
+CreateStateMachineFromReader
 (
 MediaOmxCommonReader
 *

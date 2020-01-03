@@ -178,7 +178,7 @@ MediaDecoderStateMachine
 MediaOmxDecoder
 :
 :
-CreateStateMachine
+CreateStateMachineFromReader
 (
 MediaOmxCommonReader
 *

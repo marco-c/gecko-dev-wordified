@@ -181,7 +181,7 @@ MediaDecoderStateMachine
 RtspMediaCodecDecoder
 :
 :
-CreateStateMachine
+CreateStateMachineFromReader
 (
 MediaOmxCommonReader
 *
