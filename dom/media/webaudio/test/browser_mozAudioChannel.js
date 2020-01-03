@@ -270,6 +270,14 @@ content
 "
 media
 .
+useAudioChannelAPI
+"
+true
+]
+[
+"
+media
+.
 useAudioChannelService
 "
 true
