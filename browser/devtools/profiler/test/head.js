@@ -720,9 +720,11 @@ tab
 let
 debuggee
 =
-target
+tab
 .
-window
+linkedBrowser
+.
+contentWindow
 .
 wrappedJSObject
 ;
