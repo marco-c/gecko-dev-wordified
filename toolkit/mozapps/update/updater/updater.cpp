@@ -2053,9 +2053,16 @@ str
 *
 str
 )
+{
+*
+str
+=
+nullptr
+;
 return
 nullptr
 ;
+}
 /
 /
 skip
