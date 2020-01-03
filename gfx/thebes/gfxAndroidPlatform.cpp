@@ -1365,7 +1365,7 @@ void
 gfxAndroidPlatform
 :
 :
-GetSystemFontList
+GetFontList
 (
 InfallibleTArray
 <
@@ -1383,7 +1383,7 @@ PlatformFontList
 )
 -
 >
-GetSystemFontList
+GetFontList
 (
 retValue
 )

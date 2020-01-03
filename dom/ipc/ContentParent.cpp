@@ -14328,7 +14328,7 @@ GetPlatform
 )
 -
 >
-GetSystemFontList
+GetFontList
 (
 retValue
 )
