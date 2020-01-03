@@ -3828,7 +3828,7 @@ False
 return
 True
 def
-print_tinderbox
+print_automation_format
 (
 ok
 res
@@ -3841,9 +3841,11 @@ test
 failures
 in
 a
-TBPL
 parsable
 format
+suitable
+for
+automation
 eg
 :
     
@@ -5315,7 +5317,12 @@ doing
 if
 options
 .
-tinderbox
+format
+=
+=
+'
+automation
+'
 :
         
 num_failures
@@ -5779,10 +5786,15 @@ relpath_tests
 if
 options
 .
-tinderbox
+format
+=
+=
+'
+automation
+'
 :
                 
-print_tinderbox
+print_automation_format
 (
 ok
 res
