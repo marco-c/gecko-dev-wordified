@@ -55776,6 +55776,13 @@ UpdatePositionIfNeeded
 )
 ;
 }
+mPresContext
+-
+>
+NotifyMissingFonts
+(
+)
+;
 if
 (
 !
