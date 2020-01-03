@@ -2255,7 +2255,7 @@ for
 each
 issuer
 PLDHashOperator
-ProcessEntry
+ProcessBlocklistEntry
 (
 BlocklistItemKey
 *
@@ -2909,7 +2909,7 @@ mBlocklist
 .
 EnumerateEntries
 (
-ProcessEntry
+ProcessBlocklistEntry
 &
 saveInfo
 )
