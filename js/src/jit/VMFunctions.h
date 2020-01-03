@@ -5366,6 +5366,14 @@ JSObject
 obj
 )
 ;
+bool
+ThrowUninitializedLet
+(
+JSContext
+*
+cx
+)
+;
 }
 /
 /
