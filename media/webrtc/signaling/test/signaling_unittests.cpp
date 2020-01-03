@@ -2218,12 +2218,13 @@ ER
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 OnNegotiationNeeded
 (
 ER
 &
 )
+MOZ_OVERRIDE
 ;
 /
 /
