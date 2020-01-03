@@ -617,7 +617,7 @@ normal
 search
 path
 .
-GetSystemDirectory
+GetSystemDirectoryW
 (
 systemDirectory
 MAX_PATH
