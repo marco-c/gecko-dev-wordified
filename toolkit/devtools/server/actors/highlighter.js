@@ -385,7 +385,7 @@ nodeinfobar
 const
 NODE_INFOBAR_HEIGHT
 =
-40
+34
 ;
 /
 /
@@ -393,7 +393,7 @@ px
 const
 NODE_INFOBAR_ARROW_SIZE
 =
-15
+9
 ;
 /
 /
