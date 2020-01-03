@@ -127,15 +127,6 @@ h
 #
 include
 "
-vm
-/
-PropDesc
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h
@@ -3419,7 +3410,7 @@ cx
 if
 (
 !
-NewPropertyDescriptorObject
+FromPropertyDescriptor
 (
 cx
 desc

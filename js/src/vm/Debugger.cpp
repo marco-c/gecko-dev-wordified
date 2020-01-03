@@ -45115,7 +45115,7 @@ toObjectOrNull
 }
 }
 return
-NewPropertyDescriptorObject
+FromPropertyDescriptor
 (
 cx
 desc
