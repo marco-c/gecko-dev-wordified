@@ -8011,8 +8011,10 @@ widget
 struct
 Configuration
 {
+nsCOMPtr
+<
 nsIWidget
-*
+>
 mChild
 ;
 uintptr_t

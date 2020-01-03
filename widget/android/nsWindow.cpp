@@ -1737,6 +1737,10 @@ i
 ]
 .
 mChild
+.
+get
+(
+)
 ;
 childWin
 -
