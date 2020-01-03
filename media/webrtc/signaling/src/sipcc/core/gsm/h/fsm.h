@@ -1072,7 +1072,7 @@ properties
 #
 define
 WEBRTC_DATACHANNEL_STREAMS_DEFAULT
-16
+256
 uint32
 datachannel_streams
 ;
