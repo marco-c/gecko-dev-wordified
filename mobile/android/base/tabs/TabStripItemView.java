@@ -1173,7 +1173,7 @@ R
 .
 drawable
 .
-favicon_none
+new_tablet_default_favicon
 )
 ;
 return
