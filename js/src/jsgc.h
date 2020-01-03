@@ -8172,6 +8172,12 @@ ZealLimit
 =
 14
 ;
+extern
+const
+char
+*
+ZealModeHelpText
+;
 enum
 VerifierType
 {
