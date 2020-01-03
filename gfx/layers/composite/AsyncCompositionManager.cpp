@@ -5975,7 +5975,7 @@ if
 (
 metrics
 .
-IsRootScrollable
+IsRootContent
 (
 )
 )
@@ -6030,7 +6030,7 @@ in
 another
 metrics
 .
-IsRootScrollable
+IsRootContent
 (
 )
 hunk
@@ -6239,7 +6239,7 @@ if
 (
 metrics
 .
-IsRootScrollable
+IsRootContent
 (
 )
 )
@@ -6379,7 +6379,7 @@ if
 (
 metrics
 .
-IsRootScrollable
+IsRootContent
 (
 )
 )

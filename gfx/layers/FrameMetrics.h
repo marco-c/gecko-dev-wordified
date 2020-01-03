@@ -828,16 +828,6 @@ this
 ;
 }
 bool
-IsRootScrollable
-(
-)
-const
-{
-return
-mIsRootContent
-;
-}
-bool
 IsScrollable
 (
 )
