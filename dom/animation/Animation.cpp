@@ -665,6 +665,13 @@ IsNull
 )
 |
 |
+mStartTime
+.
+IsNull
+(
+)
+|
+|
 !
 mTimeline
 |
