@@ -448,6 +448,8 @@ ReflowPairs
 nsPresContext
 *
 aPresContext
+bool
+aAllowLineBreak
 const
 nsHTMLReflowState
 &
@@ -470,6 +472,8 @@ ReflowOnePair
 nsPresContext
 *
 aPresContext
+bool
+aAllowLineBreak
 const
 nsHTMLReflowState
 &
