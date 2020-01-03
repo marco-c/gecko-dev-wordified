@@ -6957,6 +6957,11 @@ oldReporter
 JS_SetErrorReporter
 (
 cx
+-
+>
+runtime
+(
+)
 selfHosting_ErrorReporter
 )
 ;
@@ -7116,6 +7121,11 @@ rv
 JS_SetErrorReporter
 (
 cx
+-
+>
+runtime
+(
+)
 oldReporter
 )
 ;

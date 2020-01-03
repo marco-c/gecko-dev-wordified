@@ -429,7 +429,7 @@ runtime
 ;
 JS_SetErrorReporter
 (
-cx
+runtime
 reportError
 )
 ;

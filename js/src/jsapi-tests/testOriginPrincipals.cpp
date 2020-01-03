@@ -483,7 +483,7 @@ return
 ;
 JS_SetErrorReporter
 (
-cx
+rt
 ErrorReporter
 )
 ;

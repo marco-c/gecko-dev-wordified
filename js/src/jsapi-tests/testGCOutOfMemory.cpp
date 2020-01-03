@@ -127,7 +127,7 @@ testGCOutOfMemory
 {
 JS_SetErrorReporter
 (
-cx
+rt
 ErrorCounter
 )
 ;

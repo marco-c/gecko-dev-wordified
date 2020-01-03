@@ -4350,7 +4350,7 @@ rtPrivate
 ;
 JS_SetErrorReporter
 (
-workerCx
+aRuntime
 ErrorReporter
 )
 ;

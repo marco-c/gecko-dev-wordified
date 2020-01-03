@@ -107,7 +107,7 @@ old
 =
 JS_SetErrorReporter
 (
-cx
+rt
 UncaughtErrorReporter
 )
 ;
@@ -290,7 +290,7 @@ uncaughtCount
 ;
 JS_SetErrorReporter
 (
-cx
+rt
 old
 )
 ;

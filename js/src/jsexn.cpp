@@ -1394,6 +1394,11 @@ prevReporter
 JS_SetErrorReporter
 (
 cx
+-
+>
+runtime
+(
+)
 nullptr
 )
 )
@@ -1411,6 +1416,11 @@ SuppressErrorsGuard
 JS_SetErrorReporter
 (
 cx
+-
+>
+runtime
+(
+)
 prevReporter
 )
 ;

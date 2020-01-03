@@ -2245,7 +2245,10 @@ older
 =
 JS_SetErrorReporter
 (
+JS_GetRuntime
+(
 cx
+)
 nullptr
 )
 ;
@@ -2277,7 +2280,10 @@ str
 ;
 JS_SetErrorReporter
 (
+JS_GetRuntime
+(
 cx
+)
 older
 )
 ;
@@ -3323,7 +3329,10 @@ old
 =
 JS_SetErrorReporter
 (
+JS_GetRuntime
+(
 cx
+)
 nullptr
 )
 ;
@@ -3357,7 +3366,10 @@ str
 ;
 JS_SetErrorReporter
 (
+JS_GetRuntime
+(
 cx
+)
 old
 )
 ;
