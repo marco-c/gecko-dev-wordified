@@ -2683,6 +2683,10 @@ accounts
 action
 =
 signup
+&
+entrypoint
+=
+uitour
 "
 ;
 break

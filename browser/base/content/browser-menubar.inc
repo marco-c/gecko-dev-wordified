@@ -3650,6 +3650,10 @@ gSyncUI
 .
 openSetup
 (
+null
+'
+menubar
+'
 )
 "
 /
@@ -3746,6 +3750,9 @@ gSyncUI
 .
 openSignInAgainPage
 (
+'
+menubar
+'
 )
 ;
 "

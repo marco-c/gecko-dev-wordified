@@ -368,6 +368,10 @@ accounts
 action
 =
 signup
+&
+entrypoint
+=
+uitour
 "
 "
 about
