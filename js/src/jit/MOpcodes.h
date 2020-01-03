@@ -154,6 +154,11 @@ SimdExtractElement
 \
 _
 (
+SimdInsertElement
+)
+\
+_
+(
 SimdSignMask
 )
 \
