@@ -4618,7 +4618,7 @@ WriteParam
 aMsg
 aParam
 .
-mPresShellResolution
+mResolution
 )
 ;
 WriteParam
@@ -4959,7 +4959,7 @@ aIter
 aResult
 -
 >
-mPresShellResolution
+mResolution
 )
 &
 &

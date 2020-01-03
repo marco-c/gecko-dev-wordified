@@ -548,12 +548,12 @@ PostScale
 (
 metrics
 .
-mPresShellResolution
+mResolution
 .
 scale
 metrics
 .
-mPresShellResolution
+mResolution
 .
 scale
 1
@@ -1237,7 +1237,7 @@ n
 this
 mPaintData
 .
-mPresShellResolution
+mResolution
 .
 scale
 )

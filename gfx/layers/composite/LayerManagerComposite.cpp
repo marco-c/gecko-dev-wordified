@@ -5855,10 +5855,14 @@ PostScale
 (
 metrics
 .
-mPresShellResolution
+mResolution
+.
+scale
 metrics
 .
-mPresShellResolution
+mResolution
+.
+scale
 1
 )
 ;

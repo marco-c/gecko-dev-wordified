@@ -1089,11 +1089,17 @@ scale
 =
 aCompositorMetrics
 .
-mPresShellResolution
-*
+GetZoom
+(
+)
+/
+aContentMetrics
+.
+mDevPixelsPerCSSPixel
+/
 aCompositorMetrics
 .
-GetAsyncZoom
+GetParentResolution
 (
 )
 ;
@@ -8650,7 +8656,7 @@ aTileOrigin
 .
 y
 *
-mPresShellResolution
+mResolution
 GetTileLength
 (
 )
@@ -9010,7 +9016,7 @@ Metrics
 (
 )
 .
-mPresShellResolution
+mResolution
 .
 scale
 aScrollAncestor
@@ -9019,7 +9025,7 @@ Metrics
 (
 )
 .
-mPresShellResolution
+mResolution
 .
 scale
 1
