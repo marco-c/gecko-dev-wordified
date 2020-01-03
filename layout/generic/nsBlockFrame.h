@@ -2425,6 +2425,7 @@ static
 ReplacedElementISizeToClear
 ISizeToClearPastFloats
 (
+const
 nsBlockReflowState
 &
 aState

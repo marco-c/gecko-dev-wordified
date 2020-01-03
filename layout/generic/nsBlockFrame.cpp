@@ -52036,6 +52036,7 @@ nsBlockFrame
 :
 ISizeToClearPastFloats
 (
+const
 nsBlockReflowState
 &
 aState
