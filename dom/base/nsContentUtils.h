@@ -6990,8 +6990,6 @@ static
 void
 UnmarkGrayJSListenersInCCGenerationDocuments
 (
-uint32_t
-aGeneration
 )
 ;
 /

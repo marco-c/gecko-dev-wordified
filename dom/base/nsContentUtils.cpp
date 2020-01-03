@@ -21978,8 +21978,6 @@ nsContentUtils
 :
 UnmarkGrayJSListenersInCCGenerationDocuments
 (
-uint32_t
-aGeneration
 )
 {
 if
@@ -21991,8 +21989,7 @@ PL_DHashTableEnumerate
 (
 sEventListenerManagersHash
 ListenerEnumerator
-&
-aGeneration
+nullptr
 )
 ;
 }
