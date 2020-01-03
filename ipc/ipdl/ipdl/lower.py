@@ -39124,6 +39124,17 @@ ipdltype
 .
 protocol
         
+actortype
+=
+ipdl
+.
+type
+.
+ActorType
+(
+actorproto
+)
+        
 if
 idexpr
 is
@@ -39181,6 +39192,29 @@ failIfNullActor
 (
 actorvar
 errfn
+msg
+=
+"
+Error
+constructing
+actor
+%
+s
+"
+%
+actortype
+.
+name
+(
+)
++
+self
+.
+side
+.
+capitalize
+(
+)
 )
             
 StmtExpr
@@ -40829,6 +40863,9 @@ retOnNull
 ExprLiteral
 .
 FALSE
+msg
+=
+None
 )
 :
         
@@ -40839,6 +40876,20 @@ StmtIf
 ExprNot
 (
 actorExpr
+)
+)
+        
+if
+msg
+:
+            
+failif
+.
+addifstmt
+(
+_printWarningMessage
+(
+msg
 )
 )
         
