@@ -669,7 +669,7 @@ pingId
 yield
 TelemetryPing
 .
-addPendingPing
+savePing
 (
 "
 test
