@@ -217,7 +217,7 @@ gecko
 .
 toolbar
 .
-BrowserToolbar
+BrowserToolbarTabletBase
 .
 ForwardButtonAnimation
 ;
