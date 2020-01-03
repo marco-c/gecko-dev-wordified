@@ -2933,6 +2933,7 @@ INVALID_HANDLE_VALUE
 )
 {
 }
+explicit
 PlatformWriter
 (
 const
@@ -3079,6 +3080,7 @@ mFD
 )
 {
 }
+explicit
 PlatformWriter
 (
 const
