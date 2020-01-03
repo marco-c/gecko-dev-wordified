@@ -2430,6 +2430,7 @@ U
 class
 E
 >
+MOZ_IMPLICIT
 UniquePtr
 (
 UniquePtr
@@ -3983,6 +3984,7 @@ template
 typename
 U
 >
+MOZ_IMPLICIT
 DefaultDelete
 (
 const

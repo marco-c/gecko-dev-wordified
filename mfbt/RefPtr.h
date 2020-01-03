@@ -1729,6 +1729,7 @@ template
 typename
 U
 >
+MOZ_IMPLICIT
 RefPtr
 (
 const

@@ -799,6 +799,7 @@ Iterator1
 typename
 Iterator2
 >
+MOZ_IMPLICIT
 IteratorRange
 (
 Iterator1
@@ -822,6 +823,7 @@ template
 typename
 Iterator
 >
+MOZ_IMPLICIT
 IteratorRange
 (
 const

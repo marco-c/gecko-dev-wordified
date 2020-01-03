@@ -857,6 +857,7 @@ template
 typename
 U
 >
+MOZ_IMPLICIT
 already_AddRefed
 (
 already_AddRefed

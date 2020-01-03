@@ -278,6 +278,7 @@ IntType
 typename
 EnumType
 >
+explicit
 EnumeratedIterator
 (
 const

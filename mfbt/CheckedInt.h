@@ -3259,6 +3259,7 @@ template
 typename
 U
 >
+MOZ_IMPLICIT
 CheckedInt
 (
 U
