@@ -1994,9 +1994,7 @@ nsAString
 aBdName
 uint32_t
 aCod
-const
-nsAString
-&
+BluetoothSspVariant
 aPairingVariant
 uint32_t
 aPassKey
