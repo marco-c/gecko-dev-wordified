@@ -944,6 +944,16 @@ spec
 ;
 json
 .
+title
+=
+content
+.
+document
+.
+title
+;
+json
+.
 charset
 =
 content

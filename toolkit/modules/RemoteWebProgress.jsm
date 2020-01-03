@@ -1260,8 +1260,9 @@ _browser
 .
 _contentTitle
 =
-"
-"
+json
+.
+title
 ;
 this
 .
