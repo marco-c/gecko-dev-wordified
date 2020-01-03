@@ -1235,7 +1235,7 @@ ChaosMode
 :
 isActive
 (
-ChaosMode
+ChaosFeature
 :
 :
 TimerScheduling
@@ -1912,7 +1912,7 @@ ChaosMode
 :
 isActive
 (
-ChaosMode
+ChaosFeature
 :
 :
 TimerScheduling

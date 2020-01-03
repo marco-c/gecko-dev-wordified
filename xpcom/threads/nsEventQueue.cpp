@@ -562,7 +562,7 @@ ChaosMode
 :
 isActive
 (
-ChaosMode
+ChaosFeature
 :
 :
 ThreadScheduling

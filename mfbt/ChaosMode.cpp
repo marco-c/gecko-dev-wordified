@@ -138,6 +138,11 @@ gChaosModeCounter
 0
 )
 ;
+ChaosFeature
+gChaosFeatures
+=
+None
+;
 }
 /
 *
