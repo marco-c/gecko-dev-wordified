@@ -170,6 +170,7 @@ Layer
 AsLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -180,6 +181,7 @@ void
 RenderLayer
 (
 )
+MOZ_OVERRIDE
 {
 }
 }
