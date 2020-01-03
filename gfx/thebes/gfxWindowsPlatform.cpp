@@ -469,7 +469,7 @@ h
 #
 include
 "
-DriverCrashGuard
+DriverInitCrashDetection
 .
 h
 "
@@ -11470,14 +11470,14 @@ a
 lock
 file
 .
-D3D11LayersCrashGuard
+DriverInitCrashDetection
 detectCrashes
 ;
 if
 (
 detectCrashes
 .
-Crashed
+DisableAcceleration
 (
 )
 )
