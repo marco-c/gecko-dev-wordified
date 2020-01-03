@@ -894,7 +894,7 @@ TypedArrayElements
 \
 _
 (
-TypedObjectProto
+TypedObjectDescr
 )
 \
 _
