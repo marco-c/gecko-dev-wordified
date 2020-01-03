@@ -9532,6 +9532,7 @@ nsAString
 &
 aJSON
 )
+const
 {
 return
 JS_Stringify
