@@ -382,6 +382,7 @@ nsITimer
 *
 aTimer
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
