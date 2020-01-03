@@ -43,11 +43,7 @@ iife
 {
 try
 {
-[
-3
-]
-.
-filter
+callFunctionFromNativeFrame
 (
 n
 =
