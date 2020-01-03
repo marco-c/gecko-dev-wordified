@@ -115,7 +115,7 @@ links
 type
 :
 "
-resource
+cssresource
 "
 value
 :
@@ -663,7 +663,7 @@ links
 type
 :
 "
-resource
+jsresource
 "
 value
 :
