@@ -6511,7 +6511,7 @@ set
 JSContext
 *
 cx
-HandleObject
+HandleNativeObject
 obj
 HandleObject
 receiver
