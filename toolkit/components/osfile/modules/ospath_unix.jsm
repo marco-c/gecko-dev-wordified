@@ -1202,6 +1202,14 @@ toFileURIExtraEncodings
 %
 3F
 '
+"
+'
+"
+:
+'
+%
+27
+'
 '
 #
 '
@@ -1282,6 +1290,7 @@ replace
 [
 ;
 ?
+'
 #
 ]
 /
