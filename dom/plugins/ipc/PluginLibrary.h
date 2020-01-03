@@ -599,6 +599,17 @@ nsIntRect
 =
 0
 ;
+virtual
+nsresult
+GetRunID
+(
+uint32_t
+*
+aRunID
+)
+=
+0
+;
 }
 ;
 }
