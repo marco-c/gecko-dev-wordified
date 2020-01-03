@@ -781,6 +781,9 @@ aInputQueue
 GeckoContentController
 *
 aController
+TaskThrottler
+*
+aPaintThrottler
 GestureBehavior
 aGestures
 =
@@ -4537,7 +4540,10 @@ CompositorParent
 >
 mCompositorParent
 ;
+nsRefPtr
+<
 TaskThrottler
+>
 mPaintThrottler
 ;
 /
