@@ -38478,8 +38478,6 @@ ParseNode
 call
 AsmJSSimdType
 opType
-unsigned
-numElems
 Scalar
 :
 :
@@ -38945,7 +38943,6 @@ CheckSimdLoadStoreArgs
 f
 call
 opType
-numElems
 &
 viewType
 &
@@ -39067,7 +39064,6 @@ CheckSimdLoadStoreArgs
 f
 call
 opType
-numElems
 &
 viewType
 &
