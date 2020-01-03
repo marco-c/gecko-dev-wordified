@@ -213,6 +213,9 @@ css
 class
 CSSAnimationPlayer
 ;
+class
+CSSTransitionPlayer
+;
 namespace
 dom
 {
@@ -293,6 +296,17 @@ virtual
 CSSAnimationPlayer
 *
 AsCSSAnimationPlayer
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+CSSTransitionPlayer
+*
+AsCSSTransitionPlayer
 (
 )
 {
