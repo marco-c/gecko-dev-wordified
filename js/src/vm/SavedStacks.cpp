@@ -1872,14 +1872,6 @@ compartment
 >
 principals
 ;
-if
-(
-!
-principals
-)
-return
-frame
-;
 while
 (
 frame
@@ -2755,9 +2747,6 @@ do
 {
 MOZ_ASSERT_IF
 (
-principals
-&
-&
 subsumes
 (
 *
