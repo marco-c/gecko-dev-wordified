@@ -4148,14 +4148,6 @@ return
 if
 (
 article
-&
-&
-article
-.
-url
-=
-=
-url
 )
 {
 this
