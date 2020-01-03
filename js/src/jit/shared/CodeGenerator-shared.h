@@ -2196,6 +2196,14 @@ mir
 )
 ;
 void
+emitAsmJSCall
+(
+LAsmJSCall
+*
+ins
+)
+;
+void
 emitPreBarrier
 (
 Register
