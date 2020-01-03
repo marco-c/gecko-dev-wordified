@@ -2446,6 +2446,7 @@ PerformanceEntry
 *
 aEntry
 )
+override
 ;
 bool
 IsPerformanceTimingAttribute
