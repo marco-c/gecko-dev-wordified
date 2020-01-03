@@ -1404,11 +1404,6 @@ keyedBy
 keyedBy
 )
 ;
-if
-(
-name
-)
-{
 mWriter
 .
 NameValue
@@ -1419,7 +1414,6 @@ name
 name
 )
 ;
-}
 if
 (
 location
@@ -1435,15 +1429,6 @@ location
 location
 )
 ;
-}
-if
-(
-lineno
-!
-=
-UINT32_MAX
-)
-{
 mWriter
 .
 NameValue
