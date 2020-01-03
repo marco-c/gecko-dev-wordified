@@ -22057,7 +22057,7 @@ service
 >
 RefreshAgentsVolume
 (
-GetOuterWindow
+GetCurrentInnerWindow
 (
 )
 )
