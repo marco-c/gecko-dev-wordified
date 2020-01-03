@@ -95,6 +95,8 @@ org
 mozilla
 .
 gecko
+.
+lwt
 ;
 import
 java
@@ -127,6 +129,15 @@ gecko
 AppConstants
 .
 Versions
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+EventDispatcher
 ;
 import
 org

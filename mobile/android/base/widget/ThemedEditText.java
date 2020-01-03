@@ -96,7 +96,7 @@ mozilla
 .
 gecko
 .
-LightweightTheme
+R
 ;
 import
 org
@@ -105,7 +105,9 @@ mozilla
 .
 gecko
 .
-R
+lwt
+.
+LightweightTheme
 ;
 import
 android

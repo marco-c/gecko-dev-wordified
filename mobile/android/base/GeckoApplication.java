@@ -103,6 +103,17 @@ mozilla
 .
 gecko
 .
+lwt
+.
+LightweightTheme
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 mozglue
 .
 GeckoLoader
