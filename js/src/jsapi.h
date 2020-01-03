@@ -19612,15 +19612,6 @@ JS
 :
 Handle
 <
-JSObject
-*
->
-parent
-JS
-:
-:
-Handle
-<
 jsid
 >
 id
