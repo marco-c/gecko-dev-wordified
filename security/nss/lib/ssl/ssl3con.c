@@ -66395,6 +66395,9 @@ if
 pubKey
 )
 {
+KeyType
+pubKeyType
+;
 ss
 -
 >
@@ -66414,7 +66417,6 @@ SECKEY_PublicKeyStrengthInBits
 pubKey
 )
 ;
-KeyType
 pubKeyType
 =
 SECKEY_GetPublicKeyType
