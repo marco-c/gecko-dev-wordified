@@ -212,6 +212,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsGenericDOMDataNode
