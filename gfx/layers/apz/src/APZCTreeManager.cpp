@@ -1638,7 +1638,9 @@ touchSensitiveRegion
 *
 aMetrics
 .
-mDevPixelsPerCSSPixel
+GetDevPixelsPerCSSPixel
+(
+)
 *
 parentCumulativeResolution
 )
@@ -5099,7 +5101,9 @@ Metrics
 (
 )
 .
-mDevPixelsPerCSSPixel
+GetDevPixelsPerCSSPixel
+(
+)
 *
 parentCumulativeResolution
 )
