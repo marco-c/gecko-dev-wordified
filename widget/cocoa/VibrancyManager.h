@@ -181,6 +181,7 @@ VibrancyType
 LIGHT
 DARK
 TOOLTIP
+MENU
 }
 ;
 /
