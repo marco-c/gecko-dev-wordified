@@ -6299,7 +6299,7 @@ thread
 only
 .
 nsresult
-ScheduleStateMachineThread
+ScheduleStateMachine
 (
 )
 ;

@@ -3201,7 +3201,7 @@ into
 our
 stream
 .
-ScheduleStateMachineThread
+ScheduleStateMachine
 (
 )
 ;
@@ -4203,7 +4203,7 @@ SetStateMachineParameters
 )
 ;
 return
-ScheduleStateMachineThread
+ScheduleStateMachine
 (
 )
 ;
@@ -4322,7 +4322,7 @@ nsresult
 MediaDecoder
 :
 :
-ScheduleStateMachineThread
+ScheduleStateMachine
 (
 )
 {
@@ -4372,7 +4372,7 @@ GetReentrantMonitor
 mDecoderStateMachine
 -
 >
-ScheduleStateMachine
+ScheduleStateMachineCrossThread
 (
 )
 ;
@@ -4443,7 +4443,7 @@ return
 NS_OK
 ;
 }
-ScheduleStateMachineThread
+ScheduleStateMachine
 (
 )
 ;
@@ -6835,7 +6835,7 @@ RemoveMediaTracks
 )
 ;
 }
-ScheduleStateMachineThread
+ScheduleStateMachine
 (
 )
 ;

@@ -465,7 +465,7 @@ SetStateMachineParameters
 )
 ;
 return
-ScheduleStateMachineThread
+ScheduleStateMachine
 (
 )
 ;
