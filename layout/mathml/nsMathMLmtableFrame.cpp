@@ -7174,6 +7174,9 @@ aPresShell
 nsStyleContext
 *
 aContext
+nsTableFrame
+*
+aTableFrame
 )
 {
 return
@@ -7184,6 +7187,7 @@ aPresShell
 nsMathMLmtdFrame
 (
 aContext
+aTableFrame
 )
 ;
 }

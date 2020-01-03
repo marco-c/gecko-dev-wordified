@@ -113,6 +113,9 @@ nsISupports
 .
 h
 "
+class
+nsTableFrame
+;
 /
 /
 Factory
@@ -323,6 +326,9 @@ aPresShell
 nsStyleContext
 *
 aContext
+nsTableFrame
+*
+aTableFrame
 )
 ;
 nsContainerFrame
