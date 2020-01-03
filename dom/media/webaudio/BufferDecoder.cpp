@@ -536,8 +536,8 @@ nsAutoPtr
 MetadataTags
 >
 aTags
-MediaDecoderEventVisibility
-aEventVisibility
+bool
+aRestoredFromDormant
 )
 {
 /
@@ -555,8 +555,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
-MediaDecoderEventVisibility
-aEventVisibility
+bool
+aRestoredFromDormant
 )
 {
 /

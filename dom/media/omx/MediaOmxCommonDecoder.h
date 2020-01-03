@@ -167,8 +167,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
-MediaDecoderEventVisibility
-aEventVisibility
+bool
+aRestoredFromDormant
 )
 ;
 virtual
@@ -199,13 +199,6 @@ virtual
 void
 PlaybackPositionChanged
 (
-MediaDecoderEventVisibility
-aEventVisibility
-=
-MediaDecoderEventVisibility
-:
-:
-Observable
 )
 ;
 virtual
