@@ -16391,7 +16391,7 @@ underlying
 HomePager
 View
 .
-mHomePager
+mHomePagerContainer
 .
 setVisibility
 (
@@ -16575,7 +16575,7 @@ displayed
 reverse
 that
 .
-mHomePager
+mHomePagerContainer
 .
 setVisibility
 (
