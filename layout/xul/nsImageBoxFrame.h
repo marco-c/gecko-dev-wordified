@@ -669,9 +669,6 @@ attribute
 bool
 mSuppressStyleCheck
 ;
-bool
-mFireEventOnDecode
-;
 }
 ;
 /
