@@ -323,7 +323,9 @@ getItemAtIndex
 attachment
 .
 url
-TAB_URL
+'
+SCRIPT0
+'
 "
 Newest
 frame
