@@ -2154,6 +2154,15 @@ ifdef
 MOZ_WIDGET_ANDROID
 if
 (
+!
+AndroidBridge
+:
+:
+Bridge
+(
+)
+|
+|
 AndroidBridge
 :
 :
