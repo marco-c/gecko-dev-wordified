@@ -987,7 +987,7 @@ selected
 "
 )
 ;
-ok
+is
 (
 panel
 .
