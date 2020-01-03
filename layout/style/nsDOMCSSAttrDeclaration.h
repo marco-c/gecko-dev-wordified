@@ -211,8 +211,8 @@ Declaration
 *
 GetCSSDeclaration
 (
-bool
-aAllocate
+Operation
+aOperation
 )
 override
 ;

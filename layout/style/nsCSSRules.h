@@ -1860,8 +1860,8 @@ Declaration
 *
 GetCSSDeclaration
 (
-bool
-aAllocate
+Operation
+aOperation
 )
 override
 ;
@@ -2493,8 +2493,8 @@ Declaration
 *
 GetCSSDeclaration
 (
-bool
-aAllocate
+Operation
+aOperation
 )
 override
 ;

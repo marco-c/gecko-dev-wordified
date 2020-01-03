@@ -6195,8 +6195,8 @@ Declaration
 *
 GetCSSDeclaration
 (
-bool
-aAllocate
+Operation
+aOperation
 )
 override
 ;
@@ -6685,8 +6685,8 @@ DOMCSSDeclarationImpl
 :
 GetCSSDeclaration
 (
-bool
-aAllocate
+Operation
+aOperation
 )
 {
 if
