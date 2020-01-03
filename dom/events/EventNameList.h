@@ -1207,7 +1207,7 @@ eBasicEventClass
 EVENT
 (
 loadstart
-NS_LOADSTART
+eLoadStart
 EventNameType_HTML
 eBasicEventClass
 )
