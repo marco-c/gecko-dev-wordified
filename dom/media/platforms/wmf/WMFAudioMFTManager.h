@@ -295,9 +295,6 @@ mUserData
 /
 The
 offset
-in
-audio
-frames
 at
 which
 playback
@@ -309,8 +306,11 @@ the
 last
 discontinuity
 .
-int64_t
-mAudioFrameOffset
+media
+:
+:
+TimeUnit
+mAudioTimeOffset
 ;
 /
 /
@@ -369,7 +369,7 @@ to
 re
 -
 initialize
-mAudioFrameOffset
+mAudioTimeOffset
 and
 mAudioFrameSum
 /
