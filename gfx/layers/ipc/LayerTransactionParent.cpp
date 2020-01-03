@@ -3852,8 +3852,9 @@ layer_manager
 >
 EndTransaction
 (
-nullptr
-nullptr
+TimeStamp
+(
+)
 LayerManager
 :
 :
