@@ -8689,6 +8689,9 @@ ANIMATING_ZOOM
 case
 SMOOTH_SCROLL
 :
+case
+OVERSCROLL_ANIMATION
+:
 CurrentTouchBlock
 (
 )
@@ -9165,10 +9168,11 @@ in
 an
 overscrolled
 state
+cancel
+the
 /
 /
-are
-ignored
+animation
 .
 NS_WARNING
 (
@@ -9750,7 +9754,7 @@ receive
 a
 touch
 -
-move
+end
 in
 the
 OVERSCROLL_ANIMATION
@@ -9766,10 +9770,11 @@ in
 an
 overscrolled
 state
+cancel
+the
 /
 /
-are
-ignored
+animation
 .
 NS_WARNING
 (
