@@ -2085,8 +2085,6 @@ sandbox
 normalize_path
 (
 '
-child
-/
 foo
 '
 )
@@ -2141,8 +2139,6 @@ sandbox
 normalize_path
 (
 '
-child
-/
 foo
 '
 )
