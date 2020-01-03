@@ -231,6 +231,8 @@ SpanningCellSorter
 HashTableOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 HashTableHashKey
 HashTableMatchEntry
 PL_DHashMoveEntryStub

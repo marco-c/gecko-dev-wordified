@@ -4925,6 +4925,8 @@ PLDHashTableOps
 gOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 PL_DHashMatchEntryStub
 PL_DHashMoveEntryStub

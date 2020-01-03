@@ -175,6 +175,8 @@ nsCommandParams
 sHashOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 HashKey
 HashMatchEntry
 HashMoveEntry

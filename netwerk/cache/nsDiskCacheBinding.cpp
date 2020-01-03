@@ -1247,6 +1247,8 @@ nsDiskCacheBindery
 ops
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 HashKey
 MatchEntry
 MoveEntry

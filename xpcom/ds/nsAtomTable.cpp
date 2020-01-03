@@ -1732,6 +1732,8 @@ PLDHashTableOps
 AtomTableOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 AtomTableGetHash
 AtomTableMatchKey
 PL_DHashMoveEntryStub

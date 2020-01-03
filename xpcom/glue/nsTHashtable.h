@@ -2604,6 +2604,12 @@ PLDHashTableOps
 sOps
 =
 {
+:
+:
+PL_DHashAllocTable
+:
+:
+PL_DHashFreeTable
 s_HashKey
 s_MatchEntry
 EntryType

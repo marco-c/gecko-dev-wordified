@@ -314,6 +314,7 @@ value
 }
 ;
 static
+struct
 PLDHashTable
 sAtomTable
 ;
@@ -558,6 +559,8 @@ PLDHashTableOps
 ops
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 StringHash
 StringCompare
 PL_DHashMoveEntryStub

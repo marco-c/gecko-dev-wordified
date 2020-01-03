@@ -5113,6 +5113,8 @@ PLDHashTableOps
 PtrNodeOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 PtrToNodeMatchEntry
 PL_DHashMoveEntryStub

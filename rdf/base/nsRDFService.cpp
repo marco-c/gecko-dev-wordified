@@ -864,6 +864,8 @@ PLDHashTableOps
 gResourceTableOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 ResourceHashEntry
 :
 :
@@ -1068,6 +1070,8 @@ PLDHashTableOps
 gLiteralTableOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 LiteralHashEntry
 :
 :
@@ -1265,6 +1269,8 @@ PLDHashTableOps
 gIntTableOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 IntHashEntry
 :
 :
@@ -1503,6 +1509,8 @@ PLDHashTableOps
 gDateTableOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 DateHashEntry
 :
 :
@@ -2085,6 +2093,8 @@ PLDHashTableOps
 gBlobTableOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 BlobHashEntry
 :
 :

@@ -206,6 +206,8 @@ PLDHashTableOps
 gSetOps
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 ObjectSetMatchEntry
 PL_DHashMoveEntryStub
