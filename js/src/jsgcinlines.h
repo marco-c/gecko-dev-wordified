@@ -1988,12 +1988,16 @@ GCZonesIter
 JSRuntime
 *
 rt
+ZoneSelector
+selector
+=
+WithAtoms
 )
 :
 zone
 (
 rt
-WithAtoms
+selector
 )
 {
 if
@@ -2061,7 +2065,7 @@ done
 zone
 -
 >
-isCollecting
+isCollectingFromAnyThread
 (
 )
 )
