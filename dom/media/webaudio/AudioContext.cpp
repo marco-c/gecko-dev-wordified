@@ -1491,6 +1491,17 @@ aMediaElement
 MozCaptureStream
 (
 aRv
+mDestination
+-
+>
+Stream
+(
+)
+-
+>
+Graph
+(
+)
 )
 ;
 if
