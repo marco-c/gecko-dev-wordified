@@ -167,10 +167,10 @@ nsTArray
 <
 nsRefPtr
 <
-Blob
+BlobImpl
 >
 >
-mBlobs
+mBlobImpls
 ;
 }
 ;

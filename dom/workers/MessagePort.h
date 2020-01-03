@@ -251,7 +251,7 @@ PrefEnabled
 ;
 virtual
 void
-PostMessageMoz
+PostMessage
 (
 JSContext
 *
@@ -343,12 +343,12 @@ aCallback
 override
 ;
 virtual
-already_AddRefed
-<
-MessagePortBase
->
-Clone
+bool
+CloneAndDisentangle
 (
+MessagePortIdentifier
+&
+aIdentifier
 )
 override
 ;

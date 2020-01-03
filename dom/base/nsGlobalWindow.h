@@ -646,6 +646,9 @@ OwningExternalOrWindowProxy
 class
 Promise
 ;
+class
+PostMessageEvent
+;
 struct
 RequestInit
 ;
@@ -11365,6 +11368,12 @@ nsDOMWindowUtils
 ;
 friend
 class
+mozilla
+:
+:
+dom
+:
+:
 PostMessageEvent
 ;
 friend
