@@ -471,6 +471,17 @@ __declspec
 noreturn
 )
 #
+if
+_MSC_VER
+>
+=
+1900
+#
+define
+MOZ_HAVE_EXPLICIT_CONVERSION
+#
+endif
+#
 ifdef
 __clang__
 /
