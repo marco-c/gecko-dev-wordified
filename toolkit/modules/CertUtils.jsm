@@ -1,3 +1,6 @@
+#
+if
+0
 /
 *
 -
@@ -93,6 +96,8 @@ MPL
 .
 *
 /
+#
+endif
 this
 .
 EXPORTED_SYMBOLS
