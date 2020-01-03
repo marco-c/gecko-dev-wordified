@@ -981,20 +981,6 @@ PathBuilder
 aBuilder
 )
 {
-RefPtr
-<
-PathBuilder
->
-pathBuilder
-=
-aBuilder
-?
-aBuilder
-:
-CreatePathBuilder
-(
-)
-;
 float
 x1
 y1
@@ -1014,7 +1000,7 @@ y2
 nullptr
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 MoveTo
@@ -1026,7 +1012,7 @@ y1
 )
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 LineTo
@@ -1039,7 +1025,7 @@ y2
 )
 ;
 return
-pathBuilder
+aBuilder
 -
 >
 Finish

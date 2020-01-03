@@ -1674,20 +1674,6 @@ return
 nullptr
 ;
 }
-RefPtr
-<
-PathBuilder
->
-pathBuilder
-=
-aBuilder
-?
-aBuilder
-:
-CreatePathBuilder
-(
-)
-;
 Rect
 r
 (
@@ -1697,7 +1683,7 @@ width
 height
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 MoveTo
@@ -1709,7 +1695,7 @@ TopLeft
 )
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 LineTo
@@ -1721,7 +1707,7 @@ TopRight
 )
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 LineTo
@@ -1733,7 +1719,7 @@ BottomRight
 )
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 LineTo
@@ -1745,7 +1731,7 @@ BottomLeft
 )
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 Close
@@ -1753,7 +1739,7 @@ Close
 )
 ;
 return
-pathBuilder
+aBuilder
 -
 >
 Finish

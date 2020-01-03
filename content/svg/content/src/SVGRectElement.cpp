@@ -984,20 +984,6 @@ return
 nullptr
 ;
 }
-RefPtr
-<
-PathBuilder
->
-pathBuilder
-=
-aBuilder
-?
-aBuilder
-:
-CreatePathBuilder
-(
-)
-;
 rx
 =
 std
@@ -1057,7 +1043,7 @@ width
 height
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 MoveTo
@@ -1069,7 +1055,7 @@ TopLeft
 )
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 LineTo
@@ -1081,7 +1067,7 @@ TopRight
 )
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 LineTo
@@ -1093,7 +1079,7 @@ BottomRight
 )
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 LineTo
@@ -1105,7 +1091,7 @@ BottomLeft
 )
 )
 ;
-pathBuilder
+aBuilder
 -
 >
 Close
@@ -1273,7 +1259,7 @@ cornerRadii
 ;
 AppendRoundedRectToPath
 (
-pathBuilder
+aBuilder
 Rect
 (
 x
@@ -1286,7 +1272,7 @@ radii
 ;
 }
 return
-pathBuilder
+aBuilder
 -
 >
 Finish
