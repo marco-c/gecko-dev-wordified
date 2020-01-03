@@ -1198,6 +1198,9 @@ callback
 new
 TelephonyCallback
 (
+GetOwner
+(
+)
 this
 promise
 aServiceId
