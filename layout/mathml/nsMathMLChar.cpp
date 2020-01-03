@@ -385,6 +385,8 @@ NormalizeDefaultFont
 nsFont
 &
 aFont
+float
+aFontSizeInflation
 )
 {
 if
@@ -429,6 +431,19 @@ eFamily_none
 )
 ;
 }
+aFont
+.
+size
+=
+NSToCoordRound
+(
+aFont
+.
+size
+*
+aFontSizeInflation
+)
+;
 }
 /
 /
@@ -7521,6 +7536,8 @@ aPresContext
 gfxContext
 *
 aThebesContext
+float
+aFontSizeInflation
 nsStretchDirection
 aStretchDirection
 nscoord
@@ -7550,6 +7567,10 @@ aPresContext
 mThebesContext
 (
 aThebesContext
+)
+mFontSizeInflation
+(
+aFontSizeInflation
 )
 mDirection
 (
@@ -7649,6 +7670,9 @@ mPresContext
 gfxContext
 *
 mThebesContext
+;
+float
+mFontSizeInflation
 ;
 const
 nsStretchDirection
@@ -7805,6 +7829,7 @@ mFont
 NormalizeDefaultFont
 (
 font
+mFontSizeInflation
 )
 ;
 bool
@@ -8811,6 +8836,7 @@ mFont
 NormalizeDefaultFont
 (
 font
+mFontSizeInflation
 )
 ;
 /
@@ -10138,6 +10164,10 @@ mFont
 NormalizeDefaultFont
 (
 font
+context
+-
+>
+mFontSizeInflation
 )
 ;
 nsRefPtr
@@ -10651,6 +10681,8 @@ aPresContext
 gfxContext
 *
 aThebesContext
+float
+aFontSizeInflation
 nsStretchDirection
 &
 aStretchDirection
@@ -10792,6 +10824,7 @@ mFont
 NormalizeDefaultFont
 (
 font
+aFontSizeInflation
 )
 ;
 nsRefPtr
@@ -11808,6 +11841,7 @@ mFont
 NormalizeDefaultFont
 (
 font
+aFontSizeInflation
 )
 ;
 /
@@ -11932,6 +11966,7 @@ enumData
 this
 aPresContext
 aThebesContext
+aFontSizeInflation
 aStretchDirection
 targetSize
 aStretchHint
@@ -12536,6 +12571,8 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
+float
+aFontSizeInflation
 nsStretchDirection
 aStretchDirection
 const
@@ -12613,6 +12650,7 @@ aRenderingContext
 ThebesContext
 (
 )
+aFontSizeInflation
 mDirection
 aContainerSize
 aDesiredStretchSize
@@ -12788,6 +12826,8 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
+float
+aFontSizeInflation
 uint32_t
 aStretchHint
 float
@@ -12821,6 +12861,7 @@ aRenderingContext
 ThebesContext
 (
 )
+aFontSizeInflation
 direction
 container
 bm

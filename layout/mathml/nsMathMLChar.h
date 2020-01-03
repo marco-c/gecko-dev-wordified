@@ -770,6 +770,8 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
+float
+aFontSizeInflation
 nsStretchDirection
 aStretchDirection
 const
@@ -1003,6 +1005,8 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
+float
+aFontSizeInflation
 uint32_t
 aStretchHint
 =
@@ -1466,6 +1470,8 @@ aPresContext
 gfxContext
 *
 aThebesContext
+float
+aFontSizeInflation
 nsStretchDirection
 &
 aStretchDirection

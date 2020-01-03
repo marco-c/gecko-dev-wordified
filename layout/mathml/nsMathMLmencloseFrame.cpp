@@ -2011,6 +2011,17 @@ CSSPixelsToAppUnits
 1
 )
 ;
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
+;
 nsRefPtr
 <
 nsFontMetrics
@@ -2027,13 +2038,7 @@ getter_AddRefs
 (
 fm
 )
-nsLayoutUtils
-:
-:
-FontSizeInflationFor
-(
-this
-)
+fontSizeInflation
 )
 ;
 GetRuleThickness
@@ -2979,6 +2984,7 @@ PresContext
 (
 )
 aRenderingContext
+fontSizeInflation
 )
 ;
 /
@@ -3072,6 +3078,7 @@ PresContext
 (
 )
 aRenderingContext
+fontSizeInflation
 NS_STRETCH_DIRECTION_VERTICAL
 contSize
 bmLongdivChar
@@ -3241,6 +3248,7 @@ PresContext
 (
 )
 aRenderingContext
+fontSizeInflation
 )
 ;
 /
@@ -3337,6 +3345,7 @@ PresContext
 (
 )
 aRenderingContext
+fontSizeInflation
 NS_STRETCH_DIRECTION_VERTICAL
 contSize
 bmRadicalChar

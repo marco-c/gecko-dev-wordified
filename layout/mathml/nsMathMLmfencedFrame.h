@@ -338,6 +338,8 @@ aRenderingContext
 nsFontMetrics
 &
 aFontMetrics
+float
+aFontSizeInflation
 nsMathMLChar
 *
 aMathMLChar

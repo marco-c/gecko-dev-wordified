@@ -1114,6 +1114,8 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
+float
+aFontSizeInflation
 nsMathMLChar
 *
 aMathMLChar
@@ -1149,6 +1151,7 @@ Stretch
 (
 aPresContext
 aRenderingContext
+aFontSizeInflation
 NS_STRETCH_DIRECTION_DEFAULT
 aMetrics
 /
@@ -1228,6 +1231,17 @@ StyleFont
 (
 )
 ;
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
+;
 nsRefPtr
 <
 nsFontMetrics
@@ -1244,13 +1258,7 @@ getter_AddRefs
 (
 fm
 )
-nsLayoutUtils
-:
-:
-FontSizeInflationFor
-(
-this
-)
+fontSizeInflation
 )
 ;
 nscoord
@@ -1941,6 +1949,7 @@ aPresContext
 aReflowState
 .
 rendContext
+fontSizeInflation
 mOpenChar
 containerSize
 isRTL
@@ -1968,6 +1977,7 @@ aPresContext
 aReflowState
 .
 rendContext
+fontSizeInflation
 &
 mSeparatorsChar
 [
@@ -1985,6 +1995,7 @@ aPresContext
 aReflowState
 .
 rendContext
+fontSizeInflation
 mCloseChar
 containerSize
 isRTL
@@ -2129,6 +2140,7 @@ aReflowState
 rendContext
 *
 fm
+fontSizeInflation
 mOpenChar
 NS_MATHML_OPERATOR_FORM_PREFIX
 font
@@ -2191,6 +2203,7 @@ aReflowState
 rendContext
 *
 fm
+fontSizeInflation
 &
 mSeparatorsChar
 [
@@ -2244,6 +2257,7 @@ aReflowState
 rendContext
 *
 fm
+fontSizeInflation
 mCloseChar
 NS_MATHML_OPERATOR_FORM_POSTFIX
 font
@@ -2815,6 +2829,8 @@ aRenderingContext
 nsFontMetrics
 &
 aFontMetrics
+float
+aFontSizeInflation
 nsMathMLChar
 *
 aMathMLChar
@@ -2901,6 +2917,7 @@ Stretch
 (
 aPresContext
 aRenderingContext
+aFontSizeInflation
 NS_STRETCH_DIRECTION_VERTICAL
 aContainerSize
 charSize
@@ -3450,6 +3467,8 @@ aPresContext
 nsRenderingContext
 *
 aRenderingContext
+float
+aFontSizeInflation
 nsMathMLChar
 *
 aMathMLChar
@@ -3472,6 +3491,7 @@ GetMaxWidth
 aPresContext
 *
 aRenderingContext
+aFontSizeInflation
 )
 ;
 if
@@ -3555,6 +3575,17 @@ StyleFont
 (
 )
 ;
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
+;
 nsRefPtr
 <
 nsFontMetrics
@@ -3571,13 +3602,7 @@ getter_AddRefs
 (
 fm
 )
-nsLayoutUtils
-:
-:
-FontSizeInflationFor
-(
-this
-)
+fontSizeInflation
 )
 ;
 nscoord
@@ -3601,6 +3626,7 @@ GetMaxCharWidth
 (
 presContext
 aRenderingContext
+fontSizeInflation
 mOpenChar
 NS_MATHML_OPERATOR_FORM_PREFIX
 font
@@ -3696,6 +3722,7 @@ GetMaxCharWidth
 (
 presContext
 aRenderingContext
+fontSizeInflation
 &
 mSeparatorsChar
 [
@@ -3736,6 +3763,7 @@ GetMaxCharWidth
 (
 presContext
 aRenderingContext
+fontSizeInflation
 mCloseChar
 NS_MATHML_OPERATOR_FORM_POSTFIX
 font
