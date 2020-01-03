@@ -388,6 +388,14 @@ ins
 )
 ;
 void
+visitAsmJSAtomicExchangeHeap
+(
+MAsmJSAtomicExchangeHeap
+*
+ins
+)
+;
+void
 visitAsmJSAtomicBinopHeap
 (
 MAsmJSAtomicBinopHeap

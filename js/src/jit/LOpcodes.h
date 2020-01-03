@@ -1778,6 +1778,11 @@ AsmJSCompareExchangeHeap
 \
 _
 (
+AsmJSAtomicExchangeHeap
+)
+\
+_
+(
 AsmJSAtomicBinopHeap
 )
 \

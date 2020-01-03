@@ -419,6 +419,7 @@ enum
 AsmJSAtomicsBuiltinFunction
 {
 AsmJSAtomicsBuiltin_compareExchange
+AsmJSAtomicsBuiltin_exchange
 AsmJSAtomicsBuiltin_load
 AsmJSAtomicsBuiltin_store
 AsmJSAtomicsBuiltin_fence

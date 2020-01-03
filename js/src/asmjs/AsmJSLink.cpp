@@ -2781,6 +2781,15 @@ atomics_compareExchange
 break
 ;
 case
+AsmJSAtomicsBuiltin_exchange
+:
+native
+=
+atomics_exchange
+;
+break
+;
+case
 AsmJSAtomicsBuiltin_load
 :
 native
