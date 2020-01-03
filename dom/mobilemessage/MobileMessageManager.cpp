@@ -4070,7 +4070,7 @@ org
 /
 mms
 /
-rilmmsservice
+gonkmmsservice
 ;
 1
 "
