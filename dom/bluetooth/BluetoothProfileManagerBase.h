@@ -307,7 +307,7 @@ aDeviceAddress
 *
 *
 *
-Returns
+Return
 the
 address
 of
@@ -332,7 +332,7 @@ aDeviceAddress
 *
 *
 *
-Returns
+Return
 true
 if
 the
@@ -505,7 +505,7 @@ Reset
 *
 *
 *
-Returns
+Return
 string
 of
 profile
@@ -634,7 +634,7 @@ OnDisconnect
 const
 nsAString
 &
-AErrorStr
+aErrorStr
 )
 override
 ;

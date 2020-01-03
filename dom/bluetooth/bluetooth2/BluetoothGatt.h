@@ -1448,7 +1448,7 @@ already
 been
 updated
 .
-An
+A
 *
 '
 characteristicchanged

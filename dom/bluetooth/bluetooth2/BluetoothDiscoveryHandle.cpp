@@ -517,7 +517,7 @@ IsEmpty
 /
 /
 If
-a
+an
 LE
 device
 doesn
@@ -602,7 +602,7 @@ filter
 the
 results
 and
-dispach
+dispatch
 what
 API
 asked
@@ -656,7 +656,7 @@ break
 }
 /
 /
-Dispach
+Dispatch
 '
 devicefound
 '
@@ -668,12 +668,14 @@ if
 -
 the
 service
-UUIDs
+UUID
 in
 the
 scan
 record
-matchs
+matches
+one
+of
 the
 given
 UUIDs
