@@ -184,10 +184,12 @@ nsSubstring
 aAnimationName
 uint32_t
 aMessage
+const
 mozilla
 :
 :
-TimeDuration
+StickyTimeDuration
+&
 aElapsedTime
 const
 nsAString

@@ -121,6 +121,15 @@ include
 "
 mozilla
 /
+StickyTimeDuration
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleAnimationValue
 .
 h
@@ -347,7 +356,7 @@ iterations
 /
 Will
 equal
-TimeDuration
+StickyTimeDuration
 :
 :
 Forever
@@ -357,9 +366,11 @@ if
 the
 animation
 repeats
+/
+/
 indefinitely
 .
-TimeDuration
+StickyTimeDuration
 mActiveDuration
 ;
 /
@@ -1128,7 +1139,7 @@ timing
 parameters
 .
 static
-TimeDuration
+StickyTimeDuration
 ActiveDuration
 (
 const
