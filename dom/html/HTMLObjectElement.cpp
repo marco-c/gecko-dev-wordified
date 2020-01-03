@@ -364,6 +364,8 @@ HTMLObjectElement
 :
 IsInteractiveHTMLContent
 (
+bool
+aIgnoreTabindex
 )
 const
 {

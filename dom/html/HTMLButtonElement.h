@@ -209,6 +209,8 @@ virtual
 bool
 IsInteractiveHTMLContent
 (
+bool
+aIgnoreTabindex
 )
 const
 MOZ_OVERRIDE

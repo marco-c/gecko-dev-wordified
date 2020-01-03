@@ -687,6 +687,8 @@ HTMLVideoElement
 :
 IsInteractiveHTMLContent
 (
+bool
+aIgnoreTabindex
 )
 const
 {

@@ -288,6 +288,8 @@ HTMLAudioElement
 :
 IsInteractiveHTMLContent
 (
+bool
+aIgnoreTabindex
 )
 const
 {

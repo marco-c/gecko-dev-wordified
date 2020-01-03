@@ -447,6 +447,7 @@ AsElement
 >
 IsInteractiveHTMLContent
 (
+true
 )
 )
 {
