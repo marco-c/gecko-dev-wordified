@@ -477,8 +477,11 @@ aWhy
 )
 override
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
 CheckDocTree
 (
+)
 )
 ;
 if
@@ -916,7 +919,8 @@ uint32_t
 aIdxInParent
 )
 ;
-void
+MOZ_WARN_UNUSED_RESULT
+bool
 CheckDocTree
 (
 )
