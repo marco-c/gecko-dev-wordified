@@ -793,6 +793,10 @@ SimdSwizzle
 )
 SAFE_OP
 (
+SimdShuffle
+)
+SAFE_OP
+(
 SimdUnaryArith
 )
 SAFE_OP

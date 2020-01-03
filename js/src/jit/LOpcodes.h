@@ -213,6 +213,11 @@ SimdSwizzleF
 \
 _
 (
+SimdShuffle
+)
+\
+_
+(
 SimdUnaryArithIx4
 )
 \

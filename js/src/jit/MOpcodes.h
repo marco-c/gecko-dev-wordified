@@ -179,6 +179,11 @@ SimdSwizzle
 \
 _
 (
+SimdShuffle
+)
+\
+_
+(
 SimdUnaryArith
 )
 \
