@@ -6791,7 +6791,7 @@ hasStealableContents
 buffer
 -
 >
-isPlain
+hasMallocedContents
 (
 )
 ;
