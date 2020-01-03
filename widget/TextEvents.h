@@ -3695,7 +3695,7 @@ is
 used
 by
 only
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 .
 /
 /

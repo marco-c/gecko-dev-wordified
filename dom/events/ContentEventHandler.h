@@ -359,7 +359,7 @@ aEvent
 ;
 /
 /
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 event
 handler
 nsresult

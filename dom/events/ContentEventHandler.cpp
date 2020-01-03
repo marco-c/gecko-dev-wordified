@@ -5173,7 +5173,7 @@ aEvent
 )
 ;
 case
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 :
 return
 OnQueryCharacterAtPoint
@@ -7995,7 +7995,7 @@ WidgetQueryContentEvent
 eventOnRoot
 (
 true
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 rootWidget
 )
 ;

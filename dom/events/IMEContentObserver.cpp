@@ -444,11 +444,11 @@ eQuerySelectionAsTransferable
 "
 ;
 case
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 :
 return
 "
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 "
 ;
 case
@@ -3410,7 +3410,7 @@ WidgetQueryContentEvent
 charAtPt
 (
 true
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 aMouseEvent
 -
 >

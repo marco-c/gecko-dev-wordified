@@ -22373,7 +22373,7 @@ WidgetQueryContentEvent
 charAtPt
 (
 true
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 mWidget
 )
 ;
@@ -22465,7 +22465,7 @@ mWidget
 was
 destroyed
 during
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 "
 this
 )
@@ -22574,7 +22574,7 @@ due
 to
 "
 "
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 failure
 "
 this
