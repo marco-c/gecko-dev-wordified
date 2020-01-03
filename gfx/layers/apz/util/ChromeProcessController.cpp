@@ -438,11 +438,15 @@ GetDocumentElement
 (
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 content
 )
+{
+return
 ;
+}
 uint32_t
 presShellId
 ;
