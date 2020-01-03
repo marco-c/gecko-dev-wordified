@@ -4765,9 +4765,17 @@ rv
 rv
 )
 ;
+nsIDocument
+*
+doc
+=
+GetComposedDoc
+(
+)
+;
 if
 (
-aDocument
+doc
 )
 {
 /
@@ -4803,7 +4811,7 @@ to
 another
 document
 .
-aDocument
+doc
 -
 >
 EnsureOnDemandBuiltInUASheet
