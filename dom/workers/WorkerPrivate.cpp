@@ -22770,7 +22770,6 @@ parent
 aScriptURL
 aIsChromeWorker
 InheritLoadGroup
-aWorkerType
 stackLoadInfo
 .
 ptr
@@ -23045,8 +23044,6 @@ bool
 aIsChromeWorker
 LoadGroupBehavior
 aLoadGroupBehavior
-WorkerType
-aWorkerType
 WorkerLoadInfo
 *
 aLoadInfo
@@ -24792,10 +24789,6 @@ loadInfo
 .
 mLoadGroup
 aScriptURL
-ContentPolicyType
-(
-aWorkerType
-)
 getter_AddRefs
 (
 loadInfo
