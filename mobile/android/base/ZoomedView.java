@@ -303,10 +303,6 @@ shouldSetVisibleOnUpdate
 ;
 private
 PointF
-convertedPosition
-;
-private
-PointF
 returnValue
 ;
 private
@@ -449,6 +445,7 @@ recycle
 (
 )
 ;
+PointF
 convertedPosition
 =
 getUnzoomedPositionFromPointInZoomedView
@@ -540,6 +537,7 @@ getRawY
 (
 )
 ;
+PointF
 convertedPosition
 =
 getUnzoomedPositionFromPointInZoomedView
@@ -841,13 +839,6 @@ super
 context
 attrs
 defStyle
-)
-;
-convertedPosition
-=
-new
-PointF
-(
 )
 ;
 returnValue
@@ -1904,6 +1895,7 @@ setLayoutParams
 newLayoutParams
 )
 ;
+PointF
 convertedPosition
 =
 getUnzoomedPositionFromPointInZoomedView
@@ -2553,6 +2545,7 @@ getViewportMetrics
 (
 )
 ;
+PointF
 convertedPosition
 =
 getZoomedViewTopLeftPositionFromTouchPosition
