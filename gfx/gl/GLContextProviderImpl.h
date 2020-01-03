@@ -486,8 +486,6 @@ const
 SurfaceCaps
 &
 caps
-bool
-requireCompatProfile
 )
 ;
 /
@@ -512,8 +510,6 @@ GLContext
 >
 CreateHeadless
 (
-bool
-requireCompatProfile
 )
 ;
 /
