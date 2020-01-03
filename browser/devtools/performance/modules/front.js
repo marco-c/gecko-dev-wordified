@@ -2263,8 +2263,11 @@ stop
 *
 *
 Starts
+recording
+allocations
+in
 the
-timeline
+memory
 actor
 if
 necessary
@@ -2353,8 +2356,11 @@ memoryStartTime
 *
 *
 Stops
+recording
+allocations
+in
 the
-timeline
+memory
 actor
 if
 necessary
