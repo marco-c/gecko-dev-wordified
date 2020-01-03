@@ -1566,7 +1566,7 @@ parent
 url
 name
 features
-arguments
+args
 )
 {
 /
@@ -1595,7 +1595,7 @@ null
 var
 args
 =
-arguments
+args
 .
 wrappedJSObject
 ;

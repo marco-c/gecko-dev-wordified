@@ -336,9 +336,6 @@ WindowWatcher
 expected
 :
 false
-arguments
-:
-null
 openWindow
 :
 function

@@ -380,7 +380,7 @@ parent
 url
 name
 features
-arguments
+args
 )
 {
 /
@@ -409,7 +409,7 @@ one
 item
 do_check_eq
 (
-arguments
+args
 .
 wrappedJSObject
 .
@@ -436,7 +436,7 @@ one
 var
 item
 =
-arguments
+args
 .
 wrappedJSObject
 .

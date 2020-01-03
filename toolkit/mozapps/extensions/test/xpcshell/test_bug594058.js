@@ -164,7 +164,7 @@ parent
 url
 name
 features
-arguments
+args
 )
 {
 do_check_false

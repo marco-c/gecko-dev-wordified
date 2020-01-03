@@ -286,7 +286,7 @@ parent
 url
 name
 features
-arguments
+args
 )
 {
 /
@@ -317,7 +317,7 @@ softblocks
 var
 list
 =
-arguments
+args
 .
 wrappedJSObject
 .
