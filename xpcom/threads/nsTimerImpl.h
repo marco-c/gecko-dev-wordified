@@ -268,12 +268,12 @@ class
 TimerThread
 ;
 friend
-struct
-TimerAdditionComparator
-;
-friend
 class
 nsTimerEvent
+;
+friend
+struct
+TimerAdditionComparator
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMER
