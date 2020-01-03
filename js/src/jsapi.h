@@ -20664,11 +20664,6 @@ JS_CompileScript
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 const
 char
 *

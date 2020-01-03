@@ -258,7 +258,6 @@ CHECK
 JS_CompileScript
 (
 cx
-global
 code
 strlen
 (

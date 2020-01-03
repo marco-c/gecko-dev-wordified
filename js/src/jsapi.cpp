@@ -21756,11 +21756,6 @@ JS_CompileScript
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 const
 char
 *
@@ -21782,7 +21777,12 @@ return
 Compile
 (
 cx
-obj
+cx
+-
+>
+global
+(
+)
 options
 ascii
 length

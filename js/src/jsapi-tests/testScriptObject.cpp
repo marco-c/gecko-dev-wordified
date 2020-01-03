@@ -339,7 +339,6 @@ CHECK
 JS_CompileScript
 (
 cx
-global
 code
 code_size
 options
@@ -397,7 +396,6 @@ CHECK
 JS_CompileScript
 (
 cx
-global
 "
 "
 0
@@ -456,7 +454,6 @@ CHECK
 JS_CompileScript
 (
 cx
-global
 code
 code_size
 options
