@@ -515,6 +515,8 @@ SHA1Sum
 Hash
 *
 aHash
+bool
+aReturnDoomed
 CacheFileHandle
 *
 *
@@ -1868,6 +1870,8 @@ SHA1Sum
 Hash
 *
 aHash
+bool
+aFailIfAlreadyDoomed
 )
 ;
 nsresult
