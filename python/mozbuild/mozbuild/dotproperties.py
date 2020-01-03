@@ -75,6 +75,8 @@ __future__
 import
 unicode_literals
 import
+codecs
+import
 re
 import
 os
@@ -198,11 +200,18 @@ str_type
             
 f
 =
+codecs
+.
 open
 (
 file
 '
-rt
+r
+'
+'
+utf
+-
+8
 '
 )
         
