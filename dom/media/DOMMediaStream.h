@@ -2201,6 +2201,15 @@ int32_t
 aOverlayId
 )
 ;
+void
+SetImageSize
+(
+uint32_t
+width
+uint32_t
+height
+)
+;
 protected
 :
 ~
