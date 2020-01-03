@@ -9037,6 +9037,7 @@ corsproxy
 Init
 (
 newChannel
+true
 )
 ;
 if
@@ -12180,6 +12181,7 @@ corsproxy
 Init
 (
 newChannel
+true
 )
 ;
 if

@@ -2276,6 +2276,7 @@ corsListener
 Init
 (
 channel
+true
 )
 ;
 NS_ENSURE_SUCCESS

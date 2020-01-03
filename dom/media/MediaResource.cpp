@@ -4215,6 +4215,7 @@ crossSiteListener
 Init
 (
 mChannel
+true
 )
 ;
 NS_ENSURE_SUCCESS
