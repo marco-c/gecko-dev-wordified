@@ -5592,6 +5592,7 @@ handled
 flavor
 install_prefix
 active
+package_tests
 )
         
 #
@@ -5640,6 +5641,39 @@ the
         
 #
 manifest
+.
+        
+#
+package_tests
+indicates
+whether
+to
+package
+test
+files
+into
+the
+test
+        
+#
+package
+;
+suites
+that
+compile
+the
+test
+files
+should
+not
+install
+        
+#
+them
+into
+the
+test
+package
 .
         
 #
@@ -5704,6 +5738,7 @@ mochitest
 a11y
 '
 True
+True
 )
             
 BROWSER_CHROME
@@ -5723,6 +5758,23 @@ mochitest
 browser
 '
 True
+True
+)
+            
+ANDROID_INSTRUMENTATION
+=
+(
+'
+instrumentation
+'
+'
+instrumentation
+'
+'
+.
+'
+False
+False
 )
             
 JETPACK_PACKAGE
@@ -5743,6 +5795,7 @@ jetpack
 -
 package
 '
+True
 True
 )
             
@@ -5765,6 +5818,7 @@ jetpack
 addon
 '
 True
+False
 )
             
 METRO_CHROME
@@ -5784,6 +5838,7 @@ mochitest
 metro
 '
 True
+True
 )
             
 MOCHITEST
@@ -5801,6 +5856,7 @@ mochitest
 tests
 '
 True
+True
 )
             
 MOCHITEST_CHROME
@@ -5817,6 +5873,7 @@ mochitest
 '
 chrome
 '
+True
 True
 )
             
@@ -5837,6 +5894,7 @@ mochitest
 webapprtChrome
 '
 True
+True
 )
             
 WEBRTC_SIGNALLING_TEST
@@ -5851,6 +5909,7 @@ steeplechase
 '
 .
 '
+True
 True
 )
             
@@ -5867,6 +5926,7 @@ xpcshell
 .
 '
 False
+True
 )
         
 )
@@ -6317,6 +6377,7 @@ flavor
 install_root
 install_subdir
 filter_inactive
+package_tests
 =
 info
         
@@ -7244,30 +7305,34 @@ test
 )
                 
 #
-Jetpack
-add
--
-on
-tests
-are
-generated
-directly
-in
-the
+Some
 test
+files
+are
+compiled
+and
+should
+not
+be
+copied
+into
+the
                 
 #
-directory
+test
+package
+.
+They
+function
+as
+identifiers
+rather
+than
+files
+.
                 
 if
-flavor
-!
-=
-'
-jetpack
--
-addon
-'
+package_tests
 :
                     
 obj
