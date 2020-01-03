@@ -7539,6 +7539,16 @@ cleanUpEverything
 (
 false
 )
+grayBufferState
+(
+GCRuntime
+:
+:
+GrayBufferState
+:
+:
+Unused
+)
 grayBitsValid
 (
 false
