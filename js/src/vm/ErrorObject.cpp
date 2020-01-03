@@ -166,12 +166,6 @@ using
 namespace
 js
 ;
-using
-mozilla
-:
-:
-PodZero
-;
 /
 *
 static
@@ -994,12 +988,6 @@ stuff
 .
 JSErrorReport
 report
-;
-PodZero
-(
-&
-report
-)
 ;
 /
 /

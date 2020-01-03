@@ -414,7 +414,7 @@ JSLinearString
 struct
 JSJitInfo
 ;
-struct
+class
 JSErrorReport
 ;
 namespace
