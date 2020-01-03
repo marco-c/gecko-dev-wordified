@@ -4101,6 +4101,13 @@ mCancelAllPendingRunnables
 ;
 }
 void
+ClearMainEventQueue
+(
+WorkerRanOrNot
+aRanOrNot
+)
+;
+void
 OnProcessNextEvent
 (
 uint32_t
@@ -4236,13 +4243,6 @@ aSharedWorkerName
 WorkerLoadInfo
 &
 aLoadInfo
-)
-;
-void
-ClearMainEventQueue
-(
-WorkerRanOrNot
-aRanOrNot
 )
 ;
 bool
