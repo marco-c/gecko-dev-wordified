@@ -138,7 +138,7 @@ mozilla
 /
 ipc
 /
-UnixSocket
+StreamSocket
 .
 h
 >
@@ -159,7 +159,7 @@ mozilla
 ipc
 :
 :
-UnixSocketConsumer
+StreamSocket
 {
 public
 :
@@ -189,6 +189,13 @@ void
 Shutdown
 (
 )
+;
+ConnectionOrientedSocketIO
+*
+GetIO
+(
+)
+MOZ_OVERRIDE
 ;
 private
 :
