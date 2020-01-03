@@ -43058,13 +43058,13 @@ scaleToFit
 allowZoom
 *
 /
-false
+true
 /
 *
 allowDoubleTapZoom
 *
 /
-false
+true
 )
 ;
 }
