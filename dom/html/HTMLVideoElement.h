@@ -312,6 +312,17 @@ MOZ_OVERRIDE
 ;
 /
 /
+Element
+virtual
+bool
+IsInteractiveHTMLContent
+(
+)
+const
+MOZ_OVERRIDE
+;
+/
+/
 WebIDL
 uint32_t
 Width

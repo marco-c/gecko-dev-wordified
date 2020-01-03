@@ -606,6 +606,17 @@ MOZ_OVERRIDE
 ;
 /
 /
+Element
+virtual
+bool
+IsInteractiveHTMLContent
+(
+)
+const
+MOZ_OVERRIDE
+;
+/
+/
 nsIDOMHTMLInputElement
 NS_DECL_NSIDOMHTMLINPUTELEMENT
 /

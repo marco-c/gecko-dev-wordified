@@ -272,6 +272,17 @@ MOZ_OVERRIDE
 ;
 /
 /
+Element
+virtual
+bool
+IsInteractiveHTMLContent
+(
+)
+const
+MOZ_OVERRIDE
+;
+/
+/
 nsIDOMHTMLImageElement
 NS_DECL_NSIDOMHTMLIMAGEELEMENT
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
