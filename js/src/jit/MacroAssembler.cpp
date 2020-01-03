@@ -16213,6 +16213,12 @@ liveRegs
 }
 /
 /
+{
+{
+{
+check_macroassembler_style
+/
+/
 =
 =
 =
@@ -17081,3 +17087,9 @@ amount
 )
 ;
 }
+/
+/
+}
+}
+}
+check_macroassembler_style

@@ -20242,6 +20242,12 @@ this
 }
 /
 /
+{
+{
+{
+check_macroassembler_style
+/
+/
 =
 =
 =
@@ -21318,3 +21324,9 @@ ScratchRegister
 )
 ;
 }
+/
+/
+}
+}
+}
+check_macroassembler_style

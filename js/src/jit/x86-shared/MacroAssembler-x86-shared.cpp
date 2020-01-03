@@ -1100,6 +1100,12 @@ this
 }
 /
 /
+{
+{
+{
+check_macroassembler_style
+/
+/
 =
 =
 =
@@ -2392,3 +2398,9 @@ target
 )
 ;
 }
+/
+/
+}
+}
+}
+check_macroassembler_style

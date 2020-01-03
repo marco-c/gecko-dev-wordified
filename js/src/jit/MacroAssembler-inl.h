@@ -131,6 +131,12 @@ jit
 {
 /
 /
+{
+{
+{
+check_macroassembler_style
+/
+/
 =
 =
 =
@@ -560,6 +566,12 @@ framePushed
 )
 ;
 }
+/
+/
+}
+}
+}
+check_macroassembler_style
 /
 /
 =

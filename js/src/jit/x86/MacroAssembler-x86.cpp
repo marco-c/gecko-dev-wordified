@@ -3671,6 +3671,12 @@ this
 }
 /
 /
+{
+{
+{
+check_macroassembler_style
+/
+/
 =
 =
 =
@@ -3887,3 +3893,9 @@ framePushed_
 amount
 ;
 }
+/
+/
+}
+}
+}
+check_macroassembler_style
