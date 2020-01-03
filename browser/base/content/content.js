@@ -3327,6 +3327,12 @@ this
 _articlePromise
 )
 ;
+this
+.
+_articlePromise
+=
+null
+;
 }
 break
 ;
