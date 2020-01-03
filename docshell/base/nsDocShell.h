@@ -208,12 +208,17 @@ GeckoProfiler
 h
 "
 #
+ifdef
+MOZ_ENABLE_PROFILER_SPS
+#
 include
 "
 ProfilerMarkers
 .
 h
 "
+#
+endif
 /
 /
 Helper
@@ -6014,6 +6019,9 @@ mozilla
 TimeStamp
 mProfileTimelineStartTime
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 struct
 InternalProfileTimelineMarker
 {
@@ -6074,6 +6082,8 @@ InternalProfileTimelineMarker
 >
 mProfileTimelineMarkers
 ;
+#
+endif
 /
 /
 Get
