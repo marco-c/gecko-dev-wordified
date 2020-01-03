@@ -1920,9 +1920,9 @@ static
 bool
 IsHTMLBlock
 (
-nsIAtom
+nsIContent
 *
-aLocalName
+aContent
 )
 ;
 enum

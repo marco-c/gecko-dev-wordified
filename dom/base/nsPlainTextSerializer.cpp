@@ -11867,10 +11867,7 @@ nsContentUtils
 :
 IsHTMLBlock
 (
-GetIdForContent
-(
 aElement
-)
 )
 ;
 }
