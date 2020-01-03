@@ -306,17 +306,6 @@ RecvForceEnd
 )
 override
 ;
-virtual
-bool
-RecvSetAudioOutputVolume
-(
-const
-uint32_t
-&
-aVolume
-)
-override
-;
 }
 ;
 class
