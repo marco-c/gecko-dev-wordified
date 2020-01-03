@@ -1535,6 +1535,7 @@ else
 {
 if
 (
+!
 tmpBuffer
 .
 SetLength
@@ -1863,6 +1864,7 @@ FftSize
 {
 if
 (
+!
 mBuffer
 .
 SetLength
@@ -1901,6 +1903,7 @@ mWriteIndex
 ;
 if
 (
+!
 mOutputBuffer
 .
 SetLength
