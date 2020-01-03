@@ -353,8 +353,7 @@ nsIID
 aID
 )
 {
-if
-(
+return
 mWeakPtr
 .
 get
@@ -371,12 +370,6 @@ Equals
 (
 aID
 )
-)
-return
-true
-;
-return
-false
 ;
 }
 nsWeakPtr
