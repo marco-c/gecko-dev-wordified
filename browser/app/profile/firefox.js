@@ -17630,9 +17630,6 @@ false
 Enable
 the
 Profiler
-and
-the
-Timeline
 pref
 (
 "
@@ -17645,9 +17642,14 @@ enabled
 true
 )
 ;
+/
+/
+Timeline
+panel
+settings
 #
 ifdef
-MOZ_DEV_EDITION
+NIGHTLY_BUILD
 pref
 (
 "
