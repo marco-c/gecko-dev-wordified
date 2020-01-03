@@ -346,7 +346,7 @@ save
 const
 MAX_LRU_PINGS
 =
-17
+50
 ;
 /
 /
