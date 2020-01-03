@@ -2529,7 +2529,7 @@ if
 xpc
 :
 :
-Interpose
+InterposeProperty
 (
 ccx
 obj
