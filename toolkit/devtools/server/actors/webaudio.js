@@ -340,6 +340,9 @@ setTargetAtTime
 "
 setValueCurveAtTime
 "
+"
+cancelScheduledValues
+"
 ]
 ;
 const
