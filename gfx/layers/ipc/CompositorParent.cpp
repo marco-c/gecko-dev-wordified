@@ -3570,8 +3570,6 @@ NS_WARNING
 Enabling
 vsync
 compositor
-\
-n
 "
 )
 ;

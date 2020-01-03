@@ -8621,8 +8621,6 @@ to
 create
 PNG
 !
-\
-n
 "
 )
 ;

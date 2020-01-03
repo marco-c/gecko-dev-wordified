@@ -2658,8 +2658,6 @@ active
 displays
 .
 Retrying
-\
-n
 "
 )
 ;
@@ -3271,8 +3269,6 @@ to
 software
 vsync
 .
-\
-n
 "
 )
 ;

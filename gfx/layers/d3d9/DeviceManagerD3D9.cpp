@@ -1049,8 +1049,6 @@ instance
 of
 Nv3DVUtils
 .
-\
-n
 "
 )
 ;
