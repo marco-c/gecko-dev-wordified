@@ -488,12 +488,7 @@ FetchPut
 aFetchPut
 RequestId
 aRequestId
-const
-mozilla
-:
-:
-ErrorResult
-&
+nsresult
 aRv
 )
 override

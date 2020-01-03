@@ -354,12 +354,9 @@ RequestId
 &
 requestId
 const
-mozilla
-:
-:
-ErrorResult
+nsresult
 &
-aError
+aRv
 )
 override
 ;
