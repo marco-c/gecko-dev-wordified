@@ -194,6 +194,8 @@ style
 :
 [
 "
+bookmark
+-
 tag
 "
 ]
