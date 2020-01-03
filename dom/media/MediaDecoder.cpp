@@ -828,13 +828,6 @@ NS_IsMainThread
 )
 )
 ;
-AbstractThread
-:
-:
-InitStatics
-(
-)
-;
 /
 /
 Log
