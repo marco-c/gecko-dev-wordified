@@ -995,7 +995,7 @@ aTarget
 or
 up
 to
-aError
+aTolerance
 after
 target
 )
@@ -1005,7 +1005,7 @@ Both
 /
 aTarget
 and
-aError
+aTolerance
 are
 in
 microseconds
@@ -1031,7 +1031,7 @@ SwitchAudioReader
 int64_t
 aTarget
 int64_t
-aError
+aTolerance
 =
 0
 )
@@ -1042,7 +1042,7 @@ SwitchVideoReader
 int64_t
 aTarget
 int64_t
-aError
+aTolerance
 =
 0
 )
@@ -1198,7 +1198,7 @@ SelectReader
 int64_t
 aTarget
 int64_t
-aError
+aTolerance
 const
 nsTArray
 <
