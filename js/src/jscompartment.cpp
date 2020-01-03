@@ -852,6 +852,11 @@ cx
 )
 )
 {
+js_ReportOutOfMemory
+(
+cx
+)
+;
 js_delete
 (
 jitRuntime_
