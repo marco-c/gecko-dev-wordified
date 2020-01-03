@@ -7011,7 +7011,7 @@ PairingRequest
 )
 NS_LITERAL_STRING
 (
-KEY_ADAPTER
+KEY_PAIRING_LISTENER
 )
 BluetoothValue
 (
@@ -7222,7 +7222,7 @@ PairingRequest
 )
 NS_LITERAL_STRING
 (
-KEY_ADAPTER
+KEY_PAIRING_LISTENER
 )
 BluetoothValue
 (

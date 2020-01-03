@@ -127,6 +127,13 @@ h
 #
 include
 "
+BluetoothInterface
+.
+h
+"
+#
+include
+"
 BluetoothProfileManagerBase
 .
 h
@@ -1670,6 +1677,12 @@ BluetoothSignalObserverTable
 ;
 BluetoothSignalObserverTable
 mBluetoothSignalObserverTable
+;
+nsTArray
+<
+BluetoothSignal
+>
+mPendingPairReqSignals
 ;
 bool
 mEnabled
