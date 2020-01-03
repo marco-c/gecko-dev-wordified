@@ -243,13 +243,13 @@ role
 /
 of
 graph
-verticies
+vertices
 versus
 graph
 edges
 .
 Graph
-verticies
+vertices
 are
 the
 heap
@@ -320,7 +320,7 @@ graph
 edge
 is
 independent
-to
+of
 the
 tracing
 /
