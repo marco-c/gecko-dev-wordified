@@ -591,13 +591,6 @@ nsISupports
 *
 mGlobalObject
 ;
-mutable
-nsCOMPtr
-<
-nsISupports
->
-mGlobalObjectRef
-;
 }
 ;
 /
