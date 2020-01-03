@@ -4770,6 +4770,14 @@ static
 bool
 sDoNotReturnNoLayoutErrorToGoogleJaInputAtCaret
 ;
+static
+bool
+sHackQueryInsertForMSSimplifiedTIP
+;
+static
+bool
+sHackQueryInsertForMSTraditionalTIP
+;
 }
 ;
 }
