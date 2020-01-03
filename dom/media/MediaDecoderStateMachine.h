@@ -3620,7 +3620,7 @@ state
 machine
 thread
 .
-nsresult
+void
 StartAudioThread
 (
 )
@@ -9381,6 +9381,12 @@ nsRefPtr
 MediaResource
 >
 mResource
+;
+MozPromiseRequestHolder
+<
+GenericPromise
+>
+mAudioSinkPromise
 ;
 private
 :
