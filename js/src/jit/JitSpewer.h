@@ -655,6 +655,9 @@ JITSPEW_CHANNEL
 JitSpew_Terminator
 }
 ;
+class
+MIRGenerator
+;
 /
 /
 The
