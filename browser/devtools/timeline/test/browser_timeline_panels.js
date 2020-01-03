@@ -360,6 +360,8 @@ selectedPanel
 timeline
 -
 waterfall
+-
+container
 "
 )
 "
