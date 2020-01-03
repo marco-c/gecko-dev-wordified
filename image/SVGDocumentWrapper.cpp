@@ -273,6 +273,13 @@ DOMSVGLength
 .
 h
 "
+#
+include
+"
+nsDocument
+.
+h
+"
 /
 /
 undef
