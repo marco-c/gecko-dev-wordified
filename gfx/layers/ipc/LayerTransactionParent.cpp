@@ -2128,6 +2128,11 @@ common
 fixedPositionAnchor
 (
 )
+common
+.
+isClipFixed
+(
+)
 )
 ;
 }

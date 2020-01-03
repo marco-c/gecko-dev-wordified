@@ -27922,6 +27922,15 @@ scrollFrameSize
 mFrame
 presContext
 aContainerParameters
+/
+*
+clip
+is
+fixed
+=
+*
+/
+true
 )
 ;
 ViewID

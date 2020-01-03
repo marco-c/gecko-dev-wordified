@@ -7960,6 +7960,8 @@ const
 nsIFrame
 *
 aFixedPosFrame
+bool
+aIsClipFixed
 )
 ;
 /
@@ -18766,6 +18768,8 @@ const
 nsIFrame
 *
 aFixedPosFrame
+bool
+aIsClipFixed
 )
 {
 aLayer
@@ -19005,6 +19009,7 @@ anchorRect
 aFixedPosFrame
 presContext
 mParameters
+aIsClipFixed
 )
 ;
 }
@@ -21144,6 +21149,11 @@ data
 -
 >
 mFixedPosFrameForLayerData
+!
+data
+-
+>
+mSingleItemFixedToViewport
 )
 ;
 PaintedLayerData
@@ -26596,6 +26606,8 @@ SetFixedPositionLayerData
 (
 ownLayer
 fixedPosFrame
+!
+shouldFixToViewport
 )
 ;
 nsRect

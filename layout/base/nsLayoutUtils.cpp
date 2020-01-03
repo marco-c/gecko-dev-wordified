@@ -10980,6 +10980,8 @@ const
 ContainerLayerParameters
 &
 aContainerParameters
+bool
+aIsClipFixed
 )
 {
 /
@@ -11435,6 +11437,7 @@ SetFixedPositionData
 (
 id
 anchor
+aIsClipFixed
 )
 ;
 }
