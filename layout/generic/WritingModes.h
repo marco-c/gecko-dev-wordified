@@ -2111,6 +2111,16 @@ friend
 class
 LogicalRect
 ;
+friend
+struct
+IPC
+:
+:
+ParamTraits
+<
+WritingMode
+>
+;
 /
 *
 *

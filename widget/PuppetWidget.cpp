@@ -3188,6 +3188,11 @@ queryEvent
 GetSelectionEnd
 (
 )
+queryEvent
+.
+GetWritingMode
+(
+)
 aIMENotification
 .
 mSelectionChangeData
