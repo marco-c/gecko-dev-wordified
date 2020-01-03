@@ -343,7 +343,17 @@ Remove
 true
 )
 ;
-else
+if
+(
+NS_WARN_IF
+(
+NS_FAILED
+(
+rv
+)
+)
+)
+{
 NS_WARNING
 (
 "
@@ -357,6 +367,7 @@ directory
 "
 )
 ;
+}
 /
 /
 If
