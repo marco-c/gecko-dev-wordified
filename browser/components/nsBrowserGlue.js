@@ -3904,6 +3904,9 @@ actionType
 let
 styles
 =
+new
+Set
+(
 controller
 .
 getStyleAt
@@ -3918,6 +3921,7 @@ split
 s
 +
 /
+)
 )
 ;
 let
@@ -3942,7 +3946,7 @@ s
 >
 styles
 .
-includes
+has
 (
 s
 )
