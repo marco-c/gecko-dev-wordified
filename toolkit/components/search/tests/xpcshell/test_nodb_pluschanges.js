@@ -309,16 +309,8 @@ flush
 let
 promiseCommit
 =
-new
-Promise
+promiseAfterCommit
 (
-resolve
-=
->
-afterCommit
-(
-resolve
-)
 )
 ;
 search
