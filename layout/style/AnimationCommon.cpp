@@ -3605,7 +3605,12 @@ nsAtomCString
 aContent
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 )

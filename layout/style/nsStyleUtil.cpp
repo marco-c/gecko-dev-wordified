@@ -4738,7 +4738,12 @@ aContent
 aContent
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 =

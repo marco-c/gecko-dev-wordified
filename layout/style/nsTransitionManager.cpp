@@ -1510,7 +1510,12 @@ ePseudo_before
 aElement
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 =
@@ -1535,7 +1540,12 @@ ePseudo_after
 aElement
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 =
