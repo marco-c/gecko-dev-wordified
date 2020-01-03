@@ -27238,7 +27238,6 @@ y
 dx
 &
 dy
-nullptr
 )
 ;
 /
