@@ -10098,7 +10098,7 @@ rval
 (
 )
 .
-setInt
+setInt32
 (
 0
 )
