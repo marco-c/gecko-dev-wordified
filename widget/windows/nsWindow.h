@@ -2762,9 +2762,6 @@ mLastSizeMode
 WindowHook
 mWindowHook
 ;
-DWORD
-mAssumeWheelIsZoomUntil
-;
 uint32_t
 mPickerDisplayCount
 ;
