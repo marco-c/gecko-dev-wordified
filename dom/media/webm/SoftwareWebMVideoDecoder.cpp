@@ -455,7 +455,7 @@ GetDecoder
 )
 )
 ;
-nsAutoRef
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -640,7 +640,7 @@ next_tstamp
 =
 0
 ;
-nsAutoRef
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -695,7 +695,7 @@ PushVideoPacket
 (
 next_holder
 .
-disown
+forget
 (
 )
 )
