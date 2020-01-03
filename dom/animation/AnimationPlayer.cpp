@@ -850,7 +850,7 @@ UpdateFinishedState
 true
 )
 ;
-UpdateSourceContent
+UpdateEffect
 (
 )
 ;
@@ -1081,7 +1081,7 @@ Value
 )
 >
 =
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -2144,7 +2144,7 @@ SetNull
 (
 )
 ;
-UpdateSourceContent
+UpdateEffect
 (
 )
 ;
@@ -2164,12 +2164,12 @@ mIsRelevant
 ;
 mIsRelevant
 =
-HasCurrentSource
+HasCurrentEffect
 (
 )
 |
 |
-HasInEffectSource
+IsInEffect
 (
 )
 ;
@@ -3005,9 +3005,8 @@ change
 down
 to
 the
-source
-content
-UpdateSourceContent
+effect
+UpdateEffect
 (
 )
 ;
@@ -3156,7 +3155,7 @@ Value
 )
 >
 =
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -3226,7 +3225,7 @@ Value
 (
 )
 >
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -3240,7 +3239,7 @@ SetValue
 (
 TimeDuration
 (
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -4041,7 +4040,7 @@ We
 call
 UpdateFinishedState
 before
-UpdateSourceContent
+UpdateEffect
 because
 the
 former
@@ -4063,7 +4062,7 @@ UpdateFinishedState
 (
 )
 ;
-UpdateSourceContent
+UpdateEffect
 (
 )
 ;
@@ -4089,11 +4088,11 @@ GetCurrentTime
 )
 ;
 TimeDuration
-targetEffectEnd
+effectEnd
 =
 TimeDuration
 (
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -4141,7 +4140,7 @@ Value
 )
 >
 =
-targetEffectEnd
+effectEnd
 )
 {
 if
@@ -4179,7 +4178,7 @@ mPreviousCurrentTime
 Value
 (
 )
-targetEffectEnd
+effectEnd
 )
 )
 ;
@@ -4190,7 +4189,7 @@ mHoldTime
 .
 SetValue
 (
-targetEffectEnd
+effectEnd
 )
 ;
 }
@@ -4420,7 +4419,7 @@ void
 AnimationPlayer
 :
 :
-UpdateSourceContent
+UpdateEffect
 (
 )
 {
@@ -4718,7 +4717,7 @@ Value
 )
 >
 =
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -4799,8 +4798,7 @@ started
 playing
 but
 our
-source
-content
+effect
 '
 s
 target
@@ -4826,8 +4824,7 @@ the
 case
 of
 our
-source
-content
+effect
 changing
 we
 should
@@ -4836,7 +4833,7 @@ handle
 /
 that
 in
-SetSource
+SetEffect
 )
 /
 /
@@ -4895,8 +4892,7 @@ with
 (
 perhaps
 the
-source
-content
+effect
 had
 no
 document
@@ -5181,7 +5177,7 @@ StickyTimeDuration
 AnimationPlayer
 :
 :
-SourceContentEnd
+EffectEnd
 (
 )
 const

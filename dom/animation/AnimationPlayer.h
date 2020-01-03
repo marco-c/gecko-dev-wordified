@@ -824,8 +824,7 @@ the
 document
 of
 its
-source
-content
+effect
 .
 *
 In
@@ -1628,7 +1627,7 @@ PausePending
 ;
 }
 bool
-HasInPlaySource
+HasInPlayEffect
 (
 )
 const
@@ -1652,7 +1651,7 @@ this
 ;
 }
 bool
-HasCurrentSource
+HasCurrentEffect
 (
 )
 const
@@ -1676,7 +1675,7 @@ this
 ;
 }
 bool
-HasInEffectSource
+IsInEffect
 (
 )
 const
@@ -1792,9 +1791,8 @@ We
 need
 to
 have
-a
-source
-animation
+an
+effect
 in
 its
 active
@@ -1811,7 +1809,7 @@ to
 run
 .
 return
-HasInPlaySource
+HasInPlayEffect
 (
 )
 &
@@ -1933,10 +1931,9 @@ this
 player
 '
 s
-source
+effect
 /
 /
-content
 if
 any
 .
@@ -2006,8 +2003,8 @@ is
 running
 and
 has
-source
-content
+an
+effect
 to
 sample
 )
@@ -2147,7 +2144,7 @@ false
 )
 ;
 void
-UpdateSourceContent
+UpdateEffect
 (
 )
 ;
@@ -2216,7 +2213,7 @@ IsPossiblyOrphanedPendingPlayer
 const
 ;
 StickyTimeDuration
-SourceContentEnd
+EffectEnd
 (
 )
 const
@@ -2406,8 +2403,7 @@ the
 end
 of
 the
-source
-content
+effect
 or
 /
 /

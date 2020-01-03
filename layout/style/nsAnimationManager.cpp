@@ -1309,7 +1309,7 @@ if
 player
 -
 >
-HasInEffectSource
+IsInEffect
 (
 )
 !
@@ -5333,7 +5333,7 @@ mInEffectForCascadeResults
 player
 -
 >
-HasInEffectSource
+IsInEffect
 (
 )
 ;
