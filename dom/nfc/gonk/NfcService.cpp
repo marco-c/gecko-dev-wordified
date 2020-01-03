@@ -2080,8 +2080,8 @@ NfcListenSocket
 this
 )
 ;
-nsresult
-rv
+bool
+success
 =
 mListenSocket
 -
@@ -2098,10 +2098,8 @@ mConsumer
 ;
 if
 (
-NS_FAILED
-(
-rv
-)
+!
+success
 )
 {
 mConsumer
@@ -2109,9 +2107,10 @@ mConsumer
 nullptr
 ;
 return
-rv
+NS_ERROR_FAILURE
 ;
 }
+nsresult
 rv
 =
 NS_NewNamedThread
