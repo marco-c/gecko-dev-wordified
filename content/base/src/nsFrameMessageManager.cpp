@@ -9299,7 +9299,7 @@ return
 cc
 -
 >
-CallRpcMessage
+SendRpcMessage
 (
 PromiseFlatString
 (

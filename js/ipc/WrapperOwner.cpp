@@ -911,7 +911,7 @@ status
 if
 (
 !
-CallPreventExtensions
+SendPreventExtensions
 (
 objId
 &
@@ -1023,7 +1023,7 @@ result
 if
 (
 !
-CallGetPropertyDescriptor
+SendGetPropertyDescriptor
 (
 objId
 idVar
@@ -1151,7 +1151,7 @@ result
 if
 (
 !
-CallGetOwnPropertyDescriptor
+SendGetOwnPropertyDescriptor
 (
 objId
 idVar
@@ -1293,7 +1293,7 @@ status
 if
 (
 !
-CallDefineProperty
+SendDefineProperty
 (
 objId
 idVar
@@ -1456,7 +1456,7 @@ status
 if
 (
 !
-CallDelete
+SendDelete
 (
 objId
 idVar
@@ -1617,7 +1617,7 @@ status
 if
 (
 !
-CallHas
+SendHas
 (
 objId
 idVar
@@ -1724,7 +1724,7 @@ status
 if
 (
 !
-CallHasOwn
+SendHasOwn
 (
 objId
 idVar
@@ -2227,7 +2227,7 @@ status
 if
 (
 !
-CallGet
+SendGet
 (
 objId
 receiverVar
@@ -2521,7 +2521,7 @@ result
 if
 (
 !
-CallSet
+SendSet
 (
 objId
 receiverVar
@@ -2677,7 +2677,7 @@ status
 if
 (
 !
-CallIsExtensible
+SendIsExtensible
 (
 objId
 &
@@ -3054,7 +3054,7 @@ outparams
 if
 (
 !
-CallCallOrConstruct
+SendCallOrConstruct
 (
 objId
 vals
@@ -3340,7 +3340,7 @@ result
 if
 (
 !
-CallHasInstance
+SendHasInstance
 (
 objId
 vVar
@@ -3449,7 +3449,7 @@ result
 if
 (
 !
-CallObjectClassIs
+SendObjectClassIs
 (
 objId
 classValue
@@ -3551,7 +3551,7 @@ name
 if
 (
 !
-CallClassName
+SendClassName
 (
 objId
 &
@@ -3642,7 +3642,7 @@ flags
 if
 (
 !
-CallRegExpToShared
+SendRegExpToShared
 (
 objId
 &
@@ -3860,7 +3860,7 @@ false
 if
 (
 !
-CallIsCallable
+SendIsCallable
 (
 objId
 &
@@ -3958,7 +3958,7 @@ false
 if
 (
 !
-CallIsConstructor
+SendIsConstructor
 (
 objId
 &
@@ -4136,7 +4136,7 @@ names
 if
 (
 !
-CallGetPropertyNames
+SendGetPropertyNames
 (
 objId
 flags
@@ -4436,7 +4436,7 @@ status
 if
 (
 !
-CallInstanceOf
+SendInstanceOf
 (
 objId
 iid
@@ -4504,7 +4504,7 @@ status
 if
 (
 !
-CallDOMInstanceOf
+SendDOMInstanceOf
 (
 objId
 prototypeID
