@@ -3368,6 +3368,12 @@ ABSOLUTE_KEYS
 =
 {
 '
+cache_files
+'
+'
+cache_size
+'
+'
 cache_max_size
 '
 }
