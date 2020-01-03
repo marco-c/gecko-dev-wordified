@@ -1918,7 +1918,7 @@ src
 }
 static
 SECStatus
-nsspkcs5_PBKFD2_F
+nsspkcs5_PBKDF2_F
 (
 const
 SECHashObject
@@ -2402,7 +2402,7 @@ hLen
 {
 rv
 =
-nsspkcs5_PBKFD2_F
+nsspkcs5_PBKDF2_F
 (
 hashobj
 pwitem

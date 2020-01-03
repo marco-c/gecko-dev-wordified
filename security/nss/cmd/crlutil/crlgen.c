@@ -6346,8 +6346,8 @@ dtype
 !
 =
 CRLGEN_TYPE_DIGIT
-|
-|
+&
+&
 dtype
 !
 =

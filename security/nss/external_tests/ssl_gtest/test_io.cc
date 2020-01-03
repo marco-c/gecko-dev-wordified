@@ -2329,6 +2329,14 @@ pop
 (
 )
 ;
+if
+(
+timer
+-
+>
+callback_
+)
+{
 timer
 -
 >
@@ -2341,6 +2349,7 @@ target_
 TIMER_EVENT
 )
 ;
+}
 delete
 timer
 ;
