@@ -549,7 +549,8 @@ a
 new
 cap
 of
-16k
+OPEN_MAX
+.
 struct
 rlimit
 limits
@@ -578,7 +579,7 @@ min
 (
 rlim_t
 (
-16384
+OPEN_MAX
 )
 limits
 .
