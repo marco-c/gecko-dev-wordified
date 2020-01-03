@@ -765,7 +765,6 @@ var
 conversationStore
 client
 ccView
-oldTitle
 dispatcher
 ;
 var
@@ -809,12 +808,6 @@ function
 (
 )
 {
-oldTitle
-=
-document
-.
-title
-;
 client
 =
 new
@@ -968,12 +961,6 @@ function
 ccView
 =
 undefined
-;
-document
-.
-title
-=
-oldTitle
 ;
 }
 )
