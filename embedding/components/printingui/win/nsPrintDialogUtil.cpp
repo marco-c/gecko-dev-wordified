@@ -180,11 +180,9 @@ win
 in
 mozilla
 /
-content
+dom
 /
 base
-/
-src
 :
 .
 \

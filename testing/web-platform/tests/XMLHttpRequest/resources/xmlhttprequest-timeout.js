@@ -32,7 +32,7 @@ file
 /
 tip
 /
-content
+dom
 /
 base
 /
