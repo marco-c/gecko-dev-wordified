@@ -208,12 +208,6 @@ using
 namespace
 mozilla
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 PRLogModuleInfo
 *
@@ -244,8 +238,6 @@ return
 gCspParserPRLog
 ;
 }
-#
-endif
 #
 define
 CSPPARSERLOG
@@ -7765,9 +7757,6 @@ uint64_t
 aInnerWindowID
 )
 {
-#
-ifdef
-PR_LOGGING
 {
 CSPPARSERLOG
 (
@@ -7853,8 +7842,6 @@ false
 )
 ;
 }
-#
-endif
 NS_ASSERTION
 (
 aSelfURI
@@ -8130,9 +8117,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-PR_LOGGING
 {
 nsString
 parsedPolicy
@@ -8170,8 +8154,6 @@ get
 )
 ;
 }
-#
-endif
 return
 policy
 ;

@@ -260,16 +260,11 @@ sCSPEnabled
 =
 true
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gCspPRLog
 ;
-#
-endif
 CSPService
 :
 :
@@ -293,9 +288,6 @@ enable
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -310,8 +302,6 @@ CSP
 "
 )
 ;
-#
-endif
 }
 CSPService
 :
@@ -802,9 +792,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 location
@@ -841,8 +828,6 @@ get
 )
 ;
 }
-#
-endif
 /
 /
 default
@@ -1511,9 +1496,6 @@ if
 csp
 )
 {
-#
-ifdef
-PR_LOGGING
 {
 uint32_t
 numPolicies
@@ -1600,8 +1582,6 @@ get
 }
 }
 }
-#
-endif
 /
 /
 obtain
@@ -1639,9 +1619,6 @@ aDecision
 ;
 }
 }
-#
-ifdef
-PR_LOGGING
 else
 {
 nsAutoCString
@@ -1680,8 +1657,6 @@ get
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -2125,9 +2100,6 @@ aMimeTypeGuess
 aDecision
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 newUri
@@ -2219,8 +2191,6 @@ request
 )
 ;
 }
-#
-endif
 /
 /
 if

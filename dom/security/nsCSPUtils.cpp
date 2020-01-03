@@ -177,12 +177,6 @@ nsReadableUtils
 .
 h
 "
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 PRLogModuleInfo
 *
@@ -213,8 +207,6 @@ return
 gCspUtilsPRLog
 ;
 }
-#
-endif
 #
 define
 CSPUTILSLOG
@@ -1426,9 +1418,6 @@ aWasRedirected
 )
 const
 {
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -1463,8 +1452,6 @@ get
 )
 ;
 }
-#
-endif
 return
 false
 ;
@@ -1645,9 +1632,6 @@ aWasRedirected
 )
 const
 {
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -1682,8 +1666,6 @@ get
 )
 ;
 }
-#
-endif
 NS_ASSERTION
 (
 (
@@ -1856,9 +1838,6 @@ aWasRedirected
 )
 const
 {
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -1893,8 +1872,6 @@ get
 )
 ;
 }
-#
-endif
 /
 /
 we
@@ -3648,9 +3625,6 @@ aWasRedirected
 )
 const
 {
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -3697,8 +3671,6 @@ get
 )
 ;
 }
-#
-endif
 return
 mNonce
 .
@@ -4407,9 +4379,6 @@ aWasRedirected
 )
 const
 {
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -4444,8 +4413,6 @@ get
 )
 ;
 }
-#
-endif
 for
 (
 uint32_t
@@ -5013,9 +4980,6 @@ outViolatedDirective
 )
 const
 {
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -5068,8 +5032,6 @@ false
 )
 ;
 }
-#
-endif
 NS_ASSERTION
 (
 aUri
