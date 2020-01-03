@@ -10512,7 +10512,7 @@ true
 ;
 /
 /
-Enable
+Disable
 selection
 caret
 by
@@ -10524,7 +10524,7 @@ selectioncaret
 .
 enabled
 "
-true
+false
 )
 ;
 /
