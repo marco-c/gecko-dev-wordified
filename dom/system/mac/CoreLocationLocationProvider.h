@@ -221,6 +221,9 @@ class
 CoreLocationObjects
 ;
 class
+MLSFallback
+;
+class
 CoreLocationLocationProvider
 :
 public
@@ -266,8 +269,6 @@ virtual
 CoreLocationLocationProvider
 (
 )
-{
-}
 ;
 CoreLocationObjects
 *
@@ -279,9 +280,9 @@ nsIGeolocationUpdate
 >
 mCallback
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIGeolocationProvider
+MLSFallback
 >
 mMLSFallbackProvider
 ;
@@ -314,8 +315,7 @@ virtual
 MLSUpdate
 (
 )
-{
-}
+;
 }
 ;
 }
