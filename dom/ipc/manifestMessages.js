@@ -613,11 +613,13 @@ reqInit
 ;
 req
 .
-setContext
+setContentPolicyType
 (
-'
-manifest
-'
+Ci
+.
+nsIContentPolicy
+.
+TYPE_WEB_MANIFEST
 )
 ;
 const
