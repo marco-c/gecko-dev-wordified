@@ -3307,7 +3307,7 @@ soon
 if
 (
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -3782,12 +3782,15 @@ non
 -
 own
 properties
+of
+the
+target
 on
+/
+/
 the
 holder
 .
-/
-/
 This
 is
 broken
@@ -3802,10 +3805,10 @@ but
 for
 now
 we
+/
+/
 need
 to
-/
-/
 cache
 the
 value
@@ -3818,7 +3821,7 @@ call
 to
 /
 /
-JS_GetPropertyById
+JS_GetOwnPropertyDescriptorById
 at
 the
 top
@@ -3847,7 +3850,7 @@ funObj
 )
 &
 &
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -4266,7 +4269,7 @@ setter
 )
 &
 &
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -8651,7 +8654,7 @@ desc
 )
 &
 &
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -9343,7 +9346,7 @@ expando
 if
 (
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 expando
@@ -9654,7 +9657,7 @@ false
 if
 (
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -9963,7 +9966,7 @@ cx
 )
 ;
 return
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -10896,7 +10899,7 @@ desc
 if
 (
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -11015,7 +11018,7 @@ desc
 )
 &
 &
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -12907,7 +12910,7 @@ object
 &
 &
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -13251,7 +13254,7 @@ desc
 |
 |
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
