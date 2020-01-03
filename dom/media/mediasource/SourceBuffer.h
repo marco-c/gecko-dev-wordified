@@ -123,7 +123,7 @@ mozilla_dom_SourceBuffer_h_
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -1037,7 +1037,7 @@ mUpdateID
 int64_t
 mReportedOffset
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 SourceBufferContentManager
 :

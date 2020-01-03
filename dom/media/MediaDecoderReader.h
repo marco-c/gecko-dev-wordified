@@ -148,7 +148,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -372,7 +372,7 @@ CANCELED
 }
 ;
 typedef
-MediaPromise
+MozPromise
 <
 nsRefPtr
 <
@@ -390,7 +390,7 @@ true
 MetadataPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 nsRefPtr
 <
@@ -408,7 +408,7 @@ true
 AudioDataPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 nsRefPtr
 <
@@ -426,7 +426,7 @@ true
 VideoDataPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 int64_t
 nsresult
@@ -508,7 +508,7 @@ exclusivity
 here
 .
 typedef
-MediaPromise
+MozPromise
 <
 MediaData
 :
@@ -2969,7 +2969,7 @@ State
 for
 ThrottledNotifyDataArrived
 .
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaTimerPromise
 >
@@ -3289,13 +3289,13 @@ Video
 }
 Data
 .
-MediaPromiseHolder
+MozPromiseHolder
 <
 AudioDataPromise
 >
 mBaseAudioPromise
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 VideoDataPromise
 >

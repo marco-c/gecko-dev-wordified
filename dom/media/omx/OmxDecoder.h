@@ -719,7 +719,7 @@ mAudioMetadataRead
 mozilla
 :
 :
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaResourcePromise
 >

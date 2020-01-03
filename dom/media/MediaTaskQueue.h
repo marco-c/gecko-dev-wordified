@@ -169,7 +169,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -190,7 +190,7 @@ class
 SharedThreadPool
 ;
 typedef
-MediaPromise
+MozPromise
 <
 bool
 bool
@@ -1040,7 +1040,7 @@ process
 bool
 mIsShutdown
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 ShutdownPromise
 >

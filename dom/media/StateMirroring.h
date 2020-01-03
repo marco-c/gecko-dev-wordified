@@ -125,7 +125,7 @@ StateMirroring_h_
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "

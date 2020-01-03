@@ -1187,7 +1187,7 @@ mDiscontinuity
 Pending
 seek
 .
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaTrackDemuxer
 :
@@ -1215,7 +1215,7 @@ MediaRawData
 >
 mQueuedSamples
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaTrackDemuxer
 :
@@ -1224,7 +1224,7 @@ SamplesPromise
 >
 mDemuxRequest
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 WaitForDataPromise
 >
@@ -1594,7 +1594,7 @@ aDecodeAhead
 )
 {
 }
-MediaPromiseHolder
+MozPromiseHolder
 <
 PromiseType
 >
@@ -1720,7 +1720,7 @@ DemuxerFailureReason
 aFailure
 )
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDataDemuxer
 :
@@ -1818,7 +1818,7 @@ TimeUnit
 aTimeThreshold
 )
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaTrackDemuxer
 :
@@ -1923,7 +1923,7 @@ metadata
 bool
 mInitDone
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MetadataPromise
 >
@@ -2149,7 +2149,7 @@ TimeUnit
 >
 mPendingSeekTime
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 SeekPromise
 >

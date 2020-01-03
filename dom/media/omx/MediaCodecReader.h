@@ -1003,7 +1003,7 @@ MediaExtractor
 >
 mExtractor
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaDecoderReader
 :
@@ -1021,13 +1021,13 @@ bug
 1168008
 land
 .
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaResourcePromise
 >
 mMediaResourceRequest
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaResourcePromise
 >
@@ -1196,7 +1196,7 @@ Protected
 by
 mTrackMonitor
 .
-MediaPromiseHolder
+MozPromiseHolder
 <
 AudioDataPromise
 >
@@ -1279,7 +1279,7 @@ Protected
 by
 mTrackMonitor
 .
-MediaPromiseHolder
+MozPromiseHolder
 <
 VideoDataPromise
 >

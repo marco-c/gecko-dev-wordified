@@ -169,7 +169,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -1531,7 +1531,7 @@ made
 async
 supported
 by
-MediaPromise
+MozPromise
 making
 this
 unnecessary

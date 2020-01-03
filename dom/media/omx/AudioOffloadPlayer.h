@@ -996,7 +996,7 @@ mSeekTarget
 ;
 /
 /
-MediaPromise
+MozPromise
 of
 current
 seek
@@ -1017,7 +1017,7 @@ Mutex
 /
 /
 mLock
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaDecoder
 :

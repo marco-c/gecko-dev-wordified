@@ -117,11 +117,11 @@ if
 !
 defined
 (
-MediaPromise_h_
+MozPromise_h_
 )
 #
 define
-MediaPromise_h_
+MozPromise_h_
 #
 include
 "
@@ -209,7 +209,7 @@ to
 pass
 to
 the
-MediaPromise
+MozPromise
 API
 .
 *
@@ -229,7 +229,7 @@ mozilla
 extern
 PRLogModuleInfo
 *
-gMediaPromiseLog
+gMozPromiseLog
 ;
 #
 define
@@ -243,13 +243,13 @@ x
 \
 MOZ_ASSERT
 (
-gMediaPromiseLog
+gMozPromiseLog
 )
 ;
 \
 MOZ_LOG
 (
-gMediaPromiseLog
+gMozPromiseLog
 mozilla
 :
 :
@@ -626,7 +626,7 @@ rejected
 .
 *
 *
-MediaPromises
+MozPromises
 attempt
 to
 mirror
@@ -656,7 +656,7 @@ the
 intent
 is
 that
-MediaPromises
+MozPromises
 *
 feel
 familiar
@@ -698,7 +698,7 @@ encounter
 *
 *
 A
-MediaPromise
+MozPromise
 is
 ThreadSafe
 and
@@ -728,7 +728,7 @@ callbacks
 and
 returns
 a
-MediaPromise
+MozPromise
 :
 :
 Request
@@ -834,7 +834,7 @@ callback
 returns
 a
 new
-MediaPromise
+MozPromise
 that
 promise
 is
@@ -891,7 +891,7 @@ callback
 *
 *
 The
-MediaPromise
+MozPromise
 APIs
 skirt
 traditional
@@ -966,7 +966,7 @@ IsExclusive
 is
 true
 the
-MediaPromise
+MozPromise
 does
 a
 release
@@ -1000,19 +1000,19 @@ ChainTo
 *
 /
 class
-MediaPromiseRefcountable
+MozPromiseRefcountable
 {
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-MediaPromiseRefcountable
+MozPromiseRefcountable
 )
 protected
 :
 virtual
 ~
-MediaPromiseRefcountable
+MozPromiseRefcountable
 (
 )
 {
@@ -1025,7 +1025,7 @@ typename
 T
 >
 class
-MediaPromiseHolder
+MozPromiseHolder
 ;
 template
 <
@@ -1037,10 +1037,10 @@ bool
 IsExclusive
 >
 class
-MediaPromise
+MozPromise
 :
 public
-MediaPromiseRefcountable
+MozPromiseRefcountable
 {
 public
 :
@@ -1298,7 +1298,7 @@ protected
 :
 /
 /
-MediaPromise
+MozPromise
 is
 the
 public
@@ -1312,7 +1312,7 @@ Construct
 /
 /
 a
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -1320,7 +1320,7 @@ defined
 below
 .
 explicit
-MediaPromise
+MozPromise
 (
 const
 char
@@ -1335,7 +1335,7 @@ aCreationSite
 mMutex
 (
 "
-MediaPromise
+MozPromise
 Mutex
 "
 )
@@ -1350,7 +1350,7 @@ PROMISE_LOG
 %
 s
 creating
-MediaPromise
+MozPromise
 (
 %
 p
@@ -1365,7 +1365,7 @@ public
 :
 /
 /
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -1426,7 +1426,7 @@ create
 and
 store
 a
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -1436,12 +1436,12 @@ usually
 /
 via
 a
-MediaPromiseHolder
+MozPromiseHolder
 )
 and
 return
 a
-MediaPromise
+MozPromise
 to
 consumers
 .
@@ -1477,7 +1477,7 @@ ResolveValueType_
 static
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 CreateAndResolve
 (
@@ -1494,7 +1494,7 @@ aResolveSite
 nsRefPtr
 <
 typename
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -1502,7 +1502,7 @@ Private
 p
 =
 new
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -1541,7 +1541,7 @@ RejectValueType_
 static
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 CreateAndReject
 (
@@ -1558,7 +1558,7 @@ aRejectSite
 nsRefPtr
 <
 typename
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -1566,7 +1566,7 @@ Private
 p
 =
 new
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -1598,7 +1598,7 @@ forget
 ;
 }
 typedef
-MediaPromise
+MozPromise
 <
 nsTArray
 <
@@ -1615,7 +1615,7 @@ class
 AllPromiseHolder
 :
 public
-MediaPromiseRefcountable
+MozPromiseRefcountable
 {
 public
 :
@@ -1850,7 +1850,7 @@ nsTArray
 <
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 >
 &
@@ -1961,7 +1961,7 @@ class
 Request
 :
 public
-MediaPromiseRefcountable
+MozPromiseRefcountable
 {
 public
 :
@@ -2012,7 +2012,7 @@ mDisconnected
 ;
 }
 virtual
-MediaPromise
+MozPromise
 *
 CompletionPromise
 (
@@ -2139,7 +2139,7 @@ ResolveOrRejectRunnable
 ThenValueBase
 *
 aThenValue
-MediaPromise
+MozPromise
 *
 aPromise
 )
@@ -2244,7 +2244,7 @@ mThenValue
 ;
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 mPromise
 ;
@@ -2272,7 +2272,7 @@ aCallSite
 )
 {
 }
-MediaPromise
+MozPromise
 *
 CompletionPromise
 (
@@ -2307,7 +2307,7 @@ mCompletionPromise
 mCompletionPromise
 =
 new
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -2328,7 +2328,7 @@ mCompletionPromise
 void
 Dispatch
 (
-MediaPromise
+MozPromise
 *
 aPromise
 )
@@ -2604,7 +2604,7 @@ protected
 virtual
 already_AddRefed
 <
-MediaPromise
+MozPromise
 >
 DoResolveOrRejectInternal
 (
@@ -2675,7 +2675,7 @@ method
 .
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 p
 =
@@ -2717,7 +2717,7 @@ hoops
 to
 cast
 to
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -2738,7 +2738,7 @@ mCompletionPromise
 as
 /
 /
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -2750,7 +2750,7 @@ below
 .
 nsRefPtr
 <
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -2761,7 +2761,7 @@ dont_AddRef
 (
 static_cast
 <
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -2855,7 +2855,7 @@ thread
 Declaring
 nsRefPtr
 <
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -2869,7 +2869,7 @@ failures
 on
 MSVC
 because
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -2894,7 +2894,7 @@ we
 inline
 -
 declare
-MediaPromise
+MozPromise
 :
 :
 Private
@@ -2914,7 +2914,7 @@ old
 .
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 mCompletionPromise
 ;
@@ -2973,7 +2973,7 @@ ReturnTypeIs
 MethodType
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 >
 :
@@ -2990,7 +2990,7 @@ MethodType
 value
 already_AddRefed
 <
-MediaPromise
+MozPromise
 >
 >
 :
@@ -3066,7 +3066,7 @@ MethodType
 value
 already_AddRefed
 <
-MediaPromise
+MozPromise
 >
 >
 :
@@ -3126,7 +3126,7 @@ ReturnTypeIs
 MethodType
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 >
 :
@@ -3144,7 +3144,7 @@ MethodType
 value
 already_AddRefed
 <
-MediaPromise
+MozPromise
 >
 >
 :
@@ -3214,7 +3214,7 @@ MethodType
 value
 already_AddRefed
 <
-MediaPromise
+MozPromise
 >
 >
 :
@@ -3374,7 +3374,7 @@ protected
 virtual
 already_AddRefed
 <
-MediaPromise
+MozPromise
 >
 DoResolveOrRejectInternal
 (
@@ -3387,7 +3387,7 @@ override
 {
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 completion
 ;
@@ -3690,7 +3690,7 @@ protected
 virtual
 already_AddRefed
 <
-MediaPromise
+MozPromise
 >
 DoResolveOrRejectInternal
 (
@@ -3774,7 +3774,7 @@ something
 .
 nsRefPtr
 <
-MediaPromise
+MozPromise
 >
 completion
 ;
@@ -4545,18 +4545,18 @@ promise
 }
 virtual
 ~
-MediaPromise
+MozPromise
 (
 )
 {
 PROMISE_LOG
 (
 "
-MediaPromise
+MozPromise
 :
 :
 ~
-MediaPromise
+MozPromise
 [
 this
 =
@@ -4643,7 +4643,7 @@ bool
 IsExclusive
 >
 class
-MediaPromise
+MozPromise
 <
 ResolveValueT
 RejectValueT
@@ -4654,7 +4654,7 @@ IsExclusive
 Private
 :
 public
-MediaPromise
+MozPromise
 <
 ResolveValueT
 RejectValueT
@@ -4672,7 +4672,7 @@ char
 aCreationSite
 )
 :
-MediaPromise
+MozPromise
 (
 aCreationSite
 )
@@ -4715,7 +4715,7 @@ PROMISE_LOG
 %
 s
 resolving
-MediaPromise
+MozPromise
 (
 %
 p
@@ -4785,7 +4785,7 @@ PROMISE_LOG
 %
 s
 rejecting
-MediaPromise
+MozPromise
 (
 %
 p
@@ -4855,7 +4855,7 @@ PROMISE_LOG
 %
 s
 resolveOrRejecting
-MediaPromise
+MozPromise
 (
 %
 p
@@ -4903,7 +4903,7 @@ use
 cases
 .
 typedef
-MediaPromise
+MozPromise
 <
 bool
 nsresult
@@ -4954,11 +4954,11 @@ typename
 PromiseType
 >
 class
-MediaPromiseHolder
+MozPromiseHolder
 {
 public
 :
-MediaPromiseHolder
+MozPromiseHolder
 (
 )
 :
@@ -4973,12 +4973,12 @@ nullptr
 Move
 semantics
 .
-MediaPromiseHolder
+MozPromiseHolder
 &
 operator
 =
 (
-MediaPromiseHolder
+MozPromiseHolder
 &
 &
 aOther
@@ -5020,7 +5020,7 @@ this
 ;
 }
 ~
-MediaPromiseHolder
+MozPromiseHolder
 (
 )
 {
@@ -5378,7 +5378,7 @@ Class
 to
 encapsulate
 a
-MediaPromise
+MozPromise
 :
 :
 Request
@@ -5397,8 +5397,7 @@ class
 waiting
 on
 a
-media
-promise
+MozPromise
 .
 *
 /
@@ -5408,17 +5407,17 @@ typename
 PromiseType
 >
 class
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 {
 public
 :
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 (
 )
 {
 }
 ~
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 (
 )
 {

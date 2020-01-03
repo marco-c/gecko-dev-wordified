@@ -1225,7 +1225,7 @@ mMonitor
 )
 ;
 }
-MediaPromiseHolder
+MozPromiseHolder
 <
 PromiseType
 >

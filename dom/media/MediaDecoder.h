@@ -1690,7 +1690,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -2101,7 +2101,7 @@ mEventVisibility
 }
 ;
 typedef
-MediaPromise
+MozPromise
 <
 SeekResolveValue
 bool
@@ -6969,7 +6969,7 @@ IsHeuristicDormantSupported
 )
 const
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 SeekPromise
 >

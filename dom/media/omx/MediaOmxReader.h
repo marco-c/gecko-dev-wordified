@@ -297,7 +297,7 @@ null
 bool
 mIsShutdown
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaDecoderReader
 :
@@ -306,13 +306,13 @@ MetadataPromise
 >
 mMetadataPromise
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaResourcePromise
 >
 mMediaResourceRequest
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaDecoderReader
 :
@@ -321,7 +321,7 @@ SeekPromise
 >
 mSeekPromise
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -640,7 +640,7 @@ only
 for
 /
 /
-MediaPromise
+MozPromise
 :
 :
 InvokeCallbackMethod

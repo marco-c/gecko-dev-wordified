@@ -938,7 +938,7 @@ aReader
 )
 ;
 typedef
-MediaPromise
+MozPromise
 <
 bool
 nsresult
@@ -1568,7 +1568,7 @@ ContinueShutdown
 (
 )
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 ShutdownPromise
 >
@@ -1580,7 +1580,7 @@ mDecoderPerSegment
 bool
 mShutdown
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 AppendPromise
 >
@@ -1597,7 +1597,7 @@ from
 the
 reader
 .
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -1606,7 +1606,7 @@ MetadataPromise
 >
 mMetadataRequest
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 RangeRemovalPromise
 >

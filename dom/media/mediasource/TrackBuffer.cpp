@@ -7182,7 +7182,7 @@ must
 ensure
 that
 the
-MediaPromiseHolder
+MozPromiseHolder
 handle
 all
 pending

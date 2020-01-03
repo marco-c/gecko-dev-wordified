@@ -125,7 +125,7 @@ MediaTimer_h_
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -259,7 +259,7 @@ change
 that
 .
 typedef
-MediaPromise
+MozPromise
 <
 bool
 bool
@@ -317,7 +317,7 @@ thread
 and
 a
 nice
-MediaPromise
+MozPromise
 -
 y
 /

@@ -141,7 +141,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -271,7 +271,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 MediaDataDemuxer
 )
 typedef
-MediaPromise
+MozPromise
 <
 nsresult
 DemuxerFailureReason
@@ -927,7 +927,7 @@ mSkipped
 }
 ;
 typedef
-MediaPromise
+MozPromise
 <
 media
 :
@@ -945,7 +945,7 @@ true
 SeekPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 nsRefPtr
 <
@@ -963,7 +963,7 @@ true
 SamplesPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 uint32_t
 SkipFailureHolder

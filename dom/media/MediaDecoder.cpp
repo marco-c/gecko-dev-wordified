@@ -803,7 +803,7 @@ gStateWatchingLog
 ;
 PRLogModuleInfo
 *
-gMediaPromiseLog
+gMozPromiseLog
 ;
 PRLogModuleInfo
 *
@@ -856,12 +856,12 @@ MediaDecoder
 "
 )
 ;
-gMediaPromiseLog
+gMozPromiseLog
 =
 PR_NewLogModule
 (
 "
-MediaPromise
+MozPromise
 "
 )
 ;
