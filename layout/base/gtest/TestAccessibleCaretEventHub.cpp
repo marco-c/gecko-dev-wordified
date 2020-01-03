@@ -3856,7 +3856,7 @@ HandleEventAndCheckState
 (
 CreateWheelEvent
 (
-NS_WHEEL_STOP
+eWheelOperationEnd
 )
 MockAccessibleCaretEventHub
 :

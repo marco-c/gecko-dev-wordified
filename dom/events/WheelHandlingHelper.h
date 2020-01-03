@@ -513,9 +513,9 @@ called
 upon
 eWheelOperationStart
 /
-NS_WHEEL_STOP
-events
+eWheelOperationEnd
 *
+events
 to
 show
 /
