@@ -1656,6 +1656,7 @@ getter_AddRefs
 (
 mThread
 )
+this
 )
 ;
 NS_ENSURE_SUCCESS
