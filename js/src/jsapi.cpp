@@ -10753,12 +10753,6 @@ JSGCParamKey
 key
 )
 {
-AutoLockGC
-lock
-(
-rt
-)
-;
 return
 rt
 -
@@ -10768,7 +10762,6 @@ gc
 getParameter
 (
 key
-lock
 )
 ;
 }
