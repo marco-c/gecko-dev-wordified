@@ -266,6 +266,7 @@ R8G8B8X8
 R5G6B5
 A8
 YUV
+NV12
 UNKNOWN
 }
 ;
@@ -305,6 +306,12 @@ SurfaceFormat
 :
 :
 YUV
+:
+case
+SurfaceFormat
+:
+:
+NV12
 :
 return
 true
