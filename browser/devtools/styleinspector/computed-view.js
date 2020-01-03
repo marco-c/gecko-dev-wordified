@@ -6003,6 +6003,12 @@ mdnLinkClick
 (
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 }
 if
 (
