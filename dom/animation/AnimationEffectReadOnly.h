@@ -114,7 +114,7 @@ namespace
 dom
 {
 class
-AnimationEffectReadonly
+AnimationEffectReadOnly
 :
 public
 nsISupports
@@ -125,7 +125,7 @@ protected
 :
 virtual
 ~
-AnimationEffectReadonly
+AnimationEffectReadOnly
 (
 )
 {
@@ -135,10 +135,10 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-AnimationEffectReadonly
+AnimationEffectReadOnly
 )
 explicit
-AnimationEffectReadonly
+AnimationEffectReadOnly
 (
 nsISupports
 *

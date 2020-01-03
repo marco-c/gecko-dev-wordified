@@ -408,7 +408,7 @@ Animation
 :
 SetEffect
 (
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 *
 aEffect
 )
