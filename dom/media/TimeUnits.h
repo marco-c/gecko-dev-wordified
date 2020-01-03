@@ -1505,6 +1505,7 @@ bool
 IsInvalid
 (
 )
+const
 {
 return
 Length
