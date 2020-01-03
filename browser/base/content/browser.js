@@ -25707,6 +25707,7 @@ SocialUI
 .
 updateState
 (
+location
 )
 ;
 }
