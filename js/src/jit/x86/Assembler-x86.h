@@ -1860,7 +1860,7 @@ value
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2032,7 +2032,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2168,7 +2168,7 @@ movl_i32r
 1
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2299,7 +2299,7 @@ prev
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2496,7 +2496,7 @@ rhs
 value
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -2547,7 +2547,7 @@ value
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -2573,12 +2573,12 @@ cmpl_rr
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -2748,7 +2748,7 @@ cmpl_rm_disp32
 (
 rhs
 .
-code
+encoding
 (
 )
 (
@@ -3313,7 +3313,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3387,7 +3387,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3411,7 +3411,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3483,7 +3483,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3507,7 +3507,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3579,7 +3579,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3603,7 +3603,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3675,7 +3675,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3699,7 +3699,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3771,7 +3771,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3795,7 +3795,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4491,7 +4491,7 @@ movb_rm_disp32
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4520,7 +4520,7 @@ movb_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4587,7 +4587,7 @@ movw_rm_disp32
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4616,7 +4616,7 @@ movw_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4683,7 +4683,7 @@ movl_rm_disp32
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4712,7 +4712,7 @@ movl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5405,13 +5405,13 @@ addr
 addr
 index
 .
-code
+encoding
 (
 )
 scale
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5457,7 +5457,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5491,7 +5491,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5525,7 +5525,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5559,7 +5559,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5593,7 +5593,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5964,7 +5964,7 @@ movb_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5998,7 +5998,7 @@ movw_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -6032,7 +6032,7 @@ movl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -6441,7 +6441,7 @@ HasSubregL
 (
 reg
 .
-code
+encoding
 (
 )
 )

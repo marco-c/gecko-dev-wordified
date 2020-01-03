@@ -368,10 +368,7 @@ Registers
 public
 :
 typedef
-X86Encoding
-:
-:
-RegisterID
+uint8_t
 Code
 ;
 typedef
@@ -422,7 +419,10 @@ X86Encoding
 :
 GPRegName
 (
+Encoding
+(
 code
+)
 )
 ;
 }
@@ -689,7 +689,7 @@ Invalid
 }
 static
 const
-Code
+Encoding
 StackPointer
 =
 X86Encoding
@@ -699,7 +699,7 @@ rsp
 ;
 static
 const
-Code
+Encoding
 Invalid
 =
 X86Encoding
