@@ -4075,6 +4075,7 @@ bool
 IsTargetValid
 (
 )
+const
 {
 return
 mTarget
@@ -4456,6 +4457,12 @@ gfx
 DrawTarget
 >
 mTarget
+;
+uint32_t
+SkiaGLTex
+(
+)
+const
 ;
 /
 *
