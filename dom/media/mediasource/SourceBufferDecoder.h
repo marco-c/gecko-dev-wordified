@@ -277,7 +277,7 @@ override
 ;
 virtual
 bool
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 const
@@ -730,7 +730,7 @@ override
 {
 MOZ_ASSERT
 (
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 |

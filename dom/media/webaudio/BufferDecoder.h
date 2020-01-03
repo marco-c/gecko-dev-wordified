@@ -274,7 +274,7 @@ override
 ;
 virtual
 bool
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 const

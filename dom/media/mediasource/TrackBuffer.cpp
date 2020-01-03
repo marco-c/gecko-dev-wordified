@@ -5906,7 +5906,7 @@ Decoders
 /
 XXX
 assert
-OnDecodeThread
+OnDecodeTaskQueue
 return
 mInitializedDecoders
 ;
