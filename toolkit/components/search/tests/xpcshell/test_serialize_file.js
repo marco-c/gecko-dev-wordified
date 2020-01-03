@@ -281,7 +281,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_DATAREQUEST
+TYPE_INTERNAL_XMLHTTPREQUEST
 }
 function
 (
