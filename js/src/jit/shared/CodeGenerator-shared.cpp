@@ -7005,7 +7005,10 @@ if
 !
 emitTracelogStartEvent
 (
-TraceLogger_VM
+TraceLogger
+:
+:
+VM
 )
 )
 return
@@ -7303,7 +7306,10 @@ if
 !
 emitTracelogStopEvent
 (
-TraceLogger_VM
+TraceLogger
+:
+:
+VM
 )
 )
 return
@@ -10147,7 +10153,10 @@ if
 !
 TraceLogTextIdEnabled
 (
-TraceLogger_Scripts
+TraceLogger
+:
+:
+Scripts
 )
 )
 return

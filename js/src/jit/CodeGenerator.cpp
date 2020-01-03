@@ -14200,7 +14200,10 @@ if
 !
 emitTracelogStopEvent
 (
-TraceLogger_Baseline
+TraceLogger
+:
+:
+Baseline
 )
 )
 return
@@ -14211,7 +14214,10 @@ if
 !
 emitTracelogStartEvent
 (
-TraceLogger_IonMonkey
+TraceLogger
+:
+:
+IonMonkey
 )
 )
 return
@@ -53734,7 +53740,10 @@ if
 !
 emitTracelogStartEvent
 (
-TraceLogger_IonMonkey
+TraceLogger
+:
+:
+IonMonkey
 )
 )
 return
