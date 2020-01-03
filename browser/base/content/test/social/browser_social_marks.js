@@ -913,11 +913,13 @@ is
 (
 gBrowser
 .
-contentDocument
+selectedTab
 .
-location
+linkedBrowser
 .
-href
+currentURI
+.
+spec
 "
 about
 :
