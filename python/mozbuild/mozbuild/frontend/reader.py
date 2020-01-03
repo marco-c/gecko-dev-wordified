@@ -214,8 +214,6 @@ EmptyValue
 memoize
     
 ReadOnlyDefaultDict
-    
-ReadOnlyDict
 )
 from
 mozbuild
@@ -252,6 +250,8 @@ from
 sandbox
 import
 (
+    
+default_finder
     
 SandboxError
     
@@ -1007,6 +1007,9 @@ metadata
 =
 {
 }
+finder
+=
+default_finder
 )
 :
         
@@ -1023,6 +1026,9 @@ __init__
 (
 self
 context
+finder
+=
+finder
 )
         
 self
@@ -2780,6 +2786,11 @@ templates
 )
             
 }
+finder
+=
+self
+.
+_finder
 )
             
 template
@@ -7048,6 +7059,9 @@ __init__
 (
 self
 config
+finder
+=
+default_finder
 )
 :
         
@@ -7082,6 +7096,12 @@ _execution_stack
 =
 [
 ]
+        
+self
+.
+_finder
+=
+finder
     
 def
 read_topsrcdir
@@ -8813,6 +8833,12 @@ context
 metadata
 =
 metadata
+                                  
+finder
+=
+self
+.
+_finder
 )
         
 sandbox
@@ -9110,11 +9136,11 @@ s
                 
 if
 not
-os
+self
 .
-path
+_finder
 .
-exists
+get
 (
 source
 .
@@ -9791,14 +9817,17 @@ path
 :
             
 return
-os
+self
 .
-path
+_finder
 .
-exists
+get
 (
 path
 )
+is
+not
+None
         
 def
 itermozbuild
