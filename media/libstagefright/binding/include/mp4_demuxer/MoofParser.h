@@ -523,6 +523,8 @@ aMdhd
 Edts
 &
 aEdts
+Microseconds
+aTimestampOffset
 )
 ;
 bool
@@ -643,6 +645,9 @@ ProcessCenc
 (
 )
 ;
+Microseconds
+mTimestampOffset
+;
 uint64_t
 mMaxRoundingError
 ;
@@ -660,6 +665,8 @@ Stream
 aSource
 uint32_t
 aTrackId
+Microseconds
+aTimestampOffset
 Monitor
 *
 aMonitor
@@ -672,6 +679,10 @@ aSource
 mOffset
 (
 0
+)
+mTimestampOffset
+(
+aTimestampOffset
 )
 mTrex
 (
@@ -814,6 +825,9 @@ mSource
 ;
 uint64_t
 mOffset
+;
+Microseconds
+mTimestampOffset
 ;
 nsTArray
 <

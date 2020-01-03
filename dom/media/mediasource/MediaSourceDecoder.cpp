@@ -805,6 +805,8 @@ const
 nsACString
 &
 aType
+int64_t
+aTimestampOffset
 )
 {
 MOZ_ASSERT
@@ -819,6 +821,7 @@ mReader
 CreateSubDecoder
 (
 aType
+aTimestampOffset
 )
 ;
 }

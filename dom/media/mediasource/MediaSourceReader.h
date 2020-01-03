@@ -655,6 +655,13 @@ const
 nsACString
 &
 aType
+int64_t
+aTimestampOffset
+/
+*
+microseconds
+*
+/
 )
 ;
 void

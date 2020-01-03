@@ -348,6 +348,10 @@ mLastStartTimestamp
 (
 0
 )
+mLastTimestampOffset
+(
+0
+)
 mShutdown
 (
 false
@@ -562,6 +566,8 @@ i
 bool
 NewDecoder
 (
+int64_t
+aTimestampOffset
 )
 {
 nsRefPtr
@@ -575,6 +581,7 @@ mOwner
 >
 NewDecoder
 (
+aTimestampOffset
 )
 ;
 if
@@ -837,6 +844,8 @@ uint8_t
 aData
 uint32_t
 aLength
+int64_t
+aTimestampOffset
 )
 {
 MOZ_ASSERT
@@ -904,6 +913,7 @@ decoders
 .
 NewDecoder
 (
+aTimestampOffset
 )
 )
 {
@@ -970,6 +980,16 @@ end
 )
 )
 {
+start
++
+=
+aTimestampOffset
+;
+end
++
+=
+aTimestampOffset
+;
 if
 (
 mParser
@@ -999,6 +1019,12 @@ value
 (
 )
 )
+|
+|
+mLastTimestampOffset
+!
+=
+aTimestampOffset
 |
 |
 mDecoderPerSegment
@@ -1081,6 +1107,7 @@ decoders
 .
 NewDecoder
 (
+aTimestampOffset
 )
 )
 {
@@ -2270,6 +2297,8 @@ TrackBuffer
 :
 NewDecoder
 (
+int64_t
+aTimestampOffset
 )
 {
 MOZ_ASSERT
@@ -2300,6 +2329,7 @@ mParentDecoder
 CreateSubDecoder
 (
 mType
+aTimestampOffset
 )
 ;
 if
@@ -2343,6 +2373,10 @@ mLastEndTimestamp
 reset
 (
 )
+;
+mLastTimestampOffset
+=
+aTimestampOffset
 ;
 decoder
 -

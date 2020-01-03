@@ -230,6 +230,8 @@ MP4Demuxer
 Stream
 *
 aSource
+Microseconds
+aTimestampOffset
 Monitor
 *
 aMonitor
@@ -427,6 +429,9 @@ Microseconds
 >
 >
 mCachedTimeRanges
+;
+Microseconds
+mTimestampOffset
 ;
 Monitor
 *
