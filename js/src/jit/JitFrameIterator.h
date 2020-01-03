@@ -1514,6 +1514,7 @@ RegisterState
 state
 )
 ;
+explicit
 JitProfilingFrameIterator
 (
 void
