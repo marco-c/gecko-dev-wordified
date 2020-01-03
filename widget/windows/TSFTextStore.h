@@ -4748,6 +4748,14 @@ sCreateNativeCaretForATOK
 ;
 static
 bool
+sDoNotReturnNoLayoutErrorToMSSimplifiedTIP
+;
+static
+bool
+sDoNotReturnNoLayoutErrorToMSTraditionalTIP
+;
+static
+bool
 sDoNotReturnNoLayoutErrorToFreeChangJie
 ;
 static
