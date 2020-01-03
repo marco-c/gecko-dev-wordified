@@ -8,6 +8,10 @@ test
 allow
 -
 oom
+;
+allow
+-
+overrecursed
 g
 =
 newGlobal
