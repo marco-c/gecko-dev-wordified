@@ -3954,7 +3954,7 @@ we
 can
 rely
 on
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 to
 map
 id
@@ -3982,7 +3982,7 @@ mMessage
 {
 #
 define
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 (
 name_
 message_
@@ -4018,7 +4018,7 @@ h
 "
 #
 undef
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 default
 :
 break
