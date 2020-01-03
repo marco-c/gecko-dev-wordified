@@ -3059,6 +3059,9 @@ scroll
 if
 (
 focusedContent
+&
+&
+focusedContent
 -
 >
 IsEditable
