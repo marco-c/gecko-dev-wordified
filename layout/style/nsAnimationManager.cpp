@@ -3170,8 +3170,14 @@ dest
 -
 >
 mHoldTime
-=
-now
+.
+SetValue
+(
+TimeDuration
+(
+0
+)
+)
 ;
 }
 /
