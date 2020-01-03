@@ -3258,8 +3258,7 @@ if
 (
 !
 gHashTable
--
->
+.
 IsInitialized
 (
 )
@@ -3306,6 +3305,7 @@ prefArray
 ;
 PL_DHashTableEnumerate
 (
+&
 gHashTable
 pref_enumChild
 &
