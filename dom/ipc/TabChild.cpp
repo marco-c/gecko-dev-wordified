@@ -15047,6 +15047,14 @@ TabChild
 :
 RecvUIResolutionChanged
 (
+const
+float
+&
+aDpi
+const
+double
+&
+aScale
 )
 {
 ScreenIntSize
@@ -15078,8 +15086,10 @@ get
 )
 -
 >
-ClearBackingScaleCache
+UpdateBackingScaleCache
 (
+aDpi
+aScale
 )
 ;
 nsCOMPtr

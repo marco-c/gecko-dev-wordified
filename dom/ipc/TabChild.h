@@ -2655,6 +2655,14 @@ virtual
 bool
 RecvUIResolutionChanged
 (
+const
+float
+&
+aDpi
+const
+double
+&
+aScale
 )
 override
 ;
