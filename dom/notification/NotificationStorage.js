@@ -465,6 +465,7 @@ tag
 icon
 alertName
 data
+behavior
 )
 {
 if
@@ -533,6 +534,9 @@ origin
 data
 :
 data
+behavior
+:
+behavior
 }
 ;
 this
@@ -1239,6 +1243,9 @@ icon
 notification
 .
 data
+notification
+.
+behavior
 )
 ;
 }

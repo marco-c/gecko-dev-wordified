@@ -1366,6 +1366,7 @@ lang
 dataObj
 manifestURL
 timestamp
+behavior
 )
 {
 function
@@ -1417,6 +1418,9 @@ timestamp
 data
 :
 dataObj
+mozbehavior
+:
+behavior
 }
 )
 ;
@@ -1782,6 +1786,9 @@ manifestURL
 details
 .
 timestamp
+details
+.
+mozbehavior
 )
 ;
 }
