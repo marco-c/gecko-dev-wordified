@@ -332,7 +332,7 @@ panel
 -
 item
 -
-custom
+other
 "
 )
 [
