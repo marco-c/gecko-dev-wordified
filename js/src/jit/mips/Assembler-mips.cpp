@@ -5282,7 +5282,7 @@ InstReg
 (
 op_special2
 rs
-rs
+rd
 rd
 ff_clz
 )
