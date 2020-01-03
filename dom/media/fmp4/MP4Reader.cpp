@@ -1743,7 +1743,6 @@ if
 mDemuxerInitialized
 )
 {
-{
 MonitorAutoLock
 mon
 (
@@ -1770,7 +1769,6 @@ mIndexReady
 =
 true
 ;
-}
 /
 /
 To
@@ -1829,6 +1827,12 @@ HasValidAudio
 )
 ;
 {
+MonitorAutoUnlock
+unlock
+(
+mDemuxerMonitor
+)
+;
 ReentrantMonitorAutoEnter
 mon
 (
@@ -2474,6 +2478,15 @@ it
 .
 Microseconds
 duration
+;
+{
+MonitorAutoLock
+lock
+(
+mDemuxerMonitor
+)
+;
+duration
 =
 mDemuxer
 -
@@ -2482,6 +2495,7 @@ Duration
 (
 )
 ;
+}
 if
 (
 duration
@@ -2584,6 +2598,12 @@ s
 /
 seekable
 .
+MonitorAutoLock
+mon
+(
+mDemuxerMonitor
+)
+;
 return
 mDecoder
 -
