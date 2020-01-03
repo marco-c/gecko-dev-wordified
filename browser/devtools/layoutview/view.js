@@ -3826,6 +3826,16 @@ box
 "
 )
 ;
+if
+(
+!
+region
+)
+{
+return
+false
+;
+}
 this
 .
 layoutview
@@ -3852,7 +3862,6 @@ onmouseout
 =
 function
 (
-e
 )
 {
 this
