@@ -318,12 +318,12 @@ to
 the
 root
 frame
-corresponding
-to
+for
 the
 given
-pres
-shell
+metrics
+'
+scrollId
 .
 If
 tiled
@@ -379,9 +379,6 @@ static
 void
 UpdateRootFrame
 (
-nsIPresShell
-*
-aPresShell
 FrameMetrics
 &
 aMetrics
