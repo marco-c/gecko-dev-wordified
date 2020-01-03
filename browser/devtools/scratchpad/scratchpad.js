@@ -2990,7 +2990,7 @@ defer
 ;
 webConsoleClient
 .
-evaluateJS
+evaluateJSAsync
 (
 aString
 aResponse
