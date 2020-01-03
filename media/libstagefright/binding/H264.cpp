@@ -816,11 +816,16 @@ SPSData
 aDest
 )
 {
-MOZ_ASSERT
+if
 (
+!
 aSPS
 )
+{
+return
+false
 ;
+}
 BitReader
 br
 (
