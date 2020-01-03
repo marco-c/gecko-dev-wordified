@@ -3256,9 +3256,11 @@ GCThingCallback
 void
 *
 closure
-void
-*
-gcthing
+JS
+:
+:
+GCCellPtr
+thing
 )
 ;
 extern

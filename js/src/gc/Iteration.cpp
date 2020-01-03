@@ -891,7 +891,13 @@ GRAY
 cellCallback
 (
 data
+JS
+:
+:
+GCCellPtr
+(
 obj
+)
 )
 ;
 }
