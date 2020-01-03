@@ -5749,11 +5749,6 @@ cpows
 Manager
 (
 )
--
->
-GetCPOWManager
-(
-)
 aCpows
 )
 ;
@@ -5895,11 +5890,6 @@ cpows
 Manager
 (
 )
--
->
-GetCPOWManager
-(
-)
 aCpows
 )
 ;
@@ -6033,11 +6023,6 @@ CpowIdHolder
 cpows
 (
 Manager
-(
-)
--
->
-GetCPOWManager
 (
 )
 aCpows

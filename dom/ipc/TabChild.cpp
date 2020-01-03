@@ -14147,11 +14147,6 @@ cpows
 Manager
 (
 )
--
->
-GetCPOWManager
-(
-)
 aCpows
 )
 ;
