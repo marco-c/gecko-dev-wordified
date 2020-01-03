@@ -15855,11 +15855,7 @@ listener
 .
 clearElement
 (
-{
 id
-:
-id
-}
 )
 ;
 break
