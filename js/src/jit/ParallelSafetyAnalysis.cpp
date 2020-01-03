@@ -778,6 +778,10 @@ SimdExtractElement
 )
 SAFE_OP
 (
+SimdSignMask
+)
+SAFE_OP
+(
 SimdBinaryComp
 )
 SAFE_OP

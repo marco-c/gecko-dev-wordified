@@ -1530,6 +1530,14 @@ lir
 )
 ;
 bool
+visitSimdSignMaskX4
+(
+LSimdSignMaskX4
+*
+ins
+)
+;
+bool
 visitSimdBinaryCompIx4
 (
 LSimdBinaryCompIx4
