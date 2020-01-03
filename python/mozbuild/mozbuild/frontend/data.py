@@ -5007,7 +5007,15 @@ __slots__
 (
         
 '
-filename
+script
+'
+        
+'
+output
+'
+        
+'
+inputs
 '
     
 )
@@ -5017,7 +5025,9 @@ __init__
 (
 self
 context
-filename
+script
+output
+inputs
 )
 :
         
@@ -5031,9 +5041,21 @@ context
         
 self
 .
-filename
+script
 =
-filename
+script
+        
+self
+.
+output
+=
+output
+        
+self
+.
+inputs
+=
+inputs
 class
 ClassPathEntry
 (
