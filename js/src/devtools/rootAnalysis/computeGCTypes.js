@@ -1070,7 +1070,7 @@ ptrLevel
 0
 &
 &
-isRootedTypeName
+isRootedGCTypeName
 (
 typeName
 )
@@ -1085,7 +1085,7 @@ ptrLevel
 1
 &
 &
-isRootedPointerTypeName
+isRootedGCPointerTypeName
 (
 typeName
 )
