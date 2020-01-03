@@ -1915,7 +1915,7 @@ eMutationEventClass
 NON_IDL_EVENT
 (
 DOMNodeInsertedIntoDocument
-NS_MUTATION_NODEINSERTEDINTODOCUMENT
+eLegacyNodeInsertedIntoDocument
 EventNameType_HTMLXUL
 eMutationEventClass
 )
