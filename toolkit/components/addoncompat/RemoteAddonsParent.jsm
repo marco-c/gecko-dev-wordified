@@ -6819,6 +6819,16 @@ RegisterGlobal
 this
 )
 ;
+Services
+.
+ppmm
+.
+initialProcessData
+.
+remoteAddonsParentInitted
+=
+true
+;
 this
 .
 globalToBrowser

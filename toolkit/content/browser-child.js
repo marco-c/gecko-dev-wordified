@@ -2911,6 +2911,11 @@ init
 this
 )
 ;
+if
+(
+AddonsChild
+)
+{
 addEventListener
 (
 "
@@ -2931,6 +2936,7 @@ AddonsChild
 }
 )
 ;
+}
 addMessageListener
 (
 "
