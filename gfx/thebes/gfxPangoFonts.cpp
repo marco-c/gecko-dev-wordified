@@ -1137,7 +1137,6 @@ void
 ForgetHBFace
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1147,7 +1146,6 @@ gr_face
 *
 aFace
 )
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -3983,7 +3981,6 @@ GetSubSuperscriptFont
 int32_t
 aAppUnitsPerDevPixel
 )
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -4009,7 +4006,6 @@ gfxFont
 GetSmallCapsFont
 (
 )
-MOZ_OVERRIDE
 ;
 private
 :

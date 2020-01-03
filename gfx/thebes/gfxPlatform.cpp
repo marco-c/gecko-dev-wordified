@@ -1041,7 +1041,6 @@ string
 StringsVectorCopy
 (
 )
-MOZ_OVERRIDE
 ;
 void
 SetCircularBufferSize
