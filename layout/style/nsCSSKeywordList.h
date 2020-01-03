@@ -1032,6 +1032,14 @@ CSS_KEY
 -
 moz
 -
+text
+_moz_text
+)
+CSS_KEY
+(
+-
+moz
+-
 use
 -
 system
