@@ -1844,7 +1844,8 @@ integers
 .
 *
 /
-void
+gfxMatrix
+&
 NudgeToIntegers
 (
 void
