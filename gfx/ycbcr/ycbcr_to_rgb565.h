@@ -107,10 +107,7 @@ to
 bit
 RGB565
 .
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB565
 (
 const
@@ -158,10 +155,7 @@ an
 accelerated
 version
 .
-NS_GFX_
-(
 bool
-)
 IsConvertYCbCrToRGB565Fast
 (
 int
@@ -188,10 +182,7 @@ to
 bit
 RGB565
 .
-NS_GFX_
-(
 void
-)
 ScaleYCbCrToRGB565
 (
 const
@@ -245,10 +236,7 @@ an
 accelerated
 version
 .
-NS_GFX_
-(
 bool
-)
 IsScaleYCbCrToRGB565Fast
 (
 int

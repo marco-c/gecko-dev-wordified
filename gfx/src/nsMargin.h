@@ -116,13 +116,6 @@ h
 #
 include
 "
-gfxCore
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

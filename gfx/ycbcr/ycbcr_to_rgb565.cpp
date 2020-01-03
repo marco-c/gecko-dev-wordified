@@ -2092,10 +2092,7 @@ dither
 ;
 }
 }
-NS_GFX_
-(
 void
-)
 ScaleYCbCrToRGB565
 (
 const
@@ -4109,10 +4106,7 @@ dither
 }
 }
 }
-NS_GFX_
-(
 bool
-)
 IsScaleYCbCrToRGB565Fast
 (
 int
@@ -4401,10 +4395,7 @@ now
 .
 }
 }
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB565
 (
 const
@@ -4662,10 +4653,7 @@ pic_width
 }
 }
 }
-NS_GFX_
-(
 bool
-)
 IsConvertYCbCrToRGB565Fast
 (
 int

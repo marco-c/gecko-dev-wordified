@@ -136,17 +136,6 @@ max
 #
 include
 "
-gfxCore
-.
-h
-"
-/
-/
-for
-NS_GFX
-#
-include
-"
 mozilla
 /
 Likely
@@ -244,7 +233,6 @@ IntRect
 nsIntRect
 ;
 struct
-NS_GFX
 nsRect
 :
 public
@@ -2078,7 +2066,6 @@ DEBUG
 /
 Diagnostics
 extern
-NS_GFX
 FILE
 *
 operator

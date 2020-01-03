@@ -127,17 +127,6 @@ int16_t
 #
 include
 "
-gfxCore
-.
-h
-"
-/
-/
-for
-NS_GFX
-#
-include
-"
 gfxFontFamilyList
 .
 h
@@ -381,7 +370,6 @@ Font
 structure
 .
 struct
-NS_GFX
 nsFont
 {
 /

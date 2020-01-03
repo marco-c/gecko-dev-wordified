@@ -113,13 +113,6 @@ nsWeakReference
 .
 h
 "
-#
-include
-"
-gfxCore
-.
-h
-"
 /
 /
 *

@@ -99,13 +99,6 @@ gfxCrashReporterUtils_h__
 #
 define
 gfxCrashReporterUtils_h__
-#
-include
-"
-gfxCore
-.
-h
-"
 namespace
 mozilla
 {
@@ -217,7 +210,6 @@ that
 *
 /
 class
-NS_GFX
 ScopedGfxFeatureReporter
 {
 public

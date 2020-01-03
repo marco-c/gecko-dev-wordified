@@ -52,13 +52,6 @@ chromium_types
 .
 h
 "
-#
-include
-"
-gfxCore
-.
-h
-"
 namespace
 mozilla
 {
@@ -268,10 +261,7 @@ filter
 .
 }
 ;
-NS_GFX_
-(
 YUVType
-)
 TypeFromSize
 (
 int
@@ -307,10 +297,7 @@ depending
 on
 source
 format
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB32
 (
 const
@@ -365,10 +352,7 @@ rotation
 and
 mirroring
 .
-NS_GFX_
-(
 void
-)
 ScaleYCbCrToRGB32
 (
 const

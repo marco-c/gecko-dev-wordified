@@ -98,13 +98,6 @@ nsPrintSettingsImpl_h__
 #
 include
 "
-gfxCore
-.
-h
-"
-#
-include
-"
 nsIPrintSettings
 .
 h

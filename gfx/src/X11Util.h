@@ -194,17 +194,6 @@ memset
 #
 include
 "
-gfxCore
-.
-h
-"
-/
-/
-for
-NS_GFX
-#
-include
-"
 mozilla
 /
 Scoped
@@ -736,7 +725,6 @@ __thread
 *
 /
 class
-NS_GFX
 ScopedXErrorHandler
 {
 public
