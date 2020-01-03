@@ -182,6 +182,13 @@ WindowsVersion
 h
 "
 #
+include
+"
+nsIXULRuntime
+.
+h
+"
+#
 define
 INPUTSCOPE_INIT_GUID
 #
@@ -30010,6 +30017,12 @@ GetBool
 (
 kPrefNameEnableTSF
 false
+)
+&
+&
+!
+BrowserTabsRemoteAutostart
+(
 )
 )
 ;
