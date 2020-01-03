@@ -370,7 +370,7 @@ jsm
 const
 FILTER_CHANGED_TIMEOUT
 =
-300
+150
 ;
 const
 HTML_NS
