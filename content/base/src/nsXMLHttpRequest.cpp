@@ -21762,7 +21762,7 @@ newdata
 uint8_t
 *
 )
-realloc
+js_realloc
 (
 mDataPtr
 aNewCap
