@@ -10297,6 +10297,7 @@ APZCTreeManager
 :
 GetInputTransforms
 (
+const
 AsyncPanZoomController
 *
 aApzc
@@ -10307,6 +10308,7 @@ Matrix4x4
 &
 aTransformToGeckoOut
 )
+const
 {
 MonitorAutoLock
 lock

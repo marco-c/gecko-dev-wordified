@@ -1764,6 +1764,7 @@ bool
 IsDestroyed
 (
 )
+const
 ;
 /
 *
@@ -1820,6 +1821,7 @@ ViewTransform
 GetCurrentAsyncTransform
 (
 )
+const
 ;
 /
 *
@@ -1872,6 +1874,7 @@ Matrix4x4
 GetNontransientAsyncTransform
 (
 )
+const
 ;
 /
 *
@@ -1945,6 +1948,7 @@ Matrix4x4
 GetTransformToLastDispatchedPaint
 (
 )
+const
 ;
 /
 *
@@ -3418,6 +3422,7 @@ float
 PanDistance
 (
 )
+const
 ;
 /
 *

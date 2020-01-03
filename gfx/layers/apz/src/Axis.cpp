@@ -1675,6 +1675,7 @@ Axis
 PanDistance
 (
 )
+const
 {
 return
 fabsf
@@ -1698,6 +1699,7 @@ PanDistance
 ScreenCoord
 aPos
 )
+const
 {
 return
 fabsf

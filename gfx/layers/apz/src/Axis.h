@@ -931,6 +931,7 @@ float
 PanDistance
 (
 )
+const
 ;
 /
 *
@@ -965,6 +966,7 @@ PanDistance
 ScreenCoord
 aPos
 )
+const
 ;
 /
 *
