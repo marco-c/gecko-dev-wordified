@@ -866,6 +866,13 @@ cleanup
 "
 "
         
+self
+.
+setTestRoot
+(
+options
+)
+        
 manifest
 =
 self

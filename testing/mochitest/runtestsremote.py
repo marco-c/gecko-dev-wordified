@@ -4196,8 +4196,9 @@ test
             
 options
 .
-testPath
+test_paths
 =
+[
 robocop_tests
 [
 0
@@ -4206,6 +4207,7 @@ robocop_tests
 '
 name
 '
+]
 ]
         
 retVal
@@ -4230,19 +4232,19 @@ robocop_tests
 if
 options
 .
-testPath
+test_paths
 and
-options
-.
-testPath
-!
-=
 test
 [
 '
 name
 '
 ]
+not
+in
+options
+.
+test_paths
 :
                 
 continue

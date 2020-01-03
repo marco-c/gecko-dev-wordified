@@ -775,12 +775,6 @@ s
 "
                 
 "
--
--
-test
--
-path
-=
 %
 (
 test_path
@@ -995,12 +989,6 @@ s
 "
                 
 "
--
--
-test
--
-path
-=
 %
 (
 test_path
