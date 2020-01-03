@@ -40030,10 +40030,8 @@ thisv
 .
 *
 /
+static
 bool
-js
-:
-:
 EvaluateInEnv
 (
 JSContext
