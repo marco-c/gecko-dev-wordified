@@ -372,10 +372,6 @@ nsIDocumentActivity
 class
 Session
 ;
-friend
-class
-CreateAndDispatchBlobEventRunnable
-;
 public
 :
 MediaRecorder
