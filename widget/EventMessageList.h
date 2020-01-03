@@ -452,7 +452,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 eMouseEventFirst
 +
 36

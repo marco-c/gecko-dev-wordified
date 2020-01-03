@@ -1370,7 +1370,7 @@ APZCCallbackHelper
 :
 DispatchSynthesizedMouseEvent
 (
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 time
 currentPoint
 aModifiers

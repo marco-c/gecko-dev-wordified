@@ -5549,7 +5549,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 this
 WidgetMouseEvent
 :

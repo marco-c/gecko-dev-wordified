@@ -1686,7 +1686,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 )
 {
 if
@@ -1704,7 +1704,7 @@ SELECTIONCARETS_LOG
 "
 SelectWord
 from
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 "
 )
 ;
@@ -1732,7 +1732,7 @@ SELECTIONCARETS_LOG
 "
 SelectWord
 from
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 failed
 !
 "
