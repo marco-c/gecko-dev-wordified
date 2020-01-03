@@ -25535,6 +25535,10 @@ them
 .
 if
 (
+!
+name
+&
+&
 IsTypedArrayClass
 (
 object
@@ -25794,6 +25798,10 @@ continue
 ;
 if
 (
+!
+name
+&
+&
 IsTypedArrayClass
 (
 object
