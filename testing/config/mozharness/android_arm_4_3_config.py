@@ -476,21 +476,13 @@ chunks
 "
 -
 -
+test
+-
 manifest
 =
-tests
-/
-dom
-/
-canvas
-/
-test
-/
-_webgl
--
-conformance
+gl
 .
-ini
+json
 "
             
 ]
