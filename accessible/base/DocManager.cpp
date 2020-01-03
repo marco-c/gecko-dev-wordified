@@ -298,6 +298,16 @@ mozilla
 :
 dom
 ;
+nsTArray
+<
+DocAccessibleParent
+*
+>
+DocManager
+:
+:
+sRemoteDocuments
+;
 /
 /
 /
