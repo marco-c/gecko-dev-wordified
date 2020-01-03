@@ -404,6 +404,7 @@ event
 order
 .
 '
+null
 '
 is
 for
@@ -415,6 +416,7 @@ expectedVisited
 =
 [
 '
+null
 '
 PAGE_2
 PAGE_1
