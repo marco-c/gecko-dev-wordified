@@ -379,17 +379,6 @@ etc
 #
 include
 "
-nsSize
-.
-h
-"
-/
-/
-for
-nsIntSize
-#
-include
-"
 nsTArray
 .
 h

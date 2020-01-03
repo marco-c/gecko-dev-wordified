@@ -225,7 +225,7 @@ h
 /
 /
 for
-nsIntSize
+IntSize
 nsSize
 #
 include

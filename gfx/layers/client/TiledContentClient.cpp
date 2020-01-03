@@ -343,17 +343,6 @@ etc
 #
 include
 "
-nsSize
-.
-h
-"
-/
-/
-for
-nsIntSize
-#
-include
-"
 gfxReusableSharedImageSurfaceWrapper
 .
 h

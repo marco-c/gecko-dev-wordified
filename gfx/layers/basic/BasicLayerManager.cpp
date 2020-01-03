@@ -346,7 +346,7 @@ h
 /
 /
 for
-gfxIntSize
+IntSize
 gfxPoint
 #
 include

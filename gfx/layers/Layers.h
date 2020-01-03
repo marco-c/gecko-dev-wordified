@@ -515,17 +515,6 @@ nsIntRegion
 #
 include
 "
-nsSize
-.
-h
-"
-/
-/
-for
-nsIntSize
-#
-include
-"
 nsString
 .
 h
