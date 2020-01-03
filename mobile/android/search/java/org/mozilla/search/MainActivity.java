@@ -182,6 +182,15 @@ mozilla
 .
 gecko
 .
+LocaleAware
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 Telemetry
 ;
 import
@@ -274,7 +283,9 @@ public
 class
 MainActivity
 extends
-FragmentActivity
+LocaleAware
+.
+LocaleAwareFragmentActivity
 implements
 AcceptsSearchQuery
 {
