@@ -72,7 +72,7 @@ NFCD_MAJOR_VERSION
 #
 define
 NFCD_MINOR_VERSION
-11
+12
 enum
 NfcRequest
 {
