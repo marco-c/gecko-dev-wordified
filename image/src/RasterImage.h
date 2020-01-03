@@ -2688,6 +2688,11 @@ at
 least
 once
 ?
+bool
+mDownscaleDuringDecode
+:
+1
+;
 /
 /
 Whether
