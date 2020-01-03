@@ -394,13 +394,6 @@ status
 ICON_STATUS_UNKNOWN
 )
 {
-guid
-.
-SetIsVoid
-(
-true
-)
-;
 }
 int64_t
 id
@@ -436,9 +429,6 @@ ICON_STATUS_
 defines
 above
 .
-nsCString
-guid
-;
 }
 ;
 /
