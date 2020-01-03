@@ -2356,7 +2356,7 @@ conversation
 get
 (
 "
-callId
+windowId
 "
 )
 )
@@ -2490,7 +2490,7 @@ conversation
 get
 (
 "
-callId
+windowId
 "
 )
 )
@@ -3212,7 +3212,7 @@ conversation
 get
 (
 "
-callId
+windowId
 "
 )
 )
@@ -4084,7 +4084,7 @@ dependencies
 /
 Obtain
 the
-callId
+windowId
 and
 pass
 it
@@ -4115,7 +4115,7 @@ locationData
 hash
 ;
 var
-callId
+windowId
 ;
 var
 outgoing
@@ -4199,7 +4199,7 @@ if
 hash
 )
 {
-callId
+windowId
 =
 hash
 [
@@ -4280,7 +4280,7 @@ if
 hash
 )
 {
-callId
+windowId
 =
 hash
 [
@@ -4298,9 +4298,9 @@ conversation
 set
 (
 {
-callId
+windowId
 :
-callId
+windowId
 }
 )
 ;
@@ -4336,7 +4336,7 @@ mozLoop
 .
 releaseCallData
 (
-callId
+windowId
 )
 ;
 }
@@ -4424,9 +4424,9 @@ actions
 GatherCallData
 (
 {
-callId
+windowId
 :
-callId
+windowId
 outgoing
 :
 outgoing

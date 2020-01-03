@@ -317,7 +317,7 @@ sharedActions
 GatherCallData
 (
 {
-callId
+windowId
 :
 "
 42
