@@ -40,9 +40,9 @@ entered
 into
 the
 webconsole
-/
-/
 check
+/
+/
 its
 output
 and

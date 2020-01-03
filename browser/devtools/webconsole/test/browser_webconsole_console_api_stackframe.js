@@ -92,6 +92,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -172,6 +175,11 @@ fn
 "
 thirdCall
 "
+/
+/
+21
+22
+23
 line
 :
 /
@@ -183,11 +191,6 @@ b2
 \
 b
 /
-/
-/
-21
-22
-23
 }
 {
 file

@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 function
 test
 (
@@ -81,6 +86,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test

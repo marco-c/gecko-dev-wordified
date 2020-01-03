@@ -109,6 +109,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -230,6 +233,7 @@ SEVERITY_LOG
 ]
 }
 )
+;
 is
 (
 hud
@@ -737,7 +741,7 @@ function
 setStringFilter
 (
 hud
-aValue
+value
 )
 {
 hud
@@ -748,7 +752,7 @@ filterBox
 .
 value
 =
-aValue
+value
 ;
 hud
 .

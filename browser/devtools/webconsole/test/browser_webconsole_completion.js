@@ -83,6 +83,11 @@ completion
 works
 properly
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

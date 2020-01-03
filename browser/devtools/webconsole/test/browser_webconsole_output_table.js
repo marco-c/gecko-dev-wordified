@@ -86,6 +86,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -1505,7 +1508,7 @@ entries
 >
 {
 let
-result
+entryResult
 =
 {
 }
@@ -1523,7 +1526,7 @@ entries
 )
 )
 {
-result
+entryResult
 [
 key
 ]
@@ -1549,7 +1552,7 @@ key
 ;
 }
 return
-result
+entryResult
 ;
 }
 )

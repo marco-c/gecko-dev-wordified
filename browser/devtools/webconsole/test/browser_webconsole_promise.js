@@ -43,6 +43,11 @@ promises
 inside
 objects
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

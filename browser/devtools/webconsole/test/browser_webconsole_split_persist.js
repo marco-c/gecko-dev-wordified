@@ -29,6 +29,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 function
 test
 (
@@ -73,6 +78,9 @@ Web
 Console
 test
 for
+"
++
+"
 splitting
 <
 /
@@ -181,6 +189,9 @@ button
 is
 unchecked
 by
+"
++
+"
 default
 .
 "
@@ -285,6 +296,9 @@ setting
 on
 split
 console
+"
++
+"
 pref
 "
 )
@@ -371,6 +385,9 @@ on
 panel
 height
 after
+"
++
+"
 closing
 "
 )
@@ -604,6 +621,9 @@ user
 setting
 on
 split
+"
++
+"
 console
 pref
 "

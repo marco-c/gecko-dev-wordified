@@ -41,6 +41,11 @@ types
 of
 objects
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -523,6 +528,9 @@ function
 }
 )
 ;
+"
++
+"
 p
 .
 foo
@@ -604,6 +612,9 @@ na
 \
 \
 nvery
+"
++
+"
 \
 \
 nlong
@@ -627,6 +638,9 @@ nsingle
 \
 nline
 '
+"
++
+"
 2
 :
 '
