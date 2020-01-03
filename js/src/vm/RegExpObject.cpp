@@ -2496,12 +2496,12 @@ return
 true
 ;
 }
-static
 template
 <
 typename
 CharT
 >
+static
 MOZ_ALWAYS_INLINE
 bool
 SetupBuffer
