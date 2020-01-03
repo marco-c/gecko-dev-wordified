@@ -801,6 +801,13 @@ Clear
 (
 )
 ;
+aStream
+-
+>
+CheckForInactive
+(
+)
+;
 nsRefPtr
 <
 PlayingRefChangeHandler
