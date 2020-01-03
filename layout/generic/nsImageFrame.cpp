@@ -4632,7 +4632,7 @@ GetCumulativeResolution
 nsLayoutUtils
 :
 :
-GetTransformToAncestorScale
+GetTransformToAncestorScaleExcludingAnimated
 (
 this
 )
