@@ -1346,7 +1346,7 @@ the
 parser
 *
 /
-void
+nsresult
 ParseUntilBlocked
 (
 )

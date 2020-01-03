@@ -5076,6 +5076,7 @@ null
 ;
 MarkAsBroken
 (
+NS_ERROR_NULL_POINTER
 )
 ;
 return
@@ -5784,12 +5785,20 @@ set
 .
 *
 /
+rv
+=
 mExecutor
 -
 >
 WillBuildModel
 (
 eDTDMode_unknown
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsRefPtr
@@ -6443,10 +6452,15 @@ mUnicodeDecoder
 uint32_t
 writeCount
 ;
+nsresult
+rv
+;
 if
 (
 NS_FAILED
 (
+rv
+=
 FinalizeSniffing
 (
 nullptr
@@ -6460,6 +6474,7 @@ writeCount
 {
 MarkAsBroken
 (
+rv
 )
 ;
 return
@@ -6797,6 +6812,7 @@ rv
 {
 MarkAsBroken
 (
+rv
 )
 ;
 return
@@ -10410,6 +10426,8 @@ nsHtml5StreamParser
 :
 MarkAsBroken
 (
+nsresult
+aRv
 )
 {
 NS_ASSERTION
@@ -10439,6 +10457,7 @@ mTreeBuilder
 >
 MarkAsBroken
 (
+aRv
 )
 ;
 mozilla

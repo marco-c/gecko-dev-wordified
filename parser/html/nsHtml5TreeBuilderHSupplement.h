@@ -1129,5 +1129,7 @@ aName
 void
 MarkAsBroken
 (
+nsresult
+aRv
 )
 ;

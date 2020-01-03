@@ -1021,6 +1021,8 @@ endif
 void
 MarkAsBroken
 (
+nsresult
+aRv
 )
 ;
 /
