@@ -4694,7 +4694,7 @@ environment
 JSCLASS_HAS_PRIVATE
 nullptr
 nullptr
-JS_PropertyStub
+nullptr
 env_setProperty
 env_enumerate
 env_resolve

@@ -7408,10 +7408,6 @@ JSCLASS_HAS_PRIVATE
 flags
 *
 /
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 JS
@@ -8427,10 +8423,6 @@ JSCLASS_HAS_PRIVATE
 flags
 *
 /
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 JS

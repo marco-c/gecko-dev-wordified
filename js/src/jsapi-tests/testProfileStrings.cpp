@@ -242,10 +242,6 @@ ptestClass
 Prof
 "
 0
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 static

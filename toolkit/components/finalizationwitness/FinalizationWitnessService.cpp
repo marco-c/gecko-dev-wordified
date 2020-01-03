@@ -648,13 +648,13 @@ nullptr
 delProperty
 *
 /
-JS_PropertyStub
+nullptr
 /
 *
 getProperty
 *
 /
-JS_StrictPropertyStub
+nullptr
 /
 *
 setProperty

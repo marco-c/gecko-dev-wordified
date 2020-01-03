@@ -84,10 +84,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 1
 )
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 static
