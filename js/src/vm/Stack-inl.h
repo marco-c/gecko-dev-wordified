@@ -4834,10 +4834,6 @@ Activation
 cx
 Interpreter
 )
-state_
-(
-state
-)
 entryFrame_
 (
 entryFrame
@@ -4908,7 +4904,7 @@ entryFrame_
 isEvalFrame
 (
 )
-state_
+state
 .
 script
 (

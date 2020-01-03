@@ -1616,6 +1616,9 @@ ParallelJob
 *
 job_
 ;
+#
+ifdef
+DEBUG
 /
 /
 Initialized
@@ -1628,9 +1631,6 @@ JSRuntime
 const
 runtime_
 ;
-#
-ifdef
-DEBUG
 /
 /
 Number

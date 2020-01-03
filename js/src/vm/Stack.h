@@ -7524,10 +7524,6 @@ js
 :
 InterpreterFrameIterator
 ;
-RunState
-&
-state_
-;
 InterpreterRegs
 regs_
 ;

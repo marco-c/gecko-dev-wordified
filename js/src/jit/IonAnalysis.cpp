@@ -15478,6 +15478,9 @@ graph
 #
 endif
 }
+#
+ifdef
+DEBUG
 static
 void
 AssertResumePointDominatedByOperands
@@ -15487,9 +15490,6 @@ MResumePoint
 resume
 )
 {
-#
-ifdef
-DEBUG
 for
 (
 size_t
@@ -15572,9 +15572,12 @@ operands
 )
 ;
 }
+}
 #
 endif
-}
+/
+/
+DEBUG
 void
 jit
 :
