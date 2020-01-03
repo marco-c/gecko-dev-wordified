@@ -976,10 +976,6 @@ const
 nsAString
 &
 aUrl
-const
-nsAString
-&
-aCrossOrigin
 )
 {
 NS_PRECONDITION
@@ -1008,13 +1004,6 @@ mUrl
 Assign
 (
 aUrl
-)
-;
-mCrossOrigin
-.
-Assign
-(
-aCrossOrigin
 )
 ;
 }
@@ -1159,8 +1148,6 @@ eSpeculativeLoadScript
 FromHead
 ]
 *
-or
-eSpeculativeLoadPreconnect
 this
 is
 the
@@ -1170,11 +1157,11 @@ the
 "
 crossorigin
 "
-*
 attribute
 .
 If
 the
+*
 attribute
 is
 not

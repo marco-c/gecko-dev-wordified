@@ -377,15 +377,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-CORSMode
-.
-h
-"
-#
-include
 <
 bitset
 >
@@ -12332,11 +12323,6 @@ MaybePreconnect
 nsIURI
 *
 uri
-mozilla
-:
-:
-CORSMode
-aCORSMode
 )
 =
 0
