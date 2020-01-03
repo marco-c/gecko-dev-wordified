@@ -583,9 +583,9 @@ let
 article
 =
 yield
-Reader
+ReaderMode
 .
-_downloadAndParseDocument
+downloadAndParseDocument
 (
 testcase
 .
