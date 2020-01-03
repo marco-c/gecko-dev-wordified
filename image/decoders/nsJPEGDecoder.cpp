@@ -161,6 +161,15 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Endian
+.
+h
+"
 extern
 "
 C
@@ -176,10 +185,7 @@ h
 }
 #
 if
-defined
-(
-IS_BIG_ENDIAN
-)
+MOZ_BIG_ENDIAN
 #
 define
 MOZ_JCS_EXT_NATIVE_ENDIAN_XRGB
