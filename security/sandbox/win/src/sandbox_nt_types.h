@@ -129,6 +129,9 @@ strlen
 wcslenFunction
 wcslen
 ;
+memcpyFunction
+memcpy
+;
 }
 ;
 /

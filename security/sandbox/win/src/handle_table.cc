@@ -128,6 +128,9 @@ namespace
 sandbox
 {
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -141,6 +144,9 @@ Process
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -154,6 +160,9 @@ Thread
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -167,6 +176,9 @@ File
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -180,6 +192,9 @@ Directory
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -193,6 +208,9 @@ Key
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -206,6 +224,9 @@ WindowStation
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -219,6 +240,9 @@ Desktop
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -232,6 +256,9 @@ Service
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -245,6 +272,9 @@ Mutex
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -258,6 +288,9 @@ Semaphore
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -271,6 +304,9 @@ Event
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -284,6 +320,9 @@ Timer
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -297,6 +336,9 @@ NamedPipe
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -310,6 +352,9 @@ JobObject
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -323,6 +368,9 @@ FileMap
 "
 ;
 const
+base
+:
+:
 char16
 *
 HandleTable
@@ -1063,6 +1111,9 @@ type_info_internal
 ;
 }
 const
+base
+:
+:
 string16
 &
 HandleTable
@@ -1085,6 +1136,9 @@ handle_name_
 ;
 }
 const
+base
+:
+:
 string16
 &
 HandleTable
@@ -1116,6 +1170,9 @@ HandleEntry
 IsType
 (
 const
+base
+:
+:
 string16
 &
 type_string

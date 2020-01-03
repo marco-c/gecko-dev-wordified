@@ -191,10 +191,6 @@ DuplicateHandleProxyAction
 (
 EvalResult
 eval_result
-const
-ClientInfo
-&
-client_info
 HANDLE
 source_handle
 DWORD

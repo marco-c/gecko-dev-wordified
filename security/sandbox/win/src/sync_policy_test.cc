@@ -562,7 +562,7 @@ combinations
 TEST
 (
 SyncPolicyTest
-TestEvent
+DISABLED_TestEvent
 )
 {
 TestRunner
@@ -824,7 +824,7 @@ access
 TEST
 (
 SyncPolicyTest
-TestEventReadOnly
+DISABLED_TestEventReadOnly
 )
 {
 TestRunner

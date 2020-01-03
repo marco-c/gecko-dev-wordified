@@ -66,8 +66,6 @@ include
 "
 sandbox
 /
-linux
-/
 sandbox_export
 .
 h

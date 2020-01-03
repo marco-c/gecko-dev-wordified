@@ -307,10 +307,6 @@ DuplicateHandleProxyAction
 (
 EvalResult
 eval_result
-const
-ClientInfo
-&
-client_info
 HANDLE
 source_handle
 DWORD
@@ -498,9 +494,11 @@ if
 :
 DuplicateHandle
 (
-client_info
-.
-process
+:
+:
+GetCurrentProcess
+(
+)
 source_handle
 target_process
 target_handle
