@@ -964,6 +964,13 @@ const
 ;
 protected
 :
+virtual
+void
+DestroyImpl
+(
+)
+override
+;
 void
 AdvanceOutputSegment
 (
