@@ -3168,6 +3168,13 @@ kwargs
 pause_on_unexpected
 "
 ]
+                                      
+kwargs
+[
+"
+debug_args
+"
+]
 )
 as
 manager_group
@@ -3361,11 +3368,7 @@ close
 )
     
 return
-manager_group
-.
-unexpected_count
-(
-)
+unexpected_total
 =
 =
 0

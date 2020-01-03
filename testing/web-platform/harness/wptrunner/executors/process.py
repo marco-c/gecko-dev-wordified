@@ -101,16 +101,6 @@ binary
         
 self
 .
-debug_args
-=
-self
-.
-browser
-.
-debug_args
-        
-self
-.
 interactive
 =
 self

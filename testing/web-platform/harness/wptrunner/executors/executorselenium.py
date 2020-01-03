@@ -175,6 +175,9 @@ capabilities
 timeout_multiplier
 =
 1
+debug_args
+=
+None
 *
 *
 kwargs
@@ -193,6 +196,7 @@ self
 browser
 http_server_url
 timeout_multiplier
+debug_args
 )
         
 self

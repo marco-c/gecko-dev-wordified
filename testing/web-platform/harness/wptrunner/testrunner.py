@@ -1054,6 +1054,10 @@ stop_flag
 pause_on_unexpected
 =
 False
+                 
+debug_args
+=
+None
 )
 :
         
@@ -1277,6 +1281,12 @@ self
 pause_on_unexpected
 =
 pause_on_unexpected
+        
+self
+.
+debug_args
+=
+debug_args
         
 self
 .
@@ -2183,7 +2193,7 @@ self
 .
 init_lock
 :
-	    
+            
 #
 Guard
 against
@@ -2194,12 +2204,20 @@ browser
 or
 the
 browser
-	    
+            
 #
 remote
 control
 method
             
+if
+self
+.
+debug_args
+is
+None
+:
+                
 self
 .
 init_timer
@@ -2251,6 +2269,15 @@ Stop
 try
 :
                 
+if
+self
+.
+init_timer
+is
+not
+None
+:
+                    
 self
 .
 init_timer
@@ -2310,6 +2337,15 @@ format_exc
 )
 )
                 
+if
+self
+.
+init_timer
+is
+not
+None
+:
+                    
 self
 .
 init_timer
@@ -2370,7 +2406,7 @@ init_succeeded
 self
 )
 :
-	
+        
 "
 "
 "
@@ -2384,7 +2420,7 @@ browser
 started
 the
 remote
-	
+        
 control
 connection
 and
@@ -2411,6 +2447,15 @@ succeeded
 "
 )
         
+if
+self
+.
+init_timer
+is
+not
+None
+:
+            
 self
 .
 init_timer
@@ -2437,7 +2482,7 @@ init_failed
 self
 )
 :
-	
+        
 "
 "
 "
@@ -2451,7 +2496,7 @@ the
 remote
 control
 connect
-	
+        
 fails
 .
 "
@@ -2483,6 +2528,15 @@ self
 init_fail_count
 )
         
+if
+self
+.
+init_timer
+is
+not
+None
+:
+            
 self
 .
 init_timer
@@ -3900,6 +3954,10 @@ executor_kwargs
 pause_on_unexpected
 =
 False
+                 
+debug_args
+=
+None
 )
 :
         
@@ -3970,6 +4028,18 @@ executor_kwargs
         
 self
 .
+pause_on_unexpected
+=
+pause_on_unexpected
+        
+self
+.
+debug_args
+=
+debug_args
+        
+self
+.
 pool
 =
 set
@@ -4006,12 +4076,6 @@ threading
 Event
 (
 )
-        
-self
-.
-pause_on_unexpected
-=
-pause_on_unexpected
         
 self
 .
@@ -4199,6 +4263,10 @@ stop_flag
 self
 .
 pause_on_unexpected
+                                            
+self
+.
+debug_args
 )
                 
 manager
