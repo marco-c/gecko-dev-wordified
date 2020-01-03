@@ -5219,7 +5219,7 @@ py
 defaults
 [
 '
-appname
+app
 '
 ]
 =
