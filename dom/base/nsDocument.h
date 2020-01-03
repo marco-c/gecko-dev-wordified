@@ -791,6 +791,16 @@ dom
 Element
 Element
 ;
+typedef
+mozilla
+:
+:
+net
+:
+:
+ReferrerPolicy
+ReferrerPolicy
+;
 explicit
 nsIdentifierMapEntry
 (

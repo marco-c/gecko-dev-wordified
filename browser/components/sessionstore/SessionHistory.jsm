@@ -1404,6 +1404,7 @@ shEntry
 .
 referrerURI
 )
+{
 entry
 .
 referrer
@@ -1414,6 +1415,15 @@ referrerURI
 .
 spec
 ;
+entry
+.
+referrerPolicy
+=
+shEntry
+.
+referrerPolicy
+;
+}
 if
 (
 shEntry
@@ -2402,6 +2412,7 @@ entry
 .
 referrer
 )
+{
 shEntry
 .
 referrerURI
@@ -2415,6 +2426,15 @@ entry
 referrer
 )
 ;
+shEntry
+.
+referrerPolicy
+=
+entry
+.
+referrerPolicy
+;
+}
 if
 (
 entry

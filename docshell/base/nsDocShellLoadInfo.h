@@ -183,6 +183,9 @@ mOwnerIsExplicit
 bool
 mSendReferrer
 ;
+nsDocShellInfoReferrerPolicy
+mReferrerPolicy
+;
 nsDocShellInfoLoadType
 mLoadType
 ;
