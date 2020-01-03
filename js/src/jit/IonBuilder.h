@@ -1378,9 +1378,6 @@ ObjectVector
 targets
 uint32_t
 maxTargets
-bool
-*
-gotLambda
 )
 ;
 void
@@ -5386,8 +5383,6 @@ targets
 ObjectVector
 &
 originals
-bool
-lambda
 CallInfo
 &
 callInfo
