@@ -1326,6 +1326,8 @@ const
 nsAString
 &
 aNonce
+bool
+aWasRedirected
 )
 const
 ;
@@ -1422,6 +1424,8 @@ const
 nsAString
 &
 aNonce
+bool
+aWasRedirected
 )
 const
 ;
@@ -1508,6 +1512,8 @@ const
 nsAString
 &
 aNonce
+bool
+aWasRedirected
 )
 const
 ;
@@ -1547,15 +1553,6 @@ nsAString
 aPath
 )
 ;
-void
-setFileAndArguments
-(
-const
-nsAString
-&
-aFile
-)
-;
 private
 :
 nsString
@@ -1569,9 +1566,6 @@ mPort
 ;
 nsString
 mPath
-;
-nsString
-mFileAndArguments
 ;
 }
 ;
@@ -1721,6 +1715,8 @@ const
 nsAString
 &
 aNonce
+bool
+aWasRedirected
 )
 const
 ;
@@ -1982,6 +1978,8 @@ const
 nsAString
 &
 aNonce
+bool
+aWasRedirected
 )
 const
 ;
@@ -2167,6 +2165,8 @@ const
 nsAString
 &
 aNonce
+bool
+aWasRedirected
 nsAString
 &
 outViolatedDirective
