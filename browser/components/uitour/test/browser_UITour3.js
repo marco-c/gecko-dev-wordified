@@ -264,7 +264,7 @@ https
 /
 example
 .
-com
+org
 /
 "
 )
@@ -467,7 +467,7 @@ https
 /
 example
 .
-com
+org
 /
 "
 )
@@ -1146,7 +1146,7 @@ https
 /
 example
 .
-com
+org
 /
 "
 )
