@@ -213,12 +213,6 @@ String
 :
 [
 {
-quote
-:
-[
-]
-}
-{
 substring
 :
 [

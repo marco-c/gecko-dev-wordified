@@ -704,10 +704,9 @@ MatchError
 expected
 "
 +
-exp
-.
 quote
 (
+exp
 )
 +
 "
@@ -840,10 +839,9 @@ expected
 property
 "
 +
-key
-.
 quote
 (
+key
 )
 +
 "
