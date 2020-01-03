@@ -93,14 +93,11 @@ transitionsEnabled
 =
 false
 ;
-setPermission
+removePermission
 (
 testPageURL
 "
 indexedDB
-"
-"
-allow
 "
 )
 ;

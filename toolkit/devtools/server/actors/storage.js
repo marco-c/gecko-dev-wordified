@@ -448,7 +448,7 @@ profileDir
 /
 storage
 /
-persistent
+default
 /
 location
 let
@@ -8403,7 +8403,7 @@ profileDir
 storage
 "
 "
-persistent
+default
 "
 sanitizedHost
 "
@@ -8486,7 +8486,7 @@ profileDir
 storage
 "
 "
-persistent
+permanent
 "
 sanitizedHost
 "

@@ -22497,6 +22497,15 @@ quota
 :
 :
 PERSISTENCE_TYPE_TEMPORARY
+&
+&
+aPersistenceType
+!
+=
+quota
+:
+:
+PERSISTENCE_TYPE_DEFAULT
 )
 )
 {

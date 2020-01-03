@@ -423,9 +423,9 @@ OnOriginClearCompleted
 PersistenceType
 aPersistenceType
 const
-OriginOrPatternString
+nsACString
 &
-aOriginOrPattern
+aOrigin
 )
 =
 0
