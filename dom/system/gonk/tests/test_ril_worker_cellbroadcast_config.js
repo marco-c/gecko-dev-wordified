@@ -1002,12 +1002,12 @@ MMI
 aExpected
 )
 ;
-equal
+do_check_eq
 (
 options
 .
-success
-true
+errorMsg
+undefined
 )
 ;
 }

@@ -1058,10 +1058,9 @@ if
 DEBUG
 &
 &
-!
 aResponse
 .
-success
+errorMsg
 )
 {
 debug
@@ -1131,12 +1130,13 @@ i
 {
 if
 (
+!
 responses
 [
 i
 ]
 .
-success
+errorMsg
 )
 {
 successCount
