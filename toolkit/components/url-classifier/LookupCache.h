@@ -756,11 +756,11 @@ aAddCompletes
 nsresult
 GetPrefixes
 (
-nsTArray
+FallibleTArray
 <
 uint32_t
 >
-*
+&
 aAddPrefixes
 )
 ;
