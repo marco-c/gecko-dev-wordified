@@ -2232,6 +2232,11 @@ mCachedContentIsPartial
 1
 ;
 uint32_t
+mCacheOnlyMetadata
+:
+1
+;
+uint32_t
 mTransactionReplaced
 :
 1
