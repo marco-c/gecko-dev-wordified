@@ -56,6 +56,7 @@ Tests
 that
 all
 components
+can
 get
 rerendered
 for
@@ -95,12 +96,19 @@ let
 {
 EVENTS
 PerformanceController
+DetailsSubview
 RecordingsView
 }
 =
 panel
 .
 panelWin
+;
+DetailsSubview
+.
+canUpdateWhileHidden
+=
+true
 ;
 yield
 startRecording

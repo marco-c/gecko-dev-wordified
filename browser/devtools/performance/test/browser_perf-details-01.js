@@ -311,7 +311,7 @@ viewName
 in
 DetailsView
 .
-viewIndexes
+components
 )
 {
 let
@@ -344,10 +344,12 @@ el
 selectedIndex
 DetailsView
 .
-viewIndexes
+components
 [
 currentView
 ]
+.
+index
 DetailsView
 correctly
 has
