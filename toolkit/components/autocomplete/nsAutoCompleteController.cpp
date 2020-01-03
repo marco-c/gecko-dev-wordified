@@ -8445,10 +8445,13 @@ OpenPopup
 else
 if
 (
-mSearchesOngoing
+result
+!
 =
-=
-0
+nsIAutoCompleteResult
+:
+:
+RESULT_NOMATCH_ONGOING
 )
 {
 ClosePopup
