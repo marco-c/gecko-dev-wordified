@@ -279,8 +279,6 @@ normal
 ;
 }
 .
-highlight
-.
 start
 -
 tag
@@ -296,8 +294,6 @@ weight
 bold
 ;
 }
-.
-highlight
 .
 end
 -
@@ -315,8 +311,6 @@ bold
 ;
 }
 .
-highlight
-.
 comment
 {
 color
@@ -331,8 +325,6 @@ italic
 ;
 }
 .
-highlight
-.
 cdata
 {
 color
@@ -341,8 +333,6 @@ color
 CC0066
 ;
 }
-.
-highlight
 .
 doctype
 {
@@ -358,8 +348,6 @@ italic
 ;
 }
 .
-highlight
-.
 pi
 {
 color
@@ -373,8 +361,6 @@ style
 italic
 ;
 }
-.
-highlight
 .
 entity
 {
@@ -391,8 +377,6 @@ normal
 ;
 }
 .
-highlight
-.
 text
 {
 font
@@ -402,8 +386,6 @@ weight
 normal
 ;
 }
-.
-highlight
 .
 attribute
 -
@@ -421,8 +403,6 @@ bold
 ;
 }
 .
-highlight
-.
 attribute
 -
 value
@@ -438,8 +418,6 @@ weight
 normal
 ;
 }
-.
-highlight
 .
 markupdeclaration
 {
@@ -492,11 +470,7 @@ isolate
 ;
 }
 .
-highlight
-.
 error
-.
-highlight
 .
 error
 >
