@@ -1489,7 +1489,7 @@ nsCSSValueList
 never
 null
 )
-eUnit_Filter
+eUnit_Shadow
 /
 /
 nsCSSValueList
@@ -1499,7 +1499,7 @@ may
 be
 null
 )
-eUnit_Shadow
+eUnit_Filter
 /
 /
 nsCSSValueList
