@@ -57,7 +57,7 @@ ff
 :
 Object
 .
-preventExtensions
+defineProperty
 }
 )
 ;
