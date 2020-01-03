@@ -264,9 +264,6 @@ mLastParserDuration
 int32_t
 mSkipCount
 ;
-bool
-mUseParserDuration
-;
 /
 /
 If
