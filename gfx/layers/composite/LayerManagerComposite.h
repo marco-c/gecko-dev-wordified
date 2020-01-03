@@ -1610,16 +1610,6 @@ Render
 (
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
-void
-RenderToPresentationSurface
-(
-)
-;
-#
-endif
 /
 *
 *
