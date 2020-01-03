@@ -111,6 +111,15 @@ h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h

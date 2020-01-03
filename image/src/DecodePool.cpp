@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsProxyRelease
+.
+h
+"
+#
+include
+"
 nsXPCOMCIDInternal
 .
 h
