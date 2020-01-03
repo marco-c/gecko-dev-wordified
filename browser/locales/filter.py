@@ -230,19 +230,6 @@ xml
 "
 path
 )
-or
-        
-path
-=
-=
-"
-searchplugins
-/
-metrolist
-.
-txt
-"
-)
 :
       
 return

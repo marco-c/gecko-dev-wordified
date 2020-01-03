@@ -179,12 +179,6 @@ value
 /
 /
 Windows
-(
-both
-Desktop
-and
-Metro
-)
 #
 define
 KEY_MAP_WIN

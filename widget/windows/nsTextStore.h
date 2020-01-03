@@ -1751,8 +1751,6 @@ to
 our
 current
 win32
-or
-metro
 widget
 nsRefPtr
 <

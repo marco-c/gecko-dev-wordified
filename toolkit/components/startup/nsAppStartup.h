@@ -375,15 +375,6 @@ has
 already
 ended
 bool
-mRestartTouchEnvironment
-;
-/
-/
-Quit
-(
-eRestartTouchEnvironment
-)
-bool
 mRestartNotSameProfile
 ;
 /

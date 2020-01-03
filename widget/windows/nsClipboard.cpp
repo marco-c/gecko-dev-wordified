@@ -2680,14 +2680,6 @@ NS_OK
 }
 else
 {
-#
-ifdef
-MOZ_METRO
-return
-result
-;
-#
-endif
 /
 /
 We

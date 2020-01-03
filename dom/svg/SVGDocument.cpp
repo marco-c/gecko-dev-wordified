@@ -815,8 +815,6 @@ need
 B2G
 /
 Fennec
-/
-Metro
 '
 s
 /
@@ -936,8 +934,6 @@ and
 B2G
 /
 Fennec
-/
-Metro
 '
 s
 /

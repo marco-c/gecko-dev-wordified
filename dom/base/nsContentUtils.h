@@ -11978,13 +11978,6 @@ content
 is
 *
 fullscreen
-like
-on
-Windows
-8
-in
-Metro
-mode
 .
 *
 *

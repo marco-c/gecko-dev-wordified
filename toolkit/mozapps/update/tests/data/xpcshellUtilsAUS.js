@@ -6400,16 +6400,6 @@ PREF_APP_UPDATE_ENABLED
 true
 )
 ;
-Services
-.
-prefs
-.
-setBoolPref
-(
-PREF_APP_UPDATE_METRO_ENABLED
-true
-)
-;
 /
 /
 Don

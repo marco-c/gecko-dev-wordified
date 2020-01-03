@@ -1446,8 +1446,6 @@ endif
 /
 Anything
 unsupported
-like
-Metro
 throw
 new
 Error
