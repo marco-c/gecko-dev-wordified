@@ -23227,6 +23227,7 @@ CreateBindingJSObject
 (
 descriptor
 properties
+parent
 )
 :
     
@@ -23289,7 +23290,7 @@ proxy
         
 create
 =
-dedent
+fill
 (
             
 "
@@ -23351,7 +23352,9 @@ getInstance
                                  
 proxyPrivateVal
 proto
-global
+{
+parent
+}
 options
 )
 ;
@@ -23372,6 +23375,10 @@ nullptr
 "
 "
 "
+            
+parent
+=
+parent
 )
         
 if
@@ -23428,7 +23435,7 @@ else
         
 create
 =
-dedent
+fill
 (
             
 "
@@ -23446,7 +23453,9 @@ ToJSClass
 (
 )
 proto
-global
+{
+parent
+}
 )
 ;
             
@@ -23480,6 +23489,10 @@ aObject
 "
 "
 "
+            
+parent
+=
+parent
 )
     
 create
@@ -24556,6 +24569,11 @@ JSObject
 parent
 (
 aCx
+              
+GetRealParentObject
+(
+aObject
+                                  
 WrapNativeParent
 (
 aCx
@@ -24564,6 +24582,7 @@ aObject
 >
 GetParentObject
 (
+)
 )
 )
 )
@@ -24679,11 +24698,9 @@ JSObject
 global
 (
 aCx
-js
-:
-:
-GetGlobalForObjectCrossCompartment
+JS_GetGlobalForObject
 (
+aCx
 parent
 )
 )
@@ -24721,7 +24738,7 @@ nullptr
             
 *
 {
-createObject
+parent
 }
             
 *
@@ -24760,7 +24777,7 @@ self
 descriptor
 )
             
-createObject
+parent
 =
 CreateBindingJSObject
 (
@@ -24770,6 +24787,10 @@ descriptor
 self
 .
 properties
+                                         
+"
+parent
+"
 )
             
 unforgeable
@@ -25134,7 +25155,7 @@ nullptr
             
 *
 {
-createObject
+global_
 }
             
 *
@@ -25164,7 +25185,7 @@ self
 descriptor
 )
             
-createObject
+global_
 =
 CreateBindingJSObject
 (
@@ -25174,6 +25195,10 @@ descriptor
 self
 .
 properties
+                                          
+"
+global
+"
 )
             
 unforgeable
