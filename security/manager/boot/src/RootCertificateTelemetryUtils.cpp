@@ -151,6 +151,15 @@ ScopedNSSTypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ArrayUtils
+.
+h
+"
 /
 /
 Note
