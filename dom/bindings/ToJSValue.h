@@ -841,8 +841,6 @@ that
 inherit
 from
 nsWrapperCache
-and
-nsISupports
 (
 e
 .
@@ -866,16 +864,6 @@ EnableIf
 IsBaseOf
 <
 nsWrapperCache
-T
->
-:
-:
-value
-&
-&
-IsBaseOf
-<
-nsISupports
 T
 >
 :
