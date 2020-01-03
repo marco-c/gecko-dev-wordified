@@ -392,7 +392,6 @@ editor
 yield
 focusEditableField
 (
-ruleView
 valueSpan
 .
 parentNode
