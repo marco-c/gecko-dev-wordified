@@ -1826,7 +1826,6 @@ RefPtr
 operator
 =
 (
-const
 already_AddRefed
 <
 T
