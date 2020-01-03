@@ -3236,7 +3236,8 @@ CallTempReg2
 ;
 /
 /
-copy
+stack
+counter
 register
 MDefinition
 *
