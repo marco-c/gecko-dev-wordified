@@ -4220,7 +4220,7 @@ setAttribute
 "
 height
 "
-55
+50
 )
 ;
 curve
@@ -4230,7 +4230,7 @@ setAttribute
 "
 width
 "
-55
+50
 )
 ;
 preset
