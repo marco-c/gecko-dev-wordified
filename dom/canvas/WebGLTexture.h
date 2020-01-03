@@ -1118,9 +1118,13 @@ level
 ;
 protected
 :
-GLenum
+TexMinFilter
 mMinFilter
+;
+TexMagFilter
 mMagFilter
+;
+TexWrap
 mWrapS
 mWrapT
 ;
@@ -1269,7 +1273,7 @@ aStatus
 void
 SetMinFilter
 (
-GLenum
+TexMinFilter
 aMinFilter
 )
 {
@@ -1289,7 +1293,7 @@ Unknown
 void
 SetMagFilter
 (
-GLenum
+TexMagFilter
 aMagFilter
 )
 {
@@ -1309,7 +1313,7 @@ Unknown
 void
 SetWrapS
 (
-GLenum
+TexWrap
 aWrapS
 )
 {
@@ -1329,7 +1333,7 @@ Unknown
 void
 SetWrapT
 (
-GLenum
+TexWrap
 aWrapT
 )
 {
@@ -1346,7 +1350,7 @@ Unknown
 )
 ;
 }
-GLenum
+TexMinFilter
 MinFilter
 (
 )

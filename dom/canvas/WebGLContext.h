@@ -8666,7 +8666,7 @@ gl
 GLContext
 *
 gl
-GLenum
+TexTarget
 target
 GLenum
 format

@@ -152,6 +152,13 @@ WebGLTypes
 .
 h
 "
+#
+include
+"
+WebGLStrongTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -167,7 +174,7 @@ nsWrapperCache
 public
 WebGLBindableName
 <
-GLenum
+BufferBinding
 >
 public
 WebGLRefCountedObject

@@ -5019,6 +5019,10 @@ tex
 MinFilter
 (
 )
+.
+get
+(
+)
 )
 ;
 }
