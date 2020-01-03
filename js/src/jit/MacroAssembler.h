@@ -1477,7 +1477,7 @@ inline
 void
 adjustFrame
 (
-int
+int32_t
 value
 )
 ;
