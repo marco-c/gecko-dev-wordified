@@ -1624,7 +1624,7 @@ immedate
 X86Assembler
 :
 :
-repatchPointer
+setPointer
 (
 entry
 +
