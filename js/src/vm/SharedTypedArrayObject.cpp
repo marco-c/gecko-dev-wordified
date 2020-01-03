@@ -736,6 +736,7 @@ SharedArrayBufferObject
 BufferType
 ;
 static
+MOZ_CONSTEXPR
 Scalar
 :
 :
@@ -749,8 +750,9 @@ TypeIDOfType
 <
 NativeType
 >
-(
-)
+:
+:
+id
 ;
 }
 static
