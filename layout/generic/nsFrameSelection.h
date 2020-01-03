@@ -5020,6 +5020,10 @@ mDesiredPosSet
 int8_t
 mCaretMovementStyle
 ;
+static
+bool
+sSelectionEventsEnabled
+;
 }
 ;
 #
