@@ -17071,6 +17071,7 @@ operator
 >
 (
 )
+MOZ_NO_ADDREF_RELEASE_ON_RETURN
 {
 MOZ_ASSERT
 (
@@ -18577,6 +18578,7 @@ operator
 >
 (
 )
+MOZ_NO_ADDREF_RELEASE_ON_RETURN
 {
 return
 mDatabase

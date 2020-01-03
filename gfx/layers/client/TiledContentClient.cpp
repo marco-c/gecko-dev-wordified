@@ -4890,6 +4890,10 @@ TiledLayerBufferComposite
 :
 TiledLayerBufferComposite
 mFrontLock
+.
+get
+(
+)
 -
 >
 AddRef

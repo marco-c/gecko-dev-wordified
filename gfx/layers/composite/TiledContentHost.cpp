@@ -768,6 +768,10 @@ TiledClient
 :
 GetTileDescriptor
 sharedLock
+.
+get
+(
+)
 -
 >
 Release

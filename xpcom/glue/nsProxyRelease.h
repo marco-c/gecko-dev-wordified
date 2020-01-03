@@ -1487,6 +1487,7 @@ operator
 >
 (
 )
+MOZ_NO_ADDREF_RELEASE_ON_RETURN
 {
 return
 get

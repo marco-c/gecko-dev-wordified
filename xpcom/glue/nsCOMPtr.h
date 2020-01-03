@@ -3958,6 +3958,7 @@ operator
 (
 )
 const
+MOZ_NO_ADDREF_RELEASE_ON_RETURN
 {
 NS_ABORT_IF_FALSE
 (
@@ -5534,6 +5535,7 @@ operator
 (
 )
 const
+MOZ_NO_ADDREF_RELEASE_ON_RETURN
 {
 NS_ABORT_IF_FALSE
 (

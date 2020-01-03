@@ -1519,10 +1519,11 @@ mPending
 /
 /
 Holds
-already_AddRefed
-<
+addref
+'
+ed
 DataChannel
->
+'
 s
 -
 -

@@ -5542,6 +5542,10 @@ Release
 in
 clipboard_contents_received
 context
+.
+get
+(
+)
 -
 >
 AddRef
@@ -5649,6 +5653,10 @@ Release
 in
 clipboard_text_received
 context
+.
+get
+(
+)
 -
 >
 AddRef
