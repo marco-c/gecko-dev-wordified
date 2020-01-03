@@ -646,7 +646,6 @@ decltype
 (
 nullptr
 )
-n
 )
 {
 /
@@ -666,14 +665,6 @@ in
 C
 +
 +
-MOZ_ASSERT
-(
-n
-=
-=
-nullptr
-)
-;
 delete
 [
 ]
