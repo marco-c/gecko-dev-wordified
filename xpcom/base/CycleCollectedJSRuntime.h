@@ -1057,6 +1057,8 @@ JSTracer
 aTracer
 )
 ;
+public
+:
 enum
 DeferredFinalizeType
 {
@@ -1071,8 +1073,6 @@ DeferredFinalizeType
 aType
 )
 ;
-public
-:
 /
 /
 Two

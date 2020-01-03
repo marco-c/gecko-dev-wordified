@@ -1121,12 +1121,6 @@ RemovePurple
 ;
 }
 static
-void
-ClearContentUnbinder
-(
-)
-;
-static
 bool
 CanSkip
 (
