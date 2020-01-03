@@ -5100,6 +5100,7 @@ aCharset
 aType
 aCrossOrigin
 aScriptFromHead
+mSpeculationReferrerPolicy
 )
 ;
 }
