@@ -939,6 +939,9 @@ manage
 app
 :
 DENY_ACTION
+trusted
+:
+DENY_ACTION
 privileged
 :
 ALLOW_ACTION
