@@ -110,8 +110,6 @@ Agent
 :
 "
 +
-aDebuggee
-.
 navigator
 .
 userAgent
@@ -163,8 +161,6 @@ Language
 :
 "
 +
-aDebuggee
-.
 navigator
 .
 language
@@ -307,8 +303,6 @@ Agent
 :
 '
 +
-aDebuggee
-.
 navigator
 .
 userAgent
@@ -360,8 +354,6 @@ Language
 :
 '
 +
-aDebuggee
-.
 navigator
 .
 language
