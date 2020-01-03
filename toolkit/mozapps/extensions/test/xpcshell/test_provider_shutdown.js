@@ -185,7 +185,7 @@ resolve
 ;
 mockProvider
 .
-doneResject
+doneReject
 =
 reject
 ;
@@ -519,16 +519,6 @@ MockAsyncShutdown
 .
 status
 (
-)
-;
-do_print
-(
-JSON
-.
-stringify
-(
-status
-)
 )
 ;
 equal
