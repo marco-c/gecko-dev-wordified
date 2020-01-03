@@ -1619,6 +1619,17 @@ return
 false
 ;
 }
+if
+(
+staticVertUse
+&
+&
+itrFrag
+-
+>
+staticUse
+)
+{
 staticUseVaryingList
 .
 push_back
@@ -1640,6 +1651,7 @@ elementCount
 }
 )
 ;
+}
 }
 if
 (
