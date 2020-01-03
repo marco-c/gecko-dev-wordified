@@ -1575,9 +1575,6 @@ Delete
 FontFace
 &
 aFontFace
-ErrorResult
-&
-aRv
 )
 {
 mPresContext
