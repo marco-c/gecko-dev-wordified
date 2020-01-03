@@ -1846,7 +1846,13 @@ const
 uint16_t
 code_point
 =
+static_cast
+<
+uint16_t
+>
+(
 cp
+)
 ;
 if
 (
@@ -7908,12 +7914,12 @@ size
 0
 ;
 const
-unsigned
+uint16_t
 num_subtables
 =
 static_cast
 <
-unsigned
+uint16_t
 >
 (
 have_034
@@ -7921,7 +7927,7 @@ have_034
 +
 static_cast
 <
-unsigned
+uint16_t
 >
 (
 have_0514
@@ -7929,7 +7935,7 @@ have_0514
 +
 static_cast
 <
-unsigned
+uint16_t
 >
 (
 have_100
@@ -7937,7 +7943,7 @@ have_100
 +
 static_cast
 <
-unsigned
+uint16_t
 >
 (
 have_304
@@ -7945,7 +7951,7 @@ have_304
 +
 static_cast
 <
-unsigned
+uint16_t
 >
 (
 have_314
@@ -7953,7 +7959,7 @@ have_314
 +
 static_cast
 <
-unsigned
+uint16_t
 >
 (
 have_31012
@@ -7961,7 +7967,7 @@ have_31012
 +
 static_cast
 <
-unsigned
+uint16_t
 >
 (
 have_31013
@@ -9038,7 +9044,7 @@ WriteU16
 out
 -
 >
-WriteU32
+WriteU16
 (
 0
 )
@@ -9054,7 +9060,7 @@ num_groups
 *
 12
 +
-14
+16
 )
 |
 |
