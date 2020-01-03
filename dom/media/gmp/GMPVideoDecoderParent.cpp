@@ -1101,12 +1101,6 @@ mCallback
 nullptr
 ;
 }
-mVideoHost
-.
-DoneWithAPI
-(
-)
-;
 mIsOpen
 =
 false
@@ -1147,6 +1141,12 @@ aWhy
 mIsOpen
 =
 false
+;
+mVideoHost
+.
+DoneWithAPI
+(
+)
 ;
 if
 (
