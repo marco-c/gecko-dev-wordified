@@ -65,8 +65,6 @@ metadata
 manifestupdate
 from
 mozlog
-.
-structured
 import
 structuredlog
 handlers

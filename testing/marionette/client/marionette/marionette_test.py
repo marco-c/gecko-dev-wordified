@@ -113,14 +113,6 @@ marionette
 import
 Marionette
 from
-mozlog
-.
-structured
-.
-structuredlog
-import
-get_default_logger
-from
 marionette_driver
 .
 wait
@@ -133,6 +125,10 @@ expected
 import
 element_present
 element_not_present
+from
+mozlog
+import
+get_default_logger
 class
 SkipTest
 (
@@ -2593,8 +2589,6 @@ to
         
 #
 mozlog
-.
-structured
 via
 the
 test

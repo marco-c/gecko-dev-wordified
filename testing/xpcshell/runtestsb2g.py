@@ -118,12 +118,6 @@ DMError
 from
 mozlog
 import
-structured
-from
-mozlog
-.
-structured
-import
 commandline
 DEVICE_TEST_ROOT
 =
@@ -1773,8 +1767,6 @@ B2GOptions
 (
 )
     
-structured
-.
 commandline
 .
 add_logging_group

@@ -71,8 +71,6 @@ import
 wpttest
 from
 mozlog
-.
-structured
 import
 commandline
 reader

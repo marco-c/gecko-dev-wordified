@@ -66,9 +66,9 @@ mozlog
 PACKAGE_VERSION
 =
 '
-2
+3
 .
-11
+0
 '
 setup
 (
@@ -293,8 +293,6 @@ package_data
 {
 "
 mozlog
-.
-structured
 "
 :
 [
@@ -307,7 +305,7 @@ main
 .
 js
 "
-                                          
+                               
 "
 formatters
 /
@@ -334,8 +332,6 @@ console_scripts
 structlog
 =
 mozlog
-.
-structured
 .
 scripts
 :

@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+logging
+import
 re
 import
 os
@@ -76,8 +78,6 @@ import
 ProcessHandler
 import
 mozfile
-import
-mozlog
 class
 DeviceManagerADB
 (
@@ -202,7 +202,7 @@ None
                  
 logLevel
 =
-mozlog
+logging
 .
 ERROR
 autoconnect

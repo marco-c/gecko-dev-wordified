@@ -54,11 +54,11 @@ MPL
 /
 .
 import
+logging
+import
 types
 import
 unittest
-import
-mozlog
 from
 mozdevice
 import
@@ -79,7 +79,7 @@ heartbeat_port
 0
 log_level
 =
-mozlog
+logging
 .
 ERROR
 class

@@ -74,8 +74,14 @@ zipfile
 StringIO
 import
 mozcrash
-mozlog
+import
 mozhttpd
+import
+mozlog
+.
+unstructured
+as
+mozlog
 #
 Make
 logs

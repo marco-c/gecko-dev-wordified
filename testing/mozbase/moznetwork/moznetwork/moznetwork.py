@@ -71,10 +71,6 @@ import
 mozinfo
 import
 mozlog
-from
-mozlog
-import
-structured
 if
 mozinfo
 .
@@ -114,7 +110,7 @@ _get_logger
     
 logger
 =
-structured
+mozlog
 .
 get_default_logger
 (
@@ -133,6 +129,8 @@ logger
 logger
 =
 mozlog
+.
+unstructured
 .
 getLogger
 (

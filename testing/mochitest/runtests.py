@@ -218,15 +218,11 @@ encodeURIComponent
 from
 mozlog
 .
-structured
-.
 formatters
 import
 TbplFormatter
 from
 mozlog
-.
-structured
 import
 commandline
 from

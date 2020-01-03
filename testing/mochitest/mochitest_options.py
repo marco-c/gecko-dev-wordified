@@ -78,15 +78,13 @@ import
 DroidADB
 DroidSUT
 from
-mozlog
-import
-structured
-from
 mozprofile
 import
 DEFAULT_PORTS
 import
 mozinfo
+import
+mozlog
 import
 moznetwork
 here
@@ -10176,7 +10174,7 @@ set_defaults
 defaults
 )
         
-structured
+mozlog
 .
 commandline
 .

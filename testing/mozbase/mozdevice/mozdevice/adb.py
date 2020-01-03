@@ -1095,14 +1095,12 @@ None
 try
 :
             
-from
-mozlog
 import
-structured
+mozlog
             
 logger
 =
-structured
+mozlog
 .
 get_default_logger
 (

@@ -9,7 +9,7 @@ python
 import
 mozdevice
 import
-mozlog
+logging
 import
 re
 import
@@ -432,7 +432,7 @@ m
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )

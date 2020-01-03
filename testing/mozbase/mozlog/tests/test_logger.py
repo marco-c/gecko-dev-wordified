@@ -69,6 +69,10 @@ import
 mozfile
 import
 mozlog
+.
+unstructured
+as
+mozlog
 class
 ListHandler
 (

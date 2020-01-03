@@ -7,7 +7,7 @@ mozfile
 import
 mozdevice
 import
-mozlog
+logging
 import
 unittest
 import
@@ -626,7 +626,7 @@ port
                                        
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )

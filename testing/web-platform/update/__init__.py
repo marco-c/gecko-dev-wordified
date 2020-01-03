@@ -70,8 +70,6 @@ import
 sys
 from
 mozlog
-.
-structured
 import
 structuredlog
 here

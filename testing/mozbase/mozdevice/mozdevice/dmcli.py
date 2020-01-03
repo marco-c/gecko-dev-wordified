@@ -70,6 +70,8 @@ device
 import
 errno
 import
+logging
+import
 os
 import
 posixpath
@@ -1480,8 +1482,6 @@ parser
         
 mozlog
 .
-structured
-.
 commandline
 .
 add_logging_group
@@ -1518,8 +1518,6 @@ parse_args
 )
         
 mozlog
-.
-structured
 .
 commandline
 .
@@ -2193,7 +2191,7 @@ parameters
         
 logLevel
 =
-mozlog
+logging
 .
 ERROR
         
@@ -2203,7 +2201,7 @@ verbose
             
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
         

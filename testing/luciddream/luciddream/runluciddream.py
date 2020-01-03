@@ -90,10 +90,8 @@ import
 BaseMarionetteTestRunner
 import
 marionette
-from
-mozlog
 import
-structured
+mozlog
 class
 CommandLineError
 (
@@ -597,7 +595,7 @@ run
 '
 )
     
-structured
+mozlog
 .
 commandline
 .
@@ -1017,7 +1015,7 @@ kwargs
         
 logger
 =
-structured
+mozlog
 .
 commandline
 .

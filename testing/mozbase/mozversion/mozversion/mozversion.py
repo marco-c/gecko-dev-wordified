@@ -83,10 +83,6 @@ import
 mozfile
 import
 mozlog
-from
-mozlog
-import
-structured
 import
 errors
 INI_DATA_MAPPING
@@ -134,7 +130,7 @@ self
 .
 _logger
 =
-structured
+mozlog
 .
 get_default_logger
 (
@@ -157,6 +153,8 @@ self
 _logger
 =
 mozlog
+.
+unstructured
 .
 getLogger
 (

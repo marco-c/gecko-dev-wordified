@@ -112,6 +112,11 @@ mozfile
         
 '
 mozlog
+>
+=
+3
+.
+0
 '
 ]
 setup

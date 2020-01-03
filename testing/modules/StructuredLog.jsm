@@ -92,10 +92,7 @@ for
 tests
 exposed
 by
-the
 mozlog
-.
-structured
 *
 *
 param
@@ -230,10 +227,7 @@ the
 format
 specified
 by
-*
 mozlog
-.
-structured
 *
 /
 StructuredLogger

@@ -71,10 +71,6 @@ import
 time
 from
 mozlog
-.
-structured
-.
-structuredlog
 import
 get_default_logger
 import

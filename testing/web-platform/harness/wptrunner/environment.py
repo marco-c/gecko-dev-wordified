@@ -69,8 +69,6 @@ import
 time
 from
 mozlog
-.
-structured
 import
 get_default_logger
 handlers

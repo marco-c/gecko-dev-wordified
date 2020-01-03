@@ -67,10 +67,6 @@ import
 MarionetteTestCase
 MarionetteJSTestCase
 from
-mozlog
-import
-structured
-from
 marionette
 .
 runner
@@ -82,8 +78,9 @@ BaseMarionetteTestRunner
 BaseMarionetteOptions
     
 BrowserMobProxyOptionsMixin
-    
 )
+import
+mozlog
 class
 MarionetteTestRunner
 (
@@ -247,7 +244,7 @@ prog
 __version__
 )
     
-structured
+mozlog
 .
 commandline
 .
@@ -275,7 +272,7 @@ tests
     
 logger
 =
-structured
+mozlog
 .
 commandline
 .

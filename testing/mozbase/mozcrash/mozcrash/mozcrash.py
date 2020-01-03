@@ -101,12 +101,6 @@ import
 mozinfo
 import
 mozlog
-from
-mozlog
-.
-structured
-import
-structuredlog
 StackInfo
 =
 namedtuple
@@ -153,7 +147,7 @@ get_logger
     
 structured_logger
 =
-structuredlog
+mozlog
 .
 get_default_logger
 (
@@ -170,6 +164,8 @@ None
         
 return
 mozlog
+.
+unstructured
 .
 getLogger
 (

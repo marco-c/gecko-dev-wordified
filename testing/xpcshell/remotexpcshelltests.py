@@ -83,12 +83,6 @@ ZipFile
 from
 mozlog
 import
-structured
-from
-mozlog
-.
-structured
-import
 commandline
 import
 shutil
@@ -5529,8 +5523,6 @@ RemoteXPCShellOptions
 (
 )
     
-structured
-.
 commandline
 .
 add_logging_group

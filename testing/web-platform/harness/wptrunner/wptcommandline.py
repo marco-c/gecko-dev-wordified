@@ -213,8 +213,6 @@ None
     
 from
 mozlog
-.
-structured
 import
 commandline
     

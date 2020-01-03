@@ -111,10 +111,8 @@ import
 sys
 import
 unittest
-from
-mozlog
 import
-structured
+mozlog
 from
 moztest
 .
@@ -432,7 +430,7 @@ run
 "
 )
     
-structured
+mozlog
 .
 commandline
 .
@@ -453,7 +451,7 @@ args
     
 logger
 =
-structured
+mozlog
 .
 commandline
 .
@@ -462,11 +460,9 @@ setup_logging
 "
 mozbase
 "
-                                                  
 options
-                                                  
+                                              
 {
-                                                      
 "
 tbpl
 "
@@ -474,7 +470,6 @@ tbpl
 sys
 .
 stdout
-                                                  
 }
 )
     

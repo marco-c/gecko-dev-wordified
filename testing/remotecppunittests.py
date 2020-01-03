@@ -85,6 +85,8 @@ mozfile
 import
 mozinfo
 import
+mozlog
+import
 StringIO
 import
 posixpath
@@ -94,10 +96,6 @@ import
 devicemanager
 devicemanagerADB
 devicemanagerSUT
-from
-mozlog
-import
-structured
 try
 :
     
@@ -2032,7 +2030,7 @@ RemoteCPPUnittestOptions
 (
 )
     
-structured
+mozlog
 .
 commandline
 .
@@ -2460,7 +2458,7 @@ exit
     
 log
 =
-structured
+mozlog
 .
 commandline
 .
@@ -2469,9 +2467,8 @@ setup_logging
 "
 remotecppunittests
 "
-                                               
 options
-                                               
+                                           
 {
 "
 tbpl

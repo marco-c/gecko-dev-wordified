@@ -58,6 +58,8 @@ optparse
 import
 OptionParser
 import
+logging
+import
 os
 import
 re
@@ -65,8 +67,6 @@ import
 sys
 import
 unittest
-import
-mozlog
 import
 dmunit
 import
@@ -110,7 +110,7 @@ dmunit
 .
 log_level
 =
-mozlog
+logging
 .
 DEBUG
     

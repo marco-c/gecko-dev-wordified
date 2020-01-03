@@ -5,7 +5,7 @@ MockAgent
 import
 mozdevice
 import
-mozlog
+logging
 import
 unittest
 class
@@ -62,7 +62,7 @@ a
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )
@@ -162,7 +162,7 @@ port
                                                      
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )
@@ -288,7 +288,7 @@ a
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )
@@ -449,7 +449,7 @@ a
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )

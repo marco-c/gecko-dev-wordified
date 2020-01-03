@@ -56,7 +56,7 @@ MPL
 import
 datetime
 import
-mozlog
+logging
 import
 moznetwork
 import
@@ -247,13 +247,13 @@ port
 retryLimit
 =
 5
-            
 deviceRoot
 =
 None
+                 
 logLevel
 =
-mozlog
+logging
 .
 ERROR
 *

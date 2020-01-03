@@ -87,6 +87,8 @@ log
 =
 mozlog
 .
+unstructured
+.
 getLogger
 (
 '
