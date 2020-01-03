@@ -2548,9 +2548,9 @@ palette
 >
 toolbarbutton
 [
-sdk
+constrain
 -
-button
+size
 =
 "
 true
@@ -2572,9 +2572,9 @@ palette
 >
 toolbarbutton
 [
-sdk
+constrain
 -
-button
+size
 =
 "
 true
@@ -2594,9 +2594,9 @@ toolbarbutton
 icon
 toolbarbutton
 [
-sdk
+constrain
 -
-button
+size
 =
 "
 true
@@ -2620,9 +2620,9 @@ toolbarbutton
 icon
 toolbarbutton
 [
-sdk
+constrain
 -
-button
+size
 =
 "
 true
