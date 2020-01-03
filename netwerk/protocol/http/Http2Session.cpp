@@ -17996,13 +17996,6 @@ rv
 )
 )
 ;
-CleanupStream
-(
-streamID
-NS_OK
-CANCEL_ERROR
-)
-;
 MOZ_ASSERT
 (
 !
@@ -18018,6 +18011,13 @@ StreamID
 =
 =
 streamID
+)
+;
+CleanupStream
+(
+streamID
+NS_OK
+CANCEL_ERROR
 )
 ;
 mNeedsCleanup
