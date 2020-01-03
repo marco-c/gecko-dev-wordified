@@ -1674,6 +1674,9 @@ CreateFromFile
 (
 aWindow
 aFile
+aBag
+.
+mTemporary
 )
 ;
 /

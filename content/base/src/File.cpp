@@ -1401,6 +1401,8 @@ aParent
 nsIFile
 *
 aFile
+bool
+aTemporary
 )
 {
 nsRefPtr
@@ -1417,6 +1419,7 @@ new
 FileImplFile
 (
 aFile
+aTemporary
 )
 )
 ;
