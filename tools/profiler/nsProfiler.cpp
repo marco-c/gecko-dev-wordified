@@ -631,8 +631,6 @@ nsProfiler
 :
 GetProfile
 (
-float
-aSinceTime
 char
 *
 *
@@ -645,7 +643,6 @@ profile
 =
 profiler_get_profile
 (
-aSinceTime
 )
 ;
 if
@@ -1231,8 +1228,6 @@ nsProfiler
 :
 GetProfileData
 (
-float
-aSinceTime
 JSContext
 *
 aCx
@@ -1259,7 +1254,6 @@ aCx
 profiler_get_profile_jsobject
 (
 aCx
-aSinceTime
 )
 )
 ;
