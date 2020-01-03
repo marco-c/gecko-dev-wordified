@@ -23523,7 +23523,7 @@ selectedBrowser
 )
 this
 .
-updateSearchButton
+updateOpenSearchBadge
 (
 )
 ;
@@ -23568,7 +23568,7 @@ engines
 .
 *
 /
-updateSearchButton
+updateOpenSearchBadge
 :
 function
 (
@@ -23619,7 +23619,7 @@ check
 /
 for
 .
-searchButton
+textbox
 specifically
 .
 if
@@ -23631,7 +23631,7 @@ searchBar
 !
 searchBar
 .
-searchButton
+textbox
 )
 return
 ;
@@ -30118,7 +30118,7 @@ updateFeeds
 ;
 BrowserSearch
 .
-updateSearchButton
+updateOpenSearchBadge
 (
 )
 ;
