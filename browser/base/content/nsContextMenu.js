@@ -6847,6 +6847,7 @@ this
 onEditableArea
 )
 {
+var
 win
 =
 this
@@ -10655,7 +10656,7 @@ function
 {
 gPluginHandler
 .
-contextMenuCommand
+_showClickToPlayNotification
 (
 this
 .
@@ -10663,9 +10664,7 @@ browser
 this
 .
 target
-"
-play
-"
+true
 )
 ;
 }
@@ -10677,17 +10676,11 @@ function
 {
 gPluginHandler
 .
-contextMenuCommand
+hideClickToPlayOverlay
 (
 this
 .
-browser
-this
-.
 target
-"
-hide
-"
 )
 ;
 }
