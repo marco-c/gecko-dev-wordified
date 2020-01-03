@@ -6434,6 +6434,13 @@ index
 ;
 }
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 )
