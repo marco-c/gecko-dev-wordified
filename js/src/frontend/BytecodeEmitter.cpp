@@ -37106,14 +37106,6 @@ cx
 enclosingScope
 false
 options
-parent
--
->
-staticLevel
-(
-)
-+
-1
 sourceObject
 funbox
 -

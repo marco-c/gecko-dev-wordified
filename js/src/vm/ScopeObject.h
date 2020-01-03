@@ -8291,6 +8291,14 @@ JSObject
 staticScope
 )
 ;
+uint32_t
+StaticScopeChainLength
+(
+JSObject
+*
+staticScope
+)
+;
 #
 ifdef
 DEBUG

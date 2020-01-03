@@ -25355,7 +25355,6 @@ source
 *
 /
 nullptr
-0
 &
 sct
 )

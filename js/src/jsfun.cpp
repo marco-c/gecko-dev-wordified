@@ -5256,13 +5256,6 @@ savedCallerFun
 /
 false
 options
-/
-*
-staticLevel
-=
-*
-/
-0
 sourceObject
 0
 ss
