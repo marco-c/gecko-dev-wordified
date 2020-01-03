@@ -1476,8 +1476,6 @@ void
 Process
 (
 GraphTime
-aFrom
-GraphTime
 aTo
 )
 ;
@@ -2106,8 +2104,6 @@ it
 void
 CreateOrDestroyAudioStreams
 (
-GraphTime
-aAudioOutputStartTime
 MediaStream
 *
 aStream
@@ -2152,8 +2148,6 @@ PlayAudio
 MediaStream
 *
 aStream
-GraphTime
-aFrom
 GraphTime
 aTo
 )

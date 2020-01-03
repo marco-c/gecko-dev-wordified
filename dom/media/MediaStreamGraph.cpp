@@ -4692,8 +4692,6 @@ MediaStreamGraphImpl
 :
 CreateOrDestroyAudioStreams
 (
-GraphTime
-aAudioOutputStartTime
 MediaStream
 *
 aStream
@@ -4921,7 +4919,7 @@ audioOutputStream
 >
 mAudioPlaybackStartTime
 =
-aAudioOutputStartTime
+mProcessedTime
 ;
 audioOutputStream
 -
@@ -5072,8 +5070,6 @@ PlayAudio
 MediaStream
 *
 aStream
-GraphTime
-aFrom
 GraphTime
 aTo
 )
@@ -5227,7 +5223,7 @@ offset
 GraphTimeToStreamTimeWithBlocking
 (
 aStream
-aFrom
+mProcessedTime
 )
 ;
 /
@@ -5311,7 +5307,7 @@ time
 GraphTime
 t
 =
-aFrom
+mProcessedTime
 ;
 while
 (
@@ -8041,8 +8037,6 @@ MediaStreamGraphImpl
 Process
 (
 GraphTime
-aFrom
-GraphTime
 aTo
 )
 {
@@ -8313,7 +8307,7 @@ n
 SampleRate
 (
 )
-aFrom
+mProcessedTime
 aTo
 )
 ;
@@ -8329,7 +8323,7 @@ ps
 >
 ProcessInput
 (
-aFrom
+mProcessedTime
 aTo
 ProcessedMediaStream
 :
@@ -8391,7 +8385,6 @@ mRealtime
 {
 CreateOrDestroyAudioStreams
 (
-aFrom
 stream
 )
 ;
@@ -8413,7 +8406,6 @@ ticksPlayedForThisStream
 PlayAudio
 (
 stream
-aFrom
 aTo
 )
 ;
@@ -8469,7 +8461,7 @@ stream
 >
 mStartBlocking
 >
-aFrom
+mProcessedTime
 )
 {
 allBlockedForever
@@ -8868,11 +8860,6 @@ MaybeProduceMemoryReport
 )
 ;
 GraphTime
-stateFrom
-=
-mStateComputedTime
-;
-GraphTime
 stateEnd
 =
 std
@@ -8895,9 +8882,13 @@ stateEnd
 ;
 Process
 (
-stateFrom
 stateEnd
 )
+;
+GraphTime
+oldProcessedTime
+=
+mProcessedTime
 ;
 mProcessedTime
 =
@@ -8905,7 +8896,7 @@ stateEnd
 ;
 UpdateCurrentTimeForStreams
 (
-stateFrom
+oldProcessedTime
 )
 ;
 return
