@@ -3402,14 +3402,6 @@ GetLength
 >
 =
 0
-&
-&
-mDecoder
--
->
-IsMediaSeekable
-(
-)
 )
 {
 /
