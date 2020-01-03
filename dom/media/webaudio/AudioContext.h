@@ -815,7 +815,10 @@ aFailureCallback
 /
 OfflineAudioContext
 methods
-void
+already_AddRefed
+<
+Promise
+>
 StartRendering
 (
 ErrorResult
