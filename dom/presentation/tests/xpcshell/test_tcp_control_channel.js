@@ -259,7 +259,7 @@ org
 /
 supports
 -
-string
+cstring
 ;
 1
 "
@@ -269,7 +269,7 @@ createInstance
 (
 Ci
 .
-nsISupportsString
+nsISupportsCString
 )
 ;
 wrapper
@@ -633,7 +633,7 @@ queryElementAt
 0
 Ci
 .
-nsISupportsString
+nsISupportsCString
 )
 .
 data
@@ -1025,7 +1025,7 @@ queryElementAt
 0
 Ci
 .
-nsISupportsString
+nsISupportsCString
 )
 .
 data
