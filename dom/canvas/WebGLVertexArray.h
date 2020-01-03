@@ -156,6 +156,9 @@ public
 nsWrapperCache
 public
 WebGLBindableName
+<
+GLenum
+>
 public
 WebGLRefCountedObject
 <
