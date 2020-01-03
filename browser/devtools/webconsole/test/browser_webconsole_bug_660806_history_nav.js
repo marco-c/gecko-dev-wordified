@@ -45,6 +45,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -67,6 +72,9 @@ bug
 660806
 -
 history
+"
++
+"
 navigation
 must
 not

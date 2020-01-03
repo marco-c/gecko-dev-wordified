@@ -106,6 +106,7 @@ BLOCK
 use
 strict
 "
+;
 const
 TEST_URI
 =

@@ -60,6 +60,11 @@ formatted
 as
 strings
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

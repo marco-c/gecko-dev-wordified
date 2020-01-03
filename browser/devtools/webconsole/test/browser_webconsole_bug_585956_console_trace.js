@@ -97,6 +97,9 @@ browser
 /
 devtools
 /
+"
++
+"
 webconsole
 /
 test

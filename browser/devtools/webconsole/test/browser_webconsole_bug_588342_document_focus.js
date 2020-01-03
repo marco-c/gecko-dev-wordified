@@ -93,6 +93,11 @@ BLOCK
 *
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -140,11 +145,6 @@ Ci
 .
 nsIFocusManager
 )
-;
-"
-use
-strict
-"
 ;
 let
 test

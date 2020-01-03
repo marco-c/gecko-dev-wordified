@@ -115,6 +115,11 @@ in
 the
 Web
 Console
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

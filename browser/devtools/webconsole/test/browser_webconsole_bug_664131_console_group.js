@@ -60,6 +60,11 @@ works
 as
 intended
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -79,6 +84,9 @@ Web
 Console
 test
 for
+"
++
+"
 bug
 664131
 :
@@ -121,13 +129,6 @@ hud
 .
 jsterm
 ;
-let
-outputNode
-=
-hud
-.
-outputNode
-;
 hud
 .
 jsterm
@@ -152,6 +153,7 @@ bug664131a
 )
 "
 )
+;
 yield
 waitForMessages
 (
@@ -194,6 +196,7 @@ inside
 )
 "
 )
+;
 yield
 waitForMessages
 (

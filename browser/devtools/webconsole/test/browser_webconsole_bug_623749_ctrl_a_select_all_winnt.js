@@ -65,6 +65,11 @@ console
 input
 on
 Windows
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

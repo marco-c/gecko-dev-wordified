@@ -65,6 +65,11 @@ com
 >
 *
 /
+"
+use
+strict
+"
+;
 let
 TEST_URI
 =
@@ -84,6 +89,9 @@ Web
 Console
 test
 for
+"
++
+"
 bug
 613642
 :

@@ -98,6 +98,11 @@ user
 s
 preferences
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -370,6 +375,11 @@ severity
 SEVERITY_WARNING
 }
 {
+/
+/
+LOG_LIMIT
++
+5
 text
 :
 "
@@ -377,11 +387,6 @@ css
 log
 24
 "
-/
-/
-LOG_LIMIT
-+
-5
 category
 :
 CATEGORY_CSS

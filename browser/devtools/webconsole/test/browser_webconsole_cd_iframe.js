@@ -46,6 +46,11 @@ See
 bug
 609872
 .
+"
+use
+strict
+"
+;
 function
 test
 (
@@ -74,6 +79,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test

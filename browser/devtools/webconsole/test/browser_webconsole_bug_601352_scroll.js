@@ -81,6 +81,11 @@ See
 bug
 601352
 .
+"
+use
+strict
+"
+;
 function
 test
 (
@@ -127,6 +132,9 @@ utf
 Web
 Console
 test
+"
++
+"
 for
 bug
 601352
@@ -455,6 +463,8 @@ node
 relative
 to
 the
+/
+/
 outputNode
 .
 let

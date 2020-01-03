@@ -47,6 +47,11 @@ web
 console
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -67,6 +72,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -93,6 +101,9 @@ site
 specified
 an
 invalid
+"
++
+"
 Strict
 -
 Transport

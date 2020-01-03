@@ -43,6 +43,11 @@ the
 web
 console
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

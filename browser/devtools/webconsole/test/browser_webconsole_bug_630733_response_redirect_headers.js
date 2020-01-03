@@ -65,6 +65,11 @@ com
 >
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -87,6 +92,9 @@ Web
 Console
 test
 for
+"
++
+"
 bug
 630733
 "
@@ -111,6 +119,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -293,6 +304,7 @@ resolve
 ;
 }
 }
+;
 content
 .
 location
@@ -378,7 +390,7 @@ lastFinishedRequests
 actor
 function
 (
-aResponse
+response
 )
 {
 lastFinishedRequests
@@ -392,7 +404,7 @@ response
 .
 headers
 =
-aResponse
+response
 .
 headers
 ;
@@ -410,7 +422,7 @@ lastFinishedRequests
 actor
 function
 (
-aResponse
+resp
 )
 {
 lastFinishedRequests
@@ -424,7 +436,7 @@ response
 .
 headers
 =
-aResponse
+resp
 .
 headers
 ;
@@ -475,7 +487,7 @@ lastFinishedRequests
 actor
 function
 (
-aResponse
+response
 )
 {
 lastFinishedRequests
@@ -489,7 +501,7 @@ response
 .
 content
 =
-aResponse
+response
 .
 content
 ;
@@ -502,7 +514,7 @@ lastFinishedRequests
 .
 discardResponseBody
 =
-aResponse
+response
 .
 contentDiscarded
 ;
@@ -520,7 +532,7 @@ lastFinishedRequests
 actor
 function
 (
-aResponse
+resp
 )
 {
 lastFinishedRequests
@@ -534,7 +546,7 @@ response
 .
 content
 =
-aResponse
+resp
 .
 content
 ;
@@ -547,7 +559,7 @@ lastFinishedRequests
 .
 discardResponseBody
 =
-aResponse
+resp
 .
 contentDiscarded
 ;
@@ -582,7 +594,7 @@ performTest
 function
 readHeader
 (
-aName
+name
 )
 {
 for
@@ -600,7 +612,7 @@ header
 name
 =
 =
-aName
+name
 )
 {
 return

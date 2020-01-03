@@ -100,6 +100,11 @@ existing
 completion
 results
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -119,6 +124,9 @@ p
 test
 cached
 autocompletion
+"
++
+"
 results
 "
 ;
@@ -303,6 +311,7 @@ of
 suggestions
 "
 )
+;
 yield
 jsterm
 .
@@ -397,6 +406,9 @@ docfoobar
 list
 has
 not
+"
++
+"
 been
 updated
 "
@@ -484,6 +496,9 @@ docfoobar
 list
 has
 not
+"
++
+"
 been
 updated
 "
@@ -523,6 +538,7 @@ value
 window
 .
 "
+;
 input
 .
 setSelectionRange
@@ -817,6 +833,9 @@ docfoobar
 list
 has
 not
+"
++
+"
 been
 updated
 "

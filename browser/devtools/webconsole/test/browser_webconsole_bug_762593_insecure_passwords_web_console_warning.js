@@ -46,6 +46,11 @@ web
 console
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -66,6 +71,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -80,6 +88,9 @@ passwords
 -
 web
 -
+"
++
+"
 console
 -
 warning
@@ -97,6 +108,9 @@ present
 on
 an
 insecure
+"
++
+"
 (
 http
 :
@@ -113,6 +127,9 @@ risk
 that
 allows
 user
+"
++
+"
 login
 credentials
 to
@@ -133,6 +150,9 @@ a
 form
 with
 an
+"
++
+"
 insecure
 (
 http
@@ -148,6 +168,9 @@ is
 a
 security
 risk
+"
++
+"
 that
 allows
 user
@@ -169,6 +192,9 @@ present
 on
 an
 insecure
+"
++
+"
 (
 http
 :
@@ -184,6 +210,9 @@ security
 risk
 that
 allows
+"
++
+"
 user
 login
 credentials
@@ -211,6 +240,9 @@ docs
 /
 Security
 /
+"
++
+"
 InsecurePasswords
 "
 ;

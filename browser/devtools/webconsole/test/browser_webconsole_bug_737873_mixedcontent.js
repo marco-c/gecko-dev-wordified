@@ -103,6 +103,11 @@ Content
 messages
 are
 displayed
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -141,6 +146,9 @@ browser
 /
 devtools
 /
+"
++
+"
 webconsole
 /
 test
@@ -174,6 +182,9 @@ docs
 /
 Security
 /
+"
++
+"
 MixedContent
 "
 ;

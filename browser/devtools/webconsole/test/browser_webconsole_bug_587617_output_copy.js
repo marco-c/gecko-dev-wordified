@@ -84,6 +84,11 @@ BLOCK
 *
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -104,6 +109,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -116,11 +124,6 @@ html
 let
 HUD
 outputNode
-;
-"
-use
-strict
-"
 ;
 let
 test
@@ -378,9 +381,9 @@ one
 between
 message
 and
+/
+/
 line
-/
-/
 number
 but
 the
@@ -482,6 +485,7 @@ goDoCommand
 cmd_copy
 "
 )
+;
 }
 deferred
 .
@@ -724,6 +728,7 @@ goDoCommand
 cmd_copy
 "
 )
+;
 }
 deferred
 .

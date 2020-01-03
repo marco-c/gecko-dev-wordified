@@ -48,6 +48,11 @@ and
 selecting
 DOM
 nodes
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

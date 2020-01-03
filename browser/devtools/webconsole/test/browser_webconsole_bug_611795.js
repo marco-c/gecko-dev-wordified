@@ -45,6 +45,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -74,11 +79,11 @@ opacity
 ;
 "
 >
-test
-repeated
 '
 +
 '
+test
+repeated
 css
 warnings
 <
@@ -98,6 +103,9 @@ opacity
 0
 "
 >
+'
++
+'
 hi
 <
 /
@@ -107,11 +115,6 @@ p
 ;
 let
 hud
-;
-"
-use
-strict
-"
 ;
 /
 *
@@ -293,6 +296,9 @@ log
 this
 is
 a
+"
++
+"
 line
 of
 reasonably
@@ -303,6 +309,9 @@ I
 will
 use
 to
+"
++
+"
 verify
 that
 the
@@ -312,6 +321,9 @@ node
 is
 of
 an
+"
++
+"
 appropriate
 size
 .

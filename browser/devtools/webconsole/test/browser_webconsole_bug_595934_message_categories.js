@@ -93,6 +93,11 @@ BLOCK
 *
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -112,6 +117,9 @@ Web
 Console
 test
 for
+"
++
+"
 bug
 595934
 -
@@ -141,6 +149,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 "
@@ -602,9 +613,9 @@ nsIObserver
 observe
 :
 function
-test_observe
+testObserve
 (
-aSubject
+subject
 )
 {
 if
@@ -614,7 +625,7 @@ testEnded
 |
 !
 (
-aSubject
+subject
 instanceof
 Ci
 .
@@ -625,7 +636,7 @@ nsIScriptError
 return
 ;
 }
-var
+let
 expectedCategory
 =
 TESTS
@@ -650,7 +661,7 @@ observer
 got
 "
 +
-aSubject
+subject
 .
 category
 +
@@ -664,7 +675,7 @@ expectedCategory
 ;
 if
 (
-aSubject
+subject
 .
 category
 =
@@ -692,7 +703,7 @@ was
 :
 "
 +
-aSubject
+subject
 .
 sourceName
 +
@@ -700,7 +711,7 @@ sourceName
 :
 "
 +
-aSubject
+subject
 .
 lineNumber
 +
@@ -708,7 +719,7 @@ lineNumber
 ;
 "
 +
-aSubject
+subject
 .
 errorMessage
 )
@@ -720,12 +731,12 @@ errorMessage
 function
 consoleOpened
 (
-aHud
+hudConsole
 )
 {
 hud
 =
-aHud
+hudConsole
 ;
 output
 =
@@ -809,7 +820,6 @@ TESTS
 length
 )
 {
-let
 test
 =
 TESTS
@@ -899,7 +909,7 @@ load
 function
 onLoad
 (
-aEvent
+evt
 )
 {
 if
@@ -923,7 +933,7 @@ selectedBrowser
 .
 removeEventListener
 (
-aEvent
+evt
 .
 type
 onLoad
@@ -943,7 +953,7 @@ test
 .
 onload
 (
-aEvent
+evt
 )
 ;
 if

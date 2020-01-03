@@ -99,6 +99,11 @@ is
 being
 performed
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

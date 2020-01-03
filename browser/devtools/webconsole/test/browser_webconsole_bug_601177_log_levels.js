@@ -93,6 +93,11 @@ BLOCK
 *
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -112,6 +117,9 @@ Web
 Console
 test
 for
+"
++
+"
 bug
 601177
 :
@@ -139,6 +147,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -180,11 +191,6 @@ strict
 true
 )
 ;
-let
-{
-browser
-}
-=
 yield
 loadTab
 (

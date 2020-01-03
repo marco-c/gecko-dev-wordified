@@ -93,6 +93,11 @@ BLOCK
 *
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -113,6 +118,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -130,11 +138,6 @@ outputItem
 ;
 let
 outputNode
-;
-"
-use
-strict
-"
 ;
 let
 test
@@ -815,7 +818,6 @@ deferred
 resolve
 )
 ;
-let
 outputItem
 =
 msg

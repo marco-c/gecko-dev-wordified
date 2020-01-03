@@ -77,6 +77,11 @@ shown
 for
 network
 requests
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -97,6 +102,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -105,6 +113,7 @@ console
 .
 html
 "
+;
 const
 COMMAND_NAME
 =
@@ -204,7 +213,7 @@ results2
 )
 ;
 yield
-testOnNetActivity_contextmenu
+testOnNetActivityContextMenu
 (
 msg
 )
@@ -229,9 +238,11 @@ networkinfo
 HUD
 =
 null
+;
 outputNode
 =
 null
+;
 contextMenu
 =
 null
@@ -319,7 +330,7 @@ SEVERITY_LOG
 function
 onConsoleMessage
 (
-aResults
+results
 )
 {
 outputNode
@@ -336,7 +347,7 @@ selectedItem
 .
 .
 .
-aResults
+results
 [
 0
 ]
@@ -524,7 +535,7 @@ SEVERITY_LOG
 function
 onNetworkMessage
 (
-aResults
+results
 )
 {
 let
@@ -549,7 +560,7 @@ msg
 .
 .
 .
-aResults
+results
 [
 0
 ]
@@ -604,7 +615,7 @@ TabOpen
 function
 onOpen
 (
-aEvent
+evt
 )
 {
 gBrowser
@@ -622,7 +633,7 @@ true
 ;
 newTab
 =
-aEvent
+evt
 .
 target
 ;
@@ -758,7 +769,7 @@ promise
 ;
 }
 function
-testOnNetActivity_contextmenu
+testOnNetActivityContextMenu
 (
 msg
 )

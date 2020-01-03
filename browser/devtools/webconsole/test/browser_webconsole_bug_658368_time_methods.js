@@ -65,6 +65,11 @@ timeEnd
 )
 methods
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

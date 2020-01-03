@@ -126,6 +126,11 @@ and
 then
 closed
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

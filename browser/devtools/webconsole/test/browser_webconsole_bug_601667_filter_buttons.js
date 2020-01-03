@@ -39,6 +39,11 @@ logic
 works
 correctly
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -189,7 +194,7 @@ security
 function
 testMenuFilterButton
 (
-aCategory
+category
 )
 {
 let
@@ -209,7 +214,7 @@ category
 "
 "
 +
-aCategory
+category
 +
 "
 \
@@ -238,7 +243,7 @@ the
 "
 "
 +
-aCategory
+category
 +
 "
 \
@@ -275,7 +280,7 @@ the
 "
 "
 +
-aCategory
+category
 +
 "
 \
@@ -413,7 +418,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -473,7 +478,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -538,7 +543,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -594,7 +599,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -649,7 +654,7 @@ for
 category
 "
 +
-aCategory
+category
 )
 ;
 clickButton
@@ -671,7 +676,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -698,7 +703,6 @@ while
 menuItem
 )
 {
-let
 prefKey
 =
 menuItem
@@ -734,7 +738,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -817,7 +821,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -854,7 +858,6 @@ prefKey
 )
 )
 {
-let
 prefKey
 =
 menuItem
@@ -885,7 +888,7 @@ bug
 .
 if
 (
-aCategory
+category
 =
 =
 "
@@ -920,7 +923,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 should
@@ -982,7 +985,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -1126,7 +1129,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -1164,7 +1167,7 @@ subbutton
 function
 testIsolateFilterButton
 (
-aCategory
+category
 )
 {
 let
@@ -1184,7 +1187,7 @@ category
 "
 "
 +
-aCategory
+category
 +
 "
 \
@@ -1213,7 +1216,7 @@ the
 "
 "
 +
-aCategory
+category
 +
 "
 \
@@ -1253,7 +1256,7 @@ for
 category
 "
 +
-aCategory
+category
 )
 ;
 /
@@ -1291,7 +1294,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -1370,7 +1373,7 @@ bug
 .
 if
 (
-aCategory
+category
 =
 =
 "
@@ -1405,7 +1408,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 should
@@ -1417,7 +1420,7 @@ isolating
 for
 "
 +
-aCategory
+category
 )
 ;
 ok
@@ -1447,7 +1450,7 @@ isolating
 for
 "
 +
-aCategory
+category
 )
 ;
 }
@@ -1475,7 +1478,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -1485,7 +1488,7 @@ isolating
 for
 "
 +
-aCategory
+category
 )
 ;
 ok
@@ -1513,7 +1516,7 @@ isolating
 for
 "
 +
-aCategory
+category
 )
 ;
 }
@@ -1580,7 +1583,7 @@ targetButton
 )
 {
 let
-category
+categoryBtn
 =
 filterButton
 .
@@ -1605,7 +1608,7 @@ for
 category
 "
 +
-category
+categoryBtn
 +
 "
 is
@@ -1615,7 +1618,7 @@ isolating
 for
 "
 +
-aCategory
+category
 )
 ;
 menuItems
@@ -1676,7 +1679,7 @@ for
 category
 "
 +
-aCategory
+category
 +
 "
 is
@@ -1686,7 +1689,7 @@ isolating
 for
 "
 +
-aCategory
+category
 )
 ;
 ok
@@ -1715,7 +1718,7 @@ isolating
 for
 "
 +
-aCategory
+category
 )
 ;
 }
@@ -1772,7 +1775,7 @@ button
 function
 getMainButton
 (
-aTargetButton
+targetButton
 )
 {
 let
@@ -1786,7 +1789,7 @@ document
 .
 getAnonymousNodes
 (
-aTargetButton
+targetButton
 )
 ;
 let
@@ -1851,7 +1854,7 @@ subbutton
 function
 clickButton
 (
-aNode
+node
 )
 {
 EventUtils
@@ -1865,14 +1868,14 @@ type
 click
 "
 }
-aNode
+node
 )
 ;
 }
 function
 altClickButton
 (
-aNode
+node
 )
 {
 EventUtils
@@ -1889,14 +1892,14 @@ altKey
 :
 true
 }
-aNode
+node
 )
 ;
 }
 function
 chooseMenuItem
 (
-aNode
+node
 )
 {
 let
@@ -1929,7 +1932,7 @@ false
 null
 )
 ;
-aNode
+node
 .
 dispatchEvent
 (
@@ -1940,11 +1943,11 @@ event
 function
 isChecked
 (
-aNode
+node
 )
 {
 return
-aNode
+node
 .
 getAttribute
 (
