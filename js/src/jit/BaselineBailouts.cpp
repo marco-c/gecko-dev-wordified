@@ -14745,9 +14745,6 @@ case
 Bailout_NegativeIndex
 :
 case
-Bailout_ObjectIdentityOrTypeGuard
-:
-case
 Bailout_NonInt32Input
 :
 case
@@ -14798,6 +14795,9 @@ Bailout_NonStringInputInvalidate
 :
 case
 Bailout_DoubleOutput
+:
+case
+Bailout_ObjectIdentityOrTypeGuard
 :
 if
 (
