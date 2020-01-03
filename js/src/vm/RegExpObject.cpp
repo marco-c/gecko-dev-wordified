@@ -445,10 +445,10 @@ RegExpObject
 class_
 )
 ;
-JSObject
-*
+RootedObject
 parent
-=
+(
+cx
 group
 -
 >
@@ -463,6 +463,7 @@ toObject
 >
 getParent
 (
+)
 )
 ;
 /

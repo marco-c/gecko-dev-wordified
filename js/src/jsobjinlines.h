@@ -4391,8 +4391,7 @@ JSContext
 cx
 HandleObjectGroup
 group
-JSObject
-*
+HandleObject
 parent
 gc
 :
@@ -4418,8 +4417,7 @@ JSContext
 cx
 HandleObjectGroup
 group
-JSObject
-*
+HandleObject
 parent
 gc
 :
@@ -4477,8 +4475,7 @@ JSContext
 cx
 HandleObjectGroup
 group
-JSObject
-*
+HandleObject
 parent
 NewObjectKind
 newKind
@@ -4528,8 +4525,7 @@ JSContext
 cx
 HandleObjectGroup
 group
-JSObject
-*
+HandleObject
 parent
 gc
 :

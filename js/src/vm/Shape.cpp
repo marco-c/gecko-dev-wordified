@@ -3904,8 +3904,7 @@ JSContext
 cx
 HandleObjectGroup
 group
-JSObject
-*
+HandleObject
 parent
 gc
 :
