@@ -2148,16 +2148,6 @@ GetFirstFrameRect
 (
 )
 ;
-size_t
-SizeOfDecodedWithComputedFallbackIfHeap
-(
-gfxMemoryLocation
-aLocation
-MallocSizeOf
-aMallocSizeOf
-)
-const
-;
 Pair
 <
 DrawResult
