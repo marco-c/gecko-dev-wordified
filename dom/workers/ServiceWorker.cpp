@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
