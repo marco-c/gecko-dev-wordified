@@ -1364,6 +1364,17 @@ strong
 "
 ;
 }
+if
+(
+state
+.
+iterationCount
+!
+=
+=
+1
+)
+{
 titleHTML
 +
 =
@@ -1415,6 +1426,7 @@ strong
 >
 "
 ;
+}
 titleHTML
 +
 =
@@ -1424,6 +1436,7 @@ titleHTML
 span
 >
 "
+;
 titleEl
 .
 innerHTML
