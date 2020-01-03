@@ -373,6 +373,17 @@ include
 "
 jit
 /
+MacroAssembler
+-
+inl
+.
+h
+"
+#
+include
+"
+jit
+/
 shared
 /
 CodeGenerator
