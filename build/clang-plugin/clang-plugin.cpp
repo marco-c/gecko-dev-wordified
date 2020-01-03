@@ -3094,6 +3094,8 @@ parent
 is
 a
 refcounted
+/
+/
 class
 .
 for
@@ -3220,6 +3222,9 @@ and
 if
 not
 what
+/
+/
+/
 declaration
 /
 /
@@ -3305,6 +3310,8 @@ definition
 that
 means
 that
+/
+/
 either
 /
 /
@@ -3338,6 +3345,8 @@ and
 thus
 never
 instantiated
+/
+/
 by
 /
 /
@@ -3368,6 +3377,8 @@ know
 it
 '
 s
+/
+/
 size
 )
 /
@@ -3453,6 +3464,8 @@ a
 non
 -
 memmovable
+/
+/
 class
 .
 for
@@ -3527,6 +3540,8 @@ a
 non
 -
 memmovable
+/
+/
 class
 .
 for
@@ -5350,6 +5365,8 @@ are
 allowed
 to
 be
+/
+/
 implicit
 !
 decl
@@ -5398,6 +5415,8 @@ an
 existing
 matcher
 in
+/
+/
 clang
 .
 AST_MATCHER
@@ -8523,6 +8542,8 @@ point
 in
 issuing
 these
+/
+/
 warnings
 .
 return
@@ -8566,6 +8587,8 @@ value
 to
 itself
 for
+"
+"
 NaN
 checking
 can
@@ -8758,6 +8781,8 @@ the
 correct
 AST
 subtree
+/
+/
 shape
 and
 /
@@ -9596,6 +9621,8 @@ a
 refcnt
 member
 and
+/
+/
 warn
 for
 those
@@ -10031,6 +10058,8 @@ memmovable
 because
 of
 the
+"
+"
 MOZ_NON_MEMMOVABLE
 annotation
 on
@@ -10229,6 +10258,8 @@ get
 the
 instantiation
 stack
+/
+/
 information
 /
 /
@@ -10244,6 +10275,8 @@ full
 template
 instantiation
 stack
+/
+/
 however
 /
 /
@@ -10261,6 +10294,8 @@ the
 time
 we
 get
+/
+/
 here
 so
 we
@@ -10278,6 +10313,8 @@ specialization
 which
 in
 many
+/
+/
 cases
 won
 '
@@ -10423,6 +10460,8 @@ just
 have
 to
 report
+/
+/
 the
 error
 .
