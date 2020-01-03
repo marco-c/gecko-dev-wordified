@@ -2281,6 +2281,9 @@ detailsButtonLabel
 :
 "
 "
+detailsButtonCallback
+:
+null
 level
 :
 "

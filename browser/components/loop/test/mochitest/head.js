@@ -1360,6 +1360,7 @@ expected
 data
 "
 )
+;
 resolve
 (
 {
