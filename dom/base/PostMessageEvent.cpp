@@ -235,9 +235,6 @@ PostMessageEvent
 *
 event
 ;
-bool
-subsumes
-;
 nsPIDOMWindow
 *
 window
@@ -764,12 +761,6 @@ nullptr
 ;
 if
 (
-scInfo
--
->
-subsumes
-&
-&
 NS_SUCCEEDED
 (
 UNWRAP_OBJECT
@@ -890,12 +881,6 @@ supports
 if
 (
 list
-&
-&
-scInfo
--
->
-subsumes
 )
 scTag
 =
@@ -2359,8 +2344,6 @@ JS
 Value
 >
 aTransfer
-bool
-aSubsumes
 nsPIDOMWindow
 *
 aWindow
@@ -2403,12 +2386,6 @@ scInfo
 window
 =
 aWindow
-;
-scInfo
-.
-subsumes
-=
-aSubsumes
 ;
 return
 mBuffer
