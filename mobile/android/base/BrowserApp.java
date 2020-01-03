@@ -20709,9 +20709,7 @@ logins
 .
 setVisible
 (
-AppConstants
-.
-NIGHTLY_BUILD
+visible
 )
 ;
 if
