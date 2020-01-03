@@ -23228,11 +23228,6 @@ position
 .
 *
 /
-ParseNode
-*
-subpattern
-;
-{
 doElemOp
 =
 true
@@ -23552,6 +23547,8 @@ stackDepth
 )
 ;
 }
+ParseNode
+*
 subpattern
 =
 member
@@ -23559,8 +23556,6 @@ member
 >
 pn_right
 ;
-}
-{
 int32_t
 depthBefore
 =
@@ -23783,7 +23778,6 @@ pickDistance
 return
 false
 ;
-}
 }
 }
 }
