@@ -803,6 +803,13 @@ _iccListeners
 [
 ]
 ;
+this
+.
+_iccChannelCallback
+=
+[
+]
+;
 Services
 .
 obs
@@ -3175,6 +3182,9 @@ listener
 ;
 }
 }
+_iccChannelCallback
+:
+null
 _addIccChannelCallback
 :
 function
