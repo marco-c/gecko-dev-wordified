@@ -390,6 +390,9 @@ class
 nsIRunnable
 ;
 class
+gfxUserFontEntry
+;
+class
 gfxUserFontSet
 ;
 class
@@ -5062,6 +5065,11 @@ unavailable
 void
 UserFontSetUpdated
 (
+gfxUserFontEntry
+*
+aUpdatedFont
+=
+nullptr
 )
 ;
 gfxMissingFontRecorder

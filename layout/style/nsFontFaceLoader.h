@@ -296,6 +296,17 @@ nsISupports
 aContext
 )
 ;
+gfxUserFontEntry
+*
+GetUserFontEntry
+(
+)
+const
+{
+return
+mUserFontEntry
+;
+}
 protected
 :
 virtual
