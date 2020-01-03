@@ -191,7 +191,8 @@ forget
 )
 ;
 }
-bool
+JSObject
+*
 DataStoreCursor
 :
 :
@@ -200,15 +201,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-MutableHandle
-<
-JSObject
-*
->
-aReflector
 )
 {
 return
@@ -219,7 +211,6 @@ Wrap
 (
 aCx
 this
-aReflector
 )
 ;
 }

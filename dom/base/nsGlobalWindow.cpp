@@ -13515,9 +13515,10 @@ nsIXPConnect
 :
 DONT_FIRE_ONNEWGLOBALHOOK
 ;
-if
+aGlobal
+.
+set
 (
-!
 WindowBinding
 :
 :
@@ -13535,8 +13536,13 @@ get
 aPrincipal
 )
 false
-aGlobal
 )
+)
+;
+if
+(
+!
+aGlobal
 |
 |
 !

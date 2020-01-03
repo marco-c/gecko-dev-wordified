@@ -629,7 +629,8 @@ return
 nullptr
 ;
 }
-bool
+JSObject
+*
 AnonymousContent
 :
 :
@@ -638,15 +639,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-MutableHandle
-<
-JSObject
-*
->
-aReflector
 )
 {
 return
@@ -657,7 +649,6 @@ Wrap
 (
 aCx
 this
-aReflector
 )
 ;
 }
