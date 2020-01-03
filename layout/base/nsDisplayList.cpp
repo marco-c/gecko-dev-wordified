@@ -4060,6 +4060,10 @@ IsPopup
 aReferenceFrame
 )
 )
+mForceLayerForScrollParent
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
