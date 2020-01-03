@@ -4937,13 +4937,13 @@ GetPaintFlashing
 const
 ;
 bool
-SupressingResizeReflow
+SuppressingResizeReflow
 (
 )
 const
 {
 return
-mSupressResizeReflow
+mSuppressResizeReflow
 ;
 }
 virtual
@@ -7518,7 +7518,7 @@ document
 s
 dimensions
 unsigned
-mSupressResizeReflow
+mSuppressResizeReflow
 :
 1
 ;
