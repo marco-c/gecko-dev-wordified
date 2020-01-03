@@ -4360,11 +4360,6 @@ unified_source_mapping
                                  
 output_directory
                                  
-extra_dependencies
-=
-[
-]
-                                 
 unified_files_makefile_variable
 =
 '
@@ -4502,28 +4497,6 @@ source_filenames
 in
 unified_source_mapping
 :
-            
-if
-extra_dependencies
-:
-                
-rule
-=
-makefile
-.
-create_rule
-(
-[
-unified_file
-]
-)
-                
-rule
-.
-add_dependencies
-(
-extra_dependencies
-)
             
 #
 The
