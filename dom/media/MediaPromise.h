@@ -2003,12 +2003,6 @@ AutoTaskDispatcher
 )
 )
 {
-MutexAutoLock
-lock
-(
-mMutex
-)
-;
 /
 /
 {
@@ -2118,6 +2112,12 @@ aDispatcher
 .
 AssertIsTailDispatcherIfRequired
 (
+)
+;
+MutexAutoLock
+lock
+(
+mMutex
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
