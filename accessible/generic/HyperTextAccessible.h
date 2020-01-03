@@ -109,14 +109,14 @@ h
 #
 include
 "
-nsIAccessibleTypes
+nsIAccessibleText
 .
 h
 "
 #
 include
 "
-xpcAccessibleHyperText
+nsIAccessibleTypes
 .
 h
 "
@@ -229,9 +229,8 @@ the
 text
 returned
 via
-nsIAccessibleText
-(
-)
+Text
+interface
 /
 /
 that
@@ -283,8 +282,6 @@ HyperTextAccessible
 :
 public
 AccessibleWrap
-public
-xpcAccessibleHyperText
 {
 public
 :

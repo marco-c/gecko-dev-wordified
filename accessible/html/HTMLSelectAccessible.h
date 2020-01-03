@@ -1168,7 +1168,7 @@ public
 :
 HTMLComboboxListAccessible
 (
-nsIAccessible
+Accessible
 *
 aParent
 nsIContent

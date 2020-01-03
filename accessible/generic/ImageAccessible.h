@@ -106,13 +106,6 @@ BaseAccessibles
 .
 h
 "
-#
-include
-"
-xpcAccessibleImage
-.
-h
-"
 class
 nsGenericHTMLElement
 ;
@@ -148,8 +141,6 @@ ImageAccessible
 :
 public
 LinkableAccessible
-public
-xpcAccessibleImage
 {
 public
 :
@@ -163,10 +154,6 @@ DocAccessible
 aDoc
 )
 ;
-/
-/
-nsISupports
-NS_DECL_ISUPPORTS_INHERITED
 /
 /
 Accessible

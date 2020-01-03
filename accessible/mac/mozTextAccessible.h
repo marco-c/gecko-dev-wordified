@@ -114,13 +114,6 @@ mGeckoTextAccessible
 /
 /
 strong
-nsIAccessibleEditableText
-*
-mGeckoEditableTextAccessible
-;
-/
-/
-strong
 }
 end
 interface

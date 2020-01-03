@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIAccessibleEditableText
-.
-h
-"
-#
-include
-"
 AccessibleEditableText
 .
 h

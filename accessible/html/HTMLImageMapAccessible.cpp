@@ -1686,7 +1686,7 @@ eNotNodeMapEntry
 /
 HTMLAreaAccessible
 :
-nsIAccessible
+Accessible
 ENameValueFlag
 HTMLAreaAccessible
 :
@@ -1737,7 +1737,7 @@ alt
 aName
 )
 )
-GetValue
+Value
 (
 aName
 )

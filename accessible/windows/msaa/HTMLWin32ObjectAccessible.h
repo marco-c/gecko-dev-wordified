@@ -341,7 +341,7 @@ limited
 portion
 of
 the
-nsIAccessible
+Accessible
 interface
 implemented
 here
@@ -400,6 +400,9 @@ HTMLWin32ObjectAccessible
 void
 *
 aHwnd
+DocAccessible
+*
+aDoc
 )
 ;
 virtual
@@ -409,7 +412,8 @@ HTMLWin32ObjectAccessible
 )
 {
 }
-NS_IMETHOD
+virtual
+void
 GetNativeInterface
 (
 void

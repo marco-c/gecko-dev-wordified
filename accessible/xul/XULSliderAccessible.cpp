@@ -457,9 +457,6 @@ eCaseMatters
 )
 ;
 }
-/
-/
-nsIAccessible
 void
 XULSliderAccessible
 :

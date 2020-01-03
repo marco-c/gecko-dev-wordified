@@ -213,13 +213,6 @@ h
 #
 include
 "
-nsIAccessibleRelation
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h
@@ -443,11 +436,10 @@ dom
 /
 /
 nsISupports
-NS_IMPL_ISUPPORTS_INHERITED
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 RootAccessible
 DocAccessible
-nsIAccessibleDocument
 )
 /
 /
@@ -3344,10 +3336,6 @@ Shutdown
 )
 ;
 }
-/
-/
-nsIAccessible
-method
 Relation
 RootAccessible
 :

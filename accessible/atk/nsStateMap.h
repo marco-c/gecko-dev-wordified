@@ -208,7 +208,7 @@ h
 *
 The
 following
-nsIAccessible
+accessible
 states
 aren
 '
@@ -366,7 +366,7 @@ ATK
 equivalent
 .
 The
-nsIAccessible
+accessible
 state
 is
 not
@@ -395,7 +395,7 @@ ATK
 equivalent
 .
 The
-nsIAccessible
+accessible
 state
 is
 not

@@ -575,7 +575,7 @@ aW3CDocType
 document
 -
 >
-GetDocType
+DocType
 (
 aW3CDocType
 )
@@ -667,9 +667,6 @@ AsDoc
 (
 )
 ;
-nsresult
-rv
-;
 nsAutoString
 attrValue
 ;
@@ -682,12 +679,10 @@ aAttrName
 kDocTypeName
 )
 )
-rv
-=
 document
 -
 >
-GetDocType
+DocType
 (
 attrValue
 )
@@ -731,12 +726,6 @@ attrValue
 else
 return
 nullptr
-;
-NS_ENSURE_SUCCESS
-(
-rv
-nullptr
-)
 ;
 return
 attrValue

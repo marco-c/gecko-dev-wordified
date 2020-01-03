@@ -408,12 +408,6 @@ ImageAccessible
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED
-(
-ImageAccessible
-Accessible
-nsIAccessibleImage
-)
 /
 /
 /
@@ -865,7 +859,7 @@ GRAPHIC
 /
 /
 /
-nsIAccessible
+Accessible
 uint8_t
 ImageAccessible
 :

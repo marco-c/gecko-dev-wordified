@@ -419,7 +419,8 @@ eDoNotEmit
 Initialize
 with
 an
-nsIAccessible
+accessible
+.
 AccEvent
 (
 uint32_t
@@ -2056,7 +2057,7 @@ AccVCChangeEvent
 Accessible
 *
 aAccessible
-nsIAccessible
+Accessible
 *
 aOldAccessible
 int32_t
@@ -2115,7 +2116,7 @@ eVirtualCursorChangeEvent
 /
 /
 AccTableChangeEvent
-nsIAccessible
+Accessible
 *
 OldAccessible
 (
@@ -2160,7 +2161,7 @@ private
 :
 nsRefPtr
 <
-nsIAccessible
+Accessible
 >
 mOldAccessible
 ;

@@ -216,7 +216,13 @@ mozAccessible
 *
 GetNativeFromGeckoAccessible
 (
-nsIAccessible
+mozilla
+:
+:
+a11y
+:
+:
+Accessible
 *
 aAccessible
 )
@@ -312,7 +318,6 @@ mParent
 *
 *
 The
-nsIAccessible
 role
 of
 our

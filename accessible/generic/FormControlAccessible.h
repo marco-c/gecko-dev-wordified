@@ -184,7 +184,6 @@ mType
 eProgressType
 ;
 }
-NS_DECL_ISUPPORTS_INHERITED
 /
 /
 Accessible

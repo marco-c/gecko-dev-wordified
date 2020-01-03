@@ -712,7 +712,7 @@ get
 ;
 }
 }
-NS_IMETHODIMP
+void
 AtkSocketAccessible
 :
 :
@@ -728,9 +728,6 @@ aOutAccessible
 aOutAccessible
 =
 mAtkObject
-;
-return
-NS_OK
 ;
 }
 void

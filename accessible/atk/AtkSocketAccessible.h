@@ -312,10 +312,8 @@ Shutdown
 (
 )
 ;
-/
-/
-nsIAccessible
-NS_IMETHODIMP
+virtual
+void
 GetNativeInterface
 (
 void
@@ -323,6 +321,7 @@ void
 *
 aOutAccessible
 )
+MOZ_OVERRIDE
 ;
 }
 ;

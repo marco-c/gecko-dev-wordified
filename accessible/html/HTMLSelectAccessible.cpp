@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIAccessibleEvent
-.
-h
-"
-#
-include
-"
 nsTextEquivUtils
 .
 h
@@ -4047,7 +4040,7 @@ HTMLComboboxListAccessible
 :
 HTMLComboboxListAccessible
 (
-nsIAccessible
+Accessible
 *
 aParent
 nsIContent

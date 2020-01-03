@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsIAccessibleRelation
-.
-h
-"
-#
-include
-"
 nsID
 .
 h

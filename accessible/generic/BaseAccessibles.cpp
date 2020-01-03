@@ -1414,7 +1414,7 @@ IsLink
 (
 )
 "
-nsIAccessibleHyperLink
+HyperLink
 isn
 '
 t

@@ -262,15 +262,6 @@ interfaces
 nsIAccessibleHyperText
 ;
 const
-nsIAccessibleCursorable
-=
-Components
-.
-interfaces
-.
-nsIAccessibleCursorable
-;
-const
 nsIAccessibleImage
 =
 Components
@@ -1307,6 +1298,7 @@ aAccOrNodeOrID
 .
 DOMNode
 ;
+var
 node
 =
 (

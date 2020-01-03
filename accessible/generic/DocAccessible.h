@@ -102,13 +102,6 @@ mozilla_a11y_DocAccessible_h__
 #
 include
 "
-xpcAccessibleDocument
-.
-h
-"
-#
-include
-"
 nsIAccessiblePivot
 .
 h
@@ -235,8 +228,6 @@ DocAccessible
 :
 public
 HyperTextAccessibleWrap
-public
-xpcAccessibleDocument
 public
 nsIDocumentObserver
 public

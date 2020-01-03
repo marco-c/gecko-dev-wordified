@@ -1752,7 +1752,7 @@ method
 /
 /
 in
-nsIAccessibleTable
+Table
 :
 :
 summary
@@ -1766,9 +1766,9 @@ string
 which
 is
 not
-/
-/
 mapped
+/
+/
 directly
 to
 IAccessible2

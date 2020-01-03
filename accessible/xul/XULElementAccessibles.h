@@ -419,7 +419,6 @@ DocAccessible
 aDoc
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
 /
 /
 Accessible
