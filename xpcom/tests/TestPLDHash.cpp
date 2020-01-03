@@ -1213,7 +1213,8 @@ PLDHashTable
 *
 t
 =
-PL_NewDHashTable
+new
+PLDHashTable
 (
 &
 ops
@@ -1250,10 +1251,8 @@ IsInitialized
 )
 )
 {
-PL_DHashTableDestroy
-(
+delete
 t
-)
 ;
 return
 false
@@ -1353,10 +1352,8 @@ return
 false
 ;
 }
-PL_DHashTableDestroy
-(
+delete
 t
-)
 ;
 return
 true

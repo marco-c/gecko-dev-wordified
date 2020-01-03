@@ -896,7 +896,8 @@ hash
 .
 mPropertyHash
 =
-PL_NewDHashTable
+new
+PLDHashTable
 (
 PL_DHashGetStubOps
 (
@@ -1043,14 +1044,12 @@ DeletePropertyHashEntry
 nullptr
 )
 ;
-PL_DHashTableDestroy
-(
+delete
 u
 .
 hash
 .
 mPropertyHash
-)
 ;
 u
 .
