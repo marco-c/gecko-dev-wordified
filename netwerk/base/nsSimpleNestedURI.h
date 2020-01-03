@@ -233,6 +233,13 @@ nsINestedURI
 .
 h
 "
+#
+include
+"
+nsIIPCSerializableURI
+.
+h
+"
 class
 nsSimpleNestedURI
 :
@@ -375,6 +382,11 @@ aStream
 )
 MOZ_OVERRIDE
 ;
+/
+/
+nsIIPCSerializableURI
+overrides
+NS_DECL_NSIIPCSERIALIZABLEURI
 /
 /
 Override
