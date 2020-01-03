@@ -3147,8 +3147,6 @@ flags
 char
 *
 name
-uint32_t
-interfacesBitmap
 XPCNativeScriptableInfo
 *
 si
