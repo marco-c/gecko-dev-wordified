@@ -419,6 +419,9 @@ for
 a
 class
 #
+undef
+DISALLOW_COPY_AND_ASSIGN
+#
 define
 DISALLOW_COPY_AND_ASSIGN
 (
@@ -453,6 +456,9 @@ for
 the
 above
 .
+#
+undef
+DISALLOW_EVIL_CONSTRUCTORS
 #
 define
 DISALLOW_EVIL_CONSTRUCTORS
@@ -526,6 +532,9 @@ only
 static
 methods
 .
+#
+undef
+DISALLOW_IMPLICIT_CONSTRUCTORS
 #
 define
 DISALLOW_IMPLICIT_CONSTRUCTORS
