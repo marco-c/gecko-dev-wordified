@@ -194,6 +194,13 @@ namespace
 mozilla
 :
 :
+gl
+;
+using
+namespace
+mozilla
+:
+:
 widget
 :
 :
