@@ -26215,15 +26215,6 @@ oldValue
 )
 ;
                   
-nsJSUtils
-:
-:
-ReportPendingException
-(
-aCx
-)
-;
-                  
 return
 false
 ;
