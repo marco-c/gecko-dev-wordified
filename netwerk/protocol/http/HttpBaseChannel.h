@@ -1765,6 +1765,14 @@ nsISupports
 aSecurityInfo
 )
 ;
+nsresult
+OverrideURI
+(
+nsIURI
+*
+aRedirectedURI
+)
+;
 public
 :
 /
