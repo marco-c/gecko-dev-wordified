@@ -646,9 +646,6 @@ info
 during
 compilation
 .
-types
-:
-:
 AutoEnterAnalysis
 autoEnterAnalysis
 (
@@ -1680,9 +1677,6 @@ bytecodeTypeMap
 (
 )
 ;
-types
-:
-:
 FillBytecodeTypeMap
 (
 script

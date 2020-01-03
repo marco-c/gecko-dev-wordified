@@ -5065,9 +5065,6 @@ DebugModeOSREntry
 entries
 )
 {
-types
-:
-:
 RecompileInfoVector
 invalid
 ;

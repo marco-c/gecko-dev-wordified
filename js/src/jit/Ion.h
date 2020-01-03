@@ -673,9 +673,6 @@ scripts
 void
 Invalidate
 (
-types
-:
-:
 TypeZone
 &
 types
@@ -683,9 +680,6 @@ FreeOp
 *
 fop
 const
-types
-:
-:
 RecompileInfoVector
 &
 invalid
@@ -706,9 +700,6 @@ JSContext
 *
 cx
 const
-types
-:
-:
 RecompileInfoVector
 &
 invalid

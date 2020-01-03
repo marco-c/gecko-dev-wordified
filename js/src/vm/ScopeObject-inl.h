@@ -226,9 +226,6 @@ MOZ_ASSERT
 name
 )
 ;
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -349,9 +346,6 @@ isSingleton
 (
 )
 )
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -404,9 +398,6 @@ isSingleton
 (
 )
 )
-types
-:
-:
 AddTypePropertyId
 (
 cx

@@ -1497,9 +1497,6 @@ produced
 this
 code
 .
-types
-:
-:
 RecompileInfo
 recompileInfo_
 ;
@@ -1873,9 +1870,6 @@ New
 JSContext
 *
 cx
-types
-:
-:
 RecompileInfo
 recompileInfo
 uint32_t
@@ -3004,9 +2998,6 @@ this
 ;
 }
 const
-types
-:
-:
 RecompileInfo
 &
 recompileInfo
@@ -3018,9 +3009,6 @@ return
 recompileInfo_
 ;
 }
-types
-:
-:
 RecompileInfo
 &
 recompileInfoRef

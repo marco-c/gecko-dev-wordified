@@ -203,13 +203,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-types
-;
-using
 js
 :
 :

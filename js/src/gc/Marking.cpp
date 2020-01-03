@@ -5121,7 +5121,7 @@ v
 ;
 }
 void
-gc
+TypeSet
 :
 :
 MarkTypeRoot
@@ -5129,7 +5129,7 @@ MarkTypeRoot
 JSTracer
 *
 trc
-types
+TypeSet
 :
 :
 Type
@@ -5185,10 +5185,7 @@ obj
 *
 v
 =
-types
-:
-:
-Type
+TypeSet
 :
 :
 ObjectType
@@ -5229,10 +5226,7 @@ group
 *
 v
 =
-types
-:
-:
-Type
+TypeSet
 :
 :
 ObjectType
@@ -9317,7 +9311,7 @@ i
 {
 if
 (
-types
+ObjectGroup
 :
 :
 Property
@@ -9528,7 +9522,9 @@ i
 +
 )
 {
-types
+if
+(
+ObjectGroup
 :
 :
 Property
@@ -9542,10 +9538,6 @@ getProperty
 (
 i
 )
-;
-if
-(
-prop
 )
 MarkId
 (

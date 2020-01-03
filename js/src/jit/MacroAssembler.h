@@ -617,7 +617,7 @@ based
 on
 a
 specific
-types
+TypeSet
 :
 :
 Type
@@ -634,10 +634,7 @@ int
 double
 )
 for
-types
-:
-:
-Type
+TypeSet
 :
 :
 DoubleType
@@ -651,7 +648,7 @@ BranchType
 public
 Branch
 {
-types
+TypeSet
 :
 :
 Type
@@ -668,10 +665,7 @@ Branch
 )
 type_
 (
-types
-:
-:
-Type
+TypeSet
 :
 :
 UnknownType
@@ -686,7 +680,7 @@ Condition
 cond
 Register
 reg
-types
+TypeSet
 :
 :
 Type
@@ -1461,7 +1455,7 @@ const
 Source
 &
 address
-types
+TypeSet
 :
 :
 Type

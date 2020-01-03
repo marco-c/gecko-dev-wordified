@@ -374,13 +374,6 @@ js
 gc
 ;
 using
-namespace
-js
-:
-:
-types
-;
-using
 mozilla
 :
 :

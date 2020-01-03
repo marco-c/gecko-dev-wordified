@@ -849,9 +849,6 @@ HandlePlainObject
 baseobj
 Vector
 <
-types
-:
-:
 TypeNewScript
 :
 :

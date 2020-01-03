@@ -579,9 +579,6 @@ cx
 )
 )
 ;
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx

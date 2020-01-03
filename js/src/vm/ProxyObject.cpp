@@ -597,9 +597,6 @@ isDOMClass
 (
 )
 )
-types
-:
-:
 MarkObjectGroupUnknownProperties
 (
 cx

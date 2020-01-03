@@ -776,9 +776,6 @@ pc
 )
 )
 ;
-types
-:
-:
 TypeScript
 :
 :
@@ -2231,9 +2228,6 @@ isUndefined
 (
 )
 )
-types
-:
-:
 TypeScript
 :
 :
@@ -2567,9 +2561,6 @@ isUndefined
 (
 )
 )
-types
-:
-:
 TypeScript
 :
 :
@@ -3782,9 +3773,6 @@ Manually
 monitor
 here
 .
-types
-:
-:
 TypeScript
 :
 :

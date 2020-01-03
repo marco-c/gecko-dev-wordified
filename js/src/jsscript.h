@@ -4951,9 +4951,6 @@ GCs
 js
 :
 :
-types
-:
-:
 TypeScript
 *
 types_
@@ -8743,9 +8740,6 @@ inline
 js
 :
 :
-types
-:
-:
 TypeScript
 *
 types
@@ -8756,9 +8750,6 @@ void
 maybeSweepTypes
 (
 js
-:
-:
-types
 :
 :
 AutoClearTypeInferenceStateOnOOM

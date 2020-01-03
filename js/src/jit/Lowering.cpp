@@ -15157,9 +15157,6 @@ barrier
 test
 .
 const
-types
-:
-:
 TemporaryTypeSet
 *
 types
@@ -15407,10 +15404,7 @@ types
 >
 hasType
 (
-types
-:
-:
-Type
+TypeSet
 :
 :
 AnyObjectType
@@ -15567,9 +15561,6 @@ type
 check
 .
 const
-types
-:
-:
 TemporaryTypeSet
 *
 types

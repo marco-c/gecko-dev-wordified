@@ -1512,9 +1512,6 @@ to
 /
 initBuiltinConstructor
 .
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -1681,9 +1678,6 @@ ctor
 )
 )
 ;
-types
-:
-:
 AddTypePropertyId
 (
 cx

@@ -357,9 +357,6 @@ link
 JSContext
 *
 cx
-types
-:
-:
 CompilerConstraintList
 *
 constraints

@@ -183,9 +183,6 @@ information
 .
 *
 /
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx

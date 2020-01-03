@@ -12338,9 +12338,6 @@ scripts
 later
 .
 {
-types
-:
-:
 AutoEnterAnalysis
 enter
 (

@@ -2696,9 +2696,6 @@ cx
 nullptr
 )
 ;
-types
-:
-:
 AutoEnterAnalysis
 enterTypes
 (
@@ -4439,9 +4436,6 @@ New
 JSContext
 *
 cx
-types
-:
-:
 RecompileInfo
 recompileInfo
 uint32_t
@@ -9428,9 +9422,6 @@ ion
 )
 return
 ;
-types
-:
-:
 AutoEnterAnalysis
 enterTypes
 (
@@ -10547,9 +10538,6 @@ popFront
 (
 )
 )
-types
-:
-:
 EnsureTrackPropertyTypes
 (
 cx
@@ -11115,9 +11103,6 @@ cx
 temp
 )
 ;
-types
-:
-:
 AutoEnterAnalysis
 enter
 (
@@ -11304,16 +11289,10 @@ return
 AbortReason_Alloc
 ;
 }
-types
-:
-:
 CompilerConstraintList
 *
 constraints
 =
-types
-:
-:
 NewCompilerConstraintList
 (
 *
@@ -16683,9 +16662,6 @@ jit
 :
 Invalidate
 (
-types
-:
-:
 TypeZone
 &
 types
@@ -16693,9 +16669,6 @@ FreeOp
 *
 fop
 const
-types
-:
-:
 RecompileInfoVector
 &
 invalid
@@ -16764,9 +16737,6 @@ i
 )
 {
 const
-types
-:
-:
 CompilerOutput
 *
 co
@@ -17041,9 +17011,6 @@ i
 +
 )
 {
-types
-:
-:
 CompilerOutput
 *
 co
@@ -17220,9 +17187,6 @@ JSContext
 *
 cx
 const
-types
-:
-:
 RecompileInfoVector
 &
 invalid
@@ -17299,9 +17263,6 @@ this
 reason
 )
 ;
-types
-:
-:
 RecompileInfoVector
 list
 ;
@@ -17525,9 +17486,6 @@ buf
 )
 ;
 }
-types
-:
-:
 RecompileInfoVector
 scripts
 ;
@@ -17591,9 +17549,6 @@ IonScript
 ionScript
 )
 {
-types
-:
-:
 TypeZone
 &
 types
@@ -17633,9 +17588,6 @@ destroyed
 .
 if
 (
-types
-:
-:
 CompilerOutput
 *
 output

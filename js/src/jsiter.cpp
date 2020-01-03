@@ -4233,9 +4233,6 @@ cx
 return
 false
 ;
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx
@@ -4507,9 +4504,6 @@ cx
 return
 false
 ;
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx

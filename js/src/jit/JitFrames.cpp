@@ -14074,9 +14074,6 @@ while
 bailing
 out
 .
-types
-:
-:
 AutoEnterAnalysis
 enter
 (

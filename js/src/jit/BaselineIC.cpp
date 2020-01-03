@@ -9373,9 +9373,6 @@ code
 )
 )
 ;
-types
-:
-:
 TypeScript
 :
 :
@@ -9413,9 +9410,6 @@ code
 )
 )
 ;
-types
-:
-:
 TypeScript
 :
 :
@@ -9430,9 +9424,6 @@ value
 }
 else
 {
-types
-:
-:
 TypeScript
 :
 :
@@ -10179,9 +10170,6 @@ return
 true
 ;
 }
-types
-:
-:
 EnsureTrackPropertyTypes
 (
 cx
@@ -10227,17 +10215,11 @@ isUndefined
 )
 &
 &
-types
-:
-:
 CanHaveEmptyPropertyTypesForOwnProperty
 (
 obj
 )
 )
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -10848,9 +10830,6 @@ id
 =
 JSID_VOID
 ;
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -10973,9 +10952,6 @@ pc
 )
 )
 ;
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -11121,9 +11097,6 @@ isObject
 (
 )
 )
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -11162,9 +11135,6 @@ isUndefined
 (
 )
 )
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -26842,9 +26812,6 @@ if
 (
 isOptimizedArgs
 )
-types
-:
-:
 TypeScript
 :
 :
@@ -26884,9 +26851,6 @@ res
 return
 false
 ;
-types
-:
-:
 TypeScript
 :
 :
@@ -39113,9 +39077,6 @@ IsIonEnabled
 cx
 )
 )
-types
-:
-:
 EnsureTrackPropertyTypes
 (
 cx
@@ -40516,9 +40477,6 @@ return
 false
 ;
 }
-types
-:
-:
 TypeScript
 :
 :
@@ -41673,9 +41631,6 @@ constant
 /
 directly
 .
-types
-:
-:
 TypeScript
 :
 :
@@ -42815,9 +42770,6 @@ isSingleton
 return
 false
 ;
-types
-:
-:
 TypeNewScript
 *
 newScript
@@ -43306,9 +43258,6 @@ IsIonEnabled
 cx
 )
 )
-types
-:
-:
 EnsureTrackPropertyTypes
 (
 cx
@@ -45311,9 +45260,6 @@ IsIonEnabled
 cx
 )
 )
-types
-:
-:
 EnsureTrackPropertyTypes
 (
 cx
@@ -46194,9 +46140,6 @@ res
 return
 false
 ;
-types
-:
-:
 TypeScript
 :
 :
@@ -53903,9 +53846,6 @@ seeing
 that
 write
 .
-types
-:
-:
 EnsureTrackPropertyTypes
 (
 cx
@@ -53916,9 +53856,6 @@ id
 if
 (
 !
-types
-:
-:
 PropertyHasBeenMarkedNonConstant
 (
 obj
@@ -62638,9 +62575,6 @@ IsIonEnabled
 cx
 )
 )
-types
-:
-:
 EnsureTrackPropertyTypes
 (
 cx
@@ -62797,9 +62731,6 @@ might
 get
 confused
 .
-types
-:
-:
 TypeNewScript
 *
 newScript
@@ -64389,9 +64320,6 @@ return
 false
 ;
 }
-types
-:
-:
 TypeScript
 :
 :
@@ -75811,9 +75739,6 @@ during
 Ion
 compilation
 .
-types
-:
-:
 EnsureTrackPropertyTypes
 (
 cx

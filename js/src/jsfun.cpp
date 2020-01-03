@@ -399,13 +399,6 @@ namespace
 js
 :
 :
-types
-;
-using
-namespace
-js
-:
-:
 frontend
 ;
 using

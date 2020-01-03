@@ -5482,9 +5482,6 @@ name
 )
 =
 =
-types
-:
-:
 IdToTypeId
 (
 NameToId

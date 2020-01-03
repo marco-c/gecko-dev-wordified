@@ -1578,9 +1578,6 @@ next
 (
 )
 )
-types
-:
-:
 PrintTypes
 (
 cx

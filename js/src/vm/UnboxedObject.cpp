@@ -431,9 +431,6 @@ UnboxedLayout
 :
 setNewScript
 (
-types
-:
-:
 TypeNewScript
 *
 newScript
@@ -454,9 +451,6 @@ newScript_
 &
 writeBarrier
 )
-types
-:
-:
 TypeNewScript
 :
 :
@@ -824,9 +818,6 @@ was
 /
 created
 .
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -3213,9 +3204,6 @@ templateShape
 ObjectGroup
 *
 group
-types
-:
-:
 PreliminaryObjectArray
 *
 objects
@@ -3302,9 +3290,6 @@ i
 ;
 i
 <
-types
-:
-:
 PreliminaryObjectArray
 :
 :
@@ -4759,9 +4744,6 @@ i
 ;
 i
 <
-types
-:
-:
 PreliminaryObjectArray
 :
 :
@@ -4872,9 +4854,6 @@ newShape
 }
 if
 (
-types
-:
-:
 TypeNewScript
 *
 newScript
@@ -4932,9 +4911,6 @@ i
 ;
 i
 <
-types
-:
-:
 PreliminaryObjectArray
 :
 :

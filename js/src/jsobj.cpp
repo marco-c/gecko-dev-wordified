@@ -547,13 +547,6 @@ js
 gc
 ;
 using
-namespace
-js
-:
-:
-types
-;
-using
 mozilla
 :
 :
@@ -11080,9 +11073,6 @@ newKind
 ;
 if
 (
-types
-:
-:
 TypeNewScript
 *
 newScript
@@ -11683,10 +11673,7 @@ SetThis
 (
 cx
 script
-types
-:
-:
-Type
+TypeSet
 :
 :
 ObjectType
@@ -11861,10 +11848,7 @@ SetThis
 (
 cx
 calleeScript
-types
-:
-:
-Type
+TypeSet
 :
 :
 ObjectType
@@ -22998,9 +22982,6 @@ NativeObject
 return
 false
 ;
-types
-:
-:
 MarkTypePropertyNonData
 (
 cx

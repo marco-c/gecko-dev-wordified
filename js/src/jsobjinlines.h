@@ -1251,9 +1251,6 @@ bool
 succeeded
 )
 {
-types
-:
-:
 MarkTypePropertyNonData
 (
 cx
@@ -1375,9 +1372,6 @@ unsigned
 attrsp
 )
 {
-types
-:
-:
 MarkTypePropertyNonData
 (
 cx
@@ -5415,9 +5409,6 @@ Invoke
 )
 etc
 .
-types
-:
-:
 AutoEnterAnalysis
 enter
 (
