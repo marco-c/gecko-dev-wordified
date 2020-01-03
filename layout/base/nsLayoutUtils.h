@@ -16945,13 +16945,11 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
-&
-aReflowState
 mozilla
 :
 :
 LogicalMargin
+&
 aFramePadding
 mozilla
 :

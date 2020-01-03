@@ -1315,7 +1315,6 @@ SetBSizeFromFontMetrics
 (
 this
 aDesiredSize
-aReflowState
 borderPadding
 lineWM
 frameWM

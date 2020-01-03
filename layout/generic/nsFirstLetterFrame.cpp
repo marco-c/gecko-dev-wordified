@@ -1589,7 +1589,6 @@ SetBSizeFromFontMetrics
 (
 this
 aMetrics
-aReflowState
 bp
 lineWM
 wm
