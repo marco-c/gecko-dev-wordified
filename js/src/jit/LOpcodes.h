@@ -163,11 +163,6 @@ Float32
 \
 _
 (
-SimdValueX4
-)
-\
-_
-(
 SimdSplatX4
 )
 \
