@@ -129,9 +129,6 @@ nsGkAtoms
 .
 h
 "
-class
-nsIDOMDocument
-;
 namespace
 mozilla
 {

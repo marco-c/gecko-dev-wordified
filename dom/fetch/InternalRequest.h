@@ -179,12 +179,6 @@ h
 "
 #
 endif
-class
-nsIDocument
-;
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {
@@ -574,9 +568,6 @@ and
 TYPE_OBJECT
 *
 /
-class
-FetchBodyStream
-;
 class
 Request
 ;

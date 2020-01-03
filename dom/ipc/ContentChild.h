@@ -202,9 +202,6 @@ struct
 ChromePackage
 ;
 class
-nsIDOMBlob
-;
-class
 nsIObserver
 ;
 struct
@@ -240,13 +237,6 @@ URIParams
 namespace
 ipc
 namespace
-jsipc
-{
-class
-JavaScriptShared
-;
-}
-namespace
 layers
 {
 class
@@ -262,9 +252,6 @@ dom
 {
 class
 AlertObserver
-;
-class
-PrefObserver
 ;
 class
 ConsoleListener

@@ -147,9 +147,6 @@ nsCycleCollectionParticipant
 h
 "
 class
-nsIContent
-;
-class
 nsIObjectOutputStream
 ;
 struct

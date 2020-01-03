@@ -166,9 +166,6 @@ FileSystemBase
 class
 FileSystemParams
 ;
-class
-Promise
-;
 /
 *
 *

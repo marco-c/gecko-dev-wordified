@@ -274,13 +274,7 @@ class
 nsICycleCollectorLogSink
 ;
 class
-nsIDOMBlob
-;
-class
 nsIDumpGCAndCCLogsCallback
-;
-class
-nsIMemoryReporter
 ;
 class
 nsITimer
@@ -320,9 +314,6 @@ ipc
 namespace
 jsipc
 {
-class
-JavaScriptShared
-;
 class
 PJavaScriptParent
 ;

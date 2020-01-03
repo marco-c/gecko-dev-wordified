@@ -178,9 +178,6 @@ class
 IDBFactory
 ;
 class
-IDBObjectStore
-;
-class
 IDBOpenDBRequest
 ;
 class

@@ -113,12 +113,6 @@ class
 nsPresState
 ;
 class
-nsString
-;
-class
-nsIFormProcessor
-;
-class
 nsFormSubmission
 ;
 namespace

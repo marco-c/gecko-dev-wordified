@@ -140,9 +140,6 @@ nsIObserver
 .
 h
 "
-class
-nsIRunnable
-;
 namespace
 mozilla
 {

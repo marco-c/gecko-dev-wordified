@@ -116,9 +116,6 @@ nsGenericHTMLElement
 h
 "
 class
-nsIDOMHTMLTableElement
-;
-class
 nsContentList
 ;
 namespace

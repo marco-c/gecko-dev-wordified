@@ -201,9 +201,6 @@ class
 nsIURI
 ;
 class
-nsIXMLContentSink
-;
-class
 txStylesheet
 ;
 class

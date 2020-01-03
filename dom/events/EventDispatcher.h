@@ -144,9 +144,6 @@ class
 nsIDOMEvent
 ;
 class
-nsIScriptGlobalObject
-;
-class
 nsPresContext
 ;
 template

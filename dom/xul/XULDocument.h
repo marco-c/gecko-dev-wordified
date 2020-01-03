@@ -273,9 +273,6 @@ nsIObjectInputStream
 class
 nsIObjectOutputStream
 ;
-class
-nsIXULPrototypeScript
-;
 #
 else
 #

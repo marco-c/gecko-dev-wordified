@@ -124,9 +124,6 @@ class
 nsIDHashKey
 ;
 class
-nsIDOMBlob
-;
-class
 nsIEventTarget
 ;
 class

@@ -128,16 +128,7 @@ txNamespaceMap
 h
 "
 class
-txPattern
-;
-class
 txStylesheet
-;
-class
-txKeyValueHashKey
-;
-class
-txExecutionState
 ;
 /
 *

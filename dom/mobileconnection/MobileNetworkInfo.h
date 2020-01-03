@@ -159,9 +159,6 @@ namespace
 dom
 {
 class
-GlobalObject
-;
-class
 MobileNetworkInfo
 final
 :

@@ -183,9 +183,6 @@ nsIAtom
 class
 nsIDocument
 ;
-class
-nsIScriptContext
-;
 namespace
 mozilla
 {

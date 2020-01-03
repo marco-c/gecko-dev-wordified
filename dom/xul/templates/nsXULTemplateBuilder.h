@@ -244,9 +244,6 @@ nsIObserverService
 class
 nsIRDFCompositeDataSource
 ;
-class
-nsIXULDocument
-;
 /
 *
 *

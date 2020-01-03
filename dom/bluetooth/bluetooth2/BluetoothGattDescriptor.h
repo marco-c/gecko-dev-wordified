@@ -201,9 +201,6 @@ class
 BluetoothSignal
 ;
 class
-BluetoothValue
-;
-class
 BluetoothGattDescriptor
 final
 :

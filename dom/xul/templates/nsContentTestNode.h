@@ -136,9 +136,6 @@ nsIDOMDocument
 .
 h
 "
-class
-nsIXULTemplateBuilder
-;
 /
 *
 *

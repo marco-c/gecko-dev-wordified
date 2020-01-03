@@ -163,9 +163,6 @@ nsINode
 class
 txResultRecycler
 ;
-class
-txXPathNode
-;
 namespace
 mozilla
 {

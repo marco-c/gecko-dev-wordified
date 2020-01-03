@@ -110,9 +110,6 @@ class
 nsXBLPrototypeBinding
 ;
 class
-nsXBLDocGlobalObject
-;
-class
 nsXBLDocumentInfo
 final
 :

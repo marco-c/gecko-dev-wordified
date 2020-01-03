@@ -159,9 +159,6 @@ namespace
 dom
 {
 class
-ExplicitChildIterator
-;
-class
 XBLChildrenElement
 :
 public

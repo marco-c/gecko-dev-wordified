@@ -128,9 +128,6 @@ class
 nsINode
 ;
 class
-nsPIDOMWindow
-;
-class
 nsPresContext
 ;
 class

@@ -192,9 +192,6 @@ BlobParent
 }
 BEGIN_BLUETOOTH_NAMESPACE
 class
-BluetoothManager
-;
-class
 BluetoothNamedValue
 ;
 class

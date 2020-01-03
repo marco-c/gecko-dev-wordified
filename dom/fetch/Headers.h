@@ -152,9 +152,6 @@ InternalHeaders
 .
 h
 "
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {

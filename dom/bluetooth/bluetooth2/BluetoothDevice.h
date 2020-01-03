@@ -201,9 +201,6 @@ class
 BluetoothSignal
 ;
 class
-BluetoothSocket
-;
-class
 BluetoothDevice
 final
 :

@@ -182,9 +182,6 @@ class
 nsIEventListenerInfo
 ;
 class
-nsIScriptContext
-;
-class
 nsPIDOMWindow
 ;
 class

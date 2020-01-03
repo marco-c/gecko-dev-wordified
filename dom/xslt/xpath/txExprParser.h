@@ -141,9 +141,6 @@ nsString
 h
 "
 class
-AttributeValueTemplate
-;
-class
 Expr
 ;
 class
@@ -169,9 +166,6 @@ txIParseContext
 ;
 class
 txNodeTest
-;
-class
-txNodeTypeTest
 ;
 class
 txExprParser

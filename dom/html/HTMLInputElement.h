@@ -240,9 +240,6 @@ class
 nsIRadioGroupContainer
 ;
 class
-nsIRadioGroupVisitor
-;
-class
 nsIRadioVisitor
 ;
 namespace

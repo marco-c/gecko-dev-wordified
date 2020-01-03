@@ -212,9 +212,6 @@ nsISupports
 .
 h
 "
-class
-nsIGlobalObject
-;
 struct
 JSContext
 ;

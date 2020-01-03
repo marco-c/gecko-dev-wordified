@@ -295,9 +295,6 @@ class
 nsString
 ;
 class
-nsIDocShell
-;
-class
 nsXULPrototypeDocument
 ;
 class
@@ -1936,9 +1933,6 @@ ELEMENT_TYPE_SPECIFIC_BITS_OFFSET
 #
 undef
 XUL_ELEMENT_FLAG_BIT
-class
-nsScriptEventHandlerOwnerTearoff
-;
 class
 nsXULElement
 final

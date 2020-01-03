@@ -168,9 +168,6 @@ class
 BluetoothDevice
 ;
 class
-BluetoothValue
-;
-class
 BluetoothDiscoveryHandle
 final
 :

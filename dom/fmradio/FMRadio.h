@@ -148,9 +148,6 @@ h
 class
 nsPIDOMWindow
 ;
-class
-nsIScriptContext
-;
 BEGIN_FMRADIO_NAMESPACE
 class
 DOMRequest

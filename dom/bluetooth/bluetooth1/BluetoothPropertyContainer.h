@@ -132,9 +132,6 @@ BluetoothReplyRunnable
 h
 "
 class
-nsIDOMDOMRequest
-;
-class
 nsPIDOMWindow
 ;
 namespace

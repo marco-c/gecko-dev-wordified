@@ -83,9 +83,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {

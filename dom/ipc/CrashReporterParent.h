@@ -166,9 +166,6 @@ namespace
 dom
 {
 class
-ProcessReporter
-;
-class
 CrashReporterParent
 :
 public
