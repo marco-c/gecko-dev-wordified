@@ -178,6 +178,8 @@ os
 import
 sys
 import
+textwrap
+import
 time
 import
 tokenize
@@ -265,6 +267,8 @@ VARIABLES
 DEPRECATION_HINTS
     
 SPECIAL_VARIABLES
+    
+TemplateContext
 )
 if
 sys
@@ -2805,7 +2809,7 @@ kwargs
             
 context
 =
-Context
+TemplateContext
 (
 VARIABLES
 self
@@ -2892,6 +2896,48 @@ path
 )
             
 #
+This
+is
+gross
+but
+allows
+the
+merge
+to
+happen
+.
+Eventually
+the
+            
+#
+merging
+will
+go
+away
+and
+template
+contexts
+emitted
+independently
+.
+            
+klass
+=
+self
+.
+_context
+.
+__class__
+            
+self
+.
+_context
+.
+__class__
+=
+TemplateContext
+            
+#
 The
 sandbox
 will
@@ -2959,6 +3005,14 @@ key
 ]
 =
 value
+            
+self
+.
+_context
+.
+__class__
+=
+klass
             
 for
 p
@@ -5446,6 +5500,11 @@ s
 n
 '
 %
+                    
+textwrap
+.
+dedent
+(
 DEPRECATION_HINTS
 [
 inner
@@ -5455,6 +5514,11 @@ args
 2
 ]
 ]
+)
+.
+strip
+(
+)
 )
                 
 return

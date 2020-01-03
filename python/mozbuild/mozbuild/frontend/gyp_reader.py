@@ -88,7 +88,7 @@ context
 import
 (
     
-Context
+TemplateContext
     
 VARIABLES
 )
@@ -426,7 +426,7 @@ b
 class
 GypContext
 (
-Context
+TemplateContext
 )
 :
     
@@ -495,7 +495,7 @@ _relobjdir
 =
 relobjdir
         
-Context
+TemplateContext
 .
 __init__
 (
@@ -507,6 +507,7 @@ self
 VARIABLES
 (
 )
+            
 config
 =
 config
