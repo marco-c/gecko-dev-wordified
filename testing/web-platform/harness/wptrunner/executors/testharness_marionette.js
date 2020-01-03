@@ -188,6 +188,19 @@ s
 var
 timer
 =
+null
+;
+if
+(
+%
+(
+timeout
+)
+s
+)
+{
+timer
+=
 setTimeout
 (
 function
@@ -220,3 +233,4 @@ timeout
 s
 )
 ;
+}

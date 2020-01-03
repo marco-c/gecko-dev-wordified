@@ -983,8 +983,11 @@ state
 )
 :
         
+from
+manifest
 import
 manifest
+update
         
 test_manifest
 =
@@ -1000,7 +1003,7 @@ test_manifest
 .
 rev
         
-manifest
+update
 .
 update
 (

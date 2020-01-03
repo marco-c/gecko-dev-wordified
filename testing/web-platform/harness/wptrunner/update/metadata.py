@@ -350,6 +350,12 @@ include
 =
 metadata_paths
 )
+            
+local_tree
+.
+commit_patch
+(
+)
 class
 MetadataUpdateRunner
 (

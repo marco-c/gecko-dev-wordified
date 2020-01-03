@@ -72,6 +72,11 @@ GitTree
 HgTree
 NoVCSTree
 from
+.
+.
+import
+wptrunner
+from
 base
 import
 Step
@@ -89,27 +94,11 @@ serve_root
 )
 :
     
-sys
+wptrunner
 .
-path
-.
-insert
-(
-0
-os
-.
-path
-.
-join
+do_delayed_imports
 (
 serve_root
-"
-tools
-"
-"
-scripts
-"
-)
 )
 class
 LoadConfig
@@ -638,6 +627,9 @@ sync_tree
 "
 paths
 "
+"
+serve_root
+"
 ]
 )
 :
@@ -650,17 +642,6 @@ kwargs
 [
 "
 run_log
-"
-]
-            
-state
-.
-serve_root
-=
-kwargs
-[
-"
-serve_root
 "
 ]
             
@@ -803,23 +784,9 @@ runner_cls
 =
 runner_cls
         
-if
-kwargs
-[
-"
+self
+.
 serve_root
-"
-]
-is
-None
-:
-            
-kwargs
-[
-"
-serve_root
-"
-]
 =
 kwargs
 [
@@ -851,12 +818,9 @@ state
         
 setup_paths
 (
-kwargs
-[
-"
+self
+.
 serve_root
-"
-]
 )
         
 self
@@ -1023,6 +987,16 @@ kwargs
 self
 .
 kwargs
+        
+self
+.
+state
+.
+serve_root
+=
+self
+.
+serve_root
         
 update_runner
 =

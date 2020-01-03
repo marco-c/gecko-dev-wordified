@@ -35,6 +35,9 @@ structured
 manifest
 =
 None
+manifest_update
+=
+None
 def
 do_delayed_imports
 (
@@ -61,9 +64,19 @@ correctly
     
 global
 manifest
+manifest_update
     
+from
+manifest
 import
 manifest
+    
+from
+manifest
+import
+update
+as
+manifest_update
 class
 TestChunker
 (
@@ -1201,6 +1214,7 @@ def
 __init__
 (
 self
+test_manifests
 include
 =
 None
@@ -1212,6 +1226,10 @@ manifest_path
 None
 )
 :
+        
+test_manifests
+=
+test_manifests
         
 if
 manifest_path
@@ -1252,9 +1270,6 @@ create
         
 if
 include
-is
-not
-None
 :
             
 self
@@ -1283,14 +1298,12 @@ manifest
 .
 add_include
 (
+test_manifests
 item
 )
         
 if
 exclude
-is
-not
-None
 :
             
 for
@@ -1305,6 +1318,7 @@ manifest
 .
 add_exclude
 (
+test_manifests
 item
 )
     
@@ -1632,10 +1646,11 @@ Manifest
 .
 from_json
 (
+tests_path
 json_data
 )
         
-manifest
+manifest_update
 .
 update
 (
@@ -1716,6 +1731,7 @@ manifest
 .
 load
 (
+tests_path
 manifest_path
 )
         
@@ -1784,7 +1800,7 @@ __init__
 (
 self
                  
-test_paths
+test_manifests
                  
 test_types
                  
@@ -1814,12 +1830,6 @@ False
         
 self
 .
-test_paths
-=
-test_paths
-        
-self
-.
 test_types
 =
 test_types
@@ -1840,15 +1850,7 @@ self
 .
 manifests
 =
-ManifestLoader
-(
-test_paths
-force_manifest_update
-)
-.
-load
-(
-)
+test_manifests
         
 self
 .
