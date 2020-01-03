@@ -670,7 +670,6 @@ AsTaskQueue
 ;
 MOZ_ASSERT
 (
-!
 mReaderTaskQueue
 )
 ;
