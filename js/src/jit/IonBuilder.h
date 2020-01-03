@@ -4452,6 +4452,7 @@ InliningStatus
 {
 InliningStatus_Error
 InliningStatus_NotInlined
+InliningStatus_WarmUpCountTooLow
 InliningStatus_Inlined
 }
 ;
@@ -4461,6 +4462,7 @@ InliningDecision
 InliningDecision_Error
 InliningDecision_Inline
 InliningDecision_DontInline
+InliningDecision_WarmUpCountTooLow
 }
 ;
 static
