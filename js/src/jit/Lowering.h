@@ -2127,6 +2127,14 @@ ins
 )
 ;
 bool
+visitSimdShift
+(
+MSimdShift
+*
+ins
+)
+;
+bool
 visitSimdConstant
 (
 MSimdConstant

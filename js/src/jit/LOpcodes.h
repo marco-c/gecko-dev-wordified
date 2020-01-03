@@ -228,6 +228,11 @@ SimdBinaryBitwiseX4
 \
 _
 (
+SimdShift
+)
+\
+_
+(
 SimdSelect
 )
 \
