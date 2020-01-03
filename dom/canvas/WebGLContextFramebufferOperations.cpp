@@ -295,6 +295,14 @@ framebuffer
 /
 screen
 .
+{
+ScopedMaskWorkaround
+autoMask
+(
+*
+this
+)
+;
 gl
 -
 >
@@ -303,6 +311,7 @@ fClear
 mask
 )
 ;
+}
 Invalidate
 (
 )
