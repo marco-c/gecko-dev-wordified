@@ -493,7 +493,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -518,7 +518,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -693,7 +693,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -993,7 +993,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -1393,7 +1393,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1418,7 +1418,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1543,7 +1543,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1568,7 +1568,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1743,7 +1743,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -1843,7 +1843,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1868,7 +1868,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1993,7 +1993,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -2018,7 +2018,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -2143,7 +2143,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -2168,7 +2168,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -2493,7 +2493,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -2943,7 +2943,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3093,7 +3093,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3243,7 +3243,7 @@ EP_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;

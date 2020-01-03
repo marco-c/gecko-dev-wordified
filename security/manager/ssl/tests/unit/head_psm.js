@@ -1159,7 +1159,7 @@ else
 do_check_neq
 (
 error
-0
+PRErrorCodeSuccess
 )
 ;
 }

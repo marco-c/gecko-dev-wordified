@@ -243,7 +243,7 @@ OS_SA
 '
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLCA
 )
 ;
@@ -693,7 +693,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -993,7 +993,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -1043,7 +1043,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1743,7 +1743,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -1793,7 +1793,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2093,7 +2093,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2493,7 +2493,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -2543,7 +2543,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2943,7 +2943,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3093,7 +3093,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3243,7 +3243,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3293,7 +3293,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -3443,7 +3443,7 @@ OS_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;

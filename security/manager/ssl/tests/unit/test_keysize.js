@@ -312,7 +312,7 @@ eeKeySize
 *
 param
 {
-Number
+PRErrorCode
 }
 eeExpectedError
 *
@@ -551,7 +551,7 @@ adequateKeySize
 rsa
 "
 adequateKeySize
-0
+PRErrorCodeSuccess
 )
 ;
 /
@@ -668,7 +668,7 @@ secp384r1
 secp521r1
 "
 521
-0
+PRErrorCodeSuccess
 )
 ;
 checkChain
@@ -776,7 +776,7 @@ prime256v1
 secp384r1
 "
 384
-0
+PRErrorCodeSuccess
 )
 ;
 checkChain

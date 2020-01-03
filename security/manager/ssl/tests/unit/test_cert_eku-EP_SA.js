@@ -243,7 +243,7 @@ EP_SA
 '
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLCA
 )
 ;
@@ -493,7 +493,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -518,7 +518,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1043,7 +1043,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1393,7 +1393,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1418,7 +1418,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1543,7 +1543,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1568,7 +1568,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1793,7 +1793,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1843,7 +1843,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1868,7 +1868,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1993,7 +1993,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -2018,7 +2018,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -2093,7 +2093,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2143,7 +2143,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -2168,7 +2168,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -2543,7 +2543,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -3293,7 +3293,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -3443,7 +3443,7 @@ EP_SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;

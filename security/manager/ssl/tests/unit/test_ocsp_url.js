@@ -482,7 +482,7 @@ hTTp
 -
 url
 "
-0
+PRErrorCodeSuccess
 )
 ;
 ocspResponder
@@ -623,7 +623,7 @@ path
 -
 url
 "
-0
+PRErrorCodeSuccess
 )
 ;
 ocspResponder

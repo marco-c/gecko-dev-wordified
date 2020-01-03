@@ -243,7 +243,7 @@ CA_EP_NS_OS_SA_TS
 '
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLCA
 )
 ;
@@ -268,7 +268,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -418,7 +418,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -493,7 +493,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -518,7 +518,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -693,7 +693,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -718,7 +718,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -993,7 +993,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -1018,7 +1018,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1043,7 +1043,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1168,7 +1168,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1393,7 +1393,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1418,7 +1418,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1543,7 +1543,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1568,7 +1568,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1743,7 +1743,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -1793,7 +1793,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1843,7 +1843,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1868,7 +1868,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1993,7 +1993,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -2018,7 +2018,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -2068,7 +2068,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -2093,7 +2093,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2143,7 +2143,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -2168,7 +2168,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -2493,7 +2493,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -2543,7 +2543,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2943,7 +2943,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3093,7 +3093,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3243,7 +3243,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3293,7 +3293,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -3443,7 +3443,7 @@ CA_EP_NS_OS_SA_TS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;

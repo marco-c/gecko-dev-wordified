@@ -275,7 +275,7 @@ return
 check_cert_err
 (
 x
-0
+PRErrorCodeSuccess
 )
 ;
 }
@@ -289,7 +289,7 @@ return
 check_cert_err_generic
 (
 x
-0
+PRErrorCodeSuccess
 certificateUsageSSLCA
 )
 ;

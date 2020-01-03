@@ -268,7 +268,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -418,7 +418,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -493,7 +493,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -518,7 +518,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -718,7 +718,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1018,7 +1018,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1168,7 +1168,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1393,7 +1393,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1418,7 +1418,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1543,7 +1543,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1568,7 +1568,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1843,7 +1843,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1868,7 +1868,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1993,7 +1993,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -2018,7 +2018,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -2068,7 +2068,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -2143,7 +2143,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -2168,7 +2168,7 @@ CA_EP
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;

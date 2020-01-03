@@ -651,7 +651,7 @@ int_string
 expectedResult
 =
 "
-0
+PRErrorCodeSuccess
 "
     
 return
@@ -1014,7 +1014,7 @@ single_test_output
 ee_name
 cert_usage
 "
-0
+PRErrorCodeSuccess
 "
 )
     
@@ -1184,7 +1184,7 @@ single_test_output
 ee_name
 cert_usage
 "
-0
+PRErrorCodeSuccess
 "
 )
     
@@ -1234,7 +1234,7 @@ single_test_output
 ee_name
 cert_usage
 "
-0
+PRErrorCodeSuccess
 "
 )
 def
