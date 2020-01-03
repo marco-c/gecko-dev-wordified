@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_mips_Assembler_mips_h
+jit_mips32_Assembler_mips32_h
 #
 define
-jit_mips_Assembler_mips_h
+jit_mips32_Assembler_mips32_h
 #
 include
 "
@@ -6696,7 +6696,7 @@ __mips_single_float
 |
 defined
 (
-JS_SIMULATOR_MIPS
+JS_SIMULATOR_MIPS32
 )
 return
 true
@@ -8879,6 +8879,6 @@ js
 endif
 /
 *
-jit_mips_Assembler_mips_h
+jit_mips32_Assembler_mips32_h
 *
 /

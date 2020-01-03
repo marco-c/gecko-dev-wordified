@@ -219,7 +219,7 @@ h
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 #
 include
@@ -619,7 +619,7 @@ PER_SHARED_ARCH
 #
 define
 ALL_ARCH
-mips
+mips32
 arm
 arm64
 x86
@@ -627,7 +627,7 @@ x64
 #
 define
 ALL_SHARED_ARCH
-mips
+mips32
 arm
 arm64
 x86_shared
@@ -933,7 +933,7 @@ define
 DEFINED_ON_arm64
 #
 define
-DEFINED_ON_mips
+DEFINED_ON_mips32
 #
 define
 DEFINED_ON_none
@@ -1014,14 +1014,14 @@ define
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 #
 undef
-DEFINED_ON_mips
+DEFINED_ON_mips32
 #
 define
-DEFINED_ON_mips
+DEFINED_ON_mips32
 define
 #
 elif

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_mips_SharedICRegisters_mips_h
+jit_mips32_SharedICRegisters_mips32_h
 #
 define
-jit_mips_SharedICRegisters_mips_h
+jit_mips32_SharedICRegisters_mips32_h
 #
 include
 "
@@ -302,6 +302,6 @@ js
 endif
 /
 *
-jit_mips_SharedICRegisters_mips_h
+jit_mips32_SharedICRegisters_mips32_h
 *
 /

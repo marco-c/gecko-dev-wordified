@@ -2909,7 +2909,7 @@ endif
 if
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 /
 /
@@ -6246,7 +6246,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 uint32_t
 heapLength
@@ -12135,7 +12135,7 @@ nullptr
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 Instruction
 *
@@ -12345,7 +12345,7 @@ MOZ_CRASH
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 Assembler
 :
@@ -12912,7 +12912,7 @@ MOZ_CRASH
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 Instruction
 *
@@ -13401,7 +13401,7 @@ true
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 MOZ_ASSERT
 (

@@ -1718,7 +1718,7 @@ script
 }
 #
 ifdef
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 uint8_t
 *
 alignDoubleSpillWithOffset

@@ -167,7 +167,7 @@ h
 elif
 defined
 (
-JS_SIMULATOR_MIPS
+JS_SIMULATOR_MIPS32
 )
 #
 include

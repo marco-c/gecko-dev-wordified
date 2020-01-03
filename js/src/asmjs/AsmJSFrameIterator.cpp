@@ -986,7 +986,7 @@ PostStorePrePopFP
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 static
 const
@@ -1095,7 +1095,7 @@ lr
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 masm
 .
@@ -1587,7 +1587,7 @@ JS_CODEGEN_ARM64
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 Register
 scratch2
@@ -1786,7 +1786,7 @@ JS_CODEGEN_ARM64
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 masm
 .
@@ -2539,7 +2539,7 @@ nop
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 masm
 .
@@ -4388,7 +4388,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 if
 (

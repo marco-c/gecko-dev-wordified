@@ -456,7 +456,7 @@ endif
 if
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 &
 &
@@ -469,7 +469,7 @@ __linux__
 !
 defined
 (
-JS_SIMULATOR_MIPS
+JS_SIMULATOR_MIPS32
 )
 #
 include
@@ -2326,7 +2326,7 @@ JS_SIMULATOR_ARM
 |
 defined
 (
-JS_SIMULATOR_MIPS
+JS_SIMULATOR_MIPS32
 )
 static
 void
@@ -2359,7 +2359,7 @@ size
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 static
 void

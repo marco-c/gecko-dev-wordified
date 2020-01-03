@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_mips_CodeGenerator_mips_h
+jit_mips32_CodeGenerator_mips32_h
 #
 define
-jit_mips_CodeGenerator_mips_h
+jit_mips32_CodeGenerator_mips32_h
 #
 include
 "
@@ -2071,6 +2071,6 @@ js
 endif
 /
 *
-jit_mips_CodeGenerator_mips_h
+jit_mips32_CodeGenerator_mips32_h
 *
 /

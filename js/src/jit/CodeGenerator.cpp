@@ -2145,7 +2145,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 masm
 .
@@ -36858,7 +36858,7 @@ snapshot
 ;
 #
 ifdef
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 if
 (
 snapshot
@@ -48809,7 +48809,7 @@ callStub
 ;
 #
 ifdef
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 /
 /
 Had

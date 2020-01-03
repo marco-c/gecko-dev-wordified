@@ -194,7 +194,7 @@ flags
 ;
 #
 ifdef
-JS_SIMULATOR_MIPS
+JS_SIMULATOR_MIPS32
 isSet
 =
 true
@@ -305,7 +305,7 @@ false
 endif
 /
 /
-JS_SIMULATOR_MIPS
+JS_SIMULATOR_MIPS32
 }
 bool
 hasFPU

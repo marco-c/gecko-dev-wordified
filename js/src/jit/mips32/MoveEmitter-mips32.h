@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_mips_MoveEmitter_mips_h
+jit_mips32_MoveEmitter_mips32_h
 #
 define
-jit_mips_MoveEmitter_mips_h
+jit_mips32_MoveEmitter_mips32_h
 #
 include
 "
@@ -438,6 +438,6 @@ js
 endif
 /
 *
-jit_mips_MoveEmitter_mips_h
+jit_mips32_MoveEmitter_mips32_h
 *
 /

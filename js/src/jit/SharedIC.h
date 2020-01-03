@@ -7458,7 +7458,7 @@ BaselineSecondScratchReg
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 MOZ_ASSERT
 (

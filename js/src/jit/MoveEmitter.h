@@ -185,7 +185,7 @@ h
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 #
 include
