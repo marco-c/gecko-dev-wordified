@@ -2557,6 +2557,13 @@ ForceClose
 )
 override
 ;
+virtual
+void
+MaybeUpdateTouchState
+(
+)
+override
+;
 /
 /
 Outer
