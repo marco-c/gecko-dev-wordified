@@ -102,6 +102,11 @@ MEMORY_PREF
 false
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 *
 spawnTest
