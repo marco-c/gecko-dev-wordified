@@ -281,9 +281,6 @@ CATEGORIES
 =
 [
 {
-ordinal
-:
-7
 color
 :
 "
@@ -309,9 +306,6 @@ other
 )
 }
 {
-ordinal
-:
-4
 color
 :
 "
@@ -337,9 +331,6 @@ css
 )
 }
 {
-ordinal
-:
-1
 color
 :
 "
@@ -365,9 +356,6 @@ js
 )
 }
 {
-ordinal
-:
-2
 color
 :
 "
@@ -393,9 +381,6 @@ gc
 )
 }
 {
-ordinal
-:
-0
 color
 :
 "
@@ -421,9 +406,6 @@ network
 )
 }
 {
-ordinal
-:
-5
 color
 :
 "
@@ -449,9 +431,6 @@ graphics
 )
 }
 {
-ordinal
-:
-6
 color
 :
 "
@@ -477,9 +456,6 @@ storage
 )
 }
 {
-ordinal
-:
-3
 color
 :
 "
