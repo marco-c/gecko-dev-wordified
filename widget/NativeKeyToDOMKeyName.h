@@ -8061,6 +8061,11 @@ AKEYCODE_INFO
 /
 /
 MediaFastForward
+KEY_MAP_GTK
+(
+MediaFastForward
+GDK_AudioForward
+)
 KEY_MAP_QT
 (
 MediaFastForward
