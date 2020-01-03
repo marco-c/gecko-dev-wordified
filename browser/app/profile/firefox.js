@@ -23465,6 +23465,10 @@ Interception
 is
 still
 disabled
+on
+beta
+and
+release
 .
 pref
 (
@@ -23479,8 +23483,8 @@ true
 )
 ;
 #
-ifdef
-NIGHTLY_BUILD
+ifndef
+RELEASE_BUILD
 pref
 (
 "
