@@ -5853,6 +5853,10 @@ type
 get
 (
 )
+AcceptedMimeTypes
+:
+:
+IMAGES_AND_DOCUMENTS
 )
 )
 {
