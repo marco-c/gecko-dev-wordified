@@ -5478,6 +5478,7 @@ item
 ;
 while
 (
+(
 item
 =
 this
@@ -5485,6 +5486,7 @@ this
 getItemForPredicate
 (
 aPredicate
+)
 )
 )
 {
