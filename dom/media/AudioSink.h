@@ -147,6 +147,15 @@ AudioChannelBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Atomics
+.
+h
+"
 namespace
 mozilla
 {
@@ -822,7 +831,10 @@ stream
 so
 far
 .
+Atomic
+<
 int64_t
+>
 mWritten
 ;
 /
