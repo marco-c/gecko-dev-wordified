@@ -1342,6 +1342,9 @@ copy
 checkmark
 "
 "
+delete
+"
+"
 google
 "
 "
