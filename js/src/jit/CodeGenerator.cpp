@@ -55490,7 +55490,7 @@ pushArg
 (
 Imm32
 (
-current
+lir
 -
 >
 mir

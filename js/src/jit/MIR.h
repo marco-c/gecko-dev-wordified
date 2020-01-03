@@ -50124,6 +50124,9 @@ MSetElementInstruction
 public
 MTernaryInstruction
 {
+bool
+strict_
+;
 protected
 :
 MSetElementInstruction
@@ -50137,6 +50140,8 @@ index
 MDefinition
 *
 value
+bool
+strict
 )
 :
 MTernaryInstruction
@@ -50144,6 +50149,10 @@ MTernaryInstruction
 object
 index
 value
+)
+strict_
+(
+strict
 )
 {
 }
@@ -50189,6 +50198,16 @@ getOperand
 (
 2
 )
+;
+}
+bool
+strict
+(
+)
+const
+{
+return
+strict_
 ;
 }
 }
@@ -50681,9 +50700,6 @@ BoxPolicy
 Data
 {
 bool
-strict_
-;
-bool
 guardHoles_
 ;
 MSetElementCache
@@ -50708,9 +50724,6 @@ MSetElementInstruction
 obj
 index
 value
-)
-strict_
-(
 strict
 )
 guardHoles_
@@ -50762,16 +50775,6 @@ value
 strict
 guardHoles
 )
-;
-}
-bool
-strict
-(
-)
-const
-{
-return
-strict_
 ;
 }
 bool
@@ -51159,6 +51162,8 @@ index
 MDefinition
 *
 value
+bool
+strict
 )
 :
 MSetElementInstruction
@@ -51166,6 +51171,7 @@ MSetElementInstruction
 object
 index
 value
+strict
 )
 {
 }
@@ -51192,6 +51198,8 @@ index
 MDefinition
 *
 value
+bool
+strict
 )
 {
 return
@@ -51204,6 +51212,7 @@ MCallSetElement
 object
 index
 value
+strict
 )
 ;
 }
