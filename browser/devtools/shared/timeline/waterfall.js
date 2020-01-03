@@ -211,7 +211,7 @@ xhtml
 const
 WATERFALL_SIDEBAR_WIDTH
 =
-150
+200
 ;
 /
 /
