@@ -323,9 +323,6 @@ JS
 HeapState
 prevState
 ;
-AutoSPSEntry
-pseudoFrame
-;
 }
 ;
 struct
