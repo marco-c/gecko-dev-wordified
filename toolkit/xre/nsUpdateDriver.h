@@ -126,9 +126,6 @@ nscore
 h
 "
 #
-ifdef
-MOZ_UPDATER
-#
 include
 "
 nsIUpdateService
@@ -165,8 +162,6 @@ Attributes
 .
 h
 "
-#
-endif
 class
 nsIFile
 ;
@@ -423,9 +418,6 @@ pid
 nullptr
 )
 ;
-#
-ifdef
-MOZ_UPDATER
 /
 /
 The
@@ -639,8 +631,6 @@ mInfo
 ;
 }
 ;
-#
-endif
 #
 endif
 /
