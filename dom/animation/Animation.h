@@ -2378,12 +2378,6 @@ CancelPendingTasks
 )
 ;
 bool
-IsFinished
-(
-)
-const
-;
-bool
 IsPossiblyOrphanedPendingAnimation
 (
 )
