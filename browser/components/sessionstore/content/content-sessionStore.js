@@ -480,7 +480,9 @@ event
 storageArea
 =
 =
-content
+event
+.
+target
 .
 sessionStorage
 ;
