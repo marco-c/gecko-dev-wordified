@@ -174,7 +174,11 @@ None
 symbols_path
 =
 None
+                 
 dump_save_path
+=
+None
+addons
 =
 None
 )
@@ -211,6 +215,10 @@ profile_class
 profile
 =
 profile
+                                                      
+addons
+=
+addons
 )
         
 else

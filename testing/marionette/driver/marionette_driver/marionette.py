@@ -4103,6 +4103,9 @@ None
 profile
 =
 None
+addons
+=
+None
 emulator
 =
 None
@@ -4204,6 +4207,12 @@ self
 profile
 =
 profile
+        
+self
+.
+addons
+=
+addons
         
 self
 .
@@ -4553,6 +4562,12 @@ gecko_log
 prefs
 =
 prefs
+                                           
+addons
+=
+self
+.
+addons
 )
             
 self
@@ -4636,6 +4651,12 @@ profile
 self
 .
 profile
+                                            
+addons
+=
+self
+.
+addons
                                             
 adb_path
 =

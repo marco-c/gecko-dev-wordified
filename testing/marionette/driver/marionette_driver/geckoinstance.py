@@ -257,13 +257,16 @@ bin
 profile
 =
 None
+addons
+=
+None
+                 
 app_args
 =
 None
 symbols_path
 =
 None
-                  
 gecko_log
 =
 None
@@ -310,6 +313,12 @@ self
 profile
 =
 None
+        
+self
+.
+addons
+=
+addons
         
 if
 isinstance
@@ -626,6 +635,23 @@ True
             
 }
 )
+        
+if
+self
+.
+addons
+:
+            
+profile_args
+[
+'
+addons
+'
+]
+=
+self
+.
+addons
         
 if
 hasattr
