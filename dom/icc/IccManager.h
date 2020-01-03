@@ -81,13 +81,6 @@ h
 #
 include
 "
-nsIIccProvider
-.
-h
-"
-#
-include
-"
 nsTArrayHelpers
 .
 h
@@ -123,6 +116,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 IccManager
 DOMEventTargetHelper
 )
+explicit
 IccManager
 (
 nsPIDOMWindow
