@@ -1015,6 +1015,11 @@ NotifyOperationType
 aNotifyOperation
 DBOperationType
 aDBOperation
+const
+bool
+aIgnoreSessionPermissions
+=
+false
 )
 ;
 /
