@@ -929,16 +929,6 @@ enabledScopes
 5
 )
 ;
-user_pref
-(
-"
-extensions
-.
-autoDisableScopes
-"
-0
-)
-;
 /
 /
 Disable
