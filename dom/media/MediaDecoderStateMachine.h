@@ -900,6 +900,9 @@ MediaTaskQueue
 class
 AudioSink
 ;
+class
+DecodedStreamData
+;
 /
 *
 The
@@ -1023,13 +1026,6 @@ MediaDecoderOwner
 :
 NextFrameStatus
 NextFrameStatus
-;
-typedef
-MediaDecoder
-:
-:
-DecodedStreamData
-DecodedStreamData
 ;
 MediaDecoderStateMachine
 (
