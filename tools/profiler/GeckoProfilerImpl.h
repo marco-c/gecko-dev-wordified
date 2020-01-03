@@ -184,7 +184,7 @@ MOZ_TASK_TRACER
 #
 include
 "
-GeckoTaskTracerImpl
+GeckoTaskTracer
 .
 h
 "
