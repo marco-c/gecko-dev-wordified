@@ -858,13 +858,6 @@ nullptr
 static
 FILE
 *
-gLeakyLog
-=
-nullptr
-;
-static
-FILE
-*
 gCOMPtrLog
 =
 nullptr
@@ -5383,9 +5376,6 @@ gRefcntsLog
 gAllocLog
 |
 |
-gLeakyLog
-|
-|
 gCOMPtrLog
 )
 {
@@ -7961,11 +7951,6 @@ gRefcntsLog
 maybeUnregisterAndCloseFile
 (
 gAllocLog
-)
-;
-maybeUnregisterAndCloseFile
-(
-gLeakyLog
 )
 ;
 maybeUnregisterAndCloseFile
