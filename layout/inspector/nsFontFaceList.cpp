@@ -87,7 +87,7 @@ h
 #
 include
 "
-gfxFont
+gfxTextRun
 .
 h
 "

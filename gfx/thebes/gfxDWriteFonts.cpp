@@ -127,6 +127,13 @@ h
 "
 #
 include
+"
+gfxTextRun
+.
+h
+"
+#
+include
 <
 dwrite
 .

@@ -126,7 +126,7 @@ int32_t
 #
 include
 "
-gfxFont
+gfxTextRun
 .
 h
 "

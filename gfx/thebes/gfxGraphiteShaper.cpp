@@ -124,6 +124,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 graphite2
 /
 Font

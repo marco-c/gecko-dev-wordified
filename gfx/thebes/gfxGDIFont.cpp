@@ -160,6 +160,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 cairo
 -
 win32

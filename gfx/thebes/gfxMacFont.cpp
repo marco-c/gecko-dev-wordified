@@ -156,6 +156,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 cairo
 -
 quartz

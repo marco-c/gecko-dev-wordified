@@ -318,6 +318,13 @@ endif
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 gfxUserFontSet
 .
 h

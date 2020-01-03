@@ -125,6 +125,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 gfxUserFontSet
 .
 h

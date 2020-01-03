@@ -484,13 +484,6 @@ h
 #
 include
 "
-gfxFont
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h
