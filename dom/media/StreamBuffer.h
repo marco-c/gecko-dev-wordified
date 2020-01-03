@@ -584,16 +584,6 @@ over
 time
 .
 *
-TODO
-Add
-TimeVarying
-<
-StreamTime
-bool
->
-mEnabled
-.
-*
 Takes
 ownership
 of
