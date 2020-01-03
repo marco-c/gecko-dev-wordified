@@ -3888,9 +3888,13 @@ self
 .
 log
 .
-error
+info
 (
 "
+PROCESS
+-
+CRASH
+|
 Automation
 Error
 :
