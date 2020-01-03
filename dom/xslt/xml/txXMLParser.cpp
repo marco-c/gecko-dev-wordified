@@ -302,6 +302,12 @@ NodePrincipal
 )
 loadGroup
 true
+loaderDocument
+-
+>
+GetReferrerPolicy
+(
+)
 &
 theDocument
 )

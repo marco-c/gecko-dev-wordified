@@ -240,6 +240,15 @@ include
 <
 algorithm
 >
+using
+mozilla
+:
+:
+net
+:
+:
+ReferrerPolicy
+;
 /
 *
 *
@@ -292,6 +301,8 @@ bool
 aChannelIsSync
 bool
 aForceToXML
+ReferrerPolicy
+aReferrerPolicy
 nsIDOMDocument
 *
 *
@@ -576,6 +587,8 @@ bool
 aChannelIsSync
 bool
 aForceToXML
+ReferrerPolicy
+aReferrerPolicy
 nsIDOMDocument
 *
 *
@@ -687,9 +700,10 @@ loaderUri
 http
 -
 >
-SetReferrer
+SetReferrerWithPolicy
 (
 loaderUri
+aReferrerPolicy
 )
 ;
 }
@@ -1430,6 +1444,8 @@ nsILoadGroup
 aLoadGroup
 bool
 aForceToXML
+ReferrerPolicy
+aReferrerPolicy
 nsIDOMDocument
 *
 *
@@ -1565,6 +1581,7 @@ channel
 aLoaderPrincipal
 isSync
 aForceToXML
+aReferrerPolicy
 aResult
 )
 ;
