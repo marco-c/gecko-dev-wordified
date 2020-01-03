@@ -166,9 +166,6 @@ include
 algorithm
 >
 #
-define
-FORCE_PR_LOG
-#
 include
 <
 stdio
