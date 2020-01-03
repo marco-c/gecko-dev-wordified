@@ -2120,6 +2120,8 @@ def
 =
 *
 iter
++
++
 ;
 if
 (
@@ -2178,14 +2180,12 @@ justReplaceAllUsesWith
 op
 )
 ;
-iter
-=
 block
 -
 >
-discardDefAt
+discardDef
 (
-iter
+def
 )
 ;
 }
