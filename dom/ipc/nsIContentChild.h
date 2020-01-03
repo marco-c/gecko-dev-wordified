@@ -159,6 +159,17 @@ CPOWManagerGetter
 h
 "
 #
+include
+"
+mozilla
+/
+jsipc
+/
+CrossProcessObjectWrappers
+.
+h
+"
+#
 define
 NS_ICONTENTCHILD_IID
 \
