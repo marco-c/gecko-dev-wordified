@@ -5744,6 +5744,7 @@ format
 }
 }
 else
+{
 mTarget
 =
 layerManager
@@ -5762,6 +5763,7 @@ RenderingMode
 :
 SoftwareBackendMode
 ;
+}
 }
 else
 {
