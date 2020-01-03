@@ -767,7 +767,7 @@ sample
 >
 mCrypto
 .
-valid
+mValid
 =
 true
 ;
@@ -776,7 +776,7 @@ sample
 >
 mCrypto
 .
-iv_size
+mIVSize
 =
 ivSize
 ;
@@ -792,7 +792,7 @@ sample
 >
 mCrypto
 .
-iv
+mIV
 ivSize
 )
 )
@@ -857,7 +857,7 @@ sample
 >
 mCrypto
 .
-plain_sizes
+mPlainSizes
 .
 AppendElement
 (
@@ -873,7 +873,7 @@ sample
 >
 mCrypto
 .
-encrypted_sizes
+mEncryptedSizes
 .
 AppendElement
 (
@@ -905,7 +905,7 @@ sample
 >
 mCrypto
 .
-plain_sizes
+mPlainSizes
 .
 AppendElement
 (
@@ -917,7 +917,7 @@ sample
 >
 mCrypto
 .
-encrypted_sizes
+mEncryptedSizes
 .
 AppendElement
 (

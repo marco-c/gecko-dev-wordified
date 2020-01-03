@@ -217,7 +217,7 @@ aSample
 >
 mCrypto
 .
-valid
+mValid
 |
 |
 !
@@ -252,7 +252,7 @@ aSample
 >
 mCrypto
 .
-key
+mKeyId
 ;
 if
 (
@@ -289,7 +289,7 @@ aSample
 >
 mCrypto
 .
-key
+mKeyId
 this
 )
 ;
@@ -348,7 +348,7 @@ i
 >
 mCrypto
 .
-key
+mKeyId
 )
 {
 RefPtr

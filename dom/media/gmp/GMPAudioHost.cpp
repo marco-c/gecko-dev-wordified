@@ -303,7 +303,7 @@ aSample
 >
 mCrypto
 .
-valid
+mValid
 )
 {
 mCrypto
@@ -484,7 +484,7 @@ if
 !
 aCrypto
 .
-valid
+mValid
 )
 {
 return

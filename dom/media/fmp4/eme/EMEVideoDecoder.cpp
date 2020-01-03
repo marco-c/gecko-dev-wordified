@@ -322,7 +322,7 @@ aSample
 >
 mCrypto
 .
-valid
+mValid
 )
 {
 static_cast
