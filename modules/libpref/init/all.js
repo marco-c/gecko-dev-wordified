@@ -19745,11 +19745,13 @@ network
 .
 auth
 .
-allow
--
 subresource
 -
+http
+-
 auth
+-
+allow
 "
 2
 )
