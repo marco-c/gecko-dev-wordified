@@ -4032,6 +4032,7 @@ mContext
 >
 ForceClearFramebufferWithDefaultValues
 (
+false
 mask
 colorAttachmentsMask
 )
