@@ -10242,9 +10242,7 @@ true
 /
 /
 Enable
-the
-OpenH264
-plugin
+GMP
 support
 in
 the
@@ -10258,8 +10256,6 @@ media
 .
 gmp
 -
-gmpopenh264
-.
 provider
 .
 enabled
