@@ -2542,7 +2542,7 @@ GetBackendType
 BackendType
 :
 :
-DIRECT2D
+DIRECT2D1_1
 )
 {
 gfxDebug
@@ -2687,7 +2687,7 @@ GetBackendType
 BackendType
 :
 :
-DIRECT2D
+DIRECT2D1_1
 )
 {
 gfxDebug
@@ -3361,7 +3361,7 @@ GetBackendType
 BackendType
 :
 :
-DIRECT2D
+DIRECT2D1_1
 )
 {
 gfxDebug
@@ -4194,6 +4194,10 @@ PathBuilderD2D
 sink
 path
 aFillRule
+BackendType
+:
+:
+DIRECT2D1_1
 )
 ;
 }

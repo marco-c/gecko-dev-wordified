@@ -141,6 +141,8 @@ ID2D1PathGeometry
 aGeom
 FillRule
 aFillRule
+BackendType
+aBackendType
 )
 :
 mSink
@@ -158,6 +160,10 @@ false
 mFillRule
 (
 aFillRule
+)
+mBackendType
+(
+aBackendType
 )
 {
 }
@@ -269,10 +275,7 @@ GetBackendType
 const
 {
 return
-BackendType
-:
-:
-DIRECT2D
+mBackendType
 ;
 }
 ID2D1GeometrySink
@@ -324,6 +327,9 @@ mBeginPoint
 FillRule
 mFillRule
 ;
+BackendType
+mBackendType
+;
 }
 ;
 class
@@ -351,6 +357,8 @@ Point
 aEndPoint
 FillRule
 aFillRule
+BackendType
+aBackendType
 )
 :
 mGeometry
@@ -369,6 +377,10 @@ mFillRule
 (
 aFillRule
 )
+mBackendType
+(
+aBackendType
+)
 {
 }
 virtual
@@ -379,10 +391,7 @@ GetBackendType
 const
 {
 return
-BackendType
-:
-:
-DIRECT2D
+mBackendType
 ;
 }
 virtual
@@ -547,6 +556,9 @@ mEndPoint
 ;
 FillRule
 mFillRule
+;
+BackendType
+mBackendType
 ;
 }
 ;

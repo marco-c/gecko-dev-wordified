@@ -1648,6 +1648,7 @@ mGeometry
 mFigureActive
 mCurrentPoint
 mFillRule
+mBackendType
 )
 ;
 }
@@ -1879,6 +1880,7 @@ PathBuilderD2D
 sink
 path
 aFillRule
+mBackendType
 )
 ;
 pathBuilder
