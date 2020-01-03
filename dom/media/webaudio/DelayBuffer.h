@@ -662,7 +662,7 @@ arrays
 nsAutoTArray
 <
 const
-void
+float
 *
 GUESS_AUDIO_CHANNELS
 >
