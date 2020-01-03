@@ -3654,7 +3654,7 @@ null
 {
 aCallback
 .
-notifyDialSuccess
+notifyDialCallSuccess
 (
 response
 .
@@ -3686,7 +3686,7 @@ ourselves
 .
 aCallback
 .
-notifyDialSuccess
+notifyDialCallSuccess
 (
 CDMA_SECOND_CALL_INDEX
 response

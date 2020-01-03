@@ -2399,7 +2399,7 @@ NS_IMETHODIMP
 TelephonyRequestParent
 :
 :
-NotifyDialSuccess
+NotifyDialCallSuccess
 (
 uint32_t
 aCallIndex
@@ -2418,7 +2418,7 @@ NS_ERROR_FAILURE
 ;
 return
 (
-SendNotifyDialSuccess
+SendNotifyDialCallSuccess
 (
 aCallIndex
 nsString

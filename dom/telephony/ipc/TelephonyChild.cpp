@@ -1045,7 +1045,7 @@ bool
 TelephonyRequestChild
 :
 :
-RecvNotifyDialSuccess
+RecvNotifyDialCallSuccess
 (
 const
 uint32_t
@@ -1065,7 +1065,7 @@ mCallback
 mCallback
 -
 >
-NotifyDialSuccess
+NotifyDialCallSuccess
 (
 aCallIndex
 aNumber
