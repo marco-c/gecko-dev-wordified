@@ -552,10 +552,14 @@ do_CreateInstance
 HTMLMENUBUILDER_CONTRACTID
 )
 ;
-NS_WARN_IF
+NS_WARN_IF_FALSE
 (
-!
 builder
+"
+No
+builder
+available
+"
 )
 ;
 return
