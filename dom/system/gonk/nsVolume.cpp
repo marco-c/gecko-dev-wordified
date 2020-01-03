@@ -443,7 +443,13 @@ IsMountLocked
 )
 mIsFake
 (
-false
+!
+aVolume
+-
+>
+CanBeShared
+(
+)
 )
 mIsMediaPresent
 (

@@ -125,15 +125,6 @@ mStat
 ;
 }
 }
-nsVolumeStat
-:
-:
-~
-nsVolumeStat
-(
-)
-{
-}
 /
 *
 readonly
