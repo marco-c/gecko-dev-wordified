@@ -32,7 +32,7 @@ use
 strict
 '
 ;
-const
+let
 {
 classes
 :
