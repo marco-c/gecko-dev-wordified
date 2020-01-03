@@ -163,6 +163,7 @@ nsAString
 &
 stringOut
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -199,6 +200,7 @@ nsAString
 &
 stringOut
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -232,6 +234,7 @@ nsAString
 &
 stringOut
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -266,6 +269,7 @@ nsAString
 &
 stringOut
 )
+MOZ_OVERRIDE
 ;
 nsDateTimeFormatUnix
 (
