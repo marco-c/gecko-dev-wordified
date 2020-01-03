@@ -1620,7 +1620,7 @@ PrivateIPDLInterface
 {
 }
 ;
-bool
+nsresult
 Bridge
 (
 const

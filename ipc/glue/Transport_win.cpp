@@ -162,7 +162,7 @@ mozilla
 namespace
 ipc
 {
-bool
+nsresult
 CreateTransport
 (
 base
@@ -234,7 +234,7 @@ serverPipe
 )
 {
 return
-false
+NS_ERROR_TRANSPORT_INIT
 ;
 }
 /
@@ -327,7 +327,7 @@ options
 )
 {
 return
-false
+NS_ERROR_DUPLICATE_HANDLE
 ;
 }
 aOne
@@ -357,7 +357,7 @@ mServerPipe
 INVALID_HANDLE_VALUE
 ;
 return
-true
+NS_OK
 ;
 }
 Transport

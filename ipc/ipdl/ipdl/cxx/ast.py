@@ -2124,6 +2124,16 @@ intptr_t
 )
 Type
 .
+NSRESULT
+=
+Type
+(
+'
+nsresult
+'
+)
+Type
+.
 UINT32
 =
 Type

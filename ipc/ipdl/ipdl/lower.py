@@ -13410,7 +13410,7 @@ ret
 =
 Type
 .
-BOOL
+NSRESULT
 )
 )
         

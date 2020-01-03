@@ -177,7 +177,7 @@ IPC
 Channel
 Transport
 ;
-bool
+nsresult
 CreateTransport
 (
 base
