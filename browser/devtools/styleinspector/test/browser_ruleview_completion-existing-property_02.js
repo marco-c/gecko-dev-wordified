@@ -474,6 +474,7 @@ editor
 yield
 focusEditableField
 (
+view
 value
 )
 ;

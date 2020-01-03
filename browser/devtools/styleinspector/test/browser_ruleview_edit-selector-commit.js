@@ -477,6 +477,7 @@ editor
 yield
 focusEditableField
 (
+view
 idRuleEditor
 .
 selectorText
