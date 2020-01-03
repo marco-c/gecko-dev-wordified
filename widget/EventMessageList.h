@@ -509,7 +509,7 @@ ePointerEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POINTER_LEAVE
+ePointerLeave
 ePointerEventFirst
 +
 25

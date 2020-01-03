@@ -1340,7 +1340,7 @@ ePointerEventClass
 EVENT
 (
 pointerleave
-NS_POINTER_LEAVE
+ePointerLeave
 EventNameType_All
 ePointerEventClass
 )

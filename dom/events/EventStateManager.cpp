@@ -3859,7 +3859,7 @@ pointer
 events
 GeneratePointerEnterExit
 (
-NS_POINTER_LEAVE
+ePointerLeave
 mouseEvent
 )
 ;
@@ -24027,7 +24027,7 @@ true
 we
 should
 dispatch
-NS_POINTER_LEAVE
+ePointerLeave
 event
 and
 only
@@ -24070,7 +24070,7 @@ movingInto
 aMouseEvent
 isPointer
 ?
-NS_POINTER_LEAVE
+ePointerLeave
 :
 eMouseLeave
 )
@@ -25683,7 +25683,7 @@ nullptr
 break
 ;
 case
-NS_POINTER_LEAVE
+ePointerLeave
 :
 case
 ePointerCancel
