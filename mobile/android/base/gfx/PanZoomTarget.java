@@ -144,6 +144,12 @@ getFullScreenState
 )
 ;
 public
+PointF
+getVisibleEndOfLayerView
+(
+)
+;
+public
 void
 setAnimationTarget
 (
