@@ -256,6 +256,10 @@ false
 false
 )
 ;
+standardInit
+(
+)
+;
 doTestFinish
 (
 )

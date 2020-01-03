@@ -113,6 +113,7 @@ XPCOMUtils
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -132,6 +133,7 @@ FileUtils
 .
 jsm
 "
+this
 )
 ;
 const

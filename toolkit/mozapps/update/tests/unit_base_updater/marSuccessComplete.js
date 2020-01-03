@@ -709,6 +709,10 @@ LOG_COMPLETE_SUCCESS
 true
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackAppLog
 (
 )

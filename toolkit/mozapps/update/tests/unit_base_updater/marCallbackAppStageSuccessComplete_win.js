@@ -124,6 +124,10 @@ false
 false
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackAppLog
 (
 )

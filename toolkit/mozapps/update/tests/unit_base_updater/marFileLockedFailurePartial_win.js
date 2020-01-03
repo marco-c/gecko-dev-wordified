@@ -306,6 +306,10 @@ checkUpdateLogContains
 ERR_UNABLE_OPEN_DEST
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackAppLog
 (
 )

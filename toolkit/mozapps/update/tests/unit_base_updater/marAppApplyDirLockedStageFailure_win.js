@@ -496,6 +496,10 @@ getAppBaseDir
 )
 )
 ;
+standardInit
+(
+)
+;
 waitForFilesInUse
 (
 )

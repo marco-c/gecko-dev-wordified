@@ -112,6 +112,10 @@ false
 false
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackServiceLog
 (
 )

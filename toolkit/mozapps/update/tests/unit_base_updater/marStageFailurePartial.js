@@ -219,7 +219,7 @@ yesterday
 runUpdate
 (
 1
-STATE_FAILED_UNEXPECTED_FILE_OPERATION_ERROR
+STATE_FAILED_LOADSOURCE_ERROR_WRONG_SIZE
 )
 ;
 }
@@ -298,6 +298,10 @@ false
 checkUpdateLogContents
 (
 LOG_PARTIAL_FAILURE
+)
+;
+standardInit
+(
 )
 ;
 waitForFilesInUse

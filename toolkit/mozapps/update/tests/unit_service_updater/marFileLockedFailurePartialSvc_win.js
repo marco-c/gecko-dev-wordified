@@ -296,7 +296,7 @@ doUpdate
 runUpdateUsingService
 (
 STATE_PENDING_SVC
-STATE_FAILED
+STATE_FAILED_READ_ERROR
 )
 ;
 }
@@ -325,6 +325,10 @@ false
 checkUpdateLogContains
 (
 ERR_UNABLE_OPEN_DEST
+)
+;
+standardInit
+(
 )
 ;
 checkCallbackServiceLog

@@ -385,6 +385,10 @@ checkUpdateLogContents
 LOG_COMPLETE_SUCCESS
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackServiceLog
 (
 )

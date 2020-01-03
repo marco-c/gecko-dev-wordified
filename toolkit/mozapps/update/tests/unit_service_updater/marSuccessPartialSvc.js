@@ -475,6 +475,10 @@ checkUpdateLogContents
 LOG_PARTIAL_SUCCESS
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackServiceLog
 (
 )

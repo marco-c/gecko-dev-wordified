@@ -1726,7 +1726,7 @@ fp
 {
 ret
 =
-WRITE_ERROR
+WRITE_ERROR_EXTRACT
 ;
 break
 ;

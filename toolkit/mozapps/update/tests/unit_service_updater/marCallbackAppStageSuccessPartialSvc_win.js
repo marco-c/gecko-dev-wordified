@@ -150,6 +150,10 @@ false
 false
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackAppLog
 (
 )

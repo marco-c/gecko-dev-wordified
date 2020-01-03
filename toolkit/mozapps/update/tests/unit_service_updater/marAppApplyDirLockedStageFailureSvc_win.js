@@ -528,6 +528,10 @@ getAppBaseDir
 )
 )
 ;
+standardInit
+(
+)
+;
 waitForFilesInUse
 (
 )
