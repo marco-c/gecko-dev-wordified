@@ -3812,6 +3812,8 @@ plugin
 submitURLOptIn
 "
 )
+.
+checked
 ;
 let
 keyVals
@@ -3850,17 +3852,7 @@ userComment
 ;
 if
 (
-this
-.
-getPluginUI
-(
-plugin
-"
 submitURLOptIn
-"
-)
-.
-checked
 )
 keyVals
 .
