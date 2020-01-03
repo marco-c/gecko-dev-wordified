@@ -916,6 +916,10 @@ nsReflowStatus
 aReflowStatus
 )
 {
+MarkInReflow
+(
+)
+;
 DO_GLOBAL_REFLOW_COUNT
 (
 "
@@ -1221,14 +1225,6 @@ ll
 SetFirstLetterStyleOK
 (
 true
-)
-;
-kid
--
->
-WillReflow
-(
-aPresContext
 )
 ;
 kid

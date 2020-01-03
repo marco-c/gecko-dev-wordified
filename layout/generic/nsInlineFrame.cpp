@@ -2187,6 +2187,10 @@ nsReflowStatus
 aStatus
 )
 {
+MarkInReflow
+(
+)
+;
 DO_GLOBAL_REFLOW_COUNT
 (
 "
@@ -7471,6 +7475,10 @@ nsReflowStatus
 aStatus
 )
 {
+MarkInReflow
+(
+)
+;
 if
 (
 nullptr

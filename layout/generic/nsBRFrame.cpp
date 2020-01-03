@@ -490,6 +490,10 @@ nsReflowStatus
 aStatus
 )
 {
+MarkInReflow
+(
+)
+;
 DO_GLOBAL_REFLOW_COUNT
 (
 "

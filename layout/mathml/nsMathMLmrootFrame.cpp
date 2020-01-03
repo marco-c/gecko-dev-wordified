@@ -895,6 +895,10 @@ nsReflowStatus
 aStatus
 )
 {
+MarkInReflow
+(
+)
+;
 nsReflowStatus
 childStatus
 ;
