@@ -3246,6 +3246,12 @@ on
 .
 if
 (
+pseudoStack
+-
+>
+mRuntime
+&
+&
 JS
 :
 :
@@ -3276,12 +3282,6 @@ jsFrames
 if
 (
 aSample
-&
-&
-pseudoStack
--
->
-mRuntime
 &
 &
 autoWalkJSStack
