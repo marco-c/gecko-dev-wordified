@@ -350,7 +350,7 @@ m
 .
 message
 .
-contains
+includes
 (
 "
 NS_ERROR_DOM_BAD_URI

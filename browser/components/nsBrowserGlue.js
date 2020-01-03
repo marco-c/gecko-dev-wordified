@@ -12240,7 +12240,7 @@ if
 (
 currentset
 .
-contains
+includes
 (
 "
 bookmarks
@@ -12484,7 +12484,7 @@ if
 !
 currentset
 .
-contains
+includes
 (
 "
 bookmarks
@@ -12527,7 +12527,7 @@ if
 (
 currentset
 .
-contains
+includes
 (
 "
 downloads
@@ -12574,7 +12574,7 @@ if
 (
 currentset
 .
-contains
+includes
 (
 "
 home

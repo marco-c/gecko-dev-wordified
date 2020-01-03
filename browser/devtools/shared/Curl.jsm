@@ -1319,7 +1319,7 @@ if
 (
 postDataText
 .
-contains
+includes
 (
 "
 content
@@ -1371,7 +1371,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 "
 application
@@ -1463,7 +1463,7 @@ if
 (
 postDataText
 .
-contains
+includes
 (
 "
 content
@@ -1511,7 +1511,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 "
 multipart
@@ -2051,7 +2051,7 @@ if
 (
 contentDispositionLine
 .
-contains
+includes
 (
 "
 content
@@ -2069,7 +2069,7 @@ if
 (
 contentDispositionLine
 .
-contains
+includes
 (
 "
 filename

@@ -306,7 +306,7 @@ aResponse
 .
 chromeDebugger
 .
-contains
+includes
 (
 "
 chromeDebugger

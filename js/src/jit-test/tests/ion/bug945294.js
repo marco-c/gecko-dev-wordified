@@ -120,7 +120,7 @@ exc
 .
 message
 .
-contains
+includes
 (
 "
 is

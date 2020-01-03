@@ -805,7 +805,7 @@ errors
 0
 ]
 .
-contains
+includes
 (
 provider
 .
@@ -928,7 +928,7 @@ errors
 0
 ]
 .
-contains
+includes
 (
 provider
 .
@@ -1996,7 +1996,7 @@ do_check_true
 (
 msg
 .
-contains
+includes
 (
 "
 Provider
@@ -2139,7 +2139,7 @@ do_check_true
 (
 msg
 .
-contains
+includes
 (
 "
 Provider
@@ -2310,7 +2310,7 @@ do_check_true
 (
 msg
 .
-contains
+includes
 (
 "
 Provider

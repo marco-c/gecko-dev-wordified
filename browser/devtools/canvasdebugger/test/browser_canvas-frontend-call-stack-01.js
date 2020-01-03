@@ -315,7 +315,7 @@ value
 "
 )
 .
-contains
+includes
 (
 "
 C
@@ -369,7 +369,7 @@ value
 "
 )
 .
-contains
+includes
 (
 "
 B
@@ -423,7 +423,7 @@ value
 "
 )
 .
-contains
+includes
 (
 "
 A
@@ -477,7 +477,7 @@ value
 "
 )
 .
-contains
+includes
 (
 "
 drawRect

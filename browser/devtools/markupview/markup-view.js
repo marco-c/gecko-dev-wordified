@@ -14486,7 +14486,7 @@ hasDoubleQuote
 =
 editValueDisplayed
 .
-contains
+includes
 (
 '
 "
@@ -14498,7 +14498,7 @@ hasSingleQuote
 =
 editValueDisplayed
 .
-contains
+includes
 (
 "
 '

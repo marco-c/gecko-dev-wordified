@@ -224,7 +224,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 "
 \
@@ -348,7 +348,7 @@ ok
 !
 text
 .
-contains
+includes
 (
 "
 \

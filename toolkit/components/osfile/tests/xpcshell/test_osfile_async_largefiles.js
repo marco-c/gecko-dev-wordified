@@ -603,7 +603,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 expected
@@ -700,7 +700,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 expected

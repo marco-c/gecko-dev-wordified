@@ -449,7 +449,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 "
 \
@@ -722,7 +722,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 "
 \

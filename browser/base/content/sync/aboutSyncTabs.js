@@ -581,7 +581,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 val
 )
@@ -601,7 +601,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 val
 )
