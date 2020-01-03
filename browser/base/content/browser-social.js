@@ -3746,7 +3746,7 @@ iframe
 addEventListener
 (
 "
-DOMContentLoaded
+load
 "
 function
 _firstload
@@ -3758,7 +3758,7 @@ iframe
 removeEventListener
 (
 "
-DOMContentLoaded
+load
 "
 _firstload
 true
