@@ -134,6 +134,9 @@ def
 hash_file
 (
 path
+hasher
+=
+None
 )
 :
     
@@ -161,19 +164,20 @@ digest
 #
 If
 the
+default
 hashing
 function
 changes
 this
 may
 invalidate
+    
+#
 lots
 of
 cached
 data
 .
-    
-#
 Don
 '
 t
@@ -184,6 +188,8 @@ lightly
     
 h
 =
+hasher
+or
 hashlib
 .
 sha1
