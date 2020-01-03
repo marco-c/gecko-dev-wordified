@@ -474,6 +474,10 @@ OptionalURIParams
 &
 referrerUri
 const
+uint32_t
+&
+referrerPolicy
+const
 OptionalURIParams
 &
 internalRedirectUri
