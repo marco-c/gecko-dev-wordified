@@ -1809,9 +1809,6 @@ BOOL
 *
 mCancelSwipeAnimation
 ;
-uint32_t
-mCurrentSwipeDir
-;
 #
 endif
 /
