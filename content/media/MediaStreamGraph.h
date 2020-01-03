@@ -8130,7 +8130,6 @@ ProcessInput
 .
 *
 /
-virtual
 void
 DispatchToMainThreadAfterStreamStateUpdate
 (
