@@ -826,6 +826,11 @@ foundFirstByte
 +
 toLen
 ;
+remaining
+-
+=
+toLen
+;
 }
 else
 {
