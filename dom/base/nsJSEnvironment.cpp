@@ -15568,6 +15568,7 @@ JSContext
 aContext
 uint32_t
 argc
+const
 JS
 :
 :
@@ -15652,6 +15653,7 @@ JSContext
 aContext
 uint32_t
 argc
+const
 JS
 :
 :
@@ -16254,7 +16256,11 @@ JSContext
 aContext
 uint32_t
 argc
-void
+const
+JS
+:
+:
+Value
 *
 argv
 nsIJSArgArray
@@ -16277,17 +16283,7 @@ nsJSArgArray
 (
 aContext
 argc
-static_cast
-<
-JS
-:
-:
-Value
-*
->
-(
 argv
-)
 &
 rv
 )
