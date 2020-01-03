@@ -8004,6 +8004,14 @@ AKEYCODE_TV_POWER
 )
 /
 /
+VideoModeNext
+KEY_MAP_GTK
+(
+VideoModeNext
+GDK_Next_VMode
+)
+/
+/
 ZoomToggle
 KEY_MAP_WIN
 (
