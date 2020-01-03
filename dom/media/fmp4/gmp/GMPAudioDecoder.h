@@ -294,10 +294,7 @@ protected
 GMPAudioDecoder
 (
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 MediaTaskQueue
@@ -334,10 +331,7 @@ public
 GMPAudioDecoder
 (
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 MediaTaskQueue
@@ -612,10 +606,7 @@ aGMP
 )
 ;
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 mConfig
 ;

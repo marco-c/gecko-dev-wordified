@@ -225,10 +225,7 @@ PlatformDecoderModule
 *
 aPDM
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 layers
@@ -325,10 +322,7 @@ bool
 IsH264
 (
 const
-mp4_demuxer
-:
-:
-TrackConfig
+TrackInfo
 &
 aConfig
 )
@@ -409,10 +403,7 @@ PlatformDecoderModule
 >
 mPDM
 ;
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 mCurrentConfig
 ;
 layers

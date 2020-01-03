@@ -187,18 +187,7 @@ h
 #
 include
 "
-mp4_demuxer
-/
-AnnexB
-.
-h
-"
-#
-include
-"
-mp4_demuxer
-/
-DecoderData
+MediaInfo
 .
 h
 "
@@ -412,10 +401,7 @@ WMFVideoMFTManager
 WMFVideoMFTManager
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 mozilla
@@ -510,7 +496,7 @@ if
 (
 aConfig
 .
-mime_type
+mMimeType
 .
 EqualsLiteral
 (
@@ -524,7 +510,7 @@ mp4
 |
 aConfig
 .
-mime_type
+mMimeType
 .
 EqualsLiteral
 (
@@ -546,7 +532,7 @@ if
 (
 aConfig
 .
-mime_type
+mMimeType
 .
 EqualsLiteral
 (
@@ -572,7 +558,7 @@ if
 (
 aConfig
 .
-mime_type
+mMimeType
 .
 EqualsLiteral
 (

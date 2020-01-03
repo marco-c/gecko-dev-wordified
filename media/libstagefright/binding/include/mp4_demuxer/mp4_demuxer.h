@@ -329,7 +329,10 @@ mCrypto
 ;
 }
 const
-AudioDecoderConfig
+mozilla
+:
+:
+AudioInfo
 &
 AudioConfig
 (
@@ -340,7 +343,10 @@ mAudioConfig
 ;
 }
 const
-VideoDecoderConfig
+mozilla
+:
+:
+VideoInfo
 &
 VideoConfig
 (
@@ -442,10 +448,10 @@ MetaData
 aMetaData
 )
 ;
-AudioDecoderConfig
+MP4AudioInfo
 mAudioConfig
 ;
-VideoDecoderConfig
+MP4VideoInfo
 mVideoConfig
 ;
 CryptoFile

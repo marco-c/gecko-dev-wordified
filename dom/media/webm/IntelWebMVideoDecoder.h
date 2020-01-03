@@ -171,9 +171,7 @@ h
 #
 include
 "
-mp4_demuxer
-/
-DecoderData
+MediaInfo
 .
 h
 "
@@ -432,10 +430,7 @@ mMonitor
 ;
 nsAutoPtr
 <
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 >
 mDecoderConfig
 ;

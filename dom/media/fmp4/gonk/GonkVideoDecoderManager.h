@@ -278,10 +278,7 @@ ImageContainer
 *
 aImageContainer
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 )

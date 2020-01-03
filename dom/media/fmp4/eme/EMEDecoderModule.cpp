@@ -175,9 +175,7 @@ h
 #
 include
 "
-mp4_demuxer
-/
-DecoderData
+MediaInfo
 .
 h
 "
@@ -1338,7 +1336,7 @@ EMEDecoderModule
 CreateVideoDecoder
 (
 const
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 layers
@@ -1367,7 +1365,7 @@ mCDMDecodesVideo
 &
 aConfig
 .
-crypto
+mCrypto
 .
 mValid
 )
@@ -1449,7 +1447,7 @@ if
 !
 aConfig
 .
-crypto
+mCrypto
 .
 mValid
 )
@@ -1495,7 +1493,7 @@ EMEDecoderModule
 CreateAudioDecoder
 (
 const
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -1513,7 +1511,7 @@ mCDMDecodesAudio
 &
 aConfig
 .
-crypto
+mCrypto
 .
 mValid
 )
@@ -1591,7 +1589,7 @@ if
 !
 aConfig
 .
-crypto
+mCrypto
 .
 mValid
 )
@@ -1637,10 +1635,7 @@ EMEDecoderModule
 DecoderNeedsConversion
 (
 const
-mp4_demuxer
-:
-:
-TrackConfig
+TrackInfo
 &
 aConfig
 )
@@ -1650,7 +1645,7 @@ if
 (
 aConfig
 .
-IsVideoConfig
+IsVideo
 (
 )
 )

@@ -907,13 +907,13 @@ if
 !
 mVideoConfig
 .
-duration
+mDuration
 &
 &
 !
 mAudioConfig
 .
-duration
+mDuration
 &
 &
 metaData
@@ -945,11 +945,11 @@ one
 .
 mVideoConfig
 .
-duration
+mDuration
 =
 mAudioConfig
 .
-duration
+mDuration
 =
 movieDuration
 ;
@@ -1169,10 +1169,10 @@ max
 (
 mVideoConfig
 .
-duration
+mDuration
 mAudioConfig
 .
-duration
+mDuration
 )
 ;
 }
@@ -1366,7 +1366,7 @@ mMode
 =
 mAudioConfig
 .
-crypto
+mCrypto
 .
 mMode
 ;
@@ -1379,7 +1379,7 @@ mIVSize
 =
 mAudioConfig
 .
-crypto
+mCrypto
 .
 mIVSize
 ;
@@ -1394,7 +1394,7 @@ AppendElements
 (
 mAudioConfig
 .
-crypto
+mCrypto
 .
 mKeyId
 )
@@ -1472,7 +1472,7 @@ mExtraData
 =
 mVideoConfig
 .
-extra_data
+mExtraData
 ;
 if
 (
@@ -1507,7 +1507,7 @@ mMode
 =
 mVideoConfig
 .
-crypto
+mCrypto
 .
 mMode
 ;
@@ -1522,7 +1522,7 @@ AppendElements
 (
 mVideoConfig
 .
-crypto
+mCrypto
 .
 mKeyId
 )

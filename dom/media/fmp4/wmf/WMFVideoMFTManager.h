@@ -183,10 +183,7 @@ public
 WMFVideoMFTManager
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 mozilla

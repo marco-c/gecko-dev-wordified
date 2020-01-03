@@ -198,10 +198,7 @@ MediaDataDecoderCallback
 *
 aCallback
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 ImageContainer

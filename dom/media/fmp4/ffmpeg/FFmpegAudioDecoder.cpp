@@ -134,15 +134,6 @@ FFmpegAudioDecoder
 h
 "
 #
-include
-"
-mp4_demuxer
-/
-Adts
-.
-h
-"
-#
 define
 MAX_CHANNELS
 16
@@ -164,10 +155,7 @@ MediaDataDecoderCallback
 *
 aCallback
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 )
@@ -179,7 +167,7 @@ GetCodecId
 (
 aConfig
 .
-mime_type
+mMimeType
 )
 )
 mCallback
@@ -220,7 +208,7 @@ AppendElements
 *
 aConfig
 .
-audio_specific_config
+mCodecSpecificConfig
 )
 ;
 }

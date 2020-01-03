@@ -179,10 +179,7 @@ public
 AppleATDecoder
 (
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -248,10 +245,7 @@ the
 config
 .
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 mConfig
 ;

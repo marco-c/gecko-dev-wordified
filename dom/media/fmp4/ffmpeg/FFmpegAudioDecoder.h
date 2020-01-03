@@ -164,10 +164,7 @@ MediaDataDecoderCallback
 *
 aCallback
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 )

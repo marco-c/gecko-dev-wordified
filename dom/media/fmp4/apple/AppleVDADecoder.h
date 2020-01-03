@@ -324,10 +324,7 @@ AppleVDADecoder
 CreateVDADecoder
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -347,10 +344,7 @@ aImageContainer
 AppleVDADecoder
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 FlushableMediaTaskQueue

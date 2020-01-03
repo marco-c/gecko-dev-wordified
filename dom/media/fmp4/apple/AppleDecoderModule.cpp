@@ -821,10 +821,7 @@ AppleDecoderModule
 CreateVideoDecoder
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 layers
@@ -954,10 +951,7 @@ AppleDecoderModule
 CreateAudioDecoder
 (
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -1034,10 +1028,7 @@ AppleDecoderModule
 DecoderNeedsConversion
 (
 const
-mp4_demuxer
-:
-:
-TrackConfig
+TrackInfo
 &
 aConfig
 )
@@ -1047,7 +1038,7 @@ if
 (
 aConfig
 .
-IsVideoConfig
+IsVideo
 (
 )
 )

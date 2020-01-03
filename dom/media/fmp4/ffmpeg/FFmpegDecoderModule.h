@@ -203,10 +203,7 @@ MediaDataDecoder
 CreateVideoDecoder
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 layers
@@ -263,10 +260,7 @@ MediaDataDecoder
 CreateAudioDecoder
 (
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -350,10 +344,7 @@ ConversionRequired
 DecoderNeedsConversion
 (
 const
-mp4_demuxer
-:
-:
-TrackConfig
+TrackInfo
 &
 aConfig
 )
@@ -364,7 +355,7 @@ if
 (
 aConfig
 .
-IsVideoConfig
+IsVideo
 (
 )
 &
@@ -372,7 +363,7 @@ IsVideoConfig
 (
 aConfig
 .
-mime_type
+mMimeType
 .
 EqualsLiteral
 (
@@ -386,7 +377,7 @@ avc
 |
 aConfig
 .
-mime_type
+mMimeType
 .
 EqualsLiteral
 (

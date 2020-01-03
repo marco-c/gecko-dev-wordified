@@ -233,9 +233,7 @@ h
 #
 include
 "
-mp4_demuxer
-/
-DecoderData
+MediaInfo
 .
 h
 "
@@ -992,10 +990,7 @@ PlatformDecoderModule
 CreateDecoder
 (
 const
-mp4_demuxer
-:
-:
-TrackConfig
+TrackInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -1027,7 +1022,7 @@ if
 (
 aConfig
 .
-IsAudioConfig
+IsAudio
 (
 )
 )
@@ -1039,10 +1034,7 @@ CreateAudioDecoder
 static_cast
 <
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 >
 (
@@ -1065,7 +1057,7 @@ if
 !
 aConfig
 .
-IsVideoConfig
+IsVideo
 (
 )
 )
@@ -1094,10 +1086,7 @@ this
 static_cast
 <
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 >
 (
@@ -1119,10 +1108,7 @@ CreateVideoDecoder
 static_cast
 <
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 >
 (
