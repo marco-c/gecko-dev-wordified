@@ -345,7 +345,6 @@ mProfile
 ;
 void
 *
-const
 mStackTop
 ;
 #
