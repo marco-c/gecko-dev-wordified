@@ -20606,9 +20606,9 @@ eDrop
 ;
 _ASSIGN_eventName
 (
-NS_DRAGDROP_ENTER
+eDragEnter
 "
-NS_DND_ENTER
+eDragEnter
 "
 )
 ;

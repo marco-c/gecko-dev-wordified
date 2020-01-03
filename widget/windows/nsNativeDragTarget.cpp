@@ -1666,7 +1666,7 @@ the
 event
 ProcessDrag
 (
-NS_DRAGDROP_ENTER
+eDragEnter
 grfKeyState
 ptl
 pdwEffect
