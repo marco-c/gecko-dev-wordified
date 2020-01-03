@@ -341,6 +341,10 @@ gl
 GLContext
 GLContext
 ;
+friend
+class
+CompositorOGL
+;
 /
 /
 For
