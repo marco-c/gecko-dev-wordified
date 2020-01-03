@@ -301,6 +301,16 @@ ProfilerBacktrace
 aBacktrace
 )
 ;
+void
+mozilla_sampler_get_backtrace_noalloc
+(
+char
+*
+output
+size_t
+outputSize
+)
+;
 bool
 mozilla_sampler_is_active
 (
