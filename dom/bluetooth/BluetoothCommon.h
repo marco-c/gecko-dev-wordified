@@ -413,7 +413,6 @@ __FUNCTION__
 #
 __VA_ARGS__
 )
-)
 #
 define
 BT_WARNING
@@ -435,7 +434,6 @@ __FUNCTION__
 #
 #
 __VA_ARGS__
-)
 )
 #
 endif
