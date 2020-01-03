@@ -6331,6 +6331,15 @@ AllowConstantObjects
 allowObjects
 MutableHandleValue
 vp
+Value
+*
+compare
+=
+nullptr
+size_t
+ncompare
+=
+0
 NewObjectKind
 newKind
 =
