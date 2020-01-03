@@ -435,6 +435,11 @@ IsConnected
 ;
 private
 :
+void
+RunLaunchCompleteTask
+(
+)
+;
 std
 :
 :
