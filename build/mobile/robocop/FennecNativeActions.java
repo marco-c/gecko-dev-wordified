@@ -301,7 +301,7 @@ final
 int
 MAX_WAIT_MS
 =
-90000
+180000
 ;
 private
 volatile
