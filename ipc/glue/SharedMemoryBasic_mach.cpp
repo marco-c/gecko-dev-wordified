@@ -3745,7 +3745,10 @@ mach_task_self
 (
 )
 address
-vm_page_size
+round_page
+(
+mMappedSize
+)
 )
 ;
 if
