@@ -32,7 +32,7 @@ PIPE
 from
 tests
 import
-TestCase
+RefTestCase
 def
 split_path_into_dirs
 (
@@ -1380,7 +1380,7 @@ line
 def
 _map_prefixes_left
 (
-test_list
+test_gen
 )
 :
     
@@ -1427,7 +1427,7 @@ byprefix
 for
 t
 in
-test_list
+test_gen
 :
         
 left
@@ -1487,7 +1487,7 @@ _emit_manifest_at
 (
 location
 relative
-test_list
+test_gen
 depth
 )
 :
@@ -1523,13 +1523,13 @@ directory
 to
 current
     
-test_list
+test_gen
 -
-[
+(
 str
-]
+)
 :
-list
+generator
 of
 all
 test
@@ -1560,7 +1560,7 @@ manifests
 =
 _map_prefixes_left
 (
-test_list
+test_gen
 )
     
 filename
@@ -1839,7 +1839,7 @@ def
 make_manifests
 (
 location
-test_list
+test_gen
 )
 :
     
@@ -1848,7 +1848,7 @@ _emit_manifest_at
 location
 '
 '
-test_list
+test_gen
 0
 )
 def
@@ -3045,7 +3045,7 @@ count
 return
 count
 def
-load
+load_reftests
 (
 location
 requested_paths
@@ -3242,7 +3242,7 @@ fullpath
         
 testcase
 =
-TestCase
+RefTestCase
 (
 os
 .

@@ -601,7 +601,7 @@ relpath
 =
 _relpath
 class
-Test
+JitTest
 :
     
 VALGRIND_CMD
@@ -1053,7 +1053,7 @@ self
         
 t
 =
-Test
+JitTest
 (
 self
 .
@@ -2240,7 +2240,7 @@ js
 -
 cache
 '
-Test
+JitTest
 .
 CacheDir
 ]
@@ -6671,7 +6671,7 @@ options
 remote_test_root
 )
     
-Test
+JitTest
 .
 CacheDir
 =
@@ -6694,7 +6694,7 @@ dm
 .
 mkDir
 (
-Test
+JitTest
 .
 CacheDir
 )

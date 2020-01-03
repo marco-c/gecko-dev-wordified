@@ -427,7 +427,7 @@ JITFLAGS
 variant
 ]
 class
-Test
+RefTest
 (
 object
 )
@@ -579,7 +579,7 @@ path
 )
         
 return
-Test
+RefTest
 .
 prefix_command
 (
@@ -644,7 +644,7 @@ options
 \
               
 +
-Test
+RefTest
 .
 prefix_command
 (
@@ -664,9 +664,9 @@ path
 return
 cmd
 class
-TestCase
+RefTestCase
 (
-Test
+RefTest
 )
 :
     
@@ -697,7 +697,7 @@ path
 )
 :
         
-Test
+RefTest
 .
 __init__
 (
