@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-from
-marionette_driver
 import
 errors
 import
