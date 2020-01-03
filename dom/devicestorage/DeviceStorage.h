@@ -1380,6 +1380,11 @@ IsRemovable
 )
 ;
 bool
+LowDiskSpace
+(
+)
+;
+bool
 Default
 (
 )
