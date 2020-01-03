@@ -11279,6 +11279,9 @@ global
 case
 JSOP_SETGNAME
 :
+case
+JSOP_STRICTSETGNAME
+:
 {
 PropertyName
 *
