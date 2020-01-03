@@ -511,6 +511,10 @@ chunkLen
 ;
 zxx_stream
 zStream
+(
+&
+allocator
+)
 ;
 zStream
 .
