@@ -856,6 +856,11 @@ float
 aVolume
 )
 ;
+float
+GetAudioGlobalVolume
+(
+)
+;
 virtual
 void
 SetServiceWorkersTestingEnabled

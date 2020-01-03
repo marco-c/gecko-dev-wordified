@@ -194,6 +194,13 @@ h
 "
 #
 include
+"
+AudioChannelCommon
+.
+h
+"
+#
+include
 <
 algorithm
 >
