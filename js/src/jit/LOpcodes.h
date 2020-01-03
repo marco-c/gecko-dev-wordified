@@ -1663,7 +1663,12 @@ GetDOMProperty
 \
 _
 (
-GetDOMMember
+GetDOMMemberV
+)
+\
+_
+(
+GetDOMMemberT
 )
 \
 _
