@@ -1340,7 +1340,6 @@ true
 "
 jsdebugger
 "
-false
 )
 ;
 }
@@ -1649,7 +1648,6 @@ tool
 "
 webconsole
 "
-isTabActor
 )
 {
 let
@@ -1665,9 +1663,6 @@ gClient
 chrome
 :
 chrome
-isTabActor
-:
-isTabActor
 }
 ;
 devtools
@@ -1736,14 +1731,6 @@ close
 )
 ;
 }
-console
-.
-error
-.
-bind
-(
-console
-)
 )
 ;
 window
@@ -1753,14 +1740,6 @@ close
 )
 ;
 }
-console
-.
-error
-.
-bind
-(
-console
-)
 )
 ;
 }

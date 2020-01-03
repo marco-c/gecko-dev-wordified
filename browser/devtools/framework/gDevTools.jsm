@@ -4934,9 +4934,6 @@ client
 chrome
 :
 true
-isTabActor
-:
-false
 }
 ;
 return
