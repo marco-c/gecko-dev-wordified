@@ -7812,6 +7812,7 @@ JSAddonId
 *
 addonId
 ;
+{
 /
 /
 We
@@ -7870,17 +7871,13 @@ addonId
 return
 false
 ;
+}
 return
 XPCWrappedNativeScope
 :
 :
 SetAddonInterposition
 (
-jsapi
-.
-cx
-(
-)
 addonId
 interposition
 )
