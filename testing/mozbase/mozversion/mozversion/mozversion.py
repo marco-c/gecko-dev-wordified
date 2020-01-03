@@ -656,6 +656,24 @@ if
 binary
 :
             
+#
+on
+Windows
+the
+binary
+may
+be
+specified
+with
+or
+without
+the
+            
+#
+.
+exe
+extension
+            
 if
 not
 os
@@ -665,6 +683,22 @@ path
 exists
 (
 binary
+)
+and
+not
+os
+.
+path
+.
+exists
+(
+binary
++
+                                                                 
+'
+.
+exe
+'
 )
 :
                 
