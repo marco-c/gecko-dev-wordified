@@ -454,10 +454,16 @@ aAllowedFiles
 .
 push_back
 (
+std
+:
+:
+wstring
+(
 userDirPath
 .
 get
 (
+)
 )
 )
 ;

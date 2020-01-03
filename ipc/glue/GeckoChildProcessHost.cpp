@@ -3255,10 +3255,16 @@ aAllowedFilesReadWrite
 .
 push_back
 (
+std
+:
+:
+wstring
+(
 resolvedFilePath
 .
 get
 (
+)
 )
 )
 ;
