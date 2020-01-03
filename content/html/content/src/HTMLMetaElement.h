@@ -139,6 +139,7 @@ nsIDOMHTMLMetaElement
 {
 public
 :
+explicit
 HTMLMetaElement
 (
 already_AddRefed

@@ -160,6 +160,7 @@ nsStubMutationObserver
 {
 public
 :
+explicit
 HTMLStyleElement
 (
 already_AddRefed

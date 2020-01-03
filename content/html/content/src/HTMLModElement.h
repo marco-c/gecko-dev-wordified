@@ -137,6 +137,7 @@ nsGenericHTMLElement
 {
 public
 :
+explicit
 HTMLModElement
 (
 already_AddRefed

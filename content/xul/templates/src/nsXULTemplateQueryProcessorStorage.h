@@ -206,6 +206,7 @@ NS_DECL_ISUPPORTS
 nsISimpleEnumerator
 interface
 NS_DECL_NSISIMPLEENUMERATOR
+explicit
 nsXULTemplateResultSetStorage
 (
 mozIStorageStatement

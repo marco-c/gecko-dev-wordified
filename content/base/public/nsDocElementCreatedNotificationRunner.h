@@ -149,6 +149,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsDocElementCreatedNotificationRunner
 (
 nsIDocument

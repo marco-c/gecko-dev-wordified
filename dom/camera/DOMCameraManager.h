@@ -608,6 +608,7 @@ nsDOMCameraManager
 )
 MOZ_DELETE
 ;
+explicit
 nsDOMCameraManager
 (
 nsPIDOMWindow

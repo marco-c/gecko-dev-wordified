@@ -4282,6 +4282,7 @@ FunctionCall
 {
 public
 :
+explicit
 txErrorFunctionCall
 (
 nsIAtom

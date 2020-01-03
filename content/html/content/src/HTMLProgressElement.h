@@ -149,6 +149,7 @@ nsGenericHTMLElement
 {
 public
 :
+explicit
 HTMLProgressElement
 (
 already_AddRefed

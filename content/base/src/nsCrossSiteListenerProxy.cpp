@@ -768,6 +768,7 @@ LinkedListElement
 CacheEntry
 >
 {
+explicit
 CacheEntry
 (
 nsCString

@@ -156,6 +156,7 @@ nsIDOMHTMLMapElement
 {
 public
 :
+explicit
 HTMLMapElement
 (
 already_AddRefed

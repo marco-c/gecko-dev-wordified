@@ -7926,6 +7926,7 @@ false
 )
 {
 }
+explicit
 nsFilePickerFilter
 (
 int32_t

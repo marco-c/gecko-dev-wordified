@@ -190,6 +190,7 @@ nsIColorPickerShownCallback
 {
 public
 :
+explicit
 ColorPickerShownCallback
 (
 ColorPickerParent

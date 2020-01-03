@@ -264,6 +264,7 @@ txInstruction
 {
 public
 :
+explicit
 txApplyTemplates
 (
 const
@@ -336,6 +337,7 @@ txInstruction
 {
 public
 :
+explicit
 txCallTemplate
 (
 const
@@ -358,6 +360,7 @@ txInstruction
 {
 public
 :
+explicit
 txCheckParam
 (
 const
@@ -471,6 +474,7 @@ txCopyBase
 {
 public
 :
+explicit
 txCopyOf
 (
 nsAutoPtr
@@ -521,6 +525,7 @@ txInstruction
 {
 public
 :
+explicit
 txGoTo
 (
 txInstruction
@@ -543,6 +548,7 @@ txInstruction
 {
 public
 :
+explicit
 txInsertAttrSet
 (
 const
@@ -565,6 +571,7 @@ txInstruction
 {
 public
 :
+explicit
 txLoopNodeSet
 (
 txInstruction
@@ -644,6 +651,7 @@ txInstruction
 {
 public
 :
+explicit
 txMessage
 (
 bool
@@ -779,6 +787,7 @@ txInstruction
 {
 public
 :
+explicit
 txProcessingInstruction
 (
 nsAutoPtr
@@ -807,6 +816,7 @@ txInstruction
 {
 public
 :
+explicit
 txPushNewContext
 (
 nsAutoPtr
@@ -958,6 +968,7 @@ txInstruction
 {
 public
 :
+explicit
 txPushStringHandler
 (
 bool
@@ -978,6 +989,7 @@ txInstruction
 {
 public
 :
+explicit
 txRemoveVariable
 (
 const

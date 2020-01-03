@@ -99,6 +99,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 GamepadButton
 (
 nsISupports

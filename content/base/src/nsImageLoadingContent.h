@@ -1357,6 +1357,7 @@ observers
 struct
 ImageObserver
 {
+explicit
 ImageObserver
 (
 imgINotificationObserver

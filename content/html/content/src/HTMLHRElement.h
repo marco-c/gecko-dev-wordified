@@ -151,6 +151,7 @@ nsIDOMHTMLHRElement
 {
 public
 :
+explicit
 HTMLHRElement
 (
 already_AddRefed

@@ -250,6 +250,7 @@ StopPlaying
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 Agent
 (
 AudioChannel

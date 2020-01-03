@@ -2311,6 +2311,7 @@ ClearCacheEnumeratorData
 {
 public
 :
+explicit
 ClearCacheEnumeratorData
 (
 uint32_t

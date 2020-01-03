@@ -320,6 +320,7 @@ nsCycleCollectionTraversalCallback
 {
 public
 :
+explicit
 DebugWrapperTraversalCallback
 (
 void

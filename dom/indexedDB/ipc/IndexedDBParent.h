@@ -439,6 +439,7 @@ AutoSetCurrentTransaction
 {
 public
 :
+explicit
 AutoSetCurrentTransaction
 (
 IDBTransaction
@@ -657,6 +658,7 @@ mActor
 ;
 public
 :
+explicit
 WeakEventListener
 (
 T
@@ -733,6 +735,7 @@ mEventListener
 ;
 public
 :
+explicit
 AutoWeakEventListener
 (
 T
@@ -1011,6 +1014,7 @@ mDisconnected
 ;
 public
 :
+explicit
 IndexedDBParent
 (
 ContentParent
@@ -1018,6 +1022,7 @@ ContentParent
 aContentParent
 )
 ;
+explicit
 IndexedDBParent
 (
 TabParent
@@ -2384,6 +2389,7 @@ const
 ;
 protected
 :
+explicit
 IndexedDBCursorParent
 (
 IDBCursor
@@ -5077,6 +5083,7 @@ aEvent
 ;
 protected
 :
+explicit
 IndexedDBDeleteDatabaseRequestParent
 (
 IDBFactory

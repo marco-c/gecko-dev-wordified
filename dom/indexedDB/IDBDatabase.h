@@ -978,6 +978,7 @@ MOZ_OVERRIDE
 ;
 private
 :
+explicit
 IDBDatabase
 (
 IDBWrapperCache

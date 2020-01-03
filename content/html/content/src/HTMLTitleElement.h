@@ -163,6 +163,7 @@ Element
 :
 SetText
 ;
+explicit
 HTMLTitleElement
 (
 already_AddRefed

@@ -1968,6 +1968,7 @@ DirPickerRecursiveFileEnumerator
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 DirPickerRecursiveFileEnumerator
 (
 nsIFile

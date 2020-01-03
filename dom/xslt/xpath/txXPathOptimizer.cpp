@@ -150,6 +150,7 @@ txIEvalContext
 {
 public
 :
+explicit
 txEarlyEvalContext
 (
 txResultRecycler

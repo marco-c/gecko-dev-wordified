@@ -424,6 +424,7 @@ txAOutputHandlerFactory
 {
 public
 :
+explicit
 txToFragmentHandlerFactory
 (
 nsIDOMDocumentFragment
@@ -1051,6 +1052,7 @@ txIGlobalParameter
 {
 public
 :
+explicit
 txVariable
 (
 nsIVariant
@@ -1073,6 +1075,7 @@ value
 )
 ;
 }
+explicit
 txVariable
 (
 txAExprResult
@@ -2116,6 +2119,7 @@ txMozillaXSLTProcessor
 >
 mProcessor
 ;
+explicit
 nsTransformBlockerEvent
 (
 txMozillaXSLTProcessor

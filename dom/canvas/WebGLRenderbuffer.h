@@ -166,6 +166,7 @@ WebGLFramebufferAttachable
 {
 public
 :
+explicit
 WebGLRenderbuffer
 (
 WebGLContext

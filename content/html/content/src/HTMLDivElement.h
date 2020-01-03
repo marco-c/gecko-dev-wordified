@@ -139,6 +139,7 @@ nsIDOMHTMLDivElement
 {
 public
 :
+explicit
 HTMLDivElement
 (
 already_AddRefed

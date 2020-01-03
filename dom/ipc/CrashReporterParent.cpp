@@ -713,6 +713,7 @@ nsRunnable
 {
 public
 :
+explicit
 NotifyOnMainThread
 (
 CrashReporterParent

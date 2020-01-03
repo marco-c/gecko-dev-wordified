@@ -165,6 +165,7 @@ nsXPathNSResolver
 }
 public
 :
+explicit
 nsXPathNSResolver
 (
 nsIDOMNode

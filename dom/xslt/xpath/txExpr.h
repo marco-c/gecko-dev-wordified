@@ -1762,6 +1762,7 @@ given
 type
 *
 /
+explicit
 txCoreFunctionCall
 (
 eType
@@ -2158,6 +2159,7 @@ given
 type
 *
 /
+explicit
 txNodeTypeTest
 (
 NodeType
@@ -2852,6 +2854,7 @@ for
 evaluation
 *
 /
+explicit
 FilterExpr
 (
 Expr
@@ -2889,6 +2892,7 @@ Expr
 {
 public
 :
+explicit
 txLiteralExpr
 (
 double
@@ -2906,6 +2910,7 @@ nullptr
 )
 {
 }
+explicit
 txLiteralExpr
 (
 const
@@ -2925,6 +2930,7 @@ nullptr
 )
 {
 }
+explicit
 txLiteralExpr
 (
 txAExprResult
@@ -2976,6 +2982,7 @@ Expr
 {
 public
 :
+explicit
 UnaryExpr
 (
 Expr
@@ -4078,6 +4085,7 @@ public
 #
 ifdef
 TX_TO_STRING
+explicit
 txErrorExpr
 (
 const

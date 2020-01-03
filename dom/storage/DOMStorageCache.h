@@ -478,6 +478,7 @@ Release
 void
 )
 ;
+explicit
 DOMStorageCache
 (
 const
@@ -1792,6 +1793,7 @@ DOMStorageUsageBridge
 {
 public
 :
+explicit
 DOMStorageUsage
 (
 const

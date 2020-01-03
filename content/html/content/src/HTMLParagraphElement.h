@@ -139,6 +139,7 @@ nsIDOMHTMLParagraphElement
 {
 public
 :
+explicit
 HTMLParagraphElement
 (
 already_AddRefed

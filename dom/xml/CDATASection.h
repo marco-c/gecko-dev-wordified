@@ -179,6 +179,7 @@ CDATASection
 ;
 public
 :
+explicit
 CDATASection
 (
 already_AddRefed
@@ -204,6 +205,7 @@ Init
 )
 ;
 }
+explicit
 CDATASection
 (
 nsNodeInfoManager

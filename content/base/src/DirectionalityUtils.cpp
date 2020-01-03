@@ -3493,6 +3493,7 @@ map
 }
 public
 :
+explicit
 nsTextNodeDirectionalityMap
 (
 nsINode

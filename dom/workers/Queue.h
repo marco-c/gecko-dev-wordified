@@ -418,6 +418,7 @@ mHost
 ;
 public
 :
+explicit
 AutoLock
 (
 LockingWithMutex
@@ -479,6 +480,7 @@ AutoLock
 {
 public
 :
+explicit
 AutoLock
 (
 NoLocking

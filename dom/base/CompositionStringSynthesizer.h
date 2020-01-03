@@ -159,6 +159,7 @@ nsICompositionStringSynthesizer
 {
 public
 :
+explicit
 CompositionStringSynthesizer
 (
 nsPIDOMWindow

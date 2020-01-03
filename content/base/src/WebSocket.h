@@ -784,6 +784,7 @@ constructor
 &
 &
 distructor
+explicit
 WebSocket
 (
 nsPIDOMWindow
