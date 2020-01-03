@@ -68940,6 +68940,16 @@ identifier
 1
 ;
 }
+if
+(
+cmdDetails
+.
+typeOfCommand
+=
+=
+STK_CMD_SELECT_ITEM
+)
+{
 /
 /
 The
@@ -68963,6 +68973,7 @@ commandQualifier
 &
 0x03
 ;
+}
 /
 /
 Help
