@@ -763,6 +763,15 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
+nsEventStatus
+DispatchAPZAwareEvent
+(
+WidgetInputEvent
+*
+aEvent
+)
+MOZ_OVERRIDE
+;
 NS_IMETHOD
 CaptureRollupEvents
 (
