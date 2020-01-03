@@ -9219,6 +9219,7 @@ Callback
 nsresult
 rv
 )
+override
 {
 if
 (
@@ -9364,6 +9365,7 @@ nsCString
 &
 sites
 )
+override
 {
 /
 /
@@ -9837,6 +9839,7 @@ nsCString
 &
 sites
 )
+override
 {
 retVal
 =
