@@ -213,7 +213,7 @@ uint8_t
 >
 &
 aExtraData
-GMPAudioDecoderProxyCallback
+GMPAudioDecoderCallbackProxy
 *
 aCallback
 )
@@ -331,7 +331,7 @@ GMPParent
 >
 mPlugin
 ;
-GMPAudioDecoderProxyCallback
+GMPAudioDecoderCallbackProxy
 *
 mCallback
 ;

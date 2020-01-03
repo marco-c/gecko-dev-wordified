@@ -278,7 +278,7 @@ uint8_t
 >
 &
 aExtraData
-GMPAudioDecoderProxyCallback
+GMPAudioDecoderCallbackProxy
 *
 aCallback
 )

@@ -178,7 +178,7 @@ EMEAudioDecoder
 public
 MediaDataDecoder
 public
-GMPAudioDecoderProxyCallback
+GMPAudioDecoderCallbackProxy
 {
 typedef
 mp4_demuxer
@@ -263,7 +263,7 @@ MOZ_OVERRIDE
 ;
 /
 /
-GMPAudioDecoderProxyCallback
+GMPAudioDecoderCallbackProxy
 implementation
 .
 virtual

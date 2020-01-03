@@ -143,7 +143,7 @@ GMPTypes
 h
 "
 class
-GMPAudioDecoderProxyCallback
+GMPAudioDecoderCallbackProxy
 :
 public
 GMPCallbackBase
@@ -152,7 +152,7 @@ public
 :
 virtual
 ~
-GMPAudioDecoderProxyCallback
+GMPAudioDecoderCallbackProxy
 (
 )
 {
@@ -264,7 +264,7 @@ uint8_t
 >
 &
 aExtraData
-GMPAudioDecoderProxyCallback
+GMPAudioDecoderCallbackProxy
 *
 aCallback
 )
