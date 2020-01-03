@@ -3400,7 +3400,7 @@ if
 (
 mBounds
 .
-IsEmpty
+IsAllZero
 (
 )
 )
