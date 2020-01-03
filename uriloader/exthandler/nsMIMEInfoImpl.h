@@ -306,6 +306,7 @@ nsIUTF8StringEnumerator
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetFileExtensions
@@ -315,6 +316,7 @@ nsACString
 &
 aExtensions
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ExtensionExists
@@ -327,6 +329,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendExtension
@@ -336,6 +339,7 @@ nsACString
 &
 aExtension
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPrimaryExtension
@@ -344,6 +348,7 @@ nsACString
 &
 aPrimaryExtension
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrimaryExtension
@@ -353,6 +358,7 @@ nsACString
 &
 aPrimaryExtension
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetType
@@ -361,6 +367,7 @@ nsACString
 &
 aType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetMIMEType
@@ -369,6 +376,7 @@ nsACString
 &
 aMIMEType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDescription
@@ -377,6 +385,7 @@ nsAString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetDescription
@@ -386,6 +395,7 @@ nsAString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Equals
@@ -397,6 +407,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPreferredApplicationHandler
@@ -406,6 +417,7 @@ nsIHandlerApp
 *
 aPreferredAppHandler
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPreferredApplicationHandler
@@ -414,6 +426,7 @@ nsIHandlerApp
 *
 aPreferredAppHandler
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPossibleApplicationHandlers
@@ -423,6 +436,7 @@ nsIMutableArray
 *
 aPossibleAppHandlers
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDefaultDescription
@@ -431,6 +445,7 @@ nsAString
 &
 aDefaultDescription
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 LaunchWithFile
@@ -439,6 +454,7 @@ nsIFile
 *
 aFile
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 LaunchWithURI
@@ -450,6 +466,7 @@ nsIInterfaceRequestor
 *
 aWindowContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPreferredAction
@@ -458,6 +475,7 @@ nsHandlerInfoAction
 *
 aPreferredAction
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPreferredAction
@@ -465,6 +483,7 @@ SetPreferredAction
 nsHandlerInfoAction
 aPreferredAction
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAlwaysAskBeforeHandling
@@ -473,6 +492,7 @@ bool
 *
 aAlwaysAskBeforeHandling
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetAlwaysAskBeforeHandling
@@ -480,6 +500,7 @@ SetAlwaysAskBeforeHandling
 bool
 aAlwaysAskBeforeHandling
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPossibleLocalHandlers
@@ -489,6 +510,7 @@ nsIArray
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 enum
 HandlerClass

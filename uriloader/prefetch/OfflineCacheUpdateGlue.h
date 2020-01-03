@@ -179,6 +179,7 @@ uint16_t
 *
 aStatus
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -203,6 +204,7 @@ bool
 *
 aPartial
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -227,6 +229,7 @@ bool
 *
 aIsUpgrade
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -251,6 +254,7 @@ nsACString
 &
 aUpdateDomain
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -276,6 +280,7 @@ nsIURI
 *
 aManifestURI
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -300,6 +305,7 @@ bool
 *
 aSucceeded
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -331,6 +337,7 @@ nsIURI
 *
 aDocumentURI
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -364,6 +371,7 @@ nsIObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -391,6 +399,7 @@ nsIURI
 *
 aURI
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -417,6 +426,7 @@ aObserver
 bool
 aHoldWeak
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -442,6 +452,7 @@ nsIOfflineCacheUpdateObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -466,6 +477,7 @@ uint64_t
 *
 _result
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -487,6 +499,7 @@ NS_IMETHOD
 Cancel
 (
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -537,6 +550,7 @@ Schedule
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -558,6 +572,7 @@ aAppID
 bool
 aInBrowser
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER
 OfflineCacheUpdateGlue
