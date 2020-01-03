@@ -942,7 +942,9 @@ NS_ASSERTION
 (
 mTable
 .
-ops
+IsInitialized
+(
+)
 "
 nsTHashtable
 was
@@ -1158,7 +1160,9 @@ NS_ASSERTION
 (
 mTable
 .
-ops
+IsInitialized
+(
+)
 "
 nsTHashtable
 was
@@ -1224,7 +1228,9 @@ NS_ASSERTION
 (
 mTable
 .
-ops
+IsInitialized
+(
+)
 "
 nsTHashtable
 was
@@ -1502,7 +1508,9 @@ NS_ASSERTION
 (
 mTable
 .
-ops
+IsInitialized
+(
+)
 "
 nsTHashtable
 was
@@ -1559,7 +1567,9 @@ NS_ASSERTION
 (
 mTable
 .
-ops
+IsInitialized
+(
+)
 "
 nsTHashtable
 was
@@ -2072,7 +2082,9 @@ NS_ASSERTION
 (
 mTable
 .
-ops
+IsInitialized
+(
+)
 "
 nsTHashtable
 was
@@ -2569,7 +2581,9 @@ if
 (
 mTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish

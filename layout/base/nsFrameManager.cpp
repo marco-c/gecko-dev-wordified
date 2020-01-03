@@ -1111,7 +1111,9 @@ if
 (
 mPlaceholderMap
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PlaceholderMapEntry
@@ -1206,7 +1208,9 @@ if
 !
 mPlaceholderMap
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableInit
@@ -1333,7 +1337,9 @@ if
 (
 mPlaceholderMap
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableRemove
@@ -1407,7 +1413,9 @@ if
 (
 mPlaceholderMap
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableEnumerate

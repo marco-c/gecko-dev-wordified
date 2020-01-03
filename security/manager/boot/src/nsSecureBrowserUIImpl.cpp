@@ -719,7 +719,9 @@ if
 (
 mTransferringRequests
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
@@ -2422,7 +2424,9 @@ if
 (
 mTransferringRequests
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish

@@ -3258,7 +3258,9 @@ if
 !
 gHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 return
 NS_ERROR_NOT_INITIALIZED

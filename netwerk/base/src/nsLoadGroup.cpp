@@ -869,7 +869,9 @@ if
 (
 mRequests
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish

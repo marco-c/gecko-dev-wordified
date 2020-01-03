@@ -1272,7 +1272,9 @@ propertyList
 >
 mObjectValueMap
 .
-ops
+IsInitialized
+(
+)
 )
 {
 delete

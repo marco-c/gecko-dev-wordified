@@ -2355,7 +2355,9 @@ amount
 =
 sEventListenerManagersHash
 .
-ops
+IsInitialized
+(
+)
 ?
 PL_DHashTableSizeOfExcludingThis
 (
@@ -2848,7 +2850,9 @@ if
 !
 sEventListenerManagersHash
 .
-ops
+IsInitialized
+(
+)
 )
 {
 static
@@ -9856,7 +9860,9 @@ if
 (
 sEventListenerManagersHash
 .
-ops
+IsInitialized
+(
+)
 )
 {
 NS_ASSERTION
@@ -21697,7 +21703,9 @@ if
 (
 sEventListenerManagersHash
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableEnumerate
@@ -21735,7 +21743,9 @@ if
 !
 sEventListenerManagersHash
 .
-ops
+IsInitialized
+(
+)
 )
 {
 /
@@ -21817,7 +21827,9 @@ if
 !
 sEventListenerManagersHash
 .
-ops
+IsInitialized
+(
+)
 )
 {
 /
@@ -21942,7 +21954,9 @@ if
 !
 sEventListenerManagersHash
 .
-ops
+IsInitialized
+(
+)
 )
 {
 /
@@ -22026,7 +22040,9 @@ if
 (
 sEventListenerManagersHash
 .
-ops
+IsInitialized
+(
+)
 )
 {
 EventListenerManagerMapEntry

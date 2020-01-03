@@ -680,7 +680,9 @@ if
 (
 gEntityToUnicode
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
@@ -694,7 +696,9 @@ if
 (
 gUnicodeToEntity
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
@@ -721,7 +725,9 @@ NS_ASSERTION
 (
 gEntityToUnicode
 .
-ops
+IsInitialized
+(
+)
 "
 no
 lookup
@@ -736,7 +742,9 @@ if
 !
 gEntityToUnicode
 .
-ops
+IsInitialized
+(
+)
 )
 return
 -
@@ -938,7 +946,9 @@ NS_ASSERTION
 (
 gUnicodeToEntity
 .
-ops
+IsInitialized
+(
+)
 "
 no
 lookup

@@ -11009,7 +11009,9 @@ tmp
 mSubDocuments
 -
 >
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableEnumerate

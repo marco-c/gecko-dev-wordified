@@ -208,7 +208,9 @@ if
 (
 t
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -302,7 +304,9 @@ if
 !
 t
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -331,7 +335,9 @@ if
 (
 t
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -366,7 +372,9 @@ if
 (
 t
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -455,7 +463,9 @@ if
 (
 t
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -490,7 +500,9 @@ if
 (
 t
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -666,7 +678,9 @@ if
 (
 t
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -818,6 +832,9 @@ New
 )
 sets
 |
+t
+-
+>
 ops
 |
 .
@@ -827,7 +844,9 @@ if
 t
 -
 >
-ops
+IsInitialized
+(
+)
 )
 {
 return

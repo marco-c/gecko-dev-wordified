@@ -2596,7 +2596,9 @@ if
 (
 mTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish

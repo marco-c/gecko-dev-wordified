@@ -4092,7 +4092,9 @@ if
 (
 mForwardArcs
 .
-ops
+IsInitialized
+(
+)
 )
 {
 /
@@ -4162,7 +4164,9 @@ if
 (
 mReverseArcs
 .
-ops
+IsInitialized
+(
+)
 )
 PL_DHashTableFinish
 (

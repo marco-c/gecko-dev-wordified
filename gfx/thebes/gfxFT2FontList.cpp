@@ -3859,7 +3859,9 @@ if
 !
 mMap
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -3933,7 +3935,9 @@ if
 !
 mMap
 .
-ops
+IsInitialized
+(
+)
 |
 |
 !
@@ -4291,7 +4295,9 @@ if
 !
 mMap
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -4438,7 +4444,9 @@ if
 !
 mMap
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return

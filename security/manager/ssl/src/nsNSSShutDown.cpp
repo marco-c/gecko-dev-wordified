@@ -279,7 +279,9 @@ if
 (
 mObjects
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
@@ -293,7 +295,9 @@ if
 (
 mPK11LogoutCancelObjects
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
