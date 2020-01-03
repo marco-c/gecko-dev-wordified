@@ -237,7 +237,7 @@ swatch
 =
 value
 .
-querySelector
+querySelectorAll
 (
 "
 .
@@ -246,6 +246,9 @@ ruleview
 colorswatch
 "
 )
+[
+1
+]
 ;
 let
 url
