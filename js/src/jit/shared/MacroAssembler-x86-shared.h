@@ -4944,7 +4944,7 @@ FloatRegister
 dest
 )
 {
-movsd
+vmovsd
 (
 src
 dest
@@ -4962,7 +4962,7 @@ FloatRegister
 dest
 )
 {
-movsd
+vmovsd
 (
 src
 dest
@@ -5163,7 +5163,7 @@ to
 avoid
 dependencies
 .
-movapd
+vmovapd
 (
 src
 dest
@@ -5668,7 +5668,7 @@ FloatRegister
 dest
 )
 {
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -5689,7 +5689,7 @@ FloatRegister
 dest
 )
 {
-movdqa
+vmovdqa
 (
 src
 dest
@@ -5726,7 +5726,7 @@ FloatRegister
 dest
 )
 {
-movdqa
+vmovdqa
 (
 src
 dest
@@ -5825,7 +5825,7 @@ FloatRegister
 dest
 )
 {
-movdqu
+vmovdqu
 (
 Operand
 (
@@ -5846,7 +5846,7 @@ FloatRegister
 dest
 )
 {
-movdqu
+vmovdqu
 (
 src
 dest
@@ -6079,9 +6079,10 @@ FloatRegister
 dest
 )
 {
-pslld
+vpslld
 (
 src
+dest
 dest
 )
 ;
@@ -6111,9 +6112,10 @@ FloatRegister
 dest
 )
 {
-psrad
+vpsrad
 (
 src
+dest
 dest
 )
 ;
@@ -6143,9 +6145,10 @@ FloatRegister
 dest
 )
 {
-psrld
+vpsrld
 (
 src
+dest
 dest
 )
 ;
@@ -6177,7 +6180,7 @@ FloatRegister
 dest
 )
 {
-movaps
+vmovaps
 (
 Operand
 (
@@ -6198,7 +6201,7 @@ FloatRegister
 dest
 )
 {
-movaps
+vmovaps
 (
 src
 dest
@@ -6235,7 +6238,7 @@ FloatRegister
 dest
 )
 {
-movaps
+vmovaps
 (
 src
 dest
@@ -6334,7 +6337,7 @@ FloatRegister
 dest
 )
 {
-movups
+vmovups
 (
 Operand
 (
@@ -6355,7 +6358,7 @@ FloatRegister
 dest
 )
 {
-movups
+vmovups
 (
 src
 dest
@@ -6798,7 +6801,7 @@ FloatRegister
 dest
 )
 {
-movss
+vmovss
 (
 src
 dest
@@ -6823,7 +6826,7 @@ FloatRegister
 dest
 )
 {
-movss
+vmovss
 (
 src
 dest
@@ -6873,7 +6876,7 @@ FloatRegister
 dest
 )
 {
-movss
+vmovss
 (
 src
 dest
@@ -6891,7 +6894,7 @@ FloatRegister
 dest
 )
 {
-movss
+vmovss
 (
 src
 dest
@@ -7092,7 +7095,7 @@ to
 avoid
 dependencies
 .
-movaps
+vmovaps
 (
 src
 dest

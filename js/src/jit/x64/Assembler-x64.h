@@ -2219,7 +2219,7 @@ FloatRegister
 src
 )
 {
-movsd
+vmovsd
 (
 Address
 (
@@ -3006,7 +3006,7 @@ kind
 }
 }
 void
-movq
+vmovq
 (
 Register
 src
@@ -3016,7 +3016,7 @@ dest
 {
 masm
 .
-movq_rr
+vmovq_rr
 (
 src
 .
@@ -3032,7 +3032,7 @@ code
 ;
 }
 void
-movq
+vmovq
 (
 FloatRegister
 src
@@ -3042,7 +3042,7 @@ dest
 {
 masm
 .
-movq_rr
+vmovq_rr
 (
 src
 .

@@ -15824,7 +15824,7 @@ output
 )
 masm
 .
-movaps
+moveFloat32x4
 (
 r
 output
@@ -16423,9 +16423,10 @@ output
 )
 masm
 .
-movss
+vmovss
 (
 value
+vector
 output
 )
 ;
@@ -17439,9 +17440,10 @@ lanesMatch
 {
 masm
 .
-movss
+vmovss
 (
 rhs
+lhs
 out
 )
 ;
@@ -18021,7 +18023,7 @@ rhsCopy
 ;
 masm
 .
-movaps
+moveFloat32x4
 (
 rhsCopy
 out
@@ -18123,7 +18125,7 @@ else
 {
 masm
 .
-movaps
+moveFloat32x4
 (
 rhs
 ScratchSimdReg
@@ -18140,7 +18142,7 @@ ScratchSimdReg
 ;
 masm
 .
-movaps
+moveFloat32x4
 (
 ScratchSimdReg
 out
@@ -18252,7 +18254,7 @@ else
 {
 masm
 .
-movaps
+moveFloat32x4
 (
 rhs
 ScratchSimdReg
@@ -18269,7 +18271,7 @@ ScratchSimdReg
 ;
 masm
 .
-movaps
+moveFloat32x4
 (
 ScratchSimdReg
 out
@@ -18355,7 +18357,7 @@ else
 {
 masm
 .
-movaps
+moveFloat32x4
 (
 rhs
 ScratchSimdReg
@@ -18372,7 +18374,7 @@ ScratchSimdReg
 ;
 masm
 .
-movaps
+moveFloat32x4
 (
 ScratchSimdReg
 out
@@ -19434,10 +19436,11 @@ HasSSE41
 {
 masm
 .
-pmulld
+vpmulld
 (
 rhs
 lhs
+output
 )
 ;
 return
@@ -19453,9 +19456,10 @@ ScratchSimdReg
 ;
 masm
 .
-pmuludq
+vpmuludq
 (
 lhs
+ScratchSimdReg
 ScratchSimdReg
 )
 ;
@@ -19527,9 +19531,10 @@ temp
 ;
 masm
 .
-pmuludq
+vpmuludq
 (
 temp
+lhs
 lhs
 )
 ;
@@ -20196,7 +20201,7 @@ output
 )
 masm
 .
-movaps
+moveFloat32x4
 (
 lhs
 output
@@ -20454,7 +20459,7 @@ output
 )
 masm
 .
-movaps
+moveFloat32x4
 (
 lhs
 output
@@ -21564,7 +21569,7 @@ output
 )
 masm
 .
-movaps
+vmovaps
 (
 onTrue
 output
@@ -21579,7 +21584,7 @@ temp
 )
 masm
 .
-movaps
+vmovaps
 (
 mask
 temp

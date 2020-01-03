@@ -1975,7 +1975,7 @@ Float32
 :
 masm
 .
-movssWithPatch
+vmovssWithPatch
 (
 srcAddr
 ToFloatRegister
@@ -1994,7 +1994,7 @@ Float64
 :
 masm
 .
-movsdWithPatch
+vmovsdWithPatch
 (
 srcAddr
 ToFloatRegister
@@ -2013,7 +2013,7 @@ Float32x4
 :
 masm
 .
-movupsWithPatch
+vmovupsWithPatch
 (
 srcAddr
 ToFloatRegister
@@ -2032,7 +2032,7 @@ Int32x4
 :
 masm
 .
-movdquWithPatch
+vmovdquWithPatch
 (
 srcAddr
 ToFloatRegister
@@ -4610,7 +4610,7 @@ label
 =
 masm
 .
-movssWithPatch
+vmovssWithPatch
 (
 PatchedAbsoluteAddress
 (
@@ -4635,7 +4635,7 @@ label
 =
 masm
 .
-movsdWithPatch
+vmovsdWithPatch
 (
 PatchedAbsoluteAddress
 (
@@ -4682,7 +4682,7 @@ label
 =
 masm
 .
-movdqaWithPatch
+vmovdqaWithPatch
 (
 PatchedAbsoluteAddress
 (
@@ -4707,7 +4707,7 @@ label
 =
 masm
 .
-movapsWithPatch
+vmovapsWithPatch
 (
 PatchedAbsoluteAddress
 (

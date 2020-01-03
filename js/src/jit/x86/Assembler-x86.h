@@ -1564,7 +1564,7 @@ FloatRegister
 src
 )
 {
-movsd
+vmovsd
 (
 Address
 (
@@ -3355,7 +3355,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movssWithPatch
+vmovssWithPatch
 (
 Address
 src
@@ -3372,7 +3372,7 @@ HasSSE2
 ;
 masm
 .
-movss_mr_disp32
+vmovss_mr_disp32
 (
 src
 .
@@ -3403,7 +3403,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movsdWithPatch
+vmovsdWithPatch
 (
 Address
 src
@@ -3420,7 +3420,7 @@ HasSSE2
 ;
 masm
 .
-movsd_mr_disp32
+vmovsd_mr_disp32
 (
 src
 .
@@ -3451,7 +3451,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movupsWithPatch
+vmovupsWithPatch
 (
 Address
 src
@@ -3468,7 +3468,7 @@ HasSSE2
 ;
 masm
 .
-movups_mr_disp32
+vmovups_mr_disp32
 (
 src
 .
@@ -3499,7 +3499,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movdquWithPatch
+vmovdquWithPatch
 (
 Address
 src
@@ -3516,7 +3516,7 @@ HasSSE2
 ;
 masm
 .
-movdqu_mr_disp32
+vmovdqu_mr_disp32
 (
 src
 .
@@ -4122,7 +4122,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movssWithPatch
+vmovssWithPatch
 (
 PatchedAbsoluteAddress
 src
@@ -4139,7 +4139,7 @@ HasSSE2
 ;
 masm
 .
-movss_mr
+vmovss_mr
 (
 src
 .
@@ -4163,7 +4163,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movsdWithPatch
+vmovsdWithPatch
 (
 PatchedAbsoluteAddress
 src
@@ -4180,7 +4180,7 @@ HasSSE2
 ;
 masm
 .
-movsd_mr
+vmovsd_mr
 (
 src
 .
@@ -4204,7 +4204,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movdqaWithPatch
+vmovdqaWithPatch
 (
 PatchedAbsoluteAddress
 src
@@ -4221,7 +4221,7 @@ HasSSE2
 ;
 masm
 .
-movdqa_mr
+vmovdqa_mr
 (
 src
 .
@@ -4245,7 +4245,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movdquWithPatch
+vmovdquWithPatch
 (
 PatchedAbsoluteAddress
 src
@@ -4262,7 +4262,7 @@ HasSSE2
 ;
 masm
 .
-movdqu_mr
+vmovdqu_mr
 (
 src
 .
@@ -4286,7 +4286,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movapsWithPatch
+vmovapsWithPatch
 (
 PatchedAbsoluteAddress
 src
@@ -4303,7 +4303,7 @@ HasSSE2
 ;
 masm
 .
-movaps_mr
+vmovaps_mr
 (
 src
 .
@@ -4327,7 +4327,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movupsWithPatch
+vmovupsWithPatch
 (
 PatchedAbsoluteAddress
 src
@@ -4344,7 +4344,7 @@ HasSSE2
 ;
 masm
 .
-movups_mr
+vmovups_mr
 (
 src
 .
