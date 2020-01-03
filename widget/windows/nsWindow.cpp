@@ -28470,7 +28470,7 @@ if
 aEventMessage
 =
 =
-NS_CONTEXTMENU
+eContextMenu
 &
 &
 aIsContextMenuKey
@@ -35212,7 +35212,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_CONTEXTMENU
+eContextMenu
 wParam
 pos
 contextMenukey

@@ -5434,7 +5434,7 @@ WidgetMouseEvent
 contextMenuEvent
 (
 true
-NS_CONTEXTMENU
+eContextMenu
 this
 WidgetMouseEvent
 :
@@ -6237,7 +6237,7 @@ WidgetMouseEvent
 contextMenuEvent
 (
 true
-NS_CONTEXTMENU
+eContextMenu
 this
 WidgetMouseEvent
 :

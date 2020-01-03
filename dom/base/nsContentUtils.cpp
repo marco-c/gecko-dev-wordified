@@ -44014,7 +44014,7 @@ contextmenu
 {
 msg
 =
-NS_CONTEXTMENU
+eContextMenu
 ;
 contextMenuKey
 =

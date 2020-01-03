@@ -48005,7 +48005,7 @@ aEvent
 mMessage
 =
 =
-NS_CONTEXTMENU
+eContextMenu
 )
 {
 WidgetMouseEvent

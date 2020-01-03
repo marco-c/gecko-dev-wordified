@@ -547,7 +547,7 @@ eContextMenuFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CONTEXTMENU
+eContextMenu
 eContextMenuFirst
 )
 NS_EVENT_MESSAGE

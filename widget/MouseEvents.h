@@ -1589,7 +1589,7 @@ false
 break
 ;
 case
-NS_CONTEXTMENU
+eContextMenu
 :
 button
 =
@@ -1626,7 +1626,7 @@ NS_WARN_IF_FALSE
 mMessage
 !
 =
-NS_CONTEXTMENU
+eContextMenu
 |
 |
 button
@@ -1649,7 +1649,7 @@ Wrong
 button
 set
 to
-NS_CONTEXTMENU
+eContextMenu
 event
 ?
 "
@@ -1874,7 +1874,7 @@ return
 mMessage
 =
 =
-NS_CONTEXTMENU
+eContextMenu
 &
 &
 context

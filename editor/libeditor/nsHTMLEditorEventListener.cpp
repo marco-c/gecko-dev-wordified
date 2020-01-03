@@ -613,7 +613,7 @@ do
 But
 eDOMEvents_contextmenu
 and
-NS_CONTEXTMENU
+eContextMenu
 is
 not
 exposed
