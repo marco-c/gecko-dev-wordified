@@ -5359,9 +5359,6 @@ TypedArrayValues
 0
 JSPROP_DEFINE_LATE
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -5373,8 +5370,6 @@ TypedArrayIncludes
 2
 0
 )
-#
-endif
 JS_FS_END
 }
 ;

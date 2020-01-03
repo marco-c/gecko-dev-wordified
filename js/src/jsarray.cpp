@@ -20047,9 +20047,6 @@ ES7
 additions
 *
 /
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -20061,8 +20058,6 @@ ArrayIncludes
 2
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
