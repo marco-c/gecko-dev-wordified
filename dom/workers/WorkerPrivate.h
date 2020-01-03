@@ -2750,6 +2750,9 @@ TimeoutInfo
 >
 mTimeouts
 ;
+uint32_t
+mDebuggerEventLoopLevel
+;
 struct
 SyncLoopInfo
 {
@@ -3352,6 +3355,16 @@ aTransferable
 ErrorResult
 &
 aRv
+)
+;
+void
+EnterDebuggerEventLoop
+(
+)
+;
+void
+LeaveDebuggerEventLoop
+(
 )
 ;
 void
