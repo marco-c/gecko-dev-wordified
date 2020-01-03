@@ -504,6 +504,12 @@ window
 GetDocument
 (
 )
+window
+-
+>
+GetOuterWindow
+(
+)
 )
 )
 ;
