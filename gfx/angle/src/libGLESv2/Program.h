@@ -367,7 +367,7 @@ char
 name
 )
 ;
-bool
+Error
 link
 (
 const
@@ -381,7 +381,7 @@ isLinked
 (
 )
 ;
-bool
+Error
 setProgramBinary
 (
 GLenum

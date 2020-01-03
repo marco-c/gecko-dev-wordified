@@ -3768,7 +3768,7 @@ return
 }
 static
 size_t
-GetMaximumStreamOutputInterleavedComponenets
+GetMaximumStreamOutputInterleavedComponents
 (
 D3D_FEATURE_LEVEL
 featureLevel
@@ -3824,7 +3824,7 @@ return
 }
 static
 size_t
-GetMaximumStreamOutputSeparateCompeonents
+GetMaximumStreamOutputSeparateComponents
 (
 D3D_FEATURE_LEVEL
 featureLevel
@@ -3842,7 +3842,7 @@ case
 D3D_FEATURE_LEVEL_11_0
 :
 return
-GetMaximumStreamOutputInterleavedComponenets
+GetMaximumStreamOutputInterleavedComponents
 (
 featureLevel
 )
@@ -4737,7 +4737,7 @@ caps
 >
 maxTransformFeedbackInterleavedComponents
 =
-GetMaximumStreamOutputInterleavedComponenets
+GetMaximumStreamOutputInterleavedComponents
 (
 featureLevel
 )
@@ -4757,7 +4757,7 @@ caps
 >
 maxTransformFeedbackSeparateComponents
 =
-GetMaximumStreamOutputSeparateCompeonents
+GetMaximumStreamOutputSeparateComponents
 (
 featureLevel
 )
@@ -5620,6 +5620,12 @@ workarounds
 workarounds
 .
 mrtPerfWorkaround
+=
+true
+;
+workarounds
+.
+setDataFasterThanImageUpload
 =
 true
 ;

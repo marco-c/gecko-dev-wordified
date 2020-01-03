@@ -497,8 +497,10 @@ const
 char
 *
 profile
-D3DShaderType
-*
+gl
+:
+:
+Error
 (
 Renderer9
 :
@@ -512,6 +514,10 @@ DWORD
 *
 size_t
 length
+D3DShaderType
+*
+*
+outShader
 )
 HRESULT
 (

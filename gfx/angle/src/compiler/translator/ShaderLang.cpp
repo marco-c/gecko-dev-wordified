@@ -949,6 +949,13 @@ EXT_shader_texture_lod
 =
 0
 ;
+resources
+-
+>
+NV_draw_buffers
+=
+0
+;
 /
 /
 Disable
