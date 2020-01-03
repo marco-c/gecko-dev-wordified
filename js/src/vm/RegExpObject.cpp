@@ -2959,10 +2959,7 @@ AutoTraceLog
 logCompile
 (
 logger
-TraceLogger
-:
-:
-IrregexpCompile
+TraceLogger_IrregexpCompile
 )
 ;
 if
@@ -3814,10 +3811,7 @@ AutoTraceLog
 logJIT
 (
 logger
-TraceLogger
-:
-:
-IrregexpExecute
+TraceLogger_IrregexpExecute
 )
 ;
 AutoCheckCannotGC
@@ -4082,10 +4076,7 @@ AutoTraceLog
 logInterpreter
 (
 logger
-TraceLogger
-:
-:
-IrregexpExecute
+TraceLogger_IrregexpExecute
 )
 ;
 AutoStableStringChars

@@ -7114,10 +7114,7 @@ ifdef
 JS_TRACE_LOGGING
 emitTracelogStartEvent
 (
-TraceLogger
-:
-:
-VM
+TraceLogger_VM
 )
 ;
 #
@@ -7410,10 +7407,7 @@ ifdef
 JS_TRACE_LOGGING
 emitTracelogStopEvent
 (
-TraceLogger
-:
-:
-VM
+TraceLogger_VM
 )
 ;
 #
@@ -10221,10 +10215,7 @@ if
 !
 TraceLogTextIdEnabled
 (
-TraceLogger
-:
-:
-Scripts
+TraceLogger_Scripts
 )
 )
 return

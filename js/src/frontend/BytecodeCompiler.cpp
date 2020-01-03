@@ -1639,10 +1639,7 @@ AutoTraceLog
 typeLogger
 (
 logger
-TraceLogger
-:
-:
-ParserCompileScript
+TraceLogger_ParserCompileScript
 )
 ;
 /
@@ -3433,10 +3430,7 @@ AutoTraceLog
 typeLogger
 (
 logger
-TraceLogger
-:
-:
-ParserCompileLazy
+TraceLogger_ParserCompileLazy
 )
 ;
 Parser
@@ -3877,10 +3871,7 @@ AutoTraceLog
 typeLogger
 (
 logger
-TraceLogger
-:
-:
-ParserCompileFunction
+TraceLogger_ParserCompileFunction
 )
 ;
 /
