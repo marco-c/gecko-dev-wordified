@@ -11180,12 +11180,6 @@ op
 =
 =
 Sub
-|
-|
-op
-=
-=
-Mul
 )
 ;
 MOZ_ASSERT
