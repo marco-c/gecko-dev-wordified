@@ -3857,7 +3857,7 @@ ImageInfoBase
 (
 )
 .
-WebGLFormat
+WebGLInternalFormat
 (
 )
 )

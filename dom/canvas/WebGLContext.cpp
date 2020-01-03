@@ -10082,7 +10082,7 @@ GetSize
 )
 .
 height
-format
+internalformat
 type
 WebGLImageDataStatus
 :
