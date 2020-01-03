@@ -2264,7 +2264,7 @@ AssertWorkerThread
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mWorkerLoopID
 =
@@ -2339,7 +2339,7 @@ AssertLinkThread
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mWorkerLoopID
 !
