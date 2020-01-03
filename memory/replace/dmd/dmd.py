@@ -257,6 +257,14 @@ new
 '
     
 '
+NS_Alloc
+'
+    
+'
+NS_Realloc
+'
+    
+'
 g_slice_alloc
 '
     
