@@ -1108,6 +1108,14 @@ aFence
 =
 0
 ;
+virtual
+void
+SendPendingAsyncMessges
+(
+)
+=
+0
+;
 void
 IdentifyTextureHost
 (

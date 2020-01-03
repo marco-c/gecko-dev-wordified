@@ -3146,7 +3146,7 @@ reached
 ;
 }
 }
-SendPendingAsyncMessge
+SendPendingAsyncMessges
 (
 )
 ;
@@ -5110,7 +5110,7 @@ void
 ImageBridgeChild
 :
 :
-SendPendingAsyncMessge
+SendPendingAsyncMessges
 (
 )
 {
