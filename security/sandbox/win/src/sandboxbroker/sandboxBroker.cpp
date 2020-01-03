@@ -845,8 +845,8 @@ SandboxBroker
 :
 SetSecurityLevelForPluginProcess
 (
-bool
-aMoreStrict
+int32_t
+aSandboxLevel
 )
 {
 if
@@ -870,7 +870,10 @@ ret
 ;
 if
 (
-aMoreStrict
+aSandboxLevel
+>
+=
+2
 )
 {
 result
