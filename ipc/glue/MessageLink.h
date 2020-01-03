@@ -921,6 +921,14 @@ channel
 s
 previous
 listener
+#
+ifdef
+MOZ_NUWA_PROCESS
+bool
+mIsToNuwaProcess
+;
+#
+endif
 }
 ;
 class
