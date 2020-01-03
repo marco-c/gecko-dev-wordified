@@ -1879,11 +1879,12 @@ currentRemoteFrame
 ;
 name
 =
+"
 Marionette
 :
-{
+"
++
 name
-}
 ;
 if
 (
@@ -6435,6 +6436,7 @@ directInject
 {
 script
 =
+"
 let
 func
 =
@@ -6442,9 +6444,11 @@ function
 (
 )
 {
-{
+"
++
 script
-}
++
+"
 }
 ;
 func
@@ -6455,6 +6459,7 @@ null
 __marionetteParams
 )
 ;
+"
 ;
 }
 this
