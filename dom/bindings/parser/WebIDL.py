@@ -21944,6 +21944,9 @@ Nothing
 DOMState
 "
 "
+DeviceState
+"
+"
 Everything
 "
 )
@@ -25457,21 +25460,35 @@ location
 )
             
 if
+(
 attr
 .
 value
 (
 )
-=
+!
 =
 "
-Nothing
+Everything
 "
 and
+attr
+.
+value
+(
+)
+!
+=
+"
+DOMState
+"
+and
+                
 not
 self
 .
 readonly
+)
 :
                 
 raise
@@ -25481,7 +25498,8 @@ WebIDLError
 [
 DependsOn
 =
-Nothing
+%
+s
 ]
 only
 allowed
@@ -25492,6 +25510,12 @@ on
 readonly
 attributes
 "
+%
+attr
+.
+value
+(
+)
                                   
 [
 attr
