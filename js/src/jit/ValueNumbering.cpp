@@ -746,7 +746,7 @@ ValueNumberer
 VisibleValues
 :
 :
-insert
+add
 (
 AddPtr
 p
@@ -3288,7 +3288,7 @@ if
 !
 values_
 .
-insert
+add
 (
 p
 def
