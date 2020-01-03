@@ -570,6 +570,17 @@ nsString
 aFilterList
 )
 ;
+static
+bool
+GetFileNameWrapper
+(
+OPENFILENAMEW
+*
+ofn
+PickerType
+aType
+)
+;
 bool
 FilePickerWrapper
 (
