@@ -1630,6 +1630,9 @@ data
 lang
 dataObj
 null
+data
+.
+inPrivateBrowsing
 )
 ;
 }

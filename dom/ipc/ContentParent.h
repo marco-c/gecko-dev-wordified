@@ -3356,6 +3356,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+bool
+&
+aInPrivateBrowsing
 )
 MOZ_OVERRIDE
 ;

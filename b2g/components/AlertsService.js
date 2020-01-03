@@ -608,6 +608,8 @@ aName
 aBidi
 aLang
 aDataStr
+aPrincipal
+aInPrivateBrowsing
 )
 {
 cpmm
@@ -646,6 +648,9 @@ aLang
 dataStr
 :
 aDataStr
+inPrivateBrowsing
+:
+aInPrivateBrowsing
 }
 )
 ;

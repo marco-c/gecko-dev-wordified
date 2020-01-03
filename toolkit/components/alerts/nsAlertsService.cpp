@@ -377,6 +377,8 @@ aData
 nsIPrincipal
 *
 aPrincipal
+bool
+aInPrivateBrowsing
 )
 {
 if
@@ -461,6 +463,7 @@ Principal
 (
 aPrincipal
 )
+aInPrivateBrowsing
 )
 ;
 return
@@ -555,6 +558,7 @@ Principal
 (
 aPrincipal
 )
+aInPrivateBrowsing
 )
 ;
 if
@@ -647,6 +651,7 @@ aAlertListener
 aAlertName
 aBidi
 aLang
+aInPrivateBrowsing
 )
 ;
 return

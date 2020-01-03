@@ -19387,6 +19387,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+bool
+&
+aInPrivateBrowsing
 )
 {
 #
@@ -19464,6 +19468,7 @@ aBidi
 aLang
 aData
 aPrincipal
+aInPrivateBrowsing
 )
 ;
 }
