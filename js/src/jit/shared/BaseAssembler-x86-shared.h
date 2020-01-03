@@ -448,8 +448,8 @@ value
 namespace
 X86Registers
 {
-typedef
 enum
+RegisterID
 {
 eax
 ecx
@@ -474,10 +474,9 @@ r15
 endif
 invalid_reg
 }
-RegisterID
 ;
-typedef
 enum
+XMMRegisterID
 {
 xmm0
 xmm1
@@ -502,7 +501,6 @@ xmm15
 endif
 invalid_xmm
 }
-XMMRegisterID
 ;
 static
 const
@@ -1454,8 +1452,8 @@ typedef
 XMMRegisterID
 FPRegisterID
 ;
-typedef
 enum
+Condition
 {
 ConditionO
 ConditionNO
@@ -1480,7 +1478,6 @@ ConditionNC
 =
 ConditionAE
 }
-Condition
 ;
 /
 /
@@ -1496,8 +1493,8 @@ CMPPD
 etc
 )
 .
-typedef
 enum
+ConditionCmp
 {
 ConditionCmp_EQ
 =
@@ -1524,7 +1521,6 @@ ConditionCmp_ORD
 =
 0x7
 }
-ConditionCmp
 ;
 static
 const
@@ -1641,8 +1637,8 @@ modes
 for
 ROUNDSD
 .
-typedef
 enum
+RoundingMode
 {
 RoundToNearest
 =
@@ -1657,12 +1653,11 @@ RoundToZero
 =
 0x3
 }
-RoundingMode
 ;
 private
 :
-typedef
 enum
+OneByteOpcodeID
 {
 OP_ADD_EbGb
 =
@@ -1926,10 +1921,9 @@ OP_GROUP5_Ev
 =
 0xFF
 }
-OneByteOpcodeID
 ;
-typedef
 enum
+TwoByteOpcodeID
 {
 OP2_UD2
 =
@@ -2193,10 +2187,9 @@ OP2_PADDD_VdqWdq
 =
 0xFE
 }
-TwoByteOpcodeID
 ;
-typedef
 enum
+ThreeByteOpcodeID
 {
 OP3_ROUNDSS_VsdWsd
 =
@@ -2229,10 +2222,9 @@ OP3_VBLENDVPS_VdqWdq
 =
 0x4A
 }
-ThreeByteOpcodeID
 ;
-typedef
 enum
+ThreeByteEscape
 {
 ESCAPE_BLENDVPS
 =
@@ -2262,10 +2254,9 @@ ESCAPE_VBLENDVPS
 =
 0x3A
 }
-ThreeByteEscape
 ;
-typedef
 enum
+VexOperandType
 {
 VEX_PS
 =
@@ -2280,7 +2271,6 @@ VEX_SD
 =
 3
 }
-VexOperandType
 ;
 TwoByteOpcodeID
 jccRel32
@@ -2318,8 +2308,8 @@ cond
 )
 ;
 }
-typedef
 enum
+GroupOpcodeID
 {
 GROUP1_OP_ADD
 =
@@ -2400,7 +2390,6 @@ GROUP11_MOV
 =
 0
 }
-GroupOpcodeID
 ;
 class
 X86InstructionFormatter
