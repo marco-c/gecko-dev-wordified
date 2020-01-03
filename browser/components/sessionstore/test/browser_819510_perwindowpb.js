@@ -1397,13 +1397,6 @@ gBrowser
 .
 selectedBrowser
 ;
-browser
-.
-loadURI
-(
-aURL
-)
-;
 whenBrowserLoaded
 (
 browser
@@ -1424,6 +1417,13 @@ aCallback
 )
 ;
 }
+)
+;
+browser
+.
+loadURI
+(
+aURL
 )
 ;
 }
