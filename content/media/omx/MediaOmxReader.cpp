@@ -2042,6 +2042,11 @@ doSeek
 =
 false
 ;
+mVideoSeekTimeUs
+=
+-
+1
+;
 /
 /
 Ignore
@@ -2099,11 +2104,6 @@ continue
 mSkipCount
 =
 0
-;
-mVideoSeekTimeUs
-=
--
-1
 ;
 aKeyframeSkip
 =
