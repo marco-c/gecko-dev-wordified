@@ -9722,16 +9722,6 @@ bug
 1133496
 "
 .
-whatwg
-.
-org
-"
-/
-/
-bug
-1137079
-"
-.
 wildcard
 .
 test
