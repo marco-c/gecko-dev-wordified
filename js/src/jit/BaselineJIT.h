@@ -1953,6 +1953,14 @@ pcOffset
 ;
 ICEntry
 &
+stackCheckICEntry
+(
+bool
+earlyCheck
+)
+;
+ICEntry
+&
 icEntryFromReturnAddress
 (
 uint8_t
