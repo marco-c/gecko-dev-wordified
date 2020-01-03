@@ -441,9 +441,7 @@ Fill
 allocated
 memory
 with
-0xa5
-/
-0x5a
+0xe4
 ?
 *
 /
@@ -456,9 +454,7 @@ Fill
 free
 memory
 with
-0xa5
-/
-0x5a
+0xe5
 ?
 *
 /
