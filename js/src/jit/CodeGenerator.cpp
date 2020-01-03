@@ -29724,7 +29724,7 @@ unboxInt32
 Address
 (
 obj
-TypedArrayObject
+TypedArrayLayout
 :
 :
 lengthOffset
@@ -29782,7 +29782,7 @@ loadPtr
 Address
 (
 obj
-TypedArrayObject
+TypedArrayLayout
 :
 :
 dataOffset
@@ -57590,7 +57590,7 @@ unboxInt32
 Address
 (
 object
-TypedArrayObject
+TypedArrayLayout
 :
 :
 lengthOffset
@@ -57667,7 +57667,7 @@ loadPtr
 Address
 (
 object
-TypedArrayObject
+TypedArrayLayout
 :
 :
 dataOffset

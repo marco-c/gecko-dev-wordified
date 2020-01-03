@@ -333,6 +333,17 @@ include
 "
 vm
 /
+ArrayBufferObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 -
 inl
@@ -5070,7 +5081,7 @@ initHeap
 (
 Handle
 <
-ArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 >
 heap
@@ -5485,7 +5496,7 @@ restoreToInitialState
 uint8_t
 *
 prevCode
-ArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 maybePrevBuffer
 ExclusiveContext
