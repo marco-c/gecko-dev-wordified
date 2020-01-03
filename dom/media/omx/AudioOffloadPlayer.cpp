@@ -426,7 +426,7 @@ decompression
 When
 elapsed
 the
-AudioSink
+GonkAudioSink
 is
 destroyed
 to
@@ -2600,7 +2600,7 @@ AudioOffloadPlayer
 :
 AudioSinkCallback
 (
-AudioSink
+GonkAudioSink
 *
 aAudioSink
 void
@@ -2611,7 +2611,7 @@ aSize
 void
 *
 aCookie
-AudioSink
+GonkAudioSink
 :
 :
 cb_event_t
@@ -2634,7 +2634,7 @@ aEvent
 )
 {
 case
-AudioSink
+GonkAudioSink
 :
 :
 CB_EVENT_FILL_BUFFER
@@ -2670,7 +2670,7 @@ aSize
 )
 ;
 case
-AudioSink
+GonkAudioSink
 :
 :
 CB_EVENT_STREAM_END
@@ -2704,7 +2704,7 @@ NotifyAudioEOS
 break
 ;
 case
-AudioSink
+GonkAudioSink
 :
 :
 CB_EVENT_TEAR_DOWN
@@ -3817,7 +3817,7 @@ SendMetaDataToHal
 (
 sp
 <
-AudioSink
+GonkAudioSink
 >
 &
 aSink

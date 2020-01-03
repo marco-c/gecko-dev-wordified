@@ -401,12 +401,12 @@ from
 *
 MediaOmxCommonDecoder
 to
-AudioSink
+GonkAudioSink
 as
 well
 as
 provide
-AudioSink
+GonkAudioSink
 status
 *
 (
@@ -434,7 +434,7 @@ bridge
 between
 MediaOmxCommonDecoder
 and
-AudioSink
+GonkAudioSink
 during
 *
 offload
@@ -553,7 +553,7 @@ started
 and
 open
 the
-AudioSink
+GonkAudioSink
 to
 /
 /
@@ -712,7 +712,7 @@ source
 is
 started
 and
-audioSink
+GonkAudioSink
 is
 initialized
 /
@@ -1159,7 +1159,7 @@ android
 :
 sp
 <
-AudioSink
+GonkAudioSink
 >
 mAudioSink
 ;
@@ -1221,7 +1221,7 @@ mTimeUpdateTimer
 Timer
 to
 reset
-AudioSink
+GonkAudioSink
 when
 audio
 is
@@ -1388,7 +1388,7 @@ aSize
 /
 Called
 by
-AudioSink
+GonkAudioSink
 when
 it
 needs
@@ -1404,7 +1404,7 @@ static
 size_t
 AudioSinkCallback
 (
-AudioSink
+GonkAudioSink
 *
 aAudioSink
 void
@@ -1415,7 +1415,7 @@ aSize
 void
 *
 aMe
-AudioSink
+GonkAudioSink
 :
 :
 cb_event_t
@@ -1785,7 +1785,7 @@ to
 the
 HAL
 via
-AudioSink
+GonkAudioSink
 void
 SendMetaDataToHal
 (
@@ -1794,7 +1794,7 @@ android
 :
 sp
 <
-AudioSink
+GonkAudioSink
 >
 &
 aSink

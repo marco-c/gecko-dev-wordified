@@ -203,10 +203,10 @@ License
 /
 #
 ifndef
-AUDIO_SINK_H_
+GONK_AUDIO_SINK_H_
 #
 define
-AUDIO_SINK_H_
+GONK_AUDIO_SINK_H_
 #
 include
 <
@@ -305,7 +305,7 @@ class
 *
 /
 class
-AudioSink
+GonkAudioSink
 :
 public
 android
@@ -411,7 +411,7 @@ size_t
 AudioCallback
 )
 (
-AudioSink
+GonkAudioSink
 *
 aAudioSink
 void
@@ -428,7 +428,7 @@ aEvent
 ;
 virtual
 ~
-AudioSink
+GonkAudioSink
 (
 )
 {
@@ -570,4 +570,4 @@ mozilla
 endif
 /
 /
-AUDIO_SINK_H_
+GONK_AUDIO_SINK_H_
