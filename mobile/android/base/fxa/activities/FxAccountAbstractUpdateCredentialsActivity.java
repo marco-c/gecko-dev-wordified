@@ -738,6 +738,10 @@ updateFromIntentExtras
 (
 )
 ;
+maybeEnableAnimations
+(
+)
+;
 }
 protected
 class
