@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-import
-os
 from
 mozboot
 .

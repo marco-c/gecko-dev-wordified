@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-os
-import
 platform
 from
 mozboot
