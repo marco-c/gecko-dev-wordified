@@ -2109,6 +2109,8 @@ aState
 AsyncPanZoomController
 *
 aApzc
+uint64_t
+aLayersId
 )
 {
 /
@@ -2219,6 +2221,7 @@ node
 RecycleWith
 (
 aApzc
+aLayersId
 )
 ;
 return
@@ -2241,6 +2244,7 @@ HitTestingTreeNode
 (
 aApzc
 false
+aLayersId
 )
 ;
 return
@@ -2475,6 +2479,7 @@ RecycleOrCreateNode
 (
 aState
 nullptr
+aLayersId
 )
 ;
 AttachNodeToTree
@@ -3377,6 +3382,7 @@ HitTestingTreeNode
 (
 apzc
 true
+aLayersId
 )
 ;
 }
@@ -4107,6 +4113,7 @@ RecycleOrCreateNode
 (
 aState
 apzc
+aLayersId
 )
 ;
 AttachNodeToTree

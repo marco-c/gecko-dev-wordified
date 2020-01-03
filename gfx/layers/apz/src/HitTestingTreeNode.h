@@ -544,6 +544,8 @@ AsyncPanZoomController
 aApzc
 bool
 aIsPrimaryHolder
+uint64_t
+aLayersId
 )
 ;
 void
@@ -552,6 +554,8 @@ RecycleWith
 AsyncPanZoomController
 *
 aApzc
+uint64_t
+aLayersId
 )
 ;
 void
@@ -858,6 +862,9 @@ mApzc
 ;
 bool
 mIsPrimaryApzcHolder
+;
+uint64_t
+mLayersId
 ;
 /
 *
