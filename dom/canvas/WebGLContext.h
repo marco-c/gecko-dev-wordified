@@ -8999,11 +8999,12 @@ mColorWriteMask
 false
 ;
 }
+explicit
 ScopedMaskWorkaround
 (
 WebGLContext
 &
-webgl
+aWebgl
 )
 ;
 ~

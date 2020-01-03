@@ -166,6 +166,7 @@ Response
 )
 public
 :
+explicit
 Response
 (
 nsISupports
