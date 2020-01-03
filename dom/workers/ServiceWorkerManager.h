@@ -659,6 +659,8 @@ virtual
 void
 UpdateFailed
 (
+JSExnType
+aExnType
 const
 ErrorEventInit
 &
@@ -1466,6 +1468,8 @@ uint32_t
 aColumnNumber
 uint32_t
 aFlags
+JSExnType
+aExnType
 )
 ;
 void
