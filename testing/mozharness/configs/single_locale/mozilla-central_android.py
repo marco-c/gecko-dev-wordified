@@ -115,6 +115,12 @@ config
 {
     
 "
+branch
+"
+:
+BRANCH
+    
+"
 log_name
 "
 :
@@ -786,6 +792,22 @@ android
 signature
 .
 sh
+"
+    
+"
+stage_product
+"
+:
+"
+mobile
+"
+    
+"
+platform
+"
+:
+"
+android
 "
     
 #

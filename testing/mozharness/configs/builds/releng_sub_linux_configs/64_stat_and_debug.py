@@ -101,6 +101,18 @@ debug
 '
     
 '
+build_type
+'
+:
+'
+st
+-
+an
+-
+debug
+'
+    
+'
 purge_minsize
 '
 :

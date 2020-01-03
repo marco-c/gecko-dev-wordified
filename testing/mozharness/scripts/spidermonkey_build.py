@@ -946,6 +946,14 @@ source
 '
 :
 None
+                                
+'
+stage_product
+'
+:
+'
+firefox
+'
                             
 }
         
