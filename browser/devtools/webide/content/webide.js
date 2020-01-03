@@ -1724,7 +1724,7 @@ _busyOperationDescription
 )
 ;
 }
-30000
+6000
 )
 ;
 }
