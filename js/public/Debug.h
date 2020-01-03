@@ -2594,7 +2594,10 @@ settled
 once
 )
 .
+JS_PUBLIC_API
+(
 void
+)
 onPromiseSettled
 (
 JSContext
