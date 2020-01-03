@@ -1276,7 +1276,7 @@ var
 mml
 =
 "
-addExceptionDomainMismatchLong
+addExceptionDomainMismatchLong2
 "
 ;
 var
@@ -1290,7 +1290,7 @@ var
 exl
 =
 "
-addExceptionExpiredLong
+addExceptionExpiredLong2
 "
 ;
 var
@@ -1304,7 +1304,7 @@ var
 utl
 =
 "
-addExceptionUnverifiedOrBadSignatureLong
+addExceptionUnverifiedOrBadSignatureLong2
 "
 ;
 var
@@ -1728,7 +1728,7 @@ addExceptionCheckingShort
 longDesc
 =
 "
-addExceptionCheckingLong
+addExceptionCheckingLong2
 "
 ;
 /
@@ -1832,7 +1832,7 @@ addExceptionNoCertShort
 longDesc
 =
 "
-addExceptionNoCertLong
+addExceptionNoCertLong2
 "
 ;
 /
