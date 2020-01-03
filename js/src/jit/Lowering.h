@@ -2166,6 +2166,14 @@ MArrayState
 ins
 )
 ;
+bool
+visitUnknownValue
+(
+MUnknownValue
+*
+ins
+)
+;
 }
 ;
 }

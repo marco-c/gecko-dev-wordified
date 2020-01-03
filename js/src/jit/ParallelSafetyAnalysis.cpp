@@ -1753,6 +1753,10 @@ DROP_OP
 (
 RecompileCheck
 )
+UNSAFE_OP
+(
+UnknownValue
+)
 /
 /
 It
