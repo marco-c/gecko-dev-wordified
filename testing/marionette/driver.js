@@ -1355,6 +1355,13 @@ Services
 appinfo
 .
 platformVersion
+"
+specificationLevel
+"
+:
+"
+1
+"
 /
 /
 Supported

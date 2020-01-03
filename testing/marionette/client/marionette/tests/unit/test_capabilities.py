@@ -184,6 +184,18 @@ caps
         
 self
 .
+assertIn
+(
+"
+specificationLevel
+"
+self
+.
+caps
+)
+        
+self
+.
 assertEqual
 (
 self
