@@ -213,12 +213,6 @@ y
 "
 &
 CounterClass
-JS
-:
-:
-NullPtr
-(
-)
 JSPROP_ENUMERATE
 )
 )
