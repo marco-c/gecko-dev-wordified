@@ -6145,6 +6145,13 @@ onnewrdsgroup
 )
 GK_ATOM
 (
+onnotificationclick
+"
+onnotificationclick
+"
+)
+GK_ATOM
+(
 onnoupdate
 "
 onnoupdate
