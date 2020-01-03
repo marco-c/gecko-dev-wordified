@@ -3794,7 +3794,10 @@ totalArgsLength
 size_t
 argLengths
 [
-10
+JS
+:
+:
+MaxNumErrorArguments
 ]
 ;
 /
@@ -3822,7 +3825,10 @@ MOZ_ASSERT
 argCount
 <
 =
-10
+JS
+:
+:
+MaxNumErrorArguments
 )
 ;
 if

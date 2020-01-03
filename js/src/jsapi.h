@@ -29667,6 +29667,17 @@ reporting
 .
 *
 /
+namespace
+JS
+{
+const
+uint16_t
+MaxNumErrorArguments
+=
+10
+;
+}
+;
 /
 *
 *
