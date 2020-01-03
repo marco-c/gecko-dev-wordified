@@ -118,7 +118,7 @@ h
 if
 defined
 (
-OS_LINUX
+OS_POSIX
 )
 #
 include
@@ -235,8 +235,11 @@ namespace
 mozilla
 {
 #
-ifdef
-XP_WIN
+if
+defined
+(
+OS_WIN
+)
 typedef
 HANDLE
 CrossProcessMutexHandle
@@ -245,7 +248,7 @@ CrossProcessMutexHandle
 elif
 defined
 (
-OS_LINUX
+OS_POSIX
 )
 typedef
 mozilla
@@ -590,8 +593,11 @@ CrossProcessMutex
 )
 ;
 #
-ifdef
-XP_WIN
+if
+defined
+(
+OS_WIN
+)
 HANDLE
 mMutex
 ;
@@ -599,7 +605,7 @@ mMutex
 elif
 defined
 (
-OS_LINUX
+OS_POSIX
 )
 nsRefPtr
 <
