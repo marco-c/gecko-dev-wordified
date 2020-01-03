@@ -917,7 +917,7 @@ this
 .
 mediaElement
 .
-mozSrcObject
+srcObject
 =
 this
 .
@@ -1037,7 +1037,7 @@ this
 .
 mediaElement
 .
-mozSrcObject
+srcObject
 =
 null
 ;

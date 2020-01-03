@@ -307,7 +307,7 @@ id
 ;
 video
 .
-mozSrcObject
+srcObject
 .
 requestFrame
 (

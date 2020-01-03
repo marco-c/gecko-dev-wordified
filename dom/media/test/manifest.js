@@ -12840,7 +12840,7 @@ remove
 /
 /
 Clearing
-mozSrcObject
+srcObject
 and
 /
 or
@@ -12885,7 +12885,7 @@ null
 /
 reset
 |
-mozSrcObject
+srcObject
 |
 first
 since
@@ -12899,7 +12899,7 @@ src
 .
 n
 .
-mozSrcObject
+srcObject
 =
 null
 ;
