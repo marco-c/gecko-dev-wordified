@@ -15716,11 +15716,9 @@ mReader
 Seek
 (
 seekTime
-mStartTime
 GetEndTime
 (
 )
-mCurrentTimeBeforeSeek
 )
 -
 >

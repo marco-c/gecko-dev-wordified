@@ -9960,11 +9960,7 @@ Seek
 int64_t
 aTarget
 int64_t
-aStartTime
-int64_t
 aEndTime
-int64_t
-aCurrentTime
 )
 {
 nsresult
@@ -9973,9 +9969,7 @@ res
 SeekInternal
 (
 aTarget
-aStartTime
 aEndTime
-aCurrentTime
 )
 ;
 if
@@ -10020,11 +10014,7 @@ SeekInternal
 int64_t
 aTarget
 int64_t
-aStartTime
-int64_t
 aEndTime
-int64_t
-aCurrentTime
 )
 {
 NS_ASSERTION
@@ -10116,7 +10106,7 @@ std
 :
 max
 (
-aStartTime
+mStartTime
 aTarget
 -
 SEEK_OPUS_PREROLL
@@ -10128,7 +10118,7 @@ if
 adjustedTarget
 =
 =
-aStartTime
+mStartTime
 )
 {
 /
@@ -10190,7 +10180,7 @@ res
 ;
 NS_ASSERTION
 (
-aStartTime
+mStartTime
 !
 =
 -
@@ -10220,7 +10210,7 @@ mDecoder
 >
 UpdatePlaybackPosition
 (
-aStartTime
+mStartTime
 )
 ;
 }
@@ -10389,7 +10379,7 @@ SelectSeekRange
 (
 ranges
 aTarget
-aStartTime
+mStartTime
 aEndTime
 true
 )
@@ -10434,7 +10424,7 @@ SeekInBufferedRange
 (
 aTarget
 adjustedTarget
-aStartTime
+mStartTime
 aEndTime
 ranges
 r
@@ -10490,7 +10480,7 @@ res
 SeekInUnbuffered
 (
 aTarget
-aStartTime
+mStartTime
 aEndTime
 ranges
 )

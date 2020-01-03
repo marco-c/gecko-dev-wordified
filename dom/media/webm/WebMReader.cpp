@@ -5537,11 +5537,7 @@ Seek
 int64_t
 aTarget
 int64_t
-aStartTime
-int64_t
 aEndTime
-int64_t
-aCurrentTime
 )
 {
 nsresult
@@ -5550,7 +5546,6 @@ res
 SeekInternal
 (
 aTarget
-aStartTime
 )
 ;
 if
@@ -5594,8 +5589,6 @@ SeekInternal
 (
 int64_t
 aTarget
-int64_t
-aStartTime
 )
 {
 NS_ASSERTION
@@ -5717,7 +5710,7 @@ max
 (
 uint64_t
 (
-aStartTime
+mStartTime
 *
 NS_PER_USEC
 )
