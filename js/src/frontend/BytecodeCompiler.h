@@ -194,6 +194,12 @@ SourceCompressionTask
 extraSct
 =
 nullptr
+ScriptSourceObject
+*
+*
+sourceObjectOut
+=
+nullptr
 )
 ;
 ModuleObject
