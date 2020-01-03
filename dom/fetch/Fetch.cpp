@@ -2364,7 +2364,7 @@ aContentType
 {
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 impl
 =

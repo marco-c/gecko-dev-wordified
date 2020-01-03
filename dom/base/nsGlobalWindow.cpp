@@ -42985,7 +42985,7 @@ the
 reader
 is
 a
-BlobImpl
+FileImpl
 .
 /
 /
@@ -42997,7 +42997,7 @@ a
 new
 File
 .
-BlobImpl
+FileImpl
 *
 blobImpl
 ;
@@ -43354,7 +43354,7 @@ blob
 )
 )
 {
-BlobImpl
+FileImpl
 *
 blobImpl
 =

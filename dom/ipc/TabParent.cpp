@@ -1232,7 +1232,7 @@ for
 failures
 .
 void
-OpenBlobImpl
+OpenFileImpl
 (
 )
 {
@@ -1314,7 +1314,7 @@ NS_IsMainThread
 )
 )
 ;
-OpenBlobImpl
+OpenFileImpl
 (
 )
 ;

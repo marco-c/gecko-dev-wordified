@@ -3461,7 +3461,7 @@ NS_ERROR_DOM_SECURITY_ERR
 ;
 }
 return
-MozGetAsBlobImpl
+MozGetAsFileImpl
 (
 aName
 aType
@@ -3473,7 +3473,7 @@ nsresult
 HTMLCanvasElement
 :
 :
-MozGetAsBlobImpl
+MozGetAsFileImpl
 (
 const
 nsAString

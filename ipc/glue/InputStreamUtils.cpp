@@ -574,7 +574,7 @@ id
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 blobImpl
 =

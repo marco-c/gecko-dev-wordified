@@ -492,7 +492,7 @@ Currently
 we
 only
 store
-BlobImpl
+FileImpl
 objects
 off
 the

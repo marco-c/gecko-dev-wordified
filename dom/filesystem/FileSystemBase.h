@@ -144,10 +144,10 @@ namespace
 dom
 {
 class
-BlobImpl
+Directory
 ;
 class
-Directory
+FileImpl
 ;
 class
 FileSystemBase
@@ -368,7 +368,7 @@ virtual
 bool
 GetRealPath
 (
-BlobImpl
+FileImpl
 *
 aFile
 nsAString

@@ -10087,7 +10087,7 @@ Create
 (
 aWindow
 new
-BlobImplFile
+FileImplFile
 (
 fullPath
 aFile
@@ -12879,7 +12879,7 @@ public
 :
 WriteFileEvent
 (
-BlobImpl
+FileImpl
 *
 aBlobImpl
 DeviceStorageFile
@@ -13206,7 +13206,7 @@ private
 :
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 mBlobImpl
 ;

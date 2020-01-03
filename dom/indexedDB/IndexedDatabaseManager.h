@@ -711,7 +711,7 @@ FileManager
 .
 mFileInfos
 and
-BlobImplBase
+FileImplBase
 .
 mFileInfos
 /

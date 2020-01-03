@@ -427,7 +427,7 @@ Create
 (
 aArchiveReader
 new
-ArchiveZipBlobImpl
+ArchiveZipFileImpl
 (
 filename
 NS_ConvertUTF8toUTF16
@@ -446,7 +446,7 @@ mCentralStruct
 aArchiveReader
 -
 >
-GetBlobImpl
+GetFileImpl
 (
 )
 )

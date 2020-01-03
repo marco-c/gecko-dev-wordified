@@ -2992,7 +2992,7 @@ index
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 blobImpl
 =

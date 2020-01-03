@@ -27292,7 +27292,7 @@ Database
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 mBlobImpl
 ;
@@ -27442,7 +27442,7 @@ child
 .
 DatabaseFile
 (
-BlobImpl
+FileImpl
 *
 aBlobImpl
 FileInfo
@@ -33308,7 +33308,7 @@ NonMainThreadHackBlobImpl
 final
 :
 public
-BlobImplFile
+FileImplFile
 {
 public
 :
@@ -33322,7 +33322,7 @@ FileInfo
 aFileInfo
 )
 :
-BlobImplFile
+FileImplFile
 (
 aFile
 aFileInfo
@@ -35079,7 +35079,7 @@ isFile
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 impl
 =
@@ -52776,7 +52776,7 @@ aBlobParent
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 blobImpl
 =

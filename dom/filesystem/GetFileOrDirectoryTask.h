@@ -154,7 +154,7 @@ namespace
 dom
 {
 class
-BlobImpl
+FileImpl
 ;
 class
 GetFileOrDirectoryTask
@@ -336,14 +336,14 @@ Let
 s
 use
 the
-BlobImpl
+FileImpl
 instead
 .
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
-mTargetBlobImpl
+mTargetFileImpl
 ;
 }
 ;

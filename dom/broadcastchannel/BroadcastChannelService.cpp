@@ -492,7 +492,7 @@ IsEmpty
 )
 )
 {
-mBlobs
+mFiles
 .
 SetCapacity
 (
@@ -536,7 +536,7 @@ i
 {
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 impl
 =
@@ -566,7 +566,7 @@ MOZ_ASSERT
 impl
 )
 ;
-mBlobs
+mFiles
 .
 AppendElement
 (
@@ -600,10 +600,10 @@ nsTArray
 <
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 >
-mBlobs
+mFiles
 ;
 const
 nsString

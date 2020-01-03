@@ -158,10 +158,10 @@ namespace
 dom
 {
 class
-BlobImpl
+BlobParent
 ;
 class
-BlobParent
+FileImpl
 ;
 class
 FileSystemBase
@@ -1634,9 +1634,9 @@ BlobParent
 *
 GetBlobParent
 (
-BlobImpl
+FileImpl
 *
-aBlob
+aFile
 )
 const
 ;
