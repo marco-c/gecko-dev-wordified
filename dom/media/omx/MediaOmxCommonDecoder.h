@@ -162,8 +162,10 @@ virtual
 void
 FirstFrameLoaded
 (
+nsAutoPtr
+<
 MediaInfo
-*
+>
 aInfo
 )
 ;
