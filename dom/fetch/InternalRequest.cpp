@@ -375,6 +375,13 @@ mCacheMode
 copy
 -
 >
+mRedirectMode
+=
+mRedirectMode
+;
+copy
+-
+>
 mCreatedByFetchEvent
 =
 mCreatedByFetchEvent
@@ -568,6 +575,12 @@ mCacheMode
 aOther
 .
 mCacheMode
+)
+mRedirectMode
+(
+aOther
+.
+mRedirectMode
 )
 mAuthenticationFlag
 (
