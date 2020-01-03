@@ -112,7 +112,7 @@ timeoutDelayMs
 =
 timeoutMs
 ;
-do_check_eq
+equal
 (
 timeoutMs
 TIMEOUT_VALUE
@@ -128,7 +128,7 @@ clearTimeout
 timeoutId
 )
 {
-do_check_eq
+equal
 (
 timeoutId
 TIMER_ID
@@ -144,7 +144,7 @@ fireTimeout
 (
 )
 {
-do_check_neq
+notEqual
 (
 timeoutCallback
 null
@@ -249,7 +249,7 @@ store
 the
 mode
 .
-do_check_eq
+equal
 (
 context
 .
@@ -265,7 +265,7 @@ Should
 notify
 change
 .
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -275,7 +275,7 @@ emergencyCbModeChange
 "
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -283,7 +283,7 @@ active
 true
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -297,7 +297,7 @@ Should
 start
 timer
 .
-do_check_eq
+equal
 (
 context
 .
@@ -380,7 +380,7 @@ store
 the
 mode
 .
-do_check_eq
+equal
 (
 context
 .
@@ -396,7 +396,7 @@ Should
 notify
 change
 .
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -406,7 +406,7 @@ emergencyCbModeChange
 "
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -420,7 +420,7 @@ Should
 clear
 timer
 .
-do_check_eq
+equal
 (
 context
 .
@@ -479,7 +479,7 @@ UNSOLICITED_ENTER_EMERGENCY_CALLBACK_MODE
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -489,7 +489,7 @@ _isInEmergencyCbMode
 true
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -541,7 +541,7 @@ clear
 timeout
 event
 .
-do_check_eq
+equal
 (
 context
 .
@@ -559,7 +559,7 @@ sent
 out
 REQUEST_EXIT_EMERGENCY_CALLBACK_MODE
 .
-do_check_neq
+notEqual
 (
 parcelTypes
 .
@@ -620,7 +620,7 @@ UNSOLICITED_ENTER_EMERGENCY_CALLBACK_MODE
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -630,7 +630,7 @@ _isInEmergencyCbMode
 true
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -703,7 +703,7 @@ clear
 timeout
 event
 .
-do_check_eq
+equal
 (
 context
 .
@@ -721,7 +721,7 @@ sent
 out
 REQUEST_EXIT_EMERGENCY_CALLBACK_MODE
 .
-do_check_neq
+notEqual
 (
 parcelTypes
 .
@@ -782,7 +782,7 @@ UNSOLICITED_ENTER_EMERGENCY_CALLBACK_MODE
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -792,7 +792,7 @@ _isInEmergencyCbMode
 true
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -878,7 +878,7 @@ clear
 timeout
 event
 .
-do_check_eq
+equal
 (
 context
 .
@@ -896,7 +896,7 @@ sent
 out
 REQUEST_EXIT_EMERGENCY_CALLBACK_MODE
 .
-do_check_neq
+notEqual
 (
 parcelTypes
 .
@@ -915,7 +915,7 @@ back
 the
 response
 .
-do_check_eq
+equal
 (
 postedMessage
 .

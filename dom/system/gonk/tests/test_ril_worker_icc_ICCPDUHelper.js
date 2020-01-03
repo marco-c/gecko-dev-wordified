@@ -163,7 +163,7 @@ writeHexOctet
 )
 ;
 }
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -238,7 +238,7 @@ i
 )
 ;
 }
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -310,7 +310,7 @@ i
 )
 ;
 }
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -441,7 +441,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 str
 .
@@ -672,7 +672,7 @@ writeHexOctet
 )
 ;
 }
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -689,7 +689,7 @@ PDU_NL_EXTENDED_ESCAPE
 )
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -701,7 +701,7 @@ read8BitUnpackedToString
 "
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -777,7 +777,7 @@ string
 before
 RESERVED_CONTROL
 .
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -806,7 +806,7 @@ become
 '
 '
 .
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -827,7 +827,7 @@ RESERVED_CONTROL
 and
 EXTENDED_ESCAPE
 .
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -864,7 +864,7 @@ become
 '
 '
 .
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -882,7 +882,7 @@ Read
 remaining
 string
 .
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1046,7 +1046,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 helper
 .
@@ -1073,7 +1073,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 helper
 .
@@ -1110,7 +1110,7 @@ writeStringTo8BitUnpacked
 str
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1214,7 +1214,7 @@ writeStringTo8BitUnpacked
 str
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1378,7 +1378,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 helper
 .
@@ -1389,14 +1389,14 @@ i
 )
 ;
 }
-do_check_false
+ok
 (
 helper
 .
 readHexOctet
 (
 )
-=
+!
 =
 4
 )
@@ -1440,7 +1440,7 @@ writeStringTo8BitUnpacked
 str
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1468,7 +1468,7 @@ writeStringTo8BitUnpacked
 str
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1532,7 +1532,7 @@ writeHexOctet
 dummy
 octet
 .
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1669,7 +1669,7 @@ writeHexOctet
 )
 ;
 }
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1743,7 +1743,7 @@ i
 )
 ;
 }
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1814,7 +1814,7 @@ i
 )
 ;
 }
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1869,7 +1869,7 @@ i
 )
 ;
 }
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1966,7 +1966,7 @@ writeAlphaIdentifier
 null
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -2002,7 +2002,7 @@ ffLen
 str
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -2056,7 +2056,7 @@ to
 UCS2
 alphabets
 .
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -2112,7 +2112,7 @@ writeAlphaIdentifier
 str
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -2184,7 +2184,7 @@ writeHexOctet
 dummy
 octet
 .
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -2229,7 +2229,7 @@ writeHexOctet
 dummy
 octet
 .
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -2423,7 +2423,7 @@ number
 "
 )
 {
-do_check_eq
+equal
 (
 contactR
 null
@@ -2432,7 +2432,7 @@ null
 }
 else
 {
-do_check_eq
+equal
 (
 contactR
 .
@@ -2442,7 +2442,7 @@ contact
 alphaId
 )
 ;
-do_check_eq
+equal
 (
 contactR
 .
@@ -2585,7 +2585,7 @@ readAlphaIdDiallingNumber
 recordSize
 )
 ;
-do_check_eq
+equal
 (
 contactW
 .
@@ -2595,7 +2595,7 @@ contactR
 alphaId
 )
 ;
-do_check_eq
+equal
 (
 contactW
 .
@@ -2660,7 +2660,7 @@ readAlphaIdDiallingNumber
 recordSize
 )
 ;
-do_check_eq
+equal
 (
 contactUCS2
 .
@@ -2670,7 +2670,7 @@ contactR
 alphaId
 )
 ;
-do_check_eq
+equal
 (
 contactUCS2
 .
@@ -2706,7 +2706,7 @@ readAlphaIdDiallingNumber
 recordSize
 )
 ;
-do_check_eq
+equal
 (
 contactR
 null
@@ -2814,7 +2814,7 @@ readAlphaIdDiallingNumber
 recordSize
 )
 ;
-do_check_eq
+equal
 (
 contactR
 .
@@ -2824,7 +2824,7 @@ AAAAAAAAABBBBBBBBB
 "
 )
 ;
-do_check_eq
+equal
 (
 contactR
 .
@@ -2877,7 +2877,7 @@ readAlphaIdDiallingNumber
 recordSize
 )
 ;
-do_check_eq
+equal
 (
 contactR
 .
@@ -2887,7 +2887,7 @@ AAAAAAAAABBBBBBBBB
 "
 )
 ;
-do_check_eq
+equal
 (
 contactR
 .
@@ -2972,7 +2972,7 @@ writeDiallingNumber
 number
 )
 ;
-do_check_eq
+equal
 (
 helper
 .
@@ -3004,7 +3004,7 @@ writeDiallingNumber
 number
 )
 ;
-do_check_eq
+equal
 (
 helper
 .
@@ -3032,7 +3032,7 @@ writeDiallingNumber
 number
 )
 ;
-do_check_eq
+equal
 (
 helper
 .
@@ -3359,7 +3359,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 expectedNumber
 iccHelper
@@ -3390,7 +3390,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 0xff
 helper
@@ -3571,7 +3571,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 0xff
 helper

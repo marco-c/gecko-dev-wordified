@@ -226,7 +226,7 @@ be
 for
 indexing
 .
-do_check_eq
+equal
 (
 CB_DCS_LANG_GROUP_1
 .
@@ -234,7 +234,7 @@ length
 16
 )
 ;
-do_check_eq
+equal
 (
 CB_DCS_LANG_GROUP_2
 .
@@ -250,7 +250,7 @@ must
 be
 even
 .
-do_check_eq
+equal
 (
 CB_NON_MMI_SETTABLE_RANGES
 .
@@ -295,7 +295,7 @@ i
 +
 ]
 ;
-do_check_eq
+equal
 (
 from
 <
@@ -403,7 +403,7 @@ readCbDataCodingScheme
 msg
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -411,7 +411,7 @@ dcs
 dcs
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -419,7 +419,7 @@ encoding
 encoding
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -427,7 +427,7 @@ language
 language
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -435,7 +435,7 @@ hasLanguageIndicator
 hasLanguageIndicator
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -465,7 +465,7 @@ dcs
 ;
 }
 ;
-do_check_throws
+throws
 (
 function
 (
@@ -1133,7 +1133,7 @@ options
 length
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -1144,7 +1144,7 @@ expected
 ]
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -1172,7 +1172,7 @@ expected
 null
 )
 {
-do_check_eq
+equal
 (
 msg
 .
@@ -1208,7 +1208,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 msg
 .
@@ -1227,7 +1227,7 @@ i
 ;
 }
 }
-do_check_eq
+equal
 (
 msg
 .
@@ -1510,7 +1510,7 @@ to
 expected
 )
 {
-do_check_eq
+equal
 (
 expected
 ril
@@ -1888,7 +1888,7 @@ from
 to
 )
 ;
-do_check_eq
+equal
 (
 JSON
 .
@@ -4496,7 +4496,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 "
 cellbroadcast
@@ -4508,7 +4508,7 @@ postedMessage
 rilMessageType
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -4753,7 +4753,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 "
 cellbroadcast
@@ -4765,7 +4765,7 @@ postedMessage
 rilMessageType
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -4797,7 +4797,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 postedMessage
 .

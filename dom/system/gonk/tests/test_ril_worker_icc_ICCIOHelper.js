@@ -132,7 +132,7 @@ call
 iccIO
 directly
 .
-do_check_true
+ok
 (
 false
 )
@@ -153,7 +153,7 @@ fakeIccIO
 options
 )
 {
-do_check_true
+ok
 (
 true
 )
@@ -241,7 +241,7 @@ fakeGetResponse
 options
 )
 {
-do_check_true
+ok
 (
 true
 )
@@ -274,7 +274,7 @@ should
 call
 getResponse
 .
-do_check_true
+ok
 (
 false
 )
@@ -363,7 +363,7 @@ called
 =
 true
 ;
-do_check_eq
+equal
 (
 errorMsg
 expectedErrorMsg
@@ -425,7 +425,7 @@ should
 be
 triggered
 .
-do_check_true
+ok
 (
 called
 )
@@ -720,7 +720,7 @@ processICCIOGetResponse
 options
 )
 ;
-do_check_eq
+equal
 (
 options
 .
@@ -961,7 +961,7 @@ processICCIOGetResponse
 options
 )
 ;
-do_check_eq
+equal
 (
 options
 .
@@ -969,7 +969,7 @@ fileSize
 0x1A
 )
 ;
-do_check_eq
+equal
 (
 options
 .
@@ -977,7 +977,7 @@ recordSize
 0x1A
 )
 ;
-do_check_eq
+equal
 (
 options
 .

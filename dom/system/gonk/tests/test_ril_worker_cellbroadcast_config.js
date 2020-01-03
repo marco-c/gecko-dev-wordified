@@ -236,7 +236,7 @@ is
 sent
 out
 .
-do_check_neq
+notEqual
 (
 parcelTypes
 .
@@ -248,7 +248,7 @@ expectedRequest
 1
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -502,7 +502,7 @@ word
 (
 32bit
 )
-do_check_eq
+equal
 (
 u32Parcel
 .
@@ -546,7 +546,7 @@ is
 sent
 out
 .
-do_check_true
+ok
 (
 found
 )
@@ -790,7 +790,7 @@ _mergeAllCellBroadcastConfigs
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -987,7 +987,7 @@ string
 for
 comparison
 .
-do_check_eq
+equal
 (
 "
 "
@@ -1002,7 +1002,7 @@ MMI
 aExpected
 )
 ;
-do_check_eq
+equal
 (
 options
 .

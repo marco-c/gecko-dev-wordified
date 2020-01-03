@@ -286,7 +286,7 @@ successCb
 pbrs
 )
 {
-do_check_eq
+equal
 (
 pbrs
 [
@@ -299,7 +299,7 @@ fileId
 0x4f3a
 )
 ;
-do_check_eq
+equal
 (
 pbrs
 .
@@ -331,7 +331,7 @@ msg
 errorMsg
 )
 ;
-do_check_true
+ok
 (
 false
 )
@@ -382,8 +382,9 @@ successCb
 errorCb
 )
 ;
-do_check_false
+ok
 (
+!
 ifLoadEF
 )
 ;
@@ -628,7 +629,7 @@ function
 email
 )
 {
-do_check_eq
+equal
 (
 email
 expectedResult
@@ -662,7 +663,7 @@ com
 "
 )
 ;
-do_check_eq
+equal
 (
 record
 .
@@ -897,7 +898,7 @@ count
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -926,7 +927,7 @@ readInt32
 /
 command
 .
-do_check_eq
+equal
 (
 this
 .
@@ -940,7 +941,7 @@ ICC_COMMAND_UPDATE_RECORD
 /
 fileId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -954,7 +955,7 @@ fileId
 /
 pathId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -972,7 +973,7 @@ EF_PATH_DF_PHONEBOOK
 /
 p1
 .
-do_check_eq
+equal
 (
 this
 .
@@ -986,7 +987,7 @@ recordNumber
 /
 p2
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1000,7 +1001,7 @@ READ_RECORD_ABSOLUTE_MODE
 /
 p3
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1062,7 +1063,7 @@ recordSize
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1076,7 +1077,7 @@ adn
 sfi
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1094,7 +1095,7 @@ readStringDelimiter
 strLen
 )
 ;
-do_check_eq
+equal
 (
 email
 expectedEmail
@@ -1104,7 +1105,7 @@ expectedEmail
 /
 pin2
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1425,7 +1426,7 @@ function
 anr
 )
 {
-do_check_eq
+equal
 (
 anr
 expectedResult
@@ -1444,7 +1445,7 @@ ICC_USIM_TYPE1_TAG
 "
 )
 ;
-do_check_eq
+equal
 (
 record
 .
@@ -1679,7 +1680,7 @@ count
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1708,7 +1709,7 @@ readInt32
 /
 command
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1722,7 +1723,7 @@ ICC_COMMAND_UPDATE_RECORD
 /
 fileId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1736,7 +1737,7 @@ fileId
 /
 pathId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1754,7 +1755,7 @@ EF_PATH_DF_PHONEBOOK
 /
 p1
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1768,7 +1769,7 @@ recordNumber
 /
 p2
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1782,7 +1783,7 @@ READ_RECORD_ABSOLUTE_MODE
 /
 p3
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1816,7 +1817,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -1861,7 +1862,7 @@ fileType
 ICC_USIM_TYPE2_TAG
 )
 {
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1875,7 +1876,7 @@ adn
 sfi
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1897,7 +1898,7 @@ strLen
 /
 pin2
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2214,7 +2215,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 expectedIAP
 [
@@ -2252,7 +2253,7 @@ do_print
 errorMsg
 )
 ;
-do_check_true
+ok
 (
 false
 )
@@ -2470,7 +2471,7 @@ function
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2499,7 +2500,7 @@ readInt32
 /
 command
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2513,7 +2514,7 @@ ICC_COMMAND_UPDATE_RECORD
 /
 fileId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2527,7 +2528,7 @@ fileId
 /
 pathId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2545,7 +2546,7 @@ EF_PATH_DF_PHONEBOOK
 /
 p1
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2559,7 +2560,7 @@ recordNumber
 /
 p2
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2573,7 +2574,7 @@ READ_RECORD_ABSOLUTE_MODE
 /
 p3
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2612,7 +2613,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 expectedIAP
 [
@@ -2637,7 +2638,7 @@ strLen
 /
 pin2
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2863,7 +2864,7 @@ function
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2892,7 +2893,7 @@ readInt32
 /
 command
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2906,7 +2907,7 @@ ICC_COMMAND_UPDATE_RECORD
 /
 fileId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2920,7 +2921,7 @@ fileId
 /
 pathId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2936,7 +2937,7 @@ EF_PATH_DF_TELECOM
 /
 p1
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2950,7 +2951,7 @@ readInt32
 /
 p2
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2964,7 +2965,7 @@ READ_RECORD_ABSOLUTE_MODE
 /
 p3
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2988,7 +2989,7 @@ readAlphaIdDiallingNumber
 0x20
 )
 ;
-do_check_eq
+equal
 (
 contact
 .
@@ -2998,7 +2999,7 @@ test
 "
 )
 ;
-do_check_eq
+equal
 (
 contact
 .
@@ -3020,7 +3021,7 @@ fileId
 ICC_EF_ADN
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -3033,7 +3034,7 @@ null
 }
 else
 {
-do_check_eq
+equal
 (
 this
 .
@@ -3414,7 +3415,7 @@ function
 recordId
 )
 {
-do_check_eq
+equal
 (
 recordId
 2
@@ -3440,7 +3441,7 @@ do_print
 errorMsg
 )
 ;
-do_check_true
+ok
 (
 false
 )
@@ -3570,7 +3571,7 @@ fetchICCRecords
 (
 )
 ;
-do_check_eq
+equal
 (
 fetchTag
 0x01
@@ -3588,7 +3589,7 @@ fetchICCRecords
 (
 )
 ;
-do_check_eq
+equal
 (
 fetchTag
 0x02
@@ -3606,7 +3607,7 @@ fetchICCRecords
 (
 )
 ;
-do_check_eq
+equal
 (
 fetchTag
 0x01
@@ -3810,7 +3811,7 @@ readICCID
 (
 )
 ;
-do_check_eq
+equal
 (
 ril
 .

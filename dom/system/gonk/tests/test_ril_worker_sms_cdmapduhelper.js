@@ -162,7 +162,7 @@ PDU_CDMA_MSG_USERDATA_REPLY_OPTION
 0x40
 ]
 ;
-do_check_eq
+equal
 (
 testDataBuffer
 .
@@ -190,7 +190,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 testDataBuffer
 [
@@ -311,7 +311,7 @@ decodeUserDataMsgStatus
 (
 )
 ;
-do_check_eq
+equal
 (
 result
 .
@@ -323,7 +323,7 @@ octet
 6
 )
 ;
-do_check_eq
+equal
 (
 result
 .
@@ -497,7 +497,7 @@ msgType
 msgBodySize
 )
 ;
-do_check_eq
+equal
 (
 result
 expected

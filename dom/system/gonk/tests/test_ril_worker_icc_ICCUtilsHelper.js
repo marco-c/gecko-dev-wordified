@@ -131,7 +131,7 @@ appType
 =
 CARD_APPTYPE_SIM
 ;
-do_check_eq
+equal
 (
 ICCUtilsHelper
 .
@@ -148,7 +148,7 @@ appType
 =
 CARD_APPTYPE_USIM
 ;
-do_check_eq
+equal
 (
 ICCUtilsHelper
 .
@@ -262,7 +262,7 @@ PDU_NL_SINGLE_SHIFT_TABLES
 PDU_NL_IDENTIFIER_DEFAULT
 ]
 ;
-do_check_eq
+equal
 (
 ICCUtilsHelper
 .
@@ -273,7 +273,7 @@ langTable
 true
 )
 ;
-do_check_eq
+equal
 (
 ICCUtilsHelper
 .
@@ -284,7 +284,7 @@ langShiftTable
 true
 )
 ;
-do_check_eq
+equal
 (
 ICCUtilsHelper
 .
@@ -522,7 +522,7 @@ parsePbrTlvs
 pbrTlvs
 )
 ;
-do_check_eq
+equal
 (
 pbr
 .
@@ -532,7 +532,7 @@ fileId
 0x4F3a
 )
 ;
-do_check_eq
+equal
 (
 pbr
 .
@@ -542,7 +542,7 @@ fileId
 0x4F25
 )
 ;
-do_check_eq
+equal
 (
 pbr
 .
@@ -552,7 +552,7 @@ fileId
 0x4F09
 )
 ;
-do_check_eq
+equal
 (
 pbr
 .
@@ -562,7 +562,7 @@ fileId
 0x4F50
 )
 ;
-do_check_eq
+equal
 (
 pbr
 .
@@ -572,7 +572,7 @@ fileId
 0x4f11
 )
 ;
-do_check_eq
+equal
 (
 pbr
 .
@@ -582,7 +582,7 @@ fileId
 0x4f12
 )
 ;
-do_check_eq
+equal
 (
 pbr
 .
@@ -592,7 +592,7 @@ fileId
 0x4F3D
 )
 ;
-do_check_eq
+equal
 (
 pbr
 .
@@ -679,7 +679,7 @@ if
 imsi
 )
 {
-do_check_eq
+equal
 (
 result
 null
@@ -688,7 +688,7 @@ null
 return
 ;
 }
-do_check_eq
+equal
 (
 result
 .
@@ -696,7 +696,7 @@ mcc
 expectedMcc
 )
 ;
-do_check_eq
+equal
 (
 result
 .
@@ -897,7 +897,7 @@ expectedResult
 null
 )
 {
-do_check_eq
+equal
 (
 result
 expectedResult
@@ -906,7 +906,7 @@ expectedResult
 }
 else
 {
-do_check_eq
+equal
 (
 result
 .
@@ -916,7 +916,7 @@ expectedResult
 longName
 )
 ;
-do_check_eq
+equal
 (
 result
 .
@@ -2034,7 +2034,7 @@ GECKO_ICC_SERVICES
 cphs
 )
 {
-do_check_eq
+equal
 (
 ICCUtilsHelper
 .

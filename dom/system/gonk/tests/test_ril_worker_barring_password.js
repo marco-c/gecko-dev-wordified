@@ -126,7 +126,7 @@ fakeSendParcel
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -161,7 +161,7 @@ readStringList
 (
 )
 ;
-do_check_eq
+equal
 (
 parcel
 .
@@ -169,7 +169,7 @@ length
 3
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -178,7 +178,7 @@ parcel
 facility
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -187,7 +187,7 @@ parcel
 pin
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -260,7 +260,7 @@ function
 message
 )
 {
-do_check_eq
+equal
 (
 barringPasswordOptions
 .
@@ -268,7 +268,7 @@ pin
 PIN
 )
 ;
-do_check_eq
+equal
 (
 barringPasswordOptions
 .
@@ -276,7 +276,7 @@ newPin
 NEW_PIN
 )
 ;
-do_check_eq
+equal
 (
 message
 .

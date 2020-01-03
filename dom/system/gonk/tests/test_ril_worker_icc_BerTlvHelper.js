@@ -224,7 +224,7 @@ BER_FCP_FILE_DESCRIPTOR_TAG
 iter
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -247,7 +247,7 @@ BER_FCP_FILE_IDENTIFIER_TAG
 iter
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -267,7 +267,7 @@ BER_FCP_FILE_SIZE_DATA_TAG
 iter
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -439,7 +439,7 @@ BER_FCP_FILE_DESCRIPTOR_TAG
 iter
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -452,7 +452,7 @@ EF_STRUCTURE_LINEAR_FIXED
 ]
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -462,7 +462,7 @@ recordLength
 0x1A
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -482,7 +482,7 @@ BER_FCP_FILE_IDENTIFIER_TAG
 iter
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -502,7 +502,7 @@ BER_FCP_FILE_SIZE_DATA_TAG
 iter
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .

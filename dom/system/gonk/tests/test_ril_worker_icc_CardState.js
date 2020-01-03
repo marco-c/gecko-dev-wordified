@@ -166,7 +166,7 @@ _processICCStatus
 iccStatus
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -596,7 +596,7 @@ _processICCStatus
 iccStatus
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -772,7 +772,7 @@ _processICCStatus
 iccStatus
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -933,7 +933,7 @@ is
 -
 1
 .
-do_check_eq
+equal
 (
 ril
 .
@@ -958,7 +958,7 @@ is
 -
 1
 .
-do_check_eq
+equal
 (
 ril
 .

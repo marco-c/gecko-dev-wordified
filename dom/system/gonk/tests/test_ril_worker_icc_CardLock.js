@@ -151,7 +151,7 @@ fakeSendParcel
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -188,7 +188,7 @@ readStringList
 (
 )
 ;
-do_check_eq
+equal
 (
 parcel
 .
@@ -202,7 +202,7 @@ v5Legacy
 4
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -214,7 +214,7 @@ aLock
 ]
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -224,7 +224,7 @@ parcel
 "
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -245,7 +245,7 @@ ril
 v5Legacy
 )
 {
-do_check_eq
+equal
 (
 parcel
 [
@@ -362,7 +362,7 @@ appType
 =
 CARD_APPTYPE_SIM
 ;
-do_check_eq
+equal
 (
 ICCFileHelper
 .
@@ -375,7 +375,7 @@ EF_PATH_MF_SIM
 EF_PATH_DF_GSM
 )
 ;
-do_check_eq
+equal
 (
 ICCFileHelper
 .
@@ -398,7 +398,7 @@ appType
 =
 CARD_APPTYPE_USIM
 ;
-do_check_eq
+equal
 (
 ICCFileHelper
 .
@@ -411,7 +411,7 @@ EF_PATH_MF_SIM
 EF_PATH_ADF_USIM
 )
 ;
-do_check_eq
+equal
 (
 ICCFileHelper
 .
@@ -526,7 +526,7 @@ fakeSendParcel
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -563,7 +563,7 @@ readStringList
 (
 )
 ;
-do_check_eq
+equal
 (
 parcel
 .
@@ -577,7 +577,7 @@ v5Legacy
 5
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -589,7 +589,7 @@ aLock
 ]
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -606,7 +606,7 @@ aEnabled
 "
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -615,7 +615,7 @@ parcel
 aPassword
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -636,7 +636,7 @@ ril
 v5Legacy
 )
 {
-do_check_eq
+equal
 (
 parcel
 [
@@ -803,7 +803,7 @@ fakeSendParcel
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -843,7 +843,7 @@ readStringList
 (
 )
 ;
-do_check_eq
+equal
 (
 parcel
 .
@@ -857,7 +857,7 @@ v5Legacy
 3
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -866,7 +866,7 @@ parcel
 aPassword
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -883,7 +883,7 @@ ril
 v5Legacy
 )
 {
-do_check_eq
+equal
 (
 parcel
 [
@@ -1051,7 +1051,7 @@ fakeSendParcel
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1091,7 +1091,7 @@ readStringList
 (
 )
 ;
-do_check_eq
+equal
 (
 parcel
 .
@@ -1105,7 +1105,7 @@ v5Legacy
 2
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -1122,7 +1122,7 @@ ril
 v5Legacy
 )
 {
-do_check_eq
+equal
 (
 parcel
 [
@@ -1282,7 +1282,7 @@ fakeSendParcel
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1322,7 +1322,7 @@ readStringList
 (
 )
 ;
-do_check_eq
+equal
 (
 parcel
 .
@@ -1336,7 +1336,7 @@ v5Legacy
 3
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -1345,7 +1345,7 @@ parcel
 aPassword
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [
@@ -1362,7 +1362,7 @@ ril
 v5Legacy
 )
 {
-do_check_eq
+equal
 (
 parcel
 [
@@ -1495,7 +1495,7 @@ fakeSendParcel
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1532,7 +1532,7 @@ readStringList
 (
 )
 ;
-do_check_eq
+equal
 (
 parcel
 .
@@ -1540,7 +1540,7 @@ length
 1
 )
 ;
-do_check_eq
+equal
 (
 parcel
 [

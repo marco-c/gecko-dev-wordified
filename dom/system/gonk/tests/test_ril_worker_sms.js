@@ -871,7 +871,7 @@ message
 fullBody
 )
 ;
-do_check_eq
+equal
 (
 expected
 message
@@ -1605,7 +1605,7 @@ is
 not
 fixed
 .
-do_check_eq
+equal
 (
 this
 .

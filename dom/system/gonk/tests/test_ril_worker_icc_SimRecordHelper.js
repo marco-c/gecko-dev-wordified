@@ -276,7 +276,7 @@ readAD
 (
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -286,7 +286,7 @@ mcc
 expectedMcc
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -977,7 +977,7 @@ testEf
 )
 )
 ;
-do_check_true
+ok
 (
 false
 )
@@ -1271,7 +1271,7 @@ called
 "
 )
 ;
-do_check_true
+ok
 (
 false
 )
@@ -1599,7 +1599,7 @@ readMWIS
 (
 )
 ;
-do_check_eq
+equal
 (
 "
 iccmwis
@@ -1609,7 +1609,7 @@ postedMessage
 rilMessageType
 )
 ;
-do_check_eq
+equal
 (
 isActive
 postedMessage
@@ -1619,7 +1619,7 @@ mwi
 active
 )
 ;
-do_check_eq
+equal
 (
 (
 isActive
@@ -1952,7 +1952,7 @@ true
 Request
 Type
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1981,7 +1981,7 @@ readInt32
 /
 command
 .
-do_check_eq
+equal
 (
 this
 .
@@ -1995,7 +1995,7 @@ ICC_COMMAND_UPDATE_RECORD
 /
 fileId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2009,7 +2009,7 @@ ICC_EF_MWIS
 /
 pathId
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2039,7 +2039,7 @@ EF_PATH_DF_GSM
 /
 p1
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2053,7 +2053,7 @@ recordNum
 /
 p2
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2067,7 +2067,7 @@ READ_RECORD_ABSOLUTE_MODE
 /
 p3
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2090,7 +2090,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 recordSize
 *
@@ -2121,7 +2121,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 expectedMwis
 [
@@ -2146,7 +2146,7 @@ strLen
 /
 pin2
 .
-do_check_eq
+equal
 (
 this
 .
@@ -2185,8 +2185,9 @@ readInt32
 }
 }
 ;
-do_check_false
+ok
 (
+!
 isUpdated
 )
 ;
@@ -2204,7 +2205,7 @@ count
 }
 )
 ;
-do_check_true
+ok
 (
 (
 ril
@@ -2896,7 +2897,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 "
 sms
@@ -2908,7 +2909,7 @@ postedMessage
 rilMessageType
 )
 ;
-do_check_eq
+equal
 (
 "
 +
@@ -2919,7 +2920,7 @@ postedMessage
 SMSC
 )
 ;
-do_check_eq
+equal
 (
 "
 +
@@ -2930,7 +2931,7 @@ postedMessage
 sender
 )
 ;
-do_check_eq
+equal
 (
 "
 How
@@ -3195,7 +3196,7 @@ readSPDI
 (
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -3205,7 +3206,7 @@ isDisplayNetworkNameRequired
 true
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -3368,7 +3369,7 @@ readSPN
 (
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -3378,7 +3379,7 @@ isDisplayNetworkNameRequired
 expectedPlmnNameDisplay
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -4642,7 +4643,7 @@ function
 icons
 )
 {
-do_check_eq
+equal
 (
 icons
 .
@@ -4686,7 +4687,7 @@ expected
 i
 ]
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -4696,7 +4697,7 @@ exp
 width
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -4706,7 +4707,7 @@ exp
 height
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -4716,7 +4717,7 @@ exp
 codingScheme
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -4750,7 +4751,7 @@ j
 +
 )
 {
-do_check_eq
+equal
 (
 icon
 .
@@ -5207,7 +5208,7 @@ called
 "
 )
 ;
-do_check_true
+ok
 (
 false
 )
@@ -5232,7 +5233,7 @@ expected
 "
 )
 ;
-do_check_true
+ok
 (
 true
 )
@@ -5607,7 +5608,7 @@ called
 "
 )
 ;
-do_check_true
+ok
 (
 false
 )
@@ -5632,7 +5633,7 @@ expected
 "
 )
 ;
-do_check_true
+ok
 (
 true
 )
@@ -5876,7 +5877,7 @@ called
 "
 )
 ;
-do_check_true
+ok
 (
 false
 )
@@ -5901,7 +5902,7 @@ expected
 "
 )
 ;
-do_check_true
+ok
 (
 true
 )
@@ -6624,7 +6625,7 @@ function
 icons
 )
 {
-do_check_eq
+equal
 (
 icons
 .
@@ -6668,7 +6669,7 @@ expected
 i
 ]
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -6678,7 +6679,7 @@ exp
 width
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -6688,7 +6689,7 @@ exp
 height
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -6698,7 +6699,7 @@ exp
 codingScheme
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -6732,7 +6733,7 @@ j
 +
 )
 {
-do_check_eq
+equal
 (
 icon
 .
@@ -6749,7 +6750,7 @@ j
 )
 ;
 }
-do_check_eq
+equal
 (
 icon
 .
@@ -6783,7 +6784,7 @@ j
 +
 )
 {
-do_check_eq
+equal
 (
 icon
 .
@@ -7533,7 +7534,7 @@ function
 icons
 )
 {
-do_check_eq
+equal
 (
 icons
 .
@@ -7577,7 +7578,7 @@ expected
 i
 ]
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -7587,7 +7588,7 @@ exp
 width
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -7597,7 +7598,7 @@ exp
 height
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -7607,7 +7608,7 @@ exp
 codingScheme
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -7641,7 +7642,7 @@ j
 +
 )
 {
-do_check_eq
+equal
 (
 icon
 .
@@ -7658,7 +7659,7 @@ j
 )
 ;
 }
-do_check_eq
+equal
 (
 icon
 .
@@ -7692,7 +7693,7 @@ j
 +
 )
 {
-do_check_eq
+equal
 (
 icon
 .
@@ -8019,7 +8020,7 @@ true
 }
 )
 ;
-do_check_true
+ok
 (
 (
 cphsSt
@@ -8030,7 +8031,9 @@ onsuccess
 onerror
 )
 ;
-do_check_false
+ok
+(
+!
 (
 (
 cphsSt
@@ -8039,6 +8042,7 @@ cphsSt
 onerror
 :
 onsuccess
+)
 )
 ;
 if
@@ -8046,7 +8050,7 @@ if
 cphsSt
 )
 {
-do_check_eq
+equal
 (
 RIL
 .
@@ -8078,7 +8082,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 RIL
 .
@@ -8098,7 +8102,7 @@ i
 }
 else
 {
-do_check_eq
+equal
 (
 RIL
 .
@@ -8548,7 +8552,7 @@ funcName
 (
 )
 ;
-do_check_eq
+equal
 (
 "
 iccmbdn
@@ -8558,7 +8562,7 @@ postedMessage
 rilMessageType
 )
 ;
-do_check_eq
+equal
 (
 "
 Voicemail
@@ -8568,7 +8572,7 @@ postedMessage
 alphaId
 )
 ;
-do_check_eq
+equal
 (
 "
 111
@@ -8865,7 +8869,7 @@ readMBDN
 (
 )
 ;
-do_check_eq
+equal
 (
 RIL
 .
@@ -8875,7 +8879,7 @@ mbdn
 undefined
 )
 ;
-do_check_true
+ok
 (
 isRecovered
 )
@@ -9221,7 +9225,7 @@ readPNN
 (
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -9723,7 +9727,7 @@ readPNN
 (
 )
 ;
-do_check_eq
+equal
 (
 test_data
 .
@@ -9765,7 +9769,7 @@ i
 expectedResult
 )
 {
-do_check_eq
+equal
 (
 test_data
 [
@@ -9787,7 +9791,7 @@ i
 fullName
 )
 ;
-do_check_eq
+equal
 (
 test_data
 [
@@ -9812,7 +9816,7 @@ shortName
 }
 else
 {
-do_check_eq
+equal
 (
 test_data
 [

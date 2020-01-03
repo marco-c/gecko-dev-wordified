@@ -180,7 +180,7 @@ table
 lookup
 algorithm
 .
-do_check_eq
+equal
 (
 table
 .
@@ -197,7 +197,7 @@ values
 are
 preserved
 .
-do_check_eq
+equal
 (
 table
 [
@@ -206,7 +206,7 @@ PDU_NL_EXTENDED_ESCAPE
 ESCAPE
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -215,7 +215,7 @@ PDU_NL_LINE_FEED
 LF
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -224,7 +224,7 @@ PDU_NL_CARRIAGE_RETURN
 CR
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -305,7 +305,7 @@ table
 lookup
 algorithm
 .
-do_check_eq
+equal
 (
 table
 .
@@ -322,7 +322,7 @@ values
 are
 preserved
 .
-do_check_eq
+equal
 (
 table
 [
@@ -331,7 +331,7 @@ PDU_NL_EXTENDED_ESCAPE
 ESCAPE
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -340,7 +340,7 @@ PDU_NL_PAGE_BREAK
 FF
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -464,7 +464,7 @@ not
 in
 default
 table
-do_check_eq
+equal
 (
 defaultTable
 .
@@ -476,7 +476,7 @@ from
 1
 )
 ;
-do_check_eq
+equal
 (
 defaultShiftTable
 .
@@ -525,7 +525,7 @@ to
 )
 )
 {
-do_check_eq
+equal
 (
 false
 true

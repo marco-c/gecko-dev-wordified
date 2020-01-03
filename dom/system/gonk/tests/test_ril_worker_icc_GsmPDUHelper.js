@@ -138,7 +138,7 @@ readTimestamp
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -152,7 +152,7 @@ getFullYear
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -166,7 +166,7 @@ getMonth
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -180,7 +180,7 @@ getDate
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -194,7 +194,7 @@ getHours
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -208,7 +208,7 @@ getMinutes
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -222,7 +222,7 @@ getSeconds
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -305,7 +305,7 @@ readTimestamp
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -319,7 +319,7 @@ getFullYear
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -333,7 +333,7 @@ getMonth
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -347,7 +347,7 @@ getDate
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -361,7 +361,7 @@ getHours
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -375,7 +375,7 @@ getMinutes
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -389,7 +389,7 @@ getSeconds
 )
 )
 ;
-do_check_eq
+equal
 (
 dateInput
 .
@@ -475,7 +475,7 @@ BCDToOctet
 number
 )
 ;
-do_check_eq
+equal
 (
 helper
 .
@@ -502,7 +502,7 @@ BCDToOctet
 number
 )
 ;
-do_check_eq
+equal
 (
 helper
 .
@@ -529,7 +529,7 @@ octetToBCD
 octet
 )
 ;
-do_check_eq
+equal
 (
 helper
 .
@@ -556,7 +556,7 @@ octetToBCD
 octet
 )
 ;
-do_check_eq
+equal
 (
 helper
 .

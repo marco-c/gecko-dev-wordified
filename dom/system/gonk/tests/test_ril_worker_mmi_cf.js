@@ -211,7 +211,7 @@ workerhelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -219,7 +219,7 @@ errorMsg
 undefined
 )
 ;
-do_check_true
+ok
 (
 postedMessage
 .
@@ -478,7 +478,7 @@ workerhelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -486,14 +486,14 @@ errorMsg
 undefined
 )
 ;
-do_check_true
+ok
 (
 postedMessage
 .
 success
 )
 ;
-do_check_true
+ok
 (
 Array
 .
@@ -505,7 +505,7 @@ rules
 )
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -515,7 +515,7 @@ length
 1
 )
 ;
-do_check_true
+ok
 (
 postedMessage
 .
@@ -527,7 +527,7 @@ rules
 active
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -540,7 +540,7 @@ reason
 CALL_FORWARD_REASON_UNCONDITIONAL
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -678,7 +678,7 @@ workerhelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -686,8 +686,9 @@ errorMsg
 GECKO_ERROR_GENERIC_FAILURE
 )
 ;
-do_check_false
+ok
 (
+!
 postedMessage
 .
 success
