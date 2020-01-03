@@ -656,7 +656,6 @@ JOB_NONE
 0
 )
 ;
-bool
 ret
 =
 (
