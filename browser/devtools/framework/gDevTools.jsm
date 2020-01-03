@@ -5993,7 +5993,7 @@ paused
 .
 threadClient
 .
-breakOnNext
+resumeThenPause
 (
 )
 ;
@@ -6028,7 +6028,7 @@ interrupt
 {
 threadClient
 .
-breakOnNext
+resumeThenPause
 (
 )
 ;
@@ -6077,7 +6077,7 @@ interrupt
 {
 threadClient
 .
-breakOnNext
+resumeThenPause
 (
 )
 ;
