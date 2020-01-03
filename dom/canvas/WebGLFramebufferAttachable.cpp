@@ -141,7 +141,7 @@ AttachTo
 WebGLFramebuffer
 *
 fb
-GLenum
+FBAttachment
 attachment
 )
 {
@@ -200,7 +200,7 @@ DetachFrom
 WebGLFramebuffer
 *
 fb
-GLenum
+FBAttachment
 attachment
 )
 {

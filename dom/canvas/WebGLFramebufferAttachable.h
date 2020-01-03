@@ -129,6 +129,13 @@ WebGLFramebuffer
 .
 h
 "
+#
+include
+"
+WebGLStrongTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -144,7 +151,7 @@ const
 WebGLFramebuffer
 *
 fb
-GLenum
+FBAttachment
 attachment
 )
 :
@@ -165,7 +172,7 @@ WebGLFramebuffer
 >
 mFB
 ;
-GLenum
+FBAttachment
 mAttachment
 ;
 bool
@@ -220,7 +227,7 @@ AttachTo
 WebGLFramebuffer
 *
 fb
-GLenum
+FBAttachment
 attachment
 )
 ;
@@ -230,7 +237,7 @@ DetachFrom
 WebGLFramebuffer
 *
 fb
-GLenum
+FBAttachment
 attachment
 )
 ;

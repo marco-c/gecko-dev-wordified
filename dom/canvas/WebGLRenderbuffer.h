@@ -148,7 +148,7 @@ nsWrapperCache
 public
 WebGLBindableName
 <
-GLenum
+RBTarget
 >
 public
 WebGLRefCountedObject
@@ -330,7 +330,7 @@ const
 void
 FramebufferRenderbuffer
 (
-GLenum
+FBAttachment
 attachment
 )
 const
@@ -348,9 +348,9 @@ s
 GLint
 GetRenderbufferParameter
 (
-GLenum
+RBTarget
 target
-GLenum
+RBParam
 pname
 )
 const
