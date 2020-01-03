@@ -2,7 +2,7 @@
 *
 *
 Copyright
-2013
+2015
 Mozilla
 Foundation
 and
