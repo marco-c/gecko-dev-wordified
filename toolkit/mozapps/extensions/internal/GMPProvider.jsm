@@ -287,7 +287,7 @@ SEC_IN_A_DAY
 60
 ;
 const
-NS_GRE_BIN_DIR
+NS_GRE_DIR
 =
 "
 GreD
@@ -3418,7 +3418,7 @@ false
 try
 {
 let
-greBinDir
+greDir
 =
 Services
 .
@@ -3426,7 +3426,7 @@ dirsvc
 .
 get
 (
-NS_GRE_BIN_DIR
+NS_GRE_DIR
 Ci
 .
 nsILocalFile
@@ -3441,7 +3441,7 @@ Path
 .
 join
 (
-greBinDir
+greDir
 .
 path
 CLEARKEY_PLUGIN_ID
