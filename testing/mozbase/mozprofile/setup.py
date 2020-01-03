@@ -308,7 +308,7 @@ install_requires
 =
 deps
       
-extra_requires
+extras_require
 =
 {
 '
