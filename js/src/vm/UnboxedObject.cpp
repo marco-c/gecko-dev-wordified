@@ -3928,6 +3928,9 @@ id
 if
 (
 nativeProperty
+&
+&
+nativeProperty
 -
 >
 canSetDefinite
