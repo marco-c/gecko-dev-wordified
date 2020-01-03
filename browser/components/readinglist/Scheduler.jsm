@@ -2447,11 +2447,6 @@ _logManager
 .
 resetFileLog
 (
-this
-.
-_logManager
-.
-REASON_SUCCESS
 )
 ;
 Services
@@ -2623,11 +2618,6 @@ _logManager
 .
 resetFileLog
 (
-this
-.
-_logManager
-.
-REASON_SUCCESS
 )
 ;
 Services
@@ -2740,11 +2730,6 @@ _logManager
 .
 resetFileLog
 (
-this
-.
-_logManager
-.
-REASON_ERROR
 )
 ;
 Services
