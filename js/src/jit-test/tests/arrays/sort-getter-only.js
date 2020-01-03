@@ -57,12 +57,6 @@ var
 getterDesc
 =
 {
-configurable
-:
-false
-enumerable
-:
-true
 get
 :
 function
@@ -78,6 +72,12 @@ F
 set
 :
 undefined
+enumerable
+:
+true
+configurable
+:
+false
 }
 ;
 Object
