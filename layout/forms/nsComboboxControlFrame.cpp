@@ -6075,6 +6075,16 @@ aReflowState
 ComputedWidth
 (
 )
++
+aReflowState
+.
+ComputedPhysicalBorderPadding
+(
+)
+.
+LeftRight
+(
+)
 ;
 LogicalRect
 buttonRect
