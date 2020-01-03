@@ -945,6 +945,15 @@ this
 .
 _browser
 .
+permanentKey
+=
+{
+}
+;
+this
+.
+_browser
+.
 setAttribute
 (
 "
