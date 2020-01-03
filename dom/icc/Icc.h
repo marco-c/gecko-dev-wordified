@@ -475,8 +475,7 @@ private
 Icc
 (
 )
-{
-}
+;
 bool
 mLive
 ;

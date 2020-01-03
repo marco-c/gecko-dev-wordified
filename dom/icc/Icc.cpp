@@ -373,6 +373,15 @@ nsIIccProvider
 ;
 }
 }
+Icc
+:
+:
+~
+Icc
+(
+)
+{
+}
 void
 Icc
 :
