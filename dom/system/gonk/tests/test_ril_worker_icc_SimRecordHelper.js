@@ -2156,14 +2156,6 @@ readString
 null
 )
 ;
-if
-(
-!
-ril
-.
-v5Legacy
-)
-{
 /
 /
 AID
@@ -2182,7 +2174,6 @@ readInt32
 (
 )
 ;
-}
 }
 ;
 ok
