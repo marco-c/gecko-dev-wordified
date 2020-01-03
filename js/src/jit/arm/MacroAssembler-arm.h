@@ -10100,7 +10100,13 @@ callJitFromAsmJS
 Register
 callee
 )
+{
+as_blx
+(
+callee
+)
 ;
+}
 void
 reserveStack
 (
