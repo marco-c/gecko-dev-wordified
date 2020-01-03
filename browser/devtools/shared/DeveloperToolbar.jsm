@@ -1301,6 +1301,15 @@ unload
 =
 >
 {
+if
+(
+command
+.
+state
+.
+offChange
+)
+{
 command
 .
 state
@@ -1311,6 +1320,7 @@ target
 onChange
 )
 ;
+}
 }
 false
 )
