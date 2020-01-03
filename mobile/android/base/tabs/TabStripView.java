@@ -455,7 +455,7 @@ R
 .
 drawable
 .
-new_tablet_tab_strip_divider
+tab_strip_divider
 )
 ;
 divider
