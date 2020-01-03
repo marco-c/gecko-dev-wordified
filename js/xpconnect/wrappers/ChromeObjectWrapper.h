@@ -577,7 +577,7 @@ iterate
 /
 /
 and
-getPropertyNames
+getPropertyKeys
 (
 )
 here
@@ -654,7 +654,7 @@ we
 can
 /
 /
-atually
+actually
 skip
 these
 .

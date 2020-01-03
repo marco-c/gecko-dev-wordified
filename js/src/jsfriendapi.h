@@ -5894,7 +5894,7 @@ JS_FRIEND_API
 (
 bool
 )
-GetPropertyNames
+GetPropertyKeys
 (
 JSContext
 *

@@ -82252,7 +82252,7 @@ if
 js
 :
 :
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 {
@@ -82484,7 +82484,7 @@ proxy
 js
 :
 :
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 expando

@@ -20459,7 +20459,7 @@ ida
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 obj

@@ -4525,7 +4525,7 @@ cx
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 arr

@@ -5058,7 +5058,7 @@ cx
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 obj

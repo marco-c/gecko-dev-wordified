@@ -1631,7 +1631,7 @@ INVOKE_ON_PROTOTYPE
 cx
 handler
 proxy
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 proto

@@ -7506,7 +7506,7 @@ descs
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 props
@@ -8122,7 +8122,7 @@ cx
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 obj
@@ -9007,7 +9007,7 @@ cx
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 obj
@@ -12692,7 +12692,7 @@ cx
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 obj

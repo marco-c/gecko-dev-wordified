@@ -9020,7 +9020,7 @@ if
 js
 :
 :
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 obj

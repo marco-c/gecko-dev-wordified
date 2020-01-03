@@ -2190,7 +2190,7 @@ cx
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 obj
@@ -5154,7 +5154,7 @@ cx
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 obj
