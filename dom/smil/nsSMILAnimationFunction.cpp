@@ -5343,6 +5343,10 @@ result
 SetCapacity
 (
 2
+mozilla
+:
+:
+fallible
 )
 )
 {

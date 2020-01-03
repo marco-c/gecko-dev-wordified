@@ -393,6 +393,7 @@ mItems
 SetCapacity
 (
 size
+fallible
 )
 ;
 }

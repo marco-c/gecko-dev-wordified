@@ -6087,6 +6087,7 @@ fileActorOrMutableFileIds
 SetCapacity
 (
 count
+fallible
 )
 )
 )

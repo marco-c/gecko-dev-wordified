@@ -2659,6 +2659,7 @@ Length
 )
 +
 1
+fallible
 )
 |
 |
@@ -2684,6 +2685,7 @@ Length
 1
 +
 argCount
+fallible
 )
 )
 {

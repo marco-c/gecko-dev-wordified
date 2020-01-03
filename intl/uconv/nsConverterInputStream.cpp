@@ -300,6 +300,10 @@ mByteData
 SetCapacity
 (
 aBufferSize
+mozilla
+:
+:
+fallible
 )
 |
 |
@@ -309,6 +313,10 @@ mUnicharData
 SetCapacity
 (
 aBufferSize
+mozilla
+:
+:
+fallible
 )
 )
 {

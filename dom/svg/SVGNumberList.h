@@ -404,6 +404,7 @@ mNumbers
 SetCapacity
 (
 size
+fallible
 )
 ;
 }

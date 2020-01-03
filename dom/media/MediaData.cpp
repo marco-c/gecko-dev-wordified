@@ -3231,6 +3231,7 @@ aSize
 RAW_DATA_ALIGNMENT
 *
 2
+fallible
 )
 )
 {

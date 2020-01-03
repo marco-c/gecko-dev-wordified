@@ -327,6 +327,7 @@ aTransformArray
 Length
 (
 )
+fallible
 )
 )
 {

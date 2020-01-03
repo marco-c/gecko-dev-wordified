@@ -4386,6 +4386,10 @@ mutations
 SetCapacity
 (
 mPendingMutationCount
+mozilla
+:
+:
+fallible
 )
 )
 {

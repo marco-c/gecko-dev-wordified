@@ -470,6 +470,7 @@ srcTransforms
 Length
 (
 )
+fallible
 )
 ;
 NS_ENSURE_TRUE
@@ -2616,6 +2617,7 @@ aList
 Length
 (
 )
+fallible
 )
 )
 return
@@ -2756,6 +2758,7 @@ smilTransforms
 Length
 (
 )
+fallible
 )
 )
 return

@@ -7344,6 +7344,7 @@ faces
 SetCapacity
 (
 len
+fallible
 )
 )
 {

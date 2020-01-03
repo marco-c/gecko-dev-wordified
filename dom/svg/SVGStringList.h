@@ -340,6 +340,7 @@ mStrings
 SetCapacity
 (
 size
+fallible
 )
 ;
 }
