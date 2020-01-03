@@ -228,6 +228,13 @@ PRErrorCode
 code
 )
 ;
+bool
+ErrorIsOverridable
+(
+PRErrorCode
+code
+)
+;
 }
 /
 /
