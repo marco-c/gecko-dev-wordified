@@ -616,10 +616,13 @@ if
 mReverb
 )
 {
-*
 aOutput
-=
-aInput
+-
+>
+SetNull
+(
+WEBAUDIO_BLOCK_SIZE
+)
 ;
 return
 ;
