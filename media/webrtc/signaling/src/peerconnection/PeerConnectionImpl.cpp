@@ -1417,6 +1417,10 @@ mSTSThread
 (
 nullptr
 )
+mAllowIceLoopback
+(
+false
+)
 mMedia
 (
 nullptr
@@ -3649,6 +3653,14 @@ new
 PeerConnectionMedia
 (
 this
+)
+;
+mMedia
+-
+>
+SetAllowIceLoopback
+(
+mAllowIceLoopback
 )
 ;
 /
