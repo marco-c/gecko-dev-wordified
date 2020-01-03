@@ -1181,10 +1181,10 @@ last_call
 int
 *
 skip_count
-base
+std
 :
 :
-string16
+wstring
 *
 fragment
 )
@@ -1658,10 +1658,10 @@ in
 a
 row
 .
-base
+std
 :
 :
-string16
+wstring
 fragment
 ;
 /
@@ -1672,6 +1672,9 @@ non
 -
 wildcard
 part
+of
+the
+string
 .
 while
 (

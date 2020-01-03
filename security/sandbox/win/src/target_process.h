@@ -747,13 +747,9 @@ the
 target
 executable
 .
-scoped_ptr
+scoped_ptr_malloc
 <
 wchar_t
-base
-:
-:
-FreeDeleter
 >
 exe_name_
 ;

@@ -236,14 +236,11 @@ Init
 (
 JobLevel
 security_level
-const
 wchar_t
 *
 job_name
 DWORD
 ui_exceptions
-size_t
-memory_limit
 )
 ;
 /

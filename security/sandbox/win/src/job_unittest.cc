@@ -141,7 +141,6 @@ L
 my_test_job_name
 "
 0
-0
 )
 )
 ;
@@ -284,7 +283,6 @@ L
 "
 my_test_job_name
 "
-0
 0
 )
 )
@@ -470,7 +468,6 @@ L
 my_test_job_name
 "
 JOB_OBJECT_UILIMIT_READCLIPBOARD
-0
 )
 )
 ;
@@ -574,7 +571,6 @@ L
 "
 my_test_job_name
 "
-0
 0
 )
 )
@@ -691,7 +687,6 @@ L
 my_test_job_name
 "
 0
-0
 )
 )
 ;
@@ -707,7 +702,6 @@ L
 "
 test
 "
-0
 0
 )
 )
@@ -813,7 +807,6 @@ L
 job1
 "
 0
-0
 )
 )
 ;
@@ -832,7 +825,6 @@ L
 "
 job2
 "
-0
 0
 )
 )
@@ -853,7 +845,6 @@ L
 job3
 "
 0
-0
 )
 )
 ;
@@ -873,7 +864,6 @@ L
 job4
 "
 0
-0
 )
 )
 ;
@@ -892,7 +882,6 @@ L
 "
 job5
 "
-0
 0
 )
 )
@@ -928,7 +917,6 @@ L
 job6
 "
 0
-0
 )
 )
 ;
@@ -955,7 +943,6 @@ L
 "
 job7
 "
-0
 0
 )
 )
@@ -998,7 +985,6 @@ L
 job_test_process
 "
 0
-0
 )
 )
 ;
@@ -1027,11 +1013,14 @@ si
 )
 }
 ;
-PROCESS_INFORMATION
-temp_process_info
-=
-{
-}
+base
+:
+:
+win
+:
+:
+ScopedProcessInformation
+pi
 ;
 result
 =
@@ -1049,25 +1038,16 @@ NULL
 NULL
 &
 si
-&
-temp_process_info
+pi
+.
+Receive
+(
+)
 )
 ;
 ASSERT_TRUE
 (
 result
-)
-;
-base
-:
-:
-win
-:
-:
-ScopedProcessInformation
-pi
-(
-temp_process_info
 )
 ;
 ASSERT_EQ

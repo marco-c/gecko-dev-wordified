@@ -412,17 +412,6 @@ the
 mitigation
 policy
 .
-SBOX_FATAL_MEMORY_EXCEEDED
-=
-7012
-/
-/
-Exceeded
-the
-job
-memory
-limit
-.
 SBOX_FATAL_LAST
 }
 ;

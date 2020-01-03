@@ -291,6 +291,9 @@ DWORD
 options
 )
 {
+NTSTATUS
+error
+;
 static
 NtQueryObject
 QueryObject
@@ -354,8 +357,6 @@ handle_temp
 0
 FALSE
 DUPLICATE_SAME_ACCESS
-|
-options
 )
 )
 {
@@ -376,12 +377,6 @@ return
 false
 ;
 }
-options
-&
-=
-~
-DUPLICATE_CLOSE_SOURCE
-;
 base
 :
 :
@@ -454,7 +449,6 @@ sizeof
 wchar_t
 )
 ;
-NTSTATUS
 error
 =
 QueryObject
@@ -481,7 +475,7 @@ ipc
 >
 return_info
 .
-nt_status
+win32_result
 =
 error
 ;
@@ -581,7 +575,12 @@ HandlePolicy
 DuplicateHandleProxyAction
 (
 eval
-handle
+*
+ipc
+-
+>
+client_info
+source_handle
 target_process_id
 &
 ipc

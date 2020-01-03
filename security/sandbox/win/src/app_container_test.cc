@@ -185,16 +185,10 @@ HANDLE
 CreateTaggedEvent
 (
 const
-base
-:
-:
 string16
 &
 name
 const
-base
-:
-:
 string16
 &
 sid

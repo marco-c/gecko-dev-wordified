@@ -124,9 +124,6 @@ public
 :
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -136,9 +133,6 @@ kTypeProcess
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -148,9 +142,6 @@ kTypeThread
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -160,9 +151,6 @@ kTypeFile
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -172,9 +160,6 @@ kTypeDirectory
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -184,9 +169,6 @@ kTypeKey
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -196,9 +178,6 @@ kTypeWindowStation
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -208,9 +187,6 @@ kTypeDesktop
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -220,9 +196,6 @@ kTypeService
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -232,9 +205,6 @@ kTypeMutex
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -244,9 +214,6 @@ kTypeSemaphore
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -256,9 +223,6 @@ kTypeEvent
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -268,9 +232,6 @@ kTypeTimer
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -280,9 +241,6 @@ kTypeNamedPipe
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -292,9 +250,6 @@ kTypeJobObject
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -304,9 +259,6 @@ kTypeFileMap
 ;
 static
 const
-base
-:
-:
 char16
 *
 HandleTable
@@ -399,9 +351,6 @@ TypeInfo
 )
 ;
 const
-base
-:
-:
 string16
 &
 Name
@@ -409,9 +358,6 @@ Name
 )
 ;
 const
-base
-:
-:
 string16
 &
 Type
@@ -422,9 +368,6 @@ bool
 IsType
 (
 const
-base
-:
-:
 string16
 &
 type_string
@@ -518,15 +461,9 @@ BYTE
 >
 type_info_buffer_
 ;
-base
-:
-:
 string16
 handle_name_
 ;
-base
-:
-:
 string16
 type_name_
 ;

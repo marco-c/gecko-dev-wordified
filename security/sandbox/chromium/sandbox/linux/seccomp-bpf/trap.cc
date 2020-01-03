@@ -1390,10 +1390,7 @@ handler
 }
 rc
 =
-Syscall
-:
-:
-Call
+SandboxSyscall
 (
 sigsys
 .
@@ -1847,10 +1844,7 @@ address
 /
 /
 from
-Syscall
-:
-:
-Call
+SandboxSyscall
 (
 -
 1

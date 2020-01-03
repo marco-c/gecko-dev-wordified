@@ -247,7 +247,7 @@ lock_
 |
 .
 mutable
-PlatformThreadRef
+PlatformThreadId
 valid_thread_id_
 ;
 }
