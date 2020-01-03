@@ -717,6 +717,12 @@ sPluginHasFocus
 )
 ;
 }
+static
+bool
+IsIMMActive
+(
+)
+;
 #
 endif
 /
