@@ -131,6 +131,13 @@ function
 )
 {
 }
+getLanguage
+:
+function
+(
+)
+{
+}
 getDirection
 :
 function
