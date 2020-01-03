@@ -188,7 +188,7 @@ test
 /
 karma
 /
-stubs
+head
 .
 js
 "
