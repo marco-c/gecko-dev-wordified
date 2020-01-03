@@ -7994,14 +7994,6 @@ staticScope
 #
 ifdef
 DEBUG
-void
-DumpStaticScopeChain
-(
-JSScript
-*
-script
-)
-;
 bool
 AnalyzeEntrainedVariables
 (
