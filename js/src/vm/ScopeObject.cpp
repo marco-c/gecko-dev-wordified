@@ -11772,7 +11772,7 @@ JSITER_OWNONLY
 ;
 }
 bool
-enumerate
+getEnumerablePropertyKeys
 (
 JSContext
 *

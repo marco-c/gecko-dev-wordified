@@ -319,7 +319,7 @@ bool
 DeadObjectProxy
 :
 :
-enumerate
+getEnumerablePropertyKeys
 (
 JSContext
 *
