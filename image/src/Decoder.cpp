@@ -1222,8 +1222,10 @@ HasDataError
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 IsSizeDecode
@@ -1457,10 +1459,12 @@ HasError
 (
 )
 )
+{
 FinishInternal
 (
 )
 ;
+}
 /
 /
 If
@@ -1485,10 +1489,12 @@ HasError
 (
 )
 )
+{
 PostFrameStop
 (
 )
 ;
+}
 /
 /
 If

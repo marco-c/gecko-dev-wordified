@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_IMAGELIB_DECODER_H_
+mozilla_image_src_Decoder_h
 #
 define
-MOZILLA_IMAGELIB_DECODER_H_
+mozilla_image_src_Decoder_h
 #
 include
 "
@@ -1398,6 +1398,8 @@ ie
 not
 including
 anything
+/
+/
 in
 -
 progress
@@ -1613,6 +1615,8 @@ frames
 representing
 the
 partial
+/
+/
 state
 of
 the
@@ -3198,4 +3202,4 @@ mozilla
 endif
 /
 /
-MOZILLA_IMAGELIB_DECODER_H_
+mozilla_image_src_Decoder_h
