@@ -84,15 +84,6 @@ use
 strict
 "
 ;
-/
-*
-globals
-gSyncCheckIntervalSecs
-gUpdateTimerManager
-Sqlite
-DB_PATH
-*
-/
 this
 .
 EXPORTED_SYMBOLS
@@ -920,7 +911,8 @@ now
 }
 }
 }
-let
+this
+.
 HomeStorage
 =
 function
@@ -936,7 +928,8 @@ datasetId
 ;
 }
 ;
-let
+this
+.
 ValidationError
 =
 function
@@ -977,7 +970,8 @@ constructor
 =
 ValidationError
 ;
-let
+this
+.
 HomeProvider
 =
 Object
