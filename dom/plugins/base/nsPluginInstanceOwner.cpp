@@ -3550,12 +3550,6 @@ vm
 return
 NS_ERROR_FAILURE
 ;
-#
-if
-defined
-(
-XP_WIN
-)
 /
 /
 This
@@ -3822,6 +3816,14 @@ me
 .
 if
 (
+XRE_GetProcessType
+(
+)
+!
+=
+GeckoProcessType_Content
+&
+&
 mPluginWindow
 &
 &
@@ -4074,8 +4076,6 @@ NS_OK
 }
 }
 }
-#
-endif
 /
 /
 simply
@@ -4118,7 +4118,7 @@ widget
 >
 GetNativeData
 (
-NS_NATIVE_WINDOW
+NS_NATIVE_SHAREABLE_WINDOW
 )
 ;
 }
