@@ -317,8 +317,13 @@ friend
 class
 AltSvcCache
 ;
-public
+private
 :
+/
+/
+ctor
+from
+ProcessHeader
 AltSvcMapping
 (
 const
@@ -351,6 +356,8 @@ nsACString
 npnToken
 )
 ;
+public
+:
 static
 void
 ProcessHeader
