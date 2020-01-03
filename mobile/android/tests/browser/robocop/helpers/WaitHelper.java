@@ -1049,7 +1049,6 @@ private
 interface
 ChangeVerifier
 {
-public
 String
 getLogTag
 (
@@ -1117,13 +1116,11 @@ user
 .
 *
 /
-public
 void
 storeState
 (
 )
 ;
-public
 boolean
 hasStateChanged
 (
