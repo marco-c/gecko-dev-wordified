@@ -4410,7 +4410,7 @@ mPrivate
 uint32_t
 maxDepth
 =
-ShouldIncludeStackrace
+ShouldIncludeStackTrace
 (
 aMethodName
 )
@@ -6139,7 +6139,7 @@ return
 }
 if
 (
-ShouldIncludeStackrace
+ShouldIncludeStackTrace
 (
 aData
 -
@@ -9037,7 +9037,7 @@ bool
 Console
 :
 :
-ShouldIncludeStackrace
+ShouldIncludeStackTrace
 (
 MethodName
 aMethodName
