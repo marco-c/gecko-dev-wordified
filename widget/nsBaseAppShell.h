@@ -674,6 +674,9 @@ bool
 *
 mBlockedWait
 ;
+int32_t
+mFavorPerf
+;
 mozilla
 :
 :
@@ -682,6 +685,15 @@ Atomic
 bool
 >
 mNativeEventPending
+;
+PRIntervalTime
+mStarvationDelay
+;
+PRIntervalTime
+mSwitchTime
+;
+PRIntervalTime
+mLastNativeEventTime
 ;
 enum
 EventloopNestingState
