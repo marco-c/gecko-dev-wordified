@@ -149,6 +149,12 @@ h
 namespace
 TestStrings
 {
+using
+mozilla
+:
+:
+fallible_t
+;
 void
 test_assign_helper
 (
