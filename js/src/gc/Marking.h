@@ -845,7 +845,7 @@ typename
 T
 >
 void
-traverse
+traverseEdge
 (
 S
 source
@@ -872,7 +872,7 @@ typename
 S
 >
 void
-traverse
+traverseEdge
 (
 S
 source
@@ -886,7 +886,7 @@ typename
 S
 >
 void
-traverse
+traverseEdge
 (
 S
 source
