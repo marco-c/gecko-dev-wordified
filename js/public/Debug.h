@@ -124,10 +124,10 @@ API
 .
 #
 ifndef
-js_DebugAPI_h
+js_Debug_h
 #
 define
-js_DebugAPI_h
+js_Debug_h
 #
 include
 "
@@ -2143,6 +2143,6 @@ JS
 endif
 /
 *
-js_DebugAPI_h
+js_Debug_h
 *
 /
