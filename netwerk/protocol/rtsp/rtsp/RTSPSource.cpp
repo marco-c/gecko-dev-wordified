@@ -3074,7 +3074,7 @@ queueDiscontinuity
 ATSParser
 :
 :
-DISCONTINUITY_SEEK
+DISCONTINUITY_TIME
 NULL
 true
 /
