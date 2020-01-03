@@ -49247,6 +49247,12 @@ false
 ;
 uint32_t
 superBegin
+=
+pos
+(
+)
+.
+begin
 ;
 /
 *
@@ -49411,14 +49417,6 @@ null
 isSuper
 =
 true
-;
-superBegin
-=
-pos
-(
-)
-.
-begin
 ;
 }
 else
