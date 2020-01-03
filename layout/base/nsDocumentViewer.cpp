@@ -14449,8 +14449,15 @@ innerView
 }
 else
 {
-NS_WARNING
+NS_WARN_IF_FALSE
 (
+!
+subdocFrame
+-
+>
+GetType
+(
+)
 "
 Subdocument
 container
@@ -14474,7 +14481,7 @@ by
 default
 in
 bug
-117528
+1175289
 LAYOUT_WARNING
 (
 "
