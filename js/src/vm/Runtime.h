@@ -5228,6 +5228,17 @@ comp
 )
 ;
 bool
+isSelfHostingZone
+(
+JS
+:
+:
+Zone
+*
+zone
+)
+;
+bool
 cloneSelfHostedFunctionScript
 (
 JSContext
