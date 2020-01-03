@@ -11896,7 +11896,7 @@ literal
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -12813,7 +12813,7 @@ literal
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -16389,7 +16389,7 @@ s
 value
 ;
 }
-TypeError
+Error
 )
 ;
 let
@@ -16498,7 +16498,7 @@ value
 }
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -16520,7 +16520,7 @@ a
 }
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -16595,7 +16595,7 @@ c
 }
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -16643,7 +16643,7 @@ d
 }
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -16691,7 +16691,7 @@ c
 }
 ;
 }
-TypeError
+Error
 )
 ;
 /
@@ -17579,7 +17579,7 @@ p
 value
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_eq
@@ -18713,7 +18713,7 @@ c_arraybuffer
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -18728,7 +18728,7 @@ c_arraybuffer
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -18743,7 +18743,7 @@ view
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -18758,7 +18758,7 @@ view
 )
 ;
 }
-TypeError
+Error
 )
 ;
 /
@@ -19492,7 +19492,7 @@ f
 value
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_eq
@@ -21590,7 +21590,7 @@ c
 value
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -21612,7 +21612,7 @@ value
 ]
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -21636,7 +21636,7 @@ value
 ]
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -21678,7 +21678,7 @@ value
 ]
 ;
 }
-TypeError
+Error
 )
 ;
 }
