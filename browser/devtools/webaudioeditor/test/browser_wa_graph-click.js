@@ -53,6 +53,11 @@ the
 InspectorView
 *
 /
+let
+EVENTS
+=
+null
+;
 function
 spawnTest
 (
@@ -81,10 +86,16 @@ panelWin
 let
 {
 gFront
-InspectorView
+WebAudioInspectorView
 }
 =
 panelWin
+;
+EVENTS
+=
+panelWin
+.
+EVENTS
 ;
 let
 started
@@ -155,7 +166,7 @@ actorID
 ok
 (
 !
-InspectorView
+WebAudioInspectorView
 .
 isVisible
 (
@@ -182,7 +193,7 @@ true
 ;
 ok
 (
-InspectorView
+WebAudioInspectorView
 .
 isVisible
 (
@@ -200,7 +211,7 @@ node
 ;
 is
 (
-InspectorView
+WebAudioInspectorView
 .
 getCurrentAudioNode
 (
@@ -233,7 +244,7 @@ nodeIds
 ;
 ok
 (
-InspectorView
+WebAudioInspectorView
 .
 isVisible
 (
@@ -252,7 +263,7 @@ node
 ;
 is
 (
-InspectorView
+WebAudioInspectorView
 .
 getCurrentAudioNode
 (
@@ -288,7 +299,7 @@ nodeIds
 ;
 is
 (
-InspectorView
+WebAudioInspectorView
 .
 getCurrentAudioNode
 (
@@ -334,7 +345,7 @@ nodeIds
 ;
 is
 (
-InspectorView
+WebAudioInspectorView
 .
 getCurrentAudioNode
 (
@@ -380,7 +391,7 @@ nodeIds
 ;
 is
 (
-InspectorView
+WebAudioInspectorView
 .
 getCurrentAudioNode
 (
@@ -407,7 +418,7 @@ expected
 ;
 ok
 (
-InspectorView
+WebAudioInspectorView
 .
 isVisible
 (
