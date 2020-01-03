@@ -395,6 +395,7 @@ nsBaseComposerCommand
 {
 public
 :
+explicit
 nsBaseStateUpdatingCommand
 (
 nsIAtom
@@ -509,6 +510,7 @@ nsBaseStateUpdatingCommand
 {
 public
 :
+explicit
 nsStyleUpdatingCommand
 (
 nsIAtom
@@ -605,6 +607,7 @@ nsBaseStateUpdatingCommand
 {
 public
 :
+explicit
 nsListCommand
 (
 nsIAtom
@@ -669,6 +672,7 @@ nsBaseStateUpdatingCommand
 {
 public
 :
+explicit
 nsListItemCommand
 (
 nsIAtom

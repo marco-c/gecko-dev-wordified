@@ -169,6 +169,7 @@ mRedoStack
 ;
 public
 :
+explicit
 nsTransactionItem
 (
 nsITransaction
