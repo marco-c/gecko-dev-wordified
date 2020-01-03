@@ -15838,8 +15838,6 @@ MediaDecoderStateMachine
 :
 FinishShutdown
 (
-bool
-aSuccess
 )
 {
 MOZ_ASSERT
@@ -15847,11 +15845,6 @@ MOZ_ASSERT
 OnStateMachineThread
 (
 )
-)
-;
-MOZ_ASSERT
-(
-aSuccess
 )
 ;
 ReentrantMonitorAutoEnter
