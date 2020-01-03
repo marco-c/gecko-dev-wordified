@@ -5969,6 +5969,11 @@ null
 "
 )
 ;
+if
+(
+aController
+)
+{
 aController
 -
 >
@@ -5980,6 +5985,7 @@ ERR_NO_AVAILABLE_RESOURCE
 )
 )
 ;
+}
 return
 ;
 }
