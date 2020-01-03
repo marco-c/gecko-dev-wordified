@@ -2297,7 +2297,7 @@ mActor
 mActor
 -
 >
-StartDestroy
+StartDestroyFromListener
 (
 )
 ;
@@ -2310,14 +2310,14 @@ is
 called
 synchronously
 by
-StartDestroy
+StartDestroyFromListener
 (
 )
 .
+/
+/
 So
 we
-/
-/
 should
 have
 already
@@ -2454,6 +2454,7 @@ entry
 -
 >
 mPromise
+this
 args
 .
 SendAsOpArgs

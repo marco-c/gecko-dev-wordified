@@ -166,7 +166,7 @@ dom
 workers
 :
 :
-Running
+Canceling
 ;
 using
 mozilla
@@ -457,8 +457,7 @@ if
 (
 aStatus
 <
-=
-Running
+Canceling
 |
 |
 mNotified
