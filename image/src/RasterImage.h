@@ -2049,10 +2049,6 @@ uint32_t
 aWhichFrame
 uint32_t
 aFlags
-bool
-aShouldSyncNotify
-=
-true
 )
 ;
 TemporaryRef
@@ -2068,10 +2064,6 @@ uint32_t
 aWhichFrame
 uint32_t
 aFlags
-bool
-aShouldSyncNotify
-=
-true
 )
 ;
 DrawableFrameRef
@@ -2101,10 +2093,6 @@ nsIntSize
 aSize
 uint32_t
 aFlags
-bool
-aShouldSyncNotify
-=
-true
 )
 ;
 uint32_t
@@ -2539,8 +2527,6 @@ nsIntSize
 aSize
 uint32_t
 aFlags
-bool
-aShouldSyncNotify
 )
 ;
 private
