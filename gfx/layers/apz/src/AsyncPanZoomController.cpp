@@ -4489,6 +4489,8 @@ OverscrollHandoffChain
 :
 :
 SnapBackOverscrolledApzc
+&
+mApzc
 )
 )
 ;
