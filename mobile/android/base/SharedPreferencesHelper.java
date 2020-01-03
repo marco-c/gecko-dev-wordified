@@ -998,7 +998,7 @@ name
 }
 editor
 .
-commit
+apply
 (
 )
 ;

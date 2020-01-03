@@ -1303,13 +1303,13 @@ PREFS_VERSION
 ;
 appEditor
 .
-commit
+apply
 (
 )
 ;
 profileEditor
 .
-commit
+apply
 (
 )
 ;
@@ -1323,7 +1323,7 @@ null
 {
 pmEditor
 .
-commit
+apply
 (
 )
 ;
