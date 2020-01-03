@@ -5555,7 +5555,7 @@ index
 glyphs
 glyphs
 glyphs
-glyphs
+nullptr
 )
 ;
 if
@@ -5635,7 +5635,7 @@ index
 glyphs
 glyphs
 glyphs
-glyphs
+nullptr
 )
 ;
 if
@@ -5873,7 +5873,7 @@ index
 glyphs
 glyphs
 glyphs
-glyphs
+nullptr
 )
 ;
 if
@@ -5931,7 +5931,7 @@ index
 glyphs
 glyphs
 glyphs
-glyphs
+nullptr
 )
 ;
 if
