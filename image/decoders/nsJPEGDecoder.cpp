@@ -170,6 +170,15 @@ Endian
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Telemetry
+.
+h
+"
 extern
 "
 C

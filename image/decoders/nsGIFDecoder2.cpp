@@ -412,6 +412,15 @@ include
 <
 algorithm
 >
+#
+include
+"
+mozilla
+/
+Telemetry
+.
+h
+"
 namespace
 mozilla
 {
