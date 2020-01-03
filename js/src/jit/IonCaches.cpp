@@ -3094,7 +3094,7 @@ offsetOfProto
 ;
 masm
 .
-branchNurseryPtr
+branchPtr
 (
 Assembler
 :
@@ -3179,7 +3179,7 @@ hasSingletonType
 ;
 masm
 .
-moveNurseryPtr
+movePtr
 (
 ImmMaybeNurseryPtr
 (
@@ -5412,7 +5412,7 @@ scratchReg
 ;
 masm
 .
-moveNurseryPtr
+movePtr
 (
 ImmMaybeNurseryPtr
 (
@@ -6876,7 +6876,7 @@ scratchReg
 ;
 masm
 .
-moveNurseryPtr
+movePtr
 (
 ImmMaybeNurseryPtr
 (
@@ -9894,7 +9894,7 @@ the
 property
 masm
 .
-moveNurseryPtr
+movePtr
 (
 ImmMaybeNurseryPtr
 (
@@ -14600,7 +14600,7 @@ protoFailure
 ;
 masm
 .
-moveNurseryPtr
+movePtr
 (
 ImmMaybeNurseryPtr
 (
