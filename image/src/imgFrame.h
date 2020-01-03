@@ -1372,6 +1372,7 @@ IntSize
 GetImageSize
 (
 )
+const
 {
 return
 mImageSize
