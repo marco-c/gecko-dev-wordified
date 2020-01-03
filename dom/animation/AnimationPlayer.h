@@ -390,6 +390,7 @@ PlayState
 )
 const
 ;
+virtual
 Promise
 *
 GetReady
