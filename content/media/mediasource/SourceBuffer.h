@@ -706,6 +706,9 @@ const
 nsCString
 mType
 ;
+uint32_t
+mEvictionThreshold
+;
 nsAutoPtr
 <
 ContainerParser
