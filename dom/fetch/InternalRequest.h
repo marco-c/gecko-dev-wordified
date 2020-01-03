@@ -384,6 +384,7 @@ location
 *
 manifest
 |
+TYPE_WEB_MANIFEST
 *
 object
 |

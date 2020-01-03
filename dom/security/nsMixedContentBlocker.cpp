@@ -3025,6 +3025,9 @@ case
 TYPE_SUBDOCUMENT
 :
 case
+TYPE_WEB_MANIFEST
+:
+case
 TYPE_XBL
 :
 case

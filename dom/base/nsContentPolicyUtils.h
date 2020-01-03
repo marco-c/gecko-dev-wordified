@@ -717,6 +717,11 @@ CASE_RETURN
 TYPE_IMAGESET
 )
 ;
+CASE_RETURN
+(
+TYPE_WEB_MANIFEST
+)
+;
 default
 :
 return

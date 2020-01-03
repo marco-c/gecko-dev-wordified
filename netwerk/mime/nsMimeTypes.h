@@ -656,6 +656,16 @@ marimba
 "
 #
 define
+APPLICATION_WEB_MANIFEST
+"
+application
+/
+manifest
++
+json
+"
+#
+define
 APPLICATION_XMARIMBA
 "
 application
