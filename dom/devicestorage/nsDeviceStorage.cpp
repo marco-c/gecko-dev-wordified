@@ -21044,6 +21044,10 @@ Value
 TimeStamp
 (
 )
+.
+toDouble
+(
+)
 )
 ;
 }

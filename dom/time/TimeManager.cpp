@@ -237,7 +237,7 @@ Set
 (
 aDate
 .
-TimeStamp
+ToDouble
 (
 )
 )
