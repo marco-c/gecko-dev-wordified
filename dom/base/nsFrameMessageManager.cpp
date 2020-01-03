@@ -1619,7 +1619,7 @@ blob
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =

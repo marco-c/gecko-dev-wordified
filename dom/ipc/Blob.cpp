@@ -345,7 +345,7 @@ h
 #
 include
 "
-MultipartFileImpl
+MultipartBlobImpl
 .
 h
 "
@@ -1813,7 +1813,7 @@ mStream
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 mBlobImpl
 ;
@@ -1855,7 +1855,7 @@ BlobInputStreamTether
 nsIInputStream
 *
 aStream
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -2057,7 +2057,7 @@ mStream
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 mBlobImpl
 ;
@@ -2081,7 +2081,7 @@ public
 :
 RemoteInputStream
 (
-FileImpl
+BlobImpl
 *
 aBlobImpl
 uint64_t
@@ -2095,7 +2095,7 @@ RemoteInputStream
 BlobChild
 *
 aActor
-FileImpl
+BlobImpl
 *
 aBlobImpl
 uint64_t
@@ -2596,7 +2596,7 @@ EmptyBlobImpl
 final
 :
 public
-FileImplBase
+BlobImplBase
 {
 public
 :
@@ -2609,7 +2609,7 @@ nsAString
 aContentType
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 0
@@ -2634,7 +2634,7 @@ int64_t
 aLastModifiedDate
 )
 :
-FileImplBase
+BlobImplBase
 (
 aName
 aContentType
@@ -2652,7 +2652,7 @@ private
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (
@@ -2686,7 +2686,7 @@ aLength
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 sliceImpl
 =
@@ -2788,14 +2788,14 @@ only
 needed
 for
 IndexedDB
-FileImplSnapshot
+BlobImplSnapshot
 .
 class
 SameProcessInputStreamBlobImpl
 final
 :
 public
-FileImplBase
+BlobImplBase
 {
 nsCOMPtr
 <
@@ -2818,7 +2818,7 @@ nsIInputStream
 aInputStream
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aLength
@@ -2865,7 +2865,7 @@ nsIInputStream
 aInputStream
 )
 :
-FileImplBase
+BlobImplBase
 (
 aName
 aContentType
@@ -2908,7 +2908,7 @@ private
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (
@@ -3079,7 +3079,7 @@ IsVoid
 ;
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateBlobImpl
 (
@@ -3110,7 +3110,7 @@ mHasRecursed
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
@@ -3176,7 +3176,7 @@ forget
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateBlobImpl
 (
@@ -3256,7 +3256,7 @@ GeckoProcessType_Default
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 ;
@@ -3381,7 +3381,7 @@ IsFile
 blobImpl
 =
 new
-FileImplMemory
+BlobImplMemory
 (
 buffer
 uint64_t
@@ -3405,7 +3405,7 @@ else
 blobImpl
 =
 new
-FileImplMemory
+BlobImplMemory
 (
 buffer
 uint64_t
@@ -3489,7 +3489,7 @@ forget
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateBlobImpl
 (
@@ -3541,7 +3541,7 @@ aAddRefedInputStream
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 ;
@@ -3635,7 +3635,7 @@ forget
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateBlobImpl
 (
@@ -3653,7 +3653,7 @@ aMetadata
 ;
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateBlobImplFromBlobData
 (
@@ -3676,7 +3676,7 @@ GeckoProcessType_Default
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 ;
@@ -3799,7 +3799,7 @@ forget
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateBlobImpl
 (
@@ -3860,7 +3860,7 @@ aBlobDatas
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
@@ -3922,7 +3922,7 @@ FallibleTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 fallibleBlobImpls
@@ -3953,7 +3953,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 blobImpls
@@ -4014,7 +4014,7 @@ index
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 &
 blobImpl
@@ -4075,7 +4075,7 @@ isMutable
 }
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 ;
@@ -4095,7 +4095,7 @@ IsFile
 blobImpl
 =
 new
-MultipartFileImpl
+MultipartBlobImpl
 (
 blobImpls
 aMetadata
@@ -4112,7 +4112,7 @@ else
 blobImpl
 =
 new
-MultipartFileImpl
+MultipartBlobImpl
 (
 blobImpls
 aMetadata
@@ -4145,7 +4145,7 @@ forget
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateBlobImpl
 (
@@ -4395,7 +4395,7 @@ modDate
 }
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
@@ -4416,7 +4416,7 @@ forget
 void
 BlobDataFromBlobImpl
 (
-FileImpl
+BlobImpl
 *
 aBlobImpl
 BlobData
@@ -4442,7 +4442,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 *
@@ -4741,7 +4741,7 @@ RemoteInputStream
 :
 RemoteInputStream
 (
-FileImpl
+BlobImpl
 *
 aBlobImpl
 uint64_t
@@ -4820,7 +4820,7 @@ RemoteInputStream
 BlobChild
 *
 aActor
-FileImpl
+BlobImpl
 *
 aBlobImpl
 uint64_t
@@ -5361,7 +5361,7 @@ rv
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 ;
@@ -6397,7 +6397,7 @@ mProcessID
 const
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 mBlobImpl
 ;
@@ -6416,7 +6416,7 @@ nsID
 aID
 intptr_t
 aProcessID
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -6575,7 +6575,7 @@ nsID
 aID
 intptr_t
 aProcessID
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -6661,9 +6661,9 @@ return
 mProcessID
 ;
 }
-FileImpl
-*
 BlobImpl
+*
+GetBlobImpl
 (
 )
 const
@@ -6686,7 +6686,7 @@ nsID
 aID
 intptr_t
 aProcessID
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -6709,7 +6709,7 @@ nsID
 aID
 intptr_t
 aProcessID
-FileImpl
+BlobImpl
 *
 aBlobImpl
 bool
@@ -8063,7 +8063,7 @@ BlobChild
 RemoteBlobImpl
 :
 public
-FileImplBase
+BlobImplBase
 public
 nsIRemoteBlob
 {
@@ -8084,9 +8084,9 @@ mActorTarget
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
-mSameProcessFileImpl
+mSameProcessBlobImpl
 ;
 const
 bool
@@ -8149,7 +8149,7 @@ RemoteBlobImpl
 BlobChild
 *
 aActor
-FileImpl
+BlobImpl
 *
 aSameProcessBlobImpl
 const
@@ -8179,7 +8179,7 @@ RemoteBlobImpl
 BlobChild
 *
 aActor
-FileImpl
+BlobImpl
 *
 aSameProcessBlobImpl
 const
@@ -8297,7 +8297,7 @@ override
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (
@@ -8817,7 +8817,7 @@ RemoteBlobImpl
 final
 :
 public
-FileImpl
+BlobImpl
 public
 nsIRemoteBlob
 {
@@ -8833,7 +8833,7 @@ mActorTarget
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 mBlobImpl
 ;
@@ -8844,7 +8844,7 @@ RemoteBlobImpl
 BlobParent
 *
 aActor
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -8943,7 +8943,7 @@ override
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (
@@ -8967,7 +8967,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 *
@@ -9344,7 +9344,7 @@ int64_t
 aModDate
 )
 :
-FileImplBase
+BlobImplBase
 (
 aName
 aContentType
@@ -9381,7 +9381,7 @@ uint64_t
 aLength
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aLength
@@ -9408,7 +9408,7 @@ RemoteBlobImpl
 BlobChild
 *
 aActor
-FileImpl
+BlobImpl
 *
 aSameProcessBlobImpl
 const
@@ -9425,14 +9425,14 @@ int64_t
 aModDate
 )
 :
-FileImplBase
+BlobImplBase
 (
 aName
 aContentType
 aLength
 aModDate
 )
-mSameProcessFileImpl
+mSameProcessBlobImpl
 (
 aSameProcessBlobImpl
 )
@@ -9471,7 +9471,7 @@ RemoteBlobImpl
 BlobChild
 *
 aActor
-FileImpl
+BlobImpl
 *
 aSameProcessBlobImpl
 const
@@ -9482,12 +9482,12 @@ uint64_t
 aLength
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aLength
 )
-mSameProcessFileImpl
+mSameProcessBlobImpl
 (
 aSameProcessBlobImpl
 )
@@ -9528,7 +9528,7 @@ BlobChild
 aActor
 )
 :
-FileImplBase
+BlobImplBase
 (
 EmptyString
 (
@@ -9566,7 +9566,7 @@ uint64_t
 aLength
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aLength
@@ -9883,7 +9883,7 @@ BlobChild
 :
 :
 RemoteBlobImpl
-FileImpl
+BlobImpl
 nsIRemoteBlob
 )
 void
@@ -9924,7 +9924,7 @@ implemented
 }
 if
 (
-mSameProcessFileImpl
+mSameProcessBlobImpl
 )
 {
 MOZ_ASSERT
@@ -9935,7 +9935,7 @@ gProcessType
 GeckoProcessType_Default
 )
 ;
-mSameProcessFileImpl
+mSameProcessBlobImpl
 -
 >
 GetMozFullPathInternal
@@ -9996,7 +9996,7 @@ filePath
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 BlobChild
 :
@@ -10030,7 +10030,7 @@ thread
 .
 if
 (
-mSameProcessFileImpl
+mSameProcessBlobImpl
 )
 {
 MOZ_ASSERT
@@ -10042,7 +10042,7 @@ GeckoProcessType_Default
 )
 ;
 return
-mSameProcessFileImpl
+mSameProcessBlobImpl
 -
 >
 CreateSlice
@@ -10103,7 +10103,7 @@ thread
 .
 if
 (
-mSameProcessFileImpl
+mSameProcessBlobImpl
 )
 {
 MOZ_ASSERT
@@ -10123,7 +10123,7 @@ realStream
 nsresult
 rv
 =
-mSameProcessFileImpl
+mSameProcessBlobImpl
 -
 >
 GetInternalStream
@@ -10159,7 +10159,7 @@ new
 BlobInputStreamTether
 (
 realStream
-mSameProcessFileImpl
+mSameProcessBlobImpl
 )
 ;
 tether
@@ -10227,7 +10227,7 @@ implemented
 }
 if
 (
-mSameProcessFileImpl
+mSameProcessBlobImpl
 )
 {
 MOZ_ASSERT
@@ -10239,7 +10239,7 @@ GeckoProcessType_Default
 )
 ;
 return
-mSameProcessFileImpl
+mSameProcessBlobImpl
 -
 >
 GetFileId
@@ -10393,7 +10393,7 @@ EnsureActorWasCreated
 nsresult
 rv
 =
-FileImplBase
+BlobImplBase
 :
 :
 SetMutable
@@ -11945,7 +11945,7 @@ RemoteBlobImpl
 BlobParent
 *
 aActor
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -12170,7 +12170,7 @@ BlobParent
 :
 :
 RemoteBlobImpl
-FileImpl
+BlobImpl
 nsIRemoteBlob
 )
 void
@@ -12376,7 +12376,7 @@ aType
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 BlobParent
 :
@@ -12417,7 +12417,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 *
@@ -12962,7 +12962,7 @@ BlobChild
 nsIContentChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -13000,7 +13000,7 @@ BlobChild
 PBackgroundChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -13105,7 +13105,7 @@ aManager
 BlobChild
 *
 aOther
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -13389,7 +13389,7 @@ BlobChild
 :
 CommonInit
 (
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -13448,7 +13448,7 @@ CommonInit
 BlobChild
 *
 aOther
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -13488,7 +13488,7 @@ aBlobImpl
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 otherImpl
 ;
@@ -13850,14 +13850,14 @@ MOZ_ASSERT
 (
 params
 .
-addRefedFileImpl
+addRefedBlobImpl
 (
 )
 )
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
@@ -13865,13 +13865,13 @@ dont_AddRef
 (
 reinterpret_cast
 <
-FileImpl
+BlobImpl
 *
 >
 (
 params
 .
-addRefedFileImpl
+addRefedBlobImpl
 (
 )
 )
@@ -14229,7 +14229,7 @@ GetOrCreate
 nsIContentChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -14265,7 +14265,7 @@ GetOrCreate
 PBackgroundChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -14380,7 +14380,7 @@ GetOrCreateFromImpl
 ChildManagerType
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -14531,7 +14531,7 @@ GeckoProcessType_Default
 {
 nsCOMPtr
 <
-PIFileImplSnapshot
+PIBlobImplSnapshot
 >
 snapshot
 =
@@ -14578,14 +14578,14 @@ snapshotInputStream
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 sameProcessImpl
 =
 aBlobImpl
 ;
 auto
-addRefedFileImpl
+addRefedBlobImpl
 =
 reinterpret_cast
 <
@@ -14607,7 +14607,7 @@ blobParams
 =
 SameProcessBlobConstructorParams
 (
-addRefedFileImpl
+addRefedBlobImpl
 )
 ;
 }
@@ -15094,7 +15094,7 @@ aRemoteBlob
 nsIContentChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -15216,7 +15216,7 @@ aRemoteBlob
 PBackgroundChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -15335,7 +15335,7 @@ mParentID
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 BlobChild
 :
@@ -15355,7 +15355,7 @@ mBlobImpl
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 ;
@@ -16161,7 +16161,7 @@ BlobParent
 nsIContentParent
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 IDTableEntry
@@ -16203,7 +16203,7 @@ BlobParent
 PBackgroundParent
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 IDTableEntry
@@ -16291,7 +16291,7 @@ MOZ_ASSERT
 aIDTableEntry
 -
 >
-BlobImpl
+GetBlobImpl
 (
 )
 )
@@ -16306,7 +16306,7 @@ mBlobImpl
 aIDTableEntry
 -
 >
-BlobImpl
+GetBlobImpl
 (
 )
 ;
@@ -16336,7 +16336,7 @@ BlobParent
 :
 CommonInit
 (
-FileImpl
+BlobImpl
 *
 aBlobImpl
 IDTableEntry
@@ -16542,7 +16542,7 @@ GetOrCreate
 nsIContentParent
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -16578,7 +16578,7 @@ GetOrCreate
 PBackgroundParent
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -16680,7 +16680,7 @@ aParams
 static
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 BlobParent
 :
@@ -16741,14 +16741,14 @@ nullptr
 }
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
 idTableEntry
 -
 >
-BlobImpl
+GetBlobImpl
 (
 )
 ;
@@ -16783,7 +16783,7 @@ GetOrCreateFromImpl
 ParentManagerType
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -16917,7 +16917,7 @@ isSameProcessActor
 {
 nsCOMPtr
 <
-PIFileImplSnapshot
+PIBlobImplSnapshot
 >
 snapshot
 =
@@ -16951,14 +16951,14 @@ isSnapshot
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 sameProcessImpl
 =
 aBlobImpl
 ;
 auto
-addRefedFileImpl
+addRefedBlobImpl
 =
 reinterpret_cast
 <
@@ -16980,7 +16980,7 @@ blobParams
 =
 SameProcessBlobConstructorParams
 (
-addRefedFileImpl
+addRefedBlobImpl
 )
 ;
 }
@@ -17392,7 +17392,7 @@ nullptr
 }
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
@@ -17567,7 +17567,7 @@ actor
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 source
 =
@@ -17588,7 +17588,7 @@ rv
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 slice
 =
@@ -17811,7 +17811,7 @@ get_SameProcessBlobConstructorParams
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
@@ -17819,13 +17819,13 @@ dont_AddRef
 (
 reinterpret_cast
 <
-FileImpl
+BlobImpl
 *
 >
 (
 params
 .
-addRefedFileImpl
+addRefedBlobImpl
 (
 )
 )
@@ -18126,7 +18126,7 @@ nullptr
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 BlobParent
 :
@@ -18146,7 +18146,7 @@ mBlobImpl
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 ;
@@ -18763,7 +18763,7 @@ false
 }
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 ;
@@ -20221,7 +20221,7 @@ nsID
 aID
 intptr_t
 aProcessID
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -20345,7 +20345,7 @@ nsID
 aID
 intptr_t
 aProcessID
-FileImpl
+BlobImpl
 *
 aBlobImpl
 bool
@@ -20438,7 +20438,7 @@ aBlobImpl
 entry
 -
 >
-BlobImpl
+GetBlobImpl
 (
 )
 =

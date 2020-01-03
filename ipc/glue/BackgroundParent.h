@@ -105,10 +105,10 @@ namespace
 dom
 {
 class
-ContentParent
+BlobImpl
 ;
 class
-FileImpl
+ContentParent
 ;
 class
 PBlobParent
@@ -171,8 +171,8 @@ mozilla
 dom
 :
 :
-ContentParent
-ContentParent
+BlobImpl
+BlobImpl
 ;
 typedef
 mozilla
@@ -181,8 +181,8 @@ mozilla
 dom
 :
 :
-FileImpl
-FileImpl
+ContentParent
+ContentParent
 ;
 typedef
 mozilla
@@ -393,7 +393,7 @@ GetOrCreateActorForBlobImpl
 PBackgroundParent
 *
 aBackgroundActor
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )

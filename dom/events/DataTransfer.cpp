@@ -1590,9 +1590,9 @@ else
 {
 nsCOMPtr
 <
-FileImpl
+BlobImpl
 >
-fileImpl
+blobImpl
 =
 do_QueryInterface
 (
@@ -1602,7 +1602,7 @@ supports
 if
 (
 !
-fileImpl
+blobImpl
 )
 {
 continue
@@ -1610,7 +1610,7 @@ continue
 }
 MOZ_ASSERT
 (
-fileImpl
+blobImpl
 -
 >
 IsFile
@@ -1628,7 +1628,7 @@ Create
 GetParentObject
 (
 )
-fileImpl
+blobImpl
 )
 ;
 MOZ_ASSERT

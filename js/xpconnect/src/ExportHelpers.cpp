@@ -361,7 +361,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 mBlobImpls
@@ -1119,7 +1119,7 @@ blob
 )
 )
 {
-FileImpl
+BlobImpl
 *
 blobImpl
 =

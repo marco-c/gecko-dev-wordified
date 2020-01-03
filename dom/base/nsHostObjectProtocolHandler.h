@@ -202,7 +202,7 @@ namespace
 dom
 {
 class
-FileImpl
+BlobImpl
 ;
 class
 MediaSource
@@ -710,7 +710,7 @@ mozilla
 dom
 :
 :
-FileImpl
+BlobImpl
 *
 *
 aBlob

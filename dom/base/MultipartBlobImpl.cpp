@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-MultipartFileImpl
+MultipartBlobImpl
 .
 h
 "
@@ -242,11 +242,11 @@ dom
 ;
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-MultipartFileImpl
-FileImpl
+MultipartBlobImpl
+BlobImpl
 )
 nsresult
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 GetInternalStream
@@ -324,7 +324,7 @@ nsIInputStream
 >
 scratchStream
 ;
-FileImpl
+BlobImpl
 *
 blobImpl
 =
@@ -388,9 +388,9 @@ NS_OK
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 CreateSlice
@@ -424,7 +424,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 blobImpls
@@ -477,7 +477,7 @@ i
 +
 )
 {
-FileImpl
+BlobImpl
 *
 blobImpl
 =
@@ -543,7 +543,7 @@ length
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 firstBlobImpl
 =
@@ -583,7 +583,7 @@ single
 blob
 inside
 an
-MultipartFileImpl
+MultipartBlobImpl
 if
 (
 length
@@ -655,7 +655,7 @@ i
 +
 )
 {
-FileImpl
+BlobImpl
 *
 blobImpl
 =
@@ -704,7 +704,7 @@ l
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 lastBlobImpl
 =
@@ -779,12 +779,12 @@ blob
 now
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 impl
 =
 new
-MultipartFileImpl
+MultipartBlobImpl
 (
 blobImpls
 aContentType
@@ -799,7 +799,7 @@ forget
 ;
 }
 void
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 InitializeBlob
@@ -812,7 +812,7 @@ SetLengthAndModifiedDate
 ;
 }
 void
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 InitializeBlob
@@ -1099,7 +1099,7 @@ SetLengthAndModifiedDate
 ;
 }
 void
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 SetLengthAndModifiedDate
@@ -1162,7 +1162,7 @@ index
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 &
 blob
@@ -1368,7 +1368,7 @@ JS_Now
 }
 }
 void
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 GetMozFullPathInternal
@@ -1397,7 +1397,7 @@ Length
 0
 )
 {
-FileImplBase
+BlobImplBase
 :
 :
 GetMozFullPathInternal
@@ -1409,7 +1409,7 @@ aRv
 return
 ;
 }
-FileImpl
+BlobImpl
 *
 blobImpl
 =
@@ -1430,7 +1430,7 @@ if
 blobImpl
 )
 {
-FileImplBase
+BlobImplBase
 :
 :
 GetMozFullPathInternal
@@ -1453,7 +1453,7 @@ aRv
 ;
 }
 nsresult
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 SetMutable
@@ -1473,7 +1473,7 @@ a
 little
 sketchy
 since
-FileImpl
+BlobImpl
 objects
 are
 supposed
@@ -1490,7 +1490,7 @@ to
 enforce
 that
 all
-FileImpl
+BlobImpl
 objects
 must
 be
@@ -1588,7 +1588,7 @@ rv
 }
 rv
 =
-FileImplBase
+BlobImplBase
 :
 :
 SetMutable
@@ -1623,7 +1623,7 @@ NS_OK
 ;
 }
 void
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 InitializeChromeFile
@@ -1746,7 +1746,7 @@ SetLengthAndModifiedDate
 ;
 }
 void
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 InitializeChromeFile
@@ -2085,7 +2085,7 @@ SetLengthAndModifiedDate
 ;
 }
 void
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 InitializeChromeFile
@@ -2150,7 +2150,7 @@ aRv
 ;
 }
 bool
-MultipartFileImpl
+MultipartBlobImpl
 :
 :
 MayBeClonedToOtherThreads
