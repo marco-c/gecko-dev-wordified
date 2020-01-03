@@ -111,15 +111,6 @@ code
 *
 /
 }
-/
-*
-void
-show
-(
-)
-;
-*
-/
 NS_IMETHODIMP
 nsIMEPicker
 :

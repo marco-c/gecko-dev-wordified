@@ -4518,16 +4518,6 @@ timeval
 *
 )
 ;
-/
-*
-void
-sctp_drain
-(
-void
-)
-;
-*
-/
 int
 sctp_destination_is_reachable
 (

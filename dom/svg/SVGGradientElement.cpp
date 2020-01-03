@@ -591,15 +591,6 @@ this
 )
 ;
 }
-/
-*
-readonly
-attribute
-SVGAnimatedTransformList
-gradientTransform
-;
-*
-/
 already_AddRefed
 <
 SVGAnimatedTransformList

@@ -649,15 +649,6 @@ aArchString
 ;
 }
 /
-*
-readonly
-attribute
-boolean
-isTranslated
-;
-*
-/
-/
 /
 True
 when

@@ -286,15 +286,6 @@ return
 NS_OK
 ;
 }
-/
-*
-readonly
-attribute
-nsIRequest
-request
-;
-*
-/
 NS_IMETHODIMP
 nsStreamLoader
 :

@@ -592,15 +592,6 @@ return
 NS_OK
 ;
 }
-/
-*
-nsIPrintSettings
-CreatePrintSettings
-(
-)
-;
-*
-/
 nsresult
 nsPrintOptionsGTK
 :

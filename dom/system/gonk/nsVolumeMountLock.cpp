@@ -478,15 +478,6 @@ vol
 )
 ;
 }
-/
-*
-void
-unlock
-(
-)
-;
-*
-/
 NS_IMETHODIMP
 nsVolumeMountLock
 :

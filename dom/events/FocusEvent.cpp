@@ -212,15 +212,6 @@ PR_Now
 ;
 }
 }
-/
-*
-readonly
-attribute
-nsIDOMEventTarget
-relatedTarget
-;
-*
-/
 NS_IMETHODIMP
 FocusEvent
 :

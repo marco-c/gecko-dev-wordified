@@ -3969,14 +3969,6 @@ forget
 )
 ;
 }
-/
-*
-attribute
-string
-contentsMIMEType
-;
-*
-/
 NS_IMETHODIMP
 nsEditor
 :
