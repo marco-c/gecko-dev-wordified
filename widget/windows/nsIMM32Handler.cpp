@@ -8621,7 +8621,7 @@ string
 .
 event
 .
-data
+mData
 =
 mLastDispatchedCompositionString
 ;

@@ -2467,7 +2467,7 @@ TextComposition
 automatically
 .
 nsString
-data
+mData
 ;
 void
 AssignCompositionEventData
@@ -2486,11 +2486,11 @@ aEvent
 aCopyTargets
 )
 ;
-data
+mData
 =
 aEvent
 .
-data
+mData
 ;
 }
 }

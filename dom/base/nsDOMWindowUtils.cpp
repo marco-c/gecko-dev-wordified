@@ -10670,7 +10670,7 @@ NS_COMPOSITION_START
 {
 compositionEvent
 .
-data
+mData
 =
 aData
 ;
