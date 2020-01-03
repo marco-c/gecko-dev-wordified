@@ -191,6 +191,9 @@ other
 t
 )
 ;
+this
+-
+>
 operator
 =
 (
