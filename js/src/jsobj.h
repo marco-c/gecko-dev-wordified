@@ -8180,6 +8180,17 @@ TaggedProto
 proto
 )
 ;
+extern
+bool
+IsStandardPrototype
+(
+JSObject
+*
+obj
+JSProtoKey
+key
+)
+;
 }
 /
 *
