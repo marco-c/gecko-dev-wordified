@@ -445,13 +445,6 @@ For
 PR_ATOMIC_INCREMENT
 /
 DECREMENT
-#
-include
-"
-gfxPrefs
-.
-h
-"
 namespace
 mozilla
 {

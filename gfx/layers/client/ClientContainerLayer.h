@@ -135,17 +135,6 @@ etc
 #
 include
 "
-gfxPrefs
-.
-h
-"
-/
-/
-for
-gfxPrefs
-#
-include
-"
 nsDebug
 .
 h

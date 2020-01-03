@@ -120,6 +120,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
