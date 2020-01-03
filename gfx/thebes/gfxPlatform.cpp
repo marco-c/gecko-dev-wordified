@@ -821,6 +821,11 @@ mozilla
 :
 gfx
 ;
+void
+InitLayersAccelerationPrefs
+(
+)
+;
 /
 *
 Class
@@ -2868,6 +2873,10 @@ StaticInit
 ;
 #
 endif
+InitLayersAccelerationPrefs
+(
+)
+;
 InitLayersIPC
 (
 )
