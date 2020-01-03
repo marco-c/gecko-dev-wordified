@@ -260,7 +260,7 @@ true
 ;
 masm
 .
-cmpl
+cmp32
 (
 R0
 .
@@ -652,7 +652,7 @@ failure
 ;
 masm
 .
-testl
+test32
 (
 scratchReg
 scratchReg
@@ -1465,7 +1465,7 @@ payloadReg
 ;
 masm
 .
-testl
+test32
 (
 R0
 .

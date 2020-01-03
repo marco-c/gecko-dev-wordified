@@ -698,7 +698,7 @@ the
 operand
 masm
 .
-testl
+test32
 (
 ToRegister
 (
@@ -838,11 +838,11 @@ masm
 .
 ucomisd
 (
+ScratchDoubleReg
 ToFloatRegister
 (
 opd
 )
-ScratchDoubleReg
 )
 ;
 emitBranch
@@ -913,11 +913,11 @@ masm
 .
 ucomiss
 (
+ScratchFloat32Reg
 ToFloatRegister
 (
 opd
 )
-ScratchFloat32Reg
 )
 ;
 emitBranch
@@ -968,7 +968,7 @@ isConstant
 )
 masm
 .
-testl
+test32
 (
 ToRegister
 (
@@ -996,7 +996,7 @@ right
 else
 masm
 .
-testl
+test32
 (
 ToRegister
 (
@@ -1076,7 +1076,7 @@ Compare_Object
 {
 masm
 .
-cmpq
+cmpPtr
 (
 ToRegister
 (
@@ -1104,7 +1104,7 @@ isConstant
 )
 masm
 .
-cmpl
+cmp32
 (
 ToRegister
 (
@@ -1122,7 +1122,7 @@ right
 else
 masm
 .
-cmpl
+cmp32
 (
 ToRegister
 (
@@ -1559,7 +1559,7 @@ ins
 {
 masm
 .
-cmpl
+cmp32
 (
 ToRegister
 (
@@ -3517,8 +3517,8 @@ masm
 .
 ucomisd
 (
-first
 second
+first
 )
 ;
 masm
@@ -3999,8 +3999,8 @@ masm
 .
 ucomiss
 (
-first
 second
+first
 )
 ;
 masm
@@ -4565,7 +4565,7 @@ operandIsNeverZero
 {
 masm
 .
-testl
+test32
 (
 input
 input
@@ -5823,7 +5823,7 @@ Equal
 ;
 masm
 .
-testl
+test32
 (
 ToRegister
 (
@@ -6133,7 +6133,7 @@ mul
 ;
 masm
 .
-testl
+test32
 (
 ToRegister
 (
@@ -6411,7 +6411,7 @@ canBeDivideByZero
 {
 masm
 .
-testl
+test32
 (
 rhs
 rhs
@@ -6590,7 +6590,7 @@ remainder
 ;
 masm
 .
-testl
+test32
 (
 remainder
 remainder
@@ -6659,7 +6659,7 @@ isTruncated
 {
 masm
 .
-testl
+test32
 (
 output
 output
@@ -7004,7 +7004,7 @@ double
 .
 masm
 .
-testl
+test32
 (
 lhs
 lhs
@@ -7063,7 +7063,7 @@ double
 .
 masm
 .
-testl
+test32
 (
 lhs
 Imm32
@@ -7816,7 +7816,7 @@ eax
 ;
 masm
 .
-cmpl
+cmp32
 (
 lhs
 eax
@@ -7866,7 +7866,7 @@ d
 {
 masm
 .
-testl
+test32
 (
 lhs
 lhs
@@ -7932,7 +7932,7 @@ done
 ;
 masm
 .
-cmpl
+cmp32
 (
 lhs
 Imm32
@@ -7955,7 +7955,7 @@ done
 ;
 masm
 .
-testl
+test32
 (
 eax
 eax
@@ -8160,7 +8160,7 @@ canBeDivideByZero
 {
 masm
 .
-testl
+test32
 (
 rhs
 rhs
@@ -8284,7 +8284,7 @@ notmin
 ;
 masm
 .
-cmpl
+cmp32
 (
 lhs
 Imm32
@@ -8307,7 +8307,7 @@ notmin
 ;
 masm
 .
-cmpl
+cmp32
 (
 rhs
 Imm32
@@ -8434,7 +8434,7 @@ nonzero
 ;
 masm
 .
-testl
+test32
 (
 lhs
 lhs
@@ -8454,7 +8454,7 @@ nonzero
 ;
 masm
 .
-cmpl
+cmp32
 (
 rhs
 Imm32
@@ -8565,7 +8565,7 @@ double
 .
 masm
 .
-testl
+test32
 (
 remainder
 remainder
@@ -9070,7 +9070,7 @@ ool
 {
 masm
 .
-cmpl
+cmp32
 (
 ool
 -
@@ -9348,7 +9348,7 @@ canBeDivideByZero
 {
 masm
 .
-testl
+test32
 (
 rhs
 rhs
@@ -9774,7 +9774,7 @@ notmin
 ;
 masm
 .
-cmpl
+cmp32
 (
 lhs
 Imm32
@@ -9875,7 +9875,7 @@ double
 .
 masm
 .
-testl
+test32
 (
 remainder
 remainder
@@ -10367,7 +10367,7 @@ overflow
 .
 masm
 .
-testl
+test32
 (
 lhs
 lhs
@@ -10492,7 +10492,7 @@ overflow
 .
 masm
 .
-testl
+test32
 (
 lhs
 lhs
@@ -11076,7 +11076,7 @@ numCases
 ;
 masm
 .
-cmpl
+cmp32
 (
 index
 Imm32
@@ -13571,7 +13571,7 @@ integer
 .
 masm
 .
-testl
+test32
 (
 output
 output
@@ -14247,7 +14247,7 @@ integer
 .
 masm
 .
-testl
+test32
 (
 output
 output

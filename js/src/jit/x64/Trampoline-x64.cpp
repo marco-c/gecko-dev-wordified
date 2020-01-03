@@ -1101,7 +1101,7 @@ header
 ;
 masm
 .
-cmpq
+cmpPtr
 (
 r13
 reg_argv

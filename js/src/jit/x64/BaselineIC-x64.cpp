@@ -246,7 +246,7 @@ ScratchReg
 ;
 masm
 .
-cmpl
+cmp32
 (
 R0
 .
@@ -1267,7 +1267,7 @@ ExtractTemp0
 ;
 masm
 .
-testl
+test32
 (
 ExtractTemp0
 ExtractTemp0
