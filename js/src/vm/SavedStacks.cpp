@@ -8270,7 +8270,7 @@ onLogAllocationSite
 cx
 obj
 frame
-PRMJ_Now
+JS_GetCurrentEmbedderTime
 (
 )
 )

@@ -10586,7 +10586,7 @@ HandleObject
 obj
 HandleSavedFrame
 frame
-int64_t
+double
 when
 GlobalObject
 :
@@ -10900,7 +10900,7 @@ JSContext
 cx
 HandleObject
 frame
-int64_t
+double
 when
 HandleObject
 obj
@@ -11010,7 +11010,7 @@ HandleObject
 obj
 HandleSavedFrame
 frame
-int64_t
+double
 when
 )
 {
