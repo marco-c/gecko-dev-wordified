@@ -2242,14 +2242,6 @@ POLL_SESSION
 =
 1
 ;
-fxa
-.
-internal
-.
-POLL_STEP
-=
-2
-;
 let
 p
 =
