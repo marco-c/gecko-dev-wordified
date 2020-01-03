@@ -2251,15 +2251,6 @@ _nfcContentHelper
 {
 this
 .
-_nfcContentHelper
-.
-init
-(
-aWindow
-)
-;
-this
-.
 _tabId
 =
 this
