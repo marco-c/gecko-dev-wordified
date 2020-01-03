@@ -5583,14 +5583,6 @@ SDP_ATTR_TC2_WINDOW_SIZE
 attr_type
 !
 =
-SDP_ATTR_RTCP
-)
-&
-&
-(
-attr_type
-!
-=
 SDP_ATTR_FRAMERATE
 )
 )

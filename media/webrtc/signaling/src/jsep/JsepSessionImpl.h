@@ -684,6 +684,15 @@ string
 defaultCandidateAddr
 uint16_t
 defaultCandidatePort
+const
+std
+:
+:
+string
+&
+defaultRtcpCandidateAddr
+uint16_t
+defaultRtcpCandidatePort
 uint16_t
 level
 )

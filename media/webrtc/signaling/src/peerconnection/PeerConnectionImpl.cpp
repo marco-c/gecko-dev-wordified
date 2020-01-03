@@ -15995,6 +15995,15 @@ string
 defaultAddr
 uint16_t
 defaultPort
+const
+std
+:
+:
+string
+&
+defaultRtcpAddr
+uint16_t
+defaultRtcpPort
 uint16_t
 level
 )
@@ -16016,6 +16025,8 @@ EndOfLocalCandidates
 (
 defaultAddr
 defaultPort
+defaultRtcpAddr
+defaultRtcpPort
 level
 )
 ;
