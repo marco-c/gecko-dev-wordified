@@ -12207,8 +12207,6 @@ ShutdownLeaks
 self
 .
 log
-.
-info
 )
       
 else
@@ -12246,8 +12244,6 @@ LSANLeaks
 self
 .
 log
-.
-info
 )
       
 else

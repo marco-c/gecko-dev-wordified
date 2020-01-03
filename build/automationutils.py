@@ -1840,6 +1840,10 @@ totalBytesLeaked
 =
 None
   
+logAsWarning
+=
+False
+  
 leakAnalysis
 =
 [
@@ -2099,6 +2103,10 @@ caught
 processString
 )
         
+logAsWarning
+=
+True
+        
 continue
       
 if
@@ -2156,6 +2164,28 @@ bytesLeaked
 )
 )
   
+if
+logAsWarning
+:
+    
+log
+.
+warning
+(
+'
+\
+n
+'
+.
+join
+(
+leakAnalysis
+)
+)
+  
+else
+:
+    
 log
 .
 info
@@ -2170,6 +2200,10 @@ join
 leakAnalysis
 )
 )
+  
+logAsWarning
+=
+False
   
 if
 totalBytesLeaked
@@ -2381,6 +2415,10 @@ WARNING
 else
 :
       
+logAsWarning
+=
+True
+      
 #
 Fail
 the
@@ -2499,6 +2537,44 @@ leakedObjectSummary
 .
 '
   
+if
+logAsWarning
+:
+    
+log
+.
+warning
+(
+"
+%
+s
+|
+leakcheck
+|
+%
+s
+%
+d
+bytes
+leaked
+(
+%
+s
+)
+"
+                
+%
+(
+prefix
+processString
+totalBytesLeaked
+leakedObjectSummary
+)
+)
+  
+else
+:
+    
 log
 .
 info
@@ -2520,7 +2596,7 @@ leaked
 s
 )
 "
-           
+             
 %
 (
 prefix
@@ -4675,6 +4751,8 @@ seenShutdown
 self
 .
 logger
+.
+warning
 (
 "
 TEST
@@ -4727,6 +4805,8 @@ leakedWindows
 self
 .
 logger
+.
+warning
 (
 "
 TEST
@@ -4779,6 +4859,8 @@ leakedDocShells
 self
 .
 logger
+.
+warning
 (
 "
 TEST
@@ -4884,6 +4966,8 @@ serial
 self
 .
 logger
+.
+warning
 (
 "
 TEST
@@ -5047,6 +5131,8 @@ id
 self
 .
 logger
+.
+warning
 (
 "
 TEST
@@ -6036,6 +6122,8 @@ foundFrames
 self
 .
 logger
+.
+warning
 (
 "
 TEST
