@@ -781,11 +781,8 @@ PRThread
 mThread
 ;
 uint32_t
-mRunningEvent
+mNestedEventLoopDepth
 ;
-/
-/
-counter
 uint32_t
 mStackSize
 ;
