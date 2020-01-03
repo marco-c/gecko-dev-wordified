@@ -10728,6 +10728,7 @@ PropertyDescriptor
 desc
 )
 const
+MOZ_OVERRIDE
 {
 Rooted
 <
@@ -11664,6 +11665,7 @@ AutoIdVector
 props
 )
 const
+MOZ_OVERRIDE
 {
 Rooted
 <
