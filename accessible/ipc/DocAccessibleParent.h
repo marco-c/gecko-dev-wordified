@@ -539,7 +539,9 @@ aChildDoc
 aChildDoc
 -
 >
-mParent
+Parent
+(
+)
 -
 >
 SetChildDoc
