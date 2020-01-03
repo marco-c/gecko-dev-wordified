@@ -227,9 +227,11 @@ mozilla
 #
 ifdef
 PR_LOGGING
-static
 PRLogModuleInfo
 *
+nsFontFaceLoader
+:
+:
 GetFontDownloaderLog
 (
 )

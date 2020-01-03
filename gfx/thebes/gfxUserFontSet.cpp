@@ -2366,7 +2366,7 @@ LOG
 (
 (
 "
-fontset
+userfonts
 (
 %
 p
@@ -2528,7 +2528,7 @@ LOG
 (
 (
 "
-fontset
+userfonts
 (
 %
 p
@@ -3823,7 +3823,7 @@ gen
 \
 n
 "
-this
+mFontSet
 mSrcIndex
 fontURI
 .
@@ -3935,7 +3935,7 @@ font
 \
 n
 "
-this
+mFontSet
 mSrcIndex
 fontURI
 .
