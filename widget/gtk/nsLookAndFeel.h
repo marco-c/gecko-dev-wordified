@@ -316,6 +316,9 @@ nscolor
 sMenuText
 ;
 nscolor
+sMenuTextInactive
+;
+nscolor
 sMenuHover
 ;
 nscolor
