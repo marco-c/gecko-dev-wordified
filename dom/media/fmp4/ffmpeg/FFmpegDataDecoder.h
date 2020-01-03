@@ -141,6 +141,15 @@ Vector
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticMutex
+.
+h
+"
 namespace
 mozilla
 {
@@ -266,6 +275,10 @@ private
 static
 bool
 sFFmpegInitDone
+;
+static
+StaticMutex
+sMonitor
 ;
 AVCodecID
 mCodecID
