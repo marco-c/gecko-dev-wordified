@@ -39950,7 +39950,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_loadX
+AsmJSSimdOperation_load1
 :
 return
 CheckSimdLoad
@@ -39964,7 +39964,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_loadXY
+AsmJSSimdOperation_load2
 :
 return
 CheckSimdLoad
@@ -39978,7 +39978,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_loadXYZ
+AsmJSSimdOperation_load3
 :
 return
 CheckSimdLoad
@@ -40006,7 +40006,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_storeX
+AsmJSSimdOperation_store1
 :
 return
 CheckSimdStore
@@ -40020,7 +40020,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_storeXY
+AsmJSSimdOperation_store2
 :
 return
 CheckSimdStore
@@ -40034,7 +40034,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_storeXYZ
+AsmJSSimdOperation_store3
 :
 return
 CheckSimdStore

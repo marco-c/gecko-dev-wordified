@@ -242,7 +242,7 @@ SIMD
 kind
 ]
 .
-storeX
+store1
 (
 ta
 i
@@ -307,7 +307,7 @@ SIMD
 kind
 ]
 .
-storeXY
+store2
 (
 ta
 i
@@ -338,7 +338,7 @@ SIMD
 kind
 ]
 .
-storeXYZ
+store3
 (
 ta
 i

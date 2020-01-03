@@ -490,7 +490,7 @@ Float32x4
 \
 V
 (
-loadXYZ
+load3
 (
 Load
 <
@@ -503,7 +503,7 @@ Float32x4
 \
 V
 (
-loadXY
+load2
 (
 Load
 <
@@ -516,7 +516,7 @@ Float32x4
 \
 V
 (
-loadX
+load1
 (
 Load
 <
@@ -640,7 +640,7 @@ Float32x4
 \
 V
 (
-storeXYZ
+store3
 (
 Store
 <
@@ -653,7 +653,7 @@ Float32x4
 \
 V
 (
-storeXY
+store2
 (
 Store
 <
@@ -666,7 +666,7 @@ Float32x4
 \
 V
 (
-storeX
+store1
 (
 Store
 <
@@ -1114,7 +1114,7 @@ Float64x2
 \
 V
 (
-loadX
+load1
 (
 Load
 <
@@ -1223,7 +1223,7 @@ Float64x2
 \
 V
 (
-storeX
+store1
 (
 Store
 <
@@ -1588,7 +1588,7 @@ Int32x4
 \
 V
 (
-loadXYZ
+load3
 (
 Load
 <
@@ -1601,7 +1601,7 @@ Int32x4
 \
 V
 (
-loadXY
+load2
 (
 Load
 <
@@ -1614,7 +1614,7 @@ Int32x4
 \
 V
 (
-loadX
+load1
 (
 Load
 <
@@ -1731,7 +1731,7 @@ Int32x4
 \
 V
 (
-storeXYZ
+store3
 (
 Store
 <
@@ -1744,7 +1744,7 @@ Int32x4
 \
 V
 (
-storeXY
+store2
 (
 Store
 <
@@ -1757,7 +1757,7 @@ Int32x4
 \
 V
 (
-storeX
+store1
 (
 Store
 <
@@ -2237,17 +2237,17 @@ load
 \
 _
 (
-loadX
+load1
 )
 \
 _
 (
-loadXY
+load2
 )
 \
 _
 (
-loadXYZ
+load3
 )
 \
 _
@@ -2257,17 +2257,17 @@ store
 \
 _
 (
-storeX
+store1
 )
 \
 _
 (
-storeXY
+store2
 )
 \
 _
 (
-storeXYZ
+store3
 )
 \
 _
