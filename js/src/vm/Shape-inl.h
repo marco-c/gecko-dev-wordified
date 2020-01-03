@@ -205,6 +205,9 @@ const
 Class
 *
 clasp
+JSObject
+*
+metadata
 uint32_t
 objectFlags
 )
@@ -216,6 +219,10 @@ objectFlags
 clasp
 (
 clasp
+)
+metadata
+(
+metadata
 )
 compartment
 (

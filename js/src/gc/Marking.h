@@ -1990,7 +1990,7 @@ Debugger
 WeakMap
 '
 s
-liveScopes
+proxiedScopes
 HashKeyRef
 instantiation
 .
