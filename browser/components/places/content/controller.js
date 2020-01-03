@@ -4542,7 +4542,6 @@ PlacesUtils
 hasChildURIs
 (
 containerToUse
-true
 )
 )
 {
