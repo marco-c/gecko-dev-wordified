@@ -72,15 +72,13 @@ NFCD_MAJOR_VERSION
 #
 define
 NFCD_MINOR_VERSION
-19
+20
 enum
 NfcRequest
 {
 ChangeRFStateReq
 =
 0
-ConnectReq
-CloseReq
 ReadNDEFReq
 WriteNDEFReq
 MakeReadOnlyReq
