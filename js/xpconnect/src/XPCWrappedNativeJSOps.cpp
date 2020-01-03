@@ -2997,8 +2997,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
 )
 {
 XPCCallContext
@@ -3073,8 +3073,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
 )
 {
 return
@@ -4592,8 +4592,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
 )
 {
 XPCCallContext
@@ -4924,8 +4924,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
 )
 {
 PRE_HELPER_STUB
@@ -4935,11 +4935,7 @@ wrapper
 cx
 obj
 id
-vp
-.
-address
-(
-)
+v
 &
 retval
 )
@@ -8733,8 +8729,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
 )
 {
 MOZ_ASSERT
