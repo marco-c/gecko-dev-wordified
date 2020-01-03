@@ -1688,6 +1688,9 @@ owner
 MaybePreconnect
 (
 uri
+GetCORSMode
+(
+)
 )
 ;
 }
