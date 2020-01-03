@@ -2621,7 +2621,7 @@ char
 *
 >
 (
-moz_xmalloc
+malloc
 (
 allocSize
 +
