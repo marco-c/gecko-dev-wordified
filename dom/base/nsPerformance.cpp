@@ -1127,7 +1127,7 @@ IsInitialized
 )
 {
 return
-mZeroTime
+0
 ;
 }
 /
@@ -1161,6 +1161,9 @@ RedirectStartHighRes
 if
 (
 mAllRedirectsSameOrigin
+&
+&
+mRedirectCount
 )
 {
 return
@@ -1329,7 +1332,7 @@ IsInitialized
 )
 {
 return
-mZeroTime
+0
 ;
 }
 /
@@ -1363,6 +1366,9 @@ RedirectEndHighRes
 if
 (
 mAllRedirectsSameOrigin
+&
+&
+mRedirectCount
 )
 {
 return
