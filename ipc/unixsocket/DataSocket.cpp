@@ -209,13 +209,6 @@ DataSocketIO
 :
 DataSocketIO
 (
-size_t
-aMaxReadSize
-)
-:
-mMaxReadSize
-(
-aMaxReadSize
 )
 {
 }
