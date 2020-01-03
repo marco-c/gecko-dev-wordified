@@ -2221,7 +2221,7 @@ max
 size
 "
 MaxCanvasSize
-uint32_t
+int32_t
 0x7fff
 )
 ;
