@@ -12773,9 +12773,6 @@ aContent
 nsIAtom
 *
 aAnimationProperty
-nsPresContext
-*
-aPresContext
 )
 ;
 /

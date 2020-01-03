@@ -3286,7 +3286,6 @@ nsGkAtoms
 :
 :
 transitionsProperty
-pc
 )
 )
 {
