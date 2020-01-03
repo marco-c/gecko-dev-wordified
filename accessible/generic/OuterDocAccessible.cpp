@@ -344,6 +344,10 @@ aContent
 aDoc
 )
 {
+mType
+=
+eOuterDocType
+;
 }
 OuterDocAccessible
 :
