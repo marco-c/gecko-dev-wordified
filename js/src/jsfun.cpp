@@ -2744,7 +2744,7 @@ if
 objProto
 )
 return
-nullptr
+false
 ;
 RootedPlainObject
 proto
@@ -2767,7 +2767,7 @@ if
 proto
 )
 return
-nullptr
+false
 ;
 /
 /
@@ -2866,7 +2866,7 @@ nullptr
 )
 )
 return
-nullptr
+false
 ;
 }
 /
