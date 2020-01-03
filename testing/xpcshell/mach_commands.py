@@ -3161,6 +3161,16 @@ testing
 )
 '
         
+conditions
+=
+[
+lambda
+*
+args
+:
+True
+]
+        
 parser
 =
 _parser
