@@ -1856,6 +1856,10 @@ whitelist
 add
 "
 "
+https
+:
+/
+/
 addons
 .
 mozilla
@@ -1876,6 +1880,10 @@ add
 180
 "
 "
+https
+:
+/
+/
 marketplace
 .
 firefox
