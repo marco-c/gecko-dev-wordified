@@ -531,7 +531,7 @@ marginLeft
 aData
 -
 >
-ValueForMarginLeftValue
+ValueForMarginLeft
 (
 )
 ;
@@ -566,7 +566,7 @@ marginRight
 aData
 -
 >
-ValueForMarginRightValue
+ValueForMarginRight
 (
 )
 ;
@@ -973,7 +973,7 @@ marginLeft
 aData
 -
 >
-ValueForMarginLeftValue
+ValueForMarginLeft
 (
 )
 ;
@@ -1068,7 +1068,7 @@ marginRight
 aData
 -
 >
-ValueForMarginRightValue
+ValueForMarginRight
 (
 )
 ;
@@ -1373,7 +1373,7 @@ marginLeft
 aData
 -
 >
-ValueForMarginLeftValue
+ValueForMarginLeft
 (
 )
 ;
@@ -1408,7 +1408,7 @@ marginRight
 aData
 -
 >
-ValueForMarginRightValue
+ValueForMarginRight
 (
 )
 ;
