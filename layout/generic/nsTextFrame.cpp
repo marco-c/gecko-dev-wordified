@@ -14156,6 +14156,7 @@ forget
 )
 mathFlags
 sstyScriptLevel
+fontInflation
 )
 ;
 }

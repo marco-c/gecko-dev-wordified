@@ -137,6 +137,8 @@ uint32_t
 aFlags
 uint8_t
 aSSTYScriptLevel
+float
+aFontInflation
 )
 :
 mInnerTransformingTextRunFactory
@@ -146,6 +148,10 @@ aInnerTransformingTextRunFactory
 mFlags
 (
 aFlags
+)
+mFontInflation
+(
+aFontInflation
 )
 mSSTYScriptLevel
 (
@@ -232,6 +238,9 @@ mInnerTransformingTextRunFactory
 ;
 uint32_t
 mFlags
+;
+float
+mFontInflation
 ;
 uint8_t
 mSSTYScriptLevel
