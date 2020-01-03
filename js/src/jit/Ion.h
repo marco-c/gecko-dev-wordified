@@ -1054,6 +1054,14 @@ return
 num
 ;
 }
+bool
+OffThreadCompilationAvailable
+(
+JSContext
+*
+cx
+)
+;
 void
 ForbidCompilation
 (

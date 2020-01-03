@@ -681,6 +681,16 @@ return
 spsSlowAssertionsEnabled_
 ;
 }
+bool
+offThreadCompilationAvailable
+(
+)
+const
+{
+return
+offThreadCompilationAvailable_
+;
+}
 private
 :
 bool
@@ -688,6 +698,9 @@ cloneSingletons_
 ;
 bool
 spsSlowAssertionsEnabled_
+;
+bool
+offThreadCompilationAvailable_
 ;
 }
 ;

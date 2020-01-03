@@ -217,7 +217,11 @@ registerAllocator_
 =
 RegisterAllocator_Backtracking
 ;
-inlineMaxTotalBytecodeLength_
+inlineMaxBytecodePerCallSiteMainThread_
+=
+500
+;
+inlineMaxBytecodePerCallSiteOffThread_
 =
 1000
 ;
