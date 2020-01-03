@@ -1147,10 +1147,6 @@ discarding
 void
 Discard
 (
-bool
-aNotify
-=
-true
 )
 ;
 /
@@ -1887,13 +1883,6 @@ aPreviousFrame
 nsresult
 DoImageDataComplete
 (
-)
-;
-bool
-ApplyDecodeFlags
-(
-uint32_t
-aNewFlags
 )
 ;
 already_AddRefed
