@@ -1468,9 +1468,6 @@ fakeRoomCreationData
 nameTemplate
 :
 fakeNameTemplate
-roomOwner
-:
-fakeOwner
 }
 ;
 }
@@ -1734,9 +1731,6 @@ Conversation
 1
 "
 }
-roomOwner
-:
-fakeOwner
 maxSize
 :
 store
@@ -1873,9 +1867,6 @@ png
 }
 ]
 }
-roomOwner
-:
-fakeOwner
 maxSize
 :
 store

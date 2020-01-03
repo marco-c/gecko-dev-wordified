@@ -1577,11 +1577,6 @@ actionData
 nameTemplate
 )
 }
-roomOwner
-:
-actionData
-.
-roomOwner
 maxSize
 :
 this

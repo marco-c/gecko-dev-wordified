@@ -497,9 +497,6 @@ define
 fetchRoomEmailLink
 "
 {
-roomOwner
-:
-String
 roomName
 :
 String
@@ -1700,9 +1697,6 @@ conversationLabel
 )
 .
 nameTemplate
-:
-String
-roomOwner
 :
 String
 /
