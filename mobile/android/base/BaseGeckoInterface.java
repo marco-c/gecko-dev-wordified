@@ -696,17 +696,6 @@ result
 )
 ;
 }
-Override
-public
-boolean
-hasTabsSideBar
-(
-)
-{
-return
-false
-;
-}
 /
 /
 Bug
