@@ -592,7 +592,7 @@ error
 code
 :
 %
-d
+u
 .
 "
 aFilter
@@ -600,7 +600,13 @@ aFilter
 BeginReading
 (
 )
+static_cast
+<
+uint32_t
+>
+(
 rv
+)
 )
 ;
 return

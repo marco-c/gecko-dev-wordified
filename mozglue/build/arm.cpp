@@ -95,8 +95,6 @@ defined
 (
 MOZILLA_ARM_HAVE_CPUID_DETECTION
 )
-namespace
-{
 /
 /
 arm
@@ -1197,7 +1195,6 @@ defined
 (
 ANDROID
 )
-}
 namespace
 mozilla
 {
