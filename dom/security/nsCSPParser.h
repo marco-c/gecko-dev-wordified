@@ -757,6 +757,11 @@ outSrcs
 )
 ;
 void
+referrerDirectiveValue
+(
+)
+;
+void
 sourceList
 (
 nsTArray
