@@ -1875,9 +1875,6 @@ aTwistyRect
 nsPresContext
 *
 aPresContext
-nsRenderingContext
-&
-aRenderingContext
 nsStyleContext
 *
 aTwistyContext
