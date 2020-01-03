@@ -7302,7 +7302,10 @@ _groupInfo
 .
 networkInterface
 .
-gateway
+gateways
+[
+0
+]
 passphrase
 :
 _groupInfo
