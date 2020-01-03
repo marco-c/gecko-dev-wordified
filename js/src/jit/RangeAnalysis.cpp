@@ -183,9 +183,9 @@ h
 #
 include
 "
-vm
+js
 /
-NumericConversions
+Conversions
 .
 h
 "
@@ -293,6 +293,12 @@ JS
 :
 :
 GenericNaN
+;
+using
+JS
+:
+:
+ToInt32
 ;
 /
 /

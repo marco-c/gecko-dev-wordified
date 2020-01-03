@@ -140,6 +140,15 @@ h
 #
 include
 "
+js
+/
+Conversions
+.
+h
+"
+#
+include
+"
 vm
 /
 ArrayBufferObject
@@ -977,6 +986,9 @@ T
 uint32_t
 n
 =
+JS
+:
+:
 ToUint32
 (
 d
@@ -994,6 +1006,9 @@ else
 int32_t
 n
 =
+JS
+:
+:
 ToInt32
 (
 d

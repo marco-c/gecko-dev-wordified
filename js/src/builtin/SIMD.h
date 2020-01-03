@@ -140,6 +140,15 @@ h
 #
 include
 "
+js
+/
+Conversions
+.
+h
+"
+#
+include
+"
 vm
 /
 GlobalObject
@@ -1891,6 +1900,9 @@ a
 )
 {
 return
+JS
+:
+:
 ToInt32
 (
 a
