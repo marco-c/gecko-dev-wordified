@@ -142,6 +142,14 @@ jsapi
 h
 "
 #
+ifdef
+CONVERT_STRING_TO_NULLABLE_ENUM
+#
+undef
+CONVERT_STRING_TO_NULLABLE_ENUM
+#
+endif
+#
 define
 CONVERT_STRING_TO_NULLABLE_ENUM
 (
@@ -664,7 +672,7 @@ mType
 /
 Update
 mSignalStrength
-AutoJSContext
+AutoSafeJSContext
 cx
 ;
 JS
