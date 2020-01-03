@@ -168,6 +168,8 @@ GMPContentParent
 GMPParent
 *
 aParent
+=
+nullptr
 )
 ;
 nsresult
