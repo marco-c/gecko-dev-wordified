@@ -266,8 +266,12 @@ g
 (
 )
 {
+(
 yield
+)
+(
 yield
+)
 }
 function
 *

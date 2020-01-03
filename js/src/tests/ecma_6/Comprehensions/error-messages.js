@@ -1271,7 +1271,10 @@ MISSING_SEMI
 ]
 gen
 :
-null
+[
+YIELD_PAREN
+3
+]
 genexp
 :
 [
@@ -1398,7 +1401,10 @@ MISSING_PAREN
 ]
 gen
 :
-null
+[
+YIELD_PAREN
+3
+]
 genexp
 :
 [
