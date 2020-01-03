@@ -10252,7 +10252,7 @@ pasteTransferable
 )
 msg
 =
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
+eContentCommandPasteTransferable
 ;
 else
 return
@@ -10271,7 +10271,7 @@ if
 msg
 =
 =
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
+eContentCommandPasteTransferable
 )
 {
 event

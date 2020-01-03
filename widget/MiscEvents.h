@@ -419,7 +419,7 @@ nullptr
 }
 /
 /
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
+eContentCommandPasteTransferable
 nsCOMPtr
 <
 nsITransferable

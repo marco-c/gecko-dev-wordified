@@ -4651,9 +4651,8 @@ case
 NS_CONTENT_COMMAND_REDO
 :
 case
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
+eContentCommandPasteTransferable
 :
-{
 DoContentCommandEvent
 (
 aEvent
@@ -4664,7 +4663,6 @@ AsContentCommandEvent
 )
 )
 ;
-}
 break
 ;
 case
@@ -30743,7 +30741,7 @@ cmd_redo
 break
 ;
 case
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
+eContentCommandPasteTransferable
 :
 cmd
 =
@@ -30870,7 +30868,7 @@ mMessage
 )
 {
 case
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
+eContentCommandPasteTransferable
 :
 {
 nsCOMPtr

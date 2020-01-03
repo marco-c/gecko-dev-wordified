@@ -2130,7 +2130,7 @@ eContentCommandEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
+eContentCommandPasteTransferable
 eContentCommandEventFirst
 +
 6
