@@ -253,15 +253,6 @@ nsAString
 aResult
 )
 ;
-nsresult
-NotifySendCancelMmiSuccess
-(
-const
-MozMMIResult
-&
-aResult
-)
-;
 nsCOMPtr
 <
 nsPIDOMWindow
