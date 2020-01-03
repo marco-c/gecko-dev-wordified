@@ -3032,6 +3032,9 @@ bool
 aIsOffline
 bool
 *
+aIsConnected
+bool
+*
 aIsLangRTL
 InfallibleTArray
 <
