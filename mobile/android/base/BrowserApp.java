@@ -10194,7 +10194,7 @@ mMainLayoutAnimator
 ;
 mBrowserToolbar
 .
-prepareTabsAnimation
+triggerTabsPanelTransition
 (
 mMainLayoutAnimator
 areTabsShown
