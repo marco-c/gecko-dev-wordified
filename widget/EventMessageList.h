@@ -946,7 +946,7 @@ dispatched
 from
 widget
 if
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 /
 /
 is
@@ -1149,7 +1149,7 @@ eCompositionEventFirst
 )
 /
 /
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 is
 the
 message
@@ -1204,7 +1204,7 @@ nullptr
 .
 NS_EVENT_MESSAGE
 (
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 eCompositionEventFirst
 +
 5

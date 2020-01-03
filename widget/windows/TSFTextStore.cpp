@@ -11619,7 +11619,7 @@ WidgetCompositionEvent
 compositionCommit
 (
 true
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 mWidget
 )
 ;
@@ -11643,7 +11643,7 @@ mData
 /
 When
 the
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 causes
 a
 DOM
