@@ -5626,6 +5626,9 @@ the
 header
 line
 .
+unused
+<
+<
 fgets
 (
 buffer
@@ -5640,6 +5643,9 @@ the
 separator
 line
 .
+unused
+<
+<
 fgets
 (
 buffer
@@ -5759,6 +5765,9 @@ the
 orphaned
 header
 .
+unused
+<
+<
 fgets
 (
 buffer
@@ -5902,6 +5911,9 @@ size
 =
 0
 ;
+unused
+<
+<
 fscanf
 (
 sizeFile
@@ -7603,6 +7615,9 @@ buff
 1024
 ]
 ;
+unused
+<
+<
 fgets
 (
 buff

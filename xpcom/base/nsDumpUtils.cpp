@@ -175,6 +175,15 @@ ClearOnShutdown
 h
 "
 #
+include
+"
+mozilla
+/
+unused
+.
+h
+"
+#
 ifdef
 XP_UNIX
 /
@@ -504,6 +513,9 @@ int
 aSignum
 )
 ;
+unused
+<
+<
 write
 (
 sDumpPipeWriteFd
