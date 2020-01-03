@@ -2877,7 +2877,7 @@ override
 ;
 virtual
 bool
-RecvSetIsDocShellActive
+RecvSetDocShellIsActive
 (
 const
 bool
