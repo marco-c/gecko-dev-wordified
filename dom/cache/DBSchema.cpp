@@ -1674,7 +1674,7 @@ aLen
 ;
 static
 nsresult
-InsertSecurity
+InsertSecurityInfo
 (
 mozIStorageConnection
 *
@@ -8270,7 +8270,7 @@ rv
 ;
 }
 nsresult
-InsertSecurity
+InsertSecurityInfo
 (
 mozIStorageConnection
 *
@@ -9848,6 +9848,10 @@ if
 !
 aResponse
 .
+channelInfo
+(
+)
+.
 securityInfo
 (
 )
@@ -9859,10 +9863,14 @@ IsEmpty
 {
 rv
 =
-InsertSecurity
+InsertSecurityInfo
 (
 aConn
 aResponse
+.
+channelInfo
+(
+)
 .
 securityInfo
 (
@@ -10706,6 +10714,10 @@ rv
 if
 (
 aResponse
+.
+channelInfo
+(
+)
 .
 securityInfo
 (
@@ -11860,6 +11872,10 @@ aSavedResponseOut
 -
 >
 mValue
+.
+channelInfo
+(
+)
 .
 securityInfo
 (
