@@ -319,13 +319,6 @@ h
 #
 include
 "
-MainThreadUtils
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
