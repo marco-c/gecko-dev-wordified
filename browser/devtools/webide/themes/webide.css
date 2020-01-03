@@ -374,6 +374,16 @@ pack
 :
 start
 ;
+width
+:
+150px
+;
+max
+-
+width
+:
+150px
+;
 }
 #
 project
@@ -494,6 +504,10 @@ button
 -
 label
 {
+width
+:
+150px
+;
 max
 -
 width
