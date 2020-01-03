@@ -1188,7 +1188,7 @@ mRef
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRef
 .
@@ -2036,7 +2036,7 @@ if
 mIsRefValid
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRef
 .

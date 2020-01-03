@@ -69984,7 +69984,7 @@ lack
 a
 container
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 container
@@ -69996,8 +69996,6 @@ shouldn
 '
 t
 have
-"
-"
 its
 own
 container

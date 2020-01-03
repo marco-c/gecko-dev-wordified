@@ -1454,7 +1454,7 @@ nsStyleContext
 aStyleIfVisited
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 IsStyleIfVisited
@@ -1487,7 +1487,7 @@ mStyleIfVisited
 =
 aStyleIfVisited
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mStyleIfVisited
 -
@@ -1504,7 +1504,7 @@ data
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mStyleIfVisited

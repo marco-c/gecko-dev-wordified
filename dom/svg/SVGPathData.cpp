@@ -422,7 +422,7 @@ Length
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 =
@@ -726,7 +726,7 @@ i
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 =
@@ -804,7 +804,7 @@ count
 +
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 =
@@ -934,7 +934,7 @@ i
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 =
@@ -1195,7 +1195,7 @@ segType
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 =
@@ -1365,7 +1365,7 @@ segIndex
 +
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 =
@@ -3611,7 +3611,7 @@ segStart
 segEnd
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 =
@@ -3631,7 +3631,7 @@ corrupt
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 prevSegType
 =
@@ -6217,7 +6217,7 @@ things
 went
 wrong
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -6500,7 +6500,7 @@ prevSegEndAngle
 segEndAngle
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 =

@@ -6208,7 +6208,7 @@ be
 nullptr
 otherwise
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 aLocation

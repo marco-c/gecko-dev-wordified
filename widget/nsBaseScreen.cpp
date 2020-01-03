@@ -231,7 +231,7 @@ uint32_t
 aBrightness
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aBrightness
 <
@@ -255,7 +255,7 @@ aBrightness
 +
 +
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mBrightnessLocks
 [
@@ -290,7 +290,7 @@ uint32_t
 aBrightness
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aBrightness
 <
@@ -307,7 +307,7 @@ lock
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mBrightnessLocks
 [

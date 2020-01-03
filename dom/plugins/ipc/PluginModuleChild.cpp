@@ -2873,7 +2873,7 @@ PluginModuleChild
 data
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 !
@@ -2889,7 +2889,7 @@ descheduling
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 pmc
 -
@@ -3010,7 +3010,7 @@ PluginModuleChild
 data
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 pmc
 -
@@ -3052,7 +3052,7 @@ EnteredCxxStack
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 =
@@ -3100,7 +3100,7 @@ ExitedCxxStack
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -3138,7 +3138,7 @@ EnteredCxxStack
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mNestedLoopTimerObject
 =
@@ -3184,7 +3184,7 @@ ExitedCxxStack
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mNestedLoopTimerObject
 !
@@ -3413,7 +3413,7 @@ gtk_plug_class
 >
 dispose
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 *
 dispose
@@ -5830,7 +5830,7 @@ NPP
 aNPP
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 !
@@ -10733,6 +10733,11 @@ mQuirks
 |
 =
 QUIRK_ALLOW_OFFLINE_RENDERER
+;
+mQuirks
+|
+=
+QUIRK_FLASH_HIDE_HIDPI_SUPPORT
 ;
 }
 else

@@ -6419,7 +6419,7 @@ mError
 return
 NS_ERROR_FAILURE
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 ShouldAnimate
 (
@@ -6664,7 +6664,7 @@ StopAnimation
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mAnimating
 "
@@ -7691,7 +7691,7 @@ aCount
 bytesRead
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 bytesRead
 =
@@ -12118,7 +12118,7 @@ lock
 count
 is
 0
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mLockCount
 >

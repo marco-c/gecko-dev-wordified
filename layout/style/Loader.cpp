@@ -11871,7 +11871,7 @@ that
 whole
 time
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 data
@@ -13606,7 +13606,7 @@ t
 have
 any
 ancestors
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aData

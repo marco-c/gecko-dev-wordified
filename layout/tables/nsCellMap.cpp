@@ -6662,7 +6662,7 @@ Init
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 sEmptyRow
@@ -18072,7 +18072,7 @@ GetRowSpan
 +
 mFoundCells
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 cellData
 =

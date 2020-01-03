@@ -3693,7 +3693,7 @@ DestroyBackground
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mBackground
@@ -3825,7 +3825,7 @@ fix
 that
 eventually
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aRect
 .
@@ -3884,7 +3884,7 @@ GetSize
 #
 ifdef
 DEBUG
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nsIntRect
 (
@@ -4202,7 +4202,7 @@ nsIntSize
 aSize
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mBackground
@@ -4432,7 +4432,7 @@ BackgroundDescriptor
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mBackground
 "
@@ -4479,7 +4479,7 @@ endif
 #
 ifdef
 XP_WIN
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gfxSharedImageSurface
 :

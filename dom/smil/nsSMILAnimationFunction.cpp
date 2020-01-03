@@ -1422,7 +1422,7 @@ non
 -
 negative
 mSampleTime
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSampleTime
 >
@@ -1442,7 +1442,7 @@ animation
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSimpleDuration
 .
@@ -1982,7 +1982,7 @@ in
 /
 the
 document
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mAnimationElement
 !
@@ -2416,7 +2416,7 @@ GetMillis
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 dur
 >
@@ -2432,7 +2432,7 @@ negative
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSampleTime
 >
@@ -2579,7 +2579,7 @@ this
 the
 /
 /
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 that
 tests
 that
@@ -2847,7 +2847,7 @@ rv
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 from
 "
@@ -2860,7 +2860,7 @@ interpolation
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 to
 "
@@ -2873,7 +2873,7 @@ interpolation
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 .
@@ -3497,7 +3497,7 @@ mode
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValues
 .
@@ -3896,7 +3896,7 @@ i
 curIntervalDist
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -4316,7 +4316,7 @@ ComputeDistance
 /
 implementation
 somewhere
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 tmpDist
 >
@@ -4516,7 +4516,7 @@ i
 ]
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 =
@@ -4536,9 +4536,9 @@ current
 interval
 yet
 the
+"
+"
 current
-"
-"
 interval
 is
 not
@@ -4663,7 +4663,7 @@ keySplines
 return
 aProgress
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aIntervalIndex
 <

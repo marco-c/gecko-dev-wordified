@@ -1661,8 +1661,7 @@ on
 debug
 build
 .
-NS_ABORT_IF_FALSE
-(
+MOZ_ASSERT
 (
 aXPLength
 =
@@ -1678,7 +1677,6 @@ text
 >
 GetLength
 (
-)
 )
 "
 aXPLength
@@ -1909,7 +1907,7 @@ on
 debug
 build
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <

@@ -386,7 +386,7 @@ nsString
 aSymbols
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSymbols
 .
@@ -530,7 +530,7 @@ nsString
 aSymbols
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSymbols
 .
@@ -551,7 +551,7 @@ counter
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOrdinal
 >
@@ -706,7 +706,7 @@ nsString
 aSymbols
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSymbols
 .
@@ -727,7 +727,7 @@ counter
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOrdinal
 >
@@ -918,7 +918,7 @@ nsString
 aSymbols
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSymbols
 .
@@ -939,7 +939,7 @@ counter
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOrdinal
 >
@@ -1082,7 +1082,7 @@ AdditiveSymbol
 aSymbols
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOrdinal
 >
@@ -3264,7 +3264,7 @@ uint8_t
 aSystem
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSystem
 !
@@ -3316,7 +3316,7 @@ uint8_t
 aSystem
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSystem
 !
@@ -4865,7 +4865,7 @@ style
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 IsCustomStyle
@@ -6510,7 +6510,7 @@ aIsBullet
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSpeakAsCounter
 "
@@ -10203,7 +10203,7 @@ CounterStyleManager
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mPresContext
@@ -10587,7 +10587,7 @@ int32_t
 aStyle
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -10608,7 +10608,7 @@ constant
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 gBuiltinStyleTable

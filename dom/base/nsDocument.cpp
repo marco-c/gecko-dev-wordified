@@ -5669,7 +5669,7 @@ nsIDocument
 aToDoc
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFromDoc
 &
@@ -5810,7 +5810,7 @@ nsIDocument
 aToDoc
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFromDoc
 &
@@ -8834,7 +8834,7 @@ nsIDocument
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_CLIST_IS_EMPTY
 (
@@ -12049,7 +12049,7 @@ mNodeInfo
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mNodeInfo
 -
@@ -25453,7 +25453,7 @@ window
 }
 #
 endif
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aScriptGlobalObject
 |
@@ -56600,7 +56600,7 @@ aImage
 count
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 found
 "
@@ -56617,7 +56617,7 @@ tracker
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 count
 >

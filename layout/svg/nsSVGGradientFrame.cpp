@@ -326,7 +326,7 @@ to
 encounter
 them
 here
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mFrame
@@ -3127,7 +3127,7 @@ non
 -
 null
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 lengthElement
 "
@@ -3928,7 +3928,7 @@ non
 -
 null
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 lengthElement
 "

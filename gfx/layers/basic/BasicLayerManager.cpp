@@ -5352,7 +5352,7 @@ Setup2DTransform
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 is2D
 |
@@ -5721,7 +5721,7 @@ when
 725886
 is
 ready
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 untransformedDT
 "

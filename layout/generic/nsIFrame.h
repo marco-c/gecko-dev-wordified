@@ -22871,7 +22871,7 @@ GetVisualOverflowFromDeltas
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mOverflow
 .

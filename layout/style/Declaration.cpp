@@ -331,7 +331,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mData
@@ -349,7 +349,7 @@ expanded
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 nsCSSProps
@@ -438,7 +438,7 @@ ExpandTo
 data
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mData
@@ -543,7 +543,7 @@ aProperty
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -614,7 +614,7 @@ aSerialization
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1179,7 +1179,7 @@ ValueFor
 p
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 val
@@ -1658,7 +1658,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nsCSSProps
 :
@@ -1690,7 +1690,7 @@ top
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nsCSSProps
 :
@@ -1722,7 +1722,7 @@ right
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nsCSSProps
 :
@@ -1754,7 +1754,7 @@ bottom
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nsCSSProps
 :
@@ -2550,7 +2550,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 StringEndsWith
 (
@@ -3204,7 +3204,7 @@ aSerialization
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 clip
 -
@@ -5826,7 +5826,7 @@ numProps
 =
 8
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 subprops
 [
@@ -5997,7 +5997,7 @@ other
 keyword
 properties
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 subprops
 [
@@ -6423,7 +6423,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 subprops
 [
@@ -6517,7 +6517,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 subprops
 [
@@ -6594,7 +6594,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 subprops
 [
@@ -7683,7 +7683,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 subprops
 [
@@ -7783,7 +7783,7 @@ break
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -8002,7 +8002,7 @@ aResult
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -8022,7 +8022,7 @@ range
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 aProperty
@@ -9065,7 +9065,7 @@ doneProperty
 )
 continue
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 value
 .
@@ -9321,7 +9321,7 @@ InitializeEmpty
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mData
@@ -9354,7 +9354,7 @@ EnsureMutable
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mData
 "

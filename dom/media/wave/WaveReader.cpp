@@ -2057,7 +2057,7 @@ p
 =
 riffHeader
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDecoder
 -
@@ -2237,7 +2237,7 @@ byte
 )
 aligned
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDecoder
 -
@@ -2657,7 +2657,7 @@ byte
 )
 aligned
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDecoder
 -
@@ -2906,7 +2906,7 @@ byte
 )
 aligned
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDecoder
 -
@@ -3014,7 +3014,7 @@ aBytes
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aBytes
 >
@@ -3051,7 +3051,7 @@ aTime
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aTime
 >
@@ -3093,7 +3093,7 @@ aBytes
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aBytes
 >
@@ -3266,7 +3266,7 @@ uint32_t
 aChunkSize
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aChunk
 "
@@ -3276,7 +3276,7 @@ aChunk
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aChunkSize
 "
@@ -3286,7 +3286,7 @@ aChunkSize
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDecoder
 -
@@ -3421,7 +3421,7 @@ byte
 )
 aligned
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDecoder
 -
@@ -3910,7 +3910,7 @@ byte
 )
 aligned
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDecoder
 -

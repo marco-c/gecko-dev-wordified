@@ -1231,7 +1231,7 @@ aSrcElement
 NS_ERROR_FAILURE
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -1399,7 +1399,7 @@ nsSMILValue
 aResult
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aResult
 .
@@ -1940,7 +1940,7 @@ nsSMILValue
 aNewAnimValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aNewAnimValue
 .

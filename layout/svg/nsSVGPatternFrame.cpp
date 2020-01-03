@@ -388,7 +388,7 @@ to
 encounter
 them
 here
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mFrame

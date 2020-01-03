@@ -511,7 +511,7 @@ nsAString
 aString
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aType
 <
@@ -522,7 +522,7 @@ type
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aType
 >

@@ -3408,7 +3408,7 @@ AssertNoWindow
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aWidgetInitData
@@ -3615,7 +3615,7 @@ AssertNoWindow
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aWidgetInitData
@@ -3634,7 +3634,7 @@ CreateWidgetForPopup
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aParentWidget
 "
@@ -3724,7 +3724,7 @@ AssertNoWindow
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aWidgetInitData
 "
@@ -3735,7 +3735,7 @@ required
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aWidgetInitData
 -
@@ -3970,7 +3970,7 @@ bool
 aResetVisibility
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mWindow
 "
@@ -4940,7 +4940,7 @@ aAPD
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 GetParent
 (
@@ -4972,8 +4972,6 @@ outer
 GetOffsetTo
 must
 not
-"
-"
 pass
 unrelated
 views

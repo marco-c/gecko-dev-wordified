@@ -3857,7 +3857,7 @@ mPercent
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCalcFunction
 =
@@ -3879,8 +3879,6 @@ calc
 (
 )
 on
-"
-"
 transform
 "
 )
@@ -3919,7 +3917,7 @@ result_type
 aValue2
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCalcFunction
 =
@@ -3960,7 +3958,7 @@ float
 aValue2
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCalcFunction
 =
@@ -4285,7 +4283,7 @@ aPercentageBasis
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -5623,7 +5621,7 @@ int32_t
 aMask
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 aMask
@@ -5712,7 +5710,7 @@ dummyPresContext
 dummyCanStoreInRuleTree
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 dummyCanStoreInRuleTree
 "
@@ -5880,7 +5878,7 @@ aPresContext
 aCanStoreInRuleTree
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 cX
 =
@@ -6514,7 +6512,7 @@ bool
 aCanStoreInRuleTree
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -7210,7 +7208,7 @@ nsStyleImage
 aResult
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -7258,7 +7256,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 arr
 &
@@ -7397,7 +7395,7 @@ SETCOORD_FACTOR
 SETCOORD_PERCENT
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 unitOk
 "
@@ -8906,7 +8904,7 @@ MOZ_ASSERT
 aContext
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsRoot
 (
@@ -9073,7 +9071,7 @@ animation
 /
 rule
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsRoot
 (
@@ -11941,7 +11939,7 @@ h
 above
 mValueOffsets
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aRuleData
 -
@@ -12570,7 +12568,7 @@ h
 above
 mValueOffsets
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aRuleData
 -
@@ -12793,7 +12791,7 @@ size_t
 aCount
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 size_t
 (
@@ -15764,7 +15762,7 @@ length
 .
 *
 /
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -20239,7 +20237,7 @@ GetPercentValue
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -20726,7 +20724,7 @@ aSize
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 sizeValue
 -
@@ -20742,8 +20740,6 @@ percents
 should
 be
 rejected
-"
-"
 by
 parser
 "
@@ -24355,7 +24351,7 @@ break
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -25014,7 +25010,7 @@ feat
 0
 }
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFeaturesList
 -
@@ -26626,7 +26622,7 @@ ListLength
 aList
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 arrayLength
 >
@@ -26707,7 +26703,7 @@ mNext
 item
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aList
 -
@@ -29213,7 +29209,7 @@ GetUnit
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_Enumerated
 !
@@ -32494,7 +32490,7 @@ not
 equal
 to
 length
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -32511,7 +32507,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -32699,7 +32695,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -32716,7 +32712,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -32900,7 +32896,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -32917,7 +32913,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -33173,7 +33169,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -33190,7 +33186,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -33703,7 +33699,7 @@ not
 equal
 to
 length
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -33720,7 +33716,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -33908,7 +33904,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -33925,7 +33921,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -34113,7 +34109,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -34130,7 +34126,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -34341,7 +34337,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -34358,7 +34354,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -34491,7 +34487,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -34508,7 +34504,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -34682,7 +34678,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -34699,7 +34695,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -34875,7 +34871,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -34892,7 +34888,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -35068,7 +35064,7 @@ unit
 eCSSUnit_Inherit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -35085,7 +35081,7 @@ incorrectly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 canStoreInRuleTree
@@ -35173,7 +35169,7 @@ GetUnit
 case
 eCSSUnit_Enumerated
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 animIterationCount
 .
@@ -35230,7 +35226,7 @@ break
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -37121,7 +37117,7 @@ break
 }
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -37889,7 +37885,7 @@ GetUnit
 eCSSUnit_None
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 head
 -
@@ -37929,7 +37925,7 @@ break
 }
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -38540,7 +38536,7 @@ mPresContext
 canStoreInRuleTree
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 cY
 =
@@ -38557,7 +38553,7 @@ other
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 cX
 =
@@ -40911,7 +40907,7 @@ sync
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 specified
 .
@@ -40971,7 +40967,7 @@ GetUnit
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 axis
 =
@@ -41015,7 +41011,7 @@ aSpecifiedValue
 >
 mXValue
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 widthValue
 .
@@ -41059,7 +41055,7 @@ handled
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 widthValue
 .
@@ -41303,7 +41299,7 @@ eLengthPercentage
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 specified
 .
@@ -41415,7 +41411,7 @@ eLengthPercentage
 ;
 }
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 size
 .
@@ -41435,7 +41431,7 @@ type
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 size
 .
@@ -41455,7 +41451,7 @@ type
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 size
@@ -44303,7 +44299,7 @@ GetUnit
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_None
 !
@@ -44680,7 +44676,7 @@ break
 }
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -46389,7 +46385,7 @@ GetUnit
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_None
 !
@@ -47346,7 +47342,7 @@ break
 }
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -51179,7 +51175,7 @@ case
 eCSSUnit_Enumerated
 :
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 contentValue
 -
@@ -51773,7 +51769,7 @@ GetPairListValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 ourIncrement
 -
@@ -51906,7 +51902,7 @@ break
 }
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -52069,7 +52065,7 @@ GetPairListValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 ourReset
 -
@@ -52202,7 +52198,7 @@ break
 }
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -52524,7 +52520,7 @@ while
 ourQuotes
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 ourQuotes
 -
@@ -52604,7 +52600,7 @@ break
 }
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -53596,7 +53592,7 @@ ValueForColumnRuleStyle
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_None
 !
@@ -54257,7 +54253,7 @@ NS_RGBA
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 pair
 .
@@ -54300,7 +54296,7 @@ aCanStoreInRuleTree
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -55515,7 +55511,7 @@ break
 case
 eCSSUnit_Enumerated
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 strokeDasharrayValue
 -
@@ -55769,7 +55765,7 @@ break
 }
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -56064,7 +56060,7 @@ GetUnit
 case
 eCSSUnit_Enumerated
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 strokeWidthValue
 -
@@ -56274,7 +56270,7 @@ bool
 aCanStoreInRuleTree
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 -
@@ -56412,7 +56408,7 @@ functionName
 eCSSKeyword_polygon
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 basicShape
@@ -56435,7 +56431,7 @@ nsStyleBasicShape
 ePolygon
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 shapeFunction
 -
@@ -56580,7 +56576,7 @@ AppendElement
 xCoord
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 didSetCoordX
 "
@@ -56620,7 +56616,7 @@ AppendElement
 yCoord
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 didSetCoordY
 "
@@ -56676,7 +56672,7 @@ nsStyleBasicShape
 :
 eEllipse
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 basicShape
@@ -56723,7 +56719,7 @@ eCircle
 :
 3
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 shapeFunction
 -
@@ -56743,7 +56739,7 @@ count
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 type
 =
@@ -56862,7 +56858,7 @@ aPresContext
 aCanStoreInRuleTree
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 didSetRadius
 "
@@ -56938,7 +56934,7 @@ aCanStoreInRuleTree
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 positionVal
 .
@@ -56966,7 +56962,7 @@ functionName
 eCSSKeyword_inset
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 basicShape
@@ -56989,7 +56985,7 @@ nsStyleBasicShape
 eInset
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 shapeFunction
 -
@@ -57011,7 +57007,7 @@ arguments
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 shapeFunction
 -
@@ -57134,7 +57130,7 @@ coords
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 j
 !
@@ -57178,7 +57174,7 @@ aPresContext
 aCanStoreInRuleTree
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 didSetInset
 "
@@ -57308,7 +57304,7 @@ aPresContext
 aCanStoreInRuleTree
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 didSetRadii
 "
@@ -57338,7 +57334,7 @@ coordY
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 shapeFunction
 -
@@ -57601,7 +57597,7 @@ return
 true
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 unit
 =
@@ -57668,7 +57664,7 @@ kFilterFunctionKTable
 type
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 foundKeyword
 "
@@ -57760,7 +57756,7 @@ mask
 SETCOORD_ANGLE
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 filterFunction
 -
@@ -57777,8 +57773,6 @@ filter
 functions
 should
 have
-"
-"
 exactly
 one
 argument
@@ -57828,7 +57822,7 @@ filterParameter
 type
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 didSetCoord
 "
@@ -58552,7 +58546,7 @@ Clear
 break
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 styleFilter
 .
@@ -58991,7 +58985,7 @@ aSID
 aContext
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 data
 "
@@ -59180,7 +59174,7 @@ aContext
 ;
 \
 \
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 data
 "

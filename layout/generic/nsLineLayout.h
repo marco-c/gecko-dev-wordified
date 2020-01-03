@@ -1109,7 +1109,7 @@ in
 that
 case
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mBlockRS
 "
@@ -1118,8 +1118,6 @@ not
 call
 this
 method
-"
-"
 if
 there
 is
@@ -1127,6 +1125,8 @@ no
 block
 reflow
 state
+"
+"
 available
 "
 )
