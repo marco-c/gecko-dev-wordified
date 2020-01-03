@@ -1257,10 +1257,6 @@ surface
 ;
 }
 data
-.
-get
-(
-)
 -
 >
 AddRef
