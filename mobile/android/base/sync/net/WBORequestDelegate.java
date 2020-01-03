@@ -99,12 +99,4 @@ implements
 SyncStorageRequestDelegate
 KeyBundleProvider
 {
-Override
-public
-abstract
-KeyBundle
-keyBundle
-(
-)
-;
 }
