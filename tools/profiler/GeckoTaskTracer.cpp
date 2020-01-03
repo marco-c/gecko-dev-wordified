@@ -599,7 +599,11 @@ default
 :
 MOZ_CRASH
 (
-false
+"
+Unknown
+SourceEvent
+.
+"
 )
 ;
 }
