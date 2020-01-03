@@ -1580,13 +1580,13 @@ mLog
 define
 FLB_LOG_PAINTED_LAYER_DECISION
 (
-tld
+pld
 .
 .
 .
 )
 \
-tld
+pld
 -
 >
 mLog
@@ -1606,7 +1606,7 @@ t
 )
 ;
 \
-tld
+pld
 -
 >
 mLog
@@ -1836,7 +1836,7 @@ regions
 %
 p
 against
-tld
+pld
 =
 %
 p
@@ -13465,7 +13465,7 @@ data
 Selecting
 layer
 for
-tld
+pld
 =
 %
 p
@@ -15411,7 +15411,7 @@ f
 %
 p
 against
-tld
+pld
 =
 %
 p
