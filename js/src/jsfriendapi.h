@@ -569,6 +569,11 @@ script
 jsbytecode
 *
 pc
+unsigned
+*
+columnp
+=
+nullptr
 )
 ;
 /

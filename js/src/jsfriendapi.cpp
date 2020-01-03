@@ -3220,6 +3220,9 @@ script
 jsbytecode
 *
 pc
+unsigned
+*
+columnp
 )
 {
 return
@@ -3227,6 +3230,7 @@ PCToLineNumber
 (
 script
 pc
+columnp
 )
 ;
 }
