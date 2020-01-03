@@ -1040,6 +1040,15 @@ value
 MOZ_OVERRIDE
 ;
 NS_IMETHOD
+IsPrivateResponse
+(
+bool
+*
+value
+)
+MOZ_OVERRIDE
+;
+NS_IMETHOD
 GetResponseStatus
 (
 uint32_t
