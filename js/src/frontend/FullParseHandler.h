@@ -1425,7 +1425,7 @@ right
 }
 ParseNode
 *
-newBinaryOrAppend
+appendOrCreateList
 (
 ParseNodeKind
 kind
@@ -1451,7 +1451,7 @@ return
 ParseNode
 :
 :
-newBinaryOrAppend
+appendOrCreateList
 (
 kind
 op
@@ -3685,12 +3685,11 @@ op
 )
 {
 return
-newBinaryOrAppend
+newBinary
 (
 kind
 lhs
 rhs
-pc
 op
 )
 ;

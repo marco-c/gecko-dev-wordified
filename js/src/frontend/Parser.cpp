@@ -25654,12 +25654,11 @@ pn2
 =
 handler
 .
-newBinaryOrAppend
+newBinary
 (
 PNK_ASSIGN
 pn2
 init
-pc
 )
 ;
 if
@@ -38917,7 +38916,7 @@ pn
 =
 handler
 .
-newBinaryOrAppend
+appendOrCreateList
 (
 combiningPnk
 nodeStack
