@@ -559,7 +559,7 @@ null
 __
 (
 "
-incoming_call
+incoming_call_title2
 "
 )
 )
@@ -2467,7 +2467,7 @@ mozL10n
 get
 (
 "
-incoming_call_title
+incoming_call_title2
 "
 )
 ;
