@@ -590,7 +590,7 @@ of
 /
 /
 the
-GMPdecryptor
+GMPDecryptor
 .
 /
 /
