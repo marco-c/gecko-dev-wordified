@@ -2816,6 +2816,7 @@ if
 (
 image
 )
+{
 imageToReturn
 =
 do_QueryInterface
@@ -2823,6 +2824,7 @@ do_QueryInterface
 image
 )
 ;
+}
 if
 (
 !
@@ -2833,6 +2835,7 @@ GetOwner
 (
 )
 )
+{
 imageToReturn
 =
 GetOwner
@@ -2840,16 +2843,21 @@ GetOwner
 )
 -
 >
-mImage
+GetImage
+(
+)
 ;
+}
 if
 (
 !
 imageToReturn
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 imageToReturn
 .
 swap
