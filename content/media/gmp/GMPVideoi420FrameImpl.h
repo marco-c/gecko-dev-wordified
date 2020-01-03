@@ -197,6 +197,16 @@ GMPVideoi420FrameImpl
 (
 )
 ;
+static
+bool
+CheckFrameData
+(
+const
+GMPVideoi420FrameData
+&
+aFrameData
+)
+;
 bool
 InitFrameData
 (
