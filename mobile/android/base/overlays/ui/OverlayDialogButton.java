@@ -402,6 +402,13 @@ context
 attrs
 )
 ;
+setOrientation
+(
+LinearLayout
+.
+HORIZONTAL
+)
+;
 LayoutInflater
 .
 from
