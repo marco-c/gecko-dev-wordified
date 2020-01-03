@@ -268,11 +268,11 @@ blueFactor
 )
 ;
 uint8x8_t
-zeroVector
+fullBitVector
 =
 vdup_n_u8
 (
-0
+255
 )
 ;
 uint8x8_t
@@ -425,7 +425,7 @@ value
 uint8x8_t
 alphaVector
 =
-vcgt_u8
+vtst_u8
 (
 argb
 .
@@ -433,7 +433,7 @@ val
 [
 GFX_ARGB32_OFFSET_A
 ]
-zeroVector
+fullBitVector
 )
 ;
 gray
