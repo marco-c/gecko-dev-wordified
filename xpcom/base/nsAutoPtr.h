@@ -430,7 +430,7 @@ private
 :
 T
 *
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 mPtr
 ;
 }
@@ -439,7 +439,7 @@ private
 :
 T
 *
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 mRawPtr
 ;
 public
@@ -2470,7 +2470,7 @@ private
 :
 T
 *
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 mRawPtr
 ;
 public
@@ -4346,7 +4346,7 @@ private
 :
 T
 *
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 mRawPtr
 ;
 }
@@ -4437,7 +4437,7 @@ private
 :
 T
 *
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 mRawPtr
 ;
 nsresult

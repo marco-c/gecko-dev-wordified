@@ -3682,7 +3682,7 @@ the
 function
 .
 *
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 :
 Applies
 to
@@ -3734,7 +3734,7 @@ pointers
 otherwise
 .
 *
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 :
 Applies
 to
@@ -3929,7 +3929,7 @@ moz_no_arith_expr_in_arg
 )
 #
 define
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 __attribute__
 (
 (
@@ -3943,7 +3943,7 @@ moz_strong_ref
 )
 #
 define
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 __attribute__
 (
 (
@@ -4124,7 +4124,7 @@ nothing
 /
 #
 define
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 /
 *
 nothing
@@ -4132,7 +4132,7 @@ nothing
 /
 #
 define
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 /
 *
 nothing

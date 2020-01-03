@@ -964,7 +964,7 @@ nullptr
 }
 T
 *
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 mPtr
 ;
 }

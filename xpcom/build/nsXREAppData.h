@@ -237,7 +237,7 @@ directory
 /
 nsIFile
 *
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 directory
 ;
 /
@@ -679,7 +679,7 @@ programatically
 /
 nsIFile
 *
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 xreDirectory
 ;
 /
