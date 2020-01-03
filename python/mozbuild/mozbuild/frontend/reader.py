@@ -3170,6 +3170,9 @@ exec_source
 (
 code
 path
+becomes_current_path
+=
+False
 )
             
 #
