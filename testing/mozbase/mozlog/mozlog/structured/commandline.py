@@ -580,6 +580,23 @@ in
 formatters
 :
                 
+#
+make
+sure
+fmt
+wasn
+'
+t
+removed
+from
+log_formatters
+                
+if
+fmt
+in
+log_formatters
+:
+                    
 group
 .
 add_option
@@ -603,7 +620,7 @@ optname
 action
 =
 action
-                                 
+                                     
 help
 =
 help_str
@@ -695,6 +712,23 @@ in
 formatters
 :
                 
+#
+make
+sure
+fmt
+wasn
+'
+t
+removed
+from
+log_formatters
+                
+if
+fmt
+in
+log_formatters
+:
+                    
 group
 .
 add_argument
@@ -718,7 +752,7 @@ optname
 action
 =
 action
-                                   
+                                       
 help
 =
 help_str
