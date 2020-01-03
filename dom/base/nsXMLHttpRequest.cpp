@@ -19125,7 +19125,12 @@ true
 ;
 MaybeDispatchProgressEvents
 (
-false
+(
+mUploadTransferred
+=
+=
+mUploadTotal
+)
 )
 ;
 }

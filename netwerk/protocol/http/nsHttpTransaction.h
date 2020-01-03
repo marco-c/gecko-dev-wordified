@@ -1994,6 +1994,9 @@ mContentDecoding
 bool
 mContentDecodingCheck
 ;
+bool
+mDeferredSendProgress
+;
 /
 /
 mClosed
