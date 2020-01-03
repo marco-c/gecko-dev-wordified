@@ -26789,7 +26789,7 @@ If
 IonScript
 :
 :
-refcount
+invalidationCount_
 !
 =
 0
@@ -26813,7 +26813,7 @@ temp
 IonScript
 :
 :
-offsetOfRefcount
+offsetOfInvalidationCount
 (
 )
 )
