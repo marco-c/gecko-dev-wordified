@@ -7256,6 +7256,16 @@ byteLength
 (
 )
 ;
+bool
+hasStealableContents
+=
+arrayBuffer
+-
+>
+hasStealableContents
+(
+)
+;
 ArrayBufferObject
 :
 :
@@ -7271,6 +7281,7 @@ context
 (
 )
 arrayBuffer
+hasStealableContents
 )
 ;
 if
