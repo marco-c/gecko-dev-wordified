@@ -610,6 +610,13 @@ if
 (
 autoLock
 .
+HasImage
+(
+)
+&
+&
+autoLock
+.
 GetImage
 (
 )
@@ -643,7 +650,7 @@ mImageClientTypeContainer
 =
 autoLock
 .
-GetImage
+HasImage
 (
 )
 ?
