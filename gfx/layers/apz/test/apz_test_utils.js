@@ -978,7 +978,7 @@ paint
 if
 (
 "
-isRootForLayersId
+hasNoParentWithSameLayersId
 "
 in
 paint
