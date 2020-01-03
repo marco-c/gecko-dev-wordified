@@ -7,6 +7,7 @@ skip
 -
 if
 (
+(
 xulRuntime
 .
 OS
@@ -15,6 +16,10 @@ OS
 "
 Darwin
 "
+|
+|
+Android
+)
 &
 &
 isDebugBuild
