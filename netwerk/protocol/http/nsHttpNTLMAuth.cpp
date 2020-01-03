@@ -254,6 +254,13 @@ XP_WIN
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsIX509Cert
 .
 h
