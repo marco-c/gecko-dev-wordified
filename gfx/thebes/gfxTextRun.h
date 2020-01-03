@@ -5057,8 +5057,6 @@ aRefContext
 PropertyProvider
 *
 aProvider
-uint16_t
-aOrientation
 Metrics
 *
 aMetrics
@@ -5101,8 +5099,6 @@ uint32_t
 aSpacingStart
 uint32_t
 aSpacingEnd
-uint16_t
-aOrientation
 Metrics
 *
 aMetrics
