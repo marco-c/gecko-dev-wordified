@@ -389,7 +389,7 @@ window
 |
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 window
 )
