@@ -1384,7 +1384,7 @@ mousewheel
 EVENT
 (
 pause
-NS_PAUSE
+ePause
 EventNameType_HTML
 eBasicEventClass
 )
