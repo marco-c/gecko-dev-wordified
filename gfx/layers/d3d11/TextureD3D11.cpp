@@ -2675,6 +2675,14 @@ TextureHost
 (
 aFlags
 )
+mSize
+(
+aDescriptor
+.
+size
+(
+)
+)
 mHandle
 (
 aDescriptor
@@ -2696,10 +2704,6 @@ mIsLocked
 false
 )
 {
-OpenSharedHandle
-(
-)
-;
 }
 bool
 DXGITextureHostD3D11
