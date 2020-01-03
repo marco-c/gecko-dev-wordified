@@ -3201,7 +3201,7 @@ i
 .
 mSubsamples
 =
-nullptr
+NULL
 ;
 }
 uint64_t
