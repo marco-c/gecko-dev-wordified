@@ -72,6 +72,8 @@ communicate
 with
 devtools
 /
+toolkit
+/
 shared
 /
 worker
@@ -109,6 +111,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /

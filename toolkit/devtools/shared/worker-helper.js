@@ -93,6 +93,8 @@ back
 to
 devtools
 /
+toolkit
+/
 shared
 /
 worker

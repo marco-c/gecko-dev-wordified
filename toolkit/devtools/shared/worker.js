@@ -324,6 +324,8 @@ provided
 by
 devtools
 /
+toolkit
+/
 shared
 /
 worker
@@ -692,13 +694,15 @@ resolution
 see
 .
 /
-browser
+toolkit
 /
 devtools
 /
 shared
 /
-test
+tests
+/
+browser
 /
 browser_devtools
 -
@@ -1044,6 +1048,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /

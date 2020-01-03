@@ -163,6 +163,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -189,12 +190,12 @@ CommonJS
 )
 =
 >
-devtools
-.
 require
 (
 "
 devtools
+/
+toolkit
 /
 shared
 /
