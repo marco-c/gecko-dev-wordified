@@ -2117,7 +2117,6 @@ __func__
 ;
 ContinueShutdown
 (
-true
 )
 ;
 return
@@ -2130,15 +2129,8 @@ MediaSourceReader
 :
 ContinueShutdown
 (
-bool
-aSuccess
 )
 {
-MOZ_ASSERT
-(
-aSuccess
-)
-;
 if
 (
 mTrackBuffers
