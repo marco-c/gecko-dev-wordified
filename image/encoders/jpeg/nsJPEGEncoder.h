@@ -91,6 +91,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_image_encoders_jpeg_nsJPEGEncoder_h
+#
+define
+mozilla_image_encoders_jpeg_nsJPEGEncoder_h
+#
 include
 "
 imgIEncoder
@@ -419,3 +425,8 @@ mReentrantMonitor
 ;
 }
 ;
+#
+endif
+/
+/
+mozilla_image_encoders_jpeg_nsJPEGEncoder_h

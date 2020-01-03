@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_image_encoders_ico_nsICOEncoder_h
+#
+define
+mozilla_image_encoders_ico_nsICOEncoder_h
+#
 include
 "
 mozilla
@@ -574,3 +580,8 @@ mNotifyThreshold
 ;
 }
 ;
+#
+endif
+/
+/
+mozilla_image_encoders_ico_nsICOEncoder_h
