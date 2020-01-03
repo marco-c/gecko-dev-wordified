@@ -5903,3 +5903,6 @@ return
 true
 ;
 }
+#
+undef
+snprintf
