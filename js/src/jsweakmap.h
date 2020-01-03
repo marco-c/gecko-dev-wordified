@@ -174,6 +174,9 @@ h
 namespace
 js
 {
+class
+WeakMapBase
+;
 /
 /
 A
