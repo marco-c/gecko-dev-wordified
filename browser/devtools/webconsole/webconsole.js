@@ -24275,6 +24275,12 @@ clearMessagesCache
 }
 this
 .
+_sidebarDestroy
+(
+)
+;
+this
+.
 emit
 (
 "
