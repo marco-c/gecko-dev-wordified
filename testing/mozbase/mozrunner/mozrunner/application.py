@@ -400,7 +400,7 @@ local
 /
 storage
 /
-persistent
+permanent
 /
 chrome
 /
