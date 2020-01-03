@@ -730,7 +730,7 @@ const
 char
 *
 fnName
-MutableHandleSavedFrame
+MutableHandleObject
 frame
 )
 ;
