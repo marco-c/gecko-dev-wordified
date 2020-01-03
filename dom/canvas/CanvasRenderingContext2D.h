@@ -265,9 +265,6 @@ gl
 class
 SourceSurface
 ;
-class
-SurfaceStream
-;
 }
 namespace
 dom
@@ -4459,15 +4456,6 @@ gfx
 DrawTarget
 >
 mTarget
-;
-RefPtr
-<
-gl
-:
-:
-SurfaceStream
->
-mStream
 ;
 /
 *

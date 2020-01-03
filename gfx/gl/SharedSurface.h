@@ -1105,6 +1105,10 @@ const
 MOZ_ASSERT
 (
 mSurf
+.
+get
+(
+)
 )
 ;
 return

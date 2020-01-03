@@ -198,17 +198,6 @@ namespace
 mozilla
 {
 namespace
-gl
-{
-class
-SurfaceStream
-;
-}
-}
-namespace
-mozilla
-{
-namespace
 layers
 {
 class

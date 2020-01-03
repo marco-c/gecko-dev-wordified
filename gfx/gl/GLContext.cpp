@@ -241,13 +241,6 @@ h
 #
 include
 "
-SurfaceStream
-.
-h
-"
-#
-include
-"
 GfxTexturesReporter
 .
 h

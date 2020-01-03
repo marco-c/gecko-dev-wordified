@@ -105,13 +105,6 @@ etc
 #
 include
 "
-SurfaceStream
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions

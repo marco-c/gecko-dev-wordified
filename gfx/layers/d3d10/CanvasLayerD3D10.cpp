@@ -126,13 +126,6 @@ h
 #
 include
 "
-SurfaceStream
-.
-h
-"
-#
-include
-"
 SharedSurfaceANGLE
 .
 h

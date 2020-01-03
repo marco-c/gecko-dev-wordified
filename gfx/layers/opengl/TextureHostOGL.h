@@ -448,13 +448,6 @@ DataSourceSurface
 ;
 }
 namespace
-gl
-{
-class
-SurfaceStream
-;
-}
-namespace
 layers
 {
 class
