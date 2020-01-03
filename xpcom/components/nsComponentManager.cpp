@@ -5815,16 +5815,10 @@ NS_ERROR_INVALID_ARG
 nsresult
 rv
 ;
-if
-(
-PR_LOG_TEST
+PR_LOG
 (
 nsComponentManagerLog
 PR_LOG_DEBUG
-)
-)
-{
-PR_LogPrint
 (
 "
 nsComponentManager
@@ -5837,8 +5831,8 @@ s
 "
 aContractID
 )
+)
 ;
-}
 nsCOMPtr
 <
 nsIFactory

@@ -3593,17 +3593,6 @@ mTimerCallbackWhileFiring
 =
 nullptr
 ;
-if
-(
-PR_LOG_TEST
-(
-GetTimerLog
-(
-)
-PR_LOG_DEBUG
-)
-)
-{
 PR_LOG
 (
 GetTimerLog
@@ -3646,7 +3635,6 @@ ToMilliseconds
 )
 )
 ;
-}
 /
 /
 Reschedule
