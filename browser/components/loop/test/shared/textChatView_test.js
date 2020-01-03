@@ -2768,11 +2768,6 @@ view
 =
 mountTestComponent
 (
-{
-showRoomName
-:
-true
-}
 )
 ;
 store
