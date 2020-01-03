@@ -1224,7 +1224,7 @@ dtlsRole
 )
 ;
 nsresult
-SetupTransportParams
+CopyPreviousTransportParams
 (
 const
 Sdp
@@ -1240,7 +1240,7 @@ newLocal
 )
 ;
 nsresult
-AddOfferMSections
+SetupOfferMSections
 (
 const
 JsepOfferOptions
@@ -1267,7 +1267,7 @@ index
 to
 tracks
 nsresult
-AddOfferMSectionsByType
+SetupOfferMSectionsByType
 (
 SdpMediaSection
 :
@@ -1356,7 +1356,7 @@ sdp
 )
 ;
 nsresult
-CreateReoffer
+AddReofferMsections
 (
 const
 Sdp
@@ -1581,18 +1581,6 @@ BundledMids
 *
 bundledMids
 )
-;
-void
-DisableMsection
-(
-Sdp
-*
-sdp
-SdpMediaSection
-*
-msection
-)
-const
 ;
 nsresult
 EnableOfferMsection
