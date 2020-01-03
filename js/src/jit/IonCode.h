@@ -617,6 +617,12 @@ fop
 )
 ;
 void
+fixupAfterMovingGC
+(
+)
+{
+}
+void
 setInvalidated
 (
 )
