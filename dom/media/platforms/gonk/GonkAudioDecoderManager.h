@@ -272,11 +272,9 @@ ReleaseAudioBuffer
 (
 )
 ;
-const
 uint32_t
 mAudioChannels
 ;
-const
 uint32_t
 mAudioRate
 ;
