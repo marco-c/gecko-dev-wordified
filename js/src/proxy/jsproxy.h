@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsproxy_h
+proxy_jsproxy_h
 #
 define
-jsproxy_h
+proxy_jsproxy_h
 #
 include
 "
