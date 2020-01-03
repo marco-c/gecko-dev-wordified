@@ -1436,17 +1436,6 @@ IPCAccessibilityActive
 (
 )
 {
-/
-/
-XXX
-reenable
-when
-crashes
-are
-fixed
-return
-false
-;
 #
 ifdef
 MOZ_B2G
