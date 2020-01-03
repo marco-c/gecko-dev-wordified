@@ -9641,6 +9641,10 @@ MochitestUtilsMixin
 )
 :
     
+_active_tests
+=
+None
+    
 certdbNew
 =
 False
@@ -14126,6 +14130,17 @@ tests
 "
 "
         
+if
+self
+.
+_active_tests
+:
+            
+return
+self
+.
+_active_tests
+        
 self
 .
 setTestRoot
@@ -15017,8 +15032,16 @@ sort
 path_sort
 )
         
-return
+self
+.
+_active_tests
+=
 paths
+        
+return
+self
+.
+_active_tests
     
 def
 logPreamble
@@ -15223,6 +15246,7 @@ runMochitests
 (
 self
 options
+testsToRun
 onLaunch
 =
 None
@@ -15250,15 +15274,6 @@ bisect
 chunk
 .
 "
-        
-testsToRun
-=
-self
-.
-getTestsToRun
-(
-options
-)
         
 #
 Making
@@ -15593,6 +15608,15 @@ runByDir
 =
 True
         
+testsToRun
+=
+self
+.
+getTestsToRun
+(
+options
+)
+        
 if
 not
 options
@@ -15606,6 +15630,7 @@ self
 runMochitests
 (
 options
+testsToRun
 onLaunch
 )
         
@@ -15652,7 +15677,7 @@ options
 )
         
 for
-dir
+d
 in
 dirs
 :
@@ -15665,29 +15690,38 @@ inputTestPath
 .
 startswith
 (
-dir
+d
 )
 :
                 
 continue
             
-options
-.
-testPath
-=
-dir
-            
 print
 "
-testpath
+dir
 :
 %
 s
 "
 %
-options
+d
+            
+tests_in_dir
+=
+[
+t
+for
+t
+in
+testsToRun
+if
+t
 .
-testPath
+startswith
+(
+d
+)
+]
             
 #
 If
@@ -15753,6 +15787,7 @@ self
 runMochitests
 (
 options
+tests_in_dir
 onLaunch
 )
             
@@ -19200,7 +19235,6 @@ self
 getActiveTests
 (
 options
-False
 )
         
 dirlist
@@ -19213,6 +19247,16 @@ test
 in
 tests
 :
+            
+if
+'
+disabled
+'
+in
+test
+:
+                
+continue
             
 rootdir
 =
