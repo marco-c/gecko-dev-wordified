@@ -377,6 +377,9 @@ nsAString
 aUrl
 uint16_t
 aStatus
+ErrorResult
+&
+aRv
 )
 ;
 static
