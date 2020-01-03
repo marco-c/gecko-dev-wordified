@@ -59,12 +59,12 @@ the
 functionality
 of
 the
-BreakpointStore
+BreakpointActorMap
 object
 .
 const
 {
-BreakpointStore
+BreakpointActorMap
 ThreadActor
 }
 =
@@ -112,29 +112,29 @@ addDebuggerToGlobal
 this
 )
 ;
-test_get_breakpoint
+test_get_actor
 (
 )
 ;
-test_add_breakpoint
+test_set_actor
 (
 )
 ;
-test_remove_breakpoint
+test_delete_actor
 (
 )
 ;
-test_find_breakpoints
+test_find_actors
 (
 )
 ;
-test_duplicate_breakpoints
+test_duplicate_actors
 (
 )
 ;
 }
 function
-test_get_breakpoint
+test_get_actor
 (
 )
 {
@@ -142,7 +142,7 @@ let
 bpStore
 =
 new
-BreakpointStore
+BreakpointActorMap
 (
 )
 ;
@@ -197,7 +197,7 @@ do_check_eq
 null
 bpStore
 .
-getBreakpoint
+getActor
 (
 location
 )
@@ -216,7 +216,7 @@ exist
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 location
 {
@@ -229,7 +229,7 @@ do_check_true
 !
 bpStore
 .
-getBreakpoint
+getActor
 (
 location
 )
@@ -248,7 +248,7 @@ Store
 ;
 bpStore
 .
-removeBreakpoint
+deleteActor
 (
 location
 )
@@ -258,7 +258,7 @@ do_check_eq
 null
 bpStore
 .
-getBreakpoint
+getActor
 (
 location
 )
@@ -286,7 +286,7 @@ do_check_eq
 null
 bpStore
 .
-getBreakpoint
+getActor
 (
 columnLocation
 )
@@ -307,7 +307,7 @@ exist
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 columnLocation
 {
@@ -320,7 +320,7 @@ do_check_true
 !
 bpStore
 .
-getBreakpoint
+getActor
 (
 columnLocation
 )
@@ -341,7 +341,7 @@ Store
 ;
 bpStore
 .
-removeBreakpoint
+deleteActor
 (
 columnLocation
 )
@@ -351,7 +351,7 @@ do_check_eq
 null
 bpStore
 .
-getBreakpoint
+getActor
 (
 columnLocation
 )
@@ -372,7 +372,7 @@ Store
 ;
 }
 function
-test_add_breakpoint
+test_set_actor
 (
 )
 {
@@ -385,7 +385,7 @@ let
 bpStore
 =
 new
-BreakpointStore
+BreakpointActorMap
 (
 )
 ;
@@ -412,7 +412,7 @@ column
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 location
 {
@@ -425,7 +425,7 @@ do_check_true
 !
 bpStore
 .
-getBreakpoint
+getActor
 (
 location
 )
@@ -471,7 +471,7 @@ line
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 location
 {
@@ -484,7 +484,7 @@ do_check_true
 !
 bpStore
 .
-getBreakpoint
+getActor
 (
 location
 )
@@ -504,7 +504,7 @@ added
 ;
 }
 function
-test_remove_breakpoint
+test_delete_actor
 (
 )
 {
@@ -517,7 +517,7 @@ let
 bpStore
 =
 new
-BreakpointStore
+BreakpointActorMap
 (
 )
 ;
@@ -544,7 +544,7 @@ column
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 location
 {
@@ -553,7 +553,7 @@ location
 ;
 bpStore
 .
-removeBreakpoint
+deleteActor
 (
 location
 )
@@ -562,7 +562,7 @@ do_check_eq
 (
 bpStore
 .
-getBreakpoint
+getActor
 (
 location
 )
@@ -608,7 +608,7 @@ line
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 location
 {
@@ -617,7 +617,7 @@ location
 ;
 bpStore
 .
-removeBreakpoint
+deleteActor
 (
 location
 )
@@ -626,7 +626,7 @@ do_check_eq
 (
 bpStore
 .
-getBreakpoint
+getActor
 (
 location
 )
@@ -646,7 +646,7 @@ anymore
 ;
 }
 function
-test_find_breakpoints
+test_find_actors
 (
 )
 {
@@ -793,7 +793,7 @@ let
 bpStore
 =
 new
-BreakpointStore
+BreakpointActorMap
 (
 )
 ;
@@ -807,7 +807,7 @@ bps
 {
 bpStore
 .
-addBreakpoint
+setActor
 (
 bp
 bp
@@ -833,7 +833,7 @@ bp
 of
 bpStore
 .
-findBreakpoints
+findActors
 (
 )
 )
@@ -904,7 +904,7 @@ bp
 of
 bpStore
 .
-findBreakpoints
+findActors
 (
 {
 source
@@ -1004,7 +1004,7 @@ bp
 of
 bpStore
 .
-findBreakpoints
+findActors
 (
 {
 source
@@ -1108,7 +1108,7 @@ line
 ;
 }
 function
-test_duplicate_breakpoints
+test_duplicate_actors
 (
 )
 {
@@ -1116,7 +1116,7 @@ let
 bpStore
 =
 new
-BreakpointStore
+BreakpointActorMap
 (
 )
 ;
@@ -1150,7 +1150,7 @@ column
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 location
 {
@@ -1159,7 +1159,7 @@ location
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 location
 {
@@ -1185,7 +1185,7 @@ breakpoint
 ;
 bpStore
 .
-removeBreakpoint
+deleteActor
 (
 location
 )
@@ -1221,7 +1221,7 @@ line
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 location
 {
@@ -1230,7 +1230,7 @@ location
 ;
 bpStore
 .
-addBreakpoint
+setActor
 (
 location
 {
@@ -1257,7 +1257,7 @@ breakpoint
 ;
 bpStore
 .
-removeBreakpoint
+deleteActor
 (
 location
 )
