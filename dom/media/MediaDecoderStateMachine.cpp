@@ -15603,10 +15603,6 @@ update
 the
 readyState
 .
-MaybeStartPlayback
-(
-)
-;
 if
 (
 VideoQueue
@@ -15657,6 +15653,10 @@ the
 remaining
 media
 .
+MaybeStartPlayback
+(
+)
+;
 UpdateRenderedVideoFrames
 (
 )
