@@ -173,6 +173,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 vm
 /
 Debugger
@@ -495,6 +504,7 @@ HandleLookup
 {
 public
 :
+MOZ_IMPLICIT
 HandleLookup
 (
 SavedFrame

@@ -1400,6 +1400,7 @@ LinkedListElement
 AllocationSite
 >
 {
+explicit
 AllocationSite
 (
 HandleObject

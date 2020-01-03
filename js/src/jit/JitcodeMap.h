@@ -1674,6 +1674,7 @@ init
 )
 ;
 }
+explicit
 JitcodeGlobalEntry
 (
 const
@@ -1687,6 +1688,7 @@ ion_
 ion
 ;
 }
+explicit
 JitcodeGlobalEntry
 (
 const
@@ -1700,6 +1702,7 @@ baseline_
 baseline
 ;
 }
+explicit
 JitcodeGlobalEntry
 (
 const
@@ -1713,6 +1716,7 @@ ionCache_
 ionCache
 ;
 }
+explicit
 JitcodeGlobalEntry
 (
 const
@@ -4841,6 +4845,7 @@ this
 }
 public
 :
+explicit
 JitcodeIonTable
 (
 uint32_t

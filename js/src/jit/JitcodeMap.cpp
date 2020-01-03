@@ -2402,6 +2402,7 @@ DumpMaxBytes
 =
 50
 ;
+explicit
 JitcodeMapBufferWriteSpewer
 (
 CompactBufferWriter
