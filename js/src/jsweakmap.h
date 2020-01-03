@@ -2051,9 +2051,8 @@ value
 tracer
 -
 >
-callback
+trace
 (
-tracer
 memberOf
 JS
 :
