@@ -1047,6 +1047,11 @@ status
 308
 ;
 }
+}
+/
+/
+unnamed
+namespace
 /
 /
 We
@@ -1106,11 +1111,6 @@ Location
 )
 ;
 }
-}
-/
-/
-unnamed
-namespace
 nsresult
 StoreAuthorizationMetaData
 (
