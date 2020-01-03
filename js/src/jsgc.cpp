@@ -12071,6 +12071,17 @@ nullptr
 ;
 MOZ_ASSERT
 (
+!
+maybeLock
+-
+>
+wasUnlocked
+(
+)
+)
+;
+MOZ_ASSERT
+(
 al
 .
 isCursorAtEnd
@@ -19870,12 +19881,6 @@ non
 -
 incrementally
 .
-AutoUnlockGC
-unlock
-(
-rt
-)
-;
 triggerZoneGC
 (
 zone
@@ -19999,12 +20004,6 @@ the
 event
 loop
 .
-AutoUnlockGC
-unlock
-(
-rt
-)
-;
 triggerZoneGC
 (
 zone
@@ -20715,7 +20714,6 @@ GCRuntime
 :
 decommitArenas
 (
-const
 AutoLockGC
 &
 lock
@@ -21040,7 +21038,7 @@ ok
 AutoUnlockGC
 unlock
 (
-rt
+lock
 )
 ;
 ok
@@ -21128,7 +21126,6 @@ expireChunksAndArenas
 (
 bool
 shouldShrink
-const
 AutoLockGC
 &
 lock
@@ -21164,7 +21161,7 @@ lock
 AutoUnlockGC
 unlock
 (
-rt
+lock
 )
 ;
 freeChunkList
@@ -21992,7 +21989,7 @@ chunk
 AutoUnlockGC
 unlock
 (
-runtime
+lock
 )
 ;
 chunk
@@ -22211,7 +22208,6 @@ GCHelperState
 :
 doSweep
 (
-const
 AutoLockGC
 &
 lock
@@ -22229,7 +22225,7 @@ false
 AutoUnlockGC
 unlock
 (
-rt
+lock
 )
 ;
 rt
