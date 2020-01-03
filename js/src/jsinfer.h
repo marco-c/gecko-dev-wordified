@@ -1862,10 +1862,8 @@ flags
 *
 /
 enum
-MOZ_ENUM_TYPE
-(
+:
 uint32_t
-)
 {
 TYPE_FLAG_UNDEFINED
 =
@@ -2161,10 +2159,8 @@ flags
 *
 /
 enum
-MOZ_ENUM_TYPE
-(
+:
 uint32_t
-)
 {
 /
 *

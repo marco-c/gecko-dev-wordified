@@ -1105,10 +1105,8 @@ uint8_t
 Notifications
 ;
 enum
-MOZ_ENUM_TYPE
-(
+:
 Notifications
-)
 {
 NOTIFY_NOTHING
 =
@@ -2659,10 +2657,8 @@ IMEMessageType
 ;
 enum
 IMEMessage
-MOZ_ENUM_TYPE
-(
+:
 IMEMessageType
-)
 {
 /
 /

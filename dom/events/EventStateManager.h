@@ -2613,10 +2613,8 @@ prefs
 /
 enum
 Action
-MOZ_ENUM_TYPE
-(
+:
 uint8_t
-)
 {
 ACTION_NONE
 =

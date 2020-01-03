@@ -7971,10 +7971,8 @@ children
 /
 enum
 TextContentDiscoverMode
-MOZ_ENUM_TYPE
-(
+:
 uint8_t
-)
 {
 eRecurseIntoChildren
 eDontRecurseIntoChildren
@@ -13134,10 +13132,8 @@ aInput
 ;
 enum
 AutocompleteAttrState
-MOZ_ENUM_TYPE
-(
+:
 uint8_t
-)
 {
 eAutocompleteAttrState_Unknown
 =

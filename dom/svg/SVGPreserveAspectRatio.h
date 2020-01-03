@@ -167,10 +167,8 @@ Alignment
 Types
 enum
 SVGAlign
-MOZ_ENUM_TYPE
-(
+:
 uint8_t
-)
 {
 SVG_PRESERVEASPECTRATIO_UNKNOWN
 =
@@ -256,10 +254,8 @@ slice
 Types
 enum
 SVGMeetOrSlice
-MOZ_ENUM_TYPE
-(
+:
 uint8_t
-)
 {
 SVG_MEETORSLICE_UNKNOWN
 =

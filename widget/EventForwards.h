@@ -205,10 +205,8 @@ EventClassIDType
 ;
 enum
 EventClassID
-MOZ_ENUM_TYPE
-(
+:
 EventClassIDType
-)
 {
 /
 /
@@ -421,10 +419,8 @@ CommandInt
 ;
 enum
 Command
-MOZ_ENUM_TYPE
-(
+:
 CommandInt
-)
 {
 CommandDoNothing
 #

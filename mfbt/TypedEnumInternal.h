@@ -261,9 +261,6 @@ cxx_strong_enums
 )
 #
 define
-MOZ_HAVE_CXX11_ENUM_TYPE
-#
-define
 MOZ_HAVE_CXX11_STRONG_ENUMS
 #
 endif
@@ -295,9 +292,6 @@ MOZ_GCC_VERSION_AT_LEAST
 )
 #
 define
-MOZ_HAVE_CXX11_ENUM_TYPE
-#
-define
 MOZ_HAVE_CXX11_STRONG_ENUMS
 #
 endif
@@ -309,9 +303,6 @@ defined
 (
 _MSC_VER
 )
-#
-define
-MOZ_HAVE_CXX11_ENUM_TYPE
 #
 define
 MOZ_HAVE_CXX11_STRONG_ENUMS

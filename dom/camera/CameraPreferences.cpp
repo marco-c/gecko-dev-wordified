@@ -266,9 +266,6 @@ nsIObserver
 ;
 #
 endif
-#
-ifdef
-CAMERAPREFERENCES_HAVE_SEPARATE_UINT32_AND_NSRESULT
 /
 *
 static
@@ -328,8 +325,6 @@ return
 rv
 ;
 }
-#
-endif
 /
 *
 static
@@ -780,9 +775,6 @@ mValueType
 case
 kPrefValueIsNsResult
 :
-#
-ifdef
-CAMERAPREFERENCES_HAVE_SEPARATE_UINT32_AND_NSRESULT
 {
 nsresult
 &
@@ -835,8 +827,6 @@ v
 }
 break
 ;
-#
-endif
 case
 kPrefValueIsUint32
 :
@@ -1787,9 +1777,6 @@ return
 true
 ;
 }
-#
-ifdef
-CAMERAPREFERENCES_HAVE_SEPARATE_UINT32_AND_NSRESULT
 /
 *
 static
@@ -1986,8 +1973,6 @@ return
 true
 ;
 }
-#
-endif
 /
 *
 static

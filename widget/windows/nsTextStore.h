@@ -2803,10 +2803,8 @@ MOZ_FINAL
 {
 enum
 ActionType
-MOZ_ENUM_TYPE
-(
+:
 uint8_t
-)
 {
 COMPOSITION_START
 COMPOSITION_UPDATE
@@ -3528,10 +3526,8 @@ the
 text
 .
 enum
-MOZ_ENUM_TYPE
-(
+:
 uint32_t
-)
 {
 NOT_MODIFIED
 =

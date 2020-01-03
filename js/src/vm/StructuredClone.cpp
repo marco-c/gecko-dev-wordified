@@ -613,10 +613,8 @@ structures
 .
 enum
 StructuredDataType
-MOZ_ENUM_TYPE
-(
+:
 uint32_t
-)
 {
 /
 *
