@@ -1417,6 +1417,10 @@ decoding
 if
 (
 !
+hadCompleteInitData
+|
+|
+!
 decoders
 .
 NewDecoder
@@ -1437,11 +1441,6 @@ return
 p
 ;
 }
-if
-(
-hadCompleteInitData
-)
-{
 MSE_DEBUG
 (
 "
@@ -1469,7 +1468,6 @@ oldInit
 0
 )
 ;
-}
 }
 mLastStartTimestamp
 =
