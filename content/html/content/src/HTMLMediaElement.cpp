@@ -2958,12 +2958,6 @@ HTMLMediaElement
 Src
 src
 )
-NS_IMPL_STRING_ATTR
-(
-HTMLMediaElement
-CrossOrigin
-crossorigin
-)
 NS_IMPL_BOOL_ATTR
 (
 HTMLMediaElement
