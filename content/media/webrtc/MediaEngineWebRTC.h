@@ -1140,6 +1140,13 @@ uint32_t
 aHeight
 )
 ;
+uint32_t
+ConvertPixexFormatToFOURCC
+(
+int
+aFormat
+)
+;
 void
 Notify
 (
