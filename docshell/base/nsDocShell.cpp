@@ -27106,7 +27106,7 @@ error
 AssignLiteral
 (
 "
-cspFrameAncestorBlocked
+cspBlocked
 "
 )
 ;
