@@ -152,10 +152,8 @@ specification
 signature
 :
 {
-sha256WithRSAEncryption
 sha1WithRSAEncryption
-            
-md5WithRSAEncryption
+sha256WithRSAEncryption
 ecdsaWithSHA256
 }
 ]
@@ -260,9 +258,6 @@ directoryName
 .
 .
 ]
-nsCertType
-:
-sslServer
 Where
 :
   
@@ -613,38 +608,6 @@ may
 not
 be
 used
-.
-If
-an
-extension
-name
-has
-'
-[
-critical
-]
-'
-after
-it
-it
-will
-be
-marked
-as
-critical
-.
-Otherwise
-(
-by
-default
-)
-it
-will
-not
-be
-marked
-as
-critical
 .
 "
 "
@@ -1379,52 +1342,6 @@ category
 =
 '
 DN
-'
-class
-UnknownNSCertTypeError
-(
-UnknownBaseError
-)
-:
-    
-"
-"
-"
-Helper
-exception
-type
-to
-handle
-unknown
-nsCertType
-types
-.
-"
-"
-"
-    
-def
-__init__
-(
-self
-value
-)
-:
-        
-UnknownBaseError
-.
-__init__
-(
-self
-value
-)
-        
-self
-.
-category
-=
-'
-nsCertType
 '
 def
 getASN1Tag
@@ -2162,7 +2079,7 @@ rdns
 return
 name
 def
-stringToAlgorithmIdentifiers
+stringToAlgorithmIdentifier
 (
 string
 )
@@ -2189,17 +2106,6 @@ by
 the
 pyasn1
 package
-and
-a
-hash
-    
-algorithm
-name
-for
-use
-by
-pykey
-.
 "
 "
 "
@@ -2212,11 +2118,11 @@ AlgorithmIdentifier
 (
 )
     
-algorithmName
+algorithm
 =
 None
     
-algorithm
+name
 =
 None
     
@@ -2229,7 +2135,7 @@ sha1WithRSAEncryption
 '
 :
         
-algorithmName
+name
 =
 '
 SHA
@@ -2252,7 +2158,7 @@ sha256WithRSAEncryption
 '
 :
         
-algorithmName
+name
 =
 '
 SHA
@@ -2288,35 +2194,47 @@ string
 =
 =
 '
-md5WithRSAEncryption
-'
-:
-        
-algorithmName
-=
-'
-MD5
-'
-        
-algorithm
-=
-rfc2459
-.
-md5WithRSAEncryption
-    
-elif
-string
-=
-=
-'
 ecdsaWithSHA256
 '
 :
         
-algorithmName
+#
+Note
+that
+this
+value
+is
+only
+used
+by
+pykey
+.
+py
+to
+tell
+if
+        
+#
+ECDSA
+is
+allowed
+.
+It
+does
+not
+conform
+to
+the
+pyECC
+syntax
+.
+        
+name
 =
 '
-sha256
+SHA
+-
+256
 '
         
 algorithm
@@ -2364,7 +2282,7 @@ algorithm
 return
 (
 algorithmIdentifier
-algorithmName
+name
 )
 def
 datetimeToTime
@@ -3389,76 +3307,40 @@ extension
 )
 :
         
-match
-=
-re
-.
-search
-(
-'
-(
-[
-a
--
-zA
--
-Z
-]
-+
-)
-(
-\
-[
-critical
-\
-]
-)
-?
-:
-(
-.
-*
-)
-'
-extension
-)
-        
-if
-not
-match
-:
-            
-raise
-UnknownExtensionTypeError
-(
-extension
-)
-        
 extensionType
 =
-match
+extension
 .
-group
+split
 (
-1
+'
+:
+'
 )
-        
-critical
-=
-match
-.
-group
-(
-2
-)
+[
+0
+]
         
 value
 =
-match
+'
+:
+'
 .
-group
+join
 (
-3
+extension
+.
+split
+(
+'
+:
+'
+)
+[
+1
+:
+]
 )
         
 if
@@ -3475,7 +3357,6 @@ self
 addBasicConstraints
 (
 value
-critical
 )
         
 elif
@@ -3492,7 +3373,6 @@ self
 addKeyUsage
 (
 value
-critical
 )
         
 elif
@@ -3509,7 +3389,6 @@ self
 addExtKeyUsage
 (
 value
-critical
 )
         
 elif
@@ -3526,7 +3405,6 @@ self
 addSubjectAlternativeName
 (
 value
-critical
 )
         
 elif
@@ -3543,7 +3421,6 @@ self
 addAuthorityInformationAccess
 (
 value
-critical
 )
         
 elif
@@ -3560,7 +3437,6 @@ self
 addCertificatePolicies
 (
 value
-critical
 )
         
 elif
@@ -3577,24 +3453,6 @@ self
 addNameConstraints
 (
 value
-critical
-)
-        
-elif
-extensionType
-=
-=
-'
-nsCertType
-'
-:
-            
-self
-.
-addNSCertType
-(
-value
-critical
 )
         
 else
@@ -3670,7 +3528,6 @@ addExtension
 self
 extensionType
 extensionValue
-critical
 )
 :
         
@@ -3720,47 +3577,6 @@ extnID
 extensionType
 )
         
-#
-critical
-is
-either
-the
-string
-'
-[
-critical
-]
-'
-or
-None
-.
-        
-#
-We
-only
-care
-whether
-or
-not
-it
-is
-truthy
-.
-        
-if
-critical
-:
-            
-extension
-.
-setComponentByName
-(
-'
-critical
-'
-True
-)
-        
 extension
 .
 setComponentByName
@@ -3785,7 +3601,6 @@ addBasicConstraints
 (
 self
 basicConstraints
-critical
 )
 :
         
@@ -3889,7 +3704,6 @@ rfc2459
 .
 id_ce_basicConstraints
 basicConstraintsExtension
-critical
 )
     
 def
@@ -3897,7 +3711,6 @@ addKeyUsage
 (
 self
 keyUsage
-critical
 )
 :
         
@@ -3918,7 +3731,6 @@ rfc2459
 .
 id_ce_keyUsage
 keyUsageExtension
-critical
 )
     
 def
@@ -4113,7 +3925,6 @@ addExtKeyUsage
 (
 self
 extKeyUsage
-critical
 )
 :
         
@@ -4167,7 +3978,6 @@ rfc2459
 .
 id_ce_extKeyUsage
 extKeyUsageExtension
-critical
 )
     
 def
@@ -4175,7 +3985,6 @@ addSubjectAlternativeName
 (
 self
 dNSNames
-critical
 )
 :
         
@@ -4304,7 +4113,6 @@ rfc2459
 .
 id_ce_subjectAltName
 subjectAlternativeName
-critical
 )
     
 def
@@ -4312,7 +4120,6 @@ addAuthorityInformationAccess
 (
 self
 ocspURI
-critical
 )
 :
         
@@ -4347,7 +4154,6 @@ rfc2459
 .
 id_pe_authorityInfoAccess
 sequence
-critical
 )
     
 def
@@ -4355,7 +4161,6 @@ addCertificatePolicies
 (
 self
 policyOID
-critical
 )
 :
         
@@ -4433,7 +4238,6 @@ rfc2459
 .
 id_ce_certificatePolicies
 policies
-critical
 )
     
 def
@@ -4441,7 +4245,6 @@ addNameConstraints
 (
 self
 constraints
-critical
 )
 :
         
@@ -4675,70 +4478,6 @@ rfc2459
 .
 id_ce_nameConstraints
 nameConstraints
-critical
-)
-    
-def
-addNSCertType
-(
-self
-certType
-critical
-)
-:
-        
-if
-certType
-!
-=
-'
-sslServer
-'
-:
-            
-raise
-UnknownNSCertTypeError
-(
-certType
-)
-        
-self
-.
-addExtension
-(
-univ
-.
-ObjectIdentifier
-(
-'
-2
-.
-16
-.
-840
-.
-1
-.
-113730
-.
-1
-.
-1
-'
-)
-univ
-.
-BitString
-(
-"
-'
-01
-'
-B
-"
-)
-            
-critical
 )
     
 def
@@ -4796,6 +4535,21 @@ serialNumber
 [
 0
 ]
+    
+def
+getSignature
+(
+self
+)
+:
+        
+return
+stringToAlgorithmIdentifier
+(
+self
+.
+signature
+)
     
 def
 getIssuer
@@ -4912,14 +4666,13 @@ self
         
 (
 signatureOID
-hashName
+hashAlg
 )
 =
-stringToAlgorithmIdentifiers
-(
 self
 .
-signature
+getSignature
+(
 )
         
 tbsCertificate
@@ -5146,7 +4899,7 @@ issuerKey
 sign
 (
 tbsDER
-hashName
+hashAlg
 )
 )
         

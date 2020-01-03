@@ -532,6 +532,52 @@ key
 specification
 '
 class
+ParameterError
+(
+UnknownBaseError
+)
+:
+    
+"
+"
+"
+Exception
+type
+indicating
+that
+the
+key
+was
+misconfigured
+"
+"
+"
+    
+def
+__init__
+(
+self
+value
+)
+:
+        
+UnknownBaseError
+.
+__init__
+(
+self
+value
+)
+        
+self
+.
+category
+=
+'
+key
+parameter
+'
+class
 RSAPublicKey
 (
 univ
@@ -3366,7 +3412,7 @@ sign
 (
 self
 data
-hashAlgorithmName
+digest
 )
 :
         
@@ -3437,7 +3483,7 @@ sign
 (
 data
 rsaPrivateKey
-hashAlgorithmName
+digest
 )
         
 return
@@ -4345,7 +4391,7 @@ sign
 (
 self
 data
-hashAlgorithmName
+digest
 )
 :
         
@@ -4384,6 +4430,35 @@ BitString
 "
 "
 "
+        
+#
+This
+should
+really
+only
+be
+used
+with
+SHA
+-
+256
+        
+if
+digest
+!
+=
+"
+SHA
+-
+256
+"
+:
+            
+raise
+ParameterError
+(
+digest
+)
         
 #
 There
@@ -4519,7 +4594,9 @@ key
 sign
 (
 data
-hashAlgorithmName
+'
+sha256
+'
 )
 )
             
@@ -4540,7 +4617,9 @@ key
 sign
 (
 data
-hashAlgorithmName
+'
+sha256
+'
 )
 )
             
