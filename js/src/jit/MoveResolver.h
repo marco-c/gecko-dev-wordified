@@ -147,6 +147,9 @@ js
 namespace
 jit
 {
+class
+MacroAssembler
+;
 /
 /
 This
@@ -408,6 +411,17 @@ kind_
 REG
 ;
 }
+MoveOperand
+(
+MacroAssembler
+&
+masm
+const
+ABIArg
+&
+arg
+)
+;
 MoveOperand
 (
 const
