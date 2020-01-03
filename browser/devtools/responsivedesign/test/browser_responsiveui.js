@@ -318,6 +318,13 @@ content
 .
 innerWidth
 ;
+let
+documentLoaded
+=
+waitForDocLoadComplete
+(
+)
+;
 content
 .
 location
@@ -351,6 +358,9 @@ height
 2Fdiv
 >
 "
+;
+yield
+documentLoaded
 ;
 let
 newWidth
