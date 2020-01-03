@@ -6888,7 +6888,7 @@ case
 eTouchMove
 :
 case
-NS_TOUCH_END
+eTouchEnd
 :
 case
 NS_TOUCH_CANCEL

@@ -1054,7 +1054,7 @@ aY
 return
 CreateTouchEvent
 (
-NS_TOUCH_END
+eTouchEnd
 aX
 aY
 )

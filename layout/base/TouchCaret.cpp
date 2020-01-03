@@ -4145,7 +4145,7 @@ AsMouseEvent
 break
 ;
 case
-NS_TOUCH_END
+eTouchEnd
 :
 status
 =

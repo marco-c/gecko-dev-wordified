@@ -917,7 +917,7 @@ mEvent
 mMessage
 =
 =
-NS_TOUCH_END
+eTouchEnd
 |
 |
 mEvent
@@ -1140,7 +1140,7 @@ mEvent
 mMessage
 !
 =
-NS_TOUCH_END
+eTouchEnd
 &
 &
 mEvent

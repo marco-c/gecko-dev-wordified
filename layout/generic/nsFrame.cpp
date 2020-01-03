@@ -18000,7 +18000,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_END
+eTouchEnd
 )
 {
 HandleRelease

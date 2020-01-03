@@ -3521,7 +3521,7 @@ mEvent
 mMessage
 =
 =
-NS_TOUCH_END
+eTouchEnd
 )
 )
 {
@@ -39956,7 +39956,7 @@ ePointerMove
 break
 ;
 case
-NS_TOUCH_END
+eTouchEnd
 :
 pointerMessage
 =
@@ -45310,7 +45310,7 @@ case
 NS_TOUCH_CANCEL
 :
 case
-NS_TOUCH_END
+eTouchEnd
 :
 {
 /
@@ -48848,7 +48848,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_END
+eTouchEnd
 )
 ;
 bool

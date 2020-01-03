@@ -4773,7 +4773,7 @@ ACTION_POINTER_UP
 {
 type
 =
-NS_TOUCH_END
+eTouchEnd
 ;
 /
 /

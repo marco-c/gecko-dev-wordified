@@ -779,7 +779,7 @@ CAPTURE_IGNOREALLOWED
 break
 ;
 case
-NS_TOUCH_END
+eTouchEnd
 :
 case
 eMouseUp

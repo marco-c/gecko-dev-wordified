@@ -1859,7 +1859,7 @@ eTouchEventClass
 TOUCH_EVENT
 (
 touchend
-NS_TOUCH_END
+eTouchEnd
 EventNameType_All
 eTouchEventClass
 )
