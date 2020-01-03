@@ -974,6 +974,10 @@ stringPreBarrier_
 ;
 JitCode
 *
+objectPreBarrier_
+;
+JitCode
+*
 shapePreBarrier_
 ;
 JitCode
@@ -1984,6 +1988,12 @@ MIRType_String
 :
 return
 stringPreBarrier_
+;
+case
+MIRType_Object
+:
+return
+objectPreBarrier_
 ;
 case
 MIRType_Shape

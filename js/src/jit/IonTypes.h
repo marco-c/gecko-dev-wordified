@@ -2006,6 +2006,7 @@ magic
 value
 .
 MIRType_Value
+MIRType_ObjectOrNull
 MIRType_None
 /
 /

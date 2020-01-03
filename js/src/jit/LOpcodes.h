@@ -948,6 +948,11 @@ ValueToString
 \
 _
 (
+ValueToObjectOrNull
+)
+\
+_
+(
 Int32x4ToFloat32x4
 )
 \
@@ -1184,6 +1189,11 @@ StoreElementV
 _
 (
 StoreElementT
+)
+\
+_
+(
+StoreUnboxedPointer
 )
 \
 _
