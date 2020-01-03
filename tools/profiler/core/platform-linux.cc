@@ -683,7 +683,7 @@ __ARM_EABI__
 &
 defined
 (
-MOZ_WIDGET_GONK
+ANDROID
 )
 /
 /

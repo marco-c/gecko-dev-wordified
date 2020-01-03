@@ -458,13 +458,13 @@ endif
 if
 defined
 (
-SPS_ARCH_arm
+__arm__
 )
 &
 &
 defined
 (
-MOZ_WIDGET_GONK
+ANDROID
 )
 /
 /
@@ -472,9 +472,6 @@ Should
 also
 work
 on
-other
-Android
-and
 ARM
 Linux
 but
