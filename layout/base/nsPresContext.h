@@ -4003,7 +4003,7 @@ aCanDraw
 *
 Getter
 and
-setter
+setters
 for
 OMTA
 time
@@ -4014,9 +4014,15 @@ bool
 StyleUpdateForAllAnimationsIsUpToDate
 (
 )
+const
 ;
 void
 TickLastStyleUpdateForAllAnimations
+(
+)
+;
+void
+ClearLastStyleUpdateForAllAnimations
 (
 )
 ;
