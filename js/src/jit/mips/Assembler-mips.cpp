@@ -1797,9 +1797,6 @@ these
 are
 constants
 .
-gc
-:
-:
 TraceManuallyBarrieredGenericPointerEdge
 (
 trc

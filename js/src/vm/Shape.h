@@ -6329,7 +6329,6 @@ return
 THING_ROOT_SHAPE
 ;
 }
-inline
 void
 traceChildren
 (

@@ -361,7 +361,7 @@ end
 start
 )
 ;
-MarkObjectSlots
+TraceObjectSlots
 (
 trc
 obj
