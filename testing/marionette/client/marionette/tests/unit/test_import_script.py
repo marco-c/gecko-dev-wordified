@@ -144,9 +144,9 @@ execute_script
 let
 FileUtils
 =
-SpecialPowers
+Components
 .
-Cu
+utils
 .
 import
 (
@@ -199,9 +199,11 @@ exists
 "
 "
 "
-special_powers
+sandbox
 =
-True
+'
+system
+'
 )
     
 def
@@ -225,9 +227,9 @@ execute_script
 let
 FileUtils
 =
-SpecialPowers
+Components
 .
-Cu
+utils
 .
 import
 (
@@ -278,9 +280,11 @@ fileSize
 "
 "
 "
-special_powers
+sandbox
 =
-True
+'
+system
+'
 )
     
 def
