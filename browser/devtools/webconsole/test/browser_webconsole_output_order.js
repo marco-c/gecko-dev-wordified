@@ -245,12 +245,8 @@ CATEGORY_OUTPUT
 text
 :
 '
-"
 foo
-"
-"
 bar
-"
 '
 category
 :
