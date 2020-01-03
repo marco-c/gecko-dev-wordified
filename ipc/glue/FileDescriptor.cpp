@@ -203,6 +203,11 @@ aHandle
 MOZ_ASSERT_IF
 (
 mHandleCreatedByOtherProcess
+&
+&
+IsValid
+(
+)
 mHandleCreatedByOtherProcessWasUsed
 )
 ;
@@ -300,6 +305,11 @@ CloseCurrentProcessHandle
 MOZ_ASSERT_IF
 (
 mHandleCreatedByOtherProcess
+&
+&
+IsValid
+(
+)
 mHandleCreatedByOtherProcessWasUsed
 )
 ;
