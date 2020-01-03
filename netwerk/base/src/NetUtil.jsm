@@ -1756,6 +1756,15 @@ this
 newChannel2
 (
 aSource
+"
+"
+/
+/
+aOriginCharset
+null
+/
+/
+aBaseURI
 aLoadingNode
 aLoadingPrincipal
 aTriggeringPrincipal
