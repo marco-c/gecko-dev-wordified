@@ -33228,7 +33228,7 @@ bool
 haveWidth
 haveHeight
 ;
-nsIntSize
+CSSIntSize
 imageIntSize
 ;
 nsLayoutUtils
