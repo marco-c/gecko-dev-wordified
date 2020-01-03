@@ -1391,11 +1391,6 @@ our
 viewfinder
 stream
 .
-SetHintContents
-(
-HINT_CONTENTS_VIDEO
-)
-;
 InitStreamCommon
 (
 mInput

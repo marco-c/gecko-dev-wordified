@@ -431,10 +431,6 @@ GetOwner
 (
 )
 this
-DOMMediaStream
-:
-:
-HINT_CONTENTS_AUDIO
 )
 )
 {

@@ -1861,6 +1861,11 @@ mExtraCurrentTimeUpdatedSinceLastStableState
 false
 )
 {
+bool
+startWithAudioDriver
+=
+true
+;
 MediaStreamGraph
 *
 graph
@@ -1880,10 +1885,7 @@ MediaStreamGraph
 :
 GetInstance
 (
-DOMMediaStream
-:
-:
-HINT_CONTENTS_AUDIO
+startWithAudioDriver
 aChannel
 )
 ;
