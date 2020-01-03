@@ -1142,7 +1142,7 @@ newStatus
 ;
 }
 void
-DoDeferredImageInitialization
+EnsureNoUninitializedImageData
 (
 TexImageTarget
 imageTarget
