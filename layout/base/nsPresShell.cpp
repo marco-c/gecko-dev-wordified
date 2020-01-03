@@ -28919,6 +28919,8 @@ aPoint
 nsIntRect
 *
 aScreenRect
+uint32_t
+aFlags
 )
 {
 nsPresContext
@@ -29105,6 +29107,13 @@ height
 bool
 resize
 =
+(
+aFlags
+&
+RENDER_AUTO_SCALE
+)
+&
+&
 (
 pixelArea
 .
@@ -29895,6 +29904,8 @@ aPoint
 nsIntRect
 *
 aScreenRect
+uint32_t
+aFlags
 )
 {
 /
@@ -30147,6 +30158,7 @@ aRegion
 area
 aPoint
 aScreenRect
+aFlags
 )
 ;
 }
@@ -30168,6 +30180,8 @@ aPoint
 nsIntRect
 *
 aScreenRect
+uint32_t
+aFlags
 )
 {
 /
@@ -30345,6 +30359,7 @@ nullptr
 area
 aPoint
 aScreenRect
+aFlags
 )
 ;
 }
