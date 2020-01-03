@@ -854,13 +854,6 @@ h
 #
 include
 "
-nsIAppShell
-.
-h
-"
-#
-include
-"
 nsIAsyncVerifyRedirectCallback
 .
 h
@@ -2444,13 +2437,6 @@ NS_DEFINE_CID
 (
 kCParserCID
 NS_PARSER_CID
-)
-;
-static
-NS_DEFINE_CID
-(
-kAppShellCID
-NS_APPSHELL_CID
 )
 ;
 static
