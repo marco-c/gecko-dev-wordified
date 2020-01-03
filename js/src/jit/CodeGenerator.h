@@ -438,6 +438,14 @@ lir
 )
 ;
 bool
+visitIsConstructing
+(
+LIsConstructing
+*
+lir
+)
+;
+bool
 visitStart
 (
 LStart

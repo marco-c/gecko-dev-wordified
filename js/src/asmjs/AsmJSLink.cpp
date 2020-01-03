@@ -4587,13 +4587,6 @@ jitActivation
 cx
 /
 *
-firstFrameIsConstructing
-=
-*
-/
-false
-/
-*
 active
 *
 /

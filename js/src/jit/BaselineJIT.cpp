@@ -737,9 +737,6 @@ JitActivation
 activation
 (
 cx
-data
-.
-constructing
 )
 ;
 if
@@ -1312,6 +1309,9 @@ fp
 callee
 (
 )
+data
+.
+constructing
 )
 ;
 }
@@ -1402,6 +1402,13 @@ fp
 callee
 (
 )
+/
+*
+constructing
+=
+*
+/
+false
 )
 ;
 else

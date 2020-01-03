@@ -4937,6 +4937,14 @@ Class
 clasp2
 )
 ;
+InliningStatus
+inlineIsConstructing
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Testing
