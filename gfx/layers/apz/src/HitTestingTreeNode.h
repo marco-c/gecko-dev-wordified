@@ -673,6 +673,13 @@ GetNearestContainingApzc
 )
 const
 ;
+AsyncPanZoomController
+*
+GetNearestContainingApzcWithSameLayersId
+(
+)
+const
+;
 bool
 IsPrimaryHolder
 (
