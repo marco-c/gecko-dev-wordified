@@ -5506,7 +5506,7 @@ cx
 ;
 options
 .
-setOriginPrincipals
+setMutedErrors
 (
 module
 .
@@ -5515,7 +5515,7 @@ scriptSource
 )
 -
 >
-originPrincipals
+mutedErrors
 (
 )
 )
