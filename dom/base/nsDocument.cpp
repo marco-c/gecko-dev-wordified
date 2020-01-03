@@ -8201,8 +8201,7 @@ FrameRequest
 {
 FrameRequest
 (
-const
-FrameRequestCallbackHolder
+FrameRequestCallback
 &
 aCallback
 int32_t
@@ -8211,6 +8210,7 @@ aHandle
 :
 mCallback
 (
+&
 aCallback
 )
 mHandle
@@ -8236,7 +8236,10 @@ a
 FrameRequestCallbackList
 operator
 const
-FrameRequestCallbackHolder
+nsRefPtr
+<
+FrameRequestCallback
+>
 &
 (
 )
@@ -8295,7 +8298,10 @@ mHandle
 aHandle
 ;
 }
-FrameRequestCallbackHolder
+nsRefPtr
+<
+FrameRequestCallback
+>
 mCallback
 ;
 int32_t
@@ -10890,10 +10896,6 @@ i
 ]
 .
 mCallback
-.
-GetISupports
-(
-)
 )
 ;
 }
@@ -56620,8 +56622,7 @@ nsIDocument
 :
 ScheduleFrameRequestCallback
 (
-const
-FrameRequestCallbackHolder
+FrameRequestCallback
 &
 aCallback
 int32_t

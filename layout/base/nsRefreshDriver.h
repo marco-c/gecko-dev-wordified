@@ -1417,7 +1417,7 @@ for
 which
 we
 have
-nsIFrameRequestCallbacks
+FrameRequestCallbacks
 *
 /
 void
@@ -1439,7 +1439,7 @@ for
 which
 we
 have
-nsIFrameRequestCallbacks
+FrameRequestCallbacks
 *
 /
 void
