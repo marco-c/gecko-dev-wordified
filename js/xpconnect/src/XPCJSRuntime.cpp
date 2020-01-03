@@ -16493,7 +16493,7 @@ malloced
 buffers
 "
 )
-KIND_NONHEAP
+KIND_HEAP
 rtStats
 .
 runtime
@@ -16515,8 +16515,6 @@ to
 objects
 in
 the
-"
-"
 nursery
 .
 "
@@ -16950,7 +16948,7 @@ GC
 '
 s
 nursery
-this
+that
 is
 decommitted
 i
