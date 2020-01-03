@@ -177,6 +177,12 @@ i
 )
 ;
 }
+assertRecoveredOnBailout
+(
+g
+true
+)
+;
 return
 g
 (
@@ -311,6 +317,12 @@ g
 (
 )
 i
+)
+;
+assertRecoveredOnBailout
+(
+g
+true
 )
 ;
 }
