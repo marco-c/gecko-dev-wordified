@@ -793,6 +793,15 @@ items
 "
 )
 ;
+let
+resizePromise
+=
+instance
+.
+_test_notifyOnResize
+(
+)
+;
 instance
 .
 menulist
@@ -800,6 +809,9 @@ menulist
 selectedIndex
 =
 customPresetIndex
+;
+yield
+resizePromise
 ;
 is
 (
