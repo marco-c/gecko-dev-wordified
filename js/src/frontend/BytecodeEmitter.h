@@ -1488,13 +1488,6 @@ topScopal
 )
 ;
 }
-NestedScopeObject
-*
-topStaticScope
-(
-)
-const
-;
 bool
 isAliasedName
 (
