@@ -258,6 +258,7 @@ class
 T
 >
 struct
+MOZ_MUST_USE
 already_AddRefed
 {
 /
