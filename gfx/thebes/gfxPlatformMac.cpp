@@ -719,9 +719,9 @@ CreateOffscreenSurface
 const
 IntSize
 &
-size
-gfxContentType
-contentType
+aSize
+gfxImageFormat
+aFormat
 )
 {
 nsRefPtr
@@ -733,11 +733,8 @@ newSurface
 new
 gfxQuartzSurface
 (
-size
-OptimalFormatForContent
-(
-contentType
-)
+aSize
+aFormat
 )
 ;
 return

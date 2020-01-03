@@ -731,9 +731,9 @@ CreateOffscreenSurface
 const
 IntSize
 &
-size
-gfxContentType
-contentType
+aSize
+gfxImageFormat
+aFormat
 )
 {
 nsRefPtr
@@ -747,11 +747,8 @@ newSurface
 new
 gfxImageSurface
 (
-size
-OptimalFormatForContent
-(
-contentType
-)
+aSize
+aFormat
 )
 ;
 return
