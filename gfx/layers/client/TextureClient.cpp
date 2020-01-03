@@ -5002,6 +5002,14 @@ mSurf
 mGL
 )
 {
+AddFlags
+(
+TextureFlags
+:
+:
+DEALLOCATE_CLIENT
+)
+;
 }
 SharedSurfaceTextureClient
 :
