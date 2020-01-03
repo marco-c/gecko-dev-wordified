@@ -2716,7 +2716,7 @@ MediaData
 :
 Type
 aType
-RequestSampleCallback
+MediaDecoderReader
 :
 :
 NotDecodedReason

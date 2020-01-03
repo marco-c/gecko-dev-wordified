@@ -2564,9 +2564,6 @@ MediaData
 :
 :
 AUDIO_DATA
-RequestSampleCallback
-:
-:
 END_OF_STREAM
 )
 ;
@@ -2680,9 +2677,6 @@ MediaData
 :
 :
 VIDEO_DATA
-RequestSampleCallback
-:
-:
 END_OF_STREAM
 )
 ;
