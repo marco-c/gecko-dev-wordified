@@ -1950,7 +1950,7 @@ that
 happens
 in
 DispatchEventForAPZ
-DispatchEventForAPZ
+ProcessUntransformedAPZEvent
 (
 &
 event
