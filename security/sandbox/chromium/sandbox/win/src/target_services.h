@@ -91,13 +91,7 @@ public
 ProcessState
 (
 )
-:
-process_state_
-(
-0
-)
-{
-}
+;
 /
 /
 Returns
@@ -114,6 +108,7 @@ bool
 IsKernel32Loaded
 (
 )
+const
 ;
 /
 /
@@ -129,6 +124,7 @@ bool
 InitCalled
 (
 )
+const
 ;
 /
 /
@@ -144,6 +140,7 @@ bool
 RevertedToSelf
 (
 )
+const
 ;
 /
 /
@@ -167,7 +164,7 @@ SetRevertedToSelf
 (
 )
 ;
-public
+private
 :
 int
 process_state_
