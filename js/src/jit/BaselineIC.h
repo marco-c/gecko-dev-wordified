@@ -29592,7 +29592,7 @@ protected
 HeapPtrFunction
 callee_
 ;
-HeapPtrNativeObject
+HeapPtrObject
 templateObject_
 ;
 uint32_t
@@ -29626,7 +29626,7 @@ ICStub
 firstMonitorStub
 HandleFunction
 callee
-HandleNativeObject
+HandleObject
 templateObject
 uint32_t
 pcOffset
@@ -29651,7 +29651,7 @@ ICStub
 firstMonitorStub
 HandleFunction
 callee
-HandleNativeObject
+HandleObject
 templateObject
 uint32_t
 pcOffset
@@ -29711,7 +29711,7 @@ return
 callee_
 ;
 }
-HeapPtrNativeObject
+HeapPtrObject
 &
 templateObject
 (
@@ -29806,7 +29806,7 @@ isSpread_
 RootedFunction
 callee_
 ;
-RootedNativeObject
+RootedObject
 templateObject_
 ;
 uint32_t
@@ -29875,7 +29875,7 @@ ICStub
 firstMonitorStub
 HandleFunction
 callee
-HandleNativeObject
+HandleObject
 templateObject
 bool
 isConstructing

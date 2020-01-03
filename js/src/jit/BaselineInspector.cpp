@@ -2428,7 +2428,7 @@ return
 nullptr
 ;
 }
-NativeObject
+JSObject
 *
 BaselineInspector
 :

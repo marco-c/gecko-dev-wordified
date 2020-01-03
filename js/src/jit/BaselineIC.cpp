@@ -59258,7 +59258,7 @@ const
 CallArgs
 &
 args
-MutableHandleNativeObject
+MutableHandleObject
 res
 )
 {
@@ -61632,7 +61632,7 @@ return
 true
 ;
 }
-RootedNativeObject
+RootedObject
 templateObject
 (
 cx
@@ -78649,7 +78649,7 @@ ICStub
 firstMonitorStub
 HandleFunction
 callee
-HandleNativeObject
+HandleObject
 templateObject
 uint32_t
 pcOffset
@@ -78784,7 +78784,7 @@ other
 callee_
 )
 ;
-RootedNativeObject
+RootedObject
 templateObject
 (
 cx
