@@ -1163,6 +1163,7 @@ bool
 *
 retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNext
@@ -1172,6 +1173,7 @@ nsISupports
 *
 retval
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_ISUPPORTS
 protected

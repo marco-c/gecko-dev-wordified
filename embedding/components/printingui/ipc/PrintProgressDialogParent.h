@@ -139,6 +139,7 @@ nsresult
 &
 status
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -161,6 +162,7 @@ long
 &
 maxTotalProgress
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -171,6 +173,7 @@ nsString
 &
 newTitle
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -181,6 +184,7 @@ nsString
 &
 newURL
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -189,12 +193,14 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 Recv__delete__
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
