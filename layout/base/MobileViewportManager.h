@@ -363,6 +363,9 @@ mEventTarget
 bool
 mIsFirstPaint
 ;
+bool
+mPainted
+;
 mozilla
 :
 :
