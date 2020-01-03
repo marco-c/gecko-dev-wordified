@@ -2442,17 +2442,6 @@ OnSysColorChanged
 (
 )
 ;
-nsEventStatus
-MaybeDispatchAsyncWheelEvent
-(
-mozilla
-:
-:
-WidgetGUIEvent
-*
-aEvent
-)
-;
 /
 *
 *
