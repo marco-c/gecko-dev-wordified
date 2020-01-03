@@ -177,6 +177,9 @@ namespace
 a11y
 {
 class
+Accessible
+;
+class
 Attribute
 ;
 class
@@ -413,6 +416,13 @@ return
 mParent
 ;
 }
+Accessible
+*
+OuterDocOfRemoteBrowser
+(
+)
+const
+;
 /
 *
 *
