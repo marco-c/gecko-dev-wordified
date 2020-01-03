@@ -2763,7 +2763,7 @@ state
 *
 /
 void
-AddStream
+AddStreamGraphThread
 (
 MediaStream
 *
@@ -2799,7 +2799,7 @@ flushed
 *
 /
 void
-RemoveStream
+RemoveStreamGraphThread
 (
 MediaStream
 *
