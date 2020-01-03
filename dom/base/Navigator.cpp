@@ -13976,6 +13976,7 @@ MediaKeySystemAccess
 :
 NotifyObservers
 (
+mWindow
 aKeySystem
 MediaKeySystemStatus
 :
@@ -14115,6 +14116,7 @@ MediaKeySystemAccess
 :
 NotifyObservers
 (
+mWindow
 aKeySystem
 status
 )

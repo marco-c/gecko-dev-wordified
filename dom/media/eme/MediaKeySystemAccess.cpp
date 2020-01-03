@@ -1270,6 +1270,9 @@ MediaKeySystemAccess
 :
 NotifyObservers
 (
+nsIDOMWindow
+*
+aWindow
 const
 nsAString
 &
@@ -1326,7 +1329,7 @@ obs
 >
 NotifyObservers
 (
-nullptr
+aWindow
 "
 mediakeys
 -

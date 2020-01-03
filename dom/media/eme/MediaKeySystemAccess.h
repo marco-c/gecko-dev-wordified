@@ -306,6 +306,9 @@ static
 void
 NotifyObservers
 (
+nsIDOMWindow
+*
+aWindow
 const
 nsAString
 &
