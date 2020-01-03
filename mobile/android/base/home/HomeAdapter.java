@@ -125,17 +125,6 @@ HomeConfig
 PanelType
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-home
-.
-HomePager
-;
-import
 android
 .
 content
