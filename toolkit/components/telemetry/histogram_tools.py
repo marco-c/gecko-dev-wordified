@@ -538,6 +538,9 @@ flag
 '
    
 '
+count
+'
+'
 enumerated
 '
 '
@@ -697,6 +700,14 @@ FLAG
 '
                   
 '
+count
+'
+:
+'
+COUNT
+'
+                  
+'
 enumerated
 '
 :
@@ -819,6 +830,9 @@ boolean
 '
 '
 flag
+'
+'
+count
 '
 '
 enumerated
@@ -1137,6 +1151,12 @@ flag
 linear_buckets
                   
 '
+count
+'
+:
+linear_buckets
+                  
+'
 enumerated
 '
 :
@@ -1210,6 +1230,14 @@ boolean_flag_bucket_parameters
             
 '
 flag
+'
+:
+Histogram
+.
+boolean_flag_bucket_parameters
+            
+'
+count
 '
 :
 Histogram
@@ -1306,6 +1334,12 @@ always_allowed_keys
             
 '
 flag
+'
+:
+always_allowed_keys
+            
+'
+count
 '
 :
 always_allowed_keys
