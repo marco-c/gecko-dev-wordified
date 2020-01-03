@@ -1361,8 +1361,11 @@ fragment
 private
 class
 CursorLoaderCallbacks
-extends
-TransitionAwareCursorLoaderCallbacks
+implements
+LoaderCallbacks
+<
+Cursor
+>
 {
 Override
 public
@@ -1440,7 +1443,7 @@ refreshType
 Override
 public
 void
-onLoadFinishedAfterTransitions
+onLoadFinished
 (
 Loader
 <
@@ -1494,13 +1497,6 @@ Cursor
 loader
 )
 {
-super
-.
-onLoaderReset
-(
-loader
-)
-;
 if
 (
 mList
