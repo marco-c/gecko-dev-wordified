@@ -331,6 +331,10 @@ function
 (
 )
 {
+privateNoteIntentionalCrash
+(
+)
+;
 let
 zero
 =
