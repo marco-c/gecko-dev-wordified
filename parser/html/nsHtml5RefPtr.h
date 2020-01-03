@@ -125,6 +125,7 @@ mPtr
 ;
 public
 :
+explicit
 nsHtml5RefPtrReleaser
 (
 T
@@ -404,6 +405,7 @@ AddRef
 )
 ;
 }
+explicit
 nsHtml5RefPtr
 (
 T
@@ -441,6 +443,7 @@ AddRef
 )
 ;
 }
+explicit
 nsHtml5RefPtr
 (
 const

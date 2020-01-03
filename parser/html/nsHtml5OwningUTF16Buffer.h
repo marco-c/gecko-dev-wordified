@@ -94,6 +94,7 @@ constructor
 .
 *
 /
+explicit
 nsHtml5OwningUTF16Buffer
 (
 char16_t
@@ -128,6 +129,7 @@ parser
 key
 *
 /
+explicit
 nsHtml5OwningUTF16Buffer
 (
 void
