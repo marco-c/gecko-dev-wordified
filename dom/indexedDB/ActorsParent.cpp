@@ -22645,11 +22645,6 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-MOZ_ASSERT
-(
-kDEBUGThreadSleepMS
-)
-;
 }
 NS_DECL_NSITHREADOBSERVER
 }
