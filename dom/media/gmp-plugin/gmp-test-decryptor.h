@@ -141,6 +141,7 @@ GMPDecryptor
 {
 public
 :
+explicit
 FakeDecryptor
 (
 GMPDecryptorHost

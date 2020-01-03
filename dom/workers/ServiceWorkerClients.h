@@ -153,6 +153,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 ServiceWorkerClients
 )
+explicit
 ServiceWorkerClients
 (
 ServiceWorkerGlobalScope

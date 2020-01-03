@@ -395,6 +395,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaPromise
 )
+explicit
 MediaPromise
 (
 const
@@ -715,6 +716,7 @@ mRejectValue
 ;
 }
 ;
+explicit
 ThenValueBase
 (
 const

@@ -189,6 +189,7 @@ Shutdown
 )
 MOZ_OVERRIDE
 ;
+explicit
 SoftwareWebMVideoDecoder
 (
 WebMReader

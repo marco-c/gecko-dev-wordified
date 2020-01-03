@@ -265,6 +265,7 @@ BaseMediaMgrError
 {
 public
 :
+explicit
 MediaMgrError
 (
 const

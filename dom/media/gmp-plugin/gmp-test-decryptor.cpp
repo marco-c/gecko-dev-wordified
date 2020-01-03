@@ -863,6 +863,7 @@ GMPTask
 {
 public
 :
+explicit
 SendMessageTask
 (
 const

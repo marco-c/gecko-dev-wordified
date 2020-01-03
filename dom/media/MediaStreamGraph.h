@@ -8261,6 +8261,7 @@ mSampleRate
 }
 protected
 :
+explicit
 MediaStreamGraph
 (
 TrackRate

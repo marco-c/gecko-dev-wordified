@@ -4851,6 +4851,7 @@ mTabChild
 ;
 public
 :
+explicit
 DelayedDeleteRunnable
 (
 TabChild

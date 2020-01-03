@@ -1134,6 +1134,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 PositionSensorVRDevice
 (
 nsISupports

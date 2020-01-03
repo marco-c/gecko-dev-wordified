@@ -1336,6 +1336,7 @@ GMPRecordIterator
 {
 public
 :
+explicit
 GMPRecordIteratorImpl
 (
 const

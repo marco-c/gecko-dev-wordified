@@ -303,6 +303,7 @@ nsSupportsWeakReference
 {
 public
 :
+explicit
 BrowserShownObserver
 (
 nsBrowserElement
