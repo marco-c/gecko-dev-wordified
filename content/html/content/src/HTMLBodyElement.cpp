@@ -717,6 +717,14 @@ eCSSUnit_Pixel
 )
 ;
 }
+if
+(
+eCompatibility_NavQuirks
+=
+=
+mode
+)
+{
 /
 /
 topmargin
@@ -1096,6 +1104,7 @@ bodyRightMargin
 eCSSUnit_Pixel
 )
 ;
+}
 }
 }
 /
