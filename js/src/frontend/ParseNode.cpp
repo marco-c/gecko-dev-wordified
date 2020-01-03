@@ -7633,7 +7633,7 @@ if
 funbox
 -
 >
-enclosingStaticScope_
+staticScope_
 )
 TraceRoot
 (
@@ -7642,11 +7642,11 @@ trc
 funbox
 -
 >
-enclosingStaticScope_
+staticScope_
 "
 funbox
 -
-enclosingStaticScope
+staticScope
 "
 )
 ;
