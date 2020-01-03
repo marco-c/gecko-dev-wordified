@@ -36,6 +36,7 @@ const
 {
 LOOP_SESSION_TYPE
 MozLoopServiceInternal
+MozLoopService
 }
 =
 Cu

@@ -73,6 +73,8 @@ MozLoopAPI
 .
 jsm
 "
+{
+}
 )
 ;
 gMozLoopAPI
