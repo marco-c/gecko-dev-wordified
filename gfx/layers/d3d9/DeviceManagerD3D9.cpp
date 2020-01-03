@@ -1499,10 +1499,6 @@ FAILED
 (
 hr
 )
-|
-|
-!
-mDevice
 )
 {
 gfxCriticalError
@@ -1519,15 +1515,7 @@ to
 create
 the
 device
-code
-:
 "
-<
-<
-hexa
-(
-hr
-)
 ;
 return
 false
