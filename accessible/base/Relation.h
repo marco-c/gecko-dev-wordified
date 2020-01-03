@@ -182,6 +182,7 @@ nullptr
 )
 {
 }
+explicit
 Relation
 (
 AccIterable
@@ -199,6 +200,7 @@ aIter
 )
 {
 }
+explicit
 Relation
 (
 Accessible

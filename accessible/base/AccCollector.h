@@ -383,6 +383,7 @@ Accessible
 class
 only
 .
+explicit
 EmbeddedObjCollector
 (
 Accessible

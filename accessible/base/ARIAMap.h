@@ -1870,6 +1870,7 @@ AttrIterator
 {
 public
 :
+explicit
 AttrIterator
 (
 nsIContent

@@ -167,6 +167,7 @@ xpcAccessibleTableCell
 {
 public
 :
+explicit
 xpcAccessibleTableCell
 (
 mozilla

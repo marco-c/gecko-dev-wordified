@@ -1332,6 +1332,7 @@ T
 *
 KeyTypePointer
 ;
+explicit
 nsCOMPtrHashKey
 (
 const
@@ -1353,6 +1354,7 @@ aKey
 )
 {
 }
+explicit
 nsCOMPtrHashKey
 (
 const

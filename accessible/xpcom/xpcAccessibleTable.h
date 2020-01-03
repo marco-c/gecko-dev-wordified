@@ -151,6 +151,7 @@ xpcAccessibleTable
 {
 public
 :
+explicit
 xpcAccessibleTable
 (
 mozilla

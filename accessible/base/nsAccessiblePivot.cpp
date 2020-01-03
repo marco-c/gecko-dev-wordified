@@ -170,6 +170,7 @@ RuleCache
 {
 public
 :
+explicit
 RuleCache
 (
 nsIAccessibleTraversalRule

@@ -134,6 +134,7 @@ EventQueue
 {
 protected
 :
+explicit
 EventQueue
 (
 DocAccessible

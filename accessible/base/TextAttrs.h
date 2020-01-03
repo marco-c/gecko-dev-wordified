@@ -205,6 +205,7 @@ attributes
 .
 *
 /
+explicit
 TextAttrsMgr
 (
 HyperTextAccessible
@@ -725,6 +726,7 @@ TextAttr
 {
 public
 :
+explicit
 TTextAttr
 (
 bool
@@ -1917,6 +1919,7 @@ TextDecorValue
 )
 {
 }
+explicit
 TextDecorValue
 (
 nsIFrame
