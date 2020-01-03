@@ -319,6 +319,14 @@ aOutput
 0
 ;
 virtual
+nsresult
+Flush
+(
+)
+=
+0
+;
+virtual
 void
 ReleaseMediaResources
 (

@@ -243,6 +243,13 @@ aOutput
 )
 MOZ_OVERRIDE
 ;
+virtual
+nsresult
+Flush
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 nsresult
