@@ -3949,6 +3949,10 @@ WillChange
 (
 )
 ;
+Flush
+(
+)
+;
 mLockedBits
 =
 cairo_image_surface_get_data
@@ -4013,6 +4017,11 @@ aData
 mLockedBits
 =
 nullptr
+;
+cairo_surface_mark_dirty
+(
+mSurface
+)
 ;
 }
 void
