@@ -356,6 +356,14 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
+nsresult
+HandleQueryContentEvent
+(
+WidgetQueryContentEvent
+*
+aEvent
+)
+;
 void
 Init
 (
