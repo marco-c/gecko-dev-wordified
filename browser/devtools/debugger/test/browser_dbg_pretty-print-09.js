@@ -62,9 +62,6 @@ mapped
 sources
 .
 var
-gDebuggee
-;
-var
 gClient
 ;
 var
@@ -75,7 +72,6 @@ gSource
 ;
 let
 gTab
-gDebuggee
 gPanel
 gClient
 gThreadClient
@@ -111,7 +107,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -121,10 +116,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -338,10 +329,12 @@ paused
 testDbgStatement
 )
 ;
-gDebuggee
-.
-a
+callInTab
 (
+gTab
+"
+a
+"
 )
 ;
 }
@@ -506,8 +499,6 @@ function
 )
 {
 gTab
-=
-gDebuggee
 =
 gPanel
 =

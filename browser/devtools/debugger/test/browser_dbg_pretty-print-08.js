@@ -63,7 +63,6 @@ sources
 .
 let
 gTab
-gDebuggee
 gPanel
 gClient
 gThreadClient
@@ -99,7 +98,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -109,10 +107,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -135,15 +129,6 @@ panelWin
 DebuggerController
 .
 activeThread
-;
-gDebuggee
-.
-noop
-=
-x
-=
->
-x
 ;
 findSource
 (
@@ -297,10 +282,12 @@ paused
 testDbgStatement
 )
 ;
-gDebuggee
-.
-main3
+callInTab
 (
+gTab
+"
+main3
+"
 )
 ;
 }
@@ -537,8 +524,6 @@ function
 )
 {
 gTab
-=
-gDebuggee
 =
 gPanel
 =
