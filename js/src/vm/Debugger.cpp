@@ -47011,7 +47011,7 @@ true
 static
 *
 /
-JSObject
+SavedFrame
 *
 Debugger
 :
@@ -47065,7 +47065,16 @@ isSavedFrameAndNotProto
 metadata
 )
 ?
+&
 metadata
+-
+>
+as
+<
+SavedFrame
+>
+(
+)
 :
 nullptr
 ;
