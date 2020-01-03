@@ -6369,11 +6369,10 @@ Ci
 nsIProgrammingLanguage
 .
 JAVASCRIPT
-getHelperForLanguage
+getScriptableHelper
 :
 function
 (
-aLanguage
 )
 null
 getInterfaces

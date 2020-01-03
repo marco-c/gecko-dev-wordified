@@ -2028,11 +2028,9 @@ NS_IMETHODIMP
 TransportSecurityInfo
 :
 :
-GetHelperForLanguage
+GetScriptableHelper
 (
-uint32_t
-language
-nsISupports
+nsIXPCScriptable
 *
 *
 _retval

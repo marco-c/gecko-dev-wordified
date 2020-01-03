@@ -972,11 +972,9 @@ NS_IMETHODIMP
 nsSSLStatus
 :
 :
-GetHelperForLanguage
+GetScriptableHelper
 (
-uint32_t
-aLanguage
-nsISupports
+nsIXPCScriptable
 *
 *
 aHelper

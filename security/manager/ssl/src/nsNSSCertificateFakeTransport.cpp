@@ -1246,10 +1246,9 @@ NS_IMETHODIMP
 nsNSSCertificateFakeTransport
 :
 :
-GetHelperForLanguage
+GetScriptableHelper
 (
-uint32_t
-nsISupports
+nsIXPCScriptable
 *
 *
 _retval

@@ -792,12 +792,10 @@ aArray
 typedef
 NS_CALLBACK
 (
-GetLanguageHelperProc
+GetScriptableHelperProc
 )
 (
-uint32_t
-aLanguage
-nsISupports
+nsIXPCScriptable
 *
 *
 aHelper
@@ -806,8 +804,8 @@ aHelper
 GetInterfacesProc
 getinterfaces
 ;
-GetLanguageHelperProc
-getlanguagehelper
+GetScriptableHelperProc
+getscriptablehelper
 ;
 uint32_t
 flags
@@ -894,7 +892,7 @@ define
 NS_IMPL_CLASSINFO
 (
 _class
-_getlanguagehelper
+_getscriptablehelper
 _flags
 _cid
 )
@@ -925,7 +923,7 @@ NS_CI_INTERFACE_GETTER_NAME
 _class
 )
 \
-_getlanguagehelper
+_getscriptablehelper
 \
 _flags
 |

@@ -276,7 +276,7 @@ object
 }
 ;
 }
-getHelperForLanguage
+getScriptableHelper
 :
 function
 (

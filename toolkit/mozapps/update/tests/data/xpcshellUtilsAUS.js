@@ -21215,11 +21215,10 @@ Ci
 nsIProgrammingLanguage
 .
 JAVASCRIPT
-getHelperForLanguage
+getScriptableHelper
 :
 function
 (
-aLanguage
 )
 null
 getInterfaces
@@ -21545,11 +21544,10 @@ Ci
 nsIProgrammingLanguage
 .
 JAVASCRIPT
-getHelperForLanguage
+getScriptableHelper
 :
 function
 (
-aLanguage
 )
 null
 getInterfaces

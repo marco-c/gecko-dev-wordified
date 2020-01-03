@@ -748,11 +748,9 @@ NS_IMETHODIMP
 nsThreadClassInfo
 :
 :
-GetHelperForLanguage
+GetScriptableHelper
 (
-uint32_t
-aLang
-nsISupports
+nsIXPCScriptable
 *
 *
 aResult

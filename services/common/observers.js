@@ -1109,7 +1109,7 @@ generateQI
 [
 ]
 )
-getHelperForLanguage
+getScriptableHelper
 :
 function
 (

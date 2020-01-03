@@ -551,12 +551,11 @@ return
 interfaces
 ;
 }
-getHelperForLanguage
+getScriptableHelper
 :
 function
-getHelperForLanguage
+getScriptableHelper
 (
-aLanguage
 )
 {
 return

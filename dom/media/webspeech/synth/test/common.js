@@ -86,7 +86,7 @@ c
 )
 {
 }
-getHelperForLanguage
+getScriptableHelper
 :
 function
 (
@@ -303,7 +303,7 @@ c
 )
 {
 }
-getHelperForLanguage
+getScriptableHelper
 :
 function
 (
@@ -541,7 +541,7 @@ c
 )
 {
 }
-getHelperForLanguage
+getScriptableHelper
 :
 function
 (
