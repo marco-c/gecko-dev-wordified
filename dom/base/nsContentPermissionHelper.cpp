@@ -195,6 +195,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PContentPermission
 .
 h

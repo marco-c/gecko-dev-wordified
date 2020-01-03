@@ -1340,6 +1340,9 @@ propertyList
 >
 mObjectValueMap
 aObject
+mozilla
+:
+:
 fallible
 )
 )
