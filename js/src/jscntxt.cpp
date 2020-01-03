@@ -6251,15 +6251,6 @@ jitIsBroken
 (
 false
 )
-#
-ifdef
-MOZ_TRACE_JSCALLS
-functionCallback
-(
-nullptr
-)
-#
-endif
 {
 MOZ_ASSERT
 (
