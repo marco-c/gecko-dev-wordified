@@ -5798,7 +5798,6 @@ parent
 .
 *
 /
-virtual
 void
 BindToParent
 (
@@ -5809,7 +5808,6 @@ uint32_t
 aIndexInParent
 )
 ;
-virtual
 void
 UnbindFromParent
 (
