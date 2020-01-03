@@ -1723,8 +1723,7 @@ path
 path
 )
     
-ret
-=
+return
 os
 .
 path
@@ -1733,19 +1732,6 @@ join
 (
 FILE_PATH_PREFIX
 path
-)
-    
-return
-ret
-.
-replace
-(
-os
-.
-sep
-'
-/
-'
 )
 def
 WriteManifest
