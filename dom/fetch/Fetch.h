@@ -695,6 +695,7 @@ bool
 BodyUsed
 (
 )
+const
 {
 return
 mBodyUsed

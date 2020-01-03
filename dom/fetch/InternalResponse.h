@@ -157,6 +157,14 @@ nsACString
 aStatusText
 )
 ;
+already_AddRefed
+<
+InternalResponse
+>
+Clone
+(
+)
+;
 static
 already_AddRefed
 <
@@ -517,6 +525,8 @@ Used
 to
 create
 filtered
+and
+cloned
 responses
 .
 /
@@ -525,6 +535,9 @@ Does
 not
 copy
 headers
+or
+body
+stream
 .
 explicit
 InternalResponse

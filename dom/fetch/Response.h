@@ -483,7 +483,11 @@ Response
 >
 Clone
 (
+ErrorResult
+&
+aRv
 )
+const
 ;
 void
 SetBody
