@@ -1965,6 +1965,15 @@ value
 \
 macro
 (
+values
+values
+"
+values
+"
+)
+\
+macro
+(
 valueOf
 valueOf
 "
