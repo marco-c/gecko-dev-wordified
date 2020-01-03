@@ -702,7 +702,13 @@ aUsageInfo
 override
 {
 return
-NS_OK
+GetUsageForOrigin
+(
+aPersistenceType
+aGroup
+aOrigin
+aUsageInfo
+)
 ;
 }
 virtual
