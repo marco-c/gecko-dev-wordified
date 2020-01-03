@@ -23341,6 +23341,10 @@ ServerCert
 :
 [
 ]
+UserCert
+:
+[
+]
 }
 ;
 let
@@ -23351,6 +23355,11 @@ SERVERCERT
 :
 "
 ServerCert
+"
+USERCERT
+:
+"
+UserCert
 "
 }
 ;
