@@ -945,7 +945,6 @@ endif
 -
 -
 -
-inline
 void
 ReleaseData
 (
