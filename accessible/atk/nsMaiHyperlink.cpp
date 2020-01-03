@@ -1156,6 +1156,7 @@ aLink
 ;
 if
 (
+!
 maiLink
 )
 return
