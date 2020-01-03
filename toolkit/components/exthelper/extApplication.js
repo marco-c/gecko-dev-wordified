@@ -4165,6 +4165,7 @@ extIExtensions
 /
 Application
 globals
+var
 gExtensionObserver
 =
 new
@@ -4172,6 +4173,7 @@ ExtensionObserver
 (
 )
 ;
+var
 gPreferenceObserver
 =
 new
