@@ -1251,6 +1251,13 @@ return
 NS_OK
 ;
 }
+void
+Refresh
+(
+int
+aIndex
+)
+;
 protected
 :
 ~
