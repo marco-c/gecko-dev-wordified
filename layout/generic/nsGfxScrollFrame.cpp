@@ -19836,7 +19836,7 @@ aContainerReferenceFrame
 )
 ;
 bool
-isRoot
+isRootContent
 =
 mIsRoot
 &
@@ -19887,7 +19887,7 @@ mOuter
 ;
 if
 (
-isRoot
+isRootContent
 )
 {
 double
@@ -20030,7 +20030,7 @@ document
 if
 (
 !
-isRoot
+isRootContent
 )
 {
 thisScrollFrameUsesAsyncScrolling
@@ -20223,7 +20223,7 @@ aLayer
 mScrollParentID
 scrollport
 parentLayerClip
-isRoot
+isRootContent
 aParameters
 )
 ;

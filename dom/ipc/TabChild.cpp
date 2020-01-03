@@ -3789,7 +3789,7 @@ if
 (
 aFrameMetrics
 .
-GetIsRoot
+IsRootContent
 (
 )
 )

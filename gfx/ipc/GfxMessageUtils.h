@@ -4532,7 +4532,7 @@ WriteParam
 aMsg
 aParam
 .
-mIsRoot
+mIsRootContent
 )
 ;
 WriteParam
@@ -4923,7 +4923,7 @@ aIter
 aResult
 -
 >
-mIsRoot
+mIsRootContent
 )
 &
 &

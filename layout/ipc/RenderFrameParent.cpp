@@ -1308,7 +1308,7 @@ void
 SendAsyncScrollDOMEvent
 (
 bool
-aIsRoot
+aIsRootContent
 const
 CSSRect
 &
@@ -1347,7 +1347,7 @@ RemoteContentController
 :
 :
 SendAsyncScrollDOMEvent
-aIsRoot
+aIsRootContent
 aContentRect
 aContentSize
 )
@@ -1361,7 +1361,7 @@ if
 mRenderFrame
 &
 &
-aIsRoot
+aIsRootContent
 )
 {
 TabParent
