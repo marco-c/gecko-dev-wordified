@@ -2423,7 +2423,6 @@ etc
 enum
 GraphicsOperator
 {
-OPERATOR_CLEAR
 OPERATOR_SOURCE
 OPERATOR_OVER
 OPERATOR_IN
@@ -3213,10 +3212,6 @@ CompositionOp
 :
 OP_OVER
 )
-opIsClear
-(
-false
-)
 color
 (
 0
@@ -3270,9 +3265,6 @@ gfx
 :
 CompositionOp
 op
-;
-bool
-opIsClear
 ;
 Color
 color
