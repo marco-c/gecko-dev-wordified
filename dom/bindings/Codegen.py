@@ -8360,7 +8360,7 @@ h
 And
 we
 need
-BindingUtils
+ToJSValue
 .
 h
 so
@@ -8381,7 +8381,7 @@ mozilla
 /
 dom
 /
-BindingUtils
+ToJSValue
 .
 h
 "
@@ -8435,7 +8435,7 @@ h
 And
 we
 need
-BindingUtils
+ToJSValue
 .
 h
 so
@@ -8456,7 +8456,7 @@ mozilla
 /
 dom
 /
-BindingUtils
+ToJSValue
 .
 h
 "
@@ -109434,7 +109434,7 @@ GetContext
 if
 (
 !
-WrapCallThisValue
+ToJSValue
 (
 s
 .
