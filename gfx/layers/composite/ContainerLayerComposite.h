@@ -301,7 +301,7 @@ RefPtr
 <
 CompositingRenderTarget
 >
-CreateTemporaryTarget
+CreateOrRecycleTarget
 (
 ContainerT
 *
