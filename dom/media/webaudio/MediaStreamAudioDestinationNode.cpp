@@ -300,12 +300,6 @@ mOutputStream
 EnsureTrack
 (
 MEDIA_STREAM_DEST_TRACK_ID
-aStream
--
->
-SampleRate
-(
-)
 )
 ;
 AudioSegment

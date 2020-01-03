@@ -2467,7 +2467,6 @@ mFinished
 EnsureTrack
 (
 AUDIO_TRACK
-mSampleRate
 )
 ;
 }
@@ -3198,7 +3197,6 @@ track
 EnsureTrack
 (
 AUDIO_TRACK
-mSampleRate
 )
 ;
 AudioSegment
@@ -3354,7 +3352,6 @@ return
 EnsureTrack
 (
 AUDIO_TRACK
-mSampleRate
 )
 -
 >
@@ -3399,7 +3396,6 @@ track
 EnsureTrack
 (
 AUDIO_TRACK
-mSampleRate
 )
 ;
 track

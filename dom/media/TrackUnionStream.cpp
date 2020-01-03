@@ -1383,16 +1383,6 @@ id
 maxTrackID
 ;
 }
-TrackRate
-rate
-=
-aTrack
--
->
-GetRate
-(
-)
-;
 /
 /
 Round
@@ -1536,7 +1526,6 @@ mBuffer
 AddTrack
 (
 id
-rate
 outputStart
 segment
 .
