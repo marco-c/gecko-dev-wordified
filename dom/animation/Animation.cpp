@@ -3924,11 +3924,10 @@ IsNull
 mTimeline
 &
 &
-!
 mTimeline
 -
 >
-IsUnderTestControl
+TracksWallclockTime
 (
 )
 )

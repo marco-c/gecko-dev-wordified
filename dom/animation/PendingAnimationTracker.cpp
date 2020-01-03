@@ -430,10 +430,11 @@ TriggerPendingAnimationsNow
 .
 if
 (
+!
 timeline
 -
 >
-IsUnderTestControl
+TracksWallclockTime
 (
 )
 )
