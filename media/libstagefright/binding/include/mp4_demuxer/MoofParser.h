@@ -940,6 +940,11 @@ BlockingReadNextMoof
 (
 )
 ;
+bool
+HasMetadata
+(
+)
+;
 mozilla
 :
 :
