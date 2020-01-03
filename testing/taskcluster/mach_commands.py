@@ -427,7 +427,7 @@ join
 DOCKER_ROOT
 name
 '
-REPOSITORY
+REGISTRY
 '
 )
     
