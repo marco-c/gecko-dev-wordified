@@ -592,17 +592,12 @@ class
 namespace
 detail
 {
-#
-ifdef
-DEBUG
 const
 MozRefCountType
 DEAD
 =
 0xffffdead
 ;
-#
-endif
 /
 /
 When

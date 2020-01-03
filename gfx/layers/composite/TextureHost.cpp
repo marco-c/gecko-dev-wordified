@@ -4120,7 +4120,6 @@ RecycleCallback
 (
 TextureHost
 *
-textureHost
 void
 *
 aClosure
