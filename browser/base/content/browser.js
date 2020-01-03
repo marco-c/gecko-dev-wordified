@@ -7506,6 +7506,8 @@ init
 (
 )
 ;
+/
+/
 ReadingListUI
 .
 init
@@ -9865,6 +9867,12 @@ window
 )
 ;
 gMenuButtonUpdateBadge
+.
+init
+(
+)
+;
+ReadingListUI
 .
 init
 (
