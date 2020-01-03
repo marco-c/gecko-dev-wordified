@@ -7333,6 +7333,7 @@ i
 1
 )
 )
+{
 v
 =
 iter
@@ -7341,7 +7342,15 @@ read
 (
 )
 ;
+}
 else
+{
+iter
+.
+skip
+(
+)
+;
 v
 =
 MagicValue
@@ -7349,6 +7358,7 @@ MagicValue
 JS_OPTIMIZED_OUT
 )
 ;
+}
 }
 else
 {
