@@ -1402,6 +1402,14 @@ aAddr
 MOZ_ASSERT
 (
 aAddrLen
+>
+0
+&
+&
+(
+size_t
+)
+aAddrLen
 <
 =
 sizeof

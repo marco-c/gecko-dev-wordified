@@ -797,7 +797,7 @@ FDs
 /
 static
 const
-int
+size_t
 kReservedFileDescriptors
 =
 5

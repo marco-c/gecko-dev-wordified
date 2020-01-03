@@ -324,7 +324,7 @@ PlanarYCbCrData
 Data
 ;
 static
-uint32_t
+int32_t
 sColorIdMap
 [
 ]

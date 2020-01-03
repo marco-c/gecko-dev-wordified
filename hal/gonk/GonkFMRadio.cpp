@@ -3435,13 +3435,13 @@ block_bitmap
 =
 (
 (
-1
+1u
 <
 <
 blocknum
 )
 -
-1
+1u
 )
 )
 {

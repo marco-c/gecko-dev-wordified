@@ -357,7 +357,7 @@ GetPrevFBAcquireFd
 float
 xdpi
 ;
-uint32_t
+int32_t
 surfaceformat
 ;
 }

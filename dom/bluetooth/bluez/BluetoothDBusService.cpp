@@ -4646,7 +4646,7 @@ aPropertyType
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -21169,6 +21169,14 @@ prevAlbum
 ;
 if
 (
+aMediaNumber
+<
+0
+|
+|
+(
+uint64_t
+)
 aMediaNumber
 !
 =
