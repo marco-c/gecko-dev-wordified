@@ -10220,7 +10220,7 @@ if
 mTarget
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )
