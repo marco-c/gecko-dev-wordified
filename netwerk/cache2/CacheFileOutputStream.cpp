@@ -1728,10 +1728,6 @@ mChunk
 forget
 (
 )
-.
-take
-(
-)
 )
 ;
 }

@@ -2201,10 +2201,6 @@ mChunk
 forget
 (
 )
-.
-take
-(
-)
 )
 ;
 }
