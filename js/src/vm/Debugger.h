@@ -4117,6 +4117,15 @@ false
 /
 static
 void
+markIncomingCrossCompartmentEdges
+(
+JSTracer
+*
+tracer
+)
+;
+static
+void
 markAllCrossCompartmentEdges
 (
 JSTracer
