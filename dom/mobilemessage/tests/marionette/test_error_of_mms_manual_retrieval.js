@@ -130,7 +130,7 @@ org
 /
 mobilemessage
 /
-rilmobilemessagedatabaseservice
+gonkmobilemessagedatabaseservice
 ;
 1
 "
@@ -140,7 +140,7 @@ getService
 (
 Ci
 .
-nsIRilMobileMessageDatabaseService
+nsIGonkMobileMessageDatabaseService
 )
 ;
 let

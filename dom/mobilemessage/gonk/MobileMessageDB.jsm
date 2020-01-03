@@ -15876,7 +15876,7 @@ null
 *
 *
 *
-nsIRilMobileMessageDatabaseService
+nsIGonkMobileMessageDatabaseService
 API
 *
 /

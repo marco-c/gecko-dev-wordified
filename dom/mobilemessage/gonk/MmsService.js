@@ -1134,12 +1134,12 @@ org
 /
 mobilemessage
 /
-rilmobilemessagedatabaseservice
+gonkmobilemessagedatabaseservice
 ;
 1
 "
 "
-nsIRilMobileMessageDatabaseService
+nsIGonkMobileMessageDatabaseService
 "
 )
 ;

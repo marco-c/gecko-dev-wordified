@@ -376,11 +376,11 @@ takes
 either
 a
 *
-nsIRilMobileMessageDatabaseCallback
+nsIGonkMobileMessageDatabaseCallback
 or
 a
 *
-nsIRilMobileMessageDatabaseRecordCallback
+nsIGonkMobileMessageDatabaseRecordCallback
 .
 *
 *

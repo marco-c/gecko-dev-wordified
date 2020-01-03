@@ -352,7 +352,7 @@ MOZ_B2G_RIL
 #
 include
 "
-nsIRilMobileMessageDatabaseService
+nsIGonkMobileMessageDatabaseService
 .
 h
 "
@@ -3997,7 +3997,7 @@ mobileMessageDBService
 =
 do_CreateInstance
 (
-RIL_MOBILE_MESSAGE_DATABASE_SERVICE_CONTRACTID
+GONK_MOBILE_MESSAGE_DATABASE_SERVICE_CONTRACTID
 )
 ;
 #
