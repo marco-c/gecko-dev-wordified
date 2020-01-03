@@ -11880,15 +11880,10 @@ IsAlwaysActive
 )
 &
 &
-gfxPlatform
+gfxPrefs
 :
 :
-GetPlatform
-(
-)
--
->
-UseTiling
+LayersTilesEnabled
 (
 )
 &
