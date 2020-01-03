@@ -18220,13 +18220,11 @@ value
 of
 the
 existing
-of
-the
 display
-/
-/
 port
 if
+/
+/
 any
 .
 usingDisplayport
