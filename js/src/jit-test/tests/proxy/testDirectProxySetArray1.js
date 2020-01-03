@@ -92,9 +92,6 @@ writable
 true
 )
 ;
-return
-true
-;
 }
 }
 )

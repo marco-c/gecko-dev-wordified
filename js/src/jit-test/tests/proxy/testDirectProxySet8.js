@@ -66,9 +66,6 @@ hits
 +
 +
 ;
-return
-true
-;
 }
 }
 )

@@ -125,9 +125,6 @@ value
 42
 )
 ;
-return
-true
-;
 }
 }
 )

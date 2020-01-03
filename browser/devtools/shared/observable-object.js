@@ -994,9 +994,6 @@ desc
 )
 ;
 }
-return
-true
-;
 }
 }
 ;

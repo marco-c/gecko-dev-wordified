@@ -119,9 +119,6 @@ configurable
 true
 )
 ;
-return
-true
-;
 }
 }
 ;

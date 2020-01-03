@@ -118,9 +118,6 @@ ponies
 "
 )
 ;
-return
-true
-;
 }
 }
 )
