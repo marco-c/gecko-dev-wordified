@@ -268,7 +268,7 @@ test_confirm_unblock_dialog_unblock
 addDialogOpenObserver
 (
 "
-cancel
+accept
 "
 )
 ;
@@ -318,7 +318,7 @@ test_confirm_unblock_dialog_keep_safe
 addDialogOpenObserver
 (
 "
-accept
+cancel
 "
 )
 ;
