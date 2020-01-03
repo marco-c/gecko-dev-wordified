@@ -776,7 +776,7 @@ aImage
 uint32_t
 aImageFlags
 const
-nsIntSize
+IntSize
 &
 aSize
 RawAccessFrameRef
@@ -1503,7 +1503,7 @@ RawAccessFrameRef
 mDstRef
 ;
 const
-nsIntSize
+IntSize
 mDstSize
 ;
 uint32_t
@@ -3379,7 +3379,7 @@ LookupFrame
 uint32_t
 aFrameNum
 const
-nsIntSize
+IntSize
 &
 aSize
 uint32_t
@@ -3728,7 +3728,7 @@ GetCurrentFrameIndex
 )
 ;
 }
-nsIntRect
+IntRect
 RasterImage
 :
 :
@@ -3769,9 +3769,9 @@ if
 mHasSize
 .
 return
-nsIntRect
+IntRect
 (
-nsIntPoint
+IntPoint
 (
 0
 0
@@ -4549,7 +4549,7 @@ return
 nullptr
 ;
 }
-nsIntRect
+IntRect
 intFrameRect
 =
 frameRef
@@ -5008,7 +5008,7 @@ SourceSurface
 >
 frameSurf
 ;
-nsIntRect
+IntRect
 frameRect
 =
 frameRef
@@ -5855,7 +5855,7 @@ aImage
 uint32_t
 aNewFrameCount
 const
-nsIntRect
+IntRect
 &
 aNewRefreshArea
 )
@@ -5908,7 +5908,7 @@ mImage
 uint32_t
 mNewFrameCount
 ;
-nsIntRect
+IntRect
 mNewRefreshArea
 ;
 }
@@ -5922,7 +5922,7 @@ OnAddedFrame
 uint32_t
 aNewFrameCount
 const
-nsIntRect
+IntRect
 &
 aNewRefreshArea
 )
@@ -7322,7 +7322,7 @@ aLoopCount
 }
 NS_IMETHODIMP_
 (
-nsIntRect
+IntRect
 )
 RasterImage
 :
@@ -7330,7 +7330,7 @@ RasterImage
 GetImageSpaceInvalidationRect
 (
 const
-nsIntRect
+IntRect
 &
 aRect
 )
@@ -8329,7 +8329,7 @@ CreateDecoder
 const
 Maybe
 <
-nsIntSize
+IntSize
 >
 &
 aSize
@@ -9298,7 +9298,7 @@ RasterImage
 RequestDecodeForSize
 (
 const
-nsIntSize
+IntSize
 &
 aSize
 uint32_t
@@ -9357,7 +9357,7 @@ during
 -
 decode
 .
-nsIntSize
+IntSize
 targetSize
 =
 mDownscaleDuringDecode
@@ -9479,7 +9479,7 @@ Decode
 const
 Maybe
 <
-nsIntSize
+IntSize
 >
 &
 aSize
@@ -9938,7 +9938,7 @@ RasterImage
 RecoverFromLossOfFrames
 (
 const
-nsIntSize
+IntSize
 &
 aSize
 uint32_t
@@ -10077,7 +10077,7 @@ CanScale
 GraphicsFilter
 aFilter
 const
-nsIntSize
+IntSize
 &
 aSize
 uint32_t
@@ -10580,7 +10580,7 @@ RasterImage
 CanDownscaleDuringDecode
 (
 const
-nsIntSize
+IntSize
 &
 aSize
 uint32_t
@@ -10814,7 +10814,7 @@ possible
 NotifyProgress
 (
 NoProgress
-nsIntRect
+IntRect
 (
 0
 0
@@ -10840,7 +10840,7 @@ aFrame
 uint32_t
 aFlags
 const
-nsIntSize
+IntSize
 &
 aSize
 )
@@ -11032,7 +11032,7 @@ gfxContext
 *
 aContext
 const
-nsIntSize
+IntSize
 &
 aSize
 const
@@ -11561,14 +11561,14 @@ aFill
 const
 ]
 in
-nsIntRect
+IntRect
 aSubimage
 *
 [
 const
 ]
 in
-nsIntSize
+IntSize
 aViewportSize
 *
 [
@@ -11602,7 +11602,7 @@ gfxContext
 *
 aContext
 const
-nsIntSize
+IntSize
 &
 aSize
 const
@@ -12926,13 +12926,13 @@ NotifyProgress
 Progress
 aProgress
 const
-nsIntRect
+IntRect
 &
 aInvalidRect
 /
 *
 =
-nsIntRect
+IntRect
 (
 )
 *
@@ -13440,7 +13440,7 @@ forget
 )
 ;
 }
-nsIntSize
+IntSize
 RasterImage
 :
 :
@@ -13520,14 +13520,14 @@ IsEmpty
 )
 {
 return
-nsIntSize
+IntSize
 (
 0
 0
 )
 ;
 }
-nsIntSize
+IntSize
 destSize
 (
 ceil

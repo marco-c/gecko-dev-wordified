@@ -160,6 +160,13 @@ nsSize
 h
 "
 #
+include
+"
+nsRect
+.
+h
+"
+#
 if
 !
 (
@@ -253,9 +260,6 @@ mozilla
 :
 :
 CheckedUint32
-;
-struct
-nsIntRect
 ;
 /
 /

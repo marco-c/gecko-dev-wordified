@@ -380,12 +380,6 @@ endif
 class
 gfxReusableSurfaceWrapper
 ;
-struct
-nsIntPoint
-;
-struct
-nsIntRect
-;
 namespace
 mozilla
 {
@@ -1007,7 +1001,10 @@ ValidateTile
 TileHost
 aTile
 const
-nsIntPoint
+gfx
+:
+:
+IntPoint
 &
 aTileRect
 const
@@ -1715,7 +1712,10 @@ nsIntRegion
 &
 aScreenRegion
 const
-nsIntPoint
+gfx
+:
+:
+IntPoint
 &
 aTextureOffset
 const

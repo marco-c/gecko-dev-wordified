@@ -2143,9 +2143,6 @@ error
 .
 rect
 =
-nsIntRect
-:
-:
 GetMaxSizedIntRect
 (
 )

@@ -1478,10 +1478,9 @@ rect
 >
 SetLayoutRect
 (
-screenRect
-.
 ToAppUnits
 (
+screenRect
 pp
 )
 )

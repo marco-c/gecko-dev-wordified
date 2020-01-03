@@ -152,12 +152,6 @@ h
 for
 MOZ_COUNT_CTOR
 etc
-struct
-nsIntPoint
-;
-struct
-nsIntRect
-;
 namespace
 mozilla
 {
@@ -287,7 +281,10 @@ void
 RenderLayer
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aClipRect
 )

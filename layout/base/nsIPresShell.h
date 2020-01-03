@@ -285,6 +285,13 @@ h
 #
 include
 "
+nsRect
+.
+h
+"
+#
+include
+"
 mozFlushType
 .
 h
@@ -468,12 +475,6 @@ nsPoint
 ;
 class
 nsINode
-;
-struct
-nsIntPoint
-;
-struct
-nsIntRect
 ;
 struct
 nsRect

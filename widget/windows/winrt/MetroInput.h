@@ -251,9 +251,6 @@ declarations
 class
 MetroWidget
 ;
-struct
-nsIntPoint
-;
 namespace
 mozilla
 {

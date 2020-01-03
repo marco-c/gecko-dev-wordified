@@ -4248,11 +4248,12 @@ Next
 nsRect
 appRect
 =
-currentRect
--
->
+:
+:
 ToAppUnits
 (
+*
+currentRect
 aAppUnitsPerPixel
 )
 ;

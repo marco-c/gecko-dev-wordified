@@ -171,6 +171,13 @@ nsRefPtrHashtable
 .
 h
 "
+#
+include
+"
+nsRect
+.
+h
+"
 struct
 nsRoleMapEntry
 ;
@@ -182,9 +189,6 @@ nsIFrame
 ;
 class
 nsIAtom
-;
-struct
-nsIntRect
 ;
 class
 nsIPersistentProperties

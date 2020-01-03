@@ -135,9 +135,13 @@ QuartzSupport
 .
 h
 "
-struct
-nsIntRect
-;
+#
+include
+"
+nsRect
+.
+h
+"
 namespace
 mozilla
 {

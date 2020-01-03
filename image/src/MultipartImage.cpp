@@ -1262,9 +1262,6 @@ newCurrentPartTracker
 GetProgress
 (
 )
-nsIntRect
-:
-:
 GetMaxSizedIntRect
 (
 )

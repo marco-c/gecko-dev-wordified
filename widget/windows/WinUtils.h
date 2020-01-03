@@ -181,6 +181,13 @@ h
 #
 include
 "
+nsRect
+.
+h
+"
+#
+include
+"
 nsIRunnable
 .
 h
@@ -485,9 +492,6 @@ nsWindowBase
 ;
 struct
 KeyPair
-;
-struct
-nsIntRect
 ;
 namespace
 mozilla

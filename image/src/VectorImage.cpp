@@ -1328,7 +1328,7 @@ SVGDocumentWrapper
 *
 aSVGDocumentWrapper
 const
-nsIntRect
+IntRect
 &
 aViewport
 const
@@ -1389,7 +1389,7 @@ SVGDocumentWrapper
 mSVGDocumentWrapper
 ;
 const
-nsIntRect
+IntRect
 mViewport
 ;
 const
@@ -3223,9 +3223,6 @@ mProgressTracker
 SyncNotifyProgress
 (
 FLAG_FRAME_COMPLETE
-nsIntRect
-:
-:
 GetMaxSizedIntRect
 (
 )
@@ -3235,7 +3232,7 @@ GetMaxSizedIntRect
 }
 NS_IMETHODIMP_
 (
-nsIntRect
+IntRect
 )
 VectorImage
 :
@@ -3243,7 +3240,7 @@ VectorImage
 GetImageSpaceInvalidationRect
 (
 const
-nsIntRect
+IntRect
 &
 aRect
 )
@@ -5419,9 +5416,9 @@ new
 SVGDrawingCallback
 (
 mSVGDocumentWrapper
-nsIntRect
+IntRect
 (
-nsIntPoint
+IntPoint
 (
 0
 0
@@ -5912,9 +5909,6 @@ mProgressTracker
 SyncNotifyProgress
 (
 FLAG_FRAME_COMPLETE
-nsIntRect
-:
-:
 GetMaxSizedIntRect
 (
 )
@@ -7779,9 +7773,6 @@ FLAG_FRAME_COMPLETE
 FLAG_DECODE_COMPLETE
 |
 FLAG_ONLOAD_UNBLOCKED
-nsIntRect
-:
-:
 GetMaxSizedIntRect
 (
 )

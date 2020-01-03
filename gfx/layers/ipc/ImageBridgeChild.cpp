@@ -535,9 +535,6 @@ TextureClient
 .
 h
 "
-struct
-nsIntRect
-;
 namespace
 mozilla
 {
@@ -1031,7 +1028,10 @@ CompositableClient
 *
 aCompositable
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRect
 )

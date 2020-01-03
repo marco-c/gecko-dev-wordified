@@ -150,6 +150,13 @@ h
 "
 #
 include
+"
+nsRect
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -179,9 +186,6 @@ nsPresContext
 ;
 class
 nsCellMapColumnIterator
-;
-struct
-nsIntRect
 ;
 struct
 nsColInfo

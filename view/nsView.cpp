@@ -4613,10 +4613,9 @@ rect
 nsRect
 windowBounds
 =
-rect
-.
 ToAppUnits
 (
+rect
 p2a
 )
 ;
@@ -4631,10 +4630,9 @@ rect
 nsRect
 nonclientBounds
 =
-rect
-.
 ToAppUnits
 (
+rect
 p2a
 )
 ;

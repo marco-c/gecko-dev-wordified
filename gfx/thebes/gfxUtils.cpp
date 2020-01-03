@@ -4300,7 +4300,7 @@ aRegion
 )
 ;
 const
-nsIntRect
+IntRect
 *
 r
 ;
@@ -4411,7 +4411,7 @@ aRegion
 )
 ;
 const
-nsIntRect
+IntRect
 *
 r
 ;
@@ -4559,7 +4559,7 @@ IsComplex
 )
 )
 {
-nsIntRect
+IntRect
 rect
 =
 aRegion
@@ -5484,7 +5484,7 @@ const
 gfxRect
 &
 aIn
-nsIntRect
+IntRect
 *
 aOut
 )
@@ -5492,7 +5492,7 @@ aOut
 *
 aOut
 =
-nsIntRect
+IntRect
 (
 int32_t
 (
@@ -6272,7 +6272,7 @@ ClearThebesSurface
 gfxASurface
 *
 aSurface
-nsIntRect
+IntRect
 *
 aRect
 const
@@ -6348,7 +6348,7 @@ ctx
 CAIRO_OPERATOR_SOURCE
 )
 ;
-nsIntRect
+IntRect
 bounds
 ;
 if
@@ -6366,7 +6366,7 @@ else
 {
 bounds
 =
-nsIntRect
+IntRect
 (
 nsIntPoint
 (

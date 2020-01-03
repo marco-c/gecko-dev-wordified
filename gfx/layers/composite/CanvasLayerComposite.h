@@ -199,9 +199,6 @@ h
 /
 for
 nsACString
-struct
-nsIntPoint
-;
 namespace
 mozilla
 {

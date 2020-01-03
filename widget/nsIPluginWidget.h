@@ -101,6 +101,13 @@ nsISupports
 h
 "
 #
+include
+"
+nsPoint
+.
+h
+"
+#
 define
 NS_IPLUGINWIDGET_IID
 \
@@ -120,9 +127,6 @@ NS_IPLUGINWIDGET_IID
 0xF7
 }
 }
-struct
-nsIntPoint
-;
 class
 nsIPluginInstanceOwner
 ;

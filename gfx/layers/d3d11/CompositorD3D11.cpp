@@ -6684,9 +6684,9 @@ offset
 nsIntRect
 intRect
 =
-nsIntRect
+IntRect
 (
-nsIntPoint
+IntPoint
 (
 0
 0

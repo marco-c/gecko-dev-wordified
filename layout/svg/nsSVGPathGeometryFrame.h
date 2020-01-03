@@ -198,9 +198,6 @@ nsPoint
 struct
 nsRect
 ;
-struct
-nsIntRect
-;
 typedef
 nsFrame
 nsSVGPathGeometryFrameBase

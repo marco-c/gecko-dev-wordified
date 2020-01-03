@@ -308,17 +308,6 @@ etc
 #
 include
 "
-nsPoint
-.
-h
-"
-/
-/
-for
-nsIntPoint
-#
-include
-"
 nsRect
 .
 h
@@ -326,7 +315,7 @@ h
 /
 /
 for
-nsIntRect
+IntRect
 #
 include
 "
@@ -371,11 +360,11 @@ false
 )
 ;
 static
-nsIntRect
+IntRect
 TransformRect
 (
 const
-nsIntRect
+IntRect
 &
 aRect
 const
@@ -394,7 +383,7 @@ IsEmpty
 )
 {
 return
-nsIntRect
+IntRect
 (
 )
 ;
@@ -431,7 +420,7 @@ RoundOut
 (
 )
 ;
-nsIntRect
+IntRect
 intRect
 ;
 if
@@ -452,7 +441,7 @@ intRect
 )
 {
 return
-nsIntRect
+IntRect
 (
 )
 ;
@@ -485,7 +474,7 @@ aSource
 )
 ;
 const
-nsIntRect
+IntRect
 *
 r
 ;
@@ -879,7 +868,7 @@ void
 MoveBy
 (
 const
-nsIntPoint
+IntPoint
 &
 aOffset
 )
@@ -1149,7 +1138,7 @@ return
 result
 ;
 }
-nsIntRect
+IntRect
 NewTransformedBounds
 (
 )
@@ -1176,7 +1165,7 @@ GetLocalTransform
 )
 ;
 }
-nsIntRect
+IntRect
 OldTransformedBounds
 (
 )
@@ -1205,7 +1194,7 @@ aGeometryChanged
 )
 {
 return
-nsIntRect
+IntRect
 (
 )
 ;
@@ -2190,7 +2179,7 @@ result
 gfxRGBA
 mColor
 ;
-nsIntRect
+IntRect
 mBounds
 ;
 }
@@ -2305,7 +2294,7 @@ aGeometryChanged
 =
 true
 ;
-nsIntRect
+IntRect
 result
 =
 NewTransformedBounds
@@ -2419,7 +2408,7 @@ GetCurrentSize
 (
 )
 ;
-nsIntRect
+IntRect
 rect
 (
 0
@@ -2455,7 +2444,7 @@ NewTransformedBounds
 }
 }
 return
-nsIntRect
+IntRect
 (
 )
 ;
@@ -2824,7 +2813,7 @@ aRoot
 )
 ;
 }
-nsIntRect
+IntRect
 result
 =
 TransformRect
@@ -2928,7 +2917,7 @@ LayerPropertiesBase
 MoveBy
 (
 const
-nsIntPoint
+IntPoint
 &
 aOffset
 )

@@ -552,13 +552,13 @@ cairo_t
 *
 cr
 const
-nsIntRect
+IntRect
 &
 bounds
 bool
 *
 need_clip
-nsIntRect
+IntRect
 *
 rectangles
 int
@@ -668,7 +668,7 @@ num_rectangles
 i
 )
 {
-nsIntRect
+IntRect
 rect
 ;
 if
@@ -1150,7 +1150,7 @@ offsets
 "
 )
 ;
-nsIntPoint
+IntPoint
 offset
 (
 NS_lroundf
@@ -1221,7 +1221,7 @@ rectangles
 .
 *
 /
-nsIntRect
+IntRect
 bounds
 (
 offset
@@ -1233,7 +1233,7 @@ bounds
 IntersectRect
 (
 bounds
-nsIntRect
+IntRect
 (
 0
 0
@@ -1253,7 +1253,7 @@ needs_clip
 =
 true
 ;
-nsIntRect
+IntRect
 rectangles
 [
 MAX_STATIC_CLIP_RECTANGLES
@@ -2773,7 +2773,7 @@ DrawOntoTempSurface
 cairo_surface_t
 *
 tempXlibSurface
-nsIntPoint
+IntPoint
 offset
 )
 {
@@ -3223,10 +3223,10 @@ visual
 return
 ;
 }
-nsIntRect
+IntRect
 drawingRect
 (
-nsIntPoint
+IntPoint
 (
 0
 0
@@ -3299,7 +3299,7 @@ RoundOut
 (
 )
 ;
-nsIntRect
+IntRect
 intExtents
 (
 int32_t

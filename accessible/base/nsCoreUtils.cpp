@@ -1853,10 +1853,9 @@ return
 nsPoint
 point
 =
-aPoint
-.
 ToAppUnits
 (
+aPoint
 aFrame
 -
 >

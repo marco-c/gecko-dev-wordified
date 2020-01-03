@@ -178,9 +178,6 @@ nsPoint
 struct
 nsRect
 ;
-struct
-nsIntRect
-;
 typedef
 nsContainerFrame
 nsSVGContainerFrameBase

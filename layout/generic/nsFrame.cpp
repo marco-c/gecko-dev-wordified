@@ -188,6 +188,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -32388,6 +32395,11 @@ toplevelScreenBounds
 nsIntPoint
 translation
 =
+gfx
+:
+:
+ThebesIntPoint
+(
 screenBounds
 .
 TopLeft
@@ -32398,6 +32410,7 @@ toplevelScreenBounds
 .
 TopLeft
 (
+)
 )
 ;
 Matrix4x4

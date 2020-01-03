@@ -216,9 +216,6 @@ endif
 class
 nsIInputStream
 ;
-struct
-nsIntRect
-;
 class
 nsPluginDOMContextMenuListener
 ;

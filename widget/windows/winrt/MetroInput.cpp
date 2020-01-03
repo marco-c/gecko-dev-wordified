@@ -256,6 +256,13 @@ nsIPresShell
 .
 h
 "
+#
+include
+"
+nsPoint
+.
+h
+"
 /
 /
 System

@@ -270,17 +270,6 @@ etc
 #
 include
 "
-nsPoint
-.
-h
-"
-/
-/
-for
-nsIntPoint
-#
-include
-"
 nsString
 .
 h

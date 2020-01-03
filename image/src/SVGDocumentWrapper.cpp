@@ -503,9 +503,9 @@ mViewer
 >
 SetBounds
 (
-nsIntRect
+IntRect
 (
-nsIntPoint
+IntPoint
 (
 0
 0

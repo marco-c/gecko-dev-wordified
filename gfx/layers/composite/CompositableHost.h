@@ -374,12 +374,6 @@ h
 /
 for
 CSSToScreenScale
-struct
-nsIntPoint
-;
-struct
-nsIntRect
-;
 namespace
 mozilla
 {
@@ -783,7 +777,10 @@ void
 SetPictureRect
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aPictureRect
 )

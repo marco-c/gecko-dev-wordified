@@ -231,7 +231,7 @@ h
 /
 /
 for
-nsIntPoint
+IntPoint
 #
 include
 "
@@ -253,7 +253,7 @@ h
 /
 /
 for
-nsIntRect
+IntRect
 #
 include
 "
@@ -1158,7 +1158,7 @@ ValidateTile
 TileHost
 aTile
 const
-nsIntPoint
+IntPoint
 &
 aTileOrigin
 const
@@ -3012,7 +3012,7 @@ nsIntRegion
 &
 aScreenRegion
 const
-nsIntPoint
+IntPoint
 &
 aTextureOffset
 const
@@ -3093,7 +3093,7 @@ aScreenRegion
 for
 (
 const
-nsIntRect
+IntRect
 *
 rect
 =
@@ -3284,7 +3284,7 @@ aScreenRegion
 for
 (
 const
-nsIntRect
+IntRect
 *
 rect
 =
@@ -3801,7 +3801,7 @@ tileX
 =
 0
 ;
-nsIntRect
+IntRect
 visibleRect
 =
 aVisibleRegion
@@ -3980,7 +3980,7 @@ aLayerBuffer
 .
 GetTile
 (
-nsIntPoint
+IntPoint
 (
 aLayerBuffer
 .
@@ -4022,7 +4022,7 @@ tileDrawRegion
 .
 And
 (
-nsIntRect
+IntRect
 (
 x
 y
@@ -4070,7 +4070,7 @@ resolution
 resolution
 )
 ;
-nsIntPoint
+IntPoint
 tileOffset
 (
 (
