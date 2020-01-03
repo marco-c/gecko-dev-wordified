@@ -165,6 +165,8 @@ tab
 url
 )
 ;
+yield
+*
 test1
 (
 gBrowser
@@ -192,6 +194,8 @@ must
 NOT
 be
 blocked
+yield
+*
 test2
 (
 gBrowser
@@ -219,6 +223,8 @@ promiseTabLoadEvent
 tab
 )
 ;
+yield
+*
 test3
 (
 gBrowser
@@ -233,6 +239,7 @@ tab
 )
 ;
 function
+*
 test1
 (
 gTestBrowser
@@ -268,10 +275,10 @@ Test1
 "
 )
 ;
-notification
-.
-reshow
+yield
+promiseNotificationShown
 (
+notification
 )
 ;
 isnot
@@ -363,6 +370,7 @@ disableMixedContentProtection
 ;
 }
 function
+*
 test2
 (
 gTestBrowser
@@ -398,10 +406,10 @@ Test2
 "
 )
 ;
-notification
-.
-reshow
+yield
+promiseNotificationShown
 (
+notification
 )
 ;
 is
@@ -495,6 +503,7 @@ enableMixedContentProtection
 ;
 }
 function
+*
 test3
 (
 gTestBrowser
@@ -530,10 +539,10 @@ Test3
 "
 )
 ;
-notification
-.
-reshow
+yield
+promiseNotificationShown
 (
+notification
 )
 ;
 isnot

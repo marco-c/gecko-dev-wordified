@@ -1096,12 +1096,13 @@ Always
 "
 button
 .
+waitForNotificationShown
+(
 popupNotification
-.
-reshow
+function
 (
 )
-;
+{
 PopupNotifications
 .
 panel
@@ -1137,6 +1138,9 @@ plugin
 to
 activate
 "
+)
+;
+}
 )
 ;
 }
