@@ -1347,6 +1347,13 @@ mAnimationGeneration
 (
 0
 )
+mBackgroundColor
+(
+0
+0
+0
+0
+)
 {
 }
 Layer

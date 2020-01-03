@@ -2600,13 +2600,9 @@ t
 "
 <
 <
-aMetrics
+aLayer
 .
 GetContentDescription
-(
-)
-.
-get
 (
 )
 ;
