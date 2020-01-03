@@ -2916,16 +2916,8 @@ aValue
 if
 (
 !
-Preferences
-:
-:
-GetBool
+UseAudioChannelService
 (
-"
-media
-.
-useAudioChannelService
-"
 )
 )
 {
