@@ -1300,8 +1300,7 @@ aPreviousSibling
 )
 ;
 }
-JSObject
-*
+bool
 NodeIterator
 :
 :
@@ -1310,6 +1309,15 @@ WrapObject
 JSContext
 *
 cx
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aReflector
 )
 {
 return
@@ -1320,6 +1328,7 @@ Wrap
 (
 cx
 this
+aReflector
 )
 ;
 }

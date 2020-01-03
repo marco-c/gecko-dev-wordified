@@ -23255,19 +23255,6 @@ dedent
 "
 "
             
-const
-JS
-:
-:
-Rooted
-<
-JSObject
-*
->
-&
-obj
-=
-              
 creator
 .
 CreateProxyObject
@@ -23283,22 +23270,23 @@ DOMProxyHandler
 getInstance
 (
 )
-                                        
+                                      
 proto
 global
 aObject
+aReflector
 )
 ;
             
 if
 (
 !
-obj
+aReflector
 )
 {
               
 return
-nullptr
+false
 ;
             
 }
@@ -23335,7 +23323,7 @@ js
 :
 SetProxyExtra
 (
-obj
+aReflector
 JSPROXYSLOT_EXPANDO
                                   
 JS
@@ -23369,19 +23357,6 @@ dedent
 "
 "
             
-const
-JS
-:
-:
-Rooted
-<
-JSObject
-*
->
-&
-obj
-=
-              
 creator
 .
 CreateObject
@@ -23395,18 +23370,19 @@ ToJSClass
 proto
 global
 aObject
+aReflector
 )
 ;
             
 if
 (
 !
-obj
+aReflector
 )
 {
               
 return
-nullptr
+false
 ;
             
 }
@@ -23866,11 +23842,11 @@ InitUnforgeablePropertiesOnObject
 (
 descriptor
 "
-obj
+aReflector
 "
 properties
 "
-nullptr
+false
 "
 )
             
@@ -24212,7 +24188,7 @@ if
 UpdateMemberSlots
 (
 aCx
-obj
+aReflector
 aObject
 )
 )
@@ -24228,7 +24204,7 @@ s
             
 "
 return
-nullptr
+false
 ;
 \
 n
@@ -24334,6 +24310,23 @@ nsWrapperCache
 aCache
 '
 )
+                
+Argument
+(
+'
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+'
+'
+aReflector
+'
+)
 ]
         
 CGAbstractMethod
@@ -24346,8 +24339,7 @@ descriptor
 Wrap
 '
 '
-JSObject
-*
+bool
 '
 args
 )
@@ -24431,7 +24423,7 @@ parent
 {
               
 return
-nullptr
+false
 ;
             
 }
@@ -24465,52 +24457,29 @@ out
 as
 needed
 .
-Scope
-so
-we
-don
-'
-t
             
-/
-/
-collide
-with
-the
-"
-obj
-"
-we
-declare
-in
-CreateBindingJSObject
+aReflector
 .
-            
-{
-              
-JSObject
-*
-obj
-=
+set
+(
 aCache
 -
 >
 GetWrapper
 (
 )
+)
 ;
-              
+            
 if
 (
-obj
+aReflector
 )
 {
-                
-return
-obj
-;
               
-}
+return
+true
+;
             
 }
             
@@ -24568,7 +24537,7 @@ proto
 {
               
 return
-nullptr
+false
 ;
             
 }
@@ -24588,7 +24557,7 @@ aCache
 >
 SetWrapper
 (
-obj
+aReflector
 )
 ;
             
@@ -24597,12 +24566,15 @@ obj
 slots
 }
             
-return
 creator
 .
-ForgetObject
+InitializationSucceeded
 (
 )
+;
+            
+return
+true
 ;
             
 "
@@ -24755,18 +24727,49 @@ self
 :
         
 return
+dedent
+(
 "
+"
+"
+            
+JS
+:
+:
+Rooted
+<
+JSObject
+*
+>
+reflector
+(
+aCx
+)
+;
+            
 return
 Wrap
 (
 aCx
 aObject
 aObject
+&
+reflector
 )
+?
+reflector
+.
+get
+(
+)
+:
+nullptr
 ;
-\
-n
+            
 "
+"
+"
+)
 class
 CGWrapNonWrapperCacheMethod
 (
@@ -24868,6 +24871,23 @@ nativeType
 aObject
 '
 )
+                
+Argument
+(
+'
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+'
+'
+aReflector
+'
+)
 ]
         
 CGAbstractMethod
@@ -24880,8 +24900,7 @@ descriptor
 Wrap
 '
 '
-JSObject
-*
+bool
 '
 args
 )
@@ -24958,7 +24977,7 @@ proto
 {
               
 return
-nullptr
+false
 ;
             
 }
@@ -24978,12 +24997,15 @@ unforgeable
 slots
 }
             
-return
 creator
 .
-ForgetObject
+InitializationSucceeded
 (
 )
+;
+            
+return
+true
 ;
             
 "
@@ -25163,6 +25185,23 @@ bool
 aInitStandardClasses
 '
 )
+                
+Argument
+(
+'
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+'
+'
+aReflector
+'
+)
 ]
         
 CGAbstractMethod
@@ -25175,8 +25214,7 @@ descriptor
 Wrap
 '
 '
-JSObject
-*
+bool
 '
 args
 )
@@ -25305,7 +25343,7 @@ resolve
 JS_FireOnNewGlobalObject
 (
 aCx
-obj
+aReflector
 )
 ;
 "
@@ -25354,20 +25392,6 @@ chain
 )
 ;
             
-JS
-:
-:
-Rooted
-<
-JSObject
-*
->
-obj
-(
-aCx
-)
-;
-            
 CreateGlobal
 <
 {
@@ -25394,27 +25418,26 @@ aPrincipal
                                              
 aInitStandardClasses
                                              
-&
-obj
+aReflector
 )
 ;
             
 if
 (
 !
-obj
+aReflector
 )
 {
               
 return
-nullptr
+false
 ;
             
 }
             
 /
 /
-obj
+aReflector
 is
 a
 new
@@ -25441,7 +25464,7 @@ JSAutoCompartment
 ac
 (
 aCx
-obj
+aReflector
 )
 ;
             
@@ -25451,7 +25474,7 @@ if
 DefineProperties
 (
 aCx
-obj
+aReflector
 {
 properties
 }
@@ -25463,7 +25486,7 @@ chromeProperties
 {
               
 return
-nullptr
+false
 ;
             
 }
@@ -25484,7 +25507,7 @@ fireOnNewGlobal
 }
             
 return
-obj
+true
 ;
             
 "
