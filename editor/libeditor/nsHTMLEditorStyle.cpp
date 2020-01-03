@@ -7240,6 +7240,8 @@ NS_ERROR_NULL_POINTER
 ;
 nsresult
 result
+=
+NS_OK
 ;
 *
 aAny
