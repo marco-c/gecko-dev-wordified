@@ -129,7 +129,7 @@ aTime
 ;
 private
 :
-MP4Sample
+Sample
 *
 Get
 (
