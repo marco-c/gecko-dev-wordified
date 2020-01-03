@@ -1127,6 +1127,7 @@ ReframingStyleContextTable
 class
 MOZ_STACK_CLASS
 ReframingStyleContexts
+MOZ_FINAL
 {
 public
 :
@@ -1181,6 +1182,11 @@ ReframingStyleContexts
 RestyleManager
 *
 aRestyleManager
+)
+;
+~
+ReframingStyleContexts
+(
 )
 ;
 void
