@@ -3639,6 +3639,18 @@ boolean
 withAnimation
 )
 {
+if
+(
+getVisibility
+(
+)
+=
+=
+View
+.
+VISIBLE
+)
+{
 shouldSetVisibleOnUpdate
 =
 false
@@ -3681,6 +3693,7 @@ layerView
 =
 null
 ;
+}
 }
 }
 private
