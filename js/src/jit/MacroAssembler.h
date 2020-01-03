@@ -3076,8 +3076,6 @@ cdecl
 void
 setupAlignedABICall
 (
-uint32_t
-args
 )
 ;
 /
@@ -3112,8 +3110,6 @@ register
 void
 setupUnalignedABICall
 (
-uint32_t
-args
 Register
 scratch
 )

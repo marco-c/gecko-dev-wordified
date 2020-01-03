@@ -3092,7 +3092,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 temp0
 )
 ;
@@ -6003,7 +6002,6 @@ masm
 .
 setupUnalignedABICall
 (
-3
 temp0
 )
 ;

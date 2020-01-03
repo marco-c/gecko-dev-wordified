@@ -10008,7 +10008,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -10868,7 +10867,6 @@ ReturnReg
 ;
 setupUnalignedABICall
 (
-1
 scratch
 )
 ;
@@ -11328,7 +11326,6 @@ objects
 .
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -11577,7 +11574,6 @@ objects
 .
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -11979,7 +11975,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -12197,7 +12192,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -12328,7 +12322,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -12442,7 +12435,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -12544,7 +12536,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -12652,7 +12643,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -12754,7 +12744,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -12856,7 +12845,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -17650,8 +17638,6 @@ MacroAssembler
 :
 setupAlignedABICall
 (
-uint32_t
-args
 )
 {
 setupABICall

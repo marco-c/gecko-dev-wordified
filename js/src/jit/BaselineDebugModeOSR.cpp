@@ -7287,7 +7287,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -7589,7 +7588,6 @@ masm
 .
 setupUnalignedABICall
 (
-3
 temp
 )
 ;

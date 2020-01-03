@@ -3357,7 +3357,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 scratch
 )
 ;
@@ -3935,7 +3934,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 R0
 .
 scratchReg

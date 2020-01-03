@@ -12029,7 +12029,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 scratch
 )
 ;
@@ -14834,7 +14833,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 R0
 .
 scratchReg
@@ -15578,7 +15576,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 scratchReg
 )
 ;
@@ -16476,7 +16473,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 scratchReg
 )
 ;
@@ -73613,7 +73609,6 @@ masm
 .
 setupUnalignedABICall
 (
-3
 scratch
 )
 ;
@@ -74278,7 +74273,6 @@ masm
 .
 setupUnalignedABICall
 (
-3
 scratch
 )
 ;
@@ -77003,7 +76997,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 scratch
 )
 ;

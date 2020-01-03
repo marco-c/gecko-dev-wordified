@@ -6519,7 +6519,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 scratch
 )
 ;

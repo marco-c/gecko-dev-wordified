@@ -2511,7 +2511,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 scratch
 )
 ;
@@ -8042,7 +8041,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 temp3
 )
 ;
@@ -18945,7 +18943,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 regs
 .
 takeAny
@@ -19733,7 +19730,6 @@ masm
 .
 setupUnalignedABICall
 (
-3
 tempReg
 )
 ;
@@ -20714,7 +20710,6 @@ masm
 .
 setupUnalignedABICall
 (
-4
 argJSContext
 )
 ;
@@ -24784,7 +24779,6 @@ masm
 .
 setupUnalignedABICall
 (
-4
 temp1
 )
 ;
@@ -24920,7 +24914,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 temp1
 )
 ;
@@ -27618,7 +27611,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -28036,7 +28028,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 temp2
 )
 ;
@@ -29646,7 +29637,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -29743,7 +29733,6 @@ masm
 .
 setupUnalignedABICall
 (
-numArgs
 temp
 )
 ;
@@ -36011,7 +36000,6 @@ masm
 .
 setupUnalignedABICall
 (
-3
 temp
 )
 ;
@@ -36961,48 +36949,10 @@ power
 temp
 )
 ;
-/
-/
-In
-all
-implementations
-setupUnalignedABICall
-(
-)
-relinquishes
-use
-of
-/
-/
-its
-scratch
-register
-.
-We
-can
-therefore
-save
-an
-input
-register
-by
-/
-/
-reusing
-the
-scratch
-register
-to
-pass
-constants
-to
-callWithABI
-.
 masm
 .
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -37114,7 +37064,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -37226,6 +37175,13 @@ output
 ReturnDoubleReg
 )
 ;
+masm
+.
+setupUnalignedABICall
+(
+temp
+)
+;
 const
 MathCache
 *
@@ -37241,18 +37197,6 @@ mir
 >
 cache
 (
-)
-;
-masm
-.
-setupUnalignedABICall
-(
-mathCache
-?
-2
-:
-1
-temp
 )
 ;
 if
@@ -37965,7 +37909,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -38149,7 +38092,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -44216,7 +44158,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 regTemp
 )
 ;
@@ -44420,7 +44361,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 regTemp
 )
 ;
@@ -44662,7 +44602,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 temp0
 )
 ;
@@ -50872,7 +50811,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 lengthTemp
 )
 ;
@@ -64056,7 +63994,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 output
 )
 ;
@@ -70378,7 +70315,6 @@ masm
 .
 setupUnalignedABICall
 (
-4
 JSContextReg
 )
 ;
@@ -71063,7 +70999,6 @@ masm
 .
 setupUnalignedABICall
 (
-4
 JSContextReg
 )
 ;
@@ -71502,7 +71437,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 output
 )
 ;
@@ -74254,7 +74188,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 temp
 )
 ;

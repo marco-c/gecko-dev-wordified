@@ -1371,7 +1371,6 @@ asMasm
 .
 setupUnalignedABICall
 (
-1
 rcx
 )
 ;
@@ -3051,8 +3050,6 @@ MacroAssembler
 :
 setupUnalignedABICall
 (
-uint32_t
-args
 Register
 scratch
 )
