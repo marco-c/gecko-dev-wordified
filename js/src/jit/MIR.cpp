@@ -6717,7 +6717,7 @@ ScalarTypeDescr
 :
 typeName
 (
-indexType
+storageType
 (
 )
 )
