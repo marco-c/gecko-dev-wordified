@@ -706,6 +706,11 @@ MakeFullScreen
 (
 bool
 aFullScreen
+nsIScreen
+*
+aScreen
+=
+nullptr
 )
 ;
 virtual

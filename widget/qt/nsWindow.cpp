@@ -4054,6 +4054,8 @@ MakeFullScreen
 (
 bool
 aFullScreen
+nsIScreen
+*
 )
 {
 NS_ENSURE_TRUE

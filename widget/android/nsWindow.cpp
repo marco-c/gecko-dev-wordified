@@ -3632,6 +3632,8 @@ MakeFullScreen
 (
 bool
 aFullScreen
+nsIScreen
+*
 )
 {
 mozilla

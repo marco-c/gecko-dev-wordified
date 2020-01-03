@@ -1659,6 +1659,11 @@ MakeFullScreen
 (
 bool
 aFullScreen
+nsIScreen
+*
+aTargetScreen
+=
+nullptr
 )
 ;
 NS_IMETHOD

@@ -26498,6 +26498,9 @@ MakeFullScreen
 (
 bool
 aFullScreen
+nsIScreen
+*
+aTargetScreen
 )
 {
 LOG

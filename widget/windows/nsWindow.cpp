@@ -20024,6 +20024,9 @@ MakeFullScreen
 (
 bool
 aFullScreen
+nsIScreen
+*
+aTargetScreen
 )
 {
 /
@@ -20180,6 +20183,7 @@ nsBaseWidget
 MakeFullScreen
 (
 aFullScreen
+aTargetScreen
 )
 ;
 if
