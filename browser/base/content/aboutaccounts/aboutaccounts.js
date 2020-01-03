@@ -184,6 +184,8 @@ PREF_SYNC_SHOW_CUSTOMIZATION
 services
 .
 sync
+-
+setup
 .
 ui
 .
