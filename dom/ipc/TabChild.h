@@ -1492,6 +1492,12 @@ PreloadSlowThings
 (
 )
 ;
+static
+void
+PostForkPreload
+(
+)
+;
 /
 *
 *
@@ -2711,6 +2717,11 @@ DidComposite
 (
 uint64_t
 aTransactionId
+)
+;
+void
+ClearCachedResources
+(
 )
 ;
 static
