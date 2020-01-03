@@ -1009,7 +1009,21 @@ false
 '
 -
 -
-ipcplugins
+manifest
+=
+tests
+/
+dom
+/
+plugins
+/
+test
+/
+mochitest
+/
+mochitest
+.
+ini
 '
 ]
     
