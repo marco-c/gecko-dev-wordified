@@ -227,16 +227,6 @@ AddToCCKind
 \
 D
 (
-AccessorShape
-js
-:
-:
-AccessorShape
-true
-)
-\
-D
-(
 BaseShape
 js
 :
