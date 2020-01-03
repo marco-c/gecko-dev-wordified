@@ -121,6 +121,11 @@ import
 re
 import
 sys
+from
+.
+string_version
+import
+StringVersion
 #
 keep
 a
@@ -670,7 +675,10 @@ os_version
 '
 ]
 =
+StringVersion
+(
 os_version
+)
 #
 processor
 type
@@ -1544,6 +1552,10 @@ update
     
 '
 find_and_update_from_json
+'
+    
+'
+StringVersion
 '
     
 ]
