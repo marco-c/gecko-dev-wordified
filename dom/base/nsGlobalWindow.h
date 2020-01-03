@@ -10493,8 +10493,10 @@ mStatus
 nsString
 mDefaultStatus
 ;
+nsRefPtr
+<
 nsGlobalWindowObserver
-*
+>
 mObserver
 ;
 /

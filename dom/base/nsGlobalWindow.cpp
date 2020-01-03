@@ -7347,11 +7347,6 @@ if
 mObserver
 )
 {
-NS_ADDREF
-(
-mObserver
-)
-;
 nsCOMPtr
 <
 nsIObserverService
@@ -7500,10 +7495,6 @@ here
 Freeze
 (
 )
-;
-mObserver
-=
-nullptr
 ;
 }
 /
@@ -9039,11 +9030,6 @@ mObserver
 >
 Forget
 (
-)
-;
-NS_RELEASE
-(
-mObserver
 )
 ;
 }
