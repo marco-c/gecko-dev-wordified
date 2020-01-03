@@ -166,13 +166,7 @@ MOZ_LOG
 GetDemuxerLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 TOSTRING
 (

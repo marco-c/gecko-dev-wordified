@@ -653,10 +653,7 @@ AdvanceQueue
 {
 LOG
 (
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 SpeechSynthesis

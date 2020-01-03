@@ -227,13 +227,7 @@ MOZ_LOG
 GetThreadPoolLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 /

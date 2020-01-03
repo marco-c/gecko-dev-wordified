@@ -200,13 +200,7 @@ MOZ_LOG
 GetDemuxerLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 __VA_ARGS__
 )

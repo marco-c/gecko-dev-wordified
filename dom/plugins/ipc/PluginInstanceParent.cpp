@@ -5783,10 +5783,7 @@ MOZ_LOG
 GetPluginLog
 (
 )
-LogLevel
-:
-:
-Warning
+PR_LOG_WARNING
 (
 "
 In
@@ -5885,10 +5882,7 @@ MOZ_LOG
 GetPluginLog
 (
 )
-LogLevel
-:
-:
-Warning
+PR_LOG_WARNING
 (
 "
 In

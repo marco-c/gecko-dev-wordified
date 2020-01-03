@@ -784,10 +784,7 @@ lockFileName
 MOZ_LOG
 (
 MCD
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 general
@@ -1038,10 +1035,7 @@ obscureValue
 MOZ_LOG
 (
 MCD
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 evaluating
@@ -1091,10 +1085,7 @@ rv
 MOZ_LOG
 (
 MCD
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 error

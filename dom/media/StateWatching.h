@@ -529,10 +529,7 @@ gStateWatchingLog
 MOZ_LOG
 (
 gStateWatchingLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 x
 #

@@ -229,13 +229,7 @@ msg
 MOZ_LOG
 (
 gVorbisTrackEncoderLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 \
 (
 msg

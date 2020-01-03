@@ -3743,10 +3743,7 @@ MOZ_LOG
 GetPNGEncoderLog
 (
 )
-LogLevel
-:
-:
-Warning
+PR_LOG_WARNING
 (
 "
 libpng
@@ -3785,10 +3782,7 @@ MOZ_LOG
 GetPNGEncoderLog
 (
 )
-LogLevel
-:
-:
-Error
+PR_LOG_ERROR
 (
 "
 libpng

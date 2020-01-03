@@ -1146,10 +1146,7 @@ rv
 ;
 LOG
 (
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 (
 "
 %
@@ -1451,10 +1448,7 @@ mListener
 ;
 LOG
 (
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 opening
@@ -1539,10 +1533,7 @@ NS_OK
 }
 LOG
 (
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 Track
@@ -1644,10 +1635,7 @@ NotifyAddedSource
 ;
 LOG
 (
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 Track

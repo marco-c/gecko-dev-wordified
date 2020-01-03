@@ -141,13 +141,7 @@ args
 MOZ_LOG
 (
 gStreamCopierLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 /

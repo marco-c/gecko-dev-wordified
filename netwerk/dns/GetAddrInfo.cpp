@@ -271,10 +271,7 @@ msg
 MOZ_LOG
 (
 gGetAddrInfoLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 [
@@ -301,10 +298,7 @@ msg
 MOZ_LOG
 (
 gGetAddrInfoLog
-LogLevel
-:
-:
-Warning
+PR_LOG_WARNING
 (
 "
 [

@@ -151,13 +151,7 @@ msg
 MOZ_LOG
 (
 gI420ColorConverterHelperLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Warning
+PR_LOG_WARNING
 (
 msg
 )

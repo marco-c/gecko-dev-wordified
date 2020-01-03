@@ -333,13 +333,7 @@ args
 MOZ_LOG
 (
 gChannelClassifierLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 NS_IMPL_ISUPPORTS

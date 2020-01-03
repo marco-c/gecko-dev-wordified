@@ -252,13 +252,7 @@ MOZ_LOG
 GetTeeLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 class

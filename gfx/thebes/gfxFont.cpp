@@ -485,10 +485,7 @@ GetLog
 eGfxLog_fontinit
 )
 \
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 #
@@ -496,7 +493,7 @@ define
 LOG_FONTINIT_ENABLED
 (
 )
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 \
 gfxPlatform
@@ -507,10 +504,7 @@ GetLog
 eGfxLog_fontinit
 )
 \
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 )
 /
 *
