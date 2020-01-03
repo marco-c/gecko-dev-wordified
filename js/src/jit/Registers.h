@@ -670,6 +670,7 @@ endif
 #
 ifdef
 JS_PUNBOX64
+explicit
 MOZ_CONSTEXPR
 Register64
 (
