@@ -3067,7 +3067,7 @@ self
 .
 _log
 .
-error
+info
 (
                 
 "
@@ -7176,7 +7176,7 @@ self
 .
 log
 .
-error
+info
 (
                 
 "
@@ -11124,7 +11124,7 @@ self
 .
 log
 .
-error
+info
 (
                 
 "
@@ -12529,7 +12529,7 @@ self
 .
 log
 .
-error
+info
 (
                     
 "
@@ -13799,7 +13799,7 @@ self
 .
 log
 .
-error
+info
 (
                     
 "
@@ -17571,7 +17571,7 @@ self
 .
 log
 .
-error
+info
 (
 error_message
 )
