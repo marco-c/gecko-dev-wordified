@@ -7031,12 +7031,6 @@ PlainObject
 (
 cx
 group
-cx
--
->
-global
-(
-)
 allocKind
 TenuredObject
 )
@@ -7856,12 +7850,6 @@ PlainObject
 (
 cx
 group
-cx
--
->
-global
-(
-)
 allocKind
 newKind
 )

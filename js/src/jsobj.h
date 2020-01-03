@@ -9029,8 +9029,6 @@ JSContext
 *
 cx
 HandleObject
-parent
-HandleObject
 srcObj
 )
 ;

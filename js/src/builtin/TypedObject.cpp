@@ -9580,12 +9580,6 @@ OutlineTypedObject
 (
 cx
 group
-cx
--
->
-global
-(
-)
 gc
 :
 :
@@ -13568,12 +13562,6 @@ InlineTypedObject
 (
 cx
 group
-cx
--
->
-global
-(
-)
 allocKind
 newKind
 )

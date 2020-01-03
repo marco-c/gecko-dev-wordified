@@ -2830,12 +2830,6 @@ PlainObject
 (
 cx
 replacementNewGroup
-cx
--
->
-global
-(
-)
 layout
 .
 getAllocKind
@@ -3689,12 +3683,6 @@ UnboxedPlainObject
 (
 cx
 group
-cx
--
->
-global
-(
-)
 allocKind
 newKind
 )
