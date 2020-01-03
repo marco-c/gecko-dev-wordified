@@ -509,7 +509,7 @@ manager
 .
 *
 /
-protected
+public
 void
 update
 (
