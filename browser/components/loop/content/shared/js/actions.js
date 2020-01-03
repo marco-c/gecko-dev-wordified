@@ -968,6 +968,9 @@ String
 message
 :
 String
+sentTimestamp
+:
+String
 }
 )
 /
@@ -1004,6 +1007,17 @@ String
 message
 :
 String
+receivedTimestamp
+:
+String
+/
+/
+sentTimestamp
+:
+String
+(
+optional
+)
 }
 )
 /
