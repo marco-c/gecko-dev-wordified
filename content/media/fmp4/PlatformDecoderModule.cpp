@@ -377,6 +377,9 @@ Init
 #
 endif
 }
+#
+ifdef
+MOZ_EME
 class
 CreateTaskQueueTask
 :
@@ -480,9 +483,6 @@ forget
 )
 ;
 }
-#
-ifdef
-MOZ_EME
 /
 *
 static
