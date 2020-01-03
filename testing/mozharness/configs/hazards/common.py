@@ -322,18 +322,6 @@ manifest
 "
     
 '
-compiler_setup
-'
-:
-"
-setup
-.
-sh
-.
-gcc
-"
-    
-'
 sixgill_manifest
 '
 :
@@ -343,18 +331,6 @@ build
 sixgill
 .
 manifest
-"
-    
-'
-sixgill_setup
-'
-:
-"
-setup
-.
-sh
-.
-sixgill
 "
     
 #
