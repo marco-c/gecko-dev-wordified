@@ -46163,8 +46163,6 @@ getRetvalDeclarationForType
 returnType
 descriptorProvider
                                 
-resultAlreadyAddRefed
-                                
 isMember
 =
 False
@@ -46839,26 +46837,6 @@ returnType
 .
 inner
         
-#
-If
-our
-result
-is
-already
-addrefed
-use
-the
-right
-type
-in
-the
-        
-#
-sequence
-argument
-here
-.
-        
 result
 _
 _
@@ -46872,8 +46850,6 @@ returnType
 inner
                                                          
 descriptorProvider
-                                                         
-resultAlreadyAddRefed
                                                          
 isMember
 =
@@ -47001,26 +46977,6 @@ returnType
 .
 inner
         
-#
-If
-our
-result
-is
-already
-addrefed
-use
-the
-right
-type
-in
-the
-        
-#
-MozMap
-argument
-here
-.
-        
 result
 _
 _
@@ -47034,8 +46990,6 @@ returnType
 inner
                                                          
 descriptorProvider
-                                                         
-resultAlreadyAddRefed
                                                          
 isMember
 =
@@ -47418,20 +47372,6 @@ s
 returnType
 )
 def
-isResultAlreadyAddRefed
-(
-extendedAttributes
-)
-:
-    
-return
-'
-resultNotAddRefed
-'
-not
-in
-extendedAttributes
-def
 needCx
 (
 returnType
@@ -47744,13 +47684,6 @@ is
 not
 None
         
-resultAlreadyAddRefed
-=
-isResultAlreadyAddRefed
-(
-extendedAttributes
-)
-        
 result
 resultOutParam
 resultRooter
@@ -47761,10 +47694,8 @@ resultConversion
             
 getRetvalDeclarationForType
 (
-                
 returnType
 descriptorProvider
-resultAlreadyAddRefed
 )
         
 args
@@ -61232,17 +61163,6 @@ name
 )
 )
         
-#
-resultOutParam
-does
-not
-depend
-on
-whether
-resultAlreadyAddRefed
-is
-set
-        
 _
 resultOutParam
 _
@@ -61256,8 +61176,6 @@ attr
 type
                                                                  
 descriptor
-                                                                 
-False
 )
         
 infallible
@@ -96294,6 +96212,10 @@ True
 variadicIsSequence
 =
 False
+                 
+resultNotAddRefed
+=
+False
 )
 :
         
@@ -96409,12 +96331,8 @@ self
 .
 resultAlreadyAddRefed
 =
-isResultAlreadyAddRefed
-(
-self
-.
-extendedAttrs
-)
+not
+resultNotAddRefed
         
 self
 .
@@ -113031,26 +112949,6 @@ getter
 True
 )
         
-if
-not
-attr
-.
-type
-.
-isSequence
-(
-)
-:
-            
-ea
-.
-append
-(
-'
-resultNotAddRefed
-'
-)
-        
 CGNativeMember
 .
 __init__
@@ -113077,6 +112975,17 @@ type
 )
                                 
 ea
+                                
+resultNotAddRefed
+=
+not
+attr
+.
+type
+.
+isSequence
+(
+)
 )
         
 self

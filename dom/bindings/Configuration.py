@@ -3759,9 +3759,6 @@ in
 '
 implicitJSContext
 '
-'
-resultNotAddRefed
-'
 ]
 :
                 
