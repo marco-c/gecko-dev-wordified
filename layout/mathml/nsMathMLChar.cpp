@@ -7257,11 +7257,6 @@ GetFirstValidFont
 FontFamilyList
 firstFontList
 ;
-if
-(
-firstFont
-)
-{
 firstFontList
 .
 Append
@@ -7283,7 +7278,6 @@ eUnquotedName
 )
 )
 ;
-}
 if
 (
 aGlyphTable
