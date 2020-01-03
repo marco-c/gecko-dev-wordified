@@ -3541,15 +3541,6 @@ arg
 target
 ;
 }
-(
-)
-=
->
-{
-return
-false
-;
-}
 )
 ;
 }
