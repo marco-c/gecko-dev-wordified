@@ -2739,11 +2739,6 @@ Value
 )
 ;
 }
-void
-writeBarrierPost
-(
-)
-;
 /
 *
 *
