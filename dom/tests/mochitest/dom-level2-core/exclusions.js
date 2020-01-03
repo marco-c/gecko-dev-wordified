@@ -267,6 +267,9 @@ importNode01
 "
 hc_namednodemapinvalidtype1
 "
+"
+nodehasattributes02
+"
 ]
 ;
 bogusPrefix
