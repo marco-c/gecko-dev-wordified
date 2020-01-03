@@ -225,13 +225,6 @@ nsIMemoryReporter
 .
 h
 "
-#
-include
-"
-nsIObserver
-.
-h
-"
 /
 /
 X11
@@ -373,8 +366,6 @@ public
 DOMEventTargetHelper
 public
 nsIMemoryReporter
-public
-nsIObserver
 {
 AudioContext
 (
@@ -1226,7 +1217,6 @@ aAnonymize
 )
 MOZ_OVERRIDE
 ;
-NS_DECL_NSIOBSERVER
 friend
 struct
 :
