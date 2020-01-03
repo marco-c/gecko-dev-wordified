@@ -676,7 +676,7 @@ instanced_non_arrays
 GLFeature
 :
 :
-transform_feedback
+transform_feedback2
 }
 ;
 /
