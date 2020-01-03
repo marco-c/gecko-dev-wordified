@@ -96,6 +96,15 @@ info
 "
 log
 "
+"
+serviceworkers
+"
+"
+sharedworkers
+"
+"
+windowlessworkers
+"
 ]
 }
 ;
