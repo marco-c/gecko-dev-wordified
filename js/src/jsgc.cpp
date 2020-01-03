@@ -28370,7 +28370,7 @@ isMarked
 GRAY
 )
 )
-MarkGCThingUnbarriered
+TraceManuallyBarrieredEdge
 (
 &
 rt
@@ -28379,11 +28379,6 @@ rt
 gc
 .
 marker
-(
-void
-*
-*
-)
 &
 dst
 "
@@ -28420,7 +28415,7 @@ isMarked
 GRAY
 )
 )
-MarkGCThingUnbarriered
+TraceManuallyBarrieredEdge
 (
 &
 rt
@@ -28429,11 +28424,6 @@ rt
 gc
 .
 marker
-(
-void
-*
-*
-)
 &
 dst
 "
