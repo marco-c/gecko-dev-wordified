@@ -1108,7 +1108,6 @@ StyleSheetList
 {
 public
 :
-explicit
 ShadowRootStyleSheetList
 (
 ShadowRoot

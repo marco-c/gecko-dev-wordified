@@ -203,7 +203,6 @@ Link
 {
 public
 :
-explicit
 HTMLAreaElement
 (
 already_AddRefed

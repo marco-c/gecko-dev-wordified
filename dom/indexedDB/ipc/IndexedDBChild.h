@@ -1388,7 +1388,6 @@ mObjectStore
 ;
 public
 :
-explicit
 IndexedDBObjectStoreChild
 (
 IDBObjectStore
@@ -1673,7 +1672,6 @@ mIndex
 ;
 public
 :
-explicit
 IndexedDBIndexChild
 (
 IDBIndex
@@ -2207,7 +2205,6 @@ Disconnect
 ;
 protected
 :
-explicit
 IndexedDBRequestChildBase
 (
 AsyncConnectionHelper

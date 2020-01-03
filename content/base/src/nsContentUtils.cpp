@@ -2374,7 +2374,6 @@ PLDHashEntryHdr
 {
 public
 :
-explicit
 EventListenerManagerMapEntry
 (
 const
@@ -7275,7 +7274,6 @@ value_type
 ;
 public
 :
-explicit
 NormalizeNewlinesCharTraits
 (
 OutputIterator
@@ -7335,7 +7333,6 @@ value_type
 ;
 public
 :
-explicit
 NormalizeNewlinesCharTraits
 (
 CharT
@@ -7392,7 +7389,6 @@ value_type
 ;
 public
 :
-explicit
 CopyNormalizeNewlines
 (
 OutputIterator
@@ -25224,7 +25220,6 @@ nsRunnable
 {
 public
 :
-explicit
 AnonymousContentDestroyer
 (
 nsCOMPtr
@@ -25262,7 +25257,6 @@ OwnerDoc
 )
 ;
 }
-explicit
 AnonymousContentDestroyer
 (
 nsCOMPtr

@@ -150,7 +150,6 @@ empty
 NodeSet
 *
 /
-explicit
 txNodeSet
 (
 txResultRecycler

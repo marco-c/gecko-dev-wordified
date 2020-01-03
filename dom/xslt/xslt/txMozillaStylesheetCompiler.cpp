@@ -2955,7 +2955,6 @@ txACompileObserver
 {
 public
 :
-explicit
 txSyncCompileObserver
 (
 txMozillaXSLTProcessor

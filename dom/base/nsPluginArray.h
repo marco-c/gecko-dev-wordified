@@ -188,7 +188,6 @@ nsIObserver
 /
 nsIObserver
 NS_DECL_NSIOBSERVER
-explicit
 nsPluginArray
 (
 nsPIDOMWindow

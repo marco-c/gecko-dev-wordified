@@ -175,7 +175,6 @@ nsSimpleContentList
 {
 public
 :
-explicit
 RadioNodeList
 (
 HTMLFormElement

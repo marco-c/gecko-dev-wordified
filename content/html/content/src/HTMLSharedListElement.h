@@ -148,7 +148,6 @@ nsIDOMHTMLUListElement
 {
 public
 :
-explicit
 HTMLSharedListElement
 (
 already_AddRefed

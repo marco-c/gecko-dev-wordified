@@ -157,7 +157,6 @@ PerformanceEntry
 ;
 public
 :
-explicit
 PerformanceEntry
 (
 nsPerformance

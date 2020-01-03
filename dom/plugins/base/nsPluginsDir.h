@@ -327,7 +327,6 @@ class
 .
 *
 /
-explicit
 nsPluginFile
 (
 nsIFile

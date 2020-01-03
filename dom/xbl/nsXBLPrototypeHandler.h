@@ -386,7 +386,6 @@ g
 key
 >
 )
-explicit
 nsXBLPrototypeHandler
 (
 nsIContent
@@ -406,7 +405,6 @@ loaded
 from
 the
 cache
-explicit
 nsXBLPrototypeHandler
 (
 nsXBLPrototypeBinding

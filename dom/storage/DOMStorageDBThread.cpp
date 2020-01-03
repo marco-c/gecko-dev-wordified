@@ -6420,7 +6420,6 @@ FindPendingOperationForScopeData
 {
 public
 :
-explicit
 FindPendingOperationForScopeData
 (
 const

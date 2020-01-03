@@ -158,7 +158,6 @@ nsIURIWithPrincipal
 {
 public
 :
-explicit
 nsHostObjectURI
 (
 nsIPrincipal

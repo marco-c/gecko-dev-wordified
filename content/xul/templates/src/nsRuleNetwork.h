@@ -845,7 +845,6 @@ ConstIterator
 {
 public
 :
-explicit
 ConstIterator
 (
 List
@@ -1549,7 +1548,6 @@ List
 {
 public
 :
-explicit
 List
 (
 const
@@ -1746,7 +1744,6 @@ ConstIterator
 {
 public
 :
-explicit
 ConstIterator
 (
 List
@@ -3239,7 +3236,6 @@ mCurrent
 ;
 public
 :
-explicit
 ConstIterator
 (
 List
@@ -3505,7 +3501,6 @@ ConstIterator
 {
 public
 :
-explicit
 Iterator
 (
 List
@@ -4244,7 +4239,6 @@ ConstIterator
 {
 public
 :
-explicit
 ConstIterator
 (
 ReteNode
@@ -4465,7 +4459,6 @@ ConstIterator
 {
 public
 :
-explicit
 Iterator
 (
 ReteNode
@@ -4795,7 +4788,6 @@ ReteNode
 {
 public
 :
-explicit
 TestNode
 (
 TestNode

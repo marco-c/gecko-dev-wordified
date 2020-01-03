@@ -169,7 +169,6 @@ nsIDOMHTMLPictureElement
 {
 public
 :
-explicit
 HTMLPictureElement
 (
 already_AddRefed

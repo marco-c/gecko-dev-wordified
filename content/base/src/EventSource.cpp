@@ -2980,7 +2980,6 @@ nsIAsyncVerifyRedirectCallback
 {
 public
 :
-explicit
 AsyncVerifyRedirectCallbackFwr
 (
 EventSource

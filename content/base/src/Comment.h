@@ -175,7 +175,6 @@ Comment
 ;
 public
 :
-explicit
 Comment
 (
 already_AddRefed
@@ -203,7 +202,6 @@ Init
 )
 ;
 }
-explicit
 Comment
 (
 nsNodeInfoManager

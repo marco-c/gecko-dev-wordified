@@ -285,7 +285,6 @@ mPromise
 ;
 public
 :
-explicit
 PromiseReportRejectFeature
 (
 Promise
@@ -1028,7 +1027,6 @@ class
 too
 somehow
 .
-explicit
 Promise
 (
 nsIGlobalObject

@@ -496,7 +496,6 @@ MediaDocumentStreamListener
 ;
 public
 :
-explicit
 MediaDocumentStreamListener
 (
 MediaDocument

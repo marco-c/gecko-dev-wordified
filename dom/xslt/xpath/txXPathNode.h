@@ -223,7 +223,6 @@ txXPathNode
 aNode
 )
 ;
-explicit
 txXPathNode
 (
 nsIDocument

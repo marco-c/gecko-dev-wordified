@@ -141,7 +141,6 @@ nsGenericHTMLElement
 {
 public
 :
-explicit
 HTMLLegendElement
 (
 already_AddRefed

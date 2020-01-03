@@ -307,7 +307,6 @@ ExplicitChildIterator
 {
 public
 :
-explicit
 ExplicitChildIterator
 (
 nsIContent
@@ -998,7 +997,6 @@ ExplicitChildIterator
 {
 public
 :
-explicit
 FlattenedChildIterator
 (
 nsIContent

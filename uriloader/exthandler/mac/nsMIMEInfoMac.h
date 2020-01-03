@@ -77,7 +77,6 @@ nsMIMEInfoImpl
 {
 public
 :
-explicit
 nsMIMEInfoMac
 (
 const
@@ -95,7 +94,6 @@ aMIMEType
 )
 {
 }
-explicit
 nsMIMEInfoMac
 (
 const

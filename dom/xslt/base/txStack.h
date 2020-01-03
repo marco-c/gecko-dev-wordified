@@ -474,7 +474,6 @@ for
 *
 /
 inline
-explicit
 txStackIterator
 (
 txStack

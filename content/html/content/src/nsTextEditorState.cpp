@@ -440,7 +440,6 @@ ValueSetter
 {
 public
 :
-explicit
 ValueSetter
 (
 nsIEditor
@@ -1045,7 +1044,6 @@ nsStubMutationObserver
 {
 public
 :
-explicit
 nsAnonDivObserver
 (
 nsTextEditorState

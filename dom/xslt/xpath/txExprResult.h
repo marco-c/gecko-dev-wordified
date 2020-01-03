@@ -195,7 +195,6 @@ STRING
 RESULT_TREE_FRAGMENT
 }
 ;
-explicit
 txAExprResult
 (
 txResultRecycler
@@ -475,7 +474,6 @@ txAExprResult
 {
 public
 :
-explicit
 BooleanResult
 (
 bool
@@ -521,7 +519,6 @@ txAExprResult
 {
 public
 :
-explicit
 StringResult
 (
 txResultRecycler

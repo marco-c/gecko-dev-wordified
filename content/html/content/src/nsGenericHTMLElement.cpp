@@ -883,7 +883,6 @@ nsRunnable
 {
 public
 :
-explicit
 nsAutoFocusEvent
 (
 nsGenericHTMLFormElement
@@ -1185,7 +1184,6 @@ nsGenericHTMLElementTearoff
 {
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-explicit
 nsGenericHTMLElementTearoff
 (
 nsGenericHTMLElement

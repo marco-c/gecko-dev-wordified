@@ -114,7 +114,6 @@ mDetail
 ;
 public
 :
-explicit
 CustomEvent
 (
 mozilla

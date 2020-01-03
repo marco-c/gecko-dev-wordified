@@ -160,7 +160,6 @@ nsIConstraintValidation
 :
 GetValidationMessage
 ;
-explicit
 HTMLButtonElement
 (
 already_AddRefed

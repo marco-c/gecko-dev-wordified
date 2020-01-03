@@ -185,7 +185,6 @@ nsAttrValueOrString
 {
 public
 :
-explicit
 nsAttrValueOrString
 (
 const
@@ -209,7 +208,6 @@ nullptr
 )
 {
 }
-explicit
 nsAttrValueOrString
 (
 const

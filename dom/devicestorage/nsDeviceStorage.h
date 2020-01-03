@@ -789,7 +789,6 @@ nsRunnable
 {
 public
 :
-explicit
 ContinueCursorEvent
 (
 already_AddRefed
@@ -805,7 +804,6 @@ DOMRequest
 aRequest
 )
 ;
-explicit
 ContinueCursorEvent
 (
 mozilla

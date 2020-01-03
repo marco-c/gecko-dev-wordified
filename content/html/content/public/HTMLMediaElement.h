@@ -536,7 +536,6 @@ return
 mCORSMode
 ;
 }
-explicit
 HTMLMediaElement
 (
 already_AddRefed
@@ -3274,7 +3273,6 @@ WakeLockBoolWrapper
 {
 public
 :
-explicit
 WakeLockBoolWrapper
 (
 bool

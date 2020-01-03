@@ -2071,7 +2071,6 @@ UndoTransaction
 (
 )
 ;
-explicit
 UndoContentAppend
 (
 nsIContent

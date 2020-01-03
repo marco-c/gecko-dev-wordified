@@ -146,7 +146,6 @@ nsIDOMHTMLIFrameElement
 {
 public
 :
-explicit
 HTMLIFrameElement
 (
 already_AddRefed

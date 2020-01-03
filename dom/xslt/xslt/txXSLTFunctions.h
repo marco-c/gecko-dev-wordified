@@ -178,7 +178,6 @@ call
 *
 *
 /
-explicit
 DocumentFunctionCall
 (
 const
@@ -230,7 +229,6 @@ function
 call
 *
 /
-explicit
 txKeyFunctionCall
 (
 txNamespaceMap

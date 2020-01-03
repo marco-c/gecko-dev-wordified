@@ -144,7 +144,6 @@ nsGenericHTMLElement
 {
 public
 :
-explicit
 HTMLTimeElement
 (
 already_AddRefed

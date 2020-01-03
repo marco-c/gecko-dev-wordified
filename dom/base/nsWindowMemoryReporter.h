@@ -298,7 +298,6 @@ mPropertyTablesSize
 \
 public
 :
-explicit
 nsWindowSizes
 (
 mozilla

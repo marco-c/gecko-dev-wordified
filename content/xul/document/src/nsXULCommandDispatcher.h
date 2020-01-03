@@ -170,7 +170,6 @@ nsSupportsWeakReference
 {
 public
 :
-explicit
 nsXULCommandDispatcher
 (
 nsIDocument

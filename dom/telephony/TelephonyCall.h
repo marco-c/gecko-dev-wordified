@@ -576,7 +576,6 @@ aGroup
 ;
 private
 :
-explicit
 TelephonyCall
 (
 nsPIDOMWindow

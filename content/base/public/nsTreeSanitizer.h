@@ -145,7 +145,6 @@ from
 nsIParserUtils
 *
 /
-explicit
 nsTreeSanitizer
 (
 uint32_t

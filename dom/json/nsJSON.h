@@ -175,7 +175,6 @@ nsJSONWriter
 (
 )
 ;
-explicit
 nsJSONWriter
 (
 nsIOutputStream

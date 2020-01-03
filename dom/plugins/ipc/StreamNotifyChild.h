@@ -150,7 +150,6 @@ BrowserStreamChild
 ;
 public
 :
-explicit
 StreamNotifyChild
 (
 const

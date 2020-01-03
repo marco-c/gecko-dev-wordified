@@ -278,7 +278,6 @@ parsing
 case
 *
 /
-explicit
 nsScanner
 (
 const

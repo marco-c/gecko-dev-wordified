@@ -139,7 +139,6 @@ nsIDOMHTMLPreElement
 {
 public
 :
-explicit
 HTMLPreElement
 (
 already_AddRefed

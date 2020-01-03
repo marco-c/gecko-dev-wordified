@@ -315,7 +315,6 @@ XPathResult
 ;
 public
 :
-explicit
 XPathResult
 (
 nsINode

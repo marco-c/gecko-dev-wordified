@@ -266,7 +266,6 @@ nsIConstraintValidation
 :
 GetValidationMessage
 ;
-explicit
 HTMLTextAreaElement
 (
 already_AddRefed

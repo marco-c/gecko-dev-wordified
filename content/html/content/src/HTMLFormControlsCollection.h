@@ -203,7 +203,6 @@ nsWrapperCache
 {
 public
 :
-explicit
 HTMLFormControlsCollection
 (
 HTMLFormElement

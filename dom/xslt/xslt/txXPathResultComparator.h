@@ -400,7 +400,6 @@ txXPathResultComparator
 {
 public
 :
-explicit
 txResultNumberComparator
 (
 bool

@@ -762,7 +762,6 @@ nsIConstraintValidation
 :
 GetValidationMessage
 ;
-explicit
 HTMLSelectElement
 (
 already_AddRefed

@@ -436,7 +436,6 @@ MediaDocumentStreamListener
 public
 :
 NS_DECL_NSIREQUESTOBSERVER
-explicit
 ImageListener
 (
 ImageDocument

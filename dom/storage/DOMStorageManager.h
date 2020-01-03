@@ -274,7 +274,6 @@ aScope
 ;
 protected
 :
-explicit
 DOMStorageManager
 (
 DOMStorage
@@ -344,7 +343,6 @@ nsCStringHashKey
 {
 public
 :
-explicit
 DOMStorageCacheHashKey
 (
 const

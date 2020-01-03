@@ -326,7 +326,6 @@ nsStringHashKey
 {
 public
 :
-explicit
 nsRefMapEntry
 (
 const
@@ -342,7 +341,6 @@ aKey
 )
 {
 }
-explicit
 nsRefMapEntry
 (
 const
@@ -2837,7 +2835,6 @@ OWNER
 ]
 public
 :
-explicit
 TemplateBuilderHookup
 (
 nsIContent

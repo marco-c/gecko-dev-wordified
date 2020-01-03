@@ -576,7 +576,6 @@ nsBaseContentList
 {
 public
 :
-explicit
 nsSimpleContentList
 (
 nsINode

@@ -191,7 +191,6 @@ nsIDOMHTMLHtmlElement
 {
 public
 :
-explicit
 HTMLSharedElement
 (
 already_AddRefed

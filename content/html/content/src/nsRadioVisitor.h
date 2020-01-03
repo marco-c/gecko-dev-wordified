@@ -223,7 +223,6 @@ nsRadioVisitor
 {
 public
 :
-explicit
 nsRadioSetCheckedChangedVisitor
 (
 bool

@@ -1764,7 +1764,6 @@ nsRunnable
 {
 public
 :
-explicit
 SendInitialChildDataRunnable
 (
 DOMStorageDBParent

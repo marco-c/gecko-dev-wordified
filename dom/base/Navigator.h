@@ -600,7 +600,6 @@ nsWrapperCache
 {
 public
 :
-explicit
 Navigator
 (
 nsPIDOMWindow

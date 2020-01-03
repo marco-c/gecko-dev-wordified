@@ -1350,7 +1350,6 @@ mRawPtr
 )
 ;
 }
-explicit
 WebGLRefPtr
 (
 T
@@ -1721,7 +1720,6 @@ WebGLContextBoundObject
 {
 public
 :
-explicit
 WebGLContextBoundObject
 (
 WebGLContext

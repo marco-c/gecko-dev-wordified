@@ -209,7 +209,6 @@ HTMLAllCollection
 ;
 public
 :
-explicit
 HTMLAllCollection
 (
 nsHTMLDocument

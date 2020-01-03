@@ -153,7 +153,6 @@ nsIDOMElement
 {
 public
 :
-explicit
 nsXMLElement
 (
 already_AddRefed

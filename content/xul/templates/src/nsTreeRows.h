@@ -468,7 +468,6 @@ parent
 .
 *
 /
-explicit
 Subtree
 (
 Subtree

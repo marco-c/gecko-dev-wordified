@@ -224,7 +224,6 @@ DOMStorageDBChild
 ;
 public
 :
-explicit
 DOMStorageDBChild
 (
 DOMLocalStorageManager

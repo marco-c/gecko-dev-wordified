@@ -139,7 +139,6 @@ nsIDOMHTMLHeadingElement
 {
 public
 :
-explicit
 HTMLHeadingElement
 (
 already_AddRefed

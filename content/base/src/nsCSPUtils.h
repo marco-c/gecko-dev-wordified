@@ -1388,7 +1388,6 @@ nsCSPBaseSrc
 {
 public
 :
-explicit
 nsCSPSchemeSrc
 (
 const
@@ -1474,7 +1473,6 @@ nsCSPBaseSrc
 {
 public
 :
-explicit
 nsCSPHostSrc
 (
 const
@@ -1606,7 +1604,6 @@ nsCSPBaseSrc
 {
 public
 :
-explicit
 nsCSPKeywordSrc
 (
 CSPKeyword
@@ -1687,7 +1684,6 @@ nsCSPBaseSrc
 {
 public
 :
-explicit
 nsCSPNonceSrc
 (
 const
@@ -1874,7 +1870,6 @@ nsCSPBaseSrc
 {
 public
 :
-explicit
 nsCSPReportURI
 (
 nsIURI
@@ -1949,7 +1944,6 @@ nsCSPDirective
 (
 )
 ;
-explicit
 nsCSPDirective
 (
 enum

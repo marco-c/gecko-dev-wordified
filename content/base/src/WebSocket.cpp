@@ -412,7 +412,6 @@ nsRunnable
 {
 public
 :
-explicit
 CallDispatchConnectionCloseEvents
 (
 WebSocket
@@ -5040,7 +5039,6 @@ nsAutoCloseWS
 {
 public
 :
-explicit
 nsAutoCloseWS
 (
 WebSocket

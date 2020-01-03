@@ -296,7 +296,6 @@ nsXBLProtoImplMember
 {
 public
 :
-explicit
 nsXBLProtoImplMember
 (
 const

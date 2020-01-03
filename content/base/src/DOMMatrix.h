@@ -202,7 +202,6 @@ nsWrapperCache
 {
 public
 :
-explicit
 DOMMatrixReadOnly
 (
 nsISupports
@@ -945,7 +944,6 @@ DOMMatrixReadOnly
 {
 public
 :
-explicit
 DOMMatrix
 (
 nsISupports

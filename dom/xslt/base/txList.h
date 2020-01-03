@@ -402,7 +402,6 @@ for
 *
 *
 /
-explicit
 txListIterator
 (
 txList

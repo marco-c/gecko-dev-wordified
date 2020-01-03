@@ -202,7 +202,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 URL
 )
-explicit
 URL
 (
 nsIURI

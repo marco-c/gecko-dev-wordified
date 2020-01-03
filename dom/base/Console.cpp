@@ -1185,7 +1185,6 @@ ClearException
 {
 public
 :
-explicit
 ClearException
 (
 JSContext
@@ -1467,7 +1466,6 @@ ConsoleRunnable
 {
 public
 :
-explicit
 ConsoleCallDataRunnable
 (
 ConsoleCallData
@@ -4217,7 +4215,6 @@ RAII
 {
 public
 :
-explicit
 RAII
 (
 LinkedList

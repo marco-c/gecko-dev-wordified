@@ -410,7 +410,6 @@ public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_SIZEOF_EXCLUDING_THIS
-explicit
 nsGenericDOMDataNode
 (
 already_AddRefed
@@ -427,7 +426,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-explicit
 nsGenericDOMDataNode
 (
 already_AddRefed

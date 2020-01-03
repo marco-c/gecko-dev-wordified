@@ -185,7 +185,6 @@ mMediaElement
 ;
 public
 :
-explicit
 CompareTextTracks
 (
 HTMLMediaElement
@@ -254,7 +253,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 TextTrackManager
 )
 NS_DECL_NSIDOMEVENTLISTENER
-explicit
 TextTrackManager
 (
 HTMLMediaElement

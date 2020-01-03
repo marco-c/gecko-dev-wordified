@@ -1117,7 +1117,6 @@ nsRunnable
 {
 public
 :
-explicit
 nsResumeTimeoutsEvent
 (
 nsPIDOMWindow
@@ -19044,7 +19043,6 @@ nsIAsyncVerifyRedirectCallback
 {
 public
 :
-explicit
 AsyncVerifyRedirectCallbackForwarder
 (
 nsXMLHttpRequest

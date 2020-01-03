@@ -139,7 +139,6 @@ nsGenericHTMLElement
 {
 public
 :
-explicit
 HTMLTableRowElement
 (
 already_AddRefed

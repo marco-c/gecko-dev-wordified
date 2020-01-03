@@ -143,7 +143,6 @@ char
 aRedirectURL
 )
 ;
-explicit
 nsPluginPlayPreviewInfo
 (
 const

@@ -312,7 +312,6 @@ nsIDOMHTMLFrameSetElement
 {
 public
 :
-explicit
 HTMLFrameSetElement
 (
 already_AddRefed

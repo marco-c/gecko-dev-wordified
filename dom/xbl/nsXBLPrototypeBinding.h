@@ -2005,7 +2005,6 @@ nsIID
 *
 KeyTypePointer
 ;
-explicit
 IIDHashKey
 (
 const
