@@ -385,9 +385,6 @@ addonId
 "
 isSystem
 "
-"
-groupId
-"
 ]
 ;
 const
