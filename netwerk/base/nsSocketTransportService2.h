@@ -2371,7 +2371,17 @@ mServingPendingQueue
 int32_t
 mMaxTimePerPollIter
 ;
+mozilla
+:
+:
+Atomic
+<
 bool
+mozilla
+:
+:
+Relaxed
+>
 mTelemetryEnabledPref
 ;
 void
