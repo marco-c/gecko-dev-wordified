@@ -854,15 +854,6 @@ aAutoEnableLowLightTorch
 )
 ;
 nsresult
-SetupVideoMode
-(
-const
-nsAString
-&
-aProfile
-)
-;
-nsresult
 SetPreviewSize
 (
 const
@@ -995,6 +986,9 @@ mLuminanceSupported
 ;
 bool
 mAutoFlashModeOverridden
+;
+bool
+mSeparateVideoAndPreviewSizesSupported
 ;
 Atomic
 <
