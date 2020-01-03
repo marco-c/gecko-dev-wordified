@@ -4318,7 +4318,7 @@ openControlled
 break
 ;
 case
-NS_FORM_RESET
+eFormReset
 :
 if
 (

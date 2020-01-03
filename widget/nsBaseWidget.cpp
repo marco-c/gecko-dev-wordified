@@ -20662,9 +20662,9 @@ NS_FORM_CHANGE
 ;
 _ASSIGN_eventName
 (
-NS_FORM_RESET
+eFormReset
 "
-NS_FORM_RESET
+eFormReset
 "
 )
 ;

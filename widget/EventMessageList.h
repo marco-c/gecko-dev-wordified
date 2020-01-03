@@ -621,7 +621,7 @@ eFormEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_FORM_RESET
+eFormReset
 eFormEventFirst
 +
 1

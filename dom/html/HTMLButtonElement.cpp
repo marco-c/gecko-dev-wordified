@@ -2092,7 +2092,7 @@ mType
 NS_FORM_BUTTON_RESET
 )
 ?
-NS_FORM_RESET
+eFormReset
 :
 eFormSubmit
 )

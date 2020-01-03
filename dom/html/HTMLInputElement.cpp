@@ -22985,7 +22985,7 @@ mType
 NS_FORM_INPUT_RESET
 )
 ?
-NS_FORM_RESET
+eFormReset
 :
 eFormSubmit
 )

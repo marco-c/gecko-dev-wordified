@@ -1419,7 +1419,7 @@ eBasicEventClass
 EVENT
 (
 reset
-NS_FORM_RESET
+eFormReset
 EventNameType_HTMLXUL
 eBasicEventClass
 )
