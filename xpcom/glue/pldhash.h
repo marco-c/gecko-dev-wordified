@@ -2222,6 +2222,18 @@ void
 aKey
 )
 ;
+enum
+SearchReason
+{
+ForSearchOrRemove
+ForAdd
+}
+;
+template
+<
+SearchReason
+Reason
+>
 PLDHashEntryHdr
 *
 PL_DHASH_FASTCALL
@@ -2233,8 +2245,6 @@ void
 aKey
 PLDHashNumber
 aKeyHash
-bool
-aIsAdd
 )
 ;
 PLDHashEntryHdr
