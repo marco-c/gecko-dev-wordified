@@ -2183,11 +2183,12 @@ right
 ;
 }
 #
-fxaDeviceName
+fxaSyncComputerName
 {
 margin
+-
+left
 :
-14px
 0px
 ;
 }
