@@ -113,13 +113,6 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
-nsIContent
-.
-h
-"
 /
 /
 IID
@@ -147,6 +140,12 @@ NS_INODELIST_IID
 0x7a
 }
 }
+class
+nsIContent
+;
+class
+nsINode
+;
 /
 *
 *
