@@ -465,6 +465,12 @@ Exception
 e
 )
 {
+e
+.
+printStackTrace
+(
+)
+;
 mAsserter
 .
 ok
