@@ -7633,13 +7633,6 @@ IsInCompositorThread
 )
 )
 ;
-MOZ_ASSERT
-(
-profiler_is_active
-(
-)
-)
-;
 VsyncPayload
 *
 payload
@@ -7676,6 +7669,13 @@ TimeStamp
 aVsyncTimestamp
 )
 {
+/
+/
+Called
+in
+the
+vsync
+thread
 if
 (
 profiler_is_active
