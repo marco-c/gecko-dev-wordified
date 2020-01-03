@@ -1872,7 +1872,6 @@ animations
 that
 are
 *
-are
 candidates
 for
 running
@@ -1886,8 +1885,8 @@ don
 '
 t
 ship
-*
 animations
+*
 to
 the
 compositor
@@ -1899,7 +1898,6 @@ their
 delay
 phase
 or
-*
 paused
 )
 .
