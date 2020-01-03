@@ -198,6 +198,8 @@ setRootObject
 obj
 )
 {
+/
+/
 console
 .
 log
