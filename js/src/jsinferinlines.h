@@ -2092,6 +2092,9 @@ key
 )
 {
 case
+JSProto_Null
+:
+case
 JSProto_Object
 :
 return
@@ -2326,6 +2329,12 @@ cx
 ;
 if
 (
+key
+!
+=
+JSProto_Null
+&
+&
 !
 GetBuiltinPrototype
 (

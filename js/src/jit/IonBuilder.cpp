@@ -41903,13 +41903,10 @@ constraints
 (
 )
 )
-/
-*
-templateObjectIsClassPrototype
-=
-*
-/
-false
+MNewObject
+:
+:
+ObjectLiteral
 )
 ;
 current

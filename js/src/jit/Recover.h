@@ -2219,8 +2219,11 @@ RInstruction
 {
 private
 :
-bool
-templateObjectIsClassPrototype_
+MNewObject
+:
+:
+Mode
+mode_
 ;
 public
 :
