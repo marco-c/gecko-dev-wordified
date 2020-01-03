@@ -1461,6 +1461,12 @@ url
 ;
 if
 (
+!
+aSource
+.
+url
+&
+&
 aSource
 .
 introductionUrl
