@@ -5376,9 +5376,16 @@ recompileInfo
 )
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 }
 /
 /

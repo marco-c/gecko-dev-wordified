@@ -12029,6 +12029,14 @@ showLocals
 showThisProps
 )
 ;
+if
+(
+!
+buf
+)
+return
+false
+;
 RootedString
 str
 (

@@ -286,6 +286,11 @@ js_free
 buf
 )
 ;
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
