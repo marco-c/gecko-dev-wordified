@@ -1206,6 +1206,7 @@ nsITimer
 *
 aTimer
 )
+override
 {
 nsresult
 rv
