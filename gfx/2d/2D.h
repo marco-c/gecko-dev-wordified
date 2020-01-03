@@ -3292,6 +3292,15 @@ Finish
 =
 0
 ;
+virtual
+BackendType
+GetBackendType
+(
+)
+const
+=
+0
+;
 }
 ;
 struct
