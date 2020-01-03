@@ -2214,6 +2214,13 @@ nsMenuFrame
 aMenuFrame
 )
 ;
+void
+ChangeByPage
+(
+bool
+aIsUp
+)
+;
 /
 /
 Move
