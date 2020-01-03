@@ -23099,13 +23099,6 @@ JSOp
 pc
 )
 obj
-/
-*
-wasObject
-=
-*
-/
-true
 idval
 res
 )
@@ -23456,13 +23449,6 @@ JSOp
 pc
 )
 obj
-/
-*
-wasObject
-=
-*
-/
-true
 idval
 res
 )
