@@ -26080,7 +26080,7 @@ false
 ;
 }
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mFeatures
@@ -26143,7 +26143,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mFeatures
 .
