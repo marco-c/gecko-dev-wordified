@@ -868,6 +868,14 @@ aRv
 )
 const
 ;
+void
+Stringify
+(
+nsAString
+&
+aResult
+)
+;
 protected
 :
 nsCOMPtr
