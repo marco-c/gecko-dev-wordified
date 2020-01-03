@@ -742,6 +742,9 @@ antialias
 bool
 preserveDrawingBuffer
 ;
+bool
+failIfMajorPerformanceCaveat
+;
 }
 ;
 /
