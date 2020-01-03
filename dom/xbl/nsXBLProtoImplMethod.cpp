@@ -1643,6 +1643,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 /
 /
 We

@@ -1491,6 +1491,9 @@ setUndefined
 (
 )
 ;
+nsAutoMicroTask
+mt
+;
 nsresult
 rv
 =
