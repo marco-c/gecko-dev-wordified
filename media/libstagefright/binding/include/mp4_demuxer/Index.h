@@ -128,6 +128,11 @@ Microseconds
 aTime
 )
 ;
+Microseconds
+GetNextKeyframeTime
+(
+)
+;
 private
 :
 Sample
