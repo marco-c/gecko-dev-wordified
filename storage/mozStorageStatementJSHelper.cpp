@@ -755,7 +755,7 @@ rv
 xpc
 -
 >
-WrapNative
+WrapNativeHolder
 (
 aCtx
 :
@@ -990,7 +990,7 @@ rv
 xpc
 -
 >
-WrapNative
+WrapNativeHolder
 (
 aCtx
 :
