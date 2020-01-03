@@ -820,6 +820,7 @@ setDataFromTimestamps
 (
 ticks
 resolution
+duration
 )
 ;
 }
