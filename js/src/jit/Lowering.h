@@ -2302,6 +2302,14 @@ MThrowUninitializedLexical
 ins
 )
 ;
+bool
+visitDebugger
+(
+MDebugger
+*
+ins
+)
+;
 }
 ;
 }

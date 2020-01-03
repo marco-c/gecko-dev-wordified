@@ -2481,6 +2481,14 @@ ins
 )
 ;
 bool
+visitDebugger
+(
+LDebugger
+*
+ins
+)
+;
+bool
 visitCheckOverRecursed
 (
 LCheckOverRecursed

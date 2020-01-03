@@ -16344,14 +16344,6 @@ emit_JSOP_DEBUGGER
 (
 )
 {
-if
-(
-!
-compileDebugInstrumentation_
-)
-return
-true
-;
 prepareVMCall
 (
 )
@@ -16362,6 +16354,12 @@ ImmPtr
 (
 pc
 )
+)
+;
+frame
+.
+assertSyncedStack
+(
 )
 ;
 masm

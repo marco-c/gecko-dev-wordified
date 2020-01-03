@@ -5390,6 +5390,14 @@ mustReturn
 )
 ;
 bool
+IsCompartmentDebuggee
+(
+JSContext
+*
+cx
+)
+;
+bool
 EnterWith
 (
 JSContext

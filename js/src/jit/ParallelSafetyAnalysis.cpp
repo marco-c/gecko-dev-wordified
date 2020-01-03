@@ -1824,6 +1824,10 @@ UNSAFE_OP
 (
 ThrowUninitializedLexical
 )
+UNSAFE_OP
+(
+Debugger
+)
 /
 /
 It

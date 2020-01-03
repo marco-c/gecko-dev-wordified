@@ -4551,6 +4551,11 @@ ScopeCoordinate
 sc
 )
 ;
+bool
+jsop_debugger
+(
+)
+;
 /
 *
 Inlining

@@ -14492,6 +14492,9 @@ Bailout_GuardThreadExclusive
 case
 Bailout_InitialState
 :
+case
+Bailout_Debugger
+:
 /
 /
 Do
