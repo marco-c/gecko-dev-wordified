@@ -7552,6 +7552,8 @@ loadStartupTab
 (
 String
 url
+int
+flags
 )
 {
 /
@@ -7592,6 +7594,7 @@ super
 loadStartupTab
 (
 url
+flags
 )
 ;
 }

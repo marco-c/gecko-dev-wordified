@@ -1184,6 +1184,8 @@ loadStartupTab
 (
 String
 uri
+int
+flags
 )
 {
 /
@@ -1217,6 +1219,20 @@ BrowserApp
 .
 _loadWebapp
 .
+flags
+=
+Tabs
+.
+LOADURL_NEW_TAB
+|
+Tabs
+.
+LOADURL_USER_ENTERED
+|
+Tabs
+.
+LOADURL_EXTERNAL
+;
 super
 .
 loadStartupTab
@@ -1226,6 +1242,7 @@ about
 :
 blank
 "
+flags
 )
 ;
 }
