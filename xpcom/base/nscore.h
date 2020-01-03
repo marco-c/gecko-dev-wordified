@@ -1565,6 +1565,12 @@ defined
 (
 MOZ_VALGRIND
 )
+|
+|
+defined
+(
+MOZ_ASAN
+)
 #
 define
 NS_FREE_PERMANENT_DATA
