@@ -714,6 +714,15 @@ ErrorResult
 aRv
 )
 ;
+virtual
+void
+Reverse
+(
+ErrorResult
+&
+aRv
+)
+;
 bool
 IsRunningOnCompositor
 (
