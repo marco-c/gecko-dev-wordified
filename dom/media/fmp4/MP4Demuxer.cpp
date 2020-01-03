@@ -1982,6 +1982,10 @@ TimeUnit
 aTime
 )
 {
+EnsureUpToDateIndex
+(
+)
+;
 MonitorAutoLock
 mon
 (
