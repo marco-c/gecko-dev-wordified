@@ -3267,7 +3267,7 @@ rewind
 button
 '
 '
-FastFwd
+MediaFastForward
 '
 :
 '
