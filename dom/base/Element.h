@@ -6344,6 +6344,14 @@ FontSizeInflation
 (
 )
 ;
+net
+:
+:
+ReferrerPolicy
+GetReferrerPolicy
+(
+)
+;
 protected
 :
 /
