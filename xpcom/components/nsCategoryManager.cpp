@@ -1982,7 +1982,7 @@ InitMemoryReporter
 (
 )
 {
-RegisterStrongMemoryReporter
+RegisterWeakMemoryReporter
 (
 this
 )
@@ -1996,6 +1996,11 @@ nsCategoryManager
 (
 )
 {
+UnregisterWeakMemoryReporter
+(
+this
+)
+;
 /
 /
 the
