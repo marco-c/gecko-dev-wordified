@@ -9138,16 +9138,6 @@ Value
 )
 )
 ;
-FinishPersistentRootedChain
-(
-roots
-.
-heapRoots_
-[
-THING_ROOT_DYNAMIC_TRACEABLE
-]
-)
-;
 }
 void
 GCRuntime
