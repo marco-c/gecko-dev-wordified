@@ -234,11 +234,6 @@ FutexTimedout
 ;
 }
 ;
-void
-atomics_fullMemoryBarrier
-(
-)
-;
 bool
 atomics_compareExchange
 (
