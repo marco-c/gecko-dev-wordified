@@ -4215,6 +4215,15 @@ get
 selectedCookieCount
 buttonLabel
 )
+.
+replace
+(
+"
+#
+1
+"
+selectedCookieCount
+)
 ;
 removeSelectedCookies
 .
