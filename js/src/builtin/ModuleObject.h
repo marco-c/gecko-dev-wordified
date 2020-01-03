@@ -452,6 +452,13 @@ starExportEntries
 )
 const
 ;
+JSObject
+*
+enclosingStaticScope
+(
+)
+const
+;
 private
 :
 static
@@ -465,6 +472,12 @@ JSObject
 *
 obj
 )
+;
+bool
+hasScript
+(
+)
+const
 ;
 }
 ;
