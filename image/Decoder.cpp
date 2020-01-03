@@ -510,6 +510,18 @@ decoder
 "
 )
 ;
+/
+/
+Fire
+OnStartDecode
+at
+init
+time
+to
+support
+bug
+512435
+.
 if
 (
 !
@@ -522,6 +534,8 @@ mProgress
 |
 =
 FLAG_DECODE_STARTED
+|
+FLAG_ONLOAD_BLOCKED
 ;
 }
 /
@@ -1618,6 +1632,8 @@ mProgress
 |
 =
 FLAG_DECODE_COMPLETE
+|
+FLAG_ONLOAD_UNBLOCKED
 ;
 }
 mProgress
@@ -3719,6 +3735,8 @@ mProgress
 |
 =
 FLAG_FRAME_COMPLETE
+|
+FLAG_ONLOAD_UNBLOCKED
 ;
 /
 /
