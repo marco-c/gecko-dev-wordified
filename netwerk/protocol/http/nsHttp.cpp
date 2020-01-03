@@ -314,7 +314,6 @@ value
 }
 ;
 static
-struct
 PLDHashTable
 sAtomTable
 ;
