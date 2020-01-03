@@ -2044,6 +2044,15 @@ DrawTarget
 aDT
 )
 ;
+static
+nsCString
+GetAsLZ4Base64Str
+(
+DataSourceSurface
+*
+aSourceSurface
+)
+;
 /
 *
 *

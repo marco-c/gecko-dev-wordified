@@ -1836,7 +1836,7 @@ aStream
 gfxUtils
 :
 :
-GetAsDataURI
+GetAsLZ4Base64Str
 (
 dSurf
 )
