@@ -17493,7 +17493,7 @@ false
 ;
 /
 /
-Expand
+Collapse
 pseudo
 -
 elements
@@ -17513,7 +17513,7 @@ inspector
 .
 show_pseudo_elements
 "
-true
+false
 )
 ;
 /
