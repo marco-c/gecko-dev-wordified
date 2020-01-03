@@ -2314,7 +2314,7 @@ eAudioEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_AUDIO_COMPLETE
+eAudioComplete
 eAudioEventFirst
 +
 1
