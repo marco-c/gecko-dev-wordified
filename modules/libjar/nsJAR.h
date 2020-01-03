@@ -249,7 +249,7 @@ Attributes
 h
 "
 class
-nsICertificatePrincipal
+nsIX509Cert
 ;
 class
 nsIInputStream
@@ -676,9 +676,9 @@ been
 parsed
 nsCOMPtr
 <
-nsICertificatePrincipal
+nsIX509Cert
 >
-mPrincipal
+mSigningCert
 ;
 /
 /
