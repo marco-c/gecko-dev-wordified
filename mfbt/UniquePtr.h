@@ -2881,8 +2881,6 @@ mTuple
 )
 ;
 }
-private
-:
 UniquePtr
 (
 const
@@ -3175,8 +3173,6 @@ instance
 )
 ;
 }
-private
-:
 /
 /
 delete
@@ -3297,8 +3293,6 @@ aDummy
 =
 delete
 ;
-public
-:
 UniquePtr
 (
 Pointer
@@ -3446,8 +3440,6 @@ reference
 )
 ;
 }
-private
-:
 /
 /
 Forbidden
@@ -3508,8 +3500,6 @@ aDummy
 =
 delete
 ;
-public
-:
 UniquePtr
 (
 UniquePtr
@@ -3871,8 +3861,6 @@ old
 ;
 }
 }
-private
-:
 template
 <
 typename
@@ -3886,8 +3874,6 @@ U
 =
 delete
 ;
-public
-:
 void
 swap
 (
@@ -3906,8 +3892,6 @@ mTuple
 )
 ;
 }
-private
-:
 UniquePtr
 (
 const
@@ -4123,8 +4107,6 @@ delete
 aPtr
 ;
 }
-private
-:
 template
 <
 typename
