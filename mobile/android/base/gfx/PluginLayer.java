@@ -254,8 +254,10 @@ maxDimension
 super
 (
 new
-BufferedImage
+IntSize
 (
+0
+0
 )
 TileLayer
 .
