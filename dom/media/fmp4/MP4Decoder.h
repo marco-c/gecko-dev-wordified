@@ -156,6 +156,10 @@ MediaDecoder
 {
 public
 :
+MP4Decoder
+(
+)
+;
 virtual
 MediaDecoder
 *

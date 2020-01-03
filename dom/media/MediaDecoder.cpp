@@ -1043,12 +1043,7 @@ IsBeingDestroyed
 |
 |
 !
-mDecoderStateMachine
--
->
-IsDormantNeeded
-(
-)
+mDormantSupported
 )
 {
 return
@@ -1868,6 +1863,10 @@ mNextFrameStatus
 Mirror
 )
 "
+)
+mDormantSupported
+(
+false
 )
 mDecoderPosition
 (

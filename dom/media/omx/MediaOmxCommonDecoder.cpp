@@ -209,6 +209,10 @@ mFallbackToStateMachine
 false
 )
 {
+mDormantSupported
+=
+true
+;
 if
 (
 !

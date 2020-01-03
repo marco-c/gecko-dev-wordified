@@ -343,13 +343,6 @@ SizeOfAudioQueueInFrames
 override
 ;
 virtual
-bool
-IsDormantNeeded
-(
-)
-override
-;
-virtual
 void
 ReleaseMediaResources
 (

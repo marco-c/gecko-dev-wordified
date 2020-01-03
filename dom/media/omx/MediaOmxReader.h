@@ -507,16 +507,6 @@ mHasVideo
 ;
 }
 virtual
-bool
-IsDormantNeeded
-(
-)
-{
-return
-true
-;
-}
-virtual
 void
 ReleaseMediaResources
 (
