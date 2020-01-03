@@ -497,6 +497,10 @@ HandleObjectGroup
 group
 AllocatingBehaviour
 allocating
+bool
+convertDoubleElements
+=
+false
 )
 ;
 /
