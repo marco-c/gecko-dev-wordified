@@ -5607,13 +5607,9 @@ be
 "
 compositionstart
 "
+or
 "
 compositionend
-"
-or
-*
-"
-compositionupdate
 "
 .
 *
