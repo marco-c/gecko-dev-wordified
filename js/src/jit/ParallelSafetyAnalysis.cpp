@@ -2559,11 +2559,6 @@ a
 new
 bailout
 instruction
-and
-transplant
-the
-resume
-point
 .
 MBail
 *
@@ -2580,12 +2575,6 @@ alloc
 (
 )
 Bailout_ParallelUnsafe
-)
-;
-TransplantResumePoint
-(
-ins
-bail
 )
 ;
 /
@@ -4947,12 +4936,6 @@ alloc
 (
 )
 Bailout_ParallelUnsafe
-)
-;
-TransplantResumePoint
-(
-thr
-bail
 )
 ;
 block
