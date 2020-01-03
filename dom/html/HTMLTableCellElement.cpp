@@ -1659,6 +1659,8 @@ aResult
 SetTo
 (
 1
+&
+aValue
 )
 ;
 }
@@ -1747,6 +1749,8 @@ aResult
 SetTo
 (
 1
+&
+aValue
 )
 ;
 }
