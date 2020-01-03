@@ -209,9 +209,7 @@ uint32_t
 AudioChannel
 :
 :
-Publicnotification
-+
-1
+EndGuard_
 class
 AudioChannelService
 final
@@ -303,8 +301,6 @@ RegisterAudioChannelAgent
 AudioChannelAgent
 *
 aAgent
-uint32_t
-aNotifyPlayback
 AudioChannel
 aChannel
 )
@@ -336,8 +332,6 @@ UnregisterAudioChannelAgent
 AudioChannelAgent
 *
 aAgent
-uint32_t
-aNotifyPlayback
 )
 ;
 /
