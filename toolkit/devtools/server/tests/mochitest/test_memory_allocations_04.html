@@ -293,6 +293,13 @@ getAllocations
 (
 )
 ;
+yield
+memory
+.
+stopRecordingAllocations
+(
+)
+;
 return
 response
 .
@@ -442,13 +449,6 @@ allocationsSamplingProbability
 js
 )
 .
-yield
-memory
-.
-stopRecordingAllocations
-(
-)
-;
 yield
 memory
 .
