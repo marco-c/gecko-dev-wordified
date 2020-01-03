@@ -2395,11 +2395,6 @@ GetNodeId
 aOrigin
 aTopLevelOrigin
 aInPBMode
-NS_LITERAL_CSTRING
-(
-"
-"
-)
 Move
 (
 callback

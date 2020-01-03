@@ -244,10 +244,6 @@ nsAString
 aTopLevelOrigin
 bool
 aInPrivateBrowsingMode
-const
-nsACString
-&
-aVersion
 UniquePtr
 <
 GetNodeIdCallback
@@ -359,10 +355,6 @@ nsAString
 aTopLevelOrigin
 bool
 aInPrivateBrowsing
-const
-nsACString
-&
-aVersion
 nsACString
 &
 aOutId
@@ -930,10 +922,6 @@ const
 bool
 &
 aInPrivateBrowsing
-const
-nsCString
-&
-aVersion
 nsCString
 *
 aID
