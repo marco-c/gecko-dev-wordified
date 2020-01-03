@@ -651,6 +651,10 @@ suspension_window_bps_
 (
 0
 )
+loadstate_
+(
+kLoadNormal
+)
 {
 memset
 (
