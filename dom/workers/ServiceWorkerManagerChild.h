@@ -235,6 +235,13 @@ aScope
 )
 override
 ;
+virtual
+bool
+RecvNotifyRemoveAll
+(
+)
+override
+;
 private
 :
 ServiceWorkerManagerChild

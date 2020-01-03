@@ -302,6 +302,11 @@ nsACString
 aScope
 )
 ;
+void
+RemoveAll
+(
+)
+;
 protected
 :
 /
