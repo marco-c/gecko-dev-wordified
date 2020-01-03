@@ -1809,9 +1809,7 @@ rev
 default
 =
 '
-emulator
--
-perf
+default
 '
         
 help
