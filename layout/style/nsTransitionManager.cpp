@@ -2100,6 +2100,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 subprop
 property
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 ConsiderStartingTransition
@@ -2395,6 +2399,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 subprop
 property
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 allTransitionProperties
