@@ -155,7 +155,7 @@ class
 LinearScanAllocator
 ;
 class
-LInstruction
+LNode
 ;
 class
 C1Spewer
@@ -256,7 +256,7 @@ fp
 LinearScanAllocator
 *
 regalloc
-LInstruction
+LNode
 *
 ins
 size_t

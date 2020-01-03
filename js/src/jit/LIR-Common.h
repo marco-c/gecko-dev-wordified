@@ -26990,7 +26990,7 @@ LPhi
 MOZ_FINAL
 :
 public
-LInstruction
+LNode
 {
 LAllocation
 *

@@ -1358,7 +1358,7 @@ InstructionDataMap
 {
 FixedList
 <
-LInstruction
+LNode
 *
 >
 insData_
@@ -1413,7 +1413,7 @@ insData_
 0
 sizeof
 (
-LInstruction
+LNode
 *
 )
 *
@@ -1424,7 +1424,7 @@ return
 true
 ;
 }
-LInstruction
+LNode
 *
 &
 operator
@@ -1448,7 +1448,7 @@ ins
 )
 ;
 }
-LInstruction
+LNode
 *
 const
 &
@@ -1474,7 +1474,7 @@ ins
 )
 ;
 }
-LInstruction
+LNode
 *
 &
 operator
@@ -1492,7 +1492,7 @@ ins
 ]
 ;
 }
-LInstruction
+LNode
 *
 const
 &
@@ -1826,7 +1826,7 @@ CodePosition
 outputOf
 (
 const
-LInstruction
+LNode
 *
 ins
 )
@@ -1947,7 +1947,7 @@ CodePosition
 inputOf
 (
 const
-LInstruction
+LNode
 *
 ins
 )
@@ -2064,7 +2064,7 @@ ins
 CodePosition
 minimalDefEnd
 (
-LInstruction
+LNode
 *
 ins
 )
@@ -2129,7 +2129,7 @@ while
 true
 )
 {
-LInstruction
+LNode
 *
 next
 =

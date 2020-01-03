@@ -1305,7 +1305,7 @@ isReusedInput
 LUse
 *
 use
-LInstruction
+LNode
 *
 ins
 bool
@@ -1318,7 +1318,7 @@ isRegisterUse
 LUse
 *
 use
-LInstruction
+LNode
 *
 ins
 bool
@@ -1392,7 +1392,7 @@ const
 LiveInterval
 *
 interval
-LInstruction
+LNode
 *
 ins
 )
@@ -1404,7 +1404,7 @@ const
 LiveInterval
 *
 interval
-LInstruction
+LNode
 *
 ins
 )

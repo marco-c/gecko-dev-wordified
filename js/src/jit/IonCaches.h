@@ -194,6 +194,9 @@ LockedJSContext
 namespace
 jit
 {
+class
+LInstruction
+;
 #
 define
 IONCACHE_KIND_LIST

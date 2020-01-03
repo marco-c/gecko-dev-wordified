@@ -3220,6 +3220,11 @@ ins
 )
 -
 >
+toInstruction
+(
+)
+-
+>
 snapshot
 (
 )
@@ -3666,7 +3671,7 @@ start
 (
 )
 ;
-LInstruction
+LNode
 *
 ins
 =
@@ -6468,7 +6473,7 @@ outside
 the
 loop
 .
-LInstruction
+LNode
 *
 other
 =

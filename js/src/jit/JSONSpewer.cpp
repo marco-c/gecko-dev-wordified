@@ -1876,7 +1876,7 @@ JSONSpewer
 :
 spewLIns
 (
-LInstruction
+LNode
 *
 ins
 )

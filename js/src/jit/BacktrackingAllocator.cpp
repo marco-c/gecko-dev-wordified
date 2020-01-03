@@ -7411,7 +7411,7 @@ start
 (
 )
 ;
-LInstruction
+LNode
 *
 ins
 =
@@ -8089,7 +8089,7 @@ isReusedInput
 LUse
 *
 use
-LInstruction
+LNode
 *
 ins
 bool
@@ -8140,7 +8140,7 @@ isRegisterUse
 LUse
 *
 use
-LInstruction
+LNode
 *
 ins
 bool
@@ -8490,6 +8490,11 @@ ins
 )
 -
 >
+toInstruction
+(
+)
+-
+>
 snapshot
 (
 )
@@ -8645,7 +8650,7 @@ have
 different
 allocations
 .
-LInstruction
+LNode
 *
 ins
 =
@@ -10462,7 +10467,7 @@ const
 LiveInterval
 *
 interval
-LInstruction
+LNode
 *
 ins
 )
@@ -10553,7 +10558,7 @@ const
 LiveInterval
 *
 interval
-LInstruction
+LNode
 *
 ins
 )
@@ -11785,7 +11790,7 @@ iter
 >
 use
 ;
-LInstruction
+LNode
 *
 ins
 =
@@ -12159,7 +12164,7 @@ iter
 >
 use
 ;
-LInstruction
+LNode
 *
 ins
 =
@@ -12643,7 +12648,7 @@ iter
 +
 )
 {
-LInstruction
+LNode
 *
 ins
 =
@@ -13464,7 +13469,7 @@ iter
 +
 )
 {
-LInstruction
+LNode
 *
 ins
 =
