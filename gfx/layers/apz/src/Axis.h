@@ -641,6 +641,10 @@ ParentLayerCoord
 float
 &
 aOverscrollAmountOut
+bool
+forceOverscroll
+=
+false
 )
 ;
 /
