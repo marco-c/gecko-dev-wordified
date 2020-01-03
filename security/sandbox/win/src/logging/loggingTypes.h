@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-security_sandbox_wosTypes_h__
+security_sandbox_loggingTypes_h__
 #
 define
-security_sandbox_wosTypes_h__
+security_sandbox_loggingTypes_h__
 #
 include
 <
@@ -128,7 +128,7 @@ namespace
 mozilla
 {
 namespace
-warnonlysandbox
+sandboxing
 {
 /
 /
@@ -199,7 +199,7 @@ aLogFunction
 }
 /
 /
-warnonlysandbox
+sandboxing
 }
 /
 /
@@ -208,4 +208,4 @@ mozilla
 endif
 /
 /
-security_sandbox_wosTypes_h__
+security_sandbox_loggingTypes_h__

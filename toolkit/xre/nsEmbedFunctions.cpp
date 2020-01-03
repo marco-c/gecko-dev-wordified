@@ -509,7 +509,7 @@ h
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &
@@ -525,9 +525,9 @@ include
 "
 mozilla
 /
-warnonlysandbox
+sandboxing
 /
-wosCallbacks
+loggingCallbacks
 .
 h
 "
@@ -3287,7 +3287,7 @@ NS_ERROR_FAILURE
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &
@@ -3311,8 +3311,9 @@ initialised
 as
 /
 /
-InitIfRequired
-needs
+InitLoggingIfRequired
+may
+need
 access
 to
 prefs
@@ -3320,10 +3321,10 @@ prefs
 mozilla
 :
 :
-warnonlysandbox
+sandboxing
 :
 :
-InitIfRequired
+InitLoggingIfRequired
 (
 )
 ;
