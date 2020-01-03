@@ -1091,3 +1091,15 @@ count
 value
 ;
 }
+function
+flushPendingFileDeletions
+(
+)
+{
+utils
+.
+flushPendingFileDeletions
+(
+)
+;
+}
