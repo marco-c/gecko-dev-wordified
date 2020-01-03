@@ -164,8 +164,6 @@ marionette
 /
 content
 /
-marionette
--
 simpletest
 .
 js
@@ -185,8 +183,6 @@ marionette
 /
 content
 /
-marionette
--
 common
 .
 js
@@ -206,8 +202,6 @@ marionette
 /
 content
 /
-marionette
--
 actions
 .
 js
@@ -227,8 +221,6 @@ marionette
 /
 content
 /
-marionette
--
 elements
 .
 js
@@ -389,8 +381,6 @@ marionette
 /
 content
 /
-marionette
--
 sendkeys
 .
 js
@@ -766,8 +756,6 @@ info
 (
 "
 loaded
-marionette
--
 listener
 .
 js
