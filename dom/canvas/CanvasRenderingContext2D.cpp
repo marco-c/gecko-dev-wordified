@@ -7657,7 +7657,12 @@ size
 width
 <
 =
-0xFFFF
+gfxPrefs
+:
+:
+MaxCanvasSize
+(
+)
 &
 &
 size
@@ -7665,7 +7670,12 @@ size
 height
 <
 =
-0xFFFF
+gfxPrefs
+:
+:
+MaxCanvasSize
+(
+)
 &
 &
 size
