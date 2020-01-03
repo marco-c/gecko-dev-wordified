@@ -753,8 +753,6 @@ const
 ScrollableLayerGuid
 &
 aGuid
-float
-aPresShellResolution
 )
 ;
 /
@@ -803,8 +801,6 @@ const
 CSSToLayoutDeviceScale
 &
 aScale
-float
-aPresShellResolution
 )
 ;
 /
@@ -843,8 +839,6 @@ const
 CSSToLayoutDeviceScale
 &
 aScale
-float
-aPresShellResolution
 )
 ;
 /
