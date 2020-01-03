@@ -251,6 +251,8 @@ _recordButton
 (
 "
 #
+main
+-
 record
 -
 button

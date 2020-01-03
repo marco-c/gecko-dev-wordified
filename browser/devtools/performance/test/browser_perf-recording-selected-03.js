@@ -172,6 +172,8 @@ ok
 (
 "
 #
+main
+-
 record
 -
 button
@@ -203,6 +205,8 @@ ok
 (
 "
 #
+main
+-
 record
 -
 button
