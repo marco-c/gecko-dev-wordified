@@ -528,6 +528,11 @@ ContinueAsyncOpen
 (
 )
 ;
+void
+FinishAsyncOpen
+(
+)
+;
 /
 /
 Discard
