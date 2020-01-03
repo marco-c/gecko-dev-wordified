@@ -3503,6 +3503,17 @@ return
 mDraggableRegion
 ;
 }
+virtual
+void
+ReportSwipeStarted
+(
+uint64_t
+aInputBlockId
+bool
+aStartSwipe
+)
+override
+;
 void
 ResetParent
 (
