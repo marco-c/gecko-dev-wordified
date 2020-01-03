@@ -14214,6 +14214,10 @@ js_delete
 allocationSiteTable
 )
 ;
+allocationSiteTable
+=
+nullptr
+;
 return
 nullptr
 ;
