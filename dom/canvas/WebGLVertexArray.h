@@ -527,15 +527,11 @@ WebGLVertexArray
 /
 MEMBER
 FUNCTIONS
-bool
+void
 EnsureAttrib
 (
 GLuint
 index
-const
-char
-*
-info
 )
 ;
 bool
