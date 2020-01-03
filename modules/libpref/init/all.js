@@ -58523,3 +58523,15 @@ enabled
 false
 )
 ;
+pref
+(
+"
+dom
+.
+mozKillSwitch
+.
+enabled
+"
+false
+)
+;
