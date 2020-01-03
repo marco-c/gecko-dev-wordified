@@ -867,6 +867,17 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvSpeculativeConnect
+(
+const
+URIParams
+&
+aURI
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvHTMLDNSPrefetch
 (
 const

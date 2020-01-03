@@ -229,6 +229,11 @@ UpdateImport
 (
 )
 ;
+void
+UpdatePreconnect
+(
+)
+;
 /
 /
 nsIDOMEventTarget
