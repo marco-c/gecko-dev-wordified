@@ -471,9 +471,10 @@ markup
 ;
 mBoundingMetrics
 =
-aRenderingContext
-.
-GetBoundingMetrics
+nsLayoutUtils
+:
+:
+AppUnitBoundsOfString
 (
 errorMsg
 .
@@ -485,6 +486,7 @@ errorMsg
 Length
 (
 )
+aRenderingContext
 )
 ;
 /
