@@ -1626,6 +1626,9 @@ track
 buffer
 .
 int64_t
+mOriginalSeekTime
+;
+int64_t
 mPendingSeekTime
 ;
 bool
