@@ -155,6 +155,11 @@ GetProp_Constant
 \
 _
 (
+GetProp_StaticName
+)
+\
+_
+(
 GetProp_SimdGetter
 )
 \
