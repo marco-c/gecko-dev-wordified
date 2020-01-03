@@ -262,7 +262,7 @@ char
 name
 )
 {
-MarkValueUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 valuep
@@ -404,7 +404,7 @@ char
 name
 )
 {
-MarkValueUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 valuep

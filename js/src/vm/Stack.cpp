@@ -2453,10 +2453,7 @@ hasReturnValue
 (
 )
 )
-gc
-:
-:
-MarkValueUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -2488,10 +2485,7 @@ start
 <
 end
 )
-gc
-:
-:
-MarkValueRootRange
+TraceRootRange
 (
 trc
 end
@@ -2784,10 +2778,7 @@ numFormalArgs
 )
 )
 ;
-gc
-:
-:
-MarkValueRootRange
+TraceRootRange
 (
 trc
 argc
@@ -2813,10 +2804,7 @@ and
 |
 this
 |
-gc
-:
-:
-MarkValueRootRange
+TraceRootRange
 (
 trc
 2

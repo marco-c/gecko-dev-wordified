@@ -565,7 +565,7 @@ deref
 )
 return
 ;
-MarkValueRoot
+TraceRoot
 (
 trc
 edge
