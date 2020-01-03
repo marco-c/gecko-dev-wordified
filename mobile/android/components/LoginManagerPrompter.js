@@ -77,9 +77,14 @@ Components
 .
 results
 ;
+const
+Cu
+=
 Components
 .
 utils
+;
+Cu
 .
 import
 (
@@ -98,9 +103,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 import
 (
@@ -2719,6 +2722,7 @@ com
 80
 "
 )
+let
 port
 =
 uri

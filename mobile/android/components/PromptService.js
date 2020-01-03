@@ -2632,6 +2632,8 @@ aPass
 )
 {
 return
+this
+.
 nsIAuthPrompt_loginPrompt
 (
 aTitle
@@ -2655,6 +2657,8 @@ aPass
 )
 {
 return
+this
+.
 nsIAuthPrompt_loginPrompt
 (
 aTitle
@@ -5708,6 +5712,7 @@ com
 80
 "
 )
+let
 port
 =
 uri

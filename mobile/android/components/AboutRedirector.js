@@ -197,9 +197,12 @@ get
 firefox
 (
 )
+{
+return
 this
 .
 fennec
+}
 /
 /
 about
