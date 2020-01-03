@@ -267,6 +267,7 @@ nsITimerCallback
 {
 public
 :
+explicit
 DoWorkRunnable
 (
 MessagePump

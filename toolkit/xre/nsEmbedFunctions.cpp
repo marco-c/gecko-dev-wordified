@@ -1870,8 +1870,11 @@ child_message
 .
 AddDescriptor
 (
+MachMsgPortDescriptor
+(
 mach_task_self
 (
+)
 )
 )
 )
@@ -1914,7 +1917,10 @@ child_message
 .
 AddDescriptor
 (
+MachMsgPortDescriptor
+(
 raw_child_recv_port
+)
 )
 )
 {

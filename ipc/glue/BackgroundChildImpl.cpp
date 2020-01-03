@@ -109,6 +109,7 @@ BackgroundChildImpl
 nsCString
 mTestArg
 ;
+explicit
 TestChild
 (
 const

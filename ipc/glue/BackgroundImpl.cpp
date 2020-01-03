@@ -2086,6 +2086,7 @@ sThreadLocalIndex
 struct
 ThreadLocalInfo
 {
+explicit
 ThreadLocalInfo
 (
 nsIIPCBackgroundChildCreateCallback
@@ -2870,6 +2871,7 @@ mMessageLoop
 ;
 public
 :
+explicit
 RequestMessageLoopRunnable
 (
 nsIThread
@@ -2969,6 +2971,7 @@ mActorArray
 ;
 public
 :
+explicit
 ForceCloseBackgroundActorsRunnable
 (
 nsTArray
@@ -3029,6 +3032,7 @@ mCallback
 ;
 public
 :
+explicit
 CreateCallbackRunnable
 (
 CreateCallback
@@ -3492,6 +3496,7 @@ mEventTarget
 ;
 public
 :
+explicit
 ParentCreateCallback
 (
 nsIEventTarget

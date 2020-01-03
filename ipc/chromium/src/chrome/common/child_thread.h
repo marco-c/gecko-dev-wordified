@@ -126,6 +126,7 @@ Creates
 the
 thread
 .
+explicit
 ChildThread
 (
 Thread

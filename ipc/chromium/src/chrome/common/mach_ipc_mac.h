@@ -770,6 +770,7 @@ rights
 to
 a
 port
+explicit
 MachMsgPortDescriptor
 (
 mach_port_t
@@ -1998,6 +1999,7 @@ MachMessage
 {
 public
 :
+explicit
 MachSendMessage
 (
 int32_t
@@ -2144,6 +2146,7 @@ a
 name
 for
 it
+explicit
 ReceivePort
 (
 const
@@ -2178,6 +2181,7 @@ in
 our
 destructor
 .
+explicit
 ReceivePort
 (
 mach_port_t
@@ -2370,6 +2374,7 @@ a
 named
 registered
 service
+explicit
 MachPortSender
 (
 const
@@ -2389,6 +2394,7 @@ port
 use
 it
 .
+explicit
 MachPortSender
 (
 mach_port_t

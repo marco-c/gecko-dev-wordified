@@ -160,6 +160,7 @@ ChildThread
 has
 started
 .
+explicit
 ChildProcess
 (
 ChildThread

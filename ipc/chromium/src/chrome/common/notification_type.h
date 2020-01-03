@@ -5393,6 +5393,7 @@ notifications
 NOTIFICATION_TYPE_COUNT
 }
 ;
+explicit
 NotificationType
 (
 Type

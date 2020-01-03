@@ -239,6 +239,7 @@ ptr_
 }
 protected
 :
+explicit
 NotificationDetails
 (
 void
@@ -271,6 +272,7 @@ NotificationDetails
 {
 public
 :
+explicit
 Details
 (
 T
@@ -284,6 +286,7 @@ ptr
 )
 {
 }
+explicit
 Details
 (
 const

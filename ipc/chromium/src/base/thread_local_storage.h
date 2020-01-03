@@ -168,6 +168,7 @@ Slot
 {
 public
 :
+explicit
 Slot
 (
 TLSDestructorFunc
