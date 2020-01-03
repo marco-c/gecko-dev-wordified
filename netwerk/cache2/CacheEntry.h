@@ -1322,6 +1322,8 @@ false
 void
 StoreFrecency
 (
+double
+aFrecency
 )
 ;
 /
