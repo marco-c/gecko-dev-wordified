@@ -2737,12 +2737,6 @@ mIMETabParent
 ContentCache
 mContentCache
 ;
-uint32_t
-mIMESelectionAnchor
-;
-uint32_t
-mIMESelectionFocus
-;
 mozilla
 :
 :
