@@ -21009,6 +21009,14 @@ shouldShrink
 lock
 )
 ;
+if
+(
+toFree
+.
+count
+(
+)
+)
 {
 AutoUnlockGC
 unlock
