@@ -1798,6 +1798,9 @@ value
 content
 .
 self
+configurable
+:
+true
 }
 )
 ;
