@@ -2650,6 +2650,7 @@ RTC_ARRAY_SIZE
 >
 mTexts
 ;
+explicit
 PullFrameState
 (
 nsRubyBaseContainerFrame

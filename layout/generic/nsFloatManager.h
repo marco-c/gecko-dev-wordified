@@ -594,6 +594,7 @@ purposes
 struct
 SavedState
 {
+explicit
 SavedState
 (
 mozilla
