@@ -1424,6 +1424,13 @@ Now
 ;
 if
 (
+mWarnTime
+.
+IsNull
+(
+)
+|
+|
 severity
 >
 mWarningLevel
@@ -1436,7 +1443,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-1500
+150
 )
 <
 now
