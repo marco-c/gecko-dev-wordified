@@ -510,6 +510,11 @@ loadType
 aWebProgress
 .
 loadType
+DOMWindowID
+:
+aWebProgress
+.
+DOMWindowID
 }
 ;
 }
