@@ -1608,6 +1608,17 @@ is
 js
 :
 :
+ModuleEnvironmentObject
+>
+(
+)
+|
+|
+is
+<
+js
+:
+:
 NonSyntacticVariablesObject
 >
 (
