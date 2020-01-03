@@ -847,8 +847,6 @@ template
 '
 {
 node
-|
-short
 }
 '
 ]

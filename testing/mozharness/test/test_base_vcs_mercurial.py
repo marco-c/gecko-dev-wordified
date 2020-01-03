@@ -66,6 +66,12 @@ os
 .
 path
 .
+abspath
+(
+os
+.
+path
+.
 join
 (
 os
@@ -83,6 +89,7 @@ helper_files
 .
 hgrc
 '
+)
 )
 def
 cleanup
@@ -262,8 +269,6 @@ template
 '
 {
 node
-|
-short
 }
 \
 n

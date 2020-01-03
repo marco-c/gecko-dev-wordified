@@ -9918,8 +9918,6 @@ template
 '
 {
 node
-|
-short
 }
 '
 ]
