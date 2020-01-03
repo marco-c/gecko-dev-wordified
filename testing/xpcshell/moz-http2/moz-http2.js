@@ -2952,8 +2952,6 @@ localhost
 serverPort
 "
 h2
--
-16
 "
 3600
 req
