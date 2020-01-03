@@ -1239,16 +1239,6 @@ const
 ;
 private
 :
-friend
-class
-mozilla
-:
-:
-image
-:
-:
-ProgressTracker
-;
 void
 Cancel
 (
