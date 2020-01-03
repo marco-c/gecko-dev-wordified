@@ -399,6 +399,13 @@ names
 )
 ;
 const
+PropertyName
+*
+emptyString
+(
+)
+;
+const
 StaticStrings
 &
 staticStrings

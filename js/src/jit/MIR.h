@@ -28932,6 +28932,12 @@ TempAllocator
 alloc
 )
 ;
+MDefinition
+*
+foldsTernary
+(
+)
+;
 bool
 congruentTo
 (
