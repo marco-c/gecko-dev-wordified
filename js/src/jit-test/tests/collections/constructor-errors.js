@@ -58,7 +58,6 @@ argsobj
 1
 2
 )
-null
 true
 0
 3

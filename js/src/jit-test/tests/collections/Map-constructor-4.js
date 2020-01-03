@@ -32,7 +32,6 @@ var
 nonIterables
 =
 [
-null
 true
 1
 -

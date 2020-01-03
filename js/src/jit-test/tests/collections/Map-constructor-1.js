@@ -54,3 +54,15 @@ size
 0
 )
 ;
+assertEq
+(
+new
+Map
+(
+null
+)
+.
+size
+0
+)
+;

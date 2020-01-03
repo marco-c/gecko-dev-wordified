@@ -54,3 +54,15 @@ size
 0
 )
 ;
+assertEq
+(
+new
+Set
+(
+null
+)
+.
+size
+0
+)
+;

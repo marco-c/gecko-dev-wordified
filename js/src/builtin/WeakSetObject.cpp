@@ -620,11 +620,16 @@ false
 }
 if
 (
+!
 args
 .
-hasDefined
+get
 (
 0
+)
+.
+isNullOrUndefined
+(
 )
 )
 {
