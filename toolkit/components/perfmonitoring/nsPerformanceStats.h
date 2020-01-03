@@ -128,6 +128,10 @@ nsPerformanceStatsService
 (
 )
 ;
+const
+uint64_t
+mProcessId
+;
 protected
 :
 }
