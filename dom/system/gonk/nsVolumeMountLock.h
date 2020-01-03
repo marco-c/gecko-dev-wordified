@@ -115,6 +115,9 @@ nsWeakReference
 .
 h
 "
+class
+nsIVolume
+;
 namespace
 mozilla
 {
@@ -226,6 +229,14 @@ nsVolumeMountLock
 nsresult
 Init
 (
+)
+;
+nsresult
+Lock
+(
+nsIVolume
+*
+aVolume
 )
 ;
 nsRefPtr
