@@ -4983,12 +4983,12 @@ depth
 ScopeIter
 si
 (
+cx
 frame
 pc
-cx
 )
 ;
-UnwindAllScopes
+UnwindAllScopesInFrame
 (
 cx
 si

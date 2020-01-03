@@ -10632,7 +10632,7 @@ chain
 script
 -
 >
-getStaticScope
+getStaticBlockScope
 (
 pc
 )

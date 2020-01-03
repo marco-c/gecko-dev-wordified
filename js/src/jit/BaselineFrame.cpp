@@ -512,7 +512,7 @@ staticScope
 script
 -
 >
-getStaticScope
+getStaticBlockScope
 (
 pc
 )
