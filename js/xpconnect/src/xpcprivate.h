@@ -16086,6 +16086,9 @@ aClass
 nsXPCWrappedJS
 *
 root
+nsresult
+*
+rv
 )
 ;
 bool
