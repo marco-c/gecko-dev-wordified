@@ -307,13 +307,6 @@ reading_list_row_view
 this
 )
 ;
-setOrientation
-(
-LinearLayout
-.
-VERTICAL
-)
-;
 resources
 =
 context
