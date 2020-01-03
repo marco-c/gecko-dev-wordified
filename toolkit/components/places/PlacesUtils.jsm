@@ -6499,6 +6499,10 @@ params
 keyword
 =
 aKeyword
+.
+toLowerCase
+(
+)
 ;
 try
 {
