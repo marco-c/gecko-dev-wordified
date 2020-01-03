@@ -14153,7 +14153,12 @@ nsDependentAtomString
 aContent
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 )
@@ -22831,7 +22836,12 @@ frag
 contextAsContent
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 contextAsContent

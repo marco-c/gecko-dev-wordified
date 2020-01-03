@@ -2170,7 +2170,12 @@ MOZ_ASSERT
 thisContent
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 !

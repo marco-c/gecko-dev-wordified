@@ -1201,7 +1201,12 @@ name
 content
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 ;
@@ -1820,7 +1825,12 @@ name
 content
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 ;

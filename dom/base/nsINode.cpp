@@ -9491,7 +9491,12 @@ content
 aNewChild
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 =
