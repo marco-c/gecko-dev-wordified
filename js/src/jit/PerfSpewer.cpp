@@ -118,6 +118,15 @@ PerfSpewer
 h
 "
 #
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
 if
 defined
 (
