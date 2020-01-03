@@ -305,7 +305,10 @@ valid
 if
 type
 is
-STMT_SWITCH
+StmtType
+:
+:
+SWITCH
 .
 uint16_t
 firstDominatingLexicalInCase
