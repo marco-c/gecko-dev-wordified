@@ -146,6 +146,11 @@ mockPushHandler
 notify
 (
 1
+LoopCalls
+.
+channelIDs
+.
+Guest
 )
 ;
 waitForCondition

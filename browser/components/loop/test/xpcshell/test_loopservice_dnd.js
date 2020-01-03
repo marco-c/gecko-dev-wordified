@@ -242,6 +242,11 @@ mockPushHandler
 notify
 (
 1
+LoopCalls
+.
+channelIDs
+.
+Guest
 )
 ;
 waitForCondition
@@ -345,6 +350,11 @@ mockPushHandler
 notify
 (
 1
+LoopCalls
+.
+channelIDs
+.
+Guest
 )
 ;
 do_timeout
