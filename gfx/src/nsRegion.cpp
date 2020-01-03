@@ -1955,12 +1955,6 @@ destRect
 =
 boxes
 ;
-pixman_box32_t
-*
-rect
-=
-tmpRect
-;
 /
 /
 find
@@ -2093,6 +2087,10 @@ the
 rects
 into
 tmpRect
+pixman_box32_t
+*
+rect
+;
 rect
 =
 MergeRects
