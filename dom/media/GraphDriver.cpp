@@ -1875,9 +1875,13 @@ advance
 )
 ;
 }
+MOZ_ASSERT
+(
 mStateComputedTime
 =
+=
 mNextStateComputedTime
+)
 ;
 mNextStateComputedTime
 =
@@ -4911,9 +4915,13 @@ Available
 )
 )
 {
+MOZ_ASSERT
+(
 mStateComputedTime
 =
+=
 mNextStateComputedTime
+)
 ;
 /
 /
