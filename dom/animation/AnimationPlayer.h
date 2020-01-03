@@ -1845,7 +1845,9 @@ PostUpdate
 )
 ;
 /
-/
+*
+*
+*
 Remove
 this
 player
@@ -1856,8 +1858,7 @@ player
 tracker
 and
 reset
-/
-/
+*
 mPendingState
 as
 necessary
@@ -1869,8 +1870,7 @@ responsible
 for
 resolving
 or
-/
-/
+*
 aborting
 the
 mReady
@@ -1878,8 +1878,10 @@ promise
 as
 necessary
 .
+*
+/
 void
-CancelPendingPlay
+CancelPendingTasks
 (
 )
 ;
