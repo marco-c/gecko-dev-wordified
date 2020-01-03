@@ -163,9 +163,6 @@ namespace
 dom
 {
 class
-File
-;
-class
 DOMRequest
 ;
 struct
@@ -626,8 +623,8 @@ const
 nsAString
 &
 aDeviceAddress
-File
-&
+nsIDOMBlob
+*
 aBlob
 ErrorResult
 &

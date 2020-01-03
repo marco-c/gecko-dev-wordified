@@ -165,6 +165,9 @@ NS_ICONTENTPARENT_IID
 class
 nsFrameMessageManager
 ;
+class
+nsIDOMBlob
+;
 namespace
 IPC
 {
@@ -204,9 +207,6 @@ BlobParent
 ;
 class
 ContentParent
-;
-class
-File
 ;
 class
 IPCTabContext
@@ -250,7 +250,7 @@ BlobParent
 *
 GetOrCreateActorForBlob
 (
-File
+nsIDOMBlob
 *
 aBlob
 )

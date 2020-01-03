@@ -153,11 +153,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-File
+nsIDOMFile
 .
 h
 "

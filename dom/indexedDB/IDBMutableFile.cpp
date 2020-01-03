@@ -1550,7 +1550,7 @@ aMetadataParams
 {
 nsRefPtr
 <
-FileImpl
+DOMFileImpl
 >
 impl
 =
@@ -1572,11 +1572,8 @@ nsIDOMFile
 fileSnapshot
 =
 new
-File
+DOMFile
 (
-GetOwner
-(
-)
 impl
 )
 ;

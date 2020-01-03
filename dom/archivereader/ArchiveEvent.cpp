@@ -630,7 +630,7 @@ type
 This
 is
 a
-File
+nsDOMFile
 :
 nsRefPtr
 <

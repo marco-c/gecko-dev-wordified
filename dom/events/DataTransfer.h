@@ -165,9 +165,7 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
+nsDOMFile
 .
 h
 "
@@ -176,9 +174,7 @@ include
 "
 mozilla
 /
-dom
-/
-File
+Attributes
 .
 h
 "
@@ -819,7 +815,7 @@ ErrorResult
 aRv
 )
 ;
-FileList
+nsDOMFileList
 *
 GetFiles
 (
@@ -1660,7 +1656,7 @@ the
 dataTransfer
 nsRefPtr
 <
-FileList
+nsDOMFileList
 >
 mFiles
 ;

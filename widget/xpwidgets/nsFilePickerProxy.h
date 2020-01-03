@@ -149,9 +149,6 @@ nsIWidget
 class
 nsIFile
 ;
-class
-nsPIDOMWindow
-;
 /
 *
 *
@@ -405,12 +402,6 @@ const
 nsAString
 &
 )
-;
-nsCOMPtr
-<
-nsPIDOMWindow
->
-mParent
 ;
 nsCOMArray
 <

@@ -723,17 +723,6 @@ utils
 ;
 Cu
 .
-importGlobalProperties
-(
-[
-'
-File
-'
-]
-)
-;
-Cu
-.
 import
 (
 "

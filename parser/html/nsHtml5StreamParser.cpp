@@ -1200,7 +1200,7 @@ Chardet
 instantiation
 adapted
 from
-File
+nsDOMFile
 .
 /
 /

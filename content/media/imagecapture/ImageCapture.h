@@ -207,9 +207,6 @@ namespace
 dom
 {
 class
-File
-;
-class
 VideoStreamTrack
 ;
 /
@@ -472,7 +469,7 @@ script
 nsresult
 PostBlobEvent
 (
-File
+nsIDOMBlob
 *
 aBlob
 )

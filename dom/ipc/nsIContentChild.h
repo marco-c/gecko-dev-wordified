@@ -163,6 +163,9 @@ NS_ICONTENTCHILD_IID
 }
 }
 class
+nsIDOMBlob
+;
+class
 nsString
 ;
 namespace
@@ -204,9 +207,6 @@ class
 ClonedMessageData
 ;
 class
-File
-;
-class
 IPCTabContext
 ;
 class
@@ -233,7 +233,7 @@ BlobChild
 *
 GetOrCreateActorForBlob
 (
-File
+nsIDOMBlob
 *
 aBlob
 )

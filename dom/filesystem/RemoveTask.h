@@ -151,7 +151,7 @@ namespace
 dom
 {
 class
-FileImpl
+DOMFileImpl
 ;
 class
 Promise
@@ -174,7 +174,7 @@ const
 nsAString
 &
 aDirPath
-FileImpl
+DOMFileImpl
 *
 aTargetFile
 const
@@ -291,7 +291,7 @@ This
 cannot
 be
 a
-File
+DOMFile
 because
 this
 object
@@ -305,7 +305,7 @@ different
 /
 thread
 and
-File
+DOMFile
 is
 not
 thread
@@ -317,12 +317,12 @@ Let
 s
 use
 the
-FileImpl
+DOMFileImpl
 instead
 .
 nsRefPtr
 <
-FileImpl
+DOMFileImpl
 >
 mTargetFileImpl
 ;

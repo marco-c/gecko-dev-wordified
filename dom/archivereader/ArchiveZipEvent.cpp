@@ -371,7 +371,7 @@ NS_OK
 From
 zipItem
 to
-File
+DOMFile
 :
 nsIDOMFile
 *
@@ -405,12 +405,8 @@ nullptr
 }
 return
 new
-dom
-:
-:
-File
+DOMFile
 (
-aArchiveReader
 new
 ArchiveZipFileImpl
 (

@@ -211,7 +211,7 @@ virtual
 bool
 GetRealPath
 (
-FileImpl
+DOMFileImpl
 *
 aFile
 nsAString

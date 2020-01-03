@@ -21951,16 +21951,6 @@ btoa
 :
 1
 ;
-bool
-Blob
-:
-1
-;
-bool
-File
-:
-1
-;
 }
 ;
 /

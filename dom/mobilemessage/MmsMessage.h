@@ -163,9 +163,6 @@ mozilla
 namespace
 dom
 {
-class
-File
-;
 namespace
 mobilemessage
 {
@@ -208,9 +205,9 @@ struct
 Attachment
 MOZ_FINAL
 {
-nsRefPtr
+nsCOMPtr
 <
-File
+nsIDOMBlob
 >
 content
 ;

@@ -73,11 +73,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-File
+nsDOMFile
 .
 h
 "
@@ -1122,12 +1118,11 @@ domFile
 dom
 :
 :
-File
+DOMFile
 :
 :
 CreateFromFile
 (
-nullptr
 localFile
 )
 ;

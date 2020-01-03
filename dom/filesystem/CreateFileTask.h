@@ -145,6 +145,9 @@ ErrorResult
 h
 "
 class
+nsIDOMBlob
+;
+class
 nsIInputStream
 ;
 namespace
@@ -154,10 +157,7 @@ namespace
 dom
 {
 class
-File
-;
-class
-FileImpl
+DOMFileImpl
 ;
 class
 Promise
@@ -180,7 +180,7 @@ const
 nsAString
 &
 aPath
-File
+nsIDOMBlob
 *
 aBlobData
 InfallibleTArray
@@ -317,9 +317,9 @@ on
 main
 thread
 .
-nsRefPtr
+nsCOMPtr
 <
-File
+nsIDOMBlob
 >
 mBlobData
 ;
@@ -344,7 +344,7 @@ This
 cannot
 be
 a
-File
+DOMFile
 because
 this
 object
@@ -357,7 +357,7 @@ different
 /
 thread
 and
-File
+DOMFile
 is
 not
 thread
@@ -369,12 +369,12 @@ Let
 s
 use
 the
-FileImpl
+DOMFileImpl
 instead
 .
 nsRefPtr
 <
-FileImpl
+DOMFileImpl
 >
 mTargetFileImpl
 ;

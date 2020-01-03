@@ -171,9 +171,6 @@ struct
 ArchiveReaderOptions
 ;
 class
-File
-;
-class
 GlobalObject
 ;
 }
@@ -228,8 +225,8 @@ const
 GlobalObject
 &
 aGlobal
-File
-&
+nsIDOMBlob
+*
 aBlob
 const
 ArchiveReaderOptions
@@ -242,8 +239,8 @@ aError
 ;
 ArchiveReader
 (
-File
-&
+nsIDOMBlob
+*
 aBlob
 nsPIDOMWindow
 *
@@ -397,9 +394,9 @@ archive
 blob
 /
 file
-nsRefPtr
+nsCOMPtr
 <
-File
+nsIDOMBlob
 >
 mBlob
 ;

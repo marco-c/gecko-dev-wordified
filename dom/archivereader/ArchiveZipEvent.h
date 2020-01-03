@@ -207,7 +207,7 @@ MOZ_OVERRIDE
 From
 zipItem
 to
-File
+DOMFile
 :
 virtual
 nsIDOMFile

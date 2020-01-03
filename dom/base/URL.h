@@ -167,9 +167,6 @@ namespace
 dom
 {
 class
-File
-;
-class
 MediaSource
 ;
 class
@@ -281,8 +278,8 @@ const
 GlobalObject
 &
 aGlobal
-File
-&
+nsIDOMBlob
+*
 aBlob
 const
 objectURLOptions

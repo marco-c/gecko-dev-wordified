@@ -207,7 +207,7 @@ FileInfo
 aFileInfo
 )
 :
-FileImplBase
+DOMFileImplBase
 (
 aName
 aContentType
@@ -318,7 +318,7 @@ nsAString
 aContentType
 )
 :
-FileImplBase
+DOMFileImplBase
 (
 aContentType
 aOther
@@ -461,7 +461,7 @@ DEBUG
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 FileImplSnapshot
-FileImpl
+DOMFileImpl
 )
 void
 FileImplSnapshot
@@ -579,7 +579,7 @@ NS_OK
 }
 already_AddRefed
 <
-FileImpl
+DOMFileImpl
 >
 FileImplSnapshot
 :
@@ -594,9 +594,6 @@ const
 nsAString
 &
 aContentType
-ErrorResult
-&
-aRv
 )
 {
 AssertSanity
@@ -605,7 +602,7 @@ AssertSanity
 ;
 nsRefPtr
 <
-FileImpl
+DOMFileImpl
 >
 impl
 =
@@ -626,7 +623,7 @@ forget
 )
 ;
 }
-void
+nsresult
 FileImplSnapshot
 :
 :
@@ -635,9 +632,6 @@ GetMozFullPathInternal
 nsAString
 &
 aFilename
-ErrorResult
-&
-aRv
 )
 {
 AssertSanity
@@ -649,8 +643,7 @@ MOZ_ASSERT
 mIsFile
 )
 ;
-aRv
-=
+return
 mFile
 -
 >

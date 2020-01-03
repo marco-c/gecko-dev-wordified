@@ -151,7 +151,7 @@ namespace
 dom
 {
 class
-FileImpl
+DOMFileImpl
 ;
 class
 GetFileOrDirectoryTask
@@ -308,7 +308,7 @@ This
 cannot
 be
 a
-File
+DOMFile
 bacause
 this
 object
@@ -321,7 +321,7 @@ different
 /
 thread
 and
-File
+DOMFile
 is
 not
 thread
@@ -333,12 +333,12 @@ Let
 s
 use
 the
-FileImpl
+DOMFileImpl
 instead
 .
 nsRefPtr
 <
-FileImpl
+DOMFileImpl
 >
 mTargetFileImpl
 ;
