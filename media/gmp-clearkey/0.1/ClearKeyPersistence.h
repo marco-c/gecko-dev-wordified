@@ -77,7 +77,7 @@ decryption
 h
 "
 class
-ClearKeyDecryptionManager
+ClearKeySessionManager
 ;
 class
 ClearKeyPersistence
@@ -105,7 +105,7 @@ static
 bool
 DeferCreateSessionIfNotReady
 (
-ClearKeyDecryptionManager
+ClearKeySessionManager
 *
 aInstance
 uint32_t
@@ -126,7 +126,7 @@ static
 bool
 DeferLoadSessionIfNotReady
 (
-ClearKeyDecryptionManager
+ClearKeySessionManager
 *
 aInstance
 uint32_t
@@ -156,7 +156,7 @@ static
 void
 LoadSessionData
 (
-ClearKeyDecryptionManager
+ClearKeySessionManager
 *
 aInstance
 const
