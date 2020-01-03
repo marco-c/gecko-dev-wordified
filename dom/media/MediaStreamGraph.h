@@ -3087,7 +3087,7 @@ only
 void
 RunAfterPendingUpdates
 (
-nsRefPtr
+already_AddRefed
 <
 nsIRunnable
 >

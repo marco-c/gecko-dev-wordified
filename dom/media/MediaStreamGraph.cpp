@@ -14948,7 +14948,7 @@ MediaStream
 :
 RunAfterPendingUpdates
 (
-nsRefPtr
+already_AddRefed
 <
 nsIRunnable
 >
@@ -14968,6 +14968,15 @@ graph
 =
 GraphImpl
 (
+)
+;
+nsCOMPtr
+<
+nsIRunnable
+>
+runnable
+(
+aRunnable
 )
 ;
 /
@@ -15012,7 +15021,7 @@ mNonRealtimeProcessing
 )
 )
 {
-aRunnable
+runnable
 -
 >
 Run
@@ -15142,7 +15151,7 @@ new
 Message
 (
 this
-aRunnable
+runnable
 .
 forget
 (
