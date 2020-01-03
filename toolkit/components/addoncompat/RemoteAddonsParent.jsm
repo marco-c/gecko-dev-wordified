@@ -1304,7 +1304,7 @@ policy
 {
 ContentPolicyParent
 .
-remoteContentPolicy
+removeContentPolicy
 (
 entry
 )
