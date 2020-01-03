@@ -1276,6 +1276,7 @@ others
 .
 if
 (
+!
 consumer
 -
 >
@@ -1284,7 +1285,7 @@ toResumePoint
 )
 -
 >
-isObservableOperand
+isRecoverableOperand
 (
 *
 i
@@ -1295,9 +1296,11 @@ JitSpewDef
 (
 JitSpew_Escape
 "
-Object
-is
-observable
+Observable
+object
+cannot
+be
+recovered
 \
 n
 "
@@ -3960,6 +3963,7 @@ others
 .
 if
 (
+!
 consumer
 -
 >
@@ -3968,7 +3972,7 @@ toResumePoint
 )
 -
 >
-isObservableOperand
+isRecoverableOperand
 (
 *
 i
@@ -3979,9 +3983,11 @@ JitSpewDef
 (
 JitSpew_Escape
 "
-Array
-is
-observable
+Observable
+array
+cannot
+be
+recovered
 \
 n
 "
