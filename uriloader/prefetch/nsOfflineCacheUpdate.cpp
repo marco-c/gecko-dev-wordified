@@ -400,12 +400,6 @@ kCustomProfileQuota
 =
 512000
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 /
 /
 /
@@ -469,8 +463,6 @@ PRLogModuleInfo
 *
 gOfflineCacheUpdateLog
 ;
-#
-endif
 #
 undef
 LOG
@@ -2890,12 +2882,6 @@ nsOfflineCacheUpdate
 aUpdate
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG_ENABLED
@@ -2937,8 +2923,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 mUpdate
@@ -3631,12 +3615,6 @@ nsresult
 aStatus
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG_ENABLED
@@ -3688,8 +3666,6 @@ aStatus
 )
 ;
 }
-#
-endif
 if
 (
 mBytesRead
@@ -12172,12 +12148,6 @@ return
 NS_OK
 ;
 }
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG_ENABLED
@@ -12222,8 +12192,6 @@ get
 )
 ;
 }
-#
-endif
 +
 +
 mItemsInProgress

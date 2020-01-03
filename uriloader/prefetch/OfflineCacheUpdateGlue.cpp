@@ -158,12 +158,6 @@ prlog
 .
 h
 "
-#
-if
-defined
-(
-PR_LOGGING
-)
 /
 /
 /
@@ -227,8 +221,6 @@ PRLogModuleInfo
 *
 gOfflineCacheUpdateLog
 ;
-#
-endif
 #
 undef
 LOG
@@ -1419,12 +1411,6 @@ if
 existingCache
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG_ENABLED
@@ -1482,8 +1468,6 @@ get
 )
 ;
 }
-#
-endif
 rv
 =
 container

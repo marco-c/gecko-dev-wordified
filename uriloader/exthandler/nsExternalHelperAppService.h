@@ -906,9 +906,6 @@ nsACString
 aMIMEType
 )
 ;
-#
-ifdef
-PR_LOGGING
 /
 *
 *
@@ -960,8 +957,6 @@ PRLogModuleInfo
 *
 mLog
 ;
-#
-endif
 /
 /
 friend

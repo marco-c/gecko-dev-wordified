@@ -284,9 +284,6 @@ nsIWeakReference
 >
 m_listeners
 ;
-#
-ifdef
-PR_LOGGING
 /
 *
 *
@@ -308,8 +305,6 @@ PRLogModuleInfo
 *
 mLog
 ;
-#
-endif
 friend
 class
 nsDocumentOpenInfo

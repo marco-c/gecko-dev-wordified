@@ -412,9 +412,6 @@ Preferences
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 nsURILoader
@@ -424,8 +421,6 @@ mLog
 =
 nullptr
 ;
-#
-endif
 #
 define
 LOG
@@ -2963,9 +2958,6 @@ rv
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 else
 {
 LOG
@@ -2982,8 +2974,6 @@ load
 )
 ;
 }
-#
-endif
 return
 rv
 ;
@@ -5022,9 +5012,6 @@ nsURILoader
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -5041,8 +5028,6 @@ URILoader
 )
 ;
 }
-#
-endif
 }
 nsURILoader
 :
@@ -5185,9 +5170,6 @@ NS_ENSURE_ARG_POINTER
 channel
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -5244,8 +5226,6 @@ get
 )
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIStreamListener
@@ -5487,9 +5467,6 @@ null
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -5546,8 +5523,6 @@ get
 )
 ;
 }
-#
-endif
 /
 /
 Let

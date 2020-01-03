@@ -182,12 +182,6 @@ dom
 :
 TabParent
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 /
 /
 /
@@ -251,8 +245,6 @@ PRLogModuleInfo
 *
 gOfflineCacheUpdateLog
 ;
-#
-endif
 #
 undef
 LOG

@@ -253,12 +253,6 @@ using
 namespace
 mozilla
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 /
 /
 /
@@ -322,8 +316,6 @@ PRLogModuleInfo
 *
 gPrefetchLog
 ;
-#
-endif
 #
 undef
 LOG
@@ -3890,12 +3882,6 @@ Init
 (
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 !
@@ -3910,8 +3896,6 @@ nsPrefetch
 "
 )
 ;
-#
-endif
 nsresult
 rv
 ;
@@ -4051,12 +4035,6 @@ rv
 )
 break
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG_ENABLED
@@ -4099,8 +4077,6 @@ get
 )
 ;
 }
-#
-endif
 /
 /
 /
@@ -5281,12 +5257,6 @@ NS_ENSURE_ARG_POINTER
 aReferrerURI
 )
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG_ENABLED
@@ -5326,8 +5296,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 mDisabled

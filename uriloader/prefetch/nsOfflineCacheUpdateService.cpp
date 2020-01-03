@@ -515,12 +515,6 @@ docshell
 OfflineCacheUpdateGlue
 OfflineCacheUpdateGlue
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 /
 /
 /
@@ -583,8 +577,6 @@ PRLogModuleInfo
 *
 gOfflineCacheUpdateLog
 ;
-#
-endif
 #
 undef
 LOG
@@ -1973,12 +1965,6 @@ Init
 (
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 !
@@ -1993,8 +1979,6 @@ nsOfflineCacheUpdate
 "
 )
 ;
-#
-endif
 /
 /
 Observe
