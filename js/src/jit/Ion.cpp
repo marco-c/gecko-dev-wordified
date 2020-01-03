@@ -7868,16 +7868,6 @@ Start
 return
 false
 ;
-if
-(
-!
-mir
--
->
-compilingAsmJS
-(
-)
-)
 {
 AutoTraceLog
 log
