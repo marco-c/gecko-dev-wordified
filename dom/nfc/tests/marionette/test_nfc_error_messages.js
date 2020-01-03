@@ -904,7 +904,7 @@ IPC
 *
 nfc
 -
-write
+share
 to
 set
 /
@@ -958,7 +958,7 @@ type
 '
 nfc
 -
-write
+share
 '
 '
 allow
