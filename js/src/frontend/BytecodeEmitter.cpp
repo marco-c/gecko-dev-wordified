@@ -14881,6 +14881,7 @@ PlainObject
 (
 cx
 kind
+TenuredObject
 )
 ;
 if
@@ -50382,6 +50383,19 @@ MOZ_ASSERT
 !
 *
 cursor
+)
+;
+MOZ_ASSERT
+(
+objbox
+-
+>
+object
+-
+>
+isTenured
+(
+)
 )
 ;
 *
