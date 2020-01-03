@@ -408,6 +408,17 @@ templateObj
 >
 group_
 ;
+MOZ_ASSERT
+(
+!
+group
+-
+>
+hasUnanalyzedPreliminaryObjects
+(
+)
+)
+;
 if
 (
 group

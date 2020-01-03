@@ -41906,6 +41906,7 @@ pn2
 >
 pn_next
 argc
+JSOP_SPREADCALLARRAY
 )
 )
 return
@@ -44698,6 +44699,8 @@ ParseNode
 pn
 uint32_t
 count
+JSOp
+op
 )
 {
 /
@@ -44777,6 +44780,20 @@ do
 .
 *
 /
+MOZ_ASSERT
+(
+op
+=
+=
+JSOP_NEWARRAY
+|
+|
+op
+=
+=
+JSOP_SPREADCALLARRAY
+)
+;
 int32_t
 nspread
 =
@@ -44823,7 +44840,7 @@ if
 !
 emitN
 (
-JSOP_NEWARRAY
+op
 3
 &
 off
@@ -44837,7 +44854,7 @@ false
 ;
 checkTypeSet
 (
-JSOP_NEWARRAY
+op
 )
 ;
 jsbytecode
@@ -48517,6 +48534,7 @@ pn
 -
 >
 pn_count
+JSOP_NEWARRAY
 )
 ;
 break
