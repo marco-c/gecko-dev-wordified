@@ -6760,6 +6760,10 @@ mPipeStream
 nullptr
 ?
 mPipeStream
+.
+get
+(
+)
 :
 mAudioNode
 -
