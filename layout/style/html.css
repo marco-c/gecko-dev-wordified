@@ -5120,13 +5120,15 @@ inherit
 ruby
 rb
 rt
-rbc
 rtc
 {
 unicode
 -
 bidi
 :
+-
+moz
+-
 isolate
 ;
 }
