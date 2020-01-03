@@ -1275,13 +1275,6 @@ this
 .
 _fireProfiledEventFromMsg
 "
-loadprogresschanged
-"
-:
-this
-.
-_fireEventFromMsg
-"
 close
 "
 :
