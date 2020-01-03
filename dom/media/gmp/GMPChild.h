@@ -313,7 +313,7 @@ PreLoadSandboxVoucher
 )
 ;
 bool
-GetLibPath
+GetUTF8LibPath
 (
 nsACString
 &
@@ -514,7 +514,7 @@ std
 :
 :
 string
-mVoucherPath
+mSandboxVoucherPath
 ;
 std
 :

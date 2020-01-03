@@ -480,7 +480,7 @@ Load
 const
 char
 *
-aLibPath
+aUTF8LibPath
 uint32_t
 aLibPathLen
 char
