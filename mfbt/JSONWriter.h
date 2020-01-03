@@ -1243,6 +1243,7 @@ u
 }
 public
 :
+explicit
 EscapedString
 (
 const
