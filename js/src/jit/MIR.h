@@ -29368,9 +29368,6 @@ case
 Sin
 :
 case
-Log
-:
-case
 Round
 :
 return
