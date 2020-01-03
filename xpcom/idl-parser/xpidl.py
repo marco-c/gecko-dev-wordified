@@ -1155,6 +1155,7 @@ other
 :
         
 return
+(
 self
 .
 _lexpos
@@ -1164,8 +1165,7 @@ other
 .
 _lexpos
 and
-\
-               
+                
 self
 .
 _file
@@ -1174,6 +1174,7 @@ _file
 other
 .
 _file
+)
     
 def
 resolve
@@ -3105,6 +3106,7 @@ other
 :
         
 return
+(
 self
 .
 name
@@ -3114,8 +3116,7 @@ other
 .
 name
 and
-\
-               
+                
 self
 .
 nativename
@@ -3125,8 +3126,7 @@ other
 .
 nativename
 and
-\
-               
+                
 self
 .
 modifier
@@ -3136,8 +3136,7 @@ other
 .
 modifier
 and
-\
-               
+                
 self
 .
 specialtype
@@ -3146,6 +3145,7 @@ specialtype
 other
 .
 specialtype
+)
     
 def
 resolve
@@ -4078,7 +4078,6 @@ entries
 self
 .
 name
-                
 self
 .
 location
@@ -5752,7 +5751,7 @@ is
 not
 None
 and
-            
+                
 getBuiltinOrNativeTypeName
 (
 self
@@ -5799,7 +5798,7 @@ is
 not
 None
 and
-            
+                
 getBuiltinOrNativeTypeName
 (
 self
@@ -7320,7 +7319,7 @@ is
 not
 None
 and
-            
+                
 getBuiltinOrNativeTypeName
 (
 self
@@ -7367,7 +7366,7 @@ is
 not
 None
 and
-            
+                
 getBuiltinOrNativeTypeName
 (
 self
