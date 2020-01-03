@@ -650,7 +650,7 @@ scope
 "
 )
 ;
-isnot
+is
 (
 globalScope
 .
@@ -681,7 +681,7 @@ length
 There
 should
 be
-some
+0
 variables
 displayed
 in

@@ -107,6 +107,13 @@ txXMLUtils
 .
 h
 "
+#
+include
+"
+txExpandedName
+.
+h
+"
 txOutputFormat
 :
 :
