@@ -3665,10 +3665,6 @@ const
 ScrollableLayerGuid
 &
 aGuid
-GuidComparator
-aComparator
-=
-nullptr
 )
 ;
 already_AddRefed
