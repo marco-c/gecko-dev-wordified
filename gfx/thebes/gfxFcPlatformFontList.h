@@ -1239,10 +1239,15 @@ font
 names
 to
 family
-nsRefPtrHashtable
+nsBaseHashtable
 <
 nsStringHashKey
-gfxFontFamily
+nsCountedRef
+<
+FcPattern
+>
+FcPattern
+*
 >
 mLocalNames
 ;
