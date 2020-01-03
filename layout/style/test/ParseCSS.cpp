@@ -129,7 +129,7 @@ CSS_REPORT_PARSE_ERRORS
 in
 mozilla
 /
-content
+dom
 /
 html
 /
