@@ -117,11 +117,9 @@ once
 (
 connection
 "
-console
+recording
 -
-profile
--
-start
+started
 "
 )
 ;
@@ -149,11 +147,9 @@ once
 (
 connection
 "
-console
+recording
 -
-profile
--
-end
+stopped
 "
 )
 ;
