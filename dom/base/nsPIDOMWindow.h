@@ -3760,7 +3760,7 @@ Inner
 windows
 only
 .
-void
+bool
 AddAudioContext
 (
 mozilla
