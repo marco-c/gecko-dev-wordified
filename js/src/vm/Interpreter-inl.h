@@ -2641,10 +2641,7 @@ dn
 if
 (
 !
-JSObject
-:
-:
-getGenericAttributes
+GetPropertyAttributes
 (
 cx
 varobj

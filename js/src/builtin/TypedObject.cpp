@@ -12772,10 +12772,7 @@ true
 ;
 }
 return
-JSObject
-:
-:
-getGenericAttributes
+GetPropertyAttributes
 (
 cx
 proto
@@ -12986,10 +12983,7 @@ true
 ;
 }
 return
-JSObject
-:
-:
-setGenericAttributes
+SetPropertyAttributes
 (
 cx
 proto

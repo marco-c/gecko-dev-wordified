@@ -10473,10 +10473,7 @@ JSTYPE_NUMBER
 )
 ;
 return
-JSObject
-:
-:
-defaultValue
+ToPrimitive
 (
 cx
 obj
@@ -16924,10 +16921,7 @@ desc
 if
 (
 !
-JSObject
-:
-:
-getGenericAttributes
+GetPropertyAttributes
 (
 cx
 obj2

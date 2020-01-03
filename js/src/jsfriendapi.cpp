@@ -1585,10 +1585,7 @@ obj
 )
 {
 return
-JSObject
-:
-:
-className
+GetObjectClassName
 (
 cx
 obj

@@ -14716,10 +14716,7 @@ isNative
 )
 )
 return
-JSObject
-:
-:
-getGenericAttributes
+GetPropertyAttributes
 (
 cx
 nobj
@@ -14957,10 +14954,7 @@ true
 else
 {
 return
-JSObject
-:
-:
-setGenericAttributes
+SetPropertyAttributes
 (
 cx
 nobj

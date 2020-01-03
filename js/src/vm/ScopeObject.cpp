@@ -3203,10 +3203,7 @@ JSObject
 *
 thisp
 =
-JSObject
-:
-:
-thisObject
+GetThisObject
 (
 cx
 object
@@ -3896,10 +3893,7 @@ object
 )
 ;
 return
-JSObject
-:
-:
-getGenericAttributes
+GetPropertyAttributes
 (
 cx
 actual
@@ -3945,10 +3939,7 @@ object
 )
 ;
 return
-JSObject
-:
-:
-setGenericAttributes
+SetPropertyAttributes
 (
 cx
 actual
