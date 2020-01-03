@@ -4791,10 +4791,12 @@ unsigned
 attrs
 unsigned
 flags
-Shape
+ShapeTable
+:
+:
+Entry
 *
-*
-spp
+entry
 bool
 allowDictionary
 )

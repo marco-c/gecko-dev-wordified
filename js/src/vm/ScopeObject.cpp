@@ -4669,10 +4669,12 @@ case
 .
 *
 /
-Shape
+ShapeTable
+:
+:
+Entry
 *
-*
-spp
+entry
 ;
 if
 (
@@ -4690,7 +4692,7 @@ lastProperty
 )
 id
 &
-spp
+entry
 true
 )
 )
@@ -4795,7 +4797,7 @@ attrs
 *
 /
 0
-spp
+entry
 /
 *
 allowDictionary
