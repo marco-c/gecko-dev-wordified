@@ -8248,6 +8248,16 @@ function
 node
 )
 {
+if
+(
+!
+node
+)
+{
+return
+null
+;
+}
 let
 type
 value
