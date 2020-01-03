@@ -2977,6 +2977,13 @@ conversationModel
 feedbackApiClient
 :
 feedbackApiClient
+onUrlHashChange
+:
+sandbox
+.
+stub
+(
+)
 }
 )
 )
