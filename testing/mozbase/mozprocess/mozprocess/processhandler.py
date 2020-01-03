@@ -6063,6 +6063,17 @@ if
 self
 .
 outThread
+and
+self
+.
+outThread
+is
+not
+threading
+.
+current_thread
+(
+)
 :
             
 #
