@@ -2525,7 +2525,7 @@ DBG
 "
 Wrote
 %
-ld
+d
 bytes
 (
 of

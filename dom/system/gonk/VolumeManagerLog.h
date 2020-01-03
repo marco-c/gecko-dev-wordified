@@ -63,6 +63,9 @@ mozilla_system_volumemanagerlog_h__
 define
 mozilla_system_volumemanagerlog_h__
 #
+undef
+USE_DEBUG
+#
 define
 USE_DEBUG
 0
