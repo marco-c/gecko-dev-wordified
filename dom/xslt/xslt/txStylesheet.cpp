@@ -928,6 +928,18 @@ endif
 }
 }
 }
+if
+(
+PR_LOG_TEST
+(
+txLog
+:
+:
+xslt
+PR_LOG_DEBUG
+)
+)
+{
 nsAutoString
 mode
 nodeName
@@ -1071,6 +1083,7 @@ get
 )
 )
 ;
+}
 }
 if
 (
