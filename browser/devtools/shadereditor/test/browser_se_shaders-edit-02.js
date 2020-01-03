@@ -58,11 +58,10 @@ ifWebGLSupported
 )
 {
 let
-[
+{
 target
-debuggee
 panel
-]
+}
 =
 yield
 initShaderEditor
