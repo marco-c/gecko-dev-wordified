@@ -1020,7 +1020,7 @@ desirable
 /
 RenderFrameParent
 *
-GetCurrentRemoteFrame
+GetCurrentRenderFrame
 (
 )
 const

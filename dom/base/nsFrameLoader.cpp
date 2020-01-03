@@ -9135,7 +9135,7 @@ RenderFrameParent
 *
 rfp
 =
-GetCurrentRemoteFrame
+GetCurrentRenderFrame
 (
 )
 )
@@ -13391,7 +13391,7 @@ RenderFrameParent
 nsFrameLoader
 :
 :
-GetCurrentRemoteFrame
+GetCurrentRenderFrame
 (
 )
 const
