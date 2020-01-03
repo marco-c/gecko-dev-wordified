@@ -2175,6 +2175,8 @@ compartment
 -
 >
 principals
+(
+)
 )
 ;
 RootedObject

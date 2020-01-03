@@ -835,6 +835,8 @@ compartment
 -
 >
 principals
+(
+)
 ;
 }
 inline

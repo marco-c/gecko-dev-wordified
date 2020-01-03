@@ -346,11 +346,11 @@ runtimeFromMainThread
 (
 )
 )
-principals
+principals_
 (
 nullptr
 )
-isSystem
+isSystem_
 (
 false
 )
@@ -395,9 +395,10 @@ enterCompartmentDepth
 (
 0
 )
-totalTime
+performanceMonitoring
 (
-0
+runtime_
+this
 )
 data
 (
@@ -5629,7 +5630,7 @@ if
 addonId
 |
 |
-isSystem
+isSystem_
 )
 return
 ;
@@ -5736,7 +5737,7 @@ if
 addonId
 |
 |
-isSystem
+isSystem_
 |
 |
 !
