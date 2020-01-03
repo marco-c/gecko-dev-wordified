@@ -208,6 +208,8 @@ e
 ;
 }
 }
+try
+{
 /
 /
 Load
@@ -238,6 +240,13 @@ glob
 SIMD
 .
 int32x4
+;
+var
+ci4
+=
+i4
+.
+check
 ;
 var
 load
@@ -961,7 +970,7 @@ f
 )
 {
 return
-i4
+ci4
 (
 load
 (
@@ -1013,7 +1022,7 @@ f
 )
 {
 return
-i4
+ci4
 (
 load
 (
@@ -1074,7 +1083,7 @@ f
 )
 {
 return
-i4
+ci4
 (
 load
 (
@@ -1167,6 +1176,13 @@ i4
 store
 ;
 var
+ci4
+=
+i4
+.
+check
+;
+var
 f4
 =
 glob
@@ -1189,6 +1205,13 @@ f4
 .
 store
 ;
+var
+cf4
+=
+f4
+.
+check
+;
 function
 f32l
 (
@@ -1202,7 +1225,7 @@ i
 0
 ;
 return
-f4
+cf4
 (
 f4load
 (
@@ -1220,7 +1243,7 @@ f32lcst
 )
 {
 return
-f4
+cf4
 (
 f4load
 (
@@ -1247,7 +1270,7 @@ i
 ;
 vec
 =
-f4
+cf4
 (
 vec
 )
@@ -1270,7 +1293,7 @@ vec
 {
 vec
 =
-f4
+cf4
 (
 vec
 )
@@ -1298,7 +1321,7 @@ i
 0
 ;
 return
-i4
+ci4
 (
 i4load
 (
@@ -1316,7 +1339,7 @@ i32lcst
 )
 {
 return
-i4
+ci4
 (
 i4load
 (
@@ -1343,7 +1366,7 @@ i
 ;
 vec
 =
-i4
+ci4
 (
 vec
 )
@@ -1366,7 +1389,7 @@ vec
 {
 vec
 =
-i4
+ci4
 (
 vec
 )
@@ -1426,7 +1449,7 @@ i
 0
 ;
 return
-f4
+cf4
 (
 f4load
 (
@@ -1453,7 +1476,7 @@ i
 ;
 vec
 =
-f4
+cf4
 (
 vec
 )
@@ -1491,7 +1514,7 @@ i
 0
 ;
 return
-f4
+cf4
 (
 f4store
 (
@@ -1961,8 +1984,6 @@ get
 eliminated
 .
 return
-f4
-(
 f4l
 (
 u8
@@ -1971,7 +1992,6 @@ u8
 x
 |
 0
-)
 )
 ;
 }
@@ -2770,6 +2790,13 @@ typeName
 }
 ;
 var
+c
+=
+type
+.
+check
+;
+var
 lx
 =
 type
@@ -2945,7 +2972,7 @@ i
 ;
 x
 =
-type
+c
 (
 x
 )
@@ -2974,7 +3001,7 @@ i
 ;
 x
 =
-type
+c
 (
 x
 )
@@ -3003,7 +3030,7 @@ i
 ;
 x
 =
-type
+c
 (
 x
 )
@@ -3025,7 +3052,7 @@ x
 {
 x
 =
-type
+c
 (
 x
 )
@@ -3050,7 +3077,7 @@ x
 {
 x
 =
-type
+c
 (
 x
 )
@@ -3075,7 +3102,7 @@ x
 {
 x
 =
-type
+c
 (
 x
 )
@@ -4940,3 +4967,23 @@ int32x4
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+print
+(
+'
+stack
+:
+'
+e
+.
+stack
+)
+;
+throw
+e
+}
