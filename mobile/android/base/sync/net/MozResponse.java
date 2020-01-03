@@ -1084,8 +1084,6 @@ or
 if
 the
 '
-X
--
 Backoff
 '
 header
@@ -1110,8 +1108,6 @@ this
 getIntegerHeader
 (
 "
-x
--
 backoff
 "
 )
