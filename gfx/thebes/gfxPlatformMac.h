@@ -379,6 +379,13 @@ UseProgressivePaint
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+InitHardwareVsync
+(
+)
+MOZ_OVERRIDE
+;
 /
 /
 lower
