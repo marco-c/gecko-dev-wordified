@@ -2126,7 +2126,8 @@ enabled
 everywhere
 or
 just
-YouTube
+whitelisted
+sites
 .
 bool
 restrict
@@ -2141,7 +2142,7 @@ media
 .
 mediasource
 .
-youtubeonly
+whitelist
 "
 false
 )
