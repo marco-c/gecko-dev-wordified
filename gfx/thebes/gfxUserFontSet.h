@@ -3286,6 +3286,7 @@ change
 the
 load
 state
+virtual
 void
 SetLoadState
 (
