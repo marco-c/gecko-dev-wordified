@@ -472,6 +472,9 @@ mInitPromiseRequest
 bool
 mNeedAVCC
 ;
+bool
+mDecoderInitializing
+;
 nsresult
 mLastError
 ;
