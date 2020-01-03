@@ -21005,7 +21005,7 @@ textChat
 .
 enabled
 "
-false
+true
 )
 ;
 pref
