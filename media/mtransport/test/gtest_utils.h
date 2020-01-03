@@ -505,12 +505,15 @@ timeout
 )
 ;
 )
+{
 \
 PR_Sleep
 (
 10
 )
 ;
+\
+}
 \
 }
 while
@@ -598,12 +601,15 @@ timeout
 )
 ;
 )
+{
 \
 PR_Sleep
 (
 10
 )
 ;
+\
+}
 \
 }
 while
@@ -644,7 +650,6 @@ while
 (
 0
 )
-;
 #
 define
 EXPECT_TRUE_WAIT
@@ -679,6 +684,5 @@ while
 (
 0
 )
-;
 #
 endif
