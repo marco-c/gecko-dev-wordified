@@ -2317,7 +2317,7 @@ bool
 branchIsTrue
 )
 ;
-void
+bool
 replaceTypeSet
 (
 MDefinition
