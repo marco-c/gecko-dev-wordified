@@ -168,8 +168,19 @@ ALLOW_ACTION
 )
 ;
 var
-triggers
+inner_url
 =
+encodeURIComponent
+(
+TESTROOT
++
+"
+installtrigger
+.
+html
+?
+"
++
 encodeURIComponent
 (
 JSON
@@ -217,6 +228,7 @@ URL
 }
 )
 )
+)
 ;
 gBrowser
 .
@@ -241,7 +253,7 @@ html
 ?
 "
 +
-triggers
+inner_url
 )
 ;
 }
