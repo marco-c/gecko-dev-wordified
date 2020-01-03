@@ -2344,7 +2344,7 @@ otherDescr
 }
 /
 /
-TypedArray
+TypedObjectArray
 .
 redimension
 (
@@ -2557,7 +2557,7 @@ user
 exposed
 !
 function
-TypedArrayRedimension
+TypedObjectArrayRedimension
 (
 newArrayType
 )
@@ -4290,7 +4290,7 @@ user
 exposed
 !
 function
-TypedArrayMap
+TypedObjectArrayMap
 (
 a
 b
@@ -4410,7 +4410,7 @@ user
 exposed
 !
 function
-TypedArrayMapPar
+TypedObjectArrayMapPar
 (
 a
 b
@@ -4462,7 +4462,7 @@ this
 return
 callFunction
 (
-TypedArrayMap
+TypedObjectArrayMap
 this
 a
 b
@@ -4487,7 +4487,7 @@ thisType
 return
 callFunction
 (
-TypedArrayMap
+TypedObjectArrayMap
 this
 a
 b
@@ -4539,7 +4539,7 @@ a
 return
 callFunction
 (
-TypedArrayMap
+TypedObjectArrayMap
 this
 a
 b
@@ -4554,7 +4554,7 @@ user
 exposed
 !
 function
-TypedArrayReduce
+TypedObjectArrayReduce
 (
 a
 b
@@ -4657,7 +4657,7 @@ user
 exposed
 !
 function
-TypedArrayScatter
+TypedObjectArrayScatter
 (
 a
 b
@@ -4783,7 +4783,7 @@ user
 exposed
 !
 function
-TypedArrayFilter
+TypedObjectArrayFilter
 (
 func
 )
@@ -5059,7 +5059,7 @@ user
 exposed
 !
 function
-TypedArrayReducePar
+TypedObjectArrayReducePar
 (
 a
 b
@@ -5068,7 +5068,7 @@ b
 return
 callFunction
 (
-TypedArrayReduce
+TypedObjectArrayReduce
 this
 a
 b
@@ -5083,7 +5083,7 @@ user
 exposed
 !
 function
-TypedArrayScatterPar
+TypedObjectArrayScatterPar
 (
 a
 b
@@ -5094,7 +5094,7 @@ d
 return
 callFunction
 (
-TypedArrayScatter
+TypedObjectArrayScatter
 this
 a
 b
@@ -5111,7 +5111,7 @@ user
 exposed
 !
 function
-TypedArrayFilterPar
+TypedObjectArrayFilterPar
 (
 func
 )
@@ -5119,7 +5119,7 @@ func
 return
 callFunction
 (
-TypedArrayFilter
+TypedObjectArrayFilter
 this
 func
 )
