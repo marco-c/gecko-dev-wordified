@@ -1103,7 +1103,7 @@ trackingprotection
 learn_more
 "
 ;
-private
+public
 static
 final
 String
@@ -4985,9 +4985,10 @@ continue
 else
 if
 (
+!
 AppConstants
 .
-RELEASE_BUILD
+NIGHTLY_BUILD
 &
 &
 PREFS_OPEN_URLS_IN_PRIVATE
@@ -5008,8 +5009,11 @@ external
 links
 in
 private
-borwsing
-onrelease
+browsing
+on
+non
+-
+Nightly
 builds
 .
 preferences
