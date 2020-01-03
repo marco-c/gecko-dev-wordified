@@ -709,12 +709,6 @@ enabled
 "
 )
 ;
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;

@@ -374,12 +374,6 @@ node
 "
 )
 ;
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;

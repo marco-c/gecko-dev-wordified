@@ -293,12 +293,6 @@ node
 "
 )
 ;
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;

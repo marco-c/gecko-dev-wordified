@@ -2045,8 +2045,10 @@ finish
 }
 )
 ;
+registerCleanupFunction
+(
 function
-tearDown
+*
 (
 )
 {
@@ -2088,6 +2090,7 @@ gBrowser
 selectedTab
 )
 ;
+yield
 gDevTools
 .
 closeToolbox
@@ -2114,9 +2117,6 @@ removeCurrentTab
 ;
 }
 }
-registerCleanupFunction
-(
-tearDown
 )
 ;
 waitForExplicitFinish

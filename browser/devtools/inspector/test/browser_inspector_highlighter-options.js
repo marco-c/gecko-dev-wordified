@@ -1537,12 +1537,6 @@ hideBoxModel
 )
 ;
 }
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;

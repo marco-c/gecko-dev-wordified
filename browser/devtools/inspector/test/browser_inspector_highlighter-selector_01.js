@@ -459,12 +459,6 @@ finalize
 (
 )
 ;
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;

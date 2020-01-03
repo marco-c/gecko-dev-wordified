@@ -290,12 +290,6 @@ inspector
 )
 ;
 }
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;

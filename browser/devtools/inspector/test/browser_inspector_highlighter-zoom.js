@@ -440,12 +440,6 @@ correct
 )
 ;
 }
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;

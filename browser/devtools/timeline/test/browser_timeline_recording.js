@@ -321,6 +321,13 @@ started
 "
 )
 ;
+yield
+TimelineController
+.
+toggleRecording
+(
+)
+;
 }
 )
 ;
