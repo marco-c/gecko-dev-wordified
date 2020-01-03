@@ -5143,6 +5143,13 @@ HTMLMediaElement
 :
 :
 PRELOAD_NONE
+&
+&
+!
+IsMediaStreamURI
+(
+mLoadingSrc
+)
 )
 {
 /
@@ -5994,6 +6001,13 @@ HTMLMediaElement
 :
 :
 PRELOAD_NONE
+&
+&
+!
+IsMediaStreamURI
+(
+mLoadingSrc
+)
 )
 {
 /
