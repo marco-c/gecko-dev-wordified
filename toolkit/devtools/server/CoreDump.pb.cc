@@ -1679,7 +1679,7 @@ ncoarseType
 r
 :
 \
-0013
+0010
 \
 "
 &
@@ -9500,7 +9500,7 @@ GetEmptyStringAlreadyInited
 ;
 coarsetype_
 =
-3u
+0u
 ;
 :
 :
@@ -9863,7 +9863,7 @@ clear
 }
 coarsetype_
 =
-3u
+0u
 ;
 }
 edges_
@@ -10551,7 +10551,7 @@ coarseType
 [
 default
 =
-3
+0
 ]
 ;
 case
@@ -11101,7 +11101,7 @@ coarseType
 [
 default
 =
-3
+0
 ]
 ;
 if
@@ -11534,7 +11534,7 @@ coarseType
 [
 default
 =
-3
+0
 ]
 ;
 if
@@ -11905,7 +11905,7 @@ coarseType
 [
 default
 =
-3
+0
 ]
 ;
 if

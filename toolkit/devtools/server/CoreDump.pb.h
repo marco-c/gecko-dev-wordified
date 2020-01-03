@@ -4415,7 +4415,7 @@ coarseType
 [
 default
 =
-3
+0
 ]
 ;
 inline
@@ -11504,7 +11504,7 @@ coarseType
 [
 default
 =
-3
+0
 ]
 ;
 inline
@@ -11579,7 +11579,7 @@ clear_coarsetype
 {
 coarsetype_
 =
-3u
+0u
 ;
 clear_has_coarsetype
 (
