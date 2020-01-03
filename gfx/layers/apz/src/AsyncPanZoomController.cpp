@@ -3152,7 +3152,7 @@ StaticAutoPtr
 <
 ComputedTimingFunction
 >
-gComputedTimingFunction
+gZoomAnimationFunction
 ;
 /
 *
@@ -5303,7 +5303,7 @@ resolution
 float
 sampledPosition
 =
-gComputedTimingFunction
+gZoomAnimationFunction
 -
 >
 GetValue
@@ -6727,14 +6727,14 @@ sInitialized
 =
 true
 ;
-gComputedTimingFunction
+gZoomAnimationFunction
 =
 new
 ComputedTimingFunction
 (
 )
 ;
-gComputedTimingFunction
+gZoomAnimationFunction
 -
 >
 Init
@@ -6748,7 +6748,7 @@ NS_STYLE_TRANSITION_TIMING_FUNCTION_EASE
 ClearOnShutdown
 (
 &
-gComputedTimingFunction
+gZoomAnimationFunction
 )
 ;
 }
