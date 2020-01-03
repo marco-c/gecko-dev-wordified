@@ -8561,10 +8561,15 @@ null
 String
 url
 =
+ReaderModeUtils
+.
+stripAboutReaderUrl
+(
 tab
 .
 getURL
 (
+)
 )
 ;
 if
