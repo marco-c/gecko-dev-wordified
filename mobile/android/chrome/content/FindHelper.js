@@ -495,10 +495,6 @@ zoomToRect
 aData
 .
 rect
--
-1
-false
-true
 )
 ;
 this
