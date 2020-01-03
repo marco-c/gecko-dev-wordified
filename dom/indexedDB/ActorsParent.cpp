@@ -35149,6 +35149,9 @@ aDatabasePaths
 )
 )
 {
+#
+ifdef
+DEBUG
 MOZ_ASSERT
 (
 !
@@ -35180,6 +35183,8 @@ IsEmpty
 )
 ;
 }
+#
+endif
 }
 MultipleMaintenanceInfo
 (
@@ -35206,6 +35211,9 @@ mDatabasePaths
 )
 )
 {
+#
+ifdef
+DEBUG
 MOZ_ASSERT
 (
 !
@@ -35237,6 +35245,8 @@ IsEmpty
 )
 ;
 }
+#
+endif
 }
 MultipleMaintenanceInfo
 (
