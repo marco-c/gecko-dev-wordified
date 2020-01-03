@@ -1607,6 +1607,9 @@ contextMenu
 "
 sourceEditorContextMenu
 "
+enableCodeFolding
+:
+false
 }
 )
 ;

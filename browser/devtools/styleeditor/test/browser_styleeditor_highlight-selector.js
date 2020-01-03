@@ -268,7 +268,7 @@ _onMouseMove
 {
 clientX
 :
-40
+56
 clientY
 :
 10
@@ -335,7 +335,7 @@ _onMouseMove
 {
 clientX
 :
-0
+16
 clientY
 :
 0
