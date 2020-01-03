@@ -1728,6 +1728,10 @@ mHaveBlockedForStateMachineNotPlaying
 (
 false
 )
+mEOSVideoCompensation
+(
+false
+)
 {
 mListener
 =
