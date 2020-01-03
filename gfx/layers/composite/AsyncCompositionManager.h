@@ -226,7 +226,7 @@ TargetConfig
 #
 include
 "
-nsAutoPtr
+nsRefPtr
 .
 h
 "

@@ -584,7 +584,7 @@ h
 #
 include
 "
-nsAutoPtr
+nsRefPtr
 .
 h
 "

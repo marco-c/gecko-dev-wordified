@@ -206,7 +206,7 @@ etc
 #
 include
 "
-nsAutoPtr
+nsRefPtr
 .
 h
 "
