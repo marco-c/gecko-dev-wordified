@@ -3418,8 +3418,6 @@ emitPropLHS
 ParseNode
 *
 pn
-JSOp
-op
 )
 ;
 bool

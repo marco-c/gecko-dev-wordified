@@ -14656,8 +14656,6 @@ emitPropLHS
 ParseNode
 *
 pn
-JSOp
-op
 )
 {
 MOZ_ASSERT
@@ -14981,7 +14979,6 @@ if
 emitPropLHS
 (
 pn
-op
 )
 )
 return
@@ -15082,11 +15079,6 @@ getKind
 post
 )
 ;
-JSOp
-get
-=
-JSOP_GETPROP
-;
 if
 (
 !
@@ -15096,7 +15088,6 @@ pn
 -
 >
 pn_kid
-get
 )
 )
 /
