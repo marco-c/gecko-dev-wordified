@@ -1505,11 +1505,6 @@ char
 aName
 )
 ;
-~
-SignalObject
-(
-)
-;
 void
 Wait
 (
@@ -1517,6 +1512,13 @@ Wait
 ;
 void
 Signal
+(
+)
+;
+protected
+:
+~
+SignalObject
 (
 )
 ;
