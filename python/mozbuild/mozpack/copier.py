@@ -2313,14 +2313,7 @@ removed_files
 .
 add
 (
-os
-.
-path
-.
-normpath
-(
 full
-)
 )
                         
 else
@@ -2330,14 +2323,7 @@ existing_files
 .
 add
 (
-os
-.
-path
-.
-normpath
-(
 full
-)
 )
                     
 else
@@ -2361,14 +2347,7 @@ existing_dirs
 .
 add
 (
-os
-.
-path
-.
-normpath
-(
 root
-)
 )
             
 for
@@ -2385,17 +2364,10 @@ os
 .
 path
 .
-normpath
-(
-os
-.
-path
-.
 join
 (
 root
 d
-)
 )
 )
             
@@ -2413,17 +2385,10 @@ os
 .
 path
 .
-normpath
-(
-os
-.
-path
-.
 join
 (
 root
 f
-)
 )
 )
         
@@ -2559,17 +2524,10 @@ os
 .
 path
 .
-normpath
-(
-os
-.
-path
-.
 join
 (
 destination
 p
-)
 )
             
 if
