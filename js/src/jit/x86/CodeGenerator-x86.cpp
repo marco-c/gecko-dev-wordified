@@ -7793,6 +7793,10 @@ masm
 passABIArg
 (
 input
+.
+asDouble
+(
+)
 MoveOp
 :
 :
