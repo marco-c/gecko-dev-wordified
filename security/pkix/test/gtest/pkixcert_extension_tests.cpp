@@ -490,7 +490,6 @@ const
 CertPolicyId
 &
 Input
-candidateCert
 /
 *
 out

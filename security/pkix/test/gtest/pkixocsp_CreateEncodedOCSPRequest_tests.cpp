@@ -266,9 +266,7 @@ License
 #
 include
 "
-gtest
-/
-gtest
+pkixgtest
 .
 h
 "
@@ -472,7 +470,6 @@ Result
 CheckPublicKey
 (
 Input
-subjectPublicKeyInfo
 )
 override
 {

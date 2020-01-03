@@ -275,13 +275,11 @@ vector
 >
 #
 include
-<
-gtest
-/
-gtest
+"
+pkixgtest
 .
 h
->
+"
 #
 include
 "
@@ -1734,6 +1732,7 @@ TWO_CHARS
 (
 t
 )
+\
 static_cast
 <
 uint8_t
@@ -1744,6 +1743,10 @@ uint8_t
 '
 +
 (
+static_cast
+<
+uint8_t
+>
 (
 t
 )
@@ -1762,6 +1765,10 @@ uint8_t
 '
 +
 (
+static_cast
+<
+uint8_t
+>
 (
 t
 )
@@ -3484,7 +3491,7 @@ TimeMonthDaysValidRange
 {
 for
 (
-uint8_t
+uint16_t
 month
 =
 1
@@ -3908,7 +3915,7 @@ TimeMonthDayInvalidPastEndOfMonth
 {
 for
 (
-uint8_t
+int16_t
 month
 =
 1
@@ -6422,7 +6429,7 @@ value
 =
 i
 +
-1
+1u
 ;
 /
 /

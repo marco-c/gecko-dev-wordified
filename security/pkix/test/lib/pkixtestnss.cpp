@@ -773,10 +773,16 @@ tbs
 data
 (
 )
+static_cast
+<
+int
+>
+(
 tbs
 .
 length
 (
+)
 )
 privateKey
 .
