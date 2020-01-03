@@ -617,6 +617,10 @@ nsIAtom
 aAttribute
 int32_t
 aModType
+const
+nsAttrValue
+*
+aOldValue
 )
 {
 /
