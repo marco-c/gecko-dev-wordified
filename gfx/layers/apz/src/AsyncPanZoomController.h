@@ -2009,15 +2009,6 @@ touch
 listener
 .
 *
-Does
-the
-work
-for
-ReceiveInputEvent
-(
-)
-.
-*
 /
 nsEventStatus
 HandleInputEvent
@@ -2026,6 +2017,10 @@ const
 InputData
 &
 aEvent
+const
+Matrix4x4
+&
+aTransformToApzc
 )
 ;
 /
