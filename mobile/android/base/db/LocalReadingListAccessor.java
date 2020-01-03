@@ -1104,13 +1104,6 @@ String
 uri
 )
 {
-uri
-=
-stripURI
-(
-uri
-)
-;
 cr
 .
 delete
