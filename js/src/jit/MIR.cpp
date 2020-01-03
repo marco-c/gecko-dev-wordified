@@ -3131,7 +3131,10 @@ types
 OBJECT_FLAG_UNKNOWN_PROPERTIES
 )
 ;
-return
+LifoAlloc
+*
+alloc
+=
 GetIonContext
 (
 )
@@ -3143,6 +3146,9 @@ temp
 lifoAlloc
 (
 )
+;
+return
+alloc
 -
 >
 new_
@@ -3153,6 +3159,7 @@ types
 TemporaryTypeSet
 >
 (
+alloc
 types
 :
 :
@@ -7451,7 +7458,10 @@ type
 )
 )
 ;
-return
+LifoAlloc
+*
+alloc
+=
 GetIonContext
 (
 )
@@ -7463,6 +7473,9 @@ temp
 lifoAlloc
 (
 )
+;
+return
+alloc
 -
 >
 new_
@@ -7473,6 +7486,7 @@ types
 TemporaryTypeSet
 >
 (
+alloc
 ntype
 )
 ;

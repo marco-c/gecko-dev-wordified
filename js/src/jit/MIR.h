@@ -17256,6 +17256,11 @@ types
 TemporaryTypeSet
 >
 (
+alloc
+.
+lifoAlloc
+(
+)
 ntype
 )
 )
