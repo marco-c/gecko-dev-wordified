@@ -3000,10 +3000,6 @@ freeEmptyChunks
 JSRuntime
 *
 rt
-const
-AutoLockGC
-&
-lock
 )
 ;
 void
@@ -3349,15 +3345,6 @@ FreeOp
 fop
 bool
 lastGC
-)
-;
-void
-decommitAllWithoutUnlocking
-(
-const
-AutoLockGC
-&
-lock
 )
 ;
 void
