@@ -394,16 +394,6 @@ s
 (
 prop
 prop
-.
-replace
-(
-'
--
-'
-'
-_
-'
-)
 )
 file
 =
@@ -454,15 +444,14 @@ print
 enum
 {
   
-/
-/
-XXX
-is
-this
-the
-right
+#
 define
-?
+CSS_PROP_PUBLIC_OR_PRIVATE
+(
+publicname_
+privatename_
+)
+privatename_
   
 #
 define
@@ -492,7 +481,7 @@ animtype_
 USE_COUNTER_FOR_CSS_PROPERTY_
 #
 #
-id_
+method_
 =
 eUseCounter_UNKNOWN
   
@@ -511,6 +500,10 @@ CSS_PROP
 #
 undef
 CSS_PROP_LIST_INCLUDE_LOGICAL
+  
+#
+undef
+CSS_PROP_PUBLIC_OR_PRIVATE
 }
 ;
 '
@@ -549,16 +542,6 @@ counter
 property_name
 '
 ]
-.
-replace
-(
-'
--
-'
-'
-_
-'
-)
             
 print
 (
