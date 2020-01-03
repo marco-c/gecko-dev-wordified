@@ -6686,7 +6686,7 @@ string
 .
 *
 *
-nsDisplayListItems
+nsDisplayItems
 can
 be
 containers
