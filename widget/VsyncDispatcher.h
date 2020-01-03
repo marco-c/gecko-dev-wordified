@@ -332,6 +332,13 @@ CompositorVsyncDispatcher
 (
 )
 ;
+void
+ObserveVsync
+(
+bool
+aEnable
+)
+;
 Mutex
 mCompositorObserverLock
 ;
@@ -340,6 +347,9 @@ nsRefPtr
 VsyncObserver
 >
 mCompositorVsyncObserver
+;
+bool
+mDidShutdown
 ;
 }
 ;
