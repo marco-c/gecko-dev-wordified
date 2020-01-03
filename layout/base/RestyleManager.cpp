@@ -8374,6 +8374,9 @@ nsAttrValue
 aNewValue
 )
 {
+RestyleHintData
+rsdata
+;
 nsRestyleHint
 rshint
 =
@@ -8392,6 +8395,7 @@ aAttribute
 aModType
 false
 aNewValue
+rsdata
 )
 ;
 PostRestyleEvent
@@ -8399,6 +8403,8 @@ PostRestyleEvent
 aElement
 rshint
 NS_STYLE_HINT_NONE
+&
+rsdata
 )
 ;
 }
@@ -8993,6 +8999,9 @@ that
 affects
 the
 style
+RestyleHintData
+rsdata
+;
 nsRestyleHint
 rshint
 =
@@ -9011,6 +9020,7 @@ aAttribute
 aModType
 true
 aOldValue
+rsdata
 )
 ;
 PostRestyleEvent
@@ -9018,6 +9028,8 @@ PostRestyleEvent
 aElement
 rshint
 hint
+&
+rsdata
 )
 ;
 }
