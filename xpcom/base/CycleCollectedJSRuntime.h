@@ -411,6 +411,10 @@ mFreedGCed
 =
 0
 ;
+mFreedJSZones
+=
+0
+;
 mNumSlices
 =
 1
@@ -460,6 +464,9 @@ mFreedRefCounted
 ;
 uint32_t
 mFreedGCed
+;
+uint32_t
+mFreedJSZones
 ;
 uint32_t
 mNumSlices
