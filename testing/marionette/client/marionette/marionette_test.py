@@ -82,7 +82,6 @@ errors
 import
 (
         
-ErrorCodes
 MarionetteException
 InstallGeckoError
 TimeoutException
