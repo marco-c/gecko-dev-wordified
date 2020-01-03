@@ -12743,7 +12743,7 @@ StyleContext
 )
 -
 >
-IsDirectlyInsideRuby
+IsInlineDescendantOfRuby
 (
 )
 )
@@ -18978,7 +18978,7 @@ StyleContext
 )
 -
 >
-IsDirectlyInsideRuby
+IsInlineDescendantOfRuby
 (
 )
 )
@@ -54681,7 +54681,7 @@ StyleContext
 )
 -
 >
-IsDirectlyInsideRuby
+IsInlineDescendantOfRuby
 (
 )
 )
@@ -57228,7 +57228,7 @@ StyleContext
 )
 -
 >
-IsDirectlyInsideRuby
+IsInlineDescendantOfRuby
 (
 )
 )
