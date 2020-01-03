@@ -1671,7 +1671,7 @@ use
 PLDHashTable
 :
 :
-Iterator
+RemovingIterator
 iter1
 (
 &
@@ -1681,7 +1681,7 @@ t
 PLDHashTable
 :
 :
-Iterator
+RemovingIterator
 iter2
 (
 mozilla
