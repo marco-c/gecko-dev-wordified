@@ -4899,11 +4899,17 @@ nsIDOMGeoPosition
 aSomewhere
 )
 {
+if
+(
+aSomewhere
+)
+{
 SetCachedPosition
 (
 aSomewhere
 )
 ;
+}
 for
 (
 uint32_t
