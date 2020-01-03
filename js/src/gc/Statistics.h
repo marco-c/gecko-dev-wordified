@@ -280,6 +280,17 @@ a
 /
 compaction
 STAT_STOREBUFFER_OVERFLOW
+/
+/
+Number
+of
+arenas
+relocated
+by
+compacting
+GC
+.
+STAT_ARENA_RELOCATED
 STAT_LIMIT
 }
 ;
