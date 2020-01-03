@@ -430,13 +430,6 @@ dom
 ClonedMessageData
 ClonedMessageData
 ;
-typedef
-mozilla
-:
-:
-OwningSerializedStructuredCloneBuffer
-OwningSerializedStructuredCloneBuffer
-;
 virtual
 ~
 TabParent
@@ -806,7 +799,7 @@ Principal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetVal
@@ -841,7 +834,7 @@ Principal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetVal
@@ -2654,7 +2647,7 @@ nsIPrincipal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aJSONRetVal

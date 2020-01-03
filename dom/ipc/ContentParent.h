@@ -469,13 +469,6 @@ dom
 ClonedMessageData
 ClonedMessageData
 ;
-typedef
-mozilla
-:
-:
-OwningSerializedStructuredCloneBuffer
-OwningSerializedStructuredCloneBuffer
-;
 public
 :
 #
@@ -1087,12 +1080,6 @@ const
 nsAString
 &
 aMessage
-mozilla
-:
-:
-dom
-:
-:
 StructuredCloneIPCHelper
 &
 aHelper
@@ -3268,7 +3255,7 @@ clipboardCaps
 DomainPolicyClone
 *
 domainPolicy
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 *
 initialData
 )
@@ -4208,7 +4195,7 @@ Principal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetvals
@@ -4243,7 +4230,7 @@ Principal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetvals

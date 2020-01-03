@@ -259,7 +259,7 @@ nsIPrincipal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetVal
