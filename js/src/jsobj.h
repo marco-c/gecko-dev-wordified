@@ -8425,6 +8425,16 @@ PropertyDescriptor
 desc
 )
 ;
+void
+CompletePropertyDescriptor
+(
+MutableHandle
+<
+PropertyDescriptor
+>
+desc
+)
+;
 /
 *
 *
