@@ -29392,6 +29392,8 @@ GeneralRegisterSet
 regs
 Register
 argcReg
+bool
+isJitCall
 )
 ;
 void
@@ -29404,6 +29406,8 @@ GeneralRegisterSet
 regs
 Register
 argcReg
+bool
+isJitCall
 )
 ;
 void
