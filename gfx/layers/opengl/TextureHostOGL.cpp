@@ -2697,9 +2697,6 @@ fActiveTexture
 aTextureUnit
 )
 ;
-#
-ifndef
-DEBUG
 /
 /
 SurfaceTexture
@@ -2732,12 +2729,10 @@ gl
 )
 -
 >
-GetAndClearError
+FlushErrors
 (
 )
 ;
-#
-endif
 mSurfTex
 -
 >

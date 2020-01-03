@@ -2975,7 +2975,7 @@ error
 gl
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;

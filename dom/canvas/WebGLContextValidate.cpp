@@ -9382,7 +9382,7 @@ error
 gl
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;
@@ -9474,7 +9474,7 @@ error
 gl
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;
@@ -9918,13 +9918,13 @@ Mesa
 ;
 /
 /
-notice
+Notice
 that
 the
 point
 of
 calling
-GetAndClearError
+fGetError
 here
 is
 not
@@ -9932,11 +9932,10 @@ only
 to
 check
 for
-error
 /
 /
-it
-is
+errors
+but
 also
 to
 reset
@@ -9948,6 +9947,8 @@ that
 a
 subsequent
 WebGL
+/
+/
 getError
 call
 will
@@ -9961,7 +9962,7 @@ error
 gl
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;

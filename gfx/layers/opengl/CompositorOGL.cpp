@@ -4460,7 +4460,7 @@ error
 mGLContext
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;
