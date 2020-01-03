@@ -572,12 +572,7 @@ getTrait
 customHighlighters
 "
 )
-[
-0
-]
-"
-BoxModelHighlighter
-"
+true
 "
 target
 .
@@ -585,7 +580,7 @@ getTrait
 (
 )
 returns
-objects
+boolean
 when
 trait
 exists

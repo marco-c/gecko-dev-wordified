@@ -102,7 +102,7 @@ inspector
 ;
 const
 {
-HIGHLIGHTER_CLASSES
+BoxModelHighlighter
 }
 =
 require
@@ -117,13 +117,6 @@ actors
 highlighter
 "
 )
-;
-const
-{
-BoxModelHighlighter
-}
-=
-HIGHLIGHTER_CLASSES
 ;
 XPCOMUtils
 .

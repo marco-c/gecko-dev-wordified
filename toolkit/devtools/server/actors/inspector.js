@@ -713,7 +713,7 @@ const
 {
 HighlighterActor
 CustomHighlighterActor
-HIGHLIGHTER_CLASSES
+isTypeRegistered
 }
 =
 require
@@ -21157,10 +21157,10 @@ typeName
 {
 if
 (
-HIGHLIGHTER_CLASSES
-[
+isTypeRegistered
+(
 typeName
-]
+)
 )
 {
 return
