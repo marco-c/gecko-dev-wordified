@@ -492,6 +492,14 @@ true
 /
 /
 replace_malloc
+"
+malloc_hook_table_t
+"
+:
+true
+/
+/
+replace_malloc
 }
 ;
 /
