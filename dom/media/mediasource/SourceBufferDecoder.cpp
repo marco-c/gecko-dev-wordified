@@ -479,6 +479,8 @@ nsAutoPtr
 MetadataTags
 >
 aTags
+bool
+aRestoredFromDromant
 )
 {
 MSE_DEBUG
@@ -509,6 +511,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
+bool
+aRestoredFromDromant
 )
 {
 MSE_DEBUG

@@ -3724,6 +3724,8 @@ nsAutoPtr
 MetadataTags
 >
 aTags
+bool
+aRestoredFromDromant
 )
 {
 MOZ_ASSERT
@@ -3885,6 +3887,12 @@ Invalidate
 (
 )
 ;
+if
+(
+!
+aRestoredFromDromant
+)
+{
 mOwner
 -
 >
@@ -3907,6 +3915,7 @@ forget
 ;
 }
 }
+}
 void
 MediaDecoder
 :
@@ -3918,6 +3927,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
+bool
+aRestoredFromDromant
 )
 {
 MOZ_ASSERT
@@ -3999,6 +4010,12 @@ Invalidate
 (
 )
 ;
+if
+(
+!
+aRestoredFromDromant
+)
+{
 mOwner
 -
 >
@@ -4006,6 +4023,7 @@ FirstFrameLoaded
 (
 )
 ;
+}
 }
 /
 /

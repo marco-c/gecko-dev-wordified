@@ -322,6 +322,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
+bool
+aRestoredFromDromant
 )
 {
 MOZ_ASSERT
@@ -337,6 +339,7 @@ MediaDecoder
 FirstFrameLoaded
 (
 aInfo
+aRestoredFromDromant
 )
 ;
 ReentrantMonitorAutoEnter

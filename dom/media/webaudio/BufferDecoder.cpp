@@ -534,6 +534,8 @@ nsAutoPtr
 MetadataTags
 >
 aTags
+bool
+aRestoredFromDromant
 )
 {
 /
@@ -551,6 +553,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
+bool
+aRestoredFromDromant
 )
 {
 /

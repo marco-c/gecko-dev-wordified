@@ -5751,6 +5751,8 @@ nsAutoPtr
 MetadataTags
 >
 aTags
+bool
+aRestoredFromDromant
 )
 MOZ_OVERRIDE
 ;
@@ -5795,6 +5797,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
+bool
+aRestoredFromDromant
 )
 MOZ_OVERRIDE
 ;
