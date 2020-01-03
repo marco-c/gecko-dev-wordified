@@ -372,6 +372,9 @@ name
 value
 )
 ;
+return
+true
+;
 }
 has
 (
