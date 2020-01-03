@@ -18398,7 +18398,7 @@ case
 writeW
 (
 address
-rt
+value
 instr
 )
 ;
