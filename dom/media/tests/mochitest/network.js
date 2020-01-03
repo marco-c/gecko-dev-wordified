@@ -780,8 +780,6 @@ then
 )
 =
 >
-SimpleTest
-.
 finish
 (
 )
