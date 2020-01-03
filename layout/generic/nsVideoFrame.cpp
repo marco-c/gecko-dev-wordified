@@ -1477,17 +1477,6 @@ this
 )
 )
 ;
-layer
--
->
-SetContentFlags
-(
-Layer
-:
-:
-CONTENT_OPAQUE
-)
-;
 /
 /
 Set
