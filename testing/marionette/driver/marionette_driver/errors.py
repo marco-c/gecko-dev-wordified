@@ -55,6 +55,8 @@ MPL
 .
 import
 traceback
+import
+types
 class
 MarionetteException
 (
@@ -880,7 +882,7 @@ open
 excs
 =
 [
-    
+  
 MarionetteException
   
 TimeoutException
@@ -1009,7 +1011,9 @@ elif
 isinstance
 (
 identifier
-str
+types
+.
+StringTypes
 )
 :
         
