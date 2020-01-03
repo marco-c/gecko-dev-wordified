@@ -4646,7 +4646,7 @@ localName
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 ;
 }
 if

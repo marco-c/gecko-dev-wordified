@@ -1834,7 +1834,7 @@ if
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 =
 =
 mHTMLMatchAtom
@@ -1848,7 +1848,7 @@ mXMLMatchAtom
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 "
 HTML
 atom
@@ -1858,7 +1858,7 @@ atom
 are
 not
 both
-asterix
+asterisk
 ?
 "
 )

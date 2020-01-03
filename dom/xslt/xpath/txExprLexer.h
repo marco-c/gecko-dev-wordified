@@ -749,7 +749,7 @@ PERIOD
 '
 .
 '
-ASTERIX
+ASTERISK
 =
 '
 *

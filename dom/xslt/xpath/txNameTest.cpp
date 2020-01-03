@@ -324,7 +324,7 @@ mLocalName
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 &
 &
 !
@@ -384,7 +384,7 @@ mLocalName
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 )
 return
 true
@@ -434,7 +434,7 @@ mLocalName
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 )
 {
 if

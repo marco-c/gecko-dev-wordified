@@ -6149,7 +6149,7 @@ mAttribute
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 )
 )
 {
@@ -25499,7 +25499,7 @@ mAttribute
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 )
 )
 continue

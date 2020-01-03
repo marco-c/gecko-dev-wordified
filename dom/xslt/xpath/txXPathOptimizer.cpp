@@ -751,7 +751,7 @@ mLocalName
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 )
 {
 *
