@@ -1215,8 +1215,8 @@ Retry
 failed
 favicons
 after
-20
-minutes
+four
+hours
 .
 public
 static
@@ -1228,7 +1228,9 @@ FAILURE_RETRY_MILLISECONDS
 *
 60
 *
-20
+60
+*
+4
 ;
 /
 /
