@@ -16398,7 +16398,7 @@ mEvent
 mMessage
 !
 =
-NS_UI_ACTIVATE
+eLegacyDOMActivate
 )
 )
 |
@@ -16841,7 +16841,7 @@ case
 eMouseClick
 :
 case
-NS_UI_ACTIVATE
+eLegacyDOMActivate
 :
 case
 eKeyPress
@@ -17183,7 +17183,7 @@ InternalUIEvent
 actEvent
 (
 true
-NS_UI_ACTIVATE
+eLegacyDOMActivate
 mouseEvent
 )
 ;
@@ -17228,7 +17228,7 @@ break
 ;
 }
 case
-NS_UI_ACTIVATE
+eLegacyDOMActivate
 :
 {
 if
