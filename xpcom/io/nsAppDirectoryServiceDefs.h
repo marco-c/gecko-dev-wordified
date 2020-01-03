@@ -759,6 +759,12 @@ NS_APP_SEARCH_DIR_LIST
 "
 SrchPluginsDL
 "
+#
+define
+NS_APP_DISTRIBUTION_SEARCH_DIR_LIST
+"
+SrchPluginsDistDL
+"
 /
 /
 -
