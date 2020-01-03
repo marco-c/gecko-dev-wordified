@@ -16571,7 +16571,7 @@ preferences
 #
 ifdef
 MOZ_DEV_EDITION
-pref
+sticky_pref
 (
 "
 lightweightThemes
@@ -16588,7 +16588,7 @@ org
 "
 )
 ;
-pref
+sticky_pref
 (
 "
 browser
@@ -18532,7 +18532,7 @@ light
 #
 ifdef
 MOZ_DEV_EDITION
-pref
+sticky_pref
 (
 "
 devtools
@@ -18546,7 +18546,7 @@ dark
 ;
 #
 else
-pref
+sticky_pref
 (
 "
 devtools
