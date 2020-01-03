@@ -207,7 +207,7 @@ pass
 )
 ;
 void
-spewRanges
+spewIntervals
 (
 const
 char
@@ -242,7 +242,7 @@ block
 )
 ;
 void
-spewRanges
+spewIntervals
 (
 FILE
 *
@@ -253,10 +253,13 @@ regalloc
 LNode
 *
 ins
+size_t
+&
+nextId
 )
 ;
 void
-spewRanges
+spewIntervals
 (
 FILE
 *
@@ -267,6 +270,9 @@ block
 BacktrackingAllocator
 *
 regalloc
+size_t
+&
+nextId
 )
 ;
 }

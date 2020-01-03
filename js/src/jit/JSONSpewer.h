@@ -386,7 +386,7 @@ mir
 )
 ;
 void
-spewRanges
+spewIntervals
 (
 BacktrackingAllocator
 *

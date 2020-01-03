@@ -341,7 +341,9 @@ output
 MoveOperand
 toMoveOperand
 (
+const
 LAllocation
+*
 a
 )
 const
