@@ -67,6 +67,16 @@ quit
 6
 )
 ;
+setJitCompilerOption
+(
+"
+signals
+.
+enable
+"
+0
+)
+;
 var
 byteLength
 =
