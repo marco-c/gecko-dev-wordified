@@ -4459,16 +4459,6 @@ would
 be
 needed
 .
-if
-(
-packet
-.
-completeNALU
-!
-=
-kNaluComplete
-)
-{
 *
 frame
 =
@@ -4529,7 +4519,6 @@ kStateComplete
 return
 kNoError
 ;
-}
 /
 /
 No
