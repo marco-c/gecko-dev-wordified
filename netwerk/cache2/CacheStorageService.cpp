@@ -11013,6 +11013,11 @@ CacheFileOutputStream
 /
 N
 CacheFileInputStream
+if
+(
+sGlobalEntryTables
+)
+{
 ReportStorageMemoryData
 data
 ;
@@ -11039,6 +11044,7 @@ ReportStorageMemory
 data
 )
 ;
+}
 return
 NS_OK
 ;
