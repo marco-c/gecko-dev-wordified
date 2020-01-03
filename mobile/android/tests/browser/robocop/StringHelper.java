@@ -124,8 +124,6 @@ private
 static
 StringHelper
 instance
-=
-null
 ;
 /
 /
