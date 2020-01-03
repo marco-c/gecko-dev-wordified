@@ -575,7 +575,7 @@ lockID
 this
 .
 _id
-isInternalLock
+isServiceLock
 :
 false
 }
