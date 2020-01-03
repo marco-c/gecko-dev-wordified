@@ -321,6 +321,8 @@ nsLiteralCString
 (
 nsLiteralCString
 (
+"
+"
 s
 )
 )
@@ -333,6 +335,8 @@ s
 )
 n
 (
+"
+"
 s
 )
 #
@@ -346,6 +350,8 @@ const
 nsLiteralCString
 n
 (
+"
+"
 s
 )
 #

@@ -468,9 +468,12 @@ characters
 return
 Dispatch
 (
-NS_LITERAL_CSTRING
+nsDependentCString
 (
 taskThreadName
+LEN
+-
+1
 )
 )
 ;
