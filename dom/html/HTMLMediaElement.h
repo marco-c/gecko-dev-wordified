@@ -2933,6 +2933,15 @@ aShow
 }
 already_AddRefed
 <
+MediaSource
+>
+GetMozMediaSourceObject
+(
+)
+const
+;
+already_AddRefed
+<
 DOMMediaStream
 >
 GetMozSrcObject
