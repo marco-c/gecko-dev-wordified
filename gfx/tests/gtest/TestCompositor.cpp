@@ -236,7 +236,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetClientBounds
 (
-nsIntRect
+IntRect
 &
 aRect
 )
@@ -244,7 +244,7 @@ override
 {
 aRect
 =
-nsIntRect
+IntRect
 (
 0
 0
@@ -259,7 +259,7 @@ NS_OK
 NS_IMETHOD
 GetBounds
 (
-nsIntRect
+IntRect
 &
 aRect
 )
@@ -368,7 +368,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+IntRect
 &
 aRect
 nsWidgetInitData
@@ -533,7 +533,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsIntRect
+IntRect
 &
 aRect
 )
@@ -1200,7 +1200,7 @@ layerManager
 BeginTransactionWithDrawTarget
 (
 drawTarget
-nsIntRect
+IntRect
 (
 0
 0
@@ -1568,7 +1568,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -1578,7 +1578,7 @@ gCompHeight
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -1588,7 +1588,7 @@ gCompHeight
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -1598,7 +1598,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 50

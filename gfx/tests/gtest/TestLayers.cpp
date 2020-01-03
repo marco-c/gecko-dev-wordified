@@ -1533,7 +1533,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -1543,7 +1543,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -1553,7 +1553,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -1563,7 +1563,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 10
 10
