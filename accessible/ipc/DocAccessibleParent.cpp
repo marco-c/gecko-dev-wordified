@@ -179,6 +179,10 @@ mShutdown
 return
 true
 ;
+CheckDocTree
+(
+)
+;
 if
 (
 aData
@@ -380,6 +384,10 @@ id
 }
 #
 endif
+CheckDocTree
+(
+)
+;
 return
 true
 ;
@@ -756,6 +764,10 @@ Shutdown
 (
 )
 ;
+CheckDocTree
+(
+)
+;
 return
 true
 ;
@@ -1077,6 +1089,10 @@ aID
 return
 false
 ;
+CheckDocTree
+(
+)
+;
 auto
 childDoc
 =
@@ -1102,6 +1118,10 @@ false
 MOZ_ASSERT
 (
 result
+)
+;
+CheckDocTree
+(
 )
 ;
 return
