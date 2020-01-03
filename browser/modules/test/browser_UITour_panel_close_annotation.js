@@ -541,7 +541,7 @@ gContentAPI
 showInfo
 (
 "
-searchProvider
+searchIcon
 "
 "
 test

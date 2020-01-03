@@ -208,7 +208,7 @@ quit
 search
 "
 "
-searchProvider
+searchIcon
 "
 "
 urlbar
@@ -364,7 +364,7 @@ quit
 search
 "
 "
-searchProvider
+searchIcon
 "
 "
 urlbar
@@ -523,6 +523,10 @@ search
 and
 "
 searchProvider
+"
+and
+"
+searchIcon
 "
 ok_targets
 (
