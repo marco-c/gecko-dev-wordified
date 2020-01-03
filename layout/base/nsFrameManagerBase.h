@@ -206,6 +206,15 @@ pldhash
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIFrame
 ;
@@ -368,6 +377,7 @@ owns
 us
 nsIPresShell
 *
+MOZ_NON_OWNING_REF
 mPresShell
 ;
 /
