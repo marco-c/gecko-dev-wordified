@@ -2378,7 +2378,7 @@ sb
 sb
 -
 >
-putRelocatableValueFromAnyThread
+putValueFromAnyThread
 (
 vp
 )
@@ -2478,7 +2478,7 @@ gcStoreBufferPtr
 )
 -
 >
-removeRelocatableValueFromAnyThread
+unputValueFromAnyThread
 (
 vp
 )
