@@ -6211,10 +6211,12 @@ MozMagnifyGestureUpdate
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_MAGNIFY_UPDATE
+eMagnifyGestureUpdate
 ;
+}
 else
 if
 (

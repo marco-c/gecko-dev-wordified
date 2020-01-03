@@ -6359,7 +6359,7 @@ ACTION_MAGNIFY
 :
 msg
 =
-NS_SIMPLE_GESTURE_MAGNIFY_UPDATE
+eMagnifyGestureUpdate
 ;
 delta
 -
