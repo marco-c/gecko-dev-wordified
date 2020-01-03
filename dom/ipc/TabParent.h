@@ -831,9 +831,6 @@ aFocus
 nsIMEUpdatePreference
 *
 aPreference
-uint32_t
-*
-aSeqno
 )
 override
 ;
@@ -890,10 +887,6 @@ virtual
 bool
 RecvNotifyIMESelection
 (
-const
-uint32_t
-&
-aSeqno
 const
 uint32_t
 &
@@ -2743,9 +2736,6 @@ mIMECompositionText
 ;
 uint32_t
 mIMECompositionStart
-;
-uint32_t
-mIMESeqno
 ;
 uint32_t
 mIMECompositionRectOffset
