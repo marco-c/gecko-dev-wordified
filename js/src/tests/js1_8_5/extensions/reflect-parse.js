@@ -2896,6 +2896,7 @@ blockStmt
 ]
 )
 [
+null
 lit
 (
 4
@@ -2950,10 +2951,12 @@ blockStmt
 ]
 )
 [
+null
 lit
 (
 4
 )
+null
 ]
 ident
 (
