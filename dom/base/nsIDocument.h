@@ -14436,7 +14436,7 @@ nsAString
 &
 aExpression
 nsINode
-*
+&
 aContextNode
 mozilla
 :
