@@ -138,7 +138,7 @@ setDataFromTimestamps
 in
 Graphs
 .
-js
+jsm
 *
 param
 number
