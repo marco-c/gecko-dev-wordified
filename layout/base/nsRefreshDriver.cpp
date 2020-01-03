@@ -10343,6 +10343,10 @@ vm
 >
 ProcessPendingUpdates
 (
+nsViewManager
+:
+:
+eTrySyncUpdate
 )
 ;
 #
