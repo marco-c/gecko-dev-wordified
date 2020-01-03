@@ -587,16 +587,6 @@ com
 .
 adobe
 .
-access
-"
-)
-MOZ_UTF16
-(
-"
-com
-.
-adobe
-.
 primetime
 "
 )

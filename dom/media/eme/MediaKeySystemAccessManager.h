@@ -74,9 +74,6 @@ MediaKeySystemAccess
 h
 "
 #
-ifdef
-XP_WIN
-#
 include
 "
 mozilla
@@ -87,8 +84,6 @@ GMPVideoDecoderTrialCreator
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -338,17 +333,12 @@ mWindow
 bool
 mAddedObservers
 ;
-#
-ifdef
-XP_WIN
 nsRefPtr
 <
 GMPVideoDecoderTrialCreator
 >
 mTrialCreator
 ;
-#
-endif
 }
 ;
 }

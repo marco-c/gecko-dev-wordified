@@ -485,6 +485,7 @@ aKeySystem
 struct
 TrialCreateData
 {
+explicit
 TrialCreateData
 (
 const
@@ -731,6 +732,7 @@ GetGMPVideoDecoderCallback
 {
 public
 :
+explicit
 Callback
 (
 TestGMPVideoDecoder
