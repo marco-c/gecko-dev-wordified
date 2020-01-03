@@ -894,11 +894,11 @@ Task
 aTask
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
-mMutex
+mWaitingTasksSection
 )
 ;
 mWaitingTasks
@@ -1009,11 +1009,11 @@ kungFuDeathGrip
 this
 )
 ;
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
-mMutex
+mWaitingTasksSection
 )
 ;
 tasksToSubmit
