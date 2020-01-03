@@ -10925,14 +10925,12 @@ function
 (
 )
 {
-var
+let
 doc
 =
 this
 .
-target
-.
-ownerDocument
+ownerDoc
 ;
 let
 referrerURI
