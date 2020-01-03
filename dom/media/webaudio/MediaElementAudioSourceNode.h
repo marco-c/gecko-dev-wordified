@@ -133,6 +133,7 @@ dom
 {
 class
 MediaElementAudioSourceNode
+final
 :
 public
 MediaStreamAudioSourceNode

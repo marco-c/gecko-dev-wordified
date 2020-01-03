@@ -161,6 +161,7 @@ AudioNode
 )
 class
 ChannelSplitterNodeEngine
+final
 :
 public
 AudioNodeEngine

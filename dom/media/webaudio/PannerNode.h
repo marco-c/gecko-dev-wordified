@@ -187,6 +187,7 @@ AudioBufferSourceNode
 ;
 class
 PannerNode
+final
 :
 public
 AudioNode

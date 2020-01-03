@@ -136,6 +136,7 @@ dom
 {
 struct
 ThreeDPoint
+final
 {
 ThreeDPoint
 (

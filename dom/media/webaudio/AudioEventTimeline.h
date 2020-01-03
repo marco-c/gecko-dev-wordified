@@ -197,6 +197,7 @@ header
 .
 struct
 AudioTimelineEvent
+final
 {
 enum
 Type

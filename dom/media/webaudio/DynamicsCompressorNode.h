@@ -143,6 +143,7 @@ AudioContext
 ;
 class
 DynamicsCompressorNode
+final
 :
 public
 AudioNode

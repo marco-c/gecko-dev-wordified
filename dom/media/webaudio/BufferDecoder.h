@@ -182,6 +182,7 @@ buffer
 /
 class
 BufferDecoder
+final
 :
 public
 AbstractMediaDecoder

@@ -215,6 +215,7 @@ AudioNode
 )
 class
 StereoPannerNodeEngine
+final
 :
 public
 AudioNodeEngine

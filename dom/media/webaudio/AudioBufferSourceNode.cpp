@@ -389,13 +389,13 @@ SetInt32Parameter
 /
 class
 AudioBufferSourceNodeEngine
+final
 :
 public
 AudioNodeEngine
 {
 public
 :
-explicit
 AudioBufferSourceNodeEngine
 (
 AudioNode
@@ -4386,6 +4386,7 @@ IsFinished
 {
 class
 EndedEventDispatcher
+final
 :
 public
 nsRunnable
@@ -4410,6 +4411,7 @@ NS_IMETHODIMP
 Run
 (
 )
+override
 {
 /
 /

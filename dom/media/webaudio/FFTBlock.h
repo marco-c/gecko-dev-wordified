@@ -187,6 +187,7 @@ platforms
 .
 class
 FFTBlock
+final
 {
 public
 :

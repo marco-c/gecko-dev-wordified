@@ -143,6 +143,7 @@ AudioContext
 ;
 class
 DelayNode
+final
 :
 public
 AudioNode

@@ -263,6 +263,7 @@ AudioNode
 )
 class
 PannerNodeEngine
+final
 :
 public
 AudioNodeEngine

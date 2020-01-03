@@ -147,6 +147,7 @@ AudioContext
 ;
 class
 OfflineAudioCompletionEvent
+final
 :
 public
 Event

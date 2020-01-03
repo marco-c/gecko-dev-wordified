@@ -136,6 +136,7 @@ AudioContext
 ;
 class
 ChannelSplitterNode
+final
 :
 public
 AudioNode

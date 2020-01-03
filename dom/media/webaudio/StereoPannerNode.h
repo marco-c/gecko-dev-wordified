@@ -147,6 +147,7 @@ AudioContext
 ;
 class
 StereoPannerNode
+final
 :
 public
 AudioNode

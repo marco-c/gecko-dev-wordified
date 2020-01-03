@@ -431,6 +431,7 @@ break
 }
 class
 BiquadFilterNodeEngine
+final
 :
 public
 AudioNodeEngine

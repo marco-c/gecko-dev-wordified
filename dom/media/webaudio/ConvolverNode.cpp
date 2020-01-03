@@ -192,6 +192,7 @@ AudioNode
 )
 class
 ConvolverNodeEngine
+final
 :
 public
 AudioNodeEngine

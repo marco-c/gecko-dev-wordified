@@ -177,6 +177,7 @@ MediaStream
 /
 class
 AudioNodeExternalInputStream
+final
 :
 public
 AudioNodeStream

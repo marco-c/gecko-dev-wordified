@@ -170,6 +170,7 @@ AudioContext
 ;
 class
 OscillatorNode
+final
 :
 public
 AudioNode

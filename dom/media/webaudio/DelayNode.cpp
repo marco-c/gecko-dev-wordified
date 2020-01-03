@@ -204,6 +204,7 @@ AudioNode
 )
 class
 DelayNodeEngine
+final
 :
 public
 AudioNodeEngine

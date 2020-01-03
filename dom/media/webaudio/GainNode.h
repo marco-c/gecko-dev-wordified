@@ -143,6 +143,7 @@ AudioContext
 ;
 class
 GainNode
+final
 :
 public
 AudioNode

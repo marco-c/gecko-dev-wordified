@@ -151,6 +151,7 @@ dom
 {
 class
 AudioProcessingEvent
+final
 :
 public
 Event

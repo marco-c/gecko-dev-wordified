@@ -146,6 +146,7 @@ SharedBuffers
 ;
 class
 ScriptProcessorNode
+final
 :
 public
 AudioNode

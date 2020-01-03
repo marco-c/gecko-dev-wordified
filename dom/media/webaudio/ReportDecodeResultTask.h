@@ -139,6 +139,7 @@ mozilla
 {
 class
 ReportDecodeResultTask
+final
 :
 public
 nsRunnable

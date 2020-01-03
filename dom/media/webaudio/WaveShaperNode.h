@@ -158,6 +158,7 @@ AudioContext
 ;
 class
 WaveShaperNode
+final
 :
 public
 AudioNode

@@ -230,6 +230,7 @@ object
 /
 class
 ThreadSharedFloatArrayBufferList
+final
 :
 public
 ThreadSharedObject
@@ -264,6 +265,7 @@ aCount
 }
 struct
 Storage
+final
 {
 Storage
 (

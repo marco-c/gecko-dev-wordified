@@ -136,6 +136,7 @@ AudioContext
 ;
 class
 ChannelMergerNode
+final
 :
 public
 AudioNode

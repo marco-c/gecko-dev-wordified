@@ -179,12 +179,14 @@ AudioNode
 )
 class
 AnalyserNodeEngine
+final
 :
 public
 AudioNodeEngine
 {
 class
 TransferBuffer
+final
 :
 public
 nsRunnable

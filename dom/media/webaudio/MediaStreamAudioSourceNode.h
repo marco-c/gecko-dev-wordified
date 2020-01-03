@@ -147,6 +147,7 @@ dom
 {
 class
 MediaStreamAudioSourceNodeEngine
+final
 :
 public
 AudioNodeEngine

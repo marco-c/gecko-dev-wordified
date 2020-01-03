@@ -562,6 +562,7 @@ aStreamTime
 {
 class
 Message
+final
 :
 public
 ControlMessage
@@ -605,6 +606,7 @@ void
 Run
 (
 )
+override
 {
 static_cast
 <
@@ -713,6 +715,7 @@ aValue
 {
 class
 Message
+final
 :
 public
 ControlMessage
@@ -749,6 +752,7 @@ void
 Run
 (
 )
+override
 {
 static_cast
 <
@@ -811,6 +815,7 @@ aValue
 {
 class
 Message
+final
 :
 public
 ControlMessage
@@ -847,6 +852,7 @@ void
 Run
 (
 )
+override
 {
 static_cast
 <
@@ -911,6 +917,7 @@ aValue
 {
 class
 Message
+final
 :
 public
 ControlMessage
@@ -958,6 +965,7 @@ void
 Run
 (
 )
+override
 {
 static_cast
 <
@@ -1026,6 +1034,7 @@ aValue
 {
 class
 Message
+final
 :
 public
 ControlMessage
@@ -1064,6 +1073,7 @@ void
 Run
 (
 )
+override
 {
 static_cast
 <
@@ -1129,6 +1139,7 @@ aBuffer
 {
 class
 Message
+final
 :
 public
 ControlMessage
@@ -1163,6 +1174,7 @@ void
 Run
 (
 )
+override
 {
 static_cast
 <
@@ -1229,6 +1241,7 @@ aData
 {
 class
 Message
+final
 :
 public
 ControlMessage
@@ -1266,6 +1279,7 @@ void
 Run
 (
 )
+override
 {
 static_cast
 <
@@ -1328,6 +1342,7 @@ aChannelInterpretation
 {
 class
 Message
+final
 :
 public
 ControlMessage
@@ -1370,6 +1385,7 @@ void
 Run
 (
 )
+override
 {
 static_cast
 <
@@ -1430,6 +1446,7 @@ aPassThrough
 {
 class
 Message
+final
 :
 public
 ControlMessage
@@ -1460,6 +1477,7 @@ void
 Run
 (
 )
+override
 {
 static_cast
 <

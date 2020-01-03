@@ -2094,6 +2094,7 @@ alive
 .
 class
 RunnableRelease
+final
 :
 public
 nsRunnable

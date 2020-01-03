@@ -279,6 +279,7 @@ return
 }
 class
 Resampler
+final
 {
 public
 :
@@ -716,6 +717,7 @@ mBuffer
 ;
 class
 WaveShaperNodeEngine
+final
 :
 public
 AudioNodeEngine

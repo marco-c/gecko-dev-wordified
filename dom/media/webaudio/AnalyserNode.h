@@ -143,6 +143,7 @@ AudioContext
 ;
 class
 AnalyserNode
+final
 :
 public
 AudioNode
