@@ -273,9 +273,6 @@ nsCookieAttributes
 struct
 nsListIter
 ;
-struct
-nsEnumerationData
-;
 namespace
 mozilla
 {

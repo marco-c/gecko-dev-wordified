@@ -120,9 +120,6 @@ DOMRequest
 .
 h
 "
-class
-nsIDOMMozMmsMessage
-;
 namespace
 mozilla
 {

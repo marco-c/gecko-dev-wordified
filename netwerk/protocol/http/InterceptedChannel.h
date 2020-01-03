@@ -148,9 +148,6 @@ class
 nsInputStreamPump
 ;
 class
-nsIStorageStream
-;
-class
 nsIStreamListener
 ;
 namespace

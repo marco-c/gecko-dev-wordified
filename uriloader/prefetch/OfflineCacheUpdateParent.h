@@ -135,13 +135,6 @@ namespace
 mozilla
 {
 namespace
-dom
-{
-class
-TabParent
-;
-}
-namespace
 ipc
 {
 class

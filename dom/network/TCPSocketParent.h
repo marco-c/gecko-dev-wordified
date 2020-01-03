@@ -147,9 +147,6 @@ namespace
 dom
 {
 class
-PBrowserParent
-;
-class
 TCPSocketParentBase
 :
 public

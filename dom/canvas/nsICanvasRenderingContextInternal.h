@@ -186,9 +186,6 @@ NS_ICANVASRENDERINGCONTEXTINTERNAL_IID
 }
 }
 class
-gfxContext
-;
-class
 gfxASurface
 ;
 class

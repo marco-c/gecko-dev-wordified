@@ -102,9 +102,6 @@ h
 struct
 DeviceStorageFileDescriptor
 ;
-class
-nsIFile
-;
 namespace
 mozilla
 {

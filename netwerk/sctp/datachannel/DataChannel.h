@@ -312,9 +312,6 @@ namespace
 mozilla
 {
 class
-DTLSConnection
-;
-class
 DataChannelConnection
 ;
 class

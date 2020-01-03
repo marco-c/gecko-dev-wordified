@@ -163,9 +163,6 @@ nsTArray
 .
 h
 "
-class
-nsIThread
-;
 namespace
 mozilla
 {

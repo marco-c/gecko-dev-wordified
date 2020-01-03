@@ -174,9 +174,6 @@ h
 class
 nsNavBookmarks
 ;
-class
-nsIOutputStream
-;
 namespace
 mozilla
 {

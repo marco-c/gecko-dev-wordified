@@ -285,9 +285,6 @@ class
 TextMetrics
 ;
 class
-SVGMatrix
-;
-class
 CanvasFilterChainObserver
 ;
 class

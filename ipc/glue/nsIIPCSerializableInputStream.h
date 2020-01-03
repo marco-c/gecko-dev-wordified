@@ -78,9 +78,6 @@ Attributes
 .
 h
 "
-struct
-nsTArrayDefaultAllocator
-;
 template
 <
 class

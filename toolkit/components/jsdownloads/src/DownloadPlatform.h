@@ -77,12 +77,6 @@ nsCOMPtr
 h
 "
 class
-nsIURI
-;
-class
-nsIFile
-;
-class
 DownloadPlatform
 :
 public

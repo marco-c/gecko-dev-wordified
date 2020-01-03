@@ -255,9 +255,6 @@ PuppetWidget
 #
 ifdef
 MOZ_X11
-class
-gfxXlibSurface
-;
 #
 ifdef
 MOZ_WIDGET_QT

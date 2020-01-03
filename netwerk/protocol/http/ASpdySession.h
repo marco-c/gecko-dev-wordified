@@ -130,9 +130,6 @@ namespace
 net
 {
 class
-nsHttpConnectionInfo
-;
-class
 ASpdySession
 :
 public

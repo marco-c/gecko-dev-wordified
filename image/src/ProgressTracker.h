@@ -151,9 +151,6 @@ IProgressObserver
 h
 "
 class
-imgIContainer
-;
-class
 nsIRunnable
 ;
 namespace

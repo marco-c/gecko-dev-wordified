@@ -291,9 +291,6 @@ class
 nsNPAPIPlugin
 ;
 class
-nsIComponentManager
-;
-class
 nsIFile
 ;
 class

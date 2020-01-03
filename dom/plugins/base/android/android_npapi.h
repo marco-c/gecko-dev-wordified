@@ -519,9 +519,6 @@ struct
 ANPPath
 ;
 struct
-ANPRegion
-;
-struct
 ANPTypeface
 ;
 enum

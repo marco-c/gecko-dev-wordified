@@ -224,9 +224,6 @@ AutoClose
 h
 "
 class
-nsIPrincipal
-;
-class
 nsDNSPrefetch
 ;
 class

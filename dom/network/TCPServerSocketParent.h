@@ -120,9 +120,6 @@ namespace
 dom
 {
 class
-PBrowserParent
-;
-class
 TCPServerSocketParent
 :
 public

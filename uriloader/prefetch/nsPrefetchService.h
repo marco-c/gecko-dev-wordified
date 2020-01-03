@@ -159,9 +159,6 @@ class
 nsPrefetchService
 ;
 class
-nsPrefetchListener
-;
-class
 nsPrefetchNode
 ;
 /

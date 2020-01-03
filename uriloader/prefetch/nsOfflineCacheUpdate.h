@@ -289,12 +289,6 @@ class
 nsOfflineCacheUpdate
 ;
 class
-nsIUTF8StringEnumerator
-;
-class
-nsILoadContext
-;
-class
 nsOfflineCacheUpdateItem
 :
 public

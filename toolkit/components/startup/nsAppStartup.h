@@ -186,9 +186,6 @@ defined
 (
 XP_WIN
 )
-struct
-PLEvent
-;
 /
 /
 {

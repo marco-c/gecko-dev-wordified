@@ -173,9 +173,6 @@ nsTArrayForwardDeclare
 .
 h
 "
-class
-nsIThread
-;
 namespace
 mozilla
 {

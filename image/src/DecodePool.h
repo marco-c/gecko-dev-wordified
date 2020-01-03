@@ -169,9 +169,6 @@ image
 class
 Decoder
 ;
-class
-RasterImage
-;
 /
 *
 *

@@ -142,13 +142,6 @@ namespace
 mozilla
 {
 namespace
-gfx
-{
-class
-Matrix
-;
-}
-namespace
 dom
 {
 class

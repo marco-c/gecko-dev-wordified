@@ -87,9 +87,6 @@ class
 nsIInterfaceRequestor
 ;
 class
-nsIEventTarget
-;
-class
 nsITransport
 ;
 class

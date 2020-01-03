@@ -132,16 +132,6 @@ namespace
 mozilla
 {
 namespace
-layers
-{
-class
-LayerManager
-;
-class
-ImageContainer
-;
-}
-namespace
 image
 {
 struct

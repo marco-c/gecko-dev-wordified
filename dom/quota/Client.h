@@ -163,9 +163,6 @@ cache
 "
 BEGIN_QUOTA_NAMESPACE
 class
-OriginOrPatternString
-;
-class
 UsageInfo
 ;
 /

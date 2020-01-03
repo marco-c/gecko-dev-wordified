@@ -175,9 +175,6 @@ class
 nsIURI
 ;
 class
-nsIParser
-;
-class
 nsIPrincipal
 ;
 class

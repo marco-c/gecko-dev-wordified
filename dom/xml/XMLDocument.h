@@ -130,12 +130,6 @@ nsIScriptContext
 h
 "
 class
-nsIParser
-;
-class
-nsIDOMNode
-;
-class
 nsIURI
 ;
 class

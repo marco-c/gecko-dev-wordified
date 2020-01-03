@@ -216,9 +216,6 @@ PR_Now
 )
 )
 class
-nsIStorageStream
-;
-class
 nsIOutputStream
 ;
 class
@@ -238,9 +235,6 @@ CacheStorageService
 ;
 class
 CacheStorage
-;
-class
-CacheFileOutputStream
 ;
 class
 CacheOutputCloseListener

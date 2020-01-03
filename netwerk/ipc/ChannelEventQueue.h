@@ -134,9 +134,6 @@ nsISupports
 class
 nsIEventTarget
 ;
-class
-nsIThread
-;
 namespace
 mozilla
 {
@@ -262,9 +259,6 @@ has
 /
 completed
 .
-class
-AutoEventEnqueuerBase
-;
 class
 ChannelEventQueue
 final

@@ -529,9 +529,6 @@ class
 WebGLActiveInfo
 ;
 class
-WebGLContextBoundObject
-;
-class
 WebGLContextLossHandler
 ;
 class
@@ -575,9 +572,6 @@ WebGLUniformLocation
 ;
 class
 WebGLVertexArray
-;
-struct
-WebGLVertexAttribData
 ;
 namespace
 dom

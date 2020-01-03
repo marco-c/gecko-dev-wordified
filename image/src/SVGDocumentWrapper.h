@@ -167,9 +167,6 @@ nsSize
 h
 "
 class
-nsIAtom
-;
-class
 nsIPresShell
 ;
 class

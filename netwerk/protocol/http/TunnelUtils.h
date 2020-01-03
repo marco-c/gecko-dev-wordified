@@ -1266,9 +1266,6 @@ class
 nsHttpConnection
 ;
 class
-ASpdySession
-;
-class
 SpdyConnectTransaction
 final
 :

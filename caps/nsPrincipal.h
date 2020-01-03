@@ -156,12 +156,6 @@ nsScriptSecurityManager
 h
 "
 class
-nsIObjectInputStream
-;
-class
-nsIObjectOutputStream
-;
-class
 nsBasePrincipal
 :
 public

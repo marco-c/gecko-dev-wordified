@@ -138,9 +138,6 @@ nsIRedirectResultListener
 .
 h
 "
-class
-nsIParentChannel
-;
 namespace
 mozilla
 {

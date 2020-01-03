@@ -120,9 +120,6 @@ h
 class
 nsCookieService
 ;
-class
-nsIIOService
-;
 namespace
 mozilla
 {

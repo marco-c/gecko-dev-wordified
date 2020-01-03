@@ -184,9 +184,6 @@ h
 "
 #
 endif
-class
-nsIFile
-;
 namespace
 mozilla
 {
