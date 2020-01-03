@@ -74,7 +74,7 @@ let
 {
 gFront
 EVENTS
-InspectorView
+PropertiesView
 }
 =
 panelWin
@@ -82,7 +82,7 @@ panelWin
 let
 gVars
 =
-InspectorView
+PropertiesView
 .
 _propsView
 ;
@@ -188,12 +188,10 @@ Promise
 all
 (
 [
-once
+waitForInspectorRender
 (
 panelWin
 EVENTS
-.
-UI_INSPECTOR_NODE_SET
 )
 once
 (

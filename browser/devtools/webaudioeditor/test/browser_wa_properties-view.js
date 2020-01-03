@@ -77,7 +77,7 @@ let
 {
 gFront
 EVENTS
-InspectorView
+PropertiesView
 }
 =
 panelWin
@@ -85,7 +85,7 @@ panelWin
 let
 gVars
 =
-InspectorView
+PropertiesView
 .
 _propsView
 ;
@@ -169,12 +169,10 @@ nodeIds
 )
 ;
 yield
-once
+waitForInspectorRender
 (
 panelWin
 EVENTS
-.
-UI_INSPECTOR_NODE_SET
 )
 ;
 ok
@@ -185,8 +183,6 @@ isVisible
 "
 #
 properties
--
-tabpanel
 -
 content
 "
@@ -211,10 +207,6 @@ isVisible
 "
 #
 properties
--
-tabpanel
--
-content
 -
 empty
 "
@@ -249,12 +241,10 @@ nodeIds
 )
 ;
 yield
-once
+waitForInspectorRender
 (
 panelWin
 EVENTS
-.
-UI_INSPECTOR_NODE_SET
 )
 ;
 ok
@@ -266,8 +256,6 @@ isVisible
 "
 #
 properties
--
-tabpanel
 -
 content
 "
@@ -294,10 +282,6 @@ isVisible
 "
 #
 properties
--
-tabpanel
--
-content
 -
 empty
 "
