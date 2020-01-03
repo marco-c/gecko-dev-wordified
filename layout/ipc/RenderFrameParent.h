@@ -664,6 +664,11 @@ return
 mLayersId
 ;
 }
+void
+TakeFocusForClick
+(
+)
+;
 protected
 :
 void
