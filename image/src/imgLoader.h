@@ -2446,6 +2446,9 @@ imgLoader
 *
 mImgLoader
 ;
+bool
+mHadInsecureRedirect
+;
 }
 ;
 #
