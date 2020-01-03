@@ -5299,11 +5299,9 @@ if
 uri
 )
 {
-rv
-.
-Throw
+SetDOMStringToNull
 (
-NS_ERROR_FAILURE
+aDomain
 )
 ;
 return
