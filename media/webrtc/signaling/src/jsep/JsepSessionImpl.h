@@ -987,7 +987,7 @@ GetCommonCodecs
 const
 SdpMediaSection
 &
-remoteMsection
+offerMsection
 )
 ;
 void
