@@ -719,7 +719,7 @@ h
 #
 include
 "
-StructuredCloneIPCHelper
+StructuredCloneData
 .
 h
 "
@@ -1456,8 +1456,8 @@ NullValue
 )
 )
 ;
-StructuredCloneIPCHelper
-helper
+StructuredCloneData
+data
 ;
 if
 (
@@ -1490,7 +1490,7 @@ json
 ErrorResult
 rv
 ;
-helper
+data
 .
 Write
 (
@@ -1586,7 +1586,7 @@ nullptr
 aMessageName
 false
 &
-helper
+data
 nullptr
 nullptr
 nullptr
@@ -12844,13 +12844,13 @@ GetGlobal
 )
 )
 ;
-StructuredCloneIPCHelper
-helper
+StructuredCloneData
+data
 ;
 UnpackClonedMessageDataForChild
 (
 aData
-helper
+data
 )
 ;
 nsRefPtr
@@ -12901,7 +12901,7 @@ nullptr
 aMessage
 false
 &
-helper
+data
 &
 cpows
 aPrincipal
@@ -14914,9 +14914,9 @@ const
 nsAString
 &
 aMessage
-StructuredCloneIPCHelper
+StructuredCloneData
 &
-aHelper
+aData
 JS
 :
 :
@@ -14931,7 +14931,7 @@ nsIPrincipal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+StructuredCloneData
 >
 *
 aRetVal
@@ -14950,7 +14950,7 @@ BuildClonedMessageDataForChild
 Manager
 (
 )
-aHelper
+aData
 data
 )
 )
@@ -15046,9 +15046,9 @@ const
 nsAString
 &
 aMessage
-StructuredCloneIPCHelper
+StructuredCloneData
 &
-aHelper
+aData
 JS
 :
 :
@@ -15074,7 +15074,7 @@ BuildClonedMessageDataForChild
 Manager
 (
 )
-aHelper
+aData
 data
 )
 )
