@@ -667,7 +667,7 @@ Filter
 GOOD
 :
 return
-kCGInterpolationLow
+kCGInterpolationDefault
 ;
 }
 }
