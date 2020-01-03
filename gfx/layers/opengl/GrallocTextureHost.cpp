@@ -1553,6 +1553,14 @@ mEGLImage
 (
 EGL_NO_IMAGE
 )
+mIsOpaque
+(
+aDescriptor
+.
+isOpaque
+(
+)
+)
 {
 android
 :
