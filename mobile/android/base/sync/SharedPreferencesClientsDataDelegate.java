@@ -72,7 +72,7 @@ mozilla
 .
 gecko
 .
-R
+AppConstants
 ;
 import
 org
@@ -81,11 +81,7 @@ mozilla
 .
 gecko
 .
-background
-.
-common
-.
-GlobalConstants
+R
 ;
 import
 org
@@ -340,7 +336,7 @@ getDefaultClientName
 String
 name
 =
-GlobalConstants
+AppConstants
 .
 MOZ_APP_DISPLAYNAME
 ;
