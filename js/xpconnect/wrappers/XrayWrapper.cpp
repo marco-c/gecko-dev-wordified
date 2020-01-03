@@ -3655,6 +3655,8 @@ clasp
 spec
 .
 prototypeFunctions
+(
+)
 ;
 fs
 &
@@ -3881,6 +3883,8 @@ clasp
 spec
 .
 prototypeProperties
+(
+)
 ;
 ps
 &
@@ -5731,6 +5735,8 @@ clasp
 spec
 .
 prototypeFunctions
+(
+)
 ;
 fs
 &
@@ -5792,6 +5798,8 @@ clasp
 spec
 .
 prototypeProperties
+(
+)
 ;
 ps
 &
