@@ -8422,6 +8422,8 @@ nsChangeHint
 nsChangeHint_RecomputePosition
 |
 nsChangeHint_UpdateParentOverflow
+|
+nsChangeHint_UpdateComputedBSize
 )
 )
 ;
