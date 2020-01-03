@@ -4032,6 +4032,45 @@ flags
 script
 :
                     
+method
+=
+"
+main
+"
+                    
+if
+'
+:
+'
+in
+flags
+.
+script
+:
+                        
+script
+method
+=
+flags
+.
+script
+.
+split
+(
+'
+:
+'
+)
+                    
+else
+:
+                        
+script
+=
+flags
+.
+script
+                    
 script
 =
 mozpath
@@ -4041,8 +4080,6 @@ join
 context
 .
 srcdir
-flags
-.
 script
 )
                     
@@ -4204,6 +4241,10 @@ script
 =
 None
                     
+method
+=
+None
+                    
 inputs
 =
 [
@@ -4214,6 +4255,7 @@ GeneratedFile
 (
 context
 script
+method
 output
 inputs
 )
