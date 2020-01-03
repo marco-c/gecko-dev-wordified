@@ -7622,7 +7622,8 @@ LD_LIBRARY_PATH
 ]
 )
         
-if
+usingASan
+=
 "
 asan
 "
@@ -7639,10 +7640,33 @@ mozInfo
 asan
 "
 ]
+        
+usingTSan
+=
+"
+tsan
+"
+in
+self
+.
+mozInfo
+and
+self
+.
+mozInfo
+[
+"
+tsan
+"
+]
+        
+if
+usingASan
+or
+usingTSan
 :
             
 #
-ASan
 symbolizer
 support
             
@@ -7675,6 +7699,10 @@ llvmsym
 )
 :
                 
+if
+usingASan
+:
+                    
 self
 .
 env
@@ -7684,6 +7712,27 @@ ASAN_SYMBOLIZER_PATH
 "
 ]
 =
+llvmsym
+                
+else
+:
+                    
+self
+.
+env
+[
+"
+TSAN_OPTIONS
+"
+]
+=
+"
+external_symbolizer_path
+=
+%
+s
+"
+%
 llvmsym
                 
 self
@@ -7697,7 +7746,6 @@ runxpcshelltests
 .
 py
 |
-ASan
 using
 symbolizer
 at
@@ -7731,7 +7779,6 @@ py
 Failed
 to
 find
-ASan
 symbolizer
 at
 %
