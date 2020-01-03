@@ -70,7 +70,7 @@ h
 #
 include
 "
-nsIIccProvider
+nsIIccService
 .
 h
 "
@@ -106,7 +106,7 @@ webidlState
 )
 =
 =
-nsIIccProvider
+nsIIcc
 :
 :
 xpidlState
@@ -123,7 +123,7 @@ webidlState
 should
 equal
 to
-nsIIccProvider
+nsIIccService
 :
 :
 "
