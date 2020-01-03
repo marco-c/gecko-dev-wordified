@@ -889,7 +889,7 @@ transformChanged
 !
 mTransform
 .
-FuzzyEqual
+FuzzyEqualsMultiplicative
 (
 mLayer
 -
