@@ -22940,9 +22940,11 @@ See
 bug
 334177
 .
-PL_DHashTableRawRemove
-(
 sEventListenerManagersHash
+-
+>
+RawRemove
+(
 entry
 )
 ;

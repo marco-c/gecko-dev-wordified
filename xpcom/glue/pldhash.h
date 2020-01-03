@@ -4822,17 +4822,6 @@ PL_DHashGetStubOps
 void
 )
 ;
-void
-PL_DHashTableRawRemove
-(
-PLDHashTable
-*
-aTable
-PLDHashEntryHdr
-*
-aEntry
-)
-;
 #
 ifdef
 DEBUG

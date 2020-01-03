@@ -10526,9 +10526,11 @@ it
 went
 away
 .
-PL_DHashTableRawRemove
-(
 sNPObjWrappers
+-
+>
+RawRemove
+(
 entry
 )
 ;
@@ -10991,9 +10993,11 @@ from
 the
 hash
 .
-PL_DHashTableRawRemove
-(
 sNPObjWrappers
+-
+>
+RawRemove
+(
 entry
 )
 ;
