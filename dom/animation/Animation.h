@@ -372,7 +372,9 @@ NotPending
 )
 mAnimationIndex
 (
-kNoIndex
+sNextAnimationIndex
++
++
 )
 mIsRunningOnCompositor
 (
@@ -2607,6 +2609,7 @@ Sync
 Async
 }
 ;
+virtual
 void
 UpdateTiming
 (
@@ -3065,13 +3068,6 @@ mPendingState
 static
 uint64_t
 sNextAnimationIndex
-;
-static
-const
-uint64_t
-kNoIndex
-=
-UINT64_MAX
 ;
 /
 /
