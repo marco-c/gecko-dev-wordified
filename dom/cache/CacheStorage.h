@@ -232,10 +232,16 @@ namespace
 cache
 {
 class
+CacheChild
+;
+class
 CacheStorageChild
 ;
 class
 Feature
+;
+class
+PCacheResponseOrVoid
 ;
 class
 CacheStorage

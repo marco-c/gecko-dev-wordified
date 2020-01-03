@@ -772,7 +772,7 @@ CacheOpChild
 HandleResponse
 (
 const
-CacheResponseOrVoid
+PCacheResponseOrVoid
 &
 aResponseOrVoid
 )
@@ -792,10 +792,10 @@ type
 )
 =
 =
-CacheResponseOrVoid
+PCacheResponseOrVoid
 :
 :
-TCacheResponse
+TPCacheResponse
 )
 {
 response
@@ -844,7 +844,7 @@ HandleResponseList
 const
 nsTArray
 <
-CacheResponse
+PCacheResponse
 >
 &
 aResponseList
@@ -923,7 +923,7 @@ HandleRequestList
 const
 nsTArray
 <
-CacheRequest
+PCacheRequest
 >
 &
 aRequestList
