@@ -820,6 +820,9 @@ DecodeErrorCallback
 >
 &
 aFailureCallback
+ErrorResult
+&
+aRv
 )
 ;
 /
