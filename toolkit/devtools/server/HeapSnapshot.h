@@ -413,6 +413,10 @@ friend
 struct
 DeserializedNode
 ;
+friend
+struct
+DeserializedStackFrame
+;
 explicit
 HeapSnapshot
 (
