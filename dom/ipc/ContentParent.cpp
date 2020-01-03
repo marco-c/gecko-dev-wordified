@@ -10231,6 +10231,9 @@ uint32_t
 lineno
 =
 0
+column
+=
+0
 ;
 nsJSUtils
 :
@@ -10241,6 +10244,8 @@ cx
 filename
 &
 lineno
+&
+column
 )
 ;
 nsCOMPtr
@@ -10273,7 +10278,7 @@ EmptyString
 (
 )
 lineno
-0
+column
 nsIScriptError
 :
 :
