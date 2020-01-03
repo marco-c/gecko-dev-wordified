@@ -205,9 +205,11 @@ GLintptr
 offset
 )
 {
-MOZ_CRASH
+GenerateWarning
 (
 "
+drawRangeElements
+:
 Not
 Implemented
 .
