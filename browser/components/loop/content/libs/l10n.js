@@ -344,11 +344,6 @@ args
 .
 num
 ;
-delete
-args
-.
-num
-;
 }
 var
 data
