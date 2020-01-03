@@ -1200,7 +1200,7 @@ nullptr
 ;
 }
 void
-sweep
+sweepAnalysis
 (
 js
 :
@@ -1210,9 +1210,6 @@ FreeOp
 fop
 bool
 releaseTypes
-bool
-*
-oom
 )
 ;
 bool
