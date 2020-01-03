@@ -2656,6 +2656,9 @@ table
 "
 >
 <
+tbody
+>
+<
 tr
 >
 <
@@ -2819,6 +2822,10 @@ tr
 >
 <
 /
+tbody
+>
+<
+/
 table
 >
 {
@@ -2868,6 +2875,12 @@ opcode
 .
 operands
 )
+or
+"
+&
+nbsp
+;
+"
            
 length
 =
@@ -2893,6 +2906,12 @@ opcode
 .
 stack_uses
 )
+or
+"
+&
+nbsp
+;
+"
            
 stack_defs
 =
@@ -2902,6 +2921,12 @@ opcode
 .
 stack_defs
 )
+or
+"
+&
+nbsp
+;
+"
            
 desc
 =
@@ -2946,6 +2971,27 @@ print
 "
 "
 "
+<
+div
+>
+{
+{
+{
+{
+SpiderMonkeySidebar
+(
+"
+Internals
+"
+)
+}
+}
+}
+}
+<
+/
+div
+>
 <
 h2
 id
