@@ -258,7 +258,7 @@ is
 not
 active
 .
-NS_PLUGIN_FOCUS
+ePluginFocus
 should
 be
 used
@@ -304,7 +304,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_PLUGIN_FOCUS
+ePluginFocus
 eWindowEventFirst
 +
 63
