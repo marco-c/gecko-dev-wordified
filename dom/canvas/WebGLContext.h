@@ -5934,6 +5934,15 @@ GLuint
 index
 )
 ;
+GLenum
+GetCurrentBinding
+(
+WebGLBuffer
+*
+buffer
+)
+const
+;
 /
 /
 -
@@ -9117,8 +9126,6 @@ char
 *
 info
 )
-=
-0
 ;
 virtual
 bool
