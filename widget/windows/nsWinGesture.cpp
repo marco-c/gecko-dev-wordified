@@ -2145,7 +2145,6 @@ break
 case
 GID_TWOFINGERTAP
 :
-{
 /
 /
 Normally
@@ -2162,10 +2161,10 @@ have
 recently
 changed
 .
+/
+/
 A
 simple
-/
-/
 double
 click
 .
@@ -2173,7 +2172,7 @@ evt
 .
 mMessage
 =
-NS_SIMPLE_GESTURE_TAP
+eTapGesture
 ;
 evt
 .
@@ -2181,7 +2180,6 @@ clickCount
 =
 1
 ;
-}
 break
 ;
 case
