@@ -446,7 +446,7 @@ set
 this
 NS_ConvertUTF16toUTF8
 (
-mSessionId
+aSessionId
 )
 .
 get
