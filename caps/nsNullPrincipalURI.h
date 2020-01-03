@@ -250,6 +250,7 @@ aMallocSizeOf
 )
 const
 ;
+explicit
 nsNullPrincipalURI
 (
 const
