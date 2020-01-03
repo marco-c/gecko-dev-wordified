@@ -143,6 +143,31 @@ false
 ;
 /
 /
+Mock
+RP
+let
+principal
+=
+{
+origin
+:
+'
+app
+:
+/
+/
+settings
+.
+gaiamobile
+.
+org
+'
+appId
+:
+27
+}
+/
+/
 Override
 FxAccountsUIGlue
 .
@@ -1536,6 +1561,7 @@ getAssertion
 "
 audience
 "
+principal
 )
 .
 then
@@ -1619,6 +1645,7 @@ getAssertion
 "
 audience
 "
+principal
 )
 .
 then
@@ -1699,6 +1726,7 @@ getAssertion
 "
 audience
 "
+principal
 )
 .
 then
@@ -1790,6 +1818,7 @@ getAssertion
 "
 audience
 "
+principal
 )
 .
 then
@@ -1935,6 +1964,7 @@ getAssertion
 "
 audience
 "
+principal
 {
 "
 refreshAuthentication
@@ -2048,6 +2078,7 @@ getAssertion
 "
 audience
 "
+principal
 )
 .
 then
@@ -2128,6 +2159,7 @@ getAssertion
 "
 audience
 "
+principal
 )
 .
 then
@@ -2232,6 +2264,7 @@ getAssertion
 "
 audience
 "
+principal
 {
 "
 refreshAuthentication
@@ -2362,6 +2395,7 @@ getAssertion
 "
 audience
 "
+principal
 {
 "
 refreshAuthentication
