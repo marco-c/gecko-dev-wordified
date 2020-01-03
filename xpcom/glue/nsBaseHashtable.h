@@ -1417,7 +1417,7 @@ key
 =
 iter
 .
-GetKey
+Key
 (
 )
 ;
@@ -1429,7 +1429,7 @@ data
 =
 iter
 .
-GetUserData
+UserData
 (
 )
 ;
@@ -1447,7 +1447,7 @@ data
 =
 iter
 .
-GetData
+Data
 (
 )
 ;
@@ -1555,7 +1555,7 @@ Iterator
 {
 }
 KeyType
-GetKey
+Key
 (
 )
 const
@@ -1579,7 +1579,7 @@ GetKey
 ;
 }
 UserDataType
-GetUserData
+UserData
 (
 )
 const
@@ -1602,7 +1602,7 @@ mData
 }
 DataType
 &
-GetData
+Data
 (
 )
 const

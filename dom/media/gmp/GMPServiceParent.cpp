@@ -2850,7 +2850,7 @@ note
 =
 pluginIt
 .
-GetKey
+Key
 (
 )
 ;
@@ -2874,7 +2874,7 @@ instanceIt
 =
 pluginIt
 .
-GetData
+Data
 (
 )
 -
@@ -2922,7 +2922,7 @@ note
 =
 instanceIt
 .
-GetKey
+Key
 (
 )
 ;
@@ -2940,7 +2940,7 @@ note
 =
 instanceIt
 .
-GetData
+Data
 (
 )
 -
@@ -2959,7 +2959,7 @@ note
 =
 instanceIt
 .
-GetData
+Data
 (
 )
 -

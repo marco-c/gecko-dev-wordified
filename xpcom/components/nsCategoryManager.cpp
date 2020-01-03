@@ -1633,7 +1633,7 @@ aNode
 =
 iter
 .
-GetUserData
+UserData
 (
 )
 ;
@@ -1654,7 +1654,7 @@ str
 =
 iter
 .
-GetKey
+Key
 (
 )
 ;
