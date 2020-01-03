@@ -153,7 +153,9 @@ MOZILLA_CLIENT
 #
 include
 "
-nscore
+mozilla
+/
+Types
 .
 h
 "
@@ -166,10 +168,8 @@ GTKXTBIN_API
 (
 type
 )
-NS_EXPORT_
-(
+MOZ_EXPORT
 type
-)
 #
 else
 #
@@ -178,10 +178,8 @@ GTKXTBIN_API
 (
 type
 )
-NS_IMPORT_
-(
+MOZ_IMPORT_API
 type
-)
 #
 endif
 #

@@ -160,7 +160,9 @@ h
 #
 include
 "
-nsDebug
+mozilla
+/
+Assertions
 .
 h
 "
@@ -4488,7 +4490,7 @@ bug
 is
 fixed
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 rect
 -
@@ -16425,7 +16427,7 @@ moz_gtk_get_scrollbar_widget
 void
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 is_initialized
 "
