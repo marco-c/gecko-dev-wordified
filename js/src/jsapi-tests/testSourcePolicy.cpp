@@ -204,7 +204,6 @@ JS
 Evaluate
 (
 cx
-global
 opts
 s
 strLen

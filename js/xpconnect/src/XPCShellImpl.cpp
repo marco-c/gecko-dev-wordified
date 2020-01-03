@@ -6697,7 +6697,6 @@ JS
 Evaluate
 (
 cx
-global
 opts
 argv
 [

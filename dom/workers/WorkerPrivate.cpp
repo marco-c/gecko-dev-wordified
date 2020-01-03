@@ -30388,7 +30388,6 @@ JS
 Evaluate
 (
 aCx
-global
 options
 expression
 .

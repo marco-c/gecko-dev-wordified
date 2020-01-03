@@ -569,7 +569,6 @@ JS
 Evaluate
 (
 cx
-global
 opts
 .
 setFileAndLine

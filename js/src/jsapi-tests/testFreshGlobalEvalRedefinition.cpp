@@ -342,7 +342,6 @@ JS
 Evaluate
 (
 cx
-g
 opts
 .
 setFileAndLine

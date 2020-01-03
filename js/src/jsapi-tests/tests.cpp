@@ -338,7 +338,6 @@ JS
 Evaluate
 (
 cx
-global
 opts
 bytes
 strlen
@@ -408,7 +407,6 @@ JS
 Evaluate
 (
 cx
-global
 opts
 bytes
 strlen
