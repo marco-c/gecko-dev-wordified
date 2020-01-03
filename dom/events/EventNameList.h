@@ -1950,7 +1950,7 @@ eUIEventClass
 NON_IDL_EVENT
 (
 DOMFocusOut
-NS_UI_FOCUSOUT
+eLegacyDOMFocusOut
 EventNameType_HTMLXUL
 eUIEventClass
 )
