@@ -1743,6 +1743,17 @@ push
 (
 path
 )
+removeAndDeletePluginDirectory
+:
+path
+=
+>
+removedPaths
+.
+push
+(
+path
+)
 }
 ;
 GMPScope
