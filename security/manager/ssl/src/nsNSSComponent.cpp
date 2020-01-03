@@ -914,6 +914,9 @@ nssEnsure
 case
 nssEnsureOnChromeOnly
 :
+case
+nssEnsureChromeOrContent
+:
 /
 /
 We
