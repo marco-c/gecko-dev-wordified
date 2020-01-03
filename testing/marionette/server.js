@@ -221,8 +221,6 @@ marionette
 /
 content
 /
-marionette
--
 elements
 .
 js
@@ -242,8 +240,6 @@ marionette
 /
 content
 /
-marionette
--
 simpletest
 .
 js
@@ -355,8 +351,6 @@ marionette
 /
 content
 /
-marionette
--
 frame
 -
 manager
