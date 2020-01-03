@@ -862,7 +862,8 @@ TypedObjectPrediction
 :
 Inconsistent
 :
-break
+return
+false
 ;
 case
 TypedObjectPrediction
@@ -915,7 +916,8 @@ size
 return
 false
 ;
-}
+default
+:
 MOZ_CRASH
 (
 "
@@ -925,6 +927,7 @@ kind
 "
 )
 ;
+}
 }
 const
 TypedProto
@@ -1032,7 +1035,8 @@ be
 return
 nullptr
 ;
-}
+default
+:
 MOZ_CRASH
 (
 "
@@ -1042,6 +1046,7 @@ kind
 "
 )
 ;
+}
 }
 template
 <
@@ -1220,13 +1225,6 @@ length
 )
 const
 {
-MOZ_ASSERT
-(
-ofArrayKind
-(
-)
-)
-;
 switch
 (
 predictionKind
@@ -1246,7 +1244,8 @@ TypedObjectPrediction
 :
 Inconsistent
 :
-break
+return
+false
 ;
 case
 TypedObjectPrediction
@@ -1319,8 +1318,6 @@ TypedObjectPrediction
 :
 Prefix
 :
-break
-;
 /
 /
 Prefixes
@@ -1329,7 +1326,11 @@ always
 structs
 never
 arrays
-}
+return
+false
+;
+default
+:
 MOZ_CRASH
 (
 "
@@ -1339,6 +1340,7 @@ kind
 "
 )
 ;
+}
 }
 TypedObjectPrediction
 TypedObjectPrediction
@@ -1596,7 +1598,8 @@ TypedObjectPrediction
 :
 Inconsistent
 :
-break
+return
+false
 ;
 case
 TypedObjectPrediction
@@ -1650,7 +1653,8 @@ fieldType
 fieldIndex
 )
 ;
-}
+default
+:
 MOZ_CRASH
 (
 "
@@ -1660,4 +1664,5 @@ kind
 "
 )
 ;
+}
 }
