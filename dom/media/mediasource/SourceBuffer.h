@@ -1029,6 +1029,9 @@ queued
 uint32_t
 mUpdateID
 ;
+int64_t
+mReportedOffset
+;
 MediaPromiseRequestHolder
 <
 SourceBufferContentManager
