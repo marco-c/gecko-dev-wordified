@@ -38168,11 +38168,12 @@ docShell
 aRegionToDraw
 )
 ;
-docShell
--
->
-AddProfileTimelineMarker
+TimelineConsumers
+:
+:
+AddMarkerForDocShell
 (
+docShell
 Move
 (
 marker
