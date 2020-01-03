@@ -2407,7 +2407,7 @@ eGamepadEventFirst
 aEventMessage
 <
 =
-NS_GAMEPAD_END
+eGamepadEventLast
 )
 {
 nsPIDOMWindow

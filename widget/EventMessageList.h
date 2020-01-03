@@ -2753,7 +2753,7 @@ eGamepadEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_GAMEPAD_END
+eGamepadEventLast
 eGamepadDisconnected
 )
 #
