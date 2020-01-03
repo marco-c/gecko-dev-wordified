@@ -5028,6 +5028,10 @@ SetContentType
 aContentType
 )
 ;
+mIsUnsafe
+=
+false
+;
 FinishAsyncOpen
 (
 )
