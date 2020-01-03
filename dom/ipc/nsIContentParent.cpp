@@ -1166,7 +1166,7 @@ UnpackClonedMessageDataForParent
 aData
 )
 ;
-CpowIdHolder
+CrossProcessCpowHolder
 cpows
 (
 this
@@ -1324,7 +1324,7 @@ UnpackClonedMessageDataForParent
 aData
 )
 ;
-CpowIdHolder
+CrossProcessCpowHolder
 cpows
 (
 this
@@ -1476,7 +1476,7 @@ UnpackClonedMessageDataForParent
 aData
 )
 ;
-CpowIdHolder
+CrossProcessCpowHolder
 cpows
 (
 this

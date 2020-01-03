@@ -6929,7 +6929,7 @@ UnpackClonedMessageDataForParent
 aData
 )
 ;
-CpowIdHolder
+CrossProcessCpowHolder
 cpows
 (
 Manager
@@ -7070,7 +7070,7 @@ UnpackClonedMessageDataForParent
 aData
 )
 ;
-CpowIdHolder
+CrossProcessCpowHolder
 cpows
 (
 Manager
@@ -7205,7 +7205,7 @@ UnpackClonedMessageDataForParent
 aData
 )
 ;
-CpowIdHolder
+CrossProcessCpowHolder
 cpows
 (
 Manager
