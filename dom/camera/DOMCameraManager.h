@@ -643,6 +643,17 @@ aCx
 )
 MOZ_OVERRIDE
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
+static
+void
+PreinitCameraHardware
+(
+)
+;
+#
+endif
 protected
 :
 void
