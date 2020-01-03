@@ -343,16 +343,6 @@ testing
 /
 marionette
 /
-client
-/
-marionette
-'
-    
-'
-testing
-/
-marionette
-/
 transport
 '
     

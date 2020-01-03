@@ -53,10 +53,8 @@ MPL
 0
 /
 .
-import
-os
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 from
@@ -72,8 +70,6 @@ errors
 import
 (
 NoSuchElementException
-                                      
-JavascriptException
                                       
 MarionetteException
                                       

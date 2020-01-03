@@ -53,13 +53,13 @@ MPL
 0
 /
 .
+from
+marionette
 import
-marionette_test
+MarionetteTestCase
 class
 TestSession
 (
-marionette_test
-.
 MarionetteTestCase
 )
 :

@@ -54,16 +54,9 @@ MPL
 /
 .
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
-from
-marionette_driver
-.
-errors
-import
-JavascriptException
-MarionetteException
 class
 TestSpecialPowersContent
 (

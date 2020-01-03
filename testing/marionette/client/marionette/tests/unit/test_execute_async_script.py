@@ -54,7 +54,7 @@ MPL
 /
 .
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 from
@@ -69,8 +69,6 @@ MarionetteException
                                        
 ScriptTimeoutException
 )
-import
-time
 class
 TestExecuteAsyncContent
 (

@@ -54,6 +54,8 @@ MPL
 /
 .
 from
+marionette
+.
 marionette_test
 import
 MarionetteTestCase

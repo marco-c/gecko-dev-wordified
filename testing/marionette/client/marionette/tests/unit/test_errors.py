@@ -55,6 +55,8 @@ MPL
 .
 import
 sys
+from
+marionette
 import
 marionette_test
 from

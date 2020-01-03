@@ -79,7 +79,7 @@ errors
 import
 MarionetteException
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 from

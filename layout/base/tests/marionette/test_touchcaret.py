@@ -84,7 +84,7 @@ selection
 import
 SelectionManager
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 class

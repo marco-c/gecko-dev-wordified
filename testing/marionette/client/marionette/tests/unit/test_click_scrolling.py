@@ -66,7 +66,7 @@ errors
 import
 MoveTargetOutOfBoundsException
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 skip

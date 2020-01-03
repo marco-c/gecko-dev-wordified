@@ -26,11 +26,9 @@ zero
 0
 /
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
-import
-unittest
 class
 TestRunJSTest
 (

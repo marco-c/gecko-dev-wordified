@@ -67,7 +67,7 @@ import
 NoSuchElementException
 ElementNotVisibleException
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 from
