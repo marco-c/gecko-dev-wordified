@@ -148,6 +148,8 @@ disabled
 0
 TIME_REGULAR_TIMEOUT
 TIME_NORMAL_LOAD
+*
+10
 )
 ]
 )
