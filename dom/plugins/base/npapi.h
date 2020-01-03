@@ -2382,6 +2382,8 @@ specification
 .
 *
 /
+#
+endif
 NPNVmuteAudioBool
 =
 4000
@@ -2400,6 +2402,12 @@ the
 plugin
 *
 /
+#
+if
+defined
+(
+XP_MACOSX
+)
 NPNVsupportsCompositingCoreAnimationPluginsBool
 =
 74656
