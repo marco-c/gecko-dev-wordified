@@ -4283,17 +4283,6 @@ ArrayObject
 >
 (
 )
-|
-|
-obj
--
->
-is
-<
-UnboxedArrayObject
->
-(
-)
 )
 ;
 /

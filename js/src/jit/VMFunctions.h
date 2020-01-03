@@ -5687,12 +5687,12 @@ repl
 )
 ;
 bool
-SetDenseOrUnboxedArrayElement
+SetDenseElement
 (
 JSContext
 *
 cx
-HandleObject
+HandleNativeObject
 obj
 int32_t
 index

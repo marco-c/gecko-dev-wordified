@@ -173,9 +173,8 @@ false
 /
 Check
 for
-an
-element
-adding
+a
+SetElem_DenseAdd
 stub
 .
 for
@@ -208,7 +207,7 @@ if
 stub
 -
 >
-isSetElem_DenseOrUnboxedArrayAdd
+isSetElem_DenseAdd
 (
 )
 )
@@ -409,7 +408,7 @@ if
 stub
 -
 >
-isSetElem_DenseOrUnboxedArrayAdd
+isSetElem_DenseAdd
 (
 )
 |
@@ -417,7 +416,7 @@ isSetElem_DenseOrUnboxedArrayAdd
 stub
 -
 >
-isSetElem_DenseOrUnboxedArray
+isSetElem_Dense
 (
 )
 )
