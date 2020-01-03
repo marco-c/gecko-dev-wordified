@@ -21305,9 +21305,9 @@ nsHTMLEditor
 :
 IsTextPropertySetByContent
 (
-nsIContent
+nsINode
 *
-aContent
+aNode
 nsIAtom
 *
 aProperty
@@ -21326,7 +21326,7 @@ outValue
 {
 MOZ_ASSERT
 (
-aContent
+aNode
 &
 &
 aProperty
@@ -21343,7 +21343,7 @@ isSet
 ;
 IsTextPropertySetByContent
 (
-aContent
+aNode
 -
 >
 AsDOMNode

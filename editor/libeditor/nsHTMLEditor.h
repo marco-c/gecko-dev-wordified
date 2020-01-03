@@ -3859,9 +3859,9 @@ parameter
 bool
 IsTextPropertySetByContent
 (
-nsIContent
+nsINode
 *
-aContent
+aNode
 nsIAtom
 *
 aProperty

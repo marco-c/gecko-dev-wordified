@@ -392,7 +392,7 @@ above
 bool
 IsCSSEditableProperty
 (
-nsIContent
+nsINode
 *
 aNode
 nsIAtom
@@ -1265,7 +1265,7 @@ parameter
 bool
 IsCSSEquivalentToHTMLInlineStyleSet
 (
-nsIContent
+nsINode
 *
 aContent
 nsIAtom
