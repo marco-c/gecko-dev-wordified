@@ -59,6 +59,10 @@ import
 os
 import
 sys
+from
+collections
+import
+OrderedDict
 here
 =
 os
@@ -115,23 +119,21 @@ get_path
 (
 self
 key
+default
+=
+None
 )
 :
         
-pwd
-=
-os
-.
-path
-.
-abspath
-(
-os
-.
-path
-.
-curdir
-)
+if
+key
+not
+in
+self
+:
+            
+return
+default
         
 path
 =
@@ -154,12 +156,19 @@ os
 .
 path
 .
+abspath
+(
+os
+.
+path
+.
 join
 (
 self
 .
 base_path
 path
+)
 )
 def
 read
@@ -239,8 +248,9 @@ curdir
     
 rv
 =
-{
-}
+OrderedDict
+(
+)
     
 for
 section
