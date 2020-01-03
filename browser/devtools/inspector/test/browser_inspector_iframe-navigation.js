@@ -211,11 +211,15 @@ Test
 SynthesizeMouse
 "
 {
+options
+:
+{
 type
 :
 "
 mousemove
 "
+}
 x
 :
 1

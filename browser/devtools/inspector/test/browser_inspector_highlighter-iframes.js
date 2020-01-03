@@ -563,11 +563,15 @@ Test
 SynthesizeMouse
 "
 {
+options
+:
+{
 type
 :
 "
 mousemove
 "
+}
 center
 :
 true
