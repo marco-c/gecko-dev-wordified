@@ -278,7 +278,7 @@ DBSchema
 :
 kMaxWipeSchemaVersion
 =
-5
+6
 ;
 const
 int32_t
@@ -287,7 +287,7 @@ DBSchema
 :
 kLatestSchemaVersion
 =
-5
+6
 ;
 const
 int32_t
@@ -1833,6 +1833,21 @@ object
 /
 information
 .
+/
+/
+/
+/
+AUTOINCREMENT
+is
+necessary
+to
+prevent
+CacheId
+values
+from
+being
+reused
+.
 rv
 =
 aConn
@@ -1855,6 +1870,7 @@ NOT
 NULL
 PRIMARY
 KEY
+AUTOINCREMENT
 "
 "
 )
@@ -2836,7 +2852,7 @@ rv
 state
 -
 >
-GetInt32
+GetInt64
 (
 0
 aCacheIdOut
@@ -3058,7 +3074,7 @@ rv
 state
 -
 >
-BindInt32Parameter
+BindInt64Parameter
 (
 0
 aCacheId
@@ -3218,7 +3234,7 @@ rv
 state
 -
 >
-BindInt32Parameter
+BindInt64Parameter
 (
 0
 aCacheId
@@ -4293,7 +4309,7 @@ value
 CacheId
 cacheId
 =
-INT32_MAX
+INVALID_CACHE_ID
 ;
 rv
 =
@@ -4497,14 +4513,14 @@ hasMoreData
 CacheId
 cacheId
 =
-INT32_MAX
+INVALID_CACHE_ID
 ;
 rv
 =
 state
 -
 >
-GetInt32
+GetInt64
 (
 0
 &
@@ -4832,7 +4848,7 @@ rv
 state
 -
 >
-GetInt32
+GetInt64
 (
 0
 aCacheIdOut
@@ -5012,7 +5028,7 @@ rv
 state
 -
 >
-BindInt32Parameter
+BindInt64Parameter
 (
 2
 aCacheId
@@ -5499,7 +5515,7 @@ rv
 state
 -
 >
-BindInt32Parameter
+BindInt64Parameter
 (
 0
 aCacheId
@@ -5855,7 +5871,7 @@ rv
 state
 -
 >
-BindInt32Parameter
+BindInt64Parameter
 (
 0
 aCacheId
@@ -8112,7 +8128,7 @@ rv
 state
 -
 >
-BindInt32Parameter
+BindInt64Parameter
 (
 18
 aCacheId
