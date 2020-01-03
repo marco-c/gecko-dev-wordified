@@ -333,6 +333,7 @@ timepoint
 struct
 ResourceItem
 {
+explicit
 ResourceItem
 (
 LargeDataBuffer
