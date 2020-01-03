@@ -102,7 +102,7 @@ boilerplate
 makes
 sure
 that
-XPCom
+XPCOM
 calls
 /
 /
