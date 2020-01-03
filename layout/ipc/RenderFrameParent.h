@@ -902,6 +902,9 @@ mBackgroundColor
 nsRegion
 mTouchRegion
 ;
+bool
+mAsyncPanZoomEnabled
+;
 }
 ;
 }

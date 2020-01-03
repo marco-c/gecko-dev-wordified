@@ -1925,9 +1925,11 @@ false
 }
 if
 (
-gfxPrefs
-:
-:
+ClientManager
+(
+)
+-
+>
 AsyncPanZoomEnabled
 (
 )
