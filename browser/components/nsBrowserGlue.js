@@ -5601,6 +5601,9 @@ complete
 "
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 AddonWatcher
 .
 init
@@ -5610,6 +5613,8 @@ this
 _notifySlowAddon
 )
 ;
+#
+endif
 }
 _checkForOldBuildUpdates
 :
@@ -7564,12 +7569,17 @@ uninit
 (
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 AddonWatcher
 .
 uninit
 (
 )
 ;
+#
+endif
 }
 _initServiceDiscovery
 :
