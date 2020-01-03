@@ -398,7 +398,6 @@ enterCompartmentDepth
 performanceMonitoring
 (
 runtime_
-this
 )
 data
 (
