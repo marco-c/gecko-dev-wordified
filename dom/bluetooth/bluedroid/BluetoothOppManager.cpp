@@ -6542,13 +6542,7 @@ IsConnected
 )
 {
 return
-(
 mConnected
-&
-&
-!
-mSendTransferCompleteFlag
-)
 ;
 }
 void
