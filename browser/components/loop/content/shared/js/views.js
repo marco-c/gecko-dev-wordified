@@ -7631,7 +7631,11 @@ props
 showContextRoomName
 useDesktopPaths
 :
-false
+this
+.
+props
+.
+useDesktopPaths
 }
 )
 this
