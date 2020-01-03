@@ -8057,7 +8057,7 @@ true
 ;
 }
 typedef
-NativeObject
+JSObject
 *
 (
 *
@@ -8066,7 +8066,7 @@ DeepCloneObjectLiteralFn
 (
 JSContext
 *
-HandleNativeObject
+HandleObject
 NewObjectKind
 )
 ;

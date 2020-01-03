@@ -2734,7 +2734,7 @@ case
 SCRIPT_OBJECT
 :
 {
-RootedNativeObject
+RootedObject
 obj
 (
 cx
@@ -2753,13 +2753,6 @@ obj
 vp
 .
 toObject
-(
-)
-.
-as
-<
-NativeObject
->
 (
 )
 ;
@@ -3409,7 +3402,7 @@ objects
 (
 )
 ;
-HeapPtrNativeObject
+HeapPtrObject
 *
 vector
 =
@@ -6036,7 +6029,7 @@ nobjects
 i
 )
 {
-HeapPtrNativeObject
+HeapPtrObject
 *
 objp
 =
@@ -6816,7 +6809,7 @@ literal
 .
 *
 /
-RootedNativeObject
+RootedObject
 tmp
 (
 cx
@@ -16325,7 +16318,7 @@ objects
 vector
 =
 (
-HeapPtrNativeObject
+HeapPtrObject
 *
 )
 cursor
@@ -16383,7 +16376,7 @@ regexps
 vector
 =
 (
-HeapPtrNativeObject
+HeapPtrObject
 *
 )
 cursor
@@ -19904,7 +19897,7 @@ nobjects
 0
 )
 {
-HeapPtrNativeObject
+HeapPtrObject
 *
 vector
 =
@@ -20365,7 +20358,7 @@ i
 +
 )
 {
-HeapPtrNativeObject
+HeapPtrObject
 *
 vector
 =
@@ -21163,13 +21156,13 @@ nobjects
 0
 )
 {
-HeapPtrNativeObject
+HeapPtrObject
 *
 vector
 =
 Rebase
 <
-HeapPtrNativeObject
+HeapPtrObject
 >
 (
 dst
@@ -21243,13 +21236,13 @@ nregexps
 0
 )
 {
-HeapPtrNativeObject
+HeapPtrObject
 *
 vector
 =
 Rebase
 <
-HeapPtrNativeObject
+HeapPtrObject
 >
 (
 dst

@@ -13446,7 +13446,7 @@ tempPointer
 ;
 }
 typedef
-NativeObject
+JSObject
 *
 (
 *
@@ -13455,7 +13455,7 @@ DeepCloneObjectLiteralFn
 (
 JSContext
 *
-HandleNativeObject
+HandleObject
 NewObjectKind
 )
 ;
@@ -30874,7 +30874,7 @@ mir
 )
 ;
 bool
-initFixedSlots
+initContents
 =
 ShouldInitFixedSlots
 (
@@ -30906,7 +30906,7 @@ ool
 entry
 (
 )
-initFixedSlots
+initContents
 )
 ;
 masm
@@ -32284,7 +32284,7 @@ objReg
 )
 ;
 bool
-initFixedSlots
+initContents
 =
 ShouldInitFixedSlots
 (
@@ -32309,7 +32309,7 @@ ool
 entry
 (
 )
-initFixedSlots
+initContents
 )
 ;
 masm
@@ -32500,7 +32500,7 @@ tricky
 cases
 .
 bool
-initFixedSlots
+initContents
 =
 ShouldInitFixedSlots
 (
@@ -32525,7 +32525,7 @@ ool
 entry
 (
 )
-initFixedSlots
+initContents
 )
 ;
 masm
@@ -34018,7 +34018,7 @@ rejoin
 )
 ;
 bool
-initFixedSlots
+initContents
 =
 !
 templateObject
@@ -34054,7 +34054,7 @@ initGCThing
 objReg
 tempReg
 templateObject
-initFixedSlots
+initContents
 )
 ;
 }

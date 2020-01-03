@@ -4962,7 +4962,7 @@ JSObject
 *
 NewObjectWithGroupCommon
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObjectGroup
@@ -4988,7 +4988,7 @@ T
 *
 NewObjectWithGroup
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObjectGroup
@@ -5046,7 +5046,7 @@ T
 *
 NewObjectWithGroup
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObjectGroup

@@ -17203,11 +17203,11 @@ CASE
 JSOP_OBJECT
 )
 {
-RootedNativeObject
+RootedObject
 &
 ref
 =
-rootNativeObject0
+rootObject0
 ;
 ref
 =
@@ -17240,9 +17240,6 @@ JSObject
 *
 obj
 =
-js
-:
-:
 DeepCloneObjectLiteral
 (
 cx

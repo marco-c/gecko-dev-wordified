@@ -261,7 +261,7 @@ const
 uint32_t
 XDR_BYTECODE_VERSION_SUBTRAHEND
 =
-258
+259
 ;
 static
 const
