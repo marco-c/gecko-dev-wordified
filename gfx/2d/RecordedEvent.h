@@ -265,6 +265,7 @@ template
 typename
 T
 >
+MOZ_IMPLICIT
 ReferencePtr
 (
 const

@@ -204,6 +204,7 @@ template
 size_t
 N
 >
+MOZ_IMPLICIT
 HeapCopyOfStackArray
 (
 ElemType
