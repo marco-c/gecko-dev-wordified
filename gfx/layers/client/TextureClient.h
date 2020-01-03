@@ -1806,7 +1806,7 @@ UpdateFromSurface
 gfx
 :
 :
-DataSourceSurface
+SourceSurface
 *
 aSurface
 )
@@ -3567,7 +3567,7 @@ UpdateFromSurface
 gfx
 :
 :
-DataSourceSurface
+SourceSurface
 *
 aSurface
 )
