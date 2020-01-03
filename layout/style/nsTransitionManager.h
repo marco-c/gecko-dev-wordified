@@ -693,7 +693,7 @@ CSSTransitionPlayer
 dom
 :
 :
-AnimationTimeline
+DocumentTimeline
 *
 aTimeline
 )

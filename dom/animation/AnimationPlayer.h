@@ -153,14 +153,14 @@ mozilla
 /
 dom
 /
-AnimationTimeline
+DocumentTimeline
 .
 h
 "
 /
 /
 for
-AnimationTimeline
+DocumentTimeline
 #
 include
 "
@@ -297,7 +297,7 @@ public
 explicit
 AnimationPlayer
 (
-AnimationTimeline
+DocumentTimeline
 *
 aTimeline
 )
@@ -342,7 +342,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 AnimationPlayer
 )
-AnimationTimeline
+DocumentTimeline
 *
 GetParentObject
 (
@@ -454,7 +454,7 @@ return
 mSource
 ;
 }
-AnimationTimeline
+DocumentTimeline
 *
 Timeline
 (
@@ -2257,7 +2257,7 @@ const
 ;
 nsRefPtr
 <
-AnimationTimeline
+DocumentTimeline
 >
 mTimeline
 ;

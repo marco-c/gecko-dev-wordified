@@ -1134,7 +1134,7 @@ Promise
 >
 CreatePromise
 (
-AnimationTimeline
+DocumentTimeline
 *
 aTimeline
 ErrorResult
