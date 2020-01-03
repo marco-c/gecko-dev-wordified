@@ -834,7 +834,7 @@ of
 if
 any
 .
-HeapPtrObject
+RelocatablePtrObject
 memberOf
 ;
 /

@@ -16074,9 +16074,6 @@ LDefinition
 :
 SLOTS
 :
-if
-(
-!
 safepoint
 -
 >
@@ -16084,9 +16081,6 @@ addSlotsOrElementsPointer
 (
 a
 )
-)
-return
-false
 ;
 break
 ;
@@ -16099,9 +16093,6 @@ LDefinition
 :
 TYPE
 :
-if
-(
-!
 safepoint
 -
 >
@@ -16110,9 +16101,6 @@ addNunboxType
 i
 a
 )
-)
-return
-false
 ;
 break
 ;
@@ -16122,9 +16110,6 @@ LDefinition
 :
 PAYLOAD
 :
-if
-(
-!
 safepoint
 -
 >
@@ -16133,9 +16118,6 @@ addNunboxPayload
 i
 a
 )
-)
-return
-false
 ;
 break
 ;
@@ -16147,9 +16129,6 @@ LDefinition
 :
 BOX
 :
-if
-(
-!
 safepoint
 -
 >
@@ -16157,9 +16136,6 @@ addBoxedValue
 (
 a
 )
-)
-return
-false
 ;
 break
 ;
