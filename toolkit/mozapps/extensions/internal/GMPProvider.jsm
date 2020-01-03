@@ -1763,6 +1763,12 @@ return
 !
 this
 .
+appDisabled
+&
+&
+!
+this
+.
 userDisabled
 ;
 }
@@ -1923,9 +1929,7 @@ permissions
 let
 permissions
 =
-AddonManager
-.
-PERM_CAN_UPGRADE
+0
 ;
 if
 (
@@ -1935,6 +1939,13 @@ this
 appDisabled
 )
 {
+permissions
+|
+=
+AddonManager
+.
+PERM_CAN_UPGRADE
+;
 permissions
 |
 =
