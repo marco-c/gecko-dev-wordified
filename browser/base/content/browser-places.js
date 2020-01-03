@@ -10676,6 +10676,18 @@ browser
 "
 )
 ;
+if
+(
+locale
+!
+=
+"
+en
+-
+US
+"
+)
+{
 let
 url
 =
@@ -10794,6 +10806,7 @@ in
 the
 markup
 .
+}
 }
 }
 document
