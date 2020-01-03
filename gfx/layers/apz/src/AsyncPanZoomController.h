@@ -2763,12 +2763,12 @@ either
 direction
 .
 bool
-CanScroll
+CanScrollWithWheel
 (
-double
-aDeltaX
-double
-aDeltaY
+const
+LayoutDevicePoint
+&
+aDelta
 )
 const
 ;
