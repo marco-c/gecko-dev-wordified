@@ -4884,6 +4884,17 @@ mBucketCount
 ;
 /
 /
+A
+initializer
+to
+initialize
+histogram
+collection
+StatisticsRecorder
+gStatisticsRecorder
+;
+/
+/
 Hardcoded
 probes
 struct
