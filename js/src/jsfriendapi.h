@@ -7697,6 +7697,7 @@ AutoStableStringChars
 (
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -7707,7 +7708,6 @@ JSString
 *
 s
 )
-MOZ_WARN_UNUSED_RESULT
 ;
 /
 *
@@ -7725,6 +7725,7 @@ TwoByte
 .
 *
 /
+MOZ_WARN_UNUSED_RESULT
 bool
 initTwoByte
 (
@@ -7735,7 +7736,6 @@ JSString
 *
 s
 )
-MOZ_WARN_UNUSED_RESULT
 ;
 bool
 isLatin1
