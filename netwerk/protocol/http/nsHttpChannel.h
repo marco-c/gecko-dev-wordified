@@ -2162,6 +2162,11 @@ int64_t
 partialLen
 )
 ;
+void
+UntieByteRangeRequest
+(
+)
+;
 nsresult
 OpenCacheInputStream
 (
