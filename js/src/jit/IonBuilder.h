@@ -5432,15 +5432,13 @@ type
 )
 ;
 InliningStatus
-inlineSimdWith
+inlineSimdReplaceLane
 (
 CallInfo
 &
 callInfo
 JSNative
 native
-SimdLane
-lane
 SimdTypeDescr
 :
 :
