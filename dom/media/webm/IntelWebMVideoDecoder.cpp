@@ -585,7 +585,7 @@ vp9
 mPlatform
 -
 >
-SupportsVideoMimeType
+SupportsMimeType
 (
 aMimeType
 )
@@ -736,9 +736,11 @@ mMediaDataDecoder
 mPlatform
 -
 >
-CreateVideoDecoder
+CreateDecoder
 (
 video
+mTaskQueue
+this
 mReader
 -
 >
@@ -756,8 +758,6 @@ GetDecoder
 GetImageContainer
 (
 )
-mTaskQueue
-this
 )
 ;
 if
