@@ -1046,6 +1046,7 @@ AudioNodeStream
 GetStream
 (
 )
+const
 {
 return
 mStream
