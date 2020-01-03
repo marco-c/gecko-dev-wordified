@@ -189,7 +189,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSILOADINFO
 /
 /
-aPrincipal
+aLoadingPrincipal
 MUST
 NOT
 BE
@@ -199,7 +199,10 @@ LoadInfo
 (
 nsIPrincipal
 *
-aPrincipal
+aLoadingPrincipal
+nsIPrincipal
+*
+aTriggeringPrincipal
 nsINode
 *
 aLoadingContext
@@ -225,7 +228,13 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mPrincipal
+mLoadingPrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mTriggeringPrincipal
 ;
 nsWeakPtr
 mLoadingContext
