@@ -1087,7 +1087,7 @@ Zlib
 data
 *
 /
-z_stream
+zxx_stream
 zStream
 ;
 }
