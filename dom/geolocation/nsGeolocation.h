@@ -353,9 +353,10 @@ Init
 void
 HandleMozsettingChanged
 (
-nsISupports
+const
+char16_t
 *
-aSubject
+aData
 )
 ;
 void
