@@ -237,8 +237,7 @@ cx
 JS
 :
 :
-Symbol
-*
+HandleSymbol
 symbol
 )
 {

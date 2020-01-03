@@ -11161,6 +11161,12 @@ if
 reg_exp_too_big_
 )
 {
+code
+.
+destroy
+(
+)
+;
 JS_ReportError
 (
 cx
@@ -11169,12 +11175,6 @@ regexp
 too
 big
 "
-)
-;
-code
-.
-destroy
-(
 )
 ;
 return
