@@ -6386,6 +6386,11 @@ now
 )
 +
 10000
+origin
+:
+login
+.
+hostname
 persistWhileVisible
 :
 true
