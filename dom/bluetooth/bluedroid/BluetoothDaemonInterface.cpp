@@ -6518,7 +6518,10 @@ DaemonSocketResultHandler
 =
 {
 [
-0x00
+BluetoothDaemonSetupModule
+:
+:
+SERVICE_ID
 ]
 =
 &

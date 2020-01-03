@@ -204,7 +204,7 @@ BluetoothSetupResultHandler
 =
 {
 [
-0x00
+OPCODE_ERROR
 ]
 =
 &
@@ -213,7 +213,7 @@ BluetoothDaemonSetupModule
 :
 ErrorRsp
 [
-0x01
+OPCODE_REGISTER_MODULE
 ]
 =
 &
@@ -222,7 +222,7 @@ BluetoothDaemonSetupModule
 :
 RegisterModuleRsp
 [
-0x02
+OPCODE_UNREGISTER_MODULE
 ]
 =
 &
@@ -231,7 +231,7 @@ BluetoothDaemonSetupModule
 :
 UnregisterModuleRsp
 [
-0x03
+OPCODE_CONFIGURATION
 ]
 =
 &
@@ -366,8 +366,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x00
-0x01
+SERVICE_ID
+OPCODE_REGISTER_MODULE
 0
 )
 )
@@ -479,8 +479,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x00
-0x02
+SERVICE_ID
+OPCODE_UNREGISTER_MODULE
 0
 )
 )
@@ -573,8 +573,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x00
-0x03
+SERVICE_ID
+OPCODE_CONFIGURATION
 0
 )
 )
