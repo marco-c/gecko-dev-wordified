@@ -4744,7 +4744,7 @@ NodeInfo
 )
 -
 >
-NameInfo
+NameAtom
 (
 )
 -
