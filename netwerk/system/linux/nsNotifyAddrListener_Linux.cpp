@@ -716,7 +716,7 @@ ifa
 >
 ifa_flags
 &
-IFF_UP
+IFF_RUNNING
 )
 &
 &
