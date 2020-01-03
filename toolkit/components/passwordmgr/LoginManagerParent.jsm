@@ -1527,14 +1527,8 @@ prompterSvc
 .
 setE10sData
 (
-{
-browser
-:
 target
 opener
-:
-opener
-}
 )
 ;
 return
