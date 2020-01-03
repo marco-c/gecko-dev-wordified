@@ -18587,7 +18587,7 @@ if
 aSmsSegment
 .
 originatorPort
-=
+!
 =
 =
 Ci
@@ -18611,7 +18611,7 @@ if
 aSmsSegment
 .
 destinationPort
-=
+!
 =
 =
 Ci
