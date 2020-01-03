@@ -296,6 +296,13 @@ mFrontBuffer
 mFrontBuffer
 -
 >
+Updated
+(
+)
+;
+mFrontBuffer
+-
+>
 PrepareTextureSource
 (
 mTextureSource
