@@ -557,15 +557,6 @@ self
 profile_path
 :
                 
-profile_args
-[
-"
-restore
-"
-]
-=
-False
-                
 self
 .
 profile
@@ -1102,6 +1093,15 @@ True
 )
 :
         
+self
+.
+close
+(
+restart
+=
+True
+)
+        
 if
 clean
 :
@@ -1119,15 +1119,6 @@ self
 profile
 =
 None
-        
-self
-.
-close
-(
-restart
-=
-True
-)
         
 if
 prefs
