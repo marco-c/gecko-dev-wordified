@@ -20061,7 +20061,7 @@ getStubCode
 GetName
 /
 /
-JSOP_NAME
+JSOP_GETNAME
 /
 /
 JSOP_GETGNAME

@@ -7163,7 +7163,7 @@ instead
 of
 /
 /
-JSOP_NAME
+JSOP_GETNAME
 etc
 to
 bypass
@@ -7181,7 +7181,7 @@ MOZ_ASSERT_IF
 op
 =
 =
-JSOP_NAME
+JSOP_GETNAME
 |
 |
 op
@@ -10559,7 +10559,7 @@ getOp
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -11056,7 +11056,7 @@ getOp
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -11494,7 +11494,7 @@ getOp
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -11651,7 +11651,7 @@ e
 g
 .
 from
-JSOP_NAME
+JSOP_GETNAME
 to
 JSOP_CALLEE
 .
@@ -11704,7 +11704,7 @@ more
 opcodes
 specialized
 from
-JSOP_NAME
+JSOP_GETNAME
 etc
 .
 don
@@ -12006,7 +12006,7 @@ op
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 case
 JSOP_SETCONST
@@ -12526,7 +12526,7 @@ op
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -12596,7 +12596,7 @@ op
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -12765,7 +12765,7 @@ pn
 >
 isOp
 (
-JSOP_NAME
+JSOP_GETNAME
 )
 if
 bce
@@ -16050,7 +16050,7 @@ if
 op
 =
 =
-JSOP_NAME
+JSOP_GETNAME
 &
 &
 bce
@@ -16929,7 +16929,7 @@ global
 ?
 JSOP_GETGNAME
 :
-JSOP_NAME
+JSOP_GETNAME
 bce
 )
 )
@@ -27993,7 +27993,7 @@ lhs
 >
 isOp
 (
-JSOP_NAME
+JSOP_GETNAME
 )
 |
 |

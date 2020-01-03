@@ -1199,12 +1199,12 @@ Emit
 JSOP_GETINTRINSIC
 instead
 of
-JSOP_NAME
+JSOP_GETNAME
 and
 assert
 that
 *
-JSOP_NAME
+JSOP_GETNAME
 and
 JSOP_
 *

@@ -41289,7 +41289,7 @@ MOZ_ASSERT
 op
 =
 =
-JSOP_NAME
+JSOP_GETNAME
 |
 |
 op

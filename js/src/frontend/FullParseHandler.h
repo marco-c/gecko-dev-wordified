@@ -567,7 +567,7 @@ NameNode
 >
 (
 PNK_NAME
-JSOP_NAME
+JSOP_GETNAME
 name
 blockid
 pos
@@ -2443,7 +2443,7 @@ getOp
 )
 =
 =
-JSOP_NAME
+JSOP_GETNAME
 )
 ;
 genName

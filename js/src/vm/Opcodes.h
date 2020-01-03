@@ -4269,10 +4269,10 @@ val
 \
 macro
 (
-JSOP_NAME
+JSOP_GETNAME
 59
 "
-name
+getname
 "
 NULL
 5
