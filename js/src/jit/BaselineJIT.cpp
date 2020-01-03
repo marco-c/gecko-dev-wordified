@@ -438,6 +438,10 @@ flags_
 (
 0
 )
+maxInliningDepth_
+(
+UINT8_MAX
+)
 {
 }
 static
