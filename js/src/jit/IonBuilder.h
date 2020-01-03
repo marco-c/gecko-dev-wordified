@@ -5184,6 +5184,14 @@ JSFunction
 target
 )
 ;
+InliningStatus
+inlineAtomicsIsLockFree
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Slot

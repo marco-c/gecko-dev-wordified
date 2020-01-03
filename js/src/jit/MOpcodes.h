@@ -1104,6 +1104,11 @@ StoreTypedArrayElementStatic
 \
 _
 (
+AtomicIsLockFree
+)
+\
+_
+(
 CompareExchangeTypedArrayElement
 )
 \
