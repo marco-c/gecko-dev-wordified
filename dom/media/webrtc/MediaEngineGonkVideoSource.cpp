@@ -4076,13 +4076,13 @@ IntSize
 dstWidth
 dstHeight
 )
-gfx
+layers
 :
 :
-BackendType
+BackendSelector
 :
 :
-NONE
+Content
 layers
 :
 :
