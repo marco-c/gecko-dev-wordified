@@ -1038,6 +1038,17 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvNotifyIMEEditorRect
+(
+const
+nsIntRect
+&
+aRect
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvEndIMEComposition
 (
 const
@@ -2279,6 +2290,9 @@ mIMECaretOffset
 ;
 nsIntRect
 mIMECaretRect
+;
+nsIntRect
+mIMEEditorRect
 ;
 /
 /
