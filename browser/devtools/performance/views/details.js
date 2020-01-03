@@ -123,6 +123,9 @@ waterfall
 calltree
 :
 1
+flamegraph
+:
+2
 }
 /
 *
@@ -229,6 +232,13 @@ initialize
 (
 )
 ;
+yield
+FlameGraphView
+.
+initialize
+(
+)
+;
 this
 .
 selectView
@@ -307,6 +317,13 @@ destroy
 ;
 yield
 WaterfallView
+.
+destroy
+(
+)
+;
+yield
+FlameGraphView
 .
 destroy
 (
@@ -414,6 +431,7 @@ view
 =
 selectedView
 )
+{
 button
 .
 setAttribute
@@ -424,7 +442,9 @@ checked
 true
 )
 ;
+}
 else
+{
 button
 .
 removeAttribute
@@ -434,6 +454,7 @@ checked
 "
 )
 ;
+}
 }
 this
 .
