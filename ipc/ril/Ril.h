@@ -202,6 +202,12 @@ Shutdown
 ;
 private
 :
+class
+RegisterConsumerTask
+;
+class
+UnregisterConsumerTask
+;
 RilWorker
 (
 mozilla
