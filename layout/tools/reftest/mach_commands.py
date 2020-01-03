@@ -2744,7 +2744,7 @@ command
 arguments
 to
 b2g
-mochitest
+reftest
 commands
 .
 "
