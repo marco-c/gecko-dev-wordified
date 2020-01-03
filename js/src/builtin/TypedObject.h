@@ -5873,6 +5873,7 @@ Store_Any
 (
 targetDatum
 targetOffset
+fieldName
 value
 )
 *
@@ -5880,6 +5881,7 @@ Store_Object
 (
 targetDatum
 targetOffset
+fieldName
 value
 )
 *
@@ -5887,6 +5889,7 @@ Store_string
 (
 targetDatum
 targetOffset
+fieldName
 value
 )
 *
@@ -5940,6 +5943,8 @@ value
 is
 an
 object
+or
+null
 (
 Store_Object
 )
@@ -5971,9 +5976,12 @@ private
 :
 \
 static
-void
+bool
 store
 (
+ThreadSafeContext
+*
+cx
 T
 *
 heap
@@ -5981,6 +5989,12 @@ const
 Value
 &
 v
+\
+TypedObject
+*
+obj
+jsid
+id
 )
 ;
 \
