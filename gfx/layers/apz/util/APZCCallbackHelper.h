@@ -400,10 +400,10 @@ the
 subframe
 corresponding
 to
-the
 given
-content
-object
+metrics
+'
+scrollId
 .
 If
 tiled
@@ -459,9 +459,6 @@ static
 void
 UpdateSubFrame
 (
-nsIContent
-*
-aContent
 FrameMetrics
 &
 aMetrics
