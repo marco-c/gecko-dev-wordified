@@ -289,7 +289,16 @@ huh
 ?
 "
 ;
-static
+/
+/
+Note
+:
+some
+tests
+manipulate
+this
+value
+.
 unsigned
 int
 _gdb_sleep_duration
