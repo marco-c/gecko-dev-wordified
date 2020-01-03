@@ -630,12 +630,15 @@ aReason
 {
 if
 (
-OtherProcess
+OtherPid
 (
 )
 !
 =
-0
+ipc
+:
+:
+kCurrentProcessId
 )
 /
 /
