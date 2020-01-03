@@ -4030,7 +4030,7 @@ gfxUserFontEntry
 gfxUserFontSet
 :
 :
-FindOrCreateFontFace
+FindOrCreateUserFontEntry
 (
 const
 nsAString
@@ -4200,7 +4200,7 @@ entry
 {
 entry
 =
-CreateFontFace
+CreateUserFontEntry
 (
 aFontFaceSrcList
 aWeight
@@ -4325,7 +4325,7 @@ gfxUserFontEntry
 gfxUserFontSet
 :
 :
-CreateFontFace
+CreateUserFontEntry
 (
 const
 nsTArray
@@ -4545,7 +4545,7 @@ void
 gfxUserFontSet
 :
 :
-AddFontFace
+AddUserFontEntry
 (
 const
 nsAString

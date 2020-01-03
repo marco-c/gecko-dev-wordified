@@ -1083,7 +1083,7 @@ already_AddRefed
 <
 gfxUserFontEntry
 >
-CreateFontFace
+CreateUserFontEntry
 (
 const
 nsTArray
@@ -1143,7 +1143,7 @@ already_AddRefed
 <
 gfxUserFontEntry
 >
-FindOrCreateFontFace
+FindOrCreateUserFontEntry
 (
 const
 nsAString
@@ -1191,7 +1191,7 @@ the
 gfxUserFontEntry
 already
 void
-AddFontFace
+AddUserFontEntry
 (
 const
 nsAString
@@ -2808,7 +2808,7 @@ DoRebuildUserFontSet
 helper
 method
 for
-FindOrCreateFontFace
+FindOrCreateUserFontEntry
 gfxUserFontEntry
 *
 FindExistingUserFontEntry
