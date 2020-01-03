@@ -364,9 +364,7 @@ p
 windowId
 =
 %
-"
-PRIx64
-"
+llx
 \
 n
 "
@@ -1729,9 +1727,7 @@ mWindowId
 =
 0x
 %
-"
-PRIx64
-"
+llx
 \
 n
 "
@@ -1820,9 +1816,7 @@ aWindowId
 =
 0x
 %
-"
-PRIx64
-"
+llx
 )
 \
 n
