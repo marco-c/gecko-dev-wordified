@@ -431,6 +431,7 @@ newRoomName
 "
 "
 }
+;
 }
 handleFormSubmit
 :

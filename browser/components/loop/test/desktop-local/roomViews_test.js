@@ -151,10 +151,8 @@ store
 .
 ActiveRoomStore
 (
+dispatcher
 {
-dispatcher
-:
-dispatcher
 mozLoop
 :
 {
@@ -175,10 +173,8 @@ store
 .
 RoomStore
 (
+dispatcher
 {
-dispatcher
-:
-dispatcher
 mozLoop
 :
 {
