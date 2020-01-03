@@ -673,9 +673,9 @@ event
 )
 )
 {
-File
+Blob
 *
-file
+blob
 =
 event
 -
@@ -686,7 +686,7 @@ GetData
 ;
 if
 (
-file
+blob
 )
 {
 static
@@ -704,7 +704,7 @@ dataLength
 nsresult
 rv
 =
-file
+blob
 -
 >
 GetSize
@@ -741,7 +741,7 @@ inputStream
 ;
 rv
 =
-file
+blob
 -
 >
 GetInternalStream

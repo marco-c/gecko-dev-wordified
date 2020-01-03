@@ -1752,7 +1752,7 @@ nsTArray
 <
 nsRefPtr
 <
-File
+Blob
 >
 >
 &
@@ -2130,12 +2130,14 @@ JS
 .
 nsRefPtr
 <
-File
+Blob
 >
 domBlob
 =
-new
-File
+Blob
+:
+:
+Create
 (
 nullptr
 blobImpl

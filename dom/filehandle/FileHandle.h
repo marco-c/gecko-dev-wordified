@@ -234,7 +234,7 @@ namespace
 dom
 {
 class
-File
+Blob
 ;
 class
 FileHelper
@@ -953,7 +953,7 @@ nsIInputStream
 GetInputStream
 (
 const
-File
+Blob
 &
 aValue
 uint64_t

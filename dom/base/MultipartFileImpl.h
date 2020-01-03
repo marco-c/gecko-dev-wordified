@@ -389,7 +389,7 @@ aRv
 void
 InitializeChromeFile
 (
-File
+Blob
 &
 aData
 const
