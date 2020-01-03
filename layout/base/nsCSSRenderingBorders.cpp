@@ -10632,6 +10632,7 @@ StrokeRect
 rect
 color
 strokeOptions
+drawOptions
 )
 ;
 return
