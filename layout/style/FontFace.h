@@ -409,9 +409,6 @@ aPresContext
 nsCSSFontFaceRule
 *
 aRule
-gfxUserFontEntry
-*
-aUserFontEntry
 )
 ;
 nsCSSFontFaceRule
