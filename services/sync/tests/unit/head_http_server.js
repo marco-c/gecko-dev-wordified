@@ -3642,14 +3642,13 @@ which
 to
 start
 .
-A
-falsy
-value
+-
+1
 implies
 the
-*
 default
 a
+*
 randomly
 chosen
 port
@@ -3681,6 +3680,9 @@ function
 start
 (
 port
+=
+-
+1
 cb
 )
 {
