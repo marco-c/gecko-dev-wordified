@@ -461,6 +461,11 @@ nsACString
 aName
 )
 ;
+bool
+IsAlive
+(
+)
+;
 static
 void
 AppendProcessId
@@ -2137,6 +2142,9 @@ mIsForBrowser
 ;
 bool
 mCanOverrideProcessName
+;
+bool
+mIsAlive
 ;
 nsString
 mProcessName

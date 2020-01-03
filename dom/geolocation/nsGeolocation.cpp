@@ -4396,6 +4396,16 @@ GetSingleton
 (
 )
 ;
+if
+(
+cpc
+-
+>
+IsAlive
+(
+)
+)
+{
 cpc
 -
 >
@@ -4404,6 +4414,7 @@ SendSetGeolocationHigherAccuracy
 highRequired
 )
 ;
+}
 return
 ;
 }
