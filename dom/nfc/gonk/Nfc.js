@@ -2076,7 +2076,7 @@ data
 type
 =
 "
-NotifySendFileStatus
+NotifySendFileStatusResponse
 "
 ;
 if
