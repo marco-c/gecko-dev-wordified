@@ -2006,6 +2006,8 @@ i
 )
 {
 result
+=
+result
 .
 Intersect
 (
