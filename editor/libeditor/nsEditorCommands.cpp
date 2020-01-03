@@ -105,6 +105,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Assertions
 .
 h
@@ -3624,6 +3633,9 @@ i
 ;
 i
 <
+mozilla
+:
+:
 ArrayLength
 (
 scrollCommands
@@ -3726,6 +3738,9 @@ i
 ;
 i
 <
+mozilla
+:
+:
 ArrayLength
 (
 moveCommands
@@ -3899,6 +3914,9 @@ i
 ;
 i
 <
+mozilla
+:
+:
 ArrayLength
 (
 physicalCommands
