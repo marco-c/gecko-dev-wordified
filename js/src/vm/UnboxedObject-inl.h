@@ -3752,6 +3752,9 @@ oldInitlen
 i
 +
 +
+j
++
++
 )
 nobj
 -
@@ -3788,6 +3791,9 @@ j
 oldInitlen
 ;
 i
++
++
+j
 +
 +
 )
