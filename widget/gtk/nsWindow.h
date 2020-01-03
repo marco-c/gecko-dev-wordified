@@ -233,7 +233,7 @@ h
 #
 include
 "
-nsGtkIMModule
+IMContextWrapper
 .
 h
 "
@@ -2557,7 +2557,7 @@ override
 *
 *
 |
-mIMModule
+mIMContext
 |
 takes
 all
@@ -2679,9 +2679,15 @@ time
 /
 nsRefPtr
 <
-nsGtkIMModule
+mozilla
+:
+:
+widget
+:
+:
+IMContextWrapper
 >
-mIMModule
+mIMContext
 ;
 /
 /

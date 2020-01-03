@@ -204,6 +204,13 @@ h
 #
 include
 "
+nsGtkUtils
+.
+h
+"
+#
+include
+"
 nsIBidiKeyboard
 .
 h
