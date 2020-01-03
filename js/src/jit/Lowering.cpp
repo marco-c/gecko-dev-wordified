@@ -26936,12 +26936,6 @@ alloc
 LSimdExtractElementI
 (
 use
-ins
--
->
-lane
-(
-)
 )
 ins
 )
@@ -26990,12 +26984,6 @@ alloc
 LSimdExtractElementF
 (
 use
-ins
--
->
-lane
-(
-)
 )
 ins
 )
