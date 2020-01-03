@@ -5316,6 +5316,14 @@ idle
 state
 if
 (
+!
+IsUsingCustomCompositeOrder
+(
+)
+)
+{
+if
+(
 PlayState
 (
 )
@@ -5347,6 +5355,7 @@ sNextSequenceNum
 +
 +
 ;
+}
 }
 /
 /
