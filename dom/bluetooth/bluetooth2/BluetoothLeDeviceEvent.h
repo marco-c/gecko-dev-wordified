@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothledeviceevent_h
+mozilla_dom_bluetooth_BluetoothLeDeviceEvent_h
 #
 define
-mozilla_dom_bluetooth_bluetoothledeviceevent_h
+mozilla_dom_bluetooth_BluetoothLeDeviceEvent_h
 #
 include
 "
@@ -351,4 +351,4 @@ END_BLUETOOTH_NAMESPACE
 endif
 /
 /
-mozilla_dom_bluetooth_bluetoothledeviceevent_h
+mozilla_dom_bluetooth_BluetoothLeDeviceEvent_h

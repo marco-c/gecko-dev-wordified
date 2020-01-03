@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluedroid_bluetoothdaemonhelpers_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonHelpers_h
 #
 define
-mozilla_dom_bluetooth_bluedroid_bluetoothdaemonhelpers_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonHelpers_h
 #
 include
 "
@@ -5565,3 +5565,6 @@ NS_OK
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonHelpers_h

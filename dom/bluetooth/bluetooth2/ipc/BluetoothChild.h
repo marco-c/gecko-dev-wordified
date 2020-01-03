@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_ipc_bluetoothchild_h__
+mozilla_dom_bluetooth_ipc_BluetoothChild_h
 #
 define
-mozilla_dom_bluetooth_ipc_bluetoothchild_h__
+mozilla_dom_bluetooth_ipc_BluetoothChild_h
 #
 include
 "
@@ -731,4 +731,4 @@ END_BLUETOOTH_NAMESPACE
 endif
 /
 /
-mozilla_dom_bluetooth_ipc_bluetoothchild_h__
+mozilla_dom_bluetooth_ipc_BluetoothChild_h

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluedroid_bluetoothdaemonsetupinterface_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonSetupInterface_h
 #
 define
-mozilla_dom_bluetooth_bluedroid_bluetoothdaemonsetupinterface_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonSetupInterface_h
 #
 include
 "
@@ -176,3 +176,6 @@ BluetoothSetupResultHandler
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonSetupInterface_h

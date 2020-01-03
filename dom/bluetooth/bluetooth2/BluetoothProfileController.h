@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothprofilecontroller_h__
+mozilla_dom_bluetooth_BluetoothProfileController_h
 #
 define
-mozilla_dom_bluetooth_bluetoothprofilecontroller_h__
+mozilla_dom_bluetooth_BluetoothProfileController_h
 #
 include
 "
@@ -1125,3 +1125,6 @@ mTimer
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_BluetoothProfileController_h

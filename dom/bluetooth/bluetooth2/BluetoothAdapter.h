@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothadapter_h__
+mozilla_dom_bluetooth_BluetoothAdapter_h
 #
 define
-mozilla_dom_bluetooth_bluetoothadapter_h__
+mozilla_dom_bluetooth_BluetoothAdapter_h
 #
 include
 "
@@ -2935,3 +2935,6 @@ mDevices
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_BluetoothAdapter_h

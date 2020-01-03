@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothclassofdevice_h
+mozilla_dom_bluetooth_BluetoothClassOfDevice_h
 #
 define
-mozilla_dom_bluetooth_bluetoothclassofdevice_h
+mozilla_dom_bluetooth_BluetoothClassOfDevice_h
 #
 include
 "
@@ -410,4 +410,4 @@ END_BLUETOOTH_NAMESPACE
 endif
 /
 /
-mozilla_dom_bluetooth_bluetoothclassofdevice_h
+mozilla_dom_bluetooth_BluetoothClassOfDevice_h

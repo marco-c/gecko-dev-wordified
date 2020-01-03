@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothreplyrunnable_h__
+mozilla_dom_bluetooth_BluetoothReplyRunnable_h
 #
 define
-mozilla_dom_bluetooth_bluetoothreplyrunnable_h__
+mozilla_dom_bluetooth_BluetoothReplyRunnable_h
 #
 include
 "
@@ -473,3 +473,6 @@ true
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_BluetoothReplyRunnable_h

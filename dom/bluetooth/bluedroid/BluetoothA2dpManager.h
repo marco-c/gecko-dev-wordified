@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetootha2dpmanager_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothA2dpManager_h
 #
 define
-mozilla_dom_bluetooth_bluetootha2dpmanager_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothA2dpManager_h
 #
 include
 "

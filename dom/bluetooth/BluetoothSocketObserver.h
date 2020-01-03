@@ -377,3 +377,6 @@ override
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_BluetoothSocketObserver_h

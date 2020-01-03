@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothutils_h
+mozilla_dom_bluetooth_BluetoothUtils_h
 #
 define
-mozilla_dom_bluetooth_bluetoothutils_h
+mozilla_dom_bluetooth_BluetoothUtils_h
 #
 include
 "
@@ -880,3 +880,6 @@ aStatus
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_BluetoothUtils_h

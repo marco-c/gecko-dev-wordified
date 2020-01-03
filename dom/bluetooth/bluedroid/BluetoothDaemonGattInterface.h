@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothdaemongattinterface_h
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonGattInterface_h
 #
 define
-mozilla_dom_bluetooth_bluetoothdaemongattinterface_h
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonGattInterface_h
 #
 include
 "
@@ -3946,3 +3946,6 @@ mModule
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonGattInterface_h

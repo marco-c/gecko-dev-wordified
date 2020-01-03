@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothhfpmanager_h__
+mozilla_dom_bluetooth_bluez_BluetoothHfpManager_h
 #
 define
-mozilla_dom_bluetooth_bluetoothhfpmanager_h__
+mozilla_dom_bluetooth_bluez_BluetoothHfpManager_h
 #
 include
 "
@@ -1117,3 +1117,6 @@ endif
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_bluez_BluetoothHfpManager_h

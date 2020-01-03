@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetootha2dpmanager_h__
+mozilla_dom_bluetooth_bluez_BluetoothA2dpManager_h
 #
 define
-mozilla_dom_bluetooth_bluetootha2dpmanager_h__
+mozilla_dom_bluetooth_bluez_BluetoothA2dpManager_h
 #
 include
 "
@@ -386,3 +386,6 @@ mPlayStatus
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_bluez_BluetoothA2dpManager_h

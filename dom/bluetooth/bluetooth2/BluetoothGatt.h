@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothgatt_h__
+mozilla_dom_bluetooth_BluetoothGatt_h
 #
 define
-mozilla_dom_bluetooth_bluetoothgatt_h__
+mozilla_dom_bluetooth_BluetoothGatt_h
 #
 include
 "
@@ -1819,3 +1819,6 @@ mDiscoveringServices
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_BluetoothGatt_h

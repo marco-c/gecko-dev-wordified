@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothoppmanager_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothOppManager_h
 #
 define
-mozilla_dom_bluetooth_bluetoothoppmanager_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothOppManager_h
 #
 include
 "
@@ -1105,3 +1105,6 @@ mServerSocket
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_bluedroid_BluetoothOppManager_h

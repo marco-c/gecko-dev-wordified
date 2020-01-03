@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothdaemonavrcpinterface_h
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonAvrcpInterface_h
 #
 define
-mozilla_dom_bluetooth_bluetoothdaemonavrcpinterface_h
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonAvrcpInterface_h
 #
 include
 "
@@ -1408,3 +1408,6 @@ mModule
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonAvrcpInterface_h

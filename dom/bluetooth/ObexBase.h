@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_obexbase_h__
+mozilla_dom_bluetooth_ObexBase_h
 #
 define
-mozilla_dom_bluetooth_obexbase_h__
+mozilla_dom_bluetooth_ObexBase_h
 #
 include
 "
@@ -1862,3 +1862,6 @@ aRetHanderSet
 END_BLUETOOTH_NAMESPACE
 #
 endif
+/
+/
+mozilla_dom_bluetooth_ObexBase_h

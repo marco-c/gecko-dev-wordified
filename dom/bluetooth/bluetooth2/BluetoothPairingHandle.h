@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothpairinghandle_h
+mozilla_dom_bluetooth_BluetoothPairingHandle_h
 #
 define
-mozilla_dom_bluetooth_bluetoothpairinghandle_h
+mozilla_dom_bluetooth_BluetoothPairingHandle_h
 #
 include
 "
@@ -394,4 +394,4 @@ END_BLUETOOTH_NAMESPACE
 endif
 /
 /
-mozilla_dom_bluetooth_bluetoothpairinghandle_h
+mozilla_dom_bluetooth_BluetoothPairingHandle_h

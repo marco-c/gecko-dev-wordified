@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothdevice_h__
+mozilla_dom_bluetooth_BluetoothDevice_h
 #
 define
-mozilla_dom_bluetooth_bluetoothdevice_h__
+mozilla_dom_bluetooth_BluetoothDevice_h
 #
 include
 "
@@ -1908,3 +1908,6 @@ aAddress
 ;
 #
 endif
+/
+/
+mozilla_dom_bluetooth_BluetoothDevice_h
