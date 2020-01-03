@@ -3622,8 +3622,6 @@ HandleObject
 obj
 HandleObject
 protoArg
-HandleObject
-parent
 )
 {
 Rooted
@@ -3649,7 +3647,6 @@ CloneObject
 cx
 obj
 proto
-parent
 )
 ;
 }

@@ -892,11 +892,6 @@ JS
 :
 HandleObject
 proto
-JS
-:
-:
-HandleObject
-parent
 )
 ;
 /
