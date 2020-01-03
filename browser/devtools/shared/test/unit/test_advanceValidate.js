@@ -149,7 +149,7 @@ require
 ;
 let
 {
-_advanceValidate
+advanceValidate
 }
 =
 require
@@ -204,7 +204,7 @@ testName
 ;
 equal
 (
-_advanceValidate
+advanceValidate
 (
 Ci
 .
