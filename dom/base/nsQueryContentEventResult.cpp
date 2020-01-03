@@ -696,13 +696,7 @@ mRect
 MoveBy
 (
 -
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 offset
-)
 )
 ;
 }

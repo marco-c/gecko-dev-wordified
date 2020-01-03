@@ -20430,7 +20430,7 @@ MoveBy
 refWindow
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 )
@@ -21395,11 +21395,17 @@ boundRect
 .
 IntersectRect
 (
+LayoutDevicePixel
+:
+:
+ToUntyped
+(
 event
 .
 mReply
 .
 mRect
+)
 boundRect
 )
 ;
@@ -27960,7 +27966,7 @@ caretOffset
 return
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 &
 caretRect
 =
@@ -28115,7 +28121,7 @@ MoveBy
 toplevelWindow
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 )
@@ -28128,7 +28134,7 @@ MoveBy
 window
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 )

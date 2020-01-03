@@ -3209,7 +3209,10 @@ is
 system
 coordinates
 .
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 mRect
 ;
 /

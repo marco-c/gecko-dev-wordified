@@ -187,7 +187,10 @@ mOffset
 nsString
 mString
 ;
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 mRect
 ;
 bool
