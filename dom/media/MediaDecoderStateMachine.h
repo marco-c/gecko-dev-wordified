@@ -900,13 +900,6 @@ h
 #
 include
 "
-DecodedStream
-.
-h
-"
-#
-include
-"
 ImageContainer
 .
 h
@@ -923,6 +916,9 @@ MediaSink
 }
 class
 AudioSegment
+;
+class
+DecodedStream
 ;
 class
 TaskQueue
