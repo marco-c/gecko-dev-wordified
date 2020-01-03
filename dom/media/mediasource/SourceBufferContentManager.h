@@ -146,13 +146,6 @@ h
 #
 include
 "
-SourceBuffer
-.
-h
-"
-#
-include
-"
 TimeUnits
 .
 h
@@ -179,6 +172,13 @@ media
 :
 TimeIntervals
 ;
+namespace
+dom
+{
+class
+SourceBuffer
+;
+}
 class
 SourceBufferContentManager
 {

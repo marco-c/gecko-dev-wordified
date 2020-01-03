@@ -721,6 +721,9 @@ SkipAccessPointPromise
 >
 DoSkipToNextRandomAccessPoint
 (
+media
+:
+:
 TimeUnit
 aTimeThreadshold
 )
@@ -748,6 +751,9 @@ keyframe
 after
 mLastSampleIndex
 .
+media
+:
+:
 TimeUnit
 GetNextRandomAccessPoint
 (

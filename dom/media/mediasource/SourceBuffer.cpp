@@ -138,6 +138,13 @@ h
 #
 include
 "
+MediaSourceDemuxer
+.
+h
+"
+#
+include
+"
 MediaSourceUtils
 .
 h
@@ -422,6 +429,12 @@ __VA_ARGS__
 namespace
 mozilla
 {
+using
+media
+:
+:
+TimeUnit
+;
 namespace
 dom
 {
@@ -957,6 +970,9 @@ return
 nullptr
 ;
 }
+media
+:
+:
 TimeIntervals
 ranges
 =
