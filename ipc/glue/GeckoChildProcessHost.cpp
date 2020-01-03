@@ -3731,6 +3731,14 @@ interpose
 if
 (
 prevInterpose
+&
+&
+strlen
+(
+prevInterpose
+)
+>
+0
 )
 {
 interpose
