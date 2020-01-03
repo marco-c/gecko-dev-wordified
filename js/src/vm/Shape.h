@@ -8865,10 +8865,7 @@ base
 "
 )
 ;
-gc
-:
-:
-MarkId
+TraceEdge
 (
 trc
 &

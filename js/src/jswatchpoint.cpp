@@ -1193,7 +1193,7 @@ priorKeyId
 )
 )
 ;
-MarkId
+TraceEdge
 (
 trc
 const_cast
@@ -1447,7 +1447,7 @@ object
 "
 )
 ;
-MarkId
+TraceEdge
 (
 trc
 const_cast
