@@ -11877,9 +11877,6 @@ mResolution
 1
 .
 0
-1
-.
-0
 )
 mScrollPosForLayerPixelAlignment
 (
@@ -21305,7 +21302,7 @@ Size
 )
 ;
 }
-gfxSize
+float
 ScrollFrameHelper
 :
 :
@@ -21324,9 +21321,7 @@ ScrollFrameHelper
 :
 SetResolution
 (
-const
-gfxSize
-&
+float
 aResolution
 )
 {
@@ -21349,9 +21344,7 @@ ScrollFrameHelper
 :
 SetResolutionAndScaleTo
 (
-const
-gfxSize
-&
+float
 aResolution
 )
 {
@@ -33720,11 +33713,6 @@ presShell
 SetResolutionAndScaleTo
 (
 mResolution
-.
-width
-mResolution
-.
-height
 )
 ;
 }
@@ -33736,11 +33724,6 @@ presShell
 SetResolution
 (
 mResolution
-.
-width
-mResolution
-.
-height
 )
 ;
 }

@@ -164,9 +164,6 @@ mResolution
 1
 .
 0
-1
-.
-0
 )
 mScaleToResolution
 (
@@ -209,9 +206,7 @@ mScrollState
 void
 SetResolution
 (
-const
-gfxSize
-&
+float
 aSize
 )
 {
@@ -220,7 +215,7 @@ mResolution
 aSize
 ;
 }
-gfxSize
+float
 GetResolution
 (
 )
@@ -341,7 +336,7 @@ mContentData
 nsPoint
 mScrollState
 ;
-gfxSize
+float
 mResolution
 ;
 bool

@@ -1663,7 +1663,6 @@ aUtils
 SetResolutionAndScaleTo
 (
 presShellResolution
-presShellResolution
 )
 ;
 SetDisplayPortMargins

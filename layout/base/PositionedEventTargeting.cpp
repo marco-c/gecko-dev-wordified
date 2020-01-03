@@ -2994,7 +2994,7 @@ PresShell
 (
 )
 ;
-gfxSize
+float
 cumulativeResolution
 =
 presShell
@@ -3018,8 +3018,6 @@ height
 )
 *
 cumulativeResolution
-.
-height
 )
 <
 limitReadableSize
@@ -3037,8 +3035,6 @@ width
 )
 *
 cumulativeResolution
-.
-width
 )
 <
 limitReadableSize
@@ -3095,8 +3091,6 @@ EmHeight
 )
 *
 cumulativeResolution
-.
-height
 )
 <
 limitReadableSize

@@ -1033,7 +1033,7 @@ resolution
 *
 /
 virtual
-gfxSize
+float
 GetResolution
 (
 )
@@ -1056,9 +1056,7 @@ virtual
 void
 SetResolution
 (
-const
-gfxSize
-&
+float
 aResolution
 )
 =
@@ -1110,9 +1108,7 @@ virtual
 void
 SetResolutionAndScaleTo
 (
-const
-gfxSize
-&
+float
 aResolution
 )
 =
