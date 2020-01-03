@@ -192,10 +192,10 @@ namespace
 dom
 {
 class
-Blob
+DOMRequest
 ;
 class
-DOMRequest
+File
 ;
 struct
 MediaMetaData
@@ -1075,7 +1075,7 @@ const
 nsAString
 &
 aDeviceAddress
-Blob
+File
 &
 aBlob
 ErrorResult

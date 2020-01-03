@@ -74,6 +74,13 @@ h
 #
 include
 "
+nsIDOMFile
+.
+h
+"
+#
+include
+"
 DOMMediaStream
 .
 h
@@ -114,7 +121,7 @@ namespace
 dom
 {
 class
-Blob
+File
 ;
 }
 enum
@@ -771,7 +778,7 @@ already_AddRefed
 dom
 :
 :
-Blob
+File
 >
 aBlob
 )

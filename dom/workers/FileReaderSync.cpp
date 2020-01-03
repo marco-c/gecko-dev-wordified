@@ -391,7 +391,7 @@ JSObject
 *
 >
 aScopeObj
-Blob
+File
 &
 aBlob
 JS
@@ -616,7 +616,7 @@ FileReaderSync
 :
 ReadAsBinaryString
 (
-Blob
+File
 &
 aBlob
 nsAString
@@ -769,7 +769,7 @@ FileReaderSync
 :
 ReadAsText
 (
-Blob
+File
 &
 aBlob
 const
@@ -1174,7 +1174,7 @@ FileReaderSync
 :
 ReadAsDataURL
 (
-Blob
+File
 &
 aBlob
 nsAString

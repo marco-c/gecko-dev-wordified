@@ -889,9 +889,9 @@ IsBlob
 {
 nsRefPtr
 <
-Blob
+File
 >
-blob
+file
 =
 data
 .
@@ -907,7 +907,7 @@ blobSet
 .
 AppendBlobImpl
 (
-blob
+file
 -
 >
 Impl
@@ -1628,7 +1628,7 @@ MultipartFileImpl
 :
 InitializeChromeFile
 (
-Blob
+File
 &
 aBlob
 const

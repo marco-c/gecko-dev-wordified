@@ -645,14 +645,12 @@ cx
 {
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
-Blob
-:
-:
-Create
+new
+File
 (
 scInfo
 -
@@ -669,7 +667,7 @@ blobImpl
 if
 (
 !
-ToJSValue
+GetOrCreateDOMReflector
 (
 cx
 blob
@@ -870,7 +868,7 @@ Blob
 object
 .
 {
-Blob
+File
 *
 blob
 =

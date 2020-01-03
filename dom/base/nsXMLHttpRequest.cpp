@@ -2561,7 +2561,7 @@ mResponseBlob
 =
 nullptr
 ;
-mDOMBlob
+mDOMFile
 =
 nullptr
 ;
@@ -2762,7 +2762,7 @@ mResponseBlob
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mDOMBlob
+mDOMFile
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -2837,7 +2837,7 @@ mResponseBlob
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mDOMBlob
+mDOMFile
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -4193,7 +4193,7 @@ CreatePartialBlob
 {
 if
 (
-mDOMBlob
+mDOMFile
 )
 {
 /
@@ -4237,7 +4237,7 @@ mLoadTransferred
 {
 mResponseBlob
 =
-mDOMBlob
+mDOMFile
 ;
 }
 else
@@ -4247,7 +4247,7 @@ rv
 ;
 mResponseBlob
 =
-mDOMBlob
+mDOMFile
 -
 >
 CreateSlice
@@ -9697,7 +9697,7 @@ if
 xmlHttpRequest
 -
 >
-mDOMBlob
+mDOMFile
 )
 {
 if
@@ -10203,7 +10203,7 @@ bool
 nsXMLHttpRequest
 :
 :
-CreateDOMBlob
+CreateDOMFile
 (
 nsIRequest
 *
@@ -10263,7 +10263,7 @@ GetContentType
 contentType
 )
 ;
-mDOMBlob
+mDOMFile
 =
 File
 :
@@ -10378,12 +10378,12 @@ XML_HTTP_RESPONSE_TYPE_MOZ_BLOB
 &
 &
 !
-mDOMBlob
+mDOMFile
 )
 {
 cancelable
 =
-CreateDOMBlob
+CreateDOMFile
 (
 request
 )
@@ -10459,7 +10459,7 @@ for
 the
 blob
 response
-mDOMBlob
+mDOMFile
 -
 >
 GetSize
@@ -12236,10 +12236,10 @@ XML_HTTP_RESPONSE_TYPE_MOZ_BLOB
 if
 (
 !
-mDOMBlob
+mDOMFile
 )
 {
-CreateDOMBlob
+CreateDOMFile
 (
 request
 )
@@ -12247,14 +12247,14 @@ request
 }
 if
 (
-mDOMBlob
+mDOMFile
 )
 {
 mResponseBlob
 =
-mDOMBlob
+mDOMFile
 ;
-mDOMBlob
+mDOMFile
 =
 nullptr
 ;

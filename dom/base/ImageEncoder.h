@@ -819,7 +819,7 @@ ReceiveBlob
 (
 already_AddRefed
 <
-Blob
+File
 >
 aBlob
 )

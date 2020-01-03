@@ -633,14 +633,14 @@ mEncodeCompleteCallback
 .
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
-Blob
+File
 :
 :
-CreateMemoryBlob
+CreateMemoryFile
 (
 nullptr
 mImgData
