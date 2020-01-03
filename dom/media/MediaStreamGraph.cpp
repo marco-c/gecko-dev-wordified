@@ -10504,6 +10504,10 @@ stateFrom
 stateEnd
 )
 ;
+mProcessedTime
+=
+stateEnd
+;
 /
 /
 Send
