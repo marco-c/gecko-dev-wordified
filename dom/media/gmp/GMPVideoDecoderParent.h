@@ -147,6 +147,13 @@ h
 #
 include
 "
+GMPUtils
+.
+h
+"
+#
+include
+"
 GMPVideoHost
 .
 h
@@ -240,7 +247,7 @@ virtual
 nsresult
 Decode
 (
-UniquePtr
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >
