@@ -6734,8 +6734,6 @@ class_
 "
 Iterator
 "
-JSCLASS_IMPLEMENTS_BARRIERS
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Iterator
@@ -6824,7 +6822,7 @@ ArrayIteratorPrototypeClass
 Array
 Iterator
 "
-JSCLASS_IMPLEMENTS_BARRIERS
+0
 }
 ;
 enum
@@ -6847,8 +6845,6 @@ class_
 Array
 Iterator
 "
-JSCLASS_IMPLEMENTS_BARRIERS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 ArrayIteratorSlotCount
@@ -6896,7 +6892,7 @@ StringIteratorPrototypeClass
 String
 Iterator
 "
-JSCLASS_IMPLEMENTS_BARRIERS
+0
 }
 ;
 enum
@@ -6918,8 +6914,6 @@ class_
 String
 Iterator
 "
-JSCLASS_IMPLEMENTS_BARRIERS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 StringIteratorSlotCount

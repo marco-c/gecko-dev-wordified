@@ -1321,8 +1321,6 @@ sNPObjectJSWrapperClass
 {
 NPRUNTIME_JSCLASS_NAME
 JSCLASS_HAS_PRIVATE
-|
-JSCLASS_IMPLEMENTS_BARRIERS
 NPObjWrapper_AddProperty
 NPObjWrapper_DelProperty
 NPObjWrapper_GetProperty
@@ -1550,8 +1548,6 @@ Member
 class
 "
 JSCLASS_HAS_PRIVATE
-|
-JSCLASS_IMPLEMENTS_BARRIERS
 nullptr
 nullptr
 nullptr

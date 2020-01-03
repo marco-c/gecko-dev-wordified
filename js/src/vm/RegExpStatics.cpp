@@ -321,8 +321,6 @@ class_
 RegExpStatics
 "
 JSCLASS_HAS_PRIVATE
-|
-JSCLASS_IMPLEMENTS_BARRIERS
 nullptr
 /
 *

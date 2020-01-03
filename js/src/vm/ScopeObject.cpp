@@ -2429,8 +2429,6 @@ class_
 "
 ModuleEnvironmentObject
 "
-JSCLASS_IMPLEMENTS_BARRIERS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 ModuleEnvironmentObject
@@ -3945,8 +3943,6 @@ class_
 "
 WithTemplate
 "
-JSCLASS_IMPLEMENTS_BARRIERS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 StaticWithObject
@@ -5444,8 +5440,6 @@ class_
 "
 Block
 "
-JSCLASS_IMPLEMENTS_BARRIERS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 BlockObject

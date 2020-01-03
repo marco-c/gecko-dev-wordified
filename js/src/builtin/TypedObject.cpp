@@ -14530,8 +14530,6 @@ Class
 :
 :
 NON_NATIVE
-|
-JSCLASS_IMPLEMENTS_BARRIERS
 \
 nullptr
 /
