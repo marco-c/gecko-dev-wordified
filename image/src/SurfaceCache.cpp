@@ -1784,6 +1784,14 @@ surface
 if
 (
 surface
+&
+&
+surface
+-
+>
+IsDecoded
+(
+)
 )
 {
 return
