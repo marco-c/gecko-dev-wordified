@@ -411,6 +411,14 @@ GetBuffered
 )
 override
 ;
+virtual
+bool
+ForceZeroStartTime
+(
+)
+const
+override
+;
 /
 /
 For
