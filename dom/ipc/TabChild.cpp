@@ -11382,6 +11382,9 @@ GetDocShell
 if
 (
 docshell
+&
+&
+sf
 )
 {
 nsDocShell
@@ -11406,6 +11409,12 @@ nsdocshell
 >
 NotifyAsyncPanZoomStarted
 (
+sf
+-
+>
+GetScrollPositionCSSPixels
+(
+)
 )
 ;
 }
@@ -11486,6 +11495,9 @@ GetDocShell
 if
 (
 docshell
+&
+&
+sf
 )
 {
 nsDocShell
@@ -11510,6 +11522,12 @@ nsdocshell
 >
 NotifyAsyncPanZoomStopped
 (
+sf
+-
+>
+GetScrollPositionCSSPixels
+(
+)
 )
 ;
 }
