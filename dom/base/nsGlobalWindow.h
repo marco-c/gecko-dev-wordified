@@ -8059,6 +8059,11 @@ FireOfflineStatusEventIfChanged
 (
 )
 ;
+bool
+GetIsPrerendered
+(
+)
+;
 /
 /
 Inner
