@@ -23704,7 +23704,7 @@ if
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 &

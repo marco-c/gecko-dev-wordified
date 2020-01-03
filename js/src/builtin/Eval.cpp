@@ -3667,7 +3667,7 @@ MOZ_RELEASE_ASSERT
 scriptArg
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )

@@ -16323,7 +16323,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
