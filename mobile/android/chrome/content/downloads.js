@@ -1832,15 +1832,9 @@ DOWNLOAD_QUEUED
 {
 if
 (
-!
-ParentalControls
+BrowserApp
 .
-isAllowed
-(
-ParentalControls
-.
-DOWNLOADS
-)
+isGuest
 )
 {
 aDownload
