@@ -922,6 +922,7 @@ DOMStringList
 ObjectStoreNames
 (
 )
+const
 ;
 void
 FireCompleteOrAbortEvents

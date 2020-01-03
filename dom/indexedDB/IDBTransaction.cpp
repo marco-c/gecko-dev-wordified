@@ -4228,6 +4228,7 @@ IDBTransaction
 ObjectStoreNames
 (
 )
+const
 {
 AssertIsOnOwningThread
 (
