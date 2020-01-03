@@ -130,18 +130,6 @@ use_static_list
 true
 )
 ;
-pref
-(
-"
-security
-.
-tls
-.
-unrestricted_rc4_fallback
-"
-true
-)
-;
 #
 else
 pref
@@ -158,6 +146,8 @@ use_static_list
 false
 )
 ;
+#
+endif
 pref
 (
 "
@@ -170,8 +160,6 @@ unrestricted_rc4_fallback
 false
 )
 ;
-#
-endif
 pref
 (
 "
