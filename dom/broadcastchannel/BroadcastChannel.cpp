@@ -1127,6 +1127,7 @@ nsICancelableRunnable
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 CloseRunnable
 (
 BroadcastChannel
@@ -1206,6 +1207,7 @@ nsICancelableRunnable
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 TeardownRunnable
 (
 BroadcastChannelChild
@@ -1307,6 +1309,7 @@ mChannel
 ;
 public
 :
+explicit
 BroadcastChannelFeature
 (
 BroadcastChannel
@@ -1518,6 +1521,7 @@ public
 bool
 mResult
 ;
+explicit
 CheckPermissionRunnable
 (
 workers
