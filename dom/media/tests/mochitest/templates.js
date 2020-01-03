@@ -3484,6 +3484,7 @@ PC_REMOTE_CHECK_STATS
 test
 )
 {
+return
 test
 .
 pcRemote
@@ -3520,6 +3521,7 @@ PC_LOCAL_CHECK_ICE_CONNECTION_TYPE
 test
 )
 {
+return
 test
 .
 pcLocal
@@ -3553,6 +3555,7 @@ PC_REMOTE_CHECK_ICE_CONNECTION_TYPE
 test
 )
 {
+return
 test
 .
 pcRemote
@@ -3586,6 +3589,7 @@ PC_LOCAL_CHECK_ICE_CONNECTIONS
 test
 )
 {
+return
 test
 .
 pcLocal
@@ -3628,6 +3632,7 @@ PC_REMOTE_CHECK_ICE_CONNECTIONS
 test
 )
 {
+return
 test
 .
 pcRemote
