@@ -8526,9 +8526,6 @@ Length
 ;
 if
 (
-ok
-&
-&
 NS_SUCCEEDED
 (
 rv
@@ -8601,10 +8598,6 @@ NS_OK
 if
 (
 !
-ok
-|
-|
-!
 mLRUKeyToDelete
 |
 |
@@ -8619,11 +8612,7 @@ key
 ;
 mLRUStamp
 =
-ok
-?
 lastHit
-:
-0
 ;
 }
 return
