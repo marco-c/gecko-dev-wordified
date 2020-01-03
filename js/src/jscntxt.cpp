@@ -1446,6 +1446,16 @@ options
 autoJSAPIOwnsErrorReporting
 (
 )
+&
+&
+!
+JSREPORT_IS_WARNING
+(
+reportp
+-
+>
+flags
+)
 )
 return
 ;
