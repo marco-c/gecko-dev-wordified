@@ -428,11 +428,16 @@ passwordValue
 =
 crypto
 .
+stringToArray
+(
+crypto
+.
 encryptData
 (
 login
 .
 password
+)
 )
 ;
 stmt
