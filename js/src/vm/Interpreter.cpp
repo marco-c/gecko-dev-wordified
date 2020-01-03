@@ -24440,16 +24440,6 @@ CASE
 JSOP_INITHOMEOBJECT
 )
 {
-uint8_t
-skipOver
-=
-GET_UINT8
-(
-REGS
-.
-pc
-)
-;
 MOZ_ASSERT
 (
 REGS
@@ -24460,8 +24450,6 @@ stackDepth
 >
 =
 2
-+
-skipOver
 )
 ;
 /
@@ -24535,8 +24523,6 @@ sp
 [
 -
 2
--
-skipOver
 ]
 .
 toObject
