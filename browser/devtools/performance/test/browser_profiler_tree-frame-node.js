@@ -595,8 +595,6 @@ fileName
 bar
 .
 js
-#
-baz
 "
 "
 The
@@ -931,8 +929,7 @@ getInfo
 .
 fileName
 "
-#
-bar
+/
 "
 "
 The
