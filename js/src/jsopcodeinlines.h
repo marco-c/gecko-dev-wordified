@@ -305,7 +305,7 @@ pc
 static
 inline
 unsigned
-GetWarmUpCounter
+GetUseCount
 (
 JSScript
 *

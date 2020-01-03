@@ -2766,7 +2766,7 @@ stackDepth
 uint32_t
 nuses
 =
-GetWarmUpCounter
+GetUseCount
 (
 script_
 offset

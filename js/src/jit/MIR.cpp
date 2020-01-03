@@ -2330,7 +2330,7 @@ size_t
 MDefinition
 :
 :
-warmUpCounter
+useCount
 (
 )
 const
@@ -2377,7 +2377,7 @@ size_t
 MDefinition
 :
 :
-defWarmUpCounter
+defUseCount
 (
 )
 const

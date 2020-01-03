@@ -4951,7 +4951,7 @@ uint32_t
 sourceEnd_
 ;
 uint32_t
-warmUpCounter
+warmUpCount
 ;
 /
 *
@@ -8339,13 +8339,13 @@ cx
 public
 :
 uint32_t
-getWarmUpCounter
+getWarmUpCount
 (
 )
 const
 {
 return
-warmUpCounter
+warmUpCount
 ;
 }
 uint32_t
@@ -8358,7 +8358,7 @@ amount
 )
 {
 return
-warmUpCounter
+warmUpCount
 +
 =
 amount
@@ -8372,7 +8372,7 @@ addressOfWarmUpCounter
 {
 return
 &
-warmUpCounter
+warmUpCount
 ;
 }
 static
@@ -8385,7 +8385,7 @@ return
 offsetof
 (
 JSScript
-warmUpCounter
+warmUpCount
 )
 ;
 }
@@ -8394,7 +8394,7 @@ resetWarmUpCounter
 (
 )
 {
-warmUpCounter
+warmUpCount
 =
 0
 ;

@@ -745,7 +745,7 @@ JitOptions
 setCompilerWarmUpThreshold
 (
 uint32_t
-warmUpCounter
+warmUpThreshold
 )
 {
 forceDefaultIonWarmUpThreshold
@@ -754,7 +754,7 @@ true
 ;
 forcedDefaultIonWarmUpThreshold
 =
-warmUpCounter
+warmUpThreshold
 ;
 /
 /
@@ -766,7 +766,7 @@ if
 eagerCompilation
 &
 &
-warmUpCounter
+warmUpThreshold
 !
 =
 0

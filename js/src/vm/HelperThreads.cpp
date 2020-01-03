@@ -3497,7 +3497,7 @@ script
 )
 -
 >
-getWarmUpCounter
+getWarmUpCount
 (
 )
 /
@@ -3521,7 +3521,7 @@ script
 )
 -
 >
-getWarmUpCounter
+getWarmUpCount
 (
 )
 /

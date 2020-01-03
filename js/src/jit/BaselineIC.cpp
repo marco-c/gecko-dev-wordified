@@ -464,7 +464,7 @@ pc
 script
 -
 >
-getWarmUpCounter
+getWarmUpCount
 (
 )
 (
@@ -630,7 +630,7 @@ pc
 script
 -
 >
-getWarmUpCounter
+getWarmUpCount
 (
 )
 (
@@ -7576,7 +7576,7 @@ int
 script
 -
 >
-getWarmUpCounter
+getWarmUpCount
 (
 )
 (

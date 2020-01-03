@@ -794,7 +794,7 @@ if
 script
 -
 >
-getWarmUpCounter
+getWarmUpCount
 (
 )
 <

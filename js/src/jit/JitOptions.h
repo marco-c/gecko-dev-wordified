@@ -310,7 +310,7 @@ void
 setCompilerWarmUpThreshold
 (
 uint32_t
-warmUpCounter
+warmUpThreshold
 )
 ;
 void
