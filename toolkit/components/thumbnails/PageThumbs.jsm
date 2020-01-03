@@ -1229,7 +1229,7 @@ canvas
 =
 this
 .
-_createCanvas
+createCanvas
 (
 )
 ;
@@ -1396,7 +1396,7 @@ canvas
 =
 this
 .
-_createCanvas
+createCanvas
 (
 )
 ;
@@ -2978,7 +2978,7 @@ canvas
 .
 *
 /
-_createCanvas
+createCanvas
 :
 function
 PageThumbs_createCanvas
