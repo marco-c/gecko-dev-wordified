@@ -2257,7 +2257,7 @@ msisdn
 .
 *
 see
-nsIDOMMozGsmIccInfo
+nsIGsmIccInfo
 *
 *
 Otherwise
@@ -2270,7 +2270,7 @@ mdn
 .
 *
 see
-nsIDOMMozCdmaIccInfo
+nsICdmaIccInfo
 *
 /
 getPhoneNumber
@@ -2345,7 +2345,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMMozCdmaIccInfo
+nsICdmaIccInfo
 )
 ;
 number
@@ -2365,7 +2365,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMMozGsmIccInfo
+nsIGsmIccInfo
 )
 ;
 number
