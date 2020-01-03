@@ -671,6 +671,7 @@ nullptr
 )
 ;
 }
+const
 JSStructuredCloneCallbacks
 gCallbacks
 =

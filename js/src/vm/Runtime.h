@@ -4884,6 +4884,7 @@ conversion
 .
 *
 /
+const
 JSLocaleCallbacks
 *
 localeCallbacks

@@ -539,6 +539,7 @@ aWorkerPrivate
 Promise
 *
 aWorkerPromise
+const
 JSStructuredCloneCallbacks
 *
 aCallbacks
@@ -743,6 +744,7 @@ has
 been
 done
 .
+const
 JSStructuredCloneCallbacks
 *
 mCallbacks

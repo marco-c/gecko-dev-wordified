@@ -1568,6 +1568,7 @@ aRes
 )
 {
 static
+const
 bt_callbacks_t
 sBluetoothCallbacks
 =

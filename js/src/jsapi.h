@@ -11516,6 +11516,7 @@ JS_SetCTypesCallbacks
 JSObject
 *
 ctypesObj
+const
 JSCTypesCallbacks
 *
 callbacks
@@ -30739,6 +30740,7 @@ JS_SetLocaleCallbacks
 JSRuntime
 *
 rt
+const
 JSLocaleCallbacks
 *
 callbacks
@@ -30767,6 +30769,7 @@ nullptr
 extern
 JS_PUBLIC_API
 (
+const
 JSLocaleCallbacks
 *
 )

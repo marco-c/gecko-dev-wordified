@@ -4093,6 +4093,7 @@ Security
 policy
 :
 static
+const
 JSSecurityCallbacks
 securityCallbacks
 =
@@ -4118,6 +4119,7 @@ js
 cache
 callbacks
 static
+const
 JS
 :
 :
