@@ -542,15 +542,15 @@ return
         
 if
 ide
-=
-=
+in
+(
 '
 androidstudio
 '
-or
 '
 intellij
 '
+)
 :
             
 res
