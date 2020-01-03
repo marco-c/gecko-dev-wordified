@@ -208,6 +208,7 @@ bool
 isParent
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
