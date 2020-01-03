@@ -1087,6 +1087,11 @@ AutoNotifyDecoded
 (
 )
 {
+if
+(
+mDecoder
+)
+{
 mDecoder
 -
 >
@@ -1096,6 +1101,7 @@ mParsed
 mDecoded
 )
 ;
+}
 }
 private
 :
