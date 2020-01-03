@@ -72,7 +72,6 @@ coffee
 ;
 let
 gTab
-gDebuggee
 gPanel
 gDebugger
 ;
@@ -95,7 +94,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -105,10 +103,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -975,10 +969,12 @@ the
 paused
 state
 .
-gDebuggee
-.
-binary_search
+callInTab
 (
+gTab
+"
+binary_search
+"
 [
 0
 2
@@ -1287,10 +1283,6 @@ function
 )
 {
 gTab
-=
-null
-;
-gDebuggee
 =
 null
 ;

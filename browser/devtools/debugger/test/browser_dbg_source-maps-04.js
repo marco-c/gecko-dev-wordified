@@ -150,7 +150,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
