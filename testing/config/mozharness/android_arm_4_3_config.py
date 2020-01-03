@@ -92,7 +92,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -100,7 +99,6 @@ dm_trans
 =
 adb
 "
-                
 "
 -
 -
@@ -112,7 +110,6 @@ app
 )
 s
 "
-                
 "
 -
 -
@@ -140,7 +137,6 @@ xre_path
 )
 s
 "
-                
 "
 -
 -
@@ -168,7 +164,6 @@ http_port
 )
 s
 "
-                
 "
 -
 -
@@ -196,7 +191,6 @@ certs_path
 )
 s
 "
-                
 "
 -
 -
@@ -216,7 +210,6 @@ s
 -
 quiet
 "
-                
 "
 -
 -
@@ -230,21 +223,6 @@ raw_log_file
 )
 s
 "
-                
-"
--
--
-log
--
-errorsummary
-=
-%
-(
-error_summary_file
-)
-s
-"
-                
 "
 -
 -
@@ -290,7 +268,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -298,7 +275,6 @@ dm_trans
 =
 adb
 "
-                
 "
 -
 -
@@ -310,7 +286,6 @@ app
 )
 s
 "
-                
 "
 -
 -
@@ -338,7 +313,6 @@ xre_path
 )
 s
 "
-                
 "
 -
 -
@@ -366,7 +340,6 @@ http_port
 )
 s
 "
-                
 "
 -
 -
@@ -394,7 +367,6 @@ certs_path
 )
 s
 "
-                
 "
 -
 -
@@ -414,7 +386,6 @@ s
 -
 quiet
 "
-                
 "
 -
 -
@@ -428,21 +399,6 @@ raw_log_file
 )
 s
 "
-                
-"
--
--
-log
--
-errorsummary
-=
-%
-(
-error_summary_file
-)
-s
-"
-                
 "
 -
 -
@@ -504,7 +460,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -512,7 +467,6 @@ dm_trans
 =
 adb
 "
-                
 "
 -
 -
@@ -524,7 +478,6 @@ app
 )
 s
 "
-                
 "
 -
 -
@@ -552,7 +505,6 @@ xre_path
 )
 s
 "
-                
 "
 -
 -
@@ -580,7 +532,6 @@ http_port
 )
 s
 "
-                
 "
 -
 -
@@ -608,7 +559,6 @@ certs_path
 )
 s
 "
-                
 "
 -
 -
@@ -628,7 +578,6 @@ s
 -
 quiet
 "
-                
 "
 -
 -
@@ -639,20 +588,6 @@ raw
 %
 (
 raw_log_file
-)
-s
-"
-                
-"
--
--
-log
--
-errorsummary
-=
-%
-(
-error_summary_file
 )
 s
 "
@@ -730,7 +665,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -742,7 +676,6 @@ app
 )
 s
 "
-                
 "
 -
 -
@@ -780,7 +713,6 @@ remote_webserver
 )
 s
 "
-                
 "
 -
 -
@@ -808,7 +740,6 @@ utility_path
 )
 s
 "
-                
 "
 -
 -
@@ -836,7 +767,6 @@ ssl_port
 )
 s
 "
-                
 "
 -
 -
@@ -921,7 +851,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -933,7 +862,6 @@ app
 )
 s
 "
-                
 "
 -
 -
@@ -971,7 +899,6 @@ remote_webserver
 )
 s
 "
-                
 "
 -
 -
@@ -999,7 +926,6 @@ utility_path
 )
 s
 "
-                
 "
 -
 -
@@ -1027,7 +953,6 @@ ssl_port
 )
 s
 "
-                
 "
 -
 -
@@ -1035,7 +960,6 @@ httpd
 -
 path
 "
-                
 "
 %
 (
@@ -1113,7 +1037,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -1125,7 +1048,6 @@ app
 )
 s
 "
-                
 "
 -
 -
@@ -1342,7 +1264,6 @@ xre_path
 )
 s
 "
-                
 "
 -
 -
@@ -1370,7 +1291,6 @@ installer_path
 )
 s
 "
-                
 "
 -
 -
@@ -1415,20 +1335,6 @@ raw
 %
 (
 raw_log_file
-)
-s
-"
-                
-"
--
--
-log
--
-errorsummary
-=
-%
-(
-error_summary_file
 )
 s
 "
