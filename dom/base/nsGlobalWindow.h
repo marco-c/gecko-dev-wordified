@@ -8725,11 +8725,6 @@ aURL
 )
 ;
 bool
-IsPrivateBrowsing
-(
-)
-;
-bool
 PopupWhitelisted
 (
 )

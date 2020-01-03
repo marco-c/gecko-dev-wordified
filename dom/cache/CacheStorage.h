@@ -270,8 +270,6 @@ aGlobal
 nsIPrincipal
 *
 aPrincipal
-bool
-aPrivateBrowsing
 ErrorResult
 &
 aRv
@@ -551,13 +549,6 @@ Feature
 aFeature
 )
 ;
-explicit
-CacheStorage
-(
-nsresult
-aFailureResult
-)
-;
 ~
 CacheStorage
 (
@@ -619,8 +610,8 @@ Entry
 >
 mPendingRequests
 ;
-nsresult
-mStatus
+bool
+mFailedActor
 ;
 public
 :
