@@ -3098,6 +3098,11 @@ aWhichFrame
 )
 const
 ;
+nsIntRect
+GetFirstFrameRect
+(
+)
+;
 size_t
 SizeOfDecodedWithComputedFallbackIfHeap
 (
@@ -3751,6 +3756,9 @@ notifications
 .
 ImageStatusDiff
 mStatusDiff
+;
+nsIntRect
+mInvalidRect
 ;
 bool
 mNotifying
