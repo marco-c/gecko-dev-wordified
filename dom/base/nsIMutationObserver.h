@@ -402,6 +402,7 @@ mReplaceLength
 *
 /
 struct
+MOZ_STACK_CLASS
 Details
 {
 enum
@@ -470,6 +471,7 @@ node
 /
 nsIContent
 *
+MOZ_NON_OWNING_REF
 mNextSibling
 ;
 }
