@@ -995,12 +995,6 @@ PREF_HASHTABLE_INITIAL_LENGTH
 )
 )
 {
-gHashTable
-.
-ops
-=
-nullptr
-;
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
@@ -1132,12 +1126,6 @@ PL_DHashTableFinish
 &
 gHashTable
 )
-;
-gHashTable
-.
-ops
-=
-nullptr
 ;
 PL_FinishArenaPool
 (

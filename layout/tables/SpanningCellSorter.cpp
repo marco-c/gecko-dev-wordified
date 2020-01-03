@@ -177,12 +177,6 @@ mArray
 )
 )
 ;
-mHashTable
-.
-ops
-=
-nullptr
-;
 }
 SpanningCellSorter
 :
@@ -204,12 +198,6 @@ PL_DHashTableFinish
 &
 mHashTable
 )
-;
-mHashTable
-.
-ops
-=
-nullptr
 ;
 }
 delete

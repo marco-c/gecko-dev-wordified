@@ -5202,12 +5202,6 @@ mRootCount
 0
 )
 {
-mPtrToNodeMap
-.
-ops
-=
-nullptr
-;
 }
 ~
 CCGraph
@@ -5296,12 +5290,6 @@ PL_DHashTableFinish
 &
 mPtrToNodeMap
 )
-;
-mPtrToNodeMap
-.
-ops
-=
-nullptr
 ;
 }
 #

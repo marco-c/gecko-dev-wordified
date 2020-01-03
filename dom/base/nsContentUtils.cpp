@@ -9981,12 +9981,6 @@ PL_DHashTableFinish
 sEventListenerManagersHash
 )
 ;
-sEventListenerManagersHash
-.
-ops
-=
-nullptr
-;
 }
 }
 NS_ASSERTION

@@ -5054,12 +5054,6 @@ PL_DHashTableFinish
 gContentListHashTable
 )
 ;
-gContentListHashTable
-.
-ops
-=
-nullptr
-;
 }
 }
 void
@@ -5233,12 +5227,6 @@ PL_DHashTableFinish
 &
 gFuncStringContentListHashTable
 )
-;
-gFuncStringContentListHashTable
-.
-ops
-=
-nullptr
 ;
 }
 }

@@ -249,12 +249,6 @@ mIsDestroyingFrames
 false
 )
 {
-mPlaceholderMap
-.
-ops
-=
-nullptr
-;
 }
 bool
 IsDestroyingFrames
