@@ -1586,6 +1586,11 @@ EditAction
 :
 insertBreak
 :
+UndefineCaretBidiLevel
+(
+aSelection
+)
+;
 return
 WillInsertBreak
 (
@@ -1610,6 +1615,11 @@ EditAction
 :
 insertIMEText
 :
+UndefineCaretBidiLevel
+(
+aSelection
+)
+;
 return
 WillInsertText
 (

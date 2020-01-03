@@ -1325,6 +1325,14 @@ outBRNode
 nullptr
 )
 ;
+void
+UndefineCaretBidiLevel
+(
+Selection
+*
+aSelection
+)
+;
 nsresult
 CheckBidiLevelForDeletion
 (
