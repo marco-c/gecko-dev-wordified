@@ -248,7 +248,7 @@ OnVisibilityChangeListener
 onVisibilityChangeListener
 ;
 protected
-LinearLayout
+RoundedCornerLayout
 mContent
 ;
 protected
@@ -438,7 +438,7 @@ layout
 mContent
 =
 (
-LinearLayout
+RoundedCornerLayout
 )
 layout
 .
