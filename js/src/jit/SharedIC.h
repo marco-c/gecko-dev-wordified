@@ -9285,6 +9285,8 @@ Compiler
 JSContext
 *
 cx
+Engine
+engine
 )
 :
 ICStubCompiler
@@ -9294,10 +9296,7 @@ ICStub
 :
 :
 UnaryArith_Fallback
-Engine
-:
-:
-Baseline
+engine
 )
 {
 }
@@ -9379,6 +9378,8 @@ JSContext
 cx
 JSOp
 op
+Engine
+engine
 )
 :
 ICMultiStubCompiler
@@ -9389,10 +9390,7 @@ ICStub
 :
 UnaryArith_Int32
 op
-Engine
-:
-:
-Baseline
+engine
 )
 {
 }
@@ -9474,6 +9472,8 @@ JSContext
 cx
 JSOp
 op
+Engine
+engine
 )
 :
 ICMultiStubCompiler
@@ -9484,10 +9484,7 @@ ICStub
 :
 UnaryArith_Double
 op
-Engine
-:
-:
-Baseline
+engine
 )
 {
 }
