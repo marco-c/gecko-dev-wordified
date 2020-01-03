@@ -358,16 +358,6 @@ false
 ;
 /
 /
-Reset
-the
-VideoFrameContainer
-void
-Reset
-(
-)
-;
-/
-/
 Time
 in
 seconds
