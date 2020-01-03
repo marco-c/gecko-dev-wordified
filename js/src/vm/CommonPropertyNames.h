@@ -1759,6 +1759,17 @@ star
 \
 macro
 (
+starDefaultStar
+starDefaultStar
+"
+*
+default
+*
+"
+)
+\
+macro
+(
 startTimestamp
 startTimestamp
 "

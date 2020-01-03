@@ -1509,6 +1509,9 @@ case
 PNK_EXPORT
 :
 case
+PNK_EXPORT_DEFAULT
+:
+case
 PNK_SUPERELEM
 :
 return

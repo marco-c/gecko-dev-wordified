@@ -2602,6 +2602,13 @@ InAllowed
 InProhibited
 }
 ;
+enum
+DefaultHandling
+{
+NameRequired
+AllowDefaultName
+}
+;
 template
 <
 typename
@@ -3836,6 +3843,8 @@ functionStmt
 (
 YieldHandling
 yieldHandling
+DefaultHandling
+defaultHandling
 )
 ;
 Node
@@ -4403,6 +4412,8 @@ YieldHandling
 yieldHandling
 ClassContext
 classContext
+DefaultHandling
+defaultHandling
 )
 ;
 Node
