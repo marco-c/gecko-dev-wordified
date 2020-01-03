@@ -8388,9 +8388,6 @@ IDBObjectStore
 :
 CreateIndex
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -8427,7 +8424,6 @@ KeyPath
 :
 Parse
 (
-aCx
 aKeyPath
 &
 keyPath
@@ -8457,7 +8453,6 @@ nullptr
 return
 CreateIndexInternal
 (
-aCx
 aName
 keyPath
 aOptionalParameters
@@ -8474,9 +8469,6 @@ IDBObjectStore
 :
 CreateIndex
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -8523,7 +8515,6 @@ KeyPath
 :
 Parse
 (
-aCx
 aKeyPath
 &
 keyPath
@@ -8553,7 +8544,6 @@ nullptr
 return
 CreateIndexInternal
 (
-aCx
 aName
 keyPath
 aOptionalParameters
@@ -8570,9 +8560,6 @@ IDBObjectStore
 :
 CreateIndexInternal
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
