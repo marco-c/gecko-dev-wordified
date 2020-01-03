@@ -14936,7 +14936,7 @@ const
 unsigned
 JS_FUNCTION_INTERPRETED_BITS
 =
-0x401
+0x0201
 ;
 /
 /
