@@ -3442,14 +3442,12 @@ acronym
 title
 ]
 {
-border
+text
 -
-block
--
-end
+decoration
 :
 dotted
-1px
+underline
 ;
 }
 /
