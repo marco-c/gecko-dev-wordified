@@ -2453,14 +2453,6 @@ this
 channel
 )
 ;
-if
-(
-!
-fontLoader
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 #
 ifdef
 PR_LOGGING
