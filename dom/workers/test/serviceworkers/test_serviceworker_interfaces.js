@@ -325,6 +325,9 @@ RangeError
 ReferenceError
 "
 "
+Reflect
+"
+"
 RegExp
 "
 "

@@ -149,6 +149,15 @@ include
 "
 jit
 /
+BaselineJIT
+.
+h
+"
+#
+include
+"
+jit
+/
 MacroAssembler
 .
 h

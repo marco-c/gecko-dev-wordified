@@ -1209,6 +1209,14 @@ SavedFrame
 class_
 )
 \
+real
+(
+Reflect
+55
+InitReflect
+nullptr
+)
+\
 #
 define
 JS_FOR_EACH_PROTOTYPE

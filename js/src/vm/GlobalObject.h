@@ -5690,6 +5690,11 @@ ProtoKeyToClass
 key
 )
 ;
+MOZ_ASSERT
+(
+clasp
+)
+;
 JSProtoKey
 parentKey
 =
