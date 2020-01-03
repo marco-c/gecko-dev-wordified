@@ -1060,6 +1060,7 @@ char
 *
 uri
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSource
@@ -1077,6 +1078,7 @@ nsIRDFResource
 *
 source
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1107,6 +1109,7 @@ nsISimpleEnumerator
 *
 sources
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1137,6 +1140,7 @@ nsIRDFNode
 *
 target
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1167,6 +1171,7 @@ nsISimpleEnumerator
 *
 targets
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1196,6 +1201,7 @@ aTarget
 bool
 tv
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Unassert
@@ -1210,6 +1216,7 @@ nsIRDFNode
 *
 target
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Change
@@ -1227,6 +1234,7 @@ nsIRDFNode
 *
 aNewTarget
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Move
@@ -1244,6 +1252,7 @@ nsIRDFNode
 *
 aTarget
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HasAssertion
@@ -1263,6 +1272,7 @@ bool
 *
 hasAssertion
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1285,6 +1295,7 @@ nsIRDFObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1303,6 +1314,7 @@ nsIRDFObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1327,6 +1339,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1353,6 +1366,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1377,6 +1391,7 @@ nsISimpleEnumerator
 *
 labels
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1400,6 +1415,7 @@ nsISimpleEnumerator
 *
 labels
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1420,6 +1436,7 @@ nsISimpleEnumerator
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1449,6 +1466,7 @@ nsIRDFResource
 *
 commands
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1491,6 +1509,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1532,6 +1551,7 @@ nsIRDFResource
 *
 aArguments
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -1580,6 +1600,7 @@ NS_IMETHOD
 BeginUpdateBatch
 (
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1594,6 +1615,7 @@ NS_IMETHOD
 EndUpdateBatch
 (
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1645,6 +1667,7 @@ rdfITripleVisitor
 *
 aVisitor
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -1689,6 +1712,7 @@ rdfITripleVisitor
 *
 aVisitor
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv

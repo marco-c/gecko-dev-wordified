@@ -2983,6 +2983,7 @@ PRTime
 *
 value
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -3492,6 +3493,7 @@ int32_t
 *
 value
 )
+MOZ_OVERRIDE
 ;
 private
 :

@@ -474,6 +474,7 @@ char
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSource
@@ -491,6 +492,7 @@ nsIRDFResource
 *
 aSource
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -521,6 +523,7 @@ nsISimpleEnumerator
 *
 aSources
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -551,6 +554,7 @@ nsIRDFNode
 *
 aTarget
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -581,6 +585,7 @@ nsISimpleEnumerator
 *
 aTargets
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -610,6 +615,7 @@ aTarget
 bool
 aTruthValue
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -637,6 +643,7 @@ nsIRDFNode
 *
 aTarget
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -666,6 +673,7 @@ nsIRDFNode
 *
 aNewTarget
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -696,6 +704,7 @@ nsIRDFNode
 *
 aTarget
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -728,6 +737,7 @@ bool
 *
 hasAssertion
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -750,6 +760,7 @@ nsIRDFObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -762,6 +773,7 @@ nsIRDFObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -780,6 +792,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -806,6 +819,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -830,6 +844,7 @@ nsISimpleEnumerator
 *
 aLabels
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -853,6 +868,7 @@ nsISimpleEnumerator
 *
 aLabels
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -873,6 +889,7 @@ nsISimpleEnumerator
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -902,6 +919,7 @@ nsIRDFResource
 *
 aCommands
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsCommandEnabled
@@ -933,6 +951,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoCommand
@@ -961,11 +980,13 @@ nsIRDFResource
 *
 aArguments
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BeginUpdateBatch
 (
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -980,6 +1001,7 @@ NS_IMETHOD
 EndUpdateBatch
 (
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -997,6 +1019,7 @@ bool
 *
 _result
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -1006,11 +1029,13 @@ char
 *
 uri
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Flush
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 FlushTo
@@ -1020,6 +1045,7 @@ char
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Refresh
@@ -1027,6 +1053,7 @@ Refresh
 bool
 sync
 )
+MOZ_OVERRIDE
 ;
 /
 /

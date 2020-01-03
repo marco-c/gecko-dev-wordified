@@ -194,6 +194,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -208,6 +209,7 @@ char
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetValue
@@ -217,6 +219,7 @@ char
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetValueUTF8
@@ -225,6 +228,7 @@ nsACString
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetValueConst
@@ -235,6 +239,7 @@ char
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 EqualsString
@@ -247,6 +252,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDelegate
@@ -262,6 +268,7 @@ void
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ReleaseDelegate
@@ -271,6 +278,7 @@ char
 *
 aKey
 )
+MOZ_OVERRIDE
 ;
 /
 /
