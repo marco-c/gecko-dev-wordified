@@ -307,6 +307,12 @@ MediaDataDecoderCallback
 >
 mCallback
 ;
+/
+/
+access
+protected
+by
+mMonitor
 bool
 mWaitForInternalDrain
 ;
