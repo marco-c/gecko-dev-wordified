@@ -14783,7 +14783,7 @@ alloc
 )
 LLoadSlotV
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -14828,7 +14828,7 @@ alloc
 )
 LLoadSlotT
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -20948,7 +20948,7 @@ alloc
 )
 LLoadFixedSlotV
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -20980,7 +20980,7 @@ alloc
 )
 LLoadFixedSlotT
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -26265,7 +26265,7 @@ alloc
 )
 LGetDOMMember
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
