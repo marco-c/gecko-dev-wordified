@@ -4078,7 +4078,7 @@ Sides
 aSkipSides
 )
 {
-SN
+PrintAsStringNewline
 (
 "
 +
@@ -4417,7 +4417,7 @@ joinedBorderArea
 bgRadii
 )
 ;
-SF
+PrintAsFormatString
 (
 "
 joinedBorderArea
@@ -4837,7 +4837,7 @@ ourColor
 mColor
 ;
 }
-SF
+PrintAsFormatString
 (
 "
 borderStyles
@@ -4873,7 +4873,7 @@ borderStyles
 ;
 /
 /
-SF
+PrintAsFormatString
 (
 "
 bgRadii
@@ -5003,7 +5003,7 @@ Restore
 (
 )
 ;
-SN
+PrintAsStringNewline
 (
 )
 ;
@@ -5773,7 +5773,7 @@ Restore
 (
 )
 ;
-SN
+PrintAsStringNewline
 (
 )
 ;
@@ -6046,7 +6046,7 @@ Restore
 (
 )
 ;
-SN
+PrintAsStringNewline
 (
 )
 ;
