@@ -7297,6 +7297,16 @@ to
 fire
 )
 /
+/
+xxx
+-
+gfxPangoFontGroup
+skips
+UpdateUserFonts
+bool
+mSkipUpdateUserFonts
+;
+/
 *
 *
 *
