@@ -3580,13 +3580,6 @@ obj
 MOZ_ASSERT
 (
 obj
-&
-&
-!
-IsPoisonedPtr
-(
-obj
-)
 )
 ;
 /
@@ -4301,13 +4294,6 @@ generatorKind
 MOZ_ASSERT
 (
 fun
-&
-&
-!
-IsPoisonedPtr
-(
-fun
-)
 )
 ;
 /

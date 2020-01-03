@@ -2356,15 +2356,6 @@ Value
 v
 )
 {
-MOZ_ASSERT
-(
-!
-IsPoisonedValue
-(
-v
-)
-)
-;
 /
 /
 overRecursed_
