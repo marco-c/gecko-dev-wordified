@@ -3739,10 +3739,10 @@ get_ObjectVariant
 )
 ;
 }
-CpowIdHolder
+CrossProcessCpowHolder
 :
 :
-CpowIdHolder
+CrossProcessCpowHolder
 (
 dom
 :
@@ -3801,7 +3801,7 @@ GetCPOWManager
 ;
 }
 bool
-CpowIdHolder
+CrossProcessCpowHolder
 :
 :
 ToObject

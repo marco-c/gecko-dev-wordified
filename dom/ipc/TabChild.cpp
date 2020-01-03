@@ -16652,7 +16652,7 @@ get
 )
 )
 ;
-CpowIdHolder
+CrossProcessCpowHolder
 cpows
 (
 Manager
