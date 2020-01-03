@@ -737,7 +737,6 @@ nsAutoPtr
 nsTArray
 <
 nsWebBrowserListenerState
-*
 >
 >
 mListenerArray
