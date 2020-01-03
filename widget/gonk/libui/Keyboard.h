@@ -589,6 +589,16 @@ int32_t
 axisId
 )
 ;
+extern
+int32_t
+getLedByLabel
+(
+const
+char
+*
+label
+)
+;
 /
 *
 *
