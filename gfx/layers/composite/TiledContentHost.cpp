@@ -3250,7 +3250,7 @@ return
 }
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 source
 =
@@ -3265,7 +3265,7 @@ GetTextureSources
 ;
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 sourceOnWhite
 =

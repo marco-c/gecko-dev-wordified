@@ -145,7 +145,7 @@ class
 GrallocTextureSourceOGL
 :
 public
-NewTextureSource
+TextureSource
 public
 TextureSourceOGL
 {
@@ -524,7 +524,7 @@ GetRenderState
 MOZ_OVERRIDE
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSources
 (

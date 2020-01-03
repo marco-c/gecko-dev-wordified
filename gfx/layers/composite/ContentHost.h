@@ -778,7 +778,7 @@ nullptr
 )
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSource
 (
@@ -787,7 +787,7 @@ GetTextureSource
 0
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSourceOnWhite
 (
@@ -1082,7 +1082,7 @@ false
 ;
 }
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSource
 (
@@ -1104,7 +1104,7 @@ GetTextureSources
 ;
 }
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSourceOnWhite
 (
@@ -1624,7 +1624,7 @@ false
 ;
 }
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSource
 (
@@ -1632,7 +1632,7 @@ GetTextureSource
 MOZ_OVERRIDE
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSourceOnWhite
 (

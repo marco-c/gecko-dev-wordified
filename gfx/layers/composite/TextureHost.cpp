@@ -1936,7 +1936,7 @@ return
 }
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 it
 =
@@ -1980,7 +1980,7 @@ DeallocateDeviceData
 {
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 it
 =
@@ -2070,7 +2070,7 @@ mLocked
 false
 ;
 }
-NewTextureSource
+TextureSource
 *
 BufferTextureHost
 :
@@ -4575,7 +4575,7 @@ break
 }
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 newTexSource
 ;

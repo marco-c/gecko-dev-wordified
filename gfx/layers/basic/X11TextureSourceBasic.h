@@ -142,7 +142,7 @@ X11TextureSourceBasic
 public
 TextureSourceBasic
 public
-NewTextureSource
+TextureSource
 {
 public
 :

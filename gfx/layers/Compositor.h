@@ -976,7 +976,7 @@ class
 Layer
 ;
 class
-NewTextureSource
+TextureSource
 ;
 class
 DataTextureSource

@@ -1443,7 +1443,7 @@ aDescriptor
 )
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSources
 (
@@ -1619,7 +1619,7 @@ aDescriptor
 )
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSources
 (

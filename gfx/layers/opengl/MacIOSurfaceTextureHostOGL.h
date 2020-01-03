@@ -162,7 +162,7 @@ class
 MacIOSurfaceTextureSourceOGL
 :
 public
-NewTextureSource
+TextureSource
 public
 TextureSourceOGL
 {
@@ -408,7 +408,7 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSources
 (
