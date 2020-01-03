@@ -369,7 +369,7 @@ Matrix4x4
 )
 )
 ;
-ComputeEffectiveTransformForMaskLayers
+ComputeEffectiveTransformForMaskLayer
 (
 Matrix4x4
 (
@@ -426,7 +426,7 @@ ComputeEffectiveTransformsForChildren
 idealTransform
 )
 ;
-ComputeEffectiveTransformForMaskLayers
+ComputeEffectiveTransformForMaskLayer
 (
 aTransformToSurface
 )

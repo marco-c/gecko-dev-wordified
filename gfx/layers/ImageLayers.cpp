@@ -454,7 +454,7 @@ mEffectiveTransformForBuffer
 mEffectiveTransform
 ;
 }
-ComputeEffectiveTransformForMaskLayers
+ComputeEffectiveTransformForMaskLayer
 (
 aTransformToSurface
 )

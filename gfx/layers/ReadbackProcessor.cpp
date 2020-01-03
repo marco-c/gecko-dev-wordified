@@ -684,7 +684,7 @@ GetEffectiveOpacity
 l
 -
 >
-HasMaskLayers
+GetMaskLayer
 (
 )
 |
@@ -704,11 +704,9 @@ Layer
 CONTENT_OPAQUE
 )
 )
-{
 return
 nullptr
 ;
-}
 /
 /
 cliprects
