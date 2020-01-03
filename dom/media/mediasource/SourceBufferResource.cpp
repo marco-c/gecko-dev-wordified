@@ -379,7 +379,7 @@ aBytes
 p
 )
 "
-aBytes
+aBuffer
 aCount
 aBytes
 )
@@ -567,7 +567,6 @@ mEnded
 %
 d
 "
-this
 readOffset
 GetLength
 (
