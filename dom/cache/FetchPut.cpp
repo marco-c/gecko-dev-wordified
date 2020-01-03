@@ -910,7 +910,7 @@ MOZ_ASSERT
 mRunnable
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

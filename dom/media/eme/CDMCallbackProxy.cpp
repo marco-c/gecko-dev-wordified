@@ -311,7 +311,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -422,7 +422,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -597,7 +597,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -748,7 +748,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -865,7 +865,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -909,7 +909,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1071,7 +1071,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1166,7 +1166,7 @@ if
 keyStatusesChange
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1298,7 +1298,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

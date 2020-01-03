@@ -3195,7 +3195,7 @@ NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 #
 ifdef
 MOZ_TASK_TRACER
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

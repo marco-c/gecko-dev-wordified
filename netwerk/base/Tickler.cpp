@@ -359,7 +359,7 @@ event
 is
 safer
 .
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

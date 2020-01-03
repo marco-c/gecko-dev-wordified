@@ -5981,7 +5981,7 @@ aException
 }
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

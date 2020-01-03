@@ -1367,7 +1367,7 @@ aLevel
 ;
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

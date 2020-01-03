@@ -3250,7 +3250,7 @@ its
 waiting
 loop
 .
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -3425,7 +3425,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

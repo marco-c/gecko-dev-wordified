@@ -24081,7 +24081,7 @@ if
 mSSApplicableStateNotificationPending
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -28564,7 +28564,7 @@ if
 mSynchronousDOMContentLoaded
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

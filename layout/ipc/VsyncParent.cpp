@@ -331,7 +331,7 @@ IsOnBackgroundThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

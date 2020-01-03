@@ -3142,7 +3142,7 @@ MSE_DEBUG
 "
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

@@ -509,7 +509,7 @@ holding
 our
 monitor
 .
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

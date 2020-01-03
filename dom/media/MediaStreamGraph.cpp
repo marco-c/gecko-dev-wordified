@@ -15134,7 +15134,7 @@ mRunnable
 }
 private
 :
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

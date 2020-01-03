@@ -1183,7 +1183,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 else
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -16122,7 +16122,7 @@ nullptr
 signal
 shutdown
 complete
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

@@ -571,7 +571,7 @@ Init
 }
 else
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -708,7 +708,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -820,7 +820,7 @@ Shutdown
 (
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

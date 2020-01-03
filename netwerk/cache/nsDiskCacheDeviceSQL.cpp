@@ -4009,7 +4009,7 @@ mValid
 =
 false
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

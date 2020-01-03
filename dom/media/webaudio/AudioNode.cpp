@@ -2312,7 +2312,7 @@ different
 output
 ports
 .
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

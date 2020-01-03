@@ -821,7 +821,7 @@ Shutdown
 )
 directly
 .
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -941,7 +941,7 @@ thread
 "
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

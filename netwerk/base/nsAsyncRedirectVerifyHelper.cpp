@@ -1020,7 +1020,7 @@ called
 Init
 (
 )
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

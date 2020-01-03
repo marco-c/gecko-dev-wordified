@@ -2435,7 +2435,7 @@ mComponents
 ;
 }
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -3112,7 +3112,7 @@ ASSERT_ON_THREAD
 mMainThread
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

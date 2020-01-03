@@ -511,7 +511,7 @@ mCurrentlyExecutingLevel
 ;
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

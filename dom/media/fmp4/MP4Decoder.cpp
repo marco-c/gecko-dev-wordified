@@ -349,7 +349,7 @@ Capabilites
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

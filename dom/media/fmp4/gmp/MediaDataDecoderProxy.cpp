@@ -247,7 +247,7 @@ MOZ_ASSERT
 mIsShutdown
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -312,7 +312,7 @@ Set
 false
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -381,7 +381,7 @@ MOZ_ASSERT
 mIsShutdown
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -463,7 +463,7 @@ true
 ;
 #
 endif
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

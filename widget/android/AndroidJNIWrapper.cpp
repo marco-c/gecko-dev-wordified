@@ -419,7 +419,7 @@ rv
 jclass
 foundClass
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

@@ -2715,7 +2715,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

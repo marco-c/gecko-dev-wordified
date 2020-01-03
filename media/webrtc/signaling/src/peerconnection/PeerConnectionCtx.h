@@ -611,7 +611,7 @@ mGMPReady
 ;
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

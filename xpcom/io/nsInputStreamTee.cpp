@@ -911,7 +911,7 @@ nothing
 to
 do
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
