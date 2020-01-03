@@ -877,6 +877,10 @@ mSamplesPerChunk
 ;
 }
 else
+if
+(
+mSamplesPerChunk
+)
 {
 mStopChunk
 =
