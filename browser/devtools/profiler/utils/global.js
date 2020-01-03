@@ -425,7 +425,7 @@ CATEGORY_MAPPINGS
 =
 {
 "
-16
+8
 "
 :
 CATEGORIES
@@ -445,7 +445,7 @@ Category
 :
 OTHER
 "
-32
+16
 "
 :
 CATEGORIES
@@ -465,7 +465,7 @@ Category
 :
 CSS
 "
-64
+32
 "
 :
 CATEGORIES
@@ -485,7 +485,7 @@ Category
 :
 JS
 "
-128
+64
 "
 :
 CATEGORIES
@@ -505,7 +505,7 @@ Category
 :
 GC
 "
-256
+128
 "
 :
 CATEGORIES
@@ -525,7 +525,7 @@ Category
 :
 CC
 "
-512
+256
 "
 :
 CATEGORIES
@@ -545,7 +545,7 @@ Category
 :
 NETWORK
 "
-1024
+512
 "
 :
 CATEGORIES
@@ -565,7 +565,7 @@ Category
 :
 GRAPHICS
 "
-2048
+1024
 "
 :
 CATEGORIES
@@ -585,7 +585,7 @@ Category
 :
 STORAGE
 "
-4096
+2048
 "
 :
 CATEGORIES
@@ -656,7 +656,7 @@ category
 const
 CATEGORY_OTHER
 =
-16
+8
 ;
 /
 /
@@ -692,7 +692,7 @@ information
 const
 CATEGORY_JIT
 =
-64
+32
 ;
 /
 /
