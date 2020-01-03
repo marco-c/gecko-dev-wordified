@@ -1182,9 +1182,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_UNITY_FIXUP_MOUSE_CAPTURE
 )
 {
@@ -1232,9 +1229,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_UNITY_FIXUP_MOUSE_CAPTURE
 )
 {
@@ -2265,9 +2259,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_FLASH_RETURN_EMPTY_DOCUMENT_ORIGIN
 )
 )
@@ -5391,9 +5382,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_ALLOW_OFFLINE_RENDERER
 ?
 ALLOW_OFFLINE_RENDERER
@@ -6815,9 +6803,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_QUICKTIME_AVOID_SETWINDOW
 )
 &
@@ -7079,9 +7064,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_WINLESS_TRACKPOPUP_HOOK
 )
 CreateWinlessPopupSurrogate
@@ -7094,9 +7076,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_FLASH_THROTTLE_WMUSER_EVENTS
 )
 SetupFlashMsgThrottle
@@ -8443,9 +8422,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_FLASH_THROTTLE_WMUSER_EVENTS
 )
 )
@@ -8578,9 +8554,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_FLASH_FIXUP_MOUSE_CAPTURE
 )
 {
@@ -9425,9 +9398,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_FLASH_HOOK_SETLONGPTR
 )
 )
@@ -9932,9 +9902,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_UNITY_FIXUP_MOUSE_CAPTURE
 )
 )
@@ -10552,9 +10519,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_WINLESS_TRACKPOPUP_HOOK
 )
 |
@@ -10860,9 +10824,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_WINLESS_TRACKPOPUP_HOOK
 )
 &
@@ -13104,9 +13065,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_SILVERLIGHT_FOCUS_CHECK_PARENT
 )
 &
@@ -15111,9 +15069,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_SILVERLIGHT_DEFAULT_TRANSPARENT
 )
 mIsTransparent
@@ -15142,9 +15097,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_WINLESS_TRACKPOPUP_HOOK
 )
 CreateWinlessPopupSurrogate
@@ -15157,9 +15109,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_FLASH_THROTTLE_WMUSER_EVENTS
 )
 SetupFlashMsgThrottle
@@ -16279,9 +16228,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_FLASH_AVOID_CGMODE_CRASHES
 )
 ;
@@ -16473,9 +16419,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_ALLOW_OFFLINE_RENDERER
 ?
 ALLOW_OFFLINE_RENDERER
@@ -17587,9 +17530,6 @@ GetQuirks
 (
 )
 &
-PluginModuleChild
-:
-:
 QUIRK_FLASH_EXPOSE_COORD_TRANSLATION
 )
 )
