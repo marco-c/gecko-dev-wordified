@@ -73,8 +73,6 @@ gTestDirsPartialSuccess
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
-false
-false
 )
 ;
 gCallbackBinFile
@@ -109,6 +107,9 @@ checkUpdateFinished
 {
 checkFilesAfterUpdateSuccess
 (
+getApplyDirFile
+false
+false
 )
 ;
 checkCallbackServiceLog

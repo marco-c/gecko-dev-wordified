@@ -83,8 +83,6 @@ setTestFilesAndDirsForFailure
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
-false
-false
 )
 ;
 /
@@ -108,12 +106,7 @@ callbackApp
 =
 getApplyDirFile
 (
-"
-a
-/
-b
-/
-"
+DIR_RESOURCES
 +
 gCallbackBinFile
 )
@@ -126,12 +119,7 @@ getApplyDirPath
 (
 )
 +
-"
-a
-/
-b
-/
-"
+DIR_RESOURCES
 "
 input
 "
@@ -268,6 +256,8 @@ checkUpdate
 checkFilesAfterUpdateFailure
 (
 getApplyDirFile
+false
+false
 )
 ;
 checkUpdateLogContains

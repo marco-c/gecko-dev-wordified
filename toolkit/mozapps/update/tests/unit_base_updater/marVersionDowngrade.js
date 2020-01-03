@@ -126,8 +126,6 @@ gTestDirs
 setupUpdaterTest
 (
 FILE_OLD_VERSION_MAR
-false
-false
 )
 ;
 createUpdaterINI
@@ -217,10 +215,10 @@ checkUpdateApplied
 {
 if
 (
-IS_MACOSX
-|
-|
 IS_WIN
+|
+|
+IS_MACOSX
 )
 {
 /
@@ -253,6 +251,9 @@ exists
 }
 checkFilesAfterUpdateSuccess
 (
+getApplyDirFile
+false
+false
 )
 ;
 doTestFinish

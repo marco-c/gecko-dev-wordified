@@ -74,8 +74,6 @@ setTestFilesAndDirsForFailure
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
-true
-false
 )
 ;
 let
@@ -208,12 +206,7 @@ getApplyDirPath
 (
 )
 +
-"
-a
-/
-b
-/
-"
+DIR_RESOURCES
 "
 input
 "
@@ -339,6 +332,8 @@ checkUpdate
 checkFilesAfterUpdateFailure
 (
 getApplyDirFile
+true
+false
 )
 ;
 checkUpdateLogContains

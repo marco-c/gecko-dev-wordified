@@ -109,8 +109,6 @@ gTestDirs
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
-false
-false
 )
 ;
 setupAppFilesAsync
@@ -138,6 +136,9 @@ checkUpdateFinished
 {
 checkFilesAfterUpdateSuccess
 (
+getApplyDirFile
+false
+false
 )
 ;
 /

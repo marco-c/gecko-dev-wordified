@@ -73,8 +73,6 @@ gTestDirsPartialSuccess
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
-false
-true
 )
 ;
 /
@@ -120,12 +118,7 @@ getApplyDirPath
 (
 )
 +
-"
-a
-/
-b
-/
-"
+DIR_RESOURCES
 "
 input
 "
@@ -228,6 +221,9 @@ checkUpdate
 {
 checkFilesAfterUpdateSuccess
 (
+getApplyDirFile
+false
+true
 )
 ;
 checkUpdateLogContains
