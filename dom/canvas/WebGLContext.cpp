@@ -5119,6 +5119,17 @@ mViewportHeight
 =
 mHeight
 ;
+gl
+-
+>
+fScissor
+(
+0
+0
+mWidth
+mHeight
+)
+;
 /
 /
 Make
