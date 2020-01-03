@@ -2880,6 +2880,10 @@ JS_ParseJSONWithReviver
 mCx
 chars
 .
+start
+(
+)
+.
 get
 (
 )
