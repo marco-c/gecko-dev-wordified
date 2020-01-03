@@ -185,6 +185,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 class
 nsPIDOMWindow
 ;
@@ -213,6 +220,8 @@ public
 nsIRunnable
 public
 FileHandleBase
+public
+nsSupportsWeakReference
 {
 public
 :
