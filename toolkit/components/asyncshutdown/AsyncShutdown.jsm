@@ -492,7 +492,7 @@ debug
 1
 "
 "
-nsIDebug
+nsIDebug2
 "
 )
 ;
@@ -6192,7 +6192,7 @@ the
 /
 call
 to
-nsIDebug
+nsIDebug2
 .
 abort
 points

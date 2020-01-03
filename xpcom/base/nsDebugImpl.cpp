@@ -598,7 +598,6 @@ gAssertionCount
 NS_IMPL_QUERY_INTERFACE
 (
 nsDebugImpl
-nsIDebug
 nsIDebug2
 )
 NS_IMETHODIMP_

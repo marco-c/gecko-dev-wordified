@@ -348,7 +348,7 @@ nsresult
 GetDebugFunc
 )
 (
-nsIDebug
+nsIDebug2
 *
 *
 aResult
