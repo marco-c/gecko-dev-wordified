@@ -186,6 +186,9 @@ getRawTabForBrowser
 browser
 )
 )
+|
+|
+null
 ;
 }
 exports
