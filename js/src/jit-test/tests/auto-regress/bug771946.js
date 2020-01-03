@@ -19,10 +19,9 @@ Flags
 :
 /
 /
-new
 Date
-(
-)
+.
+prototype
 .
 setFullYear
 (
