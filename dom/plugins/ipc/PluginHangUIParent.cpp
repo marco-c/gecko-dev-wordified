@@ -2016,6 +2016,12 @@ mModule
 TerminateChildProcess
 (
 mMainThreadMessageLoop
+NS_LITERAL_CSTRING
+(
+"
+ModalHangUI
+"
+)
 EmptyString
 (
 )

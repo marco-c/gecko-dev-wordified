@@ -3840,6 +3840,12 @@ plugins
 TerminatePlugin
 (
 id
+NS_LITERAL_CSTRING
+(
+"
+HangMonitor
+"
+)
 mBrowserDumpId
 )
 ;
