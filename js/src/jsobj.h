@@ -9712,8 +9712,7 @@ TaggedProto
 >
 proto
 bool
-*
-succeeded
+crashOnFailure
 )
 ;
 /

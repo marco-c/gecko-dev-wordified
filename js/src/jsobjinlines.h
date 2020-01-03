@@ -3358,7 +3358,9 @@ proto
 )
 )
 ;
-return
+*
+succeeded
+=
 SetClassAndProto
 (
 cx
@@ -3370,8 +3372,12 @@ getClass
 (
 )
 taggedProto
-succeeded
+false
 )
+;
+return
+*
+succeeded
 ;
 }
 inline
