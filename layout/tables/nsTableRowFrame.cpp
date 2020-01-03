@@ -9381,7 +9381,7 @@ endif
 *
 Sets
 the
-NS_ROW_HAS_CELL_WITH_STYLE_HEIGHT
+NS_ROW_HAS_CELL_WITH_STYLE_BSIZE
 bit
 to
 indicate
@@ -9398,7 +9398,7 @@ non
 -
 auto
 -
-height
+bsize
 .
 (
 Row
@@ -9577,7 +9577,7 @@ HasPercent
 {
 AddStateBits
 (
-NS_ROW_HAS_CELL_WITH_STYLE_HEIGHT
+NS_ROW_HAS_CELL_WITH_STYLE_BSIZE
 )
 ;
 return
@@ -9586,7 +9586,7 @@ return
 }
 RemoveStateBits
 (
-NS_ROW_HAS_CELL_WITH_STYLE_HEIGHT
+NS_ROW_HAS_CELL_WITH_STYLE_BSIZE
 )
 ;
 }
