@@ -4274,8 +4274,8 @@ mode
 let
 [
 fd
-flags
-mode
+flags_
+mode_
 file
 ]
 =
@@ -4342,7 +4342,7 @@ exists
 !
 isWritable
 (
-flags
+flags_
 )
 )
 throw
@@ -4378,7 +4378,7 @@ if
 (
 isReadable
 (
-flags
+flags_
 )
 )
 {
@@ -4388,8 +4388,8 @@ input
 FileInputStream
 (
 file
-flags
-mode
+flags_
+mode_
 DEFER_OPEN
 )
 ;
@@ -4422,7 +4422,7 @@ if
 (
 isWritable
 (
-flags
+flags_
 )
 )
 {
@@ -4432,8 +4432,8 @@ output
 FileOutputStream
 (
 file
-flags
-mode
+flags_
+mode_
 DEFER_OPEN
 )
 ;

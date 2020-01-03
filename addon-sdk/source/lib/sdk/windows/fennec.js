@@ -499,7 +499,6 @@ yet
 so
 create
 one
-var
 window
 =
 BrowserWindow

@@ -7236,7 +7236,6 @@ continue
 return
 ;
 }
-let
 threadRecord
 =
 {

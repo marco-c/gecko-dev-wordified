@@ -3528,7 +3528,6 @@ function
 data
 )
 {
-let
 data
 =
 data

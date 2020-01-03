@@ -1776,7 +1776,6 @@ single
 nsIContentPermissionType
 element
 .
-let
 type
 =
 {

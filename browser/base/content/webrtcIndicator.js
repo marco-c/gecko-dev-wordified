@@ -1057,7 +1057,6 @@ of
 the
 screen
 .
-let
 desiredX
 =
 Math

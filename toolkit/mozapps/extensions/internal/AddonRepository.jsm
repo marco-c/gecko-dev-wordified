@@ -3518,7 +3518,6 @@ of
 add
 -
 ons
-let
 allAddons
 =
 [
@@ -8167,11 +8166,6 @@ AddonInstall
 for
 each
 result
-let
-self
-=
-this
-;
 results
 .
 forEach

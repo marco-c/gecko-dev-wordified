@@ -211,16 +211,6 @@ getThemeDefinition
 oldTheme
 )
 ;
-let
-newThemeDef
-=
-gDevTools
-.
-getThemeDefinition
-(
-newTheme
-)
-;
 /
 /
 Unload

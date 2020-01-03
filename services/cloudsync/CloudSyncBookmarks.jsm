@@ -3114,12 +3114,6 @@ newFolderRoots
 [
 ]
 ;
-let
-promises
-=
-[
-]
-;
 for
 each
 (

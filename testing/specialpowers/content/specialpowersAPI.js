@@ -12986,7 +12986,6 @@ function
 msg
 )
 {
-let
 msg
 =
 msg

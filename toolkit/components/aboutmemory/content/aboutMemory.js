@@ -8445,8 +8445,6 @@ the
 amount
 .
 return
-max
-=
 Math
 .
 abs

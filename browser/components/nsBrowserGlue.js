@@ -15937,7 +15937,6 @@ id
 defaultBrowserNever
 "
 ;
-let
 label
 =
 bundle
@@ -15961,7 +15960,6 @@ label
 label
 )
 ;
-let
 accesskey
 =
 bundle

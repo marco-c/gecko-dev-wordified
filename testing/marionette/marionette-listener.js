@@ -1031,7 +1031,6 @@ emitTouchEventForIFrame
 message
 )
 {
-let
 message
 =
 message

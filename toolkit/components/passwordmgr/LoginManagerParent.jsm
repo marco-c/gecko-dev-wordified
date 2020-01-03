@@ -1089,9 +1089,6 @@ nsIAutoCompleteResult
 var
 result
 ;
-var
-matchingLogins
-;
 let
 searchStringLower
 =

@@ -6756,7 +6756,6 @@ ids
 [
 ]
 ;
-let
 query
 =
 "

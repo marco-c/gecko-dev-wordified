@@ -914,7 +914,6 @@ getParameterByName
 name
 )
 {
-let
 name
 =
 name

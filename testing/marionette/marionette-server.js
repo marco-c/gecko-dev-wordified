@@ -6688,11 +6688,6 @@ curWindow
 .
 onerror
 ;
-let
-that
-=
-this
-;
 that
 .
 timeout
