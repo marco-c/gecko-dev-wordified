@@ -5612,6 +5612,14 @@ modifier
 )
 ;
 bool
+getBracedUnicode
+(
+uint32_t
+*
+code
+)
+;
+bool
 getStringOrTemplateToken
 (
 int
