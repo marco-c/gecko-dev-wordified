@@ -603,6 +603,16 @@ mObserver
 aObserver
 ;
 }
+size_t
+BytesDecoded
+(
+)
+const
+{
+return
+mBytesDecoded
+;
+}
 /
 /
 The
@@ -1544,6 +1554,9 @@ mColormapSize
 ;
 uint32_t
 mDecodeFlags
+;
+size_t
+mBytesDecoded
 ;
 bool
 mDecodeDone
