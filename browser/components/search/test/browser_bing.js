@@ -84,7 +84,7 @@ let
 base
 =
 "
-http
+https
 :
 /
 /
@@ -395,11 +395,11 @@ is
 (
 url
 "
-http
+https
 :
 /
 /
-api
+www
 .
 bing
 .
@@ -469,7 +469,7 @@ Microsoft
 searchForm
 :
 "
-http
+https
 :
 /
 /
@@ -869,11 +869,11 @@ GET
 template
 :
 "
-http
+https
 :
 /
 /
-api
+www
 .
 bing
 .
@@ -955,7 +955,7 @@ GET
 template
 :
 "
-http
+https
 :
 /
 /
