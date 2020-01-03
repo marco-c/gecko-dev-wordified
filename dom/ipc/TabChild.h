@@ -2821,6 +2821,17 @@ RecvRequestNotifyAfterRemotePaint
 (
 )
 ;
+virtual
+bool
+RecvParentActivated
+(
+const
+bool
+&
+aActivated
+)
+MOZ_OVERRIDE
+;
 #
 ifdef
 MOZ_WIDGET_GONK
