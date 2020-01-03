@@ -1912,13 +1912,6 @@ inputs
 =
 [
 input_file
-'
-!
-/
-config
-/
-buildid
-'
 ]
     
 TEST_HARNESS_FILES
