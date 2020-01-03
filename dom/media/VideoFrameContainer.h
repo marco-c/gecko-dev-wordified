@@ -350,10 +350,6 @@ aTargetTime
 void
 ClearCurrentFrame
 (
-bool
-aResetSize
-=
-false
 )
 ;
 /
