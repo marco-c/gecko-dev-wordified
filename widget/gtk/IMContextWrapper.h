@@ -2233,7 +2233,7 @@ const
 gchar
 *
 aUTF8CompositionString
-int32_t
+uint32_t
 aUTF16CaretOffset
 TextRange
 &
