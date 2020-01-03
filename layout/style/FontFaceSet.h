@@ -1007,6 +1007,8 @@ Size
 (
 )
 ;
+already_AddRefed
+<
 mozilla
 :
 :
@@ -1014,11 +1016,13 @@ dom
 :
 :
 FontFaceSetIterator
-*
+>
 Entries
 (
 )
 ;
+already_AddRefed
+<
 mozilla
 :
 :
@@ -1026,7 +1030,7 @@ dom
 :
 :
 FontFaceSetIterator
-*
+>
 Values
 (
 )
