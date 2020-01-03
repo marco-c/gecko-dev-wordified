@@ -17301,11 +17301,9 @@ mode
 if
 (
 !
-getProfile
-(
-)
+RestrictedProfiles
 .
-inGuestMode
+isUserRestricted
 (
 )
 )
