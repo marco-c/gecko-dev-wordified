@@ -122,6 +122,8 @@ data
 import
 (
     
+AndroidResDirs
+    
 AndroidEclipseProjectData
     
 BrandingFiles
@@ -3940,6 +3942,41 @@ n
 '
 %
 f
+)
+        
+elif
+isinstance
+(
+obj
+AndroidResDirs
+)
+:
+            
+for
+p
+in
+obj
+.
+paths
+:
+                
+backend_file
+.
+write
+(
+'
+ANDROID_RES_DIRS
++
+=
+%
+s
+\
+n
+'
+%
+p
+.
+full_path
 )
         
 else

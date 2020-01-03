@@ -112,6 +112,8 @@ data
 import
 (
     
+AndroidResDirs
+    
 BrandingFiles
     
 ConfigFileSubstitution
@@ -219,7 +221,7 @@ import
     
 Context
     
-ObjDirPath
+AbsolutePath
     
 SourcePath
     
@@ -3987,10 +3989,6 @@ ANDROID_GENERATED_RESFILES
 '
             
 '
-ANDROID_RES_DIRS
-'
-            
-'
 DISABLE_STL_WRAPPING
 '
             
@@ -4963,6 +4961,85 @@ ContextWrapped
 (
 context
 data
+)
+        
+paths
+=
+context
+.
+get
+(
+'
+ANDROID_RES_DIRS
+'
+)
+        
+if
+paths
+:
+            
+for
+p
+in
+paths
+:
+                
+if
+isinstance
+(
+p
+SourcePath
+)
+and
+not
+os
+.
+path
+.
+isdir
+(
+p
+.
+full_path
+)
+:
+                    
+raise
+SandboxValidationError
+(
+'
+Directory
+listed
+in
+'
+                        
+'
+ANDROID_RES_DIRS
+is
+not
+a
+directory
+:
+\
+'
+%
+s
+\
+'
+'
+%
+                            
+p
+.
+full_path
+context
+)
+            
+yield
+AndroidResDirs
+(
+context
+paths
 )
         
 if
