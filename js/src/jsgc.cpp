@@ -13230,6 +13230,15 @@ to
 start
 relocating
 .
+if
+(
+isCursorAtEnd
+(
+)
+)
+return
+nullptr
+;
 ArenaHeader
 *
 *
