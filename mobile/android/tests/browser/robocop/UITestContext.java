@@ -199,6 +199,12 @@ getInstrumentation
 )
 ;
 public
+StringHelper
+getStringHelper
+(
+)
+;
+public
 void
 dumpLog
 (
