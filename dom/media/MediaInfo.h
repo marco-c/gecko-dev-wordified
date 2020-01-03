@@ -286,10 +286,6 @@ mHasVideo
 =
 aHasVideo
 ;
-mIsHardwareAccelerated
-=
-false
-;
 /
 /
 TODO
@@ -435,9 +431,6 @@ mHasVideo
 ;
 TrackInfo
 mTrackInfo
-;
-bool
-mIsHardwareAccelerated
 ;
 }
 ;
