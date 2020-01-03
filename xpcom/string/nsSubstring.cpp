@@ -1000,9 +1000,6 @@ STRING_STAT_INCREMENT
 AdoptFree
 )
 ;
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
 /
 /
 Treat
@@ -1022,7 +1019,7 @@ leak
 tracking
 purposes
 .
-NS_LogDtor
+MOZ_LOG_DTOR
 (
 aData
 "
@@ -1031,11 +1028,6 @@ StringAdopt
 1
 )
 ;
-#
-endif
-/
-/
-NS_BUILD_REFCNT_LOGGING
 }
 /
 /
