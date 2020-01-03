@@ -2700,6 +2700,7 @@ getBoundingClientRect
 (
 )
 ;
+return
 synthesizeMouse
 (
 aTarget
