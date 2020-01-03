@@ -1562,7 +1562,7 @@ oncommand
 "
 HUDService
 .
-toggleBrowserConsole
+openBrowserConsoleOrFocus
 (
 )
 ;
