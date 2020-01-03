@@ -532,7 +532,9 @@ __PRETTY_FUNCTION__
 if
 (
 !
-mDecoderStateMachine
+GetStateMachine
+(
+)
 )
 {
 return
@@ -554,7 +556,9 @@ NS_NewRunnableMethodWithArg
 bool
 >
 (
-mDecoderStateMachine
+GetStateMachine
+(
+)
 &
 MediaDecoderStateMachine
 :
@@ -563,7 +567,9 @@ SetDormant
 true
 )
 ;
-mDecoderStateMachine
+GetStateMachine
+(
+)
 -
 >
 TaskQueue
@@ -620,7 +626,9 @@ mCurrentTime
 if
 (
 !
-mDecoderStateMachine
+GetStateMachine
+(
+)
 )
 {
 return
@@ -685,7 +693,9 @@ NS_NewRunnableMethodWithArg
 bool
 >
 (
-mDecoderStateMachine
+GetStateMachine
+(
+)
 &
 MediaDecoderStateMachine
 :
@@ -694,7 +704,9 @@ SetDormant
 false
 )
 ;
-mDecoderStateMachine
+GetStateMachine
+(
+)
 -
 >
 TaskQueue
