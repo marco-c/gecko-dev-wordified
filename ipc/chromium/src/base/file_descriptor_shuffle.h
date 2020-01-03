@@ -45,6 +45,15 @@ BASE_FILE_DESCRIPTOR_SHUFFLE_H_
 #
 define
 BASE_FILE_DESCRIPTOR_SHUFFLE_H_
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 This
