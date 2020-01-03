@@ -276,7 +276,8 @@ const
 {
 return
 mClientArea
-.
+-
+>
 Left
 (
 )
@@ -290,7 +291,8 @@ const
 {
 return
 mClientArea
-.
+-
+>
 Top
 (
 )
@@ -304,7 +306,8 @@ const
 {
 return
 mClientArea
-.
+-
+>
 Width
 (
 )
@@ -318,7 +321,8 @@ const
 {
 return
 mClientArea
-.
+-
+>
 Height
 (
 )
@@ -377,7 +381,10 @@ ScrollAreaEvent
 )
 {
 }
+nsRefPtr
+<
 DOMRect
+>
 mClientArea
 ;
 }
