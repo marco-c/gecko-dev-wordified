@@ -2753,17 +2753,6 @@ are
 handled
 by
 nsCORSListenerProxy
-if
-(
-useCredentials
-)
-{
-return
-FailWithNetworkError
-(
-)
-;
-}
 }
 /
 /
