@@ -845,7 +845,7 @@ self
 .
 marionette
 .
-chrome_window_handle
+current_chrome_window_handle
         
 tab_open_page
 =
@@ -962,7 +962,7 @@ self
 .
 marionette
 .
-chrome_window_handle
+current_chrome_window_handle
 start_chrome_window
 )
         
@@ -1102,7 +1102,7 @@ self
 .
 marionette
 .
-chrome_window_handle
+current_chrome_window_handle
 start_chrome_window
 )
         
@@ -1208,7 +1208,7 @@ self
 .
 marionette
 .
-chrome_window_handle
+current_chrome_window_handle
 start_chrome_window
 )
         
@@ -1360,6 +1360,6 @@ self
 .
 marionette
 .
-chrome_window_handle
+current_chrome_window_handle
 start_chrome_window
 )

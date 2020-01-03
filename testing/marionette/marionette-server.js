@@ -20990,6 +20990,15 @@ prototype
 .
 getChromeWindowHandle
 "
+getCurrentChromeWindowHandle
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+getChromeWindowHandle
+"
 getWindow
 "
 :

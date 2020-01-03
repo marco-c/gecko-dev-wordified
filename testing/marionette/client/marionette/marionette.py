@@ -7151,7 +7151,7 @@ window
 property
     
 def
-chrome_window_handle
+current_chrome_window_handle
 (
 self
 )
@@ -7247,7 +7247,7 @@ self
 _send_message
 (
 "
-getChromeWindowHandle
+getCurrentChromeWindowHandle
 "
 "
 value
