@@ -8315,6 +8315,9 @@ ELEMENT_NOT_INTREE_HAD_INTREE
 ElementInTreeState
 mElementInTreeState
 ;
+bool
+mHaveDispatchedInterruptBeginEvent
+;
 public
 :
 /

@@ -371,6 +371,12 @@ mReadyPromise
 bool
 mIsAudioStartPlaying
 ;
+bool
+mHaveDispatchedInterruptBeginEvent
+;
+bool
+mMuted
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
