@@ -376,6 +376,12 @@ name
 nsCString
 UAName
 ;
+nsCString
+ID
+;
+nsCString
+vendor
+;
 }
 ;
 bool
@@ -1560,6 +1566,14 @@ const
 nsCString
 &
 UAName
+const
+nsCString
+&
+ID
+const
+nsCString
+&
+vendor
 )
 MOZ_OVERRIDE
 ;
