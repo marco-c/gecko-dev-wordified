@@ -1400,6 +1400,15 @@ nonincrementalReason
 \
 macro
 (
+noStack
+noStack
+"
+noStack
+"
+)
+\
+macro
+(
 noSuchMethod
 noSuchMethod
 "
