@@ -10709,8 +10709,11 @@ dirtyGfxRect
 ctx
 -
 >
-IdentityMatrix
+SetMatrix
 (
+gfxMatrix
+(
+)
 )
 ;
 }

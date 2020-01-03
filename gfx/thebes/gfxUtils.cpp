@@ -2789,8 +2789,11 @@ push
 mContext
 -
 >
-IdentityMatrix
+SetMatrix
 (
+gfxMatrix
+(
+)
 )
 ;
 gfxRect

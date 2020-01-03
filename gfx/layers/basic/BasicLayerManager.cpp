@@ -752,8 +752,11 @@ CurrentMatrix
 aContext
 -
 >
-IdentityMatrix
+SetMatrix
 (
+gfxMatrix
+(
+)
 )
 ;
 aContext
