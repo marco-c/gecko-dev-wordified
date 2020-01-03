@@ -146,6 +146,17 @@ mozilla
 /
 dom
 /
+BindingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BlobBinding
 .
 h

@@ -135,17 +135,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
 nsIContentPolicy
 .
 h

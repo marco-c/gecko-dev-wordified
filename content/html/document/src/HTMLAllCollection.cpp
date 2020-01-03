@@ -150,17 +150,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
 nsHTMLDocument
 .
 h

@@ -82,17 +82,6 @@ include
 "
 mozilla
 /
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DOMEventTargetHelper
 .
 h
@@ -111,6 +100,9 @@ dom
 {
 class
 DOMRequest
+;
+class
+OwningMozIccInfoOrMozGsmIccInfoOrMozCdmaIccInfo
 ;
 class
 Icc

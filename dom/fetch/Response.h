@@ -138,17 +138,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
 InternalResponse
 .
 h
@@ -162,6 +151,9 @@ mozilla
 namespace
 dom
 {
+class
+ArrayBufferOrArrayBufferViewOrScalarValueStringOrURLSearchParams
+;
 class
 Headers
 ;
