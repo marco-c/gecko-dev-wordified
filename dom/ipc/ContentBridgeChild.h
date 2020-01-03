@@ -234,8 +234,9 @@ actor
 const
 BlobConstructorParams
 &
-params
+aParams
 )
+MOZ_OVERRIDE
 ;
 jsipc
 :

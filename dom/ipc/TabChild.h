@@ -479,6 +479,7 @@ Value
 >
 aRetval
 )
+MOZ_OVERRIDE
 {
 return
 mMessageManager
@@ -549,6 +550,7 @@ Value
 >
 aRetval
 )
+MOZ_OVERRIDE
 {
 return
 mMessageManager
@@ -646,7 +648,7 @@ aBinaryData
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+nsresult
 AddEventListener
 (
 const
@@ -731,6 +733,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 {
 aVisitor
 .
@@ -2852,6 +2855,7 @@ bool
 RecvRequestNotifyAfterRemotePaint
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

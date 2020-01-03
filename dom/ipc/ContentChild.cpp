@@ -1500,6 +1500,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -4106,6 +4107,7 @@ nsISupports
 *
 aiWrappedReports
 )
+MOZ_OVERRIDE
 {
 MemoryReportsWrapper
 *
