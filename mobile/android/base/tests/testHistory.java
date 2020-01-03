@@ -99,6 +99,7 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
+url
 )
 ;
 inputAndLoadUrl
@@ -111,6 +112,7 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
+url2
 )
 ;
 inputAndLoadUrl
@@ -123,6 +125,7 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_03_URL
+url3
 )
 ;
 openAboutHomeTab
@@ -421,6 +424,9 @@ DOMCOntentLoaded
 event
 verifyPageTitle
 (
+StringHelper
+.
+ROBOCOP_BLANK_PAGE_03_URL
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_03_URL
