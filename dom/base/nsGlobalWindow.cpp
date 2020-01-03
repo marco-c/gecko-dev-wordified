@@ -22179,7 +22179,7 @@ nsIDOMWindow
 aParent
 )
 {
-FORWARD_TO_INNER
+FORWARD_TO_OUTER
 (
 GetScriptableParent
 (
@@ -22197,7 +22197,7 @@ nsIDOMWindow
 >
 parent
 =
-GetParent
+GetParentOuter
 (
 rv
 )
