@@ -366,6 +366,12 @@ nsIContentPolicy
 :
 TYPE_IMAGE
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_IMAGESET
+:
 rv
 =
 shell

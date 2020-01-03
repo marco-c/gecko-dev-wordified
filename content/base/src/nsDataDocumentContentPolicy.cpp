@@ -701,6 +701,7 @@ aContentLocation
 else
 if
 (
+(
 aContentType
 =
 =
@@ -708,6 +709,16 @@ nsIContentPolicy
 :
 :
 TYPE_IMAGE
+|
+|
+aContentType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_IMAGESET
+)
 &
 &
 doc

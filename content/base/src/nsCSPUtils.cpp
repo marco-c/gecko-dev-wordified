@@ -3953,6 +3953,12 @@ nsIContentPolicy
 :
 TYPE_IMAGE
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_IMAGESET
+:
 return
 CSP_IMG_SRC
 ;

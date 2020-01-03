@@ -2705,6 +2705,9 @@ default
 case
 .
 case
+TYPE_IMAGESET
+:
+case
 TYPE_CSP_REPORT
 :
 case
