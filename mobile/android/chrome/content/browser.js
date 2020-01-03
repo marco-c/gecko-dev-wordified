@@ -12621,6 +12621,12 @@ success
 =
 true
 ;
+var
+promises
+=
+[
+]
+;
 for
 (
 let
@@ -12654,12 +12660,6 @@ data
 "
 "
 )
-;
-var
-promises
-=
-[
-]
 ;
 switch
 (
