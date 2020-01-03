@@ -491,6 +491,10 @@ End
 }
 Timestamp
 .
+Main
+thread
+only
+.
 void
 DiscardCurrentDecoder
 (
@@ -1384,6 +1388,15 @@ currently
 appending
 data
 to
+.
+/
+/
+Modified
+on
+the
+main
+thread
+only
 .
 nsRefPtr
 <
