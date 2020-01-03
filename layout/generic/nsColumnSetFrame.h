@@ -290,7 +290,7 @@ padding
 /
 virtual
 nscoord
-GetAvailableContentHeight
+GetAvailableContentBSize
 (
 const
 nsHTMLReflowState
@@ -547,7 +547,7 @@ endif
 protected
 :
 nscoord
-mLastBalanceHeight
+mLastBalanceBSize
 ;
 nsReflowStatus
 mLastFrameStatus
@@ -613,7 +613,7 @@ individual
 column
 .
 nscoord
-mColWidth
+mColISize
 ;
 /
 /
@@ -642,7 +642,7 @@ laid
 out
 .
 nscoord
-mExpectedWidthLeftOver
+mExpectedISizeLeftOver
 ;
 /
 /
@@ -692,7 +692,7 @@ column
 height
 .
 nscoord
-mColMaxHeight
+mColMaxBSize
 ;
 /
 /
@@ -752,7 +752,7 @@ specified
 height
 .
 nscoord
-mKnownFeasibleHeight
+mKnownFeasibleBSize
 ;
 /
 /
@@ -785,7 +785,7 @@ specified
 height
 .
 nscoord
-mKnownInfeasibleHeight
+mKnownInfeasibleBSize
 ;
 /
 /
@@ -796,7 +796,7 @@ column
 set
 frame
 nscoord
-mComputedHeight
+mComputedBSize
 ;
 /
 /
@@ -844,7 +844,7 @@ consumed
 height
 .
 nscoord
-mConsumedHeight
+mConsumedBSize
 ;
 }
 ;
@@ -877,7 +877,7 @@ of
 any
 column
 nscoord
-mMaxHeight
+mMaxBSize
 ;
 /
 /
@@ -893,7 +893,7 @@ for
 all
 columns
 nscoord
-mSumHeight
+mSumBSize
 ;
 /
 /
@@ -907,7 +907,7 @@ the
 last
 column
 nscoord
-mLastHeight
+mLastBSize
 ;
 /
 /
@@ -928,7 +928,7 @@ their
 available
 height
 nscoord
-mMaxOverflowingHeight
+mMaxOverflowingBSize
 ;
 /
 /
@@ -973,24 +973,24 @@ without
 balancing
 .
 bool
-mHasExcessHeight
+mHasExcessBSize
 ;
 void
 Reset
 (
 )
 {
-mMaxHeight
+mMaxBSize
 =
-mSumHeight
+mSumBSize
 =
-mLastHeight
+mLastBSize
 =
-mMaxOverflowingHeight
+mMaxOverflowingBSize
 =
 0
 ;
-mHasExcessHeight
+mHasExcessBSize
 =
 false
 ;
@@ -1017,7 +1017,7 @@ bool
 aLastColumnUnbounded
 nsCollapsingMargin
 *
-aCarriedOutBottomMargin
+aCarriedOutBEndMargin
 ColumnBalanceData
 &
 aColData
@@ -1092,9 +1092,9 @@ aReflowState
 bool
 aForceAuto
 nscoord
-aFeasibleHeight
+aFeasibleBSize
 nscoord
-aInfeasibleHeight
+aInfeasibleBSize
 )
 ;
 /
@@ -1330,7 +1330,7 @@ parameter
 *
 /
 void
-FindBestBalanceHeight
+FindBestBalanceBSize
 (
 const
 nsHTMLReflowState
@@ -1382,7 +1382,7 @@ reflowed
 fit
 into
 the
-mColMaxHeight
+mColMaxBSize
 .
 *
 /
@@ -1407,7 +1407,7 @@ bool
 aLastColumnUnbounded
 nsCollapsingMargin
 *
-aCarriedOutBottomMargin
+aCarriedOutBEndMargin
 ColumnBalanceData
 &
 aColData
