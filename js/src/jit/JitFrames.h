@@ -159,11 +159,6 @@ js
 namespace
 jit
 {
-typedef
-void
-*
-CalleeToken
-;
 enum
 CalleeTokenTag
 {

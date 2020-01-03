@@ -1284,7 +1284,7 @@ AllocationSite
 but
 are
 not
-barried
+barriered
 so
 we
 must
