@@ -2273,6 +2273,9 @@ Promise
 .
 reject
 (
+new
+Error
+(
 "
 promiseRegisteredWithPushServer
 must
@@ -2294,6 +2297,7 @@ to
 prevent
 reentrancy
 "
+)
 )
 ;
 }
@@ -2589,12 +2593,16 @@ Promise
 .
 reject
 (
+new
+Error
+(
 "
 promiseRegisteredWithPushServer
 :
 Invalid
 sessionType
 "
+)
 )
 ;
 }
@@ -4258,6 +4266,9 @@ Promise
 .
 reject
 (
+new
+Error
+(
 "
 Invalid
 sessionType
@@ -4271,6 +4282,7 @@ registerWithLoopServer
 "
 +
 sessionType
+)
 )
 ;
 }
@@ -4371,6 +4383,9 @@ Promise
 .
 reject
 (
+new
+Error
+(
 "
 session
 -
@@ -4380,6 +4395,7 @@ wrong
 -
 size
 "
+)
 )
 ;
 }
@@ -7017,12 +7033,16 @@ Promise
 .
 reject
 (
+new
+Error
+(
 "
 loop
 is
 not
 enabled
 "
+)
 )
 ;
 }
