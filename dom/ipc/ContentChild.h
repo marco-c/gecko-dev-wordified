@@ -229,7 +229,7 @@ namespace
 jsipc
 {
 class
-JavaScriptChild
+JavaScriptShared
 ;
 }
 namespace
@@ -965,11 +965,12 @@ MOZ_OVERRIDE
 jsipc
 :
 :
-JavaScriptChild
+JavaScriptShared
 *
 GetCPOWManager
 (
 )
+MOZ_OVERRIDE
 ;
 PMobileConnectionChild
 *

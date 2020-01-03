@@ -580,7 +580,7 @@ PContentBridgeChild
 jsipc
 :
 :
-JavaScriptChild
+JavaScriptShared
 *
 ContentBridgeChild
 :

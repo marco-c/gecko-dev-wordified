@@ -745,7 +745,7 @@ PContentBridgeParent
 jsipc
 :
 :
-JavaScriptParent
+JavaScriptShared
 *
 ContentBridgeParent
 :
