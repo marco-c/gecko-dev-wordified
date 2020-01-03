@@ -560,7 +560,7 @@ that
 STATE_IS_BROKEN
 returns
 "
-insecure
+weak
 "
 *
 /
@@ -595,14 +595,14 @@ result
 .
 state
 "
-insecure
+weak
 "
 "
 state
 =
 =
 '
-insecure
+weak
 '
 if
 securityState
