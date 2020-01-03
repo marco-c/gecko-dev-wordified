@@ -1149,6 +1149,15 @@ this
 .
 _browser
 .
+_contentTitle
+=
+"
+"
+;
+this
+.
+_browser
+.
 _imageDocument
 =
 null
