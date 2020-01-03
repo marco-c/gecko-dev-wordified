@@ -1779,15 +1779,6 @@ SliceBudget
 budget
 )
 ;
-void
-processMarkStackOther
-(
-uintptr_t
-tag
-uintptr_t
-addr
-)
-;
 /
 *
 The
