@@ -5156,10 +5156,12 @@ ESClass_IsArray
 :
 /
 /
-There
+The
 difference
 between
-those
+Array
+and
+IsArray
 is
 only
 relevant

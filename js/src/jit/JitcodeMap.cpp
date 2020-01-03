@@ -10453,6 +10453,12 @@ FrameHandle
 JSRuntime
 *
 rt
+js
+:
+:
+jit
+:
+:
 JitcodeGlobalEntry
 &
 entry

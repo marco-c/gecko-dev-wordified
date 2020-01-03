@@ -114,6 +114,15 @@ jit_EffectiveAddressAnalysis_h
 #
 define
 jit_EffectiveAddressAnalysis_h
+#
+include
+"
+jit
+/
+MIRGenerator
+.
+h
+"
 namespace
 js
 {

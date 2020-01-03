@@ -196,6 +196,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 builtin
 /
 TypedObject
