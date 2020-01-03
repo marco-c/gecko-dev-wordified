@@ -1231,6 +1231,9 @@ e
 )
 {
 throw
+new
+Error
+(
 "
 FAILED
 in
@@ -1252,6 +1255,7 @@ testdesc
 "
 +
 e
+)
 ;
 }
 }

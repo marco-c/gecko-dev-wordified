@@ -6379,6 +6379,9 @@ logins
 length
 )
 throw
+new
+Error
+(
 "
 Index
 out
@@ -6386,6 +6389,7 @@ of
 range
 .
 "
+)
 ;
 return
 this
@@ -6491,6 +6495,9 @@ logins
 length
 )
 throw
+new
+Error
+(
 "
 Index
 out
@@ -6498,6 +6505,7 @@ of
 range
 .
 "
+)
 ;
 var
 [
