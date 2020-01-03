@@ -10983,9 +10983,10 @@ unicodeRangeMap
 ;
 if
 (
+!
 font
-&
-&
+|
+|
 !
 font
 -
