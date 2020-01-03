@@ -1897,9 +1897,7 @@ order
 :
 *
 *
-(
 NotifySelectionBackgroundNeedsFill
-)
 ?
 *
 PaintDecorationLine
@@ -1907,15 +1905,7 @@ PaintDecorationLine
 *
 NotifyBeforeText
 *
-(
 NotifyGlyphPathEmitted
-|
-*
-(
-NotifyBeforeSVGGlyphPainted
-NotifyAfterSVGGlyphPainted
-)
-)
 *
 *
 NotifyAfterText
