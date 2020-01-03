@@ -2917,7 +2917,7 @@ file
 ;
 sourceActor
 .
-_setBreakpoint
+_getOrCreateBreakpointActor
 (
 new
 OriginalLocation
