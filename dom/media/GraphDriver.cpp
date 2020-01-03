@@ -1987,9 +1987,7 @@ now
 MOZ_LOG
 (
 gMediaStreamGraphLog
-PR_LOG_DEBUG
-+
-1
+PR_LOG_VERBOSE
 (
 "
 Updating
@@ -2286,9 +2284,7 @@ timeoutMS
 ;
 STREAM_LOG
 (
-PR_LOG_DEBUG
-+
-1
+PR_LOG_VERBOSE
 (
 "
 Waiting
@@ -2383,9 +2379,7 @@ timeout
 ;
 STREAM_LOG
 (
-PR_LOG_DEBUG
-+
-1
+PR_LOG_VERBOSE
 (
 "
 Resuming
