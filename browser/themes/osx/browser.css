@@ -15687,6 +15687,17 @@ GrayText
 }
 #
 PopupAutoCompleteRichResult
+>
+richlistbox
+{
+transition
+:
+height
+100ms
+;
+}
+#
+PopupAutoCompleteRichResult
 {
 margin
 -

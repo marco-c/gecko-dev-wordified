@@ -13944,6 +13944,17 @@ GrayText
 ;
 }
 #
+PopupAutoCompleteRichResult
+>
+richlistbox
+{
+transition
+:
+height
+100ms
+;
+}
+#
 search
 -
 container
