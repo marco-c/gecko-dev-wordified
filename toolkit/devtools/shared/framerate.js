@@ -625,6 +625,17 @@ _recording
 {
 this
 .
+_contentWin
+.
+cancelAnimationFrame
+(
+this
+.
+_rafID
+)
+;
+this
+.
 _rafID
 =
 this
