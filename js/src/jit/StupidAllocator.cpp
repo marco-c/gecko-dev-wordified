@@ -637,7 +637,7 @@ takeFloat
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 registerCount
 <
@@ -1108,7 +1108,7 @@ will
 be
 touched
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 )
@@ -1122,7 +1122,7 @@ virtualRegisters
 vreg
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 )
@@ -1854,7 +1854,7 @@ getBlock
 blockIndex
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -2849,7 +2849,7 @@ virtualRegister
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 use
 -

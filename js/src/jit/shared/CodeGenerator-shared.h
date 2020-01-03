@@ -702,7 +702,7 @@ size_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 osrEntryOffset_
 =
@@ -758,7 +758,7 @@ size_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 skipArgCheckEntryOffset_
 =
@@ -1031,7 +1031,7 @@ slot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 >
@@ -1064,7 +1064,7 @@ frameInitialAdjustment_
 -
 slot
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 >
@@ -1190,7 +1190,7 @@ offset
 for
 calls
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 >
@@ -1317,7 +1317,7 @@ to
 support
 this
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 >
@@ -1325,7 +1325,7 @@ offset
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 %
@@ -1705,7 +1705,7 @@ size_t
 size
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 %
@@ -1800,7 +1800,7 @@ the
 allocated
 space
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -2286,7 +2286,7 @@ isTrivial
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -4629,7 +4629,7 @@ StoreOutputTo
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -4639,7 +4639,7 @@ mirRaw
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -

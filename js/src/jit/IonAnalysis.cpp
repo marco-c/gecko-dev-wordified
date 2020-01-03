@@ -1196,7 +1196,7 @@ toTest
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 test
 -
@@ -1244,7 +1244,7 @@ block
 existingPred
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 test
 -
@@ -1308,7 +1308,7 @@ block
 existingPred
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 test
 -
@@ -1340,7 +1340,7 @@ ifFalse
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -3176,7 +3176,7 @@ stackDepth
 -
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rp
@@ -5610,7 +5610,7 @@ popCopy
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 phi
 -
@@ -6826,7 +6826,7 @@ better
 type
 information
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 hasInputsWithEmptyTypes
@@ -6895,7 +6895,7 @@ MPhi
 phi
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 phi
 -
@@ -7708,7 +7708,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 phiType
 !
@@ -9464,7 +9464,7 @@ markPhiConsumers
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 phiWorklist_
 .
@@ -9562,7 +9562,7 @@ phisEnd
 phi
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 phi
@@ -9697,7 +9697,7 @@ popPhi
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 phi
 -
@@ -9894,7 +9894,7 @@ markPhiProducers
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 phiWorklist_
 .
@@ -9993,7 +9993,7 @@ phisEnd
 phi
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 phi
@@ -10133,7 +10133,7 @@ popPhi
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 phi
 -
@@ -10788,7 +10788,7 @@ def
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 consumer
 -
@@ -11063,7 +11063,7 @@ isResumePoint
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -11231,7 +11231,7 @@ global
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 regexp
 -
@@ -11838,12 +11838,12 @@ finger2
 =
 block2
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 finger1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 finger2
 )
@@ -12506,7 +12506,7 @@ block
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -12820,7 +12820,7 @@ osrBlock
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 graph
 .
@@ -13322,7 +13322,7 @@ numSuccessorsWithPhis
 +
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 numSuccessorsWithPhis
 <
@@ -13729,7 +13729,7 @@ graph
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 graph
 .
@@ -13746,7 +13746,7 @@ numPredecessors
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 graph
 .
@@ -13760,7 +13760,7 @@ phisEmpty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 graph
@@ -13788,7 +13788,7 @@ osrBlock
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 osrBlock
 -
@@ -13801,7 +13801,7 @@ numPredecessors
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 osrBlock
 -
@@ -13811,7 +13811,7 @@ phisEmpty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 osrBlock
 !
@@ -13823,7 +13823,7 @@ entryBlock
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 osrBlock
@@ -13847,7 +13847,7 @@ entryResumePoint
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 resumePoint
 -
@@ -13908,7 +13908,7 @@ count
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 block
@@ -13976,7 +13976,7 @@ i
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 CheckSuccessorImpliesPredecessor
 (
@@ -14012,7 +14012,7 @@ i
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 CheckPredecessorImpliesSuccessor
 (
@@ -14293,7 +14293,7 @@ phi
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 phi
 -
@@ -14352,7 +14352,7 @@ iter
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 -
@@ -14529,7 +14529,7 @@ i
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 CheckOperandImpliesUse
 (
@@ -14572,7 +14572,7 @@ use
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 CheckUseImpliesOperand
 (
@@ -14804,7 +14804,7 @@ i
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 graph
 .
@@ -14881,7 +14881,7 @@ block
 *
 iter
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 block
@@ -14936,7 +14936,7 @@ isMarked
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -14946,7 +14946,7 @@ isLoopBackedge
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -14995,7 +14995,7 @@ graph
 Check
 dominators
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 graph
 .
@@ -15028,7 +15028,7 @@ osrBlock
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 osrBlock
 -
@@ -15042,7 +15042,7 @@ osrBlock
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 graph
 .
@@ -15103,7 +15103,7 @@ block
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -15126,7 +15126,7 @@ immediateDominator
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 idom
 -
@@ -15138,7 +15138,7 @@ block
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 idom
 =
@@ -15233,7 +15233,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 foundInParent
 )
@@ -15277,7 +15277,7 @@ getImmediatelyDominatedBlock
 j
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -15288,7 +15288,7 @@ dom
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dom
 -
@@ -15305,7 +15305,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dom
 -
@@ -15330,7 +15330,7 @@ numDominated
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -15343,7 +15343,7 @@ numDominated
 numDominated
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -15356,7 +15356,7 @@ numDominated
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -15385,7 +15385,7 @@ i
 -
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 =
@@ -15393,7 +15393,7 @@ i
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 totalNumDominated
 =
@@ -15538,7 +15538,7 @@ block
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -15590,7 +15590,7 @@ i
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -15619,7 +15619,7 @@ isLoopHeader
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -15644,7 +15644,7 @@ getPredecessor
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 backedge
 -
@@ -15662,7 +15662,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 backedge
 -
@@ -15675,7 +15675,7 @@ numSuccessors
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 backedge
 -
@@ -15735,7 +15735,7 @@ getPredecessor
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -15749,7 +15749,7 @@ successorWithPhis
 block
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -15809,7 +15809,7 @@ successorWithPhis
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 successorWithPhis
 <
@@ -15817,7 +15817,7 @@ successorWithPhis
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 successorWithPhis
@@ -16645,7 +16645,7 @@ value
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -17036,7 +17036,7 @@ isInt32Comparison
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -17049,7 +17049,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -17286,7 +17286,7 @@ bool
 eliminated
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -17744,7 +17744,7 @@ bool
 eliminated
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 filtersNull
 |
@@ -18152,7 +18152,7 @@ bool
 eliminated
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -18999,7 +18999,7 @@ index
 +
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -19209,7 +19209,7 @@ int32_t
 scale
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 term
 )
@@ -19459,7 +19459,7 @@ id
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scale
 )
@@ -19723,7 +19723,7 @@ term
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 term
@@ -19913,7 +19913,7 @@ alloc
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 term
 .
@@ -21043,7 +21043,7 @@ slotSpan
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 baseobj
@@ -21077,7 +21077,7 @@ JSPROP_ENUMERATE
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 baseobj
 -
@@ -21090,7 +21090,7 @@ slotSpan
 slotSpan
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 baseobj
@@ -21661,7 +21661,7 @@ Initializer
 initializerList
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -22653,7 +22653,7 @@ slotSpan
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -23252,7 +23252,7 @@ enter
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script

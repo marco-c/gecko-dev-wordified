@@ -581,7 +581,7 @@ properly
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 thisv
@@ -802,7 +802,7 @@ properly
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 call
@@ -1227,7 +1227,7 @@ init
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 vp
 [
@@ -1239,7 +1239,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 vp
 [
@@ -1265,7 +1265,7 @@ toObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2053,7 +2053,7 @@ HandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 pc
@@ -2888,7 +2888,7 @@ MaybeConstruct
 construct
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -2900,7 +2900,7 @@ length
 ARGS_LENGTH_MAX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -3627,7 +3627,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JSFunction
@@ -3802,7 +3802,7 @@ CONSTRUCT
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4109,7 +4109,7 @@ nogc
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 GetOuterObject
 (
@@ -5355,7 +5355,7 @@ isBoolean
 return
 JSTYPE_BOOLEAN
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -5418,7 +5418,7 @@ HandleObject
 staticWith
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 staticWith
 -
@@ -6532,7 +6532,7 @@ InterpreterRegs
 regs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 regs
 .
@@ -6899,7 +6899,7 @@ loop
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -9565,7 +9565,7 @@ cx
 true
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -9830,7 +9830,7 @@ isGeneratorFrame
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -9843,7 +9843,7 @@ pc
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -10421,7 +10421,7 @@ default
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 status
 =
@@ -10429,7 +10429,7 @@ status
 JSTRAP_CONTINUE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rval
 .
@@ -10450,7 +10450,7 @@ op
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 activation
 .
@@ -10810,7 +10810,7 @@ CASE
 JSOP_TRY
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js_CodeSpec
 [
@@ -11118,7 +11118,7 @@ CASE
 (
 JSOP_POPN
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 GET_UINT16
 (
@@ -11156,7 +11156,7 @@ CASE
 JSOP_DUPAT
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 GET_UINT24
 (
@@ -11548,7 +11548,7 @@ script
 ;
 jit_return
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 js_CodeSpec
 [
@@ -11643,7 +11643,7 @@ error
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -11905,7 +11905,7 @@ spdec
 \
 JS_BEGIN_MACRO
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 js_CodeSpec
 [
@@ -12159,7 +12159,7 @@ CASE
 JSOP_ITER
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -12205,7 +12205,7 @@ res
 goto
 error
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 .
@@ -12224,7 +12224,7 @@ CASE
 JSOP_MOREITER
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -12236,7 +12236,7 @@ stackDepth
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -12336,7 +12336,7 @@ CASE
 JSOP_ENDITER
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -12402,7 +12402,7 @@ CASE
 JSOP_DUP
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -12442,7 +12442,7 @@ CASE
 JSOP_DUP2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -12500,7 +12500,7 @@ CASE
 JSOP_SWAP
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -12563,7 +12563,7 @@ REGS
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -14226,7 +14226,7 @@ opcodes
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -15442,7 +15442,7 @@ CASE
 JSOP_SPREADEVAL
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -15618,7 +15618,7 @@ REGS
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -17280,7 +17280,7 @@ CASE
 (
 JSOP_ARGUMENTS
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 REGS
@@ -18435,7 +18435,7 @@ obj
 goto
 error
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -18538,7 +18538,7 @@ obj
 goto
 error
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -18571,7 +18571,7 @@ CASE
 (
 JSOP_CALLEE
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -18630,7 +18630,7 @@ val
 =
 rootObject1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -18739,7 +18739,7 @@ val
 =
 rootObject1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -18847,7 +18847,7 @@ REGS
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 =
@@ -19228,7 +19228,7 @@ bug
 588522
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -19240,7 +19240,7 @@ stackDepth
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -19416,7 +19416,7 @@ rval
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -19479,7 +19479,7 @@ toObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -19552,7 +19552,7 @@ CASE
 JSOP_INITELEM
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -19638,7 +19638,7 @@ CASE
 JSOP_INITELEM_ARRAY
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -19682,7 +19682,7 @@ toObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -19738,7 +19738,7 @@ CASE
 JSOP_INITELEM_INC
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -19920,7 +19920,7 @@ POP_COPY_TO
 lval
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lval
 .
@@ -20005,7 +20005,7 @@ goto
 error
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 rval
 .
@@ -20403,7 +20403,7 @@ StaticBlockObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 blockObj
 .
@@ -20462,7 +20462,7 @@ from
 scope
 chain
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 (
@@ -20493,7 +20493,7 @@ pc
 JSOP_DEBUGLEAVEBLOCK_LENGTH
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scope
 &
@@ -20523,7 +20523,7 @@ StaticBlockObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 blockObj
 .
@@ -20564,7 +20564,7 @@ CASE
 JSOP_DEBUGLEAVEBLOCK
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -20577,7 +20577,7 @@ pc
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -20672,7 +20672,7 @@ CASE
 JSOP_GENERATOR
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -20776,7 +20776,7 @@ CASE
 (
 JSOP_YIELD
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -20787,7 +20787,7 @@ isExceptionPending
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 REGS
 .
@@ -21305,7 +21305,7 @@ HandleValue
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -22159,7 +22159,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -22169,7 +22169,7 @@ compileAndGo
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -22403,7 +22403,7 @@ Step
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 -
@@ -23191,7 +23191,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 )
@@ -23649,7 +23649,7 @@ HandleScript
 script
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -23767,7 +23767,7 @@ HandleObject
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 val
 -
@@ -23832,7 +23832,7 @@ JSPROP_GETTER
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -24099,7 +24099,7 @@ rely
 on
 this
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 aobj
 -
@@ -24112,7 +24112,7 @@ getDenseInitializedLength
 length
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aobj
@@ -24138,7 +24138,7 @@ i
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aobj

@@ -2328,7 +2328,7 @@ rt
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -2350,7 +2350,7 @@ AutoSetHandlingSignal
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -4214,7 +4214,7 @@ pc
 *
 ppc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 =
@@ -7136,7 +7136,7 @@ mach_task_self
 port_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kret
 =
@@ -7161,7 +7161,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 installed
@@ -8735,7 +8735,7 @@ activation
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -

@@ -1395,7 +1395,7 @@ JSTracer
 trc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasBase
 (
@@ -1546,7 +1546,7 @@ size_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 chars
 [
@@ -1634,7 +1634,7 @@ DEBUG
 uint32_t
 dummy
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isIndex
@@ -1744,7 +1744,7 @@ size_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 twoByteLengthFits
 (
@@ -1789,7 +1789,7 @@ size_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 latin1LengthFits
 (
@@ -1833,7 +1833,7 @@ size_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 twoByteLengthFits
 (
@@ -1878,7 +1878,7 @@ size_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 latin1LengthFits
 (
@@ -2078,12 +2078,12 @@ JSStringFinalizer
 fin
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fin
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fin
 -
@@ -2151,7 +2151,7 @@ JSStringFinalizer
 fin
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 chars
 [
@@ -2257,7 +2257,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -2328,7 +2328,7 @@ char16_t
 c2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fitsInSmallChar
 (
@@ -2336,7 +2336,7 @@ c1
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fitsInSmallChar
 (
@@ -2401,7 +2401,7 @@ arena
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 getAllocKind
 (
@@ -2433,7 +2433,7 @@ fop
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 isDependent
 (
@@ -2461,7 +2461,7 @@ FreeOp
 fop
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getAllocKind
 (
@@ -2510,7 +2510,7 @@ FreeOp
 fop
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getAllocKind
 (
@@ -2559,7 +2559,7 @@ FreeOp
 fop
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -2569,7 +2569,7 @@ isAtom
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :

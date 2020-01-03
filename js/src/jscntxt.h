@@ -1105,7 +1105,7 @@ rather
 than
 race
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 isJSContext
 (
@@ -1220,7 +1220,7 @@ shouldBeJSContext
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isJSContext
 (
@@ -1283,7 +1283,7 @@ asExclusiveContext
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isExclusiveContext
 (
@@ -3636,7 +3636,7 @@ resolvingList
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -3654,7 +3654,7 @@ AutoResolving
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 context
 -
@@ -3776,7 +3776,7 @@ next
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -3801,7 +3801,7 @@ get
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -5014,7 +5014,7 @@ vec
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tag_
 >
@@ -5037,7 +5037,7 @@ ptrdiff_t
 newLength
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tag_
 >
@@ -5081,7 +5081,7 @@ length
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag_
 >
@@ -5103,7 +5103,7 @@ size_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -5135,7 +5135,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -5168,7 +5168,7 @@ size_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -5202,7 +5202,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -5727,7 +5727,7 @@ endif
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 runtime
@@ -5797,7 +5797,7 @@ runtime
 numExclusiveThreads
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 runtime
 -
@@ -5828,7 +5828,7 @@ exclusiveAccessLock
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 runtime
 -

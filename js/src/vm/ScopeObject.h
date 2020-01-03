@@ -1103,7 +1103,7 @@ SCOPECOORD_HOPS_LEN
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -1129,7 +1129,7 @@ uint32_t
 hops
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hops
 <
@@ -1148,7 +1148,7 @@ uint32_t
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -1166,7 +1166,7 @@ hops
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hops_
 <
@@ -1183,7 +1183,7 @@ slot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot_
 <
@@ -2122,7 +2122,7 @@ isForEval
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getFixedSlot
 (
@@ -2613,7 +2613,7 @@ staticScope
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isStatic
@@ -2679,7 +2679,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getReservedSlot
 (
@@ -3334,7 +3334,7 @@ slot
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 -
@@ -3434,7 +3434,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -3515,7 +3515,7 @@ uint32_t
 local
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 local
 >
@@ -3532,7 +3532,7 @@ localOffset
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 local
 <
@@ -3759,7 +3759,7 @@ JS_BLOCK_NEEDS_CLONE
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 needsClone
 (
@@ -3775,7 +3775,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getReservedSlot
 (
@@ -3837,7 +3837,7 @@ Definition
 def
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slotValue
 (
@@ -4902,7 +4902,7 @@ enclosingScope
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 done
 (
@@ -4938,7 +4938,7 @@ frame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -4956,7 +4956,7 @@ type
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -4974,7 +4974,7 @@ hasScopeObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -5011,7 +5011,7 @@ staticBlock
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -6794,7 +6794,7 @@ ScopeCoordinate
 sc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 <

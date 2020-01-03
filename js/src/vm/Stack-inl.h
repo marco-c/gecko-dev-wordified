@@ -427,7 +427,7 @@ compartment
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain
 (
@@ -497,7 +497,7 @@ Flags
 flagsArg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 flagsArg
@@ -510,7 +510,7 @@ CONSTRUCTING
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 .
@@ -799,7 +799,7 @@ i
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -836,7 +836,7 @@ MaybeCheckAliasing
 checkAliasing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -887,7 +887,7 @@ MaybeCheckAliasing
 checkAliasing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -948,7 +948,7 @@ MaybeCheckAliasing
 checkAliasing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1194,7 +1194,7 @@ argsObj
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -1206,7 +1206,7 @@ needsArgsObj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 flags_
 &
@@ -1230,7 +1230,7 @@ ArgumentsObject
 argsobj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -1341,7 +1341,7 @@ ScopeObject
 scope
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 scopeChain
@@ -1407,7 +1407,7 @@ popOffScopeChain
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 flags_
 &
@@ -1441,7 +1441,7 @@ hasCallObj
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isStrictEvalFrame
 (
@@ -1475,7 +1475,7 @@ callObj
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 (
@@ -1787,7 +1787,7 @@ JSFunction
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -1883,7 +1883,7 @@ with
 undefined
 |
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -2059,7 +2059,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 regs
 .
@@ -2073,7 +2073,7 @@ end
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 -
@@ -2120,7 +2120,7 @@ regs
 .
 sp
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 prev
 )
@@ -2273,7 +2273,7 @@ releaseFrame
 fp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 regs
 .
@@ -2383,7 +2383,7 @@ recover
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -4469,7 +4469,7 @@ perThreadData
 profilingActivation_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx_
 -
@@ -4483,7 +4483,7 @@ activation_
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hideScriptedCallerCount_
 =
@@ -4559,7 +4559,7 @@ isProfiling
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isAsmJS
 (
@@ -4677,7 +4677,7 @@ script
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 regs_
 .
@@ -4783,7 +4783,7 @@ asJSContext
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 oldFrameCount_
 =
@@ -4952,7 +4952,7 @@ initial
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 regs_
 .
@@ -5003,7 +5003,7 @@ Quell
 compiler
 warning
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 regs_
 .
@@ -5015,7 +5015,7 @@ fp
 frame
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 regs_
 .

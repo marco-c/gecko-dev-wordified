@@ -271,7 +271,7 @@ CharT
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 s
 <
@@ -2388,7 +2388,7 @@ file
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 !
@@ -2453,7 +2453,7 @@ file
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 !

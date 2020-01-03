@@ -1508,7 +1508,7 @@ last
 =
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isEmpty
 (
@@ -1602,7 +1602,7 @@ initAsEmpty
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isEmpty
@@ -1701,7 +1701,7 @@ nextSpan
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isEmpty
@@ -1721,7 +1721,7 @@ arenaAddress
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isEmpty
@@ -1747,7 +1747,7 @@ arenaAddr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -1757,7 +1757,7 @@ ArenaMask
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isEmpty
@@ -1788,7 +1788,7 @@ checkSpan
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 last
@@ -1963,7 +1963,7 @@ first
 last
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 first
@@ -2007,7 +2007,7 @@ be
 suitably
 aligned
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 first
 <
@@ -2015,7 +2015,7 @@ first
 last
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 first
@@ -2033,7 +2033,7 @@ ArenaMask
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 last
@@ -2109,7 +2109,7 @@ next
 first
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 next
 -
@@ -2117,7 +2117,7 @@ next
 last
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 first
@@ -2138,7 +2138,7 @@ ArenaMask
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 ?
@@ -2314,7 +2314,7 @@ isEmpty
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 !
@@ -2339,7 +2339,7 @@ arenaAddr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -2368,7 +2368,7 @@ initAsEmpty
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 firstOffset_
 <
@@ -2376,7 +2376,7 @@ firstOffset_
 lastOffset_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lastOffset_
 <
@@ -2605,7 +2605,7 @@ arenaAddress
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isEmpty
@@ -2630,7 +2630,7 @@ arenaHeader
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isEmpty
@@ -2666,7 +2666,7 @@ another
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isEmpty
@@ -2674,7 +2674,7 @@ isEmpty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 another
@@ -2716,7 +2716,7 @@ size_t
 thingSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 %
@@ -3407,7 +3407,7 @@ allocated
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocKind
 <
@@ -3440,7 +3440,7 @@ AllocKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 allocated
@@ -3448,19 +3448,19 @@ allocated
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 markOverflow
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 allocatedDuringIncremental
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasDelayedMarking
@@ -3583,7 +3583,7 @@ getAllocKind
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocated
 (
@@ -4048,7 +4048,7 @@ size_t
 thingSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 %
@@ -4074,7 +4074,7 @@ thing
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 >
@@ -4260,7 +4260,7 @@ getThingSize
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocated
 (
@@ -5651,7 +5651,7 @@ uintptr_t
 addr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 withinArenasRange
 (
@@ -5687,7 +5687,7 @@ uintptr_t
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -5851,7 +5851,7 @@ getPrevious
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 .
@@ -5906,7 +5906,7 @@ uintptr_t
 nextFieldPtr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 addr
@@ -6442,7 +6442,7 @@ uintptr_t
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -6452,7 +6452,7 @@ ArenaMask
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Chunk
 :
@@ -6555,7 +6555,7 @@ arena
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 allocated
 (
@@ -6680,7 +6680,7 @@ getNextDelayedMarking
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasDelayedMarking
 )
@@ -6715,7 +6715,7 @@ ArenaHeader
 aheader
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -6728,7 +6728,7 @@ ArenaMask
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 auxNextLink
@@ -6764,7 +6764,7 @@ unsetDelayedMarking
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasDelayedMarking
 )
@@ -6789,7 +6789,7 @@ getNextAllocDuringSweep
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocatedDuringIncremental
 )
@@ -6824,7 +6824,7 @@ ArenaHeader
 aheader
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 auxNextLink
@@ -6860,7 +6860,7 @@ unsetAllocDuringSweep
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocatedDuringIncremental
 )
@@ -6900,7 +6900,7 @@ arenaHeader
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 color
 <
@@ -6929,7 +6929,7 @@ asTenured
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isTenured
 (
@@ -6958,7 +6958,7 @@ asTenured
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isTenured
 (
@@ -7002,7 +7002,7 @@ trailer
 .
 runtime
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -7128,7 +7128,7 @@ uintptr_t
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 addr
 %
@@ -7138,7 +7138,7 @@ CellSize
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Chunk
 :
@@ -7171,7 +7171,7 @@ uintptr_t
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 addr
 %
@@ -7269,7 +7269,7 @@ uintptr_t
 thing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Arena
 :
@@ -7364,7 +7364,7 @@ void
 ptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 static_cast
 <
@@ -7412,7 +7412,7 @@ void
 ptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 static_cast
 <
@@ -7459,7 +7459,7 @@ BLACK
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 arenaHeader
 (
@@ -7541,7 +7541,7 @@ color
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 color
 !
@@ -7622,7 +7622,7 @@ arenaHeader
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isTenured
 (
@@ -7700,7 +7700,7 @@ arenaHeader
 >
 zone
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessZone
 (
@@ -7781,7 +7781,7 @@ thing
 #
 ifdef
 JSGC_INCREMENTAL
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 CurrentThreadIsIonCompiling
@@ -7789,7 +7789,7 @@ CurrentThreadIsIonCompiling
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isNullLike
@@ -7877,7 +7877,7 @@ getAllocKind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tmp
 =
@@ -7936,7 +7936,7 @@ thing
 #
 ifdef
 JSGC_INCREMENTAL
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 CurrentThreadIsIonCompiling
@@ -8046,7 +8046,7 @@ getAllocKind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tmp
 =
@@ -8068,7 +8068,7 @@ TenuredCell
 thing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery

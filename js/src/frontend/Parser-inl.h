@@ -247,7 +247,7 @@ object
 s
 parent
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 parserPC

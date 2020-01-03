@@ -203,7 +203,7 @@ bool
 useAtStart
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -289,7 +289,7 @@ Register
 reg2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -302,7 +302,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg1
 !
@@ -963,7 +963,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inner
 -
@@ -1261,7 +1261,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -
@@ -1747,7 +1747,7 @@ MAX_VIRTUAL_REGISTERS
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 typeVreg
 +
@@ -2819,7 +2819,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 -
@@ -2936,7 +2936,7 @@ MGuardShape
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -3042,7 +3042,7 @@ MGuardObjectType
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -3165,7 +3165,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -3178,7 +3178,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -3307,7 +3307,7 @@ input
 ins
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -3716,7 +3716,7 @@ MAsmJSUnsignedToDouble
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -3776,7 +3776,7 @@ MAsmJSUnsignedToFloat32
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -3847,7 +3847,7 @@ ptr
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 -
@@ -3937,7 +3937,7 @@ a
 positive
 index
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ptrValue
 >
@@ -4010,7 +4010,7 @@ ptr
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 -
@@ -4044,7 +4044,7 @@ skipBoundsCheck
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 -
@@ -4179,7 +4179,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -
@@ -4240,7 +4240,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -

@@ -1117,7 +1117,7 @@ raw
 -
 5
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 (
@@ -2045,7 +2045,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 label
@@ -2845,7 +2845,7 @@ Relocation
 JITCODE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 (
@@ -3280,7 +3280,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3328,7 +3328,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3515,7 +3515,7 @@ Address
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3563,7 +3563,7 @@ Address
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3855,7 +3855,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3896,7 +3896,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3937,7 +3937,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3978,7 +3978,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -4133,7 +4133,7 @@ PatchedAbsoluteAddress
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -4174,7 +4174,7 @@ PatchedAbsoluteAddress
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -4215,7 +4215,7 @@ PatchedAbsoluteAddress
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -4256,7 +4256,7 @@ PatchedAbsoluteAddress
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (

@@ -322,7 +322,7 @@ disp_
 disp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isMemoryOrEffectiveAddress
 (
@@ -467,7 +467,7 @@ reg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGeneralReg
 (
@@ -490,7 +490,7 @@ floatReg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFloatReg
 (
@@ -513,7 +513,7 @@ base
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isMemoryOrEffectiveAddress
 (
@@ -536,7 +536,7 @@ disp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isMemoryOrEffectiveAddress
 (
@@ -1056,7 +1056,7 @@ endCycleType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isCycleBegin
 (
@@ -1123,7 +1123,7 @@ int
 cycleSlot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cycleBegin_
@@ -1149,7 +1149,7 @@ int
 cycleSlot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cycleEnd_

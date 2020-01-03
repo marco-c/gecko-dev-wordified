@@ -404,7 +404,7 @@ tagged
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uintptr_t

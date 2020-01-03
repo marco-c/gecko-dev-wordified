@@ -307,7 +307,7 @@ JSScript
 calleeScript
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script_
 &

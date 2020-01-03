@@ -336,7 +336,7 @@ require
 a
 Box
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 "
@@ -1412,7 +1412,7 @@ at
 use
 operands
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -1472,13 +1472,13 @@ BailoutKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 osiPoint_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins

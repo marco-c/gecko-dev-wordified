@@ -2743,7 +2743,7 @@ unknownObject
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 other
 -
@@ -3168,7 +3168,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -3226,7 +3226,7 @@ kind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 constraint
 -
@@ -3320,7 +3320,7 @@ clearObjects
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 unknown
 (
@@ -3511,7 +3511,7 @@ typeObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 nobject
@@ -3653,7 +3653,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cxArg
 -
@@ -3798,7 +3798,7 @@ next
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 constraintList
@@ -4234,7 +4234,7 @@ result
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 -
@@ -6656,7 +6656,7 @@ proto
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasTenuredProto
 (
@@ -6889,7 +6889,7 @@ jsid
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unknownProperties
@@ -7009,7 +7009,7 @@ id
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -7782,7 +7782,7 @@ frozenScript
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 .
@@ -8377,7 +8377,7 @@ entry
 .
 script
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -8385,7 +8385,7 @@ script
 types
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 TypeScript
 :
@@ -8447,7 +8447,7 @@ j
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 TypeScript
 :
@@ -8491,7 +8491,7 @@ j
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -8566,7 +8566,7 @@ entry
 .
 script
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -9775,7 +9775,7 @@ flags
 flags
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 )
@@ -9898,7 +9898,7 @@ TypeObjectFlags
 flags
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 )
@@ -10880,7 +10880,7 @@ next
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 types
@@ -12614,7 +12614,7 @@ MIXED
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 true_results
 !
@@ -13614,7 +13614,7 @@ lookupForAdd
 key
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 p
@@ -14418,7 +14418,7 @@ Class
 clasp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -14795,7 +14795,7 @@ pendingRecompiles
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pending
@@ -15003,7 +15003,7 @@ JSScript
 script
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 )
@@ -15190,7 +15190,7 @@ TypeObject
 target
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 =
@@ -15207,7 +15207,7 @@ compartment
 types
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -15222,7 +15222,7 @@ OBJECT_FLAG_SETS_MARKED_UNKNOWN
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 target
@@ -15233,7 +15233,7 @@ singleton
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 -
@@ -16132,7 +16132,7 @@ GetValueType
 v
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 type
@@ -16351,7 +16351,7 @@ Type
 elementType
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -16623,7 +16623,7 @@ properties
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -16821,7 +16821,7 @@ array
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -17403,7 +17403,7 @@ order
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -17652,7 +17652,7 @@ if
 p
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -17681,7 +17681,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -17993,7 +17993,7 @@ numFixedSlots
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ObjectTableKey
 :
@@ -18387,7 +18387,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -18670,7 +18670,7 @@ TaggedProto
 proto
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 singleton
 (
@@ -18727,7 +18727,7 @@ bool
 indexed
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -19791,7 +19791,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 id
 =
@@ -20377,7 +20377,7 @@ next
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 types
@@ -20563,7 +20563,7 @@ enter
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -20576,7 +20576,7 @@ compartment
 activeAnalysis
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unknownProperties
@@ -21148,7 +21148,7 @@ to
 run
 scripts
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -23168,7 +23168,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 added
 =
@@ -23245,7 +23245,7 @@ pc
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -23258,7 +23258,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -23283,7 +23283,7 @@ fromAllocationSite
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -23346,7 +23346,7 @@ initializer
 object
 type
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -23502,7 +23502,7 @@ pc
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -23515,7 +23515,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -24201,7 +24201,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 types
@@ -24779,7 +24779,7 @@ JSFunction
 fun
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -24792,7 +24792,7 @@ compartment
 activeAnalysis
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 type
@@ -24913,7 +24913,7 @@ JSObject
 res
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 analyzed
@@ -24953,7 +24953,7 @@ be
 initially
 tenured
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -25003,7 +25003,7 @@ we
 eventually
 create
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 -
@@ -25082,7 +25082,7 @@ JSObject
 res
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 analyzed
@@ -25166,7 +25166,7 @@ Shape
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -25292,7 +25292,7 @@ Shape
 second
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 OnlyHasDataProperties
 (
@@ -25300,7 +25300,7 @@ first
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 OnlyHasDataProperties
 (
@@ -25415,7 +25415,7 @@ AllocKind
 allocKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 OnlyHasDataProperties
 (
@@ -25613,7 +25613,7 @@ to
 be
 refreshed
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 =
@@ -25869,7 +25869,7 @@ if
 prefixShape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -26126,7 +26126,7 @@ if
 newPrefixShape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CommonPrefix
 (
@@ -26268,7 +26268,7 @@ newScript
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 OnlyHasDataProperties
 (
@@ -26740,7 +26740,7 @@ partially
 initialized
 objects
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 prefixShape
 -
@@ -26893,7 +26893,7 @@ proto
 fun
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 table
 .
@@ -27558,7 +27558,7 @@ setpropDepth
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 init
 -
@@ -27994,7 +27994,7 @@ TaggedProto
 proto
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -28049,7 +28049,7 @@ types
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -28233,7 +28233,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -28243,7 +28243,7 @@ hasLazyType
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -29130,7 +29130,7 @@ newFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -29238,7 +29238,7 @@ isJSContext
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -29501,7 +29501,7 @@ p
 >
 object
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -
@@ -29514,7 +29514,7 @@ clasp
 clasp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -
@@ -30220,7 +30220,7 @@ p
 >
 object
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -
@@ -31578,7 +31578,7 @@ key
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 .
@@ -31913,7 +31913,7 @@ remove
 =
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 AtomToId
 (
@@ -31978,7 +31978,7 @@ remove
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 entry
@@ -32229,7 +32229,7 @@ TypeObjectWithNewScriptSet
 table
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 (
@@ -32338,7 +32338,7 @@ below
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 .
@@ -32354,7 +32354,7 @@ front
 object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 .
@@ -32424,7 +32424,7 @@ sweepNewTypeObjectTable
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 (
@@ -33032,7 +33032,7 @@ lookup
 lookup
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 .
@@ -33118,7 +33118,7 @@ compartment
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 compartment
 -
@@ -33526,7 +33526,7 @@ bool
 oom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 (
@@ -33871,7 +33871,7 @@ clearHasFreezeConstraints
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -33882,7 +33882,7 @@ hasIonScript
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -34135,7 +34135,7 @@ isValid
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sweepIndex
 =
@@ -34167,7 +34167,7 @@ output
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 sweepIndex
 =
@@ -34304,7 +34304,7 @@ script
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -

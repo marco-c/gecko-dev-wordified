@@ -478,7 +478,7 @@ by
 js_dtoa
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 bufferSize
 >
@@ -595,7 +595,7 @@ numEnd
 -
 numBegin
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 size_t
@@ -784,7 +784,7 @@ break
 case
 DTOSTR_EXPONENTIAL
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 precision
 >
@@ -813,7 +813,7 @@ break
 case
 DTOSTR_PRECISION
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 precision
 >
@@ -1001,7 +1001,7 @@ fixed
 notation
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 decPt
 <
@@ -1099,7 +1099,7 @@ q
 =
 numEnd
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numEnd
 <
@@ -1344,7 +1344,7 @@ ULong
 *
 bp
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 divisor
 >
@@ -1426,7 +1426,7 @@ quotientHi
 *
 divisor
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 quotientHi
 <
@@ -1466,7 +1466,7 @@ quotientLo
 *
 divisor
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 quotientLo
 <
@@ -1641,7 +1641,7 @@ w
 return
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 w
 <
@@ -1684,7 +1684,7 @@ w
 2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -1963,7 +1963,7 @@ of
 d
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 >
@@ -2239,7 +2239,7 @@ n
 =
 m
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 digit
 <
@@ -2362,7 +2362,7 @@ b
 base
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 digit
 <
@@ -2581,7 +2581,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 e
 <
@@ -2679,7 +2679,7 @@ d
 2
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 -
 s2
@@ -3353,7 +3353,7 @@ done
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 digit
 <
@@ -3412,7 +3412,7 @@ mhi
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 <

@@ -319,7 +319,7 @@ thisv
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsBoolean
 (
@@ -493,7 +493,7 @@ thisv
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsBoolean
 (
@@ -607,7 +607,7 @@ thisv
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsBoolean
 (
@@ -847,7 +847,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -1145,7 +1145,7 @@ length
 =
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -1227,7 +1227,7 @@ target
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )

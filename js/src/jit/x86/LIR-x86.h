@@ -230,7 +230,7 @@ type_
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFloatingPointType
 (

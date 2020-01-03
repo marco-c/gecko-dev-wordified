@@ -345,7 +345,7 @@ LIFO_ALLOC_ALIGN
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -488,7 +488,7 @@ bumpSpaceSize
 bumpSpaceSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bump
 =
@@ -508,7 +508,7 @@ void
 ptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bumpBase
 (
@@ -518,7 +518,7 @@ bumpBase
 ptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 <
@@ -560,7 +560,7 @@ ptr
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 contains
 (
@@ -778,7 +778,7 @@ void
 mark
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 contains
 (
@@ -786,7 +786,7 @@ mark
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mark
 <
@@ -916,7 +916,7 @@ bump
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 canAlloc
 (
@@ -1155,7 +1155,7 @@ size_t
 defaultChunkSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -1213,7 +1213,7 @@ BumpChunk
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 &
@@ -1298,7 +1298,7 @@ BumpChunk
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 &
@@ -1370,7 +1370,7 @@ size_t
 size
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 curSize_
 >
@@ -1422,7 +1422,7 @@ LifoAlloc
 other
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 other
@@ -2100,7 +2100,7 @@ releaseAll
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 markCount
@@ -2573,7 +2573,7 @@ size_t
 size
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -2640,7 +2640,7 @@ position_
 aligned
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -3048,7 +3048,7 @@ releaseEarly
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shouldRelease
 )
@@ -3283,7 +3283,7 @@ n
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (

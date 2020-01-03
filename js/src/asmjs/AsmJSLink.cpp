@@ -863,7 +863,7 @@ HandleValue
 importVal
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 .
@@ -2865,7 +2865,7 @@ has
 larger
 alignment
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 module
@@ -5495,7 +5495,7 @@ pod
 .
 endCodeOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 end
 >
@@ -5755,7 +5755,7 @@ pod
 .
 endCodeOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 end
 >
@@ -6263,7 +6263,7 @@ fun
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 func
 .
@@ -8155,7 +8155,7 @@ within
 a
 module
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -8261,7 +8261,7 @@ can
 t
 be
 anonymous
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -

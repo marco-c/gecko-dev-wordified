@@ -578,7 +578,7 @@ rel32
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 child
 =

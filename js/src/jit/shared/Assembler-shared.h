@@ -371,7 +371,7 @@ int
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsShiftInScaleRange
 (
@@ -782,7 +782,7 @@ immediates
 using
 AsmJSImmPtr
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUsePointerImmediates
 (
@@ -817,7 +817,7 @@ pf
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUsePointerImmediates
 (
@@ -855,7 +855,7 @@ pf
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUsePointerImmediates
 (
@@ -896,7 +896,7 @@ pf
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUsePointerImmediates
 (
@@ -940,7 +940,7 @@ pf
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUsePointerImmediates
 (
@@ -987,7 +987,7 @@ pf
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUsePointerImmediates
 (
@@ -1119,7 +1119,7 @@ value
 ptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedPtr
@@ -1151,7 +1151,7 @@ be
 creating
 GC
 things
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsCompilingAsmJS
@@ -1214,7 +1214,7 @@ value
 =
 ptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedPtr
@@ -1235,7 +1235,7 @@ be
 creating
 GC
 things
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsCompilingAsmJS
@@ -1295,7 +1295,7 @@ addr
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUsePointerImmediates
 (
@@ -1678,7 +1678,7 @@ uint32_t
 newOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset_
 =
@@ -1686,7 +1686,7 @@ offset_
 INVALID_OFFSET
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newOffset
 !
@@ -1719,13 +1719,13 @@ int32_t
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bound_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 !
@@ -1747,7 +1747,7 @@ target
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bound
 (
@@ -1772,7 +1772,7 @@ offset
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bound
@@ -1874,7 +1874,7 @@ prev
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bound
@@ -2472,7 +2472,7 @@ raw
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state_
 =
@@ -2491,7 +2491,7 @@ offset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state_
 =
@@ -2513,7 +2513,7 @@ jumpTableEntry
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state_
 =
@@ -2760,7 +2760,7 @@ raw
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state_
 =
@@ -2779,7 +2779,7 @@ offset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state_
 =
@@ -2939,7 +2939,7 @@ kind_
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 column
 <
@@ -4261,7 +4261,7 @@ kind_
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCompilingAsmJS
 (
@@ -4332,7 +4332,7 @@ kind_
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCompilingAsmJS
 (

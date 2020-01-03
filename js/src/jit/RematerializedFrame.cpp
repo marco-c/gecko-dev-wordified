@@ -674,7 +674,7 @@ callObj
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasCallObj
 (

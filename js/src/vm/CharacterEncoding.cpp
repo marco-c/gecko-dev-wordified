@@ -168,7 +168,7 @@ char16_t
 tbchars
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
@@ -945,7 +945,7 @@ CharT
 chars
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
@@ -1180,7 +1180,7 @@ int
 utf8Length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 1
 <
@@ -1202,7 +1202,7 @@ utf8Length
 1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -1246,7 +1246,7 @@ minucs4Table
 0x10000
 }
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 *
@@ -1325,7 +1325,7 @@ while
 utf8Length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 *
@@ -1782,7 +1782,7 @@ REPLACE_UTF8
 \
 else
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 action
 =
@@ -2445,7 +2445,7 @@ length
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 outlen

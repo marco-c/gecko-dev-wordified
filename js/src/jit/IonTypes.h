@@ -1630,7 +1630,7 @@ length
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 defined
 (
@@ -1673,7 +1673,7 @@ type
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 defined
 (
@@ -1692,7 +1692,7 @@ asInt32x4
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 defined
 (
@@ -1719,7 +1719,7 @@ asFloat32x4
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 defined
 (
@@ -1750,7 +1750,7 @@ rhs
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 defined
 (
@@ -2281,7 +2281,7 @@ JSVAL_TYPE_MAGIC
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -2681,7 +2681,7 @@ MIRType
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -2727,7 +2727,7 @@ MIRType
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (

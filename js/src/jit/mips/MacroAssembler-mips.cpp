@@ -8556,7 +8556,7 @@ FloatRegisterSet
 simdSet
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 SupportsSimd
@@ -8813,7 +8813,7 @@ FloatRegisterSet
 simdSet
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 SupportsSimd
@@ -10797,7 +10797,7 @@ Register
 output
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 !
@@ -19751,7 +19751,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -19771,7 +19771,7 @@ Assembler
 NotEqual
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 !
@@ -19779,7 +19779,7 @@ ptr
 temp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 !
@@ -19876,7 +19876,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =

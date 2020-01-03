@@ -229,7 +229,7 @@ MCloneLiteral
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -242,7 +242,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -619,7 +619,7 @@ The
 default
 case
 !
-JS_ASSERT
+MOZ_ASSERT
 (
 tableswitch
 -
@@ -1566,7 +1566,7 @@ MNewStringObject
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -2412,7 +2412,7 @@ MComputeThis
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -2425,7 +2425,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -2541,7 +2541,7 @@ MLoadArrowThis
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -2554,7 +2554,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -2794,7 +2794,7 @@ MCall
 call
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CallTempReg0
 !
@@ -2802,7 +2802,7 @@ CallTempReg0
 CallTempReg1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CallTempReg0
 !
@@ -2810,7 +2810,7 @@ CallTempReg0
 ArgumentsRectifierReg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CallTempReg1
 !
@@ -2818,7 +2818,7 @@ CallTempReg1
 ArgumentsRectifierReg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 call
 -
@@ -2883,7 +2883,7 @@ isCallDOMNative
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 &
@@ -3265,7 +3265,7 @@ MApplyArgs
 apply
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 apply
 -
@@ -3294,7 +3294,7 @@ a
 rectifier
 frame
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 CallTempReg0
 !
@@ -3302,7 +3302,7 @@ CallTempReg0
 ArgumentsRectifierReg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CallTempReg1
 !
@@ -3321,7 +3321,7 @@ is
 already
 erased
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 CallTempReg2
 !
@@ -3329,7 +3329,7 @@ CallTempReg2
 JSReturnReg_Type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CallTempReg2
 !
@@ -3725,7 +3725,7 @@ getScopeChain
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain
 -
@@ -3749,7 +3749,7 @@ getName
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 name
 -
@@ -3993,7 +3993,7 @@ getScopeChain
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain
 -
@@ -4017,7 +4017,7 @@ getString
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 string
 -
@@ -4277,7 +4277,7 @@ the
 commutative
 operator
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -4287,7 +4287,7 @@ hasDefUses
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -5397,7 +5397,7 @@ MCompare
 Compare_Boolean
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 -
@@ -5410,7 +5410,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 right
 -
@@ -6095,7 +6095,7 @@ ifFalse
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -
@@ -6540,7 +6540,7 @@ MCompare
 Compare_StrictString
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 -
@@ -6553,7 +6553,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 right
 -
@@ -6979,7 +6979,7 @@ MCompare
 Compare_Boolean
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 -
@@ -6992,7 +6992,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 right
 -
@@ -7515,7 +7515,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -
@@ -8094,7 +8094,7 @@ type
 MIRType_Double
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -8173,7 +8173,7 @@ rhs
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -8362,7 +8362,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFloatingPointType
 (
@@ -8490,7 +8490,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFloatingPointType
 (
@@ -8618,7 +8618,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFloatingPointType
 (
@@ -8924,7 +8924,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -9143,7 +9143,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFloatingPointType
 (
@@ -9243,7 +9243,7 @@ y
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 y
 -
@@ -9267,7 +9267,7 @@ x
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 x
 -
@@ -9336,7 +9336,7 @@ x
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 x
 -
@@ -9360,7 +9360,7 @@ y
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 y
 -
@@ -9429,7 +9429,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 -
@@ -9453,7 +9453,7 @@ power
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 power
 -
@@ -9636,7 +9636,7 @@ MMathFunction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFloatingPointType
 (
@@ -9649,7 +9649,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -9812,7 +9812,7 @@ T
 lir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -10081,7 +10081,7 @@ getOperand
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10112,7 +10112,7 @@ specialization
 MIRType_Int32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10203,7 +10203,7 @@ specialization
 MIRType_Double
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10257,7 +10257,7 @@ specialization
 MIRType_Float32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10339,7 +10339,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10370,7 +10370,7 @@ specialization
 MIRType_Int32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10452,7 +10452,7 @@ specialization
 MIRType_Double
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10497,7 +10497,7 @@ specialization
 MIRType_Float32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10570,7 +10570,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10601,7 +10601,7 @@ specialization
 MIRType_Int32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10732,7 +10732,7 @@ specialization
 MIRType_Double
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10856,7 +10856,7 @@ specialization
 MIRType_Float32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -10999,7 +10999,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -11030,7 +11030,7 @@ specialization
 MIRType_Int32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -11063,7 +11063,7 @@ specialization
 MIRType_Double
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -11108,7 +11108,7 @@ specialization
 MIRType_Float32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -11159,7 +11159,7 @@ MMod
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -11200,7 +11200,7 @@ specialization
 MIRType_Int32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -11213,7 +11213,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -11251,7 +11251,7 @@ specialization
 MIRType_Double
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -11264,7 +11264,7 @@ type
 MIRType_Double
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -11282,7 +11282,7 @@ type
 MIRType_Double
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -11405,7 +11405,7 @@ getOperand
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -11418,7 +11418,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -11533,7 +11533,7 @@ getOperand
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -11546,7 +11546,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -11559,7 +11559,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -11687,7 +11687,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -11700,7 +11700,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -11713,7 +11713,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -11833,7 +11833,7 @@ getOperand
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -11846,7 +11846,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 idx
 -
@@ -11924,7 +11924,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 code
 -
@@ -12406,7 +12406,7 @@ convert
 case
 MIRType_Null
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 conversion
 !
@@ -12436,7 +12436,7 @@ convert
 case
 MIRType_Undefined
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 conversion
 !
@@ -12459,7 +12459,7 @@ convert
 case
 MIRType_Boolean
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 conversion
 !
@@ -12805,7 +12805,7 @@ convert
 case
 MIRType_Null
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 conversion
 !
@@ -12835,7 +12835,7 @@ convert
 case
 MIRType_Undefined
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 conversion
 !
@@ -12858,7 +12858,7 @@ convert
 case
 MIRType_Boolean
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 conversion
 !
@@ -13161,7 +13161,7 @@ convert
 case
 MIRType_Null
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 convert
 -
@@ -13196,7 +13196,7 @@ convert
 case
 MIRType_Boolean
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 convert
 -
@@ -14251,7 +14251,7 @@ prototype
 .
 test
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 test
 -
@@ -14405,7 +14405,7 @@ MRegExpExec
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14423,7 +14423,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14499,7 +14499,7 @@ MRegExpTest
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14517,7 +14517,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14593,7 +14593,7 @@ MRegExpReplace
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14611,7 +14611,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14629,7 +14629,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14714,7 +14714,7 @@ MStringReplace
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14732,7 +14732,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14750,7 +14750,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -15117,7 +15117,7 @@ MLambdaPar
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -15130,7 +15130,7 @@ info
 singletonType
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -15365,7 +15365,7 @@ MMaybeToDoubleElement
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -15383,7 +15383,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -16067,7 +16067,7 @@ MNewDenseArrayPar
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -16085,7 +16085,7 @@ type
 MIRType_ForkJoinContext
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -16103,7 +16103,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -16478,7 +16478,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inputType
 =
@@ -17176,7 +17176,7 @@ MArrayLength
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17230,7 +17230,7 @@ MSetArrayLength
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17248,7 +17248,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17266,7 +17266,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17326,7 +17326,7 @@ MTypedArrayLength
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17380,7 +17380,7 @@ MTypedArrayElements
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17429,7 +17429,7 @@ MTypedObjectProto
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17483,7 +17483,7 @@ MTypedObjectElements
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17580,7 +17580,7 @@ MInitializedLength
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17634,7 +17634,7 @@ MSetInitializedLength
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17652,7 +17652,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17670,7 +17670,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -17762,7 +17762,7 @@ see
 TestPolicy
 )
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 -
@@ -18439,7 +18439,7 @@ MInArray
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18457,7 +18457,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18475,7 +18475,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18493,7 +18493,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18511,7 +18511,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18616,7 +18616,7 @@ MLoadElement
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18634,7 +18634,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18820,7 +18820,7 @@ MLoadElementHole
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18838,7 +18838,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18856,7 +18856,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18874,7 +18874,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18967,7 +18967,7 @@ MStoreElement
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -18985,7 +18985,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19190,7 +19190,7 @@ MStoreElementHole
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19208,7 +19208,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19569,7 +19569,7 @@ MArrayPush
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19732,7 +19732,7 @@ MArrayConcat
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19745,7 +19745,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19763,7 +19763,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19849,7 +19849,7 @@ MArrayJoin
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19862,7 +19862,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19880,7 +19880,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19956,7 +19956,7 @@ MStringSplit
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19969,7 +19969,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -19987,7 +19987,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20063,7 +20063,7 @@ MLoadTypedArrayElement
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20081,7 +20081,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20127,7 +20127,7 @@ index
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -20415,7 +20415,7 @@ MLoadTypedArrayElementHole
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20433,7 +20433,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20451,7 +20451,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20634,7 +20634,7 @@ MStoreTypedArrayElement
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20652,7 +20652,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20743,7 +20743,7 @@ MIRType_Double
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20872,7 +20872,7 @@ MStoreTypedArrayElementHole
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20890,7 +20890,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20908,7 +20908,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -20999,7 +20999,7 @@ MIRType_Double
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -21142,7 +21142,7 @@ MLoadFixedSlot
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -21246,7 +21246,7 @@ MStoreFixedSlot
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -21385,7 +21385,7 @@ MGetNameCache
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -21502,7 +21502,7 @@ MCallsiteCloneCache
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -21574,7 +21574,7 @@ MGetPropertyCache
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -21711,7 +21711,7 @@ MGetPropertyPolymorphic
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -21856,7 +21856,7 @@ MSetPropertyPolymorphic
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -22031,7 +22031,7 @@ MGetElementCache
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -22062,7 +22062,7 @@ type
 MIRType_Value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -22139,7 +22139,7 @@ ins
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -22224,7 +22224,7 @@ MBindNameCache
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -22242,7 +22242,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -22446,7 +22446,7 @@ be
 an
 object
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -22512,7 +22512,7 @@ be
 a
 string
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -22923,7 +22923,7 @@ MCallGetElement
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -22941,7 +22941,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -23431,7 +23431,7 @@ MSetElementCache
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -23449,7 +23449,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -23744,7 +23744,7 @@ MCallSetElement
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -23762,7 +23762,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -23780,7 +23780,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -24238,7 +24238,7 @@ MStringLength
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -24566,7 +24566,7 @@ MRest
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -24646,7 +24646,7 @@ MRestPar
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -24743,7 +24743,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 -
@@ -24832,7 +24832,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -24845,7 +24845,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -24930,7 +24930,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -25073,7 +25073,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -25086,7 +25086,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -25252,7 +25252,7 @@ MIsCallable
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -25270,7 +25270,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -25330,7 +25330,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -
@@ -25414,7 +25414,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -25427,7 +25427,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -25478,7 +25478,7 @@ MHasClass
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -25496,7 +25496,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -25670,7 +25670,7 @@ reg
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -25943,7 +25943,7 @@ type
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -26714,7 +26714,7 @@ MSimdConstant
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -27000,7 +27000,7 @@ MSimdExtractElement
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -27018,7 +27018,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsSimdType
@@ -27186,7 +27186,7 @@ MSimdInsertElement
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -27556,7 +27556,7 @@ MSimdBinaryArith
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -28790,7 +28790,7 @@ opd
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -

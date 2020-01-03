@@ -329,7 +329,7 @@ has
 been
 called
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 inCall_
 )
@@ -391,7 +391,7 @@ arguments
 were
 pushed
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -546,7 +546,7 @@ descriptor
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 phase
 =

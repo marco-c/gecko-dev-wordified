@@ -3799,7 +3799,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3814,7 +3814,7 @@ length
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [

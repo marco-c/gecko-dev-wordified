@@ -474,7 +474,7 @@ type
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SupportsSimd
 )
@@ -641,7 +641,7 @@ MBasicBlock
 block
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 )
@@ -1302,7 +1302,7 @@ entryBlock
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 -
@@ -1382,7 +1382,7 @@ start
 ins
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 )
@@ -1441,7 +1441,7 @@ Kind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 site
 .
@@ -1742,7 +1742,7 @@ unsigned
 stackPhiCount
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 site
 .
@@ -2049,7 +2049,7 @@ getSlot
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 predSlot
 -
@@ -2396,7 +2396,7 @@ MBasicBlock
 from
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 <
@@ -2469,7 +2469,7 @@ pred
 >
 stackPosition_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 >
@@ -2524,7 +2524,7 @@ firstStackSlot
 +
 stackDepth
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 >
@@ -2538,7 +2538,7 @@ stackPosition_
 popped
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 info_
 .
@@ -2550,7 +2550,7 @@ nslots
 stackPosition_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 entryResumePoint_
@@ -2735,7 +2735,7 @@ phi
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPhiCount
 <
@@ -2745,7 +2745,7 @@ stackDepth
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 (
@@ -3071,7 +3071,7 @@ getOperand
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 info_
 .
@@ -3083,7 +3083,7 @@ nslots
 stackPosition_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind_
 !
@@ -3091,7 +3091,7 @@ kind_
 PENDING_LOOP_HEADER
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 !
@@ -3220,7 +3220,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -3302,14 +3302,14 @@ MDefinition
 at
 discardDepth
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 discardDepth
 <
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 +
@@ -3371,7 +3371,7 @@ MStart
 start
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 -
@@ -3522,7 +3522,7 @@ argsObjSlot
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -3587,7 +3587,7 @@ toOsrArgumentsObject
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -3796,7 +3796,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 >
@@ -3910,14 +3910,14 @@ MDefinition
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 <
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 +
@@ -3951,7 +3951,7 @@ MDefinition
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 <
@@ -4056,7 +4056,7 @@ pop
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 >
@@ -4086,7 +4086,7 @@ uint32_t
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 -
@@ -4100,7 +4100,7 @@ firstStackSlot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 >
@@ -4355,14 +4355,14 @@ int32_t
 depth
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 <
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackPosition_
 +
@@ -4412,7 +4412,7 @@ MInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -4490,7 +4490,7 @@ the
 current
 block
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -5353,7 +5353,7 @@ MInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 at
 -
@@ -5419,7 +5419,7 @@ MInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 at
 -
@@ -5514,7 +5514,7 @@ MInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasLastIns
@@ -5566,7 +5566,7 @@ MControlInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasLastIns
@@ -5584,7 +5584,7 @@ be
 removed
 first
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 )
@@ -5642,7 +5642,7 @@ MPhiIterator
 at
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 phis_
@@ -5992,12 +5992,12 @@ uint32_t
 popped
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessors_
 .
@@ -6021,7 +6021,7 @@ correct
 stack
 depth
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -6031,7 +6031,7 @@ hasLastIns
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -6146,7 +6146,7 @@ block
 this
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessors_
 .
@@ -6301,7 +6301,7 @@ j
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessors_
 [
@@ -6384,12 +6384,12 @@ MBasicBlock
 existingPred
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessors_
 .
@@ -6413,7 +6413,7 @@ correct
 stack
 depth
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -6423,7 +6423,7 @@ hasLastIns
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pred
@@ -6539,7 +6539,7 @@ must
 be
 finished
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 &
@@ -6753,14 +6753,14 @@ correct
 stack
 depth
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 hasLastIns
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -6770,7 +6770,7 @@ hasLastIns
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -6799,7 +6799,7 @@ a
 pending
 loop
 header
-JS_ASSERT
+MOZ_ASSERT
 (
 kind_
 =
@@ -6936,14 +6936,14 @@ correct
 stack
 depth
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 hasLastIns
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -6953,7 +6953,7 @@ hasLastIns
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackDepth
 (
@@ -6977,7 +6977,7 @@ a
 pending
 loop
 header
-JS_ASSERT
+MOZ_ASSERT
 (
 kind_
 =
@@ -7082,7 +7082,7 @@ for
 each
 slot
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 entryDef
 -
@@ -7107,7 +7107,7 @@ the
 correct
 type
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 entryDef
 -
@@ -7125,7 +7125,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entryDef
 -
@@ -7302,7 +7302,7 @@ clearLoopHeader
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLoopHeader
 (
@@ -7578,7 +7578,7 @@ numSuccessors
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastIns
 (
@@ -7608,7 +7608,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastIns
 (
@@ -7639,7 +7639,7 @@ block
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastIns
 (
@@ -7756,7 +7756,7 @@ MBasicBlock
 split
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastIns
 (
@@ -7902,7 +7902,7 @@ j
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessors_
 [
@@ -8052,7 +8052,7 @@ successorWithPhis
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -9113,7 +9113,7 @@ toTest
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 test
 -

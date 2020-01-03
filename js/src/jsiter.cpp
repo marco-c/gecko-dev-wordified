@@ -1805,7 +1805,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 ca
 =
@@ -3521,7 +3521,7 @@ obj
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -3961,7 +3961,7 @@ compartment
 enumerators
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -4007,7 +4007,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -4240,7 +4240,7 @@ while
 pobj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ind
 =
@@ -4329,7 +4329,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 &
@@ -5338,7 +5338,7 @@ keys
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shapes
 .
@@ -5703,7 +5703,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS_IsExceptionPending
@@ -6028,7 +6028,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsIterator
 (
@@ -6862,7 +6862,7 @@ unlink
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ni
 -
@@ -8290,7 +8290,7 @@ if
 ni
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ni
@@ -8663,7 +8663,7 @@ iterableObj
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -8765,7 +8765,7 @@ true
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -9118,7 +9118,7 @@ bool
 done
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 !
@@ -9137,7 +9137,7 @@ cx_
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iterator
 -
@@ -9147,7 +9147,7 @@ isNative
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iterator
 -
@@ -9285,7 +9285,7 @@ bool
 done
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 iterator
 )
@@ -9568,7 +9568,7 @@ materializeArrayIterator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 !
@@ -9838,7 +9838,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -9869,7 +9869,7 @@ getGenerator
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 )
@@ -9895,7 +9895,7 @@ explicitly
 manipulating
 it
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -10292,7 +10292,7 @@ JSGenerator
 gen
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -10404,7 +10404,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -10435,7 +10435,7 @@ getGenerator
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 )
@@ -10960,7 +10960,7 @@ InterpreterRegs
 stackRegs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stackRegs
 .
@@ -10982,7 +10982,7 @@ fp
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackfp
 -
@@ -11169,7 +11169,7 @@ global
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stackfp
 -
@@ -11557,7 +11557,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 generatorKind
 =
@@ -11606,7 +11606,7 @@ false
 JSGeneratorState
 futureState
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -11765,7 +11765,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -11773,7 +11773,7 @@ op
 JSGENOP_CLOSE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 generatorKind
 =
@@ -11876,7 +11876,7 @@ fails
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -11887,7 +11887,7 @@ state
 JSGEN_RUNNING
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 !
@@ -11984,7 +11984,7 @@ returnValue
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 generatorKind
 =
@@ -12455,7 +12455,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -

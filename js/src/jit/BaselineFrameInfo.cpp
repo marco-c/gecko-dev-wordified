@@ -370,7 +370,7 @@ uint32_t
 uses
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 uses
 <
@@ -730,14 +730,14 @@ reg
 /
 moves
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 uses
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uses
 <
@@ -745,7 +745,7 @@ uses
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uses
 <
@@ -906,7 +906,7 @@ Check
 stack
 depth
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 stackDepth
 (
@@ -1000,7 +1000,7 @@ i
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 stack
 [
@@ -1120,7 +1120,7 @@ reg
 R0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 usedR0
@@ -1140,7 +1140,7 @@ reg
 R1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 usedR1

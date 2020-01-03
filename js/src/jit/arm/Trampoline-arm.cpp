@@ -712,7 +712,7 @@ vp
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 OsrFrameReg
 =
@@ -2148,7 +2148,7 @@ pop
 framePtr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jitcode
 !
@@ -2294,7 +2294,7 @@ chain
 in
 R1
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 R1
 .
@@ -2544,7 +2544,7 @@ the
 case
 /
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 JSReturnReg_Type
 .
@@ -3363,7 +3363,7 @@ arguments
 to
 copy
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 =
@@ -5558,12 +5558,12 @@ VMFunction
 f
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 functionWrappers_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 functionWrappers_
 -
@@ -5976,7 +5976,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 f
 .
@@ -6118,7 +6118,7 @@ double
 precision
 float
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 f
 .
@@ -6512,7 +6512,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 f
 .
@@ -6743,7 +6743,7 @@ PushRegsInMask
 save
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 PreBarrierReg
 =

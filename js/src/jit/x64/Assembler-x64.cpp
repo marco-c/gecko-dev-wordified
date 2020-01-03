@@ -811,7 +811,7 @@ Kind
 reloc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 .
@@ -1031,7 +1031,7 @@ index
 *
 SizeOfJumpTableEntry
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jumpOffset
 +
@@ -1275,7 +1275,7 @@ jmp_rip
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -1327,7 +1327,7 @@ ud2
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -1348,7 +1348,7 @@ immediate64
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -1362,7 +1362,7 @@ oldSize
 SizeOfExtendedJump
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -1531,12 +1531,12 @@ in
 /
 range
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 extendedJumpTable_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 extendedJumpTable_
@@ -1818,7 +1818,7 @@ extended
 jump
 table
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 +
@@ -1930,7 +1930,7 @@ rel32
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 child
 =

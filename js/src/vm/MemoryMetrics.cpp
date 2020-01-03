@@ -1751,7 +1751,7 @@ gc
 ArenaSize
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 >
@@ -5014,7 +5014,7 @@ rtStats
 >
 gcHeapGCThings
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 totalArenaSize
 %
@@ -5543,7 +5543,7 @@ CoarseGrained
 >
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rtStats
 .

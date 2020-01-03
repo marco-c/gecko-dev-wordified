@@ -302,7 +302,7 @@ here
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 reinterpret_cast
 <
@@ -493,7 +493,7 @@ isAtomsZone
 this
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 runtimeFromMainThread
@@ -879,7 +879,7 @@ zone
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 isGCSweepingOrCompacting
 (
@@ -961,7 +961,7 @@ IsScriptAboutToBeFinalized
 script
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 =
@@ -1733,7 +1733,7 @@ Value
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 .

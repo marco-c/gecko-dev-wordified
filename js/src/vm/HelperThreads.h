@@ -796,7 +796,7 @@ ionWorklist
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -813,7 +813,7 @@ ionFinishedList
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -830,7 +830,7 @@ ionLazyLinkList
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -847,7 +847,7 @@ asmJSWorklist
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -864,7 +864,7 @@ asmJSFinishedList
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -881,7 +881,7 @@ parseWorklist
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -898,7 +898,7 @@ parseFinishedList
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -915,7 +915,7 @@ parseWaitingOnGC
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -932,7 +932,7 @@ compressionWorklist
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -949,7 +949,7 @@ gcHelperWorklist
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -1049,7 +1049,7 @@ harvestFailedAsmJSJobs
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -1091,7 +1091,7 @@ calling
 this
 function
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (

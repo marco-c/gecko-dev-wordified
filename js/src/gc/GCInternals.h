@@ -430,7 +430,7 @@ reason
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reason_
 )

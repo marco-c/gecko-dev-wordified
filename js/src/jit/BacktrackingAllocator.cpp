@@ -951,7 +951,7 @@ the
 first
 interval
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 reg0
 -
@@ -1676,7 +1676,7 @@ ins
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 .
@@ -2169,7 +2169,7 @@ getRange
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 range
 -
@@ -2386,7 +2386,7 @@ newIntervals
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 usedReg
 .
@@ -2448,7 +2448,7 @@ number
 is
 unused
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 vregs
 [
@@ -2731,7 +2731,7 @@ number
 is
 unused
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 vregs
 [
@@ -2792,7 +2792,7 @@ vregs
 i
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 .
@@ -2804,7 +2804,7 @@ numIntervals
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 reg
@@ -3689,7 +3689,7 @@ allocate
 this
 interval
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -4227,7 +4227,7 @@ interval
 is
 allocatable
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 minimalInterval
@@ -4499,7 +4499,7 @@ i
 ]
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 .
@@ -5269,7 +5269,7 @@ i
 ]
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 .
@@ -5381,7 +5381,7 @@ if
 allocatable
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 conflicting
 )
@@ -6013,7 +6013,7 @@ interval
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -6057,7 +6057,7 @@ code
 )
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 physical
 .
@@ -6162,7 +6162,7 @@ LiveIntervalVector
 newIntervals
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 newIntervals
 .
@@ -6436,7 +6436,7 @@ toString
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newIntervals
 [
@@ -6457,7 +6457,7 @@ start
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newIntervals
 [
@@ -6480,7 +6480,7 @@ end
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 newIntervals
 .
@@ -6753,7 +6753,7 @@ interval
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -6774,7 +6774,7 @@ Requirement
 NONE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 interval
@@ -6800,7 +6800,7 @@ spill
 bogus
 intervals
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -7070,7 +7070,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackSlot
 <
@@ -7205,7 +7205,7 @@ number
 is
 unused
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 vregs
 [
@@ -7305,7 +7305,7 @@ getInterval
 j
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -7447,7 +7447,7 @@ block
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 =
@@ -7699,7 +7699,7 @@ getPhi
 j
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 phi
 -
@@ -7749,7 +7749,7 @@ successor
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 to
 )
@@ -7792,7 +7792,7 @@ lir
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessor
 -
@@ -7839,7 +7839,7 @@ predecessor
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 )
@@ -8041,7 +8041,7 @@ numPredecessors
 1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessor
 -
@@ -8346,7 +8346,7 @@ number
 is
 unused
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 vregs
 [
@@ -8445,7 +8445,7 @@ getInterval
 j
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -8851,7 +8851,7 @@ number
 is
 unused
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 vregs
@@ -9483,7 +9483,7 @@ number
 is
 unused
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 vregs
@@ -11854,7 +11854,7 @@ should
 be
 sorted
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 -
@@ -12937,7 +12937,7 @@ pos
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 spillIntervalIsNew
 )
@@ -13159,7 +13159,7 @@ empty
 and
 sorted
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 splitPositions
@@ -13188,7 +13188,7 @@ length
 +
 i
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 splitPositions
 [
@@ -13745,7 +13745,7 @@ pos
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 spillIntervalIsNew
 )
@@ -14235,7 +14235,7 @@ false
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 callPositions
 .

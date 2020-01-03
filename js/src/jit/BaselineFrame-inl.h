@@ -164,7 +164,7 @@ ScopeObject
 scope
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 scopeChain
@@ -280,7 +280,7 @@ onPopWith
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain
 (
@@ -318,7 +318,7 @@ StaticBlockObject
 block
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -372,7 +372,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain_
 -
@@ -401,14 +401,14 @@ callObj
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasCallObj
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 (

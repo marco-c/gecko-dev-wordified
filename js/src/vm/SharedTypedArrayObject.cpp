@@ -922,7 +922,7 @@ AllocKind
 allocKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 )
@@ -1020,7 +1020,7 @@ AllocKind
 allocKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 len
 <
@@ -1199,12 +1199,12 @@ HandleObject
 proto
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 byteOffset
 <
@@ -1212,7 +1212,7 @@ byteOffset
 MAX_BYTEOFFSET
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 len
 <
@@ -1360,7 +1360,7 @@ byteLength
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bufferByteLength
 -
@@ -1370,7 +1370,7 @@ arrayByteOffset
 arrayByteLength
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arrayByteOffset
 <
@@ -1391,7 +1391,7 @@ at
 the
 expected
 place
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2016,7 +2016,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -2164,7 +2164,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -2519,7 +2519,7 @@ ArrayTypeIsUnsigned
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -2591,7 +2591,7 @@ d
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (

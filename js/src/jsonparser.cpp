@@ -784,14 +784,14 @@ readString
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 <
 end
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 current
@@ -1736,14 +1736,14 @@ readNumber
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 <
 end
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JS7_ISDEC
 (
@@ -2154,7 +2154,7 @@ token
 OOM
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 =
@@ -2495,7 +2495,7 @@ token
 OOM
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 =
@@ -3055,7 +3055,7 @@ advanceAfterObjectOpen
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 [
@@ -3245,7 +3245,7 @@ once
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 current
@@ -3615,7 +3615,7 @@ advancePropertyName
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 [
@@ -3730,7 +3730,7 @@ advancePropertyColon
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 [
@@ -4255,7 +4255,7 @@ PropertyVector
 properties
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 properties
@@ -4336,7 +4336,7 @@ ElementVector
 elements
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 elements
@@ -4471,7 +4471,7 @@ value
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stack
 .
@@ -4691,7 +4691,7 @@ token
 Colon
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 token
 =
@@ -4820,7 +4820,7 @@ false
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 token
 =
@@ -5253,7 +5253,7 @@ errorReturn
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 end
 =
@@ -5261,7 +5261,7 @@ end
 current
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stack
 .

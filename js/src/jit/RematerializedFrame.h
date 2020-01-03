@@ -769,7 +769,7 @@ i
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -804,7 +804,7 @@ checkAliasing
 CHECK_ALIASING
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -853,7 +853,7 @@ checkAliasing
 CHECK_ALIASING
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -909,7 +909,7 @@ checkAliasing
 CHECK_ALIASING
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <

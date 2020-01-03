@@ -508,7 +508,7 @@ pop
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 >
@@ -529,7 +529,7 @@ peek
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 >
@@ -575,7 +575,7 @@ base
 +
 position
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 <
@@ -651,7 +651,7 @@ uint8_t
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 reinterpret_cast
@@ -692,7 +692,7 @@ uint8_t
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 reinterpret_cast

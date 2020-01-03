@@ -668,7 +668,7 @@ double
 year
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ToInteger
 (
@@ -842,7 +842,7 @@ GenericNaN
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToInteger
 (
@@ -1584,7 +1584,7 @@ range
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 ToInteger
 (
@@ -1715,7 +1715,7 @@ firstDayOfMonth
 }
 }
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 <
@@ -2975,7 +2975,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hint
 =
@@ -2995,7 +2995,7 @@ hint
 JSTYPE_VOID
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -6663,7 +6663,7 @@ PM
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 action
 =
@@ -15199,7 +15199,7 @@ double
 utctime
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 TimeClip
 (
@@ -15309,7 +15309,7 @@ double
 utctime
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 TimeClip
 (
@@ -16252,7 +16252,7 @@ js_NaN_date_str
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 TimeClip
 (
@@ -19912,7 +19912,7 @@ int
 sec
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mon
 <
@@ -20029,7 +20029,7 @@ dates
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -20095,7 +20095,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -20161,7 +20161,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -20227,7 +20227,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -20293,7 +20293,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )

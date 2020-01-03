@@ -182,7 +182,7 @@ thisv
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 test

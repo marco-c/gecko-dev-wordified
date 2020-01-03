@@ -467,7 +467,7 @@ JSCompartment
 c2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 c1
@@ -484,7 +484,7 @@ c1
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 c2
@@ -1651,7 +1651,7 @@ callee
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -2287,7 +2287,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedValue
@@ -2458,7 +2458,7 @@ JSCompartment
 oldCompartment
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasEnteredCompartment
 (
@@ -2847,7 +2847,7 @@ act
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 act
 -
@@ -2934,7 +2934,7 @@ isAsmJS
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 act
 -
@@ -2963,7 +2963,7 @@ current
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fp
@@ -3028,7 +3028,7 @@ regs
 .
 pc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -

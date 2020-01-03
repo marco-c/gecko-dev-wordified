@@ -205,7 +205,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SupportsSimd
 )
@@ -223,7 +223,7 @@ allocateQuadSlot
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SupportsSimd
 )

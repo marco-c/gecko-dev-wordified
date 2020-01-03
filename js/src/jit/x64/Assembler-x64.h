@@ -4339,7 +4339,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 label
@@ -5637,7 +5637,7 @@ Relocation
 JITCODE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 (

@@ -156,7 +156,7 @@ uint32_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lengthIsWritable
 (

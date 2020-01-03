@@ -4799,7 +4799,7 @@ hasFallback
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -4916,7 +4916,7 @@ i
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -5261,7 +5261,7 @@ found
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 )
@@ -6567,7 +6567,7 @@ MIRType_Object
 /
 Bail
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -7461,7 +7461,7 @@ ool
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -7993,7 +7993,7 @@ info
 .
 flags
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSFunction
 :
@@ -8195,7 +8195,7 @@ info
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChainReg
 !
@@ -8297,7 +8297,7 @@ adjacent
 call
 instructions
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -8338,7 +8338,7 @@ associatedSafepoint
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 safepoint
@@ -8444,7 +8444,7 @@ isNop
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 iter
@@ -8455,7 +8455,7 @@ isMoveGroup
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 -
@@ -8860,7 +8860,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 iter
@@ -9696,7 +9696,7 @@ getOperand
 PAYLOAD_INDEX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -9707,7 +9707,7 @@ type
 JSReturnReg_Type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -9739,7 +9739,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -10304,7 +10304,7 @@ argslot
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argslot
 -
@@ -10402,7 +10402,7 @@ StackOffsetToSlot
 stack_offset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 -
@@ -10454,7 +10454,7 @@ argslot
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argslot
 -
@@ -10495,7 +10495,7 @@ StackOffsetToSlot
 stack_offset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 -
@@ -10625,7 +10625,7 @@ No
 bogus
 moves
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 from
@@ -10635,7 +10635,7 @@ from
 to
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 from
@@ -11480,7 +11480,7 @@ toGetPropertyPolymorphic
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -11941,7 +11941,7 @@ toSetPropertyPolymorphic
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -13053,7 +13053,7 @@ ForkJoinContextPar
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -13084,7 +13084,7 @@ LGuardThreadExclusive
 lir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -14148,7 +14148,7 @@ isConstant
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -14332,7 +14332,7 @@ isConstant
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -14459,12 +14459,12 @@ getSingleTarget
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 -
@@ -15093,7 +15093,7 @@ Size
 unusedStack
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -15143,12 +15143,12 @@ getSingleTarget
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 -
@@ -15158,7 +15158,7 @@ isNative
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 -
@@ -15168,7 +15168,7 @@ jitInfo
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 call
 -
@@ -15433,7 +15433,7 @@ StackPointer
 argObj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 =
@@ -15975,7 +15975,7 @@ Size
 unusedStack
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -16312,7 +16312,7 @@ handled
 by
 LCallKnown
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 call
@@ -16659,7 +16659,7 @@ thunk
 )
 ;
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -17180,7 +17180,7 @@ handled
 by
 LCallNative
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 target
@@ -17204,7 +17204,7 @@ by
 the
 IonBuilder
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 -
@@ -17726,7 +17726,7 @@ getTempObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 objreg
 !
@@ -18592,7 +18592,7 @@ handled
 by
 LCallNative
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 apply
@@ -18892,7 +18892,7 @@ getArgumentsRectifier
 executionMode
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -22509,7 +22509,7 @@ numDefs
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -22912,7 +22912,7 @@ numDefs
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -23899,7 +23899,7 @@ masm
 #
 endif
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedArgumentSlots_
 .
@@ -24023,7 +24023,7 @@ LNewArray
 lir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -24053,7 +24053,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lir
@@ -24240,7 +24240,7 @@ for
 par
 exec
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -24400,7 +24400,7 @@ MoveOp
 DOUBLE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -24516,7 +24516,7 @@ MoveOp
 DOUBLE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -24547,7 +24547,7 @@ LNewArray
 lir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -24624,7 +24624,7 @@ count
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 <
@@ -25059,7 +25059,7 @@ LNewObject
 lir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -25089,7 +25089,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lir
@@ -25867,7 +25867,7 @@ LNewObject
 lir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 gen
 -
@@ -27377,7 +27377,7 @@ JSObject
 templateObj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -27387,7 +27387,7 @@ mirRaw
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -28813,7 +28813,7 @@ OSR
 entry
 blocks
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -29978,7 +29978,7 @@ object
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -30689,7 +30689,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 first
 =
@@ -30862,7 +30862,7 @@ input
 Label
 positive
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 =
@@ -31030,7 +31030,7 @@ temp
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 power
 !
@@ -31120,7 +31120,7 @@ MoveOp
 DOUBLE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -31236,7 +31236,7 @@ MoveOp
 DOUBLE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -31331,7 +31331,7 @@ MoveOp
 DOUBLE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -31388,7 +31388,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -32126,7 +32126,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -32313,7 +32313,7 @@ temp
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -32765,7 +32765,7 @@ Register
 output
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -32825,7 +32825,7 @@ output
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -32925,7 +32925,7 @@ jsop
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -33613,7 +33613,7 @@ compareType
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 compareType
 =
@@ -34046,7 +34046,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -34149,7 +34149,7 @@ compareType
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 compareType
 =
@@ -34500,7 +34500,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -35360,7 +35360,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 =
@@ -35368,7 +35368,7 @@ lhs
 CallTempReg0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 =
@@ -35376,7 +35376,7 @@ rhs
 CallTempReg1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -35392,7 +35392,7 @@ temp1
 CallTempReg0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -35408,7 +35408,7 @@ temp2
 CallTempReg1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -35424,7 +35424,7 @@ temp3
 CallTempReg2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -35440,7 +35440,7 @@ temp4
 CallTempReg3
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -35456,7 +35456,7 @@ temp5
 CallTempReg4
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 output
 =
@@ -35540,7 +35540,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 =
@@ -35548,7 +35548,7 @@ lhs
 CallTempReg0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 =
@@ -35556,7 +35556,7 @@ rhs
 CallTempReg1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 Register
@@ -35567,7 +35567,7 @@ cx
 CallTempReg4
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -35583,7 +35583,7 @@ temp1
 CallTempReg0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -35599,7 +35599,7 @@ temp2
 CallTempReg1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -35615,7 +35615,7 @@ temp3
 CallTempReg2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -35631,7 +35631,7 @@ temp4
 CallTempReg3
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 output
 =
@@ -37463,7 +37463,7 @@ add
 regTemp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 regTemp
 !
@@ -37652,7 +37652,7 @@ add
 regTemp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 regTemp
 !
@@ -39281,7 +39281,7 @@ maximum
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 max
 >
@@ -39830,7 +39830,7 @@ ins_
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -41734,7 +41734,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -42066,7 +42066,7 @@ entry
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -43685,7 +43685,7 @@ should
 use
 LCallIteratorStart
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 =
@@ -44482,7 +44482,7 @@ Label
 failures
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 !
@@ -46776,7 +46776,7 @@ as
 asserted
 here
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 snapshots_
 .
@@ -46788,7 +46788,7 @@ listSize
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 snapshots_
 .
@@ -46800,7 +46800,7 @@ RVATableSize
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 recovers_
 .
@@ -46812,7 +46812,7 @@ size
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bailouts_
 .
@@ -46821,7 +46821,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 graph
 .
@@ -46833,7 +46833,7 @@ numConstants
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 safepointIndices_
 .
@@ -46842,7 +46842,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 osiIndices_
 .
@@ -46851,7 +46851,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cacheList_
 .
@@ -46860,7 +46860,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoints_
 .
@@ -47793,7 +47793,7 @@ executionMode
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 GetIonScript
 (
@@ -50202,7 +50202,7 @@ lir
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -58387,7 +58387,7 @@ index
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 guardLength
 )
@@ -58522,7 +58522,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 output
 =
@@ -59790,7 +59790,7 @@ bind
 notPrototypeObject
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -60053,7 +60053,7 @@ lhs
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 objReg
 =
@@ -60189,7 +60189,7 @@ rhs
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -60828,7 +60828,7 @@ bind
 haveValue
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -61332,7 +61332,7 @@ Size
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .

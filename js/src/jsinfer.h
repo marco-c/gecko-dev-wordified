@@ -340,7 +340,7 @@ toObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isObject
 (
@@ -358,7 +358,7 @@ toObjectOrNull
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 proto
@@ -1319,7 +1319,7 @@ type
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 <
@@ -1342,7 +1342,7 @@ primitive
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isPrimitive
 (
@@ -1435,7 +1435,7 @@ isObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isAnyObject
@@ -1751,7 +1751,7 @@ JSValueType
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 <
@@ -3164,7 +3164,7 @@ flags
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 flags
@@ -3242,7 +3242,7 @@ definiteSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 definiteProperty
 (
@@ -3552,7 +3552,7 @@ unsigned
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 canSetDefinite
 (
@@ -3574,7 +3574,7 @@ slot
 TYPE_FLAG_DEFINITE_SHIFT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 definiteSlot
 (
@@ -5993,7 +5993,7 @@ if
 preliminaryObjects
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateObject
@@ -6001,13 +6001,13 @@ templateObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 initializerList
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 initializedShape
@@ -6015,7 +6015,7 @@ initializedShape
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 initializedType
@@ -6027,7 +6027,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 templateObject
 (
@@ -6487,7 +6487,7 @@ Class
 clasp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 singleton
 (
@@ -7138,7 +7138,7 @@ TypeObjectFlags
 flags
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 flags
@@ -7172,7 +7172,7 @@ TypeObjectFlags
 flags
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 flags
@@ -7369,7 +7369,7 @@ ExclusiveContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 canPreTenure
 (
@@ -9049,7 +9049,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -9079,7 +9079,7 @@ TypeObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -9859,7 +9859,7 @@ sweepIndex
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sweepIndex_
 !

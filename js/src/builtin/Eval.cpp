@@ -265,7 +265,7 @@ enclosingScope
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 GetInnerObject
 (
@@ -500,7 +500,7 @@ cacheEntry
 .
 script
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsEvalCacheCandidate
 (
@@ -958,7 +958,7 @@ already
 called
 js_CallNewScriptHook
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script_
@@ -995,7 +995,7 @@ script
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script_
 )
@@ -1846,7 +1846,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 evalType
@@ -1860,7 +1860,7 @@ INDIRECT_EVAL
 caller
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 evalType
@@ -2212,7 +2212,7 @@ thisValue
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3098,7 +3098,7 @@ the
 new
 object
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 thisValue
 .
@@ -3348,7 +3348,7 @@ abstractFramePtr
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 caller
 .
@@ -3371,7 +3371,7 @@ calleev
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (

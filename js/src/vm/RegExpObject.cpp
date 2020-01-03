@@ -428,13 +428,13 @@ HandleTypeObject
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 reobj_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -
@@ -897,7 +897,7 @@ size_t
 pairCount
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pairCount
 >
@@ -989,7 +989,7 @@ MatchPairs
 copyFrom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 copyFrom
 .
@@ -1063,7 +1063,7 @@ i
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pairs_
 [
@@ -1152,12 +1152,12 @@ if
 pairCount_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pairs_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pairCount_
 =
@@ -1169,7 +1169,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pairs_
@@ -1922,7 +1922,7 @@ cx
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 maybeShared
@@ -1990,7 +1990,7 @@ RegExpObject
 self
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -2280,7 +2280,7 @@ self
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -2310,7 +2310,7 @@ slot
 LAST_INDEX_SLOT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -2340,7 +2340,7 @@ slot
 SOURCE_SLOT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -2370,7 +2370,7 @@ slot
 GLOBAL_FLAG_SLOT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -2400,7 +2400,7 @@ slot
 IGNORE_CASE_FLAG_SLOT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -2430,7 +2430,7 @@ slot
 MULTILINE_FLAG_SLOT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -3343,7 +3343,7 @@ empty
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 code
@@ -3667,7 +3667,7 @@ if
 canStringMatch
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pairCount
 (
@@ -4145,7 +4145,7 @@ RegExpRunStatus_Success_NotFound
 return
 RegExpRunStatus_Success_NotFound
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -4421,7 +4421,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 matchResultTemplateObject_
@@ -4655,7 +4655,7 @@ lastProperty
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -4699,7 +4699,7 @@ index
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -5910,7 +5910,7 @@ mode
 XDR_ENCODE
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 objp
 )

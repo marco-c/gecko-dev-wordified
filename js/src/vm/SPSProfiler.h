@@ -1537,7 +1537,7 @@ size_
 max_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 size_
@@ -1545,7 +1545,7 @@ size_
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stack_
 [
@@ -2367,7 +2367,7 @@ profiler
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 enabled
 (
@@ -2416,7 +2416,7 @@ enabled
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -2427,7 +2427,7 @@ left
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -2445,7 +2445,7 @@ shrinkBy
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frames
 .
@@ -2559,7 +2559,7 @@ empty
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 =
@@ -2709,7 +2709,7 @@ enabled
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 frames
@@ -2821,7 +2821,7 @@ enabled
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 frames
@@ -3007,7 +3007,7 @@ left
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -3015,7 +3015,7 @@ frame
 script
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 frame
@@ -3090,7 +3090,7 @@ enabled
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -3524,7 +3524,7 @@ inliningDepth
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frames
 [
@@ -3741,7 +3741,7 @@ enabled
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -3752,7 +3752,7 @@ left
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -

@@ -1255,7 +1255,7 @@ up
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 size
@@ -1337,7 +1337,7 @@ MutableHandleAtom
 retAtom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 !
@@ -2494,7 +2494,7 @@ break
 case
 PN_CODE
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 cur
 -

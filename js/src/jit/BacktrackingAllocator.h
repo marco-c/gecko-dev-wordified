@@ -563,7 +563,7 @@ LAllocation
 alloc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 alloc
@@ -634,7 +634,7 @@ canonicalSpillExclude
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasCanonicalSpillExclude
 (

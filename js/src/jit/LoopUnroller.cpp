@@ -435,7 +435,7 @@ the
 block
 itself
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -890,7 +890,7 @@ loopPredecessor
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 oldPreheader
 -
@@ -1062,7 +1062,7 @@ numSuccessors
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 backedge
 -
@@ -1700,7 +1700,7 @@ original
 loop
 header
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 header
 -
@@ -1749,7 +1749,7 @@ old
 *
 iter
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 old
 -
@@ -2253,7 +2253,7 @@ the
 unrolled
 code
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 UnrollCount
 >
@@ -2375,7 +2375,7 @@ are
 handled
 separately
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -2430,7 +2430,7 @@ phiValues
 alloc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 header
 -
@@ -2610,7 +2610,7 @@ phiIndex
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 phiIndex
 =
@@ -2705,7 +2705,7 @@ go
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 phiIndex
 =
@@ -2754,7 +2754,7 @@ the
 unrolled
 loop
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 oldPreheader
 -

@@ -268,7 +268,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasDefaultGetter
@@ -945,7 +945,7 @@ false
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 start
@@ -1413,7 +1413,7 @@ Shape
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -

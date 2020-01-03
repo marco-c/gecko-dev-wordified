@@ -615,7 +615,7 @@ masmrel32
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 code
 =

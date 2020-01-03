@@ -262,7 +262,7 @@ MGuardShape
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -356,7 +356,7 @@ MGuardObjectType
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -456,7 +456,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 -
@@ -1780,7 +1780,7 @@ ins
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -2016,7 +2016,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -2029,7 +2029,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -2042,7 +2042,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -2058,7 +2058,7 @@ MIRType_Double
 #
 ifdef
 JS_CODEGEN_X64
-JS_ASSERT
+MOZ_ASSERT
 (
 ecx
 =
@@ -2311,7 +2311,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -
@@ -2388,7 +2388,7 @@ input
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -

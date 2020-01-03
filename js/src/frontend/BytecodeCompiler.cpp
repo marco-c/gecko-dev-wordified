@@ -1541,7 +1541,7 @@ nullptr
 /
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 srcBuf
 .
@@ -2532,7 +2532,7 @@ TOK_EOF
 )
 break
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tt
 =
@@ -2760,7 +2760,7 @@ tokenStream
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 parser
 .
@@ -2789,7 +2789,7 @@ if
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 parser
@@ -3303,7 +3303,7 @@ size_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -3506,7 +3506,7 @@ functionNonDelazifying
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lazy
@@ -3585,7 +3585,7 @@ sourceObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sourceObject
 )
@@ -3950,7 +3950,7 @@ sct
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 options
@@ -4066,7 +4066,7 @@ nullptr
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 options
@@ -4131,12 +4131,12 @@ ss
 =
 ss
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -4455,7 +4455,7 @@ isInterpreted
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 =
@@ -4716,7 +4716,7 @@ function
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsAsmJSModuleNative
 (

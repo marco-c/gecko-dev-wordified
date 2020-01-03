@@ -785,7 +785,7 @@ type
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSharedTypedArrayClass
 (

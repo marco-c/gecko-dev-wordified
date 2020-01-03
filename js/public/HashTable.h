@@ -7880,7 +7880,7 @@ Key
 k
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 k

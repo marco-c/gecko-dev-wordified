@@ -394,7 +394,7 @@ bits
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -478,7 +478,7 @@ readUnsigned
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -659,7 +659,7 @@ the
 spilled
 registers
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 valueRegs
@@ -680,7 +680,7 @@ bits
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 gc
@@ -950,7 +950,7 @@ pack
 the
 bitset
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 slots
 [
@@ -966,7 +966,7 @@ intptr_t
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slots
 [
@@ -1673,7 +1673,7 @@ isStackSlot
 return
 Part_Stack
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 a
 .
@@ -2225,7 +2225,7 @@ payloadVal
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 partials
 =
@@ -2254,7 +2254,7 @@ startEntry
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoint
 -
@@ -2945,7 +2945,7 @@ LStackSlot
 info
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =

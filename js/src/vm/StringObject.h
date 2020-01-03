@@ -307,7 +307,7 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getReservedSlot
 (

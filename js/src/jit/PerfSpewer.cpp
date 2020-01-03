@@ -409,7 +409,7 @@ bufferSize
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 PerfFilePtr
@@ -763,7 +763,7 @@ PerfBlockEnabled
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 PerfMode
 )
@@ -786,7 +786,7 @@ PerfFuncEnabled
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 PerfMode
 )
@@ -820,7 +820,7 @@ PR_Lock
 PerfMutex
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 PerfFilePtr
 )
@@ -835,7 +835,7 @@ unlockPerfMap
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 PerfFilePtr
 )
@@ -1398,7 +1398,7 @@ offset
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cur
 <
@@ -1538,7 +1538,7 @@ id
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 cur
 <
@@ -1595,7 +1595,7 @@ thisFunctionIndex
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 funcEndInlineCode
 <
@@ -2299,7 +2299,7 @@ r
 .
 endOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cur
 <
@@ -2405,7 +2405,7 @@ id
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 cur
 <
@@ -2446,7 +2446,7 @@ filename
 funcName
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 funcEndInlineCode
 <

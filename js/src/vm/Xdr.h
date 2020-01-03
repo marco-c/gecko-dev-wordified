@@ -313,7 +313,7 @@ lengthp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 size_t
 (
@@ -392,7 +392,7 @@ size_t
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 <
@@ -460,14 +460,14 @@ ptr
 +
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 <
 cursor
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 <

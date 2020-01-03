@@ -680,7 +680,7 @@ alternatives_
 alternatives
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 alternatives
 -
@@ -1059,7 +1059,7 @@ max_match_
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nodes
 -

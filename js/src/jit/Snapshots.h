@@ -889,7 +889,7 @@ Register
 reg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 !
@@ -940,7 +940,7 @@ int32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 !
@@ -1263,7 +1263,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 layoutFromMode
 (
@@ -1290,7 +1290,7 @@ stackOffset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 layoutFromMode
 (
@@ -1317,7 +1317,7 @@ reg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 layoutFromMode
 (
@@ -1344,7 +1344,7 @@ fpuReg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 layoutFromMode
 (
@@ -1384,7 +1384,7 @@ knownType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 layoutFromMode
 (
@@ -1411,7 +1411,7 @@ stackOffset2
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 layoutFromMode
 (
@@ -1438,7 +1438,7 @@ reg2
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 layoutFromMode
 (

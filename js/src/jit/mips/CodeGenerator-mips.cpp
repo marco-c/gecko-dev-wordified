@@ -427,7 +427,7 @@ frameSize
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .

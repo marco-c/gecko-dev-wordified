@@ -354,7 +354,7 @@ frameSize
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 class_
 !
@@ -362,7 +362,7 @@ class_
 NO_FRAME_SIZE_CLASS_ID
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 class_
 <
@@ -609,7 +609,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 a
@@ -925,7 +925,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -1136,7 +1136,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -1376,7 +1376,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsEqualityOp
 (
@@ -1564,7 +1564,7 @@ LCompareVAndBranch
 RhsInput
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -2529,7 +2529,7 @@ float
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -3580,7 +3580,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -3819,7 +3819,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -4266,7 +4266,7 @@ s
 BogusTemp
 otherwise
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -4389,7 +4389,7 @@ s
 BogusTemp
 otherwise
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -4504,7 +4504,7 @@ need
 a
 temp
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -4609,7 +4609,7 @@ needs
 a
 temp
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -

@@ -791,7 +791,7 @@ expr
 \
 JS_BEGIN_MACRO
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 expr
 )
@@ -3487,7 +3487,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -4483,7 +4483,7 @@ MutableHandleObject
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 >
@@ -6319,7 +6319,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 >
@@ -6421,7 +6421,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 unop
 >
@@ -6534,7 +6534,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aop
 >
@@ -8722,7 +8722,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 >
@@ -10466,7 +10466,7 @@ NodeVector
 elts
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -10477,7 +10477,7 @@ PNK_STATEMENTLIST
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -10525,7 +10525,7 @@ next
 pn_next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -10623,7 +10623,7 @@ next
 pn_next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -10683,7 +10683,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -10735,7 +10735,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 parser
 -
@@ -10833,7 +10833,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -10908,7 +10908,7 @@ dst
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -10944,7 +10944,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 let
 ?
@@ -11187,7 +11187,7 @@ pn
 >
 pn_right
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11203,7 +11203,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11308,7 +11308,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11327,7 +11327,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11571,7 +11571,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11582,7 +11582,7 @@ PNK_IMPORT
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11596,7 +11596,7 @@ PNK_IMPORT_SPEC_LIST
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11729,7 +11729,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11803,7 +11803,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -12123,7 +12123,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -12220,7 +12220,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -12301,7 +12301,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -12320,7 +12320,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -12514,7 +12514,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -12556,7 +12556,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -12672,7 +12672,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -13309,7 +13309,7 @@ case
 PNK_IF
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -13328,7 +13328,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -13461,7 +13461,7 @@ case
 PNK_WHILE
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -13480,7 +13480,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -13575,7 +13575,7 @@ case
 PNK_DOWHILE
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -13594,7 +13594,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -13665,7 +13665,7 @@ case
 PNK_FOR
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -13684,7 +13684,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -14137,7 +14137,7 @@ loop
 >
 pn_left
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 head
 -
@@ -14250,7 +14250,7 @@ case
 PNK_LABEL
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -14477,7 +14477,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -14488,7 +14488,7 @@ PN_LIST
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15358,7 +15358,7 @@ case
 PNK_CONDITIONAL
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15377,7 +15377,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15396,7 +15396,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15497,7 +15497,7 @@ PN_BINARY
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15516,7 +15516,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15605,7 +15605,7 @@ case
 PNK_PREDECREMENT
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15676,7 +15676,7 @@ case
 PNK_POSTDECREMENT
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15777,7 +15777,7 @@ case
 PNK_MODASSIGN
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15796,7 +15796,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15964,7 +15964,7 @@ PN_BINARY
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15983,7 +15983,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16111,7 +16111,7 @@ case
 PNK_NEG
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16233,7 +16233,7 @@ pn
 >
 pn_head
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16311,7 +16311,7 @@ next
 pn_next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16423,7 +16423,7 @@ case
 PNK_DOT
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16503,7 +16503,7 @@ case
 PNK_ELEM
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16522,7 +16522,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16643,7 +16643,7 @@ next
 pn_next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16731,7 +16731,7 @@ next
 pn_next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16834,7 +16834,7 @@ next
 pn_next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -17035,7 +17035,7 @@ next
 pn_next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -17166,7 +17166,7 @@ next
 pn_next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -17256,7 +17256,7 @@ case
 PNK_YIELD_STAR
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -17371,7 +17371,7 @@ dst
 case
 PNK_ARRAYCOMP
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -17950,7 +17950,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -19445,7 +19445,7 @@ above
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 arg
 -
@@ -19614,7 +19614,7 @@ argument
 i
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rest

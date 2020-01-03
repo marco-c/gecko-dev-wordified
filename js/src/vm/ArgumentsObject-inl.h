@@ -167,7 +167,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isElementDeleted
@@ -251,7 +251,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isElementDeleted
@@ -415,7 +415,7 @@ Value
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 +

@@ -1098,7 +1098,7 @@ JSFunction
 fun
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSlotRef
 (
@@ -1129,7 +1129,7 @@ JSObject
 evalobj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSlotRef
 (
@@ -1160,7 +1160,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSlotRef
 (
@@ -1191,7 +1191,7 @@ key
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 <
@@ -1274,7 +1274,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 <
@@ -1299,7 +1299,7 @@ key
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 <
@@ -1329,7 +1329,7 @@ Value
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 <
@@ -1356,7 +1356,7 @@ JSProtoKey
 key
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 <
@@ -1433,7 +1433,7 @@ isUndefined
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inited
 =
@@ -1467,7 +1467,7 @@ classIsInitialized
 JSProto_Function
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inited
 =
@@ -1752,7 +1752,7 @@ slot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 FROM_BUFFER_UINT8
 <
@@ -1766,7 +1766,7 @@ slot
 FROM_BUFFER_UINT8CLAMPED
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 getSlot
@@ -1799,7 +1799,7 @@ JSFunction
 fun
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSlotRef
 (
@@ -1843,7 +1843,7 @@ JSFunction
 fun
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSlotRef
 (
@@ -2729,7 +2729,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSlotRef
 (
@@ -2757,7 +2757,7 @@ float32x4TypeDescr
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSlotRef
 (
@@ -2788,7 +2788,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSlotRef
 (
@@ -2816,7 +2816,7 @@ int32x4TypeDescr
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSlotRef
 (
@@ -3538,7 +3538,7 @@ intrinsicsHolder
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 getSlot
@@ -3757,7 +3757,7 @@ cx
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -3898,7 +3898,7 @@ createDataViewForThis
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataViewClassInitialized
 (

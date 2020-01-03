@@ -264,7 +264,7 @@ endif
 /
 Global
 invariant
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -341,7 +341,7 @@ trip
 any
 barriers
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 thing
@@ -357,7 +357,7 @@ needsIncrementalBarrier
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 thing
@@ -517,7 +517,7 @@ void
 thing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 )
@@ -801,7 +801,7 @@ next
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -931,7 +931,7 @@ moveForwardIfFree
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -939,7 +939,7 @@ done
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 )
@@ -1137,7 +1137,7 @@ getAllocKind
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 -
@@ -1194,7 +1194,7 @@ ArenaHeader
 aheader
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInited
 )
@@ -1255,7 +1255,7 @@ getCell
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -1286,7 +1286,7 @@ get
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -1370,7 +1370,7 @@ ArenaHeader
 aheader
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 -
@@ -1449,7 +1449,7 @@ AllocKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -1521,7 +1521,7 @@ get
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -1547,7 +1547,7 @@ getCell
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -1568,7 +1568,7 @@ next
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -1591,7 +1591,7 @@ done
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 arenaIter
@@ -1654,7 +1654,7 @@ kind
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -1675,7 +1675,7 @@ isEmpty
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -1894,7 +1894,7 @@ nullptr
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -2032,7 +2032,7 @@ next
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -2079,7 +2079,7 @@ get
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -2170,7 +2170,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -2208,7 +2208,7 @@ next
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -2236,7 +2236,7 @@ get
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -2351,7 +2351,7 @@ size_t
 nDynamicSlots
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsAtomsCompartment
@@ -2470,7 +2470,7 @@ thingSize
 nDynamicSlots
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -2711,7 +2711,7 @@ kind
 FINALIZE_JITCODE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -2722,7 +2722,7 @@ isHeapBusy
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -3062,7 +3062,7 @@ thingSize
 kind
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 =
@@ -3076,7 +3076,7 @@ kind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 >
@@ -3484,7 +3484,7 @@ sizeof
 T
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 =
@@ -3734,7 +3734,7 @@ thingSize
 kind
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 =
@@ -3933,7 +3933,7 @@ uint32_t
 addr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 location
 !
@@ -4006,7 +4006,7 @@ InitialHeap
 heap
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 >

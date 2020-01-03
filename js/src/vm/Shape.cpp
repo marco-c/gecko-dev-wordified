@@ -427,7 +427,7 @@ front
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -516,14 +516,14 @@ ObjectImpl
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inDictionary
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -533,12 +533,12 @@ inDictionaryMode
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 listp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -551,7 +551,7 @@ inDictionary
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -629,14 +629,14 @@ JSObject
 :
 newDictionaryShape
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 inDictionary
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 listp
@@ -740,7 +740,7 @@ ThreadSafeContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 base
@@ -753,7 +753,7 @@ isOwned
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -841,7 +841,7 @@ Shape
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inDictionary
 (
@@ -865,7 +865,7 @@ shape
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 (
@@ -979,7 +979,7 @@ Shape
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -1184,12 +1184,12 @@ firstRemoved
 uint32_t
 sizeMask
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entries
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JSID_IS_EMPTY
@@ -1472,7 +1472,7 @@ propidRaw
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 collision_flag
 )
@@ -1640,7 +1640,7 @@ ThreadSafeContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 entries
 )
@@ -1793,7 +1793,7 @@ SHAPE_FETCH
 oldspp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -1825,7 +1825,7 @@ propid
 true
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 SHAPE_IS_FREE
 (
@@ -1876,7 +1876,7 @@ ThreadSafeContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 needsToGrow
 (
@@ -1957,7 +1957,7 @@ HandleShape
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -2361,7 +2361,7 @@ properties
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2454,7 +2454,7 @@ inDictionaryMode
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 =
@@ -2670,7 +2670,7 @@ nullptr
 ;
 /
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -2759,7 +2759,7 @@ cx
 unrootedChild
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -2856,7 +2856,7 @@ ThreadSafeContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inDictionaryMode
@@ -2922,7 +2922,7 @@ right
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -2975,7 +2975,7 @@ shapes
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -3077,7 +3077,7 @@ while
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -3155,7 +3155,7 @@ numFixedSlots
 listp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 dprop
@@ -3202,7 +3202,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 Shape
@@ -3240,7 +3240,7 @@ shape_
 =
 root
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -3324,7 +3324,7 @@ setter
 JS_StrictPropertyStub
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -3347,7 +3347,7 @@ getter
 JS_PropertyStub
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -3399,7 +3399,7 @@ bool
 allowDictionary
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JSID_IS_VOID
@@ -3714,7 +3714,7 @@ bool
 allowDictionary
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -3967,7 +3967,7 @@ id
 true
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 SHAPE_FETCH
@@ -3978,7 +3978,7 @@ spp
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 !
@@ -4169,7 +4169,7 @@ if
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 =
@@ -4239,7 +4239,7 @@ shape
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 shape
@@ -4598,7 +4598,7 @@ ids
 i
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 res
@@ -4971,7 +4971,7 @@ unsigned
 flags
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -4982,7 +4982,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JSID_IS_VOID
@@ -5034,7 +5034,7 @@ id
 index
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -6110,7 +6110,7 @@ nbase
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 =
@@ -6468,7 +6468,7 @@ StrictPropertyOp
 setter
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -6479,7 +6479,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -6532,7 +6532,7 @@ transition
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -7761,7 +7761,7 @@ lineage
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 =
@@ -7824,7 +7824,7 @@ lastProperty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -7857,7 +7857,7 @@ shape
 >
 parent
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -7876,7 +7876,7 @@ inDictionary
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -7997,7 +7997,7 @@ properties
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -8039,7 +8039,7 @@ isEmptyShape
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slotSpan
 =
@@ -8075,7 +8075,7 @@ slotSpan
 )
 break
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -8139,7 +8139,7 @@ Shape
 newShape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -8150,7 +8150,7 @@ this
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -8161,7 +8161,7 @@ oldShape
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -8449,7 +8449,7 @@ oldShape
 listp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newShape
 -
@@ -9419,14 +9419,14 @@ uint32_t
 flag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inDictionaryMode
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lastProperty
 (
@@ -10175,7 +10175,7 @@ baseUnowned
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasGetterObject
 (
@@ -10190,7 +10190,7 @@ hasGetterObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasSetterObject
 (
@@ -10241,7 +10241,7 @@ setterObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getObjectParent
 (
@@ -10256,7 +10256,7 @@ getObjectParent
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getObjectMetadata
 (
@@ -10271,7 +10271,7 @@ getObjectMetadata
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getObjectFlags
 (
@@ -11017,7 +11017,7 @@ lookup
 lookup
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -11322,7 +11322,7 @@ lookup
 lookup
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 .
@@ -12029,7 +12029,7 @@ lookup
 lookup
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -12092,7 +12092,7 @@ previous
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nshape
 =
@@ -12379,7 +12379,7 @@ getObjectParent
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 parent
@@ -12393,7 +12393,7 @@ parent
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 =

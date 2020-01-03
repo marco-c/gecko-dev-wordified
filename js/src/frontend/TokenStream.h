@@ -303,7 +303,7 @@ TokenPos
 right
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 .
@@ -315,7 +315,7 @@ left
 end
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 .
@@ -327,7 +327,7 @@ right
 begin
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 right
 .
@@ -848,7 +848,7 @@ PropertyName
 name
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -856,7 +856,7 @@ type
 TOK_NAME
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedPtr
@@ -880,7 +880,7 @@ JSAtom
 atom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -900,7 +900,7 @@ type
 TOK_NO_SUBS_TEMPLATE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedPtr
@@ -926,7 +926,7 @@ RegExpFlag
 flags
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -934,7 +934,7 @@ type
 TOK_REGEXP
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 flags
@@ -962,7 +962,7 @@ DecimalPoint
 decimalPoint
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -1000,7 +1000,7 @@ name
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -1035,7 +1035,7 @@ atom
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -1070,7 +1070,7 @@ regExpFlags
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -1078,7 +1078,7 @@ type
 TOK_REGEXP
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 u
@@ -1106,7 +1106,7 @@ number
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -1128,7 +1128,7 @@ decimalPoint
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -2200,7 +2200,7 @@ names
 .
 yield
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isCurrentTokenType
 (
@@ -2412,7 +2412,7 @@ getRawTemplateStringAtom
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentToken
 (
@@ -2972,7 +2972,7 @@ currentToken
 .
 type
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tt
 !
@@ -3008,7 +3008,7 @@ ungetToken
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lookahead
 <
@@ -3115,7 +3115,7 @@ ungetToken
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lookahead
 !
@@ -4547,7 +4547,7 @@ lineNumToIndex
 lineNum
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lineIndex
 +
@@ -4915,7 +4915,7 @@ char16_t
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 )
@@ -4960,7 +4960,7 @@ ungetRawChar
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 )
@@ -5402,7 +5402,7 @@ getChar
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 c
 =

@@ -330,7 +330,7 @@ pc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 =
@@ -573,7 +573,7 @@ LoopEntryDepthHint
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 loopDepth
 >
@@ -644,7 +644,7 @@ nextLevel
 level
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 level
 <
@@ -670,7 +670,7 @@ level
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isLastLevel

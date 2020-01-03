@@ -386,13 +386,13 @@ ComponentFinder
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stack
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 firstComponent
@@ -443,7 +443,7 @@ gcDiscoveryTime
 Undefined
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 -
@@ -553,7 +553,7 @@ stackFull
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stack
@@ -897,7 +897,7 @@ w
 ;
 do
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stack
 )

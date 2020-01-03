@@ -579,7 +579,7 @@ numVariables
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 nlivefixed
 <
@@ -587,7 +587,7 @@ nlivefixed
 nfixed
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nlivefixed
 >
@@ -646,7 +646,7 @@ numValueSlots
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nfixed
 <
@@ -857,7 +857,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isStrictEvalFrame
 (
@@ -929,14 +929,14 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNonEvalFunctionFrame
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 (
@@ -1286,7 +1286,7 @@ sizeof
 Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numValueSlots
 (
@@ -1429,7 +1429,7 @@ iter
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .

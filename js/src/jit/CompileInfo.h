@@ -609,7 +609,7 @@ firstChild
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasChildren
 (
@@ -640,7 +640,7 @@ nextCallee
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasNextCallee
 (
@@ -744,7 +744,7 @@ pc_
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tree_
 !
@@ -752,7 +752,7 @@ tree_
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pc_
 !
@@ -985,7 +985,7 @@ functionNonDelazifying
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun_
 -
@@ -1276,7 +1276,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -1714,7 +1714,7 @@ scopeChainSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -1731,7 +1731,7 @@ returnValueSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -1748,7 +1748,7 @@ argsObjSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasArguments
 (
@@ -1765,14 +1765,14 @@ thisSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 funMaybeLazy
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nimplicit_
 >
@@ -1826,7 +1826,7 @@ access
 is
 done
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1876,7 +1876,7 @@ the
 argument
 object
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 argsObjAliasesFormals
@@ -1957,7 +1957,7 @@ startArgSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -1979,7 +1979,7 @@ endArgSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -2004,7 +2004,7 @@ totalSlots
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -2041,7 +2041,7 @@ staticScope
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 >
@@ -2262,7 +2262,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 >

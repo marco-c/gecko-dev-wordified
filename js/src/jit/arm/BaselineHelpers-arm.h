@@ -330,7 +330,7 @@ can
 use
 r0
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -465,7 +465,7 @@ can
 use
 r0
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -582,7 +582,7 @@ is
 /
 unused
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -726,7 +726,7 @@ on
 the
 stack
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 BaselineTailCallReg
 =
@@ -921,7 +921,7 @@ Register
 scratch
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -1259,7 +1259,7 @@ int
 values
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 values
 >
@@ -1338,7 +1338,7 @@ discard
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 values
 >
@@ -1460,7 +1460,7 @@ uint32_t
 objectOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -1926,7 +1926,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -2043,7 +2043,7 @@ the
 next
 stubcode
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 BaselineTailCallReg
 =

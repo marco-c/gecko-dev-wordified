@@ -984,7 +984,7 @@ MAX_ARRAY_INDEX
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -1363,7 +1363,7 @@ IndexType
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 >
@@ -1371,7 +1371,7 @@ index
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -1869,7 +1869,7 @@ HandleValue
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 >
@@ -2081,7 +2081,7 @@ ED_FAILED
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -2269,7 +2269,7 @@ bool
 succeeded
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 >
@@ -2277,7 +2277,7 @@ index
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 floor
 (
@@ -5698,7 +5698,7 @@ chain
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -5956,7 +5956,7 @@ length
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -6778,7 +6778,7 @@ break
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 elem
 .
@@ -8212,7 +8212,7 @@ ShouldUpdateTypes
 updateTypes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 <
@@ -8428,7 +8428,7 @@ ED_FAILED
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -8468,7 +8468,7 @@ setLengthInt32
 newlen
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 <
@@ -8588,7 +8588,7 @@ end
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 =
@@ -8974,7 +8974,7 @@ ED_FAILED
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -9900,7 +9900,7 @@ digitsa
 digitsb
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 digitsa
@@ -9949,7 +9949,7 @@ digitsa
 )
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 digitsb
@@ -10421,7 +10421,7 @@ here
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 a
@@ -10439,7 +10439,7 @@ isUndefined
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 a
@@ -11618,7 +11618,7 @@ size_t
 len
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 vec
 -
@@ -11875,7 +11875,7 @@ ComparatorMatchResult
 comp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 vec
 -
@@ -13233,7 +13233,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -13243,7 +13243,7 @@ isMagic
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arr
 -
@@ -13263,7 +13263,7 @@ length
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 <
@@ -13959,7 +13959,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -13972,7 +13972,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -14723,7 +14723,7 @@ ED_FAILED
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -15052,7 +15052,7 @@ prototype
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 narr
 -
@@ -15822,7 +15822,7 @@ len
 actualStart
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 len
 -
@@ -17088,7 +17088,7 @@ getDenseInitializedLength
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 initlen1
 =
@@ -17111,7 +17111,7 @@ getDenseInitializedLength
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 initlen2
 =
@@ -17158,7 +17158,7 @@ len
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 result
@@ -18204,7 +18204,7 @@ true
 /
 /
 Fallthrough
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -18620,7 +18620,7 @@ Step
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 InParallelSection
@@ -20277,7 +20277,7 @@ JSProtoKey
 key
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 =
@@ -20735,7 +20735,7 @@ GuessArrayGCKind
 length
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CanBeFinalizedInBackground
 (
@@ -20972,7 +20972,7 @@ entry
 heap
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -21592,7 +21592,7 @@ newKind
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocating
 =
@@ -21706,7 +21706,7 @@ nullptr
 /
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 src
@@ -21742,7 +21742,7 @@ arr
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arr
 -
@@ -21870,7 +21870,7 @@ arr
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arr
 -
@@ -21941,7 +21941,7 @@ GuessArrayGCKind
 length
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CanBeFinalizedInBackground
 (
@@ -22088,7 +22088,7 @@ lastProperty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gc

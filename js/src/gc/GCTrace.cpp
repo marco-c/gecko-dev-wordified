@@ -268,14 +268,14 @@ extra
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 event
 <
 GCTraceEventCount
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 payload
@@ -951,7 +951,7 @@ buffer
 bufLength
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -

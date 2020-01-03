@@ -509,7 +509,7 @@ T
 other
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mPtr
 =
@@ -895,7 +895,7 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 )
@@ -997,7 +997,7 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 )
@@ -1332,7 +1332,7 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 )
@@ -1736,7 +1736,7 @@ bool
 ok
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ok
 )

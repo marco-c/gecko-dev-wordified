@@ -154,7 +154,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 <
@@ -221,7 +221,7 @@ hasSingletonType
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 name
 )
@@ -320,7 +320,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 name
 =
@@ -739,14 +739,14 @@ scopeShape
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasDynamicScopeObject
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -868,7 +868,7 @@ block
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -910,7 +910,7 @@ staticWith
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -952,7 +952,7 @@ funScript
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -998,7 +998,7 @@ fun
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (

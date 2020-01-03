@@ -158,7 +158,7 @@ HandleString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 numFixedSlots
 (
@@ -197,7 +197,7 @@ self
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -

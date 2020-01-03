@@ -201,7 +201,7 @@ initialized
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inplen
 >
@@ -297,7 +297,7 @@ get
 a
 Z_DATA_ERROR
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 ret
 =
@@ -305,7 +305,7 @@ ret
 Z_DATA_ERROR
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uInt
 (
@@ -396,7 +396,7 @@ ret
 Z_OK
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ret
 =
@@ -430,7 +430,7 @@ size_t
 outlen
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 outlen
 >
@@ -465,7 +465,7 @@ compressMore
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zs
 .
@@ -587,7 +587,7 @@ Z_OK
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zs
 .
@@ -649,7 +649,7 @@ size_t
 outlen
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inplen
 <
@@ -725,7 +725,7 @@ next_out
 =
 out
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 outlen
 )
@@ -753,7 +753,7 @@ ret
 Z_OK
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ret
 =
@@ -774,7 +774,7 @@ zs
 Z_FINISH
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ret
 =
@@ -790,7 +790,7 @@ inflateEnd
 zs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ret
 =

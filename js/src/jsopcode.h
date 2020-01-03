@@ -1915,7 +1915,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 pc
@@ -1943,7 +1943,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 pc
@@ -3900,7 +3900,7 @@ instead
 ?
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 size_t
 (
@@ -3948,7 +3948,7 @@ JSOp
 *
 pc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 <
@@ -5006,7 +5006,7 @@ size_t
 which
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 <

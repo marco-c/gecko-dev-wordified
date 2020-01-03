@@ -248,7 +248,7 @@ length
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isUndefined
@@ -330,7 +330,7 @@ check
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 limit
 >
@@ -554,7 +554,7 @@ this
 i
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 .
@@ -573,7 +573,7 @@ isUndefined
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size_t
 (
@@ -623,7 +623,7 @@ pairCount
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pairCount_
 >
@@ -715,7 +715,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -739,7 +739,7 @@ size_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <

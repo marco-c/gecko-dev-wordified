@@ -1711,7 +1711,7 @@ MResumePoint
 resumePoint
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 resumePoint_
@@ -1930,7 +1930,7 @@ cacheOperandMightEmulateUndefined
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 operandMightEmulateUndefined
 (
@@ -3176,7 +3176,7 @@ MDefinition
 dom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dom
 !
@@ -3184,7 +3184,7 @@ dom
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dom
 !
@@ -3309,7 +3309,7 @@ MIRType
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsSimdType
@@ -3449,7 +3449,7 @@ s
 TypeObject
 )
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 constraints
 )
@@ -4841,7 +4841,7 @@ isConstant
 return
 this
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 -
@@ -5719,7 +5719,7 @@ bool
 isDOMCall
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 maxArgc
 >
@@ -5736,7 +5736,7 @@ if
 isDOMCall
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 construct
@@ -5810,7 +5810,7 @@ getJitInfo
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jitInfo
 -
@@ -6430,7 +6430,7 @@ at
 this
 point
 !
-JS_ASSERT
+MOZ_ASSERT
 (
 call
 -
@@ -6455,7 +6455,7 @@ getJitInfo
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getSingleTarget
 (
@@ -6486,7 +6486,7 @@ jitInfo
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jitInfo
 )
@@ -6700,7 +6700,7 @@ TempAllocator
 alloc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -6735,7 +6735,7 @@ TempAllocator
 alloc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -6770,7 +6770,7 @@ TempAllocator
 alloc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -6849,7 +6849,7 @@ CompareType
 compareType
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 compareType
 =
@@ -6964,7 +6964,7 @@ MBasicBlock
 target
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 )
@@ -7276,7 +7276,7 @@ getPredecessor
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 =
@@ -7291,7 +7291,7 @@ loopPredecessor
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -7306,7 +7306,7 @@ block
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pred
 -
@@ -7319,7 +7319,7 @@ positionInPhiSuccessor
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 back
 =
@@ -7334,7 +7334,7 @@ backedge
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 back
 -
@@ -7349,7 +7349,7 @@ block
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 back
 -
@@ -7375,7 +7375,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -7384,7 +7384,7 @@ numOperands
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getUseFor
 (
@@ -7400,7 +7400,7 @@ index
 index
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getUseFor
 (
@@ -8549,7 +8549,7 @@ pod_realloc
 (
 )
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 numOperands
 (
@@ -8590,7 +8590,7 @@ MIRType
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 !
@@ -8913,7 +8913,7 @@ specializeType
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 specialized_
@@ -8925,7 +8925,7 @@ true
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inputs_
@@ -9115,7 +9115,7 @@ TemporaryTypeSet
 typeSet
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 specialized_
@@ -9427,7 +9427,7 @@ to
 get
 called
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 inputs_
 .
@@ -10255,7 +10255,7 @@ specialization_
 =
 MIRType_Int32
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -13126,7 +13126,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 -
@@ -13536,7 +13536,7 @@ MIRType_Double
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 <
@@ -13549,7 +13549,7 @@ lhs
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 <
@@ -14916,7 +14916,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 operandMightEmulateUndefined
 (
@@ -15553,7 +15553,7 @@ int32
 specialization
 earlier
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -15794,7 +15794,7 @@ specialization_
 =
 MIRType_Int32
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -15915,7 +15915,7 @@ specialization_
 MIRType_Int32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 -
@@ -16003,7 +16003,7 @@ boxed
 the
 input
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 (
@@ -16174,7 +16174,7 @@ cacheInputMaybeCallableOrEmulatesUndefined
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inputMaybeCallableOrEmulatesUndefined
 (
@@ -18061,7 +18061,7 @@ compareType_
 Compare_Undefined
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -18307,7 +18307,7 @@ compareType_
 Compare_Boolean
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -18321,7 +18321,7 @@ op
 JSOP_STRICTNE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 (
@@ -18430,7 +18430,7 @@ compareType_
 Compare_StrictString
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -18444,7 +18444,7 @@ op
 JSOP_STRICTNE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 (
@@ -19243,7 +19243,7 @@ result
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -19429,7 +19429,7 @@ Compare_Null
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jsop
 (
@@ -19608,7 +19608,7 @@ cacheOperandMightEmulateUndefined
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 operandMightEmulateUndefined
 (
@@ -20521,7 +20521,7 @@ shouldUseVM
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 (
@@ -26317,7 +26317,7 @@ false
 }
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 aggregateProperty
 )
@@ -27438,7 +27438,7 @@ excluded
 object
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 excluded
 )

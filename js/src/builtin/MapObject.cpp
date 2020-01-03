@@ -6082,7 +6082,7 @@ value
 v
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 .
@@ -6241,7 +6241,7 @@ DEBUG
 bool
 same
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 SameValue
 (
@@ -6255,7 +6255,7 @@ same
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 same
 =
@@ -6679,7 +6679,7 @@ toInt32
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 =
@@ -8256,7 +8256,7 @@ JSTracer
 trc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 UnbarrieredHashPolicy
 :
@@ -9262,7 +9262,7 @@ CallReceiver
 call
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 call
 .
@@ -9275,7 +9275,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 call
 .
@@ -9334,7 +9334,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 MapObject
 :
@@ -9449,7 +9449,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 MapObject
 :
@@ -9581,7 +9581,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 MapObject
 :
@@ -9688,7 +9688,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 MapObject
 :
@@ -9960,7 +9960,7 @@ UndefinedValue
 )
 )
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 MapObject
 :
@@ -10840,7 +10840,7 @@ toInt32
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 =
@@ -12602,7 +12602,7 @@ CallReceiver
 call
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 call
 .
@@ -12615,7 +12615,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 call
 .
@@ -12674,7 +12674,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -12786,7 +12786,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -12890,7 +12890,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -13030,7 +13030,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (

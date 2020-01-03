@@ -754,7 +754,7 @@ JitCode
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 code
 -
@@ -2307,7 +2307,7 @@ JitCode
 code
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 invalidated
@@ -2364,7 +2364,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 osrEntryOffset_
@@ -2392,7 +2392,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 skipArgCheckEntryOffset_
@@ -2539,7 +2539,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 invalidateEpilogueOffset_
@@ -2556,7 +2556,7 @@ invalidateEpilogueOffset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 invalidateEpilogueOffset_
 )
@@ -2572,7 +2572,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 invalidateEpilogueDataOffset_
@@ -2589,7 +2589,7 @@ invalidateEpilogueDataOffset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 invalidateEpilogueDataOffset_
 )
@@ -2862,7 +2862,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -2917,7 +2917,7 @@ uint32_t
 bailoutId
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bailoutId
 <
@@ -2954,7 +2954,7 @@ retAddr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsCodeAddress
 (
@@ -3008,7 +3008,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -3041,7 +3041,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -3091,7 +3091,7 @@ uint32_t
 locIndex
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 locIndex
 <
@@ -3315,7 +3315,7 @@ FreeOp
 fop
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 refcount_
 )
@@ -3763,7 +3763,7 @@ uint32_t
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -3786,7 +3786,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -4042,7 +4042,7 @@ size_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <

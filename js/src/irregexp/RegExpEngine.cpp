@@ -881,7 +881,7 @@ elmc
 -
 -
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elmv
 [
@@ -909,7 +909,7 @@ i
 2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 elmv
 [
@@ -967,7 +967,7 @@ elmc
 -
 -
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elmv
 [
@@ -978,7 +978,7 @@ elmc
 0x10000
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elmv
 [
@@ -989,7 +989,7 @@ elmv
 0x0000
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elmv
 [
@@ -1024,7 +1024,7 @@ i
 2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 last
 <
@@ -1037,7 +1037,7 @@ i
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elmv
 [
@@ -1697,7 +1697,7 @@ char16_t
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 c
 >
@@ -2060,7 +2060,7 @@ Remove
 final
 0x10000
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 special_class
 [
@@ -2071,7 +2071,7 @@ length
 0x10000
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ranges
 .
@@ -2083,7 +2083,7 @@ length
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 !
@@ -2091,7 +2091,7 @@ length
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 special_class
 [
@@ -2261,7 +2261,7 @@ Remove
 final
 0x10000
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 special_class
 [
@@ -3565,7 +3565,7 @@ popBack
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CharacterRange
 :
@@ -3667,7 +3667,7 @@ info_
 info
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -3807,7 +3807,7 @@ depth
 return
 this
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -4842,7 +4842,7 @@ depth
 return
 this
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -5061,7 +5061,7 @@ converted
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 elm
 .
@@ -6288,7 +6288,7 @@ length
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 choice_count
 >
@@ -6754,7 +6754,7 @@ depth
 ignore_case
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 replacement
 !
@@ -7566,7 +7566,7 @@ GuardedAlternative
 alt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 loop_node_
 =
@@ -7598,7 +7598,7 @@ GuardedAlternative
 alt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 continue_node_
 =
@@ -10390,7 +10390,7 @@ int
 in_character
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 in_character
@@ -11019,7 +11019,7 @@ EndNode
 ACCEPT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 next_register_
 -
@@ -12699,7 +12699,7 @@ saved_expansion_factor_
 kMaxExpansionFactor
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 factor
 >
@@ -13384,7 +13384,7 @@ min
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 max
 >
@@ -14956,7 +14956,7 @@ Interval
 new_range
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 ranges_length
@@ -14968,7 +14968,7 @@ ranges_length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ranges
 [
@@ -16739,7 +16739,7 @@ max_lookahead
 boolean_skip_table
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 skip_distance
 !
@@ -17046,7 +17046,7 @@ int
 cp_offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 =
@@ -17773,7 +17773,7 @@ undo_action
 =
 DEFER_RESTORE
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 store_position
 =
@@ -17782,7 +17782,7 @@ store_position
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 clear
@@ -17808,7 +17808,7 @@ value
 +
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 store_position
 =
@@ -17817,7 +17817,7 @@ store_position
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 clear
@@ -17987,13 +17987,13 @@ DEFER_CLEAR
 DEFER_RESTORE
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 absolute
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 =
@@ -18060,13 +18060,13 @@ undo_action
 =
 DEFER_RESTORE
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 absolute
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 =
@@ -18349,7 +18349,7 @@ macro_assembler
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 is_trivial
@@ -18726,7 +18726,7 @@ RegExpCompiler
 compiler
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 by
 >
@@ -20364,7 +20364,7 @@ kIsNonWord
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 next_is_word_character
 =
@@ -21295,7 +21295,7 @@ i
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 ranges
@@ -21311,7 +21311,7 @@ kMask
 base
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 start_index
 =
@@ -21714,7 +21714,7 @@ in_range_label
 dummy
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 dummy
@@ -22284,7 +22284,7 @@ scan_forward_for_section_border
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 new_start_index
@@ -22503,7 +22503,7 @@ end_index
 -
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 min_char
 <
@@ -22736,7 +22736,7 @@ even_label
 odd_label
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 end_index
 -
@@ -22987,7 +22987,7 @@ odd_label
 :
 even_label
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 new_end_index
 =
@@ -22998,7 +22998,7 @@ end_index
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 start_index
 <
@@ -23006,7 +23006,7 @@ start_index
 new_end_index
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 new_start_index
 <
@@ -23014,21 +23014,21 @@ new_start_index
 end_index
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 start_index
 <
 new_start_index
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 new_end_index
 <
 end_index
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 new_end_index
 +
@@ -23059,7 +23059,7 @@ new_end_index
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 min_char
 <
@@ -23068,14 +23068,14 @@ border
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 border
 <
 max_char
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ranges
 [
@@ -23085,7 +23085,7 @@ new_end_index
 border
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 border
 <
@@ -23128,7 +23128,7 @@ last
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 new_start_index
 =
@@ -23744,7 +23744,7 @@ from
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 =
@@ -24224,7 +24224,7 @@ MaximumCharacter
 ascii
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 c1
 !
@@ -24572,7 +24572,7 @@ jit
 Label
 ok
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kEcma262UnCanonicalizeMaxWidth
 =
@@ -25393,7 +25393,7 @@ pass
 case
 NON_ASCII_MATCH
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 ascii
 )
@@ -25504,7 +25504,7 @@ checked_up_to
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 TextElement
 :
@@ -25616,7 +25616,7 @@ length
 1
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elm
 .
@@ -25808,7 +25808,7 @@ DONE
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 limit_result
 =
@@ -26133,7 +26133,7 @@ alternatives
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 text_length
 !
@@ -26168,7 +26168,7 @@ see
 below
 )
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 trace
 -
@@ -26205,7 +26205,7 @@ loop_label
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 trace
 -
@@ -26871,7 +26871,7 @@ Guard
 :
 LT
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 trace
@@ -26921,7 +26921,7 @@ Guard
 :
 GEQ
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 trace
@@ -27785,7 +27785,7 @@ j
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 trace
@@ -27830,7 +27830,7 @@ DONE
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 limit_result
 =
@@ -28053,7 +28053,7 @@ greedy_loop
 =
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 trace
 -
@@ -28413,7 +28413,7 @@ or
 small
 alternation
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 trace
 -
@@ -29803,7 +29803,7 @@ DONE
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 limit_result
 =
@@ -30547,7 +30547,7 @@ clear_registers_from
 clear_registers_to
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 trace
 -
@@ -30648,7 +30648,7 @@ DONE
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 limit_result
 =
@@ -30662,7 +30662,7 @@ rc
 compiler
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 start_reg_
 +
@@ -31158,7 +31158,7 @@ ascii
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 details
 -
@@ -31848,7 +31848,7 @@ character
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 TextElement
 :
@@ -32335,7 +32335,7 @@ bool
 not_at_start
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 characters_filled_in
 <
@@ -32585,7 +32585,7 @@ ascii
 chars
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 !
@@ -32904,7 +32904,7 @@ characters_filled_in
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 characters_filled_in
 <
@@ -33431,7 +33431,7 @@ characters_filled_in
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 characters_filled_in
 <
@@ -33462,7 +33462,7 @@ return
 }
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 characters_filled_in
 !
@@ -33570,7 +33570,7 @@ bool
 ascii
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 by
 >
@@ -33862,7 +33862,7 @@ int
 from_index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 characters_
 =

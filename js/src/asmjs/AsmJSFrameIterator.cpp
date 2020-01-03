@@ -412,7 +412,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -494,7 +494,7 @@ lookupCodeRange
 returnAddress
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 codeRange
 )
@@ -532,7 +532,7 @@ lookupCallSite
 returnAddress
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callsite_
 )
@@ -552,7 +552,7 @@ fp_
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 done
 (
@@ -631,7 +631,7 @@ functionDisplayAtom
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -673,7 +673,7 @@ column
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -1267,7 +1267,7 @@ PushRetAddr
 masm
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 PushedRetAddr
 =
@@ -1304,7 +1304,7 @@ offsetOfFP
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 PushedFP
 =
@@ -1335,7 +1335,7 @@ offsetOfFP
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 StoredFP
 =
@@ -2149,7 +2149,7 @@ AsmJSFunctionLabels
 labels
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -2813,7 +2813,7 @@ Inverse
 of
 GenerateAsmJSExitPrologue
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -3018,7 +3018,7 @@ lookupCodeRange
 callerPC
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callerCodeRange
 )
@@ -3033,7 +3033,7 @@ isEntry
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callerFP
 =
@@ -3066,13 +3066,13 @@ isThunk
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 callsite
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callerCodeRange
 -
@@ -3085,12 +3085,12 @@ isFunction
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callsite
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callerFP
 =
@@ -3161,7 +3161,7 @@ if
 fp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 done
 (
@@ -3317,7 +3317,7 @@ lookupCodeRange
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 codeRange
 )
@@ -3583,7 +3583,7 @@ AsmJSExit
 :
 Interrupt
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -3723,7 +3723,7 @@ profilingEnabled
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 done
 (
@@ -4037,7 +4037,7 @@ codeBase
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offsetInModule
 <
@@ -4049,7 +4049,7 @@ codeBytes
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offsetInModule
 >
@@ -4062,7 +4062,7 @@ begin
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offsetInModule
 <
@@ -4193,7 +4193,7 @@ offsetInCodeRange
 StoredFP
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fp
 =
@@ -4308,7 +4308,7 @@ unwinding
 logic
 below
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fp
@@ -4358,7 +4358,7 @@ if
 fp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 done
 (
@@ -4440,7 +4440,7 @@ state
 .
 sp
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -4470,7 +4470,7 @@ AsmJSExit
 None
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 codeRange_
 )
@@ -4482,7 +4482,7 @@ AsmJSExit
 :
 None
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -4499,7 +4499,7 @@ if
 callerPC_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 callerFP_
@@ -4509,7 +4509,7 @@ codeRange_
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 done
 (
@@ -4519,7 +4519,7 @@ done
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 callerPC_
 )
@@ -4540,7 +4540,7 @@ lookupCodeRange
 callerPC_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 codeRange
 )
@@ -4568,7 +4568,7 @@ CodeRange
 :
 Entry
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 callerFP_
 =
@@ -4576,7 +4576,7 @@ callerFP_
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callerPC_
 !
@@ -4678,7 +4678,7 @@ callerFP_
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -5080,7 +5080,7 @@ label
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done

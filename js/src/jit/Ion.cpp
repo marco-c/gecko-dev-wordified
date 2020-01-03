@@ -1064,7 +1064,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -1079,7 +1079,7 @@ currentThreadHasExclusiveAccess
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -1999,7 +1999,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -2048,7 +2048,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -2213,7 +2213,7 @@ deadlock
 the
 process
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -2333,7 +2333,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -2373,7 +2373,7 @@ X
 #
 ifndef
 XP_MACOSX
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -2518,7 +2518,7 @@ target
 #
 ifndef
 XP_MACOSX
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -2665,7 +2665,7 @@ jitRuntime
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -2750,7 +2750,7 @@ signal
 /
 handler
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -4005,7 +4005,7 @@ JSTracer
 trc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 trc
@@ -4465,7 +4465,7 @@ for
 minor
 GCs
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fop
@@ -4712,7 +4712,7 @@ frameClass
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frameClass
 !
@@ -4750,12 +4750,12 @@ f
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 functionWrappers_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 functionWrappers_
 -
@@ -4783,7 +4783,7 @@ readonlyThreadsafeLookup
 f
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -5223,7 +5223,7 @@ releasing
 references
 in
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 fop
 -
@@ -5257,7 +5257,7 @@ if
 hasBytecodeMap_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fop
 -
@@ -6629,7 +6629,7 @@ SafepointWriter
 writer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 writer
 -
@@ -7331,7 +7331,7 @@ disp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 safepointIndexEntries_
 >
@@ -7355,7 +7355,7 @@ safepointIndexEntries_
 1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 disp
 =
@@ -7426,7 +7426,7 @@ in
 the
 list
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 min
 <
@@ -7589,7 +7589,7 @@ displacement
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 guessDisp
 >
@@ -7636,7 +7636,7 @@ displacement
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 guessDisp
 <
@@ -7794,7 +7794,7 @@ raw
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 containsCodeAddress
 (
@@ -11837,7 +11837,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -12144,7 +12144,7 @@ TraceLogger
 IonCompilation
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 optimizationLevel
 >
@@ -12577,7 +12577,7 @@ builder
 return
 AbortReason_Alloc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 recompile
 =
@@ -12594,7 +12594,7 @@ executionMode
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CanIonCompile
 (
@@ -12625,7 +12625,7 @@ if
 recompile
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 executionMode
 =
@@ -13005,7 +13005,7 @@ BaselineFrame
 frame
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 frame
@@ -13016,7 +13016,7 @@ isGeneratorFrame
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 frame
@@ -13425,7 +13425,7 @@ ParallelExecution
 return
 Optimization_Normal
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 executionMode
 =
@@ -13464,7 +13464,7 @@ ExecutionMode
 executionMode
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -13475,7 +13475,7 @@ cx
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -14071,7 +14071,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -14082,7 +14082,7 @@ cx
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 JSOp
@@ -14094,7 +14094,7 @@ pc
 JSOP_LOOPENTRY
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 LoopEntryCanIonOsr
 (
@@ -14365,7 +14365,7 @@ RunState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -14816,7 +14816,7 @@ BaselineFrame
 frame
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -14827,7 +14827,7 @@ cx
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -14847,7 +14847,7 @@ canIonCompile
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 frame
@@ -14868,7 +14868,7 @@ isIonCompilingOffThread
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 frame
@@ -14889,7 +14889,7 @@ hasIonScript
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -15010,7 +15010,7 @@ bool
 constructing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -15398,7 +15398,7 @@ uint32_t
 numActualArgs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -15590,7 +15590,7 @@ return
 IonExec_Aborted
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -15601,7 +15601,7 @@ cx
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 data
@@ -15724,7 +15724,7 @@ address
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -16099,7 +16099,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 vals
 .
@@ -16423,7 +16423,7 @@ raw
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -16434,7 +16434,7 @@ cx
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ion
@@ -16501,7 +16501,7 @@ length
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -16559,7 +16559,7 @@ address
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -16731,7 +16731,7 @@ case
 JitFrame_IonJS
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 .
@@ -18514,7 +18514,7 @@ the
 above
 loop
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 numInvalidations
@@ -18672,7 +18672,7 @@ bool
 cancelOffThread
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -18867,7 +18867,7 @@ mode
 case
 SequentialExecution
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -18905,7 +18905,7 @@ break
 case
 ParallelExecution
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -19707,12 +19707,12 @@ autoFlushICache
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 afc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 afc
@@ -20043,7 +20043,7 @@ start
 len
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 len
 <
@@ -20214,12 +20214,12 @@ autoFlushICache
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 afc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 afc
 -
@@ -20649,7 +20649,7 @@ get
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pt
 -

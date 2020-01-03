@@ -830,7 +830,7 @@ T
 t
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 storage_
 )
@@ -1217,7 +1217,7 @@ T
 t
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 storage_
 )
@@ -1515,7 +1515,7 @@ nursery
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsInsideNursery
 (
@@ -1731,7 +1731,7 @@ nursery
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsInsideNursery
 (
@@ -1917,7 +1917,7 @@ count_
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uintptr_t
@@ -1932,7 +1932,7 @@ object
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 <
@@ -1940,7 +1940,7 @@ kind
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 >
@@ -1948,7 +1948,7 @@ start
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 >
@@ -2164,7 +2164,7 @@ edge
 cell
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 edge
 -
@@ -2576,7 +2576,7 @@ isEnabled
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -2873,7 +2873,7 @@ Cell
 cell
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cell
 -

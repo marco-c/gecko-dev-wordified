@@ -416,7 +416,7 @@ toAddress
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -450,7 +450,7 @@ toBaseIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -509,7 +509,7 @@ reg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -538,7 +538,7 @@ base
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -575,7 +575,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -601,7 +601,7 @@ scale
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -624,7 +624,7 @@ fpu
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -650,7 +650,7 @@ disp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -679,7 +679,7 @@ address
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -1140,7 +1140,7 @@ isMarkable
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 static_cast
 <
@@ -2099,7 +2099,7 @@ AbsoluteLabel
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 label
@@ -2803,7 +2803,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -2836,7 +2836,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -2871,7 +2871,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -2979,7 +2979,7 @@ Operand
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3087,7 +3087,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3195,7 +3195,7 @@ Operand
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3731,7 +3731,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3839,7 +3839,7 @@ Operand
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -3947,7 +3947,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -4055,7 +4055,7 @@ Operand
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -4161,7 +4161,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -4194,7 +4194,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -4227,7 +4227,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -7366,7 +7366,7 @@ Register
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 GeneralRegisterSet
 (
@@ -7382,7 +7382,7 @@ lhs
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 GeneralRegisterSet
 (
@@ -10061,7 +10061,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10096,7 +10096,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE41
 (
@@ -10134,7 +10134,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE41
 (
@@ -10227,7 +10227,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10258,7 +10258,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10289,7 +10289,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10514,7 +10514,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10644,7 +10644,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10677,7 +10677,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10712,7 +10712,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10842,7 +10842,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10875,7 +10875,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -10974,7 +10974,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11007,7 +11007,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11040,7 +11040,7 @@ FloatRegister
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE41
 (
@@ -11073,7 +11073,7 @@ FloatRegister
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11106,7 +11106,7 @@ FloatRegister
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11139,7 +11139,7 @@ FloatRegister
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11528,7 +11528,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11561,7 +11561,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11596,7 +11596,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11713,7 +11713,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11830,7 +11830,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -11947,7 +11947,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -12064,7 +12064,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -12181,7 +12181,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -12298,7 +12298,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -12415,7 +12415,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -12649,7 +12649,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -12998,7 +12998,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13033,7 +13033,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13067,7 +13067,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13102,7 +13102,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13136,7 +13136,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13169,7 +13169,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13204,7 +13204,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13321,7 +13321,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13436,7 +13436,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13469,7 +13469,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13504,7 +13504,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13597,7 +13597,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13688,7 +13688,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13723,7 +13723,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13816,7 +13816,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13907,7 +13907,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13940,7 +13940,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -13973,7 +13973,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14008,7 +14008,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14101,7 +14101,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14192,7 +14192,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14225,7 +14225,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14258,7 +14258,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14291,7 +14291,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14324,7 +14324,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14357,7 +14357,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14390,7 +14390,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14423,7 +14423,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14461,7 +14461,7 @@ RoundingMode
 mode
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE41
 (
@@ -14500,7 +14500,7 @@ RoundingMode
 mode
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE41
 (
@@ -14625,7 +14625,7 @@ unsigned
 mask
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE41
 (
@@ -14659,7 +14659,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14694,7 +14694,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14785,7 +14785,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14818,7 +14818,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14853,7 +14853,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14944,7 +14944,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE2
 (
@@ -14977,7 +14977,7 @@ Operand
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasSSE3
 (
@@ -15341,7 +15341,7 @@ PatchWrite_NearCallSize
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 int32_t
 (
@@ -15443,7 +15443,7 @@ raw
 -
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 ptr
@@ -15587,7 +15587,7 @@ raw
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 ptr
@@ -15624,7 +15624,7 @@ raw
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 ptr
@@ -15663,7 +15663,7 @@ raw
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 ptr

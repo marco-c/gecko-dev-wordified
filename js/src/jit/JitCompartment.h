@@ -1598,7 +1598,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -1633,7 +1633,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -2105,7 +2105,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasIonReturnOverride
@@ -2113,7 +2113,7 @@ hasIonReturnOverride
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -2147,7 +2147,7 @@ getJitcodeGlobalTable
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasJitcodeGlobalTable
 (
@@ -2533,7 +2533,7 @@ the
 correct
 pointer
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stubCodes_
@@ -2583,7 +2583,7 @@ void
 addr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 baselineCallReturnAddr_
 =
@@ -2602,7 +2602,7 @@ baselineCallReturnAddr
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 baselineCallReturnAddr_
 !
@@ -2622,7 +2622,7 @@ void
 addr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 baselineGetPropReturnAddr_
 =
@@ -2641,7 +2641,7 @@ baselineGetPropReturnAddr
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 baselineGetPropReturnAddr_
 !
@@ -2661,7 +2661,7 @@ void
 addr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 baselineSetPropReturnAddr_
 =
@@ -2680,7 +2680,7 @@ baselineSetPropReturnAddr
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 baselineSetPropReturnAddr_
 !

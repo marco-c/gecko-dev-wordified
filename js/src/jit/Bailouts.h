@@ -1205,7 +1205,7 @@ topFrameSize
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 topIonScript_
 )

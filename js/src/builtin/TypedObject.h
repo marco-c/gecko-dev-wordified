@@ -4231,7 +4231,7 @@ s
 side
 .
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -5023,7 +5023,7 @@ size
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nbytes
 <
@@ -5048,7 +5048,7 @@ Value
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nbytes
 <

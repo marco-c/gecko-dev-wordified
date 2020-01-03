@@ -149,7 +149,7 @@ name
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isKind
 (
@@ -206,7 +206,7 @@ atom
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isKind
 (

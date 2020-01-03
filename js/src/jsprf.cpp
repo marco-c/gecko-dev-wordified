@@ -1896,7 +1896,7 @@ fmt1
 -
 fmt0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 amount
@@ -1992,7 +1992,7 @@ while
 p
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 p
@@ -2057,7 +2057,7 @@ and
 fix
 it
 !
-JS_ASSERT
+MOZ_ASSERT
 (
 strlen
 (
@@ -3227,7 +3227,7 @@ not
 supported
 I
 suppose
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -3291,7 +3291,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -3738,7 +3738,7 @@ jliu
 netscape
 .
 com
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -5251,7 +5251,7 @@ TYPE_UINTN
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -5296,7 +5296,7 @@ not
 supported
 I
 suppose
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -5444,7 +5444,7 @@ it
 #
 if
 0
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -6127,7 +6127,7 @@ ap
 int
 rv
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 int32_t
 (
@@ -6200,7 +6200,7 @@ ss
 uint32_t
 n
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 int32_t
 (

@@ -293,7 +293,7 @@ generatePrologue
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gen
@@ -339,7 +339,7 @@ generateEpilogue
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gen
@@ -428,7 +428,7 @@ frameSize
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -3160,7 +3160,7 @@ LSnapshot
 snapshot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Assembler
 :
@@ -3205,7 +3205,7 @@ LSnapshot
 snapshot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 label
 -
@@ -3362,7 +3362,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 first
 =
@@ -3845,7 +3845,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 first
 =
@@ -4299,7 +4299,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 =
@@ -4387,7 +4387,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 =
@@ -4709,7 +4709,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 =
@@ -5422,7 +5422,7 @@ getOperand
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 =
@@ -6359,7 +6359,7 @@ rhs
 eax
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 !
@@ -7027,7 +7027,7 @@ two
 -
 address
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 =
@@ -7240,7 +7240,7 @@ numeratorCopy
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhsCopy
 !
@@ -7434,7 +7434,7 @@ answer
 into
 eax
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 output
 =
@@ -7448,7 +7448,7 @@ output
 edx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 !
@@ -7496,7 +7496,7 @@ and
 LModPowTwoI
 )
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 Abs
@@ -8173,7 +8173,7 @@ rhs
 eax
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 !
@@ -8181,7 +8181,7 @@ rhs
 edx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 remainder
 =
@@ -8189,7 +8189,7 @@ remainder
 edx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 output
 =
@@ -8330,7 +8330,7 @@ entry
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -8477,7 +8477,7 @@ done
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -9401,7 +9401,7 @@ rhs
 eax
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 !
@@ -9409,7 +9409,7 @@ rhs
 edx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 remainder
 =
@@ -9417,7 +9417,7 @@ remainder
 edx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -9670,7 +9670,7 @@ canBePowerOfTwoDivisor
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 !
@@ -10167,7 +10167,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 input
@@ -10596,7 +10596,7 @@ op
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -10753,7 +10753,7 @@ lhs
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -10832,7 +10832,7 @@ lhs
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ToRegister
 (
@@ -11477,7 +11477,7 @@ rhs
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -11607,7 +11607,7 @@ rhs
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -15375,7 +15375,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 =
@@ -15426,7 +15426,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 =
@@ -15477,7 +15477,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 =
@@ -17436,7 +17436,7 @@ rhs
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (
@@ -17665,7 +17665,7 @@ rhs
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ToFloatRegister
 (

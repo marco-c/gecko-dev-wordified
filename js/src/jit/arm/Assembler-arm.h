@@ -3073,7 +3073,7 @@ encode
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 invalid
@@ -3137,7 +3137,7 @@ invalid
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 =
@@ -3145,7 +3145,7 @@ data
 data_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rot
 =
@@ -3215,7 +3215,7 @@ imm
 4
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 imm
 <
@@ -3275,7 +3275,7 @@ data
 imm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 imm
@@ -3388,7 +3388,7 @@ isInvalid
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 imm
 <
@@ -3455,7 +3455,7 @@ data
 imm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 =
@@ -3494,7 +3494,7 @@ ShiftAmount
 imm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ShiftAmount
 =
@@ -3554,7 +3554,7 @@ RS
 rs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rs
 =
@@ -4792,7 +4792,7 @@ IsUp
 IsDown
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -5258,7 +5258,7 @@ IsUp
 IsDown
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -5456,7 +5456,7 @@ IsDown
 IsUp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -5684,7 +5684,7 @@ offset
 0x00ffffff
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 offset
@@ -6139,7 +6139,7 @@ toOp2
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Tag
 =
@@ -6166,7 +6166,7 @@ toReg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Tag
 =
@@ -6196,7 +6196,7 @@ dest
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Tag
 =
@@ -6250,7 +6250,7 @@ disp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Tag
 =
@@ -6268,7 +6268,7 @@ base
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Tag
 =
@@ -6721,7 +6721,7 @@ DoubleCondition
 cond
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -10210,7 +10210,7 @@ flush
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinished
@@ -10311,7 +10311,7 @@ c
 Always
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 dtmActive
@@ -10358,12 +10358,12 @@ Register
 rn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dtmActive
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rn
 .
@@ -10467,7 +10467,7 @@ c
 Always
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 dtmActive
@@ -10552,7 +10552,7 @@ code
 -
 dtmLastReg
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dtmDelta
 =
@@ -10568,7 +10568,7 @@ dtmDelta
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 dtmLastReg
 >
@@ -10576,7 +10576,7 @@ dtmLastReg
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rn
 .
@@ -10608,7 +10608,7 @@ finishFloatTransfer
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dtmActive
 )
@@ -10617,7 +10617,7 @@ dtmActive
 =
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dtmLastReg
 !
@@ -11514,7 +11514,7 @@ data_
 0xf0000000
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fake
 |
@@ -11558,7 +11558,7 @@ uint32_t
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 data_
@@ -13367,7 +13367,7 @@ uint32_t
 arg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 UseHardFpABI
@@ -13375,7 +13375,7 @@ UseHardFpABI
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arg
 >
@@ -13424,7 +13424,7 @@ FloatRegister
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 UseHardFpABI
 (
@@ -13471,14 +13471,14 @@ FloatRegister
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 UseHardFpABI
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 usedFloatArgs
@@ -13533,14 +13533,14 @@ uint32_t
 padding
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 UseHardFpABI
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 usedIntArgs
 >
@@ -13607,14 +13607,14 @@ uint32_t
 padding
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 UseHardFpABI
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 usedFloatArgs
 >
@@ -13676,14 +13676,14 @@ uint32_t
 padding
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 UseHardFpABI
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 usedFloatArgs
 >

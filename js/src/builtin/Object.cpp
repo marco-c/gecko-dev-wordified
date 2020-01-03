@@ -5734,7 +5734,7 @@ str
 Step
 11
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 props
 .

@@ -812,7 +812,7 @@ we
 need
 eax
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 R1
 .
@@ -1015,7 +1015,7 @@ we
 need
 eax
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 R1
 .
@@ -1187,7 +1187,7 @@ ecx
 remains
 untouched
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 .
@@ -1199,7 +1199,7 @@ payloadReg
 edx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 .
@@ -1317,7 +1317,7 @@ for
 shift
 operations
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 .

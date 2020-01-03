@@ -1073,7 +1073,7 @@ int
 values
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 values
 >
@@ -1178,7 +1178,7 @@ discard
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 values
 >

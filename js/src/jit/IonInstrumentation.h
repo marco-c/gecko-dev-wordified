@@ -167,7 +167,7 @@ trackedPc_
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 !

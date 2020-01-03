@@ -2265,7 +2265,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -2296,7 +2296,7 @@ isString
 return
 JSTRACE_STRING
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .

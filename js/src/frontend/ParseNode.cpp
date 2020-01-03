@@ -204,7 +204,7 @@ checkListConsistency
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isArity
 (
@@ -274,7 +274,7 @@ tail
 pn_head
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_tail
 =
@@ -282,7 +282,7 @@ pn_tail
 tail
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_count
 =
@@ -335,7 +335,7 @@ recycles
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 !
@@ -399,7 +399,7 @@ with
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -410,7 +410,7 @@ isUsed
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -685,7 +685,7 @@ pop
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -1794,7 +1794,7 @@ right
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 -
@@ -2160,7 +2160,7 @@ unknown
 "
 }
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 unsigned
 (
@@ -3146,7 +3146,7 @@ PN_LIST
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 opn
 -
@@ -3261,7 +3261,7 @@ target
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 opn2
 -
@@ -3272,7 +3272,7 @@ PN_BINARY
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opn2
 -
@@ -3370,7 +3370,7 @@ PN_NULLARY
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 opn2
 -
@@ -3481,7 +3481,7 @@ return
 pn
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 opn
 -
@@ -3492,7 +3492,7 @@ PN_NAME
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opn
 -
@@ -4882,7 +4882,7 @@ stderr
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isUsed
@@ -4989,7 +4989,7 @@ emitLink
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 object
@@ -5030,7 +5030,7 @@ emitLink
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 object
 -
@@ -5043,7 +5043,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 asFunctionBox
 (
@@ -5068,7 +5068,7 @@ asFunctionBox
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionBox
 (

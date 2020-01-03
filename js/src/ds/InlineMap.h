@@ -321,7 +321,7 @@ switchToMap
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inlNext
 =
@@ -362,7 +362,7 @@ count
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 .
@@ -429,7 +429,7 @@ InlineElems
 +
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 .
@@ -441,7 +441,7 @@ count
 inlCount
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 usingMap
 (
@@ -748,7 +748,7 @@ key
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 (
@@ -777,7 +777,7 @@ value
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 (
@@ -961,7 +961,7 @@ value
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 (
@@ -1069,7 +1069,7 @@ asMap
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isMap
 (
@@ -1088,7 +1088,7 @@ asInline
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isMap
@@ -1108,7 +1108,7 @@ inlineEnd
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isMap
@@ -1337,7 +1337,7 @@ V
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 p
@@ -1358,7 +1358,7 @@ p
 .
 inlAddPtr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 addPtr
 =
@@ -1398,7 +1398,7 @@ key
 value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 p
@@ -1408,7 +1408,7 @@ found
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -1524,7 +1524,7 @@ Ptr
 p
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -1536,14 +1536,14 @@ p
 isInlinePtr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inlCount
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 .
@@ -1572,7 +1572,7 @@ inlCount
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 .
@@ -1681,7 +1681,7 @@ mapRange
 =
 r
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInlineRange
@@ -1734,7 +1734,7 @@ advancePastNulls
 cur
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isInlineRange
 (
@@ -1748,7 +1748,7 @@ checkInlineRangeInvariants
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -1832,7 +1832,7 @@ key
 +
 newCur
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -1856,7 +1856,7 @@ bumpCurPtr
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInlineRange
 (
@@ -1912,7 +1912,7 @@ front
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -1968,7 +1968,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty

@@ -313,7 +313,7 @@ WrapperOptions
 options
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 )
@@ -405,7 +405,7 @@ JSObject
 wrapper
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 wrapper
 -
@@ -454,7 +454,7 @@ JSObject
 wrapper
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 wrapper
 -
@@ -916,7 +916,7 @@ outer
 window
 proxies
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj

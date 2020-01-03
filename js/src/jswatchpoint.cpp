@@ -299,7 +299,7 @@ key
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 p
@@ -413,7 +413,7 @@ HandleObject
 closure
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_STRING
 (
@@ -1158,7 +1158,7 @@ marked
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_STRING
 (
@@ -1385,7 +1385,7 @@ prior
 =
 key
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_STRING
 (
@@ -1624,7 +1624,7 @@ obj
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 entry

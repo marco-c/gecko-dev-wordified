@@ -600,7 +600,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -629,7 +629,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -658,7 +658,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -687,7 +687,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -716,7 +716,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -745,7 +745,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -774,7 +774,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -803,7 +803,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -831,7 +831,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -860,7 +860,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -888,7 +888,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -899,7 +899,7 @@ PNK_CALL
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ListLength
 (
@@ -930,7 +930,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -962,7 +962,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1000,7 +1000,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1038,7 +1038,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1096,7 +1096,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1125,7 +1125,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1145,7 +1145,7 @@ PNK_CONTINUE
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1235,7 +1235,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1262,7 +1262,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1297,7 +1297,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1308,7 +1308,7 @@ PNK_DOT
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1338,7 +1338,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1349,7 +1349,7 @@ PNK_DOT
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1382,7 +1382,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1410,7 +1410,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -1439,7 +1439,7 @@ ParseNode
 fn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fn
 -
@@ -1450,7 +1450,7 @@ PNK_FUNCTION
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fn
 -
@@ -1523,7 +1523,7 @@ ParseNode
 fn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fn
 -
@@ -1551,7 +1551,7 @@ last
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 last
 -
@@ -1647,7 +1647,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNormalObjectField
 (
@@ -1682,7 +1682,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNormalObjectField
 (
@@ -1737,7 +1737,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsDefinition
 (
@@ -1981,7 +1981,7 @@ var
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 *
@@ -2194,7 +2194,7 @@ AsmJSNumLit
 lit
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lit
 .
@@ -2203,7 +2203,7 @@ hasType
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Type
 :
@@ -2879,7 +2879,7 @@ simdToScalarType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isSimd
 (
@@ -2959,7 +2959,7 @@ simdToCoercedScalarType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isSimd
 (
@@ -3039,7 +3039,7 @@ simdToSimdType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isSimd
 (
@@ -4140,7 +4140,7 @@ AsmJSNumLit
 lit
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lit
 .
@@ -4429,7 +4429,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 .
@@ -4878,7 +4878,7 @@ operator
 int
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -4920,7 +4920,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -4944,7 +4944,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -4966,7 +4966,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -4984,7 +4984,7 @@ mirType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -6460,7 +6460,7 @@ ParseNode
 fn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 defined_
@@ -6495,7 +6495,7 @@ srcBegin
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 defined_
 )
@@ -6510,7 +6510,7 @@ srcEnd
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 defined_
 )
@@ -6699,7 +6699,7 @@ varOrConstType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6736,7 +6736,7 @@ varOrConstIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6783,7 +6783,7 @@ constLiteralValue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6805,7 +6805,7 @@ funcIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6825,7 +6825,7 @@ funcPtrTableIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6845,7 +6845,7 @@ ffiIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6868,7 +6868,7 @@ viewType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6901,7 +6901,7 @@ mathBuiltinFunction
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6934,7 +6934,7 @@ simdCtorType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6967,7 +6967,7 @@ simdOperation
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -6989,7 +6989,7 @@ simdOperationType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -7182,7 +7182,7 @@ Move
 elems
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 initialized
 (
@@ -7196,7 +7196,7 @@ numElems
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 initialized
 (
@@ -7990,7 +7990,7 @@ jitSupportsSimd
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 moduleFunctionNode_
 -
@@ -8022,7 +8022,7 @@ if
 errorString_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 errorOffset_
 !
@@ -8546,13 +8546,13 @@ char
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 errorString_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 errorOffset_
 =
@@ -8560,7 +8560,7 @@ errorOffset_
 UINT32_MAX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 )
@@ -8715,13 +8715,13 @@ va_list
 ap
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 errorString_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 errorOffset_
 =
@@ -8729,7 +8729,7 @@ errorOffset_
 UINT32_MAX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fmt
 )
@@ -9776,7 +9776,7 @@ Func
 func
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 finishedFunctionBodies_
@@ -11207,7 +11207,7 @@ function
 code
 pages
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 finishedFunctionBodies_
@@ -11247,7 +11247,7 @@ Label
 begin
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 finishedFunctionBodies_
 )
@@ -11315,7 +11315,7 @@ Label
 profilingReturn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 finishedFunctionBodies_
 )
@@ -11394,7 +11394,7 @@ Label
 profilingReturn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 finishedFunctionBodies_
 )
@@ -11471,7 +11471,7 @@ Label
 profilingReturn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 finishedFunctionBodies_
 )
@@ -11532,7 +11532,7 @@ Label
 begin
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 finishedFunctionBodies_
 )
@@ -11585,7 +11585,7 @@ Label
 pret
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 finishedFunctionBodies_
 )
@@ -12801,7 +12801,7 @@ arg
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 arg
 =
@@ -12941,7 +12941,7 @@ out
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumericNonFloatLiteral
 (
@@ -13003,7 +13003,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdLiteral
 (
@@ -13044,7 +13044,7 @@ case
 AsmJSSimdType_int32x4
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SimdTypeToLength
 (
@@ -13108,7 +13108,7 @@ u32
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 arg
 =
@@ -13140,7 +13140,7 @@ case
 AsmJSSimdType_float32x4
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SimdTypeToLength
 (
@@ -13191,7 +13191,7 @@ arg
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arg
 =
@@ -13243,7 +13243,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumericLiteral
 (
@@ -13332,7 +13332,7 @@ d
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 CallArgListLength
 (
@@ -13429,7 +13429,7 @@ these
 double
 values
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsNegativeZero
@@ -13438,7 +13438,7 @@ d
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsNaN
@@ -13603,7 +13603,7 @@ i64
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i64
 <
@@ -13631,7 +13631,7 @@ i64
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 i64
 >
@@ -14413,7 +14413,7 @@ isExceptionPending
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 loopStack_
 .
@@ -14422,7 +14422,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 unlabeledBreaks_
 .
@@ -14431,7 +14431,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 unlabeledContinues_
 .
@@ -14440,7 +14440,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 labeledBreaks_
 .
@@ -14449,7 +14449,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 labeledContinues_
 .
@@ -14458,7 +14458,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inDeadCode
 (
@@ -14692,7 +14692,7 @@ VarTypeVector
 argTypes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 locals_
 .
@@ -15194,7 +15194,7 @@ mirGen
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mirGen_
 )
@@ -15211,7 +15211,7 @@ mirGraph
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 graph_
 )
@@ -15228,7 +15228,7 @@ info
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info_
 )
@@ -15797,7 +15797,7 @@ inDeadCode
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -15826,7 +15826,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -15897,7 +15897,7 @@ inDeadCode
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -15926,7 +15926,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -16349,7 +16349,7 @@ inDeadCode
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -17094,7 +17094,7 @@ inDeadCode
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 global
@@ -17288,7 +17288,7 @@ inDeadCode
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -17301,7 +17301,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsSimdType
@@ -17357,7 +17357,7 @@ inDeadCode
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -17431,7 +17431,7 @@ inDeadCode
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -19154,7 +19154,7 @@ inDeadCode
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 curBlock_
 =
@@ -19509,7 +19509,7 @@ inDeadCode
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 curBlock_
 -
@@ -19552,7 +19552,7 @@ inDeadCode
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 curBlock_
 -
@@ -19783,7 +19783,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 curBlock_
 -
@@ -19929,7 +19929,7 @@ popCopy
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unlabeledContinues_
@@ -19977,20 +19977,20 @@ if
 loopEntry
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 afterLoop
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inDeadCode
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unlabeledBreaks_
@@ -20005,7 +20005,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 loopEntry
 -
@@ -20047,7 +20047,7 @@ if
 curBlock_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 curBlock_
 -
@@ -20150,14 +20150,14 @@ if
 loopEntry
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inDeadCode
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unlabeledBreaks_
@@ -20172,7 +20172,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 loopEntry
 -
@@ -20196,7 +20196,7 @@ if
 curBlock_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 curBlock_
 -
@@ -21031,7 +21031,7 @@ extractMIR
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mirGen_
 !
@@ -21487,7 +21487,7 @@ createdJoinBlock
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 curBlock_
 -
@@ -22533,7 +22533,7 @@ ParseNode
 stmtList
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stmtList
 -
@@ -27104,7 +27104,7 @@ access
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mask
 =
@@ -27397,7 +27397,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 elem
 -
@@ -28294,7 +28294,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 assign
 -
@@ -29842,7 +29842,7 @@ toChars
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 sig
 =
@@ -31381,7 +31381,7 @@ argType
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argType
 =
@@ -33833,7 +33833,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 call
 -
@@ -34018,7 +34018,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 expr
 -
@@ -34719,7 +34719,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 -
@@ -34745,7 +34745,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -
@@ -35151,7 +35151,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pos
 -
@@ -35252,7 +35252,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 expr
 -
@@ -35371,7 +35371,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 expr
 -
@@ -35567,7 +35567,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 expr
 -
@@ -35724,7 +35724,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 neg
 -
@@ -35862,7 +35862,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 comma
 -
@@ -36000,7 +36000,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ternary
 -
@@ -36508,7 +36508,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 star
 -
@@ -36837,7 +36837,7 @@ failOverRecursed
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 expr
 -
@@ -37342,7 +37342,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 expr
 -
@@ -37786,7 +37786,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 comp
 -
@@ -39136,7 +39136,7 @@ ParseNode
 exprStmt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 exprStmt
 -
@@ -39227,7 +39227,7 @@ LabelVector
 maybeLabels
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 whileStmt
 -
@@ -39407,7 +39407,7 @@ LabelVector
 maybeLabels
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 forStmt
 -
@@ -39723,7 +39723,7 @@ LabelVector
 maybeLabels
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 whileStmt
 -
@@ -39882,7 +39882,7 @@ LabelVector
 maybeLabels
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 labeledStmt
 -
@@ -40149,7 +40149,7 @@ MBasicBlock
 elseOrJoinBlock
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 conditional
 -
@@ -40811,7 +40811,7 @@ ifTrueBlock
 elseOrJoinBlock
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 skipAndTest
 &
@@ -41187,7 +41187,7 @@ ifStmt
 ;
 recurse
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 ifStmt
 -
@@ -41561,7 +41561,7 @@ stmt
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -41856,7 +41856,7 @@ ParseNode
 switchStmt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 switchStmt
 -
@@ -42586,7 +42586,7 @@ ParseNode
 stmtList
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stmtList
 -
@@ -42870,7 +42870,7 @@ getToken
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tk
 =
@@ -44304,7 +44304,7 @@ if
 parallelState_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -44331,7 +44331,7 @@ claim
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 parallelState_
@@ -44972,7 +44972,7 @@ DEBUG
 AutoLockHelperThreadState
 lock
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -44987,7 +44987,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -45236,7 +45236,7 @@ m
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 group
 .
@@ -45246,7 +45246,7 @@ outstandingJobs
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 group
 .
@@ -45267,7 +45267,7 @@ DEBUG
 AutoLockHelperThreadState
 lock
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -45282,7 +45282,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -45300,7 +45300,7 @@ empty
 }
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 HelperThreadState
@@ -45402,7 +45402,7 @@ reachable
 by
 helpers
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 group
 .
@@ -45544,7 +45544,7 @@ undergoing
 active
 compilation
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 group
 .
@@ -45618,7 +45618,7 @@ clear
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 group
 .
@@ -45628,7 +45628,7 @@ outstandingJobs
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -45643,7 +45643,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -46665,7 +46665,7 @@ ParseNode
 object
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 object
 -
@@ -47118,7 +47118,7 @@ uint32_t
 alignment
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 sizeof
@@ -47691,7 +47691,7 @@ NonVolatileRegs
 NonVolatileSimdRegs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -48019,7 +48019,7 @@ loading
 /
 GlobalReg
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -48860,7 +48860,7 @@ NonVolatileRegs
 NonVolatileSimdRegs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -49116,7 +49116,7 @@ endif
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 .
@@ -49202,7 +49202,7 @@ masm
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -49687,7 +49687,7 @@ i
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 .
@@ -50856,7 +50856,7 @@ sizeof
 Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argOffset
 =
@@ -51002,7 +51002,7 @@ five
 live
 registers
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 =
@@ -51381,7 +51381,7 @@ five
 live
 registers
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 JSReturnReg_Data
 =
@@ -51389,7 +51389,7 @@ JSReturnReg_Data
 AsmJSIonExitRegReturnData
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSReturnReg_Type
 =
@@ -51623,7 +51623,7 @@ offsetOfJitJSContext
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -51979,7 +51979,7 @@ i
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 .
@@ -52130,7 +52130,7 @@ setFramePushed
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -52400,7 +52400,7 @@ masm
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -52776,7 +52776,7 @@ dstAddr
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 .
@@ -53823,7 +53823,7 @@ jump
 delay
 slot
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 Imm16
 :
@@ -54720,7 +54720,7 @@ NonVolatileRegs
 NonVolatileSimdRegs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -55856,7 +55856,7 @@ moduleFun
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 funbox
 -

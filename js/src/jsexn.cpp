@@ -963,7 +963,7 @@ arg
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 !
@@ -1180,7 +1180,7 @@ i
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 =
@@ -1402,7 +1402,7 @@ filenameSize
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 +
@@ -3490,7 +3490,7 @@ just
 a
 warning
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 reportp
 )

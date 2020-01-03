@@ -341,7 +341,7 @@ current
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 props_cursor
 <
@@ -426,7 +426,7 @@ twice
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 next_
@@ -436,7 +436,7 @@ next_
 prev_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 &
@@ -483,7 +483,7 @@ unlink
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 &

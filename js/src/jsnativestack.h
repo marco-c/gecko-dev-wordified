@@ -152,7 +152,7 @@ GetNativeStackBaseImpl
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackBase
 %

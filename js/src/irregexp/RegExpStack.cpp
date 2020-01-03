@@ -517,7 +517,7 @@ reset
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 >

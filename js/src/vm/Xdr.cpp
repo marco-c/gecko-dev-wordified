@@ -189,7 +189,7 @@ size_t
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 >

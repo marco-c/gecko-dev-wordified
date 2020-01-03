@@ -237,7 +237,7 @@ LAllocation
 a
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 a
 .
@@ -383,7 +383,7 @@ LAllocation
 a
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 a
 .
@@ -459,7 +459,7 @@ LAllocation
 a
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 a
 .
@@ -717,7 +717,7 @@ LInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -763,7 +763,7 @@ LInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -811,7 +811,7 @@ RegisterSet
 ignore
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -858,7 +858,7 @@ LInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -921,7 +921,7 @@ LInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins

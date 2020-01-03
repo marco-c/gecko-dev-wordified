@@ -1142,7 +1142,7 @@ uint32_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1175,7 +1175,7 @@ code
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uint32_t
@@ -1341,7 +1341,7 @@ FloatRegister
 ret
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aliasIdx
 =
@@ -1477,7 +1477,7 @@ FloatRegister
 ret
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aliasIdx
 =

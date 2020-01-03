@@ -2084,7 +2084,7 @@ JSStructuredCloneWriter
 writer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 writer
 )
@@ -2334,7 +2334,7 @@ void
 cbClosure
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nbytes
 %
@@ -2456,7 +2456,7 @@ tag
 ownership
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 >
@@ -2779,7 +2779,7 @@ be
 -
 byte
 aligned
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uintptr_t
@@ -2801,7 +2801,7 @@ int
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 nbytes
@@ -3439,7 +3439,7 @@ size_t
 nchars
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -3905,7 +3905,7 @@ size_t
 nelems
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 8
 %
@@ -3918,7 +3918,7 @@ T
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -4100,7 +4100,7 @@ size_t
 nchars
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -4760,7 +4760,7 @@ length
 MAX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 objs
 .
@@ -4797,7 +4797,7 @@ i
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 total
 +
@@ -4830,7 +4830,7 @@ length
 =
 MAX
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 total
 =
@@ -4843,7 +4843,7 @@ length
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 total
 <
@@ -4879,7 +4879,7 @@ i
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 memory
 .
@@ -7038,7 +7038,7 @@ rawBuffer
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uint32_t
 (
@@ -7062,7 +7062,7 @@ point
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 LittleEndian
 :
@@ -7482,7 +7482,7 @@ extraData
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 >
@@ -7534,7 +7534,7 @@ extraData
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 point
 <
@@ -8066,7 +8066,7 @@ size_t
 len
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 p
@@ -8327,7 +8327,7 @@ uint32_t
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 >
@@ -9242,7 +9242,7 @@ ArrayBufferObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer
 .
@@ -9306,7 +9306,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 arrayType
 <
@@ -9382,7 +9382,7 @@ ArrayBufferObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer
 .
@@ -10698,7 +10698,7 @@ data
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 !
@@ -10760,7 +10760,7 @@ nbytes
 =
 extraData
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 =
@@ -10829,7 +10829,7 @@ tag
 SCTAG_TRANSFER_MAP_SHARED_BUFFER
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 =
@@ -11957,7 +11957,7 @@ JSAutoStructuredCloneBuffer
 other
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 other
@@ -12218,12 +12218,12 @@ void
 closure
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 )
@@ -12651,7 +12651,7 @@ HandleValue
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .

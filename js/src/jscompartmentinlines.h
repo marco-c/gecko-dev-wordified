@@ -152,7 +152,7 @@ GlobalObject
 global
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 .
@@ -164,7 +164,7 @@ compartment
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 global_
@@ -482,7 +482,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 vp
 .

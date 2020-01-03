@@ -205,7 +205,7 @@ token
 0x3
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tag
 <
@@ -370,7 +370,7 @@ CalleeToken
 token
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 GetCalleeTokenTag
 (
@@ -741,7 +741,7 @@ safepoint
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 resolved
@@ -778,7 +778,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 >
@@ -1391,7 +1391,7 @@ classId
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 class_
 !
@@ -1666,7 +1666,7 @@ jitTop
 mode
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -1682,7 +1682,7 @@ JitFrame_Exit
 +
 iter
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -1724,7 +1724,7 @@ isBaselineStub
 +
 iter
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -1734,7 +1734,7 @@ isBaselineJS
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -2757,7 +2757,7 @@ argBase
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 footer
 (

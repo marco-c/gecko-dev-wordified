@@ -706,7 +706,7 @@ current
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -826,7 +826,7 @@ true
 /
 step
 9
-JS_ASSERT
+MOZ_ASSERT
 (
 IsAccessorDescriptor
 (
@@ -839,7 +839,7 @@ current
 by
 step
 8
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -1082,7 +1082,7 @@ JSObject
 proxy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 proxy
 -
@@ -1226,7 +1226,7 @@ JSAtom
 trapName_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -2152,7 +2152,7 @@ if
 proto
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 desc

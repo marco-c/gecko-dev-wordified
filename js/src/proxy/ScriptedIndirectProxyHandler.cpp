@@ -193,7 +193,7 @@ MutableHandleValue
 fvalp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 name
 =
@@ -521,7 +521,7 @@ AutoIdVector
 props
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 props
 .
@@ -2434,7 +2434,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ccHolder
 -
@@ -2461,7 +2461,7 @@ getReservedSlot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 call
 .
@@ -2560,7 +2560,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ccHolder
 -
@@ -2587,7 +2587,7 @@ getReservedSlot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 construct
 .
@@ -2761,7 +2761,7 @@ getParent
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFunctionObject
 (

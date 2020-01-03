@@ -545,7 +545,7 @@ uncacheable
 /
 access
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 shapes
 .
@@ -564,7 +564,7 @@ hasBaselineScript
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isValidPC
 (
@@ -1358,7 +1358,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fallback
 -
@@ -1739,7 +1739,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 sawInt32
 )
@@ -2111,7 +2111,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -2208,7 +2208,7 @@ fallbackStub
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stub
 -
@@ -2574,7 +2574,7 @@ enclosingScope
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 )
@@ -2624,7 +2624,7 @@ templateScope
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 )

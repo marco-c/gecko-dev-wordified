@@ -941,7 +941,7 @@ MOZ_CRASH
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackBase
 )

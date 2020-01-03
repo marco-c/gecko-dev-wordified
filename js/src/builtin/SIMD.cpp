@@ -4590,7 +4590,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -4690,7 +4690,7 @@ global
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 typeDescr
 )
@@ -6621,7 +6621,7 @@ i
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -6852,7 +6852,7 @@ lanes
 -
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 MAX_MASK_VALUE
 >
@@ -7006,7 +7006,7 @@ SELECT_MASK
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .

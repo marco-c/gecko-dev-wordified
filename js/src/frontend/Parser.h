@@ -1113,7 +1113,7 @@ numArgs
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sc
 -

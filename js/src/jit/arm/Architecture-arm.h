@@ -1417,7 +1417,7 @@ uint32_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -2157,7 +2157,7 @@ other
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInvalid
@@ -2165,7 +2165,7 @@ isInvalid
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 other
@@ -2447,7 +2447,7 @@ bit
 bit_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 =
@@ -2455,7 +2455,7 @@ block
 block_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bit
 =
@@ -2472,7 +2472,7 @@ code
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 _isInvalid
@@ -2501,7 +2501,7 @@ and
 /
 singles
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 isFloat
 (
@@ -2824,14 +2824,14 @@ isDouble
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 code_
 <
 NumAliasedDoubles
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 aliasIdx
 <
@@ -2852,7 +2852,7 @@ aliasIdx
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 aliasIdx
 =
@@ -3015,7 +3015,7 @@ this
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 aliasIdx
 =
@@ -3030,7 +3030,7 @@ isDouble
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 code_
 <
@@ -3050,7 +3050,7 @@ aliasIdx
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 code_

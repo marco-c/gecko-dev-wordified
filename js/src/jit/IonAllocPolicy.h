@@ -761,7 +761,7 @@ AutoIonContextAlloc
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 icx_
 -
@@ -897,7 +897,7 @@ TempAllocator
 alloc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 freed_
 .
@@ -918,7 +918,7 @@ allocate
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 alloc_
 )

@@ -712,7 +712,7 @@ if
 descIsOwn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -1289,7 +1289,7 @@ JSID_VOID
 ENUMERATE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 props
 .
@@ -1363,7 +1363,7 @@ j
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1451,7 +1451,7 @@ id
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <

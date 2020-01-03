@@ -368,7 +368,7 @@ void
 map
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 )
@@ -451,7 +451,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 ok
 )
@@ -487,7 +487,7 @@ end
 +
 it
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 it
@@ -498,7 +498,7 @@ map
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 recyclable
 .
@@ -872,7 +872,7 @@ Map
 newMap
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 map_
@@ -1435,7 +1435,7 @@ firstNode
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isMultiple
 (
@@ -1570,7 +1570,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -1624,7 +1624,7 @@ front
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -1687,7 +1687,7 @@ bits
 =
 bits
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isMultiple
@@ -1717,7 +1717,7 @@ bits
 =
 0x1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isMultiple
 (
@@ -2490,7 +2490,7 @@ atom
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 )
@@ -2565,7 +2565,7 @@ atom
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 )
@@ -2632,7 +2632,7 @@ DefinitionNode
 defn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 )
@@ -2673,7 +2673,7 @@ defn
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 p
@@ -2746,7 +2746,7 @@ DefinitionNode
 defn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 )
@@ -2765,7 +2765,7 @@ lookup
 atom
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -2811,7 +2811,7 @@ JSAtom
 atom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 )
@@ -2878,7 +2878,7 @@ all
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 )

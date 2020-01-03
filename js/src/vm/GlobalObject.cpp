@@ -565,7 +565,7 @@ TypedObject
 must
 be
 initialized
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -1540,7 +1540,7 @@ HandleObject
 proto
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 global
@@ -1557,7 +1557,7 @@ reserved
 slots
 already
 allocated
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 !
@@ -1565,12 +1565,12 @@ key
 JSProto_Null
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ctor
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 )
@@ -1589,7 +1589,7 @@ cx
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 global
@@ -1696,7 +1696,7 @@ Class
 clasp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -1706,7 +1706,7 @@ flags
 JSCLASS_IS_GLOBAL
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -2649,7 +2649,7 @@ GlobalObject
 global
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 !
@@ -3028,7 +3028,7 @@ isUndefined
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 debuggers
 .

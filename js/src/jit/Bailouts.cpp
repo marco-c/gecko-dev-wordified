@@ -597,7 +597,7 @@ GetJSContextFromJitCode
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bailoutInfo
 )
@@ -740,7 +740,7 @@ snapshotOffset
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsBaselineEnabled
 (
@@ -765,7 +765,7 @@ false
 bailoutInfo
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 retval
 =
@@ -1149,7 +1149,7 @@ topFrameSize
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsBaselineEnabled
 (
@@ -1174,7 +1174,7 @@ true
 bailoutInfo
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 retval
 =

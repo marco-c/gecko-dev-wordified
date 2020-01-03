@@ -180,7 +180,7 @@ lhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -

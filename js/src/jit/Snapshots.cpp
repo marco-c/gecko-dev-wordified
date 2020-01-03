@@ -3489,7 +3489,7 @@ recoverOffset
 kind
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uint32_t
 (
@@ -3504,7 +3504,7 @@ SNAPSHOT_BAILOUTKIND_BITS
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 recoverOffset
 <

@@ -5865,7 +5865,7 @@ of
 two
 registers
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 d1
 !
@@ -5873,7 +5873,7 @@ d1
 ScratchRegister
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 d0
 !

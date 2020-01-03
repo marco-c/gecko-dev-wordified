@@ -781,7 +781,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 c
 <
@@ -806,7 +806,7 @@ u00
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 c
@@ -2132,7 +2132,7 @@ isCallable
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_IsArrayObject
 (
@@ -3124,7 +3124,7 @@ caller
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsFilteredValue
@@ -3442,7 +3442,7 @@ Step
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -4661,7 +4661,7 @@ Step
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 gap
 .

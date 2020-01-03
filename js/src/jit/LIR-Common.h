@@ -370,7 +370,7 @@ safepoint_
 safepoint
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoint
 &
@@ -2019,7 +2019,7 @@ gcptr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -6172,7 +6172,7 @@ numStackArgs
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 (
@@ -14802,7 +14802,7 @@ mirNormal
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mode_
 =
@@ -14826,7 +14826,7 @@ mirTruncate
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mode_
 =
@@ -26878,7 +26878,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -26902,7 +26902,7 @@ LDefinition
 def
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -26943,7 +26943,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -26971,7 +26971,7 @@ LAllocation
 a
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -28293,7 +28293,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 numDefs
 (
@@ -28303,7 +28303,7 @@ numDefs
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -28327,7 +28327,7 @@ LDefinition
 def
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -28358,7 +28358,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -28384,7 +28384,7 @@ LAllocation
 a
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <

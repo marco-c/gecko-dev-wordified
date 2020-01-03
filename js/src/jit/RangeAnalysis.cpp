@@ -1726,7 +1726,7 @@ the
 other
 operand
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 val
 )
@@ -4771,7 +4771,7 @@ Range
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -4781,7 +4781,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -5013,7 +5013,7 @@ Range
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -5023,7 +5023,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -5624,7 +5624,7 @@ Range
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -5634,7 +5634,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -6166,7 +6166,7 @@ Range
 op
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 -
@@ -6568,7 +6568,7 @@ int32_t
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -6752,7 +6752,7 @@ int32_t
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -6856,7 +6856,7 @@ by
 our
 callers
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -6997,7 +6997,7 @@ Range
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -7007,7 +7007,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -7049,7 +7049,7 @@ Range
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -7059,7 +7059,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -7160,7 +7160,7 @@ by
 our
 callers
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -7170,7 +7170,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 -
@@ -9344,7 +9344,7 @@ c
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 range
 (
@@ -10291,7 +10291,7 @@ to
 worry
 about
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lhs
@@ -10933,7 +10933,7 @@ have
 fractional
 parts
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lhs
@@ -11508,7 +11508,7 @@ outside
 our
 type
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 AnyTypedArrayType
 (
@@ -12248,7 +12248,7 @@ MBasicBlock
 header
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 header
 -
@@ -14066,7 +14066,7 @@ or
 /
 nonincreasing
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 phi
 -
@@ -15073,7 +15073,7 @@ loopPredecessor
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 preLoop
@@ -15474,7 +15474,7 @@ block
 *
 iter
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 block
@@ -17339,7 +17339,7 @@ TruncateKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -18506,7 +18506,7 @@ toInstruction
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 inner
 -
@@ -19076,7 +19076,7 @@ isCompare
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 truncated
 -
@@ -19089,7 +19089,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Range
 (
@@ -19283,7 +19283,7 @@ type
 MIRType_Int32
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 -
@@ -21392,7 +21392,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 =

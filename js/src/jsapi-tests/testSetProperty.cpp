@@ -546,7 +546,7 @@ can
 '
 t
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (

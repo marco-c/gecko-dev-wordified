@@ -843,7 +843,7 @@ char16_t
 to
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 <
@@ -1739,7 +1739,7 @@ atom
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 text_type
 (
@@ -1769,7 +1769,7 @@ char_class
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 text_type
 (
@@ -2377,7 +2377,7 @@ int
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 >
@@ -2385,7 +2385,7 @@ index
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -3090,7 +3090,7 @@ replacement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 (
@@ -8113,7 +8113,7 @@ DeferredAction
 new_action
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 new_action
 -
@@ -8694,7 +8694,7 @@ errorMessage
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 error_message_
 !

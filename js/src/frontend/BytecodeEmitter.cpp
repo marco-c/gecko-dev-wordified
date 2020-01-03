@@ -582,7 +582,7 @@ gosubs
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -600,7 +600,7 @@ guardJump
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -698,7 +698,7 @@ StmtInfoBCE
 stmt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -1208,7 +1208,7 @@ stackDepth
 =
 nuses
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -1430,7 +1430,7 @@ EmitVarOp
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsArgOp
@@ -1439,7 +1439,7 @@ op
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsLocalOp
@@ -1943,7 +1943,7 @@ unsigned
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -2405,7 +2405,7 @@ lastp
 =
 offset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 delta
 >
@@ -3159,7 +3159,7 @@ bce
 topStmt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 loop
 -
@@ -3377,7 +3377,7 @@ int
 npops
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 npops
@@ -3530,7 +3530,7 @@ while
 1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 )
@@ -3821,7 +3821,7 @@ JSOP_LEAVEWITH
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -3970,7 +3970,7 @@ stmt
 isBlockScope
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -4319,7 +4319,7 @@ type
 top
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stmt
@@ -4355,7 +4355,7 @@ type
 top
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -4596,7 +4596,7 @@ isFunctionBox
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bce
@@ -4727,7 +4727,7 @@ definitionParseNode
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -4805,7 +4805,7 @@ pnu
 pn_link
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pnu
 -
@@ -4816,7 +4816,7 @@ pn_lexdef
 dn
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -4829,7 +4829,7 @@ PND_BOUND
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pnu
 -
@@ -5095,7 +5095,7 @@ break
 }
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 localOffset
 +
@@ -5871,7 +5871,7 @@ break
 case
 STMT_WITH
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeObj
 -
@@ -6032,7 +6032,7 @@ stmt
 scopeObj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -6199,7 +6199,7 @@ StmtInfoBCE
 stmt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 =
@@ -6210,7 +6210,7 @@ bce
 topStmt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -6218,7 +6218,7 @@ stmt
 isNestedScope
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -6249,7 +6249,7 @@ blockScopeIndex
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -6314,7 +6314,7 @@ NestedScopeObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -6325,7 +6325,7 @@ staticScope
 staticScope
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 staticScope
 =
@@ -6474,7 +6474,7 @@ len
 +
 UINT32_INDEX_LEN
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 len
 =
@@ -6582,7 +6582,7 @@ op
 .
 length
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 len
 >
@@ -6674,7 +6674,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -6768,7 +6768,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -6808,7 +6808,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -6819,7 +6819,7 @@ op
 JOF_OBJECT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -7034,7 +7034,7 @@ uint32_t
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -7045,7 +7045,7 @@ op
 JOF_SCOPECOORD
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsLocalOp
 (
@@ -7107,7 +7107,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -7164,7 +7164,7 @@ slot
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 IsArgOp
 (
@@ -7224,7 +7224,7 @@ ScopeCoordinate
 sc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -7242,7 +7242,7 @@ SCOPECOORD_HOPS_LEN
 +
 SCOPECOORD_SLOT_LEN
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 int
 (
@@ -8254,7 +8254,7 @@ parent
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -8264,7 +8264,7 @@ isDefn
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -8415,7 +8415,7 @@ sc
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsLocalOp
 (
@@ -8536,7 +8536,7 @@ numLocals
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bceOfDef
 -
@@ -8680,7 +8680,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -8700,7 +8700,7 @@ PNK_NAME
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -8799,7 +8799,7 @@ pn
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -8959,7 +8959,7 @@ bool
 post
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -9046,7 +9046,7 @@ getOp
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsArgOp
 (
@@ -9066,7 +9066,7 @@ op
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -9080,7 +9080,7 @@ PNK_NAME
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -9334,7 +9334,7 @@ resolve
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -9344,7 +9344,7 @@ isDefn
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 dn
@@ -9355,7 +9355,7 @@ isPlaceholder
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -11071,7 +11071,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11162,7 +11162,7 @@ getOp
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 !
@@ -11170,7 +11170,7 @@ op
 JSOP_CALLEE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -11229,7 +11229,7 @@ isUsed
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11248,7 +11248,7 @@ pn
 >
 pn_lexdef
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -11489,7 +11489,7 @@ bce
 evalCaller
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -11824,7 +11824,7 @@ slot
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -11835,7 +11835,7 @@ isDefn
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11845,7 +11845,7 @@ isUsed
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11853,7 +11853,7 @@ pn
 pn_lexdef
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -11955,7 +11955,7 @@ arg
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -12037,7 +12037,7 @@ Definition
 NAMED_LAMBDA
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -12048,7 +12048,7 @@ JSOP_CALLEE
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 !
@@ -12126,7 +12126,7 @@ function
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -12136,7 +12136,7 @@ isLambda
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -12685,7 +12685,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -14955,7 +14955,7 @@ unsigned
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -15389,7 +15389,7 @@ isFree
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -15521,7 +15521,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15652,7 +15652,7 @@ pn_offset
 =
 top
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pndot
@@ -15836,7 +15836,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15934,7 +15934,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16583,7 +16583,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -16787,7 +16787,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -17931,7 +17931,7 @@ pn
 >
 pn_right
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -18057,7 +18057,7 @@ expr
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -18296,7 +18296,7 @@ default
 continue
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 pn3
 -
@@ -18316,7 +18316,7 @@ JSOP_CONDSWITCH
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 switchOp
 =
@@ -18776,7 +18776,7 @@ SRC_CONDSWITCH
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 switchOp
 =
@@ -19003,7 +19003,7 @@ if
 pn4
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn3
 -
@@ -19276,7 +19276,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 switchOp
 =
@@ -19424,7 +19424,7 @@ PNK_DEFAULT
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn3
 -
@@ -19442,7 +19442,7 @@ pn3
 >
 pn_left
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn4
 -
@@ -19466,7 +19466,7 @@ pn4
 pn_dval
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 double
 (
@@ -19485,7 +19485,7 @@ i
 =
 low
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uint32_t
 (
@@ -19667,7 +19667,7 @@ now
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 off
 !
@@ -19706,7 +19706,7 @@ pc
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 defaultOffset
 !
@@ -20179,7 +20179,7 @@ argumentsHasLocalBinding
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -20723,7 +20723,7 @@ setTreatAsRunOnce
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bce
@@ -20778,7 +20778,7 @@ functionNonDelazifying
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -21204,7 +21204,7 @@ PNK_SPREAD
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 element
 -
@@ -21427,7 +21427,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -21451,7 +21451,7 @@ pn
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -21768,7 +21768,7 @@ VarEmitOption
 emitOption
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 emitOption
 !
@@ -21962,7 +21962,7 @@ nothing
 to
 do
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -21986,7 +21986,7 @@ getOp
 JSOP_INITLEXICAL
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -22556,7 +22556,7 @@ break
 case
 PNK_CALL
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -23761,7 +23761,7 @@ stack
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 bce
@@ -24285,7 +24285,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 -
@@ -24738,7 +24738,7 @@ to
 accomplish
 this
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 bce
@@ -25144,7 +25144,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -25366,7 +25366,7 @@ isLetExpr
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -25377,7 +25377,7 @@ PN_LIST
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isLetExpr
 =
@@ -25635,7 +25635,7 @@ See
 /
 EmitForInOrOfVariables
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -25826,7 +25826,7 @@ loop
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -25837,7 +25837,7 @@ PNK_ASSIGN
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -25848,7 +25848,7 @@ JSOP_NOP
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 emitOption
 !
@@ -26108,7 +26108,7 @@ getOp
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 !
@@ -26116,7 +26116,7 @@ op
 JSOP_CALLEE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn2
@@ -26168,7 +26168,7 @@ if
 pn3
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 emitOption
 !
@@ -26196,7 +26196,7 @@ op
 JSOP_SETINTRINSIC
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 emitOption
 !
@@ -26763,7 +26763,7 @@ break
 case
 PNK_ELEM
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -26824,7 +26824,7 @@ break
 case
 PNK_CALL
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -26865,7 +26865,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -26879,7 +26879,7 @@ op
 JSOP_NOP
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 )
@@ -26976,7 +26976,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -27066,7 +27066,7 @@ JSOP_SETGNAME
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -27105,7 +27105,7 @@ JSOP_SETINTRINSIC
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -27336,7 +27336,7 @@ correct
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -27807,7 +27807,7 @@ throw
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 -
@@ -27861,7 +27861,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -28033,7 +28033,7 @@ pn_next
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isOp
 (
@@ -28151,7 +28151,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 idx
 =
@@ -28184,7 +28184,7 @@ case
 PNK_OBJECT
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isOp
 (
@@ -28192,7 +28192,7 @@ JSOP_NEWINIT
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -28340,7 +28340,7 @@ pn_dval
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pnid
 -
@@ -28360,7 +28360,7 @@ PNK_STRING
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pnid
 -
@@ -28702,7 +28702,7 @@ value
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 .
@@ -28762,7 +28762,7 @@ value
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 .
@@ -28943,7 +28943,7 @@ bce
 >
 topStmt
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -28991,7 +28991,7 @@ stmt
 >
 down
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -29158,7 +29158,7 @@ pn2
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn2
@@ -29203,7 +29203,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -29807,7 +29807,7 @@ pn_kid1
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 =
@@ -30185,7 +30185,7 @@ pn3
 pn_next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -30206,7 +30206,7 @@ and
 catch
 body
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 pn3
 -
@@ -30266,7 +30266,7 @@ gosubs
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -30434,7 +30434,7 @@ false
 }
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -30606,7 +30606,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -31003,7 +31003,7 @@ IonMonkey
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 stmtInfo
 .
@@ -31637,7 +31637,7 @@ ParseNode
 pnLet
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pnLet
 -
@@ -31657,7 +31657,7 @@ pnLet
 >
 pn_left
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 varList
 -
@@ -31677,7 +31677,7 @@ pnLet
 >
 pn_right
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 letBody
 -
@@ -31858,7 +31858,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -32480,7 +32480,7 @@ ptrdiff_t
 top
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -33042,7 +33042,7 @@ assignment
 opcode
 sequence
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -33160,7 +33160,7 @@ I
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -33395,7 +33395,7 @@ beq
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -33682,7 +33682,7 @@ in
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -34017,7 +34017,7 @@ sequence
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -34794,7 +34794,7 @@ part
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 noteIndex
 !
@@ -35091,7 +35091,7 @@ condition
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 jmp
 >
@@ -35395,7 +35395,7 @@ pn
 top
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -35538,7 +35538,7 @@ nonLazyScript
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -35548,7 +35548,7 @@ functionIsHoisted
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -36203,7 +36203,7 @@ setUsesArgumentsAndApply
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsAsmJSModuleNative
 (
@@ -36461,7 +36461,7 @@ isFunctionBox
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -36473,7 +36473,7 @@ isFree
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -36486,7 +36486,7 @@ getOp
 JSOP_NOP
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bce
@@ -36577,7 +36577,7 @@ bi
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bi
 -
@@ -36621,7 +36621,7 @@ Binding
 ARGUMENT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bi
 .
@@ -36658,7 +36658,7 @@ bce
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -38176,7 +38176,7 @@ ParseNode
 iter
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -38189,7 +38189,7 @@ isFunctionBox
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -38325,7 +38325,7 @@ bce
 >
 stackDepth
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 >
@@ -38456,7 +38456,7 @@ offset
 /
 tryStart
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -38962,7 +38962,7 @@ bce
 JSOP_CALL
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -39313,7 +39313,7 @@ bce
 JSOP_CALL
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -39515,7 +39515,7 @@ VALUE
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -39547,7 +39547,7 @@ ptrdiff_t
 top
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -39653,7 +39653,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -39793,7 +39793,7 @@ isFunctionBox
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bce
@@ -41316,7 +41316,7 @@ cloned
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bce
@@ -41961,7 +41961,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -41972,7 +41972,7 @@ PN_LIST
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -42368,7 +42368,7 @@ break
 case
 PNK_CALL
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -42395,7 +42395,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -42549,7 +42549,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -42901,7 +42901,7 @@ ptrdiff_t
 top
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -43218,7 +43218,7 @@ correctly
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -43805,7 +43805,7 @@ true
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 -
@@ -43980,7 +43980,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 -
@@ -44027,7 +44027,7 @@ if
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -44350,7 +44350,7 @@ comprehension
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -45066,7 +45066,7 @@ atomIndex
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 atomIndex
 =
@@ -45272,7 +45272,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -45707,7 +45707,7 @@ see
 bug
 419662
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 pnchild
 -
@@ -45718,7 +45718,7 @@ PNK_SEMI
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pnchild
 -
@@ -45809,7 +45809,7 @@ hasRest
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bce
@@ -46201,7 +46201,7 @@ with
 defaults
 above
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bce
@@ -46691,7 +46691,7 @@ break
 case
 PNK_YIELD
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -48129,7 +48129,7 @@ break
 case
 PNK_NOP
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -48146,7 +48146,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -48757,7 +48757,7 @@ amount
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -48772,7 +48772,7 @@ bce
 main
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 unsigned
@@ -48956,7 +48956,7 @@ begin
 +
 index
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 SN_TYPE
 (
@@ -48967,7 +48967,7 @@ sn
 SRC_XDELTA
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int
@@ -49295,7 +49295,7 @@ uint32_t
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -49467,7 +49467,7 @@ prolog
 .
 lastNoteOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 >
@@ -49823,7 +49823,7 @@ ConstArray
 array
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 (
@@ -50337,7 +50337,7 @@ ObjectBox
 objbox
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 objbox
@@ -50374,7 +50374,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 >
@@ -50430,7 +50430,7 @@ ObjectArray
 array
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 <
@@ -50438,7 +50438,7 @@ length
 INDEX_LIMIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 =
@@ -50478,7 +50478,7 @@ do
 -
 cursor
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -50509,7 +50509,7 @@ emitLink
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 =
@@ -50532,7 +50532,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -50589,7 +50589,7 @@ size_t
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 <
@@ -50597,7 +50597,7 @@ start
 end
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size_t
 (
@@ -50611,7 +50611,7 @@ start
 start
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size_t
 (
@@ -50680,7 +50680,7 @@ TryNoteArray
 array
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 (
@@ -50787,7 +50787,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -50796,7 +50796,7 @@ length
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 list
 [
@@ -50832,7 +50832,7 @@ index
 -
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 list
 [
@@ -50919,7 +50919,7 @@ contain
 /
 POS
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 list
 [
@@ -50960,7 +50960,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -50969,7 +50969,7 @@ length
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 >
@@ -50982,7 +50982,7 @@ index
 start
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 list
 [
@@ -51023,7 +51023,7 @@ BlockScopeArray
 array
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 (
@@ -51140,7 +51140,7 @@ jssrcnote
 sn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SN_TYPE
 (
@@ -51257,7 +51257,7 @@ offsets
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 SN_TYPE
 (
@@ -51268,7 +51268,7 @@ sn
 SRC_XDELTA
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int

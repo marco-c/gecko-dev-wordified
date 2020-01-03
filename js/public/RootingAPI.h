@@ -5124,7 +5124,7 @@ v
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (

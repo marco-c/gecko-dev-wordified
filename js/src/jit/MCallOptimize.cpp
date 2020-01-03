@@ -234,7 +234,7 @@ JSFunction
 target
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 -
@@ -1659,7 +1659,7 @@ JSFunction
 target
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 -
@@ -1711,7 +1711,7 @@ resultTypeSet
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callInfo
 .
@@ -2155,7 +2155,7 @@ templateObject
 return
 InliningStatus_NotInlined
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 templateObject
 -
@@ -3788,7 +3788,7 @@ return
 InliningStatus_NotInlined
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 =
@@ -4764,7 +4764,7 @@ baseThisType
 return
 InliningStatus_NotInlined
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 templateObj
 -
@@ -8257,7 +8257,7 @@ templateObj
 return
 InliningStatus_NotInlined
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 templateObj
 -
@@ -8426,7 +8426,7 @@ templateObject
 return
 InliningStatus_NotInlined
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 templateObject
 -
@@ -10873,7 +10873,7 @@ Scalar
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 :
@@ -14526,7 +14526,7 @@ getArg
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 secondArg
 -
@@ -14539,7 +14539,7 @@ type
 MIRType_Boolean
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 secondArg
 -

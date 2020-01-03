@@ -242,7 +242,7 @@ uint32_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -284,7 +284,7 @@ gpr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFloat
@@ -308,7 +308,7 @@ fpu
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFloat
 (
@@ -1014,7 +1014,7 @@ dataTyped
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasTyped
 (
@@ -1038,7 +1038,7 @@ dataValue
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasValue
 (
@@ -1062,7 +1062,7 @@ dataTyped
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasTyped
 (
@@ -1088,7 +1088,7 @@ dataValue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasValue
 (
@@ -1333,7 +1333,7 @@ dataValue
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 constant
 (
@@ -1357,7 +1357,7 @@ dataReg
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 constant
@@ -1512,7 +1512,7 @@ int
 diff
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isRegister_
@@ -1531,7 +1531,7 @@ reg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isRegister_
 )
@@ -1547,7 +1547,7 @@ constant
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isRegister_
@@ -2074,7 +2074,7 @@ a
 tmp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 has
@@ -2220,7 +2220,7 @@ T
 reg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 has
 (
@@ -2567,7 +2567,7 @@ T
 preclude
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -2593,7 +2593,7 @@ take
 preclude
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -2623,7 +2623,7 @@ getFirst
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -2653,7 +2653,7 @@ getLast
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -2687,7 +2687,7 @@ takeAny
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -2802,7 +2802,7 @@ takeFirst
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -2831,7 +2831,7 @@ takeLast
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -4795,7 +4795,7 @@ gpr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -4823,7 +4823,7 @@ fpu
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -4851,7 +4851,7 @@ offsetFromArgBase
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (

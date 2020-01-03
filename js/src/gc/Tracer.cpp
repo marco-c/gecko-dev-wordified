@@ -1564,7 +1564,7 @@ fallback
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasTracingDetails
 (
@@ -1802,7 +1802,7 @@ setBaseCapacity
 gcMode
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stack_
@@ -1908,7 +1908,7 @@ size_t
 maxCapacity
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isEmpty
 (
@@ -2292,7 +2292,7 @@ start
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 started
@@ -2306,13 +2306,13 @@ color
 =
 BLACK
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unmarkedArenaStackTop
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 markLaterArenas
 =
@@ -2329,14 +2329,14 @@ stop
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDrained
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 started
 )
@@ -2345,13 +2345,13 @@ started
 =
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unmarkedArenaStackTop
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 markLaterArenas
 =
@@ -2403,7 +2403,7 @@ reset
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isMarkStackEmpty
 (
@@ -2421,7 +2421,7 @@ aheader
 =
 unmarkedArenaStackTop
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 -
@@ -2429,7 +2429,7 @@ aheader
 hasDelayedMarking
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 markLaterArenas
 )
@@ -2469,14 +2469,14 @@ markLaterArenas
 -
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 isDrained
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 markLaterArenas
@@ -2589,7 +2589,7 @@ getAllocKind
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 -
@@ -2689,7 +2689,7 @@ gcstats
 PHASE_MARK_DELAYED
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 unmarkedArenaStackTop
 )
@@ -2745,7 +2745,7 @@ aheader
 =
 unmarkedArenaStackTop
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 -
@@ -2753,7 +2753,7 @@ aheader
 hasDelayedMarking
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 markLaterArenas
 )
@@ -2807,7 +2807,7 @@ while
 unmarkedArenaStackTop
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 markLaterArenas
@@ -2831,7 +2831,7 @@ void
 p
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 started
 )
@@ -2905,7 +2905,7 @@ startBufferingGrayRoots
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 grayBufferState
 =
@@ -2940,7 +2940,7 @@ next
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -2952,7 +2952,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 callback
@@ -2962,7 +2962,7 @@ callback
 =
 GrayCallback
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IS_GC_MARKING_TRACER
 (
@@ -2979,7 +2979,7 @@ endBufferingGrayRoots
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callback
 =
@@ -2991,7 +2991,7 @@ callback
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IS_GC_MARKING_TRACER
 (
@@ -2999,7 +2999,7 @@ this
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 grayBufferState
 =
@@ -3069,7 +3069,7 @@ Zone
 zone
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 grayBufferState
 =
@@ -3077,7 +3077,7 @@ grayBufferState
 GRAY_BUFFER_OK
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -3177,7 +3177,7 @@ JSGCTraceKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 started
 )
@@ -3411,12 +3411,12 @@ JSGCTraceKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 thingp

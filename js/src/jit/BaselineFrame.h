@@ -1007,7 +1007,7 @@ frameSize
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 >
@@ -1040,7 +1040,7 @@ Size
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 size
@@ -1073,7 +1073,7 @@ slot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -1109,7 +1109,7 @@ CHECK_ALIASING
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1159,7 +1159,7 @@ CHECK_ALIASING
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1216,7 +1216,7 @@ CHECK_ALIASING
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1283,7 +1283,7 @@ CHECK_ALIASING
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1666,7 +1666,7 @@ ArgumentsObject
 argsobj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -1703,14 +1703,14 @@ argsObj
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasArgsObj
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -1757,7 +1757,7 @@ evalScript
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isEvalFrame
 (

@@ -218,7 +218,7 @@ eventMarker_
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 !
@@ -426,7 +426,7 @@ bool
 enabled
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 installed
 (
@@ -580,7 +580,7 @@ lock
 lock_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 strings
 .
@@ -823,7 +823,7 @@ char
 event
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 enabled
 (
@@ -1093,7 +1093,7 @@ the
 set
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 !
@@ -1259,7 +1259,7 @@ label
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 stack_
 [
@@ -1272,7 +1272,7 @@ isJs
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stack_
 [
@@ -1288,7 +1288,7 @@ script
 script
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 strcmp
 (
@@ -1390,7 +1390,7 @@ current
 *
 size
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 enabled
 (
@@ -1542,7 +1542,7 @@ current
 *
 size
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 installed
 (
@@ -1589,7 +1589,7 @@ sp
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 .
@@ -1618,7 +1618,7 @@ script
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 .
@@ -1688,7 +1688,7 @@ pop
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 installed
 (
@@ -1702,7 +1702,7 @@ size_
 -
 -
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 (
@@ -2331,7 +2331,7 @@ pop
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size_before
 =
@@ -2513,7 +2513,7 @@ char
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -

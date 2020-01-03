@@ -398,7 +398,7 @@ size_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 !
@@ -912,7 +912,7 @@ allocated
 /
 elements
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 lineStartOffsets_
 .
@@ -984,7 +984,7 @@ length
 -
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lineStartOffsets_
 [
@@ -1140,7 +1140,7 @@ mysteriously
 changed
 )
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 lineStartOffsets_
 [
@@ -1172,7 +1172,7 @@ SourceCoords
 other
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lineStartOffsets_
 .
@@ -1184,7 +1184,7 @@ back
 MAX_PTR
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 other
 .
@@ -1507,7 +1507,7 @@ lastLineIndex_
 +
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iMin
 <
@@ -1664,7 +1664,7 @@ lineStartOffsets_
 iMid
 ]
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 iMax
 =
@@ -1672,7 +1672,7 @@ iMax
 iMin
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lineStartOffsets_
 [
@@ -1760,7 +1760,7 @@ lineStartOffsets_
 lineIndex
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 >
@@ -1818,7 +1818,7 @@ lineStartOffsets_
 lineIndex
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 >
@@ -3008,7 +3008,7 @@ EOF
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 userbuf
@@ -3047,7 +3047,7 @@ peekRawChar
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 TokenBuf
 :
@@ -3097,7 +3097,7 @@ r
 '
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 prevLinebase
 )
@@ -3128,7 +3128,7 @@ lineno
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 userbuf
 .
@@ -3161,7 +3161,7 @@ EOF
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 userbuf
@@ -3372,7 +3372,7 @@ size_t
 max
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 base_
 <
@@ -4801,7 +4801,7 @@ windowLimit
 -
 windowBase
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 windowLength
 <
@@ -5736,7 +5736,7 @@ FreePolicy
 destination
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 directiveLength
 <
@@ -7603,7 +7603,7 @@ getRawChar
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 c
 !
@@ -9435,7 +9435,7 @@ else
 .
 /
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 c1kind
 =
@@ -10886,7 +10886,7 @@ base
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsTokenSane
 (
@@ -10934,7 +10934,7 @@ type
 =
 TOK_ERROR
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsTokenSane
 (

@@ -805,7 +805,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -843,7 +843,7 @@ nullptr
 errorNumber
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 efs
 -
@@ -1188,7 +1188,7 @@ stderr
 }
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 false
 )
@@ -1220,7 +1220,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -1232,7 +1232,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1244,7 +1244,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1263,7 +1263,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1460,7 +1460,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -1708,7 +1708,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -1720,7 +1720,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1749,7 +1749,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -2080,7 +2080,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -2092,7 +2092,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -2903,7 +2903,7 @@ shouldn
 t
 happen
 !
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 "
@@ -3176,7 +3176,7 @@ base
 +
 2
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3188,7 +3188,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3217,7 +3217,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3374,7 +3374,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 idx
 <
@@ -3742,7 +3742,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3754,7 +3754,7 @@ length
 3
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3766,7 +3766,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3842,7 +3842,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3854,7 +3854,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3866,7 +3866,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3937,7 +3937,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3949,7 +3949,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3961,7 +3961,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -4038,7 +4038,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4050,7 +4050,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -4177,7 +4177,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4254,7 +4254,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4362,7 +4362,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4374,7 +4374,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -4438,7 +4438,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4545,7 +4545,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4557,7 +4557,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -4621,7 +4621,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4633,7 +4633,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -7208,7 +7208,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 selfHostingGlobal_
@@ -7886,7 +7886,7 @@ isPermanentAtom
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 selfHostedObject
 -
@@ -7970,7 +7970,7 @@ nullptr
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -8529,7 +8529,7 @@ this
 |
 value
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 selfHostedFunction
@@ -8680,7 +8680,7 @@ getSource
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 -
@@ -8938,7 +8938,7 @@ TenuredObject
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 selfHostedObject
 -
@@ -9310,7 +9310,7 @@ aren
 t
 any
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 sourceFun
@@ -9342,7 +9342,7 @@ sourceScript
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 sourceScript
@@ -9383,7 +9383,7 @@ setFunction
 targetFun
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sourceFun
 -
@@ -9458,7 +9458,7 @@ setScript
 cscript
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 targetFun
 -
@@ -9649,7 +9649,7 @@ func
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 func
 .
@@ -9658,7 +9658,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 func
 .

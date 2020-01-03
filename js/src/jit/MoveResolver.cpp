@@ -206,7 +206,7 @@ no
 op
 moves
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (

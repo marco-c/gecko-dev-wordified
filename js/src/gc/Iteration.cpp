@@ -185,7 +185,7 @@ JSTracer
 trc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IS_GC_MARKING_TRACER
@@ -924,7 +924,7 @@ JSIterateCompartmentCallback
 compartmentCallback
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt

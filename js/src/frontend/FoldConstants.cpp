@@ -821,7 +821,7 @@ int32_t
 i
 j
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn1
 -
@@ -1662,7 +1662,7 @@ being
 lazily
 parsed
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -3145,7 +3145,7 @@ pn
 >
 pn_head
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 listp
@@ -3258,7 +3258,7 @@ nullptr
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 t
@@ -3370,7 +3370,7 @@ pn_next
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn2
@@ -3536,7 +3536,7 @@ pn1
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 t
@@ -3678,7 +3678,7 @@ do_binary_op
 case
 PNK_ADDASSIGN
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -4422,7 +4422,7 @@ concatenation
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -4660,7 +4660,7 @@ PN_LIST
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -4827,7 +4827,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -

@@ -645,7 +645,7 @@ last
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 last_
 !
@@ -663,7 +663,7 @@ RemoveLast
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 last_
 !
@@ -724,7 +724,7 @@ int
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 0
@@ -751,7 +751,7 @@ list_
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 =
@@ -781,7 +781,7 @@ length
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 last_
 !

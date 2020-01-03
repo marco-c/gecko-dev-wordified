@@ -1348,7 +1348,7 @@ thisv
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSymbol
 (

@@ -273,7 +273,7 @@ fixup
 masm
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 .
@@ -516,7 +516,7 @@ CodeOffsetLabel
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 icEntries_
@@ -599,7 +599,7 @@ getStackTopSlotInfo
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .

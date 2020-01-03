@@ -4671,7 +4671,7 @@ cx
 objArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )

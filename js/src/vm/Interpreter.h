@@ -1391,7 +1391,7 @@ asExecute
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isExecute
 (
@@ -1413,7 +1413,7 @@ asInvoke
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInvoke
 (
@@ -1435,7 +1435,7 @@ asGenerator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGenerator
 (

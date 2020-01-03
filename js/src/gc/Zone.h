@@ -1222,7 +1222,7 @@ scheduleGC
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 runtimeFromMainThread
@@ -1309,7 +1309,7 @@ GCState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 runtimeFromMainThread
 (
@@ -2352,7 +2352,7 @@ next
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -2395,7 +2395,7 @@ get
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -2487,7 +2487,7 @@ done
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 )
@@ -2504,7 +2504,7 @@ next
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -2524,7 +2524,7 @@ get
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 )
@@ -2754,7 +2754,7 @@ next
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -2762,7 +2762,7 @@ done
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 comp
@@ -2830,7 +2830,7 @@ get
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done

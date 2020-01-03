@@ -718,7 +718,7 @@ size_t
 nbytes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nbytes
 <
@@ -770,7 +770,7 @@ Value
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nbytes
 <
@@ -1532,7 +1532,7 @@ type
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsTypedArrayClass
 (
@@ -1672,7 +1672,7 @@ JSID_TO_INT
 id
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 >
@@ -2102,7 +2102,7 @@ TypedArrayLayout
 BYTEOFFSET_SLOT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -2141,7 +2141,7 @@ TypedArrayLayout
 LENGTH_SLOT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .

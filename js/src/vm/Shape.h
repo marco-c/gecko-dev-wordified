@@ -2070,12 +2070,12 @@ objp
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 objp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 objp
@@ -2754,7 +2754,7 @@ uint32_t
 objectFlags
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -2834,7 +2834,7 @@ StrictPropertyOp
 rawSetter
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -3284,7 +3284,7 @@ getterObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasGetterObject
 (
@@ -3318,7 +3318,7 @@ setterObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasSetterObject
 (
@@ -3357,7 +3357,7 @@ table
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 table_
 &
@@ -3380,7 +3380,7 @@ ShapeTable
 table
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isOwned
 (
@@ -3398,7 +3398,7 @@ slotSpan
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isOwned
 (
@@ -3416,7 +3416,7 @@ uint32_t
 slotSpan
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isOwned
 (
@@ -3837,7 +3837,7 @@ new
 last
 property
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 isOwned
 (
@@ -3921,7 +3921,7 @@ toUnowned
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isOwned
@@ -3953,7 +3953,7 @@ baseUnowned
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isOwned
 (
@@ -4153,7 +4153,7 @@ JSPROP_GETTER
 rawGetter
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedPtr
@@ -4183,7 +4183,7 @@ JSPROP_SETTER
 rawSetter
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedPtr
@@ -5284,7 +5284,7 @@ isNative
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -5449,7 +5449,7 @@ front
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -5467,7 +5467,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -5618,7 +5618,7 @@ flag
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -5974,7 +5974,7 @@ getterOp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasGetterValue
@@ -5998,7 +5998,7 @@ getterObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasGetterValue
 (
@@ -6036,7 +6036,7 @@ getterValue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasGetterValue
 (
@@ -6141,7 +6141,7 @@ setterOp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasSetterValue
@@ -6165,7 +6165,7 @@ setterObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasSetterValue
 (
@@ -6203,7 +6203,7 @@ setterValue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasSetterValue
 (
@@ -6492,7 +6492,7 @@ slot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasSlot
 (
@@ -6557,7 +6557,7 @@ clasp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inDictionary
@@ -6613,7 +6613,7 @@ uint32_t
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -6658,7 +6658,7 @@ uint32_t
 nfixed
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nfixed
 <
@@ -6713,7 +6713,7 @@ numLinearSearches
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 <
@@ -6751,7 +6751,7 @@ propid
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isEmptyShape
@@ -6759,7 +6759,7 @@ isEmptyShape
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JSID_IS_VOID
@@ -6778,7 +6778,7 @@ propidRef
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JSID_IS_VOID
@@ -7167,7 +7167,7 @@ isBigEnoughForAShapeTable
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasTable
@@ -8466,12 +8466,12 @@ flags
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JSID_IS_VOID
@@ -8480,7 +8480,7 @@ propid
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -8597,7 +8597,7 @@ slot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasSlot
 (
@@ -8664,7 +8664,7 @@ uint32_t
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -9185,7 +9185,7 @@ parent
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 )
@@ -9265,7 +9265,7 @@ shape
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inDictionary

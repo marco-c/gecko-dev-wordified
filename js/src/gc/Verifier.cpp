@@ -824,7 +824,7 @@ VerifyPreTracer
 )
 jstrc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -1958,7 +1958,7 @@ thing
 thingp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 node
 -
@@ -2177,7 +2177,7 @@ trc
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS
@@ -2302,7 +2302,7 @@ discarded
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 -
@@ -3016,7 +3016,7 @@ edges
 .
 *
 /
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 trc

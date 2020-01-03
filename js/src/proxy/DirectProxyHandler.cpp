@@ -178,7 +178,7 @@ SET
 GET_PROPERTY_DESCRIPTOR
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasPrototype
@@ -544,7 +544,7 @@ JSID_VOID
 ENUMERATE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasPrototype
@@ -1276,7 +1276,7 @@ id
 GET
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasPrototype
@@ -1670,7 +1670,7 @@ JSID_VOID
 ENUMERATE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasPrototype

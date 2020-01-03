@@ -213,7 +213,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 initialized_
@@ -781,7 +781,7 @@ bool
 optimized
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 array
 -
@@ -794,7 +794,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 optimized
 )
@@ -874,7 +874,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 initialized_
 )
@@ -919,7 +919,7 @@ to
 work
 with
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 isArrayStateStillSane
 (
@@ -1264,7 +1264,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -1445,7 +1445,7 @@ a
 disabled_
 stub
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 disabled_
@@ -1532,7 +1532,7 @@ a
 disabled
 stub
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 disabled_
@@ -2052,7 +2052,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx

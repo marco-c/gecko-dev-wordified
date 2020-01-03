@@ -283,7 +283,7 @@ prevLookedUpEntry
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 )
@@ -354,14 +354,14 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasBaselineScript
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isValidPC
 (
@@ -390,7 +390,7 @@ pc
 prevLookedUpEntry
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ent
 .
@@ -447,7 +447,7 @@ icEntryFromPC
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ent
 -

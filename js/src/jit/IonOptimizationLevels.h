@@ -874,14 +874,14 @@ level
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 level
 <
 Optimization_Count
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 level
 !

@@ -241,7 +241,7 @@ tableOffset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frameClass
 (
@@ -315,7 +315,7 @@ snapshotOffset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frameClass
 (
@@ -647,7 +647,7 @@ raw
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tableOffset
 >
@@ -667,7 +667,7 @@ instructionsSize
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 tableOffset
@@ -696,7 +696,7 @@ BAILOUT_TABLE_ENTRY_SIZE
 -
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bailoutId
 <

@@ -279,7 +279,7 @@ while
 true
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shift
 <
@@ -366,7 +366,7 @@ readByte
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer_
 <
@@ -482,7 +482,7 @@ at
 -
 byte
 boundary
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -606,7 +606,7 @@ more
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer_
 <
@@ -722,7 +722,7 @@ uint32_t
 byte
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 byte
 <
@@ -970,7 +970,7 @@ at
 -
 byte
 boundary
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 (

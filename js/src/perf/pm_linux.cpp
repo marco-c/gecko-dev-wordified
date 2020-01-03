@@ -838,7 +838,7 @@ EventMask
 toMeasure
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 group_leader
 =

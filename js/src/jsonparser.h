@@ -483,7 +483,7 @@ elements
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 =
@@ -509,7 +509,7 @@ properties
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 =
@@ -722,7 +722,7 @@ numberValue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastToken
 =
@@ -730,7 +730,7 @@ lastToken
 Number
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -749,7 +749,7 @@ stringValue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastToken
 =
@@ -757,7 +757,7 @@ lastToken
 String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -805,7 +805,7 @@ Token
 t
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 t
 !
@@ -813,7 +813,7 @@ t
 String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 t
 !
@@ -1080,7 +1080,7 @@ end
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 <

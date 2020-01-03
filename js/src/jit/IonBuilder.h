@@ -5840,7 +5840,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 (
@@ -6562,7 +6562,7 @@ CallInfo
 callInfo
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 constructing_
 =
@@ -6621,7 +6621,7 @@ uint32_t
 argc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 args_
 .
@@ -6835,7 +6835,7 @@ MDefinitionVector
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 args_
 .
@@ -6884,7 +6884,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -6910,7 +6910,7 @@ MDefinition
 def
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -6934,7 +6934,7 @@ thisArg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thisArg_
 )
@@ -6993,7 +6993,7 @@ fun
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun_
 )

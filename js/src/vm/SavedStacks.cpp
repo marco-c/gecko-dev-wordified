@@ -300,7 +300,7 @@ principals
 principals
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 )
@@ -1224,7 +1224,7 @@ HandleLookup
 lookup
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lookup
 -
@@ -1232,7 +1232,7 @@ lookup
 source
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getReservedSlot
 (
@@ -1325,7 +1325,7 @@ parent
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getReservedSlot
 (
@@ -2626,7 +2626,7 @@ unsigned
 maxFrameCount
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 initialized
 (
@@ -2996,7 +2996,7 @@ count
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 initialized
 (
@@ -4551,7 +4551,7 @@ vector
 gets
 reallocated
 .
-JS_ASSERT
+MOZ_ASSERT
 (
 dbgs
 -

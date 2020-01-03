@@ -275,7 +275,7 @@ toShape
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isShape
 (
@@ -307,12 +307,12 @@ Shape
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 reinterpret_cast
@@ -381,7 +381,7 @@ toHash
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isHash
 (
@@ -413,12 +413,12 @@ KidsHash
 hash
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hash
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 reinterpret_cast

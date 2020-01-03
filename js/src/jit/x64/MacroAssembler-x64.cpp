@@ -307,7 +307,7 @@ doubles_
 doubleIndex
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 dbl
@@ -566,7 +566,7 @@ floats_
 floatIndex
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 flt
@@ -765,7 +765,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -806,7 +806,7 @@ val
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 val
@@ -819,7 +819,7 @@ bound
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 val
 -
@@ -892,7 +892,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -933,7 +933,7 @@ val
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 val
@@ -946,7 +946,7 @@ bound
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 val
 -
@@ -1290,7 +1290,7 @@ uint32_t
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inCall_
@@ -1720,12 +1720,12 @@ uint32_t
 stackAdjust
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inCall_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args_
 =
@@ -1891,7 +1891,7 @@ pop
 rsp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inCall_
 )
@@ -2096,7 +2096,7 @@ base
 r10
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsIntArgReg
@@ -3046,7 +3046,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -3066,7 +3066,7 @@ Assembler
 NotEqual
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 !
@@ -3074,7 +3074,7 @@ ptr
 temp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 !
@@ -3171,7 +3171,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =

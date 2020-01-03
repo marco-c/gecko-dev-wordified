@@ -398,7 +398,7 @@ nslots
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ClassCanHaveFixedData
 (
@@ -408,7 +408,7 @@ getClass
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nslots
 =

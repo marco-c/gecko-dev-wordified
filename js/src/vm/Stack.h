@@ -1058,7 +1058,7 @@ asInterpreterFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpreterFrame
 (
@@ -1080,7 +1080,7 @@ ptr_
 TagMask
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 )
@@ -1116,7 +1116,7 @@ asBaselineFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBaselineFrame
 (
@@ -1144,7 +1144,7 @@ ptr_
 TagMask
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 )
@@ -1180,7 +1180,7 @@ asRematerializedFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isRematerializedFrame
 (
@@ -1208,7 +1208,7 @@ ptr_
 TagMask
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 )
@@ -3660,7 +3660,7 @@ evalInFramePrev
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isEvalFrame
 (
@@ -3938,7 +3938,7 @@ numFormalArgs
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasArgs
 (
@@ -3962,7 +3962,7 @@ numActualArgs
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasArgs
 (
@@ -4606,7 +4606,7 @@ prevpc
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 prev_
 )
@@ -4633,7 +4633,7 @@ prevsp
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 prev_
 )
@@ -4697,7 +4697,7 @@ fun
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionFrame
 (
@@ -4843,7 +4843,7 @@ functionThis
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionFrame
 (
@@ -4886,7 +4886,7 @@ constructorThis
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasArgs
 (
@@ -5015,7 +5015,7 @@ callee
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionFrame
 (
@@ -5047,7 +5047,7 @@ calleev
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionFrame
 (
@@ -5100,7 +5100,7 @@ argv
 2
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 calleev
 .
@@ -5120,7 +5120,7 @@ mutableCalleev
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionFrame
 (
@@ -5494,7 +5494,7 @@ initGeneratorFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isGeneratorFrame
@@ -5502,7 +5502,7 @@ isGeneratorFrame
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isNonEvalFunctionFrame
 (
@@ -5522,7 +5522,7 @@ generatorArgsSnapshotBegin
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGeneratorFrame
 (
@@ -5544,7 +5544,7 @@ generatorArgsSnapshotEnd
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGeneratorFrame
 (
@@ -5577,7 +5577,7 @@ generatorSlotsSnapshotBegin
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGeneratorFrame
 (
@@ -5676,7 +5676,7 @@ mask
 =
 CONSTRUCTING
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 flags_
@@ -5826,7 +5826,7 @@ hasArgsObj
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -5849,7 +5849,7 @@ setUseNewType
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isConstructing
 (
@@ -5868,7 +5868,7 @@ useNewType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isConstructing
 (
@@ -5968,7 +5968,7 @@ isSuspended
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGeneratorFrame
 (
@@ -5986,7 +5986,7 @@ setSuspended
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGeneratorFrame
 (
@@ -6004,7 +6004,7 @@ clearSuspended
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGeneratorFrame
 (
@@ -6295,7 +6295,7 @@ stackDepth
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sp
 >
@@ -6328,7 +6328,7 @@ depth
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fp_
 -
@@ -6422,7 +6422,7 @@ from
 .
 pc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fp_
 )
@@ -6469,7 +6469,7 @@ prev
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fp_
 )
@@ -6782,7 +6782,7 @@ InterpreterStack
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frameCount_
 =
@@ -7531,7 +7531,7 @@ asInterpreter
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpreter
 (
@@ -7556,7 +7556,7 @@ asJit
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isJit
 (
@@ -7581,7 +7581,7 @@ asForkJoin
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isForkJoin
 (
@@ -7603,7 +7603,7 @@ asAsmJS
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isAsmJS
 (
@@ -7633,7 +7633,7 @@ restoreFrameChain
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 savedFrameChain_
 >
@@ -7672,7 +7672,7 @@ unhideScriptedCaller
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hideScriptedCallerCount_
 >
@@ -8132,7 +8132,7 @@ jitTop
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -
@@ -8507,7 +8507,7 @@ offsetOfActiveUint8
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -9123,7 +9123,7 @@ frame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -9142,7 +9142,7 @@ pc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -9161,7 +9161,7 @@ sp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -10171,7 +10171,7 @@ isInterp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -10194,7 +10194,7 @@ isJit
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -10217,7 +10217,7 @@ isAsmJS
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -10520,7 +10520,7 @@ pc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -11743,7 +11743,7 @@ script
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -11770,7 +11770,7 @@ script
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -11868,7 +11868,7 @@ interpFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .

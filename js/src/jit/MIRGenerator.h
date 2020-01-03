@@ -651,7 +651,7 @@ maxAsmJSStackArgBytes
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 compilingAsmJS
 (
@@ -667,7 +667,7 @@ resetAsmJSMaxStackArgBytes
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 compilingAsmJS
 (
@@ -694,7 +694,7 @@ uint32_t
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 compilingAsmJS
 (
@@ -772,7 +772,7 @@ uint32_t
 len
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 minAsmJSHeapLength_
 =
