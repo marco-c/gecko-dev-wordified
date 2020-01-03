@@ -206,6 +206,13 @@ GLImages
 h
 "
 #
+include
+"
+GLLibraryEGL
+.
+h
+"
+#
 endif
 using
 mozilla
