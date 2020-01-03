@@ -230,6 +230,13 @@ SourceSurface
 #
 include
 "
+SurfaceFlags
+.
+h
+"
+#
+include
+"
 SVGImageContext
 .
 h
@@ -437,7 +444,10 @@ AddToHash
 (
 hash
 mAnimationTime
+uint32_t
+(
 mFlags
+)
 )
 ;
 return
@@ -477,7 +487,7 @@ return
 mAnimationTime
 ;
 }
-uint32_t
+SurfaceFlags
 Flags
 (
 )
@@ -490,7 +500,7 @@ mFlags
 SurfaceKey
 WithNewFlags
 (
-uint32_t
+SurfaceFlags
 aFlags
 )
 const
@@ -524,7 +534,7 @@ const
 float
 aAnimationTime
 const
-uint32_t
+SurfaceFlags
 aFlags
 )
 :
@@ -571,7 +581,7 @@ RasterSurfaceKey
 const
 IntSize
 &
-uint32_t
+SurfaceFlags
 uint32_t
 )
 ;
@@ -603,7 +613,7 @@ mSVGContext
 float
 mAnimationTime
 ;
-uint32_t
+SurfaceFlags
 mFlags
 ;
 }
@@ -619,7 +629,7 @@ gfx
 IntSize
 &
 aSize
-uint32_t
+SurfaceFlags
 aFlags
 uint32_t
 aFrameNum
@@ -721,7 +731,9 @@ SurfaceKey
 aSize
 aSVGContext
 aAnimationTime
-0
+DefaultSurfaceFlags
+(
+)
 )
 ;
 }
@@ -1292,7 +1304,7 @@ aSurfaceKey
 const
 Maybe
 <
-uint32_t
+SurfaceFlags
 >
 &
 aAlternateFlags
@@ -1490,7 +1502,7 @@ aSurfaceKey
 const
 Maybe
 <
-uint32_t
+SurfaceFlags
 >
 &
 aAlternateFlags

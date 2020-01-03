@@ -1848,10 +1848,9 @@ Flags
 )
 !
 =
-imgIContainer
-:
-:
-DECODE_FLAGS_DEFAULT
+DefaultSurfaceFlags
+(
+)
 )
 {
 surfacePathPrefix
@@ -1868,6 +1867,8 @@ surfacePathPrefix
 .
 AppendInt
 (
+uint32_t
+(
 counter
 .
 Key
@@ -1876,6 +1877,7 @@ Key
 .
 Flags
 (
+)
 )
 /
 *

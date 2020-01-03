@@ -737,7 +737,10 @@ CreateAnonymousDecoder
 (
 decoderType
 sourceBuffer
+ToSurfaceFlags
+(
 aFlags
+)
 )
 ;
 if

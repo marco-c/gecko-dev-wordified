@@ -751,14 +751,14 @@ GetCMSMode
 ;
 if
 (
-GetDecodeFlags
+GetSurfaceFlags
 (
 )
 &
-imgIContainer
+SurfaceFlags
 :
 :
-FLAG_DECODE_NO_COLORSPACE_CONVERSION
+NO_COLORSPACE_CONVERSION
 )
 {
 mCMSMode
