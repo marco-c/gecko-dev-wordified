@@ -8262,6 +8262,11 @@ ContainsEMEContent
 ;
 #
 endif
+bool
+ContainsMSEContent
+(
+)
+;
 protected
 :
 already_AddRefed

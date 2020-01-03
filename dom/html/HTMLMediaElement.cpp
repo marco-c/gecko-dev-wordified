@@ -3261,6 +3261,9 @@ source
 ;
 if
 (
+mLoadingSrc
+&
+&
 IsMediaSourceURI
 (
 mLoadingSrc
