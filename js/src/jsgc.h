@@ -7530,7 +7530,7 @@ js
 gc
 :
 :
-RewrapValueOrId
+RewrapTaggedPointer
 <
 Value
 T

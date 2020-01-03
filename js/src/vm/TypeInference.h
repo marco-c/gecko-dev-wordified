@@ -227,6 +227,15 @@ Vector
 .
 h
 "
+#
+include
+"
+vm
+/
+TaggedProto
+.
+h
+"
 namespace
 js
 {
@@ -247,9 +256,6 @@ TempAllocator
 /
 namespace
 jit
-class
-TaggedProto
-;
 struct
 TypeZone
 ;
