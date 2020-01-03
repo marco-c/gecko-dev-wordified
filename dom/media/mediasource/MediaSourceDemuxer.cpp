@@ -2131,7 +2131,7 @@ if
 !
 ranges
 .
-Contains
+ContainsWithStrictEnd
 (
 mNextSampleTime
 )
