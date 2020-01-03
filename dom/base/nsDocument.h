@@ -1423,10 +1423,11 @@ as
 weak
 pointers
 .
-nsTArray
+nsAutoTArray
 <
 Element
 *
+1
 >
 mIdContentList
 ;
