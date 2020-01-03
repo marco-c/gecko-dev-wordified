@@ -124,14 +124,14 @@ h
 #
 include
 "
-AndroidGraphicBuffer
+AndroidContentController
 .
 h
 "
 #
 include
 "
-APZCCallbackHandler
+AndroidGraphicBuffer
 .
 h
 "
@@ -4524,7 +4524,7 @@ NativePanZoomController
 LocalRef
 oldRef
 =
-APZCCallbackHandler
+AndroidContentController
 :
 :
 SetNativePanZoomController
@@ -4743,7 +4743,7 @@ NativePanZoomController
 LocalRef
 oldRef
 =
-APZCCallbackHandler
+AndroidContentController
 :
 :
 SetNativePanZoomController

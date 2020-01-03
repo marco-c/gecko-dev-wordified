@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-APZCCallbackHandler_h__
+AndroidContentController_h__
 #
 define
-APZCCallbackHandler_h__
+AndroidContentController_h__
 #
 include
 "
@@ -181,7 +181,7 @@ namespace
 android
 {
 class
-APZCCallbackHandler
+AndroidContentController
 final
 :
 public
@@ -195,7 +195,7 @@ ChromeProcessController
 {
 public
 :
-APZCCallbackHandler
+AndroidContentController
 (
 nsIWidget
 *

@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-APZCCallbackHandler
+AndroidContentController
 .
 h
 "
@@ -154,7 +154,7 @@ NativePanZoomController
 :
 :
 GlobalRef
-APZCCallbackHandler
+AndroidContentController
 :
 :
 sNativePanZoomController
@@ -165,7 +165,7 @@ NativePanZoomController
 :
 :
 LocalRef
-APZCCallbackHandler
+AndroidContentController
 :
 :
 SetNativePanZoomController
@@ -194,7 +194,7 @@ old
 ;
 }
 void
-APZCCallbackHandler
+AndroidContentController
 :
 :
 NotifyDefaultPrevented
@@ -274,7 +274,7 @@ PostTaskToUiThread
 NewRunnableFunction
 (
 &
-APZCCallbackHandler
+AndroidContentController
 :
 :
 NotifyDefaultPrevented
@@ -325,7 +325,7 @@ aDefaultPrevented
 }
 }
 void
-APZCCallbackHandler
+AndroidContentController
 :
 :
 PostDelayedTask
