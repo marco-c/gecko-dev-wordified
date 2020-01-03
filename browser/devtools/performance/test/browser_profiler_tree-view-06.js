@@ -109,6 +109,14 @@ new
 ThreadNode
 (
 gThread
+{
+startTime
+:
+0
+endTime
+:
+20
+}
 )
 ;
 /
