@@ -32074,6 +32074,8 @@ SystemAllocPolicy
 >
 DefinitionVector
 ;
+namespace
+{
 template
 <
 class
@@ -32241,8 +32243,6 @@ return
 true
 ;
 }
-namespace
-{
 class
 CheckSimdScalarArgs
 {
