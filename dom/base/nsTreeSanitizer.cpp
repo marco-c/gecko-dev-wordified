@@ -7738,13 +7738,7 @@ NodePrincipal
 (
 )
 0
-mozilla
-:
-:
-css
-:
-:
-eAuthorSheetFeatures
+false
 )
 ;
 NS_ENSURE_SUCCESS

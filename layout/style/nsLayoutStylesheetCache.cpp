@@ -212,13 +212,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-css
-;
 static
 bool
 sNumberControlEnabled
@@ -424,7 +417,7 @@ gStyleCache
 -
 >
 mScrollbarsSheet
-eAuthorSheetFeatures
+false
 )
 ;
 }
@@ -486,7 +479,7 @@ gStyleCache
 -
 >
 mFormsSheet
-eAgentSheetFeatures
+true
 )
 ;
 }
@@ -550,7 +543,7 @@ gStyleCache
 -
 >
 mNumberControlSheet
-eAgentSheetFeatures
+true
 )
 ;
 }
@@ -642,7 +635,7 @@ gStyleCache
 -
 >
 mUASheet
-eAgentSheetFeatures
+true
 )
 ;
 }
@@ -694,7 +687,7 @@ gStyleCache
 -
 >
 mHTMLSheet
-eAgentSheetFeatures
+true
 )
 ;
 }
@@ -846,7 +839,7 @@ gStyleCache
 -
 >
 mMathMLSheet
-eAgentSheetFeatures
+true
 )
 ;
 }
@@ -918,7 +911,7 @@ gStyleCache
 -
 >
 mNoScriptSheet
-eAgentSheetFeatures
+true
 )
 ;
 }
@@ -970,7 +963,7 @@ gStyleCache
 -
 >
 mNoFramesSheet
-eAgentSheetFeatures
+true
 )
 ;
 }
@@ -1127,7 +1120,7 @@ gStyleCache
 -
 >
 mContentEditableSheet
-eAgentSheetFeatures
+true
 )
 ;
 }
@@ -1184,7 +1177,7 @@ gStyleCache
 -
 >
 mDesignModeSheet
-eAgentSheetFeatures
+true
 )
 ;
 }
@@ -1596,7 +1589,7 @@ counterstyles
 css
 "
 mCounterStylesSheet
-eAgentSheetFeatures
+true
 )
 ;
 LoadSheetURL
@@ -1619,7 +1612,7 @@ override
 css
 "
 mFullScreenOverrideSheet
-eAgentSheetFeatures
+true
 )
 ;
 LoadSheetURL
@@ -1640,7 +1633,7 @@ xul
 css
 "
 mMinimalXULSheet
-eAgentSheetFeatures
+true
 )
 ;
 LoadSheetURL
@@ -1659,7 +1652,7 @@ quirk
 css
 "
 mQuirkSheet
-eAgentSheetFeatures
+true
 )
 ;
 LoadSheetURL
@@ -1678,7 +1671,7 @@ svg
 css
 "
 mSVGSheet
-eAgentSheetFeatures
+true
 )
 ;
 LoadSheetURL
@@ -1697,7 +1690,7 @@ xul
 css
 "
 mXULSheet
-eAgentSheetFeatures
+true
 )
 ;
 /
@@ -2060,14 +2053,12 @@ LoadSheetFile
 (
 contentFile
 mUserContentSheet
-eUserSheetFeatures
 )
 ;
 LoadSheetFile
 (
 chromeFile
 mUserChromeSheet
-eUserSheetFeatures
 )
 ;
 }
@@ -2092,8 +2083,8 @@ CSSStyleSheet
 >
 &
 aSheet
-SheetParsingMode
-aParsingMode
+bool
+aEnableUnsafeRules
 )
 {
 nsCOMPtr
@@ -2115,7 +2106,7 @@ LoadSheet
 (
 uri
 aSheet
-aParsingMode
+aEnableUnsafeRules
 )
 ;
 if
@@ -2160,8 +2151,6 @@ CSSStyleSheet
 >
 &
 aSheet
-SheetParsingMode
-aParsingMode
 )
 {
 bool
@@ -2204,7 +2193,7 @@ LoadSheet
 (
 uri
 aSheet
-aParsingMode
+false
 )
 ;
 }
@@ -2284,8 +2273,8 @@ CSSStyleSheet
 >
 &
 aSheet
-SheetParsingMode
-aParsingMode
+bool
+aEnableUnsafeRules
 )
 {
 if
@@ -2358,7 +2347,7 @@ gCSSLoader
 LoadSheetSync
 (
 aURI
-aParsingMode
+aEnableUnsafeRules
 true
 getter_AddRefs
 (
