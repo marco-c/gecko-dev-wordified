@@ -1733,19 +1733,9 @@ return
 }
 try
 {
-let
-setting
-=
-JSON
-.
-parse
-(
-aData
-)
-;
 if
 (
-setting
+aSubject
 .
 key
 =
@@ -1755,7 +1745,7 @@ SETTINGS_DEBUG_ENABLED
 {
 gLoggingEnabled
 =
-setting
+aSubject
 .
 value
 ;
@@ -1763,7 +1753,7 @@ value
 else
 if
 (
-setting
+aSubject
 .
 key
 =
@@ -1773,7 +1763,7 @@ SETTINGS_WIFI_ENABLED
 {
 gWifiScanningEnabled
 =
-setting
+aSubject
 .
 value
 ;
