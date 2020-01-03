@@ -302,9 +302,4 @@ disabled
 "
 )
 ;
-yield
-restore
-(
-)
-;
 }
