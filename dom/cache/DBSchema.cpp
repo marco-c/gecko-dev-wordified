@@ -6872,7 +6872,7 @@ Failed
 {
 errorResult
 .
-ClearMessage
+SuppressException
 (
 )
 ;
@@ -6910,7 +6910,7 @@ Failed
 {
 errorResult
 .
-ClearMessage
+SuppressException
 (
 )
 ;

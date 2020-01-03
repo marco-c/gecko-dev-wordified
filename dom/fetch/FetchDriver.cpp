@@ -4122,7 +4122,7 @@ get
 ;
 result
 .
-ClearMessage
+SuppressException
 (
 )
 ;
