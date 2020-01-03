@@ -1543,6 +1543,11 @@ ResetPACThread
 (
 )
 ;
+nsresult
+ReloadNetworkPAC
+(
+)
+;
 public
 :
 /
