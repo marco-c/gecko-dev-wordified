@@ -11427,7 +11427,7 @@ if
 !
 aWindow
 .
-getBrowser
+gBrowser
 )
 {
 throw
@@ -11441,7 +11441,7 @@ window
 object
 :
 no
-getBrowser
+gBrowser
 "
 Cr
 .
