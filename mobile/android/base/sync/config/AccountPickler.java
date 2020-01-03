@@ -1090,8 +1090,9 @@ put
 Constants
 .
 JSON_KEY_VERSION
-new
 Long
+.
+valueOf
 (
 VERSION
 )
@@ -1104,8 +1105,9 @@ put
 Constants
 .
 JSON_KEY_TIMESTAMP
-new
 Long
+.
+valueOf
 (
 System
 .
