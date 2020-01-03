@@ -2821,14 +2821,12 @@ smoothing
 )
 .
 let
-(
 diff
 =
 aSeconds
 -
 aLastSeconds
-)
-{
+;
 aSeconds
 =
 aLastSeconds
@@ -2847,7 +2845,6 @@ diff
 *
 diff
 ;
-}
 /
 /
 If
@@ -2875,7 +2872,6 @@ provide
 forward
 progress
 .
-let
 diff
 =
 aSeconds
