@@ -756,7 +756,7 @@ union
 struct
 hash
 {
-PLDHashTable
+PLDHashTable2
 *
 mPropertyHash
 ;
@@ -898,7 +898,8 @@ hash
 .
 mPropertyHash
 =
-PL_NewDHashTable
+new
+PLDHashTable2
 (
 PL_DHashGetStubOps
 (
@@ -1045,14 +1046,12 @@ DeletePropertyHashEntry
 nullptr
 )
 ;
-PL_DHashTableDestroy
-(
+delete
 u
 .
 hash
 .
 mPropertyHash
-)
 ;
 u
 .

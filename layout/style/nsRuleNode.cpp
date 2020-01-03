@@ -8640,7 +8640,7 @@ ChildrenAreHashed
 )
 )
 {
-PLDHashTable
+PLDHashTable2
 *
 children
 =
@@ -8667,10 +8667,8 @@ ensure
 null
 -
 termination
-PL_DHashTableDestroy
-(
+delete
 children
-)
 ;
 }
 else
@@ -9772,11 +9770,12 @@ children
 "
 )
 ;
-PLDHashTable
+PLDHashTable2
 *
 hash
 =
-PL_NewDHashTable
+new
+PLDHashTable2
 (
 &
 ChildrenHashOps
@@ -60367,7 +60366,7 @@ ChildrenAreHashed
 )
 )
 {
-PLDHashTable
+PLDHashTable2
 *
 children
 =
@@ -60412,10 +60411,8 @@ childrenDestroyed
 oldChildCount
 )
 {
-PL_DHashTableDestroy
-(
+delete
 children
-)
 ;
 mChildren
 .

@@ -8555,7 +8555,7 @@ nsIObserver
 >
 mCharSetObservers
 ;
-PLDHashTable
+PLDHashTable2
 *
 mSubDocuments
 ;
