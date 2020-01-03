@@ -11,13 +11,6 @@ tests
 *
 *
 /
-/
-*
-globals
-SpecialPowers
-ManifestProcessor
-*
-/
 '
 use
 strict
@@ -43,7 +36,7 @@ gre
 /
 modules
 /
-ManifestProcessor
+WebManifest
 .
 jsm
 '
@@ -52,7 +45,10 @@ jsm
 const
 processor
 =
+new
 ManifestProcessor
+(
+)
 ;
 const
 manifestURL
