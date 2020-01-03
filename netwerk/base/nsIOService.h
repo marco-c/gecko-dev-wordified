@@ -851,6 +851,10 @@ int32_t
 >
 mAppsOfflineStatus
 ;
+static
+bool
+sTelemetryEnabled
+;
 public
 :
 /
