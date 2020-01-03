@@ -683,6 +683,16 @@ BaselineTailCallReg
 )
 ;
 }
+MOZ_ASSERT
+(
+fun
+.
+expectTailCall
+=
+=
+NonTailCall
+)
+;
 /
 /
 Perform

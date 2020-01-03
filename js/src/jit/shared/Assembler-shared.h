@@ -188,6 +188,17 @@ h
 if
 defined
 (
+JS_CODEGEN_ARM
+)
+#
+define
+JS_USE_LINK_REGISTER
+#
+endif
+#
+if
+defined
+(
 JS_CODEGEN_X64
 )
 |

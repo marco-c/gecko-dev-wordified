@@ -14099,6 +14099,17 @@ HeapReg
 )
 ;
 }
+void
+pushReturnAddress
+(
+)
+{
+push
+(
+lr
+)
+;
+}
 }
 ;
 typedef
