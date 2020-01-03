@@ -135,6 +135,11 @@ define
 __VideoDecoder_h__
 #
 include
+<
+atomic
+>
+#
+include
 "
 gmp
 -

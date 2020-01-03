@@ -141,6 +141,11 @@ Endian
 .
 h
 "
+#
+include
+<
+cstring
+>
 using
 mozilla
 :
