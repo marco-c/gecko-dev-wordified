@@ -454,6 +454,10 @@ storage
 -
 error
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -466,6 +470,7 @@ inBrowser
 :
 false
 }
+)
 )
 function
 (

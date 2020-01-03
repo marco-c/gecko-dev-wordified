@@ -481,6 +481,13 @@ com
 /
 page
 '
+originAttributes
+:
+'
+'
+quota
+:
+Infinity
 }
 ]
 ;

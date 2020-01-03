@@ -179,16 +179,6 @@ close
 ;
 PushService
 .
-_generateID
-=
-(
-)
-=
->
-channelID
-;
-PushService
-.
 init
 (
 {

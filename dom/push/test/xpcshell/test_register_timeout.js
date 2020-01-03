@@ -502,6 +502,10 @@ page
 /
 timeout
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -514,6 +518,7 @@ inBrowser
 :
 false
 }
+)
 )
 function
 (

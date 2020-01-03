@@ -184,6 +184,9 @@ originAttributes
 version
 :
 1
+quota
+:
+Infinity
 }
 {
 channelID
@@ -236,6 +239,9 @@ originAttributes
 version
 :
 1
+quota
+:
+Infinity
 }
 ]
 ;

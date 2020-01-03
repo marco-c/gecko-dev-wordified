@@ -297,6 +297,10 @@ com
 /
 incomplete
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -309,6 +313,7 @@ inBrowser
 :
 false
 }
+)
 )
 function
 (

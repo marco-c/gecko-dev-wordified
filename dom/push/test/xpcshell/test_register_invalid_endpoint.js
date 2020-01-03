@@ -301,6 +301,10 @@ invalid
 -
 endpoint
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -313,6 +317,7 @@ inBrowser
 :
 false
 }
+)
 )
 function
 (

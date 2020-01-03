@@ -158,6 +158,10 @@ net
 /
 1
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -170,6 +174,7 @@ inBrowser
 :
 false
 }
+)
 )
 ;
 ok
