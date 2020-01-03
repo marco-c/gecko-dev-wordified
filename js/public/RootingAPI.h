@@ -8624,8 +8624,8 @@ value
 )
 ;
 }
-bool
-isAboutToBeFinalized
+void
+updateWeakPointerAfterGC
 (
 )
 ;

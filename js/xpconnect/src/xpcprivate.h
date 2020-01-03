@@ -4126,7 +4126,7 @@ data
 ;
 static
 void
-MovingGCCallback
+WeakPointerCallback
 (
 JSRuntime
 *
@@ -15969,13 +15969,12 @@ mRefCnt
 1
 ;
 }
-bool
-IsObjectAboutToBeFinalized
+void
+UpdateObjectPointerAfterGC
 (
 )
 {
-return
-JS_IsAboutToBeFinalized
+JS_UpdateWeakPointerAfterGC
 (
 &
 mJSObj

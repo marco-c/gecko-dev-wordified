@@ -167,7 +167,7 @@ init
 )
 ;
 void
-finalize
+updateWeakPointers
 (
 )
 ;
