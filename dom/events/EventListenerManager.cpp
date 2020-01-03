@@ -5823,6 +5823,7 @@ handlerCallback
 new
 OnErrorEventHandlerNonNull
 (
+nullptr
 handler
 /
 *
@@ -5871,6 +5872,7 @@ handlerCallback
 new
 OnBeforeUnloadEventHandlerNonNull
 (
+nullptr
 handler
 /
 *
@@ -5901,6 +5903,7 @@ handlerCallback
 new
 EventHandlerNonNull
 (
+nullptr
 handler
 /
 *
