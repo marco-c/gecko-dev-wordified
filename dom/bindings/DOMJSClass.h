@@ -1471,7 +1471,10 @@ to
 just
 inherit
 from
-JSClass
+js
+:
+:
+Class
 but
 that
 precludes
@@ -1514,7 +1517,10 @@ POD
 types
 .
 const
-JSClass
+js
+:
+:
+Class
 mBase
 ;
 /
@@ -1635,8 +1641,11 @@ ToJSClass
 const
 {
 return
+Jsvalify
+(
 &
 mBase
+)
 ;
 }
 }

@@ -3645,7 +3645,10 @@ JSObject
 >
 protoProto
 const
-JSClass
+js
+:
+:
+Class
 *
 protoClass
 JS
@@ -3668,7 +3671,10 @@ JSObject
 >
 interfaceProto
 const
-JSClass
+js
+:
+:
+Class
 *
 constructorClass
 const
