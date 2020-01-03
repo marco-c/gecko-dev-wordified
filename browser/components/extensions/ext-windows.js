@@ -402,7 +402,7 @@ getAll
 :
 function
 (
-getAll
+getInfo
 callback
 )
 {
@@ -948,6 +948,11 @@ properties
 .
 .
 .
+if
+(
+callback
+)
+{
 runSafe
 (
 context
@@ -961,6 +966,7 @@ window
 )
 )
 ;
+}
 }
 remove
 :
