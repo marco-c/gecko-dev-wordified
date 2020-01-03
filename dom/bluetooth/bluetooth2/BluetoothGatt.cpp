@@ -1281,7 +1281,7 @@ BluetoothConnectionState
 aState
 )
 {
-BT_API2_LOGR
+BT_LOGR
 (
 "
 GATT
