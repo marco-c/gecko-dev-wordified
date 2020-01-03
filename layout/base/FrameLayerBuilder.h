@@ -2905,6 +2905,11 @@ mIsInvalid
 true
 ;
 }
+void
+ClearAnimationCompositorState
+(
+)
+;
 private
 :
 DisplayItemData
