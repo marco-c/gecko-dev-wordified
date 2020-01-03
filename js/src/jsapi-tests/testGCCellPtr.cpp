@@ -541,6 +541,10 @@ gc
 GetGCThingRuntime
 (
 scriptcell
+.
+asCell
+(
+)
 )
 =
 =
