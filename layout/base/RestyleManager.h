@@ -2219,9 +2219,6 @@ PostRestyleEventCommon
 aElement
 aRestyleHint
 aMinChangeHint
-mPresContext
--
->
 IsProcessingAnimationStyleChange
 (
 )
@@ -2642,6 +2639,11 @@ RestyleLoggingEnabled
 (
 !
 aPresContext
+-
+>
+RestyleManager
+(
+)
 -
 >
 IsProcessingAnimationStyleChange
