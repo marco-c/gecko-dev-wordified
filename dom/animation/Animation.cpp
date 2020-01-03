@@ -2001,7 +2001,7 @@ not
 override
 it
 .
-return
+continue
 ;
 }
 aSetProperties
