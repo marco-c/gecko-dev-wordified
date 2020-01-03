@@ -4916,6 +4916,9 @@ next
 nsBidiLevel
 mCaretBidiLevel
 ;
+nsBidiLevel
+mKbdBidiLevel
+;
 nsPoint
 mDesiredPos
 ;
