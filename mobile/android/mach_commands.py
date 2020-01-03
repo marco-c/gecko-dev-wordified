@@ -1193,7 +1193,7 @@ app
 /
 src
 /
-main
+debug
 /
 assets
 '
@@ -1213,7 +1213,7 @@ app
 /
 src
 /
-main
+debug
 /
 jniLibs
 '
