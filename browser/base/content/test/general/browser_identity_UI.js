@@ -20,6 +20,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 ok
 (
 gIdentityHandler
