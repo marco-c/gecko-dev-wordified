@@ -3501,6 +3501,14 @@ if
 statementsNeedTransaction
 (
 )
+&
+&
+mConnection
+-
+>
+getAutocommit
+(
+)
 )
 {
 if
