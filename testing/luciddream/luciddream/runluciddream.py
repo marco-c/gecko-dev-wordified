@@ -524,6 +524,53 @@ parser
 add_argument
 (
 '
+-
+-
+startup
+-
+timeout
+'
+dest
+=
+'
+startup_timeout
+'
+action
+=
+'
+store
+'
+                        
+default
+=
+60
+type
+=
+int
+                        
+help
+=
+'
+max
+time
+to
+wait
+for
+Marionette
+to
+be
+available
+after
+launching
+binary
+'
+)
+    
+parser
+.
+add_argument
+(
+'
 manifest
 '
 metavar
@@ -658,6 +705,7 @@ start_browser
 (
 browser_path
 app_args
+startup_timeout
 )
 :
     
@@ -731,6 +779,10 @@ firefox
 .
 log
 "
+        
+startup_timeout
+=
+startup_timeout
     
 )
     
@@ -821,6 +873,7 @@ None
 emulator_path
 =
 None
+        
 emulator_arch
 =
 None
@@ -833,6 +886,7 @@ None
 browser_args
 =
 None
+        
 *
 *
 kwargs
@@ -935,6 +989,12 @@ start_browser
 (
 browser_path
 browser_args
+kwargs
+[
+'
+startup_timeout
+'
+]
 )
     
 kwargs

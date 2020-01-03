@@ -4171,6 +4171,9 @@ None
 prefs
 =
 None
+startup_timeout
+=
+60
 )
 :
         
@@ -4566,6 +4569,9 @@ self
 .
 wait_for_port
 (
+timeout
+=
+startup_timeout
 )
 )
 "
