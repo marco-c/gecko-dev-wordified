@@ -1335,6 +1335,11 @@ fonts
 .
 xul
 "
+"
+resizable
+=
+no
+"
 )
 ;
 }
@@ -1387,6 +1392,11 @@ preferences
 colors
 .
 xul
+"
+"
+resizable
+=
+no
 "
 )
 ;

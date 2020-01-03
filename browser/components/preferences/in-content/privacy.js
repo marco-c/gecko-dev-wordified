@@ -3310,6 +3310,11 @@ sanitize
 .
 xul
 "
+"
+resizable
+=
+no
+"
 )
 ;
 }
