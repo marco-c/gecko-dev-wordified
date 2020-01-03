@@ -3232,9 +3232,6 @@ WritingMode
 mWritingMode
 ;
 bool
-mZeroEffectiveSpanBox
-;
-bool
 mContainsFloat
 ;
 bool
