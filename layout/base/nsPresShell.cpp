@@ -31626,6 +31626,12 @@ visible
 aArea
 )
 ;
+nsRefPtr
+<
+LayerManager
+>
+layerManager
+=
 rangeInfo
 -
 >

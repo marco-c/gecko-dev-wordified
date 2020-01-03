@@ -8874,7 +8874,10 @@ PaintedLayers
 .
 *
 /
-void
+already_AddRefed
+<
+LayerManager
+>
 nsDisplayList
 :
 :
@@ -9065,6 +9068,7 @@ into
 )
 ;
 return
+nullptr
 ;
 }
 layerManager
@@ -9385,6 +9389,7 @@ oldBuilder
 )
 ;
 return
+nullptr
 ;
 }
 /
@@ -10021,6 +10026,13 @@ SetUserData
 &
 gLayerManagerLayerBuilder
 oldBuilder
+)
+;
+return
+layerManager
+.
+forget
+(
 )
 ;
 }
