@@ -5040,9 +5040,7 @@ if
 aEvent
 -
 >
-mFlags
-.
-mIsBeingDispatched
+target
 )
 {
 return
