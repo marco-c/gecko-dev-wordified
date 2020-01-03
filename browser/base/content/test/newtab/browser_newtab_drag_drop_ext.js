@@ -142,6 +142,11 @@ PREF_NEWTAB_COLUMNS
 )
 )
 ;
+yield
+addNewTabPageTab
+(
+)
+;
 /
 /
 drag

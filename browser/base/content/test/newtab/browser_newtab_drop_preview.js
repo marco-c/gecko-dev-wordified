@@ -53,6 +53,11 @@ runTests
 (
 )
 {
+yield
+addNewTabPageTab
+(
+)
+;
 /
 /
 the
