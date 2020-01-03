@@ -477,8 +477,6 @@ Update
 (
 )
 {
-return
-;
 if
 (
 !
