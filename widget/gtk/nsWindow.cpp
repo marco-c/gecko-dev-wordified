@@ -17221,7 +17221,7 @@ status
 else
 {
 WidgetCompositionEvent
-textEvent
+compositionChangeEvent
 (
 true
 NS_COMPOSITION_CHANGE
@@ -17265,13 +17265,13 @@ textString
 =
 0
 ;
-textEvent
+compositionChangeEvent
 .
 mData
 =
 textString
 ;
-textEvent
+compositionChangeEvent
 .
 time
 =
@@ -17282,7 +17282,7 @@ time
 DispatchEvent
 (
 &
-textEvent
+compositionChangeEvent
 status
 )
 ;

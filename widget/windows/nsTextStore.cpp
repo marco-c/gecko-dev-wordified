@@ -10150,7 +10150,7 @@ this
 )
 ;
 WidgetCompositionEvent
-textEvent
+compositionChange
 (
 true
 NS_COMPOSITION_CHANGE
@@ -10162,10 +10162,10 @@ mWidget
 >
 InitEvent
 (
-textEvent
+compositionChange
 )
 ;
-textEvent
+compositionChange
 .
 mData
 =
@@ -10198,7 +10198,7 @@ wholeRange
 .
 mEndOffset
 =
-textEvent
+compositionChange
 .
 mData
 .
@@ -10223,7 +10223,7 @@ wholeRange
 )
 ;
 }
-textEvent
+compositionChange
 .
 mRanges
 =
@@ -10237,7 +10237,7 @@ mWidget
 DispatchWindowEvent
 (
 &
-textEvent
+compositionChange
 )
 ;
 /
@@ -10364,7 +10364,7 @@ this
 )
 ;
 WidgetCompositionEvent
-textEvent
+compositionChange
 (
 true
 NS_COMPOSITION_CHANGE
@@ -10376,10 +10376,10 @@ mWidget
 >
 InitEvent
 (
-textEvent
+compositionChange
 )
 ;
-textEvent
+compositionChange
 .
 mData
 =
@@ -10393,7 +10393,7 @@ mWidget
 DispatchWindowEvent
 (
 &
-textEvent
+compositionChange
 )
 ;
 if
@@ -10455,7 +10455,7 @@ compositionEnd
 .
 mData
 =
-textEvent
+compositionChange
 .
 mData
 ;

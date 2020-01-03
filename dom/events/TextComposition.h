@@ -887,7 +887,7 @@ aComposition
 const
 WidgetCompositionEvent
 *
-aTextEvent
+aCompositionChangeEvent
 )
 :
 mComposition
@@ -900,7 +900,7 @@ mComposition
 >
 EditorWillHandleTextEvent
 (
-aTextEvent
+aCompositionChangeEvent
 )
 ;
 }
@@ -1500,7 +1500,7 @@ EditorWillHandleTextEvent
 const
 WidgetCompositionEvent
 *
-aTextEvent
+aCompositionChangeEvent
 )
 ;
 /

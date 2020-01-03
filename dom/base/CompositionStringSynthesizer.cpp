@@ -737,14 +737,14 @@ mCaret
 ;
 }
 WidgetCompositionEvent
-textEvent
+compChangeEvent
 (
 true
 NS_COMPOSITION_CHANGE
 widget
 )
 ;
-textEvent
+compChangeEvent
 .
 time
 =
@@ -752,7 +752,7 @@ PR_IntervalNow
 (
 )
 ;
-textEvent
+compChangeEvent
 .
 mData
 =
@@ -769,7 +769,7 @@ IsEmpty
 )
 )
 {
-textEvent
+compChangeEvent
 .
 mRanges
 =
@@ -789,7 +789,7 @@ this
 on
 b2g
 ?
-textEvent
+compChangeEvent
 .
 mFlags
 .
@@ -811,7 +811,7 @@ widget
 DispatchEvent
 (
 &
-textEvent
+compChangeEvent
 status
 )
 ;
