@@ -10443,6 +10443,8 @@ hopefully
 .
 bool
 haveEvent
+=
+false
 ;
 #
 ifdef
@@ -10545,12 +10547,6 @@ ev
 ;
 }
 }
-#
-else
-haveEvent
-=
-false
-;
 #
 endif
 return

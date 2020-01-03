@@ -3770,6 +3770,7 @@ ClipExporter
 {
 public
 :
+explicit
 SystemCairoClipper
 (
 cairo_t
