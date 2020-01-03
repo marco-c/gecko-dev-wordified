@@ -5472,6 +5472,12 @@ ContinueLifecycleTask
 >
 mTask
 ;
+nsMainThreadPtrHandle
+<
+ServiceWorker
+>
+mServiceWorker
+;
 bool
 mActivateImmediately
 ;
@@ -5493,6 +5499,13 @@ ContinueLifecycleTask
 >
 &
 aTask
+const
+nsMainThreadPtrHandle
+<
+ServiceWorker
+>
+&
+aServiceWorker
 bool
 aActivateImmediately
 )
@@ -5500,6 +5513,10 @@ aActivateImmediately
 mTask
 (
 aTask
+)
+mServiceWorker
+(
+aServiceWorker
 )
 mActivateImmediately
 (
@@ -5980,6 +5997,7 @@ new
 LifecycleEventPromiseHandler
 (
 mTask
+mServiceWorker
 false
 /
 *
