@@ -20467,6 +20467,7 @@ if
 (
 mWidgetListener
 )
+{
 mWidgetListener
 -
 >
@@ -20475,6 +20476,15 @@ SizeModeChanged
 mSizeMode
 )
 ;
+mWidgetListener
+-
+>
+FullscreenChanged
+(
+aFullScreen
+)
+;
+}
 return
 rv
 ;
