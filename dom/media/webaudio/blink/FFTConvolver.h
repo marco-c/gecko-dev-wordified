@@ -313,11 +313,11 @@ namespace
 WebCore
 {
 typedef
-nsTArray
+AlignedTArray
 <
 float
 >
-AudioFloatArray
+AlignedAudioFloatArray
 ;
 using
 mozilla
@@ -515,7 +515,7 @@ FFT
 size_t
 m_readWriteIndex
 ;
-AudioFloatArray
+AlignedAudioFloatArray
 m_inputBuffer
 ;
 /
@@ -530,7 +530,7 @@ little
 at
 a
 time
-AudioFloatArray
+AlignedAudioFloatArray
 m_outputBuffer
 ;
 /
@@ -559,7 +559,7 @@ of
 the
 next
 one
-AudioFloatArray
+AlignedAudioFloatArray
 m_lastOverlapBuffer
 ;
 }

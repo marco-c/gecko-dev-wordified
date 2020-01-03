@@ -278,6 +278,13 @@ AudioChunk
 namespace
 WebCore
 {
+typedef
+nsTArray
+<
+float
+>
+AudioFloatArray
+;
 class
 HRTFDatabaseLoader
 ;
