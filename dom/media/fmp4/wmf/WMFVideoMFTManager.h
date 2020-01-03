@@ -350,16 +350,6 @@ DXVA2Manager
 >
 mDXVA2Manager
 ;
-RefPtr
-<
-FlushableMediaTaskQueue
->
-mTaskQueue
-;
-MediaDataDecoderCallback
-*
-mCallback
-;
 const
 bool
 mDXVAEnabled
