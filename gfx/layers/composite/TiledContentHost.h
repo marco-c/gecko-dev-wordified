@@ -1674,6 +1674,13 @@ gfx
 IntSize
 &
 aTextureBounds
+const
+gfx
+:
+:
+Rect
+&
+aVisibleRect
 )
 ;
 void
