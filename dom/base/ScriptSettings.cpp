@@ -2967,15 +2967,9 @@ win
 xpc
 :
 :
-WindowGlobalOrNull
-(
-JS
-:
-:
-CurrentGlobalOrNull
+CurrentWindowOrNull
 (
 aCx
-)
 )
 ;
 xpcReport
