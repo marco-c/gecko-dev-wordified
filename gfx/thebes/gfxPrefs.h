@@ -2657,7 +2657,7 @@ enabled
 "
 ImageDownscaleDuringDecodeEnabled
 bool
-true
+false
 )
 ;
 DECL_GFX_PREF
