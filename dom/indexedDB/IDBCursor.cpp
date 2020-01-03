@@ -2332,6 +2332,9 @@ ContinueParams
 (
 key
 )
+Key
+(
+)
 )
 ;
 mContinueCalled
@@ -2697,6 +2700,9 @@ SendContinueInternal
 AdvanceParams
 (
 aCount
+)
+Key
+(
 )
 )
 ;

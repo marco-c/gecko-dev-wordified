@@ -2147,6 +2147,10 @@ const
 CursorRequestParams
 &
 aParams
+const
+Key
+&
+aKey
 )
 ;
 void
@@ -2331,6 +2335,10 @@ const
 CursorRequestParams
 &
 aParams
+const
+Key
+&
+aKey
 )
 =
 delete
