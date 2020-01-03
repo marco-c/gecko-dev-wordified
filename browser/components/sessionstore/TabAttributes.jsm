@@ -404,19 +404,6 @@ in
 data
 )
 {
-if
-(
-!
-this
-.
-_skipAttrs
-.
-has
-(
-name
-)
-)
-{
 tab
 .
 setAttribute
@@ -428,7 +415,6 @@ name
 ]
 )
 ;
-}
 }
 }
 }
