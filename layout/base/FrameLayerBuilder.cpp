@@ -14801,6 +14801,9 @@ IsEmpty
 )
 |
 |
+mAllDrawingAboveBackground
+|
+|
 !
 mVisibleAboveBackgroundRegion
 .
