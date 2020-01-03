@@ -768,6 +768,12 @@ AudioChannelService
 (
 )
 ;
+static
+void
+CreateServiceIfNeeded
+(
+)
+;
 /
 *
 *
