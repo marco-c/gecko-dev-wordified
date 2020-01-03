@@ -3289,6 +3289,13 @@ emergency
 )
 +
 aNumber
++
+"
+clientId
+:
+"
++
+aClientId
 )
 ;
 /
@@ -4295,6 +4302,7 @@ this
 .
 _isEmergencyOnly
 (
+aClientId
 )
 )
 {
