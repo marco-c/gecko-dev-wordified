@@ -46901,7 +46901,8 @@ width
 kDefaultCSSViewportWidth
 height
 :
-kDefaultCSSViewportHeight
+-
+1
 allowZoom
 :
 true
