@@ -2962,9 +2962,9 @@ mRWBufSize
 {
 invalidLength
 =
-invalidOffset
--
 mRWBufSize
+-
+invalidOffset
 ;
 memcpy
 (
