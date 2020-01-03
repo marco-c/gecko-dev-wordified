@@ -156,7 +156,7 @@ android
 .
 widget
 .
-LinearLayout
+FrameLayout
 ;
 import
 android
@@ -187,7 +187,7 @@ PopupWindow
 {
 private
 final
-LinearLayout
+FrameLayout
 mPanel
 ;
 private
@@ -327,7 +327,7 @@ context
 mPanel
 =
 (
-LinearLayout
+FrameLayout
 )
 inflater
 .
@@ -399,12 +399,12 @@ view
 setLayoutParams
 (
 new
-LinearLayout
+FrameLayout
 .
 LayoutParams
 (
 mPopupWidth
-LinearLayout
+FrameLayout
 .
 LayoutParams
 .
