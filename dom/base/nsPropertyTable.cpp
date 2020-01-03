@@ -640,7 +640,7 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 prop
@@ -653,10 +653,7 @@ aObject
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 rv
@@ -786,7 +783,7 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 prop
@@ -799,10 +796,7 @@ aObject
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 aCallback
@@ -1050,7 +1044,7 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 propertyList
@@ -1063,10 +1057,7 @@ aObject
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 propValue
@@ -1881,7 +1872,7 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 mObjectValueMap
@@ -1892,10 +1883,7 @@ aObject
 if
 (
 !
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 return
 false

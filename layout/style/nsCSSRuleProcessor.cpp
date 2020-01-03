@@ -4020,7 +4020,7 @@ RuleHashTableEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 mNameSpaceTable
@@ -4033,10 +4033,7 @@ nameSpace
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 mEnumList
@@ -4084,7 +4081,7 @@ RuleHashTableEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 mTagTable
@@ -4094,10 +4091,7 @@ tag
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 mEnumList
@@ -4148,7 +4142,7 @@ RuleHashTableEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 mIdTable
@@ -4158,10 +4152,7 @@ id
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 mEnumList
@@ -4225,7 +4216,7 @@ RuleHashTableEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 mClassTable
@@ -4241,10 +4232,7 @@ index
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 mEnumList
@@ -15332,7 +15320,7 @@ RuleHashTagTableEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 cascade
@@ -15348,10 +15336,7 @@ mPseudoTag
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 nsTArray
@@ -15482,7 +15467,7 @@ RuleHashTagTableEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 cascade
@@ -15498,10 +15483,7 @@ mPseudoTag
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 NodeMatchContext
@@ -17167,7 +17149,7 @@ AtomSelectorEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 cascade
@@ -17180,10 +17162,7 @@ id
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 EnumerateSelectors
@@ -17291,7 +17270,7 @@ AtomSelectorEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 cascade
@@ -17304,10 +17283,7 @@ curClass
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 EnumerateSelectors
@@ -17344,7 +17320,7 @@ AtomSelectorEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 cascade
@@ -17360,10 +17336,7 @@ mAttribute
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 EnumerateSelectors

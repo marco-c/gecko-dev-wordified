@@ -368,7 +368,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 mMap
@@ -377,10 +377,8 @@ aElement
 ;
 if
 (
-PL_DHASH_ENTRY_IS_FREE
-(
+!
 hdr
-)
 )
 return
 false

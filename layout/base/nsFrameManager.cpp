@@ -1126,7 +1126,7 @@ PlaceholderMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 const_cast
 <
@@ -1143,10 +1143,7 @@ aFrame
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 return

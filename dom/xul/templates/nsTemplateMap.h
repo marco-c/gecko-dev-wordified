@@ -202,14 +202,12 @@ aTemplate
 {
 NS_ASSERTION
 (
-PL_DHASH_ENTRY_IS_FREE
-(
-PL_DHashTableLookup
+!
+PL_DHashTableSearch
 (
 &
 mTable
 aContent
-)
 )
 "
 aContent
@@ -327,7 +325,7 @@ Entry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 mTable
@@ -337,10 +335,7 @@ aContent
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 NS_IF_ADDREF
 (
