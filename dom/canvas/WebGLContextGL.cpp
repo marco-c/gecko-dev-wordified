@@ -7454,13 +7454,11 @@ LOCAL_GL_ALWAYS
 case
 LOCAL_GL_NEVER
 :
-paramValueInvalid
-=
-false
+break
 ;
 default
 :
-paramValueInvalid
+pnameAndParamAreIncompatible
 =
 true
 ;
