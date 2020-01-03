@@ -977,6 +977,17 @@ Registration
 (
 )
 ;
+already_AddRefed
+<
+Promise
+>
+SkipWaiting
+(
+ErrorResult
+&
+aRv
+)
+;
 IMPL_EVENT_HANDLER
 (
 activate
