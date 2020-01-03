@@ -484,6 +484,12 @@ TextSelectionHandle_handleType
 0x01
 )
 ;
+a
+.
+recycle
+(
+)
+;
 if
 (
 handleType
