@@ -9144,9 +9144,6 @@ LinkedProgramInfo
 >
 mActiveProgramLinkInfo
 ;
-uint32_t
-mMaxFramebufferColorAttachments
-;
 GLenum
 LastColorAttachment
 (
@@ -9156,7 +9153,7 @@ const
 return
 LOCAL_GL_COLOR_ATTACHMENT0
 +
-mMaxFramebufferColorAttachments
+mGLMaxColorAttachments
 -
 1
 ;
