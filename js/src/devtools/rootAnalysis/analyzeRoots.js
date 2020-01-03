@@ -59,12 +59,14 @@ var
 sourceRoot
 =
 (
-environment
-[
+os
+.
+getenv
+(
 '
 SOURCE
 '
-]
+)
 |
 |
 '
