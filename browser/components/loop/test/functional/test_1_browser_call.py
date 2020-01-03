@@ -971,28 +971,17 @@ self
 )
 :
         
-#
-TODO
-:
-This
-is
-disabled
-currently
-due
-to
-bug
-1122486
-        
-#
 video_wrapper
 =
 self
 .
 wait_for_element_displayed
 (
+            
 By
 .
 CSS_SELECTOR
+            
 "
 .
 media
@@ -1006,13 +995,13 @@ container
 20
 )
         
-#
 video
 =
 self
 .
 wait_for_subelement_displayed
 (
+            
 video_wrapper
 By
 .
@@ -1022,7 +1011,6 @@ video
 "
 )
         
-#
 self
 .
 wait_for_element_attribute_to_be_false
@@ -1033,7 +1021,6 @@ paused
 "
 )
         
-#
 self
 .
 assertEqual
@@ -1049,25 +1036,6 @@ ended
 "
 false
 "
-)
-        
-#
-Due
-to
-the
-above
-waits
-being
-disabled
-we
-do
-a
-sleep
-.
-        
-sleep
-(
-15
 )
     
 def
