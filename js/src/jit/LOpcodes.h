@@ -1298,6 +1298,11 @@ AtomicTypedArrayElementBinop
 \
 _
 (
+AtomicTypedArrayElementBinopForEffect
+)
+\
+_
+(
 EffectiveAddress
 )
 \
@@ -1734,6 +1739,11 @@ AsmJSCompareExchangeHeap
 _
 (
 AsmJSAtomicBinopHeap
+)
+\
+_
+(
+AsmJSAtomicBinopHeapForEffect
 )
 \
 _
