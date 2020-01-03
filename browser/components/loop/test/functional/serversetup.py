@@ -159,13 +159,10 @@ CONTENT_SERVER_PORT
 )
                            
 "
-LOOP_SERVER_PORT
+LOOP_SERVER_URL
 "
 :
-str
-(
-LOOP_SERVER_PORT
-)
+LOOP_SERVER_URL
 }
 )
 ROOMS_WEB_APP_URL
@@ -258,15 +255,7 @@ LOOP_SERVER_PORT
 SERVER_ADDRESS
 "
 :
-"
-localhost
-:
-"
-+
-str
-(
-LOOP_SERVER_PORT
-)
+LOOP_SERVER_URL
                         
 "
 ROOMS_WEB_APP_URL
