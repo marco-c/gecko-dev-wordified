@@ -125,6 +125,8 @@ StateWatching_h_
 #
 include
 "
+mozilla
+/
 AbstractThread
 .
 h
@@ -132,6 +134,8 @@ h
 #
 include
 "
+mozilla
+/
 TaskDispatcher
 .
 h
