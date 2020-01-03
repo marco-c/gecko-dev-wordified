@@ -228,7 +228,7 @@ using
 mozilla
 :
 :
-CSSAnimationPlayer
+CSSAnimation
 ;
 mozilla
 :
@@ -238,7 +238,7 @@ dom
 :
 Promise
 *
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 GetReady
@@ -263,7 +263,7 @@ aRv
 ;
 }
 void
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 Play
@@ -286,7 +286,7 @@ aLimitBehavior
 ;
 }
 void
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 Pause
@@ -312,7 +312,7 @@ dom
 :
 :
 AnimationPlayState
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 PlayStateFromJS
@@ -363,7 +363,7 @@ PlayStateFromJS
 ;
 }
 void
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 PlayFromJS
@@ -407,7 +407,7 @@ PlayFromJS
 ;
 }
 void
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 PlayFromStyle
@@ -438,7 +438,7 @@ Continue
 }
 }
 void
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 PauseFromStyle
@@ -473,7 +473,7 @@ DoPause
 ;
 }
 void
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 QueueEvents
@@ -1045,7 +1045,7 @@ ei
 }
 CommonAnimationManager
 *
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 GetAnimationManager
@@ -1086,7 +1086,7 @@ static
 *
 /
 nsString
-CSSAnimationPlayer
+CSSAnimation
 :
 :
 PseudoTypeAsString
@@ -1212,7 +1212,7 @@ animIdx
 ;
 )
 {
-CSSAnimationPlayer
+CSSAnimation
 *
 anim
 =
@@ -1225,7 +1225,7 @@ animIdx
 ]
 -
 >
-AsCSSAnimationPlayer
+AsCSSAnimation
 (
 )
 ;
@@ -1286,7 +1286,7 @@ animIdx
 ;
 )
 {
-CSSAnimationPlayer
+CSSAnimation
 *
 anim
 =
@@ -1299,7 +1299,7 @@ animIdx
 ]
 -
 >
-AsCSSAnimationPlayer
+AsCSSAnimation
 (
 )
 ;
@@ -2050,7 +2050,7 @@ animations
 .
 nsRefPtr
 <
-CSSAnimationPlayer
+CSSAnimation
 >
 oldAnim
 ;
@@ -2076,7 +2076,7 @@ oldIdx
 0
 )
 {
-CSSAnimationPlayer
+CSSAnimation
 *
 a
 =
@@ -2089,7 +2089,7 @@ oldIdx
 ]
 -
 >
-AsCSSAnimationPlayer
+AsCSSAnimation
 (
 )
 ;
@@ -2098,7 +2098,7 @@ MOZ_ASSERT
 a
 "
 All
-players
+animations
 in
 the
 CSS
@@ -2108,7 +2108,7 @@ should
 "
 "
 be
-CSSAnimationPlayer
+CSSAnimation
 objects
 "
 )
@@ -2313,7 +2313,7 @@ state
 .
 /
 /
-CSSAnimationPlayer
+CSSAnimation
 takes
 care
 of
@@ -2364,7 +2364,7 @@ requires
 /
 downcasting
 to
-CSSAnimationPlayer
+CSSAnimation
 and
 we
 happen
@@ -3365,12 +3365,12 @@ continue
 }
 nsRefPtr
 <
-CSSAnimationPlayer
+CSSAnimation
 >
 dest
 =
 new
-CSSAnimationPlayer
+CSSAnimation
 (
 aTimeline
 )
@@ -5296,7 +5296,7 @@ animIdx
 ;
 )
 {
-CSSAnimationPlayer
+CSSAnimation
 *
 anim
 =
@@ -5309,7 +5309,7 @@ animIdx
 ]
 -
 >
-AsCSSAnimationPlayer
+AsCSSAnimation
 (
 )
 ;

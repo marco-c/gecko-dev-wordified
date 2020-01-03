@@ -338,7 +338,7 @@ AnimationEventInfo
 EventArray
 ;
 class
-CSSAnimationPlayer
+CSSAnimation
 final
 :
 public
@@ -350,7 +350,7 @@ Animation
 public
 :
 explicit
-CSSAnimationPlayer
+CSSAnimation
 (
 dom
 :
@@ -382,9 +382,9 @@ PREVIOUS_PHASE_BEFORE
 {
 }
 virtual
-CSSAnimationPlayer
+CSSAnimation
 *
-AsCSSAnimationPlayer
+AsCSSAnimation
 (
 )
 override
@@ -539,7 +539,7 @@ protected
 :
 virtual
 ~
-CSSAnimationPlayer
+CSSAnimation
 (
 )
 {
