@@ -3495,7 +3495,6 @@ aContext
 {
 if
 (
-!
 mClearOnBind
 )
 {
