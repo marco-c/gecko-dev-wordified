@@ -251,6 +251,10 @@ accessibility
 .
 "
 "
+apz
+.
+"
+"
 browser
 .
 cache
