@@ -3135,7 +3135,7 @@ aChan
 )
 mNewTransaction
 (
-0
+INT32_MAX
 )
 mOldTransaction
 (
