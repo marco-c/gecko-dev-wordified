@@ -1162,7 +1162,7 @@ invalid_freg
 }
 ;
 typedef
-uint32_t
+FPRegisterID
 Code
 ;
 typedef
@@ -1190,7 +1190,7 @@ char
 *
 GetName
 (
-Encoding
+Code
 code
 )
 {
@@ -1311,7 +1311,7 @@ code
 }
 static
 const
-Encoding
+Code
 Invalid
 =
 invalid_freg
