@@ -1043,6 +1043,9 @@ mDomain
 nsString
 mServiceWorkerCacheName
 ;
+nsCString
+mSecurityInfo
+;
 uint64_t
 mWindowID
 ;
