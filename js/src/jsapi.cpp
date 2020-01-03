@@ -33596,12 +33596,15 @@ this
 }
 #
 ifdef
-DEBUG
+JS_DEBUG
 JS_PUBLIC_API
 (
 void
 )
 JS
+:
+:
+detail
 :
 :
 AssertArgumentsAreSane
@@ -33634,7 +33637,7 @@ value
 endif
 /
 *
-DEBUG
+JS_DEBUG
 *
 /
 JS_PUBLIC_API

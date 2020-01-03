@@ -24431,6 +24431,9 @@ ToObjectSlow
 JSContext
 *
 cx
+JS
+:
+:
 HandleValue
 val
 bool
