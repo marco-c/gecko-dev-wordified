@@ -179,6 +179,10 @@ hard
 -
 fail
 "
+"
+-
+z
+"
                         
 urlparse
 .
@@ -823,6 +827,10 @@ cpu
 hard
 -
 fail
+"
+"
+-
+z
 "
 "
 -
