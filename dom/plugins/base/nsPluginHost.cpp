@@ -20735,9 +20735,6 @@ rv
 ;
 }
 }
-return
-rv
-;
 }
 nsresult
 nsPluginHost
