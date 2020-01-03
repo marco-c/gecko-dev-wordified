@@ -1280,7 +1280,7 @@ mDevPixelsPerCSSPixel
 scale
 m
 .
-mResolution
+mPresShellResolution
 .
 scale
 m

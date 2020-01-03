@@ -5186,7 +5186,7 @@ LayoutDeviceToLayerScale
 ;
 metrics
 .
-mResolution
+mPresShellResolution
 =
 ParentLayerToLayerScale
 (
