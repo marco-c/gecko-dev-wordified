@@ -1098,15 +1098,6 @@ if
 mHavePendingTouchMoves
 )
 {
-MOZ_ASSERT
-(
-mTouchMoveEvents
-.
-empty
-(
-)
-)
-;
 return
 ;
 }
