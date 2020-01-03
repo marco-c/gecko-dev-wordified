@@ -352,6 +352,7 @@ fromCharCode
 apply
 (
 null
+new
 Uint8Array
 (
 xhr

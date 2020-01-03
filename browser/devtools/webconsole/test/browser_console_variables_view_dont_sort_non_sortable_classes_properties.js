@@ -397,6 +397,7 @@ execute
 let
 buf
 =
+new
 ArrayBuffer
 (
 80
@@ -463,6 +464,10 @@ typedArrayTypes
 yield
 testNotSorted
 (
+"
+new
+"
++
 type
 +
 "

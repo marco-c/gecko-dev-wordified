@@ -273,6 +273,7 @@ msg
 var
 buffer
 =
+new
 ArrayBuffer
 (
 HelloArray
@@ -677,6 +678,7 @@ for
 (
 b
 of
+new
 Uint8Array
 (
 buffer
