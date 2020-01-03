@@ -285,13 +285,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-nsDOMBlobBuilder
-.
-h
-"
 /
 /
 General
