@@ -141,6 +141,8 @@ org
 effectiveHost
 :
 "
+test1
+.
 example
 .
 org
@@ -229,6 +231,11 @@ idnDomain
 "
 effectiveHost
 :
+"
+sub1
+.
+"
++
 idnDomain
 }
 {
@@ -260,6 +267,10 @@ org
 effectiveHost
 :
 "
+sub1
+.
+test1
+.
 example
 .
 org
@@ -289,6 +300,8 @@ com
 effectiveHost
 :
 "
+test1
+.
 example
 .
 com
