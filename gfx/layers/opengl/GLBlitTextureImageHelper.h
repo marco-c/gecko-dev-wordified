@@ -158,6 +158,13 @@ GLContext
 class
 TextureImage
 ;
+}
+namespace
+layers
+{
+class
+CompositorOGL
+;
 class
 GLBlitTextureImageHelper
 MOZ_FINAL
@@ -174,9 +181,9 @@ of
 the
 GLBlitTextureImageHelper
 .
-GLContext
+CompositorOGL
 *
-mGL
+mCompositor
 ;
 /
 /
@@ -205,7 +212,7 @@ public
 explicit
 GLBlitTextureImageHelper
 (
-GLContext
+CompositorOGL
 *
 gl
 )
@@ -414,6 +421,9 @@ binding
 void
 BlitTextureImage
 (
+gl
+:
+:
 TextureImage
 *
 aSrc
@@ -421,6 +431,9 @@ const
 nsIntRect
 &
 aSrcRect
+gl
+:
+:
 TextureImage
 *
 aDst
