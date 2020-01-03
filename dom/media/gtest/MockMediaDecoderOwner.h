@@ -81,14 +81,6 @@ MediaDecoderOwner
 public
 :
 virtual
-void
-DownloadStalled
-(
-)
-MOZ_OVERRIDE
-{
-}
-virtual
 nsresult
 DispatchEvent
 (
