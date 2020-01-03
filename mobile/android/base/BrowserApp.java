@@ -16444,7 +16444,7 @@ registerOnFinishListener
 new
 FirstrunPane
 .
-PagerNavigation
+OnFinishListener
 (
 )
 {
