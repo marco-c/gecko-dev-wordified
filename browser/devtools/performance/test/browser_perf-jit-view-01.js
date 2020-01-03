@@ -94,7 +94,7 @@ let
 {
 OverviewView
 DetailsView
-JITOptimizationsView
+OptimizationsListView
 JsCallTreeView
 RecordingsView
 }
@@ -341,7 +341,7 @@ reset
 =
 once
 (
-JITOptimizationsView
+OptimizationsListView
 EVENTS
 .
 OPTIMIZATIONS_RESET
@@ -536,6 +536,15 @@ expectedOpts
 ]
 )
 {
+info
+(
+Checking
+frame
+{
+frameIndex
+}
+)
+;
 /
 /
 Click
@@ -546,7 +555,7 @@ rendered
 =
 once
 (
-JITOptimizationsView
+OptimizationsListView
 EVENTS
 .
 OPTIMIZATIONS_RENDERED
@@ -577,7 +586,7 @@ ok
 (
 true
 "
-JITOptimizationsView
+OptimizationsListView
 rendered
 when
 enabling
@@ -709,7 +718,7 @@ headerLine
 headerFile
 }
 =
-JITOptimizationsView
+OptimizationsListView
 ;
 ok
 (

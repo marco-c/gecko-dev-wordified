@@ -1010,7 +1010,7 @@ BufferUpdated
 Emitted
 by
 the
-JITOptimizationsView
+OptimizationsListView
 when
 it
 renders
