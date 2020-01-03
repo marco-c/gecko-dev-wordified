@@ -1022,6 +1022,17 @@ function
 msg
 )
 {
+if
+(
+typeof
+do_print
+=
+=
+=
+"
+function
+"
+)
 do_print
 (
 "
