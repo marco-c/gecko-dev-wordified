@@ -860,6 +860,10 @@ mMemoryOnly
 (
 false
 )
+mSkipSizeCheck
+(
+false
+)
 mOpenAsMemoryOnly
 (
 false
@@ -1005,6 +1009,8 @@ aCreateNew
 bool
 aMemoryOnly
 bool
+aSkipSizeCheck
+bool
 aPriority
 CacheFileListener
 *
@@ -1035,6 +1041,10 @@ mOpenAsMemoryOnly
 mMemoryOnly
 =
 aMemoryOnly
+;
+mSkipSizeCheck
+=
+aSkipSizeCheck
 ;
 mPriority
 =

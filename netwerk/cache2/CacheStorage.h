@@ -247,6 +247,8 @@ bool
 aAllowDisk
 bool
 aLookupAppCache
+bool
+aSkipSizeCheck
 )
 ;
 protected
@@ -282,6 +284,11 @@ mWriteToDisk
 ;
 bool
 mLookupAppCache
+:
+1
+;
+bool
+mSkipSizeCheck
 :
 1
 ;
@@ -325,6 +332,16 @@ const
 {
 return
 mLookupAppCache
+;
+}
+bool
+SkipSizeCheck
+(
+)
+const
+{
+return
+mSkipSizeCheck
 ;
 }
 }

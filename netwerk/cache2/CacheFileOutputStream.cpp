@@ -521,6 +521,13 @@ NS_BASE_STREAM_CLOSED
 }
 if
 (
+!
+mFile
+-
+>
+mSkipSizeCheck
+&
+&
 CacheObserver
 :
 :

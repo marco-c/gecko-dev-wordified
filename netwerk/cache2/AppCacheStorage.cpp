@@ -181,6 +181,14 @@ app
 cache
 *
 /
+false
+/
+*
+skip
+size
+check
+*
+/
 )
 mAppCache
 (

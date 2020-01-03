@@ -163,6 +163,8 @@ bool
 aAllowDisk
 bool
 aLookupAppCache
+bool
+aSkipSizeCheck
 )
 :
 mLoadContextInfo
@@ -179,6 +181,10 @@ aAllowDisk
 mLookupAppCache
 (
 aLookupAppCache
+)
+mSkipSizeCheck
+(
+aSkipSizeCheck
 )
 {
 }
