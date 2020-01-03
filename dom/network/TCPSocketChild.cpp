@@ -1332,6 +1332,7 @@ data
 +
 aByteOffset
 nbytes
+fallible
 )
 )
 {

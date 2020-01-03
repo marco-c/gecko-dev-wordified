@@ -1666,6 +1666,7 @@ InsertElementsAt
 0
 buffer
 nbytes
+fallible
 )
 )
 {

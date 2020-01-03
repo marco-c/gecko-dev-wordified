@@ -1188,6 +1188,7 @@ InsertElementsAt
 0
 aData
 aByteLength
+fallible
 )
 )
 {
