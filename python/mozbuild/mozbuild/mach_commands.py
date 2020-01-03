@@ -5286,6 +5286,44 @@ app
 '
 )
         
+cwd
+=
+os
+.
+path
+.
+join
+(
+self
+.
+topobjdir
+'
+_tests
+'
+'
+gtest
+'
+)
+        
+if
+not
+os
+.
+path
+.
+isdir
+(
+cwd
+)
+:
+            
+os
+.
+makedirs
+(
+cwd
+)
+        
 #
 Use
 GTest
@@ -5406,6 +5444,10 @@ unittest
 append_env
 =
 gtest_env
+                                    
+cwd
+=
+cwd
                                     
 ensure_exit_code
 =
@@ -5536,6 +5578,10 @@ app_path
 unittest
 "
 ]
+                             
+cwd
+=
+cwd
                              
 env
 =
