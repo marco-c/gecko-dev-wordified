@@ -865,11 +865,6 @@ debugger
 eval
 code
 "
-"
-self
--
-hosted
-"
 ]
 ;
 /

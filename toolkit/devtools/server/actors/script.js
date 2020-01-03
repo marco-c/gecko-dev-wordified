@@ -2878,8 +2878,6 @@ breakpointActorMap
 =
 new
 BreakpointActorMap
-(
-)
 ;
 this
 .
@@ -2887,8 +2885,6 @@ sourceActorStore
 =
 new
 SourceActorStore
-(
-)
 ;
 this
 .
@@ -2896,15 +2892,6 @@ blackBoxedSources
 =
 new
 Set
-(
-[
-"
-self
--
-hosted
-"
-]
-)
 ;
 this
 .
@@ -2912,8 +2899,6 @@ prettyPrintedSources
 =
 new
 Map
-(
-)
 ;
 /
 /
@@ -2941,8 +2926,6 @@ _hiddenBreakpoints
 =
 new
 Map
-(
-)
 ;
 this
 .
