@@ -1920,26 +1920,6 @@ ping
 '
     
 #
-Allow
-unsigned
-add
--
-ons
-    
-prefs
-[
-'
-xpinstall
-.
-signatures
-.
-required
-'
-]
-=
-False
-    
-#
 Don
 '
 t
