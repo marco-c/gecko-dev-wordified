@@ -1131,6 +1131,10 @@ resolve
 nullptr
 /
 /
+mayResolve
+nullptr
+/
+/
 convert
 SavedFrame
 :

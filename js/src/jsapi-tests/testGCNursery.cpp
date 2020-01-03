@@ -226,6 +226,12 @@ resolve
 nullptr
 /
 *
+mayResolve
+*
+/
+nullptr
+/
+*
 ?
 ?
 ?
@@ -313,6 +319,12 @@ nullptr
 /
 *
 resolve
+*
+/
+nullptr
+/
+*
+mayResolve
 *
 /
 nullptr

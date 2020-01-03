@@ -6647,6 +6647,12 @@ resolve
 nullptr
 /
 *
+mayResolve
+*
+/
+nullptr
+/
+*
 convert
 *
 /
@@ -7606,6 +7612,10 @@ nullptr
 /
 /
 resolve
+nullptr
+/
+/
+mayResolve
 nullptr
 /
 /
@@ -11298,6 +11308,12 @@ resolve
 nullptr
 /
 *
+mayResolve
+*
+/
+nullptr
+/
+*
 convert
 *
 /
@@ -12224,6 +12240,10 @@ nullptr
 /
 /
 resolve
+nullptr
+/
+/
+mayResolve
 nullptr
 /
 /

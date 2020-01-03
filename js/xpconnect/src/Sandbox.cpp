@@ -2929,6 +2929,12 @@ nullptr
 nullptr
 sandbox_enumerate
 sandbox_resolve
+nullptr
+/
+*
+mayResolve
+*
+/
 sandbox_convert
 sandbox_finalize
 nullptr
@@ -3018,6 +3024,12 @@ nullptr
 nullptr
 sandbox_enumerate
 sandbox_resolve
+nullptr
+/
+*
+mayResolve
+*
+/
 sandbox_convert
 sandbox_finalize
 nullptr

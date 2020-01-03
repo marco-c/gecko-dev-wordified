@@ -6442,6 +6442,12 @@ resolve
 nullptr
 /
 *
+mayResolve
+*
+/
+nullptr
+/
+*
 convert
 *
 /

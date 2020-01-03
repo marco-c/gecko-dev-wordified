@@ -219,6 +219,12 @@ nullptr
 resolve
 *
 /
+nullptr
+/
+*
+mayResolve
+*
+/
 convert
 }
 ;

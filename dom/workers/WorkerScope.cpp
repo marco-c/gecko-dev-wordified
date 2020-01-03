@@ -2720,6 +2720,12 @@ nullptr
 nullptr
 workerdebuggersandbox_enumerate
 workerdebuggersandbox_resolve
+nullptr
+/
+*
+mayResolve
+*
+/
 workerdebuggersandbox_convert
 workerdebuggersandbox_finalize
 nullptr

@@ -4033,6 +4033,12 @@ args_resolve
 nullptr
 /
 *
+mayResolve
+*
+/
+nullptr
+/
+*
 convert
 *
 /
@@ -4145,6 +4151,12 @@ setProperty
 /
 strictargs_enumerate
 strictargs_resolve
+nullptr
+/
+*
+mayResolve
+*
+/
 nullptr
 /
 *
