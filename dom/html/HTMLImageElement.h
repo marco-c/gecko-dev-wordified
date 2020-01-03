@@ -1105,6 +1105,7 @@ ReferrerPolicy
 GetImageReferrerPolicy
 (
 )
+override
 {
 return
 GetReferrerPolicy
