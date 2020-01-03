@@ -538,7 +538,7 @@ static
 CSSM_CSP_HANDLE
 sCspHandle
 =
-NULL
+CSSM_INVALID_HANDLE
 ;
 void
 *
@@ -1745,6 +1745,9 @@ OnLionOrLater
 &
 &
 sCspHandle
+!
+=
+CSSM_INVALID_HANDLE
 )
 {
 CSSM_ModuleDetach
@@ -1754,7 +1757,7 @@ sCspHandle
 ;
 sCspHandle
 =
-NULL
+CSSM_INVALID_HANDLE
 ;
 }
 CFRelease
