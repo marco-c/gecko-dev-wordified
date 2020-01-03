@@ -9101,6 +9101,10 @@ const
 bool
 &
 aIsFake
+const
+bool
+&
+aIsUnmounting
 )
 {
 #
@@ -9123,6 +9127,7 @@ aIsMediaPresent
 aIsSharing
 aIsFormatting
 aIsFake
+aIsUnmounting
 )
 ;
 nsRefPtr
@@ -9200,6 +9205,11 @@ unused
 <
 <
 aIsFake
+;
+unused
+<
+<
+aIsUnmounting
 ;
 #
 endif
