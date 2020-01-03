@@ -229,7 +229,7 @@ function
 let
 {
 inspector
-toolbox
+testActor
 }
 =
 yield
@@ -263,6 +263,7 @@ hasArrowsAndLabels
 (
 highlighter
 inspector
+testActor
 )
 ;
 yield
@@ -270,6 +271,7 @@ isHiddenForNonPositionedNonSizedElement
 (
 highlighter
 inspector
+testActor
 )
 ;
 yield
@@ -277,6 +279,7 @@ sideArrowsAreDisplayedForPositionedNode
 (
 highlighter
 inspector
+testActor
 )
 ;
 yield
@@ -284,6 +287,7 @@ sizeLabelIsDisplayedForSizedNode
 (
 highlighter
 inspector
+testActor
 )
 ;
 yield
@@ -302,6 +306,7 @@ hasArrowsAndLabels
 (
 highlighterFront
 inspector
+testActor
 )
 {
 info
@@ -337,9 +342,10 @@ let
 value
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -351,6 +357,7 @@ name
 "
 class
 "
+highlighterFront
 )
 ;
 is
@@ -378,9 +385,10 @@ exists
 value
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -394,6 +402,7 @@ name
 "
 class
 "
+highlighterFront
 )
 ;
 is
@@ -423,9 +432,10 @@ let
 value
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -438,6 +448,7 @@ size
 "
 class
 "
+highlighterFront
 )
 ;
 is
@@ -465,6 +476,7 @@ isHiddenForNonPositionedNonSizedElement
 (
 highlighterFront
 inspector
+testActor
 )
 {
 info
@@ -522,9 +534,10 @@ let
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -536,6 +549,7 @@ name
 "
 hidden
 "
+highlighterFront
 )
 ;
 is
@@ -562,9 +576,10 @@ let
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -575,6 +590,7 @@ size
 "
 hidden
 "
+highlighterFront
 )
 ;
 is
@@ -599,6 +615,7 @@ sideArrowsAreDisplayedForPositionedNode
 (
 highlighterFront
 inspector
+testActor
 )
 {
 info
@@ -649,9 +666,10 @@ let
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -663,6 +681,7 @@ name
 "
 hidden
 "
+highlighterFront
 )
 ;
 ok
@@ -691,9 +710,10 @@ let
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -704,6 +724,7 @@ size
 "
 hidden
 "
+highlighterFront
 )
 ;
 is
@@ -744,6 +765,7 @@ sizeLabelIsDisplayedForSizedNode
 (
 highlighterFront
 inspector
+testActor
 )
 {
 info
@@ -786,9 +808,10 @@ let
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -799,6 +822,7 @@ size
 "
 hidden
 "
+highlighterFront
 )
 ;
 ok
@@ -826,9 +850,10 @@ let
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -840,6 +865,7 @@ name
 "
 hidden
 "
+highlighterFront
 )
 ;
 is
