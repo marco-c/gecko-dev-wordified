@@ -1411,9 +1411,9 @@ desc
 :
 "
 Test
-action
-=
+with
 migrateToDevEdition
+enabled
 (
 success
 )
@@ -1804,10 +1804,6 @@ url
 about
 :
 accounts
-?
-action
-=
-migrateToDevEdition
 "
 profilePath
 :
@@ -1949,9 +1945,9 @@ desc
 :
 "
 Test
-action
-=
+with
 migrateToDevEdition
+enabled
 (
 no
 user
@@ -2156,10 +2152,6 @@ url
 about
 :
 accounts
-?
-action
-=
-migrateToDevEdition
 "
 profilePath
 :
