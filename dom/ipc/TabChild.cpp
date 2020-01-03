@@ -18425,6 +18425,14 @@ RecvUIResolutionChanged
 (
 )
 {
+mDPI
+=
+0
+;
+mDefaultScale
+=
+0
+;
 static_cast
 <
 PuppetWidget
