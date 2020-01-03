@@ -61,6 +61,10 @@ __version__
 18
 '
 from
+argparse
+import
+ArgumentParser
+from
 .
 marionette_test
 import
@@ -105,8 +109,6 @@ MarionetteTestResult
 MarionetteTextTestRunner
         
 MemoryEnduranceTestCaseMixin
-        
-OptionParser
         
 TestManifest
         

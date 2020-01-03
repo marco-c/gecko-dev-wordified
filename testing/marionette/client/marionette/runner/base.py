@@ -54,9 +54,9 @@ MPL
 /
 .
 from
-optparse
+argparse
 import
-OptionParser
+ArgumentParser
 import
 json
 import
@@ -1721,7 +1721,7 @@ result
 class
 BaseMarionetteOptions
 (
-OptionParser
+ArgumentParser
 )
 :
     
@@ -1741,7 +1741,7 @@ kwargs
 )
 :
         
-OptionParser
+ArgumentParser
 .
 __init__
 (
@@ -1775,23 +1775,40 @@ mixins
         
 self
 .
-add_option
+add_argument
+(
+'
+tests
+'
+                          
+nargs
+=
+'
+*
+'
+                          
+default
+=
+[
+]
+                          
+help
+=
+'
+Tests
+to
+run
+.
+'
+)
+        
+self
+.
+add_argument
 (
 '
 -
 -
-emulator
-'
-                        
-action
-=
-'
-store
-'
-                        
-dest
-=
-'
 emulator
 '
                         
@@ -1882,7 +1899,7 @@ cases
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -1890,18 +1907,6 @@ add_option
 emulator
 -
 binary
-'
-                        
-action
-=
-'
-store
-'
-                        
-dest
-=
-'
-emulator_binary
 '
                         
 help
@@ -1925,7 +1930,7 @@ emulator
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -1933,18 +1938,6 @@ add_option
 emulator
 -
 img
-'
-                        
-action
-=
-'
-store
-'
-                        
-dest
-=
-'
-emulator_img
 '
                         
 help
@@ -1965,7 +1958,7 @@ one
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -1973,24 +1966,6 @@ add_option
 emulator
 -
 res
-'
-                        
-action
-=
-'
-store
-'
-                        
-dest
-=
-'
-emulator_res
-'
-                        
-type
-=
-'
-str
 '
                         
 help
@@ -2016,23 +1991,11 @@ Example
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
-sdcard
-'
-                        
-action
-=
-'
-store
-'
-                        
-dest
-=
-'
 sdcard
 '
                         
@@ -2052,7 +2015,7 @@ emulator
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2066,12 +2029,6 @@ action
 =
 '
 store_true
-'
-                        
-dest
-=
-'
-no_window
 '
                         
 default
@@ -2100,7 +2057,7 @@ argument
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2114,12 +2071,6 @@ dest
 =
 '
 logdir
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -2136,7 +2087,7 @@ files
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2150,12 +2101,6 @@ action
 =
 '
 store_true
-'
-                        
-dest
-=
-'
-logcat_stdout
 '
                         
 default
@@ -2175,24 +2120,12 @@ stdout
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 address
-'
-                        
-dest
-=
-'
-address
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -2213,7 +2146,7 @@ to
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2225,12 +2158,6 @@ dest
 =
 '
 device_serial
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -2252,7 +2179,7 @@ fastboot
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2276,7 +2203,7 @@ connection
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2300,24 +2227,12 @@ connection
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 type
-'
-                        
-dest
-=
-'
-type
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -2427,24 +2342,12 @@ files
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 homedir
-'
-                        
-dest
-=
-'
-homedir
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -2460,24 +2363,12 @@ files
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 app
-'
-                        
-dest
-=
-'
-app
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -2491,7 +2382,7 @@ use
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2537,24 +2428,12 @@ application
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 binary
-'
-                        
-dest
-=
-'
-binary
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -2573,24 +2452,12 @@ test
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 profile
-'
-                        
-dest
-=
-'
-profile
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -2624,18 +2491,12 @@ used
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 addon
-'
-                        
-dest
-=
-'
-addons
 '
                         
 action
@@ -2661,24 +2522,12 @@ addons
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 repeat
-'
-                        
-dest
-=
-'
-repeat
-'
-                        
-action
-=
-'
-store
 '
                         
 type
@@ -2707,7 +2556,7 @@ s
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2721,18 +2570,6 @@ xml
 output
 '
                         
-action
-=
-'
-store
-'
-                        
-dest
-=
-'
-xml_output
-'
-                        
 help
 =
 '
@@ -2743,17 +2580,11 @@ output
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
-testvars
-'
-                        
-dest
-=
-'
 testvars
 '
                         
@@ -2781,24 +2612,12 @@ required
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 tree
-'
-                        
-dest
-=
-'
-tree
-'
-                        
-action
-=
-'
-store
 '
                         
 default
@@ -2823,7 +2642,7 @@ to
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2831,18 +2650,6 @@ add_option
 symbols
 -
 path
-'
-                        
-dest
-=
-'
-symbols_path
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -2869,17 +2676,11 @@ symbols
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
-timeout
-'
-                        
-dest
-=
-'
 timeout
 '
                         
@@ -2945,7 +2746,7 @@ timeout
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -2953,12 +2754,6 @@ add_option
 startup
 -
 timeout
-'
-                        
-dest
-=
-'
-startup_timeout
 '
                         
 type
@@ -2992,7 +2787,7 @@ binary
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -3004,12 +2799,6 @@ action
 =
 '
 store_true
-'
-                        
-dest
-=
-'
-shuffle
 '
                         
 default
@@ -3030,7 +2819,7 @@ order
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -3038,12 +2827,6 @@ add_option
 shuffle
 -
 seed
-'
-                        
-dest
-=
-'
-shuffle_seed
 '
                         
 type
@@ -3076,7 +2859,7 @@ tests
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -3084,12 +2867,6 @@ add_option
 total
 -
 chunks
-'
-                        
-dest
-=
-'
-total_chunks
 '
                         
 type
@@ -3113,7 +2890,7 @@ into
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -3121,12 +2898,6 @@ add_option
 this
 -
 chunk
-'
-                        
-dest
-=
-'
-this_chunk
 '
                         
 type
@@ -3145,24 +2916,12 @@ run
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
 sources
-'
-                        
-dest
-=
-'
-sources
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -3183,7 +2942,7 @@ only
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -3191,18 +2950,6 @@ add_option
 server
 -
 root
-'
-                        
-dest
-=
-'
-server_root
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -3262,7 +3009,7 @@ www
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -3270,18 +3017,6 @@ add_option
 gecko
 -
 log
-'
-                        
-dest
-=
-'
-gecko_log
-'
-                        
-action
-=
-'
-store
 '
                         
 help
@@ -3367,7 +3102,7 @@ log
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -3375,18 +3110,6 @@ add_option
 logger
 -
 name
-'
-                        
-dest
-=
-'
-logger_name
-'
-                        
-action
-=
-'
-store
 '
                         
 default
@@ -3415,17 +3138,11 @@ used
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
-jsdebugger
-'
-                        
-dest
-=
-'
 jsdebugger
 '
                         
@@ -3454,17 +3171,11 @@ javascript
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
-pydebugger
-'
-                        
-dest
-=
-'
 pydebugger
 '
                         
@@ -3503,7 +3214,7 @@ ipdb
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -3511,18 +3222,6 @@ add_option
 socket
 -
 timeout
-'
-                        
-dest
-=
-'
-socket_timeout
-'
-                        
-action
-=
-'
-store
 '
                         
 default
@@ -3548,17 +3247,11 @@ operations
         
 self
 .
-add_option
+add_argument
 (
 '
 -
 -
-e10s
-'
-                        
-dest
-=
-'
 e10s
 '
                         
@@ -3587,7 +3280,7 @@ tests
         
 self
 .
-add_option
+add_argument
 (
 '
 -
@@ -3667,10 +3360,9 @@ None
 )
 :
         
-options
-tests
+args
 =
-OptionParser
+ArgumentParser
 .
 parse_args
 (
@@ -3697,7 +3389,9 @@ values
         
 return
 (
-options
+args
+args
+.
 tests
 )
     
