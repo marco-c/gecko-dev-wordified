@@ -852,12 +852,6 @@ NS_OK
 }
 private
 :
-nsCOMPtr
-<
-nsIObserverService
->
-mObs
-;
 NetworkActivityMonitor
 :
 :
