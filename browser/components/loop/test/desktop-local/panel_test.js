@@ -2384,8 +2384,8 @@ it
 (
 "
 should
-reset
-all
+have
+0
 pending
 notifications
 "
@@ -2393,11 +2393,7 @@ function
 (
 )
 {
-sinon
-.
-assert
-.
-calledOnce
+expect
 (
 view
 .
@@ -2405,7 +2401,12 @@ props
 .
 notifications
 .
-reset
+length
+)
+.
+eql
+(
+0
 )
 ;
 }

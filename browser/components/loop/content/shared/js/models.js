@@ -2121,6 +2121,14 @@ extend
 defaults
 :
 {
+details
+:
+"
+"
+detailsButtonLabel
+:
+"
+"
 level
 :
 "
