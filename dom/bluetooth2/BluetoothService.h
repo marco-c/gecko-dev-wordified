@@ -1593,9 +1593,10 @@ fires
 nsresult
 HandleSettingsChanged
 (
-nsISupports
-*
-aSubject
+const
+nsAString
+&
+aData
 )
 ;
 /

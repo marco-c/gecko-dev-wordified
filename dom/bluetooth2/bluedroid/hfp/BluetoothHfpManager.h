@@ -700,9 +700,10 @@ HandleShutdown
 void
 HandleVolumeChanged
 (
-nsISupports
-*
-aSubject
+const
+nsAString
+&
+aData
 )
 ;
 void
