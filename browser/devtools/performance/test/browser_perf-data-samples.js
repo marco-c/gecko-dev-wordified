@@ -66,9 +66,11 @@ browser
 /
 devtools
 /
-profiler
+performance
 /
-utils
+modules
+/
+logic
 /
 tree
 -

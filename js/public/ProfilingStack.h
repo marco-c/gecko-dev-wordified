@@ -533,9 +533,9 @@ browser
 /
 devtools
 /
-profiler
+performance
 /
-utils
+modules
 /
 global
 .

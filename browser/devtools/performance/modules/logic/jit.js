@@ -249,9 +249,11 @@ browser
 /
 devtools
 /
-shared
+performance
 /
-profiler
+modules
+/
+logic
 /
 tree
 -
