@@ -2137,11 +2137,17 @@ rv
 nsContentPolicyType
 policyType
 =
+nsContentUtils
+:
+:
+InternalContentPolicyTypeToExternal
+(
 loadInfo
 -
 >
 GetContentPolicyType
 (
+)
 )
 ;
 int16_t
