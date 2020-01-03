@@ -572,7 +572,7 @@ SEPARATOR
 separator
 "
 ATK_ROLE_SEPARATOR
-NSAccessibilityUnknownRole
+NSAccessibilitySplitterRole
 ROLE_SYSTEM_SEPARATOR
 ROLE_SYSTEM_SEPARATOR
 eNoNameRule
@@ -1887,7 +1887,7 @@ listbox
 option
 "
 ATK_ROLE_LIST_ITEM
-NSAccessibilityRowRole
+NSAccessibilityStaticTextRole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 eNameFromSubtreeRule
