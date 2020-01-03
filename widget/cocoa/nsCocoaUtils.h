@@ -1712,6 +1712,15 @@ CGFloat
 aOutDeltaY
 )
 ;
+static
+BOOL
+EventHasPhaseInformation
+(
+NSEvent
+*
+aEvent
+)
+;
 /
 /
 Hides
