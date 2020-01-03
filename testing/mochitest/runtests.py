@@ -107,6 +107,10 @@ insert
 SCRIPT_DIR
 )
 ;
+from
+urlparse
+import
+urlparse
 import
 ctypes
 import
@@ -153,8 +157,6 @@ import
 (
     
 environment
-    
-isURL
     
 KeyValueParseError
     
@@ -18131,13 +18133,19 @@ options
 .
 symbolsPath
 and
-not
-isURL
+len
+(
+urlparse
 (
 options
 .
 symbolsPath
 )
+.
+scheme
+)
+<
+2
 :
     
 options
