@@ -236,6 +236,7 @@ nsRulesInfo
 {
 public
 :
+explicit
 nsRulesInfo
 (
 EditAction

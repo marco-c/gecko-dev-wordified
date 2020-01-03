@@ -447,6 +447,7 @@ nsAutoPlaceHolderBatch
 {
 public
 :
+explicit
 nsAutoEditBatch
 (
 nsIEditor
@@ -990,6 +991,7 @@ nsAutoTxnsConserveSelection
 {
 public
 :
+explicit
 nsAutoTxnsConserveSelection
 (
 nsEditor
@@ -1157,6 +1159,7 @@ nsAutoUpdateViewBatch
 {
 public
 :
+explicit
 nsAutoUpdateViewBatch
 (
 nsEditor

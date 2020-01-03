@@ -356,6 +356,7 @@ nsISelectionListener
 {
 public
 :
+explicit
 ResizerSelectionListener
 (
 nsIHTMLEditor
@@ -541,6 +542,7 @@ nsIDOMEventListener
 {
 public
 :
+explicit
 ResizerMouseMotionListener
 (
 nsIHTMLEditor
@@ -721,6 +723,7 @@ nsIDOMEventListener
 {
 public
 :
+explicit
 DocumentResizeEventListener
 (
 nsIHTMLEditor

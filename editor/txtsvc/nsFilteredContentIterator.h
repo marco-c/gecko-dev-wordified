@@ -170,6 +170,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsFilteredContentIterator
 )
+explicit
 nsFilteredContentIterator
 (
 nsITextServicesFilter

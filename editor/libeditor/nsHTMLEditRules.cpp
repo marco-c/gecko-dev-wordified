@@ -925,6 +925,7 @@ nsBoolDomIterFunctor
 {
 public
 :
+explicit
 nsEmptyEditableFunctor
 (
 nsHTMLEditor
@@ -1032,6 +1033,7 @@ nsBoolDomIterFunctor
 {
 public
 :
+explicit
 nsEditableTextFunctor
 (
 nsHTMLEditor
@@ -41350,6 +41352,7 @@ nsBoolDomIterFunctor
 {
 public
 :
+explicit
 nsUniqueFunctor
 (
 nsCOMArray

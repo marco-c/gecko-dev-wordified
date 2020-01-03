@@ -1727,6 +1727,7 @@ mRU
 ;
 public
 :
+explicit
 nsAutoInsertContainerSelNotify
 (
 nsRangeUpdater

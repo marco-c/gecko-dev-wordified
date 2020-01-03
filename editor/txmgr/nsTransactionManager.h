@@ -239,6 +239,7 @@ constructor
 .
 *
 /
+explicit
 nsTransactionManager
 (
 int32_t

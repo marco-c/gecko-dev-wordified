@@ -5171,6 +5171,7 @@ mFlags
 ;
 public
 :
+explicit
 SimpleTransaction
 (
 int32_t

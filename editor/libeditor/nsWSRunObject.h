@@ -136,6 +136,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Text
@@ -621,6 +630,7 @@ values
 .
 *
 /
+MOZ_IMPLICIT
 WSType
 (
 const
