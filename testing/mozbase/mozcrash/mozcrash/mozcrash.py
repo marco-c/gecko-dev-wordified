@@ -740,6 +740,10 @@ logger
 "
 "
     
+crash_count
+=
+0
+    
 for
 info
 in
@@ -756,6 +760,11 @@ stackwalk_binary
 stackwalk_binary
 )
 :
+        
+crash_count
++
+=
+1
         
 kwargs
 =
@@ -788,6 +797,9 @@ test
 *
 kwargs
 )
+    
+return
+crash_count
 class
 CrashInfo
 (
