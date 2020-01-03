@@ -87965,6 +87965,10 @@ return
 true
 ;
 }
+UngetToken
+(
+)
+;
 return
 false
 ;
