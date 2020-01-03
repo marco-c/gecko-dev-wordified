@@ -57,7 +57,16 @@ message
 assertEq
 (
 s
-x
+"
+(
+intermediate
+value
+)
+(
+.
+.
+.
+)
 [
 Symbol
 .
@@ -67,6 +76,7 @@ is
 not
 a
 function
+"
 )
 ;
 }
