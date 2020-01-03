@@ -1421,6 +1421,7 @@ OnEnterFrame
 OnNewGlobalObject
 OnNewPromise
 OnPromiseSettled
+OnGarbageCollection
 HookCount
 }
 ;
