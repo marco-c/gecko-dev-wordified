@@ -113,8 +113,6 @@ IDBOpenDBRequest
 "
 )
 ;
-/
-/
 ok
 (
 request
@@ -172,10 +170,10 @@ e
 result
 =
 =
-0x80660006
+0x8053000b
 /
 *
-NS_ERROR_DOM_INDEXEDDB_NOTALLOWED_ERR
+NS_ERROR_DOM_INVALID_STATE_ERR
 *
 /
 )
