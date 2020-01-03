@@ -193,9 +193,6 @@ mozilla
 namespace
 image
 {
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -260,8 +257,6 @@ return
 sPNGDecoderAccountingLog
 ;
 }
-#
-endif
 /
 /
 Limit

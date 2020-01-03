@@ -4469,9 +4469,6 @@ bool
 aLastPart
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 name
 ;
@@ -4501,8 +4498,6 @@ get
 )
 )
 ;
-#
-endif
 /
 /
 There
@@ -4833,9 +4828,6 @@ BlockOnload
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 name
 ;
@@ -4865,8 +4857,6 @@ get
 )
 )
 ;
-#
-endif
 nsCOMPtr
 <
 imgIOnloadBlocker
@@ -4901,9 +4891,6 @@ UnblockOnload
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 name
 ;
@@ -4933,8 +4920,6 @@ get
 )
 )
 ;
-#
-endif
 nsCOMPtr
 <
 imgIOnloadBlocker

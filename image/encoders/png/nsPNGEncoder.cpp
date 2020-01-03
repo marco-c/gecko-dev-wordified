@@ -136,9 +136,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -171,8 +168,6 @@ return
 sPNGEncoderLog
 ;
 }
-#
-endif
 NS_IMPL_ISUPPORTS
 (
 nsPNGEncoder
