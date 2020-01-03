@@ -1822,6 +1822,16 @@ BluetoothUuid
 mUuid
 )
 ;
+static
+bool
+IsConnected
+(
+const
+nsAString
+&
+aRemoteBdAddr
+)
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
