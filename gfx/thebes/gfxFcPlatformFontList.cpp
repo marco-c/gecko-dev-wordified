@@ -2798,7 +2798,7 @@ xxx
 taken
 from
 the
-gfxPangoFonts
+gfxFontconfigFonts
 code
 needs
 to

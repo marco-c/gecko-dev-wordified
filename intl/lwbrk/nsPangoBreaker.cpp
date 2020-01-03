@@ -404,7 +404,7 @@ gfx
 /
 thebes
 /
-gfxPangoFonts
+gfxFontconfigFonts
 .
 cpp
 :

@@ -145,7 +145,7 @@ endif
 #
 include
 "
-gfxPangoFonts
+gfxFontconfigFonts
 .
 h
 "

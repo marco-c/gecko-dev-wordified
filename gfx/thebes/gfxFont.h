@@ -11776,7 +11776,7 @@ alternative
 technique
 .
 (
-gfxPangoFonts
+gfxFontconfigFonts
 I
 '
 m

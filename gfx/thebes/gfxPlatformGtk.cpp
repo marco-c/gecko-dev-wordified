@@ -148,7 +148,7 @@ h
 #
 include
 "
-gfxPangoFonts
+gfxFontconfigFonts
 .
 h
 "
