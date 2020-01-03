@@ -250,6 +250,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 static_assert
 (
 (
