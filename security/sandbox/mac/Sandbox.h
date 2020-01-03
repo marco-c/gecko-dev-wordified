@@ -199,6 +199,9 @@ appPath
 nsCString
 appBinaryPath
 ;
+nsCString
+appDir
+;
 }
 MacSandboxInfo
 ;
