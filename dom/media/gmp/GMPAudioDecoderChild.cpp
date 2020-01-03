@@ -103,7 +103,7 @@ h
 #
 include
 "
-GMPChild
+GMPContentChild
 .
 h
 "
@@ -141,7 +141,7 @@ GMPAudioDecoderChild
 :
 GMPAudioDecoderChild
 (
-GMPChild
+GMPContentChild
 *
 aPlugin
 )

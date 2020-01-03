@@ -160,7 +160,7 @@ namespace
 gmp
 {
 class
-GMPChild
+GMPContentChild
 ;
 class
 GMPVideoDecoderChild
@@ -177,7 +177,7 @@ public
 explicit
 GMPVideoDecoderChild
 (
-GMPChild
+GMPContentChild
 *
 aPlugin
 )
@@ -439,7 +439,7 @@ RecvDecodingComplete
 )
 override
 ;
-GMPChild
+GMPContentChild
 *
 mPlugin
 ;

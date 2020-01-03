@@ -187,7 +187,7 @@ namespace
 gmp
 {
 class
-GMPParent
+GetGMPContentParentCallback
 ;
 #
 define
@@ -519,9 +519,8 @@ InitializePlugins
 0
 ;
 virtual
-GMPParent
-*
-SelectPluginForAPI
+bool
+GetContentParentFrom
 (
 const
 nsACString
@@ -538,6 +537,13 @@ nsCString
 >
 &
 aTags
+UniquePtr
+<
+GetGMPContentParentCallback
+>
+&
+&
+aCallback
 )
 =
 0

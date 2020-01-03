@@ -172,7 +172,7 @@ namespace
 gmp
 {
 class
-GMPParent
+GMPContentParent
 ;
 class
 GMPVideoEncoderParent
@@ -193,7 +193,7 @@ GMPVideoEncoderParent
 explicit
 GMPVideoEncoderParent
 (
-GMPParent
+GMPContentParent
 *
 aPlugin
 )
@@ -440,6 +440,13 @@ override
 ;
 virtual
 bool
+RecvShutdown
+(
+)
+override
+;
+virtual
+bool
 RecvParentShmemForPool
 (
 Shmem
@@ -478,7 +485,7 @@ mShuttingDown
 ;
 nsRefPtr
 <
-GMPParent
+GMPContentParent
 >
 mPlugin
 ;

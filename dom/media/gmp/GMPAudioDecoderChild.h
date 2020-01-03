@@ -135,7 +135,7 @@ namespace
 gmp
 {
 class
-GMPChild
+GMPContentChild
 ;
 class
 GMPAudioDecoderChild
@@ -150,7 +150,7 @@ public
 explicit
 GMPAudioDecoderChild
 (
-GMPChild
+GMPContentChild
 *
 aPlugin
 )
@@ -266,7 +266,7 @@ RecvDecodingComplete
 )
 override
 ;
-GMPChild
+GMPContentChild
 *
 mPlugin
 ;

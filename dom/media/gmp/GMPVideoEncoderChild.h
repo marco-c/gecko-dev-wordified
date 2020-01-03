@@ -149,7 +149,7 @@ namespace
 gmp
 {
 class
-GMPChild
+GMPContentChild
 ;
 class
 GMPVideoEncoderChild
@@ -166,7 +166,7 @@ public
 explicit
 GMPVideoEncoderChild
 (
-GMPChild
+GMPContentChild
 *
 aPlugin
 )
@@ -423,7 +423,7 @@ RecvEncodingComplete
 )
 override
 ;
-GMPChild
+GMPContentChild
 *
 mPlugin
 ;

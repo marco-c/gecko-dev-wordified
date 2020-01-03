@@ -110,7 +110,7 @@ h
 #
 include
 "
-GMPChild
+GMPContentChild
 .
 h
 "
@@ -148,7 +148,7 @@ GMPVideoDecoderChild
 :
 GMPVideoDecoderChild
 (
-GMPChild
+GMPContentChild
 *
 aPlugin
 )
