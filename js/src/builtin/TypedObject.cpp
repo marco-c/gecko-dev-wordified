@@ -3255,7 +3255,7 @@ return
 nullptr
 ;
 return
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 TypedProto
 >
@@ -3757,6 +3757,11 @@ int32_t
 length
 )
 {
+MOZ_ASSERT
+(
+arrayTypePrototype
+)
+;
 Rooted
 <
 ArrayTypeDescr
@@ -3769,7 +3774,7 @@ cx
 ;
 obj
 =
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 ArrayTypeDescr
 >
@@ -5068,13 +5073,12 @@ struct
 .
 userFieldOffsets
 =
-NewObjectWithProto
+NewBuiltinClassInstance
 <
 PlainObject
 >
 (
 cx
-nullptr
 TenuredObject
 )
 ;
@@ -5088,13 +5092,12 @@ nullptr
 ;
 userFieldTypes
 =
-NewObjectWithProto
+NewBuiltinClassInstance
 <
 PlainObject
 >
 (
 cx
-nullptr
 TenuredObject
 )
 ;
@@ -5894,7 +5897,7 @@ cx
 ;
 descr
 =
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 StructTypeDescr
 >
@@ -7342,7 +7345,7 @@ cx
 ;
 descr
 =
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 T
 >
@@ -7518,7 +7521,7 @@ cx
 ;
 proto
 =
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 TypedProto
 >
@@ -7764,7 +7767,7 @@ RootedObject
 proto
 (
 cx
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 PlainObject
 >
@@ -7826,7 +7829,7 @@ cx
 ;
 protoProto
 =
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 PlainObject
 >
@@ -8092,7 +8095,7 @@ cx
 ;
 module
 =
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 TypedObjectModuleObject
 >
