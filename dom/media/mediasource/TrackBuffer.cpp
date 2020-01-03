@@ -1599,6 +1599,12 @@ return
 p
 ;
 }
+else
+if
+(
+gotMedia
+)
+{
 /
 /
 Tell
@@ -1635,6 +1641,7 @@ MaybeNotifyHaveData
 (
 )
 ;
+}
 mInitializationPromise
 .
 Resolve
