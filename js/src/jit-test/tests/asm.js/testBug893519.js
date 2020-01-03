@@ -1,3 +1,13 @@
+/
+/
+|
+jit
+-
+test
+|
+error
+:
+Error
 var
 g
 =
