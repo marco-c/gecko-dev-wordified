@@ -72009,7 +72009,7 @@ DisableGamepadUpdates
 ;
 /
 /
-Suspend
+Freeze
 all
 of
 the
@@ -72027,7 +72027,7 @@ dom
 workers
 :
 :
-SuspendWorkersForWindow
+FreezeWorkersForWindow
 (
 this
 )
@@ -72646,7 +72646,7 @@ Resume
 }
 /
 /
-Resume
+Thaw
 all
 of
 the
@@ -72664,7 +72664,7 @@ dom
 workers
 :
 :
-ResumeWorkersForWindow
+ThawWorkersForWindow
 (
 this
 )

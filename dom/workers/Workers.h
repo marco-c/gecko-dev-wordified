@@ -1098,7 +1098,7 @@ aWindow
 )
 ;
 void
-SuspendWorkersForWindow
+FreezeWorkersForWindow
 (
 nsPIDOMWindow
 *
@@ -1106,7 +1106,7 @@ aWindow
 )
 ;
 void
-ResumeWorkersForWindow
+ThawWorkersForWindow
 (
 nsPIDOMWindow
 *
