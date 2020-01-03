@@ -733,7 +733,7 @@ xpc
 >
 EvalInSandboxObject
 (
-NS_ConvertASCIItoUTF16
+NS_ConvertUTF8toUTF16
 (
 script
 )
