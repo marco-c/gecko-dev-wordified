@@ -198,7 +198,7 @@ sink
 .
 static
 void
-gtest_logging_sink_for_LUL
+gtest_logging_sink_for_LulIntegration
 (
 const
 char
@@ -326,7 +326,7 @@ str
 }
 TEST
 (
-LUL
+LulIntegration
 unwind_consistency
 )
 {
@@ -383,7 +383,7 @@ lul
 :
 LUL
 (
-gtest_logging_sink_for_LUL
+gtest_logging_sink_for_LulIntegration
 )
 ;
 read_procmaps

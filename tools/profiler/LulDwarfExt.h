@@ -9608,7 +9608,6 @@ CallFrameInfo
 :
 :
 Reporter
-final
 {
 public
 :
