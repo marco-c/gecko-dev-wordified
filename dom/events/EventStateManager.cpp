@@ -16774,6 +16774,10 @@ IsAlt
 )
 )
 {
+aStatus
+=
+nsEventStatus_eConsumeNoDefault
+;
 /
 /
 Handling
@@ -16978,10 +16982,6 @@ result
 )
 ;
 }
-aStatus
-=
-nsEventStatus_eConsumeNoDefault
-;
 }
 return
 ;
