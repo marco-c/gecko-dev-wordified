@@ -132,6 +132,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 layers
 {

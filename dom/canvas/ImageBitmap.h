@@ -185,6 +185,9 @@ JSStructuredCloneReader
 struct
 JSStructuredCloneWriter
 ;
+class
+nsIGlobalObject
+;
 namespace
 mozilla
 {
