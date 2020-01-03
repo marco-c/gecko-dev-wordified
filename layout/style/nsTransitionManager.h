@@ -146,6 +146,9 @@ nsCSSPseudoElements
 h
 "
 class
+nsIGlobalObject
+;
+class
 nsStyleContext
 ;
 class
@@ -737,6 +740,9 @@ public
 explicit
 CSSTransition
 (
+nsIGlobalObject
+*
+aGlobal
 dom
 :
 :
@@ -750,6 +756,7 @@ dom
 :
 Animation
 (
+aGlobal
 aTimeline
 )
 {
