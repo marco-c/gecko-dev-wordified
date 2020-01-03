@@ -6131,8 +6131,13 @@ mProfileTimelineRecording
 ;
 nsTArray
 <
+mozilla
+:
+:
+UniquePtr
+<
 TimelineMarker
-*
+>
 >
 mProfileTimelineMarkers
 ;

@@ -4728,7 +4728,7 @@ Equals
 (
 const
 TimelineMarker
-*
+&
 aOther
 )
 override
@@ -4767,8 +4767,7 @@ GetCause
 =
 =
 aOther
--
->
+.
 GetCause
 (
 )

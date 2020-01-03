@@ -272,7 +272,7 @@ Equals
 (
 const
 TimelineMarker
-*
+&
 aOther
 )
 {
@@ -281,8 +281,7 @@ strcmp
 (
 mName
 aOther
--
->
+.
 mName
 )
 =
