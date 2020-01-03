@@ -2614,7 +2614,7 @@ CHROME_REMOTE_WINDOW
 )
 widgetInitData
 .
-mRequireOffMainThreadCompositing
+mMultiProcessWindow
 =
 true
 ;

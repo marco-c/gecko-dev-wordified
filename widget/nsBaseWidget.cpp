@@ -1991,12 +1991,12 @@ aInitData
 >
 mPopupHint
 ;
-mRequireOffMainThreadCompositing
+mMultiProcessWindow
 =
 aInitData
 -
 >
-mRequireOffMainThreadCompositing
+mMultiProcessWindow
 ;
 }
 if
