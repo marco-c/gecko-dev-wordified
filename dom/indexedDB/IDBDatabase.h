@@ -779,9 +779,6 @@ IDBObjectStore
 >
 CreateObjectStore
 (
-JSContext
-*
-aCx
 const
 nsAString
 &

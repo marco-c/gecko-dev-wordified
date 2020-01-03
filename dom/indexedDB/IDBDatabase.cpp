@@ -2028,9 +2028,6 @@ IDBDatabase
 :
 CreateObjectStore
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -2115,7 +2112,6 @@ KeyPath
 :
 Parse
 (
-aCx
 aOptionalParameters
 .
 mKeyPath
