@@ -850,6 +850,7 @@ gfxFontFamily
 {
 public
 :
+explicit
 gfxFontconfigFontFamily
 (
 const
