@@ -673,6 +673,7 @@ TestNoForwardingYet
 {
 tryActors
 (
+new
 Set
 (
 [
@@ -891,6 +892,7 @@ TestForwardPrefix1OnlyRoot
 {
 tryActors
 (
+new
 Set
 (
 [
@@ -979,6 +981,7 @@ TestForwardPrefix12OnlyRoot
 {
 tryActors
 (
+new
 Set
 (
 [
@@ -1194,6 +1197,7 @@ actor
 ;
 tryActors
 (
+new
 Set
 (
 [
@@ -1253,6 +1257,7 @@ actor
 ;
 tryActors
 (
+new
 Set
 (
 [

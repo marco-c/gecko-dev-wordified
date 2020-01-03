@@ -821,6 +821,7 @@ breakpoints
 let
 bpSet
 =
+new
 Set
 (
 bps
@@ -871,6 +872,7 @@ by
 URL
 bpSet
 =
+new
 Set
 (
 bps
@@ -956,6 +958,7 @@ and
 line
 bpSet
 =
+new
 Set
 (
 bps

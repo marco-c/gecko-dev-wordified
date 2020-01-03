@@ -12949,7 +12949,14 @@ prototype
 "
 _store
 "
+(
+)
+=
+>
+new
 Map
+(
+)
 )
 ;
 DevToolsUtils

@@ -4037,7 +4037,14 @@ prototype
 "
 _itemsByElement
 "
+(
+)
+=
+>
+new
 Map
+(
+)
 )
 ;
 /
