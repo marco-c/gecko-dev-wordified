@@ -9261,6 +9261,11 @@ succeed
 )
 ;
 }
+MOZ_ASSERT
+(
+shape
+)
+;
 /
 /
 If
@@ -9306,11 +9311,6 @@ desc
 isAccessorDescriptor
 (
 )
-)
-{
-if
-(
-shape
 )
 {
 /
@@ -9594,7 +9594,6 @@ succeed
 )
 ;
 }
-}
 /
 /
 Either
@@ -9658,11 +9657,6 @@ desc
 hasValue
 (
 )
-)
-{
-if
-(
-shape
 )
 {
 /
@@ -9772,7 +9766,6 @@ false
 }
 }
 }
-}
 else
 {
 /
@@ -9790,11 +9783,6 @@ and
 or
 JSPROP_ENUMERATE
 .
-if
-(
-shape
-)
-{
 /
 /
 Don
@@ -10129,7 +10117,6 @@ slot
 )
 )
 ;
-}
 }
 }
 /
