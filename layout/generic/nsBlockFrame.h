@@ -2871,7 +2871,7 @@ contained
 by
 aLine
 by
-aDY
+aDeltaBCoord
 *
 if
 aLine
@@ -2899,7 +2899,7 @@ nsLineBox
 *
 aLine
 nscoord
-aDY
+aDeltaBCoord
 )
 ;
 void
