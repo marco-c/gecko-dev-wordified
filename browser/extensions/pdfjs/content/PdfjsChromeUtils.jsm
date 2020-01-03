@@ -326,7 +326,13 @@ false
 enableWebGL
 :
 false
+pdfBugEnabled
+:
+false
 disableRange
+:
+false
+disableStream
 :
 false
 disableAutoFetch
@@ -2027,6 +2033,8 @@ getTabBrowser
 )
 ;
 let
+tab
+;
 tab
 =
 tabbrowser

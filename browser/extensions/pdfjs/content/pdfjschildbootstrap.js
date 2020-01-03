@@ -190,6 +190,7 @@ globals
 Components
 PdfjsContentUtils
 PdfJs
+Services
 *
 /
 '
