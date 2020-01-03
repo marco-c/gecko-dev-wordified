@@ -14345,6 +14345,7 @@ theme
 NeedToClearBackgroundBehindWidget
 (
 aFrame
+aFrame
 -
 >
 StyleDisplay
