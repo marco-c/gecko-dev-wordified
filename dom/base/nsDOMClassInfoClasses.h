@@ -203,6 +203,13 @@ CSSSupportsRule
 )
 /
 /
+XSLTProcessor
+DOMCI_CLASS
+(
+XSLTProcessor
+)
+/
+/
 DOM
 Level
 3
