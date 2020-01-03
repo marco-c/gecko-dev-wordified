@@ -960,6 +960,13 @@ scriptloader
 ;
 this
 .
+EventUtils
+=
+{
+}
+;
+this
+.
 _scriptLoader
 .
 loadSubScript
