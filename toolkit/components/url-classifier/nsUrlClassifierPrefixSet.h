@@ -224,6 +224,7 @@ nsACString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrefixes
@@ -235,6 +236,7 @@ aArray
 uint32_t
 aLength
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPrefixes
@@ -247,6 +249,7 @@ uint32_t
 *
 aPrefixes
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Contains
@@ -257,6 +260,7 @@ bool
 *
 aFound
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsEmpty
@@ -265,6 +269,7 @@ bool
 *
 aEmpty
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 LoadFromFile
@@ -273,6 +278,7 @@ nsIFile
 *
 aFile
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 StoreToFile
@@ -281,6 +287,7 @@ nsIFile
 *
 aFile
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetPrefixesNative

@@ -1769,6 +1769,7 @@ void
 ReleaseNSSResources
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -1778,6 +1779,7 @@ CallCallback
 nsresult
 rv
 )
+MOZ_OVERRIDE
 {
 (
 void
@@ -1866,6 +1868,7 @@ void
 ReleaseNSSResources
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -1875,6 +1878,7 @@ CallCallback
 nsresult
 rv
 )
+MOZ_OVERRIDE
 {
 (
 void
