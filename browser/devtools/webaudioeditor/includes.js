@@ -360,7 +360,7 @@ shared
 /
 widgets
 /
-Graphs
+LineGraphWidget
 "
 true
 )

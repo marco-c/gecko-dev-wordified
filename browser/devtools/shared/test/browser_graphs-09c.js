@@ -51,9 +51,7 @@ TEST_DATA
 ]
 ;
 let
-{
 LineGraphWidget
-}
 =
 devtools
 .
@@ -66,7 +64,7 @@ shared
 /
 widgets
 /
-Graphs
+LineGraphWidget
 "
 )
 ;

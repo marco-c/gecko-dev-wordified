@@ -142,9 +142,7 @@ jsm
 )
 ;
 const
-{
 LineGraphWidget
-}
 =
 require
 (
@@ -155,7 +153,7 @@ shared
 /
 widgets
 /
-Graphs
+LineGraphWidget
 "
 )
 ;
