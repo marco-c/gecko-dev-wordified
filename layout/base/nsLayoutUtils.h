@@ -4731,8 +4731,8 @@ aAncestor
 Pass
 null
 for
-aAncestor
 *
+aAncestor
 to
 go
 up
@@ -5059,8 +5059,8 @@ This
 effectively
 inverts
 all
-transforms
 *
+transforms
 between
 this
 point
@@ -5890,6 +5890,7 @@ coordinates
 *
 of
 aFrame
+.
 *
 param
 aBackstop
@@ -5919,6 +5920,7 @@ to
 draw
 no
 background
+.
 *
 param
 aFlags
@@ -6122,9 +6124,9 @@ should
 be
 set
 to
+*
 compressed
 mode
-*
 to
 avoid
 short
@@ -6164,6 +6166,7 @@ widget
 s
 layer
 manager
+.
 *
 2
 )
@@ -6190,7 +6193,8 @@ widget
 s
 layer
 *
-maanger
+manager
+.
 *
 3
 )
@@ -6327,8 +6331,8 @@ that
 has
 already
 been
-measured
 *
+measured
 so
 it
 doesn
@@ -6344,6 +6348,7 @@ text
 over
 and
 over
+.
 *
 *
 param
@@ -6387,7 +6392,6 @@ measured
 param
 aTextWidth
 returns
-the
 (
 in
 twips
@@ -6413,7 +6417,9 @@ text
 where
 the
 cursor
+*
 falls
+.
 *
 /
 static
@@ -7646,10 +7652,11 @@ aFrame
 the
 checking
 frame
+.
 *
 return
+true
 if
-TRUE
 the
 frame
 is
@@ -7922,6 +7929,7 @@ width
 is
 being
 computed
+.
 *
 param
 aContainingBlockWidth
@@ -9576,7 +9584,6 @@ with
 copies
 of
 the
-*
 image
 .
 *
@@ -9942,6 +9949,7 @@ image
 should
 be
 drawn
+.
 *
 param
 aDirty
@@ -10098,6 +10106,7 @@ the
 image
 should
 fill
+.
 *
 param
 aDirty
@@ -10914,6 +10923,7 @@ for
 passing
 to
 SetWindowTranslucency
+.
 *
 /
 static
