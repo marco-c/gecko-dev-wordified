@@ -1934,9 +1934,6 @@ aFormat
 ;
 mSize
 =
-gfx
-:
-:
 IntSize
 (
 aRect

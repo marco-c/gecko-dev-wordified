@@ -532,15 +532,7 @@ mSurface
 new
 gfxWindowsSurface
 (
-gfxIntSize
-(
 aSize
-.
-width
-aSize
-.
-height
-)
 SurfaceFormatToImageFormat
 (
 mFormat
