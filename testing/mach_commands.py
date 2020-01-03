@@ -62,8 +62,6 @@ unicode_literals
 import
 os
 import
-pprint
-import
 sys
 from
 mach
@@ -78,10 +76,6 @@ CommandProvider
     
 Command
 )
-from
-autotry
-import
-AutoTry
 from
 mozbuild
 .
@@ -3764,6 +3758,14 @@ controller
 building
 import
 BuildDriver
+        
+from
+autotry
+import
+AutoTry
+        
+import
+pprint
         
 print
 (
