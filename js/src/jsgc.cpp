@@ -44207,7 +44207,6 @@ static
 bool
 DummyGetter
 (
-(
 JSContext
 *
 cx
