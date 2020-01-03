@@ -1193,11 +1193,6 @@ nsIFrame
 *
 aFilteredFrame
 )
-:
-mFilters
-(
-aFilters
-)
 {
 for
 (
@@ -1208,7 +1203,7 @@ i
 ;
 i
 <
-mFilters
+aFilters
 .
 Length
 (
@@ -1221,7 +1216,7 @@ i
 {
 if
 (
-mFilters
+aFilters
 [
 i
 ]
@@ -1242,7 +1237,7 @@ reference
 new
 nsSVGFilterReference
 (
-mFilters
+aFilters
 [
 i
 ]
