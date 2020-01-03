@@ -176,7 +176,7 @@ LOGTAG
 GeckoTextSelectionHandle
 "
 ;
-private
+public
 enum
 HandleType
 {
