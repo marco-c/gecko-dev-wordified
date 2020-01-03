@@ -1847,7 +1847,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
