@@ -7815,6 +7815,10 @@ PL_DHashTableAdd
 &
 mRequestInfoHash
 aRequest
+mozilla
+:
+:
+fallible
 )
 )
 {

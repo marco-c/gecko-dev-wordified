@@ -1243,6 +1243,7 @@ aPlaceholderFrame
 GetOutOfFlowFrame
 (
 )
+fallible
 )
 )
 ;

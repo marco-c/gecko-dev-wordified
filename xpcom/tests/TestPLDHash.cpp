@@ -959,6 +959,10 @@ void
 *
 )
 numInserted
+mozilla
+:
+:
+fallible
 )
 )
 {

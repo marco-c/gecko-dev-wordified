@@ -1745,6 +1745,7 @@ mRecord
 HashNumber
 (
 )
+fallible
 )
 ;
 if

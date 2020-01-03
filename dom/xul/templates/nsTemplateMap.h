@@ -232,6 +232,7 @@ PL_DHashTableAdd
 &
 mTable
 aContent
+fallible
 )
 )
 ;

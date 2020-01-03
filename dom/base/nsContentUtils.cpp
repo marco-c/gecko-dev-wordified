@@ -21921,6 +21921,7 @@ PL_DHashTableAdd
 &
 sEventListenerManagersHash
 aNode
+fallible
 )
 )
 ;

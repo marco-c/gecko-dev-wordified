@@ -2122,6 +2122,7 @@ cacheEntry
 >
 mKey
 )
+fallible
 )
 ;
 #

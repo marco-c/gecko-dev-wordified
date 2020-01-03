@@ -10540,6 +10540,7 @@ PL_DHashTableAdd
 &
 sNPObjWrappers
 npobj
+fallible
 )
 )
 ;
@@ -11394,6 +11395,7 @@ PL_DHashTableAdd
 &
 sNPObjWrappers
 npobj
+fallible
 )
 )
 ;

@@ -759,6 +759,7 @@ atoms
 [
 i
 ]
+fallible
 )
 )
 ;
@@ -941,6 +942,7 @@ PL_DHashTableAdd
 &
 sAtomTable
 str
+fallible
 )
 )
 ;
