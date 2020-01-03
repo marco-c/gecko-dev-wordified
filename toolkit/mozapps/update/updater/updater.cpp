@@ -1300,6 +1300,7 @@ AutoFile
 {
 public
 :
+explicit
 AutoFile
 (
 FILE
@@ -4216,7 +4217,7 @@ false
 endif
 AutoFile
 infile
-=
+(
 ensure_open
 (
 path
@@ -4229,6 +4230,7 @@ rb
 ss
 .
 st_mode
+)
 )
 ;
 if
@@ -4270,7 +4272,7 @@ READ_ERROR
 }
 AutoFile
 outfile
-=
+(
 ensure_open
 (
 dest
@@ -4283,6 +4285,7 @@ wb
 ss
 .
 st_mode
+)
 )
 ;
 if
@@ -8427,7 +8430,7 @@ mFile
 ;
 AutoFile
 pfile
-=
+(
 NS_tfopen
 (
 spath
@@ -8436,6 +8439,7 @@ NS_T
 "
 rb
 "
+)
 )
 )
 ;
@@ -8729,7 +8733,7 @@ HAVE_POSIX_FALLOCATE
 )
 AutoFile
 ofile
-=
+(
 ensure_open
 (
 mFile
@@ -8743,6 +8747,7 @@ wb
 ss
 .
 st_mode
+)
 )
 ;
 posix_fallocate
@@ -8911,7 +8916,7 @@ hfile
 }
 AutoFile
 ofile
-=
+(
 ensure_open
 (
 mFile
@@ -8936,6 +8941,7 @@ ss
 .
 st_mode
 )
+)
 ;
 #
 elif
@@ -8945,7 +8951,7 @@ XP_MACOSX
 )
 AutoFile
 ofile
-=
+(
 ensure_open
 (
 mFile
@@ -8959,6 +8965,7 @@ wb
 ss
 .
 st_mode
+)
 )
 ;
 /
@@ -9083,7 +9090,7 @@ dlen
 else
 AutoFile
 ofile
-=
+(
 ensure_open
 (
 mFile
@@ -9097,6 +9104,7 @@ wb
 ss
 .
 st_mode
+)
 )
 ;
 #
@@ -10498,7 +10506,7 @@ false
 ;
 AutoFile
 file
-=
+(
 NS_tfopen
 (
 filename
@@ -10508,6 +10516,7 @@ NS_T
 wb
 +
 "
+)
 )
 )
 ;
@@ -10748,7 +10757,7 @@ gSourcePath
 ;
 AutoFile
 file
-=
+(
 NS_tfopen
 (
 filename
@@ -10757,6 +10766,7 @@ NS_T
 "
 rb
 "
+)
 )
 )
 ;
@@ -10964,7 +10974,7 @@ gSourcePath
 ;
 AutoFile
 file
-=
+(
 NS_tfopen
 (
 filename
@@ -10973,6 +10983,7 @@ NS_T
 "
 rb
 "
+)
 )
 )
 ;
@@ -13234,7 +13245,7 @@ gSourcePath
 ;
 AutoFile
 linkFile
-=
+(
 NS_tfopen
 (
 linkFileName
@@ -13243,6 +13254,7 @@ NS_T
 "
 rb
 "
+)
 )
 )
 ;
@@ -22671,7 +22683,7 @@ manifest
 {
 AutoFile
 mfile
-=
+(
 NS_tfopen
 (
 manifest
@@ -22680,6 +22692,7 @@ NS_T
 "
 rb
 "
+)
 )
 )
 ;

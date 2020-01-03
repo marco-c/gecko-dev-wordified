@@ -193,6 +193,7 @@ AutoFILE
 {
 public
 :
+explicit
 AutoFILE
 (
 FILE
@@ -244,6 +245,7 @@ AutoCharArray
 {
 public
 :
+explicit
 AutoCharArray
 (
 size_t
@@ -818,11 +820,12 @@ section
 {
 AutoFILE
 fp
-=
+(
 NS_tfopen
 (
 path
 OPEN_MODE
+)
 )
 ;
 if
