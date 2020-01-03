@@ -1490,10 +1490,15 @@ RowPitch
 ;
 mIsMapped
 =
-true
+!
+!
+aMappedSurface
+-
+>
+mData
 ;
 return
-true
+mIsMapped
 ;
 }
 void
