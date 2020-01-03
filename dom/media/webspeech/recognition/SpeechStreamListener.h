@@ -165,6 +165,7 @@ SpeechStreamListener
 (
 )
 ;
+virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -173,8 +174,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
@@ -186,6 +185,7 @@ aQueuedMedia
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 NotifyEvent
 (

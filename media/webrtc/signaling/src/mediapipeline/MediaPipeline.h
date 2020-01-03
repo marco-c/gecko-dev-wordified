@@ -2746,8 +2746,6 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackRate
-rate
 TrackTicks
 offset
 uint32_t
@@ -2785,8 +2783,6 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackRate
-rate
 TrackTicks
 offset
 uint32_t
@@ -2808,8 +2804,6 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackRate
-rate
 TrackTicks
 offset
 uint32_t
@@ -2844,8 +2838,6 @@ ProcessVideoChunk
 VideoSessionConduit
 *
 conduit
-TrackRate
-rate
 VideoChunk
 &
 chunk
@@ -3580,8 +3572,6 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackRate
-rate
 TrackTicks
 offset
 uint32_t
@@ -4028,8 +4018,6 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackRate
-rate
 TrackTicks
 offset
 uint32_t

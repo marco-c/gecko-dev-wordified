@@ -749,13 +749,6 @@ Graph
 /
 /
 TrackID
-GRAPH_RATE
-/
-/
-Rate
-(
-hz
-)
 0
 /
 /

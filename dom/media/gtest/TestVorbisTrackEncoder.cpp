@@ -1231,7 +1231,6 @@ nullptr
 0
 0
 0
-0
 segment
 )
 ;
@@ -1447,7 +1446,6 @@ encoder
 NotifyQueuedTrackChanges
 (
 nullptr
-0
 0
 0
 MediaStreamListener

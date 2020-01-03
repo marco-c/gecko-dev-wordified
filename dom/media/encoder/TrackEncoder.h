@@ -303,8 +303,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
@@ -802,6 +800,7 @@ mSamplingRate
 )
 {
 }
+virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -810,8 +809,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
@@ -1352,7 +1349,7 @@ Notified
 by
 the
 same
-callbcak
+callback
 of
 MediaEncoder
 when
@@ -1374,6 +1371,7 @@ thread
 .
 *
 /
+virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -1382,8 +1380,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
