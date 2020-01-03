@@ -869,7 +869,7 @@ eLegacyMutationEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MUTATION_NODEREMOVEDFROMDOCUMENT
+eLegacyNodeRemovedFromDocument
 eLegacyMutationEventFirst
 +
 3
