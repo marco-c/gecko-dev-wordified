@@ -2111,6 +2111,17 @@ override
 ;
 virtual
 bool
+RecvPauseProfiler
+(
+const
+bool
+&
+aPause
+)
+override
+;
+virtual
+bool
 RecvStopProfiler
 (
 )
