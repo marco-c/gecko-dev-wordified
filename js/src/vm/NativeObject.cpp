@@ -2511,6 +2511,12 @@ slotSpan
 (
 )
 ;
+initializeSlotRange
+(
+0
+oldSpan
+)
+;
 /
 /
 A

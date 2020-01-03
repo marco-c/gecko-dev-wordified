@@ -500,7 +500,10 @@ receiver_guard_shape
 "
 )
 ;
-else
+if
+(
+group_
+)
 TraceEdge
 (
 trc
