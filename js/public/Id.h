@@ -138,12 +138,12 @@ a
 31
 -
 bit
-unsigned
+signed
 integer
 interned
 string
 or
-symbol
+object
 .
 /
 /
@@ -256,7 +256,7 @@ to
 or
 from
 a
-Value
+jsval
 ;
 JS_ValueToId
 or

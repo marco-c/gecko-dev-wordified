@@ -12206,7 +12206,7 @@ JS
 AutoSuppressGCAnalysis
 nogc
 ;
-CALL_GENERATED_1
+CALL_GENERATED_REGEXP
 (
 function
 &

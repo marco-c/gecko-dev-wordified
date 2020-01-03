@@ -399,7 +399,7 @@ inline
 bool
 ValueToId
 (
-ExclusiveContext
+JSContext
 *
 cx
 typename
