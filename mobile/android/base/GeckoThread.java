@@ -367,6 +367,16 @@ LIBS_READY
 /
 After
 initializing
+nsAppShell
+and
+JNI
+calls
+.
+JNI_READY
+/
+/
+After
+initializing
 frontend
 JS
 (

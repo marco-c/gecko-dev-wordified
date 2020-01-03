@@ -403,13 +403,6 @@ GLContextProvider
 .
 h
 "
-#
-include
-"
-ANRReporter
-.
-h
-"
 using
 namespace
 mozilla
@@ -2008,13 +2001,6 @@ I
 InitAndroidJavaWrappers
 (
 jEnv
-)
-;
-ANRReporter
-:
-:
-Init
-(
 )
 ;
 }
