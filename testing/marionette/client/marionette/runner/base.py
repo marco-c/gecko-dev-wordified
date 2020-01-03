@@ -90,6 +90,8 @@ manifestparser
 import
 TestManifest
 from
+marionette_driver
+.
 marionette
 import
 Marionette
