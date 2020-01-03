@@ -1244,6 +1244,8 @@ old
 SDK
 bug
 988311
+/
+1196859
 {
 "
 rf
@@ -1251,6 +1253,18 @@ rf
 firefox
 -
 22
+.
+dll
+"
+ALL_VERSIONS
+}
+{
+"
+rf
+-
+firefox
+-
+40
 .
 dll
 "
