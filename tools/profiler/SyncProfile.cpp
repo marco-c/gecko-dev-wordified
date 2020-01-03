@@ -147,6 +147,13 @@ new
 ProfileBuffer
 (
 aEntrySize
+/
+*
+aGeneration
+=
+*
+/
+UINT32_MAX
 )
 )
 mOwnerState

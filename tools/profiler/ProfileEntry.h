@@ -586,6 +586,10 @@ ProfileBuffer
 (
 int
 aEntrySize
+uint32_t
+aGeneration
+=
+0
 )
 ;
 void
@@ -774,7 +778,7 @@ has
 wrapped
 around
 .
-int
+uint32_t
 mGeneration
 ;
 /
@@ -1042,17 +1046,6 @@ bufferGeneration
 )
 const
 {
-MOZ_ASSERT
-(
-mBuffer
--
->
-mGeneration
->
-=
-0
-)
-;
 return
 mBuffer
 -
