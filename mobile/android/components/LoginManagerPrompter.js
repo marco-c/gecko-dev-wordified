@@ -1442,6 +1442,9 @@ PROMPT_ADD
 )
 ;
 }
+positive
+:
+true
 }
 ]
 ;
@@ -1757,6 +1760,9 @@ PROMPT_UPDATE
 )
 ;
 }
+positive
+:
+true
 }
 ]
 ;
