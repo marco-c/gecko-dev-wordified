@@ -156,7 +156,7 @@ true
 error
 :
 "
-NO_DEVICES_FOUND
+NotFoundError
 "
 }
 {
@@ -194,7 +194,7 @@ true
 error
 :
 "
-NO_DEVICES_FOUND
+NotFoundError
 "
 }
 {
@@ -233,7 +233,7 @@ true
 error
 :
 "
-NO_DEVICES_FOUND
+NotFoundError
 "
 }
 {
@@ -272,7 +272,7 @@ true
 error
 :
 "
-NO_DEVICES_FOUND
+NotFoundError
 "
 }
 {
@@ -502,7 +502,8 @@ error
 ?
 (
 err
-=
+.
+name
 =
 =
 tests
@@ -528,6 +529,8 @@ err
 "
 +
 err
+.
+name
 +
 "
 )

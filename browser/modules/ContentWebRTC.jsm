@@ -488,7 +488,7 @@ the
 UI
 should
 catch
-NO_DEVICES_FOUND
+NotFoundError
 /
 /
 and
@@ -822,7 +822,7 @@ callID
 aCallID
 }
 "
-NO_DEVICES_FOUND
+NotFoundError
 "
 )
 ;
