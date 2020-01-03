@@ -25153,7 +25153,7 @@ false
 ;
 p
 .
-usesArgumentsAndApply
+usesArgumentsApplyAndThis
 =
 false
 ;

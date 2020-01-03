@@ -24234,7 +24234,7 @@ nonLazyScript
 )
 -
 >
-usesArgumentsAndApply
+usesArgumentsApplyAndThis
 (
 )
 )
@@ -24283,7 +24283,7 @@ lazyScript
 )
 -
 >
-usesArgumentsAndApply
+usesArgumentsApplyAndThis
 (
 )
 )
