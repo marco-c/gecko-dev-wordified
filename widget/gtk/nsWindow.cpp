@@ -15314,7 +15314,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 this
 WidgetMouseEvent
 :

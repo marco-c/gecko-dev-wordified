@@ -22481,7 +22481,7 @@ eKeyPress
 |
 eKeyUp
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 case
 eMouseUp
@@ -22706,7 +22706,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 &
 &
 IsMutable
@@ -23427,7 +23427,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 case
 NS_TOUCH_START
@@ -23554,7 +23554,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 {
 if

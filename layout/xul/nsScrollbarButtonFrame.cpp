@@ -335,7 +335,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 mCursorOnThis
 =

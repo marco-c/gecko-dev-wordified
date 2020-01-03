@@ -28327,7 +28327,7 @@ aEventMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 CaptureMouse
 (
@@ -28786,7 +28786,7 @@ event
 .
 mMessage
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 ;
 event
 .
@@ -28841,7 +28841,7 @@ eventButton
 break
 ;
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 /
 /
@@ -29025,7 +29025,7 @@ aEventMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 switch
 (
@@ -34931,7 +34931,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 wParam
 lParam
 false
@@ -35373,7 +35373,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 wParam
 lParam
 false
@@ -35451,7 +35451,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 0
 lParamToClient
 (
@@ -35538,7 +35538,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 wParam
 lParam
 false
@@ -35616,7 +35616,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 0
 lParamToClient
 (

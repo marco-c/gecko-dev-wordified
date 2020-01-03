@@ -10095,7 +10095,7 @@ NPCocoaEventMouseMoved
 ;
 }
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 return
 NPCocoaEventMouseDown
@@ -10192,7 +10192,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 |
 |
 anEvent
@@ -10393,7 +10393,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 case
 eMouseUp
@@ -11559,7 +11559,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 &
 &
@@ -11719,7 +11719,7 @@ WM_MOUSEMOVE
 break
 ;
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 {
 static
@@ -12027,7 +12027,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 |
 |
 anEvent
@@ -12804,7 +12804,7 @@ True
 break
 ;
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 case
 eMouseUp
@@ -12827,7 +12827,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 ?
 ButtonPress
 :
@@ -13623,7 +13623,7 @@ y
 break
 ;
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 {
 ANPEvent

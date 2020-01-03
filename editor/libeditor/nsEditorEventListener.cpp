@@ -2515,7 +2515,7 @@ keyEvent
 /
 mousedown
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 {
 nsCOMPtr
@@ -2669,7 +2669,7 @@ above
 comment
 in
 the
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 case
 first
 .
@@ -2780,7 +2780,7 @@ always
 initialized
 in
 the
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 case
 if
 it

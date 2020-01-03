@@ -16835,7 +16835,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 case
 NS_MOUSE_CLICK
@@ -16903,7 +16903,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 {
 if

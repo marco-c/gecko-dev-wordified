@@ -11138,7 +11138,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 {
 nsIPresShell

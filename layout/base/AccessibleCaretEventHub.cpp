@@ -2939,13 +2939,13 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 AC_LOGV
 (
 "
 Before
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 state
 :
 %
@@ -2975,7 +2975,7 @@ AC_LOGV
 (
 "
 After
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 state
 :
 %

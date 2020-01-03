@@ -559,7 +559,7 @@ mEvent
 mMessage
 !
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 |
 |
@@ -680,7 +680,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 if
 (

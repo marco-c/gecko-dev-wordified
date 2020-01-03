@@ -833,7 +833,7 @@ aY
 return
 CreateMouseEvent
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 aX
 aY
 )

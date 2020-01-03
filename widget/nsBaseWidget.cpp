@@ -20721,9 +20721,9 @@ NS_MOUSE_EXIT_WIDGET
 ;
 _ASSIGN_eventName
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 "
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 "
 )
 ;

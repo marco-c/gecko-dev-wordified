@@ -1214,7 +1214,7 @@ eBasicEventClass
 EVENT
 (
 mousedown
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 EventNameType_All
 eMouseEventClass
 )

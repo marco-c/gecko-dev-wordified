@@ -3335,7 +3335,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 {
 HandlePress
@@ -5874,7 +5874,7 @@ return
 true
 ;
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 case
 eMouseUp
@@ -6029,7 +6029,7 @@ aEvent
 mMessage
 !
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 {
 return
