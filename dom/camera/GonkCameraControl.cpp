@@ -335,6 +335,13 @@ h
 #
 include
 "
+GrallocImages
+.
+h
+"
+#
+include
+"
 CameraCommon
 .
 h
