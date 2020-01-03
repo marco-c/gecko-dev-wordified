@@ -1083,6 +1083,8 @@ aStyleContext
 gfxTextContextPaint
 *
 aContextPaint
+StrokeOptionFlags
+aFlags
 )
 {
 nsRefPtr
@@ -1137,6 +1139,14 @@ StyleSVG
 (
 )
 ;
+if
+(
+aFlags
+!
+=
+eIgnoreStrokeDashing
+)
+{
 DashState
 dashState
 =
@@ -1212,6 +1222,7 @@ DiscardDashPattern
 (
 )
 ;
+}
 }
 aStrokeOptions
 -
