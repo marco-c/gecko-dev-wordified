@@ -5532,6 +5532,7 @@ bool
 isIncrementalGCAllowed
 (
 )
+const
 {
 return
 incrementalAllowed
@@ -5551,6 +5552,7 @@ bool
 isIncrementalGCEnabled
 (
 )
+const
 {
 return
 mode
@@ -5566,6 +5568,7 @@ bool
 isIncrementalGCInProgress
 (
 )
+const
 {
 return
 state
@@ -5583,6 +5586,7 @@ bool
 isGenerationalGCEnabled
 (
 )
+const
 {
 return
 generationalDisabled
@@ -5615,6 +5619,7 @@ bool
 isCompactingGCEnabled
 (
 )
+const
 ;
 void
 setGrayRootsTracer
