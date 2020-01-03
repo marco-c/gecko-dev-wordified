@@ -784,7 +784,7 @@ this
 ;
 aProofOfLock
 .
-NotifyAll
+Notify
 (
 )
 ;
