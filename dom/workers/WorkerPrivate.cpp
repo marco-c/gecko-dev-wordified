@@ -8017,7 +8017,7 @@ PRThread
 *
 result
 ;
-MOZ_ASSERT
+MOZ_ALWAYS_TRUE
 (
 NS_SUCCEEDED
 (
