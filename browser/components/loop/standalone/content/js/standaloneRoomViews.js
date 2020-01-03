@@ -3074,6 +3074,11 @@ room
 conversation
 -
 wrapper
+standalone
+-
+room
+-
+wrapper
 "
 }
 React
@@ -3418,6 +3423,7 @@ localSrcVideoObject
 )
 )
 )
+)
 React
 .
 createElement
@@ -3509,7 +3515,6 @@ _roomIsActive
 )
 }
 }
-)
 )
 React
 .

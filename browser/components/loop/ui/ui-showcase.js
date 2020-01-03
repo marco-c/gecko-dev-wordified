@@ -8307,6 +8307,14 @@ createElement
 (
 FramedExample
 {
+cssClass
+:
+"
+standalone
+"
+dashed
+:
+true
 height
 :
 480
