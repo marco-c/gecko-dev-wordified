@@ -286,9 +286,7 @@ term
 title
 :
 "
-Generic
-page
-title
+abc
 "
 style
 :
@@ -352,9 +350,7 @@ word
 title
 :
 "
-Generic
-page
-title
+abc
 "
 style
 :
@@ -417,9 +413,7 @@ blocking
 title
 :
 "
-Generic
-page
-title
+abc
 "
 style
 :
@@ -477,9 +471,7 @@ search
 title
 :
 "
-Generic
-page
-title
+abc
 "
 style
 :
@@ -542,9 +534,7 @@ ThisPageIsInHistory
 title
 :
 "
-Generic
-page
-title
+abc
 "
 style
 :
@@ -605,9 +595,7 @@ search
 title
 :
 "
-Generic
-page
-title
+abc
 "
 style
 :
@@ -668,9 +656,7 @@ search
 title
 :
 "
-Generic
-page
-title
+abc
 "
 style
 :
