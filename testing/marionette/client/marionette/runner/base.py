@@ -5636,6 +5636,12 @@ DM_TRANS
 adb
 '
 )
+                                              
+device_serial
+=
+self
+.
+device_serial
 )
         
 device_info
