@@ -1386,7 +1386,6 @@ PBackgroundChild
 *
 aActor
 )
-override
 {
 ForceClose
 (
