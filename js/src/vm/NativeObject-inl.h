@@ -110,16 +110,16 @@ MPL
 /
 #
 ifndef
-vm_ObjectImpl_inl_h
+vm_NativeObject_inl_h
 #
 define
-vm_ObjectImpl_inl_h
+vm_NativeObject_inl_h
 #
 include
 "
 vm
 /
-ObjectImpl
+NativeObject
 .
 h
 "
@@ -4208,6 +4208,6 @@ nslots
 endif
 /
 *
-vm_ObjectImpl_inl_h
+vm_NativeObject_inl_h
 *
 /
