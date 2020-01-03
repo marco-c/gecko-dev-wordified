@@ -3235,6 +3235,16 @@ mElement
 aName
 )
 ;
+ImplCycleCollectionTraverse
+(
+*
+aCallback
+info
+.
+mAnimation
+aName
+)
+;
 }
 }
 void

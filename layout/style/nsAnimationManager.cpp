@@ -1703,6 +1703,7 @@ ElapsedTimeToTimeStamp
 (
 elapsedTime
 )
+this
 )
 )
 ;
@@ -1821,6 +1822,7 @@ ElapsedTimeToTimeStamp
 (
 elapsedTime
 )
+this
 )
 )
 ;

@@ -1066,6 +1066,7 @@ EffectEnd
 (
 )
 )
+this
 )
 )
 ;
