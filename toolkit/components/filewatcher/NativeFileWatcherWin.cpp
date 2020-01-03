@@ -4100,7 +4100,7 @@ tables
 .
 RemoveCallbacksFromHashtables
 (
-watchedResource
+wrappedParameters
 -
 >
 mPath
