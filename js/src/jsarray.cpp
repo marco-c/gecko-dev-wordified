@@ -418,12 +418,6 @@ mozilla
 IsNaN
 ;
 using
-mozilla
-:
-:
-PointerRangeSize
-;
-using
 JS
 :
 :
