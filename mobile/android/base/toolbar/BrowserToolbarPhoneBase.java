@@ -500,7 +500,7 @@ R
 .
 color
 .
-background_tabs
+text_and_tabs_tray_grey
 )
 )
 ;
