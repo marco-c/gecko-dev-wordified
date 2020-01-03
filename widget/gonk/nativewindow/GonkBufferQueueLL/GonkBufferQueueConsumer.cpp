@@ -3759,7 +3759,7 @@ void
 GonkBufferQueueConsumer
 :
 :
-dump
+dumpToString
 (
 String8
 &
