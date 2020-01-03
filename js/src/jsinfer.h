@@ -6109,6 +6109,17 @@ JSFunction
 fun
 )
 ;
+size_t
+sizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+const
+;
 }
 ;
 /
