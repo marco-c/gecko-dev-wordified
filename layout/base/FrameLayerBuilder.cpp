@@ -24130,9 +24130,10 @@ scrollFrame
 continue
 ;
 }
-const
+Maybe
+<
 DisplayItemClip
-*
+>
 clip
 =
 scrollFrame
@@ -30340,9 +30341,10 @@ info
 >
 metrics
 ;
-const
+Maybe
+<
 DisplayItemClip
-*
+>
 clip
 =
 info
