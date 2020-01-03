@@ -5968,6 +5968,8 @@ TIP
 .
 commitComposition
 (
+null
+0
 aEvent
 .
 data

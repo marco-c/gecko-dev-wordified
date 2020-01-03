@@ -7845,6 +7845,8 @@ _textInputProcessor
 .
 commitComposition
 (
+null
+0
 text
 ?
 text
