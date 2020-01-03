@@ -1013,11 +1013,6 @@ ShouldUseOffMainThreadCompositing
 )
 ;
 bool
-ShouldUseMainThreadD3D10Manager
-(
-)
-;
-bool
 ShouldUseBasicManager
 (
 )
