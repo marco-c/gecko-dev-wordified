@@ -552,12 +552,17 @@ Element
 >
 mElement
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 UniquePtr
 <
 ProfilerBacktrace
 >
 mBacktrace
 ;
+#
+endif
 }
 ;
 struct
@@ -1054,6 +1059,9 @@ aData
 >
 mChangeHint
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 currentRestyle
 -
 >
@@ -1067,6 +1075,8 @@ aData
 mBacktrace
 )
 ;
+#
+endif
 #
 ifdef
 RESTYLE_LOGGING
@@ -2252,6 +2262,9 @@ GeckoProfilerTracingRAII
 >
 profilerRAII
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 if
 (
 profiler_feature_active
@@ -2282,6 +2295,8 @@ mBacktrace
 )
 ;
 }
+#
+endif
 ProcessOneRestyle
 (
 element
@@ -2526,6 +2541,9 @@ GeckoProfilerTracingRAII
 >
 profilerRAII
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 if
 (
 profiler_feature_active
@@ -2556,6 +2574,8 @@ mBacktrace
 )
 ;
 }
+#
+endif
 ProcessOneRestyle
 (
 currentRestyle
