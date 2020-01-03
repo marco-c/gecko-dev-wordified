@@ -4565,6 +4565,9 @@ mixins
 Backbone
 .
 Events
+sharedMixins
+.
+WindowCloseMixin
 ]
 propTypes
 :
@@ -4826,6 +4829,12 @@ function
 (
 )
 {
+this
+.
+closeWindow
+(
+)
+;
 this
 .
 props
