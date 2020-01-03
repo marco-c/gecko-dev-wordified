@@ -168,7 +168,7 @@ LOOP_SERVER_PORT
 )
 }
 )
-WEB_APP_URL
+ROOMS_WEB_APP_URL
 =
 "
 http
@@ -185,13 +185,10 @@ CONTENT_SERVER_PORT
 )
 +
 \
-              
+  
 "
 /
 content
-/
-#
-call
 /
 {
 token
@@ -272,10 +269,10 @@ LOOP_SERVER_PORT
 )
                         
 "
-WEB_APP_URL
+ROOMS_WEB_APP_URL
 "
 :
-WEB_APP_URL
+ROOMS_WEB_APP_URL
 }
 )
 class
