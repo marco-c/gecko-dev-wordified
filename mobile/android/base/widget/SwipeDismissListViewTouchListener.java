@@ -2133,11 +2133,9 @@ final
 int
 originalHeight
 =
-dismissView
+lp
 .
-getHeight
-(
-)
+height
 ;
 ValueAnimator
 animator
@@ -2146,7 +2144,11 @@ ValueAnimator
 .
 ofInt
 (
-originalHeight
+dismissView
+.
+getHeight
+(
+)
 1
 )
 .
