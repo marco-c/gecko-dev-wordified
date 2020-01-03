@@ -449,6 +449,14 @@ HandleShutdown
 )
 ;
 void
+HandleVolumeStateChanged
+(
+nsISupports
+*
+aSubject
+)
+;
+void
 StartFileTransfer
 (
 )
