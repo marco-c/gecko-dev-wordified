@@ -183,16 +183,6 @@ aHasDirectListeners
 }
 ;
 virtual
-nsresult
-Snapshot
-(
-uint32_t
-nsIDOMFile
-*
-*
-)
-;
-virtual
 void
 NotifyPull
 (
