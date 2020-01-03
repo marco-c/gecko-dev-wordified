@@ -359,9 +359,7 @@ h
 #
 include
 "
-gonk
-/
-SmsService
+nsIGonkSmsService
 .
 h
 "
@@ -3921,9 +3919,9 @@ MOZ_B2G_RIL
 )
 smsService
 =
-new
-SmsService
+do_GetService
 (
+GONK_SMSSERVICE_CONTRACTID
 )
 ;
 #
