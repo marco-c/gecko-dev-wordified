@@ -1341,6 +1341,16 @@ get
 (
 )
 ;
+if
+(
+!
+graphicBuffer
+)
+{
+return
+nullptr
+;
+}
 uint8_t
 *
 grallocData
