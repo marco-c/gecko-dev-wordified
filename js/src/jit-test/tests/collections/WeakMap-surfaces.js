@@ -66,7 +66,7 @@ assertEq
 WeakMap
 .
 length
-1
+0
 )
 ;
 assertEq
