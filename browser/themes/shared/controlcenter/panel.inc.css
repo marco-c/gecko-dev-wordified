@@ -227,13 +227,6 @@ ciphers
 =
 weak
 ]
-:
-not
-(
-[
-mixedcontent
-]
-)
 [
 when
 -
