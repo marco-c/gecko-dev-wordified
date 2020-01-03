@@ -530,13 +530,12 @@ IsEmpty
 )
 )
 {
-aRetval
-=
 mFileSystem
 -
 >
 GetRootName
 (
+aRetval
 )
 ;
 return
