@@ -74,6 +74,11 @@ test_setup
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 Services
 .
 cookies
