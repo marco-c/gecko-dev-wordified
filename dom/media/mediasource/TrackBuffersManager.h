@@ -1048,6 +1048,14 @@ objects
 and
 methods
 .
+void
+AppendDataToCurrentInputBuffer
+(
+MediaByteBuffer
+*
+aData
+)
+;
 nsRefPtr
 <
 MediaByteBuffer
