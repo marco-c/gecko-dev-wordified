@@ -11385,7 +11385,7 @@ isFunctionFrame
 ?
 frameIter
 .
-callee
+calleeTemplate
 (
 )
 :
@@ -11802,7 +11802,7 @@ isFunctionFrame
 ?
 frameIter
 .
-callee
+calleeTemplate
 (
 )
 :

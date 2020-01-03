@@ -5561,7 +5561,7 @@ case
 JIT
 :
 return
-callee
+calleeTemplate
 (
 )
 -
@@ -7340,7 +7340,7 @@ const
 {
 MOZ_ASSERT
 (
-callee
+calleeTemplate
 (
 )
 -

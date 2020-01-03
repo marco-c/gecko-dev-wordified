@@ -2513,7 +2513,7 @@ script
 )
 frame
 .
-maybeCallee
+maybeCalleeTemplate
 (
 )
 )
@@ -16848,6 +16848,14 @@ dump
 )
 const
 {
+MaybeReadFallback
+fallback
+(
+UndefinedValue
+(
+)
+)
+;
 if
 (
 more
@@ -16913,6 +16921,7 @@ js_DumpObject
 (
 callee
 (
+fallback
 )
 )
 ;
@@ -17049,14 +17058,6 @@ snapshotIterator
 (
 )
 ;
-MaybeReadFallback
-fallback
-(
-UndefinedValue
-(
-)
-)
-;
 fprintf
 (
 stderr
@@ -17145,7 +17146,7 @@ i
 -
 2
 <
-callee
+calleeTemplate
 (
 )
 -
@@ -17180,7 +17181,7 @@ i
 2
 =
 =
-callee
+calleeTemplate
 (
 )
 -
@@ -17194,7 +17195,7 @@ numActualArgs
 (
 )
 >
-callee
+calleeTemplate
 (
 )
 -
@@ -17207,7 +17208,7 @@ nargs
 DumpOp
 d
 (
-callee
+calleeTemplate
 (
 )
 -
@@ -17243,7 +17244,7 @@ i
 -
 2
 -
-callee
+calleeTemplate
 (
 )
 -
