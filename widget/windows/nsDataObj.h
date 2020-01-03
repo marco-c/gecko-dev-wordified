@@ -179,6 +179,9 @@ h
 class
 nsIThread
 ;
+class
+nsINode
+;
 /
 /
 The
@@ -1864,6 +1867,9 @@ Init
 nsIURI
 *
 pSourceURI
+nsINode
+*
+aRequestingNode
 )
 ;
 NS_DECL_ISUPPORTS
