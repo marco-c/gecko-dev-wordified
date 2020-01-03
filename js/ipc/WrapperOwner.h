@@ -187,6 +187,7 @@ IProtocol
 ActorDestroyReason
 ActorDestroyReason
 ;
+explicit
 WrapperOwner
 (
 JSRuntime

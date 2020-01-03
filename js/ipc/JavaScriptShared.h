@@ -447,6 +447,7 @@ JavaScriptShared
 {
 public
 :
+explicit
 JavaScriptShared
 (
 JSRuntime

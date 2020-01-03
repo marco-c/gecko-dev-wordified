@@ -217,6 +217,7 @@ ReceiverObj
 ObjectId
 id
 ;
+explicit
 ReceiverObj
 (
 ObjectId
@@ -237,6 +238,7 @@ InVariant
 JSVariant
 variant
 ;
+explicit
 InVariant
 (
 const
@@ -259,6 +261,7 @@ OutVariant
 JSVariant
 variant
 ;
+explicit
 OutVariant
 (
 const
