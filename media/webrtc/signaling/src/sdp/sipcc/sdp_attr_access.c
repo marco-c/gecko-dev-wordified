@@ -11680,11 +11680,6 @@ SDP_INVALID_PARAMETER
 )
 ;
 }
-return
-(
-SDP_FAILURE
-)
-;
 }
 /
 *
@@ -12080,11 +12075,6 @@ SDP_INVALID_PARAMETER
 )
 ;
 }
-return
-(
-SDP_FAILURE
-)
-;
 }
 /
 *
@@ -12733,11 +12723,6 @@ SDP_INVALID_PARAMETER
 )
 ;
 }
-return
-(
-SDP_FAILURE
-)
-;
 }
 /
 *
