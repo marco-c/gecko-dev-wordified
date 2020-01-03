@@ -1883,7 +1883,8 @@ Determinant
 ;
 }
 GFX2D_API
-void
+Matrix
+&
 NudgeToIntegers
 (
 )
@@ -5289,7 +5290,8 @@ det
 0
 ;
 }
-void
+Matrix4x4
+&
 NudgeToIntegersFixedEpsilon
 (
 )
@@ -5414,6 +5416,10 @@ NudgeToInteger
 _44
 error
 )
+;
+return
+*
+this
 ;
 }
 Point4D

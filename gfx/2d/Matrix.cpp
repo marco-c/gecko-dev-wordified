@@ -415,7 +415,8 @@ min_y
 )
 ;
 }
-void
+Matrix
+&
 Matrix
 :
 :
@@ -458,6 +459,10 @@ NudgeToInteger
 &
 _32
 )
+;
+return
+*
+this
 ;
 }
 Rect
