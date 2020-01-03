@@ -3124,6 +3124,17 @@ aGlobal
 |
 |
 !
+IDBLocaleAwareKeyRangeBinding
+:
+:
+GetConstructorObject
+(
+aCx
+aGlobal
+)
+|
+|
+!
 IDBMutableFileBinding
 :
 :
