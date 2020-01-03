@@ -931,13 +931,6 @@ testSameOriginBlobURL
 )
 /
 /
-.
-then
-(
-testAboutURL
-)
-/
-/
 Put
 more
 promise
