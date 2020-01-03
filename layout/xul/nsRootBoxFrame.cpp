@@ -287,6 +287,7 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsRootBoxFrame
 (
 nsStyleContext
