@@ -27928,7 +27928,6 @@ compartment
 >
 isSelfHosting
 )
-{
 script_
 -
 >
@@ -27941,5 +27940,4 @@ script_
 =
 nullptr
 ;
-}
 }
