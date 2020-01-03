@@ -4059,7 +4059,7 @@ textureClient
 mTextureClientAllocator
 -
 >
-CreateOrRecycleForDrawing
+CreateOrRecycle
 (
 gfx
 :
