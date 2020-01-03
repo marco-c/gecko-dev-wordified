@@ -6898,15 +6898,15 @@ AKEYCODE_CAPTIONS
 )
 /
 /
-Zoom
+ZoomToggle
 KEY_MAP_WIN
 (
-Zoom
+ZoomToggle
 VK_ZOOM
 )
 KEY_MAP_QT
 (
-Zoom
+ZoomToggle
 Qt
 :
 :
@@ -6992,7 +6992,7 @@ Key_Zoom
 *
 *
 *
-Deplicated
+Deprecated
 *
 *
 *

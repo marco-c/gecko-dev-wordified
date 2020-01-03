@@ -4212,13 +4212,8 @@ Wink
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
-Zoom
-)
-/
-/
-Rename
-to
 ZoomToggle
+)
 /
 *
 *
