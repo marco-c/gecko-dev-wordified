@@ -44824,7 +44824,7 @@ min_expiration_ms
 ;
 /
 /
-60ms
+60s
 /
 /
 Maximum
