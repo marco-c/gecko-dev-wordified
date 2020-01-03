@@ -3826,15 +3826,6 @@ the
 extents
 wrong
 .
-nsSVGUtils
-:
-:
-SetupCairoStrokeBBoxGeometry
-(
-this
-tmpCtx
-)
-;
 pathExtents
 .
 MoveTo
