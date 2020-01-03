@@ -4079,12 +4079,6 @@ addBrowserActors
 )
 ;
 }
-DebuggerServer
-.
-allowChromeProcess
-=
-true
-;
 this
 .
 frame
