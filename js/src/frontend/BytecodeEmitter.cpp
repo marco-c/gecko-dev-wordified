@@ -22243,10 +22243,6 @@ emitOption
 DefineVars
 )
 ;
-ParseNode
-*
-pn3
-;
 bool
 doElemOp
 ;
@@ -22453,11 +22449,13 @@ colon
 in
 the
 object
+*
 initialiser
 .
-*
 Set
-pn3
+|
+subpattern
+|
 to
 the
 lvalue
@@ -22466,6 +22464,7 @@ which
 is
 in
 the
+*
 value
 -
 initializing
@@ -22473,6 +22472,10 @@ position
 .
 *
 /
+ParseNode
+*
+subpattern
+;
 if
 (
 pattern
@@ -22803,7 +22806,7 @@ stackDepth
 )
 ;
 }
-pn3
+subpattern
 =
 member
 -
@@ -23252,7 +23255,7 @@ return
 false
 ;
 }
-pn3
+subpattern
 =
 member
 ;
@@ -23273,7 +23276,7 @@ destructurer
 /
 if
 (
-pn3
+subpattern
 -
 >
 isKind
@@ -23298,7 +23301,7 @@ JS_ASSERT
 member
 =
 =
-pn3
+subpattern
 )
 ;
 if
@@ -23333,7 +23336,7 @@ EmitDestructuringLHS
 (
 cx
 bce
-pn3
+subpattern
 emitOption
 )
 )
@@ -23528,7 +23531,7 @@ bce
 >
 reportError
 (
-pn3
+subpattern
 JSMSG_TOO_MANY_LOCALS
 )
 ;
