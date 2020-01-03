@@ -429,6 +429,7 @@ samples
 stackTable
 frameTable
 stringTable
+allocationsTable
 }
 =
 thread
@@ -468,6 +469,7 @@ samples
 stackTable
 frameTable
 stringTable
+allocationsTable
 options
 )
 ;
@@ -615,6 +617,26 @@ backend
 *
 param
 object
+allocationsTable
+*
+The
+table
+of
+allocation
+counts
+from
+the
+backend
+.
+Indexed
+by
+frame
+*
+index
+.
+*
+param
+object
 options
 *
 Additional
@@ -659,6 +681,7 @@ samples
 stackTable
 frameTable
 stringTable
+allocationsTable
 options
 )
 {
@@ -1591,6 +1614,7 @@ inflatedFrameCache
 frameIndex
 frameTable
 stringTable
+allocationsTable
 )
 ;
 /
@@ -2572,7 +2596,7 @@ this
 .
 allocations
 =
-0
+allocations
 ;
 this
 .

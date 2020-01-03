@@ -1457,6 +1457,10 @@ param
 object
 stringTable
 *
+param
+object
+allocationsTable
+*
 /
 exports
 .
@@ -1469,6 +1473,7 @@ cache
 index
 frameTable
 stringTable
+allocationsTable
 )
 {
 let
@@ -1501,6 +1506,7 @@ InflatedFrame
 index
 frameTable
 stringTable
+allocationsTable
 )
 ;
 }
@@ -1537,6 +1543,10 @@ param
 object
 stringTable
 *
+param
+object
+allocationsTable
+*
 /
 function
 InflatedFrame
@@ -1544,6 +1554,7 @@ InflatedFrame
 index
 frameTable
 stringTable
+allocationsTable
 )
 {
 const
@@ -1650,6 +1661,19 @@ category
 |
 |
 CATEGORY_OTHER
+;
+this
+.
+allocations
+=
+allocationsTable
+?
+allocationsTable
+[
+index
+]
+:
+0
 ;
 this
 .
