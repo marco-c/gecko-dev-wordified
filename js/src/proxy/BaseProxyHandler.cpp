@@ -1304,7 +1304,7 @@ length
 if
 (
 !
-getOwnPropertyNames
+ownPropertyKeys
 (
 cx
 proxy

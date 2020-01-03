@@ -329,7 +329,7 @@ desc
 )
 ;
 bool
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -853,7 +853,7 @@ obj
 )
 ;
 bool
-getPropertyNames
+getPropertyKeys
 (
 JSContext
 *

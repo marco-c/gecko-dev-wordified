@@ -308,7 +308,7 @@ desc
 ;
 static
 bool
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *

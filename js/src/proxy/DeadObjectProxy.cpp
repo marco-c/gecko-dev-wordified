@@ -341,7 +341,7 @@ bool
 DeadObjectProxy
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *

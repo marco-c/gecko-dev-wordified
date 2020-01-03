@@ -1858,7 +1858,7 @@ aObj
 )
 -
 >
-getOwnPropertyNames
+ownPropertyKeys
 (
 aCx
 aObj

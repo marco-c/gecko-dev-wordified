@@ -549,7 +549,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -653,7 +653,7 @@ subclasses
 to
 implement
 shared
-getOwnPropertyNames
+ownPropertyKeys
 (
 )
 /
@@ -686,7 +686,7 @@ JSITER_OWNONLY
 JSITER_HIDDEN
 (
 for
-getOwnPropertyNames
+ownPropertyKeys
 (
 )
 )

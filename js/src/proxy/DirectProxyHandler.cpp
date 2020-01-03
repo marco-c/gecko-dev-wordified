@@ -405,7 +405,7 @@ bool
 DirectProxyHandler
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *

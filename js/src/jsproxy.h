@@ -1460,7 +1460,7 @@ const
 ;
 virtual
 bool
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -2270,7 +2270,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *

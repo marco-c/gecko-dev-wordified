@@ -76410,7 +76410,7 @@ obj
 )
 -
 >
-getOwnPropertyNames
+ownPropertyKeys
 (
 cx
 wrapper
@@ -84888,7 +84888,7 @@ self
 #
 Just
 like
-getOwnPropertyNames
+ownPropertyKeys
 we
 '
 ll

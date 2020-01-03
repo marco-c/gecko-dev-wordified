@@ -660,7 +660,7 @@ Policy
 >
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -688,7 +688,7 @@ return
 Base
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 cx
 wrapper
@@ -1439,7 +1439,7 @@ bool
 CrossOriginXrayWrapper
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *

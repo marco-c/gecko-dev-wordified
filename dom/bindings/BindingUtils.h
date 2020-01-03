@@ -14119,8 +14119,14 @@ defined
 *
 *
 *
-This
-enumerates
+Add
+to
+props
+the
+property
+keys
+of
+all
 indexed
 or
 named
@@ -14128,9 +14134,9 @@ properties
 of
 obj
 and
+*
 operations
 attributes
-*
 and
 constants
 of
@@ -14182,7 +14188,7 @@ flags
 *
 /
 bool
-XrayEnumerateProperties
+XrayOwnPropertyKeys
 (
 JSContext
 *
