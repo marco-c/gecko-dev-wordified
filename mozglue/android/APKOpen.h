@@ -115,6 +115,16 @@ getLibraryMapping
 (
 )
 ;
+NS_EXPORT
+void
+abortThroughJava
+(
+const
+char
+*
+msg
+)
+;
 static
 const
 int
