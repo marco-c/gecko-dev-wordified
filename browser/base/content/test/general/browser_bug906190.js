@@ -1120,6 +1120,8 @@ getElementById
 (
 aIDForNextTest
 )
+.
+href
 ;
 gTestWin
 .
