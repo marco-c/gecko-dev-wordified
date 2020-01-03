@@ -454,10 +454,10 @@ CreateEncodedBasicConstraints
 (
 true
 nullptr
-ExtensionCriticality
-:
-:
 Critical
+:
+:
+Yes
 )
 ;
 EXPECT_FALSE

@@ -328,7 +328,8 @@ ASN
 .
 1
 CertStatus
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 CertStatus
 :
 uint8_t
@@ -1064,7 +1065,8 @@ return
 rv
 ;
 }
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 ResponderIDType
 :
 uint8_t

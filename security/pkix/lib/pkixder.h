@@ -563,7 +563,8 @@ UNIVERSAL
 0x18
 }
 ;
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 EmptyAllowed
 {
 No
@@ -2921,7 +2922,8 @@ only
 supports
 v1
 .
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 Version
 {
 v1
