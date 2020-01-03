@@ -1200,7 +1200,7 @@ eBasicEventClass
 EVENT
 (
 loadedmetadata
-NS_LOADEDMETADATA
+eLoadedMetaData
 EventNameType_HTML
 eBasicEventClass
 )
