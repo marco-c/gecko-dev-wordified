@@ -17083,7 +17083,7 @@ pinned
 int64_t
 startOffset
 =
-GetNextCachedData
+GetNextCachedDataInternal
 (
 0
 )
@@ -17099,7 +17099,7 @@ startOffset
 int64_t
 endOffset
 =
-GetCachedDataEnd
+GetCachedDataEndInternal
 (
 startOffset
 )
@@ -17145,7 +17145,7 @@ endOffset
 ;
 startOffset
 =
-GetNextCachedData
+GetNextCachedDataInternal
 (
 endOffset
 )
