@@ -3492,6 +3492,10 @@ Value
 }
 else
 {
+AutoNoJSAPI
+(
+)
+;
 MediaManager
 *
 manager

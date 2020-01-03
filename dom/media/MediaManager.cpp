@@ -9672,14 +9672,8 @@ privileged
 nsContentUtils
 :
 :
-IsChromeDoc
+IsCallerChrome
 (
-aWindow
--
->
-GetExtantDoc
-(
-)
 )
 ;
 nsCOMPtr
