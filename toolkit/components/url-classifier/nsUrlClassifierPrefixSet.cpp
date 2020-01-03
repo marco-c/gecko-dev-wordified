@@ -1892,6 +1892,17 @@ if
 (
 numInDelta
 >
+DELTAS_LIMIT
+)
+{
+return
+NS_ERROR_FILE_CORRUPTED
+;
+}
+if
+(
+numInDelta
+>
 0
 )
 {
