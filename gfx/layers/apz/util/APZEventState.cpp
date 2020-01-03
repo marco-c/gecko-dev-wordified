@@ -1564,7 +1564,7 @@ NS_TOUCH_CANCEL
 mActiveElementManager
 -
 >
-HandleTouchEnd
+HandleTouchEndEvent
 (
 mEndTouchIsClick
 )
@@ -1958,6 +1958,13 @@ EndTouch
 mEndTouchIsClick
 =
 aArg
+;
+mActiveElementManager
+-
+>
+HandleTouchEnd
+(
+)
 ;
 break
 ;
