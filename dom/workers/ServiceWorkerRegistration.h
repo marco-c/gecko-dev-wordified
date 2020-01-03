@@ -581,6 +581,9 @@ const
 NotificationOptions
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -593,6 +596,9 @@ const
 GetNotificationOptions
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -917,6 +923,9 @@ const
 NotificationOptions
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -929,6 +938,9 @@ const
 GetNotificationOptions
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
