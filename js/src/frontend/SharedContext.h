@@ -2093,7 +2093,6 @@ ObjectBox
 toObjectBox
 (
 )
-override
 {
 return
 nullptr
@@ -2384,7 +2383,6 @@ ObjectBox
 toObjectBox
 (
 )
-override
 {
 return
 this
