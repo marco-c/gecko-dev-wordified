@@ -8018,6 +8018,7 @@ uint32_t
 GetContentFlags
 (
 )
+const
 {
 return
 mContentFlags
@@ -13544,6 +13545,10 @@ mIsGLAlphaPremult
 (
 true
 )
+mIsElemFullscreen
+(
+false
+)
 {
 }
 /
@@ -13669,6 +13674,9 @@ premultiplied
 .
 bool
 mIsGLAlphaPremult
+;
+bool
+mIsElemFullscreen
 ;
 }
 ;
@@ -14221,6 +14229,12 @@ aTransformToSurface
 )
 ;
 }
+bool
+MustLayerUpdateBeSynchronous
+(
+)
+const
+;
 protected
 :
 CanvasLayer
@@ -14262,6 +14276,10 @@ GraphicsFilter
 FILTER_GOOD
 )
 mDirty
+(
+false
+)
+mIsElemFullscreen
 (
 false
 )
@@ -14346,6 +14364,9 @@ mPostTransCallbackData
 ;
 GraphicsFilter
 mFilter
+;
+bool
+mIsElemFullscreen
 ;
 private
 :

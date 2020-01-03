@@ -982,7 +982,10 @@ GetIsOpaque
 MOZ_OVERRIDE
 {
 return
-false
+!
+HasAlpha
+(
+)
 ;
 }
 NS_IMETHOD
@@ -1438,6 +1441,12 @@ mOptions
 premultipliedAlpha
 ;
 }
+bool
+HasAlpha
+(
+)
+const
+;
 bool
 PresentScreenBuffer
 (
