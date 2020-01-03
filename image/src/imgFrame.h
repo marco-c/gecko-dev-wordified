@@ -728,7 +728,7 @@ CachedSurface
 )
 ;
 size_t
-SizeOfExcludingThis
+SizeOfExcludingThisWithComputedFallbackIfHeap
 (
 gfxMemoryLocation
 aLocation
