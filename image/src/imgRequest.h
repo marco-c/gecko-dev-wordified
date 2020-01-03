@@ -489,16 +489,6 @@ s
 instantiated
 .
 nsresult
-LockImage
-(
-)
-;
-nsresult
-UnlockImage
-(
-)
-;
-nsresult
 StartDecoding
 (
 )
