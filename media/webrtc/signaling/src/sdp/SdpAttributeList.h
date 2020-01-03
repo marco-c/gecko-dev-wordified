@@ -156,6 +156,13 @@ SdpAttributeList
 {
 public
 :
+virtual
+~
+SdpAttributeList
+(
+)
+{
+}
 typedef
 SdpAttribute
 :
