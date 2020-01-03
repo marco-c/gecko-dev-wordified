@@ -1576,6 +1576,10 @@ mUsingNackBasic
 (
 false
 )
+mUsingTmmbr
+(
+false
+)
 {
 }
 virtual
@@ -2150,6 +2154,16 @@ return
 mUsingNackBasic
 ;
 }
+bool
+UsingTmmbr
+(
+)
+const
+{
+return
+mUsingTmmbr
+;
+}
 protected
 :
 /
@@ -2168,6 +2182,9 @@ mFrameRequestMethod
 ;
 bool
 mUsingNackBasic
+;
+bool
+mUsingTmmbr
 ;
 }
 ;

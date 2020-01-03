@@ -284,6 +284,15 @@ t
 set
 NACK
 mode
+kMediaConduitTMMBRStatusError
+/
+/
+Can
+'
+t
+set
+TMMBR
+mode
 }
 ;
 }
