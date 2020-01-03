@@ -110,12 +110,6 @@ depend
 on
 it
 import
-ctypes
-import
-errno
-import
-json
-import
 os
 import
 platform
@@ -123,8 +117,6 @@ import
 re
 import
 sys
-import
-mozfile
 #
 keep
 a
@@ -818,6 +810,12 @@ linux
 '
 :
     
+import
+ctypes
+    
+import
+errno
+    
 PR_SET_SECCOMP
 =
 22
@@ -1129,6 +1127,16 @@ new_info
 basestring
 )
 :
+        
+#
+lazy
+import
+        
+import
+mozfile
+        
+import
+json
         
 f
 =
@@ -1629,6 +1637,13 @@ info
 if
 args
 :
+        
+#
+lazy
+import
+        
+import
+json
         
 for
 arg
