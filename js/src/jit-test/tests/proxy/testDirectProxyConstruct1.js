@@ -10,6 +10,9 @@ trap
 is
 undefined
 var
+p
+;
+var
 target
 =
 function
@@ -18,6 +21,14 @@ x
 y
 )
 {
+assertEq
+(
+new
+.
+target
+p
+)
+;
 this
 .
 foo
@@ -29,7 +40,6 @@ y
 }
 for
 (
-let
 p
 of
 [
