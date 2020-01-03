@@ -1095,10 +1095,7 @@ GetId
 )
 nullptr
 aTexture
-FenceHandleFromChild
-(
 aFence
-)
 )
 )
 ;
