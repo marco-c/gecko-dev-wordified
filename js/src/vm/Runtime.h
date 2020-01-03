@@ -2116,12 +2116,11 @@ Shape
 :
 writeBarrierPost
 (
-&
 dst
 -
 >
 shape_
-nullptr
+&
 dst
 -
 >
@@ -2133,12 +2132,11 @@ ObjectGroup
 :
 writeBarrierPost
 (
-&
 dst
 -
 >
 group_
-nullptr
+&
 dst
 -
 >

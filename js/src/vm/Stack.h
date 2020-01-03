@@ -2739,6 +2739,11 @@ Value
 )
 ;
 }
+void
+writeBarrierPost
+(
+)
+;
 /
 *
 *
