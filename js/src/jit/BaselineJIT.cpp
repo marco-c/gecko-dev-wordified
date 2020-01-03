@@ -1826,11 +1826,9 @@ js_JitOptions
 .
 baselineWarmUpThreshold
 )
-{
 return
 Method_Skipped
 ;
-}
 if
 (
 script
