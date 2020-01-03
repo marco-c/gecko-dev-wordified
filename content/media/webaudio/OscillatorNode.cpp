@@ -3177,6 +3177,11 @@ s
 not
 shared
 .
+if
+(
+mPeriodicWave
+)
+{
 amount
 +
 =
@@ -3188,6 +3193,7 @@ SizeOfIncludingThisIfNotShared
 aMallocSizeOf
 )
 ;
+}
 amount
 +
 =
