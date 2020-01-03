@@ -489,12 +489,8 @@ nsIOService
 )
 ;
 nsresult
-OnNetworkLinkEvent
+TrackNetworkLinkStatusForOffline
 (
-const
-char
-*
-data
 )
 ;
 nsresult
@@ -707,9 +703,6 @@ mRestrictedPortList
 ;
 bool
 mAutoDialEnabled
-;
-bool
-mNetworkNotifyChanged
 ;
 public
 :

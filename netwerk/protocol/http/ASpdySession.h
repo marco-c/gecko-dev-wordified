@@ -240,14 +240,6 @@ return
 true
 ;
 }
-virtual
-void
-SendPing
-(
-)
-=
-0
-;
 const
 static
 uint32_t
