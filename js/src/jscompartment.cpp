@@ -362,6 +362,10 @@ marked
 (
 true
 )
+warnedAboutNoSuchMethod
+(
+false
+)
 addonId
 (
 options

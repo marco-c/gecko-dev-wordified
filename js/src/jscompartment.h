@@ -877,6 +877,9 @@ isSelfHosting
 bool
 marked
 ;
+bool
+warnedAboutNoSuchMethod
+;
 /
 /
 A
