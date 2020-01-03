@@ -606,6 +606,10 @@ const
 OptionalCorsPreflightArgs
 &
 aCorsPreflightArgs
+const
+uint32_t
+&
+aInitialRwin
 )
 ;
 virtual

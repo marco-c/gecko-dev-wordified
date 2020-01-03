@@ -966,6 +966,11 @@ a
 preflightArgs
 (
 )
+a
+.
+initialRwin
+(
+)
 )
 ;
 }
@@ -2038,6 +2043,10 @@ const
 OptionalCorsPreflightArgs
 &
 aCorsPreflightArgs
+const
+uint32_t
+&
+aInitialRwin
 )
 {
 nsCOMPtr
@@ -3050,6 +3059,14 @@ mChannel
 SetAllowAltSvc
 (
 allowAltSvc
+)
+;
+mChannel
+-
+>
+SetInitialRwin
+(
+aInitialRwin
 )
 ;
 nsCOMPtr

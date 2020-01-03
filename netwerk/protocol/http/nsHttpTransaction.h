@@ -1081,6 +1081,17 @@ mPushedStream
 push
 ;
 }
+uint32_t
+InitialRwin
+(
+)
+const
+{
+return
+mInitialRwin
+;
+}
+;
 /
 /
 Locked
@@ -1725,6 +1736,9 @@ mInvalidResponseBytesRead
 Http2PushedStream
 *
 mPushedStream
+;
+uint32_t
+mInitialRwin
 ;
 nsHttpChunkedDecoder
 *
