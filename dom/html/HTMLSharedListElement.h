@@ -334,7 +334,7 @@ rv
 void
 GetType
 (
-nsString
+DOMString
 &
 aType
 )

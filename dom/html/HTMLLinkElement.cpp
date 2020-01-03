@@ -594,7 +594,7 @@ HTMLLinkElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )

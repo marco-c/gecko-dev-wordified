@@ -664,7 +664,7 @@ aError
 void
 GetRel
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -947,7 +947,7 @@ virtual
 void
 GetItemValueText
 (
-nsAString
+DOMString
 &
 text
 )

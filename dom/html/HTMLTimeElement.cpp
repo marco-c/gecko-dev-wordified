@@ -209,7 +209,7 @@ HTMLTimeElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 text
 )

@@ -270,7 +270,7 @@ const
 void
 GetHeaders
 (
-nsString
+DOMString
 &
 aHeaders
 )
@@ -317,7 +317,7 @@ const
 void
 GetAbbr
 (
-nsString
+DOMString
 &
 aAbbr
 )
@@ -358,7 +358,7 @@ aError
 void
 GetScope
 (
-nsString
+DOMString
 &
 aScope
 )
@@ -399,7 +399,7 @@ aError
 void
 GetAlign
 (
-nsString
+DOMString
 &
 aAlign
 )
@@ -430,7 +430,7 @@ aError
 void
 GetAxis
 (
-nsString
+DOMString
 &
 aAxis
 )
@@ -471,7 +471,7 @@ aError
 void
 GetHeight
 (
-nsString
+DOMString
 &
 aHeight
 )
@@ -512,7 +512,7 @@ aError
 void
 GetWidth
 (
-nsString
+DOMString
 &
 aWidth
 )
@@ -553,7 +553,7 @@ aError
 void
 GetCh
 (
-nsString
+DOMString
 &
 aCh
 )
@@ -594,7 +594,7 @@ aError
 void
 GetChOff
 (
-nsString
+DOMString
 &
 aChOff
 )
@@ -671,7 +671,7 @@ aError
 void
 GetVAlign
 (
-nsString
+DOMString
 &
 aVAlign
 )
@@ -712,7 +712,7 @@ aError
 void
 GetBgColor
 (
-nsString
+DOMString
 &
 aBgColor
 )

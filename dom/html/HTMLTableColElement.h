@@ -198,7 +198,7 @@ aError
 void
 GetAlign
 (
-nsString
+DOMString
 &
 aAlign
 )
@@ -239,7 +239,7 @@ aError
 void
 GetCh
 (
-nsString
+DOMString
 &
 aCh
 )
@@ -280,7 +280,7 @@ aError
 void
 GetChOff
 (
-nsString
+DOMString
 &
 aChOff
 )
@@ -321,7 +321,7 @@ aError
 void
 GetVAlign
 (
-nsString
+DOMString
 &
 aVAlign
 )
@@ -362,7 +362,7 @@ aError
 void
 GetWidth
 (
-nsString
+DOMString
 &
 aWidth
 )

@@ -400,7 +400,7 @@ GetForm
 void
 GetAlign
 (
-nsAString
+DOMString
 &
 aAlign
 )

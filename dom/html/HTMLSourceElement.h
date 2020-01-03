@@ -401,7 +401,7 @@ rv
 void
 GetType
 (
-nsString
+DOMString
 &
 aType
 )
@@ -442,7 +442,7 @@ rv
 void
 GetSrcset
 (
-nsString
+DOMString
 &
 aSrcset
 )
@@ -486,7 +486,7 @@ rv
 void
 GetSizes
 (
-nsString
+DOMString
 &
 aSizes
 )
@@ -530,7 +530,7 @@ rv
 void
 GetMedia
 (
-nsString
+DOMString
 &
 aMedia
 )
@@ -596,7 +596,7 @@ virtual
 void
 GetItemValueText
 (
-nsAString
+DOMString
 &
 text
 )

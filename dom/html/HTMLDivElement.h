@@ -178,7 +178,7 @@ aAlign
 )
 MOZ_OVERRIDE
 {
-nsString
+DOMString
 align
 ;
 GetAlign
@@ -186,9 +186,12 @@ GetAlign
 align
 )
 ;
-aAlign
-=
 align
+.
+ToString
+(
+aAlign
+)
 ;
 return
 NS_OK
@@ -227,7 +230,7 @@ ErrorCode
 void
 GetAlign
 (
-nsString
+DOMString
 &
 aAlign
 )

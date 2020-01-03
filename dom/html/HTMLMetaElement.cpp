@@ -222,7 +222,7 @@ HTMLMetaElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )

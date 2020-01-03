@@ -12516,7 +12516,7 @@ HTMLMediaElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )

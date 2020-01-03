@@ -156,7 +156,7 @@ aNodeInfo
 void
 GetColor
 (
-nsString
+DOMString
 &
 aColor
 )
@@ -197,7 +197,7 @@ aError
 void
 GetFace
 (
-nsString
+DOMString
 &
 aFace
 )
@@ -238,7 +238,7 @@ aError
 void
 GetSize
 (
-nsString
+DOMString
 &
 aSize
 )

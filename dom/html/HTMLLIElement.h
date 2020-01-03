@@ -239,7 +239,7 @@ API
 void
 GetType
 (
-nsString
+DOMString
 &
 aType
 )

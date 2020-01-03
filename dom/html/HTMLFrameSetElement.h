@@ -367,7 +367,7 @@ NS_DECL_NSIDOMHTMLFRAMESETELEMENT
 void
 GetCols
 (
-nsString
+DOMString
 &
 aCols
 )
@@ -408,7 +408,7 @@ aError
 void
 GetRows
 (
-nsString
+DOMString
 &
 aRows
 )

@@ -221,7 +221,7 @@ nsAString
 aCols
 )
 {
-nsString
+DOMString
 cols
 ;
 GetCols
@@ -229,9 +229,12 @@ GetCols
 cols
 )
 ;
-aCols
-=
 cols
+.
+ToString
+(
+aCols
+)
 ;
 return
 NS_OK
@@ -277,7 +280,7 @@ nsAString
 aRows
 )
 {
-nsString
+DOMString
 rows
 ;
 GetRows
@@ -285,9 +288,12 @@ GetRows
 rows
 )
 ;
-aRows
-=
 rows
+.
+ToString
+(
+aRows
+)
 ;
 return
 NS_OK
