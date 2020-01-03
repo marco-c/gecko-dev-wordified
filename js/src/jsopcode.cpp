@@ -870,6 +870,12 @@ JSOP_EVAL
 op
 =
 =
+JSOP_STRICTEVAL
+|
+|
+op
+=
+=
 JSOP_FUNCALL
 |
 |
