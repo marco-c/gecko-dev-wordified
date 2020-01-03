@@ -1995,7 +1995,7 @@ rv
 noErr
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 AppleVDADecoder
