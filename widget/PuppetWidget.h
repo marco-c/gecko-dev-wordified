@@ -221,13 +221,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -267,8 +260,6 @@ PuppetWidget
 :
 public
 nsBaseWidget
-public
-nsSupportsWeakReference
 {
 typedef
 mozilla

@@ -557,6 +557,11 @@ double
 aMouseY
 )
 ;
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+nsWindow
+nsBaseWidget
+)
 nsWindow
 :
 :
@@ -7662,12 +7667,6 @@ Sort
 /
 /
 /
-NS_IMPL_ISUPPORTS_INHERITED
-(
-nsWindow
-nsBaseWidget
-nsISupportsWeakReference
-)
 void
 nsWindow
 :

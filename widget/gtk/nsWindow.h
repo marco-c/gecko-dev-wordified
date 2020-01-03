@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsIDragService
 .
 h
@@ -402,8 +395,6 @@ nsWindow
 :
 public
 nsBaseWidget
-public
-nsSupportsWeakReference
 {
 public
 :

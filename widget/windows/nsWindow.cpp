@@ -30309,7 +30309,7 @@ already
 .
 nsCOMPtr
 <
-nsISupports
+nsIWidget
 >
 kungFuDeathGrip
 ;
@@ -30323,14 +30323,7 @@ mInDtor
 )
 kungFuDeathGrip
 =
-do_QueryInterface
-(
-(
-nsBaseWidget
-*
-)
 targetWindow
-)
 ;
 targetWindow
 -

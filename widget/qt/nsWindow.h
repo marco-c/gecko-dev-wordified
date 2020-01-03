@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -407,8 +400,6 @@ nsWindow
 :
 public
 nsBaseWidget
-public
-nsSupportsWeakReference
 {
 public
 :

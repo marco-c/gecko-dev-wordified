@@ -196,6 +196,13 @@ h
 "
 #
 include
+"
+nsWeakReference
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -418,6 +425,8 @@ nsBaseWidget
 :
 public
 nsIWidget
+public
+nsSupportsWeakReference
 {
 friend
 class
