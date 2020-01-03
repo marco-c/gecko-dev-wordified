@@ -111,7 +111,7 @@ prototype
 "
 [
 object
-WeakSet
+Object
 ]
 "
 )
