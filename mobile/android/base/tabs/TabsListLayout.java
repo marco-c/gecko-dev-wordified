@@ -1055,6 +1055,9 @@ TITLE
 case
 RECORDING_CHANGE
 :
+case
+AUDIO_PLAYING_CHANGE
+:
 View
 view
 =
