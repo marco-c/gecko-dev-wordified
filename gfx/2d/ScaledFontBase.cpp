@@ -112,6 +112,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkPaint
 .
 h

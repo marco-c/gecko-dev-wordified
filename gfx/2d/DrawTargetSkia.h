@@ -104,6 +104,10 @@ include
 "
 skia
 /
+include
+/
+gpu
+/
 GrContext
 .
 h
@@ -112,6 +116,12 @@ h
 include
 "
 skia
+/
+include
+/
+gpu
+/
+gl
 /
 GrGLInterface
 .
@@ -123,6 +133,10 @@ endif
 include
 "
 skia
+/
+include
+/
+core
 /
 SkCanvas
 .

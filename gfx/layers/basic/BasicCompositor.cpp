@@ -214,6 +214,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -226,6 +230,10 @@ SkCanvas
 include
 "
 skia
+/
+include
+/
+core
 /
 SkBitmapDevice
 .

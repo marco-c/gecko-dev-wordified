@@ -145,6 +145,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkTypeface
 .
 h
@@ -153,6 +157,10 @@ h
 include
 "
 skia
+/
+include
+/
+ports
 /
 SkTypeface_cairo
 .

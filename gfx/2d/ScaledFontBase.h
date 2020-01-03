@@ -140,6 +140,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkPath
 .
 h
@@ -148,6 +152,10 @@ h
 include
 "
 skia
+/
+include
+/
+core
 /
 SkTypeface
 .

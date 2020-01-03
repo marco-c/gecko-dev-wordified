@@ -347,6 +347,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkTypes
 .
 h

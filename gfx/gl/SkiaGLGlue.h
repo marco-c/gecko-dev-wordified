@@ -118,6 +118,12 @@ include
 "
 skia
 /
+include
+/
+gpu
+/
+gl
+/
 GrGLInterface
 .
 h
@@ -126,6 +132,10 @@ h
 include
 "
 skia
+/
+include
+/
+gpu
 /
 GrContext
 .

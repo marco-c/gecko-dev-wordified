@@ -108,6 +108,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkPath
 .
 h
