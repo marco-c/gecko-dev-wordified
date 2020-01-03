@@ -210,6 +210,9 @@ a
 v
 :
 i
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -223,6 +226,9 @@ v
 a
 .
 v
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -236,6 +242,9 @@ v
 b
 .
 v
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -249,6 +258,9 @@ v
 c
 .
 v
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -262,6 +274,9 @@ v
 d
 .
 v
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -461,6 +476,9 @@ v
 )
 /
 4
+notunboxed
+:
+undefined
 }
 ;
 }
@@ -498,6 +516,9 @@ a
 v
 :
 i
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -511,6 +532,9 @@ v
 a
 .
 v
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -524,6 +548,9 @@ v
 b
 .
 v
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -537,6 +564,9 @@ v
 c
 .
 v
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -550,6 +580,9 @@ v
 d
 .
 v
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -684,6 +717,9 @@ return
 test
 :
 i
+notunboxed
+:
+undefined
 }
 ;
 }
@@ -715,6 +751,9 @@ obj
 test
 :
 i
+notunboxed
+:
+undefined
 }
 ;
 var
@@ -769,6 +808,9 @@ obj
 test
 :
 i
+notunboxed
+:
+undefined
 }
 ;
 switch
@@ -926,6 +968,9 @@ obj
 foo
 :
 i
+notunboxed
+:
+undefined
 }
 ;
 x
@@ -954,6 +999,9 @@ obj
 bar
 :
 i
+notunboxed
+:
+undefined
 }
 ;
 x
@@ -1008,6 +1056,9 @@ obj
 foo
 :
 i
+notunboxed
+:
+undefined
 }
 ;
 assertEq
@@ -1311,6 +1362,9 @@ p50
 i
 +
 50
+notunboxed
+:
+undefined
 }
 ;
 /
@@ -1426,6 +1480,12 @@ this
 y
 =
 y
+;
+this
+.
+notUnboxed
+=
+undefined
 ;
 }
 function
