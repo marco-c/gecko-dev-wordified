@@ -711,6 +711,12 @@ NS_IMPL_RELEASE_INHERITED
 HTMLImageElement
 Element
 )
+NS_IMPL_CYCLE_COLLECTION_INHERITED
+(
+HTMLImageElement
+nsGenericHTMLElement
+mResponsiveSelector
+)
 /
 /
 QueryInterface

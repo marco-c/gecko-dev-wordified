@@ -143,6 +143,13 @@ Units
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 /
 /
 Only
@@ -246,6 +253,11 @@ ErrorResult
 aError
 )
 ;
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+HTMLImageElement
+nsGenericHTMLElement
+)
 /
 /
 nsISupports
