@@ -729,8 +729,6 @@ message
 expected
 %
 s
-\
-n
 "
 %
 data
