@@ -146,7 +146,6 @@ MozLoopService
 .
 register
 (
-mockPushHandler
 )
 .
 then
