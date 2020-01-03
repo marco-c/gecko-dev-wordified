@@ -5256,7 +5256,10 @@ struct
 DumpHeapTracer
 :
 public
-JSTracer
+JS
+:
+:
+CallbackTracer
 {
 FILE
 *
@@ -5276,7 +5279,10 @@ WeakMapTraceKind
 weakTraceKind
 )
 :
-JSTracer
+JS
+:
+:
+CallbackTracer
 (
 rt
 callback
@@ -5687,7 +5693,10 @@ static
 void
 DumpHeapVisitChild
 (
-JSTracer
+JS
+:
+:
+CallbackTracer
 *
 trc
 void
@@ -5782,7 +5791,10 @@ static
 void
 DumpHeapVisitRoot
 (
-JSTracer
+JS
+:
+:
+CallbackTracer
 *
 trc
 void

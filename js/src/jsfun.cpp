@@ -5195,9 +5195,11 @@ runtime
 ;
 if
 (
-IsMarkingTracer
-(
 trc
+-
+>
+isMarkingTracer
+(
 )
 &
 &

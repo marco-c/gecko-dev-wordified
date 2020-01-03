@@ -13986,7 +13986,10 @@ DEBUG
 void
 VerifyTraceProtoAndIfaceCacheCalled
 (
-JSTracer
+JS
+:
+:
+CallbackTracer
 *
 trc
 void

@@ -431,7 +431,10 @@ ignoreClasses
 =
 {
 "
-JSTracer
+JS
+:
+:
+CallbackTracer
 "
 :
 true

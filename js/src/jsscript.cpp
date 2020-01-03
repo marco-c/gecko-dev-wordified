@@ -23045,9 +23045,11 @@ fullyInitTrivial
 .
 MOZ_ASSERT_IF
 (
-IsMarkingTracer
-(
 trc
+-
+>
+isMarkingTracer
+(
 )
 &
 &
@@ -23295,9 +23297,11 @@ lazyScript
 ;
 if
 (
-IsMarkingTracer
-(
 trc
+-
+>
+isMarkingTracer
+(
 )
 )
 {
