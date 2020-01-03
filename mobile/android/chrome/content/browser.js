@@ -54460,6 +54460,9 @@ necessary
 if
 (
 prefs
+&
+&
+prefs
 [
 "
 lightweightThemes
@@ -54468,6 +54471,7 @@ isThemeSelected
 "
 ]
 )
+{
 Services
 .
 obs
@@ -54486,6 +54490,7 @@ apply
 "
 )
 ;
+}
 let
 localizedString
 =
