@@ -2209,12 +2209,6 @@ while
 parent
 instanceof
 View
-&
-&
-parent
-!
-=
-null
 )
 ;
 /

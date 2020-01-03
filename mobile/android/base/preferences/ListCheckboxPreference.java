@@ -278,12 +278,6 @@ checkbox
 if
 (
 checkboxView
-!
-=
-null
-&
-&
-checkboxView
 instanceof
 Checkable
 )

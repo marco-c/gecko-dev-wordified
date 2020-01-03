@@ -788,12 +788,6 @@ menuInfo
 {
 if
 (
-menuInfo
-=
-=
-null
-|
-|
 !
 (
 menuInfo
@@ -1143,12 +1137,6 @@ getMenuInfo
 ;
 if
 (
-menuInfo
-=
-=
-null
-|
-|
 !
 (
 menuInfo
