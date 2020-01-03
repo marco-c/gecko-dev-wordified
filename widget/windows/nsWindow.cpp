@@ -30502,15 +30502,11 @@ LPARAM
 lParam
 )
 {
-MOZ_RELEASE_ASSERT
-(
-!
 ipc
 :
 :
-ParentProcessIsBlocked
+CancelCPOWs
 (
-)
 )
 ;
 HangMonitor

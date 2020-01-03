@@ -4675,8 +4675,8 @@ mPeerPid
 ;
 }
 ;
-bool
-ParentProcessIsBlocked
+void
+CancelCPOWs
 (
 )
 ;
