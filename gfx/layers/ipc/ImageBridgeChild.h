@@ -1424,15 +1424,6 @@ ImageContainer
 aContainer
 )
 ;
-static
-void
-FlushAllImagesAsync
-(
-ImageClient
-*
-aClient
-)
-;
 /
 /
 CompositableForwarder
