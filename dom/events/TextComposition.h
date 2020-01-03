@@ -1896,8 +1896,6 @@ if
 aEventMessage
 is
 *
-NS_COMPOSITION_UPDATE
-or
 NS_COMPOSITION_END
 .
 *
