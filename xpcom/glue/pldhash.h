@@ -2143,6 +2143,7 @@ Iterator
 {
 public
 :
+explicit
 Iterator
 (
 const
