@@ -722,11 +722,6 @@ horizontal
 }
 )
 ;
-sendScrollCoordinates
-(
-position
-)
-;
 }
 }
 function
