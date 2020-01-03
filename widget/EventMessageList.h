@@ -1892,13 +1892,13 @@ notification
 events
 NS_EVENT_MESSAGE
 (
-NS_NOTIFYPAINT_START
+ePaintEventFirst
 3400
 )
 NS_EVENT_MESSAGE
 (
 NS_AFTERPAINT
-NS_NOTIFYPAINT_START
+ePaintEventFirst
 )
 /
 /
