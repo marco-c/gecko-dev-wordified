@@ -2156,7 +2156,7 @@ syncAutomatically
 setIsSyncable
 (
 account
-syncAutomatically
+true
 )
 ;
 Logger
