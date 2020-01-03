@@ -634,11 +634,11 @@ mNumberOfRilServices
 bool
 mObservingNetworkConnStateChange
 ;
+#
+endif
 bool
 mObservingSettingsChange
 ;
-#
-endif
 bool
 mSupportsSingleShot
 ;

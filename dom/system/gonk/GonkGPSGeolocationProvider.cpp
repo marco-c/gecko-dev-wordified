@@ -1479,12 +1479,12 @@ mObservingNetworkConnStateChange
 (
 false
 )
+#
+endif
 mObservingSettingsChange
 (
 false
 )
-#
-endif
 mSupportsSingleShot
 (
 false
@@ -5453,6 +5453,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_B2G_RIL
 else
 if
 (
@@ -5513,6 +5516,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 }
 return
 NS_OK
