@@ -1227,6 +1227,10 @@ bool
 allow_loopback
 =
 false
+bool
+tcp_enabled
+=
+true
 )
 ;
 /
