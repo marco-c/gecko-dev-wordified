@@ -607,11 +607,11 @@ return
 MozLoopServiceInternal
 .
 localizedStrings
-[
-stringID
-]
 .
-textContent
+get
+(
+stringID
+)
 ;
 }
 /
