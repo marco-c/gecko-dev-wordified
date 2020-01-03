@@ -195,9 +195,6 @@ mozilla
 :
 widget
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gGtkIMLog
@@ -410,8 +407,6 @@ Unknown
 ;
 }
 }
-#
-endif
 const
 static
 bool
@@ -496,9 +491,6 @@ mIsDeletingSurrounding
 false
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -515,8 +507,6 @@ nsGtkIMModuleWidgets
 )
 ;
 }
-#
-endif
 static
 bool
 sFirstInstance

@@ -1120,9 +1120,6 @@ aContext
 )
 const
 ;
-#
-ifdef
-PR_LOGGING
 const
 char
 *
@@ -1168,11 +1165,6 @@ InvaildState
 ;
 }
 }
-#
-endif
-/
-/
-PR_LOGGING
 /
 /
 mIsIMFocused

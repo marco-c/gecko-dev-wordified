@@ -1012,9 +1012,6 @@ guint
 aGdkKeyval
 )
 ;
-#
-ifdef
-PR_LOGGING
 static
 const
 char
@@ -1025,11 +1022,6 @@ Modifier
 aModifier
 )
 ;
-#
-endif
-/
-/
-PR_LOGGING
 /
 *
 *

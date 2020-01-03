@@ -293,17 +293,12 @@ nsIObserverService
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gWin32ClipboardLog
 =
 nullptr
 ;
-#
-endif
 /
 /
 oddly
@@ -503,9 +498,6 @@ nsBaseClipboard
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -522,8 +514,6 @@ nsClipboard
 )
 ;
 }
-#
-endif
 mIgnoreEmptyNotification
 =
 false

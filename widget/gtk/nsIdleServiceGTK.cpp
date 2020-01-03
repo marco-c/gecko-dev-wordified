@@ -153,9 +153,6 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -163,8 +160,6 @@ sIdleLog
 =
 nullptr
 ;
-#
-endif
 typedef
 bool
 (
@@ -297,9 +292,6 @@ xsslib
 ouch
 .
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 sIdleLog
@@ -319,8 +311,6 @@ n
 )
 )
 ;
-#
-endif
 return
 ;
 }
@@ -363,9 +353,6 @@ XScreenSaverQueryInfo
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -432,8 +419,6 @@ n
 )
 )
 ;
-#
-endif
 sInitialized
 =
 true
@@ -451,9 +436,6 @@ mXssInfo
 nullptr
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -468,8 +450,6 @@ nsIIdleService
 "
 )
 ;
-#
-endif
 Initialize
 (
 )
@@ -636,9 +616,6 @@ if
 dplay
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 sIdleLog
@@ -655,8 +632,6 @@ n
 )
 )
 ;
-#
-endif
 return
 false
 ;
@@ -749,9 +724,6 @@ get
 to
 XScreenSaver
 :
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 sIdleLog
@@ -768,8 +740,6 @@ n
 )
 )
 ;
-#
-endif
 return
 false
 ;

@@ -127,16 +127,11 @@ mozilla
 :
 widget
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gWindowsLog
 ;
-#
-endif
 #
 if
 defined

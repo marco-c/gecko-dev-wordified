@@ -329,16 +329,11 @@ mozilla
 :
 widget
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gWindowsLog
 ;
-#
-endif
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsNativeThemeWin

@@ -195,17 +195,12 @@ gIMM32Handler
 =
 nullptr
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gIMM32Log
 =
 nullptr
 ;
-#
-endif
 static
 UINT
 sWM_MSIME_MOUSE
@@ -528,9 +523,6 @@ Initialize
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -545,8 +537,6 @@ nsIMM32HandlerWidgets
 "
 )
 ;
-#
-endif
 if
 (
 !
@@ -3434,9 +3424,6 @@ MSGResult
 aResult
 )
 {
-#
-ifdef
-PR_LOGGING
 switch
 (
 wParam
@@ -3897,11 +3884,6 @@ GetWindowHandle
 break
 ;
 }
-#
-endif
-/
-/
-PR_LOGGING
 /
 /
 not
@@ -10641,9 +10623,6 @@ NS_TEXTRANGE_CARETPOSITION
 ;
 }
 }
-#
-ifdef
-PR_LOGGING
 static
 const
 char
@@ -10712,8 +10691,6 @@ TYPE
 ;
 }
 }
-#
-endif
 void
 nsIMM32Handler
 :

@@ -454,17 +454,12 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gWidgetLog
 =
 nullptr
 ;
-#
-endif
 nsIGeolocationUpdate
 *
 gLocationCallback
@@ -1009,9 +1004,6 @@ Init
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -1026,8 +1018,6 @@ Widget
 "
 )
 ;
-#
-endif
 nsresult
 rv
 =

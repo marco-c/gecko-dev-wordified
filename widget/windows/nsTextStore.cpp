@@ -226,9 +226,6 @@ tsf
 force_enable
 "
 ;
-#
-ifdef
-PR_LOGGING
 /
 *
 *
@@ -3126,13 +3123,6 @@ return
 names
 ;
 }
-#
-endif
-/
-/
-#
-ifdef
-PR_LOGGING
 /
 *
 *
@@ -12138,9 +12128,6 @@ E_FAIL
 HRESULT
 hr
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -12225,8 +12212,6 @@ hr
 )
 ;
 }
-#
-endif
 VARIANT
 propValue
 ;
@@ -25907,9 +25892,6 @@ return
 hr
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -26067,13 +26049,6 @@ ActiveSelEnd
 )
 ;
 }
-#
-endif
-/
-/
-#
-ifdef
-PR_LOGGING
 return
 S_OK
 ;
@@ -30861,9 +30836,6 @@ Initialize
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -30880,8 +30852,6 @@ nsTextStoreWidgets
 )
 ;
 }
-#
-endif
 PR_LOG
 (
 sTextStoreLog
