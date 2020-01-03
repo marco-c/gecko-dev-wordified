@@ -2250,13 +2250,6 @@ i
 .
 fini
 (
-fallback_plan
--
->
-lookup_array
-[
-i
-]
 )
 ;
 if

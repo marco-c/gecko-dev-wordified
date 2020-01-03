@@ -285,6 +285,7 @@ hb_sanitize_context_t
 *
 c
 )
+const
 {
 TRACE_SANITIZE
 (
@@ -750,6 +751,7 @@ sanitize_closure_t
 =
 NULL
 )
+const
 {
 TRACE_SANITIZE
 (
@@ -994,6 +996,7 @@ sanitize_closure_t
 =
 NULL
 )
+const
 {
 TRACE_SANITIZE
 (
@@ -1268,6 +1271,7 @@ hb_sanitize_context_t
 *
 c
 )
+const
 {
 TRACE_SANITIZE
 (

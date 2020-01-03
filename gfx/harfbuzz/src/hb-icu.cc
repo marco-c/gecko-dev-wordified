@@ -1845,6 +1845,9 @@ getNFCInstace
 .
 *
 /
+(
+void
+)
 hb_atomic_ptr_cmpexch
 (
 &
