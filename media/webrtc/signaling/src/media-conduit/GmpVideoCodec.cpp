@@ -90,7 +90,7 @@ VideoEncoder
 >
 (
 new
-WebrtcGmpVideoEncoder
+WebrtcVideoEncoderProxy
 (
 )
 )
@@ -113,7 +113,7 @@ VideoDecoder
 >
 (
 new
-WebrtcGmpVideoDecoder
+WebrtcVideoDecoderProxy
 (
 )
 )
