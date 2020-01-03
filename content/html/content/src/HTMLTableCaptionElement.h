@@ -139,6 +139,7 @@ nsIDOMHTMLTableCaptionElement
 {
 public
 :
+explicit
 HTMLTableCaptionElement
 (
 already_AddRefed

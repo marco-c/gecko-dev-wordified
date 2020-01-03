@@ -130,6 +130,7 @@ h
 struct
 nsNameSpaceEntry
 {
+explicit
 nsNameSpaceEntry
 (
 nsIAtom

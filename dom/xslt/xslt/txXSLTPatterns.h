@@ -847,6 +847,7 @@ txPattern
 {
 public
 :
+explicit
 txIdPattern
 (
 const

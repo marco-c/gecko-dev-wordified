@@ -196,6 +196,7 @@ nsGenericHTMLElement
 {
 public
 :
+explicit
 HTMLTrackElement
 (
 already_AddRefed

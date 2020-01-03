@@ -221,6 +221,7 @@ nsIDOMDocumentType
 {
 public
 :
+explicit
 DocumentTypeForward
 (
 already_AddRefed

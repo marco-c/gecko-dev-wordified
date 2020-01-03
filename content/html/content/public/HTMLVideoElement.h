@@ -169,6 +169,7 @@ dom
 NodeInfo
 NodeInfo
 ;
+explicit
 HTMLVideoElement
 (
 already_AddRefed

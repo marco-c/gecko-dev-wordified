@@ -146,6 +146,7 @@ nsIDOMHTMLBRElement
 {
 public
 :
+explicit
 HTMLBRElement
 (
 already_AddRefed

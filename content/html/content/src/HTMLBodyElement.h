@@ -155,6 +155,7 @@ BodyRule
 ;
 public
 :
+explicit
 BodyRule
 (
 HTMLBodyElement
@@ -237,6 +238,7 @@ Element
 :
 SetText
 ;
+explicit
 HTMLBodyElement
 (
 already_AddRefed

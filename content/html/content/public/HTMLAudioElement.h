@@ -182,6 +182,7 @@ dom
 NodeInfo
 NodeInfo
 ;
+explicit
 HTMLAudioElement
 (
 already_AddRefed

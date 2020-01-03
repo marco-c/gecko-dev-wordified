@@ -223,6 +223,7 @@ nsIFrameLoaderOwner
 {
 public
 :
+explicit
 nsElementFrameLoaderOwner
 (
 mozilla

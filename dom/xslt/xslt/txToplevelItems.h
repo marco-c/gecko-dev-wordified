@@ -264,6 +264,7 @@ txInstructionContainer
 {
 public
 :
+explicit
 txAttributeSetItem
 (
 const

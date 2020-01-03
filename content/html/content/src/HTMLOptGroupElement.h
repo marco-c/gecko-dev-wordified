@@ -142,6 +142,7 @@ nsIDOMHTMLOptGroupElement
 {
 public
 :
+explicit
 HTMLOptGroupElement
 (
 already_AddRefed

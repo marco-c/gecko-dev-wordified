@@ -1190,6 +1190,7 @@ SinkContext
 {
 public
 :
+explicit
 SinkContext
 (
 HTMLContentSink

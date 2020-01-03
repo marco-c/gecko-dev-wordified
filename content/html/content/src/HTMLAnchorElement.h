@@ -198,6 +198,7 @@ Element
 :
 SetText
 ;
+explicit
 HTMLAnchorElement
 (
 already_AddRefed

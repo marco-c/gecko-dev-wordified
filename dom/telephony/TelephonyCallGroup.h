@@ -405,6 +405,7 @@ aMessage
 ;
 private
 :
+explicit
 TelephonyCallGroup
 (
 nsPIDOMWindow

@@ -1077,6 +1077,7 @@ aRv
 )
 MOZ_OVERRIDE
 ;
+explicit
 nsDOMDeviceStorage
 (
 nsPIDOMWindow

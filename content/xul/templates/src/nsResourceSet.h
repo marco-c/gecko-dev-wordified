@@ -384,6 +384,7 @@ mCurrent
 }
 protected
 :
+explicit
 ConstIterator
 (
 nsIRDFResource

@@ -2167,6 +2167,7 @@ nsPtrHashKey
 NPObject
 >
 {
+explicit
 NPObjectData
 (
 const

@@ -256,6 +256,7 @@ StackIdentifier
 {
 public
 :
+explicit
 StackIdentifier
 (
 PPluginIdentifierChild
@@ -326,6 +327,7 @@ mIdentifier
 ;
 protected
 :
+explicit
 PluginIdentifierChild
 (
 bool
@@ -645,6 +647,7 @@ mString
 }
 protected
 :
+explicit
 PluginIdentifierChildString
 (
 const
@@ -710,6 +713,7 @@ mInt
 }
 protected
 :
+explicit
 PluginIdentifierChildInt
 (
 int32_t

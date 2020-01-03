@@ -209,6 +209,7 @@ aNodeInfo
 }
 public
 :
+explicit
 nsTextNode
 (
 already_AddRefed
@@ -241,6 +242,7 @@ Init
 )
 ;
 }
+explicit
 nsTextNode
 (
 nsNodeInfoManager

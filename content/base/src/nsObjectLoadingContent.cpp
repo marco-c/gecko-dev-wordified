@@ -842,6 +842,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsAsyncInstantiateEvent
 (
 nsObjectLoadingContent
@@ -1016,6 +1017,7 @@ nsRunnable
 {
 public
 :
+explicit
 CheckPluginStopEvent
 (
 nsObjectLoadingContent
@@ -2644,6 +2646,7 @@ AutoSetInstantiatingToFalse
 {
 public
 :
+explicit
 AutoSetInstantiatingToFalse
 (
 nsObjectLoadingContent
@@ -2696,6 +2699,7 @@ AutoSetLoadingToFalse
 {
 public
 :
+explicit
 AutoSetLoadingToFalse
 (
 nsObjectLoadingContent
@@ -7775,6 +7779,7 @@ get
 -
 >
 )
+explicit
 ObjectInterfaceRequestorShim
 (
 nsIObjectLoadingContent

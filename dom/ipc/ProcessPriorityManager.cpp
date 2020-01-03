@@ -1316,6 +1316,7 @@ ParticularProcessPriorityManager
 ;
 public
 :
+explicit
 ParticularProcessPriorityManager
 (
 ContentParent

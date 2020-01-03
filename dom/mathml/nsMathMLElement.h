@@ -203,6 +203,7 @@ Link
 {
 public
 :
+explicit
 nsMathMLElement
 (
 already_AddRefed
@@ -219,6 +220,7 @@ NodeInfo
 aNodeInfo
 )
 ;
+explicit
 nsMathMLElement
 (
 already_AddRefed

@@ -305,6 +305,7 @@ nsDOMSerializer
 (
 )
 ;
+explicit
 nsDOMSerializer
 (
 nsISupports

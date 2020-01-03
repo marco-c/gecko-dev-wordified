@@ -148,6 +148,7 @@ ResponsiveImageCandidate
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 ResponsiveImageSelector
 (
 nsIContent

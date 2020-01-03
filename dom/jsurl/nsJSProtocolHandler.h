@@ -340,6 +340,7 @@ nsJSURI
 )
 {
 }
+explicit
 nsJSURI
 (
 nsIURI

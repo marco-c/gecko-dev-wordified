@@ -246,6 +246,7 @@ DOMStringList
 {
 public
 :
+explicit
 PropertyStringList
 (
 HTMLPropertiesCollection
@@ -311,6 +312,7 @@ PropertyStringList
 ;
 public
 :
+explicit
 HTMLPropertiesCollection
 (
 nsGenericHTMLElement

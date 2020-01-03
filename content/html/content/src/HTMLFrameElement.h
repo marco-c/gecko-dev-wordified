@@ -155,6 +155,7 @@ nsGenericHTMLFrameElement
 :
 SwapFrameLoaders
 ;
+explicit
 HTMLFrameElement
 (
 already_AddRefed

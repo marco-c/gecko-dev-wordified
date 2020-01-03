@@ -6605,6 +6605,7 @@ ImageRequestAutoLock
 {
 public
 :
+explicit
 ImageRequestAutoLock
 (
 imgIRequest

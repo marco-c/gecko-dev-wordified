@@ -228,6 +228,7 @@ nsHistory
 )
 public
 :
+explicit
 nsHistory
 (
 nsPIDOMWindow

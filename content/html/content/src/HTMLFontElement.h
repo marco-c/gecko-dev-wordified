@@ -130,6 +130,7 @@ nsGenericHTMLElement
 {
 public
 :
+explicit
 HTMLFontElement
 (
 already_AddRefed

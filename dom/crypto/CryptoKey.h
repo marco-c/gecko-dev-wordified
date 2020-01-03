@@ -653,6 +653,7 @@ UNWRAPKEY
 0x00800000
 }
 ;
+explicit
 CryptoKey
 (
 nsIGlobalObject

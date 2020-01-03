@@ -148,6 +148,7 @@ nsGenericHTMLElement
 {
 public
 :
+explicit
 HTMLTemplateElement
 (
 already_AddRefed

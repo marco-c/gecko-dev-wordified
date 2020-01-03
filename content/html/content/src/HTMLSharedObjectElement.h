@@ -185,6 +185,7 @@ nsIDOMHTMLEmbedElement
 {
 public
 :
+explicit
 HTMLSharedObjectElement
 (
 already_AddRefed

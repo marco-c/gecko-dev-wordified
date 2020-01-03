@@ -4727,6 +4727,7 @@ MMListenerRemover
 {
 public
 :
+explicit
 MMListenerRemover
 (
 nsFrameMessageManager

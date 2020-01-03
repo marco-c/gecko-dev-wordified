@@ -137,6 +137,7 @@ nsGenericHTMLElement
 {
 public
 :
+explicit
 HTMLDataListElement
 (
 already_AddRefed
