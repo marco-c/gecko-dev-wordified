@@ -79,10 +79,10 @@ MPL
 /
 #
 ifndef
-nsBMPDecoder_h
+mozilla_image_decoders_nsBMPDecoder_h
 #
 define
-nsBMPDecoder_h
+mozilla_image_decoders_nsBMPDecoder_h
 #
 include
 "
@@ -1044,4 +1044,4 @@ mozilla
 endif
 /
 /
-nsBMPDecoder_h
+mozilla_image_decoders_nsBMPDecoder_h

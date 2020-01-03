@@ -223,10 +223,10 @@ details
 /
 #
 ifndef
-ICCJPEG_H
+mozilla_image_decoders_iccjpeg_h
 #
 define
-ICCJPEG_H
+mozilla_image_decoders_iccjpeg_h
 #
 include
 <
@@ -545,4 +545,4 @@ icc_data_len
 endif
 /
 /
-ICCJPEG_H
+mozilla_image_decoders_iccjpeg_h

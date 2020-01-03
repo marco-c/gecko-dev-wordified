@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsJPEGDecoder_h
+mozilla_image_decoders_nsJPEGDecoder_h
 #
 define
-nsJPEGDecoder_h
+mozilla_image_decoders_nsJPEGDecoder_h
 #
 include
 "
@@ -528,4 +528,4 @@ mozilla
 endif
 /
 /
-nsJPEGDecoder_h
+mozilla_image_decoders_nsJPEGDecoder_h

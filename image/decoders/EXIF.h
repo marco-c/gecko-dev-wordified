@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_IMAGELIB_EXIF_H
+mozilla_image_decoders_EXIF_h
 #
 define
-MOZILLA_IMAGELIB_EXIF_H
+mozilla_image_decoders_EXIF_h
 #
 include
 <
@@ -370,4 +370,4 @@ mozilla
 endif
 /
 /
-MOZILLA_IMAGELIB_EXIF_H
+mozilla_image_decoders_EXIF_h

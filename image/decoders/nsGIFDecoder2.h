@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsGIFDecoder2_h
+mozilla_image_decoders_nsGIFDecoder2_h
 #
 define
-nsGIFDecoder2_h
+mozilla_image_decoders_nsGIFDecoder2_h
 #
 include
 "
@@ -462,4 +462,4 @@ mozilla
 endif
 /
 /
-nsGIFDecoder2_h
+mozilla_image_decoders_nsGIFDecoder2_h
