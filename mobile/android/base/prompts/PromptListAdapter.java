@@ -1184,11 +1184,6 @@ provider
 .
 onCreateActionView
 (
-GeckoActionProvider
-.
-ActionViewType
-.
-CONTEXT_MENU
 )
 ;
 /
