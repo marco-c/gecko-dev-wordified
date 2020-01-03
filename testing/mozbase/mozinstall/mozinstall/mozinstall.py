@@ -490,26 +490,6 @@ not
 been
 found
 .
-Make
-sure
-we
-clean
-the
-        
-#
-install
-folder
-to
-remove
-any
-traces
-        
-mozfile
-.
-remove
-(
-path
-)
         
 raise
 InvalidBinary
