@@ -1917,7 +1917,15 @@ callee
 ;
 inline
 void
-setAliasedLexicalsToThrowOnTouch
+initRemainingSlotsToUninitializedLexicals
+(
+uint32_t
+begin
+)
+;
+inline
+void
+initAliasedLexicalsToThrowOnTouch
 (
 JSScript
 *
@@ -1992,6 +2000,8 @@ HandleShape
 shape
 HandleTypeObject
 type
+uint32_t
+lexicalBegin
 )
 ;
 /
@@ -2037,6 +2047,8 @@ JSContext
 cx
 HandleShape
 shape
+uint32_t
+lexicalBegin
 )
 ;
 static
