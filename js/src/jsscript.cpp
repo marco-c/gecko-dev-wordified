@@ -25051,7 +25051,7 @@ objarray
 >
 vector
 "
-objects
+regexps
 "
 )
 ;
