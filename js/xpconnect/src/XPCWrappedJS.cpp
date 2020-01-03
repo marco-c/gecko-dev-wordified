@@ -148,6 +148,15 @@ include
 "
 mozilla
 /
+DeferredFinalize
+.
+h
+"
+#
+include
+"
+mozilla
+/
 jsipc
 /
 CrossProcessObjectWrappers

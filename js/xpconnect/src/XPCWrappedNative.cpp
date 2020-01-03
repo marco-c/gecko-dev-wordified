@@ -214,6 +214,15 @@ include
 "
 mozilla
 /
+DeferredFinalize
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
