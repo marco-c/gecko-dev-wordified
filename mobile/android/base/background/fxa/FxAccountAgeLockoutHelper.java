@@ -306,7 +306,7 @@ FxAccountConstants
 .
 MINIMUM_TIME_TO_WAIT_AFTER_AGE_CHECK_FAILED_IN_MILLISECONDS
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -365,7 +365,7 @@ long
 elapsedRealtime
 )
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -518,12 +518,12 @@ MINIMUM_AGE_TO_CREATE_AN_ACCOUNT
 ;
 if
 (
-FxAccountUtils
+FxAccountConstants
 .
 LOG_PERSONAL_INFORMATION
 )
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -670,7 +670,7 @@ s
 be
 careful
 .
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -752,7 +752,7 @@ the
 age
 check
 .
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
