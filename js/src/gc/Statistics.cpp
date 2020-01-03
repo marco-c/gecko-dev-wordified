@@ -6617,6 +6617,7 @@ GCDescription
 !
 wasFullGC
 gckind
+reason
 )
 )
 ;
@@ -6858,6 +6859,13 @@ GCDescription
 !
 wasFullGC
 gckind
+slices
+.
+back
+(
+)
+.
+reason
 )
 )
 ;
