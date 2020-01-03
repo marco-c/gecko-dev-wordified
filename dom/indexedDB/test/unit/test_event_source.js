@@ -90,6 +90,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 var
 event
 =
@@ -183,6 +189,14 @@ event
 source
 "
 )
+;
+/
+/
+Wait
+for
+success
+yield
+undefined
 ;
 finishTest
 (
