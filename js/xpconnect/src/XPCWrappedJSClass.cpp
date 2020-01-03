@@ -4238,6 +4238,7 @@ uint32_t
 *
 result
 )
+const
 {
 uint8_t
 argnum
@@ -4405,6 +4406,7 @@ nsID
 *
 result
 )
+const
 {
 uint8_t
 type_tag
@@ -4623,6 +4625,11 @@ return
 false
 ;
 }
+/
+*
+static
+*
+/
 void
 nsXPCWrappedJSClass
 :
@@ -4745,6 +4752,11 @@ p
 }
 }
 }
+/
+*
+static
+*
+/
 void
 nsXPCWrappedJSClass
 :
