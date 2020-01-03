@@ -773,6 +773,10 @@ SimdConvert
 )
 SAFE_OP
 (
+SimdReinterpretCast
+)
+SAFE_OP
+(
 SimdExtractElement
 )
 SAFE_OP
