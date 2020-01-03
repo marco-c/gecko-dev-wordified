@@ -5508,11 +5508,6 @@ org
 name
 :
 themeName
-accentcolor
-:
-"
-transparent
-"
 headerURL
 :
 "
