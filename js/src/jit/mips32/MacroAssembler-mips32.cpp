@@ -19178,7 +19178,7 @@ Push
 return
 address
 during
-jalr
+bal
 delay
 slot
 .
@@ -19193,9 +19193,10 @@ intptr_t
 )
 )
 ;
-as_jalr
+ma_bal
 (
 label
+DontFillDelaySlot
 )
 ;
 as_sw
