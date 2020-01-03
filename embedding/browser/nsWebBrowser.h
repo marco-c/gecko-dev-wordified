@@ -732,12 +732,14 @@ nsIWidget
 *
 mParentWidget
 ;
+nsAutoPtr
+<
 nsTArray
 <
 nsWebBrowserListenerState
 *
 >
-*
+>
 mListenerArray
 ;
 }

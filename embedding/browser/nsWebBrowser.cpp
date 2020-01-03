@@ -632,10 +632,6 @@ mParentWidget
 (
 nullptr
 )
-mListenerArray
-(
-nullptr
-)
 {
 mWWatch
 =
@@ -780,9 +776,6 @@ delete
 state
 ;
 }
-delete
-mListenerArray
-;
 mListenerArray
 =
 nullptr
@@ -2121,9 +2114,6 @@ delete
 state
 ;
 }
-delete
-mListenerArray
-;
 mListenerArray
 =
 nullptr
@@ -7378,9 +7368,6 @@ delete
 state
 ;
 }
-delete
-mListenerArray
-;
 mListenerArray
 =
 nullptr
