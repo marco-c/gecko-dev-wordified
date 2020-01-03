@@ -116,6 +116,8 @@ EventCallback
 ;
 /
 *
+*
+*
 Wrapper
 for
 MediaRouter
@@ -134,6 +136,16 @@ etc
 interface
 GeckoMediaPlayer
 {
+/
+*
+*
+*
+Can
+return
+null
+.
+*
+/
 JSONObject
 toJSON
 (
