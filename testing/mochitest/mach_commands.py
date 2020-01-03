@@ -7251,6 +7251,39 @@ self
 context
 )
         
+#
+These
+attributes
+are
+defined
+in
+:
+        
+#
+https
+:
+/
+/
+github
+.
+com
+/
+mozilla
+-
+b2g
+/
+B2G
+/
+blob
+/
+master
+/
+tools
+/
+mach_b2g_bootstrap
+.
+py
+        
 for
 attr
 in
@@ -7265,7 +7298,7 @@ xre_path
 device_name
 '
 '
-get_build_var
+target_out
 '
 )
 :
@@ -7343,7 +7376,7 @@ kwargs
 if
 self
 .
-get_build_var
+target_out
 :
             
 host_webapps_dir
@@ -7357,12 +7390,11 @@ join
                 
 self
 .
-get_build_var
-(
+target_out
+                
 '
-TARGET_OUT_DATA
+data
 '
-)
                 
 '
 local
