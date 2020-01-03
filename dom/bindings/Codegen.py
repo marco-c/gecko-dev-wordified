@@ -2883,12 +2883,20 @@ JSCLASS_GLOBAL_APPLICATION_SLOTS
 "
             
 if
-not
 self
 .
 descriptor
 .
-workers
+interface
+.
+identifier
+.
+name
+=
+=
+"
+Window
+"
 :
                 
 classExtensionAndObjectOps
