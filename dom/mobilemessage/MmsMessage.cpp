@@ -661,7 +661,7 @@ contentParent
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 impl
 =
@@ -709,7 +709,7 @@ contentChild
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 impl
 =
@@ -2369,7 +2369,7 @@ initialized
 .
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 impl
 =

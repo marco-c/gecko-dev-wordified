@@ -2190,9 +2190,9 @@ NS_OK
 }
 BlobChild
 *
-ActorFromRemoteFileImpl
+ActorFromRemoteBlobImpl
 (
-FileImpl
+BlobImpl
 *
 aImpl
 )
@@ -2308,7 +2308,7 @@ nullptr
 bool
 ResolveMysteryFile
 (
-FileImpl
+BlobImpl
 *
 aImpl
 const
@@ -2329,7 +2329,7 @@ BlobChild
 *
 actor
 =
-ActorFromRemoteFileImpl
+ActorFromRemoteBlobImpl
 (
 aImpl
 )
@@ -2359,7 +2359,7 @@ true
 bool
 ResolveMysteryBlob
 (
-FileImpl
+BlobImpl
 *
 aImpl
 const
@@ -2374,7 +2374,7 @@ BlobChild
 *
 actor
 =
-ActorFromRemoteFileImpl
+ActorFromRemoteBlobImpl
 (
 aImpl
 )

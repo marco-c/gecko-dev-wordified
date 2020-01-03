@@ -457,7 +457,7 @@ nullptr
 }
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =

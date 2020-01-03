@@ -548,7 +548,7 @@ blobChild
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 bloblImpl
 =

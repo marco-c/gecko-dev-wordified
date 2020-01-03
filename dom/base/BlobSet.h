@@ -208,7 +208,7 @@ aCx
 nsresult
 AppendBlobImpl
 (
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -221,7 +221,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 &
@@ -232,7 +232,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 &
@@ -441,12 +441,12 @@ the
 stack
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
 new
-FileImplMemory
+BlobImplMemory
 (
 mData
 mDataLen
@@ -489,7 +489,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 mBlobImpls

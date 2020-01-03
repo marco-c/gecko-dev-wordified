@@ -349,10 +349,10 @@ struct
 FilePropertyBag
 ;
 class
-File
+BlobImpl
 ;
 class
-FileImpl
+File
 ;
 class
 OwningArrayBufferOrArrayBufferViewOrBlobOrString
@@ -390,7 +390,7 @@ Create
 nsISupports
 *
 aParent
-FileImpl
+BlobImpl
 *
 aImpl
 )
@@ -510,7 +510,7 @@ nsAString
 aContentType
 )
 ;
-FileImpl
+BlobImpl
 *
 Impl
 (
@@ -532,7 +532,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 *
@@ -584,7 +584,7 @@ object
 with
 the
 same
-FileImpl
+BlobImpl
 .
 already_AddRefed
 <
@@ -612,7 +612,7 @@ the
 same
 /
 /
-FileImpl
+BlobImpl
 .
 already_AddRefed
 <
@@ -799,7 +799,7 @@ Blob
 nsISupports
 *
 aParent
-FileImpl
+BlobImpl
 *
 aImpl
 )
@@ -883,7 +883,7 @@ class
 !
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 mImpl
 ;
@@ -930,7 +930,7 @@ Blob
 /
 Note
 :
-FileImpl
+BlobImpl
 must
 be
 a
@@ -960,7 +960,7 @@ Create
 nsISupports
 *
 aParent
-FileImpl
+BlobImpl
 *
 aImpl
 )
@@ -1416,7 +1416,7 @@ File
 nsISupports
 *
 aParent
-FileImpl
+BlobImpl
 *
 aImpl
 )
@@ -1465,7 +1465,7 @@ with
 IPC
 .
 class
-FileImpl
+BlobImpl
 :
 public
 nsISupports
@@ -1477,7 +1477,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 FILEIMPL_IID
 )
 NS_DECL_THREADSAFE_ISUPPORTS
-FileImpl
+BlobImpl
 (
 )
 {
@@ -1577,7 +1577,7 @@ aType
 ;
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 Slice
 (
@@ -1607,7 +1607,7 @@ aRv
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (
@@ -1632,7 +1632,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 *
@@ -1822,7 +1822,7 @@ protected
 :
 virtual
 ~
-FileImpl
+BlobImpl
 (
 )
 {
@@ -1831,18 +1831,18 @@ FileImpl
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-FileImpl
+BlobImpl
 FILEIMPL_IID
 )
 class
-FileImplBase
+BlobImplBase
 :
 public
-FileImpl
+BlobImpl
 {
 public
 :
-FileImplBase
+BlobImplBase
 (
 const
 nsAString
@@ -1904,7 +1904,7 @@ false
 )
 ;
 }
-FileImplBase
+BlobImplBase
 (
 const
 nsAString
@@ -1964,7 +1964,7 @@ false
 )
 ;
 }
-FileImplBase
+BlobImplBase
 (
 const
 nsAString
@@ -2016,7 +2016,7 @@ false
 )
 ;
 }
-FileImplBase
+BlobImplBase
 (
 const
 nsAString
@@ -2178,7 +2178,7 @@ override
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (
@@ -2206,7 +2206,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 >
 *
@@ -2478,7 +2478,7 @@ protected
 :
 virtual
 ~
-FileImplBase
+BlobImplBase
 (
 )
 {
@@ -2634,16 +2634,16 @@ careful
 *
 /
 class
-FileImplMemory
+BlobImplMemory
 final
 :
 public
-FileImplBase
+BlobImplBase
 {
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-FileImplMemory
+BlobImplMemory
 (
 void
 *
@@ -2662,7 +2662,7 @@ int64_t
 aLastModifiedDate
 )
 :
-FileImplBase
+BlobImplBase
 (
 aName
 aContentType
@@ -2696,7 +2696,7 @@ data
 )
 ;
 }
-FileImplMemory
+BlobImplMemory
 (
 void
 *
@@ -2709,7 +2709,7 @@ nsAString
 aContentType
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aLength
@@ -2755,7 +2755,7 @@ override
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (
@@ -3015,10 +3015,10 @@ private
 /
 Create
 slice
-FileImplMemory
+BlobImplMemory
 (
 const
-FileImplMemory
+BlobImplMemory
 *
 aOther
 uint64_t
@@ -3031,7 +3031,7 @@ nsAString
 aContentType
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aOther
@@ -3075,7 +3075,7 @@ mImmutable
 ;
 }
 ~
-FileImplMemory
+BlobImplMemory
 (
 )
 {
@@ -3098,16 +3098,16 @@ mDataOwner
 }
 ;
 class
-FileImplTemporaryBlob
+BlobImplTemporaryBlob
 final
 :
 public
-FileImplBase
+BlobImplBase
 {
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-FileImplTemporaryBlob
+BlobImplTemporaryBlob
 (
 PRFileDesc
 *
@@ -3122,7 +3122,7 @@ nsAString
 aContentType
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aLength
@@ -3158,7 +3158,7 @@ override
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (
@@ -3178,10 +3178,10 @@ override
 ;
 private
 :
-FileImplTemporaryBlob
+BlobImplTemporaryBlob
 (
 const
-FileImplTemporaryBlob
+BlobImplTemporaryBlob
 *
 aOther
 uint64_t
@@ -3194,7 +3194,7 @@ nsAString
 aContentType
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aLength
@@ -3213,7 +3213,7 @@ mFileDescOwner
 {
 }
 ~
-FileImplTemporaryBlob
+BlobImplTemporaryBlob
 (
 )
 {
@@ -3233,10 +3233,10 @@ mFileDescOwner
 }
 ;
 class
-FileImplFile
+BlobImplFile
 :
 public
-FileImplBase
+BlobImplBase
 {
 public
 :
@@ -3248,7 +3248,7 @@ as
 a
 file
 explicit
-FileImplFile
+BlobImplFile
 (
 nsIFile
 *
@@ -3259,7 +3259,7 @@ aTemporary
 false
 )
 :
-FileImplBase
+BlobImplBase
 (
 EmptyString
 (
@@ -3322,7 +3322,7 @@ mName
 )
 ;
 }
-FileImplFile
+BlobImplFile
 (
 nsIFile
 *
@@ -3335,7 +3335,7 @@ FileInfo
 aFileInfo
 )
 :
-FileImplBase
+BlobImplBase
 (
 EmptyString
 (
@@ -3422,7 +3422,7 @@ Create
 as
 a
 file
-FileImplFile
+BlobImplFile
 (
 const
 nsAString
@@ -3439,7 +3439,7 @@ nsIFile
 aFile
 )
 :
-FileImplBase
+BlobImplBase
 (
 aName
 aContentType
@@ -3474,7 +3474,7 @@ file
 )
 ;
 }
-FileImplFile
+BlobImplFile
 (
 const
 nsAString
@@ -3493,7 +3493,7 @@ int64_t
 aLastModificationDate
 )
 :
-FileImplBase
+BlobImplBase
 (
 aName
 aContentType
@@ -3537,7 +3537,7 @@ file
 with
 custom
 name
-FileImplFile
+BlobImplFile
 (
 nsIFile
 *
@@ -3552,7 +3552,7 @@ nsAString
 aContentType
 )
 :
-FileImplBase
+BlobImplBase
 (
 aName
 aContentType
@@ -3620,7 +3620,7 @@ as
 a
 stored
 file
-FileImplFile
+BlobImplFile
 (
 const
 nsAString
@@ -3643,7 +3643,7 @@ FileInfo
 aFileInfo
 )
 :
-FileImplBase
+BlobImplBase
 (
 aName
 aContentType
@@ -3692,7 +3692,7 @@ as
 a
 stored
 blob
-FileImplFile
+BlobImplFile
 (
 const
 nsAString
@@ -3711,7 +3711,7 @@ FileInfo
 aFileInfo
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aLength
@@ -3761,11 +3761,11 @@ to
 be
 later
 initialized
-FileImplFile
+BlobImplFile
 (
 )
 :
-FileImplBase
+BlobImplBase
 (
 EmptyString
 (
@@ -3891,7 +3891,7 @@ protected
 :
 virtual
 ~
-FileImplFile
+BlobImplFile
 (
 )
 {
@@ -3909,7 +3909,7 @@ NS_WARNING
 In
 temporary
 ~
-FileImplFile
+BlobImplFile
 "
 )
 ;
@@ -4003,10 +4003,10 @@ private
 /
 Create
 slice
-FileImplFile
+BlobImplFile
 (
 const
-FileImplFile
+BlobImplFile
 *
 aOther
 uint64_t
@@ -4019,7 +4019,7 @@ nsAString
 aContentType
 )
 :
-FileImplBase
+BlobImplBase
 (
 aContentType
 aOther
@@ -4146,7 +4146,7 @@ fileInfo
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (

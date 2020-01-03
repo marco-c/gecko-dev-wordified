@@ -160,7 +160,7 @@ class
 Blob
 ;
 class
-FileImpl
+BlobImpl
 ;
 class
 Promise
@@ -372,14 +372,14 @@ Let
 s
 use
 the
-FileImpl
+BlobImpl
 instead
 .
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
-mTargetFileImpl
+mTargetBlobImpl
 ;
 }
 ;
