@@ -17968,6 +17968,17 @@ return
 FullScreenOptions
 opts
 ;
+opts
+.
+mIsCallerChrome
+=
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
+;
 RequestFullscreenOptions
 fsOptions
 ;
