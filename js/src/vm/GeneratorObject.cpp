@@ -2290,7 +2290,9 @@ JSFunction
 :
 :
 NATIVE_CTOR
-global
+NullPtr
+(
+)
 name
 proto
 )

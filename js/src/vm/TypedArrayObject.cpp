@@ -1512,7 +1512,9 @@ JSFunction
 :
 :
 NATIVE_CTOR
-global
+NullPtr
+(
+)
 ClassName
 (
 key

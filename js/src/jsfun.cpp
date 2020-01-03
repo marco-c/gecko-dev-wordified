@@ -5461,7 +5461,9 @@ JSFunction
 :
 :
 NATIVE_CTOR
-global
+NullPtr
+(
+)
 HandlePropertyName
 (
 cx
@@ -6072,7 +6074,9 @@ JSFunction
 :
 :
 NATIVE_FUN
-self
+NullPtr
+(
+)
 NullPtr
 (
 )
