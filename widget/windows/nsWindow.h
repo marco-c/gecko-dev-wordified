@@ -1732,6 +1732,11 @@ LayersBackend
 aHints
 )
 ;
+bool
+IsPopup
+(
+)
+;
 virtual
 bool
 ShouldUseOffMainThreadCompositing
