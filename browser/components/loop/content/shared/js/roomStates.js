@@ -265,6 +265,11 @@ room
 conversation
 has
 ended
+displays
+the
+feedback
+view
+.
 ENDED
 :
 "
