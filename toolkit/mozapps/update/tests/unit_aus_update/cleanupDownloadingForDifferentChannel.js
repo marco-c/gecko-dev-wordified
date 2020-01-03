@@ -285,6 +285,7 @@ old
 channel
 removed
 .
+let
 file
 =
 getUpdatesXMLFile
