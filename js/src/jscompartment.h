@@ -3657,6 +3657,12 @@ JS
 3
 or
 older
+RegExpSourceProperty
+=
+8
+/
+/
+ES5
 DeprecatedLanguageExtensionCount
 }
 ;
