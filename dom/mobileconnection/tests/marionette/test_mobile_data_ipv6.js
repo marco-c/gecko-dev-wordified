@@ -347,6 +347,7 @@ indexOf
 0
 ;
 }
+false
 )
 "
 IPv4
@@ -390,6 +391,7 @@ indexOf
 0
 ;
 }
+false
 )
 "
 IPv6
