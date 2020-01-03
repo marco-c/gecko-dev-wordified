@@ -12444,7 +12444,7 @@ baseURI
 ;
 mChromeXHRDocBaseURI
 =
-baseURI
+nullptr
 ;
 }
 }
@@ -12891,7 +12891,7 @@ aURI
 ;
 mChromeXHRDocURI
 =
-aURI
+nullptr
 ;
 /
 /
