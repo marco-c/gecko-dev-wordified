@@ -937,13 +937,6 @@ phaseNestingDepth
 ]
 ;
 }
-static
-const
-size_t
-MAX_NESTING
-=
-20
-;
 private
 :
 JSRuntime
@@ -1275,6 +1268,13 @@ stack
 .
 *
 /
+static
+const
+size_t
+MAX_NESTING
+=
+8
+;
 Phase
 phaseNesting
 [
