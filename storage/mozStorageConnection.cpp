@@ -3940,7 +3940,7 @@ SQLite
 .
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gStorageLog
 PR_LOG_DEBUG
@@ -5204,7 +5204,7 @@ endif
 DEBUG
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gStorageLog
 PR_LOG_NOTICE

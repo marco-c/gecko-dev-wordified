@@ -599,7 +599,7 @@ content
 \
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 log
 PR_LOG_DEBUG
@@ -2562,7 +2562,7 @@ aFlags
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gFocusLog
 PR_LOG_DEBUG
@@ -3499,7 +3499,7 @@ NS_ERROR_INVALID_ARG
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gFocusLog
 PR_LOG_DEBUG
@@ -4225,7 +4225,7 @@ NS_ERROR_INVALID_ARG
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gFocusLog
 PR_LOG_DEBUG
@@ -5009,7 +5009,7 @@ GetOuterWindow
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gFocusLog
 PR_LOG_DEBUG
@@ -5402,7 +5402,7 @@ GetOuterWindow
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gFocusLog
 PR_LOG_DEBUG
@@ -11462,7 +11462,7 @@ aContent
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gFocusLog
 PR_LOG_DEBUG

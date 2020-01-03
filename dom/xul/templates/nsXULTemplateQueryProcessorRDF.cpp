@@ -2577,7 +2577,7 @@ aRef
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -4518,7 +4518,7 @@ livenodes
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -5125,7 +5125,7 @@ aTarget
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -5599,7 +5599,7 @@ aTarget
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -6874,7 +6874,7 @@ aResult
 else
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_ALWAYS

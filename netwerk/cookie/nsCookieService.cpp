@@ -1634,7 +1634,7 @@ PR_BEGIN_MACRO
 \
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetCookieLog
 (
@@ -1722,7 +1722,7 @@ cycles
 if
 (
 !
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetCookieLog
 (
@@ -2354,7 +2354,7 @@ cycles
 if
 (
 !
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetCookieLog
 (
@@ -3001,7 +3001,7 @@ override
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetCookieLog
 (

@@ -1596,7 +1596,7 @@ aPrefs
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetMediaManagerLog
 (

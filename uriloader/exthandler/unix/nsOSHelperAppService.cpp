@@ -319,7 +319,7 @@ define
 LOG_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 mLog
 PR_LOG_DEBUG

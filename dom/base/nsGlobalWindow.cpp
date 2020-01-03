@@ -16967,7 +16967,7 @@ if
 gDOMLeakPRLog
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDOMLeakPRLog
 PR_LOG_DEBUG
@@ -57126,7 +57126,7 @@ mSessionStorage
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDOMLeakPRLog
 PR_LOG_DEBUG
@@ -57391,7 +57391,7 @@ mSessionStorage
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDOMLeakPRLog
 PR_LOG_DEBUG
@@ -57442,7 +57442,7 @@ nullptr
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDOMLeakPRLog
 PR_LOG_DEBUG
@@ -62563,7 +62563,7 @@ NS_OK
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDOMLeakPRLog
 PR_LOG_DEBUG

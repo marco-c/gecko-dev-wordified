@@ -2044,7 +2044,7 @@ group
 .
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -2488,7 +2488,7 @@ NS_OK
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocLoaderLog
 PR_LOG_DEBUG

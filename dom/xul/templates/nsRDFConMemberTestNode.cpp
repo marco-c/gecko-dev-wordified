@@ -201,7 +201,7 @@ aMemberVariable
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -721,7 +721,7 @@ memberValue
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1355,7 +1355,7 @@ NS_ERROR_UNEXPECTED
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1877,7 +1877,7 @@ NS_ERROR_UNEXPECTED
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -2245,7 +2245,7 @@ continue
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -2330,7 +2330,7 @@ valueRes
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -2662,7 +2662,7 @@ aProperty
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG

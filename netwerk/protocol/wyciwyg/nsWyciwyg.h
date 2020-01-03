@@ -238,7 +238,7 @@ define
 LOG1_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gWyciwygLog
 1
@@ -248,7 +248,7 @@ define
 LOG2_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gWyciwygLog
 2
@@ -258,7 +258,7 @@ define
 LOG3_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gWyciwygLog
 3
@@ -268,7 +268,7 @@ define
 LOG4_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gWyciwygLog
 4

@@ -6145,7 +6145,7 @@ PR_LOG_DEBUG
 if
 (
 !
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 tpLog
 logLevel
@@ -15917,7 +15917,7 @@ shouldLog
 gLog
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_DEBUG
@@ -16076,7 +16076,7 @@ shouldLog
 gLog
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_DEBUG
