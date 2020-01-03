@@ -2810,9 +2810,6 @@ cx
 &
 DebuggerFrame_class
 proto
-NullPtr
-(
-)
 )
 )
 ;
@@ -4749,9 +4746,6 @@ cx
 &
 DebuggerEnv_class
 proto
-NullPtr
-(
-)
 TenuredObject
 )
 ;
@@ -5029,9 +5023,6 @@ cx
 &
 DebuggerObject_class
 proto
-NullPtr
-(
-)
 TenuredObject
 )
 ;
@@ -19608,9 +19599,6 @@ Debugger
 :
 jsclass
 proto
-NullPtr
-(
-)
 )
 )
 ;
@@ -28044,9 +28032,6 @@ cx
 &
 DebuggerScript_class
 proto
-NullPtr
-(
-)
 TenuredObject
 )
 ;
@@ -34840,9 +34825,6 @@ cx
 &
 DebuggerSource_class
 proto
-NullPtr
-(
-)
 TenuredObject
 )
 ;
@@ -39249,13 +39231,6 @@ cx
 &
 DebuggerArguments_class
 proto
-GlobalObject
-:
-:
-upcast
-(
-global
-)
 )
 ;
 if

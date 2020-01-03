@@ -1981,7 +1981,6 @@ jsclass
 NullPtr
 (
 )
-global
 )
 ;
 if

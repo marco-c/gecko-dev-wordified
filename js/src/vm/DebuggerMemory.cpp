@@ -360,9 +360,6 @@ cx
 &
 class_
 memoryProto
-NullPtr
-(
-)
 )
 )
 ;
