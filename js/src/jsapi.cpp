@@ -7843,7 +7843,9 @@ call
 )
 )
 return
-JSVAL_NULL
+NullValue
+(
+)
 ;
 return
 call

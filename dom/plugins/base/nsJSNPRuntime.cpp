@@ -2500,7 +2500,12 @@ case
 NPVariantType_Null
 :
 return
-JSVAL_NULL
+JS
+:
+:
+NullValue
+(
+)
 ;
 case
 NPVariantType_Bool

@@ -15631,7 +15631,12 @@ nullptr
 )
 value
 (
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 {
 }

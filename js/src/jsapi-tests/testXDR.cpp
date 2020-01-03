@@ -462,7 +462,12 @@ RootedValue
 trueval
 (
 cx
-JSVAL_TRUE
+JS
+:
+:
+TrueValue
+(
+)
 )
 ;
 CHECK_SAME

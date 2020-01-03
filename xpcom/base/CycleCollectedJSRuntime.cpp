@@ -5559,10 +5559,12 @@ void
 const
 override
 {
-*
 aPtr
-=
-JSVAL_VOID
+-
+>
+setUndefined
+(
+)
 ;
 }
 virtual

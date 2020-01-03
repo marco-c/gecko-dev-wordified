@@ -3538,7 +3538,12 @@ Value
 json
 (
 cx
-JSVAL_NULL
+JS
+:
+:
+NullValue
+(
+)
 )
 ;
 StructuredCloneData

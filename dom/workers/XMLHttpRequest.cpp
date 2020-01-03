@@ -5141,8 +5141,10 @@ IsVoid
 )
 {
 mResponse
-=
-JSVAL_NULL
+.
+setNull
+(
+)
 ;
 }
 }

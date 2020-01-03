@@ -879,10 +879,14 @@ v
 )
 )
 ;
-CHECK_SAME
+CHECK
 (
 v
-JSVAL_ZERO
+.
+isInt32
+(
+0
+)
 )
 ;
 return

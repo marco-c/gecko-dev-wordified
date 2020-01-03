@@ -467,10 +467,13 @@ rv
 hasMore
 )
 {
-*
 _vp
-=
-JSVAL_FALSE
+-
+>
+setBoolean
+(
+false
+)
 ;
 (
 void

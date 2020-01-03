@@ -8318,7 +8318,12 @@ RootedValue
 current
 (
 cx
-JSVAL_NULL
+JS
+:
+:
+NullValue
+(
+)
 )
 ;
 #
