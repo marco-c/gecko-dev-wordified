@@ -350,9 +350,6 @@ nssEnsure
 nssEnsureOnChromeOnly
 =
 101
-nssEnsureChromeOrContent
-=
-102
 }
 ;
 extern
