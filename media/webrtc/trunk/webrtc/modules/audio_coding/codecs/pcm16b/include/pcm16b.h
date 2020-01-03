@@ -104,6 +104,8 @@ formats
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -234,7 +236,7 @@ speech
 vector
 *
 -
-len
+length_samples
 :
 Number
 of
@@ -274,11 +276,12 @@ speechOut16b
 int16_t
 WebRtcPcm16b_EncodeW16
 (
+const
 int16_t
 *
 speechIn16b
 int16_t
-len
+length_samples
 int16_t
 *
 speechOut16b
@@ -572,7 +575,7 @@ bit
 )
 *
 -
-len
+length_bytes
 :
 Number
 of
@@ -603,14 +606,11 @@ speechOut16b
 int16_t
 WebRtcPcm16b_DecodeW16
 (
-void
-*
-inst
 int16_t
 *
 speechIn16b
 int16_t
-len
+length_bytes
 int16_t
 *
 speechOut16b

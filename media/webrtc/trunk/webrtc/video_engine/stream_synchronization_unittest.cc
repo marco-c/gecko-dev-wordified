@@ -219,9 +219,6 @@ offset
 )
 {
 }
-synchronization
-:
-:
 RtcpMeasurement
 GenerateRtcp
 (
@@ -232,9 +229,6 @@ offset
 )
 const
 {
-synchronization
-:
-:
 RtcpMeasurement
 rtcp
 ;

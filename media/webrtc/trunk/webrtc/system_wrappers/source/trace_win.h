@@ -154,16 +154,6 @@ const
 ;
 virtual
 int32_t
-AddBuildInfo
-(
-char
-*
-trace_message
-)
-const
-;
-virtual
-int32_t
 AddDateTimeInfo
 (
 char

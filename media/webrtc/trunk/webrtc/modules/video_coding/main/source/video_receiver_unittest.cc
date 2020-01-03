@@ -287,7 +287,6 @@ reset
 new
 VideoReceiver
 (
-0
 &
 clock_
 &

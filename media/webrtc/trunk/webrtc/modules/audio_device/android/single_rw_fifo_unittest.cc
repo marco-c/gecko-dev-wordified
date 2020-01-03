@@ -587,9 +587,11 @@ de
 -
 allocation
 .
-scoped_array
+scoped_ptr
 <
 int8_t
+[
+]
 >
 buffer_
 [

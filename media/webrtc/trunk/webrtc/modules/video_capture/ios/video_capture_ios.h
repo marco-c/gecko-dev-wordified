@@ -105,7 +105,7 @@ video_capture_impl
 h
 "
 class
-VideoCaptureIosObjC
+RTCVideoCaptureIosObjC
 ;
 namespace
 webrtc
@@ -192,7 +192,7 @@ OVERRIDE
 ;
 private
 :
-VideoCaptureIosObjC
+RTCVideoCaptureIosObjC
 *
 capture_device_
 ;

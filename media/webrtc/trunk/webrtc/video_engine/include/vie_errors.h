@@ -1070,7 +1070,6 @@ kViEImageProcessAlreadyEnabled
 /
 /
 EnableDeflickering
-EnableDenoising
 EnableColorEnhancement
 -
 Function
@@ -1081,7 +1080,6 @@ kViEImageProcessAlreadyDisabled
 /
 /
 EnableDeflickering
-EnableDenoising
 EnableColorEnhancement
 -
 Function

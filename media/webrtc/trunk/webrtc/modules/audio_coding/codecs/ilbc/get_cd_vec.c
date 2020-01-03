@@ -507,11 +507,9 @@ SUBL
 base_size
 +
 =
-WEBRTC_SPL_RSHIFT_W16
-(
 cbveclen
-1
-)
+/
+2
 ;
 }
 /
@@ -608,11 +606,9 @@ cbveclen
 ;
 lag
 =
-WEBRTC_SPL_RSHIFT_W16
-(
 k
-1
-)
+/
+2
 ;
 WebRtcIlbcfix_CreateAugmentedVec
 (

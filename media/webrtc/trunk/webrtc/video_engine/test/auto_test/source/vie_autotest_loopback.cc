@@ -1196,8 +1196,9 @@ return
 1
 ;
 }
-getchar
+getc
 (
+stdin
 )
 ;
 captureIdx
@@ -2353,8 +2354,9 @@ return
 1
 ;
 }
-getchar
+getc
 (
+stdin
 )
 ;
 codecIdx
@@ -4358,8 +4360,9 @@ stop
 while
 (
 (
-getchar
+getc
 (
+stdin
 )
 )
 !

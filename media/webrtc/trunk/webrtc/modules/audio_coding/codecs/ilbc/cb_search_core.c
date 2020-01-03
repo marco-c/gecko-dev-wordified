@@ -574,9 +574,10 @@ tmp16
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 tmp32
+>
+>
 16
 )
 ;

@@ -620,9 +620,11 @@ unsigned
 char
 *
 frame_buffer
+int64_t
+ntp_time_ms
 unsigned
 int
-timeStamp90KHz
+timestamp
 unsigned
 int
 width

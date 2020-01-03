@@ -1516,8 +1516,9 @@ return
 1
 ;
 }
-getchar
+getc
 (
+stdin
 )
 ;
 captureIdx
@@ -3088,8 +3089,9 @@ endl
 char
 c
 =
-getchar
+getc
 (
+stdin
 )
 ;
 fflush
@@ -3150,8 +3152,9 @@ endl
 }
 c
 =
-getchar
+getc
 (
+stdin
 )
 ;
 }

@@ -4957,6 +4957,7 @@ WebRtcVad_CalcVad48khz
 VadInstT
 *
 inst
+const
 int16_t
 *
 speech_frame
@@ -5109,6 +5110,7 @@ WebRtcVad_CalcVad32khz
 VadInstT
 *
 inst
+const
 int16_t
 *
 speech_frame
@@ -5191,11 +5193,9 @@ frame_length
 ;
 len
 =
-WEBRTC_SPL_RSHIFT_W16
-(
 frame_length
-1
-)
+/
+2
 ;
 WebRtcVad_Downsampling
 (
@@ -5209,12 +5209,9 @@ len
 )
 ;
 len
+/
 =
-WEBRTC_SPL_RSHIFT_W16
-(
-len
-1
-)
+2
 ;
 /
 /
@@ -5244,6 +5241,7 @@ WebRtcVad_CalcVad16khz
 VadInstT
 *
 inst
+const
 int16_t
 *
 speech_frame
@@ -5296,11 +5294,9 @@ frame_length
 ;
 len
 =
-WEBRTC_SPL_RSHIFT_W16
-(
 frame_length
-1
-)
+/
+2
 ;
 vad
 =
@@ -5321,6 +5317,7 @@ WebRtcVad_CalcVad8khz
 VadInstT
 *
 inst
+const
 int16_t
 *
 speech_frame

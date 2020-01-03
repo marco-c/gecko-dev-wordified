@@ -135,8 +135,6 @@ public
 :
 VideoCoder
 (
-uint32_t
-instanceID
 )
 ;
 ~
@@ -246,6 +244,7 @@ when
 decoding
 finished
 .
+virtual
 int32_t
 FrameToRender
 (
@@ -253,6 +252,7 @@ I420VideoFrame
 &
 videoFrame
 )
+OVERRIDE
 ;
 /
 /
@@ -270,6 +270,7 @@ when
 encoding
 finished
 .
+virtual
 int32_t
 SendData
 (
@@ -312,6 +313,7 @@ RTPVideoHeader
 *
 rtpTypeHdr
 )
+OVERRIDE
 ;
 VideoCodingModule
 *

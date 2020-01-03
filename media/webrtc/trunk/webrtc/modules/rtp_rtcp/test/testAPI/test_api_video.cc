@@ -244,7 +244,6 @@ test_id_
 )
 rtp_payload_registry_
 (
-0
 RTPPayloadStrategy
 :
 :
@@ -383,16 +382,12 @@ kRtcpCompound
 )
 )
 ;
-EXPECT_EQ
-(
-0
 video_module_
 -
 >
 SetSSRC
 (
 test_ssrc_
-)
 )
 ;
 rtp_receiver_
@@ -589,7 +584,7 @@ uint8_t
 kPayloadType
 )
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 AssignUWord16ToBuffer
@@ -600,7 +595,7 @@ dataBuffer
 sequence_number
 )
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 AssignUWord32ToBuffer
@@ -611,7 +606,7 @@ dataBuffer
 timestamp
 )
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 AssignUWord32ToBuffer

@@ -94,7 +94,6 @@ modules
 /
 video_render
 /
-/
 incoming_video_stream
 .
 h
@@ -177,7 +176,6 @@ webrtc
 modules
 /
 video_render
-/
 /
 video_render_frames
 .

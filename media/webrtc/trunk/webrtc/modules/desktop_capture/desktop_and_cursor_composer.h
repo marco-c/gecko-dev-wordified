@@ -269,6 +269,15 @@ region
 )
 OVERRIDE
 ;
+virtual
+void
+SetExcludedWindow
+(
+WindowId
+window
+)
+OVERRIDE
+;
 private
 :
 /

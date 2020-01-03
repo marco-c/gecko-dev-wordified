@@ -204,15 +204,6 @@ NumberOfDevices
 (
 )
 ;
-int32_t
-Refresh
-(
-)
-{
-return
-0
-;
-}
 /
 *
 *
@@ -394,6 +385,10 @@ private
 ICreateDevEnum
 *
 _dsDevEnum
+;
+IEnumMoniker
+*
+_dsMonikerDevEnum
 ;
 bool
 _CoUninitializeIsRequired

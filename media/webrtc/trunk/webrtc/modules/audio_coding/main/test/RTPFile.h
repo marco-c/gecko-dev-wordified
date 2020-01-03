@@ -360,6 +360,7 @@ RTPBuffer
 (
 )
 ;
+virtual
 void
 Write
 (
@@ -382,7 +383,9 @@ payloadSize
 uint32_t
 frequency
 )
+OVERRIDE
 ;
+virtual
 uint16_t
 Read
 (
@@ -398,6 +401,7 @@ uint32_t
 *
 offset
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -405,6 +409,7 @@ EndOfFile
 (
 )
 const
+OVERRIDE
 ;
 private
 :
@@ -480,6 +485,7 @@ ReadHeader
 (
 )
 ;
+virtual
 void
 Write
 (
@@ -502,7 +508,9 @@ payloadSize
 uint32_t
 frequency
 )
+OVERRIDE
 ;
+virtual
 uint16_t
 Read
 (
@@ -518,12 +526,15 @@ uint32_t
 *
 offset
 )
+OVERRIDE
 ;
+virtual
 bool
 EndOfFile
 (
 )
 const
+OVERRIDE
 {
 return
 _rtpEOF

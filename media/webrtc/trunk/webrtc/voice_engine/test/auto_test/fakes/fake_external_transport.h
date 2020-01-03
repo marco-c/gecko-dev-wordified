@@ -144,6 +144,7 @@ FakeExternalTransport
 (
 )
 ;
+virtual
 int
 SendPacket
 (
@@ -156,7 +157,9 @@ data
 int
 len
 )
+OVERRIDE
 ;
+virtual
 int
 SendRTCPPacket
 (
@@ -169,6 +172,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 void
 SetDelayStatus

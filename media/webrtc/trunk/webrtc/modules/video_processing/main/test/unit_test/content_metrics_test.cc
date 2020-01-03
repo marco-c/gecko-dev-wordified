@@ -196,9 +196,11 @@ width_
 height_
 )
 ;
-scoped_array
+scoped_ptr
 <
 uint8_t
+[
+]
 >
 video_buffer
 (

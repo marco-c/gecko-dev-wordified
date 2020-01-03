@@ -162,7 +162,7 @@ const
 uint8_t
 *
 packet
-int
+size_t
 length
 )
 ;
@@ -220,7 +220,7 @@ const
 uint8_t
 *
 packet
-int
+size_t
 length
 RTPHeader
 *

@@ -212,6 +212,16 @@ Stop
 )
 OVERRIDE
 ;
+int64_t
+first_frame_capture_time
+(
+)
+const
+{
+return
+first_frame_capture_time_
+;
+}
 private
 :
 FrameGeneratorCapturer
@@ -250,6 +260,7 @@ obj
 ;
 Clock
 *
+const
 clock_
 ;
 bool
@@ -281,6 +292,9 @@ frame_generator_
 ;
 int
 target_fps_
+;
+int64_t
+first_frame_capture_time_
 ;
 }
 ;

@@ -432,9 +432,11 @@ yet
 asked
 for
 .
-scoped_array
+scoped_ptr
 <
 int8_t
+[
+]
 >
 cache_buffer_
 ;

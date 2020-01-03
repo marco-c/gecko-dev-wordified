@@ -230,9 +230,11 @@ const
 int
 num_buckets_
 ;
-scoped_array
+scoped_ptr
 <
 uint32_t
+[
+]
 >
 buckets_
 ;

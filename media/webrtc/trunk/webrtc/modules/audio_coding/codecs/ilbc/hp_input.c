@@ -1002,9 +1002,10 @@ i
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 tmpW32b
+>
+>
 13
 )
 ;

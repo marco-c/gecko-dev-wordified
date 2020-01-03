@@ -3003,6 +3003,10 @@ WebRtcIsac_Encode
 (
 ISAC_main_inst
 shortdata
+(
+uint8_t
+*
+)
 streamdata
 )
 ;
@@ -3093,6 +3097,10 @@ WebRtcIsacfix_Encode
 (
 ISACFIX_main_inst
 shortdata
+(
+uint8_t
+*
+)
 streamdata
 )
 ;

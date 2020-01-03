@@ -332,6 +332,7 @@ on
 a
 separate
 thread
+virtual
 int
 SendPacket
 (
@@ -344,6 +345,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 /
 /

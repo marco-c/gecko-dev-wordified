@@ -527,9 +527,11 @@ width
 *
 height
 ;
-scoped_array
+scoped_ptr
 <
 uint32_t
+[
+]
 >
 data
 (

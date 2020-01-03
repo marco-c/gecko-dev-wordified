@@ -301,12 +301,14 @@ const
 int32_t
 id
 )
+OVERRIDE
 ;
 virtual
 bool
 ValidHandle
 (
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -315,6 +317,7 @@ SetCallback
 CallbackObj
 IncomingSocketCallback
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -325,6 +328,7 @@ SocketAddress
 &
 name
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -341,6 +345,7 @@ optval
 int32_t
 optlen
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -350,6 +355,7 @@ const
 uint32_t
 receiveBuffers
 )
+OVERRIDE
 ;
 virtual
 inline
@@ -357,6 +363,7 @@ bool
 StartReceiving
 (
 )
+OVERRIDE
 {
 return
 StartReceiving
@@ -370,6 +377,7 @@ bool
 StopReceiving
 (
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -386,14 +394,15 @@ SocketAddress
 &
 to
 )
+OVERRIDE
 ;
 virtual
 void
 CloseBlocking
 (
 )
+OVERRIDE
 ;
-virtual
 SOCKET
 GetFd
 (
@@ -428,6 +437,7 @@ overrideDSCP
 =
 0
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -437,6 +447,7 @@ const
 int32_t
 serviceType
 )
+OVERRIDE
 ;
 virtual
 int32_t
@@ -446,12 +457,14 @@ const
 int32_t
 pcp
 )
+OVERRIDE
 ;
 virtual
 uint32_t
 ReceiveBuffers
 (
 )
+OVERRIDE
 {
 return
 _receiveBuffers

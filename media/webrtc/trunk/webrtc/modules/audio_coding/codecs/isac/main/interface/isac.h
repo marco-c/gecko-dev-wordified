@@ -1188,7 +1188,7 @@ const
 int16_t
 *
 speechIn
-int16_t
+uint8_t
 *
 encoded
 )
@@ -1518,7 +1518,7 @@ ISACStruct
 *
 ISAC_main_inst
 const
-uint16_t
+uint8_t
 *
 encoded
 int32_t
@@ -1747,7 +1747,7 @@ ISACStruct
 *
 ISAC_main_inst
 const
-uint16_t
+uint8_t
 *
 encoded
 int16_t
@@ -2630,7 +2630,7 @@ ISACStruct
 *
 ISAC_main_inst
 const
-int16_t
+uint8_t
 *
 encoded
 int16_t
@@ -5070,7 +5070,7 @@ int16_t
 jitterInfo
 int32_t
 rate
-int16_t
+uint8_t
 *
 encoded
 int16_t
@@ -5502,7 +5502,7 @@ int16_t
 WebRtcIsac_ReadBwIndex
 (
 const
-int16_t
+uint8_t
 *
 encoded
 int16_t
@@ -5893,7 +5893,7 @@ WebRtcIsac_GetRedPayload
 ISACStruct
 *
 ISAC_main_inst
-int16_t
+uint8_t
 *
 encoded
 )
@@ -6109,7 +6109,7 @@ ISACStruct
 *
 ISAC_main_inst
 const
-uint16_t
+uint8_t
 *
 encoded
 int16_t

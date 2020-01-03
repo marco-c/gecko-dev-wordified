@@ -414,7 +414,7 @@ RtpFormatVp8TestHelper
 :
 GetAllPacketsAndCheck
 (
-RtpFormatVp8
+RtpPacketizerVp8
 *
 packetizer
 const
@@ -438,7 +438,7 @@ ASSERT_TRUE
 inited_
 )
 ;
-int
+size_t
 send_bytes
 =
 0
@@ -490,12 +490,8 @@ str
 )
 )
 ;
-EXPECT_EQ
+EXPECT_TRUE
 (
-expected_part
-[
-i
-]
 packetizer
 -
 >

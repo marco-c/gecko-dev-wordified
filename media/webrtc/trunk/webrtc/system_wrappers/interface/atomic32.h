@@ -145,7 +145,9 @@ include
 "
 webrtc
 /
-common_types
+base
+/
+constructormagic
 .
 h
 "
@@ -154,11 +156,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
-/
-constructor_magic
+common_types
 .
 h
 "

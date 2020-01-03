@@ -698,9 +698,11 @@ kFrameSizeBytes
 sample_rate
 )
 ;
-scoped_array
+scoped_ptr
 <
 int8_t
+[
+]
 >
 out_buffer
 ;

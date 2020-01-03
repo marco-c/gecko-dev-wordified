@@ -105,7 +105,9 @@ h
 #
 include
 <
-cassert
+assert
+.
+h
 >
 namespace
 webrtc

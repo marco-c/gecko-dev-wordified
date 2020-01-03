@@ -562,9 +562,11 @@ in
 the
 image
 .
-scoped_array
+scoped_ptr
 <
 DiffInfo
+[
+]
 >
 diff_info_
 ;

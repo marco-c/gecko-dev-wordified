@@ -101,11 +101,9 @@ include
 "
 webrtc
 /
-modules
+base
 /
-interface
-/
-module_common_types
+constructormagic
 .
 h
 "
@@ -114,11 +112,11 @@ include
 "
 webrtc
 /
-system_wrappers
+modules
 /
 interface
 /
-constructor_magic
+module_common_types
 .
 h
 "

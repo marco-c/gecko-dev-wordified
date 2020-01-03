@@ -235,7 +235,7 @@ recursive_avg_factor_
 /
 matched
 to
-15fps
+30fps
 .
 frame_cnt_uniform_avg_
 (
@@ -332,7 +332,7 @@ VCMContentMetricsProcessing
 :
 UpdateFrameRate
 (
-float
+uint32_t
 frameRate
 )
 {

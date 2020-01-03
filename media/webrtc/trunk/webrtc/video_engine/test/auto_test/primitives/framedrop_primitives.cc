@@ -409,10 +409,12 @@ size
 unsigned
 char
 *
-frameBuffer
+frame_buffer
+int64_t
+ntp_time_ms
 unsigned
 int
-timeStamp90KHz
+timestamp
 unsigned
 int
 width
@@ -430,7 +432,7 @@ FrameDropDetector
 :
 :
 kCreated
-timeStamp90KHz
+timestamp
 webrtc
 :
 :
@@ -452,8 +454,9 @@ ExternalRendererEffectFilter
 Transform
 (
 size
-frameBuffer
-timeStamp90KHz
+frame_buffer
+ntp_time_ms
+timestamp
 width
 height
 )
@@ -720,10 +723,12 @@ size
 unsigned
 char
 *
-frameBuffer
+frame_buffer
+int64_t
+ntp_time_ms
 unsigned
 int
-timeStamp90KHz
+timestamp
 unsigned
 int
 width
@@ -741,7 +746,7 @@ FrameDropDetector
 :
 :
 kDecoded
-timeStamp90KHz
+timestamp
 webrtc
 :
 :
@@ -4852,6 +4857,8 @@ buffer_size
 uint32_t
 time_stamp
 int64_t
+ntp_time_ms
+int64_t
 render_time
 void
 *
@@ -4960,6 +4967,7 @@ DeliverFrame
 buffer
 buffer_size
 time_stamp
+ntp_time_ms
 render_time
 NULL
 )

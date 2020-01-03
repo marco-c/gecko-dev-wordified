@@ -663,7 +663,7 @@ minimumSize
 .
 *
 /
-int32_t
+void
 VerifyAndAllocate
 (
 const

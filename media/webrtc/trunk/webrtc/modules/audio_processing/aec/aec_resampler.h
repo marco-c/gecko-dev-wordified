@@ -200,14 +200,14 @@ void
 *
 resampInst
 const
-short
+float
 *
 inspeech
 int
 size
 float
 skew
-short
+float
 *
 outspeech
 int

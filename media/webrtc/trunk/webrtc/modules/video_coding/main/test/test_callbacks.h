@@ -296,6 +296,7 @@ the
 /
 VCMReceiver
 module
+virtual
 int32_t
 SendData
 (
@@ -326,6 +327,7 @@ RTPVideoHeader
 *
 videoHdr
 )
+OVERRIDE
 ;
 /
 /
@@ -596,6 +598,7 @@ the
 /
 RTP
 module
+virtual
 int32_t
 SendData
 (
@@ -626,6 +629,7 @@ RTPVideoHeader
 *
 videoHdr
 )
+OVERRIDE
 ;
 /
 /
@@ -806,6 +810,7 @@ decoded
 frame
 into
 file
+virtual
 int32_t
 FrameToRender
 (
@@ -816,6 +821,7 @@ I420VideoFrame
 &
 videoFrame
 )
+OVERRIDE
 ;
 int32_t
 DecodedBytes
@@ -959,6 +965,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 /
 /
@@ -983,6 +990,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 /
 /
@@ -1207,6 +1215,7 @@ rtp
 )
 {
 }
+virtual
 int32_t
 ResendPackets
 (
@@ -1217,6 +1226,7 @@ sequenceNumbers
 uint16_t
 length
 )
+OVERRIDE
 ;
 private
 :
@@ -1242,10 +1252,12 @@ VCMFrameTypeCallback
 {
 public
 :
+virtual
 int32_t
 RequestKeyFrame
 (
 )
+OVERRIDE
 ;
 }
 ;
@@ -1278,6 +1290,7 @@ _bitrate
 )
 {
 }
+virtual
 int32_t
 SendStatistics
 (
@@ -1288,6 +1301,7 @@ const
 uint32_t
 frameRate
 )
+OVERRIDE
 ;
 void
 set_framerate
@@ -1387,6 +1401,7 @@ _rtp
 rtp
 ;
 }
+virtual
 int32_t
 ProtectionRequest
 (
@@ -1408,6 +1423,7 @@ uint32_t
 *
 sent_fec_rate_bps
 )
+OVERRIDE
 ;
 FecProtectionParams
 DeltaFecParameters

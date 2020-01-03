@@ -128,8 +128,6 @@ FecReceiver
 *
 Create
 (
-int32_t
-id
 RtpData
 *
 callback

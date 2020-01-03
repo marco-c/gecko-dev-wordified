@@ -629,9 +629,10 @@ byte_cntr
 ;
 crc_state
 =
-WEBRTC_SPL_LSHIFT_U32
 (
 crc_state
+<
+<
 8
 )
 ^

@@ -364,7 +364,7 @@ DISABLED_ON_MAC
 (
 ViEExtendedIntegrationTest
 )
-RunsRtpRtcpTestWithoutErrors
+DISABLED_RunsRtpRtcpTestWithoutErrors
 )
 {
 tests_

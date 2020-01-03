@@ -421,7 +421,7 @@ tmp_w32
 }
 else
 {
-int16_t
+int
 left_shifts
 =
 -

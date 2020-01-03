@@ -138,6 +138,9 @@ VerifiesInputParameters
 )
 {
 PushResampler
+<
+int16_t
+>
 resampler
 ;
 EXPECT_EQ

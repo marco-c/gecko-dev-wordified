@@ -276,6 +276,7 @@ const
 uint16_t
 fromPort
 )
+OVERRIDE
 ;
 virtual
 void
@@ -296,6 +297,7 @@ const
 uint16_t
 fromPort
 )
+OVERRIDE
 ;
 private
 :

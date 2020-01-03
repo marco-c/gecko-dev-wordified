@@ -106,6 +106,9 @@ ViECodec
 class
 ViENetwork
 ;
+class
+ViERTP_RTCP
+;
 }
 /
 /
@@ -193,6 +196,12 @@ webrtc
 ViENetwork
 *
 network_interface
+webrtc
+:
+:
+ViERTP_RTCP
+*
+rtp_rtcp_interface
 int
 video_channel
 const

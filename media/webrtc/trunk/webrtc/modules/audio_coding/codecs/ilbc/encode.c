@@ -232,6 +232,13 @@ c
 /
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 defines
 .
@@ -2452,7 +2459,7 @@ update
 memory
 *
 /
-WEBRTC_SPL_MEMMOVE_W16
+memmove
 (
 mem
 mem
@@ -2462,6 +2469,12 @@ SUBL
 CB_MEML
 -
 SUBL
+)
+*
+sizeof
+(
+*
+mem
 )
 )
 ;
@@ -3042,7 +3055,7 @@ update
 memory
 *
 /
-WEBRTC_SPL_MEMMOVE_W16
+memmove
 (
 mem
 mem
@@ -3052,6 +3065,12 @@ SUBL
 CB_MEML
 -
 SUBL
+)
+*
+sizeof
+(
+*
+mem
 )
 )
 ;

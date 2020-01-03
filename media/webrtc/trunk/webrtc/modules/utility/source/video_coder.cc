@@ -111,8 +111,6 @@ VideoCoder
 :
 VideoCoder
 (
-uint32_t
-instanceID
 )
 :
 _vcm
@@ -122,7 +120,6 @@ VideoCodingModule
 :
 Create
 (
-instanceID
 )
 )
 _decodedVideo

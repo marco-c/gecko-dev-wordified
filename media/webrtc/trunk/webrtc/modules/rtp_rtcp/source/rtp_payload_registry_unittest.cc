@@ -286,7 +286,6 @@ reset
 new
 RTPPayloadRegistry
 (
-123
 mock_payload_strategy_
 )
 )
@@ -294,7 +293,7 @@ mock_payload_strategy_
 }
 protected
 :
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -312,7 +311,7 @@ audio
 =
 true
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -364,7 +363,7 @@ the
 created
 object
 .
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -372,7 +371,7 @@ Payload
 returned_payload_on_heap
 =
 new
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -435,7 +434,7 @@ payload_type
 =
 97
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -486,7 +485,7 @@ created
 .
 "
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -642,7 +641,7 @@ red_payload_type
 )
 )
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -699,7 +698,7 @@ ignored
 =
 false
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -760,7 +759,7 @@ bad
 .
 "
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -816,7 +815,7 @@ payloads
 are
 preserved
 .
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -1069,7 +1068,7 @@ ignored
 )
 )
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload

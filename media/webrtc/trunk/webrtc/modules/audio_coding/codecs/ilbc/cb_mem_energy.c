@@ -695,9 +695,10 @@ energyW16
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 tmp32
+>
+>
 16
 )
 ;
@@ -825,9 +826,10 @@ base_size
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 tmp32
+>
+>
 16
 )
 ;

@@ -176,14 +176,6 @@ InternalCreateEncoder
 (
 )
 ;
-void
-InternalDestructEncoderInst
-(
-void
-*
-ptr_inst
-)
-;
 }
 ;
 }

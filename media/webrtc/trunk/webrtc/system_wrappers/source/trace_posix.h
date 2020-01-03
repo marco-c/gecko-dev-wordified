@@ -173,17 +173,6 @@ OVERRIDE
 ;
 virtual
 int32_t
-AddBuildInfo
-(
-char
-*
-trace_message
-)
-const
-OVERRIDE
-;
-virtual
-int32_t
 AddDateTimeInfo
 (
 char

@@ -247,6 +247,7 @@ to
 the
 VCMReceiver
 module
+virtual
 int32_t
 SendData
 (
@@ -286,6 +287,7 @@ RTPVideoHeader
 *
 videoHdr
 )
+OVERRIDE
 ;
 /
 /
@@ -489,6 +491,7 @@ decoded
 frame
 into
 file
+virtual
 int32_t
 FrameToRender
 (
@@ -499,6 +502,7 @@ I420VideoFrame
 &
 videoFrame
 )
+OVERRIDE
 ;
 int32_t
 DecodedBytes

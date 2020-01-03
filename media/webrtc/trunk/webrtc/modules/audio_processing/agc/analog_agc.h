@@ -136,15 +136,10 @@ h
 /
 #
 define
-AGC_DEBUG
-/
-/
-#
-define
 MIC_LEVEL_FEEDBACK
 #
 ifdef
-AGC_DEBUG
+WEBRTC_AGC_DEBUG_DUMP
 #
 include
 <
@@ -1061,6 +1056,9 @@ t
 amp
 low
 input
+int32_t
+lastInMicLevel
+;
 int16_t
 scale
 ;
@@ -1098,7 +1096,7 @@ digitalAgc
 ;
 #
 ifdef
-AGC_DEBUG
+WEBRTC_AGC_DEBUG_DUMP
 FILE
 *
 fpt

@@ -189,9 +189,6 @@ public
 :
 FecReceiverImpl
 (
-const
-int32_t
-id
 RtpData
 *
 callback
@@ -231,9 +228,6 @@ OVERRIDE
 ;
 private
 :
-int
-id_
-;
 scoped_ptr
 <
 CriticalSectionWrapper

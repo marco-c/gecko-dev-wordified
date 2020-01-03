@@ -389,12 +389,6 @@ WEBRTC_LINUX
 |
 defined
 (
-WEBRTC_BSD
-)
-|
-|
-defined
-(
 WEBRTC_MAC
 )
 /
@@ -711,8 +705,9 @@ available
 keys
 if
 (
-getchar
+getc
 (
+stdin
 )
 =
 =
@@ -722,8 +717,9 @@ n
 '
 )
 {
-getchar
+getc
 (
+stdin
 )
 ;
 }
@@ -835,12 +831,6 @@ endif
 defined
 (
 WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_BSD
 )
 |
 |

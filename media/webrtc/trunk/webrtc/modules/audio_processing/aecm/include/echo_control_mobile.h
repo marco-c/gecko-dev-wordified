@@ -2239,8 +2239,7 @@ Description
 *
 size_t
 return
-:
-size
+Size
 in
 bytes
 *

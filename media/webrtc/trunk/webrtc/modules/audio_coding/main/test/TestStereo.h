@@ -165,9 +165,6 @@ h
 namespace
 webrtc
 {
-class
-Config
-;
 enum
 StereoMonoMode
 {
@@ -226,6 +223,7 @@ RTPFragmentationHeader
 *
 fragmentation
 )
+OVERRIDE
 ;
 uint16_t
 payload_size
@@ -274,7 +272,7 @@ last_in_timestamp_
 uint64_t
 total_bytes_
 ;
-uint16_t
+int
 payload_size_
 ;
 StereoMonoMode
@@ -298,14 +296,11 @@ ACMTest
 {
 public
 :
+explicit
 TestStereo
 (
 int
 test_mode
-const
-Config
-&
-config
 )
 ;
 ~
@@ -313,10 +308,12 @@ TestStereo
 (
 )
 ;
+virtual
 void
 Perform
 (
 )
+OVERRIDE
 ;
 private
 :

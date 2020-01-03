@@ -1401,10 +1401,6 @@ operating
 system
 /
 /
-if
-(
-!
-(
 bOsVersionInfoEx
 =
 GetVersionEx
@@ -1416,7 +1412,11 @@ OSVERSIONINFO
 &
 osvi
 )
-)
+;
+if
+(
+!
+bOsVersionInfoEx
 )
 return
 FALSE

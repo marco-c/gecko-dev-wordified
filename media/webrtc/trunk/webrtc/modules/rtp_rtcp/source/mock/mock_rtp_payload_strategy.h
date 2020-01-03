@@ -146,7 +146,7 @@ PayloadIsCompatible
 bool
 (
 const
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -169,7 +169,7 @@ MOCK_CONST_METHOD2
 UpdatePayloadRate
 void
 (
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -187,7 +187,7 @@ GetPayloadTypeFrequency
 int
 (
 const
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload
@@ -199,7 +199,7 @@ payload
 MOCK_CONST_METHOD5
 (
 CreatePayloadType
-ModuleRTPUtility
+RtpUtility
 :
 :
 Payload

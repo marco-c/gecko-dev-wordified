@@ -182,7 +182,7 @@ enum
 {
 kDecoderFrameMemoryLength
 =
-30
+10
 }
 ;
 struct
@@ -355,10 +355,6 @@ VCMGenericDecoder
 VideoDecoder
 &
 decoder
-int32_t
-id
-=
-0
 bool
 isExternal
 =
@@ -552,11 +548,8 @@ External
 )
 const
 ;
-protected
+private
 :
-int32_t
-_id
-;
 VCMDecodedFrameCallback
 *
 _callback

@@ -260,11 +260,8 @@ VCMCodecDataBase
 {
 public
 :
-explicit
 VCMCodecDataBase
 (
-int
-id
 )
 ;
 ~
@@ -1104,9 +1101,6 @@ uint8_t
 payload_type
 )
 const
-;
-int
-id_
 ;
 int
 number_of_cores_

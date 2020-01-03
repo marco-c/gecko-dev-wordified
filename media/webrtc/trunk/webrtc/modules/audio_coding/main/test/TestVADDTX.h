@@ -158,9 +158,6 @@ h
 namespace
 webrtc
 {
-class
-Config
-;
 typedef
 struct
 {
@@ -268,13 +265,8 @@ ACMTest
 {
 public
 :
-explicit
 TestVADDTX
 (
-const
-Config
-&
-config
 )
 ;
 ~

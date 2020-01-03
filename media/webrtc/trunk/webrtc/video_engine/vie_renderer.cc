@@ -860,6 +860,11 @@ timestamp
 )
 video_frame
 .
+ntp_time_ms
+(
+)
+video_frame
+.
 render_time_ms
 (
 )
@@ -1156,6 +1161,11 @@ Length
 video_frame
 .
 timestamp
+(
+)
+video_frame
+.
+ntp_time_ms
 (
 )
 video_frame

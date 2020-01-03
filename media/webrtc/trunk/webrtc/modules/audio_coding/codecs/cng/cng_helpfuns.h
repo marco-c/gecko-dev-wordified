@@ -94,6 +94,8 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_CNG_CNG_HELPFUNS_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

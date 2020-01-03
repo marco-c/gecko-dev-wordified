@@ -929,7 +929,8 @@ the
 AEC
 instance
 *
-int16_t
+const
+float
 *
 farend
 In
@@ -1045,7 +1046,7 @@ void
 *
 aecInst
 const
-int16_t
+float
 *
 farend
 int16_t
@@ -1151,7 +1152,7 @@ the
 AEC
 instance
 *
-int16_t
+float
 *
 nearend
 In
@@ -1169,7 +1170,7 @@ for
 L
 band
 *
-int16_t
+float
 *
 nearendH
 In
@@ -1302,7 +1303,7 @@ Description
 -
 -
 *
-int16_t
+float
 *
 out
 Out
@@ -1317,7 +1318,7 @@ for
 L
 band
 *
-int16_t
+float
 *
 outH
 Out
@@ -1351,17 +1352,17 @@ void
 *
 aecInst
 const
-int16_t
+float
 *
 nearend
 const
-int16_t
+float
 *
 nearendH
-int16_t
+float
 *
 out
-int16_t
+float
 *
 outH
 int16_t

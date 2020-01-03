@@ -109,7 +109,7 @@ audio_coding
 /
 main
 /
-source
+acm2
 /
 acm_opus
 .
@@ -126,7 +126,7 @@ audio_coding
 /
 main
 /
-source
+acm2
 /
 acm_resampler
 .
@@ -217,9 +217,6 @@ namespace
 webrtc
 {
 class
-Config
-;
-class
 OpusTest
 :
 public
@@ -227,13 +224,8 @@ ACMTest
 {
 public
 :
-explicit
 OpusTest
 (
-const
-Config
-&
-config
 )
 ;
 ~
@@ -304,7 +296,7 @@ payload_type_
 int
 rtp_timestamp_
 ;
-acm1
+acm2
 :
 :
 ACMResampler

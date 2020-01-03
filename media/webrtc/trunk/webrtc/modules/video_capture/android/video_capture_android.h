@@ -207,6 +207,8 @@ uint8_t
 videoFrame
 int32_t
 videoFrameLength
+int32_t
+degrees
 int64_t
 captureTime
 =
@@ -238,6 +240,9 @@ object
 .
 VideoCaptureCapability
 _captureCapability
+;
+VideoCaptureRotation
+_rotation
 ;
 bool
 _captureStarted

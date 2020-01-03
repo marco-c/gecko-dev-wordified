@@ -278,9 +278,11 @@ height
 webrtc
 :
 :
-scoped_array
+scoped_ptr
 <
 uint8_t
+[
+]
 >
 temp_buffer
 (

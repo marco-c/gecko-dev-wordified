@@ -106,9 +106,8 @@ virtual
 ACMTest
 (
 )
-=
-0
-;
+{
+}
 virtual
 void
 Perform

@@ -156,6 +156,11 @@ int16_t
 *
 bitstream_len_byte
 )
+OVERRIDE
+EXCLUSIVE_LOCKS_REQUIRED
+(
+codec_wrapper_lock_
+)
 ;
 int16_t
 InternalInitEncoder
@@ -175,14 +180,6 @@ DestructEncoderSafe
 int16_t
 InternalCreateEncoder
 (
-)
-;
-void
-InternalDestructEncoderInst
-(
-void
-*
-ptr_inst
 )
 ;
 }

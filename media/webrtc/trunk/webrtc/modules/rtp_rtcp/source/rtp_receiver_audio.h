@@ -469,7 +469,7 @@ nothing
 void
 PossiblyRemoveExistingPayloadType
 (
-ModuleRTPUtility
+RtpUtility
 :
 :
 PayloadTypeMap

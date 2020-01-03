@@ -120,11 +120,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-constructor_magic
+constructormagic
 .
 h
 "
@@ -382,6 +380,8 @@ int
 buffer_size
 uint32_t
 time_stamp
+int64_t
+ntp_time_ms
 int64_t
 render_time
 void

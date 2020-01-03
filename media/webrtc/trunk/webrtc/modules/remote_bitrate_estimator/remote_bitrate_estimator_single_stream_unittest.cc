@@ -105,11 +105,9 @@ include
 "
 webrtc
 /
-modules
+base
 /
-remote_bitrate_estimator
-/
-remote_bitrate_estimator_unittest_helper
+constructormagic
 .
 h
 "
@@ -118,11 +116,11 @@ include
 "
 webrtc
 /
-system_wrappers
+modules
 /
-interface
+remote_bitrate_estimator
 /
-constructor_magic
+remote_bitrate_estimator_unittest_helper
 .
 h
 "
@@ -172,6 +170,7 @@ get
 )
 &
 clock_
+kMimdControl
 kRemoteBitrateEstimatorMinBitrateBps
 )
 )
@@ -206,6 +205,7 @@ RateIncreaseReordering
 {
 RateIncreaseReorderingTestHelper
 (
+498136
 )
 ;
 }
@@ -217,6 +217,7 @@ RateIncreaseRtpTimestamps
 {
 RateIncreaseRtpTimestampsTestHelper
 (
+1621
 )
 ;
 }
@@ -256,7 +257,6 @@ CapacityDropTestHelper
 (
 1
 false
-956214
 367
 )
 ;
@@ -313,7 +313,6 @@ CapacityDropTestHelper
 (
 1
 true
-956214
 367
 )
 ;
@@ -378,7 +377,6 @@ CapacityDropTestHelper
 (
 2
 true
-927088
 267
 )
 ;
@@ -443,7 +441,6 @@ CapacityDropTestHelper
 (
 3
 true
-920944
 333
 )
 ;
@@ -458,7 +455,6 @@ CapacityDropTestHelper
 (
 13
 true
-938944
 300
 )
 ;
@@ -473,7 +469,6 @@ CapacityDropTestHelper
 (
 19
 true
-926718
 300
 )
 ;
@@ -488,7 +483,6 @@ CapacityDropTestHelper
 (
 30
 true
-927016
 300
 )
 ;

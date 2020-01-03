@@ -126,7 +126,7 @@ signal_processing_library
 .
 h
 "
-int
+int16_t
 WebRtcSpl_GetScalingSquare
 (
 int16_t
@@ -138,7 +138,7 @@ int
 times
 )
 {
-int
+int16_t
 nbits
 =
 WebRtcSpl_GetSizeInBits
@@ -164,7 +164,7 @@ sptr
 =
 in_vector
 ;
-int
+int16_t
 t
 ;
 int

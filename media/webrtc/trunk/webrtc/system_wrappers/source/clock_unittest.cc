@@ -158,6 +158,14 @@ CurrentNtpInMilliseconds
 (
 )
 ;
+EXPECT_GT
+(
+milliseconds
+/
+1000
+kNtpJan1970
+)
+;
 EXPECT_GE
 (
 milliseconds

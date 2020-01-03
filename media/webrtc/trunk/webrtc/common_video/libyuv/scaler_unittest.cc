@@ -657,9 +657,11 @@ kScalePoint
 I420VideoFrame
 test_frame2
 ;
-scoped_array
+scoped_ptr
 <
 uint8_t
+[
+]
 >
 orig_buffer
 (
@@ -3233,9 +3235,11 @@ src_width
 src_height
 )
 ;
-scoped_array
+scoped_ptr
 <
 uint8_t
+[
+]
 >
 frame_buffer
 (

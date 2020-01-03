@@ -1098,7 +1098,6 @@ VideoCodingModule
 :
 Create
 (
-1
 )
 ;
 RtpDataCallback
@@ -1172,8 +1171,6 @@ registry
 new
 RTPPayloadRegistry
 (
--
-1
 RTPPayloadStrategy
 :
 :
