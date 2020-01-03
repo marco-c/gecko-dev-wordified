@@ -124,35 +124,19 @@ nsIX509CertDB
 function
 certFromFile
 (
-filename
+name
 )
 {
-let
-der
-=
-readFile
+return
+constructCertFromFile
 (
-do_get_file
-(
-"
 test_name_constraints
 /
-"
-+
-filename
-false
-)
-)
-;
-return
-certdb
+{
+name
+}
 .
-constructX509
-(
-der
-der
-.
-length
+pem
 )
 ;
 }
@@ -163,32 +147,23 @@ cert_name
 trust_string
 )
 {
-var
-cert_filename
-=
-cert_name
-+
-"
-.
-der
-"
-;
 addCertFromFile
 (
 certdb
-"
 test_name_constraints
 /
-"
-+
-cert_filename
+{
+cert_name
+}
+.
+pem
 trust_string
 )
 ;
 return
 certFromFile
 (
-cert_filename
+cert_name
 )
 ;
 }
@@ -413,8 +388,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -445,8 +418,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -483,8 +454,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -521,8 +490,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -559,8 +526,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -597,8 +562,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -651,8 +614,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -695,8 +656,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -731,8 +690,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -773,8 +730,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -815,8 +770,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -857,8 +810,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -899,8 +850,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -957,8 +906,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1063,8 +1010,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1095,8 +1040,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1171,8 +1114,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1209,8 +1150,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1247,8 +1186,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1285,8 +1222,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1339,8 +1274,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1383,8 +1316,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1419,8 +1350,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1461,8 +1390,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1503,8 +1430,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1545,8 +1470,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1587,8 +1510,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1641,8 +1562,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1731,8 +1650,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1761,8 +1678,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1797,8 +1712,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1833,8 +1746,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1869,8 +1780,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1905,8 +1814,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1953,8 +1860,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -1987,8 +1892,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2021,8 +1924,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2061,8 +1962,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2101,8 +2000,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2141,8 +2038,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2181,8 +2076,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2233,8 +2126,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2348,8 +2239,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2386,8 +2275,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2430,8 +2317,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2474,8 +2359,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2518,8 +2401,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2562,8 +2443,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2618,8 +2497,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2660,8 +2537,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2702,8 +2577,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2750,8 +2623,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2798,8 +2669,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2846,8 +2715,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2894,8 +2761,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -2954,8 +2819,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3054,8 +2917,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3088,8 +2949,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3128,8 +2987,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3168,8 +3025,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3208,8 +3063,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3248,8 +3101,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3300,8 +3151,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3338,8 +3187,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3376,8 +3223,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3420,8 +3265,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3489,8 +3332,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3533,8 +3374,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3577,8 +3416,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3633,8 +3470,6 @@ us
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3732,8 +3567,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3764,8 +3597,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3802,8 +3633,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3840,8 +3669,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3878,8 +3705,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3916,8 +3741,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -3966,8 +3789,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4002,8 +3823,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4038,8 +3857,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4080,8 +3897,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4122,8 +3937,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4164,8 +3977,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4206,8 +4017,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4260,8 +4069,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4368,8 +4175,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4406,8 +4211,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4450,8 +4253,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4494,8 +4295,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4538,8 +4337,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4582,8 +4379,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4638,8 +4433,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4680,8 +4473,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4722,8 +4513,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4770,8 +4559,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4818,8 +4605,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4866,8 +4651,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4914,8 +4697,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -4974,8 +4755,6 @@ uk
 ca
 -
 nc
-.
-der
 '
 )
 )
@@ -5051,8 +4830,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5079,8 +4856,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5113,8 +4888,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5147,8 +4920,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5181,8 +4952,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5215,8 +4984,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5261,8 +5028,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5293,8 +5058,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5325,8 +5088,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5363,8 +5124,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5401,8 +5160,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5439,8 +5196,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5477,8 +5232,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5527,8 +5280,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5589,7 +5340,7 @@ inner
 )
 name
 constraint
-ins
+is
 enforced
 .
 /
@@ -5672,8 +5423,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5708,8 +5457,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5750,8 +5497,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5792,8 +5537,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5834,8 +5577,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5876,8 +5617,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5930,8 +5669,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -5970,8 +5707,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -6010,8 +5745,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -6056,8 +5789,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -6102,8 +5833,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -6148,8 +5877,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -6194,8 +5921,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -6252,8 +5977,6 @@ foo
 com_a
 .
 us
-.
-der
 '
 )
 )
@@ -6334,8 +6057,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6364,8 +6085,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6400,8 +6119,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6436,8 +6153,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6472,8 +6187,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6508,8 +6221,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6556,8 +6267,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6590,8 +6299,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6624,8 +6331,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6664,8 +6369,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6704,8 +6407,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6744,8 +6445,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6784,8 +6483,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6836,8 +6533,6 @@ perm
 foo
 .
 com
-.
-der
 '
 )
 )
@@ -6912,8 +6607,6 @@ com
 ca
 -
 nc
-.
-der
 '
 )
 ;
@@ -6971,7 +6664,7 @@ cert
 load_cert
 (
 "
-dcisscopy
+dciss
 "
 "
 C
@@ -6988,8 +6681,6 @@ certFromFile
 NameConstraints
 .
 dcissallowed
-.
-cert
 '
 )
 )
@@ -7002,8 +6693,6 @@ certFromFile
 NameConstraints
 .
 dcissblocked
-.
-cert
 '
 )
 )
