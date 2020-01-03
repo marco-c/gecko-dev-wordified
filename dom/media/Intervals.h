@@ -1142,6 +1142,7 @@ IntervalSet
 )
 {
 }
+virtual
 ~
 IntervalSet
 (
