@@ -1828,12 +1828,6 @@ mRawTimeout
 <
 =
 10
-&
-&
-mLoopCount
-!
-=
-0
 )
 {
 return
