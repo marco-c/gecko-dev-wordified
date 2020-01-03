@@ -1645,6 +1645,10 @@ null
 null
 true
 null
+aNoReferrer
+?
+null
+:
 aReferrerURI
 aInitiatingDoc
 )
@@ -1881,6 +1885,10 @@ sa
 .
 AppendElement
 (
+aNoReferrer
+?
+null
+:
 aReferrerURI
 )
 ;
@@ -2296,6 +2304,10 @@ loadURIWithFlags
 (
 url
 flags
+aNoReferrer
+?
+null
+:
 aReferrerURI
 null
 aPostData
