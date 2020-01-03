@@ -138,6 +138,10 @@ include
 "
 gmp
 -
+api
+/
+gmp
+-
 errors
 .
 h
@@ -145,6 +149,10 @@ h
 #
 include
 "
+gmp
+-
+api
+/
 gmp
 -
 platform
