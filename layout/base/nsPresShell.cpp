@@ -39947,7 +39947,7 @@ mMessage
 )
 {
 case
-NS_TOUCH_MOVE
+eTouchMove
 :
 pointerMessage
 =
@@ -45304,7 +45304,7 @@ mMessage
 )
 {
 case
-NS_TOUCH_MOVE
+eTouchMove
 :
 case
 NS_TOUCH_CANCEL
@@ -48834,7 +48834,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_MOVE
+eTouchMove
 &
 &
 aTouchIsNew

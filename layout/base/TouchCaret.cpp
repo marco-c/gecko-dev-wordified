@@ -4179,7 +4179,7 @@ AsMouseEvent
 break
 ;
 case
-NS_TOUCH_MOVE
+eTouchMove
 :
 status
 =
@@ -4725,7 +4725,7 @@ TOUCHCARET_TOUCHDRAG_INACTIVE
 /
 /
 Consume
-NS_TOUCH_MOVE
+eTouchMove
 event
 in
 TOUCHCARET_TOUCHDRAG_INACTIVE

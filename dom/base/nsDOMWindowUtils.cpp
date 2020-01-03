@@ -4598,7 +4598,7 @@ touchmove
 {
 msg
 =
-NS_TOUCH_MOVE
+eTouchMove
 ;
 }
 else

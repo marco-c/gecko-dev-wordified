@@ -1539,7 +1539,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_MOVE
+eTouchMove
 |
 |
 aEvent

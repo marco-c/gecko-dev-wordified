@@ -2467,7 +2467,7 @@ eTouchEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_TOUCH_MOVE
+eTouchMove
 eTouchEventFirst
 +
 1

@@ -9611,7 +9611,7 @@ event
 mMessage
 =
 =
-NS_TOUCH_MOVE
+eTouchMove
 )
 ?
 PBrowserParent
@@ -15126,7 +15126,7 @@ eTouchStart
 msg
 !
 =
-NS_TOUCH_MOVE
+eTouchMove
 &
 &
 msg
