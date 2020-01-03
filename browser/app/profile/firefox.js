@@ -21644,6 +21644,9 @@ discovery
 "
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -21670,6 +21673,8 @@ enabled
 false
 )
 ;
+#
+endif
 /
 /
 Temporary
