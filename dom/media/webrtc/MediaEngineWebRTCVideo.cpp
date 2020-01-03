@@ -943,9 +943,6 @@ TrackID
 aID
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
 {
 VideoSegment
@@ -998,7 +995,7 @@ delta
 =
 aDesiredTime
 -
-aLastEndTime
+mProducedDuration
 ;
 LOGFRAME
 (
@@ -1187,8 +1184,6 @@ nullptr
 images
 are
 allowed
-if
-(
 AppendToTrack
 (
 aSource
@@ -1196,13 +1191,7 @@ mImage
 aID
 delta
 )
-)
-{
-aLastEndTime
-=
-aDesiredTime
 ;
-}
 }
 }
 /

@@ -153,6 +153,10 @@ mHeight
 (
 0
 )
+mProducedDuration
+(
+0
+)
 mInitDone
 (
 false
@@ -541,6 +545,9 @@ we
 shut
 down
 HW
+StreamTime
+mProducedDuration
+;
 bool
 mInitDone
 ;

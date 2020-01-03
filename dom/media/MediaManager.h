@@ -512,14 +512,6 @@ mVideoSource
 =
 aVideoSource
 ;
-mLastEndTimeAudio
-=
-0
-;
-mLastEndTimeVideo
-=
-0
-;
 mStream
 -
 >
@@ -1159,7 +1151,6 @@ aGraph
 mStream
 kAudioTrack
 aDesiredTime
-mLastEndTimeAudio
 )
 ;
 }
@@ -1177,7 +1168,6 @@ aGraph
 mStream
 kVideoTrack
 aDesiredTime
-mLastEndTimeVideo
 )
 ;
 }
@@ -1366,12 +1356,6 @@ mStream
 /
 threadsafe
 refcnt
-StreamTime
-mLastEndTimeAudio
-;
-StreamTime
-mLastEndTimeVideo
-;
 bool
 mFinished
 ;
