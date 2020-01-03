@@ -72131,10 +72131,12 @@ uc
 ;
 if
 (
-sDebugUseCounters
-&
-&
 value
+)
+{
+if
+(
+sDebugUseCounters
 )
 {
 const
@@ -72190,6 +72192,7 @@ n
 value
 )
 ;
+}
 }
 Telemetry
 :
@@ -72244,10 +72247,12 @@ uc
 ;
 if
 (
-sDebugUseCounters
-&
-&
 value
+)
+{
+if
+(
+sDebugUseCounters
 )
 {
 const
@@ -72303,6 +72308,7 @@ n
 value
 )
 ;
+}
 }
 Telemetry
 :
