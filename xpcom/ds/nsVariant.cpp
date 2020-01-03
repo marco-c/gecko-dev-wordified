@@ -2995,7 +2995,7 @@ data
 \
 Ctype_
 *
-_retval
+aResult
 )
 \
 {
@@ -3011,7 +3011,7 @@ name_
 #
 #
 Value
-_retval
+aResult
 )
 \
 nsDiscriminatedUnion
@@ -3121,7 +3121,7 @@ VTYPE_INT32
 :
 \
 *
-_retval
+aResult
 =
 (
 Ctype_
@@ -3181,7 +3181,7 @@ NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 ;
 \
 *
-_retval
+aResult
 =
 (
 Ctype_
@@ -3209,7 +3209,7 @@ VTYPE_UINT32
 :
 \
 *
-_retval
+aResult
 =
 (
 Ctype_
@@ -3263,7 +3263,7 @@ NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 ;
 \
 *
-_retval
+aResult
 =
 (
 Ctype_
@@ -3291,7 +3291,7 @@ VTYPE_DOUBLE
 :
 \
 *
-_retval
+aResult
 =
 (
 Ctype_
@@ -3351,7 +3351,7 @@ NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 ;
 \
 *
-_retval
+aResult
 =
 (
 Ctype_
@@ -3409,7 +3409,7 @@ NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 ;
 \
 *
-_retval
+aResult
 =
 (
 Ctype_
