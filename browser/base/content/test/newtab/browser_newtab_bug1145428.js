@@ -146,6 +146,11 @@ type
 "
 affiliate
 "
+adgroup_name
+:
+"
+example
+"
 frecent_sites
 :
 [

@@ -124,6 +124,11 @@ type
 "
 affiliate
 "
+adgroup_name
+:
+"
+test
+"
 frecent_sites
 :
 [
