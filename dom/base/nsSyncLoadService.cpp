@@ -918,6 +918,10 @@ corsListener
 Init
 (
 mChannel
+DataURIHandling
+:
+:
+Disallow
 )
 ;
 NS_ENSURE_SUCCESS

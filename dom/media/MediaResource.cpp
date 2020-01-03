@@ -4215,7 +4215,10 @@ crossSiteListener
 Init
 (
 mChannel
-true
+DataURIHandling
+:
+:
+Allow
 )
 ;
 NS_ENSURE_SUCCESS

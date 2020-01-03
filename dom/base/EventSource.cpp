@@ -4665,6 +4665,10 @@ listener
 Init
 (
 mHttpChannel
+DataURIHandling
+:
+:
+Allow
 )
 ;
 NS_ENSURE_SUCCESS

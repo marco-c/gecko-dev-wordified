@@ -10635,7 +10635,10 @@ corsListener
 Init
 (
 channel
-true
+DataURIHandling
+:
+:
+Allow
 )
 ;
 if

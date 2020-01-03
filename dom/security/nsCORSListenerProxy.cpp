@@ -2544,7 +2544,7 @@ Init
 nsIChannel
 *
 aChannel
-bool
+DataURIHandling
 aAllowDataURI
 )
 {
@@ -4265,6 +4265,10 @@ rv
 UpdateChannel
 (
 mNewRedirectChannel
+DataURIHandling
+:
+:
+Disallow
 )
 ;
 if
@@ -4349,7 +4353,7 @@ UpdateChannel
 nsIChannel
 *
 aChannel
-bool
+DataURIHandling
 aAllowDataURI
 )
 {
@@ -4411,6 +4415,12 @@ check
 if
 (
 aAllowDataURI
+=
+=
+DataURIHandling
+:
+:
+Allow
 &
 &
 originalURI
@@ -6667,6 +6677,10 @@ corsListener
 Init
 (
 preflightChannel
+DataURIHandling
+:
+:
+Disallow
 )
 ;
 NS_ENSURE_SUCCESS

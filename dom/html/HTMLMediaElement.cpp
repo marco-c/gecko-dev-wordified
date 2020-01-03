@@ -7662,7 +7662,10 @@ corsListener
 Init
 (
 channel
-true
+DataURIHandling
+:
+:
+Allow
 )
 ;
 NS_ENSURE_SUCCESS
