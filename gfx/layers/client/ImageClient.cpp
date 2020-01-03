@@ -2315,12 +2315,6 @@ GetSerial
 (
 )
 ;
-AutoRemoveTexture
-autoRemoveTexture
-(
-this
-)
-;
 if
 (
 image
