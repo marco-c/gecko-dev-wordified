@@ -1452,7 +1452,7 @@ getString
 "
 ctrlTab
 .
-showAll
+listAllTabs
 .
 label
 "
