@@ -1196,12 +1196,6 @@ OnError
 (
 )
 ;
-static
-void
-DefaultConfig
-(
-)
-;
 private
 :
 bool
