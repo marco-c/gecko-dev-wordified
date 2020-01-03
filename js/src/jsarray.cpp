@@ -2774,10 +2774,7 @@ return
 false
 ;
 return
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 obj
@@ -4386,10 +4383,7 @@ deleteSucceeded
 if
 (
 !
-JSObject
-:
-:
-deleteElement
+DeleteElement
 (
 cx
 arr
@@ -4820,10 +4814,7 @@ deleteSucceeded
 if
 (
 !
-JSObject
-:
-:
-deleteElement
+DeleteElement
 (
 cx
 arr

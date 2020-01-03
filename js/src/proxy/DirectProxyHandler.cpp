@@ -507,10 +507,7 @@ target
 )
 ;
 return
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 target
