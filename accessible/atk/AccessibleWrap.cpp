@@ -5850,6 +5850,17 @@ rv
 rv
 )
 ;
+if
+(
+IPCAccessibilityActive
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 Accessible
 *
 accessible
