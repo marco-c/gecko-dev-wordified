@@ -3088,6 +3088,7 @@ gfxWarning
 Failed
 to
 create
+dual
 draw
 target
 for
@@ -3129,6 +3130,7 @@ gfxWarning
 Failed
 to
 create
+new
 draw
 target
 for
@@ -3382,7 +3384,7 @@ create
 draw
 target
 for
-D3D10
+D3D11
 texture
 .
 "
