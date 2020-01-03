@@ -178,13 +178,6 @@ value
 void
 Value
 (
-unsigned
-value
-)
-;
-void
-Value
-(
 double
 value
 )
