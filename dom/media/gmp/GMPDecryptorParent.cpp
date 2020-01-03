@@ -825,6 +825,9 @@ plain_sizes
 aCrypto
 .
 encrypted_sizes
+aCrypto
+.
+session_ids
 )
 ;
 unused

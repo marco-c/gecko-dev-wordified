@@ -108,6 +108,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 namespace
 stagefright
 {
@@ -393,6 +400,12 @@ nsTArray
 uint8_t
 >
 iv
+;
+nsTArray
+<
+nsCString
+>
+session_ids
 ;
 }
 ;
