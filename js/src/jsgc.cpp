@@ -11417,13 +11417,12 @@ arena
 ;
 }
 }
-inline
-void
+TenuredCell
 *
 ArenaLists
 :
 :
-allocateFromArenaInline
+allocateFromArena
 (
 Zone
 *
@@ -11432,7 +11431,7 @@ AllocKind
 thingKind
 AutoMaybeStartBackgroundAllocation
 &
-maybeStartBackgroundAllocation
+maybeStartBGAlloc
 )
 {
 /
@@ -11819,7 +11818,7 @@ zone
 aheader
 )
 ;
-void
+TenuredCell
 *
 thing
 =
@@ -11910,7 +11909,7 @@ gc
 pickChunk
 (
 zone
-maybeStartBackgroundAllocation
+maybeStartBGAlloc
 )
 ;
 if
@@ -12149,7 +12148,7 @@ thingSize
 )
 ;
 }
-void
+TenuredCell
 *
 ArenaLists
 :
@@ -12170,7 +12169,7 @@ AutoMaybeStartBackgroundAllocation
 maybeStartBackgroundAllocation
 ;
 return
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -16663,7 +16662,7 @@ static
 /
 void
 *
-ArenaLists
+GCRuntime
 :
 :
 refillFreeListFromMainThread
@@ -16942,7 +16941,7 @@ allocator
 >
 arenas
 .
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -16963,7 +16962,7 @@ thing
 /
 Even
 if
-allocateFromArenaInline
+allocateFromArena
 failed
 due
 to
@@ -17028,7 +17027,7 @@ allocator
 >
 arenas
 .
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -17106,7 +17105,7 @@ static
 /
 void
 *
-ArenaLists
+GCRuntime
 :
 :
 refillFreeListOffMainThread
@@ -17223,7 +17222,7 @@ allocator
 >
 arenas
 .
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -17238,7 +17237,7 @@ static
 /
 void
 *
-ArenaLists
+GCRuntime
 :
 :
 refillFreeListPJS
@@ -17279,7 +17278,7 @@ allocator
 >
 arenas
 .
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -17299,10 +17298,10 @@ static
 /
 void
 *
-ArenaLists
+GCRuntime
 :
 :
-refillFreeList
+refillFreeListFromAnyThread
 (
 ThreadSafeContext
 *
@@ -17407,10 +17406,10 @@ thingKind
 template
 void
 *
-ArenaLists
+GCRuntime
 :
 :
-refillFreeList
+refillFreeListFromAnyThread
 <
 NoGC
 >
@@ -17425,10 +17424,10 @@ thingKind
 template
 void
 *
-ArenaLists
+GCRuntime
 :
 :
-refillFreeList
+refillFreeListFromAnyThread
 <
 CanGC
 >
@@ -17447,7 +17446,7 @@ static
 /
 void
 *
-ArenaLists
+GCRuntime
 :
 :
 refillFreeListInGC

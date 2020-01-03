@@ -1690,7 +1690,10 @@ GC
 .
 *
 /
-void
+gc
+:
+:
+TenuredCell
 *
 allocateFromTenured
 (
