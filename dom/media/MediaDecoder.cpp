@@ -1568,6 +1568,13 @@ GCed
 Clean
 up
 .
+if
+(
+os
+.
+mPort
+)
+{
 os
 .
 mPort
@@ -1577,6 +1584,7 @@ Destroy
 (
 )
 ;
+}
 mOutputStreams
 .
 RemoveElementAt
@@ -1619,6 +1627,13 @@ s
 good
 form
 .
+if
+(
+os
+.
+mPort
+)
+{
 os
 .
 mPort
@@ -1634,6 +1649,7 @@ mPort
 =
 nullptr
 ;
+}
 }
 mDecodedStream
 =
@@ -4417,6 +4433,13 @@ GCed
 Clean
 up
 .
+if
+(
+os
+.
+mPort
+)
+{
 os
 .
 mPort
@@ -4426,6 +4449,7 @@ Destroy
 (
 )
 ;
+}
 mOutputStreams
 .
 RemoveElementAt
@@ -4474,6 +4498,13 @@ Finish
 (
 )
 ;
+if
+(
+os
+.
+mPort
+)
+{
 os
 .
 mPort
@@ -4483,6 +4514,7 @@ Destroy
 (
 )
 ;
+}
 /
 /
 Not
