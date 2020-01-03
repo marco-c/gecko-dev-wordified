@@ -7350,6 +7350,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -7375,6 +7376,7 @@ nsIntRegion
 &
 aRegion
 )
+MOZ_OVERRIDE
 {
 return
 true

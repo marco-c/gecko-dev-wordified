@@ -364,6 +364,7 @@ CompositableType
 GetType
 (
 )
+MOZ_OVERRIDE
 {
 return
 mTextureInfo
@@ -476,6 +477,7 @@ GetImageSize
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 LayerRenderState
@@ -499,6 +501,7 @@ char
 *
 aPrefix
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

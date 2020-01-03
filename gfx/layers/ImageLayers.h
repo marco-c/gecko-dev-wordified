@@ -562,6 +562,7 @@ char
 *
 aPrefix
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -578,6 +579,7 @@ void
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 nsRefPtr
 <

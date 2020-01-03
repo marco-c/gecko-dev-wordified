@@ -339,6 +339,7 @@ nsIntRegion
 &
 aRegion
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -379,6 +380,7 @@ nsIntRegion
 &
 aRegion
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -444,6 +446,7 @@ void
 *
 aCallbackData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -468,6 +471,7 @@ void
 ClearCachedResources
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -501,6 +505,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
+MOZ_OVERRIDE
 {
 if
 (

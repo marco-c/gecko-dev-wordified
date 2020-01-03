@@ -1111,6 +1111,7 @@ void
 Clear
 (
 )
+MOZ_OVERRIDE
 {
 RotatedContentBuffer
 :
@@ -1521,6 +1522,7 @@ void
 Clear
 (
 )
+MOZ_OVERRIDE
 {
 RotatedContentBuffer
 :
@@ -1749,6 +1751,7 @@ aVisibleRegion
 bool
 aDidSelfCopy
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2621,6 +2624,7 @@ GetTextureInfo
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mTextureInfo
@@ -2631,6 +2635,7 @@ void
 Clear
 (
 )
+MOZ_OVERRIDE
 {
 mBufferRect
 .
@@ -2719,6 +2724,7 @@ aVisibleRegion
 bool
 aDidSelfCopy
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2736,6 +2742,7 @@ aReadbackUpdates
 =
 nullptr
 )
+MOZ_OVERRIDE
 {
 if
 (

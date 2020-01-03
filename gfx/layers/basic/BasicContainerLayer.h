@@ -235,6 +235,7 @@ nsIntRegion
 &
 aRegion
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -277,6 +278,7 @@ Layer
 *
 aAfter
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -327,6 +329,7 @@ Layer
 *
 aChild
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -379,6 +382,7 @@ Layer
 *
 aAfter
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -433,6 +437,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
+MOZ_OVERRIDE
 ;
 /
 *

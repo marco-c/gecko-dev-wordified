@@ -587,6 +587,7 @@ bool
 SupportsPartialTextureUpdate
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -658,6 +659,7 @@ aFlags
 =
 0
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -683,6 +685,7 @@ Name
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 "

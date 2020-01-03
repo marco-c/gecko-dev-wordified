@@ -1135,6 +1135,7 @@ CompositableClient
 *
 aCompositable
 )
+MOZ_OVERRIDE
 ;
 virtual
 PTextureChild
@@ -1874,6 +1875,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -2090,6 +2092,7 @@ void
 SendPendingAsyncMessges
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *

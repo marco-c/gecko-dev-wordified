@@ -362,6 +362,7 @@ Shmem
 *
 aShmem
 )
+MOZ_OVERRIDE
 {
 return
 PLayerTransactionParent
@@ -396,6 +397,7 @@ Shmem
 *
 aShmem
 )
+MOZ_OVERRIDE
 {
 return
 PLayerTransactionParent

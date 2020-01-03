@@ -413,6 +413,7 @@ nsIntRegion
 &
 aRegion
 )
+MOZ_OVERRIDE
 {
 NS_RUNTIMEABORT
 (

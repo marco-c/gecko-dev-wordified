@@ -420,6 +420,7 @@ char
 Name
 (
 )
+MOZ_OVERRIDE
 {
 return
 "

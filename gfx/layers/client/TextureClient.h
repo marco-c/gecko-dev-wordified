@@ -3321,6 +3321,7 @@ IsAllocated
 (
 )
 const
+MOZ_OVERRIDE
 =
 0
 ;
@@ -3343,6 +3344,7 @@ GetSize
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mSize

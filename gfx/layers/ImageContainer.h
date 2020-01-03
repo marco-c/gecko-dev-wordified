@@ -5378,6 +5378,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
+MOZ_OVERRIDE
 {
 return
 mSourceSurface
@@ -5393,6 +5394,7 @@ ISharedImage
 AsSharedImage
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -5404,6 +5406,7 @@ uint8_t
 GetBuffer
 (
 )
+MOZ_OVERRIDE
 {
 return
 nullptr
@@ -5420,6 +5423,7 @@ aClient
 )
 MOZ_OVERRIDE
 ;
+virtual
 gfx
 :
 :
@@ -5427,6 +5431,7 @@ IntSize
 GetSize
 (
 )
+MOZ_OVERRIDE
 {
 return
 mSize

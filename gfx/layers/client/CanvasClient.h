@@ -457,6 +457,7 @@ GetTextureInfo
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 TextureInfo

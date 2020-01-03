@@ -397,6 +397,7 @@ void
 Destroy
 (
 )
+MOZ_OVERRIDE
 {
 LayerManager
 :
@@ -426,6 +427,7 @@ ShadowLayerForwarder
 AsShadowForwarder
 (
 )
+MOZ_OVERRIDE
 {
 return
 mForwarder
@@ -437,6 +439,7 @@ ClientLayerManager
 AsClientLayerManager
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -448,6 +451,7 @@ GetMaxTextureSize
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -467,12 +471,14 @@ gfxContext
 *
 aTarget
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 BeginTransaction
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -483,6 +489,7 @@ aFlags
 =
 END_DEFAULT
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -498,12 +505,14 @@ aFlags
 =
 END_DEFAULT
 )
+MOZ_OVERRIDE
 ;
 virtual
 LayersBackend
 GetBackendType
 (
 )
+MOZ_OVERRIDE
 {
 return
 LayersBackend
@@ -538,6 +547,7 @@ nsAString
 &
 name
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -547,6 +557,7 @@ Name
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 "
@@ -562,6 +573,7 @@ Layer
 *
 aLayer
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -571,6 +583,7 @@ Layer
 *
 aLayer
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -582,6 +595,7 @@ aLayer
 PaintedLayerCreationHint
 aHint
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -591,6 +605,7 @@ PaintedLayer
 CreatePaintedLayer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -602,6 +617,7 @@ CreatePaintedLayerWithHint
 PaintedLayerCreationHint
 aHint
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -611,6 +627,7 @@ ContainerLayer
 CreateContainerLayer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -620,6 +637,7 @@ ImageLayer
 CreateImageLayer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -629,6 +647,7 @@ CanvasLayer
 CreateCanvasLayer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -638,6 +657,7 @@ ReadbackLayer
 CreateReadbackLayer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -647,6 +667,7 @@ ColorLayer
 CreateColorLayer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -656,6 +677,7 @@ RefLayer
 CreateRefLayer
 (
 )
+MOZ_OVERRIDE
 ;
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
@@ -751,6 +773,7 @@ bool
 IsCompositingCheap
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -758,6 +781,7 @@ HasShadowManagerInternal
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 HasShadowManager
@@ -975,6 +999,7 @@ bool
 ShouldAvoidComponentAlphaLayers
 (
 )
+MOZ_OVERRIDE
 {
 return
 !

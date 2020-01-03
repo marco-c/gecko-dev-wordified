@@ -687,6 +687,7 @@ bool
 RecvCompositorRecycle
 (
 )
+MOZ_OVERRIDE
 {
 RECYCLE_LOG
 (

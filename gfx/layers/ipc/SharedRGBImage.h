@@ -303,6 +303,7 @@ IntSize
 GetSize
 (
 )
+MOZ_OVERRIDE
 ;
 size_t
 GetBufferSize
@@ -319,6 +320,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 Allocate

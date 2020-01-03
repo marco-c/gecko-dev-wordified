@@ -380,6 +380,7 @@ layers
 MaybeMagicGrallocBufferHandle
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -396,6 +397,7 @@ MaybeMagicGrallocBufferHandle
 &
 handle
 )
+MOZ_OVERRIDE
 ;
 /
 *

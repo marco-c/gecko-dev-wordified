@@ -662,6 +662,7 @@ aContainer
 uint32_t
 aContentFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -791,12 +792,14 @@ aContainer
 uint32_t
 aContentFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 Connect
 (
 )
+MOZ_OVERRIDE
 {
 return
 false

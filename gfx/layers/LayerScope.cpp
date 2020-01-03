@@ -3126,6 +3126,7 @@ nsISocketTransport
 *
 aTransport
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -3181,6 +3182,7 @@ aServ
 nsresult
 aStatus
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -3287,6 +3289,7 @@ NS_IMETHODIMP
 Run
 (
 )
+MOZ_OVERRIDE
 {
 DebugGLData
 *
