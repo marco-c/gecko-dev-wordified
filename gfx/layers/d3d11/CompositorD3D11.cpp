@@ -2319,7 +2319,10 @@ Result
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 MOZ_CRASH
 (
@@ -8232,7 +8235,10 @@ Result
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 false
@@ -8315,7 +8321,10 @@ Result
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 false
