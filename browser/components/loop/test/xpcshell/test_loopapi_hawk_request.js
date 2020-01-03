@@ -222,7 +222,7 @@ origHawkRequest
 =
 MozLoopService
 .
-oldHawkRequest
+hawkRequest
 ;
 do_register_cleanup
 (
