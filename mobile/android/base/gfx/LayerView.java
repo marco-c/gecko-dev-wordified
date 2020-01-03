@@ -3644,6 +3644,12 @@ float
 aLayerViewTranslation
 )
 ;
+public
+void
+onPanZoomStopped
+(
+)
+;
 }
 /
 /
