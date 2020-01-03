@@ -6277,6 +6277,16 @@ ProfileTimelineMarker
 aMarker
 )
 {
+if
+(
+GetMetaData
+(
+)
+=
+=
+TRACING_INTERVAL_START
+)
+{
 aMarker
 .
 mType
@@ -6297,6 +6307,7 @@ Construct
 mPhase
 )
 ;
+}
 }
 private
 :
