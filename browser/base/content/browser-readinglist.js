@@ -1847,7 +1847,7 @@ item
 yield
 ReadingList
 .
-getItemForURL
+itemForURL
 (
 uri
 )
