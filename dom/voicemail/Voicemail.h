@@ -147,7 +147,7 @@ h
 #
 include
 "
-nsIVoicemailProvider
+nsIVoicemailService
 .
 h
 "
@@ -205,7 +205,7 @@ passes
 it
 to
 *
-nsIVoicemailProvider
+nsIVoicemailService
 .
 The
 onreceived
@@ -257,9 +257,9 @@ Voicemail
 nsPIDOMWindow
 *
 aWindow
-nsIVoicemailProvider
+nsIVoicemailService
 *
-aProvider
+aService
 )
 ;
 nsPIDOMWindow
@@ -351,9 +351,9 @@ private
 :
 nsCOMPtr
 <
-nsIVoicemailProvider
+nsIVoicemailService
 >
-mProvider
+mService
 ;
 nsRefPtr
 <

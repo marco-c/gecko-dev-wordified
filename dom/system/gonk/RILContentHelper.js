@@ -1744,7 +1744,7 @@ Ci
 nsICellBroadcastProvider
 Ci
 .
-nsIVoicemailProvider
+nsIVoicemailService
 Ci
 .
 nsIIccProvider
@@ -1782,7 +1782,7 @@ Ci
 nsICellBroadcastProvider
 Ci
 .
-nsIVoicemailProvider
+nsIVoicemailService
 Ci
 .
 nsIIccProvider

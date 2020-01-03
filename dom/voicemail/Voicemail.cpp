@@ -313,18 +313,18 @@ Voicemail
 nsPIDOMWindow
 *
 aWindow
-nsIVoicemailProvider
+nsIVoicemailService
 *
-aProvider
+aService
 )
 :
 DOMEventTargetHelper
 (
 aWindow
 )
-mProvider
+mService
 (
-aProvider
+aService
 )
 {
 mListener
@@ -341,7 +341,7 @@ nsresult
 >
 rv
 =
-mProvider
+mService
 -
 >
 RegisterVoicemailMsg
@@ -361,7 +361,7 @@ registering
 voicemail
 messages
 with
-provider
+service
 "
 )
 ;
@@ -376,7 +376,7 @@ Voicemail
 {
 MOZ_ASSERT
 (
-mProvider
+mService
 &
 &
 mListener
@@ -389,7 +389,7 @@ Disconnect
 (
 )
 ;
-mProvider
+mService
 -
 >
 UnregisterVoicemailMsg
@@ -514,7 +514,7 @@ Value
 }
 else
 {
-mProvider
+mService
 -
 >
 GetVoicemailDefaultServiceId
@@ -557,7 +557,7 @@ const
 if
 (
 !
-mProvider
+mService
 )
 {
 aRv
@@ -626,7 +626,7 @@ cx
 nsresult
 rv
 =
-mProvider
+mService
 -
 >
 GetVoicemailStatus
@@ -750,7 +750,7 @@ true
 if
 (
 !
-mProvider
+mService
 )
 {
 aRv
@@ -790,7 +790,7 @@ return
 }
 aRv
 =
-mProvider
+mService
 -
 >
 GetVoicemailNumber
@@ -832,7 +832,7 @@ true
 if
 (
 !
-mProvider
+mService
 )
 {
 aRv
@@ -872,7 +872,7 @@ return
 }
 aRv
 =
-mProvider
+mService
 -
 >
 GetVoicemailDisplayName
@@ -1028,9 +1028,9 @@ GetCurrentInnerWindow
 ;
 nsCOMPtr
 <
-nsIVoicemailProvider
+nsIVoicemailService
 >
-provider
+service
 =
 do_GetService
 (
@@ -1039,7 +1039,7 @@ NS_RILCONTENTHELPER_CONTRACTID
 ;
 NS_ENSURE_STATE
 (
-provider
+service
 )
 ;
 nsRefPtr
@@ -1052,7 +1052,7 @@ new
 Voicemail
 (
 innerWindow
-provider
+service
 )
 ;
 voicemail
