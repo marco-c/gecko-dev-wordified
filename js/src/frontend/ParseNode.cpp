@@ -4600,7 +4600,7 @@ i
 +
 )
 {
-jschar
+char16_t
 c
 =
 s

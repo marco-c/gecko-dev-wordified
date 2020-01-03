@@ -957,7 +957,7 @@ alloc
 void
 AddCharacter
 (
-jschar
+char16_t
 character
 )
 ;
@@ -1109,7 +1109,7 @@ RegExpParser
 can
 be
 either
-jschars
+char16_t
 or
 kEndMarker
 .
@@ -1345,7 +1345,7 @@ index_out
 bool
 ParseClassAtom
 (
-jschar
+char16_t
 *
 char_class
 CharacterRange

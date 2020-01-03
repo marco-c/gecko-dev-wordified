@@ -1507,7 +1507,7 @@ js_QuoteString
 (
 cx
 idstr
-jschar
+char16_t
 (
 '
 \

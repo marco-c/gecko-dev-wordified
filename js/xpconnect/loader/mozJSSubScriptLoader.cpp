@@ -910,7 +910,7 @@ IsVoid
 )
 )
 {
-jschar
+char16_t
 *
 scriptBuf
 =
@@ -2335,7 +2335,7 @@ nsIChannel
 >
 mChannel
 ;
-jschar
+char16_t
 *
 mScriptBuf
 ;
@@ -2600,7 +2600,7 @@ NS_OK
 Convert
 data
 to
-jschar
+char16_t
 *
 and
 prepare

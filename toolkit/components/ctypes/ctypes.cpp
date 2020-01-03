@@ -208,7 +208,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 source
 size_t

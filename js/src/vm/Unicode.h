@@ -457,13 +457,13 @@ IDENTIFIER_PART
 }
 ;
 const
-jschar
+char16_t
 BYTE_ORDER_MARK2
 =
 0xFFFE
 ;
 const
-jschar
+char16_t
 NO_BREAK_SPACE
 =
 0x00A0
@@ -735,7 +735,7 @@ CharacterInfo
 &
 CharInfo
 (
-jschar
+char16_t
 code
 )
 {
@@ -794,7 +794,7 @@ inline
 bool
 IsIdentifierStart
 (
-jschar
+char16_t
 ch
 )
 {
@@ -866,7 +866,7 @@ inline
 bool
 IsIdentifierPart
 (
-jschar
+char16_t
 ch
 )
 {
@@ -908,7 +908,7 @@ inline
 bool
 IsLetter
 (
-jschar
+char16_t
 ch
 )
 {
@@ -927,7 +927,7 @@ inline
 bool
 IsSpace
 (
-jschar
+char16_t
 ch
 )
 {
@@ -1073,7 +1073,7 @@ inline
 bool
 IsSpaceOrBOM2
 (
-jschar
+char16_t
 ch
 )
 {
@@ -1134,10 +1134,10 @@ isSpace
 ;
 }
 inline
-jschar
+char16_t
 ToUpperCase
 (
-jschar
+char16_t
 ch
 )
 {
@@ -1163,10 +1163,10 @@ upperCase
 ;
 }
 inline
-jschar
+char16_t
 ToLowerCase
 (
-jschar
+char16_t
 ch
 )
 {

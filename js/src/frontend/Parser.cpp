@@ -2700,7 +2700,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -44354,7 +44354,7 @@ s
 syntax
 .
 const
-jschar
+char16_t
 *
 chars
 =

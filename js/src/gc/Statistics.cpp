@@ -690,7 +690,7 @@ needComma_
 true
 ;
 }
-jschar
+char16_t
 *
 finishJSString
 (
@@ -720,13 +720,13 @@ strlen
 buf
 )
 ;
-jschar
+char16_t
 *
 out
 =
 js_pod_malloc
 <
-jschar
+char16_t
 >
 (
 nchars
@@ -2809,7 +2809,7 @@ isOOM
 )
 ;
 }
-jschar
+char16_t
 *
 Statistics
 :
@@ -2841,7 +2841,7 @@ finishJSString
 )
 ;
 }
-jschar
+char16_t
 *
 Statistics
 :

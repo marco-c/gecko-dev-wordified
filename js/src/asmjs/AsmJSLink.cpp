@@ -5332,7 +5332,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 chars
 =

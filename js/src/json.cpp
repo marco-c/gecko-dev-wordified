@@ -318,7 +318,7 @@ inline
 bool
 IsQuoteSpecialCharacter
 (
-jschar
+char16_t
 c
 )
 {
@@ -589,7 +589,7 @@ len
 break
 ;
 }
-jschar
+char16_t
 c
 =
 buf
@@ -690,7 +690,7 @@ t
 '
 )
 {
-jschar
+char16_t
 abbrev
 =
 (
@@ -972,7 +972,7 @@ linear
 :
 Quote
 <
-jschar
+char16_t
 >
 (
 sb
@@ -5705,7 +5705,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 HandleValue

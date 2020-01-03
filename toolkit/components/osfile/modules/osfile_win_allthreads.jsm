@@ -490,7 +490,7 @@ buf
 /
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 /
@@ -799,7 +799,7 @@ ArrayType
 (
 ctypes
 .
-jschar
+char16_t
 1024
 )
 )

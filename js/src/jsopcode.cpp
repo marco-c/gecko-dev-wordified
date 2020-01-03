@@ -5032,7 +5032,7 @@ sp
 JSString
 *
 str
-jschar
+char16_t
 quote
 )
 ;
@@ -7808,7 +7808,7 @@ CharT
 s
 size_t
 length
-jschar
+char16_t
 quote
 )
 {
@@ -7921,7 +7921,7 @@ characters
 .
 *
 /
-jschar
+char16_t
 c
 =
 *
@@ -8348,7 +8348,7 @@ sp
 JSString
 *
 str
-jschar
+char16_t
 quote
 )
 {
@@ -8435,7 +8435,7 @@ cx
 JSString
 *
 str
-jschar
+char16_t
 quote
 )
 {

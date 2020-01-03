@@ -19438,7 +19438,7 @@ const
 char
 *
 filename
-jschar
+char16_t
 *
 *
 src
@@ -19988,7 +19988,7 @@ const
 char
 *
 filename
-jschar
+char16_t
 *
 *
 src

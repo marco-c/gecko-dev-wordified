@@ -163,7 +163,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 tbchars
 )
@@ -303,7 +303,7 @@ chars
 +
 )
 {
-jschar
+char16_t
 c
 =
 *
@@ -380,7 +380,7 @@ Surrogate
 continue
 ;
 }
-jschar
+char16_t
 c2
 =
 chars
@@ -628,7 +628,7 @@ srclen
 uint32_t
 v
 ;
-jschar
+char16_t
 c
 =
 *
@@ -697,7 +697,7 @@ dst
 continue
 ;
 }
-jschar
+char16_t
 c2
 =
 *
@@ -1117,7 +1117,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 )
@@ -1544,7 +1544,7 @@ cx
 const
 UTF8Chars
 src
-jschar
+char16_t
 *
 dst
 size_t
@@ -1562,11 +1562,11 @@ true
 ;
 /
 /
-First
-count
+Count
 how
 many
-jschars
+char16_t
+characters
 need
 to
 be
@@ -1675,7 +1675,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 v
 )
@@ -1774,7 +1774,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 REPLACE_UTF8
 )
@@ -2093,7 +2093,7 @@ unit
 s
 length
 in
-jschars
+char16_t
 and
 act
 accordingly
@@ -2135,7 +2135,7 @@ fit
 in
 a
 single
-jschar
+char16_t
 .
 if
 (
@@ -2149,7 +2149,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 v
 )
@@ -2183,7 +2183,8 @@ will
 fit
 in
 two
-jschars
+char16_t
+units
 .
 if
 (
@@ -2197,7 +2198,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 (
 v
@@ -2225,7 +2226,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 (
 v
@@ -2254,7 +2255,8 @@ t
 fit
 in
 two
-jschars
+char16_t
+units
 .
 INVALID
 (
@@ -2337,7 +2339,7 @@ JSContext
 *
 const
 UTF8Chars
-jschar
+char16_t
 *
 size_t
 *
@@ -2395,7 +2397,7 @@ TwoByteCharsZ
 (
 )
 ;
-jschar
+char16_t
 *
 dst
 =
@@ -2404,7 +2406,7 @@ cx
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 *
@@ -2472,7 +2474,7 @@ dst
 i
 ]
 =
-jschar
+char16_t
 (
 src
 [

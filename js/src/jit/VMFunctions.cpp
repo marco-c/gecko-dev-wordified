@@ -3375,7 +3375,7 @@ uint32_t
 code
 )
 {
-jschar
+char16_t
 c
 ;
 if
@@ -3415,10 +3415,10 @@ int32_t
 code
 )
 {
-jschar
+char16_t
 c
 =
-jschar
+char16_t
 (
 code
 )
@@ -4799,7 +4799,7 @@ false
 ;
 static
 const
-jschar
+char16_t
 arguments
 [
 ]
@@ -4836,7 +4836,7 @@ s
 ;
 static
 const
-jschar
+char16_t
 eval
 [
 ]

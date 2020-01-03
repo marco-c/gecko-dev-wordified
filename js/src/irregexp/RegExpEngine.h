@@ -787,9 +787,9 @@ to_
 }
 CharacterRange
 (
-jschar
+char16_t
 from
-jschar
+char16_t
 to
 )
 :
@@ -810,7 +810,7 @@ AddClassEscape
 LifoAlloc
 *
 alloc
-jschar
+char16_t
 type
 CharacterRangeVector
 *
@@ -822,7 +822,7 @@ inline
 CharacterRange
 Singleton
 (
-jschar
+char16_t
 value
 )
 {
@@ -839,9 +839,9 @@ inline
 CharacterRange
 Range
 (
-jschar
+char16_t
 from
-jschar
+char16_t
 to
 )
 {
@@ -879,7 +879,7 @@ CharacterRange
 bool
 Contains
 (
-jschar
+char16_t
 i
 )
 {
@@ -896,7 +896,7 @@ i
 to_
 ;
 }
-jschar
+char16_t
 from
 (
 )
@@ -909,7 +909,7 @@ from_
 void
 set_from
 (
-jschar
+char16_t
 value
 )
 {
@@ -918,7 +918,7 @@ from_
 value
 ;
 }
-jschar
+char16_t
 to
 (
 )
@@ -931,7 +931,7 @@ to_
 void
 set_to
 (
-jschar
+char16_t
 value
 )
 {
@@ -955,7 +955,7 @@ to_
 bool
 IsEverything
 (
-jschar
+char16_t
 max
 )
 {
@@ -1179,10 +1179,10 @@ kPayloadMask
 ;
 private
 :
-jschar
+char16_t
 from_
 ;
-jschar
+char16_t
 to_
 ;
 }
@@ -1488,9 +1488,9 @@ nullptr
 }
 Entry
 (
-jschar
+char16_t
 from
-jschar
+char16_t
 to
 OutSet
 *
@@ -1511,7 +1511,7 @@ out_set
 )
 {
 }
-jschar
+char16_t
 from
 (
 )
@@ -1520,7 +1520,7 @@ return
 from_
 ;
 }
-jschar
+char16_t
 to
 (
 )
@@ -1532,7 +1532,7 @@ to_
 void
 set_to
 (
-jschar
+char16_t
 value
 )
 {
@@ -1575,10 +1575,10 @@ out_set_
 }
 private
 :
-jschar
+char16_t
 from_
 ;
-jschar
+char16_t
 to_
 ;
 OutSet
@@ -1603,7 +1603,7 @@ OutSet
 *
 Get
 (
-jschar
+char16_t
 value
 )
 ;
@@ -2360,10 +2360,10 @@ false
 )
 {
 }
-jschar
+char16_t
 mask
 ;
-jschar
+char16_t
 value
 ;
 bool

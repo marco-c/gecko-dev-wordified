@@ -847,7 +847,7 @@ kMaxUtf16CodeUnit
 0xffff
 ;
 static
-jschar
+char16_t
 MaximumCharacter
 (
 bool
@@ -1002,7 +1002,7 @@ elmc
 kMaxUtf16CodeUnit
 )
 ;
-jschar
+char16_t
 last
 =
 0x0000
@@ -1101,7 +1101,7 @@ AddClassEscape
 LifoAlloc
 *
 alloc
-jschar
+char16_t
 type
 CharacterRangeVector
 *
@@ -1477,16 +1477,17 @@ static
 int
 GetCaseIndependentLetters
 (
-jschar
+char16_t
 character
 bool
 ascii_subject
-jschar
+char16_t
 *
 letters
 )
 {
-jschar
+const
+char16_t
 choices
 [
 ]
@@ -1533,7 +1534,7 @@ i
 +
 )
 {
-jschar
+char16_t
 c
 =
 choices
@@ -1689,10 +1690,10 @@ count
 ;
 }
 static
-jschar
+char16_t
 ConvertNonLatin1ToLatin1
 (
-jschar
+char16_t
 c
 )
 {
@@ -1770,14 +1771,14 @@ CharacterRangeVector
 ranges
 )
 {
-jschar
+char16_t
 bottom
 =
 from
 (
 )
 ;
-jschar
+char16_t
 top
 =
 to
@@ -1818,7 +1819,7 @@ kMaxOneByteCharCode
 }
 for
 (
-jschar
+char16_t
 c
 =
 bottom
@@ -1829,7 +1830,7 @@ c
 +
 )
 {
-jschar
+char16_t
 chars
 [
 kEcma262UnCanonicalizeMaxWidth
@@ -1861,7 +1862,7 @@ i
 +
 )
 {
-jschar
+char16_t
 other
 =
 chars
@@ -2894,7 +2895,7 @@ count
 +
 1
 .
-jschar
+char16_t
 from
 =
 insert
@@ -2903,7 +2904,7 @@ from
 (
 )
 ;
-jschar
+char16_t
 to
 =
 insert
@@ -5006,7 +5007,7 @@ Latin
 1
 range
 .
-jschar
+char16_t
 converted
 =
 ConvertNonLatin1ToLatin1
@@ -11915,7 +11916,7 @@ ASCII
 NativeRegExpMacroAssembler
 :
 :
-JSCHAR
+CHAR16
 ;
 ctx
 .
@@ -12247,7 +12248,7 @@ JitCode
 *
 codeBlock
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -22445,9 +22446,9 @@ int
 start_index
 int
 end_index
-jschar
+char16_t
 min_char
-jschar
+char16_t
 max_char
 jit
 :
@@ -23856,7 +23857,7 @@ EmitCharacterFunction
 RegExpCompiler
 *
 compiler
-jschar
+char16_t
 c
 jit
 :
@@ -23880,7 +23881,7 @@ EmitSimpleCharacter
 RegExpCompiler
 *
 compiler
-jschar
+char16_t
 c
 jit
 :
@@ -23980,7 +23981,7 @@ EmitAtomNonLetter
 RegExpCompiler
 *
 compiler
-jschar
+char16_t
 c
 jit
 :
@@ -24017,7 +24018,7 @@ ascii
 (
 )
 ;
-jschar
+char16_t
 chars
 [
 kEcma262UnCanonicalizeMaxWidth
@@ -24188,9 +24189,9 @@ RegExpMacroAssembler
 macro_assembler
 bool
 ascii
-jschar
+char16_t
 c1
-jschar
+char16_t
 c2
 jit
 :
@@ -24200,7 +24201,7 @@ Label
 on_failure
 )
 {
-jschar
+char16_t
 char_mask
 =
 MaximumCharacter
@@ -24223,7 +24224,7 @@ c1
 c2
 )
 {
-jschar
+char16_t
 tmp
 =
 c1
@@ -24237,7 +24238,7 @@ c2
 tmp
 ;
 }
-jschar
+char16_t
 exor
 =
 c1
@@ -24283,7 +24284,7 @@ by
 one
 bit
 .
-jschar
+char16_t
 mask
 =
 char_mask
@@ -24304,7 +24305,7 @@ return
 true
 ;
 }
-jschar
+char16_t
 diff
 =
 c2
@@ -24388,7 +24389,7 @@ simplify
 code
 generation
 .
-jschar
+char16_t
 mask
 =
 char_mask
@@ -24445,7 +24446,7 @@ EmitAtomLetter
 RegExpCompiler
 *
 compiler
-jschar
+char16_t
 c
 jit
 :
@@ -24482,7 +24483,7 @@ ascii
 (
 )
 ;
-jschar
+char16_t
 chars
 [
 kEcma262UnCanonicalizeMaxWidth
@@ -31729,7 +31730,7 @@ return
 true
 ;
 }
-jschar
+char16_t
 character
 =
 atom
@@ -31757,7 +31758,7 @@ ignore_case
 )
 )
 {
-jschar
+char16_t
 chars
 [
 kEcma262UnCanonicalizeMaxWidth
@@ -32460,7 +32461,7 @@ positions
 characters_filled_in
 )
 ;
-jschar
+char16_t
 c
 =
 quarks
@@ -32548,7 +32549,7 @@ ignore_case
 )
 )
 {
-jschar
+char16_t
 chars
 [
 kEcma262UnCanonicalizeMaxWidth
@@ -33096,7 +33097,7 @@ ranges
 first_range
 ]
 ;
-jschar
+char16_t
 from
 =
 range
@@ -33105,7 +33106,7 @@ from
 (
 )
 ;
-jschar
+char16_t
 to
 =
 range
@@ -33243,7 +33244,7 @@ ranges
 i
 ]
 ;
-jschar
+char16_t
 from
 =
 range
@@ -33252,7 +33253,7 @@ from
 (
 )
 ;
-jschar
+char16_t
 to
 =
 range
@@ -34023,7 +34024,7 @@ pos
 >
 mask
 ;
-jschar
+char16_t
 differing_bits
 =
 (

@@ -919,7 +919,7 @@ filename
 JS_PUBLIC_API
 (
 const
-jschar
+char16_t
 *
 )
 JS_GetScriptSourceMap

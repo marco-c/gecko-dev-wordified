@@ -857,7 +857,7 @@ endif
 Make
 sure
 that
-jschar
+char16_t
 is
 two
 bytes
@@ -868,7 +868,7 @@ integer
 JS_STATIC_ASSERT
 (
 (
-jschar
+char16_t
 )
 -
 1
@@ -880,7 +880,7 @@ JS_STATIC_ASSERT
 (
 sizeof
 (
-jschar
+char16_t
 )
 =
 =
@@ -10985,7 +10985,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -14816,7 +14816,7 @@ cx
 HandleObject
 objArg
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -15065,7 +15065,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -15456,7 +15456,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -17621,7 +17621,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -17723,7 +17723,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -17765,7 +17765,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -17818,7 +17818,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -17870,7 +17870,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -17927,7 +17927,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -17984,7 +17984,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -19451,7 +19451,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -19905,7 +19905,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -20140,7 +20140,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -23891,7 +23891,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -24870,7 +24870,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -25119,14 +25119,14 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 )
 {
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -25174,7 +25174,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -25516,7 +25516,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -25577,7 +25577,7 @@ mozilla
 :
 ScopedFreePtr
 <
-jschar
+char16_t
 >
 chars
 ;
@@ -25969,7 +25969,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -26142,7 +26142,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -26212,7 +26212,7 @@ clearPendingException
 (
 )
 ;
-jschar
+char16_t
 *
 chars
 =
@@ -26778,7 +26778,7 @@ const
 *
 argnames
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -26860,7 +26860,7 @@ mozilla
 :
 ScopedFreePtr
 <
-jschar
+char16_t
 >
 chars
 ;
@@ -26949,7 +26949,7 @@ const
 *
 argnames
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -27936,7 +27936,7 @@ ReadOnlyCompileOptions
 &
 optionsArg
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -28000,7 +28000,7 @@ Value
 rval
 )
 {
-jschar
+char16_t
 *
 chars
 ;
@@ -28237,7 +28237,7 @@ ReadOnlyCompileOptions
 &
 optionsArg
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -28412,7 +28412,7 @@ ReadOnlyCompileOptions
 &
 optionsArg
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -28524,7 +28524,7 @@ cx
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 chars
 unsigned
@@ -30149,7 +30149,7 @@ JS_NewUCString
 JSContext
 *
 cx
-jschar
+char16_t
 *
 chars
 size_t
@@ -30189,7 +30189,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -30244,7 +30244,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 )
@@ -30297,7 +30297,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -30351,7 +30351,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 )
@@ -30522,7 +30522,7 @@ nogc
 JS_PUBLIC_API
 (
 const
-jschar
+char16_t
 *
 )
 JS_GetTwoByteStringCharsAndLength
@@ -30610,7 +30610,7 @@ nogc
 JS_PUBLIC_API
 (
 const
-jschar
+char16_t
 *
 )
 JS_GetTwoByteExternalStringChars
@@ -30647,7 +30647,7 @@ JSString
 str
 size_t
 index
-jschar
+char16_t
 *
 res
 )
@@ -30706,7 +30706,7 @@ true
 }
 JS_PUBLIC_API
 (
-jschar
+char16_t
 )
 JS_GetFlatStringCharAt
 (
@@ -30741,7 +30741,7 @@ mozilla
 :
 Range
 <
-jschar
+char16_t
 >
 dest
 JSString
@@ -30885,7 +30885,7 @@ nogc
 JS_PUBLIC_API
 (
 const
-jschar
+char16_t
 *
 )
 JS_GetTwoByteInternedStringChars
@@ -31033,7 +31033,7 @@ extern
 JS_PUBLIC_API
 (
 const
-jschar
+char16_t
 *
 )
 JS_GetTwoByteFlatStringChars
@@ -31406,7 +31406,7 @@ char
 src
 size_t
 srclen
-jschar
+char16_t
 *
 dst
 size_t
@@ -32372,7 +32372,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 uint32_t
@@ -32401,7 +32401,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 (
 chars
@@ -32447,7 +32447,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 uint32_t
@@ -32478,7 +32478,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 (
 chars
@@ -32849,7 +32849,7 @@ const
 unsigned
 errorNumber
 const
-jschar
+char16_t
 *
 *
 args
@@ -33476,7 +33476,7 @@ cx
 ;
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 chars
 (
@@ -33566,7 +33566,7 @@ JSContext
 cx
 HandleObject
 obj
-jschar
+char16_t
 *
 chars
 size_t
@@ -33791,7 +33791,7 @@ HandleObject
 obj
 HandleObject
 reobj
-jschar
+char16_t
 *
 chars
 size_t
@@ -33915,7 +33915,7 @@ CHECK_REQUEST
 cx
 )
 ;
-jschar
+char16_t
 *
 chars
 =
@@ -33979,7 +33979,7 @@ JS_NewUCRegExpObjectNoStatics
 JSContext
 *
 cx
-jschar
+char16_t
 *
 chars
 size_t
@@ -34032,7 +34032,7 @@ JSContext
 cx
 HandleObject
 obj
-jschar
+char16_t
 *
 chars
 size_t

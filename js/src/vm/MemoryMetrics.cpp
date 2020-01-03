@@ -463,7 +463,7 @@ l
 :
 HashStringChars
 <
-jschar
+char16_t
 >
 (
 l
@@ -767,7 +767,7 @@ l
 EqualStringsPure
 <
 Latin1Char
-jschar
+char16_t
 >
 (
 s1
@@ -785,7 +785,7 @@ hasLatin1Chars
 ?
 EqualStringsPure
 <
-jschar
+char16_t
 Latin1Char
 >
 (
@@ -795,8 +795,8 @@ l
 :
 EqualStringsPure
 <
-jschar
-jschar
+char16_t
+char16_t
 >
 (
 s1
@@ -1152,7 +1152,7 @@ str
 else
 StoreStringChars
 <
-jschar
+char16_t
 >
 (
 buffer

@@ -2122,7 +2122,7 @@ HashMap
 ScriptSource
 *
 const
-jschar
+char16_t
 *
 DefaultHasher
 <
@@ -2166,7 +2166,7 @@ ScriptSource
 source_
 ;
 const
-jschar
+char16_t
 *
 charsToFree_
 ;
@@ -2199,7 +2199,7 @@ void
 deferDelete
 (
 const
-jschar
+char16_t
 *
 chars
 )
@@ -2248,7 +2248,7 @@ nullptr
 {
 }
 const
-jschar
+char16_t
 *
 lookup
 (
@@ -2267,7 +2267,7 @@ ScriptSource
 *
 ss
 const
-jschar
+char16_t
 *
 chars
 AutoHoldEntry
@@ -2387,7 +2387,7 @@ union
 struct
 {
 const
-jschar
+char16_t
 *
 chars
 ;
@@ -2450,7 +2450,7 @@ mozilla
 :
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -2465,7 +2465,7 @@ mozilla
 :
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -3145,7 +3145,7 @@ argumentsNotIncluded_
 ;
 }
 const
-jschar
+char16_t
 *
 chars
 (
@@ -3204,7 +3204,7 @@ info
 const
 ;
 const
-jschar
+char16_t
 *
 uncompressedChars
 (
@@ -3341,7 +3341,7 @@ void
 setSource
 (
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -3495,7 +3495,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 displayURL
 )
@@ -3514,7 +3514,7 @@ nullptr
 ;
 }
 const
-jschar
+char16_t
 *
 displayURL
 (
@@ -3546,7 +3546,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 sourceMapURL
 )
@@ -3565,7 +3565,7 @@ nullptr
 ;
 }
 const
-jschar
+char16_t
 *
 sourceMapURL
 (

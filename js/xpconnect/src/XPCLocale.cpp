@@ -1239,7 +1239,7 @@ JS_NewUCString
 cx
 reinterpret_cast
 <
-jschar
+char16_t
 *
 >
 (

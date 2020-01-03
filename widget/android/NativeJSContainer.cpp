@@ -2220,7 +2220,7 @@ nullptr
 reinterpret_cast
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -2267,7 +2267,7 @@ mJSString
 }
 operator
 const
-jschar
+char16_t
 *
 (
 )
@@ -2311,7 +2311,7 @@ jstring
 mJNIString
 ;
 const
-jschar
+char16_t
 *
 const
 mJSString
@@ -2484,7 +2484,7 @@ bool
 AppendJSON
 (
 const
-jschar
+char16_t
 *
 buf
 uint32_t

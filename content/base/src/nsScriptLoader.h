@@ -949,7 +949,7 @@ aBufOut
 [
 out
 ]
-jschar
+char16_t
 array
 allocated
 by
@@ -991,7 +991,9 @@ in
 number
 *
 of
-jschars
+char16_t
+code
+units
 .
 *
 /
@@ -1015,7 +1017,7 @@ aHintCharset
 nsIDocument
 *
 aDocument
-jschar
+char16_t
 *
 &
 aBufOut

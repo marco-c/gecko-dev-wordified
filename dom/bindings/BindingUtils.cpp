@@ -1026,7 +1026,7 @@ Length
 )
 ;
 const
-jschar
+char16_t
 *
 args
 [
@@ -9491,13 +9491,6 @@ return
 JS_ParseJSON
 (
 aCx
-static_cast
-<
-const
-jschar
-*
->
-(
 PromiseFlatString
 (
 aJSON
@@ -9505,7 +9498,6 @@ aJSON
 .
 get
 (
-)
 )
 aJSON
 .
@@ -9574,7 +9566,7 @@ DictionaryBase
 AppendJSONToString
 (
 const
-jschar
+char16_t
 *
 aJSONData
 uint32_t
@@ -9602,15 +9594,7 @@ string
 >
 Append
 (
-static_cast
-<
-const
-char16_t
-*
->
-(
 aJSONData
-)
 aDataLength
 )
 ;
@@ -13417,7 +13401,7 @@ false
 size_t
 badCharIndex
 ;
-jschar
+char16_t
 badChar
 ;
 {
@@ -13428,7 +13412,7 @@ AutoCheckCannotGC
 nogc
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -13586,7 +13570,7 @@ badCharIndex
 /
 /
 A
-jschar
+char16_t
 is
 16
 bits
@@ -13627,7 +13611,7 @@ static_assert
 (
 sizeof
 (
-jschar
+char16_t
 )
 <
 =

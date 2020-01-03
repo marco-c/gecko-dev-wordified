@@ -883,7 +883,7 @@ nsIChannel
 >
 mChannel
 ;
-jschar
+char16_t
 *
 mScriptTextBuf
 ;

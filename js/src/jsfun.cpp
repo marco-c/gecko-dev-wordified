@@ -5771,7 +5771,7 @@ strlen
 rawSource
 )
 ;
-jschar
+char16_t
 *
 source
 =
@@ -6454,7 +6454,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 srcChars
 =
@@ -6665,7 +6665,7 @@ mozilla
 RangedPtr
 <
 const
-jschar
+char16_t
 >
 end
 =
@@ -10097,7 +10097,7 @@ AutoHoldEntry
 holder
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -10124,7 +10124,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 lazyStart
 =
@@ -12461,7 +12461,7 @@ size_t
 /
 sizeof
 (
-jschar
+char16_t
 )
 )
 {
@@ -12526,7 +12526,7 @@ tempLifoAlloc
 )
 )
 ;
-jschar
+char16_t
 *
 cp
 =
@@ -12539,7 +12539,7 @@ tempLifoAlloc
 .
 newArray
 <
-jschar
+char16_t
 >
 (
 args_length
@@ -13376,7 +13376,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 =

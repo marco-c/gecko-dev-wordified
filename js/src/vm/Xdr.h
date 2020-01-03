@@ -1398,7 +1398,7 @@ nchars
 bool
 codeChars
 (
-jschar
+char16_t
 *
 chars
 size_t

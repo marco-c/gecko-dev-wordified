@@ -1301,7 +1301,7 @@ vp
 *
 *
 Cast
-jschar
+char16_t
 *
 strings
 to
@@ -1318,10 +1318,10 @@ inline
 const
 UChar
 *
-JSCharToUChar
+Char16ToUChar
 (
 const
-jschar
+char16_t
 *
 chars
 )
@@ -1341,9 +1341,9 @@ chars
 inline
 UChar
 *
-JSCharToUChar
+Char16ToUChar
 (
-jschar
+char16_t
 *
 chars
 )

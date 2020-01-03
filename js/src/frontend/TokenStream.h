@@ -1336,7 +1336,8 @@ takes
 a
 buffer
 of
-jschars
+char16_t
+characters
 and
 linearly
 scans
@@ -2014,7 +2015,7 @@ public
 typedef
 Vector
 <
-jschar
+char16_t
 32
 >
 CharBuffer
@@ -2029,7 +2030,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 base
 size_t
@@ -2435,7 +2436,7 @@ TOK_NO_SUBS_TEMPLATE
 )
 ;
 const
-jschar
+char16_t
 *
 cur
 =
@@ -2456,7 +2457,7 @@ begin
 1
 ;
 const
-jschar
+char16_t
 *
 end
 ;
@@ -2729,7 +2730,7 @@ bool
 putIdentInTokenbuf
 (
 const
-jschar
+char16_t
 *
 identStart
 )
@@ -3718,7 +3719,7 @@ class
 TokenStream
 ;
 const
-jschar
+char16_t
 *
 buf
 ;
@@ -3729,12 +3730,12 @@ unsigned
 lineno
 ;
 const
-jschar
+char16_t
 *
 linebase
 ;
 const
-jschar
+char16_t
 *
 prevLinebase
 ;
@@ -3811,7 +3812,7 @@ base
 ;
 }
 const
-jschar
+char16_t
 *
 rawBase
 (
@@ -3827,7 +3828,7 @@ base
 ;
 }
 const
-jschar
+char16_t
 *
 rawLimit
 (
@@ -3855,7 +3856,7 @@ displayURL_
 nullptr
 ;
 }
-jschar
+char16_t
 *
 displayURL
 (
@@ -3882,7 +3883,7 @@ sourceMapURL_
 nullptr
 ;
 }
-jschar
+char16_t
 *
 sourceMapURL
 (
@@ -4038,7 +4039,7 @@ bool
 checkForKeyword
 (
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -4780,7 +4781,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 buf
 size_t
@@ -4829,7 +4830,7 @@ base_
 ;
 }
 const
-jschar
+char16_t
 *
 base
 (
@@ -4841,7 +4842,7 @@ base_
 ;
 }
 const
-jschar
+char16_t
 *
 limit
 (
@@ -4852,7 +4853,7 @@ return
 limit_
 ;
 }
-jschar
+char16_t
 getRawChar
 (
 )
@@ -4873,7 +4874,7 @@ crash
 if
 poisoned
 }
-jschar
+char16_t
 peekRawChar
 (
 )
@@ -4896,7 +4897,7 @@ poisoned
 bool
 matchRawChar
 (
-jschar
+char16_t
 c
 )
 {
@@ -4933,7 +4934,7 @@ false
 bool
 matchRawCharBackwards
 (
-jschar
+char16_t
 c
 )
 {
@@ -5003,7 +5004,7 @@ ptr
 ;
 }
 const
-jschar
+char16_t
 *
 addressOfNextRawChar
 (
@@ -5046,7 +5047,7 @@ void
 setAddressOfNextRawChar
 (
 const
-jschar
+char16_t
 *
 a
 bool
@@ -5145,7 +5146,7 @@ once
 '
 max
 '
-jschars
+characters
 have
 been
 scanned
@@ -5157,16 +5158,16 @@ including
 *
 the
 starting
-jschar
+char16_t
 )
 .
 const
-jschar
+char16_t
 *
 findEOLMax
 (
 const
-jschar
+char16_t
 *
 p
 size_t
@@ -5176,7 +5177,7 @@ max
 private
 :
 const
-jschar
+char16_t
 *
 base_
 ;
@@ -5186,7 +5187,7 @@ base
 of
 buffer
 const
-jschar
+char16_t
 *
 limit_
 ;
@@ -5198,7 +5199,7 @@ quick
 bounds
 check
 const
-jschar
+char16_t
 *
 ptr
 ;
@@ -5289,7 +5290,7 @@ peekChars
 (
 int
 n
-jschar
+char16_t
 *
 cp
 )
@@ -5325,7 +5326,7 @@ mozilla
 :
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -5548,7 +5549,7 @@ flags
 see
 above
 const
-jschar
+char16_t
 *
 linebase
 ;
@@ -5563,7 +5564,7 @@ points
 into
 userbuf
 const
-jschar
+char16_t
 *
 prevLinebase
 ;
@@ -5604,7 +5605,7 @@ mozilla
 :
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -5630,7 +5631,7 @@ mozilla
 :
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -5745,7 +5746,7 @@ error
 message
 have
 const
-jschar
+char16_t
 *
 type
 not

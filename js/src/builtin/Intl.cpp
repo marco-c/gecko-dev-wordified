@@ -2678,7 +2678,7 @@ we
 use
 for
 the
-jschar
+char16_t
 Vectors
 .
 static
@@ -5545,7 +5545,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars1
 =
@@ -5561,7 +5561,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars2
 =
@@ -5577,7 +5577,7 @@ uresult
 ucol_strcoll
 (
 coll
-JSCharToUChar
+Char16ToUChar
 (
 chars1
 .
@@ -5594,7 +5594,7 @@ chars1
 length
 (
 )
-JSCharToUChar
+Char16ToUChar
 (
 chars2
 .
@@ -7912,7 +7912,7 @@ stableChars
 .
 uCurrency
 =
-JSCharToUChar
+Char16ToUChar
 (
 stableChars
 .
@@ -8561,7 +8561,7 @@ x
 ;
 Vector
 <
-jschar
+char16_t
 INITIAL_CHAR_BUFFER_SIZE
 >
 chars
@@ -8594,7 +8594,7 @@ unum_formatDouble
 (
 nf
 x
-JSCharToUChar
+Char16ToUChar
 (
 chars
 .
@@ -8637,7 +8637,7 @@ unum_formatDouble
 (
 nf
 x
-JSCharToUChar
+Char16ToUChar
 (
 chars
 .
@@ -10994,7 +10994,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 skeletonChars
 =
@@ -11009,7 +11009,7 @@ skeletonLen
 =
 u_strlen
 (
-JSCharToUChar
+Char16ToUChar
 (
 skeletonChars
 .
@@ -11082,7 +11082,7 @@ size
 udatpg_getBestPattern
 (
 gen
-JSCharToUChar
+Char16ToUChar
 (
 skeletonChars
 .
@@ -11172,7 +11172,7 @@ U_ZERO_ERROR
 udatpg_getBestPattern
 (
 gen
-JSCharToUChar
+Char16ToUChar
 (
 skeletonChars
 .
@@ -11220,7 +11220,7 @@ JS_NewUCStringCopyZ
 cx
 reinterpret_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -11555,7 +11555,7 @@ nullptr
 ;
 uTimeZone
 =
-JSCharToUChar
+Char16ToUChar
 (
 timeZoneChars
 .
@@ -11657,7 +11657,7 @@ nullptr
 ;
 uPattern
 =
-JSCharToUChar
+Char16ToUChar
 (
 patternChars
 .
@@ -11861,7 +11861,7 @@ false
 }
 Vector
 <
-jschar
+char16_t
 INITIAL_CHAR_BUFFER_SIZE
 >
 chars
@@ -11894,7 +11894,7 @@ udat_format
 (
 df
 x
-JSCharToUChar
+Char16ToUChar
 (
 chars
 .
@@ -11937,7 +11937,7 @@ udat_format
 (
 df
 x
-JSCharToUChar
+Char16ToUChar
 (
 chars
 .

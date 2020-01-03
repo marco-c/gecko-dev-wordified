@@ -7344,7 +7344,7 @@ seplen
 1
 )
 {
-jschar
+char16_t
 c
 =
 sepstr
@@ -7398,7 +7398,7 @@ else
 {
 CharSeparatorOp
 <
-jschar
+char16_t
 >
 op
 (

@@ -984,7 +984,7 @@ bool
 WriteCallback
 (
 const
-jschar
+char16_t
 *
 buf
 uint32_t
@@ -2201,7 +2201,7 @@ cx
 static_cast
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -2817,7 +2817,7 @@ chars
 reinterpret_cast
 <
 const
-jschar
+char16_t
 *
 >
 (

@@ -1306,7 +1306,7 @@ void
 /
 sizeof
 (
-jschar
+char16_t
 )
 ;
 /
@@ -1387,7 +1387,7 @@ inlineStorageLatin1
 NUM_INLINE_CHARS_LATIN1
 ]
 ;
-jschar
+char16_t
 inlineStorageTwoByte
 [
 NUM_INLINE_CHARS_TWO_BYTE
@@ -1419,7 +1419,7 @@ InlineString
 *
 /
 const
-jschar
+char16_t
 *
 nonInlineCharsTwoByte
 ;
@@ -2301,7 +2301,7 @@ NUM_INLINE_CHARS_TWO_BYTE
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 "
@@ -2722,7 +2722,7 @@ ExclusiveContext
 cx
 size_t
 index
-jschar
+char16_t
 *
 code
 )
@@ -3862,7 +3862,7 @@ js
 :
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 &
 out
@@ -3907,7 +3907,7 @@ js
 :
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 &
 out
@@ -4206,7 +4206,7 @@ const
 ;
 MOZ_ALWAYS_INLINE
 const
-jschar
+char16_t
 *
 rawTwoByteChars
 (
@@ -4282,7 +4282,7 @@ nonInlineCharsLatin1
 }
 MOZ_ALWAYS_INLINE
 const
-jschar
+char16_t
 *
 nonInlineTwoByteChars
 (
@@ -4369,7 +4369,7 @@ rawLatin1Chars
 }
 MOZ_ALWAYS_INLINE
 const
-jschar
+char16_t
 *
 twoByteChars
 (
@@ -4451,7 +4451,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 twoByteRange
 (
@@ -4482,7 +4482,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 (
 twoByteChars
@@ -4496,7 +4496,7 @@ length
 ;
 }
 MOZ_ALWAYS_INLINE
-jschar
+char16_t
 latin1OrTwoByteChar
 (
 size_t
@@ -4855,7 +4855,7 @@ void
 init
 (
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -5032,7 +5032,7 @@ indexp
 ;
 }
 const
-jschar
+char16_t
 *
 s
 =
@@ -5379,7 +5379,7 @@ cx
 )
 ;
 inline
-jschar
+char16_t
 *
 initTwoByte
 (
@@ -5465,7 +5465,7 @@ inlineStorageLatin1
 }
 MOZ_ALWAYS_INLINE
 const
-jschar
+char16_t
 *
 twoByteChars
 (
@@ -5773,7 +5773,7 @@ INLINE_EXTENSION_CHARS_TWO_BYTE
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 %
@@ -5813,7 +5813,7 @@ inlineStorageTwoByte
 /
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -5869,7 +5869,7 @@ inlineStorageExtensionLatin1
 INLINE_EXTENSION_CHARS_LATIN1
 ]
 ;
-jschar
+char16_t
 inlineStorageExtensionTwoByte
 [
 INLINE_EXTENSION_CHARS_TWO_BYTE
@@ -5942,7 +5942,7 @@ terminator
 /
 ;
 inline
-jschar
+char16_t
 *
 initTwoByte
 (
@@ -6078,7 +6078,7 @@ void
 init
 (
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -6125,7 +6125,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -6193,7 +6193,7 @@ argument
 *
 /
 const
-jschar
+char16_t
 *
 twoByteChars
 (
@@ -6578,7 +6578,7 @@ scopedChars_
 union
 {
 const
-jschar
+char16_t
 *
 twoByteChars_
 ;
@@ -6665,7 +6665,7 @@ Latin1
 ;
 }
 const
-jschar
+char16_t
 *
 twoByteChars
 (
@@ -6754,7 +6754,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 twoByteRange
 (
@@ -6776,7 +6776,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 (
 twoByteChars_
@@ -6989,7 +6989,7 @@ static
 bool
 hasUnit
 (
-jschar
+char16_t
 c
 )
 {
@@ -7003,7 +7003,7 @@ JSAtom
 *
 getUnit
 (
-jschar
+char16_t
 c
 )
 {
@@ -7124,7 +7124,7 @@ case
 1
 :
 {
-jschar
+char16_t
 c
 =
 chars
@@ -7426,7 +7426,7 @@ static
 bool
 fitsInSmallChar
 (
-jschar
+char16_t
 c
 )
 {
@@ -7456,9 +7456,9 @@ JSAtom
 *
 getLength2
 (
-jschar
+char16_t
 c1
-jschar
+char16_t
 c2
 )
 ;
@@ -8032,7 +8032,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 )
@@ -8145,7 +8145,7 @@ ExclusiveContext
 cx
 size_t
 index
-jschar
+char16_t
 *
 code
 )
@@ -8471,7 +8471,7 @@ template
 >
 MOZ_ALWAYS_INLINE
 const
-jschar
+char16_t
 *
 JSLinearString
 :
@@ -8532,7 +8532,7 @@ template
 >
 MOZ_ALWAYS_INLINE
 const
-jschar
+char16_t
 *
 JSLinearString
 :
@@ -8641,7 +8641,7 @@ JSRope
 :
 copyChars
 <
-jschar
+char16_t
 >
 (
 js
@@ -8655,7 +8655,7 @@ js
 :
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 &
 out
@@ -8707,7 +8707,7 @@ JSInlineString
 :
 lengthFits
 <
-jschar
+char16_t
 >
 (
 size_t
@@ -8758,7 +8758,7 @@ JSFatInlineString
 :
 lengthFits
 <
-jschar
+char16_t
 >
 (
 size_t
@@ -8783,7 +8783,7 @@ JSString
 setNonInlineChars
 (
 const
-jschar
+char16_t
 *
 chars
 )
@@ -8881,7 +8881,7 @@ nonInlineCharsLatin1
 }
 MOZ_ALWAYS_INLINE
 const
-jschar
+char16_t
 *
 JSLinearString
 :

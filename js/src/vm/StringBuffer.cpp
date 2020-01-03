@@ -299,7 +299,7 @@ return
 buf
 ;
 }
-jschar
+char16_t
 *
 StringBuffer
 :
@@ -326,7 +326,7 @@ nullptr
 return
 ExtractWellSized
 <
-jschar
+char16_t
 >
 (
 cx
@@ -770,7 +770,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 range
 (
@@ -816,7 +816,7 @@ latin1Chars
 :
 FinishStringFlat
 <
-jschar
+char16_t
 >
 (
 cx

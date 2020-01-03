@@ -1962,7 +1962,7 @@ type
 .
 virtual
 const
-jschar
+char16_t
 *
 typeName
 (
@@ -2303,7 +2303,7 @@ Concrete
 /
 The
 specific
-jschar
+char16_t
 array
 returned
 by
@@ -2317,7 +2317,7 @@ typeName
 .
 static
 const
-jschar
+char16_t
 concreteTypeName
 [
 ]
@@ -3240,7 +3240,7 @@ exposeToJS
 const
 ;
 const
-jschar
+char16_t
 *
 typeName
 (
@@ -3676,7 +3676,7 @@ cheap
 .
 )
 const
-jschar
+char16_t
 *
 name
 ;
@@ -4039,7 +4039,7 @@ public
 Base
 {
 const
-jschar
+char16_t
 *
 typeName
 (
@@ -4154,7 +4154,7 @@ public
 :
 static
 const
-jschar
+char16_t
 concreteTypeName
 [
 ]
@@ -4508,7 +4508,7 @@ public
 Base
 {
 const
-jschar
+char16_t
 *
 typeName
 (
@@ -4595,7 +4595,7 @@ ptr
 }
 static
 const
-jschar
+char16_t
 concreteTypeName
 [
 ]

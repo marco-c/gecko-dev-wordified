@@ -621,7 +621,7 @@ ArrayType
 (
 ctypes
 .
-jschar
+char16_t
 4096
 )
 )

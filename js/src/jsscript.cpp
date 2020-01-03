@@ -8958,7 +8958,7 @@ sourceRetrievable
 return
 true
 ;
-jschar
+char16_t
 *
 src
 =
@@ -9174,7 +9174,7 @@ AutoHoldEntry
 deferDelete
 (
 const
-jschar
+char16_t
 *
 chars
 )
@@ -9292,7 +9292,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -9383,7 +9383,7 @@ nullptr
 ;
 }
 const
-jschar
+char16_t
 *
 UncompressedSourceCache
 :
@@ -9458,7 +9458,7 @@ ScriptSource
 *
 ss
 const
-jschar
+char16_t
 *
 str
 AutoHoldEntry
@@ -9590,7 +9590,7 @@ popFront
 )
 {
 const
-jschar
+char16_t
 *
 chars
 =
@@ -9647,7 +9647,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -9740,7 +9740,7 @@ popFront
 )
 {
 const
-jschar
+char16_t
 *
 v
 =
@@ -9769,7 +9769,7 @@ n
 ;
 }
 const
-jschar
+char16_t
 *
 ScriptSource
 :
@@ -9807,7 +9807,7 @@ DataCompressed
 if
 (
 const
-jschar
+char16_t
 *
 decompressed
 =
@@ -9836,7 +9836,7 @@ nbytes
 =
 sizeof
 (
-jschar
+char16_t
 )
 *
 (
@@ -9845,13 +9845,13 @@ length_
 1
 )
 ;
-jschar
+char16_t
 *
 decompressed
 =
 static_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -10013,7 +10013,7 @@ AutoHoldEntry
 holder
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -10081,7 +10081,7 @@ AutoHoldEntry
 holder
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -10125,7 +10125,7 @@ ScriptSource
 setSource
 (
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -10221,7 +10221,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -10432,7 +10432,7 @@ ownsUncompressedChars
 return
 true
 ;
-jschar
+char16_t
 *
 uncompressed
 =
@@ -10446,7 +10446,7 @@ zone
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 Max
@@ -10963,7 +10963,7 @@ length
 *
 sizeof
 (
-jschar
+char16_t
 )
 ;
 size_t
@@ -11269,7 +11269,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -11757,7 +11757,7 @@ length_
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -11857,7 +11857,7 @@ setSource
 (
 (
 const
-jschar
+char16_t
 *
 )
 p
@@ -12026,7 +12026,7 @@ cx
 template
 make_pod_array
 <
-jschar
+char16_t
 >
 (
 sourceMapURLLen
@@ -12170,7 +12170,7 @@ cx
 template
 make_pod_array
 <
-jschar
+char16_t
 >
 (
 displayURLLen
@@ -12858,7 +12858,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 displayURL
 )
@@ -12962,7 +12962,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 sourceMapURL
 )
@@ -13091,7 +13091,7 @@ ownsUncompressedChars
 return
 sizeof
 (
-jschar
+char16_t
 )
 *
 length_
@@ -25567,7 +25567,7 @@ AutoHoldEntry
 holder
 ;
 const
-jschar
+char16_t
 *
 scriptChars
 =
@@ -25594,7 +25594,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 lazyChars
 =

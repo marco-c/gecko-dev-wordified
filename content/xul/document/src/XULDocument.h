@@ -2343,7 +2343,7 @@ script
 .
 *
 /
-jschar
+char16_t
 *
 mOffThreadCompileStringBuf
 ;

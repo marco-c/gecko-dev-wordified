@@ -192,7 +192,7 @@ CHECK
 str
 )
 ;
-jschar
+char16_t
 ch
 ;
 if
@@ -272,7 +272,7 @@ CHECK
 str
 )
 ;
-jschar
+char16_t
 ch
 ;
 if
@@ -313,7 +313,7 @@ testUTF8_badSurrogate
 {
 static
 const
-jschar
+char16_t
 badSurrogate
 [
 ]
@@ -344,7 +344,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 tbchars
 (

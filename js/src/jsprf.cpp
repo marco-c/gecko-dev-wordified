@@ -495,7 +495,7 @@ SprintfState
 *
 ss
 const
-jschar
+char16_t
 *
 src
 size_t
@@ -2111,12 +2111,12 @@ null
 static
 inline
 const
-jschar
+char16_t
 *
 generic_null_str
 (
 const
-jschar
+char16_t
 *
 )
 {
@@ -2155,7 +2155,7 @@ size_t
 generic_strlen
 (
 const
-jschar
+char16_t
 *
 s
 )
@@ -3500,7 +3500,7 @@ void
 va_arg
 (
 ap
-jschar
+char16_t
 *
 )
 ;
@@ -3590,7 +3590,7 @@ union
 char
 ch
 ;
-jschar
+char16_t
 wch
 ;
 int
@@ -3611,7 +3611,7 @@ char
 s
 ;
 const
-jschar
+char16_t
 *
 ws
 ;
@@ -5326,7 +5326,7 @@ va_arg
 (
 ap
 const
-jschar
+char16_t
 *
 )
 ;

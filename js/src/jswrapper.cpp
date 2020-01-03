@@ -4202,7 +4202,7 @@ cx
 )
 ;
 const
-jschar
+char16_t
 *
 prop
 =

@@ -1865,7 +1865,7 @@ LPCTSTR
 =
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 ;
@@ -1874,7 +1874,7 @@ LPCWSTR
 =
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 ;
@@ -1883,7 +1883,7 @@ LPTSTR
 =
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 ;
@@ -4327,12 +4327,12 @@ so
 needs
 to
 be
-jschar
+char16_t
 environment
 =
 ctypes
 .
-jschar
+char16_t
 .
 array
 (

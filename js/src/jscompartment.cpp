@@ -1861,7 +1861,7 @@ len
 }
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 copiedChars
 ;

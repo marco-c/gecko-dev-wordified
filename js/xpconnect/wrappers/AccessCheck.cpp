@@ -616,7 +616,7 @@ propLength
 return
 false
 ;
-jschar
+char16_t
 propChar0
 =
 JS_GetFlatStringCharAt
@@ -2019,7 +2019,7 @@ length
 i
 )
 {
-jschar
+char16_t
 ch
 =
 JS_GetFlatStringCharAt

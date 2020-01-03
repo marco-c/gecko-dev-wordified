@@ -1162,7 +1162,7 @@ WCHAR
 =
 ctypes
 .
-jschar
+char16_t
 ;
 const
 BOOL

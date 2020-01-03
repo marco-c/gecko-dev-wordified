@@ -76,7 +76,7 @@ a
 look
 at
 a
-jschar
+char16_t
 16
 -
 bits
@@ -112,7 +112,7 @@ upper
 bits
 from
 the
-jschar
+char16_t
 .
 *
 upper
@@ -180,7 +180,7 @@ bits
 of
 the
 original
-jschar
+char16_t
 .
 *
 real_index
@@ -287,7 +287,7 @@ be
 the
 mapping
 of
-jschar
+char16_t
 =
 >
 js_charinfo_index

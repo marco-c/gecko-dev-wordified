@@ -257,7 +257,7 @@ string
 "
     
 def
-jschars
+chars
 (
 self
 )
@@ -353,7 +353,7 @@ self
 cache
 )
 .
-jschars
+chars
 (
 )
 :
@@ -387,7 +387,7 @@ self
 cache
 )
 .
-jschars
+chars
 (
 )
 :
@@ -538,7 +538,7 @@ c
 in
 self
 .
-jschars
+chars
 (
 )
 :

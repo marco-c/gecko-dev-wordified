@@ -99,7 +99,7 @@ PodEqual
 ;
 static
 const
-jschar
+char16_t
 arr
 [
 ]
@@ -195,7 +195,7 @@ const
 JSStringFinalizer
 *
 fin
-jschar
+char16_t
 *
 chars
 )
@@ -226,7 +226,7 @@ const
 JSStringFinalizer
 *
 fin
-jschar
+char16_t
 *
 chars
 )
@@ -241,7 +241,7 @@ PodEqual
 const_cast
 <
 const
-jschar
+char16_t
 *
 >
 (

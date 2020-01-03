@@ -267,7 +267,7 @@ Nodes
 crash
 .
 const
-jschar
+char16_t
 *
 Concrete
 <
@@ -920,7 +920,7 @@ name
 .
 SimpleEdge
 (
-jschar
+char16_t
 *
 name
 const
@@ -953,7 +953,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -1170,9 +1170,9 @@ okay
 )
 return
 ;
-jschar
+char16_t
 *
-jsname
+name16
 =
 nullptr
 ;
@@ -1220,13 +1220,14 @@ Convert
 the
 name
 to
-jschars
+char16_t
+characters
 .
-jsname
+name16
 =
 js_pod_malloc
 <
-jschar
+char16_t
 >
 (
 strlen
@@ -1240,7 +1241,7 @@ name
 if
 (
 !
-jsname
+name16
 )
 {
 okay
@@ -1268,7 +1269,7 @@ i
 +
 +
 )
-jsname
+name16
 [
 i
 ]
@@ -1278,7 +1279,7 @@ name
 i
 ]
 ;
-jsname
+name16
 [
 i
 ]
@@ -1353,7 +1354,7 @@ Move
 (
 SimpleEdge
 (
-jsname
+name16
 Node
 (
 kind
@@ -1658,7 +1659,7 @@ template
 <
 >
 const
-jschar
+char16_t
 TracerConcrete
 <
 JSObject
@@ -1680,7 +1681,7 @@ template
 <
 >
 const
-jschar
+char16_t
 TracerConcrete
 <
 JSString
@@ -1702,7 +1703,7 @@ template
 <
 >
 const
-jschar
+char16_t
 TracerConcrete
 <
 JS
@@ -1730,7 +1731,7 @@ template
 <
 >
 const
-jschar
+char16_t
 TracerConcrete
 <
 JSScript
@@ -1752,7 +1753,7 @@ template
 <
 >
 const
-jschar
+char16_t
 TracerConcrete
 <
 js
@@ -1780,7 +1781,7 @@ template
 <
 >
 const
-jschar
+char16_t
 TracerConcrete
 <
 js
@@ -1814,7 +1815,7 @@ template
 <
 >
 const
-jschar
+char16_t
 TracerConcrete
 <
 js
@@ -1842,7 +1843,7 @@ template
 <
 >
 const
-jschar
+char16_t
 TracerConcrete
 <
 js
@@ -1870,7 +1871,7 @@ template
 <
 >
 const
-jschar
+char16_t
 TracerConcrete
 <
 js

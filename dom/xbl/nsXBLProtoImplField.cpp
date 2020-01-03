@@ -3271,7 +3271,7 @@ aBoundNode
 reinterpret_cast
 <
 const
-jschar
+char16_t
 *
 >
 (

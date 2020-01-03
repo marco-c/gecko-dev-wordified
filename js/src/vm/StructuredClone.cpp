@@ -882,7 +882,7 @@ bool
 writeChars
 (
 const
-jschar
+char16_t
 *
 p
 size_t
@@ -1083,7 +1083,7 @@ nchars
 bool
 readChars
 (
-jschar
+char16_t
 *
 p
 size_t
@@ -1185,7 +1185,7 @@ JS_STATIC_ASSERT
 (
 sizeof
 (
-jschar
+char16_t
 )
 =
 =
@@ -3310,7 +3310,7 @@ SCInput
 :
 readChars
 (
-jschar
+char16_t
 *
 p
 size_t
@@ -3321,7 +3321,7 @@ JS_ASSERT
 (
 sizeof
 (
-jschar
+char16_t
 )
 =
 =
@@ -3971,7 +3971,7 @@ SCOutput
 writeChars
 (
 const
-jschar
+char16_t
 *
 p
 size_t
@@ -3982,7 +3982,7 @@ JS_ASSERT
 (
 sizeof
 (
-jschar
+char16_t
 )
 =
 =
@@ -7979,7 +7979,7 @@ nchars
 :
 readStringImpl
 <
-jschar
+char16_t
 >
 (
 nchars

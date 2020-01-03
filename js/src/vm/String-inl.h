@@ -1278,7 +1278,7 @@ js
 :
 NewFatInlineString
 <
-jschar
+char16_t
 >
 (
 cx
@@ -1433,7 +1433,7 @@ JSFlatString
 init
 (
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -1733,7 +1733,7 @@ cx
 ;
 }
 MOZ_ALWAYS_INLINE
-jschar
+char16_t
 *
 JSInlineString
 :
@@ -1822,7 +1822,7 @@ inlineStorageLatin1
 ;
 }
 MOZ_ALWAYS_INLINE
-jschar
+char16_t
 *
 JSFatInlineString
 :
@@ -1945,14 +1945,14 @@ template
 <
 >
 MOZ_ALWAYS_INLINE
-jschar
+char16_t
 *
 JSInlineString
 :
 :
 init
 <
-jschar
+char16_t
 >
 (
 size_t
@@ -2001,14 +2001,14 @@ template
 <
 >
 MOZ_ALWAYS_INLINE
-jschar
+char16_t
 *
 JSFatInlineString
 :
 :
 init
 <
-jschar
+char16_t
 >
 (
 size_t
@@ -2067,7 +2067,7 @@ JSExternalString
 init
 (
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -2140,7 +2140,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -2228,7 +2228,7 @@ length
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -2269,7 +2269,7 @@ length
 )
 )
 ;
-jschar
+char16_t
 c
 ;
 if
@@ -2322,9 +2322,9 @@ StaticStrings
 :
 getLength2
 (
-jschar
+char16_t
 c1
-jschar
+char16_t
 c2
 )
 {
@@ -2629,7 +2629,7 @@ finalize
 fin
 const_cast
 <
-jschar
+char16_t
 *
 >
 (

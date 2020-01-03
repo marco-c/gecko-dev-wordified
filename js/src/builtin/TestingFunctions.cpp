@@ -10128,7 +10128,7 @@ heaptools
 typedef
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -11864,7 +11864,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 =
@@ -11884,7 +11884,7 @@ length
 )
 ;
 const
-jschar
+char16_t
 *
 src
 =

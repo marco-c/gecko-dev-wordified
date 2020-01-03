@@ -1072,7 +1072,7 @@ length
 ;
 }
 const
-jschar
+char16_t
 *
 keyChars
 =

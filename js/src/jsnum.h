@@ -1000,7 +1000,7 @@ be
 used
 when
 the
-jschars
+characters
 are
 known
 to
@@ -1019,11 +1019,11 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 start
 const
-jschar
+char16_t
 *
 end
 double

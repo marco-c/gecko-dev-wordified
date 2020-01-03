@@ -1669,7 +1669,7 @@ RegExpStatics
 *
 res
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -1722,7 +1722,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -1829,7 +1829,7 @@ cx
 dummyOptions
 (
 const
-jschar
+char16_t
 *
 )
 nullptr
@@ -3820,7 +3820,7 @@ matches
 else
 {
 const
-jschar
+char16_t
 *
 chars
 =
@@ -3961,7 +3961,7 @@ matches
 else
 {
 const
-jschar
+char16_t
 *
 chars
 =
@@ -5475,7 +5475,7 @@ length
 RegExpFlag
 *
 flagsOut
-jschar
+char16_t
 *
 lastParsedOut
 )
@@ -5657,7 +5657,7 @@ length
 bool
 ok
 ;
-jschar
+char16_t
 lastParsed
 ;
 if

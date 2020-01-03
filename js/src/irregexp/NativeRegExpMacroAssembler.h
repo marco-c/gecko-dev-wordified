@@ -489,7 +489,7 @@ data
 s
 data
 .
-jschar
+char16_t
 *
 inputStart
 ;
@@ -507,7 +507,7 @@ the
 input
 start
 .
-jschar
+char16_t
 *
 inputStartMinusOne
 ;
@@ -568,7 +568,7 @@ Mode
 ASCII
 =
 1
-JSCHAR
+CHAR16
 =
 2
 }
@@ -688,7 +688,7 @@ on_equal
 void
 CheckCharacterGT
 (
-jschar
+char16_t
 limit
 jit
 :
@@ -701,7 +701,7 @@ on_greater
 void
 CheckCharacterLT
 (
-jschar
+char16_t
 limit
 jit
 :
@@ -790,11 +790,11 @@ on_not_equal
 void
 CheckNotCharacterAfterMinusAnd
 (
-jschar
+char16_t
 c
-jschar
+char16_t
 minus
-jschar
+char16_t
 and_with
 jit
 :
@@ -807,9 +807,9 @@ on_not_equal
 void
 CheckCharacterInRange
 (
-jschar
+char16_t
 from
-jschar
+char16_t
 to
 jit
 :
@@ -822,9 +822,9 @@ on_in_range
 void
 CheckCharacterNotInRange
 (
-jschar
+char16_t
 from
-jschar
+char16_t
 to
 jit
 :
@@ -875,7 +875,7 @@ to
 bool
 CheckSpecialCharacterClass
 (
-jschar
+char16_t
 type
 jit
 :
@@ -1191,7 +1191,7 @@ return
 mode_
 =
 =
-JSCHAR
+CHAR16
 ?
 jit
 :

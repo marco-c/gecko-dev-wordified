@@ -568,7 +568,7 @@ index
 ;
 static
 const
-jschar
+char16_t
 hiChars
 [
 ]
@@ -626,7 +626,7 @@ nullptr
 ;
 static
 const
-jschar
+char16_t
 maxChars
 [
 ]
@@ -701,7 +701,7 @@ UINT32_MAX
 ;
 static
 const
-jschar
+char16_t
 maxPlusOneChars
 [
 ]
@@ -799,7 +799,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 (
 &
 chars

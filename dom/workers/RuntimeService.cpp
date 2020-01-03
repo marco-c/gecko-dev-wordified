@@ -3924,11 +3924,11 @@ JSObject
 >
 aGlobal
 const
-jschar
+char16_t
 *
 aBegin
 const
-jschar
+char16_t
 *
 aLimit
 size_t
@@ -3993,11 +3993,11 @@ aGlobal
 bool
 aInstalled
 const
-jschar
+char16_t
 *
 aBegin
 const
-jschar
+char16_t
 *
 aEnd
 size_t

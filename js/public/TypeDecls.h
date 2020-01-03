@@ -243,10 +243,6 @@ JSAddonId
 struct
 jsid
 ;
-typedef
-char16_t
-jschar
-;
 namespace
 JS
 {

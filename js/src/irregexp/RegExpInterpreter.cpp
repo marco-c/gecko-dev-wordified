@@ -1535,7 +1535,7 @@ insn
 BYTECODE_SHIFT
 )
 ;
-jschar
+char16_t
 next
 =
 chars
@@ -1562,7 +1562,7 @@ kBitsPerByte
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 )
@@ -2928,7 +2928,7 @@ uint8_t
 *
 byteCode
 const
-jschar
+char16_t
 *
 chars
 size_t

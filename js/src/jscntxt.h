@@ -4056,7 +4056,7 @@ const
 unsigned
 errorNumber
 const
-jschar
+char16_t
 *
 *
 args

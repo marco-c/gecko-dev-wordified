@@ -2735,7 +2735,7 @@ WCHAR
 =
 ctypes
 .
-jschar
+char16_t
 ;
 const
 BOOL
@@ -3740,7 +3740,7 @@ owner
 /
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 )

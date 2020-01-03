@@ -334,7 +334,7 @@ __FILE__
 )
 ;
 const
-jschar
+char16_t
 *
 sourceMap
 =
@@ -385,7 +385,7 @@ bool
 CharsMatch
 (
 const
-jschar
+char16_t
 *
 p
 const

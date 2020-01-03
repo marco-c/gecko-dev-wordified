@@ -1224,7 +1224,7 @@ ArrayType
 (
 ctypes
 .
-jschar
+char16_t
 Const
 .
 MAX_PATH
@@ -1239,7 +1239,7 @@ ArrayType
 (
 ctypes
 .
-jschar
+char16_t
 14
 )
 }
@@ -1680,7 +1680,7 @@ name
 /
 Type
 .
-jschar
+char16_t
 .
 in_ptr
 /

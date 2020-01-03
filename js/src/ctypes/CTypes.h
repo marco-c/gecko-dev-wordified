@@ -675,7 +675,7 @@ Vector
 typedef
 Vector
 <
-jschar
+char16_t
 0
 SystemAllocPolicy
 >
@@ -684,7 +684,7 @@ String
 typedef
 Vector
 <
-jschar
+char16_t
 64
 SystemAllocPolicy
 >
@@ -884,7 +884,7 @@ AppendString
 (
 Vector
 <
-jschar
+char16_t
 N
 AP
 >
@@ -1117,7 +1117,7 @@ i
 else
 {
 const
-jschar
+char16_t
 *
 chars
 =
@@ -1321,7 +1321,7 @@ PrependString
 (
 Vector
 <
-jschar
+char16_t
 N
 AP
 >
@@ -1424,7 +1424,7 @@ vlen
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -1510,7 +1510,7 @@ alen
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;

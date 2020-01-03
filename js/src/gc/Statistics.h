@@ -449,13 +449,13 @@ int64_t
 start
 )
 ;
-jschar
+char16_t
 *
 formatMessage
 (
 )
 ;
-jschar
+char16_t
 *
 formatJSON
 (

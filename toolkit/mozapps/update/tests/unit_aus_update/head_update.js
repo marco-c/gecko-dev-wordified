@@ -7966,7 +7966,7 @@ hwndOwner
 /
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 /
@@ -8000,7 +8000,7 @@ aryPathLocalAppData
 =
 ctypes
 .
-jschar
+char16_t
 .
 array
 (
@@ -8168,7 +8168,7 @@ hwndOwner
 /
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 /
@@ -8202,7 +8202,7 @@ aryPathProgFiles
 =
 ctypes
 .
-jschar
+char16_t
 .
 array
 (

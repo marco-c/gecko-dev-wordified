@@ -1880,7 +1880,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 base
 size_t
@@ -2598,7 +2598,7 @@ getRawChar
 /
 Normalize
 the
-jschar
+char16_t
 if
 it
 was
@@ -3290,7 +3290,7 @@ peekChars
 (
 int
 n
-jschar
+char16_t
 *
 cp
 )
@@ -3356,7 +3356,7 @@ cp
 i
 ]
 =
-jschar
+char16_t
 (
 c
 )
@@ -3395,7 +3395,7 @@ n
 ;
 }
 const
-jschar
+char16_t
 *
 TokenStream
 :
@@ -3406,7 +3406,7 @@ TokenBuf
 findEOLMax
 (
 const
-jschar
+char16_t
 *
 p
 size_t
@@ -3490,7 +3490,7 @@ position
 )
 {
 const
-jschar
+char16_t
 *
 end
 =
@@ -4668,7 +4668,7 @@ callerFilename
 )
 {
 const
-jschar
+char16_t
 *
 tokenStart
 =
@@ -4785,7 +4785,7 @@ if
 necessary
 .
 const
-jschar
+char16_t
 *
 windowBase
 =
@@ -4823,7 +4823,7 @@ if
 necessary
 .
 const
-jschar
+char16_t
 *
 windowLimit
 =
@@ -4883,7 +4883,7 @@ windowBuf
 append
 (
 (
-jschar
+char16_t
 )
 0
 )
@@ -4942,7 +4942,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 tbchars
 (
@@ -5334,7 +5334,7 @@ int
 result
 )
 {
-jschar
+char16_t
 cp
 [
 5
@@ -5569,7 +5569,7 @@ bool
 CharsMatch
 (
 const
-jschar
+char16_t
 *
 p
 const
@@ -5765,7 +5765,7 @@ char
 errorMsgPragma
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -5785,7 +5785,7 @@ directiveLength
 18
 )
 ;
-jschar
+char16_t
 peeked
 [
 18
@@ -6002,7 +6002,7 @@ cx
 >
 make_pod_array
 <
-jschar
+char16_t
 >
 (
 length
@@ -6474,7 +6474,7 @@ TokenStream
 putIdentInTokenbuf
 (
 const
-jschar
+char16_t
 *
 identStart
 )
@@ -6484,7 +6484,7 @@ c
 qc
 ;
 const
-jschar
+char16_t
 *
 tmp
 =
@@ -6761,7 +6761,7 @@ TokenStream
 checkForKeyword
 (
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -6844,7 +6844,7 @@ FirstCharKind
 /
 /
 A
-jschar
+char16_t
 has
 the
 '
@@ -6974,7 +6974,7 @@ char
 token
 /
 /
-jschar
+char16_t
 with
 a
 TokenKind
@@ -6983,7 +6983,7 @@ thus
 avoid
 a
 subsequent
-jschar
+char16_t
 -
 to
 -
@@ -7526,7 +7526,7 @@ FirstCharKind
 c1kind
 ;
 const
-jschar
+char16_t
 *
 numStart
 ;
@@ -7537,7 +7537,7 @@ DecimalPoint
 decimalPoint
 ;
 const
-jschar
+char16_t
 *
 identStart
 ;
@@ -8232,7 +8232,7 @@ before
 atomizing
 .
 const
-jschar
+char16_t
 *
 chars
 ;
@@ -8635,10 +8635,10 @@ just
 /
 convert
 the
-jschars
+char16_t
+characters
 in
 userbuf
-directly
 to
 the
 numeric
@@ -8686,7 +8686,7 @@ error
 else
 {
 const
-jschar
+char16_t
 *
 dummy
 ;
@@ -9421,7 +9421,7 @@ double
 dval
 ;
 const
-jschar
+char16_t
 *
 dummy
 ;
@@ -11419,7 +11419,7 @@ save
 }
 c
 =
-jschar
+char16_t
 (
 val
 )
@@ -11436,7 +11436,7 @@ u
 '
 )
 {
-jschar
+char16_t
 cp
 [
 4
@@ -11572,7 +11572,7 @@ x
 '
 )
 {
-jschar
+char16_t
 cp
 [
 2

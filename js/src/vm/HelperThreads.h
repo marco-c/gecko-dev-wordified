@@ -1861,7 +1861,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -2181,7 +2181,7 @@ OwningCompileOptions
 options
 ;
 const
-jschar
+char16_t
 *
 chars
 ;
@@ -2378,7 +2378,7 @@ JSContext
 *
 initCx
 const
-jschar
+char16_t
 *
 chars
 size_t

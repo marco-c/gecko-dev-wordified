@@ -5574,7 +5574,7 @@ safe
 since
 wchar_t
 and
-jschar
+char16_t
 are
 expected
 /
@@ -12526,7 +12526,7 @@ NS_OK
 ;
 }
 const
-jschar
+char16_t
 oomMsg
 [
 3
@@ -12543,7 +12543,7 @@ oomMsg
 }
 ;
 const
-jschar
+char16_t
 *
 toSend
 =
@@ -14589,11 +14589,11 @@ JSObject
 >
 aGlobal
 const
-jschar
+char16_t
 *
 aBegin
 const
-jschar
+char16_t
 *
 aLimit
 size_t
@@ -14661,11 +14661,11 @@ aGlobal
 bool
 aInstalled
 const
-jschar
+char16_t
 *
 aBegin
 const
-jschar
+char16_t
 *
 aEnd
 size_t

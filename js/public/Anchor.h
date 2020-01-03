@@ -275,7 +275,7 @@ not
 notice
 *
 |
-jschar
+char16_t
 |
 pointers
 .
@@ -298,7 +298,7 @@ str
 {
 *
 const
-jschar
+char16_t
 *
 ch
 =
@@ -423,10 +423,10 @@ s
 array
 of
 |
-jschar
+char16_t
 |
-s
 *
+characters
 may
 be
 freed
@@ -678,7 +678,7 @@ str
 ;
 *
 const
-jschar
+char16_t
 *
 ch
 =

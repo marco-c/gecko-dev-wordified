@@ -1610,7 +1610,7 @@ JS_NewExternalString
 cx
 static_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -1780,7 +1780,7 @@ const
 JSStringFinalizer
 *
 fin
-jschar
+char16_t
 *
 chars
 )
@@ -1793,7 +1793,7 @@ const
 JSStringFinalizer
 *
 fin
-jschar
+char16_t
 *
 chars
 )

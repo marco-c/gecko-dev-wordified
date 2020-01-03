@@ -1199,7 +1199,7 @@ indexp
 ;
 }
 const
-jschar
+char16_t
 *
 s
 =

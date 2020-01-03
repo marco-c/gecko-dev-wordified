@@ -35528,7 +35528,9 @@ Copy
 |
 len
 |
-jschars
+char16_t
+code
+units
 from
 |
 from
@@ -35542,12 +35544,12 @@ Assumes
 len
 >
 0
+/
+/
 (
 checked
 below
 in
-/
-/
 debug
 builds
 )
@@ -35561,6 +35563,8 @@ must
 point
 to
 the
+/
+/
 next
 available
 char
@@ -35866,11 +35870,11 @@ temp1
 temp2
 sizeof
 (
-jschar
+char16_t
 )
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -35913,7 +35917,7 @@ char
 )
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
