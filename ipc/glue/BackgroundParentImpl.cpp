@@ -1147,6 +1147,10 @@ const
 nsString
 &
 aChannel
+const
+bool
+&
+aPrivateBrowsing
 )
 {
 AssertIsInMainProcess
@@ -1163,6 +1167,7 @@ BroadcastChannelParent
 (
 aOrigin
 aChannel
+aPrivateBrowsing
 )
 ;
 }
@@ -1443,6 +1448,10 @@ const
 nsString
 &
 aChannel
+const
+bool
+&
+aPrivateBrowsing
 )
 {
 AssertIsInMainProcess
