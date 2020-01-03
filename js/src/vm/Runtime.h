@@ -400,8 +400,8 @@ js
 class
 PerThreadData
 ;
-struct
-ThreadSafeContext
+class
+ExclusiveContext
 ;
 class
 AutoKeepAtoms
@@ -456,7 +456,7 @@ js_ReportOutOfMemory
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 )
@@ -468,9 +468,9 @@ js_ReportAllocationOverflow
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -480,7 +480,7 @@ js_ReportOverRecursed
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 )
