@@ -117,14 +117,14 @@ MPL
 #
 include
 "
-JSStreamWriter
+ProfilerBacktrace
 .
 h
 "
 #
 include
 "
-ProfilerBacktrace
+JSStreamWriter
 .
 h
 "
