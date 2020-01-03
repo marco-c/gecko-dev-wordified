@@ -410,6 +410,9 @@ nsLineList
 iterator
 *
 aLine
+nsLineLayout
+*
+aBaseLineLayout
 )
 :
 mPresContext
@@ -423,6 +426,17 @@ aFloatManager
 mBlockReflowState
 (
 aOuterReflowState
+)
+mBaseLineLayout
+(
+aBaseLineLayout
+?
+aBaseLineLayout
+-
+>
+mBaseLineLayout
+:
+this
 )
 mLastOptionalBreakFrame
 (
