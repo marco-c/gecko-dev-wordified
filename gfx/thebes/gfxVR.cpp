@@ -455,6 +455,9 @@ libName
 nsAdoptingCString
 prefLibName
 =
+mozilla
+:
+:
 Preferences
 :
 :
