@@ -1620,8 +1620,12 @@ Value
 jslistener
 (
 cx
-OBJECT_TO_JSVAL
+JS
+:
+:
+ObjectValue
 (
+*
 jsobj
 )
 )

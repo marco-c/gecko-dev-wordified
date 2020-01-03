@@ -697,11 +697,12 @@ return
 NS_OK
 ;
 }
-*
 _vp
-=
-OBJECT_TO_JSVAL
+-
+>
+setObject
 (
+*
 obj
 )
 ;

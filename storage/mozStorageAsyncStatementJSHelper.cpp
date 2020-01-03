@@ -488,11 +488,12 @@ NS_ENSURE_STATE
 obj
 )
 ;
-*
 _params
-=
-OBJECT_TO_JSVAL
+-
+>
+setObject
 (
+*
 obj
 )
 ;

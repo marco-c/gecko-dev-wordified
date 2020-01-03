@@ -1926,11 +1926,12 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 }
-*
 aOutVal
-=
-OBJECT_TO_JSVAL
+-
+>
+setObject
 (
+*
 arrayObj
 )
 ;

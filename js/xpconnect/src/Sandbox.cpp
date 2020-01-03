@@ -2620,12 +2620,10 @@ JSTYPE_OBJECT
 {
 vp
 .
-set
+setObject
 (
-OBJECT_TO_JSVAL
-(
+*
 obj
-)
 )
 ;
 return

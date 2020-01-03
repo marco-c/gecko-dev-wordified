@@ -909,11 +909,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
-*
 aValue
-=
-OBJECT_TO_JSVAL
+-
+>
+setObject
 (
+*
 array
 )
 ;

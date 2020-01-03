@@ -8123,8 +8123,12 @@ sp
 +
 +
 =
-OBJECT_TO_JSVAL
+JS
+:
+:
+ObjectValue
 (
+*
 out_obj
 )
 ;

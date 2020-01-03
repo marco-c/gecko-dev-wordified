@@ -3908,8 +3908,12 @@ RootedValue
 filter
 (
 cx
-OBJECT_TO_JSVAL
+JS
+:
+:
+ObjectValue
 (
+*
 JS_GetFunctionObject
 (
 fun

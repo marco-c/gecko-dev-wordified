@@ -372,7 +372,10 @@ NullValue
 ;
 obj
 =
-OBJECT_TO_JSVAL
+JS
+:
+:
+ObjectOrNullValue
 (
 JS
 :

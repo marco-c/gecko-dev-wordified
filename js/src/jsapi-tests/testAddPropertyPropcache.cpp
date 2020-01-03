@@ -233,8 +233,12 @@ RootedValue
 proto
 (
 cx
-OBJECT_TO_JSVAL
+JS
+:
+:
+ObjectValue
 (
+*
 obj
 )
 )
@@ -274,8 +278,12 @@ RootedValue
 arr
 (
 cx
-OBJECT_TO_JSVAL
+JS
+:
+:
+ObjectValue
 (
+*
 obj
 )
 )

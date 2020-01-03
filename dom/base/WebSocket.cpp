@@ -9505,9 +9505,10 @@ rv
 )
 ;
 jsData
-=
-OBJECT_TO_JSVAL
+.
+setObject
 (
+*
 arrayBuf
 )
 ;
