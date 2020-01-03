@@ -1403,17 +1403,6 @@ true
 /
 Whether
 the
-director
-scripts
-are
-supported
-directorScripts
-:
-true
-/
-/
-Whether
-the
 debugger
 server
 supports
