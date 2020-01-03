@@ -1690,15 +1690,6 @@ None
         
 return
 revision
-[
-0
-:
-12
-]
-if
-revision
-else
-None
     
 def
 query_gecko_config_path
