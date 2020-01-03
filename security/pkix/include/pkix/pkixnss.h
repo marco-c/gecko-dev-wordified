@@ -318,6 +318,9 @@ SignedDataWithSignature
 sd
 Input
 subjectPublicKeyInfo
+unsigned
+int
+minimumNonECCBits
 void
 *
 pkcs11PinArg
@@ -487,7 +490,12 @@ modulus
 is
 at
 least
-1024
+the
+given
+/
+/
+number
+of
 bits
 .
 Result
@@ -495,6 +503,9 @@ CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
+unsigned
+int
+minimumNonECCBits
 )
 ;
 Result

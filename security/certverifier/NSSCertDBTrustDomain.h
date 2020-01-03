@@ -365,6 +365,8 @@ CertVerifier
 :
 PinningMode
 pinningMode
+bool
+forEV
 /
 *
 optional
@@ -711,6 +713,11 @@ CertVerifier
 :
 PinningMode
 mPinningMode
+;
+const
+unsigned
+int
+mMinimumNonECCBits
 ;
 const
 char
