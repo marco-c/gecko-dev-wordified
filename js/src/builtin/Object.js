@@ -362,7 +362,7 @@ IsCallable
 setter
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_BAD_GETTER_OR_SETTER
 "
@@ -449,7 +449,7 @@ IsCallable
 getter
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_BAD_GETTER_OR_SETTER
 "
