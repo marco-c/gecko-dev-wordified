@@ -3380,6 +3380,12 @@ mAction
 =
 =
 IME_REPLACE_TEXT
+|
+|
+mAction
+=
+=
+IME_COMPOSE_TEXT
 )
 {
 ReadCharactersField
