@@ -304,13 +304,6 @@ nsTimerImpl
 aTimerRef
 )
 ;
-void
-SetDelayInternal
-(
-uint32_t
-aDelay
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMER
 int32_t
@@ -358,6 +351,13 @@ override
 ;
 private
 :
+void
+SetDelayInternal
+(
+uint32_t
+aDelay
+)
+;
 enum
 class
 CallbackType
