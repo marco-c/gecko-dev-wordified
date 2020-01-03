@@ -11280,7 +11280,7 @@ AddToCCKind
 (
 value
 .
-gcKind
+traceKind
 (
 )
 )

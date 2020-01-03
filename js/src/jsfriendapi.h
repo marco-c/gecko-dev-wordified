@@ -3289,7 +3289,10 @@ key
 ;
 JS_FRIEND_API
 (
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 )
 GCThingTraceKind
 (

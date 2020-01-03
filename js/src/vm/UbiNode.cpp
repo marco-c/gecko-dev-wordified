@@ -607,7 +607,10 @@ Node
 :
 Node
 (
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 void
 *
@@ -898,7 +901,10 @@ void
 *
 *
 thingp
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 )
 {
@@ -926,7 +932,10 @@ void
 *
 *
 thingp
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 )
 {
@@ -1287,7 +1296,10 @@ cx
 void
 *
 thing
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 bool
 wantNames

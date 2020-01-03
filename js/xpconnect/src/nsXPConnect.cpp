@@ -2603,7 +2603,13 @@ JS_TraceChildren
 &
 trc
 global
-JSTRACE_OBJECT
+JS
+:
+:
+TraceKind
+:
+:
+Object
 )
 ;
 MOZ_ASSERT

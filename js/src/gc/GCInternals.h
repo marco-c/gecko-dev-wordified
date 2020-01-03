@@ -740,7 +740,10 @@ void
 *
 *
 thingp
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 )
 ;

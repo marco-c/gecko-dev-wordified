@@ -4112,7 +4112,10 @@ gc
 TenuredCell
 *
 thing
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 )
 ;
@@ -4154,7 +4157,10 @@ void
 *
 *
 thingp
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 )
 {
@@ -4396,7 +4402,10 @@ appendGrayRoot
 TenuredCell
 *
 thing
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 )
 {

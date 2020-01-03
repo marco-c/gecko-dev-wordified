@@ -1057,7 +1057,10 @@ trc
 void
 *
 thing
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 )
 ;
