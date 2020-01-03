@@ -783,7 +783,6 @@ targetContent
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -853,7 +852,6 @@ metrics
 )
 ;
 return
-NS_OK
 ;
 }
 #
