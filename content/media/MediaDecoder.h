@@ -4125,14 +4125,6 @@ aOffset
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
-int64_t
-GetEndMediaTime
-(
-)
-const
-MOZ_FINAL
-MOZ_OVERRIDE
-;
 /
 /
 Return
