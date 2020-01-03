@@ -314,12 +314,6 @@ video
 /
 mp4
 "
-width
-:
-560
-height
-:
-320
 duration
 :
 5
