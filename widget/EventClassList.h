@@ -249,11 +249,6 @@ NS_EVENT_CLASS
 Internal
 EditorInputEvent
 )
-NS_EVENT_CLASS
-(
-Internal
-BeforeAfterKeyboardEvent
-)
 /
 /
 MouseEvents
