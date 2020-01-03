@@ -224,10 +224,6 @@ nsRunnable
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-DelayedResolveOrReject
-)
 DelayedResolveOrReject
 (
 MediaTaskQueue
