@@ -257,7 +257,7 @@ reader
 .
 mp4
 "
-false
+true
 )
 ;
 nsRefPtr
