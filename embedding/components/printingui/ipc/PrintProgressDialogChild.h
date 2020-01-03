@@ -125,7 +125,6 @@ bool
 RecvDialogOpened
 (
 )
-MOZ_OVERRIDE
 ;
 private
 :

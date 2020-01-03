@@ -156,7 +156,6 @@ PPrintProgressDialogChild
 AllocPPrintProgressDialogChild
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -166,7 +165,6 @@ PPrintProgressDialogChild
 *
 aActor
 )
-MOZ_OVERRIDE
 ;
 }
 ;
