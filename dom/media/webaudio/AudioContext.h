@@ -424,6 +424,7 @@ BasicWaveFormCache
 {
 public
 :
+explicit
 BasicWaveFormCache
 (
 uint32_t
