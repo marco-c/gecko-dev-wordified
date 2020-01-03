@@ -910,16 +910,7 @@ Status
 aStatus
 )
 override
-{
-ReleaseListener
-(
-WorkerIsGoingAway
-)
 ;
-return
-true
-;
-}
 private
 :
 enum
