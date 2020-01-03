@@ -80,14 +80,9 @@ loadAndPaint
 (
 getAbsoluteUrl
 (
-"
-/
-robocop
-/
-robocop_geolocation
+StringHelper
 .
-html
-"
+ROBOCOP_GEOLOCATION_URL
 )
 )
 ;

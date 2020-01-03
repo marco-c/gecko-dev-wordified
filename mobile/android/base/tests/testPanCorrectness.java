@@ -87,14 +87,9 @@ url
 =
 getAbsoluteUrl
 (
-"
-/
-robocop
-/
-robocop_boxes
+StringHelper
 .
-html
-"
+ROBOCOP_BOXES_URL
 )
 ;
 MotionEventHelper
