@@ -10694,6 +10694,14 @@ RebuildCounterStyles
 (
 )
 ;
+/
+/
+FIXME
+:
+Pass
+through
+from
+callers
 RestyleManager
 (
 )
@@ -10702,6 +10710,7 @@ RestyleManager
 RebuildAllStyleData
 (
 aExtraHint
+eRestyle_Subtree
 )
 ;
 }
