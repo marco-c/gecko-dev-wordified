@@ -1911,6 +1911,11 @@ GetNondisappearingScrollbarWidth
 nsBoxLayoutState
 *
 aState
+mozilla
+:
+:
+WritingMode
+aVerticalWM
 )
 ;
 bool
@@ -4256,6 +4261,11 @@ aPresContext
 nsRenderingContext
 *
 aRC
+mozilla
+:
+:
+WritingMode
+aWM
 )
 override
 {
@@ -4274,6 +4284,7 @@ GetNondisappearingScrollbarWidth
 (
 &
 bls
+aWM
 )
 ;
 }
@@ -6467,6 +6478,11 @@ aPresContext
 nsRenderingContext
 *
 aRC
+mozilla
+:
+:
+WritingMode
+aWM
 )
 override
 {
@@ -6485,6 +6501,7 @@ GetNondisappearingScrollbarWidth
 (
 &
 bls
+aWM
 )
 ;
 }
