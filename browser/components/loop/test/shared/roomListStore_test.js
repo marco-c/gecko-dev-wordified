@@ -818,7 +818,7 @@ true
 describe
 (
 "
-remove
+delete
 "
 function
 (
@@ -828,7 +828,7 @@ it
 (
 "
 should
-remove
+delete
 a
 room
 from
@@ -846,10 +846,10 @@ rooms
 trigger
 (
 "
-remove
+delete
 "
 "
-remove
+delete
 "
 {
 roomToken
