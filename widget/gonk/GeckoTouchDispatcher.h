@@ -387,6 +387,7 @@ cpp
 .
 class
 GeckoTouchDispatcher
+MOZ_FINAL
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -450,6 +451,14 @@ CompositorVsyncObserver
 aObserver
 )
 ;
+protected
+:
+~
+GeckoTouchDispatcher
+(
+)
+{
+}
 private
 :
 GeckoTouchDispatcher
