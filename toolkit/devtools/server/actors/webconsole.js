@@ -4189,7 +4189,12 @@ exception
 errorGrip
 exceptionMessage
 :
+this
+.
+_createStringGrip
+(
 errorMessage
+)
 helperResult
 :
 helperResult
