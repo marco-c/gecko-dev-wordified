@@ -256,7 +256,11 @@ get
 snippetsVersion
 (
 )
+{
+return
 STARTPAGE_VERSION
+;
+}
 /
 *
 *
