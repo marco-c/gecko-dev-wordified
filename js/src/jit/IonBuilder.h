@@ -5087,6 +5087,14 @@ CallInfo
 callInfo
 )
 ;
+InliningStatus
+inlineSubstringKernel
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Testing
