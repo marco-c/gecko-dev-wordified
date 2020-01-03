@@ -165,10 +165,6 @@ ResponseType
 :
 Default
 )
-mFinalURL
-(
-false
-)
 mStatus
 (
 aStatus
