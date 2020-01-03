@@ -694,9 +694,6 @@ TrackID
 aId
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
 =
 0

@@ -389,9 +389,6 @@ TrackID
 aId
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
 MOZ_OVERRIDE
 ;

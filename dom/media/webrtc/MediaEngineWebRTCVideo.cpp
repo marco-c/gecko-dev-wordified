@@ -943,9 +943,6 @@ TrackID
 aID
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
 {
 VideoSegment
@@ -1193,8 +1190,6 @@ nullptr
 images
 are
 allowed
-if
-(
 AppendToTrack
 (
 aSource
@@ -1202,13 +1197,7 @@ mImage
 aID
 delta
 )
-)
-{
-aLastEndTime
-=
-aDesiredTime
 ;
-}
 }
 }
 /

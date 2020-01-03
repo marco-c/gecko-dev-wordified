@@ -1313,9 +1313,6 @@ TrackID
 aID
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
 {
 /
@@ -1457,8 +1454,6 @@ finished
 the
 track
 .
-if
-(
 aSource
 -
 >
@@ -1468,13 +1463,7 @@ aID
 &
 segment
 )
-)
-{
-aLastEndTime
-=
-aDesiredTime
 ;
-}
 /
 /
 Generate
