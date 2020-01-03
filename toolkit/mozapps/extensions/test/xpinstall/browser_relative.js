@@ -112,6 +112,14 @@ finish_test
 ;
 Harness
 .
+finalContentEvent
+=
+"
+InstallComplete
+"
+;
+Harness
+.
 setup
 (
 )
