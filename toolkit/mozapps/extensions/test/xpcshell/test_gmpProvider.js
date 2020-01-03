@@ -322,6 +322,8 @@ setBoolPref
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_LOGGING_DUMP
 true
 )
@@ -332,6 +334,8 @@ setIntPref
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_LOGGING_LEVEL
 0
 )
@@ -341,6 +345,8 @@ gPrefs
 setBoolPref
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_EME_ENABLED
 true
@@ -366,12 +372,14 @@ gGetKey
 (
 GMPScope
 .
-KEY_PLUGIN_HIDDEN
+GMPPrefs
+.
+KEY_PLUGIN_FORCEVISIBLE
 addon
 .
 id
 )
-false
+true
 )
 ;
 }
@@ -424,6 +432,8 @@ gGetKey
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_PLUGIN_VERSION
 addon
 .
@@ -440,6 +450,8 @@ setBoolPref
 gGetKey
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PLUGIN_ENABLED
 addon
@@ -948,6 +960,8 @@ gGetKey
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_PLUGIN_ENABLED
 mockAddon
 .
@@ -963,6 +977,8 @@ setCharPref
 gGetKey
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PLUGIN_LAST_UPDATE
 mockAddon
@@ -982,6 +998,8 @@ setCharPref
 gGetKey
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PLUGIN_VERSION
 mockAddon
@@ -1252,6 +1270,8 @@ gGetKey
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_PLUGIN_ENABLED
 addon
 .
@@ -1353,6 +1373,8 @@ setBoolPref
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_EME_ENABLED
 false
 )
@@ -1426,6 +1448,8 @@ gPrefs
 setBoolPref
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_EME_ENABLED
 true
@@ -1502,6 +1526,8 @@ autoupdateKey
 gGetKey
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PLUGIN_AUTOUPDATE
 addon
@@ -1733,6 +1759,8 @@ gGetKey
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_PLUGIN_ENABLED
 addon
 .
@@ -1759,6 +1787,8 @@ setCharPref
 gGetKey
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PLUGIN_VERSION
 addon
@@ -1826,6 +1856,8 @@ clearUserPref
 gGetKey
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PLUGIN_VERSION
 addon
@@ -1930,6 +1962,8 @@ gGetKey
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_PLUGIN_VERSION
 addon
 .
@@ -1996,6 +2030,8 @@ gGetKey
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_PLUGIN_VERSION
 addon
 .
@@ -2045,6 +2081,8 @@ gGetKey
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_PLUGIN_VERSION
 addon
 .
@@ -2064,6 +2102,8 @@ setBoolPref
 gGetKey
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PLUGIN_ENABLED
 addon
@@ -2169,6 +2209,8 @@ setBoolPref
 gGetKey
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PLUGIN_ENABLED
 addon
@@ -2304,6 +2346,8 @@ gGetKey
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_PLUGIN_AUTOUPDATE
 addon
 .
@@ -2324,6 +2368,8 @@ gPrefs
 setIntPref
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PROVIDER_LASTCHECK
 0
@@ -2366,6 +2412,8 @@ setIntPref
 (
 GMPScope
 .
+GMPPrefs
+.
 KEY_PROVIDER_LASTCHECK
 Date
 .
@@ -2405,6 +2453,8 @@ gPrefs
 setIntPref
 (
 GMPScope
+.
+GMPPrefs
 .
 KEY_PROVIDER_LASTCHECK
 Date
