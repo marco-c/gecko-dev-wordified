@@ -292,7 +292,7 @@ stacktrace
 {
 columnNumber
 :
-2
+3
 filename
 :
 TEST_URI
@@ -313,7 +313,7 @@ lineNumber
 {
 columnNumber
 :
-9
+10
 filename
 :
 TEST_URI
@@ -332,7 +332,7 @@ lineNumber
 {
 columnNumber
 :
-9
+10
 filename
 :
 TEST_URI
@@ -351,7 +351,7 @@ lineNumber
 {
 columnNumber
 :
-0
+1
 filename
 :
 TEST_URI
