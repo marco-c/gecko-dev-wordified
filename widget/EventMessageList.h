@@ -2360,13 +2360,13 @@ ePrintEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MESSAGE_EVENT_START
+eMessageEventFirst
 4700
 )
 NS_EVENT_MESSAGE
 (
 eMessage
-NS_MESSAGE_EVENT_START
+eMessageEventFirst
 )
 /
 /
