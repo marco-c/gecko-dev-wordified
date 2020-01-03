@@ -525,6 +525,11 @@ new
 tab
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 The
