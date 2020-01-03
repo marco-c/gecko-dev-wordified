@@ -46,6 +46,13 @@ io
 InputStream
 ;
 import
+android
+.
+test
+.
+InstrumentationTestCase
+;
+import
 org
 .
 mozilla
@@ -100,7 +107,7 @@ public
 class
 TestJarReader
 extends
-BrowserTestCase
+InstrumentationTestCase
 {
 public
 void
@@ -111,11 +118,11 @@ testJarReader
 String
 appPath
 =
-getActivity
+getInstrumentation
 (
 )
 .
-getApplication
+getTargetContext
 (
 )
 .

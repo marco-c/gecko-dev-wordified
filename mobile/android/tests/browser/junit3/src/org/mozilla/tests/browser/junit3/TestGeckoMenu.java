@@ -68,6 +68,13 @@ browser
 junit3
 ;
 import
+android
+.
+test
+.
+InstrumentationTestCase
+;
+import
 org
 .
 mozilla
@@ -102,7 +109,7 @@ public
 class
 TestGeckoMenu
 extends
-BrowserTestCase
+InstrumentationTestCase
 {
 private
 volatile
@@ -139,7 +146,11 @@ menu
 new
 GeckoMenu
 (
-getActivity
+getInstrumentation
+(
+)
+.
+getTargetContext
 (
 )
 )
