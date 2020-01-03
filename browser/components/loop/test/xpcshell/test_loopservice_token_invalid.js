@@ -164,9 +164,6 @@ errno
 110
 error
 :
-{
-error
-:
 "
 Unauthorized
 "
@@ -176,10 +173,6 @@ message
 Unknown
 credentials
 "
-statusCode
-:
-401
-}
 }
 )
 )
