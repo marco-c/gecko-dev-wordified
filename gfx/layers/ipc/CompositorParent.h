@@ -1123,6 +1123,16 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+ApplyAsyncProperties
+(
+LayerTransactionParent
+*
+aLayerTree
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 GetAPZTestData
 (
 const
