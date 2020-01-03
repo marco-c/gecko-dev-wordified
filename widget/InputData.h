@@ -498,6 +498,7 @@ INPUTDATA_AS_CHILD_TYPE
 ScrollWheelInput
 SCROLLWHEEL_INPUT
 )
+explicit
 InputData
 (
 InputType
