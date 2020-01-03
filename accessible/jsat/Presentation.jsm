@@ -3864,6 +3864,11 @@ WeakMap
 (
 )
 ;
+return
+this
+.
+displayedAccessibles
+;
 }
 pivotChanged
 :
