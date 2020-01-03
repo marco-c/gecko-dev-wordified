@@ -1801,6 +1801,7 @@ convolution
 of
 the
 HRTF
+.
 input
 .
 mVolume
@@ -2781,6 +2782,14 @@ distanceVec
 )
 ;
 return
+std
+:
+:
+max
+(
+0
+.
+0f
 (
 this
 -
@@ -2790,6 +2799,7 @@ mDistanceModelFunction
 )
 (
 distance
+)
 )
 ;
 }
