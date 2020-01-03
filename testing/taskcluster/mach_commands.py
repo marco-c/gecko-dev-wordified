@@ -3858,6 +3858,19 @@ revision
 '
 ]
         
+from
+taskcluster_graph
+.
+from_now
+import
+(
+            
+json_time_from_now
+            
+current_json_time
+        
+)
+        
 build_parameters
 =
 dict
