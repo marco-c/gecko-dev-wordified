@@ -133,6 +133,15 @@ nsRubyBaseContainerFrame_h___
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
