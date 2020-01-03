@@ -10664,12 +10664,12 @@ GET_IT
 WANT_NEWENUMERATE
 )
 bool
-WantNewResolve
+WantResolve
 (
 )
 GET_IT
 (
-WANT_NEWRESOLVE
+WANT_RESOLVE
 )
 bool
 WantConvert

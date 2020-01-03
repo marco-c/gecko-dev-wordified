@@ -1153,7 +1153,7 @@ define
 XPC_MAP_WANT_GETPROPERTY
 #
 define
-XPC_MAP_WANT_NEWRESOLVE
+XPC_MAP_WANT_RESOLVE
 #
 define
 XPC_MAP_FLAGS
@@ -1354,7 +1354,7 @@ NS_IMETHODIMP
 StatementJSHelper
 :
 :
-NewResolve
+Resolve
 (
 nsIXPConnectWrappedNative
 *
@@ -1367,10 +1367,9 @@ JSObject
 aScopeObj
 jsid
 aId
-JSObject
+bool
 *
-*
-_objp
+aResolvedp
 bool
 *
 _retval
@@ -1434,13 +1433,9 @@ stepFunc
 nullptr
 ;
 *
-_objp
+aResolvedp
 =
-scope
-.
-get
-(
-)
+true
 ;
 return
 NS_OK
