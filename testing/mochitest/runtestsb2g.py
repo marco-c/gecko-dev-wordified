@@ -1945,14 +1945,32 @@ options
 )
 :
         
-#
-TODO
+if
+options
+.
+gmp_path
 :
-bug
-1043403
+            
+return
+options
+.
+gmp_path
         
 return
-None
+'
+/
+system
+/
+b2g
+/
+gmp
+-
+clearkey
+/
+0
+.
+1
+'
     
 def
 getChromeTestDir
