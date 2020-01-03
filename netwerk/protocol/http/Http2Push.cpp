@@ -544,12 +544,12 @@ SetPushStream
 this
 )
 ;
-mLoadGroupCI
+mSchedulingContext
 =
 aAssociatedStream
 -
 >
-LoadGroupConnectionInfo
+SchedulingContext
 (
 )
 ;
