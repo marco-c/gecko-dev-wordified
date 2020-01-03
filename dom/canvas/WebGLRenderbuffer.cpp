@@ -1028,6 +1028,17 @@ height
 )
 const
 {
+MOZ_ASSERT
+(
+mContext
+-
+>
+mBoundRenderbuffer
+=
+=
+this
+)
+;
 gl
 :
 :
