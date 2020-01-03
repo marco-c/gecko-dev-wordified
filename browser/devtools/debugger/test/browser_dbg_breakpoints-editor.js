@@ -1638,7 +1638,7 @@ executeSoon
 >
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 onReadyForClick
 )

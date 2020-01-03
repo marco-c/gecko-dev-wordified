@@ -260,7 +260,7 @@ hud
 .
 iframeWindow
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 startTest
 )
@@ -315,7 +315,7 @@ hud
 .
 iframeWindow
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 (
 )

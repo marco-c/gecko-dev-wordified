@@ -61,7 +61,7 @@ first
 frame
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 checkAnimationState
 )
