@@ -2111,7 +2111,7 @@ surface
 new
 gfxImageSurface
 (
-gfxIntSize
+IntSize
 (
 400
 300
@@ -2208,7 +2208,7 @@ ySurface
 new
 gfxImageSurface
 (
-gfxIntSize
+IntSize
 (
 400
 300
@@ -2228,7 +2228,7 @@ cbSurface
 new
 gfxImageSurface
 (
-gfxIntSize
+IntSize
 (
 200
 150
@@ -2248,7 +2248,7 @@ crSurface
 new
 gfxImageSurface
 (
-gfxIntSize
+IntSize
 (
 200
 150

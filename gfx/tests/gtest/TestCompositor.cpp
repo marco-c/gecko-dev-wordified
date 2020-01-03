@@ -334,7 +334,7 @@ GLContextProvider
 :
 CreateOffscreen
 (
-gfxIntSize
+IntSize
 (
 gCompWidth
 gCompHeight
