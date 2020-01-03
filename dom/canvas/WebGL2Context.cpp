@@ -568,13 +568,6 @@ gl
 GLFeature
 :
 :
-invalidate_framebuffer
-gl
-:
-:
-GLFeature
-:
-:
 map_buffer_range
 gl
 :
