@@ -3276,7 +3276,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 /
@@ -3510,7 +3510,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 |
 |
 aVisitor
@@ -39285,7 +39285,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 nsIFrame
@@ -39944,7 +39944,7 @@ NS_POINTER_MOVE
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 pointerMessage
 =
@@ -45350,7 +45350,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 DelayedEvent
@@ -47907,7 +47907,7 @@ case
 NS_MOUSE_BUTTON_DOWN
 :
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 isHandlingUserInput
 =
@@ -48466,7 +48466,7 @@ break
 ;
 }
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 /
 /

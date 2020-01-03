@@ -3054,13 +3054,13 @@ rv
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 AC_LOGV
 (
 "
 Before
-NS_MOUSE_BUTTON_UP
+eMouseUp
 state
 :
 %
@@ -3088,7 +3088,7 @@ AC_LOGV
 (
 "
 After
-NS_MOUSE_BUTTON_UP
+eMouseUp
 state
 :
 %

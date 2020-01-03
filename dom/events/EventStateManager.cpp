@@ -3404,7 +3404,7 @@ break
 ;
 }
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 {
 switch
@@ -6956,7 +6956,7 @@ case
 NS_MOUSE_BUTTON_DOWN
 :
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 case
 eMouseMove
@@ -17103,7 +17103,7 @@ aEvent
 mMessage
 !
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 &
 &
 aEvent
@@ -18814,7 +18814,7 @@ break
 ;
 }
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 {
 ClearGlobalActiveContent
@@ -27033,7 +27033,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 if
@@ -27124,7 +27124,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 if
@@ -27215,7 +27215,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 if
@@ -35266,7 +35266,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 ;
 if

@@ -877,7 +877,7 @@ aY
 return
 CreateMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 aX
 aY
 )

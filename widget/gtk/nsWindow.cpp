@@ -14614,7 +14614,7 @@ WidgetMouseEvent
 synthEvent
 (
 true
-NS_MOUSE_BUTTON_UP
+eMouseUp
 this
 WidgetMouseEvent
 :
@@ -14781,7 +14781,7 @@ do
 same
 thing
 for
-NS_MOUSE_BUTTON_UP
+eMouseUp
 because
 /
 /
@@ -15515,7 +15515,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_BUTTON_UP
+eMouseUp
 this
 WidgetMouseEvent
 :

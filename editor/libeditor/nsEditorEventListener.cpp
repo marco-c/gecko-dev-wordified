@@ -2642,7 +2642,7 @@ mouseEvent
 /
 mouseup
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 {
 nsCOMPtr

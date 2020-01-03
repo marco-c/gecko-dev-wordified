@@ -354,7 +354,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 eMouseEventFirst
 +
 1

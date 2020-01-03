@@ -2627,11 +2627,11 @@ NS_MOUSE_BUTTON_DOWN
 "
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 return
 "
-NS_MOUSE_BUTTON_UP
+eMouseUp
 "
 ;
 default
@@ -32426,7 +32426,7 @@ mMouseButtonEventData
 mEventMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 ;
 if
 (

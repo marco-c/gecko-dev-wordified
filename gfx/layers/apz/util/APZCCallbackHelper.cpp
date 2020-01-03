@@ -3463,7 +3463,7 @@ NS_MOUSE_BUTTON_DOWN
 aMsg
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 |
 |
 aMsg
@@ -3720,7 +3720,7 @@ aWidget
 ;
 DispatchSynthesizedMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 time
 aPoint
 aModifiers

@@ -17455,7 +17455,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 StopNumberControlSpinnerSpin
@@ -22484,7 +22484,7 @@ case
 NS_MOUSE_BUTTON_DOWN
 :
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 case
 NS_MOUSE_DOUBLECLICK
@@ -23726,7 +23726,7 @@ true
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 case
 NS_TOUCH_END

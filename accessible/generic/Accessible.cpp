@@ -11915,7 +11915,7 @@ nsCoreUtils
 :
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 x
 y
 aContent

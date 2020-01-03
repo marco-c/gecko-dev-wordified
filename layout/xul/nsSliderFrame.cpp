@@ -2969,7 +2969,7 @@ case
 NS_TOUCH_END
 :
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 if
 (
@@ -3355,7 +3355,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 HandleRelease
@@ -5877,7 +5877,7 @@ case
 NS_MOUSE_BUTTON_DOWN
 :
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 {
 uint16_t
