@@ -7635,6 +7635,9 @@ scriptDataTable_
 bool
 jitSupportsFloatingPoint
 ;
+bool
+jitSupportsSimd
+;
 /
 /
 Used
