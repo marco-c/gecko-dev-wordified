@@ -2093,7 +2093,7 @@ async
 video
 :
 *
-Schelude
+Schedule
 a
 task
 to
