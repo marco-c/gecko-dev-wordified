@@ -807,6 +807,14 @@ test
 )
 ;
 bool
+visitGotoWithFake
+(
+MGotoWithFake
+*
+ins
+)
+;
+bool
 visitFunctionDispatch
 (
 MFunctionDispatch

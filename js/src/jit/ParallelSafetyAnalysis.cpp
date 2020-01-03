@@ -849,6 +849,10 @@ Test
 )
 SAFE_OP
 (
+GotoWithFake
+)
+SAFE_OP
+(
 Compare
 )
 SAFE_OP
