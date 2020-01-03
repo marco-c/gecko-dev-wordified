@@ -16895,9 +16895,6 @@ JS
 :
 HandleObject
 obj
-bool
-*
-succeeded
 )
 ;
 extern

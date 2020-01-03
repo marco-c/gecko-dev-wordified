@@ -1827,9 +1827,6 @@ JSContext
 cx
 HandleObject
 proxy
-bool
-*
-succeeded
 )
 const
 {
@@ -1860,7 +1857,6 @@ preventExtensions
 (
 cx
 target
-succeeded
 )
 ;
 }
