@@ -4460,6 +4460,11 @@ result
 nsIStreamLoaderObserver
 *
 observer
+nsIRequestObserver
+*
+requestObserver
+=
+nullptr
 )
 {
 nsresult
@@ -4494,6 +4499,7 @@ loader
 Init
 (
 observer
+requestObserver
 )
 ;
 if

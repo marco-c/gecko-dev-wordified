@@ -254,6 +254,12 @@ nsIRequest
 >
 mRequest
 ;
+nsCOMPtr
+<
+nsIRequestObserver
+>
+mRequestObserver
+;
 /
 /
 Buffer
