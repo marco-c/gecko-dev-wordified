@@ -1405,10 +1405,10 @@ UpdateChannel
 get
 (
 )
-=
+!
 =
 "
-nightly
+default
 "
 )
 {
