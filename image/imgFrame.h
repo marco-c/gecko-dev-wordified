@@ -2027,6 +2027,9 @@ mHasNoAlpha
 bool
 mAborted
 ;
+bool
+mOptimizable
+;
 /
 /
 /
@@ -2458,9 +2461,6 @@ mSinglePixel
 ;
 bool
 mCompositingFailed
-;
-bool
-mOptimizable
 ;
 }
 ;
