@@ -17286,10 +17286,8 @@ w
 {
 masm
 .
-blendps
+vblendps
 (
-rhs
-out
 masm
 .
 blendpsMask
@@ -17311,6 +17309,9 @@ w
 =
 4
 )
+rhs
+lhs
+out
 )
 ;
 return
