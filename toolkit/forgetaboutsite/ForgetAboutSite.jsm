@@ -723,7 +723,6 @@ false
 /
 EME
 let
-(
 mps
 =
 Cc
@@ -751,8 +750,7 @@ Ci
 .
 mozIGeckoMediaPluginService
 )
-)
-{
+;
 mps
 .
 forgetThisSite
@@ -760,7 +758,6 @@ forgetThisSite
 aDomain
 )
 ;
-}
 /
 /
 Plugin
@@ -912,6 +909,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
