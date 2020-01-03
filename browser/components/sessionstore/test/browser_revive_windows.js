@@ -524,15 +524,6 @@ tab
 linkedBrowser
 )
 ;
-TabState
-.
-flush
-(
-tab
-.
-linkedBrowser
-)
-;
 registerCleanupFunction
 (
 (
