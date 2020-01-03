@@ -194,6 +194,7 @@ Close
 )
 ;
 }
+explicit
 operator
 bool
 (
