@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -191,7 +192,8 @@ Path
 .
 profileDir
 ;
-let
+this
+.
 ExtensionStorage
 =
 {

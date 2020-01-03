@@ -61,7 +61,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -1373,7 +1374,8 @@ undefined
 }
 }
 ;
-let
+this
+.
 ExtensionManagement
 =
 {
