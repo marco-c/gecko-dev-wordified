@@ -80273,8 +80273,14 @@ IsEmpty
 )
 )
 {
+RootedDictionary
+<
 ProfileTimelineStackFrame
+>
 stackFrame
+(
+aCx
+)
 ;
 stackFrame
 .
