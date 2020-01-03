@@ -10861,7 +10861,7 @@ WidgetCompositionEvent
 compositionStart
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 mWidget
 )
 ;
@@ -10875,7 +10875,7 @@ compositionStart
 ;
 /
 /
-NS_COMPOSITION_START
+eCompositionStart
 always
 causes
 NOTIFY_IME_OF_COMPOSITION_UPDATE

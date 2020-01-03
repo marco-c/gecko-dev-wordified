@@ -2708,7 +2708,7 @@ aCompositionEvent
 mMessage
 =
 =
-NS_COMPOSITION_START
+eCompositionStart
 )
 {
 nsCOMPtr
@@ -3850,14 +3850,14 @@ mEventMessage
 )
 {
 case
-NS_COMPOSITION_START
+eCompositionStart
 :
 {
 WidgetCompositionEvent
 compStart
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 widget
 )
 ;

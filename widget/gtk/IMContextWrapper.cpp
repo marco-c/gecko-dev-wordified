@@ -5485,7 +5485,7 @@ we
 '
 re
 dispatching
-NS_COMPOSITION_START
+eCompositionStart
 /
 /
 we
@@ -7773,7 +7773,7 @@ WidgetCompositionEvent
 compEvent
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 mLastFocusedWindow
 )
 ;

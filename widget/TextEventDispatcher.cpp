@@ -1115,7 +1115,7 @@ WidgetCompositionEvent
 compositionStartEvent
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 mWidget
 )
 ;

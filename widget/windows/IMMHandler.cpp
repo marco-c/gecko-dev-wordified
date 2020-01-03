@@ -7995,7 +7995,7 @@ WidgetCompositionEvent
 event
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 aWindow
 )
 ;

@@ -29572,7 +29572,7 @@ return
 false
 ;
 case
-NS_COMPOSITION_START
+eCompositionStart
 :
 case
 NS_COMPOSITION_END

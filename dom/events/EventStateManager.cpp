@@ -4681,7 +4681,7 @@ AsContentCommandEvent
 break
 ;
 case
-NS_COMPOSITION_START
+eCompositionStart
 :
 if
 (

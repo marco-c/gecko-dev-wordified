@@ -2926,7 +2926,7 @@ aEvent
 /
 compositionstart
 case
-NS_COMPOSITION_START
+eCompositionStart
 :
 return
 HandleStartComposition
