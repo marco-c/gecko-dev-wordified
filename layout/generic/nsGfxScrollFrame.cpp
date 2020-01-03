@@ -31556,7 +31556,7 @@ convert
 to
 pixels
 int32_t
-pizelSize
+pixelSize
 =
 nsPresContext
 :
@@ -31583,7 +31583,7 @@ newValue
 .
 AppendInt
 (
-pizelSize
+pixelSize
 )
 ;
 if
