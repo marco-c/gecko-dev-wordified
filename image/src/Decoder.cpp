@@ -813,6 +813,10 @@ aStrategy
 )
 ;
 }
+mNeedsToFlushData
+=
+false
+;
 }
 }
 /
