@@ -1131,12 +1131,12 @@ addons
 const
 SNIPPETS_UPDATE_INTERVAL_MS
 =
-86400000
+14400000
 ;
 /
 /
-1
-Day
+4
+hours
 .
 /
 /
