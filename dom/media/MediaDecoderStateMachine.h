@@ -3450,7 +3450,7 @@ machine
 thread
 .
 void
-AdvanceFrame
+UpdateRenderedVideoFrames
 (
 )
 ;

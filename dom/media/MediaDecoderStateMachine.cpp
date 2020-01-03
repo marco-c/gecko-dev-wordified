@@ -15282,7 +15282,7 @@ MaybeStartPlayback
 (
 )
 ;
-AdvanceFrame
+UpdateRenderedVideoFrames
 (
 )
 ;
@@ -15874,7 +15874,7 @@ MaybeStartPlayback
 (
 )
 ;
-AdvanceFrame
+UpdateRenderedVideoFrames
 (
 )
 ;
@@ -17119,7 +17119,7 @@ void
 MediaDecoderStateMachine
 :
 :
-AdvanceFrame
+UpdateRenderedVideoFrames
 (
 )
 {
