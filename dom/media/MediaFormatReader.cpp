@@ -8602,10 +8602,9 @@ GetReentrantMonitor
 ;
 NS_ENSURE_TRUE
 (
-mStartTime
->
-=
-0
+HaveStartTime
+(
+)
 media
 :
 :
@@ -8616,7 +8615,9 @@ TimeIntervals
 ;
 startTime
 =
-mStartTime
+StartTime
+(
+)
 ;
 }
 /
