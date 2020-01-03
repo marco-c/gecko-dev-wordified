@@ -334,11 +334,11 @@ menu_newNonRemoteWindow
 label
 =
 "
-New
-Non
--
-e10s
-Window
+&
+newNonRemoteWindow
+.
+label
+;
 "
 hidden
 =
