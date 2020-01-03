@@ -32713,6 +32713,16 @@ enable
 \
 Register
 (
+ION_FORCE_IC
+"
+ion
+.
+forceinlineCaches
+"
+)
+\
+Register
+(
 ION_ENABLE
 "
 ion
