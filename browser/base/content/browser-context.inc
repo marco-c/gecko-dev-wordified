@@ -3820,7 +3820,7 @@ browser
 observes
 =
 "
-canViewSource
+isImage
 "
 /
 >
