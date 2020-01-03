@@ -2939,6 +2939,15 @@ MIRType
 type
 )
 {
+JS_ASSERT
+(
+!
+IsSimdType
+(
+type
+)
+)
+;
 MConstant
 *
 constant
