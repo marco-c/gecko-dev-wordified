@@ -367,6 +367,14 @@ endFunction
 (
 )
 ;
+void
+spewDebuggerGraph
+(
+MIRGraph
+*
+mir
+)
+;
 }
 ;
 }
