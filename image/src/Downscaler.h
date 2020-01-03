@@ -117,10 +117,10 @@ implementation
 /
 #
 ifndef
-MOZILLA_IMAGELIB_DOWNSCALER_H_
+mozilla_image_src_Downscaler_h
 #
 define
-MOZILLA_IMAGELIB_DOWNSCALER_H_
+mozilla_image_src_Downscaler_h
 #
 include
 "
@@ -824,8 +824,11 @@ namespace
 mozilla
 #
 endif
+/
+/
+MOZ_ENABLE_SKIA
 #
 endif
 /
 /
-MOZILLA_IMAGELIB_DOWNSCALER_H_
+mozilla_image_src_Downscaler_h
