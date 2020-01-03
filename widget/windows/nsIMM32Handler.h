@@ -794,6 +794,12 @@ aWindow
 ;
 static
 bool
+IsJapanist2003Active
+(
+)
+;
+static
+bool
 ShouldDrawCompositionStringOurselves
 (
 )
