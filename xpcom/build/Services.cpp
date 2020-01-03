@@ -232,6 +232,13 @@ nsIServiceWorkerManager
 .
 h
 "
+#
+include
+"
+nsIAsyncShutdown
+.
+h
+"
 using
 namespace
 mozilla
