@@ -1694,6 +1694,7 @@ PromiseNativeHandler
 {
 public
 :
+NS_DECL_ISUPPORTS
 explicit
 CacheCreator
 (
@@ -1939,6 +1940,10 @@ mPrivateBrowsing
 ;
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+CacheCreator
+)
 class
 CacheScriptLoader
 final
@@ -1950,7 +1955,7 @@ nsIStreamLoaderObserver
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_ISUPPORTS
 NS_DECL_NSISTREAMLOADEROBSERVER
 CacheScriptLoader
 (
@@ -2144,6 +2149,7 @@ PromiseNativeHandler
 {
 public
 :
+NS_DECL_ISUPPORTS
 CachePromiseHandler
 (
 ScriptLoaderRunnable
@@ -2248,6 +2254,10 @@ mIndex
 ;
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+CachePromiseHandler
+)
 class
 ScriptLoaderRunnable
 final

@@ -1448,6 +1448,7 @@ PromiseNativeHandler
 {
 public
 :
+NS_DECL_ISUPPORTS
 explicit
 CompareManager
 (
@@ -3007,6 +3008,10 @@ mInCache
 ;
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+CompareManager
+)
 NS_IMETHODIMP
 CompareNetwork
 :

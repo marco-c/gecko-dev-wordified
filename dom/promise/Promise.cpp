@@ -375,10 +375,6 @@ using
 namespace
 workers
 ;
-NS_IMPL_ISUPPORTS0
-(
-PromiseNativeHandler
-)
 /
 /
 This
@@ -5249,10 +5245,11 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 AllResolveHandler
 )
-NS_INTERFACE_MAP_END_INHERITING
+NS_INTERFACE_MAP_ENTRY
 (
-PromiseNativeHandler
+nsISupports
 )
+NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTION
 (
 AllResolveHandler
@@ -9004,6 +9001,10 @@ forget
 )
 ;
 }
+NS_IMPL_ISUPPORTS0
+(
+PromiseWorkerProxy
+)
 PromiseWorkerProxy
 :
 :

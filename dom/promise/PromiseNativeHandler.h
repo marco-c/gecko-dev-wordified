@@ -197,15 +197,6 @@ PromiseNativeHandler
 }
 public
 :
-/
-/
-NS_IMPL_ISUPPORTS0
-in
-Promise
-.
-cpp
-.
-NS_DECL_ISUPPORTS
 virtual
 void
 ResolvedCallback

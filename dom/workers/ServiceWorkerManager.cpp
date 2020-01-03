@@ -8276,6 +8276,7 @@ KeepAliveHandler
 }
 public
 :
+NS_DECL_ISUPPORTS
 explicit
 KeepAliveHandler
 (
@@ -8388,6 +8389,10 @@ endif
 }
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+KeepAliveHandler
+)
 /
 /
 Returns
@@ -8632,6 +8637,7 @@ LifecycleEventPromiseHandler
 }
 public
 :
+NS_DECL_ISUPPORTS
 LifecycleEventPromiseHandler
 (
 const
@@ -8946,6 +8952,10 @@ aer
 }
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+LifecycleEventPromiseHandler
+)
 bool
 LifecycleEventWorkerRunnable
 :
