@@ -912,7 +912,7 @@ with
 null
 elements
 .
-void
+bool
 ProcessArguments
 (
 JSContext
@@ -1074,7 +1074,7 @@ JS
 :
 Value
 .
-void
+bool
 ArgumentsToValueList
 (
 const
