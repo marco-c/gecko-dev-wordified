@@ -569,6 +569,11 @@ FromCharCode
 \
 _
 (
+SinCos
+)
+\
+_
+(
 StringSplit
 )
 \

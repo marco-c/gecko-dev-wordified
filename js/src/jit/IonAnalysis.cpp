@@ -16230,6 +16230,9 @@ RSimdBox
 :
 :
 recover
+case
+MIRType_SinCosDouble
+:
 return
 false
 ;

@@ -2591,6 +2591,7 @@ floats
 FPU
 )
 .
+SINCOS
 #
 ifdef
 JS_NUNBOX32
@@ -3466,6 +3467,15 @@ BOX
 ;
 #
 endif
+case
+MIRType_SinCosDouble
+:
+return
+LDefinition
+:
+:
+SINCOS
+;
 case
 MIRType_Slots
 :

@@ -1848,6 +1848,14 @@ lir
 )
 ;
 void
+visitSinCos
+(
+LSinCos
+*
+lir
+)
+;
+void
 visitStringSplit
 (
 LStringSplit

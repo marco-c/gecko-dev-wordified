@@ -628,6 +628,12 @@ case
 LDefinition
 :
 :
+SINCOS
+:
+case
+LDefinition
+:
+:
 FLOAT32X4
 :
 case
