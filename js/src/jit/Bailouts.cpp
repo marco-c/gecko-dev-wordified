@@ -1530,6 +1530,9 @@ excInfo
 bool
 *
 overrecursed
+bool
+*
+poppedLastSPSFrameOut
 )
 {
 /
@@ -1638,11 +1641,6 @@ bailoutInfo
 =
 nullptr
 ;
-bool
-poppedLastSPSFrame
-=
-false
-;
 uint32_t
 retval
 =
@@ -1660,8 +1658,7 @@ true
 bailoutInfo
 &
 excInfo
-&
-poppedLastSPSFrame
+poppedLastSPSFrameOut
 )
 ;
 if
