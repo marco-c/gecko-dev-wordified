@@ -1752,6 +1752,14 @@ mIsWatchingFile
 bool
 mAllowedToWatchFile
 ;
+bool
+mIsDefaultLocation
+;
+void
+DispatchDefaultChangeEvent
+(
+)
+;
 nsresult
 Notify
 (
