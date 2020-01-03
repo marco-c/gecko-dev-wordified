@@ -5594,8 +5594,13 @@ mRequest
 ;
 /
 /
-Proxy
-Media
+Asynchronous
+Potentially
+-
+Cross
+-
+Thread
+Method
 Calls
 .
 /
@@ -5642,7 +5647,7 @@ Then
 )
 immediately
 .
-ProxyMediaCall
+InvokeAsync
 dispatches
 /
 /
@@ -6384,7 +6389,7 @@ nsRefPtr
 <
 PromiseType
 >
-ProxyMediaCall
+InvokeAsync
 (
 AbstractThread
 *
@@ -6459,7 +6464,7 @@ nsRefPtr
 <
 PromiseType
 >
-ProxyMediaCall
+InvokeAsync
 (
 AbstractThread
 *
@@ -6541,7 +6546,7 @@ nsRefPtr
 <
 PromiseType
 >
-ProxyMediaCall
+InvokeAsync
 (
 AbstractThread
 *
@@ -6630,7 +6635,7 @@ nsRefPtr
 <
 PromiseType
 >
-ProxyMediaCall
+InvokeAsync
 (
 AbstractThread
 *

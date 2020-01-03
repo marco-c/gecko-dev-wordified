@@ -281,7 +281,7 @@ Init
 )
 {
 return
-ProxyMediaCall
+InvokeAsync
 (
 GetTaskQueue
 (
@@ -1560,7 +1560,7 @@ BreackCycle
 )
 ;
 return
-ProxyMediaCall
+InvokeAsync
 (
 mParent
 -
@@ -1608,7 +1608,7 @@ BreackCycle
 )
 ;
 return
-ProxyMediaCall
+InvokeAsync
 (
 mParent
 -
@@ -1786,7 +1786,7 @@ aTimeThreshold
 )
 {
 return
-ProxyMediaCall
+InvokeAsync
 (
 mParent
 -

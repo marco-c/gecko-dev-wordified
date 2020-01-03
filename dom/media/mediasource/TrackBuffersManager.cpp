@@ -1012,7 +1012,7 @@ MSE_DEBUG
 )
 ;
 return
-ProxyMediaCall
+InvokeAsync
 (
 GetTaskQueue
 (
@@ -1433,7 +1433,7 @@ mEnded
 false
 ;
 return
-ProxyMediaCall
+InvokeAsync
 (
 GetTaskQueue
 (
