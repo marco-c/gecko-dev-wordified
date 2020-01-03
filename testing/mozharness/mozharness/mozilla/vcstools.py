@@ -347,6 +347,20 @@ which
 vcs_tool
 )
                 
+if
+not
+file_path
+:
+                    
+file_path
+=
+self
+.
+query_exe
+(
+vcs_tool
+)
+                
 #
 If
 the
