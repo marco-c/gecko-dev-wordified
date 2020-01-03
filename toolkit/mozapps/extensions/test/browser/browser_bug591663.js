@@ -411,9 +411,7 @@ is
 (
 list
 .
-childNodes
-.
-length
+itemCount
 aItem
 ?
 1
