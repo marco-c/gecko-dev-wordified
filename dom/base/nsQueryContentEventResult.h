@@ -184,6 +184,9 @@ mEventID
 uint32_t
 mOffset
 ;
+uint32_t
+mTentativeCaretOffset
+;
 nsString
 mString
 ;
