@@ -6291,16 +6291,9 @@ selectNodeContents
 (
 this
 .
-_targetElement
-.
-QueryInterface
+_getEditor
 (
-Ci
-.
-nsIDOMNSEditableElement
 )
-.
-editor
 .
 rootElement
 )
