@@ -3948,6 +3948,12 @@ exit
 1
 )
         
+if
+paths
+or
+tags
+:
+            
 driver
 =
 self
@@ -3956,7 +3962,7 @@ _spawn
 (
 BuildDriver
 )
-        
+            
 driver
 .
 install_tests
