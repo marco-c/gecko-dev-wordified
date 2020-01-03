@@ -2219,6 +2219,9 @@ load
 "
 )
 ;
+delete
+pluginLib
+;
 return
 NS_ERROR_FAILURE
 ;
