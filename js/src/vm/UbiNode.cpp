@@ -2035,7 +2035,15 @@ ObjectGroup
 >
 ;
 }
+/
+/
+namespace
+ubi
 }
+/
+/
+namespace
+JS
 namespace
 JS
 {

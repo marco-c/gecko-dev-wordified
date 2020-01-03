@@ -971,6 +971,14 @@ IMAGE_OVERLAY
 #
 endif
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

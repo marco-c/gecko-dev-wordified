@@ -125,7 +125,15 @@ aLayers
 )
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

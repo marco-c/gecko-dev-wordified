@@ -394,7 +394,6 @@ mRawData
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

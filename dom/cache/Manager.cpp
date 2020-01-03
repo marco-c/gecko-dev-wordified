@@ -1266,7 +1266,6 @@ false
 }
 /
 /
-anonymous
 namespace
 /
 /

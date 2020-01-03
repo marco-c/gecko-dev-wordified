@@ -187,6 +187,10 @@ class
 SVGAnimationElement
 ;
 }
+/
+/
+namespace
+dom
 class
 SVGAnimatedPreserveAspectRatio
 final

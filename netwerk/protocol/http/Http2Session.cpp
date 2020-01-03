@@ -24791,9 +24791,6 @@ ResumeRecv
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

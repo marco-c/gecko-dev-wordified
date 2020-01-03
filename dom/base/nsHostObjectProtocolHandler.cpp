@@ -1921,6 +1921,10 @@ BlobURLsReporter
 nsIMemoryReporter
 )
 }
+/
+/
+namespace
+mozilla
 void
 nsHostObjectProtocolHandler
 :

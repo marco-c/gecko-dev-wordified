@@ -657,6 +657,9 @@ result
 ;
 }
 }
+/
+/
+namespace
 WaveReader
 :
 :

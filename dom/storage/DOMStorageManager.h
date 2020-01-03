@@ -850,14 +850,12 @@ DOMSessionStorageManager
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla
 #
 endif

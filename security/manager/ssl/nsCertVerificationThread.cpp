@@ -177,7 +177,6 @@ mResult
 }
 /
 /
-anonymous
 namespace
 void
 nsCertVerificationJob

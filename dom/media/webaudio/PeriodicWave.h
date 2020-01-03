@@ -293,6 +293,14 @@ mLength
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

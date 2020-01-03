@@ -315,6 +315,10 @@ SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 2
 ;
 }
+/
+/
+namespace
+dom
 class
 SVGAnimatedNumberList
 ;
@@ -352,7 +356,15 @@ class
 Matrix
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 class
 gfxMatrix
 ;

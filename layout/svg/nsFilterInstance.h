@@ -220,7 +220,15 @@ class
 UserSpaceMetrics
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

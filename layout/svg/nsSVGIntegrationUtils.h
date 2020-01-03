@@ -158,6 +158,10 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -165,7 +169,15 @@ class
 LayerManager
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 struct
 nsPoint
 ;

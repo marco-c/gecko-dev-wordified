@@ -341,7 +341,6 @@ bound
 }
 /
 /
-anonymous
 namespace
 MDefinition
 *

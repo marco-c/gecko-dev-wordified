@@ -284,6 +284,10 @@ struct
 StructuredCloneData
 ;
 }
+/
+/
+namespace
+dom
 namespace
 layout
 {
@@ -291,7 +295,15 @@ class
 RenderFrameParent
 ;
 }
+/
+/
+namespace
+layout
 }
+/
+/
+namespace
+mozilla
 #
 if
 defined

@@ -320,6 +320,10 @@ mFlushAnimations
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -74,5 +74,9 @@ eDefaultBehavior
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

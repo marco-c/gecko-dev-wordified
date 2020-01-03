@@ -740,7 +740,6 @@ actor
 }
 /
 /
-anonymous
 namespace
 BluetoothService
 :

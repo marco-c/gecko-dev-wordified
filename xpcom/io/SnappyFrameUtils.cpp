@@ -477,7 +477,6 @@ aValue
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

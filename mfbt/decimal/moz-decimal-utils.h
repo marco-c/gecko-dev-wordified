@@ -739,10 +739,6 @@ mStr
 /
 /
 namespace
-moz
--
-decimal
--
-utils
+moz_decimal_utils
 #
 endif

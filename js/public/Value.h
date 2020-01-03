@@ -8331,6 +8331,10 @@ next
 )
 ;
 }
+/
+/
+namespace
+JS
 namespace
 js
 {
@@ -11369,6 +11373,10 @@ HandleValue
 FalseHandleValue
 ;
 }
+/
+/
+namespace
+JS
 #
 undef
 JS_VALUE_IS_CONSTEXPR

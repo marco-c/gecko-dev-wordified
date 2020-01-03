@@ -138,6 +138,10 @@ gRegisteredBool
 false
 ;
 }
+/
+/
+namespace
+NeckoCommonInternal
 }
 /
 /

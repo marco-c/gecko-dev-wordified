@@ -511,6 +511,14 @@ mStartCalled
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

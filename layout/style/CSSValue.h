@@ -153,6 +153,10 @@ class
 ErrorResult
 ;
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {
@@ -268,6 +272,14 @@ AsPrimitiveValue
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -308,6 +308,10 @@ class
 TimeStamp
 ;
 }
+/
+/
+namespace
+mozilla
 extern
 mozilla
 :
@@ -2332,6 +2336,7 @@ mHandle
 }
 /
 /
+namespace
 mozilla
 inline
 PseudoStack

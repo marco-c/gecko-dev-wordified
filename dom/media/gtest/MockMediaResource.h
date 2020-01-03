@@ -512,5 +512,9 @@ mContentType
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

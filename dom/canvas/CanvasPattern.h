@@ -129,6 +129,10 @@ class
 SourceSurface
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 dom
 {
@@ -318,7 +322,15 @@ mRepeat
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

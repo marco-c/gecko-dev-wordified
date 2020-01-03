@@ -4587,7 +4587,15 @@ sDPI
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

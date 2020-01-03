@@ -196,6 +196,10 @@ OriginAttributes
 }
 /
 /
+namespace
+mozilla
+/
+/
 /
 /
 /

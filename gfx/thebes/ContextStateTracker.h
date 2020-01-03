@@ -137,6 +137,10 @@ GLContext
 ;
 }
 /
+/
+namespace
+gl
+/
 *
 *
 *
@@ -425,5 +429,9 @@ aGL
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

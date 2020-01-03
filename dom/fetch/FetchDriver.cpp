@@ -4371,7 +4371,6 @@ nsIHttpHeaderVisitor
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 FetchDriver

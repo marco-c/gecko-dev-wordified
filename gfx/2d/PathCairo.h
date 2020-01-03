@@ -546,7 +546,15 @@ mCurrentPoint
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

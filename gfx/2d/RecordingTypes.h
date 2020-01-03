@@ -255,7 +255,15 @@ aElement
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

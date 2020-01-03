@@ -1178,10 +1178,12 @@ mLocked
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

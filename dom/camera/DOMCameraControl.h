@@ -219,6 +219,10 @@ class
 Optional
 ;
 }
+/
+/
+namespace
+dom
 class
 ErrorResult
 ;

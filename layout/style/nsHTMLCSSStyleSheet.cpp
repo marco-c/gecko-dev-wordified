@@ -294,7 +294,6 @@ PL_DHASH_REMOVE
 }
 /
 /
-anonymous
 namespace
 nsHTMLCSSStyleSheet
 :

@@ -9130,6 +9130,9 @@ height
 }
 ;
 }
+/
+/
+namespace
 already_AddRefed
 <
 DataSourceSurface

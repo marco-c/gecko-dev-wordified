@@ -225,6 +225,10 @@ FramePropertyTable
 }
 /
 /
+namespace
+mozilla
+/
+/
 Some
 macros
 for

@@ -1837,12 +1837,8 @@ mBlocked
 ;
 }
 /
-*
-namespace
-{
-}
-*
 /
+namespace
 MessageChannel
 :
 :
@@ -12315,8 +12311,10 @@ CancelCurrentTransaction
 }
 /
 /
+namespace
 ipc
 }
 /
 /
+namespace
 mozilla

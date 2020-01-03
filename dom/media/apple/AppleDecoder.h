@@ -103,6 +103,10 @@ override
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -318,8 +318,10 @@ NS_OK
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla

@@ -212,6 +212,10 @@ class
 LogicalMargin
 ;
 }
+/
+/
+namespace
+mozilla
 struct
 nsTableReflowState
 ;

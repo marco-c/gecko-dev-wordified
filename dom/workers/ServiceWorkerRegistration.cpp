@@ -2385,7 +2385,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 void
 ServiceWorkerRegistrationMainThread
@@ -4692,10 +4691,10 @@ cx
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

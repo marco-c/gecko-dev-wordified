@@ -627,6 +627,14 @@ mDocumentURI
 }
 ;
 }
+/
+/
+namespace
+docshell
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -141,7 +141,15 @@ class
 EventTarget
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 /
 /

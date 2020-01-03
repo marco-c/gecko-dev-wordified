@@ -145,6 +145,10 @@ class
 GLContext
 ;
 }
+/
+/
+namespace
+gl
 class
 WebGLFramebuffer
 final

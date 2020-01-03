@@ -1212,7 +1212,6 @@ rval
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

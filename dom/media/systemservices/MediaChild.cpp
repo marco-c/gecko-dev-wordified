@@ -692,4 +692,12 @@ true
 ;
 }
 }
+/
+/
+namespace
+media
 }
+/
+/
+namespace
+mozilla

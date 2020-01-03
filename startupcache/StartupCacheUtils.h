@@ -318,7 +318,15 @@ out
 )
 ;
 }
+/
+/
+namespace
+scache
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

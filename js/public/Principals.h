@@ -153,6 +153,10 @@ struct
 PerformanceGroup
 ;
 }
+/
+/
+namespace
+js
 struct
 JSPrincipals
 {

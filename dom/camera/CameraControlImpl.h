@@ -160,6 +160,10 @@ class
 BlobImpl
 ;
 }
+/
+/
+namespace
+dom
 namespace
 layers
 {
@@ -167,6 +171,10 @@ class
 Image
 ;
 }
+/
+/
+namespace
+layers
 class
 CameraControlImpl
 :

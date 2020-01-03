@@ -5189,3 +5189,7 @@ global
 ;
 }
 }
+/
+/
+namespace
+xpc

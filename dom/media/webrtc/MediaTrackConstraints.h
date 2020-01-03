@@ -649,6 +649,10 @@ aDeviceId
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

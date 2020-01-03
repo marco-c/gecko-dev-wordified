@@ -290,7 +290,15 @@ mGrContext
 }
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 else
 class

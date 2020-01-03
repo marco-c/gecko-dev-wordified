@@ -376,7 +376,6 @@ mFileHelper
 }
 /
 /
-anonymous
 namespace
 FileStreamWrapper
 :

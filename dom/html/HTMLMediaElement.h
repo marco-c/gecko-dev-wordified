@@ -363,7 +363,15 @@ class
 MediaTrack
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsITimer
 ;

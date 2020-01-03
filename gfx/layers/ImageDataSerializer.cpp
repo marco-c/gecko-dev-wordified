@@ -445,7 +445,6 @@ SurfaceBufferInfo
 }
 /
 /
-anonymous
 namespace
 static
 SurfaceBufferInfo

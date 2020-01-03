@@ -625,7 +625,15 @@ JSRuntime
 )
 ;
 }
+/
+/
+namespace
+gc
 }
+/
+/
+namespace
+js
 namespace
 JS
 {

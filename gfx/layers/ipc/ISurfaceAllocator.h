@@ -293,6 +293,10 @@ class
 Shmem
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 gfx
 {
@@ -300,6 +304,10 @@ class
 DataSourceSurface
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -1327,9 +1335,11 @@ sAmount
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 #
 endif

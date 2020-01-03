@@ -168,6 +168,10 @@ gChaosModeCounter
 ;
 }
 /
+/
+namespace
+detail
+/
 *
 *
 *

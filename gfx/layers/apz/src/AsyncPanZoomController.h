@@ -313,6 +313,10 @@ class
 SharedMemoryBasic
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 layers
 {
@@ -8301,7 +8305,15 @@ mAsyncTransformAppliedToContent
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

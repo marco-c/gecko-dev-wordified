@@ -2286,3 +2286,7 @@ amount
 ;
 }
 }
+/
+/
+namespace
+mozilla

@@ -753,8 +753,10 @@ true
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

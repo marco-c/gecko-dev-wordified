@@ -2287,6 +2287,10 @@ CHANNELMODE_MODEEXT_COPY_ORIG_EMPH
 3
 ;
 }
+/
+/
+namespace
+frame_header
 FrameParser
 :
 :
@@ -4708,6 +4712,10 @@ D
 }
 ;
 }
+/
+/
+namespace
+id3_header
 const
 uint8_t
 *

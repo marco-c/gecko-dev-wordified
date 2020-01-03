@@ -263,6 +263,10 @@ class
 FileDescriptor
 ;
 }
+/
+/
+namespace
+ipc
 }
 /
 /

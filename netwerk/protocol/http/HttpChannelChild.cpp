@@ -428,6 +428,9 @@ endif
 }
 /
 /
+namespace
+/
+/
 A
 stream
 listener
@@ -13732,10 +13735,12 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+net
 }
 /
 /
+namespace
 mozilla
-:
-:
-net

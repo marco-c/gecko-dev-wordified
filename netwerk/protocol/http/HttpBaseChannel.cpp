@@ -9959,7 +9959,6 @@ mCookie
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 HttpBaseChannel

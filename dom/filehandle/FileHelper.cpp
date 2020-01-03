@@ -212,7 +212,6 @@ nullptr
 }
 /
 /
-anonymous
 namespace
 FileHelper
 :

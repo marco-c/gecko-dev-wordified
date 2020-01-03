@@ -2283,6 +2283,10 @@ aMallocSizeOf
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

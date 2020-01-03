@@ -1512,4 +1512,12 @@ pixels
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

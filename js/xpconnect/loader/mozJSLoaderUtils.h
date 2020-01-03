@@ -137,7 +137,15 @@ class
 StartupCache
 ;
 }
+/
+/
+namespace
+scache
 }
+/
+/
+namespace
+mozilla
 nsresult
 ReadCachedScript
 (

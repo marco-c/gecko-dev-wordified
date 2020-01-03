@@ -267,7 +267,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 IDBKeyRange
 :

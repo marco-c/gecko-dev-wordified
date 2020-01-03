@@ -212,6 +212,10 @@ class
 Shmem
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 layout
 {
@@ -219,6 +223,10 @@ class
 RenderFrameParent
 ;
 }
+/
+/
+namespace
+layout
 namespace
 layers
 {

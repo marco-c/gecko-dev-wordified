@@ -343,14 +343,12 @@ mDBThreadStartDelayTimer
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla
 #
 endif

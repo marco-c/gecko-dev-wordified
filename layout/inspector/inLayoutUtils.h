@@ -118,6 +118,10 @@ class
 EventStateManager
 ;
 }
+/
+/
+namespace
+mozilla
 class
 inLayoutUtils
 {

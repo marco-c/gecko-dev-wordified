@@ -8070,9 +8070,6 @@ nsIAsyncOutputStream
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

@@ -431,6 +431,9 @@ actor
 }
 }
 }
+/
+/
+namespace
 namespace
 mozilla
 {

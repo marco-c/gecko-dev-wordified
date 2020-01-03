@@ -3561,6 +3561,10 @@ mShutdownGrip
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

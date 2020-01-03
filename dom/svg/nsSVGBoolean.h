@@ -172,7 +172,15 @@ class
 SVGAnimatedBoolean
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsSVGBoolean
 {

@@ -782,6 +782,9 @@ end
 CPUID
 declarations
 }
+/
+/
+namespace
 namespace
 mozilla
 {

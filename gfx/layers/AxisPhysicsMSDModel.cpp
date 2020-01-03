@@ -698,4 +698,12 @@ kFinishVelocity
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

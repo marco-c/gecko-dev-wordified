@@ -4861,7 +4861,6 @@ sNestedTabChildMap
 }
 /
 /
-anonymous
 namespace
 already_AddRefed
 <

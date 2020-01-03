@@ -177,7 +177,15 @@ class
 MemoryReport
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsITimer
 ;

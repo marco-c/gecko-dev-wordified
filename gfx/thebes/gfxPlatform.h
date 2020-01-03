@@ -259,6 +259,10 @@ class
 SkiaGLGlue
 ;
 }
+/
+/
+namespace
+gl
 namespace
 gfx
 {
@@ -299,7 +303,15 @@ b
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 define
 MOZ_PERFORMANCE_WARNING

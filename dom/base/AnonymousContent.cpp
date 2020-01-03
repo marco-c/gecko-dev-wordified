@@ -695,10 +695,10 @@ aReflector
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

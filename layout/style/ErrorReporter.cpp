@@ -371,6 +371,9 @@ mPending
 }
 ;
 }
+/
+/
+namespace
 static
 bool
 sReportErrors

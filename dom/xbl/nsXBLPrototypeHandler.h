@@ -222,7 +222,15 @@ class
 EventTarget
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_HANDLER_TYPE_XBL_JS

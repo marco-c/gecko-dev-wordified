@@ -158,6 +158,14 @@ DocumentRendererChild
 }
 ;
 }
+/
+/
+namespace
+ipc
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -340,3 +340,7 @@ forget
 ;
 }
 }
+/
+/
+namespace
+mozilla

@@ -207,7 +207,6 @@ NS_MOZICONURI_CID
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

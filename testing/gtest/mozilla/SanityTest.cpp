@@ -174,6 +174,9 @@ void
 }
 ;
 }
+/
+/
+namespace
 TEST
 (
 MozillaGMockSanity

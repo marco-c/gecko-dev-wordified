@@ -2796,8 +2796,10 @@ SendPendingAsyncMessages
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla

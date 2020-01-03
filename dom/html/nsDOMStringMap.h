@@ -183,6 +183,10 @@ class
 ErrorResult
 ;
 }
+/
+/
+namespace
+mozilla
 class
 nsDOMStringMap
 :

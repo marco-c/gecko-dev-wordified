@@ -824,5 +824,9 @@ true
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif

@@ -157,6 +157,10 @@ pixels
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

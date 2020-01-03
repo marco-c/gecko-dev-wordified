@@ -175,7 +175,15 @@ class
 TimeIntervals
 ;
 }
+/
+/
+namespace
+media
 }
+/
+/
+namespace
+mozilla
 /
 /
 CopyChooser

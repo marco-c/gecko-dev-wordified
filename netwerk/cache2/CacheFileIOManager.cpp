@@ -14309,7 +14309,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 nsresult
 CacheFileIOManager
@@ -20822,9 +20821,6 @@ namespace
 {
 /
 /
-anon
-/
-/
 A
 helper
 class
@@ -21194,7 +21190,7 @@ mSize
 }
 /
 /
-anon
+namespace
 size_t
 CacheFileIOManager
 :
@@ -21484,8 +21480,10 @@ mallocSizeOf
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

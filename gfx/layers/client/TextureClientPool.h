@@ -753,7 +753,15 @@ mSurfaceAllocator
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

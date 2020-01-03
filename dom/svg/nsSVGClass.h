@@ -177,7 +177,15 @@ class
 SVGAnimatedString
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsSVGClass
 {

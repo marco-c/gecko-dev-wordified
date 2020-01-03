@@ -786,7 +786,6 @@ mCharSet
 }
 /
 /
-anonymous
 namespace
 nscolor
 nsPresContext

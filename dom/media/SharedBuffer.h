@@ -494,6 +494,10 @@ SharedBuffer
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

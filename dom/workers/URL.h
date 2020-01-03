@@ -178,7 +178,15 @@ struct
 objectURLOptions
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 BEGIN_WORKERS_NAMESPACE
 class
 URLProxy

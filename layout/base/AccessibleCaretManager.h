@@ -222,6 +222,10 @@ class
 Selection
 ;
 }
+/
+/
+namespace
+dom
 class
 AccessibleCaret
 ;

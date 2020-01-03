@@ -193,6 +193,10 @@ class
 Thread
 ;
 }
+/
+/
+namespace
+base
 namespace
 mozilla
 {

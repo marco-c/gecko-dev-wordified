@@ -1731,3 +1731,7 @@ aWasInherited
 }
 }
 }
+/
+/
+namespace
+mozilla

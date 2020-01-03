@@ -1797,3 +1797,7 @@ class
 ChromeObjectWrapperBase
 ;
 }
+/
+/
+namespace
+xpc

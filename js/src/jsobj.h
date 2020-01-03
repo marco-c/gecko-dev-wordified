@@ -270,6 +270,10 @@ struct
 ClassInfo
 ;
 }
+/
+/
+namespace
+JS
 namespace
 js
 {
@@ -293,6 +297,10 @@ class
 RelocationOverlay
 ;
 }
+/
+/
+namespace
+gc
 inline
 JSObject
 *
@@ -8824,6 +8832,10 @@ objp
 )
 ;
 }
+/
+/
+namespace
+js
 namespace
 js
 {

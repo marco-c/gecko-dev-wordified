@@ -194,6 +194,10 @@ class
 ImageContainer
 ;
 }
+/
+/
+namespace
+layers
 class
 AppleVDADecoder
 :

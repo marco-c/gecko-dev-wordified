@@ -282,7 +282,6 @@ aBodyFileOut
 }
 /
 /
-anonymous
 namespace
 /
 /
@@ -1939,7 +1938,6 @@ rv
 }
 /
 /
-anonymous
 namespace
 nsresult
 BodyDeleteOrphanedFiles
@@ -2792,7 +2790,6 @@ rv
 }
 /
 /
-anonymous
 namespace
 nsresult
 CreateMarkerFile

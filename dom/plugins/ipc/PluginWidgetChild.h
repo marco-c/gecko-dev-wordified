@@ -83,6 +83,10 @@ class
 PluginWidgetProxy
 ;
 }
+/
+/
+namespace
+widget
 namespace
 plugins
 {

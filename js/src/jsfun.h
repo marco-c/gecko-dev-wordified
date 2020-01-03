@@ -155,6 +155,10 @@ JSNative
 Native
 ;
 }
+/
+/
+namespace
+js
 struct
 JSAtomState
 ;

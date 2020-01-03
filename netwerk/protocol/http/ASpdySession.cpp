@@ -1079,9 +1079,6 @@ rv
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

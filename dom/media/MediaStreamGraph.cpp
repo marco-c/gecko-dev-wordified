@@ -4173,6 +4173,9 @@ IN_MUTED_CYCLE
 1
 ;
 }
+/
+/
+namespace
 void
 MediaStreamGraphImpl
 :
@@ -11967,6 +11970,9 @@ NS_DECL_NSIOBSERVER
 }
 ;
 }
+/
+/
+namespace
 void
 MediaStreamGraphImpl
 :
@@ -19127,7 +19133,6 @@ PL_DHASH_NEXT
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 MediaStreamGraphShutdownObserver
@@ -22369,3 +22374,7 @@ SetStreamOrderDirty
 ;
 }
 }
+/
+/
+namespace
+mozilla

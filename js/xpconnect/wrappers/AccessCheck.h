@@ -812,6 +812,10 @@ false
 }
 ;
 }
+/
+/
+namespace
+xpc
 #
 endif
 /

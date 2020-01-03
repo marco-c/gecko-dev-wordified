@@ -3600,9 +3600,6 @@ nsISpeculativeConnectionOverrider
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

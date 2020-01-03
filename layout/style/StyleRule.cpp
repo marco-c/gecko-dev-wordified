@@ -6142,7 +6142,15 @@ class
 DOMCSSStyleRule
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 class
 DOMCSSDeclarationImpl
 :

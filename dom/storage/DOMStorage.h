@@ -816,14 +816,12 @@ aNewValue
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla
 #
 endif

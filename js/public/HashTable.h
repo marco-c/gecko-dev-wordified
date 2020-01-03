@@ -259,6 +259,10 @@ HashTable
 ;
 }
 /
+/
+namespace
+detail
+/
 *
 *
 *

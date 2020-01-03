@@ -714,7 +714,15 @@ ShutdownTileCache
 )
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

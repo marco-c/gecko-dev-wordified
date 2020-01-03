@@ -335,6 +335,10 @@ class
 PCrashReporterChild
 ;
 }
+/
+/
+namespace
+dom
 namespace
 plugins
 {

@@ -216,6 +216,10 @@ name
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

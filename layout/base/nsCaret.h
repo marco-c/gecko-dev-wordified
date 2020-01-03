@@ -219,6 +219,10 @@ class
 Selection
 ;
 }
+/
+/
+namespace
+dom
 namespace
 gfx
 {
@@ -226,7 +230,15 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 /
 /
 -

@@ -27459,9 +27459,6 @@ return
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

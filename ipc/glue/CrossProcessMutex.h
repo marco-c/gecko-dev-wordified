@@ -172,6 +172,10 @@ ParamTraits
 }
 /
 /
+namespace
+IPC
+/
+/
 /
 /
 Provides
@@ -670,5 +674,9 @@ CrossProcessMutex
 CrossProcessMutexAutoUnlock
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

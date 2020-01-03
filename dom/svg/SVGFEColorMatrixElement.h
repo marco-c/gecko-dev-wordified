@@ -465,12 +465,12 @@ sNumberListInfo
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla
 #
 endif
 /

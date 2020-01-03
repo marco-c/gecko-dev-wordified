@@ -1079,8 +1079,10 @@ NS_OK
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

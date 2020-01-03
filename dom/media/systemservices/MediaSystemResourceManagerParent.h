@@ -285,12 +285,12 @@ mResourceRequests
 }
 /
 /
-namespatce
+namespace
 media
 }
 /
 /
-namespatce
+namespace
 mozilla
 #
 endif

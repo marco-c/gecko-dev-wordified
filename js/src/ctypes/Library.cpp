@@ -353,6 +353,10 @@ vp
 ;
 }
 /
+/
+namespace
+Library
+/
 *
 *
 *
@@ -2540,4 +2544,12 @@ true
 ;
 }
 }
+/
+/
+namespace
+ctypes
 }
+/
+/
+namespace
+js

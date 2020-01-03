@@ -1327,4 +1327,12 @@ mDelay
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

@@ -249,6 +249,10 @@ LayersPacket
 ;
 }
 /
+/
+namespace
+layerscope
+/
 *
 *
 *
@@ -1439,7 +1443,15 @@ mBackgroundColor
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

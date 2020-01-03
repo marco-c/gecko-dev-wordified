@@ -245,7 +245,15 @@ class
 ImageURL
 ;
 }
+/
+/
+namespace
+image
 }
+/
+/
+namespace
+mozilla
 class
 imgCacheEntry
 {

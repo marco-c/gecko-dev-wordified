@@ -401,6 +401,7 @@ true
 }
 /
 /
+namespace
 hal_impl
 }
 /

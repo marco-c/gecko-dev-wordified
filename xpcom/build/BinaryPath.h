@@ -1079,6 +1079,10 @@ NS_OK
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

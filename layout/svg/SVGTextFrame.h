@@ -222,6 +222,10 @@ SVGPathElement
 ;
 }
 /
+/
+namespace
+dom
+/
 *
 *
 *

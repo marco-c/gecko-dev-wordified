@@ -19961,9 +19961,6 @@ ActivateTimeoutTick
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

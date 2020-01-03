@@ -336,5 +336,9 @@ mVorbisBlock
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

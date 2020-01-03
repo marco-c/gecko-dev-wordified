@@ -7728,7 +7728,7 @@ Type
 }
 /
 /
-namespac
+namespace
 detail
 /
 *

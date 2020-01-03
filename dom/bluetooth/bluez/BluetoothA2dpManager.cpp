@@ -224,7 +224,6 @@ false
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 BluetoothA2dpManager

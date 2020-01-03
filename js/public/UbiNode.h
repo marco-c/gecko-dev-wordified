@@ -1648,7 +1648,15 @@ class
 EdgeRange
 ;
 }
+/
+/
+namespace
+ubi
 }
+/
+/
+namespace
+JS
 namespace
 mozilla
 {
@@ -1685,6 +1693,10 @@ EdgeRange
 }
 ;
 }
+/
+/
+namespace
+mozilla
 namespace
 JS
 {

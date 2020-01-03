@@ -743,6 +743,9 @@ out
 ;
 }
 }
+/
+/
+namespace
 HMDInfoCardboard
 :
 :

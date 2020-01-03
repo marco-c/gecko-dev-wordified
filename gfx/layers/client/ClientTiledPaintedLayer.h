@@ -817,10 +817,12 @@ mPaintData
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

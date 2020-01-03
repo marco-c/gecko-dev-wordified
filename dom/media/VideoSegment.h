@@ -161,6 +161,10 @@ class
 Image
 ;
 }
+/
+/
+namespace
+layers
 class
 VideoFrame
 {
@@ -885,6 +889,10 @@ aMallocSizeOf
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

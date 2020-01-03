@@ -1938,7 +1938,7 @@ places
 /
 /
 namespace
-storage
+mozilla
 #
 endif
 /

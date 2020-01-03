@@ -327,12 +327,12 @@ false
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla
 using
 namespace
 mozilla

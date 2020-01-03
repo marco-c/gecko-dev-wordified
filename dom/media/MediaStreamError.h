@@ -213,6 +213,10 @@ class
 MediaStreamError
 ;
 }
+/
+/
+namespace
+dom
 class
 BaseMediaMgrError
 {

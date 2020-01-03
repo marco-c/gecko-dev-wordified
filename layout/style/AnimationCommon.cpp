@@ -2814,14 +2814,9 @@ get
 endif
 }
 /
-*
-end
-sub
--
+/
 namespace
 css
-*
-/
 bool
 AnimationCollection
 :
@@ -5371,3 +5366,7 @@ false
 ;
 }
 }
+/
+/
+namespace
+mozilla

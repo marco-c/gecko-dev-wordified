@@ -464,7 +464,15 @@ class
 EventTarget
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsDocShell
 ;

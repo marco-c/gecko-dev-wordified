@@ -268,9 +268,7 @@ prt
 }
 /
 /
-Anonymous
 namespace
-.
 /
 /
 /

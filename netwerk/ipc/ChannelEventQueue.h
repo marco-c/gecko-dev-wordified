@@ -998,6 +998,14 @@ mEventQueue
 }
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 #
 endif

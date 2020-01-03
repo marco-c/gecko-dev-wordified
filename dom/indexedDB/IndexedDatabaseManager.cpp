@@ -1300,7 +1300,6 @@ aPrefName
 }
 /
 /
-anonymous
 namespace
 IndexedDatabaseManager
 :

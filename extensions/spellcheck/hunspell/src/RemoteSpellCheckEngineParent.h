@@ -170,5 +170,9 @@ mSpellChecker
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

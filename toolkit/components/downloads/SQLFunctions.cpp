@@ -1077,9 +1077,9 @@ NS_OK
 /
 /
 namespace
-mozilla
+downloads
 }
 /
 /
 namespace
-downloads
+mozilla

@@ -189,7 +189,15 @@ struct
 RectCornerRadii
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 class
 ClipExporter
 ;

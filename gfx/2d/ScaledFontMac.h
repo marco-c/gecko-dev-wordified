@@ -313,7 +313,15 @@ CTFontDrawGlyphsPtr
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

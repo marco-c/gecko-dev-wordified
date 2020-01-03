@@ -265,7 +265,10 @@ class
 HeapAccess
 ;
 }
-;
+/
+/
+namespace
+Disassembler
 static
 const
 uint32_t

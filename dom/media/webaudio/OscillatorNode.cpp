@@ -2883,4 +2883,12 @@ MarkInactive
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

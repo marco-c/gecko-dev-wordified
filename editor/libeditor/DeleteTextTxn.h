@@ -392,6 +392,14 @@ mRangeUpdater
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

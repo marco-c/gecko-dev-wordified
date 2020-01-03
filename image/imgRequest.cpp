@@ -3354,9 +3354,6 @@ bMustRevalidate
 }
 namespace
 {
-/
-/
-anon
 already_AddRefed
 <
 nsIApplicationCache
@@ -3458,7 +3455,7 @@ forget
 }
 /
 /
-anon
+namespace
 bool
 imgRequest
 :

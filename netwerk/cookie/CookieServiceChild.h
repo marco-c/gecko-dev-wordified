@@ -276,7 +276,15 @@ mThirdPartySession
 }
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

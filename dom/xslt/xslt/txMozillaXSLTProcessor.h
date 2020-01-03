@@ -225,7 +225,15 @@ class
 GlobalObject
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 bacd8ad0

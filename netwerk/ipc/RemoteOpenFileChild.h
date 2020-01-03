@@ -182,6 +182,10 @@ class
 FileDescriptor
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 net
 {

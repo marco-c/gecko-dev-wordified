@@ -1435,9 +1435,6 @@ Tickler
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

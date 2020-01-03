@@ -146,6 +146,10 @@ class
 BackgroundParentImpl
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 layout
 {
@@ -286,10 +290,12 @@ mVsyncDispatcher
 }
 /
 /
+namespace
 layout
 }
 /
 /
+namespace
 mozilla
 #
 endif

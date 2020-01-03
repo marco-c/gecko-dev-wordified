@@ -169,7 +169,15 @@ class
 StringOrArrayBufferOrArrayBufferView
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {

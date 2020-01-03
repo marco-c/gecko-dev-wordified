@@ -1981,10 +1981,12 @@ true
 ;
 }
 }
+/
+/
+namespace
+net
 }
 /
 /
+namespace
 mozilla
-:
-:
-net

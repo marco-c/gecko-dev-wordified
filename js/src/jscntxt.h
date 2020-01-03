@@ -193,6 +193,10 @@ class
 DebugModeOSRVolatileJitFrameIterator
 ;
 }
+/
+/
+namespace
+jit
 typedef
 HashSet
 <

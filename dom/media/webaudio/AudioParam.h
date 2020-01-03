@@ -1062,6 +1062,14 @@ mNodeStreamPort
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -1380,7 +1380,6 @@ mConnected
 }
 /
 /
-anonymous
 namespace
 void
 HwcComposer2D

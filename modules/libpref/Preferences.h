@@ -219,6 +219,10 @@ class
 PrefSetting
 ;
 }
+/
+/
+namespace
+dom
 class
 Preferences
 final

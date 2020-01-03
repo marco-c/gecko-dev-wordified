@@ -401,7 +401,15 @@ class
 GlyphRenderingOptions
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 struct
 gfxFontStyle
 {

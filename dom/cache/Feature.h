@@ -151,6 +151,10 @@ class
 WorkerPrivate
 ;
 }
+/
+/
+namespace
+workers
 namespace
 dom
 {

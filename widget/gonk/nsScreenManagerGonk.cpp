@@ -612,7 +612,6 @@ enabled
 }
 /
 /
-anonymous
 namespace
 static
 uint32_t

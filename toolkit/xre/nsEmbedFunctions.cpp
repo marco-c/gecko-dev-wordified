@@ -1179,7 +1179,15 @@ sChildProcessType
 GeckoProcessType_Default
 ;
 }
+/
+/
+namespace
+startup
 }
+/
+/
+namespace
+mozilla
 void
 XRE_SetProcessType
 (
@@ -4950,6 +4958,9 @@ tsp
 ;
 }
 }
+/
+/
+namespace
 bool
 XRE_SendTestShellCommand
 (

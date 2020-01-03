@@ -413,5 +413,9 @@ mCallback
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

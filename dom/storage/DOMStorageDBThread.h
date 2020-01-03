@@ -2387,14 +2387,12 @@ ThreadFunc
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla
 #
 endif

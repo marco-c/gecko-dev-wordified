@@ -278,7 +278,15 @@ class
 EventTarget
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsWebBrowser
 ;

@@ -165,7 +165,15 @@ struct
 IgnoreModifierState
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsXBLWindowKeyHandler
 :

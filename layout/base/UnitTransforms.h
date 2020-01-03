@@ -1851,5 +1851,9 @@ As2DPoint
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif

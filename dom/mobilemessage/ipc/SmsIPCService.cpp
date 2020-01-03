@@ -582,7 +582,6 @@ id
 }
 /
 /
-anonymous
 namespace
 NS_IMPL_ISUPPORTS
 (

@@ -199,6 +199,10 @@ LayersPacket
 ;
 }
 /
+/
+namespace
+layerscope
+/
 *
 *
 *
@@ -611,7 +615,15 @@ mEffectiveTransformForBuffer
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

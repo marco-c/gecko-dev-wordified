@@ -873,10 +873,12 @@ delete
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

@@ -8493,4 +8493,12 @@ aStringStream
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

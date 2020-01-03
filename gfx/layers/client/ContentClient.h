@@ -374,6 +374,10 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -2580,6 +2584,14 @@ IMMEDIATE_UPLOAD
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

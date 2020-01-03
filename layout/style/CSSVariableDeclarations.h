@@ -108,6 +108,10 @@ class
 CSSVariableResolver
 ;
 }
+/
+/
+namespace
+mozilla
 struct
 nsRuleData
 ;

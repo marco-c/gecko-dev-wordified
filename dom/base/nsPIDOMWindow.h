@@ -244,6 +244,10 @@ class
 Element
 ;
 }
+/
+/
+namespace
+dom
 namespace
 gfx
 {
@@ -251,7 +255,15 @@ class
 VRHMDInfo
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 /
 /
 Popup

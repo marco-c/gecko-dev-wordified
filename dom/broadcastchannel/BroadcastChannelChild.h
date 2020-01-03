@@ -141,6 +141,10 @@ class
 BackgroundChildImpl
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {
@@ -270,13 +274,13 @@ mActorDestroyed
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

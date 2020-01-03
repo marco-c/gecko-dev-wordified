@@ -1968,10 +1968,12 @@ mainThread
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 define

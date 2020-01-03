@@ -160,6 +160,10 @@ class
 FileDescriptor
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {

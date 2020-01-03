@@ -371,6 +371,9 @@ gIDGenerator
 )
 ;
 }
+/
+/
+namespace
 using
 namespace
 workers
@@ -1054,7 +1057,9 @@ promise
 ;
 }
 }
-;
+/
+/
+namespace
 /
 /
 Runnable

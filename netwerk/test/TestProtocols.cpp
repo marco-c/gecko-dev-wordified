@@ -5958,6 +5958,7 @@ NS_OK
 /
 /
 namespace
+TestProtocols
 using
 namespace
 TestProtocols

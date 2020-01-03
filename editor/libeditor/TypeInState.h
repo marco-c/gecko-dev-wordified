@@ -164,7 +164,15 @@ class
 Selection
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 struct
 PropItem
 {

@@ -369,6 +369,10 @@ aMax
 ;
 }
 }
+/
+/
+namespace
+mozilla
 template
 <
 class

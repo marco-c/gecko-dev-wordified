@@ -161,6 +161,10 @@ aFlags
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -155,6 +155,10 @@ Blob
 ;
 }
 /
+/
+namespace
+dom
+/
 *
 *
 *

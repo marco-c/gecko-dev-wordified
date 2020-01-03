@@ -149,7 +149,15 @@ class
 HTMLCanvasElement
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 /
 -

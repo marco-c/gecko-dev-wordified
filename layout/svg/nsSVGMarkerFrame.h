@@ -173,7 +173,15 @@ class
 SVGSVGElement
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 struct
 nsSVGMark
 ;

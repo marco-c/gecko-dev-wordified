@@ -197,6 +197,10 @@ class
 PaintedLayer
 ;
 }
+/
+/
+namespace
+layers
 namespace
 gfx
 {
@@ -204,6 +208,10 @@ class
 Matrix4x4
 ;
 }
+/
+/
+namespace
+gfx
 class
 FrameLayerBuilder
 ;
@@ -4368,6 +4376,10 @@ mMaxContainerLayerGeneration
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

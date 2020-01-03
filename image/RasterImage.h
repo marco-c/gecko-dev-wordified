@@ -957,6 +957,10 @@ class
 Image
 ;
 }
+/
+/
+namespace
+layers
 namespace
 image
 {

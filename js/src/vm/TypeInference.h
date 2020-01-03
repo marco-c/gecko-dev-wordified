@@ -243,6 +243,10 @@ class
 TempAllocator
 ;
 }
+/
+/
+namespace
+jit
 class
 TaggedProto
 ;
@@ -8341,7 +8345,15 @@ ObjectGroup
 }
 ;
 }
+/
+/
+namespace
+ubi
 }
+/
+/
+namespace
+JS
 #
 endif
 /

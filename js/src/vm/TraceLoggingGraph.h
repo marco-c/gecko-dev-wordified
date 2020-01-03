@@ -721,6 +721,10 @@ DestroyTraceLoggerGraphState
 )
 ;
 }
+/
+/
+namespace
+js
 class
 TraceLoggerGraphState
 {

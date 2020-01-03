@@ -1040,5 +1040,5 @@ storage
 }
 /
 /
-namescape
+namespace
 mozilla

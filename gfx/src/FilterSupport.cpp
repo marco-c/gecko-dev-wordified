@@ -2857,6 +2857,10 @@ nullptr
 }
 /
 /
+namespace
+FilterWrappers
+/
+/
 A
 class
 that
@@ -13249,6 +13253,9 @@ matches
 }
 ;
 }
+/
+/
+namespace
 static
 PLDHashOperator
 CheckAttributeEquality
@@ -13400,6 +13407,9 @@ userData
 }
 ;
 }
+/
+/
+namespace
 static
 PLDHashOperator
 PassAttributeToHandleCallback
@@ -13846,4 +13856,12 @@ aLength
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

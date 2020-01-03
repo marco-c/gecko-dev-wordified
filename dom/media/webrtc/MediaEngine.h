@@ -117,6 +117,10 @@ class
 Blob
 ;
 }
+/
+/
+namespace
+dom
 enum
 {
 kVideoTrack
@@ -1414,6 +1418,10 @@ kReleased
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

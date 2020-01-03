@@ -702,6 +702,14 @@ ClearSurfaces
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

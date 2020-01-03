@@ -845,14 +845,17 @@ kNumOfRanges
 }
 /
 /
+namespace
 CacheFileUtils
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

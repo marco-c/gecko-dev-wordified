@@ -3450,9 +3450,6 @@ mTunnelHash
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

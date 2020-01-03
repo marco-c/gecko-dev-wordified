@@ -7849,7 +7849,6 @@ PL_DHASH_NEXT
 }
 /
 /
-anonymous
 namespace
 #
 endif

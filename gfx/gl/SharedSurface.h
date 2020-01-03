@@ -250,6 +250,10 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -272,6 +276,10 @@ class
 TextureClient
 ;
 }
+/
+/
+namespace
+layers
 namespace
 gl
 {

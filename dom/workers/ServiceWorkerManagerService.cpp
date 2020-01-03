@@ -179,7 +179,6 @@ nullptr
 }
 /
 /
-anonymous
 namespace
 ServiceWorkerManagerService
 :
@@ -1260,8 +1259,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anonymous
-namespce
+namespace
 void
 ServiceWorkerManagerService
 :
@@ -1601,15 +1599,15 @@ endif
 }
 /
 /
+namespace
 workers
-namespace
 }
 /
 /
+namespace
 dom
-namespace
 }
 /
 /
-mozilla
 namespace
+mozilla

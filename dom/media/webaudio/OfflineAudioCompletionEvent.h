@@ -249,6 +249,14 @@ mRenderedBuffer
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

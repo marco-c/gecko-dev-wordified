@@ -2902,7 +2902,15 @@ true
 ;
 }
 }
+/
+/
+namespace
+media
 }
+/
+/
+namespace
+mozilla
 /
 /
 Instantiate

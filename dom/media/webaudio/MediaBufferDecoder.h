@@ -188,6 +188,10 @@ class
 Promise
 ;
 }
+/
+/
+namespace
+dom
 struct
 WebAudioDecodeJob
 final
@@ -428,5 +432,9 @@ aDecodeJob
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

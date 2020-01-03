@@ -418,5 +418,9 @@ mMetadataRequiredFlag
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

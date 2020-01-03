@@ -129,10 +129,12 @@ Layer
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 class
 SpliceableJSONWriter

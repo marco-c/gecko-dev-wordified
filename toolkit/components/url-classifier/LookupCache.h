@@ -930,6 +930,14 @@ mPrefixSet
 }
 ;
 }
+/
+/
+namespace
+safebrowsing
 }
+/
+/
+namespace
+mozilla
 #
 endif

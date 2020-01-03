@@ -173,6 +173,10 @@ SVGTransform
 ;
 }
 /
+/
+namespace
+dom
+/
 *
 *
 *

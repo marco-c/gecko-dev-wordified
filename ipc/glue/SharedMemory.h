@@ -193,6 +193,9 @@ RightsWrite
 }
 ;
 }
+/
+/
+namespace
 namespace
 mozilla
 {
@@ -203,6 +206,10 @@ class
 SharedMemory
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 ipc
 {

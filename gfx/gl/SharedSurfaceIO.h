@@ -512,11 +512,9 @@ override
 ;
 }
 /
-*
-namespace
-gfx
-*
 /
+namespace
+gl
 }
 /
 *

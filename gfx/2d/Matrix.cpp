@@ -3809,4 +3809,12 @@ _44
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

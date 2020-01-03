@@ -229,6 +229,10 @@ struct
 RectTyped
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -1658,10 +1662,12 @@ str
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 /
 /
 versions

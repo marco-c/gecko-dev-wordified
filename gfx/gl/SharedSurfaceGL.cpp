@@ -618,11 +618,9 @@ flags
 }
 }
 /
-*
-namespace
-gfx
-*
 /
+namespace
+gl
 }
 /
 *

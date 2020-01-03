@@ -191,6 +191,10 @@ struct
 PlanarYCbCrData
 ;
 }
+/
+/
+namespace
+layers
 namespace
 image
 {
@@ -198,7 +202,15 @@ class
 ImageRegion
 ;
 }
+/
+/
+namespace
+image
 }
+/
+/
+namespace
+mozilla
 class
 gfxUtils
 {

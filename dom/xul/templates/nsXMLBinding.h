@@ -152,7 +152,15 @@ class
 XPathResult
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

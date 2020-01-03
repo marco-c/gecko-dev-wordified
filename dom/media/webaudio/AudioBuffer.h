@@ -633,6 +633,14 @@ mSampleRate
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -128,6 +128,10 @@ class
 GLContext
 ;
 }
+/
+/
+namespace
+gl
 namespace
 layers
 {
@@ -269,6 +273,14 @@ aTextureRect
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

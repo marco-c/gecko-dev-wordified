@@ -240,6 +240,14 @@ mOutputCount
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

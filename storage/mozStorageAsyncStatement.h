@@ -505,10 +505,12 @@ AsyncStatementJSHelper
 }
 /
 /
+namespace
 storage
 }
 /
 /
+namespace
 mozilla
 #
 endif

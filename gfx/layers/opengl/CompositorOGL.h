@@ -442,6 +442,10 @@ class
 Matrix4x4
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -2684,7 +2688,15 @@ mVR
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

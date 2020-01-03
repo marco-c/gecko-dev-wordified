@@ -465,7 +465,15 @@ mActiveAPZTransforms
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

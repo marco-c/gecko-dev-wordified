@@ -3383,4 +3383,12 @@ mRecorder
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

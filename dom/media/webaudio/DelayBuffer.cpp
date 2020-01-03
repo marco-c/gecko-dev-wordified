@@ -1678,4 +1678,5 @@ silenceChannel
 }
 /
 /
+namespace
 mozilla

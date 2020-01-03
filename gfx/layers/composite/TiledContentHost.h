@@ -387,6 +387,10 @@ class
 Matrix4x4
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -1671,6 +1675,14 @@ mLowPrecisionTiledBuffer
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

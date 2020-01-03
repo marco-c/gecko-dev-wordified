@@ -326,7 +326,6 @@ forget
 }
 /
 /
-anonymous
 namespace
 IDBIndex
 :

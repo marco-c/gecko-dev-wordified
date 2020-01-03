@@ -649,7 +649,6 @@ return
 }
 /
 /
-anonymous
 namespace
 /
 *

@@ -520,7 +520,15 @@ level
 ;
 }
 }
+/
+/
+namespace
+detail
 }
+/
+/
+namespace
+mozilla
 #
 define
 MOZ_LOG_TEST

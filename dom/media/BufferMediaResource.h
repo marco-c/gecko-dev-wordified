@@ -944,5 +944,9 @@ mContentType
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -1319,14 +1319,9 @@ mPropertyValuePairs
 ;
 }
 /
-*
-end
-css
-sub
--
-namespace
-*
 /
+namespace
+css
 typedef
 InfallibleTArray
 <

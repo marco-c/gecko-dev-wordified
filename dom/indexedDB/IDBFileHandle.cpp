@@ -218,7 +218,6 @@ NS_APPSHELL_CID
 }
 /
 /
-anonymous
 namespace
 IDBFileHandle
 :

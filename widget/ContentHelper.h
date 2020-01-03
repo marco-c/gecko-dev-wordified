@@ -258,7 +258,15 @@ aPoint
 }
 ;
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

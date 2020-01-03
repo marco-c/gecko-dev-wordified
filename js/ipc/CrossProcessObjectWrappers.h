@@ -185,6 +185,10 @@ class
 CPOWManagerGetter
 ;
 }
+/
+/
+namespace
+dom
 namespace
 jsipc
 {

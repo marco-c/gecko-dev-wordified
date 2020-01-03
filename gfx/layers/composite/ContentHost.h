@@ -452,6 +452,10 @@ class
 Matrix4x4
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -1279,6 +1283,14 @@ aUpdatedRegionBack
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

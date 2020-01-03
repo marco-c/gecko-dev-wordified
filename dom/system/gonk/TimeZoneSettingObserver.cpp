@@ -1520,7 +1520,6 @@ cx
 }
 /
 /
-anonymous
 namespace
 static
 mozilla

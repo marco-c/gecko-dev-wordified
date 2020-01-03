@@ -709,6 +709,10 @@ aFrame
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

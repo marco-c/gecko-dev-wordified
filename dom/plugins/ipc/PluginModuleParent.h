@@ -300,6 +300,10 @@ class
 CrashReporterParent
 ;
 }
+/
+/
+namespace
+dom
 namespace
 plugins
 {

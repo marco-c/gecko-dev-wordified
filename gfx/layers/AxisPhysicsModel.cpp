@@ -777,4 +777,12 @@ aBlend
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

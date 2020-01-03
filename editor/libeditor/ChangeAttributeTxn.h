@@ -395,6 +395,14 @@ mUndoValue
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

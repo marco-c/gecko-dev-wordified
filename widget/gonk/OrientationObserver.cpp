@@ -918,7 +918,6 @@ sOrientationSensorObserver
 }
 /
 /
-Anonymous
 namespace
 OrientationObserver
 *

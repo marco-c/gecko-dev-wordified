@@ -204,6 +204,10 @@ class
 PrincipalInfo
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {
@@ -223,6 +227,10 @@ class
 WorkerPrivate
 ;
 }
+/
+/
+namespace
+workers
 namespace
 cache
 {

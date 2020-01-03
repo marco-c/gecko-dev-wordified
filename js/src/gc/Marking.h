@@ -206,6 +206,10 @@ struct
 ArenaHeader
 ;
 }
+/
+/
+namespace
+gc
 namespace
 jit
 {
@@ -213,6 +217,10 @@ class
 JitCode
 ;
 }
+/
+/
+namespace
+jit
 static
 const
 size_t

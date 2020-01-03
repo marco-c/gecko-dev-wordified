@@ -338,7 +338,10 @@ class
 FileInfo
 ;
 }
-;
+/
+/
+namespace
+indexedDB
 struct
 BlobPropertyBag
 ;
@@ -5219,13 +5222,13 @@ mParent
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-file
 namespace
+mozilla
 #
 endif
 /

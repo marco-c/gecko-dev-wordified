@@ -2254,7 +2254,15 @@ mElements
 }
 ;
 }
+/
+/
+namespace
+media
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

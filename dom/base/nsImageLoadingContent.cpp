@@ -7473,7 +7473,6 @@ mRequest
 }
 /
 /
-anonymous
 namespace
 void
 nsImageLoadingContent

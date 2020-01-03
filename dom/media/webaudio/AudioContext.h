@@ -269,7 +269,10 @@ class
 PeriodicWave
 ;
 }
-;
+/
+/
+namespace
+WebCore
 class
 nsPIDOMWindow
 ;
@@ -2035,6 +2038,14 @@ NO_AUDIO_CONTEXT
 0
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

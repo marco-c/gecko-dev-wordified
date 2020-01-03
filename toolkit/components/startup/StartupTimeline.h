@@ -528,6 +528,10 @@ MAX_EVENT_ID
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

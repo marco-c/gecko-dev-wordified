@@ -545,10 +545,12 @@ mEncoder
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

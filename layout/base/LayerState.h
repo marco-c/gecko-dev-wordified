@@ -156,5 +156,9 @@ LAYER_SVG_EFFECTS
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

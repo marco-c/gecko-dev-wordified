@@ -1674,7 +1674,15 @@ Ensure3DMatrix
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

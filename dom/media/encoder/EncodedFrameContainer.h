@@ -563,5 +563,9 @@ mFrameType
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

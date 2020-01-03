@@ -154,7 +154,15 @@ class
 ValidityState
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_ICONSTRAINTVALIDATION_IID

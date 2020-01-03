@@ -201,6 +201,10 @@ class
 ReadOnlyCompileOptions
 ;
 }
+/
+/
+namespace
+JS
 namespace
 js
 {
@@ -214,6 +218,10 @@ class
 CompileRuntime
 ;
 }
+/
+/
+namespace
+jit
 /
 *
 *
@@ -2727,11 +2735,9 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 ;
 }
 /
-*
-namedata
-js
-*
 /
+namespace
+js
 #
 endif
 /

@@ -433,5 +433,9 @@ singleton
 }
 ;
 }
+/
+/
+namespace
+xpc
 #
 endif

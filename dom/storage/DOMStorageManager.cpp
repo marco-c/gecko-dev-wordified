@@ -265,9 +265,6 @@ dom
 {
 namespace
 {
-/
-/
-anon
 int32_t
 gQuotaLimit
 =
@@ -276,7 +273,7 @@ DEFAULT_QUOTA_LIMIT
 }
 /
 /
-anon
+namespace
 DOMLocalStorageManager
 *
 DOMLocalStorageManager
@@ -620,9 +617,6 @@ this
 }
 namespace
 {
-/
-/
-anon
 nsresult
 CreateScopeKey
 (
@@ -1231,7 +1225,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 DOMStorageCache
 *
 DOMStorageManager
@@ -2268,9 +2262,6 @@ aRetval
 }
 namespace
 {
-/
-/
-anon
 class
 ClearCacheEnumeratorData
 {
@@ -2300,7 +2291,7 @@ mKeyPrefix
 }
 /
 /
-anon
+namespace
 PLDHashOperator
 DOMStorageManager
 :
@@ -3206,12 +3197,10 @@ StartDatabase
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla

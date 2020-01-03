@@ -2389,10 +2389,12 @@ mLastSmartSizeTime
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

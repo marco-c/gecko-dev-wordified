@@ -163,6 +163,9 @@ M_PI
 0
 ;
 }
+/
+/
+namespace
 namespace
 mozilla
 {

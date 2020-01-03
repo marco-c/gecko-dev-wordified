@@ -756,6 +756,7 @@ endif
 }
 /
 /
+namespace
 WebCore
 #
 undef

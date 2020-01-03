@@ -382,7 +382,6 @@ aFeature
 }
 /
 /
-anonymous
 namespace
 CacheOpChild
 :

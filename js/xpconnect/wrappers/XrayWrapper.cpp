@@ -7685,6 +7685,10 @@ src
 ;
 }
 }
+/
+/
+namespace
+XrayUtils
 static
 JSObject
 *
@@ -7856,6 +7860,10 @@ HolderClass
 ;
 }
 }
+/
+/
+namespace
+XrayUtils
 static
 nsGlobalWindow
 *
@@ -16293,3 +16301,7 @@ class
 SCSecurityXrayXPCWN
 ;
 }
+/
+/
+namespace
+xpc

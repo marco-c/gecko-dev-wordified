@@ -1358,7 +1358,15 @@ len
 )
 ;
 }
+/
+/
+namespace
+SSE2
 }
+/
+/
+namespace
+mozilla
 #
 endif
 static

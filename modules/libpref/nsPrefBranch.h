@@ -233,7 +233,6 @@ PreferenceServiceReporter
 /
 namespace
 mozilla
-;
 class
 nsPrefBranch
 ;

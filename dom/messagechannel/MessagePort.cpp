@@ -1408,7 +1408,6 @@ nsIIPCBackgroundChildCreateCallback
 }
 /
 /
-anonymous
 namespace
 MessagePort
 :

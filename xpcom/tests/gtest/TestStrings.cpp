@@ -6935,3 +6935,7 @@ false
 ;
 }
 }
+/
+/
+namespace
+TestStrings

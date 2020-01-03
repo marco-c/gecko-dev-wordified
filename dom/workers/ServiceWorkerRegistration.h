@@ -194,6 +194,10 @@ class
 WorkerPrivate
 ;
 }
+/
+/
+namespace
+workers
 bool
 ServiceWorkerRegistrationVisible
 (

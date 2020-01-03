@@ -898,9 +898,6 @@ mLowestBufferSizeWaiting
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

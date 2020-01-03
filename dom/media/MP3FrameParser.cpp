@@ -3767,3 +3767,7 @@ HasExactDuration
 ;
 }
 }
+/
+/
+namespace
+mozilla

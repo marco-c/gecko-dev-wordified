@@ -194,10 +194,12 @@ false
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

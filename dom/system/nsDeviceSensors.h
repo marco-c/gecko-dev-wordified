@@ -204,7 +204,15 @@ class
 EventTarget
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsDeviceSensors
 :

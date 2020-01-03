@@ -2099,6 +2099,10 @@ PL_DHASH_NEXT
 ;
 }
 }
+/
+/
+namespace
+TestHashtables
 using
 namespace
 TestHashtables

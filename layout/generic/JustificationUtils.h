@@ -816,6 +816,10 @@ TotalGaps
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

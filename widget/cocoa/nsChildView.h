@@ -279,6 +279,9 @@ class
 RectTextureImage
 ;
 }
+/
+/
+namespace
 namespace
 mozilla
 {
@@ -295,7 +298,15 @@ class
 APZCTreeManager
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 interface
 NSEvent
 (

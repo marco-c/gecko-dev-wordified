@@ -161,6 +161,10 @@ MediaSystemResourceManagerParent
 ;
 }
 /
+/
+namespace
+media
+/
 *
 *
 *

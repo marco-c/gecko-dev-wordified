@@ -342,7 +342,15 @@ class
 SourceSurface
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 /
 /
 Used

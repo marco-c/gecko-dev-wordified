@@ -1898,4 +1898,12 @@ bounds
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

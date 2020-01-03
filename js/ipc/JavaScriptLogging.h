@@ -1382,6 +1382,14 @@ cx
 }
 ;
 }
+/
+/
+namespace
+jsipc
 }
+/
+/
+namespace
+mozilla
 #
 endif

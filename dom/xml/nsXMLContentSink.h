@@ -225,7 +225,15 @@ class
 NodeInfo
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 typedef
 enum
 {

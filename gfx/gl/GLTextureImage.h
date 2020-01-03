@@ -178,7 +178,15 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {

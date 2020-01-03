@@ -180,7 +180,6 @@ sService
 }
 /
 /
-anonymous
 namespace
 /
 *
@@ -383,10 +382,10 @@ disabled
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

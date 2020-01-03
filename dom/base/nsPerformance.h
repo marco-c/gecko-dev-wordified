@@ -231,7 +231,15 @@ class
 PerformanceEntry
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 /
 Script

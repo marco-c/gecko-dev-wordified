@@ -335,7 +335,15 @@ override
 }
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

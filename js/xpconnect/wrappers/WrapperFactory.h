@@ -420,6 +420,10 @@ Wrapper
 XrayWaiver
 ;
 }
+/
+/
+namespace
+xpc
 #
 endif
 /

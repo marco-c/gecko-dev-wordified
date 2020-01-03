@@ -225,7 +225,10 @@ eLogicalEdgeEnd
 }
 ;
 }
-;
+/
+/
+namespace
+mozilla
 enum
 nsStyleUnit
 :

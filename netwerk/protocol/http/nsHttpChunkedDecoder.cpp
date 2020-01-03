@@ -1325,9 +1325,6 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

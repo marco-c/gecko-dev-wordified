@@ -6548,6 +6548,10 @@ sSetProtoCalled
 0
 ;
 }
+/
+/
+namespace
+js
 static
 bool
 ProtoSetter

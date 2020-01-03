@@ -322,5 +322,9 @@ mPacket
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

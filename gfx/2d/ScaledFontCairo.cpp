@@ -387,4 +387,12 @@ mTypeface
 #
 endif
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

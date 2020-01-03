@@ -888,4 +888,12 @@ current
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

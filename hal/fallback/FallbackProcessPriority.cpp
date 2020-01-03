@@ -123,6 +123,7 @@ aLRU
 }
 /
 /
+namespace
 hal_impl
 }
 /

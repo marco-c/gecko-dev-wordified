@@ -1118,7 +1118,15 @@ mDT
 #
 endif
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

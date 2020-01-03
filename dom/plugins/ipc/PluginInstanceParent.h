@@ -250,6 +250,10 @@ class
 ImageContainer
 ;
 }
+/
+/
+namespace
+layers
 namespace
 plugins
 {

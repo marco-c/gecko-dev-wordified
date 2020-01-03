@@ -1555,3 +1555,7 @@ c
 }
 }
 }
+/
+/
+namespace
+mozilla

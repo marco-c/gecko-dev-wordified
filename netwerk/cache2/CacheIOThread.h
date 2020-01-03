@@ -567,10 +567,12 @@ mInsideLoop
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

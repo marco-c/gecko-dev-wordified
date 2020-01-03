@@ -3941,4 +3941,12 @@ aAddPrefixes
 ;
 }
 }
+/
+/
+namespace
+safebrowsing
 }
+/
+/
+namespace
+mozilla

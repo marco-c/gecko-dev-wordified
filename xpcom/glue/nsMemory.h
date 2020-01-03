@@ -914,6 +914,10 @@ t
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_ALIGNMENT_OF

@@ -744,9 +744,7 @@ mData
 }
 /
 /
-Anonymous
 namespace
-.
 nsNavBookmarks
 :
 :

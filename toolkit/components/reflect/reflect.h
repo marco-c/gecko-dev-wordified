@@ -147,6 +147,14 @@ Module
 }
 ;
 }
+/
+/
+namespace
+reflect
 }
+/
+/
+namespace
+mozilla
 #
 endif

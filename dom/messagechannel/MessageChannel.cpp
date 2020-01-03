@@ -711,7 +711,6 @@ true
 }
 /
 /
-anonymous
 namespace
 /
 *

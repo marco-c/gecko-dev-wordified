@@ -1220,7 +1220,6 @@ declarations
 }
 /
 /
-anonymous
 namespace
 class
 DirectoryLockImpl
@@ -1802,7 +1801,6 @@ declarations
 }
 /
 /
-anonymous
 namespace
 class
 OriginInfo
@@ -3734,7 +3732,6 @@ aArg
 }
 /
 /
-anonymous
 namespace
 bool
 IsOnIOThread
@@ -6901,7 +6898,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 /
 *
@@ -13651,7 +13647,6 @@ NIGHTLY_BUILD
 }
 /
 /
-anonymous
 namespace
 nsresult
 QuotaManager

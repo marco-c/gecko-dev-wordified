@@ -1231,14 +1231,12 @@ mIPCOpen
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla
 #
 endif

@@ -476,7 +476,6 @@ ms
 }
 /
 /
-anonymous
 namespace
 const
 int

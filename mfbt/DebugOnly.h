@@ -651,6 +651,10 @@ DebugOnly
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

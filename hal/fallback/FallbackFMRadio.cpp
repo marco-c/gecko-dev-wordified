@@ -278,6 +278,7 @@ DisableRDS
 }
 /
 /
+namespace
 hal_impl
 }
 /

@@ -1800,6 +1800,10 @@ file_offset
 #
 endif
 }
+/
+/
+namespace
+CrashReporter
 #
 endif
 /

@@ -257,6 +257,10 @@ class
 TabChild
 ;
 }
+/
+/
+namespace
+dom
 namespace
 layers
 {
@@ -1317,10 +1321,12 @@ mCanSend
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

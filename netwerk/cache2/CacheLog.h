@@ -125,10 +125,12 @@ Debug
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

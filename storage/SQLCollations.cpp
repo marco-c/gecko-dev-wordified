@@ -865,7 +865,6 @@ void
 }
 /
 /
-anonymous
 namespace
 /
 /

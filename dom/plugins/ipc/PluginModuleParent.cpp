@@ -1836,7 +1836,6 @@ false
 }
 /
 /
-anonymous
 namespace
 void
 mozilla
@@ -5241,7 +5240,6 @@ true
 }
 /
 /
-anonymous
 namespace
 #
 endif

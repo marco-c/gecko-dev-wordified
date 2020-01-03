@@ -6645,5 +6645,5 @@ array
 }
 /
 /
-namepace
+namespace
 mozilla

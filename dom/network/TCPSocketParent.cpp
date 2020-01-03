@@ -289,6 +289,10 @@ aVal
 )
 ;
 }
+/
+/
+namespace
+IPC
 namespace
 mozilla
 {

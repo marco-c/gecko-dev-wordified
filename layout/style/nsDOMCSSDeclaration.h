@@ -174,7 +174,15 @@ class
 Rule
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 class
 nsDOMCSSDeclaration
 :

@@ -216,6 +216,10 @@ class
 Layer
 ;
 }
+/
+/
+namespace
+layers
 struct
 FrameMetricsAndClip
 {

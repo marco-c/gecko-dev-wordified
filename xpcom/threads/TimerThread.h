@@ -196,6 +196,10 @@ class
 TimeStamp
 ;
 }
+/
+/
+namespace
+mozilla
 class
 TimerThread
 final

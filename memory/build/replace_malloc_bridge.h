@@ -862,6 +862,10 @@ DMDFuncs
 ;
 }
 /
+/
+namespace
+dmd
+/
 *
 Callbacks
 to

@@ -511,8 +511,10 @@ NS_ERROR_DOM_INVALID_CHARACTER_ERR
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

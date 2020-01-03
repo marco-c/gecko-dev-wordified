@@ -330,6 +330,10 @@ struct
 Statistics
 ;
 }
+/
+/
+namespace
+gcstats
 class
 Nursery
 ;

@@ -247,6 +247,10 @@ struct
 Module
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

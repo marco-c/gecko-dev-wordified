@@ -1300,8 +1300,7 @@ builtChain
 }
 /
 /
-unnamed
-namespcae
+namespace
 NS_IMETHODIMP
 nsDataSignatureVerifier
 :

@@ -163,7 +163,15 @@ class
 IntervalSet
 ;
 }
+/
+/
+namespace
+media
 }
+/
+/
+namespace
+mozilla
 template
 <
 class

@@ -1466,7 +1466,6 @@ fovInfo
 }
 /
 /
-anonymous
 namespace
 HMDInfoOculus
 :

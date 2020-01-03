@@ -11801,7 +11801,6 @@ mRemainingIters
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 nsMemoryReporterManager
@@ -12591,6 +12590,10 @@ DEFINE_REGISTER_SIZE_OF_TAB
 undef
 GET_MEMORY_REPORTER_MANAGER
 }
+/
+/
+namespace
+mozilla
 #
 if
 defined

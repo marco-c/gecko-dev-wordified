@@ -191,7 +191,15 @@ class
 SVGAnimationElement
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 typedef
 uint8_t
 nsSVGEnumValue

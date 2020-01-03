@@ -260,7 +260,15 @@ SensorAccuracy
 ISensorAccuracyObserver
 ;
 }
+/
+/
+namespace
+hal
 }
+/
+/
+namespace
+mozilla
 #
 include
 "

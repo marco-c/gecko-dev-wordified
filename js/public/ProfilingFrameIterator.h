@@ -185,7 +185,15 @@ class
 JitcodeGlobalEntry
 ;
 }
+/
+/
+namespace
+jit
 }
+/
+/
+namespace
+js
 namespace
 JS
 {

@@ -860,6 +860,10 @@ mMixedAudio
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

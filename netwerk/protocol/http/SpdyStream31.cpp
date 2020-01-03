@@ -13244,9 +13244,6 @@ ConnectionInfo
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

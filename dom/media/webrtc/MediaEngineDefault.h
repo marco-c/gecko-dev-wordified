@@ -158,6 +158,10 @@ class
 ImageContainer
 ;
 }
+/
+/
+namespace
+layers
 class
 MediaEngineDefault
 ;
@@ -888,6 +892,10 @@ mASources
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

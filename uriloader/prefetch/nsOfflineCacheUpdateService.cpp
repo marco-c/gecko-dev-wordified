@@ -617,9 +617,6 @@ Debug
 )
 namespace
 {
-/
-/
-anon
 nsresult
 GetAppIDAndInBrowserFromWindow
 (
@@ -717,7 +714,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 /
 /
 -

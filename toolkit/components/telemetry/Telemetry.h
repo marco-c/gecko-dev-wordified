@@ -148,6 +148,10 @@ class
 Histogram
 ;
 }
+/
+/
+namespace
+base
 namespace
 mozilla
 {
@@ -158,6 +162,10 @@ class
 HangAnnotations
 ;
 }
+/
+/
+namespace
+HangMonitor
 namespace
 Telemetry
 {

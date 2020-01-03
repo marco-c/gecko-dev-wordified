@@ -371,3 +371,7 @@ MaskLayerImageKey
 ;
 }
 }
+/
+/
+namespace
+mozilla

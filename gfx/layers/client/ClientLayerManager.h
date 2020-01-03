@@ -2575,7 +2575,15 @@ _type
 Layer
 )
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

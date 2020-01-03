@@ -132,6 +132,10 @@ ImageContainer
 ;
 }
 /
+/
+namespace
+layers
+/
 *
 *
 *
@@ -1667,5 +1671,9 @@ aUserArg
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

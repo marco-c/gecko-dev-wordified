@@ -162,7 +162,15 @@ class
 File
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

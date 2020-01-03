@@ -688,7 +688,6 @@ nullptr
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

@@ -974,4 +974,12 @@ mGain
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

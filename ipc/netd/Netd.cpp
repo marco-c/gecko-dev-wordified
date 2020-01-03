@@ -556,7 +556,6 @@ true
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

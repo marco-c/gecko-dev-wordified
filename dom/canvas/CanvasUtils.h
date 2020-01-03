@@ -148,6 +148,10 @@ class
 HTMLCanvasElement
 ;
 }
+/
+/
+namespace
+dom
 namespace
 CanvasUtils
 {
@@ -1038,7 +1042,15 @@ NS_ERROR_OUT_OF_MEMORY
 }
 }
 }
+/
+/
+namespace
+CanvasUtils
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

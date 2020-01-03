@@ -280,13 +280,14 @@ mWaitEOF
 }
 ;
 }
+/
+/
+namespace
+net
 }
 /
 /
 namespace
 mozilla
-:
-:
-net
 #
 endif

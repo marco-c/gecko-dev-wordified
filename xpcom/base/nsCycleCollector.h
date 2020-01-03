@@ -167,6 +167,10 @@ class
 CycleCollectedJSRuntime
 ;
 }
+/
+/
+namespace
+mozilla
 bool
 nsCycleCollector_init
 (

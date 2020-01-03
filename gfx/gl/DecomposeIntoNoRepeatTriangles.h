@@ -516,7 +516,15 @@ false
 )
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -323,7 +323,6 @@ gServiceWorkerRegistrar
 }
 /
 /
-anonymous
 namespace
 NS_IMPL_ISUPPORTS
 (
@@ -3436,10 +3435,10 @@ NS_ERROR_UNEXPECTED
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

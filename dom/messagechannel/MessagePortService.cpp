@@ -199,7 +199,6 @@ GeckoProcessType_Default
 }
 /
 /
-anonymous
 namespace
 class
 MessagePortService
@@ -2004,10 +2003,10 @@ true
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

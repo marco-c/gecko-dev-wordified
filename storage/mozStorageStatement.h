@@ -567,10 +567,12 @@ StatementJSHelper
 }
 /
 /
+namespace
 storage
 }
 /
 /
+namespace
 mozilla
 #
 endif

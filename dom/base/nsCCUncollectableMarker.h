@@ -280,6 +280,14 @@ aIsShutdownGC
 )
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

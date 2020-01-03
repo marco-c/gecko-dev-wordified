@@ -463,6 +463,9 @@ gChromeInstance
 nullptr
 ;
 }
+/
+/
+namespace
 #
 ifdef
 MOZ_WIDGET_QT

@@ -307,7 +307,15 @@ len
 )
 ;
 }
+/
+/
+namespace
+scache
 }
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

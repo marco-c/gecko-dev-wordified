@@ -328,6 +328,10 @@ struct
 RuntimeStats
 ;
 }
+/
+/
+namespace
+JS
 namespace
 mozilla
 {
@@ -338,6 +342,10 @@ class
 Function
 ;
 }
+/
+/
+namespace
+dom
 namespace
 ipc
 {
@@ -345,7 +353,15 @@ class
 PrincipalInfo
 ;
 }
+/
+/
+namespace
+ipc
 }
+/
+/
+namespace
+mozilla
 struct
 PRThread
 ;

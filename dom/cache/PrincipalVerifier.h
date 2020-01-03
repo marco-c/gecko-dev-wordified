@@ -155,6 +155,10 @@ class
 PBackgroundParent
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {
@@ -434,7 +438,7 @@ NS_DECL_NSIRUNNABLE
 }
 /
 /
-namesapce
+namespace
 cache
 }
 /

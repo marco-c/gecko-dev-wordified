@@ -140,6 +140,10 @@ class
 AudioContext
 ;
 }
+/
+/
+namespace
+dom
 class
 ThreadSharedFloatArrayBufferList
 ;
@@ -1130,6 +1134,10 @@ mPassThrough
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

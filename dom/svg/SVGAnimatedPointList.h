@@ -167,6 +167,10 @@ SVGAnimationElement
 ;
 }
 /
+/
+namespace
+dom
+/
 *
 *
 *

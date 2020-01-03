@@ -1225,6 +1225,9 @@ nullptr
 }
 ;
 }
+/
+/
+namespace
 void
 ThreadStackHelper
 :

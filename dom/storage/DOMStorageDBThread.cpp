@@ -973,9 +973,6 @@ aScope
 }
 namespace
 {
-/
-/
-anon
 PLDHashOperator
 GetScopesHavingDataEnum
 (
@@ -1026,7 +1023,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 void
 DOMStorageDBThread
 :
@@ -2167,9 +2164,6 @@ aResult
 ;
 namespace
 {
-/
-/
-anon
 class
 nsReverseStringSQLFunction
 final
@@ -2289,7 +2283,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 nsresult
 DOMStorageDBThread
 :
@@ -5579,9 +5573,6 @@ Count
 }
 namespace
 {
-/
-/
-anon
 PLDHashOperator
 ForgetUpdatesForScope
 (
@@ -5709,7 +5700,7 @@ PL_DHASH_REMOVE
 }
 /
 /
-anon
+namespace
 bool
 DOMStorageDBThread
 :
@@ -6278,9 +6269,6 @@ break
 }
 namespace
 {
-/
-/
-anon
 PLDHashOperator
 CollectTasks
 (
@@ -6352,7 +6340,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 bool
 DOMStorageDBThread
 :
@@ -6734,9 +6722,6 @@ true
 }
 namespace
 {
-/
-/
-anon
 class
 FindPendingOperationForScopeData
 {
@@ -6926,7 +6911,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 bool
 DOMStorageDBThread
 :
@@ -7034,9 +7019,6 @@ false
 }
 namespace
 {
-/
-/
-anon
 PLDHashOperator
 FindPendingUpdateForScope
 (
@@ -7155,7 +7137,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 bool
 DOMStorageDBThread
 :
@@ -7264,12 +7246,10 @@ false
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla

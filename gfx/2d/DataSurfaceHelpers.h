@@ -702,7 +702,15 @@ aPoint
 )
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

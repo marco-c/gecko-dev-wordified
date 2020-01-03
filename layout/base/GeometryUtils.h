@@ -175,6 +175,10 @@ class
 TextOrElementOrDocument
 ;
 }
+/
+/
+namespace
+dom
 typedef
 dom
 :
@@ -349,6 +353,10 @@ aRv
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

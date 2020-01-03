@@ -201,6 +201,10 @@ struct
 ParamTraits
 ;
 }
+/
+/
+namespace
+IPC
 namespace
 mozilla
 {

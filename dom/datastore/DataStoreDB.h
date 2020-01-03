@@ -187,6 +187,10 @@ class
 IDBTransaction
 ;
 }
+/
+/
+namespace
+indexedDB
 class
 DataStoreDBCallback
 ;

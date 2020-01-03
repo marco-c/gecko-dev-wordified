@@ -8331,9 +8331,6 @@ nsIAuthPromptCallback
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

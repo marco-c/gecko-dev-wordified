@@ -138,10 +138,12 @@ mAppCache
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

@@ -207,6 +207,10 @@ class
 URLProxy
 ;
 }
+/
+/
+namespace
+workers
 class
 URL
 final
@@ -886,7 +890,15 @@ aURI
 )
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -400,6 +400,14 @@ mByteProgress
 }
 ;
 }
+/
+/
+namespace
+docshell
 }
+/
+/
+namespace
+mozilla
 #
 endif

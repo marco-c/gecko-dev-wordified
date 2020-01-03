@@ -165,7 +165,15 @@ class
 SharedSSLState
 ;
 }
+/
+/
+namespace
+psm
 }
+/
+/
+namespace
+mozilla
 class
 nsIObserver
 ;

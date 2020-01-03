@@ -2796,6 +2796,9 @@ NS_OK
 }
 ;
 }
+/
+/
+namespace
 already_AddRefed
 <
 Promise

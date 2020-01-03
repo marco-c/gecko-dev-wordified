@@ -10797,9 +10797,6 @@ Memory
 reporting
 namespace
 {
-/
-/
-anon
 size_t
 CollectChunkSize
 (
@@ -10843,7 +10840,7 @@ mallocSizeOf
 }
 /
 /
-anon
+namespace
 size_t
 CacheFile
 :
@@ -11078,8 +11075,10 @@ mallocSizeOf
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

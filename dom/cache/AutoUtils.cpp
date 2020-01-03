@@ -838,7 +838,6 @@ aAction
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla
@@ -2215,7 +2214,6 @@ false
 }
 /
 /
-anonymous
 namespace
 void
 AutoChildOpArgs

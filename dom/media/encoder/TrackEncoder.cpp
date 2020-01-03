@@ -1493,3 +1493,7 @@ aMallocSizeOf
 ;
 }
 }
+/
+/
+namespace
+mozilla

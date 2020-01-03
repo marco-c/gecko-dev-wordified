@@ -827,4 +827,12 @@ audioNodeInputValue
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

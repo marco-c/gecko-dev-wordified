@@ -1545,3 +1545,7 @@ sum
 ;
 }
 }
+/
+/
+namespace
+mozilla

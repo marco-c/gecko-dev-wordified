@@ -172,6 +172,10 @@ class
 LoadInfoArgs
 ;
 }
+/
+/
+namespace
+net
 namespace
 ipc
 {
@@ -213,6 +217,10 @@ outLoadInfo
 )
 ;
 }
+/
+/
+namespace
+ipc
 /
 *
 *

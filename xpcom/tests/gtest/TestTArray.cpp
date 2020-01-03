@@ -377,3 +377,7 @@ array2
 ;
 }
 }
+/
+/
+namespace
+TestTArray

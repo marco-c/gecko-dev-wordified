@@ -2417,7 +2417,7 @@ n
 /
 /
 namespace
-dns
+net
 }
 /
 /

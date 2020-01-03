@@ -393,6 +393,10 @@ kProxyType_DIRECT
 ]
 ;
 }
+/
+/
+namespace
+mozilla
 bool
 nsProxyInfo
 :

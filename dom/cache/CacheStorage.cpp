@@ -1102,7 +1102,6 @@ EqualsLiteral
 }
 /
 /
-anonymous
 namespace
 /
 /

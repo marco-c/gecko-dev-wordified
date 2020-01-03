@@ -452,6 +452,14 @@ IMETextTxn
 NS_IMETEXTTXN_IID
 )
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

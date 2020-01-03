@@ -642,5 +642,5 @@ forget
 }
 /
 /
-end
 namespace
+mozilla

@@ -129,6 +129,10 @@ class
 AutoJSAPI
 ;
 }
+/
+/
+namespace
+dom
 namespace
 jsipc
 {
@@ -570,10 +574,12 @@ result
 }
 /
 /
-mozilla
+namespace
+jsipc
 }
 /
 /
-jsipc
+namespace
+mozilla
 #
 endif

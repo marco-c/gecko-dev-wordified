@@ -592,7 +592,6 @@ gLastIDToVibrate
 }
 /
 /
-anonymous
 namespace
 void
 Vibrate

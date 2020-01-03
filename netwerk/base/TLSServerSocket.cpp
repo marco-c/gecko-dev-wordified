@@ -1799,7 +1799,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 NS_IMPL_ISUPPORTS
 (

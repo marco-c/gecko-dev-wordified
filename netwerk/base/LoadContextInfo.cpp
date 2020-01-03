@@ -496,8 +496,10 @@ aIsAnonymous
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

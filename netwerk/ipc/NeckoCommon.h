@@ -157,7 +157,15 @@ class
 TabChild
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 if
 defined
@@ -676,6 +684,10 @@ bool
 gRegisteredBool
 ;
 }
+/
+/
+namespace
+NeckoCommonInternal
 /
 /
 This

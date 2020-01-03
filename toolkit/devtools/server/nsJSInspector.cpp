@@ -637,7 +637,15 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+jsinspector
 }
+/
+/
+namespace
+mozilla
 NS_DEFINE_NAMED_CID
 (
 JSINSPECTOR_CID

@@ -171,6 +171,7 @@ aBrightness
 }
 /
 /
+namespace
 hal_impl
 }
 /

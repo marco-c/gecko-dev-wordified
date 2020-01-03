@@ -197,6 +197,10 @@ class
 ImageContainer
 ;
 }
+/
+/
+namespace
+layers
 class
 MediaByteBuffer
 ;
@@ -705,6 +709,10 @@ class
 PlanarYCbCrImage
 ;
 }
+/
+/
+namespace
+layers
 class
 VideoInfo
 ;

@@ -1711,7 +1711,6 @@ mRv
 }
 /
 /
-anonymous
 namespace
 nsresult
 WebSocketImpl
@@ -2257,7 +2256,6 @@ mReasonString
 }
 /
 /
-anonymous
 namespace
 nsresult
 WebSocketImpl
@@ -2868,7 +2866,6 @@ mImpl
 }
 /
 /
-anonymous
 namespace
 nsresult
 WebSocketImpl
@@ -6038,7 +6035,6 @@ mRv
 }
 /
 /
-anonymous
 namespace
 already_AddRefed
 <
@@ -11244,7 +11240,6 @@ mWebSocketImpl
 }
 /
 /
-anonymous
 namespace
 void
 WebSocketImpl
@@ -13439,7 +13434,6 @@ mImpl
 }
 /
 /
-anonymous
 namespace
 /
 /
@@ -14083,7 +14077,6 @@ mEvent
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 WebSocketImpl
@@ -14330,10 +14323,10 @@ mIsMainThread
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

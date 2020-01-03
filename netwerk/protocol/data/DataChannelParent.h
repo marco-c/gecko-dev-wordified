@@ -231,12 +231,12 @@ override
 /
 /
 namespace
-mozilla
+net
 }
 /
 /
 namespace
-net
+mozilla
 #
 endif
 /

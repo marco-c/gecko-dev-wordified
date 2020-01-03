@@ -819,6 +819,10 @@ OnPopCursor
 )
 ;
 }
+/
+/
+namespace
+parent
 namespace
 child
 {
@@ -828,7 +832,15 @@ SetUpCocoaInterposing
 )
 ;
 }
+/
+/
+namespace
+child
 }
+/
+/
+namespace
+mac_plugin_interposing
 #
 endif
 /

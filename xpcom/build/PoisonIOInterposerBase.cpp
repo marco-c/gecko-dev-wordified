@@ -1440,7 +1440,6 @@ DebugFileIDs
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

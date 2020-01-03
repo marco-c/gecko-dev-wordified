@@ -619,9 +619,11 @@ MOZ_WIDGET_ANDROID
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 #
 endif

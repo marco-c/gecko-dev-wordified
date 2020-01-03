@@ -1285,11 +1285,9 @@ ret
 }
 }
 /
-*
-namespace
-gfx
-*
 /
+namespace
+gl
 }
 /
 *

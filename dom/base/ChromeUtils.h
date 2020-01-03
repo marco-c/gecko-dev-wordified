@@ -161,6 +161,10 @@ class
 HeapSnapshot
 ;
 }
+/
+/
+namespace
+devtools
 namespace
 dom
 {

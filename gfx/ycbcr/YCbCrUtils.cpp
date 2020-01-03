@@ -832,4 +832,12 @@ yuvtype
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

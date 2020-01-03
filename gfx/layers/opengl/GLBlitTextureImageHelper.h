@@ -167,6 +167,10 @@ class
 TextureImage
 ;
 }
+/
+/
+namespace
+gl
 namespace
 layers
 {
@@ -460,7 +464,15 @@ aDstRect
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

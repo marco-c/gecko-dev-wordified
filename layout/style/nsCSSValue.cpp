@@ -5021,7 +5021,6 @@ mValueSerialization
 }
 /
 /
-anonymous
 namespace
 void
 nsCSSValue

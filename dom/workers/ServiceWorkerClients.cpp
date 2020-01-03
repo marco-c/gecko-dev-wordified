@@ -1183,7 +1183,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 already_AddRefed
 <

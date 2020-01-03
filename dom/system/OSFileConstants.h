@@ -325,6 +325,10 @@ OSFileConstantsService
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

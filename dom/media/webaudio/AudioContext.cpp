@@ -1359,6 +1359,9 @@ false
 }
 }
 }
+/
+/
+namespace
 already_AddRefed
 <
 MediaStreamAudioDestinationNode
@@ -5286,4 +5289,12 @@ nullptr
 }
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

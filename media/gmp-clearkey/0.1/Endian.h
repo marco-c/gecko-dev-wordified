@@ -519,6 +519,10 @@ aValue
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

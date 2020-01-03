@@ -404,6 +404,10 @@ mFakeMediaStreamGraph
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

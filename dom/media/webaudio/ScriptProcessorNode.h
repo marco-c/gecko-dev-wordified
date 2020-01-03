@@ -498,6 +498,14 @@ mNumberOfOutputChannels
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

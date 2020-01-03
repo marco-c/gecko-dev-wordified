@@ -3298,6 +3298,10 @@ nullptr
 ;
 }
 }
+/
+/
+namespace
+xpc
 static
 void
 CompartmentDestroyedCallback

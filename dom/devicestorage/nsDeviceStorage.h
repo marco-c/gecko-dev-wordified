@@ -295,6 +295,10 @@ class
 Blob
 ;
 }
+/
+/
+namespace
+dom
 }
 /
 /

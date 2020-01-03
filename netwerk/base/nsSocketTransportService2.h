@@ -623,7 +623,15 @@ Linux
 #
 endif
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 /
 /
 -

@@ -7018,6 +7018,9 @@ max
 ;
 }
 }
+/
+/
+namespace
 nsRect
 nsRegion
 :

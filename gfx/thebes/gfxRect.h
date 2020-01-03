@@ -268,7 +268,15 @@ eNumCorners
 }
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_CORNER_TOP_LEFT

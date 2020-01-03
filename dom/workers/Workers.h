@@ -318,6 +318,10 @@ class
 PrincipalInfo
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {
@@ -351,7 +355,15 @@ WorkerTypeService
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 BEGIN_WORKERS_NAMESPACE
 class
 WorkerPrivate

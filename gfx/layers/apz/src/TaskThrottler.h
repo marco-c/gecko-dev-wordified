@@ -214,6 +214,10 @@ class
 Location
 ;
 }
+/
+/
+namespace
+tracked_objects
 namespace
 mozilla
 {
@@ -797,7 +801,15 @@ mMean
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

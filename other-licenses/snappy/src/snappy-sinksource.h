@@ -1048,6 +1048,10 @@ dest_
 }
 ;
 }
+/
+/
+namespace
+snappy
 #
 endif
 /

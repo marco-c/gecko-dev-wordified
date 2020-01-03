@@ -183,7 +183,15 @@ class
 LayerTransactionChild
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 class
 nsTranslationNodeList
 final

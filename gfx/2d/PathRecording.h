@@ -791,7 +791,15 @@ mStoredRecorders
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -197,6 +197,10 @@ unused
 {
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

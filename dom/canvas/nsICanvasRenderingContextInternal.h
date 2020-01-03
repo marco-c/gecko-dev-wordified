@@ -204,6 +204,10 @@ class
 LayerManager
 ;
 }
+/
+/
+namespace
+layers
 namespace
 gfx
 {
@@ -211,7 +215,15 @@ class
 SourceSurface
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 class
 nsICanvasRenderingContextInternal
 :

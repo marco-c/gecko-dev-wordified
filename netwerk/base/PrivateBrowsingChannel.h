@@ -556,6 +556,14 @@ mPrivateBrowsing
 }
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 #
 endif

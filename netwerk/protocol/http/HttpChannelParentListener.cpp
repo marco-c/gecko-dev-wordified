@@ -2271,10 +2271,12 @@ ResumeForDiversion
 ;
 }
 }
+/
+/
+namespace
+net
 }
 /
 /
+namespace
 mozilla
-:
-:
-net

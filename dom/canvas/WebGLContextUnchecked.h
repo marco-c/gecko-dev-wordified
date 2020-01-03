@@ -157,6 +157,10 @@ class
 GLContext
 ;
 }
+/
+/
+namespace
+gl
 class
 WebGLContextUnchecked
 {

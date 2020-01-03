@@ -86,7 +86,15 @@ class
 Image
 ;
 }
+/
+/
+namespace
+layer
 }
+/
+/
+namespace
+mozilla
 TEST
 (
 VideoSegment

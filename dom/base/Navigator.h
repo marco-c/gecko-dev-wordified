@@ -276,7 +276,15 @@ class
 ServiceWorkerContainer
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 /
 *
@@ -519,8 +527,7 @@ Connection
 /
 /
 namespace
-Connection
-;
+network
 #
 ifdef
 MOZ_B2G_BT

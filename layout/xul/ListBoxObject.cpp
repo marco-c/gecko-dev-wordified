@@ -1023,7 +1023,15 @@ nullptr
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 /
 Creation

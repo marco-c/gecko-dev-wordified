@@ -1492,7 +1492,9 @@ mBufferSize
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla

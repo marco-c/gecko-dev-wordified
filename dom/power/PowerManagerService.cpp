@@ -1437,12 +1437,15 @@ forget
 }
 /
 /
+namespace
 power
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

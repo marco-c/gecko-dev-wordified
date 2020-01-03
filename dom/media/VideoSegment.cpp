@@ -747,3 +747,7 @@ VideoSegment
 {
 }
 }
+/
+/
+namespace
+mozilla

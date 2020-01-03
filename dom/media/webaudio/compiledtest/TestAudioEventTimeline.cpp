@@ -241,6 +241,10 @@ os
 ;
 }
 }
+/
+/
+namespace
+std
 template
 <
 class

@@ -364,7 +364,15 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+jsdebugger
 }
+/
+/
+namespace
+mozilla
 NS_DEFINE_NAMED_CID
 (
 JSDEBUGGER_CID

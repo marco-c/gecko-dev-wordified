@@ -139,7 +139,15 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 class
 MOZ_STACK_CLASS
 nsRenderingContext

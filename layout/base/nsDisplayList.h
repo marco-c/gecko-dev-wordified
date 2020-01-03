@@ -321,6 +321,7 @@ ImageContainer
 /
 /
 namespace
+layers
 namespace
 gfx
 {
@@ -331,10 +332,12 @@ VRHMDInfo
 /
 /
 namespace
+gfx
 }
 /
 /
 namespace
+mozilla
 /
 /
 A

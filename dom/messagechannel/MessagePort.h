@@ -191,6 +191,10 @@ class
 WorkerFeature
 ;
 }
+/
+/
+namespace
+workers
 class
 MessagePortBase
 :

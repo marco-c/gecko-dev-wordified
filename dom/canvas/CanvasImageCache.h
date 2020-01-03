@@ -377,6 +377,10 @@ aImage
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

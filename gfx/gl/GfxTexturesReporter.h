@@ -482,7 +482,15 @@ mBytes
 }
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

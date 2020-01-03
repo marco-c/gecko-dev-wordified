@@ -115,9 +115,6 @@ CacheFileUtils
 namespace
 {
 /
-/
-anon
-/
 *
 *
 *
@@ -1029,7 +1026,7 @@ idEnhance
 }
 /
 /
-anon
+namespace
 already_AddRefed
 <
 nsILoadContextInfo
@@ -2787,12 +2784,15 @@ Reset
 }
 /
 /
+namespace
 CacheFileUtils
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

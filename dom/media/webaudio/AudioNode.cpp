@@ -2790,4 +2790,12 @@ mPassThrough
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

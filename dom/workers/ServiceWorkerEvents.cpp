@@ -1747,7 +1747,6 @@ runnable
 }
 /
 /
-anonymous
 namespace
 void
 FetchEvent

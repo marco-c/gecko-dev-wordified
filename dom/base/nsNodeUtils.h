@@ -194,7 +194,15 @@ class
 Animation
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsNodeUtils
 {

@@ -1368,7 +1368,15 @@ FontFamilyListRefCnt
 }
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 enum
 nsCSSUnit
 {

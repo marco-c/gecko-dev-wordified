@@ -1407,10 +1407,12 @@ instanceof
 }
 /
 /
+namespace
 jsipc
 }
 /
 /
+namespace
 mozilla
 #
 endif

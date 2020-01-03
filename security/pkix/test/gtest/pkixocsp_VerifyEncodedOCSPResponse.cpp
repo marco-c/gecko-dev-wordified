@@ -1128,8 +1128,7 @@ nullptr
 }
 /
 /
-unnamed
-namespcae
+namespace
 class
 pkixocsp_VerifyEncodedResponse_successful
 :

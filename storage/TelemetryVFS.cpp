@@ -5264,6 +5264,9 @@ zName
 ;
 }
 }
+/
+/
+namespace
 namespace
 mozilla
 {
@@ -5666,4 +5669,12 @@ tvfs
 ;
 }
 }
+/
+/
+namespace
+storage
 }
+/
+/
+namespace
+mozilla

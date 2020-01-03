@@ -11304,7 +11304,6 @@ event
 }
 /
 /
-anonymous
 namespace
 /
 /

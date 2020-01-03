@@ -715,7 +715,6 @@ spacing
 }
 /
 /
-anon
 namespace
 nsFontMetrics
 :

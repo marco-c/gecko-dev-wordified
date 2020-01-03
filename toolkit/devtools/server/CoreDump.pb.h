@@ -5526,12 +5526,12 @@ protobuf
 /
 /
 namespace
-google
+protobuf
 }
 /
 /
 namespace
-protobuf
+google
 #
 endif
 /

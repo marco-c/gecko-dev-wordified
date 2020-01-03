@@ -8948,9 +8948,6 @@ ConnectionInfo
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

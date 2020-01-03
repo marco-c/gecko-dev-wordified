@@ -1141,7 +1141,6 @@ Notify
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

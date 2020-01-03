@@ -802,4 +802,12 @@ behavior
 ;
 }
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla

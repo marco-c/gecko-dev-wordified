@@ -240,7 +240,15 @@ class
 NodeInfo
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsNodeInfoManager
 final

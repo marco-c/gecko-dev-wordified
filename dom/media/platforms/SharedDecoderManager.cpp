@@ -1209,3 +1209,7 @@ IsHardwareAccelerated
 ;
 }
 }
+/
+/
+namespace
+mozilla

@@ -218,7 +218,15 @@ class
 SVGAnimationElement
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 /
 -

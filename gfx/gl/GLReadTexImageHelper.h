@@ -180,6 +180,10 @@ class
 DataSourceSurface
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 gl
 {
@@ -491,6 +495,14 @@ false
 }
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -625,6 +625,10 @@ class
 GLContext
 ;
 }
+/
+/
+namespace
+gl
 namespace
 gfx
 {
@@ -632,6 +636,10 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 dom
 {
@@ -639,6 +647,10 @@ class
 OverfillCallback
 ;
 }
+/
+/
+namespace
+dom
 namespace
 layers
 {
@@ -715,6 +727,10 @@ class
 LayersPacket
 ;
 }
+/
+/
+namespace
+layerscope
 #
 define
 MOZ_LAYER_DECL_NAME

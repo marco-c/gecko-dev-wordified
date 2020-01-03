@@ -247,6 +247,10 @@ class
 Thread
 ;
 }
+/
+/
+namespace
+base
 namespace
 mozilla
 {
@@ -257,6 +261,10 @@ class
 Shmem
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 layers
 {
@@ -927,10 +935,12 @@ mCompositorThreadHolder
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

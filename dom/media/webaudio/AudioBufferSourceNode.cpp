@@ -4761,4 +4761,12 @@ LOOP
 }
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

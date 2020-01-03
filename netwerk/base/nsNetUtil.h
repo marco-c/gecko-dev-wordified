@@ -5674,15 +5674,12 @@ val
 /
 /
 namespace
-mozilla
+net
 }
 /
 /
 namespace
 mozilla
-:
-:
-net
 /
 /
 Include

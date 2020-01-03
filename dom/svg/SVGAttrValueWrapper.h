@@ -199,6 +199,10 @@ class
 SVGTransformList
 ;
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {

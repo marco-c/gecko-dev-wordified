@@ -275,7 +275,15 @@ mCookieService
 }
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

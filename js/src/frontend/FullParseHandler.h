@@ -6885,10 +6885,12 @@ lhs
 }
 /
 /
+namespace
 frontend
 }
 /
 /
+namespace
 js
 #
 endif

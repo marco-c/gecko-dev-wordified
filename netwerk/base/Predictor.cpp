@@ -2556,7 +2556,6 @@ NS_OK
 }
 /
 /
-anon
 namespace
 #
 endif
@@ -3447,7 +3446,6 @@ mDBFile
 }
 /
 /
-anon
 namespace
 void
 Predictor
@@ -11231,15 +11229,10 @@ NS_OK
 }
 /
 /
-:
-:
-mozilla
-:
-:
+namespace
 net
 }
 /
 /
-:
-:
+namespace
 mozilla

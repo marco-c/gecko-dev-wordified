@@ -275,7 +275,6 @@ sBluetoothGattServerInterface
 }
 /
 /
-anonymous
 namespace
 bool
 BluetoothGattManager

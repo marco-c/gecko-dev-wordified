@@ -212,6 +212,10 @@ class
 Debugger
 ;
 }
+/
+/
+namespace
+js
 namespace
 JS
 {

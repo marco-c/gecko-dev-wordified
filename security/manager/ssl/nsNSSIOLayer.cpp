@@ -3251,7 +3251,6 @@ socketInfo
 }
 /
 /
-unnnamed
 namespace
 static
 PRStatus
@@ -6880,6 +6879,9 @@ bytesTransfered
 ;
 }
 }
+/
+/
+namespace
 static
 int16_t
 nsSSLIOLayerPoll

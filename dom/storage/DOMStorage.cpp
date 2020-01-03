@@ -982,7 +982,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 void
 DOMStorage
@@ -1662,12 +1661,10 @@ aKeys
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla

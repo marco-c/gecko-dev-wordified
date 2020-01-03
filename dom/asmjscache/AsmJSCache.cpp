@@ -8087,7 +8087,6 @@ AsmJSCache_Success
 }
 /
 /
-anonymous
 namespace
 typedef
 uint32_t

@@ -434,4 +434,12 @@ GetDataSurface
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

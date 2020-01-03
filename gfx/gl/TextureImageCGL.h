@@ -277,6 +277,14 @@ aImageFormat
 )
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 endif

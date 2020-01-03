@@ -641,6 +641,14 @@ mTableFreshness
 }
 ;
 }
+/
+/
+namespace
+safebrowsing
 }
+/
+/
+namespace
+mozilla
 #
 endif

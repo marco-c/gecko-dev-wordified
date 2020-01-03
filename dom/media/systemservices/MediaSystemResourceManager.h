@@ -183,6 +183,10 @@ class
 MediaSystemResourceManagerChild
 ;
 }
+/
+/
+namespace
+media
 class
 MediaSystemResourceClient
 ;

@@ -439,6 +439,10 @@ kProxyType_DIRECT
 ]
 ;
 }
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla
@@ -5236,6 +5240,10 @@ direct
 "
 ;
 }
+/
+/
+namespace
+mozilla
 const
 char
 *

@@ -1587,7 +1587,7 @@ NS_OK
 }
 /
 /
-namesapce
+namespace
 mobilemessage
 }
 /

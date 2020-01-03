@@ -864,4 +864,12 @@ Length
 ;
 }
 }
+/
+/
+namespace
+gmp
 }
+/
+/
+namespace
+mozilla

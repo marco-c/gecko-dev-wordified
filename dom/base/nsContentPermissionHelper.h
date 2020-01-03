@@ -291,6 +291,10 @@ class
 Principal
 ;
 }
+/
+/
+namespace
+IPC
 class
 VisibilityChangeListener
 final

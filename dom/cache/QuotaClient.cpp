@@ -1334,9 +1334,7 @@ override
 }
 /
 /
-anonymous
 namespace
-;
 namespace
 mozilla
 {

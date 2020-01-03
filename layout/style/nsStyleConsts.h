@@ -163,7 +163,15 @@ Side
 Side
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_FOR_CSS_SIDES

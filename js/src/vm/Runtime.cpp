@@ -474,7 +474,10 @@ gCanUseExtraThreads
 true
 ;
 }
-;
+/
+/
+namespace
+js
 void
 js
 :

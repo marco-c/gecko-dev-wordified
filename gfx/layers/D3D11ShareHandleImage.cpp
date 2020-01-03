@@ -827,13 +827,11 @@ mTexture
 }
 }
 /
-*
-layers
-*
 /
+namespace
+layers
 }
 /
-*
-mozilla
-*
 /
+namespace
+mozilla

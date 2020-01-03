@@ -2243,7 +2243,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 void
 nsCategoryManager

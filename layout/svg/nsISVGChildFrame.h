@@ -153,7 +153,15 @@ class
 Matrix
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

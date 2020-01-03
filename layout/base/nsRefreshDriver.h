@@ -271,7 +271,15 @@ class
 VsyncChild
 ;
 }
+/
+/
+namespace
+layout
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

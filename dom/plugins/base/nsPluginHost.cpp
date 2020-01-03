@@ -11488,7 +11488,6 @@ b
 }
 /
 /
-anonymous
 namespace
 void
 nsPluginHost

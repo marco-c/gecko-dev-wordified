@@ -235,6 +235,10 @@ struct
 MozPluginParameter
 ;
 }
+/
+/
+namespace
+dom
 namespace
 widget
 {
@@ -242,7 +246,15 @@ class
 PuppetWidget
 ;
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla
 using
 mozilla
 :

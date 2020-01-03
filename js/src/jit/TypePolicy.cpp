@@ -9099,7 +9099,15 @@ DEFINE_TYPE_POLICY_SINGLETON_INSTANCES_
 undef
 DEFINE_TYPE_POLICY_SINGLETON_INSTANCES_
 }
+/
+/
+namespace
+jit
 }
+/
+/
+namespace
+js
 namespace
 {
 /
@@ -9175,6 +9183,9 @@ thisTypeSpecialization
 ;
 }
 }
+/
+/
+namespace
 TypePolicy
 *
 MGetElementCache

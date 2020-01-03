@@ -3008,6 +3008,10 @@ size_t
 sSetProtoCalled
 ;
 }
+/
+/
+namespace
+js
 JS_FRIEND_API
 (
 size_t

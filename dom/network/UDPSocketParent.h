@@ -184,6 +184,10 @@ class
 PNeckoParent
 ;
 }
+/
+/
+namespace
+net
 namespace
 dom
 {

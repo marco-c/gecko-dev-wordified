@@ -13622,12 +13622,12 @@ TenuringTracer
 /
 /
 namespace
-js
+gc
 }
 /
 /
 namespace
-gc
+js
 void
 js
 :

@@ -416,7 +416,6 @@ true
 }
 /
 /
-anonymous
 namespace
 class
 IDBTransaction

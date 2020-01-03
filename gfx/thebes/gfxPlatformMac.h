@@ -125,10 +125,12 @@ VsyncSource
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla
 class
 gfxPlatformMac

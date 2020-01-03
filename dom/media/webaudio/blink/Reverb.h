@@ -328,6 +328,10 @@ class
 ThreadSharedFloatArrayBufferList
 ;
 }
+/
+/
+namespace
+mozilla
 namespace
 WebCore
 {

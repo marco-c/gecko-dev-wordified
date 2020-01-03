@@ -174,6 +174,10 @@ class
 TimeRanges
 ;
 }
+/
+/
+namespace
+dom
 namespace
 dom
 {

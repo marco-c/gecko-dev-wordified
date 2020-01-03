@@ -217,7 +217,6 @@ false
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 BluetoothHidManager

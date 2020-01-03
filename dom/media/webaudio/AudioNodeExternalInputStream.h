@@ -263,6 +263,10 @@ IsEnabled
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

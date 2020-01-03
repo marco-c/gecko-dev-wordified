@@ -290,7 +290,15 @@ class
 CookieServiceParent
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 /
 /
 hash

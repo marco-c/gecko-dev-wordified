@@ -465,9 +465,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla

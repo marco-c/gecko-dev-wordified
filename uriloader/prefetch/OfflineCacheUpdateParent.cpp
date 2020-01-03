@@ -1609,8 +1609,10 @@ NS_OK
 }
 /
 /
+namespace
 docshell
 }
 /
 /
+namespace
 mozilla

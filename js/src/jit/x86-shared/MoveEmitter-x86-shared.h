@@ -486,10 +486,12 @@ MoveEmitter
 }
 /
 /
-ion
+namespace
+jit
 }
 /
 /
+namespace
 js
 #
 endif

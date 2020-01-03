@@ -200,7 +200,6 @@ ScopedMappedView
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

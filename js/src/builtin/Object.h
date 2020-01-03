@@ -140,6 +140,10 @@ class
 Value
 ;
 }
+/
+/
+namespace
+JS
 namespace
 js
 {

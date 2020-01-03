@@ -332,10 +332,12 @@ mLookupAppCache
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

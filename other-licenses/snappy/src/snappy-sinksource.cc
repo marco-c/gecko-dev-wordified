@@ -493,3 +493,7 @@ dest_
 ;
 }
 }
+/
+/
+namespace
+snappy

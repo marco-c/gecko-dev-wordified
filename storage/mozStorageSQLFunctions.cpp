@@ -2151,7 +2151,6 @@ sqlite3_value
 }
 /
 /
-anonymous
 namespace
 /
 /

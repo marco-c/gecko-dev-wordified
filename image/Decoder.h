@@ -162,6 +162,10 @@ ID
 uint32_t
 ;
 }
+/
+/
+namespace
+Telemetry
 namespace
 image
 {

@@ -210,5 +210,9 @@ anonymize
 }
 ;
 }
+/
+/
+namespace
+xpc
 #
 endif

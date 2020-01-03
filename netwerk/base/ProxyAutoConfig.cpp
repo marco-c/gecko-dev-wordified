@@ -6763,12 +6763,9 @@ true
 /
 /
 namespace
-mozilla
+net
 }
 /
 /
 namespace
 mozilla
-:
-:
-net

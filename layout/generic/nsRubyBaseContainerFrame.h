@@ -174,6 +174,10 @@ struct
 RubyColumn
 ;
 }
+/
+/
+namespace
+mozilla
 class
 nsRubyBaseContainerFrame
 final

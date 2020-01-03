@@ -1159,7 +1159,15 @@ mHasDirtyRect
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -370,7 +370,15 @@ COORDINATE_EPSILON
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

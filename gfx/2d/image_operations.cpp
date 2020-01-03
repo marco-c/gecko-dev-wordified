@@ -1504,6 +1504,10 @@ PaddingForSIMD
 ;
 }
 }
+/
+/
+namespace
+resize
 ImageOperations
 :
 :

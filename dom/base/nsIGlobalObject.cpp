@@ -342,7 +342,6 @@ mURIs
 }
 /
 /
-anonymous
 namespace
 void
 nsIGlobalObject

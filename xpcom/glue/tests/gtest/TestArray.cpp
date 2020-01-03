@@ -504,6 +504,10 @@ foo
 }
 }
 }
+/
+/
+namespace
+TestArray
 using
 namespace
 TestArray

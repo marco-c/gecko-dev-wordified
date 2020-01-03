@@ -203,7 +203,15 @@ ssl
 }
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

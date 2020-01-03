@@ -197,7 +197,15 @@ resolveMode
 )
 ;
 }
+/
+/
+namespace
+shell
 }
+/
+/
+namespace
+js
 #
 endif
 /

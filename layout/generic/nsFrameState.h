@@ -587,6 +587,10 @@ aFrame
 #
 endif
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

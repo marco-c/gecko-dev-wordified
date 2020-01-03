@@ -335,6 +335,9 @@ KEA_NOT_SUPPORTED
 1
 ;
 }
+/
+/
+namespace
 class
 nsHTTPDownloadEvent
 :

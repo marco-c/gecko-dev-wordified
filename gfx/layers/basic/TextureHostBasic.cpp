@@ -206,4 +206,4 @@ layers
 /
 /
 namespace
-gfx
+mozilla

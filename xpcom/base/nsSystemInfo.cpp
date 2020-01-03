@@ -1078,7 +1078,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 #
 endif

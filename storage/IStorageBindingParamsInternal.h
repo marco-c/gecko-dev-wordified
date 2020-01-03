@@ -279,10 +279,12 @@ override
 }
 /
 /
+namespace
 storage
 }
 /
 /
+namespace
 mozilla
 #
 endif

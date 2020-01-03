@@ -1345,7 +1345,15 @@ GetProxyLog
 )
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

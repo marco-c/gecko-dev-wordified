@@ -423,7 +423,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 nsresult
 TimerThread

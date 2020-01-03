@@ -14136,7 +14136,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 void
 WebSocketChannel
@@ -23343,9 +23342,6 @@ endif
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

@@ -759,9 +759,6 @@ MOZ_USE_WIFI_TICKLER
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

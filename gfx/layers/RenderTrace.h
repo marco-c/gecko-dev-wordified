@@ -455,7 +455,15 @@ endif
 /
 MOZ_RENDERTRACE
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

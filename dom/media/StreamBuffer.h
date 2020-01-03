@@ -2122,6 +2122,10 @@ endif
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

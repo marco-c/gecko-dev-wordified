@@ -159,6 +159,10 @@ class
 WorkerPrivate
 ;
 }
+/
+/
+namespace
+workers
 class
 Promise
 ;

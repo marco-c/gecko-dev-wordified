@@ -283,10 +283,12 @@ mCallbackTarget
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

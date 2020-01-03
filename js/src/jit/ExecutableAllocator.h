@@ -489,6 +489,10 @@ struct
 CodeSizes
 ;
 }
+/
+/
+namespace
+JS
 namespace
 js
 {

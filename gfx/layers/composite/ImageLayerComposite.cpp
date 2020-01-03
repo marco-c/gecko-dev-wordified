@@ -1090,13 +1090,11 @@ get
 }
 }
 /
-*
-layers
-*
 /
+namespace
+layers
 }
 /
-*
-mozilla
-*
 /
+namespace
+mozilla

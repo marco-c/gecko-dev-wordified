@@ -1101,4 +1101,12 @@ mScaledFont
 #
 endif
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

@@ -521,7 +521,6 @@ b
 }
 /
 /
-anonymous
 namespace
 static
 AsyncColorChooser

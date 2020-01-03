@@ -1551,7 +1551,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 void
 NS_SetThreadName

@@ -138,6 +138,10 @@ class
 HTMLMediaElement
 ;
 }
+/
+/
+namespace
+dom
 class
 MediaDecoderOwner
 {
@@ -1052,5 +1056,9 @@ MOZ_EME
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

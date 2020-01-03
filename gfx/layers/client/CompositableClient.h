@@ -1512,9 +1512,11 @@ mCompositable
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 #
 endif

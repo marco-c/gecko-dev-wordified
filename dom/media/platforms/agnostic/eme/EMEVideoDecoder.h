@@ -296,6 +296,10 @@ mProxy
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

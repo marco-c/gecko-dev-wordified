@@ -213,6 +213,14 @@ mLastRequestor
 }
 ;
 }
+/
+/
+namespace
+jsinspector
 }
+/
+/
+namespace
+mozilla
 #
 endif

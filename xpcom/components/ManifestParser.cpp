@@ -908,7 +908,6 @@ mBuf
 }
 /
 /
-anonymous
 namespace
 /
 *
@@ -2493,7 +2492,6 @@ argv
 }
 /
 /
-anonymous
 namespace
 /
 *

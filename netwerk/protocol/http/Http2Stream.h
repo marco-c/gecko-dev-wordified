@@ -1853,9 +1853,6 @@ mPlainTextTunnel
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

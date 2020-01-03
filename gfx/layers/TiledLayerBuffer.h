@@ -1649,10 +1649,12 @@ tile
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

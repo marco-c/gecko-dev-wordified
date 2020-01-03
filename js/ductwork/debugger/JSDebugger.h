@@ -147,7 +147,15 @@ JSDebugger
 }
 ;
 }
+/
+/
+namespace
+jsdebugger
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

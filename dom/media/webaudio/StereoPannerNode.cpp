@@ -1302,4 +1302,12 @@ mPan
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

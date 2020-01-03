@@ -522,6 +522,14 @@ obj
 }
 ;
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -47606,6 +47606,9 @@ mEvent
 }
 ;
 }
+/
+/
+namespace
 nsresult
 nsDocShell
 :
@@ -54438,7 +54441,6 @@ endif
 }
 /
 /
-anonymous
 namespace
 void
 nsDocShell

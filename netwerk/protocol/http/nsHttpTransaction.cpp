@@ -14243,9 +14243,6 @@ mPeerAddr
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

@@ -212,7 +212,15 @@ class
 Element
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 struct
 nsComputedStyleMap
 ;

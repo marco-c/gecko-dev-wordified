@@ -134,6 +134,10 @@ class
 BackgroundChildImpl
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 media
 {
@@ -308,12 +312,12 @@ BackgroundChildImpl
 }
 /
 /
-namespatce
+namespace
 media
 }
 /
 /
-namespatce
+namespace
 mozilla
 #
 endif

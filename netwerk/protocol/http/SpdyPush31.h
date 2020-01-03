@@ -497,9 +497,6 @@ mBufferedHTTP1Consumed
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

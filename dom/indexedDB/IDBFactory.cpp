@@ -423,7 +423,6 @@ enabled
 }
 /
 /
-anonymous
 namespace
 class
 IDBFactory

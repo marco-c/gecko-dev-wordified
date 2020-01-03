@@ -245,6 +245,10 @@ class
 PBrowserOrId
 ;
 }
+/
+/
+namespace
+dom
 namespace
 net
 {

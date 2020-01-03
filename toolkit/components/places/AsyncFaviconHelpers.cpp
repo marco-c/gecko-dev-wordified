@@ -2284,9 +2284,7 @@ NS_OK
 }
 /
 /
-Anonymous
 namespace
-.
 /
 /
 /

@@ -2178,10 +2178,12 @@ mEntry
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

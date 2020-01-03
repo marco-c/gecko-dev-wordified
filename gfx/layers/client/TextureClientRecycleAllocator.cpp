@@ -1400,4 +1400,12 @@ aAllocFlags
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

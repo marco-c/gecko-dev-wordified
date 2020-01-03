@@ -157,7 +157,15 @@ class
 SVGFilterElement
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

@@ -612,7 +612,6 @@ mOriginAttributes
 }
 /
 /
-anonymous
 namespace
 bool
 OriginAttributes

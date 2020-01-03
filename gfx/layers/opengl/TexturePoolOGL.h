@@ -244,10 +244,12 @@ Shutdown
 }
 /
 /
+namespace
 gl
 }
 /
 /
+namespace
 mozilla
 #
 endif

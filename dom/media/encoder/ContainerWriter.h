@@ -502,5 +502,9 @@ mIsWritingComplete
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

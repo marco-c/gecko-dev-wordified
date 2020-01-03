@@ -298,7 +298,6 @@ NS_IsMainThread
 }
 /
 /
-anonymous
 namespace
 PermissionRequestBase
 :

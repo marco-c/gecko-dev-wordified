@@ -223,7 +223,15 @@ struct
 CameraConfiguration
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 typedef
 nsTArray
 <

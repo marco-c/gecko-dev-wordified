@@ -10465,11 +10465,8 @@ Match_RightMinusLeft
 ;
 }
 /
-*
-namespace
-anonymous
-*
 /
+namespace
 /
 *
 *

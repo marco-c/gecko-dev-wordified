@@ -1739,4 +1739,12 @@ aType
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

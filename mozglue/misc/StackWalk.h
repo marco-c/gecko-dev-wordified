@@ -1187,6 +1187,10 @@ aStackEnd
 ;
 }
 /
+/
+namespace
+mozilla
+/
 *
 *
 *

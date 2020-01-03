@@ -193,6 +193,10 @@ class
 ShadowLayerForwarder
 ;
 }
+/
+/
+namespace
+layout
 namespace
 layers
 {

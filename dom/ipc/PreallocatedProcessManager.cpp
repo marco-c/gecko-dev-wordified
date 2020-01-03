@@ -1982,7 +1982,6 @@ Singleton
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

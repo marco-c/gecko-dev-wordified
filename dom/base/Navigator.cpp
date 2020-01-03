@@ -3979,7 +3979,6 @@ capture
 }
 /
 /
-anonymous
 namespace
 void
 Navigator

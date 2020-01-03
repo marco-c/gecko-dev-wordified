@@ -225,8 +225,10 @@ i
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

@@ -265,6 +265,10 @@ class
 ParseNode
 ;
 }
+/
+/
+namespace
+frontend
 typedef
 frontend
 :

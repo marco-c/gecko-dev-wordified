@@ -779,6 +779,10 @@ mVibrantRegions
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

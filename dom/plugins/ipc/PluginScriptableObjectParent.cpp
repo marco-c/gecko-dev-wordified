@@ -794,7 +794,6 @@ aVariant
 }
 /
 /
-anonymous
 namespace
 /
 /

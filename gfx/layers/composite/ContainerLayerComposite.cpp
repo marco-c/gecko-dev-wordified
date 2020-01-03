@@ -4822,13 +4822,11 @@ nullptr
 }
 }
 /
-*
-layers
-*
 /
+namespace
+layers
 }
 /
-*
-mozilla
-*
 /
+namespace
+mozilla

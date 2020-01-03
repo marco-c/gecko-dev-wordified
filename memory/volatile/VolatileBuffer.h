@@ -845,13 +845,10 @@ delete
 }
 ;
 }
-;
 /
-*
+/
 namespace
 mozilla
-*
-/
 #
 endif
 /

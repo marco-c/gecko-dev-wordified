@@ -193,6 +193,10 @@ class
 RemoteSpellcheckEngineChild
 ;
 }
+/
+/
+namespace
+mozilla
 class
 mozSpellChecker
 :

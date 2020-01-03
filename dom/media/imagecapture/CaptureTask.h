@@ -146,6 +146,10 @@ ImageCapture
 ;
 }
 /
+/
+namespace
+dom
+/
 *
 *
 *

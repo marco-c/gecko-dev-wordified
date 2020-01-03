@@ -459,6 +459,10 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -2728,10 +2732,12 @@ CompositorParent
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

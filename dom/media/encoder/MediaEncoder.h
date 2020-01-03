@@ -1065,5 +1065,9 @@ ToMilliseconds
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

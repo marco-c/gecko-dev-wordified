@@ -585,6 +585,10 @@ class
 VRHMDInfo
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {

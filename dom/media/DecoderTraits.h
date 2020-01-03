@@ -486,5 +486,9 @@ aType
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

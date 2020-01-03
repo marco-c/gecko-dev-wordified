@@ -1298,7 +1298,15 @@ mSaveMatrix
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

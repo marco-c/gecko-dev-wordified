@@ -8652,7 +8652,6 @@ nsITimerCallback
 }
 /
 /
-anonymous
 namespace
 void
 ContentParent
@@ -10450,7 +10449,6 @@ sNestedBrowserIds
 }
 /
 /
-anonymous
 namespace
 bool
 ContentParent
@@ -10747,6 +10745,9 @@ mObj
 }
 ;
 }
+/
+/
+namespace
 void
 ContentParent
 :

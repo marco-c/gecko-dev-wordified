@@ -1313,7 +1313,15 @@ mDummySurface
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

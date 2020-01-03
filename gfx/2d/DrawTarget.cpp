@@ -247,4 +247,12 @@ aTransform
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

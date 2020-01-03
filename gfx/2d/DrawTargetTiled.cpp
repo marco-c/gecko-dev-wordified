@@ -2567,4 +2567,12 @@ aDrawOptions
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

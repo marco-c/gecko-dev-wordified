@@ -137,7 +137,15 @@ class
 Animation
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_IANIMATION_OBSERVER_IID

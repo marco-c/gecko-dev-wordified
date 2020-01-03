@@ -229,7 +229,6 @@ size_t
 }
 /
 /
-anonymous
 namespace
 WorkerThreadFriendKey
 :

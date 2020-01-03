@@ -175,6 +175,10 @@ class
 PrincipalInfo
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {

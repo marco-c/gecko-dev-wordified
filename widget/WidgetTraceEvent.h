@@ -178,6 +178,10 @@ SignalTracerThread
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

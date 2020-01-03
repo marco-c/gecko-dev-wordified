@@ -1406,3 +1406,7 @@ mChannels
 {
 }
 }
+/
+/
+namespace
+mozilla

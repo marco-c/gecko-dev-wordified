@@ -182,7 +182,15 @@ struct
 NativePropertyHooks
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 ShimInterfaceInfo
 final

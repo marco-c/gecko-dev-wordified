@@ -318,6 +318,10 @@ class
 Matrix4x4
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -991,6 +995,14 @@ mOverlay
 #
 endif
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

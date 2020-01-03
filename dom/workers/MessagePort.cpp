@@ -440,7 +440,6 @@ aWorkerPrivate
 }
 /
 /
-anonymous
 namespace
 BEGIN_WORKERS_NAMESPACE
 MessagePort

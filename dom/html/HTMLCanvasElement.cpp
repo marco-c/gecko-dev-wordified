@@ -427,7 +427,6 @@ HTMLImageOrCanvasOrVideoElement
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

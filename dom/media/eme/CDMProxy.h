@@ -200,6 +200,10 @@ class
 MediaKeySession
 ;
 }
+/
+/
+namespace
+dom
 struct
 DecryptResult
 {

@@ -9710,6 +9710,10 @@ cx
 ;
 }
 /
+/
+namespace
+JS
+/
 *
 *
 Initialize
@@ -26559,6 +26563,10 @@ AutoSetAsyncStackForNewCalls
 }
 ;
 }
+/
+/
+namespace
+JS
 /
 *
 *

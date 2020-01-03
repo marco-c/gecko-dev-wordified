@@ -282,6 +282,9 @@ M
 }
 /
 /
+namespace
+/
+/
 Not
 defining
 as
@@ -869,9 +872,6 @@ management
 methods
 namespace
 {
-/
-/
-anon
 /
 /
 WalkCacheRunnable
@@ -2560,7 +2560,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 void
 CacheStorageService
 :
@@ -2634,9 +2634,6 @@ nullptr
 }
 namespace
 {
-/
-/
-anon
 class
 CleaupCacheDirectoriesRunnable
 :
@@ -3048,7 +3045,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 /
 /
 static
@@ -3985,9 +3982,6 @@ structures
 .
 namespace
 {
-/
-/
-anon
 class
 FrecencyComparator
 {
@@ -4119,7 +4113,7 @@ GetExpirationTime
 }
 /
 /
-anon
+namespace
 void
 CacheStorageService
 :
@@ -5390,9 +5384,6 @@ validUntil
 }
 namespace
 {
-/
-/
-anon
 PLDHashOperator
 PruneForcedValidEntries
 (
@@ -5440,7 +5431,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 /
 /
 Cleans
@@ -7722,9 +7713,6 @@ NS_OK
 }
 namespace
 {
-/
-/
-anon
 class
 CacheEntryDoomByKeyCallback
 :
@@ -7960,7 +7948,7 @@ nsIRunnable
 }
 /
 /
-anon
+namespace
 nsresult
 CacheStorageService
 :
@@ -9651,9 +9639,6 @@ Telementry
 collection
 namespace
 {
-/
-/
-anon
 bool
 TelemetryEntryKey
 (
@@ -9845,7 +9830,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 void
 CacheStorageService
 :
@@ -10439,9 +10424,6 @@ mallocSizeOf
 }
 namespace
 {
-/
-/
-anon
 class
 ReportStorageMemoryData
 {
@@ -10764,7 +10746,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 NS_IMETHODIMP
 CacheStorageService
 :
@@ -11052,8 +11034,10 @@ NS_OK
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

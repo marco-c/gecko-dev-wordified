@@ -25,6 +25,10 @@ ShutdownNetModuleStandalone
 )
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

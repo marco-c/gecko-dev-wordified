@@ -216,7 +216,15 @@ class
 StyleRule
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 /
 /
 Interface

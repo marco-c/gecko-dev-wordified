@@ -1287,6 +1287,10 @@ endif
 #
 endif
 }
+/
+/
+namespace
+sse_private
 #
 if
 defined
@@ -1786,6 +1790,10 @@ false
 #
 endif
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -170,6 +170,10 @@ class
 SampleIterator
 ;
 }
+/
+/
+namespace
+mp4_demuxer
 namespace
 mozilla
 {

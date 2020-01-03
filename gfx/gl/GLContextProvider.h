@@ -333,6 +333,14 @@ endif
 undef
 IN_GL_CONTEXT_PROVIDER_H
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 endif

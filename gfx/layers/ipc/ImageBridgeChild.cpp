@@ -586,6 +586,10 @@ class
 Shmem
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 layers
 {
@@ -5176,8 +5180,10 @@ SendPendingAsyncMessges
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla

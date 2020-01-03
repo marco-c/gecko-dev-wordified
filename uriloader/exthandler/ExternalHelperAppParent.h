@@ -164,6 +164,10 @@ class
 URI
 ;
 }
+/
+/
+namespace
+IPC
 namespace
 mozilla
 {

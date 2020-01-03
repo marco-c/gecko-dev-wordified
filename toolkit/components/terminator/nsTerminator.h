@@ -210,6 +210,10 @@ mCurrentStep
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_TOOLKIT_TERMINATOR_CID

@@ -2171,4 +2171,12 @@ mWriteIndex
 }
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

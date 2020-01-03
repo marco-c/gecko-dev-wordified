@@ -260,10 +260,12 @@ mTextureClient
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

@@ -778,7 +778,15 @@ class
 VRHMDInfo
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 /
 /
 Struct

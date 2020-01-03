@@ -518,6 +518,9 @@ result
 ;
 }
 }
+/
+/
+namespace
 namespace
 mozilla
 {
@@ -2189,4 +2192,12 @@ forget
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

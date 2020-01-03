@@ -170,6 +170,10 @@ class
 Client
 ;
 }
+/
+/
+namespace
+quota
 namespace
 asmjscache
 {

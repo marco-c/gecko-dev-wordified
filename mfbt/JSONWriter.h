@@ -1065,6 +1065,10 @@ gTwoCharEscapes
 ]
 ;
 }
+/
+/
+namespace
+detail
 class
 JSONWriter
 {

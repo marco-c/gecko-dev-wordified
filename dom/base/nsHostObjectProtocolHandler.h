@@ -208,7 +208,15 @@ class
 MediaSource
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsHostObjectProtocolHandler
 :

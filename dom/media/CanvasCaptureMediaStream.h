@@ -132,6 +132,10 @@ class
 Image
 ;
 }
+/
+/
+namespace
+layers
 namespace
 dom
 {

@@ -6258,7 +6258,6 @@ mStream
 }
 /
 /
-anonymous
 namespace
 StaticAutoPtr
 <

@@ -139,7 +139,15 @@ class
 PrefSetting
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 void
 pref_savePrefs
 (

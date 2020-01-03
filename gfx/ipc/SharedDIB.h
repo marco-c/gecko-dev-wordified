@@ -280,10 +280,12 @@ mShMem
 }
 /
 /
+namespace
 gfx
 }
 /
 /
+namespace
 mozilla
 #
 endif

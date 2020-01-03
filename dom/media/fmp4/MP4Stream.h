@@ -508,5 +508,9 @@ mCache
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

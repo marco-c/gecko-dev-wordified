@@ -187,7 +187,15 @@ class
 Loader
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 class
 nsLayoutStylesheetCache
 final

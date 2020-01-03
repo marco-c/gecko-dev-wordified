@@ -2998,7 +2998,6 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 /
 /
-anonymous
 namespace
 static
 inline

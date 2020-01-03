@@ -5941,7 +5941,15 @@ fGetStringi
 }
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

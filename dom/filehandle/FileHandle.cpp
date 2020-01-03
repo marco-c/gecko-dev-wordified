@@ -768,7 +768,6 @@ mStream
 }
 /
 /
-anonymous
 namespace
 FileHandleBase
 :

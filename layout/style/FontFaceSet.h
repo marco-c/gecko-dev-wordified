@@ -183,6 +183,10 @@ class
 FontFamilyListRefCnt
 ;
 }
+/
+/
+namespace
+css
 namespace
 dom
 {
@@ -193,7 +197,15 @@ class
 Promise
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {

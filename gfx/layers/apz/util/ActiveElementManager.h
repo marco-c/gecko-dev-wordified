@@ -129,6 +129,10 @@ class
 EventTarget
 ;
 }
+/
+/
+namespace
+dom
 namespace
 layers
 {
@@ -625,7 +629,15 @@ CancelTask
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

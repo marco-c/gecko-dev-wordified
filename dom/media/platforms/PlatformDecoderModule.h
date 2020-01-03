@@ -183,6 +183,10 @@ class
 ImageContainer
 ;
 }
+/
+/
+namespace
+layers
 class
 MediaDataDecoder
 ;

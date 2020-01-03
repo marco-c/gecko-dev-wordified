@@ -10453,7 +10453,6 @@ mCallback
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 nsDownloadManager

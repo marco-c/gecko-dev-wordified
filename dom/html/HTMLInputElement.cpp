@@ -2053,7 +2053,6 @@ forget
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 HTMLInputElement

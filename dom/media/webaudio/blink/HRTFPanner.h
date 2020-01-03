@@ -275,6 +275,10 @@ struct
 AudioChunk
 ;
 }
+/
+/
+namespace
+mozilla
 namespace
 WebCore
 {

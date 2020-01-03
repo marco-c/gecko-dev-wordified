@@ -4640,4 +4640,12 @@ forget
 undef
 CLEANUP_IF_GLERROR_OCCURRED
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla

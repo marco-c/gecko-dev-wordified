@@ -246,7 +246,15 @@ class
 FlattenedChildIterator
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsCSSFrameConstructor
 :

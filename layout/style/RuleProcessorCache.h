@@ -206,7 +206,15 @@ class
 DocumentRule
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {

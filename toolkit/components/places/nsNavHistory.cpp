@@ -1347,7 +1347,6 @@ mNavHistory
 }
 /
 /
-anonymouse
 namespace
 /
 /
@@ -3318,7 +3317,6 @@ mLastVisitDate
 }
 /
 /
-anonymous
 namespace
 void
 nsNavHistory
@@ -6124,7 +6122,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 nsresult
 nsNavHistory
@@ -19692,7 +19689,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 nsresult
 nsNavHistory
@@ -28119,7 +28115,6 @@ queryTerms
 }
 /
 /
-anonymous
 namespace
 nsresult
 nsNavHistory
@@ -28422,7 +28417,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 nsresult
 nsNavHistory

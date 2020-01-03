@@ -2986,3 +2986,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
+/
+/
+namespace
+mozilla

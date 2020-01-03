@@ -415,6 +415,10 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }
+/
+/
+namespace
+mozilla
 float
 DOMSVGPoint
 :

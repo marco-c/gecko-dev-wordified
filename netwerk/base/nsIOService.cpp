@@ -10187,6 +10187,9 @@ mState
 }
 ;
 }
+/
+/
+namespace
 NS_IMETHODIMP
 nsIOService
 :

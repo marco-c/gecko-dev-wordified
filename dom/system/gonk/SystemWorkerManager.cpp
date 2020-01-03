@@ -397,7 +397,6 @@ nullptr
 }
 /
 /
-anonymous
 namespace
 SystemWorkerManager
 :

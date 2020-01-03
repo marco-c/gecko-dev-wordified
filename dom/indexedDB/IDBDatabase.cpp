@@ -927,7 +927,6 @@ endif
 }
 /
 /
-anonymous
 namespace
 class
 IDBDatabase

@@ -258,6 +258,10 @@ MOZ_EXPORT
 GraphicBuffer
 ;
 }
+/
+/
+namespace
+android
 namespace
 mozilla
 {
@@ -1497,10 +1501,12 @@ a
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 #
 endif
 /

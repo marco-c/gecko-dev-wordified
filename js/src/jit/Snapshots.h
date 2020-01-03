@@ -2599,7 +2599,15 @@ resumeAfter_
 }
 ;
 }
+/
+/
+namespace
+jit
 }
+/
+/
+namespace
+js
 #
 endif
 /

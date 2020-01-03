@@ -482,5 +482,9 @@ mChannels
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

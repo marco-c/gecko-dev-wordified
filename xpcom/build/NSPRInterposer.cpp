@@ -643,7 +643,6 @@ aInfo
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

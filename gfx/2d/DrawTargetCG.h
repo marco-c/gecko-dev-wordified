@@ -1306,6 +1306,14 @@ mMayContainInvalidPremultipliedData
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif

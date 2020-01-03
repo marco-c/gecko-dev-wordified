@@ -191,6 +191,10 @@ class
 PBackgroundParent
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {

@@ -1471,5 +1471,9 @@ mIsMP3
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

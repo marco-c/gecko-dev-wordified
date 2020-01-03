@@ -170,6 +170,10 @@ class
 DelayNodeEngine
 ;
 }
+/
+/
+namespace
+dom
 class
 AudioNodeStream
 ;
@@ -2307,6 +2311,10 @@ mOutputCount
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

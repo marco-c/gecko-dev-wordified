@@ -175,6 +175,10 @@ HTMLMediaElement
 ;
 }
 /
+/
+namespace
+dom
+/
 *
 *
 *
@@ -779,6 +783,10 @@ mImageSizeChanged
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -1500,6 +1500,10 @@ NS_OK
 }
 /
 /
+namespace
+PlacesFolderConversion
+/
+/
 nsNavHistory
 :
 :

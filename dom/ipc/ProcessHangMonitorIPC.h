@@ -175,6 +175,10 @@ class
 ContentParent
 ;
 }
+/
+/
+namespace
+dom
 PProcessHangMonitorParent
 *
 CreateHangMonitorParent

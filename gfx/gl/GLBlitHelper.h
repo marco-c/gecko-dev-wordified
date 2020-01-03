@@ -183,6 +183,10 @@ class
 EGLImageImage
 ;
 }
+/
+/
+namespace
+layers
 namespace
 gl
 {

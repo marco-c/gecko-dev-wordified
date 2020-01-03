@@ -5688,6 +5688,10 @@ numFrames
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 define
 X86_OR_PPC

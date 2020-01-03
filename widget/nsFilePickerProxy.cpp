@@ -1008,7 +1008,6 @@ nsISimpleEnumerator
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 nsFilePickerProxy

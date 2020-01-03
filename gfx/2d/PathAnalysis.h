@@ -300,4 +300,12 @@ mPathOps
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

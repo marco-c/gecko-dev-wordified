@@ -188,7 +188,15 @@ struct
 CSP
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 =

@@ -412,6 +412,9 @@ h
 }
 ;
 }
+/
+/
+namespace
 namespace
 mozilla
 {
@@ -422,6 +425,10 @@ class
 ContentParent
 ;
 }
+/
+/
+namespace
+dom
 namespace
 net
 {
@@ -429,6 +436,10 @@ class
 NeckoParent
 ;
 }
+/
+/
+namespace
+net
 namespace
 ipc
 {

@@ -446,7 +446,6 @@ mShouldClearSessionCache
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla
@@ -655,7 +654,6 @@ gPrivateState
 }
 /
 /
-anonymous
 namespace
 NS_IMPL_ISUPPORTS
 (

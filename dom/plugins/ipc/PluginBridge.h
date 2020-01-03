@@ -117,6 +117,10 @@ class
 ContentParent
 ;
 }
+/
+/
+namespace
+dom
 namespace
 plugins
 {

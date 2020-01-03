@@ -1019,6 +1019,10 @@ struct
 RuntimeStats
 ;
 }
+/
+/
+namespace
+JS
 #
 define
 XPCONNECT_GLOBAL_FLAGS_WITH_EXTRA_SLOTS

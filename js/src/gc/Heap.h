@@ -261,7 +261,15 @@ struct
 Runtime
 ;
 }
+/
+/
+namespace
+shadow
 }
+/
+/
+namespace
+JS
 namespace
 js
 {

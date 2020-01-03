@@ -198,7 +198,10 @@ class
 EventTarget
 ;
 }
-;
+/
+/
+namespace
+dom
 template
 <
 typename

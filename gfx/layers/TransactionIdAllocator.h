@@ -332,7 +332,15 @@ GetTransactionStart
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

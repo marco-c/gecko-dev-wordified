@@ -198,6 +198,14 @@ aScreenRect
 #
 endif
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

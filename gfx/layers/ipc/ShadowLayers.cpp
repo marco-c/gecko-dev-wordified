@@ -432,6 +432,10 @@ class
 Shmem
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 layers
 {

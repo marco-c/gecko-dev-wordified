@@ -146,6 +146,10 @@ class
 PrincipalInfo
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {
@@ -281,7 +285,7 @@ aActor
 }
 /
 /
-namesapce
+namespace
 cache
 }
 /

@@ -1216,7 +1216,6 @@ FreeTransfer
 }
 /
 /
-anonymous
 namespace
 bool
 ReadStructuredCloneWithTransfer
@@ -1577,15 +1576,15 @@ Clear
 }
 /
 /
+namespace
 messageport
-namespace
 }
 /
 /
+namespace
 dom
-namespace
 }
 /
 /
-mozilla
 namespace
+mozilla

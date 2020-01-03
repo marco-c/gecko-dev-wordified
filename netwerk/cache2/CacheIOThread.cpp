@@ -1775,8 +1775,10 @@ mallocSizeOf
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

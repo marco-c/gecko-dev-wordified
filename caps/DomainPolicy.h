@@ -151,7 +151,10 @@ class
 URIParams
 ;
 }
-;
+/
+/
+namespace
+ipc
 enum
 DomainSetChangeType
 {

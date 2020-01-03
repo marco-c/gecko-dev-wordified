@@ -2193,7 +2193,6 @@ sVibratorRunnable
 }
 /
 /
-anonymous
 namespace
 void
 Vibrate
@@ -2630,7 +2629,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 class
 BatteryObserver
@@ -4203,7 +4201,6 @@ sInternalLockCpuCount
 }
 /
 /
-anonymous
 namespace
 bool
 GetScreenEnabled
@@ -11859,7 +11856,6 @@ mThreadPriority
 }
 /
 /
-anonymous
 namespace
 void
 SetCurrentThreadPriority

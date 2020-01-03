@@ -242,7 +242,15 @@ EmptyGarbage
 }
 ;
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

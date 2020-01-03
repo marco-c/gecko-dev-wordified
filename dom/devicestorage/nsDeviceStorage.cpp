@@ -720,6 +720,10 @@ PR_Close
 )
 ;
 }
+/
+/
+namespace
+mozilla
 StaticAutoPtr
 <
 DeviceStorageUsedSpaceCache

@@ -221,6 +221,10 @@ class
 SVGSVGElement
 ;
 }
+/
+/
+namespace
+dom
 namespace
 image
 {

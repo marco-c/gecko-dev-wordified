@@ -264,7 +264,6 @@ aCx
 }
 /
 /
-anonymous
 namespace
 #
 ifdef

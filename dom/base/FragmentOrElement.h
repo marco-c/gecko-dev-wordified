@@ -275,7 +275,15 @@ class
 Element
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

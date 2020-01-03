@@ -269,6 +269,7 @@ mHeld
 }
 /
 /
+namespace
 mozilla
 #
 endif

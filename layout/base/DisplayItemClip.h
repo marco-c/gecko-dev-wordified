@@ -148,7 +148,15 @@ class
 Path
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {
@@ -1356,6 +1364,10 @@ mHaveClipRect
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

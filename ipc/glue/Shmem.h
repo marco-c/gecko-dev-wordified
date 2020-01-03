@@ -550,6 +550,10 @@ class
 ShadowLayerForwarder
 ;
 }
+/
+/
+namespace
+layers
 namespace
 ipc
 {

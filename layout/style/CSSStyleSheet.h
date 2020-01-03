@@ -299,6 +299,10 @@ class
 ImportRule
 ;
 }
+/
+/
+namespace
+css
 namespace
 dom
 {
@@ -306,6 +310,10 @@ class
 CSSRuleList
 ;
 }
+/
+/
+namespace
+dom
 /
 /
 -

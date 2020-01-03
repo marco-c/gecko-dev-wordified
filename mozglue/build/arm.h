@@ -662,6 +662,10 @@ endif
 #
 endif
 }
+/
+/
+namespace
+arm_private
 #
 if
 defined
@@ -903,6 +907,10 @@ false
 #
 endif
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

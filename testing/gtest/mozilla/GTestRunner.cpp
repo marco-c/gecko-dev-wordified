@@ -953,3 +953,7 @@ RunGTestFunc
 InitRunGTest
 ;
 }
+/
+/
+namespace
+mozilla

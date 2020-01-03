@@ -945,6 +945,10 @@ mAtIntraLevelWhitespace
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

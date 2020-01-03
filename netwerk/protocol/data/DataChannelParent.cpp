@@ -398,9 +398,9 @@ called
 /
 /
 namespace
-mozilla
+net
 }
 /
 /
 namespace
-net
+mozilla

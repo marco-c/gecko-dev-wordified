@@ -2541,7 +2541,6 @@ sMozNestedEnabled
 }
 /
 /
-anonymous
 namespace
 /
 *

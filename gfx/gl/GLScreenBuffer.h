@@ -269,6 +269,10 @@ class
 SharedSurfaceTextureClient
 ;
 }
+/
+/
+namespace
+layers
 namespace
 gl
 {

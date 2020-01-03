@@ -684,4 +684,12 @@ mImageSurface
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

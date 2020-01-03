@@ -296,7 +296,6 @@ BUILD_CTYPES
 }
 /
 /
-anonymous
 namespace
 BEGIN_WORKERS_NAMESPACE
 bool

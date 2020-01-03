@@ -3092,4 +3092,12 @@ mAGenericAttribs
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

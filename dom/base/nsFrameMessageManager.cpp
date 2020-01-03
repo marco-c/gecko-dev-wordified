@@ -7923,7 +7923,6 @@ mMessageCounter
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

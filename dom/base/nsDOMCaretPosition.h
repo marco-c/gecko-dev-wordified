@@ -158,7 +158,15 @@ class
 DOMRect
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

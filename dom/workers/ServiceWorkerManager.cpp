@@ -1645,7 +1645,6 @@ mActor
 }
 /
 /
-anonymous
 namespace
 NS_IMPL_ISUPPORTS0
 (
@@ -4152,7 +4151,6 @@ PropagateRemoveAllRunnable
 }
 /
 /
-anonymous
 namespace
 class
 ServiceWorkerRegisterJob
@@ -8579,10 +8577,8 @@ forget
 ;
 }
 }
-;
 /
 /
-anonymous
 namespace
 /
 *
@@ -20430,7 +20426,6 @@ PL_DHASH_NEXT
 }
 /
 /
-anonymous
 namespace
 void
 ServiceWorkerManager
@@ -22339,7 +22334,6 @@ PL_DHASH_NEXT
 }
 /
 /
-anonymous
 namespace
 NS_IMPL_ISUPPORTS
 (

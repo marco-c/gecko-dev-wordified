@@ -5500,9 +5500,6 @@ true
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

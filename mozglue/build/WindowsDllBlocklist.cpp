@@ -4601,7 +4601,6 @@ NtDllIntercept
 }
 /
 /
-anonymous
 namespace
 NS_EXPORT
 void

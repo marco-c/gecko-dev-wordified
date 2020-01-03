@@ -2064,7 +2064,6 @@ srv
 }
 /
 /
-anonymous
 namespace
 /
 /
@@ -2849,7 +2848,6 @@ mCallback
 }
 /
 /
-anonymous
 namespace
 /
 /

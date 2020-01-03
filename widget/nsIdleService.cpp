@@ -2778,6 +2778,9 @@ nsIdleService
 gIdleService
 ;
 }
+/
+/
+namespace
 already_AddRefed
 <
 nsIdleService

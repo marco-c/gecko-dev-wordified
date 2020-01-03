@@ -1441,6 +1441,10 @@ RunGTest
 0
 ;
 }
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla
@@ -9825,7 +9829,6 @@ mRv
 }
 /
 /
-anonymous
 namespace
 static
 ReturnAbortOnError
@@ -19747,6 +19750,10 @@ gShutdownChecks
 SCM_NOTHING
 ;
 }
+/
+/
+namespace
+mozilla
 static
 void
 SetShutdownChecks

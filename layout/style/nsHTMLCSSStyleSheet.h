@@ -161,7 +161,15 @@ class
 Element
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsHTMLCSSStyleSheet
 final

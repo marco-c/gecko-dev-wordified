@@ -443,6 +443,10 @@ SpecialValueHandler
 }
 /
 /
+namespace
+DecimalPrivate
+/
+/
 This
 class
 represents
@@ -1490,6 +1494,10 @@ Decimal
 Decimal
 ;
 }
+/
+/
+namespace
+mozilla
 #
 undef
 WTF_MAKE_FAST_ALLOCATED

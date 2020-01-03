@@ -246,7 +246,15 @@ class
 OptionalContentId
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 BEGIN_QUOTA_NAMESPACE
 class
 DirectoryLockImpl

@@ -473,4 +473,12 @@ GetDevicePixelHeight
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

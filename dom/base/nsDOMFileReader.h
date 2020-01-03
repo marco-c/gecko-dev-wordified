@@ -237,7 +237,15 @@ class
 Blob
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsDOMFileReader
 final

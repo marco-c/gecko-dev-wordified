@@ -429,7 +429,6 @@ ScopedActCtxHandle
 }
 /
 /
-anonymous
 namespace
 #
 endif

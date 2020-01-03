@@ -321,6 +321,10 @@ mRect
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

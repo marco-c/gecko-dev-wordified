@@ -190,7 +190,6 @@ false
 }
 /
 /
-anonymous
 namespace
 /
 *

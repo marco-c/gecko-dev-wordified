@@ -167,7 +167,15 @@ class
 FileDescriptor
 ;
 }
+/
+/
+namespace
+ipc
 }
+/
+/
+namespace
+mozilla
 class
 NS_NO_VTABLE
 nsICachedFileDescriptorListener

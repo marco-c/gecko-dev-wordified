@@ -152,6 +152,9 @@ mCount
 }
 ;
 }
+/
+/
+namespace
 namespace
 mozilla
 {
@@ -777,3 +780,7 @@ result
 ;
 }
 }
+/
+/
+namespace
+mozilla

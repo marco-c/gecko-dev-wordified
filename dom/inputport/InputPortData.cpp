@@ -213,7 +213,6 @@ EndGuard_
 /
 /
 namespace
-anonymous
 NS_IMPL_ISUPPORTS
 (
 InputPortData

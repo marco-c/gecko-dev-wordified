@@ -4293,7 +4293,6 @@ clear
 }
 /
 /
-anonymous
 namespace
 const
 JSClass

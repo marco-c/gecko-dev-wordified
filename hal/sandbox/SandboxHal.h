@@ -142,7 +142,15 @@ CreateHalParent
 )
 ;
 }
+/
+/
+namespace
+hal_sandbox
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

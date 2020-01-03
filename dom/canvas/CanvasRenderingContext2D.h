@@ -273,6 +273,10 @@ class
 SourceSurface
 ;
 }
+/
+/
+namespace
+gl
 namespace
 dom
 {
@@ -6073,7 +6077,15 @@ CanvasDrawObserver
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

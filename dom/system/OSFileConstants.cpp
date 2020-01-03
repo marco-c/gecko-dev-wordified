@@ -1033,6 +1033,9 @@ gUserUmask
 ;
 }
 /
+/
+namespace
+/
 *
 *
 *

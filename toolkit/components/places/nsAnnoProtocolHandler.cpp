@@ -1551,7 +1551,6 @@ nsIRequestObserver
 }
 /
 /
-anonymous
 namespace
 /
 /

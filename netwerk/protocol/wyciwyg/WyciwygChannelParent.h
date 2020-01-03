@@ -122,6 +122,10 @@ class
 PBrowserParent
 ;
 }
+/
+/
+namespace
+dom
 namespace
 net
 {

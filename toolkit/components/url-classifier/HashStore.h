@@ -1209,6 +1209,14 @@ mSubCompletes
 }
 ;
 }
+/
+/
+namespace
+safebrowsing
 }
+/
+/
+namespace
+mozilla
 #
 endif

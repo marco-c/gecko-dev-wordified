@@ -266,4 +266,12 @@ mParent
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

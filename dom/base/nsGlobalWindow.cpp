@@ -3432,7 +3432,15 @@ NextWindowID
 )
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 nsPIDOMWindow
 :
 :

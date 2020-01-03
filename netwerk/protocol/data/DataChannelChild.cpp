@@ -328,9 +328,9 @@ Release
 /
 /
 namespace
-mozilla
+net
 }
 /
 /
 namespace
-net
+mozilla

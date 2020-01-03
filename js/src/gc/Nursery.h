@@ -214,6 +214,10 @@ struct
 Zone
 ;
 }
+/
+/
+namespace
+JS
 namespace
 js
 {
@@ -270,6 +274,10 @@ class
 MacroAssembler
 ;
 }
+/
+/
+namespace
+jit
 class
 TenuringTracer
 :

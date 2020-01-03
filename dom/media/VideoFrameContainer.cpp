@@ -874,3 +874,7 @@ mElement
 ;
 }
 }
+/
+/
+namespace
+mozilla

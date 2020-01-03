@@ -215,6 +215,10 @@ class
 RefQueue
 ;
 }
+/
+/
+namespace
+gl
 template
 <
 typename

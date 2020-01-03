@@ -19151,7 +19151,6 @@ mem
 }
 /
 /
-anonymous
 namespace
 void
 MemoryInitVisitor
@@ -19531,7 +19530,6 @@ mem
 }
 /
 /
-anonymous
 namespace
 void
 MemoryTracingVisitor
@@ -19788,7 +19786,6 @@ entries
 }
 /
 /
-anonymous
 namespace
 void
 TraceListVisitor

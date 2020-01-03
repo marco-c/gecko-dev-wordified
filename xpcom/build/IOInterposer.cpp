@@ -2144,7 +2144,6 @@ sThreadLocalData
 }
 /
 /
-anonymous
 namespace
 IOInterposeObserver
 :

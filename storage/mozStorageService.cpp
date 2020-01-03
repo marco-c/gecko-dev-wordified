@@ -3306,7 +3306,6 @@ nullptr
 }
 /
 /
-anonymous
 namespace
 #
 endif
@@ -4695,7 +4694,6 @@ mCallback
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 Service

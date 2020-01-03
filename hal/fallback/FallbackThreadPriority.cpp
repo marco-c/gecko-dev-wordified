@@ -145,6 +145,7 @@ aPriority
 }
 /
 /
+namespace
 hal_impl
 }
 /

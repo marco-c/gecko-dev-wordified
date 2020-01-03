@@ -9923,4 +9923,12 @@ None
 #
 endif
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

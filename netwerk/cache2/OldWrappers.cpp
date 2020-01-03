@@ -184,9 +184,6 @@ namespace
 {
 /
 /
-anon
-/
-/
 Fires
 the
 doom
@@ -506,7 +503,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 /
 /
 _OldVisitCallbackWrapper
@@ -2339,9 +2336,6 @@ NS_OK
 }
 namespace
 {
-/
-/
-anon
 class
 MetaDataVisitorWrapper
 :
@@ -2422,7 +2416,7 @@ value
 }
 /
 /
-anon
+namespace
 NS_IMETHODIMP
 _OldCacheEntryWrapper
 :
@@ -2458,9 +2452,6 @@ w
 }
 namespace
 {
-/
-/
-anon
 nsresult
 GetCacheSessionNameForStoragePolicy
 (
@@ -3168,7 +3159,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 NS_IMPL_ISUPPORTS_INHERITED
 (
 _OldCacheLoad
@@ -5743,8 +5734,10 @@ NS_OK
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

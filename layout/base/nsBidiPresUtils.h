@@ -182,6 +182,10 @@ LogicalMargin
 ;
 }
 /
+/
+namespace
+mozilla
+/
 *
 *
 *

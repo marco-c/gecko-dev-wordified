@@ -166,7 +166,15 @@ class
 DataTransfer
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 /
 /

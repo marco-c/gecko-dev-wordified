@@ -1319,6 +1319,10 @@ mExtraClipUsed
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

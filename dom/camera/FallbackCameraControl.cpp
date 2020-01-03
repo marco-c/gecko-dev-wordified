@@ -87,7 +87,15 @@ class
 GraphicBufferLocked
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

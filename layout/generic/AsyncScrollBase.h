@@ -543,6 +543,10 @@ mTimingFunctionY
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

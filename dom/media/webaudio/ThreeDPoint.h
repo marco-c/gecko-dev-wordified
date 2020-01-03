@@ -497,6 +497,14 @@ rhs
 )
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

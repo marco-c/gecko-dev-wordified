@@ -577,4 +577,12 @@ aGivenProto
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

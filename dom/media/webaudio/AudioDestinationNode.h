@@ -552,6 +552,14 @@ mExtraCurrentTimeUpdatedSinceLastStableState
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

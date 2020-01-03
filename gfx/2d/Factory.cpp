@@ -4564,4 +4564,12 @@ aNoNewline
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

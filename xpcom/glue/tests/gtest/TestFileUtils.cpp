@@ -2135,3 +2135,7 @@ ReadSysFile_PRESENT
 *
 /
 }
+/
+/
+namespace
+mozilla

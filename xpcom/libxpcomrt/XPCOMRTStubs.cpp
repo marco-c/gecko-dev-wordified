@@ -214,6 +214,10 @@ class
 Histogram
 ;
 }
+/
+/
+namespace
+base
 namespace
 mozilla
 {
@@ -313,8 +317,10 @@ nullptr
 }
 /
 /
+namespace
 Telemetry
 }
 /
 /
+namespace
 mozilla

@@ -287,4 +287,12 @@ false
 endif
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

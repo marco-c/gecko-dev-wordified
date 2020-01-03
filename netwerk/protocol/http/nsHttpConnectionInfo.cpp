@@ -1804,9 +1804,6 @@ netAddr
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

@@ -852,7 +852,6 @@ MOZ_B2G_RIL
 }
 /
 /
-anonymous
 namespace
 #
 ifdef

@@ -676,6 +676,10 @@ class
 Layer
 ;
 }
+/
+/
+namespace
+layers
 namespace
 gfx
 {
@@ -683,7 +687,15 @@ class
 Matrix
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 /
 *
 *
@@ -2834,6 +2846,10 @@ rhs
 }
 ;
 }
+/
+/
+namespace
+mozilla
 /
 /
 /

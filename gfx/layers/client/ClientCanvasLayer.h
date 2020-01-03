@@ -254,6 +254,10 @@ class
 SurfaceFactory
 ;
 }
+/
+/
+namespace
+gl
 namespace
 layers
 {
@@ -540,6 +544,14 @@ CanvasClientSharedSurface
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

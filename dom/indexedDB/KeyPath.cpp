@@ -1294,7 +1294,6 @@ rv
 }
 /
 /
-anonymous
 namespace
 /
 /

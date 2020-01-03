@@ -263,6 +263,10 @@ class
 SharedSurface
 ;
 }
+/
+/
+namespace
+gl
 namespace
 layers
 {
@@ -448,6 +452,14 @@ DiscardTempSurface
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -786,7 +786,15 @@ mMutex
 }
 ;
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

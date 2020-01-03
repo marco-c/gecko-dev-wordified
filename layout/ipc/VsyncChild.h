@@ -137,6 +137,10 @@ class
 BackgroundChildImpl
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 layout
 {
@@ -334,7 +338,7 @@ layout
 }
 /
 /
-namespatce
+namespace
 mozilla
 #
 endif

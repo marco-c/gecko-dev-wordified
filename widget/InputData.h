@@ -173,6 +173,10 @@ class
 Touch
 ;
 }
+/
+/
+namespace
+dom
 namespace
 gfx
 {
@@ -180,6 +184,10 @@ class
 Matrix4x4
 ;
 }
+/
+/
+namespace
+gfx
 enum
 InputType
 {
@@ -2936,6 +2944,10 @@ mLocalOrigin
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

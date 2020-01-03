@@ -194,6 +194,10 @@ class
 JitZone
 ;
 }
+/
+/
+namespace
+jit
 namespace
 gc
 {

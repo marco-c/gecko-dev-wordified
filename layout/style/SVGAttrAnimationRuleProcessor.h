@@ -144,6 +144,10 @@ class
 Element
 ;
 }
+/
+/
+namespace
+dom
 class
 SVGAttrAnimationRuleProcessor
 final

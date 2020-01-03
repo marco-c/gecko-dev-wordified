@@ -618,7 +618,6 @@ nsIDumpGCAndCCLogsCallback
 }
 /
 /
-anonymous
 namespace
 #
 if
@@ -1064,7 +1063,6 @@ runnable
 }
 /
 /
-anonymous
 namespace
 #
 endif
@@ -1458,7 +1456,6 @@ nullptr
 }
 /
 /
-anonymous
 namespace
 #
 endif

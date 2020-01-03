@@ -405,7 +405,6 @@ mIsConnected
 /
 /
 namespace
-anonymous
 NS_IMPL_ISUPPORTS
 (
 PortConnectionChangedCallback

@@ -5577,11 +5577,8 @@ retType_
 ;
 }
 /
-*
-namespace
-anonymous
-*
 /
+namespace
 static
 bool
 operator
@@ -45331,7 +45328,6 @@ false
 }
 /
 /
-anonymous
 namespace
 static
 void
@@ -46843,6 +46839,9 @@ true
 ;
 }
 }
+/
+/
+namespace
 template
 <
 class

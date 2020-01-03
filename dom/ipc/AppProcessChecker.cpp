@@ -250,7 +250,15 @@ class
 PContentParent
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsIPrincipal
 ;

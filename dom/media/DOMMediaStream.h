@@ -297,6 +297,10 @@ class
 MediaTrackListListener
 ;
 }
+/
+/
+namespace
+dom
 namespace
 layers
 {
@@ -307,6 +311,10 @@ class
 OverlayImage
 ;
 }
+/
+/
+namespace
+layers
 class
 MediaStreamDirectListener
 ;
@@ -2268,6 +2276,10 @@ endif
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

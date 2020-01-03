@@ -296,7 +296,15 @@ class
 TableUpdate
 ;
 }
+/
+/
+namespace
+safebrowsing
 }
+/
+/
+namespace
+mozilla
 /
 /
 This

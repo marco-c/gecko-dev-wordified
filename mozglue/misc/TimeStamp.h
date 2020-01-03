@@ -184,6 +184,10 @@ struct
 ParamTraits
 ;
 }
+/
+/
+namespace
+IPC
 #
 ifdef
 XP_WIN
@@ -3892,6 +3896,10 @@ mValue
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

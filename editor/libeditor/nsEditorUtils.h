@@ -171,7 +171,15 @@ class
 Selection
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

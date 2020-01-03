@@ -2456,3 +2456,7 @@ forget
 ;
 }
 }
+/
+/
+namespace
+mozilla

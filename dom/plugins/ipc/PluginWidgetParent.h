@@ -108,6 +108,10 @@ class
 TabParent
 ;
 }
+/
+/
+namespace
+dom
 namespace
 plugins
 {

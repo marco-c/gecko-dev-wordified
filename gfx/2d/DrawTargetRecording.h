@@ -1820,7 +1820,15 @@ mFinalDT
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

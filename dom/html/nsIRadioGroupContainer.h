@@ -143,7 +143,15 @@ class
 HTMLInputElement
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_IRADIOGROUPCONTAINER_IID

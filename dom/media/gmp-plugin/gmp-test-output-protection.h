@@ -783,8 +783,10 @@ return
 }
 /
 /
+namespace
 gmptest
 }
 /
 /
+namespace
 mozilla

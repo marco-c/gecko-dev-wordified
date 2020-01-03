@@ -772,7 +772,6 @@ aPtr
 }
 /
 /
-anonymous
 namespace
 class
 nsTimerEvent
@@ -1156,7 +1155,6 @@ entry
 }
 /
 /
-anonymous
 namespace
 NS_IMPL_QUERY_INTERFACE
 (

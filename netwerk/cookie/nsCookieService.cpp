@@ -5028,7 +5028,6 @@ nsIObserver
 }
 /
 /
-anonymous
 namespace
 size_t
 nsCookieKey
@@ -29510,7 +29509,6 @@ aOnlyBrowserElement
 }
 /
 /
-anonymous
 namespace
 /
 *

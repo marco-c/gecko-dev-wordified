@@ -545,5 +545,5 @@ dom
 }
 /
 /
-namesapce
+namespace
 mozilla

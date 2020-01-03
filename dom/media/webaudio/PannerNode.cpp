@@ -3428,4 +3428,12 @@ ComputeDopplerShift
 }
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

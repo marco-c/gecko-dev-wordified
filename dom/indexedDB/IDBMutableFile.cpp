@@ -550,7 +550,6 @@ forget
 }
 /
 /
-anonymous
 namespace
 IDBMutableFile
 :

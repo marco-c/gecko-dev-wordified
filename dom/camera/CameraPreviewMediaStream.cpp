@@ -1056,3 +1056,7 @@ event
 }
 }
 }
+/
+/
+namespace
+mozilla

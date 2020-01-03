@@ -2305,4 +2305,12 @@ mData
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

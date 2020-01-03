@@ -558,6 +558,10 @@ mUsedTracks
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

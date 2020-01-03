@@ -304,10 +304,12 @@ mAddNew
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

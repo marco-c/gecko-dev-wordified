@@ -2154,7 +2154,15 @@ aInputExtents
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

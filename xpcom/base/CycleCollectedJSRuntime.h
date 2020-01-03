@@ -194,6 +194,10 @@ struct
 Class
 ;
 }
+/
+/
+namespace
+js
 namespace
 mozilla
 {

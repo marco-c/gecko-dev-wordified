@@ -401,13 +401,11 @@ a
 }
 }
 /
-*
-layers
-*
 /
+namespace
+layers
 }
 /
-*
-mozilla
-*
 /
+namespace
+mozilla

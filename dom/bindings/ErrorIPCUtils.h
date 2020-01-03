@@ -481,5 +481,9 @@ true
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif

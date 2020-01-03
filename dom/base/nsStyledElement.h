@@ -196,7 +196,15 @@ class
 StyleRule
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 typedef
 mozilla
 :

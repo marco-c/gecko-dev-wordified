@@ -605,8 +605,10 @@ sTextures
 }
 /
 /
+namespace
 gl
 }
 /
 /
+namespace
 mozilla

@@ -2709,6 +2709,10 @@ nsRefPtrZero
 }
 /
 /
+namespace
+detail
+/
+/
 Comparing
 an
 |

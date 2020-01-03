@@ -560,9 +560,6 @@ mValues
 ;
 namespace
 {
-/
-/
-anon
 nsresult
 DropReferenceFromURL
 (
@@ -714,7 +711,6 @@ get
 }
 /
 /
-anon
 namespace
 /
 /

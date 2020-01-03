@@ -831,9 +831,6 @@ pruneProxyHeaders
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

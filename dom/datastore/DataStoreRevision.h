@@ -164,6 +164,10 @@ class
 IDBRequest
 ;
 }
+/
+/
+namespace
+indexedDB
 class
 DataStoreRevisionCallback
 ;

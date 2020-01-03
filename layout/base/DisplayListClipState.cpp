@@ -572,3 +572,7 @@ false
 {
 }
 }
+/
+/
+namespace
+mozilla

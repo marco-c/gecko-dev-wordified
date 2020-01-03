@@ -787,7 +787,15 @@ mFPSTextureSource
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

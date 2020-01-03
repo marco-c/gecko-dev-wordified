@@ -195,7 +195,15 @@ class
 ImageContainer
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 class
 nsIClearSiteDataCallback
 ;

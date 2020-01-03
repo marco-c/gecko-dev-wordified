@@ -878,7 +878,6 @@ rv
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

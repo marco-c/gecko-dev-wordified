@@ -32435,7 +32435,6 @@ nsIRunnable
 }
 /
 /
-anonymous
 namespace
 void
 nsDocument
@@ -53024,6 +53023,9 @@ mIncrease
 }
 ;
 }
+/
+/
+namespace
 static
 bool
 SuppressEventHandlingInDocument
@@ -54584,6 +54586,9 @@ StubCSSLoaderObserver
 nsICSSLoaderObserver
 )
 }
+/
+/
+namespace
 void
 nsDocument
 :
@@ -54800,6 +54805,9 @@ mDocs
 }
 ;
 }
+/
+/
+namespace
 static
 bool
 GetAndUnsuppressSubDocuments

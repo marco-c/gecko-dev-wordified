@@ -332,6 +332,10 @@ class
 GeneralPattern
 ;
 }
+/
+/
+namespace
+gfx
 }
 /
 /

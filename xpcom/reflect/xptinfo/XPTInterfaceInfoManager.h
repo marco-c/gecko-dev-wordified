@@ -571,5 +571,9 @@ mResolveLock
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

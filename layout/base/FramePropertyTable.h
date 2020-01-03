@@ -1678,6 +1678,10 @@ mFrame
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

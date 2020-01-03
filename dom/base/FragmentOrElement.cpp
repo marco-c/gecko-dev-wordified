@@ -13897,7 +13897,6 @@ mLength
 }
 /
 /
-anonymous
 namespace
 static
 void

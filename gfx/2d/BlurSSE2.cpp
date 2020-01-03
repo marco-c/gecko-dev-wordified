@@ -2564,4 +2564,12 @@ final
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

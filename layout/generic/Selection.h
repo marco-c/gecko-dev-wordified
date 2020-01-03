@@ -212,6 +212,10 @@ struct
 AutoPrepareFocusRange
 ;
 }
+/
+/
+namespace
+mozilla
 struct
 RangeData
 {

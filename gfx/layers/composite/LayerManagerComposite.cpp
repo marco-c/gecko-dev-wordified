@@ -8485,13 +8485,11 @@ MOZ_HAVE_PLATFORM_SPECIFIC_LAYER_BUFFERS
 )
 }
 /
-*
-layers
-*
 /
+namespace
+layers
 }
 /
-*
-mozilla
-*
 /
+namespace
+mozilla

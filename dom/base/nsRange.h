@@ -223,7 +223,15 @@ class
 DOMRectList
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsRange
 final

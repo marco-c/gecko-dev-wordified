@@ -329,6 +329,10 @@ struct
 MediaTrackConstraintSet
 ;
 }
+/
+/
+namespace
+dom
 extern
 PRLogModuleInfo
 *

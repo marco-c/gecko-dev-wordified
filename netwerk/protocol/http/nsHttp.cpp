@@ -2831,9 +2831,6 @@ last
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

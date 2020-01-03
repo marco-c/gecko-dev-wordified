@@ -498,7 +498,6 @@ override
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla
@@ -1296,6 +1295,9 @@ mFilter
 }
 ;
 }
+/
+/
+namespace
 auto
 BackgroundParentImpl
 :
@@ -1971,7 +1973,6 @@ mBackgroundThread
 }
 /
 /
-anonymous
 namespace
 bool
 BackgroundParentImpl

@@ -141,6 +141,10 @@ SVGSVGElement
 ;
 }
 /
+/
+namespace
+dom
+/
 *
 *
 *

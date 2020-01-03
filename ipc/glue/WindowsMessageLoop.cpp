@@ -2861,7 +2861,6 @@ res
 }
 /
 /
-anonymous
 namespace
 /
 /
@@ -4253,7 +4252,6 @@ targetTicks
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

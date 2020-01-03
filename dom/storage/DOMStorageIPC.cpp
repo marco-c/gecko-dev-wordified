@@ -1774,9 +1774,6 @@ Release
 }
 namespace
 {
-/
-/
-anon
 class
 SendInitialChildDataRunnable
 :
@@ -2006,7 +2003,7 @@ mParent
 }
 /
 /
-anon
+namespace
 DOMStorageDBParent
 :
 :
@@ -2377,9 +2374,6 @@ namespace
 {
 /
 /
-anon
-/
-/
 We
 need
 another
@@ -2697,7 +2691,7 @@ mLoadedCount
 }
 /
 /
-anon
+namespace
 bool
 DOMStorageDBParent
 :
@@ -3233,9 +3227,6 @@ namespace
 {
 /
 /
-anon
-/
-/
 Results
 must
 be
@@ -3443,7 +3434,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 /
 /
 DOMStorageDBParent
@@ -3601,9 +3592,6 @@ DOMStorageDBParent
 UsageParentBridge
 namespace
 {
-/
-/
-anon
 class
 UsageRunnable
 :
@@ -3699,7 +3687,7 @@ mUsage
 }
 /
 /
-anon
+namespace
 void
 DOMStorageDBParent
 :
@@ -3737,12 +3725,10 @@ r
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla

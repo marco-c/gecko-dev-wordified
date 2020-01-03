@@ -2693,10 +2693,12 @@ sfx
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 void
 print_stderr
 (

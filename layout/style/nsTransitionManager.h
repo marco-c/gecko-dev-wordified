@@ -165,6 +165,10 @@ StyleTransition
 ;
 }
 /
+/
+namespace
+mozilla
+/
 *
 *
 *

@@ -241,7 +241,6 @@ gSHEntrySharedID
 }
 /
 /
-anonymous
 namespace
 #
 define

@@ -560,10 +560,12 @@ ContentParent
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

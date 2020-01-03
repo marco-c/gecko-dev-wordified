@@ -1574,7 +1574,15 @@ false
 endif
 }
 }
+/
+/
+namespace
+widget
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

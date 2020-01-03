@@ -173,6 +173,10 @@ aURL
 )
 ;
 }
+/
+/
+namespace
+CommandLineServiceMac
 #
 endif
 /

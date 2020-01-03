@@ -1093,7 +1093,15 @@ class
 Selection
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsIScrollableFrame
 ;

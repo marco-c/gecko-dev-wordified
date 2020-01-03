@@ -674,10 +674,12 @@ mFatal
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

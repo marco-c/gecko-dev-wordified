@@ -1449,6 +1449,10 @@ redirectEnd
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif
 /

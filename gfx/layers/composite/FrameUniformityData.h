@@ -299,11 +299,13 @@ mFrameTransforms
 }
 /
 /
-mozilla
+namespace
+layers
 }
 /
 /
-layers
+namespace
+mozilla
 namespace
 IPC
 {
@@ -402,7 +404,8 @@ mUniformities
 }
 /
 /
-ipc
+namespace
+IPC
 #
 endif
 /

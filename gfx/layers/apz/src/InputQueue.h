@@ -1055,7 +1055,15 @@ mInputBlockQueue
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

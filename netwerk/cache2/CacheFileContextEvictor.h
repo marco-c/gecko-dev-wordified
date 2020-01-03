@@ -595,10 +595,12 @@ mEntriesDir
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

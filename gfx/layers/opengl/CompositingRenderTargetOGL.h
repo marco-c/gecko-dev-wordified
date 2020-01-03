@@ -304,6 +304,10 @@ class
 BindableTexture
 ;
 }
+/
+/
+namespace
+gl
 namespace
 gfx
 {
@@ -311,6 +315,10 @@ class
 DataSourceSurface
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -1005,7 +1013,15 @@ mFBO
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

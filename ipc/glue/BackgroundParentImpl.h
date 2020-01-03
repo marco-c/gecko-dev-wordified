@@ -92,6 +92,10 @@ class
 VsyncParent
 ;
 }
+/
+/
+namespace
+layout
 namespace
 ipc
 {

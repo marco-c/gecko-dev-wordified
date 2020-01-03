@@ -229,6 +229,10 @@ class
 SourceBufferHolder
 ;
 }
+/
+/
+namespace
+JS
 namespace
 mozilla
 {
@@ -239,7 +243,15 @@ class
 AutoJSAPI
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 /
 /

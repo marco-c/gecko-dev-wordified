@@ -88,7 +88,15 @@ class
 URIParams
 ;
 }
+/
+/
+namespace
+ipc
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_IIPCSERIALIZABLEURI_IID

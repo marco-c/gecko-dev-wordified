@@ -1361,9 +1361,6 @@ return
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

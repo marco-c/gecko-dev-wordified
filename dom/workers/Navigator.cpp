@@ -1935,7 +1935,6 @@ true
 }
 /
 /
-anonymous
 namespace
 void
 WorkerNavigator

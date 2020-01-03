@@ -391,7 +391,6 @@ mTimeoutMs
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

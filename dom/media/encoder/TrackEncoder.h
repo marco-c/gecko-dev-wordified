@@ -1753,5 +1753,9 @@ mRawSegment
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

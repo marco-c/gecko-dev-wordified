@@ -245,6 +245,10 @@ class
 Matrix
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -2831,7 +2835,15 @@ mBufferSizePolicy
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

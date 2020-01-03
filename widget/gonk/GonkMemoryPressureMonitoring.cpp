@@ -1971,7 +1971,6 @@ nsIObserver
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

@@ -3895,9 +3895,6 @@ OK
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

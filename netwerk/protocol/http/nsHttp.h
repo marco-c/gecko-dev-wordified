@@ -2274,9 +2274,6 @@ mFull
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

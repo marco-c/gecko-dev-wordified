@@ -552,11 +552,9 @@ mContext
 ;
 }
 /
-*
-namespace
-gfx
-*
 /
+namespace
+gl
 }
 /
 *

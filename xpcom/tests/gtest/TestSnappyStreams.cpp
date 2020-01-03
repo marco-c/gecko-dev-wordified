@@ -644,7 +644,6 @@ rv
 }
 /
 /
-anonymous
 namespace
 TEST
 (

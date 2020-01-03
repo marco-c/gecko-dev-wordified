@@ -750,6 +750,7 @@ endif
 }
 /
 /
+namespace
 mozilla
 #
 endif

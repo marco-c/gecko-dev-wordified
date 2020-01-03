@@ -2059,6 +2059,10 @@ runtime
 ;
 }
 }
+/
+/
+namespace
+js
 static
 void
 AssertHeapIsIdleOrIterating

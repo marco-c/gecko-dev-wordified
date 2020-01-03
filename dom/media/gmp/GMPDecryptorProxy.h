@@ -129,6 +129,10 @@ class
 CryptoSample
 ;
 }
+/
+/
+namespace
+mozilla
 class
 GMPDecryptorProxyCallback
 :

@@ -474,5 +474,9 @@ mMetadataQueue
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

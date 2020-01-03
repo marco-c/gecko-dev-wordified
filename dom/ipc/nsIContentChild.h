@@ -190,6 +190,7 @@ Principal
 }
 /
 /
+namespace
 IPC
 namespace
 mozilla
@@ -206,6 +207,7 @@ CpowEntry
 }
 /
 /
+namespace
 jsipc
 namespace
 dom
@@ -440,10 +442,12 @@ NS_ICONTENTCHILD_IID
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

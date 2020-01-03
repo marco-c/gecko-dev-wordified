@@ -1634,6 +1634,9 @@ Methods
 }
 ;
 }
+/
+/
+namespace
 const
 JSFunctionSpec
 Float32x4Defn
@@ -4755,6 +4758,10 @@ bits
 }
 ;
 }
+/
+/
+namespace
+js
 template
 <
 typename

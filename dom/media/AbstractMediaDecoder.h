@@ -172,6 +172,10 @@ class
 ImageContainer
 ;
 }
+/
+/
+namespace
+layers
 class
 MediaResource
 ;
@@ -1479,5 +1483,9 @@ mDecoder
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

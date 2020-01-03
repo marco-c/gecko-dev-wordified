@@ -2615,7 +2615,6 @@ AGPS_REF_LOCATION_TYPE_GSM_CELLID
 }
 /
 /
-anonymous
 namespace
 void
 GonkGPSGeolocationProvider
@@ -5151,7 +5150,6 @@ return
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 GonkGPSGeolocationProvider

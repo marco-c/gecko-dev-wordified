@@ -291,7 +291,6 @@ clonedPorts
 }
 /
 /
-anonymous
 namespace
 const
 JSStructuredCloneCallbacks
@@ -2429,10 +2428,10 @@ scInfo
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

@@ -461,4 +461,12 @@ aTransformToSurface
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

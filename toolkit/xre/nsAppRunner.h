@@ -572,7 +572,15 @@ GeckoProcessType
 sChildProcessType
 ;
 }
+/
+/
+namespace
+startup
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

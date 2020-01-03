@@ -1234,7 +1234,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 void
 nsFtpChannel

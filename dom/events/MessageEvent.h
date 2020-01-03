@@ -185,6 +185,10 @@ ServiceWorkerClient
 ;
 }
 /
+/
+namespace
+workers
+/
 *
 *
 *

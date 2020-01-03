@@ -152,6 +152,10 @@ class
 PluginWidgetChild
 ;
 }
+/
+/
+namespace
+plugins
 namespace
 widget
 {

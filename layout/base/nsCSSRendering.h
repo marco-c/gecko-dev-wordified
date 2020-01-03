@@ -196,6 +196,10 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -203,6 +207,10 @@ class
 ImageContainer
 ;
 }
+/
+/
+namespace
+layers
 /
 /
 A
@@ -563,6 +571,10 @@ mHasHeight
 }
 ;
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

@@ -218,9 +218,6 @@ false
 ;
 namespace
 {
-/
-/
-anon
 const
 uint32_t
 kDefaultSet
@@ -302,7 +299,7 @@ IsSessionOnly
 }
 /
 /
-anon
+namespace
 /
 /
 DOMStorageCacheBridge
@@ -774,9 +771,6 @@ IsPrivate
 }
 namespace
 {
-/
-/
-anon
 PLDHashOperator
 CloneSetData
 (
@@ -829,7 +823,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 DOMStorageCache
 :
 :
@@ -1182,9 +1176,6 @@ namespace
 {
 /
 /
-anon
-/
-/
 This
 class
 is
@@ -1273,7 +1264,7 @@ nsITimerCallback
 }
 /
 /
-anon
+namespace
 void
 DOMStorageCache
 :
@@ -1432,9 +1423,6 @@ namespace
 {
 /
 /
-anon
-/
-/
 The
 AutoTimer
 provided
@@ -1544,7 +1532,7 @@ start
 }
 /
 /
-anon
+namespace
 void
 DOMStorageCache
 :
@@ -1811,9 +1799,6 @@ NS_OK
 }
 namespace
 {
-/
-/
-anon
 class
 IndexFinderData
 {
@@ -1910,7 +1895,7 @@ PL_DHASH_STOP
 }
 /
 /
-anon
+namespace
 nsresult
 DOMStorageCache
 :
@@ -2037,9 +2022,6 @@ NS_OK
 }
 namespace
 {
-/
-/
-anon
 static
 PLDHashOperator
 KeysArrayBuilder
@@ -2090,7 +2072,7 @@ PL_DHASH_NEXT
 }
 /
 /
-anon
+namespace
 void
 DOMStorageCache
 :
@@ -3527,9 +3509,6 @@ kSessionSet
 }
 namespace
 {
-/
-/
-anon
 class
 LoadUsageRunnable
 :
@@ -3586,7 +3565,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 void
 DOMStorageUsage
 :
@@ -4039,12 +4018,10 @@ rv
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla

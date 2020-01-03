@@ -151,6 +151,10 @@ class
 GCRuntime
 ;
 }
+/
+/
+namespace
+gc
 namespace
 gcstats
 {
@@ -158,7 +162,15 @@ struct
 Statistics
 ;
 }
+/
+/
+namespace
+gcstats
 }
+/
+/
+namespace
+js
 typedef
 enum
 JSGCMode

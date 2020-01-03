@@ -171,7 +171,10 @@ class
 ThreadHangStats
 ;
 }
-;
+/
+/
+namespace
+Telemetry
 class
 BackgroundHangThread
 ;

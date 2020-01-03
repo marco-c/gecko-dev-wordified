@@ -374,7 +374,6 @@ inputString
 }
 /
 /
-anonymous
 namespace
 TEST
 (

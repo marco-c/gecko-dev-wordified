@@ -313,6 +313,10 @@ mArrayData
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

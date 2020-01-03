@@ -134,6 +134,10 @@ class
 OwningWebGLBufferOrLongLong
 ;
 }
+/
+/
+namespace
+dom
 class
 WebGL2Context
 :

@@ -431,6 +431,14 @@ mOutputBuffer
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

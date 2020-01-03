@@ -244,6 +244,10 @@ class
 Layer
 ;
 }
+/
+/
+namespace
+layers
 namespace
 layout
 {
@@ -251,7 +255,15 @@ class
 ScrollbarActivity
 ;
 }
+/
+/
+namespace
+layout
 }
+/
+/
+namespace
+mozilla
 namespace
 mozilla
 {
@@ -3531,6 +3543,10 @@ sVertScrollFraction
 }
 ;
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

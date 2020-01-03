@@ -927,6 +927,9 @@ event
 }
 /
 /
+namespace
+/
+/
 -
 -
 -
@@ -3779,6 +3782,9 @@ mCreator
 }
 ;
 }
+/
+/
+namespace
 void
 nsSMILTimedElement
 :
@@ -5638,6 +5644,9 @@ ShouldPreserve
 ;
 }
 }
+/
+/
+namespace
 void
 nsSMILTimedElement
 :
@@ -5878,6 +5887,9 @@ true
 ;
 }
 }
+/
+/
+namespace
 bool
 nsSMILTimedElement
 :
@@ -5959,6 +5971,9 @@ ShouldPreserve
 ;
 }
 }
+/
+/
+namespace
 bool
 nsSMILTimedElement
 :
@@ -8629,6 +8644,9 @@ mFunction
 }
 ;
 }
+/
+/
+namespace
 void
 nsSMILTimedElement
 :
@@ -9138,6 +9156,9 @@ mCurrentIntervalBegin
 }
 ;
 }
+/
+/
+namespace
 void
 nsSMILTimedElement
 :
@@ -10467,6 +10488,9 @@ mTimesToKeep
 }
 ;
 }
+/
+/
+namespace
 void
 nsSMILTimedElement
 :

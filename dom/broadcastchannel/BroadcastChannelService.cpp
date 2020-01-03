@@ -192,7 +192,6 @@ nullptr
 }
 /
 /
-anonymous
 namespace
 BroadcastChannelService
 :
@@ -721,7 +720,6 @@ PL_DHASH_NEXT
 }
 /
 /
-anonymous
 namespace
 void
 BroadcastChannelService
@@ -796,10 +794,10 @@ data
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla

@@ -91,6 +91,10 @@ class
 Shmem
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 layers
 {
@@ -98,7 +102,15 @@ class
 ISurfaceAllocator
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

@@ -479,5 +479,9 @@ GetVideoFrameRate
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

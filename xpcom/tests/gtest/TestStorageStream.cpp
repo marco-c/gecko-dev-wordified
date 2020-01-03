@@ -238,7 +238,6 @@ aNumBytes
 }
 /
 /
-anonymous
 namespace
 TEST
 (

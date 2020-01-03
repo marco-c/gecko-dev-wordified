@@ -281,12 +281,12 @@ PluginTag
 /
 /
 namespace
-mozilla
+plugins
 }
 /
 /
 namespace
-plugins
+mozilla
 class
 nsNPAPIPlugin
 ;

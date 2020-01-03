@@ -149,7 +149,10 @@ class
 Thread
 ;
 }
-;
+/
+/
+namespace
+base
 namespace
 mozilla
 {
@@ -160,6 +163,10 @@ class
 ContentParent
 ;
 }
+/
+/
+namespace
+dom
 class
 PProcessHangMonitorParent
 ;

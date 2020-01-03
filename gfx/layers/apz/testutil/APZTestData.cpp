@@ -515,4 +515,12 @@ aOutValue
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

@@ -1472,9 +1472,6 @@ NS_OK
 /
 /
 namespace
-(
-anonymous
-)
 namespace
 mozilla
 {

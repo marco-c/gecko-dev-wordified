@@ -164,7 +164,15 @@ class
 TabParent
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 define
 NS_IWINDOWROOT_IID

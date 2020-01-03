@@ -203,6 +203,10 @@ class
 JitCompartment
 ;
 }
+/
+/
+namespace
+jit
 namespace
 gc
 {
@@ -215,6 +219,10 @@ class
 ComponentFinder
 ;
 }
+/
+/
+namespace
+gc
 struct
 NativeIterator
 ;
@@ -1529,6 +1537,10 @@ class
 WeakMapBase
 ;
 }
+/
+/
+namespace
+js
 struct
 JSCompartment
 {

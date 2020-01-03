@@ -141,10 +141,12 @@ aNumHidden
 }
 /
 /
+namespace
 hal
 }
 /
 /
+namespace
 mozilla
 #
 endif

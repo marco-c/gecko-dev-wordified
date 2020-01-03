@@ -4949,6 +4949,10 @@ mAudioChannel
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

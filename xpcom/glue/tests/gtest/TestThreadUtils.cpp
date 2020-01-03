@@ -1882,7 +1882,6 @@ ThreadUtilsNonRefCounted
 /
 namespace
 TestThreadUtils
-;
 TEST
 (
 ThreadUtils

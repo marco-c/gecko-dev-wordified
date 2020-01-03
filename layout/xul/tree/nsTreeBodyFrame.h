@@ -241,7 +241,15 @@ class
 ScrollbarActivity
 ;
 }
+/
+/
+namespace
+layout
 }
+/
+/
+namespace
+mozilla
 /
 /
 An

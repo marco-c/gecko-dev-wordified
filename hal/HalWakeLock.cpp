@@ -906,7 +906,6 @@ false
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla
@@ -1451,8 +1450,10 @@ totalCount
 }
 /
 /
+namespace
 hal_impl
 }
 /
 /
+namespace
 mozilla

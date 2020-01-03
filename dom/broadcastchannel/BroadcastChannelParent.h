@@ -144,6 +144,10 @@ class
 PrincipalInfo
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {
@@ -282,13 +286,13 @@ mPrivateBrowsing
 }
 /
 /
-dom
 namespace
+dom
 }
 /
 /
-mozilla
 namespace
+mozilla
 #
 endif
 /

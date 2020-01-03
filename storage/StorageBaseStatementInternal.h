@@ -1989,10 +1989,12 @@ aValueSize
 }
 /
 /
+namespace
 storage
 }
 /
 /
+namespace
 mozilla
 #
 endif

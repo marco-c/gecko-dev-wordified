@@ -252,6 +252,10 @@ class
 Thread
 ;
 }
+/
+/
+namespace
+base
 namespace
 mozilla
 {
@@ -262,6 +266,10 @@ class
 Shmem
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 layers
 {
@@ -1861,10 +1869,12 @@ mShuttingDown
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

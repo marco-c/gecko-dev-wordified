@@ -429,7 +429,15 @@ class
 LayerManager
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 /
 /
 supported

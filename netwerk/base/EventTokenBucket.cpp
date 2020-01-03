@@ -2323,11 +2323,10 @@ endif
 }
 /
 /
-mozilla
-:
-:
+namespace
 net
 }
 /
 /
+namespace
 mozilla

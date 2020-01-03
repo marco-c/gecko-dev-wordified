@@ -1866,9 +1866,9 @@ aK4
 /
 /
 namespace
-mozilla
+gfx
 }
 /
 /
 namespace
-gfx
+mozilla

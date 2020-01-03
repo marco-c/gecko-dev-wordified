@@ -989,8 +989,10 @@ forget
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

@@ -74,3 +74,7 @@ fallible
 }
 ;
 }
+/
+/
+namespace
+mozilla

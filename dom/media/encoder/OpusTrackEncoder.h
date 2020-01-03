@@ -503,5 +503,9 @@ mResampledLeftover
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

@@ -125,4 +125,12 @@ namespace
 media
 {
 }
+/
+/
+namespace
+media
 }
+/
+/
+namespace
+mozilla

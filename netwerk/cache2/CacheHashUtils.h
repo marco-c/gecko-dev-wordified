@@ -350,10 +350,12 @@ mFinalized
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

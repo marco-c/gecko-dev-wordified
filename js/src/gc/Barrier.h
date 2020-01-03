@@ -1809,6 +1809,10 @@ class
 Symbol
 ;
 }
+/
+/
+namespace
+JS
 namespace
 js
 {
@@ -1885,6 +1889,10 @@ class
 JitCode
 ;
 }
+/
+/
+namespace
+jit
 #
 ifdef
 DEBUG
@@ -5012,6 +5020,10 @@ class
 JitCode
 ;
 }
+/
+/
+namespace
+jit
 typedef
 PreBarriered
 <

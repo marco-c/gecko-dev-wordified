@@ -2693,6 +2693,10 @@ endif
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

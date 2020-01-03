@@ -723,11 +723,9 @@ script
 ;
 }
 /
-*
-namespace
-Probes
-*
 /
+namespace
+probes
 #
 ifdef
 INCLUDE_MOZILLA_DTRACE

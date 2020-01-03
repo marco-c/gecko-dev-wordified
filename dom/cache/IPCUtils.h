@@ -496,6 +496,10 @@ NUMBER_OF_NAMESPACES
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif
 /

@@ -7305,7 +7305,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 nsUDPSocket

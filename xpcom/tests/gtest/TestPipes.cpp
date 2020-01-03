@@ -2647,7 +2647,6 @@ inputData
 }
 /
 /
-anonymous
 namespace
 TEST
 (
@@ -3958,7 +3957,6 @@ outputData
 }
 /
 /
-anonymous
 namespace
 TEST
 (
@@ -5379,7 +5377,6 @@ rv
 }
 /
 /
-anonymous
 namespace
 TEST
 (

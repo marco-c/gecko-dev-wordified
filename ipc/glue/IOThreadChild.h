@@ -363,7 +363,7 @@ IOThreadChild
 /
 /
 namespace
-plugins
+ipc
 }
 /
 /

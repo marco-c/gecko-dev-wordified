@@ -277,7 +277,6 @@ sBtAvrcpInterface
 }
 /
 /
-anonymous
 namespace
 /
 *

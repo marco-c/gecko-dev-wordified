@@ -10959,12 +10959,9 @@ kJS_MAX_SAFE_UINTEGER
 /
 /
 namespace
-mozilla
+net
 }
 /
 /
 namespace
 mozilla
-:
-:
-net

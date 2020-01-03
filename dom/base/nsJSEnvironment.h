@@ -231,6 +231,10 @@ Value
 AutoValueVector
 ;
 }
+/
+/
+namespace
+JS
 namespace
 mozilla
 {
@@ -245,6 +249,10 @@ struct
 CycleCollectorResults
 ;
 }
+/
+/
+namespace
+mozilla
 /
 /
 The

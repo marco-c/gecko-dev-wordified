@@ -652,8 +652,10 @@ false
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

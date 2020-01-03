@@ -565,6 +565,10 @@ Simulator
 endif
 }
 /
+/
+namespace
+jit
+/
 *
 *
 GetSrcNote
@@ -2410,6 +2414,10 @@ struct
 RuntimeSizes
 ;
 }
+/
+/
+namespace
+JS
 /
 *
 Various

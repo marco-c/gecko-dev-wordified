@@ -9103,9 +9103,6 @@ mSkipEntries
 }
 namespace
 {
-/
-/
-anon
 struct
 WriteRecordsHelper
 {
@@ -9135,7 +9132,7 @@ endif
 }
 /
 /
-anon
+namespace
 void
 CacheIndex
 :
@@ -18108,9 +18105,6 @@ mRWBufPos
 }
 namespace
 {
-/
-/
-anon
 class
 FrecencyComparator
 {
@@ -18214,7 +18208,7 @@ mFrecency
 }
 /
 /
-anon
+namespace
 void
 CacheIndex
 :
@@ -20405,9 +20399,6 @@ mallocSizeOf
 }
 namespace
 {
-/
-/
-anon
 class
 HashComparator
 {
@@ -20741,7 +20732,7 @@ index
 }
 /
 /
-anon
+namespace
 void
 CacheIndex
 :
@@ -20865,8 +20856,10 @@ SetHashStatsReported
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

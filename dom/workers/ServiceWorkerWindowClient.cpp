@@ -694,7 +694,6 @@ runnable
 }
 /
 /
-anonymous
 namespace
 already_AddRefed
 <

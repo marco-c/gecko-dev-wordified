@@ -187,7 +187,15 @@ class
 Promise
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 BEGIN_WORKERS_NAMESPACE
 class
 WorkerNavigator

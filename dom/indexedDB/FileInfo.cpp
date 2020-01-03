@@ -358,7 +358,6 @@ NS_DECL_NSIRUNNABLE
 }
 /
 /
-anonymous
 namespace
 FileInfo
 :

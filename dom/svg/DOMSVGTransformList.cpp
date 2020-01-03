@@ -257,7 +257,6 @@ i
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

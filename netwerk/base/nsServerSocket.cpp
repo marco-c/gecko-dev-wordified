@@ -3177,7 +3177,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 NS_IMETHODIMP
 nsServerSocket

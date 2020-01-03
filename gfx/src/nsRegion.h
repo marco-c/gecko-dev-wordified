@@ -4848,9 +4848,6 @@ this
 /
 /
 namespace
-mozilla
-:
-:
 gfx
 }
 /

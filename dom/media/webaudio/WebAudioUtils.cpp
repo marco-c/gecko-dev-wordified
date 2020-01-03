@@ -696,4 +696,12 @@ result
 endif
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

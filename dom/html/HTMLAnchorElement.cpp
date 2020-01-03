@@ -2318,9 +2318,9 @@ aMallocSizeOf
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla

@@ -928,7 +928,6 @@ NS_OK
 }
 /
 /
-anonymous
 namespace
 void
 ServiceWorkerClient

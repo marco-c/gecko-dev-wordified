@@ -1714,6 +1714,10 @@ mCurrent
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

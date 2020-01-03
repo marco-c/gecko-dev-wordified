@@ -6887,10 +6887,8 @@ setAutoFlushICacheRange
 }
 ;
 }
-;
 /
 /
-anonymous
 namespace
 bool
 AsmJSModule

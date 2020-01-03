@@ -10117,9 +10117,6 @@ aName
 /
 /
 namespace
-mozilla
-:
-:
 css
 }
 /

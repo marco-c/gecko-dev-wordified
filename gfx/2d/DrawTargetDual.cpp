@@ -1227,4 +1227,12 @@ dtB
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

@@ -537,5 +537,5 @@ NS_OK
 }
 /
 /
-mozilla
 namespace
+mozilla

@@ -171,6 +171,10 @@ class
 AndroidSurfaceTexture
 ;
 }
+/
+/
+namespace
+gl
 namespace
 layers
 {
@@ -452,10 +456,12 @@ MOZ_WIDGET_ANDROID
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

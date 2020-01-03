@@ -205,8 +205,8 @@ suffix
 }
 /
 /
-IPC
 namespace
+IPC
 namespace
 mozilla
 {
@@ -217,6 +217,10 @@ class
 LoadInfoArgs
 ;
 }
+/
+/
+namespace
+net
 namespace
 ipc
 {

@@ -151,6 +151,10 @@ RuleNodeCacheConditions
 ;
 }
 /
+/
+namespace
+mozilla
+/
 *
 *
 *

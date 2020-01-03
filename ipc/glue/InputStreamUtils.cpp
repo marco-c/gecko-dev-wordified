@@ -227,7 +227,6 @@ NS_MULTIPLEXINPUTSTREAM_CID
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

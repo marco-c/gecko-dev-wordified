@@ -1613,4 +1613,12 @@ aFlipY
 }
 }
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla

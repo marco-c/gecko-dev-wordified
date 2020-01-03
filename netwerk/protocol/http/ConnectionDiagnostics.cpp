@@ -2263,9 +2263,6 @@ mClassification
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

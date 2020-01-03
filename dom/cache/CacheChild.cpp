@@ -908,5 +908,5 @@ dom
 }
 /
 /
-namesapce
+namespace
 mozilla

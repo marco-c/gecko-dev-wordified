@@ -9771,6 +9771,5 @@ mDecodedStream
 /
 namespace
 mozilla
-;
 #
 endif

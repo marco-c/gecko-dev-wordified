@@ -2108,7 +2108,15 @@ from
 Skia
 .
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

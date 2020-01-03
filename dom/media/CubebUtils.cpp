@@ -340,7 +340,6 @@ sPreferredSampleRate
 }
 /
 /
-anonymous
 namespace
 extern
 PRLogModuleInfo

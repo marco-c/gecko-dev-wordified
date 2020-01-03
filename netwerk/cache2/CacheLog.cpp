@@ -175,8 +175,10 @@ sLog
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

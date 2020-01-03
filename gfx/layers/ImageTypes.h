@@ -537,5 +537,6 @@ TOP_BOTTOM
 /
 /
 namespace
+mozilla
 #
 endif

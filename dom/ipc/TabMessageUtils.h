@@ -244,7 +244,15 @@ NativeThreadId
 #
 endif
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 namespace
 IPC
 {
@@ -528,5 +536,9 @@ nsEventStatus_eSentinel
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif

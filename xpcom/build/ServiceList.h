@@ -423,6 +423,10 @@ history
 ifdef
 MOZ_USE_NAMESPACE
 }
+/
+/
+namespace
+mozilla
 #
 endif
 #

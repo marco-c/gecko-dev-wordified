@@ -362,7 +362,6 @@ SegmentDeleted
 }
 /
 /
-anonymous
 namespace
 /
 /

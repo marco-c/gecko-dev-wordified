@@ -546,10 +546,10 @@ NS_OK
 }
 /
 /
-net
 namespace
+net
 }
 /
 /
-mozilla
 namespace
+mozilla

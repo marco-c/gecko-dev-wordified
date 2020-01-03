@@ -1078,7 +1078,15 @@ color
 }
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 #
 if
 defined

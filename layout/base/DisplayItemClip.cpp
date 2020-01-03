@@ -2875,3 +2875,7 @@ str
 ;
 }
 }
+/
+/
+namespace
+mozilla

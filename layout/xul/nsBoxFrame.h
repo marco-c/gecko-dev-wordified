@@ -179,7 +179,15 @@ class
 DrawTarget
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 nsIFrame
 *
 NS_NewBoxFrame

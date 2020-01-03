@@ -146,6 +146,9 @@ aProperty
 }
 /
 /
+namespace
+/
+/
 static
 nsresult
 nsUConvPropertySearch

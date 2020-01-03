@@ -767,6 +767,10 @@ E
 }
 ;
 }
+/
+/
+namespace
+detail
 }
 /
 /

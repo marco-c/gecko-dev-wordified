@@ -1634,9 +1634,6 @@ Clear
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

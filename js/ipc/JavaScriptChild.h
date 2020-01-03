@@ -226,10 +226,12 @@ rs
 }
 /
 /
-mozilla
+namespace
+jsipc
 }
 /
 /
-jsipc
+namespace
+mozilla
 #
 endif

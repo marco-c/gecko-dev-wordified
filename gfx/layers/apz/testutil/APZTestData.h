@@ -959,7 +959,15 @@ mPaintSequenceNumber
 }
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 namespace
 IPC
 {
@@ -1167,6 +1175,10 @@ DataStoreBase
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif
 /

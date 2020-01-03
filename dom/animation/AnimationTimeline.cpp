@@ -196,6 +196,9 @@ endif
 }
 ;
 }
+/
+/
+namespace
 static
 PLDHashOperator
 AppendAnimationToSequence

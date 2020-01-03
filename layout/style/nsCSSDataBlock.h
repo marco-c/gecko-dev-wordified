@@ -178,7 +178,15 @@ class
 Declaration
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

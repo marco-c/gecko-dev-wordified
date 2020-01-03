@@ -3881,4 +3881,12 @@ return
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

@@ -442,6 +442,14 @@ InsertTextTxn
 NS_INSERTTEXTTXN_IID
 )
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

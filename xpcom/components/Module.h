@@ -636,6 +636,7 @@ unloadProc
 /
 /
 namespace
+mozilla
 #
 if
 defined

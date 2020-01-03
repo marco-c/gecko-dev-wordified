@@ -4533,7 +4533,6 @@ return
 }
 /
 /
-anonymous
 namespace
 nsresult
 PurgeCache
@@ -4869,6 +4868,6 @@ NS_OK
 }
 /
 /
-serviceWorkerScriptCache
 namespace
+serviceWorkerScriptCache
 END_WORKERS_NAMESPACE

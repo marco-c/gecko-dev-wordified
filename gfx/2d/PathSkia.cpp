@@ -1332,4 +1332,12 @@ path
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

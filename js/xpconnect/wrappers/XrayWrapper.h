@@ -371,6 +371,10 @@ hasProp
 )
 ;
 }
+/
+/
+namespace
+XrayUtils
 enum
 XrayType
 {
@@ -4318,5 +4322,9 @@ class
 AutoSetWrapperNotShadowing
 ;
 }
+/
+/
+namespace
+xpc
 #
 endif

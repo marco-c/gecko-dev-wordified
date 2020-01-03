@@ -510,5 +510,9 @@ NS_STYLE_SCROLL_BEHAVIOR_SMOOTH
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

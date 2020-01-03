@@ -834,7 +834,6 @@ nsITimerCallback
 }
 /
 /
-anonymous
 namespace
 NS_IMPL_ISUPPORTS
 (

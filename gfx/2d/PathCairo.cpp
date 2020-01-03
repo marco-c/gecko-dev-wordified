@@ -1861,4 +1861,12 @@ i
 }
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

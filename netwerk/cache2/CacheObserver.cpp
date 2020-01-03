@@ -2271,9 +2271,6 @@ aDir
 }
 namespace
 {
-/
-/
-anon
 class
 CacheStorageEvictHelper
 {
@@ -2615,7 +2612,7 @@ NS_OK
 }
 /
 /
-anon
+namespace
 /
 /
 static
@@ -3181,8 +3178,10 @@ NS_OK
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla

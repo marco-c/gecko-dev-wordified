@@ -1112,6 +1112,10 @@ mPosition
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

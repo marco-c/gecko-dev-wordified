@@ -135,6 +135,10 @@ class
 ISurfaceAllocator
 ;
 }
+/
+/
+namespace
+layers
 namespace
 gl
 {
@@ -347,11 +351,9 @@ Max
 ;
 }
 /
-*
-namespace
-gfx
-*
 /
+namespace
+gl
 }
 /
 *

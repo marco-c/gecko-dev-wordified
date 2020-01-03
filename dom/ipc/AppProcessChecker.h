@@ -146,6 +146,10 @@ class
 PContentParent
 ;
 }
+/
+/
+namespace
+dom
 namespace
 hal_sandbox
 {
@@ -153,6 +157,10 @@ class
 PHalParent
 ;
 }
+/
+/
+namespace
+hal_sandbox
 enum
 AssertAppProcessType
 {

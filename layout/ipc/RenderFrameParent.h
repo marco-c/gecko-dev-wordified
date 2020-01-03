@@ -192,6 +192,10 @@ struct
 ScrollableLayerGuid
 ;
 }
+/
+/
+namespace
+layers
 namespace
 layout
 {

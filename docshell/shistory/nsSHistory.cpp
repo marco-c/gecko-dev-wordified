@@ -1360,7 +1360,6 @@ Destroy
 }
 /
 /
-anonymous
 namespace
 nsSHistory
 :
@@ -5639,7 +5638,6 @@ mDistance
 }
 /
 /
-anonymous
 namespace
 /
 /

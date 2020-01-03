@@ -12957,4 +12957,12 @@ cg
 ;
 }
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla

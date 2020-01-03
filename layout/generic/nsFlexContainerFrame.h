@@ -148,6 +148,10 @@ class
 LogicalPoint
 ;
 }
+/
+/
+namespace
+mozilla
 nsContainerFrame
 *
 NS_NewFlexContainerFrame

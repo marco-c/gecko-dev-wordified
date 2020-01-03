@@ -553,6 +553,10 @@ type
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 define
 MOZ_IS_DESTRUCTIBLE
@@ -2344,6 +2348,10 @@ mValue
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

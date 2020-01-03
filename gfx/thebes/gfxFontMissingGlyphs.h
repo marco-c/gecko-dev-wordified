@@ -129,7 +129,15 @@ class
 Pattern
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

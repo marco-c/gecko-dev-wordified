@@ -141,6 +141,10 @@ struct
 ParamTraits
 ;
 }
+/
+/
+namespace
+IPC
 namespace
 mozilla
 {
@@ -367,5 +371,9 @@ mId
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif

@@ -496,12 +496,15 @@ aClockDeltaMS
 }
 /
 /
+namespace
 alarm
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

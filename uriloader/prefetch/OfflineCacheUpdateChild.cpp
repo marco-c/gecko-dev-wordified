@@ -3145,4 +3145,12 @@ true
 ;
 }
 }
+/
+/
+namespace
+docshell
 }
+/
+/
+namespace
+mozilla

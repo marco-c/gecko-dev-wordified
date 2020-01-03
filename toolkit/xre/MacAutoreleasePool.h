@@ -136,6 +136,10 @@ MacAutoreleasePool
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

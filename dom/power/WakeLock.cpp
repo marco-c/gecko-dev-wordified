@@ -1455,8 +1455,10 @@ window
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

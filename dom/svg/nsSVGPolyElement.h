@@ -154,6 +154,10 @@ class
 DOMSVGPointList
 ;
 }
+/
+/
+namespace
+mozilla
 class
 nsSVGPolyElement
 :

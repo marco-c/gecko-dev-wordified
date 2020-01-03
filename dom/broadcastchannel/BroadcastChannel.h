@@ -179,6 +179,10 @@ class
 PrincipalInfo
 ;
 }
+/
+/
+namespace
+ipc
 namespace
 dom
 {
@@ -189,6 +193,10 @@ class
 WorkerFeature
 ;
 }
+/
+/
+namespace
+workers
 class
 BroadcastChannelChild
 ;

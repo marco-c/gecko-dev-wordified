@@ -1519,4 +1519,12 @@ amount
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

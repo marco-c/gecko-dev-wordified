@@ -1464,3 +1464,7 @@ aSampleRate
 }
 }
 }
+/
+/
+namespace
+mozilla

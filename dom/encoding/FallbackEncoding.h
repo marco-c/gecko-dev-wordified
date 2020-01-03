@@ -466,10 +466,12 @@ mFallback
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla
 #
 endif

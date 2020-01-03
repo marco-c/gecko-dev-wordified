@@ -715,5 +715,9 @@ char
 {
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif

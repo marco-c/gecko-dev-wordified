@@ -238,10 +238,12 @@ code
 }
 /
 /
+namespace
 psm
 }
 /
 /
+namespace
 mozilla
 #
 define

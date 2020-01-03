@@ -7472,7 +7472,6 @@ mPriority
 }
 /
 /
-anonymous
 namespace
 namespace
 mozilla

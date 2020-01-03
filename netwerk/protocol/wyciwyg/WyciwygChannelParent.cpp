@@ -2350,10 +2350,12 @@ result
 ;
 }
 }
+/
+/
+namespace
+net
 }
 /
 /
+namespace
 mozilla
-:
-:
-net

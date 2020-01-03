@@ -690,8 +690,10 @@ aEncoding
 }
 /
 /
+namespace
 dom
 }
 /
 /
+namespace
 mozilla

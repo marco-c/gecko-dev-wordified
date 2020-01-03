@@ -106,3 +106,7 @@ RunGTest
 )
 ;
 }
+/
+/
+namespace
+mozilla

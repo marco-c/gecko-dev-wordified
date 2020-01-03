@@ -4306,7 +4306,6 @@ sCallbackMap
 }
 /
 /
-anonymous
 namespace
 NS_IMPL_ISUPPORTS
 (
@@ -5304,10 +5303,12 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+net
 }
 /
 /
+namespace
 mozilla
-:
-:
-net

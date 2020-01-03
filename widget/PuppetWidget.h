@@ -255,6 +255,10 @@ class
 TabChild
 ;
 }
+/
+/
+namespace
+dom
 namespace
 widget
 {

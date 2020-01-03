@@ -448,9 +448,9 @@ mAnimationFunction
 /
 /
 namespace
-mozilla
+dom
 }
 /
 /
 namespace
-dom
+mozilla

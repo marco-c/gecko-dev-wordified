@@ -152,6 +152,7 @@ aTimeoutSecs
 }
 /
 /
+namespace
 hal_impl
 }
 /

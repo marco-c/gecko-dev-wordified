@@ -247,6 +247,10 @@ TrueType
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

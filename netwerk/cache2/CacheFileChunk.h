@@ -797,10 +797,12 @@ mValidityMap
 }
 /
 /
+namespace
 net
 }
 /
 /
+namespace
 mozilla
 #
 endif

@@ -235,7 +235,15 @@ class
 LayerManager
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 typedef
 nsFrame
 nsPluginFrameSuper

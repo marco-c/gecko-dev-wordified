@@ -165,7 +165,15 @@ class
 IMETextTxn
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

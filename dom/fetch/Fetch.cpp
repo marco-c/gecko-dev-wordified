@@ -4731,7 +4731,6 @@ forget
 }
 /
 /
-anonymous
 namespace
 nsresult
 ExtractByteStreamFromBody
@@ -6220,7 +6219,6 @@ true
 }
 /
 /
-anonymous
 namespace
 template
 <

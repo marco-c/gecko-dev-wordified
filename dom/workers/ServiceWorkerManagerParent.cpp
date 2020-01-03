@@ -622,7 +622,6 @@ mBackgroundThread
 }
 /
 /
-anonymous
 namespace
 ServiceWorkerManagerParent
 :
@@ -1309,15 +1308,15 @@ this
 }
 /
 /
+namespace
 workers
-namespace
 }
 /
 /
+namespace
 dom
-namespace
 }
 /
 /
-mozilla
 namespace
+mozilla

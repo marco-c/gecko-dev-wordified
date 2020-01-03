@@ -125,7 +125,15 @@ class
 ErrorReporter
 ;
 }
+/
+/
+namespace
+css
 }
+/
+/
+namespace
+mozilla
 /
 /
 Token

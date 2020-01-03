@@ -420,9 +420,6 @@ mHashHttp2
 /
 /
 namespace
-mozilla
-:
-:
 net
 }
 /

@@ -1314,4 +1314,12 @@ hasAlpha
 ;
 }
 }
+/
+/
+namespace
+gl
 }
+/
+/
+namespace
+mozilla

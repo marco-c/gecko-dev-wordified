@@ -604,7 +604,6 @@ h
 }
 /
 /
-anonymous
 namespace
 /
 /

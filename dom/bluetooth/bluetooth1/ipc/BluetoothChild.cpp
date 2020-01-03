@@ -215,7 +215,6 @@ sBluetoothService
 }
 /
 /
-anonymous
 namespace
 /
 *

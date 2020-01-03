@@ -1607,4 +1607,12 @@ aNormalize
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

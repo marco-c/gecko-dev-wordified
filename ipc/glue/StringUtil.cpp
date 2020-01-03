@@ -345,6 +345,10 @@ out
 }
 /
 /
+namespace
+base
+/
+/
 Implement
 functions
 that

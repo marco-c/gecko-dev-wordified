@@ -415,7 +415,6 @@ filename
 }
 /
 /
-anonymous
 namespace
 /
 /

@@ -13962,6 +13962,10 @@ FromInfinity
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 undef
 MSE_DEBUG

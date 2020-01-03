@@ -181,7 +181,15 @@ class
 LayerManager
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 class
 nsAString
 ;

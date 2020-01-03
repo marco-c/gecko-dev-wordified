@@ -300,10 +300,12 @@ aTargets
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

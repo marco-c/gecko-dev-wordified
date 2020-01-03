@@ -174,6 +174,10 @@ jsid
 AutoIdVector
 ;
 }
+/
+/
+namespace
+JS
 namespace
 xpc
 {
@@ -773,6 +777,10 @@ override
 }
 ;
 }
+/
+/
+namespace
+xpc
 #
 endif
 /

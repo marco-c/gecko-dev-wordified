@@ -2377,7 +2377,7 @@ gmp
 }
 /
 /
-namepsace
+namespace
 mozilla
 XRE_API
 (

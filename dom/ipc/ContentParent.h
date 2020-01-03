@@ -326,6 +326,10 @@ class
 PJavaScriptParent
 ;
 }
+/
+/
+namespace
+jsipc
 namespace
 layers
 {

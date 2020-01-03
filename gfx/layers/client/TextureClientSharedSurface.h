@@ -246,6 +246,10 @@ class
 SurfaceFactory
 ;
 }
+/
+/
+namespace
+gl
 namespace
 layers
 {

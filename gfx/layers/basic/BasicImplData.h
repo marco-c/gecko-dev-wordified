@@ -878,10 +878,12 @@ mOperator
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla
 #
 endif

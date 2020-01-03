@@ -416,6 +416,10 @@ class
 DataSourceSurface
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 gl
 {
@@ -423,6 +427,10 @@ class
 AndroidSurfaceTexture
 ;
 }
+/
+/
+namespace
+gl
 namespace
 layers
 {
@@ -2564,10 +2572,12 @@ mTextureSource
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 #
 endif
 /

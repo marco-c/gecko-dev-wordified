@@ -3870,6 +3870,14 @@ mLastComputedValue
 }
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 #
 endif

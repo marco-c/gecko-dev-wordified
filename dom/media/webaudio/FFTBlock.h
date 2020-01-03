@@ -2007,5 +2007,9 @@ mFFTSize
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

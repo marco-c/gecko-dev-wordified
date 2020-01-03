@@ -171,6 +171,10 @@ struct
 LinkedProgramInfo
 ;
 }
+/
+/
+namespace
+webgl
 class
 WebGLUniformLocation
 final

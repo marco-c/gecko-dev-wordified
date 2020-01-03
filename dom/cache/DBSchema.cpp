@@ -458,7 +458,6 @@ size
 }
 /
 /
-anonymous
 namespace
 /
 /
@@ -1715,7 +1714,6 @@ aOut
 }
 /
 /
-anonymous
 namespace
 nsresult
 CreateSchema
@@ -14944,7 +14942,6 @@ rv
 }
 /
 /
-anonymouns
 namespace
 nsresult
 IncrementalVacuum

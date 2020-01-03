@@ -250,4 +250,12 @@ aIter
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

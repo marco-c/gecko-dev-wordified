@@ -453,7 +453,7 @@ certList
 }
 /
 /
-namespcae
+namespace
 mozilla
 class
 nsNSSCertList

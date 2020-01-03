@@ -464,6 +464,10 @@ b
 ;
 }
 }
+/
+/
+namespace
+js
 #
 endif
 /

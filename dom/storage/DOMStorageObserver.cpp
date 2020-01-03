@@ -1934,12 +1934,10 @@ NS_ERROR_UNEXPECTED
 }
 /
 /
-:
-:
+namespace
 dom
 }
 /
 /
-:
-:
+namespace
 mozilla

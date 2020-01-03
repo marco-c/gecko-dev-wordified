@@ -4677,7 +4677,15 @@ ZoomConstraints
 MaybeZoomConstraints
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

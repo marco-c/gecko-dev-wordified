@@ -158,6 +158,10 @@ JitFrameLayout
 ;
 }
 /
+/
+namespace
+jit
+/
 *
 *
 ArgumentsData

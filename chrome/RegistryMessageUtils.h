@@ -1024,6 +1024,10 @@ get
 }
 ;
 }
+/
+/
+namespace
+IPC
 #
 endif
 /

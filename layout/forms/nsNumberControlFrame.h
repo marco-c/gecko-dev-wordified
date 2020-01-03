@@ -162,7 +162,15 @@ class
 HTMLInputElement
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 /
 *
 *

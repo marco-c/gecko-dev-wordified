@@ -2741,4 +2741,12 @@ UpdateURLSearchParams
 }
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla

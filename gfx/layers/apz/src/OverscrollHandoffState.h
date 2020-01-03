@@ -1209,7 +1209,15 @@ now
 undef
 NS_INLINE_DECL_THREADSAFE_MUTABLE_REFCOUNTING
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

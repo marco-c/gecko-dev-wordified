@@ -181,6 +181,10 @@ class
 DataSourceSurface
 ;
 }
+/
+/
+namespace
+gfx
 namespace
 layers
 {
@@ -1073,9 +1077,11 @@ ToDataSourceSurface
 /
 /
 namespace
+layers
 }
 /
 /
 namespace
+mozilla
 #
 endif

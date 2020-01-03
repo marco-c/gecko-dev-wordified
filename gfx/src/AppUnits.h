@@ -128,6 +128,10 @@ AppUnitsPerCSSPixel
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

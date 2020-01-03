@@ -5866,6 +5866,10 @@ getDef
 }
 ;
 }
+/
+/
+namespace
+details
 template
 <
 size_t

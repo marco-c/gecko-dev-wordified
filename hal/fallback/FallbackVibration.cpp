@@ -167,6 +167,7 @@ WindowIdentifier
 }
 /
 /
+namespace
 hal_impl
 }
 /

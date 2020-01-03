@@ -334,7 +334,15 @@ nsIDOMGeoPositionErrorCallback
 GeoPositionErrorCallback
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 struct
 CachedPositionAndAccuracy
 {
@@ -1338,6 +1346,10 @@ mParent
 }
 ;
 }
+/
+/
+namespace
+dom
 inline
 nsISupports
 *
@@ -1366,6 +1378,10 @@ aGeolocation
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

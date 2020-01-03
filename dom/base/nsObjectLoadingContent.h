@@ -267,7 +267,15 @@ struct
 MozPluginParameter
 ;
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
 class
 nsObjectLoadingContent
 :

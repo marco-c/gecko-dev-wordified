@@ -756,5 +756,9 @@ endif
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

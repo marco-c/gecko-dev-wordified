@@ -196,7 +196,15 @@ class
 GradientStops
 ;
 }
+/
+/
+namespace
+gfx
 }
+/
+/
+namespace
+mozilla
 /
 /
 define
@@ -1946,6 +1954,10 @@ fmt
 #
 endif
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -1743,4 +1743,12 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+scache
 }
+/
+/
+namespace
+mozilla

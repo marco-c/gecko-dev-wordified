@@ -324,4 +324,12 @@ mTrackID
 ;
 }
 }
+/
+/
+namespace
+dom
 }
+/
+/
+namespace
+mozilla
