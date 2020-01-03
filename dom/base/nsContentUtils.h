@@ -8158,6 +8158,13 @@ result
 .
 *
 *
+see
+nsLayoutUtils
+:
+:
+GetFrameTextContent
+*
+*
 param
 aNode
 Node
