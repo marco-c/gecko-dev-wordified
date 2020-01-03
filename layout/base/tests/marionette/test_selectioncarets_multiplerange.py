@@ -390,7 +390,7 @@ nonsel1
 )
     
 def
-openTestHtml2
+openTestHtmlLongText
 (
 self
 enabled
@@ -445,7 +445,7 @@ false
 )
 )
         
-test_html2
+test_html
 =
 self
 .
@@ -466,12 +466,12 @@ marionette
 .
 navigate
 (
-test_html2
+test_html
 )
         
 self
 .
-_body2
+_body
 =
 self
 .
@@ -483,7 +483,7 @@ By
 .
 ID
 '
-bd2
+bd
 '
 )
         
@@ -506,7 +506,7 @@ longtext
 )
     
 def
-openTestHtml3
+openTestHtmlIframe
 (
 self
 enabled
@@ -561,7 +561,7 @@ false
 )
 )
         
-test_html3
+test_html
 =
 self
 .
@@ -582,7 +582,7 @@ marionette
 .
 navigate
 (
-test_html3
+test_html
 )
         
 self
@@ -1477,7 +1477,7 @@ return
         
 self
 .
-openTestHtml2
+openTestHtmlLongText
 (
 enabled
 =
@@ -1523,7 +1523,7 @@ SelectionManager
 (
 self
 .
-_body2
+_body
 )
         
 (
@@ -1589,7 +1589,7 @@ flick
 (
 self
 .
-_body2
+_body
 l_end_caret_x
 l_end_caret_y
 l_start_caret_x
@@ -1721,7 +1721,7 @@ word
         
 self
 .
-openTestHtml3
+openTestHtmlIframe
 (
 enabled
 =
@@ -1763,7 +1763,7 @@ document
 getElementById
 (
 "
-bd2
+bd
 "
 )
 .
@@ -1784,7 +1784,7 @@ text
         
 self
 .
-_body2
+_body
 =
 self
 .
@@ -1796,7 +1796,7 @@ By
 .
 ID
 '
-bd2
+bd
 '
 )
         
@@ -1806,7 +1806,7 @@ SelectionManager
 (
 self
 .
-_body2
+_body
 )
         
 self
