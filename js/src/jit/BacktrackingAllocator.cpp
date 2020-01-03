@@ -181,7 +181,7 @@ AnyRegister
 (
 remainingRegisters
 .
-takeGeneral
+takeUnaliasedGeneral
 (
 )
 )
@@ -224,7 +224,7 @@ AnyRegister
 (
 remainingRegisters
 .
-takeFloat
+takeUnaliasedFloat
 (
 )
 )

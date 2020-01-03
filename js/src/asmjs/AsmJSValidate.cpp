@@ -55228,6 +55228,8 @@ ABI
 also
 includes
 d15
+&
+s31
 in
 the
 non
@@ -55298,6 +55300,16 @@ FloatRegisters
 :
 :
 d15
+)
+|
+(
+1ULL
+<
+<
+FloatRegisters
+:
+:
+s31
 )
 )
 )
