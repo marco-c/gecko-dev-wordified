@@ -180,7 +180,7 @@ JSInlineString
 *
 AllocateFatInlineString
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 size_t
@@ -314,7 +314,7 @@ JSInlineString
 *
 NewFatInlineString
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 mozilla
@@ -535,7 +535,7 @@ StringWriteBarrierPost
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 maybecx
 JSString
@@ -553,7 +553,7 @@ StringWriteBarrierPostRemove
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 maybecx
 JSString
@@ -580,7 +580,7 @@ validateLength
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 maybecx
 size_t
@@ -623,7 +623,7 @@ init
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 JSString
@@ -750,7 +750,7 @@ new_
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 typename
@@ -908,7 +908,7 @@ init
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 JSLinearString
@@ -1542,7 +1542,7 @@ new_
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -1717,7 +1717,7 @@ new_
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 )
@@ -2048,7 +2048,7 @@ new_
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 )

@@ -28780,7 +28780,7 @@ DuplicateString
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -28854,7 +28854,7 @@ DuplicateString
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -29002,7 +29002,7 @@ js
 :
 InflateString
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const

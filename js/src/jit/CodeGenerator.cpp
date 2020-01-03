@@ -1087,7 +1087,7 @@ bool
 StringToNumberFn
 )
 (
-ThreadSafeContext
+ExclusiveContext
 *
 JSString
 *
@@ -5462,7 +5462,7 @@ JSFlatString
 IntToStringFn
 )
 (
-ThreadSafeContext
+ExclusiveContext
 *
 int
 )
@@ -5573,7 +5573,7 @@ JSString
 DoubleToStringFn
 )
 (
-ThreadSafeContext
+ExclusiveContext
 *
 double
 )
@@ -36887,7 +36887,7 @@ JSString
 ConcatStringsFn
 )
 (
-ThreadSafeContext
+ExclusiveContext
 *
 HandleString
 HandleString
