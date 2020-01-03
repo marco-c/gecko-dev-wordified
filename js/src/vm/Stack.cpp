@@ -6007,7 +6007,7 @@ FrameIter
 :
 ensureHasRematerializedFrame
 (
-ThreadSafeContext
+JSContext
 *
 cx
 )
@@ -8636,7 +8636,7 @@ JitActivation
 :
 getRematerializedFrame
 (
-ThreadSafeContext
+JSContext
 *
 cx
 const

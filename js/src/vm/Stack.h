@@ -8338,7 +8338,7 @@ RematerializedFrame
 *
 getRematerializedFrame
 (
-ThreadSafeContext
+JSContext
 *
 cx
 const
@@ -10511,7 +10511,7 @@ isIon
 bool
 ensureHasRematerializedFrame
 (
-ThreadSafeContext
+JSContext
 *
 cx
 )
