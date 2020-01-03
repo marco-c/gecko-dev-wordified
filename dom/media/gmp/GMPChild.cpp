@@ -3161,6 +3161,10 @@ current
 )
 )
 ;
+mAsyncShutdown
+=
+nullptr
+;
 SendAsyncShutdownComplete
 (
 )
