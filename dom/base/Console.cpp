@@ -4573,7 +4573,6 @@ TimelineMarker
 *
 aOther
 )
-MOZ_OVERRIDE
 {
 if
 (
@@ -4630,7 +4629,6 @@ ProfileTimelineMarker
 &
 aMarker
 )
-MOZ_OVERRIDE
 {
 if
 (
@@ -6958,7 +6956,7 @@ NS_FAILED
 mStorage
 -
 >
-RecordPendingEvent
+RecordEvent
 (
 innerID
 outerID
