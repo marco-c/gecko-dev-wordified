@@ -426,6 +426,15 @@ virtual
 nsresult
 CompileMember
 (
+mozilla
+:
+:
+dom
+:
+:
+AutoJSAPI
+&
+jsapi
 const
 nsCString
 &

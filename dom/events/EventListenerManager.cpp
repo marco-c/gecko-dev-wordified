@@ -4435,7 +4435,7 @@ NS_WARN_IF
 !
 jsapi
 .
-InitWithLegacyErrorReporting
+Init
 (
 global
 )
@@ -4446,6 +4446,12 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+jsapi
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 JSContext
 *
 cx
@@ -5422,7 +5428,7 @@ nsJSUtils
 :
 CompileFunction
 (
-cx
+jsapi
 target
 options
 nsAtomCString

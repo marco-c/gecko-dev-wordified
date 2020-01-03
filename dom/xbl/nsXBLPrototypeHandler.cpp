@@ -1717,7 +1717,7 @@ NS_WARN_IF
 !
 jsapi
 .
-InitWithLegacyErrorReporting
+Init
 (
 boundGlobal
 )
@@ -1728,6 +1728,12 @@ return
 NS_OK
 ;
 }
+jsapi
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 JSContext
 *
 cx
@@ -2518,7 +2524,7 @@ nsJSUtils
 :
 CompileFunction
 (
-cx
+jsapi
 JS
 :
 :
