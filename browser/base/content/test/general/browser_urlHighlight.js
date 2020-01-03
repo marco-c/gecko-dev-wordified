@@ -177,6 +177,16 @@ is
 (
 result
 aExpected
+"
+Correct
+part
+of
+the
+urlbar
+contents
+is
+highlighted
+"
 )
 ;
 }
