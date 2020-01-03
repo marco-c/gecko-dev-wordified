@@ -3926,6 +3926,14 @@ aLineBSize
 )
 ;
 void
+ApplyRelativePositioning
+(
+PerFrameData
+*
+aPFD
+)
+;
+void
 RelativePositionFrames
 (
 PerSpanData
