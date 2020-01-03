@@ -96,9 +96,7 @@ getBrowserContainer
 (
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 )
 .
 hasAttribute

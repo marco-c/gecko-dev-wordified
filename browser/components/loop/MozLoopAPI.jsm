@@ -2104,9 +2104,7 @@ win
 .
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 ;
 if
 (
