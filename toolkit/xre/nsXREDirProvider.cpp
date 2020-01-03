@@ -3645,11 +3645,8 @@ NS_SKIN_LOCATION
 )
 ;
 #
-if
-MOZ_BUILD_APP
-=
-=
-browser
+ifdef
+MOZ_BUILD_APP_IS_BROWSER
 }
 else
 {
