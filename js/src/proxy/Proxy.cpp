@@ -5237,6 +5237,9 @@ priv
 JSObject
 *
 proto_
+JSObject
+*
+parent_
 const
 ProxyOptions
 &
@@ -5279,6 +5282,7 @@ TaggedProto
 (
 proto_
 )
+parent_
 options
 )
 ;

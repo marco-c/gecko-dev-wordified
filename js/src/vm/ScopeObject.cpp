@@ -11793,6 +11793,12 @@ nullptr
 proto
 *
 /
+&
+scope
+.
+global
+(
+)
 )
 ;
 if

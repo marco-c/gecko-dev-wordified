@@ -3045,6 +3045,7 @@ wrap
 cx
 existing
 obj
+global
 )
 )
 ;

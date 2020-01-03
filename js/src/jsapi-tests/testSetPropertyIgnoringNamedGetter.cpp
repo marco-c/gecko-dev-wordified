@@ -422,6 +422,7 @@ protov
 toObject
 (
 )
+global
 ProxyOptions
 (
 )

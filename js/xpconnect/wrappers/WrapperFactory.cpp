@@ -621,6 +621,11 @@ New
 (
 cx
 obj
+JS_GetGlobalForObject
+(
+cx
+obj
+)
 &
 XrayWaiver
 )
@@ -3260,6 +3265,8 @@ HandleObject
 existing
 HandleObject
 obj
+HandleObject
+parent
 )
 {
 MOZ_ASSERT
@@ -4247,6 +4254,7 @@ New
 (
 cx
 obj
+parent
 wrapper
 )
 ;
