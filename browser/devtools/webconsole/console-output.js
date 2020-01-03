@@ -19656,6 +19656,10 @@ this
 objectActor
 .
 preview
+|
+|
+{
+}
 ;
 if
 (
@@ -19867,6 +19871,10 @@ this
 objectActor
 .
 preview
+|
+|
+{
+}
 ;
 if
 (
