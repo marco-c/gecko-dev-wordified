@@ -6533,17 +6533,6 @@ if
 (
 !
 arrayBuffer
-|
-|
-!
-ArrayBufferObject
-:
-:
-ensureNonInline
-(
-cx
-arrayBuffer
-)
 )
 return
 false

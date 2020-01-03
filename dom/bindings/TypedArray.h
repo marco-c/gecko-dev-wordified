@@ -699,6 +699,12 @@ GetData
 (
 JSObject
 *
+const
+JS
+:
+:
+AutoCheckCannotGC
+&
 )
 void
 GetLengthAndData
@@ -919,6 +925,12 @@ if
 data
 )
 {
+JS
+:
+:
+AutoCheckCannotGC
+nogc
+;
 T
 *
 buf
@@ -932,6 +944,7 @@ T
 GetData
 (
 obj
+nogc
 )
 )
 ;

@@ -8999,6 +8999,12 @@ return
 false
 ;
 }
+JS
+:
+:
+AutoCheckCannotGC
+nogc
+;
 memcpy
 (
 *
@@ -9006,6 +9012,7 @@ output
 JS_GetArrayBufferViewData
 (
 tArr
+nogc
 )
 byteSize
 )

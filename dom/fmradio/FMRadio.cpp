@@ -1738,6 +1738,12 @@ this
 4
 )
 ;
+JS
+:
+:
+AutoCheckCannotGC
+nogc
+;
 uint16_t
 *
 data
@@ -1745,6 +1751,7 @@ data
 JS_GetUint16ArrayData
 (
 rdsgroup
+nogc
 )
 ;
 data
