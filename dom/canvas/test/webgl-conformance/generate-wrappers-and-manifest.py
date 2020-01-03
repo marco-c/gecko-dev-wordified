@@ -255,6 +255,9 @@ with
 open
 (
 listFilePath
+'
+rb
+'
 )
 as
 fIn
@@ -386,6 +389,20 @@ join
 (
 path
 line
+)
+                
+newTestFilePath
+=
+newTestFilePath
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
 )
                 
 out_testList
@@ -588,7 +605,7 @@ open
 (
 inFilePath
 '
-r
+rb
 '
 )
 as
@@ -623,7 +640,7 @@ open
 (
 outFilePath
 '
-w
+wb
 '
 )
 as
@@ -1304,7 +1321,7 @@ Output
 def
 WriteWrappers
 (
-testFilePathList
+testWebPathList
 )
 :
     
@@ -1344,15 +1361,15 @@ isdir
 WRAPPERS_DIR
 )
     
-wrapperFilePathList
+wrapperManifestPathList
 =
 [
 ]
     
 for
-testFilePath
+testWebPath
 in
-testFilePathList
+testWebPathList
 :
         
 #
@@ -1397,13 +1414,13 @@ wrapperFilePath
 test_
 '
 +
-testFilePath
+testWebPath
 .
 replace
 (
-os
-.
-sep
+'
+/
+'
 '
 __
 '
@@ -1421,20 +1438,6 @@ WRAPPERS_DIR
 wrapperFilePath
 )
         
-testFilePath
-=
-testFilePath
-.
-replace
-(
-os
-.
-sep
-'
-/
-'
-)
-        
 templateDict
 =
 {
@@ -1443,7 +1446,7 @@ templateDict
 TEST_PATH
 '
 :
-testFilePath
+testWebPath
         
 }
         
@@ -1471,21 +1474,35 @@ templateDict
 wrapperFilePath
 )
         
-wrapperFilePathList
+wrapperManifestPath
+=
+wrapperFilePath
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
+        
+wrapperManifestPathList
 .
 append
 (
-wrapperFilePath
+wrapperManifestPath
 )
         
 continue
     
 return
-wrapperFilePathList
+wrapperManifestPathList
 def
 WriteManifest
 (
-wrapperFilePathList
+wrapperManifestPathList
 supportFilePathList
 )
 :
@@ -1579,7 +1596,7 @@ x
 for
 x
 in
-wrapperFilePathList
+wrapperManifestPathList
 ]
     
 manifestTestLineList
@@ -1820,7 +1837,7 @@ open
 (
 ERRATA_FILEPATH
 '
-r
+rb
 '
 )
 as
@@ -2111,6 +2128,20 @@ root
 f
 )
             
+filePath
+=
+filePath
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
+            
 ret
 .
 append
@@ -2155,7 +2186,7 @@ not
 +
 fileDir
     
-testFilePathList
+testWebPathList
 =
 GetTestList
 (
@@ -2165,7 +2196,7 @@ wrapperFilePathList
 =
 WriteWrappers
 (
-testFilePathList
+testWebPathList
 )
     
 supportFilePathList
