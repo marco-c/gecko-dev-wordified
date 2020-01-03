@@ -806,7 +806,7 @@ TypedArrayIndexOf
 searchElement
 fromIndex
 =
-undefined
+0
 )
 {
 /
