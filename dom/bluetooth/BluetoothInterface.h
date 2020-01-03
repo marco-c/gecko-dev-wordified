@@ -2462,6 +2462,8 @@ virtual
 void
 GetDeviceType
 (
+BluetoothTypeOfDevice
+type
 )
 {
 }

@@ -485,6 +485,9 @@ ReadDescriptorValueResultHandler
 class
 WriteDescriptorValueResultHandler
 ;
+class
+ScanDeviceTypeResultHandler
+;
 BluetoothGattManager
 (
 )
