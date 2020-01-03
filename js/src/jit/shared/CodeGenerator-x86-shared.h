@@ -1561,6 +1561,14 @@ LSimdBinaryArithFx4
 lir
 )
 ;
+bool
+visitSimdBinaryBitwiseX4
+(
+LSimdBinaryBitwiseX4
+*
+lir
+)
+;
 /
 /
 Out

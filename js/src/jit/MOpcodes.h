@@ -159,6 +159,11 @@ SimdBinaryArith
 \
 _
 (
+SimdBinaryBitwise
+)
+\
+_
+(
 CloneLiteral
 )
 \

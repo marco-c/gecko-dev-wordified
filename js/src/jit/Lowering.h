@@ -2095,6 +2095,14 @@ ins
 )
 ;
 bool
+visitSimdBinaryBitwise
+(
+MSimdBinaryBitwise
+*
+ins
+)
+;
+bool
 visitSimdValueX4
 (
 MSimdValueX4

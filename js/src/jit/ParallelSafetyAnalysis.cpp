@@ -784,6 +784,10 @@ SAFE_OP
 (
 SimdBinaryArith
 )
+SAFE_OP
+(
+SimdBinaryBitwise
+)
 UNSAFE_OP
 (
 CloneLiteral
