@@ -134,10 +134,9 @@ GRAPH_RATE
 =
 16000
 ;
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS0
 (
 Fake_DOMMediaStream
-nsIDOMMediaStream
 )
 /
 /

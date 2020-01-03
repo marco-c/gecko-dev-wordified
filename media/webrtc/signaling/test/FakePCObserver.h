@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsIDOMMediaStream
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -495,7 +488,10 @@ virtual
 NS_IMETHODIMP
 OnAddStream
 (
-nsIDOMMediaStream
+mozilla
+:
+:
+DOMMediaStream
 *
 stream
 ER
