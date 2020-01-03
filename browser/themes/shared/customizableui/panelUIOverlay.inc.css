@@ -6415,6 +6415,17 @@ provider
 -
 button
 buttonStateHover
+:
+not
+(
+[
+checked
+=
+"
+true
+"
+]
+)
 .
 widget
 -
