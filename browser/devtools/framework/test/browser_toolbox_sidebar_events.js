@@ -309,9 +309,10 @@ tool
 "
 isTargetSupported
 :
-function
 (
 )
+=
+>
 true
 build
 :
