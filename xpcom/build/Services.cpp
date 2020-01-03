@@ -278,6 +278,13 @@ nsIUUIDGenerator
 h
 "
 #
+include
+"
+nsIGfxInfo
+.
+h
+"
+#
 endif
 /
 /

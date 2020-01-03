@@ -3809,6 +3809,8 @@ releaseSync
 (
 )
 {
+/
+/
 SafeRelease
 (
 mOffscreenRTView
