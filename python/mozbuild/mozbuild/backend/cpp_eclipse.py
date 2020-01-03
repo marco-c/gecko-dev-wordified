@@ -213,7 +213,7 @@ _workspace_dir
 =
 self
 .
-get_workspace_path
+_get_workspace_path
 (
 )
         
@@ -446,9 +446,36 @@ summary
 )
     
 def
+_get_workspace_path
+(
+self
+)
+:
+        
+return
+CppEclipseBackend
+.
 get_workspace_path
 (
 self
+.
+environment
+.
+topsrcdir
+self
+.
+environment
+.
+topobjdir
+)
+    
+staticmethod
+    
+def
+get_workspace_path
+(
+topsrcdir
+topobjdir
 )
 :
         
@@ -503,10 +530,6 @@ path
 .
 dirname
 (
-self
-.
-environment
-.
 topsrcdir
 )
         
@@ -522,10 +545,6 @@ path
 .
 basename
 (
-self
-.
-environment
-.
 topobjdir
 )
         
