@@ -3095,7 +3095,7 @@ authorityHeader
 ci
 -
 >
-GetHost
+GetOrigin
 (
 )
 ;
@@ -3115,7 +3115,7 @@ AppendInt
 ci
 -
 >
-Port
+OriginPort
 (
 )
 )

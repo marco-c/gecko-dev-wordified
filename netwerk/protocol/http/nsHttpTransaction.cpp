@@ -7306,7 +7306,7 @@ if
 mConnInfo
 -
 >
-GetAuthenticationHost
+GetRoutedHost
 (
 )
 .

@@ -2327,7 +2327,7 @@ nsDependentCString
 mConnectionInfo
 -
 >
-Host
+Origin
 (
 )
 )
@@ -5978,7 +5978,7 @@ NS_HTTP_VERSION_0_9
 mConnectionInfo
 -
 >
-Port
+OriginPort
 (
 )
 !
