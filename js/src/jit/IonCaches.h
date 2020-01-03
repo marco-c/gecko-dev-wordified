@@ -4465,7 +4465,7 @@ by
 the
 cache
 .
-RegisterSet
+LiveRegisterSet
 liveRegs_
 ;
 Register
@@ -4524,7 +4524,7 @@ public
 :
 GetPropertyIC
 (
-RegisterSet
+LiveRegisterSet
 liveRegs
 Register
 object
@@ -5123,7 +5123,7 @@ by
 the
 cache
 .
-RegisterSet
+LiveRegisterSet
 liveRegs_
 ;
 Register
@@ -5149,7 +5149,7 @@ public
 :
 SetPropertyIC
 (
-RegisterSet
+LiveRegisterSet
 liveRegs
 Register
 object
@@ -5437,7 +5437,7 @@ RepatchIonCache
 {
 protected
 :
-RegisterSet
+LiveRegisterSet
 liveRegs_
 ;
 Register
@@ -5486,7 +5486,7 @@ public
 :
 GetElementIC
 (
-RegisterSet
+LiveRegisterSet
 liveRegs
 Register
 object
@@ -6377,7 +6377,7 @@ by
 the
 cache
 .
-RegisterSet
+LiveRegisterSet
 liveRegs_
 ;
 bool
@@ -6397,7 +6397,7 @@ public
 :
 NameIC
 (
-RegisterSet
+LiveRegisterSet
 liveRegs
 bool
 typeOf

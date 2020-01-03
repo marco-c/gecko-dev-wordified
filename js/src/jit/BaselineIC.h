@@ -7855,7 +7855,7 @@ skip
 )
 ;
 inline
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 availableGeneralRegs
 (
 size_t
@@ -7863,7 +7863,7 @@ numInputs
 )
 const
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 GeneralRegisterSet
@@ -8041,7 +8041,7 @@ ValueOperand
 val
 Register
 scratch
-GeneralRegisterSet
+LiveGeneralRegisterSet
 saveRegs
 )
 ;
@@ -26441,7 +26441,7 @@ pushCallArguments
 MacroAssembler
 &
 masm
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 Register
 argcReg
@@ -26455,7 +26455,7 @@ pushSpreadCallArguments
 MacroAssembler
 &
 masm
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 Register
 argcReg
@@ -26482,7 +26482,7 @@ guardFunApply
 MacroAssembler
 &
 masm
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 Register
 argcReg
@@ -26501,7 +26501,7 @@ pushCallerArguments
 MacroAssembler
 &
 masm
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 )
 ;
@@ -26513,7 +26513,7 @@ MacroAssembler
 masm
 Address
 arrayVal
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 )
 ;

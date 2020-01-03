@@ -1573,7 +1573,7 @@ should
 be
 considered
 allocateable
-RegisterSet
+AllocatableRegisterSet
 allRegisters_
 ;
 /

@@ -2115,6 +2115,10 @@ reader
 allFloatSpills
 (
 )
+.
+set
+(
+)
 ;
 fregs
 =
@@ -7021,7 +7025,7 @@ spillBase
 (
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 gcRegs
 =
 safepoint
@@ -7030,7 +7034,7 @@ gcSpills
 (
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 valueRegs
 =
 safepoint
@@ -7652,7 +7656,7 @@ ionScript
 si
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 slotsRegs
 =
 safepoint

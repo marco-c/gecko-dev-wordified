@@ -730,7 +730,7 @@ volatile_
 )
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 GeneralRegisterSet
@@ -778,7 +778,7 @@ takeAny
 (
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 savedNonVolatileRegisters
 =
 SavedNonVolatileRegisters

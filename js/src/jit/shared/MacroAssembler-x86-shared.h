@@ -184,7 +184,7 @@ reg
 \
 JS_BEGIN_MACRO
 \
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 byteRegs
 (
 Registers
@@ -216,7 +216,7 @@ r2
 \
 JS_BEGIN_MACRO
 \
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 byteRegs
 (
 Registers
@@ -4772,7 +4772,7 @@ original_
 reg
 )
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 singleByteRegs
 (
 Registers
@@ -9205,7 +9205,7 @@ NaN_HandledByCond
 {
 if
 (
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 (
 Registers
 :

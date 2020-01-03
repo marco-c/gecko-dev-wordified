@@ -7593,7 +7593,7 @@ lhs
 {
 MOZ_ASSERT
 (
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 (
 Registers
 :
@@ -7609,7 +7609,7 @@ rhs
 ;
 MOZ_ASSERT
 (
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 (
 Registers
 :

@@ -2864,7 +2864,7 @@ addGetPropertyCache
 LInstruction
 *
 ins
-RegisterSet
+LiveRegisterSet
 liveRegs
 Register
 objReg
@@ -2907,7 +2907,7 @@ addSetPropertyCache
 LInstruction
 *
 ins
-RegisterSet
+LiveRegisterSet
 liveRegs
 Register
 objReg

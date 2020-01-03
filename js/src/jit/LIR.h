@@ -7402,7 +7402,7 @@ except
 its
 outputs
 .
-RegisterSet
+LiveRegisterSet
 liveRegs_
 ;
 /
@@ -7416,7 +7416,7 @@ contains
 gcthing
 pointers
 .
-GeneralRegisterSet
+LiveGeneralRegisterSet
 gcRegs_
 ;
 #
@@ -7452,7 +7452,7 @@ assertions
 during
 compilation
 .
-RegisterSet
+LiveRegisterSet
 clobberedRegs_
 ;
 #
@@ -7552,7 +7552,7 @@ which
 have
 Values
 .
-GeneralRegisterSet
+LiveGeneralRegisterSet
 valueRegs_
 ;
 #
@@ -7571,7 +7571,7 @@ slots
 /
 elements
 .
-GeneralRegisterSet
+LiveGeneralRegisterSet
 slotsOrElementsRegs_
 ;
 /
@@ -7737,7 +7737,7 @@ assertInvariants
 ;
 }
 const
-RegisterSet
+LiveRegisterSet
 &
 liveRegs
 (
@@ -7771,7 +7771,7 @@ assertInvariants
 ;
 }
 const
-RegisterSet
+LiveRegisterSet
 &
 clobberedRegs
 (
@@ -7803,7 +7803,7 @@ assertInvariants
 )
 ;
 }
-GeneralRegisterSet
+LiveGeneralRegisterSet
 gcRegs
 (
 )
@@ -7868,7 +7868,7 @@ return
 slotsOrElementsSlots_
 ;
 }
-GeneralRegisterSet
+LiveGeneralRegisterSet
 slotsOrElementsRegs
 (
 )
@@ -8905,7 +8905,7 @@ assertInvariants
 )
 ;
 }
-GeneralRegisterSet
+LiveGeneralRegisterSet
 valueRegs
 (
 )

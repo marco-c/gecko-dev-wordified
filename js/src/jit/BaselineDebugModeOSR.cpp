@@ -7236,7 +7236,7 @@ Restore
 saved
 values
 .
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 jumpRegs
 (
 GeneralRegisterSet
@@ -7366,7 +7366,7 @@ masm
 cx
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 GeneralRegisterSet
