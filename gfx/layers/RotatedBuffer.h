@@ -1850,10 +1850,6 @@ friend
 class
 RotatedContentBuffer
 ;
-friend
-class
-ContentClientIncremental
-;
 DrawIterator
 (
 )
