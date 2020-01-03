@@ -188,26 +188,53 @@ logical
 order
 .
 The
-first
-argument
+common
+arguments
 to
+these
 *
-CSS_PSEUDO_CLASS
-is
-the
+macros
+are
+:
+*
+name_
+:
+The
 C
 +
 +
 identifier
-of
+used
+for
 the
 atom
-.
-The
-second
+(
+which
+will
+be
+a
+member
 *
-argument
-is
+of
+nsCSSPseudoClasses
+)
+*
+value_
+:
+The
+pseudo
+-
+class
+as
+a
+string
+including
+the
+initial
+colon
+*
+used
+as
 the
 string
 value
@@ -215,12 +242,22 @@ of
 the
 atom
 .
-The
-third
-argument
-is
-the
 *
+flags_
+:
+A
+bitfield
+containing
+flags
+defined
+in
+nsCSSPseudoClasses
+.
+h
+*
+pref_
+:
+The
 name
 of
 the
@@ -228,11 +265,11 @@ preference
 controlling
 whether
 the
+*
 pseudo
 -
 class
 is
-*
 recognized
 by
 the
@@ -240,6 +277,7 @@ parser
 or
 the
 empty
+*
 string
 if
 it
@@ -248,43 +286,72 @@ s
 unconditional
 .
 *
+CSS_STATE_PSEUDO_CLASS
+has
+an
+additional
+argument
+:
+*
+bit_
+:
+The
+event
+state
+bit
+or
+bits
+that
+corresponds
+to
+the
+*
+pseudo
+-
+class
+i
+.
+e
+.
+causes
+it
+to
+match
+(
+only
+one
+bit
+*
+required
+to
+match
+)
+.
 *
 CSS_STATE_DEPENDENT_PSEUDO_CLASS
-and
-CSS_STATE_PSEUDO_CLASS
-also
-take
+has
+an
+additional
+argument
+:
 *
-the
-name
-of
-the
+bit_
+:
+The
+event
 state
 bits
 that
+affect
+whether
 the
+pseudo
+-
 class
-corresponds
-to
+*
+matches
 .
-Only
-one
-*
-of
-the
-bits
-needs
-to
-match
-for
-a
-CSS_STATE_PSEUDO_CLASS
-to
-match
-;
-*
-CSS_STATE_DEPENDENT_PSEUDO_CLASS
-matching
+Matching
 depends
 on
 a
@@ -377,6 +444,7 @@ CSS_STATE_DEPENDENT_PSEUDO_CLASS
 (
 _name
 _value
+_flags
 _pref
 _bit
 )
@@ -385,6 +453,7 @@ CSS_PSEUDO_CLASS
 (
 _name
 _value
+_flags
 _pref
 )
 #
@@ -416,6 +485,7 @@ CSS_STATE_PSEUDO_CLASS
 (
 _name
 _value
+_flags
 _pref
 _bit
 )
@@ -424,6 +494,7 @@ CSS_STATE_DEPENDENT_PSEUDO_CLASS
 (
 _name
 _value
+_flags
 _pref
 _bit
 )
@@ -482,6 +553,7 @@ empty
 :
 empty
 "
+0
 "
 "
 )
@@ -497,6 +569,7 @@ only
 -
 whitespace
 "
+0
 "
 "
 )
@@ -518,6 +591,7 @@ with
 -
 localname
 "
+0
 "
 "
 )
@@ -528,6 +602,7 @@ lang
 :
 lang
 "
+0
 "
 "
 )
@@ -543,6 +618,7 @@ bound
 -
 element
 "
+0
 "
 "
 )
@@ -553,6 +629,7 @@ root
 :
 root
 "
+0
 "
 "
 )
@@ -566,6 +643,7 @@ moz
 -
 any
 "
+0
 "
 "
 )
@@ -578,6 +656,7 @@ first
 -
 child
 "
+0
 "
 "
 )
@@ -593,6 +672,7 @@ first
 -
 node
 "
+0
 "
 "
 )
@@ -605,6 +685,7 @@ last
 -
 child
 "
+0
 "
 "
 )
@@ -620,6 +701,7 @@ last
 -
 node
 "
+0
 "
 "
 )
@@ -632,6 +714,7 @@ only
 -
 child
 "
+0
 "
 "
 )
@@ -646,6 +729,7 @@ of
 -
 type
 "
+0
 "
 "
 )
@@ -660,6 +744,7 @@ of
 -
 type
 "
+0
 "
 "
 )
@@ -674,6 +759,7 @@ of
 -
 type
 "
+0
 "
 "
 )
@@ -686,6 +772,7 @@ nth
 -
 child
 "
+0
 "
 "
 )
@@ -700,6 +787,7 @@ last
 -
 child
 "
+0
 "
 "
 )
@@ -714,6 +802,7 @@ of
 -
 type
 "
+0
 "
 "
 )
@@ -730,6 +819,7 @@ of
 -
 type
 "
+0
 "
 "
 )
@@ -755,6 +845,7 @@ is
 -
 html
 "
+0
 "
 "
 )
@@ -785,6 +876,7 @@ system
 -
 metric
 "
+0
 "
 "
 )
@@ -836,6 +928,7 @@ locale
 -
 dir
 "
+0
 "
 "
 )
@@ -867,6 +960,7 @@ moz
 -
 lwtheme
 "
+0
 "
 "
 )
@@ -899,6 +993,7 @@ lwtheme
 -
 brighttext
 "
+0
 "
 "
 )
@@ -931,6 +1026,7 @@ lwtheme
 -
 darktext
 "
+0
 "
 "
 )
@@ -956,6 +1052,7 @@ window
 -
 inactive
 "
+0
 "
 "
 )
@@ -995,6 +1092,7 @@ border
 -
 nonzero
 "
+0
 "
 "
 )
@@ -1021,6 +1119,7 @@ scope
 :
 scope
 "
+0
 "
 layout
 .
@@ -1074,6 +1173,7 @@ notPseudo
 :
 not
 "
+0
 "
 "
 )
@@ -1122,6 +1222,7 @@ moz
 -
 dir
 "
+0
 "
 "
 NS_EVENT_STATE_LTR
@@ -1135,6 +1236,7 @@ link
 :
 link
 "
+0
 "
 "
 NS_EVENT_STATE_UNVISITED
@@ -1160,6 +1262,7 @@ any
 -
 link
 "
+0
 "
 "
 NS_EVENT_STATE_VISITED
@@ -1173,6 +1276,7 @@ visited
 :
 visited
 "
+0
 "
 "
 NS_EVENT_STATE_VISITED
@@ -1184,6 +1288,7 @@ active
 :
 active
 "
+0
 "
 "
 NS_EVENT_STATE_ACTIVE
@@ -1195,6 +1300,7 @@ checked
 :
 checked
 "
+0
 "
 "
 NS_EVENT_STATE_CHECKED
@@ -1206,6 +1312,7 @@ disabled
 :
 disabled
 "
+0
 "
 "
 NS_EVENT_STATE_DISABLED
@@ -1217,6 +1324,7 @@ enabled
 :
 enabled
 "
+0
 "
 "
 NS_EVENT_STATE_ENABLED
@@ -1228,6 +1336,7 @@ focus
 :
 focus
 "
+0
 "
 "
 NS_EVENT_STATE_FOCUS
@@ -1239,6 +1348,7 @@ hover
 :
 hover
 "
+0
 "
 "
 NS_EVENT_STATE_HOVER
@@ -1255,6 +1365,7 @@ drag
 -
 over
 "
+0
 "
 "
 NS_EVENT_STATE_DRAGOVER
@@ -1266,6 +1377,7 @@ target
 :
 target
 "
+0
 "
 "
 NS_EVENT_STATE_URLTARGET
@@ -1277,6 +1389,7 @@ indeterminate
 :
 indeterminate
 "
+0
 "
 "
 NS_EVENT_STATE_INDETERMINATE
@@ -1293,6 +1406,7 @@ devtools
 -
 highlighted
 "
+0
 "
 "
 NS_EVENT_STATE_DEVTOOLS_HIGHLIGHTED
@@ -1328,6 +1442,7 @@ full
 -
 screen
 "
+0
 "
 "
 NS_EVENT_STATE_FULL_SCREEN
@@ -1378,6 +1493,7 @@ screen
 -
 ancestor
 "
+0
 "
 "
 NS_EVENT_STATE_FULL_SCREEN_ANCESTOR
@@ -1406,6 +1522,7 @@ moz
 -
 focusring
 "
+0
 "
 "
 NS_EVENT_STATE_FOCUSRING
@@ -1429,6 +1546,7 @@ moz
 -
 broken
 "
+0
 "
 "
 NS_EVENT_STATE_BROKEN
@@ -1445,6 +1563,7 @@ user
 -
 disabled
 "
+0
 "
 "
 NS_EVENT_STATE_USERDISABLED
@@ -1459,6 +1578,7 @@ moz
 -
 suppressed
 "
+0
 "
 "
 NS_EVENT_STATE_SUPPRESSED
@@ -1473,6 +1593,7 @@ moz
 -
 loading
 "
+0
 "
 "
 NS_EVENT_STATE_LOADING
@@ -1489,6 +1610,7 @@ type
 -
 unsupported
 "
+0
 "
 "
 NS_EVENT_STATE_TYPE_UNSUPPORTED
@@ -1507,6 +1629,7 @@ unsupported
 -
 platform
 "
+0
 "
 "
 NS_EVENT_STATE_TYPE_UNSUPPORTED_PLATFORM
@@ -1523,6 +1646,7 @@ handler
 -
 clicktoplay
 "
+0
 "
 "
 NS_EVENT_STATE_TYPE_CLICK_TO_PLAY
@@ -1539,6 +1663,7 @@ handler
 -
 playpreview
 "
+0
 "
 "
 NS_EVENT_STATE_TYPE_PLAY_PREVIEW
@@ -1557,6 +1682,7 @@ vulnerable
 -
 updatable
 "
+0
 "
 "
 NS_EVENT_STATE_VULNERABLE_UPDATABLE
@@ -1577,6 +1703,7 @@ no
 -
 update
 "
+0
 "
 "
 NS_EVENT_STATE_VULNERABLE_NO_UPDATE
@@ -1593,6 +1720,7 @@ handler
 -
 disabled
 "
+0
 "
 "
 NS_EVENT_STATE_HANDLER_DISABLED
@@ -1609,6 +1737,7 @@ handler
 -
 blocked
 "
+0
 "
 "
 NS_EVENT_STATE_HANDLER_BLOCKED
@@ -1625,6 +1754,7 @@ handler
 -
 crashed
 "
+0
 "
 "
 NS_EVENT_STATE_HANDLER_CRASHED
@@ -1645,6 +1775,7 @@ script
 -
 level
 "
+0
 "
 "
 NS_EVENT_STATE_INCREMENT_SCRIPT_LEVEL
@@ -1689,6 +1820,7 @@ required
 :
 required
 "
+0
 "
 "
 NS_EVENT_STATE_REQUIRED
@@ -1700,6 +1832,7 @@ optional
 :
 optional
 "
+0
 "
 "
 NS_EVENT_STATE_OPTIONAL
@@ -1711,6 +1844,7 @@ valid
 :
 valid
 "
+0
 "
 "
 NS_EVENT_STATE_VALID
@@ -1722,6 +1856,7 @@ invalid
 :
 invalid
 "
+0
 "
 "
 NS_EVENT_STATE_INVALID
@@ -1735,6 +1870,7 @@ in
 -
 range
 "
+0
 "
 "
 NS_EVENT_STATE_INRANGE
@@ -1750,6 +1886,7 @@ of
 -
 range
 "
+0
 "
 "
 NS_EVENT_STATE_OUTOFRANGE
@@ -1761,6 +1898,7 @@ defaultPseudo
 :
 default
 "
+0
 "
 "
 NS_EVENT_STATE_DEFAULT
@@ -1777,6 +1915,7 @@ read
 -
 only
 "
+0
 "
 "
 NS_EVENT_STATE_MOZ_READONLY
@@ -1793,6 +1932,7 @@ read
 -
 write
 "
+0
 "
 "
 NS_EVENT_STATE_MOZ_READWRITE
@@ -1809,6 +1949,7 @@ submit
 -
 invalid
 "
+0
 "
 "
 NS_EVENT_STATE_MOZ_SUBMITINVALID
@@ -1825,6 +1966,7 @@ ui
 -
 invalid
 "
+0
 "
 "
 NS_EVENT_STATE_MOZ_UI_INVALID
@@ -1841,6 +1983,7 @@ ui
 -
 valid
 "
+0
 "
 "
 NS_EVENT_STATE_MOZ_UI_VALID
@@ -1857,6 +2000,7 @@ meter
 -
 optimum
 "
+0
 "
 "
 NS_EVENT_STATE_OPTIMUM
@@ -1875,6 +2019,7 @@ sub
 -
 optimum
 "
+0
 "
 "
 NS_EVENT_STATE_SUB_OPTIMUM
@@ -1895,6 +2040,7 @@ sub
 -
 optimum
 "
+0
 "
 "
 NS_EVENT_STATE_SUB_SUB_OPTIMUM
@@ -1920,6 +2066,7 @@ moz
 -
 placeholder
 "
+0
 "
 "
 NS_EVENT_STATE_IGNORE
