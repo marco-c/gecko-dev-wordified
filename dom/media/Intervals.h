@@ -898,7 +898,7 @@ mFuzz
 ;
 }
 SelfType
-Union
+Span
 (
 const
 SelfType
@@ -2318,7 +2318,7 @@ current
 =
 current
 .
-Union
+Span
 (
 mIntervals
 [
