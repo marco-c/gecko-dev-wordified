@@ -1277,15 +1277,6 @@ AMessage
 msg
 )
 ;
-int64_t
-ProcessCachedData
-(
-int64_t
-aOffset
-bool
-aWaitForCompletion
-)
-;
 sp
 <
 MediaSource
