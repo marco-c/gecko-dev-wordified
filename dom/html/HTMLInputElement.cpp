@@ -40091,13 +40091,6 @@ token
 filterName
 =
 extensionListStr
-+
-NS_LITERAL_STRING
-(
-"
-;
-"
-)
 ;
 atLeastOneFileExtensionFilter
 =
