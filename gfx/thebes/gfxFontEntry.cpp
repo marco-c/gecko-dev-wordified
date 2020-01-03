@@ -8585,7 +8585,7 @@ if
 fe
 -
 >
-TestCharacterMap
+HasCharacter
 (
 aMatchData
 -
@@ -8911,7 +8911,7 @@ fe
 fe
 -
 >
-TestCharacterMap
+HasCharacter
 (
 aMatchData
 -
