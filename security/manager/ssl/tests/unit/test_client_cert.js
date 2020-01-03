@@ -398,7 +398,9 @@ example
 .
 com
 "
-PRErrorCodeSuccess
+Cr
+.
+NS_OK
 )
 ;
 add_connection_test
@@ -410,7 +412,9 @@ example
 .
 com
 "
-PRErrorCodeSuccess
+Cr
+.
+NS_OK
 )
 ;
 add_connection_test
@@ -422,7 +426,9 @@ example
 .
 com
 "
-PRErrorCodeSuccess
+Cr
+.
+NS_OK
 null
 null
 transport
@@ -472,7 +478,10 @@ example
 .
 com
 "
+getXPCOMStatusFromNSS
+(
 SSL_ERROR_BAD_CERT_ALERT
+)
 )
 ;
 add_connection_test
@@ -484,7 +493,9 @@ example
 .
 com
 "
-PRErrorCodeSuccess
+Cr
+.
+NS_OK
 null
 null
 transport

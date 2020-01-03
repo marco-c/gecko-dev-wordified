@@ -370,7 +370,10 @@ example
 .
 com
 "
+getXPCOMStatusFromNSS
+(
 SEC_ERROR_OCSP_BAD_SIGNATURE
+)
 )
 ;
 add_connection_test
@@ -386,7 +389,10 @@ example
 .
 com
 "
+getXPCOMStatusFromNSS
+(
 SEC_ERROR_OCSP_BAD_SIGNATURE
+)
 )
 ;
 add_test
