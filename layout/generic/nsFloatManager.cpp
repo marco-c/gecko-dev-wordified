@@ -2214,10 +2214,10 @@ region
 NS_DECLARE_FRAME_PROPERTY
 (
 FloatRegionProperty
-nsIFrame
-:
-:
-DestroyMargin
+DeleteValue
+<
+nsMargin
+>
 )
 LogicalRect
 nsFloatManager
