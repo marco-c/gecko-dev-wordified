@@ -577,6 +577,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIGlobalObject
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsISupportsWeakReference
+)
 NS_INTERFACE_MAP_END_INHERITING
 (
 DOMEventTargetHelper

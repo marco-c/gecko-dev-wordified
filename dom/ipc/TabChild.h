@@ -400,6 +400,8 @@ public
 nsIScriptObjectPrincipal
 public
 nsIGlobalObject
+public
+nsSupportsWeakReference
 {
 public
 :

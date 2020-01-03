@@ -137,6 +137,13 @@ RequestBinding
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 namespace
 mozilla
 {
@@ -199,6 +206,8 @@ public
 DOMEventTargetHelper
 public
 nsIGlobalObject
+public
+nsSupportsWeakReference
 {
 typedef
 mozilla
