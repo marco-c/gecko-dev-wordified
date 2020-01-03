@@ -14032,7 +14032,9 @@ the
 download
 .
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -14138,7 +14140,9 @@ clearing
 history
 .
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -14237,7 +14241,9 @@ the
 download
 .
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

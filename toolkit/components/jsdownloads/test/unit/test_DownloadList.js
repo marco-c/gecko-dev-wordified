@@ -2279,7 +2279,9 @@ be
 expired
 .
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -2531,7 +2533,9 @@ start
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
