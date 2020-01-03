@@ -594,13 +594,9 @@ if
 tmp
 -
 >
-mRefCnt
-.
-get
+HasExternalReference
 (
 )
->
-1
 )
 {
 /
