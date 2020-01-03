@@ -12279,6 +12279,9 @@ HandleNativeObject
 selfHostedObject
 )
 {
+#
+ifdef
+DEBUG
 AutoCycleDetector
 detect
 (
@@ -12306,10 +12309,8 @@ foundCycle
 (
 )
 )
-{
-JS_ReportError
+MOZ_CRASH
 (
-cx
 "
 SelfHosted
 cloning
@@ -12322,10 +12323,8 @@ graphs
 "
 )
 ;
-return
-nullptr
-;
-}
+#
+endif
 RootedObject
 clone
 (
