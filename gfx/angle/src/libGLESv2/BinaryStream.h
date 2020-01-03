@@ -609,6 +609,7 @@ length
 void
 writeBytes
 (
+const
 unsigned
 char
 *
