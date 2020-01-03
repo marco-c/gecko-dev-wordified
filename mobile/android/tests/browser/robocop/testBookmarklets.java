@@ -325,7 +325,7 @@ provider
 .
 mDatabaseHelper
 .
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 title
 js

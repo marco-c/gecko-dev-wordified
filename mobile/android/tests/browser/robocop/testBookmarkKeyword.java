@@ -115,7 +115,7 @@ keyword
 .
 mDatabaseHelper
 .
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 mStringHelper
 .

@@ -967,7 +967,7 @@ url
 {
 mDatabaseHelper
 .
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 "
 Bookmark

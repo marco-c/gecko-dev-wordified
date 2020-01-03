@@ -1048,7 +1048,7 @@ value
 }
 RobocopTarget
 public
-void
+boolean
 addBookmark
 (
 ContentResolver
@@ -1059,6 +1059,9 @@ String
 uri
 )
 {
+return
+false
+;
 }
 RobocopTarget
 public

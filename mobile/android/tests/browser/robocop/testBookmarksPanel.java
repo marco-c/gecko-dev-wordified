@@ -179,7 +179,7 @@ bookmark
 .
 mDatabaseHelper
 .
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 mStringHelper
 .

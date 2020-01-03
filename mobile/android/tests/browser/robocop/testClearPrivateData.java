@@ -276,7 +276,7 @@ blank1
 ;
 mDatabaseHelper
 .
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 mStringHelper
 .

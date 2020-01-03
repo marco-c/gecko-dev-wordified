@@ -256,7 +256,7 @@ bookmarked
 }
 mDatabaseHelper
 .
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 mStringHelper
 .
