@@ -469,6 +469,14 @@ BackendType
 :
 COREGRAPHICS
 )
+|
+BackendTypeBit
+(
+BackendType
+:
+:
+SKIA
+)
 ;
 InitBackendPrefs
 (
