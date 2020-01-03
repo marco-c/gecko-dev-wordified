@@ -925,6 +925,12 @@ h
 '
         
 '
+ResolveSystemBinding
+.
+h
+'
+        
+'
 UnionConversions
 .
 h
@@ -958,6 +964,12 @@ cpp
         
 '
 RegisterWorkerBindings
+.
+cpp
+'
+        
+'
+ResolveSystemBinding
 .
 cpp
 '
