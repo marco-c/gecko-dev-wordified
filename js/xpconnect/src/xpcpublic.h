@@ -3084,6 +3084,12 @@ nsCString
 name
 )
 ;
+JSRuntime
+*
+GetJSRuntime
+(
+)
+;
 }
 /
 /
