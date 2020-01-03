@@ -328,12 +328,7 @@ MessagePort
 *
 aPort
 )
-{
-mPortSource
-=
-aPort
 ;
-}
 void
 SetSource
 (
