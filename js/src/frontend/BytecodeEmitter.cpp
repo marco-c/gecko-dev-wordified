@@ -47944,6 +47944,14 @@ name
 ;
 if
 (
+!
+method
+.
+isStatic
+(
+)
+&
+&
 methodName
 .
 isKind
