@@ -16576,9 +16576,9 @@ gBrowser
 .
 selectedBrowser
 .
-contentDocumentAsCPOW
+currentURI
 .
-location
+spec
 ;
 /
 /

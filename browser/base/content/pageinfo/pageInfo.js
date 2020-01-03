@@ -2978,7 +2978,7 @@ isTopWindow
 "
 pageInfo
 .
-frame
+page
 .
 title
 "
@@ -2986,7 +2986,7 @@ title
 "
 pageInfo
 .
-page
+frame
 .
 title
 "
