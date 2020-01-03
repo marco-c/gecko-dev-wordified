@@ -141,6 +141,7 @@ class
 for
 do_QueryElementAt
 class
+MOZ_STACK_CLASS
 nsQueryArrayElementAt
 :
 public

@@ -219,6 +219,7 @@ aDestination
 ;
 }
 class
+MOZ_STACK_CLASS
 nsGetInterface
 :
 public

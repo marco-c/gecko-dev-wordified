@@ -4283,6 +4283,7 @@ class
 T
 >
 class
+MOZ_STACK_CLASS
 nsQueryObject
 :
 public
@@ -4357,6 +4358,7 @@ class
 T
 >
 class
+MOZ_STACK_CLASS
 nsQueryObjectWithError
 :
 public

@@ -216,6 +216,7 @@ aResult
 )
 ;
 class
+MOZ_STACK_CLASS
 nsCreateInstanceByCID
 :
 public
@@ -286,6 +287,7 @@ mErrorPtr
 }
 ;
 class
+MOZ_STACK_CLASS
 nsCreateInstanceByContractID
 :
 public
@@ -356,6 +358,7 @@ mErrorPtr
 }
 ;
 class
+MOZ_STACK_CLASS
 nsCreateInstanceFromFactory
 :
 public
@@ -582,6 +585,7 @@ aError
 ;
 }
 class
+MOZ_STACK_CLASS
 nsGetClassObjectByCID
 :
 public
@@ -640,6 +644,7 @@ mErrorPtr
 }
 ;
 class
+MOZ_STACK_CLASS
 nsGetClassObjectByContractID
 :
 public
