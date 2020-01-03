@@ -4140,6 +4140,7 @@ savedEmptyObjectArenas
 ;
 public
 :
+explicit
 ArenaLists
 (
 JSRuntime

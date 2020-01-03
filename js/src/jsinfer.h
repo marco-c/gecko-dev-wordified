@@ -4069,6 +4069,7 @@ oom
 ;
 public
 :
+explicit
 AutoClearTypeInferenceStateOnOOM
 (
 Zone

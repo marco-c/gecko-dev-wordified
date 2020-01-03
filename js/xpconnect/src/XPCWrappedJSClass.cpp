@@ -585,6 +585,7 @@ AutoSavePendingResult
 {
 public
 :
+explicit
 AutoSavePendingResult
 (
 XPCContext

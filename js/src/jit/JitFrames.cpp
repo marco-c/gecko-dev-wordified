@@ -3593,6 +3593,7 @@ BaselineFrame
 *
 frame
 ;
+explicit
 AutoDebuggerHandlingException
 (
 BaselineFrame

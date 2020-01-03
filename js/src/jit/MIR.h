@@ -51543,6 +51543,7 @@ info_
 ;
 protected
 :
+explicit
 MGetDOMProperty
 (
 const
@@ -52186,6 +52187,7 @@ except
 our
 possiblyCalls
 value
+explicit
 MGetDOMMember
 (
 const

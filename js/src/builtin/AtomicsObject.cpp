@@ -4820,6 +4820,7 @@ fx
 ;
 public
 :
+explicit
 AutoLockFutexAPI
 (
 JS

@@ -1658,6 +1658,7 @@ jrt_
 ;
 public
 :
+explicit
 AutoMutateBackedges
 (
 JitRuntime
