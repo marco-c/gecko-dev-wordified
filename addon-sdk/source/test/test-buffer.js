@@ -580,7 +580,7 @@ invalid
 )
 ;
 }
-TypeError
+RangeError
 '
 invalid
 encoding
@@ -2379,7 +2379,7 @@ invalid
 )
 ;
 }
-TypeError
+RangeError
 '
 invalid
 encoding
