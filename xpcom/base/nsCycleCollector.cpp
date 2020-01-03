@@ -5456,6 +5456,16 @@ ShallowSizeOfExcludingThis
 aMallocSizeOf
 )
 ;
+n
++
+=
+mPtrToNodeMap
+.
+ShallowSizeOfExcludingThis
+(
+aMallocSizeOf
+)
+;
 return
 n
 ;
