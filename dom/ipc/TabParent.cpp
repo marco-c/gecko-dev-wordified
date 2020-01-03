@@ -10320,6 +10320,10 @@ const
 bool
 &
 aCausedByComposition
+const
+bool
+&
+aCausedBySelectionEvent
 )
 {
 nsCOMPtr
@@ -10395,6 +10399,14 @@ mSelectionChangeData
 mCausedByComposition
 =
 aCausedByComposition
+;
+notification
+.
+mSelectionChangeData
+.
+mCausedBySelectionEvent
+=
+aCausedBySelectionEvent
 ;
 mContentCache
 .
