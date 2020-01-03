@@ -15038,23 +15038,15 @@ runs
 on
 bc
 *
-jobs
-(
-not
+/
 dt
 *
 jobs
-)
     
 if
 options
 .
 browserChrome
-and
-not
-options
-.
-subsuite
 :
       
 options
