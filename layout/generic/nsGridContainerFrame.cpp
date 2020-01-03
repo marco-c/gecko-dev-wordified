@@ -7221,7 +7221,7 @@ mBase
 ;
 switch
 (
-aMaxCoord
+aMinCoord
 .
 GetUnit
 (
@@ -7419,7 +7419,7 @@ aMinSizingFunctions
 [
 i
 ]
-aMinSizingFunctions
+aMaxSizingFunctions
 [
 i
 ]
