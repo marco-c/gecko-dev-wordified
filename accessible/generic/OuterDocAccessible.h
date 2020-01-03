@@ -112,6 +112,9 @@ mozilla
 namespace
 a11y
 {
+class
+ProxyAccessible
+;
 /
 *
 *
@@ -205,6 +208,13 @@ aDoc
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
+ProxyAccessible
+*
+RemoteChildDoc
+(
+)
+const
+;
 /
 /
 Accessible
