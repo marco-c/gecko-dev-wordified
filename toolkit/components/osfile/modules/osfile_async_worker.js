@@ -1589,6 +1589,7 @@ function
 remove
 (
 path
+options
 )
 {
 return
@@ -1604,6 +1605,7 @@ fromMsg
 (
 path
 )
+options
 )
 ;
 }
