@@ -20797,9 +20797,9 @@ eBeforeScriptExecute
 ;
 _ASSIGN_eventName
 (
-NS_AFTER_SCRIPT_EXECUTE
+eAfterScriptExecute
 "
-NS_AFTER_SCRIPT_EXECUTE
+eAfterScriptExecute
 "
 )
 ;
