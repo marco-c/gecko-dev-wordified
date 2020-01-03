@@ -272,6 +272,12 @@ class
 SharedSurface
 ;
 class
+ShSurfHandle
+;
+class
+SurfaceFactory
+;
+class
 SurfaceStream
 ;
 class
@@ -820,7 +826,7 @@ get
 )
 ;
 }
-SharedSurface
+ShSurfHandle
 *
 Front
 (
@@ -829,11 +835,6 @@ const
 {
 return
 mFront
--
->
-Surf
-(
-)
 ;
 }
 SharedSurface
