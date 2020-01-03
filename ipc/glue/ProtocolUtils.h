@@ -1329,6 +1329,15 @@ IToplevelProtocol
 aActors
 )
 ;
+virtual
+MessageChannel
+*
+GetIPCChannel
+(
+)
+=
+0
+;
 /
 /
 This
