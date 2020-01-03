@@ -379,9 +379,9 @@ GLsizei
 width
 GLsizei
 height
-GLenum
+TexInternalFormat
 webGLFormat
-GLenum
+TexType
 webGLType
 WebGLImageDataStatus
 status
@@ -626,7 +626,7 @@ DriverFormatsFromFormatAndType
 .
 *
 /
-GLenum
+TexInternalFormat
 WebGLFormat
 (
 )
@@ -670,7 +670,7 @@ DriverTypeFromType
 .
 *
 /
-GLenum
+TexType
 WebGLType
 (
 )
@@ -682,7 +682,7 @@ mWebGLType
 }
 protected
 :
-GLenum
+TexInternalFormat
 mWebGLFormat
 ;
 /
@@ -696,7 +696,7 @@ WebGL
 /
 GLES
 format
-GLenum
+TexType
 mWebGLType
 ;
 /
@@ -1258,9 +1258,9 @@ GLsizei
 aWidth
 GLsizei
 aHeight
-GLenum
+TexInternalFormat
 aFormat
-GLenum
+TexType
 aType
 WebGLImageDataStatus
 aStatus

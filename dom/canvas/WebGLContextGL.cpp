@@ -3305,6 +3305,10 @@ imageInfo
 WebGLFormat
 (
 )
+.
+get
+(
+)
 xoffset
 yoffset
 x
@@ -4677,7 +4681,7 @@ height
 "
 )
 ;
-GLenum
+TexInternalFormat
 webGLFormat
 =
 tex
@@ -6350,7 +6354,7 @@ EXT_sRGB
 )
 {
 const
-GLenum
+TexInternalFormat
 webGLFormat
 =
 fba
@@ -6582,7 +6586,7 @@ ret
 =
 LOCAL_GL_NONE
 ;
-GLenum
+TexType
 type
 =
 fba
@@ -6613,6 +6617,10 @@ WebGLType
 switch
 (
 type
+.
+get
+(
+)
 )
 {
 case
@@ -13554,7 +13562,7 @@ renderbufferStorage
 :
 internalformat
 "
-target
+internalformat
 )
 ;
 break
@@ -13600,7 +13608,7 @@ renderbufferStorage
 :
 internalformat
 "
-target
+internalformat
 )
 ;
 break
@@ -21879,9 +21887,9 @@ mozilla
 :
 GetWebGLTexelFormat
 (
-GLenum
+TexInternalFormat
 internalformat
-GLenum
+TexType
 type
 )
 {
@@ -21901,6 +21909,10 @@ LOCAL_GL_DEPTH_COMPONENT
 switch
 (
 type
+.
+get
+(
+)
 )
 {
 case
@@ -21947,6 +21959,10 @@ LOCAL_GL_DEPTH_STENCIL
 switch
 (
 type
+.
+get
+(
+)
 )
 {
 case
@@ -22029,6 +22045,10 @@ LOCAL_GL_UNSIGNED_BYTE
 switch
 (
 internalformat
+.
+get
+(
+)
 )
 {
 case
@@ -22111,6 +22131,10 @@ OES_texture_float
 switch
 (
 internalformat
+.
+get
+(
+)
 )
 {
 case
@@ -22203,6 +22227,10 @@ OES_texture_half_float
 switch
 (
 internalformat
+.
+get
+(
+)
 )
 {
 case
@@ -22295,6 +22323,10 @@ BadFormat
 switch
 (
 type
+.
+get
+(
+)
 )
 {
 case

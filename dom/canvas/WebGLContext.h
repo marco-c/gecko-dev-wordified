@@ -582,9 +582,9 @@ SourceSurface
 WebGLTexelFormat
 GetWebGLTexelFormat
 (
-GLenum
+TexInternalFormat
 format
-GLenum
+TexType
 type
 )
 ;
@@ -1246,7 +1246,7 @@ glenum
 bool
 IsTextureFormatCompressed
 (
-GLenum
+TexInternalFormat
 format
 )
 ;
@@ -7747,7 +7747,7 @@ TexImageTarget
 texImageTarget
 GLint
 level
-GLint
+GLenum
 internalFormat
 GLint
 xoffset
@@ -7897,9 +7897,9 @@ static
 uint32_t
 GetBitsPerTexel
 (
-GLenum
+TexInternalFormat
 format
-GLenum
+TexType
 type
 )
 ;
