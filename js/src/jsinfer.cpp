@@ -2308,7 +2308,7 @@ objectSet
 =
 reinterpret_cast
 <
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 >
@@ -2744,7 +2744,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -2859,7 +2859,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -3083,7 +3083,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -3514,7 +3514,7 @@ baseObjectCount
 (
 )
 ;
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -3524,17 +3524,17 @@ objectKey
 (
 )
 ;
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 pentry
 =
 HashSetInsert
 <
-ObjectGroupKey
+TypeSetObjectKey
 *
-ObjectGroupKey
-ObjectGroupKey
+TypeSetObjectKey
+TypeSetObjectKey
 >
 (
 *
@@ -4353,7 +4353,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -4439,7 +4439,7 @@ i
 {
 if
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -4534,7 +4534,7 @@ objectCount
 :
 0
 ;
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 newSet
@@ -4551,7 +4551,7 @@ alloc
 >
 newArray
 <
-ObjectGroupKey
+TypeSetObjectKey
 *
 >
 (
@@ -4861,7 +4861,7 @@ baseFlags
 )
 static_cast
 <
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 >
@@ -4921,7 +4921,7 @@ i
 {
 if
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -4981,7 +4981,7 @@ i
 {
 if
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -5066,7 +5066,7 @@ baseFlags
 )
 static_cast
 <
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 >
@@ -6885,7 +6885,7 @@ namespace
 const
 Class
 *
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 clasp
@@ -6917,7 +6917,7 @@ getClass
 ;
 }
 TaggedProto
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 proto
@@ -6956,7 +6956,7 @@ getTaggedProto
 ;
 }
 TaggedProto
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 protoMaybeInNursery
@@ -7006,7 +7006,7 @@ hasTenuredProto
 ;
 }
 bool
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 hasTenuredProto
@@ -7039,7 +7039,7 @@ hasTenuredProto
 }
 TypeNewScript
 *
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 newScript
@@ -7078,7 +7078,7 @@ nullptr
 }
 ObjectGroup
 *
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 maybeGroup
@@ -7123,7 +7123,7 @@ nullptr
 ;
 }
 bool
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 unknownProperties
@@ -7153,7 +7153,7 @@ false
 ;
 }
 HeapTypeSetKey
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 property
@@ -7212,7 +7212,7 @@ property
 ;
 }
 void
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 ensureTrackedProperty
@@ -10282,7 +10282,7 @@ namespace
 *
 /
 bool
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 hasFlags
@@ -10377,7 +10377,7 @@ false
 ;
 }
 bool
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 hasStableClassAndProto
@@ -10479,7 +10479,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -10584,7 +10584,7 @@ DefaultHeap
 HeapTypeSetKey
 objectProperty
 =
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 get
@@ -11027,7 +11027,7 @@ namespace
 *
 /
 void
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 watchStateChangeForInlinedCall
@@ -11086,7 +11086,7 @@ ConstraintDataFreezeObjectForInlinedCall
 ;
 }
 void
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 watchStateChangeForTypedArrayData
@@ -12427,7 +12427,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -12540,7 +12540,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -12937,7 +12937,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -13680,7 +13680,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -13793,7 +13793,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -13862,7 +13862,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -15163,11 +15163,11 @@ obj
 {
 do
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 get
@@ -22885,7 +22885,7 @@ definite
 properties
 analysis
 .
-ObjectGroupKey
+TypeSetObjectKey
 *
 calleeKey
 =
@@ -23511,7 +23511,7 @@ inline
 bool
 IsAboutToBeFinalized
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 keyp
@@ -23585,7 +23585,7 @@ keyp
 =
 reinterpret_cast
 <
-ObjectGroupKey
+TypeSetObjectKey
 *
 >
 (
@@ -31879,7 +31879,7 @@ HashSetCapacity
 objectCount
 )
 ;
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 oldArray
@@ -31910,7 +31910,7 @@ i
 +
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -31936,17 +31936,17 @@ key
 )
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 pentry
 =
 HashSetInsert
 <
-ObjectGroupKey
+TypeSetObjectKey
 *
-ObjectGroupKey
-ObjectGroupKey
+TypeSetObjectKey
+TypeSetObjectKey
 >
 (
 zone
@@ -32086,12 +32086,12 @@ objectCount
 1
 )
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 )
 objectSet
@@ -32110,7 +32110,7 @@ objectSet
 =
 reinterpret_cast
 <
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 >

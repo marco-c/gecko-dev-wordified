@@ -62357,9 +62357,9 @@ constraints
 types
 :
 :
-ObjectGroupKey
+TypeSetObjectKey
 *
-object
+key
 PropertyName
 *
 name
