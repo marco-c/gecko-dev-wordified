@@ -4199,7 +4199,7 @@ nsTextFragment
 aFrag
 uint32_t
 aPos
-nsIFrame
+nsTextFrame
 *
 aFrame
 const
@@ -12983,11 +12983,6 @@ enabledJustification
 f
 -
 >
-StyleContext
-(
-)
--
->
 ShouldSuppressLineBreak
 (
 )
@@ -19242,7 +19237,7 @@ static
 bool
 IsChineseOrJapanese
 (
-nsIFrame
+nsTextFrame
 *
 aFrame
 )
@@ -19250,11 +19245,6 @@ aFrame
 if
 (
 aFrame
--
->
-StyleContext
-(
-)
 -
 >
 ShouldSuppressLineBreak
@@ -55178,11 +55168,6 @@ eNoSuppressBreak
 ;
 if
 (
-StyleContext
-(
-)
--
->
 ShouldSuppressLineBreak
 (
 )
@@ -57277,11 +57262,6 @@ GetLength
 &
 &
 !
-StyleContext
-(
-)
--
->
 ShouldSuppressLineBreak
 (
 )
@@ -57734,11 +57714,6 @@ mTextAlignLast
 NS_STYLE_TEXT_ALIGN_JUSTIFY
 |
 |
-StyleContext
-(
-)
--
->
 ShouldSuppressLineBreak
 (
 )

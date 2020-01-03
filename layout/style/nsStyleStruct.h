@@ -250,6 +250,9 @@ class
 nsIFrame
 ;
 class
+nsTextFrame
+;
+class
 nsIURI
 ;
 class
@@ -10466,7 +10469,7 @@ bool
 NewlineIsSignificant
 (
 const
-nsIFrame
+nsTextFrame
 *
 aContextFrame
 )
