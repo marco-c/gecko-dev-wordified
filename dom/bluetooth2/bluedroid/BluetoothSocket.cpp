@@ -3057,6 +3057,7 @@ new
 SocketIOSendTask
 <
 DroidSocketImpl
+UnixSocketRawData
 >
 (
 mImpl
