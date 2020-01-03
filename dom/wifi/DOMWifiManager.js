@@ -2386,6 +2386,9 @@ this
 .
 _fireStatusChangeEvent
 (
+msg
+.
+network
 )
 ;
 break
@@ -2422,6 +2425,9 @@ this
 .
 _fireStatusChangeEvent
 (
+msg
+.
+network
 )
 ;
 break
@@ -2458,6 +2464,9 @@ this
 .
 _fireStatusChangeEvent
 (
+msg
+.
+network
 )
 ;
 break
@@ -2493,6 +2502,9 @@ this
 .
 _fireStatusChangeEvent
 (
+msg
+.
+network
 )
 ;
 break
@@ -2530,6 +2542,9 @@ this
 .
 _fireStatusChangeEvent
 (
+msg
+.
+network
 )
 ;
 break
@@ -2567,6 +2582,9 @@ this
 .
 _fireStatusChangeEvent
 (
+msg
+.
+network
 )
 ;
 break
@@ -2604,6 +2622,9 @@ this
 .
 _fireStatusChangeEvent
 (
+msg
+.
+network
 )
 ;
 break
@@ -2666,6 +2687,9 @@ this
 .
 _fireStatusChangeEvent
 (
+msg
+.
+network
 )
 ;
 break
@@ -2681,9 +2705,14 @@ this
 .
 _currentNetwork
 =
+this
+.
+_convertWifiNetwork
+(
 msg
 .
 network
+)
 ;
 this
 .
@@ -2697,6 +2726,9 @@ this
 .
 _fireStatusChangeEvent
 (
+msg
+.
+network
 )
 ;
 break
@@ -2732,6 +2764,7 @@ _fireStatusChangeEvent
 function
 StatusChangeEvent
 (
+aNetwork
 )
 {
 var
@@ -2752,7 +2785,10 @@ network
 :
 this
 .
-_currentNetwork
+_convertWifiNetwork
+(
+aNetwork
+)
 status
 :
 this
