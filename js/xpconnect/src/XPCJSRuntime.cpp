@@ -20011,14 +20011,6 @@ break
 case
 JS_TELEMETRY_DEPRECATED_LANGUAGE_EXTENSIONS_IN_CONTENT
 :
-MOZ_ASSERT
-(
-sample
-<
-=
-5
-)
-;
 Telemetry
 :
 :
