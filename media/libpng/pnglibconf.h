@@ -490,9 +490,6 @@ PNG_SETJMP_SUPPORTED
 define
 PNG_STDIO_SUPPORTED
 #
-ifdef
-PR_LOGGING
-#
 define
 PNG_CHECK_cHRM_SUPPORTED
 #
@@ -501,8 +498,6 @@ PNG_ERROR_TEXT_SUPPORTED
 #
 define
 PNG_WARNINGS_SUPPORTED
-#
-endif
 /
 *
 Mangle
@@ -2751,12 +2746,6 @@ define
 png_zstream_error
 MOZ_PNG_zstream_error
 #
-if
-defined
-(
-PR_LOGGING
-)
-#
 ifndef
 png_warning
 #
@@ -2803,8 +2792,6 @@ MOZ_PNG_warn_param_signed
 define
 png_warning_parameter_unsigned
 MOZ_PNG_warn_param_unsigned
-#
-endif
 #
 if
 defined
