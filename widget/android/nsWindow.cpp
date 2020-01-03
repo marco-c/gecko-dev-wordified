@@ -513,17 +513,6 @@ mozilla
 /
 layers
 /
-AsyncPanZoomController
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 CompositorChild
 .
 h

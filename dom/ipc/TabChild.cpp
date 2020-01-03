@@ -263,7 +263,7 @@ mozilla
 /
 layers
 /
-AsyncPanZoomController
+APZCTreeManager
 .
 h
 "
@@ -2910,7 +2910,7 @@ metrics
 .
 SetDisplayPortMargins
 (
-AsyncPanZoomController
+APZCTreeManager
 :
 :
 CalculatePendingDisplayPort
