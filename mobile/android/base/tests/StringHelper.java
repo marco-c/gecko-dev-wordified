@@ -2042,17 +2042,6 @@ Guest
 Session
 "
 ;
-public
-static
-final
-String
-TAB_QUEUE_LABEL
-=
-"
-Open
-later
-"
-;
 /
 /
 Android
