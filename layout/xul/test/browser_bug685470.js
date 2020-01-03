@@ -143,7 +143,6 @@ start
 the
 test
 .
-yield
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -164,7 +163,6 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
