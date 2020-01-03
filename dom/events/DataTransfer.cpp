@@ -3468,6 +3468,12 @@ if
 data
 )
 {
+aRetval
+.
+setNull
+(
+)
+;
 return
 ;
 }
