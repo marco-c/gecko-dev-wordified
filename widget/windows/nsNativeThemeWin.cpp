@@ -2291,7 +2291,7 @@ static
 void
 AddPaddingRect
 (
-LayoutDeviceIntSize
+nsIntSize
 *
 aSize
 CaptionButton
@@ -13834,7 +13834,7 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-LayoutDeviceIntSize
+nsIntSize
 *
 aResult
 bool
@@ -17267,7 +17267,7 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-LayoutDeviceIntSize
+nsIntSize
 *
 aResult
 bool
