@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsIconChannel_h_
+mozilla_image_decoders_icon_gtk_nsIconChannel_h
 #
 define
-nsIconChannel_h_
+mozilla_image_decoders_icon_gtk_nsIconChannel_h
 #
 include
 "
@@ -304,3 +304,6 @@ aIconURI
 ;
 #
 endif
+/
+/
+mozilla_image_decoders_icon_gtk_nsIconChannel_h

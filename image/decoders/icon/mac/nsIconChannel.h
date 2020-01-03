@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsIconChannel_h___
+mozilla_image_encoders_icon_mac_nsIconChannel_h
 #
 define
-nsIconChannel_h___
+mozilla_image_encoders_icon_mac_nsIconChannel_h
 #
 include
 "
@@ -297,7 +297,5 @@ aFileExtension
 #
 endif
 /
-*
-nsIconChannel_h___
-*
 /
+mozilla_image_encoders_icon_mac_nsIconChannel_h

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsIconChannel_h_
+mozilla_image_decoders_icon_android_nsIconChannel_h
 #
 define
-nsIconChannel_h_
+mozilla_image_decoders_icon_android_nsIconChannel_h
 #
 include
 "
@@ -310,3 +310,6 @@ mRealChannel
 ;
 #
 endif
+/
+/
+mozilla_image_decoders_icon_android_nsIconChannel_h

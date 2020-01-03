@@ -77,10 +77,10 @@ MPL
 /
 #
 ifndef
-nsIconChannel_h_
+mozilla_image_encoders_icon_qt_nsIconChannel_h
 #
 define
-nsIconChannel_h_
+mozilla_image_encoders_icon_qt_nsIconChannel_h
 #
 include
 "
@@ -303,3 +303,6 @@ mRealChannel
 ;
 #
 endif
+/
+/
+mozilla_image_encoders_icon_qt_nsIconChannel_h
