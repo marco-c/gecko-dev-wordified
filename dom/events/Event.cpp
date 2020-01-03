@@ -4936,6 +4936,10 @@ if
 (
 !
 content
+|
+|
+!
+aPresContext
 )
 {
 return
