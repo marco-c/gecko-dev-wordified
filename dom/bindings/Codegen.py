@@ -93865,10 +93865,6 @@ isExposedInSystemGlobals
 =
 True
                                                  
-workers
-=
-False
-                                                 
 register
 =
 True
