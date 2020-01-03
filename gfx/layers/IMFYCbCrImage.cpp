@@ -553,6 +553,7 @@ aDevice
 )
 {
 return
+false
 ;
 }
 HRESULT
