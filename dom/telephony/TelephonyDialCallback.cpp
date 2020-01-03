@@ -125,8 +125,6 @@ aTelephony
 Promise
 *
 aPromise
-uint32_t
-aServiceId
 )
 :
 TelephonyCallback
@@ -140,10 +138,6 @@ aWindow
 mTelephony
 (
 aTelephony
-)
-mServiceId
-(
-aServiceId
 )
 {
 MOZ_ASSERT
@@ -265,6 +259,8 @@ TelephonyDialCallback
 NotifyDialCallSuccess
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 const
 nsAString
@@ -298,7 +294,7 @@ mTelephony
 CreateCall
 (
 id
-mServiceId
+aClientId
 aCallIndex
 nsITelephonyService
 :
