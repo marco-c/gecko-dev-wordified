@@ -266,9 +266,6 @@ WrapObject
 JSContext
 *
 aCx
-bool
-*
-aTookOwnership
 )
 {
 return
@@ -279,7 +276,6 @@ Wrap
 (
 aCx
 this
-aTookOwnership
 )
 ;
 }
