@@ -4451,12 +4451,6 @@ perThreadData
 )
 jitFrames_
 (
-(
-uint8_t
-*
-)
-nullptr
-SequentialExecution
 )
 ionInlineFrameNo_
 (
