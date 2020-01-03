@@ -3880,6 +3880,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxShapedText
 *
 aShapedText
@@ -10474,6 +10476,8 @@ uint32_t
 aRunLength
 int32_t
 aRunScript
+bool
+aVertical
 )
 ;
 /
@@ -10526,6 +10530,8 @@ uint32_t
 aHash
 int32_t
 aRunScript
+bool
+aVertical
 int32_t
 aAppUnitsPerDevUnit
 uint32_t
@@ -11596,6 +11602,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxShapedText
 *
 aShapedText
@@ -11644,6 +11652,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxShapedText
 *
 aShapedText
@@ -11825,6 +11835,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxTextRun
 *
 aTextRun
@@ -11919,6 +11931,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxTextRun
 *
 aTextRun
