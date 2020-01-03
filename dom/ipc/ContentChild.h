@@ -1769,14 +1769,6 @@ const
 bool
 &
 aIsUnmounting
-const
-bool
-&
-aIsRemovable
-const
-bool
-&
-aIsHotSwappable
 )
 MOZ_OVERRIDE
 ;
