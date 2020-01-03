@@ -11912,6 +11912,10 @@ mScaleToResolution
 (
 false
 )
+mTransformingByAPZ
+(
+false
+)
 {
 if
 (
