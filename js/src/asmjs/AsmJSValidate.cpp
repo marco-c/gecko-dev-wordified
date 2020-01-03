@@ -19025,7 +19025,7 @@ ins
 T
 :
 :
-New
+NewAsmJS
 (
 alloc
 (

@@ -61151,6 +61151,11 @@ SimdTypeDescr
 :
 :
 call
+&
+&
+JitSupportsSimd
+(
+)
 )
 {
 Rooted

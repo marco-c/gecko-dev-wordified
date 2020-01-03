@@ -1157,6 +1157,14 @@ lir
 )
 ;
 void
+visitSimdBox
+(
+LSimdBox
+*
+lir
+)
+;
+void
 visitNewDeclEnvObject
 (
 LNewDeclEnvObject
