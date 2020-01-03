@@ -1515,6 +1515,7 @@ tctx
 prof_tctx_set
 (
 ptr
+usize
 tctx
 )
 ;

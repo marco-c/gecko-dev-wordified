@@ -650,7 +650,7 @@ GC
 .
 *
 /
-index_t
+szind_t
 next_gc_bin
 ;
 /
@@ -1031,7 +1031,7 @@ tcache
 tcache_bin_t
 *
 tbin
-index_t
+szind_t
 binind
 )
 ;
@@ -1047,7 +1047,7 @@ tcache
 tcache_bin_t
 *
 tbin
-index_t
+szind_t
 binind
 unsigned
 rem
@@ -1062,7 +1062,7 @@ tsd
 tcache_bin_t
 *
 tbin
-index_t
+szind_t
 binind
 unsigned
 rem
@@ -1385,7 +1385,7 @@ tcache
 void
 *
 ptr
-index_t
+szind_t
 binind
 )
 ;
@@ -1832,7 +1832,7 @@ void
 *
 ret
 ;
-index_t
+szind_t
 binind
 ;
 size_t
@@ -2072,7 +2072,7 @@ void
 *
 ret
 ;
-index_t
+szind_t
 binind
 ;
 size_t
@@ -2348,7 +2348,7 @@ tcache
 void
 *
 ptr
-index_t
+szind_t
 binind
 )
 {
@@ -2502,7 +2502,7 @@ size_t
 size
 )
 {
-index_t
+szind_t
 binind
 ;
 tcache_bin_t
