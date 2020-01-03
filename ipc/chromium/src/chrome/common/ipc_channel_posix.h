@@ -362,6 +362,11 @@ ProcessOutgoingMessages
 (
 )
 ;
+void
+ClearAndShrinkInputOverflowBuf
+(
+)
+;
 /
 /
 MessageLoopForIO
