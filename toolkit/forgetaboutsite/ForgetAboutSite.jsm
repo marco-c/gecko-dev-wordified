@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 Components
 .
 utils
@@ -471,7 +476,6 @@ true
 /
 Cache
 let
-(
 cs
 =
 Cc
@@ -499,8 +503,7 @@ Ci
 .
 nsICacheStorageService
 )
-)
-{
+;
 /
 /
 NOTE
@@ -558,13 +561,11 @@ toString
 )
 ;
 }
-}
 /
 /
 Image
 Cache
 let
-(
 imageCache
 =
 Cc
@@ -593,8 +594,7 @@ getImgCacheForDocument
 (
 null
 )
-)
-{
+;
 try
 {
 imageCache
@@ -641,12 +641,10 @@ toString
 )
 ;
 }
-}
 /
 /
 Cookies
 let
-(
 cm
 =
 Cc
@@ -668,8 +666,7 @@ Ci
 .
 nsICookieManager2
 )
-)
-{
+;
 let
 enumerator
 =
@@ -722,7 +719,6 @@ false
 )
 ;
 }
-}
 /
 /
 Plugin
@@ -742,7 +738,6 @@ phInterface
 FLAG_CLEAR_ALL
 ;
 let
-(
 ph
 =
 Cc
@@ -764,8 +759,7 @@ getService
 (
 phInterface
 )
-)
-{
+;
 let
 tags
 =
@@ -822,7 +816,6 @@ errors
 from
 the
 plugin
-}
 }
 }
 /
@@ -933,7 +926,6 @@ reportError
 else
 {
 let
-(
 dm
 =
 Cc
@@ -957,8 +949,7 @@ Ci
 .
 nsIDownloadManager
 )
-)
-{
+;
 /
 /
 Active
@@ -1030,9 +1021,10 @@ remove
 ;
 }
 }
-}
-function
+const
 deleteAllLike
+=
+function
 (
 db
 )
@@ -1290,7 +1282,6 @@ null
 /
 Passwords
 let
-(
 lm
 =
 Cc
@@ -1314,8 +1305,7 @@ Ci
 .
 nsILoginManager
 )
-)
-{
+;
 /
 /
 Clear
@@ -1480,12 +1470,10 @@ disabledHosts
 true
 )
 ;
-}
 /
 /
 Permissions
 let
-(
 pm
 =
 Cc
@@ -1507,8 +1495,7 @@ Ci
 .
 nsIPermissionManager
 )
-)
-{
+;
 /
 /
 Enumerate
@@ -1522,7 +1509,6 @@ one
 matches
 remove
 it
-let
 enumerator
 =
 pm
@@ -1577,13 +1563,11 @@ type
 )
 ;
 }
-}
 /
 /
 Offline
 Storages
 let
-(
 qm
 =
 Cc
@@ -1609,8 +1593,7 @@ Ci
 .
 nsIQuotaManager
 )
-)
-{
+;
 /
 /
 delete
@@ -1722,7 +1705,6 @@ clearStoragesForURI
 httpsURI
 )
 ;
-}
 function
 onContentPrefsRemovalFinished
 (
