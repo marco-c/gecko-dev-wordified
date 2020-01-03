@@ -2231,6 +2231,11 @@ yet
 ;
 if
 (
+aLength
+)
+{
+if
+(
 !
 mTrackBuffer
 -
@@ -2301,6 +2306,7 @@ CheckEndTime
 (
 )
 ;
+}
 /
 /
 Run
