@@ -6187,7 +6187,7 @@ InitializeRootMetrics
 utils
 -
 >
-SetResolution
+SetResolutionAndScaleTo
 (
 mLastRootMetrics
 .
