@@ -683,6 +683,8 @@ gc
 :
 InitialHeap
 initialHeap
+size_t
+ndynamic
 const
 js
 :
@@ -703,7 +705,7 @@ JSObject
 (
 cx
 allocKind
-0
+ndynamic
 initialHeap
 clasp
 )

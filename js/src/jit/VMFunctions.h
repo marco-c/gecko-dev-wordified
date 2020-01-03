@@ -4778,6 +4778,8 @@ gc
 :
 InitialHeap
 initialHeap
+size_t
+ndynamic
 const
 js
 :

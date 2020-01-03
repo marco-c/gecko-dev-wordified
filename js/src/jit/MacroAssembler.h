@@ -5209,7 +5209,7 @@ nurseryAllocate
 Register
 result
 Register
-slots
+temp
 gc
 :
 :
@@ -5250,7 +5250,7 @@ allocateObject
 Register
 result
 Register
-slots
+temp
 gc
 :
 :
