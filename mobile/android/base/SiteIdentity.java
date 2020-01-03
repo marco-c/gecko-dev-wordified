@@ -797,11 +797,12 @@ mOwner
 =
 identityData
 .
-getString
+optString
 (
 "
 owner
 "
+null
 )
 ;
 mSupplemental
