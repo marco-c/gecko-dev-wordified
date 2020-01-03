@@ -1206,6 +1206,11 @@ req
 res
 )
 {
+"
+use
+strict
+"
+;
 return
 res
 .

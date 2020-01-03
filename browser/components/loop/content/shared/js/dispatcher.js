@@ -142,6 +142,11 @@ function
 (
 )
 {
+"
+use
+strict
+"
+;
 function
 Dispatcher
 (

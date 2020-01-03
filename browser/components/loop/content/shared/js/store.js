@@ -688,6 +688,11 @@ function
 (
 )
 {
+"
+use
+strict
+"
+;
 var
 _stores
 =

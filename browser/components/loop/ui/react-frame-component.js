@@ -87,6 +87,16 @@ queuedFrames
 [
 ]
 ;
+(
+function
+(
+)
+{
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -1426,5 +1436,10 @@ body
 ;
 }
 }
+)
+;
+}
+)
+(
 )
 ;

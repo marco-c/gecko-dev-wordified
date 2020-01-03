@@ -115,6 +115,11 @@ function
 (
 )
 {
+"
+use
+strict
+"
+;
 /
 *
 *

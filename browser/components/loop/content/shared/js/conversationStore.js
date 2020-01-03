@@ -82,6 +82,11 @@ function
 (
 )
 {
+"
+use
+strict
+"
+;
 var
 sharedActions
 =
