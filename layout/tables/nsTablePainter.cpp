@@ -2109,7 +2109,7 @@ wm
 /
 *
 BC
-left
+iStart
 borders
 aren
 '
@@ -2123,7 +2123,7 @@ previous
 column
 '
 s
-right
+iEnd
 border
 is
 the
@@ -2131,7 +2131,7 @@ next
 one
 '
 s
-left
+iStart
 border
 .
 *
@@ -2143,11 +2143,11 @@ with
 table
 '
 s
-left
+iStart
 border
 .
 nscoord
-lastLeftBorder
+lastIStartBorder
 =
 aTableFrame
 -
@@ -2209,7 +2209,7 @@ IStart
 wm
 )
 =
-lastLeftBorder
+lastIStartBorder
 ;
 cgFrame
 -
@@ -2367,9 +2367,9 @@ IStart
 wm
 )
 =
-lastLeftBorder
+lastIStartBorder
 ;
-lastLeftBorder
+lastIStartBorder
 =
 col
 -
