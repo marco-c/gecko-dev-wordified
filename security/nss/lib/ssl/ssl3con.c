@@ -5356,7 +5356,7 @@ allowLargerPeerVersion
 {
 PORT_SetError
 (
-SSL_ERROR_NO_CYPHER_OVERLAP
+SSL_ERROR_UNSUPPORTED_VERSION
 )
 ;
 return
@@ -41292,7 +41292,7 @@ handshake_failure
 ;
 errCode
 =
-SSL_ERROR_NO_CYPHER_OVERLAP
+SSL_ERROR_UNSUPPORTED_VERSION
 ;
 goto
 alert_loser
@@ -50710,7 +50710,7 @@ handshake_failure
 ;
 errCode
 =
-SSL_ERROR_NO_CYPHER_OVERLAP
+SSL_ERROR_UNSUPPORTED_VERSION
 ;
 goto
 alert_loser
@@ -56371,7 +56371,7 @@ handshake_failure
 ;
 errCode
 =
-SSL_ERROR_NO_CYPHER_OVERLAP
+SSL_ERROR_UNSUPPORTED_VERSION
 ;
 goto
 alert_loser

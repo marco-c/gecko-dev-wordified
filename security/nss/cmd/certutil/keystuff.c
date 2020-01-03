@@ -3311,9 +3311,6 @@ pwdata
 CK_MECHANISM_TYPE
 mechanism
 ;
-SECOidTag
-algtag
-;
 PK11RSAGenParams
 rsaparams
 ;
@@ -3454,10 +3451,6 @@ mechanism
 =
 CKM_RSA_PKCS_KEY_PAIR_GEN
 ;
-algtag
-=
-SEC_OID_PKCS1_MD5_WITH_RSA_ENCRYPTION
-;
 params
 =
 &
@@ -3471,10 +3464,6 @@ dsaKey
 mechanism
 =
 CKM_DSA_KEY_PAIR_GEN
-;
-algtag
-=
-SEC_OID_ANSIX9_DSA_SIGNATURE_WITH_SHA1_DIGEST
 ;
 if
 (
