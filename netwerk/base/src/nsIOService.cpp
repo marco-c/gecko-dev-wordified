@@ -3958,9 +3958,6 @@ have
 if
 (
 loadInfo
-&
-&
-loadInfo
 -
 >
 GetLoadingSandboxed
