@@ -133,15 +133,6 @@ jsfriendapi
 .
 h
 "
-#
-include
-"
-js
-/
-OldDebugAPI
-.
-h
-"
 namespace
 mozilla
 {

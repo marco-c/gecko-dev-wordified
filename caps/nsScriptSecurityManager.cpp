@@ -130,15 +130,6 @@ h
 #
 include
 "
-js
-/
-OldDebugAPI
-.
-h
-"
-#
-include
-"
 xpcprivate
 .
 h

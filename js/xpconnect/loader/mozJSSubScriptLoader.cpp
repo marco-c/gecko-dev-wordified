@@ -222,15 +222,6 @@ h
 #
 include
 "
-js
-/
-OldDebugAPI
-.
-h
-"
-#
-include
-"
 nsJSPrincipals
 .
 h
