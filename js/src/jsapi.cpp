@@ -23650,7 +23650,7 @@ if
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 &

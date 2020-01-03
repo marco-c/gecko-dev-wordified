@@ -10129,10 +10129,11 @@ our
 script
 has
 a
-polluted
+non
+-
+syntactic
 /
 /
-global
 scope
 since
 they
@@ -10151,7 +10152,7 @@ if
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
