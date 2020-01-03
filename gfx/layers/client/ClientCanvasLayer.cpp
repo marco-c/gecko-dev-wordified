@@ -677,8 +677,6 @@ IsANGLE
 )
 &
 &
-DoesD3D11TextureSharingWork
-(
 gfxWindowsPlatform
 :
 :
@@ -687,9 +685,8 @@ GetPlatform
 )
 -
 >
-GetD3D11Device
+DoesD3D11TextureSharingWork
 (
-)
 )
 )
 {
