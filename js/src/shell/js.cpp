@@ -3376,7 +3376,7 @@ return
 ;
 }
 }
-AutoCloseInputFile
+AutoCloseFile
 autoClose
 (
 file
@@ -3998,7 +3998,7 @@ return
 false
 ;
 }
-AutoCloseInputFile
+AutoCloseFile
 autoClose
 (
 file
@@ -7669,7 +7669,7 @@ return
 nullptr
 ;
 }
-AutoCloseInputFile
+AutoCloseFile
 autoClose
 (
 file
