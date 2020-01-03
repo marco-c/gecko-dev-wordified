@@ -3164,13 +3164,6 @@ new
 TransportLayerIce
 (
 name
-)
-;
-ice_
--
->
-SetParameters
-(
 ice_ctx_
 stream
 1

@@ -174,7 +174,7 @@ nsWeakReference
 h
 "
 namespace
-mozilla
+sipcc
 {
 class
 PeerConnectionImpl
@@ -223,7 +223,7 @@ stateError
 ;
 AFakePCObserver
 (
-mozilla
+sipcc
 :
 :
 PeerConnectionImpl
@@ -295,7 +295,7 @@ std
 string
 lastString
 ;
-mozilla
+sipcc
 :
 :
 PeerConnectionImpl
@@ -604,7 +604,7 @@ ER
 ;
 protected
 :
-mozilla
+sipcc
 :
 :
 PeerConnectionImpl

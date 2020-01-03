@@ -85,11 +85,15 @@ h
 for
 Optional
 namespace
-mozilla
+sipcc
 {
 class
 PeerConnectionImpl
 ;
+}
+namespace
+mozilla
+{
 class
 ErrorResult
 ;
@@ -201,6 +205,9 @@ static
 void
 StoreLongTermICEStatistics
 (
+sipcc
+:
+:
 PeerConnectionImpl
 &
 aPc
