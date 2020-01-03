@@ -84,9 +84,6 @@ prenv
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -117,8 +114,6 @@ return
 sLog
 ;
 }
-#
-endif
 #
 include
 "

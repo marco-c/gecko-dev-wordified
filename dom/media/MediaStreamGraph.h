@@ -268,16 +268,11 @@ aState
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gMediaStreamGraphLog
 ;
-#
-endif
 /
 *
 *

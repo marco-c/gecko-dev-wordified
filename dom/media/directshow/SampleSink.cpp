@@ -157,9 +157,6 @@ media
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 GetDirectShowLog
@@ -184,18 +181,6 @@ PR_LOG_DEBUG
 __VA_ARGS__
 )
 )
-#
-else
-#
-define
-LOG
-(
-.
-.
-.
-)
-#
-endif
 SampleSink
 :
 :
@@ -374,9 +359,6 @@ Wait
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 REFERENCE_TIME
 start
 =
@@ -440,8 +422,6 @@ end
 USECS_PER_S
 )
 ;
-#
-endif
 mSample
 =
 aSample
@@ -583,9 +563,6 @@ aOutSample
 =
 mSample
 ;
-#
-ifdef
-PR_LOGGING
 int64_t
 start
 =
@@ -646,8 +623,6 @@ end
 USECS_PER_S
 )
 ;
-#
-endif
 mSample
 =
 nullptr

@@ -121,9 +121,6 @@ h
 >
 #
 endif
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -142,17 +139,6 @@ gMediaStreamGraphLog
 type
 msg
 )
-#
-else
-#
-define
-STREAM_LOG
-(
-type
-msg
-)
-#
-endif
 /
 /
 We

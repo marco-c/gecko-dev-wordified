@@ -749,9 +749,6 @@ mReentrantMonitor
 bool
 mCanceled
 ;
-#
-ifdef
-PR_LOGGING
 /
 /
 How
@@ -771,8 +768,6 @@ mAudioInitCounter
 uint32_t
 mVideoInitCounter
 ;
-#
-endif
 }
 ;
 class

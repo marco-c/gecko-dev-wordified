@@ -771,9 +771,6 @@ mozilla
 :
 dom
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -804,8 +801,6 @@ return
 sLog
 ;
 }
-#
-endif
 #
 define
 LOG

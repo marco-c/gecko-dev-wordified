@@ -534,12 +534,6 @@ aRefTime
 10000000
 ;
 }
-#
-if
-defined
-(
-PR_LOGGING
-)
 const
 char
 *
@@ -551,8 +545,6 @@ GUID
 aGuid
 )
 ;
-#
-endif
 }
 /
 /

@@ -732,9 +732,6 @@ InitLibrary
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 gAudioStreamLog
 =
 PR_NewLogModule
@@ -744,8 +741,6 @@ AudioStream
 "
 )
 ;
-#
-endif
 PrefChanged
 (
 PREF_VOLUME_SCALE

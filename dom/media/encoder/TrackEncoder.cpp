@@ -179,9 +179,6 @@ endif
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gTrackEncoderLog
@@ -199,17 +196,6 @@ gTrackEncoderLog
 type
 msg
 )
-#
-else
-#
-define
-TRACK_LOG
-(
-type
-msg
-)
-#
-endif
 static
 const
 int
@@ -280,9 +266,6 @@ mCanceled
 (
 false
 )
-#
-ifdef
-PR_LOGGING
 mAudioInitCounter
 (
 0
@@ -291,12 +274,7 @@ mVideoInitCounter
 (
 0
 )
-#
-endif
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -313,8 +291,6 @@ TrackEncoder
 )
 ;
 }
-#
-endif
 }
 void
 AudioTrackEncoder
@@ -376,9 +352,6 @@ if
 mInitialized
 )
 {
-#
-ifdef
-PR_LOGGING
 mAudioInitCounter
 +
 +
@@ -400,8 +373,6 @@ mAudioInitCounter
 )
 )
 ;
-#
-endif
 AudioSegment
 :
 :
@@ -1067,9 +1038,6 @@ if
 mInitialized
 )
 {
-#
-ifdef
-PR_LOGGING
 mVideoInitCounter
 +
 +
@@ -1091,8 +1059,6 @@ mVideoInitCounter
 )
 )
 ;
-#
-endif
 VideoSegment
 :
 :

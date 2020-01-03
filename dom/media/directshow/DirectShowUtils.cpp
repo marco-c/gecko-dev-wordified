@@ -157,12 +157,6 @@ get
 namespace
 mozilla
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 /
 /
 Create
@@ -367,11 +361,6 @@ Unknown
 "
 ;
 }
-#
-endif
-/
-/
-PR_LOGGING
 void
 RemoveGraphFromRunningObjectTable
 (

@@ -204,9 +204,6 @@ h
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -225,17 +222,6 @@ gMediaDecoderLog
 type
 msg
 )
-#
-else
-#
-define
-OPUS_LOG
-(
-type
-msg
-)
-#
-endif
 OpusParser
 :
 :

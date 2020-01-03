@@ -1779,9 +1779,6 @@ Link
 >
 LinkArray
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -1792,8 +1789,6 @@ PRLogModuleInfo
 *
 gCspPRLog
 ;
-#
-endif
 #
 define
 NAME_NOT_VALID
@@ -8664,9 +8659,6 @@ aContentType
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -8714,8 +8706,6 @@ CSP
 "
 )
 ;
-#
-endif
 /
 /
 Start
@@ -8873,9 +8863,6 @@ nsDocument
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 gDocumentLeakPRLog
@@ -8895,8 +8882,6 @@ this
 )
 )
 ;
-#
-endif
 NS_ASSERTION
 (
 !
@@ -12530,9 +12515,6 @@ ResetToURI
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 gDocumentLeakPRLog
@@ -12575,8 +12557,6 @@ get
 )
 ;
 }
-#
-endif
 mSecurityInfo
 =
 nullptr
@@ -14460,9 +14440,6 @@ nsIContentSink
 aSink
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 gDocumentLeakPRLog
@@ -14526,8 +14503,6 @@ get
 )
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 NodePrincipal
@@ -15284,9 +15259,6 @@ rv
 rv
 )
 ;
-#
-ifdef
-PR_LOGGING
 {
 PR_LOG
 (
@@ -15318,8 +15290,6 @@ get
 )
 ;
 }
-#
-endif
 }
 return
 NS_OK
@@ -15519,9 +15489,6 @@ CSPService
 sCSPEnabled
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gCspPRLog
@@ -15543,8 +15510,6 @@ this
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -15827,9 +15792,6 @@ IsEmpty
 )
 )
 {
-#
-ifdef
-PR_LOGGING
 nsCOMPtr
 <
 nsIURI
@@ -15893,15 +15855,10 @@ app
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
 }
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gCspPRLog
@@ -15923,8 +15880,6 @@ this
 )
 )
 ;
-#
-endif
 nsresult
 rv
 ;
@@ -16097,9 +16052,6 @@ if
 csp
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gCspPRLog
@@ -16148,8 +16100,6 @@ CSP
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -16180,9 +16130,6 @@ rv
 )
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gCspPRLog
@@ -16202,8 +16149,6 @@ rv
 )
 )
 ;
-#
-endif
 return
 rv
 ;
@@ -16573,9 +16518,6 @@ rv
 safeAncestry
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gCspPRLog
@@ -16598,8 +16540,6 @@ loading
 )
 )
 ;
-#
-endif
 /
 /
 stop
@@ -16745,9 +16685,6 @@ net
 :
 RP_No_Referrer
 ;
-#
-ifdef
-PR_LOGGING
 {
 PR_LOG
 (
@@ -16785,8 +16722,6 @@ sent
 )
 ;
 }
-#
-endif
 }
 /
 /
@@ -16839,9 +16774,6 @@ rv
 rv
 )
 ;
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gCspPRLog
@@ -16859,8 +16791,6 @@ principal
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;

@@ -259,9 +259,6 @@ endif
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -280,17 +277,6 @@ gMediaDecoderLog
 type
 msg
 )
-#
-else
-#
-define
-LOG
-(
-type
-msg
-)
-#
-endif
 /
 *
 *

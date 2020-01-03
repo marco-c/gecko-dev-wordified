@@ -168,9 +168,6 @@ android
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -189,17 +186,6 @@ gMediaDecoderLog
 type
 msg
 )
-#
-else
-#
-define
-DECODER_LOG
-(
-type
-msg
-)
-#
-endif
 MediaOmxCommonDecoder
 :
 :
@@ -223,9 +209,6 @@ mFallbackToStateMachine
 false
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -242,8 +225,6 @@ MediaDecoder
 )
 ;
 }
-#
-endif
 }
 MediaOmxCommonDecoder
 :

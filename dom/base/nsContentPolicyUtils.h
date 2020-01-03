@@ -417,9 +417,6 @@ name
 return
 #
 name
-#
-ifdef
-PR_LOGGING
 /
 *
 *
@@ -732,14 +729,6 @@ Type
 ;
 }
 }
-#
-endif
-/
-/
-defined
-(
-PR_LOGGING
-)
 #
 undef
 CASE_RETURN

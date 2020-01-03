@@ -159,9 +159,6 @@ h
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -180,17 +177,6 @@ gMediaDecoderLog
 type
 msg
 )
-#
-else
-#
-define
-DECODER_LOG
-(
-type
-msg
-)
-#
-endif
 NS_IMPL_ISUPPORTS
 (
 MediaShutdownManager

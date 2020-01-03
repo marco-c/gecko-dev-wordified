@@ -129,9 +129,6 @@ h
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -155,18 +152,6 @@ PR_LOG_DEBUG
 __VA_ARGS__
 )
 )
-#
-else
-#
-define
-WMF_CB_LOG
-(
-.
-.
-.
-)
-#
-endif
 /
 /
 IUnknown
@@ -302,9 +287,6 @@ mReadFinished
 false
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -321,8 +303,6 @@ WMFSourceReaderCallback
 )
 ;
 }
-#
-endif
 }
 HRESULT
 WMFSourceReaderCallback

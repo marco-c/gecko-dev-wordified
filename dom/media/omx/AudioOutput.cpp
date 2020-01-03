@@ -222,9 +222,6 @@ h
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -244,17 +241,6 @@ gAudioOffloadPlayerLog
 type
 msg
 )
-#
-else
-#
-define
-AUDIO_OFFLOAD_LOG
-(
-type
-msg
-)
-#
-endif
 using
 namespace
 android
@@ -291,9 +277,6 @@ mSessionId
 aSessionId
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -310,8 +293,6 @@ AudioOffloadPlayer
 )
 ;
 }
-#
-endif
 }
 AudioOutput
 :

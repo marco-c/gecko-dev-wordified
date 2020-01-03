@@ -233,9 +233,6 @@ algorithm
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gMediaCacheLog
@@ -253,17 +250,6 @@ gMediaCacheLog
 type
 msg
 )
-#
-else
-#
-define
-CACHE_LOG
-(
-type
-msg
-)
-#
-endif
 /
 /
 Readahead
@@ -4158,9 +4144,6 @@ rv
 rv
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -4177,8 +4160,6 @@ MediaCache
 )
 ;
 }
-#
-endif
 MediaCacheFlusher
 :
 :

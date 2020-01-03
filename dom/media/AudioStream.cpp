@@ -248,9 +248,6 @@ undef
 LOG
 #
 endif
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gAudioStreamLog
@@ -274,16 +271,6 @@ gAudioStreamLog
 PR_LOG_DEBUG
 x
 )
-#
-else
-#
-define
-LOG
-(
-x
-)
-#
-endif
 /
 *
 *
@@ -6834,9 +6821,6 @@ mLatencyRequest
 LowLatency
 )
 {
-#
-ifdef
-PR_LOGGING
 uint32_t
 old_len
 =
@@ -6846,8 +6830,6 @@ Length
 (
 )
 ;
-#
-endif
 available
 =
 mBuffer
@@ -6860,9 +6842,6 @@ aFrames
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 TimeStamp
 now
 =
@@ -7011,8 +6990,6 @@ available
 )
 ;
 }
-#
-endif
 }
 mState
 =

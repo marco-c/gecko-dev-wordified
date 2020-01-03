@@ -449,16 +449,11 @@ unused
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gCspPRLog
 ;
-#
-endif
 using
 namespace
 mozilla
@@ -803,9 +798,6 @@ enable
 logging
 for
 CSP
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -820,8 +812,6 @@ CSP
 "
 )
 ;
-#
-endif
 }
 nsScriptLoader
 :
