@@ -4504,6 +4504,7 @@ ULARGE_INTEGER
 startUsec
 =
 {
+{
 start
 .
 dwLowDateTime
@@ -4511,10 +4512,12 @@ start
 .
 dwHighDateTime
 }
+}
 ;
 ULARGE_INTEGER
 nowUsec
 =
+{
 {
 now
 .
@@ -4522,6 +4525,7 @@ dwLowDateTime
 now
 .
 dwHighDateTime
+}
 }
 ;
 return

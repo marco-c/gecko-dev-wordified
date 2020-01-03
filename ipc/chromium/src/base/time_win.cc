@@ -2618,7 +2618,9 @@ LARGE_INTEGER
 ticks_per_sec
 =
 {
+{
 0
+}
 }
 ;
 if

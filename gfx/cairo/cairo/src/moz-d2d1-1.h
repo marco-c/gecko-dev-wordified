@@ -717,7 +717,9 @@ D2D1_LAYER_PARAMETERS1
 layerParameters
 =
 {
+{
 0
+}
 }
 ;
 layerParameters
