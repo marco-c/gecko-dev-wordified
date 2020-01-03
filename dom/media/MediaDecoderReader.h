@@ -1359,9 +1359,12 @@ MetadataTags
 *
 aTags
 )
-=
-0
+{
+MOZ_CRASH
+(
+)
 ;
+}
 /
 /
 Fills
