@@ -1404,16 +1404,21 @@ LinkedListElement
 AllocationSite
 >
 {
-explicit
 AllocationSite
 (
 HandleObject
 frame
+int64_t
+when
 )
 :
 frame
 (
 frame
+)
+when
+(
+when
 )
 {
 MOZ_ASSERT_IF
@@ -1437,6 +1442,9 @@ SavedFrame
 ;
 RelocatablePtrObject
 frame
+;
+int64_t
+when
 ;
 }
 ;
@@ -1480,6 +1488,8 @@ JSContext
 cx
 HandleSavedFrame
 frame
+int64_t
+when
 )
 ;
 void
@@ -2906,6 +2916,8 @@ JSContext
 cx
 HandleSavedFrame
 frame
+int64_t
+when
 GlobalObject
 :
 :
@@ -4033,6 +4045,8 @@ JSContext
 cx
 HandleSavedFrame
 frame
+int64_t
+when
 )
 ;
 static
@@ -6294,6 +6308,8 @@ JSContext
 cx
 HandleSavedFrame
 frame
+int64_t
+when
 )
 {
 GlobalObject
@@ -6339,6 +6355,7 @@ slowPathOnLogAllocationSite
 (
 cx
 frame
+when
 *
 dbgs
 )

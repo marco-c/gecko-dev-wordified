@@ -259,6 +259,16 @@ newIdx
 =
 allocs
 .
+map
+(
+x
+=
+>
+x
+.
+frame
+)
+.
 indexOf
 (
 allocSite

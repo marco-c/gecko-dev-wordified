@@ -163,6 +163,8 @@ allocs
 2
 ]
 .
+frame
+.
 line
 4
 )
@@ -187,6 +189,8 @@ x
 =
 >
 x
+.
+frame
 .
 line
 )

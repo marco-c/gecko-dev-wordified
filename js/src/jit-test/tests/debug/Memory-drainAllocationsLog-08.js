@@ -173,6 +173,8 @@ x
 >
 x
 .
+frame
+.
 line
 )
 ;
@@ -221,6 +223,8 @@ x
 =
 >
 x
+.
+frame
 .
 line
 )

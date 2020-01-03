@@ -9968,6 +9968,8 @@ JSContext
 cx
 HandleSavedFrame
 frame
+int64_t
+when
 GlobalObject
 :
 :
@@ -10096,6 +10098,7 @@ appendAllocationSite
 (
 cx
 frame
+when
 )
 )
 {
@@ -10119,6 +10122,8 @@ JSContext
 cx
 HandleSavedFrame
 frame
+int64_t
+when
 )
 {
 AutoCompartment
@@ -10169,6 +10174,7 @@ AllocationSite
 >
 (
 wrapped
+when
 )
 ;
 if
