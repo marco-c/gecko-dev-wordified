@@ -552,6 +552,23 @@ bar
 ]
 )
         
+self
+.
+assertEqual
+(
+objs
+[
+3
+]
+.
+affected_tiers
+{
+'
+misc
+'
+}
+)
+        
 dirs
 =
 [
