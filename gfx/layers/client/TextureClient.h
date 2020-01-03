@@ -3970,15 +3970,14 @@ SharedSurfaces
 *
 /
 class
-ShSurfTexClient
+SharedSurfaceTextureClient
 :
 public
 TextureClient
 {
 public
 :
-explicit
-ShSurfTexClient
+SharedSurfaceTextureClient
 (
 TextureFlags
 aFlags
@@ -3993,7 +3992,7 @@ surf
 protected
 :
 ~
-ShSurfTexClient
+SharedSurfaceTextureClient
 (
 )
 ;

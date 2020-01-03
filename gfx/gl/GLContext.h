@@ -17247,17 +17247,6 @@ get
 )
 ;
 }
-bool
-PublishFrame
-(
-)
-;
-SharedSurface
-*
-RequestFrame
-(
-)
-;
 /
 *
 Clear

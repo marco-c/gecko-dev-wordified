@@ -203,6 +203,12 @@ other
 .
 antialias
 ;
+premultAlpha
+=
+other
+.
+premultAlpha
+;
 preserve
 =
 other
@@ -253,6 +259,10 @@ stencil
 false
 ;
 antialias
+=
+false
+;
+premultAlpha
 =
 false
 ;

@@ -169,6 +169,9 @@ bool
 antialias
 ;
 bool
+premultAlpha
+;
+bool
 preserve
 ;
 /

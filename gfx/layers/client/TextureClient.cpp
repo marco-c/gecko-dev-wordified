@@ -4552,11 +4552,11 @@ mStream
 /
 /
 /
-ShSurfTexClient
-ShSurfTexClient
+SharedSurfaceTextureClient
+SharedSurfaceTextureClient
 :
 :
-ShSurfTexClient
+SharedSurfaceTextureClient
 (
 TextureFlags
 aFlags
@@ -4596,11 +4596,11 @@ Fence
 )
 ;
 }
-ShSurfTexClient
+SharedSurfaceTextureClient
 :
 :
 ~
-ShSurfTexClient
+SharedSurfaceTextureClient
 (
 )
 {
@@ -4614,7 +4614,7 @@ externally
 .
 }
 bool
-ShSurfTexClient
+SharedSurfaceTextureClient
 :
 :
 ToSurfaceDescriptor
@@ -4626,7 +4626,7 @@ aOutDescriptor
 {
 aOutDescriptor
 =
-ShSurfDescriptor
+SharedSurfaceDescriptor
 (
 (
 uintptr_t
