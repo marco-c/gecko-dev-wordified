@@ -9888,7 +9888,7 @@ PrimitiveType
 Empty
 :
 return
-nsIntRect
+IntRect
 (
 )
 ;
@@ -10172,7 +10172,7 @@ a
 )
 {
 return
-nsIntRect
+IntRect
 (
 )
 ;
@@ -10824,7 +10824,7 @@ PrimitiveType
 Tile
 :
 return
-nsIntRect
+IntRect
 (
 INT32_MIN
 /
