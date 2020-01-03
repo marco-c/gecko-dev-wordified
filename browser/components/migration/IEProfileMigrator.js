@@ -250,6 +250,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+File
+"
+]
+)
+;
 /
 /
 /
@@ -2849,6 +2860,7 @@ fileReader
 .
 readAsText
 (
+new
 File
 (
 aFile
