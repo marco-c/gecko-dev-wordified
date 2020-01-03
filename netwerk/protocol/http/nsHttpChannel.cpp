@@ -12835,11 +12835,7 @@ pps2
 >
 AsyncResolve2
 (
-mProxyURI
-?
-mProxyURI
-:
-mURI
+this
 mProxyResolveFlags
 this
 getter_AddRefs
@@ -12858,11 +12854,7 @@ pps
 >
 AsyncResolve
 (
-mProxyURI
-?
-mProxyURI
-:
-mURI
+this
 mProxyResolveFlags
 this
 getter_AddRefs
@@ -33890,9 +33882,9 @@ OnProxyAvailable
 nsICancelable
 *
 request
-nsIURI
+nsIChannel
 *
-uri
+channel
 nsIProxyInfo
 *
 pi

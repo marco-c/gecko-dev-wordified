@@ -1365,6 +1365,15 @@ ContinueBeginConnect
 )
 MOZ_OVERRIDE
 ;
+NS_IMETHOD
+GetProxyURI
+(
+nsIURI
+*
+*
+proxyURI
+)
+;
 inline
 void
 CleanRedirectCacheChainIfNecessary
