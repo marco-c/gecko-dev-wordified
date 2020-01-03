@@ -2085,6 +2085,12 @@ i
 ;
 if
 (
+JSID_IS_SYMBOL
+(
+id
+)
+|
+|
 !
 :
 :
