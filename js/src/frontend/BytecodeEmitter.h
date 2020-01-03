@@ -4403,10 +4403,7 @@ emitSpread
 If
 type
 is
-StmtType
-:
-:
-FOR_OF_LOOP
+STMT_FOR_OF_LOOP
 emit
 bytecode
 for
@@ -4438,10 +4435,7 @@ PNK_FOROF
 If
 type
 is
-StmtType
-:
-:
-SPREAD
+STMT_SPREAD
 emit
 bytecode
 for
