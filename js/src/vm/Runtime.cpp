@@ -1402,6 +1402,16 @@ false
 ;
 if
 (
+CanUseExtraThreads
+(
+)
+)
+EnsureHelperThreadsInitialized
+(
+)
+;
+if
+(
 !
 gc
 .
