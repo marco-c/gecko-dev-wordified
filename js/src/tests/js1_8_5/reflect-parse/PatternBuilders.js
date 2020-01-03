@@ -997,15 +997,11 @@ id
 return
 dotExpr
 (
-Pattern
+ident
 (
-{
-type
-:
 "
-Super
+super
 "
-}
 )
 id
 )
