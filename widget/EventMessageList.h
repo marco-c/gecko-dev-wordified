@@ -569,7 +569,7 @@ eStreamEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_HASHCHANGE
+eHashChange
 eStreamEventFirst
 +
 2

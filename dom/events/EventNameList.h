@@ -1621,7 +1621,7 @@ eBasicEventClass
 WINDOW_EVENT
 (
 hashchange
-NS_HASHCHANGE
+eHashChange
 EventNameType_XUL
 |
 EventNameType_HTMLBodyOrFramesetOnly

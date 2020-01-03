@@ -20814,9 +20814,9 @@ NS_PAGE_UNLOAD
 ;
 _ASSIGN_eventName
 (
-NS_HASHCHANGE
+eHashChange
 "
-NS_HASHCHANGE
+eHashChange
 "
 )
 ;
