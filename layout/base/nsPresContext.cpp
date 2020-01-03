@@ -9354,8 +9354,6 @@ NS_ASSERTION
 (
 !
 (
-!
-!
 mContainer
 &
 &
