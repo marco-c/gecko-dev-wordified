@@ -710,6 +710,7 @@ false
 }
 protected
 :
+explicit
 gfxFcFontEntry
 (
 const
@@ -1885,6 +1886,7 @@ gfxFcFontEntry
 {
 protected
 :
+explicit
 gfxUserFcFontEntry
 (
 const

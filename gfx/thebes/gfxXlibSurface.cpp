@@ -1873,6 +1873,7 @@ DisplayInfo
 {
 public
 :
+explicit
 DisplayInfo
 (
 Display

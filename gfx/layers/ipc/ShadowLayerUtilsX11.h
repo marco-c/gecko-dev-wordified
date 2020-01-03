@@ -178,6 +178,7 @@ SurfaceDescriptorX11
 )
 {
 }
+explicit
 SurfaceDescriptorX11
 (
 gfxXlibSurface

@@ -267,6 +267,7 @@ gfxIntSize
 size
 )
 ;
+explicit
 gfxXlibSurface
 (
 cairo_surface_t

@@ -245,6 +245,7 @@ gfxFT2LockedFace
 {
 public
 :
+explicit
 gfxFT2LockedFace
 (
 gfxFT2FontBase

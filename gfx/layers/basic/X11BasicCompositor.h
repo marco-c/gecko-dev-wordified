@@ -296,6 +296,7 @@ BasicCompositor
 {
 public
 :
+explicit
 X11BasicCompositor
 (
 nsIWidget

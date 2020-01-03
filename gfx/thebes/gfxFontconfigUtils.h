@@ -1153,6 +1153,7 @@ has
 been
 initialized
 .
+explicit
 DepFcStrEntry
 (
 KeyTypePointer
@@ -1315,6 +1316,7 @@ has
 been
 initialized
 .
+explicit
 CopiedFcStrEntry
 (
 KeyTypePointer
@@ -1418,6 +1420,7 @@ DepFcStrEntry
 {
 public
 :
+explicit
 FontsByFcStrEntry
 (
 KeyTypePointer
@@ -1635,6 +1638,7 @@ must
 be
 added
 .
+explicit
 FontsByFullnameEntry
 (
 KeyTypePointer
@@ -1762,6 +1766,7 @@ CopiedFcStrEntry
 {
 public
 :
+explicit
 LangSupportEntry
 (
 KeyTypePointer
