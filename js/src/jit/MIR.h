@@ -18131,6 +18131,14 @@ MCompare
 protected
 :
 bool
+tryFoldEqualOperands
+(
+bool
+*
+result
+)
+;
+bool
 congruentTo
 (
 const
