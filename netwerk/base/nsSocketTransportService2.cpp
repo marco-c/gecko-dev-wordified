@@ -457,7 +457,7 @@ PR_GetCurrentThread
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sDebugOwningThread
 !
