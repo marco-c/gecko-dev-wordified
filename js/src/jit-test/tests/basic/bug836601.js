@@ -22,7 +22,16 @@ return
 {
 get
 :
+(
+n
+)
+=
+>
+new
 Uint32Array
+(
+n
+)
 }
 }
 (

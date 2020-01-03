@@ -50,6 +50,7 @@ publicdomain
 /
 x
 =
+new
 ArrayBuffer
 (
 )
@@ -64,6 +65,7 @@ data
 "
 )
 ;
+new
 Uint32Array
 (
 x
@@ -75,6 +77,7 @@ gc
 ;
 x
 =
+new
 ArrayBuffer
 (
 )
@@ -89,6 +92,7 @@ data
 "
 )
 ;
+new
 Uint32Array
 (
 x

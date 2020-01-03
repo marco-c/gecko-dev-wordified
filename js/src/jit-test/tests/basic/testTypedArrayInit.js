@@ -46,6 +46,7 @@ of
 var
 arr
 =
+new
 ctor
 (
 len

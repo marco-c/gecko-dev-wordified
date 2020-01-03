@@ -47,6 +47,7 @@ for
 var
 v
 of
+new
 C
 (
 values

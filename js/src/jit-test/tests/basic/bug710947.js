@@ -54,6 +54,7 @@ startTest
 (
 )
 ;
+new
 ArrayBuffer
 (
 8192
