@@ -6639,6 +6639,9 @@ messageName
 aApp
 .
 manifestURL
+aApp
+.
+origin
 aManifest
 )
 )
@@ -6969,6 +6972,9 @@ connection
 aApp
 .
 manifestURL
+aApp
+.
+origin
 aManifest
 )
 )
@@ -7518,6 +7524,9 @@ activity
 aApp
 .
 manifestURL
+aApp
+.
+origin
 aManifest
 )
 )
