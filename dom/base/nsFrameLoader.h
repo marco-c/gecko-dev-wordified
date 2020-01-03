@@ -238,6 +238,13 @@ Units
 .
 h
 "
+#
+include
+"
+nsIWebBrowserPersistable
+.
+h
+"
 class
 nsIURI
 ;
@@ -324,6 +331,8 @@ final
 public
 nsIFrameLoader
 public
+nsIWebBrowserPersistable
+public
 nsStubMutationObserver
 public
 mozilla
@@ -399,6 +408,7 @@ nsIFrameLoader
 )
 NS_DECL_NSIFRAMELOADER
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
+NS_DECL_NSIWEBBROWSERPERSISTABLE
 nsresult
 CheckForRecursiveLoad
 (

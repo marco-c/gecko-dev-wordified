@@ -12859,13 +12859,11 @@ case
 Save
 "
 :
-saveDocument
+saveBrowser
 (
 gBrowser
 .
 selectedBrowser
-.
-contentDocumentAsCPOW
 )
 ;
 break
