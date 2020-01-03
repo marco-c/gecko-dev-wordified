@@ -27596,6 +27596,10 @@ sLastClickCount
 =
 2
 ;
+sLastMouseDownTime
+=
+curMsgTime
+;
 }
 else
 if
