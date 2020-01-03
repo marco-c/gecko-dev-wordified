@@ -8998,10 +8998,9 @@ Matrix4x4
 nonTransientAPZUntransform
 =
 Matrix4x4
-(
-)
-.
-Scale
+:
+:
+Scaling
 (
 aScrollAncestor
 .

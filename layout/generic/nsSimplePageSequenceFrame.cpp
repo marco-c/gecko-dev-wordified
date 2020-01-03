@@ -5561,10 +5561,9 @@ gfx
 :
 :
 Matrix4x4
-(
-)
-.
-Scale
+:
+:
+Scaling
 (
 scale
 scale
