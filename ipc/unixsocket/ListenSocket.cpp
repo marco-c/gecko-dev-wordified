@@ -368,8 +368,9 @@ pointer
 Non
 -
 thread
+-
 safe
-RefPtr
+pointer
 so
 should
 only
@@ -398,10 +399,8 @@ container
 .
 *
 /
-RefPtr
-<
 ListenSocket
->
+*
 mListenSocket
 ;
 /
@@ -1096,10 +1095,6 @@ GetSocketBase
 {
 return
 mListenSocket
-.
-get
-(
-)
 ;
 }
 bool

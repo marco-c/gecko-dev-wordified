@@ -372,8 +372,9 @@ pointer
 Non
 -
 thread
+-
 safe
-RefPtr
+pointer
 so
 should
 only
@@ -402,10 +403,8 @@ container
 .
 *
 /
-RefPtr
-<
 StreamSocket
->
+*
 mStreamSocket
 ;
 /
@@ -621,10 +620,6 @@ GetStreamSocket
 {
 return
 mStreamSocket
-.
-get
-(
-)
 ;
 }
 DataSocket
@@ -637,9 +632,7 @@ GetDataSocket
 )
 {
 return
-mStreamSocket
-.
-get
+GetStreamSocket
 (
 )
 ;

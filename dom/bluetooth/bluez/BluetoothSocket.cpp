@@ -472,8 +472,9 @@ pointer
 Non
 -
 thread
+-
 safe
-RefPtr
+pointer
 so
 should
 only
@@ -502,10 +503,8 @@ container
 .
 *
 /
-RefPtr
-<
 BluetoothSocket
->
+*
 mConsumer
 ;
 /
@@ -847,10 +846,6 @@ GetBluetoothSocket
 {
 return
 mConsumer
-.
-get
-(
-)
 ;
 }
 DataSocket
