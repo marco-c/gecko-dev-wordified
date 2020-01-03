@@ -174,6 +174,17 @@ mozilla
 /
 dom
 /
+MozNDEFRecordBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TypedArray
 .
 h
@@ -292,7 +303,7 @@ ErrorResult
 aRv
 )
 ;
-uint8_t
+TNF
 Tnf
 (
 )
@@ -445,7 +456,7 @@ DropData
 (
 )
 ;
-uint8_t
+TNF
 mTnf
 ;
 JS
