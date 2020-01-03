@@ -7390,7 +7390,7 @@ TypedArrayLayout
 BUFFER_SLOT
 )
 ;
-MarkSlot
+TraceEdge
 (
 trc
 &
