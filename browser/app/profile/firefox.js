@@ -2377,8 +2377,8 @@ update
 events
 .
 #
-ifdef
-MOZ_DEV_EDITION
+ifndef
+RELEASE_BUILD
 pref
 (
 "
