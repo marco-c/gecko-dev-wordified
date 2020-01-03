@@ -1404,15 +1404,11 @@ function
 (
 )
 {
-SyncHandlers
-.
-get
-(
-browser
-)
+TabState
 .
 flush
 (
+browser
 )
 ;
 executeSoon

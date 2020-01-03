@@ -192,15 +192,11 @@ function
 (
 )
 {
-SyncHandlers
-.
-get
-(
-browser
-)
+TabState
 .
 flush
 (
+browser
 )
 ;
 let

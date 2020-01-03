@@ -1198,15 +1198,11 @@ tab
 .
 linkedBrowser
 ;
-SyncHandlers
-.
-get
-(
-browser
-)
+TabState
 .
 flush
 (
+browser
 )
 ;
 let

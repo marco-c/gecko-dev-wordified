@@ -1557,15 +1557,11 @@ the
 right
 value
 .
-SyncHandlers
-.
-get
-(
-browser
-)
+TabState
 .
 flush
 (
+browser
 )
 ;
 (

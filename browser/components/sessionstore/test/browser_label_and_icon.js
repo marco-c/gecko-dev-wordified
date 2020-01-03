@@ -184,15 +184,11 @@ the
 tab
 state
 .
-SyncHandlers
-.
-get
-(
-browser
-)
+TabState
 .
 flush
 (
+browser
 )
 ;
 let
