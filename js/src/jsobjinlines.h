@@ -4380,13 +4380,6 @@ environment
 )
 ;
 }
-typedef
-AutoVectorRooter
-<
-PropertyDescriptor
->
-AutoPropertyDescriptorVector
-;
 /
 *
 *
