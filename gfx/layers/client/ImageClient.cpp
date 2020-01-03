@@ -458,7 +458,13 @@ h
 /
 /
 for
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 #
 include
 "
@@ -1782,7 +1788,7 @@ ImageClient
 :
 UpdatePictureRect
 (
-nsIntRect
+IntRect
 aRect
 )
 {
@@ -2288,4 +2294,12 @@ nullptr
 #
 endif
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla

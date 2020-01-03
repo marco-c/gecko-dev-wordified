@@ -1245,7 +1245,7 @@ orientation
 )
 ;
 }
-nsIntRect
+IntRect
 targetBounds
 =
 mWidget
@@ -2606,7 +2606,7 @@ when
 drawing
 into
 dt
-nsIntRect
+IntRect
 outerBounds
 ;
 mWidget
@@ -2617,7 +2617,7 @@ GetBounds
 outerBounds
 )
 ;
-nsIntRect
+IntRect
 bounds
 =
 ToOutsideIntRect
@@ -4367,8 +4367,10 @@ ClientLayer
 }
 /
 /
+namespace
 layers
 }
 /
 /
+namespace
 mozilla

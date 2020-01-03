@@ -376,7 +376,13 @@ h
 /
 /
 for
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 #
 include
 "
