@@ -54,6 +54,12 @@ MPL
 /
 .
 from
+.
+errors
+import
+*
+from
+.
 mozversion
 import
 cli
