@@ -1098,6 +1098,9 @@ define
 videoDimensionsChanged
 "
 {
+isLocal
+:
+Boolean
 videoType
 :
 String
