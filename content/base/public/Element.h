@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsIDOMXPathNSResolver
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

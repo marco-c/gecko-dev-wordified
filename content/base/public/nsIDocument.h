@@ -391,9 +391,6 @@ class
 nsIDOMNodeList
 ;
 class
-nsIDOMXPathNSResolver
-;
-class
 nsIHTMLCollection
 ;
 class

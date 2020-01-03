@@ -839,15 +839,6 @@ nsNodeSupportsWeakRefTearoff
 this
 )
 )
-NS_INTERFACE_MAP_ENTRY_TEAROFF
-(
-nsIDOMXPathNSResolver
-new
-nsNode3Tearoff
-(
-this
-)
-)
 /
 /
 DOM

@@ -188,17 +188,6 @@ DOMCI_CLASS
 (
 CSSSupportsRule
 )
-/
-/
-DOM
-Level
-3
-XPath
-objects
-DOMCI_CLASS
-(
-XPathNSResolver
-)
 DOMCI_CLASS
 (
 MozSmsMessage
