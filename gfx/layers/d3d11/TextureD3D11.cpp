@@ -4466,7 +4466,7 @@ mutex
 AcquireSync
 (
 0
-10000
+20000
 )
 ;
 if
