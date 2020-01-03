@@ -22497,6 +22497,13 @@ IsStateMachineScheduled
 )
 const
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 return
 mDispatchedStateMachine
 |
