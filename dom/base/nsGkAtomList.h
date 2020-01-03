@@ -15131,13 +15131,6 @@ onphoto
 onphoto
 "
 )
-GK_ATOM
-(
-onactivestatechanged
-"
-onactivestatechanged
-"
-)
 #
 ifdef
 MOZ_GAMEPAD
