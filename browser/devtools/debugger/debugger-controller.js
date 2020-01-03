@@ -3629,6 +3629,13 @@ this
 activeThread
 .
 state
+aPacket
+?
+aPacket
+.
+frame
+:
+false
 )
 ;
 if
