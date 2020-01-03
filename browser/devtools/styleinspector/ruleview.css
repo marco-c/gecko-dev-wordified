@@ -327,7 +327,7 @@ padding
 -
 right
 :
-15px
+5px
 ;
 }
 .
@@ -345,6 +345,17 @@ pointer
 ruleview
 -
 computedlist
+.
+ruleview
+-
+overridden
+-
+rule
+-
+filter
+[
+hidden
+]
 .
 ruleview
 -
