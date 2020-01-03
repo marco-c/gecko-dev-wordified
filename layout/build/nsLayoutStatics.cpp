@@ -1360,6 +1360,13 @@ return
 rv
 ;
 }
+nsCSSParser
+:
+:
+Startup
+(
+)
+;
 nsCSSRuleProcessor
 :
 :
