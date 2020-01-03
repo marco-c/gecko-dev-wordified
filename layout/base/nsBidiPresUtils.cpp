@@ -9387,6 +9387,10 @@ center
 the
 children
 .
+const
+nsSize
+dummyContainerSize
+;
 for
 (
 nsIFrame
@@ -9405,7 +9409,7 @@ child
 GetLogicalRect
 (
 aFrameWM
-0
+dummyContainerSize
 )
 ;
 rect
@@ -9427,7 +9431,7 @@ SetRect
 (
 aFrameWM
 rect
-0
+dummyContainerSize
 )
 ;
 }

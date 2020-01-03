@@ -2354,8 +2354,10 @@ mozilla
 LogicalPoint
 &
 aKidPosition
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 nsHTMLReflowMetrics
 &
 aDesiredSize

@@ -5070,8 +5070,6 @@ textRect
 GetSize
 (
 )
-.
-width
 )
 ;
 tr
@@ -5162,8 +5160,6 @@ wm
 GetSize
 (
 )
-.
-width
 )
 ;
 /
@@ -5864,8 +5860,6 @@ wm
 GetSize
 (
 )
-.
-width
 )
 ;
 }

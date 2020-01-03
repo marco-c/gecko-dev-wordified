@@ -5459,7 +5459,7 @@ frame
 rowFrame
 ;
 LogicalRect
-frameRect
+rect
 (
 wm
 frame
@@ -5470,14 +5470,14 @@ GetRect
 )
 aReflowState
 .
-ComputedWidth
+ComputedSizeAsContainerIfConstrained
 (
 )
 )
 ;
 blockSize
 =
-frameRect
+rect
 .
 BSize
 (
@@ -5489,7 +5489,7 @@ do
 dy
 +
 =
-frameRect
+rect
 .
 BStart
 (

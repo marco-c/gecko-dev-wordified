@@ -4253,12 +4253,12 @@ GetWritingMode
 (
 )
 ;
-nscoord
-containerWidth
+nsSize
+containerSize
 =
 aReflowState
 .
-ComputedWidth
+ComputedPhysicalSize
 (
 )
 ;
@@ -4295,7 +4295,7 @@ ApplyRelativePositioning
 (
 &
 kidPt
-containerWidth
+containerSize
 )
 ;
 /
@@ -4311,7 +4311,7 @@ kidDesiredSize
 kidReflowState
 kidWM
 kidPt
-containerWidth
+containerSize
 0
 aStatus
 )
@@ -4337,7 +4337,7 @@ kidDesiredSize
 kidReflowState
 kidWM
 kidPt
-containerWidth
+containerSize
 0
 )
 ;

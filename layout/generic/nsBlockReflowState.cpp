@@ -2391,7 +2391,7 @@ BAND_FROM_POINT
 blockSize
 mContentArea
 aState
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -2622,7 +2622,7 @@ WIDTH_WITHIN_HEIGHT
 aBSize
 mContentArea
 aState
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -3558,7 +3558,7 @@ GetRegionFor
 (
 wm
 floatFrame
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -3628,12 +3628,12 @@ GetRegionFor
 (
 wm
 floatFrame
-ContainerWidth
+ContainerSize
 (
 )
 )
 wm
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -3672,7 +3672,7 @@ mFirstChild
 *
 mFloatManager
 wm
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -5332,7 +5332,7 @@ GetRegionFor
 (
 wm
 aFloat
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -6602,6 +6602,11 @@ mRect
 Y
 (
 wm
+ContainerSize
+(
+)
+.
+height
 )
 :
 floatAvailableSpace
@@ -6611,6 +6616,11 @@ mRect
 YMost
 (
 wm
+ContainerSize
+(
+)
+.
+height
 )
 -
 floatMarginISize
@@ -7326,7 +7336,7 @@ wm
 floatOffsets
 &
 origin
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -7379,7 +7389,7 @@ aFloat
 GetLogicalPosition
 (
 wm
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -7399,7 +7409,7 @@ SetPosition
 (
 wm
 origin
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -7484,7 +7494,7 @@ CalculateRegionFor
 wm
 aFloat
 floatMargin
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -7566,7 +7576,7 @@ AddFloat
 aFloat
 region
 wm
-ContainerWidth
+ContainerSize
 (
 )
 )
@@ -7596,7 +7606,7 @@ StoreRegionFor
 wm
 aFloat
 region
-ContainerWidth
+ContainerSize
 (
 )
 )

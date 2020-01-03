@@ -6609,8 +6609,10 @@ const
 LogicalPoint
 &
 aPos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 uint32_t
 aFlags
 nsReflowStatus
@@ -6665,7 +6667,9 @@ IsBidiLTR
 {
 NS_ASSERTION
 (
-aContainerWidth
+aContainerSize
+.
+width
 !
 =
 NS_UNCONSTRAINEDSIZE
@@ -6711,7 +6715,7 @@ SetPosition
 (
 aWM
 aPos
-aContainerWidth
+aContainerSize
 )
 ;
 }
@@ -7609,8 +7613,10 @@ const
 LogicalPoint
 &
 aPos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 uint32_t
 aFlags
 )
@@ -7644,7 +7650,9 @@ IsBidiLTR
 {
 NS_ASSERTION
 (
-aContainerWidth
+aContainerSize
+.
+width
 !
 =
 NS_UNCONSTRAINEDSIZE
@@ -7718,7 +7726,7 @@ aWM
 aPos
 convertedSize
 )
-aContainerWidth
+aContainerSize
 )
 ;
 }
@@ -8581,8 +8589,8 @@ GetWritingMode
 (
 )
 ;
-nscoord
-containerWidth
+nsSize
+containerSize
 =
 aReflowState
 .
@@ -8591,7 +8599,7 @@ AvailableSize
 wm
 )
 .
-Width
+GetPhysicalSize
 (
 wm
 )
@@ -8605,7 +8613,7 @@ prevInFlow
 GetLogicalRect
 (
 wm
-containerWidth
+containerSize
 )
 ;
 /
@@ -8678,7 +8686,7 @@ desiredSize
 frameState
 wm
 pos
-containerWidth
+containerSize
 aFlags
 frameStatus
 &
@@ -8723,7 +8731,7 @@ desiredSize
 frameState
 wm
 pos
-containerWidth
+containerSize
 aFlags
 )
 ;
@@ -9034,7 +9042,7 @@ GetWritingMode
 )
 aReflowState
 .
-ComputedWidth
+ComputedPhysicalSize
 (
 )
 )

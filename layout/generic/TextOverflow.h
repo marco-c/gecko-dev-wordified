@@ -732,7 +732,7 @@ GetOffsetTo
 (
 mBlock
 )
-mBlockWidth
+mBlockSize
 )
 ;
 }
@@ -1410,8 +1410,8 @@ mScrollableFrame
 nsDisplayList
 mMarkerList
 ;
-nscoord
-mBlockWidth
+nsSize
+mBlockSize
 ;
 WritingMode
 mBlockWM

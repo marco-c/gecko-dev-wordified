@@ -3427,9 +3427,10 @@ need
 to
 pass
 a
+true
 container
 -
-width
+size
 to
 ReflowChild
 or
@@ -3461,6 +3462,10 @@ isn
 t
 set
 )
+const
+nsSize
+dummyContainerSize
+;
 ReflowChild
 (
 mHelper
@@ -3475,7 +3480,7 @@ LogicalPoint
 (
 wm
 )
-0
+dummyContainerSize
 NS_FRAME_NO_MOVE_FRAME
 status
 )
@@ -3578,7 +3583,7 @@ LogicalPoint
 (
 wm
 )
-0
+dummyContainerSize
 NS_FRAME_NO_MOVE_FRAME
 |
 NS_FRAME_NO_SIZE_VIEW

@@ -1658,8 +1658,8 @@ DeleteNextInFlowChild
 *
 *
 param
-aContainerWidth
-width
+aContainerSize
+size
 of
 the
 border
@@ -1755,8 +1755,10 @@ mozilla
 LogicalPoint
 &
 aPos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 uint32_t
 aFlags
 nsReflowStatus
@@ -1868,8 +1870,8 @@ function
 *
 *
 param
-aContainerWidth
-width
+aContainerSize
+size
 of
 the
 border
@@ -1979,8 +1981,10 @@ mozilla
 LogicalPoint
 &
 aPos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 uint32_t
 aFlags
 )
