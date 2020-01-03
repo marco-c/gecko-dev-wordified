@@ -9527,6 +9527,11 @@ isXHR
 this
 .
 _isXHR
+fromCache
+:
+this
+.
+_fromCache
 private
 :
 this
@@ -9727,6 +9732,14 @@ _isXHR
 aNetworkEvent
 .
 isXHR
+;
+this
+.
+_fromCache
+=
+aNetworkEvent
+.
+fromCache
 ;
 for
 (

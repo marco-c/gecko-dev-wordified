@@ -1380,6 +1380,7 @@ initNetMonitor
 (
 aUrl
 aWindow
+aEnableCache
 )
 {
 info
@@ -1452,6 +1453,12 @@ remoted
 "
 )
 ;
+if
+(
+!
+aEnableCache
+)
+{
 yield
 toggleCache
 (
@@ -1477,6 +1484,7 @@ open
 "
 )
 ;
+}
 let
 toolbox
 =
@@ -2328,6 +2336,7 @@ fullMimeType
 transferred
 size
 time
+fromCache
 }
 =
 aData
@@ -2919,6 +2928,12 @@ tooltip
 is
 (
 value
+fromCache
+?
+"
+cached
+"
+:
 status
 "
 The
