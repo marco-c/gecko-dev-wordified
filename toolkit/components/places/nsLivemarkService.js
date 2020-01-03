@@ -861,7 +861,7 @@ row
 getResultByName
 (
 "
-parent
+parentId
 "
 )
 parentGuid
@@ -881,7 +881,7 @@ row
 getResultByName
 (
 "
-position
+index
 "
 )
 dateAdded
