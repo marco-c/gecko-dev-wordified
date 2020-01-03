@@ -8640,6 +8640,9 @@ COMPLETED
 "
 SHUTDOWN
 "
+"
+ERROR
+"
 }
 ;
 void
