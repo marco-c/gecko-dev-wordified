@@ -3894,7 +3894,7 @@ safebrowsing
 .
 enabled
 "
-true
+false
 )
 ;
 /
@@ -3917,7 +3917,7 @@ malware
 .
 enabled
 "
-true
+false
 )
 ;
 pref
