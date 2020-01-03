@@ -254,6 +254,7 @@ NS_IMETHOD
 Destroy
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -264,6 +265,7 @@ nsIXULWindow
 GetXULWindow
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -275,6 +277,7 @@ nsIPresShell
 GetPresShell
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -288,6 +291,7 @@ x
 int32_t
 y
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -301,6 +305,7 @@ aWidth
 int32_t
 aHeight
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -310,6 +315,7 @@ nsIWidget
 *
 aWidget
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -318,12 +324,14 @@ SizeModeChanged
 nsSizeMode
 sizeMode
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 OSToolbarButtonPressed
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -342,18 +350,21 @@ nsIWidget
 *
 aActualBelow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 WindowActivated
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 WindowDeactivated
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
