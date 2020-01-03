@@ -490,6 +490,13 @@ nsIAccessibleStates
 EXT_STATE_HORIZONTAL
 ;
 const
+EXT_STATE_MODAL
+=
+nsIAccessibleStates
+.
+EXT_STATE_MODAL
+;
+const
 EXT_STATE_MULTI_LINE
 =
 nsIAccessibleStates

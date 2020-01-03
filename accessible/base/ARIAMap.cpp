@@ -1700,6 +1700,7 @@ a
 property
 "
 eARIAInvalid
+eARIAModal
 eARIARequired
 /
 /
@@ -1959,6 +1960,18 @@ nsGkAtoms
 :
 :
 aria_live
+ATTR_VALTOKEN
+|
+ATTR_GLOBAL
+}
+{
+&
+nsGkAtoms
+:
+:
+aria_modal
+ATTR_BYPASSOBJ
+|
 ATTR_VALTOKEN
 |
 ATTR_GLOBAL
