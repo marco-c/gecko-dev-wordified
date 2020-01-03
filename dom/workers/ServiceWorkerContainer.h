@@ -182,6 +182,10 @@ IMPL_EVENT_HANDLER
 (
 error
 )
+IMPL_EVENT_HANDLER
+(
+message
+)
 explicit
 ServiceWorkerContainer
 (
