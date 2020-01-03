@@ -6000,6 +6000,12 @@ this
 ;
 decoder
 .
+ResetDemuxer
+(
+)
+;
+decoder
+.
 mSeekRequest
 .
 Begin
