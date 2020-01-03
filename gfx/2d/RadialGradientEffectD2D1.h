@@ -416,6 +416,15 @@ aFactory
 )
 ;
 static
+void
+Unregister
+(
+ID2D1Factory1
+*
+aFactory
+)
+;
+static
 HRESULT
 __stdcall
 CreateEffect
