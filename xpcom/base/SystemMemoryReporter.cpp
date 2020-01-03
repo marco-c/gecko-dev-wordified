@@ -1150,6 +1150,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 /
 /

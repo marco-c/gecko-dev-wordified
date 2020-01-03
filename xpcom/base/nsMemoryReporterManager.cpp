@@ -2999,6 +2999,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 int64_t
 amount
@@ -3089,6 +3090,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 int64_t
 amount
@@ -5230,6 +5232,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 dmd
 :
