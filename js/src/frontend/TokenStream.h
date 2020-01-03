@@ -5758,6 +5758,16 @@ char
 define
 JSREPORT_UC
 0x100
+extern
+const
+char
+*
+TokenKindToDesc
+(
+TokenKind
+tt
+)
+;
 }
 /
 /
