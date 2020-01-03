@@ -18088,11 +18088,6 @@ target
 targetActor
 .
 actorID
-numChildren
-:
-targetActor
-.
-numChildren
 }
 ;
 if
@@ -18476,6 +18471,14 @@ actorID
 )
 ;
 }
+mutation
+.
+numChildren
+=
+targetActor
+.
+numChildren
+;
 mutation
 .
 removed
