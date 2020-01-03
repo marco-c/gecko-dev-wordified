@@ -2452,6 +2452,8 @@ sync
 "
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 animVal
 -
 >
@@ -2460,12 +2462,6 @@ mItems
 InsertElementAt
 (
 aIndex
-static_cast
-<
-DOMSVGLength
-*
->
-(
 nullptr
 )
 )

@@ -3768,6 +3768,8 @@ sync
 "
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 animVal
 -
 >
@@ -3780,6 +3782,7 @@ ItemProxy
 (
 nullptr
 aInternalIndex
+)
 )
 )
 ;
