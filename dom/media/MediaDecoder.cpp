@@ -962,12 +962,6 @@ defined
 (
 MOZ_EME
 )
-&
-&
-defined
-(
-RELEASE_BUILD
-)
 /
 /
 We
@@ -976,13 +970,7 @@ dormant
 for
 encrypted
 media
-on
-Beta
-and
-Release
 until
-/
-/
 bug
 1181864
 is
