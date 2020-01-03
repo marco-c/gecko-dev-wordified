@@ -43432,7 +43432,10 @@ uint64
         
 return
 "
-DOUBLE_TO_JSVAL
+JS
+:
+:
+CanonicalizedDoubleValue
 (
 %
 s
@@ -43490,7 +43493,10 @@ double
         
 return
 "
-DOUBLE_TO_JSVAL
+JS
+:
+:
+CanonicalizedDoubleValue
 (
 %
 s

@@ -399,8 +399,8 @@ expected
 )
 ;
 expected
-=
-DOUBLE_TO_JSVAL
+.
+setDouble
 (
 1
 )
@@ -418,8 +418,8 @@ expected
 )
 ;
 expected
-=
-DOUBLE_TO_JSVAL
+.
+setDouble
 (
 1
 .
@@ -441,8 +441,8 @@ expected
 )
 ;
 expected
-=
-DOUBLE_TO_JSVAL
+.
+setDouble
 (
 9e9
 )
@@ -460,8 +460,8 @@ expected
 )
 ;
 expected
-=
-DOUBLE_TO_JSVAL
+.
+setDouble
 (
 std
 :
