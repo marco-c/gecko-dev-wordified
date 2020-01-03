@@ -1040,7 +1040,6 @@ static
 void
 OnCompositionEventDiscarded
 (
-const
 WidgetCompositionEvent
 *
 aCompositionEvent
