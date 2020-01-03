@@ -332,6 +332,15 @@ aStr
 )
 MOZ_OVERRIDE
 ;
+static
+nsresult
+GenerateNullPrincipalURI
+(
+nsACString
+&
+aStr
+)
+;
 #
 ifdef
 DEBUG
