@@ -5297,6 +5297,11 @@ ChaosMode
 :
 HashTableIteration
 )
+&
+&
+capacity
+>
+0
 )
 {
 /
