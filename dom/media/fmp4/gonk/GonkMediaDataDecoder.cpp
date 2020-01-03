@@ -869,11 +869,14 @@ IsDormantNeeded
 {
 return
 mDecoder
--
->
-IsDormantNeeded
+.
+get
 (
 )
+?
+true
+:
+false
 ;
 }
 void
@@ -884,7 +887,7 @@ ReleaseMediaResources
 (
 )
 {
-mDecoder
+mManager
 -
 >
 ReleaseMediaResources

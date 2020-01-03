@@ -318,6 +318,14 @@ aOutput
 =
 0
 ;
+virtual
+void
+ReleaseMediaResources
+(
+)
+{
+}
+;
 }
 ;
 /
