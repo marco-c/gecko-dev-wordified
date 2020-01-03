@@ -119,9 +119,7 @@ code
 #
 include
 "
-vm
-/
-Time
+prmjtime
 .
 h
 "
