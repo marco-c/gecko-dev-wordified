@@ -902,6 +902,13 @@ nsDumpUtils
 {
 public
 :
+enum
+Mode
+{
+CREATE
+CREATE_UNIQUE
+}
+;
 /
 *
 *
@@ -991,6 +998,10 @@ aFoldername
 EmptyCString
 (
 )
+Mode
+aMode
+=
+CREATE_UNIQUE
 )
 ;
 }
