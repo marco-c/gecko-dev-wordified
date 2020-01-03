@@ -502,6 +502,16 @@ useI386ByteRegisters
 )
 ;
 void
+lowerAtomicExchangeTypedArrayElement
+(
+MAtomicExchangeTypedArrayElement
+*
+ins
+bool
+useI386ByteRegisters
+)
+;
+void
 lowerAtomicTypedArrayElementBinop
 (
 MAtomicTypedArrayElementBinop

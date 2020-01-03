@@ -1114,6 +1114,11 @@ CompareExchangeTypedArrayElement
 \
 _
 (
+AtomicExchangeTypedArrayElement
+)
+\
+_
+(
 AtomicTypedArrayElementBinop
 )
 \

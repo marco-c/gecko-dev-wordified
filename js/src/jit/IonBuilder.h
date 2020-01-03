@@ -5169,6 +5169,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineAtomicsExchange
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineAtomicsLoad
 (
 CallInfo
