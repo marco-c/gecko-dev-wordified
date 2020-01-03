@@ -5375,7 +5375,7 @@ if
 (
 hint
 &
-nsChangeHint_AddOrRemoveTransform
+nsChangeHint_UpdateContainingBlock
 )
 &
 &
@@ -5540,7 +5540,7 @@ can
 '
 t
 coalesce
-nsChangeHint_AddOrRemoveTransform
+nsChangeHint_UpdateContainingBlock
 hints
 up
 /
@@ -18002,7 +18002,7 @@ hint
 /
 /
 (
-nsChangeHint_AddOrRemoveTransform
+nsChangeHint_UpdateContainingBlock
 )
 when
 we
