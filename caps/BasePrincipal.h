@@ -148,7 +148,7 @@ mozilla
 /
 dom
 /
-SystemDictionariesBinding
+ChromeUtilsBinding
 .
 h
 "
