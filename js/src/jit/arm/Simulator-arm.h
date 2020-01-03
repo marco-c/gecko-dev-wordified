@@ -678,6 +678,13 @@ num_q_registers
 16
 }
 ;
+/
+/
+Returns
+nullptr
+on
+OOM
+.
 static
 Simulator
 *
@@ -1344,6 +1351,11 @@ end_sim_pc
 -
 2
 }
+;
+bool
+init
+(
+)
 ;
 /
 /
