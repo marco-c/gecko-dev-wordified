@@ -149,7 +149,7 @@ descendants
 dirty
 static
 bool
-UpdateFontInflationDataWidthFor
+UpdateFontInflationDataISizeFor
 (
 const
 nsHTMLReflowState
@@ -186,13 +186,13 @@ mInflationEnabled
 ;
 }
 nscoord
-EffectiveWidth
+EffectiveISize
 (
 )
 const
 {
 return
-mNCAWidth
+mNCAISize
 ;
 }
 private
@@ -226,7 +226,7 @@ nsFontInflationData
 delete
 ;
 void
-UpdateWidth
+UpdateISize
 (
 const
 nsHTMLReflowState
@@ -299,7 +299,9 @@ size
 (
 yielding
 the
-width
+inline
+-
+size
 that
 would
 be
@@ -381,7 +383,7 @@ nsIFrame
 mBFCFrame
 ;
 nscoord
-mNCAWidth
+mNCAISize
 ;
 nscoord
 mTextAmount

@@ -3370,7 +3370,7 @@ device
 '
 s
 screen
-width
+size
 in
 inches
 for
@@ -3398,7 +3398,8 @@ with
 whether
 *
 the
-return
+screen
+size
 value
 has
 changed
@@ -3434,8 +3435,8 @@ called
 .
 *
 /
-float
-ScreenWidthInchesForFontInflation
+gfxSize
+ScreenSizeInchesForFontInflation
 (
 bool
 *
@@ -6995,8 +6996,8 @@ to
 1
 .
 0
-float
-mLastFontInflationScreenWidth
+gfxSize
+mLastFontInflationScreenSize
 ;
 int32_t
 mCurAppUnitsPerDevPixel

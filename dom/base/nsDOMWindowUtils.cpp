@@ -15747,7 +15747,7 @@ NS_OK
 }
 static
 void
-MaybeReflowForInflationScreenWidthChange
+MaybeReflowForInflationScreenSizeChange
 (
 nsPresContext
 *
@@ -15819,7 +15819,7 @@ FontSizeInflationMinTwips
 aPresContext
 -
 >
-ScreenWidthInchesForFontInflation
+ScreenSizeInchesForFontInflation
 (
 &
 changed
@@ -16166,7 +16166,7 @@ GetPresContext
 (
 )
 ;
-MaybeReflowForInflationScreenWidthChange
+MaybeReflowForInflationScreenSizeChange
 (
 presContext
 )
