@@ -1076,6 +1076,12 @@ mUVRDestionatinScaleAndOffset
 2
 ]
 ;
+GLint
+mUHeight
+[
+2
+]
+;
 }
 ;
 /
