@@ -5018,9 +5018,6 @@ const
 nsAString
 &
 aFamily
-nsIAtom
-*
-aLanguage
 bool
 aUseSystemFonts
 )
