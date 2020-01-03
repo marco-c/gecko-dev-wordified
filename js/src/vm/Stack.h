@@ -8780,9 +8780,6 @@ recovery
 bool
 registerIonFrameRecovery
 (
-IonJSFrameLayout
-*
-fp
 RInstructionResults
 &
 &
