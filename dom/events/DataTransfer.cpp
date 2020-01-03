@@ -1382,7 +1382,7 @@ return
 NS_OK
 ;
 }
-nsDOMFileList
+FileList
 *
 DataTransfer
 :
@@ -1427,7 +1427,7 @@ mFiles
 mFiles
 =
 new
-nsDOMFileList
+FileList
 (
 static_cast
 <

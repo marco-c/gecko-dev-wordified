@@ -267,7 +267,7 @@ class
 DOMFile
 ;
 class
-nsDOMFileList
+FileList
 ;
 class
 UploadLastDir
@@ -2444,7 +2444,7 @@ GetForm
 )
 is
 OK
-nsDOMFileList
+FileList
 *
 GetFiles
 (
@@ -7305,7 +7305,7 @@ mFiles
 ;
 nsRefPtr
 <
-nsDOMFileList
+FileList
 >
 mFileList
 ;
