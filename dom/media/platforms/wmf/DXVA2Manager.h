@@ -195,6 +195,9 @@ DXVA2Manager
 *
 CreateD3D9DXVA
 (
+nsACString
+&
+aFailureReason
 )
 ;
 static
@@ -202,6 +205,9 @@ DXVA2Manager
 *
 CreateD3D11DXVA
 (
+nsACString
+&
+aFailureReason
 )
 ;
 /

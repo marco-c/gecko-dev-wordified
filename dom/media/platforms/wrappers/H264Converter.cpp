@@ -616,6 +616,9 @@ H264Converter
 :
 IsHardwareAccelerated
 (
+nsACString
+&
+aFailureReason
 )
 const
 {
@@ -630,6 +633,7 @@ mDecoder
 >
 IsHardwareAccelerated
 (
+aFailureReason
 )
 ;
 }
@@ -639,6 +643,7 @@ MediaDataDecoder
 :
 IsHardwareAccelerated
 (
+aFailureReason
 )
 ;
 }

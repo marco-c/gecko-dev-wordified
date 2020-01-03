@@ -325,6 +325,9 @@ layers
 :
 LayersBackend
 aBackend
+nsACString
+&
+aReason
 )
 ;
 static

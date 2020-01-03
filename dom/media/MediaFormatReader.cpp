@@ -6786,6 +6786,9 @@ TrackType
 kVideoTrack
 )
 {
+nsCString
+error
+;
 mVideo
 .
 mIsHardwareAccelerated
@@ -6802,6 +6805,7 @@ mDecoder
 >
 IsHardwareAccelerated
 (
+error
 )
 ;
 }

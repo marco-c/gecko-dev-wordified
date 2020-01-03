@@ -195,6 +195,9 @@ virtual
 bool
 IsHardwareAccelerated
 (
+nsACString
+&
+aFailureReason
 )
 const
 override

@@ -1233,6 +1233,9 @@ WMFMediaDataDecoder
 :
 IsHardwareAccelerated
 (
+nsACString
+&
+aFailureReason
 )
 const
 {
@@ -1251,6 +1254,7 @@ mMFTManager
 >
 IsHardwareAccelerated
 (
+aFailureReason
 )
 ;
 }

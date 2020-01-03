@@ -1425,6 +1425,9 @@ SharedDecoderProxy
 :
 IsHardwareAccelerated
 (
+nsACString
+&
+aFailureReason
 )
 const
 {
@@ -1437,6 +1440,7 @@ mDecoder
 >
 IsHardwareAccelerated
 (
+aFailureReason
 )
 ;
 }
