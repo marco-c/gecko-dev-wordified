@@ -312,12 +312,6 @@ define
 READ_OUTPUT_BUFFER_TIMEOUT_US
 3000
 #
-define
-LOG_TAG
-"
-GonkVideoDecoderManager
-"
-#
 include
 <
 android
@@ -328,7 +322,7 @@ h
 >
 #
 define
-ALOG
+GVDM_LOG
 (
 .
 .
@@ -337,7 +331,9 @@ ALOG
 __android_log_print
 (
 ANDROID_LOG_DEBUG
-LOG_TAG
+"
+GonkVideoDecoderManager
+"
 __VA_ARGS__
 )
 #
@@ -676,7 +672,7 @@ displaySize
 )
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 It
@@ -1172,7 +1168,7 @@ mVideoBuffer
 nullptr
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 Video
@@ -1207,7 +1203,7 @@ timeUs
 )
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 Decoder
@@ -1585,7 +1581,7 @@ data
 )
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 No
@@ -1718,7 +1714,7 @@ ReleaseVideoBuffer
 (
 )
 ;
-ALOG
+GVDM_LOG
 (
 "
 Color
@@ -2307,7 +2303,7 @@ crop_bottom
 )
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 Failed
@@ -2369,7 +2365,7 @@ displaySize
 )
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 It
@@ -2389,7 +2385,7 @@ return
 true
 ;
 }
-ALOG
+GVDM_LOG
 (
 "
 Fail
@@ -2447,7 +2443,7 @@ mDecoder
 nullptr
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 Decoder
@@ -2537,7 +2533,7 @@ data
 nullptr
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 Failed
@@ -2577,7 +2573,7 @@ our
 cached
 info
 .
-ALOG
+GVDM_LOG
 (
 "
 Decoder
@@ -2651,7 +2647,7 @@ android
 ERROR_END_OF_STREAM
 :
 {
-ALOG
+GVDM_LOG
 (
 "
 Got
@@ -2717,7 +2713,7 @@ data
 nullptr
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 Failed
@@ -2745,7 +2741,7 @@ case
 ETIMEDOUT
 :
 {
-ALOG
+GVDM_LOG
 (
 "
 Timeout
@@ -2765,7 +2761,7 @@ NS_ERROR_UNEXPECTED
 default
 :
 {
-ALOG
+GVDM_LOG
 (
 "
 Decoder
@@ -2836,7 +2832,7 @@ mDecoder
 nullptr
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 Decoder
@@ -3304,7 +3300,7 @@ resume
 loading
 metadata
 .
-ALOG
+GVDM_LOG
 (
 "
 CodecReserved
@@ -3903,7 +3899,7 @@ ReleaseMediaResources
 (
 )
 {
-ALOG
+GVDM_LOG
 (
 "
 ReleseMediaResources

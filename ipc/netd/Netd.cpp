@@ -161,7 +161,7 @@ h
 "
 #
 define
-CHROMIUM_LOG
+NETD_LOG
 (
 args
 .
@@ -343,7 +343,7 @@ rwget
 1
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Unable
@@ -522,7 +522,7 @@ ret
 length
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Fail
@@ -646,7 +646,7 @@ rwget
 0
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Error
@@ -700,7 +700,7 @@ flags
 1
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Error
@@ -747,7 +747,7 @@ flags
 1
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Error
@@ -796,7 +796,7 @@ O_NONBLOCK
 1
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Error
@@ -849,7 +849,7 @@ this
 )
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Error
@@ -908,7 +908,7 @@ this
 )
 ;
 }
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Connected
@@ -1076,7 +1076,7 @@ if
 responseCode
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Can
@@ -1229,7 +1229,7 @@ if
 gNetdClient
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Netd
@@ -1265,7 +1265,7 @@ in
 a
 second
 .
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Fail
@@ -1288,7 +1288,7 @@ mReConnectTimes
 MAX_RECONNECT_TIMES
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Fail
@@ -1380,7 +1380,7 @@ if
 gNetdClient
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Netd
@@ -1419,7 +1419,7 @@ get
 INVALID_SOCKET
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Netd
@@ -1525,7 +1525,7 @@ written
 0
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 Cannot
@@ -1572,7 +1572,7 @@ written
 write_amount
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 WriteNetdCommand
@@ -1762,7 +1762,7 @@ if
 result
 )
 {
-CHROMIUM_LOG
+NETD_LOG
 (
 "
 fail

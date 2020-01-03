@@ -155,9 +155,6 @@ types
 h
 >
 #
-undef
-CHROMIUM_LOG
-#
 if
 defined
 (
@@ -174,7 +171,7 @@ h
 >
 #
 define
-CHROMIUM_LOG
+KEYSTORE_LOG
 (
 args
 .
@@ -193,7 +190,7 @@ args
 else
 #
 define
-CHROMIUM_LOG
+KEYSTORE_LOG
 (
 args
 .
