@@ -2968,13 +2968,6 @@ cuddlefishSandbox
 loaderSandbox
 )
 ;
-unloadSandbox
-(
-cuddlefishSandbox
-.
-xulappSandbox
-)
-;
 /
 /
 Bug

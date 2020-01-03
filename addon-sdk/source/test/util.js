@@ -271,7 +271,10 @@ true
 .
 then
 (
-_target
+_
+=
+>
+window
 )
 ;
 window
