@@ -5530,6 +5530,11 @@ double
 aXScroll
 double
 aYScroll
+)
+;
+void
+Scroll
+(
 const
 mozilla
 :
@@ -5537,7 +5542,7 @@ mozilla
 dom
 :
 :
-ScrollOptions
+ScrollToOptions
 &
 aOptions
 )
@@ -5549,6 +5554,11 @@ double
 aXScroll
 double
 aYScroll
+)
+;
+void
+ScrollTo
+(
 const
 mozilla
 :
@@ -5556,7 +5566,7 @@ mozilla
 dom
 :
 :
-ScrollOptions
+ScrollToOptions
 &
 aOptions
 )
@@ -5568,6 +5578,11 @@ double
 aXScrollDif
 double
 aYScrollDif
+)
+;
+void
+ScrollBy
+(
 const
 mozilla
 :
@@ -5575,7 +5590,7 @@ mozilla
 dom
 :
 :
-ScrollOptions
+ScrollToOptions
 &
 aOptions
 )
