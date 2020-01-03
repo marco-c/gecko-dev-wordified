@@ -72,9 +72,6 @@ already_AddRefed
 class
 nsCString
 ;
-struct
-nsID
-;
 class
 nsIPrincipal
 ;
@@ -105,9 +102,6 @@ namespace
 indexedDB
 {
 class
-LoggingInfo
-;
-class
 PBackgroundIDBFactoryParent
 ;
 class
@@ -117,10 +111,6 @@ PBackgroundIDBFactoryParent
 *
 AllocPBackgroundIDBFactoryParent
 (
-const
-LoggingInfo
-&
-aLoggingInfo
 )
 ;
 bool
@@ -129,10 +119,6 @@ RecvPBackgroundIDBFactoryConstructor
 PBackgroundIDBFactoryParent
 *
 aActor
-const
-LoggingInfo
-&
-aLoggingInfo
 )
 ;
 bool

@@ -180,10 +180,6 @@ PBackgroundIDBFactoryParent
 *
 AllocPBackgroundIDBFactoryParent
 (
-const
-LoggingInfo
-&
-aLoggingInfo
 )
 MOZ_OVERRIDE
 ;
@@ -194,10 +190,6 @@ RecvPBackgroundIDBFactoryConstructor
 PBackgroundIDBFactoryParent
 *
 aActor
-const
-LoggingInfo
-&
-aLoggingInfo
 )
 MOZ_OVERRIDE
 ;

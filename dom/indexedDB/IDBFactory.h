@@ -237,9 +237,6 @@ class
 IDBOpenDBRequest
 ;
 class
-LoggingInfo
-;
-class
 IDBFactory
 MOZ_FINAL
 :
@@ -487,11 +484,6 @@ mBackgroundActor
 nullptr
 ;
 }
-void
-IncrementParentLoggingRequestSerialNumber
-(
-)
-;
 nsPIDOMWindow
 *
 GetParentObject
@@ -799,10 +791,6 @@ BackgroundActorCreated
 PBackgroundChild
 *
 aBackgroundActor
-const
-LoggingInfo
-&
-aLoggingInfo
 )
 ;
 void
