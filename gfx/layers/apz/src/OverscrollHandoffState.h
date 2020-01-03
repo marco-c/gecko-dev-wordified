@@ -140,6 +140,17 @@ h
 /
 for
 NS_INLINE_DECL_REFCOUNTING
+#
+include
+"
+Units
+.
+h
+"
+/
+/
+for
+ScreenPoint
 namespace
 mozilla
 {
