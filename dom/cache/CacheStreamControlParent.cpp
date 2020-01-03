@@ -154,7 +154,7 @@ dom
 /
 cache
 /
-CacheTypes
+PCacheTypes
 .
 h
 "
@@ -338,7 +338,7 @@ CacheStreamControlParent
 :
 SerializeControl
 (
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 )
@@ -373,7 +373,7 @@ CacheStreamControlParent
 :
 SerializeFds
 (
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 const
@@ -494,7 +494,7 @@ CacheStreamControlParent
 DeserializeFds
 (
 const
-CacheReadStream
+PCacheReadStream
 &
 aReadStream
 nsTArray
