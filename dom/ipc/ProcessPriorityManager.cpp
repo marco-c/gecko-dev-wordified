@@ -764,6 +764,7 @@ priority
 .
 *
 /
+explicit
 ProcessLRUPool
 (
 ProcessPriority
