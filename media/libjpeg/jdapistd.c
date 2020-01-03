@@ -192,12 +192,9 @@ LOCAL
 boolean
 )
 output_pass_setup
-JPP
-(
 (
 j_decompress_ptr
 cinfo
-)
 )
 ;
 /

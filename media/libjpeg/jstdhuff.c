@@ -177,7 +177,7 @@ htblptr
 >
 bits
 bits
-SIZEOF
+sizeof
 (
 (
 *
@@ -295,7 +295,7 @@ huffval
 val
 nsymbols
 *
-SIZEOF
+sizeof
 (
 UINT8
 )

@@ -1369,7 +1369,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 d_derived_tbl
 )
@@ -5932,7 +5932,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 huff_entropy_decoder
 )

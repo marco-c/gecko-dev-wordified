@@ -1639,7 +1639,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_PERMANENT
-SIZEOF
+sizeof
 (
 my_source_mgr
 )
@@ -1682,7 +1682,7 @@ cinfo
 JPOOL_PERMANENT
 INPUT_BUF_SIZE
 *
-SIZEOF
+sizeof
 (
 JOCTET
 )
@@ -1963,7 +1963,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_PERMANENT
-SIZEOF
+sizeof
 (
 struct
 jpeg_source_mgr
