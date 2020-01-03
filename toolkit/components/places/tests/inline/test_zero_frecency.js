@@ -90,6 +90,7 @@ moz
 moz
 "
 function
+*
 (
 )
 {
@@ -111,6 +112,7 @@ typed
 false
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -174,6 +176,7 @@ org
 f
 "
 function
+*
 (
 )
 {
@@ -195,6 +198,7 @@ typed
 false
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
