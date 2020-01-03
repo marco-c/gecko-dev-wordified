@@ -234,7 +234,6 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
 ;
 static
 gfx
