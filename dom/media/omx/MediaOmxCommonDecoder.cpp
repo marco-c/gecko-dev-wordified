@@ -317,10 +317,8 @@ MediaOmxCommonDecoder
 :
 FirstFrameLoaded
 (
-nsAutoPtr
-<
 MediaInfo
->
+*
 aInfo
 )
 {

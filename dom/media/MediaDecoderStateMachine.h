@@ -2418,15 +2418,11 @@ QueueMetadata
 (
 int64_t
 aPublishTime
-nsAutoPtr
-<
 MediaInfo
->
+*
 aInfo
-nsAutoPtr
-<
 MetadataTags
->
+*
 aTags
 )
 ;
