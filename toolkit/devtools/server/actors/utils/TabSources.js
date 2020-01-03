@@ -2009,6 +2009,17 @@ fileExtension
 "
 html
 "
+|
+|
+urlInfo
+.
+fileExtension
+=
+=
+=
+"
+xml
+"
 )
 {
 spec
