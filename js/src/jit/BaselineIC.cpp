@@ -66460,7 +66460,7 @@ cond
 if
 (
 !
-js_IteratorMore
+IteratorMore
 (
 cx
 iterObj
@@ -66960,7 +66960,7 @@ toObject
 if
 (
 !
-js_IteratorNext
+IteratorNext
 (
 cx
 iteratorObject

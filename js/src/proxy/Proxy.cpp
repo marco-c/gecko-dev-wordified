@@ -5137,7 +5137,7 @@ succeeded
 deleted
 ;
 return
-js_SuppressDeletedProperty
+SuppressDeletedProperty
 (
 cx
 obj
