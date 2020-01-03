@@ -3281,10 +3281,7 @@ aPresContext
 aReflowState
 inner
 innerAvailSize
--
-1
--
-1
+nullptr
 nsHTMLReflowState
 :
 :
@@ -3308,10 +3305,7 @@ kidReflowState
 Init
 (
 aPresContext
--
-1
--
-1
+nullptr
 nullptr
 &
 aReflowState

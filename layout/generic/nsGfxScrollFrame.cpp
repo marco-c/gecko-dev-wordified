@@ -3265,10 +3265,7 @@ wm
 availISize
 NS_UNCONSTRAINEDSIZE
 )
--
-1
--
-1
+nullptr
 nsHTMLReflowState
 :
 :
@@ -3291,10 +3288,7 @@ kidReflowState
 Init
 (
 presContext
--
-1
--
-1
+nullptr
 nullptr
 &
 physicalPadding

@@ -18141,10 +18141,7 @@ aReflowState
 Init
 (
 presContext
--
-1
--
-1
+nullptr
 pCollapseBorder
 &
 padding
@@ -19044,10 +19041,7 @@ aReflowState
 reflowState
 aFrame
 availSize
--
-1
--
-1
+nullptr
 nsHTMLReflowState
 :
 :
@@ -19209,10 +19203,7 @@ aReflowState
 reflowState
 aTfoot
 kidAvailSize
--
-1
--
-1
+nullptr
 nsHTMLReflowState
 :
 :
@@ -20062,10 +20053,7 @@ GetWritingMode
 )
 kidAvailSize
 )
--
-1
--
-1
+nullptr
 nsHTMLReflowState
 :
 :

@@ -264,10 +264,7 @@ aPresContext
 aParentReflowState
 aFrame
 aAvailableSpace
--
-1
--
-1
+nullptr
 aFlags
 )
 {
@@ -538,10 +535,7 @@ Init
 (
 &
 aPresContext
--
-1
--
-1
+nullptr
 pCollapseBorder
 )
 ;
