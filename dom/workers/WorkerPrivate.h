@@ -210,6 +210,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 StructuredCloneTags
 .
 h
