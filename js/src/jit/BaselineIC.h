@@ -208,9 +208,6 @@ h
 namespace
 js
 {
-class
-TypedArrayLayout
-;
 namespace
 jit
 {

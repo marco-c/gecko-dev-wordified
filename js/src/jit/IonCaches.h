@@ -188,9 +188,6 @@ h
 namespace
 js
 {
-class
-LockedJSContext
-;
 namespace
 jit
 {

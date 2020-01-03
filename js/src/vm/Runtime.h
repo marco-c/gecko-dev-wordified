@@ -3301,9 +3301,6 @@ endif
 class
 AutoLockForExclusiveAccess
 ;
-struct
-AutoStopwatch
-;
 }
 /
 /

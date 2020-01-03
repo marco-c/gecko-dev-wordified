@@ -127,9 +127,6 @@ nsString
 .
 h
 "
-class
-nsIURI
-;
 namespace
 mozilla
 {

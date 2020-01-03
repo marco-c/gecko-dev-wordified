@@ -810,13 +810,6 @@ js
 *
 /
 namespace
-JS
-{
-struct
-TypeInferenceSizes
-;
-}
-namespace
 js
 {
 class
@@ -824,6 +817,9 @@ DebugScopes
 ;
 class
 ObjectWeakMap
+;
+class
+WatchpointMap
 ;
 class
 WeakMapBase

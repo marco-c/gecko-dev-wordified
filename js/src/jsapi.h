@@ -367,9 +367,6 @@ namespace
 JS
 {
 class
-Latin1CharsZ
-;
-class
 TwoByteChars
 ;
 #

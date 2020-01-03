@@ -154,9 +154,6 @@ jit
 struct
 SafepointSlotEntry
 ;
-struct
-SafepointNunboxEntry
-;
 class
 LAllocation
 ;

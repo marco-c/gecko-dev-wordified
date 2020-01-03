@@ -139,9 +139,6 @@ namespace
 jit
 {
 class
-CodeGenerator
-;
-class
 MoveEmitterX86
 {
 bool

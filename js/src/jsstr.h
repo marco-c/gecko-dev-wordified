@@ -186,9 +186,6 @@ class
 JSAutoByteString
 ;
 class
-JSFlatString
-;
-class
 JSLinearString
 ;
 namespace
@@ -196,9 +193,6 @@ js
 {
 class
 StringBuffer
-;
-class
-MutatingRopeSegmentRange
 ;
 template
 <

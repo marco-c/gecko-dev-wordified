@@ -158,12 +158,6 @@ namespace
 jit
 {
 class
-MBasicBlock
-;
-class
-MTableSwitch
-;
-class
 MIRGenerator
 ;
 class

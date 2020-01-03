@@ -1017,9 +1017,6 @@ uint8_t
 0xba1
 )
 ;
-class
-JitCompartment
-;
 /
 /
 BailoutStack

@@ -204,9 +204,6 @@ class
 ScopeObject
 ;
 class
-ClonedBlockObject
-;
-class
 ScriptFrameIter
 ;
 class

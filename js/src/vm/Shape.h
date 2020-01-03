@@ -1044,9 +1044,6 @@ class
 Bindings
 ;
 class
-Debugger
-;
-class
 Nursery
 ;
 class

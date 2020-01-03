@@ -139,9 +139,6 @@ namespace
 jit
 {
 class
-CodeGenerator
-;
-class
 MoveEmitterARM
 {
 uint32_t

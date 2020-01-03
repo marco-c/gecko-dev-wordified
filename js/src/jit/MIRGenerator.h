@@ -231,13 +231,7 @@ namespace
 jit
 {
 class
-MBasicBlock
-;
-class
 MIRGraph
-;
-class
-MStart
 ;
 class
 OptimizationInfo

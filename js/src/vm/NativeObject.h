@@ -2105,17 +2105,11 @@ Class
 class
 GCMarker
 ;
-struct
-ObjectOps
-;
 class
 Shape
 ;
 class
 NewObjectCache
-;
-class
-TaggedProto
 ;
 #
 ifdef

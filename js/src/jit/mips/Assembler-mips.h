@@ -2693,9 +2693,6 @@ InstImm
 class
 InstJump
 ;
-class
-BranchInstBlock
-;
 uint32_t
 RS
 (
@@ -3432,9 +3429,6 @@ ff_null
 =
 0
 }
-;
-class
-MacroAssemblerMIPS
 ;
 class
 Operand

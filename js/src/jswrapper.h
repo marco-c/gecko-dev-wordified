@@ -135,9 +135,6 @@ h
 namespace
 js
 {
-class
-DummyFrameGuard
-;
 /
 *
 *

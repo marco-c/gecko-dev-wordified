@@ -314,9 +314,6 @@ vp
 )
 ;
 class
-IonBuilder
-;
-class
 JitcodeGlobalTable
 ;
 /
