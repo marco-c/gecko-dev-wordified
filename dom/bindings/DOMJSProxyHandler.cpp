@@ -139,13 +139,6 @@ h
 #
 include
 "
-XPCQuickStubs
-.
-h
-"
-#
-include
-"
 XPCWrapper
 .
 h
