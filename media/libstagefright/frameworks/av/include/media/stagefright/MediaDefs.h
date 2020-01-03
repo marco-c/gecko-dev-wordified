@@ -150,6 +150,12 @@ extern
 const
 char
 *
+MEDIA_MIMETYPE_VIDEO_VP6
+;
+extern
+const
+char
+*
 MEDIA_MIMETYPE_VIDEO_VP8
 ;
 extern
