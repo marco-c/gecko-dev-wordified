@@ -813,14 +813,12 @@ widget
 "
 )
 ;
-let
 widgetStartCount
 =
 widgetCount
 (
 )
 ;
-let
 w
 =
 widgetsFromLoader
@@ -1546,7 +1544,6 @@ Create
 3
 ordered
 widgets
-let
 w1
 =
 widgets
@@ -1574,7 +1571,6 @@ bar
 }
 )
 ;
-let
 w2
 =
 widgets

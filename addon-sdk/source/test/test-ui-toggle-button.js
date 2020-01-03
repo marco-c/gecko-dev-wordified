@@ -2351,6 +2351,9 @@ assert
 )
 {
 let
+state
+;
+let
 loader
 =
 Loader
@@ -2415,7 +2418,6 @@ button
 '
 s
 state
-let
 state
 =
 button
@@ -2922,6 +2924,9 @@ done
 )
 {
 let
+state
+;
+let
 loader
 =
 Loader
@@ -3140,7 +3145,6 @@ unchanged
 '
 )
 ;
-let
 state
 =
 button
@@ -3207,7 +3211,6 @@ unchanged
 '
 )
 ;
-let
 state
 =
 button
@@ -3426,7 +3429,6 @@ nodes
 0
 ]
 ;
-let
 state
 =
 button
@@ -3537,7 +3539,6 @@ correct
 '
 )
 ;
-let
 node
 =
 nodes
@@ -3545,7 +3546,6 @@ nodes
 1
 ]
 ;
-let
 state
 =
 button
@@ -3953,6 +3953,9 @@ schedulePreciseGC
 =
 >
 {
+let
+state
+;
 assert
 .
 equal
@@ -4007,7 +4010,6 @@ unchanged
 '
 )
 ;
-let
 state
 =
 button
@@ -4076,7 +4078,6 @@ unchanged
 '
 )
 ;
-let
 state
 =
 button
@@ -4314,7 +4315,6 @@ check
 the
 node
 properties
-let
 state
 =
 button
@@ -5171,7 +5171,6 @@ navbar
 '
 )
 ;
-let
 size
 =
 32

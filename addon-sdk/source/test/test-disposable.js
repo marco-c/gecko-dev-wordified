@@ -1843,14 +1843,12 @@ Foo
 arg1
 arg2
 )
-let
 foo1
 =
-null
-let
 foo2
 =
 null
+;
 Cu
 .
 schedulePreciseGC
@@ -2441,6 +2439,8 @@ instance
 require
 (
 '
+sdk
+/
 test
 '
 )

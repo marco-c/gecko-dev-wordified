@@ -1828,6 +1828,9 @@ function
 assert
 )
 {
+let
+message
+;
 const
 url
 =
@@ -2112,7 +2115,6 @@ window
 "
 )
 ;
-let
 message
 =
 wait
@@ -2179,7 +2181,6 @@ window
 "
 )
 ;
-let
 message
 =
 wait
