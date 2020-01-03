@@ -482,6 +482,29 @@ api
 token
 '
 )
+        
+(
+'
+/
+usr
+/
+local
+/
+lib
+/
+hgext
+'
+'
+/
+usr
+/
+local
+/
+lib
+/
+hgext
+'
+)
     
 ]
     
