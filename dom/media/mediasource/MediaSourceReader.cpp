@@ -4174,6 +4174,7 @@ mAudioTrack
 ContainsTime
 (
 aTime
+EOS_FUZZ_US
 )
 )
 {
@@ -4193,6 +4194,7 @@ mVideoTrack
 ContainsTime
 (
 aTime
+EOS_FUZZ_US
 )
 )
 {

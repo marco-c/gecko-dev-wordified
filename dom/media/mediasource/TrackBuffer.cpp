@@ -4073,6 +4073,8 @@ ContainsTime
 (
 int64_t
 aTime
+int64_t
+aTolerance
 )
 {
 ReentrantMonitorAutoEnter
@@ -4144,6 +4146,12 @@ Find
 double
 (
 aTime
+)
+/
+USECS_PER_S
+double
+(
+aTolerance
 )
 /
 USECS_PER_S
