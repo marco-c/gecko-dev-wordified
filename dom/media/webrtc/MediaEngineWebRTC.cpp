@@ -2284,7 +2284,7 @@ check
 }
 nsRefPtr
 <
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 >
 aSource
 ;
@@ -2338,7 +2338,7 @@ else
 aSource
 =
 new
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 (
 mThread
 mVoiceEngine
