@@ -7882,6 +7882,11 @@ referrerURI
 gContextMenuContentData
 .
 documentURIObject
+referrerPolicy
+:
+gContextMenuContentData
+.
+referrerPolicy
 noReferrer
 :
 this
