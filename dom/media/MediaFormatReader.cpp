@@ -3088,6 +3088,16 @@ return
 nextKeyframe
 <
 aTimeThreshold
+&
+&
+nextKeyframe
+.
+ToMicroseconds
+(
+)
+>
+=
+0
 ;
 }
 nsRefPtr
