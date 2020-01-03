@@ -260,6 +260,7 @@ namespace
 mozilla
 class
 nsDOMOfflineResourceList
+MOZ_FINAL
 :
 public
 mozilla

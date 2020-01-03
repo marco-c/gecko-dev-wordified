@@ -195,6 +195,7 @@ Nullable
 ;
 class
 HTMLFormControlsCollection
+MOZ_FINAL
 :
 public
 nsIHTMLCollection

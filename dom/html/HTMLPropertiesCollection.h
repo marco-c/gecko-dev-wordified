@@ -728,6 +728,7 @@ mIsDirty
 ;
 class
 PropertyNodeList
+MOZ_FINAL
 :
 public
 nsINodeList

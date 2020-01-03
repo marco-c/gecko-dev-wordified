@@ -216,6 +216,7 @@ kRightStickYAxis
 ;
 class
 Gamepad
+MOZ_FINAL
 :
 public
 nsISupports

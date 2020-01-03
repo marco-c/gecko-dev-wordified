@@ -15529,6 +15529,7 @@ JSObject
 .
 class
 nsXPCWrappedJS
+MOZ_FINAL
 :
 protected
 nsAutoXPTCStub
@@ -17951,6 +17952,7 @@ xpc_DestroyJSxIDClassObjects
 ;
 class
 nsJSID
+MOZ_FINAL
 :
 public
 nsIJSID
@@ -19378,6 +19380,7 @@ engine
 .
 class
 nsScriptError
+MOZ_FINAL
 :
 public
 nsIScriptError

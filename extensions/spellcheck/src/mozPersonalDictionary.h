@@ -231,6 +231,7 @@ mozPersonalDictionaryLoader
 ;
 class
 mozPersonalDictionary
+MOZ_FINAL
 :
 public
 mozIPersonalDictionary

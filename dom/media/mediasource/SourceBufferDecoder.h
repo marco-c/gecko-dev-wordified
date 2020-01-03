@@ -195,6 +195,7 @@ namespace
 dom
 class
 SourceBufferDecoder
+MOZ_FINAL
 :
 public
 AbstractMediaDecoder

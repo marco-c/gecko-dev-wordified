@@ -20689,6 +20689,7 @@ deoptimization
 .
 class
 MUnbox
+MOZ_FINAL
 :
 public
 MUnaryInstruction

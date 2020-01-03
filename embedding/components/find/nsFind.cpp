@@ -816,6 +816,7 @@ backward
 .
 class
 nsFindContentIterator
+MOZ_FINAL
 :
 public
 nsIContentIterator

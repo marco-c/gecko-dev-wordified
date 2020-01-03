@@ -181,6 +181,7 @@ net
 {
 class
 FTPChannelParent
+MOZ_FINAL
 :
 public
 PFTPChannelParent

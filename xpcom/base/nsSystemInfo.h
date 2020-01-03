@@ -150,6 +150,7 @@ XP_WIN
 )
 class
 nsSystemInfo
+MOZ_FINAL
 :
 public
 nsHashPropertyBag

@@ -640,6 +640,7 @@ nsCacheService
 /
 class
 nsCacheService
+MOZ_FINAL
 :
 public
 nsICacheServiceInternal

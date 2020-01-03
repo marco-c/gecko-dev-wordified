@@ -209,6 +209,7 @@ object
 /
 class
 nsTextServicesDocument
+MOZ_FINAL
 :
 public
 nsITextServicesDocument

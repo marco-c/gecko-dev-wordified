@@ -202,6 +202,7 @@ MP4Stream
 ;
 class
 MP4Reader
+MOZ_FINAL
 :
 public
 MediaDecoderReader

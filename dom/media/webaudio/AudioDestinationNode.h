@@ -171,6 +171,7 @@ EventProxyHandler
 ;
 class
 AudioDestinationNode
+MOZ_FINAL
 :
 public
 AudioNode

@@ -195,6 +195,7 @@ JavaScript
 .
 class
 nsPluginTag
+MOZ_FINAL
 :
 public
 nsIPluginTag

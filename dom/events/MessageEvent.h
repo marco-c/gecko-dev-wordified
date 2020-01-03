@@ -211,6 +211,7 @@ details
 /
 class
 MessageEvent
+MOZ_FINAL
 :
 public
 Event

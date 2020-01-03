@@ -666,6 +666,7 @@ a689
 }
 class
 mozHunspell
+MOZ_FINAL
 :
 public
 mozISpellCheckingEngine

@@ -98,6 +98,7 @@ inIDOMUtils
 ;
 class
 inDeepTreeWalker
+MOZ_FINAL
 :
 public
 inIDeepTreeWalker

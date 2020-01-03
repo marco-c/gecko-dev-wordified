@@ -709,6 +709,7 @@ NS_NAVHISTORYRESULT_IID
 }
 class
 nsNavHistoryResult
+MOZ_FINAL
 :
 public
 nsSupportsWeakReference
@@ -3600,6 +3601,7 @@ notifications
 .
 class
 nsNavHistoryQueryResultNode
+MOZ_FINAL
 :
 public
 nsNavHistoryContainerResultNode
@@ -3985,6 +3987,7 @@ service
 .
 class
 nsNavHistoryFolderResultNode
+MOZ_FINAL
 :
 public
 nsNavHistoryContainerResultNode

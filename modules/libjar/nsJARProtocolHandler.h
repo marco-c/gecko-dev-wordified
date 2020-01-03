@@ -177,6 +177,7 @@ nsIRemoteOpenFileListener
 ;
 class
 nsJARProtocolHandler
+MOZ_FINAL
 :
 public
 nsIJARProtocolHandler

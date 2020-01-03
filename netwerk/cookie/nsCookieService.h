@@ -1380,6 +1380,7 @@ declaration
 /
 class
 nsCookieService
+MOZ_FINAL
 :
 public
 nsICookieService

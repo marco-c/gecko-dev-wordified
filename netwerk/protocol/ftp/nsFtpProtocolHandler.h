@@ -225,6 +225,7 @@ nsICacheSession
 -
 class
 nsFtpProtocolHandler
+MOZ_FINAL
 :
 public
 nsIProxiedProtocolHandler

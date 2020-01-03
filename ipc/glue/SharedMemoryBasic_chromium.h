@@ -175,6 +175,7 @@ ipc
 {
 class
 SharedMemoryBasic
+MOZ_FINAL
 :
 public
 SharedMemory

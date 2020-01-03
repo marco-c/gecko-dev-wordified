@@ -772,6 +772,7 @@ mByteCount
 -
 class
 nsSocketTransport
+MOZ_FINAL
 :
 public
 nsASocketHandler
