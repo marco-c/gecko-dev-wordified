@@ -29962,7 +29962,7 @@ JSContext
 cx
 JSExnType
 type
-HandleString
+HandleObject
 stack
 HandleString
 fileName
