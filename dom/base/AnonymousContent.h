@@ -175,6 +175,14 @@ GetContentNode
 (
 )
 ;
+void
+SetContentNode
+(
+Element
+*
+aContentNode
+)
+;
 JSObject
 *
 WrapObject
