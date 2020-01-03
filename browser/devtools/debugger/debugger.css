@@ -120,6 +120,14 @@ views
 *
 /
 #
+workers
+-
+pane
+>
+tabpanels
+>
+tabpanel
+#
 sources
 -
 pane
@@ -213,6 +221,10 @@ layout
 vertical
 ]
 #
+workers
+-
+and
+-
 sources
 -
 pane
