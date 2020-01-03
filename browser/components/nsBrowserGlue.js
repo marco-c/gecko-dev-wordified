@@ -16641,6 +16641,14 @@ appinfo
 accessibilityEnabled
 &
 &
+!
+Services
+.
+appinfo
+.
+keyboardMayHaveIME
+&
+&
 e10sPromptShownCount
 <
 5
