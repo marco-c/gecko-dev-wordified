@@ -4734,7 +4734,7 @@ aEvent
 mMessage
 =
 =
-NS_PLUGIN_INPUT_EVENT
+ePluginInputEvent
 )
 {
 gLastUserEventTime
