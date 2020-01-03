@@ -27,6 +27,11 @@ zero
 /
 *
 /
+const
+{
+CardDavImporter
+}
+=
 Cu
 .
 import
@@ -45,6 +50,8 @@ CardDavImporter
 .
 jsm
 "
+{
+}
 )
 ;
 const
