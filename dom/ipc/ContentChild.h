@@ -1580,17 +1580,6 @@ override
 ;
 virtual
 bool
-RecvRemoveServiceWorkerRegistrationsForDomain
-(
-const
-nsString
-&
-aDomain
-)
-override
-;
-virtual
-bool
 RecvNotifyVisited
 (
 const
