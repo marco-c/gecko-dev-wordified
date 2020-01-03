@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+__CCAPP_TASK_H__
+#
+define
+__CCAPP_TASK_H__
+#
 include
 "
 sll_lite
@@ -142,3 +148,5 @@ uint32_t
 usrInfo
 )
 ;
+#
+endif
