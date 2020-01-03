@@ -671,6 +671,14 @@ nsRect
 aRect
 )
 ;
+nsresult
+GetWindowInnerRect
+(
+nsRect
+&
+aRect
+)
+;
 mozilla
 :
 :
@@ -738,6 +746,12 @@ bool
 IsDeviceSizePageSize
 (
 )
+;
+bool
+ShouldResistFingerprinting
+(
+)
+const
 ;
 nsRefPtr
 <

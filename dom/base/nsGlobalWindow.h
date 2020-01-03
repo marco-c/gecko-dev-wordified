@@ -6702,6 +6702,11 @@ ErrorResult
 aError
 )
 ;
+bool
+ShouldResistFingerprinting
+(
+)
+;
 mozilla
 :
 :
