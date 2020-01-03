@@ -9820,7 +9820,7 @@ NS_LITERAL_CSTRING
 date_added
 "
 )
-PR_Now
+RoundedPRNow
 (
 )
 )
@@ -9955,7 +9955,7 @@ NS_LITERAL_CSTRING
 last_modified
 "
 )
-PR_Now
+RoundedPRNow
 (
 )
 )

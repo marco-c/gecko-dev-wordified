@@ -1897,7 +1897,7 @@ lastVisit
 :
 timeInMicroseconds
 +
-1
+1000
 uri
 :
 "
@@ -1998,7 +1998,7 @@ lastVisit
 :
 timeInMicroseconds
 +
-1
+1000
 uri
 :
 "
@@ -2569,7 +2569,7 @@ lastVisit
 :
 timeInMicroseconds
 +
-1
+1000
 title
 :
 "
@@ -2624,7 +2624,7 @@ lastVisit
 :
 timeInMicroseconds
 +
-1
+1000
 title
 :
 "
@@ -2814,7 +2814,7 @@ visitDate
 :
 timeInMicroseconds
 +
-1
+1000
 }
 {
 uri
@@ -2840,7 +2840,7 @@ visitDate
 :
 timeInMicroseconds
 +
-1
+1000
 }
 {
 uri
@@ -3873,7 +3873,7 @@ dateAdded
 :
 timeInMicroseconds
 -
-1
+1000
 isInQuery
 :
 true
@@ -3914,7 +3914,7 @@ dateAdded
 :
 timeInMicroseconds
 -
-2
+2000
 isInQuery
 :
 true
@@ -4005,7 +4005,7 @@ dateAdded
 :
 timeInMicroseconds
 -
-1
+1000
 isInQuery
 :
 true
@@ -4060,7 +4060,7 @@ dateAdded
 :
 timeInMicroseconds
 -
-1
+1000
 isInQuery
 :
 true
@@ -4446,7 +4446,7 @@ lastModified
 :
 timeInMicroseconds
 -
-1
+1000
 isInQuery
 :
 true
@@ -4487,7 +4487,7 @@ lastModified
 :
 timeInMicroseconds
 -
-2
+2000
 isInQuery
 :
 true
@@ -4578,7 +4578,7 @@ lastModified
 :
 timeInMicroseconds
 -
-1
+1000
 isInQuery
 :
 true
@@ -4635,7 +4635,7 @@ lastModified
 :
 timeInMicroseconds
 -
-1
+1000
 isInQuery
 :
 true

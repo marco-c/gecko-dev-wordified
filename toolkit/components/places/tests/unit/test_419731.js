@@ -342,7 +342,7 @@ setItemLastModified
 bookmark1id
 bookmark2LastMod
 +
-1
+1000
 )
 ;
 /
@@ -630,7 +630,7 @@ setItemLastModified
 bookmark2id
 bookmark1LastMod
 +
-1
+1000
 )
 ;
 /
