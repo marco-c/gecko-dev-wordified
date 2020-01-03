@@ -5204,7 +5204,7 @@ to
 run
 script
 via
-JS_ExecuteScriptVersion
+JS_ExecuteScript
 or
 /
 /
@@ -5270,12 +5270,11 @@ script
 {
 ok
 =
-JS_ExecuteScriptVersion
+JS_ExecuteScript
 (
 cx
 obj
 script
-JSVERSION_LATEST
 )
 ;
 }
