@@ -20929,9 +20929,12 @@ object
 .
 *
 /
-auto
+AutoInitGCManagedObject
+<
+Debugger
+>
 dbg
-=
+(
 cx
 -
 >
@@ -20945,6 +20948,7 @@ obj
 .
 get
 (
+)
 )
 )
 ;
