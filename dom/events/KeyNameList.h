@@ -552,6 +552,13 @@ HomeScreen
 MozHomeScreen
 "
 )
+DEFINE_KEYNAME_INTERNAL
+(
+CameraFocusAdjust
+"
+MozCameraFocusAdjust
+"
+)
 /
 *
 *
