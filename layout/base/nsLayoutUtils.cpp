@@ -18346,9 +18346,11 @@ queryable
 to
 an
 nsIFrame
-static
 FrameMetrics
-CalculateFrameMetricsForDisplayPort
+nsLayoutUtils
+:
+:
+CalculateBasicFrameMetrics
 (
 nsIScrollableFrame
 *
@@ -18891,7 +18893,7 @@ content
 FrameMetrics
 metrics
 =
-CalculateFrameMetricsForDisplayPort
+CalculateBasicFrameMetrics
 (
 aScrollFrame
 )
