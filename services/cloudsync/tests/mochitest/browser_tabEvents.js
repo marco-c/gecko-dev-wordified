@@ -105,7 +105,7 @@ modules
 /
 sessionstore
 /
-TabState
+TabStateFlusher
 .
 jsm
 "
@@ -396,7 +396,7 @@ true
 ;
 local
 .
-TabState
+TabStateFlusher
 .
 flush
 (
@@ -404,7 +404,14 @@ tab
 .
 linkedBrowser
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 +
 +
 nflushed
@@ -420,6 +427,9 @@ nflushed
 ;
 next
 (
+)
+;
+}
 )
 ;
 }
