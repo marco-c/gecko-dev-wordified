@@ -481,6 +481,13 @@ var
 PluginProvider
 =
 {
+get
+name
+(
+)
+"
+PluginProvider
+"
 /
 /
 A

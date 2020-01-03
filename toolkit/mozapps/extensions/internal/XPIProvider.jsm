@@ -12237,6 +12237,13 @@ this
 XPIProvider
 =
 {
+get
+name
+(
+)
+"
+XPIProvider
+"
 /
 /
 An
