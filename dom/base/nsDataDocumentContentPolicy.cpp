@@ -650,6 +650,7 @@ below
 if
 (
 !
+(
 HasFlags
 (
 aContentLocation
@@ -658,10 +659,9 @@ nsIProtocolHandler
 :
 URI_IS_LOCAL_RESOURCE
 )
-|
-|
+&
+&
 (
-!
 HasFlags
 (
 aContentLocation
@@ -670,9 +670,8 @@ nsIProtocolHandler
 :
 URI_INHERITS_SECURITY_CONTEXT
 )
-&
-&
-!
+|
+|
 HasFlags
 (
 aContentLocation
@@ -680,6 +679,7 @@ nsIProtocolHandler
 :
 :
 URI_LOADABLE_BY_SUBSUMERS
+)
 )
 )
 )
