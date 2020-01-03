@@ -418,10 +418,12 @@ aDescriptor
 )
 ;
 virtual
-TextureSource
-*
-GetTextureSources
+bool
+BindTextureSource
 (
+CompositableTextureSourceRef
+&
+aTexture
 )
 override
 ;
