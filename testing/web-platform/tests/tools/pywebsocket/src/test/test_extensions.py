@@ -1958,51 +1958,6 @@ get_parameters
 )
 )
 class
-PerFrameCompressExtensionProcessorTest
-(
-unittest
-.
-TestCase
-)
-:
-    
-def
-test_registry
-(
-self
-)
-:
-        
-processor
-=
-extensions
-.
-get_extension_processor
-(
-                
-common
-.
-ExtensionParameter
-(
-'
-perframe
--
-compress
-'
-)
-)
-        
-self
-.
-assertIsInstance
-(
-processor
-                              
-extensions
-.
-PerFrameCompressExtensionProcessor
-)
-class
 PerMessageDeflateExtensionProcessorParsingTest
 (
 unittest
@@ -2185,7 +2140,7 @@ parameter
 add_parameter
 (
 '
-s2c_max_window_bits
+server_max_window_bits
 '
 '
 10
@@ -2232,7 +2187,7 @@ assertEqual
 [
 (
 '
-s2c_max_window_bits
+server_max_window_bits
 '
 '
 10
@@ -2284,7 +2239,7 @@ parameter
 add_parameter
 (
 '
-s2c_max_window_bits
+server_max_window_bits
 '
 '
 0
@@ -2336,7 +2291,7 @@ parameter
 add_parameter
 (
 '
-s2c_max_window_bits
+server_max_window_bits
 '
 None
 )
@@ -2386,7 +2341,7 @@ parameter
 add_parameter
 (
 '
-s2c_no_context_takeover
+server_no_context_takeover
 '
 None
 )
@@ -2431,7 +2386,7 @@ assertEqual
 [
 (
 '
-s2c_no_context_takeover
+server_no_context_takeover
 '
 None
 )
@@ -2480,7 +2435,7 @@ parameter
 add_parameter
 (
 '
-s2c_no_context_takeover
+server_no_context_takeover
 '
 '
 foobar
@@ -2616,7 +2571,7 @@ parameter
 add_parameter
 (
 '
-c2s_max_window_bits
+client_max_window_bits
 '
 None
 )
@@ -2632,7 +2587,7 @@ parameter
         
 processor
 .
-set_c2s_max_window_bits
+set_client_max_window_bits
 (
 10
 )
@@ -2668,7 +2623,7 @@ assertEqual
 [
 (
 '
-c2s_max_window_bits
+client_max_window_bits
 '
 '
 10
@@ -2711,7 +2666,7 @@ deflate
         
 processor
 .
-set_c2s_max_window_bits
+set_client_max_window_bits
 (
 10
 )
@@ -2759,7 +2714,7 @@ deflate
         
 processor
 .
-set_c2s_no_context_takeover
+set_client_no_context_takeover
 (
 True
 )
@@ -2795,7 +2750,7 @@ assertEqual
 [
 (
 '
-c2s_no_context_takeover
+client_no_context_takeover
 '
 None
 )
@@ -2836,7 +2791,7 @@ deflate
         
 processor
 .
-set_c2s_no_context_takeover
+set_client_no_context_takeover
 (
 False
 )

@@ -174,9 +174,6 @@ timeout_multiplier
 =
 1
                  
-http_server_override
-=
-None
 *
 *
 kwargs
@@ -195,8 +192,6 @@ self
 browser
 http_server_url
 timeout_multiplier
-                              
-http_server_override
 )
         
 self

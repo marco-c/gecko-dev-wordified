@@ -544,17 +544,6 @@ values
 used
 frequently
 .
-_VERSION_HYBI08
-=
-common
-.
-VERSION_HYBI08
-_VERSION_HYBI08_STRING
-=
-str
-(
-_VERSION_HYBI08
-)
 _VERSION_LATEST
 =
 common
@@ -571,8 +560,6 @@ _SUPPORTED_VERSIONS
 [
     
 _VERSION_LATEST
-    
-_VERSION_HYBI08
 ]
 def
 compute_accept
@@ -960,37 +947,6 @@ self
 _check_version
 (
 )
-        
-#
-This
-handshake
-must
-be
-based
-on
-latest
-hybi
-.
-We
-are
-responsible
-to
-        
-#
-fallback
-to
-HTTP
-on
-handshake
-failure
-as
-latest
-hybi
-handshake
-        
-#
-specifies
-.
         
 try
 :
@@ -1901,25 +1857,6 @@ self
 )
 :
         
-if
-self
-.
-_request
-.
-ws_version
-is
-_VERSION_HYBI08
-:
-            
-origin_header
-=
-common
-.
-SEC_WEBSOCKET_ORIGIN_HEADER
-        
-else
-:
-            
 origin_header
 =
 common
@@ -1989,16 +1926,6 @@ common
 .
 SEC_WEBSOCKET_VERSION_HEADER
 )
-        
-if
-version
-=
-=
-_VERSION_HYBI08_STRING
-:
-            
-return
-_VERSION_HYBI08
         
 if
 version
@@ -2214,29 +2141,6 @@ None
             
 return
         
-if
-self
-.
-_request
-.
-ws_version
-is
-common
-.
-VERSION_HYBI08
-:
-            
-allow_quoted_string
-=
-False
-        
-else
-:
-            
-allow_quoted_string
-=
-True
-        
 try
 :
             
@@ -2252,9 +2156,6 @@ parse_extensions
 (
                 
 extensions_header
-allow_quoted_string
-=
-allow_quoted_string
 )
         
 except
