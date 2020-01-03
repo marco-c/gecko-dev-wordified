@@ -2605,10 +2605,7 @@ hopefully
 MPEG
 resource
 .
-nsRefPtr
-<
-MediaResource
->
+MediaResourceIndex
 mSource
 ;
 /
