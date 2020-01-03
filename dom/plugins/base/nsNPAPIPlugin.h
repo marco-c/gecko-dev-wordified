@@ -647,7 +647,7 @@ AutoSafeJSContext
 cx
 ;
 return
-JS_StringHasBeenInterned
+JS_StringHasBeenPinned
 (
 cx
 NPIdentifierToString

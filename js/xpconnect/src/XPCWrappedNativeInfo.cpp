@@ -1803,7 +1803,7 @@ continue
 ;
 str
 =
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 info
@@ -2130,7 +2130,7 @@ break
 }
 str
 =
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 namestr
@@ -2299,7 +2299,7 @@ nullptr
 (
 str
 =
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 bytes

@@ -20270,7 +20270,7 @@ JSTYPE_STRING
 {
 str
 =
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 clasp

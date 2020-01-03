@@ -223,7 +223,7 @@ identifiers
 are
 rooted
 without
-interning
+pinning
 them
 all
 .
@@ -342,7 +342,7 @@ has
 no
 way
 to
-no
+know
 that
 a
 jsid
@@ -377,7 +377,7 @@ PluginIdentifier
 &
 aIdentifier
 bool
-aIntern
+aAtomizeAndPin
 =
 false
 )
@@ -431,7 +431,7 @@ PluginIdentifier
 &
 aIdentifier
 bool
-aIntern
+aAtomizeAndPin
 )
 :
 mFailed
@@ -536,12 +536,12 @@ return
 }
 if
 (
-aIntern
+aAtomizeAndPin
 )
 {
 str
 =
-JS_InternJSString
+JS_AtomizeAndPinJSString
 (
 mCx
 str
@@ -2799,7 +2799,7 @@ index
 /
 /
 We
-intern
+pin
 the
 ID
 to
@@ -2834,7 +2834,7 @@ index
 true
 /
 *
-aIntern
+aAtomizeAndPin
 *
 /
 )

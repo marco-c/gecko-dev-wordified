@@ -24446,7 +24446,7 @@ i
 {
 str
 =
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 mStrings

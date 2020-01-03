@@ -51,7 +51,7 @@ JSString
 interned
 (
 cx
-JS_InternJSString
+JS_AtomizeAndPinJSString
 (
 cx
 string
@@ -309,7 +309,7 @@ JSString
 interned
 (
 cx
-JS_InternJSString
+JS_AtomizeAndPinJSString
 (
 cx
 string

@@ -5660,7 +5660,7 @@ toString
 ;
 str
 =
-JS_InternJSString
+JS_AtomizeAndPinJSString
 (
 cx
 str
@@ -8687,7 +8687,7 @@ name
 =
 :
 :
-JS_InternJSString
+JS_AtomizeAndPinJSString
 (
 cx
 funId

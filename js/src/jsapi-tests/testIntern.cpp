@@ -100,7 +100,7 @@ ArrayLength
 ;
 BEGIN_TEST
 (
-testAtomizedIsNotInterned
+testAtomizedIsNotPinned
 )
 {
 /
@@ -170,7 +170,7 @@ someChars
 CHECK
 (
 !
-JS_StringHasBeenInterned
+JS_StringHasBeenPinned
 (
 cx
 atom
@@ -179,7 +179,7 @@ atom
 ;
 CHECK
 (
-JS_InternJSString
+JS_AtomizeAndPinJSString
 (
 cx
 atom
@@ -188,7 +188,7 @@ atom
 ;
 CHECK
 (
-JS_StringHasBeenInterned
+JS_StringHasBeenPinned
 (
 cx
 atom
@@ -201,7 +201,7 @@ true
 }
 END_TEST
 (
-testAtomizedIsNotInterned
+testAtomizedIsNotPinned
 )
 struct
 StringWrapperStruct
@@ -218,14 +218,14 @@ sw
 ;
 BEGIN_TEST
 (
-testInternAcrossGC
+testPinAcrossGC
 )
 {
 sw
 .
 str
 =
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 "
@@ -322,5 +322,5 @@ str
 }
 END_TEST
 (
-testInternAcrossGC
+testPinAcrossGC
 )

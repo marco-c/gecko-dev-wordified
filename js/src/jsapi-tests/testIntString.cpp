@@ -160,7 +160,7 @@ toString
 ;
 CHECK
 (
-JS_StringHasBeenInterned
+JS_StringHasBeenPinned
 (
 cx
 str
@@ -203,7 +203,7 @@ toString
 ;
 CHECK
 (
-JS_StringHasBeenInterned
+JS_StringHasBeenPinned
 (
 cx
 str
@@ -246,7 +246,7 @@ toString
 ;
 CHECK
 (
-JS_StringHasBeenInterned
+JS_StringHasBeenPinned
 (
 cx
 str
@@ -300,7 +300,7 @@ toString
 ;
 CHECK
 (
-JS_StringHasBeenInterned
+JS_StringHasBeenPinned
 (
 cx
 str
@@ -343,7 +343,7 @@ toString
 ;
 CHECK
 (
-JS_StringHasBeenInterned
+JS_StringHasBeenPinned
 (
 cx
 str

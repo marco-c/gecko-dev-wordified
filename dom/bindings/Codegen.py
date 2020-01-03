@@ -97371,7 +97371,7 @@ n
                 
 '
 !
-InternJSString
+AtomizeAndPinJSString
 (
 aCx
 %
@@ -119913,7 +119913,7 @@ binaryMemberName
 )
                                
 "
-InternedStringId
+PinnedStringId
 "
 visibility
 =
@@ -120285,7 +120285,7 @@ Add
 include
 statement
 for
-InternedStringId
+PinnedStringId
 .
         
 declareIncludes
@@ -121652,7 +121652,7 @@ h
 "
 )
 #
-InternJSString
+AtomizeAndPinJSString
         
 curr
 =

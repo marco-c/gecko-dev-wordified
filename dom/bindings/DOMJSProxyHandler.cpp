@@ -209,7 +209,7 @@ cx
 )
 {
 return
-InternJSString
+AtomizeAndPinJSString
 (
 cx
 s_length_id
