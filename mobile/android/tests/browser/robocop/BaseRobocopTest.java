@@ -207,15 +207,6 @@ mozilla
 .
 gecko
 .
-BrowserApp
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 Driver
 ;
 import
