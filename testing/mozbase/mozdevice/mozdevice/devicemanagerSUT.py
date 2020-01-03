@@ -228,10 +228,6 @@ WARNING
 '
 )
     
-default_timeout
-=
-300
-    
 reboot_timeout
 =
 600

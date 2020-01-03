@@ -1346,6 +1346,11 @@ window
 windows
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
         
 except

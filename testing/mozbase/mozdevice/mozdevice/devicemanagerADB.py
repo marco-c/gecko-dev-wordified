@@ -169,10 +169,6 @@ connected
 =
 False
     
-default_timeout
-=
-300
-    
 def
 __init__
 (
@@ -1361,6 +1357,11 @@ forward
 local
 remote
 ]
+timeout
+=
+self
+.
+short_timeout
 )
 =
 =
@@ -1412,6 +1413,11 @@ _checkCmd
 remount
 '
 ]
+timeout
+=
+self
+.
+short_timeout
 )
     
 def
@@ -1814,6 +1820,11 @@ mkdir
 "
 name
 ]
+timeout
+=
+self
+.
+short_timeout
 )
 .
 output
@@ -2102,7 +2113,9 @@ retryLimit
 retryLimit
 timeout
 =
-timeout
+self
+.
+short_timeout
 )
                 
 if
@@ -2305,6 +2318,11 @@ remotePath
 /
 '
 ]
+timeout
+=
+self
+.
+short_timeout
 )
 .
 output
@@ -2379,6 +2397,11 @@ a
 "
 filepath
 ]
+timeout
+=
+self
+.
+short_timeout
 )
 .
 output
@@ -2456,6 +2479,11 @@ rm
 "
 filename
 ]
+timeout
+=
+self
+.
+short_timeout
 )
     
 def
@@ -2492,6 +2520,11 @@ r
 "
 remoteDir
 ]
+timeout
+=
+self
+.
+short_timeout
 )
         
 else
@@ -2531,6 +2564,11 @@ mv
 source
 destination
 ]
+timeout
+=
+self
+.
+short_timeout
 )
     
 def
@@ -2599,6 +2637,11 @@ a
 "
 rootdir
 ]
+timeout
+=
+self
+.
+short_timeout
 )
 .
 output
@@ -2782,6 +2825,11 @@ shell
 ps
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
         
 #
@@ -3582,6 +3630,11 @@ self
 _runCmd
 (
 args
+timeout
+=
+self
+.
+short_timeout
 )
                 
 if
@@ -4328,6 +4381,11 @@ ls
 sbin
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
     
 def
@@ -4388,6 +4446,11 @@ date
 s
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
 .
 output
@@ -4499,6 +4562,11 @@ get
 serialno
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
 .
 output
@@ -4547,6 +4615,11 @@ display
 id
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
         
 if
@@ -4576,6 +4649,11 @@ shellCheckOutput
 uptime
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
             
 if
@@ -4721,6 +4799,11 @@ shellCheckOutput
 ps
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
             
 ret
@@ -4772,6 +4855,11 @@ shellCheckOutput
 date
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
         
 if
@@ -4891,6 +4979,11 @@ system
 sdcard
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
             
 ret
@@ -5757,6 +5850,11 @@ chmod
 mask
 remoteEntry
 ]
+timeout
+=
+self
+.
+short_timeout
 )
                     
 self
@@ -5788,6 +5886,11 @@ chmod
 mask
 remoteDir
 ]
+timeout
+=
+self
+.
+short_timeout
 )
             
 self
@@ -5826,6 +5929,11 @@ strip
 (
 )
 ]
+timeout
+=
+self
+.
+short_timeout
 )
             
 self
@@ -5932,6 +6040,11 @@ _checkCmd
 version
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
         
 except
@@ -6156,6 +6269,11 @@ shell
 echo
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
 =
 =
@@ -6227,6 +6345,11 @@ shell
 id
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
         
 if
@@ -6314,6 +6437,11 @@ c
 id
 "
 ]
+timeout
+=
+self
+.
+short_timeout
 )
         
 #
