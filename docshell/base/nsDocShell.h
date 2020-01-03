@@ -5807,6 +5807,9 @@ mAffectPrivateSessionLifetime
 bool
 mInvisible
 ;
+bool
+mHasLoadedNonBlankURI
+;
 uint64_t
 mHistoryID
 ;
