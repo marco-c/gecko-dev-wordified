@@ -7694,11 +7694,11 @@ the
 child
 processes
 .
-aWindow
+Services
 .
-messageManager
+ppmm
 .
-loadFrameScript
+loadProcessScript
 (
 "
 chrome
