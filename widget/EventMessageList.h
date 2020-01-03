@@ -502,7 +502,7 @@ ePointerEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POINTER_ENTER
+ePointerEnter
 ePointerEventFirst
 +
 24

@@ -4270,7 +4270,7 @@ mMessage
 )
 {
 case
-NS_POINTER_ENTER
+ePointerEnter
 :
 case
 ePointerLeave

@@ -1333,7 +1333,7 @@ ePointerEventClass
 EVENT
 (
 pointerenter
-NS_POINTER_ENTER
+ePointerEnter
 EventNameType_All
 ePointerEventClass
 )
