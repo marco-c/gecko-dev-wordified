@@ -17901,10 +17901,7 @@ errors
 /
 /
 If
-any
-of
-these
-steps
+this
 fails
 we
 bail
@@ -17914,10 +17911,6 @@ delete
 the
 declaration
 .
-if
-(
-NS_FAILED
-(
 parser
 .
 ParseProperty
@@ -17943,9 +17936,7 @@ changed
 false
 aUseSVGMode
 )
-)
-|
-|
+;
 /
 /
 check
@@ -17956,6 +17947,8 @@ without
 CSS
 parsing
 errors
+if
+(
 !
 declaration
 -

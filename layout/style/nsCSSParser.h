@@ -811,7 +811,7 @@ sheets
 in
 SVG
 .
-nsresult
+void
 ParseProperty
 (
 const
@@ -861,7 +861,7 @@ for
 a
 variable
 .
-nsresult
+void
 ParseVariable
 (
 const
