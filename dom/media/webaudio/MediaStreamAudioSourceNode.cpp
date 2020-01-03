@@ -297,10 +297,7 @@ aMediaStream
 GetStream
 (
 )
-MediaInputPort
-:
-:
-FLAG_BLOCK_INPUT
+0
 )
 ;
 mInputStream
