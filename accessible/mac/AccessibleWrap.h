@@ -624,6 +624,16 @@ mNativeInited
 ;
 }
 ;
+Class
+GetTypeFromRole
+(
+roles
+:
+:
+Role
+aRole
+)
+;
 }
 /
 /
