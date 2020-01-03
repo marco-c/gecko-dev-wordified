@@ -8012,6 +8012,8 @@ bool
 aIsGotCapture
 uint32_t
 aPointerId
+uint16_t
+aPointerType
 nsIContent
 *
 aCaptureTarget
@@ -8043,6 +8045,14 @@ static
 nsIContent
 *
 GetPointerCapturingContent
+(
+uint32_t
+aPointerId
+)
+;
+static
+uint16_t
+GetPointerType
 (
 uint32_t
 aPointerId

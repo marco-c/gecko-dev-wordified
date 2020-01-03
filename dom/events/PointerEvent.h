@@ -235,6 +235,16 @@ aPointerType
 ;
 }
 ;
+void
+ConvertPointerTypeToString
+(
+uint16_t
+aPointerTypeSrc
+nsAString
+&
+aPointerTypeDest
+)
+;
 }
 /
 /
