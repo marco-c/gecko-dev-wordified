@@ -1884,7 +1884,9 @@ port
 )
 ;
 return
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 "
 127

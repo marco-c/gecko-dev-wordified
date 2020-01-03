@@ -615,7 +615,9 @@ try
 {
 transport
 =
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 host
 port
@@ -636,7 +638,9 @@ catch
 rare
 exception
 from
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 showError
 (
 "

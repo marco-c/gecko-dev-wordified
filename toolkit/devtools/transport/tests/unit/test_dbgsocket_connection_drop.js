@@ -358,7 +358,9 @@ openListener
 let
 transport
 =
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 "
 127

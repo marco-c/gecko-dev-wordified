@@ -1654,7 +1654,9 @@ try
 {
 transport
 =
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 this
 .
@@ -1684,7 +1686,9 @@ call
 in
 /
 /
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 may
 throw
 NS_ERROR_NOT_INITIALIZED

@@ -237,7 +237,9 @@ unicodeString
 let
 transport
 =
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 "
 127
@@ -464,7 +466,9 @@ toTimeString
 let
 transport
 =
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 "
 127
