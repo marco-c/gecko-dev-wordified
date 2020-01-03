@@ -159,6 +159,10 @@ page
 /
 failure
 '
+originAttributes
+:
+'
+'
 version
 :
 1
@@ -356,6 +360,8 @@ net
 page
 /
 failure
+'
+'
 '
 )
 ;
