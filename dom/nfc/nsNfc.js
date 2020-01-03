@@ -513,10 +513,10 @@ session
 )
 ;
 }
-makeReadOnlyNDEF
+makeReadOnly
 :
 function
-makeReadOnlyNDEF
+makeReadOnly
 (
 )
 {
@@ -552,7 +552,7 @@ this
 .
 _nfcContentHelper
 .
-makeReadOnlyNDEF
+makeReadOnly
 (
 this
 .

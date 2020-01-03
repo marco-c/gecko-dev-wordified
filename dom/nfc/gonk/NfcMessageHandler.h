@@ -225,7 +225,7 @@ options
 )
 ;
 bool
-MakeReadOnlyNDEFRequest
+MakeReadOnlyRequest
 (
 android
 :
