@@ -4177,7 +4177,7 @@ size_t
 FrameBlender
 :
 :
-SizeOfDecodedWithComputedFallbackIfHeap
+SizeOfDecoded
 (
 gfxMemoryLocation
 aLocation
@@ -4220,7 +4220,7 @@ i
 ]
 -
 >
-SizeOfExcludingThisWithComputedFallbackIfHeap
+SizeOfExcludingThis
 (
 aLocation
 aMallocSizeOf
@@ -4249,7 +4249,7 @@ mAnim
 compositingFrame
 -
 >
-SizeOfExcludingThisWithComputedFallbackIfHeap
+SizeOfExcludingThis
 (
 aLocation
 aMallocSizeOf
@@ -4273,7 +4273,7 @@ mAnim
 compositingPrevFrame
 -
 >
-SizeOfExcludingThisWithComputedFallbackIfHeap
+SizeOfExcludingThis
 (
 aLocation
 aMallocSizeOf
