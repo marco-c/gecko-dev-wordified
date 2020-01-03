@@ -270,13 +270,6 @@ h
 #
 include
 "
-nsRubyTextFrame
-.
-h
-"
-#
-include
-"
 RubyUtils
 .
 h
