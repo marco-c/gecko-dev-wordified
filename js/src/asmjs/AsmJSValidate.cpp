@@ -17345,6 +17345,8 @@ pn
 ;
 AsmJSSimdType
 type
+=
+AsmJSSimdType_int32x4
 ;
 JS_ALWAYS_TRUE
 (
