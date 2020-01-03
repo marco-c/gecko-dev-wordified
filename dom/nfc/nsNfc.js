@@ -594,7 +594,15 @@ resolver
 .
 reject
 (
+new
+this
+.
+_window
+.
+Error
+(
 aErrorMsg
+)
 )
 ;
 }
