@@ -2879,11 +2879,6 @@ aOutData
 =
 nullptr
 ;
-bool
-alreadyDidTypeChange
-=
-false
-;
 /
 /
 Loop
@@ -2994,12 +2989,6 @@ hr
 hr
 )
 ;
-NS_ENSURE_FALSE
-(
-alreadyDidTypeChange
-MF_E_TRANSFORM_STREAM_CHANGE
-)
-;
 /
 /
 Loop
@@ -3011,10 +3000,6 @@ again
 .
 .
 .
-alreadyDidTypeChange
-=
-true
-;
 continue
 ;
 }
