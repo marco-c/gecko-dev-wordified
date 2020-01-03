@@ -1388,6 +1388,9 @@ SetDispAcquireFence
 Layer
 *
 aLayer
+nsIWidget
+*
+aWidget
 )
 override
 ;
