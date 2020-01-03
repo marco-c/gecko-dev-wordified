@@ -638,7 +638,7 @@ size_is
 =
 None
 :
-                  
+                
 return
 xpt
 .
@@ -663,7 +663,7 @@ size_is
 =
 None
 :
-                  
+                
 return
 xpt
 .
@@ -675,7 +675,7 @@ size_is
             
 else
 :
-                  
+                
 tag
 =
 TypeMap
@@ -684,7 +684,7 @@ type
 .
 name
 ]
-                  
+                
 isPtr
 =
 (
@@ -710,18 +710,18 @@ Tags
 .
 wchar_t_ptr
 )
-                  
+                
 return
 xpt
 .
 SimpleType
 (
 tag
-                                        
+                                      
 pointer
 =
 isPtr
-                                        
+                                      
 reference
 =
 False
