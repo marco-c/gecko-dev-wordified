@@ -132,7 +132,7 @@ cycle
 collected
 subclass
 of
-nsScriptError
+nsScriptErrorBase
 *
 that
 can
@@ -250,9 +250,6 @@ HandleObject
 aStack
 )
 :
-nsScriptError
-(
-)
 mStack
 (
 aStack
