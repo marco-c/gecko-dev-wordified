@@ -495,6 +495,9 @@ mPictureWidth
 uint32_t
 mPictureHeight
 ;
+uint32_t
+mMaxRefFrames
+;
 private
 :
 VDADecoder
