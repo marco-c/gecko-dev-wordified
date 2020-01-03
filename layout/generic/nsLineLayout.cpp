@@ -626,7 +626,7 @@ mBStartEdge
 =
 0
 ;
-mTrimmableWidth
+mTrimmableISize
 =
 0
 ;
@@ -6007,7 +6007,7 @@ outOfFlowFrame
 /
 /
 Add
-mTrimmableWidth
+mTrimmableISize
 to
 the
 available
@@ -6032,10 +6032,10 @@ reduced
 by
 /
 /
-mTrimmableWidth
+mTrimmableISize
 .
 nscoord
-availableWidth
+availableISize
 =
 psd
 -
@@ -6048,7 +6048,7 @@ psd
 >
 mICoord
 -
-mTrimmableWidth
+mTrimmableISize
 )
 ;
 if
@@ -6179,7 +6179,7 @@ be
 placed
 though
 .
-availableWidth
+availableISize
 =
 0
 ;
@@ -6189,7 +6189,7 @@ placedFloat
 AddFloat
 (
 outOfFlowFrame
-availableWidth
+availableISize
 )
 ;
 NS_ASSERTION
@@ -7116,7 +7116,7 @@ CanContinueTextRun
 Clear
 any
 residual
-mTrimmableWidth
+mTrimmableISize
 if
 this
 isn
@@ -7141,7 +7141,7 @@ PFD_SKIPWHENTRIMMINGWHITESPACE
 )
 )
 {
-mTrimmableWidth
+mTrimmableISize
 =
 0
 ;
@@ -8697,7 +8697,7 @@ IEnd
 lineWM
 )
 -
-mTrimmableWidth
+mTrimmableISize
 +
 endMargin
 >
