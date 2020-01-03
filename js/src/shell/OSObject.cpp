@@ -424,6 +424,13 @@ return
 true
 ;
 }
+#
+if
+!
+defined
+(
+XP_WIN
+)
 /
 /
 There
@@ -479,7 +486,6 @@ the
 provided
 buffer
 .
-static
 inline
 char
 *
@@ -503,7 +509,6 @@ buffer
 nullptr
 ;
 }
-static
 inline
 char
 *
@@ -521,6 +526,8 @@ return
 result
 ;
 }
+#
+endif
 static
 void
 ReportSysError
@@ -534,7 +541,6 @@ char
 prefix
 )
 {
-static
 char
 buffer
 [
