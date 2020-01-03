@@ -2514,6 +2514,9 @@ mVideoReader
 =
 nullptr
 ;
+#
+ifdef
+MOZ_FMP4
 if
 (
 mSharedDecoderManager
@@ -2531,6 +2534,8 @@ mSharedDecoderManager
 nullptr
 ;
 }
+#
+endif
 MOZ_ASSERT
 (
 mAudioPromise
