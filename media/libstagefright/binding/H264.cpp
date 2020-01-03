@@ -68,6 +68,15 @@ h
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 mp4_demuxer
 /
 AnnexB
