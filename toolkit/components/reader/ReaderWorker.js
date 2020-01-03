@@ -149,6 +149,11 @@ js
 "
 )
 ;
+const
+DEBUG
+=
+false
+;
 let
 worker
 =
@@ -240,6 +245,11 @@ function
 args
 )
 {
+if
+(
+DEBUG
+)
+{
 dump
 (
 "
@@ -261,6 +271,7 @@ n
 "
 )
 ;
+}
 }
 ;
 self
