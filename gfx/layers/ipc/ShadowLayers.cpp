@@ -2953,7 +2953,7 @@ PROFILER_LABEL
 ShadowLayerForwarder
 "
 "
-EndTranscation
+EndTransaction
 "
 js
 :
