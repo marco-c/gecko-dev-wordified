@@ -54,10 +54,14 @@ MPL
 /
 .
 from
+marionette_driver
+.
 by
 import
 By
 from
+marionette_driver
+.
 errors
 import
 NoSuchElementException
@@ -67,6 +71,8 @@ marionette_test
 import
 MarionetteTestCase
 from
+marionette_driver
+.
 wait
 import
 Wait

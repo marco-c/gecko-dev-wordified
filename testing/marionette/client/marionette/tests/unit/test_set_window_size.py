@@ -54,6 +54,8 @@ MPL
 /
 .
 from
+marionette_driver
+.
 errors
 import
 MarionetteException
