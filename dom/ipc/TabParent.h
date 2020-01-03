@@ -1265,11 +1265,7 @@ ViewID
 &
 aViewId
 const
-bool
-&
-aIsRoot
-const
-ZoomConstraints
+MaybeZoomConstraints
 &
 aConstraints
 )

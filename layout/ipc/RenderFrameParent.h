@@ -515,10 +515,11 @@ uint32_t
 aPresShellId
 ViewID
 aViewId
-bool
-aIsRoot
 const
+Maybe
+<
 ZoomConstraints
+>
 &
 aConstraints
 )
