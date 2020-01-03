@@ -692,7 +692,7 @@ left
 table
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 -
 1
@@ -752,7 +752,7 @@ right
 table
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 -
 1
@@ -761,7 +761,7 @@ GetCellSpacingX
 table
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 colCount
 )
@@ -814,7 +814,7 @@ bottom
 table
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 -
 1
@@ -823,7 +823,7 @@ GetCellSpacingY
 table
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 table
 -
@@ -9231,13 +9231,13 @@ aBorderPadding
 .
 bottom
 +
-GetCellSpacingY
+GetRowSpacing
 (
 -
 1
 )
 +
-GetCellSpacingY
+GetRowSpacing
 (
 GetRowCount
 (
@@ -9296,7 +9296,7 @@ GetColCount
 nscoord
 cellSpacingX
 =
-GetCellSpacingX
+GetColSpacing
 (
 colX
 )
@@ -9318,7 +9318,7 @@ aBorderPadding
 .
 left
 +
-GetCellSpacingX
+GetColSpacing
 (
 -
 1
@@ -9327,7 +9327,7 @@ aBorderPadding
 .
 top
 +
-GetCellSpacingY
+GetRowSpacing
 (
 -
 1
@@ -9451,7 +9451,7 @@ colRect
 ;
 cellSpacingX
 =
-GetCellSpacingX
+GetColSpacing
 (
 colX
 )
@@ -12937,7 +12937,7 @@ borderPadding
 .
 bottom
 +
-GetCellSpacingY
+GetRowSpacing
 (
 GetRowCount
 (
@@ -14595,13 +14595,13 @@ rgWidth
 =
 width
 -
-GetCellSpacingX
+GetColSpacing
 (
 -
 1
 )
 -
-GetCellSpacingX
+GetColSpacing
 (
 GetColCount
 (
@@ -14765,7 +14765,7 @@ flow
 nscoord
 width
 =
-GetCellSpacingX
+GetColSpacing
 (
 GetColCount
 (
@@ -14958,7 +14958,7 @@ colX
 width
 +
 =
-GetCellSpacingX
+GetColSpacing
 (
 colX
 -
@@ -19153,7 +19153,7 @@ aReflowState
 y
 +
 =
-GetCellSpacingY
+GetRowSpacing
 (
 GetRowCount
 (
@@ -19669,7 +19669,7 @@ childX
 nscoord
 cellSpacingY
 =
-GetCellSpacingY
+GetRowSpacing
 (
 rowGroupFrame
 -
@@ -21637,7 +21637,7 @@ colCount
 desiredHeight
 +
 =
-GetCellSpacingY
+GetRowSpacing
 (
 -
 1
@@ -21678,7 +21678,7 @@ GetSize
 .
 height
 +
-GetCellSpacingY
+GetRowSpacing
 (
 rowGroups
 [
@@ -22133,7 +22133,7 @@ ComputedHeight
 (
 )
 -
-GetCellSpacingY
+GetRowSpacing
 (
 -
 1
@@ -22149,7 +22149,7 @@ borderPadding
 .
 top
 +
-GetCellSpacingY
+GetRowSpacing
 (
 0
 )
@@ -22250,7 +22250,7 @@ GetNormalRect
 nscoord
 cellSpacingY
 =
-GetCellSpacingY
+GetRowSpacing
 (
 rowFrame
 -
@@ -23113,7 +23113,7 @@ borderPadding
 .
 top
 +
-GetCellSpacingY
+GetRowSpacing
 (
 -
 1
@@ -23235,7 +23235,7 @@ rowFrame
 nscoord
 cellSpacingY
 =
-GetCellSpacingY
+GetRowSpacing
 (
 rowFrame
 -
@@ -23914,7 +23914,7 @@ nscoord
 nsTableFrame
 :
 :
-GetCellSpacingX
+GetColSpacing
 (
 )
 {
@@ -23959,7 +23959,7 @@ nscoord
 nsTableFrame
 :
 :
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aColIndex
@@ -24026,7 +24026,7 @@ does
 matter
 .
 return
-GetCellSpacingX
+GetColSpacing
 (
 )
 ;
@@ -24035,7 +24035,7 @@ nscoord
 nsTableFrame
 :
 :
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aStartColIndex
@@ -24141,7 +24141,7 @@ override
 this
 function
 return
-GetCellSpacingX
+GetColSpacing
 (
 )
 *
@@ -24156,7 +24156,7 @@ nscoord
 nsTableFrame
 :
 :
-GetCellSpacingY
+GetRowSpacing
 (
 )
 {
@@ -24201,7 +24201,7 @@ nscoord
 nsTableFrame
 :
 :
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aRowIndex
@@ -24268,7 +24268,7 @@ does
 matter
 .
 return
-GetCellSpacingY
+GetRowSpacing
 (
 )
 ;
@@ -24277,7 +24277,7 @@ nscoord
 nsTableFrame
 :
 :
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aStartRowIndex
@@ -24383,7 +24383,7 @@ override
 this
 function
 return
-GetCellSpacingY
+GetRowSpacing
 (
 )
 *

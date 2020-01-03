@@ -5127,7 +5127,7 @@ computedHeight
 firstTableInFlow
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 rowIndex
 rowIndex

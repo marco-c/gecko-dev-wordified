@@ -2423,9 +2423,8 @@ Helper
 to
 get
 the
-cell
+column
 spacing
-X
 style
 value
 .
@@ -2509,7 +2508,7 @@ classes
 /
 virtual
 nscoord
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aColIndex
@@ -2617,7 +2616,7 @@ i
 result
 +
 =
-GetCellSpacingX
+GetColSpacing
 (
 i
 )
@@ -2632,7 +2631,7 @@ result
 /
 virtual
 nscoord
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aStartColIndex
@@ -2647,9 +2646,8 @@ Helper
 to
 get
 the
-cell
+row
 spacing
-Y
 style
 value
 .
@@ -2733,7 +2731,7 @@ classes
 /
 virtual
 nscoord
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aRowIndex
@@ -2841,7 +2839,7 @@ i
 result
 +
 =
-GetCellSpacingY
+GetRowSpacing
 (
 i
 )
@@ -2856,7 +2854,7 @@ result
 /
 virtual
 nscoord
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aStartRowIndex
@@ -2889,12 +2887,12 @@ indexing
 *
 /
 nscoord
-GetCellSpacingX
+GetColSpacing
 (
 )
 ;
 nscoord
-GetCellSpacingY
+GetRowSpacing
 (
 )
 ;
