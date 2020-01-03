@@ -3950,6 +3950,7 @@ aCallback
 .
 notifyDialCallSuccess
 (
+aClientId
 response
 .
 callIndex
@@ -3982,6 +3983,7 @@ aCallback
 .
 notifyDialCallSuccess
 (
+aClientId
 CDMA_SECOND_CALL_INDEX
 response
 .
