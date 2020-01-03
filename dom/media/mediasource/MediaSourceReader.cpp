@@ -5290,10 +5290,6 @@ mWaitingForSeekData
 false
 ;
 }
-ResetDecode
-(
-)
-;
 /
 /
 Decoding
