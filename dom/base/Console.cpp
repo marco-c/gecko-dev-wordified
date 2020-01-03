@@ -6063,7 +6063,7 @@ Value
 (
 )
 .
-SetAsUnsignedLong
+SetAsUnsignedLongLong
 (
 )
 =
@@ -6080,7 +6080,7 @@ Value
 (
 )
 .
-SetAsUnsignedLong
+SetAsUnsignedLongLong
 (
 )
 =
