@@ -259,11 +259,10 @@ true
 ;
 win
 .
-SidebarUI
-.
-show
+toggleSidebar
 (
 sidebarID
+true
 )
 ;
 return
