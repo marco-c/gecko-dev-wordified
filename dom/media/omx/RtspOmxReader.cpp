@@ -263,7 +263,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 RtspOmxReader
 :
 :
@@ -411,7 +411,6 @@ a
 v
 decoders
 .
-return
 MediaOmxReader
 :
 :

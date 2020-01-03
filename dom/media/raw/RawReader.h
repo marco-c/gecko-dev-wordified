@@ -211,7 +211,7 @@ aTags
 )
 ;
 virtual
-nsresult
+void
 Seek
 (
 int64_t
@@ -258,6 +258,13 @@ uint8_t
 aBuf
 uint32_t
 aLength
+)
+;
+nsresult
+SeekInternal
+(
+int64_t
+aTime
 )
 ;
 RawVideoHeader

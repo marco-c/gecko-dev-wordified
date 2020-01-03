@@ -2240,7 +2240,7 @@ mAudioChannels
 )
 ;
 }
-nsresult
+void
 AndroidMediaReader
 :
 :
@@ -2439,8 +2439,15 @@ mVideoSeekTimeUs
 aTarget
 ;
 }
-return
+GetCallback
+(
+)
+-
+>
+OnSeekCompleted
+(
 NS_OK
+)
 ;
 }
 AndroidMediaReader

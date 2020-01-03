@@ -260,7 +260,7 @@ mExtractor
 nullptr
 ;
 }
-nsresult
+void
 RtspMediaCodecReader
 :
 :
@@ -332,7 +332,6 @@ SeekTime
 aTime
 )
 ;
-return
 MediaCodecReader
 :
 :

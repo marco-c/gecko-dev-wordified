@@ -181,7 +181,7 @@ aTags
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Seek
 (
 int64_t

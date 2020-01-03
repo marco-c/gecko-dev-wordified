@@ -275,7 +275,7 @@ aTags
 )
 MOZ_OVERRIDE
 ;
-nsresult
+void
 Seek
 (
 int64_t
@@ -384,6 +384,13 @@ success
 bool
 InitializeDXVA
 (
+)
+;
+nsresult
+SeekInternal
+(
+int64_t
+aTime
 )
 ;
 RefPtr

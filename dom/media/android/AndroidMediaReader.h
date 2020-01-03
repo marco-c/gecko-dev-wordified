@@ -333,7 +333,7 @@ aTags
 )
 ;
 virtual
-nsresult
+void
 Seek
 (
 int64_t
