@@ -2368,6 +2368,9 @@ async
 bool
 mHitAudioDecodeError
 ;
+bool
+mShutdown
+;
 private
 :
 /
@@ -2457,9 +2460,6 @@ mAudioDiscontinuity
 ;
 bool
 mVideoDiscontinuity
-;
-bool
-mShutdown
 ;
 }
 ;

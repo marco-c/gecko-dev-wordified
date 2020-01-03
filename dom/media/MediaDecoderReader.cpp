@@ -436,6 +436,10 @@ mHitAudioDecodeError
 (
 false
 )
+mShutdown
+(
+false
+)
 mTaskQueueIsBorrowed
 (
 false
@@ -445,10 +449,6 @@ mAudioDiscontinuity
 false
 )
 mVideoDiscontinuity
-(
-false
-)
-mShutdown
 (
 false
 )

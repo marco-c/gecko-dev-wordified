@@ -3218,6 +3218,14 @@ IsCurrentThreadIn
 )
 )
 ;
+if
+(
+mShutdown
+)
+{
+return
+;
+}
 /
 /
 Record
