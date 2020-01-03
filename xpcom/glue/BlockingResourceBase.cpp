@@ -1361,6 +1361,11 @@ stupidly
 buggy
 client
 code
+if
+(
+sDeadlockDetector
+)
+{
 sDeadlockDetector
 -
 >
@@ -1369,6 +1374,7 @@ Remove
 this
 )
 ;
+}
 }
 size_t
 BlockingResourceBase
