@@ -1986,9 +1986,7 @@ this
 .
 report
 (
-ObjectUtils
-.
-deepEqual
+_deepEqual
 (
 actual
 expected
