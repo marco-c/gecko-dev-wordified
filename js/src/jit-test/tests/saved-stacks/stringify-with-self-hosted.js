@@ -70,7 +70,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 self

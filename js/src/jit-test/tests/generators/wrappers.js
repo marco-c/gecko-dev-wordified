@@ -282,7 +282,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 called
