@@ -64,7 +64,6 @@ html
 ;
 let
 gTab
-gDebuggee
 gPanel
 gDebugger
 ;
@@ -110,7 +109,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -120,10 +118,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -287,18 +281,10 @@ clickButton
 (
 )
 {
-EventUtils
-.
-sendMouseEvent
+sendMouseClickToTab
 (
-{
-type
-:
-"
-click
-"
-}
-gDebuggee
+gTab
+content
 .
 document
 .
@@ -308,7 +294,6 @@ querySelector
 button
 "
 )
-gDebuggee
 )
 ;
 }
@@ -1031,10 +1016,6 @@ function
 )
 {
 gTab
-=
-null
-;
-gDebuggee
 =
 null
 ;
