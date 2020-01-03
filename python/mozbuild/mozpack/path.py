@@ -731,13 +731,13 @@ return
 True
     
 if
-not
 pattern
+not
 in
 re_cache
 :
         
-pattern
+p
 =
 re
 .
@@ -746,7 +746,7 @@ escape
 pattern
 )
         
-pattern
+p
 =
 re
 .
@@ -788,10 +788,10 @@ r
 )
 ?
 '
-pattern
+p
 )
         
-pattern
+p
 =
 re
 .
@@ -828,12 +828,12 @@ r
 )
 ?
 '
-pattern
+p
 )
         
-pattern
+p
 =
-pattern
+p
 .
 replace
 (
@@ -871,7 +871,7 @@ re
 .
 compile
 (
-pattern
+p
 )
     
 return
