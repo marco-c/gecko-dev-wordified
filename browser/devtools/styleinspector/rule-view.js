@@ -3832,9 +3832,6 @@ return
 sourceStrings
 ;
 }
-console
-.
-error
 )
 ;
 }
