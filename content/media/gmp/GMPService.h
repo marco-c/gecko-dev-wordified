@@ -275,6 +275,10 @@ nsCString
 >
 &
 aTags
+bool
+aCloneCrossOrigin
+=
+true
 )
 ;
 void
