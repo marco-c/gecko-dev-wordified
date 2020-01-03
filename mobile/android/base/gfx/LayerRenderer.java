@@ -2172,8 +2172,6 @@ createScreenContext
 (
 ImmutableViewportMetrics
 metrics
-PointF
-offset
 )
 {
 RectF
@@ -2217,7 +2215,6 @@ pageRect
 1
 .
 0f
-offset
 )
 ;
 }
@@ -2227,8 +2224,6 @@ createPageContext
 (
 ImmutableViewportMetrics
 metrics
-PointF
-offset
 )
 {
 RectF
@@ -2271,7 +2266,6 @@ viewport
 )
 pageRect
 zoomFactor
-offset
 )
 ;
 }
@@ -2285,8 +2279,6 @@ RectF
 pageRect
 float
 zoomFactor
-PointF
-offset
 )
 {
 if
@@ -2374,7 +2366,6 @@ RenderContext
 viewport
 pageRect
 zoomFactor
-offset
 mPositionHandle
 mTextureHandle
 mCoordBuffer
@@ -2864,11 +2855,6 @@ final
 Rect
 mAbsolutePageRect
 ;
-private
-final
-PointF
-mRenderOffset
-;
 public
 Frame
 (
@@ -2902,20 +2888,11 @@ getRoot
 (
 )
 ;
-mRenderOffset
-=
-mFrameMetrics
-.
-getMarginOffset
-(
-)
-;
 mPageContext
 =
 createPageContext
 (
 metrics
-mRenderOffset
 )
 ;
 mScreenContext
@@ -2923,7 +2900,6 @@ mScreenContext
 createScreenContext
 (
 metrics
-mRenderOffset
 )
 ;
 RectF
@@ -3865,12 +3841,6 @@ context
 viewport
 .
 left
--
-context
-.
-offset
-.
-x
 ;
 final
 float
@@ -3881,12 +3851,6 @@ context
 viewport
 .
 top
--
-context
-.
-offset
-.
-y
 ;
 boolean
 shouldWaitToRender

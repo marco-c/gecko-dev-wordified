@@ -563,9 +563,6 @@ context
 viewport
 context
 .
-offset
-context
-.
 zoomFactor
 )
 ;
@@ -738,8 +735,6 @@ reposition
 (
 RectF
 viewport
-PointF
-offset
 float
 zoomFactor
 )
@@ -753,18 +748,6 @@ scale
 (
 mRect
 zoomFactor
-)
-;
-scaled
-.
-offset
-(
-offset
-.
-x
-offset
-.
-y
 )
 ;
 this

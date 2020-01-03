@@ -6978,7 +6978,7 @@ viewportMetrics
 =
 viewportMetrics
 .
-clampWithMargins
+clamp
 (
 )
 ;
@@ -7063,7 +7063,7 @@ getMetrics
 (
 )
 .
-getPageWidthWithMargins
+getPageWidth
 (
 )
 ;
@@ -7227,7 +7227,7 @@ getMetrics
 (
 )
 .
-getPageHeightWithMargins
+getPageHeight
 (
 )
 ;
