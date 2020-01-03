@@ -2465,6 +2465,9 @@ the
 main
 thread
 .
+bool
+mIsInitialized
+;
 nsTArray
 <
 nsCOMPtr
