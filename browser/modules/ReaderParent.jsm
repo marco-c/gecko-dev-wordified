@@ -203,11 +203,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /
-readerMode
+aboutReader
 .
 properties
 "
@@ -762,7 +762,7 @@ GetStringFromName
 "
 readerView
 .
-exit
+close
 "
 )
 )
