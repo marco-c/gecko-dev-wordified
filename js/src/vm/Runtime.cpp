@@ -757,6 +757,10 @@ defaultVersion_
 (
 JSVERSION_DEFAULT
 )
+futexAPI_
+(
+nullptr
+)
 ownerThread_
 (
 nullptr
@@ -1648,6 +1652,13 @@ isHeapBusy
 (
 )
 )
+;
+delete
+futexAPI_
+;
+futexAPI_
+=
+nullptr
 ;
 if
 (

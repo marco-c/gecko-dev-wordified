@@ -392,6 +392,16 @@ nightly
 :
 true
 }
+{
+name
+:
+"
+Atomics
+"
+nightly
+:
+true
+}
 "
 StopIteration
 "
