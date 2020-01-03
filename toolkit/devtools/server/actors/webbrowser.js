@@ -2253,7 +2253,9 @@ function
 aWindow
 )
 {
-return
+let
+children
+=
 aWindow
 .
 gBrowser
@@ -2263,6 +2265,14 @@ aWindow
 gBrowser
 .
 browsers
+:
+[
+]
+;
+return
+children
+?
+children
 :
 [
 ]
