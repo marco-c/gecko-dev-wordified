@@ -448,7 +448,7 @@ nsString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 )
 ;

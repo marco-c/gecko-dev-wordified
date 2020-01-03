@@ -975,7 +975,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 )
 {
@@ -1198,7 +1198,7 @@ const
 nsAString
 &
 aContentType
-uint64_t
+int64_t
 aLastModifiedDate
 )
 {
@@ -2193,7 +2193,7 @@ File
 :
 GetMozLastModifiedDate
 (
-uint64_t
+int64_t
 *
 aDate
 )

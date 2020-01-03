@@ -2354,7 +2354,7 @@ IsDateUnknown
 )
 )
 {
-uint64_t
+int64_t
 date
 ;
 if

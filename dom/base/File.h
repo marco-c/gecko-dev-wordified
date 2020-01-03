@@ -380,7 +380,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 )
 ;
@@ -500,7 +500,7 @@ const
 nsAString
 &
 aContentType
-uint64_t
+int64_t
 aLastModifiedDate
 )
 ;
@@ -1462,7 +1462,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 )
 =
@@ -1564,7 +1564,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 )
 :
@@ -1654,7 +1654,7 @@ aLength
 )
 mLastModificationDate
 (
-UINT64_MAX
+INT64_MAX
 )
 {
 /
@@ -1706,7 +1706,7 @@ aLength
 )
 mLastModificationDate
 (
-UINT64_MAX
+INT64_MAX
 )
 {
 /
@@ -1760,7 +1760,7 @@ aLength
 )
 mLastModificationDate
 (
-UINT64_MAX
+INT64_MAX
 )
 {
 NS_ASSERTION
@@ -2036,7 +2036,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 )
 override
@@ -2104,7 +2104,7 @@ mIsFile
 mLastModificationDate
 =
 =
-UINT64_MAX
+INT64_MAX
 ;
 }
 virtual
@@ -2282,7 +2282,7 @@ mStart
 uint64_t
 mLength
 ;
-uint64_t
+int64_t
 mLastModificationDate
 ;
 /
@@ -2368,7 +2368,7 @@ const
 nsAString
 &
 aContentType
-uint64_t
+int64_t
 aLastModifiedDate
 )
 :
@@ -2978,7 +2978,7 @@ EmptyString
 (
 )
 UINT64_MAX
-UINT64_MAX
+INT64_MAX
 )
 mFile
 (
@@ -3054,7 +3054,7 @@ EmptyString
 (
 )
 UINT64_MAX
-UINT64_MAX
+INT64_MAX
 )
 mFile
 (
@@ -3199,7 +3199,7 @@ aLength
 nsIFile
 *
 aFile
-uint64_t
+int64_t
 aLastModificationDate
 )
 :
@@ -3267,7 +3267,7 @@ FileImplBase
 aName
 aContentType
 UINT64_MAX
-UINT64_MAX
+INT64_MAX
 )
 mFile
 (
@@ -3484,7 +3484,7 @@ EmptyString
 (
 )
 UINT64_MAX
-UINT64_MAX
+INT64_MAX
 )
 mWholeFile
 (
