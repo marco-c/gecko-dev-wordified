@@ -284,7 +284,6 @@ READ_ONLY
 =
 0
 READ_WRITE
-READ_WRITE_FLUSH
 VERSION_CHANGE
 /
 /
@@ -634,12 +633,6 @@ mMode
 =
 =
 READ_WRITE
-|
-|
-mMode
-=
-=
-READ_WRITE_FLUSH
 |
 |
 mMode

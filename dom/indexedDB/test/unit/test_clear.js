@@ -356,7 +356,7 @@ transaction
 foo
 "
 "
-readwriteflush
+readwrite
 "
 )
 .
