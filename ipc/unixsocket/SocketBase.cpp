@@ -1211,15 +1211,15 @@ SocketIOBase
 :
 EnqueueData
 (
-UnixSocketRawData
+UnixSocketIOBuffer
 *
-aData
+aBuffer
 )
 {
 if
 (
 !
-aData
+aBuffer
 -
 >
 GetSize
@@ -1228,7 +1228,7 @@ GetSize
 )
 {
 delete
-aData
+aBuffer
 ;
 /
 /
@@ -1243,7 +1243,7 @@ mOutgoingQ
 .
 AppendElement
 (
-aData
+aBuffer
 )
 ;
 }

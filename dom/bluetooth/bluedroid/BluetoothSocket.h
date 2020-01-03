@@ -206,8 +206,9 @@ void
 CloseSocket
 (
 )
+override
 ;
-bool
+void
 SendSocketData
 (
 mozilla
@@ -216,10 +217,11 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketIOBuffer
 *
-aData
+aBuffer
 )
+override
 ;
 virtual
 void
@@ -254,10 +256,10 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
-aMessage
+aBuffer
 )
 override
 ;
