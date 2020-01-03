@@ -6041,6 +6041,16 @@ level
 )
 ;
 short
+vcmGetVideoLevel
+(
+uint16_t
+codec
+int32_t
+*
+level
+)
+;
+short
 vcmGetVideoMaxFs
 (
 uint16_t
