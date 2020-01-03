@@ -3105,7 +3105,7 @@ context
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 template
 <
@@ -3865,7 +3865,7 @@ XP_MACOSX
 endif
 /
 /
-JS_CPU_X64
+JS_CODEGEN_X64
 #
 if
 defined
@@ -4042,7 +4042,7 @@ false
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 /
 /
@@ -4480,7 +4480,7 @@ endif
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 static
 bool
@@ -6940,7 +6940,7 @@ false
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 /
 /
