@@ -486,7 +486,12 @@ events
 /
 destroy
 :
+Task
+.
+async
+(
 function
+*
 (
 )
 {
@@ -497,6 +502,7 @@ this
 markersOverview
 )
 {
+yield
 this
 .
 markersOverview
@@ -513,6 +519,7 @@ this
 memoryOverview
 )
 {
+yield
 this
 .
 memoryOverview
@@ -529,6 +536,7 @@ this
 framerateGraph
 )
 {
+yield
 this
 .
 framerateGraph
@@ -611,6 +619,7 @@ _onRecordingSelected
 )
 ;
 }
+)
 /
 *
 *
