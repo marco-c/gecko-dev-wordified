@@ -93,8 +93,6 @@ test
 (
 )
 {
-return
-;
 waitForExplicitFinish
 (
 )
