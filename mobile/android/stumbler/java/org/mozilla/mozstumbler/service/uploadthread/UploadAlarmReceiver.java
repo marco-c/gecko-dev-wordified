@@ -622,6 +622,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 getWifiScanAlways
@@ -631,6 +632,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 getUseWifiOnly
@@ -656,6 +658,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 getNickname
