@@ -3748,7 +3748,7 @@ GeneratorKindAsBits
 generatorKind
 )
 )
-inWith
+inWith_
 (
 false
 )
@@ -3857,7 +3857,7 @@ if
 outerpc
 )
 {
-inWith
+inWith_
 =
 false
 ;
@@ -3936,7 +3936,7 @@ parsingWith
 is
 true
 .
-inWith
+inWith_
 =
 true
 ;
@@ -4066,8 +4066,10 @@ parent
 -
 >
 inWith
+(
 )
-inWith
+)
+inWith_
 =
 true
 ;
@@ -4142,17 +4144,12 @@ presence
 of
 with
 .
-inWith
+inWith_
 =
 outerpc
 -
 >
 sc
--
->
-asGlobalSharedContext
-(
-)
 -
 >
 inWith
@@ -14835,6 +14832,8 @@ funbox
 -
 >
 inWith
+(
+)
 )
 return
 abortIfSyntaxParser
