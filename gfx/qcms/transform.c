@@ -11010,7 +11010,7 @@ type
 "
 )
 ;
-transform_free
+qcms_transform_release
 (
 transform
 )
@@ -11189,7 +11189,7 @@ failed
 "
 )
 ;
-transform_free
+qcms_transform_release
 (
 transform
 )
@@ -11410,7 +11410,7 @@ type
 "
 )
 ;
-transform_free
+qcms_transform_release
 (
 transform
 )
@@ -12101,7 +12101,7 @@ type
 "
 )
 ;
-transform_free
+qcms_transform_release
 (
 transform
 )
@@ -12216,7 +12216,7 @@ colorspace
 "
 )
 ;
-transform_free
+qcms_transform_release
 (
 transform
 )
