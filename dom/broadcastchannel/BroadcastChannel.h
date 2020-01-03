@@ -420,7 +420,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-nsAString
+nsACString
 &
 aOrigin
 const
@@ -512,7 +512,7 @@ PrincipalInfo
 >
 mPrincipalInfo
 ;
-nsString
+nsCString
 mOrigin
 ;
 nsString

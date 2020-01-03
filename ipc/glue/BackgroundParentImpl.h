@@ -290,7 +290,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-nsString
+nsCString
 &
 aOrigin
 const
@@ -316,7 +316,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-nsString
+nsCString
 &
 origin
 const

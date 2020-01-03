@@ -404,7 +404,7 @@ ClonedMessageData
 &
 aData
 const
-nsAString
+nsACString
 &
 aOrigin
 uint64_t
@@ -606,7 +606,7 @@ BlobImpl
 mBlobs
 ;
 const
-nsString
+nsCString
 mOrigin
 ;
 const
@@ -737,7 +737,7 @@ ClonedMessageData
 &
 aData
 const
-nsAString
+nsACString
 &
 aOrigin
 uint64_t
