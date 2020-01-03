@@ -55411,6 +55411,17 @@ obj
 >
 is
 <
+JSFunction
+>
+(
+)
+|
+|
+obj
+-
+>
+is
+<
 PlainObject
 >
 (
@@ -55435,7 +55446,7 @@ obj
 .
 as
 <
-PlainObject
+NativeObject
 >
 (
 )
