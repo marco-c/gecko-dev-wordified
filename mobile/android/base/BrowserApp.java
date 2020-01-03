@@ -5223,7 +5223,7 @@ R
 .
 id
 .
-new_tablet_tab_strip
+tablet_tab_strip
 )
 )
 .
