@@ -41322,8 +41322,6 @@ fn
 fun
 Normal
 Statement
-&
-newDirectives
 )
 )
 return

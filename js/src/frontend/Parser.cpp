@@ -13812,7 +13812,6 @@ NodeGeneric
 fun
 type
 kind
-newDirectives
 )
 )
 {
@@ -14034,7 +14033,6 @@ pn
 fun
 type
 kind
-newDirectives
 )
 )
 return
@@ -14282,7 +14280,6 @@ pn
 fun
 type
 kind
-newDirectives
 )
 )
 return
@@ -14616,8 +14613,6 @@ pn
 fun
 Normal
 Statement
-&
-newDirectives
 )
 )
 {
@@ -14784,9 +14779,6 @@ FunctionType
 type
 FunctionSyntaxKind
 kind
-Directives
-*
-newDirectives
 )
 {
 /

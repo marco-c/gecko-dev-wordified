@@ -3351,9 +3351,6 @@ FunctionType
 type
 FunctionSyntaxKind
 kind
-Directives
-*
-newDirectives
 )
 ;
 /
