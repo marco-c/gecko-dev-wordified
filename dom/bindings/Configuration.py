@@ -2051,6 +2051,40 @@ isExposedInSystemGlobals
 )
 )
             
+elif
+key
+=
+=
+'
+isExposedInWindow
+'
+:
+                
+getter
+=
+lambda
+x
+:
+(
+not
+x
+.
+interface
+.
+isExternal
+(
+)
+and
+                                    
+x
+.
+interface
+.
+isExposedInWindow
+(
+)
+)
+            
 else
 :
                 
@@ -5929,11 +5963,13 @@ self
 return
 (
 (
-not
 self
 .
-workers
+isExposedConditionally
+(
+)
 and
+                 
 not
 self
 .
@@ -5945,23 +5981,12 @@ isExposedInWindow
 )
 or
                 
-(
 self
 .
 interface
 .
-isExposedInAnyWorker
+isExposedInSomeButNotAllWorkers
 (
-)
-and
-                 
-self
-.
-interface
-.
-isExposedOnlyInSomeWorkers
-(
-)
 )
 )
     
@@ -5973,6 +5998,7 @@ self
 :
         
 return
+(
 self
 .
 interface
@@ -5981,10 +6007,14 @@ isExposedConditionally
 (
 )
 or
+                
 self
 .
-hasThreadChecks
+interface
+.
+isExposedInSomeButNotAllWorkers
 (
+)
 )
     
 def
