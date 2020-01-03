@@ -18392,6 +18392,7 @@ mNeedsMemoryReport
 =
 true
 ;
+{
 /
 /
 Wake
@@ -18400,6 +18401,12 @@ the
 MSG
 thread
 .
+MonitorAutoLock
+monitorLock
+(
+mMonitor
+)
+;
 CurrentDriver
 (
 )
@@ -18409,6 +18416,7 @@ WakeUp
 (
 )
 ;
+}
 if
 (
 mLifecycleState
