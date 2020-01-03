@@ -73,14 +73,15 @@ StringHelper
 ROBOCOP_BIG_MAILTO_URL
 )
 ;
-inputAndLoadUrl
+loadAndPaint
 (
 MAILTO_PAGE_URL
 )
 ;
-waitForText
+verifyPageTitle
 (
 MAILTO_PAGE_TITLE
+MAILTO_PAGE_URL
 )
 ;
 verifyContextMenuItems
