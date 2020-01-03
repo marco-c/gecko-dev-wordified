@@ -398,6 +398,15 @@ aOrigin
 final
 ;
 NS_IMETHOD
+GetOriginNoSuffix
+(
+nsACString
+&
+aOrigin
+)
+final
+;
+NS_IMETHOD
 Equals
 (
 nsIPrincipal

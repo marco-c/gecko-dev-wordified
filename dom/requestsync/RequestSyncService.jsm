@@ -1263,7 +1263,7 @@ isInBrowserElement
 +
 aPrincipal
 .
-origin
+originNoSuffix
 ;
 }
 /
@@ -2274,7 +2274,7 @@ isInBrowserElement
 +
 aPrincipal
 .
-origin
+originNoSuffix
 ;
 let
 data
@@ -2976,7 +2976,7 @@ aObj
 .
 principal
 .
-origin
+originNoSuffix
 !
 =
 aData
@@ -3245,7 +3245,7 @@ aObj
 .
 principal
 .
-origin
+originNoSuffix
 !
 =
 aData
@@ -3506,7 +3506,7 @@ aObj
 .
 principal
 .
-origin
+originNoSuffix
 isInBrowserElement
 :
 aObj

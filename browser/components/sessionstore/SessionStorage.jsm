@@ -595,7 +595,7 @@ jarPrefix
 +
 principal
 .
-origin
+originNoSuffix
 ;
 if
 (
