@@ -2404,13 +2404,11 @@ https
 :
 /
 /
-gerrit
-.
 chromium
 .
-org
-/
-gerrit
+googlesource
+.
+com
 /
 webm
 /
