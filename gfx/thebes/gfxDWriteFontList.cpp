@@ -7695,11 +7695,9 @@ aSizes
 mFontListSize
 +
 =
-mFontSubstitutes
-.
-SizeOfExcludingThis
+SizeOfFontFamilyTableExcludingThis
 (
-SizeOfFamilyNameEntryExcludingThis
+mFontSubstitutes
 aMallocSizeOf
 )
 ;

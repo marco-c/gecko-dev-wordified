@@ -1686,6 +1686,7 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
+const
 ;
 #
 ifdef
