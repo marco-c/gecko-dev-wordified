@@ -4704,7 +4704,7 @@ SEEK_NOT_SEEKING
 {
 FireTimeEventAsync
 (
-NS_SMIL_BEGIN
+eSMILBeginEvent
 0
 )
 ;
@@ -9619,7 +9619,7 @@ STATE_ACTIVE
 {
 FireTimeEventAsync
 (
-NS_SMIL_BEGIN
+eSMILBeginEvent
 0
 )
 ;
