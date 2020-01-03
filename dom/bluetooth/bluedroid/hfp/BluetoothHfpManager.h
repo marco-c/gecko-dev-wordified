@@ -832,13 +832,13 @@ BluetoothHandsfreeAtResponse
 aResponseCode
 )
 ;
-int
+BluetoothHandsfreeConnectionState
 mConnectionState
 ;
-int
+BluetoothHandsfreeConnectionState
 mPrevConnectionState
 ;
-int
+BluetoothHandsfreeAudioState
 mAudioState
 ;
 /
