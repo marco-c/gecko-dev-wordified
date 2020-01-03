@@ -732,8 +732,6 @@ ProfileBuffer
 (
 int
 aEntrySize
-uint32_t
-aGeneration
 )
 :
 mEntries
@@ -762,7 +760,7 @@ aEntrySize
 )
 mGeneration
 (
-aGeneration
+0
 )
 {
 }
