@@ -257,6 +257,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -286,6 +287,7 @@ AccEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 AtkObject
 *

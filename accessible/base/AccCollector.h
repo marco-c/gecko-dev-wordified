@@ -367,6 +367,7 @@ Accessible
 *
 aAccessible
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -409,6 +410,7 @@ Accessible
 *
 aAccessible
 )
+MOZ_OVERRIDE
 ;
 friend
 class

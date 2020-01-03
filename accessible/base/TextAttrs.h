@@ -752,6 +752,7 @@ aAttributes
 bool
 aIncludeDefAttrValue
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -817,6 +818,7 @@ Accessible
 *
 aAccessible
 )
+MOZ_OVERRIDE
 {
 T
 nativeValue
@@ -1077,6 +1079,7 @@ nsString
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1090,6 +1093,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -1213,6 +1217,7 @@ uint32_t
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1226,6 +1231,7 @@ uint32_t
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -1311,6 +1317,7 @@ nscolor
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1324,6 +1331,7 @@ nscolor
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -1407,6 +1415,7 @@ nscolor
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1420,6 +1429,7 @@ nscolor
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -1488,6 +1498,7 @@ nsString
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1501,6 +1512,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -1582,6 +1594,7 @@ nscoord
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1595,6 +1608,7 @@ nscoord
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -1669,6 +1683,7 @@ nscoord
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1682,6 +1697,7 @@ nscoord
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -1750,6 +1766,7 @@ int32_t
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1763,6 +1780,7 @@ int32_t
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -1841,6 +1859,7 @@ bool
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1854,6 +1873,7 @@ bool
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -2103,6 +2123,7 @@ TextDecorValue
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2116,6 +2137,7 @@ TextDecorValue
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -2195,6 +2217,7 @@ TextPosValue
 *
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2208,6 +2231,7 @@ TextPosValue
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 private
 :

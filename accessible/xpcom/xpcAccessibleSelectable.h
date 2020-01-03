@@ -175,6 +175,7 @@ nsIArray
 aSelectedItems
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedItemCount
@@ -184,6 +185,7 @@ uint32_t
 aSelectedItemCount
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedItemAt
@@ -196,6 +198,7 @@ nsIAccessible
 aItem
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsItemSelected
@@ -207,6 +210,7 @@ bool
 aIsSelected
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddItemToSelection
@@ -215,6 +219,7 @@ uint32_t
 aIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveItemFromSelection
@@ -223,6 +228,7 @@ uint32_t
 aIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectAll
@@ -232,12 +238,14 @@ bool
 aIsMultiSelect
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UnselectAll
 (
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 protected
 :

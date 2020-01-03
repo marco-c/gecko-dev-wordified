@@ -1323,6 +1323,7 @@ aError
 nullptr
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;

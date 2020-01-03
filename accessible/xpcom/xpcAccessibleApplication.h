@@ -192,6 +192,7 @@ nsAString
 aName
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAppVersion
@@ -201,6 +202,7 @@ nsAString
 aVersion
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPlatformName
@@ -210,6 +212,7 @@ nsAString
 aName
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPlatformVersion
@@ -219,6 +222,7 @@ nsAString
 aVersion
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 protected
 :

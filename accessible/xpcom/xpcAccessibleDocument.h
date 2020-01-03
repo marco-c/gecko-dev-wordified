@@ -215,6 +215,7 @@ nsAString
 aURL
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetTitle
@@ -224,6 +225,7 @@ nsAString
 aTitle
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetMimeType
@@ -233,6 +235,7 @@ nsAString
 aType
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDocType
@@ -242,6 +245,7 @@ nsAString
 aType
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDOMDocument
@@ -252,6 +256,7 @@ nsIDOMDocument
 aDOMDocument
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetWindow
@@ -262,6 +267,7 @@ nsIDOMWindow
 aDOMWindow
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetParentDocument
@@ -272,6 +278,7 @@ nsIAccessibleDocument
 aDocument
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetChildDocumentCount
@@ -281,6 +288,7 @@ uint32_t
 aCount
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetChildDocumentAt
@@ -293,6 +301,7 @@ nsIAccessibleDocument
 aDocument
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetVirtualCursor
@@ -303,6 +312,7 @@ nsIAccessiblePivot
 aVirtualCursor
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 /
 *

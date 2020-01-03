@@ -854,6 +854,7 @@ int32_t
 *
 aSetSize
 )
+MOZ_OVERRIDE
 ;
 /
 /
