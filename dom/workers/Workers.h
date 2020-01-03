@@ -938,6 +938,14 @@ dom
 push
 .
 enabled
+WORKERPREF_REQUESTCONTEXT
+/
+/
+dom
+.
+requestcontext
+.
+enabled
 WORKERPREF_COUNT
 }
 ;

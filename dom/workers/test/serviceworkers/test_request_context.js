@@ -588,6 +588,16 @@ true
 "
 dom
 .
+requestcontext
+.
+enabled
+"
+true
+]
+[
+"
+dom
+.
 serviceWorkers
 .
 exemptFromPerDomainMax
