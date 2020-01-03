@@ -4610,6 +4610,13 @@ FXA
 request
 fails
 .
+if
+(
+MozLoopService
+.
+userProfile
+)
+{
 this
 .
 _getCalls
@@ -4630,6 +4637,7 @@ catch
 }
 )
 ;
+}
 this
 .
 _getCalls
