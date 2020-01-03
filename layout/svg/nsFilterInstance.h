@@ -749,6 +749,10 @@ filtered
 element
 under
 consideration
+*
+may
+be
+null
 .
 *
 param
@@ -933,6 +937,16 @@ the
 target
 *
 element
+.
+Must
+be
+non
+-
+null
+if
+aTargetFrame
+is
+null
 .
 *
 /
