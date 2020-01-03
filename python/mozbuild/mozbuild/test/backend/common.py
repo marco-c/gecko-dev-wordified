@@ -185,6 +185,16 @@ defines
 '
 :
 [
+            
+(
+'
+MOZ_ANDROID_MIN_SDK_VERSION
+'
+'
+9
+'
+)
+        
 ]
         
 '
