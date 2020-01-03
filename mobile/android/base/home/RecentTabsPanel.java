@@ -2659,6 +2659,13 @@ view
 ;
 pageRow
 .
+setShowIcons
+(
+false
+)
+;
+pageRow
+.
 updateFromCursor
 (
 c
