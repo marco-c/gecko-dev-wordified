@@ -288,6 +288,13 @@ h
 #
 include
 "
+nsCycleCollector
+.
+h
+"
+#
+include
+"
 nsScriptLoader
 .
 h

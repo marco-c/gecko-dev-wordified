@@ -678,6 +678,13 @@ h
 #
 include
 "
+nsCycleCollector
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
