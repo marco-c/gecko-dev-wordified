@@ -1577,6 +1577,9 @@ if
 web
 "
 "
+trusted
+"
+"
 privileged
 "
 "
