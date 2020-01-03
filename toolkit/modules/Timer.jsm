@@ -69,8 +69,6 @@ JS
 module
 implementation
 of
-nsIDOMJSWindow
-.
 setTimeout
 and
 clearTimeout

@@ -9857,9 +9857,6 @@ if
 win
 )
 {
-bool
-unused
-;
 nsCOMPtr
 <
 nsIDOMWindow
@@ -9872,7 +9869,6 @@ win
 IndexedGetter
 (
 index
-unused
 )
 ;
 if
@@ -10829,9 +10825,6 @@ if
 win
 )
 {
-bool
-unused
-;
 nsCOMPtr
 <
 nsIDOMWindow
@@ -10844,7 +10837,6 @@ win
 IndexedGetter
 (
 index
-unused
 )
 ;
 if

@@ -405,15 +405,8 @@ IndexedGetter
 (
 uint32_t
 aIndex
-bool
-&
-aFound
 )
 {
-aFound
-=
-false
-;
 nsCOMPtr
 <
 nsIDocShellTreeItem
@@ -453,10 +446,6 @@ MOZ_ASSERT
 window
 )
 ;
-aFound
-=
-true
-;
 return
 window
 .
@@ -479,9 +468,6 @@ nsIDOMWindow
 aReturn
 )
 {
-bool
-found
-;
 nsCOMPtr
 <
 nsIDOMWindow
@@ -491,7 +477,6 @@ window
 IndexedGetter
 (
 aIndex
-found
 )
 ;
 window
