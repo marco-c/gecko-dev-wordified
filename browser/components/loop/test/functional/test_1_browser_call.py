@@ -1052,6 +1052,8 @@ hangup
         
 #
 XXX
+bug
+1080095
 For
 whatever
 reason
@@ -1062,10 +1064,10 @@ doesn
 t
 take
 effect
-unless
-we
         
 #
+unless
+we
 wait
 for
 a
@@ -1079,10 +1081,10 @@ for
 the
 element
 to
-actually
-be
         
 #
+actually
+be
 displayed
 first
 which
@@ -1092,14 +1094,14 @@ re
 not
 currently
 bothering
+        
+#
 with
 )
 .
 It
 '
 s
-        
-#
 not
 entirely
 clear
@@ -1108,12 +1110,12 @@ the
 click
 is
 being
+        
+#
 delivered
 in
 this
 case
-        
-#
 or
 whether
 there
@@ -1127,7 +1129,7 @@ here
         
 sleep
 (
-2
+5
 )
         
 button
