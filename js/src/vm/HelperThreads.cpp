@@ -6442,7 +6442,7 @@ requestInterrupt
 JSRuntime
 :
 :
-RequestInterruptCanWait
+RequestInterruptAnyThreadDontStopIon
 )
 ;
 /
