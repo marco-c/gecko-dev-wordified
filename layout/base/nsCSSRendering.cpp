@@ -9119,10 +9119,10 @@ renderContext
 >
 SetFillRule
 (
-gfxContext
+FillRule
 :
 :
-FILL_RULE_EVEN_ODD
+FILL_EVEN_ODD
 )
 ;
 renderContext
@@ -10615,10 +10615,10 @@ shadowContext
 >
 SetFillRule
 (
-gfxContext
+FillRule
 :
 :
-FILL_RULE_EVEN_ODD
+FILL_EVEN_ODD
 )
 ;
 shadowContext
