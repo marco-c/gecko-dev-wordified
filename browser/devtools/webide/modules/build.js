@@ -374,11 +374,14 @@ logger
 if
 (
 !
+(
+yield
 this
 .
 hasPrepackage
 (
 project
+)
 )
 )
 {
