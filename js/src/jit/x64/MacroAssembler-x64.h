@@ -1209,6 +1209,17 @@ interface
 /
 /
 /
+Address
+ToPayload
+(
+Address
+value
+)
+{
+return
+value
+;
+}
 void
 storeValue
 (

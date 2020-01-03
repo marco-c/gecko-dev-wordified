@@ -2063,6 +2063,14 @@ ins
 )
 ;
 void
+visitSimdUnbox
+(
+MSimdUnbox
+*
+ins
+)
+;
+void
 visitSimdExtractElement
 (
 MSimdExtractElement

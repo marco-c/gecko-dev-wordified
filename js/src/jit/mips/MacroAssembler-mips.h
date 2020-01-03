@@ -333,7 +333,7 @@ MacroAssemblerMIPS
 public
 Assembler
 {
-protected
+public
 :
 /
 /
@@ -370,6 +370,8 @@ toAddress
 )
 ;
 }
+protected
+:
 Operand
 ToType
 (

@@ -311,6 +311,8 @@ address
 Register
 secondScratchReg_
 ;
+public
+:
 /
 /
 Higher
@@ -369,6 +371,8 @@ toAddress
 )
 ;
 }
+protected
+:
 Operand
 ToType
 (
