@@ -343,10 +343,10 @@ video
 "
 mConfig
 .
-display_width
+image_width
 mConfig
 .
-display_height
+image_height
 )
 ;
 }
@@ -1588,10 +1588,10 @@ kCFAllocatorDefault
 kCMVideoCodecType_H264
 mConfig
 .
-display_width
+image_width
 mConfig
 .
-display_height
+image_height
 extensions
 &
 mFormat

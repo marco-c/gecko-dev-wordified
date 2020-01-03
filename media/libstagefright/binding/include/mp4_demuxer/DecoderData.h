@@ -505,6 +505,12 @@ display_width
 int32_t
 display_height
 ;
+int32_t
+image_width
+;
+int32_t
+image_height
+;
 mozilla
 :
 :
