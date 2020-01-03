@@ -38954,8 +38954,6 @@ if
 GetScopeName
 (
 cx
-script
-pc
 scopeChain
 name
 res
