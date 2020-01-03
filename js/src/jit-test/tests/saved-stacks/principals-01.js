@@ -449,7 +449,7 @@ e
 check
 (
 "
-ecba
+edcba
 "
 extract
 (
@@ -467,6 +467,13 @@ f
 '
 )
 ;
+/
+/
+no
+principal
+so
+checks
+skipped
 low
 .
 eval

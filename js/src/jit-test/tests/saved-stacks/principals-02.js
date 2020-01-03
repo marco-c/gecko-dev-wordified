@@ -422,7 +422,7 @@ e
 check
 (
 "
-ecba
+edcba
 "
 saveStack
 (
@@ -441,6 +441,13 @@ f
 '
 )
 ;
+/
+/
+no
+principal
+so
+checks
+skipped
 low
 .
 eval

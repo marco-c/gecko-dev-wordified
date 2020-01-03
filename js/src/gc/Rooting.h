@@ -142,9 +142,6 @@ class
 ArrayObject
 ;
 class
-GlobalObject
-;
-class
 PlainObject
 ;
 class
@@ -246,17 +243,6 @@ ArrayObject
 *
 >
 HandleArrayObject
-;
-typedef
-JS
-:
-:
-Rooted
-<
-GlobalObject
-*
->
-RootedGlobalObject
 ;
 typedef
 JS

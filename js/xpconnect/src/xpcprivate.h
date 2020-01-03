@@ -3790,7 +3790,7 @@ at
 the
 top
 of
-XPCJSRuntime
+xpcjsruntime
 .
 cpp
 enum
