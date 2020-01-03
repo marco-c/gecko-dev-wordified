@@ -2440,6 +2440,10 @@ widget
 id
 )
 ;
+gDirty
+=
+true
+;
 break
 ;
 }
@@ -2524,6 +2528,10 @@ widget
 id
 )
 ;
+gDirty
+=
+true
+;
 break
 ;
 }
@@ -2577,6 +2585,12 @@ in
 restoreStateForArea
 .
 }
+this
+.
+saveState
+(
+)
+;
 }
 wrapWidget
 :
