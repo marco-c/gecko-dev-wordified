@@ -4862,7 +4862,7 @@ not
 finding
 an
 open
-paren
+bracket
 /
 /
 is
@@ -46249,7 +46249,7 @@ if
 ExpectSymbol
 (
 '
-(
+[
 '
 true
 )
@@ -46276,7 +46276,7 @@ mToken
 IsSymbol
 (
 '
-)
+]
 '
 )
 )
@@ -46495,7 +46495,7 @@ UngetToken
 SkipUntil
 (
 '
-)
+]
 '
 )
 ;
@@ -46520,7 +46520,7 @@ mToken
 IsSymbol
 (
 '
-)
+]
 '
 )
 )

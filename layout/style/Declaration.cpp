@@ -7404,7 +7404,7 @@ aValue
 Append
 (
 '
-(
+[
 '
 )
 ;
@@ -7425,7 +7425,7 @@ aValue
 Append
 (
 '
-)
+]
 '
 )
 ;

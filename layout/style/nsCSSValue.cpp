@@ -12214,8 +12214,8 @@ aResult
 AppendLiteral
 (
 "
-(
-)
+[
+]
 "
 )
 ;
@@ -12271,7 +12271,7 @@ aResult
 Append
 (
 '
-(
+[
 '
 )
 ;
@@ -12295,7 +12295,7 @@ aResult
 Append
 (
 '
-)
+]
 '
 )
 ;
