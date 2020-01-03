@@ -1790,11 +1790,13 @@ something
 with
 a
 fixed
-height
+block
+-
+size
 unless
+/
+/
 that
-/
-/
 ancestor
 is
 a
@@ -1823,7 +1825,7 @@ FRAME_STATE_BIT
 (
 Generic
 39
-NS_FRAME_IN_CONSTRAINED_HEIGHT
+NS_FRAME_IN_CONSTRAINED_BSIZE
 )
 /
 /

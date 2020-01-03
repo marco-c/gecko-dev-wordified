@@ -47248,7 +47248,7 @@ re
 going
 to
 use
-NS_FRAME_IN_CONSTRAINED_HEIGHT
+NS_FRAME_IN_CONSTRAINED_BSIZE
 which
 /
 /
@@ -47264,7 +47264,9 @@ a
 constrained
 /
 /
-height
+block
+-
+size
 (
 propagating
 down
@@ -47283,6 +47285,14 @@ hit
 overflow
 -
 y
+[
+or
+-
+x
+for
+vertical
+mode
+]
 :
 scroll
 or
@@ -47319,7 +47329,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IN_CONSTRAINED_HEIGHT
+NS_FRAME_IN_CONSTRAINED_BSIZE
 )
 &
 &

@@ -1300,7 +1300,9 @@ re
 in
 a
 constrained
-height
+block
+-
+size
 frame
 then
 we
@@ -1332,7 +1334,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IN_CONSTRAINED_HEIGHT
+NS_FRAME_IN_CONSTRAINED_BSIZE
 )
 )
 {
