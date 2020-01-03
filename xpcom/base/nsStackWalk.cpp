@@ -2997,7 +2997,7 @@ address
 .
 *
 /
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -4616,7 +4616,7 @@ return
 retStat
 ;
 }
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -5681,7 +5681,7 @@ or
 Mac
 stackwalking
 code
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -6107,7 +6107,7 @@ return
 _URC_NO_REASON
 ;
 }
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -6339,7 +6339,7 @@ NS_OK
 }
 #
 endif
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -6595,7 +6595,7 @@ else
 unsupported
 platform
 .
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -6657,7 +6657,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 }
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -6737,7 +6737,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 #
 endif
-EXPORT_XPCOM_API
+XPCOM_API
 (
 void
 )
@@ -6788,7 +6788,7 @@ lineno
 )
 ;
 }
-EXPORT_XPCOM_API
+XPCOM_API
 (
 void
 )
