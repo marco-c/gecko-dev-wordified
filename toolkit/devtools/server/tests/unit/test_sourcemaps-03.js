@@ -269,9 +269,6 @@ later
 line
 :
 3
-column
-:
-0
 }
 function
 (
