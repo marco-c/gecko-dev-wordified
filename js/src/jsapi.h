@@ -8839,6 +8839,14 @@ callback
 *
 returns
 .
+Also
+barriers
+are
+disabled
+via
+the
+TraceSession
+.
 *
 /
 extern
