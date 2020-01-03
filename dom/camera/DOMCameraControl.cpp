@@ -1026,15 +1026,9 @@ our
 viewfinder
 stream
 .
-SetHintContents
-(
-HINT_CONTENTS_VIDEO
-)
-;
-InitStreamCommon
-(
+mStream
+=
 mInput
-)
 ;
 MOZ_ASSERT
 (
