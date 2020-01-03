@@ -575,9 +575,6 @@ undef
 CreateEvent
 #
 endif
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -608,13 +605,6 @@ return
 sLog
 ;
 }
-#
-endif
-/
-*
-PR_LOGGING
-*
-/
 using
 namespace
 mozilla

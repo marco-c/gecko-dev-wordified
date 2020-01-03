@@ -296,9 +296,6 @@ nsFlexContainerFrame
 StrutInfo
 StrutInfo
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -329,13 +326,6 @@ return
 sLog
 ;
 }
-#
-endif
-/
-*
-PR_LOGGING
-*
-/
 /
 /
 XXXdholbert

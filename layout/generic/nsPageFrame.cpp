@@ -232,9 +232,6 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -256,16 +253,6 @@ GetLayoutPrintingLog
 PR_LOG_DEBUG
 _p1
 )
-#
-else
-#
-define
-PR_PL
-(
-_p1
-)
-#
-endif
 using
 namespace
 mozilla
