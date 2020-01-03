@@ -516,7 +516,7 @@ forget
 ;
 }
 void
-OnResponseAvailable
+OnResponseAvailableInternal
 (
 InternalResponse
 *
@@ -598,7 +598,7 @@ aPromise
 )
 ;
 void
-OnResponseAvailable
+OnResponseAvailableInternal
 (
 InternalResponse
 *
@@ -1366,7 +1366,7 @@ void
 MainThreadFetchResolver
 :
 :
-OnResponseAvailable
+OnResponseAvailableInternal
 (
 InternalResponse
 *
@@ -1726,7 +1726,7 @@ void
 WorkerFetchResolver
 :
 :
-OnResponseAvailable
+OnResponseAvailableInternal
 (
 InternalResponse
 *
