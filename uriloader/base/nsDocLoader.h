@@ -1776,11 +1776,6 @@ mIsFlushingLayout
 ;
 private
 :
-static
-const
-PLDHashTableOps
-sRequestInfoHashOps
-;
 /
 /
 A
