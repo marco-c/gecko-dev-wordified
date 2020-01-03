@@ -3839,6 +3839,10 @@ tz
 .
 system
 data
+uprv_tzname_clear_cache
+(
+)
+;
 /
 /
 Get
