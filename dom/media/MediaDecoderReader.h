@@ -202,9 +202,6 @@ mozilla
 class
 MediaDecoderReader
 ;
-class
-SharedDecoderManager
-;
 struct
 WaitForDataRejectValue
 {
@@ -744,16 +741,6 @@ ReleaseMediaResources
 {
 }
 ;
-virtual
-void
-SetSharedDecoderManager
-(
-SharedDecoderManager
-*
-aManager
-)
-{
-}
 /
 /
 Breaks
