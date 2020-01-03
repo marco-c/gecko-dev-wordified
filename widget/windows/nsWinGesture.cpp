@@ -2111,12 +2111,14 @@ dwFlags
 &
 GF_BEGIN
 )
+{
 evt
 .
 mMessage
 =
-NS_SIMPLE_GESTURE_ROTATE_START
+eRotateGestureStart
 ;
+}
 else
 if
 (
