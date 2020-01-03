@@ -8615,7 +8615,7 @@ op_special
 code
 <
 <
-RTShift
+FunctionBits
 |
 ff_break
 )

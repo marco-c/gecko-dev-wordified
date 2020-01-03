@@ -433,7 +433,7 @@ op_special
 MAX_BREAK_CODE
 <
 <
-RTShift
+FunctionBits
 |
 ff_break
 ;
