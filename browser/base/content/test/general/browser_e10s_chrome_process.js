@@ -799,12 +799,10 @@ loadURI
 "
 )
 ;
-yield
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 uri
 )
 ;

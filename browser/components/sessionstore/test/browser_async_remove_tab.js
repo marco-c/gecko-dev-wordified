@@ -1015,12 +1015,10 @@ non
 remote
 entry
 .
-yield
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 "
 about
 :
