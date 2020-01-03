@@ -865,7 +865,7 @@ const
 PRTime
 SliceMillis
 =
-10
+5
 ;
 /
 *
