@@ -3151,11 +3151,8 @@ HandleAtom
 atom
 FunctionSyntaxKind
 kind
-JSObject
-*
+HandleObject
 proto
-=
-nullptr
 )
 ;
 void

@@ -1739,7 +1739,9 @@ NewObjectWithGivenProto
 (
 cx
 clasp
-nullptr
+NullPtr
+(
+)
 NullPtr
 (
 )
@@ -3052,8 +3054,7 @@ const
 Class
 *
 clasp
-JSObject
-&
+HandleObject
 proto
 HandleObject
 global
@@ -3079,7 +3080,6 @@ NewNativeObjectWithGivenProto
 (
 cx
 clasp
-&
 proto
 global
 SingletonObject
@@ -3135,13 +3135,14 @@ cx
 this
 )
 ;
-JSObject
-*
+RootedObject
 objectProto
-=
+(
+cx
 getOrCreateObjectPrototype
 (
 cx
+)
 )
 ;
 if
@@ -3157,7 +3158,6 @@ CreateBlankProto
 (
 cx
 clasp
-*
 objectProto
 self
 )
@@ -3177,8 +3177,7 @@ const
 Class
 *
 clasp
-JSObject
-&
+HandleObject
 proto
 )
 {
@@ -3542,7 +3541,9 @@ NewNativeObjectWithGivenProto
 cx
 &
 GlobalDebuggees_class
-nullptr
+NullPtr
+(
+)
 global
 )
 ;

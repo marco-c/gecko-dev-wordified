@@ -32851,8 +32851,7 @@ js
 :
 HandleObject
 callee
-JSObject
-*
+HandleObject
 proto
 )
 {
@@ -32878,8 +32877,7 @@ JSContext
 cx
 HandleObject
 callee
-JSObject
-*
+HandleObject
 proto
 )
 ;

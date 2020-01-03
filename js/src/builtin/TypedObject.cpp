@@ -3242,8 +3242,6 @@ TypedProto
 >
 (
 cx
-&
-*
 ctorPrototypePrototype
 NullPtr
 (
@@ -5051,7 +5049,9 @@ PlainObject
 >
 (
 cx
-nullptr
+NullPtr
+(
+)
 NullPtr
 (
 )
@@ -5074,7 +5074,9 @@ PlainObject
 >
 (
 cx
-nullptr
+NullPtr
+(
+)
 NullPtr
 (
 )

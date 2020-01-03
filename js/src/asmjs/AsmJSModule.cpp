@@ -6740,10 +6740,9 @@ AsmJSModuleObject
 :
 :
 class_
-nullptr
-JS
-:
-:
+NullPtr
+(
+)
 NullPtr
 (
 )

@@ -1978,7 +1978,9 @@ ForOfPIC
 :
 :
 jsclass
-nullptr
+NullPtr
+(
+)
 global
 )
 ;

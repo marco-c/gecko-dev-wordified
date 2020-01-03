@@ -3548,8 +3548,7 @@ HandleObject
 parent
 HandleAtom
 atom
-JSObject
-*
+HandleObject
 proto
 gc
 :

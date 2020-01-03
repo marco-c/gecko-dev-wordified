@@ -1431,7 +1431,6 @@ createBlankPrototypeInheriting
 (
 cx
 clasp
-*
 typedArrayProto
 )
 ;

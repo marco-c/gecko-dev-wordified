@@ -6284,7 +6284,9 @@ NewObjectWithGivenProto
 cx
 &
 FakePromiseClass
-nullptr
+NullPtr
+(
+)
 scope
 )
 )

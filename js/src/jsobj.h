@@ -8154,8 +8154,7 @@ js
 :
 HandleObject
 callee
-JSObject
-*
+HandleObject
 proto
 NewObjectKind
 newKind
