@@ -361,7 +361,7 @@ include
 "
 mozilla
 /
-BasicEvents
+TextEvents
 .
 h
 "
@@ -1262,9 +1262,9 @@ nsEventStatus
 nsWindow
 :
 :
-DispatchInputEvent
+DispatchKeyInput
 (
-WidgetGUIEvent
+WidgetKeyboardEvent
 &
 aEvent
 )

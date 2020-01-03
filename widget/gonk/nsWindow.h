@@ -206,12 +206,12 @@ void
 ;
 static
 nsEventStatus
-DispatchInputEvent
+DispatchKeyInput
 (
 mozilla
 :
 :
-WidgetGUIEvent
+WidgetKeyboardEvent
 &
 aEvent
 )
