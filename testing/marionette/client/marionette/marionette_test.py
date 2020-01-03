@@ -102,8 +102,6 @@ UnableToSetCookieException
 InvalidSelectorException
         
 MoveTargetOutOfBoundsException
-FrameSendNotInitializedError
-FrameSendFailureError
         
 )
 from
