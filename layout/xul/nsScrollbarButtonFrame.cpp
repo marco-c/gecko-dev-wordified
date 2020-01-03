@@ -436,6 +436,10 @@ cursor
 break
 ;
 }
+default
+:
+break
+;
 }
 return
 nsButtonBoxFrame

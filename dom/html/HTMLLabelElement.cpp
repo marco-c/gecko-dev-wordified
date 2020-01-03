@@ -1320,6 +1320,10 @@ true
 }
 break
 ;
+default
+:
+break
+;
 }
 mHandlingEvent
 =

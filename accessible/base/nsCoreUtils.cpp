@@ -910,8 +910,8 @@ nsCoreUtils
 :
 DispatchMouseEvent
 (
-uint32_t
-aEventType
+EventMessage
+aMessage
 int32_t
 aX
 int32_t
@@ -934,7 +934,7 @@ WidgetMouseEvent
 event
 (
 true
-aEventType
+aMessage
 aRootWidget
 WidgetMouseEvent
 :
@@ -1013,8 +1013,8 @@ nsCoreUtils
 :
 DispatchTouchEvent
 (
-uint32_t
-aEventType
+EventMessage
+aMessage
 int32_t
 aX
 int32_t
@@ -1052,7 +1052,7 @@ WidgetTouchEvent
 event
 (
 true
-aEventType
+aMessage
 aRootWidget
 )
 ;

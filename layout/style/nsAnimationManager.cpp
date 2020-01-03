@@ -1644,7 +1644,7 @@ mPreviousPhaseOrIteration
 PREVIOUS_PHASE_AFTER
 ;
 }
-uint32_t
+EventMessage
 message
 ;
 if

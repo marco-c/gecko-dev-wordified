@@ -102,7 +102,9 @@ nsCopySupport_h__
 #
 include
 "
-nscore
+mozilla
+/
+EventForwards
 .
 h
 "
@@ -458,7 +460,7 @@ on
 the
 value
 of
-aType
+aEventMessage
 which
 should
 be
@@ -681,8 +683,11 @@ static
 bool
 FireClipboardEvent
 (
-int32_t
-aType
+mozilla
+:
+:
+EventMessage
+aEventMessage
 int32_t
 aClipboardType
 nsIPresShell

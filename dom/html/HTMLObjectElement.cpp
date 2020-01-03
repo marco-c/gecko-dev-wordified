@@ -1154,6 +1154,10 @@ false
 break
 ;
 }
+default
+:
+break
+;
 }
 }
 NS_IMETHODIMP

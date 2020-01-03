@@ -1811,7 +1811,7 @@ DispatchMouseOrPointerEvent
 WidgetMouseEvent
 *
 aMouseEvent
-uint32_t
+EventMessage
 aMessage
 nsIContent
 *
@@ -1836,7 +1836,7 @@ events
 void
 GeneratePointerEnterExit
 (
-uint32_t
+EventMessage
 aMessage
 WidgetMouseEvent
 *
@@ -2123,8 +2123,8 @@ aPresContext
 WidgetDragEvent
 *
 aDragEvent
-uint32_t
-aMsg
+EventMessage
+aMessage
 nsIContent
 *
 aRelatedTarget

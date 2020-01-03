@@ -807,7 +807,7 @@ WidgetMouseEventBase
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -1426,7 +1426,7 @@ WidgetMouseEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -1518,7 +1518,7 @@ WidgetMouseEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -2150,7 +2150,7 @@ WidgetDragEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -2614,7 +2614,7 @@ WidgetMouseScrollEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -3049,7 +3049,7 @@ WidgetWheelEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -4073,7 +4073,7 @@ WidgetPointerEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMsg
 nsIWidget
 *

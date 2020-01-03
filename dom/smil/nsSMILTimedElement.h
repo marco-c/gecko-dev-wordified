@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -3620,7 +3629,10 @@ aEndObjectChanged
 void
 FireTimeEventAsync
 (
-uint32_t
+mozilla
+:
+:
+EventMessage
 aMsg
 int32_t
 aDetail

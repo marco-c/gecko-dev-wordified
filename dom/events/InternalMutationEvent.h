@@ -177,7 +177,7 @@ InternalMutationEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :

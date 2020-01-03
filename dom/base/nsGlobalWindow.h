@@ -3705,8 +3705,11 @@ virtual
 void
 EnableNetworkEvent
 (
-uint32_t
-aType
+mozilla
+:
+:
+EventMessage
+aEventMessage
 )
 override
 ;
@@ -3714,8 +3717,11 @@ virtual
 void
 DisableNetworkEvent
 (
-uint32_t
-aType
+mozilla
+:
+:
+EventMessage
+aEventMessage
 )
 override
 ;

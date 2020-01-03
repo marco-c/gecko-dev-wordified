@@ -4619,7 +4619,7 @@ widget
 )
 ;
 }
-int
+EventMessage
 type
 =
 NS_EVENT_NULL
@@ -5440,7 +5440,7 @@ nsIWidget
 widget
 )
 {
-uint32_t
+EventMessage
 msg
 =
 NS_EVENT_NULL

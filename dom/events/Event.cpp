@@ -659,7 +659,7 @@ new
 WidgetEvent
 (
 false
-0
+NS_EVENT_NULL
 )
 ;
 mEvent
@@ -2875,7 +2875,7 @@ userType
 nsContentUtils
 :
 :
-GetEventIdAndAtom
+GetEventMessageAndAtom
 (
 aEventTypeArg
 mEvent
@@ -3670,6 +3670,10 @@ openControlled
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 break
@@ -3746,6 +3750,10 @@ abuse
 openControlled
 ;
 }
+break
+;
+default
+:
 break
 ;
 }
@@ -3833,6 +3841,10 @@ abuse
 =
 openControlled
 ;
+break
+;
+default
+:
 break
 ;
 }
@@ -3993,6 +4005,10 @@ openControlled
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 break
@@ -4056,6 +4072,10 @@ abuse
 openControlled
 ;
 }
+break
+;
+default
+:
 break
 ;
 }
@@ -4215,6 +4235,10 @@ openControlled
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 break
@@ -4311,6 +4335,10 @@ abuse
 openControlled
 ;
 }
+break
+;
+default
+:
 break
 ;
 }
@@ -5255,7 +5283,7 @@ Event
 :
 GetEventName
 (
-uint32_t
+EventMessage
 aEventType
 )
 {

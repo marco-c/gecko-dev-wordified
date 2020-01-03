@@ -1270,8 +1270,11 @@ aPasswordFieldAllowed
 bool
 FireClipboardEvent
 (
-int32_t
-aType
+mozilla
+:
+:
+EventMessage
+aEventMessage
 int32_t
 aSelectionType
 bool

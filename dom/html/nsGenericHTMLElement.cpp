@@ -13503,6 +13503,10 @@ false
 break
 ;
 }
+default
+:
+break
+;
 }
 }
 return
@@ -14483,7 +14487,7 @@ nsGenericHTMLFormElement
 :
 IsElementDisabledForEvents
 (
-uint32_t
+EventMessage
 aMessage
 nsIFrame
 *

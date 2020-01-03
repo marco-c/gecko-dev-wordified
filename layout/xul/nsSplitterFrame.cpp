@@ -1928,6 +1928,10 @@ aEvent
 }
 break
 ;
+default
+:
+break
+;
 }
 NS_ENSURE_STATE
 (

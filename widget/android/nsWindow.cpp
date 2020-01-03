@@ -6305,10 +6305,10 @@ X
 (
 )
 ;
-int
+EventMessage
 msg
 =
-0
+NS_EVENT_NULL
 ;
 switch
 (
@@ -8834,7 +8834,7 @@ RemoveIMEComposition
 (
 )
 ;
-uint32_t
+EventMessage
 msg
 ;
 switch

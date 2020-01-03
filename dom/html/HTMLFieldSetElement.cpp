@@ -372,7 +372,7 @@ HTMLFieldSetElement
 :
 IsDisabledForEvents
 (
-uint32_t
+EventMessage
 aMessage
 )
 {

@@ -1935,9 +1935,12 @@ void
 sendFocusEvent
 :
 (
-uint32_t
+mozilla
+:
+:
+EventMessage
 )
-eventType
+eventMessage
 ;
 -
 (

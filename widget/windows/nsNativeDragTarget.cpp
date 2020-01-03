@@ -854,9 +854,11 @@ nsNativeDragTarget
 :
 DispatchDragDropEvent
 (
-uint32_t
-aEventType
+EventMessage
+aEventMessage
+const
 POINTL
+&
 aPT
 )
 {
@@ -867,7 +869,7 @@ WidgetDragEvent
 event
 (
 true
-aEventType
+aEventMessage
 mWidget
 )
 ;
@@ -1013,8 +1015,8 @@ nsNativeDragTarget
 :
 ProcessDrag
 (
-uint32_t
-aEventType
+EventMessage
+aEventMessage
 DWORD
 grfKeyState
 POINTL
@@ -1104,7 +1106,7 @@ into
 Gecko
 DispatchDragDropEvent
 (
-aEventType
+aEventMessage
 ptl
 )
 ;
@@ -1267,7 +1269,7 @@ DROPEFFECT_NONE
 }
 if
 (
-aEventType
+aEventMessage
 !
 =
 NS_DRAGDROP_DROP

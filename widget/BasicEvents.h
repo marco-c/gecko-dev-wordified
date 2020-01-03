@@ -1765,7 +1765,7 @@ WidgetEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 EventClassID
 aEventClassID
@@ -1853,7 +1853,7 @@ WidgetEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :
@@ -2016,12 +2016,7 @@ result
 EventClassID
 mClass
 ;
-/
-/
-See
-GUI
-MESSAGES
-uint32_t
+EventMessage
 mMessage
 ;
 /
@@ -3286,7 +3281,7 @@ WidgetGUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -3330,7 +3325,7 @@ WidgetGUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -4659,7 +4654,7 @@ WidgetInputEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -4704,7 +4699,7 @@ WidgetInputEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -5654,7 +5649,7 @@ InternalUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -5684,7 +5679,7 @@ InternalUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 EventClassID
 aEventClassID
@@ -5766,7 +5761,7 @@ InternalUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 const
 WidgetEvent

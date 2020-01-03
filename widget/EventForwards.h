@@ -198,6 +198,9 @@ serialization
 nsEventStatus_eSentinel
 }
 ;
+namespace
+mozilla
+{
 /
 *
 *
@@ -206,7 +209,14 @@ Event
 messages
 *
 /
+typedef
+uint16_t
+EventMessageType
+;
 enum
+EventMessage
+:
+EventMessageType
 {
 #
 define
@@ -247,9 +257,6 @@ item
 eEventMessage_MaxValue
 }
 ;
-namespace
-mozilla
-{
 /
 *
 *

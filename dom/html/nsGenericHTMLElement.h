@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsMappedAttributeElement
 .
 h
@@ -8206,7 +8215,10 @@ PreHandleEvent
 bool
 IsElementDisabledForEvents
 (
-uint32_t
+mozilla
+:
+:
+EventMessage
 aMessage
 nsIFrame
 *

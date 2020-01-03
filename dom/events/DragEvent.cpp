@@ -182,7 +182,7 @@ new
 WidgetDragEvent
 (
 false
-0
+NS_EVENT_NULL
 nullptr
 )
 )

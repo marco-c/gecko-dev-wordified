@@ -16238,7 +16238,7 @@ HTMLInputElement
 :
 IsDisabledForEvents
 (
-uint32_t
+EventMessage
 aMessage
 )
 {
@@ -20513,6 +20513,10 @@ OnSubmitClickEnd
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 /
@@ -23864,6 +23868,10 @@ CancelRangeThumbDrag
 )
 ;
 }
+break
+;
+default
+:
 break
 ;
 }

@@ -7976,7 +7976,7 @@ mMsg
 lParam
 )
 ;
-uint32_t
+EventMessage
 contentCommandMessage
 =
 NS_EVENT_NULL

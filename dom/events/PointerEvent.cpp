@@ -185,7 +185,7 @@ new
 WidgetPointerEvent
 (
 false
-0
+NS_EVENT_NULL
 nullptr
 )
 )

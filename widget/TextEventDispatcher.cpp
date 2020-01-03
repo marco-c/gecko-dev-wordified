@@ -1486,7 +1486,7 @@ mIsComposing
 =
 false
 ;
-uint32_t
+EventMessage
 message
 =
 aCommitString
@@ -1662,7 +1662,7 @@ TextEventDispatcher
 :
 DispatchKeyboardEvent
 (
-uint32_t
+EventMessage
 aMessage
 const
 WidgetKeyboardEvent
@@ -1691,7 +1691,7 @@ TextEventDispatcher
 :
 DispatchKeyboardEventInternal
 (
-uint32_t
+EventMessage
 aMessage
 const
 WidgetKeyboardEvent

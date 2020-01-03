@@ -1291,7 +1291,7 @@ false
 bool
 DispatchKeyboardEvent
 (
-uint32_t
+EventMessage
 aMessage
 const
 WidgetKeyboardEvent
@@ -2120,7 +2120,7 @@ false
 bool
 DispatchKeyboardEventInternal
 (
-uint32_t
+EventMessage
 aMessage
 const
 WidgetKeyboardEvent

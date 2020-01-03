@@ -429,7 +429,7 @@ nsImageBoxFrameEvent
 nsIContent
 *
 content
-uint32_t
+EventMessage
 message
 )
 :
@@ -457,7 +457,7 @@ nsIContent
 >
 mContent
 ;
-uint32_t
+EventMessage
 mMessage
 ;
 }
@@ -647,7 +647,7 @@ FireImageDOMEvent
 nsIContent
 *
 aContent
-uint32_t
+EventMessage
 aMessage
 )
 {

@@ -2150,7 +2150,7 @@ mMouseButtonEventData
 .
 mEventMessage
 =
-0
+NS_EVENT_NULL
 ;
 mMouseButtonEventData
 .
@@ -3453,8 +3453,8 @@ of
 WidgetEvent
 :
 :
-message
-uint32_t
+mMessage
+EventMessage
 mEventMessage
 ;
 /

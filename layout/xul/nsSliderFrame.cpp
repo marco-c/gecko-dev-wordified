@@ -3014,6 +3014,10 @@ aEventStatus
 )
 ;
 }
+default
+:
+break
+;
 }
 /
 /

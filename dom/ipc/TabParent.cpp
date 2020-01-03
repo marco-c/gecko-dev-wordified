@@ -10844,7 +10844,7 @@ TabParent
 RecvOnEventNeedingAckHandled
 (
 const
-uint32_t
+EventMessage
 &
 aMessage
 )
@@ -14631,13 +14631,13 @@ int32_t
 aModifiers
 )
 {
-uint32_t
+EventMessage
 msg
 ;
 nsContentUtils
 :
 :
-GetEventIdAndAtom
+GetEventMessageAndAtom
 (
 aType
 eTouchEventClass

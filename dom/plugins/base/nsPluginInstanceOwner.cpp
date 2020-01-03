@@ -12243,6 +12243,10 @@ pluginEvent
 ;
 break
 ;
+default
+:
+break
+;
 }
 }
 if
@@ -12398,6 +12402,10 @@ instead
 .
 return
 rv
+;
+default
+:
+break
 ;
 }
 /
@@ -12953,6 +12961,10 @@ True
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 break
@@ -13100,6 +13112,10 @@ type
 =
 KeyRelease
 ;
+break
+;
+default
+:
 break
 ;
 }
@@ -13277,6 +13293,10 @@ detail
 NotifyDetailNone
 ;
 }
+break
+;
+default
+:
 break
 ;
 }
@@ -13491,6 +13511,10 @@ instead
 .
 return
 rv
+;
+default
+:
+break
 ;
 }
 /
@@ -13736,6 +13760,10 @@ NS_PLUGIN_CALL_SAFE_TO_REENTER_GECKO
 )
 ;
 }
+break
+;
+default
+:
 break
 ;
 }

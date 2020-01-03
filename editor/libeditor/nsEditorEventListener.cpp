@@ -2948,6 +2948,10 @@ aEvent
 return
 NS_OK
 ;
+default
+:
+break
+;
 }
 nsAutoString
 eventType

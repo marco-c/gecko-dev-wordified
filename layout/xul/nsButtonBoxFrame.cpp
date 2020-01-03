@@ -923,6 +923,10 @@ mouseEvent
 break
 ;
 }
+default
+:
+break
+;
 }
 return
 nsBoxFrame

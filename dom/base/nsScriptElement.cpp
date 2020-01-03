@@ -374,8 +374,8 @@ status
 =
 nsEventStatus_eIgnore
 ;
-uint32_t
-type
+EventMessage
+message
 =
 NS_SUCCEEDED
 (
@@ -390,7 +390,7 @@ WidgetEvent
 event
 (
 true
-type
+message
 )
 ;
 /
@@ -409,7 +409,7 @@ mFlags
 mBubbles
 =
 (
-type
+message
 !
 =
 NS_LOAD

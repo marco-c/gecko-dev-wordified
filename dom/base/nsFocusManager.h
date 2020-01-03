@@ -1812,7 +1812,7 @@ aTarget
 .
 *
 *
-aType
+aEventMessage
 should
 be
 either
@@ -1820,9 +1820,9 @@ NS_FOCUS_CONTENT
 or
 NS_BLUR_CONTENT
 .
+*
 For
 blur
-*
 events
 aFocusMethod
 should
@@ -1849,8 +1849,11 @@ WindowRaised
 void
 SendFocusOrBlurEvent
 (
-uint32_t
-aType
+mozilla
+:
+:
+EventMessage
+aEventMessage
 nsIPresShell
 *
 aPresShell

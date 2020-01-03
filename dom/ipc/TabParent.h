@@ -990,7 +990,7 @@ bool
 RecvOnEventNeedingAckHandled
 (
 const
-uint32_t
+EventMessage
 &
 aMessage
 )

@@ -201,8 +201,8 @@ aPresContext
 WidgetEvent
 *
 aEvent
-uint32_t
-aEventType
+EventMessage
+aEventMessage
 nsInvalidateRequestList
 *
 aInvalidateRequests
@@ -225,7 +225,7 @@ mEvent
 >
 mMessage
 =
-aEventType
+aEventMessage
 ;
 }
 if
@@ -967,8 +967,8 @@ aPresContext
 WidgetEvent
 *
 aEvent
-uint32_t
-aEventType
+EventMessage
+aEventMessage
 nsInvalidateRequestList
 *
 aInvalidateRequests
@@ -986,7 +986,7 @@ NotifyPaintEvent
 aOwner
 aPresContext
 aEvent
-aEventType
+aEventMessage
 aInvalidateRequests
 )
 ;

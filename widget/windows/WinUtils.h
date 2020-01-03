@@ -248,6 +248,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EventForwards
+.
+h
+"
 /
 *
 *
@@ -2412,7 +2421,7 @@ static
 bool
 GetIsMouseFromTouch
 (
-uint32_t
+EventMessage
 aEventType
 )
 ;

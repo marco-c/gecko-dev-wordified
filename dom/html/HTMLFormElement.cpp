@@ -2937,7 +2937,7 @@ this
 )
 )
 {
-uint32_t
+EventMessage
 msg
 =
 aVisitor
@@ -3084,7 +3084,11 @@ mEvent
 msg
 )
 ;
+break
+;
 }
+default
+:
 break
 ;
 }

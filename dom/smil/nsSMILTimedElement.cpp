@@ -807,7 +807,7 @@ nsIContent
 >
 mTarget
 ;
-uint32_t
+EventMessage
 mMsg
 ;
 int32_t
@@ -820,7 +820,7 @@ AsyncTimeEventRunner
 nsIContent
 *
 aTarget
-uint32_t
+EventMessage
 aMsg
 int32_t
 aDetail
@@ -15234,7 +15234,7 @@ nsSMILTimedElement
 :
 FireTimeEventAsync
 (
-uint32_t
+EventMessage
 aMsg
 int32_t
 aDetail

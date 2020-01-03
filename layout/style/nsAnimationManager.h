@@ -100,6 +100,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 AnimationCommon
 .
 h
@@ -211,7 +220,7 @@ const
 nsSubstring
 &
 aAnimationName
-uint32_t
+EventMessage
 aMessage
 const
 mozilla
