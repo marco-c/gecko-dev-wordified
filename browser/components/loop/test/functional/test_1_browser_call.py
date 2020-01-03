@@ -1482,7 +1482,9 @@ conversation
 .
 _sdkDriver
 .
-connectionStartTime
+_getTwoWayMediaStartTime
+(
+)
 "
 )
     
@@ -1644,7 +1646,14 @@ be
 "
 >
 0
+noted_calls
+=
 "
++
+str
+(
+noted_calls
+)
 )
     
 def
@@ -1823,14 +1832,17 @@ hangup
 on
 the
 remote
+(
+standalone
+)
 side
 because
 this
 also
 leaves
-the
         
 #
+the
 local
 chatbox
 with
