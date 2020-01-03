@@ -883,6 +883,9 @@ aManager
 Action
 *
 aQuotaIOThreadAction
+Context
+*
+aOldContext
 )
 ;
 /
@@ -1130,6 +1133,7 @@ ActionRunnable
 enum
 State
 {
+STATE_CONTEXT_PREINIT
 STATE_CONTEXT_INIT
 STATE_CONTEXT_READY
 STATE_CONTEXT_CANCELED
@@ -1162,6 +1166,11 @@ aManager
 ;
 ~
 Context
+(
+)
+;
+void
+Start
 (
 )
 ;
@@ -1199,6 +1208,14 @@ ThreadsafeHandle
 >
 CreateThreadsafeHandle
 (
+)
+;
+void
+SetNextContext
+(
+Context
+*
+aNextContext
 )
 ;
 nsRefPtr
@@ -1315,6 +1332,12 @@ nsMainThreadPtrHandle
 OfflineStorage
 >
 mOfflineStorage
+;
+nsRefPtr
+<
+Context
+>
+mNextContext
 ;
 public
 :

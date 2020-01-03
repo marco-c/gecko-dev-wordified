@@ -924,6 +924,13 @@ Listener
 }
 }
 ;
+enum
+State
+{
+Open
+Closing
+}
+;
 static
 nsresult
 GetOrCreate
@@ -1049,8 +1056,8 @@ NoteClosing
 (
 )
 ;
-bool
-IsClosing
+State
+GetState
 (
 )
 const
@@ -1355,6 +1362,9 @@ Manager
 void
 Init
 (
+Manager
+*
+aOldManager
 )
 ;
 void
@@ -1605,8 +1615,8 @@ mStreamLists
 bool
 mShuttingDown
 ;
-bool
-mClosing
+State
+mState
 ;
 struct
 CacheIdRefCounter
