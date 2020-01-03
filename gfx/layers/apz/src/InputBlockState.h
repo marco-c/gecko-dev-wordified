@@ -188,6 +188,7 @@ InputBlockState
 {
 public
 :
+explicit
 InputBlockState
 (
 const
@@ -575,6 +576,7 @@ typedef
 uint32_t
 TouchBehaviorFlags
 ;
+explicit
 TouchBlockState
 (
 const

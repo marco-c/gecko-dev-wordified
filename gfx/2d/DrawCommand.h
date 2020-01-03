@@ -179,6 +179,7 @@ aTransform
 ;
 protected
 :
+explicit
 DrawingCommand
 (
 CommandType
@@ -212,6 +213,7 @@ StoredPattern
 {
 public
 :
+explicit
 StoredPattern
 (
 const
@@ -729,6 +731,7 @@ DrawingCommand
 {
 public
 :
+explicit
 ClearRectCommand
 (
 const
@@ -1747,6 +1750,7 @@ DrawingCommand
 {
 public
 :
+explicit
 PushClipCommand
 (
 const
@@ -1814,6 +1818,7 @@ DrawingCommand
 {
 public
 :
+explicit
 PushClipRectCommand
 (
 const
@@ -1914,6 +1919,7 @@ DrawingCommand
 {
 public
 :
+explicit
 SetTransformCommand
 (
 const

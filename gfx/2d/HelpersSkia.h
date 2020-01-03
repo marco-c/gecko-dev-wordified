@@ -1907,6 +1907,7 @@ NULL
 )
 {
 }
+explicit
 RefPtrSkia
 (
 T

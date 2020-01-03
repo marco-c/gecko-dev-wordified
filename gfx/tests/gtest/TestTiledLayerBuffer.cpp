@@ -74,6 +74,7 @@ TestTiledLayerTile
 int
 value
 ;
+explicit
 TestTiledLayerTile
 (
 int

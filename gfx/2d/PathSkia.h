@@ -147,6 +147,7 @@ FillRule
 aFillRule
 )
 ;
+explicit
 PathBuilderSkia
 (
 FillRule

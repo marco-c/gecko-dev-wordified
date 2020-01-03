@@ -2818,6 +2818,7 @@ mHasBeenChecked
 ;
 public
 :
+explicit
 ScopedLocalErrorCheck
 (
 GLContext

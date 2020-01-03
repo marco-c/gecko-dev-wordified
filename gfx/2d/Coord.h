@@ -814,6 +814,7 @@ Super
 {
 }
 MOZ_CONSTEXPR
+MOZ_IMPLICIT
 IntCoordTyped
 (
 int32_t
@@ -917,6 +918,7 @@ Super
 {
 }
 MOZ_CONSTEXPR
+MOZ_IMPLICIT
 CoordTyped
 (
 Float

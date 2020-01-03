@@ -11852,6 +11852,7 @@ nullptr
 struct
 DebugOnlyAutoColorSamplingAccessControl
 {
+explicit
 DebugOnlyAutoColorSamplingAccessControl
 (
 DataSourceSurface
