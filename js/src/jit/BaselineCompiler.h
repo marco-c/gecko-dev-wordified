@@ -1473,6 +1473,14 @@ emitDebugTrap
 (
 )
 ;
+void
+emitCoverage
+(
+jsbytecode
+*
+pc
+)
+;
 bool
 emitTraceLoggerEnter
 (
