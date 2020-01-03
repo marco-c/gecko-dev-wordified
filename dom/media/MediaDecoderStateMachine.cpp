@@ -1933,7 +1933,7 @@ IsRealTime
 ?
 0
 :
-30
+15
 ;
 mLowDataThresholdUsecs
 =
