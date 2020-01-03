@@ -3681,7 +3681,7 @@ SelfHosted
 HasSingleton
 TreatAsRunOnce
 HasLazyScript
-HasPollutedGlobalScope
+HasNonSyntacticScope
 }
 ;
 uint32_t
@@ -4792,7 +4792,7 @@ if
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -4803,7 +4803,7 @@ scriptBits
 1
 <
 <
-HasPollutedGlobalScope
+HasNonSyntacticScope
 )
 ;
 }
@@ -5695,13 +5695,13 @@ scriptBits
 1
 <
 <
-HasPollutedGlobalScope
+HasNonSyntacticScope
 )
 )
 script
 -
 >
-hasPollutedGlobalScope_
+hasNonSyntacticScope_
 =
 true
 ;
@@ -15938,7 +15938,7 @@ cx
 script
 -
 >
-hasPollutedGlobalScope_
+hasNonSyntacticScope_
 =
 options
 .
@@ -21798,7 +21798,9 @@ not
 have
 a
 *
-polluted
+non
+-
+syntactic
 global
 scope
 .
@@ -21821,7 +21823,7 @@ functions
 if
 *
 !
-hasPollutedGlobalScope
+hasNonSyntacticScope
 .
 *
 2
@@ -21886,8 +21888,10 @@ be
 supported
 with
 a
-polluted
 *
+non
+-
+syntactic
 global
 scope
 make
@@ -21903,7 +21907,7 @@ MOZ_ASSERT_IF
 dst
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 !
@@ -21920,7 +21924,7 @@ MOZ_ASSERT_IF
 dst
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 !

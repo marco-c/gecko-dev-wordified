@@ -12978,7 +12978,7 @@ if
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 &
@@ -12998,7 +12998,9 @@ Support
 functions
 with
 a
-polluted
+non
+-
+syntactic
 global
 scope
 but
@@ -13033,7 +13035,9 @@ has
 a
 /
 /
-polluted
+non
+-
+syntactic
 global
 scope
 .
@@ -13043,7 +13047,9 @@ cx
 script
 "
 has
-polluted
+non
+-
+syntactic
 global
 scope
 "

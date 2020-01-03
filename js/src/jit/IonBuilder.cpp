@@ -4235,7 +4235,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -8161,14 +8161,16 @@ global
 scripts
 without
 a
-polluted
+non
+-
+syntactic
 global
 scope
 the
 scope
+/
+/
 chain
-/
-/
 is
 the
 global
@@ -8195,7 +8197,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -11822,7 +11824,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -11871,7 +11873,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -11972,7 +11974,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -12605,7 +12607,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -52590,7 +52592,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
