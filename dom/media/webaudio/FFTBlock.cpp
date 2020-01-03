@@ -436,11 +436,15 @@ FFTSize
 (
 )
 ;
-AlignedTArray
+nsTArray
 <
 float
 >
 buffer
+;
+buffer
+.
+SetLength
 (
 fftSize
 )
@@ -544,7 +548,7 @@ method
 could
 be
 optimized
-ComplexU
+kiss_fft_cpx
 *
 dft
 =
@@ -555,7 +559,7 @@ Elements
 )
 ;
 const
-ComplexU
+kiss_fft_cpx
 *
 dft1
 =
@@ -568,7 +572,7 @@ Elements
 )
 ;
 const
-ComplexU
+kiss_fft_cpx
 *
 dft2
 =
@@ -1226,7 +1230,7 @@ ExtractAverageGroupDelay
 (
 )
 {
-ComplexU
+kiss_fft_cpx
 *
 dft
 =
@@ -1525,7 +1529,7 @@ FFTSize
 /
 2
 ;
-ComplexU
+kiss_fft_cpx
 *
 dft
 =

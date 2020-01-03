@@ -1544,12 +1544,12 @@ band
 limited
 table
 .
-AlignedAudioFloatArray
+AudioFloatArray
 *
 table
 =
 new
-AlignedAudioFloatArray
+AudioFloatArray
 (
 m_periodicWaveSize
 )
