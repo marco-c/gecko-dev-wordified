@@ -214,10 +214,13 @@ TestUtils
 .
 renderIntoDocument
 (
+React
+.
+createElement
+(
 sharedViews
 .
 FeedbackView
-(
 {
 feedbackStore
 :

@@ -430,7 +430,7 @@ stub
 (
 React
 "
-renderComponent
+render
 "
 )
 ;
@@ -623,7 +623,7 @@ calledOnce
 (
 React
 .
-renderComponent
+render
 )
 ;
 sinon
@@ -634,7 +634,7 @@ calledWith
 (
 React
 .
-renderComponent
+render
 sinon
 .
 match
@@ -647,7 +647,7 @@ value
 return
 TestUtils
 .
-isDescriptorOfType
+isCompositeComponentElement
 (
 value
 loop
@@ -769,12 +769,15 @@ TestUtils
 .
 renderIntoDocument
 (
+React
+.
+createElement
+(
 loop
 .
 conversation
 .
 AppControllerView
-(
 {
 client
 :
