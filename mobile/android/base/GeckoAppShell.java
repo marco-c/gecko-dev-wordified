@@ -1138,11 +1138,9 @@ String
 add
 (
 "
-application
+unknown
 /
-octet
--
-stream
+unknown
 "
 )
 ;
@@ -11962,7 +11960,7 @@ scanner
 should
 scan
 this
-aMimeType
+mimeType
 f
 .
 getAbsolutePath
@@ -12007,7 +12005,7 @@ startScan
 (
 context
 aFile
-aMimeType
+mimeType
 )
 ;
 }
