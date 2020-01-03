@@ -66,6 +66,9 @@ addon3
 xpi
 "
 ;
+let
+gClient
+;
 function
 test
 (

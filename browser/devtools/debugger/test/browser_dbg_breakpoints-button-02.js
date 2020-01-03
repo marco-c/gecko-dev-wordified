@@ -245,7 +245,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -271,7 +271,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -297,7 +297,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -344,7 +344,7 @@ gSources
 disableBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -362,7 +362,7 @@ gSources
 disableBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .

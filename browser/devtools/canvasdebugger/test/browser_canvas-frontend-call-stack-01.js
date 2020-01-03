@@ -814,7 +814,13 @@ view
 Sources
 .
 selectedValue
+getSourceActor
+(
+view
+.
+Sources
 SIMPLE_CANVAS_DEEP_STACK_URL
+)
 "
 The
 expected

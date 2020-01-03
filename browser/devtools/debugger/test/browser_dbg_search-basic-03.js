@@ -682,7 +682,11 @@ gSources
 .
 selectedItem
 .
-value
+attachment
+.
+source
+.
+url
 .
 contains
 (

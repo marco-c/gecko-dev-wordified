@@ -127,7 +127,7 @@ panel
 addBreakpoint
 (
 {
-url
+actor
 :
 sources
 .
@@ -215,6 +215,18 @@ breakpoint
 "
 )
 ;
+yield
+waitForDebuggerEvents
+(
+panel
+panel
+.
+panelWin
+.
+EVENTS
+.
+SOURCE_SHOWN
+)
 yield
 resumeDebuggerThenCloseAndFinish
 (

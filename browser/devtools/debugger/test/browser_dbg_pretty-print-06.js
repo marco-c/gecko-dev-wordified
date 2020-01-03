@@ -342,9 +342,10 @@ changed
 ;
 is
 (
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 JS_URL
 "
 The
@@ -479,9 +480,10 @@ source
 ;
 is
 (
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 JS_URL
 "
 The

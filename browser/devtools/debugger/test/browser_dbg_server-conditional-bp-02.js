@@ -759,7 +759,7 @@ gBreakpoints
 _getAdded
 (
 {
-url
+actor
 :
 "
 foo
@@ -791,7 +791,7 @@ gBreakpoints
 _getRemoving
 (
 {
-url
+actor
 :
 "
 bar
@@ -839,7 +839,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -1071,7 +1071,7 @@ aConditionalExpression
 )
 {
 let
-selectedUrl
+selectedActor
 =
 gSources
 .
@@ -1086,7 +1086,7 @@ _selectedBreakpointItem
 ;
 ok
 (
-selectedUrl
+selectedActor
 "
 There
 should
@@ -1126,8 +1126,8 @@ selectedBreakpoint
 .
 attachment
 .
-url
-selectedUrl
+actor
+selectedActor
 "
 The
 breakpoint
@@ -1287,8 +1287,8 @@ aBreakpointClient
 .
 location
 .
-url
-selectedUrl
+actor
+selectedActor
 "
 The
 breakpoint
@@ -1410,9 +1410,10 @@ aLine
 let
 selectedUrl
 =
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 ;
 let
 selectedBreakpoint

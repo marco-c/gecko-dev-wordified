@@ -155,7 +155,7 @@ false
 gLocation
 =
 {
-url
+actor
 :
 gSources
 .

@@ -66,11 +66,3 @@ e
 {
 }
 ;
-/
-/
-#
-sourceMappingURL
-=
-bogus
-.
-map

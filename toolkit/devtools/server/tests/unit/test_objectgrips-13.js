@@ -76,9 +76,11 @@ grips
 "
 )
 ;
-gDebuggee
+Components
 .
-eval
+utils
+.
+evalInSandbox
 (
 function
 stopMe
@@ -92,6 +94,7 @@ debugger
 toString
 (
 )
+gDebuggee
 )
 ;
 gClient
@@ -217,9 +220,11 @@ eval_code
 (
 )
 {
-gDebuggee
+Components
 .
-eval
+utils
+.
+evalInSandbox
 (
 [
 "
@@ -260,6 +265,7 @@ join
 n
 "
 )
+gDebuggee
 )
 ;
 }
@@ -277,7 +283,7 @@ getDefinitionSite
 (
 {
 error
-url
+source
 line
 column
 }
@@ -293,6 +299,8 @@ error
 ;
 do_check_eq
 (
+source
+.
 url
 getFilePath
 (

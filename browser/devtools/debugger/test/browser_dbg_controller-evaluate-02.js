@@ -179,7 +179,7 @@ is
 framesView
 .
 itemCount
-4
+2
 "
 Should
 have
@@ -365,14 +365,14 @@ panel
 .
 js
 "
-1
+6
 )
 ;
 checkView
 (
 0
 1
-1
+6
 [
 /
 secondCall
@@ -407,7 +407,7 @@ framesView
 .
 selectedDepth
 =
-3
+1
 ;
 /
 /
@@ -418,7 +418,7 @@ updatedFrame
 ;
 checkView
 (
-3
+1
 0
 5
 [
@@ -523,7 +523,7 @@ updatedView
 ;
 checkView
 (
-3
+1
 0
 5
 [

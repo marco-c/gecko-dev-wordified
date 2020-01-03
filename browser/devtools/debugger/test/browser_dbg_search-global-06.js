@@ -387,9 +387,10 @@ url
 n
 "
 +
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 )
 ;
 info
@@ -415,7 +416,7 @@ ok
 isCaretPos
 (
 gPanel
-1
+6
 )
 "
 The
@@ -436,9 +437,10 @@ yet
 ;
 ok
 (
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 .
 contains
 (
@@ -616,9 +618,10 @@ url
 n
 "
 +
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 )
 ;
 info

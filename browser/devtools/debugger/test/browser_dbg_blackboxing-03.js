@@ -83,6 +83,7 @@ gDebugger
 ;
 let
 gFrames
+gSources
 ;
 function
 test
@@ -126,6 +127,14 @@ gDebugger
 DebuggerView
 .
 StackFrames
+;
+gSources
+=
+gDebugger
+.
+DebuggerView
+.
+Sources
 ;
 waitForSourceAndCaretAndScopes
 (
@@ -269,7 +278,11 @@ return
 toggleBlackBoxing
 (
 gPanel
+getSourceActor
+(
+gSources
 BLACKBOXME_URL
+)
 )
 .
 then
@@ -372,6 +385,10 @@ gDebugger
 null
 ;
 gFrames
+=
+null
+;
+gSources
 =
 null
 ;

@@ -304,7 +304,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -343,7 +343,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -413,7 +413,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -452,7 +452,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -491,7 +491,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -771,7 +771,7 @@ finished
 function
 checkHighlight
 (
-aUrl
+aActor
 aLine
 )
 {
@@ -785,9 +785,9 @@ gSources
 getBreakpoint
 (
 {
-url
+actor
 :
-aUrl
+aActor
 line
 :
 aLine
@@ -813,8 +813,8 @@ _selectedBreakpointItem
 .
 attachment
 .
-url
-aUrl
+actor
+aActor
 "
 The
 selected
@@ -948,7 +948,7 @@ indexOf
 debugger
 "
 )
-172
+166
 "
 The
 second

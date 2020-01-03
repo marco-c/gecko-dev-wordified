@@ -687,7 +687,7 @@ waitForCaretUpdated
 (
 gPanel
 6
-12
+6
 )
 ]
 )
@@ -717,7 +717,7 @@ ensureCaretAt
 (
 gPanel
 6
-12
+6
 )
 verifyContents
 (

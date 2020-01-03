@@ -39,13 +39,7 @@ comment
 is
 useful
 :
-eval
-(
-"
 debugger
-;
-"
-)
 ;
 function
 foo

@@ -32,14 +32,8 @@ firstCall
 (
 )
 {
-eval
-(
-"
 secondCall
 (
-)
-;
-"
 )
 ;
 }
