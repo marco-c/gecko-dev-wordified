@@ -3472,7 +3472,7 @@ bool
 WrapperAnswer
 :
 :
-RecvGetPropertyNames
+RecvGetPropertyKeys
 (
 const
 ObjectId
@@ -3538,7 +3538,7 @@ LOG
 %
 s
 .
-getPropertyNames
+getPropertyKeys
 (
 )
 "

@@ -813,7 +813,7 @@ flags
 ;
 }
 bool
-RecvGetPropertyNames
+RecvGetPropertyKeys
 (
 const
 uint64_t
@@ -838,7 +838,7 @@ return
 Answer
 :
 :
-RecvGetPropertyNames
+RecvGetPropertyKeys
 (
 ObjectId
 :
@@ -1600,7 +1600,7 @@ flags
 ;
 }
 bool
-SendGetPropertyNames
+SendGetPropertyKeys
 (
 const
 ObjectId
@@ -1625,7 +1625,7 @@ return
 Base
 :
 :
-SendGetPropertyNames
+SendGetPropertyKeys
 (
 objId
 .
