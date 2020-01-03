@@ -3480,12 +3480,6 @@ mAPZEventState
 ;
 nsRefPtr
 <
-SetTargetAPZCCallback
->
-mSetTargetAPZCCallback
-;
-nsRefPtr
-<
 SetAllowedTouchBehaviorCallback
 >
 mSetAllowedTouchBehaviorCallback
