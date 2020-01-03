@@ -1633,6 +1633,8 @@ file
 )
 ;
 }
+if
+(
 symlink
 (
 path
@@ -1641,7 +1643,15 @@ argv
 5
 ]
 )
+!
+=
+0
+)
+{
+return
+1
 ;
+}
 NS_tsnprintf
 (
 path
