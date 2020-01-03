@@ -2348,7 +2348,7 @@ attrs
 if
 (
 !
-StandardDefineProperty
+DefineProperty
 (
 cx
 obj
