@@ -647,6 +647,7 @@ def
 start_browser
 (
 browserPath
+app_args
 )
 :
     
@@ -708,6 +709,18 @@ toes
 port
 =
 2929
+        
+app_args
+=
+app_args
+        
+gecko_log
+=
+"
+firefox
+.
+log
+"
     
 )
     
@@ -789,57 +802,32 @@ function
 def
 main
 (
-)
-:
-    
-try
-:
-        
-args
+firefox
 =
-parse_args
-(
-sys
-.
-argv
-[
-1
-:
-]
-)
-    
-except
-CommandLineError
-as
-e
-:
-        
-return
-1
-    
-logger
+None
+b2g_desktop
 =
-structured
-.
-commandline
-.
-setup_logging
-(
-        
-'
-luciddream
-'
-args
-{
-"
-tbpl
-"
-:
-sys
-.
-stdout
-}
+None
+emulator
+=
+None
+emulator_arch
+=
+None
+gaia_profile
+=
+None
+manifest
+=
+None
+browser_args
+=
+None
+*
+*
+kwargs
 )
+:
     
 #
 It
@@ -935,33 +923,63 @@ browser
 =
 start_browser
 (
-args
-.
-browserPath
+firefox
+browser_args
 )
     
 kwargs
+[
+"
+browser
+"
+]
 =
-{
-        
-'
 browser
-'
-:
-browser
-        
-'
-logger
-'
-:
-logger
-    
-}
     
 if
-args
+not
+"
+logger
+"
+in
+kwargs
+:
+        
+logger
+=
+structured
 .
-b2gPath
+commandline
+.
+setup_logging
+(
+            
+"
+luciddream
+"
+kwargs
+{
+"
+tbpl
+"
+:
+sys
+.
+stdout
+}
+)
+        
+kwargs
+[
+"
+logger
+"
+]
+=
+logger
+    
+if
+emulator
 :
         
 kwargs
@@ -971,9 +989,7 @@ homedir
 '
 ]
 =
-args
-.
-b2gPath
+emulator
         
 kwargs
 [
@@ -982,14 +998,10 @@ emulator
 '
 ]
 =
-args
-.
-emulator
+emulator_arch
     
 elif
-args
-.
-b2gDesktopPath
+b2g_desktop
 :
         
 #
@@ -1005,15 +1017,11 @@ bin
 '
 not
 in
-args
-.
-b2gDesktopPath
+b2g_desktop
 :
             
 if
-args
-.
-b2gDesktopPath
+b2g_desktop
 .
 endswith
 (
@@ -1026,9 +1034,7 @@ exe
                 
 newpath
 =
-args
-.
-b2gDesktopPath
+b2g_desktop
 [
 :
 -
@@ -1047,9 +1053,7 @@ else
                 
 newpath
 =
-args
-.
-b2gDesktopPath
+b2g_desktop
 +
 '
 -
@@ -1067,9 +1071,7 @@ newpath
 )
 :
                 
-args
-.
-b2gDesktopPath
+b2g_desktop
 =
 newpath
         
@@ -1080,9 +1082,7 @@ binary
 '
 ]
 =
-args
-.
-b2gDesktopPath
+b2g_desktop
         
 kwargs
 [
@@ -1096,9 +1096,7 @@ b2gdesktop
 '
         
 if
-args
-.
-gaiaProfile
+gaia_profile
 :
             
 kwargs
@@ -1108,9 +1106,7 @@ profile
 '
 ]
 =
-args
-.
-gaiaProfile
+gaia_profile
         
 else
 :
@@ -1135,9 +1131,7 @@ path
 .
 dirname
 (
-args
-.
-b2gDesktopPath
+b2g_desktop
 )
                 
 '
@@ -1164,8 +1158,6 @@ runner
 run_tests
 (
 [
-args
-.
 manifest
 ]
 )
@@ -1200,6 +1192,20 @@ __main__
 '
 :
     
+args
+=
+parse_args
+(
+sys
+.
+argv
+[
+1
+:
+]
+)
+    
 main
 (
+args
 )
