@@ -1074,11 +1074,6 @@ r
 '
 valloc
 '
-        
-r
-'
-strdup
-'
     
 ]
     
@@ -1111,6 +1106,11 @@ realloc
 r
 '
 free
+'
+            
+r
+'
+strdup
 '
         
 ]
