@@ -118,7 +118,7 @@ false
 waitForNetworkEvents
 (
 aMonitor
-6
+7
 )
 .
 then
