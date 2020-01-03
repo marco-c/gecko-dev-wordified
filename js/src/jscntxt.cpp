@@ -6189,6 +6189,10 @@ propagatingForcedReturn_
 (
 false
 )
+liveVolatileJitFrameIterators_
+(
+nullptr
+)
 reportGranularity
 (
 JS_DEFAULT_JITREPORT_GRANULARITY
