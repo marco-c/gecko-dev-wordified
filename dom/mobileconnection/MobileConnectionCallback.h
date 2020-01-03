@@ -176,7 +176,7 @@ non
 OOP
 mode
 :
-MobileConnectionGonkService
+MobileConnectionService
 *
 The
 reference
