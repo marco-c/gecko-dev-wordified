@@ -110,6 +110,9 @@ namespace
 mozilla
 {
 class
+ErrorResult
+;
+class
 WebGLSampler
 ;
 class
@@ -545,6 +548,9 @@ GLenum
 >
 &
 attachments
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -570,6 +576,9 @@ GLsizei
 width
 GLsizei
 height
+ErrorResult
+&
+aRv
 )
 ;
 void
