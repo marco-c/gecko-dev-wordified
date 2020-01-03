@@ -637,6 +637,16 @@ s
 "
 -
 -
+console
+-
+level
+=
+INFO
+"
+                
+"
+-
+-
 emulator
 =
 %
@@ -846,6 +856,16 @@ b2gpath
 b2gpath
 )
 s
+"
+                
+"
+-
+-
+console
+-
+level
+=
+INFO
 "
                 
 "
