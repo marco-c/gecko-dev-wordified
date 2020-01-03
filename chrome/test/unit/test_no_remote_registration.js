@@ -424,6 +424,17 @@ return
 uri
 ;
 }
+newChannel2
+:
+function
+(
+)
+{
+throw
+Cr
+.
+NS_ERROR_NOT_IMPLEMENTED
+}
 newChannel
 :
 function
