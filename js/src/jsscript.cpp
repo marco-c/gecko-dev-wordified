@@ -26480,12 +26480,6 @@ false
 ;
 p
 .
-directlyInsideEval
-=
-false
-;
-p
-.
 usesArgumentsApplyAndThis
 =
 false
