@@ -1226,6 +1226,12 @@ Function
 "
 )
 ;
+gSearchBox
+.
+doCommand
+(
+)
+;
 return
 expanded
 .
@@ -1451,6 +1457,12 @@ Function
 \
 "
 "
+)
+;
+gSearchBox
+.
+doCommand
+(
 )
 ;
 expanded
