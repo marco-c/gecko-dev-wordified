@@ -3899,8 +3899,8 @@ mTwipsPerPixel
 return
 NS_CombineHint
 (
-nsChangeHint_AllReflowHints
-nsChangeHint_RepaintFrame
+nsChangeHint_UpdateOverflow
+nsChangeHint_SchedulePaint
 )
 ;
 }
