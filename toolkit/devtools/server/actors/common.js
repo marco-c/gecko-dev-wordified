@@ -2809,7 +2809,7 @@ generatedLine
 =
 other
 .
-originalLine
+generatedLine
 ;
 }
 toJSON
