@@ -396,6 +396,7 @@ AsmJSMathBuiltin_imul
 AsmJSMathBuiltin_fround
 AsmJSMathBuiltin_min
 AsmJSMathBuiltin_max
+AsmJSMathBuiltin_clz32
 }
 ;
 /
