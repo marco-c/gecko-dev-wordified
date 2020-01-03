@@ -1135,6 +1135,14 @@ aIncludingSession
 )
 ;
 nsresult
+OpenDatabase
+(
+nsIFile
+*
+permissionsFile
+)
+;
+nsresult
 InitDB
 (
 bool
@@ -1561,6 +1569,9 @@ nsCOMPtr
 mozIStorageAsyncStatement
 >
 mStmtUpdate
+;
+bool
+mMemoryOnlyDB
 ;
 nsTHashtable
 <
