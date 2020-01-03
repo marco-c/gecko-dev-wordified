@@ -15544,7 +15544,7 @@ MOZ_ASSERT
 js
 :
 :
-GetObjectParent
+GetGlobalForObjectCrossCompartment
 (
 outerObject
 )
