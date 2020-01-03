@@ -112,12 +112,14 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
-Cc
-Ci
 Cu
-Cr
 }
 =
 require
@@ -306,6 +308,7 @@ this
 )
 ;
 }
+;
 exports
 .
 StoragePanel
@@ -598,6 +601,7 @@ null
 ;
 }
 }
+;
 XPCOMUtils
 .
 defineLazyGetter

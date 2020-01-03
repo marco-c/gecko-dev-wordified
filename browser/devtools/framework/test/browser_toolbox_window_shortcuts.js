@@ -28,6 +28,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 let
 {
 Toolbox

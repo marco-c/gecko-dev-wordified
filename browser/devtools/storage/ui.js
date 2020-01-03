@@ -321,12 +321,12 @@ GENERIC_VARIABLES_VIEW_SETTINGS
 lazyEmpty
 :
 true
-lazyEmptyDelay
-:
-10
 /
 /
 ms
+lazyEmptyDelay
+:
+10
 searchEnabled
 :
 true
@@ -439,6 +439,9 @@ in
 .
 *
 /
+let
+StorageUI
+=
 this
 .
 StorageUI
@@ -615,6 +618,7 @@ this
 .
 displayObjectSidebar
 )
+;
 this
 .
 sidebar
@@ -799,6 +803,7 @@ storage
 )
 ;
 }
+;
 exports
 .
 StorageUI
@@ -1004,6 +1009,7 @@ table
 selectNextRow
 (
 )
+;
 }
 else
 {
@@ -1809,6 +1815,10 @@ catch
 ex
 )
 {
+/
+/
+Do
+nothing
 }
 }
 if
@@ -2488,6 +2498,10 @@ catch
 ex
 )
 {
+/
+/
+Do
+nothing
 }
 }
 if
@@ -3062,6 +3076,7 @@ let
 json
 =
 null
+;
 try
 {
 json
@@ -3236,6 +3251,13 @@ create
 null
 )
 ;
+let
+view
+=
+this
+.
+view
+;
 jsonObject
 [
 name
@@ -3246,8 +3268,6 @@ json
 let
 valueScope
 =
-this
-.
 view
 .
 getScopeAtIndex
@@ -3256,8 +3276,6 @@ getScopeAtIndex
 )
 |
 |
-this
-.
 view
 .
 addScope
@@ -4462,3 +4480,4 @@ preventDefault
 }
 }
 }
+;

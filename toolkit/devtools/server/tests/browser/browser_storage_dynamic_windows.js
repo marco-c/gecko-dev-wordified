@@ -309,7 +309,10 @@ do
 not
 interfere
 next
+/
+/
 ones
+.
 /
 *
 *
@@ -505,6 +508,7 @@ finish
 )
 ;
 }
+;
 gWindow
 .
 clearIterator
@@ -723,6 +727,7 @@ Object
 empty
 "
 )
+;
 return
 ;
 }
@@ -2030,6 +2035,9 @@ deleted
 for
 Cookies
 as
+"
++
+"
 the
 same
 hostname

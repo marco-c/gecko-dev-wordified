@@ -1117,8 +1117,6 @@ toolbox
 )
 ;
 }
-else
-{
 return
 {
 toolbox
@@ -1129,7 +1127,6 @@ storage
 storage
 }
 ;
-}
 }
 }
 info
@@ -1226,8 +1223,6 @@ toolbox
 )
 ;
 }
-else
-{
 return
 {
 toolbox
@@ -1238,7 +1233,6 @@ storage
 storage
 }
 ;
-}
 }
 )
 ;
@@ -1890,7 +1884,6 @@ aProp
 }
 }
 else
-{
 if
 (
 newProp
@@ -1913,7 +1906,6 @@ reject
 aProp
 )
 ;
-}
 }
 }
 function
@@ -1960,6 +1952,7 @@ resolve
 (
 root
 )
+;
 }
 return
 lastDeferred
@@ -2239,6 +2232,7 @@ name
 value
 dontMatch
 }
+;
 }
 )
 ;
@@ -2469,7 +2463,7 @@ aProp
 function
 finder
 (
-aRules
+rules
 aView
 aPromises
 )
@@ -2486,7 +2480,6 @@ for
 (
 let
 [
-id
 prop
 ]
 of
@@ -2498,7 +2491,7 @@ for
 let
 rule
 of
-aRules
+rules
 )
 {
 let
@@ -2536,13 +2529,13 @@ rule
 function
 processExpandRules
 (
-aRules
+rules
 )
 {
 let
 rule
 =
-aRules
+rules
 .
 shift
 (
@@ -2702,7 +2695,7 @@ processExpandRules
 bind
 (
 null
-aRules
+rules
 )
 )
 .
@@ -2731,7 +2724,7 @@ promise
 function
 onAllRulesMatched
 (
-aRules
+rules
 )
 {
 for
@@ -2739,7 +2732,7 @@ for
 let
 rule
 of
-aRules
+rules
 )
 {
 let
@@ -2845,7 +2838,7 @@ property
 }
 }
 return
-aRules
+rules
 ;
 }
 return

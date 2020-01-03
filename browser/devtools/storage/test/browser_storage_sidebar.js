@@ -144,6 +144,11 @@ open
 /
 /
 ]
+"
+use
+strict
+"
+;
 const
 testCases
 =

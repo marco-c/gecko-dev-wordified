@@ -63,7 +63,6 @@ strict
 ;
 const
 {
-Cu
 Cc
 Ci
 }
@@ -174,7 +173,6 @@ utils
 const
 {
 Arg
-Option
 method
 RetVal
 types
@@ -2998,9 +2996,6 @@ ActorClass
 actorObject
 )
 ;
-let
-front
-=
 protocol
 .
 FrontClass
@@ -7847,9 +7842,6 @@ methodName
 deferred
 )
 ;
-let
-reply
-=
 sendSyncMessage
 (
 "
