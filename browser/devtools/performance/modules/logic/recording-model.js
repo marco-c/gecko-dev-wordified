@@ -2377,13 +2377,6 @@ timeOffset
 this
 .
 _memoryStartTime
-*
-1000
-;
-let
-timeScale
-=
-1000
 ;
 RecordingUtils
 .
@@ -2391,7 +2384,6 @@ offsetAndScaleTimestamps
 (
 timestamps
 timeOffset
-timeScale
 )
 ;
 pushAll
