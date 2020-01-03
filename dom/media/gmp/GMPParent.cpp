@@ -366,7 +366,13 @@ x
 )
 LOG
 (
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 "
 GMPParent
 [

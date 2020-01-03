@@ -153,7 +153,10 @@ aQuery
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 nsInstantiationNode

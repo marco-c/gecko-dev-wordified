@@ -6786,7 +6786,10 @@ row
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 xultemplate

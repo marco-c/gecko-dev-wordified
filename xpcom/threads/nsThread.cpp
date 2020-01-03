@@ -585,7 +585,13 @@ MOZ_LOG
 GetThreadLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 NS_DECL_CI_INTERFACE_GETTER

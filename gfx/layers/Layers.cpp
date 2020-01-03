@@ -13553,7 +13553,10 @@ return
 MOZ_LOG_TEST
 (
 sLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 ;
 }

@@ -621,7 +621,13 @@ LOG
 MOZ_LOG
 (
 gLog
-PR_LOG_NOTICE
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 (
 __VA_ARGS__
 )

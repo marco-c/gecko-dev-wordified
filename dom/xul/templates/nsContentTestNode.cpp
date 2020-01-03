@@ -158,6 +158,12 @@ Logging
 .
 h
 "
+using
+mozilla
+:
+:
+LogLevel
+;
 extern
 PRLogModuleInfo
 *
@@ -202,7 +208,10 @@ if
 MOZ_LOG_TEST
 (
 gXULTemplateLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {
@@ -259,7 +268,10 @@ refvar
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 nsContentTestNode

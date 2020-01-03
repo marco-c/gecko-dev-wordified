@@ -193,7 +193,10 @@ gMediaTimerLog
 MOZ_LOG
 (
 gMediaTimerLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 [

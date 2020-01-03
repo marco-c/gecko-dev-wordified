@@ -218,7 +218,13 @@ args
 MOZ_LOG
 (
 gRtspLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #

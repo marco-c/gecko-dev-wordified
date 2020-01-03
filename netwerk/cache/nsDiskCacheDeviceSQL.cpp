@@ -1470,7 +1470,10 @@ if
 MOZ_LOG_TEST
 (
 gCacheLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {

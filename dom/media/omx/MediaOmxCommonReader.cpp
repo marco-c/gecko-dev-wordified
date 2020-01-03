@@ -423,7 +423,10 @@ Content
 ;
 DECODER_LOG
 (
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 %
@@ -489,7 +492,10 @@ AUDIO_STREAM_MUSIC
 {
 DECODER_LOG
 (
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Can

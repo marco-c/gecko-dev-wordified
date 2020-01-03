@@ -1803,7 +1803,10 @@ if
 MOZ_LOG_TEST
 (
 gStorageLog
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 )
 )
 {
@@ -1850,7 +1853,10 @@ rv
 MOZ_LOG
 (
 gStorageLog
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 (
 "
 Vacuum

@@ -604,7 +604,10 @@ doPK11Logout
 MOZ_LOG
 (
 gPIPNSSLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 canceling
@@ -854,7 +857,10 @@ restrictActivityToCurrentThread
 MOZ_LOG
 (
 gPIPNSSLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 failed
@@ -877,7 +883,10 @@ NS_ERROR_FAILURE
 MOZ_LOG
 (
 gPIPNSSLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 now
