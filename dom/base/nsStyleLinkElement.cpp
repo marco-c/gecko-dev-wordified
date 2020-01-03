@@ -2334,6 +2334,12 @@ isAlternate
 GetCORSMode
 (
 )
+doc
+-
+>
+GetReferrerPolicy
+(
+)
 aObserver
 &
 isAlternate

@@ -52059,6 +52059,9 @@ const
 nsAString
 &
 aCrossOriginAttr
+const
+ReferrerPolicy
+aReferrerPolicy
 )
 {
 /
@@ -52115,6 +52118,7 @@ StringToCORSMode
 (
 aCrossOriginAttr
 )
+aReferrerPolicy
 )
 ;
 }

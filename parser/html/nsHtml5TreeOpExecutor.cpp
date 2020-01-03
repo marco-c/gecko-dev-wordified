@@ -5152,6 +5152,7 @@ PreloadStyle
 uri
 aCharset
 aCrossOrigin
+mSpeculationReferrerPolicy
 )
 ;
 }

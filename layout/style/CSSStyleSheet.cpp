@@ -4376,6 +4376,8 @@ CSSStyleSheet
 aPrimarySheet
 CORSMode
 aCORSMode
+ReferrerPolicy
+aReferrerPolicy
 )
 :
 mSheets
@@ -4384,6 +4386,10 @@ mSheets
 mCORSMode
 (
 aCORSMode
+)
+mReferrerPolicy
+(
+aReferrerPolicy
 )
 mComplete
 (
@@ -5106,6 +5112,12 @@ aCopy
 .
 mCORSMode
 )
+mReferrerPolicy
+(
+aCopy
+.
+mReferrerPolicy
+)
 mComplete
 (
 aCopy
@@ -5809,6 +5821,8 @@ CSSStyleSheet
 (
 CORSMode
 aCORSMode
+ReferrerPolicy
+aReferrerPolicy
 )
 :
 mTitle
@@ -5854,6 +5868,7 @@ CSSStyleSheetInner
 (
 this
 aCORSMode
+aReferrerPolicy
 )
 ;
 }
