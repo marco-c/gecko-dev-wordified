@@ -180,12 +180,7 @@ hosts
 "
 )
 ;
-let
-test
-=
-Task
-.
-async
+add_task
 (
 function
 *
@@ -210,10 +205,6 @@ performTest
 gBrowser
 .
 removeCurrentTab
-(
-)
-;
-finish
 (
 )
 ;

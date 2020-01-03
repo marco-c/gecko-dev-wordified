@@ -134,12 +134,7 @@ hosts
 "
 )
 ;
-let
-test
-=
-Task
-.
-async
+add_task
 (
 function
 *
