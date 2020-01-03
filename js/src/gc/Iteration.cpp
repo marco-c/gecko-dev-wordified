@@ -889,6 +889,11 @@ if
 obj
 -
 >
+asTenured
+(
+)
+-
+>
 isMarked
 (
 GRAY

@@ -7059,6 +7059,11 @@ src
 selfHostingGlobal_
 -
 >
+zone
+(
+)
+-
+>
 pod_malloc
 <
 char
@@ -8457,7 +8462,12 @@ global
 selfHostedObject
 -
 >
-tenuredGetAllocKind
+asTenured
+(
+)
+-
+>
+getAllocKind
 (
 )
 SingletonObject

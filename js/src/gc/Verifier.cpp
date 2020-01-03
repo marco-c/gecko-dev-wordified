@@ -1761,7 +1761,7 @@ static
 bool
 IsMarkedOrAllocated
 (
-Cell
+TenuredCell
 *
 cell
 )
@@ -2011,11 +2011,10 @@ thing
 |
 IsMarkedOrAllocated
 (
-static_cast
-<
-Cell
-*
->
+TenuredCell
+:
+:
+fromPointer
 (
 edge
 .

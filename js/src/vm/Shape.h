@@ -2200,10 +2200,7 @@ public
 gc
 :
 :
-BarrieredCell
-<
-BaseShape
->
+TenuredCell
 {
 public
 :
@@ -4407,10 +4404,7 @@ public
 gc
 :
 :
-BarrieredCell
-<
-Shape
->
+TenuredCell
 {
 friend
 class

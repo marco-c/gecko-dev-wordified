@@ -19277,6 +19277,11 @@ sourceObject
 )
 -
 >
+asTenured
+(
+)
+-
+>
 isMarked
 (
 gc
@@ -24509,6 +24514,11 @@ table
 bytes
 ?
 fun
+-
+>
+zone
+(
+)
 -
 >
 pod_malloc

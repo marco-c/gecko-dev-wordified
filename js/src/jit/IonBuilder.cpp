@@ -46672,7 +46672,12 @@ kind
 object
 -
 >
-tenuredGetAllocKind
+asTenured
+(
+)
+-
+>
+getAllocKind
 (
 )
 ;

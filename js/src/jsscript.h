@@ -4415,10 +4415,7 @@ js
 gc
 :
 :
-BarrieredCell
-<
-JSScript
->
+TenuredCell
 {
 template
 <
@@ -7669,7 +7666,7 @@ IonScript
 :
 writeBarrierPre
 (
-tenuredZone
+zone
 (
 )
 ion
@@ -7987,7 +7984,7 @@ IonScript
 :
 writeBarrierPre
 (
-tenuredZone
+zone
 (
 )
 parallelIon
@@ -10661,10 +10658,7 @@ public
 gc
 :
 :
-BarrieredCell
-<
-LazyScript
->
+TenuredCell
 {
 public
 :

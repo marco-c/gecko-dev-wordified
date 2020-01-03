@@ -1230,7 +1230,12 @@ toObject
 (
 )
 .
-tenuredGetAllocKind
+asTenured
+(
+)
+-
+>
+getAllocKind
 (
 )
 )

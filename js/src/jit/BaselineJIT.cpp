@@ -2457,6 +2457,11 @@ script
 jsscript
 -
 >
+zone
+(
+)
+-
+>
 pod_malloc_with_extra
 <
 BaselineScript

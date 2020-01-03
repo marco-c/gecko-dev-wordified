@@ -6355,13 +6355,11 @@ script
 struct
 TypeObject
 :
+public
 gc
 :
 :
-BarrieredCell
-<
-TypeObject
->
+TenuredCell
 {
 private
 :
