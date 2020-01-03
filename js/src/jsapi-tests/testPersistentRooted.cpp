@@ -57,12 +57,6 @@ MPL
 *
 /
 #
-if
-defined
-(
-JSGC_USE_EXACT_ROOTING
-)
-#
 include
 "
 js
@@ -927,12 +921,4 @@ true
 END_TEST
 (
 test_PersistentRootedAssign
-)
-#
-endif
-/
-/
-defined
-(
-JSGC_USE_EXACT_ROOTING
 )
