@@ -165,14 +165,6 @@ Constants
 public
 static
 final
-int
-SUGGESTION_MAX
-=
-5
-;
-public
-static
-final
 String
 ABOUT_BLANK
 =
