@@ -399,14 +399,6 @@ FLAG_PERSIST
 =
 1
 ;
-public
-static
-final
-int
-FLAG_SCALE
-=
-2
-;
 private
 static
 final
