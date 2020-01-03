@@ -89,7 +89,7 @@ panelWin
 .
 gFront
 ;
-PMM_loadProfilerScripts
+PMM_loadFrameScripts
 (
 gBrowser
 )
