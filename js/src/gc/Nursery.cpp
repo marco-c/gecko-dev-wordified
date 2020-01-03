@@ -2600,6 +2600,12 @@ AutoTraceSession
 session
 (
 rt
+JS
+:
+:
+HeapState
+:
+:
 MinorCollecting
 )
 ;

@@ -3340,12 +3340,7 @@ isBeingDestroyed
 &
 &
 !
-trc
--
->
-runtime
-(
-)
+rt
 -
 >
 isHeapMinorCollecting
@@ -3512,6 +3507,9 @@ profilingScripts
 &
 &
 !
+rt
+-
+>
 isHeapMinorCollecting
 (
 )
@@ -3638,12 +3636,7 @@ next
 {
 if
 (
-trc
--
->
-runtime
-(
-)
+rt
 -
 >
 isHeapMinorCollecting
@@ -3803,6 +3796,9 @@ trc
 if
 (
 !
+rt
+-
+>
 isHeapMinorCollecting
 (
 )
