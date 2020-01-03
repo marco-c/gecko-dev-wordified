@@ -543,7 +543,11 @@ mEventQueue
 LAST_LEVEL
 ]
 ;
+Atomic
+<
 bool
+Relaxed
+>
 mHasXPCOMEvents
 ;
 bool
