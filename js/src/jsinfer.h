@@ -3749,6 +3749,15 @@ LifoAlloc
 alloc
 )
 ;
+TemporaryTypeSet
+*
+cloneWithoutObjects
+(
+LifoAlloc
+*
+alloc
+)
+;
 /
 /
 Trigger
