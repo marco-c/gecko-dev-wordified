@@ -511,7 +511,7 @@ methods
 are
 called
 upon
-NS_WHEEL_START
+eWheelOperationStart
 /
 NS_WHEEL_STOP
 events

@@ -4245,7 +4245,7 @@ case
 eWheel
 :
 case
-NS_WHEEL_START
+eWheelOperationStart
 :
 case
 NS_WHEEL_STOP

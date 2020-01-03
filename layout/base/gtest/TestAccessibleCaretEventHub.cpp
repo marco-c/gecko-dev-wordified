@@ -3819,7 +3819,7 @@ HandleEventAndCheckState
 (
 CreateWheelEvent
 (
-NS_WHEEL_START
+eWheelOperationStart
 )
 MockAccessibleCaretEventHub
 :

@@ -3211,12 +3211,12 @@ this
 break
 ;
 case
-NS_WHEEL_START
+eWheelOperationStart
 :
 AC_LOGV
 (
 "
-NS_WHEEL_START
+eWheelOperationStart
 state
 :
 %

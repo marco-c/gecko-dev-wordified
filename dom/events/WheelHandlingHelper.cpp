@@ -3001,7 +3001,7 @@ aEvent
 mMessage
 =
 =
-NS_WHEEL_START
+eWheelOperationStart
 )
 {
 WheelTransaction
