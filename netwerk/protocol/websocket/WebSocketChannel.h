@@ -724,6 +724,13 @@ StartPinging
 void
 BeginOpen
 (
+bool
+aCalledFromAdmissionManager
+)
+;
+void
+BeginOpenInternal
+(
 )
 ;
 nsresult
