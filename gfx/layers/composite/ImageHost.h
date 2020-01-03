@@ -468,6 +468,15 @@ mHasPictureRect
 true
 ;
 }
+gfx
+:
+:
+IntSize
+GetImageSize
+(
+)
+const
+;
 virtual
 LayerRenderState
 GetRenderState
