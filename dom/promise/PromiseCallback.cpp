@@ -311,7 +311,7 @@ this
 )
 ;
 }
-void
+nsresult
 ResolvePromiseCallback
 :
 :
@@ -398,6 +398,7 @@ compartment
 )
 ;
 return
+NS_ERROR_FAILURE
 ;
 }
 mPromise
@@ -408,6 +409,9 @@ ResolveInternal
 aCx
 value
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -531,7 +535,7 @@ this
 )
 ;
 }
-void
+nsresult
 RejectPromiseCallback
 :
 :
@@ -618,6 +622,7 @@ compartment
 )
 ;
 return
+NS_ERROR_FAILURE
 ;
 }
 mPromise
@@ -628,6 +633,9 @@ RejectInternal
 aCx
 value
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -765,7 +773,7 @@ this
 )
 ;
 }
-void
+nsresult
 WrapperPromiseCallback
 :
 :
@@ -837,6 +845,7 @@ compartment
 )
 ;
 return
+NS_ERROR_FAILURE
 ;
 }
 ErrorResult
@@ -967,6 +976,7 @@ compartment
 )
 ;
 return
+NS_ERROR_FAILURE
 ;
 }
 }
@@ -1065,6 +1075,7 @@ value
 )
 ;
 return
+NS_OK
 ;
 }
 /
@@ -1362,6 +1373,7 @@ aCx
 )
 ;
 return
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 JS
@@ -1417,6 +1429,7 @@ aCx
 )
 ;
 return
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 JS
@@ -1477,6 +1490,7 @@ aCx
 )
 ;
 return
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 mNextPromise
@@ -1489,6 +1503,7 @@ typeError
 )
 ;
 return
+NS_OK
 ;
 }
 }
@@ -1530,6 +1545,7 @@ compartment
 )
 ;
 return
+NS_ERROR_FAILURE
 ;
 }
 mNextPromise
@@ -1540,6 +1556,9 @@ ResolveInternal
 aCx
 retValue
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -1608,7 +1627,7 @@ NativePromiseCallback
 )
 {
 }
-void
+nsresult
 NativePromiseCallback
 :
 :
@@ -1651,6 +1670,7 @@ aValue
 )
 ;
 return
+NS_OK
 ;
 }
 if
@@ -1674,6 +1694,7 @@ aValue
 )
 ;
 return
+NS_OK
 ;
 }
 NS_NOTREACHED
@@ -1683,6 +1704,9 @@ huh
 ?
 "
 )
+;
+return
+NS_ERROR_FAILURE
 ;
 }
 /
