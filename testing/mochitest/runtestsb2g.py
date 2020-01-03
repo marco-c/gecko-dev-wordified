@@ -863,6 +863,18 @@ build_profile
 options
 )
         
+self
+.
+logPreamble
+(
+self
+.
+getActiveTests
+(
+options
+)
+)
+        
 #
 configuring
 the
