@@ -1595,6 +1595,11 @@ InitAsyncSurrogates
 protected
 :
 void
+NotifyFlashHang
+(
+)
+;
+void
 NotifyPluginCrashed
 (
 )
