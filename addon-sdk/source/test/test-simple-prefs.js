@@ -2680,12 +2680,12 @@ page
 tabId
 document
 }
-)
 =
 yield
 open
 (
 addon
+)
 )
 ;
 /
@@ -2702,10 +2702,10 @@ occur
 promise
 resolve
 }
-)
 =
 defer
 (
+)
 )
 ;
 results
