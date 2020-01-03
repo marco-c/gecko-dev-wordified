@@ -1024,6 +1024,9 @@ dom
 Element
 &
 element
+ErrorResult
+&
+aRv
 )
 ;
 bool
@@ -2226,6 +2229,12 @@ double
 >
 &
 mSegments
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 ;
 void
