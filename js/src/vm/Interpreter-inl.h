@@ -5412,14 +5412,6 @@ cx
 )
 )
 {
-MOZ_ASSERT
-(
-!
-InParallelSection
-(
-)
-)
-;
 initFunction
 (
 fval

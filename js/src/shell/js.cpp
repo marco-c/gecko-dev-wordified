@@ -6161,16 +6161,11 @@ runtime
 ;
 if
 (
-InParallelSection
-(
-)
-|
-|
 !
 cx
 -
 >
-allowGC
+isJSContext
 (
 )
 )

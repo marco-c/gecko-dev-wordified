@@ -4258,10 +4258,6 @@ numBailouts_
 (
 0
 )
-hasUncompiledCallTarget_
-(
-false
-)
 hasSPSInstrumentation_
 (
 false

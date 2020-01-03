@@ -7439,14 +7439,6 @@ ion
 generated
 code
 .
-MOZ_ASSERT
-(
-!
-InParallelSection
-(
-)
-)
-;
 args
 .
 rval

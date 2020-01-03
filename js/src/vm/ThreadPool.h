@@ -178,6 +178,9 @@ JSCompartment
 namespace
 js
 {
+#
+if
+0
 class
 ThreadPool
 ;
@@ -2049,6 +2052,8 @@ abortJob
 ;
 }
 ;
+#
+endif
 }
 /
 /
