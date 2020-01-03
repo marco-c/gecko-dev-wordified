@@ -9298,13 +9298,6 @@ layerView
 ;
 GeckoAppShell
 .
-setLayerView
-(
-layerView
-)
-;
-GeckoAppShell
-.
 sendEventToGecko
 (
 GeckoEvent
