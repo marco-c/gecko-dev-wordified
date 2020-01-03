@@ -2223,13 +2223,6 @@ of
 a
 connection
 failure
-"
-+
-"
-on
-example
-.
-com
 .
 "
 "
@@ -2427,9 +2420,8 @@ add
 on
 downloaded
 from
-example
-.
-com
+this
+site
 could
 not
 be
@@ -5103,9 +5095,8 @@ add
 on
 downloaded
 from
-example
-.
-com
+this
+site
 could
 not
 be
