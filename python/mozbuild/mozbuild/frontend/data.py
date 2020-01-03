@@ -602,10 +602,6 @@ dirs
 '
 test_dirs
 '
-        
-'
-tier_dirs
-'
     
 )
     
@@ -638,14 +634,6 @@ test_dirs
 =
 [
 ]
-        
-self
-.
-tier_dirs
-=
-OrderedDict
-(
-)
 class
 BaseConfigSubstitution
 (
