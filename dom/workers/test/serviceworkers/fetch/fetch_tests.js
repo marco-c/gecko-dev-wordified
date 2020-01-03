@@ -1125,6 +1125,8 @@ status
 "
 gzip
 load
+after
+extracting
 should
 be
 successful
@@ -1142,6 +1144,8 @@ expectedUncompressedResponse
 "
 gzip
 load
+after
+extracting
 should
 have
 synthesized
@@ -1171,6 +1175,8 @@ gzip
 Content
 -
 Encoding
+after
+extracting
 should
 be
 gzip
@@ -1199,6 +1205,8 @@ Length
 Content
 -
 Length
+after
+extracting
 should
 be
 of
