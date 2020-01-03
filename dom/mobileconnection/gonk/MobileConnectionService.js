@@ -3145,7 +3145,9 @@ listeners
 {
 if
 (
-listeners
+this
+.
+_listeners
 .
 indexOf
 (
