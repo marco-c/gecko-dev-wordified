@@ -107,13 +107,13 @@ appendChild
 iframe
 )
 ;
-checkForGenericError
+checkForDnsError
 (
 )
 ;
 }
 function
-checkForGenericError
+checkForDnsError
 (
 )
 {
@@ -125,7 +125,7 @@ addEventListener
 mozbrowsererror
 "
 function
-onGenericError
+onDnsError
 (
 e
 )
@@ -137,7 +137,7 @@ removeEventListener
 e
 .
 type
-onGenericError
+onDnsError
 )
 ;
 ok
@@ -161,7 +161,7 @@ type
 =
 =
 "
-other
+dnsNotFound
 "
 "
 Event
