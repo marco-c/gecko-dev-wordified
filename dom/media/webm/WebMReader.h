@@ -770,10 +770,7 @@ WebMReader
 public
 :
 virtual
-nsRefPtr
-<
-ShutdownPromise
->
+void
 Shutdown
 (
 )
