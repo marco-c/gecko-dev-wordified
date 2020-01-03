@@ -27097,11 +27097,6 @@ mProtoLoaded
 aProtoLoaded
 )
 {
-NS_ADDREF
-(
-mDocument
-)
-;
 }
 XULDocument
 :
@@ -27114,11 +27109,6 @@ CachedChromeStreamListener
 (
 )
 {
-NS_RELEASE
-(
-mDocument
-)
-;
 }
 NS_IMPL_ISUPPORTS
 (
