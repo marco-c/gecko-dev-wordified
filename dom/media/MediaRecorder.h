@@ -1119,11 +1119,6 @@ UnRegisterActivityObserver
 (
 )
 ;
-bool
-Check3gppPermission
-(
-)
-;
 }
 ;
 }
