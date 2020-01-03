@@ -462,6 +462,13 @@ MediaThreadType
 :
 PLAYBACK
 )
+/
+*
+aSupportsTailDispatch
+=
+*
+/
+true
 )
 )
 mIgnoreAudioOutputFormat

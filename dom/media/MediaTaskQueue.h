@@ -288,7 +288,7 @@ SharedThreadPool
 >
 aPool
 bool
-aRequireTailDispatch
+aSupportsTailDispatch
 =
 false
 )

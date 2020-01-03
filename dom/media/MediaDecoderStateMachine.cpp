@@ -1530,7 +1530,7 @@ PLAYBACK
 )
 /
 *
-aAssertTailDispatch
+aSupportsTailDispatch
 =
 *
 /
