@@ -448,7 +448,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -580,7 +580,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -8856,6 +8856,7 @@ uint32_t
 aKey
 )
 {
+const
 nsTArray
 <
 DisplayItemData
@@ -8864,7 +8865,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -10803,6 +10804,7 @@ LayerManager
 aManager
 )
 {
+const
 nsTArray
 <
 DisplayItemData
@@ -10811,7 +10813,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -10932,6 +10934,7 @@ uint32_t
 aDisplayItemKey
 )
 {
+const
 nsTArray
 <
 DisplayItemData
@@ -10940,7 +10943,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -11031,6 +11034,7 @@ DisplayItemDataCallback
 aCallback
 )
 {
+const
 nsTArray
 <
 DisplayItemData
@@ -11039,7 +11043,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -11389,6 +11393,7 @@ uint32_t
 aDisplayItemKey
 )
 {
+const
 nsTArray
 <
 DisplayItemData
@@ -11397,7 +11402,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -11505,6 +11510,7 @@ nsIFrame
 aFrame
 )
 {
+const
 nsTArray
 <
 DisplayItemData
@@ -11513,7 +11519,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -32509,6 +32515,7 @@ nsIFrame
 aFrame
 )
 {
+const
 nsTArray
 <
 DisplayItemData
@@ -32517,7 +32524,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -32647,6 +32654,7 @@ in
 the
 secondary
 manager
+const
 nsTArray
 <
 DisplayItemData
@@ -32655,7 +32663,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -33036,6 +33044,7 @@ popup
 break
 ;
 }
+const
 nsTArray
 <
 DisplayItemData
@@ -33044,7 +33053,7 @@ DisplayItemData
 *
 array
 =
-reinterpret_cast
+static_cast
 <
 nsTArray
 <
@@ -36133,7 +36142,9 @@ Properties
 (
 )
 ;
-auto
+const
+DataArray
+*
 dataArray
 =
 static_cast
