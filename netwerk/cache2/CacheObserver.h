@@ -554,11 +554,11 @@ uint32_t
 sPreloadChunkCount
 ;
 static
-uint32_t
+int32_t
 sMaxMemoryEntrySize
 ;
 static
-uint32_t
+int32_t
 sMaxDiskEntrySize
 ;
 static

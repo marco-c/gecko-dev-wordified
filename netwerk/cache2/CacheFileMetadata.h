@@ -768,6 +768,15 @@ CacheFileMetadataListener
 aListener
 )
 ;
+uint32_t
+CalcMetadataSize
+(
+uint32_t
+aElementsSize
+uint32_t
+aHashCount
+)
+;
 nsresult
 WriteMetadata
 (
@@ -1140,7 +1149,7 @@ uint32_t
 aSize
 )
 ;
-void
+nsresult
 EnsureBuffer
 (
 uint32_t
