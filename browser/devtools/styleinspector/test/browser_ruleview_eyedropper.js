@@ -68,13 +68,13 @@ Services
 .
 telemetry
 .
-canRecord
+canRecordExtended
 ;
 Services
 .
 telemetry
 .
-canRecord
+canRecordExtended
 =
 true
 ;
@@ -88,7 +88,7 @@ Services
 .
 telemetry
 .
-canRecord
+canRecordExtended
 =
 oldCanRecord
 ;
