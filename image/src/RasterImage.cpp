@@ -6018,6 +6018,7 @@ StartAnimation
 )
 ;
 }
+}
 if
 (
 aNewFrameCount
@@ -6033,7 +6034,6 @@ UnionFirstFrameRefreshArea
 aNewRefreshArea
 )
 ;
-}
 }
 }
 }
