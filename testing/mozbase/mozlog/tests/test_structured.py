@@ -5242,7 +5242,7 @@ commandline
 setup_logging
 (
 "
-test
+test_setup_logging
 "
 args
 {
