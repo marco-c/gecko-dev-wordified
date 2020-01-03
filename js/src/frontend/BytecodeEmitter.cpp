@@ -41781,18 +41781,18 @@ for
 (
 ParseNode
 *
-pn2
+member
 =
 pn
 -
 >
 pn_head
 ;
-pn2
+member
 ;
-pn2
+member
 =
-pn2
+member
 -
 >
 pn_next
@@ -41805,7 +41805,7 @@ UpdateSourceCoordNotes
 (
 cx
 bce
-pn2
+member
 -
 >
 pn_pos
@@ -41836,9 +41836,9 @@ JSOP_INITELEM
 /
 ParseNode
 *
-pn3
+key
 =
-pn2
+member
 -
 >
 pn_left
@@ -41850,7 +41850,7 @@ false
 ;
 if
 (
-pn3
+key
 -
 >
 isKind
@@ -41865,7 +41865,7 @@ if
 EmitNumberOp
 (
 cx
-pn3
+key
 -
 >
 pn_dval
@@ -41883,7 +41883,7 @@ true
 else
 if
 (
-pn3
+key
 -
 >
 isKind
@@ -41892,7 +41892,7 @@ PNK_NAME
 )
 |
 |
-pn3
+key
 -
 >
 isKind
@@ -41940,7 +41940,7 @@ id
 =
 NameToId
 (
-pn3
+key
 -
 >
 pn_atom
@@ -41972,7 +41972,7 @@ EmitTree
 (
 cx
 bce
-pn3
+key
 )
 )
 return
@@ -41988,7 +41988,7 @@ else
 {
 JS_ASSERT
 (
-pn3
+key
 -
 >
 isKind
@@ -42004,7 +42004,7 @@ EmitTree
 (
 cx
 bce
-pn3
+key
 -
 >
 pn_kid
@@ -42036,7 +42036,7 @@ EmitTree
 (
 cx
 bce
-pn2
+member
 -
 >
 pn_right
@@ -42048,7 +42048,7 @@ false
 JSOp
 op
 =
-pn2
+member
 -
 >
 getOp
@@ -42163,7 +42163,7 @@ else
 {
 JS_ASSERT
 (
-pn3
+key
 -
 >
 isKind
@@ -42172,7 +42172,7 @@ PNK_NAME
 )
 |
 |
-pn3
+key
 -
 >
 isKind
@@ -42203,7 +42203,7 @@ op
 JSOP_INITPROP
 &
 &
-pn3
+key
 -
 >
 pn_atom
@@ -42251,7 +42251,7 @@ bce
 >
 makeAtomIndex
 (
-pn3
+key
 -
 >
 pn_atom
@@ -42307,7 +42307,7 @@ id
 cx
 AtomToId
 (
-pn3
+key
 -
 >
 pn_atom
