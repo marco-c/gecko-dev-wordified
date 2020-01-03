@@ -2123,7 +2123,7 @@ eContentCommandEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CONTENT_COMMAND_REDO
+eContentCommandRedo
 eContentCommandEventFirst
 +
 5

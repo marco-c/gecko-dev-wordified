@@ -8144,7 +8144,7 @@ APPCOMMAND_REDO
 :
 contentCommandMessage
 =
-NS_CONTENT_COMMAND_REDO
+eContentCommandRedo
 ;
 break
 ;

@@ -37619,7 +37619,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_REDO
+eContentCommandRedo
 this
 )
 ;
@@ -37788,7 +37788,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_REDO
+eContentCommandRedo
 this
 true
 )
