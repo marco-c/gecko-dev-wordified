@@ -2520,6 +2520,7 @@ nsISupports
 *
 aContext
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -2941,6 +2942,7 @@ aContext
 nsresult
 aStatusCode
 )
+override
 {
 /
 /
