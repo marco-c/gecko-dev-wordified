@@ -330,7 +330,7 @@ _contextPool
 ;
 this
 .
-_threadActor
+threadActor
 =
 null
 ;
@@ -461,7 +461,7 @@ attached
 return
 this
 .
-_threadActor
+threadActor
 ;
 }
 get
@@ -513,7 +513,7 @@ TabSources
 (
 this
 .
-_threadActor
+threadActor
 this
 .
 _allowSource
@@ -836,7 +836,7 @@ attached
 {
 this
 .
-_threadActor
+threadActor
 =
 new
 AddonThreadActor
@@ -855,7 +855,7 @@ addActor
 (
 this
 .
-_threadActor
+threadActor
 )
 ;
 }
@@ -870,7 +870,7 @@ threadActor
 :
 this
 .
-_threadActor
+threadActor
 .
 actorID
 }
@@ -909,12 +909,12 @@ removeActor
 (
 this
 .
-_threadActor
+threadActor
 )
 ;
 this
 .
-_threadActor
+threadActor
 =
 null
 ;

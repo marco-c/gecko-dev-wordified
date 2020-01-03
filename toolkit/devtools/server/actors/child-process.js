@@ -226,7 +226,7 @@ _contextPool
 ;
 this
 .
-_threadActor
+threadActor
 =
 null
 ;
@@ -398,7 +398,7 @@ dbg_assert
 (
 this
 .
-_threadActor
+threadActor
 "
 threadActor
 should
@@ -419,7 +419,7 @@ TabSources
 (
 this
 .
-_threadActor
+threadActor
 )
 ;
 }
@@ -473,12 +473,12 @@ if
 !
 this
 .
-_threadActor
+threadActor
 )
 {
 this
 .
-_threadActor
+threadActor
 =
 new
 ChromeDebuggerActor
@@ -497,7 +497,7 @@ addActor
 (
 this
 .
-_threadActor
+threadActor
 )
 ;
 }
@@ -525,7 +525,7 @@ chromeDebugger
 :
 this
 .
-_threadActor
+threadActor
 .
 actorID
 traits
