@@ -1268,7 +1268,7 @@ mLineJoin
 JoinStyle
 :
 :
-MITER
+MITER_OR_BEVEL
 ;
 break
 ;
