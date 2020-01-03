@@ -2873,7 +2873,7 @@ maxCacheEntries
 400
 ;
 uint32_t
-maxCacheLifetime
+defaultCacheLifetime
 =
 120
 ;
@@ -2881,7 +2881,7 @@ maxCacheLifetime
 /
 seconds
 uint32_t
-lifetimeGracePeriod
+defaultGracePeriod
 =
 60
 ;
@@ -2977,7 +2977,7 @@ val
 )
 )
 )
-maxCacheLifetime
+defaultCacheLifetime
 =
 val
 ;
@@ -2996,7 +2996,7 @@ val
 )
 )
 )
-lifetimeGracePeriod
+defaultGracePeriod
 =
 val
 ;
@@ -3389,8 +3389,8 @@ nsHostResolver
 Create
 (
 maxCacheEntries
-maxCacheLifetime
-lifetimeGracePeriod
+defaultCacheLifetime
+defaultGracePeriod
 getter_AddRefs
 (
 res

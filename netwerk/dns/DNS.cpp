@@ -2193,6 +2193,10 @@ pointer
 "
 )
 ;
+ttl
+=
+NO_TTL_DATA
+;
 size_t
 hostlen
 =
