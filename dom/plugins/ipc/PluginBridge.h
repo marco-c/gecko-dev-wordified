@@ -162,6 +162,10 @@ TerminatePlugin
 (
 uint32_t
 aPluginId
+const
+nsString
+&
+aBrowserDumpId
 )
 ;
 }

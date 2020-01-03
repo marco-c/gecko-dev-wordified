@@ -2010,12 +2010,17 @@ HANGUI_USER_RESPONSE_STOP
 User
 clicked
 Stop
+nsString
+dummy
+;
 mModule
 -
 >
 TerminateChildProcess
 (
 mMainThreadMessageLoop
+&
+dummy
 )
 ;
 responseCode
