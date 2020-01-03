@@ -5278,7 +5278,10 @@ JSValueArray
 public
 :
 const
-jsval
+js
+:
+:
+Value
 *
 array
 ;
@@ -5288,7 +5291,10 @@ length
 JSValueArray
 (
 const
-jsval
+js
+:
+:
+Value
 *
 v
 size_t

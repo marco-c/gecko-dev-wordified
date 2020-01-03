@@ -15392,7 +15392,7 @@ consts
 )
 elements
 need
-jsval
+Value
 alignment
 .
 *
@@ -15603,7 +15603,10 @@ T
 (
 JS_ALIGNMENT_OF
 (
-jsval
+JS
+:
+:
+Value
 )
 %
 JS_ALIGNMENT_OF
@@ -15623,7 +15626,10 @@ T
 %
 sizeof
 (
-jsval
+JS
+:
+:
+Value
 )
 =
 =
@@ -15639,7 +15645,10 @@ T
 (
 JS_ALIGNMENT_OF
 (
-jsval
+JS
+:
+:
+Value
 )
 =
 =
@@ -15658,7 +15667,10 @@ T
 =
 sizeof
 (
-jsval
+JS
+:
+:
+Value
 )
 )
 #
@@ -15715,7 +15727,7 @@ afterward
 )
 are
 *
-jsval
+Value
 -
 aligned
 .
@@ -15730,7 +15742,7 @@ data
 |
 itself
 is
-jsval
+Value
 -
 aligned
 ;
@@ -16843,7 +16855,10 @@ cursor
 %
 sizeof
 (
-jsval
+JS
+:
+:
+Value
 )
 =
 =

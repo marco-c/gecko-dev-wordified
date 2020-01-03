@@ -1594,7 +1594,7 @@ cb
 void
 *
 cbClosure
-jsval
+Value
 tVal
 )
 :
@@ -2211,7 +2211,7 @@ cb
 void
 *
 cbClosure
-jsval
+Value
 transferable
 )
 {
@@ -3637,7 +3637,9 @@ about
 *
 For
 example
-JSVAL_TRUE
+TrueValue
+(
+)
 is
 written
 using

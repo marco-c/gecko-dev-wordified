@@ -226,7 +226,10 @@ JSContext
 context
 unsigned
 argc
-jsval
+JS
+:
+:
+Value
 *
 vp
 )

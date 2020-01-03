@@ -20674,7 +20674,7 @@ JSContext
 cx
 uint32_t
 argc
-jsval
+Value
 *
 vp
 )

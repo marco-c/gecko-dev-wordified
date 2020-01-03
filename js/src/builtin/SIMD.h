@@ -3319,7 +3319,7 @@ cx
 unsigned
 int
 argc
-jsval
+Value
 *
 vp
 )

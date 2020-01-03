@@ -353,7 +353,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -422,7 +422,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -491,7 +491,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -560,7 +560,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -892,7 +892,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -944,7 +944,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1468,7 +1468,7 @@ PerfMeasurement
 *
 ExtractPerfMeasurement
 (
-jsval
+Value
 wrapper
 )
 {
