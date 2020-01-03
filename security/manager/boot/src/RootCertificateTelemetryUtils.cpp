@@ -211,12 +211,6 @@ mozilla
 namespace
 psm
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 PRLogModuleInfo
 *
 gPublicKeyPinningTelemetryLog
@@ -228,8 +222,6 @@ PublicKeyPinningTelemetryService
 "
 )
 ;
-#
-endif
 /
 /
 Used

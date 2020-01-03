@@ -402,17 +402,12 @@ mozilla
 :
 psm
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gPIPNSSLog
 =
 nullptr
 ;
-#
-endif
 int
 nsNSSComponent
 :
@@ -1252,9 +1247,6 @@ mCertVerificationThread
 nullptr
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -1269,8 +1261,6 @@ pipnss
 "
 )
 ;
-#
-endif
 PR_LOG
 (
 gPIPNSSLog

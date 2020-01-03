@@ -271,16 +271,11 @@ mozilla
 :
 pkix
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gCertVerifierLog
 ;
-#
-endif
 static
 const
 uint64_t

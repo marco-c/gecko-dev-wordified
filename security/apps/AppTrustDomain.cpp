@@ -303,16 +303,11 @@ mozilla
 :
 pkix
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 static
 const
 unsigned

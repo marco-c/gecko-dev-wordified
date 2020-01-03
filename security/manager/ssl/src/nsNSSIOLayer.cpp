@@ -576,16 +576,11 @@ false
 /
 unnamed
 namespace
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 nsNSSSocketInfo
 :
 :

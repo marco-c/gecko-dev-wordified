@@ -232,16 +232,11 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 namespace
 mozilla
 {
@@ -1911,9 +1906,6 @@ get
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 gPIPNSSLog
@@ -1936,8 +1928,6 @@ n
 )
 ;
 }
-#
-endif
 if
 (
 type

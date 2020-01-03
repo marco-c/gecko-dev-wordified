@@ -347,12 +347,6 @@ mozilla
 :
 psm
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 PRLogModuleInfo
 *
@@ -383,8 +377,6 @@ return
 gSSSLog
 ;
 }
-#
-endif
 #
 define
 SSSLOG

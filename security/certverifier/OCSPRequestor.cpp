@@ -179,16 +179,11 @@ secerr
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gCertVerifierLog
 ;
-#
-endif
 namespace
 mozilla
 {
