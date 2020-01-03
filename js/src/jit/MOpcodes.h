@@ -194,6 +194,11 @@ SimdSwizzle
 \
 _
 (
+SimdGeneralSwizzle
+)
+\
+_
+(
 SimdShuffle
 )
 \

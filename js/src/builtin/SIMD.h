@@ -2344,6 +2344,11 @@ neg
 \
 _
 (
+swizzle
+)
+\
+_
+(
 check
 )
 #
@@ -2361,11 +2366,6 @@ _
 COMP_COMMONX4_TO_INT32X4_SIMD_OP
 (
 _
-)
-\
-_
-(
-swizzle
 )
 \
 _
