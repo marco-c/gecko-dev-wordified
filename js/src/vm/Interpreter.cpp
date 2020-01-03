@@ -12984,6 +12984,7 @@ hasScriptCounts
 )
 {
 PCCounts
+*
 counts
 =
 script
@@ -12996,8 +12997,13 @@ REGS
 pc
 )
 ;
+if
+(
 counts
-.
+)
+counts
+-
+>
 numExec
 (
 )

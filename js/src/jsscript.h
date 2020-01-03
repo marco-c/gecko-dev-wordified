@@ -2938,6 +2938,9 @@ PCCounts
 *
 pcCountsVector
 ;
+size_t
+pcCountsSize
+;
 /
 *
 Information
@@ -2974,6 +2977,15 @@ nullptr
 )
 {
 }
+PCCounts
+*
+getPCCounts
+(
+size_t
+offset
+)
+const
+;
 inline
 void
 destroy
@@ -9763,7 +9775,7 @@ js
 :
 :
 PCCounts
-&
+*
 getPCCounts
 (
 jsbytecode
@@ -14295,8 +14307,9 @@ script
 ScriptCounts
 scriptCounts
 ;
+const
 PCCounts
-&
+*
 getPCCounts
 (
 jsbytecode
@@ -14308,8 +14321,8 @@ const
 return
 scriptCounts
 .
-pcCountsVector
-[
+getPCCounts
+(
 script
 -
 >
@@ -14317,7 +14330,7 @@ pcToOffset
 (
 pc
 )
-]
+)
 ;
 }
 jit
