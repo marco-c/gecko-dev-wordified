@@ -1118,7 +1118,7 @@ getString
 (
 btnLabelId
 )
-accesskey
+accessKey
 :
 gNavigatorBundle
 .
@@ -1159,7 +1159,7 @@ optionsId
 label
 "
 )
-accesskey
+accessKey
 :
 gNavigatorBundle
 .
