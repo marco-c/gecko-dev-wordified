@@ -9122,7 +9122,7 @@ frame
 will
 attempt
 to
-preserve
+extend
 the
 3d
 transforms
@@ -9153,7 +9153,7 @@ effects
 *
 /
 bool
-Preserves3DChildren
+Extend3DContext
 (
 )
 const
@@ -9170,7 +9170,7 @@ has
 a
 parent
 that
-Preserves3DChildren
+Extend3DContext
 (
 )
 and
@@ -9198,7 +9198,7 @@ transform
 *
 /
 bool
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 const

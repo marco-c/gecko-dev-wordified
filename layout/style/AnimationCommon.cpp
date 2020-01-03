@@ -3004,7 +3004,7 @@ if
 frame
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 |
@@ -3012,7 +3012,7 @@ Preserves3D
 frame
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -3097,7 +3097,7 @@ the
 above
 test
 for
-Preserves3DChildren
+Extend3DContext
 (
 )
 ;

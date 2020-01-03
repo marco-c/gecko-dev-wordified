@@ -34386,7 +34386,7 @@ preserves3DChildren
 aFrame
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 ;
@@ -34547,7 +34547,7 @@ preserves3DChildren
 child
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
