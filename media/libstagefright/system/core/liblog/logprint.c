@@ -243,6 +243,11 @@ h
 ifdef
 _MSC_VER
 #
+if
+_MSC_VER
+<
+1900
+#
 include
 <
 nspr
@@ -255,6 +260,8 @@ h
 define
 snprintf
 PR_snprintf
+#
+endif
 #
 define
 inline
