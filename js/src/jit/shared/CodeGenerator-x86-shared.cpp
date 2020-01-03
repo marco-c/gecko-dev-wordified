@@ -18675,7 +18675,7 @@ FPREG
 )
 masm
 .
-moveAlignedInt32x4
+moveInt32x4
 (
 ToFloatRegister
 (
@@ -18749,7 +18749,7 @@ ScratchSimdReg
 ;
 masm
 .
-moveAlignedInt32x4
+moveInt32x4
 (
 ScratchSimdReg
 lhs
@@ -18859,7 +18859,7 @@ FPREG
 )
 masm
 .
-moveAlignedInt32x4
+moveInt32x4
 (
 ToFloatRegister
 (
