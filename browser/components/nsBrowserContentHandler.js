@@ -2817,6 +2817,7 @@ localSchemes
 new
 Set
 (
+[
 "
 chrome
 "
@@ -2826,6 +2827,7 @@ file
 "
 resource
 "
+]
 )
 ;
 if
