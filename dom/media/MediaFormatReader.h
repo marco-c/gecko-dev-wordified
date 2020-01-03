@@ -1087,6 +1087,10 @@ mNumSamplesOutput
 (
 0
 )
+mNumSamplesOutputTotal
+(
+0
+)
 mSizeOfQueue
 (
 0
@@ -1404,6 +1408,9 @@ mNumSamplesInput
 ;
 uint64_t
 mNumSamplesOutput
+;
+uint64_t
+mNumSamplesOutputTotal
 ;
 /
 /

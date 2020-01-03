@@ -4783,6 +4783,12 @@ mNumSamplesOutput
 +
 +
 ;
+decoder
+.
+mNumSamplesOutputTotal
++
++
+;
 ScheduleUpdate
 (
 aTrack
@@ -6846,7 +6852,7 @@ delta
 =
 decoder
 .
-mNumSamplesOutput
+mNumSamplesOutputTotal
 -
 mLastReportedNumDecodedFrames
 ;
@@ -6866,7 +6872,7 @@ mLastReportedNumDecodedFrames
 =
 decoder
 .
-mNumSamplesOutput
+mNumSamplesOutputTotal
 ;
 }
 if
