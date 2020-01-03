@@ -3765,6 +3765,9 @@ true
 bool
 nextTokenEndsExpr
 (
+bool
+*
+endsExpr
 )
 {
 TokenKind
@@ -3782,11 +3785,16 @@ tt
 return
 false
 ;
-return
+*
+endsExpr
+=
 isExprEnding
 [
 tt
 ]
+;
+return
+true
 ;
 }
 class
