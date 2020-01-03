@@ -2773,6 +2773,16 @@ sawDeprecatedExpressionClosure
 :
 1
 ;
+bool
+sawDeprecatedLetBlock
+:
+1
+;
+bool
+sawDeprecatedLetExpression
+:
+1
+;
 typedef
 typename
 ParseHandler
