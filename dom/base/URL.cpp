@@ -2670,7 +2670,7 @@ if
 nsContentUtils
 :
 :
-GettersDecodeURLHash
+EncodeDecodeURLHash
 (
 )
 )
