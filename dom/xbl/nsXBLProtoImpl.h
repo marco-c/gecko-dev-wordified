@@ -531,7 +531,7 @@ DestroyMembers
 ;
 public
 :
-nsCString
+nsString
 mClassName
 ;
 /

@@ -930,7 +930,7 @@ AutoJSAPI
 &
 jsapi
 const
-nsCString
+nsString
 &
 aClassStr
 JS
@@ -1060,7 +1060,10 @@ GetUncompiled
 {
 functionUri
 =
+NS_ConvertUTF16toUTF8
+(
 aClassStr
+)
 ;
 int32_t
 hash

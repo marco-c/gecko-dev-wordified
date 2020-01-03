@@ -6376,7 +6376,7 @@ JSObject
 >
 obj
 const
-nsAFlatCString
+nsAFlatString
 &
 aClassName
 nsXBLPrototypeBinding
@@ -6773,7 +6773,7 @@ cx
 if
 (
 !
-JS_GetOwnPropertyDescriptor
+JS_GetOwnUCPropertyDescriptor
 (
 cx
 holder
@@ -7049,7 +7049,7 @@ proto
 |
 |
 !
-JS_DefineProperty
+JS_DefineUCProperty
 (
 cx
 holder
@@ -7058,6 +7058,8 @@ aClassName
 get
 (
 )
+-
+1
 proto
 JSPROP_READONLY
 |
@@ -7860,7 +7862,7 @@ aCx
 if
 (
 !
-JS_GetProperty
+JS_GetUCProperty
 (
 aCx
 aXBLScope
@@ -7876,6 +7878,8 @@ ClassName
 get
 (
 )
+-
+1
 &
 classObject
 )

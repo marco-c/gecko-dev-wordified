@@ -436,7 +436,7 @@ AutoJSAPI
 &
 jsapi
 const
-nsCString
+nsString
 &
 aClassStr
 JS

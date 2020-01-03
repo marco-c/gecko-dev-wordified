@@ -880,7 +880,7 @@ JSObject
 >
 obj
 const
-nsAFlatCString
+nsAFlatString
 &
 aClassName
 nsXBLPrototypeBinding
