@@ -2561,14 +2561,6 @@ GCRuntime
 *
 gc
 ;
-#
-ifdef
-JS_GC_ZEAL
-bool
-restartVerifier
-;
-#
-endif
 public
 :
 explicit
