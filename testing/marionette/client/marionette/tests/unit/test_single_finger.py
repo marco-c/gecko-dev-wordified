@@ -58,14 +58,10 @@ marionette_test
 import
 MarionetteTestCase
 from
-marionette_driver
-.
 marionette
 import
 Actions
 from
-marionette_driver
-.
 errors
 import
 MarionetteException
