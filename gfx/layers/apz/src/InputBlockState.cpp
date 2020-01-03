@@ -136,6 +136,17 @@ AllowedTouchBehavior
 #
 include
 "
+AsyncPanZoomController
+.
+h
+"
+/
+/
+for
+AsyncPanZoomController
+#
+include
+"
 gfxPrefs
 .
 h
