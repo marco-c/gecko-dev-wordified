@@ -2361,8 +2361,8 @@ Style
 STROKE
 )
 ;
-AutoSaveTransform
-autoSaveTransform
+AutoRestoreTransform
+autoRestoreTransform
 (
 mFinalTarget
 )
@@ -22869,8 +22869,8 @@ a
 temp
 gfxContext
 .
-AutoSaveTransform
-autoSR
+AutoRestoreTransform
+autoRestoreTransform
 (
 mTarget
 )

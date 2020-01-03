@@ -1429,8 +1429,8 @@ PushClipRect
 aClipRect
 )
 ;
-AutoSaveTransform
-autoSaveTransform
+AutoRestoreTransform
+autoRestoreTransform
 (
 dest
 )
