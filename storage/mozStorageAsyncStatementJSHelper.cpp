@@ -281,7 +281,10 @@ aCtx
 JSObject
 *
 aScopeObj
-jsval
+JS
+:
+:
+Value
 *
 _params
 )
@@ -673,7 +676,10 @@ JSObject
 aScopeObj
 jsid
 aId
-jsval
+JS
+:
+:
+Value
 *
 _result
 bool

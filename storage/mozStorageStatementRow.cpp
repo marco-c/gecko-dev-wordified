@@ -392,7 +392,10 @@ JSObject
 aScopeObj
 jsid
 aId
-jsval
+JS
+:
+:
+Value
 *
 _vp
 bool
