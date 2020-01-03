@@ -4921,6 +4921,9 @@ VMware
 Inc
 .
 "
+"
+ARM
+"
 }
 ;
 mVendor

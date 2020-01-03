@@ -506,6 +506,7 @@ Imagination
 Nouveau
 Vivante
 VMware
+ARM
 Other
 }
 ;
