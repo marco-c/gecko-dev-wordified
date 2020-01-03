@@ -2208,6 +2208,12 @@ hasActor
 webgl
 "
 )
+&
+&
+!
+target
+.
+chrome
 ;
 }
 build
