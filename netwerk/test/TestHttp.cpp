@@ -1256,7 +1256,7 @@ RETURN_IF_FAILED
 (
 rv
 "
-NS_OpenURI
+NS_NewChannel
 "
 )
 ;
