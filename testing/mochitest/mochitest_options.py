@@ -5724,12 +5724,8 @@ if
 build_obj
 :
             
-options
-.
-extraProfileFiles
-.
-append
-(
+plugins_dir
+=
 os
 .
 path
@@ -5743,6 +5739,23 @@ distdir
 plugins
 '
 )
+            
+if
+plugins_dir
+not
+in
+options
+.
+extraProfileFiles
+:
+                
+options
+.
+extraProfileFiles
+.
+append
+(
+plugins_dir
 )
         
 #
