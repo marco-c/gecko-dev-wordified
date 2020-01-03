@@ -380,7 +380,7 @@ below
 *
 /
 nsresult
-Init
+BeginInputTransaction
 (
 TextEventDispatcherListener
 *
@@ -388,7 +388,7 @@ aListener
 )
 ;
 nsresult
-InitForTests
+BeginInputTransactionForTests
 (
 TextEventDispatcherListener
 *
@@ -444,15 +444,16 @@ text
 *
 NS_ERROR_NOT_INITIALIZED
 :
-Init
+BeginInputTransaction
 (
 )
 or
-InitForTests
+*
+BeginInputTransactionForTests
 (
 )
-should
 *
+should
 be
 called
 .
@@ -1190,7 +1191,7 @@ bool
 mIsComposing
 ;
 nsresult
-InitInternal
+BeginInputTransactionInternal
 (
 TextEventDispatcherListener
 *

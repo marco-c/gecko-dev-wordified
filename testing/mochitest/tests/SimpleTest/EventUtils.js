@@ -5711,7 +5711,7 @@ if
 !
 tip
 .
-initForTests
+beginInputTransactionForTests
 (
 aWindow
 aCallback

@@ -7448,7 +7448,7 @@ this
 .
 _textInputProcessor
 .
-init
+beginInputTransaction
 (
 aWindow
 this
