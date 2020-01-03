@@ -1216,7 +1216,7 @@ org
 /
 cellbroadcast
 /
-gonkservice
+cellbroadcastservice
 ;
 1
 "
