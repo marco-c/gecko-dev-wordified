@@ -675,9 +675,9 @@ takeAny
 (
 )
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Codegen
+JitSpew_Codegen
 "
 Starting
 RegExp
@@ -897,7 +897,7 @@ start_label_
 #
 define
 SPEW_PREFIX
-IonSpew_Codegen
+JitSpew_Codegen
 "
 !
 !
@@ -958,7 +958,7 @@ RegExpCode
 (
 )
 ;
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -3466,9 +3466,9 @@ ImmPtr
 )
 ;
 }
-IonSpew
+JitSpew
 (
-IonSpew_Codegen
+JitSpew_Codegen
 "
 Created
 RegExp
@@ -3539,7 +3539,7 @@ int
 by
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -3587,7 +3587,7 @@ int
 by
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -3648,7 +3648,7 @@ Backtrack
 (
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -3754,7 +3754,7 @@ Label
 label
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -3781,7 +3781,7 @@ Label
 on_at_start
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -3911,7 +3911,7 @@ Label
 on_not_at_start
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -4034,7 +4034,7 @@ Label
 on_equal
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -4083,7 +4083,7 @@ Label
 on_not_equal
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -4134,7 +4134,7 @@ Label
 on_equal
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -4241,7 +4241,7 @@ Label
 on_not_equal
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -4346,7 +4346,7 @@ Label
 on_greater
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -4395,7 +4395,7 @@ Label
 on_less
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -4442,7 +4442,7 @@ Label
 on_tos_equals_current_position
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -4525,7 +4525,7 @@ Label
 on_no_match
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -5049,7 +5049,7 @@ Label
 on_no_match
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6103,7 +6103,7 @@ Label
 on_not_equal
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6221,7 +6221,7 @@ Label
 on_in_range
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6293,7 +6293,7 @@ Label
 on_not_in_range
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6364,7 +6364,7 @@ Label
 on_bit_set
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6489,7 +6489,7 @@ Fail
 (
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6539,7 +6539,7 @@ Label
 if_ge
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6593,7 +6593,7 @@ Label
 if_lt
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6645,7 +6645,7 @@ Label
 if_eq
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6695,7 +6695,7 @@ int
 characters
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6788,7 +6788,7 @@ int
 characters
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6941,7 +6941,7 @@ PopCurrentPosition
 (
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -6965,7 +6965,7 @@ int
 register_index
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7006,7 +7006,7 @@ Label
 label
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7084,7 +7084,7 @@ Label
 label
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7168,7 +7168,7 @@ Register
 source
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7233,7 +7233,7 @@ int32_t
 value
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7301,7 +7301,7 @@ Register
 target
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7364,7 +7364,7 @@ CheckBacktrackStackLimit
 (
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7481,7 +7481,7 @@ PushCurrentPosition
 (
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7507,7 +7507,7 @@ StackCheckFlag
 check_stack_limit
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7555,7 +7555,7 @@ int
 reg
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7592,7 +7592,7 @@ int
 cp_offset
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7669,7 +7669,7 @@ int
 reg
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7720,7 +7720,7 @@ int
 reg
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7779,7 +7779,7 @@ int
 by
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7905,7 +7905,7 @@ int
 to
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7958,7 +7958,7 @@ Succeed
 (
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -7992,7 +7992,7 @@ int
 reg_to
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -8073,7 +8073,7 @@ Label
 on_outside_input
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -8146,7 +8146,7 @@ Label
 to
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "
@@ -8184,7 +8184,7 @@ Label
 on_no_match
 )
 {
-IonSpew
+JitSpew
 (
 SPEW_PREFIX
 "

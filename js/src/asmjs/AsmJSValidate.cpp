@@ -44780,9 +44780,9 @@ CheckFunctionsSequential
 m
 )
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Logs
+JitSpew_Logs
 "
 Can
 '

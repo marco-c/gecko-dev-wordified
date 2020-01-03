@@ -35508,7 +35508,7 @@ setIon
 true
 )
 ;
-IonSpew
+JitSpew
 (
 js
 :
@@ -35516,7 +35516,7 @@ js
 jit
 :
 :
-IonSpew_Scripts
+JitSpew_Scripts
 "
 Enable
 ion
@@ -35546,7 +35546,7 @@ setIon
 false
 )
 ;
-IonSpew
+JitSpew
 (
 js
 :
@@ -35554,7 +35554,7 @@ js
 jit
 :
 :
-IonSpew_Scripts
+JitSpew_Scripts
 "
 Disable
 ion
@@ -35588,7 +35588,7 @@ setBaseline
 true
 )
 ;
-IonSpew
+JitSpew
 (
 js
 :
@@ -35596,7 +35596,7 @@ js
 jit
 :
 :
-IonSpew_BaselineScripts
+JitSpew_BaselineScripts
 "
 Enable
 baseline
@@ -35626,7 +35626,7 @@ setBaseline
 false
 )
 ;
-IonSpew
+JitSpew
 (
 js
 :
@@ -35634,7 +35634,7 @@ js
 jit
 :
 :
-IonSpew_BaselineScripts
+JitSpew_BaselineScripts
 "
 Disable
 baseline
@@ -35663,7 +35663,7 @@ setOffthreadIonCompilationEnabled
 true
 )
 ;
-IonSpew
+JitSpew
 (
 js
 :
@@ -35671,7 +35671,7 @@ js
 jit
 :
 :
-IonSpew_Scripts
+JitSpew_Scripts
 "
 Enable
 offthread
@@ -35697,7 +35697,7 @@ setOffthreadIonCompilationEnabled
 false
 )
 ;
-IonSpew
+JitSpew
 (
 js
 :
@@ -35705,7 +35705,7 @@ js
 jit
 :
 :
-IonSpew_Scripts
+JitSpew_Scripts
 "
 Disable
 offthread
@@ -35735,7 +35735,7 @@ setCanUseSignalHandlers
 true
 )
 ;
-IonSpew
+JitSpew
 (
 js
 :
@@ -35743,7 +35743,7 @@ js
 jit
 :
 :
-IonSpew_Scripts
+JitSpew_Scripts
 "
 Enable
 signals
@@ -35768,7 +35768,7 @@ setCanUseSignalHandlers
 false
 )
 ;
-IonSpew
+JitSpew
 (
 js
 :
@@ -35776,7 +35776,7 @@ js
 jit
 :
 :
-IonSpew_Scripts
+JitSpew_Scripts
 "
 Disable
 signals

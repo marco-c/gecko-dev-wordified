@@ -116,7 +116,7 @@ define
 jit_none_Architecture_none_h
 /
 /
-IonSpewer
+JitSpewer
 .
 h
 is
@@ -144,7 +144,7 @@ include
 "
 jit
 /
-IonSpewer
+JitSpewer
 .
 h
 "

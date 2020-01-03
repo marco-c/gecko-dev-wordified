@@ -140,7 +140,7 @@ include
 "
 jit
 /
-IonSpewer
+JitSpewer
 .
 h
 "
