@@ -8821,7 +8821,7 @@ aScrollOffset
 CSSToParentLayerScale
 &
 aScale
-LayerMargin
+ScreenMargin
 &
 aFixedLayerMargins
 )
@@ -8990,7 +8990,7 @@ CSSToLayerScale
 aDisplayResolution
 bool
 aIsFirstPaint
-LayerMargin
+ScreenMargin
 &
 aFixedLayerMargins
 )
