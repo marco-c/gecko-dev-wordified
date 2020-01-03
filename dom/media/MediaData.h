@@ -200,6 +200,9 @@ ImageContainer
 class
 MediaByteBuffer
 ;
+class
+SharedTrackInfo
+;
 /
 /
 Container
@@ -2176,6 +2179,12 @@ nsRefPtr
 MediaByteBuffer
 >
 mExtraData
+;
+nsRefPtr
+<
+SharedTrackInfo
+>
+mTrackInfo
 ;
 /
 /
