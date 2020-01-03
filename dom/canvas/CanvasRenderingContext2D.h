@@ -5768,7 +5768,7 @@ gfx
 Float
 shadowBlur
 ;
-FallibleTArray
+nsTArray
 <
 mozilla
 :
