@@ -176,9 +176,6 @@ h
 namespace
 js
 {
-class
-GenericPrinter
-;
 namespace
 jit
 {
@@ -839,9 +836,9 @@ static
 void
 dumpPayload
 (
-GenericPrinter
-&
-out
+FILE
+*
+fp
 PayloadType
 t
 Payload
@@ -1680,9 +1677,9 @@ public
 void
 dump
 (
-GenericPrinter
-&
-out
+FILE
+*
+fp
 )
 const
 ;

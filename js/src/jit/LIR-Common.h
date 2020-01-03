@@ -550,9 +550,9 @@ alloc
 void
 printOperands
 (
-GenericPrinter
-&
-out
+FILE
+*
+fp
 )
 ;
 /
