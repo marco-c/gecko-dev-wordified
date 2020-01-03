@@ -2231,7 +2231,7 @@ gesture
 notification
 NS_EVENT_MESSAGE
 (
-NS_GESTURENOTIFY_EVENT_START
+eGestureNotify
 3900
 )
 NS_EVENT_MESSAGE

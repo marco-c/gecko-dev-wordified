@@ -15808,7 +15808,7 @@ aEvent
 mMessage
 =
 =
-NS_GESTURENOTIFY_EVENT_START
+eGestureNotify
 "
 DecideGestureEvent
 called
@@ -19520,7 +19520,7 @@ nsEventStatus_eConsumeNoDefault
 break
 ;
 case
-NS_GESTURENOTIFY_EVENT_START
+eGestureNotify
 :
 {
 if
