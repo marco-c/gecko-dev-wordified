@@ -3025,11 +3025,6 @@ requestors
 ]
 ;
 let
-scope
-=
-this
-;
-let
 xpcInspector
 =
 {
@@ -3069,7 +3064,7 @@ push
 requestor
 )
 ;
-scope
+this
 .
 enterEventLoop
 (
@@ -3093,7 +3088,7 @@ pop
 (
 )
 ;
-scope
+this
 .
 leaveEventLoop
 (
