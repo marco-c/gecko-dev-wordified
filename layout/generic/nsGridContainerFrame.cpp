@@ -3404,6 +3404,12 @@ nsStylePosition
 aStyle
 )
 {
+mCellMap
+.
+ClearOccupied
+(
+)
+;
 InitializeGridBounds
 (
 aStyle
@@ -3540,6 +3546,13 @@ IsDefinite
 )
 )
 {
+mCellMap
+.
+Fill
+(
+area
+)
+;
 InflateGridFor
 (
 area
