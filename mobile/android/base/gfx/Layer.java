@@ -442,7 +442,7 @@ includes
 altering
 the
 underlying
-CairoImage
+BufferedImage
 in
 any
 way

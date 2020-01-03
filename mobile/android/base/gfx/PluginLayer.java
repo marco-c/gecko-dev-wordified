@@ -254,12 +254,8 @@ maxDimension
 super
 (
 new
-BufferedCairoImage
+BufferedImage
 (
-null
-0
-0
-0
 )
 TileLayer
 .

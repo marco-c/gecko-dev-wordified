@@ -185,7 +185,7 @@ mTextureIDs
 ;
 protected
 final
-CairoImage
+BufferedImage
 mImage
 ;
 public
@@ -204,7 +204,7 @@ mPaintMode
 public
 TileLayer
 (
-CairoImage
+BufferedImage
 image
 PaintMode
 paintMode
@@ -890,7 +890,7 @@ mTextureIDs
 ;
 }
 int
-cairoFormat
+imageFormat
 =
 mImage
 .
@@ -898,13 +898,13 @@ getFormat
 (
 )
 ;
-CairoGLInfo
+BufferedImageGLInfo
 glInfo
 =
 new
-CairoGLInfo
+BufferedImageGLInfo
 (
-cairoFormat
+imageFormat
 )
 ;
 bindAndSetGLParameters
