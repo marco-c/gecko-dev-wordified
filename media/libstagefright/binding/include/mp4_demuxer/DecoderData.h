@@ -707,6 +707,8 @@ size_t
 aSize
 )
 ;
+private
+:
 nsAutoArrayPtr
 <
 uint8_t
