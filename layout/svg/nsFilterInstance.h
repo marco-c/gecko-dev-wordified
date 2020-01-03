@@ -202,7 +202,7 @@ gfx
 h
 "
 class
-gfxASurface
+gfxContext
 ;
 class
 nsIFrame
@@ -587,8 +587,8 @@ PaintFilteredFrame
 nsIFrame
 *
 aFilteredFrame
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix
