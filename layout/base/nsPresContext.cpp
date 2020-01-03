@@ -12445,7 +12445,7 @@ mDocument
 GetInnerWindow
 (
 )
-this
+mDocument
 )
 ;
 }
@@ -13112,7 +13112,7 @@ mDocument
 GetInnerWindow
 (
 )
-this
+mDocument
 )
 ;
 GetUserFontSet

@@ -502,9 +502,9 @@ FontFaceSet
 nsPIDOMWindow
 *
 aWindow
-nsPresContext
+nsIDocument
 *
-aPresContext
+aDocument
 )
 ;
 virtual
@@ -605,11 +605,7 @@ nsPresContext
 GetPresContext
 (
 )
-{
-return
-mPresContext
 ;
-}
 /
 /
 search
@@ -883,6 +879,11 @@ GetFontFaceAt
 (
 uint32_t
 aIndex
+)
+;
+void
+FlushUserFontSet
+(
 )
 ;
 /
@@ -1535,7 +1536,7 @@ aStatus
 )
 ;
 void
-DoRebuildUserFontSet
+RebuildUserFontSet
 (
 )
 ;
@@ -1622,10 +1623,6 @@ nsRefPtr
 UserFontSet
 >
 mUserFontSet
-;
-nsPresContext
-*
-mPresContext
 ;
 /
 /
