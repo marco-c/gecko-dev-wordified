@@ -300,6 +300,7 @@ aSource
 =
 kCharsetUninitialized
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -307,6 +308,7 @@ StopDocumentLoad
 (
 void
 )
+MOZ_OVERRIDE
 ;
 \
 #

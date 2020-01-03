@@ -1020,6 +1020,7 @@ nsresult
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOCSHELL
@@ -1047,6 +1048,7 @@ NS_IMETHOD
 Stop
 (
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -1135,6 +1137,7 @@ aHeadersDataStream
 bool
 aIsTrusted
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnLinkClickSync
@@ -1176,6 +1179,7 @@ aRequest
 =
 0
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnOverLink
@@ -1191,11 +1195,13 @@ char16_t
 *
 aTargetSpec
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnLeaveLink
 (
 )
+MOZ_OVERRIDE
 ;
 nsDocShellInfoLoadType
 ConvertLoadTypeToDocShellLoadInfo
@@ -1251,6 +1257,7 @@ nsIDOMWindow
 *
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetTopWindow
@@ -1259,6 +1266,7 @@ nsIDOMWindow
 *
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetTopFrameElement
@@ -1267,6 +1275,7 @@ nsIDOMElement
 *
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNestedFrameId
@@ -1274,6 +1283,7 @@ GetNestedFrameId
 uint64_t
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsAppOfType
@@ -1282,6 +1292,7 @@ uint32_t
 bool
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIsContent
@@ -1289,6 +1300,7 @@ GetIsContent
 bool
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetUsePrivateBrowsing
@@ -1296,18 +1308,21 @@ GetUsePrivateBrowsing
 bool
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetUsePrivateBrowsing
 (
 bool
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrivateBrowsing
 (
 bool
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetUseRemoteTabs
@@ -1315,12 +1330,14 @@ GetUseRemoteTabs
 bool
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetRemoteTabs
 (
 bool
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -2190,13 +2207,14 @@ void
 DestroyChildren
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
 Content
 Viewer
 Management
-NS_IMETHOD
+nsresult
 EnsureContentViewer
 (
 )
@@ -2246,7 +2264,7 @@ aTryToSaveOldPresentation
 true
 )
 ;
-NS_IMETHOD
+nsresult
 CreateContentViewer
 (
 const
@@ -2262,7 +2280,7 @@ nsIStreamListener
 aContentHandler
 )
 ;
-NS_IMETHOD
+nsresult
 NewContentViewerObj
 (
 const
@@ -2285,7 +2303,7 @@ nsIContentViewer
 aViewer
 )
 ;
-NS_IMETHOD
+nsresult
 SetupNewViewer
 (
 nsIContentViewer
@@ -2301,7 +2319,7 @@ nsIChannel
 aChannel
 )
 ;
-NS_IMETHOD
+nsresult
 GetEldestPresContext
 (
 nsPresContext
@@ -2480,7 +2498,6 @@ instead
 of
 aURI
 .
-virtual
 nsresult
 DoURILoad
 (
@@ -2538,7 +2555,7 @@ nsContentPolicyType
 aContentPolicyType
 )
 ;
-NS_IMETHOD
+nsresult
 AddHeadersToChannel
 (
 nsIInputStream
@@ -2549,7 +2566,6 @@ nsIChannel
 aChannel
 )
 ;
-virtual
 nsresult
 DoChannelLoad
 (
@@ -2755,7 +2771,6 @@ bool
 aCloneSHChildren
 )
 ;
-virtual
 void
 SetReferrerURI
 (
@@ -2764,7 +2779,6 @@ nsIURI
 aURI
 )
 ;
-virtual
 void
 SetReferrerPolicy
 (
@@ -2776,7 +2790,6 @@ referrerPolicy
 /
 Session
 History
-virtual
 bool
 ShouldAddToSessionHistory
 (
@@ -2858,7 +2871,6 @@ session
 history
 entry
 .
-virtual
 nsresult
 AddToSessionHistory
 (
@@ -2908,7 +2920,7 @@ bool
 aCloneChildren
 )
 ;
-NS_IMETHOD
+nsresult
 LoadHistoryEntry
 (
 nsISHEntry
@@ -2918,7 +2930,7 @@ uint32_t
 aLoadType
 )
 ;
-NS_IMETHOD
+nsresult
 PersistLayoutHistoryState
 (
 )
@@ -3427,6 +3439,7 @@ aRedirectFlags
 uint32_t
 aStateFlags
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -4989,6 +5002,7 @@ nsDocLoader
 *
 aLoader
 )
+MOZ_OVERRIDE
 ;
 void
 ClearFrameHistory

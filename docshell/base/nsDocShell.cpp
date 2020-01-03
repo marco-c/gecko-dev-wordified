@@ -11471,7 +11471,7 @@ originIsFile
 targetIsFile
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDocShell
 :
 :
@@ -44067,7 +44067,7 @@ Management
 *
 *
 *
-NS_IMETHODIMP
+nsresult
 nsDocShell
 :
 :
@@ -50567,7 +50567,7 @@ FireDelayedDOMEvents
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDocShell
 :
 :
@@ -51935,7 +51935,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDocShell
 :
 :
@@ -53708,6 +53708,7 @@ nsACString
 &
 aMimeType
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -62229,7 +62230,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDocShell
 :
 :
@@ -69602,7 +69603,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDocShell
 :
 :
@@ -70438,7 +70439,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDocShell
 :
 :
