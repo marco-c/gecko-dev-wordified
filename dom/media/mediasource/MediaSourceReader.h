@@ -1427,6 +1427,16 @@ microseconds
 /
 )
 ;
+int64_t
+LastSampleTime
+(
+MediaData
+:
+:
+Type
+aType
+)
+;
 nsRefPtr
 <
 SourceBufferDecoder
@@ -1617,6 +1627,9 @@ mPendingSeekTime
 ;
 bool
 mWaitingForSeekData
+;
+bool
+mSeekToEnd
 ;
 int64_t
 mTimeThreshold
