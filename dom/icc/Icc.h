@@ -426,9 +426,7 @@ DOMRequest
 >
 MatchMvno
 (
-const
-nsAString
-&
+IccMvnoType
 aMvnoType
 const
 nsAString
