@@ -53,6 +53,16 @@ BUGNUMBER
 summary
 )
 ;
+if
+(
+'
+includes
+'
+in
+[
+]
+)
+{
 assertEq
 (
 typeof
@@ -591,6 +601,7 @@ TypeError
 TypeError
 )
 ;
+}
 function
 assertTrue
 (
