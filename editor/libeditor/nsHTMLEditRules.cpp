@@ -52383,9 +52383,14 @@ GetParentNode
 (
 )
 ;
-NS_ENSURE_STATE
+NS_ENSURE_TRUE
 (
 parent
+:
+:
+DOMPoint
+(
+)
 )
 ;
 int32_t
