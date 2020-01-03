@@ -772,6 +772,11 @@ unused
 SendScreenForBrowser
 (
 tabChild
+-
+>
+GetTabId
+(
+)
 &
 details
 &
