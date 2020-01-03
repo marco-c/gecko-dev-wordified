@@ -6519,8 +6519,8 @@ cx
 obj
 key
 value
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
