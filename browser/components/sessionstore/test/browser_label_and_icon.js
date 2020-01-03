@@ -184,7 +184,8 @@ the
 tab
 state
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -201,9 +202,8 @@ getTabState
 tab
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
@@ -314,9 +314,8 @@ set
 /
 Cleanup
 .
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

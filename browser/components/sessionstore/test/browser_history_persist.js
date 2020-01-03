@@ -105,7 +105,8 @@ the
 tab
 state
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -413,7 +414,8 @@ the
 tab
 state
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

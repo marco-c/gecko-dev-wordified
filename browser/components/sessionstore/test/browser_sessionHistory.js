@@ -295,7 +295,8 @@ two
 shistory
 entries
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -366,7 +367,8 @@ single
 shistory
 entry
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -514,7 +516,8 @@ single
 shistory
 entry
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -611,7 +614,8 @@ two
 shistory
 entries
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -851,7 +855,8 @@ did
 invalidate
 shistory
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1063,7 +1068,8 @@ single
 shistory
 entry
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1171,7 +1177,8 @@ subframes
 Check
 shistory
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1309,7 +1316,8 @@ hashchange
 Check
 shistory
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1453,7 +1461,8 @@ single
 shistory
 entry
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1540,7 +1549,8 @@ the
 history
 entry
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1690,7 +1700,8 @@ single
 shistory
 entry
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1802,7 +1813,8 @@ the
 history
 entry
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1918,7 +1930,8 @@ the
 history
 entry
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -2147,7 +2160,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

@@ -260,7 +260,8 @@ data
 "
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -269,7 +270,8 @@ tab1
 linkedBrowser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -607,7 +609,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -740,7 +743,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -930,7 +934,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

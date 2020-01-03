@@ -253,6 +253,7 @@ SCROLL_Y
 }
 )
 ;
+yield
 checkScroll
 (
 tab
@@ -373,6 +374,7 @@ promiseBrowserLoaded
 browser2
 )
 ;
+yield
 checkScroll
 (
 tab2
@@ -418,6 +420,7 @@ promiseBrowserLoaded
 browser2
 )
 ;
+yield
 checkScroll
 (
 tab2
@@ -502,6 +505,7 @@ y
 }
 )
 ;
+yield
 checkScroll
 (
 tab
@@ -517,16 +521,14 @@ stored
 /
 Cleanup
 .
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab2
 )
@@ -625,6 +627,7 @@ frame
 }
 )
 ;
+yield
 checkScroll
 (
 tab
@@ -681,6 +684,7 @@ frame
 }
 )
 ;
+yield
 checkScroll
 (
 tab
@@ -894,6 +898,7 @@ frame
 }
 )
 ;
+yield
 checkScroll
 (
 tab
@@ -955,6 +960,7 @@ frame
 }
 )
 ;
+yield
 checkScroll
 (
 tab
@@ -970,16 +976,14 @@ stored
 /
 Cleanup
 .
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab2
 )
@@ -988,6 +992,7 @@ tab2
 )
 ;
 function
+*
 checkScroll
 (
 tab
@@ -1002,7 +1007,8 @@ tab
 .
 linkedBrowser
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

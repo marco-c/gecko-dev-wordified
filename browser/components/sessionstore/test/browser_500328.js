@@ -1021,7 +1021,8 @@ function
 (
 )
 {
-TabState
+return
+TabStateFlusher
 .
 flush
 (
@@ -1030,6 +1031,16 @@ tab
 linkedBrowser
 )
 ;
+}
+)
+.
+then
+(
+(
+)
+=
+>
+{
 let
 state
 =

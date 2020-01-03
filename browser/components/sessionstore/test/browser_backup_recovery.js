@@ -479,7 +479,8 @@ tab
 linkedBrowser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -650,7 +651,8 @@ tab
 linkedBrowser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1056,7 +1058,8 @@ tab
 linkedBrowser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

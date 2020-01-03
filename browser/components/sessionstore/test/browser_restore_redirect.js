@@ -128,7 +128,8 @@ tab
 "
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -211,9 +212,8 @@ cleared
 /
 Cleanup
 .
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
@@ -389,7 +389,8 @@ tab
 yield
 loadPromise
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -472,9 +473,8 @@ cleared
 /
 Cleanup
 .
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

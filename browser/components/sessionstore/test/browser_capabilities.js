@@ -277,7 +277,8 @@ received
 all
 data
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -420,7 +421,8 @@ received
 all
 data
 .
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
