@@ -3871,6 +3871,9 @@ nsString
 >
 &
 aFileNames
+ErrorResult
+&
+aRv
 )
 ;
 void
