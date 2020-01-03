@@ -2676,7 +2676,7 @@ Ci
 nsIObserver
 Ci
 .
-nsINfcEventListener
+nsINfcGonkEventListener
 ]
 )
 powerLevel

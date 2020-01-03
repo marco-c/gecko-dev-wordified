@@ -1650,7 +1650,7 @@ NfcService
 :
 Start
 (
-nsINfcEventListener
+nsINfcGonkEventListener
 *
 aListener
 )
