@@ -51614,6 +51614,8 @@ const
 nsAString
 &
 aCrossOriginAttr
+ReferrerPolicy
+aReferrerPolicy
 )
 {
 /
@@ -51809,6 +51811,7 @@ document
 used
 as
 referrer
+aReferrerPolicy
 nullptr
 /
 /

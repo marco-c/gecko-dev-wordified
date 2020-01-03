@@ -1811,6 +1811,12 @@ LoadImage
 bgUri
 nullptr
 nullptr
+doc
+-
+>
+GetReferrerPolicy
+(
+)
 principal
 nullptr
 nullptr

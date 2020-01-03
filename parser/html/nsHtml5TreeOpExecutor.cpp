@@ -5199,6 +5199,7 @@ MaybePreLoadImage
 (
 uri
 aCrossOrigin
+mSpeculationReferrerPolicy
 )
 ;
 }

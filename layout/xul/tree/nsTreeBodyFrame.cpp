@@ -12868,6 +12868,12 @@ doc
 GetDocumentURI
 (
 )
+doc
+-
+>
+GetReferrerPolicy
+(
+)
 imgNotificationObserver
 nsIRequest
 :

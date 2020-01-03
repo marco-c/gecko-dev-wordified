@@ -1290,6 +1290,12 @@ doc
 GetDocumentURI
 (
 )
+doc
+-
+>
+GetReferrerPolicy
+(
+)
 mListener
 mLoadFlags
 EmptyString

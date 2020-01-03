@@ -1538,6 +1538,12 @@ aURI
 mDocument
 aOriginPrincipal
 aReferrer
+mDocument
+-
+>
+GetReferrerPolicy
+(
+)
 nullptr
 nsIRequest
 :

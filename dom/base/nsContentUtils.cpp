@@ -16672,6 +16672,11 @@ aLoadingPrincipal
 nsIURI
 *
 aReferrer
+net
+:
+:
+ReferrerPolicy
+aReferrerPolicy
 imgINotificationObserver
 *
 aObserver
@@ -16875,6 +16880,13 @@ aReferrer
 /
 *
 referrer
+*
+/
+aReferrerPolicy
+/
+*
+referrer
+policy
 *
 /
 aLoadingPrincipal

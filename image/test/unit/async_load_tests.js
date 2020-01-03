@@ -658,6 +658,9 @@ loadImageXPCOM
 uri
 null
 null
+"
+default
+"
 null
 null
 outer
@@ -1315,6 +1318,9 @@ loadImageXPCOM
 uri
 null
 null
+"
+default
+"
 null
 null
 outer
@@ -1482,6 +1488,9 @@ loadImageXPCOM
 uri
 null
 null
+"
+default
+"
 null
 null
 outer

@@ -4960,6 +4960,12 @@ aDocument
 GetDocumentURI
 (
 )
+aDocument
+-
+>
+GetReferrerPolicy
+(
+)
 this
 loadFlags
 content
