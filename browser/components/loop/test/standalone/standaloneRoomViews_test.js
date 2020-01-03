@@ -2774,12 +2774,9 @@ it
 "
 should
 render
+a
 local
-media
-as
-audio
--
-only
+avatar
 if
 video
 is
@@ -2818,10 +2815,8 @@ querySelector
 "
 .
 local
--
-stream
--
-audio
+.
+avatar
 "
 )
 )
