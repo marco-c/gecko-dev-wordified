@@ -265,13 +265,6 @@ source
 in
 the
 nsBaseWidget
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 }
 void
 CompositorVsyncDispatcher
