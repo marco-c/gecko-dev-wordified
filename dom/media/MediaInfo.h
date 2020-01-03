@@ -818,6 +818,7 @@ VideoInfo
 GetAsVideoInfo
 (
 )
+override
 {
 return
 this
@@ -831,6 +832,7 @@ GetAsVideoInfo
 (
 )
 const
+override
 {
 return
 this
@@ -845,6 +847,7 @@ Clone
 (
 )
 const
+override
 {
 return
 MakeUnique
@@ -1079,6 +1082,7 @@ AudioInfo
 GetAsAudioInfo
 (
 )
+override
 {
 return
 this
@@ -1092,6 +1096,7 @@ GetAsAudioInfo
 (
 )
 const
+override
 {
 return
 this
@@ -1106,6 +1111,7 @@ Clone
 (
 )
 const
+override
 {
 return
 MakeUnique
