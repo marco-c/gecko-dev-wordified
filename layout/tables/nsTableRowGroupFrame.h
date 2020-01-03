@@ -1034,7 +1034,7 @@ to
 the
 effect
 of
-visibibility
+visibility
 :
 collapse
 on
@@ -1089,6 +1089,15 @@ of
 the
 rowgroup
 *
+param
+aWM
+the
+table
+'
+s
+writing
+mode
+*
 /
 nscoord
 CollapseRowGroupIfNecessary
@@ -1097,6 +1106,11 @@ nscoord
 aBTotalOffset
 nscoord
 aISize
+mozilla
+:
+:
+WritingMode
+aWM
 )
 ;
 /
