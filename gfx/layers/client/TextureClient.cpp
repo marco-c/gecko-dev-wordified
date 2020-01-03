@@ -4722,6 +4722,10 @@ aCbCrSize
 if
 (
 !
+bufSize
+|
+|
+!
 Allocate
 (
 bufSize
