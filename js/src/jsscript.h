@@ -5794,6 +5794,16 @@ usesArgumentsApplyAndThis_
 /
 PJS
 FIXME
+bug
+1121433
+-
+clone
+at
+call
+site
+may
+be
+obsolete
 /
 *
 script

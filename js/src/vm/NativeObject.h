@@ -4253,7 +4253,8 @@ can
 be
 called
 from
-parallel
+other
+pure
 code
 .
 *
