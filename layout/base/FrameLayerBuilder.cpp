@@ -540,10 +540,7 @@ MOZ_RELEASE_ASSERT
 mLayer
 )
 ;
-DebugOnly
-<
 bool
->
 result
 =
 mFrameList
@@ -553,7 +550,7 @@ RemoveElement
 aFrame
 )
 ;
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 result
 "
@@ -608,7 +605,7 @@ LayerManagerDataProperty
 )
 )
 ;
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 array
 "
