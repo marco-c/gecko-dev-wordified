@@ -2086,7 +2086,7 @@ eCompositionEventClass
 NON_IDL_EVENT
 (
 command
-NS_XUL_COMMAND
+eXULCommand
 EventNameType_XUL
 eInputEventClass
 )
