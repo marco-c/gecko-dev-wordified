@@ -230,6 +230,13 @@ h
 #
 include
 "
+DecoderFactory
+.
+h
+"
+#
+include
+"
 Orientation
 .
 h
@@ -2696,7 +2703,7 @@ Init
 (
 )
 .
-eDecoderType
+DecoderType
 mDecoderType
 ;
 /
