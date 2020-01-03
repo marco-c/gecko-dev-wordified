@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 PathHelpers
