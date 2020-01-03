@@ -27078,6 +27078,12 @@ browser
 "
 |
 |
+!
+browser
+.
+getTabBrowser
+|
+|
 browser
 .
 getTabBrowser
