@@ -36130,7 +36130,7 @@ usingDisplayport
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortForVisibilityTesting
 (
 aFrame
 -
