@@ -8964,7 +8964,6 @@ path
 .
 size
 ;
-;
 }
 catch
 (
