@@ -15078,10 +15078,6 @@ RemoteFrameFullscreenChanged
 nsIDOMElement
 *
 aFrameElement
-const
-nsAString
-&
-aNewOrigin
 )
 {
 MOZ_RELEASE_ASSERT
@@ -15115,7 +15111,6 @@ doc
 RemoteFrameFullscreenChanged
 (
 aFrameElement
-aNewOrigin
 )
 ;
 return
