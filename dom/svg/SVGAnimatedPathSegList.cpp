@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -1134,8 +1143,8 @@ mElement
 )
 ;
 aValue
-.
-Swap
+=
+Move
 (
 val
 )
@@ -1270,8 +1279,8 @@ mElement
 )
 ;
 val
-.
-Swap
+=
+Move
 (
 tmp
 )

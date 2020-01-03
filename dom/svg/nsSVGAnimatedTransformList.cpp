@@ -146,6 +146,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h
@@ -1744,8 +1753,8 @@ parsed
 value
 .
 aResult
-.
-Swap
+=
+Move
 (
 val
 )

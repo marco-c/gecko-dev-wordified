@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -1005,8 +1014,8 @@ mCanZeroPadList
 )
 ;
 aValue
-.
-Swap
+=
+Move
 (
 val
 )
@@ -1390,8 +1399,8 @@ mCanZeroPadList
 )
 ;
 val
-.
-Swap
+=
+Move
 (
 tmp
 )
