@@ -366,7 +366,10 @@ plugins
 .
 html
 "
-0
+nsIAboutModule
+:
+:
+URI_MUST_LOAD_IN_CHILD
 }
 {
 "
