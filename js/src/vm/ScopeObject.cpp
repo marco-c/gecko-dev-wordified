@@ -9210,13 +9210,9 @@ if
 script
 -
 >
-bodyLevelLocalIsAliased
+bindingIsAliased
 (
 bi
-.
-localIndex
-(
-)
 )
 )
 return
