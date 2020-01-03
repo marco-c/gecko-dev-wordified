@@ -1766,7 +1766,6 @@ A
 )
 ;
 let
-(
 entry
 =
 WSP
@@ -1779,8 +1778,7 @@ utf
 8
 "
 ]
-)
-{
+;
 wsp_decode_test
 (
 WSP
@@ -1802,7 +1800,6 @@ name
 }
 )
 ;
-}
 /
 /
 Test
@@ -1832,8 +1829,6 @@ charset
 }
 )
 ;
-let
-(
 entry
 =
 WSP
@@ -1846,8 +1841,7 @@ utf
 8
 "
 ]
-)
-{
+;
 wsp_decode_test
 (
 WSP
@@ -1891,7 +1885,6 @@ name
 }
 )
 ;
-}
 wsp_decode_test
 (
 WSP
@@ -4670,7 +4663,6 @@ a
 )
 ;
 let
-(
 entry
 =
 WSP
@@ -4689,8 +4681,7 @@ mms
 ua
 "
 ]
-)
-{
+;
 wsp_decode_test
 (
 WSP
@@ -4724,7 +4715,6 @@ entry
 urn
 )
 ;
-}
 wsp_decode_test
 (
 WSP

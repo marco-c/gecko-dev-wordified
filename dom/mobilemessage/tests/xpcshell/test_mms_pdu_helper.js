@@ -7960,7 +7960,6 @@ utf
 -
 8
 let
-(
 entry
 =
 MMS
@@ -7975,8 +7974,7 @@ utf
 8
 "
 ]
-)
-{
+;
 /
 /
 "
@@ -8080,9 +8078,6 @@ raw
 str
 )
 ;
-}
-let
-(
 entry
 =
 MMS
@@ -8097,8 +8092,7 @@ utf
 16
 "
 ]
-)
-{
+;
 /
 /
 "
@@ -8108,7 +8102,6 @@ in
 full
 width
 .
-let
 str
 =
 "
@@ -8128,7 +8121,6 @@ u006C
 u0061
 "
 ;
-let
 conv
 =
 Cc
@@ -8159,7 +8151,6 @@ entry
 .
 converter
 ;
-let
 raw
 =
 conv
@@ -8199,7 +8190,6 @@ raw
 str
 )
 ;
-}
 run_next_test
 (
 )
@@ -8255,7 +8245,6 @@ utf
 -
 8
 let
-(
 entry
 =
 MMS
@@ -8270,8 +8259,7 @@ utf
 8
 "
 ]
-)
-{
+;
 /
 /
 "
@@ -8490,7 +8478,6 @@ raw
 )
 )
 ;
-}
 run_next_test
 (
 )
@@ -8862,7 +8849,6 @@ present
 token
 :
 let
-(
 addr
 =
 strToCharCodeArray
@@ -8876,8 +8862,7 @@ TYPE
 PLMN
 "
 )
-)
-{
+;
 wsp_decode_test
 (
 MMS
@@ -8911,7 +8896,6 @@ PLMN
 }
 )
 ;
-}
 run_next_test
 (
 )
@@ -8970,7 +8954,6 @@ present
 token
 :
 let
-(
 addr
 =
 strToCharCodeArray
@@ -8984,8 +8967,7 @@ TYPE
 PLMN
 "
 )
-)
-{
+;
 wsp_encode_test
 (
 MMS
@@ -9019,7 +9001,6 @@ addr
 )
 )
 ;
-}
 run_next_test
 (
 )

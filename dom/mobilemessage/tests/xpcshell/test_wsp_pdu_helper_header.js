@@ -248,7 +248,6 @@ NotWellKnownEncodingError
 )
 ;
 let
-(
 entry
 =
 WSP
@@ -261,8 +260,7 @@ push
 flag
 "
 ]
-)
-{
+;
 /
 /
 Test
@@ -418,7 +416,6 @@ number
 null
 )
 ;
-}
 run_next_test
 (
 )
@@ -845,7 +842,6 @@ a
 )
 ;
 let
-(
 entry
 =
 WSP
@@ -858,8 +854,7 @@ content
 length
 "
 ]
-)
-{
+;
 wsp_decode_test
 (
 WSP
@@ -877,7 +872,6 @@ entry
 name
 )
 ;
-}
 wsp_decode_test
 (
 WSP
@@ -1077,7 +1071,6 @@ utf
 -
 8
 let
-(
 entry
 =
 WSP
@@ -1090,8 +1083,7 @@ utf
 8
 "
 ]
-)
-{
+;
 /
 /
 "
@@ -1220,9 +1212,6 @@ octetArray
 str
 )
 ;
-}
-let
-(
 entry
 =
 WSP
@@ -1235,8 +1224,7 @@ utf
 16
 "
 ]
-)
-{
+;
 /
 /
 "
@@ -1246,7 +1234,6 @@ in
 full
 width
 .
-let
 str
 =
 "
@@ -1266,7 +1253,6 @@ u006C
 u0061
 "
 ;
-let
 conv
 =
 Cc
@@ -1297,7 +1283,6 @@ entry
 .
 converter
 ;
-let
 raw
 =
 conv
@@ -1307,7 +1292,6 @@ convertToByteArray
 str
 )
 ;
-let
 data
 =
 {
@@ -1319,7 +1303,6 @@ offset
 0
 }
 ;
-let
 octetArray
 =
 WSP
@@ -1365,7 +1348,6 @@ raw
 str
 )
 ;
-}
 run_next_test
 (
 )
