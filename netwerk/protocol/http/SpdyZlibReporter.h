@@ -131,6 +131,12 @@ memory
 *
 /
 #
+ifndef
+mozilla_net_SpdyZlibReporter_h
+#
+define
+mozilla_net_SpdyZlibReporter_h
+#
 include
 "
 mozilla
@@ -330,3 +336,8 @@ aAnonymize
 /
 namespace
 mozilla
+#
+endif
+/
+/
+mozilla_net_SpdyZlibReporter_h
