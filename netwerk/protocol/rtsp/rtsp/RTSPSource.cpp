@@ -251,6 +251,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
 using
 namespace
 mozilla
@@ -3452,7 +3461,10 @@ SetMimeType
 mimeType
 )
 ;
+DebugOnly
+<
 bool
+>
 success
 ;
 success
@@ -4117,7 +4129,10 @@ accessUnit
 NULL
 )
 ;
+DebugOnly
+<
 bool
+>
 success
 =
 accessUnit

@@ -8023,9 +8023,6 @@ while
 feedFrame
 )
 {
-int64_t
-timeUs
-;
 status_t
 err
 =
