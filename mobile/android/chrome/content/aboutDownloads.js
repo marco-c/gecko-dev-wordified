@@ -547,6 +547,11 @@ download
 download
 .
 stopped
+&
+&
+download
+.
+hasPartialData
 download
 =
 >
