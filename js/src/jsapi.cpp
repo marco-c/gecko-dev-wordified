@@ -19222,12 +19222,6 @@ JSPROP_DEFINE_LATE
 continue
 ;
 }
-flags
-&
-=
-~
-JSPROP_DEFINE_LATE
-;
 /
 *
 *
