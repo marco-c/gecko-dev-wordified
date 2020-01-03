@@ -2492,7 +2492,7 @@ debug
 }
         
 #
-In
+in
 the
 event
 we
@@ -2517,6 +2517,15 @@ session
 is
 not
 None
+and
+not
+self
+.
+marionette
+.
+check_for_crash
+(
+)
 :
             
 try
