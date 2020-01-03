@@ -38096,12 +38096,14 @@ for
 uint32_t
 sideX
 =
-eLogicalSideBStart
+0
 ;
 sideX
 <
-=
-eLogicalSideIStart
+ArrayLength
+(
+tableBorderReset
+)
 ;
 sideX
 +
