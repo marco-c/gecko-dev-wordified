@@ -3295,6 +3295,10 @@ renderFrame
 ;
 }
 }
+TryCacheDPIAndScale
+(
+)
+;
 ShowInfo
 info
 (
@@ -3303,6 +3307,10 @@ EmptyString
 )
 false
 false
+mDPI
+mDefaultScale
+.
+scale
 )
 ;
 if
@@ -3376,6 +3384,10 @@ ShowInfo
 name
 allowFullscreen
 isPrivate
+mDPI
+mDefaultScale
+.
+scale
 )
 ;
 }

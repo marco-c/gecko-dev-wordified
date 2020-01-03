@@ -3670,6 +3670,12 @@ mChromeDisp
 TabId
 mUniqueId
 ;
+float
+mDPI
+;
+double
+mDefaultScale
+;
 DISALLOW_EVIL_CONSTRUCTORS
 (
 TabChild
