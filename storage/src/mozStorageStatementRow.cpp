@@ -737,7 +737,7 @@ if
 !
 :
 :
-JS_SetElement
+JS_DefineElement
 (
 aCtx
 scope
@@ -746,6 +746,7 @@ blob
 [
 i
 ]
+JSPROP_ENUMERATE
 )
 )
 {

@@ -935,12 +935,13 @@ false
 if
 (
 !
-JS_SetElement
+JS_DefineElement
 (
 aCx
 attachmentArray
 i
 obj
+JSPROP_ENUMERATE
 )
 )
 {

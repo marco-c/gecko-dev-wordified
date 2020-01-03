@@ -3251,12 +3251,13 @@ NS_ERROR_FAILURE
 if
 (
 !
-JS_SetElement
+JS_DefineElement
 (
 aCx
 attachments
 i
 attachmentObj
+JSPROP_ENUMERATE
 )
 )
 {
