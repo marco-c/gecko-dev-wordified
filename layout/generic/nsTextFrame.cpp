@@ -13839,12 +13839,13 @@ mBidiEnabled
 &
 &
 (
+IS_LEVEL_RTL
+(
 NS_GET_EMBEDDING_LEVEL
 (
 firstFrame
 )
-&
-1
+)
 )
 )
 {
