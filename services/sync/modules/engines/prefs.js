@@ -91,7 +91,7 @@ Components
 utils
 ;
 const
-WEAVE_SYNC_PREFS
+PREF_SYNC_PREFS_PREFIX
 =
 "
 services
@@ -602,7 +602,7 @@ nsIPrefService
 .
 getBranch
 (
-WEAVE_SYNC_PREFS
+PREF_SYNC_PREFS_PREFIX
 )
 .
 getChildList
@@ -640,7 +640,7 @@ pref
 )
 {
 return
-WEAVE_SYNC_PREFS
+PREF_SYNC_PREFS_PREFIX
 +
 pref
 ;
@@ -663,7 +663,7 @@ pref
 .
 indexOf
 (
-WEAVE_SYNC_PREFS
+PREF_SYNC_PREFS_PREFIX
 )
 =
 =
@@ -677,7 +677,7 @@ _prefs
 .
 get
 (
-WEAVE_SYNC_PREFS
+PREF_SYNC_PREFS_PREFIX
 +
 pref
 false
@@ -1544,7 +1544,7 @@ data
 .
 indexOf
 (
-WEAVE_SYNC_PREFS
+PREF_SYNC_PREFS_PREFIX
 )
 =
 =
@@ -1557,7 +1557,7 @@ _prefs
 .
 get
 (
-WEAVE_SYNC_PREFS
+PREF_SYNC_PREFS_PREFIX
 +
 data
 false
