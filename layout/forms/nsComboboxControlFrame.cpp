@@ -10063,7 +10063,12 @@ return
 ;
 aRenderingContext
 .
-PushState
+ThebesContext
+(
+)
+-
+>
+Save
 (
 )
 ;
@@ -10270,7 +10275,12 @@ TopLeft
 ;
 aRenderingContext
 .
-PopState
+ThebesContext
+(
+)
+-
+>
+Restore
 (
 )
 ;

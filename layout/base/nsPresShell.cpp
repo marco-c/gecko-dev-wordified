@@ -63290,7 +63290,12 @@ aName
 aRenderingContext
 -
 >
-PushState
+ThebesContext
+(
+)
+-
+>
+Save
 (
 )
 ;
@@ -63688,7 +63693,12 @@ y
 aRenderingContext
 -
 >
-PopState
+ThebesContext
+(
+)
+-
+>
+Restore
 (
 )
 ;
