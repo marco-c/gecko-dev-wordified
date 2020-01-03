@@ -1717,6 +1717,10 @@ nsIntSize
 &
 aSize
 const
+ShowInfo
+&
+aInfo
+const
 ScrollingBehavior
 &
 aScrolling
@@ -3089,6 +3093,15 @@ aLayersId
 PRenderFrameChild
 *
 aRenderFrame
+)
+;
+void
+ApplyShowInfo
+(
+const
+ShowInfo
+&
+aInfo
 )
 ;
 /
