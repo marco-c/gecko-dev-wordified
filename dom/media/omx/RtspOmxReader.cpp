@@ -234,12 +234,6 @@ new
 OmxDecoder
 (
 mDecoder
--
->
-GetResource
-(
-)
-mDecoder
 )
 ;
 if
