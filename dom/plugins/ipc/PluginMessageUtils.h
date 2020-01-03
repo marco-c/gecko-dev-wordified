@@ -595,7 +595,7 @@ NativeWindowHandle
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 |
 |
