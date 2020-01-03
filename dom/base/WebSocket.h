@@ -983,7 +983,7 @@ WebSocket
 constructor
 steps
 nsString
-mURI
+mOriginalURL
 ;
 nsString
 mEffectiveURL
