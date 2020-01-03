@@ -1487,7 +1487,7 @@ function
 (
 )
 {
-workerTestDone
+testDone
 (
 )
 ;
