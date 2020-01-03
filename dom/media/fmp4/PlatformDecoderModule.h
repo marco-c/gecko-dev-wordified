@@ -1190,6 +1190,10 @@ static
 bool
 sAndroidMCDecoderEnabled
 ;
+static
+bool
+sGMPDecoderEnabled
+;
 }
 ;
 /
