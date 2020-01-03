@@ -12785,7 +12785,7 @@ aOther
 )
 {
 }
-explicit
+MOZ_IMPLICIT
 nsTArray
 (
 nsTArray
