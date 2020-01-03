@@ -32862,7 +32862,9 @@ JSJitGetterOp
 )
 dom_get_x
 }
+{
 0
+}
 /
 *
 protoID
@@ -32954,7 +32956,9 @@ JSJitGetterOp
 )
 dom_set_x
 }
+{
 0
+}
 /
 *
 protoID
@@ -33048,7 +33052,9 @@ JSJitGetterOp
 )
 dom_doFoo
 }
+{
 0
+}
 /
 *
 protoID

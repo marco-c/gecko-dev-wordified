@@ -67229,6 +67229,7 @@ opName
 }
 }
                   
+{
 prototypes
 :
 :
@@ -67237,6 +67238,7 @@ id
 :
 {
 name
+}
 }
                   
 PrototypeTraits
@@ -70441,6 +70443,7 @@ n
 "
             
 "
+{
 prototypes
 :
 :
@@ -70448,6 +70451,7 @@ id
 :
 :
 _ID_Count
+}
 0
 JSJitInfo
 :
