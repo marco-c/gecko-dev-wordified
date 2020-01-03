@@ -1136,6 +1136,9 @@ tileLayerDescriptor
 (
 )
 ;
+bool
+success
+=
 tileComposer
 -
 >
@@ -1145,6 +1148,16 @@ this
 tileDesc
 )
 ;
+if
+(
+!
+success
+)
+{
+return
+false
+;
+}
 break
 ;
 }
