@@ -199,6 +199,9 @@ nsCSSPropertySet
 class
 nsIDocument
 ;
+class
+nsPresContext
+;
 namespace
 mozilla
 {
@@ -816,6 +819,13 @@ const
 nsIDocument
 *
 GetRenderedDocument
+(
+)
+const
+;
+nsPresContext
+*
+GetPresContext
 (
 )
 const
