@@ -196,7 +196,7 @@ h
 #
 include
 "
-nsIDOMIccInfo
+nsIIccInfo
 .
 h
 "
@@ -3417,7 +3417,7 @@ icc
 ;
 nsCOMPtr
 <
-nsIDOMMozIccInfo
+nsIIccInfo
 >
 iccInfo
 ;
@@ -3440,7 +3440,7 @@ iccInfo
 ;
 nsCOMPtr
 <
-nsIDOMMozGsmIccInfo
+nsIGsmIccInfo
 >
 gsmIccInfo
 =
