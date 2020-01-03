@@ -3043,16 +3043,6 @@ AssertStyleStructMaxDifferenceValid
 (
 )
 ;
-static
-const
-char
-*
-StructName
-(
-nsStyleStructID
-aSID
-)
-;
 #
 endif
 private
