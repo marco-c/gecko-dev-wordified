@@ -379,7 +379,7 @@ static
 void
 UpdateRootFrame
 (
-nsIContent
+nsIPresShell
 *
 aPresShell
 FrameMetrics
