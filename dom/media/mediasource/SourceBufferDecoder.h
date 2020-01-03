@@ -486,6 +486,14 @@ aTime
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
+bool
+HasInitializationData
+(
+)
+MOZ_FINAL
+MOZ_OVERRIDE
+;
 /
 /
 SourceBufferResource
