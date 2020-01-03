@@ -311,7 +311,7 @@ props
 )
 ;
 bool
-CheckPermissions
+CheckAnyPermissions
 (
 JSContext
 *
@@ -425,7 +425,7 @@ availableFunc
 &
 &
 !
-checkPermissions
+checkAnyPermissions
 &
 &
 !
@@ -484,11 +484,11 @@ false
 }
 if
 (
-checkPermissions
+checkAnyPermissions
 &
 &
 !
-CheckPermissions
+CheckAnyPermissions
 (
 cx
 js
@@ -498,7 +498,7 @@ GetGlobalForObjectCrossCompartment
 (
 obj
 )
-checkPermissions
+checkAnyPermissions
 )
 )
 {
@@ -665,7 +665,7 @@ char
 *
 const
 *
-checkPermissions
+checkAnyPermissions
 ;
 const
 char

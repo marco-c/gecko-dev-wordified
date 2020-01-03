@@ -14181,7 +14181,7 @@ func
 available
 =
 None
-checkPermissions
+checkAnyPermissions
 =
 None
 checkAllPermissions
@@ -14224,13 +14224,13 @@ str
 )
         
 assert
-checkPermissions
+checkAnyPermissions
 is
 None
 or
 isinstance
 (
-checkPermissions
+checkAnyPermissions
 int
 )
         
@@ -14295,14 +14295,14 @@ available
 )
         
 if
-checkPermissions
+checkAnyPermissions
 is
 None
 :
             
 self
 .
-checkPermissions
+checkAnyPermissions
 =
 "
 nullptr
@@ -14313,15 +14313,15 @@ else
             
 self
 .
-checkPermissions
+checkAnyPermissions
 =
 "
-permissions_
+anypermissions_
 %
 i
 "
 %
-checkPermissions
+checkAnyPermissions
         
 if
 checkAllPermissions
@@ -14393,12 +14393,12 @@ and
                 
 self
 .
-checkPermissions
+checkAnyPermissions
 =
 =
 other
 .
-checkPermissions
+checkAnyPermissions
 and
                 
 self
@@ -14858,7 +14858,7 @@ interfaceMember
                                
 descriptor
 .
-checkPermissionsIndicesForMembers
+checkAnyPermissionsIndicesForMembers
 .
 get
 (
@@ -15291,7 +15291,7 @@ available
                                   
 condition
 .
-checkPermissions
+checkAnyPermissions
                                   
 condition
 .
@@ -24266,16 +24266,16 @@ aObj
 availableIn
 )
         
-checkPermissions
+checkAnyPermissions
 =
 self
 .
 descriptor
 .
-checkPermissionsIndex
+checkAnyPermissionsIndex
         
 if
-checkPermissions
+checkAnyPermissions
 is
 not
 None
@@ -24286,17 +24286,17 @@ conditions
 append
 (
 "
-CheckPermissions
+CheckAnyPermissions
 (
 aCx
 aObj
-permissions_
+anypermissions_
 %
 i
 )
 "
 %
-checkPermissions
+checkAnyPermissions
 )
         
 checkAllPermissions
@@ -90392,7 +90392,7 @@ name
 in
 [
 "
-permissions
+anypermissions
 "
 "
 allpermissions

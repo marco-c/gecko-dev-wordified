@@ -4943,7 +4943,7 @@ isExternal
             
 self
 .
-permissions
+anypermissions
 =
 dict
 (
@@ -5003,7 +5003,7 @@ permissions
 =
 self
 .
-permissions
+anypermissions
                 
 checkPermissions
 =
@@ -5126,7 +5126,7 @@ permissions
             
 self
 .
-checkPermissionsIndex
+checkAnyPermissionsIndex
 =
 addPermissions
 (
@@ -5134,13 +5134,13 @@ self
 .
 interface
 "
-CheckPermissions
+CheckAnyPermissions
 "
 )
             
 self
 .
-checkPermissionsIndicesForMembers
+checkAnyPermissionsIndicesForMembers
 =
 dict
 (
@@ -5184,7 +5184,7 @@ addPermissions
 (
 m
 "
-CheckPermissions
+CheckAnyPermissions
 "
 )
                 
@@ -5197,7 +5197,7 @@ None
                     
 self
 .
-checkPermissionsIndicesForMembers
+checkAnyPermissionsIndicesForMembers
 [
 m
 .
@@ -5295,7 +5295,7 @@ interface
 getExtendedAttribute
 (
 "
-CheckPermissions
+CheckAnyPermissions
 "
 )
 or
@@ -5435,7 +5435,7 @@ m
 getExtendedAttribute
 (
 "
-CheckPermissions
+CheckAnyPermissions
 "
 )
 or

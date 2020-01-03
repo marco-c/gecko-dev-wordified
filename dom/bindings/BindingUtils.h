@@ -18439,7 +18439,7 @@ null
 terminated
 .
 bool
-CheckPermissions
+CheckAnyPermissions
 (
 JSContext
 *
