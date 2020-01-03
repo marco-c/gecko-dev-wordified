@@ -1343,6 +1343,13 @@ button
 )
 GK_ATOM
 (
+brighttitlebarforeground
+"
+brighttitlebarforeground
+"
+)
+GK_ATOM
+(
 callTemplate
 "
 call
