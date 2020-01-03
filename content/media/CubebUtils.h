@@ -211,7 +211,7 @@ the
 audio
 hardware
 .
-int
+uint32_t
 MaxNumberOfChannels
 (
 )
@@ -251,8 +251,6 @@ call
 /
 /
 PreferredSampleRate
-without
-locking
 .
 void
 InitPreferredSampleRate
@@ -263,15 +261,14 @@ InitPreferredSampleRate
 /
 Get
 the
-aformentionned
+aforementioned
 sample
 rate
 .
-Does
-not
-lock
+Thread
+safe
 .
-int
+uint32_t
 PreferredSampleRate
 (
 )
