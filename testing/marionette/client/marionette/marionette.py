@@ -4484,6 +4484,10 @@ timeout
 )
 :
             
+sock
+=
+None
+            
 try
 :
                 
@@ -4538,13 +4542,6 @@ in
 data
 :
                     
-time
-.
-sleep
-(
-5
-)
-                    
 return
 True
             
@@ -4556,10 +4553,24 @@ error
                 
 pass
             
+finally
+:
+                
+if
+sock
+:
+                    
+sock
+.
+close
+(
+)
+            
 time
 .
 sleep
 (
+.
 1
 )
         
