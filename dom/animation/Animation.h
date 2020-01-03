@@ -179,14 +179,14 @@ mozilla
 /
 dom
 /
-DocumentTimeline
+AnimationTimeline
 .
 h
 "
 /
 /
 for
-DocumentTimeline
+AnimationTimeline
 #
 include
 "
@@ -338,7 +338,7 @@ public
 explicit
 Animation
 (
-DocumentTimeline
+AnimationTimeline
 *
 aTimeline
 )
@@ -387,7 +387,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 Animation
 )
-DocumentTimeline
+AnimationTimeline
 *
 GetParentObject
 (
@@ -568,7 +568,7 @@ KeyframeEffectReadOnly
 aEffect
 )
 ;
-DocumentTimeline
+AnimationTimeline
 *
 Timeline
 (
@@ -2514,7 +2514,7 @@ const
 ;
 nsRefPtr
 <
-DocumentTimeline
+AnimationTimeline
 >
 mTimeline
 ;

@@ -740,7 +740,7 @@ CSSTransition
 dom
 :
 :
-DocumentTimeline
+AnimationTimeline
 *
 aTimeline
 )

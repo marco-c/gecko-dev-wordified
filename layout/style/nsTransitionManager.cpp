@@ -248,6 +248,17 @@ mozilla
 /
 dom
 /
+DocumentTimeline
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Element
 .
 h
