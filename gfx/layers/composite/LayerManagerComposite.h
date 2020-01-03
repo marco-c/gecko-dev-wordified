@@ -1489,6 +1489,16 @@ severity
 ;
 }
 }
+void
+UnusedApzTransformWarning
+(
+)
+{
+mUnusedApzTransformWarning
+=
+true
+;
+}
 private
 :
 /
@@ -1691,6 +1701,9 @@ mozilla
 :
 TimeStamp
 mWarnTime
+;
+bool
+mUnusedApzTransformWarning
 ;
 RefPtr
 <
