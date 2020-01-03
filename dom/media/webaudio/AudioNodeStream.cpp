@@ -237,11 +237,6 @@ AudioNodeStreamKind
 aKind
 TrackRate
 aSampleRate
-AudioContext
-:
-:
-AudioContextId
-aContextId
 )
 :
 ProcessedMediaStream
@@ -255,10 +250,6 @@ aEngine
 mSampleRate
 (
 aSampleRate
-)
-mAudioContextId
-(
-aContextId
 )
 mKind
 (
