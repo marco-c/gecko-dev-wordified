@@ -3377,6 +3377,11 @@ function
 message
 )
 {
+if
+(
+docShell
+)
+{
 docShell
 .
 isAppTab
@@ -3387,6 +3392,7 @@ data
 .
 isAppTab
 ;
+}
 }
 )
 ;
