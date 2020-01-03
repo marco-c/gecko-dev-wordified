@@ -606,8 +606,10 @@ toString
 contains
 (
 "
-expected
-type
+can
+'
+t
+pass
 "
 )
 )
@@ -703,8 +705,10 @@ toString
 contains
 (
 "
-expected
-type
+can
+'
+t
+pass
 "
 )
 )
