@@ -209,6 +209,13 @@ aStyle
 virtual
 gfxFont
 *
+GetFirstValidFont
+(
+)
+;
+virtual
+gfxFont
+*
 GetFontAt
 (
 int32_t
