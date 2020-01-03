@@ -681,6 +681,8 @@ bool
 aReadOnly
 bool
 aCheckOnAnyThread
+bool
+aSecret
 )
 ;
 Callback
@@ -795,6 +797,11 @@ mRecheckAfterWrite
 ;
 bool
 mNotWanted
+:
+1
+;
+bool
+mSecret
 :
 1
 ;
