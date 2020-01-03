@@ -6169,6 +6169,7 @@ GLint
 out_stencilBits
 )
 ;
+virtual
 JS
 :
 :
