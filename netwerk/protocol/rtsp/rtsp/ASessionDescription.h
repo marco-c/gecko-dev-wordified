@@ -315,7 +315,7 @@ durationUs
 const
 ;
 static
-void
+bool
 ParseFormatDesc
 (
 const
