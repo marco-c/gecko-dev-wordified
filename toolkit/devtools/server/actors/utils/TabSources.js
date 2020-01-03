@@ -147,7 +147,12 @@ const
 resolve
 }
 =
-Promise
+require
+(
+"
+promise
+"
+)
 ;
 loader
 .
