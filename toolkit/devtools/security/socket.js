@@ -350,7 +350,7 @@ DebuggerTransport
 *
 *
 param
-aHost
+host
 string
 *
 The
@@ -366,7 +366,7 @@ server
 .
 *
 param
-aPort
+port
 number
 *
 The
@@ -382,8 +382,8 @@ server
 function
 socketConnect
 (
-aHost
-aPort
+host
+port
 )
 {
 let
@@ -395,8 +395,8 @@ createTransport
 (
 null
 0
-aHost
-aPort
+host
+port
 null
 )
 ;
@@ -963,8 +963,8 @@ makeInfallible
 (
 function
 (
-aSocket
-aTransport
+socket
+socketTransport
 )
 {
 if
@@ -1009,7 +1009,7 @@ connection
 on
 "
 +
-aTransport
+socketTransport
 .
 host
 +
@@ -1017,7 +1017,7 @@ host
 :
 "
 +
-aTransport
+socketTransport
 .
 port
 )
@@ -1025,7 +1025,7 @@ port
 let
 input
 =
-aTransport
+socketTransport
 .
 openInputStream
 (
@@ -1037,7 +1037,7 @@ openInputStream
 let
 output
 =
-aTransport
+socketTransport
 .
 openOutputStream
 (
@@ -1076,7 +1076,7 @@ onStopListening
 :
 function
 (
-aSocket
+socket
 status
 )
 {
