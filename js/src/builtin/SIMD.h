@@ -2349,6 +2349,11 @@ swizzle
 \
 _
 (
+shuffle
+)
+\
+_
+(
 load
 )
 \
@@ -2376,11 +2381,6 @@ _
 COMP_COMMONX4_TO_INT32X4_SIMD_OP
 (
 _
-)
-\
-_
-(
-shuffle
 )
 \
 _

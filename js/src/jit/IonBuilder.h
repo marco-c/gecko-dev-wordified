@@ -5462,7 +5462,7 @@ type
 )
 ;
 InliningStatus
-inlineSimdSwizzle
+inlineSimdShuffle
 (
 CallInfo
 &
@@ -5474,6 +5474,10 @@ SimdTypeDescr
 :
 Type
 type
+unsigned
+numVectors
+unsigned
+numLanes
 )
 ;
 InliningStatus

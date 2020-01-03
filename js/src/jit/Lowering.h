@@ -2092,9 +2092,9 @@ ins
 )
 ;
 void
-visitSimdGeneralSwizzle
+visitSimdGeneralShuffle
 (
-MSimdGeneralSwizzle
+MSimdGeneralShuffle
 *
 ins
 )
