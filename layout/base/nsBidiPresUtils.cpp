@@ -8990,16 +8990,15 @@ start
 aStart
 ;
 nscoord
-frameWidth
+frameISize
 =
 aFrame
 -
 >
-GetSize
+ISize
 (
+aLineWM
 )
-.
-width
 ;
 if
 (
@@ -9202,7 +9201,7 @@ aIsEvenLevel
 iCoord
 aContinuationStates
 frameWM
-frameWidth
+frameISize
 )
 ;
 index
@@ -9261,7 +9260,7 @@ else
 aStart
 +
 =
-frameWidth
+frameISize
 ;
 }
 LogicalRect
