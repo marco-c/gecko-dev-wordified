@@ -3461,7 +3461,7 @@ this
 selectPanel
 (
 "
-apply
+applyBillboard
 "
 )
 ;
