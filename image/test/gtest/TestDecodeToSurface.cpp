@@ -412,7 +412,9 @@ Green
 )
 mTestCase
 .
-mFuzzy
+mFlags
+&
+TEST_CASE_IS_FUZZY
 )
 )
 ;

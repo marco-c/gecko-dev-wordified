@@ -1142,13 +1142,7 @@ IntSize
 100
 100
 )
-/
-*
-aFuzzy
-=
-*
-/
-true
+TEST_CASE_IS_FUZZY
 )
 ;
 }
