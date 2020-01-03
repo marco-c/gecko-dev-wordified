@@ -440,7 +440,7 @@ and
 built
 -
 in
-ooperators
+operators
 .
 Defining
 explicit
