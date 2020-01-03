@@ -2315,7 +2315,7 @@ MESSAGE_TO_EVENT
 NON_IDL_EVENT
 (
 end
-NS_SMIL_END
+eSMILEndEvent
 EventNameType_SMIL
 eBasicEventClass
 )
@@ -2324,7 +2324,7 @@ endif
 NON_IDL_EVENT
 (
 endEvent
-NS_SMIL_END
+eSMILEndEvent
 EventNameType_None
 eSMILTimeEventClass
 )
