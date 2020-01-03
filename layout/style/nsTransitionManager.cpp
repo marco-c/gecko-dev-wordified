@@ -332,7 +332,7 @@ mozilla
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 ;
 using
 namespace
@@ -396,7 +396,7 @@ return
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 :
 :
 Name
@@ -2756,7 +2756,7 @@ i
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 effect
 =
@@ -5092,7 +5092,7 @@ i
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 effect
 =

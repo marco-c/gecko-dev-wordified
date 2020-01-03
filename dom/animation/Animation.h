@@ -160,7 +160,7 @@ h
 /
 /
 for
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 #
 include
 "
@@ -478,7 +478,7 @@ Continue
 Animation
 interface
 methods
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 GetEffect
 (
@@ -492,7 +492,7 @@ mEffect
 void
 SetEffect
 (
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 aEffect
 )
@@ -2366,7 +2366,7 @@ mTimeline
 ;
 nsRefPtr
 <
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 >
 mEffect
 ;

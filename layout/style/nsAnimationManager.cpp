@@ -231,7 +231,7 @@ mozilla
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 ;
 using
 mozilla
@@ -2202,7 +2202,7 @@ GetEffect
 )
 )
 {
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 oldEffect
 =
@@ -2213,7 +2213,7 @@ GetEffect
 (
 )
 ;
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 newEffect
 =
@@ -3491,12 +3491,12 @@ GetFillMode
 ;
 nsRefPtr
 <
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 >
 destEffect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 (
 mPresContext
 -
@@ -5063,7 +5063,7 @@ animIdx
 ]
 ;
 const
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 effect
 =
@@ -5355,7 +5355,7 @@ AsCSSAnimation
 (
 )
 ;
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 effect
 =

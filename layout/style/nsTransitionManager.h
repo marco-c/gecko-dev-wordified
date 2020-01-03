@@ -333,7 +333,7 @@ public
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 {
 ElementPropertyTransition
 (
@@ -360,7 +360,7 @@ aTiming
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 (
 aDocument
 aTarget

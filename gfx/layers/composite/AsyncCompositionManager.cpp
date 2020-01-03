@@ -233,7 +233,7 @@ h
 /
 /
 for
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 #
 include
 "
@@ -3568,7 +3568,7 @@ computedTiming
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 :
 :
 GetComputedTimingAt
