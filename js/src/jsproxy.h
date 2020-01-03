@@ -2871,7 +2871,7 @@ const
 ;
 virtual
 bool
-slice
+getElements
 (
 JSContext
 *
@@ -2882,8 +2882,9 @@ uint32_t
 begin
 uint32_t
 end
-HandleObject
-result
+ElementAdder
+*
+adder
 )
 const
 ;
