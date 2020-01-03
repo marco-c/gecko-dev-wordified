@@ -890,7 +890,7 @@ if
 (
 names
 .
-contains
+includes
 (
 "
 "

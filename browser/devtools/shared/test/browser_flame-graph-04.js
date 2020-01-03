@@ -468,7 +468,7 @@ ok
 (
 text50px
 .
-contains
+includes
 (
 L10N
 .

@@ -371,7 +371,7 @@ body
 .
 outerHTML
 .
-contains
+includes
 (
 clipboard
 .

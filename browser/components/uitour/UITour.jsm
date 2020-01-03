@@ -3025,7 +3025,7 @@ data
 .
 pageID
 .
-contains
+includes
 (
 BrowserUITelemetry
 .

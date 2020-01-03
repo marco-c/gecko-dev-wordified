@@ -1597,7 +1597,7 @@ isRelease
 !
 version
 .
-contains
+includes
 (
 "
 a
@@ -1628,7 +1628,7 @@ navigator
 .
 userAgent
 .
-contains
+includes
 (
 "
 Android
