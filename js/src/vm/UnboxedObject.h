@@ -797,6 +797,8 @@ JSContext
 cx
 HandleObject
 obj
+HandleObject
+receiver
 HandleId
 id
 MutableHandleValue
