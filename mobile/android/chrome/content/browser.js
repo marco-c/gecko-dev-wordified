@@ -10429,6 +10429,16 @@ selectedTab
 )
 return
 ;
+this
+.
+selectedBrowser
+.
+contentDocument
+.
+mozCancelFullScreen
+(
+)
+;
 let
 message
 =
