@@ -3287,13 +3287,3 @@ FrameNode
 =
 FrameNode
 ;
-exports
-.
-FrameNode
-.
-isContent
-=
-FrameUtils
-.
-isContent
-;

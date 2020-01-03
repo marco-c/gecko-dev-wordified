@@ -56,9 +56,7 @@ test
 )
 {
 let
-{
-FrameNode
-}
+FrameUtils
 =
 devtools
 .
@@ -69,15 +67,15 @@ devtools
 /
 performance
 /
-tree
+frame
 -
-model
+utils
 "
 )
 ;
 ok
 (
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -108,7 +106,7 @@ properly
 ;
 ok
 (
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -139,7 +137,7 @@ properly
 ;
 ok
 (
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -171,7 +169,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -203,7 +201,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -235,7 +233,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -274,7 +272,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -313,7 +311,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -352,7 +350,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -391,7 +389,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -430,7 +428,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -469,7 +467,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -504,7 +502,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -539,7 +537,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -581,7 +579,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -623,7 +621,7 @@ properly
 ok
 (
 !
-FrameNode
+FrameUtils
 .
 isContent
 (
