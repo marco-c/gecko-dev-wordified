@@ -7083,12 +7083,6 @@ Bundle
 savedInstanceState
 )
 {
-GeckoAppShell
-.
-registerGlobalExceptionHandler
-(
-)
-;
 /
 /
 Enable
