@@ -8542,6 +8542,10 @@ LexicalLookup
 pc
 name
 nullptr
+(
+StmtInfoPC
+*
+)
 nullptr
 )
 ;
