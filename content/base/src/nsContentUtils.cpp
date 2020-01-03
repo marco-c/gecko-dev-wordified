@@ -14458,6 +14458,13 @@ IsInitialized
 )
 )
 ;
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 JSContext
 *
 cx
