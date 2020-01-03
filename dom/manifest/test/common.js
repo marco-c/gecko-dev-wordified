@@ -65,7 +65,7 @@ manifest
 json
 '
 )
-docLocation
+docURL
 =
 new
 URL
@@ -163,8 +163,8 @@ jsonText
 manifestURL
 :
 manifestURL
-docLocation
+docURL
 :
-docLocation
+docURL
 }
 ;
