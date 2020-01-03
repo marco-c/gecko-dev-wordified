@@ -3155,15 +3155,6 @@ const
 ContainerLayerParameters
 &
 aParameters
-mozilla
-:
-:
-Maybe
-<
-nsRect
->
-*
-aOutClipRect
 nsTArray
 <
 FrameMetrics

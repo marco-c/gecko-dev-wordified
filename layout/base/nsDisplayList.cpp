@@ -10277,6 +10277,9 @@ FrameMetrics
 :
 NULL_SCROLL_ID
 viewport
+Nothing
+(
+)
 isRoot
 containerParameters
 )
@@ -26504,6 +26507,9 @@ ReferenceFrame
 aLayer
 mScrollParentId
 viewport
+Nothing
+(
+)
 isRootContentDocument
 params
 )
@@ -27998,6 +28004,9 @@ ReferenceFrame
 aLayer
 mScrollParentId
 viewport
+Nothing
+(
+)
 false
 params
 )

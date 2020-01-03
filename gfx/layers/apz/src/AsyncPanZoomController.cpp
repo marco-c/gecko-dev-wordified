@@ -21119,6 +21119,17 @@ GetPageScrollAmount
 )
 )
 ;
+mFrameMetrics
+.
+SetClipRect
+(
+aLayerMetrics
+.
+GetClipRect
+(
+)
+)
+;
 if
 (
 scrollOffsetUpdated
