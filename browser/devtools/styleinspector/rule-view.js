@@ -1167,6 +1167,13 @@ showUserAgentStyles
 =
 aShowUserAgentStyles
 ;
+this
+.
+rules
+=
+[
+]
+;
 /
 /
 We
