@@ -1076,7 +1076,7 @@ NS_COMPOSITION_EVENT_START
 )
 /
 /
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 is
 the
 message
@@ -1142,7 +1142,7 @@ nullptr
 .
 NS_EVENT_MESSAGE
 (
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 NS_COMPOSITION_EVENT_START
 +
 4
