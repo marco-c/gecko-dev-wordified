@@ -1289,6 +1289,17 @@ event
 target
 )
 ;
+let
+principal
+=
+event
+.
+target
+.
+ownerDocument
+.
+nodePrincipal
+;
 sendSyncMessage
 (
 "
@@ -1299,6 +1310,7 @@ editFlags
 spellInfo
 customMenuItems
 addonInfo
+principal
 }
 {
 event
