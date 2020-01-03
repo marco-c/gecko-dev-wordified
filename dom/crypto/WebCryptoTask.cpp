@@ -15316,6 +15316,14 @@ algName
 .
 EqualsLiteral
 (
+WEBCRYPTO_ALG_ECDSA
+)
+|
+|
+algName
+.
+EqualsLiteral
+(
 WEBCRYPTO_ALG_ECDH
 )
 |
