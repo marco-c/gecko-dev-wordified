@@ -5898,12 +5898,6 @@ key
 if
 (
 !
-AppConstants
-.
-NIGHTLY_BUILD
-|
-|
-!
 InputOptionsUtils
 .
 supportsQrCodeReader
