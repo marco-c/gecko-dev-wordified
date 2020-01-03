@@ -616,7 +616,7 @@ nsAutoPtr
 WMFVideoMFTManager
 >
 manager
-=
+(
 new
 WMFVideoMFTManager
 (
@@ -629,6 +629,7 @@ sDXVAEnabled
 ShouldUseDXVA
 (
 aConfig
+)
 )
 )
 ;
@@ -708,11 +709,12 @@ nsAutoPtr
 WMFAudioMFTManager
 >
 manager
-=
+(
 new
 WMFAudioMFTManager
 (
 aConfig
+)
 )
 ;
 nsRefPtr
