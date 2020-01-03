@@ -4107,9 +4107,13 @@ if
 detailItem
 .
 addon
+.
+id
 =
 =
 aAddon
+.
+id
 )
 {
 history
