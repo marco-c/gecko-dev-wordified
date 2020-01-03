@@ -8205,7 +8205,12 @@ nsDependentAtomString
 aNode
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 )

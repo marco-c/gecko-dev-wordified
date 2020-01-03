@@ -1341,7 +1341,12 @@ return
 aContent
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 ;
