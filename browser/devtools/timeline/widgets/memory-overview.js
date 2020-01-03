@@ -336,6 +336,9 @@ call
 (
 this
 parent
+{
+metric
+:
 L10N
 .
 getStr
@@ -346,6 +349,7 @@ graphs
 memory
 "
 )
+}
 )
 ;
 this

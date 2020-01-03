@@ -600,6 +600,9 @@ time
 framerate
 "
 )
+{
+metric
+:
 L10N
 .
 getStr
@@ -610,6 +613,7 @@ graphs
 fps
 "
 )
+}
 )
 ;
 this

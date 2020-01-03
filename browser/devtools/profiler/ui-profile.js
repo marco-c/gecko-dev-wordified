@@ -2931,6 +2931,9 @@ framerate
 "
 panel
 )
+{
+metric
+:
 L10N
 .
 getStr
@@ -2941,6 +2944,7 @@ graphs
 fps
 "
 )
+}
 )
 ;
 graph
