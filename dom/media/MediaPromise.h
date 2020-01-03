@@ -213,6 +213,11 @@ PRLogModuleInfo
 *
 gMediaPromiseLog
 ;
+void
+EnsureMediaPromiseLog
+(
+)
+;
 #
 define
 PROMISE_LOG
@@ -1380,7 +1385,6 @@ Length
 +
 i
 )
-{
 mThenValues
 [
 i
@@ -1392,7 +1396,6 @@ Dispatch
 this
 )
 ;
-}
 mThenValues
 .
 Clear
