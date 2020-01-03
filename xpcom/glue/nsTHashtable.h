@@ -984,16 +984,8 @@ PLDHashTable
 *
 >
 (
-static_cast
-<
-const
-PLDHashTable
-*
->
-(
 &
 mTable
-)
 )
 EntryType
 :
