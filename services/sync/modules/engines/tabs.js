@@ -61,34 +61,28 @@ this
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 TabEngine
-'
-'
+"
+"
 TabSetRecord
-'
+"
 ]
 ;
 const
-Cc
-=
-Components
-.
+{
 classes
-;
-const
-Ci
-=
-Components
-.
+:
+Cc
 interfaces
-;
-const
+:
+Ci
+utils
+:
 Cu
+}
 =
 Components
-.
-utils
 ;
 const
 TABS_TTL
@@ -99,6 +93,7 @@ TABS_TTL
 /
 7
 days
+.
 Cu
 .
 import
@@ -355,6 +350,7 @@ we
 fetch
 recent
 tabs
+.
 this
 .
 _resetClient
@@ -387,7 +383,6 @@ syncPriority
 getChangedIDs
 :
 function
-getChangedIDs
 (
 )
 {
@@ -443,7 +438,7 @@ API
 for
 use
 by
-Weave
+Sync
 UI
 code
 to
@@ -454,11 +449,10 @@ of
 tabs
 to
 open
-:
+.
 getAllClients
 :
 function
-TabEngine_getAllClients
 (
 )
 {
@@ -473,7 +467,6 @@ _remoteClients
 getClientById
 :
 function
-TabEngine_getClientById
 (
 id
 )
@@ -492,7 +485,6 @@ id
 _resetClient
 :
 function
-TabEngine__resetClient
 (
 )
 {
@@ -527,7 +519,6 @@ true
 removeClientData
 :
 function
-removeClientData
 (
 )
 {
@@ -654,7 +645,6 @@ prototype
 itemExists
 :
 function
-TabStore_itemExists
 (
 id
 )
@@ -1055,7 +1045,6 @@ allTabs
 createRecord
 :
 function
-createRecord
 (
 id
 collection
@@ -1335,7 +1324,6 @@ record
 getAllIDs
 :
 function
-TabStore_getAllIds
 (
 )
 {
@@ -1488,7 +1476,6 @@ ids
 wipe
 :
 function
-TabStore_wipe
 (
 )
 {
@@ -1503,7 +1490,6 @@ _remoteClients
 create
 :
 function
-TabStore_create
 (
 record
 )
@@ -1553,6 +1539,7 @@ enough
 (
 seconds
 )
+.
 let
 roundModify
 =
@@ -1595,6 +1582,7 @@ this
 first
 modified
 time
+.
 if
 (
 notifyState
@@ -1602,6 +1590,7 @@ notifyState
 =
 null
 )
+{
 Svc
 .
 Prefs
@@ -1614,6 +1603,9 @@ notifyTabState
 roundModify
 )
 ;
+return
+;
+}
 /
 /
 Don
@@ -1633,7 +1625,7 @@ don
 t
 notify
 )
-else
+.
 if
 (
 notifyState
@@ -1641,8 +1633,10 @@ notifyState
 =
 0
 )
+{
 return
 ;
+}
 /
 /
 We
@@ -1661,7 +1655,7 @@ same
 as
 last
 time
-else
+.
 if
 (
 notifyState
@@ -1669,6 +1663,7 @@ notifyState
 =
 roundModify
 )
+{
 Svc
 .
 Prefs
@@ -1682,10 +1677,10 @@ notifyTabState
 )
 ;
 }
+}
 update
 :
 function
-update
 (
 record
 )
@@ -1777,6 +1772,7 @@ correctly
 for
 event
 listeners
+.
 this
 .
 onTab
@@ -1831,7 +1827,6 @@ nsIObserver
 loadChangedIDs
 :
 function
-loadChangedIDs
 (
 )
 {
@@ -1853,7 +1848,6 @@ up
 clearChangedIDs
 :
 function
-clearChangedIDs
 (
 )
 {
@@ -1883,7 +1877,6 @@ TabSelect
 _registerListenersForWindow
 :
 function
-registerListenersFW
 (
 window
 )
@@ -1943,7 +1936,6 @@ false
 _unregisterListeners
 :
 function
-unregisterListeners
 (
 event
 )
@@ -1961,7 +1953,6 @@ target
 _unregisterListenersForWindow
 :
 function
-unregisterListenersFW
 (
 window
 )
@@ -2235,7 +2226,6 @@ break
 onTab
 :
 function
-onTab
 (
 event
 )
@@ -2381,6 +2371,7 @@ random
 .
 1
 )
+{
 this
 .
 score
@@ -2390,3 +2381,5 @@ SCORE_INCREMENT_SMALL
 ;
 }
 }
+}
+;
