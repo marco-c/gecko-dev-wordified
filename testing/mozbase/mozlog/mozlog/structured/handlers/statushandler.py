@@ -80,14 +80,17 @@ RunSummary
                         
 (
 "
-unexpected
+unexpected_statuses
 "
+                         
 "
-skipped
+expected_statuses
 "
+                         
 "
 log_level_counts
 "
+                         
 "
 action_counts
 "
@@ -139,8 +142,12 @@ self
 The
 count
 of
+each
+type
+of
 unexpected
-results
+result
+status
 (
 includes
 tests
@@ -150,16 +157,23 @@ subtests
         
 self
 .
-unexpected
+unexpected_statuses
 =
-0
+defaultdict
+(
+int
+)
         
 #
 The
 count
 of
-skip
-results
+each
+type
+of
+expected
+result
+status
 (
 includes
 tests
@@ -169,9 +183,12 @@ subtests
         
 self
 .
-skipped
+expected_statuses
 =
-0
+defaultdict
+(
+int
+)
         
 #
 The
@@ -273,6 +290,15 @@ test_end
 )
 :
             
+status
+=
+data
+[
+'
+status
+'
+]
+            
 if
 '
 expected
@@ -283,28 +309,23 @@ data
                 
 self
 .
-unexpected
+unexpected_statuses
+[
+status
+]
 +
 =
 1
             
-if
-data
-[
-'
-status
-'
-]
-=
-=
-'
-SKIP
-'
+else
 :
                 
 self
 .
-skipped
+expected_statuses
+[
+status
+]
 +
 =
 1
@@ -320,13 +341,19 @@ return
 RunSummary
 (
             
+dict
+(
 self
 .
-unexpected
+unexpected_statuses
+)
             
+dict
+(
 self
 .
-skipped
+expected_statuses
+)
             
 dict
 (
