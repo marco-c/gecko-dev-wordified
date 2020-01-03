@@ -138,15 +138,6 @@ jsprototypes
 h
 "
 #
-include
-"
-builtin
-/
-SIMDShuffleMaskConstants
-.
-h
-"
-#
 define
 FOR_EACH_COMMON_PROPERTYNAME
 (
@@ -2197,11 +2188,6 @@ unscopables
 "
 )
 \
-FOR_EACH_SIMD_SHUFFLE_MASK
-(
-COMMON_PROPERTY_NAMES_MACRO
-macro
-)
 #
 endif
 /
