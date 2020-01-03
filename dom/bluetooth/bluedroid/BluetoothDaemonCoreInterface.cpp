@@ -319,8 +319,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x01
+SERVICE_ID
+OPCODE_ENABLE
 0
 )
 )
@@ -386,8 +386,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x02
+SERVICE_ID
+OPCODE_DISABLE
 0
 )
 )
@@ -453,8 +453,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x03
+SERVICE_ID
+OPCODE_GET_ADAPTER_PROPERTIES
 0
 )
 )
@@ -524,8 +524,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x04
+SERVICE_ID
+OPCODE_GET_ADAPTER_PROPERTY
 0
 )
 )
@@ -624,8 +624,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x05
+SERVICE_ID
+OPCODE_SET_ADAPTER_PROPERTY
 0
 )
 )
@@ -716,8 +716,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x06
+SERVICE_ID
+OPCODE_GET_REMOTE_DEVICE_PROPERTIES
 0
 )
 )
@@ -819,8 +819,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x07
+SERVICE_ID
+OPCODE_GET_REMOTE_DEVICE_PROPERTY
 0
 )
 )
@@ -930,8 +930,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x08
+SERVICE_ID
+OPCODE_SET_REMOTE_DEVICE_PROPERTY
 0
 )
 )
@@ -1036,8 +1036,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x09
+SERVICE_ID
+OPCODE_GET_REMOTE_SERVICE_RECORD
 0
 )
 )
@@ -1143,8 +1143,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x0a
+SERVICE_ID
+OPCODE_GET_REMOTE_SERVICES
 0
 )
 )
@@ -1238,8 +1238,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x0b
+SERVICE_ID
+OPCODE_START_DISCOVERY
 0
 )
 )
@@ -1305,8 +1305,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x0c
+SERVICE_ID
+OPCODE_CANCEL_DISCOVERY
 0
 )
 )
@@ -1378,8 +1378,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x0d
+SERVICE_ID
+OPCODE_CREATE_BOND
 0
 )
 )
@@ -1505,8 +1505,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x0e
+SERVICE_ID
+OPCODE_REMOVE_BOND
 0
 )
 )
@@ -1604,8 +1604,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x0f
+SERVICE_ID
+OPCODE_CANCEL_BOND
 0
 )
 )
@@ -1709,8 +1709,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x10
+SERVICE_ID
+OPCODE_PIN_REPLY
 0
 )
 )
@@ -1823,8 +1823,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x11
+SERVICE_ID
+OPCODE_SSP_REPLY
 0
 )
 )
@@ -1923,8 +1923,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x12
+SERVICE_ID
+OPCODE_DUT_MODE_CONFIGURE
 0
 )
 )
@@ -2018,8 +2018,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x13
+SERVICE_ID
+OPCODE_DUT_MODE_SEND
 0
 )
 )
@@ -2122,8 +2122,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x01
-0x14
+SERVICE_ID
+OPCODE_LE_TEST_MODE
 0
 )
 )
@@ -2995,7 +2995,7 @@ BluetoothResultHandler
 =
 {
 [
-0x00
+OPCODE_ERROR
 ]
 =
 &
@@ -3004,7 +3004,7 @@ BluetoothDaemonCoreModule
 :
 ErrorRsp
 [
-0x01
+OPCODE_ENABLE
 ]
 =
 &
@@ -3013,7 +3013,7 @@ BluetoothDaemonCoreModule
 :
 EnableRsp
 [
-0x02
+OPCODE_DISABLE
 ]
 =
 &
@@ -3022,7 +3022,7 @@ BluetoothDaemonCoreModule
 :
 DisableRsp
 [
-0x03
+OPCODE_GET_ADAPTER_PROPERTIES
 ]
 =
 &
@@ -3031,7 +3031,7 @@ BluetoothDaemonCoreModule
 :
 GetAdapterPropertiesRsp
 [
-0x04
+OPCODE_GET_ADAPTER_PROPERTY
 ]
 =
 &
@@ -3040,7 +3040,7 @@ BluetoothDaemonCoreModule
 :
 GetAdapterPropertyRsp
 [
-0x05
+OPCODE_SET_ADAPTER_PROPERTY
 ]
 =
 &
@@ -3049,7 +3049,7 @@ BluetoothDaemonCoreModule
 :
 SetAdapterPropertyRsp
 [
-0x06
+OPCODE_GET_REMOTE_DEVICE_PROPERTIES
 ]
 =
 &
@@ -3058,7 +3058,7 @@ BluetoothDaemonCoreModule
 :
 GetRemoteDevicePropertiesRsp
 [
-0x07
+OPCODE_GET_REMOTE_DEVICE_PROPERTY
 ]
 =
 &
@@ -3067,7 +3067,7 @@ BluetoothDaemonCoreModule
 :
 GetRemoteDevicePropertyRsp
 [
-0x08
+OPCODE_SET_REMOTE_DEVICE_PROPERTY
 ]
 =
 &
@@ -3076,7 +3076,7 @@ BluetoothDaemonCoreModule
 :
 SetRemoteDevicePropertyRsp
 [
-0x09
+OPCODE_GET_REMOTE_SERVICE_RECORD
 ]
 =
 &
@@ -3085,7 +3085,7 @@ BluetoothDaemonCoreModule
 :
 GetRemoteServiceRecordRsp
 [
-0x0a
+OPCODE_GET_REMOTE_SERVICES
 ]
 =
 &
@@ -3094,7 +3094,7 @@ BluetoothDaemonCoreModule
 :
 GetRemoteServicesRsp
 [
-0x0b
+OPCODE_START_DISCOVERY
 ]
 =
 &
@@ -3103,7 +3103,7 @@ BluetoothDaemonCoreModule
 :
 StartDiscoveryRsp
 [
-0x0c
+OPCODE_CANCEL_DISCOVERY
 ]
 =
 &
@@ -3112,7 +3112,7 @@ BluetoothDaemonCoreModule
 :
 CancelDiscoveryRsp
 [
-0x0d
+OPCODE_CREATE_BOND
 ]
 =
 &
@@ -3121,7 +3121,7 @@ BluetoothDaemonCoreModule
 :
 CreateBondRsp
 [
-0x0e
+OPCODE_REMOVE_BOND
 ]
 =
 &
@@ -3130,7 +3130,7 @@ BluetoothDaemonCoreModule
 :
 RemoveBondRsp
 [
-0x0f
+OPCODE_CANCEL_BOND
 ]
 =
 &
@@ -3139,7 +3139,7 @@ BluetoothDaemonCoreModule
 :
 CancelBondRsp
 [
-0x10
+OPCODE_PIN_REPLY
 ]
 =
 &
@@ -3148,7 +3148,7 @@ BluetoothDaemonCoreModule
 :
 PinReplyRsp
 [
-0x11
+OPCODE_SSP_REPLY
 ]
 =
 &
@@ -3157,7 +3157,7 @@ BluetoothDaemonCoreModule
 :
 SspReplyRsp
 [
-0x12
+OPCODE_DUT_MODE_CONFIGURE
 ]
 =
 &
@@ -3166,7 +3166,7 @@ BluetoothDaemonCoreModule
 :
 DutModeConfigureRsp
 [
-0x13
+OPCODE_DUT_MODE_SEND
 ]
 =
 &
@@ -3175,7 +3175,7 @@ BluetoothDaemonCoreModule
 :
 DutModeSendRsp
 [
-0x14
+OPCODE_LE_TEST_MODE
 ]
 =
 &
