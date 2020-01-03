@@ -556,6 +556,8 @@ fail
 }
 try
 {
+/
+*
 var
 rv
 =
@@ -639,8 +641,6 @@ actual
 +
 rv
 ;
-/
-*
 rv
 =
 f3

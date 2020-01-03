@@ -2825,7 +2825,7 @@ script
 )
 -
 >
-nfixedvars
+nbodyfixed
 (
 )
 ;
@@ -2880,6 +2880,9 @@ slots
 /
 Clear
 dead
+block
+-
+scoped
 locals
 .
 while
@@ -2896,8 +2899,9 @@ nfixed
 DONT_CHECK_ALIASING
 )
 .
-setUndefined
+setMagic
 (
+JS_UNINITIALIZED_LEXICAL
 )
 ;
 /
@@ -3639,7 +3643,7 @@ type
 fp
 -
 >
-initVarsToUndefined
+initLocals
 (
 )
 ;

@@ -10084,7 +10084,7 @@ local
 script
 -
 >
-nfixedvars
+nbodyfixed
 (
 )
 )

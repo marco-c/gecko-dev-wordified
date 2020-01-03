@@ -1668,6 +1668,14 @@ callee
 )
 )
 ;
+callobj
+-
+>
+setAliasedLexicalsToThrowOnTouch
+(
+script
+)
+;
 if
 (
 script
@@ -8124,6 +8132,7 @@ Handle
 unaliased
 formals
 vars
+lets
 and
 consts
 at
@@ -8303,7 +8312,7 @@ if
 script
 -
 >
-varIsAliased
+bodyLevelLocalIsAliased
 (
 i
 )
@@ -8339,7 +8348,7 @@ set
 (
 frame
 .
-unaliasedVar
+unaliasedLocal
 (
 i
 )
@@ -8348,7 +8357,7 @@ i
 else
 frame
 .
-unaliasedVar
+unaliasedLocal
 (
 i
 )

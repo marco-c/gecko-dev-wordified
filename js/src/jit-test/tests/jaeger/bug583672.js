@@ -38,7 +38,7 @@ in
 new
 f
 }
-let
+var
 w
 =
 {
@@ -105,7 +105,7 @@ in
 new
 f
 }
-let
+var
 w
 =
 {

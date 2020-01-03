@@ -3264,6 +3264,12 @@ return
 isNestedScope
 ;
 }
+void
+setStaticScope
+(
+)
+{
+}
 StaticBlockObject
 &
 staticBlock
