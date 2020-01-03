@@ -834,7 +834,7 @@ kLineTerminatorRanges
 ;
 static
 const
-unsigned
+int
 kMaxOneByteCharCode
 =
 0xff
@@ -22181,9 +22181,6 @@ border
 -
 1
 >
-(
-int
-)
 kMaxOneByteCharCode
 &
 &

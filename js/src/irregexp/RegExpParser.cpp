@@ -3483,7 +3483,7 @@ case
 '
 :
 {
-int
+widechar
 c
 ;
 while
