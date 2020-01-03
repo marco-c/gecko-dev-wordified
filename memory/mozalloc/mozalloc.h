@@ -160,15 +160,6 @@ new
 #
 endif
 #
-include
-"
-xpcom
--
-config
-.
-h
-"
-#
 if
 defined
 (
