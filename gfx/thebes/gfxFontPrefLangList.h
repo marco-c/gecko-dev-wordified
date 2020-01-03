@@ -325,6 +325,16 @@ x_mlym
 )
 FONT_PREF_LANG
 (
+Mathematics
+"
+x
+-
+math
+"
+x_math
+)
+FONT_PREF_LANG
+(
 Oriya
 "
 x
