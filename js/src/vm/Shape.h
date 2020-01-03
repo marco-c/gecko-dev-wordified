@@ -1182,7 +1182,8 @@ shape_
 Entry
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 Entry
 (
@@ -1190,7 +1191,8 @@ const
 Entry
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 Entry
 &
@@ -1201,7 +1203,8 @@ const
 Entry
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

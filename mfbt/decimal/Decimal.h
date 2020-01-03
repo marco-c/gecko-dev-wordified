@@ -429,7 +429,8 @@ void
 ignore_this_dummy_method
 (
 )
-MOZ_DELETE
+=
+delete
 namespace
 WebCore
 {

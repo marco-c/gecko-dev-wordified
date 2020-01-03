@@ -286,7 +286,8 @@ const
 ClassName
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 \
 void
@@ -297,7 +298,8 @@ const
 ClassName
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 #
 if
