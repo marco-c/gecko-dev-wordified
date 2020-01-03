@@ -2530,6 +2530,14 @@ ins
 )
 ;
 void
+visitArrowNewTarget
+(
+LArrowNewTarget
+*
+ins
+)
+;
+void
 visitCheckOverRecursed
 (
 LCheckOverRecursed
