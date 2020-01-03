@@ -20082,7 +20082,7 @@ _update
 =
 null
 ;
-this
+self
 .
 _backgroundUpdateCheckCodePing
 (
