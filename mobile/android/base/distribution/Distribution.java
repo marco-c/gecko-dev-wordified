@@ -2422,7 +2422,7 @@ this
 state
 )
 .
-commit
+apply
 (
 )
 ;
