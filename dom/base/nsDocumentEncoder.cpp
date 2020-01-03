@@ -5531,6 +5531,7 @@ mSerializer
 >
 Init
 (
+mDocument
 mFlags
 mWrapColumn
 mCharset
