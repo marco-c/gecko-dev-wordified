@@ -2908,12 +2908,6 @@ enabled
 true
 )
 ;
-#
-if
-defined
-(
-XP_WIN
-)
 pref
 (
 "
@@ -2946,8 +2940,6 @@ timeout
 60000
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_WMF
