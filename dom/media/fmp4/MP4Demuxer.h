@@ -573,6 +573,9 @@ mQueuedSample
 bool
 mNeedReIndex
 ;
+bool
+mNeedSPSForTelemetry
+;
 /
 /
 We
