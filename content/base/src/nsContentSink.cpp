@@ -6609,7 +6609,12 @@ mDocument
 >
 SetScrollToRef
 (
-mDocumentURI
+mDocument
+-
+>
+GetDocumentURI
+(
+)
 )
 ;
 }
