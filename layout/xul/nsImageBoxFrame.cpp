@@ -1855,6 +1855,7 @@ rect
 dirty
 nullptr
 aFlags
+nullptr
 hasSubRect
 ?
 &
