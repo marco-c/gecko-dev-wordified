@@ -15089,12 +15089,37 @@ bc
 /
 dt
 *
+/
+mochitest
+-
+chrome
 jobs
+not
+webapprt
+*
+jetpack
+*
+or
+plain
     
 if
 options
 .
 browserChrome
+or
+options
+.
+chrome
+or
+options
+.
+subsuite
+or
+\
+       
+options
+.
+a11y
 :
       
 options
