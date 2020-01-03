@@ -3082,7 +3082,7 @@ toolbox
 .
 if
 (
-gDevTools
+DevToolsUtils
 .
 testing
 )
@@ -12419,7 +12419,7 @@ let
 autohide
 =
 !
-gDevTools
+DevToolsUtils
 .
 testing
 ;
@@ -13710,7 +13710,7 @@ closed
 .
 if
 (
-gDevTools
+DevToolsUtils
 .
 testing
 )

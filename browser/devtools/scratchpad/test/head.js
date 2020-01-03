@@ -254,7 +254,7 @@ Scratchpad
 chrome
 window
 object
-gDevTools
+DevToolsUtils
 .
 testing
 =
@@ -269,7 +269,7 @@ registerCleanupFunction
 =
 >
 {
-gDevTools
+DevToolsUtils
 .
 testing
 =
