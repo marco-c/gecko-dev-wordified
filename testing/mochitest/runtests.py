@@ -14664,33 +14664,10 @@ making
 this
 default
     
-#
-We
-need
-to
-ignore
-dt
-*
-jobs
-on
-e10s
-runs
-    
 if
 options
 .
 browserChrome
-and
-not
-(
-options
-.
-subsuite
-and
-options
-.
-e10s
-)
 :
       
 options
