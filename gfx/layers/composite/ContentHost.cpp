@@ -1568,9 +1568,6 @@ aCompositor
 ;
 }
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 ContentHostTexture
 :
@@ -1591,6 +1588,9 @@ bool
 aDumpHtml
 )
 {
+#
+ifdef
+MOZ_DUMP_PAINTING
 if
 (
 !
@@ -1715,9 +1715,9 @@ ul
 >
 "
 ;
-}
 #
 endif
+}
 static
 inline
 void
