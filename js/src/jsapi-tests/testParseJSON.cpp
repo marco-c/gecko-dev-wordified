@@ -3799,7 +3799,7 @@ argc
 vp
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args
 .
@@ -3811,10 +3811,7 @@ length
 2
 )
 ;
-#
-ifdef
-DEBUG
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 args
 [
@@ -3826,8 +3823,6 @@ isString
 )
 )
 ;
-#
-endif
 args
 .
 rval

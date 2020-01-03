@@ -784,7 +784,7 @@ by
 the
 osrEntry
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 func
 .
@@ -855,7 +855,7 @@ FollowTrivialGotos
 entry
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newInner
 -
@@ -865,7 +865,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newOuter
 -
@@ -875,7 +875,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newExit
 -
@@ -937,7 +937,7 @@ by
 the
 osrEntry
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 func
 .
@@ -1002,7 +1002,7 @@ FollowTrivialGotos
 entry
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newInner
 -
@@ -1012,7 +1012,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newOuter
 -
@@ -1022,7 +1022,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newExit
 -
@@ -1699,7 +1699,7 @@ by
 the
 osrEntry
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 func
 .
@@ -1794,7 +1794,7 @@ FollowTrivialGotos
 entry
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newInner
 -
@@ -1804,7 +1804,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newMiddle
 -
@@ -1814,7 +1814,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newOuter
 -
@@ -1824,7 +1824,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newExit
 -
@@ -1886,7 +1886,7 @@ by
 the
 osrEntry
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 func
 .
@@ -1973,7 +1973,7 @@ FollowTrivialGotos
 entry
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newInner
 -
@@ -1983,7 +1983,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newMiddle
 -
@@ -1993,7 +1993,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newOuter
 -
@@ -2003,7 +2003,7 @@ isLoopHeader
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 newExit
 -

@@ -551,7 +551,7 @@ can
 '
 t
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 JS_GetClass

@@ -401,7 +401,7 @@ copysign
 _copysign
 #
 endif
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 copysign
 (
@@ -421,7 +421,7 @@ toDouble
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 copysign
 (

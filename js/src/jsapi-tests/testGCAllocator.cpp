@@ -2120,7 +2120,7 @@ defined
 (
 __ia64__
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 0xffff800000000000ULL
 &
@@ -2186,7 +2186,7 @@ region
 length
 )
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 errno
 =
@@ -2293,7 +2293,7 @@ region
 length
 )
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 errno
 =
@@ -2329,7 +2329,7 @@ p
 size
 )
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 errno
 =

@@ -132,7 +132,7 @@ ch
 return
 false
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ch
 =
