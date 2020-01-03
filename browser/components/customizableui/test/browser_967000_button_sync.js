@@ -208,7 +208,7 @@ uitour
 {
 UITour
 .
-originTabs
+tourBrowsersByWindow
 .
 set
 (
@@ -221,7 +221,7 @@ Set
 ;
 UITour
 .
-originTabs
+tourBrowsersByWindow
 .
 get
 (
@@ -232,7 +232,7 @@ add
 (
 gBrowser
 .
-selectedTab
+selectedBrowser
 )
 ;
 }
@@ -533,7 +533,7 @@ newTab
 ;
 UITour
 .
-originTabs
+tourBrowsersByWindow
 .
 delete
 (
