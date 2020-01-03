@@ -3382,9 +3382,6 @@ parentContext
 UseRemoteTabs
 (
 )
-&
-&
-aOpeningTab
 ;
 }
 nsCOMPtr
