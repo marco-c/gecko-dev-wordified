@@ -306,6 +306,17 @@ typedef
 JS
 :
 :
+MutableHandle
+<
+PlainObject
+*
+>
+MutableHandlePlainObject
+;
+typedef
+JS
+:
+:
 Rooted
 <
 NativeObject
