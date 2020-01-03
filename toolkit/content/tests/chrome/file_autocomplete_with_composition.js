@@ -520,7 +520,7 @@ compositionstart
 aWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -612,7 +612,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -700,7 +700,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -868,7 +868,7 @@ compositionstart
 aWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -961,7 +961,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1054,7 +1054,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1215,7 +1215,7 @@ compositionstart
 aWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1308,7 +1308,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1404,7 +1404,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1493,7 +1493,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1689,7 +1689,7 @@ compositionstart
 aWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1782,7 +1782,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1878,7 +1878,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1971,7 +1971,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2208,7 +2208,7 @@ compositionstart
 aWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2300,7 +2300,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2395,7 +2395,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2488,7 +2488,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2722,7 +2722,7 @@ compositionstart
 aWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2814,7 +2814,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2909,7 +2909,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -3000,7 +3000,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -3280,7 +3280,7 @@ compositionstart
 aWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -3373,7 +3373,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -3469,7 +3469,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -3565,7 +3565,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -3791,7 +3791,7 @@ compositionstart
 aWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -3888,7 +3888,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -3981,7 +3981,7 @@ function
 aWindow
 )
 {
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
