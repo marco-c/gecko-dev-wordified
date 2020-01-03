@@ -450,7 +450,8 @@ read_buffer
 renderbuffer_color_float
 renderbuffer_color_half_float
 robustness
-sRGB
+sRGB_framebuffer
+sRGB_texture
 sampler_objects
 standard_derivatives
 texture_3D
@@ -1732,6 +1733,7 @@ EXT_packed_depth_stencil
 EXT_read_format_bgra
 EXT_robustness
 EXT_sRGB
+EXT_sRGB_write_control
 EXT_shader_texture_lod
 EXT_texture3D
 EXT_texture_compression_dxt1
