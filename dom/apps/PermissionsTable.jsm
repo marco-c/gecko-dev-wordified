@@ -1915,7 +1915,7 @@ trusted
 DENY_ACTION
 privileged
 :
-PROMPT_ACTION
+ALLOW_ACTION
 certified
 :
 ALLOW_ACTION
