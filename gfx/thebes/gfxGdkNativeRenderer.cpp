@@ -158,7 +158,13 @@ cairo_surface_t
 surface
 nsIntPoint
 offset
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 *
 clipRects
 uint32_t
