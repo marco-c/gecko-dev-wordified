@@ -332,11 +332,17 @@ layers
 TextureFlags
 flags
 =
+layers
+:
+:
 TextureFlags
 :
 :
 DEALLOCATE_CLIENT
 |
+layers
+:
+:
 TextureFlags
 :
 :
@@ -353,6 +359,9 @@ premultAlpha
 flags
 |
 =
+layers
+:
+:
 TextureFlags
 :
 :
