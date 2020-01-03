@@ -617,16 +617,6 @@ ErrorResult
 aRv
 )
 ;
-bool
-IsNSAware
-(
-)
-const
-{
-return
-mNsAware
-;
-}
 protected
 :
 virtual
