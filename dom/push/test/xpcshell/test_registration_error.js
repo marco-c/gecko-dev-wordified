@@ -151,7 +151,7 @@ makeStub
 (
 db
 {
-getByScope
+getByIdentifiers
 (
 prev
 scope
@@ -205,6 +205,18 @@ net
 /
 1
 '
+{
+appId
+:
+Ci
+.
+nsIScriptSecurityManager
+.
+NO_APP_ID
+inBrowser
+:
+false
+}
 )
 function
 (

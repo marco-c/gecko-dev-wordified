@@ -316,7 +316,7 @@ function
 register
 (
 scope
-pageURL
+originAttributes
 )
 {
 return
@@ -326,7 +326,7 @@ _register
 (
 {
 scope
-pageURL
+originAttributes
 }
 )
 ;
@@ -337,6 +337,7 @@ function
 unregister
 (
 scope
+originAttributes
 )
 {
 return
@@ -346,6 +347,7 @@ _unregister
 (
 {
 scope
+originAttributes
 }
 )
 ;
@@ -356,6 +358,7 @@ function
 registration
 (
 scope
+originAttributes
 )
 {
 return
@@ -365,6 +368,7 @@ _registration
 (
 {
 scope
+originAttributes
 }
 )
 ;
