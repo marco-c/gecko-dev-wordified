@@ -10417,7 +10417,7 @@ if
 !
 mKeyPair
 .
-mPrivateKey
+mPublicKey
 .
 get
 (
@@ -10427,8 +10427,8 @@ get
 HasAnyUsage
 (
 )
-|
-|
+&
+&
 !
 mKeyPair
 .
