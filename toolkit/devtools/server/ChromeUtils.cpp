@@ -346,7 +346,7 @@ zones
 .
 put
 (
-GetTenuredGCThingZone
+GetObjectZone
 (
 globals
 [
