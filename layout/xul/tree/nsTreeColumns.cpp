@@ -1976,10 +1976,6 @@ mTree
 (
 aTree
 )
-mFirstColumn
-(
-nullptr
-)
 {
 }
 nsTreeColumns
@@ -3156,10 +3152,9 @@ nullptr
 )
 ;
 }
-NS_IF_RELEASE
-(
 mFirstColumn
-)
+=
+nullptr
 ;
 return
 NS_OK
@@ -3601,12 +3596,9 @@ currCol
 }
 else
 {
-NS_ADDREF
-(
 mFirstColumn
 =
 col
-)
 ;
 }
 currCol

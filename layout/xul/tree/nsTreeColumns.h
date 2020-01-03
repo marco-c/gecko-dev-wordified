@@ -1164,8 +1164,10 @@ columns
 .
 *
 /
+nsRefPtr
+<
 nsTreeColumn
-*
+>
 mFirstColumn
 ;
 }
