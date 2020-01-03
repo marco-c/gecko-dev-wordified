@@ -3473,7 +3473,7 @@ i
 {
 for
 (
-int
+size_t
 j
 =
 0
