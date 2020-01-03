@@ -5697,6 +5697,7 @@ usesBegin
 )
 {
 }
+explicit
 operator
 bool
 (

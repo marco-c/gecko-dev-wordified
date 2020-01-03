@@ -434,6 +434,7 @@ return
 this
 ;
 }
+explicit
 operator
 bool
 (
