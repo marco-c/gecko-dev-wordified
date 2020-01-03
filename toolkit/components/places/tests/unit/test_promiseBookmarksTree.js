@@ -1383,6 +1383,9 @@ test_promiseBookmarksTreeForEachNode
 (
 child
 {
+includeItemIds
+:
+true
 }
 aExcludedGUIDs
 )
@@ -1401,6 +1404,12 @@ aItemGUID
 "
 "
 aOptions
+=
+{
+includeItemIds
+:
+true
+}
 aExcludedGUIDs
 )
 {
@@ -1821,6 +1830,9 @@ bookmarksMenuFolder
 "
 ;
 }
+includeItemIds
+:
+true
 }
 [
 menuGUID
