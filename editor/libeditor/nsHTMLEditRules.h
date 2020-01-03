@@ -1958,12 +1958,12 @@ EditAction
 inOperationType
 )
 ;
-nsresult
+void
 PromoteRange
 (
 nsRange
-*
-inRange
+&
+aRange
 EditAction
 inOperationType
 )
