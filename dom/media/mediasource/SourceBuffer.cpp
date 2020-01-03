@@ -1879,6 +1879,13 @@ NotifyDataArrived
 mReportedOffset
 +
 +
+/
+*
+aThrottleUpdates
+=
+*
+/
+false
 )
 ;
 }
@@ -2959,6 +2966,13 @@ NotifyDataArrived
 mReportedOffset
 +
 +
+/
+*
+aThrottleUpdates
+=
+*
+/
+false
 )
 ;
 /
