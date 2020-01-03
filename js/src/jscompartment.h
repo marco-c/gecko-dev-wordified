@@ -3211,6 +3211,16 @@ JS
 1
 .
 7
+DeprecatedNoSuchMethod
+=
+6
+/
+/
+JS
+1
+.
+7
++
 DeprecatedLanguageExtensionCount
 }
 ;
