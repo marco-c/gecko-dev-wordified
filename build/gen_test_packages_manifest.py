@@ -119,6 +119,10 @@ web
 -
 platform
 '
+    
+'
+talos
+'
 ]
 PACKAGE_SPECIFIED_HARNESSES
 =
@@ -144,6 +148,10 @@ xpcshell
 web
 -
 platform
+'
+    
+'
+talos
 '
 ]
 def
