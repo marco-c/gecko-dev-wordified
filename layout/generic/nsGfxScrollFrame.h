@@ -1813,6 +1813,11 @@ UpdateSticky
 (
 )
 ;
+void
+UpdatePrevScrolledRect
+(
+)
+;
 bool
 IsRectNearlyVisible
 (
@@ -2583,6 +2588,9 @@ visibility
 .
 nsPoint
 mLastUpdateImagesPos
+;
+nsRect
+mPrevScrolledRect
 ;
 FrameMetrics
 :
