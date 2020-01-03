@@ -7614,7 +7614,7 @@ init
 .
 mBubbles
 =
-true
+false
 ;
 if
 (

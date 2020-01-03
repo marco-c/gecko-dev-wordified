@@ -320,9 +320,6 @@ matchString
 "
 fooBarWorker
 "
-expectError
-:
-true
 }
 {
 /
