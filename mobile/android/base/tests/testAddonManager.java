@@ -150,8 +150,9 @@ Actions
 EventExpecter
 contentEventExpecter
 ;
+final
 String
-url
+aboutAddonsURL
 =
 StringHelper
 .
@@ -263,6 +264,7 @@ verifyPageTitle
 StringHelper
 .
 ADDONS_LABEL
+aboutAddonsURL
 )
 ;
 /
@@ -299,7 +301,7 @@ was
 loaded
 loadAndPaint
 (
-url
+aboutAddonsURL
 )
 ;
 verifyPageTitle
@@ -307,6 +309,7 @@ verifyPageTitle
 StringHelper
 .
 ADDONS_LABEL
+aboutAddonsURL
 )
 ;
 /
@@ -349,14 +352,20 @@ Open
 a
 new
 tab
-addTab
-(
+final
+String
+blankURL
+=
 getAbsoluteUrl
 (
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
+;
+addTab
+(
+blankURL
 )
 ;
 /
@@ -418,6 +427,7 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
+blankURL
 )
 ;
 /
