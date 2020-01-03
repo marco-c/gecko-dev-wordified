@@ -2459,7 +2459,7 @@ toString
 ;
 editor
 .
-commit
+apply
 (
 )
 ;
@@ -3587,7 +3587,7 @@ PREF_SUGGESTED_SITES_HIDDEN
 siteString
 )
 .
-commit
+apply
 (
 )
 ;
