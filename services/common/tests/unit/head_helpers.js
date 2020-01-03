@@ -480,6 +480,7 @@ debug
 text
 to
 )
+{
 print
 (
 Array
@@ -495,6 +496,8 @@ join
 "
 )
 )
+;
+}
 ;
 function
 httpd_setup

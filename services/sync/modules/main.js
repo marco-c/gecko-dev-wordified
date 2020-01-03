@@ -228,6 +228,7 @@ function
 (
 prop
 )
+{
 dest
 .
 __defineGetter__
@@ -238,6 +239,8 @@ getter
 prop
 )
 )
+;
+}
 )
 ;
 }

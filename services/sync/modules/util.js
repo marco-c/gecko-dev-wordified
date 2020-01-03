@@ -1339,10 +1339,9 @@ prop
 .
 map
 (
-function
-(
 prop
-)
+=
+>
 Utils
 .
 deferGetSet
@@ -1485,9 +1484,10 @@ properties
 "
 ;
 return
-function
 (
 )
+=
+>
 new
 StringBundle
 (
@@ -3602,10 +3602,9 @@ minuend
 .
 filter
 (
-function
-(
 i
-)
+=
+>
 subtrahend
 .
 indexOf

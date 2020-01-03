@@ -1293,9 +1293,10 @@ Utils
 .
 mpLocked
 =
-function
 (
 )
+=
+>
 mpLocked
 ;
 /

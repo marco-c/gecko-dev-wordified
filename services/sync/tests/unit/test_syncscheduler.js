@@ -4042,9 +4042,10 @@ Utils
 .
 mpLocked
 =
-function
 (
 )
+=
+>
 true
 ;
 let

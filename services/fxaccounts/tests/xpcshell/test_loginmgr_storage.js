@@ -824,9 +824,10 @@ __defineGetter__
 "
 _isLoggedIn
 "
-function
 (
 )
+=
+>
 false
 )
 ;
@@ -1679,9 +1680,10 @@ __defineGetter__
 "
 _isLoggedIn
 "
-function
 (
 )
+=
+>
 false
 )
 ;
@@ -1800,9 +1802,10 @@ __defineGetter__
 "
 _isLoggedIn
 "
-function
 (
 )
+=
+>
 true
 )
 ;
@@ -2340,9 +2343,10 @@ __defineGetter__
 "
 _isLoggedIn
 "
-function
 (
 )
+=
+>
 false
 )
 ;

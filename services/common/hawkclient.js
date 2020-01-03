@@ -1106,15 +1106,11 @@ errno
 restResponse
 .
 status
-}
-;
-errorObj
-.
 toString
-=
-function
 (
 )
+{
+return
 this
 .
 code
@@ -1126,6 +1122,9 @@ code
 this
 .
 message
+;
+}
+}
 ;
 let
 retryAfter
