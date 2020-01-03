@@ -1272,9 +1272,6 @@ engine
 "
 abouthome
 "
-data
-.
-selection
 )
 ;
 #
