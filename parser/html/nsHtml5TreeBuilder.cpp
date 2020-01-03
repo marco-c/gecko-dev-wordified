@@ -15369,11 +15369,6 @@ quirks
 =
 false
 ;
-if
-(
-this
-)
-{
 this
 -
 >
@@ -15382,7 +15377,6 @@ documentMode
 STANDARDS_MODE
 )
 ;
-}
 return
 ;
 }
@@ -15395,11 +15389,6 @@ m
 QUIRKS_MODE
 )
 ;
-if
-(
-this
-)
-{
 this
 -
 >
@@ -15408,7 +15397,6 @@ documentMode
 m
 )
 ;
-}
 }
 bool
 nsHtml5TreeBuilder
