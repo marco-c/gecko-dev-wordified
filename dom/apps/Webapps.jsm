@@ -5766,7 +5766,7 @@ migration
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G
 yield
 this
 .
