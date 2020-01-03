@@ -11598,15 +11598,11 @@ aItemGuid
 )
 aItemGuid
 =
-yield
 this
 .
-promiseItemGuid
-(
-PlacesUtils
+bookmarks
 .
-placesRootId
-)
+rootGuid
 ;
 let
 hasExcludeItemsCallback
