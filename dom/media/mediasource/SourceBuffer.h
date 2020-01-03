@@ -1290,9 +1290,6 @@ mAttributes
 bool
 mUpdating
 ;
-bool
-mIsUsingFormatReader
-;
 mozilla
 :
 :
