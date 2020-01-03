@@ -259,6 +259,11 @@ OverviewView
 initialize
 (
 )
+ToolbarView
+.
+initialize
+(
+)
 DetailsView
 .
 initialize
@@ -350,6 +355,11 @@ destroy
 (
 )
 OverviewView
+.
+destroy
+(
+)
+ToolbarView
 .
 destroy
 (
