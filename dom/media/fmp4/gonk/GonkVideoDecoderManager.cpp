@@ -3122,9 +3122,6 @@ getBufferQueue
 )
 ;
 }
-status_t
-err
-=
 mDecoder
 -
 >

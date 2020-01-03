@@ -14398,7 +14398,7 @@ child
 .
 for
 (
-int
+size_t
 i
 =
 0
@@ -14412,6 +14412,12 @@ i
 +
 )
 {
+mozilla
+:
+:
+unused
+<
+<
 content
 -
 >
@@ -14455,6 +14461,12 @@ unusedDictionaries
 clipboardCaps
 )
 ;
+mozilla
+:
+:
+unused
+<
+<
 content
 -
 >

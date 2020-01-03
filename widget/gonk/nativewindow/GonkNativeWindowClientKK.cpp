@@ -1427,11 +1427,6 @@ buffer
 )
 const
 {
-bool
-dumpedState
-=
-false
-;
 for
 (
 int

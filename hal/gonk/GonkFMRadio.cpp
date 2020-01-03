@@ -3192,12 +3192,6 @@ rdsblocks
 ]
 )
 ;
-int
-lastblock
-=
--
-1
-;
 for
 (
 int
@@ -3462,10 +3456,6 @@ block_bitmap
 1
 <
 <
-blocknum
-;
-lastblock
-=
 blocknum
 ;
 blocks

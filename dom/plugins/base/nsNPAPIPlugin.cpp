@@ -2401,12 +2401,6 @@ SetPlugin
 plugin
 )
 ;
-NPError
-pluginCallError
-;
-nsresult
-rv
-;
 /
 /
 Exchange
@@ -2431,6 +2425,10 @@ NP_Initialize
 on
 Windows
 .
+NPError
+pluginCallError
+;
+nsresult
 rv
 =
 pluginLib
@@ -2537,6 +2535,10 @@ WebKit
 s
 behavior
 .
+NPError
+pluginCallError
+;
+nsresult
 rv
 =
 pluginLib
@@ -2610,6 +2612,10 @@ MOZ_WIDGET_GONK
 )
 #
 else
+NPError
+pluginCallError
+;
+nsresult
 rv
 =
 pluginLib
