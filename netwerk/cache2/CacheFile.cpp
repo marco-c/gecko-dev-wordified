@@ -3323,9 +3323,12 @@ mOpeningFile
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 aResult
+)
 )
 )
 {
@@ -3340,6 +3343,11 @@ error
 ?
 ?
 ?
+SetError
+(
+aResult
+)
+;
 }
 if
 (
