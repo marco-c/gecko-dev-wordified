@@ -331,6 +331,10 @@ virtual
 nsresult
 DispatchStartImpl
 (
+const
+nsAString
+&
+aUri
 )
 ;
 virtual
