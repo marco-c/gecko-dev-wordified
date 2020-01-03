@@ -180,7 +180,7 @@ class
 MediaRawData
 ;
 class
-DataBuffer
+MediaByteBuffer
 ;
 namespace
 layers

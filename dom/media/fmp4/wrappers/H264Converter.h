@@ -392,7 +392,7 @@ aSample
 void
 UpdateConfigFromExtraData
 (
-DataBuffer
+MediaByteBuffer
 *
 aExtraData
 )

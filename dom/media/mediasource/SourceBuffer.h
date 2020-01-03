@@ -263,7 +263,7 @@ class
 ErrorResult
 ;
 class
-LargeDataBuffer
+MediaLargeByteBuffer
 ;
 class
 TrackBuffer
@@ -794,7 +794,7 @@ aRv
 void
 AppendData
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 double
@@ -880,7 +880,7 @@ Algorithm
 "
 .
 Returns
-LargeDataBuffer
+MediaLargeByteBuffer
 object
 /
 /
@@ -898,7 +898,7 @@ error
 .
 already_AddRefed
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 PrepareAppend
 (

@@ -249,7 +249,7 @@ FFmpegH264Decoder
 Use
 a
 new
-DataBuffer
+MediaByteBuffer
 as
 the
 object
@@ -262,7 +262,7 @@ initialization
 mExtraData
 =
 new
-DataBuffer
+MediaByteBuffer
 ;
 mExtraData
 -

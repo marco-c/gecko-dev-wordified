@@ -709,7 +709,7 @@ aSample
 {
 nsRefPtr
 <
-DataBuffer
+MediaByteBuffer
 >
 extra_data
 =
@@ -780,7 +780,7 @@ aSample
 {
 nsRefPtr
 <
-DataBuffer
+MediaByteBuffer
 >
 extra_data
 =
@@ -896,7 +896,7 @@ H264Converter
 :
 UpdateConfigFromExtraData
 (
-DataBuffer
+MediaByteBuffer
 *
 aExtraData
 )

@@ -517,7 +517,7 @@ bool
 AccumulateSPSTelemetry
 (
 const
-DataBuffer
+MediaByteBuffer
 *
 aExtradata
 )
@@ -4809,7 +4809,7 @@ sample
 {
 nsRefPtr
 <
-DataBuffer
+MediaByteBuffer
 >
 extradata
 =

@@ -77,7 +77,7 @@ class
 MediaRawData
 ;
 class
-DataBuffer
+MediaByteBuffer
 ;
 }
 namespace
@@ -194,7 +194,7 @@ already_AddRefed
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 ConvertExtraDataToAnnexB
 (
@@ -202,7 +202,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData
 )
@@ -258,7 +258,7 @@ already_AddRefed
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 ExtractExtraData
 (
@@ -292,7 +292,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData
 )
@@ -364,14 +364,14 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData1
 const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData2
 )
@@ -397,7 +397,7 @@ aCount
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aAnnexB
 )

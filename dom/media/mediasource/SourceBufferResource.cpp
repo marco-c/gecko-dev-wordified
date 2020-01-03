@@ -1367,7 +1367,7 @@ SourceBufferResource
 :
 AppendData
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )

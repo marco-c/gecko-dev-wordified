@@ -458,7 +458,7 @@ CreateOutputConfiguration
 ;
 nsRefPtr
 <
-DataBuffer
+MediaByteBuffer
 >
 mExtraData
 ;

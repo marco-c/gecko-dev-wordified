@@ -1855,7 +1855,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData
 SPSData
@@ -1908,7 +1908,7 @@ already_AddRefed
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 DecodeNALUnit
 (
@@ -1916,7 +1916,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aNAL
 )
@@ -1941,7 +1941,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aSPS
 SPSData
