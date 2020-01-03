@@ -10641,6 +10641,11 @@ FireOnNewGlobalObject
 (
 )
 ;
+void
+DisconnectEventTargetObjects
+(
+)
+;
 protected
 :
 /
