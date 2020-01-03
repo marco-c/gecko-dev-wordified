@@ -255,6 +255,7 @@ to
 aLog
 |
 .
+explicit
 AutoObjectMapperPOSIX
 (
 void

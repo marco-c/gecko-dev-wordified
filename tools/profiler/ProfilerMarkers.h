@@ -246,6 +246,7 @@ of
 aStack
 *
 /
+explicit
 ProfilerMarkerPayload
 (
 ProfilerBacktrace
@@ -509,6 +510,7 @@ ProfilerMarkerPayload
 {
 public
 :
+explicit
 ProfilerMarkerImagePayload
 (
 gfxASurface

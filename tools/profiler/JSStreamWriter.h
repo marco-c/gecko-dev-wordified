@@ -123,6 +123,7 @@ JSStreamWriter
 {
 public
 :
+explicit
 JSStreamWriter
 (
 std

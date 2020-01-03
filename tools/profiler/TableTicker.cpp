@@ -1235,6 +1235,7 @@ toObject
 struct
 SubprocessClosure
 {
+explicit
 SubprocessClosure
 (
 JSStreamWriter
