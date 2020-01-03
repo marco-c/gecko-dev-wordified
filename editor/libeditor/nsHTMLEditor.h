@@ -6493,10 +6493,10 @@ nsresult
 SetInlinePropertyOnNodeImpl
 (
 nsIContent
-*
+&
 aNode
 nsIAtom
-*
+&
 aProperty
 const
 nsAString
@@ -6504,7 +6504,7 @@ nsAString
 aAttribute
 const
 nsAString
-*
+&
 aValue
 )
 ;
