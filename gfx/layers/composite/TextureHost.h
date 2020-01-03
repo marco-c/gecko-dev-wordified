@@ -2864,6 +2864,7 @@ GetIPDLActor
 (
 )
 ;
+virtual
 FenceHandle
 GetAndResetReleaseFenceHandle
 (
