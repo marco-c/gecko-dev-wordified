@@ -723,13 +723,14 @@ rv
 ;
 if
 (
+(
 imgStatus
-=
-=
+&
 imgIRequest
 :
 :
 STATUS_ERROR
+)
 &
 &
 !
