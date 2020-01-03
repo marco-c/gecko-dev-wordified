@@ -111,7 +111,11 @@ MPL
 #
 include
 "
-jsinferinlines
+vm
+/
+TypeInference
+-
+inl
 .
 h
 "
@@ -315,13 +319,6 @@ h
 include
 "
 jsgcinlines
-.
-h
-"
-#
-include
-"
-jsobjinlines
 .
 h
 "

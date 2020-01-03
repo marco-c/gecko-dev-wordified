@@ -126,7 +126,11 @@ h
 #
 include
 "
-jsinferinlines
+vm
+/
+TypeInference
+-
+inl
 .
 h
 "

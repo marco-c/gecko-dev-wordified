@@ -121,14 +121,16 @@ inference
 /
 #
 ifndef
-jsinferinlines_h
+vm_TypeInference_inl_h
 #
 define
-jsinferinlines_h
+vm_TypeInference_inl_h
 #
 include
 "
-jsinfer
+vm
+/
+TypeInference
 .
 h
 "
@@ -8020,6 +8022,6 @@ cx
 endif
 /
 *
-jsinferinlines_h
+vm_TypeInference_inl_h
 *
 /

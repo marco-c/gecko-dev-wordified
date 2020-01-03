@@ -3632,12 +3632,12 @@ type
 barriers
 comment
 in
-jsinfer
+TypeInference
 .
 h
 )
-reserve
 *
+reserve
 a
 type
 set

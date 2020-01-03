@@ -163,13 +163,6 @@ h
 #
 include
 "
-jsinfer
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h

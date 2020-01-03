@@ -177,13 +177,6 @@ h
 #
 include
 "
-jsinferinlines
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h

@@ -133,13 +133,6 @@ h
 #
 include
 "
-jsinfer
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h
@@ -173,13 +166,6 @@ h
 include
 "
 jsatominlines
-.
-h
-"
-#
-include
-"
-jsinferinlines
 .
 h
 "
