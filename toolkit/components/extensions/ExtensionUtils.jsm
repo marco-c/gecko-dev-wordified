@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -3277,12 +3276,10 @@ api
 }
 }
 ;
-this
-.
+let
 ExtensionUtils
 =
 {
-runSafeWithoutClone
 runSafe
 DefaultWeakMap
 EventManager

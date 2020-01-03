@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -2246,11 +2245,8 @@ js
 when
 initializing
 .
-this
-.
-Extension
-=
 function
+Extension
 (
 addonData
 )
