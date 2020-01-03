@@ -271,17 +271,6 @@ raw_log_file
 s
 "
                 
-#
-Bug
-1064002
--
-Land
-once
-mozharness
-changes
-land
-                
-#
 "
 -
 -
@@ -292,7 +281,6 @@ chunks
 16
 "
                 
-#
 "
 -
 -
@@ -310,15 +298,6 @@ json
 ]
         
 }
-        
-#
-Bug
-1064002
--
-Not
-yet
-in
-use
         
 "
 mochitest
@@ -555,15 +534,6 @@ json
 ]
         
 }
-        
-#
-Bug
-1064002
--
-Not
-yet
-in
-use
         
 "
 robocop
@@ -998,17 +968,6 @@ symbols_path
 s
 "
                 
-#
-Bug
-1064002
--
-Land
-once
-mozharness
-changes
-land
-                
-#
 "
 -
 -
@@ -1019,7 +978,6 @@ chunks
 16
 "
                 
-#
 "
 tests
 /
@@ -1035,15 +993,6 @@ list
 ]
         
 }
-        
-#
-Bug
-1064002
--
-Not
-yet
-in
-use
         
 "
 crashtest
@@ -1245,15 +1194,6 @@ list
 ]
         
 }
-        
-#
-Bug
-1064002
--
-Not
-yet
-in
-use
         
 "
 jsreftest
@@ -1615,17 +1555,6 @@ raw_log_file
 s
 "
                 
-#
-Bug
-1064002
--
-Land
-once
-mozharness
-changes
-land
-                
-#
 "
 -
 -
