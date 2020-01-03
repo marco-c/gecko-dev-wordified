@@ -204,13 +204,16 @@ aTextEventDispatcher
 )
 MOZ_OVERRIDE
 ;
-private
+protected
 :
+virtual
 ~
 TextInputProcessor
 (
 )
 ;
+private
+:
 nsresult
 InitInternal
 (
