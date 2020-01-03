@@ -134,14 +134,14 @@ services
 .
 common
 .
-log
+tokenserverclient
 .
 logger
 .
-tokenserverclient
+level
 "
 "
-Debug
+Info
 "
 )
 ;
