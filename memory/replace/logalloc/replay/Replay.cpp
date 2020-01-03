@@ -2532,6 +2532,8 @@ aSlot
 mSize
 =
 size
+*
+num
 ;
 Commit
 (
