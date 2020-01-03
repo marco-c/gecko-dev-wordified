@@ -1022,6 +1022,16 @@ InvalidateChildren
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+RemoveChild
+(
+Accessible
+*
+aChild
+)
+MOZ_OVERRIDE
+;
 /
 /
 ActionAccessible
