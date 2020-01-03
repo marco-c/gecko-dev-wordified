@@ -629,6 +629,10 @@ _frameElement
 name
 ]
 =
+Cu
+.
+exportFunction
+(
 function
 (
 )
@@ -653,6 +657,10 @@ arguments
 ;
 }
 }
+self
+.
+_frameElement
+)
 ;
 }
 let
@@ -676,6 +684,10 @@ _frameElement
 name
 ]
 =
+Cu
+.
+exportFunction
+(
 function
 method
 (
@@ -761,6 +773,10 @@ arguments
 ;
 }
 }
+self
+.
+_frameElement
+)
 ;
 }
 ;
@@ -785,6 +801,10 @@ _frameElement
 domName
 ]
 =
+Cu
+.
+exportFunction
+(
 function
 (
 )
@@ -798,6 +818,10 @@ msgName
 )
 ;
 }
+self
+.
+_frameElement
+)
 ;
 }
 /
