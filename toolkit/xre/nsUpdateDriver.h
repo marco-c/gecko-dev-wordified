@@ -634,12 +634,6 @@ nsIThread
 >
 mProcessWatcher
 ;
-nsCOMPtr
-<
-nsIUpdate
->
-mUpdate
-;
 StagedUpdateInfo
 mInfo
 ;
