@@ -11284,14 +11284,11 @@ false
 let
 parentId
 =
-PlacesUtils
-.
-getConcreteItemId
-(
 node
 .
 parent
-)
+.
+itemId
 ;
 if
 (
@@ -11308,7 +11305,7 @@ parentId
 =
 PlacesUIUtils
 .
-allBookmarksFolderId
+allBallBookmarksFolderId
 )
 {
 /
