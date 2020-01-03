@@ -161,6 +161,7 @@ timestamps
 .
 fetchMetaGlobal
 ensureKeysStage
+attemptMigrationStage
 /
 *
 ensureSpecialRecords

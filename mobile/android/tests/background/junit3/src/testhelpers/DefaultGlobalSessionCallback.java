@@ -162,6 +162,16 @@ session
 Override
 public
 void
+informMigrated
+(
+GlobalSession
+globalSession
+)
+{
+}
+Override
+public
+void
 handleAborted
 (
 GlobalSession
