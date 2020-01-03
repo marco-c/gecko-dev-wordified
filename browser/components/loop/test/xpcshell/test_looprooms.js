@@ -181,9 +181,6 @@ _nxD4V4FflQ
 maxSize
 :
 2
-currSize
-:
-0
 ctime
 :
 1405517546
@@ -224,9 +221,6 @@ QzBbvGmIZWU
 maxSize
 :
 2
-currSize
-:
-0
 ctime
 :
 140551741
@@ -270,9 +264,6 @@ maxSize
 clientMaxSize
 :
 2
-currSize
-:
-1
 ctime
 :
 1405518241
@@ -624,11 +615,6 @@ function
 room
 )
 {
-delete
-room
-.
-currSize
-;
 if
 (
 !
