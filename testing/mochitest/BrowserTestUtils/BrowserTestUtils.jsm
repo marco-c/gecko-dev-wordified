@@ -1660,6 +1660,23 @@ to
 *
 param
 {
+bool
+}
+capture
+[
+optional
+]
+*
+True
+to
+use
+a
+capturing
+listener
+.
+*
+param
+{
 function
 }
 checkFn
@@ -1773,6 +1790,7 @@ waitForEvent
 (
 subject
 eventName
+capture
 checkFn
 )
 {
@@ -1821,6 +1839,7 @@ removeEventListener
 (
 eventName
 listener
+capture
 )
 ;
 resolve
@@ -1842,6 +1861,7 @@ removeEventListener
 (
 eventName
 listener
+capture
 )
 ;
 }
@@ -1869,6 +1889,7 @@ ex
 ;
 }
 }
+capture
 )
 ;
 }
