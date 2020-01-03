@@ -925,6 +925,14 @@ mType
 (
 type
 )
+mTranslationSuccessful
+(
+false
+)
+mCompilationSuccessful
+(
+false
+)
 {
 mContext
 -
