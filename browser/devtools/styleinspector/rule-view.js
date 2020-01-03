@@ -7142,9 +7142,9 @@ this
 .
 editor
 .
-committed
+valueSpan
 .
-value
+textContent
 +
 "
 ;
