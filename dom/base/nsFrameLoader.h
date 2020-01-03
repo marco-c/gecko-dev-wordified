@@ -1784,7 +1784,7 @@ in
 process
 DocShell
 .
-nsresult
+void
 UpdateBaseWindowPositionAndSize
 (
 nsSubDocumentFrame

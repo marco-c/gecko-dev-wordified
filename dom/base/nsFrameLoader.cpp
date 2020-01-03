@@ -11775,14 +11775,16 @@ return
 NS_OK
 ;
 }
-return
 UpdateBaseWindowPositionAndSize
 (
 aIFrame
 )
 ;
+return
+NS_OK
+;
 }
-nsresult
+void
 nsFrameLoader
 :
 :
@@ -11875,7 +11877,6 @@ GetPosition
 killed
 us
 return
-NS_OK
 ;
 }
 nsIntSize
@@ -11905,9 +11906,6 @@ false
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsFrameLoader
