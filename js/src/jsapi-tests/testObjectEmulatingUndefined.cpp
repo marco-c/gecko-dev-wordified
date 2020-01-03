@@ -77,10 +77,6 @@ ObjectEmulatingUndefinedClass
 ObjectEmulatingUndefined
 "
 JSCLASS_EMULATES_UNDEFINED
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 static

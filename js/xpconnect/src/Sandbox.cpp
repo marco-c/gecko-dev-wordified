@@ -2834,8 +2834,8 @@ XPCONNECT_GLOBAL_FLAGS_WITH_EXTRA_SLOTS
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 sandbox_enumerate
 sandbox_resolve
 sandbox_convert
@@ -2923,8 +2923,8 @@ XPCONNECT_GLOBAL_FLAGS_WITH_EXTRA_SLOTS
 )
 sandbox_addProperty
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 sandbox_enumerate
 sandbox_resolve
 sandbox_convert

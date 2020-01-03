@@ -140,8 +140,8 @@ JSCLASS_IS_GLOBAL
 JSCLASS_GLOBAL_FLAGS
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr

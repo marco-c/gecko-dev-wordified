@@ -4440,7 +4440,7 @@ XPC_WN_CantDeletePropertyStub
 /
 /
 delProperty
-JS_PropertyStub
+nullptr
 /
 /
 getProperty
@@ -6981,7 +6981,7 @@ base
 .
 getProperty
 =
-JS_PropertyStub
+nullptr
 ;
 JSStrictPropertyOp
 setProperty
@@ -7009,7 +7009,7 @@ UseJSStubForSetProperty
 )
 setProperty
 =
-JS_StrictPropertyStub
+nullptr
 ;
 else
 if
@@ -9018,12 +9018,12 @@ nullptr
 /
 delProperty
 ;
-JS_PropertyStub
+nullptr
 /
 /
 getProperty
 ;
-JS_StrictPropertyStub
+nullptr
 /
 /
 setProperty
@@ -9123,12 +9123,12 @@ nullptr
 /
 delProperty
 ;
-JS_PropertyStub
+nullptr
 /
 /
 getProperty
 ;
-JS_StrictPropertyStub
+nullptr
 /
 /
 setProperty
@@ -9609,7 +9609,7 @@ XPC_WN_CantDeletePropertyStub
 /
 delProperty
 ;
-JS_PropertyStub
+nullptr
 /
 /
 getProperty
@@ -9718,7 +9718,7 @@ XPC_WN_CantDeletePropertyStub
 /
 delProperty
 ;
-JS_PropertyStub
+nullptr
 /
 /
 getProperty
@@ -10218,7 +10218,7 @@ XPC_WN_CantDeletePropertyStub
 /
 delProperty
 ;
-JS_PropertyStub
+nullptr
 /
 /
 getProperty

@@ -3716,6 +3716,7 @@ JS_ELEMENTS_HOLE
 ;
 MOZ_ASSERT
 (
+!
 obj
 -
 >
@@ -3725,13 +3726,11 @@ getClass
 -
 >
 getProperty
-=
-=
-JS_PropertyStub
 )
 ;
 MOZ_ASSERT
 (
+!
 obj
 -
 >
@@ -3741,9 +3740,6 @@ getClass
 -
 >
 setProperty
-=
-=
-JS_StrictPropertyStub
 )
 ;
 RootedId

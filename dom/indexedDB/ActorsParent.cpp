@@ -65174,13 +65174,13 @@ nullptr
 getProperty
 *
 /
-JS_PropertyStub
+nullptr
 /
 *
 setProperty
 *
 /
-JS_StrictPropertyStub
+nullptr
 /
 *
 enumerate
