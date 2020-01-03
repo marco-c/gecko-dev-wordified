@@ -370,7 +370,8 @@ public
 BasePrincipal
 (
 )
-;
+{
+}
 enum
 DocumentDomainConsideration
 {
@@ -675,7 +676,8 @@ virtual
 BasePrincipal
 (
 )
-;
+{
+}
 virtual
 nsresult
 GetOriginInternal
