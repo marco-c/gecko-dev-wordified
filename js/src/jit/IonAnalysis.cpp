@@ -23182,7 +23182,7 @@ constructing
 *
 /
 false
-DefinitePropertiesAnalysis
+Analysis_DefiniteProperties
 script
 -
 >
@@ -24883,7 +24883,7 @@ constructing
 *
 /
 false
-ArgumentsUsageAnalysis
+Analysis_ArgumentsUsage
 /
 *
 needsArgsObj
