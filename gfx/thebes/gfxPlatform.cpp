@@ -1145,6 +1145,13 @@ PurgeAllCaches
 (
 )
 ;
+gfxGradientCache
+:
+:
+PurgeAllCaches
+(
+)
+;
 gfxPlatform
 :
 :
