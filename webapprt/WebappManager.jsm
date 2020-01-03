@@ -973,6 +973,14 @@ uninstall
 (
 aApp
 )
+.
+then
+(
+null
+Cu
+.
+reportError
+)
 ;
 }
 )
