@@ -2874,7 +2874,7 @@ mp4_demuxer
 AnnexB
 :
 :
-ConvertSample
+ConvertSampleToAnnexB
 (
 aSample
 )

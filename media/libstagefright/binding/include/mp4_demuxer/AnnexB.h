@@ -99,9 +99,8 @@ Convert
 a
 sample
 from
-NAL
-unit
-syntax
+AVCC
+format
 to
 Annex
 B
@@ -120,7 +119,7 @@ bytes
 .
 static
 void
-ConvertSample
+ConvertSampleToAnnexB
 (
 MP4Sample
 *
@@ -132,7 +131,7 @@ aSample
 Parse
 an
 AVCC
-box
+extradata
 and
 construct
 the

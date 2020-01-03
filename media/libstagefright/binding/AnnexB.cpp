@@ -126,7 +126,7 @@ void
 AnnexB
 :
 :
-ConvertSample
+ConvertSampleToAnnexB
 (
 MP4Sample
 *
