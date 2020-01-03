@@ -283,6 +283,8 @@ this
 browser
 window
 .
+try
+{
 let
 browser
 =
@@ -306,6 +308,13 @@ enumWindow
 ;
 break
 ;
+}
+}
+catch
+(
+e
+)
+{
 }
 /
 /
