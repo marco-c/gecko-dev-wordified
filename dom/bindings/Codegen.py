@@ -7281,7 +7281,7 @@ in
                                       
 interfacesImplementingSelf
 )
-         
+        
 #
 Grab
 the
@@ -15157,6 +15157,24 @@ array
 =
 0
         
+#
+So
+we
+won
+'
+t
+put
+a
+specTerminator
+at
+the
+very
+front
+of
+the
+list
+:
+        
 lastCondition
 =
 getCondition
@@ -15169,25 +15187,6 @@ self
 .
 descriptor
 )
-#
-So
-we
-won
-'
-t
-put
-a
-specTerminator
-                                                                 
-#
-at
-the
-very
-front
-of
-the
-list
-.
         
 specs
 =
@@ -24395,7 +24394,7 @@ len
 conditions
 )
 :
-          
+            
 conditionsWrapper
 =
 CGWrapper
@@ -24440,7 +24439,7 @@ True
         
 else
 :
-          
+            
 conditionsWrapper
 =
 CGGeneric

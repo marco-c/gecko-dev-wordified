@@ -45083,6 +45083,22 @@ IntegerType
 "
 "
         
+#
+Adding
+one
+to
+a
+given
+signed
+integer
+type
+gets
+you
+the
+unsigned
+type
+:
+        
 p
 [
 0
@@ -45094,23 +45110,6 @@ p
 ]
 +
 1
-#
-Adding
-one
-to
-a
-given
-signed
-integer
-type
-                        
-#
-gets
-you
-the
-unsigned
-type
-.
     
 def
 p_UnsignedIntegerType
