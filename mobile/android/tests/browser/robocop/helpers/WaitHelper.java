@@ -1046,7 +1046,6 @@ status
 *
 /
 private
-static
 interface
 ChangeVerifier
 {
