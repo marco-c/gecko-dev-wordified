@@ -59,6 +59,16 @@ getFilePath
 core
 -
 dump
+-
+"
++
+Math
+.
+random
+(
+)
++
+"
 .
 tmp
 "
