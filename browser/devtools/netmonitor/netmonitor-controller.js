@@ -5163,6 +5163,9 @@ function
 NetMonitorController
 .
 NetworkEventsHandler
+configurable
+:
+true
 }
 }
 )
