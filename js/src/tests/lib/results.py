@@ -1020,23 +1020,67 @@ test
 path
 )
             
-show
+if
+dev_label
+=
+=
+'
+REGRESSIONS
+'
+:
+                
+show_output
 =
 self
 .
 options
 .
-show
+show_output
+or
+not
+self
+.
+options
+.
+no_show_failed
             
-if
+elif
+dev_label
+=
+=
+'
+TIMEOUTS
+'
+:
+                
+show_output
+=
+self
+.
+options
+.
+show_output
+            
+else
+:
+                
+show_output
+=
+self
+.
+options
+.
+show_output
+and
+not
 self
 .
 options
 .
 failed_only
-and
+            
+if
 dev_label
-not
 in
 (
 '
@@ -1048,12 +1092,36 @@ TIMEOUTS
 )
 :
                 
-show
+show_cmd
 =
-False
+self
+.
+options
+.
+show_cmd
+            
+else
+:
+                
+show_cmd
+=
+self
+.
+options
+.
+show_cmd
+and
+not
+self
+.
+options
+.
+failed_only
             
 if
-show
+show_output
+or
+show_cmd
 :
                 
 self
@@ -1063,16 +1131,8 @@ pb
 beginline
 (
 )
-            
-if
-show
-:
                 
 if
-self
-.
-options
-.
 show_output
 :
                     
@@ -1116,10 +1176,6 @@ fp
 )
                 
 if
-self
-.
-options
-.
 show_cmd
 :
                     
@@ -1139,10 +1195,6 @@ fp
 )
                 
 if
-self
-.
-options
-.
 show_output
 :
                     
