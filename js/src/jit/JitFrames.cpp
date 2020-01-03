@@ -20419,15 +20419,7 @@ JitFrame_IonJS
 ;
 returnAddressToFp_
 =
-entry
-.
-ionCacheEntry
-(
-)
-.
-rejoinAddr
-(
-)
+pc
 ;
 return
 true
