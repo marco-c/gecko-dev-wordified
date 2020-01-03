@@ -58246,6 +58246,12 @@ as_jr
 HeapReg
 )
 ;
+masm
+.
+loadAsmJSHeapRegisterFromGlobalData
+(
+)
+;
 #
 elif
 defined
