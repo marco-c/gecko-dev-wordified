@@ -1265,6 +1265,19 @@ a
 serialized
 protocol
 buffer
+(
+the
+length
+doesn
+'
+t
+match
+our
+hard
+-
+coded
+values
+)
 "
 ;
 /
@@ -1300,7 +1313,7 @@ buf
 length
 =
 =
-65
+67
 )
 {
 /
@@ -1324,7 +1337,7 @@ buf
 length
 =
 =
-71
+73
 )
 {
 /
