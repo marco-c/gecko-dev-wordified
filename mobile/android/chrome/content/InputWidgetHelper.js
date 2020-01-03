@@ -274,6 +274,16 @@ value
 type
 :
 type
+min
+:
+aElement
+.
+min
+max
+:
+aElement
+.
+max
 }
 )
 .
