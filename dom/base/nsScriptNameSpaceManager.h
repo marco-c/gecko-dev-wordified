@@ -1301,14 +1301,11 @@ aClassName
 nullptr
 )
 ;
-PLDHashTable
+PLDHashTable2
 mGlobalNames
 ;
-PLDHashTable
+PLDHashTable2
 mNavigatorNames
-;
-bool
-mIsInitialized
 ;
 }
 ;
