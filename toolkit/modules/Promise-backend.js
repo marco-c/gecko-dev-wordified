@@ -2203,8 +2203,6 @@ Message
 :
 "
 +
-details
-.
 message
 /
 *
