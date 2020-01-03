@@ -235,7 +235,7 @@ i
 ]
 ;
 let
-invoc
+sampl
 =
 i
 =
@@ -254,7 +254,7 @@ cell
 [
 type
 =
-invocations
+samples
 ]
 "
 )
@@ -381,7 +381,7 @@ value
 ;
 is
 (
-invoc
+sampl
 (
 0
 )
@@ -399,7 +399,7 @@ The
 root
 '
 s
-invocations
+samples
 cell
 displays
 the
@@ -775,7 +775,7 @@ value
 ;
 is
 (
-invoc
+sampl
 (
 1
 )
@@ -796,7 +796,7 @@ A
 node
 '
 s
-invocations
+samples
 cell
 displays
 the
@@ -1257,7 +1257,7 @@ value
 ;
 is
 (
-invoc
+sampl
 (
 2
 )
@@ -1280,7 +1280,7 @@ B
 node
 '
 s
-invocations
+samples
 cell
 displays
 the
@@ -1649,7 +1649,7 @@ value
 ;
 is
 (
-invoc
+sampl
 (
 3
 )
@@ -1672,7 +1672,7 @@ E
 node
 '
 s
-invocations
+samples
 cell
 displays
 the

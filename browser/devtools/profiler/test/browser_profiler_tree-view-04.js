@@ -646,7 +646,7 @@ type
 "
 )
 "
-invocations
+samples
 "
 "
 The

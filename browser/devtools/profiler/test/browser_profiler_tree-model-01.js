@@ -1914,7 +1914,7 @@ sample
 times
 duration
 and
-invocations
+samples
 of
 the
 root
@@ -2046,7 +2046,7 @@ calls
 .
 A
 .
-invocations
+samples
 4
 "
 The
@@ -2060,7 +2060,7 @@ the
 correct
 number
 of
-invocations
+samples
 .
 "
 )
@@ -2222,7 +2222,7 @@ calls
 .
 F
 .
-invocations
+samples
 1
 "
 The
@@ -2240,7 +2240,7 @@ the
 correct
 number
 of
-invocations
+samples
 .
 "
 )
@@ -2490,7 +2490,7 @@ calls
 .
 G
 .
-invocations
+samples
 1
 "
 The
@@ -2516,7 +2516,7 @@ the
 correct
 number
 of
-invocations
+samples
 .
 "
 )

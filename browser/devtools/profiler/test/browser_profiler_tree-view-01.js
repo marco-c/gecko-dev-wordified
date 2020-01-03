@@ -454,7 +454,7 @@ type
 "
 )
 "
-invocations
+samples
 "
 "
 The
@@ -465,7 +465,7 @@ the
 tree
 has
 an
-invocations
+samples
 cell
 .
 "
@@ -503,7 +503,7 @@ tree
 has
 the
 correct
-invocations
+samples
 cell
 value
 .
