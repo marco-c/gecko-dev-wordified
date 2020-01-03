@@ -129,7 +129,7 @@ h
 #
 include
 "
-nsError
+DataSocket
 .
 h
 "
@@ -183,6 +183,9 @@ sockets
 /
 class
 ConnectionOrientedSocketIO
+:
+public
+DataSocketIO
 {
 public
 :
@@ -215,6 +218,9 @@ ConnectionOrientedSocketIO
 ;
 class
 ConnectionOrientedSocket
+:
+public
+DataSocket
 {
 public
 :

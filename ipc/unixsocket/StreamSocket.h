@@ -120,17 +120,6 @@ mozilla_ipc_streamsocket_h
 #
 include
 "
-mozilla
-/
-ipc
-/
-DataSocket
-.
-h
-"
-#
-include
-"
 ConnectionOrientedSocket
 .
 h
@@ -150,8 +139,6 @@ UnixSocketConnector
 class
 StreamSocket
 :
-public
-DataSocket
 public
 ConnectionOrientedSocket
 {
