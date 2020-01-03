@@ -2189,7 +2189,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 SVGUnload
-NS_SVG_UNLOAD
+eSVGUnload
 EventNameType_None
 eBasicEventClass
 )

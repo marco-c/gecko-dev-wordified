@@ -1320,7 +1320,7 @@ eSVGEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SVG_UNLOAD
+eSVGUnload
 eSVGEventFirst
 +
 1
