@@ -549,7 +549,7 @@ mLRUStamp
 (
 0
 )
-mKeyToDelete
+mLRUKeyToDelete
 (
 nullptr
 )
@@ -582,7 +582,13 @@ mLRUStamp
 const
 char
 *
-mKeyToDelete
+mLRUKeyToDelete
+;
+nsTArray
+<
+nsCString
+>
+mLongKeysToDelete
 ;
 nsRefPtr
 <
@@ -2149,6 +2155,9 @@ mLastStartupTime
 ;
 int32_t
 mStartupCount
+;
+uint32_t
+mMaxURILength
 ;
 nsCOMPtr
 <
