@@ -2,6 +2,7 @@
 /
 A
 class
+statement
 creates
 a
 mutable
