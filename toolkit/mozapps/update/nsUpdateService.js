@@ -7413,10 +7413,6 @@ service
 is
 is
 installed
-and
-enabled
-or
-not
 .
 *
 *
@@ -7425,16 +7421,8 @@ true
 if
 the
 service
-should
-be
-used
-for
-updates
-*
 is
 installed
-and
-enabled
 .
 *
 /
