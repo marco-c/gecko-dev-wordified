@@ -1933,13 +1933,6 @@ override
 ;
 virtual
 bool
-RecvNotifyFlushComplete
-(
-)
-override
-;
-virtual
-bool
 RecvActivate
 (
 )
