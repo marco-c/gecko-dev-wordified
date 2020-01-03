@@ -689,6 +689,10 @@ GLFeature
 :
 :
 transform_feedback2
+GLFeature
+:
+:
+invalidate_framebuffer
 }
 ;
 /
