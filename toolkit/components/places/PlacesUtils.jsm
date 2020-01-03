@@ -19959,6 +19959,10 @@ CLTXN_doTransaction
 (
 )
 {
+this
+.
+_promise
+=
 PlacesUtils
 .
 livemarks
@@ -20094,6 +20098,10 @@ doesn
 t
 matter
 .
+this
+.
+_promise
+=
 PlacesUtils
 .
 livemarks
