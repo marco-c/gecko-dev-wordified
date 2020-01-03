@@ -1064,17 +1064,6 @@ true
 )
 ;
 }
-/
-/
-TODO
-temporarily
-disabled
-because
-of
-bug
-1123404
-/
-/
 test
 (
 )
