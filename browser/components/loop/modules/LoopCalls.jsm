@@ -1952,6 +1952,7 @@ openChat
 ;
 }
 )
+;
 }
 else
 {

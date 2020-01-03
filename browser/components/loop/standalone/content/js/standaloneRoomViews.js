@@ -1474,6 +1474,7 @@ href
 }
 )
 )
+;
 }
 }
 render
@@ -1899,6 +1900,7 @@ failureLogged
 :
 false
 }
+;
 }
 _logFailure
 :

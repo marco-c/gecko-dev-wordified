@@ -523,6 +523,7 @@ js
 utils
 "
 )
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -1275,6 +1276,7 @@ pushHandler
 |
 |
 MozLoopPushHandler
+;
 }
 /
 /
@@ -1303,6 +1305,7 @@ loop
 server
 "
 )
+;
 }
 /
 *
@@ -2590,6 +2593,7 @@ pushURL
 ;
 }
 }
+;
 this
 .
 pushHandler
@@ -3897,6 +3901,7 @@ error
 )
 ;
 }
+;
 return
 Promise
 .
@@ -4327,7 +4332,6 @@ property
 ;
 }
 }
-;
 payloadObj
 =
 newPayloadObj
@@ -5871,6 +5875,7 @@ fail
 )
 ;
 }
+;
 worker
 .
 postMessage

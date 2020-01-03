@@ -344,7 +344,6 @@ Events
 )
 ;
 }
-;
 CallConnectionWebSocket
 .
 prototype

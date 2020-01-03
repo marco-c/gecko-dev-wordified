@@ -172,6 +172,7 @@ mozL10n
 navigator
 .
 mozL10n
+;
 }
 /
 *

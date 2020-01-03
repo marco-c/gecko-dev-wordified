@@ -457,6 +457,7 @@ param
 }
 }
 )
+;
 }
 function
 handleSuccess
@@ -928,7 +929,6 @@ arguments
 )
 ;
 }
-;
 patchSymbolIfExtant
 (
 "

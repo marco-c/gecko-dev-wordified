@@ -212,7 +212,6 @@ resolve
 )
 ;
 }
-;
 return
 hawkRequestStub
 ;

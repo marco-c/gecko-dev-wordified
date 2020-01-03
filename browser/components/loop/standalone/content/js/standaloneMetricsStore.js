@@ -279,6 +279,7 @@ link
 click
 "
 }
+;
 var
 StandaloneMetricsStore
 =
@@ -784,6 +785,7 @@ Media
 connected
 "
 )
+;
 }
 /
 *

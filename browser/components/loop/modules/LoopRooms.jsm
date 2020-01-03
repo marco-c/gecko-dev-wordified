@@ -304,6 +304,7 @@ js
 utils
 "
 )
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -2433,7 +2434,6 @@ isUpdate
 )
 ;
 }
-;
 }
 }
 )
