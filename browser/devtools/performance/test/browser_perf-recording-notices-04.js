@@ -99,7 +99,7 @@ a
 new
 buffer
 limit
-PMM_loadFrameScripts
+PMM_loadProfilerScripts
 (
 gBrowser
 )
