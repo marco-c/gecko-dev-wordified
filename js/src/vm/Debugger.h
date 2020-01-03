@@ -1865,7 +1865,7 @@ AllocationSite
 (
 HandleObject
 frame
-int64_t
+double
 when
 )
 :
@@ -1915,7 +1915,7 @@ JSContext
 cx
 HandleObject
 frame
-int64_t
+double
 when
 HandleObject
 obj
@@ -1924,7 +1924,7 @@ obj
 RelocatablePtrObject
 frame
 ;
-int64_t
+double
 when
 ;
 const
@@ -1985,7 +1985,7 @@ HandleObject
 obj
 HandleSavedFrame
 frame
-int64_t
+double
 when
 )
 ;
@@ -4002,7 +4002,7 @@ HandleObject
 obj
 HandleSavedFrame
 frame
-int64_t
+double
 when
 GlobalObject
 :
@@ -5326,7 +5326,7 @@ JSObject
 obj
 HandleSavedFrame
 frame
-int64_t
+double
 when
 )
 ;
@@ -7527,7 +7527,7 @@ JSObject
 obj
 HandleSavedFrame
 frame
-int64_t
+double
 when
 )
 {
