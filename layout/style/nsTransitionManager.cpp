@@ -1060,6 +1060,12 @@ Timing
 )
 .
 mIterationDuration
+AnimationTimeToTimeStamp
+(
+EffectEnd
+(
+)
+)
 )
 )
 ;

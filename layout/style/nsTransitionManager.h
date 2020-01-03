@@ -1439,6 +1439,9 @@ mElement
 InternalTransitionEvent
 mEvent
 ;
+TimeStamp
+mTimeStamp
+;
 TransitionEventInfo
 (
 dom
@@ -1456,6 +1459,10 @@ nsCSSProperty
 aProperty
 TimeDuration
 aDuration
+const
+TimeStamp
+&
+aTimeStamp
 )
 :
 mElement
@@ -1466,6 +1473,10 @@ mEvent
 (
 true
 eTransitionEnd
+)
+mTimeStamp
+(
+aTimeStamp
 )
 {
 /
@@ -1558,6 +1569,12 @@ mEvent
 (
 true
 eTransitionEnd
+)
+mTimeStamp
+(
+aOther
+.
+mTimeStamp
 )
 {
 mEvent
