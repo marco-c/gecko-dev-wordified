@@ -227,6 +227,7 @@ value
 =
 item
 ;
+yield
 jsterm
 .
 execute

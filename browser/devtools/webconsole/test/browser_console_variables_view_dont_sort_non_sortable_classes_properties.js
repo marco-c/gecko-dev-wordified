@@ -389,6 +389,7 @@ all
 different
 TypedArrays
 .
+yield
 jsterm
 .
 execute

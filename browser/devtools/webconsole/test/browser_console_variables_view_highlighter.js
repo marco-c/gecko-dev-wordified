@@ -172,6 +172,10 @@ p
 '
 )
 "
+)
+.
+then
+(
 onQSAexecuted
 )
 ;

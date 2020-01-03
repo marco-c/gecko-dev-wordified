@@ -777,6 +777,10 @@ execute
 "
 document
 "
+)
+.
+then
+(
 (
 msg
 )

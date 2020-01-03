@@ -274,6 +274,7 @@ openConsole
 tab
 )
 ;
+yield
 executeWindowTest
 (
 )
@@ -314,6 +315,7 @@ clearOutput
 (
 )
 ;
+yield
 hud
 .
 jsterm
@@ -330,6 +332,7 @@ iframe
 "
 )
 ;
+yield
 executeWindowTest
 (
 )
@@ -372,6 +375,7 @@ clearOutput
 (
 )
 ;
+yield
 hud
 .
 jsterm
@@ -385,6 +389,7 @@ cd
 "
 )
 ;
+yield
 executeWindowTest
 (
 )
@@ -423,6 +428,7 @@ clearOutput
 (
 )
 ;
+yield
 hud
 .
 jsterm
@@ -475,6 +481,7 @@ clearOutput
 (
 )
 ;
+yield
 hud
 .
 jsterm
@@ -546,6 +553,7 @@ clearOutput
 (
 )
 ;
+yield
 hud
 .
 jsterm
@@ -564,6 +572,7 @@ iframe
 "
 )
 ;
+yield
 executeWindowTest
 (
 )
@@ -601,6 +610,7 @@ clearOutput
 (
 )
 ;
+yield
 hud
 .
 jsterm
@@ -617,6 +627,7 @@ parent
 "
 )
 ;
+yield
 executeWindowTest
 (
 )
@@ -646,6 +657,7 @@ executeWindowTest
 (
 )
 {
+yield
 hud
 .
 jsterm
@@ -659,6 +671,7 @@ title
 "
 )
 ;
+yield
 hud
 .
 jsterm
@@ -684,6 +697,7 @@ textContent
 "
 )
 ;
+yield
 hud
 .
 jsterm

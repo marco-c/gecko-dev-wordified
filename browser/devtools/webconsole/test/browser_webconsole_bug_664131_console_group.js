@@ -136,6 +136,7 @@ clearOutput
 (
 )
 ;
+yield
 jsterm
 .
 execute
@@ -175,6 +176,7 @@ consoleGroup
 }
 )
 ;
+yield
 jsterm
 .
 execute
@@ -224,6 +226,7 @@ groupDepth
 }
 )
 ;
+yield
 jsterm
 .
 execute
@@ -240,6 +243,7 @@ bug664131a
 '
 )
 ;
+yield
 jsterm
 .
 execute
@@ -290,6 +294,7 @@ groupDepth
 }
 )
 ;
+yield
 jsterm
 .
 execute
@@ -349,6 +354,7 @@ clearOutput
 (
 )
 ;
+yield
 jsterm
 .
 execute

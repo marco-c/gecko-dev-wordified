@@ -284,6 +284,10 @@ execute
 "
 fooObj
 "
+)
+.
+then
+(
 onExecuteFooObj
 )
 )
@@ -656,6 +660,10 @@ fooObj
 .
 testProp2
 "
+)
+.
+then
+(
 onExecuteFooObjTestProp2
 )
 ;

@@ -188,6 +188,7 @@ jsterm
 .
 autocompletePopup
 ;
+yield
 jsterm
 .
 execute

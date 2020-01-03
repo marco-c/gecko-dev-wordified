@@ -303,6 +303,7 @@ of
 suggestions
 "
 )
+yield
 jsterm
 .
 execute
@@ -488,6 +489,7 @@ updated
 "
 )
 ;
+yield
 jsterm
 .
 execute
@@ -710,6 +712,7 @@ jsterm
 COMPLETE_HINT_ONLY
 )
 ;
+yield
 jsterm
 .
 execute
@@ -819,6 +822,7 @@ updated
 "
 )
 ;
+yield
 jsterm
 .
 execute

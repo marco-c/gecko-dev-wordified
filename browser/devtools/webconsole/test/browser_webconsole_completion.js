@@ -635,6 +635,7 @@ completion
 "
 )
 ;
+yield
 jsterm
 .
 execute

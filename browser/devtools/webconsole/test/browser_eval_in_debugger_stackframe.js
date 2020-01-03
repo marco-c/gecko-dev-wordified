@@ -146,6 +146,10 @@ execute
 "
 foo
 "
+)
+.
+then
+(
 onExecuteFoo
 )
 ;
@@ -236,6 +240,10 @@ window
 .
 foo2
 "
+)
+.
+then
+(
 onNewFoo2
 )
 )
@@ -408,6 +416,10 @@ foo
 +
 foo2
 "
+)
+.
+then
+(
 onExecuteFooAndFoo2
 )
 )
@@ -561,6 +573,10 @@ foo
 +
 foo2
 "
+)
+.
+then
+(
 onExecuteFooAndFoo2InSecondCall
 )
 )
@@ -685,6 +701,10 @@ foo2
 +
 foo3
 "
+)
+.
+then
+(
 onExecuteFoo23InFirstCall
 )
 )
@@ -767,6 +787,10 @@ foo
 +
 foo3
 "
+)
+.
+then
+(
 onExecuteFooAndFoo3ChangesInFirstCall
 )
 )

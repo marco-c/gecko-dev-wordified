@@ -147,8 +147,15 @@ hud
 ;
 }
 )
-function
+let
 testSelectionWhenMovingBetweenBoxes
+=
+Task
+.
+async
+(
+function
+*
 (
 aHud
 )
@@ -180,6 +187,7 @@ clearOutput
 (
 )
 ;
+yield
 jsterm
 .
 execute
@@ -191,6 +199,7 @@ execute
 "
 )
 ;
+yield
 jsterm
 .
 execute
@@ -202,6 +211,7 @@ execute
 "
 )
 ;
+yield
 jsterm
 .
 execute
@@ -258,6 +268,8 @@ CATEGORY_OUTPUT
 )
 ;
 }
+)
+;
 function
 performTestsAfterOutput
 (

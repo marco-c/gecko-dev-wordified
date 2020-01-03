@@ -189,8 +189,15 @@ null
 }
 )
 ;
-function
+let
 consoleOpened
+=
+Task
+.
+async
+(
+function
+*
 (
 aHud
 )
@@ -223,6 +230,7 @@ HUD
 .
 jsterm
 ;
+yield
 jsterm
 .
 execute
@@ -280,6 +288,7 @@ value3
 "
 )
 ;
+yield
 jsterm
 .
 execute
@@ -995,6 +1004,8 @@ deferred
 promise
 ;
 }
+)
+;
 function
 popupHideAfterTab
 (
