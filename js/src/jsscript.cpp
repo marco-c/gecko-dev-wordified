@@ -26679,6 +26679,12 @@ isDerivedClassConstructor
 =
 false
 ;
+p
+.
+needsHomeObject
+=
+false
+;
 LazyScript
 *
 res
