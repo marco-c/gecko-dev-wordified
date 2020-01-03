@@ -212,6 +212,13 @@ nsIDocument
 h
 "
 #
+include
+"
+nsPrintfCString
+.
+h
+"
+#
 ifdef
 DEBUG
 /
