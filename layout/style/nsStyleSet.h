@@ -1407,9 +1407,6 @@ failure
 bool
 AppendFontFaceRules
 (
-nsPresContext
-*
-aPresContext
 nsTArray
 <
 nsFontFaceRuleContainer
@@ -1439,9 +1436,6 @@ nsCSSKeyframesRule
 *
 KeyframesRuleForName
 (
-nsPresContext
-*
-aPresContext
 const
 nsString
 &
@@ -1471,9 +1465,6 @@ nsCSSCounterStyleRule
 *
 CounterStyleRuleForName
 (
-nsPresContext
-*
-aPresContext
 const
 nsAString
 &
@@ -1527,9 +1518,6 @@ failure
 bool
 AppendFontFeatureValuesRules
 (
-nsPresContext
-*
-aPresContext
 nsTArray
 <
 nsCSSFontFeatureValuesRule
@@ -1566,9 +1554,6 @@ failure
 bool
 AppendPageRules
 (
-nsPresContext
-*
-aPresContext
 nsTArray
 <
 nsCSSPageRule
@@ -1600,9 +1585,6 @@ teardown
 void
 BeginShutdown
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 /
@@ -1621,9 +1603,6 @@ set
 void
 Shutdown
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 /
@@ -1640,9 +1619,6 @@ destroyed
 void
 NotifyStyleContextDestroyed
 (
-nsPresContext
-*
-aPresContext
 nsStyleContext
 *
 aStyleContext
@@ -1768,9 +1744,6 @@ state
 bool
 HasDocumentStateDependentStyle
 (
-nsPresContext
-*
-aPresContext
 nsIContent
 *
 aContent
@@ -1794,9 +1767,6 @@ state
 nsRestyleHint
 HasStateDependentStyle
 (
-nsPresContext
-*
-aPresContext
 mozilla
 :
 :
@@ -1816,9 +1786,6 @@ aStateMask
 nsRestyleHint
 HasStateDependentStyle
 (
-nsPresContext
-*
-aPresContext
 mozilla
 :
 :
@@ -1866,9 +1833,6 @@ attribute
 nsRestyleHint
 HasAttributeDependentStyle
 (
-nsPresContext
-*
-aPresContext
 mozilla
 :
 :
@@ -1928,9 +1892,6 @@ result
 bool
 MediumFeaturesChanged
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 /

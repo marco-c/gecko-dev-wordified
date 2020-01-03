@@ -7921,7 +7921,6 @@ styleSet
 >
 HasStateDependentStyle
 (
-mPresContext
 aElement
 aStateMask
 )
@@ -7987,7 +7986,6 @@ styleSet
 >
 HasStateDependentStyle
 (
-mPresContext
 ancestor
 pseudoType
 aElement
@@ -8135,7 +8133,6 @@ StyleSet
 >
 HasAttributeDependentStyle
 (
-mPresContext
 aElement
 aAttribute
 aModType
@@ -8750,7 +8747,6 @@ StyleSet
 >
 HasAttributeDependentStyle
 (
-mPresContext
 aElement
 aAttribute
 aModType

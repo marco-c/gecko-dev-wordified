@@ -10505,7 +10505,6 @@ StyleSet
 >
 CounterStyleRuleForName
 (
-mPresContext
 aName
 )
 ;
@@ -10784,10 +10783,6 @@ StyleSet
 >
 CounterStyleRuleForName
 (
-data
--
->
-mPresContext
 aKey
 )
 ;

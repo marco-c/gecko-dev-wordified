@@ -991,7 +991,6 @@ styleSet
 >
 HasStateDependentStyle
 (
-pc
 e
 NS_EVENT_STATE_ACTIVE
 )
