@@ -5574,7 +5574,7 @@ bool
 getStringOrTemplateToken
 (
 int
-qc
+untilChar
 Token
 *
 *
@@ -6007,18 +6007,6 @@ current
 token
 string
 buffer
-bool
-maybeStrSpecial
-[
-256
-]
-;
-/
-/
-speeds
-up
-string
-scanning
 uint8_t
 isExprEnding
 [
