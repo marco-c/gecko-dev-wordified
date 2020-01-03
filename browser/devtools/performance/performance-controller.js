@@ -2586,6 +2586,7 @@ EVENTS
 .
 RECORDING_EXPORTED
 recording
+file
 )
 ;
 }
