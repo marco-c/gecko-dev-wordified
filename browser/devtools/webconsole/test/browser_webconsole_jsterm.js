@@ -302,6 +302,7 @@ promise
 ;
 }
 function
+*
 testJSTerm
 (
 hud

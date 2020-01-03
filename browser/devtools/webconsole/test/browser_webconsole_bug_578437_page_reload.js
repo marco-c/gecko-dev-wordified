@@ -132,6 +132,10 @@ TEST_URI
 .
 then
 (
+(
+)
+=
+>
 {
 openConsole
 (

@@ -165,6 +165,7 @@ next
 ;
 }
 function
+*
 testCompletion
 (
 hud

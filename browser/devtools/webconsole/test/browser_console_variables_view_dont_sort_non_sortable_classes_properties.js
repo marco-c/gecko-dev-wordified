@@ -560,6 +560,7 @@ inspect
 *
 /
 function
+*
 testNotSorted
 (
 aObject
@@ -828,6 +829,7 @@ inspect
 *
 /
 function
+*
 testSorted
 (
 aObject

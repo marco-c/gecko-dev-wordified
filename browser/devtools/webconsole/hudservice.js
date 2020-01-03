@@ -2104,11 +2104,15 @@ get
 lastFinishedRequestCallback
 (
 )
+{
+return
 HUDService
 .
 lastFinishedRequest
 .
 callback
+;
+}
 /
 *
 *

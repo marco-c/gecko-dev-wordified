@@ -653,6 +653,7 @@ tab
 ;
 }
 function
+*
 executeWindowTest
 (
 )

@@ -213,11 +213,10 @@ location
 ]
 ;
 for
-each
 (
 var
 item
-in
+of
 executeList
 )
 {
