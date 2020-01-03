@@ -280,6 +280,7 @@ int64_t
 *
 KeyTypePointer
 ;
+explicit
 nsTrimInt64HashKey
 (
 KeyTypePointer
@@ -825,6 +826,7 @@ use
 NewHistoryResult
 to
 construct
+explicit
 nsNavHistoryResult
 (
 nsNavHistoryContainerResultNode

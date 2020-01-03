@@ -933,6 +933,7 @@ nsURIHashKey
 {
 public
 :
+explicit
 KeyClass
 (
 const

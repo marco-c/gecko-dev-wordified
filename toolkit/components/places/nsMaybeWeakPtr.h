@@ -102,6 +102,15 @@ nsMaybeWeakPtr_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -207,6 +216,7 @@ nsMaybeWeakPtr_base
 {
 public
 :
+MOZ_IMPLICIT
 nsMaybeWeakPtr
 (
 nsISupports
@@ -219,6 +229,7 @@ mPtr
 ref
 ;
 }
+MOZ_IMPLICIT
 nsMaybeWeakPtr
 (
 const
@@ -235,6 +246,7 @@ mPtr
 ref
 ;
 }
+MOZ_IMPLICIT
 nsMaybeWeakPtr
 (
 const

@@ -628,6 +628,7 @@ nsIObserver
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 WaitForTopicSpinner
 (
 const

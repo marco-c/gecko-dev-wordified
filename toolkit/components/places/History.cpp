@@ -710,6 +710,7 @@ true
 )
 ;
 }
+explicit
 VisitData
 (
 nsIURI
@@ -1316,6 +1317,7 @@ nsCStringHashKey
 {
 public
 :
+explicit
 PlaceHashKey
 (
 const
@@ -1341,6 +1343,7 @@ bookmarked
 )
 {
 }
+explicit
 PlaceHashKey
 (
 const
@@ -3325,6 +3328,7 @@ NS_OK
 }
 private
 :
+explicit
 VisitedQuery
 (
 nsIURI
@@ -4320,6 +4324,7 @@ nsRunnable
 {
 public
 :
+explicit
 NotifyCompletion
 (
 mozIVisitInfoCallback
@@ -8475,6 +8480,7 @@ mozIVisitInfoCallback
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 SetDownloadAnnotations
 (
 nsIURI
@@ -9297,6 +9303,7 @@ nsRunnable
 {
 public
 :
+explicit
 NotifyRemoveVisits
 (
 nsTHashtable
@@ -11849,6 +11856,7 @@ mozIStorageCompletionCallback
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 ConcurrentStatementsHolder
 (
 mozIStorageConnection

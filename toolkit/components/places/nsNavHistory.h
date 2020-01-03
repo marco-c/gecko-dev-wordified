@@ -2758,6 +2758,7 @@ nsURIHashKey
 {
 public
 :
+explicit
 VisitHashKey
 (
 const

@@ -306,6 +306,7 @@ nsURIHashKey
 {
 public
 :
+explicit
 UnassociatedIconHashKey
 (
 const

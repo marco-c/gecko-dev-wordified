@@ -183,6 +183,7 @@ Link
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 mock_Link
 (
 void

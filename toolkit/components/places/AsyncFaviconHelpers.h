@@ -558,6 +558,7 @@ nsRunnable
 {
 protected
 :
+explicit
 AsyncFaviconHelperBase
 (
 nsCOMPtr

@@ -1301,6 +1301,7 @@ UpdateBatchScoper
 {
 public
 :
+explicit
 UpdateBatchScoper
 (
 nsNavHistory
@@ -19893,6 +19894,7 @@ ConditionBuilder
 {
 public
 :
+explicit
 ConditionBuilder
 (
 int32_t
