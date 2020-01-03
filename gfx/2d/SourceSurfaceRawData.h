@@ -333,6 +333,8 @@ IntSize
 aSize
 SurfaceFormat
 aFormat
+bool
+aZero
 )
 ;
 bool
@@ -346,6 +348,8 @@ SurfaceFormat
 aFormat
 int32_t
 aStride
+bool
+aZero
 )
 ;
 private

@@ -8726,6 +8726,7 @@ count
 *
 /
 bufLen
+true
 )
 ;
 aData
@@ -8738,13 +8739,6 @@ char
 >
 (
 mData
-)
-;
-memset
-(
-aData
-0
-bufLen
 )
 ;
 }
