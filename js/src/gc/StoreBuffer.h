@@ -187,16 +187,6 @@ h
 namespace
 js
 {
-MOZ_NORETURN
-void
-CrashAtUnhandlableOOM
-(
-const
-char
-*
-reason
-)
-;
 namespace
 gc
 {

@@ -969,16 +969,6 @@ chunk
 /
 namespace
 detail
-MOZ_NORETURN
-void
-CrashAtUnhandlableOOM
-(
-const
-char
-*
-reason
-)
-;
 /
 /
 LIFO

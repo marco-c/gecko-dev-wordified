@@ -11139,6 +11139,7 @@ program
 *
 /
 MOZ_NORETURN
+MOZ_COLD
 void
 TypeFailure
 (

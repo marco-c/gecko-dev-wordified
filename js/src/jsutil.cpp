@@ -332,6 +332,7 @@ more
 details
 .
 extern
+MOZ_COLD
 void
 AllTheNonBasicVanillaNewAllocations
 (
