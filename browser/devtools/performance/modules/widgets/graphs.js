@@ -158,9 +158,7 @@ LineGraphWidget
 )
 ;
 const
-{
 BarGraphWidget
-}
 =
 require
 (
@@ -171,7 +169,7 @@ shared
 /
 widgets
 /
-Graphs
+BarGraphWidget
 "
 )
 ;
