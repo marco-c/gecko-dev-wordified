@@ -16477,7 +16477,7 @@ priority
 =
 notificationBox
 .
-PRIORITY_INFO_HIGH
+PRIORITY_WARNING_HIGH
 ;
 let
 callback
