@@ -6665,7 +6665,7 @@ ins
 store
 -
 >
-viewType
+accessType
 (
 )
 store

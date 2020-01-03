@@ -4914,7 +4914,7 @@ MOZ_ASSERT
 ins
 -
 >
-viewType
+accessType
 (
 )
 <
@@ -5007,7 +5007,7 @@ MOZ_ASSERT
 ins
 -
 >
-viewType
+accessType
 (
 )
 <
