@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-jit_shared_AssemblerBuffer_x86_shared_h
+jit_x86_shared_AssemblerBuffer_x86_shared_h
 #
 define
-jit_shared_AssemblerBuffer_x86_shared_h
+jit_x86_shared_AssemblerBuffer_x86_shared_h
 #
 include
 <
@@ -1302,6 +1302,6 @@ js
 endif
 /
 *
-jit_shared_AssemblerBuffer_x86_shared_h
+jit_x86_shared_AssemblerBuffer_x86_shared_h
 *
 /

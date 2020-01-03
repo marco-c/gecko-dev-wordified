@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_shared_CodeGenerator_x86_shared_h
+jit_x86_shared_CodeGenerator_x86_shared_h
 #
 define
-jit_shared_CodeGenerator_x86_shared_h
+jit_x86_shared_CodeGenerator_x86_shared_h
 #
 include
 "
@@ -2123,6 +2123,6 @@ js
 endif
 /
 *
-jit_shared_CodeGenerator_x86_shared_h
+jit_x86_shared_CodeGenerator_x86_shared_h
 *
 /
