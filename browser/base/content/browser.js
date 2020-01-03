@@ -16350,13 +16350,6 @@ losslessDecodeURI
 aURI
 )
 {
-var
-value
-=
-aURI
-.
-spec
-;
 if
 (
 aURI
@@ -16386,6 +16379,13 @@ action
 URI
 "
 )
+;
+var
+value
+=
+aURI
+.
+spec
 ;
 /
 /
