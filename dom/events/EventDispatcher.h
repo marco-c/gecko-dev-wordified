@@ -1381,7 +1381,7 @@ case
 aEvent
 -
 >
-message
+mMessage
 should
 be
 *

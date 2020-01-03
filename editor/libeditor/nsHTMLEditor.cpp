@@ -3247,7 +3247,7 @@ NS_ASSERTION
 nativeKeyEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS

@@ -2323,7 +2323,7 @@ switch
 internalEvent
 -
 >
-message
+mMessage
 )
 {
 /

@@ -10330,7 +10330,7 @@ if
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -10584,7 +10584,7 @@ switch
 (
 aEvent
 .
-message
+mMessage
 )
 {
 case
@@ -10941,7 +10941,7 @@ n
 "
 aEvent
 .
-message
+mMessage
 )
 ;
 WidgetTouchEvent
@@ -10975,7 +10975,7 @@ if
 (
 localEvent
 .
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -11217,7 +11217,7 @@ if
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_DRAGDROP_DROP
@@ -11253,7 +11253,7 @@ canDrop
 {
 localEvent
 .
-message
+mMessage
 =
 NS_DRAGDROP_EXIT
 ;
@@ -11264,7 +11264,7 @@ if
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_DRAGDROP_OVER
@@ -11494,7 +11494,7 @@ if
 (
 event
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -11618,7 +11618,7 @@ if
 (
 event
 .
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -11758,7 +11758,7 @@ SendOnEventNeedingAckHandled
 (
 event
 .
-message
+mMessage
 )
 ;
 return
@@ -11804,7 +11804,7 @@ SendOnEventNeedingAckHandled
 (
 event
 .
-message
+mMessage
 )
 ;
 return

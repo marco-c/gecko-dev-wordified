@@ -2670,7 +2670,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 ;
 if
 (
@@ -2844,7 +2844,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FORM_SUBMIT
@@ -2855,7 +2855,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FORM_RESET
@@ -2945,7 +2945,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 ;
 if
 (

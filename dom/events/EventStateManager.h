@@ -5549,7 +5549,7 @@ event
 )
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_CLICK
@@ -5561,7 +5561,7 @@ event
 )
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_DOUBLECLICK

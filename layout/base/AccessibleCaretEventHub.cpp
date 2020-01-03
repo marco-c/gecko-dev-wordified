@@ -2935,7 +2935,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -3191,7 +3191,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -3379,7 +3379,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -3634,7 +3634,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case

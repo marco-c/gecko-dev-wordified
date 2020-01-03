@@ -341,7 +341,7 @@ WriteParam
 aMsg
 aParam
 .
-message
+mMessage
 )
 ;
 WriteParam
@@ -422,7 +422,7 @@ aIter
 aResult
 -
 >
-message
+mMessage
 )
 &
 &

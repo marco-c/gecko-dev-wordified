@@ -371,7 +371,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_LOAD
@@ -382,7 +382,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_LOAD_ERROR

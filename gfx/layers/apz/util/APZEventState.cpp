@@ -1437,7 +1437,7 @@ if
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -1497,7 +1497,7 @@ switch
 (
 aEvent
 .
-message
+mMessage
 )
 {
 case
@@ -1705,7 +1705,7 @@ aEvent
 ;
 cancelEvent
 .
-message
+mMessage
 =
 NS_TOUCH_CANCEL
 ;
@@ -1719,7 +1719,7 @@ false
 ;
 /
 /
-message
+mMessage
 !
 =
 NS_TOUCH_CANCEL

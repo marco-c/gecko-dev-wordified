@@ -16369,7 +16369,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_CLICK
@@ -16382,7 +16382,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 !
 =
 NS_KEY_PRESS
@@ -16395,7 +16395,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 !
 =
 NS_UI_ACTIVATE
@@ -16489,7 +16489,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -16591,7 +16591,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 /
@@ -16831,7 +16831,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -16899,7 +16899,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case

@@ -28759,7 +28759,7 @@ NS_MOUSE_DOUBLECLICK
 {
 event
 .
-message
+mMessage
 =
 NS_MOUSE_BUTTON_DOWN
 ;

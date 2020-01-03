@@ -1140,7 +1140,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP

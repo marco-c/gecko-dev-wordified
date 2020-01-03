@@ -6022,7 +6022,7 @@ is_modifier
 (
 aKeyEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -6035,7 +6035,7 @@ NS_KEY_DOWN
 (
 aKeyEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -6088,7 +6088,7 @@ if
 (
 aKeyEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -8159,7 +8159,7 @@ NS_ENSURE_TRUE_VOID
 (
 aKeyEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS

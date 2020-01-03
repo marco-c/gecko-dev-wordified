@@ -8407,7 +8407,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_CLICK
@@ -8418,7 +8418,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_DOUBLECLICK
@@ -8429,7 +8429,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_XUL_COMMAND
@@ -8440,7 +8440,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_CONTEXTMENU
@@ -8451,7 +8451,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_START
@@ -8462,7 +8462,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_GESTURE
@@ -8505,7 +8505,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_XUL_COMMAND

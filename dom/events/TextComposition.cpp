@@ -1463,7 +1463,7 @@ if
 aCompositionEvent
 -
 >
-message
+mMessage
 =
 =
 NS_COMPOSITION_COMMIT_AS_IS
@@ -1597,7 +1597,7 @@ if
 aCompositionEvent
 -
 >
-message
+mMessage
 =
 =
 NS_COMPOSITION_COMMIT
@@ -1923,7 +1923,7 @@ switch
 aCompositionEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -2105,7 +2105,7 @@ dispatchDOMTextEvent
 aCompositionEvent
 -
 >
-message
+mMessage
 !
 =
 NS_COMPOSITION_CHANGE
@@ -2172,7 +2172,7 @@ dispatchDOMTextEvent
 aCompositionEvent
 -
 >
-message
+mMessage
 =
 =
 NS_COMPOSITION_CHANGE
@@ -2299,7 +2299,7 @@ dispatchDOMTextEvent
 aCompositionEvent
 -
 >
-message
+mMessage
 !
 =
 NS_COMPOSITION_CHANGE
@@ -2430,7 +2430,7 @@ if
 aCompositionEvent
 -
 >
-message
+mMessage
 !
 =
 NS_COMPOSITION_END
@@ -2696,7 +2696,7 @@ if
 aCompositionEvent
 -
 >
-message
+mMessage
 =
 =
 NS_COMPOSITION_START

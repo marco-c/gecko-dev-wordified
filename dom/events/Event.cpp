@@ -1460,7 +1460,7 @@ GetEventName
 mEvent
 -
 >
-message
+mMessage
 )
 ;
 if
@@ -1484,7 +1484,7 @@ if
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_USER_DEFINED_EVENT
@@ -2887,7 +2887,7 @@ mClass
 mEvent
 -
 >
-message
+mMessage
 )
 )
 ;
@@ -2904,7 +2904,7 @@ nullptr
 mEvent
 -
 >
-message
+mMessage
 =
 NS_USER_DEFINED_EVENT
 ;
@@ -3627,7 +3627,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -3725,7 +3725,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -3803,7 +3803,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -3870,7 +3870,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -4015,7 +4015,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -4097,7 +4097,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -4270,7 +4270,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case

@@ -26735,7 +26735,7 @@ NS_ASSERTION
 nativeKeyEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -29524,7 +29524,7 @@ switch
 widgetEvent
 -
 >
-message
+mMessage
 )
 {
 case

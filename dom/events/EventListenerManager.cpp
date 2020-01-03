@@ -3220,7 +3220,7 @@ when
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_USER_DEFINED_EVENT
@@ -3261,7 +3261,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_USER_DEFINED_EVENT
@@ -3315,7 +3315,7 @@ mEventType
 aEvent
 -
 >
-message
+mMessage
 ;
 }
 void
@@ -7015,7 +7015,7 @@ mNoListenerForEvent
 aEvent
 -
 >
-message
+mMessage
 ;
 mNoListenerForEventAtom
 =

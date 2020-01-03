@@ -375,7 +375,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case

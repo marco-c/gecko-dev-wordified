@@ -4715,7 +4715,7 @@ mClass
 (
 aEventClassID
 )
-message
+mMessage
 (
 aMessage
 )
@@ -4801,7 +4801,7 @@ mClass
 (
 eBasicEventClass
 )
-message
+mMessage
 (
 aMessage
 )
@@ -4929,7 +4929,7 @@ new
 WidgetEvent
 (
 false
-message
+mMessage
 )
 ;
 result
@@ -4962,7 +4962,7 @@ See
 GUI
 MESSAGES
 uint32_t
-message
+mMessage
 ;
 /
 /
@@ -5180,7 +5180,7 @@ constructor
 .
 /
 /
-message
+mMessage
 should
 be
 initialized
@@ -5484,7 +5484,7 @@ true
 if
 the
 event
-message
+mMessage
 is
 one
 of
@@ -5508,7 +5508,7 @@ true
 if
 the
 event
-message
+mMessage
 is
 one
 of
@@ -5532,7 +5532,7 @@ true
 if
 the
 event
-message
+mMessage
 is
 one
 of
@@ -5556,7 +5556,7 @@ true
 if
 the
 event
-message
+mMessage
 is
 one
 of
@@ -5584,7 +5584,7 @@ true
 if
 the
 event
-message
+mMessage
 is
 one
 of
@@ -6336,7 +6336,7 @@ new
 WidgetGUIEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;
@@ -7711,7 +7711,7 @@ new
 WidgetInputEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;
@@ -8706,7 +8706,7 @@ new
 InternalUIEvent
 (
 false
-message
+mMessage
 )
 ;
 result

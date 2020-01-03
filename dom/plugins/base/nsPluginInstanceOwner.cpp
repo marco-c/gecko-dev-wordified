@@ -8694,7 +8694,7 @@ mIsTrusted
 theEvent
 -
 >
-message
+mMessage
 nullptr
 )
 ;
@@ -9314,7 +9314,7 @@ if
 mouseEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -9679,7 +9679,6 @@ GetInternalNSEvent
 ;
 if
 (
-(
 ievent
 &
 &
@@ -9689,13 +9688,12 @@ ievent
 mFlags
 .
 mIsTrusted
-)
 &
 &
 ievent
 -
 >
-message
+mMessage
 !
 =
 NS_DRAGDROP_ENTER
@@ -9704,7 +9702,7 @@ NS_DRAGDROP_ENTER
 ievent
 -
 >
-message
+mMessage
 !
 =
 NS_DRAGDROP_OVER
@@ -10009,7 +10007,7 @@ switch
 (
 anEvent
 .
-message
+mMessage
 )
 {
 case
@@ -10182,7 +10180,7 @@ if
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -10191,7 +10189,7 @@ NS_MOUSE_MOVE
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -10200,7 +10198,7 @@ NS_MOUSE_BUTTON_DOWN
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -10209,7 +10207,7 @@ NS_MOUSE_BUTTON_UP
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_SCROLL
@@ -10218,7 +10216,7 @@ NS_MOUSE_SCROLL
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_OVER
@@ -10227,7 +10225,7 @@ NS_MOUSE_OVER
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_OUT
@@ -10391,7 +10389,7 @@ switch
 anEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -10656,15 +10654,13 @@ event
 .
 if
 (
-(
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_DOWN
-)
 &
 &
 !
@@ -10898,7 +10894,7 @@ hasFocus
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -11105,7 +11101,7 @@ if
 (
 anEvent
 .
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -11195,7 +11191,7 @@ if
 (
 anEvent
 .
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -11258,7 +11254,7 @@ if
 (
 anEvent
 .
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -11266,7 +11262,7 @@ NS_FOCUS_CONTENT
 |
 anEvent
 .
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -11277,7 +11273,7 @@ mLastContentFocused
 (
 anEvent
 .
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -11560,7 +11556,7 @@ leftMouseButtonDown
 (
 anEvent
 .
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -11708,7 +11704,7 @@ switch
 (
 anEvent
 .
-message
+mMessage
 )
 {
 case
@@ -12028,7 +12024,7 @@ NS_ASSERTION
 (
 anEvent
 .
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -12036,7 +12032,7 @@ NS_MOUSE_BUTTON_DOWN
 |
 anEvent
 .
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -12044,7 +12040,7 @@ NS_MOUSE_BUTTON_UP
 |
 anEvent
 .
-message
+mMessage
 =
 =
 NS_MOUSE_DOUBLECLICK
@@ -12052,7 +12048,7 @@ NS_MOUSE_DOUBLECLICK
 |
 anEvent
 .
-message
+mMessage
 =
 =
 NS_MOUSE_OVER
@@ -12060,7 +12056,7 @@ NS_MOUSE_OVER
 |
 anEvent
 .
-message
+mMessage
 =
 =
 NS_MOUSE_OUT
@@ -12068,7 +12064,7 @@ NS_MOUSE_OUT
 |
 anEvent
 .
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -12188,7 +12184,7 @@ switch
 (
 anEvent
 .
-message
+mMessage
 )
 {
 case
@@ -12381,7 +12377,7 @@ switch
 (
 anEvent
 .
-message
+mMessage
 )
 {
 case
@@ -12575,7 +12571,7 @@ switch
 (
 anEvent
 .
-message
+mMessage
 )
 {
 case
@@ -12599,7 +12595,7 @@ type
 =
 anEvent
 .
-message
+mMessage
 =
 =
 NS_MOUSE_OVER
@@ -12820,7 +12816,7 @@ type
 =
 anEvent
 .
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -13046,7 +13042,7 @@ switch
 (
 anEvent
 .
-message
+mMessage
 )
 {
 case
@@ -13229,7 +13225,7 @@ switch
 (
 anEvent
 .
-message
+mMessage
 )
 {
 case
@@ -13253,7 +13249,7 @@ type
 =
 anEvent
 .
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -13474,7 +13470,7 @@ switch
 (
 anEvent
 .
-message
+mMessage
 )
 {
 case
@@ -13570,7 +13566,7 @@ switch
 (
 anEvent
 .
-message
+mMessage
 )
 {
 case

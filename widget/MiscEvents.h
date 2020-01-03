@@ -1229,7 +1229,7 @@ new
 WidgetPluginEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;

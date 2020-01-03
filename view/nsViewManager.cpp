@@ -4687,7 +4687,7 @@ widgets
 mouseEvent
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_EXIT_WIDGET
@@ -4696,7 +4696,7 @@ NS_MOUSE_EXIT_WIDGET
 mouseEvent
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_ENTER_WIDGET
@@ -4722,7 +4722,7 @@ HasIMEEventMessage
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_PLUGIN_INPUT_EVENT

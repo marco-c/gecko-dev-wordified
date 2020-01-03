@@ -1043,7 +1043,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 )
 {
@@ -1150,7 +1150,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_UI_ACTIVATE
@@ -1558,7 +1558,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -1618,7 +1618,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 |
 |
@@ -1640,7 +1640,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 )
 {
@@ -2206,7 +2206,7 @@ presShell
 (
 event
 .
-message
+mMessage
 !
 =
 NS_FORM_SUBMIT

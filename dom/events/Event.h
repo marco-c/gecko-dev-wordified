@@ -1368,7 +1368,7 @@ not
 /
 WidgetEvent
 .
-message
+mMessage
 .
 bool
 mWantsPopupControlCheck

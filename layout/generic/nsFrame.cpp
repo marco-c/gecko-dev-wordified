@@ -17251,7 +17251,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -17330,7 +17330,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -17339,7 +17339,7 @@ NS_MOUSE_BUTTON_DOWN
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -17359,7 +17359,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -17368,7 +17368,7 @@ NS_MOUSE_BUTTON_UP
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_END
@@ -17555,7 +17555,7 @@ selectingTableCells
 aMouseEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -17565,7 +17565,7 @@ NS_MOUSE_MOVE
 aMouseEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP

@@ -844,7 +844,7 @@ const
 {
 switch
 (
-message
+mMessage
 )
 {
 case
@@ -901,7 +901,7 @@ const
 {
 switch
 (
-message
+mMessage
 )
 {
 case
@@ -955,7 +955,7 @@ const
 {
 switch
 (
-message
+mMessage
 )
 {
 case
@@ -1000,7 +1000,7 @@ const
 {
 switch
 (
-message
+mMessage
 )
 {
 case
@@ -1041,13 +1041,13 @@ HasPluginActivationEventMessage
 const
 {
 return
-message
+mMessage
 =
 =
 NS_PLUGIN_ACTIVATE
 |
 |
-message
+mMessage
 =
 =
 NS_PLUGIN_FOCUS

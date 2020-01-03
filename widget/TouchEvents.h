@@ -553,7 +553,7 @@ new
 WidgetGestureNotifyEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;
@@ -863,7 +863,7 @@ mFlags
 mIsTrusted
 aOther
 .
-message
+mMessage
 aOther
 .
 widget
@@ -940,7 +940,7 @@ new
 WidgetSimpleGestureEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;
@@ -1298,7 +1298,7 @@ mFlags
 mIsTrusted
 aOther
 .
-message
+mMessage
 aOther
 .
 widget
@@ -1336,7 +1336,7 @@ mFlags
 .
 mCancelable
 =
-message
+mMessage
 !
 =
 NS_TOUCH_CANCEL
@@ -1375,7 +1375,7 @@ mFlags
 .
 mCancelable
 =
-message
+mMessage
 !
 =
 NS_TOUCH_CANCEL
@@ -1440,7 +1440,7 @@ new
 WidgetTouchEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;

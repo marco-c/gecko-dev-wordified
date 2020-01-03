@@ -2179,7 +2179,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -2366,7 +2366,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -2487,7 +2487,7 @@ NSCONTEXTMENUISMOUSEUP
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -2516,7 +2516,7 @@ else
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_CONTEXTMENU
@@ -2706,7 +2706,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -2766,7 +2766,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_OUT
@@ -2898,7 +2898,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE

@@ -16198,7 +16198,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -16291,7 +16291,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 )
 {
@@ -16640,7 +16640,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_UI_ACTIVATE
@@ -16942,7 +16942,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_CLICK
@@ -17026,7 +17026,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -17127,7 +17127,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -17138,7 +17138,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -17307,7 +17307,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -17452,7 +17452,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -17471,7 +17471,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -17482,7 +17482,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -17495,7 +17495,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -17684,7 +17684,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_UP
@@ -18014,7 +18014,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_EDITOR_INPUT
@@ -18109,7 +18109,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FORM_CHANGE
@@ -19995,7 +19995,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -20006,7 +20006,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -20019,7 +20019,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -20053,7 +20053,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -20088,7 +20088,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -20909,7 +20909,7 @@ keyEvent
 keyEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -21227,7 +21227,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -21456,7 +21456,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -21478,7 +21478,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_UP
@@ -21661,7 +21661,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -21993,7 +21993,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -22056,7 +22056,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -22708,7 +22708,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -23086,7 +23086,7 @@ presShell
 (
 event
 .
-message
+mMessage
 !
 =
 NS_FORM_SUBMIT
@@ -23428,7 +23428,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -23556,7 +23556,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN

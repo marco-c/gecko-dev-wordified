@@ -15176,7 +15176,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_OVER
@@ -15185,7 +15185,7 @@ NS_MOUSE_OVER
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -15289,7 +15289,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_OUT
@@ -15322,7 +15322,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_ENTER
@@ -15441,7 +15441,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_OVER
@@ -16254,7 +16254,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_DROP
@@ -16455,7 +16455,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_EXIT

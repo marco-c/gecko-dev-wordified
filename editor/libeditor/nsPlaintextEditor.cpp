@@ -1986,7 +1986,7 @@ NS_ASSERTION
 nativeKeyEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -4934,7 +4934,7 @@ MOZ_ASSERT
 compositionChangeEvent
 -
 >
-message
+mMessage
 =
 =
 NS_COMPOSITION_CHANGE

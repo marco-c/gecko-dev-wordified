@@ -3262,7 +3262,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -3273,7 +3273,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -3367,7 +3367,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_WHEEL_WHEEL
@@ -3507,7 +3507,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -3518,7 +3518,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_END
@@ -37892,7 +37892,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -39194,7 +39194,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -39221,7 +39221,7 @@ eReal
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_ENTER_WIDGET
@@ -39230,7 +39230,7 @@ NS_MOUSE_ENTER_WIDGET
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -39239,7 +39239,7 @@ NS_MOUSE_BUTTON_DOWN
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -39312,11 +39312,12 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_ENTER_WIDGET
 )
+{
 printf
 (
 "
@@ -39342,6 +39343,7 @@ aEvent
 widget
 )
 ;
+}
 printf
 (
 "
@@ -39380,16 +39382,18 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_ENTER_WIDGET
 )
+{
 SynthesizeMouseMove
 (
 false
 )
 ;
+}
 }
 else
 if
@@ -39397,7 +39401,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_EXIT_WIDGET
@@ -39867,7 +39871,7 @@ switch
 mouseEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -39929,7 +39933,7 @@ mouseEvent
 ;
 event
 .
-message
+mMessage
 =
 pointerMessage
 ;
@@ -40036,7 +40040,7 @@ switch
 touchEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -40921,7 +40925,7 @@ message
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -41116,7 +41120,7 @@ message
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -41287,7 +41291,7 @@ NS_WARN_IF
 (
 aEvent
 .
-message
+mMessage
 !
 =
 NS_KEY_DOWN
@@ -41295,7 +41299,7 @@ NS_KEY_DOWN
 &
 aEvent
 .
-message
+mMessage
 !
 =
 NS_KEY_UP
@@ -41445,7 +41449,7 @@ if
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -41483,7 +41487,7 @@ MOZ_ASSERT
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -41491,7 +41495,7 @@ NS_KEY_DOWN
 |
 aEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_UP
@@ -42656,7 +42660,7 @@ discarded
 aEvent
 -
 >
-message
+mMessage
 )
 ;
 NS_WARNING
@@ -43084,7 +43088,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_QUERY_TEXT_CONTENT
@@ -43178,7 +43182,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -43919,7 +43923,7 @@ eTouchEventClass
 aEvent
 -
 >
-message
+mMessage
 !
 =
 NS_TOUCH_START
@@ -43948,7 +43952,7 @@ isWindowLevelMouseExit
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_EXIT_WIDGET
@@ -44070,7 +44074,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -45047,7 +45051,7 @@ ePointerEventClass
 aEvent
 -
 >
-message
+mMessage
 !
 =
 NS_POINTER_DOWN
@@ -45175,7 +45179,7 @@ if
 pointerEvent
 -
 >
-message
+mMessage
 =
 =
 NS_POINTER_UP
@@ -45184,7 +45188,7 @@ NS_POINTER_UP
 pointerEvent
 -
 >
-message
+mMessage
 =
 =
 NS_POINTER_CANCEL
@@ -45279,7 +45283,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -45300,7 +45304,7 @@ mNoDelayedMouseEvents
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -45391,7 +45395,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -46293,7 +46297,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -46319,7 +46323,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -46328,7 +46332,7 @@ NS_KEY_PRESS
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_UP
@@ -46479,7 +46483,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_UP
@@ -47500,7 +47504,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -47674,7 +47678,7 @@ mIsLastChromeOnlyEscapeKeyConsumed
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_UP
@@ -47762,7 +47766,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_UP
@@ -47943,7 +47947,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_CONTEXTMENU
@@ -48036,7 +48040,7 @@ mIsTrusted
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -48322,7 +48326,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -48356,7 +48360,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_UP
@@ -48897,7 +48901,7 @@ canPrevent
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -48908,7 +48912,7 @@ NS_TOUCH_START
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_MOVE
@@ -48922,7 +48926,7 @@ aTouchIsNew
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_END
@@ -49097,7 +49101,7 @@ mIsTrusted
 touchEvent
 -
 >
-message
+mMessage
 touchEvent
 -
 >
@@ -58032,7 +58036,7 @@ mIsTrusted
 aEvent
 -
 >
-message
+mMessage
 aEvent
 -
 >
@@ -58095,7 +58099,7 @@ mIsTrusted
 aEvent
 -
 >
-message
+mMessage
 aEvent
 -
 >

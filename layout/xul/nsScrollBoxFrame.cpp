@@ -443,7 +443,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 /

@@ -321,7 +321,7 @@ aOther
 .
 mEvent
 .
-message
+mMessage
 )
 {
 mEvent

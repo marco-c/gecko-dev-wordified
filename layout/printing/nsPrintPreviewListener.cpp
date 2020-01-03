@@ -927,7 +927,7 @@ NS_ASSERTION
 keyEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -1005,7 +1005,7 @@ return
 keyEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_DOWN

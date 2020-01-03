@@ -556,7 +556,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_BUTTON_DOWN
@@ -676,7 +676,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case

@@ -3571,7 +3571,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_SVG_LOAD

@@ -13154,7 +13154,7 @@ MOZ_ASSERT
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_QUERY_SELECTED_TEXT

@@ -18269,7 +18269,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 ;
 aVisitor
 .
@@ -19406,7 +19406,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -19482,7 +19482,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_RESIZE_EVENT
@@ -19501,7 +19501,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_PAGE_UNLOAD
@@ -19561,7 +19561,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_LOAD

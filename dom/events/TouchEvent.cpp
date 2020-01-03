@@ -914,7 +914,7 @@ if
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_END
@@ -923,7 +923,7 @@ NS_TOUCH_END
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_CANCEL
@@ -1137,7 +1137,7 @@ if
 mEvent
 -
 >
-message
+mMessage
 !
 =
 NS_TOUCH_END
@@ -1146,7 +1146,7 @@ NS_TOUCH_END
 mEvent
 -
 >
-message
+mMessage
 !
 =
 NS_TOUCH_CANCEL

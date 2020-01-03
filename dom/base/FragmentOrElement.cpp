@@ -4307,7 +4307,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_OVER
@@ -4318,7 +4318,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_OUT
@@ -4329,7 +4329,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_POINTER_OVER
@@ -4340,7 +4340,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_POINTER_OUT
@@ -4856,7 +4856,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_OVER
@@ -5284,7 +5284,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -5521,7 +5521,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 !
 =
 NS_LOAD

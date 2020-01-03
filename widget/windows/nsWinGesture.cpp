@@ -1769,7 +1769,7 @@ ullArguments
 ;
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_MAGNIFY_START
 ;
@@ -1812,7 +1812,7 @@ points
 .
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_MAGNIFY
 ;
@@ -1879,7 +1879,7 @@ points
 .
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_MAGNIFY_UPDATE
 ;
@@ -2113,7 +2113,7 @@ GF_BEGIN
 )
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_ROTATE_START
 ;
@@ -2128,14 +2128,14 @@ GF_END
 )
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_ROTATE
 ;
 else
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_ROTATE_UPDATE
 ;
@@ -2171,7 +2171,7 @@ click
 .
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_TAP
 ;
@@ -2206,7 +2206,7 @@ through
 .
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_PRESSTAP
 ;

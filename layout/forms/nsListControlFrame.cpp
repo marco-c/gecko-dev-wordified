@@ -6331,7 +6331,7 @@ inx
 aEvent
 -
 >
-message
+mMessage
 -
 NS_MOUSE_MESSAGE_START
 ;
@@ -6375,7 +6375,7 @@ inx
 aEvent
 -
 >
-message
+mMessage
 )
 ;
 }
@@ -6400,7 +6400,7 @@ n
 aEvent
 -
 >
-message
+mMessage
 )
 ;
 }

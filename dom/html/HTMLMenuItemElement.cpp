@@ -1251,7 +1251,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_CLICK
@@ -1408,7 +1408,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_CLICK
