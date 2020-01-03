@@ -179,6 +179,11 @@ geo
 :
 PERM_UNKNOWN
 "
+push
+"
+:
+PERM_DENY
+"
 indexedDB
 "
 :
@@ -232,7 +237,7 @@ interface
 const
 TEST_PERMS_COUNT
 =
-8
+9
 ;
 function
 test
