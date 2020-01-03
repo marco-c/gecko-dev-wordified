@@ -26703,6 +26703,17 @@ NETWORK_CREG_STATE_UNKNOWN_EMERGENCY_CALLS
 =
 GECKO_MOBILE_CONNECTION_STATE_UNKNOWN
 ;
+/
+/
+Should
+match
+enum
+TelephonyCallDisconnectedReason
+defined
+in
+TelephonyCall
+.
+webidl
 this
 .
 GECKO_CALL_ERROR_BAD_NUMBER
@@ -26788,7 +26799,7 @@ this
 GECKO_CALL_ERROR_REJECTED_DETINATION_FEATURE
 =
 "
-CallRejectedDestinationFeature
+CallRejectedDestinationFeatureError
 "
 ;
 this
