@@ -311,6 +311,7 @@ already
 registered
 :
 %
+s
 '
 %
 entry
