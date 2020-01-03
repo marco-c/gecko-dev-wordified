@@ -168,13 +168,6 @@ h
 #
 include
 "
-jscrashreport
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h
@@ -6138,13 +6131,6 @@ endGC
 (
 )
 {
-crash
-:
-:
-SnapshotGCStack
-(
-)
-;
 for
 (
 size_t
