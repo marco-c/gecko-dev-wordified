@@ -725,6 +725,10 @@ mDisplay
 (
 aDisplay
 )
+mSentToCompositor
+(
+false
+)
 {
 NS_ASSERTION
 (
