@@ -1323,13 +1323,6 @@ f
 write
 (
 manifest_str
-.
-encode
-(
-"
-utf8
-"
-)
 )
 class
 ExpectedUpdater
