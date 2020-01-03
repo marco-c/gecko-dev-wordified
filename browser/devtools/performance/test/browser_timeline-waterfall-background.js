@@ -229,6 +229,17 @@ ended
 yield
 rendered
 ;
+ok
+(
+true
+"
+Recording
+has
+rendered
+.
+"
+)
+;
 /
 /
 Test
@@ -295,7 +306,7 @@ waterfallWidth
 =
 WaterfallView
 .
-waterfall
+_markersRoot
 .
 _waterfallWidth
 ;
@@ -320,7 +331,7 @@ ok
 (
 WaterfallView
 .
-waterfall
+_waterfallHeader
 .
 _canvas
 "
@@ -341,7 +352,7 @@ ok
 (
 WaterfallView
 .
-waterfall
+_waterfallHeader
 .
 _ctx
 "
@@ -363,7 +374,7 @@ is
 (
 WaterfallView
 .
-waterfall
+_waterfallHeader
 .
 _canvas
 .
@@ -383,7 +394,7 @@ is
 (
 WaterfallView
 .
-waterfall
+_waterfallHeader
 .
 _canvas
 .
