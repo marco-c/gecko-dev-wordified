@@ -385,6 +385,10 @@ one
 constructor
 *
 /
+this
+.
+G_Preferences
+=
 function
 G_Preferences
 (
@@ -1445,6 +1449,10 @@ preference
 changes
 *
 /
+this
+.
+G_PreferenceObserver
+=
 function
 G_PreferenceObserver
 (
@@ -1646,6 +1654,10 @@ DEBUG
 /
 /
 UNITTESTS
+this
+.
+TEST_G_Preferences
+=
 function
 TEST_G_Preferences
 (

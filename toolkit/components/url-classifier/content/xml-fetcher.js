@@ -181,6 +181,10 @@ XMLHttpRequest
 object
 *
 /
+this
+.
+PROT_NewXMLHttpRequest
+=
 function
 PROT_NewXMLHttpRequest
 (
@@ -326,6 +330,10 @@ appId
 constructor
 *
 /
+this
+.
+PROT_XMLFetcher
+=
 function
 PROT_XMLFetcher
 (

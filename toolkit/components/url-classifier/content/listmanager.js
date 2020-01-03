@@ -173,6 +173,10 @@ safebrowsing
 debug
 is
 true
+this
+.
+log
+=
 function
 log
 (
@@ -269,6 +273,10 @@ n
 )
 ;
 }
+this
+.
+QueryAdapter
+=
 function
 QueryAdapter
 (
@@ -330,6 +338,10 @@ them
 constructor
 *
 /
+this
+.
+PROT_ListManager
+=
 function
 PROT_ListManager
 (

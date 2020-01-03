@@ -242,6 +242,10 @@ function
 .
 *
 /
+this
+.
+BindToObject
+=
 function
 BindToObject
 (

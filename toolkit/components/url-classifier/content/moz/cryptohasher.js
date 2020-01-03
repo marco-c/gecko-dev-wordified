@@ -223,6 +223,10 @@ use
 !
 *
 /
+this
+.
+G_CryptoHasher
+=
 function
 G_CryptoHasher
 (
@@ -1077,6 +1081,10 @@ unittest
 function
 *
 /
+this
+.
+TEST_G_CryptoHasher
+=
 function
 TEST_G_CryptoHasher
 (

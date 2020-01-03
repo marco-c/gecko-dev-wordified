@@ -188,6 +188,10 @@ representation
 constructor
 *
 /
+this
+.
+G_Protocol4Parser
+=
 function
 G_Protocol4Parser
 (
@@ -579,6 +583,10 @@ Cheesey
 unittests
 *
 /
+this
+.
+TEST_G_Protocol4Parser
+=
 function
 TEST_G_Protocol4Parser
 (

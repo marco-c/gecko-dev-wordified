@@ -223,6 +223,10 @@ fires
 constructor
 *
 /
+this
+.
+G_ObserverWrapper
+=
 function
 G_ObserverWrapper
 (
@@ -427,6 +431,10 @@ fired
 constructor
 *
 /
+this
+.
+G_ObserverServiceObserver
+=
 function
 G_ObserverServiceObserver
 (
@@ -615,6 +623,10 @@ unregister
 #
 ifdef
 DEBUG
+this
+.
+TEST_G_Observer
+=
 function
 TEST_G_Observer
 (
