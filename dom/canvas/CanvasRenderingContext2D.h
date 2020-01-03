@@ -4157,6 +4157,17 @@ UpdateFilter
 (
 )
 ;
+nsLayoutUtils
+:
+:
+SurfaceFromElementResult
+CachedSurfaceFromElement
+(
+Element
+*
+aElement
+)
+;
 void
 DrawImage
 (
