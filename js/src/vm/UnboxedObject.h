@@ -2393,7 +2393,7 @@ length
 bool
 containsProperty
 (
-JSContext
+ExclusiveContext
 *
 cx
 jsid

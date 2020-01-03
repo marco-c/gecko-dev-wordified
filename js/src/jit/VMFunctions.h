@@ -4979,7 +4979,7 @@ ArrayPushDense
 JSContext
 *
 cx
-HandleArrayObject
+HandleObject
 obj
 HandleValue
 v
