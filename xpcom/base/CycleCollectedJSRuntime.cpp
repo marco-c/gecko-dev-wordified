@@ -6826,6 +6826,9 @@ break
 }
 else
 {
+while
+(
+!
 function
 .
 run
@@ -6834,6 +6837,7 @@ UINT32_MAX
 function
 .
 data
+)
 )
 ;
 +
