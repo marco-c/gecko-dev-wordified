@@ -765,9 +765,6 @@ const
 nsRect
 &
 aDirtyRect
-imgIRequest
-*
-aRequest
 nsPoint
 aPt
 uint32_t
@@ -1863,6 +1860,9 @@ mPrefForceInlineAltText
 ;
 bool
 mPrefShowPlaceholders
+;
+bool
+mPrefShowLoadingPlaceholder
 ;
 }
 ;
