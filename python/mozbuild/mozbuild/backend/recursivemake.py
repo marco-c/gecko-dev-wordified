@@ -1748,6 +1748,14 @@ _backend_files
 {
 }
         
+self
+.
+_idl_dirs
+=
+set
+(
+)
+        
 def
 detailed
 (
@@ -2211,6 +2219,17 @@ xpt
 obj
 .
 module
+            
+self
+.
+_idl_dirs
+.
+add
+(
+obj
+.
+relobjdir
+)
         
 elif
 isinstance
@@ -4008,6 +4027,23 @@ deps
 is
 not
 None
+or
+(
+dir
+in
+self
+.
+_idl_dirs
+\
+                                        
+and
+tier
+=
+=
+'
+export
+'
+)
 :
                     
 rule
@@ -4031,6 +4067,10 @@ tier
 )
 ]
 )
+                
+if
+deps
+:
                     
 rule
 .
@@ -4054,6 +4094,39 @@ in
 deps
 if
 d
+)
+                
+if
+dir
+in
+self
+.
+_idl_dirs
+and
+tier
+=
+=
+'
+export
+'
+:
+                    
+rule
+.
+add_dependencies
+(
+[
+'
+xpcom
+/
+xpidl
+/
+%
+s
+'
+%
+tier
+]
 )
             
 rule
