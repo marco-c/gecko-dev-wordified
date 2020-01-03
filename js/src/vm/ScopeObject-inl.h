@@ -441,7 +441,7 @@ aliasedBodyLevelLexicalBegin
 uint32_t
 aliasedLexicalEnd
 =
-numFixedSlots
+slotSpan
 (
 )
 ;
@@ -460,7 +460,7 @@ slot
 +
 +
 )
-initFixedSlot
+initSlot
 (
 slot
 MagicValue
