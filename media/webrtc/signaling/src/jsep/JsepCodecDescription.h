@@ -1687,6 +1687,11 @@ SdpRtcpFbAttributeList
 fir
 )
 ;
+if
+(
+mUseTmmbr
+)
+{
 rtcpfb
 .
 PushEntry
@@ -1702,6 +1707,7 @@ SdpRtcpFbAttributeList
 tmmbr
 )
 ;
+}
 }
 SdpFmtpAttributeList
 :
@@ -3385,6 +3391,9 @@ mMaxDpb
 ;
 uint32_t
 mMaxBr
+;
+bool
+mUseTmmbr
 ;
 std
 :
