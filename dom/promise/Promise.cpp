@@ -4321,6 +4321,7 @@ Value
 >
 aValue
 )
+MOZ_OVERRIDE
 {
 mCountdownHolder
 -
@@ -4350,6 +4351,7 @@ Value
 >
 aValue
 )
+MOZ_OVERRIDE
 {
 /
 /
