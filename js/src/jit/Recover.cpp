@@ -5652,7 +5652,11 @@ toString
 )
 )
 ;
-RootedObject
+Rooted
+<
+RegExpObject
+*
+>
 regexp
 (
 cx
@@ -5664,6 +5668,13 @@ read
 )
 .
 toObject
+(
+)
+.
+as
+<
+RegExpObject
+>
 (
 )
 )

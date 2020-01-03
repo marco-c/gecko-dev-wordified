@@ -13476,7 +13476,7 @@ cx
 )
 )
 return
-init
+initRegExp
 (
 cx
 &
@@ -13566,7 +13566,7 @@ true
 ;
 }
 bool
-init
+initRegExp
 (
 JSContext
 *
@@ -13590,9 +13590,7 @@ cx
 )
 )
 ;
-if
-(
-!
+return
 RegExpToShared
 (
 cx
@@ -13600,12 +13598,6 @@ obj_
 &
 re_
 )
-)
-return
-false
-;
-return
-true
 ;
 }
 bool
@@ -21676,7 +21668,11 @@ JSContext
 cx
 HandleString
 string
-HandleObject
+Handle
+<
+RegExpObject
+*
+>
 regexp
 HandleString
 replacement
@@ -21723,7 +21719,7 @@ if
 !
 guard
 .
-init
+initRegExp
 (
 cx
 regexp
@@ -21798,7 +21794,7 @@ rdata
 .
 g
 .
-init
+initRegExp
 (
 cx
 regexp
