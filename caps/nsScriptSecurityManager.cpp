@@ -5797,12 +5797,6 @@ if
 (
 !
 principal
-|
-|
-principal
-=
-=
-mSystemPrincipal
 )
 {
 return
