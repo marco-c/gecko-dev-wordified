@@ -2863,7 +2863,7 @@ mCharId
 BluetoothGattId
 mDescriptorId
 ;
-uint32_t
+uint16_t
 mValueType
 ;
 uint16_t

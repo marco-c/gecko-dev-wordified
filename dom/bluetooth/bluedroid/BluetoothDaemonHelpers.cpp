@@ -8682,8 +8682,7 @@ rv
 /
 *
 unpack
-value
-type
+status
 *
 /
 rv
@@ -8693,7 +8692,7 @@ UnpackPDU
 aPDU
 aOut
 .
-mValueType
+mStatus
 )
 ;
 if
@@ -8711,7 +8710,8 @@ rv
 /
 *
 unpack
-status
+value
+type
 *
 /
 rv
@@ -8721,7 +8721,7 @@ UnpackPDU
 aPDU
 aOut
 .
-mStatus
+mValueType
 )
 ;
 if
