@@ -6903,7 +6903,6 @@ aNamespaceID
 nsIAtom
 *
 aName
-const
 nsAttrValueOrString
 *
 aValue
