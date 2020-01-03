@@ -1009,6 +1009,16 @@ mHintContents
 aHintContents
 ;
 }
+TrackTypeHints
+GetTrackTypesAvailable
+(
+)
+const
+{
+return
+mTrackTypesAvailable
+;
+}
 /
 *
 *
