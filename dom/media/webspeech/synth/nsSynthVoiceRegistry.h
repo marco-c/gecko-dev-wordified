@@ -365,6 +365,8 @@ nsAString
 aLang
 bool
 aLocalService
+bool
+aQueuesUtterances
 )
 ;
 nsTArray
@@ -401,6 +403,9 @@ nsRefPtr
 ProcessedMediaStream
 >
 mStream
+;
+bool
+mUseGlobalQueue
 ;
 }
 ;
