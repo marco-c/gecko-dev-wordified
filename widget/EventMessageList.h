@@ -890,7 +890,7 @@ eLegacyMutationEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MUTATION_CHARACTERDATAMODIFIED
+eLegacyCharacterDataModified
 eLegacyMutationEventFirst
 +
 6
@@ -898,7 +898,7 @@ eLegacyMutationEventFirst
 NS_EVENT_MESSAGE
 (
 NS_MUTATION_END
-NS_MUTATION_CHARACTERDATAMODIFIED
+eLegacyCharacterDataModified
 )
 NS_EVENT_MESSAGE
 (
