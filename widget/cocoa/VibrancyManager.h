@@ -189,6 +189,7 @@ VibrancyType
 )
 LIGHT
 DARK
+TOOLTIP
 MOZ_END_ENUM_CLASS
 (
 VibrancyType
