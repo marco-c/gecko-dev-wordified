@@ -52157,11 +52157,12 @@ aState
 mReflowState
 .
 rendContext
+wm
 aState
 .
 mContentArea
 .
-Width
+ISize
 (
 wm
 )

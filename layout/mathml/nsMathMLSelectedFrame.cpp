@@ -740,6 +740,7 @@ offsetState
 (
 childFrame
 aRenderingContext
+aWM
 availableISize
 )
 ;
