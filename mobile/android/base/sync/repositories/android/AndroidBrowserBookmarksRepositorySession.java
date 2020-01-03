@@ -7980,8 +7980,6 @@ return
 null
 ;
 }
-else
-{
 Logger
 .
 trace
@@ -8001,7 +7999,6 @@ type
 typeString
 )
 ;
-}
 rec
 .
 type

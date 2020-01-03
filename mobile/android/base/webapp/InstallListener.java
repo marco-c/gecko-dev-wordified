@@ -418,7 +418,6 @@ metadata
 return
 ;
 }
-else
 if
 (
 !

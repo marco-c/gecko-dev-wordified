@@ -1539,7 +1539,6 @@ substring
 )
 ;
 }
-else
 if
 (
 type

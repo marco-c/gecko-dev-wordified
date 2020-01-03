@@ -3335,7 +3335,6 @@ return
 true
 ;
 }
-else
 if
 (
 GamepadUtils

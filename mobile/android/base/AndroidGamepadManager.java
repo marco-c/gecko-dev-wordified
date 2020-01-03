@@ -1586,7 +1586,6 @@ return
 true
 ;
 }
-else
 if
 (
 !

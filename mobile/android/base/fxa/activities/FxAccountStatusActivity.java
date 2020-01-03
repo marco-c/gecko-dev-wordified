@@ -1174,7 +1174,6 @@ return
 true
 ;
 }
-else
 if
 (
 itemId

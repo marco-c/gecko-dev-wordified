@@ -5019,7 +5019,6 @@ return
 ROW_STANDARD
 ;
 }
-else
 if
 (
 engine

@@ -1260,7 +1260,6 @@ return
 info
 ;
 }
-else
 if
 (
 type
@@ -2111,7 +2110,6 @@ return
 true
 ;
 }
-else
 if
 (
 itemId
