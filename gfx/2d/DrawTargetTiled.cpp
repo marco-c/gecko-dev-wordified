@@ -185,12 +185,15 @@ mTiles
 .
 push_back
 (
+TileInternal
+(
 aTiles
 .
 mTiles
 [
 i
 ]
+)
 )
 ;
 if
