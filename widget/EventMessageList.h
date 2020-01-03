@@ -604,7 +604,7 @@ eStreamEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_READYSTATECHANGE
+eReadyStateChange
 eStreamEventFirst
 +
 8
