@@ -2969,7 +2969,7 @@ HeapTypeSet
 types
 )
 ;
-bool
+void
 addDefiniteProperties
 (
 ExclusiveContext
