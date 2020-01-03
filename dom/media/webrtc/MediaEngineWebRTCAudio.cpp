@@ -2589,9 +2589,6 @@ mChannel
 =
 -
 1
-&
-&
-mVoENetwork
 )
 {
 mVoENetwork
@@ -2605,10 +2602,6 @@ mChannel
 }
 delete
 mNullTransport
-;
-mNullTransport
-=
-nullptr
 ;
 return
 ;
@@ -2734,10 +2727,6 @@ mChannel
 }
 delete
 mNullTransport
-;
-mNullTransport
-=
-nullptr
 ;
 mVoEProcessing
 =
