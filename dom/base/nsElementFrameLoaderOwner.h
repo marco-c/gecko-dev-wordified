@@ -249,6 +249,10 @@ dom
 :
 FROM_PARSER_NETWORK
 )
+mIsPrerendered
+(
+false
+)
 mBrowserFrameListenersRegistered
 (
 false
@@ -428,6 +432,9 @@ flag
 /
 bool
 mNetworkCreated
+;
+bool
+mIsPrerendered
 ;
 bool
 mBrowserFrameListenersRegistered
