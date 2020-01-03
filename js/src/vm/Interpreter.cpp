@@ -1908,7 +1908,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -5861,7 +5861,7 @@ GlobalObject
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -6073,14 +6073,16 @@ GlobalObject
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 "
 Only
 scripts
 with
-polluted
+non
+-
+syntactic
 scopes
 can
 be
@@ -15042,7 +15044,7 @@ JSOP_BINDNAME
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
@@ -19710,7 +19712,7 @@ JSOP_IMPLICITTHIS
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )

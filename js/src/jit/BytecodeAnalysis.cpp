@@ -1144,7 +1144,7 @@ if
 script_
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
