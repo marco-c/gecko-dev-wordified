@@ -852,14 +852,14 @@ const
 unsigned
 PushedFP
 =
-10
+13
 ;
 static
 const
 unsigned
 StoredFP
 =
-14
+20
 ;
 #
 elif
