@@ -635,16 +635,6 @@ MediaSourceReader
 >
 mReader
 ;
-/
-/
-Protected
-by
-GetReentrantMonitor
-(
-)
-double
-mMediaSourceDuration
-;
 }
 ;
 }
