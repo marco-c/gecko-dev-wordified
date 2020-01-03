@@ -1337,6 +1337,12 @@ mIMETextChanges
 bool
 mIMESelectionChanged
 ;
+bool
+mAwaitingFullScreen
+;
+bool
+mIsFullScreen
+;
 InputContext
 mInputContext
 ;
