@@ -1574,11 +1574,6 @@ maxSize
 store
 .
 maxRoomCreationSize
-expiresIn
-:
-store
-.
-defaultExpiresIn
 }
 )
 ;
