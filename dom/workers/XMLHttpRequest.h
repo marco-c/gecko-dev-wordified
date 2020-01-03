@@ -202,6 +202,9 @@ class
 WorkerPrivate
 ;
 class
+WorkerStructuredCloneClosure
+;
+class
 XMLHttpRequest
 final
 :
@@ -1102,15 +1105,9 @@ JSAutoStructuredCloneBuffer
 &
 &
 aBody
-nsTArray
-<
-nsCOMPtr
-<
-nsISupports
->
->
+WorkerStructuredCloneClosure
 &
-aClonedObjects
+aClosure
 ErrorResult
 &
 aRv

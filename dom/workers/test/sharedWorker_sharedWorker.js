@@ -654,8 +654,6 @@ property
 }
 if
 (
-!
-(
 event
 .
 ports
@@ -663,7 +661,6 @@ ports
 =
 =
 null
-)
 )
 {
 throw
@@ -677,8 +674,6 @@ message
 event
 has
 a
-non
--
 null
 '
 ports
