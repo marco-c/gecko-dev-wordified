@@ -1007,7 +1007,7 @@ eBasicEventClass
 EVENT
 (
 canplay
-NS_CANPLAY
+eCanPlay
 EventNameType_HTML
 eBasicEventClass
 )

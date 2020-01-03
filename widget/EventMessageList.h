@@ -1819,7 +1819,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CANPLAY
+eCanPlay
 eMediaEventFirst
 +
 11
