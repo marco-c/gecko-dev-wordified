@@ -160,7 +160,7 @@ class
 nsLineLayout
 ;
 class
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 ;
 struct
 nsHypotheticalBox
@@ -3693,11 +3693,11 @@ special
 reflow
 for
 percent
-height
+bsize
 calculations
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 *
-mPercentHeightObserver
+mPercentBSizeObserver
 ;
 /
 /

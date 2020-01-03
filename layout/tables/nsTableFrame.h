@@ -999,7 +999,7 @@ have
 non
 -
 auto
-height
+bsize
 .
 (
 e
@@ -1009,11 +1009,11 @@ g
 pct
 or
 fixed
-height
+bsize
 )
 static
 bool
-AncestorsHaveStyleHeight
+AncestorsHaveStyleBSize
 (
 const
 nsHTMLReflowState
@@ -1036,13 +1036,13 @@ to
 having
 a
 pct
-height
+bsize
 when
 /
 /
 the
 pct
-height
+bsize
 basis
 may
 not
@@ -1052,7 +1052,7 @@ valid
 .
 static
 void
-CheckRequestSpecialHeightReflow
+CheckRequestSpecialBSizeReflow
 (
 const
 nsHTMLReflowState
@@ -1087,7 +1087,7 @@ occur
 .
 static
 void
-RequestSpecialHeightReflow
+RequestSpecialBSizeReflow
 (
 const
 nsHTMLReflowState

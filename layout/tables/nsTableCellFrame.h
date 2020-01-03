@@ -153,7 +153,7 @@ h
 #
 include
 "
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 .
 h
 "
@@ -279,7 +279,7 @@ nsContainerFrame
 public
 nsITableCellLayout
 public
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 {
 typedef
 mozilla
@@ -580,7 +580,7 @@ override
 ;
 virtual
 void
-NotifyPercentHeight
+NotifyPercentBSize
 (
 const
 nsHTMLReflowState

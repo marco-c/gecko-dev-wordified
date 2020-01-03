@@ -221,7 +221,7 @@ h
 #
 include
 "
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 .
 h
 "
@@ -533,7 +533,7 @@ mDiscoveredClearance
 =
 nullptr
 ;
-mPercentHeightObserver
+mPercentBSizeObserver
 =
 nullptr
 ;
@@ -1607,17 +1607,17 @@ mDiscoveredClearance
 =
 nullptr
 ;
-mPercentHeightObserver
+mPercentBSizeObserver
 =
 (
 aParentReflowState
 .
-mPercentHeightObserver
+mPercentBSizeObserver
 &
 &
 aParentReflowState
 .
-mPercentHeightObserver
+mPercentBSizeObserver
 -
 >
 NeedsToObserve
@@ -1629,7 +1629,7 @@ this
 ?
 aParentReflowState
 .
-mPercentHeightObserver
+mPercentBSizeObserver
 :
 nullptr
 ;
