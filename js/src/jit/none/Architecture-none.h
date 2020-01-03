@@ -206,7 +206,7 @@ invalid_reg
 }
 ;
 typedef
-RegisterID
+uint8_t
 Code
 ;
 typedef
@@ -291,14 +291,14 @@ MOZ_CRASH
 }
 static
 const
-Code
+Encoding
 StackPointer
 =
 invalid_reg
 ;
 static
 const
-Code
+Encoding
 Invalid
 =
 invalid_reg
