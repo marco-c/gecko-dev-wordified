@@ -5440,7 +5440,7 @@ iter
 iter
 -
 >
-replaceAllUsesWith
+justReplaceAllUsesWith
 (
 redundant
 )
@@ -5694,7 +5694,7 @@ false
 phi
 -
 >
-replaceAllUsesWith
+justReplaceAllUsesWith
 (
 redundant
 )
@@ -8571,7 +8571,7 @@ c
 phi
 -
 >
-replaceAllUsesWith
+justReplaceAllUsesWith
 (
 c
 )
