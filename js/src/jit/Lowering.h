@@ -735,6 +735,14 @@ apply
 )
 ;
 void
+visitArraySplice
+(
+MArraySplice
+*
+splice
+)
+;
+void
 visitBail
 (
 MBail
