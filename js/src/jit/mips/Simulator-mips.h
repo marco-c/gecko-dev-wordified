@@ -922,6 +922,13 @@ f31
 kNumFPURegisters
 }
 ;
+/
+/
+Returns
+nullptr
+on
+OOM
+.
 static
 Simulator
 *
@@ -1499,6 +1506,11 @@ Unpredictable
 =
 0xbadbeaf
 }
+;
+bool
+init
+(
+)
 ;
 /
 /
