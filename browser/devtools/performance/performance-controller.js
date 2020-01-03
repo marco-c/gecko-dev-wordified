@@ -2281,7 +2281,7 @@ getOption
 "
 enable
 -
-memory
+allocations
 "
 )
 allocationsSampleProbability

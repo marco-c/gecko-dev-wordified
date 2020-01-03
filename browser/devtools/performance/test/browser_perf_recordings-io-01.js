@@ -86,7 +86,7 @@ panelWin
 /
 /
 Enable
-memory
+allocations
 to
 test
 the
@@ -98,6 +98,16 @@ memory
 -
 flamegraph
 .
+Services
+.
+prefs
+.
+setBoolPref
+(
+ALLOCATIONS_PREF
+true
+)
+;
 Services
 .
 prefs

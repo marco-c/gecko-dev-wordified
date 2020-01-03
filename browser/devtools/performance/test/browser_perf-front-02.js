@@ -85,7 +85,7 @@ config
 withMarkers
 :
 true
-withMemory
+withAllocations
 :
 true
 withTicks

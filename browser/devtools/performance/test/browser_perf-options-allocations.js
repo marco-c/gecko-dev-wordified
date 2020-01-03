@@ -84,7 +84,7 @@ prefs
 .
 setBoolPref
 (
-MEMORY_PREF
+ALLOCATIONS_PREF
 true
 )
 ;
@@ -209,7 +209,7 @@ prefs
 .
 setBoolPref
 (
-MEMORY_PREF
+ALLOCATIONS_PREF
 false
 )
 ;

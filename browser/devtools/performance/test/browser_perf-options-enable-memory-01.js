@@ -292,13 +292,14 @@ getConfiguration
 )
 .
 withAllocations
-true
+false
 "
 PerformanceFront
-started
+did
+not
+record
 with
 allocations
-recording
 .
 "
 )

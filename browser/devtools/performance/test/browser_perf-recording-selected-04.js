@@ -108,7 +108,7 @@ panelWin
 /
 /
 Enable
-memory
+allocations
 to
 test
 the
@@ -127,6 +127,16 @@ prefs
 setBoolPref
 (
 MEMORY_PREF
+true
+)
+;
+Services
+.
+prefs
+.
+setBoolPref
+(
+ALLOCATIONS_PREF
 true
 )
 ;

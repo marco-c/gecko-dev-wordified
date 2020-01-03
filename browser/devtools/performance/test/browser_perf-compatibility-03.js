@@ -81,6 +81,16 @@ MEMORY_PREF
 true
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+ALLOCATIONS_PREF
+true
+)
+;
 let
 {
 memory
