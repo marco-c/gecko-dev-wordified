@@ -17519,8 +17519,6 @@ AllocateInputPort
 MediaStream
 *
 aStream
-uint32_t
-aFlags
 uint16_t
 aInputNumber
 uint16_t
@@ -17655,7 +17653,7 @@ MediaInputPort
 (
 aStream
 this
-aFlags
+0
 aInputNumber
 aOutputNumber
 )
@@ -21473,7 +21471,6 @@ sink
 AllocateInputPort
 (
 aMediaStream
-0
 )
 ;
 }

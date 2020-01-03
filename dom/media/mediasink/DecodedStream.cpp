@@ -1257,7 +1257,6 @@ mStream
 AllocateInputPort
 (
 aStream
-0
 )
 ;
 }
