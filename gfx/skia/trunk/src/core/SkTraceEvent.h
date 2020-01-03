@@ -7833,8 +7833,7 @@ uint64_t
 (
 reinterpret_cast
 <
-unsigned
-long
+uintptr_t
 >
 (
 id
@@ -8207,8 +8206,7 @@ uint64_t
 (
 reinterpret_cast
 <
-unsigned
-long
+uintptr_t
 >
 (
 id
