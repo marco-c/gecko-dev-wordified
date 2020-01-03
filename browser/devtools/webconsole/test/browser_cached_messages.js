@@ -90,8 +90,15 @@ the
 console
 UI
 is
+/
+/
 opened
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -112,6 +119,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test

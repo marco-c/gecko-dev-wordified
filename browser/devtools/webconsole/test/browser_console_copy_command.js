@@ -89,6 +89,11 @@ works
 as
 intended
 .
+"
+use
+strict
+"
+;
 let
 gWebConsole
 gJSTerm
@@ -343,7 +348,7 @@ add_task
 (
 function
 *
-test_copy
+testCopy
 (
 )
 {

@@ -214,11 +214,6 @@ enabled
 true
 )
 ;
-let
-{
-tab
-}
-=
 yield
 loadTab
 (
@@ -323,6 +318,9 @@ wm
 getMostRecentWindow
 (
 '
+"
++
+"
 navigator
 :
 browser

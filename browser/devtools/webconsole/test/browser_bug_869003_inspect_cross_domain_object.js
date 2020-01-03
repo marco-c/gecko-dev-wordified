@@ -74,6 +74,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -147,6 +150,8 @@ debug
 builds
 on
 slower
+/
+/
 machines
 .
 requestLongerTimeout
@@ -344,6 +349,7 @@ hud
 .
 iframeWindow
 )
+;
 }
 )
 ;

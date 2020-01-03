@@ -117,6 +117,9 @@ Web
 Console
 test
 for
+"
++
+"
 persisting
 history
 -
@@ -797,6 +800,9 @@ first
 result
 )
 after
+"
++
+"
 running
 a
 command
@@ -1058,13 +1064,6 @@ hud
 .
 jsterm
 ;
-let
-{
-inputNode
-}
-=
-jsterm
-;
 for
 (
 let
@@ -1094,6 +1093,8 @@ UP
 arrow
 accurately
 navigates
+/
+/
 history
 .
 jsterm

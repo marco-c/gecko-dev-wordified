@@ -205,6 +205,11 @@ toolbox
 .
 _toolPanels
 ;
+/
+/
+non
+-
+iterable
 toolbox
 .
 _toolPanels
@@ -212,11 +217,6 @@ _toolPanels
 {
 }
 ;
-/
-/
-non
--
-iterable
 function
 fixToolbox
 (

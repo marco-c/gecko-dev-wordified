@@ -58,6 +58,11 @@ See
 bug
 877778
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
