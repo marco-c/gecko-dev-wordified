@@ -14466,6 +14466,10 @@ dynStart
 dynEnd
 )
 ;
+if
+(
+fixedStart
+)
 traceSlots
 (
 fixedStart
@@ -14482,6 +14486,10 @@ unsafeGet
 )
 )
 ;
+if
+(
+dynStart
+)
 traceSlots
 (
 dynStart

@@ -7147,6 +7147,11 @@ this
 ;
 MOZ_ASSERT
 (
+addr
+)
+;
+MOZ_ASSERT
+(
 !
 (
 addr
@@ -7445,6 +7450,10 @@ hasDelayedMarking
 =
 1
 ;
+if
+(
+aheader
+)
 auxNextLink
 =
 aheader
@@ -7541,6 +7550,10 @@ allocatedDuringIncremental
 =
 1
 ;
+if
+(
+aheader
+)
 auxNextLink
 =
 aheader
