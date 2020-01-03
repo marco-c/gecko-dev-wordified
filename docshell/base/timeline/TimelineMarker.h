@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-TimelineMarker_h__
+TimelineMarker_h_
 #
 define
-TimelineMarker_h__
+TimelineMarker_h_
 #
 include
 "
@@ -625,6 +625,6 @@ mStackTrace
 endif
 /
 *
-TimelineMarker_h__
+TimelineMarker_h_
 *
 /
