@@ -2449,6 +2449,9 @@ preference
 bool
 mDoNotTrackEnabled
 ;
+uint8_t
+mDoNotTrackValue
+;
 /
 /
 for
