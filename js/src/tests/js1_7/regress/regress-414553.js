@@ -185,11 +185,7 @@ expected
 4
 '
 ;
-var
-actual
-=
 let
-(
 a
 =
 1
@@ -205,8 +201,10 @@ c
 d
 =
 4
-)
-(
+;
+var
+actual
+=
 String
 (
 [
@@ -215,7 +213,6 @@ b
 c
 d
 ]
-)
 )
 ;
 reportCompare

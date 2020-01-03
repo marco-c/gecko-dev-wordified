@@ -2522,13 +2522,6 @@ class
 CompExprTransplanter
 ;
 enum
-LetContext
-{
-LetExpression
-LetStatement
-}
-;
-enum
 VarContext
 {
 HoistVars
@@ -4350,12 +4343,10 @@ isSpread
 )
 ;
 Node
-deprecatedLetBlockOrExpression
+deprecatedLetBlock
 (
 YieldHandling
 yieldHandling
-LetContext
-letContext
 )
 ;
 Node

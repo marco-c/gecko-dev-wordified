@@ -1638,9 +1638,6 @@ case
 PNK_ELEM
 :
 case
-PNK_LETEXPR
-:
-case
 PNK_IMPORT_SPEC
 :
 case

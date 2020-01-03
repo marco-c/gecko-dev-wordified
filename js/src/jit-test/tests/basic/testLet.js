@@ -337,7 +337,7 @@ true
 /
 let
 expr
-test
+isParseError
 (
 '
 return
@@ -350,7 +350,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -372,7 +372,7 @@ undefined
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -401,7 +401,7 @@ NaN
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -421,7 +421,7 @@ y
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -437,7 +437,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -458,7 +458,7 @@ a
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -481,7 +481,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -500,7 +500,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -521,7 +521,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -544,7 +544,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -560,7 +560,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -576,7 +576,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -591,7 +591,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -611,7 +611,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -640,7 +640,7 @@ x
 3
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -684,7 +684,7 @@ x
 3
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -704,7 +704,7 @@ y
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -738,7 +738,7 @@ y
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -802,7 +802,7 @@ p1p2
 "
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -819,7 +819,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -837,7 +837,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -859,7 +859,7 @@ a
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -886,7 +886,7 @@ ponies
 ]
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -905,7 +905,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -934,7 +934,7 @@ a
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -961,7 +961,7 @@ y
 3
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -994,7 +994,7 @@ z
 6
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -1017,7 +1017,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -1040,7 +1040,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -1066,7 +1066,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -1111,7 +1111,7 @@ ponies
 }
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -1129,7 +1129,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -1151,7 +1151,7 @@ ponie
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -1173,7 +1173,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 return
@@ -1202,27 +1202,7 @@ y
 '
 )
 ;
-test
-(
-'
-return
-eval
-(
-"
-let
-(
-y
-=
-x
-)
-y
-"
-)
-;
-'
-)
-;
-test
+isParseError
 (
 '
 return
@@ -1252,7 +1232,7 @@ ponies
 2
 )
 ;
-test
+isParseError
 (
 '
 "
@@ -1283,7 +1263,7 @@ y
 '
 )
 ;
-test
+isParseError
 (
 '
 this
@@ -1311,7 +1291,7 @@ y
 '
 )
 ;
-test
+isParseError
 (
 '
 try
@@ -1343,7 +1323,7 @@ e
 '
 )
 ;
-test
+isParseError
 (
 '
 try
@@ -1822,7 +1802,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 let
@@ -1853,7 +1833,7 @@ x
 3
 )
 ;
-test
+isParseError
 (
 '
 let
@@ -2417,7 +2397,7 @@ ies
 ]
 )
 ;
-test
+isParseError
 (
 '
 let
@@ -2822,7 +2802,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 var
@@ -2850,7 +2830,7 @@ x
 3
 )
 ;
-test
+isParseError
 (
 '
 var
@@ -3524,7 +3504,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 if
@@ -3558,7 +3538,7 @@ y
 3
 )
 ;
-test
+isParseError
 (
 '
 if
@@ -4865,7 +4845,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 for
@@ -4895,7 +4875,7 @@ x
 '
 )
 ;
-test
+isParseError
 (
 '
 for
@@ -6400,7 +6380,7 @@ true
 }
 )
 ;
-test
+isParseError
 (
 '
 for

@@ -1044,9 +1044,6 @@ reject
 yieldExpression
 :
 reject
-letExpression
-:
-reject
 emptyStatement
 :
 (

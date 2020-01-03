@@ -3576,7 +3576,7 @@ pn
 ;
 MOZ_NEVER_INLINE
 bool
-emitLet
+emitLetBlock
 (
 ParseNode
 *

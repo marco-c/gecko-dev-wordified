@@ -43,12 +43,14 @@ q
 )
 ]
 )
+{
 assertEq
 (
 q
 1
 )
 ;
+}
 reportCompare
 (
 0
