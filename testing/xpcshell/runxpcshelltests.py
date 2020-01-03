@@ -6618,7 +6618,7 @@ TestManifest
 (
 strict
 =
-False
+True
 )
             
 if
