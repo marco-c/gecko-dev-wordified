@@ -6465,6 +6465,15 @@ tokentype
 =
 =
 TOK_EXTENDS
+|
+|
+kw
+-
+>
+tokentype
+=
+=
+TOK_SUPER
 #
 endif
 )
