@@ -141,3 +141,11 @@ LINK_FUNC
 (
 VTDecompressionSessionWaitForAsynchronousFrames
 )
+LINK_FUNC
+(
+VTSessionCopyProperty
+)
+LINK_FUNC
+(
+VTSessionCopySupportedPropertyDictionary
+)
