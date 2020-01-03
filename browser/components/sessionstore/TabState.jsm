@@ -1620,10 +1620,6 @@ index
 }
 }
 else
-if
-(
-value
-)
 {
 tabData
 [
