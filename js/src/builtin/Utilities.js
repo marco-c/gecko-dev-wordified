@@ -136,6 +136,12 @@ false
 ThrowError
 :
 false
+ThrowRangeError
+:
+false
+ThrowTypeError
+:
+false
 AssertionFailed
 :
 false
@@ -631,7 +637,7 @@ v
 =
 null
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_CANT_CONVERT_TO
 ToString
@@ -852,7 +858,7 @@ IsCallable
 func
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 typeof
@@ -996,7 +1002,7 @@ IsObject
 iterator
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_ITERABLE
 ToString
@@ -1094,7 +1100,7 @@ IsObject
 ctor
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_NONNULL_OBJECT
 "
@@ -1201,7 +1207,7 @@ s
 Step
 10
 .
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
 "
