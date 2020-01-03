@@ -980,7 +980,9 @@ thread
 )
 ;
 return
-mHasAudio
+HasAudio
+(
+)
 ;
 }
 JSObject
@@ -1306,7 +1308,9 @@ mPaused
 hidden
 &
 &
-mHasVideo
+HasVideo
+(
+)
 )
 {
 nsRefPtr
