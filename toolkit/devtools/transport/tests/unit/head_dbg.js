@@ -1842,6 +1842,9 @@ DebuggerServer
 listeningSockets
 )
 {
+let
+listener
+=
 DebuggerServer
 .
 openListener
@@ -1849,6 +1852,16 @@ openListener
 -
 1
 )
+;
+listener
+.
+allowConnection
+=
+(
+)
+=
+>
+true
 ;
 }
 let
