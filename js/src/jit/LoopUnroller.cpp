@@ -1341,6 +1341,17 @@ if
 def
 -
 >
+isDiscarded
+(
+)
+)
+return
+;
+if
+(
+def
+-
+>
 block
 (
 )
