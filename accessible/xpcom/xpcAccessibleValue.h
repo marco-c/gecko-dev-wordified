@@ -234,7 +234,8 @@ const
 xpcAccessibleValue
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleValue
 &
@@ -245,7 +246,8 @@ const
 xpcAccessibleValue
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

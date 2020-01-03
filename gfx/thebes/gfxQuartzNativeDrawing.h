@@ -420,7 +420,8 @@ const
 gfxQuartzNativeDrawing
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 gfxQuartzNativeDrawing
@@ -432,7 +433,8 @@ const
 gfxQuartzNativeDrawing
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /

@@ -115,7 +115,8 @@ FinalizationWitnessService
 *
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

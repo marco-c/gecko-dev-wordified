@@ -856,7 +856,8 @@ const
 CallbackObject
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 CallbackObject
 &
@@ -867,7 +868,8 @@ const
 CallbackObject
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :
@@ -1161,7 +1163,8 @@ const
 CallSetup
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 bool
 ShouldRethrowException

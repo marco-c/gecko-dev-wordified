@@ -526,7 +526,8 @@ const
 Relation
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 Relation
 (
@@ -534,7 +535,8 @@ const
 Relation
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsAutoPtr
 <

@@ -710,7 +710,8 @@ _OldCacheEntryWrapper
 _OldCacheEntryWrapper
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 nsICacheEntryDescriptor
 *

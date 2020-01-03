@@ -3159,7 +3159,8 @@ ParseNode
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -3170,7 +3171,8 @@ ParseNode
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

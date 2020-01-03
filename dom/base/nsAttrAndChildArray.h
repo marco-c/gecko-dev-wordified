@@ -839,7 +839,8 @@ nsAttrAndChildArray
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 nsAttrAndChildArray
 &
@@ -851,7 +852,8 @@ nsAttrAndChildArray
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 Clear

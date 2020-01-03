@@ -7312,7 +7312,8 @@ Activation
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -7323,7 +7324,8 @@ Activation
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

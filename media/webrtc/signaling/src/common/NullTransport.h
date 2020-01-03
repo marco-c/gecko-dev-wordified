@@ -186,7 +186,8 @@ NullTransport
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -197,7 +198,8 @@ NullTransport
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

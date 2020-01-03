@@ -265,7 +265,8 @@ aStr
 N
 ]
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

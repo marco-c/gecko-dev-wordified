@@ -1832,7 +1832,8 @@ nsPrintEngine
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

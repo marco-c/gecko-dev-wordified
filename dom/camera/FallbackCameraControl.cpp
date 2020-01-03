@@ -619,7 +619,8 @@ const
 FallbackCameraControl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 FallbackCameraControl
 &
@@ -630,7 +631,8 @@ const
 FallbackCameraControl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

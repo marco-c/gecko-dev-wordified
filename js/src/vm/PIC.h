@@ -428,7 +428,8 @@ Category
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -662,7 +663,8 @@ Chain
 ForOfPIC
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ForOfPIC
 (
@@ -671,7 +673,8 @@ ForOfPIC
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 typedef
 PICStub

@@ -75242,7 +75242,8 @@ const
 s
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 \
 n
@@ -75257,7 +75258,8 @@ const
 %
 s
 )
-MOZ_DELETE
+=
+delete
 ;
 \
 n

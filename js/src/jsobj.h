@@ -5718,7 +5718,8 @@ private
 JSObject
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 JSObject
 (
@@ -5727,7 +5728,8 @@ JSObject
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -5738,7 +5740,8 @@ JSObject
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

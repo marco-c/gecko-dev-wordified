@@ -479,7 +479,8 @@ const
 xpcAccessibleTextRange
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleTextRange
 &
@@ -490,7 +491,8 @@ const
 xpcAccessibleTextRange
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 TextRange
 mRange

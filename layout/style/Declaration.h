@@ -1801,7 +1801,8 @@ Declaration
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 bool
 operator
@@ -1814,7 +1815,8 @@ Declaration
 aCopy
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 void
 GetValue

@@ -276,7 +276,8 @@ const
 AutoMoz2DMaskData
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoMoz2DMaskData
 &
@@ -287,7 +288,8 @@ const
 AutoMoz2DMaskData
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -1193,7 +1193,8 @@ nsCOMArray_base
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -2889,7 +2890,8 @@ T
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

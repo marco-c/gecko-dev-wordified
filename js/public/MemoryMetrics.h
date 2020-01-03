@@ -1215,7 +1215,8 @@ NotableClassInfo
 &
 info
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1825,7 +1826,8 @@ NotableStringInfo
 &
 info
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -2132,7 +2134,8 @@ NotableScriptSourceInfo
 &
 info
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

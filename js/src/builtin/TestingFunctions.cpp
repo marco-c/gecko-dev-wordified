@@ -11019,7 +11019,8 @@ const
 BackEdge
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 BackEdge
 &
@@ -11030,7 +11031,8 @@ const
 BackEdge
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -8232,7 +8232,8 @@ ZoneList
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 ZoneList
 &
@@ -8244,7 +8245,8 @@ ZoneList
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

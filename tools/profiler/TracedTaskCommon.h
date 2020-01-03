@@ -413,7 +413,8 @@ allowed
 FakeTracedTask
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 FakeTracedTask
 (
@@ -422,7 +423,8 @@ FakeTracedTask
 &
 aTask
 )
-MOZ_DELETE
+=
+delete
 ;
 FakeTracedTask
 &
@@ -434,7 +436,8 @@ FakeTracedTask
 &
 aTask
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

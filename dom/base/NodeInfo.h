@@ -1218,7 +1218,8 @@ private
 NodeInfo
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 NodeInfo
 (
@@ -1227,7 +1228,8 @@ NodeInfo
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /

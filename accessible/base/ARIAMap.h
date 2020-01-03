@@ -1916,7 +1916,8 @@ private
 AttrIterator
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 AttrIterator
 (
@@ -1924,7 +1925,8 @@ const
 AttrIterator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AttrIterator
 &
@@ -1935,7 +1937,8 @@ const
 AttrIterator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsIContent
 *

@@ -1265,7 +1265,8 @@ private
 ItemIterator
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ItemIterator
 (
@@ -1273,7 +1274,8 @@ const
 ItemIterator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 ItemIterator
 &
@@ -1284,7 +1286,8 @@ const
 ItemIterator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 Accessible
 *
@@ -1353,7 +1356,8 @@ private
 XULTreeItemIterator
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 XULTreeItemIterator
 (
@@ -1361,7 +1365,8 @@ const
 XULTreeItemIterator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 XULTreeItemIterator
 &
@@ -1372,7 +1377,8 @@ const
 XULTreeItemIterator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 XULTreeAccessible
 *

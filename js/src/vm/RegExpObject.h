@@ -1355,7 +1355,8 @@ const
 RegExpGuard
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1365,7 +1366,8 @@ const
 RegExpGuard
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -2688,7 +2690,8 @@ void
 *
 priv
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

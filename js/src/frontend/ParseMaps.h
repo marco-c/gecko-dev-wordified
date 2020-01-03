@@ -2400,7 +2400,8 @@ AtomDecls
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -2411,7 +2412,8 @@ AtomDecls
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

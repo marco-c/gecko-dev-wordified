@@ -17169,7 +17169,8 @@ const
 CachedStatement
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 CachedStatement
 &
@@ -17180,7 +17181,8 @@ const
 CachedStatement
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -21009,7 +21011,8 @@ CursorResponse
 &
 aResponse
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /

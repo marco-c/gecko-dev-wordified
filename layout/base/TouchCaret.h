@@ -367,7 +367,8 @@ constructor
 TouchCaret
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ~
 TouchCaret

@@ -700,7 +700,8 @@ const
 TypedEventHandler
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 ReleaseHandler

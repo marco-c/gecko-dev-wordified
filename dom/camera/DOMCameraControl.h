@@ -1616,7 +1616,8 @@ const
 nsDOMCameraControl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsDOMCameraControl
 &
@@ -1627,7 +1628,8 @@ const
 nsDOMCameraControl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

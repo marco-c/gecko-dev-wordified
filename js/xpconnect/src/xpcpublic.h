@@ -2252,7 +2252,8 @@ ZoneStatsExtras
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 ZoneStatsExtras
 &
@@ -2264,7 +2265,8 @@ ZoneStatsExtras
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -2319,7 +2321,8 @@ CompartmentStatsExtras
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 CompartmentStatsExtras
 &
@@ -2331,7 +2334,8 @@ CompartmentStatsExtras
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

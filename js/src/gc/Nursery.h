@@ -489,7 +489,8 @@ Cell
 cellp
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 MOZ_ALWAYS_INLINE
 bool

@@ -566,7 +566,8 @@ private
 nsDOMCameraManager
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 explicit
 nsDOMCameraManager
@@ -582,7 +583,8 @@ const
 nsDOMCameraManager
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsDOMCameraManager
 &
@@ -593,7 +595,8 @@ const
 nsDOMCameraManager
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :

@@ -154,7 +154,8 @@ T
 &
 other
 )
-MOZ_DELETE
+=
+delete
 #
 define
 DISALLOW_COPY
@@ -169,7 +170,8 @@ T
 &
 other
 )
-MOZ_DELETE
+=
+delete
 #
 define
 DISALLOW_COPY_ASSIGN

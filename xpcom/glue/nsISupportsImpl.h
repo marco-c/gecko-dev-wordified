@@ -2175,7 +2175,8 @@ operator
 (
 int
 )
-MOZ_DELETE
+=
+delete
 ;
 nsrefcnt
 operator
@@ -2184,7 +2185,8 @@ operator
 (
 int
 )
-MOZ_DELETE
+=
+delete
 ;
 nsrefcnt
 mValue
@@ -2316,7 +2318,8 @@ operator
 (
 int
 )
-MOZ_DELETE
+=
+delete
 ;
 nsrefcnt
 operator
@@ -2325,7 +2328,8 @@ operator
 (
 int
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /

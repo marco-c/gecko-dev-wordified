@@ -240,7 +240,8 @@ private
 DOMCursor
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -300,7 +301,8 @@ ErrorResult
 &
 aRv
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCOMPtr
 <

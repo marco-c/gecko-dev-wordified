@@ -1228,7 +1228,8 @@ const
 CompileError
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 CompileError
 (
@@ -1236,7 +1237,8 @@ const
 CompileError
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -3937,7 +3939,8 @@ const
 Position
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 friend
 class

@@ -552,7 +552,8 @@ const
 substring_tuple_type
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

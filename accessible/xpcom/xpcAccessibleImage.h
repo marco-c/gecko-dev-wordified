@@ -220,7 +220,8 @@ const
 xpcAccessibleImage
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleImage
 &
@@ -231,7 +232,8 @@ const
 xpcAccessibleImage
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

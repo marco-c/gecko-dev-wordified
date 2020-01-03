@@ -643,7 +643,8 @@ const
 Calc
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 ~
 Calc
@@ -660,7 +661,8 @@ const
 Calc
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

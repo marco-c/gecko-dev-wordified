@@ -1680,7 +1680,8 @@ const
 MaybeInvalidTabContext
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 MaybeInvalidTabContext
 &
@@ -1691,7 +1692,8 @@ const
 MaybeInvalidTabContext
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 char

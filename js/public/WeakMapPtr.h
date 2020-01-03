@@ -335,7 +335,8 @@ WeakMapPtr
 &
 wmp
 )
-MOZ_DELETE
+=
+delete
 ;
 WeakMapPtr
 &
@@ -347,7 +348,8 @@ WeakMapPtr
 &
 wmp
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

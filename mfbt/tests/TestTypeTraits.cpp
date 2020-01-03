@@ -1957,7 +1957,8 @@ NotIntConstructible
 (
 int
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

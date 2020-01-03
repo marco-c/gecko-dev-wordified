@@ -274,7 +274,8 @@ nsCSSParser
 const
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCSSParser
 &
@@ -285,7 +286,8 @@ nsCSSParser
 const
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

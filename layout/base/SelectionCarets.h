@@ -626,7 +626,8 @@ SelectionCarets
 SelectionCarets
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 *

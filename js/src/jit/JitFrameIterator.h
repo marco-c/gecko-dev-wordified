@@ -4510,7 +4510,8 @@ private
 InlineFrameIterator
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 InlineFrameIterator
 (
@@ -4519,7 +4520,8 @@ InlineFrameIterator
 &
 iter
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

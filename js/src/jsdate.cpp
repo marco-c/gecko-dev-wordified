@@ -1760,7 +1760,8 @@ month
 bool
 isLeapYear
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 *

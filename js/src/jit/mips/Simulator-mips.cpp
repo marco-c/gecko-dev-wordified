@@ -1569,7 +1569,8 @@ private
 SimInstruction
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 SimInstruction
 (
@@ -1578,7 +1579,8 @@ SimInstruction
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1589,7 +1591,8 @@ SimInstruction
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

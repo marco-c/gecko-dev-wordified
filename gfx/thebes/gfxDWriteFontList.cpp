@@ -9886,7 +9886,8 @@ private
 BundledFontFileEnumerator
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 BundledFontFileEnumerator
 (
@@ -9894,7 +9895,8 @@ const
 BundledFontFileEnumerator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 BundledFontFileEnumerator
 &
@@ -9905,7 +9907,8 @@ const
 BundledFontFileEnumerator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsRefPtr
 <
@@ -10161,7 +10164,8 @@ const
 BundledFontLoader
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 BundledFontLoader
 &
@@ -10172,7 +10176,8 @@ const
 BundledFontLoader
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

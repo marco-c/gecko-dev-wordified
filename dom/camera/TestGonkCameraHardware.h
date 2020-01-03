@@ -384,7 +384,8 @@ const
 TestGonkCameraHardware
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 TestGonkCameraHardware
 &
@@ -395,7 +396,8 @@ const
 TestGonkCameraHardware
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -2256,7 +2256,8 @@ EntryType
 &
 aToCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 *
@@ -2343,7 +2344,8 @@ EntryType
 &
 aToEqual
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

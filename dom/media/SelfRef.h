@@ -243,7 +243,8 @@ SelfReference
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -254,7 +255,8 @@ SelfReference
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 private
 :

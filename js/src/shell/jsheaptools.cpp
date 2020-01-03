@@ -844,7 +844,8 @@ const
 Node
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 Node
 &
@@ -855,7 +856,8 @@ const
 Node
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

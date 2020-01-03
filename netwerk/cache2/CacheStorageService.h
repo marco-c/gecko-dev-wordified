@@ -218,7 +218,8 @@ private
 CacheMemoryConsumer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :
@@ -1685,7 +1686,8 @@ const
 MemoryPool
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

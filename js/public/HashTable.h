@@ -2622,7 +2622,8 @@ HashMap
 &
 hm
 )
-MOZ_DELETE
+=
+delete
 ;
 HashMap
 &
@@ -2634,7 +2635,8 @@ HashMap
 &
 hm
 )
-MOZ_DELETE
+=
+delete
 ;
 friend
 class
@@ -4699,7 +4701,8 @@ HashSet
 &
 hs
 )
-MOZ_DELETE
+=
+delete
 ;
 HashSet
 &
@@ -4711,7 +4714,8 @@ HashSet
 &
 hs
 )
-MOZ_DELETE
+=
+delete
 ;
 friend
 class
@@ -6027,7 +6031,8 @@ const
 HashMapEntry
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -6037,7 +6042,8 @@ const
 HashMapEntry
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -6227,7 +6233,8 @@ const
 HashTableEntry
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -6237,13 +6244,15 @@ const
 HashTableEntry
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 ~
 HashTableEntry
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -7673,7 +7682,8 @@ const
 Enum
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -7683,7 +7693,8 @@ const
 Enum
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -8166,7 +8177,8 @@ const
 HashTable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -8176,7 +8188,8 @@ const
 HashTable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 private
 :

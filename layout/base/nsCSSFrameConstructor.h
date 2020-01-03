@@ -361,7 +361,8 @@ nsCSSFrameConstructor
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCSSFrameConstructor
 &
@@ -373,7 +374,8 @@ nsCSSFrameConstructor
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -8219,7 +8221,8 @@ FrameConstructionItem
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 *

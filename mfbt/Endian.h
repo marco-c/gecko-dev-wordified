@@ -3760,7 +3760,8 @@ T
 Endian
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 Endian
 (
@@ -3769,7 +3770,8 @@ Endian
 &
 aTther
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -3780,7 +3782,8 @@ Endian
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

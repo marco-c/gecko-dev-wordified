@@ -461,7 +461,8 @@ aT
 N
 ]
 )
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -485,7 +486,8 @@ N
 size_t
 aNElem
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 *

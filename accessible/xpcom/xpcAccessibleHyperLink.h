@@ -241,7 +241,8 @@ const
 xpcAccessibleHyperLink
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleHyperLink
 &
@@ -252,7 +253,8 @@ const
 xpcAccessibleHyperLink
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 Accessible
 *

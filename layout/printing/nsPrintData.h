@@ -666,7 +666,8 @@ private
 nsPrintData
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 nsPrintData
 &
@@ -678,7 +679,8 @@ nsPrintData
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

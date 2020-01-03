@@ -2700,7 +2700,8 @@ Range
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 seek
@@ -5022,7 +5023,8 @@ const
 OrderedHashTable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 OrderedHashTable
 (
@@ -5030,7 +5032,8 @@ const
 OrderedHashTable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

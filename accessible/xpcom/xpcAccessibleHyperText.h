@@ -249,7 +249,8 @@ const
 xpcAccessibleHyperText
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleHyperText
 &
@@ -260,7 +261,8 @@ const
 xpcAccessibleHyperText
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

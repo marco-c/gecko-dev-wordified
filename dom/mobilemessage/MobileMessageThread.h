@@ -273,7 +273,8 @@ constructor
 MobileMessageThread
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ThreadData
 mData

@@ -13216,7 +13216,8 @@ private
 with
 /
 /
-MOZ_DELETE
+=
+delete
 to
 be
 sure
@@ -13266,7 +13267,8 @@ nsMargin
 &
 aMargin
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 ExitMargin
@@ -13276,7 +13278,8 @@ nsMargin
 &
 aMargin
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 EnterChildFrame
@@ -13284,7 +13287,8 @@ EnterChildFrame
 nscoord
 aChildFrameSize
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 ExitChildFrame
@@ -13292,7 +13296,8 @@ ExitChildFrame
 nscoord
 aChildFrameSize
 )
-MOZ_DELETE
+=
+delete
 ;
 nscoord
 mPackingSpaceRemaining

@@ -211,7 +211,8 @@ private
 WebrtcGlobalInformation
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 WebrtcGlobalInformation
 (
@@ -220,7 +221,8 @@ WebrtcGlobalInformation
 &
 aOrig
 )
-MOZ_DELETE
+=
+delete
 ;
 WebrtcGlobalInformation
 &
@@ -232,7 +234,8 @@ WebrtcGlobalInformation
 &
 aRhs
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

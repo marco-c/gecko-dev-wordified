@@ -2504,7 +2504,8 @@ nsStyleSet
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 nsStyleSet
 &
@@ -2516,7 +2517,8 @@ nsStyleSet
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /

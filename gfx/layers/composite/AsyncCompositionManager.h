@@ -135,7 +135,6 @@ h
 /
 /
 for
-MOZ_DELETE
 MOZ_FINAL
 etc
 #
@@ -1484,7 +1483,8 @@ const
 AutoResolveRefLayers
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoResolveRefLayers
 &
@@ -1495,7 +1495,8 @@ const
 AutoResolveRefLayers
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -671,7 +671,8 @@ HRTFKernel
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -682,7 +683,8 @@ HRTFKernel
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /

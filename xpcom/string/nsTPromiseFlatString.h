@@ -769,7 +769,8 @@ const
 self_type
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -780,7 +781,8 @@ IMPLEMENTED
 nsTPromiseFlatString_CharT
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -795,7 +797,8 @@ string_type
 &
 aStr
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

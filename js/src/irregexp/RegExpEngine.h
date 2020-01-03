@@ -8744,7 +8744,8 @@ Analysis
 Analysis
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -8753,7 +8754,8 @@ operator
 Analysis
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

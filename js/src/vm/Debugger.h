@@ -5936,7 +5936,8 @@ const
 Debugger
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 Debugger
 &
@@ -5947,7 +5948,8 @@ const
 Debugger
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

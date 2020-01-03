@@ -3235,7 +3235,8 @@ const
 nsThreadPoolNaming
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -3245,7 +3246,8 @@ const
 nsThreadPoolNaming
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

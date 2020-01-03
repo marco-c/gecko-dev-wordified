@@ -287,7 +287,8 @@ private
 ChildrenEnumVariant
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ChildrenEnumVariant
 &
@@ -298,7 +299,8 @@ const
 ChildrenEnumVariant
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 ChildrenEnumVariant
 (

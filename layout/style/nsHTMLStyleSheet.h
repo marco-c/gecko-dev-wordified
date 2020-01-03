@@ -422,7 +422,8 @@ nsHTMLStyleSheet
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 nsHTMLStyleSheet
 &
@@ -434,7 +435,8 @@ nsHTMLStyleSheet
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 ~
 nsHTMLStyleSheet

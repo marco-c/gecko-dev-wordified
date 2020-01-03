@@ -961,7 +961,8 @@ Track
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 Track
@@ -973,7 +974,8 @@ const
 Track
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1193,7 +1195,8 @@ Forbidden
 MessageHandler
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 MessageHandler
 (
@@ -1202,7 +1205,8 @@ MessageHandler
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 MessageHandler
@@ -1215,7 +1219,8 @@ MessageHandler
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 MediaCodecReader
 *
@@ -1304,7 +1309,8 @@ Forbidden
 VideoResourceListener
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 VideoResourceListener
 (
@@ -1313,7 +1319,8 @@ VideoResourceListener
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 VideoResourceListener
@@ -1326,7 +1333,8 @@ VideoResourceListener
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 MediaCodecReader
 *
@@ -1391,7 +1399,8 @@ AudioTrack
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 AudioTrack
@@ -1404,7 +1413,8 @@ AudioTrack
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1460,7 +1470,8 @@ VideoTrack
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 VideoTrack
@@ -1473,7 +1484,8 @@ VideoTrack
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1553,7 +1565,8 @@ Forbidden
 SignalObject
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 SignalObject
 (
@@ -1562,7 +1575,8 @@ SignalObject
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 SignalObject
@@ -1575,7 +1589,8 @@ SignalObject
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 Monitor
 mMonitor
@@ -1629,7 +1644,8 @@ Forbidden
 ParseCachedDataRunnable
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ParseCachedDataRunnable
 (
@@ -1638,7 +1654,8 @@ ParseCachedDataRunnable
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 ParseCachedDataRunnable
@@ -1651,7 +1668,8 @@ ParseCachedDataRunnable
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 nsRefPtr
 <
@@ -1717,7 +1735,8 @@ Forbidden
 ProcessCachedDataTask
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ProcessCachedDataTask
 (
@@ -1726,7 +1745,8 @@ ProcessCachedDataTask
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 ProcessCachedDataTask
@@ -1739,7 +1759,8 @@ ProcessCachedDataTask
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 nsRefPtr
 <
@@ -1762,7 +1783,8 @@ Forbidden
 MediaCodecReader
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 MediaCodecReader
@@ -1775,7 +1797,8 @@ MediaCodecReader
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 bool
 ReallocateResources

@@ -812,7 +812,8 @@ const
 &
 vbufptr
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

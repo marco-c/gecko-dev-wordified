@@ -14019,7 +14019,8 @@ const
 StringRegExpGuard
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -14029,7 +14030,8 @@ const
 StringRegExpGuard
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -15933,7 +15935,8 @@ RopeBuilder
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -15944,7 +15947,8 @@ RopeBuilder
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

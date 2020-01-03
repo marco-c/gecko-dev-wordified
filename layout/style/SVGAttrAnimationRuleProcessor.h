@@ -347,7 +347,8 @@ SVGAttrAnimationRuleProcessor
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 SVGAttrAnimationRuleProcessor
 &
@@ -359,7 +360,8 @@ SVGAttrAnimationRuleProcessor
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

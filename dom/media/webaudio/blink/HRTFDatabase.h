@@ -507,7 +507,8 @@ HRTFDatabase
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -518,7 +519,8 @@ HRTFDatabase
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 explicit
 HRTFDatabase

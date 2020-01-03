@@ -1055,7 +1055,8 @@ MonoTypeBuffer
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1378,7 +1379,8 @@ GenericBuffer
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

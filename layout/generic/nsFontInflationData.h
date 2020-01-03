@@ -211,7 +211,8 @@ const
 nsFontInflationData
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -221,7 +222,8 @@ const
 nsFontInflationData
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 UpdateWidth

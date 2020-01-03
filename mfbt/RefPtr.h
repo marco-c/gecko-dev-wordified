@@ -2273,7 +2273,8 @@ mPtr
 TemporaryRef
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -2283,7 +2284,8 @@ const
 TemporaryRef
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -2547,7 +2549,8 @@ mTmp
 OutParamRef
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 OutParamRef
 &
@@ -2558,7 +2561,8 @@ const
 OutParamRef
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

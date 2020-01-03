@@ -660,7 +660,8 @@ const
 KeyPair
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -670,7 +671,8 @@ const
 KeyPair
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -784,7 +786,8 @@ const
 KeyGenRunnable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -794,7 +797,8 @@ const
 KeyGenRunnable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -922,7 +926,8 @@ const
 SignRunnable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -932,7 +937,8 @@ const
 SignRunnable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1005,7 +1011,8 @@ const
 KeyPair
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1015,7 +1022,8 @@ const
 IdentityCryptoService
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

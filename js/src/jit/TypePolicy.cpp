@@ -7812,7 +7812,8 @@ TypePolicy
 thisTypePolicy
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 static
 MIRType

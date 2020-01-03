@@ -2628,7 +2628,8 @@ delete
 void
 *
 )
-MOZ_DELETE
+=
+delete
 ;
 #
 ifdef

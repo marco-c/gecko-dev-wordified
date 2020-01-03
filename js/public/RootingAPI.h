@@ -3942,7 +3942,8 @@ operator
 (
 S
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -3950,7 +3951,8 @@ operator
 (
 Handle
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4147,7 +4149,8 @@ dummy
 =
 0
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -4373,7 +4376,8 @@ operator
 S
 v
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -4382,7 +4386,8 @@ operator
 MutableHandle
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4860,7 +4865,8 @@ T
 >
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -6245,7 +6251,8 @@ const
 Rooted
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -6797,7 +6804,8 @@ const
 FakeRooted
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -6977,7 +6985,8 @@ operator
 S
 v
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -6991,7 +7000,8 @@ T
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

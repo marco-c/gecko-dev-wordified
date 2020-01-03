@@ -1252,7 +1252,8 @@ const
 Pair
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

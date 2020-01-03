@@ -586,7 +586,8 @@ used
 PermissionKey
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -1383,7 +1384,8 @@ permissions
 GetPermissionsForAppStruct
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 GetPermissionsForAppStruct
 (

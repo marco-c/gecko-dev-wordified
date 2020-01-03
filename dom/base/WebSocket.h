@@ -886,7 +886,8 @@ WebSocket
 &
 x
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -903,7 +904,8 @@ WebSocket
 &
 x
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 Send

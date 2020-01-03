@@ -4284,7 +4284,8 @@ char_type
 *
 aData
 )
-MOZ_DELETE
+=
+delete
 ;
 self_type
 &
@@ -4295,7 +4296,8 @@ char_type
 *
 aData
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

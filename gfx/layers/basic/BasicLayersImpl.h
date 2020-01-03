@@ -153,7 +153,6 @@ h
 /
 /
 for
-MOZ_DELETE
 MOZ_STACK_CLASS
 #
 include

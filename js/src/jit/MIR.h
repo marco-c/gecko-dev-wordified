@@ -14636,7 +14636,8 @@ private
 AlwaysTenured
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 AlwaysTenured
 (
@@ -14647,7 +14648,8 @@ T
 >
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AlwaysTenured
 <
@@ -14664,7 +14666,8 @@ T
 >
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -343,7 +343,8 @@ const
 xpcAccessibleGeneric
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleGeneric
 &
@@ -354,7 +355,8 @@ const
 xpcAccessibleGeneric
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

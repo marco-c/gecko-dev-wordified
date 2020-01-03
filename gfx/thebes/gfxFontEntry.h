@@ -1672,7 +1672,8 @@ const
 AutoTable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoTable
 &
@@ -1683,7 +1684,8 @@ const
 AutoTable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

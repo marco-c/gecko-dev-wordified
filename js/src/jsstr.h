@@ -1231,7 +1231,8 @@ bool
 *
 result
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 *

@@ -1916,7 +1916,8 @@ create
 .
 .
 )
-MOZ_DELETE
+=
+delete
 ;
 friend
 struct

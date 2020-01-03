@@ -1885,7 +1885,8 @@ T
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 LinkedListElement
 (
@@ -1897,7 +1898,8 @@ T
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -3029,7 +3031,8 @@ T
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 LinkedList
 (
@@ -3041,7 +3044,8 @@ T
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

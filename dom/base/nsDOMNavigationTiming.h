@@ -488,7 +488,8 @@ const
 nsDOMNavigationTiming
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 ~
 nsDOMNavigationTiming

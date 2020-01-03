@@ -4214,7 +4214,8 @@ U
 aOther
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -4229,7 +4230,8 @@ U
 aOther
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -4245,7 +4247,8 @@ U
 aOther
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -4260,7 +4263,8 @@ U
 aOther
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -4276,7 +4280,8 @@ U
 aOther
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

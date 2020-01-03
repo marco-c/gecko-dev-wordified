@@ -965,7 +965,8 @@ JSONParserBase
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -976,7 +977,8 @@ JSONParserBase
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1292,7 +1294,8 @@ JSONParser
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1303,7 +1306,8 @@ JSONParser
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

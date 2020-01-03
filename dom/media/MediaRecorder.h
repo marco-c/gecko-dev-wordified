@@ -780,7 +780,8 @@ MediaRecorder
 &
 x
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -887,7 +888,8 @@ MediaRecorder
 &
 x
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /

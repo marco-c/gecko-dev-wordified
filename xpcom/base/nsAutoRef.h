@@ -4056,7 +4056,8 @@ ThisClass
 &
 aSmartRef
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

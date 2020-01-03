@@ -169,7 +169,8 @@ instantiated
 SVGFragmentIdentifier
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

@@ -961,7 +961,8 @@ gfxGlyphExtents
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 gfxGlyphExtents
 &
@@ -973,7 +974,8 @@ gfxGlyphExtents
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

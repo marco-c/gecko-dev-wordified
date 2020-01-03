@@ -465,7 +465,8 @@ Forbidden
 MessageHandler
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 MessageHandler
 (
@@ -474,7 +475,8 @@ MessageHandler
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 MessageHandler
@@ -487,7 +489,8 @@ MessageHandler
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 GonkVideoDecoderManager
 *
@@ -547,7 +550,8 @@ Forbidden
 VideoResourceListener
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 VideoResourceListener
 (
@@ -556,7 +560,8 @@ VideoResourceListener
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 VideoResourceListener
@@ -569,7 +574,8 @@ VideoResourceListener
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 GonkVideoDecoderManager
 *

@@ -913,7 +913,8 @@ private
 DOMMatrixReadOnly
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 DOMMatrixReadOnly
 (
@@ -921,7 +922,8 @@ const
 DOMMatrixReadOnly
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 DOMMatrixReadOnly
 &
@@ -932,7 +934,8 @@ const
 DOMMatrixReadOnly
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

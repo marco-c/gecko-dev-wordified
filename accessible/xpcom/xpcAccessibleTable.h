@@ -512,7 +512,8 @@ const
 xpcAccessibleTable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleTable
 &
@@ -523,7 +524,8 @@ const
 xpcAccessibleTable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

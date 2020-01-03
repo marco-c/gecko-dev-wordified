@@ -11778,7 +11778,8 @@ FakeString
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -11789,7 +11790,8 @@ FakeString
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 SetData
@@ -12498,7 +12500,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -12537,7 +12540,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -12618,7 +12622,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -12708,7 +12713,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -12796,7 +12802,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -12875,7 +12882,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -12949,7 +12957,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -13023,7 +13032,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -13110,7 +13120,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -13398,7 +13409,8 @@ explicit
 SequenceTracer
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
@@ -18340,7 +18352,8 @@ S
 &
 aPtr
 )
-MOZ_DELETE
+=
+delete
 ;
 inline
 JSObject

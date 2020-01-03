@@ -1533,7 +1533,8 @@ const
 RegisterAllocator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 RegisterAllocator
 (
@@ -1541,7 +1542,8 @@ const
 RegisterAllocator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :

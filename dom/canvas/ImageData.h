@@ -398,7 +398,8 @@ DropData
 ImageData
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 uint32_t
 mWidth

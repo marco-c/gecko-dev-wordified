@@ -273,7 +273,8 @@ const
 AutoTraceSession
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -283,7 +284,8 @@ const
 AutoTraceSession
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 HeapState
 prevState

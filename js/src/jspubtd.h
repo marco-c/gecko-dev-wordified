@@ -1587,7 +1587,8 @@ AutoGCRooter
 &
 ida
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1597,7 +1598,8 @@ AutoGCRooter
 &
 ida
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

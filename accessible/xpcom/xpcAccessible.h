@@ -583,7 +583,8 @@ const
 xpcAccessible
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessible
 &
@@ -594,7 +595,8 @@ const
 xpcAccessible
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

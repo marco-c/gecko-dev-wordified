@@ -162,7 +162,8 @@ NativeFileWatcherService
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -173,7 +174,8 @@ NativeFileWatcherService
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

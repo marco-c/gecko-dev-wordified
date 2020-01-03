@@ -522,7 +522,8 @@ dummy
 0
 )
 *
-MOZ_DELETE
+=
+delete
 ;
 *
 *

@@ -5005,7 +5005,8 @@ T
 &
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 HeapPtr
 <
@@ -5022,7 +5023,8 @@ T
 &
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -6954,7 +6956,8 @@ explicit
 HeapSlot
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 explicit
 HeapSlot

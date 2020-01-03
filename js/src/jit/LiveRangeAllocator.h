@@ -2399,7 +2399,8 @@ const
 VirtualRegister
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 VirtualRegister
 (
@@ -2407,7 +2408,8 @@ const
 VirtualRegister
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :
@@ -3043,7 +3045,8 @@ const
 VirtualRegisterMap
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 VirtualRegisterMap
 (
@@ -3051,7 +3054,8 @@ const
 VirtualRegisterMap
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

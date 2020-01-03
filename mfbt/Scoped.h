@@ -1212,7 +1212,8 @@ Scoped
 &
 aValue
 )
-MOZ_DELETE
+=
+delete
 ;
 Scoped
 &
@@ -1224,7 +1225,8 @@ Scoped
 &
 aValue
 )
-MOZ_DELETE
+=
+delete
 ;
 private
 :
@@ -1471,7 +1473,8 @@ name
 name
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 \
 name
@@ -1482,7 +1485,8 @@ operator
 name
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 \
 }

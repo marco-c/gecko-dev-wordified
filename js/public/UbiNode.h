@@ -2257,7 +2257,8 @@ Base
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 Base
 &
@@ -2269,7 +2270,8 @@ Base
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -3787,7 +3789,8 @@ const
 Edge
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 Edge
 &
@@ -3798,7 +3801,8 @@ const
 Edge
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4069,7 +4073,8 @@ const
 EdgeRange
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 EdgeRange
 &
@@ -4080,7 +4085,8 @@ const
 EdgeRange
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4116,7 +4122,8 @@ SimpleEdge
 SimpleEdge
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 SimpleEdge
 &
@@ -4127,7 +4134,8 @@ const
 SimpleEdge
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

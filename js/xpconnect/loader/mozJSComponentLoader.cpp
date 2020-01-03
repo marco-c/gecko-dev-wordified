@@ -978,7 +978,8 @@ const
 JSCLContextHelper
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 JSCLContextHelper
@@ -990,7 +991,8 @@ const
 JSCLContextHelper
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

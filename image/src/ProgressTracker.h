@@ -1174,7 +1174,8 @@ ProgressTracker
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 /
 /
