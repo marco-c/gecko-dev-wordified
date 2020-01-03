@@ -143,6 +143,8 @@ import
 subprocess
 import
 platform
+import
+mozinfo
 #
 List
 of
@@ -2413,20 +2415,20 @@ MOZ_OMNIJAR
 '
 ]
     
-binpath
+respath
 =
 '
 '
     
 if
 '
-BINPATH
+RESPATH
 '
 in
 defines
 :
         
-binpath
+respath
 =
 SimpleManifestSink
 .
@@ -2435,13 +2437,13 @@ normalize_path
 defines
 [
 '
-BINPATH
+RESPATH
 '
 ]
 )
     
 while
-binpath
+respath
 .
 startswith
 (
@@ -2451,9 +2453,9 @@ startswith
 )
 :
         
-binpath
+respath
 =
-binpath
+respath
 [
 1
 :
@@ -2873,7 +2875,7 @@ path
 .
 join
 (
-binpath
+respath
 '
 removed
 -
@@ -2895,12 +2897,19 @@ can_launch
 )
 :
         
+if
+not
+mozinfo
+.
+isMac
+:
+            
 for
 lib
 in
 SIGN_LIBS
 :
-            
+                
 libbase
 =
 mozpack
@@ -2909,7 +2918,7 @@ path
 .
 join
 (
-binpath
+respath
 '
 %
 s
@@ -2918,7 +2927,7 @@ s
 '
 )
 \
-                
+                    
 %
 (
 buildconfig
@@ -2931,7 +2940,7 @@ DLL_PREFIX
 ]
 lib
 )
-            
+                
 libname
 =
 '
@@ -2952,7 +2961,7 @@ DLL_SUFFIX
 '
 ]
 )
-            
+                
 if
 copier
 .
@@ -2961,7 +2970,7 @@ contains
 libname
 )
 :
-                
+                    
 copier
 .
 add
@@ -2972,7 +2981,7 @@ libbase
 .
 chk
 '
-                           
+                               
 LibSignFile
 (
 os
@@ -2984,7 +2993,7 @@ join
 args
 .
 destination
-                                                    
+                                                        
 libname
 )
 )
@@ -3290,7 +3299,7 @@ args
 .
 destination
                                                        
-binpath
+respath
 )
 )
 )
