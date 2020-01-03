@@ -20651,9 +20651,15 @@ A
 helper
 that
 sets
-label
-text
+value
+and
+tooltiptext
+attributes
+of
+an
+element
 to
+*
 specified
 value
 .
@@ -20667,7 +20673,7 @@ A
 selector
 for
 the
-label
+element
 .
 *
 param
@@ -20676,9 +20682,8 @@ value
 *
 The
 value
-label
-should
-have
+to
+set
 .
 If
 this
@@ -20686,9 +20691,9 @@ evaluates
 to
 false
 a
-*
 placeholder
 string
+*
 <
 Not
 Available
@@ -20700,7 +20705,7 @@ instead
 *
 /
 function
-setLabel
+setValue
 (
 selector
 value
@@ -20721,8 +20726,11 @@ value
 {
 label
 .
+setAttribute
+(
+"
 value
-=
+"
 L10N
 .
 getStr
@@ -20735,6 +20743,7 @@ security
 notAvailable
 "
 )
+)
 ;
 label
 .
@@ -20745,7 +20754,12 @@ tooltiptext
 "
 label
 .
+getAttribute
+(
+"
 value
+"
+)
 )
 ;
 }
@@ -20753,9 +20767,13 @@ else
 {
 label
 .
+setAttribute
+(
+"
 value
-=
+"
 value
+)
 ;
 label
 .
@@ -20966,7 +20984,7 @@ disabled
 /
 Connection
 parameters
-setLabel
+setValue
 (
 "
 #
@@ -20983,7 +21001,7 @@ securityInfo
 protocolVersion
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21031,7 +21049,7 @@ hostHeader
 domain
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21053,7 +21071,7 @@ related
 to
 the
 domain
-setLabel
+setValue
 (
 "
 #
@@ -21078,7 +21096,7 @@ enabledLabel
 disabledLabel
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21112,7 +21130,7 @@ securityInfo
 .
 cert
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21131,7 +21149,7 @@ subject
 commonName
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21150,7 +21168,7 @@ subject
 organization
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21169,7 +21187,7 @@ subject
 organizationalUnit
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21188,7 +21206,7 @@ issuer
 commonName
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21207,7 +21225,7 @@ issuer
 organization
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21226,7 +21244,7 @@ issuer
 organizationalUnit
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21245,7 +21263,7 @@ validity
 start
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21264,7 +21282,7 @@ validity
 end
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21283,7 +21301,7 @@ fingerprint
 sha1
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -21343,6 +21361,7 @@ html
 "
 )
 ;
+setValue
 (
 "
 #
@@ -21352,15 +21371,12 @@ error
 -
 message
 "
-)
-.
-textContent
-=
 plain
 .
 body
 .
 textContent
+)
 ;
 }
 }

@@ -312,7 +312,7 @@ isnot
 (
 errormsg
 .
-textContent
+value
 "
 "
 "
