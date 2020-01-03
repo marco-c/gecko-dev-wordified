@@ -56294,7 +56294,7 @@ invalid_values
 :
 [
 "
-none
+auto
 "
 "
 5
@@ -56403,7 +56403,7 @@ invalid_values
 :
 [
 "
-none
+auto
 "
 "
 5
