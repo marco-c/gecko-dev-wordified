@@ -1917,6 +1917,16 @@ textureParent
 )
 )
 ;
+tile
+.
+mTextureHost
+-
+>
+SetCompositor
+(
+aCompositor
+)
+;
 if
 (
 texturedDesc
