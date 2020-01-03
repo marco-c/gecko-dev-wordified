@@ -1971,7 +1971,7 @@ eMouseScrollEventClass
 NON_IDL_EVENT
 (
 open
-NS_OPEN
+eOpen
 EventNameType_None
 eBasicEventClass
 )
