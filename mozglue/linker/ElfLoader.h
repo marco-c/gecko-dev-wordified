@@ -2539,9 +2539,9 @@ functions
 mozilla
 :
 :
-UniquePtr
+RefPtr
 <
-BaseElf
+LibHandle
 >
 self_elf
 ;
@@ -2569,6 +2569,10 @@ protected
 friend
 class
 CustomElf
+;
+friend
+class
+LoadedElf
 ;
 /
 *
