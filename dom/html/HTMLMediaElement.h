@@ -3104,6 +3104,11 @@ MozCaptureStream
 ErrorResult
 &
 aRv
+MediaStreamGraph
+*
+aGraph
+=
+nullptr
 )
 ;
 already_AddRefed
@@ -3115,6 +3120,11 @@ MozCaptureStreamUntilEnded
 ErrorResult
 &
 aRv
+MediaStreamGraph
+*
+aGraph
+=
+nullptr
 )
 ;
 bool
@@ -3833,6 +3843,11 @@ CaptureStreamInternal
 (
 bool
 aFinishWhenEnded
+MediaStreamGraph
+*
+aGraph
+=
+nullptr
 )
 ;
 /
