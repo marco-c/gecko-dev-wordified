@@ -428,9 +428,6 @@ mPseudoStack
 ifdef
 MOZ_THREADSTACKHELPER_NATIVE
 class
-CodeModulesProvider
-;
-class
 ThreadContext
 ;
 /
