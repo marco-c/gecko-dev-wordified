@@ -932,6 +932,15 @@ Destroy
 (
 )
 ;
+bool
+IsDestroyed
+(
+)
+{
+return
+mDestroyed
+;
+}
 PCompositableChild
 *
 GetIPDLActor
@@ -1411,6 +1420,9 @@ tiling
 )
 TextureFlags
 mTextureFlags
+;
+bool
+mDestroyed
 ;
 RefPtr
 <

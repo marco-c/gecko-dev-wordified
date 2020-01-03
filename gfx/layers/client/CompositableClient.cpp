@@ -715,6 +715,10 @@ mTextureFlags
 (
 aTextureFlags
 )
+mDestroyed
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -835,6 +839,10 @@ Destroy
 (
 )
 {
+mDestroyed
+=
+true
+;
 if
 (
 !

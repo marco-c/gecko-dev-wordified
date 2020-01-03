@@ -2505,6 +2505,15 @@ mTxn
 Opened
 (
 )
+&
+&
+!
+aCompositable
+-
+>
+IsDestroyed
+(
+)
 )
 {
 mTxn
