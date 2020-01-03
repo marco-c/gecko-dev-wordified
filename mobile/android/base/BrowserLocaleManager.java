@@ -2729,6 +2729,7 @@ GeckoJarReader
 .
 getText
 (
+context
 jarURL
 )
 ;

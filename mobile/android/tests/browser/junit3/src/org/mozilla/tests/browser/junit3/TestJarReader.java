@@ -72,6 +72,13 @@ util
 .
 GeckoJarReader
 ;
+import
+android
+.
+content
+.
+Context
+;
 /
 *
 *
@@ -115,6 +122,22 @@ testJarReader
 (
 )
 {
+final
+Context
+context
+=
+getInstrumentation
+(
+)
+.
+getTargetContext
+(
+)
+.
+getApplicationContext
+(
+)
+;
 String
 appPath
 =
@@ -179,6 +202,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 "
 jar
 :
@@ -250,6 +274,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 "
 jar
 :
@@ -327,6 +352,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 "
 jar
 :
@@ -400,6 +426,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 "
 jar
 :
@@ -476,6 +503,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 "
 jar
 :

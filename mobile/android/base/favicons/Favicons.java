@@ -3821,6 +3821,7 @@ GeckoJarReader
 getBitmap
 (
 context
+context
 .
 getResources
 (
