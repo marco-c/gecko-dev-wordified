@@ -137,11 +137,6 @@ final
 String
 url
 ;
-public
-final
-String
-delimiter
-;
 private
 Link
 (
@@ -149,8 +144,6 @@ String
 label
 String
 url
-String
-delimiter
 )
 {
 this
@@ -164,12 +157,6 @@ this
 url
 =
 url
-;
-this
-.
-delimiter
-=
-delimiter
 ;
 }
 }
@@ -520,8 +507,6 @@ String
 label
 String
 url
-String
-delimiter
 )
 {
 this
@@ -533,7 +518,6 @@ Link
 (
 label
 url
-delimiter
 )
 ;
 }
