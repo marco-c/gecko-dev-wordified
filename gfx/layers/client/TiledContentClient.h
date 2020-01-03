@@ -1382,9 +1382,6 @@ gfxContentType
 aContent
 SurfaceMode
 aMode
-bool
-*
-aCreatedTextureClient
 nsIntRegion
 &
 aAddPaintedRegion
