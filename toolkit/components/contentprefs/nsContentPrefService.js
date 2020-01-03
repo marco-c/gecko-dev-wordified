@@ -344,16 +344,11 @@ arguments
 let
 groupCount
 =
-Object
-.
-keys
-(
 this
 .
 _groups
-)
 .
-length
+size
 ;
 if
 (
@@ -377,7 +372,7 @@ let
 group
 name
 ]
-in
+of
 this
 )
 {
@@ -2714,7 +2709,7 @@ let
 group
 name
 ]
-in
+of
 this
 .
 _privModeStorage
@@ -3092,7 +3087,7 @@ sgroup
 sname
 sval
 ]
-in
+of
 this
 .
 _privModeStorage
@@ -3225,7 +3220,7 @@ sgroup
 sname
 sval
 ]
-in
+of
 this
 .
 _privModeStorage
