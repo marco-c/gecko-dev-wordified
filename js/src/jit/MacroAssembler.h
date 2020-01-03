@@ -7757,6 +7757,13 @@ nargs
 )
 ;
 void
+alignJitStackBasedOnNArgs
+(
+uint32_t
+nargs
+)
+;
+void
 assertStackAlignment
 (
 uint32_t
