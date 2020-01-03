@@ -1162,6 +1162,17 @@ Context
 context
 )
 {
+if
+(
+!
+isUpdaterEnabled
+(
+)
+)
+{
+return
+;
+}
 final
 HashMap
 <
