@@ -112,13 +112,6 @@ json
 .
 JSONObject
 ;
-import
-android
-.
-util
-.
-FloatMath
-;
 public
 class
 IntSize
@@ -562,7 +555,7 @@ val
 (
 int
 )
-FloatMath
+Math
 .
 floor
 (
