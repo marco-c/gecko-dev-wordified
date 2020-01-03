@@ -17734,6 +17734,15 @@ nsRect
 aRect
 )
 ;
+void
+SetReferenceFrame
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
 /
 *
 *
