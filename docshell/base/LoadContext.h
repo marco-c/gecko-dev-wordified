@@ -589,6 +589,7 @@ and
 browser
 flag
 .
+explicit
 LoadContext
 (
 nsIPrincipal
