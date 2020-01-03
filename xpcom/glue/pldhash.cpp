@@ -3837,9 +3837,8 @@ removed
 .
 *
 /
-PL_DHashTableRawRemove
+RawRemove
 (
-this
 entry
 )
 ;
