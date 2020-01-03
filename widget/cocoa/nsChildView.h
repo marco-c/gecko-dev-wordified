@@ -3753,6 +3753,7 @@ bool
 &
 aFocused
 )
+override
 ;
 bool
 IsPluginFocused
