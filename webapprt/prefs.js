@@ -586,7 +586,7 @@ mozPay
 .
 enabled
 "
-true
+false
 )
 ;
 /
