@@ -28204,15 +28204,15 @@ source
                   
 nsCOMPtr
 <
-nsPIDOMWindow
+nsIGlobalObject
 >
-ourWindow
+contentGlobal
 ;
                   
 if
 (
 !
-GetWindowForJSImplementedObject
+GetContentGlobalForJSImplementedObject
 (
 cx
 Callback
@@ -28220,7 +28220,7 @@ Callback
 )
 getter_AddRefs
 (
-ourWindow
+contentGlobal
 )
 )
 )
@@ -28260,7 +28260,7 @@ type
 }
 (
 jsImplSourceObj
-ourWindow
+contentGlobal
 )
 ;
                 
@@ -97204,7 +97204,7 @@ jsImplemented
 bindingHeaders
 [
 "
-nsPIDOMWindow
+nsIGlobalObject
 .
 h
 "
@@ -105145,18 +105145,6 @@ is
 available
 .
                 
-nsCOMPtr
-<
-nsIGlobalObject
->
-globalHolder
-=
-do_QueryInterface
-(
-window
-)
-;
-                
 JS
 :
 :
@@ -105364,9 +105352,9 @@ cx
         
 nsCOMPtr
 <
-nsPIDOMWindow
+nsIGlobalObject
 >
-window
+globalHolder
 =
           
 ConstructJSImplementation
@@ -105424,7 +105412,7 @@ implClass
 }
 (
 jsImplObj
-window
+globalHolder
 )
 ;
         
@@ -106674,7 +106662,7 @@ aJSImplObject
 Argument
 (
 "
-nsPIDOMWindow
+nsIGlobalObject
 *
 "
 "
@@ -107193,9 +107181,9 @@ false
             
 nsCOMPtr
 <
-nsPIDOMWindow
+nsIGlobalObject
 >
-window
+globalHolder
 =
 do_QueryInterface
 (
@@ -107207,35 +107195,11 @@ GetAsSupports
 )
 ;
             
-if
+MOZ_ASSERT
 (
-!
-window
-)
-{
-              
-return
-ThrowErrorMessage
-(
-cx
-MSG_DOES_NOT_IMPLEMENT_INTERFACE
-"
-Argument
-1
-of
-{
-ifaceName
-}
-.
-_create
-"
-"
-Window
-"
+globalHolder
 )
 ;
-            
-}
             
 JS
 :
@@ -107274,7 +107238,7 @@ implName
 }
 (
 arg
-window
+globalHolder
 )
 ;
             

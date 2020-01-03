@@ -137,7 +137,7 @@ JSObject
 *
 >
 aJSImpl
-nsPIDOMWindow
+nsIGlobalObject
 *
 aParent
 )
@@ -164,7 +164,7 @@ public
 explicit
 TestCImplementedInterface2
 (
-nsPIDOMWindow
+nsIGlobalObject
 *
 aParent
 )

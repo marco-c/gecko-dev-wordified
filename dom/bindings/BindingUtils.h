@@ -15818,7 +15818,7 @@ WebIDL
 interface
 get
 the
-nsPIDOMWindow
+nsIGlobalObject
 corresponding
 to
 the
@@ -15839,7 +15839,7 @@ was
 thrown
 .
 bool
-GetWindowForJSImplementedObject
+GetContentGlobalForJSImplementedObject
 (
 JSContext
 *
@@ -15853,10 +15853,10 @@ JSObject
 *
 >
 obj
-nsPIDOMWindow
+nsIGlobalObject
 *
 *
-window
+global
 )
 ;
 void
@@ -15869,9 +15869,9 @@ const
 char
 *
 aContractId
-nsPIDOMWindow
+nsIGlobalObject
 *
-aWindow
+aGlobal
 JS
 :
 :
@@ -15888,7 +15888,7 @@ aRv
 ;
 already_AddRefed
 <
-nsPIDOMWindow
+nsIGlobalObject
 >
 ConstructJSImplementation
 (
