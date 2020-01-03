@@ -68,11 +68,7 @@ import
 unicode_literals
 print_function
 import
-mozpack
-.
-path
-import
-logging
+argparse
 import
 os
 import
@@ -82,9 +78,9 @@ sys
 import
 urllib2
 from
-StringIO
+mozlog
 import
-StringIO
+structured
 from
 mozbuild
 .
@@ -112,6 +108,21 @@ CommandArgument
 CommandProvider
     
 Command
+)
+_parser
+=
+argparse
+.
+ArgumentParser
+(
+)
+structured
+.
+commandline
+.
+add_logging_group
+(
+_parser
 )
 ADB_NOT_FOUND
 =
@@ -241,58 +252,6 @@ else
 unicode_type
 =
 str
-#
-Simple
-filter
-to
-omit
-the
-message
-emitted
-as
-a
-test
-file
-begins
-.
-class
-TestStartFilter
-(
-logging
-.
-Filter
-)
-:
-    
-def
-filter
-(
-self
-record
-)
-:
-        
-return
-not
-record
-.
-params
-[
-'
-msg
-'
-]
-.
-endswith
-(
-"
-running
-test
-.
-.
-.
-"
-)
 #
 This
 should
@@ -448,6 +407,10 @@ verbose
 =
 False
                  
+log
+=
+None
+                 
 #
 ignore
 parameters
@@ -581,6 +544,9 @@ rerun_failures
 verbose
 =
 verbose
+log
+=
+log
 )
             
 return
@@ -787,6 +753,12 @@ verbose
 '
 :
 verbose
+            
+'
+log
+'
+:
+log
         
 }
         
@@ -839,6 +811,9 @@ False
 verbose
 =
 False
+log
+=
+None
 )
 :
         
@@ -856,12 +831,6 @@ runner
 import
 runxpcshelltests
         
-dummy_log
-=
-StringIO
-(
-)
-        
 xpcshell
 =
 runxpcshelltests
@@ -870,7 +839,7 @@ XPCShellTests
 (
 log
 =
-dummy_log
+log
 )
         
 self
@@ -879,23 +848,6 @@ log_manager
 .
 enable_unstructured
 (
-)
-        
-xpcshell_filter
-=
-TestStartFilter
-(
-)
-        
-self
-.
-log_manager
-.
-terminal_handler
-.
-addFilter
-(
-xpcshell_filter
 )
         
 tests_dir
@@ -984,12 +936,6 @@ test_paths
 1
 )
 )
-        
-verbose_output
-=
-verbose
-or
-single_test
         
 sequential
 =
@@ -1114,10 +1060,9 @@ firefox
 verbose
 '
 :
-test_path
-is
-not
-None
+verbose
+or
+single_test
             
 '
 xunitFilename
@@ -1184,43 +1129,6 @@ debuggerInteractive
 '
 :
 debuggerInteractive
-            
-'
-on_message
-'
-:
-(
-lambda
-obj
-msg
-:
-xpcshell
-.
-log
-.
-info
-(
-msg
-.
-decode
-(
-'
-utf
--
-8
-'
-'
-replace
-'
-)
-)
-)
-\
-                            
-if
-verbose_output
-else
-None
         
 }
         
@@ -1515,17 +1423,6 @@ self
 .
 log_manager
 .
-terminal_handler
-.
-removeFilter
-(
-xpcshell_filter
-)
-        
-self
-.
-log_manager
-.
 disable_unstructured
 (
 )
@@ -1738,6 +1635,9 @@ no_setup
 local_apk
                  
 test_objects
+=
+None
+log
 =
 None
                  
@@ -2262,12 +2162,6 @@ verbose
 =
 True
         
-dummy_log
-=
-StringIO
-(
-)
-        
 xpcshell
 =
 remotexpcshelltests
@@ -2276,37 +2170,8 @@ XPCShellRemote
 (
 dm
 options
-args
-=
 testdirs
 log
-=
-dummy_log
-)
-        
-self
-.
-log_manager
-.
-enable_unstructured
-(
-)
-        
-xpcshell_filter
-=
-TestStartFilter
-(
-)
-        
-self
-.
-log_manager
-.
-terminal_handler
-.
-addFilter
-(
-xpcshell_filter
 )
         
 result
@@ -2342,25 +2207,6 @@ mobileArgs
 options
 .
 __dict__
-)
-        
-self
-.
-log_manager
-.
-terminal_handler
-.
-removeFilter
-(
-xpcshell_filter
-)
-        
-self
-.
-log_manager
-.
-disable_unstructured
-(
 )
         
 return
@@ -2729,6 +2575,9 @@ device_name
 None
                  
 test_objects
+=
+None
+log
 =
 None
                  
@@ -3138,6 +2987,7 @@ run_remote_xpcshell
 parser
 options
 args
+log
 )
 def
 is_platform_supported
@@ -3269,6 +3119,10 @@ unit
 testing
 )
 '
+        
+parser
+=
+_parser
 )
     
 CommandArgument
@@ -3933,6 +3787,49 @@ install_tests
 remove
 =
 False
+)
+        
+structured
+.
+commandline
+.
+formatter_option_defaults
+[
+'
+verbose
+'
+]
+=
+True
+        
+params
+[
+'
+log
+'
+]
+=
+structured
+.
+commandline
+.
+setup_logging
+(
+"
+XPCShellTests
+"
+                                                             
+params
+                                                             
+{
+"
+mach
+"
+:
+sys
+.
+stdout
+}
 )
         
 if
