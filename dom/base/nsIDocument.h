@@ -17557,7 +17557,7 @@ on
 every
 set
 of
-mSecriptGlobalObject
+mScriptGlobalObject
 .
 nsPIDOMWindow
 *
