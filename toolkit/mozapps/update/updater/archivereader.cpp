@@ -205,7 +205,7 @@ ifdef
 MOZ_VERIFY_MAR_SIGNATURE
 #
 ifdef
-TEST_UPDATER
+UPDATER_XPCSHELL_CERT
 #
 include
 "
@@ -525,7 +525,7 @@ OK
 else
 #
 ifdef
-TEST_UPDATER
+UPDATER_XPCSHELL_CERT
 int
 rv
 =
