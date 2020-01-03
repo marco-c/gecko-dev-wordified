@@ -9788,10 +9788,6 @@ SetState
 DECODER_STATE_DORMANT
 )
 ;
-StopPlayback
-(
-)
-;
 mDecoder
 -
 >
