@@ -1654,6 +1654,8 @@ aDesiredSize
 nscoord
 &
 aValueToUpdate
+float
+aFontSizeInflation
 )
 const
 {
@@ -1848,6 +1850,7 @@ PresContext
 )
 mStyleContext
 aCSSValue
+aFontSizeInflation
 )
 ;
 if
@@ -2367,6 +2370,17 @@ initialWidth
 =
 width
 ;
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
+;
 /
 /
 update
@@ -2391,6 +2405,7 @@ pseudoUnit
 mWidth
 aDesiredSize
 width
+fontSizeInflation
 )
 ;
 width
@@ -2442,6 +2457,7 @@ pseudoUnit
 mHeight
 aDesiredSize
 height
+fontSizeInflation
 )
 ;
 height
@@ -2493,6 +2509,7 @@ pseudoUnit
 mDepth
 aDesiredSize
 depth
+fontSizeInflation
 )
 ;
 depth
@@ -2529,6 +2546,7 @@ pseudoUnit
 mLeadingSpace
 aDesiredSize
 lspace
+fontSizeInflation
 )
 ;
 }
@@ -2555,6 +2573,7 @@ pseudoUnit
 mVerticalOffset
 aDesiredSize
 voffset
+fontSizeInflation
 )
 ;
 }

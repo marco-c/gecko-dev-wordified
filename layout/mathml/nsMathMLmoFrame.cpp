@@ -1415,6 +1415,17 @@ mFlags
 nsAutoString
 value
 ;
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
+;
 /
 /
 special
@@ -2701,6 +2712,7 @@ getter_AddRefs
 (
 fm
 )
+fontSizeInflation
 )
 ;
 GetEmHeight
@@ -3024,6 +3036,7 @@ CalcLength
 presContext
 mStyleContext
 cssValue
+fontSizeInflation
 )
 ;
 mFlags
@@ -3206,6 +3219,7 @@ CalcLength
 presContext
 mStyleContext
 cssValue
+fontSizeInflation
 )
 ;
 mFlags
@@ -3838,6 +3852,7 @@ CalcLength
 presContext
 mStyleContext
 cssValue
+fontSizeInflation
 )
 )
 ;
@@ -4049,6 +4064,7 @@ CalcLength
 presContext
 mStyleContext
 cssValue
+fontSizeInflation
 )
 )
 ;
@@ -4427,6 +4443,13 @@ this
 getter_AddRefs
 (
 fm
+)
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
 )
 )
 ;

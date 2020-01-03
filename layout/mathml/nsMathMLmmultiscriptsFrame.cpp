@@ -624,6 +624,17 @@ Tag
 (
 )
 ;
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
+;
 /
 /
 subscriptshift
@@ -751,6 +762,7 @@ PresContext
 (
 )
 mStyleContext
+fontSizeInflation
 )
 ;
 }
@@ -879,6 +891,7 @@ PresContext
 (
 )
 mStyleContext
+fontSizeInflation
 )
 ;
 }
@@ -895,6 +908,7 @@ aDesiredSize
 this
 subScriptShift
 supScriptShift
+fontSizeInflation
 )
 ;
 }
@@ -943,6 +957,8 @@ nscoord
 aUserSubScriptShift
 nscoord
 aUserSupScriptShift
+float
+aFontSizeInflation
 )
 {
 nsIAtom
@@ -1251,6 +1267,7 @@ getter_AddRefs
 (
 fm
 )
+aFontSizeInflation
 )
 ;
 nscoord
@@ -2728,6 +2745,7 @@ GetSubDropFromChild
 (
 subScriptFrame
 subDrop
+aFontSizeInflation
 )
 ;
 /
@@ -3031,6 +3049,7 @@ GetSupDropFromChild
 (
 supScriptFrame
 supDrop
+aFontSizeInflation
 )
 ;
 /

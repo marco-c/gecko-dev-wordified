@@ -2639,6 +2639,8 @@ nscoord
 aDefaultValue0
 nscoord
 aDefaultValue1
+float
+aFontSizeInflation
 )
 {
 nsPresContext
@@ -2865,6 +2867,7 @@ nsMathMLElement
 PARSE_ALLOW_UNITLESS
 presContext
 styleContext
+aFontSizeInflation
 )
 ;
 aSpacingArray
@@ -3030,6 +3033,17 @@ value2
 /
 Set
 defaults
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+aFrame
+)
+;
 nsRefPtr
 <
 nsFontMetrics
@@ -3046,6 +3060,7 @@ getter_AddRefs
 (
 fm
 )
+fontSizeInflation
 )
 ;
 if
@@ -3142,6 +3157,7 @@ valueList
 aFrame
 value
 value2
+fontSizeInflation
 )
 ;
 if
@@ -5678,6 +5694,13 @@ this
 getter_AddRefs
 (
 fm
+)
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
 )
 )
 ;
