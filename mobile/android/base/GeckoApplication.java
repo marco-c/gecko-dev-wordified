@@ -739,6 +739,12 @@ loadMozGlue
 context
 )
 ;
+DownloadsIntegration
+.
+init
+(
+)
+;
 HomePanelsManager
 .
 getInstance
