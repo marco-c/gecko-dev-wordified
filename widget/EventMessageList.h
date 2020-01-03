@@ -642,7 +642,7 @@ eFormEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_FORM_INVALID
+eFormInvalid
 eFormEventFirst
 +
 4
