@@ -190,7 +190,7 @@ mozilla
 /
 dom
 /
-BluetoothManager2Binding
+BluetoothManagerBinding
 .
 h
 "
