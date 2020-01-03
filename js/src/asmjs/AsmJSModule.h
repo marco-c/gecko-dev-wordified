@@ -453,6 +453,9 @@ AsmJSSimdOperation_equal
 AsmJSSimdOperation_notEqual
 AsmJSSimdOperation_greaterThan
 AsmJSSimdOperation_greaterThanOrEqual
+AsmJSSimdOperation_and
+AsmJSSimdOperation_or
+AsmJSSimdOperation_xor
 }
 ;
 /
