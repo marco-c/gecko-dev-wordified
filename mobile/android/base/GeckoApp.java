@@ -13631,6 +13631,9 @@ rec
 .
 close
 (
+GeckoApp
+.
+this
 )
 ;
 }

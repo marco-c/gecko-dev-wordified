@@ -103,6 +103,13 @@ android
 .
 content
 .
+Context
+;
+import
+android
+.
+content
+.
 SharedPreferences
 ;
 import
@@ -294,6 +301,9 @@ public
 void
 close
 (
+final
+Context
+context
 )
 {
 }
