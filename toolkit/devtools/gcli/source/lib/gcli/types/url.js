@@ -420,11 +420,13 @@ base
 ref
 if
 (
+'
+window
+'
+in
 context
 .
 environment
-.
-window
 )
 {
 try

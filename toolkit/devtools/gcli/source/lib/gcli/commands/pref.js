@@ -209,6 +209,11 @@ name
 pref
 show
 '
+runAt
+:
+'
+client
+'
 description
 :
 l10n
@@ -315,6 +320,11 @@ name
 '
 pref
 set
+'
+runAt
+:
+'
+client
 '
 description
 :
@@ -442,6 +452,11 @@ name
 '
 pref
 reset
+'
+runAt
+:
+'
+client
 '
 description
 :

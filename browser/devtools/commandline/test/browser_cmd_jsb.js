@@ -92,6 +92,7 @@ handleError
 ;
 }
 function
+*
 testTask
 (
 )
@@ -188,6 +189,13 @@ window
 exec
 :
 {
+output
+:
+'
+'
+error
+:
+false
 }
 }
 ]

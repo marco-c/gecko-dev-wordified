@@ -275,7 +275,7 @@ input
 return
 this
 .
-eval
+evaluate
 (
 input
 )
@@ -287,20 +287,6 @@ function
 response
 )
 {
-/
-/
-console
-.
-log
-(
-'
-javascript
-.
-exec
-'
-response
-)
-;
 var
 output
 =
@@ -588,7 +574,7 @@ this
 )
 ;
 }
-eval
+evaluate
 :
 function
 (
@@ -600,7 +586,7 @@ host
 .
 script
 .
-eval
+evaluate
 (
 input
 )

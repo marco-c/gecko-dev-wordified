@@ -76,14 +76,14 @@ chrome
 )
 ;
 const
-gcli
+l10n
 =
 require
 (
 "
 gcli
 /
-index
+l10n
 "
 )
 ;
@@ -177,6 +177,16 @@ items
 =
 [
 {
+item
+:
+"
+command
+"
+runAt
+:
+"
+client
+"
 name
 :
 "
@@ -184,7 +194,7 @@ jsb
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -213,7 +223,7 @@ string
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -225,7 +235,7 @@ jsbUrlDesc
 {
 group
 :
-gcli
+l10n
 .
 lookup
 (
@@ -249,7 +259,7 @@ number
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -259,7 +269,7 @@ jsbIndentSizeDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -328,7 +338,7 @@ t
 }
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -338,7 +348,7 @@ jsbIndentCharDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -364,7 +374,7 @@ boolean
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -386,7 +396,7 @@ number
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -396,7 +406,7 @@ jsbPreserveMaxNewlinesDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -422,7 +432,7 @@ boolean
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -432,7 +442,7 @@ jsbJslintHappyDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -478,7 +488,7 @@ strict
 }
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -488,7 +498,7 @@ jsbBraceStyleDesc2
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -515,7 +525,7 @@ boolean
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -537,7 +547,7 @@ boolean
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -547,7 +557,7 @@ jsbUnescapeStringsDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -655,7 +665,7 @@ e
 )
 {
 return
-gcli
+l10n
 .
 lookup
 (
@@ -680,7 +690,6 @@ onreadystatechange
 =
 function
 (
-aEvt
 )
 {
 if
@@ -773,7 +782,7 @@ else
 {
 deferred
 .
-resolve
+reject
 (
 "
 Unable

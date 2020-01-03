@@ -1363,7 +1363,7 @@ exports
 .
 script
 .
-eval
+evaluate
 =
 function
 (

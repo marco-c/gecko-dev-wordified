@@ -145,6 +145,7 @@ button
 "
 )
 ;
+yield
 testButton
 (
 toolbox
@@ -174,6 +175,7 @@ removeCurrentTab
 )
 ;
 function
+*
 testButton
 (
 toolbox
@@ -212,6 +214,21 @@ button
 "
 )
 ;
+let
+clicked
+=
+toolbox
+.
+_requisition
+.
+commandOutputManager
+.
+onOutput
+.
+once
+(
+)
+;
 info
 (
 "
@@ -230,6 +247,9 @@ button
 click
 (
 )
+;
+yield
+clicked
 ;
 checkResults
 (

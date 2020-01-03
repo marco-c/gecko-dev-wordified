@@ -62,14 +62,14 @@ strict
 "
 ;
 const
-gcli
+l10n
 =
 require
 (
 "
 gcli
 /
-index
+l10n
 "
 )
 ;
@@ -164,7 +164,7 @@ tilt
 '
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -174,7 +174,7 @@ tiltDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -195,7 +195,7 @@ open
 '
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -205,7 +205,7 @@ tiltOpenDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -233,7 +233,7 @@ context
 )
 {
 return
-gcli
+l10n
 .
 lookupFormat
 (
@@ -316,7 +316,7 @@ invertable
 "
 tooltipText
 :
-gcli
+l10n
 .
 lookup
 (
@@ -467,7 +467,7 @@ context
 )
 {
 return
-gcli
+l10n
 .
 lookupFormat
 (
@@ -520,7 +520,7 @@ translate
 '
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -530,7 +530,7 @@ tiltTranslateDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -560,7 +560,7 @@ defaultValue
 0
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -570,7 +570,7 @@ tiltTranslateXDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -595,7 +595,7 @@ defaultValue
 0
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -605,7 +605,7 @@ tiltTranslateYDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -632,7 +632,7 @@ context
 )
 {
 return
-gcli
+l10n
 .
 lookupFormat
 (
@@ -707,7 +707,7 @@ rotate
 '
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -717,7 +717,7 @@ tiltRotateDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -761,7 +761,7 @@ defaultValue
 0
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -771,7 +771,7 @@ tiltRotateXDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -810,7 +810,7 @@ defaultValue
 0
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -820,7 +820,7 @@ tiltRotateYDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -859,7 +859,7 @@ defaultValue
 0
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -869,7 +869,7 @@ tiltRotateZDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -896,7 +896,7 @@ context
 )
 {
 return
-gcli
+l10n
 .
 lookupFormat
 (
@@ -974,7 +974,7 @@ zoom
 '
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -984,7 +984,7 @@ tiltZoomDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -1015,7 +1015,7 @@ number
 }
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -1025,7 +1025,7 @@ tiltZoomAmountDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -1052,7 +1052,7 @@ context
 )
 {
 return
-gcli
+l10n
 .
 lookupFormat
 (
@@ -1123,7 +1123,7 @@ reset
 '
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -1133,7 +1133,7 @@ tiltResetDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -1161,7 +1161,7 @@ context
 )
 {
 return
-gcli
+l10n
 .
 lookupFormat
 (
@@ -1228,7 +1228,7 @@ close
 '
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -1238,7 +1238,7 @@ tiltCloseDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -1266,7 +1266,7 @@ context
 )
 {
 return
-gcli
+l10n
 .
 lookupFormat
 (

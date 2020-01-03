@@ -734,12 +734,6 @@ a
 new
 setting
 *
-return
-The
-new
-Setting
-object
-*
 /
 Settings
 .

@@ -116,6 +116,7 @@ handleError
 ;
 }
 function
+*
 spawnTest
 (
 )

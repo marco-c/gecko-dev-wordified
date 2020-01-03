@@ -111,6 +111,18 @@ index
 "
 )
 ;
+const
+l10n
+=
+require
+(
+"
+gcli
+/
+l10n
+"
+)
+;
 require
 (
 "
@@ -163,7 +175,7 @@ rulers
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -173,7 +185,7 @@ rulersDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookup
 (
@@ -204,7 +216,7 @@ invertable
 "
 tooltipText
 :
-gcli
+l10n
 .
 lookup
 (
