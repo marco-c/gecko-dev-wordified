@@ -1300,7 +1300,7 @@ uint8_t
 *
 *
 aVoucher
-uint8_t
+uint32_t
 *
 aVoucherLength
 )
@@ -1316,7 +1316,7 @@ uint8_t
 *
 *
 aVoucher
-uint8_t
+uint32_t
 *
 aVoucherLength
 )
