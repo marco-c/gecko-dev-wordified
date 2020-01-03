@@ -3268,6 +3268,12 @@ segment
 .
 if
 (
+aLength
+>
+mEvictionThreshold
+|
+|
+(
 (
 mTrackBuffer
 -
@@ -3288,6 +3294,7 @@ mTrackBuffer
 >
 HasOnlyIncompleteMedia
 (
+)
 )
 )
 {
