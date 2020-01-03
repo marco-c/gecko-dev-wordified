@@ -393,13 +393,7 @@ BluetoothParent
 public
 PBluetoothParent
 public
-mozilla
-:
-:
-Observer
-<
-BluetoothSignal
->
+BluetoothSignalObserver
 {
 friend
 class
