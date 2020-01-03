@@ -5274,8 +5274,14 @@ aElement
 nsresult
 RemoveElementIfNoStyleOrIdOrClass
 (
-nsIDOMNode
-*
+mozilla
+:
+:
+dom
+:
+:
+Element
+&
 aElement
 )
 ;
