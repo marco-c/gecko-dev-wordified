@@ -4201,7 +4201,7 @@ mBackground
 #
 else
 return
-nullptr
+false
 ;
 #
 endif
