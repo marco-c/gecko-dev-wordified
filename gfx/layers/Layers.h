@@ -2634,8 +2634,7 @@ can
 be
 used
 during
-Thebes
-layer
+PaintedLayer
 creation
 to
 influence
@@ -4860,7 +4859,7 @@ TYPE_IMAGE
 TYPE_READBACK
 TYPE_REF
 TYPE_SHADOW
-TYPE_THEBES
+TYPE_PAINTED
 }
 ;
 /
@@ -9123,8 +9122,7 @@ Dynamic
 downcast
 to
 a
-Thebes
-layer
+PaintedLayer
 .
 Returns
 null
@@ -11400,10 +11398,8 @@ Layer
 which
 we
 can
-draw
+paint
 into
-using
-Thebes
 .
 It
 is
@@ -11693,7 +11689,7 @@ MOZ_LAYER_DECL_NAME
 "
 PaintedLayer
 "
-TYPE_THEBES
+TYPE_PAINTED
 )
 virtual
 void

@@ -910,8 +910,7 @@ NS_WARNING
 (
 "
 Tiled
-Thebes
-layer
+PaintedLayer
 with
 no
 scrollable

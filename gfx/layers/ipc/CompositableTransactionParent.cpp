@@ -827,7 +827,7 @@ GetType
 Layer
 :
 :
-TYPE_THEBES
+TYPE_PAINTED
 )
 {
 return

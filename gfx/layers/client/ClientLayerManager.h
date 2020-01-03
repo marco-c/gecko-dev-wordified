@@ -1703,8 +1703,7 @@ mWidget
 ;
 /
 *
-Thebes
-layer
+PaintedLayer
 callbacks
 ;
 valid

@@ -233,8 +233,7 @@ layers
 *
 *
 *
-Thebes
-layers
+PaintedLayers
 use
 ContentHosts
 for
@@ -255,8 +254,7 @@ and
 non
 -
 tiled
-Thebes
-layers
+PaintedLayers
 and
 single
 or
@@ -462,7 +460,7 @@ MOZ_LAYER_DECL_NAME
 "
 PaintedLayerComposite
 "
-TYPE_THEBES
+TYPE_PAINTED
 )
 protected
 :

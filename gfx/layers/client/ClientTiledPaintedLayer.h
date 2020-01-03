@@ -199,8 +199,7 @@ bandwidth
 *
 *
 Tiled
-Thebes
-layers
+PaintedLayers
 use
 a
 different
@@ -368,8 +367,7 @@ TiledPaintedLayer
 }
 /
 /
-Thebes
-Layer
+PaintedLayer
 virtual
 Layer
 *

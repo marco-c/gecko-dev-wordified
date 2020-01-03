@@ -388,8 +388,7 @@ A
 compositable
 client
 for
-Thebes
-layers
+PaintedLayers
 .
 These
 are

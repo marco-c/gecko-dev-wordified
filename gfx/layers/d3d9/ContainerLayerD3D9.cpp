@@ -1145,7 +1145,7 @@ GetType
 )
 =
 =
-TYPE_THEBES
+TYPE_PAINTED
 )
 {
 static_cast

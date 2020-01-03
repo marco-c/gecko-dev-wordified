@@ -1023,8 +1023,7 @@ mUninitialized
 ContentHost
 for
 tiled
-Thebes
-layers
+PaintedLayers
 .
 Since
 tiled

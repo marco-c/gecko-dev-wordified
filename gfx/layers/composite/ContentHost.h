@@ -476,7 +476,7 @@ are
 used
 for
 compositing
-Thebes
+Painted
 layers
 always
 matched

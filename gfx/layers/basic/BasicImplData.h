@@ -191,8 +191,7 @@ contents
 of
 non
 -
-Thebes
-layers
+PaintedLayers
 .
 *
 *

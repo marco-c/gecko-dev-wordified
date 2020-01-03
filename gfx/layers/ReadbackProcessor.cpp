@@ -731,7 +731,7 @@ type
 Layer
 :
 :
-TYPE_THEBES
+TYPE_PAINTED
 )
 return
 nullptr

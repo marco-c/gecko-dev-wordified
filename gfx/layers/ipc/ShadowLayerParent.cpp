@@ -571,7 +571,7 @@ GetType
 Layer
 :
 :
-TYPE_THEBES
+TYPE_PAINTED
 ?
 static_cast
 <

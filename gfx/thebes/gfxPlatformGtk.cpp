@@ -576,8 +576,7 @@ gdkScreen
 /
 When
 forcing
-Thebes
-Layers
+PaintedLayers
 to
 use
 image

@@ -8454,7 +8454,7 @@ GetType
 )
 =
 =
-TYPE_THEBES
+TYPE_PAINTED
 )
 {
 WriteSnapshotLinkToDumpFile

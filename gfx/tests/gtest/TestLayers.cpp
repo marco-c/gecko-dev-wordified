@@ -388,7 +388,7 @@ GetType
 const
 {
 return
-TYPE_THEBES
+TYPE_PAINTED
 ;
 }
 virtual

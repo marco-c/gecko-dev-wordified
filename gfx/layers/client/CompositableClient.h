@@ -726,7 +726,7 @@ cpp
 *
 Subclasses
 :
-Thebes
+Painted
 layers
 use
 ContentClients

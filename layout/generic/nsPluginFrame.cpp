@@ -2077,8 +2077,7 @@ ensure
 /
 /
 the
-Thebes
-layer
+PaintedLayer
 containing
 the
 plugin

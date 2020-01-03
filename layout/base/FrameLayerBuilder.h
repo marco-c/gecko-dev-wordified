@@ -782,7 +782,7 @@ that
 0
 in
 the
-Thebes
+Painted
 layer
 *
 corresponds
@@ -1578,7 +1578,7 @@ dedicated
 (
 non
 -
-Thebes
+Painted
 )
 layer
 *
@@ -1962,7 +1962,7 @@ frame
 *
 /
 void
-AddThebesDisplayItem
+AddPaintedDisplayItem
 (
 PaintedLayerData
 *
