@@ -13368,6 +13368,9 @@ emitAsmJSCall
 ins
 )
 ;
+return
+true
+;
 }
 bool
 CodeGeneratorMIPS
