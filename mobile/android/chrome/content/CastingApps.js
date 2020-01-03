@@ -248,13 +248,13 @@ mp4
 }
 ;
 var
-fireflyDevice
+matchstickDevice
 =
 {
 id
 :
 "
-firefly
+matchstick
 :
 dial
 "
@@ -308,7 +308,7 @@ gre
 /
 modules
 /
-FireflyApp
+MatchstickApp
 .
 jsm
 "
@@ -316,7 +316,7 @@ jsm
 ;
 return
 new
-FireflyApp
+MatchstickApp
 (
 aService
 )
@@ -490,7 +490,7 @@ SimpleServiceDiscovery
 .
 registerDevice
 (
-fireflyDevice
+matchstickDevice
 )
 ;
 SimpleServiceDiscovery
