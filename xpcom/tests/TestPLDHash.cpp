@@ -688,7 +688,7 @@ true
 if
 (
 !
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 t
@@ -698,7 +698,6 @@ void
 *
 )
 numInserted
-PL_DHASH_ADD
 )
 )
 {
