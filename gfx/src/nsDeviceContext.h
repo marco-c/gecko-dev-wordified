@@ -1653,7 +1653,7 @@ CalcPrintingSize
 )
 ;
 void
-UpdateScaledAppUnits
+UpdateAppUnitsForFullZoom
 (
 )
 ;
