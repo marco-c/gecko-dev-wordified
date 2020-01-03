@@ -152,7 +152,7 @@ millis
 const
 TIME_INTERVAL_MULTIPLE
 =
-10
+25
 ;
 const
 TIME_INTERVAL_SCALES
