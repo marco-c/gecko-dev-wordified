@@ -4144,6 +4144,9 @@ matchInOrOf
 (
 bool
 *
+isForInp
+bool
+*
 isForOfp
 )
 ;
