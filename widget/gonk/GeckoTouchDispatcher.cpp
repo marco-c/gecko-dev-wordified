@@ -1476,9 +1476,9 @@ i
 const
 SingleTouchData
 &
-base
+current
 =
-aBase
+aCurrent
 .
 mTouches
 [
@@ -1488,12 +1488,12 @@ i
 const
 SingleTouchData
 &
-current
+base
 =
 GetTouchByID
 (
-base
-aCurrent
+current
+aBase
 )
 ;
 const
