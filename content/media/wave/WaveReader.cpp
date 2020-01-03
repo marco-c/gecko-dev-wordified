@@ -3447,6 +3447,11 @@ if
 aChunkSize
 >
 MAX_CHUNK_SIZE
+|
+|
+aChunkSize
+<
+4
 )
 {
 return
