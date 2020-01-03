@@ -636,6 +636,9 @@ targetPlatforms
 "
 multiprocessCompatible
 "
+"
+signedState
+"
 ]
 ;
 /
