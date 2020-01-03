@@ -1560,10 +1560,11 @@ jit
 :
 Address
 (
-jit
-:
-:
-StackPointer
+masm
+.
+getStackPointer
+(
+)
 register_offset
 (
 register_index

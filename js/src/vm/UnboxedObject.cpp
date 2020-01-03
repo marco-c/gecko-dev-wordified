@@ -672,7 +672,11 @@ loadPtr
 (
 Address
 (
-StackPointer
+masm
+.
+getStackPointer
+(
+)
 sizeof
 (
 void
@@ -688,7 +692,11 @@ loadPtr
 (
 Address
 (
-StackPointer
+masm
+.
+getStackPointer
+(
+)
 2
 *
 sizeof

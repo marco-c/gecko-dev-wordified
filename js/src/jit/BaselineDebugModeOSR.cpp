@@ -7467,9 +7467,8 @@ syncing
 .
 masm
 .
-movePtr
+moveStackPtrTo
 (
-StackPointer
 syncedStackStart
 )
 ;
@@ -7626,7 +7625,7 @@ temp
 ;
 masm
 .
-addPtr
+addToStackPtr
 (
 Address
 (
@@ -7637,7 +7636,6 @@ BaselineDebugModeOSRInfo
 stackAdjust
 )
 )
-StackPointer
 )
 ;
 /
