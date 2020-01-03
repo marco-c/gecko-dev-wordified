@@ -512,6 +512,7 @@ StructuredCloneHelper
 (
 CloningSupported
 TransferringSupported
+SameProcessDifferentThread
 )
 mWindowId
 (
@@ -1091,7 +1092,6 @@ Write
 aCx
 aMessage
 transferable
-true
 aRv
 )
 ;

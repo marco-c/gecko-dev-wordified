@@ -251,6 +251,7 @@ StructuredCloneHelper
 (
 CloningSupported
 TransferringNotSupported
+DifferentProcess
 )
 mState
 (
@@ -331,7 +332,6 @@ Write
 (
 aCx
 aData
-true
 rv
 )
 ;

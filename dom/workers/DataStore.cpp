@@ -1135,6 +1135,7 @@ StructuredCloneHelper
 (
 CloningNotSupported
 TransferringNotSupported
+SameProcessDifferentThread
 )
 mId
 (
@@ -1183,7 +1184,6 @@ Write
 (
 aCx
 aObj
-true
 mRv
 )
 ;
@@ -1442,6 +1442,7 @@ StructuredCloneHelper
 (
 CloningNotSupported
 TransferringNotSupported
+SameProcessDifferentThread
 )
 mId
 (
@@ -1490,7 +1491,6 @@ Write
 (
 aCx
 aObj
-true
 mRv
 )
 ;

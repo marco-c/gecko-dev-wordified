@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsStringStream
 .
 h

@@ -1434,6 +1434,7 @@ StructuredCloneHelper
 (
 CloningSupported
 TransferringNotSupported
+SameProcessDifferentThread
 )
 mStringBody
 (
@@ -2540,6 +2541,7 @@ StructuredCloneHelper
 (
 CloningSupported
 TransferringNotSupported
+SameProcessDifferentThread
 )
 mType
 (
@@ -2632,6 +2634,7 @@ StructuredCloneHelper
 (
 CloningSupported
 TransferringNotSupported
+SameProcessDifferentThread
 )
 mType
 (
@@ -5392,7 +5395,6 @@ Write
 aCx
 response
 transferable
-false
 rv
 )
 ;
@@ -9523,7 +9525,6 @@ Write
 (
 cx
 valToClone
-false
 aRv
 )
 ;
@@ -9714,7 +9715,6 @@ Write
 (
 cx
 value
-false
 aRv
 )
 ;
@@ -9863,7 +9863,6 @@ Write
 (
 cx
 value
-false
 aRv
 )
 ;

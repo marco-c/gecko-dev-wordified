@@ -654,6 +654,10 @@ StructuredCloneHelper
 :
 :
 TransferringNotSupported
+StructuredCloneHelper
+:
+:
+DifferentProcess
 )
 ;
 cloneHelper

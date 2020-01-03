@@ -229,6 +229,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsFrameMessageManager
 .
 h
