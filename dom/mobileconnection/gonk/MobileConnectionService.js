@@ -1883,14 +1883,12 @@ networkTypes
 .
 replace
 (
-"
+/
 -
 auto
-"
-"
-"
-"
+/
 g
+"
 "
 )
 .
