@@ -69,7 +69,6 @@ cpr_types
 .
 h
 "
-__BEGIN_DECLS
 #
 include
 <
@@ -120,6 +119,5 @@ endif
 /
 /
 _MSC_VER
-__END_DECLS
 #
 endif
