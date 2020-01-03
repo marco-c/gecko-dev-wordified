@@ -2186,6 +2186,8 @@ bool
 tcp_enabled
 bool
 allow_link_local
+bool
+hide_non_default
 Policy
 policy
 )
@@ -3071,6 +3073,15 @@ flags
 NR_ICE_CTX_FLAGS_RELAY_ONLY
 ;
 }
+if
+(
+hide_non_default
+)
+flags
+|
+=
+NR_ICE_CTX_FLAGS_ONLY_DEFAULT_ADDRS
+;
 r
 =
 nr_ice_ctx_create

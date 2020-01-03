@@ -488,7 +488,7 @@ nr_str_port_to_transport_addr
 const
 char
 *
-ip4
+str
 UINT2
 port
 int
