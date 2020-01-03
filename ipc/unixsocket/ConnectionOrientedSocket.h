@@ -299,7 +299,7 @@ ConnectionOrientedSocketIO
 *
 *
 param
-aConsumerThread
+aConsumerLoop
 The
 socket
 '
@@ -355,9 +355,9 @@ methods
 /
 ConnectionOrientedSocketIO
 (
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
@@ -384,7 +384,7 @@ ConnectionOrientedSocketIO
 *
 *
 param
-aConsumerThread
+aConsumerLoop
 The
 socket
 '
@@ -421,9 +421,9 @@ methods
 /
 ConnectionOrientedSocketIO
 (
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
@@ -549,7 +549,7 @@ socket
 .
 *
 param
-aConsumerThread
+aConsumerLoop
 The
 socket
 '
@@ -604,9 +604,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop

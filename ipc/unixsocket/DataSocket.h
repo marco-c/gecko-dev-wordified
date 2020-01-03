@@ -128,6 +128,13 @@ SocketBase
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 mozilla
 {
@@ -594,9 +601,9 @@ protected
 :
 DataSocketIO
 (
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 )
 ;
 private

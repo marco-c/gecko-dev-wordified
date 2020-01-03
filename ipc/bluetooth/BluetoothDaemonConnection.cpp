@@ -1197,9 +1197,9 @@ public
 :
 BluetoothDaemonConnectionIO
 (
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
@@ -1317,9 +1317,9 @@ BluetoothDaemonConnectionIO
 :
 BluetoothDaemonConnectionIO
 (
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
@@ -1340,7 +1340,7 @@ aConsumer
 :
 ConnectionOrientedSocketIO
 (
-aConsumerThread
+aConsumerLoop
 aIOLoop
 aFd
 aConnectionStatus
@@ -1672,9 +1672,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
@@ -1700,7 +1700,7 @@ mIO
 new
 BluetoothDaemonConnectionIO
 (
-aConsumerThread
+aConsumerLoop
 aIOLoop
 -
 1

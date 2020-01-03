@@ -138,9 +138,6 @@ h
 class
 MessageLoop
 ;
-class
-nsIThread
-;
 namespace
 mozilla
 {
@@ -249,7 +246,7 @@ specific
 functions
 *
 param
-aConsumerThread
+aConsumerLoop
 The
 socket
 '
@@ -304,9 +301,9 @@ Listen
 UnixSocketConnector
 *
 aConnector
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
