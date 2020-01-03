@@ -509,9 +509,12 @@ setAttribute
 "
 label
 "
-markerDetails
+MarkerUtils
 .
-label
+getMarkerClassName
+(
+markerName
+)
 )
 ;
 menuitem
