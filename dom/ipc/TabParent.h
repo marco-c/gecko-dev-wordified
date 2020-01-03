@@ -2339,17 +2339,6 @@ WidgetCompositionEvent
 event
 )
 ;
-bool
-InitBrowserConfiguration
-(
-nsIURI
-*
-aURI
-BrowserConfiguration
-&
-aConfiguration
-)
-;
 /
 /
 IME
