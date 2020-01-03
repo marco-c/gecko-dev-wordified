@@ -4684,6 +4684,7 @@ MOZ_ASSERT
 runLength
 <
 =
+uintptr_t
 (
 end
 -
