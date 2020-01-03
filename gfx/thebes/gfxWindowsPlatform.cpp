@@ -1043,6 +1043,7 @@ rendering_mode
 "
 class
 GPUAdapterReporter
+MOZ_FINAL
 :
 public
 nsIMemoryReporter
@@ -1795,6 +1796,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+D3D11TextureReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
