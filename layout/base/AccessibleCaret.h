@@ -1107,7 +1107,7 @@ aDocument
 /
 /
 The
-bottom
+top
 -
 center
 of
@@ -1147,9 +1147,7 @@ aRect
 width
 /
 2
-aRect
-.
-height
+0
 )
 ;
 }
