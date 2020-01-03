@@ -311,12 +311,9 @@ private_tabs_layout
 )
 ;
 final
-ViewGroup
+View
 emptyTabsFrame
 =
-(
-ViewGroup
-)
 findViewById
 (
 R
