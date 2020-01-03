@@ -91,7 +91,7 @@ aPid
 ProcessPriority
 aPriority
 uint32_t
-aBackgroundLRU
+aLRU
 )
 {
 HAL_LOG
@@ -116,7 +116,7 @@ ProcessPriorityToString
 (
 aPriority
 )
-aBackgroundLRU
+aLRU
 )
 ;
 }
