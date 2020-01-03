@@ -325,9 +325,11 @@ self
 test_type
 ]
                                                 
-test_filter
-                                                
 run_info
+                                                
+manifest_filer
+=
+test_filter
 )
         
 if

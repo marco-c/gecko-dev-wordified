@@ -732,8 +732,8 @@ http
 prefs
 "
 :
-[
-]
+{
+}
 }
         
 self

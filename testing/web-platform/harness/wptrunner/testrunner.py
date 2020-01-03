@@ -1923,7 +1923,7 @@ self
 .
 logger
 .
-info
+critical
 (
 "
 Last
@@ -1931,15 +1931,10 @@ test
 did
 not
 complete
-requeueing
 "
 )
                                 
-self
-.
-requeue_test
-(
-)
+break
                             
 self
 .
@@ -3218,30 +3213,6 @@ send_message
 run_test
 "
 )
-    
-def
-requeue_test
-(
-self
-)
-:
-        
-self
-.
-test_source
-.
-requeue
-(
-self
-.
-test
-)
-        
-self
-.
-test
-=
-None
     
 def
 test_start

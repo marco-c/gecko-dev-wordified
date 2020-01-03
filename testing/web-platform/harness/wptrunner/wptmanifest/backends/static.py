@@ -439,6 +439,19 @@ node
 data
     
 def
+visit_AtomNode
+(
+self
+node
+)
+:
+        
+return
+node
+.
+data
+    
+def
 visit_ListNode
 (
 self

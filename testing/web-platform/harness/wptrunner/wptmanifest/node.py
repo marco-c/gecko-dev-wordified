@@ -712,6 +712,14 @@ other
 raise
 TypeError
 class
+AtomNode
+(
+ValueNode
+)
+:
+    
+pass
+class
 ConditionalNode
 (
 Node

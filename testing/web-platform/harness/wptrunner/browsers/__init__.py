@@ -279,4 +279,8 @@ firefox
 "
 servo
 "
+                
+"
+servodriver
+"
 ]

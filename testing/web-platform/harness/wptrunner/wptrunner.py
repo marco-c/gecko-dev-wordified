@@ -242,7 +242,7 @@ product
 ssl_env
 debug
 =
-False
+None
 *
 *
 kwargs
@@ -288,8 +288,43 @@ load
 (
 )
     
-test_filter
+manifest_filters
 =
+[
+]
+    
+meta_filters
+=
+[
+]
+    
+if
+kwargs
+[
+"
+include
+"
+]
+or
+kwargs
+[
+"
+exclude
+"
+]
+or
+kwargs
+[
+"
+include_manifest
+"
+]
+:
+        
+manifest_filters
+.
+append
+(
 testloader
 .
 TestFilter
@@ -302,7 +337,7 @@ kwargs
 include
 "
 ]
-                                        
+                                                      
 exclude
 =
 kwargs
@@ -311,7 +346,7 @@ kwargs
 exclude
 "
 ]
-                                        
+                                                      
 manifest_path
 =
 kwargs
@@ -320,10 +355,39 @@ kwargs
 include_manifest
 "
 ]
-                                        
+                                                      
 test_manifests
 =
 test_manifests
+)
+)
+    
+if
+kwargs
+[
+"
+tags
+"
+]
+:
+        
+meta_filters
+.
+append
+(
+testloader
+.
+TagFilter
+(
+tags
+=
+kwargs
+[
+"
+tags
+"
+]
+)
 )
     
 test_loader
@@ -341,9 +405,15 @@ test_types
 "
 ]
                                         
-test_filter
-                                        
 run_info
+                                        
+manifest_filters
+=
+manifest_filters
+                                        
+meta_filters
+=
+meta_filters
                                         
 chunk_type
 =
@@ -720,7 +790,7 @@ run_info
 product
 debug
 =
-False
+None
 )
             
 test_loader
@@ -1063,6 +1133,8 @@ test_environment
 .
 cache_manager
                                                           
+run_info
+                                                          
 *
 *
 kwargs
@@ -1351,6 +1423,7 @@ else
 :
             
 return
+not
 run_tests
 (
 *
