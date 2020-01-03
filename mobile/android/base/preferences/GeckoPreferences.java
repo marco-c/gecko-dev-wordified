@@ -4991,6 +4991,7 @@ RestrictedProfiles
 .
 isUserRestricted
 (
+this
 )
 )
 {

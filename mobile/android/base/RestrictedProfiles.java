@@ -1108,7 +1108,7 @@ getContext
 )
 ;
 }
-private
+public
 static
 boolean
 isUserRestricted
