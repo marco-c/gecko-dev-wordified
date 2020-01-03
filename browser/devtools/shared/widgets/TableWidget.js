@@ -4130,6 +4130,9 @@ if
 this
 .
 selectedRow
+!
+=
+null
 )
 {
 this
@@ -6315,8 +6318,10 @@ value
 ;
 if
 (
-!
 value
+=
+=
+null
 )
 {
 this
