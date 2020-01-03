@@ -11536,6 +11536,10 @@ mPaintFinished
 =
 false
 ;
+mHasTransformAnimation
+=
+false
+;
 mCompositionBounds
 .
 SetEmpty
