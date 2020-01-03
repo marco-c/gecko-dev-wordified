@@ -3109,6 +3109,14 @@ aTile
 mTextureSourceOnWhite
 aFilter
 true
+aTile
+.
+mTextureHost
+-
+>
+GetRenderState
+(
+)
 )
 ;
 if

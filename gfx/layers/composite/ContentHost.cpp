@@ -442,6 +442,9 @@ get
 )
 aFilter
 true
+GetRenderState
+(
+)
 )
 ;
 if
@@ -2820,6 +2823,9 @@ get
 )
 aFilter
 true
+GetRenderState
+(
+)
 )
 ;
 }
