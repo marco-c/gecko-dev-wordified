@@ -19451,10 +19451,10 @@ mShouldBuildScrollableLayer
 shouldBuildLayer
 &
 &
-gfxPrefs
-:
-:
-LayoutEventRegionsEnabled
+aBuilder
+-
+>
+IsBuildingLayerEventRegions
 (
 )
 )
