@@ -445,7 +445,7 @@ PTelephonyRequestParent
 public
 nsITelephonyListener
 public
-nsITelephonyCallback
+nsITelephonyDialCallback
 {
 friend
 class
@@ -456,6 +456,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSITELEPHONYLISTENER
 NS_DECL_NSITELEPHONYCALLBACK
+NS_DECL_NSITELEPHONYDIALCALLBACK
 protected
 :
 TelephonyRequestParent

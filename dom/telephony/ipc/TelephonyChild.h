@@ -387,7 +387,16 @@ bool
 DoResponse
 (
 const
-DialResponseError
+SuccessResponse
+&
+aResponse
+)
+;
+bool
+DoResponse
+(
+const
+ErrorResponse
 &
 aResponse
 )

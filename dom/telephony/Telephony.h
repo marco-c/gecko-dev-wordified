@@ -206,7 +206,7 @@ namespace
 telephony
 {
 class
-TelephonyCallback
+TelephonyDialCallback
 ;
 }
 /
@@ -297,7 +297,7 @@ class
 telephony
 :
 :
-TelephonyCallback
+TelephonyDialCallback
 ;
 nsCOMPtr
 <
