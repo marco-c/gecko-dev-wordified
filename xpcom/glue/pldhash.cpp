@@ -263,7 +263,7 @@ of
 table
 -
 >
-ops
+mOps
 or
 to
 an
@@ -1401,7 +1401,7 @@ can
 t
 fail
 .
-ops
+mOps
 =
 aOps
 ;
@@ -1980,7 +1980,7 @@ mRemoveEnums
 +
 )
 ;
-ops
+mOps
 -
 >
 clearEntry
@@ -1996,7 +1996,7 @@ entryAddr
 mEntrySize
 ;
 }
-ops
+mOps
 =
 nullptr
 ;
@@ -2164,7 +2164,7 @@ entry
 PLDHashMatchEntry
 matchEntry
 =
-ops
+mOps
 -
 >
 matchEntry
@@ -2915,7 +2915,7 @@ newEntryStore
 PLDHashMoveEntry
 moveEntry
 =
-ops
+mOps
 -
 >
 moveEntry
@@ -3094,7 +3094,7 @@ this
 PLDHashNumber
 keyHash
 =
-ops
+mOps
 -
 >
 hashKey
@@ -3473,14 +3473,14 @@ COLLISION_FLAG
 }
 if
 (
-ops
+mOps
 -
 >
 initEntry
 &
 &
 !
-ops
+mOps
 -
 >
 initEntry
@@ -3906,7 +3906,7 @@ aEntry
 >
 keyHash
 ;
-ops
+mOps
 -
 >
 clearEntry
