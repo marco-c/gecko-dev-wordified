@@ -2047,10 +2047,13 @@ the
 closure
 wrapper
 struct
+MOZ_STACK_CLASS
 ReadSegmentsClosure
 {
+nsCOMPtr
+<
 nsIInputStream
-*
+>
 mRealInputStream
 ;
 void
