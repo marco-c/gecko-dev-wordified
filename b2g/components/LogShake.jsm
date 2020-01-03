@@ -1543,8 +1543,6 @@ join
 logs
 '
 timestamp
-'
-'
 )
 ;
 }
@@ -1920,11 +1918,17 @@ API
 let
 filename
 =
+OS
+.
+Path
+.
+join
+(
 dirName
-+
 getLogFilename
 (
 logLocation
+)
 )
 ;
 logFilenames
