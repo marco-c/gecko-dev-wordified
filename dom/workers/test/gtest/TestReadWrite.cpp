@@ -2115,6 +2115,9 @@ i
 %
 2
 )
+(
+uint32_t
+)
 cInfo
 .
 isInBrowserElement
