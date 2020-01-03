@@ -867,7 +867,7 @@ val
 =
 NFC
 .
-NFC_SUCCESS
+NFC_GECKO_SUCCESS
 )
 ;
 }
