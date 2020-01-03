@@ -78,7 +78,7 @@ MPL
 #
 include
 "
-dshow
+DirectShowUtils
 .
 h
 "
@@ -100,13 +100,6 @@ h
 include
 "
 dmoreg
-.
-h
-"
-#
-include
-"
-DirectShowUtils
 .
 h
 "
