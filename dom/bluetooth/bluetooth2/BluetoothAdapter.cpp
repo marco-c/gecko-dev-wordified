@@ -7130,7 +7130,7 @@ const
 nsAString
 &
 aDeviceAddress
-File
+Blob
 &
 aBlob
 ErrorResult
