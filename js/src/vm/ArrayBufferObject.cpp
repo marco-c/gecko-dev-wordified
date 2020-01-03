@@ -7626,7 +7626,7 @@ offset
 obj
 -
 >
-setPrivate
+setPrivateUnbarriered
 (
 dstData
 )
