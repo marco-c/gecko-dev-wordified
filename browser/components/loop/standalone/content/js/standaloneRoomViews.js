@@ -3112,6 +3112,8 @@ createElement
 (
 sharedViews
 .
+chat
+.
 TextChatView
 {
 dispatcher
