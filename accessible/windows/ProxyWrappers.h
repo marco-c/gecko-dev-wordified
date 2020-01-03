@@ -247,6 +247,11 @@ HyperTextProxyAccessibleWrap
 aProxy
 )
 {
+mGenericTypes
+|
+=
+eDocument
+;
 }
 }
 ;
