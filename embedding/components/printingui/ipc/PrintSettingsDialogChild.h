@@ -102,11 +102,7 @@ bool
 Recv__delete__
 (
 const
-nsresult
-&
-aResult
-const
-PrintData
+PrintDataOrNSResult
 &
 aData
 )
