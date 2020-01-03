@@ -8511,8 +8511,14 @@ origin
 SdpOrigin
 (
 "
+mozilla
+.
+.
+.
+THIS_IS_SDPARTA
 -
 "
+MOZ_APP_UA_VERSION
 mSessionId
 mSessionVersion
 sdp
