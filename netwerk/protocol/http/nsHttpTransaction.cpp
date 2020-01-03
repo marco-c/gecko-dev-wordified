@@ -1224,6 +1224,10 @@ mAppId
 (
 NECKO_NO_APP_ID
 )
+mClassOfService
+(
+0
+)
 {
 LOG
 (
@@ -11209,8 +11213,9 @@ e
 added
 to
 a
-spdy
-session
+new
+h1
+conn
 an
 idle
 http

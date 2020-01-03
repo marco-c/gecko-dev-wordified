@@ -860,6 +860,15 @@ return
 mCriticalRequestPrioritization
 ;
 }
+bool
+UseH2Deps
+(
+)
+{
+return
+mUseH2Deps
+;
+}
 uint32_t
 MaxConnectionsPerOrigin
 (
@@ -2535,6 +2544,11 @@ mHttp2DraftEnabled
 ;
 uint32_t
 mHttp2Enabled
+:
+1
+;
+uint32_t
+mUseH2Deps
 :
 1
 ;
