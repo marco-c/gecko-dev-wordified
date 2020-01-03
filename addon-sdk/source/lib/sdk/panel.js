@@ -70,6 +70,8 @@ currently
 supports
 only
 Firefox
+and
+SeaMonkey
 .
 /
 /
@@ -115,6 +117,13 @@ engines
 {
 "
 Firefox
+"
+:
+"
+*
+"
+"
+SeaMonkey
 "
 :
 "

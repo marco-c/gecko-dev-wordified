@@ -5413,6 +5413,8 @@ done
 }
 }
 ;
+/
+*
 if
 (
 isWindowPBSupported
@@ -6123,6 +6125,8 @@ assert
 ;
 }
 }
+*
+/
 function
 testShowPanel
 (

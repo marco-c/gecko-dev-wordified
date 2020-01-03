@@ -92,6 +92,13 @@ Firefox
 "
 *
 "
+"
+SeaMonkey
+"
+:
+"
+*
+"
 }
 }
 ;
