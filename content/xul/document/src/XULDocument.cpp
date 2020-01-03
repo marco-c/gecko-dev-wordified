@@ -15809,10 +15809,6 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-nullptr
-/
-/
-aChannelPolicy
 group
 )
 ;

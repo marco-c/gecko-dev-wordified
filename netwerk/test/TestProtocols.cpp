@@ -381,13 +381,6 @@ h
 #
 include
 "
-nsChannelProperties
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -4979,10 +4972,6 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-nullptr
-/
-/
-aChannelPolicy
 nullptr
 /
 /

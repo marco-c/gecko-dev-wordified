@@ -1398,10 +1398,6 @@ TYPE_OTHER
 nullptr
 /
 /
-aChannelPolicy
-nullptr
-/
-/
 loadGroup
 nullptr
 /
@@ -3129,10 +3125,6 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-nullptr
-/
-/
-aChannelPolicy
 nullptr
 /
 /

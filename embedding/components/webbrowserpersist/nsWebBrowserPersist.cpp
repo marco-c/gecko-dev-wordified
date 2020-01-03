@@ -7204,10 +7204,6 @@ TYPE_OTHER
 nullptr
 /
 /
-aChannelPolicy
-nullptr
-/
-/
 aLoadGroup
 static_cast
 <

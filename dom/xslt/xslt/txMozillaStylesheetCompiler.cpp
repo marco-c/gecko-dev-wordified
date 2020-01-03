@@ -2163,7 +2163,6 @@ nsIContentPolicy
 :
 :
 TYPE_STYLESHEET
-nullptr
 loadGroup
 )
 ;
