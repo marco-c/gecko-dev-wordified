@@ -364,6 +364,9 @@ LayerManagerData
 aParent
 uint32_t
 aKey
+Layer
+*
+aLayer
 nsIFrame
 *
 aFrame
@@ -375,7 +378,7 @@ aParent
 )
 mLayer
 (
-nullptr
+aLayer
 )
 mDisplayItemKey
 (
@@ -27218,6 +27221,7 @@ aItem
 GetPerFrameKey
 (
 )
+aLayer
 )
 ;
 data
@@ -27335,6 +27339,7 @@ DisplayItemData
 (
 lmd
 aDisplayItemKey
+aLayer
 aFrame
 )
 ;
