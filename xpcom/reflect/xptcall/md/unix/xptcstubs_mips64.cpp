@@ -113,6 +113,14 @@ _MIPS_SIM
 =
 _ABIN32
 )
+&
+&
+(
+_MIPS_SIM
+!
+=
+_ABI64
+)
 #
 error
 "
@@ -121,7 +129,9 @@ code
 is
 for
 MIPS
-N32
+n32
+/
+n64
 only
 "
 #
@@ -133,7 +143,9 @@ This
 is
 for
 MIPS
-N32
+n32
+/
+n64
 ABI
 *
 *
