@@ -755,7 +755,7 @@ WidgetGUIEvent
 event
 (
 true
-NS_FORM_SELECTED
+eFormSelect
 nullptr
 )
 ;
@@ -2316,7 +2316,7 @@ mEvent
 mMessage
 =
 =
-NS_FORM_SELECTED
+eFormSelect
 )
 {
 if
@@ -2571,7 +2571,7 @@ mEvent
 mMessage
 =
 =
-NS_FORM_SELECTED
+eFormSelect
 )
 {
 mHandlingSelect

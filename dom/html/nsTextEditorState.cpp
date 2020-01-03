@@ -3920,7 +3920,7 @@ WidgetEvent
 event
 (
 true
-NS_FORM_SELECTED
+eFormSelect
 )
 ;
 presShell

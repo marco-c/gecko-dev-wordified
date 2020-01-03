@@ -3631,7 +3631,7 @@ mMessage
 )
 {
 case
-NS_FORM_SELECTED
+eFormSelect
 :
 if
 (
