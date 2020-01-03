@@ -580,7 +580,7 @@ template
 typename
 DestinationType
 >
-MOZ_EXPLICIT_CONVERSION
+explicit
 MOZ_CONSTEXPR
 operator
 DestinationType
