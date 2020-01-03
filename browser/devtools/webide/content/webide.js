@@ -3453,7 +3453,7 @@ busyUntil
 (
 AppManager
 .
-runRuntimeApp
+launchRuntimeApp
 (
 )
 "
@@ -7324,11 +7324,13 @@ busyUntil
 (
 AppManager
 .
-runRuntimeApp
+launchOrReloadRuntimeApp
 (
 )
 "
-running
+launching
+/
+reloading
 app
 "
 )
