@@ -1737,6 +1737,11 @@ EnsureMessageManager
 (
 )
 ;
+nsresult
+ReallyLoadFrameScripts
+(
+)
+;
 /
 /
 Updates
