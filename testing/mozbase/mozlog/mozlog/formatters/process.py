@@ -375,7 +375,6 @@ status
 return
 "
 exit
-status
 %
 x
 "
