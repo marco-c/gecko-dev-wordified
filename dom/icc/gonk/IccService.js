@@ -583,6 +583,8 @@ _numbers
 .
 push
 (
+aContact
+.
 anr
 [
 i
@@ -3695,8 +3697,6 @@ anrArray
 [
 i
 ]
-.
-value
 )
 ;
 }
