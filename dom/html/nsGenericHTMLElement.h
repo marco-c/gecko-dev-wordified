@@ -7419,6 +7419,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+nsGenericHTMLFormElement
+nsGenericHTMLElement
+)
 NS_DECL_ISUPPORTS_INHERITED
 nsINode
 *
@@ -8245,6 +8250,8 @@ this
 control
 *
 /
+nsRefPtr
+<
 mozilla
 :
 :
@@ -8252,7 +8259,7 @@ dom
 :
 :
 HTMLFormElement
-*
+>
 mForm
 ;
 /
