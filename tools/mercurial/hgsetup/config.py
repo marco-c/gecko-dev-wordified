@@ -1506,6 +1506,8 @@ bugzilla
 ]
         
 return
+(
+            
 b
 .
 get
@@ -1515,6 +1517,7 @@ username
 '
 None
 )
+            
 b
 .
 get
@@ -1523,6 +1526,28 @@ get
 password
 '
 None
+)
+            
+b
+.
+get
+(
+'
+userid
+'
+None
+)
+            
+b
+.
+get
+(
+'
+cookie
+'
+None
+)
+        
 )
     
 def
