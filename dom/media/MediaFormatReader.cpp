@@ -5324,6 +5324,12 @@ mDemuxEOSServiced
 {
 decoder
 .
+mOutputRequested
+=
+true
+;
+decoder
+.
 mDecoder
 -
 >
