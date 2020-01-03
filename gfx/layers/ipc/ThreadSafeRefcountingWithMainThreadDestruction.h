@@ -174,6 +174,7 @@ T
 *
 mToDelete
 ;
+explicit
 DeleteOnMainThreadTask
 (
 T
