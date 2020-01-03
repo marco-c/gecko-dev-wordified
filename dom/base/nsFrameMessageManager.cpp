@@ -8811,7 +8811,6 @@ JS
 Compile
 (
 cx
-global
 options
 srcBuf
 &
@@ -8855,7 +8854,6 @@ JS
 Compile
 (
 cx
-global
 options
 srcBuf
 &

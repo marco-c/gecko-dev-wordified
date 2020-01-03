@@ -14041,12 +14041,6 @@ JS
 Compile
 (
 cx
-cx
--
->
-global
-(
-)
 options
 srcBuf
 &
@@ -14462,12 +14456,6 @@ JS
 Compile
 (
 cx
-cx
--
->
-global
-(
-)
 options
 srcBuf
 &

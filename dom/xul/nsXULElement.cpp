@@ -17246,7 +17246,6 @@ JS
 Compile
 (
 cx
-scope
 options
 aSrcBuf
 &

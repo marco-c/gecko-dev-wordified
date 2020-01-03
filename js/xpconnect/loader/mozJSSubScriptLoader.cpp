@@ -1114,7 +1114,6 @@ JS
 Compile
 (
 cx
-target_obj
 options
 srcBuf
 script
@@ -1231,7 +1230,6 @@ JS
 Compile
 (
 cx
-target_obj
 options
 buf
 .

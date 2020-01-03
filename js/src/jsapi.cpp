@@ -21057,8 +21057,6 @@ Compile
 JSContext
 *
 cx
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -21102,12 +21100,6 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
-(
-cx
-obj
-)
-;
 AutoLastFrameCheck
 lfc
 (
@@ -21131,7 +21123,12 @@ cx
 tempLifoAlloc
 (
 )
-obj
+cx
+-
+>
+global
+(
+)
 NullPtr
 (
 )
@@ -21158,8 +21155,6 @@ Compile
 JSContext
 *
 cx
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -21189,7 +21184,6 @@ return
 Compile
 (
 cx
-obj
 options
 srcBuf
 script
@@ -21205,8 +21199,6 @@ Compile
 JSContext
 *
 cx
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -21287,7 +21279,6 @@ return
 Compile
 (
 cx
-obj
 options
 chars
 .
@@ -21308,8 +21299,6 @@ Compile
 JSContext
 *
 cx
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -21344,7 +21333,6 @@ return
 Compile
 (
 cx
-obj
 options
 buffer
 .
@@ -21369,8 +21357,6 @@ Compile
 JSContext
 *
 cx
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -21419,7 +21405,6 @@ return
 Compile
 (
 cx
-obj
 options
 file
 .
@@ -21777,12 +21762,6 @@ return
 Compile
 (
 cx
-cx
--
->
-global
-(
-)
 options
 ascii
 length
@@ -21820,12 +21799,6 @@ return
 Compile
 (
 cx
-cx
--
->
-global
-(
-)
 options
 chars
 length

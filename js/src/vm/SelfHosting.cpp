@@ -8345,7 +8345,6 @@ if
 Compile
 (
 cx
-shg
 options
 filename
 &

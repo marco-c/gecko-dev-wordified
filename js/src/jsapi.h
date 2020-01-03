@@ -4673,7 +4673,6 @@ JS
 Compile
 (
 cx
-obj
 options
 srcBuf
 )
@@ -23202,11 +23201,6 @@ Compile
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -23231,11 +23225,6 @@ Compile
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -23263,11 +23252,6 @@ Compile
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -23295,11 +23279,6 @@ Compile
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -23324,11 +23303,6 @@ Compile
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &

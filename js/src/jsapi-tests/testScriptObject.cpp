@@ -730,7 +730,6 @@ JS
 Compile
 (
 cx
-global
 options
 script_filename
 &
@@ -825,7 +824,6 @@ JS
 Compile
 (
 cx
-global
 options
 script_filename
 &
@@ -944,7 +942,6 @@ JS
 Compile
 (
 cx
-global
 options
 script_stream
 &
@@ -1033,7 +1030,6 @@ JS
 Compile
 (
 cx
-global
 options
 script_stream
 &
@@ -1139,7 +1135,6 @@ JS
 Compile
 (
 cx
-global
 options
 script_stream
 &

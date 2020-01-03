@@ -2117,7 +2117,6 @@ JS
 Compile
 (
 cx
-global
 options
 file
 &
@@ -5122,7 +5121,6 @@ JS
 Compile
 (
 cx
-global
 options
 file
 &
