@@ -24899,6 +24899,14 @@ identifier
 "
 CheckPermissions
 "
+or
+              
+identifier
+=
+=
+"
+BinaryName
+"
 )
 :
             
@@ -29407,6 +29415,14 @@ identifier
 =
 "
 CheckPermissions
+"
+or
+              
+identifier
+=
+=
+"
+BinaryName
 "
 )
 :
