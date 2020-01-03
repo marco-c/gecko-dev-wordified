@@ -22485,7 +22485,7 @@ if
 comp
 -
 >
-ensureDelazifyScriptsForDebugMode
+ensureDelazifyScriptsForDebugger
 (
 cx
 )

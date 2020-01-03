@@ -25114,7 +25114,7 @@ compartment
 )
 -
 >
-scheduleDelazificationForDebugMode
+scheduleDelazificationForDebugger
 (
 )
 ;
