@@ -6856,9 +6856,8 @@ destroy
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -6877,9 +6876,8 @@ _closeToolboxUI
 )
 )
 .
-then
+catch
 (
-null
 console
 .
 error

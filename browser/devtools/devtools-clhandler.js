@@ -893,12 +893,6 @@ addBrowserActors
 (
 )
 ;
-debuggerServer
-.
-allowChromeProcess
-=
-true
-;
 let
 listener
 =

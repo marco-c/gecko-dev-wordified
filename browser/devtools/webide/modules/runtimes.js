@@ -3518,12 +3518,6 @@ addBrowserActors
 )
 ;
 }
-DebuggerServer
-.
-allowChromeProcess
-=
-true
-;
 connection
 .
 host
