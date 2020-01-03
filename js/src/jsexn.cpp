@@ -4078,7 +4078,7 @@ messageArgs
 /
 *
 *
-ExpandErrorArguments
+ExpandErrorArgumentsVA
 owns
 its
 messageArgs
@@ -5529,7 +5529,7 @@ mutedErrors
 if
 (
 !
-ExpandErrorArguments
+ExpandErrorArgumentsVA
 (
 cx
 GetErrorMessage

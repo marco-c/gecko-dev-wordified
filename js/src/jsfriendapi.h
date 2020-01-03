@@ -8097,7 +8097,10 @@ equivalent
 of
 JS_ReportErrorNumber
 /
-js_ReportErrorNumberVA
+js
+:
+:
+ReportErrorNumberVA
 /
 /
 but
@@ -8120,7 +8123,10 @@ it
 simpler
 to
 call
-js_ExpandErrorArguments
+js
+:
+:
+ExpandErrorArgumentsVA
 .
 /
 /
