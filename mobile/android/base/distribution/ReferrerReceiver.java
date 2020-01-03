@@ -105,6 +105,15 @@ mozilla
 .
 gecko
 .
+AdjustConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 AppConstants
 ;
 import
@@ -483,7 +492,7 @@ intent
 .
 try
 {
-AppConstants
+AdjustConstants
 .
 getAdjustHelper
 (

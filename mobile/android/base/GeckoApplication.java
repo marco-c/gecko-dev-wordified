@@ -70,6 +70,15 @@ mozilla
 .
 gecko
 .
+AdjustConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 AppConstants
 ;
 import
@@ -1024,7 +1033,7 @@ AppConstants
 MOZ_INSTALL_TRACKING
 )
 {
-AppConstants
+AdjustConstants
 .
 getAdjustHelper
 (
@@ -1033,7 +1042,7 @@ getAdjustHelper
 onCreate
 (
 this
-AppConstants
+AdjustConstants
 .
 MOZ_INSTALL_TRACKING_ADJUST_SDK_APP_TOKEN
 )
