@@ -2673,7 +2673,7 @@ test_function
 )
     
 def
-test_echo_permessage_deflate_two_msgs_s2c_no_context_takeover
+test_echo_permessage_deflate_two_msgs_server_no_context_takeover
 (
 self
 )
@@ -2869,7 +2869,7 @@ assertEquals
 [
 (
 '
-s2c_no_context_takeover
+server_no_context_takeover
 '
 None
 )
@@ -2893,7 +2893,7 @@ permessage
 -
 deflate
 ;
-s2c_no_context_takeover
+server_no_context_takeover
 '
 ]
                 
@@ -3175,7 +3175,7 @@ assertEquals
 [
 (
 '
-s2c_max_window_bits
+server_max_window_bits
 '
 '
 10
@@ -3184,7 +3184,7 @@ s2c_max_window_bits
                                
 (
 '
-s2c_no_context_takeover
+server_no_context_takeover
 '
 None
 )
@@ -3208,14 +3208,14 @@ permessage
 -
 deflate
 ;
-s2c_max_window_bits
+server_max_window_bits
 =
 10
 ;
 '
                  
 '
-s2c_no_context_takeover
+server_no_context_takeover
 '
 ]
                 
@@ -3225,7 +3225,7 @@ test_function
 )
     
 def
-test_echo_permessage_deflate_with_bad_s2c_max_window_bits
+test_echo_permessage_deflate_with_bad_server_max_window_bits
 (
 self
 )
@@ -3281,7 +3281,7 @@ permessage
 -
 deflate
 ;
-s2c_max_window_bits
+server_max_window_bits
 =
 3000000
 '
@@ -3293,7 +3293,7 @@ test_function
 )
     
 def
-test_echo_permessage_deflate_with_bad_s2c_max_window_bits
+test_echo_permessage_deflate_with_bad_server_max_window_bits
 (
 self
 )
@@ -3349,7 +3349,7 @@ permessage
 -
 deflate
 ;
-s2c_max_window_bits
+server_max_window_bits
 =
 3000000
 '

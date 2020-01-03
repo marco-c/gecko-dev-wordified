@@ -1620,7 +1620,7 @@ self
 .
 close_connection
 =
-1
+True
             
 return
         
@@ -1670,6 +1670,9 @@ self
 )
 :
         
+try
+:
+            
 self
 .
 raw_requestline
@@ -1682,6 +1685,21 @@ readline
 (
 65537
 )
+        
+except
+socket
+.
+error
+:
+            
+self
+.
+close_connection
+=
+True
+            
+return
+False
         
 if
 len
@@ -1729,7 +1747,7 @@ self
 .
 close_connection
 =
-1
+True
         
 return
 True

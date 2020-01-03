@@ -195,10 +195,6 @@ timeout_multiplier
 close_after_done
 =
 True
-                 
-http_server_override
-=
-None
 )
 :
         
@@ -214,8 +210,6 @@ self
 browser
 http_server_url
 timeout_multiplier
-                              
-http_server_override
 )
         
 self

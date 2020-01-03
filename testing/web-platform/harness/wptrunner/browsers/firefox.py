@@ -320,27 +320,6 @@ close_after_done
 =
 True
     
-executor_kwargs
-[
-"
-http_server_override
-"
-]
-=
-"
-http
-:
-/
-/
-web
--
-platform
-.
-test
-:
-8000
-"
-    
 return
 executor_kwargs
 def
@@ -357,6 +336,18 @@ host
 :
 "
 localhost
+"
+            
+"
+external_host
+"
+:
+"
+web
+-
+platform
+.
+test
 "
             
 "
@@ -588,6 +579,34 @@ load_prefs
 (
 )
         
+ports
+=
+{
+"
+http
+"
+:
+"
+8000
+"
+                 
+"
+https
+"
+:
+"
+8443
+"
+                 
+"
+ws
+"
+:
+"
+8888
+"
+}
+        
 self
 .
 profile
@@ -597,9 +616,11 @@ FirefoxProfile
 locations
 =
 locations
+                                      
 proxy
 =
-True
+ports
+                                      
 preferences
 =
 preferences
@@ -990,6 +1011,12 @@ self
 )
 :
         
+if
+self
+.
+runner
+:
+            
 return
 self
 .
@@ -998,6 +1025,9 @@ runner
 is_running
 (
 )
+        
+return
+False
     
 def
 cleanup
@@ -1043,7 +1073,6 @@ def
 log_crash
 (
 self
-logger
 process
 test
 )
@@ -1071,6 +1100,8 @@ mozcrash
 .
 log_crashes
 (
+self
+.
 logger
 dump_dir
 symbols_path

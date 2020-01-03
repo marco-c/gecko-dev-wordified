@@ -319,6 +319,12 @@ metadata_root
 "
 ]
                                                 
+[
+self
+.
+test_type
+]
+                                                
 test_filter
                                                 
 run_info
@@ -1199,20 +1205,7 @@ self
 .
 test_loader
 .
-load_tests
-(
-[
-self
-.
-test_type
-]
-                                                
-"
-none
-"
-1
-1
-)
+tests
 [
 self
 .
