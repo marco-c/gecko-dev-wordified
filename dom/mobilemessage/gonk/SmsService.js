@@ -752,6 +752,12 @@ SmsService
 {
 this
 .
+_updateDebugFlag
+(
+)
+;
+this
+.
 _silentNumbers
 =
 [
@@ -917,9 +923,7 @@ try
 {
 DEBUG
 =
-RIL
-.
-DEBUG_RIL
+DEBUG
 |
 |
 Services
