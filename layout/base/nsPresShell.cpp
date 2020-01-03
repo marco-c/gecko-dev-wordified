@@ -70676,10 +70676,6 @@ FontSizeInflationForceEnabled
 if
 (
 TabChild
-*
-tab
-=
-TabChild
 :
 :
 GetFrom
@@ -70715,9 +70711,9 @@ zoomed
 if
 (
 !
-tab
--
->
+gfxPrefs
+:
+:
 AsyncPanZoomEnabled
 (
 )
