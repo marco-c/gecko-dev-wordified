@@ -148,6 +148,13 @@ XMLHttpRequest
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsDataDocumentContentPolicy
 .
 h
