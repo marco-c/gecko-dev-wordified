@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 var
 xulApp
 =
@@ -173,10 +178,10 @@ assert
 .
 throws
 (
-function
 (
 )
-{
+=
+>
 xulApp
 .
 is
@@ -185,8 +190,6 @@ is
 blargy
 "
 )
-;
-}
 /
 Unkown
 Mozilla
@@ -211,10 +214,10 @@ assert
 .
 throws
 (
-function
 (
 )
-{
+=
+>
 xulApp
 .
 isOneOf
@@ -225,8 +228,6 @@ blargy
 "
 ]
 )
-;
-}
 /
 Unkown
 Mozilla
