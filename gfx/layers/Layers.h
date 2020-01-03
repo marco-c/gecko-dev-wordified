@@ -698,6 +698,9 @@ SpecificLayerAttributes
 class
 Compositor
 ;
+class
+FrameUniformityData
+;
 namespace
 layerscope
 {
@@ -4474,6 +4477,16 @@ const
 return
 mInTransaction
 ;
+}
+virtual
+void
+GetFrameUniformity
+(
+FrameUniformityData
+*
+aOutData
+)
+{
 }
 virtual
 bool

@@ -370,6 +370,9 @@ class
 PLayerChild
 ;
 class
+FrameUniformityData
+;
+class
 TextureClientPool
 ;
 class
@@ -1293,6 +1296,16 @@ virtual
 void
 Composite
 (
+)
+override
+;
+virtual
+void
+GetFrameUniformity
+(
+FrameUniformityData
+*
+aFrameUniformityData
 )
 override
 ;
