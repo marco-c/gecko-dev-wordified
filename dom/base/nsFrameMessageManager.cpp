@@ -11881,11 +11881,11 @@ mDataLength
 )
 )
 {
-NS_RUNTIMEABORT
+NS_ABORT_OOM
 (
-"
-OOM
-"
+aData
+.
+mDataLength
 )
 ;
 }
