@@ -26327,16 +26327,6 @@ with
 a
 ServiceWorker
 .
-/
-/
-FIXME
-(
-nsm
-)
-:
-Bug
-1041339
-.
 if
 (
 loadFlags
