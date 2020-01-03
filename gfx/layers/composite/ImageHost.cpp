@@ -1479,9 +1479,6 @@ get
 ;
 }
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 ImageHost
 :
@@ -1564,8 +1561,6 @@ ul
 ;
 }
 }
-#
-endif
 LayerRenderState
 ImageHost
 :
@@ -1594,9 +1589,6 @@ LayerRenderState
 )
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 TemporaryRef
 <
 gfx
@@ -1620,8 +1612,6 @@ GetAsSurface
 )
 ;
 }
-#
-endif
 bool
 ImageHost
 :

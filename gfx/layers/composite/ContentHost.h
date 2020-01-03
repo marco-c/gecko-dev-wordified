@@ -893,6 +893,10 @@ aPrefix
 =
 "
 "
+bool
+aDumpHtml
+=
+false
 )
 MOZ_OVERRIDE
 ;

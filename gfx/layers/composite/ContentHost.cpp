@@ -5560,9 +5560,6 @@ true
 )
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 TemporaryRef
 <
 gfx
@@ -5596,8 +5593,6 @@ GetAsSurface
 )
 ;
 }
-#
-endif
 }
 /
 /

@@ -1064,9 +1064,6 @@ return
 result
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 CompositableHost
 :
@@ -1134,8 +1131,6 @@ get
 )
 ;
 }
-#
-endif
 namespace
 CompositableMap
 {
