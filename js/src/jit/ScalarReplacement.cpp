@@ -3785,6 +3785,7 @@ bailouts
 .
 if
 (
+!
 ins
 -
 >
@@ -3793,12 +3794,9 @@ toNewArray
 )
 -
 >
-allocatingBehaviour
+isAllocating
 (
 )
-=
-=
-NewArray_Unallocating
 )
 {
 JitSpewDef
