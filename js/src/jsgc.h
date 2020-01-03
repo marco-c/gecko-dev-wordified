@@ -2987,9 +2987,6 @@ toRelocate
 ArenaHeader
 *
 relocated
-SliceBudget
-&
-sliceBudget
 gcstats
 :
 :
@@ -5210,9 +5207,6 @@ gcreason
 :
 Reason
 reason
-SliceBudget
-&
-sliceBudget
 gcstats
 :
 :
@@ -8229,11 +8223,6 @@ other
 ;
 void
 removeFront
-(
-)
-;
-void
-clear
 (
 )
 ;
