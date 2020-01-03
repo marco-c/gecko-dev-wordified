@@ -1986,6 +1986,10 @@ mVolume
 .
 0
 )
+mSameOrigin
+(
+false
+)
 mAudioQueue
 (
 aAudioQueue
