@@ -5157,7 +5157,7 @@ getLocalizedString
 "
 projecteditor
 .
-confirmUnsavedLabel
+confirmUnsavedLabel2
 "
 )
 )
