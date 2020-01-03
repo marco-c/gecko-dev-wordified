@@ -2538,10 +2538,6 @@ gc
 :
 :
 NO_INCREMENTAL
-&
-&
-!
-verifyPreData
 ;
 }
 bool

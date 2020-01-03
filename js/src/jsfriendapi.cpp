@@ -6540,6 +6540,17 @@ gc
 isIncrementalGCInProgress
 (
 )
+&
+&
+!
+rt
+-
+>
+gc
+.
+isVerifyPreBarriersEnabled
+(
+)
 ;
 }
 JS_FRIEND_API
