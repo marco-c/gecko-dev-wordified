@@ -241,7 +241,7 @@ if
 MOZ_GCC_VERSION_AT_LEAST
 (
 4
-6
+4
 0
 )
 #
@@ -258,7 +258,7 @@ least
 gcc
 4
 .
-6
+4
 to
 build
 .
