@@ -15650,7 +15650,7 @@ value
 {
 throw
 new
-IllegalArgumentError
+InvalidArgumentError
 (
 Expected
 character
@@ -15852,7 +15852,7 @@ e
 err
 =
 new
-IllegalArgumentError
+InvalidArgumentError
 (
 File
 not

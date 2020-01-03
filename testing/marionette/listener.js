@@ -10688,7 +10688,7 @@ let
 err
 =
 new
-IllegalArgumentError
+InvalidArgumentError
 (
 File
 not
