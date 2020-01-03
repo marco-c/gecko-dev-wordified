@@ -4951,6 +4951,10 @@ mUpdateFinished
 (
 false
 )
+mNeedsMixing
+(
+false
+)
 {
 }
 virtual
