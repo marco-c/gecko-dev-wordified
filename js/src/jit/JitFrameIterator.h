@@ -1554,6 +1554,11 @@ bool
 forLastCallSite
 )
 ;
+void
+fixBaselineDebugModeOSRReturnAddress
+(
+)
+;
 public
 :
 JitProfilingFrameIterator
