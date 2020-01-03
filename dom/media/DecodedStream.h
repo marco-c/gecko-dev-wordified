@@ -763,6 +763,12 @@ IsFinished
 )
 const
 ;
+bool
+HasConsumers
+(
+)
+const
+;
 /
 /
 Return
