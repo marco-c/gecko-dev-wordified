@@ -411,9 +411,8 @@ MOZ_ASSERT
 false
 )
 ;
-SetLength
+Clear
 (
-0
 )
 ;
 return
@@ -490,9 +489,8 @@ MOZ_ASSERT
 false
 )
 ;
-SetLength
+Clear
 (
-0
 )
 ;
 return
