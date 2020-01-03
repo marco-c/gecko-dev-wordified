@@ -1483,7 +1483,7 @@ TemporaryRef
 <
 SharedThreadPool
 >
-GetMediaDecodeThreadPool
+GetMediaThreadPool
 (
 )
 ;
