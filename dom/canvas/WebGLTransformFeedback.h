@@ -118,13 +118,6 @@ h
 #
 include
 "
-WebGLBindableName
-.
-h
-"
-#
-include
-"
 WebGLObjectModel
 .
 h
@@ -138,11 +131,6 @@ final
 :
 public
 nsWrapperCache
-public
-WebGLBindableName
-<
-GLenum
->
 public
 WebGLRefCountedObject
 <
@@ -207,6 +195,10 @@ JSObject
 aGivenProto
 )
 override
+;
+const
+GLuint
+mGLName
 ;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
