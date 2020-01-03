@@ -231,7 +231,7 @@ inlineMaxTotalBytecodeLength_
 ;
 inliningMaxCallerBytecodeLength_
 =
-10000
+1500
 ;
 maxInlineDepth_
 =
