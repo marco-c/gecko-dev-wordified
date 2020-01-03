@@ -320,7 +320,7 @@ SOFTWARE
 from
 __future__
 import
-mozprocess
+absolute_import
 from
 ctypes
 import
