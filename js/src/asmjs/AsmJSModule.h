@@ -1322,7 +1322,7 @@ if
 (
 name_
 )
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -2588,7 +2588,7 @@ JSTracer
 trc
 )
 {
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -2606,7 +2606,7 @@ if
 (
 maybeFieldName_
 )
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -3710,7 +3710,7 @@ if
 (
 name
 )
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

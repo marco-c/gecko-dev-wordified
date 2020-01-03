@@ -4058,7 +4058,7 @@ JSTRACE_STRING
 ;
 keyDying
 =
-IsStringAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 reinterpret_cast
 <

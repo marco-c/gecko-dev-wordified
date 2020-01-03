@@ -311,7 +311,7 @@ js
 gc
 :
 :
-IsStringMarked
+IsMarkedUnbarriered
 (
 &
 sw

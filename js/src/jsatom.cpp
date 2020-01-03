@@ -1441,7 +1441,7 @@ isTagged
 (
 )
 ;
-MarkStringRoot
+TraceRoot
 (
 trc
 &
@@ -1772,7 +1772,7 @@ asPtr
 bool
 isDying
 =
-IsStringAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 atom

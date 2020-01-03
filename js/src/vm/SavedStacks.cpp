@@ -489,10 +489,7 @@ JSTracer
 trc
 )
 {
-gc
-:
-:
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -513,10 +510,7 @@ if
 functionDisplayName
 )
 {
-gc
-:
-:
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -538,10 +532,7 @@ if
 asyncCause
 )
 {
-gc
-:
-:
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -5435,7 +5426,7 @@ value
 (
 )
 ;
-MarkString
+TraceEdge
 (
 trc
 &

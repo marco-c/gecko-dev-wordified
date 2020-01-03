@@ -2990,10 +2990,7 @@ if
 (
 source
 )
-gc
-:
-:
-MarkString
+TraceEdge
 (
 trc
 &

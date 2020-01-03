@@ -7774,10 +7774,7 @@ if
 *
 stringp
 )
-gc
-:
-:
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 &
 rt

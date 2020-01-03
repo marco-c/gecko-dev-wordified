@@ -3453,10 +3453,7 @@ hasBase
 js
 :
 :
-gc
-:
-:
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -4178,10 +4175,7 @@ trc
 js
 :
 :
-gc
-:
-:
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -4201,10 +4195,7 @@ child
 js
 :
 :
-gc
-:
-:
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

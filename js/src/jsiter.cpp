@@ -443,7 +443,7 @@ str
 +
 +
 )
-MarkString
+TraceEdge
 (
 trc
 str

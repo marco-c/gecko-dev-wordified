@@ -644,7 +644,7 @@ MarkExactStackRootList
 <
 JSString
 *
-MarkStringRoot
+TraceRoot
 >
 (
 trc
@@ -1411,7 +1411,7 @@ this
 >
 vector
 ;
-MarkStringRootRange
+TraceRootRange
 (
 trc
 vector
@@ -1460,7 +1460,7 @@ this
 >
 vector
 ;
-MarkStringRootRange
+TraceRootRange
 (
 trc
 vector
@@ -2998,7 +2998,7 @@ JSString
 :
 markChainIfNotNull
 <
-MarkStringRoot
+TraceRoot
 >
 (
 trc
@@ -3360,7 +3360,7 @@ rt
 >
 asyncCauseForNewActivations
 )
-MarkStringRoot
+TraceRoot
 (
 trc
 &
