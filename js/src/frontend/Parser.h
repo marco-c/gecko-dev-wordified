@@ -4380,6 +4380,15 @@ unsigned
 msg
 )
 ;
+bool
+namedImportsOrNamespaceImport
+(
+TokenKind
+tt
+Node
+importSpecSet
+)
+;
 enum
 ClassContext
 {

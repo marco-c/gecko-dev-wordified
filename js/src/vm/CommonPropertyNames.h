@@ -1750,6 +1750,15 @@ stack
 \
 macro
 (
+star
+star
+"
+*
+"
+)
+\
+macro
+(
 startTimestamp
 startTimestamp
 "
