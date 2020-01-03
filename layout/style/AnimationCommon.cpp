@@ -4279,7 +4279,7 @@ playerIdx
 ]
 -
 >
-IsCurrent
+HasCurrentSource
 (
 )
 )
