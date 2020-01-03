@@ -33805,7 +33805,7 @@ cx
 nullptr
 )
 ;
-free
+js_free
 (
 data
 )
