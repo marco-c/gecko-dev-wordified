@@ -22378,7 +22378,7 @@ bool
 nsObjectLoadingContent
 :
 :
-DoNewResolve
+DoResolve
 (
 JSContext
 *
@@ -22517,7 +22517,7 @@ aRv
 /
 Just
 like
-DoNewResolve
+DoResolve
 just
 make
 sure

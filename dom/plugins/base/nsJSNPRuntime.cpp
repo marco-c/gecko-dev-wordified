@@ -996,7 +996,7 @@ idp
 ;
 static
 bool
-NPObjWrapper_NewResolve
+NPObjWrapper_Resolve
 (
 JSContext
 *
@@ -1178,7 +1178,7 @@ NPObjWrapper_SetProperty
 JSEnumerateOp
 )
 NPObjWrapper_newEnumerate
-NPObjWrapper_NewResolve
+NPObjWrapper_Resolve
 NPObjWrapper_Convert
 NPObjWrapper_Finalize
 NPObjWrapper_Call
@@ -9054,7 +9054,7 @@ true
 }
 static
 bool
-NPObjWrapper_NewResolve
+NPObjWrapper_Resolve
 (
 JSContext
 *

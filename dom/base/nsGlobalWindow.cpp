@@ -24085,7 +24085,7 @@ bool
 nsGlobalWindow
 :
 :
-DoNewResolve
+DoResolve
 (
 JSContext
 *

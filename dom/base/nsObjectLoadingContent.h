@@ -1012,7 +1012,7 @@ needed
 .
 *
 *
-DoNewResolve
+DoResolve
 is
 a
 hook
@@ -1092,9 +1092,9 @@ TeardownProtoChain
 Helper
 for
 WebIDL
-newResolve
+NeedResolve
 bool
-DoNewResolve
+DoResolve
 (
 JSContext
 *

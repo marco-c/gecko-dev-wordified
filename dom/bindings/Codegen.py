@@ -141,10 +141,10 @@ HASINSTANCE_HOOK_NAME
 '
 _hasInstance
 '
-NEWRESOLVE_HOOK_NAME
+RESOLVE_HOOK_NAME
 =
 '
-_newResolve
+_resolve
 '
 ENUMERATE_HOOK_NAME
 =
@@ -2186,7 +2186,7 @@ needsXrayResolveHooks
 resolveOwnProperty
 =
 "
-ResolveOwnPropertyViaNewresolve
+ResolveOwnPropertyViaResolve
 "
             
 enumerateOwnProperties
@@ -3126,14 +3126,14 @@ interface
 getExtendedAttribute
 (
 "
-NeedNewResolve
+NeedResolve
 "
 )
 :
             
-newResolveHook
+resolveHook
 =
-NEWRESOLVE_HOOK_NAME
+RESOLVE_HOOK_NAME
             
 enumerateHook
 =
@@ -3149,7 +3149,7 @@ isGlobal
 )
 :
             
-newResolveHook
+resolveHook
 =
 "
 mozilla
@@ -3176,7 +3176,7 @@ EnumerateGlobal
 else
 :
             
-newResolveHook
+resolveHook
 =
 "
 JS_ResolveStub
@@ -3409,7 +3409,7 @@ enumerateHook
             
 resolve
 =
-newResolveHook
+resolveHook
             
 finalize
 =
@@ -60010,7 +60010,7 @@ self
 _legacycaller
 )
 class
-CGNewResolveHook
+CGResolveHook
 (
 CGAbstractBindingMethod
 )
@@ -60020,13 +60020,16 @@ CGAbstractBindingMethod
 "
 "
     
-NewResolve
+Resolve
 hook
 for
 objects
-with
-custom
-hooks
+that
+have
+the
+NeedResolve
+extended
+attribute
 .
     
 "
@@ -60049,7 +60052,7 @@ interface
 getExtendedAttribute
 (
 "
-NeedNewResolve
+NeedResolve
 "
 )
         
@@ -60139,7 +60142,7 @@ __init__
             
 self
 descriptor
-NEWRESOLVE_HOOK_NAME
+RESOLVE_HOOK_NAME
             
 args
 getThisObj
@@ -60187,7 +60190,7 @@ if
 self
 -
 >
-DoNewResolve
+DoResolve
 (
 cx
 obj
@@ -60233,7 +60236,7 @@ is
 undefined
 then
 the
-DoNewResolve
+DoResolve
 call
             
 /
@@ -60461,7 +60464,7 @@ interface
 getExtendedAttribute
 (
 "
-NeedNewResolve
+NeedResolve
 "
 )
         
@@ -75619,7 +75622,7 @@ desc
 n
 "
 class
-CGResolveOwnPropertyViaNewresolve
+CGResolveOwnPropertyViaResolve
 (
 CGAbstractBindingMethod
 )
@@ -75641,7 +75644,7 @@ that
 have
 a
     
-newresolve
+resolve
 hook
 .
     
@@ -75746,7 +75749,7 @@ self
 descriptor
                                          
 "
-ResolveOwnPropertyViaNewresolve
+ResolveOwnPropertyViaResolve
 "
                                          
 args
@@ -75880,7 +75883,7 @@ if
 self
 -
 >
-DoNewResolve
+DoResolve
 (
 cx
 obj
@@ -75909,7 +75912,7 @@ is
 undefined
 then
 the
-DoNewResolve
+DoResolve
 call
               
 /
@@ -76012,7 +76015,7 @@ return
 self
 -
 >
-DoNewResolve
+DoResolve
 (
 cx
 wrapper
@@ -76172,7 +76175,7 @@ things
 that
 have
 a
-newresolve
+resolve
 hook
 .
     
@@ -87392,7 +87395,7 @@ cgThings
 .
 append
 (
-CGResolveOwnPropertyViaNewresolve
+CGResolveOwnPropertyViaResolve
 (
 descriptor
 )
@@ -87533,7 +87536,7 @@ interface
 getExtendedAttribute
 (
 "
-NeedNewResolve
+NeedResolve
 "
 )
 :
@@ -87542,7 +87545,7 @@ cgThings
 .
 append
 (
-CGNewResolveHook
+CGResolveHook
 (
 descriptor
 )

@@ -1472,7 +1472,7 @@ ServiceWorker
 )
 ;
 bool
-DoNewResolve
+DoResolve
 (
 JSContext
 *
@@ -1991,7 +1991,7 @@ for
 saving
 cached
 objects
-newresolve
+DoResolve
 created
 so
 we

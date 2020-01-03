@@ -11197,7 +11197,7 @@ is
 nsGlobalWindow
 :
 :
-DoNewResolve
+DoResolve
 which
 checks
 that
