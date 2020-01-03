@@ -96,6 +96,7 @@ a
 dir
 method
 "
+;
 let
 test
 =
