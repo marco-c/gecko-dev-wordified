@@ -1894,14 +1894,12 @@ PASS
 expected
 :
 "
-FAIL
+PASS
 "
 message
 :
 "
 TEST
--
-UNEXPECTED
 -
 PASS
 "
