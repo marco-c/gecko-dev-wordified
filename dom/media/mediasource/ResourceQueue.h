@@ -1418,7 +1418,7 @@ uint32_t
 aResourceOffset
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aOffset
 >
