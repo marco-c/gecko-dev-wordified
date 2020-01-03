@@ -20039,7 +20039,7 @@ tab
 =
 gBrowser
 .
-_getTabForBrowser
+getTabForBrowser
 (
 aBrowser
 )
@@ -20078,7 +20078,7 @@ tab
 =
 gBrowser
 .
-_getTabForBrowser
+getTabForBrowser
 (
 aBrowser
 )
