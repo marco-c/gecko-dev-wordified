@@ -535,6 +535,9 @@ aRect
 ;
 }
 }
+namespace
+widget
+{
 uint32_t
 WidgetUtils
 :
@@ -562,6 +565,11 @@ return
 #
 endif
 }
+}
+/
+/
+namespace
+widget
 }
 /
 /
