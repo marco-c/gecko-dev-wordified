@@ -2007,6 +2007,10 @@ same
 if
 (
 callingDoc
+&
+&
+(
+callingDoc
 -
 >
 NodePrincipal
@@ -2015,6 +2019,7 @@ NodePrincipal
 !
 =
 principal
+)
 )
 {
 nsContentUtils
