@@ -3206,9 +3206,7 @@ mFrontLock
 ;
 mCompositableClient
 =
-o
-.
-mCompositableClient
+nullptr
 ;
 #
 ifdef
@@ -3308,9 +3306,7 @@ mFrontLock
 ;
 mCompositableClient
 =
-o
-.
-mCompositableClient
+nullptr
 ;
 #
 ifdef
