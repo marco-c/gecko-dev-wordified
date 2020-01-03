@@ -7584,6 +7584,16 @@ the
 returned
 animation
 .
+/
+/
+A
+later
+animation
+overrides
+an
+earlier
+one
+.
 Animation
 *
 AddAnimation
