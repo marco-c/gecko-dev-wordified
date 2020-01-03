@@ -3071,6 +3071,9 @@ checkEmptyFreeList
 thingKind
 )
 ;
+AutoMaybeStartBackgroundAllocation
+maybeStartBackgroundAllocation
+;
 return
 zone
 -
@@ -3081,6 +3084,7 @@ allocateFromArena
 (
 zone
 thingKind
+maybeStartBackgroundAllocation
 )
 ;
 }
