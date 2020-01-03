@@ -477,9 +477,16 @@ kind
 )
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 ICEntry
 &
 vecEntry

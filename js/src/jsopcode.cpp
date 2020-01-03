@@ -3587,12 +3587,8 @@ if
 (
 !
 code
-)
-return
-false
-;
-if
-(
+|
+|
 !
 code
 -
