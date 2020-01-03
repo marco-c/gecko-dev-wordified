@@ -3234,6 +3234,7 @@ data
 ;
 for
 (
+let
 key
 of
 keys
