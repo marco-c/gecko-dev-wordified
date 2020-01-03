@@ -23815,6 +23815,13 @@ mSize
 IsEmpty
 (
 )
+|
+|
+aDest
+.
+IsEmpty
+(
+)
 )
 {
 return
