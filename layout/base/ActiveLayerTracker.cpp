@@ -1661,7 +1661,7 @@ return
 nsLayoutUtils
 :
 :
-HasAnimations
+HasCurrentAnimationsForProperty
 (
 content
 aProperty
