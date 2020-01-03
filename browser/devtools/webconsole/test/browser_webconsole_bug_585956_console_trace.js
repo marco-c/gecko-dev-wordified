@@ -285,6 +285,9 @@ stacktrace
 =
 [
 {
+columnNumber
+:
+2
 filename
 :
 TEST_URI
@@ -303,6 +306,9 @@ lineNumber
 9
 }
 {
+columnNumber
+:
+9
 filename
 :
 TEST_URI
@@ -319,6 +325,9 @@ lineNumber
 14
 }
 {
+columnNumber
+:
+9
 filename
 :
 TEST_URI
@@ -335,6 +344,9 @@ lineNumber
 18
 }
 {
+columnNumber
+:
+0
 filename
 :
 TEST_URI
