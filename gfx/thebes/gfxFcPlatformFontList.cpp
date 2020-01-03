@@ -6041,6 +6041,10 @@ systemFonts
 #
 ifdef
 MOZ_BUNDLED_FONTS
+ActivateBundledFonts
+(
+)
+;
 FcFontSet
 *
 appFonts
