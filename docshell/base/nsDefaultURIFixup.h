@@ -247,6 +247,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIURIFIXUPINFO
+explicit
 nsDefaultURIFixupInfo
 (
 const

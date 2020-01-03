@@ -501,6 +501,7 @@ eProtocolInfo
 /
 nsMIMEInfoBase
 methods
+explicit
 nsMIMEInfoBase
 (
 const
@@ -512,6 +513,7 @@ aMIMEType
 "
 )
 ;
+explicit
 nsMIMEInfoBase
 (
 const
@@ -1135,6 +1137,7 @@ nsMIMEInfoBase
 {
 public
 :
+explicit
 nsMIMEInfoImpl
 (
 const
@@ -1152,6 +1155,7 @@ aMIMEType
 )
 {
 }
+explicit
 nsMIMEInfoImpl
 (
 const
