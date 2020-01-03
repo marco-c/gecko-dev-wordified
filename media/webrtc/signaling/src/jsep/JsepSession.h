@@ -139,7 +139,7 @@ mozilla
 /
 Forward
 declarations
-struct
+class
 JsepCodecDescription
 ;
 class
