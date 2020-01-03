@@ -2507,13 +2507,16 @@ aCanPlay
 {
 SetCanPlay
 (
+!
+(
 aCanPlay
 =
 =
 AudioChannelState
 :
 :
-AUDIO_CHANNEL_STATE_NORMAL
+AUDIO_CHANNEL_STATE_MUTED
+)
 )
 ;
 return
