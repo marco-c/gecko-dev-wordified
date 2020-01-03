@@ -1932,6 +1932,17 @@ cx
 dontReportUncaught
 (
 )
+&
+&
+!
+ContextOptionsRef
+(
+cx
+)
+.
+autoJSAPIOwnsErrorReporting
+(
+)
 )
 JS_ReportPendingException
 (
