@@ -284,6 +284,15 @@ mozilla
 :
 dmd
 ;
+DMDFuncs
+:
+:
+Singleton
+DMDFuncs
+:
+:
+sSingleton
+;
 class
 FpWriteFunc
 :
