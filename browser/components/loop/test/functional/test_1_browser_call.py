@@ -9,8 +9,6 @@ By
 import
 urlparse
 from
-marionette
-.
 errors
 import
 NoSuchElementException
@@ -19,8 +17,6 @@ StaleElementException
 noinspection
 PyUnresolvedReferences
 from
-marionette
-.
 wait
 import
 Wait
