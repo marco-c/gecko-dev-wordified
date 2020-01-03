@@ -59,6 +59,7 @@ retrieved
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

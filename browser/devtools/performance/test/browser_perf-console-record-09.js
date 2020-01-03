@@ -58,6 +58,7 @@ profile
 *
 /
 function
+*
 spawnTest
 (
 )

@@ -44,6 +44,7 @@ works
 *
 /
 function
+*
 spawnTest
 (
 )

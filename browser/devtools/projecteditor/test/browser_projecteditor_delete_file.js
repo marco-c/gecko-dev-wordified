@@ -195,6 +195,7 @@ defaultView
 ;
 }
 function
+*
 testDeleteOnRoot
 (
 projecteditor

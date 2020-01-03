@@ -50,6 +50,7 @@ navigation
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

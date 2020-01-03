@@ -43,6 +43,7 @@ threads
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

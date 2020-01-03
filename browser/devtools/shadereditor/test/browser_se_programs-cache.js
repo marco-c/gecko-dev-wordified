@@ -46,6 +46,7 @@ frontend
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

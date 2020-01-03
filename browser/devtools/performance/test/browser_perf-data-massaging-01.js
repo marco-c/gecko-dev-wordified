@@ -60,6 +60,7 @@ WAIT_TIME
 /
 ms
 function
+*
 spawnTest
 (
 )

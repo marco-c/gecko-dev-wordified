@@ -43,6 +43,7 @@ bfcache
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

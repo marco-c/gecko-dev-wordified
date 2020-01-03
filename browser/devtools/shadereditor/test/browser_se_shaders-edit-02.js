@@ -53,6 +53,7 @@ edited
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

@@ -44,6 +44,7 @@ UI
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

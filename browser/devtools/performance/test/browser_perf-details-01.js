@@ -42,6 +42,7 @@ subviews
 *
 /
 function
+*
 spawnTest
 (
 )

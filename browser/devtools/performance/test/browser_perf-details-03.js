@@ -82,6 +82,7 @@ instead
 *
 /
 function
+*
 spawnTest
 (
 )

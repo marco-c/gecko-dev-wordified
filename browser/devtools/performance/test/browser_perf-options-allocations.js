@@ -51,6 +51,7 @@ actor
 *
 /
 function
+*
 spawnTest
 (
 )

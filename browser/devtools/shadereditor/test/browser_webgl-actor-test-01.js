@@ -48,6 +48,7 @@ target
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

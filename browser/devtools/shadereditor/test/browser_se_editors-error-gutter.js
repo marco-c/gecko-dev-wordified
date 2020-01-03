@@ -59,6 +59,7 @@ error
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

@@ -44,6 +44,7 @@ intended
 *
 /
 function
+*
 spawnTest
 (
 )

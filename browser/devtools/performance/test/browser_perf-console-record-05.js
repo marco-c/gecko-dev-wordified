@@ -54,6 +54,7 @@ list
 *
 /
 function
+*
 spawnTest
 (
 )

@@ -40,6 +40,7 @@ methods
 *
 /
 function
+*
 spawnTest
 (
 )

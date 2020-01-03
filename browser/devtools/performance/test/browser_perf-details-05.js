@@ -45,6 +45,7 @@ advertised
 *
 /
 function
+*
 spawnTest
 (
 )

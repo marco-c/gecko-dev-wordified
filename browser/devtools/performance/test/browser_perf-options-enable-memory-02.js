@@ -58,6 +58,7 @@ break
 *
 /
 function
+*
 spawnTest
 (
 )

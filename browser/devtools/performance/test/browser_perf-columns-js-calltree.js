@@ -46,6 +46,7 @@ columns
 *
 /
 function
+*
 spawnTest
 (
 )

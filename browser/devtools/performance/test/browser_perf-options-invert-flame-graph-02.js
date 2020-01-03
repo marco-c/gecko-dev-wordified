@@ -48,6 +48,7 @@ graph
 *
 /
 function
+*
 spawnTest
 (
 )

@@ -42,6 +42,7 @@ initialized
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

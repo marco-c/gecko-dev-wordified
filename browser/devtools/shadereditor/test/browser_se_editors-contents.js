@@ -49,6 +49,7 @@ available
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

@@ -51,6 +51,7 @@ linked
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

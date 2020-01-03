@@ -51,6 +51,7 @@ actors
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

@@ -50,6 +50,7 @@ tree
 *
 /
 function
+*
 spawnTest
 (
 )

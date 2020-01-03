@@ -102,6 +102,7 @@ jsm
 )
 ;
 function
+*
 spawnTest
 (
 )

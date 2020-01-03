@@ -247,6 +247,7 @@ changed
 )
 ;
 function
+*
 testChangeUnsavedFileExternally
 (
 projecteditor
@@ -515,6 +516,7 @@ filePath
 ;
 }
 function
+*
 testChangeFileExternally
 (
 projecteditor

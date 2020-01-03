@@ -58,6 +58,7 @@ contexts
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

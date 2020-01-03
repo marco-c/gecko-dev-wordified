@@ -58,6 +58,7 @@ attached
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

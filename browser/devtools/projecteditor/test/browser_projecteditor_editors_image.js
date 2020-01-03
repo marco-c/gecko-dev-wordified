@@ -327,6 +327,7 @@ path
 )
 ;
 function
+*
 testEditor
 (
 projecteditor

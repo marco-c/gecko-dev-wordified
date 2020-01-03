@@ -53,6 +53,7 @@ expected
 *
 /
 function
+*
 ifWebGLSupported
 (
 )
@@ -605,6 +606,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

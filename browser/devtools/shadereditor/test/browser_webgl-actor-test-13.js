@@ -43,6 +43,7 @@ handled
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

@@ -47,6 +47,7 @@ selected
 *
 /
 function
+*
 spawnTest
 (
 )

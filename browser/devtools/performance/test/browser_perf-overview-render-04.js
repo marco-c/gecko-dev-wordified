@@ -54,6 +54,7 @@ e10s
 *
 /
 function
+*
 spawnTest
 (
 )

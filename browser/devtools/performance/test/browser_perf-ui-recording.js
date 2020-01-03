@@ -54,6 +54,7 @@ WAIT_TIME
 10
 ;
 function
+*
 spawnTest
 (
 )

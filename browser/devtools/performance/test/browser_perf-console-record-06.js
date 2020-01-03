@@ -46,6 +46,7 @@ nested
 *
 /
 function
+*
 spawnTest
 (
 )

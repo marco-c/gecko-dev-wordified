@@ -51,6 +51,7 @@ called
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

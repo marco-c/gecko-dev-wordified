@@ -49,6 +49,7 @@ navigates
 *
 /
 function
+*
 ifWebGLSupported
 (
 )
@@ -209,6 +210,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

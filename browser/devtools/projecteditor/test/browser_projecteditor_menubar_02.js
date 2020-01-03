@@ -1264,6 +1264,7 @@ enabled
 )
 ;
 function
+*
 openAndCloseMenu
 (
 menu

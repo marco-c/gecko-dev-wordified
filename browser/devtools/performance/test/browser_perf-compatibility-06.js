@@ -69,6 +69,7 @@ values
 *
 /
 function
+*
 spawnTest
 (
 )

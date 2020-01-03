@@ -88,6 +88,7 @@ utils
 "
 )
 function
+*
 spawnTest
 (
 )

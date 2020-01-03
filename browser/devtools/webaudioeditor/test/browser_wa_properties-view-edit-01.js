@@ -429,6 +429,7 @@ Task
 async
 (
 function
+*
 (
 varNum
 prop

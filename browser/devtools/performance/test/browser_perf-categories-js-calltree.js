@@ -52,6 +52,7 @@ enabled
 *
 /
 function
+*
 spawnTest
 (
 )

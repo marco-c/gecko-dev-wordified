@@ -202,6 +202,7 @@ close
 ;
 }
 function
+*
 addTabWithToolbarRunTests
 (
 win

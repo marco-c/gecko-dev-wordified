@@ -46,6 +46,7 @@ changes
 *
 /
 function
+*
 spawnTest
 (
 )

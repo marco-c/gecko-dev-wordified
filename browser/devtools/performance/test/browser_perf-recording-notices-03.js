@@ -58,6 +58,7 @@ displayed
 *
 /
 function
+*
 spawnTest
 (
 )

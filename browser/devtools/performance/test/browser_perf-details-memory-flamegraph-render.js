@@ -45,6 +45,7 @@ recording
 *
 /
 function
+*
 spawnTest
 (
 )

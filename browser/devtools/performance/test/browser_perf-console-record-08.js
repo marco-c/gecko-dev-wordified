@@ -244,6 +244,7 @@ state
 ;
 }
 function
+*
 spawnTest
 (
 )

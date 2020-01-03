@@ -45,6 +45,7 @@ changed
 *
 /
 function
+*
 ifWebGLSupported
 (
 )

@@ -43,6 +43,7 @@ data
 *
 /
 function
+*
 spawnTest
 (
 )
