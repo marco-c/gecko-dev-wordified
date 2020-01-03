@@ -3841,7 +3841,7 @@ isConst
 )
 ;
 Node
-letStatement
+letDeclarationOrBlock
 (
 )
 ;
@@ -4169,7 +4169,7 @@ isSpread
 )
 ;
 Node
-letBlock
+deprecatedLetBlockOrExpression
 (
 LetContext
 letContext
