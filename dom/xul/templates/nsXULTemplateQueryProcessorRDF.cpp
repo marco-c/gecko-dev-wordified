@@ -6823,6 +6823,8 @@ aResult
 {
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (
@@ -6870,6 +6872,14 @@ aResult
 ;
 }
 else
+if
+(
+PR_LOG_TEST
+(
+gXULTemplateLog
+PR_LOG_ALWAYS
+)
+)
 {
 nsAutoString
 tagstr
@@ -6919,10 +6929,6 @@ get
 )
 )
 )
-;
-rv
-=
-NS_OK
 ;
 }
 return
