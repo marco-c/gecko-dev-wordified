@@ -1087,6 +1087,15 @@ DoPause
 )
 ;
 void
+ResumeAt
+(
+const
+TimeDuration
+&
+aResumeTime
+)
+;
+void
 UpdateSourceContent
 (
 )
