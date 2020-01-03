@@ -420,9 +420,9 @@ none
 ;
 border
 -
-style
+color
 :
-none
+transparent
 ;
 }
 /
@@ -535,9 +535,6 @@ toolbarpaletteitem
 {
 cursor
 :
--
-moz
--
 grab
 ;
 }
