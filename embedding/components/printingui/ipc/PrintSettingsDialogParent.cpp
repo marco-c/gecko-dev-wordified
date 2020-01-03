@@ -76,7 +76,6 @@ mozilla
 namespace
 embedding
 {
-MOZ_IMPLICIT
 PrintSettingsDialogParent
 :
 :
@@ -90,7 +89,6 @@ PrintSettingsDialogParent
 )
 ;
 }
-MOZ_IMPLICIT
 PrintSettingsDialogParent
 :
 :

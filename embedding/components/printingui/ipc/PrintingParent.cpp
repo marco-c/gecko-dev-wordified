@@ -1156,7 +1156,6 @@ return
 parentWin
 ;
 }
-MOZ_IMPLICIT
 PrintingParent
 :
 :
@@ -1170,7 +1169,6 @@ PrintingParent
 )
 ;
 }
-MOZ_IMPLICIT
 PrintingParent
 :
 :
