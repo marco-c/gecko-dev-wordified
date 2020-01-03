@@ -1942,6 +1942,14 @@ this
 .
 _callWatcher
 .
+initFrameStartTimestamp
+(
+)
+;
+this
+.
+_callWatcher
+.
 resumeRecording
 (
 )

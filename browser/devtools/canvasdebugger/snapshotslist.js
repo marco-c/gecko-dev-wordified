@@ -3150,6 +3150,7 @@ type
 name
 file
 line
+timestamp
 argsPreview
 callerPreview
 }
@@ -3196,6 +3197,9 @@ line
 stack
 :
 stack
+timestamp
+:
+timestamp
 argsPreview
 :
 argsPreview
