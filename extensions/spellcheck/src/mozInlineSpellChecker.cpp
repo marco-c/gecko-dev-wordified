@@ -3246,6 +3246,7 @@ NS_IMETHOD
 EditorSpellCheckDone
 (
 )
+MOZ_OVERRIDE
 {
 return
 mSpellChecker
@@ -11405,6 +11406,7 @@ NS_IMETHOD
 EditorSpellCheckDone
 (
 )
+MOZ_OVERRIDE
 {
 /
 /
