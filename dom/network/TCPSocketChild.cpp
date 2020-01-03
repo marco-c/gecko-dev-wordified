@@ -122,7 +122,7 @@ h
 #
 include
 "
-nsITCPSocketInternal
+nsIDOMTCPSocket
 .
 h
 "
