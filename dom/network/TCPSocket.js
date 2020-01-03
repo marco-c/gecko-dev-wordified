@@ -2154,6 +2154,9 @@ this
 _appId
 this
 .
+_inBrowser
+this
+.
 _activeNetwork
 Date
 .
