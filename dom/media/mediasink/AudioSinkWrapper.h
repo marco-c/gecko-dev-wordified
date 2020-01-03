@@ -484,6 +484,13 @@ IsStarted
 const
 override
 ;
+bool
+IsPlaying
+(
+)
+const
+override
+;
 void
 Shutdown
 (
