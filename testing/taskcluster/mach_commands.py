@@ -1604,6 +1604,34 @@ definition
 "
 "
     
+whitelist
+=
+[
+        
+"
+tc
+-
+vcs
+"
+        
+"
+tc
+-
+vcs
+-
+public
+-
+source
+"
+        
+"
+tooltool
+-
+cache
+"
+    
+]
+    
 try
 :
         
@@ -1638,13 +1666,9 @@ keys
             
 if
 cache
-!
-=
-"
-tc
--
-vcs
-"
+not
+in
+whitelist
 :
                 
 caches
