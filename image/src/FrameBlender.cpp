@@ -403,9 +403,9 @@ fast
 .
 Unless
 we
+/
+/
 have
-/
-/
 a
 single
 loop
@@ -420,10 +420,10 @@ bug
 139677
 and
 bug
+/
+/
 207059
 .
-/
-/
 The
 behavior
 of
@@ -2117,6 +2117,7 @@ FrameBlender
 :
 kDisposeRestorePrevious
 )
+{
 mAnim
 -
 >
@@ -2126,6 +2127,7 @@ reset
 (
 )
 ;
+}
 }
 else
 {
@@ -2168,6 +2170,8 @@ we
 put
 the
 new
+/
+/
 frame
 on
 top
@@ -2201,9 +2205,9 @@ the
 frame
 before
 it
+/
+/
 erased
-/
-/
 itself
 )
 /
@@ -2224,9 +2228,9 @@ aNextFrameIndex
 -
 1
 )
+/
+/
 will
-/
-/
 always
 be
 a
@@ -2436,9 +2440,7 @@ could
 have
 anything
 in
-it
-'
-s
+its
 /
 /
 buffers
@@ -2482,7 +2484,7 @@ the
 previous
 image
 restored
-afer
+after
 /
 /
 it
@@ -2942,8 +2944,10 @@ if
 !
 aFrameData
 )
+{
 return
 ;
+}
 memset
 (
 aFrameData
@@ -3872,6 +3876,7 @@ if
 (
 color
 )
+{
 dstPixels
 [
 c
@@ -3879,6 +3884,7 @@ c
 =
 color
 ;
+}
 }
 /
 /
@@ -3980,8 +3986,9 @@ width
 4
 )
 ;
-pixman_image_composite32
-(
+auto
+op
+=
 aBlendMethod
 =
 =
@@ -3993,6 +4000,10 @@ kBlendSource
 PIXMAN_OP_SRC
 :
 PIXMAN_OP_OVER
+;
+pixman_image_composite32
+(
+op
 src
 nullptr
 dst

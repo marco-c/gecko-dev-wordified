@@ -356,8 +356,8 @@ animation
 loops
 and
 the
-timeout
 *
+timeout
 falls
 in
 between
@@ -370,8 +370,8 @@ timeout
 is
 adjusted
 so
-that
 *
+that
 it
 '
 s
@@ -388,6 +388,7 @@ then
 no
 adjustments
 are
+*
 made
 .
 *
@@ -838,7 +839,7 @@ Does
 also
 clears
 the
-transparancy
+transparency
 mask
 *
 /
@@ -881,7 +882,7 @@ aRectToClear
 !
 Copy
 one
-frames
+frame
 '
 s
 image
@@ -916,7 +917,7 @@ aRectDest
 *
 Draws
 one
-frames
+frame
 '
 s
 image
@@ -1044,6 +1045,7 @@ src
 on
 the
 composition
+*
 frame
 .
 *
