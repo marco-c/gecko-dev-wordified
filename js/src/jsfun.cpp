@@ -12517,11 +12517,6 @@ setNoScriptRval
 false
 )
 .
-setCompileAndGo
-(
-true
-)
-.
 setIntroductionInfo
 (
 introducerFilename

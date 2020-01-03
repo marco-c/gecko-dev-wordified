@@ -107,11 +107,6 @@ startLine
 \
 n
 "
-{
-compileAndGo
-:
-false
-}
 )
 ;
 var

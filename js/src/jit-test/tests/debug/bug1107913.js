@@ -64,9 +64,6 @@ testcase
 noScriptRval
 :
 true
-compileAndGo
-:
-true
 isRunOnce
 :
 true

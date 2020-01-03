@@ -2382,11 +2382,6 @@ filename
 1
 )
 .
-setCompileAndGo
-(
-true
-)
-.
 setHasPollutedScope
 (
 hasPollutedGlobalScope
@@ -2899,11 +2894,6 @@ setFileAndLine
 (
 filename
 1
-)
-.
-setCompileAndGo
-(
-true
 )
 .
 setHasPollutedScope

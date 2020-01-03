@@ -41580,11 +41580,6 @@ cx
 ;
 options
 .
-setCompileAndGo
-(
-true
-)
-.
 setHasPollutedScope
 (
 true
