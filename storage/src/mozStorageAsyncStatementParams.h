@@ -150,6 +150,9 @@ mozilla
 namespace
 storage
 {
+class
+AsyncStatement
+;
 /
 *
 *

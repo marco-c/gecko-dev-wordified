@@ -125,6 +125,13 @@ nsIXPCScriptable
 .
 h
 "
+#
+include
+"
+nsIXPConnect
+.
+h
+"
 class
 Statement
 ;
