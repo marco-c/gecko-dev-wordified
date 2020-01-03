@@ -3189,7 +3189,7 @@ openAccountsPage
 (
 null
 {
-entryPoint
+entrypoint
 :
 "
 menupanel
@@ -3235,7 +3235,7 @@ urlParams
 /
 /
 An
-entryPoint
+entrypoint
 param
 is
 used
@@ -3267,7 +3267,7 @@ override
 /
 /
 the
-entryPoint
+entrypoint
 accordingly
 .
 if
@@ -3301,7 +3301,7 @@ selectedBrowser
 {
 urlParams
 .
-entryPoint
+entrypoint
 =
 "
 uitour
@@ -3404,7 +3404,7 @@ openAccountsPage
 reauth
 "
 {
-entryPoint
+entrypoint
 :
 entryPoint
 }
