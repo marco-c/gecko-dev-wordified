@@ -6067,12 +6067,6 @@ TraceLogger_Scripts
 )
 )
 {
-AutoWritableJitCode
-awjc
-(
-method_
-)
-;
 CodeLocationLabel
 enter
 (
