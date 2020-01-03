@@ -541,7 +541,7 @@ imaginary
 (
 Null
 0
-js_InitNullClass
+InitNullClass
 dummy
 )
 \
@@ -549,7 +549,7 @@ real
 (
 Object
 1
-js_InitViaClassSpec
+InitViaClassSpec
 OCLASP
 (
 Plain
@@ -560,7 +560,7 @@ real
 (
 Function
 2
-js_InitViaClassSpec
+InitViaClassSpec
 &
 JSFunction
 :
@@ -572,7 +572,7 @@ real
 (
 Array
 3
-js_InitViaClassSpec
+InitViaClassSpec
 OCLASP
 (
 Array
@@ -583,7 +583,7 @@ real
 (
 Boolean
 4
-js_InitBooleanClass
+InitBooleanClass
 OCLASP
 (
 Boolean
@@ -594,7 +594,7 @@ real
 (
 JSON
 5
-js_InitJSONClass
+InitJSONClass
 CLASP
 (
 JSON
@@ -605,7 +605,7 @@ real
 (
 Date
 6
-js_InitViaClassSpec
+InitViaClassSpec
 OCLASP
 (
 Date
@@ -616,7 +616,7 @@ real
 (
 Math
 7
-js_InitMathClass
+InitMathClass
 CLASP
 (
 Math
@@ -627,7 +627,7 @@ real
 (
 Number
 8
-js_InitNumberClass
+InitNumberClass
 OCLASP
 (
 Number
@@ -638,7 +638,7 @@ real
 (
 String
 9
-js_InitStringClass
+InitStringClass
 OCLASP
 (
 String
@@ -649,7 +649,7 @@ real
 (
 RegExp
 10
-js_InitRegExpClass
+InitRegExpClass
 OCLASP
 (
 RegExp
@@ -660,7 +660,7 @@ real
 (
 Error
 11
-js_InitViaClassSpec
+InitViaClassSpec
 ERROR_CLASP
 (
 JSEXN_ERR
@@ -671,7 +671,7 @@ real
 (
 InternalError
 12
-js_InitViaClassSpec
+InitViaClassSpec
 ERROR_CLASP
 (
 JSEXN_INTERNALERR
@@ -682,7 +682,7 @@ real
 (
 EvalError
 13
-js_InitViaClassSpec
+InitViaClassSpec
 ERROR_CLASP
 (
 JSEXN_EVALERR
@@ -693,7 +693,7 @@ real
 (
 RangeError
 14
-js_InitViaClassSpec
+InitViaClassSpec
 ERROR_CLASP
 (
 JSEXN_RANGEERR
@@ -704,7 +704,7 @@ real
 (
 ReferenceError
 15
-js_InitViaClassSpec
+InitViaClassSpec
 ERROR_CLASP
 (
 JSEXN_REFERENCEERR
@@ -715,7 +715,7 @@ real
 (
 SyntaxError
 16
-js_InitViaClassSpec
+InitViaClassSpec
 ERROR_CLASP
 (
 JSEXN_SYNTAXERR
@@ -726,7 +726,7 @@ real
 (
 TypeError
 17
-js_InitViaClassSpec
+InitViaClassSpec
 ERROR_CLASP
 (
 JSEXN_TYPEERR
@@ -737,7 +737,7 @@ real
 (
 URIError
 18
-js_InitViaClassSpec
+InitViaClassSpec
 ERROR_CLASP
 (
 JSEXN_URIERR
@@ -748,7 +748,7 @@ real
 (
 Iterator
 19
-js_InitIteratorClasses
+InitIteratorClasses
 OCLASP
 (
 PropertyIterator
@@ -759,7 +759,7 @@ real
 (
 StopIteration
 20
-js_InitIteratorClasses
+InitIteratorClasses
 OCLASP
 (
 StopIteration
@@ -770,7 +770,7 @@ real
 (
 ArrayBuffer
 21
-js_InitArrayBufferClass
+InitArrayBufferClass
 &
 js
 :
@@ -785,7 +785,7 @@ real
 (
 Int8Array
 22
-js_InitViaClassSpec
+InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
 Int8
@@ -796,7 +796,7 @@ real
 (
 Uint8Array
 23
-js_InitViaClassSpec
+InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
 Uint8
@@ -807,7 +807,7 @@ real
 (
 Int16Array
 24
-js_InitViaClassSpec
+InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
 Int16
@@ -818,7 +818,7 @@ real
 (
 Uint16Array
 25
-js_InitViaClassSpec
+InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
 Uint16
@@ -829,7 +829,7 @@ real
 (
 Int32Array
 26
-js_InitViaClassSpec
+InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
 Int32
@@ -840,7 +840,7 @@ real
 (
 Uint32Array
 27
-js_InitViaClassSpec
+InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
 Uint32
@@ -851,7 +851,7 @@ real
 (
 Float32Array
 28
-js_InitViaClassSpec
+InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
 Float32
@@ -862,7 +862,7 @@ real
 (
 Float64Array
 29
-js_InitViaClassSpec
+InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
 Float64
@@ -873,7 +873,7 @@ real
 (
 Uint8ClampedArray
 30
-js_InitViaClassSpec
+InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
 Uint8Clamped
@@ -884,7 +884,7 @@ real
 (
 Proxy
 31
-js_InitProxyClass
+InitProxyClass
 OCLASP
 (
 Proxy
@@ -895,7 +895,7 @@ real
 (
 WeakMap
 32
-js_InitWeakMapClass
+InitWeakMapClass
 OCLASP
 (
 WeakMap
@@ -906,7 +906,7 @@ real
 (
 Map
 33
-js_InitMapClass
+InitMapClass
 OCLASP
 (
 Map
@@ -917,7 +917,7 @@ real
 (
 Set
 34
-js_InitSetClass
+InitSetClass
 OCLASP
 (
 Set
@@ -928,7 +928,7 @@ real
 (
 DataView
 35
-js_InitDataViewClass
+InitDataViewClass
 OCLASP
 (
 DataView
@@ -939,7 +939,7 @@ real
 (
 Symbol
 36
-js_InitSymbolClass
+InitSymbolClass
 OCLASP
 (
 Symbol
@@ -954,7 +954,7 @@ imaginary
 (
 SharedArrayBuffer
 37
-js_InitSharedArrayBufferClass
+InitSharedArrayBufferClass
 &
 js
 :
@@ -973,7 +973,7 @@ imaginary
 (
 Intl
 38
-js_InitIntlClass
+InitIntlClass
 CLASP
 (
 Intl
@@ -988,7 +988,7 @@ imaginary
 (
 TypedObject
 39
-js_InitTypedObjectModuleObject
+InitTypedObjectModuleObject
 OCLASP
 (
 TypedObjectModule
@@ -999,7 +999,7 @@ imaginary
 (
 GeneratorFunction
 40
-js_InitIteratorClasses
+InitIteratorClasses
 dummy
 )
 \
@@ -1011,7 +1011,7 @@ imaginary
 (
 SIMD
 41
-js_InitSIMDClass
+InitSIMDClass
 OCLASP
 (
 SIMD
@@ -1022,7 +1022,7 @@ real
 (
 WeakSet
 42
-js_InitWeakSetClass
+InitWeakSetClass
 OCLASP
 (
 WeakSet
@@ -1037,7 +1037,7 @@ imaginary
 (
 SharedInt8Array
 43
-js_InitViaClassSpec
+InitViaClassSpec
 SHARED_TYPED_ARRAY_CLASP
 (
 Int8
@@ -1052,7 +1052,7 @@ imaginary
 (
 SharedUint8Array
 44
-js_InitViaClassSpec
+InitViaClassSpec
 SHARED_TYPED_ARRAY_CLASP
 (
 Uint8
@@ -1067,7 +1067,7 @@ imaginary
 (
 SharedInt16Array
 45
-js_InitViaClassSpec
+InitViaClassSpec
 SHARED_TYPED_ARRAY_CLASP
 (
 Int16
@@ -1082,7 +1082,7 @@ imaginary
 (
 SharedUint16Array
 46
-js_InitViaClassSpec
+InitViaClassSpec
 SHARED_TYPED_ARRAY_CLASP
 (
 Uint16
@@ -1097,7 +1097,7 @@ imaginary
 (
 SharedInt32Array
 47
-js_InitViaClassSpec
+InitViaClassSpec
 SHARED_TYPED_ARRAY_CLASP
 (
 Int32
@@ -1112,7 +1112,7 @@ imaginary
 (
 SharedUint32Array
 48
-js_InitViaClassSpec
+InitViaClassSpec
 SHARED_TYPED_ARRAY_CLASP
 (
 Uint32
@@ -1127,7 +1127,7 @@ imaginary
 (
 SharedFloat32Array
 49
-js_InitViaClassSpec
+InitViaClassSpec
 SHARED_TYPED_ARRAY_CLASP
 (
 Float32
@@ -1142,7 +1142,7 @@ imaginary
 (
 SharedFloat64Array
 50
-js_InitViaClassSpec
+InitViaClassSpec
 SHARED_TYPED_ARRAY_CLASP
 (
 Float64
@@ -1157,7 +1157,7 @@ imaginary
 (
 SharedUint8ClampedArray
 51
-js_InitViaClassSpec
+InitViaClassSpec
 SHARED_TYPED_ARRAY_CLASP
 (
 Uint8Clamped
@@ -1168,7 +1168,7 @@ real
 (
 TypedArray
 52
-js_InitViaClassSpec
+InitViaClassSpec
 &
 js
 :
@@ -1187,7 +1187,7 @@ imaginary
 (
 Atomics
 53
-js_InitAtomicsClass
+InitAtomicsClass
 OCLASP
 (
 Atomics
@@ -1198,7 +1198,7 @@ real
 (
 SavedFrame
 54
-js_InitViaClassSpec
+InitViaClassSpec
 &
 js
 :

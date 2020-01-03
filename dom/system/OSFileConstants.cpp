@@ -4479,7 +4479,10 @@ toObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+js
+:
+:
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 aProperty
@@ -4745,7 +4748,10 @@ error
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+js
+:
+:
+GetErrorMessage
 nullptr
 JSMSG_CANT_OPEN
 "

@@ -167,7 +167,7 @@ reportAllocOverflow
 )
 const
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 static_cast
 <

@@ -592,7 +592,7 @@ v
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SIMD_NOT_A_VECTOR
 )
@@ -794,7 +794,7 @@ thisv
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 SimdTypeDescr
@@ -1031,7 +1031,7 @@ TypedObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 SimdTypeDescr
@@ -1126,7 +1126,7 @@ type
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 SimdTypeDescr
@@ -3411,7 +3411,10 @@ SIMD
 }
 JSObject
 *
-js_InitSIMDClass
+js
+:
+:
+InitSIMDClass
 (
 JSContext
 *
@@ -4606,7 +4609,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -7834,7 +7837,7 @@ function
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_INDEX
 )

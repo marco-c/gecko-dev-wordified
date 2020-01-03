@@ -5602,7 +5602,7 @@ parseTask
 >
 overRecursed
 )
-js_ReportOverRecursed
+ReportOverRecursed
 (
 cx
 )
@@ -7542,7 +7542,7 @@ maybeJSContext
 (
 )
 )
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 maybecx
 )
@@ -7785,7 +7785,7 @@ result
 =
 OOM
 )
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

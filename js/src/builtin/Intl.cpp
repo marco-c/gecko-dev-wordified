@@ -4189,7 +4189,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -4229,7 +4229,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -4301,7 +4301,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -5426,7 +5426,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -5505,7 +5505,7 @@ coll
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -7661,7 +7661,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -8518,7 +8518,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -8563,7 +8563,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -8798,7 +8798,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -10826,7 +10826,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -10939,7 +10939,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -10979,7 +10979,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -11021,7 +11021,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -11288,7 +11288,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -11349,7 +11349,7 @@ U_BUFFER_OVERFLOW_ERROR
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -11433,7 +11433,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -11965,7 +11965,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -12067,7 +12067,7 @@ x
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DATE_NOT_FINITE
 )
@@ -12180,7 +12180,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
@@ -12716,7 +12716,10 @@ Specification
 /
 JSObject
 *
-js_InitIntlClass
+js
+:
+:
+InitIntlClass
 (
 JSContext
 *

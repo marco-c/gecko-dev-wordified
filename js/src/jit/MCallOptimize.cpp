@@ -451,7 +451,7 @@ if
 native
 =
 =
-js_Array
+ArrayConstructor
 )
 return
 inlineArray
@@ -1234,7 +1234,7 @@ if
 native
 =
 =
-js_String
+StringConstructor
 )
 return
 inlineStringObject
@@ -1247,9 +1247,6 @@ if
 native
 =
 =
-js
-:
-:
 str_split
 )
 return
@@ -1263,7 +1260,7 @@ if
 native
 =
 =
-js_str_charCodeAt
+str_charCodeAt
 )
 return
 inlineStrCharCodeAt
@@ -1276,9 +1273,6 @@ if
 native
 =
 =
-js
-:
-:
 str_fromCharCode
 )
 return
@@ -1292,7 +1286,7 @@ if
 native
 =
 =
-js_str_charAt
+str_charAt
 )
 return
 inlineStrCharAt
@@ -2699,7 +2693,7 @@ inspector
 getTemplateObjectForNative
 (
 pc
-js_Array
+ArrayConstructor
 )
 ;
 if
@@ -9287,7 +9281,7 @@ inspector
 getTemplateObjectForNative
 (
 pc
-js_String
+StringConstructor
 )
 ;
 if

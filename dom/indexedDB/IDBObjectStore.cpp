@@ -1198,7 +1198,10 @@ cloneWriteInfo
 >
 mOffsetToKeyProp
 =
-js_GetSCOffset
+js
+:
+:
+GetSCOffset
 (
 aWriter
 )

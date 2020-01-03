@@ -548,7 +548,7 @@ if
 (
 dtoaState
 )
-js_DestroyDtoaState
+DestroyDtoaState
 (
 dtoaState
 )
@@ -564,7 +564,7 @@ init
 {
 dtoaState
 =
-js_NewDtoaState
+NewDtoaState
 (
 )
 ;
@@ -3298,7 +3298,7 @@ JS_ReportErrorFlagsAndNumberUC
 (
 cx
 JSREPORT_WARNING
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TERMINATED
 chars
@@ -3636,7 +3636,7 @@ if
 newMathCache
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -4170,7 +4170,7 @@ if
 (
 cx
 )
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

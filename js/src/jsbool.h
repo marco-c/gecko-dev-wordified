@@ -130,10 +130,13 @@ NamespaceImports
 .
 h
 "
+namespace
+js
+{
 extern
 JSObject
 *
-js_InitBooleanClass
+InitBooleanClass
 (
 JSContext
 *
@@ -148,7 +151,7 @@ obj
 extern
 JSString
 *
-js_BooleanToString
+BooleanToString
 (
 js
 :
@@ -160,6 +163,7 @@ bool
 b
 )
 ;
+}
 #
 endif
 /

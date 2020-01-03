@@ -9097,7 +9097,10 @@ JS_FS_END
 ;
 JSObject
 *
-js_InitMathClass
+js
+:
+:
+InitMathClass
 (
 JSContext
 *

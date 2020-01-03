@@ -381,9 +381,6 @@ HandleValue
 v
 int
 numToSkip
-=
--
-1
 MaybeConstruct
 construct
 =

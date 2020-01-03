@@ -8757,7 +8757,7 @@ rval
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -8863,7 +8863,7 @@ js_delete
 map
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -9191,7 +9191,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INVALID_MAP_ITERABLE
 "
@@ -9302,7 +9302,7 @@ rval
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -10242,7 +10242,7 @@ rval
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -10507,7 +10507,7 @@ found
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -10989,7 +10989,7 @@ clear
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -11004,7 +11004,10 @@ true
 }
 JSObject
 *
-js_InitMapClass
+js
+:
+:
+InitMapClass
 (
 JSContext
 *
@@ -12671,7 +12674,7 @@ key
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -12772,7 +12775,7 @@ js_delete
 set
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -13200,7 +13203,7 @@ key
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -13694,7 +13697,7 @@ key
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -13839,7 +13842,7 @@ found
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -14175,7 +14178,7 @@ clear
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -14235,7 +14238,10 @@ args
 }
 JSObject
 *
-js_InitSetClass
+js
+:
+:
+InitSetClass
 (
 JSContext
 *

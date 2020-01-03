@@ -3658,7 +3658,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_WARNING
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BUILTIN_CTOR_NO_NEW
 builtinName

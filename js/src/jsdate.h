@@ -149,6 +149,9 @@ TypeDecls
 .
 h
 "
+namespace
+js
+{
 /
 *
 *
@@ -195,7 +198,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-js_NewDateObjectMsec
+NewDateObjectMsec
 (
 JSContext
 *
@@ -272,7 +275,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-js_NewDateObject
+NewDateObject
 (
 JSContext
 *
@@ -310,7 +313,7 @@ address
 *
 /
 bool
-js_Date
+DateConstructor
 (
 JSContext
 *
@@ -325,9 +328,6 @@ Value
 vp
 )
 ;
-namespace
-js
-{
 /
 *
 Date

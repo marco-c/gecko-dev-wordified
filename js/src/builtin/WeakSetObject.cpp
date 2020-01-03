@@ -608,7 +608,7 @@ isConstructing
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_FUNCTION
 "
@@ -869,7 +869,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_NONNULL_OBJECT
 bytes
@@ -976,7 +976,10 @@ true
 }
 JSObject
 *
-js_InitWeakSetClass
+js
+:
+:
+InitWeakSetClass
 (
 JSContext
 *

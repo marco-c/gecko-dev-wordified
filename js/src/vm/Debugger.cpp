@@ -757,7 +757,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_NONNULL_OBJECT
 "
@@ -824,7 +824,7 @@ cx
 v
 )
 ;
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -2481,7 +2481,7 @@ if
 !
 ok
 )
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -2930,7 +2930,7 @@ frameobj
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -4798,7 +4798,7 @@ envobj
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -4848,7 +4848,7 @@ remove
 env
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -5078,7 +5078,7 @@ dobj
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -5146,7 +5146,7 @@ remove
 obj
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -5443,7 +5443,7 @@ DebuggerObject_class
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_EXPECTED_TYPE
 "
@@ -5518,7 +5518,7 @@ object
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 owner
 .
@@ -5637,7 +5637,7 @@ compartment
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_COMPARTMENT_MISMATCH
 methodname
@@ -6664,7 +6664,7 @@ hits
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_BAD_RESUMPTION
 )
@@ -8124,7 +8124,7 @@ toJSObject
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -9638,7 +9638,7 @@ isUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_RESUMPTION_VALUE_DISALLOWED
 )
@@ -10651,7 +10651,7 @@ isUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_RESUMPTION_VALUE_DISALLOWED
 )
@@ -11776,7 +11776,7 @@ observing
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -15564,7 +15564,7 @@ jsclass
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -15642,7 +15642,7 @@ dbg
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -16326,7 +16326,7 @@ isUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_CALLABLE_OR_UNDEFINED
 )
@@ -17170,7 +17170,7 @@ isCallable
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ASSIGN_FUNCTION_OR_NULL
 "
@@ -17605,7 +17605,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -17810,7 +17810,7 @@ GlobalObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -19342,7 +19342,7 @@ CrossCompartmentWrapperObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_CCW_REQUIRED
 "
@@ -19845,7 +19845,7 @@ invisibleToDebugger
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_CANT_DEBUG_GLOBAL
 )
@@ -19983,7 +19983,7 @@ debuggeeCompartment
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_LOOP
 )
@@ -20169,7 +20169,7 @@ hasObjectMetadataCallback
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_OBJECT_METADATA_CALLBACK_ALREADY_SET
 )
@@ -20299,7 +20299,7 @@ this
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -20318,7 +20318,7 @@ global
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -21185,7 +21185,7 @@ init
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -21434,7 +21434,7 @@ isString
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -21538,7 +21538,7 @@ DebuggerSource_class
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -21642,7 +21642,7 @@ isString
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -21788,7 +21788,7 @@ source
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_QUERY_LINE_WITHOUT_URL
 )
@@ -21827,7 +21827,7 @@ doubleLine
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_BAD_LINE
 )
@@ -21850,7 +21850,7 @@ else
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -21979,7 +21979,7 @@ hasLine
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_QUERY_INNERMOST_WITHOUT_LINE_URL
 )
@@ -22149,7 +22149,7 @@ if
 oom
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -22344,7 +22344,7 @@ value
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -22767,7 +22767,7 @@ compartment
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -22883,7 +22883,7 @@ compartment
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -23293,7 +23293,7 @@ lineno
 (
 )
 +
-js_GetScriptLineExtent
+GetScriptLineExtent
 (
 script
 )
@@ -24137,7 +24137,7 @@ isString
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -25588,7 +25588,7 @@ invisibleToDebugger
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_INVISIBLE_COMPARTMENT
 )
@@ -28062,7 +28062,7 @@ scriptobj
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -28112,7 +28112,7 @@ remove
 script
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -28216,7 +28216,7 @@ DebuggerScript_class
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 clsname
@@ -28281,7 +28281,7 @@ thisobj
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 clsname
@@ -28743,7 +28743,7 @@ script
 unsigned
 maxLine
 =
-js_GetScriptLineExtent
+GetScriptLineExtent
 (
 script
 )
@@ -29512,7 +29512,7 @@ off
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_BAD_OFFSET
 )
@@ -31984,7 +31984,7 @@ d
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_BAD_LINE
 )
@@ -32480,7 +32480,7 @@ frameobj
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -33309,7 +33309,7 @@ script
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_NOT_DEBUGGING
 )
@@ -34221,7 +34221,7 @@ vp
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NO_CONSTRUCTOR
 "
@@ -34858,7 +34858,7 @@ sourceobj
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -34908,7 +34908,7 @@ remove
 source
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -34960,7 +34960,7 @@ vp
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NO_CONSTRUCTOR
 "
@@ -35047,7 +35047,7 @@ DebuggerSource_class
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -35098,7 +35098,7 @@ thisobj
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -37053,7 +37053,7 @@ DebuggerFrame_class
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -37169,7 +37169,7 @@ isUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -37196,7 +37196,7 @@ checkLive
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_NOT_LIVE
 "
@@ -38641,7 +38641,7 @@ DebuggerArguments_class
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -39901,7 +39901,7 @@ args
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_CALLABLE_OR_UNDEFINED
 )
@@ -40290,7 +40290,7 @@ args
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_CALLABLE_OR_UNDEFINED
 )
@@ -40966,7 +40966,7 @@ isString
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_EXPECTED_TYPE
 fullMethodName
@@ -42034,7 +42034,7 @@ vp
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NO_CONSTRUCTOR
 "
@@ -42492,7 +42492,7 @@ DebuggerObject_class
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -42584,7 +42584,7 @@ getPrivate
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -42778,7 +42778,7 @@ vp
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NO_CONSTRUCTOR
 "
@@ -46020,7 +46020,7 @@ succeeded
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CHANGE_EXTENSIBILITY
 )
@@ -46443,7 +46443,7 @@ isCallable
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -46590,7 +46590,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_APPLY_ARGS
 js_apply_str
@@ -47346,7 +47346,7 @@ GlobalObject
 )
 )
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -47366,7 +47366,7 @@ isWindowProxy
 }
 else
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -47746,7 +47746,7 @@ invisibleToDebugger
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_INVISIBLE_COMPARTMENT
 )
@@ -48475,7 +48475,7 @@ DebuggerEnv_class
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -48567,7 +48567,7 @@ getPrivate
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -48660,7 +48660,7 @@ global
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_NOT_DEBUGGEE
 "
@@ -48824,7 +48824,7 @@ vp
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NO_CONSTRUCTOR
 "
@@ -49184,7 +49184,7 @@ env
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_NO_SCOPE_OBJECT
 )
@@ -50457,7 +50457,7 @@ has
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_VARIABLE_NOT_FOUND
 )
@@ -51311,7 +51311,7 @@ false
 ;
 debugProto
 =
-js_InitClass
+InitClass
 (
 cx
 obj
@@ -51353,7 +51353,7 @@ false
 ;
 frameProto
 =
-js_InitClass
+InitClass
 (
 cx
 debugCtor
@@ -51378,7 +51378,7 @@ false
 ;
 scriptProto
 =
-js_InitClass
+InitClass
 (
 cx
 debugCtor
@@ -51403,7 +51403,7 @@ false
 ;
 sourceProto
 =
-js_InitClass
+InitClass
 (
 cx
 debugCtor
@@ -51428,7 +51428,7 @@ false
 ;
 objectProto
 =
-js_InitClass
+InitClass
 (
 cx
 debugCtor
@@ -51453,7 +51453,7 @@ false
 ;
 envProto
 =
-js_InitClass
+InitClass
 (
 cx
 debugCtor
@@ -51478,7 +51478,7 @@ false
 ;
 memoryProto
 =
-js_InitClass
+InitClass
 (
 cx
 debugCtor

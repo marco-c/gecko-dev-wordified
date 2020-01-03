@@ -18520,7 +18520,7 @@ failure
 "
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -18670,7 +18670,7 @@ thing
 return
 thing
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -39736,7 +39736,7 @@ get
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -39764,7 +39764,7 @@ zone
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

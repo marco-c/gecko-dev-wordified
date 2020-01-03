@@ -1631,7 +1631,7 @@ ReleaseAsmJSMappedData
 data
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -1695,7 +1695,7 @@ ReleaseAsmJSMappedData
 data
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -1749,7 +1749,7 @@ ReleaseAsmJSMappedData
 data
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -1783,7 +1783,7 @@ ReleaseAsmJSMappedData
 data
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -1969,7 +1969,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -2004,7 +2004,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -2103,7 +2103,7 @@ ArrayBufferObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -2139,7 +2139,7 @@ isNeutered
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_DETACHED
 )
@@ -2204,7 +2204,7 @@ i32
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )
@@ -2824,7 +2824,7 @@ fix
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )
@@ -2909,7 +2909,7 @@ if
 !
 p
 )
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -5291,7 +5291,7 @@ end
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPE_ERR_BAD_ARGS
 )
@@ -8745,7 +8745,7 @@ ArrayBufferObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -8787,7 +8787,7 @@ isNeutered
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_DETACHED
 )
@@ -9658,7 +9658,10 @@ dataPointer
 }
 JSObject
 *
-js_InitArrayBufferClass
+js
+:
+:
+InitArrayBufferClass
 (
 JSContext
 *

@@ -8649,7 +8649,7 @@ if
 stub
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -8830,7 +8830,7 @@ if
 stub
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -8977,7 +8977,7 @@ if
 stub
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -37920,7 +37920,7 @@ isObject
 )
 )
 {
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_IN_NOT_OBJECT
@@ -60859,7 +60859,7 @@ if
 native
 =
 =
-js_Array
+ArrayConstructor
 )
 {
 /
@@ -61314,7 +61314,7 @@ if
 native
 =
 =
-js_String
+StringConstructor
 )
 {
 RootedString
@@ -63281,7 +63281,7 @@ native
 )
 =
 =
-js_fun_apply
+fun_apply
 )
 return
 TryAttachFunApplyStub
@@ -63345,7 +63345,7 @@ native
 )
 =
 =
-js_fun_call
+fun_call
 )
 {
 if
@@ -66194,7 +66194,7 @@ that
 it
 '
 s
-js_fun_apply
+fun_apply
 ValueOperand
 val
 =
@@ -66301,7 +66301,7 @@ NotEqual
 callee
 ImmPtr
 (
-js_fun_apply
+fun_apply
 )
 failure
 )
@@ -72234,7 +72234,7 @@ v
 .
 .
 .
-js_fun_apply
+fun_apply
 TargetV
 TargetThisV
 ArgsArrayV
@@ -72303,7 +72303,7 @@ v
 .
 .
 .
-js_fun_apply
+fun_apply
 TargetV
 TargetThisV
 ArgsArrayV
@@ -72908,7 +72908,7 @@ like
 .
 .
 .
-js_fun_apply
+fun_apply
 TargetV
 TargetThisV
 MagicArgsV
@@ -72972,7 +72972,7 @@ v
 .
 .
 .
-js_fun_apply
+fun_apply
 TargetV
 TargetThisV
 MagicArgsV
@@ -73486,7 +73486,7 @@ R1
 Ensure
 callee
 is
-js_fun_call
+fun_call
 .
 masm
 .
@@ -73563,7 +73563,7 @@ NotEqual
 callee
 ImmPtr
 (
-js_fun_call
+fun_call
 )
 &
 failure
@@ -76086,7 +76086,7 @@ isObject
 )
 )
 {
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_BAD_INSTANCEOF_RHS

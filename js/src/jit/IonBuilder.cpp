@@ -38108,7 +38108,7 @@ native
 !
 =
 &
-js_fun_call
+fun_call
 )
 {
 CallInfo
@@ -38657,7 +38657,7 @@ native
 )
 !
 =
-js_fun_apply
+fun_apply
 )
 &
 &

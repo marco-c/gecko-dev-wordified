@@ -802,7 +802,7 @@ utf8buf
 ;
 utf8Len
 =
-js_OneUcs4ToUtf8Char
+OneUcs4ToUtf8Char
 (
 utf8buf
 v
@@ -1419,7 +1419,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MALFORMED_UTF8_CHAR
 buffer
@@ -1440,7 +1440,7 @@ dummy
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
@@ -1481,7 +1481,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UTF8_CHAR_TOO_LARGE
 buffer

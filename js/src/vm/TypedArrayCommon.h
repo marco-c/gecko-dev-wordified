@@ -3750,7 +3750,7 @@ end
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_INDEX
 )
@@ -4518,7 +4518,7 @@ to
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -4812,7 +4812,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -4884,7 +4884,7 @@ bogus
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_INDEX
 "
@@ -4940,7 +4940,7 @@ offset
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )
@@ -5013,7 +5013,7 @@ offset
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )

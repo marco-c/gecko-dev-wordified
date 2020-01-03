@@ -1061,7 +1061,7 @@ isSymbol
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SYMBOL_TO_STRING
 )

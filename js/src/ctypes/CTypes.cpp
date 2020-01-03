@@ -544,7 +544,7 @@ JS_ReportErrorFlagsAndNumber
 (
 maybecx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_SURROGATE_CHAR
 buffer
@@ -864,7 +864,10 @@ else
 {
 utf8Len
 =
-js_OneUcs4ToUtf8Char
+js
+:
+:
+OneUcs4ToUtf8Char
 (
 utf8buf
 v
@@ -997,7 +1000,7 @@ maybecx
 JS_ReportErrorNumber
 (
 maybecx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
@@ -4833,7 +4836,10 @@ JS_FN
 "
 call
 "
-js_fun_call
+js
+:
+:
+fun_call
 1
 CDATAFN_FLAGS
 )
@@ -4842,7 +4848,10 @@ JS_FN
 "
 apply
 "
-js_fun_apply
+js
+:
+:
+fun_apply
 2
 CDATAFN_FLAGS
 )

@@ -358,7 +358,7 @@ attrs
 JSPROP_GETTER
 )
 return
-js_ReportGetterOnlyAssignment
+ReportGetterOnlyAssignment
 (
 cx
 strict
@@ -735,7 +735,7 @@ if
 shape
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

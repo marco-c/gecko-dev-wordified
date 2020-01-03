@@ -4657,7 +4657,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_EXPECTED_TYPE
 "
@@ -4723,7 +4723,7 @@ arr
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_EXPECTED_TYPE
 "
@@ -5936,7 +5936,7 @@ d
 0
 )
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -6008,7 +6008,7 @@ isObject
 )
 )
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -12778,7 +12778,7 @@ argc
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 NULL
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -12880,7 +12880,7 @@ isSymbol
 )
 )
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -12946,7 +12946,7 @@ isSymbol
 )
 )
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR

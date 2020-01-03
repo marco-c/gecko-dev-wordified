@@ -9565,14 +9565,14 @@ jitTop
 }
 static
 void
-ReportOverRecursed
+BailoutReportOverRecursed
 (
 JSContext
 *
 cx
 )
 {
-js_ReportOverRecursed
+ReportOverRecursed
 (
 cx
 )
@@ -9714,7 +9714,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-ReportOverRecursed
+BailoutReportOverRecursed
 )
 )
 ;

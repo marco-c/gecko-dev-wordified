@@ -278,7 +278,7 @@ if
 p
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -558,7 +558,7 @@ not
 report
 OOM
 .
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

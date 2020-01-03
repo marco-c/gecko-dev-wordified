@@ -1362,7 +1362,7 @@ callback
 callback
 =
 =
-js_GetErrorMessage
+GetErrorMessage
 )
 &
 &
@@ -1406,7 +1406,7 @@ cx
 {
 if
 (
-js_ErrorToException
+ErrorToException
 (
 cx
 message
@@ -1415,10 +1415,8 @@ callback
 userRef
 )
 )
-{
 return
 ;
-}
 }
 /
 *
@@ -1442,7 +1440,6 @@ if
 (
 message
 )
-{
 CallErrorReporter
 (
 cx
@@ -1450,7 +1447,6 @@ message
 reportp
 )
 ;
-}
 }
 /
 *
@@ -1636,7 +1632,7 @@ directly
 Furthermore
 callers
 of
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 viz
 .
@@ -1660,7 +1656,10 @@ suppressed
 *
 /
 void
-js_ReportOutOfMemory
+js
+:
+:
+ReportOutOfMemory
 (
 ExclusiveContext
 *
@@ -1717,7 +1716,7 @@ fprintf
 (
 stderr
 "
-js_ReportOutOfMemory
+ReportOutOfMemory
 called
 \
 n
@@ -1862,7 +1861,7 @@ JSErrorFormatString
 *
 efs
 =
-js_GetErrorMessage
+GetErrorMessage
 (
 nullptr
 JSMSG_OUT_OF_MEMORY
@@ -2066,7 +2065,10 @@ JS_FRIEND_API
 (
 void
 )
-js_ReportOverRecursed
+js
+:
+:
+ReportOverRecursed
 (
 JSContext
 *
@@ -2139,7 +2141,7 @@ fprintf
 (
 stderr
 "
-js_ReportOverRecursed
+ReportOverRecursed
 called
 \
 n
@@ -2156,7 +2158,7 @@ maybecx
 JS_ReportErrorNumber
 (
 maybecx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_OVER_RECURSED
 )
@@ -2171,7 +2173,10 @@ true
 }
 }
 void
-js_ReportOverRecursed
+js
+:
+:
+ReportOverRecursed
 (
 ExclusiveContext
 *
@@ -2187,7 +2192,7 @@ isJSContext
 (
 )
 )
-js_ReportOverRecursed
+ReportOverRecursed
 (
 cx
 -
@@ -2207,7 +2212,10 @@ addPendingOverRecursed
 ;
 }
 void
-js_ReportAllocationOverflow
+js
+:
+:
+ReportAllocationOverflow
 (
 ExclusiveContext
 *
@@ -2253,7 +2261,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ALLOC_OVERFLOW
 )
@@ -2542,7 +2550,10 @@ false
 ;
 }
 bool
-js_ReportErrorVA
+js
+:
+:
+ReportErrorVA
 (
 JSContext
 *
@@ -3549,7 +3560,10 @@ memory
 *
 /
 bool
-js_ExpandErrorArguments
+js
+:
+:
+ExpandErrorArguments
 (
 ExclusiveContext
 *
@@ -3608,7 +3622,7 @@ callback
 )
 callback
 =
-js_GetErrorMessage
+GetErrorMessage
 ;
 {
 AutoSuppressGC
@@ -4637,7 +4651,10 @@ false
 ;
 }
 bool
-js_ReportErrorNumberVA
+js
+:
+:
+ReportErrorNumberVA
 (
 JSContext
 *
@@ -4709,7 +4726,7 @@ report
 if
 (
 !
-js_ExpandErrorArguments
+ExpandErrorArguments
 (
 cx
 callback
@@ -4753,7 +4770,7 @@ messageArgs
 /
 *
 *
-js_ExpandErrorArguments
+ExpandErrorArguments
 owns
 its
 messageArgs
@@ -4845,7 +4862,10 @@ warning
 ;
 }
 bool
-js_ReportErrorNumberUCArray
+js
+:
+:
+ReportErrorNumberUCArray
 (
 JSContext
 *
@@ -4925,7 +4945,7 @@ dummy
 if
 (
 !
-js_ExpandErrorArguments
+ExpandErrorArguments
 (
 cx
 callback
@@ -5026,7 +5046,10 @@ reportp
 ;
 }
 void
-js_ReportIsNotDefined
+js
+:
+:
+ReportIsNotDefined
 (
 JSContext
 *
@@ -5040,7 +5063,7 @@ name
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_DEFINED
 name
@@ -5048,7 +5071,10 @@ name
 ;
 }
 bool
-js_ReportIsNullOrUndefined
+js
+:
+:
+ReportIsNullOrUndefined
 (
 JSContext
 *
@@ -5114,7 +5140,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NO_PROPERTIES
 bytes
@@ -5139,7 +5165,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 bytes
@@ -5165,7 +5191,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 bytes
@@ -5184,7 +5210,10 @@ ok
 ;
 }
 void
-js_ReportMissingArg
+js
+:
+:
+ReportMissingArg
 (
 JSContext
 *
@@ -5275,7 +5304,7 @@ return
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MISSING_FUN_ARG
 argbuf
@@ -5294,7 +5323,10 @@ bytes
 ;
 }
 bool
-js_ReportValueErrorFlags
+js
+:
+:
+ReportValueErrorFlags
 (
 JSContext
 *
@@ -5377,7 +5409,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 flags
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 errorNumber
 bytes
@@ -5435,7 +5467,10 @@ const
 JSErrorFormatString
 *
 )
-js_GetErrorMessage
+js
+:
+:
+GetErrorMessage
 (
 void
 *

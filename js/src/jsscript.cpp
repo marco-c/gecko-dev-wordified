@@ -13354,7 +13354,7 @@ asJSContext
 (
 )
 JSREPORT_WARNING
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ALREADY_HAS_PRAGMA
 filename_
@@ -13959,7 +13959,7 @@ js_free
 ssd
 )
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -15623,7 +15623,7 @@ RootedScript
 script
 (
 cx
-js_NewGCScript
+NewGCScript
 (
 cx
 )
@@ -15817,7 +15817,7 @@ cx
 asJSContext
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TOO_DEEP
 js_function_str
@@ -18456,7 +18456,10 @@ result
 }
 jssrcnote
 *
-js_GetSrcNote
+js
+:
+:
+GetSrcNote
 (
 JSContext
 *
@@ -18793,7 +18796,10 @@ columnp
 }
 jsbytecode
 *
-js_LineNumberToPC
+js
+:
+:
+LineNumberToPC
 (
 JSScript
 *
@@ -19022,7 +19028,10 @@ JS_FRIEND_API
 (
 unsigned
 )
-js_GetScriptLineExtent
+js
+:
+:
+GetScriptLineExtent
 (
 JSScript
 *
@@ -22444,7 +22453,7 @@ if
 site
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -25095,7 +25104,7 @@ LazyScript
 *
 res
 =
-js_NewGCLazyScript
+NewGCLazyScript
 (
 cx
 )

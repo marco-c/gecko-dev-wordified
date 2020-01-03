@@ -2774,7 +2774,7 @@ if
 packedBindings
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3661,7 +3661,7 @@ if
 objbox
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 context
 )
@@ -4391,7 +4391,7 @@ if
 funbox
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 context
 )

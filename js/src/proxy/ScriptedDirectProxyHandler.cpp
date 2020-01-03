@@ -1114,7 +1114,7 @@ bytes
 )
 return
 ;
-js_ReportValueError2
+ReportValueError2
 (
 cx
 JSMSG_INVALID_TRAP_RESULT
@@ -1400,7 +1400,7 @@ isFixed
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_NEW
 )
@@ -1570,7 +1570,7 @@ sealed
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_SKIP_NC
 )
@@ -1634,7 +1634,7 @@ isFixed
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_E_AS_NE
 )
@@ -1747,7 +1747,7 @@ target
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -1815,7 +1815,7 @@ target
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -1910,7 +1910,7 @@ target
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -1992,7 +1992,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -2182,7 +2182,7 @@ extensible
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_AS_NON_EXTENSIBLE
 )
@@ -2272,7 +2272,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -2460,7 +2460,7 @@ booleanTrapResult
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_EXTENSIBILITY
 )
@@ -2687,7 +2687,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -2873,7 +2873,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_GETOWN_OBJORUNDEF
 )
@@ -2970,7 +2970,7 @@ isPermanent
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_NC_AS_NE
 )
@@ -3011,7 +3011,7 @@ extensibleTarget
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_E_AS_NE
 )
@@ -3137,7 +3137,7 @@ valid
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_INVALID
 )
@@ -3173,7 +3173,7 @@ object
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_NE_AS_NC
 )
@@ -3195,7 +3195,7 @@ isPermanent
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_C_AS_NC
 )
@@ -3293,7 +3293,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -3584,7 +3584,7 @@ extensibleTarget
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_DEFINE_NEW
 )
@@ -3605,7 +3605,7 @@ settingConfigFalse
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_DEFINE_NE_AS_NC
 )
@@ -3678,7 +3678,7 @@ isPermanent
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_DEFINE_INVALID
 )
@@ -3800,7 +3800,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -4094,7 +4094,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -4323,7 +4323,7 @@ id
 )
 )
 ;
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_CANT_DELETE
@@ -4430,7 +4430,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -4695,7 +4695,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -4921,7 +4921,7 @@ isPermanent
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_NC_AS_NE
 )
@@ -4956,7 +4956,7 @@ extensible
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REPORT_E_AS_NE
 )
@@ -5051,7 +5051,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -5312,7 +5312,7 @@ same
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MUST_REPORT_SAME_VALUE
 )
@@ -5358,7 +5358,7 @@ isUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MUST_REPORT_UNDEFINED
 )
@@ -5458,7 +5458,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -5742,7 +5742,7 @@ same
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_SET_NW_NC
 )
@@ -5778,7 +5778,7 @@ hasSetterObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_SET_WO_SETTER
 )
@@ -5870,7 +5870,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -6124,7 +6124,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -6335,7 +6335,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_CONSTRUCT_OBJECT
 )
@@ -6414,7 +6414,7 @@ handler
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROXY_REVOKED
 )
@@ -6672,7 +6672,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 js_Function_str
@@ -6939,7 +6939,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 callerName
@@ -7199,7 +7199,7 @@ isConstructing
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_FUNCTION
 "

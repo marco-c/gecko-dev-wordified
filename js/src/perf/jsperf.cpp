@@ -965,7 +965,7 @@ hasDefined
 )
 )
 {
-js_ReportMissingArg
+ReportMissingArg
 (
 cx
 args
@@ -1195,7 +1195,7 @@ nullptr
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 0
 JSMSG_NOT_NONNULL_OBJECT
 bytes
@@ -1268,7 +1268,7 @@ hand
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 0
 JSMSG_INCOMPATIBLE_PROTO
 pm_class

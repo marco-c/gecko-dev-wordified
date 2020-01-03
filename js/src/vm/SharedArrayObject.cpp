@@ -1422,7 +1422,7 @@ true
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SHARED_ARRAY_BAD_OBJECT
 )
@@ -1482,7 +1482,7 @@ INT32_MAX
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SHARED_ARRAY_BAD_LENGTH
 )
@@ -1969,7 +1969,10 @@ JS_NULL_CLASS_EXT
 ;
 JSObject
 *
-js_InitSharedArrayBufferClass
+js
+:
+:
+InitSharedArrayBufferClass
 (
 JSContext
 *

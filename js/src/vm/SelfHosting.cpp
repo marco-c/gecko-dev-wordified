@@ -1022,7 +1022,7 @@ JSErrorFormatString
 *
 efs
 =
-js_GetErrorMessage
+GetErrorMessage
 (
 nullptr
 errorNumber
@@ -1200,7 +1200,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 errorNumber
 errorArgs
@@ -5181,7 +5181,7 @@ locale
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEFAULT_LOCALE_ERROR
 )
@@ -5664,7 +5664,7 @@ JS_FN
 "
 std_Function_apply
 "
-js_fun_apply
+fun_apply
 2
 0
 )
@@ -5751,7 +5751,7 @@ JS_FN
 "
 std_Number_valueOf
 "
-js_num_valueOf
+num_valueOf
 0
 0
 )
@@ -5847,7 +5847,7 @@ JS_FN
 "
 std_String_charCodeAt
 "
-js_str_charCodeAt
+str_charCodeAt
 1
 0
 )
@@ -8050,7 +8050,7 @@ id
 )
 ;
 return
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -8095,7 +8095,7 @@ id
 )
 ;
 return
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR

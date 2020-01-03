@@ -165,7 +165,6 @@ JSContext
 cx
 )
 ;
-}
 /
 *
 *
@@ -425,7 +424,7 @@ explicitly
 /
 extern
 bool
-js_ErrorToException
+ErrorToException
 (
 JSContext
 *
@@ -590,7 +589,7 @@ flag
 /
 extern
 bool
-js_ReportUncaughtException
+ReportUncaughtException
 (
 JSContext
 *
@@ -600,14 +599,11 @@ cx
 extern
 JSErrorReport
 *
-js_ErrorFromException
+ErrorFromException
 (
 JSContext
 *
 cx
-js
-:
-:
 HandleObject
 obj
 )
@@ -687,7 +683,7 @@ nullptr
 extern
 JSObject
 *
-js_CopyErrorObject
+CopyErrorObject
 (
 JSContext
 *
@@ -697,9 +693,6 @@ JS
 :
 Handle
 <
-js
-:
-:
 ErrorObject
 *
 >
@@ -879,6 +872,11 @@ return
 type
 ;
 }
+}
+/
+/
+namespace
+js
 #
 endif
 /

@@ -1728,7 +1728,7 @@ scopeObjGlobal
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CSP_BLOCKED_EVAL
 )
@@ -2592,7 +2592,7 @@ scopeObjGlobal
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CSP_BLOCKED_EVAL
 )

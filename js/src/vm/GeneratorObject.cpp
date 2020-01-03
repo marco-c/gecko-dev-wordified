@@ -630,7 +630,7 @@ callee
 )
 )
 ;
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_BAD_GENERATOR_YIELD

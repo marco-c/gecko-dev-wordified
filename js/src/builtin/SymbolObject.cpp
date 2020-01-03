@@ -777,7 +777,7 @@ isConstructing
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_CONSTRUCTOR
 "
@@ -1142,7 +1142,7 @@ isSymbol
 )
 )
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -1614,7 +1614,10 @@ args
 }
 JSObject
 *
-js_InitSymbolClass
+js
+:
+:
+InitSymbolClass
 (
 JSContext
 *

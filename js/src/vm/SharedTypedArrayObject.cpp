@@ -1603,7 +1603,7 @@ true
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SHARED_TYPED_ARRAY_BAD_LENGTH
 )
@@ -1761,7 +1761,7 @@ INT32_MAX
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )
@@ -1829,7 +1829,7 @@ SharedArrayBufferObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SHARED_TYPED_ARRAY_BAD_OBJECT
 )
@@ -1894,7 +1894,7 @@ MAX_BYTEOFFSET
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SHARED_TYPED_ARRAY_ARG_RANGE
 "
@@ -1972,7 +1972,7 @@ INT32_MAX
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SHARED_TYPED_ARRAY_ARG_RANGE
 "
@@ -2755,7 +2755,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SHARED_TYPED_ARRAY_BAD_OBJECT
 )
@@ -2858,7 +2858,7 @@ byteOffset
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SHARED_TYPED_ARRAY_BAD_ARGS
 )
@@ -2903,7 +2903,7 @@ NativeType
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SHARED_TYPED_ARRAY_BAD_ARGS
 )
@@ -2947,7 +2947,7 @@ bytesAvailable
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )
@@ -3028,7 +3028,7 @@ NativeType
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )

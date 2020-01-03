@@ -3435,7 +3435,10 @@ buffer
 }
 DtoaState
 *
-js_NewDtoaState
+js
+:
+:
+NewDtoaState
 (
 )
 {
@@ -3446,7 +3449,10 @@ newdtoa
 ;
 }
 void
-js_DestroyDtoaState
+js
+:
+:
+DestroyDtoaState
 (
 DtoaState
 *

@@ -2856,7 +2856,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -3039,7 +3039,7 @@ byteOffset
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_NEGATIVE_ARG
 "
@@ -3089,7 +3089,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_NEGATIVE_ARG
 "
@@ -3181,7 +3181,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -3641,7 +3641,7 @@ bufobj
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -3696,7 +3696,7 @@ NativeType
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -3762,7 +3762,7 @@ byteOffset
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -3842,7 +3842,7 @@ arrayByteLength
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -3881,7 +3881,7 @@ byteLength
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPED_ARRAY_BAD_ARGS
 )
@@ -4002,7 +4002,7 @@ NativeType
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NEED_DIET
 "
@@ -6565,7 +6565,7 @@ byteLength
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ARG_INDEX_OUT_OF_RANGE
 "
@@ -6955,7 +6955,7 @@ bufobj
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_EXPECTED_TYPE
 "
@@ -7052,7 +7052,7 @@ INT32_MAX
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ARG_INDEX_OUT_OF_RANGE
 "
@@ -7102,7 +7102,7 @@ INT32_MAX
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ARG_INDEX_OUT_OF_RANGE
 "
@@ -7127,7 +7127,7 @@ bufferLength
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ARG_INDEX_OUT_OF_RANGE
 "
@@ -7187,7 +7187,7 @@ bufferLength
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ARG_INDEX_OUT_OF_RANGE
 "
@@ -7544,7 +7544,7 @@ byteLength
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ARG_INDEX_OUT_OF_RANGE
 "
@@ -8131,7 +8131,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 method
@@ -8451,7 +8451,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 method
@@ -13082,7 +13082,10 @@ newData
 }
 JSObject
 *
-js_InitDataViewClass
+js
+:
+:
+InitDataViewClass
 (
 JSContext
 *

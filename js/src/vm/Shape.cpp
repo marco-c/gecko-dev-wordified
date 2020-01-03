@@ -803,7 +803,7 @@ BaseShape
 *
 nbase
 =
-js_NewGCBaseShape
+NewGCBaseShape
 <
 NoGC
 >
@@ -1909,7 +1909,7 @@ size
 1
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -2898,7 +2898,7 @@ if
 dprop
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -2989,7 +2989,7 @@ root
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3664,7 +3664,7 @@ index
 bool
 indexed
 =
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -4140,7 +4140,7 @@ index
 bool
 indexed
 =
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -4528,7 +4528,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -4941,7 +4941,7 @@ index
 bool
 indexed
 =
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -9272,7 +9272,7 @@ BaseShape
 *
 nbase_
 =
-js_NewGCBaseShape
+NewGCBaseShape
 <
 CanGC
 >
@@ -10853,7 +10853,7 @@ if
 shape
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

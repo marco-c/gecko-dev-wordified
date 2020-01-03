@@ -371,6 +371,9 @@ init
 ;
 }
 ;
+namespace
+js
+{
 #
 define
 DECLARE_PROTOTYPE_CLASS_INIT
@@ -404,9 +407,17 @@ DECLARE_PROTOTYPE_CLASS_INIT
 #
 undef
 DECLARE_PROTOTYPE_CLASS_INIT
+}
+/
+/
+namespace
+js
 JSObject
 *
-js_InitViaClassSpec
+js
+:
+:
+InitViaClassSpec
 (
 JSContext
 *
@@ -766,7 +777,7 @@ if
 init
 =
 =
-js_InitViaClassSpec
+InitViaClassSpec
 )
 init
 =
@@ -2954,7 +2965,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_WARNING
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 errorNumber
 )

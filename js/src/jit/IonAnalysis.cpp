@@ -23858,7 +23858,7 @@ if
 constraints
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

@@ -2958,7 +2958,7 @@ StringObject
 :
 class_
 id
-js_str_toString
+str_toString
 )
 )
 {
@@ -3006,7 +3006,7 @@ isNullOrUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CONVERT_TO
 call
@@ -3171,7 +3171,7 @@ false
 ;
 str
 =
-js_QuoteString
+QuoteString
 (
 cx
 str
@@ -3384,7 +3384,10 @@ true
 ;
 }
 bool
-js_str_toString
+js
+:
+:
+str_toString
 (
 JSContext
 *
@@ -5801,7 +5804,7 @@ else
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INVALID_NORMALIZE_FORM
 )
@@ -6072,7 +6075,10 @@ true
 #
 endif
 bool
-js_str_charAt
+js
+:
+:
+str_charAt
 (
 JSContext
 *
@@ -6483,7 +6489,10 @@ true
 ;
 }
 bool
-js_str_charCodeAt
+js
+:
+:
+str_charCodeAt
 (
 JSContext
 *
@@ -11477,7 +11486,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INVALID_ARG_TYPE
 "
@@ -11848,7 +11857,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INVALID_ARG_TYPE
 "
@@ -17229,7 +17238,7 @@ isValid
 )
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 cx
 )
@@ -18418,7 +18427,7 @@ isValid
 )
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 cx
 )
@@ -25500,14 +25509,14 @@ methods
 JS_FN
 (
 js_toString_str
-js_str_toString
+str_toString
 0
 0
 )
 JS_FN
 (
 js_valueOf_str
-js_str_toString
+str_toString
 0
 0
 )
@@ -25534,7 +25543,7 @@ JS_FN
 "
 charAt
 "
-js_str_charAt
+str_charAt
 1
 JSFUN_GENERIC_NATIVE
 )
@@ -25543,7 +25552,7 @@ JS_FN
 "
 charCodeAt
 "
-js_str_charCodeAt
+str_charCodeAt
 1
 JSFUN_GENERIC_NATIVE
 )
@@ -25984,7 +25993,10 @@ Aug
 .
 1
 bool
-js_String
+js
+:
+:
+StringConstructor
 (
 JSContext
 *
@@ -26660,7 +26672,10 @@ JSPROP_READONLY
 }
 JSObject
 *
-js_InitStringClass
+js
+:
+:
+InitStringClass
 (
 JSContext
 *
@@ -26786,7 +26801,7 @@ global
 createConstructor
 (
 cx
-js_String
+StringConstructor
 cx
 -
 >
@@ -26907,7 +26922,10 @@ proto
 const
 char
 *
-js_ValueToPrintable
+js
+:
+:
+ValueToPrintable
 (
 JSContext
 *
@@ -26968,7 +26986,7 @@ nullptr
 ;
 str
 =
-js_QuoteString
+QuoteString
 (
 cx
 str
@@ -27200,7 +27218,7 @@ isBoolean
 {
 str
 =
-js_BooleanToString
+BooleanToString
 (
 cx
 v
@@ -27264,7 +27282,7 @@ cx
 asJSContext
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SYMBOL_TO_STRING
 )
@@ -27831,7 +27849,7 @@ str
 )
 {
 return
-js_QuoteString
+QuoteString
 (
 cx
 str
@@ -29185,7 +29203,7 @@ maybecx
 JS_ReportErrorNumber
 (
 maybecx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
@@ -30972,7 +30990,7 @@ utf8buf
 size_t
 L
 =
-js_OneUcs4ToUtf8Char
+OneUcs4ToUtf8Char
 (
 utf8buf
 v
@@ -31211,7 +31229,7 @@ Encode_BadUri
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_URI
 nullptr
@@ -31894,7 +31912,7 @@ Decode_BadUri
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_URI
 )
@@ -32192,7 +32210,10 @@ written
 *
 /
 int
-js_OneUcs4ToUtf8Char
+js
+:
+:
+OneUcs4ToUtf8Char
 (
 uint8_t
 *

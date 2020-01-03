@@ -422,7 +422,7 @@ JSString
 *
 source
 =
-js_QuoteString
+QuoteString
 (
 cx
 name

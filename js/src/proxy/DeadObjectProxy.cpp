@@ -180,7 +180,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -213,7 +213,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -246,7 +246,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -275,7 +275,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -306,7 +306,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -334,7 +334,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -390,7 +390,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -476,7 +476,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -506,7 +506,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -536,7 +536,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -567,7 +567,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -595,7 +595,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -667,7 +667,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )
@@ -697,7 +697,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEAD_OBJECT
 )

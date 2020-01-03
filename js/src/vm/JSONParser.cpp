@@ -738,7 +738,7 @@ line
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_JSON_BAD_PARSE
 msg

@@ -625,7 +625,7 @@ err
 JS_DTOA_ENOMEM
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -4481,8 +4481,7 @@ allowGC
 static
 JSString
 *
-JS_FASTCALL
-js_NumberToStringWithBase
+NumberToStringWithBase
 (
 ExclusiveContext
 *
@@ -4578,7 +4577,7 @@ d2
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_RADIX
 )
@@ -4599,7 +4598,7 @@ JSString
 *
 str
 =
-js_NumberToStringWithBase
+NumberToStringWithBase
 <
 CanGC
 >
@@ -4640,7 +4639,10 @@ true
 ;
 }
 bool
-js_num_toString
+js
+:
+:
+num_toString
 (
 JSContext
 *
@@ -4712,15 +4714,11 @@ thisv
 )
 )
 ;
-Rooted
-<
-JSString
-*
->
+RootedString
 str
 (
 cx
-js_NumberToStringWithBase
+NumberToStringWithBase
 <
 CanGC
 >
@@ -5630,7 +5628,10 @@ true
 ;
 }
 bool
-js_num_valueOf
+js
+:
+:
+num_valueOf
 (
 JSContext
 *
@@ -5752,7 +5753,7 @@ prec
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PRECISION_RANGE
 numStr
@@ -6192,7 +6193,7 @@ JSString
 *
 str
 =
-js_NumberToStringWithBase
+NumberToStringWithBase
 <
 CanGC
 >
@@ -6323,7 +6324,7 @@ endif
 JS_FN
 (
 js_toString_str
-js_num_toString
+num_toString
 1
 0
 )
@@ -6353,7 +6354,7 @@ endif
 JS_FN
 (
 js_valueOf_str
-js_num_valueOf
+num_valueOf
 0
 0
 )
@@ -7089,7 +7090,10 @@ storage
 endif
 JSObject
 *
-js_InitNumberClass
+js
+:
+:
+InitNumberClass
 (
 JSContext
 *
@@ -8018,8 +8022,7 @@ allowGC
 static
 JSString
 *
-JS_FASTCALL
-js_NumberToStringWithBase
+NumberToStringWithBase
 (
 ExclusiveContext
 *
@@ -8319,7 +8322,7 @@ if
 numStr
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -8428,7 +8431,7 @@ d
 )
 {
 return
-js_NumberToStringWithBase
+NumberToStringWithBase
 <
 allowGC
 >
@@ -8551,7 +8554,7 @@ if
 numStr
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -8645,7 +8648,7 @@ JSString
 *
 str
 =
-js_NumberToStringWithBase
+NumberToStringWithBase
 <
 CanGC
 >
@@ -9772,7 +9775,7 @@ cx
 asJSContext
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SYMBOL_TO_NUMBER
 )

@@ -2061,7 +2061,10 @@ report
 }
 JSErrorReport
 *
-js_ErrorFromException
+js
+:
+:
+ErrorFromException
 (
 JSContext
 *
@@ -3429,7 +3432,10 @@ rt
 ;
 }
 bool
-js_ErrorToException
+js
+:
+:
+ErrorToException
 (
 JSContext
 *
@@ -3514,7 +3520,7 @@ callback
 )
 callback
 =
-js_GetErrorMessage
+GetErrorMessage
 ;
 const
 JSErrorFormatString
@@ -4114,7 +4120,10 @@ str
 ;
 }
 bool
-js_ReportUncaughtException
+js
+:
+:
+ReportUncaughtException
 (
 JSContext
 *
@@ -4291,7 +4300,7 @@ messageArgs
 /
 *
 *
-js_ExpandErrorArguments
+ExpandErrorArguments
 owns
 its
 messageArgs
@@ -4450,7 +4459,7 @@ toObject
 ;
 reportp
 =
-js_ErrorFromException
+ErrorFromException
 (
 cx
 exnObject
@@ -4679,7 +4688,7 @@ clearPendingException
 /
 /
 If
-js_ErrorFromException
+ErrorFromException
 didn
 '
 t
@@ -5471,7 +5480,7 @@ of
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 /
 /
@@ -5742,10 +5751,10 @@ mutedErrors
 if
 (
 !
-js_ExpandErrorArguments
+ExpandErrorArguments
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNCAUGHT_EXCEPTION
 &
@@ -5780,7 +5789,10 @@ true
 }
 JSObject
 *
-js_CopyErrorObject
+js
+:
+:
+CopyErrorObject
 (
 JSContext
 *

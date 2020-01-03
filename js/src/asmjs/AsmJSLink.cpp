@@ -483,7 +483,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_WARNING
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_USE_ASM_LINK_FAIL
 str
@@ -1711,7 +1711,7 @@ if
 IsNativeFunction
 (
 boundTarget
-js_fun_call
+fun_call
 )
 )
 return
@@ -5256,7 +5256,7 @@ hasDetachedHeap
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_OUT_OF_MEMORY
 )
@@ -8717,7 +8717,7 @@ fun
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_USE_ASM_TYPE_FAIL
 "

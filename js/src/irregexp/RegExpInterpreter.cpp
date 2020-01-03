@@ -450,7 +450,7 @@ init
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -512,7 +512,7 @@ grow
 )
 )
 {
-js_ReportOverRecursed
+ReportOverRecursed
 (
 cx
 )

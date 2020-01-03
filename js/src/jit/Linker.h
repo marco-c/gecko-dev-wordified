@@ -193,7 +193,7 @@ JSContext
 cx
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

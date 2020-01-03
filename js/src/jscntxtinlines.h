@@ -2116,7 +2116,7 @@ attrs
 JSPROP_GETTER
 )
 return
-js_ReportGetterOnlyAssignment
+ReportGetterOnlyAssignment
 (
 cx
 strict
@@ -2294,7 +2294,7 @@ after
 the
 fact
 by
-js_ReportOverRecursed
+ReportOverRecursed
 .
 this
 -

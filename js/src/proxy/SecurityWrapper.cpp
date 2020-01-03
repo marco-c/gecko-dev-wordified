@@ -168,7 +168,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNWRAP_DENIED
 )
@@ -211,7 +211,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNWRAP_DENIED
 )
@@ -250,7 +250,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNWRAP_DENIED
 )
@@ -287,7 +287,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNWRAP_DENIED
 )
@@ -693,7 +693,7 @@ twoByteChars
 JS_ReportErrorNumberUC
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ACCESSOR_DEF_DENIED
 prop
@@ -745,7 +745,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNWRAP_DENIED
 )
@@ -781,7 +781,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNWRAP_DENIED
 )

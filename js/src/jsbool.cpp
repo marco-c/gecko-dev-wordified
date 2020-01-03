@@ -507,7 +507,7 @@ rval
 .
 setString
 (
-js_BooleanToString
+BooleanToString
 (
 cx
 b
@@ -811,7 +811,10 @@ true
 }
 JSObject
 *
-js_InitBooleanClass
+js
+:
+:
+InitBooleanClass
 (
 JSContext
 *
@@ -975,7 +978,10 @@ booleanProto
 }
 JSString
 *
-js_BooleanToString
+js
+:
+:
+BooleanToString
 (
 ExclusiveContext
 *

@@ -1694,7 +1694,7 @@ maxFrames
 )
 )
 {
-js_ReportOverRecursed
+ReportOverRecursed
 (
 cx
 )

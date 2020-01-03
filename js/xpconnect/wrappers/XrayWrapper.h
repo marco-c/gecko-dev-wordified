@@ -1729,7 +1729,10 @@ wrapper
 )
 )
 ;
-js_ReportIsNotFunction
+js
+:
+:
+ReportIsNotFunction
 (
 cx
 v
@@ -1831,7 +1834,10 @@ wrapper
 )
 )
 ;
-js_ReportIsNotFunction
+js
+:
+:
+ReportIsNotFunction
 (
 cx
 v
@@ -2449,7 +2455,10 @@ wrapper
 )
 )
 ;
-js_ReportIsNotFunction
+js
+:
+:
+ReportIsNotFunction
 (
 cx
 v
@@ -2504,7 +2513,10 @@ wrapper
 )
 )
 ;
-js_ReportIsNotFunction
+js
+:
+:
+ReportIsNotFunction
 (
 cx
 v

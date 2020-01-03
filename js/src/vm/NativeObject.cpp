@@ -329,7 +329,7 @@ isUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_GET_SET_FIELD
 js_getter_str
@@ -380,7 +380,7 @@ isUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_GET_SET_FIELD
 js_setter_str
@@ -4091,7 +4091,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 shape
 -
@@ -4322,7 +4322,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -6468,7 +6468,7 @@ slot
 SHAPE_MAXIMUM_SLOT
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -7760,7 +7760,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -11980,7 +11980,7 @@ printable
 ;
 if
 (
-js_ValueToPrintable
+ValueToPrintable
 (
 cx
 IdToValue
@@ -11991,7 +11991,7 @@ id
 printable
 )
 )
-js_ReportIsNotDefined
+ReportIsNotDefined
 (
 cx
 printable
@@ -12315,7 +12315,7 @@ id
 )
 ;
 return
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 flags
@@ -13321,7 +13321,7 @@ JSREPORT_STRICT
 |
 JSREPORT_STRICT_MODE_ERROR
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNDECLARED_VAR
 bytes
@@ -14812,7 +14812,7 @@ hasDefaultSetter
 )
 )
 return
-js_ReportGetterOnlyAssignment
+ReportGetterOnlyAssignment
 (
 cx
 strict
@@ -15131,7 +15131,7 @@ hasDefaultSetter
 )
 )
 return
-js_ReportGetterOnlyAssignment
+ReportGetterOnlyAssignment
 (
 cx
 strict

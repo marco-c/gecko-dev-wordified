@@ -5426,7 +5426,7 @@ if
 (
 cx
 )
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -5864,7 +5864,7 @@ shared
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -6453,7 +6453,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_REGEXP_FLAG
 charBuf
