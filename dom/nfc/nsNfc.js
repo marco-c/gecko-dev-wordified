@@ -1157,6 +1157,7 @@ _nfcContentHelper
 writeNDEF
 (
 records
+false
 this
 .
 session
@@ -1777,6 +1778,7 @@ _nfcContentHelper
 writeNDEF
 (
 records
+true
 this
 .
 session
