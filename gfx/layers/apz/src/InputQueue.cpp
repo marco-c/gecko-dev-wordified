@@ -914,7 +914,9 @@ block
 with
 id
 %
-llu
+"
+PRIu64
+"
 and
 target
 %
@@ -1289,7 +1291,9 @@ timeout
 block
 =
 %
-llu
+"
+PRIu64
+"
 \
 n
 "
@@ -1394,7 +1398,9 @@ response
 block
 =
 %
-llu
+"
+PRIu64
+"
 \
 n
 "
@@ -1505,7 +1511,9 @@ behaviours
 block
 =
 %
-llu
+"
+PRIu64
+"
 \
 n
 "
