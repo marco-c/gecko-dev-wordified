@@ -1310,11 +1310,11 @@ the
 frame
 kidReflowState
 .
-SetComputedHeight
+SetComputedBSize
 (
 aReflowState
 .
-ComputedHeight
+ComputedBSize
 (
 )
 )
@@ -1382,7 +1382,7 @@ NS_ASSERTION
 (
 aReflowState
 .
-AvailableWidth
+AvailableISize
 (
 )
 !
