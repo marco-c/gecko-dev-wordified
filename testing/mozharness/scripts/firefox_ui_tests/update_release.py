@@ -1921,7 +1921,8 @@ self
 .
 installer_path
 )
-                
+\
+            
 '
 Either
 specify

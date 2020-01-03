@@ -1234,7 +1234,10 @@ versions
 for
 package
 in
+sorted
+(
 packages
+)
 :
                 
 self
