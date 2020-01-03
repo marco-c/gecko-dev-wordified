@@ -6186,6 +6186,9 @@ setActive
 break
 ;
 case
+JitFrame_Bailout
+:
+case
 JitFrame_IonJS
 :
 {
