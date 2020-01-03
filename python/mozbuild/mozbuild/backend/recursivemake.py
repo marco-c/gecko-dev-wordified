@@ -2754,6 +2754,21 @@ append
 GARBAGE
 '
 )
+                
+base
+=
+backend_file
+.
+objdir
+            
+else
+:
+                
+base
+=
+backend_file
+.
+srcdir
             
 for
 f
@@ -2765,6 +2780,16 @@ obj
 files
 )
 :
+                
+f
+=
+mozpath
+.
+relpath
+(
+f
+base
+)
                 
 for
 var
@@ -2870,8 +2895,17 @@ n
 '
 %
 (
+                    
 var
+mozpath
+.
+relpath
+(
 f
+backend_file
+.
+srcdir
+)
 )
 )
         
