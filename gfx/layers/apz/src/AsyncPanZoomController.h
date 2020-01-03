@@ -1027,6 +1027,9 @@ const
 InputData
 &
 aEvent
+uint64_t
+*
+aOutInputBlockId
 )
 ;
 /
@@ -5777,6 +5780,8 @@ ContentReceivedTouch
 void
 ContentReceivedTouch
 (
+uint64_t
+aInputBlockId
 bool
 aPreventDefault
 )
@@ -5795,6 +5800,8 @@ SetAllowedTouchBehavior
 void
 SetAllowedTouchBehavior
 (
+uint64_t
+aInputBlockId
 const
 nsTArray
 <

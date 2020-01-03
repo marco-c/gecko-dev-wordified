@@ -293,6 +293,8 @@ layers
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 ;
 virtual
@@ -417,6 +419,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 bool
 aPreventDefault
 )
@@ -433,6 +437,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 ;
 public

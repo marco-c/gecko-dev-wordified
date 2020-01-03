@@ -6056,6 +6056,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 nsTArray
 <
 TouchBehaviorFlags
@@ -6089,6 +6091,7 @@ sAPZC
 SetAllowedTouchBehavior
 (
 aGuid
+aInputBlockId
 aBehaviors
 )
 ;
@@ -6103,6 +6106,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 {
 LogFunction
@@ -6124,6 +6129,7 @@ mController
 ContentReceivedTouch
 (
 aGuid
+aInputBlockId
 true
 )
 ;
@@ -6138,6 +6144,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 {
 LogFunction
@@ -6159,6 +6167,7 @@ mController
 ContentReceivedTouch
 (
 aGuid
+aInputBlockId
 false
 )
 ;
@@ -6240,6 +6249,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 {
 MOZ_ASSERT
@@ -6265,6 +6277,7 @@ ReceiveInputEvent
 (
 aEvent
 aOutTargetGuid
+aOutInputBlockId
 )
 ;
 }

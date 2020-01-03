@@ -249,6 +249,8 @@ layers
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 bool
 aDefaultPrevented
 )
@@ -370,6 +372,8 @@ layers
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 MOZ_OVERRIDE
 ;

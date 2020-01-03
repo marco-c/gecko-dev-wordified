@@ -7548,6 +7548,9 @@ const
 InputData
 &
 aEvent
+uint64_t
+*
+aOutInputBlockId
 )
 {
 return
@@ -7560,6 +7563,7 @@ ReceiveInputEvent
 (
 this
 aEvent
+aOutInputBlockId
 )
 ;
 }
@@ -11379,6 +11383,9 @@ geckoScreenPoint
 )
 )
 {
+uint64_t
+blockId
+=
 GetInputQueue
 (
 )
@@ -11399,6 +11406,7 @@ modifiers
 GetGuid
 (
 )
+blockId
 )
 ;
 return
@@ -20419,6 +20427,8 @@ AsyncPanZoomController
 :
 ContentReceivedTouch
 (
+uint64_t
+aInputBlockId
 bool
 aPreventDefault
 )
@@ -20430,6 +20440,7 @@ GetInputQueue
 >
 ContentReceivedTouch
 (
+aInputBlockId
 aPreventDefault
 )
 ;
@@ -20440,6 +20451,8 @@ AsyncPanZoomController
 :
 SetAllowedTouchBehavior
 (
+uint64_t
+aInputBlockId
 const
 nsTArray
 <
@@ -20456,6 +20469,7 @@ GetInputQueue
 >
 SetAllowedTouchBehavior
 (
+aInputBlockId
 aBehaviors
 )
 ;

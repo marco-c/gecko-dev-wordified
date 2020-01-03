@@ -1902,6 +1902,10 @@ mWindow
 (
 aWindow
 )
+mInputBlockId
+(
+0
+)
 {
 LogFunction
 (
@@ -7952,6 +7956,8 @@ ApzReceiveInputEvent
 transformedEvent
 &
 mTargetAPZCGuid
+&
+mInputBlockId
 )
 ;
 if
@@ -8154,6 +8160,7 @@ mWidget
 ApzcSetAllowedTouchBehavior
 (
 mTargetAPZCGuid
+mInputBlockId
 touchBehaviors
 )
 ;
@@ -8230,6 +8237,7 @@ mWidget
 ApzContentConsumingTouch
 (
 mTargetAPZCGuid
+mInputBlockId
 )
 ;
 mCancelable
@@ -8306,6 +8314,8 @@ ApzReceiveInputEvent
 transformedEvent
 &
 mTargetAPZCGuid
+&
+mInputBlockId
 )
 ;
 if
@@ -8608,6 +8618,7 @@ mWidget
 ApzContentConsumingTouch
 (
 mTargetAPZCGuid
+mInputBlockId
 )
 ;
 }
@@ -8619,6 +8630,7 @@ mWidget
 ApzContentIgnoringTouch
 (
 mTargetAPZCGuid
+mInputBlockId
 )
 ;
 if
@@ -8844,6 +8856,7 @@ mWidget
 ApzContentIgnoringTouch
 (
 mTargetAPZCGuid
+mInputBlockId
 )
 ;
 mCancelable
@@ -9034,6 +9047,10 @@ mTargetAPZCGuid
 ScrollableLayerGuid
 (
 )
+;
+mInputBlockId
+=
+0
 ;
 }
 /
@@ -9495,6 +9512,7 @@ mWidget
 ApzReceiveInputEvent
 (
 event
+nullptr
 nullptr
 )
 ;

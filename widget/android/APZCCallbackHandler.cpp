@@ -280,6 +280,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 bool
 aDefaultPrevented
 )
@@ -359,6 +361,7 @@ APZCCallbackHandler
 :
 NotifyDefaultPrevented
 aGuid
+aInputBlockId
 aDefaultPrevented
 )
 0
@@ -399,6 +402,7 @@ controller
 ContentReceivedTouch
 (
 aGuid
+aInputBlockId
 aDefaultPrevented
 )
 ;
@@ -937,6 +941,8 @@ layers
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 {
 /
