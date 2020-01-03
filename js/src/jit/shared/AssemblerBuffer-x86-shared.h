@@ -550,7 +550,7 @@ ADDR_o
 (
 offset
 )
-nameIReg
+GPRegName
 (
 (
 index
@@ -575,7 +575,7 @@ ADDR_o
 (
 offset
 )
-nameIReg
+GPRegName
 (
 (
 base
@@ -595,7 +595,7 @@ ADDR_ob
 offset
 base
 )
-nameIReg
+GPRegName
 (
 (
 index
