@@ -2493,7 +2493,8 @@ rt
 -
 >
 wellKnownSymbols
-.
+-
+>
 iterator
 is
 convertible
