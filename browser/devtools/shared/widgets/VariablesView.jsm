@@ -3147,7 +3147,7 @@ searchbox
 addEventListener
 (
 "
-command
+input
 "
 this
 .
@@ -3260,7 +3260,7 @@ _searchboxNode
 removeEventListener
 (
 "
-command
+input
 "
 this
 .
