@@ -2031,7 +2031,7 @@ tab
 =
 tabbrowser
 .
-_getTabForBrowser
+getTabForBrowser
 (
 aBrowser
 )

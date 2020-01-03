@@ -558,7 +558,7 @@ browserWindow
 .
 gBrowser
 .
-_getTabForBrowser
+getTabForBrowser
 (
 browser
 )

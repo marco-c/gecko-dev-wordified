@@ -1273,7 +1273,7 @@ tab
 =
 tabbrowser
 .
-_getTabForBrowser
+getTabForBrowser
 (
 target
 )

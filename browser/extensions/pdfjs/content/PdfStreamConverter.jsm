@@ -615,7 +615,7 @@ tab
 =
 tabbrowser
 .
-_getTabForBrowser
+getTabForBrowser
 (
 browser
 )
