@@ -380,9 +380,6 @@ mOwningThread
 #
 endif
 bool
-mRootedOwningObject
-;
-bool
 mBackgroundActorFailed
 ;
 bool
