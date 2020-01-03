@@ -2481,17 +2481,6 @@ MOZ_ASSERT
 mDecoder
 )
 ;
-ReentrantMonitorAutoEnter
-mon
-(
-mDecoder
--
->
-GetReentrantMonitor
-(
-)
-)
-;
 mDuration
 =
 duration
@@ -2499,7 +2488,7 @@ duration
 mDecoder
 -
 >
-UpdateEstimatedMediaDuration
+DispatchUpdateEstimatedMediaDuration
 (
 mDuration
 )

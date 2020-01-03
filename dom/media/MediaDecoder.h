@@ -3493,6 +3493,8 @@ IsEndedOrShutdown
 )
 const
 ;
+protected
+:
 /
 /
 Updates
@@ -3600,6 +3602,8 @@ aDuration
 )
 override
 ;
+public
+:
 /
 /
 Set
