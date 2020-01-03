@@ -441,7 +441,7 @@ else
 {
 gClient
 .
-attachProcess
+getProcess
 (
 )
 .

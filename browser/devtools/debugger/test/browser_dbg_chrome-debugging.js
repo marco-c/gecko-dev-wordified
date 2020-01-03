@@ -300,7 +300,7 @@ testChromeActor
 {
 gClient
 .
-attachProcess
+getProcess
 (
 )
 .

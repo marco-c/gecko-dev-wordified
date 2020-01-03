@@ -1402,7 +1402,7 @@ non
 content
 ressource
 via
-attachProcess
+getProcess
 request
 /
 /
@@ -1428,7 +1428,7 @@ actors
 but
 also
 that
-attachProcess
+getProcess
 forbids
 /
 /
@@ -2671,7 +2671,7 @@ processes
 }
 ;
 }
-onAttachProcess
+onGetProcess
 :
 function
 (
@@ -2742,7 +2742,7 @@ wrongParameter
 message
 :
 "
-attachProcess
+getProcess
 requires
 a
 valid
@@ -3231,14 +3231,14 @@ prototype
 .
 onListProcesses
 "
-attachProcess
+getProcess
 "
 :
 RootActor
 .
 prototype
 .
-onAttachProcess
+onGetProcess
 "
 echo
 "

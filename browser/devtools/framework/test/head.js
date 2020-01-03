@@ -1309,7 +1309,7 @@ connect
 {
 client
 .
-attachProcess
+getProcess
 (
 )
 .

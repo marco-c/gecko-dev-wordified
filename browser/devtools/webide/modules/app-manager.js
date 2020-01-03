@@ -1909,7 +1909,7 @@ mainProcess
 Fx
 >
 =
-37
+39
 exposes
 a
 ChromeActor
@@ -1940,7 +1940,7 @@ connection
 .
 client
 .
-attachProcess
+getProcess
 (
 )
 .
@@ -1986,7 +1986,7 @@ else
 /
 Fx
 <
-37
+39
 exposes
 tab
 actors
@@ -3258,7 +3258,7 @@ function
 /
 Fx
 <
-37
+39
 exposes
 chrome
 tab
@@ -3270,13 +3270,13 @@ RootActor
 Fx
 >
 =
-37
+39
 exposes
 a
 dedicated
 actor
 via
-attachProcess
+getProcess
 request
 return
 this

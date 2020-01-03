@@ -1743,7 +1743,7 @@ connect
 {
 client
 .
-attachProcess
+getProcess
 (
 )
 .

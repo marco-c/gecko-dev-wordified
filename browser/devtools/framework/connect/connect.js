@@ -1102,7 +1102,7 @@ button
 If
 Fx
 <
-37
+39
 tab
 actors
 were
@@ -1119,12 +1119,12 @@ in
 Fx
 >
 =
-37
+39
 chrome
 is
 debuggable
 via
-attachProcess
+getProcess
 (
 )
 and
@@ -1178,7 +1178,7 @@ allowChromeProcess
 {
 gClient
 .
-attachProcess
+getProcess
 (
 )
 .

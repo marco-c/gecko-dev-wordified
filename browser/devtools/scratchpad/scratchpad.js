@@ -13063,7 +13063,7 @@ connect
 {
 client
 .
-attachProcess
+getProcess
 (
 )
 .
