@@ -786,10 +786,6 @@ PUDPSocketParent
 AllocPUDPSocketParent
 (
 const
-Principal
-&
-aPrincipal
-const
 nsCString
 &
 aFilter
@@ -802,10 +798,6 @@ RecvPUDPSocketConstructor
 (
 PUDPSocketParent
 *
-const
-Principal
-&
-aPrincipal
 const
 nsCString
 &
