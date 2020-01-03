@@ -405,6 +405,17 @@ invalid
 )
 const
 {
+MOZ_ASSERT
+(
+!
+frame_
+-
+>
+isHandlingException
+(
+)
+)
+;
 ICEntry
 &
 entry
