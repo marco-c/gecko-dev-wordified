@@ -1116,7 +1116,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-DOMString
+nsString
 scope
 ;
 mWorkerScope

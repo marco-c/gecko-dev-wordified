@@ -526,9 +526,12 @@ GetSrc
 value
 )
 ;
-aText
-=
 value
+.
+ToString
+(
+aText
+)
 ;
 }
 virtual
