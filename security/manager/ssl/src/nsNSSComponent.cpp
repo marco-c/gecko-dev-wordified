@@ -3365,7 +3365,7 @@ ssl3
 dhe_dss_aes_128_sha
 "
 TLS_DHE_DSS_WITH_AES_128_CBC_SHA
-true
+false
 }
 /
 /
