@@ -3407,6 +3407,17 @@ aReflowState
 parentReflowState
 textContainer
 availSize
+.
+ConvertTo
+(
+textContainer
+-
+>
+GetWritingMode
+(
+)
+lineWM
+)
 )
 ;
 reflowStates
