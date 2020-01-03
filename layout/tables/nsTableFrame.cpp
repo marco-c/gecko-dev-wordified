@@ -23921,7 +23921,7 @@ colFrame
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 :
