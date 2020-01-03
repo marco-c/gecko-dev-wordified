@@ -664,7 +664,7 @@ aMallocSizeOf
 }
 private
 :
-AutoFallibleTArray
+nsAutoTArray
 <
 Storage
 2
