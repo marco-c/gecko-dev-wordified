@@ -3379,9 +3379,6 @@ aNode
 txMozillaXSLTProcessor
 *
 aProcessor
-nsIPrincipal
-*
-aCallerPrincipal
 txStylesheet
 *
 *
