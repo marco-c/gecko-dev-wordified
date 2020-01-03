@@ -1374,15 +1374,6 @@ path
 )
 continue
 ;
-int32_t
-len
-=
-path
-.
-Length
-(
-)
-;
 if
 (
 StringTail

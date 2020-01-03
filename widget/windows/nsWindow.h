@@ -523,6 +523,12 @@ return
 mIsTopWidgetWindow
 ;
 }
+using
+nsWindowBase
+:
+:
+DispatchPluginEvent
+;
 /
 /
 nsIWidget

@@ -1600,10 +1600,10 @@ private
 bool
 mInitialized
 ;
-int32_t
+uint32_t
 mScrollLines
 ;
-int32_t
+uint32_t
 mScrollChars
 ;
 }

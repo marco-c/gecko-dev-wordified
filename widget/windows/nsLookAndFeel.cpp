@@ -2426,6 +2426,12 @@ lfStatusFont
 ;
 break
 ;
+default
+:
+MOZ_CRASH
+(
+)
+;
 }
 break
 ;
