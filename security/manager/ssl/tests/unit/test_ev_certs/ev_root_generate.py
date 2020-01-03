@@ -241,7 +241,7 @@ script
 print
 CertUtils
 .
-print_cert_info_for_ev
+print_cert_info
 (
 ca_cert
 )
