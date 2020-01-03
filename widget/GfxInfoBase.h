@@ -389,6 +389,7 @@ JS
 MutableHandleValue
 _retval
 )
+override
 ;
 NS_IMETHOD
 GetFailures
