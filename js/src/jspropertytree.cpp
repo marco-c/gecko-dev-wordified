@@ -2421,6 +2421,13 @@ prior
 =
 obj
 ;
+if
+(
+!
+prior
+)
+return
+;
 trc
 -
 >
