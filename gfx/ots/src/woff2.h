@@ -108,7 +108,7 @@ successful
 decompression
 .
 bool
-ConvertWOFF2ToTTF
+ConvertWOFF2ToSFNT
 (
 OpenTypeFile
 *

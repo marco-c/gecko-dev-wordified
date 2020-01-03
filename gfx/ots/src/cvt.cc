@@ -255,6 +255,9 @@ file
 -
 >
 cvt
+!
+=
+NULL
 ;
 }
 bool

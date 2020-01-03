@@ -227,6 +227,9 @@ file
 -
 >
 fpgm
+!
+=
+NULL
 ;
 }
 bool

@@ -6032,8 +6032,7 @@ current_id
 )
 )
 {
-return
-OTS_FAILURE_MSG
+OTS_WARNING
 (
 "
 subtable
