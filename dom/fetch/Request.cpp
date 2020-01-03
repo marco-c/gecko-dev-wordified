@@ -247,6 +247,10 @@ mRequest
 aRequest
 )
 {
+SetMimeType
+(
+)
+;
 }
 Request
 :
@@ -1697,7 +1701,6 @@ domRequest
 >
 SetMimeType
 (
-aRv
 )
 ;
 return
