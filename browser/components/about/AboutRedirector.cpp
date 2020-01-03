@@ -487,6 +487,11 @@ xhtml
 nsIAboutModule
 :
 :
+URI_MUST_LOAD_IN_CHILD
+|
+nsIAboutModule
+:
+:
 ALLOW_SCRIPT
 }
 {
