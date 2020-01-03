@@ -664,10 +664,6 @@ using
 =
 %
 d
-tested
-=
-%
-d
 preferred
 =
 %
@@ -679,10 +675,6 @@ ent
 -
 >
 mUsingSpdy
-ent
--
->
-mTestedSpdy
 ent
 -
 >
