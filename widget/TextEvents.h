@@ -3186,10 +3186,6 @@ mSucceeded
 (
 false
 )
-mWasAsync
-(
-false
-)
 mUseNativeLineBreak
 (
 true
@@ -3568,9 +3564,6 @@ mWritingMode
 }
 bool
 mSucceeded
-;
-bool
-mWasAsync
 ;
 bool
 mUseNativeLineBreak
