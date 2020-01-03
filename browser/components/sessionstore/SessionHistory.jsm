@@ -910,6 +910,16 @@ subframe
 true
 ;
 }
+entry
+.
+charset
+=
+shEntry
+.
+URI
+.
+originCharset
+;
 let
 cacheKey
 =
@@ -2002,6 +2012,9 @@ makeURI
 entry
 .
 url
+entry
+.
+charset
 )
 )
 ;
