@@ -245,6 +245,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 Cleanup
@@ -253,6 +254,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 Enable
@@ -261,6 +263,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 Disable
@@ -269,6 +272,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -283,6 +287,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetAdapterProperty
@@ -295,6 +300,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 SetAdapterProperty
@@ -307,6 +313,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -326,6 +333,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetRemoteDeviceProperty
@@ -342,6 +350,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 SetRemoteDeviceProperty
@@ -358,6 +367,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -382,6 +392,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetRemoteServices
@@ -394,6 +405,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -407,6 +419,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 CancelDiscovery
@@ -415,6 +428,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -434,6 +448,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 RemoveBond
@@ -446,6 +461,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 CancelBond
@@ -458,6 +474,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -475,6 +492,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -498,6 +516,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 SspReply
@@ -516,6 +535,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -547,6 +567,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -568,6 +589,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
@@ -582,6 +604,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 /
 *
