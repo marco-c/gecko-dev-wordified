@@ -932,7 +932,7 @@ case
 NS_DRAGDROP_DROP
 :
 case
-NS_DRAGDROP_LEAVE
+eDragLeave
 :
 return
 true

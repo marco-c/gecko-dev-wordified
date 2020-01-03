@@ -745,7 +745,7 @@ eDragDropEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_DRAGDROP_LEAVE
+eDragLeave
 eDragDropEventFirst
 +
 9
@@ -753,7 +753,7 @@ eDragDropEventFirst
 NS_EVENT_MESSAGE
 (
 eDragDropEventLast
-NS_DRAGDROP_LEAVE
+eDragLeave
 )
 /
 /

@@ -26480,7 +26480,7 @@ PresContext
 (
 )
 aDragEvent
-NS_DRAGDROP_LEAVE
+eDragLeave
 targetContent
 lastContent
 sLastDragOverFrame
@@ -26560,7 +26560,7 @@ FireDragEnterOrExit
 (
 lastDragOverFramePresContext
 aDragEvent
-NS_DRAGDROP_LEAVE
+eDragLeave
 nullptr
 lastContent
 sLastDragOverFrame
@@ -26812,7 +26812,7 @@ if
 aMessage
 =
 =
-NS_DRAGDROP_LEAVE
+eDragLeave
 |
 |
 aMessage
