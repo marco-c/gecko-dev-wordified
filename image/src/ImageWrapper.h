@@ -362,6 +362,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 ImageWrapper
 (
 Image

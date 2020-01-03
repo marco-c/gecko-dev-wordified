@@ -507,6 +507,7 @@ Decoder
 {
 public
 :
+explicit
 nsIconDecoder
 (
 RasterImage

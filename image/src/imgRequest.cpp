@@ -1751,6 +1751,7 @@ nsRunnable
 {
 public
 :
+explicit
 imgRequestMainThreadEvict
 (
 imgRequest

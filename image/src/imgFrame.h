@@ -836,6 +836,7 @@ AutoFrameLocker
 {
 public
 :
+explicit
 AutoFrameLocker
 (
 imgFrame

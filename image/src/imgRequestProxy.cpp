@@ -6071,6 +6071,7 @@ ProxyBehaviour
 {
 public
 :
+explicit
 StaticBehaviour
 (
 mozilla

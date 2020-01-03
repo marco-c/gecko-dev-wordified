@@ -149,6 +149,7 @@ Decoder
 {
 public
 :
+explicit
 nsPNGDecoder
 (
 RasterImage

@@ -147,6 +147,7 @@ Decoder
 {
 public
 :
+explicit
 nsBMPDecoder
 (
 RasterImage

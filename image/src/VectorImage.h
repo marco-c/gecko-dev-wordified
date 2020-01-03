@@ -403,6 +403,7 @@ OnSVGDocumentError
 ;
 protected
 :
+explicit
 VectorImage
 (
 imgStatusTracker

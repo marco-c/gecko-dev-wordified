@@ -420,6 +420,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 FrozenImage
 (
 Image

@@ -215,6 +215,7 @@ automatically
 .
 *
 /
+explicit
 FrameBlender
 (
 FrameSequence

@@ -938,6 +938,7 @@ NS_OK
 struct
 MatrixBuilder
 {
+explicit
 MatrixBuilder
 (
 bool
