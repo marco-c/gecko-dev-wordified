@@ -2665,7 +2665,7 @@ eMediaRecorderEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MEDIARECORDER_DATAAVAILABLE
+eMediaRecorderDataAvailable
 eMediaRecorderEventFirst
 +
 1
