@@ -1584,7 +1584,6 @@ Code
 hr
 ;
 return
-false
 ;
 }
 if
