@@ -1228,6 +1228,8 @@ get
 pushHandler
 (
 )
+{
+return
 this
 .
 mocks
@@ -1236,6 +1238,7 @@ pushHandler
 |
 |
 MozLoopPushHandler
+}
 /
 /
 The
@@ -1249,6 +1252,8 @@ get
 loopServerUri
 (
 )
+{
+return
 Services
 .
 prefs
@@ -1261,6 +1266,7 @@ loop
 server
 "
 )
+}
 /
 *
 *
@@ -8493,9 +8499,7 @@ type
 if
 (
 typeof
-(
 error
-)
 =
 =
 "
@@ -10475,6 +10479,7 @@ Task
 async
 (
 function
+*
 (
 )
 {
