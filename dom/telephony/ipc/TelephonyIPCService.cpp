@@ -1554,9 +1554,12 @@ TelephonyIPCService
 :
 CallStateChanged
 (
+uint32_t
+aLength
 nsITelephonyCallInfo
 *
-aInfo
+*
+aAllInfo
 )
 {
 for
@@ -1587,7 +1590,8 @@ i
 >
 CallStateChanged
 (
-aInfo
+aLength
+aAllInfo
 )
 ;
 }
