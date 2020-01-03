@@ -3121,6 +3121,11 @@ inputs
 \
 t
 (
+REPORT_BUILD
+)
+\
+t
+(
 call
 py_action
 file_generate

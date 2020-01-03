@@ -3387,6 +3387,12 @@ topsrcdir
             
 '
 (
+REPORT_BUILD
+)
+'
+            
+'
+(
 call
 py_action
 file_generate
@@ -3450,6 +3456,12 @@ env
 .
 topsrcdir
 )
+            
+'
+(
+REPORT_BUILD
+)
+'
             
 '
 (
