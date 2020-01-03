@@ -237,6 +237,16 @@ MOZ_CRASH
 ;
 }
 LDefinition
+tempByteOpRegister
+(
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
+LDefinition
 tempToUnbox
 (
 )
