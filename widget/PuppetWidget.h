@@ -1779,7 +1779,7 @@ IME
 nsIMEUpdatePreference
 mIMEPreferenceOfParent
 ;
-ContentCache
+ContentCacheInChild
 mContentCache
 ;
 bool
