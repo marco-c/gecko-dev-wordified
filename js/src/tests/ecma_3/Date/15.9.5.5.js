@@ -449,6 +449,11 @@ now
 .
 toLocaleString
 (
+'
+en
+-
+US
+'
 )
 )
 -
@@ -476,6 +481,11 @@ now
 .
 toLocaleString
 (
+'
+en
+-
+US
+'
 )
 )
 -
@@ -839,6 +849,11 @@ givenDate
 .
 toLocaleString
 (
+"
+en
+-
+US
+"
 )
 )
 '
@@ -853,6 +868,11 @@ givenDate
 .
 toLocaleString
 (
+"
+en
+-
+US
+"
 )
 )
 ;
