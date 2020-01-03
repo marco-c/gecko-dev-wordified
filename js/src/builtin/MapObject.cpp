@@ -8766,7 +8766,7 @@ k
 return
 false
 ;
-HeapValue
+RelocatableValue
 rval
 (
 v
@@ -9311,7 +9311,7 @@ key
 return
 false
 ;
-HeapValue
+RelocatableValue
 rval
 (
 val
@@ -10247,7 +10247,7 @@ args
 key
 )
 ;
-HeapValue
+RelocatableValue
 rval
 (
 args
@@ -10391,17 +10391,17 @@ therefore
 requires
 that
 no
-HeapValue
+RelocatableValue
 objects
 pointing
 to
 heap
 values
 be
+/
+/
 left
 alive
-/
-/
 in
 the
 ValueMap
@@ -10471,7 +10471,7 @@ Value
 (
 )
 means
-HeapValue
+RelocatableValue
 (
 )
 which
@@ -10481,7 +10481,7 @@ same
 as
 /
 /
-HeapValue
+RelocatableValue
 (
 UndefinedValue
 (

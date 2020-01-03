@@ -1338,7 +1338,7 @@ friend
 class
 AliasedFormalIter
 ;
-HeapPtrShape
+RelocatablePtrShape
 callObjShape_
 ;
 uintptr_t

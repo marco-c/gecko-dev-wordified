@@ -5107,7 +5107,7 @@ PreliminaryObjectArrayWithTemplate
 public
 PreliminaryObjectArray
 {
-HeapPtrShape
+RelocatablePtrShape
 shape_
 ;
 public
@@ -5675,7 +5675,7 @@ was
 computed
 for
 .
-HeapPtrFunction
+RelocatablePtrFunction
 function_
 ;
 /
@@ -5779,7 +5779,7 @@ of
 the
 object
 .
-HeapPtrPlainObject
+RelocatablePtrPlainObject
 templateObject_
 ;
 /
@@ -5961,7 +5961,7 @@ changed
 to
 initializedGroup
 .
-HeapPtrShape
+RelocatablePtrShape
 initializedShape_
 ;
 /
@@ -5986,7 +5986,7 @@ acquired
 properties
 analyses
 .
-HeapPtrObjectGroup
+RelocatablePtrObjectGroup
 initializedGroup_
 ;
 public

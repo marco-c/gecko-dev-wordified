@@ -502,7 +502,7 @@ typedef
 OrderedHashMap
 <
 HashableValue
-HeapValue
+RelocatableValue
 HashableValue
 :
 :
