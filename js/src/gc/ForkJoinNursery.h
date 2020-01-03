@@ -1066,6 +1066,15 @@ void
 obj
 )
 ;
+MOZ_ALWAYS_INLINE
+bool
+isForwarded
+(
+Cell
+*
+cell
+)
+;
 template
 <
 typename

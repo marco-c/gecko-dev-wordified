@@ -1436,6 +1436,16 @@ IsMovingTracer
 (
 trc
 )
+&
+&
+!
+Nursery
+:
+:
+IsMinorCollectionTracer
+(
+trc
+)
 !
 IsForwarded
 (
