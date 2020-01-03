@@ -1615,7 +1615,7 @@ IsInPlay
 const
 Animation
 &
-aPlayer
+aAnimation
 )
 const
 {
@@ -1626,7 +1626,7 @@ IsFinishedTransition
 )
 |
 |
-aPlayer
+aAnimation
 .
 PlayState
 (
@@ -1684,7 +1684,7 @@ IsCurrent
 const
 Animation
 &
-aPlayer
+aAnimation
 )
 const
 {
@@ -1695,7 +1695,7 @@ IsFinishedTransition
 )
 |
 |
-aPlayer
+aAnimation
 .
 PlayState
 (

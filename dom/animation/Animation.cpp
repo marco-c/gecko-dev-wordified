@@ -1707,7 +1707,7 @@ SetNull
 }
 if
 (
-IsPossiblyOrphanedPendingPlayer
+IsPossiblyOrphanedPendingAnimation
 (
 )
 )
@@ -1731,7 +1731,7 @@ IsNull
 "
 Orphaned
 pending
-players
+animtaions
 should
 have
 an
@@ -1801,16 +1801,16 @@ handling
 of
 possibly
 orphaned
-players
+animations
 in
 Tick
 (
 )
 this
-player
+/
+/
+animation
 got
-/
-/
 started
 whilst
 still
@@ -1821,7 +1821,9 @@ document
 '
 s
 pending
-player
+/
+/
+animation
 map
 .
 if
@@ -1864,7 +1866,7 @@ for
 /
 /
 orphaned
-players
+animations
 and
 trigger
 this
@@ -1900,7 +1902,7 @@ to
 start
 a
 pending
-player
+animation
 "
 )
 ;
@@ -3719,8 +3721,8 @@ to
 be
 called
 for
-a
-player
+an
+animation
 that
 is
 /
@@ -3765,7 +3767,7 @@ a
 play
 -
 pending
-player
+animation
 "
 )
 ;
@@ -3784,8 +3786,8 @@ IsNull
 (
 )
 "
-A
-player
+An
+animation
 in
 the
 play
@@ -3959,7 +3961,7 @@ a
 pause
 -
 pending
-player
+animation
 "
 )
 ;
@@ -4772,7 +4774,7 @@ bool
 Animation
 :
 :
-IsPossiblyOrphanedPendingPlayer
+IsPossiblyOrphanedPendingAnimation
 (
 )
 const
@@ -4873,7 +4875,7 @@ this
 case
 the
 pending
-player
+animation
 tracker
 will
 drop
@@ -5385,8 +5387,8 @@ MOZ_ASSERT
 (
 mEffect
 "
-A
-player
+An
+animation
 with
 an
 animation
@@ -5421,8 +5423,8 @@ MOZ_ASSERT
 (
 targetElement
 "
-A
-player
+An
+animation
 with
 an
 animation
