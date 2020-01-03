@@ -237,7 +237,7 @@ Register
 dest
 )
 {
-ma_and
+as_and
 (
 dest
 dest

@@ -3457,7 +3457,7 @@ numArgsReg
 ;
 masm
 .
-ma_subu
+as_subu
 (
 t1
 numArgsReg
@@ -8496,7 +8496,7 @@ Size
 ;
 masm
 .
-ma_addu
+as_addu
 (
 scratch2
 StackPointer
@@ -8741,7 +8741,7 @@ handle_BaselineStub
 {
 masm
 .
-ma_addu
+as_addu
 (
 scratch3
 StackPointer
@@ -9154,7 +9154,7 @@ Size
 ;
 masm
 .
-ma_addu
+as_addu
 (
 scratch2
 StackPointer
@@ -9350,7 +9350,7 @@ Size
 )
 masm
 .
-ma_addu
+as_addu
 (
 scratch3
 scratch2
@@ -9455,7 +9455,7 @@ checkOk
 endif
 masm
 .
-ma_addu
+as_addu
 (
 scratch3
 scratch2
@@ -9701,7 +9701,7 @@ Size
 )
 masm
 .
-ma_addu
+as_addu
 (
 scratch2
 StackPointer
@@ -9905,7 +9905,7 @@ Size
 )
 masm
 .
-ma_addu
+as_addu
 (
 scratch1
 scratch2

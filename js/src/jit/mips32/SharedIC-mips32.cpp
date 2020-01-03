@@ -886,7 +886,7 @@ JSOP_BITOR
 :
 masm
 .
-ma_or
+as_or
 (
 R0
 .
@@ -912,7 +912,7 @@ JSOP_BITXOR
 :
 masm
 .
-ma_xor
+as_xor
 (
 R0
 .
@@ -938,7 +938,7 @@ JSOP_BITAND
 :
 masm
 .
-ma_and
+as_and
 (
 R0
 .
