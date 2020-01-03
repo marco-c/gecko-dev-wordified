@@ -4758,6 +4758,9 @@ this
 setState
 (
 {
+checked
+:
+false
 previewImage
 :
 previewImage
@@ -5014,6 +5017,13 @@ createElement
 (
 Checkbox
 {
+checked
+:
+this
+.
+state
+.
+checked
 label
 :
 mozL10n
