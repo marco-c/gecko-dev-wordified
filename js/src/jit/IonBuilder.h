@@ -5787,14 +5787,6 @@ CallInfo
 callInfo
 )
 ;
-InliningStatus
-inlineTrue
-(
-CallInfo
-&
-callInfo
-)
-;
 /
 /
 Bind
