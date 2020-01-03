@@ -2302,7 +2302,7 @@ eSMILEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SMIL_REPEAT
+eSMILRepeatEvent
 eSMILEventFirst
 +
 2
