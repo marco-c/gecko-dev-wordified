@@ -931,6 +931,9 @@ define
 dataChannelsAvailable
 "
 {
+available
+:
+Boolean
 }
 )
 /
