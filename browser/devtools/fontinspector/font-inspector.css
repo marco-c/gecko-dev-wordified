@@ -178,10 +178,7 @@ toolbar
 {
 display
 :
--
-moz
--
-box
+flex
 ;
 width
 :
@@ -238,11 +235,6 @@ bottom
 :
 0
 ;
--
-moz
--
-box
--
 flex
 :
 1

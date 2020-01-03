@@ -3028,16 +3028,8 @@ searchbox
 {
 display
 :
--
-moz
--
-box
+flex
 ;
--
-moz
--
-box
--
 flex
 :
 1
