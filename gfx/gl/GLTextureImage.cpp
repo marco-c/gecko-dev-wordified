@@ -303,7 +303,7 @@ GLContext
 *
 gl
 const
-nsIntSize
+IntSize
 &
 aSize
 TextureImage
@@ -3835,7 +3835,7 @@ col
 +
 )
 {
-nsIntSize
+IntSize
 size
 (
 /
