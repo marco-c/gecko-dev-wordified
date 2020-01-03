@@ -1722,7 +1722,7 @@ if
 (
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 aWindow
 )
@@ -1823,7 +1823,7 @@ if
 (
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 aWindow
 )
@@ -1915,7 +1915,7 @@ if
 (
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 aWindow
 )
