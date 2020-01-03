@@ -2753,15 +2753,11 @@ ObjectGroup
 group
 BailoutKind
 bailoutKind
-bool
-checkUnboxedExpando
-=
-false
 )
 ;
 MInstruction
 *
-addGuardReceiverPolymorphic
+addShapeGuardPolymorphic
 (
 MDefinition
 *

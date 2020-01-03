@@ -20544,9 +20544,12 @@ UnboxedPlainObject
 (
 )
 .
-containsUnboxedOrExpandoProperty
+layout
 (
-cx
+)
+.
+lookup
+(
 id
 )
 )
