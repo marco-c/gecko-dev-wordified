@@ -29970,7 +29970,7 @@ f
 .
 failf
 (
-indexExpr
+pointerNode
 "
 %
 s
@@ -30054,9 +30054,15 @@ folded
 =
 false
 ;
+ParseNode
+*
+pointerNode
+=
+indexExpr
+;
 if
 (
-indexExpr
+pointerNode
 -
 >
 isKind
@@ -30070,7 +30076,7 @@ FoldMaskedArrayIndex
 (
 f
 &
-indexExpr
+pointerNode
 &
 mask
 needsBoundsCheck
@@ -30091,7 +30097,7 @@ if
 CheckExpr
 (
 f
-indexExpr
+pointerNode
 &
 pointerDef
 &
@@ -30126,7 +30132,7 @@ f
 .
 failf
 (
-indexExpr
+pointerNode
 "
 %
 s
@@ -30161,7 +30167,7 @@ f
 .
 failf
 (
-indexExpr
+pointerNode
 "
 %
 s
