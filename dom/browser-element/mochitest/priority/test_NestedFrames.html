@@ -460,6 +460,9 @@ all
 [
 expectOnlyOneProcessCreated
 (
+'
+FOREGROUND
+'
 )
 .
 then
@@ -472,15 +475,6 @@ child
 childID
 =
 child
-;
-return
-expectPriorityChange
-(
-childID
-'
-FOREGROUND
-'
-)
 ;
 }
 )
