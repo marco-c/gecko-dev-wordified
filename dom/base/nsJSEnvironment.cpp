@@ -908,7 +908,7 @@ const
 int64_t
 kICCSliceBudget
 =
-10
+5
 ;
 /
 /
