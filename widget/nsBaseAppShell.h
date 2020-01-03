@@ -740,6 +740,9 @@ SyncSection
 mSyncSections
 ;
 bool
+mRunningSyncSections
+;
+bool
 mRunning
 ;
 bool
