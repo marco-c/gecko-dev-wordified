@@ -34052,11 +34052,6 @@ AssertInitialState
 (
 )
 ;
-if
-(
-declaration
-)
-{
 for
 (
 ;
@@ -34143,7 +34138,6 @@ CompressFrom
 mData
 )
 ;
-}
 return
 declaration
 ;
