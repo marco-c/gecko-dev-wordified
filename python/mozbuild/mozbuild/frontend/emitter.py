@@ -5591,7 +5591,6 @@ handled
 (
 flavor
 install_prefix
-active
 package_tests
 )
         
@@ -5625,22 +5624,6 @@ in
 the
 tests
 directory
-.
-        
-#
-active
-indicates
-whether
-to
-filter
-out
-inactive
-tests
-from
-the
-        
-#
-manifest
 .
         
 #
@@ -5678,46 +5661,6 @@ package
         
 #
         
-#
-We
-ideally
-don
-'
-t
-filter
-out
-inactive
-tests
-.
-However
-not
-every
-test
-        
-#
-harness
-can
-yet
-deal
-with
-test
-filtering
-.
-Once
-all
-harnesses
-can
-do
-        
-#
-this
-this
-feature
-can
-be
-dropped
-.
-        
 test_manifests
 =
 dict
@@ -5738,7 +5681,6 @@ mochitest
 a11y
 '
 True
-True
 )
             
 BROWSER_CHROME
@@ -5758,7 +5700,6 @@ mochitest
 browser
 '
 True
-True
 )
             
 ANDROID_INSTRUMENTATION
@@ -5773,7 +5714,6 @@ instrumentation
 '
 .
 '
-False
 False
 )
             
@@ -5796,7 +5736,6 @@ jetpack
 package
 '
 True
-True
 )
             
 JETPACK_ADDON
@@ -5817,7 +5756,6 @@ jetpack
 -
 addon
 '
-True
 False
 )
             
@@ -5838,7 +5776,6 @@ mochitest
 metro
 '
 True
-True
 )
             
 MOCHITEST
@@ -5856,7 +5793,6 @@ mochitest
 tests
 '
 True
-True
 )
             
 MOCHITEST_CHROME
@@ -5873,7 +5809,6 @@ mochitest
 '
 chrome
 '
-True
 True
 )
             
@@ -5894,7 +5829,6 @@ mochitest
 webapprtChrome
 '
 True
-True
 )
             
 WEBRTC_SIGNALLING_TEST
@@ -5910,7 +5844,6 @@ steeplechase
 .
 '
 True
-True
 )
             
 XPCSHELL_TESTS
@@ -5925,7 +5858,6 @@ xpcshell
 '
 .
 '
-False
 True
 )
         
@@ -6376,7 +6308,6 @@ manifest_path
 flavor
 install_root
 install_subdir
-filter_inactive
 package_tests
 =
 info
@@ -6560,58 +6491,6 @@ filtered
 m
 .
 tests
-            
-if
-filter_inactive
-:
-                
-#
-We
-return
-tests
-that
-don
-'
-t
-exist
-because
-we
-want
-manifests
-                
-#
-defining
-tests
-that
-don
-'
-t
-exist
-to
-result
-in
-error
-.
-                
-filtered
-=
-m
-.
-active_tests
-(
-exists
-=
-False
-disabled
-=
-True
-                    
-*
-*
-self
-.
-info
-)
             
 #
 Jetpack
