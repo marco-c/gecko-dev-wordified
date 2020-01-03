@@ -7232,6 +7232,17 @@ trc
 cycleDetectorSet
 )
 ;
+if
+(
+compartment_
+)
+compartment_
+-
+>
+mark
+(
+)
+;
 }
 void
 *
