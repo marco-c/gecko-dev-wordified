@@ -256,6 +256,13 @@ h
 #
 include
 "
+gfxVR
+.
+h
+"
+#
+include
+"
 nsSVGIntegrationUtils
 .
 h
