@@ -348,6 +348,9 @@ class
 TouchBlockState
 ;
 class
+PanGestureBlockState
+;
+class
 OverscrollHandoffChain
 ;
 class
@@ -6028,6 +6031,12 @@ CurrentTouchBlock
 ;
 bool
 HasReadyTouchBlock
+(
+)
+;
+PanGestureBlockState
+*
+CurrentPanGestureBlock
 (
 )
 ;
