@@ -11254,6 +11254,15 @@ mBStartEdge
 lineBSize
 )
 ;
+mFinalLineBSize
+=
+lineBSize
+;
+if
+(
+mGotLineBox
+)
+{
 /
 /
 Fill
@@ -11292,10 +11301,6 @@ mIStart
 lineBSize
 mContainerWidth
 )
-;
-mFinalLineBSize
-=
-lineBSize
 ;
 mLineBox
 -
@@ -11403,6 +11408,7 @@ GetLogicalAscent
 ;
 #
 endif
+}
 }
 /
 /
@@ -16332,6 +16338,10 @@ mHasBullet
 bool
 isLastLine
 =
+!
+mGotLineBox
+|
+|
 (
 !
 mLineBox
