@@ -915,10 +915,10 @@ index
 #
 ifdef
 DEBUG
-PL_DHashMarkTableImmutable
-(
-&
 mNameTable
+.
+MarkImmutable
+(
 )
 ;
 #
