@@ -8811,12 +8811,7 @@ JS
 Compile
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+global
 options
 srcBuf
 &
@@ -8860,12 +8855,7 @@ JS
 Compile
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+global
 options
 srcBuf
 &
