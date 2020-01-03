@@ -9713,9 +9713,6 @@ if
 aDialog
 &
 &
-aFeaturesSpecified
-&
-&
 !
 presenceFlag
 )
