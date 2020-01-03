@@ -797,12 +797,6 @@ DropJSObjects
 (
 )
 ;
-bool
-IsSourceDeleted
-(
-)
-const
-;
 }
 ;
 }
