@@ -117,8 +117,6 @@ MPL
 #
 include
 "
-mozilla
-/
 ProfileUnlockerWin
 .
 h

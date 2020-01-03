@@ -130,8 +130,6 @@ XP_WIN
 #
 include
 "
-mozilla
-/
 ProfileUnlockerWin
 .
 h
