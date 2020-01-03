@@ -163,6 +163,15 @@ h
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 vm
 /
 StringBuffer
@@ -6713,7 +6722,7 @@ obj_defineProperties
 2
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 create
@@ -6721,6 +6730,7 @@ create
 obj_create
 2
 0
+ObjectCreate
 )
 JS_FN
 (

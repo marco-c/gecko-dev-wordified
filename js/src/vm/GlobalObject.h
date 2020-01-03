@@ -1940,6 +1940,12 @@ AllocKind
 :
 :
 FUNCTION
+const
+JSJitInfo
+*
+jitInfo
+=
+nullptr
 )
 ;
 /
@@ -5591,6 +5597,12 @@ gc
 :
 AllocKind
 kind
+const
+JSJitInfo
+*
+jitInfo
+=
+nullptr
 >
 JSObject
 *
@@ -5666,6 +5678,7 @@ ctor
 name
 length
 kind
+jitInfo
 )
 ;
 }
