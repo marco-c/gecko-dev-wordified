@@ -1012,6 +1012,16 @@ PREF_FHR_UPLOAD_ENABLED
 true
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_FHR_SERVICE_ENABLED
+true
+)
+;
 Telemetry
 .
 asyncFetchTelemetryData
