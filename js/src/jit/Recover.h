@@ -2292,9 +2292,6 @@ private
 uint32_t
 count_
 ;
-AllocatingBehaviour
-allocatingBehaviour_
-;
 public
 :
 RINSTRUCTION_HEADER_

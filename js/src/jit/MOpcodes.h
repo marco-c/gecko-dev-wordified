@@ -984,6 +984,11 @@ IncrementUnboxedArrayInitializedLength
 \
 _
 (
+SetUnboxedArrayInitializedLength
+)
+\
+_
+(
 Not
 )
 \

@@ -3255,7 +3255,7 @@ return
 getBehavior_
 ;
 }
-void
+bool
 append
 (
 JSContext

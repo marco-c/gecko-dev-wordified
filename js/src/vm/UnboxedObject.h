@@ -2294,6 +2294,10 @@ uint32_t
 length
 NewObjectKind
 newKind
+uint32_t
+maxLength
+=
+MaximumCapacity
 )
 ;
 void

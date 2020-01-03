@@ -9827,6 +9827,15 @@ dest
 void
 or32
 (
+Register
+src
+Register
+dest
+)
+;
+void
+or32
+(
 Imm32
 imm
 Register

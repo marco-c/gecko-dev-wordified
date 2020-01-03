@@ -1168,6 +1168,11 @@ IncrementUnboxedArrayInitializedLength
 \
 _
 (
+SetUnboxedArrayInitializedLength
+)
+\
+_
+(
 BoundsCheck
 )
 \

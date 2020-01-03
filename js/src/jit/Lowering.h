@@ -1460,6 +1460,14 @@ ins
 )
 ;
 void
+visitSetUnboxedArrayInitializedLength
+(
+MSetUnboxedArrayInitializedLength
+*
+ins
+)
+;
+void
 visitNot
 (
 MNot

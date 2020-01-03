@@ -8509,6 +8509,15 @@ dest
 )
 ;
 void
+or32
+(
+Register
+src
+Register
+dest
+)
+;
+void
 xor32
 (
 Imm32
