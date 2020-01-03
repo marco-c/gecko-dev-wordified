@@ -7722,6 +7722,12 @@ outer
 %
 p
 ]
+[
+winid
+=
+%
+llu
+]
 \
 n
 "
@@ -7751,6 +7757,9 @@ ToCanonicalSupports
 (
 aOuterWindow
 )
+)
+WindowID
+(
 )
 )
 ;
@@ -8214,6 +8223,12 @@ url
 %
 s
 ]
+[
+winid
+=
+%
+llu
+]
 \
 n
 "
@@ -8247,6 +8262,9 @@ outer
 url
 .
 get
+(
+)
+WindowID
 (
 )
 )
