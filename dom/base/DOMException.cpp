@@ -3400,8 +3400,6 @@ idx
 .
 mCode
 ;
-break
-;
 }
 }
 }
