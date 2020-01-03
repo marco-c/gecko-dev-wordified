@@ -4016,15 +4016,6 @@ static
 bool
 sNuwaReady
 ;
-struct
-NuwaReinitializeData
-;
-nsAutoPtr
-<
-NuwaReinitializeData
->
-mReinitializeData
-;
 #
 endif
 }
