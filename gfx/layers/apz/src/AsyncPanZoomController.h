@@ -1970,7 +1970,7 @@ velocity
 /
 static
 const
-LayerMargin
+ScreenMargin
 CalculatePendingDisplayPort
 (
 const

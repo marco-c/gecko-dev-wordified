@@ -292,7 +292,7 @@ the
 requested
 value
 .
-LayerPoint
+ScreenPoint
 shift
 =
 (
@@ -307,11 +307,11 @@ aActualScrollOffset
 *
 aFrameMetrics
 .
-LayersPixelsPerCSSPixel
+DisplayportPixelsPerCSSPixel
 (
 )
 ;
-LayerMargin
+ScreenMargin
 margins
 =
 aFrameMetrics
@@ -379,7 +379,7 @@ FrameMetrics
 aFrameMetrics
 )
 {
-LayerMargin
+ScreenMargin
 margins
 =
 aFrameMetrics
@@ -1523,7 +1523,7 @@ IntSize
 0
 )
 ;
-LayerMargin
+ScreenMargin
 margins
 =
 aMetrics
@@ -1841,7 +1841,7 @@ IntSize
 0
 )
 ;
-LayerMargin
+ScreenMargin
 margins
 =
 aMetrics
