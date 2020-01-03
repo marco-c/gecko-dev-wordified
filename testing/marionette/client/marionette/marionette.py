@@ -3632,6 +3632,9 @@ None
 adb_port
 =
 None
+prefs
+=
+None
 )
 :
         
@@ -4008,6 +4011,9 @@ symbols_path
 gecko_log
 =
 gecko_log
+prefs
+=
+prefs
 )
             
 self
