@@ -234,7 +234,7 @@ run_next_test
 }
 ;
 var
-testTarget
+testDevice
 =
 {
 target
@@ -291,9 +291,9 @@ cleanup
 {
 SimpleServiceDiscovery
 .
-unregisterTarget
+unregisterDevice
 (
-testTarget
+testDevice
 )
 ;
 Services
@@ -339,7 +339,7 @@ need
 to
 register
 a
-target
+device
 or
 processService
 will
@@ -347,9 +347,9 @@ ignore
 us
 SimpleServiceDiscovery
 .
-registerTarget
+registerDevice
 (
-testTarget
+testDevice
 )
 ;
 /
