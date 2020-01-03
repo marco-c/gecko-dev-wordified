@@ -2514,7 +2514,7 @@ state
 Indicates
 that
 the
-player
+animation
 should
 be
 exposed
@@ -2525,7 +2525,7 @@ element
 s
 /
 /
-getAnimationPlayers
+getAnimations
 (
 )
 list
