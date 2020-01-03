@@ -1644,6 +1644,33 @@ options
 .
 focusFilterMode
         
+prefs
+[
+'
+reftest
+.
+uri
+'
+]
+=
+"
+file
+:
+/
+/
+%
+s
+"
+%
+os
+.
+path
+.
+abspath
+(
+manifest
+)
+        
 #
 Ensure
 that
@@ -5061,11 +5088,6 @@ None
 cmdlineArgs
 =
 [
-'
--
-reftest
-'
-reftestlist
 ]
             
 profile
