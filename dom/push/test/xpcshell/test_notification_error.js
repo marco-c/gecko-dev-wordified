@@ -427,7 +427,7 @@ makeStub
 (
 db
 {
-getByChannelID
+getByKeyID
 (
 prev
 channelID

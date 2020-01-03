@@ -421,7 +421,7 @@ record
 yield
 db
 .
-getByChannelID
+getByKeyID
 (
 '
 87902e90
@@ -474,7 +474,7 @@ record
 yield
 db
 .
-getByChannelID
+getByKeyID
 (
 '
 057caa8f

@@ -446,7 +446,7 @@ storeRecord
 yield
 db
 .
-getByChannelID
+getByKeyID
 (
 '
 6ff97d56

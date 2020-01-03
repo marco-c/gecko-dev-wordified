@@ -476,7 +476,7 @@ staleRecord
 yield
 db
 .
-getByChannelID
+getByKeyID
 (
 '
 8d2d9400
@@ -511,7 +511,7 @@ updatedRecord
 yield
 db
 .
-getByChannelID
+getByKeyID
 (
 '
 27d1e393

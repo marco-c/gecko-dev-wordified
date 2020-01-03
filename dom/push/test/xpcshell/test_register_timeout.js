@@ -532,7 +532,7 @@ record
 yield
 db
 .
-getByChannelID
+getByKeyID
 (
 channelID
 )
