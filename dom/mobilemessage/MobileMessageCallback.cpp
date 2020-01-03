@@ -1496,10 +1496,7 @@ Value
 val
 (
 cx
-JS
-:
-:
-StringValue
+STRING_TO_JSVAL
 (
 smsc
 )

@@ -34239,7 +34239,7 @@ SetReservedSlot
 (
 obj
 DOM_OBJECT_SLOT
-PrivateValue
+PRIVATE_TO_JSVAL
 (
 (
 void

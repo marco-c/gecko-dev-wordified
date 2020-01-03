@@ -24487,8 +24487,8 @@ mStrJSVals
 [
 i
 ]
-.
-setString
+=
+STRING_TO_JSVAL
 (
 str
 )

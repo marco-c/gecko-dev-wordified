@@ -1658,7 +1658,7 @@ cx
 )
 {
 return
-StringValue
+STRING_TO_JSVAL
 (
 cx
 -
