@@ -1319,7 +1319,7 @@ mSiteIdentityPopup
 .
 setAnchor
 (
-mTitle
+mSiteSecurity
 )
 ;
 mStop
