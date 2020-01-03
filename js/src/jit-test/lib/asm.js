@@ -225,6 +225,15 @@ BUF_MIN
 1024
 ;
 const
+BUF_CHANGE_MIN
+=
+16
+*
+1024
+*
+1024
+;
+const
 BUF_64KB
 =
 new
