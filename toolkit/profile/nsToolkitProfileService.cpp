@@ -4280,6 +4280,10 @@ aForExternalApp
 nullptr
 :
 mFirst
+.
+get
+(
+)
 ;
 if
 (
