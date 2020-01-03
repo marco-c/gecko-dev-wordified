@@ -230,6 +230,17 @@ IsHidden
 )
 return
 ;
+if
+(
+IsDirty
+(
+)
+)
+{
+Painted
+(
+)
+;
 FirePreTransactionCallback
 (
 )
@@ -242,6 +253,7 @@ FireDidTransactionCallback
 (
 )
 ;
+}
 if
 (
 !
