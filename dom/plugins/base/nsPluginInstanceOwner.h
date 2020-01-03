@@ -1457,6 +1457,16 @@ view
 ;
 #
 endif
+void
+NotifyHostAsyncInitFailed
+(
+)
+;
+void
+NotifyHostCreateWidget
+(
+)
+;
 private
 :
 virtual
