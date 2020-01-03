@@ -625,6 +625,8 @@ mixins
 sharedMixins
 .
 DropdownMenuMixin
+(
+)
 ]
 propTypes
 :
@@ -1068,9 +1070,7 @@ dropdown
 :
 true
 "
-visually
--
-hidden
+hide
 "
 :
 !
@@ -1079,6 +1079,13 @@ this
 state
 .
 showMenu
+"
+visually
+-
+hidden
+"
+:
+true
 }
 )
 ;

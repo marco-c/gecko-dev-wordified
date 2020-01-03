@@ -2692,6 +2692,8 @@ mixins
 sharedMixins
 .
 DropdownMenuMixin
+(
+)
 ]
 propTypes
 :

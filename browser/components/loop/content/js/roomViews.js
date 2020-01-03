@@ -741,6 +741,13 @@ menu
 :
 true
 "
+visually
+-
+hidden
+"
+:
+true
+"
 share
 -
 button
@@ -1174,6 +1181,16 @@ mixins
 sharedMixins
 .
 DropdownMenuMixin
+(
+"
+.
+room
+-
+invitation
+-
+overlay
+"
+)
 ]
 propTypes
 :
@@ -1260,6 +1277,10 @@ false
 editMode
 :
 false
+newRoomName
+:
+"
+"
 }
 ;
 }
@@ -1592,6 +1613,7 @@ context_add_some_label
 "
 )
 )
+)
 React
 .
 createElement
@@ -1785,7 +1807,6 @@ ref
 menu
 "
 }
-)
 )
 React
 .

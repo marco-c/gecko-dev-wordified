@@ -2153,8 +2153,6 @@ rtl
 dropdown
 -
 menu
--
-item
 {
 left
 :
@@ -2162,7 +2160,7 @@ auto
 ;
 right
 :
-10px
+0
 ;
 }
 .
