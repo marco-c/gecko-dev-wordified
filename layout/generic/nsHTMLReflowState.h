@@ -3788,7 +3788,7 @@ struct
 ReflowStateFlags
 {
 uint16_t
-mSpecialHeightReflow
+mSpecialBSizeReflow
 :
 1
 ;
@@ -3810,7 +3810,7 @@ handle
 /
 /
 percent
-height
+bsize
 frames
 inside
 cells
@@ -3819,7 +3819,7 @@ may
 not
 have
 computed
-heights
+bsizes
 uint16_t
 mNextInFlowUntouched
 :

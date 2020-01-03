@@ -1275,7 +1275,7 @@ NS_PRECONDITION
 !
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 |
 |
 !
@@ -1291,7 +1291,7 @@ clean
 when
 getting
 special
-height
+bsize
 reflow
 "
 )
@@ -1342,7 +1342,7 @@ if
 !
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 frame
 -
@@ -4492,7 +4492,7 @@ aFrameType
 (
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 |
 |
 (
@@ -4920,7 +4920,7 @@ cell
 that
 performs
 special
-height
+bsize
 /
 /
 reflows
@@ -4954,7 +4954,7 @@ the
 /
 /
 special
-height
+bsize
 reflow
 .
 However
@@ -4971,7 +4971,7 @@ is
 /
 the
 special
-height
+bsize
 reflow
 since
 in
@@ -5033,7 +5033,7 @@ mCBReflowState
 >
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 &
 &
 dependsOnCBBSize
@@ -5099,12 +5099,12 @@ along
 with
 table
 special
-height
+bsize
 reflows
 since
 a
 special
-height
+bsize
 /
 /
 reflow

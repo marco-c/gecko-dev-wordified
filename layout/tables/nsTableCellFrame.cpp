@@ -5311,7 +5311,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 FirstInFlow
@@ -5331,7 +5331,7 @@ see
 if
 a
 special
-height
+bsize
 reflow
 needs
 to
@@ -5572,7 +5572,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 const_cast
@@ -5719,7 +5719,7 @@ of
 /
 special
 -
-height
+bsize
 reflow
 in
 case
@@ -5743,7 +5743,7 @@ honor
 during
 special
 -
-height
+bsize
 reflow
 )
 if
@@ -5753,7 +5753,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 /
@@ -5806,7 +5806,7 @@ Don
 t
 propagate
 special
-height
+bsize
 reflow
 state
 to
@@ -5816,7 +5816,7 @@ kidReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 =
 false
 ;
@@ -5826,7 +5826,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 |
 |
 (
@@ -5887,7 +5887,7 @@ was
 without
 the
 special
-height
+bsize
 reflow
 .
 kidReflowState
@@ -6421,7 +6421,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 if
