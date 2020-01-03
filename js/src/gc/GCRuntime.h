@@ -3149,6 +3149,17 @@ lock
 )
 ;
 void
+decommitArena
+(
+ArenaHeader
+*
+aheader
+AutoLockGC
+&
+lock
+)
+;
+void
 releaseHeldRelocatedArenas
 (
 )
