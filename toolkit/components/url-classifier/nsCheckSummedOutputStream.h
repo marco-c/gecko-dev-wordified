@@ -158,8 +158,6 @@ netwerk
 /
 base
 /
-src
-/
 nsFileStreams
 .
 h

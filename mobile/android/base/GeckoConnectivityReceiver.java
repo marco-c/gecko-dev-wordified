@@ -182,8 +182,6 @@ netwerk
 /
 base
 /
-public
-/
 nsINetworkLinkService
 .
 idl
