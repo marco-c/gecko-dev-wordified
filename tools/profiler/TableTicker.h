@@ -559,7 +559,7 @@ std
 ostream
 &
 stream
-float
+double
 aSinceTime
 =
 0
@@ -573,7 +573,7 @@ ToJSObject
 JSContext
 *
 aCx
-float
+double
 aSinceTime
 =
 0
@@ -590,7 +590,7 @@ char
 >
 ToJSON
 (
-float
+double
 aSinceTime
 =
 0
@@ -600,7 +600,7 @@ virtual
 void
 ToJSObjectAsync
 (
-float
+double
 aSinceTime
 =
 0
@@ -832,7 +832,7 @@ StreamJSON
 SpliceableJSONWriter
 &
 aWriter
-float
+double
 aSinceTime
 )
 ;

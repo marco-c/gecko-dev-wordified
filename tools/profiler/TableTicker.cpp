@@ -1077,6 +1077,9 @@ i
 ]
 ;
 }
+bool
+ignore
+;
 sStartTime
 =
 mozilla
@@ -1085,8 +1088,9 @@ mozilla
 TimeStamp
 :
 :
-Now
+ProcessCreation
 (
+ignore
 )
 ;
 {
@@ -2082,7 +2086,7 @@ std
 ostream
 &
 stream
-float
+double
 aSinceTime
 )
 {
@@ -2118,7 +2122,7 @@ ToJSObject
 JSContext
 *
 aCx
-float
+double
 aSinceTime
 )
 {
@@ -2394,7 +2398,7 @@ TableTicker
 :
 ToJSON
 (
-float
+double
 aSinceTime
 )
 {
@@ -2426,7 +2430,7 @@ TableTicker
 :
 ToJSObjectAsync
 (
-float
+double
 aSinceTime
 Promise
 *
@@ -2879,7 +2883,7 @@ StreamJSON
 SpliceableJSONWriter
 &
 aWriter
-float
+double
 aSinceTime
 )
 {
@@ -7747,16 +7751,10 @@ ProfileEntry
 '
 t
 '
-static_cast
-<
-float
->
-(
 delta
 .
 ToMilliseconds
 (
-)
 )
 )
 )
@@ -7960,16 +7958,10 @@ ProfileEntry
 '
 r
 '
-static_cast
-<
-float
->
-(
 delta
 .
 ToMilliseconds
 (
-)
 )
 )
 )
@@ -8013,7 +8005,7 @@ R
 '
 static_cast
 <
-float
+double
 >
 (
 sample
@@ -8063,7 +8055,7 @@ U
 '
 static_cast
 <
-float
+double
 >
 (
 sample
@@ -8104,7 +8096,7 @@ p
 '
 static_cast
 <
-float
+double
 >
 (
 mIntelPowerGadget

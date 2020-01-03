@@ -644,7 +644,7 @@ ProfilerMarkerPayload
 aPayload
 =
 nullptr
-float
+double
 aTime
 =
 0
@@ -703,7 +703,7 @@ mGenID
 aGenID
 ;
 }
-float
+double
 GetTime
 (
 )
@@ -723,7 +723,7 @@ ProfilerMarker
 *
 mNext
 ;
-float
+double
 mTime
 ;
 uint32_t
@@ -1333,7 +1333,7 @@ aMarkerStr
 ProfilerMarkerPayload
 *
 aPayload
-float
+double
 aTime
 )
 {

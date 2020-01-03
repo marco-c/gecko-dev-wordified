@@ -94,7 +94,7 @@ ProfileGatherer
 TableTicker
 *
 aTicker
-float
+double
 aSinceTime
 mozilla
 :
@@ -152,7 +152,7 @@ TableTicker
 *
 mTicker
 ;
-float
+double
 mSinceTime
 ;
 uint32_t
