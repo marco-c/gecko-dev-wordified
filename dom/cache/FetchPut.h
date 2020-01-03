@@ -336,6 +336,10 @@ Runnable
 class
 FetchObserver
 ;
+friend
+class
+FetchObserver
+;
 struct
 State
 {
