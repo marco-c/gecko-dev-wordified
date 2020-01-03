@@ -1440,6 +1440,7 @@ b2g
 "
 b2g
 "
+                       
 (
 "
 gaia
@@ -1452,6 +1453,18 @@ app
 Contents
 /
 MacOS
+/
+gaia
+"
+                        
+"
+B2G
+.
+app
+/
+Contents
+/
+Resources
 /
 gaia
 "
