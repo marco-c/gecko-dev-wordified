@@ -107,6 +107,11 @@ failure
 occurs
 .
 void
+onDeletionsUploadComplete
+(
+)
+;
+void
 onStatusUploadComplete
 (
 Collection

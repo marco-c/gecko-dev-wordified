@@ -82,6 +82,11 @@ getModified
 )
 ;
 Cursor
+getDeletedItems
+(
+)
+;
+Cursor
 getStatusChanges
 (
 )

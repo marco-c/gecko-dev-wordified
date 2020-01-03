@@ -105,6 +105,11 @@ be
 called
 precisely
 once
+*
+unless
+batching
+is
+used
 .
 *
 /
@@ -151,6 +156,11 @@ onFailure
 (
 MozResponse
 response
+)
+;
+void
+onBatchDone
+(
 )
 ;
 }
