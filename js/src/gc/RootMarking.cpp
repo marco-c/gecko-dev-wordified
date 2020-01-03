@@ -3897,7 +3897,7 @@ root
 buffering
 )
 .
-DispatchTraceKindTyped
+CallTyped
 (
 SetMaybeAliveFunctor
 (

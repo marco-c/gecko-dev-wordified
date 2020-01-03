@@ -586,13 +586,9 @@ JS
 :
 ExposeObjectToActiveJS
 (
-&
 aPtr
 .
-as
-<
-JSObject
->
+toObject
 (
 )
 )
