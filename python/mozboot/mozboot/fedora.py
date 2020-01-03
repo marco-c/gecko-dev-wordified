@@ -72,6 +72,9 @@ __init__
 self
 version
 dist_id
+*
+*
+kwargs
 )
 :
         
@@ -80,6 +83,9 @@ BaseBootstrapper
 __init__
 (
 self
+*
+*
+kwargs
 )
         
 self

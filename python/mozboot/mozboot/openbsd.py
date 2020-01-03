@@ -71,6 +71,9 @@ __init__
 (
 self
 version
+*
+*
+kwargs
 )
 :
         
@@ -79,6 +82,9 @@ BaseBootstrapper
 __init__
 (
 self
+*
+*
+kwargs
 )
         
 self
