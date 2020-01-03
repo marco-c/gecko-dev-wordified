@@ -1499,9 +1499,8 @@ through
 0
 }
 .
-xorpd
+zeroDouble
 (
-ScratchDoubleReg
 ScratchDoubleReg
 )
 ;
