@@ -11374,6 +11374,11 @@ nsIChannelEventSink
 :
 :
 REDIRECT_PERMANENT
+|
+nsIChannelEventSink
+:
+:
+REDIRECT_STS_UPGRADE
 )
 ;
 }
