@@ -3697,6 +3697,13 @@ PredictInvoked
 true
 }
 ;
+enum
+ForInitLocation
+{
+InForInit
+NotInForInit
+}
+;
 private
 :
 /
@@ -4003,6 +4010,8 @@ YieldHandling
 yieldHandling
 ParseNodeKind
 kind
+ForInitLocation
+location
 bool
 *
 psimple
