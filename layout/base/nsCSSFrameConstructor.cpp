@@ -17088,15 +17088,6 @@ mDisplay
 =
 =
 NS_STYLE_DISPLAY_BLOCK
-|
-|
-display
--
->
-mDisplay
-=
-=
-NS_STYLE_DISPLAY_CONTENTS
 "
 Unhandled
 display
