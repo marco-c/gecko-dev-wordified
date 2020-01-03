@@ -933,14 +933,14 @@ capacity
 2
 )
 ;
-MOZ_ALWAYS_TRUE
 (
+void
+)
 lineStartOffsets_
 .
 reserve
 (
 2
-)
 )
 ;
 lineStartOffsets_

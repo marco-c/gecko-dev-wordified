@@ -11704,9 +11704,6 @@ reserve
 pn
 -
 >
-pn_left
--
->
 pn_count
 )
 )
@@ -11986,9 +11983,6 @@ elts
 reserve
 (
 pn
--
->
-pn_left
 -
 >
 pn_count
