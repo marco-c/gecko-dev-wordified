@@ -2122,6 +2122,11 @@ ATTR_ONINVALID
 static
 nsHtml5AttributeName
 *
+ATTR_INTEGRITY
+;
+static
+nsHtml5AttributeName
+*
 ATTR_ONKEYDOWN
 ;
 static

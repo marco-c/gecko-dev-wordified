@@ -2760,6 +2760,13 @@ oninvalid
 )
 HTML5_ATOM
 (
+integrity
+"
+integrity
+"
+)
+HTML5_ATOM
+(
 onkeydown
 "
 onkeydown
