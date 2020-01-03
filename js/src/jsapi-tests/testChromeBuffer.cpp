@@ -1213,7 +1213,6 @@ cx
 CallTrusted
 0
 0
-global
 "
 callTrusted
 "

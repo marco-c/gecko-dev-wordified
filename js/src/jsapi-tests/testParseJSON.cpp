@@ -3852,7 +3852,6 @@ cx
 Censor
 0
 0
-global
 "
 censor
 "
