@@ -3593,6 +3593,16 @@ mFile
 mIsTemporary
 )
 {
+NS_WARNING
+(
+"
+In
+temporary
+~
+FileImplFile
+"
+)
+;
 /
 /
 Ignore
