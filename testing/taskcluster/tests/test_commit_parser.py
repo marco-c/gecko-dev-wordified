@@ -1650,6 +1650,13 @@ exclusion
 options
 .
         
+Intentionally
+includes
+platforms
+with
+spaces
+.
+        
 '
 '
 '
@@ -1669,7 +1676,8 @@ all
 u
 all
 [
-windows
+Windows
+XP
 b2g
 ]
 -
@@ -1791,7 +1799,8 @@ platforms
 :
 [
 '
-windows
+Windows
+XP
 '
 ]
                     
