@@ -19161,10 +19161,6 @@ null
 bool
 GetClipPropClipRect
 (
-const
-nsStyleDisplay
-*
-aDisp
 nsRect
 *
 aRect

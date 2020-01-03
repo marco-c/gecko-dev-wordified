@@ -4612,6 +4612,11 @@ NS_STYLE_VECTOR_EFFECT_NON_SCALING_STROKE
 1
 /
 /
+backface
+-
+visibility
+/
+/
 3d
 Transforms
 -
@@ -4625,6 +4630,11 @@ NS_STYLE_BACKFACE_VISIBILITY_VISIBLE
 define
 NS_STYLE_BACKFACE_VISIBILITY_HIDDEN
 0
+/
+/
+transform
+-
+style
 #
 define
 NS_STYLE_TRANSFORM_STYLE_FLAT
