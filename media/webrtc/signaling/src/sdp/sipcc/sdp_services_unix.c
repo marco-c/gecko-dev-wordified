@@ -77,6 +77,13 @@ sdp_private
 .
 h
 "
+#
+include
+"
+CSFLog
+.
+h
+"
 /
 *
 *

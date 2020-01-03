@@ -72,6 +72,13 @@ h
 >
 #
 include
+<
+ctype
+.
+h
+>
+#
+include
 "
 sdp_os_defs
 .
@@ -116,6 +123,8 @@ sdp_mca_t
 *
 sdp_alloc_mca
 (
+u32
+line
 )
 {
 sdp_mca_t
@@ -345,6 +354,13 @@ bw
 bw_data_list
 =
 NULL
+;
+mca_p
+-
+>
+line_number
+=
+line
 ;
 return
 (
@@ -656,7 +672,7 @@ r
 )
 {
 return
-SDP_FAILURE
+SDP_EMPTY_TOKEN
 ;
 }
 /
