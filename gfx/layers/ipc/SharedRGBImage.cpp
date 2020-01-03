@@ -555,7 +555,7 @@ forget
 (
 )
 .
-drop
+take
 (
 )
 )
@@ -571,7 +571,7 @@ forget
 (
 )
 .
-drop
+take
 (
 )
 )

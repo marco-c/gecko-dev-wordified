@@ -1683,7 +1683,7 @@ mPtr
 (
 aOther
 .
-drop
+take
 (
 )
 )
@@ -1790,7 +1790,7 @@ assign
 (
 aOther
 .
-drop
+take
 (
 )
 )
@@ -2174,7 +2174,7 @@ mPtr
 (
 aOther
 .
-drop
+take
 (
 )
 )
@@ -2200,7 +2200,7 @@ mPtr
 (
 aOther
 .
-drop
+take
 (
 )
 )
@@ -2223,9 +2223,10 @@ mPtr
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 T
 *
-drop
+take
 (
 )
 const

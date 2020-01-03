@@ -303,7 +303,7 @@ GetAsSourceSurface
 (
 )
 .
-drop
+take
 (
 )
 )

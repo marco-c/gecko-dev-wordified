@@ -2286,7 +2286,7 @@ forget
 (
 )
 .
-drop
+take
 (
 )
 )

@@ -959,7 +959,7 @@ CompositableType
 IMAGE
 )
 .
-drop
+take
 (
 )
 ;
@@ -1100,7 +1100,7 @@ CompositableType
 IMAGE_OVERLAY
 )
 .
-drop
+take
 (
 )
 ;

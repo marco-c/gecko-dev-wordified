@@ -5929,7 +5929,7 @@ forget
 (
 )
 .
-drop
+take
 (
 )
 &

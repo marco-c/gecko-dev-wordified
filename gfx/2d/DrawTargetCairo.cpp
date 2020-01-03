@@ -2285,7 +2285,7 @@ forget
 (
 )
 .
-drop
+take
 (
 )
 ReleaseData
