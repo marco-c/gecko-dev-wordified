@@ -320,7 +320,6 @@ past
 irrelevant
 headers
 auto
-&
 it
 =
 aBuffer
