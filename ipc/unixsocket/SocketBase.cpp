@@ -1486,7 +1486,7 @@ socketBase
 socketBase
 -
 >
-CloseSocket
+Close
 (
 )
 ;

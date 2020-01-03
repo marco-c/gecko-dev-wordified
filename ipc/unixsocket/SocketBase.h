@@ -1152,7 +1152,7 @@ thread
 /
 virtual
 void
-CloseSocket
+Close
 (
 )
 =

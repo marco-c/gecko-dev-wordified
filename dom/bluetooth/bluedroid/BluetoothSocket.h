@@ -335,7 +335,7 @@ SocketBase
 /
 /
 void
-CloseSocket
+Close
 (
 )
 override
