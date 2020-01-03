@@ -1806,6 +1806,12 @@ mForceRestart
 bool
 mReuseOnRestart
 ;
+bool
+mContentDecoding
+;
+bool
+mContentDecodingCheck
+;
 /
 /
 mClosed
