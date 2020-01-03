@@ -3082,7 +3082,7 @@ type
 :
 %
 s
-widht
+width
 :
 %
 d
