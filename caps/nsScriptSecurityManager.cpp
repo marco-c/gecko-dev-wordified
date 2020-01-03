@@ -4776,7 +4776,7 @@ tracks
 removing
 this
 .
-nsCAutoString
+nsAutoCString
 sourceSpec
 ;
 if
