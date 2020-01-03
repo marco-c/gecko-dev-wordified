@@ -267,10 +267,6 @@ static
 bool
 sFFmpegInitDone
 ;
-static
-Monitor
-sMonitor
-;
 AVCodecID
 mCodecID
 ;
