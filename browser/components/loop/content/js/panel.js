@@ -3442,3 +3442,17 @@ document
 mozL10n
 )
 ;
+document
+.
+addEventListener
+(
+'
+DOMContentLoaded
+'
+loop
+.
+panel
+.
+init
+)
+;
