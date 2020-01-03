@@ -14004,6 +14004,13 @@ telemetry
 can
 update
 .
+NS_DispatchToMainThread
+(
+NS_NewRunnableFunction
+(
+[
+]
+{
 if
 (
 nsCOMPtr
@@ -14035,6 +14042,10 @@ nullptr
 )
 ;
 }
+}
+)
+)
+;
 }
 void
 gfxPlatform
