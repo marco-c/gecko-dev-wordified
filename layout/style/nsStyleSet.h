@@ -1813,6 +1813,7 @@ eUserSheet
 /
 CSS
 ePresHintSheet
+eSVGAttrAnimationSheet
 eDocSheet
 /
 /
@@ -3156,7 +3157,7 @@ mInitFontFeatureValuesLookup
 unsigned
 mDirty
 :
-9
+10
 ;
 /
 /
