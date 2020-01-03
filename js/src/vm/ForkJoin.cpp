@@ -8209,7 +8209,6 @@ frame
 numFormalArgs
 (
 )
-DONT_CHECK_ALIASING
 )
 ;
 }

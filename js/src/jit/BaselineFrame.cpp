@@ -720,7 +720,6 @@ unaliasedLocal
 -
 -
 nfixed
-DONT_CHECK_ALIASING
 )
 .
 setMagic
