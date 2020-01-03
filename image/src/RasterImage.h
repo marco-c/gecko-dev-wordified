@@ -1781,7 +1781,7 @@ aLastPart
 MOZ_OVERRIDE
 ;
 void
-BlockOnloadForDecodeOnDraw
+NotifyForDecodeOnDrawOnly
 (
 )
 ;
@@ -2767,17 +2767,6 @@ SetSize
 )
 been
 called
-?
-bool
-mBlockedOnload
-:
-1
-;
-/
-/
-Did
-send
-BLOCK_ONLOAD
 ?
 bool
 mDecodeOnDraw
