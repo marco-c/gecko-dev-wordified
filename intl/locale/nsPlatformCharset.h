@@ -131,6 +131,7 @@ nsACString
 &
 oResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDefaultCharsetForLocale
@@ -143,6 +144,7 @@ nsACString
 &
 oResult
 )
+MOZ_OVERRIDE
 ;
 private
 :

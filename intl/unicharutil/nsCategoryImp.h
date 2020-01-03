@@ -141,6 +141,7 @@ Get
 uint32_t
 aChar
 )
+MOZ_OVERRIDE
 ;
 }
 ;

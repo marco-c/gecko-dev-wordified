@@ -259,6 +259,7 @@ attr
 uint32_t
 entityVersion
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Convert
@@ -272,6 +273,7 @@ char
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHODIMP
 GetCharset
@@ -281,6 +283,7 @@ char
 *
 aCharset
 )
+MOZ_OVERRIDE
 ;
 protected
 :

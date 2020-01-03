@@ -153,6 +153,7 @@ nsAString
 &
 aDest
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NormalizeUnicodeNFC
@@ -165,6 +166,7 @@ nsAString
 &
 aDest
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NormalizeUnicodeNFKD
@@ -177,6 +179,7 @@ nsAString
 &
 aDest
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NormalizeUnicodeNFKC
@@ -189,6 +192,7 @@ nsAString
 &
 aDest
 )
+MOZ_OVERRIDE
 ;
 /
 /

@@ -350,6 +350,7 @@ int32_t
 *
 aDestLength
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Finish
@@ -361,6 +362,7 @@ int32_t
 *
 aDestLength
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetMaxLength
@@ -375,11 +377,13 @@ int32_t
 *
 aDestLength
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reset
 (
 )
+MOZ_OVERRIDE
 {
 mHighSurrogate
 =
@@ -400,6 +404,7 @@ aEncoder
 char16_t
 aChar
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
