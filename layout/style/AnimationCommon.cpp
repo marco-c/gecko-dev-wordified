@@ -3941,7 +3941,7 @@ end
 /
 of
 animation
-behaviour
+behavior
 (
 the
 styles
@@ -3955,7 +3955,7 @@ fill
 /
 /
 mode
-behaviour
+behavior
 )
 .
 CanThrottle
