@@ -62,8 +62,6 @@ datetime
 import
 datetime
 from
-marionette_driver
-.
 date_time_value
 import
 DateTimeValue

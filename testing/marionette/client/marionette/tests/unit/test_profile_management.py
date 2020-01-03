@@ -56,8 +56,6 @@ MPL
 import
 os
 from
-marionette_driver
-.
 errors
 import
 JavascriptException
