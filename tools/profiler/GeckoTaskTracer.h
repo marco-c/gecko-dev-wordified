@@ -125,6 +125,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
 /
 *
 *
@@ -386,6 +395,11 @@ aFormat
 void
 StartLogging
 (
+mozilla
+:
+:
+TimeStamp
+aStartTime
 )
 ;
 void
