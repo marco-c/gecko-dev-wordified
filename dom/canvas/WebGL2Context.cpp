@@ -1038,6 +1038,10 @@ reset
 xfBuffers
 )
 ;
+mBypassShaderValidation
+=
+true
+;
 return
 true
 ;
