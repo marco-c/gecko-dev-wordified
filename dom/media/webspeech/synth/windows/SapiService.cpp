@@ -695,6 +695,10 @@ mCurrentIndex
 ;
 break
 ;
+default
+:
+break
+;
 }
 }
 /
@@ -928,7 +932,7 @@ Bug
 1160844
 )
 return
-nullptr
+false
 ;
 }
 if
