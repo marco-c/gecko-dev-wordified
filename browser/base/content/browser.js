@@ -8641,7 +8641,7 @@ for
 let
 tab
 of
-window
+browserWin
 .
 gBrowser
 .
