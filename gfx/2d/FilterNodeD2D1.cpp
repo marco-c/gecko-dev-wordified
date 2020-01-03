@@ -2415,9 +2415,13 @@ FAILED
 (
 hr
 )
+|
+|
+!
+effect
 )
 {
-gfxWarning
+gfxCriticalErrorOnce
 (
 )
 <
