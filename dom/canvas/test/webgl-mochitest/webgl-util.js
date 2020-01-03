@@ -365,6 +365,7 @@ getWebGL
 (
 canvasId
 requireConformant
+attributes
 )
 {
 /
@@ -406,6 +407,7 @@ getContext
 '
 webgl
 '
+attributes
 )
 ;
 }
@@ -438,6 +440,7 @@ experimental
 -
 webgl
 '
+attributes
 )
 ;
 }
