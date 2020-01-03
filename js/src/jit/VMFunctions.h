@@ -5367,7 +5367,7 @@ obj
 )
 ;
 bool
-ThrowUninitializedLet
+ThrowUninitializedLexical
 (
 JSContext
 *

@@ -1843,12 +1843,15 @@ a
 possibly
 optimized
 out
+or
+uninitialized
+let
 value
 .
 This
+*
 generally
 only
-*
 happens
 on
 unconditional
@@ -1858,10 +1861,10 @@ on
 bailing
 out
 of
+*
 Ion
 such
 as
-*
 for
 argument
 and
@@ -1872,7 +1875,7 @@ types
 /
 inline
 Type
-GetMaybeOptimizedOutValueType
+GetMaybeUntrackedValueType
 (
 const
 Value

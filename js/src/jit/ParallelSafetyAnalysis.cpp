@@ -1757,6 +1757,14 @@ UNSAFE_OP
 (
 UnknownValue
 )
+UNSAFE_OP
+(
+LexicalCheck
+)
+UNSAFE_OP
+(
+ThrowUninitializedLexical
+)
 /
 /
 It

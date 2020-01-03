@@ -1675,6 +1675,16 @@ _
 (
 AssertRangeV
 )
+\
+_
+(
+LexicalCheck
+)
+\
+_
+(
+ThrowUninitializedLexical
+)
 #
 if
 defined

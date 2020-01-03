@@ -1071,7 +1071,7 @@ extractNonDoubleType
 }
 inline
 Type
-GetMaybeOptimizedOutValueType
+GetMaybeUntrackedValueType
 (
 const
 Value

@@ -1291,6 +1291,16 @@ _
 (
 UnknownValue
 )
+\
+_
+(
+LexicalCheck
+)
+\
+_
+(
+ThrowUninitializedLexical
+)
 /
 /
 Forward
