@@ -750,12 +750,10 @@ gSortedColumn
 ;
 old
 .
-setAttribute
+removeAttribute
 (
 "
 sortDirection
-"
-"
 "
 )
 ;
