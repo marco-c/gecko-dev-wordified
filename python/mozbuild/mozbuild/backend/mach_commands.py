@@ -72,14 +72,6 @@ which
 from
 mozbuild
 .
-backend
-.
-cpp_eclipse
-import
-CppEclipseBackend
-from
-mozbuild
-.
 base
 import
 (
@@ -835,6 +827,15 @@ get_eclipse_workspace_path
 self
 )
 :
+        
+from
+mozbuild
+.
+backend
+.
+cpp_eclipse
+import
+CppEclipseBackend
         
 return
 CppEclipseBackend
