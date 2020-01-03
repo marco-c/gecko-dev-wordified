@@ -399,7 +399,7 @@ structure
 struct
 sctp_rt_metrics_lite
 {
-u_long
+uint32_t
 rmx_mtu
 ;
 /

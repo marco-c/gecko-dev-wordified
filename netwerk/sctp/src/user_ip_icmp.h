@@ -383,6 +383,13 @@ defined
 (
 __Userspace_os_Windows
 )
+#
+pragma
+pack
+(
+push
+1
+)
 struct
 icmp6_hdr
 {
@@ -419,8 +426,12 @@ icmp6_un_data8
 icmp6_dataun
 ;
 }
-__packed
 ;
+#
+pragma
+pack
+(
+)
 #
 define
 icmp6_data32

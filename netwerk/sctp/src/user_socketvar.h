@@ -438,6 +438,13 @@ defined
 (
 __Userspace_os_Windows
 )
+&
+&
+!
+defined
+(
+__Userspace_os_NaCl
+)
 #
 include
 <
@@ -517,6 +524,12 @@ __Userspace_os_OpenBSD
 defined
 (
 __Userspace_os_Windows
+)
+|
+|
+defined
+(
+__Userspace_os_NaCl
 )
 #
 define
