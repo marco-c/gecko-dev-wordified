@@ -212,14 +212,9 @@ getInfo
 .
 categoryData
 .
-toSource
-(
-)
+abbrev
 "
-(
-{
-}
-)
+other
 "
 "
 The
