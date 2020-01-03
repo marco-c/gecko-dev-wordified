@@ -729,6 +729,7 @@ aCallback
 this
 groupContext
 toDraw
+&
 toDraw
 DrawRegionClip
 :

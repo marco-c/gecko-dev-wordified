@@ -693,9 +693,7 @@ ctx
 iter
 .
 mDrawRegion
-state
-.
-mRegionToDraw
+nullptr
 state
 .
 mClip

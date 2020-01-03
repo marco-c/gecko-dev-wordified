@@ -5995,6 +5995,7 @@ mCallback
 mPaintedLayer
 ctxt
 aPaintRegion
+&
 aDirtyRegion
 DrawRegionClip
 :
@@ -7694,6 +7695,7 @@ mCallback
 mPaintedLayer
 ctx
 aPaintRegion
+&
 aDirtyRegion
 DrawRegionClip
 :
