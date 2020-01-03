@@ -659,6 +659,10 @@ mScriptLine
 (
 0
 )
+mScriptColumn
+(
+0
+)
 mInnerWindowID
 (
 0
@@ -764,6 +768,8 @@ nsACString
 aScriptFile
 uint32_t
 aScriptLine
+uint32_t
+aScriptColumn
 ErrorResult
 &
 aRv
@@ -1152,11 +1158,16 @@ source
 code
 line
 number
+and
+column
+number
 where
 the
 Web
 Socket
 object
+/
+/
 was
 constructed
 .
@@ -1206,6 +1217,9 @@ mScriptFile
 ;
 uint32_t
 mScriptLine
+;
+uint32_t
+mScriptColumn
 ;
 uint64_t
 mInnerWindowID
@@ -1964,7 +1978,7 @@ EmptyString
 (
 )
 mScriptLine
-0
+mScriptColumn
 nsIScriptError
 :
 :
@@ -1995,7 +2009,7 @@ EmptyString
 (
 )
 mScriptLine
-0
+mScriptColumn
 nsIScriptError
 :
 :
@@ -5545,6 +5559,8 @@ nsACString
 aScriptFile
 uint32_t
 aScriptLine
+uint32_t
+aScriptColumn
 ErrorResult
 &
 aRv
@@ -5579,6 +5595,10 @@ aScriptFile
 mScriptLine
 (
 aScriptLine
+)
+mScriptColumn
+(
+aScriptColumn
 )
 mRv
 (
@@ -5725,6 +5745,7 @@ mURL
 mProtocolArray
 mScriptFile
 mScriptLine
+mScriptColumn
 mRv
 mConnectionFailed
 )
@@ -5780,6 +5801,7 @@ mURL
 mProtocolArray
 mScriptFile
 mScriptLine
+mScriptColumn
 mRv
 mConnectionFailed
 )
@@ -5819,6 +5841,9 @@ mScriptFile
 ;
 uint32_t
 mScriptLine
+;
+uint32_t
+mScriptColumn
 ;
 ErrorResult
 &
@@ -6384,6 +6409,7 @@ EmptyCString
 (
 )
 0
+0
 aRv
 &
 connectionFailed
@@ -6442,6 +6468,7 @@ nullptr
 }
 unsigned
 lineno
+column
 ;
 JS
 :
@@ -6466,6 +6493,8 @@ Context
 file
 &
 lineno
+&
+column
 )
 )
 {
@@ -6510,6 +6539,7 @@ get
 )
 )
 lineno
+column
 aRv
 &
 connectionFailed
@@ -7381,6 +7411,8 @@ nsACString
 aScriptFile
 uint32_t
 aScriptLine
+uint32_t
+aScriptColumn
 ErrorResult
 &
 aRv
@@ -7606,6 +7638,10 @@ mScriptLine
 =
 aScriptLine
 ;
+mScriptColumn
+=
+aScriptColumn
+;
 }
 else
 {
@@ -7616,6 +7652,7 @@ aCx
 ;
 unsigned
 lineno
+column
 ;
 JS
 :
@@ -7635,6 +7672,8 @@ aCx
 file
 &
 lineno
+&
+column
 )
 )
 {
@@ -7649,6 +7688,10 @@ get
 mScriptLine
 =
 lineno
+;
+mScriptColumn
+=
+column
 ;
 }
 }
