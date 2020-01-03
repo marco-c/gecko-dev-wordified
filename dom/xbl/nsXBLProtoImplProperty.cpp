@@ -1177,11 +1177,6 @@ setVersion
 (
 JSVERSION_LATEST
 )
-.
-setDefineOnScope
-(
-false
-)
 ;
 nsCString
 name
@@ -1530,11 +1525,6 @@ GetLineNumber
 setVersion
 (
 JSVERSION_LATEST
-)
-.
-setDefineOnScope
-(
-false
 )
 ;
 nsCString

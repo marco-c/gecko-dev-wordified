@@ -191,6 +191,15 @@ fun
 cx
 )
 ;
+JS
+:
+:
+AutoObjectVector
+emptyScopeChain
+(
+cx
+)
+;
 CHECK
 (
 JS
@@ -199,7 +208,7 @@ JS
 CompileFunction
 (
 cx
-global
+emptyScopeChain
 opts
 "
 f

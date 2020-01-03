@@ -21978,8 +21978,10 @@ bodies
 from
 /
 /
-JS_CompileFunction
-*
+JS
+:
+:
+CompileFunction
 )
 .
 In

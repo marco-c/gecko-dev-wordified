@@ -1138,11 +1138,6 @@ setVersion
 (
 JSVERSION_LATEST
 )
-.
-setDefineOnScope
-(
-false
-)
 ;
 JS
 :
