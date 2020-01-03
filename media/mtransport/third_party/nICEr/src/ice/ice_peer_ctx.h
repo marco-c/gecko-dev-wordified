@@ -514,14 +514,11 @@ pctx
 )
 ;
 int
-nr_ice_peer_ctx_stream_done
+nr_ice_peer_ctx_check_if_done
 (
 nr_ice_peer_ctx
 *
 pctx
-nr_ice_media_stream
-*
-stream
 )
 ;
 int

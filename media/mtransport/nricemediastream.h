@@ -922,6 +922,16 @@ string
 candidates
 )
 ;
+bool
+HasParsedAttributes
+(
+)
+const
+{
+return
+has_parsed_attrs_
+;
+}
 /
 /
 Parse
@@ -1295,6 +1305,10 @@ level_
 (
 0
 )
+has_parsed_attrs_
+(
+false
+)
 {
 }
 ~
@@ -1331,6 +1345,9 @@ stream_
 ;
 uint16_t
 level_
+;
+bool
+has_parsed_attrs_
 ;
 }
 ;

@@ -587,12 +587,12 @@ correlator
 )
 ;
 void
-IncorporateRemoteDescription
+Update
 (
 const
 MediaPipelineFilter
 &
-remote_filter
+filter_update
 )
 ;
 /
