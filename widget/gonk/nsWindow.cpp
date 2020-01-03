@@ -1511,6 +1511,8 @@ const
 uint64_t
 &
 aInputBlockId
+nsEventStatus
+aApzResponse
 )
 :
 mInput
@@ -1524,6 +1526,10 @@ aGuid
 mInputBlockId
 (
 aInputBlockId
+)
+mApzResponse
+(
+aApzResponse
 )
 {
 }
@@ -1545,6 +1551,7 @@ DispatchTouchEventForAPZ
 mInput
 mGuid
 mInputBlockId
+mApzResponse
 )
 ;
 }
@@ -1562,6 +1569,9 @@ mGuid
 ;
 uint64_t
 mInputBlockId
+;
+nsEventStatus
+mApzResponse
 ;
 }
 ;
@@ -1643,7 +1653,7 @@ uint64_t
 inputBlockId
 ;
 nsEventStatus
-rv
+result
 =
 mAPZC
 -
@@ -1672,7 +1682,7 @@ drop
 it
 if
 (
-rv
+result
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -1747,6 +1757,7 @@ DispatchTouchInputOnMainThread
 aInput
 guid
 inputBlockId
+result
 )
 )
 ;
@@ -1768,6 +1779,8 @@ aGuid
 const
 uint64_t
 aInputBlockId
+nsEventStatus
+aApzResponse
 )
 {
 MOZ_ASSERT
@@ -1830,6 +1843,8 @@ to
 a
 child
 process
+/
+/
 but
 if
 it
@@ -1839,8 +1854,6 @@ t
 we
 need
 to
-/
-/
 notify
 the
 APZ
@@ -1848,13 +1861,13 @@ of
 various
 things
 .
+/
+/
 All
 of
 that
 happens
 in
-/
-/
 ProcessUntransformedAPZEvent
 ProcessUntransformedAPZEvent
 (
@@ -1862,6 +1875,7 @@ ProcessUntransformedAPZEvent
 event
 aGuid
 aInputBlockId
+aApzResponse
 )
 ;
 }
