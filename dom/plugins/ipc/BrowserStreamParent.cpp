@@ -154,7 +154,7 @@ const
 int32_t
 kSendDataChunk
 =
-0x4000
+0xffff
 ;
 namespace
 mozilla
