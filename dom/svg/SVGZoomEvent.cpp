@@ -318,7 +318,7 @@ new
 InternalSVGZoomEvent
 (
 false
-NS_SVG_ZOOM
+eSVGZoom
 )
 )
 mPreviousScale

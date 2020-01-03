@@ -2210,7 +2210,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 SVGZoom
-NS_SVG_ZOOM
+eSVGZoom
 EventNameType_None
 eSVGZoomEventClass
 )
@@ -2252,7 +2252,7 @@ weird
 NON_IDL_EVENT
 (
 zoom
-NS_SVG_ZOOM
+eSVGZoom
 EventNameType_SVGSVG
 eBasicEventClass
 )

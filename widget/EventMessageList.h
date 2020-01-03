@@ -1351,7 +1351,7 @@ eSVGZoomEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SVG_ZOOM
+eSVGZoom
 eSVGZoomEventFirst
 )
 /
