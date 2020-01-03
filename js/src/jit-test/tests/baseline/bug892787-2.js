@@ -194,7 +194,7 @@ e
 .
 message
 .
-contains
+includes
 (
 "
 not

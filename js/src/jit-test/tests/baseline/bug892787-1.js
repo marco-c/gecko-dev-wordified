@@ -77,7 +77,7 @@ e
 .
 message
 .
-contains
+includes
 (
 "
 is
