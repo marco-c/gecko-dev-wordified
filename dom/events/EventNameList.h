@@ -1347,7 +1347,7 @@ ePointerEventClass
 EVENT
 (
 gotpointercapture
-NS_POINTER_GOT_CAPTURE
+ePointerGotCapture
 EventNameType_All
 ePointerEventClass
 )
