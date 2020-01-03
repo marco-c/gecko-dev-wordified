@@ -2246,12 +2246,10 @@ vp
 ;
 return
 CallNonGenericMethod
-<
-is
-BufferGetterImpl
->
 (
 cx
+is
+BufferGetterImpl
 args
 )
 ;
