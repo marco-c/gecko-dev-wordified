@@ -958,6 +958,9 @@ softUpdate
 (
 info
 .
+principal
+info
+.
 scope
 )
 ;
