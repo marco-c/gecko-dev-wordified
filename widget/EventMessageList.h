@@ -2690,13 +2690,13 @@ SpeakerManager
 events
 NS_EVENT_MESSAGE
 (
-NS_SPEAKERMANAGER_EVENT_START
+eSpeakerManagerEventFirst
 5800
 )
 NS_EVENT_MESSAGE
 (
 eSpeakerForcedChange
-NS_SPEAKERMANAGER_EVENT_START
+eSpeakerManagerEventFirst
 +
 1
 )
