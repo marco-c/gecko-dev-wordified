@@ -5217,6 +5217,13 @@ child
 .
 *
 /
+handler
+.
+prepareNodeForMutation
+(
+pn
+)
+;
 pn
 -
 >
