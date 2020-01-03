@@ -3810,6 +3810,16 @@ Rate
 Audio
 "
 }
+{
+AUDIO_FLAC
+"
+flac
+"
+"
+FLAC
+Audio
+"
+}
 #
 endif
 {
