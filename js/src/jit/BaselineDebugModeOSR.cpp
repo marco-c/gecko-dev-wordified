@@ -1357,7 +1357,7 @@ baselineScript
 )
 -
 >
-pcForReturnAddress
+pcForNativeAddress
 (
 script
 retAddr
