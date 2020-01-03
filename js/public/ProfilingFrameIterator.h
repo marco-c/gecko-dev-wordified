@@ -667,12 +667,6 @@ char
 *
 label
 ;
-bool
-hasTrackedOptimizations
-;
-uint8_t
-trackedOptimizationIndex
-;
 }
 ;
 uint32_t
