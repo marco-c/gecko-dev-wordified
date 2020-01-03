@@ -9762,7 +9762,7 @@ FEATURE_STATUS_OK
 It
 seems
 like
-nvdxgiwrapper
+nvdxgiwrap
 makes
 a
 mess
@@ -9788,7 +9788,7 @@ LayersD3D11DisableWARP
 GetModuleHandleA
 (
 "
-nvdxgiwrapper
+nvdxgiwrap
 .
 dll
 "
