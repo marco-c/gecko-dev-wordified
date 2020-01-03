@@ -2588,7 +2588,7 @@ aBEndMarginResult
 =
 mMetrics
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 ;
 aBEndMarginResult
 .

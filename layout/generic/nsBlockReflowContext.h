@@ -271,7 +271,7 @@ GetCarriedOutBEndMargin
 return
 mMetrics
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 ;
 }
 const

@@ -1852,7 +1852,9 @@ OUT
 /
 Carried
 out
-bottom
+block
+-
+end
 margin
 values
 .
@@ -1865,12 +1867,14 @@ collapsed
 (
 generational
 )
-bottom
+block
+-
+end
 margin
 value
 .
 nsCollapsingMargin
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 ;
 /
 /
