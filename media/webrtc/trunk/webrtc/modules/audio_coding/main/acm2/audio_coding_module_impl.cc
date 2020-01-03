@@ -9125,9 +9125,6 @@ AudioCodingModuleImpl
 :
 SetREDStatus
 (
-#
-ifdef
-WEBRTC_CODEC_RED
 bool
 enable_red
 )
@@ -9138,6 +9135,9 @@ lock
 acm_crit_sect_
 )
 ;
+#
+ifdef
+WEBRTC_CODEC_RED
 if
 (
 enable_red
@@ -9243,14 +9243,6 @@ return
 ;
 #
 else
-bool
-/
-*
-enable_red
-*
-/
-)
-{
 red_enabled_
 =
 false
