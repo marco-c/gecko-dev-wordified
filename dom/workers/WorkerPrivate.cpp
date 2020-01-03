@@ -20439,6 +20439,9 @@ XHR
 or
 importScripts
 .
+(
+void
+)
 Promise
 :
 :
