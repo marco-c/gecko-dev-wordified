@@ -1209,14 +1209,6 @@ IsGonkMP4DecoderAvailable
 (
 )
 {
-#
-ifndef
-MOZ_GONK_MEDIACODEC
-return
-false
-;
-#
-else
 return
 Preferences
 :
@@ -1237,8 +1229,6 @@ enabled
 false
 )
 ;
-#
-endif
 }
 static
 bool
