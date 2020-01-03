@@ -19235,6 +19235,7 @@ atomicsMeetsPreconditions
 callInfo
 &
 arrayType
+DontCheckAtomicResult
 )
 )
 return
@@ -19853,6 +19854,8 @@ Scalar
 Type
 *
 arrayType
+AtomicCheckResult
+checkResult
 )
 {
 if
@@ -20023,6 +20026,12 @@ Scalar
 Int32
 :
 return
+checkResult
+=
+=
+DontCheckAtomicResult
+|
+|
 getInlineReturnType
 (
 )
@@ -20067,6 +20076,12 @@ frequently
 be
 .
 return
+checkResult
+=
+=
+DontCheckAtomicResult
+|
+|
 getInlineReturnType
 (
 )

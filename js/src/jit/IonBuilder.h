@@ -5922,6 +5922,13 @@ MBasicBlock
 fallbackTarget
 )
 ;
+enum
+AtomicCheckResult
+{
+DontCheckAtomicResult
+DoCheckAtomicResult
+}
+;
 bool
 atomicsMeetsPreconditions
 (
@@ -5934,6 +5941,10 @@ Scalar
 Type
 *
 arrayElementType
+AtomicCheckResult
+checkResult
+=
+DoCheckAtomicResult
 )
 ;
 void
