@@ -4805,7 +4805,7 @@ case
 eQuerySelectedText
 :
 case
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 :
 case
 NS_QUERY_CARET_RECT

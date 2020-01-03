@@ -544,7 +544,7 @@ eQuerySelectedText
 mEventMessage
 =
 =
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 NS_ERROR_NOT_AVAILABLE
 )
 ;

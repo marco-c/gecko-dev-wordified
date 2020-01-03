@@ -396,11 +396,11 @@ eQuerySelectedText
 "
 ;
 case
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 :
 return
 "
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 "
 ;
 case

@@ -10552,9 +10552,9 @@ nsTextStore
 GetText
 not
 sending
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 *
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 not
 handled
 by
@@ -10562,7 +10562,7 @@ ContentEventHandler
 *
 Bug
 in
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 handler
 *
 nsTextStore

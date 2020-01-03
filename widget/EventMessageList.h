@@ -1489,7 +1489,7 @@ length
 .
 NS_EVENT_MESSAGE
 (
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 eQueryContentEventFirst
 +
 1

@@ -5119,7 +5119,7 @@ aEvent
 )
 ;
 case
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 :
 return
 OnQueryTextContent

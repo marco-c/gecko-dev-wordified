@@ -42957,7 +42957,7 @@ aEvent
 mMessage
 =
 =
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 |
 |
 aEvent

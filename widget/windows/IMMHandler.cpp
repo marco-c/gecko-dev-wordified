@@ -11716,7 +11716,7 @@ WidgetQueryContentEvent
 textContent
 (
 true
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 aWindow
 )
 ;
@@ -11770,9 +11770,7 @@ HandleDocumentFeed
 FAILED
 due
 to
-NS_QUERY_TEXT_CONTENT
-"
-"
+eQueryTextContent
 failure
 "
 )

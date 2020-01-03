@@ -1430,7 +1430,7 @@ selection
 *
 *
 For
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 fail
 only
 if
@@ -1460,7 +1460,7 @@ behavior
 because
 a
 normal
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 event
 is
 allowed

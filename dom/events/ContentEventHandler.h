@@ -281,7 +281,7 @@ aEvent
 ;
 /
 /
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 event
 handler
 nsresult

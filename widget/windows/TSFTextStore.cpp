@@ -13545,7 +13545,7 @@ WidgetQueryContentEvent
 queryText
 (
 true
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 mWidget
 )
 ;
@@ -13606,7 +13606,7 @@ due
 to
 "
 "
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 failure
 "
 this

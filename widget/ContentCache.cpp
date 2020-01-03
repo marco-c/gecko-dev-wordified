@@ -1834,7 +1834,7 @@ WidgetQueryContentEvent
 queryText
 (
 true
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 aWidget
 )
 ;
@@ -4028,7 +4028,7 @@ get
 break
 ;
 case
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 :
 {
 MOZ_LOG
@@ -4054,7 +4054,7 @@ aEvent
 {
 mMessage
 =
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 mInput
 =
 {

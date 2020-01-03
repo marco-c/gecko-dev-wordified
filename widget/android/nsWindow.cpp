@@ -12481,7 +12481,7 @@ WidgetQueryContentEvent
 event
 (
 true
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 this
 )
 ;
