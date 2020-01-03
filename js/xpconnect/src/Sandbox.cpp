@@ -4210,7 +4210,6 @@ xpc
 sandboxCallableProxyHandler
 priv
 nullptr
-nullptr
 )
 ;
 if
@@ -6385,7 +6384,6 @@ xpc
 :
 sandboxProxyHandler
 priv
-nullptr
 nullptr
 )
 ;
