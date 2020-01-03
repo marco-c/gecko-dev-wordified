@@ -216,9 +216,10 @@ h
 #
 undef
 LOG
+extern
 PRLogModuleInfo
 *
-GetDemuxerLog
+GetPDMLog
 (
 )
 ;
@@ -232,7 +233,7 @@ LOG
 )
 MOZ_LOG
 (
-GetDemuxerLog
+GetPDMLog
 (
 )
 mozilla
