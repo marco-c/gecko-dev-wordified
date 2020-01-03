@@ -1144,6 +1144,9 @@ GetPlatform
 UseTiling
 (
 )
+#
+ifndef
+MOZ_X11
 &
 &
 (
@@ -1194,6 +1197,8 @@ LayersBackend
 :
 LAYERS_D3D11
 )
+#
+endif
 )
 {
 nsRefPtr
