@@ -2015,7 +2015,6 @@ OnDestroy
 (
 )
 ;
-virtual
 void
 BaseCreate
 (
@@ -2026,9 +2025,6 @@ const
 nsIntRect
 &
 aRect
-nsDeviceContext
-*
-aContext
 nsWidgetInitData
 *
 aInitData
