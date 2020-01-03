@@ -1815,7 +1815,7 @@ url
 .
 encode_decode_hash
 "
-false
+true
 )
 ;
 /
