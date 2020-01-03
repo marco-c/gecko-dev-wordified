@@ -255,9 +255,7 @@ if
 (
 iccInfo
 instanceof
-Ci
-.
-nsIDOMMozGsmIccInfo
+MozGsmIccInfo
 )
 {
 log
