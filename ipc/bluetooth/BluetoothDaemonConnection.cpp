@@ -1619,7 +1619,7 @@ BluetoothDaemonConnection
 BluetoothDaemonPDUConsumer
 *
 aPDUConsumer
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 *
 aConsumer
 int

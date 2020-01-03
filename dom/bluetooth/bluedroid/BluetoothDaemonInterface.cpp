@@ -10742,7 +10742,7 @@ mGattInterface
 /
 /
 |
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 |
 |
 ListenSocketConsumer

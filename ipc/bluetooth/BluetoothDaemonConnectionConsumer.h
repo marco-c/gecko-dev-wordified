@@ -163,7 +163,7 @@ ipc
 *
 *
 |
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 |
 handles
 socket
@@ -172,7 +172,7 @@ events
 *
 /
 class
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 {
 public
 :
@@ -301,13 +301,13 @@ aIndex
 ;
 protected
 :
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 (
 )
 ;
 virtual
 ~
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 (
 )
 ;

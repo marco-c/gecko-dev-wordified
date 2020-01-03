@@ -195,7 +195,7 @@ mozilla
 ipc
 :
 :
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 public
 mozilla
 :
@@ -663,7 +663,7 @@ aAddress
 Methods
 for
 |
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 |
 and
 |
