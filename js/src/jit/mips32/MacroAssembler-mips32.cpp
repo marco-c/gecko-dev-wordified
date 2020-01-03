@@ -15434,6 +15434,9 @@ jumpWithPatch
 RepatchLabel
 *
 label
+Label
+*
+documentation
 )
 {
 /

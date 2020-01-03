@@ -5170,6 +5170,11 @@ jumpWithPatch
 RepatchLabel
 *
 label
+Label
+*
+documentation
+=
+nullptr
 )
 {
 jump
@@ -5197,6 +5202,11 @@ Assembler
 :
 Condition
 cond
+Label
+*
+documentation
+=
+nullptr
 )
 {
 j
@@ -5220,6 +5230,11 @@ backedgeJump
 RepatchLabel
 *
 label
+Label
+*
+documentation
+=
+nullptr
 )
 {
 return

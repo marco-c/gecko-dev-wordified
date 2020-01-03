@@ -1812,6 +1812,11 @@ jumpWithPatch
 (
 RepatchLabel
 *
+Label
+*
+doc
+=
+nullptr
 )
 {
 MOZ_CRASH
@@ -1825,6 +1830,11 @@ jumpWithPatch
 RepatchLabel
 *
 Condition
+Label
+*
+doc
+=
+nullptr
 )
 {
 MOZ_CRASH
@@ -1838,6 +1848,11 @@ backedgeJump
 RepatchLabel
 *
 label
+Label
+*
+doc
+=
+nullptr
 )
 {
 MOZ_CRASH
