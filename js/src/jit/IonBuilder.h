@@ -3981,6 +3981,17 @@ input
 )
 ;
 bool
+tryFoldInstanceOf
+(
+MDefinition
+*
+lhs
+JSObject
+*
+protoObject
+)
+;
+bool
 jsop_add
 (
 MDefinition
