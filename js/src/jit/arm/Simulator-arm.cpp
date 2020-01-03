@@ -15602,7 +15602,7 @@ sp
 )
 &
 (
-StackAlignment
+ABIStackAlignment
 -
 1
 )
@@ -30236,7 +30236,7 @@ entry_stack
 &
 =
 ~
-StackAlignment
+ABIStackAlignment
 ;
 /
 /

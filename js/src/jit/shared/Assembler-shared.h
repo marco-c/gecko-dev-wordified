@@ -3168,7 +3168,7 @@ code
 /
 sp
 %
-StackAlignment
+AsmJSStackAlignment
 =
 (
 sizeof
@@ -3181,7 +3181,7 @@ masm
 framePushed
 )
 %
-StackAlignment
+AsmJSStackAlignment
 /
 /
 Thus
@@ -3200,7 +3200,7 @@ occurred
 /
 with
 a
-StackAlignment
+AsmJSStackAlignment
 -
 aligned
 StackPointer

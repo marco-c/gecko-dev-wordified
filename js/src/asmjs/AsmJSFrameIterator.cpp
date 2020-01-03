@@ -2678,11 +2678,12 @@ C
 .
 if
 (
-unsigned
-stackDec
+uint32_t
+d
 =
 StackDecrementForCall
 (
+ABIStackAlignment
 sizeof
 (
 AsmJSFrame
@@ -2696,7 +2697,7 @@ subPtr
 (
 Imm32
 (
-stackDec
+d
 )
 StackPointer
 )
@@ -2720,6 +2721,7 @@ masm
 .
 assertStackAlignment
 (
+ABIStackAlignment
 )
 ;
 masm
