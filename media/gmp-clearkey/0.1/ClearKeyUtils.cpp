@@ -715,7 +715,10 @@ begin
 ;
 for
 (
-int
+string
+:
+:
+size_type
 i
 =
 0
