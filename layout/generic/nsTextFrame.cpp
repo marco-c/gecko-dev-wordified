@@ -6285,7 +6285,7 @@ aCapitalize
 )
 MOZ_OVERRIDE
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mTextRun
 -
@@ -6308,6 +6308,21 @@ transformed
 "
 )
 ;
+if
+(
+mTextRun
+-
+>
+GetFlags
+(
+)
+&
+nsTextFrameUtils
+:
+:
+TEXT_IS_TRANSFORMED
+)
+{
 nsTransformedTextRun
 *
 transformedTextRun
@@ -6335,6 +6350,7 @@ mContext
 )
 ;
 }
+}
 void
 Finish
 (
@@ -6343,7 +6359,7 @@ gfxMissingFontRecorder
 aMFR
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (
