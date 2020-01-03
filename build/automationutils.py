@@ -1664,6 +1664,7 @@ processSingleLeakFile
 leakLogFileName
 processType
 leakThreshold
+ignoreMissingLeaks
 )
 :
   
@@ -2380,6 +2381,36 @@ log
 processString
 )
     
+elif
+ignoreMissingLeaks
+:
+      
+log
+.
+info
+(
+"
+TEST
+-
+INFO
+|
+leakcheck
+|
+%
+s
+ignoring
+missing
+output
+line
+for
+total
+leaks
+"
+               
+%
+processString
+)
+    
 else
 :
       
@@ -2438,6 +2469,31 @@ leaks
                
 %
 processString
+)
+      
+log
+.
+info
+(
+"
+TEST
+-
+INFO
+|
+leakcheck
+|
+missing
+output
+line
+from
+log
+file
+%
+s
+"
+               
+%
+leakLogFileName
 )
     
 return
@@ -2685,6 +2741,7 @@ processLeakLog
 (
 leakLogFile
 leakThresholds
+ignoreMissingLeaks
 )
 :
   
@@ -3219,6 +3276,10 @@ processSingleLeakFile
 thisFile
 processType
 leakThreshold
+                            
+processType
+in
+ignoreMissingLeaks
 )
 def
 replaceBackSlashes
