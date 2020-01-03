@@ -346,6 +346,12 @@ node
 yield
 onPanelUpdated
 ;
+yield
+waitForAllAnimationTargets
+(
+panel
+)
+;
 assertAnimationsDisplayed
 (
 panel

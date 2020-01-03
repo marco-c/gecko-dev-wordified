@@ -105,12 +105,6 @@ openAnimationInspectorNewUI
 (
 )
 ;
-yield
-waitForAllAnimationTargets
-(
-panel
-)
-;
 let
 timeline
 =
@@ -180,6 +174,7 @@ scrubberEl
 style
 .
 left
+10
 )
 ;
 is
@@ -238,6 +233,7 @@ scrubberEl
 style
 .
 left
+10
 )
 ;
 is
@@ -314,6 +310,7 @@ scrubberEl
 style
 .
 left
+10
 )
 ;
 is

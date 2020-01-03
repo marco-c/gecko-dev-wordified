@@ -171,12 +171,6 @@ openAnimationInspectorNewUI
 (
 )
 ;
-yield
-waitForAllAnimationTargets
-(
-panel
-)
-;
 let
 timelineEl
 =
