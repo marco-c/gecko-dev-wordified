@@ -488,6 +488,7 @@ renderbuffer_color_half_float
 robustness
 sRGB_framebuffer
 sRGB_texture
+shader_texture_lod
 sampler_objects
 standard_derivatives
 sync
@@ -1808,6 +1809,7 @@ ARB_occlusion_query2
 ARB_pixel_buffer_object
 ARB_robustness
 ARB_sampler_objects
+ARB_shader_texture_lod
 ARB_sync
 ARB_texture_compression
 ARB_texture_float

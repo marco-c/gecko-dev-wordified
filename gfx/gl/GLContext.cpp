@@ -660,6 +660,9 @@ GL_ARB_robustness
 GL_ARB_sampler_objects
 "
 "
+GL_ARB_shader_texture_lod
+"
+"
 GL_ARB_sync
 "
 "
