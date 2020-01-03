@@ -189,13 +189,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIURIWithPrincipal
 .
 h

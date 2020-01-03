@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIOutputStream
 .
 h

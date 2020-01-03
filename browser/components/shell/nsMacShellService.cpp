@@ -194,13 +194,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIProperties
 .
 h

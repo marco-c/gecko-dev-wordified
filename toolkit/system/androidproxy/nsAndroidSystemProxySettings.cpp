@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
@@ -134,13 +127,6 @@ h
 include
 "
 nsPrintfCString
-.
-h
-"
-#
-include
-"
-nsNetUtil
 .
 h
 "

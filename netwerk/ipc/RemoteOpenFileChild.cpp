@@ -206,6 +206,13 @@ SerializedLoadContext
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 /
 /
 needed

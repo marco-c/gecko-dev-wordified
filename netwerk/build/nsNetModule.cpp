@@ -334,13 +334,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIThreadPool
 .
 h

@@ -201,6 +201,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nspr
 .
 h

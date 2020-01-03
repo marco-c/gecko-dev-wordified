@@ -371,6 +371,13 @@ nsFrameSelection
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 /
 /
 Helper

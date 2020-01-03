@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsScriptLoader
 .
 h

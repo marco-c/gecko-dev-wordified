@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIURILoader
 .
 h

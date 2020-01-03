@@ -186,13 +186,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h

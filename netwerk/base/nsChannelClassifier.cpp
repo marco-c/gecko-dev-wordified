@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsICacheEntry
 .
 h

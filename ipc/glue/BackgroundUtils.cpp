@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+LoadInfo
+.
+h
+"
+#
+include
+"
 nsNullPrincipal
 .
 h

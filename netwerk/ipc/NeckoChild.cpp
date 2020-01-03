@@ -316,6 +316,13 @@ URIUtils
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 using
 mozilla
 :

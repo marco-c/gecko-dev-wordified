@@ -94,13 +94,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 stdlib
 .
 h

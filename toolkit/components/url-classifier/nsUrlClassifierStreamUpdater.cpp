@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h

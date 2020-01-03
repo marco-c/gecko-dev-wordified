@@ -670,7 +670,7 @@ h
 /
 /
 for
-NS_MakeAbsoluteURI
+NS_NewURI
 #
 include
 "

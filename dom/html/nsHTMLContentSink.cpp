@@ -230,13 +230,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIContentViewer
 .
 h

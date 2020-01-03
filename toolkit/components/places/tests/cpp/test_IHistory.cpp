@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 mock_Link
 .
 h

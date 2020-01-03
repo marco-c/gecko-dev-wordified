@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsIStandardURL
 .
 h

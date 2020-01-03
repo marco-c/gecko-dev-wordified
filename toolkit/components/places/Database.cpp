@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsIWritablePropertyBag2
+.
+h
+"
+#
+include
+"
 nsNavHistory
 .
 h

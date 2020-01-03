@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ipc

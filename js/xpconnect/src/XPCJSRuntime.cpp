@@ -184,6 +184,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsIMemoryInfoDumper
 .
 h

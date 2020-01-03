@@ -238,6 +238,13 @@ nsIScriptSecurityManager
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 namespace
 IPC
 {

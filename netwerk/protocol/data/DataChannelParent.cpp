@@ -130,6 +130,13 @@ Assertions
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 namespace
 mozilla
 {
