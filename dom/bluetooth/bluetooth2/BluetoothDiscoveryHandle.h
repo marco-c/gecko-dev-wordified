@@ -296,13 +296,6 @@ aGivenProto
 )
 override
 ;
-virtual
-void
-DisconnectFromOwner
-(
-)
-override
-;
 private
 :
 BluetoothDiscoveryHandle
