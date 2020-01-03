@@ -753,6 +753,14 @@ char
 aData
 )
 ;
+LexerTransition
+<
+ICOState
+>
+FinishResource
+(
+)
+;
 StreamingLexer
 <
 ICOState
