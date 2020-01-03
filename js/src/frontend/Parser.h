@@ -4176,9 +4176,6 @@ yieldHandling
 FunctionSyntaxKind
 kind
 Node
-*
-list
-Node
 funcpn
 bool
 *
@@ -4514,8 +4511,6 @@ pn
 FunctionBox
 *
 funbox
-Node
-prelude
 Node
 body
 )

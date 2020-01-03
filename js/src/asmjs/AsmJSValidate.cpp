@@ -24548,9 +24548,10 @@ if
 arg
 -
 >
-pn_dflags
-&
-PND_DEFAULT
+isKind
+(
+PNK_ASSIGN
+)
 )
 return
 m
