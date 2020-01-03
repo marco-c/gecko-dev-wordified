@@ -341,6 +341,17 @@ TailDispatcher
 )
 override
 ;
+MediaTaskQueue
+*
+AsTaskQueue
+(
+)
+override
+{
+return
+this
+;
+}
 void
 Dispatch
 (
