@@ -1021,9 +1021,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 content
+/
+reader
 /
 aboutReader
 .
