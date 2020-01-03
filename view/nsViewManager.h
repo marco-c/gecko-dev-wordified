@@ -2681,9 +2681,6 @@ mRecursiveRefreshPending
 bool
 mHasPendingWidgetGeometryChanges
 ;
-bool
-mInScroll
-;
 /
 /
 from
