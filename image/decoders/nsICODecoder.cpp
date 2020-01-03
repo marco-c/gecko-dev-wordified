@@ -395,7 +395,7 @@ nsICODecoder
 nsICODecoder
 (
 RasterImage
-&
+*
 aImage
 )
 :
@@ -1574,7 +1574,8 @@ nsIntSize
 prefSize
 =
 mImage
-.
+-
+>
 GetRequestedResolution
 (
 )

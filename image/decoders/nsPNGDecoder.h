@@ -153,7 +153,7 @@ explicit
 nsPNGDecoder
 (
 RasterImage
-&
+*
 aImage
 )
 ;

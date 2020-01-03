@@ -307,7 +307,7 @@ nsBMPDecoder
 nsBMPDecoder
 (
 RasterImage
-&
+*
 aImage
 )
 :
