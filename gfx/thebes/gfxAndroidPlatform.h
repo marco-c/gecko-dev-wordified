@@ -131,9 +131,6 @@ nsTArray
 .
 h
 "
-class
-nsIMemoryReporter
-;
 namespace
 mozilla
 {

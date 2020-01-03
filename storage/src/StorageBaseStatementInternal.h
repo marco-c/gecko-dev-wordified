@@ -137,9 +137,6 @@ struct
 sqlite3_stmt
 ;
 class
-mozIStorageError
-;
-class
 mozIStorageBindingParamsArray
 ;
 class

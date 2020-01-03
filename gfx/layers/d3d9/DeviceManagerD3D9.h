@@ -165,9 +165,6 @@ class
 DeviceManagerD3D9
 ;
 class
-LayerD3D9
-;
-class
 Nv3DVUtils
 ;
 class

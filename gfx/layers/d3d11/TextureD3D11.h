@@ -157,9 +157,6 @@ include
 <
 vector
 >
-class
-gfxD2DSurface
-;
 namespace
 mozilla
 {

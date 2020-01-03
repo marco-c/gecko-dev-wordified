@@ -236,9 +236,6 @@ h
 /
 for
 PaintedLayerAttributes
-class
-gfxContext
-;
 namespace
 mozilla
 {

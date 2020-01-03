@@ -128,9 +128,6 @@ Rect
 .
 h
 "
-class
-QRect
-;
 /
 *
 *

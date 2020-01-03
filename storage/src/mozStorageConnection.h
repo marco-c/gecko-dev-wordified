@@ -234,9 +234,6 @@ sqlite3
 .
 h
 "
-struct
-PRLock
-;
 class
 nsIFile
 ;

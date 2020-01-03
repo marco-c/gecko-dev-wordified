@@ -187,9 +187,6 @@ layers
 class
 CompositableHost
 ;
-class
-PTextureChild
-;
 typedef
 std
 :

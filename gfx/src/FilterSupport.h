@@ -655,9 +655,6 @@ DrawTarget
 class
 SourceSurface
 ;
-class
-FilterNode
-;
 struct
 FilterAttribute
 ;

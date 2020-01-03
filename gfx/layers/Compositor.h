@@ -967,9 +967,6 @@ class
 Image
 ;
 class
-ISurfaceAllocator
-;
-class
 Layer
 ;
 class

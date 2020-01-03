@@ -148,9 +148,6 @@ nsIInputStream
 class
 nsIRequest
 ;
-class
-nsString
-;
 /
 /
 Interface

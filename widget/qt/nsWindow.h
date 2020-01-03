@@ -351,9 +351,6 @@ MOZ_LOGGING
 *
 /
 class
-nsIdleService
-;
-class
 QCloseEvent
 ;
 class

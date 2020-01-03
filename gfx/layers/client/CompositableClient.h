@@ -272,9 +272,6 @@ class
 CompositableChild
 ;
 class
-SurfaceDescriptor
-;
-class
 PCompositableChild
 ;
 /

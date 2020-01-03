@@ -325,9 +325,6 @@ Rect
 class
 String8
 ;
-class
-HWComposer
-;
 #
 if
 ANDROID_VERSION

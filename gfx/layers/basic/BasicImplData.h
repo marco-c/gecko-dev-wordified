@@ -133,9 +133,6 @@ layers
 class
 ReadbackProcessor
 ;
-class
-SurfaceDescriptor
-;
 /
 *
 *

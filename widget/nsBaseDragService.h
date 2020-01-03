@@ -213,16 +213,10 @@ class
 nsIDOMNode
 ;
 class
-nsIFrame
-;
-class
 nsPresContext
 ;
 class
 nsIImageLoadingContent
-;
-class
-nsICanvasElementExternal
 ;
 namespace
 mozilla

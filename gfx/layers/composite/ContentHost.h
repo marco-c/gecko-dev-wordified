@@ -461,9 +461,6 @@ TiledLayerComposer
 struct
 EffectChain
 ;
-class
-TextureImageTextureSourceOGL
-;
 struct
 TexturedEffect
 ;

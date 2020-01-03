@@ -318,9 +318,6 @@ class
 GrContext
 ;
 struct
-GrGLInterface
-;
-struct
 CGContext
 ;
 typedef

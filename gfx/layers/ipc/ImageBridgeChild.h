@@ -266,9 +266,6 @@ namespace
 layers
 {
 class
-ClientTiledLayerBuffer
-;
-class
 AsyncTransactionTracker
 ;
 class

@@ -370,9 +370,6 @@ class
 CompositorParent
 ;
 class
-APZPaintLogHelper
-;
-class
 OverscrollHandoffChain
 ;
 struct

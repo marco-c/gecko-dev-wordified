@@ -154,13 +154,6 @@ h
 namespace
 mozilla
 {
-namespace
-layers
-{
-class
-Layer
-;
-}
 typedef
 void
 *

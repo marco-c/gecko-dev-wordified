@@ -717,9 +717,6 @@ HANDLE
 namespace
 mozilla
 {
-class
-CrossProcessMutex
-;
 namespace
 layers
 {
@@ -734,12 +731,6 @@ TextureClient
 ;
 class
 CompositableClient
-;
-class
-CompositableForwarder
-;
-class
-SurfaceDescriptor
 ;
 class
 GrallocImage

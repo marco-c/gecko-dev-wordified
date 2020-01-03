@@ -150,9 +150,6 @@ nsAString
 class
 nsString
 ;
-class
-nsCString
-;
 /
 /
 A

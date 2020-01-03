@@ -372,9 +372,6 @@ class
 gfxPattern
 ;
 class
-nsDragService
-;
-class
 nsPluginNativeWindowGtk
 ;
 #

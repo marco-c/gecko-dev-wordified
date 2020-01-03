@@ -148,9 +148,6 @@ layers
 class
 APZEventState
 ;
-class
-CompositorParent
-;
 /
 /
 A

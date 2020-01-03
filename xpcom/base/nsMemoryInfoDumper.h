@@ -134,9 +134,6 @@ stdio
 .
 h
 >
-class
-nsACString
-;
 /
 *
 *

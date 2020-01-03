@@ -158,12 +158,6 @@ gfx
 class
 SourceSurfaceD2D1
 ;
-class
-GradientStopsD2D
-;
-class
-ScaledFontDWrite
-;
 const
 int32_t
 kLayerCacheSize1

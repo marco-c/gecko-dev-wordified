@@ -207,12 +207,6 @@ class
 ImageClient
 ;
 class
-ISurfaceAllocator
-;
-class
-SurfaceDescriptor
-;
-class
 TextureClient
 ;
 class

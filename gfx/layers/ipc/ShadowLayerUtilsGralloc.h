@@ -162,9 +162,6 @@ MaybeMagicGrallocBufferHandle
 class
 SurfaceDescriptor
 ;
-class
-TextureHost
-;
 struct
 GrallocBufferRef
 {

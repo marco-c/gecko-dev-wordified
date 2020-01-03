@@ -151,9 +151,6 @@ nsString
 h
 "
 class
-nsMenuX
-;
-class
 nsMenuItemX
 ;
 class
@@ -164,9 +161,6 @@ nsIWidget
 ;
 class
 nsIContent
-;
-class
-nsIDocument
 ;
 class
 nsMenuGroupOwnerX

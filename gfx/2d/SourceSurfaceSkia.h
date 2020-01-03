@@ -126,9 +126,6 @@ SkBitmap
 .
 h
 "
-class
-GrContext
-;
 namespace
 mozilla
 {

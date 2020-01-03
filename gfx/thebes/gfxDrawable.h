@@ -136,9 +136,6 @@ gfx
 h
 "
 class
-gfxASurface
-;
-class
 gfxContext
 ;
 class

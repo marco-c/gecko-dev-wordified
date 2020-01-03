@@ -151,9 +151,6 @@ gfxRect
 struct
 gfxRGBA
 ;
-class
-gfxMatrix
-;
 namespace
 mozilla
 {

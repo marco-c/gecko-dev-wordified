@@ -163,9 +163,6 @@ h
 /
 for
 nsIntRegion
-class
-gfxContext
-;
 namespace
 mozilla
 {

@@ -155,9 +155,6 @@ nsZipArchive
 .
 h
 "
-class
-nsIURI
-;
 namespace
 mozilla
 {

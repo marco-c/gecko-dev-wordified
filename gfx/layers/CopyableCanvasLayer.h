@@ -257,11 +257,15 @@ namespace
 mozilla
 {
 namespace
-layers
+gl
 {
 class
-CanvasClientWebGL
+SharedSurface
 ;
+}
+namespace
+layers
+{
 /
 *
 *

@@ -743,9 +743,6 @@ endif
 namespace
 mozilla
 {
-struct
-unused_t
-;
 namespace
 dom
 {

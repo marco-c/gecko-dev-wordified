@@ -114,9 +114,6 @@ nsAppShell_h_
 #
 define
 nsAppShell_h_
-class
-nsCocoaWindow
-;
 #
 include
 "

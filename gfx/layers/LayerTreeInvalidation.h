@@ -131,9 +131,6 @@ Point
 .
 h
 "
-class
-nsPresContext
-;
 namespace
 mozilla
 {

@@ -265,9 +265,6 @@ NSOpenGL
 h
 >
 class
-gfxASurface
-;
-class
 nsChildView
 ;
 class

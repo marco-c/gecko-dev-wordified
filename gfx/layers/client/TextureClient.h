@@ -388,9 +388,6 @@ GfxTexturesReporter
 h
 "
 class
-gfxReusableSurfaceWrapper
-;
-class
 gfxImageSurface
 ;
 namespace
@@ -452,9 +449,6 @@ class
 AsyncTransactionTracker
 ;
 class
-ContentClient
-;
-class
 CompositableForwarder
 ;
 class
@@ -462,9 +456,6 @@ ISurfaceAllocator
 ;
 class
 CompositableClient
-;
-class
-PlanarYCbCrImage
 ;
 struct
 PlanarYCbCrData

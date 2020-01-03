@@ -173,9 +173,6 @@ class
 Layer
 ;
 class
-LayerManager
-;
-class
 CanvasLayerComposite
 ;
 class

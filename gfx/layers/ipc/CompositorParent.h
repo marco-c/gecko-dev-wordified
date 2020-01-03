@@ -443,9 +443,6 @@ class
 MessageLoop
 ;
 class
-gfxContext
-;
-class
 nsIWidget
 ;
 namespace

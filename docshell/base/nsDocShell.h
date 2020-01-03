@@ -534,9 +534,6 @@ nsIWebBrowserFind
 class
 nsIWidget
 ;
-class
-ProfilerMarkerTracing
-;
 /
 *
 load

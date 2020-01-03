@@ -247,9 +247,6 @@ while
 )
 #
 else
-struct
-PRLogModuleInfo
-;
 #
 define
 MOZ_LAYERS_LOG

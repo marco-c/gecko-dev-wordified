@@ -199,9 +199,6 @@ Manages
 a
 CARenderer
 struct
-_CGLPBufferObject
-;
-struct
 _CGLContextObject
 ;
 enum

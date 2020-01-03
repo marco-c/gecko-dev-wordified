@@ -247,9 +247,6 @@ nsWeakReference
 .
 h
 "
-class
-nsIObserver
-;
 namespace
 mozilla
 {

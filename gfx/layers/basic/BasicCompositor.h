@@ -136,9 +136,6 @@ nsAutoPtr
 .
 h
 "
-class
-gfxContext
-;
 namespace
 mozilla
 {

@@ -131,9 +131,6 @@ class
 nsITransferable
 ;
 class
-nsIClipboardOwner
-;
-class
 nsIWidget
 ;
 class

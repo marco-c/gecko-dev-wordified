@@ -358,9 +358,6 @@ h
 /
 for
 nsTArray
-class
-gfxContext
-;
 namespace
 mozilla
 {
@@ -374,9 +371,6 @@ DrawTarget
 namespace
 layers
 {
-class
-BasicLayerManager
-;
 class
 PaintedLayer
 ;

@@ -341,9 +341,6 @@ ID3D11Device
 struct
 IDXGIAdapter1
 ;
-class
-nsIMemoryReporter
-;
 /
 *
 *

@@ -173,9 +173,6 @@ nsIDragService
 class
 nsIWidget
 ;
-struct
-IDataObject
-;
 /
 *
 *

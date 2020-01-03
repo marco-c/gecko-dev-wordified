@@ -144,9 +144,6 @@ h
 class
 nsIPrintSettings
 ;
-class
-nsIWebBrowserPrint
-;
 /
 *
 *

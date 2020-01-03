@@ -122,9 +122,6 @@ xpt_struct
 .
 h
 "
-class
-nsIInterfaceInfoManager
-;
 /
 /
 Flyweight

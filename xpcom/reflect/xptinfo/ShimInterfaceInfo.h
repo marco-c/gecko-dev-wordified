@@ -179,9 +179,6 @@ namespace
 dom
 {
 struct
-ConstantSpec
-;
-struct
 NativePropertyHooks
 ;
 }

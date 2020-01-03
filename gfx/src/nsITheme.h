@@ -142,9 +142,6 @@ struct
 nsRect
 ;
 struct
-nsFont
-;
-struct
 nsIntMargin
 ;
 class
@@ -158,9 +155,6 @@ nsDeviceContext
 ;
 class
 nsIFrame
-;
-class
-nsIContent
 ;
 class
 nsIAtom

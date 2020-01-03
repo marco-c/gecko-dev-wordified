@@ -144,9 +144,6 @@ h
 class
 nsString
 ;
-class
-nsDataObj
-;
 /
 /
 /
