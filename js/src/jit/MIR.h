@@ -28664,6 +28664,7 @@ canClone
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 true
@@ -28682,6 +28683,7 @@ MDefinitionVector
 inputs
 )
 const
+MOZ_OVERRIDE
 {
 return
 MHypot
