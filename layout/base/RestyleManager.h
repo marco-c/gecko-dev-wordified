@@ -3170,6 +3170,9 @@ aRestyleTracker
 Count
 (
 )
+|
+|
+mInRebuildAllStyleData
 )
 {
 aRestyleTracker
