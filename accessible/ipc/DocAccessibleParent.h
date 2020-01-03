@@ -615,6 +615,7 @@ PLDHashEntryHdr
 {
 public
 :
+explicit
 ProxyEntry
 (
 const

@@ -586,6 +586,7 @@ AccessibleWrap
 {
 public
 :
+explicit
 DummyAccessible
 (
 DocAccessible

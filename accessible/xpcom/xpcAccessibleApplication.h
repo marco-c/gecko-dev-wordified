@@ -166,6 +166,7 @@ nsIAccessibleApplication
 {
 public
 :
+explicit
 xpcAccessibleApplication
 (
 Accessible

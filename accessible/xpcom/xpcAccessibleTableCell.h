@@ -159,6 +159,7 @@ nsIAccessibleTableCell
 {
 public
 :
+explicit
 xpcAccessibleTableCell
 (
 Accessible

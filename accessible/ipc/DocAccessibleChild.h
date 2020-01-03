@@ -191,6 +191,7 @@ PDocAccessibleChild
 {
 public
 :
+explicit
 DocAccessibleChild
 (
 DocAccessible
