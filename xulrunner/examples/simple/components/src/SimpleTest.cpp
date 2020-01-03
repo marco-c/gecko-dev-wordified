@@ -104,6 +104,12 @@ SimpleTest
 public
 nsISimpleTest
 {
+~
+SimpleTest
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
