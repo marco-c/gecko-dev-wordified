@@ -1710,7 +1710,7 @@ mObjectValueMap
 PL_DHashGetStubOps
 (
 )
-this
+nullptr
 sizeof
 (
 PropertyListMapEntry
@@ -1769,10 +1769,7 @@ PropertyList
 *
 >
 (
-table
--
->
-data
+arg
 )
 ;
 PropertyListMapEntry
@@ -1856,7 +1853,7 @@ PL_DHashTableEnumerate
 &
 mObjectValueMap
 DestroyPropertyEnumerator
-nullptr
+this
 )
 ;
 }
