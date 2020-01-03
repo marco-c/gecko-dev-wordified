@@ -713,6 +713,7 @@ InsertElementAt
 (
 aIndex
 aLength
+fallible
 )
 ;
 }

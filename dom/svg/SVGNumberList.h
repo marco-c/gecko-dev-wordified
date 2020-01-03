@@ -717,6 +717,7 @@ InsertElementAt
 (
 aIndex
 aNumber
+fallible
 )
 ;
 }
