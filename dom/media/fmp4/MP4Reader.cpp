@@ -6155,12 +6155,6 @@ mDemuxEOS
 =
 false
 ;
-data
-.
-mDrainComplete
-=
-false
-;
 }
 data
 .
@@ -6183,6 +6177,12 @@ mMonitor
 data
 .
 mIsFlushing
+=
+false
+;
+data
+.
+mDrainComplete
 =
 false
 ;
