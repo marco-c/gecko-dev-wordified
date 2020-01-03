@@ -797,6 +797,12 @@ DropJSObjects
 (
 )
 ;
+bool
+IsSourceDeleted
+(
+)
+const
+;
 }
 ;
 }
