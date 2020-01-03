@@ -2468,6 +2468,9 @@ UnboxedExpandoObject
 (
 cx
 nullptr
+gc
+:
+:
 AllocKind
 :
 :

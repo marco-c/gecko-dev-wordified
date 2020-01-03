@@ -3036,6 +3036,9 @@ nursery_
 void
 assertHasValueEdge
 (
+JS
+:
+:
 Value
 *
 vp

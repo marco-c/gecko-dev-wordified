@@ -245,6 +245,13 @@ h
 #
 include
 "
+jsscriptinlines
+.
+h
+"
+#
+include
+"
 jit
 /
 AtomicOperations

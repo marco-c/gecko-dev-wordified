@@ -8801,6 +8801,9 @@ IonScript
 s
 script
 .
+jit
+:
+:
 JitFrameIterator
 jitIter
 (
