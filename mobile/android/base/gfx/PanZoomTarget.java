@@ -177,16 +177,6 @@ dy
 ;
 public
 void
-scrollMarginsBy
-(
-float
-dx
-float
-dy
-)
-;
-public
-void
 panZoomStopped
 (
 )
