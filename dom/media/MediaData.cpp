@@ -3832,6 +3832,7 @@ mTarget
 mSize
 aData
 aSize
+fallible
 )
 )
 ;
