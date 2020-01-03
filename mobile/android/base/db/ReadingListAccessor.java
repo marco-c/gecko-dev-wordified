@@ -245,6 +245,15 @@ itemID
 )
 ;
 void
+markAsUnread
+(
+ContentResolver
+cr
+long
+itemID
+)
+;
+void
 updateContent
 (
 ContentResolver

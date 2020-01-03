@@ -203,6 +203,10 @@ readingListItemId
 1
 ;
 public
+boolean
+isUnread
+;
+public
 RemoveItemType
 itemType
 =
