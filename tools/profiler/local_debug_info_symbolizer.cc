@@ -1587,7 +1587,7 @@ it
 second
 ;
 }
-u_int64_t
+uint64_t
 address
 =
 frame
@@ -1994,7 +1994,7 @@ it
 >
 second
 ;
-u_int64_t
+uint64_t
 address
 =
 frame

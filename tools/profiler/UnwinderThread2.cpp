@@ -2981,10 +2981,10 @@ LUL
 typedef
 struct
 {
-u_int64_t
+uint64_t
 pc
 ;
-u_int64_t
+uint64_t
 sp
 ;
 }
@@ -9520,7 +9520,7 @@ the
 current
 P
 entry
-u_int64_t
+uint64_t
 sp_cur_P
 =
 0
@@ -9619,7 +9619,7 @@ sp_cur_P
 =
 reinterpret_cast
 <
-u_int64_t
+uint64_t
 >
 (
 ent
@@ -9675,7 +9675,7 @@ true
 }
 else
 {
-u_int64_t
+uint64_t
 sp_cur_N
 =
 pairs
