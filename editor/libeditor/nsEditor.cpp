@@ -27583,7 +27583,7 @@ return
 NS_OK
 ;
 }
-void
+NS_IMETHODIMP
 nsEditor
 :
 :
@@ -27608,8 +27608,9 @@ selCon
 )
 )
 ;
-NS_ENSURE_SUCCESS_VOID
+NS_ENSURE_SUCCESS
 (
+rv
 rv
 )
 ;
@@ -27636,8 +27637,9 @@ selection
 )
 )
 ;
-NS_ENSURE_SUCCESS_VOID
+NS_ENSURE_SUCCESS
 (
+rv
 rv
 )
 ;
@@ -27652,9 +27654,10 @@ do_QueryInterface
 selection
 )
 ;
-NS_ENSURE_TRUE_VOID
+NS_ENSURE_TRUE
 (
 selectionPrivate
+rv
 )
 ;
 selectionPrivate
@@ -27675,9 +27678,10 @@ GetPresShell
 (
 )
 ;
-NS_ENSURE_TRUE_VOID
+NS_ENSURE_TRUE
 (
 presShell
+NS_ERROR_NOT_INITIALIZED
 )
 ;
 selCon
@@ -27699,9 +27703,10 @@ GetFocusManager
 (
 )
 ;
-NS_ENSURE_TRUE_VOID
+NS_ENSURE_TRUE
 (
 fm
+NS_ERROR_NOT_INITIALIZED
 )
 ;
 fm
@@ -27986,6 +27991,9 @@ nsISelectionController
 :
 SELECTION_NORMAL
 )
+;
+return
+NS_OK
 ;
 }
 dom
