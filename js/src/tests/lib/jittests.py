@@ -1507,9 +1507,9 @@ name
 =
 =
 '
-no
+dump
 -
-ion
+bytecode
 '
 :
                         
@@ -1522,22 +1522,44 @@ append
 '
 -
 -
-no
+dump
 -
-ion
+bytecode
 '
 )
                     
 elif
 name
-=
-=
+.
+startswith
+(
 '
-dump
 -
-bytecode
+-
 '
+)
 :
+#
+/
+/
+|
+jit
+-
+test
+|
+-
+-
+ion
+-
+gvn
+=
+off
+;
+-
+-
+no
+-
+sse4
                         
 test
 .
@@ -1545,13 +1567,7 @@ jitflags
 .
 append
 (
-'
--
--
-dump
--
-bytecode
-'
+name
 )
                     
 else

@@ -5627,6 +5627,11 @@ moveResumePointAsEntry
 (
 )
 ;
+void
+clearResumePoint
+(
+)
+;
 MResumePoint
 *
 resumePoint
