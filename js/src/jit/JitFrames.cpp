@@ -10073,9 +10073,9 @@ type
 void
 MarkJitActivations
 (
-PerThreadData
+JSRuntime
 *
-ptd
+rt
 JSTracer
 *
 trc
@@ -10086,7 +10086,7 @@ for
 JitActivationIterator
 activations
 (
-ptd
+rt
 )
 ;
 !
@@ -10188,9 +10188,9 @@ nullptr
 void
 UpdateJitActivationsForMinorGC
 (
-PerThreadData
+JSRuntime
 *
-ptd
+rt
 JSTracer
 *
 trc
@@ -10216,7 +10216,7 @@ for
 JitActivationIterator
 activations
 (
-ptd
+rt
 )
 ;
 !

@@ -5675,11 +5675,7 @@ jit
 :
 UpdateJitActivationsForMinorGC
 (
-&
 rt
--
->
-mainThread
 &
 trc
 )
