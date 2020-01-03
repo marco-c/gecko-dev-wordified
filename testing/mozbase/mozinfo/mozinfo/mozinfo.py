@@ -121,12 +121,6 @@ import
 re
 import
 sys
-from
-distutils
-.
-version
-import
-LooseVersion
 #
 keep
 a
@@ -143,15 +137,6 @@ this
 _os
 =
 os
-#
-StringVersion
-is
-our
-public
-name
-StringVersion
-=
-LooseVersion
 class
 unknown
 (
@@ -685,10 +670,7 @@ os_version
 '
 ]
 =
-StringVersion
-(
 os_version
-)
 #
 processor
 type
@@ -1562,10 +1544,6 @@ update
     
 '
 find_and_update_from_json
-'
-    
-'
-StringVersion
 '
     
 ]
