@@ -715,8 +715,8 @@ returns
 it
 .
 Otherwise
-returns
 *
+returns
 an
 empty
 DrawableFrameRef
