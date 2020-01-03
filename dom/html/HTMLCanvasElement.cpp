@@ -4093,8 +4093,6 @@ str
 EqualsLiteral
 (
 "
-experimental
--
 webgl2
 "
 )
