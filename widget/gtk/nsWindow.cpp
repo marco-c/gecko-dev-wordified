@@ -17695,6 +17695,15 @@ bug
 726878
 if
 (
+aEvent
+-
+>
+direction
+!
+=
+GDK_SCROLL_SMOOTH
+&
+&
 mLastScrollEventTime
 =
 =
