@@ -92,7 +92,7 @@ shared
 actions
 ;
 var
-FAILURE_REASONS
+FAILURE_DETAILS
 =
 loop
 .
@@ -100,7 +100,7 @@ shared
 .
 utils
 .
-FAILURE_REASONS
+FAILURE_DETAILS
 ;
 /
 *
@@ -1087,7 +1087,7 @@ ConnectionFailure
 {
 reason
 :
-FAILURE_REASONS
+FAILURE_DETAILS
 .
 COULD_NOT_CONNECT
 }
@@ -1321,7 +1321,7 @@ networkDisconnected
 :
 reason
 =
-FAILURE_REASONS
+FAILURE_DETAILS
 .
 NETWORK_DISCONNECTED
 ;
@@ -1334,7 +1334,7 @@ forceDisconnected
 :
 reason
 =
-FAILURE_REASONS
+FAILURE_DETAILS
 .
 EXPIRED_OR_INVALID
 ;
@@ -1778,7 +1778,7 @@ ConnectionFailure
 {
 reason
 :
-FAILURE_REASONS
+FAILURE_DETAILS
 .
 MEDIA_DENIED
 }

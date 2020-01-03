@@ -110,7 +110,7 @@ strict
 "
 ;
 var
-FAILURE_REASONS
+FAILURE_DETAILS
 =
 loop
 .
@@ -118,7 +118,7 @@ shared
 .
 utils
 .
-FAILURE_REASONS
+FAILURE_DETAILS
 ;
 var
 ROOM_STATES
@@ -449,7 +449,7 @@ failureReason
 )
 {
 case
-FAILURE_REASONS
+FAILURE_DETAILS
 .
 MEDIA_DENIED
 :
@@ -464,7 +464,7 @@ rooms_media_denied_message
 )
 ;
 case
-FAILURE_REASONS
+FAILURE_DETAILS
 .
 EXPIRED_OR_INVALID
 :
