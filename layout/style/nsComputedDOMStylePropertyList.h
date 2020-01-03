@@ -1199,6 +1199,11 @@ ObjectFit
 )
 COMPUTED_STYLE_PROP
 (
+object_position
+ObjectPosition
+)
+COMPUTED_STYLE_PROP
+(
 opacity
 Opacity
 )
