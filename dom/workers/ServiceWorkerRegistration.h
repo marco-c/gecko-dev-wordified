@@ -282,16 +282,6 @@ WhichServiceWorker
 aWhichOnes
 )
 ;
-void
-QueueStateChangeEvent
-(
-WhichServiceWorker
-aWhichOne
-ServiceWorkerState
-aState
-)
-const
-;
 /
 /
 DOMEventTargethelper
