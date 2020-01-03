@@ -6065,7 +6065,7 @@ MediaTaskQueue
 >
 mTarget
 ;
-RefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
