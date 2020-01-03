@@ -2322,6 +2322,7 @@ memory
 "
 startRecordingAllocations
 "
+options
 )
 ;
 yield
