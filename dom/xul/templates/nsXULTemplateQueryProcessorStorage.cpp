@@ -1529,6 +1529,7 @@ GetNodeTextContent
 queryContent
 false
 sqlQuery
+fallible
 )
 )
 {
@@ -1638,6 +1639,7 @@ GetNodeTextContent
 child
 false
 value
+fallible
 )
 )
 {

@@ -9979,9 +9979,6 @@ here
 nsAutoString
 styleText
 ;
-if
-(
-!
 nsContentUtils
 :
 :
@@ -9991,16 +9988,7 @@ node
 false
 styleText
 )
-)
-{
-NS_RUNTIMEABORT
-(
-"
-OOM
-"
-)
 ;
-}
 nsAutoString
 sanitizedStyle
 ;

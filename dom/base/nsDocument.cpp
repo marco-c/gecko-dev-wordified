@@ -38440,9 +38440,6 @@ title
 )
 return
 ;
-if
-(
-!
 nsContentUtils
 :
 :
@@ -38451,13 +38448,6 @@ GetNodeTextContent
 title
 false
 aTitle
-)
-)
-NS_RUNTIMEABORT
-(
-"
-OOM
-"
 )
 ;
 }

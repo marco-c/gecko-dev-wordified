@@ -2206,6 +2206,7 @@ GetNodeTextContent
 thisContent
 false
 text
+fallible
 )
 )
 {
