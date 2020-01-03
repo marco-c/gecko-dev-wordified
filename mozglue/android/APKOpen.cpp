@@ -2960,6 +2960,8 @@ int
 char
 *
 *
+void
+*
 )
 ;
 xul_dlsym
@@ -2986,6 +2988,7 @@ fXRE_InitChildProcess
 (
 argc
 argv
+nullptr
 )
 ;
 }
