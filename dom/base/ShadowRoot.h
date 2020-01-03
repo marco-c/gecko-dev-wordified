@@ -796,6 +796,13 @@ mIsComposedDocParticipant
 aIsComposedDocParticipant
 ;
 }
+virtual
+void
+DestroyContent
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 virtual

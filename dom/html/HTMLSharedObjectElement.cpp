@@ -490,7 +490,7 @@ that
 .
 if
 (
-IsInDoc
+IsInComposedDoc
 (
 )
 )
@@ -944,7 +944,7 @@ if
 aNotify
 &
 &
-IsInDoc
+IsInComposedDoc
 (
 )
 &
@@ -1503,7 +1503,7 @@ interim
 if
 (
 !
-IsInDoc
+IsInComposedDoc
 (
 )
 |

@@ -652,7 +652,7 @@ EnsureFrameLoader
 if
 (
 !
-IsInDoc
+IsInComposedDoc
 (
 )
 |
@@ -1058,7 +1058,9 @@ rv
 ;
 if
 (
-aDocument
+IsInComposedDoc
+(
+)
 )
 {
 NS_ASSERTION
