@@ -2140,6 +2140,17 @@ SystemAllocPolicy
 >
 FieldInfoHash
 ;
+void
+TraceFieldInfoHash
+(
+JSTracer
+*
+trc
+FieldInfoHash
+*
+fields
+)
+;
 /
 /
 Descriptor
