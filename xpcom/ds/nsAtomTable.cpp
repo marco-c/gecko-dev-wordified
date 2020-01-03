@@ -1760,12 +1760,9 @@ atom
 }
 }
 static
-bool
+void
 AtomTableInitEntry
 (
-PLDHashTable
-*
-aTable
 PLDHashEntryHdr
 *
 aEntry
@@ -1788,9 +1785,6 @@ aEntry
 mAtom
 =
 nullptr
-;
-return
-true
 ;
 }
 static

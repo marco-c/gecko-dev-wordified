@@ -2498,12 +2498,9 @@ mListenerManager
 }
 ;
 static
-bool
+void
 EventListenerManagerHashInitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 entry
@@ -2529,9 +2526,6 @@ EventListenerManagerMapEntry
 (
 key
 )
-;
-return
-true
 ;
 }
 static

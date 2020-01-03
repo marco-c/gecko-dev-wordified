@@ -695,12 +695,9 @@ nsGlobalNameStruct
 ;
 }
 static
-bool
+void
 GlobalNameHashInitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 entry
@@ -794,9 +791,6 @@ sizeof
 nsGlobalNameStruct
 )
 )
-;
-return
-true
 ;
 }
 NS_IMPL_ISUPPORTS

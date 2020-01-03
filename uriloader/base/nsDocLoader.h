@@ -1431,12 +1431,9 @@ mLastStatus
 }
 ;
 static
-bool
+void
 RequestInfoHashInitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 entry

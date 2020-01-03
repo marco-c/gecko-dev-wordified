@@ -569,12 +569,9 @@ RequestMapEntry
 ;
 }
 static
-bool
+void
 RequestHashInitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 entry
@@ -628,9 +625,6 @@ RequestMapEntry
 (
 request
 )
-;
-return
-true
 ;
 }
 static

@@ -21897,12 +21897,9 @@ mSubDocument
 }
 }
 static
-bool
+void
 SubDocInitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 entry
@@ -21969,9 +21966,6 @@ e
 mSubDocument
 =
 nullptr
-;
-return
-true
 ;
 }
 nsresult
