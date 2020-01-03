@@ -9512,7 +9512,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gBorderEndSubpropTable
+gBorderInlineEndSubpropTable
 [
 ]
 =
@@ -9540,9 +9540,9 @@ color
 being
 third
 .
-eCSSProperty_border_end_width
-eCSSProperty_border_end_style
-eCSSProperty_border_end_color
+eCSSProperty_border_inline_end_width
+eCSSProperty_border_inline_end_style
+eCSSProperty_border_inline_end_color
 eCSSProperty_UNKNOWN
 }
 ;
@@ -9623,7 +9623,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gBorderStartSubpropTable
+gBorderInlineStartSubpropTable
 [
 ]
 =
@@ -9651,9 +9651,9 @@ color
 being
 third
 .
-eCSSProperty_border_start_width
-eCSSProperty_border_start_style
-eCSSProperty_border_start_color
+eCSSProperty_border_inline_start_width
+eCSSProperty_border_inline_start_style
+eCSSProperty_border_inline_start_color
 eCSSProperty_UNKNOWN
 }
 ;
