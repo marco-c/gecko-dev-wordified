@@ -423,10 +423,10 @@ MediaEngineTabVideoSource
 private
 :
 int
-mBufW
+mBufWidthMax
 ;
 int
-mBufH
+mBufHeightMax
 ;
 int64_t
 mWindowId
@@ -443,6 +443,9 @@ unsigned
 char
 >
 mData
+;
+size_t
+mDataSize
 ;
 nsCOMPtr
 <
