@@ -2992,6 +2992,16 @@ IsVertical
 )
 ;
 }
+uint8_t
+GetBits
+(
+)
+const
+{
+return
+mWritingMode
+;
+}
 private
 :
 friend
