@@ -21899,10 +21899,9 @@ ObjectPolicy
 <
 0
 >
-BoxExceptPolicy
+StringPolicy
 <
 1
-MIRType_String
 >
 BoxPolicy
 <
