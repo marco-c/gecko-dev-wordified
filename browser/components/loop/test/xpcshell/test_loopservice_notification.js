@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -163,9 +168,10 @@ callsFxA
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 opened
 )
 .

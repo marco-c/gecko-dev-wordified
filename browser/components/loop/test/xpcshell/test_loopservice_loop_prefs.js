@@ -35,6 +35,11 @@ Services
 Assert
 *
 /
+"
+use
+strict
+"
+;
 var
 fakeCharPrefName
 =

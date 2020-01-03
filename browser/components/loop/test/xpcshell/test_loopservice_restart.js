@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 const
 FAKE_FXA_TOKEN_DATA
 =
@@ -150,6 +155,7 @@ reauth
 add_task
 (
 function
+*
 test_initialize_with_no_guest_rooms_and_no_auth_token
 (
 )
@@ -277,6 +283,7 @@ returned
 add_task
 (
 function
+*
 test_initialize_with_created_room_and_no_auth_token
 (
 )
@@ -409,6 +416,7 @@ returned
 add_task
 (
 function
+*
 test_initialize_with_invalid_fxa_token
 (
 )
@@ -702,6 +710,7 @@ callback
 add_task
 (
 function
+*
 test_initialize_with_fxa_token
 (
 )

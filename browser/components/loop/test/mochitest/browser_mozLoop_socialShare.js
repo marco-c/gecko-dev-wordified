@@ -56,6 +56,11 @@ alone
 .
 *
 /
+"
+use
+strict
+"
+;
 Cu
 .
 import

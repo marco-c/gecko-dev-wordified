@@ -42,6 +42,11 @@ API
 .
 *
 /
+"
+use
+strict
+"
+;
 Components
 .
 utils

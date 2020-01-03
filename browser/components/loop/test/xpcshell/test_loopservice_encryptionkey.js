@@ -34,6 +34,11 @@ Services
 Assert
 *
 /
+"
+use
+strict
+"
+;
 const
 kGuestKeyPref
 =
