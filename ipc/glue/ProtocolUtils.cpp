@@ -273,6 +273,17 @@ mTrans
 nullptr
 )
 {
+#
+ifdef
+DEBUG
+StaticMutexAutoLock
+al
+(
+gProtocolMutex
+)
+;
+#
+endif
 }
 IToplevelProtocol
 :
