@@ -5630,7 +5630,7 @@ compartment
 )
 -
 >
-debugMode
+isDebuggee
 (
 )
 )
@@ -10153,15 +10153,10 @@ true
 }
 if
 (
-cx
+script
 -
 >
-compartment
-(
-)
--
->
-debugMode
+isDebuggee
 (
 )
 )
@@ -20147,6 +20142,11 @@ Debugger
 onDebuggerStatement
 (
 cx
+REGS
+.
+fp
+(
+)
 &
 rval
 )
@@ -20475,7 +20475,7 @@ compartment
 )
 -
 >
-debugMode
+isDebuggee
 (
 )
 )

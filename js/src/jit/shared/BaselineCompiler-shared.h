@@ -183,7 +183,7 @@ bool
 ionOSRCompileable_
 ;
 bool
-debugMode_
+compileDebugInstrumentation_
 ;
 TempAllocator
 &
@@ -795,6 +795,16 @@ analysis
 {
 return
 analysis_
+;
+}
+void
+setCompileDebugInstrumentation
+(
+)
+{
+compileDebugInstrumentation_
+=
+true
 ;
 }
 }

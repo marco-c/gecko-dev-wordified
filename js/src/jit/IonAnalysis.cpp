@@ -23703,15 +23703,10 @@ expressions
 .
 if
 (
-cx
+scriptArg
 -
 >
-compartment
-(
-)
--
->
-debugMode
+isDebuggee
 (
 )
 |

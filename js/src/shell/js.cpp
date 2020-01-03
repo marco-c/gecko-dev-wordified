@@ -15912,7 +15912,7 @@ compartment
 )
 -
 >
-debugMode
+debugObservesAllExecution
 (
 )
 )

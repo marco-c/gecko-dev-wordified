@@ -22324,7 +22324,7 @@ compartment
 )
 -
 >
-debugMode
+isDebuggee
 (
 )
 )

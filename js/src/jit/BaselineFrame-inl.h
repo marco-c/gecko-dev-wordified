@@ -259,15 +259,7 @@ if
 (
 MOZ_UNLIKELY
 (
-cx
--
->
-compartment
-(
-)
--
->
-debugMode
+isDebuggee
 (
 )
 )
