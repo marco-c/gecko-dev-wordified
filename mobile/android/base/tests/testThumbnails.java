@@ -32,6 +32,19 @@ graphics
 .
 Color
 ;
+import
+com
+.
+jayway
+.
+android
+.
+robotium
+.
+solo
+.
+Condition
+;
 /
 *
 *
@@ -266,7 +279,7 @@ StringHelper
 ABOUT_HOME_URL
 )
 ;
-waitForTest
+waitForCondition
 (
 new
 ThumbnailTest
@@ -301,7 +314,7 @@ HTTP
 "
 )
 ;
-waitForTest
+waitForCondition
 (
 new
 ThumbnailTest
@@ -384,7 +397,7 @@ StringHelper
 ABOUT_HOME_URL
 )
 ;
-waitForTest
+waitForCondition
 (
 new
 ThumbnailTest
@@ -419,7 +432,7 @@ HTTP
 "
 )
 ;
-waitForTest
+waitForCondition
 (
 new
 ThumbnailTest
@@ -611,7 +624,7 @@ private
 class
 ThumbnailTest
 implements
-BooleanTest
+Condition
 {
 private
 final
@@ -644,7 +657,7 @@ color
 Override
 public
 boolean
-test
+isSatisfied
 (
 )
 {
