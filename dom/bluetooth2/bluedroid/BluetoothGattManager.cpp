@@ -302,6 +302,9 @@ sBluetoothGattManager
 ;
 }
 class
+BluetoothGattManager
+:
+:
 InitGattResultHandler
 MOZ_FINAL
 :
@@ -539,6 +542,9 @@ aRes
 ;
 }
 class
+BluetoothGattManager
+:
+:
 CleanupResultHandler
 MOZ_FINAL
 :
@@ -640,6 +646,9 @@ mRes
 }
 ;
 class
+BluetoothGattManager
+:
+:
 CleanupResultHandlerRunnable
 MOZ_FINAL
 :

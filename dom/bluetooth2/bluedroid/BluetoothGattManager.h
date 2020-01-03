@@ -185,6 +185,15 @@ BluetoothGattManager
 ;
 private
 :
+class
+CleanupResultHandler
+;
+class
+CleanupResultHandlerRunnable
+;
+class
+InitGattResultHandler
+;
 BluetoothGattManager
 (
 )
