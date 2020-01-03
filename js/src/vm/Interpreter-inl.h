@@ -4283,6 +4283,17 @@ ArrayObject
 >
 (
 )
+|
+|
+obj
+-
+>
+is
+<
+UnboxedArrayObject
+>
+(
+)
 )
 ;
 /
