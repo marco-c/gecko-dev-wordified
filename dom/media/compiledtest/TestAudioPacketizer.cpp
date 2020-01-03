@@ -108,6 +108,16 @@ assert
 h
 >
 #
+define
+_USE_MATH_DEFINES
+#
+include
+<
+math
+.
+h
+>
+#
 include
 "
 .
@@ -131,6 +141,7 @@ AutoBuffer
 {
 public
 :
+explicit
 AutoBuffer
 (
 size_t
