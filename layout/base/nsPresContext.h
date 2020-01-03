@@ -6469,6 +6469,11 @@ false
 }
 #
 endif
+void
+InvalidatePaintedLayers
+(
+)
+;
 protected
 :
 /
@@ -6484,11 +6489,6 @@ destructor
 )
 void
 Destroy
-(
-)
-;
-void
-InvalidatePaintedLayers
 (
 )
 ;

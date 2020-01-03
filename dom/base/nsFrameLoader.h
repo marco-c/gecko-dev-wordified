@@ -1404,6 +1404,16 @@ nsString
 aURL
 )
 ;
+void
+ActivateUpdateHitRegion
+(
+)
+;
+void
+DeactivateUpdateHitRegion
+(
+)
+;
 private
 :
 void
