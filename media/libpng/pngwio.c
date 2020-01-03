@@ -18,10 +18,10 @@ libpng
 .
 6
 .
-15
+9
 [
-November
-20
+February
+6
 2014
 ]
 *
@@ -972,7 +972,7 @@ output_flush_fn
 endif
 /
 *
-WRITE_FLUSH
+PNG_WRITE_FLUSH_SUPPORTED
 *
 /
 #
@@ -1040,6 +1040,6 @@ endif
 endif
 /
 *
-WRITE
+PNG_WRITE_SUPPORTED
 *
 /

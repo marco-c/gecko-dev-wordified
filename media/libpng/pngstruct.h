@@ -2166,7 +2166,7 @@ endif
 endif
 /
 *
-bKGD
+PNG_bKGD_SUPPORTED
 *
 /
 #
@@ -2696,7 +2696,7 @@ index
 endif
 /
 *
-PROGRESSIVE_READ
+PNG_PROGRESSIVE_READ_SUPPORTED
 *
 /
 #
@@ -3327,7 +3327,7 @@ endif
 endif
 /
 *
-APNG
+PNG_APNG_SUPPORTED
 *
 /
 /
