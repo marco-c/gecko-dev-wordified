@@ -591,7 +591,7 @@ do_check_eq
 (
 metadata
 .
-previousBuildID
+previousBuildId
 oldBuildID
 )
 ;
