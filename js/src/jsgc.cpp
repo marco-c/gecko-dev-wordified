@@ -5033,7 +5033,7 @@ ChunkPool
 Enum
 e
 (
-chunkPool
+emptyChunks
 )
 ;
 !
@@ -5184,7 +5184,7 @@ popFront
 }
 MOZ_ASSERT
 (
-chunkPool
+emptyChunks
 .
 count
 (
@@ -5201,7 +5201,7 @@ maxEmptyChunkCount
 MOZ_ASSERT_IF
 (
 shrinkBuffers
-chunkPool
+emptyChunks
 .
 count
 (
@@ -5218,7 +5218,7 @@ minEmptyChunkCount
 MOZ_ASSERT_IF
 (
 releaseAll
-chunkPool
+emptyChunks
 .
 count
 (
@@ -6865,7 +6865,7 @@ remove
 chunk
 )
 ;
-chunkPool
+emptyChunks
 .
 put
 (
@@ -6927,7 +6927,7 @@ canBackgroundAllocate
 )
 &
 &
-chunkPool
+emptyChunks
 .
 count
 (
@@ -7089,7 +7089,7 @@ chunk
 ;
 chunk
 =
-chunkPool
+emptyChunks
 .
 get
 (
@@ -9159,7 +9159,7 @@ JSGC_UNUSED_CHUNKS
 return
 uint32_t
 (
-chunkPool
+emptyChunks
 .
 count
 (
@@ -9178,7 +9178,7 @@ count
 (
 )
 +
-chunkPool
+emptyChunks
 .
 count
 (
@@ -19941,7 +19941,7 @@ rt
 >
 gc
 .
-chunkPool
+emptyChunks
 .
 put
 (
