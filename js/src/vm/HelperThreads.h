@@ -2242,11 +2242,8 @@ func
 /
 /
 Really
-a
-ModuleCompiler
-:
-:
-Func
+an
+AsmFunction
 *
 jit
 :
