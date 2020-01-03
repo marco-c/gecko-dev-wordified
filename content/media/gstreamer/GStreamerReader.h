@@ -260,6 +260,7 @@ IntRect
 ;
 public
 :
+explicit
 GStreamerReader
 (
 AbstractMediaDecoder
