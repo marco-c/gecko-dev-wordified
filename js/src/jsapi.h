@@ -16089,12 +16089,9 @@ SHADOWABLE
 ;
 MOZ_ASSERT
 (
-desc
+value
 (
 )
--
->
-value
 .
 isUndefined
 (
