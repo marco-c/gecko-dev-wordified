@@ -994,6 +994,8 @@ Rollup
 (
 uint32_t
 aCount
+bool
+aFlush
 const
 nsIntPoint
 *

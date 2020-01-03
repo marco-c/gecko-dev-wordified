@@ -44053,6 +44053,7 @@ rollupListener
 Rollup
 (
 0
+false
 nullptr
 nullptr
 )
@@ -50581,6 +50582,7 @@ rollupListener
 Rollup
 (
 popupsToRollup
+true
 &
 pos
 &
@@ -50603,6 +50605,7 @@ rollupListener
 Rollup
 (
 popupsToRollup
+true
 nullptr
 nullptr
 )
