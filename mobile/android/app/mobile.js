@@ -9522,16 +9522,6 @@ packaged
 UA
 override
 list
-/
-/
-See
-Bug
-1163759
-before
-setting
-this
-to
-true
 pref
 (
 "
@@ -9543,7 +9533,7 @@ updates
 .
 enabled
 "
-false
+true
 )
 ;
 pref
