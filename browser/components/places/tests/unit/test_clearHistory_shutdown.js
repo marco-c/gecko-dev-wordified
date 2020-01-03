@@ -798,7 +798,9 @@ URIS
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -821,6 +823,7 @@ history
 TRANSITION_TYPED
 }
 )
+;
 }
 print
 (

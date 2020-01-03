@@ -357,7 +357,9 @@ various
 visit
 types
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

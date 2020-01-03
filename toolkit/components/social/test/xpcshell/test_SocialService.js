@@ -1511,7 +1511,9 @@ i
 )
 ;
 }
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
