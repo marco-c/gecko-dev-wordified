@@ -7818,6 +7818,7 @@ else
 /
 !
 DEBUG
+explicit
 JitcodeMapBufferWriteSpewer
 (
 CompactBufferWriter
