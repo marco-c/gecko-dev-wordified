@@ -2085,14 +2085,10 @@ getValue
 )
 {
 return
-new
-Integer
-(
 spinner
 .
 getSelectedItemPosition
 (
-)
 )
 ;
 }

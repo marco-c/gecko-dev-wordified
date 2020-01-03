@@ -701,13 +701,8 @@ getContentResolver
 long
 folderId
 =
-Long
-.
-valueOf
-(
 -
-1
-)
+1L
 ;
 Uri
 bookmarksUri

@@ -925,10 +925,6 @@ false
 }
 return
 isInBatch
-.
-booleanValue
-(
-)
 ;
 }
 /

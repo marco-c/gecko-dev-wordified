@@ -840,11 +840,7 @@ getValue
 )
 {
 return
-new
-Integer
-(
 mSelected
-)
 ;
 }
 Override
