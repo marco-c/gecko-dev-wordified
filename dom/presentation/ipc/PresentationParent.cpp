@@ -322,7 +322,7 @@ PPresentationRequestParent
 *
 aActor
 const
-PresentationRequest
+PresentationIPCRequest
 &
 aRequest
 )
@@ -355,7 +355,7 @@ type
 )
 {
 case
-PresentationRequest
+PresentationIPCRequest
 :
 :
 TStartSessionRequest
@@ -377,7 +377,7 @@ get_StartSessionRequest
 break
 ;
 case
-PresentationRequest
+PresentationIPCRequest
 :
 :
 TSendSessionMessageRequest
@@ -399,7 +399,7 @@ get_SendSessionMessageRequest
 break
 ;
 case
-PresentationRequest
+PresentationIPCRequest
 :
 :
 TTerminateRequest
@@ -426,7 +426,7 @@ MOZ_CRASH
 (
 "
 Unknown
-PresentationRequest
+PresentationIPCRequest
 type
 "
 )
@@ -454,7 +454,7 @@ PresentationParent
 AllocPPresentationRequestParent
 (
 const
-PresentationRequest
+PresentationIPCRequest
 &
 aRequest
 )

@@ -254,7 +254,7 @@ PresentationChild
 AllocPPresentationRequestChild
 (
 const
-PresentationRequest
+PresentationIPCRequest
 &
 aRequest
 )

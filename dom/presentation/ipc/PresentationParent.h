@@ -201,7 +201,7 @@ PPresentationRequestParent
 *
 aActor
 const
-PresentationRequest
+PresentationIPCRequest
 &
 aRequest
 )
@@ -213,7 +213,7 @@ PPresentationRequestParent
 AllocPPresentationRequestParent
 (
 const
-PresentationRequest
+PresentationIPCRequest
 &
 aRequest
 )
