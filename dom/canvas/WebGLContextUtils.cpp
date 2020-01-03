@@ -4108,6 +4108,17 @@ case
 WebGLTexImageFunc
 :
 :
+TexImage
+:
+return
+"
+texImage3D
+"
+;
+case
+WebGLTexImageFunc
+:
+:
 TexSubImage
 :
 return
