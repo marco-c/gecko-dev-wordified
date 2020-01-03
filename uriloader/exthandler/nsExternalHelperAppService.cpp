@@ -3830,6 +3830,17 @@ Rate
 Audio
 "
 }
+{
+AUDIO_3GPP
+"
+3gpp
+3gp
+"
+"
+3GPP
+Audio
+"
+}
 #
 endif
 {
