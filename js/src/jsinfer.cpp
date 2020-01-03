@@ -408,6 +408,9 @@ prototype
 )
 ;
 }
+#
+ifdef
+DEBUG
 static
 inline
 jsid
@@ -480,9 +483,6 @@ caller
 )
 ;
 }
-#
-ifdef
-DEBUG
 const
 char
 *
