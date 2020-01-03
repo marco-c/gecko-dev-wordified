@@ -2736,6 +2736,9 @@ aParentHintsNotHandledForDescendants
 uint32_t
 *
 aEqualStructs
+uint32_t
+*
+aSamePointerStructs
 )
 ;
 /

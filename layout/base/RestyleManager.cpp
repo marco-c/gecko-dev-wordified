@@ -16484,6 +16484,9 @@ copyFromContinuation
 uint32_t
 equalStructs
 ;
+uint32_t
+samePointerStructs
+;
 DebugOnly
 <
 nsChangeHint
@@ -16502,6 +16505,8 @@ nsChangeHint
 )
 &
 equalStructs
+&
+samePointerStructs
 )
 ;
 /
@@ -17014,6 +17019,9 @@ resolved
 uint32_t
 equalStructs
 ;
+uint32_t
+samePointerStructs
+;
 DebugOnly
 <
 nsChangeHint
@@ -17032,6 +17040,8 @@ nsChangeHint
 )
 &
 equalStructs
+&
+samePointerStructs
 )
 ;
 /
@@ -18343,6 +18353,9 @@ aChangeToAssume
 uint32_t
 *
 aEqualStructs
+uint32_t
+*
+aSamePointerStructs
 )
 {
 static_assert
@@ -18444,6 +18457,7 @@ CalcStyleDifference
 aNewContext
 mParentFrameHintsNotHandledForDescendants
 aEqualStructs
+aSamePointerStructs
 )
 ;
 NS_ASSERTION
@@ -24491,6 +24505,11 @@ equalStructs
 =
 0
 ;
+uint32_t
+samePointerStructs
+=
+0
+;
 if
 (
 copyFromContinuation
@@ -24586,6 +24605,8 @@ nsChangeHint
 )
 &
 equalStructs
+&
+samePointerStructs
 )
 ;
 if
@@ -24702,6 +24723,8 @@ newContext
 assumeDifferenceHint
 &
 equalStructs
+&
+samePointerStructs
 )
 ;
 if
@@ -25938,6 +25961,9 @@ newExtraContext
 uint32_t
 equalStructs
 ;
+uint32_t
+samePointerStructs
+;
 CaptureChange
 (
 oldExtraContext
@@ -25945,6 +25971,8 @@ newExtraContext
 assumeDifferenceHint
 &
 equalStructs
+&
+samePointerStructs
 )
 ;
 if
