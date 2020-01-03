@@ -6562,6 +6562,9 @@ availableISize
 }
 placedFloat
 =
+mBaseLineLayout
+-
+>
 AddFloat
 (
 outOfFlowFrame
