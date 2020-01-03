@@ -781,7 +781,7 @@ mServerSocket
 mServerSocket
 -
 >
-CloseSocket
+Close
 (
 )
 ;
@@ -2784,7 +2784,7 @@ mSocket
 mSocket
 -
 >
-CloseSocket
+Close
 (
 )
 ;
