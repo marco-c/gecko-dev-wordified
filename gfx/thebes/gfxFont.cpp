@@ -5108,7 +5108,6 @@ shaper
 >
 GetGlyphHAdvance
 (
-aCtx
 aGID
 )
 /

@@ -253,9 +253,6 @@ units
 hb_position_t
 GetGlyphHAdvance
 (
-gfxContext
-*
-aContext
 hb_codepoint_t
 glyph
 )
@@ -264,9 +261,6 @@ const
 hb_position_t
 GetGlyphVAdvance
 (
-gfxContext
-*
-aContext
 hb_codepoint_t
 glyph
 )
@@ -275,9 +269,6 @@ const
 void
 GetGlyphVOrigin
 (
-gfxContext
-*
-aContext
 hb_codepoint_t
 aGlyph
 hb_position_t
