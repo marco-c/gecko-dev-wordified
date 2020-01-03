@@ -826,7 +826,7 @@ info
 "
 Checking
 that
-_SelectAll
+_onSelectAll
 (
 )
 then
@@ -840,6 +840,8 @@ value
 )
 ;
 view
+.
+_contextmenu
 .
 _onSelectAll
 (

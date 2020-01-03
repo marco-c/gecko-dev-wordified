@@ -155,9 +155,7 @@ win
 =
 view
 .
-doc
-.
-defaultView
+styleWindow
 ;
 let
 searchField

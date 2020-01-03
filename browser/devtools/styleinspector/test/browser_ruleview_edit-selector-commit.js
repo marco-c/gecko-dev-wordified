@@ -568,7 +568,7 @@ activeElement
 =
 view
 .
-doc
+styleDocument
 .
 activeElement
 ;

@@ -413,7 +413,7 @@ brace
 =
 view
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -625,9 +625,7 @@ key
 }
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield

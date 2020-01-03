@@ -124,7 +124,7 @@ TargetFactory
 ;
 let
 {
-CssHtmlTree
+CssComputedView
 }
 =
 devtools
@@ -4981,7 +4981,7 @@ r
 of
 view
 .
-doc
+styleDocument
 .
 querySelectorAll
 (
@@ -5931,7 +5931,7 @@ links
 =
 view
 .
-doc
+styleDocument
 .
 querySelectorAll
 (
@@ -6031,9 +6031,11 @@ querySelector
 (
 "
 .
-source
+ruleview
 -
-link
+rule
+-
+source
 -
 label
 "
@@ -6724,7 +6726,7 @@ view
 *
 param
 {
-CssHtmlTree
+CssComputedView
 }
 view
 The
@@ -6865,7 +6867,7 @@ view
 *
 param
 {
-CssHtmlTree
+CssComputedView
 }
 view
 The
@@ -7014,7 +7016,7 @@ links
 *
 param
 {
-CssHtmlTree
+CssComputedView
 }
 view
 The
@@ -7224,7 +7226,7 @@ view
 *
 param
 {
-CssHtmlTree
+CssComputedView
 }
 view
 The
@@ -7302,7 +7304,7 @@ view
 *
 param
 {
-CssHtmlTree
+CssComputedView
 }
 view
 The
@@ -7464,7 +7466,7 @@ index
 *
 param
 {
-CssHtmlTree
+CssComputedView
 }
 view
 The

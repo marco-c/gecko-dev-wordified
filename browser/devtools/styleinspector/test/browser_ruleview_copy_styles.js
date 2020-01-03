@@ -151,6 +151,13 @@ openRuleView
 (
 )
 ;
+let
+contextmenu
+=
+view
+.
+_contextmenu
+;
 yield
 selectNode
 (
@@ -199,7 +206,7 @@ editor
 nameSpan
 menuItem
 :
-view
+contextmenu
 .
 menuitemCopyPropertyName
 expectedPattern
@@ -255,7 +262,7 @@ editor
 valueSpan
 menuItem
 :
-view
+contextmenu
 .
 menuitemCopyPropertyValue
 expectedPattern
@@ -311,7 +318,7 @@ editor
 nameSpan
 menuItem
 :
-view
+contextmenu
 .
 menuitemCopyPropertyDeclaration
 expectedPattern
@@ -371,7 +378,7 @@ editor
 nameSpan
 menuItem
 :
-view
+contextmenu
 .
 menuitemCopyRule
 expectedPattern
@@ -489,7 +496,7 @@ ruleEditor
 selectorText
 menuItem
 :
-view
+contextmenu
 .
 menuitemCopySelector
 expectedPattern
@@ -538,7 +545,7 @@ ruleEditor
 source
 menuItem
 :
-view
+contextmenu
 .
 menuitemCopyLocation
 expectedPattern
@@ -633,7 +640,7 @@ editor
 nameSpan
 menuItem
 :
-view
+contextmenu
 .
 menuitemCopyRule
 expectedPattern
@@ -775,7 +782,7 @@ editor
 nameSpan
 menuItem
 :
-view
+contextmenu
 .
 menuitemCopyPropertyDeclaration
 expectedPattern
@@ -879,15 +886,6 @@ hidden
 )
 {
 let
-win
-=
-view
-.
-doc
-.
-defaultView
-;
-let
 onPopup
 =
 once
@@ -895,6 +893,8 @@ once
 view
 .
 _contextmenu
+.
+_menupopup
 "
 popupshown
 "
@@ -915,7 +915,9 @@ type
 contextmenu
 "
 }
-win
+view
+.
+styleWindow
 )
 ;
 yield
@@ -924,6 +926,8 @@ onPopup
 is
 (
 view
+.
+_contextmenu
 .
 menuitemCopy
 .
@@ -943,6 +947,8 @@ true
 is
 (
 view
+.
+_contextmenu
 .
 menuitemCopyLocation
 .
@@ -969,6 +975,8 @@ copyLocation
 is
 (
 view
+.
+_contextmenu
 .
 menuitemCopyPropertyDeclaration
 .
@@ -997,6 +1005,8 @@ is
 (
 view
 .
+_contextmenu
+.
 menuitemCopyPropertyName
 .
 hidden
@@ -1023,6 +1033,8 @@ copyPropertyName
 is
 (
 view
+.
+_contextmenu
 .
 menuitemCopyPropertyValue
 .
@@ -1051,6 +1063,8 @@ is
 (
 view
 .
+_contextmenu
+.
 menuitemCopySelector
 .
 hidden
@@ -1076,6 +1090,8 @@ copySelector
 is
 (
 view
+.
+_contextmenu
 .
 menuitemCopyRule
 .
@@ -1138,6 +1154,8 @@ expectedPattern
 view
 .
 _contextmenu
+.
+_menupopup
 .
 hidePopup
 (

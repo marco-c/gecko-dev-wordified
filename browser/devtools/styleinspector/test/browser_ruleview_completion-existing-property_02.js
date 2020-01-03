@@ -453,7 +453,7 @@ value
 =
 view
 .
-doc
+styleDocument
 .
 querySelectorAll
 (
@@ -539,7 +539,7 @@ inplaceEditor
 (
 view
 .
-doc
+styleDocument
 .
 activeElement
 )
@@ -641,7 +641,7 @@ brace
 =
 view
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -777,9 +777,7 @@ key
 modifiers
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield
@@ -827,7 +825,7 @@ inplaceEditor
 (
 view
 .
-doc
+styleDocument
 .
 activeElement
 )

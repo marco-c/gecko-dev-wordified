@@ -382,9 +382,7 @@ input
 }
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 input
@@ -443,9 +441,7 @@ color
 "
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield
@@ -478,7 +474,7 @@ inplaceEditor
 (
 ruleView
 .
-doc
+styleDocument
 .
 activeElement
 )
@@ -617,9 +613,7 @@ sendChar
 ch
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 is
@@ -744,9 +738,7 @@ color
 "
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield
@@ -772,7 +764,7 @@ inplaceEditor
 (
 ruleView
 .
-doc
+styleDocument
 .
 activeElement
 )
@@ -817,9 +809,7 @@ red
 "
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield

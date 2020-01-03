@@ -466,9 +466,7 @@ background
 "
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 let
 onBlur

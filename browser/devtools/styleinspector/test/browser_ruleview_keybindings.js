@@ -157,7 +157,7 @@ brace
 =
 view
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -475,7 +475,7 @@ inplaceEditor
 (
 view
 .
-doc
+styleDocument
 .
 activeElement
 )

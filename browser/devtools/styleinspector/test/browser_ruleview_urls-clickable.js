@@ -223,7 +223,7 @@ relativeLink
 =
 ruleView
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -276,7 +276,7 @@ relativeLink
 =
 ruleView
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -330,7 +330,7 @@ absoluteLink
 =
 ruleView
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -384,7 +384,7 @@ inlineLink
 =
 ruleView
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -438,7 +438,7 @@ base64Link
 =
 ruleView
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -492,7 +492,7 @@ inlineResolvedLink
 =
 ruleView
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -547,7 +547,7 @@ noimageLink
 =
 ruleView
 .
-doc
+styleDocument
 .
 querySelector
 (

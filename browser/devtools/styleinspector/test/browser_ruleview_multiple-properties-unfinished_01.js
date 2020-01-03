@@ -432,9 +432,7 @@ red
 "
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 onRuleViewChanged
@@ -461,9 +459,7 @@ VK_RETURN
 }
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield
