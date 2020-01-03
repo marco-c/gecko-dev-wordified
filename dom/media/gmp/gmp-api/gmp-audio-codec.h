@@ -202,7 +202,7 @@ uint8_t
 *
 mExtraData
 ;
-size_t
+uint32_t
 mExtraDataLen
 ;
 }
