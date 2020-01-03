@@ -260,10 +260,6 @@ mTimeline
 (
 aTimeline
 )
-mIsPaused
-(
-false
-)
 mIsRunningOnCompositor
 (
 false
@@ -576,7 +572,15 @@ IsPaused
 const
 {
 return
-mIsPaused
+PlayState
+(
+)
+=
+=
+AnimationPlayState
+:
+:
+Paused
 ;
 }
 bool
@@ -912,9 +916,6 @@ mHoldTime
 /
 Player
 timescale
-bool
-mIsPaused
-;
 bool
 mIsRunningOnCompositor
 ;
