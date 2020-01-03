@@ -266,6 +266,10 @@ mSignaledEOS
 (
 false
 )
+mDrainComplete
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -304,6 +308,10 @@ Init
 (
 mCallback
 )
+;
+mDrainComplete
+=
+false
 ;
 return
 mDecoder
@@ -511,6 +519,10 @@ rv
 while
 (
 true
+&
+&
+!
+mDrainComplete
 )
 {
 rv
@@ -679,6 +691,10 @@ DrainComplete
 mSignaledEOS
 =
 false
+;
+mDrainComplete
+=
+true
 ;
 return
 ;
