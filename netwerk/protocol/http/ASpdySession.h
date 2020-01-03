@@ -458,7 +458,7 @@ const
 uint32_t
 kCount
 =
-4
+5
 ;
 /
 /
