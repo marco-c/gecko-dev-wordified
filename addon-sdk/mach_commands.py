@@ -414,11 +414,9 @@ moz_build
 AUTOMATICALLY
 GENERATED
 FROM
-moz
+mozbuild
 .
-build
-.
-in
+template
 AND
 mach
 .
