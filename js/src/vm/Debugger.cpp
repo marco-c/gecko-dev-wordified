@@ -3207,7 +3207,7 @@ nextInDebugger
 {
 if
 (
-IsScriptMarked
+IsMarkedUnbarriered
 (
 &
 bp
@@ -13149,7 +13149,7 @@ script
 gc
 :
 :
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 script
@@ -15036,7 +15036,7 @@ nextInDebugger
 {
 if
 (
-IsScriptMarked
+IsMarkedUnbarriered
 (
 &
 bp
@@ -15380,7 +15380,7 @@ nextInDebugger
 )
 )
 {
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

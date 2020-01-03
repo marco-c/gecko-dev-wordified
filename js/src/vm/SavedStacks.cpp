@@ -7040,7 +7040,7 @@ get
 ;
 if
 (
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 script

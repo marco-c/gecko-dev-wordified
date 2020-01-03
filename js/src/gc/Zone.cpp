@@ -873,7 +873,7 @@ continue
 bool
 scriptGone
 =
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 script

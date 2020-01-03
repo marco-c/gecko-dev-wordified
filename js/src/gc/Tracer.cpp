@@ -369,7 +369,7 @@ char
 name
 )
 {
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 scriptp
@@ -555,7 +555,7 @@ char
 name
 )
 {
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 scriptp
@@ -1093,7 +1093,7 @@ zone
 )
 continue
 ;
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

@@ -2390,10 +2390,7 @@ isEvalFrame
 (
 )
 )
-gc
-:
-:
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -2409,10 +2406,7 @@ script
 }
 else
 {
-gc
-:
-:
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

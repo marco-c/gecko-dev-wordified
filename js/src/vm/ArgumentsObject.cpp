@@ -3956,7 +3956,7 @@ begin
 js_arguments_str
 )
 ;
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

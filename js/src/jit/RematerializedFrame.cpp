@@ -939,10 +939,7 @@ JSTracer
 trc
 )
 {
-gc
-:
-:
-MarkScriptRoot
+TraceRoot
 (
 trc
 &

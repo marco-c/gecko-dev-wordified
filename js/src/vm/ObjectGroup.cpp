@@ -10759,7 +10759,7 @@ key
 bool
 keyDying
 =
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 key
