@@ -158,9 +158,6 @@ id
 =
 v
 ;
-return
-true
-;
 }
 }
 ;

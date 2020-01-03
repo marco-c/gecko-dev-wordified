@@ -711,9 +711,6 @@ path
 value
 )
 ;
-return
-true
-;
 }
 getOwnPropertyDescriptor
 :
