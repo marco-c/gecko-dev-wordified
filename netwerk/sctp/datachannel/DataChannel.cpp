@@ -7364,9 +7364,9 @@ sctp_sendv_spa
 SCTP_SENDV_SPA
 0
 )
+)
 <
 0
-)
 )
 {
 if
