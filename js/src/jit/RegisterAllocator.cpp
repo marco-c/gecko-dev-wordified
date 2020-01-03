@@ -3554,7 +3554,7 @@ LAllocation
 toString
 is
 not
-reentant
+reentrant
 .
 fprintf
 (
