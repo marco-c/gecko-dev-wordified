@@ -835,7 +835,7 @@ room
 return
 count
 +
-=
+(
 room
 .
 roomToken
@@ -849,6 +849,7 @@ roomToken
 1
 :
 0
+)
 ;
 }
 0
