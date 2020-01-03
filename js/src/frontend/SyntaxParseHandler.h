@@ -1595,7 +1595,16 @@ mode
 parsing
 .
 return
+(
+pn
+=
+=
+NodeString
+)
+?
 NodeGeneric
+:
+pn
 ;
 }
 void
