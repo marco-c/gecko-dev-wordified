@@ -1149,7 +1149,14 @@ result
 =
 putenv
 (
+const_cast
+<
+char
+*
+>
+(
 string
+)
 )
 ;
 pthread_mutex_unlock
