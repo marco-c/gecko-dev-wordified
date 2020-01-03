@@ -1136,7 +1136,7 @@ setClassName
 context
 AppConstants
 .
-BROWSER_INTENT_CLASS_NAME
+MOZ_ANDROID_BROWSER_INTENT_CLASS
 )
 ;
 resultIntent
