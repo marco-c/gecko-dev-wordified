@@ -389,7 +389,7 @@ continue
 yield
 PlacesTransactions
 .
-Move
+MoveItem
 (
 {
 GUID
