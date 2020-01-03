@@ -3668,6 +3668,12 @@ None
         
 self
 .
+session_id
+=
+None
+        
+self
+.
 window
 =
 None
@@ -4608,7 +4614,7 @@ if
 not
 self
 .
-session
+session_id
 and
 command
 !
@@ -4644,7 +4650,7 @@ command
 if
 self
 .
-session
+session_id
 :
             
 message
@@ -4656,7 +4662,7 @@ sessionId
 =
 self
 .
-session
+session_id
         
 if
 kwargs
@@ -4803,6 +4809,27 @@ continue
             
 break
 ;
+        
+if
+not
+self
+.
+session_id
+:
+            
+self
+.
+session_id
+=
+response
+.
+get
+(
+"
+sessionId
+"
+None
+)
         
 if
 response_key
@@ -6513,6 +6540,9 @@ self
 desired_capabilities
 =
 None
+session_id
+=
+None
 )
 :
         
@@ -6587,6 +6617,9 @@ value
 capabilities
 =
 desired_capabilities
+session_id
+=
+session_id
 )
         
 self
@@ -6692,6 +6725,12 @@ deleteSession
 ok
 '
 )
+        
+self
+.
+session_id
+=
+None
         
 self
 .
