@@ -141,6 +141,15 @@ Registers
 .
 h
 "
+#
+include
+"
+jit
+/
+RegisterSets
+.
+h
+"
 namespace
 js
 {
