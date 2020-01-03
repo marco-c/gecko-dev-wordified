@@ -800,10 +800,6 @@ aMetaData
 kKeyAACProfile
 )
 ;
-mHasAudio
-=
-true
-;
 if
 (
 FindData
@@ -1040,10 +1036,6 @@ FindInt32
 aMetaData
 kKeyHeight
 )
-;
-mHasVideo
-=
-true
 ;
 FindData
 (

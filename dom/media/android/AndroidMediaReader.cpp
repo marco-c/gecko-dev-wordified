@@ -520,12 +520,6 @@ track
 .
 mHasVideo
 =
-mInfo
-.
-mVideo
-.
-mHasVideo
-=
 true
 ;
 mInfo
@@ -615,12 +609,6 @@ numChannels
 sampleRate
 )
 ;
-mHasAudio
-=
-mInfo
-.
-mAudio
-.
 mHasAudio
 =
 true

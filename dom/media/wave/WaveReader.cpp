@@ -805,14 +805,6 @@ mInfo
 .
 mAudio
 .
-mHasAudio
-=
-true
-;
-mInfo
-.
-mAudio
-.
 mRate
 =
 mSampleRate
