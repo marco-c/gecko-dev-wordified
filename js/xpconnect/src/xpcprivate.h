@@ -24145,9 +24145,6 @@ NewOutObject
 JSContext
 *
 cx
-JSObject
-*
-scope
 )
 ;
 bool
