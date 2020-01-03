@@ -714,6 +714,9 @@ STATUSBAR
 Roles
 .
 SWITCH
+Roles
+.
+MATHML_MATH
 ]
 ;
 var
