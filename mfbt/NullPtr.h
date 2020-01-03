@@ -228,9 +228,9 @@ minimum
 supported
 MSVC
 (
-10
+12
 _MSC_VER
-1600
+1800
 )
 supports
 nullptr
