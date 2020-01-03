@@ -1514,13 +1514,13 @@ the
 containerName
 )
 ;
-if
+ok
 (
 event
 .
 call
 )
-{
+;
 let
 index
 =
@@ -1571,7 +1571,6 @@ callback
 (
 )
 ;
-}
 }
 }
 ;
