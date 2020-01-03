@@ -1520,9 +1520,6 @@ UnsuspendRedrawAll
 void
 ForceRedraw
 (
-ErrorResult
-&
-rv
 )
 ;
 void

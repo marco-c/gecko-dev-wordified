@@ -1786,9 +1786,6 @@ SVGSVGElement
 :
 ForceRedraw
 (
-ErrorResult
-&
-rv
 )
 {
 /
