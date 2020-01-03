@@ -733,6 +733,17 @@ uint32_t
 aCoordType
 )
 ;
+int32_t
+OffsetAtPoint
+(
+int32_t
+aX
+int32_t
+aY
+uint32_t
+aCoordType
+)
+;
 /
 *
 *
