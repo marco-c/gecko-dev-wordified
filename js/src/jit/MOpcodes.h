@@ -1455,7 +1455,7 @@ VISIT_INS
 op
 )
 virtual
-bool
+void
 visit
 #
 #
@@ -1514,7 +1514,7 @@ VISIT_INS
 op
 )
 virtual
-bool
+void
 visit
 #
 #
@@ -1574,7 +1574,7 @@ VISIT_INS
 op
 )
 virtual
-bool
+void
 visit
 #
 #
@@ -1587,9 +1587,6 @@ op
 *
 )
 {
-return
-true
-;
 }
 MIR_OPCODE_LIST
 (

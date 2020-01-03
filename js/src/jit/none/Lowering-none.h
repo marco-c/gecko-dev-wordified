@@ -166,7 +166,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 useBox
 (
 LInstruction
@@ -195,7 +195,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 useBoxFixed
 (
 LInstruction
@@ -296,7 +296,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 defineUntypedPhi
 (
 MPhi
@@ -309,7 +309,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerForShift
 (
 LInstructionHelper
@@ -332,7 +332,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerUrshD
 (
 MUrsh
@@ -349,7 +349,7 @@ template
 typename
 T
 >
-bool
+void
 lowerForALU
 (
 T
@@ -374,7 +374,7 @@ template
 typename
 T
 >
-bool
+void
 lowerForFPU
 (
 T
@@ -394,7 +394,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerForCompIx4
 (
 LSimdBinaryCompIx4
@@ -416,7 +416,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerForCompFx4
 (
 LSimdBinaryCompFx4
@@ -438,7 +438,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerForBitAndAndBranch
 (
 LBitAndAndBranch
@@ -456,7 +456,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerConstantDouble
 (
 double
@@ -469,7 +469,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerConstantFloat32
 (
 float
@@ -482,7 +482,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerTruncateDToInt32
 (
 MTruncateToInt32
@@ -494,7 +494,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerTruncateFToInt32
 (
 MTruncateToInt32
@@ -506,7 +506,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerDivI
 (
 MDiv
@@ -518,7 +518,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerModI
 (
 MMod
@@ -530,7 +530,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerMulI
 (
 MMul
@@ -546,7 +546,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerUDiv
 (
 MDiv
@@ -558,7 +558,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 lowerUMod
 (
 MMod
@@ -570,7 +570,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitBox
 (
 MBox
@@ -583,7 +583,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitUnbox
 (
 MUnbox
@@ -596,7 +596,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitReturn
 (
 MReturn
@@ -609,7 +609,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitPowHalf
 (
 MPowHalf
@@ -621,7 +621,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitAsmJSNeg
 (
 MAsmJSNeg
@@ -633,7 +633,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitGuardShape
 (
 MGuardShape
@@ -646,7 +646,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitGuardObjectType
 (
 MGuardObjectType
@@ -659,7 +659,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitAsmJSUnsignedToDouble
 (
 MAsmJSUnsignedToDouble
@@ -672,7 +672,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitAsmJSUnsignedToFloat32
 (
 MAsmJSUnsignedToFloat32
@@ -685,7 +685,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitAsmJSLoadHeap
 (
 MAsmJSLoadHeap
@@ -698,7 +698,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitAsmJSStoreHeap
 (
 MAsmJSStoreHeap
@@ -711,7 +711,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitAsmJSLoadFuncPtr
 (
 MAsmJSLoadFuncPtr
@@ -724,7 +724,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitStoreTypedArrayElementStatic
 (
 MStoreTypedArrayElementStatic
@@ -737,7 +737,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitForkJoinGetSlice
 (
 MForkJoinGetSlice
@@ -750,7 +750,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitAtomicTypedArrayElementBinop
 (
 MAtomicTypedArrayElementBinop
@@ -763,7 +763,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitCompareExchangeTypedArrayElement
 (
 MCompareExchangeTypedArrayElement
@@ -776,7 +776,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitAsmJSCompareExchangeHeap
 (
 MAsmJSCompareExchangeHeap
@@ -789,7 +789,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitAsmJSAtomicBinopHeap
 (
 MAsmJSAtomicBinopHeap
@@ -830,7 +830,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitSimdTernaryBitwise
 (
 MSimdTernaryBitwise
@@ -843,7 +843,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitSimdSplatX4
 (
 MSimdSplatX4
@@ -856,7 +856,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitSimdValueX4
 (
 MSimdValueX4

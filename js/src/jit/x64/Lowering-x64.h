@@ -181,7 +181,7 @@ size_t
 lirIndex
 )
 ;
-bool
+void
 defineUntypedPhi
 (
 MPhi
@@ -208,7 +208,7 @@ value
 typed
 insturction
 .
-bool
+void
 useBox
 (
 LInstruction
@@ -235,7 +235,7 @@ useAtStart
 false
 )
 ;
-bool
+void
 useBoxFixed
 (
 LInstruction
@@ -353,7 +353,7 @@ BogusTemp
 }
 public
 :
-bool
+void
 visitBox
 (
 MBox
@@ -361,7 +361,7 @@ MBox
 box
 )
 ;
-bool
+void
 visitUnbox
 (
 MUnbox
@@ -369,7 +369,7 @@ MUnbox
 unbox
 )
 ;
-bool
+void
 visitReturn
 (
 MReturn
@@ -377,7 +377,7 @@ MReturn
 ret
 )
 ;
-bool
+void
 visitAsmJSUnsignedToDouble
 (
 MAsmJSUnsignedToDouble
@@ -385,7 +385,7 @@ MAsmJSUnsignedToDouble
 ins
 )
 ;
-bool
+void
 visitAsmJSUnsignedToFloat32
 (
 MAsmJSUnsignedToFloat32
@@ -393,7 +393,7 @@ MAsmJSUnsignedToFloat32
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadHeap
 (
 MAsmJSLoadHeap
@@ -401,7 +401,7 @@ MAsmJSLoadHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSStoreHeap
 (
 MAsmJSStoreHeap
@@ -409,7 +409,7 @@ MAsmJSStoreHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadFuncPtr
 (
 MAsmJSLoadFuncPtr
@@ -417,7 +417,7 @@ MAsmJSLoadFuncPtr
 ins
 )
 ;
-bool
+void
 visitStoreTypedArrayElementStatic
 (
 MStoreTypedArrayElementStatic
@@ -425,7 +425,7 @@ MStoreTypedArrayElementStatic
 ins
 )
 ;
-bool
+void
 visitSubstr
 (
 MSubstr

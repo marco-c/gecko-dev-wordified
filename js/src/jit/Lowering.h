@@ -322,7 +322,7 @@ generate
 ;
 private
 :
-bool
+void
 useBoxAtStart
 (
 LInstruction
@@ -356,7 +356,7 @@ true
 )
 ;
 }
-bool
+void
 lowerBitOp
 (
 JSOp
@@ -366,7 +366,7 @@ MInstruction
 ins
 )
 ;
-bool
+void
 lowerShiftOp
 (
 JSOp
@@ -376,7 +376,7 @@ MShiftInstruction
 ins
 )
 ;
-bool
+void
 lowerBinaryV
 (
 JSOp
@@ -386,12 +386,12 @@ MBinaryInstruction
 ins
 )
 ;
-bool
+void
 definePhis
 (
 )
 ;
-bool
+void
 lowerCallArguments
 (
 MCall
@@ -446,7 +446,7 @@ the
 .
 cpp
 .
-bool
+void
 visitCloneLiteral
 (
 MCloneLiteral
@@ -454,7 +454,7 @@ MCloneLiteral
 ins
 )
 ;
-bool
+void
 visitParameter
 (
 MParameter
@@ -462,7 +462,7 @@ MParameter
 param
 )
 ;
-bool
+void
 visitCallee
 (
 MCallee
@@ -470,7 +470,7 @@ MCallee
 callee
 )
 ;
-bool
+void
 visitIsConstructing
 (
 MIsConstructing
@@ -478,7 +478,7 @@ MIsConstructing
 ins
 )
 ;
-bool
+void
 visitGoto
 (
 MGoto
@@ -486,7 +486,7 @@ MGoto
 ins
 )
 ;
-bool
+void
 visitTableSwitch
 (
 MTableSwitch
@@ -494,7 +494,7 @@ MTableSwitch
 tableswitch
 )
 ;
-bool
+void
 visitNewArray
 (
 MNewArray
@@ -502,7 +502,7 @@ MNewArray
 ins
 )
 ;
-bool
+void
 visitNewArrayCopyOnWrite
 (
 MNewArrayCopyOnWrite
@@ -510,7 +510,7 @@ MNewArrayCopyOnWrite
 ins
 )
 ;
-bool
+void
 visitNewArrayDynamicLength
 (
 MNewArrayDynamicLength
@@ -518,7 +518,7 @@ MNewArrayDynamicLength
 ins
 )
 ;
-bool
+void
 visitNewObject
 (
 MNewObject
@@ -526,7 +526,7 @@ MNewObject
 ins
 )
 ;
-bool
+void
 visitNewTypedObject
 (
 MNewTypedObject
@@ -534,7 +534,7 @@ MNewTypedObject
 ins
 )
 ;
-bool
+void
 visitNewDeclEnvObject
 (
 MNewDeclEnvObject
@@ -542,7 +542,7 @@ MNewDeclEnvObject
 ins
 )
 ;
-bool
+void
 visitNewCallObject
 (
 MNewCallObject
@@ -550,7 +550,7 @@ MNewCallObject
 ins
 )
 ;
-bool
+void
 visitNewRunOnceCallObject
 (
 MNewRunOnceCallObject
@@ -558,7 +558,7 @@ MNewRunOnceCallObject
 ins
 )
 ;
-bool
+void
 visitNewStringObject
 (
 MNewStringObject
@@ -566,7 +566,7 @@ MNewStringObject
 ins
 )
 ;
-bool
+void
 visitNewDerivedTypedObject
 (
 MNewDerivedTypedObject
@@ -574,7 +574,7 @@ MNewDerivedTypedObject
 ins
 )
 ;
-bool
+void
 visitNewPar
 (
 MNewPar
@@ -582,7 +582,7 @@ MNewPar
 ins
 )
 ;
-bool
+void
 visitNewCallObjectPar
 (
 MNewCallObjectPar
@@ -590,7 +590,7 @@ MNewCallObjectPar
 ins
 )
 ;
-bool
+void
 visitNewDenseArrayPar
 (
 MNewDenseArrayPar
@@ -598,7 +598,7 @@ MNewDenseArrayPar
 ins
 )
 ;
-bool
+void
 visitInitElem
 (
 MInitElem
@@ -606,7 +606,7 @@ MInitElem
 ins
 )
 ;
-bool
+void
 visitInitElemGetterSetter
 (
 MInitElemGetterSetter
@@ -614,7 +614,7 @@ MInitElemGetterSetter
 ins
 )
 ;
-bool
+void
 visitMutateProto
 (
 MMutateProto
@@ -622,7 +622,7 @@ MMutateProto
 ins
 )
 ;
-bool
+void
 visitInitProp
 (
 MInitProp
@@ -630,7 +630,7 @@ MInitProp
 ins
 )
 ;
-bool
+void
 visitInitPropGetterSetter
 (
 MInitPropGetterSetter
@@ -638,7 +638,7 @@ MInitPropGetterSetter
 ins
 )
 ;
-bool
+void
 visitCheckOverRecursed
 (
 MCheckOverRecursed
@@ -646,7 +646,7 @@ MCheckOverRecursed
 ins
 )
 ;
-bool
+void
 visitCheckOverRecursedPar
 (
 MCheckOverRecursedPar
@@ -654,7 +654,7 @@ MCheckOverRecursedPar
 ins
 )
 ;
-bool
+void
 visitDefVar
 (
 MDefVar
@@ -662,7 +662,7 @@ MDefVar
 ins
 )
 ;
-bool
+void
 visitDefFun
 (
 MDefFun
@@ -670,7 +670,7 @@ MDefFun
 ins
 )
 ;
-bool
+void
 visitCreateThisWithTemplate
 (
 MCreateThisWithTemplate
@@ -678,7 +678,7 @@ MCreateThisWithTemplate
 ins
 )
 ;
-bool
+void
 visitCreateThisWithProto
 (
 MCreateThisWithProto
@@ -686,7 +686,7 @@ MCreateThisWithProto
 ins
 )
 ;
-bool
+void
 visitCreateThis
 (
 MCreateThis
@@ -694,7 +694,7 @@ MCreateThis
 ins
 )
 ;
-bool
+void
 visitCreateArgumentsObject
 (
 MCreateArgumentsObject
@@ -702,7 +702,7 @@ MCreateArgumentsObject
 ins
 )
 ;
-bool
+void
 visitGetArgumentsObjectArg
 (
 MGetArgumentsObjectArg
@@ -710,7 +710,7 @@ MGetArgumentsObjectArg
 ins
 )
 ;
-bool
+void
 visitSetArgumentsObjectArg
 (
 MSetArgumentsObjectArg
@@ -718,7 +718,7 @@ MSetArgumentsObjectArg
 ins
 )
 ;
-bool
+void
 visitReturnFromCtor
 (
 MReturnFromCtor
@@ -726,7 +726,7 @@ MReturnFromCtor
 ins
 )
 ;
-bool
+void
 visitComputeThis
 (
 MComputeThis
@@ -734,7 +734,7 @@ MComputeThis
 ins
 )
 ;
-bool
+void
 visitLoadArrowThis
 (
 MLoadArrowThis
@@ -742,7 +742,7 @@ MLoadArrowThis
 ins
 )
 ;
-bool
+void
 visitCall
 (
 MCall
@@ -750,7 +750,7 @@ MCall
 call
 )
 ;
-bool
+void
 visitApplyArgs
 (
 MApplyArgs
@@ -758,7 +758,7 @@ MApplyArgs
 apply
 )
 ;
-bool
+void
 visitArraySplice
 (
 MArraySplice
@@ -766,7 +766,7 @@ MArraySplice
 splice
 )
 ;
-bool
+void
 visitBail
 (
 MBail
@@ -774,7 +774,7 @@ MBail
 bail
 )
 ;
-bool
+void
 visitUnreachable
 (
 MUnreachable
@@ -782,7 +782,7 @@ MUnreachable
 unreachable
 )
 ;
-bool
+void
 visitAssertFloat32
 (
 MAssertFloat32
@@ -790,7 +790,7 @@ MAssertFloat32
 ins
 )
 ;
-bool
+void
 visitGetDynamicName
 (
 MGetDynamicName
@@ -798,7 +798,7 @@ MGetDynamicName
 ins
 )
 ;
-bool
+void
 visitFilterArgumentsOrEval
 (
 MFilterArgumentsOrEval
@@ -806,7 +806,7 @@ MFilterArgumentsOrEval
 ins
 )
 ;
-bool
+void
 visitCallDirectEval
 (
 MCallDirectEval
@@ -814,7 +814,7 @@ MCallDirectEval
 ins
 )
 ;
-bool
+void
 visitTest
 (
 MTest
@@ -822,7 +822,7 @@ MTest
 test
 )
 ;
-bool
+void
 visitGotoWithFake
 (
 MGotoWithFake
@@ -830,7 +830,7 @@ MGotoWithFake
 ins
 )
 ;
-bool
+void
 visitFunctionDispatch
 (
 MFunctionDispatch
@@ -838,7 +838,7 @@ MFunctionDispatch
 ins
 )
 ;
-bool
+void
 visitTypeObjectDispatch
 (
 MTypeObjectDispatch
@@ -846,7 +846,7 @@ MTypeObjectDispatch
 ins
 )
 ;
-bool
+void
 visitCompare
 (
 MCompare
@@ -854,7 +854,7 @@ MCompare
 comp
 )
 ;
-bool
+void
 visitTypeOf
 (
 MTypeOf
@@ -862,7 +862,7 @@ MTypeOf
 ins
 )
 ;
-bool
+void
 visitToId
 (
 MToId
@@ -870,7 +870,7 @@ MToId
 ins
 )
 ;
-bool
+void
 visitBitNot
 (
 MBitNot
@@ -878,7 +878,7 @@ MBitNot
 ins
 )
 ;
-bool
+void
 visitBitAnd
 (
 MBitAnd
@@ -886,7 +886,7 @@ MBitAnd
 ins
 )
 ;
-bool
+void
 visitBitOr
 (
 MBitOr
@@ -894,7 +894,7 @@ MBitOr
 ins
 )
 ;
-bool
+void
 visitBitXor
 (
 MBitXor
@@ -902,7 +902,7 @@ MBitXor
 ins
 )
 ;
-bool
+void
 visitLsh
 (
 MLsh
@@ -910,7 +910,7 @@ MLsh
 ins
 )
 ;
-bool
+void
 visitRsh
 (
 MRsh
@@ -918,7 +918,7 @@ MRsh
 ins
 )
 ;
-bool
+void
 visitUrsh
 (
 MUrsh
@@ -926,7 +926,7 @@ MUrsh
 ins
 )
 ;
-bool
+void
 visitFloor
 (
 MFloor
@@ -934,7 +934,7 @@ MFloor
 ins
 )
 ;
-bool
+void
 visitCeil
 (
 MCeil
@@ -942,7 +942,7 @@ MCeil
 ins
 )
 ;
-bool
+void
 visitRound
 (
 MRound
@@ -950,7 +950,7 @@ MRound
 ins
 )
 ;
-bool
+void
 visitMinMax
 (
 MMinMax
@@ -958,7 +958,7 @@ MMinMax
 ins
 )
 ;
-bool
+void
 visitAbs
 (
 MAbs
@@ -966,7 +966,7 @@ MAbs
 ins
 )
 ;
-bool
+void
 visitClz
 (
 MClz
@@ -974,7 +974,7 @@ MClz
 ins
 )
 ;
-bool
+void
 visitSqrt
 (
 MSqrt
@@ -982,7 +982,7 @@ MSqrt
 ins
 )
 ;
-bool
+void
 visitAtan2
 (
 MAtan2
@@ -990,7 +990,7 @@ MAtan2
 ins
 )
 ;
-bool
+void
 visitHypot
 (
 MHypot
@@ -998,7 +998,7 @@ MHypot
 ins
 )
 ;
-bool
+void
 visitPow
 (
 MPow
@@ -1006,7 +1006,7 @@ MPow
 ins
 )
 ;
-bool
+void
 visitRandom
 (
 MRandom
@@ -1014,7 +1014,7 @@ MRandom
 ins
 )
 ;
-bool
+void
 visitMathFunction
 (
 MMathFunction
@@ -1022,7 +1022,7 @@ MMathFunction
 ins
 )
 ;
-bool
+void
 visitAdd
 (
 MAdd
@@ -1030,7 +1030,7 @@ MAdd
 ins
 )
 ;
-bool
+void
 visitSub
 (
 MSub
@@ -1038,7 +1038,7 @@ MSub
 ins
 )
 ;
-bool
+void
 visitMul
 (
 MMul
@@ -1046,7 +1046,7 @@ MMul
 ins
 )
 ;
-bool
+void
 visitDiv
 (
 MDiv
@@ -1054,7 +1054,7 @@ MDiv
 ins
 )
 ;
-bool
+void
 visitMod
 (
 MMod
@@ -1062,7 +1062,7 @@ MMod
 ins
 )
 ;
-bool
+void
 visitConcat
 (
 MConcat
@@ -1070,7 +1070,7 @@ MConcat
 ins
 )
 ;
-bool
+void
 visitConcatPar
 (
 MConcatPar
@@ -1078,7 +1078,7 @@ MConcatPar
 ins
 )
 ;
-bool
+void
 visitCharCodeAt
 (
 MCharCodeAt
@@ -1086,7 +1086,7 @@ MCharCodeAt
 ins
 )
 ;
-bool
+void
 visitFromCharCode
 (
 MFromCharCode
@@ -1094,7 +1094,7 @@ MFromCharCode
 ins
 )
 ;
-bool
+void
 visitStringSplit
 (
 MStringSplit
@@ -1102,7 +1102,7 @@ MStringSplit
 ins
 )
 ;
-bool
+void
 visitStart
 (
 MStart
@@ -1110,7 +1110,7 @@ MStart
 start
 )
 ;
-bool
+void
 visitOsrEntry
 (
 MOsrEntry
@@ -1118,7 +1118,7 @@ MOsrEntry
 entry
 )
 ;
-bool
+void
 visitNop
 (
 MNop
@@ -1126,7 +1126,7 @@ MNop
 nop
 )
 ;
-bool
+void
 visitLimitedTruncate
 (
 MLimitedTruncate
@@ -1134,7 +1134,7 @@ MLimitedTruncate
 nop
 )
 ;
-bool
+void
 visitOsrValue
 (
 MOsrValue
@@ -1142,7 +1142,7 @@ MOsrValue
 value
 )
 ;
-bool
+void
 visitOsrScopeChain
 (
 MOsrScopeChain
@@ -1150,7 +1150,7 @@ MOsrScopeChain
 object
 )
 ;
-bool
+void
 visitOsrReturnValue
 (
 MOsrReturnValue
@@ -1158,7 +1158,7 @@ MOsrReturnValue
 value
 )
 ;
-bool
+void
 visitOsrArgumentsObject
 (
 MOsrArgumentsObject
@@ -1166,7 +1166,7 @@ MOsrArgumentsObject
 object
 )
 ;
-bool
+void
 visitToDouble
 (
 MToDouble
@@ -1174,7 +1174,7 @@ MToDouble
 convert
 )
 ;
-bool
+void
 visitToFloat32
 (
 MToFloat32
@@ -1182,7 +1182,7 @@ MToFloat32
 convert
 )
 ;
-bool
+void
 visitToInt32
 (
 MToInt32
@@ -1190,7 +1190,7 @@ MToInt32
 convert
 )
 ;
-bool
+void
 visitTruncateToInt32
 (
 MTruncateToInt32
@@ -1198,7 +1198,7 @@ MTruncateToInt32
 truncate
 )
 ;
-bool
+void
 visitToString
 (
 MToString
@@ -1206,7 +1206,7 @@ MToString
 convert
 )
 ;
-bool
+void
 visitToObjectOrNull
 (
 MToObjectOrNull
@@ -1214,7 +1214,7 @@ MToObjectOrNull
 convert
 )
 ;
-bool
+void
 visitRegExp
 (
 MRegExp
@@ -1222,7 +1222,7 @@ MRegExp
 ins
 )
 ;
-bool
+void
 visitRegExpExec
 (
 MRegExpExec
@@ -1230,7 +1230,7 @@ MRegExpExec
 ins
 )
 ;
-bool
+void
 visitRegExpTest
 (
 MRegExpTest
@@ -1238,7 +1238,7 @@ MRegExpTest
 ins
 )
 ;
-bool
+void
 visitRegExpReplace
 (
 MRegExpReplace
@@ -1246,7 +1246,7 @@ MRegExpReplace
 ins
 )
 ;
-bool
+void
 visitStringReplace
 (
 MStringReplace
@@ -1254,7 +1254,7 @@ MStringReplace
 ins
 )
 ;
-bool
+void
 visitLambda
 (
 MLambda
@@ -1262,7 +1262,7 @@ MLambda
 ins
 )
 ;
-bool
+void
 visitLambdaArrow
 (
 MLambdaArrow
@@ -1270,7 +1270,7 @@ MLambdaArrow
 ins
 )
 ;
-bool
+void
 visitLambdaPar
 (
 MLambdaPar
@@ -1278,7 +1278,7 @@ MLambdaPar
 ins
 )
 ;
-bool
+void
 visitSlots
 (
 MSlots
@@ -1286,7 +1286,7 @@ MSlots
 ins
 )
 ;
-bool
+void
 visitElements
 (
 MElements
@@ -1294,7 +1294,7 @@ MElements
 ins
 )
 ;
-bool
+void
 visitConstantElements
 (
 MConstantElements
@@ -1302,7 +1302,7 @@ MConstantElements
 ins
 )
 ;
-bool
+void
 visitConvertElementsToDoubles
 (
 MConvertElementsToDoubles
@@ -1310,7 +1310,7 @@ MConvertElementsToDoubles
 ins
 )
 ;
-bool
+void
 visitMaybeToDoubleElement
 (
 MMaybeToDoubleElement
@@ -1318,7 +1318,7 @@ MMaybeToDoubleElement
 ins
 )
 ;
-bool
+void
 visitMaybeCopyElementsForWrite
 (
 MMaybeCopyElementsForWrite
@@ -1326,7 +1326,7 @@ MMaybeCopyElementsForWrite
 ins
 )
 ;
-bool
+void
 visitLoadSlot
 (
 MLoadSlot
@@ -1334,7 +1334,7 @@ MLoadSlot
 ins
 )
 ;
-bool
+void
 visitFunctionEnvironment
 (
 MFunctionEnvironment
@@ -1342,7 +1342,7 @@ MFunctionEnvironment
 ins
 )
 ;
-bool
+void
 visitForkJoinContext
 (
 MForkJoinContext
@@ -1350,7 +1350,7 @@ MForkJoinContext
 ins
 )
 ;
-bool
+void
 visitGuardThreadExclusive
 (
 MGuardThreadExclusive
@@ -1358,7 +1358,7 @@ MGuardThreadExclusive
 ins
 )
 ;
-bool
+void
 visitInterruptCheck
 (
 MInterruptCheck
@@ -1366,7 +1366,7 @@ MInterruptCheck
 ins
 )
 ;
-bool
+void
 visitAsmJSInterruptCheck
 (
 MAsmJSInterruptCheck
@@ -1374,7 +1374,7 @@ MAsmJSInterruptCheck
 ins
 )
 ;
-bool
+void
 visitInterruptCheckPar
 (
 MInterruptCheckPar
@@ -1382,7 +1382,7 @@ MInterruptCheckPar
 ins
 )
 ;
-bool
+void
 visitStoreSlot
 (
 MStoreSlot
@@ -1390,7 +1390,7 @@ MStoreSlot
 ins
 )
 ;
-bool
+void
 visitFilterTypeSet
 (
 MFilterTypeSet
@@ -1398,7 +1398,7 @@ MFilterTypeSet
 ins
 )
 ;
-bool
+void
 visitTypeBarrier
 (
 MTypeBarrier
@@ -1406,7 +1406,7 @@ MTypeBarrier
 ins
 )
 ;
-bool
+void
 visitMonitorTypes
 (
 MMonitorTypes
@@ -1414,7 +1414,7 @@ MMonitorTypes
 ins
 )
 ;
-bool
+void
 visitPostWriteBarrier
 (
 MPostWriteBarrier
@@ -1422,7 +1422,7 @@ MPostWriteBarrier
 ins
 )
 ;
-bool
+void
 visitArrayLength
 (
 MArrayLength
@@ -1430,7 +1430,7 @@ MArrayLength
 ins
 )
 ;
-bool
+void
 visitSetArrayLength
 (
 MSetArrayLength
@@ -1438,7 +1438,7 @@ MSetArrayLength
 ins
 )
 ;
-bool
+void
 visitTypedArrayLength
 (
 MTypedArrayLength
@@ -1446,7 +1446,7 @@ MTypedArrayLength
 ins
 )
 ;
-bool
+void
 visitTypedArrayElements
 (
 MTypedArrayElements
@@ -1454,7 +1454,7 @@ MTypedArrayElements
 ins
 )
 ;
-bool
+void
 visitTypedObjectElements
 (
 MTypedObjectElements
@@ -1462,7 +1462,7 @@ MTypedObjectElements
 ins
 )
 ;
-bool
+void
 visitSetTypedObjectOffset
 (
 MSetTypedObjectOffset
@@ -1470,7 +1470,7 @@ MSetTypedObjectOffset
 ins
 )
 ;
-bool
+void
 visitTypedObjectProto
 (
 MTypedObjectProto
@@ -1478,7 +1478,7 @@ MTypedObjectProto
 ins
 )
 ;
-bool
+void
 visitInitializedLength
 (
 MInitializedLength
@@ -1486,7 +1486,7 @@ MInitializedLength
 ins
 )
 ;
-bool
+void
 visitSetInitializedLength
 (
 MSetInitializedLength
@@ -1494,7 +1494,7 @@ MSetInitializedLength
 ins
 )
 ;
-bool
+void
 visitNot
 (
 MNot
@@ -1502,7 +1502,7 @@ MNot
 ins
 )
 ;
-bool
+void
 visitBoundsCheck
 (
 MBoundsCheck
@@ -1510,7 +1510,7 @@ MBoundsCheck
 ins
 )
 ;
-bool
+void
 visitBoundsCheckLower
 (
 MBoundsCheckLower
@@ -1518,7 +1518,7 @@ MBoundsCheckLower
 ins
 )
 ;
-bool
+void
 visitLoadElement
 (
 MLoadElement
@@ -1526,7 +1526,7 @@ MLoadElement
 ins
 )
 ;
-bool
+void
 visitLoadElementHole
 (
 MLoadElementHole
@@ -1534,7 +1534,7 @@ MLoadElementHole
 ins
 )
 ;
-bool
+void
 visitLoadUnboxedObjectOrNull
 (
 MLoadUnboxedObjectOrNull
@@ -1542,7 +1542,7 @@ MLoadUnboxedObjectOrNull
 ins
 )
 ;
-bool
+void
 visitLoadUnboxedString
 (
 MLoadUnboxedString
@@ -1550,7 +1550,7 @@ MLoadUnboxedString
 ins
 )
 ;
-bool
+void
 visitStoreElement
 (
 MStoreElement
@@ -1558,7 +1558,7 @@ MStoreElement
 ins
 )
 ;
-bool
+void
 visitStoreElementHole
 (
 MStoreElementHole
@@ -1566,7 +1566,7 @@ MStoreElementHole
 ins
 )
 ;
-bool
+void
 visitStoreUnboxedObjectOrNull
 (
 MStoreUnboxedObjectOrNull
@@ -1574,7 +1574,7 @@ MStoreUnboxedObjectOrNull
 ins
 )
 ;
-bool
+void
 visitStoreUnboxedString
 (
 MStoreUnboxedString
@@ -1582,7 +1582,7 @@ MStoreUnboxedString
 ins
 )
 ;
-bool
+void
 visitEffectiveAddress
 (
 MEffectiveAddress
@@ -1590,7 +1590,7 @@ MEffectiveAddress
 ins
 )
 ;
-bool
+void
 visitArrayPopShift
 (
 MArrayPopShift
@@ -1598,7 +1598,7 @@ MArrayPopShift
 ins
 )
 ;
-bool
+void
 visitArrayPush
 (
 MArrayPush
@@ -1606,7 +1606,7 @@ MArrayPush
 ins
 )
 ;
-bool
+void
 visitArrayConcat
 (
 MArrayConcat
@@ -1614,7 +1614,7 @@ MArrayConcat
 ins
 )
 ;
-bool
+void
 visitArrayJoin
 (
 MArrayJoin
@@ -1622,7 +1622,7 @@ MArrayJoin
 ins
 )
 ;
-bool
+void
 visitLoadTypedArrayElement
 (
 MLoadTypedArrayElement
@@ -1630,7 +1630,7 @@ MLoadTypedArrayElement
 ins
 )
 ;
-bool
+void
 visitLoadTypedArrayElementHole
 (
 MLoadTypedArrayElementHole
@@ -1638,7 +1638,7 @@ MLoadTypedArrayElementHole
 ins
 )
 ;
-bool
+void
 visitLoadTypedArrayElementStatic
 (
 MLoadTypedArrayElementStatic
@@ -1646,7 +1646,7 @@ MLoadTypedArrayElementStatic
 ins
 )
 ;
-bool
+void
 visitStoreTypedArrayElement
 (
 MStoreTypedArrayElement
@@ -1654,7 +1654,7 @@ MStoreTypedArrayElement
 ins
 )
 ;
-bool
+void
 visitStoreTypedArrayElementHole
 (
 MStoreTypedArrayElementHole
@@ -1662,7 +1662,7 @@ MStoreTypedArrayElementHole
 ins
 )
 ;
-bool
+void
 visitClampToUint8
 (
 MClampToUint8
@@ -1670,7 +1670,7 @@ MClampToUint8
 ins
 )
 ;
-bool
+void
 visitLoadFixedSlot
 (
 MLoadFixedSlot
@@ -1678,7 +1678,7 @@ MLoadFixedSlot
 ins
 )
 ;
-bool
+void
 visitStoreFixedSlot
 (
 MStoreFixedSlot
@@ -1686,7 +1686,7 @@ MStoreFixedSlot
 ins
 )
 ;
-bool
+void
 visitGetPropertyCache
 (
 MGetPropertyCache
@@ -1694,7 +1694,7 @@ MGetPropertyCache
 ins
 )
 ;
-bool
+void
 visitGetPropertyPolymorphic
 (
 MGetPropertyPolymorphic
@@ -1702,7 +1702,7 @@ MGetPropertyPolymorphic
 ins
 )
 ;
-bool
+void
 visitSetPropertyPolymorphic
 (
 MSetPropertyPolymorphic
@@ -1710,7 +1710,7 @@ MSetPropertyPolymorphic
 ins
 )
 ;
-bool
+void
 visitGetElementCache
 (
 MGetElementCache
@@ -1718,7 +1718,7 @@ MGetElementCache
 ins
 )
 ;
-bool
+void
 visitBindNameCache
 (
 MBindNameCache
@@ -1726,7 +1726,7 @@ MBindNameCache
 ins
 )
 ;
-bool
+void
 visitGuardObjectIdentity
 (
 MGuardObjectIdentity
@@ -1734,7 +1734,7 @@ MGuardObjectIdentity
 ins
 )
 ;
-bool
+void
 visitGuardClass
 (
 MGuardClass
@@ -1742,7 +1742,7 @@ MGuardClass
 ins
 )
 ;
-bool
+void
 visitGuardObject
 (
 MGuardObject
@@ -1750,7 +1750,7 @@ MGuardObject
 ins
 )
 ;
-bool
+void
 visitGuardString
 (
 MGuardString
@@ -1758,7 +1758,7 @@ MGuardString
 ins
 )
 ;
-bool
+void
 visitGuardShapePolymorphic
 (
 MGuardShapePolymorphic
@@ -1766,7 +1766,7 @@ MGuardShapePolymorphic
 ins
 )
 ;
-bool
+void
 visitAssertRange
 (
 MAssertRange
@@ -1774,7 +1774,7 @@ MAssertRange
 ins
 )
 ;
-bool
+void
 visitCallGetProperty
 (
 MCallGetProperty
@@ -1782,7 +1782,7 @@ MCallGetProperty
 ins
 )
 ;
-bool
+void
 visitDeleteProperty
 (
 MDeleteProperty
@@ -1790,7 +1790,7 @@ MDeleteProperty
 ins
 )
 ;
-bool
+void
 visitDeleteElement
 (
 MDeleteElement
@@ -1798,7 +1798,7 @@ MDeleteElement
 ins
 )
 ;
-bool
+void
 visitGetNameCache
 (
 MGetNameCache
@@ -1806,7 +1806,7 @@ MGetNameCache
 ins
 )
 ;
-bool
+void
 visitCallGetIntrinsicValue
 (
 MCallGetIntrinsicValue
@@ -1814,7 +1814,7 @@ MCallGetIntrinsicValue
 ins
 )
 ;
-bool
+void
 visitCallsiteCloneCache
 (
 MCallsiteCloneCache
@@ -1822,7 +1822,7 @@ MCallsiteCloneCache
 ins
 )
 ;
-bool
+void
 visitCallGetElement
 (
 MCallGetElement
@@ -1830,7 +1830,7 @@ MCallGetElement
 ins
 )
 ;
-bool
+void
 visitCallSetElement
 (
 MCallSetElement
@@ -1838,7 +1838,7 @@ MCallSetElement
 ins
 )
 ;
-bool
+void
 visitCallInitElementArray
 (
 MCallInitElementArray
@@ -1846,7 +1846,7 @@ MCallInitElementArray
 ins
 )
 ;
-bool
+void
 visitSetPropertyCache
 (
 MSetPropertyCache
@@ -1854,7 +1854,7 @@ MSetPropertyCache
 ins
 )
 ;
-bool
+void
 visitSetElementCache
 (
 MSetElementCache
@@ -1862,7 +1862,7 @@ MSetElementCache
 ins
 )
 ;
-bool
+void
 visitCallSetProperty
 (
 MCallSetProperty
@@ -1870,7 +1870,7 @@ MCallSetProperty
 ins
 )
 ;
-bool
+void
 visitIteratorStart
 (
 MIteratorStart
@@ -1878,7 +1878,7 @@ MIteratorStart
 ins
 )
 ;
-bool
+void
 visitIteratorMore
 (
 MIteratorMore
@@ -1886,7 +1886,7 @@ MIteratorMore
 ins
 )
 ;
-bool
+void
 visitIsNoIter
 (
 MIsNoIter
@@ -1894,7 +1894,7 @@ MIsNoIter
 ins
 )
 ;
-bool
+void
 visitIteratorEnd
 (
 MIteratorEnd
@@ -1902,7 +1902,7 @@ MIteratorEnd
 ins
 )
 ;
-bool
+void
 visitStringLength
 (
 MStringLength
@@ -1910,7 +1910,7 @@ MStringLength
 ins
 )
 ;
-bool
+void
 visitArgumentsLength
 (
 MArgumentsLength
@@ -1918,7 +1918,7 @@ MArgumentsLength
 ins
 )
 ;
-bool
+void
 visitGetFrameArgument
 (
 MGetFrameArgument
@@ -1926,7 +1926,7 @@ MGetFrameArgument
 ins
 )
 ;
-bool
+void
 visitSetFrameArgument
 (
 MSetFrameArgument
@@ -1934,7 +1934,7 @@ MSetFrameArgument
 ins
 )
 ;
-bool
+void
 visitRunOncePrologue
 (
 MRunOncePrologue
@@ -1942,7 +1942,7 @@ MRunOncePrologue
 ins
 )
 ;
-bool
+void
 visitRest
 (
 MRest
@@ -1950,7 +1950,7 @@ MRest
 ins
 )
 ;
-bool
+void
 visitRestPar
 (
 MRestPar
@@ -1958,7 +1958,7 @@ MRestPar
 ins
 )
 ;
-bool
+void
 visitThrow
 (
 MThrow
@@ -1966,7 +1966,7 @@ MThrow
 ins
 )
 ;
-bool
+void
 visitIn
 (
 MIn
@@ -1974,7 +1974,7 @@ MIn
 ins
 )
 ;
-bool
+void
 visitInArray
 (
 MInArray
@@ -1982,7 +1982,7 @@ MInArray
 ins
 )
 ;
-bool
+void
 visitInstanceOf
 (
 MInstanceOf
@@ -1990,7 +1990,7 @@ MInstanceOf
 ins
 )
 ;
-bool
+void
 visitCallInstanceOf
 (
 MCallInstanceOf
@@ -1998,7 +1998,7 @@ MCallInstanceOf
 ins
 )
 ;
-bool
+void
 visitProfilerStackOp
 (
 MProfilerStackOp
@@ -2006,7 +2006,7 @@ MProfilerStackOp
 ins
 )
 ;
-bool
+void
 visitIsCallable
 (
 MIsCallable
@@ -2014,7 +2014,7 @@ MIsCallable
 ins
 )
 ;
-bool
+void
 visitIsObject
 (
 MIsObject
@@ -2022,7 +2022,7 @@ MIsObject
 ins
 )
 ;
-bool
+void
 visitHaveSameClass
 (
 MHaveSameClass
@@ -2030,7 +2030,7 @@ MHaveSameClass
 ins
 )
 ;
-bool
+void
 visitHasClass
 (
 MHasClass
@@ -2038,7 +2038,7 @@ MHasClass
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadGlobalVar
 (
 MAsmJSLoadGlobalVar
@@ -2046,7 +2046,7 @@ MAsmJSLoadGlobalVar
 ins
 )
 ;
-bool
+void
 visitAsmJSStoreGlobalVar
 (
 MAsmJSStoreGlobalVar
@@ -2054,7 +2054,7 @@ MAsmJSStoreGlobalVar
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadFFIFunc
 (
 MAsmJSLoadFFIFunc
@@ -2062,7 +2062,7 @@ MAsmJSLoadFFIFunc
 ins
 )
 ;
-bool
+void
 visitAsmJSParameter
 (
 MAsmJSParameter
@@ -2070,7 +2070,7 @@ MAsmJSParameter
 ins
 )
 ;
-bool
+void
 visitAsmJSReturn
 (
 MAsmJSReturn
@@ -2078,7 +2078,7 @@ MAsmJSReturn
 ins
 )
 ;
-bool
+void
 visitAsmJSVoidReturn
 (
 MAsmJSVoidReturn
@@ -2086,7 +2086,7 @@ MAsmJSVoidReturn
 ins
 )
 ;
-bool
+void
 visitAsmJSPassStackArg
 (
 MAsmJSPassStackArg
@@ -2094,7 +2094,7 @@ MAsmJSPassStackArg
 ins
 )
 ;
-bool
+void
 visitAsmJSCall
 (
 MAsmJSCall
@@ -2102,7 +2102,7 @@ MAsmJSCall
 ins
 )
 ;
-bool
+void
 visitSetDOMProperty
 (
 MSetDOMProperty
@@ -2110,7 +2110,7 @@ MSetDOMProperty
 ins
 )
 ;
-bool
+void
 visitGetDOMProperty
 (
 MGetDOMProperty
@@ -2118,7 +2118,7 @@ MGetDOMProperty
 ins
 )
 ;
-bool
+void
 visitGetDOMMember
 (
 MGetDOMMember
@@ -2126,7 +2126,7 @@ MGetDOMMember
 ins
 )
 ;
-bool
+void
 visitRecompileCheck
 (
 MRecompileCheck
@@ -2134,7 +2134,7 @@ MRecompileCheck
 ins
 )
 ;
-bool
+void
 visitMemoryBarrier
 (
 MMemoryBarrier
@@ -2142,7 +2142,7 @@ MMemoryBarrier
 ins
 )
 ;
-bool
+void
 visitSimdExtractElement
 (
 MSimdExtractElement
@@ -2150,7 +2150,7 @@ MSimdExtractElement
 ins
 )
 ;
-bool
+void
 visitSimdInsertElement
 (
 MSimdInsertElement
@@ -2158,7 +2158,7 @@ MSimdInsertElement
 ins
 )
 ;
-bool
+void
 visitSimdSignMask
 (
 MSimdSignMask
@@ -2166,7 +2166,7 @@ MSimdSignMask
 ins
 )
 ;
-bool
+void
 visitSimdSwizzle
 (
 MSimdSwizzle
@@ -2174,7 +2174,7 @@ MSimdSwizzle
 ins
 )
 ;
-bool
+void
 visitSimdShuffle
 (
 MSimdShuffle
@@ -2182,7 +2182,7 @@ MSimdShuffle
 ins
 )
 ;
-bool
+void
 visitSimdUnaryArith
 (
 MSimdUnaryArith
@@ -2190,7 +2190,7 @@ MSimdUnaryArith
 ins
 )
 ;
-bool
+void
 visitSimdBinaryComp
 (
 MSimdBinaryComp
@@ -2198,7 +2198,7 @@ MSimdBinaryComp
 ins
 )
 ;
-bool
+void
 visitSimdBinaryArith
 (
 MSimdBinaryArith
@@ -2206,7 +2206,7 @@ MSimdBinaryArith
 ins
 )
 ;
-bool
+void
 visitSimdBinaryBitwise
 (
 MSimdBinaryBitwise
@@ -2214,7 +2214,7 @@ MSimdBinaryBitwise
 ins
 )
 ;
-bool
+void
 visitSimdShift
 (
 MSimdShift
@@ -2222,7 +2222,7 @@ MSimdShift
 ins
 )
 ;
-bool
+void
 visitSimdConstant
 (
 MSimdConstant
@@ -2230,7 +2230,7 @@ MSimdConstant
 ins
 )
 ;
-bool
+void
 visitSimdConvert
 (
 MSimdConvert
@@ -2238,7 +2238,7 @@ MSimdConvert
 ins
 )
 ;
-bool
+void
 visitSimdReinterpretCast
 (
 MSimdReinterpretCast
@@ -2246,7 +2246,7 @@ MSimdReinterpretCast
 ins
 )
 ;
-bool
+void
 visitPhi
 (
 MPhi
@@ -2254,7 +2254,7 @@ MPhi
 ins
 )
 ;
-bool
+void
 visitBeta
 (
 MBeta
@@ -2262,7 +2262,7 @@ MBeta
 ins
 )
 ;
-bool
+void
 visitObjectState
 (
 MObjectState
@@ -2270,7 +2270,7 @@ MObjectState
 ins
 )
 ;
-bool
+void
 visitArrayState
 (
 MArrayState
@@ -2278,7 +2278,7 @@ MArrayState
 ins
 )
 ;
-bool
+void
 visitUnknownValue
 (
 MUnknownValue
@@ -2286,7 +2286,7 @@ MUnknownValue
 ins
 )
 ;
-bool
+void
 visitLexicalCheck
 (
 MLexicalCheck
@@ -2294,7 +2294,7 @@ MLexicalCheck
 ins
 )
 ;
-bool
+void
 visitThrowUninitializedLexical
 (
 MThrowUninitializedLexical
@@ -2302,7 +2302,7 @@ MThrowUninitializedLexical
 ins
 )
 ;
-bool
+void
 visitDebugger
 (
 MDebugger

@@ -188,7 +188,7 @@ MTableSwitch
 ins
 )
 ;
-bool
+void
 visitGuardShape
 (
 MGuardShape
@@ -196,7 +196,7 @@ MGuardShape
 ins
 )
 ;
-bool
+void
 visitGuardObjectType
 (
 MGuardObjectType
@@ -204,7 +204,7 @@ MGuardObjectType
 ins
 )
 ;
-bool
+void
 visitPowHalf
 (
 MPowHalf
@@ -212,7 +212,7 @@ MPowHalf
 ins
 )
 ;
-bool
+void
 lowerForShift
 (
 LInstructionHelper
@@ -234,7 +234,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerForALU
 (
 LInstructionHelper
@@ -253,7 +253,7 @@ MDefinition
 input
 )
 ;
-bool
+void
 lowerForALU
 (
 LInstructionHelper
@@ -280,7 +280,7 @@ template
 size_t
 Temps
 >
-bool
+void
 lowerForFPU
 (
 LInstructionHelper
@@ -302,7 +302,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerForCompIx4
 (
 LSimdBinaryCompIx4
@@ -319,7 +319,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerForCompFx4
 (
 LSimdBinaryCompFx4
@@ -336,7 +336,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerForBitAndAndBranch
 (
 LBitAndAndBranch
@@ -353,7 +353,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 visitConstant
 (
 MConstant
@@ -361,7 +361,7 @@ MConstant
 ins
 )
 ;
-bool
+void
 visitAsmJSNeg
 (
 MAsmJSNeg
@@ -369,7 +369,7 @@ MAsmJSNeg
 ins
 )
 ;
-bool
+void
 lowerMulI
 (
 MMul
@@ -383,7 +383,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerDivI
 (
 MDiv
@@ -391,7 +391,7 @@ MDiv
 div
 )
 ;
-bool
+void
 lowerModI
 (
 MMod
@@ -399,7 +399,7 @@ MMod
 mod
 )
 ;
-bool
+void
 lowerUDiv
 (
 MDiv
@@ -407,7 +407,7 @@ MDiv
 div
 )
 ;
-bool
+void
 lowerUMod
 (
 MMod
@@ -415,7 +415,7 @@ MMod
 mod
 )
 ;
-bool
+void
 lowerUrshD
 (
 MUrsh
@@ -423,7 +423,7 @@ MUrsh
 mir
 )
 ;
-bool
+void
 lowerConstantDouble
 (
 double
@@ -433,7 +433,7 @@ MInstruction
 ins
 )
 ;
-bool
+void
 lowerConstantFloat32
 (
 float
@@ -443,7 +443,7 @@ MInstruction
 ins
 )
 ;
-bool
+void
 lowerTruncateDToInt32
 (
 MTruncateToInt32
@@ -451,7 +451,7 @@ MTruncateToInt32
 ins
 )
 ;
-bool
+void
 lowerTruncateFToInt32
 (
 MTruncateToInt32
@@ -459,7 +459,7 @@ MTruncateToInt32
 ins
 )
 ;
-bool
+void
 visitForkJoinGetSlice
 (
 MForkJoinGetSlice
@@ -467,7 +467,7 @@ MForkJoinGetSlice
 ins
 )
 ;
-bool
+void
 visitSimdTernaryBitwise
 (
 MSimdTernaryBitwise
@@ -475,7 +475,7 @@ MSimdTernaryBitwise
 ins
 )
 ;
-bool
+void
 visitSimdSplatX4
 (
 MSimdSplatX4
@@ -483,7 +483,7 @@ MSimdSplatX4
 ins
 )
 ;
-bool
+void
 visitSimdValueX4
 (
 MSimdValueX4
@@ -491,7 +491,7 @@ MSimdValueX4
 ins
 )
 ;
-bool
+void
 visitCompareExchangeTypedArrayElement
 (
 MCompareExchangeTypedArrayElement
@@ -499,7 +499,7 @@ MCompareExchangeTypedArrayElement
 ins
 )
 ;
-bool
+void
 visitAtomicTypedArrayElementBinop
 (
 MAtomicTypedArrayElementBinop
@@ -507,7 +507,7 @@ MAtomicTypedArrayElementBinop
 ins
 )
 ;
-bool
+void
 visitAsmJSCompareExchangeHeap
 (
 MAsmJSCompareExchangeHeap
@@ -515,7 +515,7 @@ MAsmJSCompareExchangeHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSAtomicBinopHeap
 (
 MAsmJSAtomicBinopHeap
