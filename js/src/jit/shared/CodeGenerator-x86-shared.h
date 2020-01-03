@@ -1585,6 +1585,14 @@ LSimdBinaryBitwiseX4
 lir
 )
 ;
+bool
+visitSimdSelect
+(
+LSimdSelect
+*
+ins
+)
+;
 /
 /
 Out

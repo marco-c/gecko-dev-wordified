@@ -735,6 +735,14 @@ ins
 )
 ;
 bool
+visitSimdTernaryBitwise
+(
+MSimdTernaryBitwise
+*
+ins
+)
+;
+bool
 visitSimdSplatX4
 (
 MSimdSplatX4
