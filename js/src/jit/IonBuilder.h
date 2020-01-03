@@ -1166,7 +1166,7 @@ jsbytecode
 join
 MBasicBlock
 *
-joinStart
+lhs
 )
 ;
 static
