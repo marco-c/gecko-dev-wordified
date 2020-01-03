@@ -381,6 +381,11 @@ mon
 mReentrantMonitor
 )
 ;
+if
+(
+mKeepGoing
+)
+{
 mon
 .
 Wait
@@ -391,6 +396,7 @@ kDefaultWifiScanInterval
 )
 )
 ;
+}
 }
 while
 (
