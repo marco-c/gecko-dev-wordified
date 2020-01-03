@@ -12967,7 +12967,7 @@ nsChangeHint_UpdateOverflow
 |
 nsChangeHint_UpdatePostTransformOverflow
 |
-nsChangeHint_UpdateContainingBlock
+nsChangeHint_AddOrRemoveTransform
 |
 nsChangeHint_NeutralChange
 )
@@ -19051,7 +19051,7 @@ nsChangeHint_UpdateEffects
 |
 nsChangeHint_UpdateOverflow
 |
-nsChangeHint_UpdateContainingBlock
+nsChangeHint_AddOrRemoveTransform
 |
 NS_STYLE_HINT_REFLOW
 ;

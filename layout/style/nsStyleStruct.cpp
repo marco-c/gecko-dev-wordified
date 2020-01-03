@@ -7477,7 +7477,7 @@ fixed
 NS_UpdateHint
 (
 hint
-nsChangeHint_UpdateContainingBlock
+nsChangeHint_AddOrRemoveTransform
 )
 ;
 }
@@ -16398,7 +16398,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_UpdateContainingBlock
+nsChangeHint_AddOrRemoveTransform
 NS_CombineHint
 (
 nsChangeHint_UpdateOverflow
@@ -16703,7 +16703,7 @@ fixed
 NS_UpdateHint
 (
 hint
-nsChangeHint_UpdateContainingBlock
+nsChangeHint_AddOrRemoveTransform
 )
 ;
 }
