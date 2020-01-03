@@ -166,7 +166,7 @@ nsIX509CertDB
 const
 SERVER_PORT
 =
-8080
+8888
 ;
 function
 start_ocsp_responder
