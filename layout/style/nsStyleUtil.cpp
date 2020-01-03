@@ -3289,17 +3289,6 @@ v
 }
 }
 }
-/
-/
-print
-all
-characters
-with
-at
-least
-four
-hex
-digits
 static
 void
 AppendSerializedUnicodePoint
@@ -3319,7 +3308,7 @@ nsPrintfCString
 (
 "
 %
-04X
+0X
 "
 aCode
 )
