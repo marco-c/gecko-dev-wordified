@@ -158,7 +158,7 @@ dom
 /
 cache
 /
-PCacheTypes
+CacheTypes
 .
 h
 "
@@ -241,7 +241,7 @@ dom
 cache
 :
 :
-PCacheReadStream
+CacheReadStream
 ;
 using
 mozilla
@@ -274,7 +274,7 @@ void
 StartDestroyStreamChild
 (
 const
-PCacheReadStream
+CacheReadStream
 &
 aReadStream
 )
@@ -396,7 +396,7 @@ void
 AddFeatureToStreamChild
 (
 const
-PCacheReadStream
+CacheReadStream
 &
 aReadStream
 Feature
@@ -445,7 +445,7 @@ void
 StartDestroyStreamChild
 (
 const
-PCacheResponseOrVoid
+CacheResponseOrVoid
 &
 aResponseOrVoid
 )
@@ -459,7 +459,7 @@ type
 )
 =
 =
-PCacheResponseOrVoid
+CacheResponseOrVoid
 :
 :
 Tvoid_t
@@ -472,7 +472,7 @@ StartDestroyStreamChild
 (
 aResponseOrVoid
 .
-get_PCacheResponse
+get_CacheResponse
 (
 )
 )
@@ -482,7 +482,7 @@ void
 StartDestroyStreamChild
 (
 const
-PCacheResponse
+CacheResponse
 &
 aResponse
 )
@@ -500,7 +500,7 @@ type
 )
 =
 =
-PCacheReadStreamOrVoid
+CacheReadStreamOrVoid
 :
 :
 Tvoid_t
@@ -517,7 +517,7 @@ body
 (
 )
 .
-get_PCacheReadStream
+get_CacheReadStream
 (
 )
 )
@@ -529,7 +529,7 @@ StartDestroyStreamChild
 const
 nsTArray
 <
-PCacheResponse
+CacheResponse
 >
 &
 aResponses
@@ -571,7 +571,7 @@ StartDestroyStreamChild
 const
 nsTArray
 <
-PCacheRequest
+CacheRequest
 >
 &
 aRequests
@@ -613,7 +613,7 @@ type
 )
 =
 =
-PCacheReadStreamOrVoid
+CacheReadStreamOrVoid
 :
 :
 Tvoid_t
@@ -633,7 +633,7 @@ body
 (
 )
 .
-get_PCacheReadStream
+get_CacheReadStream
 (
 )
 )
@@ -644,7 +644,7 @@ void
 AddFeatureToStreamChild
 (
 const
-PCacheResponseOrVoid
+CacheResponseOrVoid
 &
 aResponseOrVoid
 Feature
@@ -661,7 +661,7 @@ type
 )
 =
 =
-PCacheResponseOrVoid
+CacheResponseOrVoid
 :
 :
 Tvoid_t
@@ -674,7 +674,7 @@ AddFeatureToStreamChild
 (
 aResponseOrVoid
 .
-get_PCacheResponse
+get_CacheResponse
 (
 )
 aFeature
@@ -685,7 +685,7 @@ void
 AddFeatureToStreamChild
 (
 const
-PCacheResponse
+CacheResponse
 &
 aResponse
 Feature
@@ -706,7 +706,7 @@ type
 )
 =
 =
-PCacheReadStreamOrVoid
+CacheReadStreamOrVoid
 :
 :
 Tvoid_t
@@ -723,7 +723,7 @@ body
 (
 )
 .
-get_PCacheReadStream
+get_CacheReadStream
 (
 )
 aFeature
@@ -736,7 +736,7 @@ AddFeatureToStreamChild
 const
 nsTArray
 <
-PCacheResponse
+CacheResponse
 >
 &
 aResponses
@@ -782,7 +782,7 @@ AddFeatureToStreamChild
 const
 nsTArray
 <
-PCacheRequest
+CacheRequest
 >
 &
 aRequests
@@ -827,7 +827,7 @@ type
 )
 =
 =
-PCacheReadStreamOrVoid
+CacheReadStreamOrVoid
 :
 :
 Tvoid_t
@@ -847,7 +847,7 @@ body
 (
 )
 .
-get_PCacheReadStream
+get_CacheReadStream
 (
 )
 aFeature

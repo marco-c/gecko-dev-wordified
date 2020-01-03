@@ -202,7 +202,7 @@ dom
 /
 cache
 /
-PCacheTypes
+CacheTypes
 .
 h
 "
@@ -353,7 +353,7 @@ dom
 cache
 :
 :
-PCacheReadStream
+CacheReadStream
 ;
 using
 mozilla
@@ -786,7 +786,7 @@ SerializeNormalStream
 nsIInputStream
 *
 aStream
-PCacheReadStream
+CacheReadStream
 &
 aReadStreamOut
 )
@@ -1205,9 +1205,9 @@ void
 TypeUtils
 :
 :
-ToPCacheRequest
+ToCacheRequest
 (
-PCacheRequest
+CacheRequest
 &
 aOut
 InternalRequest
@@ -1574,9 +1574,9 @@ void
 TypeUtils
 :
 :
-ToPCacheResponseWithoutBody
+ToCacheResponseWithoutBody
 (
-PCacheResponse
+CacheResponse
 &
 aOut
 InternalResponse
@@ -1768,9 +1768,9 @@ void
 TypeUtils
 :
 :
-ToPCacheResponse
+ToCacheResponse
 (
-PCacheResponse
+CacheResponse
 &
 aOut
 Response
@@ -1812,7 +1812,7 @@ GetInternalResponse
 (
 )
 ;
-ToPCacheResponseWithoutBody
+ToCacheResponseWithoutBody
 (
 aOut
 *
@@ -1883,9 +1883,9 @@ void
 TypeUtils
 :
 :
-ToPCacheQueryParams
+ToCacheQueryParams
 (
-PCacheQueryParams
+CacheQueryParams
 &
 aOut
 const
@@ -1988,7 +1988,7 @@ TypeUtils
 ToResponse
 (
 const
-PCacheResponse
+CacheResponse
 &
 aIn
 )
@@ -2313,7 +2313,7 @@ TypeUtils
 ToInternalRequest
 (
 const
-PCacheRequest
+CacheRequest
 &
 aIn
 )
@@ -2590,7 +2590,7 @@ TypeUtils
 ToRequest
 (
 const
-PCacheRequest
+CacheRequest
 &
 aIn
 )
@@ -2886,7 +2886,7 @@ SerializeCacheStream
 nsIInputStream
 *
 aStream
-PCacheReadStreamOrVoid
+CacheReadStreamOrVoid
 *
 aStreamOut
 ErrorResult
@@ -2952,7 +2952,7 @@ aStreamOut
 return
 ;
 }
-PCacheReadStream
+CacheReadStream
 readStream
 ;
 readStream
@@ -3099,7 +3099,7 @@ SerializePushStream
 nsIInputStream
 *
 aStream
-PCacheReadStream
+CacheReadStream
 &
 aReadStreamOut
 ErrorResult
