@@ -9464,7 +9464,7 @@ null
 ;
 this
 .
-highlight
+selectElement
 (
 element
 )
@@ -9914,7 +9914,11 @@ destroy
 *
 Update
 the
-highlighted
+view
+with
+a
+new
+selected
 element
 .
 *
@@ -9937,7 +9941,7 @@ inspect
 .
 *
 /
-highlight
+selectElement
 :
 function
 (

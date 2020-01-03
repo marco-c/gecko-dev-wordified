@@ -2122,9 +2122,14 @@ refreshPanel
 *
 Update
 the
-highlighted
+view
+with
+a
+new
+selected
 element
 .
+*
 The
 CssHtmlTree
 panel
@@ -2132,7 +2137,6 @@ will
 show
 the
 style
-*
 information
 for
 the
@@ -2168,7 +2172,7 @@ complete
 .
 *
 /
-highlight
+selectElement
 :
 function
 (
