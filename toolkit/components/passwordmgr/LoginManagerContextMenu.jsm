@@ -539,7 +539,7 @@ event
 {
 this
 .
-_fillPassword
+_fillTargetField
 (
 login
 inputElement
@@ -1077,7 +1077,7 @@ involved
 .
 *
 /
-_fillPassword
+_fillTargetField
 (
 login
 inputElement
