@@ -140,13 +140,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-RELEASE_BUILD
-)
 #
 define
 DNSQUERY_AVAILABLE
