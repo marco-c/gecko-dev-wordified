@@ -1221,7 +1221,7 @@ doc
 .
 nodePrincipal
 ;
-sendRpcMessage
+sendSyncMessage
 (
 "
 contextmenu

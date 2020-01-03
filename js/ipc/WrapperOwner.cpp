@@ -5402,12 +5402,11 @@ JS_ReportError
 (
 cx
 "
-cross
--
+child
 process
-JS
-call
-failed
+crashed
+or
+timedout
 "
 )
 ;
