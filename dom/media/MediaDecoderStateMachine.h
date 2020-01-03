@@ -2139,13 +2139,6 @@ BreakCycles
 )
 ;
 }
-mDecodedStream
--
->
-DestroyData
-(
-)
-;
 mResource
 =
 nullptr
