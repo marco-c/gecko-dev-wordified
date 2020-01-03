@@ -1603,7 +1603,7 @@ int
 NULL
 )
 =
-123
+__LINE__
 ;
 \
 :
@@ -1657,7 +1657,7 @@ int
 NULL
 )
 =
-123
+__LINE__
 ;
 \
 TerminateProcess
@@ -1705,7 +1705,7 @@ int
 NULL
 )
 =
-123
+__LINE__
 ;
 \
 :
@@ -1741,7 +1741,7 @@ int
 NULL
 )
 =
-123
+__LINE__
 ;
 \
 abort
