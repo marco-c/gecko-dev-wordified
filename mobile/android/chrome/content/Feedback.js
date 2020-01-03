@@ -132,6 +132,12 @@ addTab
 about
 :
 feedback
+?
+source
+=
+feedback
+-
+prompt
 "
 {
 selected
