@@ -1,6 +1,6 @@
 /
 /
-Source
+Script
 .
 prototype
 .
@@ -56,8 +56,6 @@ return
 fw
 .
 script
-.
-source
 .
 sourceMapURL
 ;
@@ -188,8 +186,6 @@ assertEq
 frame
 .
 script
-.
-source
 .
 sourceMapURL
 '
