@@ -106,20 +106,6 @@ tempfile
 mkdtemp
 (
 )
-dsaNotOK_param_filename
-=
-'
-dsaNotOK_param
-.
-pem
-'
-dsaOK_param_filename
-=
-'
-dsaOK_param
-.
-pem
-'
 ca_ext_text
 =
 (
@@ -274,8 +260,6 @@ base_ext_text
 signer_key_filename
                                    
 signer_cert_filename
-dsa_param_filename
-                                   
 key_size
 generate_ev
 )
@@ -317,13 +301,10 @@ values
 '
 rsa
 '
-'
-dsa
-'
-                  
 or
 any
 of
+                  
 the
 curves
 found
@@ -461,17 +442,6 @@ in
 DER
 format
 .
-      
-dsa_param_filename
--
--
-the
-filename
-for
-the
-DSA
-param
-file
       
 key_size
 -
@@ -712,8 +682,6 @@ signer_cert_filename
         
 subject_string
         
-dsa_param_filename
-        
 key_size
 )
     
@@ -844,9 +812,6 @@ values
 '
 rsa
 '
-'
-dsa
-'
                   
 or
 any
@@ -910,33 +875,6 @@ generated
 "
 "
 "
-    
-if
-key_type
-=
-=
-'
-dsa
-'
-:
-        
-CertUtils
-.
-init_dsa
-(
-db_dir
-dsaNotOK_param_filename
-inadequate_key_size
-)
-        
-CertUtils
-.
-init_dsa
-(
-db_dir
-dsaOK_param_filename
-adequate_key_size
-)
     
 #
 Generate
@@ -1054,8 +992,6 @@ ca_ext_text
 '
 '
             
-dsaOK_param_filename
-            
 adequate_key_size
             
 generate_ev
@@ -1084,8 +1020,6 @@ caOK_key
         
 caOK_cert
         
-dsaOK_param_filename
-        
 adequate_key_size
         
 generate_ev
@@ -1107,8 +1041,6 @@ ee_ext_text
 intOK_key
         
 intOK_cert
-        
-dsaOK_param_filename
         
 adequate_key_size
         
@@ -1154,8 +1086,6 @@ ca_ext_text
 '
 '
         
-dsaNotOK_param_filename
-        
 inadequate_key_size
         
 generate_ev
@@ -1184,8 +1114,6 @@ rootNotOK_key
         
 rootNotOK_cert
         
-dsaOK_param_filename
-        
 adequate_key_size
         
 generate_ev
@@ -1207,8 +1135,6 @@ ee_ext_text
 int_key
         
 int_cert
-        
-dsaOK_param_filename
         
 adequate_key_size
         
@@ -1251,8 +1177,6 @@ caOK_key
         
 caOK_cert
         
-dsaNotOK_param_filename
-        
 inadequate_key_size
         
 generate_ev
@@ -1274,8 +1198,6 @@ ee_ext_text
 intNotOK_key
         
 intNotOK_cert
-        
-dsaOK_param_filename
         
 adequate_key_size
         
@@ -1312,8 +1234,6 @@ ee_ext_text
 intOK_key
         
 intOK_cert
-        
-dsaNotOK_param_filename
         
 inadequate_key_size
         
@@ -1410,19 +1330,6 @@ rsa
 2048
 '
 True
-)
-generate_certs
-(
-'
-dsa
-'
-'
-960
-'
-'
-1024
-'
-False
 )
 #
 Print
