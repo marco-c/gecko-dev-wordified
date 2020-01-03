@@ -13628,6 +13628,7 @@ mChildPerspective
 [
 reset
 ]
+none
 coord
 nsStyleCoord
 mPerspectiveOrigin
@@ -19101,13 +19102,12 @@ HasFilters
 const
 {
 return
+!
 mFilters
 .
-Length
+IsEmpty
 (
 )
->
-0
 ;
 }
 bool
