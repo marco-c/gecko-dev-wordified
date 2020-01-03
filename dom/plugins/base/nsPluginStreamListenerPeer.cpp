@@ -6799,14 +6799,15 @@ NS_IMETHODIMP
 OnRedirectVerifyCallback
 (
 nsresult
-result
+aResult
 )
+MOZ_OVERRIDE
 {
 if
 (
 NS_SUCCEEDED
 (
-result
+aResult
 )
 )
 {
@@ -6852,7 +6853,7 @@ mParent
 >
 OnRedirectVerifyCallback
 (
-result
+aResult
 )
 ;
 }

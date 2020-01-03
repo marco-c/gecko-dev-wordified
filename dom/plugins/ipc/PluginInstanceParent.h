@@ -1203,6 +1203,7 @@ PluginAsyncSurrogate
 GetAsyncSurrogate
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 PluginInstanceParent
@@ -1210,6 +1211,7 @@ PluginInstanceParent
 GetInstance
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
