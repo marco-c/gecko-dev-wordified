@@ -14248,6 +14248,13 @@ sweepNativeIterators
 (
 )
 ;
+c
+-
+>
+sweepTemplateObjects
+(
+)
+;
 }
 }
 template
@@ -30515,6 +30522,13 @@ c
 -
 >
 sweepWeakMaps
+(
+)
+;
+c
+-
+>
+sweepTemplateObjects
 (
 )
 ;
