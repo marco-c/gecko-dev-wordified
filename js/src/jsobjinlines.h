@@ -2025,12 +2025,9 @@ obj
 js
 :
 :
-NewGCObject
+Allocate
 <
-js
-:
-:
-CanGC
+JSObject
 >
 (
 cx
@@ -2077,7 +2074,10 @@ and
 assigned
 internally
 by
-NewGCObject
+Allocate
+<
+JSObject
+>
 .
 obj
 -

@@ -262,8 +262,12 @@ Symbol
 *
 p
 =
-NewGCSymbol
+Allocate
 <
+JS
+:
+:
+Symbol
 NoGC
 >
 (

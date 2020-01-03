@@ -9797,7 +9797,10 @@ ObjectGroup
 *
 group
 =
-NewObjectGroup
+Allocate
+<
+ObjectGroup
+>
 (
 cx
 )
