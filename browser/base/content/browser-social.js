@@ -5058,7 +5058,9 @@ PageMetadata
 GetMicrodata
 "
 null
+{
 target
+}
 )
 ;
 return

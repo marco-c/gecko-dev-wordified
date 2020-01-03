@@ -12937,7 +12937,6 @@ shareSelect
 function
 CM_shareSelect
 (
-selection
 )
 {
 SocialShare
@@ -12957,7 +12956,9 @@ currentURI
 spec
 text
 :
-selection
+this
+.
+textSelected
 }
 this
 .
