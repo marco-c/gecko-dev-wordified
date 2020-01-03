@@ -3307,7 +3307,10 @@ AsyncPanZoomController
 *
 aApzc
 const
-gfxPoint
+gfx
+:
+:
+Point
 &
 aHitTestPoint
 bool
