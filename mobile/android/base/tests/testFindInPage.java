@@ -400,7 +400,7 @@ nrOfMatches
 {
 selectMenuItem
 (
-StringHelper
+mStringHelper
 .
 FIND_IN_PAGE_LABEL
 )

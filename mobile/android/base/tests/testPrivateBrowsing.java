@@ -187,7 +187,7 @@ bigLinkUrl
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BIG_LINK_URL
 )
@@ -197,7 +197,7 @@ blank1Url
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -207,7 +207,7 @@ blank2Url
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -218,7 +218,7 @@ blockForGeckoReady
 ;
 inputAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 ABOUT_BLANK_URL
 )
@@ -226,7 +226,7 @@ ABOUT_BLANK_URL
 addTab
 (
 bigLinkUrl
-StringHelper
+mStringHelper
 .
 ROBOCOP_BIG_LINK_TITLE
 true
@@ -250,7 +250,7 @@ the
 options
 verifyContextMenuItems
 (
-StringHelper
+mStringHelper
 .
 CONTEXT_MENU_ITEMS_IN_PRIVATE_TAB
 )
@@ -280,7 +280,7 @@ mSolo
 .
 searchText
 (
-StringHelper
+mStringHelper
 .
 CONTEXT_MENU_ITEMS_IN_NORMAL_TAB
 [
@@ -359,7 +359,7 @@ mSolo
 .
 clickOnText
 (
-StringHelper
+mStringHelper
 .
 CONTEXT_MENU_ITEMS_IN_PRIVATE_TAB
 [
@@ -442,7 +442,7 @@ History
 addTab
 (
 blank2Url
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_02_TITLE
 false

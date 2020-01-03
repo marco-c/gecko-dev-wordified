@@ -462,6 +462,10 @@ if
 (
 StringHelper
 .
+get
+(
+)
+.
 ABOUT_HOME_URL
 .
 equals
@@ -473,6 +477,10 @@ absoluteURL
 expected
 =
 StringHelper
+.
+get
+(
+)
 .
 ABOUT_HOME_TITLE
 ;
@@ -897,6 +905,10 @@ i
 if
 (
 StringHelper
+.
+get
+(
+)
 .
 CONTENT_DESCRIPTION_READER_MODE_BUTTON
 .

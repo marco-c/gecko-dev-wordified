@@ -109,7 +109,7 @@ home
 new
 PageInfo
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )

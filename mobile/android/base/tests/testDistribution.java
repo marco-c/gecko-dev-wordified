@@ -3489,14 +3489,14 @@ reload
 .
 inputAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 ABOUT_BLANK_URL
 )
 ;
 inputAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )
@@ -3519,7 +3519,7 @@ response
 =
 clickTrackingTile
 (
-StringHelper
+mStringHelper
 .
 DISTRIBUTION1_LABEL
 )
@@ -3646,7 +3646,7 @@ matched
 ;
 inputAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )
@@ -3661,7 +3661,7 @@ tile
 .
 pinTopSite
 (
-StringHelper
+mStringHelper
 .
 DISTRIBUTION2_LABEL
 )
@@ -3683,7 +3683,7 @@ response
 =
 clickTrackingTile
 (
-StringHelper
+mStringHelper
 .
 DISTRIBUTION2_LABEL
 )
@@ -3796,7 +3796,7 @@ matched
 ;
 inputAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )
@@ -3811,7 +3811,7 @@ tile
 .
 unpinTopSite
 (
-StringHelper
+mStringHelper
 .
 DISTRIBUTION2_LABEL
 )

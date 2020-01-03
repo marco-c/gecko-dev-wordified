@@ -417,7 +417,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 getHarnessUrlForJavascript
 (

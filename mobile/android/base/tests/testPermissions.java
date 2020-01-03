@@ -138,7 +138,7 @@ loadAndPaint
 (
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_GEOLOCATION_URL
 )
