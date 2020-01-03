@@ -1601,17 +1601,6 @@ xpcshell
 ini
 "
                 
-#
-Bug
-1064002
--
-Land
-once
-mozharness
-changes
-land
-                
-#
 "
 -
 -
@@ -1625,6 +1614,16 @@ raw_log_file
 )
 s
 "
+                
+#
+Bug
+1064002
+-
+Land
+once
+mozharness
+changes
+land
                 
 #
 "
