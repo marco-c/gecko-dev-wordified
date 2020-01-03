@@ -536,6 +536,11 @@ AudioContext
 (
 )
 ;
+void
+Init
+(
+)
+;
 public
 :
 typedef
