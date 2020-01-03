@@ -197,8 +197,6 @@ nsIThreadInternal
 aThread
 bool
 aMayWait
-uint32_t
-aRecursionDepth
 )
 ;
 NS_IMETHOD
@@ -207,8 +205,6 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 aThread
-uint32_t
-aRecursionDepth
 bool
 aEventWasProcessed
 )

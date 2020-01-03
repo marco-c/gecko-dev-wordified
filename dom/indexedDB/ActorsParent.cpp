@@ -119396,12 +119396,6 @@ bool
 aMayWait
 *
 /
-uint32_t
-/
-*
-aRecursionDepth
-*
-/
 )
 {
 return
@@ -119419,12 +119413,6 @@ nsIThreadInternal
 /
 *
 aThread
-*
-/
-uint32_t
-/
-*
-aRecursionDepth
 *
 /
 bool

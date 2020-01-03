@@ -3184,13 +3184,6 @@ event
 forget
 (
 )
-nsContentUtils
-:
-:
-DispatchFailureHandling
-:
-:
-IgnoreFailure
 )
 ;
 }

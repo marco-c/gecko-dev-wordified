@@ -4341,8 +4341,6 @@ nsIThreadInternal
 thread
 bool
 mayWait
-uint32_t
-depth
 )
 {
 return
@@ -4358,8 +4356,6 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 thread
-uint32_t
-depth
 bool
 eventWasProcessed
 )

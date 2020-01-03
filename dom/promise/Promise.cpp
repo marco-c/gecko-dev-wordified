@@ -2760,6 +2760,13 @@ ref
 )
 ;
 }
+runtime
+-
+>
+AfterProcessMicrotask
+(
+)
+;
 }
 while
 (
