@@ -248,6 +248,10 @@ xpcnativewrappers
 '
 tablet
 '
+        
+'
+process
+'
     
 ]
     
