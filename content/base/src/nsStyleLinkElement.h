@@ -302,6 +302,8 @@ aWillNotify
 bool
 *
 aIsAlternate
+bool
+aForceReload
 )
 MOZ_OVERRIDE
 ;
