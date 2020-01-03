@@ -668,10 +668,6 @@ PBrowserChild
 AllocPBrowserChild
 (
 const
-TabId
-&
-aTabId
-const
 IPCTabContext
 &
 aContext
@@ -680,9 +676,9 @@ uint32_t
 &
 aChromeFlags
 const
-ContentParentId
+uint64_t
 &
-aCpID
+aID
 const
 bool
 &
@@ -1865,7 +1861,7 @@ GetIndexedDBPath
 (
 )
 ;
-ContentParentId
+uint64_t
 GetID
 (
 )
@@ -1935,10 +1931,6 @@ PBrowserChild
 *
 actor
 const
-TabId
-&
-aTabId
-const
 IPCTabContext
 &
 context
@@ -1947,9 +1939,9 @@ uint32_t
 &
 chromeFlags
 const
-ContentParentId
+uint64_t
 &
-aCpID
+aID
 const
 bool
 &
@@ -1969,10 +1961,6 @@ PBrowserChild
 *
 aCctor
 const
-TabId
-&
-aTabId
-const
 IPCTabContext
 &
 aContext
@@ -1981,9 +1969,9 @@ uint32_t
 &
 aChromeFlags
 const
-ContentParentId
+uint64_t
 &
-aCpID
+aID
 const
 bool
 &
@@ -2154,7 +2142,7 @@ us
 .
 *
 /
-ContentParentId
+uint64_t
 mID
 ;
 AppInfo

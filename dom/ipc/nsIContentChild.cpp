@@ -379,10 +379,6 @@ nsIContentChild
 AllocPBrowserChild
 (
 const
-TabId
-&
-aTabId
-const
 IPCTabContext
 &
 aContext
@@ -391,9 +387,9 @@ uint32_t
 &
 aChromeFlags
 const
-ContentParentId
+uint64_t
 &
-aCpID
+aID
 const
 bool
 &
@@ -529,7 +525,6 @@ TabChild
 Create
 (
 this
-aTabId
 tc
 .
 GetTabContext
