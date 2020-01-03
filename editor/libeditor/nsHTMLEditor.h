@@ -1924,13 +1924,7 @@ bool
 NodeIsBlockStatic
 (
 const
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsINode
 *
 aElement
 )
