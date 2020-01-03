@@ -2455,7 +2455,7 @@ eFullscreenEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_FULLSCREENERROR
+eFullscreenError
 eFullscreenEventFirst
 +
 1
