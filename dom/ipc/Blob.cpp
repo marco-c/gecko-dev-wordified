@@ -17263,7 +17263,7 @@ ASSERT_UNLESS_FUZZING
 )
 ;
 return
-nullptr
+false
 ;
 }
 ErrorResult
@@ -17307,7 +17307,7 @@ ASSERT_UNLESS_FUZZING
 )
 ;
 return
-nullptr
+false
 ;
 }
 nsRefPtr
