@@ -51563,15 +51563,6 @@ index
 )
 const
 ;
-bool
-isRecoverableOperand
-(
-MUse
-*
-u
-)
-const
-;
 MDefinition
 *
 getOperand
