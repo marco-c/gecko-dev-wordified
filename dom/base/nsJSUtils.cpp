@@ -328,6 +328,9 @@ aFilename
 uint32_t
 *
 aLineno
+uint32_t
+*
+aColumn
 )
 {
 JS
@@ -348,6 +351,7 @@ aContext
 &
 filename
 aLineno
+aColumn
 )
 )
 {
@@ -385,6 +389,9 @@ aFilename
 uint32_t
 *
 aLineno
+uint32_t
+*
+aColumn
 )
 {
 JS
@@ -405,6 +412,7 @@ aContext
 &
 filename
 aLineno
+aColumn
 )
 )
 {
