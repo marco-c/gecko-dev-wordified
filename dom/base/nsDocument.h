@@ -9592,11 +9592,6 @@ mAllowRelocking
 :
 1
 ;
-bool
-mAsyncFullscreenPending
-:
-1
-;
 /
 /
 Whether
@@ -9729,6 +9724,9 @@ uint8_t
 mCancelledPointerLockRequests
 :
 2
+;
+uint8_t
+mPendingFullscreenRequests
 ;
 uint8_t
 mXMLDeclarationBits
