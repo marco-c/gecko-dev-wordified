@@ -7551,12 +7551,6 @@ init
 (
 )
 ;
-ReadingListUI
-.
-init
-(
-)
-;
 #
 ifdef
 XP_WIN
@@ -9078,6 +9072,12 @@ init
 ;
 #
 endif
+ReadingListUI
+.
+init
+(
+)
+;
 /
 /
 Initialize
