@@ -4931,10 +4931,10 @@ val
 )
 )
 {
-JSString
-*
+RootedString
 tmp
-=
+(
+cx
 ToString
 <
 CanGC
@@ -4943,6 +4943,7 @@ CanGC
 cx
 val
 )
+)
 ;
 if
 (
@@ -4950,7 +4951,7 @@ tmp
 )
 filename
 .
-encodeLatin1
+encodeUtf8
 (
 cx
 tmp
@@ -5225,7 +5226,7 @@ message_
 =
 bytesStorage
 .
-encodeLatin1
+encodeUtf8
 (
 cx
 str
