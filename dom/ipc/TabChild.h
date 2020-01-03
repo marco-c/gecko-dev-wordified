@@ -2993,6 +2993,13 @@ aActivated
 )
 override
 ;
+virtual
+bool
+RecvStopIMEStateManagement
+(
+)
+override
+;
 #
 ifdef
 MOZ_WIDGET_GONK
