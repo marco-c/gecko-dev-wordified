@@ -402,12 +402,12 @@ with
 fewer
 preds
 size_t
-numBlocksDeleted_
+numBlocksDiscarded_
 ;
 /
 /
 Num
-deleted
+discarded
 blocks
 in
 current
@@ -464,7 +464,7 @@ SetUseRemoved
 }
 ;
 bool
-deleteDefsRecursively
+discardDefsRecursively
 (
 MDefinition
 *
@@ -500,7 +500,7 @@ SetUseRemoved
 )
 ;
 bool
-deleteDef
+discardDef
 (
 MDefinition
 *

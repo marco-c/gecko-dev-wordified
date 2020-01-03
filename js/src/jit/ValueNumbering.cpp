@@ -810,7 +810,7 @@ given
 def
 will
 be
-deleted
+discarded
 so
 remove
 it
@@ -1643,7 +1643,7 @@ false
 }
 /
 /
-Delete
+Discard
 the
 given
 instruction
@@ -1667,7 +1667,7 @@ bool
 ValueNumberer
 :
 :
-deleteDefsRecursively
+discardDefsRecursively
 (
 MDefinition
 *
@@ -1675,7 +1675,7 @@ def
 )
 {
 return
-deleteDef
+discardDef
 (
 def
 )
@@ -1714,7 +1714,7 @@ push
 it
 to
 the
-delete
+discard
 worklist
 .
 bool
@@ -1872,7 +1872,7 @@ push
 it
 to
 the
-delete
+discard
 worklist
 .
 bool
@@ -1981,7 +1981,7 @@ bool
 ValueNumberer
 :
 :
-deleteDef
+discardDef
 (
 MDefinition
 *
@@ -1994,7 +1994,7 @@ JitSpew
 (
 JitSpew_GVN
 "
-Deleting
+Discarding
 %
 s
 %
@@ -2021,7 +2021,7 @@ IsDead
 def
 )
 "
-Deleting
+Discarding
 non
 -
 dead
@@ -2039,7 +2039,7 @@ has
 def
 )
 "
-Deleting
+Discarding
 an
 instruction
 still
@@ -2161,7 +2161,7 @@ true
 /
 /
 Recursively
-delete
+discard
 all
 the
 defs
@@ -2208,7 +2208,7 @@ def
 if
 (
 !
-deleteDef
+discardDef
 (
 def
 )
@@ -2223,7 +2223,7 @@ true
 }
 /
 /
-Delete
+Remove
 an
 edge
 from
@@ -2282,7 +2282,7 @@ pred
 {
 /
 /
-Deleting
+Discarding
 the
 entry
 into
@@ -2399,7 +2399,7 @@ should
 detect
 this
 and
-delete
+discard
 them
 .
 /
@@ -2450,7 +2450,7 @@ isUnreachableLoop
 }
 /
 /
-Delete
+Discard
 the
 given
 block
@@ -2737,7 +2737,7 @@ JitSpew
 (
 JitSpew_GVN
 "
-Deleting
+Discarding
 block
 %
 u
@@ -2833,7 +2833,7 @@ JitSpew
 (
 JitSpew_GVN
 "
-Deleting
+Discarding
 %
 s
 %
@@ -2869,7 +2869,7 @@ JitSpew
 (
 JitSpew_GVN
 "
-Deleting
+Discarding
 %
 s
 %
@@ -2906,7 +2906,7 @@ s
 tree
 have
 been
-deleted
+discarded
 .
 if
 (
@@ -2920,7 +2920,7 @@ block
 )
 +
 +
-numBlocksDeleted_
+numBlocksDiscarded_
 ;
 /
 /
@@ -2929,7 +2929,7 @@ TODO
 Removing
 a
 block
-deletes
+discards
 the
 phis
 instructions
@@ -2955,7 +2955,7 @@ should
 detect
 this
 and
-delete
+discard
 them
 .
 In
@@ -3436,7 +3436,7 @@ Termination
 is
 ensured
 by
-deleting
+discarding
 the
 phi
 triggering
@@ -3792,7 +3792,7 @@ and
 let
 it
 be
-deleted
+discarded
 .
 def
 -
@@ -3812,7 +3812,7 @@ def
 if
 (
 !
-deleteDefsRecursively
+discardDefsRecursively
 (
 def
 )
@@ -3985,7 +3985,7 @@ and
 let
 it
 be
-deleted
+discarded
 .
 def
 -
@@ -4004,7 +4004,7 @@ def
 {
 /
 /
-deleteDef
+discardDef
 should
 not
 add
@@ -4034,7 +4034,7 @@ bool
 >
 r
 =
-deleteDef
+discardDef
 (
 def
 DontSetUseRemoved
@@ -4044,7 +4044,7 @@ MOZ_ASSERT
 (
 r
 "
-deleteDef
+discardDef
 shouldn
 '
 t
@@ -4076,7 +4076,7 @@ empty
 (
 )
 "
-deleteDef
+discardDef
 shouldn
 '
 t
@@ -4632,7 +4632,7 @@ the
 definition
 is
 dead
-delete
+discard
 it
 .
 if
@@ -4646,7 +4646,7 @@ def
 if
 (
 !
-deleteDefsRecursively
+discardDefsRecursively
 (
 def
 )
@@ -4786,12 +4786,12 @@ point
 ;
 MOZ_ASSERT
 (
-numBlocksDeleted_
+numBlocksDiscarded_
 =
 =
 0
 "
-numBlocksDeleted_
+numBlocksDiscarded_
 wasn
 '
 t
@@ -5059,7 +5059,7 @@ numDominated
 (
 )
 -
-numBlocksDeleted_
+numBlocksDiscarded_
 "
 Visited
 blocks
@@ -5081,7 +5081,7 @@ numDominated
 (
 )
 -
-numBlocksDeleted_
+numBlocksDiscarded_
 )
 break
 ;
@@ -5098,7 +5098,7 @@ clear
 (
 )
 ;
-numBlocksDeleted_
+numBlocksDiscarded_
 =
 0
 ;
@@ -5361,7 +5361,7 @@ alloc
 (
 )
 )
-numBlocksDeleted_
+numBlocksDiscarded_
 (
 0
 )
@@ -5550,15 +5550,15 @@ significant
 change
 such
 as
-deleting
+discarding
 a
 block
 which
 changes
 the
+/
+/
 dominator
-/
-/
 tree
 and
 may
@@ -5569,6 +5569,8 @@ this
 loop
 takes
 another
+/
+/
 iteration
 .
 int
@@ -5852,7 +5854,7 @@ re
 -
 run
 we
-delete
+discard
 the
 construct
 which
