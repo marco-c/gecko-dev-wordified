@@ -2523,9 +2523,7 @@ const
 nsAString
 &
 aBdAddr
-const
-nsAString
-&
+BluetoothSspVariant
 aVariant
 bool
 aAccept
@@ -2571,14 +2569,7 @@ BluetoothAddress
 (
 aBdAddr
 )
-PackConversion
-<
-nsAString
-BluetoothSspVariant
->
-(
 aVariant
-)
 aAccept
 aPasskey
 *
@@ -10920,9 +10911,7 @@ const
 nsAString
 &
 aBdAddr
-const
-nsAString
-&
+BluetoothSspVariant
 aVariant
 bool
 aAccept
