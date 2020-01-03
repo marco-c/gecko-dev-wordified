@@ -288,6 +288,11 @@ include
 <
 sstream
 >
+#
+include
+<
+iterator
+>
 namespace
 gl
 {
@@ -1860,7 +1865,7 @@ deleteFenceSync
 (
 reinterpret_cast
 <
-GLuint
+uintptr_t
 >
 (
 fenceSync
@@ -2358,7 +2363,7 @@ getFenceSync
 (
 reinterpret_cast
 <
-GLuint
+uintptr_t
 >
 (
 handle
