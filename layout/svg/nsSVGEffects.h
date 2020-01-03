@@ -892,6 +892,7 @@ mElement
 struct
 nsSVGFrameReferenceFromProperty
 {
+explicit
 nsSVGFrameReferenceFromProperty
 (
 nsIFrame
