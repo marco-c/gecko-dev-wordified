@@ -1152,16 +1152,6 @@ color
 ;
 }
 ;
-enum
-class
-TaskStatus
-{
-Complete
-Wait
-Yield
-Error
-}
-;
 }
 /
 /
