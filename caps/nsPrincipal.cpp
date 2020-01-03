@@ -3140,16 +3140,6 @@ com
 NS_LITERAL_CSTRING
 (
 "
-music
-.
-baidu
-.
-com
-"
-)
-NS_LITERAL_CSTRING
-(
-"
 3g
 .
 163
