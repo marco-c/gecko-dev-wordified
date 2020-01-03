@@ -1499,13 +1499,6 @@ mDecoded
 +
 +
 ;
-currentFrameTime
-+
-=
-USECS_PER_S
-/
-mFrameRate
-;
 return
 true
 ;
