@@ -719,7 +719,7 @@ Otherwise
 returns
 an
 empty
-LookupResult
+DrawableFrameRef
 .
 It
 is
@@ -745,7 +745,7 @@ composited
 .
 *
 /
-LookupResult
+DrawableFrameRef
 GetCompositedFrame
 (
 uint32_t
