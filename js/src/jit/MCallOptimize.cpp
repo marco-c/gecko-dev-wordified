@@ -1414,7 +1414,7 @@ TransparentTypedObject
 :
 class_
 &
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_
@@ -1455,7 +1455,7 @@ inlineHasClass
 (
 callInfo
 &
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_

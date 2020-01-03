@@ -3259,7 +3259,7 @@ JS_ConvertStub
 nullptr
 nullptr
 nullptr
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 constructUnsized
@@ -3291,7 +3291,7 @@ JS_ConvertStub
 nullptr
 nullptr
 nullptr
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 constructSized
@@ -5154,7 +5154,7 @@ nullptr
 hasInstance
 *
 /
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 constructSized
@@ -9241,7 +9241,7 @@ inlineTypedMem
 return
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -9277,7 +9277,7 @@ if
 !
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -9295,7 +9295,7 @@ owner
 =
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -9362,7 +9362,7 @@ if
 !
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -9384,7 +9384,7 @@ MaybeForwarded
 &
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -9632,7 +9632,7 @@ true
 *
 *
 *
-Owned
+Outline
 typed
 objects
 *
@@ -9642,9 +9642,9 @@ objects
 static
 *
 /
-OwnedTypedObject
+OutlineTypedObject
 *
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createUnattached
@@ -9672,7 +9672,7 @@ createUnattachedWithClass
 (
 cx
 &
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_
@@ -9795,9 +9795,9 @@ toObject
 static
 *
 /
-OwnedTypedObject
+OutlineTypedObject
 *
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createUnattachedWithClass
@@ -9831,7 +9831,7 @@ clasp
 =
 =
 &
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_
@@ -9927,14 +9927,14 @@ obj
 >
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
 ;
 }
 void
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 attach
@@ -10027,7 +10027,7 @@ buffer
 ;
 }
 void
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 attach
@@ -10064,7 +10064,7 @@ typedObj
 .
 is
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -10077,7 +10077,7 @@ typedObj
 .
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -10309,9 +10309,9 @@ kind
 static
 *
 /
-OwnedTypedObject
+OutlineTypedObject
 *
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createDerived
@@ -10394,14 +10394,14 @@ TransparentTypedObject
 class_
 :
 &
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_
 ;
 Rooted
 <
-OwnedTypedObject
+OutlineTypedObject
 *
 >
 obj
@@ -10572,13 +10572,13 @@ object
 .
 Rooted
 <
-OwnedTypedObject
+OutlineTypedObject
 *
 >
 obj
 (
 cx
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createUnattached
@@ -10977,7 +10977,7 @@ static
 *
 /
 void
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 obj_trace
@@ -10990,7 +10990,7 @@ JSObject
 object
 )
 {
-OwnedTypedObject
+OutlineTypedObject
 &
 typedObj
 =
@@ -10999,7 +10999,7 @@ object
 >
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -14124,7 +14124,7 @@ static
 *
 /
 size_t
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 offsetOfOwnerSlot
@@ -14147,7 +14147,7 @@ static
 *
 /
 size_t
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 offsetOfDataSlot
@@ -14171,7 +14171,7 @@ TransparentTypedObject
 /
 /
 both
-OpaqueOwnedTypedObject
+OpaqueOutlineTypedObject
 and
 TransparentTypedObject
 have
@@ -14244,7 +14244,7 @@ static
 *
 /
 size_t
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 offsetOfByteOffsetSlot
@@ -14262,7 +14262,7 @@ JS_BUFVIEW_SLOT_BYTEOFFSET
 ;
 }
 void
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 neuter
@@ -14876,7 +14876,7 @@ DATA_SLOT
 )
 |
 JSCLASS_HAS_PRIVATE
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 obj_trace
@@ -14884,14 +14884,14 @@ obj_trace
 ;
 DEFINE_TYPEDOBJ_CLASS
 (
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 JSCLASS_HAS_RESERVED_SLOTS
 (
 DATA_SLOT
 )
 |
 JSCLASS_HAS_PRIVATE
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 obj_trace
@@ -15528,7 +15528,7 @@ false
 }
 Rooted
 <
-OwnedTypedObject
+OutlineTypedObject
 *
 >
 obj
@@ -15538,7 +15538,7 @@ cx
 ;
 obj
 =
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createUnattached
@@ -16362,7 +16362,7 @@ false
 }
 Rooted
 <
-OwnedTypedObject
+OutlineTypedObject
 *
 >
 obj
@@ -16372,7 +16372,7 @@ cx
 ;
 obj
 =
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createUnattached
@@ -16844,7 +16844,7 @@ descr
 ;
 Rooted
 <
-OwnedTypedObject
+OutlineTypedObject
 *
 >
 obj
@@ -16854,14 +16854,14 @@ cx
 ;
 obj
 =
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createUnattachedWithClass
 (
 cx
 &
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_
@@ -17076,7 +17076,7 @@ cx
 ;
 obj
 =
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createDerived
@@ -17160,7 +17160,7 @@ isInt32
 )
 )
 ;
-OwnedTypedObject
+OutlineTypedObject
 &
 handle
 =
@@ -17175,7 +17175,7 @@ toObject
 .
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -17364,7 +17364,7 @@ isInt32
 )
 )
 ;
-OwnedTypedObject
+OutlineTypedObject
 &
 typedObj
 =
@@ -17379,7 +17379,7 @@ toObject
 .
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )

@@ -5986,7 +5986,7 @@ newData
 else
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )

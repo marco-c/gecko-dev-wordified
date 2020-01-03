@@ -6339,7 +6339,7 @@ TypedObject
 )
 ;
 return
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createDerived

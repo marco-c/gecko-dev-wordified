@@ -676,7 +676,7 @@ HandleValue
 v
 )
 {
-OwnedTypedObject
+OutlineTypedObject
 &
 obj
 =
@@ -688,7 +688,7 @@ toObject
 .
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -1015,7 +1015,7 @@ return
 false
 ;
 }
-OwnedTypedObject
+OutlineTypedObject
 &
 typedObj
 =
@@ -1031,7 +1031,7 @@ toObject
 .
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -2238,7 +2238,7 @@ TypedObject
 result
 (
 cx
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createZeroed
@@ -4703,7 +4703,7 @@ TypedObject
 result
 (
 cx
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createZeroed

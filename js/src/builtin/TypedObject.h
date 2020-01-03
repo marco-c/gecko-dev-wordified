@@ -666,7 +666,7 @@ inline
 .
 *
 *
-OwnedTypedObject
+OutlineTypedObject
 :
 Transparent
 or
@@ -700,7 +700,7 @@ objects
 only
 )
 .
-Owned
+Outline
 typed
 objects
 may
@@ -4382,7 +4382,7 @@ TypedObject
 HandleTypedObject
 ;
 class
-OwnedTypedObject
+OutlineTypedObject
 :
 public
 TypedObject
@@ -4548,7 +4548,7 @@ createUnattached
 (
 )
 static
-OwnedTypedObject
+OutlineTypedObject
 *
 createUnattachedWithClass
 (
@@ -4654,7 +4654,7 @@ otherwise
 the
 length
 static
-OwnedTypedObject
+OutlineTypedObject
 *
 createUnattached
 (
@@ -4707,7 +4707,7 @@ object
 otherwise
 .
 static
-OwnedTypedObject
+OutlineTypedObject
 *
 createDerived
 (
@@ -4830,7 +4830,7 @@ class
 TransparentTypedObject
 :
 public
-OwnedTypedObject
+OutlineTypedObject
 {
 public
 :
@@ -4867,10 +4867,10 @@ typed
 object
 .
 class
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 public
-OwnedTypedObject
+OutlineTypedObject
 {
 public
 :
@@ -6308,7 +6308,7 @@ class_
 =
 =
 &
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_
@@ -6618,7 +6618,7 @@ is
 js
 :
 :
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -6649,7 +6649,7 @@ getClass
 js
 :
 :
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_
