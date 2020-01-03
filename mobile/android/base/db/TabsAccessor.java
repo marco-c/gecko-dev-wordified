@@ -194,16 +194,4 @@ Tab
 tabs
 )
 ;
-public
-String
-getLastSyncedString
-(
-Context
-context
-long
-now
-long
-time
-)
-;
 }
