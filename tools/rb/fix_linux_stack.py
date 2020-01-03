@@ -2918,6 +2918,28 @@ fileline
 =
 file
             
+nl
+=
+'
+\
+n
+'
+if
+line
+[
+-
+1
+]
+=
+=
+'
+\
+n
+'
+else
+'
+'
+            
 return
 "
 %
@@ -2930,8 +2952,8 @@ s
 )
 %
 s
-\
-n
+%
+s
 "
 %
 (
@@ -2939,6 +2961,7 @@ before
 name
 fileline
 after
+nl
 )
         
 else
