@@ -355,11 +355,14 @@ i
 ;
 if
 (
-!
 child
 -
 >
-IsVisible
+GetEffectiveVisibleRegion
+(
+)
+.
+IsEmpty
 (
 )
 )
