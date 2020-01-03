@@ -2170,7 +2170,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 underflow
-NS_SCROLLPORT_UNDERFLOW
+eScrollPortUnderflow
 EventNameType_XUL
 eBasicEventClass
 )
