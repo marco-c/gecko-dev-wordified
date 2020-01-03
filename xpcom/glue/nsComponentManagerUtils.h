@@ -218,6 +218,7 @@ aResult
 class
 MOZ_STACK_CLASS
 nsCreateInstanceByCID
+final
 :
 public
 nsCOMPtr_helper
@@ -290,6 +291,7 @@ mErrorPtr
 class
 MOZ_STACK_CLASS
 nsCreateInstanceByContractID
+final
 :
 public
 nsCOMPtr_helper
@@ -362,6 +364,7 @@ mErrorPtr
 class
 MOZ_STACK_CLASS
 nsCreateInstanceFromFactory
+final
 :
 public
 nsCOMPtr_helper
@@ -590,6 +593,7 @@ aError
 class
 MOZ_STACK_CLASS
 nsGetClassObjectByCID
+final
 :
 public
 nsCOMPtr_helper
@@ -650,6 +654,7 @@ mErrorPtr
 class
 MOZ_STACK_CLASS
 nsGetClassObjectByContractID
+final
 :
 public
 nsCOMPtr_helper

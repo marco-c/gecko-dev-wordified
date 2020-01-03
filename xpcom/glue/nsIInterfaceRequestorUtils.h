@@ -221,6 +221,7 @@ aDestination
 class
 MOZ_STACK_CLASS
 nsGetInterface
+final
 :
 public
 nsCOMPtr_helper

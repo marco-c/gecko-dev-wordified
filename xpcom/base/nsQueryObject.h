@@ -230,6 +230,7 @@ T
 class
 MOZ_STACK_CLASS
 nsQueryObject
+final
 :
 public
 nsCOMPtr_helper
@@ -305,6 +306,7 @@ T
 class
 MOZ_STACK_CLASS
 nsQueryObjectWithError
+final
 :
 public
 nsCOMPtr_helper
