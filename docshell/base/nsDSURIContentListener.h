@@ -169,7 +169,7 @@ nsDSURIContentListener
 )
 ;
 void
-DropDocShellreference
+DropDocShellReference
 (
 )
 {
@@ -210,7 +210,7 @@ CheckFrameOptions
 (
 nsIRequest
 *
-request
+aRequest
 )
 ;
 bool
@@ -218,11 +218,11 @@ CheckOneFrameOptionsPolicy
 (
 nsIHttpChannel
 *
-httpChannel
+aHttpChannel
 const
 nsAString
 &
-policy
+aPolicy
 )
 ;
 enum

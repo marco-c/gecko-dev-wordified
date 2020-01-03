@@ -320,9 +320,11 @@ AppendObject
 aOverrides
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 }
 return
 NS_OK
@@ -354,9 +356,11 @@ RemoveObject
 aOverrides
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 return
 NS_OK
 ;

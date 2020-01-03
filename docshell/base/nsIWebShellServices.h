@@ -295,6 +295,7 @@ char
 aCharset
 =
 nullptr
+\
 int32_t
 aSource
 =
@@ -310,7 +311,6 @@ void
 )
 MOZ_OVERRIDE
 ;
-\
 #
 endif
 /

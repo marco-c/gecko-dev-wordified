@@ -259,14 +259,14 @@ Equals
 const
 TimelineMarker
 *
-other
+aOther
 )
 {
 return
 strcmp
 (
 mName
-other
+aOther
 -
 >
 mName

@@ -165,7 +165,7 @@ nsACString
 aIn
 nsCString
 &
-aOut
+aResult
 )
 ;
 nsresult
