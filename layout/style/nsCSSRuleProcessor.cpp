@@ -6057,6 +6057,9 @@ aSheetType
 Element
 *
 aScopeElement
+nsCSSRuleProcessor
+*
+aPreviousCSSRuleProcessor
 )
 :
 mSheets
