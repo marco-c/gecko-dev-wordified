@@ -4760,8 +4760,6 @@ bs
 >
 DistributeSignal
 (
-BluetoothSignal
-(
 NS_LITERAL_STRING
 (
 REQUEST_MEDIA_PLAYSTATUS_ID
@@ -4769,13 +4767,6 @@ REQUEST_MEDIA_PLAYSTATUS_ID
 NS_LITERAL_STRING
 (
 KEY_ADAPTER
-)
-InfallibleTArray
-<
-BluetoothNamedValue
->
-(
-)
 )
 )
 ;

@@ -5301,8 +5301,10 @@ false
 )
 ;
 }
-BluetoothSignal
-signal
+bs
+-
+>
+DistributeSignal
 (
 NS_LITERAL_STRING
 (
@@ -5314,15 +5316,10 @@ NS_LITERAL_STRING
 (
 KEY_ADAPTER
 )
+BluetoothValue
+(
 props
 )
-;
-bs
--
->
-DistributeSignal
-(
-signal
 )
 ;
 /
@@ -5908,8 +5905,6 @@ Length
 ;
 DistributeSignal
 (
-BluetoothSignal
-(
 NS_LITERAL_STRING
 (
 "
@@ -5923,7 +5918,6 @@ KEY_ADAPTER
 BluetoothValue
 (
 propertiesArray
-)
 )
 )
 ;
@@ -6897,8 +6891,6 @@ mType
 }
 DistributeSignal
 (
-BluetoothSignal
-(
 NS_LITERAL_STRING
 (
 "
@@ -6912,7 +6904,6 @@ KEY_ADAPTER
 BluetoothValue
 (
 propertiesArray
-)
 )
 )
 ;
@@ -6961,8 +6952,6 @@ sAdapterDiscovering
 ;
 DistributeSignal
 (
-BluetoothSignal
-(
 NS_LITERAL_STRING
 (
 "
@@ -6976,7 +6965,6 @@ KEY_ADAPTER
 BluetoothValue
 (
 propertiesArray
-)
 )
 )
 ;
@@ -7108,8 +7096,6 @@ aBdName
 ;
 DistributeSignal
 (
-BluetoothSignal
-(
 NS_LITERAL_STRING
 (
 "
@@ -7123,7 +7109,6 @@ KEY_PAIRING_LISTENER
 BluetoothValue
 (
 propertiesArray
-)
 )
 )
 ;
@@ -7345,8 +7330,6 @@ aBdName
 ;
 DistributeSignal
 (
-BluetoothSignal
-(
 NS_LITERAL_STRING
 (
 "
@@ -7360,7 +7343,6 @@ KEY_PAIRING_LISTENER
 BluetoothValue
 (
 propertiesArray
-)
 )
 )
 ;
@@ -7571,22 +7553,16 @@ deviceName
 }
 DistributeSignal
 (
-BluetoothSignal
-(
 NS_LITERAL_STRING
 (
 "
 PropertyChanged
 "
 )
-nsString
-(
 aRemoteBdAddr
-)
 BluetoothValue
 (
 propertiesArray
-)
 )
 )
 ;
@@ -7631,8 +7607,6 @@ DEVICE_UNPAIRED_ID
 ;
 DistributeSignal
 (
-BluetoothSignal
-(
 signalName
 NS_LITERAL_STRING
 (
@@ -7641,7 +7615,6 @@ KEY_ADAPTER
 BluetoothValue
 (
 propertiesArray
-)
 )
 )
 ;
