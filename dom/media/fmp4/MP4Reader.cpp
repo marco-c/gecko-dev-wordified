@@ -6518,10 +6518,12 @@ IsDormantNeeded
 )
 ;
 #
-endif
+else
 return
 false
 ;
+#
+endif
 }
 void
 MP4Reader
