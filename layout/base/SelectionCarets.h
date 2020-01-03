@@ -1541,6 +1541,16 @@ enabled
 bool
 mAsyncPanZoomEnabled
 ;
+/
+/
+True
+if
+AsyncPanZoom
+is
+started
+bool
+mInAsyncPanZoomGesture
+;
 bool
 mEndCaretVisible
 ;
