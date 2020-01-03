@@ -1840,9 +1840,6 @@ if
 Available
 (
 )
-|
-|
-mIsDone
 )
 {
 Http2Stream
@@ -1883,10 +1880,6 @@ X
 %
 u
 ]
-done
-=
-%
-d
 \
 n
 "
@@ -1899,7 +1892,6 @@ StreamID
 Available
 (
 )
-mIsDone
 )
 )
 ;
