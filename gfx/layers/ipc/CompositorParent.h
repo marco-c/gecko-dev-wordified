@@ -1753,6 +1753,9 @@ PluginWindowData
 >
 mPluginData
 ;
+bool
+mUpdatedPluginDataAvailable
+;
 }
 ;
 /
