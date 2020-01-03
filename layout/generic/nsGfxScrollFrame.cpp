@@ -19683,7 +19683,10 @@ const
 ContainerLayerParameters
 &
 aParameters
+Maybe
+<
 nsRect
+>
 *
 aClipRect
 nsTArray
@@ -19910,7 +19913,10 @@ clip
 *
 aClipRect
 =
+Some
+(
 clip
+)
 ;
 }
 if
