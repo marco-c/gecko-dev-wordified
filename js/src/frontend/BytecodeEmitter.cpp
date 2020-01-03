@@ -1471,7 +1471,7 @@ emit2
 (
 JSOp
 op
-jsbytecode
+uint8_t
 op1
 )
 {
@@ -1526,7 +1526,10 @@ code
 1
 ]
 =
+jsbytecode
+(
 op1
+)
 ;
 updateDepth
 (
@@ -16702,9 +16705,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 2
 )
 )
@@ -16977,9 +16977,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 3
 )
 )
@@ -17019,9 +17016,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 3
 )
 )
@@ -17301,9 +17295,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 2
 )
 )
@@ -17485,9 +17476,6 @@ isSetElem
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 2
 )
 )
@@ -17729,9 +17717,6 @@ SuperElem_Set
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 3
 )
 )
@@ -18116,9 +18101,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 3
 )
 )
@@ -18139,9 +18121,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 3
 )
 )
@@ -18162,9 +18141,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 2
 )
 )
@@ -18503,9 +18479,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 4
 )
 )
@@ -18527,9 +18500,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 4
 )
 )
@@ -18551,9 +18521,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 4
 )
 )
@@ -18575,9 +18542,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 3
 )
 )
@@ -18713,13 +18677,13 @@ return
 emit2
 (
 JSOP_INT8
-(
-jsbytecode
-)
+uint8_t
 (
 int8_t
-)
+(
 ival
+)
+)
 )
 ;
 uint32_t
@@ -25201,7 +25165,7 @@ emit2
 (
 JSOP_PICK
 (
-jsbytecode
+uint8_t
 )
 pickDistance
 )
@@ -26191,7 +26155,7 @@ emit2
 (
 JSOP_PICK
 (
-jsbytecode
+uint8_t
 )
 pickDistance
 )
@@ -28005,7 +27969,7 @@ jsatomid
 -
 1
 ;
-jsbytecode
+uint8_t
 offset
 =
 1
@@ -33499,10 +33463,7 @@ if
 emit2
 (
 JSOP_PICK
-jsbytecode
-(
 2
-)
 )
 )
 /
@@ -33600,7 +33561,7 @@ if
 emit2
 (
 JSOP_SYMBOL
-jsbytecode
+uint8_t
 (
 JS
 :
@@ -34922,9 +34883,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 3
 )
 )
@@ -40645,9 +40603,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 3
 )
 )
@@ -40935,9 +40890,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 3
 )
 )
@@ -46962,9 +46914,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 2
 )
 )
@@ -46982,9 +46931,6 @@ if
 emit2
 (
 JSOP_PICK
-(
-jsbytecode
-)
 2
 )
 )

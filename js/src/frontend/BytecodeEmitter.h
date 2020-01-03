@@ -2648,7 +2648,7 @@ emit2
 (
 JSOp
 op
-jsbytecode
+uint8_t
 op1
 )
 ;
