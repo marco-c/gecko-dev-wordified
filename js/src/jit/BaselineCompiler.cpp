@@ -4644,12 +4644,12 @@ firstLevel
 )
 ;
 uint32_t
-minUses
+warmUpThreshold
 =
 info
 -
 >
-usesBeforeCompile
+compilerWarmUpThreshold
 (
 script
 pc
@@ -4666,7 +4666,7 @@ LessThan
 countReg
 Imm32
 (
-minUses
+warmUpThreshold
 )
 &
 skipCall

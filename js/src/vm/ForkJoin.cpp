@@ -14876,7 +14876,7 @@ eagerCompilation
 &
 js_JitOptions
 .
-baselineUsesBeforeCompile
+baselineWarmUpThreshold
 !
 =
 0

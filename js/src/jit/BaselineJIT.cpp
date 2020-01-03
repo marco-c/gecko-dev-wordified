@@ -1884,7 +1884,7 @@ incWarmUpCounter
 =
 js_JitOptions
 .
-baselineUsesBeforeCompile
+baselineWarmUpThreshold
 )
 {
 return

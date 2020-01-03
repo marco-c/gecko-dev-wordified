@@ -250,10 +250,10 @@ bool
 eagerCompilation
 ;
 bool
-forceDefaultIonUsesBeforeCompile
+forceDefaultIonWarmUpThreshold
 ;
 uint32_t
-forcedDefaultIonUsesBeforeCompile
+forcedDefaultIonWarmUpThreshold
 ;
 bool
 forceRegisterAllocator
@@ -268,7 +268,7 @@ bool
 osr
 ;
 uint32_t
-baselineUsesBeforeCompile
+baselineWarmUpThreshold
 ;
 uint32_t
 exceptionBailoutThreshold
@@ -286,7 +286,7 @@ uint32_t
 smallFunctionMaxBytecodeLength_
 ;
 uint32_t
-usesBeforeCompilePar
+compilerWarmUpThresholdPar
 ;
 JitOptions
 (
@@ -307,14 +307,14 @@ setEagerCompilation
 )
 ;
 void
-setUsesBeforeCompile
+setCompilerWarmUpThreshold
 (
 uint32_t
 warmUpCounter
 )
 ;
 void
-resetUsesBeforeCompile
+resetCompilerWarmUpThreshold
 (
 )
 ;

@@ -35419,7 +35419,7 @@ value
 =
 defaultValues
 .
-baselineUsesBeforeCompile
+baselineWarmUpThreshold
 ;
 }
 jit
@@ -35427,7 +35427,7 @@ jit
 :
 js_JitOptions
 .
-baselineUsesBeforeCompile
+baselineWarmUpThreshold
 =
 value
 ;
@@ -35453,7 +35453,7 @@ jit
 :
 js_JitOptions
 .
-resetUsesBeforeCompile
+resetCompilerWarmUpThreshold
 (
 )
 ;
@@ -35465,7 +35465,7 @@ jit
 :
 js_JitOptions
 .
-setUsesBeforeCompile
+setCompilerWarmUpThreshold
 (
 value
 )
@@ -35826,7 +35826,7 @@ jit
 :
 js_JitOptions
 .
-baselineUsesBeforeCompile
+baselineWarmUpThreshold
 ;
 case
 JSJITCOMPILER_ION_WARMUP_TRIGGER
@@ -35837,7 +35837,7 @@ jit
 :
 js_JitOptions
 .
-forcedDefaultIonUsesBeforeCompile
+forcedDefaultIonWarmUpThreshold
 ;
 case
 JSJITCOMPILER_ION_ENABLE
