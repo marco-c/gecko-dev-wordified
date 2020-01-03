@@ -613,6 +613,9 @@ return
 }
 }
 class
+BluetoothA2dpManager
+:
+:
 InitAvrcpResultHandler
 MOZ_FINAL
 :
@@ -751,6 +754,9 @@ mRes
 }
 ;
 class
+BluetoothA2dpManager
+:
+:
 InitA2dpResultHandler
 MOZ_FINAL
 :
@@ -915,6 +921,9 @@ mRes
 }
 ;
 class
+BluetoothA2dpManager
+:
+:
 OnErrorProfileResultHandlerRunnable
 MOZ_FINAL
 :
@@ -1571,6 +1580,9 @@ sBluetoothA2dpManager
 ;
 }
 class
+BluetoothA2dpManager
+:
+:
 CleanupAvrcpResultHandler
 MOZ_FINAL
 :
@@ -1717,6 +1729,9 @@ mRes
 }
 ;
 class
+BluetoothA2dpManager
+:
+:
 CleanupA2dpResultHandler
 MOZ_FINAL
 :
@@ -1860,6 +1875,9 @@ mRes
 }
 ;
 class
+BluetoothA2dpManager
+:
+:
 CleanupA2dpResultHandlerRunnable
 MOZ_FINAL
 :
@@ -2135,6 +2153,9 @@ Truncate
 ;
 }
 class
+BluetoothA2dpManager
+:
+:
 ConnectResultHandler
 MOZ_FINAL
 :
@@ -2352,6 +2373,9 @@ ERR_DISCONNECTION_FAILED
 ;
 }
 class
+BluetoothA2dpManager
+:
+:
 DisconnectResultHandler
 MOZ_FINAL
 :
