@@ -498,7 +498,7 @@ Services
 .
 DOMRequest
 .
-fireError
+fireErrorAsync
 (
 this
 .
