@@ -1039,6 +1039,16 @@ tracker
 RootBit
 (
 )
+|
+collector
+-
+>
+tracker
+-
+>
+ConditionalDescendantsBit
+(
+)
 )
 ;
 RestyleEnumerateData
