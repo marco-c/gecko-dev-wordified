@@ -196,6 +196,9 @@ namespace
 dom
 {
 class
+Animation
+;
+class
 AnimationTimeline
 :
 public
