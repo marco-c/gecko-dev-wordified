@@ -523,6 +523,16 @@ aCaps
 )
 ;
 bool
+CanRenderAudio
+(
+)
+;
+bool
+CanRenderVideo
+(
+)
+;
+bool
 CanDecryptAndDecodeAudio
 (
 )
