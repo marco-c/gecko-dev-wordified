@@ -243,7 +243,9 @@ bad
 signature
 "
 "
-localhostAndExampleCom
+default
+-
+ee
 "
 "
 unused
