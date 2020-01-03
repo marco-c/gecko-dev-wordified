@@ -2403,6 +2403,10 @@ dispatcher
 mozLoop
 :
 fakeMozLoop
+sdkDriver
+:
+{
+}
 }
 )
 ;

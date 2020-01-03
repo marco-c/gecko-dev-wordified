@@ -857,6 +857,9 @@ conversationStore
 conversationAppStore
 :
 conversationAppStore
+dispatcher
+:
+dispatcher
 }
 )
 )
