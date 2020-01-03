@@ -1265,10 +1265,12 @@ if
 !
 downloadFailure
 )
+{
 downloadFailure
 =
 failure
 ;
+}
 streamUpdater
 .
 downloadUpdates
