@@ -8836,6 +8836,10 @@ const
 nsACString
 &
 redirectURL
+const
+nsACString
+&
+whitelist
 )
 {
 nsAutoCString
@@ -8901,6 +8905,12 @@ mimeType
 )
 ;
 }
+nsAutoCString
+wl
+(
+whitelist
+)
+;
 nsRefPtr
 <
 nsPluginPlayPreviewInfo
@@ -8917,6 +8927,11 @@ get
 )
 ignoreCTP
 url
+.
+get
+(
+)
+wl
 .
 get
 (
