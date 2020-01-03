@@ -57307,7 +57307,7 @@ https
 :
 /
 /
-aus4
+aus5
 .
 mozilla
 .
@@ -57725,6 +57725,7 @@ issuerName
 CN
 =
 DigiCert
+SHA2
 Secure
 Server
 CA
@@ -57754,7 +57755,7 @@ certs
 commonName
 "
 "
-aus4
+aus5
 .
 mozilla
 .
@@ -57780,18 +57781,16 @@ issuerName
 "
 CN
 =
-Thawte
+thawte
 SSL
 CA
+-
+G2
 O
 =
-\
-"
-Thawte
+thawte
 Inc
 .
-\
-"
 C
 =
 US
@@ -57814,7 +57813,7 @@ certs
 commonName
 "
 "
-aus4
+aus5
 .
 mozilla
 .

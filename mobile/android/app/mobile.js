@@ -5140,9 +5140,9 @@ ui
 .
 zoomedview
 .
-enabled
+disabled
 "
-true
+false
 )
 ;
 pref
@@ -6541,7 +6541,7 @@ https
 :
 /
 /
-aus4
+aus5
 .
 mozilla
 .
