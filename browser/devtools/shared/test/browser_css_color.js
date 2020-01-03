@@ -179,6 +179,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 browser_css_color
 .
 js
