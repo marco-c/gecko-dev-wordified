@@ -67615,6 +67615,7 @@ scContainer
 InitFromJSVal
 (
 aData
+aCx
 )
 ;
 NS_ENSURE_SUCCESS
