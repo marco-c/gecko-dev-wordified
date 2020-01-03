@@ -3098,7 +3098,7 @@ OnMsgClose
 (
 )
 {
-SOCKET_LOG
+UDPSOCKET_LOG
 (
 (
 "
@@ -3203,7 +3203,7 @@ OnMsgAttach
 (
 )
 {
-SOCKET_LOG
+UDPSOCKET_LOG
 (
 (
 "
@@ -7536,7 +7536,7 @@ aOpt
 PR_SUCCESS
 )
 {
-SOCKET_LOG
+UDPSOCKET_LOG
 (
 (
 "
