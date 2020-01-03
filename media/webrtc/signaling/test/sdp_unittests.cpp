@@ -6374,6 +6374,8 @@ expectSuccess
 {
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -6459,6 +6461,8 @@ first
 .
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -6548,6 +6552,8 @@ expectSuccess
 {
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -9261,6 +9267,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -9417,6 +9425,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -9573,6 +9583,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -9806,6 +9818,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -10018,6 +10032,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -10094,6 +10110,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -10143,6 +10161,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -10469,6 +10489,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -10637,6 +10659,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -10866,6 +10890,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -12284,6 +12310,8 @@ kH264AudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -12470,6 +12498,8 @@ format
 ;
 ASSERT_TRUE
 (
+!
+!
 video_format_params
 [
 0
@@ -12620,6 +12650,8 @@ format
 ;
 ASSERT_TRUE
 (
+!
+!
 video_format_params
 [
 1
@@ -12763,6 +12795,8 @@ format
 ;
 ASSERT_TRUE
 (
+!
+!
 video_format_params
 [
 2
@@ -13187,6 +13221,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -13449,6 +13485,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -13547,6 +13585,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -14683,6 +14723,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -14848,6 +14890,8 @@ kBasicAudioVideoOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <
@@ -16068,6 +16112,8 @@ kBasicAudioVideoDataOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 ;
@@ -16381,6 +16427,8 @@ kBasicAudioVideoDataOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 ;
@@ -16642,6 +16690,8 @@ kBasicAudioVideoDataOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 ;
@@ -17075,6 +17125,8 @@ kBasicAudioVideoDataOffer
 ;
 ASSERT_TRUE
 (
+!
+!
 mSdp
 )
 <

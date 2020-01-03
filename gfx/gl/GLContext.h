@@ -17350,6 +17350,8 @@ IsOffscreen
 const
 {
 return
+!
+!
 mScreen
 ;
 }

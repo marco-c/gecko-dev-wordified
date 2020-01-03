@@ -224,6 +224,8 @@ do
 bool
 cond
 =
+!
+!
 (
 c
 )
