@@ -248,6 +248,15 @@ setup
 complete
 "
 "
+weave
+:
+ui
+:
+login
+:
+error
+"
+"
 fxa
 -
 migration
