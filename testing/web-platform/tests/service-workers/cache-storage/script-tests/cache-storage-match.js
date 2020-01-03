@@ -206,7 +206,7 @@ function
 response
 )
 {
-assert_object_equals
+assert_response_equals
 (
 response
 transaction
@@ -352,7 +352,7 @@ function
 response
 )
 {
-assert_object_equals
+assert_response_equals
 (
 response
 transaction
@@ -525,7 +525,7 @@ function
 response
 )
 {
-assert_object_equals
+assert_response_equals
 (
 response
 transaction
@@ -674,7 +674,7 @@ function
 response
 )
 {
-assert_object_equals
+assert_response_equals
 (
 response
 transaction

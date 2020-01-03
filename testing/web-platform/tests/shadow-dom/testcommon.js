@@ -1775,7 +1775,7 @@ player
 -
 shadow
 -
-root
+host
 "
 >
 '
@@ -1807,7 +1807,7 @@ player
 -
 shadow
 -
-root
+host
 '
 )
 .
@@ -1853,11 +1853,11 @@ button
 +
 '
 <
-input
-type
+div
+tabindex
 =
 "
-range
+0
 "
 id
 =
@@ -1877,7 +1877,7 @@ timeline
 -
 shadow
 -
-root
+host
 "
 >
 '
@@ -1892,7 +1892,7 @@ div
 '
 <
 /
-input
+div
 >
 '
 +
@@ -1922,11 +1922,11 @@ container
 +
 '
 <
-input
-type
+div
+tabindex
 =
 "
-range
+0
 "
 class
 =
@@ -1955,7 +1955,7 @@ volume
 -
 shadow
 -
-root
+host
 "
 >
 '
@@ -1970,7 +1970,7 @@ div
 '
 <
 /
-input
+div
 >
 '
 +
@@ -2001,7 +2001,7 @@ timeline
 -
 shadow
 -
-root
+host
 '
 )
 .
@@ -2052,7 +2052,7 @@ volume
 -
 shadow
 -
-root
+host
 '
 )
 .
