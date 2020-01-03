@@ -5932,6 +5932,9 @@ Services
 appinfo
 .
 ID
+|
+|
+null
 applicationName
 :
 Services
@@ -5939,6 +5942,9 @@ Services
 appinfo
 .
 name
+|
+|
+null
 architecture
 :
 Services
@@ -5958,6 +5964,9 @@ Services
 appinfo
 .
 appBuildID
+|
+|
+null
 version
 :
 Services
@@ -5965,6 +5974,9 @@ Services
 appinfo
 .
 version
+|
+|
+null
 vendor
 :
 Services
@@ -5972,6 +5984,9 @@ Services
 appinfo
 .
 vendor
+|
+|
+null
 platformVersion
 :
 Services
@@ -5979,6 +5994,9 @@ Services
 appinfo
 .
 platformVersion
+|
+|
+null
 xpcomAbi
 :
 Services
