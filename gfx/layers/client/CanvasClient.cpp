@@ -1079,9 +1079,6 @@ TextureClient
 >
 TexClientFromShSurf
 (
-ISurfaceAllocator
-*
-aAllocator
 SharedSurface
 *
 surf
@@ -1133,7 +1130,6 @@ return
 new
 SharedSurfaceTextureClient
 (
-aAllocator
 flags
 surf
 )
@@ -2293,9 +2289,6 @@ newTex
 =
 TexClientFromShSurf
 (
-GetForwarder
-(
-)
 surf
 flags
 )

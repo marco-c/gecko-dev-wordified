@@ -934,9 +934,6 @@ public
 :
 CairoTextureClientD3D9
 (
-ISurfaceAllocator
-*
-aAllocator
 gfx
 :
 :
@@ -1209,9 +1206,6 @@ public
 :
 SharedTextureClientD3D9
 (
-ISurfaceAllocator
-*
-aAllocator
 gfx
 :
 :

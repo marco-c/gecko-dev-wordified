@@ -1152,9 +1152,6 @@ public
 explicit
 TextureClient
 (
-ISurfaceAllocator
-*
-aAllocator
 TextureFlags
 aFlags
 =
@@ -3576,6 +3573,13 @@ return
 true
 ;
 }
+ISurfaceAllocator
+*
+GetAllocator
+(
+)
+const
+;
 virtual
 TemporaryRef
 <
@@ -3608,6 +3612,12 @@ gfx
 DrawTarget
 >
 mDrawTarget
+;
+RefPtr
+<
+ISurfaceAllocator
+>
+mAllocator
 ;
 gfx
 :
@@ -3962,9 +3972,6 @@ public
 :
 SharedSurfaceTextureClient
 (
-ISurfaceAllocator
-*
-aAllocator
 TextureFlags
 aFlags
 gl

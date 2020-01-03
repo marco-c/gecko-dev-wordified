@@ -189,9 +189,6 @@ public
 :
 DIBTextureClient
 (
-ISurfaceAllocator
-*
-aAllocator
 gfx
 :
 :

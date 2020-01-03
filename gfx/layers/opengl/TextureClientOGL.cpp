@@ -252,9 +252,6 @@ EGLImageTextureClient
 :
 EGLImageTextureClient
 (
-ISurfaceAllocator
-*
-aAllocator
 TextureFlags
 aFlags
 EGLImageImage
@@ -269,7 +266,6 @@ aSize
 :
 TextureClient
 (
-aAllocator
 aFlags
 )
 mImage
@@ -545,9 +541,6 @@ SurfaceTextureClient
 :
 SurfaceTextureClient
 (
-ISurfaceAllocator
-*
-aAllocator
 TextureFlags
 aFlags
 AndroidSurfaceTexture
@@ -564,7 +557,6 @@ aInverted
 :
 TextureClient
 (
-aAllocator
 aFlags
 )
 mSurfTex

@@ -353,6 +353,12 @@ mSurface
 ;
 RefPtr
 <
+ISurfaceAllocator
+>
+mAllocator
+;
+RefPtr
+<
 gfx
 :
 :

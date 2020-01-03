@@ -2802,9 +2802,6 @@ CairoTextureClientD3D9
 :
 CairoTextureClientD3D9
 (
-ISurfaceAllocator
-*
-aAllocator
 gfx
 :
 :
@@ -2816,7 +2813,6 @@ aFlags
 :
 TextureClient
 (
-aAllocator
 aFlags
 )
 mFormat
@@ -2885,7 +2881,6 @@ tex
 new
 CairoTextureClientD3D9
 (
-mAllocator
 mFormat
 mFlags
 |
@@ -3672,9 +3667,6 @@ SharedTextureClientD3D9
 :
 SharedTextureClientD3D9
 (
-ISurfaceAllocator
-*
-aAllocator
 gfx
 :
 :
@@ -3686,7 +3678,6 @@ aFlags
 :
 TextureClient
 (
-aAllocator
 aFlags
 )
 mFormat

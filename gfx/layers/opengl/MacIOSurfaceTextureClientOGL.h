@@ -127,9 +127,6 @@ public
 explicit
 MacIOSurfaceTextureClientOGL
 (
-ISurfaceAllocator
-*
-aAllcator
 TextureFlags
 aFlags
 )

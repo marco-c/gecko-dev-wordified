@@ -815,9 +815,6 @@ TextureClientD3D11
 :
 TextureClientD3D11
 (
-ISurfaceAllocator
-*
-aAllocator
 gfx
 :
 :
@@ -829,7 +826,6 @@ aFlags
 :
 TextureClient
 (
-aAllocator
 aFlags
 )
 mFormat
@@ -1075,7 +1071,6 @@ tex
 new
 TextureClientD3D11
 (
-mAllocator
 mFormat
 mFlags
 |
