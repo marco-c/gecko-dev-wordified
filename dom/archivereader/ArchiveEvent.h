@@ -248,9 +248,11 @@ Generate
 a
 File
 virtual
-nsIDOMFile
-*
+already_AddRefed
+<
 File
+>
+GetFile
 (
 ArchiveReader
 *
