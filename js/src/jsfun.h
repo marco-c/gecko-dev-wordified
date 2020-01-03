@@ -1983,11 +1983,11 @@ fun
 )
 ;
 void
-relazify
+maybeRelazify
 (
-JSTracer
+JSRuntime
 *
-trc
+rt
 )
 ;
 /
