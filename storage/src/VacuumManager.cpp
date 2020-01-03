@@ -355,16 +355,11 @@ VACUUM_INTERVAL_SECONDS
 30
 days
 .
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gStorageLog
 ;
-#
-endif
 namespace
 mozilla
 {
@@ -1801,9 +1796,6 @@ get
 ;
 #
 endif
-#
-ifdef
-PR_LOGGING
 {
 int32_t
 result
@@ -1886,8 +1878,6 @@ get
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;

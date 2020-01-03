@@ -238,16 +238,11 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gStorageLog
 ;
-#
-endif
 namespace
 mozilla
 {
@@ -3581,9 +3576,6 @@ mNativeConnection
 mDBStatement
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 srv
@@ -3636,8 +3628,6 @@ get
 )
 ;
 }
-#
-endif
 /
 /
 SQLITE_ROW
