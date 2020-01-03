@@ -6616,7 +6616,7 @@ __mips_single_float
 |
 defined
 (
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 )
 return
 true

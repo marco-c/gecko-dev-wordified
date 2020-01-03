@@ -469,7 +469,7 @@ __linux__
 !
 defined
 (
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 )
 #
 include
@@ -2316,13 +2316,13 @@ size_t
 elif
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 |
 |
 defined
 (
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 )
 static
 void

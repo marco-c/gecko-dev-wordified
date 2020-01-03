@@ -688,7 +688,7 @@ false
 ;
 #
 ifdef
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 value
 =
 BooleanValue

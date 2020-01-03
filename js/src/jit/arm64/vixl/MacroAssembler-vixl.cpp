@@ -9752,7 +9752,7 @@ compatible
 .
 #
 ifdef
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 {
 InstructionAccurateScope
 scope
@@ -10476,7 +10476,7 @@ command
 {
 #
 ifdef
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 /
 /
 The
@@ -10615,7 +10615,7 @@ parameters
 {
 #
 ifdef
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 /
 /
 The

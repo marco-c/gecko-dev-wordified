@@ -127,7 +127,7 @@ JITs
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 #
 include
@@ -146,7 +146,7 @@ h
 elif
 defined
 (
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 )
 #
 include
@@ -167,13 +167,13 @@ endif
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 |
 |
 defined
 (
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 )
 /
 /

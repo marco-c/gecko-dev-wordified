@@ -338,7 +338,7 @@ define
 jit_mips_Simulator_mips_h
 #
 ifdef
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 #
 include
 "
@@ -2516,7 +2516,7 @@ js
 endif
 /
 *
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 *
 /
 #

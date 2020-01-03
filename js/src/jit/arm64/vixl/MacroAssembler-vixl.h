@@ -7772,7 +7772,7 @@ Unreachable
 {
 #
 ifdef
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 hlt
 (
 kUnreachableOpcode

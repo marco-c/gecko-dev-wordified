@@ -115,7 +115,7 @@ MPL
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 #
 include

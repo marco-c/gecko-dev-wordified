@@ -338,7 +338,7 @@ define
 jit_arm_Simulator_arm_h
 #
 ifdef
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 #
 include
 "
@@ -2813,7 +2813,7 @@ js
 endif
 /
 *
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 *
 /
 #

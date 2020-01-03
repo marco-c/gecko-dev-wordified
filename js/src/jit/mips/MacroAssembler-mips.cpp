@@ -18564,7 +18564,7 @@ DEBUG
 &
 defined
 (
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 )
 static
 void
@@ -18673,7 +18673,7 @@ result
 {
 #
 ifdef
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 MOZ_ASSERT
 (
 passedArgs_
