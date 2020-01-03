@@ -2314,6 +2314,15 @@ while
 (
 canonicalizedHostname
 .
+Length
+(
+)
+>
+0
+&
+&
+canonicalizedHostname
+.
 Last
 (
 )
