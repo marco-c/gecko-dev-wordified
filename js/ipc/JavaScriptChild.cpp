@@ -319,7 +319,13 @@ sweep
 (
 )
 ;
-objectIds_
+unwaivedObjectIds_
+.
+sweep
+(
+)
+;
+waivedObjectIds_
 .
 sweep
 (

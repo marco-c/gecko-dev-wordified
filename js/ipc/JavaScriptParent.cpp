@@ -325,7 +325,14 @@ trace
 trc
 )
 ;
-objectIds_
+unwaivedObjectIds_
+.
+trace
+(
+trc
+)
+;
+waivedObjectIds_
 .
 trace
 (
