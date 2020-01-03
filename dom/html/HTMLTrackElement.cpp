@@ -1238,7 +1238,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_MEDIA
+TYPE_INTERNAL_TRACK
 uri
 NodePrincipal
 (
@@ -1404,7 +1404,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_MEDIA
+TYPE_INTERNAL_TRACK
 loadGroup
 )
 ;
