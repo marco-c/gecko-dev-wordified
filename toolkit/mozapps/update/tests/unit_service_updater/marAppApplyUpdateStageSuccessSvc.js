@@ -1186,10 +1186,6 @@ gSwitchApp
 =
 false
 ;
-checkCallbackAppLog
-(
-)
-;
 standardInit
 (
 )

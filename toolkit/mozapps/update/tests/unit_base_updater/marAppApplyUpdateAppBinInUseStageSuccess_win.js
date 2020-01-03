@@ -1343,10 +1343,6 @@ checkUpdateLogContents
 LOG_COMPLETE_SUCCESS
 )
 ;
-checkCallbackAppLog
-(
-)
-;
 standardInit
 (
 )
