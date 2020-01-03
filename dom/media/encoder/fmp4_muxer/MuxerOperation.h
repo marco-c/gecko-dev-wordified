@@ -469,6 +469,8 @@ aOperations
 =
 0
 ;
+protected
+:
 virtual
 ~
 MuxerOperation
