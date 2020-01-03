@@ -22401,7 +22401,6 @@ pobj
 =
 parent
 )
-{
 return
 JSObject
 :
@@ -22412,12 +22411,11 @@ cx
 parent
 name
 rval
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 attrs
 )
 ;
-}
 /
 *
 Step
@@ -22457,7 +22455,6 @@ configurable
 (
 )
 )
-{
 return
 JSObject
 :
@@ -22468,12 +22465,11 @@ cx
 parent
 name
 rval
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 attrs
 )
 ;
-}
 if
 (
 shape
@@ -23844,7 +23840,7 @@ val
 ;
 setter
 =
-JS_StrictPropertyStub
+nullptr
 ;
 attrs
 |
@@ -23870,7 +23866,7 @@ JSOP_INITELEM_SETTER
 ;
 getter
 =
-JS_PropertyStub
+nullptr
 ;
 setter
 =
