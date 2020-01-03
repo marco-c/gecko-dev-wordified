@@ -1766,9 +1766,9 @@ GetInstance
 void
 Init
 (
-bt_callbacks_t
+BluetoothNotificationHandler
 *
-aCallbacks
+aNotificationHandler
 BluetoothResultHandler
 *
 aRes
