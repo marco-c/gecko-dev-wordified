@@ -1600,10 +1600,12 @@ version
 #
 endif
 #
-endif
+else
 return
 false
 ;
+#
+endif
 }
 }
 true
