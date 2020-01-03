@@ -2066,6 +2066,7 @@ formhistory
 "
 ;
 }
+RobocopTarget
 public
 static
 final
@@ -2080,6 +2081,16 @@ Tabs
 )
 {
 }
+public
+static
+final
+String
+TABLE_NAME
+=
+"
+tabs
+"
+;
 public
 static
 final
