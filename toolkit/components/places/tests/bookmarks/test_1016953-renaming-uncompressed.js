@@ -372,7 +372,7 @@ result
 length
 )
 ;
-do_log_info
+do_print
 (
 "
 Check
@@ -694,7 +694,7 @@ result
 length
 )
 ;
-do_log_info
+do_print
 (
 "
 Check

@@ -784,7 +784,7 @@ topic
 verb
 )
 {
-do_log_info
+do_print
 (
 "
 browser

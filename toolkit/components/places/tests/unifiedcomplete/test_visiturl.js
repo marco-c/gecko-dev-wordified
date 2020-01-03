@@ -35,7 +35,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 visit
@@ -123,7 +123,7 @@ visiturl
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 visit
@@ -219,7 +219,7 @@ visiturl
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 visit
@@ -323,7 +323,7 @@ via
 host
 lookups
 .
-do_log_info
+do_print
 (
 "
 visit
@@ -476,7 +476,7 @@ to
 requiring
 whitelisting
 .
-do_log_info
+do_print
 (
 "
 visit

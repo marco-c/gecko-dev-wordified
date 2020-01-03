@@ -143,7 +143,7 @@ tags_getter_setter
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Tags
@@ -156,7 +156,7 @@ correctly
 "
 )
 ;
-do_log_info
+do_print
 (
 "
 Without
@@ -191,7 +191,7 @@ length
 0
 )
 ;
-do_log_info
+do_print
 (
 "
 Setting
@@ -233,7 +233,7 @@ length
 0
 )
 ;
-do_log_info
+do_print
 (
 "
 Setting
@@ -283,7 +283,7 @@ tags
 true
 )
 ;
-do_log_info
+do_print
 (
 "
 Setting
@@ -352,7 +352,7 @@ invalid_setter_calls
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Invalid
@@ -746,7 +746,7 @@ not_setting_tags
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Not
@@ -772,7 +772,7 @@ empty_array_tags
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Setting
@@ -801,7 +801,7 @@ set_tags
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Setting
@@ -875,7 +875,7 @@ no_tags_tagsAreNot
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Not
@@ -908,7 +908,7 @@ empty_array_tags_tagsAreNot
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Setting
@@ -942,7 +942,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Setting
@@ -1023,7 +1023,7 @@ tag_to_uri
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -1148,7 +1148,7 @@ tags_to_uri
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -1314,7 +1314,7 @@ repeated_tag
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Specifying
@@ -1433,7 +1433,7 @@ many_tags_no_uri
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -1576,7 +1576,7 @@ nonexistent_tags
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -1667,7 +1667,7 @@ tag_to_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -1816,7 +1816,7 @@ many_tags_to_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -2014,7 +2014,7 @@ repeated_tag_to_bookmarks
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Specifying
@@ -2149,7 +2149,7 @@ many_tags_no_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -2316,7 +2316,7 @@ nonexistent_tags_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -2423,7 +2423,7 @@ tagsAreNot_history
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -2495,7 +2495,7 @@ com
 null
 }
 ;
-do_log_info
+do_print
 (
 "
 Add
@@ -2550,7 +2550,7 @@ tags
 )
 ;
 }
-do_log_info
+do_print
 (
 '
 Querying
@@ -2624,7 +2624,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 '
 Querying
@@ -2704,7 +2704,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 '
 Querying
@@ -2784,7 +2784,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 '
 Querying
@@ -2850,7 +2850,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 '
 Querying
@@ -2982,7 +2982,7 @@ tagsAreNot_bookmarks
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Querying
@@ -3054,7 +3054,7 @@ com
 null
 }
 ;
-do_log_info
+do_print
 (
 "
 Add
@@ -3108,7 +3108,7 @@ tags
 )
 ;
 }
-do_log_info
+do_print
 (
 '
 Querying
@@ -3190,7 +3190,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 '
 Querying
@@ -3278,7 +3278,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 '
 Querying
@@ -3366,7 +3366,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 '
 Querying
@@ -3440,7 +3440,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 '
 Querying
@@ -3580,7 +3580,7 @@ duplicate_tags
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Duplicate
@@ -3617,7 +3617,7 @@ tagName
 foo
 "
 ;
-do_log_info
+do_print
 (
 "
 Add
@@ -3646,7 +3646,7 @@ tagName
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 Manually
@@ -3722,7 +3722,7 @@ bmId
 0
 )
 ;
-do_log_info
+do_print
 (
 "
 Querying
@@ -3798,7 +3798,7 @@ folder_named_as_tag
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Regular
@@ -3828,7 +3828,7 @@ tagName
 foo
 "
 ;
-do_log_info
+do_print
 (
 "
 Add
@@ -3856,7 +3856,7 @@ tagName
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 Create
@@ -3896,7 +3896,7 @@ folderId
 0
 )
 ;
-do_log_info
+do_print
 (
 "
 Querying
@@ -3972,7 +3972,7 @@ ORed_queries
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Multiple
@@ -4113,7 +4113,7 @@ i
 )
 ;
 }
-do_log_info
+do_print
 (
 "
 Add
@@ -4168,7 +4168,7 @@ tags
 )
 ;
 }
-do_log_info
+do_print
 (
 "
 Query
@@ -4287,7 +4287,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 Query
@@ -4380,7 +4380,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 Query
@@ -4482,7 +4482,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 Query
@@ -4607,7 +4607,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 Query
@@ -4715,7 +4715,7 @@ com
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 Query
@@ -5085,7 +5085,7 @@ aURI
 spec
 )
 ;
-do_log_info
+do_print
 (
 "
 Sanity
@@ -5301,7 +5301,7 @@ query
 opts
 )
 ;
-do_log_info
+do_print
 (
 "
 Query
@@ -5901,7 +5901,7 @@ aTagsAreNot
 !
 aTagsAreNot
 ;
-do_log_info
+do_print
 (
 "
 Making
@@ -6027,7 +6027,7 @@ sort
 )
 ;
 }
-do_log_info
+do_print
 (
 "
 Made

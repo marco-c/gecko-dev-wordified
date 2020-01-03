@@ -93,7 +93,7 @@ TRANSITION_TYPED
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Should
@@ -177,7 +177,7 @@ TRANSITION_TYPED
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Should
@@ -325,7 +325,7 @@ engine
 )
 )
 ;
-do_log_info
+do_print
 (
 "
 Should
@@ -482,7 +482,7 @@ engine
 )
 )
 ;
-do_log_info
+do_print
 (
 "
 Should
@@ -632,7 +632,7 @@ engine
 )
 )
 ;
-do_log_info
+do_print
 (
 "
 Should
@@ -782,7 +782,7 @@ engine
 )
 )
 ;
-do_log_info
+do_print
 (
 "
 Should
@@ -941,7 +941,7 @@ engine
 )
 )
 ;
-do_log_info
+do_print
 (
 "
 Should
@@ -1105,7 +1105,7 @@ engine
 )
 )
 ;
-do_log_info
+do_print
 (
 "
 Should
@@ -1165,7 +1165,7 @@ search
 "
 }
 )
-do_log_info
+do_print
 (
 "
 Should
@@ -1218,7 +1218,7 @@ search
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Should
@@ -1349,7 +1349,7 @@ TRANSITION_TYPED
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Should

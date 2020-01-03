@@ -935,7 +935,7 @@ in
 histograms
 )
 {
-do_log_info
+do_print
 (
 "
 checking

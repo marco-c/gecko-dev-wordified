@@ -156,7 +156,7 @@ removed_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 After
@@ -240,7 +240,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Bookmarked
@@ -285,7 +285,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Unvisited
@@ -342,7 +342,7 @@ removed_but_visited_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 After
@@ -423,7 +423,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Bookmarked
@@ -479,7 +479,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 *
@@ -542,7 +542,7 @@ remove_bookmark_still_bookmarked
 (
 )
 {
-do_log_info
+do_print
 (
 "
 After
@@ -556,6 +556,7 @@ s
 URI
 should
 "
++
 "
 not
 be
@@ -649,7 +650,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Bookmarked
@@ -694,7 +695,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 URI
@@ -750,7 +751,7 @@ cleared_parent_of_visited_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 After
@@ -837,7 +838,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Bookmarked
@@ -895,7 +896,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 *
@@ -958,7 +959,7 @@ cleared_parent_of_bookmark_still_bookmarked
 (
 )
 {
-do_log_info
+do_print
 (
 "
 After
@@ -1075,7 +1076,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Bookmarked

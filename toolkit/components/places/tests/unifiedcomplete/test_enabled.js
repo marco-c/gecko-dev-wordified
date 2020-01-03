@@ -132,7 +132,7 @@ title
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 plain
@@ -166,7 +166,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 search
@@ -208,7 +208,7 @@ matches
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 resume

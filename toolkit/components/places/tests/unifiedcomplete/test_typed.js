@@ -90,7 +90,7 @@ test_domain
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -186,7 +186,7 @@ test_url
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -306,7 +306,7 @@ test_untyped_domain
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -382,7 +382,7 @@ test_typed_domain
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -468,7 +468,7 @@ test_untyped_url
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -556,7 +556,7 @@ test_typed_url
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching

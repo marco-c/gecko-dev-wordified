@@ -493,7 +493,7 @@ searchEngines
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 http
@@ -530,7 +530,7 @@ allMatches
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 http
@@ -563,7 +563,7 @@ allMatches
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 ftp
@@ -610,7 +610,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 ftp
@@ -643,7 +643,7 @@ allMatches
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 https
@@ -680,7 +680,7 @@ allMatches
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 https
@@ -713,7 +713,7 @@ allMatches
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 www
@@ -742,7 +742,7 @@ allMatches
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 w
@@ -790,7 +790,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 http
@@ -846,7 +846,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 http
@@ -904,7 +904,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 ww
@@ -942,7 +942,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 ww
@@ -980,7 +980,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 http
@@ -1026,7 +1026,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 http
@@ -1076,7 +1076,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 www
@@ -1114,7 +1114,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 http
@@ -1160,7 +1160,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 http

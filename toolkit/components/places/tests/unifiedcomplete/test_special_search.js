@@ -663,7 +663,7 @@ bar
 Test
 restricting
 searches
-do_log_info
+do_print
 (
 "
 History
@@ -769,7 +769,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Star
@@ -981,7 +981,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Tag
@@ -1121,7 +1121,7 @@ as
 any
 word
 position
-do_log_info
+do_print
 (
 "
 Special
@@ -1221,7 +1221,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Special
@@ -1321,7 +1321,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Special
@@ -1431,7 +1431,7 @@ searches
 with
 a
 term
-do_log_info
+do_print
 (
 "
 foo
@@ -1531,7 +1531,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -1645,7 +1645,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -1852,7 +1852,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2066,7 +2066,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2272,7 +2272,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2485,7 +2485,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2631,7 +2631,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2786,7 +2786,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2930,7 +2930,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3081,7 +3081,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3155,7 +3155,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3244,7 +3244,7 @@ pairs
 of
 special
 searches
-do_log_info
+do_print
 (
 "
 foo
@@ -3330,7 +3330,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3424,7 +3424,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3502,7 +3502,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3560,7 +3560,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3630,7 +3630,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3817,7 +3817,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3942,7 +3942,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4090,7 +4090,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4151,7 +4151,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4267,7 +4267,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4408,7 +4408,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4479,7 +4479,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4564,7 +4564,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4633,7 +4633,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4742,7 +4742,7 @@ suggest
 .
 *
 prefs
-do_log_info
+do_print
 (
 "
 foo
@@ -4863,7 +4863,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -5137,7 +5137,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -5268,7 +5268,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -5506,7 +5506,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo

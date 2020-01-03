@@ -124,7 +124,7 @@ search
 "
 )
 ;
-do_log_info
+do_print
 (
 "
 search
@@ -197,7 +197,7 @@ searchengine
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 search
@@ -286,7 +286,7 @@ searchengine
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 search
@@ -364,7 +364,7 @@ searchengine
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 search

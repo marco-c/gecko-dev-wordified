@@ -316,7 +316,7 @@ bookmark
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -365,7 +365,7 @@ vi
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -437,7 +437,7 @@ s
 not
 typed
 .
-do_log_info
+do_print
 (
 "
 Restrict
@@ -492,7 +492,7 @@ s
 not
 typed
 .
-do_log_info
+do_print
 (
 "
 Restrict
@@ -612,7 +612,7 @@ are
 very
 weak
 .
-do_log_info
+do_print
 (
 "
 Restrict
@@ -680,7 +680,7 @@ bookmarked
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -799,7 +799,7 @@ filters
 on
 typed
 .
-do_log_info
+do_print
 (
 "
 Restrict
@@ -843,7 +843,7 @@ vi
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -905,7 +905,7 @@ typed
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -948,7 +948,7 @@ bo
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1069,7 +1069,7 @@ typed
 true
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1108,7 +1108,7 @@ vi
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1162,7 +1162,7 @@ s
 not
 typed
 .
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1234,7 +1234,7 @@ s
 not
 typed
 .
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1309,7 +1309,7 @@ typed
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1383,7 +1383,7 @@ s
 a
 title
 .
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1442,7 +1442,7 @@ s
 a
 tag
 .
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1773,7 +1773,7 @@ searchEngines
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -1830,7 +1830,7 @@ v
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -1917,7 +1917,7 @@ s
 not
 typed
 .
-do_log_info
+do_print
 (
 "
 URL
@@ -1980,7 +1980,7 @@ s
 not
 typed
 .
-do_log_info
+do_print
 (
 "
 URL
@@ -2093,7 +2093,7 @@ bookmark
 true
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -2140,7 +2140,7 @@ v
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -2202,7 +2202,7 @@ s
 not
 typed
 .
-do_log_info
+do_print
 (
 "
 URL
@@ -2282,7 +2282,7 @@ s
 not
 typed
 .
-do_log_info
+do_print
 (
 "
 URL
@@ -2372,7 +2372,7 @@ typed
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 URL

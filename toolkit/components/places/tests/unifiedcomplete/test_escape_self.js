@@ -157,7 +157,7 @@ title
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 Unescaped
@@ -198,7 +198,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Escaped

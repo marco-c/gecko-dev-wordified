@@ -64,7 +64,7 @@ test_casing_1
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -148,7 +148,7 @@ test_casing_2
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -238,7 +238,7 @@ test_casing_3
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -334,7 +334,7 @@ test_casing_4
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -424,7 +424,7 @@ test_casing_5
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -520,7 +520,7 @@ test_untrimmed_casing
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -616,7 +616,7 @@ test_untrimmed_www_casing
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -722,7 +722,7 @@ test_untrimmed_path_casing
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -826,7 +826,7 @@ test_untrimmed_path_casing_2
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -933,7 +933,7 @@ test_untrimmed_path_www_casing
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -1047,7 +1047,7 @@ test_untrimmed_path_www_casing_2
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching

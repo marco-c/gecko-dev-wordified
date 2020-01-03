@@ -420,7 +420,7 @@ test_import
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Import
@@ -583,7 +583,7 @@ _initPlaces
 (
 )
 .
-do_log_info
+do_print
 (
 "
 Simulate
@@ -614,7 +614,7 @@ test_import_noSmartBookmarks
 (
 )
 {
-do_log_info
+do_print
 (
 "
 import
@@ -795,7 +795,7 @@ _initPlaces
 (
 )
 .
-do_log_info
+do_print
 (
 "
 Simulate
@@ -826,7 +826,7 @@ test_import_autoExport_updatedSmartBookmarks
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Import
@@ -1031,7 +1031,7 @@ nsBrowserGlue
 _initPlaces
 (
 )
-do_log_info
+do_print
 (
 "
 Simulate
@@ -1062,7 +1062,7 @@ test_import_autoExport_oldSmartBookmarks
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Import
@@ -1266,7 +1266,7 @@ nsBrowserGlue
 _initPlaces
 (
 )
-do_log_info
+do_print
 (
 "
 Simulate
@@ -1297,7 +1297,7 @@ test_restore
 (
 )
 {
-do_log_info
+do_print
 (
 "
 restore
@@ -1444,7 +1444,7 @@ nsBrowserGlue
 _initPlaces
 (
 )
-do_log_info
+do_print
 (
 "
 Simulate
@@ -1475,7 +1475,7 @@ test_restore_import
 (
 )
 {
-do_log_info
+do_print
 (
 "
 setting
@@ -1642,7 +1642,7 @@ nsBrowserGlue
 _initPlaces
 (
 )
-do_log_info
+do_print
 (
 "
 Simulate

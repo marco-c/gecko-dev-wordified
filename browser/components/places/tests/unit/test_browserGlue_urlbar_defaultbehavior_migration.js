@@ -324,7 +324,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Migrate
@@ -458,7 +458,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Migrate
@@ -592,7 +592,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Migrate
@@ -726,7 +726,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Migrate
@@ -859,7 +859,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Migrate
@@ -992,7 +992,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Migrate
@@ -1125,7 +1125,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Migrate
@@ -1258,7 +1258,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Migrate

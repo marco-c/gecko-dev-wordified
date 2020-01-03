@@ -270,7 +270,7 @@ getMostRecentBackup
 true
 )
 ;
-do_log_info
+do_print
 (
 "
 Checking
@@ -313,7 +313,7 @@ f1
 "
 )
 ;
-do_log_info
+do_print
 (
 "
 Checking
@@ -352,7 +352,7 @@ f2
 "
 )
 ;
-do_log_info
+do_print
 (
 "
 Checking

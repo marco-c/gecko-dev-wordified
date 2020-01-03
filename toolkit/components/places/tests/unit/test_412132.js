@@ -140,7 +140,7 @@ changeuri_unvisited_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 After
@@ -226,7 +226,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_log_info
+do_print
 (
 "
 Bookmarked
@@ -280,7 +280,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_log_info
+do_print
 (
 "
 Unvisited
@@ -327,7 +327,7 @@ changeuri_visited_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 After
@@ -407,7 +407,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_log_info
+do_print
 (
 "
 Bookmarked
@@ -472,7 +472,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_log_info
+do_print
 (
 "
 *
@@ -522,7 +522,7 @@ changeuri_bookmark_still_bookmarked
 (
 )
 {
-do_log_info
+do_print
 (
 "
 After
@@ -632,7 +632,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_log_info
+do_print
 (
 "
 Bookmarked
@@ -686,7 +686,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_log_info
+do_print
 (
 "
 URI
@@ -732,7 +732,7 @@ changeuri_nonexistent_bookmark
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Changing

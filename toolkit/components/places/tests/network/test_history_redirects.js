@@ -648,7 +648,7 @@ shift
 (
 )
 ;
-do_log_info
+do_print
 (
 "
 Checking
@@ -1020,7 +1020,7 @@ request
 context
 )
 {
-do_log_info
+do_print
 (
 "
 onStartRequest
@@ -1072,7 +1072,7 @@ context
 status
 )
 {
-do_log_info
+do_print
 (
 "
 onStopRequest
@@ -1143,7 +1143,7 @@ aFlags
 callback
 )
 {
-do_log_info
+do_print
 (
 "
 onChannelRedirect

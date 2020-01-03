@@ -557,7 +557,7 @@ aTitle
 aGUID
 )
 {
-do_log_info
+do_print
 (
 "
 onTitleChanged
@@ -727,7 +727,7 @@ aTransitionType
 aGUID
 )
 {
-do_log_info
+do_print
 (
 "
 onVisit
@@ -1599,7 +1599,7 @@ array
 "
 )
 ;
-do_log_info
+do_print
 (
 str
 )
@@ -2421,7 +2421,7 @@ of
 this
 test
 .
-do_log_info
+do_print
 (
 "
 Could
@@ -2485,7 +2485,7 @@ placesResult
 errors
 )
 {
-do_log_info
+do_print
 (
 "
 Checking
@@ -6749,7 +6749,7 @@ aTopic
 aData
 )
 {
-do_log_info
+do_print
 (
 "
 observe
@@ -7034,7 +7034,7 @@ of
 this
 test
 .
-do_log_info
+do_print
 (
 "
 Could

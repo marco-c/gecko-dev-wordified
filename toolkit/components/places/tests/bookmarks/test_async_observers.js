@@ -210,7 +210,7 @@ aLastModified
 aItemType
 )
 {
-do_log_info
+do_print
 (
 "
 Check
@@ -368,7 +368,7 @@ aVisitId
 aTime
 )
 {
-do_log_info
+do_print
 (
 "
 Check
