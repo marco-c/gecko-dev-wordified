@@ -4344,6 +4344,13 @@ dom
 :
 Selection
 ;
+friend
+struct
+mozilla
+:
+:
+AutoPrepareFocusRange
+;
 #
 ifdef
 DEBUG
