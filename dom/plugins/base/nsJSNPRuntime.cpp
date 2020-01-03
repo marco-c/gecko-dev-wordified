@@ -631,6 +631,7 @@ JSObjects
 .
 static
 PLDHashTable
+*
 sNPObjWrappers
 ;
 /
@@ -2235,10 +2236,6 @@ MOZ_ASSERT
 (
 !
 sNPObjWrappers
-.
-IsInitialized
-(
-)
 )
 ;
 if
@@ -2253,10 +2250,11 @@ return
 false
 ;
 }
-PL_DHashTableInit
-(
-&
 sNPObjWrappers
+=
+new
+PLDHashTable
+(
 PL_DHashGetStubOps
 (
 )
@@ -2279,7 +2277,8 @@ DestroyNPObjWrapperTable
 MOZ_ASSERT
 (
 sNPObjWrappers
-.
+-
+>
 EntryCount
 (
 )
@@ -2288,11 +2287,12 @@ EntryCount
 0
 )
 ;
-PL_DHashTableFinish
-(
-&
+delete
 sNPObjWrappers
-)
+;
+sNPObjWrappers
+=
+nullptr
 ;
 }
 static
@@ -2349,10 +2349,6 @@ DestroyJSObjWrapperTable
 if
 (
 sNPObjWrappers
-.
-IsInitialized
-(
-)
 )
 {
 /
@@ -10039,15 +10035,10 @@ npobj
 if
 (
 sNPObjWrappers
-.
-IsInitialized
-(
-)
 )
 {
 PL_DHashTableRemove
 (
-&
 sNPObjWrappers
 npobj
 )
@@ -10119,10 +10110,6 @@ if
 (
 !
 sNPObjWrappers
-.
-IsInitialized
-(
-)
 )
 {
 return
@@ -10182,7 +10169,6 @@ NPObjWrapperHashEntry
 (
 PL_DHashTableSearch
 (
-&
 sNPObjWrappers
 npobj
 )
@@ -10487,10 +10473,6 @@ if
 (
 !
 sNPObjWrappers
-.
-IsInitialized
-(
-)
 )
 {
 /
@@ -10523,7 +10505,6 @@ NPObjWrapperHashEntry
 (
 PL_DHashTableSearch
 (
-&
 sNPObjWrappers
 npobj
 )
@@ -10584,7 +10565,6 @@ away
 .
 PL_DHashTableRawRemove
 (
-&
 sNPObjWrappers
 entry
 )
@@ -10764,10 +10744,6 @@ if
 (
 !
 sNPObjWrappers
-.
-IsInitialized
-(
-)
 )
 {
 /
@@ -10808,7 +10784,6 @@ NPObjWrapperHashEntry
 (
 PL_DHashTableAdd
 (
-&
 sNPObjWrappers
 npobj
 fallible
@@ -10927,7 +10902,8 @@ uint32_t
 generation
 =
 sNPObjWrappers
-.
+-
+>
 Generation
 (
 )
@@ -10973,7 +10949,8 @@ generation
 !
 =
 sNPObjWrappers
-.
+-
+>
 Generation
 (
 )
@@ -11012,7 +10989,6 @@ NS_ASSERTION
 (
 PL_DHashTableSearch
 (
-&
 sNPObjWrappers
 npobj
 )
@@ -11051,7 +11027,6 @@ hash
 .
 PL_DHashTableRawRemove
 (
-&
 sNPObjWrappers
 entry
 )
@@ -11573,10 +11548,6 @@ cx
 if
 (
 sNPObjWrappers
-.
-IsInitialized
-(
-)
 )
 {
 NppAndCx
@@ -11589,7 +11560,6 @@ cx
 ;
 PL_DHashTableEnumerate
 (
-&
 sNPObjWrappers
 NPObjWrapperPluginDestroyedCallback
 &
@@ -11777,7 +11747,6 @@ NPObjWrapperHashEntry
 (
 PL_DHashTableAdd
 (
-&
 sNPObjWrappers
 npobj
 fallible
