@@ -8652,7 +8652,7 @@ aId
 nsCString
 *
 aDisplayName
-nsCString
+uint32_t
 *
 aPluginId
 )

@@ -175,8 +175,7 @@ aPlugin
 GMPDecryptorProxy
 virtual
 const
-nsACString
-&
+uint32_t
 GetPluginId
 (
 )
@@ -558,7 +557,7 @@ GMPContentParent
 >
 mPlugin
 ;
-nsCString
+uint32_t
 mPluginId
 ;
 GMPDecryptorProxyCallback

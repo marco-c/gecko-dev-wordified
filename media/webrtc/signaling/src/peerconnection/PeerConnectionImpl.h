@@ -2688,16 +2688,12 @@ Close
 bool
 PluginCrash
 (
-uint64_t
+uint32_t
 aPluginID
 const
 nsAString
 &
 aPluginName
-const
-nsAString
-&
-aPluginDumpID
 )
 ;
 nsresult

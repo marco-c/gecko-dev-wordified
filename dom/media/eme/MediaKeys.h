@@ -540,8 +540,7 @@ nsACString
 &
 aNodeId
 const
-nsACString
-&
+uint32_t
 aPluginId
 )
 ;

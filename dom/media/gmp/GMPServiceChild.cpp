@@ -423,7 +423,7 @@ otherProcess
 nsCString
 displayName
 ;
-nsCString
+uint32_t
 pluginId
 ;
 bool
