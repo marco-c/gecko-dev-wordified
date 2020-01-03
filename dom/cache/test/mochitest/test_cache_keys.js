@@ -655,14 +655,6 @@ URL
 ;
 /
 /
-TODO
-:
-Add
-tests
-for
-ignoreVary
-/
-/
 Make
 sure
 cacheName
