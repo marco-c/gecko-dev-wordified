@@ -335,7 +335,7 @@ its
 demise
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
 child
 =

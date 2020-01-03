@@ -490,14 +490,14 @@ of
 responsive
 parameter
 changes
-nsINode
+Element
 *
 parent
 =
 nsINode
 :
 :
-GetParentNode
+GetParentElement
 (
 )
 ;
@@ -597,7 +597,7 @@ the
 change
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
 sibling
 =
@@ -965,7 +965,7 @@ notify
 them
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
 sibling
 =
