@@ -8946,7 +8946,7 @@ branchTest32
 Assembler
 :
 :
-Zero
+NonZero
 Address
 (
 base
