@@ -2397,6 +2397,15 @@ return
 mZ
 ;
 }
+double
+W
+(
+)
+{
+return
+mW
+;
+}
 const
 nsIntRect
 &
@@ -2992,6 +3001,7 @@ double
 mX
 mY
 mZ
+mW
 ;
 int
 mPointerIndex
@@ -3247,6 +3257,10 @@ jYField
 static
 jfieldID
 jZField
+;
+static
+jfieldID
+jWField
 ;
 static
 jfieldID
