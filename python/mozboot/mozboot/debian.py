@@ -685,10 +685,34 @@ i386
 )
         
 #
+After
+adding
+a
+new
+arch
+the
+list
+of
+packages
+has
+to
+be
+updated
+        
 self
 .
-apt_update
+run_as_root
 (
+[
+'
+apt
+-
+get
+'
+'
+update
+'
+]
 )
         
 self
