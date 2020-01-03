@@ -965,12 +965,6 @@ rootOKName
 ;
 expectedNamesForOCSP
 =
-gEVExpected
-?
-[
-intFullName
-]
-:
 [
 eeFullName
 ]
@@ -1036,6 +1030,13 @@ rootOKName
 ;
 expectedNamesForOCSP
 =
+gEVExpected
+?
+[
+intFullName
+eeFullName
+]
+:
 [
 eeFullName
 ]
