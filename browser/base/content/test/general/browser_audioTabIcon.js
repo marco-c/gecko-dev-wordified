@@ -1278,7 +1278,7 @@ resolve
 setTimeout
 (
 resolve
-1000
+3000
 )
 )
 ;
