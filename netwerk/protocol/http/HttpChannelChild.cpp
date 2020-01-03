@@ -6933,6 +6933,7 @@ if
 MissingRequiredTabChild
 (
 tabChild
+mLoadInfo
 "
 http
 "
@@ -9422,6 +9423,7 @@ if
 MissingRequiredTabChild
 (
 tabChild
+mLoadInfo
 "
 http
 "
