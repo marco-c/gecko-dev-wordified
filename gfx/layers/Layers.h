@@ -11199,8 +11199,8 @@ recomposited
 *
 /
 const
+virtual
 nsIntRegion
-&
 GetInvalidRegion
 (
 )
