@@ -16679,9 +16679,6 @@ IsValid
 )
 )
 {
-MediaDecoder
-:
-:
 FrameStatistics
 &
 frameStats
@@ -17635,9 +17632,6 @@ GetEndTime
 (
 )
 ;
-MediaDecoder
-:
-:
 FrameStatistics
 &
 frameStats

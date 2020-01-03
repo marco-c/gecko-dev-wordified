@@ -1267,9 +1267,6 @@ if
 mDecoder
 )
 {
-MediaDecoder
-:
-:
 FrameStatistics
 &
 stats
