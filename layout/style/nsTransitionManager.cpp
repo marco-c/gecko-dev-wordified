@@ -6322,6 +6322,7 @@ GetEffect
 >
 SetIsFinishedTransition
 (
+true
 )
 ;
 collection

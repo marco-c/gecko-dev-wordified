@@ -1815,6 +1815,8 @@ mIsFinishedTransition
 void
 SetIsFinishedTransition
 (
+bool
+aIsFinished
 )
 {
 MOZ_ASSERT
@@ -1837,7 +1839,7 @@ transition
 ;
 mIsFinishedTransition
 =
-true
+aIsFinished
 ;
 }
 bool
