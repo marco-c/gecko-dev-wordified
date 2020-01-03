@@ -34874,7 +34874,7 @@ MOZ_ASSERT
 elem
 -
 >
-IsHTML
+IsHTMLElement
 (
 nameAtom
 )
