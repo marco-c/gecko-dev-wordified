@@ -1468,7 +1468,7 @@ eBasicEventClass
 EVENT
 (
 suspend
-NS_SUSPEND
+eSuspend
 EventNameType_HTML
 eBasicEventClass
 )
