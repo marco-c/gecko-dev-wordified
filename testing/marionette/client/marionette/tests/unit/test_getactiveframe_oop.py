@@ -264,20 +264,12 @@ self
 .
 marionette
 .
-execute_script
-(
-"
-SpecialPowers
-.
-addPermission
+push_permission
 (
 '
 browser
 '
-true
-document
-)
-"
+True
 )
         
 #
