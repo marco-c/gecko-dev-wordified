@@ -148,13 +148,6 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
-nsISpeechRecognitionService
-.
-h
-"
 struct
 JSContext
 ;
@@ -197,9 +190,6 @@ SpeechGrammarList
 nsISupports
 *
 aParent
-nsISpeechRecognitionService
-*
-aRecognitionService
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -322,12 +312,6 @@ ErrorResult
 &
 aRv
 )
-;
-nsCOMPtr
-<
-nsISpeechRecognitionService
->
-mRecognitionService
 ;
 private
 :
