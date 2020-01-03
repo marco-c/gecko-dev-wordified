@@ -1450,9 +1450,9 @@ guard
 ;
 virtual
 void
-visitGuardObjectType
+visitGuardObjectGroup
 (
-LGuardObjectType
+LGuardObjectGroup
 *
 guard
 )

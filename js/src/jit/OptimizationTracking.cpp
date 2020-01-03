@@ -1080,7 +1080,7 @@ PointerHasher
 types
 :
 :
-TypeObjectKey
+ObjectGroupKey
 *
 3
 >

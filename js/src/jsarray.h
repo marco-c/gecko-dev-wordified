@@ -502,8 +502,8 @@ ExclusiveContext
 cx
 uint32_t
 length
-HandleTypeObject
-type
+HandleObjectGroup
+group
 AllocatingBehaviour
 allocating
 )
@@ -1213,8 +1213,8 @@ ArrayConstructorOneArg
 JSContext
 *
 cx
-HandleTypeObject
-type
+HandleObjectGroup
+group
 int32_t
 lengthInt
 )

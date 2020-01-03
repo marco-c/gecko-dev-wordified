@@ -418,8 +418,8 @@ RegExpObjectBuilder
 :
 getOrCreateClone
 (
-HandleTypeObject
-type
+HandleObjectGroup
+group
 )
 {
 MOZ_ASSERT
@@ -430,7 +430,7 @@ reobj_
 ;
 MOZ_ASSERT
 (
-type
+group
 -
 >
 clasp
@@ -449,7 +449,7 @@ JSObject
 *
 parent
 =
-type
+group
 -
 >
 proto
@@ -495,7 +495,7 @@ jitcode
 .
 reobj_
 =
-NewObjectWithType
+NewObjectWithGroup
 <
 RegExpObject
 >
@@ -506,7 +506,7 @@ cx
 asJSContext
 (
 )
-type
+group
 parent
 TenuredObject
 )
@@ -645,14 +645,14 @@ RegExpObject
 other
 )
 {
-RootedTypeObject
-type
+RootedObjectGroup
+group
 (
 cx
 other
 -
 >
-type
+group
 (
 )
 )
@@ -662,7 +662,7 @@ if
 !
 getOrCreateClone
 (
-type
+group
 )
 )
 return
@@ -4502,7 +4502,7 @@ nullptr
 Create
 a
 new
-type
+group
 for
 the
 template
@@ -4525,9 +4525,9 @@ getTaggedProto
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 =
 cx
 -
@@ -4539,7 +4539,7 @@ compartment
 >
 types
 .
-newTypeObject
+newObjectGroup
 (
 cx
 templateObject
@@ -4554,7 +4554,7 @@ proto
 if
 (
 !
-type
+group
 )
 return
 matchResultTemplateObject_
@@ -4566,9 +4566,9 @@ nullptr
 templateObject
 -
 >
-setType
+setGroup
 (
-type
+group
 )
 ;
 /
@@ -5549,7 +5549,7 @@ res
 res
 -
 >
-type
+group
 (
 )
 =
@@ -5557,7 +5557,7 @@ type
 regex
 -
 >
-type
+group
 (
 )
 )

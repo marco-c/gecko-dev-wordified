@@ -1212,7 +1212,7 @@ this
 object
 '
 s
-type
+group
 /
 /
 as
@@ -1234,7 +1234,7 @@ in
 this
 function
 .
-type
+group
 (
 )
 -
@@ -1589,15 +1589,15 @@ create
 JSContext
 *
 cx
-HandleTypeObject
-type
+HandleObjectGroup
+group
 NewObjectKind
 newKind
 )
 {
 MOZ_ASSERT
 (
-type
+group
 -
 >
 clasp
@@ -1615,7 +1615,7 @@ gc
 AllocKind
 allocKind
 =
-type
+group
 -
 >
 unboxedLayout
@@ -1630,13 +1630,13 @@ UnboxedPlainObject
 *
 res
 =
-NewObjectWithType
+NewObjectWithGroup
 <
 UnboxedPlainObject
 >
 (
 cx
-type
+group
 cx
 -
 >
@@ -3512,9 +3512,9 @@ templateShape
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 types
 :
 :
@@ -4313,7 +4313,7 @@ UnboxedLayout
 *
 layout
 =
-type
+group
 -
 >
 zone
@@ -4432,7 +4432,7 @@ int32_t
 *
 traceList
 =
-type
+group
 -
 >
 zone
@@ -4508,7 +4508,7 @@ so
 convert
 the
 existing
-type
+group
 to
 be
 an
@@ -4574,7 +4574,7 @@ UnboxedPlainObject
 :
 :
 class_
-type
+group
 -
 >
 proto
@@ -4794,7 +4794,7 @@ TypeNewScript
 *
 newScript
 =
-type
+group
 -
 >
 newScript
@@ -4809,7 +4809,7 @@ setNewScript
 newScript
 )
 ;
-type
+group
 -
 >
 setClasp
@@ -4821,7 +4821,7 @@ UnboxedPlainObject
 class_
 )
 ;
-type
+group
 -
 >
 setUnboxedLayout

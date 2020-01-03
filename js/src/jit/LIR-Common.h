@@ -9365,7 +9365,7 @@ toFunctionDispatch
 }
 ;
 class
-LTypeObjectDispatch
+LObjectGroupDispatch
 :
 public
 LInstructionHelper
@@ -9382,8 +9382,8 @@ is
 performed
 based
 on
-a
-TypeObject
+an
+ObjectGroup
 -
 >
 block
@@ -9399,10 +9399,10 @@ public
 :
 LIR_HEADER
 (
-TypeObjectDispatch
+ObjectGroupDispatch
 )
 ;
-LTypeObjectDispatch
+LObjectGroupDispatch
 (
 const
 LAllocation
@@ -9441,7 +9441,7 @@ getTemp
 )
 ;
 }
-MTypeObjectDispatch
+MObjectGroupDispatch
 *
 mir
 (
@@ -9451,7 +9451,7 @@ return
 mir_
 -
 >
-toTypeObjectDispatch
+toObjectGroupDispatch
 (
 )
 ;

@@ -375,7 +375,7 @@ if
 JSObject
 :
 :
-setNewTypeUnknown
+setNewGroupUnknown
 (
 cx
 clasp
@@ -597,13 +597,13 @@ isDOMClass
 (
 )
 )
-MarkTypeObjectUnknownProperties
+MarkObjectGroupUnknownProperties
 (
 cx
 proxy
 -
 >
-type
+group
 (
 )
 )

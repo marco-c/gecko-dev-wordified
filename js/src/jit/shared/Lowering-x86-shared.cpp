@@ -342,9 +342,9 @@ void
 LIRGeneratorX86Shared
 :
 :
-visitGuardObjectType
+visitGuardObjectGroup
 (
-MGuardObjectType
+MGuardObjectGroup
 *
 ins
 )
@@ -367,7 +367,7 @@ type
 MIRType_Object
 )
 ;
-LGuardObjectType
+LGuardObjectGroup
 *
 guard
 =
@@ -377,7 +377,7 @@ alloc
 (
 )
 )
-LGuardObjectType
+LGuardObjectGroup
 (
 useRegisterAtStart
 (

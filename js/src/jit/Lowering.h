@@ -807,9 +807,9 @@ ins
 )
 ;
 void
-visitTypeObjectDispatch
+visitObjectGroupDispatch
 (
-MTypeObjectDispatch
+MObjectGroupDispatch
 *
 ins
 )

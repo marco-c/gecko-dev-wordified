@@ -2670,8 +2670,8 @@ str_split_string
 JSContext
 *
 cx
-HandleTypeObject
-type
+HandleObjectGroup
+group
 HandleString
 str
 HandleString

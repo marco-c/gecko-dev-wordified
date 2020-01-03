@@ -197,9 +197,9 @@ ins
 )
 ;
 void
-visitGuardObjectType
+visitGuardObjectGroup
 (
-MGuardObjectType
+MGuardObjectGroup
 *
 ins
 )

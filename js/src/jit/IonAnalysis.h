@@ -845,9 +845,9 @@ fun
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 HandlePlainObject
 baseobj
 Vector

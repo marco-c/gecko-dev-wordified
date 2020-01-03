@@ -7497,7 +7497,7 @@ shape
 its
 /
 /
-type
+group
 can
 be
 updated
@@ -7516,7 +7516,7 @@ newScript
 obj
 -
 >
-typeRaw
+groupRaw
 (
 )
 -
@@ -7541,12 +7541,12 @@ shape
 obj
 -
 >
-setType
+setGroup
 (
 newScript
 -
 >
-initializedType
+initializedGroup
 (
 )
 )
@@ -10733,7 +10733,7 @@ JS_UNINITIALIZED_LEXICAL
 obj
 -
 >
-hasSingletonType
+isSingleton
 (
 )
 &
@@ -10769,7 +10769,7 @@ cx
 obj
 -
 >
-type
+group
 (
 )
 shape

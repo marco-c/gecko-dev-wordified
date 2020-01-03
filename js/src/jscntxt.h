@@ -1917,9 +1917,9 @@ ExclusiveContext
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-getNewType
+getNewGroup
 (
 const
 Class
@@ -1937,9 +1937,9 @@ nullptr
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-getSingletonType
+getLazySingletonGroup
 (
 const
 Class

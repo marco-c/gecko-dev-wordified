@@ -1176,7 +1176,7 @@ created
 static
 const
 uint32_t
-SINGLETON_TYPE_BYTE_LENGTH
+SINGLETON_BYTE_LENGTH
 =
 1024
 *

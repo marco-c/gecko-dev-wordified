@@ -2554,14 +2554,14 @@ macro
 (
 Other
 IsLiveGCThing
-typeObjectsGCHeap
+objectGroupsGCHeap
 )
 \
 macro
 (
 Other
 NotLiveGCThing
-typeObjectsMallocHeap
+objectGroupsMallocHeap
 )
 \
 macro

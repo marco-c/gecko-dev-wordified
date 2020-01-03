@@ -3039,9 +3039,9 @@ void
 LIRGeneratorARM
 :
 :
-visitGuardObjectType
+visitGuardObjectGroup
 (
-MGuardObjectType
+MGuardObjectGroup
 *
 ins
 )
@@ -3075,7 +3075,7 @@ LDefinition
 OBJECT
 )
 ;
-LGuardObjectType
+LGuardObjectGroup
 *
 guard
 =
@@ -3085,7 +3085,7 @@ alloc
 (
 )
 )
-LGuardObjectType
+LGuardObjectGroup
 (
 useRegister
 (

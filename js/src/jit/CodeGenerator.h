@@ -645,9 +645,9 @@ lir
 )
 ;
 void
-visitTypeObjectDispatch
+visitObjectGroupDispatch
 (
-LTypeObjectDispatch
+LObjectGroupDispatch
 *
 lir
 )

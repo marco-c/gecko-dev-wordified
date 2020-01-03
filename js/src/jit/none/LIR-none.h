@@ -303,7 +303,7 @@ LInstruction
 }
 ;
 class
-LGuardObjectType
+LGuardObjectGroup
 :
 public
 LInstruction

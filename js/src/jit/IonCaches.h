@@ -5316,8 +5316,8 @@ HandleNativeObject
 obj
 HandleShape
 oldShape
-HandleTypeObject
-oldType
+HandleObjectGroup
+oldGroup
 bool
 checkTypeset
 )

@@ -2590,7 +2590,7 @@ template
 struct
 TypeToArgProperties
 <
-HandleTypeObject
+HandleObjectGroup
 >
 {
 static
@@ -2603,7 +2603,7 @@ TypeToArgProperties
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 >
 :
@@ -2867,7 +2867,7 @@ template
 struct
 TypeToRootType
 <
-HandleTypeObject
+HandleObjectGroup
 >
 {
 static
@@ -5129,8 +5129,8 @@ JSContext
 cx
 HandleShape
 shape
-HandleTypeObject
-type
+HandleObjectGroup
+group
 uint32_t
 lexicalBegin
 )
@@ -5794,7 +5794,7 @@ shapep
 )
 ;
 void
-MarkTypeObjectFromIon
+MarkObjectGroupFromIon
 (
 JSRuntime
 *
@@ -5802,10 +5802,10 @@ rt
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 *
-typep
+groupp
 )
 ;
 /
@@ -5873,14 +5873,14 @@ MarkShapeFromIon
 )
 ;
 case
-MIRType_TypeObject
+MIRType_ObjectGroup
 :
 return
 JS_FUNC_TO_DATA_PTR
 (
 void
 *
-MarkTypeObjectFromIon
+MarkObjectGroupFromIon
 )
 ;
 default

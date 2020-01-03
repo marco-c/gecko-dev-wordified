@@ -716,7 +716,7 @@ if
 obj
 -
 >
-hasSingletonType
+isSingleton
 (
 )
 )
@@ -826,7 +826,7 @@ proto
 *
 after
 we
-setSingletonType
+setSingleton
 so
 that
 we
@@ -837,7 +837,7 @@ pollute
 the
 default
 *
-TypeObject
+ObjectGroup
 attached
 to
 our
@@ -858,7 +858,7 @@ to
 be
 using
 that
-TypeObject
+ObjectGroup
 anyway
 .
 *
@@ -2820,7 +2820,7 @@ get
 )
 -
 >
-type
+group
 -
 >
 proto

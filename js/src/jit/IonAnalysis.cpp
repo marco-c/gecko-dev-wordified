@@ -16085,7 +16085,7 @@ case
 MIRType_Shape
 :
 case
-MIRType_TypeObject
+MIRType_ObjectGroup
 :
 case
 MIRType_Float32x4
@@ -21796,9 +21796,9 @@ cx
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 MDefinition
 *
 thisValue
@@ -22206,7 +22206,7 @@ types
 AddClearDefiniteGetterSetterForPrototypeChain
 (
 cx
-type
+group
 id
 )
 )
@@ -22734,7 +22734,7 @@ types
 AddClearDefiniteGetterSetterForPrototypeChain
 (
 cx
-type
+group
 id
 )
 )
@@ -22866,9 +22866,9 @@ fun
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 HandlePlainObject
 baseobj
 Vector
@@ -23128,7 +23128,7 @@ Type
 :
 ObjectType
 (
-type
+group
 )
 )
 ;
@@ -23839,7 +23839,7 @@ if
 AnalyzePoppedThis
 (
 cx
-type
+group
 thisValue
 ins
 definitelyExecuted
@@ -24115,7 +24115,7 @@ types
 AddClearDefiniteFunctionUsesInScript
 (
 cx
-type
+group
 script
 block
 -

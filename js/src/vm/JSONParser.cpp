@@ -4209,8 +4209,8 @@ and
 update
 the
 initializer
-type
 object
+group
 cache
 with
 this
@@ -4233,7 +4233,7 @@ compartment
 >
 types
 .
-fixObjectType
+fixObjectGroup
 (
 cx
 obj
@@ -4411,7 +4411,7 @@ compartment
 >
 types
 .
-fixArrayType
+fixArrayGroup
 (
 cx
 obj

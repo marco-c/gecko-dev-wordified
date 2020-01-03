@@ -6207,9 +6207,9 @@ reason
 Nursery
 :
 :
-TypeObjectList
+ObjectGroupList
 *
-pretenureTypes
+pretenureGroups
 )
 ;
 /

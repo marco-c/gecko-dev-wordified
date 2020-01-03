@@ -208,7 +208,7 @@ object
 .
 MOZ_ASSERT_IF
 (
-hasSingletonType
+isSingleton
 (
 )
 name
@@ -216,7 +216,7 @@ name
 ;
 if
 (
-hasSingletonType
+isSingleton
 (
 )
 )
@@ -345,7 +345,7 @@ v
 ;
 if
 (
-hasSingletonType
+isSingleton
 (
 )
 )
@@ -400,7 +400,7 @@ v
 ;
 if
 (
-hasSingletonType
+isSingleton
 (
 )
 )

@@ -3449,7 +3449,7 @@ bool
 AbstractFramePtr
 :
 :
-useNewType
+createSingleton
 (
 )
 const
@@ -3466,7 +3466,7 @@ asInterpreterFrame
 )
 -
 >
-useNewType
+createSingleton
 (
 )
 ;

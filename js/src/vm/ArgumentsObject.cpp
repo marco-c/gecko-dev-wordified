@@ -1193,14 +1193,14 @@ NormalArgumentsObject
 :
 class_
 ;
-RootedTypeObject
-type
+RootedObjectGroup
+group
 (
 cx
 cx
 -
 >
-getNewType
+getNewGroup
 (
 clasp
 TaggedProto
@@ -1217,7 +1217,7 @@ get
 if
 (
 !
-type
+group
 )
 return
 nullptr
@@ -1391,7 +1391,7 @@ GenericObject
 clasp
 )
 shape
-type
+group
 )
 ;
 if

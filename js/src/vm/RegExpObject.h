@@ -413,8 +413,8 @@ getOrCreate
 bool
 getOrCreateClone
 (
-HandleTypeObject
-type
+HandleObjectGroup
+group
 )
 ;
 public

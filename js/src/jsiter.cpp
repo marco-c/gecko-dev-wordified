@@ -3617,14 +3617,14 @@ flags
 JSITER_ENUMERATE
 )
 {
-RootedTypeObject
-type
+RootedObjectGroup
+group
 (
 cx
 cx
 -
 >
-getNewType
+getNewGroup
 (
 &
 PropertyIteratorObject
@@ -3641,7 +3641,7 @@ nullptr
 if
 (
 !
-type
+group
 )
 return
 nullptr
@@ -3722,7 +3722,7 @@ GenericObject
 clasp
 )
 shape
-type
+group
 )
 ;
 if
@@ -4215,7 +4215,7 @@ if
 obj
 -
 >
-hasSingletonType
+isSingleton
 (
 )
 &
@@ -4235,7 +4235,7 @@ false
 types
 :
 :
-MarkTypeObjectFlags
+MarkObjectGroupFlags
 (
 cx
 obj
@@ -4492,7 +4492,7 @@ if
 obj
 -
 >
-hasSingletonType
+isSingleton
 (
 )
 &
@@ -4512,7 +4512,7 @@ false
 types
 :
 :
-MarkTypeObjectFlags
+MarkObjectGroupFlags
 (
 cx
 obj

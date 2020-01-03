@@ -3183,7 +3183,7 @@ global
 object
 '
 s
-type
+group
 has
 been
 instantiated
@@ -3208,7 +3208,7 @@ global
 )
 -
 >
-getType
+getGroup
 (
 cx
 )
@@ -3226,7 +3226,7 @@ neuter
 types
 :
 :
-MarkTypeObjectFlags
+MarkObjectGroupFlags
 (
 cx
 cx

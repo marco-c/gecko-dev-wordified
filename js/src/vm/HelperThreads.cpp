@@ -5283,7 +5283,7 @@ zone
 gc
 :
 :
-FINALIZE_TYPE_OBJECT
+FINALIZE_OBJECT_GROUP
 )
 ;
 !
@@ -5303,9 +5303,9 @@ next
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-object
+group
 =
 iter
 .
@@ -5314,7 +5314,7 @@ get
 types
 :
 :
-TypeObject
+ObjectGroup
 >
 (
 )
@@ -5322,7 +5322,7 @@ TypeObject
 TaggedProto
 proto
 (
-object
+group
 -
 >
 proto
@@ -5412,7 +5412,7 @@ MOZ_ASSERT
 newProto
 )
 ;
-object
+group
 -
 >
 setProtoUnchecked

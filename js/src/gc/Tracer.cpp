@@ -1325,12 +1325,12 @@ shape
 break
 ;
 case
-JSTRACE_TYPE_OBJECT
+JSTRACE_OBJECT_GROUP
 :
 name
 =
 "
-type_object
+object_group
 "
 ;
 break

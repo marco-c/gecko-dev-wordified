@@ -1555,7 +1555,7 @@ objReg
 JSObject
 :
 :
-offsetOfType
+offsetOfGroup
 (
 )
 )
@@ -1570,7 +1570,7 @@ dest
 types
 :
 :
-TypeObject
+ObjectGroup
 :
 :
 offsetOfClasp
@@ -1610,7 +1610,7 @@ obj
 JSObject
 :
 :
-offsetOfType
+offsetOfGroup
 (
 )
 )
@@ -1626,7 +1626,7 @@ scratch
 types
 :
 :
-TypeObject
+ObjectGroup
 :
 :
 offsetOfClasp
@@ -2103,7 +2103,7 @@ obj
 JSObject
 :
 :
-offsetOfType
+offsetOfGroup
 (
 )
 )
@@ -2118,7 +2118,7 @@ dest
 types
 :
 :
-TypeObject
+ObjectGroup
 :
 :
 offsetOfProto

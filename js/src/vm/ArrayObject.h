@@ -330,8 +330,8 @@ InitialHeap
 heap
 HandleShape
 shape
-HandleTypeObject
-type
+HandleObjectGroup
+group
 uint32_t
 length
 )
@@ -366,8 +366,8 @@ InitialHeap
 heap
 HandleShape
 shape
-HandleTypeObject
-type
+HandleObjectGroup
+group
 HeapSlot
 *
 elements
@@ -446,8 +446,8 @@ InitialHeap
 heap
 HandleShape
 shape
-HandleTypeObject
-type
+HandleObjectGroup
+group
 )
 ;
 static

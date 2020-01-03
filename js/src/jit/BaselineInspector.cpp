@@ -507,9 +507,9 @@ pc
 ShapeVector
 &
 nativeShapes
-TypeObjectVector
+ObjectGroupVector
 &
-unboxedTypes
+unboxedGroups
 )
 {
 /
@@ -563,7 +563,7 @@ empty
 ;
 MOZ_ASSERT
 (
-unboxedTypes
+unboxedGroups
 .
 empty
 (
@@ -627,9 +627,9 @@ nullptr
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 =
 nullptr
 ;
@@ -695,7 +695,7 @@ isGetProp_Unboxed
 )
 )
 {
-type
+group
 =
 stub
 -
@@ -705,7 +705,7 @@ toGetProp_Unboxed
 )
 -
 >
-type
+group
 (
 )
 ;
@@ -721,7 +721,7 @@ isSetProp_Unboxed
 )
 )
 {
-type
+group
 =
 stub
 -
@@ -731,7 +731,7 @@ toSetProp_Unboxed
 )
 -
 >
-type
+group
 (
 )
 ;
@@ -744,7 +744,7 @@ clear
 (
 )
 ;
-unboxedTypes
+unboxedGroups
 .
 clear
 (
@@ -764,7 +764,7 @@ the
 same
 shape
 /
-type
+group
 twice
 (
 this
@@ -780,9 +780,7 @@ SetProp_Native
 stubs
 with
 different
-TypeObject
-'
-s
+ObjectGroups
 )
 .
 if
@@ -868,7 +866,7 @@ i
 ;
 i
 <
-unboxedTypes
+unboxedGroups
 .
 length
 (
@@ -881,13 +879,13 @@ i
 {
 if
 (
-unboxedTypes
+unboxedGroups
 [
 i
 ]
 =
 =
-type
+group
 )
 {
 found
@@ -905,11 +903,11 @@ found
 &
 &
 !
-unboxedTypes
+unboxedGroups
 .
 append
 (
-type
+group
 )
 )
 return
@@ -957,7 +955,7 @@ clear
 (
 )
 ;
-unboxedTypes
+unboxedGroups
 .
 clear
 (
@@ -988,7 +986,7 @@ clear
 (
 )
 ;
-unboxedTypes
+unboxedGroups
 .
 clear
 (
@@ -1010,7 +1008,7 @@ than
 5
 shapes
 /
-types
+groups
 .
 if
 (
@@ -1020,7 +1018,7 @@ length
 (
 )
 +
-unboxedTypes
+unboxedGroups
 .
 length
 (
@@ -1035,7 +1033,7 @@ clear
 (
 )
 ;
-unboxedTypes
+unboxedGroups
 .
 clear
 (

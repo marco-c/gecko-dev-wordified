@@ -2206,7 +2206,7 @@ name
 =
 obj
 .
-hasSingletonType
+isSingleton
 (
 )
 ?

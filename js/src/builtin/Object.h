@@ -195,8 +195,8 @@ NewObjectKind
 newKind
 =
 GenericObject
-HandleTypeObject
-type
+HandleObjectGroup
+group
 =
 js
 :

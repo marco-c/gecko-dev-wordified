@@ -177,7 +177,7 @@ namespace
 types
 {
 struct
-TypeObject
+ObjectGroup
 ;
 }
 static
@@ -787,15 +787,15 @@ pushType
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 )
 {
 pushTaggedPtr
 (
-TypeTag
-type
+GroupTag
+group
 )
 ;
 }
@@ -1297,7 +1297,7 @@ StackTag
 {
 ValueArrayTag
 ObjectTag
-TypeTag
+GroupTag
 XmlTag
 SavedValueArrayTag
 JitCodeTag

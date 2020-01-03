@@ -261,7 +261,7 @@ namespace
 types
 {
 struct
-TypeObject
+ObjectGroup
 ;
 }
 namespace
@@ -711,12 +711,12 @@ Vector
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 0
 SystemAllocPolicy
 >
-TypeObjectList
+ObjectGroupList
 ;
 /
 *
@@ -731,7 +731,7 @@ a
 list
 to
 store
-types
+groups
 which
 *
 should
@@ -755,9 +755,9 @@ gcreason
 :
 Reason
 reason
-TypeObjectList
+ObjectGroupList
 *
-pretenureTypes
+pretenureGroups
 )
 ;
 /

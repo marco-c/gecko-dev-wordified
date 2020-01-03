@@ -14575,9 +14575,9 @@ void
 CodeGeneratorX86Shared
 :
 :
-visitGuardObjectType
+visitGuardObjectGroup
 (
-LGuardObjectType
+LGuardObjectGroup
 *
 guard
 )
@@ -14605,7 +14605,7 @@ obj
 JSObject
 :
 :
-offsetOfType
+offsetOfGroup
 (
 )
 )
@@ -14619,7 +14619,7 @@ mir
 )
 -
 >
-typeObject
+group
 (
 )
 )
@@ -14712,7 +14712,7 @@ obj
 JSObject
 :
 :
-offsetOfType
+offsetOfGroup
 (
 )
 )
@@ -14729,7 +14729,7 @@ tmp
 types
 :
 :
-TypeObject
+ObjectGroup
 :
 :
 offsetOfClasp

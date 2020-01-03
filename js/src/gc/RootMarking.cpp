@@ -653,9 +653,9 @@ MarkExactStackRootList
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-MarkTypeObjectRoot
+MarkObjectGroupRoot
 >
 (
 trc
@@ -663,7 +663,7 @@ context
 "
 exact
 -
-typeobject
+objectgroup
 "
 )
 ;

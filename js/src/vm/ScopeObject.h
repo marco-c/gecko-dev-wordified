@@ -2024,7 +2024,7 @@ non
 -
 singleton
 *
-type
+group
 .
 The
 call
@@ -2049,8 +2049,8 @@ JSContext
 cx
 HandleShape
 shape
-HandleTypeObject
-type
+HandleObjectGroup
+group
 uint32_t
 lexicalBegin
 )
@@ -2071,10 +2071,10 @@ shape
 and
 make
 it
-have
+into
 *
+a
 singleton
-type
 .
 The
 call
