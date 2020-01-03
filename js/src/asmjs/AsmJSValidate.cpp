@@ -2996,7 +2996,7 @@ case
 Int32x4
 :
 return
-Int
+Signed
 ;
 case
 Float32x4
@@ -28823,7 +28823,7 @@ type
 Type
 :
 :
-Int
+Signed
 ;
 *
 def
