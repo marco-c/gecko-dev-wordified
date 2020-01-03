@@ -190,6 +190,15 @@ include
 "
 vm
 /
+RegExpStatics
+.
+h
+"
+#
+include
+"
+vm
+/
 Runtime
 .
 h

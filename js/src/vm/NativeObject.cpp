@@ -205,6 +205,17 @@ include
 "
 vm
 /
+ScopeObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 -
 inl
