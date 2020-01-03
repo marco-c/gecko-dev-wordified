@@ -400,6 +400,7 @@ positive
 void
 Input
 (
+const
 InputType
 *
 aFrames
