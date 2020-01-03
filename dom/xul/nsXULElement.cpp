@@ -14159,6 +14159,9 @@ mNumAttributes
 mAttributes
 =
 new
+(
+fallible
+)
 nsXULPrototypeAttribute
 [
 mNumAttributes
