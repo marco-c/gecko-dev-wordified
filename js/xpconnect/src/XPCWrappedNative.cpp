@@ -11038,12 +11038,6 @@ Jsvalify
 &
 XPC_WN_Tearoff_JSClass
 )
-JS
-:
-:
-NullPtr
-(
-)
 parent
 )
 ;

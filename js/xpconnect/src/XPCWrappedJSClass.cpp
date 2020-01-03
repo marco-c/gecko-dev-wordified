@@ -9717,9 +9717,6 @@ JS_NewObject
 (
 cx
 nullptr
-NullPtr
-(
-)
 global
 )
 ;
