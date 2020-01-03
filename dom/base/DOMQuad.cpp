@@ -613,6 +613,7 @@ X
 (
 )
 const
+MOZ_OVERRIDE
 {
 double
 x1
@@ -636,6 +637,7 @@ Y
 (
 )
 const
+MOZ_OVERRIDE
 {
 double
 y1
@@ -659,6 +661,7 @@ Width
 (
 )
 const
+MOZ_OVERRIDE
 {
 double
 x1
@@ -684,6 +687,7 @@ Height
 (
 )
 const
+MOZ_OVERRIDE
 {
 double
 y1

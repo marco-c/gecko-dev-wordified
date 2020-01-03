@@ -1514,6 +1514,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 static
 nsIClassInfo

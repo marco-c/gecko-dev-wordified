@@ -216,6 +216,7 @@ StartTime
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 DOMHighResTimeStamp
@@ -223,6 +224,7 @@ Duration
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 ResponseEnd
