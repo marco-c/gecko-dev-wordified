@@ -374,7 +374,7 @@ mEvent
 mMessage
 =
 =
-NS_LOAD
+eLoad
 |
 |
 aVisitor

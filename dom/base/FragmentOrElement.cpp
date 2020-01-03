@@ -5300,7 +5300,7 @@ case
 NS_FORM_CHANGE
 :
 case
-NS_LOAD
+eLoad
 :
 case
 NS_FORM_RESET
@@ -5528,7 +5528,7 @@ mEvent
 mMessage
 !
 =
-NS_LOAD
+eLoad
 ?
 win
 -

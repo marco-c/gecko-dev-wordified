@@ -44426,7 +44426,7 @@ mEvent
 mMessage
 !
 =
-NS_LOAD
+eLoad
 )
 {
 nsGlobalWindow

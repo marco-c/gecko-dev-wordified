@@ -382,7 +382,7 @@ NS_SUCCEEDED
 aResult
 )
 ?
-NS_LOAD
+eLoad
 :
 eLoadError
 ;
@@ -412,7 +412,7 @@ mBubbles
 message
 !
 =
-NS_LOAD
+eLoad
 )
 ;
 EventDispatcher

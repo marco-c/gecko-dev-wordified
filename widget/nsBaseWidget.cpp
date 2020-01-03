@@ -20774,9 +20774,9 @@ eMouseMove
 ;
 _ASSIGN_eventName
 (
-NS_LOAD
+eLoad
 "
-NS_LOAD
+eLoad
 "
 )
 ;

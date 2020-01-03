@@ -1569,7 +1569,7 @@ eFocusEventClass
 FORWARDED_EVENT
 (
 load
-NS_LOAD
+eLoad
 EventNameType_All
 eBasicEventClass
 )

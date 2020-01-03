@@ -5408,7 +5408,7 @@ WidgetEvent
 event
 (
 true
-NS_LOAD
+eLoad
 )
 ;
 event
