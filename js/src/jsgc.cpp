@@ -33311,6 +33311,10 @@ stop
 (
 )
 ;
+clearBufferedGrayRoots
+(
+)
+;
 uint64_t
 currentTime
 =
@@ -34121,6 +34125,10 @@ reset
 marker
 .
 stop
+(
+)
+;
+clearBufferedGrayRoots
 (
 )
 ;
