@@ -1927,7 +1927,7 @@ retry
 }
 #
 ifdef
-HAVE_ATEXIT
+HB_USE_ATEXIT
 atexit
 (
 free_static_shaper_list

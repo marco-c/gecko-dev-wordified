@@ -2527,7 +2527,7 @@ Anchor
 found
 =
 !
-matrix
+matrixZ
 [
 row
 *
@@ -2543,7 +2543,7 @@ is_null
 return
 this
 +
-matrix
+matrixZ
 [
 row
 *
@@ -2633,8 +2633,8 @@ c
 >
 check_array
 (
-matrix
-matrix
+matrixZ
+matrixZ
 [
 0
 ]
@@ -2668,7 +2668,7 @@ i
 if
 (
 !
-matrix
+matrixZ
 [
 i
 ]
@@ -2708,7 +2708,7 @@ OffsetTo
 <
 Anchor
 >
-matrix
+matrixZ
 [
 VAR
 ]
@@ -2736,7 +2736,7 @@ public
 DEFINE_SIZE_ARRAY
 (
 2
-matrix
+matrixZ
 )
 ;
 }
@@ -3755,6 +3755,9 @@ const
 TRACE_DISPATCH
 (
 this
+u
+.
+format
 )
 ;
 switch
@@ -4061,7 +4064,7 @@ CastP
 PairValueRecord
 >
 (
-array
+arrayZ
 )
 ;
 unsigned
@@ -4199,7 +4202,7 @@ CastP
 PairValueRecord
 >
 (
-array
+arrayZ
 )
 ;
 unsigned
@@ -4435,7 +4438,7 @@ c
 >
 check_array
 (
-array
+arrayZ
 USHORT
 :
 :
@@ -4470,7 +4473,7 @@ CastP
 PairValueRecord
 >
 (
-array
+arrayZ
 )
 ;
 return
@@ -4555,7 +4558,7 @@ PairValueRecords
 *
 /
 USHORT
-array
+arrayZ
 [
 VAR
 ]
@@ -4582,7 +4585,7 @@ public
 DEFINE_SIZE_ARRAY
 (
 2
-array
+arrayZ
 )
 ;
 }
@@ -5885,6 +5888,9 @@ const
 TRACE_DISPATCH
 (
 this
+u
+.
+format
 )
 ;
 switch
@@ -6977,6 +6983,9 @@ const
 TRACE_DISPATCH
 (
 this
+u
+.
+format
 )
 ;
 switch
@@ -7705,6 +7714,9 @@ const
 TRACE_DISPATCH
 (
 this
+u
+.
+format
 )
 ;
 switch
@@ -8599,6 +8611,9 @@ const
 TRACE_DISPATCH
 (
 this
+u
+.
+format
 )
 ;
 switch
@@ -9464,6 +9479,9 @@ const
 TRACE_DISPATCH
 (
 this
+u
+.
+format
 )
 ;
 switch
@@ -9690,6 +9708,7 @@ const
 TRACE_DISPATCH
 (
 this
+lookup_type
 )
 ;
 switch
@@ -10390,17 +10409,18 @@ c
 )
 const
 {
-TRACE_DISPATCH
-(
-this
-)
-;
 unsigned
 int
 lookup_type
 =
 get_type
 (
+)
+;
+TRACE_DISPATCH
+(
+this
+lookup_type
 )
 ;
 unsigned

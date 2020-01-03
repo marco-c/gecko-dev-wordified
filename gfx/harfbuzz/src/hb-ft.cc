@@ -709,6 +709,8 @@ int
 load_flags
 =
 FT_LOAD_DEFAULT
+|
+FT_LOAD_NO_HINTING
 ;
 if
 (
@@ -945,6 +947,8 @@ int
 load_flags
 =
 FT_LOAD_DEFAULT
+|
+FT_LOAD_NO_HINTING
 ;
 if
 (
@@ -2288,7 +2292,7 @@ retry
 }
 #
 ifdef
-HAVE_ATEXIT
+HB_USE_ATEXIT
 atexit
 (
 free_ft_library

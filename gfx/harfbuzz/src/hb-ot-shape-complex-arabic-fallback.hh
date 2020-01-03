@@ -1448,7 +1448,7 @@ __CYGWIN__
 !
 defined
 (
-HB_WITH_WIN1256
+HB_NO_WIN1256
 )
 #
 define

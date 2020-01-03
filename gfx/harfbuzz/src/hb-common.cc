@@ -1406,7 +1406,7 @@ langs
 ;
 #
 ifdef
-HAVE_ATEXIT
+HB_USE_ATEXIT
 static
 inline
 void
@@ -1577,7 +1577,7 @@ retry
 }
 #
 ifdef
-HAVE_ATEXIT
+HB_USE_ATEXIT
 if
 (
 !

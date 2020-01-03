@@ -304,11 +304,6 @@ hb_mutex_impl_t
 define
 HB_MUTEX_IMPL_INIT
 {
-NULL
-0
-0
-NULL
-NULL
 0
 }
 #

@@ -1403,6 +1403,11 @@ scratch
 scratch_size
 )
 {
+if
+(
+unlikely
+(
+!
 buffer
 -
 >
@@ -1415,15 +1420,6 @@ allocated
 *
 2
 )
-;
-if
-(
-unlikely
-(
-buffer
--
->
-in_error
 )
 )
 {
