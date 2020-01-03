@@ -4301,7 +4301,13 @@ React
 createElement
 (
 UnsupportedDeviceView
-null
+{
+platform
+:
+"
+ios
+"
+}
 )
 )
 )
