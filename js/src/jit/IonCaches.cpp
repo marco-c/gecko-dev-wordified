@@ -14703,10 +14703,7 @@ true
 if
 (
 !
-JSObject
-:
-:
-lookupProperty
+LookupProperty
 (
 cx
 obj

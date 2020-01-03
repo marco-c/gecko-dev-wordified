@@ -49486,10 +49486,7 @@ enclosingScope
 if
 (
 !
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 env
@@ -49935,10 +49932,7 @@ has
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 env

@@ -12640,10 +12640,7 @@ cx
 )
 ;
 return
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 obj
@@ -16725,10 +16722,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 obj

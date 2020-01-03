@@ -3697,10 +3697,7 @@ return
 false
 ;
 return
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 -

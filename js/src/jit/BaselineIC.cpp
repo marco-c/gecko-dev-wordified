@@ -22680,10 +22680,7 @@ hasIdempotentProtoChain
 if
 (
 !
-JSObject
-:
-:
-lookupProperty
+LookupProperty
 (
 cx
 checkObj
