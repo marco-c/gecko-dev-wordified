@@ -414,7 +414,7 @@ LOG_ENABLED
 MOZ_LOG_TEST
 (
 gLoadManagerLog
-4
+PR_LOG_DEBUG
 )
 #
 define
@@ -424,7 +424,7 @@ LOG_MANY_ENABLED
 MOZ_LOG_TEST
 (
 gLoadManagerLog
-5
+PR_LOG_VERBOSE
 )
 namespace
 mozilla

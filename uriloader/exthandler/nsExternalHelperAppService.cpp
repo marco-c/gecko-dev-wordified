@@ -912,7 +912,7 @@ nsExternalHelperAppService
 :
 :
 mLog
-3
+PR_LOG_INFO
 args
 )
 #
@@ -926,7 +926,7 @@ nsExternalHelperAppService
 :
 :
 mLog
-3
+PR_LOG_INFO
 )
 static
 const
