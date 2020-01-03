@@ -7783,9 +7783,13 @@ T
 t
 )
 {
-MOZ_ASSERT_IF
+if
 (
 t
+)
+{
+MOZ_RELEASE_ASSERT
+(
 !
 IsInsideNursery
 (
@@ -7793,9 +7797,8 @@ t
 )
 )
 ;
-MOZ_ASSERT_IF
+MOZ_RELEASE_ASSERT
 (
-t
 !
 RelocationOverlay
 :
@@ -7806,6 +7809,7 @@ t
 )
 )
 ;
+}
 }
 inline
 void

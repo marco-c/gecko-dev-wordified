@@ -11385,7 +11385,7 @@ lookup
 lookup
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ptr
 .
