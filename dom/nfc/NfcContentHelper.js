@@ -939,8 +939,11 @@ this
 .
 _tabId
 =
--
-1
+Ci
+.
+nsINfcBrowserAPI
+.
+SYSTEM_APP_ID
 ;
 }
 else
