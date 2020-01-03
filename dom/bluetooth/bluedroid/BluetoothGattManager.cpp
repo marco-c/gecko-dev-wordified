@@ -2304,6 +2304,7 @@ true
 /
 direct
 connect
+TRANSPORT_AUTO
 new
 ConnectResultHandler
 (
@@ -5710,6 +5711,7 @@ direct
 connect
 *
 /
+TRANSPORT_AUTO
 new
 ConnectResultHandler
 (
