@@ -3859,7 +3859,7 @@ liveRegs_
 Register
 object_
 ;
-ConstantOrRegister
+TypedOrValueRegister
 index_
 ;
 TypedOrValueRegister
@@ -3906,7 +3906,7 @@ LiveRegisterSet
 liveRegs
 Register
 object
-ConstantOrRegister
+TypedOrValueRegister
 index
 TypedOrValueRegister
 output
@@ -3979,7 +3979,7 @@ return
 object_
 ;
 }
-ConstantOrRegister
+TypedOrValueRegister
 index
 (
 )

@@ -60767,7 +60767,7 @@ LInstruction
 ins
 Register
 obj
-ConstantOrRegister
+TypedOrValueRegister
 index
 TypedOrValueRegister
 output
@@ -60847,7 +60847,7 @@ object
 )
 )
 ;
-ConstantOrRegister
+TypedOrValueRegister
 index
 =
 TypedOrValueRegister
@@ -60936,7 +60936,7 @@ object
 )
 )
 ;
-ConstantOrRegister
+TypedOrValueRegister
 index
 =
 TypedOrValueRegister
