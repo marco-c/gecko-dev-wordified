@@ -608,6 +608,7 @@ IsShutdownOnIOThread
 (
 )
 const
+override
 {
 return
 mShuttingDownOnIOThread
@@ -617,6 +618,7 @@ void
 ShutdownOnMainThread
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -642,6 +644,7 @@ void
 ShutdownOnIOThread
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -3273,9 +3276,6 @@ PostTask
 FROM_HERE
 new
 SocketIOShutdownTask
-<
-DroidSocketImpl
->
 (
 mImpl
 )

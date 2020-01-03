@@ -2658,9 +2658,6 @@ PostTask
 FROM_HERE
 new
 SocketIOShutdownTask
-<
-BluetoothDaemonConnectionIO
->
 (
 mIO
 )
