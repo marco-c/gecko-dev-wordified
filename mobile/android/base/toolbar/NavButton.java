@@ -213,7 +213,7 @@ R
 .
 color
 .
-nav_button_border_color_private
+toolbar_icon_grey
 )
 ;
 mBorderWidth
