@@ -497,6 +497,15 @@ nsIInputStream
 aBody
 )
 ;
+already_AddRefed
+<
+InternalResponse
+>
+GetInternalResponse
+(
+)
+const
+;
 private
 :
 ~
