@@ -2649,12 +2649,12 @@ only
 .
 virtual
 nsresult
-SetFullScreenInternal
+SetFullscreenInternal
 (
+FullscreenReason
+aReason
 bool
 aIsFullscreen
-bool
-aFullscreenMode
 mozilla
 :
 :
