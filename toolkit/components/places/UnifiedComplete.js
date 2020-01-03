@@ -7604,11 +7604,6 @@ style
 action
 searchengine
 "
-finalCompleteValue
-:
-this
-.
-_trimmedOriginalSearchString
 frecency
 :
 FRECENCY_SEARCHENGINES_DEFAULT
@@ -8029,11 +8024,6 @@ style
 action
 visiturl
 "
-finalCompleteValue
-:
-this
-.
-_originalSearchString
 frecency
 :
 0
