@@ -753,10 +753,15 @@ is
 always
 1
 .
+MOZ_ASSERT
+(
 mLastChunks
 .
-SetLength
+Length
 (
+)
+=
+=
 1
 )
 ;
