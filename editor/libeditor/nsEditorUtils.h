@@ -141,6 +141,15 @@ nscore
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GuardObjects
+.
+h
+"
 class
 nsIAtom
 ;
@@ -287,6 +296,7 @@ nsIEditor
 >
 mEd
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 nsAutoPlaceHolderBatch
@@ -297,6 +307,7 @@ aEd
 nsIAtom
 *
 atom
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEd
@@ -307,10 +318,13 @@ aEd
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 mEd
 )
+{
 mEd
 -
 >
@@ -319,6 +333,7 @@ BeginPlaceHolderTransaction
 atom
 )
 ;
+}
 }
 ~
 nsAutoPlaceHolderBatch
@@ -329,6 +344,7 @@ if
 (
 mEd
 )
+{
 mEd
 -
 >
@@ -336,6 +352,7 @@ EndPlaceHolderTransaction
 (
 )
 ;
+}
 }
 }
 ;
@@ -461,6 +478,7 @@ nsAutoEditBatch
 public
 nsAutoPlaceHolderBatch
 {
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -469,6 +487,7 @@ nsAutoEditBatch
 nsIEditor
 *
 aEd
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 nsAutoPlaceHolderBatch
@@ -477,6 +496,8 @@ aEd
 nullptr
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 nsAutoEditBatch
@@ -637,6 +658,7 @@ owning
 ref
 to
 nsEditor
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 /
@@ -668,6 +690,7 @@ aSel
 nsEditor
 *
 aEd
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -814,6 +837,7 @@ nsIEditor
 :
 EDirection
 aDirection
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEd
@@ -825,6 +849,8 @@ mDoNothing
 false
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 mEd
@@ -905,6 +931,7 @@ mEd
 bool
 mDoNothing
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -1013,6 +1040,7 @@ nsAutoTxnsConserveSelection
 nsEditor
 *
 ed
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEd
@@ -1024,6 +1052,8 @@ mOldState
 true
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 mEd
@@ -1077,6 +1107,7 @@ mEd
 bool
 mOldState
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -1181,6 +1212,7 @@ nsAutoUpdateViewBatch
 nsEditor
 *
 ed
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEd
@@ -1188,6 +1220,8 @@ mEd
 ed
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ASSERTION
 (
 mEd
@@ -1234,6 +1268,7 @@ nsEditor
 *
 mEd
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -1431,6 +1466,7 @@ public
 :
 nsDOMIterator
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 explicit
@@ -1439,6 +1475,7 @@ nsDOMIterator
 nsINode
 &
 aNode
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 virtual
@@ -1485,6 +1522,7 @@ nsIContentIterator
 >
 mIter
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -1498,6 +1536,7 @@ public
 :
 nsDOMSubtreeIterator
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 virtual
