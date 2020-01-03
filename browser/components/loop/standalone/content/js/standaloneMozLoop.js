@@ -1665,7 +1665,7 @@ prefName
 /
 /
 Dummy
-function
+functions
 to
 reflect
 those
@@ -1682,8 +1682,17 @@ don
 t
 currently
 use
+in
+standalone
 .
 addConversationContext
+:
+function
+(
+)
+{
+}
+setScreenShareState
 :
 function
 (
