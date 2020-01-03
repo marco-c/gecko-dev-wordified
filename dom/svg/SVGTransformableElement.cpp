@@ -1355,7 +1355,7 @@ frame
 else
 {
 uint32_t
-aFlags
+flags
 =
 0
 ;
@@ -1366,7 +1366,7 @@ aOptions
 mFill
 )
 {
-aFlags
+flags
 |
 =
 nsSVGUtils
@@ -1382,7 +1382,7 @@ aOptions
 mStroke
 )
 {
-aFlags
+flags
 |
 =
 nsSVGUtils
@@ -1398,7 +1398,7 @@ aOptions
 mMarkers
 )
 {
-aFlags
+flags
 |
 =
 nsSVGUtils
@@ -1414,7 +1414,7 @@ aOptions
 mClipped
 )
 {
-aFlags
+flags
 |
 =
 nsSVGUtils
@@ -1425,7 +1425,7 @@ eBBoxIncludeClipped
 }
 if
 (
-aFlags
+flags
 =
 =
 0
@@ -1444,7 +1444,7 @@ this
 }
 if
 (
-aFlags
+flags
 =
 =
 nsSVGUtils
@@ -1453,7 +1453,7 @@ nsSVGUtils
 eBBoxIncludeMarkers
 |
 |
-aFlags
+flags
 =
 =
 nsSVGUtils
@@ -1462,7 +1462,7 @@ nsSVGUtils
 eBBoxIncludeClipped
 )
 {
-aFlags
+flags
 |
 =
 nsSVGUtils
@@ -1483,7 +1483,7 @@ nsSVGUtils
 GetBBox
 (
 frame
-aFlags
+flags
 )
 )
 )
