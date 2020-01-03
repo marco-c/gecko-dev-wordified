@@ -1292,10 +1292,6 @@ kNS_PRINTER_ENUMERATOR_CID
 false
 nullptr
 nsPrinterEnumeratorWinConstructor
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 {
 &
@@ -1303,10 +1299,6 @@ kNS_PRINTSESSION_CID
 false
 nullptr
 nsPrintSessionConstructor
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 {
 &
@@ -1314,10 +1306,6 @@ kNS_DEVICE_CONTEXT_SPEC_CID
 false
 nullptr
 nsDeviceContextSpecWinConstructor
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 #
 endif
@@ -1752,10 +1740,6 @@ printerenumerator
 "
 &
 kNS_PRINTER_ENUMERATOR_CID
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 {
 "
@@ -1771,10 +1755,6 @@ printsession
 "
 &
 kNS_PRINTSESSION_CID
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 {
 "
@@ -1790,10 +1770,6 @@ devicecontextspec
 "
 &
 kNS_DEVICE_CONTEXT_SPEC_CID
-Module
-:
-:
-MAIN_PROCESS_ONLY
 }
 #
 endif

@@ -6029,7 +6029,6 @@ from
 unicode
 /
 /
-static
 HGLOBAL
 CreateGlobalDevModeAndInit
 (
