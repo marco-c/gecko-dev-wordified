@@ -75,6 +75,10 @@ from
 tbplformatter
 import
 TbplFormatter
+from
+errorsummary
+import
+ErrorSummaryFormatter
 def
 JSONFormatter
 (
