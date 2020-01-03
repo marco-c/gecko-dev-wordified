@@ -2188,6 +2188,7 @@ GlyphID
 const
 mGlyphArray
 ;
+explicit
 GlyphArrayWrapper
 (
 const
@@ -2229,6 +2230,7 @@ const
 uint32_t
 mGlyph
 ;
+explicit
 RangeRecordComparator
 (
 uint32_t

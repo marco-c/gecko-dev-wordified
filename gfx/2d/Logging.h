@@ -664,6 +664,7 @@ T
 struct
 Hexa
 {
+explicit
 Hexa
 (
 T
