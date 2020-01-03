@@ -883,6 +883,10 @@ const
 nsAString
 &
 aCrossOrigin
+const
+nsAString
+&
+aIntegrity
 bool
 aScriptFromHead
 )
@@ -902,6 +906,10 @@ const
 nsAString
 &
 aCrossOrigin
+const
+nsAString
+&
+aIntegrity
 )
 ;
 void

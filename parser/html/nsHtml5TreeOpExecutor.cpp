@@ -5083,6 +5083,10 @@ const
 nsAString
 &
 aCrossOrigin
+const
+nsAString
+&
+aIntegrity
 bool
 aScriptFromHead
 )
@@ -5121,6 +5125,7 @@ uri
 aCharset
 aType
 aCrossOrigin
+aIntegrity
 aScriptFromHead
 mSpeculationReferrerPolicy
 )
@@ -5144,6 +5149,10 @@ const
 nsAString
 &
 aCrossOrigin
+const
+nsAString
+&
+aIntegrity
 )
 {
 nsCOMPtr
@@ -5175,6 +5184,7 @@ uri
 aCharset
 aCrossOrigin
 mSpeculationReferrerPolicy
+aIntegrity
 )
 ;
 }

@@ -54380,6 +54380,10 @@ aCrossOriginAttr
 const
 ReferrerPolicy
 aReferrerPolicy
+const
+nsAString
+&
+aIntegrity
 )
 {
 /
@@ -54437,6 +54441,7 @@ StringToCORSMode
 aCrossOriginAttr
 )
 aReferrerPolicy
+aIntegrity
 )
 ;
 }

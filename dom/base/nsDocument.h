@@ -6214,6 +6214,10 @@ nsAString
 aCrossOriginAttr
 ReferrerPolicy
 aReferrerPolicy
+const
+nsAString
+&
+aIntegrity
 )
 override
 ;
