@@ -639,6 +639,7 @@ ReadContinuation
 {
 public
 :
+explicit
 VerifyAndFinishContinuation
 (
 string
@@ -840,6 +841,7 @@ OpenContinuation
 {
 public
 :
+explicit
 OpenedSecondTimeContinuation
 (
 GMPRecord
@@ -1422,6 +1424,7 @@ ReadContinuation
 {
 public
 :
+explicit
 ReportReadStatusContinuation
 (
 const
@@ -1541,6 +1544,7 @@ ReadContinuation
 {
 public
 :
+explicit
 ReportReadRecordContinuation
 (
 const
@@ -1939,6 +1943,7 @@ GMPTask
 {
 public
 :
+explicit
 CompleteShutdownTask
 (
 GMPAsyncShutdownHost

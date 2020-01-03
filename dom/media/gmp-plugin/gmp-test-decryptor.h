@@ -336,6 +336,7 @@ GMPAsyncShutdown
 {
 public
 :
+explicit
 TestAsyncShutdown
 (
 GMPAsyncShutdownHost

@@ -1113,6 +1113,7 @@ nsRunnable
 {
 public
 :
+explicit
 NotifyObserversTask
 (
 const

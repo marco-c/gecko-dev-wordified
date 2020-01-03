@@ -841,6 +841,7 @@ StackIdentifier
 {
 public
 :
+explicit
 StackIdentifier
 (
 const
@@ -849,6 +850,7 @@ PluginIdentifier
 aIdentifier
 )
 ;
+explicit
 StackIdentifier
 (
 NPIdentifier

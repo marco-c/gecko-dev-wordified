@@ -223,6 +223,7 @@ mIndex
 ;
 public
 :
+explicit
 WorkerDebuggerEnumerator
 (
 const

@@ -188,6 +188,7 @@ NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
 DOMEventTargetHelper
 )
+explicit
 Connection
 (
 nsPIDOMWindow

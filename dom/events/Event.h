@@ -1250,6 +1250,7 @@ WantsPopupControlCheck
 {
 public
 :
+explicit
 WantsPopupControlCheck
 (
 nsIDOMEvent

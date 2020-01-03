@@ -196,6 +196,7 @@ MP4Reader
 >
 reader
 ;
+explicit
 TestBinding
 (
 const
