@@ -1686,6 +1686,10 @@ mDeviceAddress
 =
 aDeviceAddress
 ;
+mController
+=
+aController
+;
 SetConnected
 (
 true
@@ -1728,6 +1732,10 @@ mDeviceAddress
 Truncate
 (
 )
+;
+mController
+=
+aController
 ;
 SetConnected
 (
