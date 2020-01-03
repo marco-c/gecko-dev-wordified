@@ -227,7 +227,7 @@ R
 .
 dimen
 .
-new_tablet_nav_button_width
+tablet_nav_button_width
 )
 ;
 /
