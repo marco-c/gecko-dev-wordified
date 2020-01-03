@@ -14884,6 +14884,11 @@ we
 are
 done
 .
+NS_ENSURE_STATE
+(
+leafNode
+)
+;
 :
 :
 DOMPoint
