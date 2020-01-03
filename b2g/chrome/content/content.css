@@ -233,10 +233,6 @@ events
 :
 none
 ;
-opacity
-:
-1
-;
 }
 xul
 |
@@ -389,12 +385,6 @@ disabled
 opacity
 :
 0
-;
-transition
-:
-opacity
-1s
-ease
 ;
 }
 xul
