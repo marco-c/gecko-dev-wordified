@@ -815,9 +815,9 @@ way
 *
 param
 {
-string
+object
 }
-stateString
+state
 The
 state
 to
@@ -882,7 +882,7 @@ write
 :
 function
 (
-stateString
+state
 options
 =
 {
@@ -897,6 +897,16 @@ telemetry
 =
 {
 }
+;
+let
+stateString
+=
+JSON
+.
+stringify
+(
+state
+)
 ;
 let
 data
