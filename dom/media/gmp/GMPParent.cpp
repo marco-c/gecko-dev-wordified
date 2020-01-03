@@ -4694,17 +4694,6 @@ EqualsLiteral
 (
 GMP_API_DECRYPTOR
 )
-|
-|
-cap
--
->
-mAPIName
-.
-EqualsLiteral
-(
-GMP_API_DECRYPTOR_COMPAT
-)
 )
 {
 mCanDecrypt
