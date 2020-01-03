@@ -1121,13 +1121,6 @@ h
 #
 include
 "
-nsIJSRuntimeService
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -1670,13 +1663,6 @@ extern
 const
 char
 XPC_CONTEXT_STACK_CONTRACTID
-[
-]
-;
-extern
-const
-char
-XPC_RUNTIME_CONTRACTID
 [
 ]
 ;
@@ -2352,8 +2338,6 @@ public
 nsIThreadObserver
 public
 nsSupportsWeakReference
-public
-nsIJSRuntimeService
 {
 public
 :
@@ -2370,7 +2354,6 @@ declarations
 NS_DECL_ISUPPORTS
 NS_DECL_NSIXPCONNECT
 NS_DECL_NSITHREADOBSERVER
-NS_DECL_NSIJSRUNTIMESERVICE
 /
 /
 non
