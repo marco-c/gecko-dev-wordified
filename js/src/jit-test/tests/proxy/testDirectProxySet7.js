@@ -51,6 +51,9 @@ hits
 +
 +
 ;
+return
+true
+;
 }
 }
 )
