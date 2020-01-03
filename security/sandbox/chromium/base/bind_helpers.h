@@ -2494,9 +2494,8 @@ Check
 ;
 public
 :
-static
-const
-bool
+enum
+{
 value
 =
 sizeof
@@ -2515,6 +2514,7 @@ sizeof
 (
 Yes
 )
+}
 ;
 }
 ;
@@ -2672,9 +2672,8 @@ Check
 ;
 public
 :
-static
-const
-bool
+enum
+{
 value
 =
 sizeof
@@ -2693,6 +2692,7 @@ sizeof
 (
 Yes
 )
+}
 ;
 }
 ;

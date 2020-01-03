@@ -1328,7 +1328,7 @@ break
 ;
 }
 case
-ULONG_TYPE
+UINT32_TYPE
 :
 {
 uint32

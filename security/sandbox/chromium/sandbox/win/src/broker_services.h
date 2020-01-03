@@ -302,7 +302,7 @@ former
 .
 class
 BrokerServicesBase
-FINAL
+final
 :
 public
 BrokerServices
@@ -333,7 +333,7 @@ ResultCode
 Init
 (
 )
-OVERRIDE
+override
 ;
 virtual
 TargetPolicy
@@ -341,7 +341,7 @@ TargetPolicy
 CreatePolicy
 (
 )
-OVERRIDE
+override
 ;
 virtual
 ResultCode
@@ -362,14 +362,14 @@ PROCESS_INFORMATION
 *
 target
 )
-OVERRIDE
+override
 ;
 virtual
 ResultCode
 WaitForAllTargets
 (
 )
-OVERRIDE
+override
 ;
 virtual
 ResultCode
@@ -378,7 +378,7 @@ AddTargetPeer
 HANDLE
 peer_process
 )
-OVERRIDE
+override
 ;
 virtual
 ResultCode
@@ -393,7 +393,7 @@ wchar_t
 *
 name
 )
-OVERRIDE
+override
 ;
 virtual
 ResultCode
@@ -404,7 +404,7 @@ wchar_t
 *
 sid
 )
-OVERRIDE
+override
 ;
 /
 /

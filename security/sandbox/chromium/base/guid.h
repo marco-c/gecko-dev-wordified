@@ -128,7 +128,7 @@ The
 POSIX
 implementation
 uses
-psuedo
+pseudo
 random
 number
 generation

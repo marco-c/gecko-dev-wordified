@@ -191,9 +191,7 @@ PE
 .
 /
 /
-It
-'
-s
+Its
 main
 purpose
 is
@@ -644,6 +642,13 @@ module
 )
 )
 ;
+}
+virtual
+~
+PEImage
+(
+)
+{
 }
 /
 /

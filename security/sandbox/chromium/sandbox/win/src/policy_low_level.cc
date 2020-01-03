@@ -1918,8 +1918,7 @@ RuleType
 rule_type
 int16
 parameter
-unsigned
-long
+uint32
 number
 RuleOp
 comparison_op
@@ -2009,7 +2008,7 @@ NULL
 opcode_factory_
 -
 >
-MakeOpUlongAndMatch
+MakeOpNumberAndMatch
 (
 parameter
 number

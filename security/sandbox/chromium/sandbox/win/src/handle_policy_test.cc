@@ -340,6 +340,10 @@ GetTargetServices
 DuplicateHandle
 (
 test_event
+.
+Get
+(
+)
 target_process_id
 &
 handle

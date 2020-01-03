@@ -151,7 +151,6 @@ enum
 AllocationType
 {
 NT_ALLOC
-NT_PLACE
 NT_PAGE
 }
 ;

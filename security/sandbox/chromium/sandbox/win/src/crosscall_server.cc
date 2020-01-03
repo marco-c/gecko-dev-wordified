@@ -1577,7 +1577,7 @@ size
 |
 |
 (
-ULONG_TYPE
+UINT32_TYPE
 !
 =
 type

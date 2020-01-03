@@ -207,8 +207,8 @@ create_params
 {
 IPC_CREATEEVENT_TAG
 WCHAR_TYPE
-ULONG_TYPE
-ULONG_TYPE
+UINT32_TYPE
+UINT32_TYPE
 }
 reinterpret_cast
 <
@@ -232,7 +232,7 @@ open_params
 {
 IPC_OPENEVENT_TAG
 WCHAR_TYPE
-ULONG_TYPE
+UINT32_TYPE
 }
 reinterpret_cast
 <
@@ -326,9 +326,9 @@ base
 string16
 *
 name
-DWORD
+uint32
 event_type
-DWORD
+uint32
 initial_state
 )
 {
@@ -447,7 +447,7 @@ base
 string16
 *
 name
-DWORD
+uint32
 desired_access
 )
 {

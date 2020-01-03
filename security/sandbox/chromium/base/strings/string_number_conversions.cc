@@ -809,11 +809,17 @@ BASE
 *
 digit
 =
+static_cast
+<
+uint8
+>
+(
 c
 -
 '
 0
 '
+)
 ;
 return
 true

@@ -2142,7 +2142,7 @@ param_size
 ;
 EXPECT_EQ
 (
-ULONG_TYPE
+UINT32_TYPE
 type
 )
 ;
@@ -2422,7 +2422,7 @@ param_size
 ;
 EXPECT_EQ
 (
-ULONG_TYPE
+UINT32_TYPE
 type
 )
 ;
@@ -2576,7 +2576,7 @@ sizeof
 value
 )
 false
-ULONG_TYPE
+UINT32_TYPE
 )
 ;
 void
@@ -2780,7 +2780,7 @@ sizeof
 value
 )
 false
-ULONG_TYPE
+UINT32_TYPE
 )
 ;
 buffer
@@ -2867,7 +2867,7 @@ sizeof
 value
 )
 false
-ULONG_TYPE
+UINT32_TYPE
 )
 ;
 buffer
@@ -3025,7 +3025,7 @@ sizeof
 value
 )
 false
-ULONG_TYPE
+UINT32_TYPE
 )
 ;
 params_4
@@ -4650,7 +4650,7 @@ IPCInfo
 ipc
 HANDLE
 p1
-DWORD
+uint32
 p2
 )
 {
@@ -4694,7 +4694,7 @@ IPCInfo
 ipc
 HANDLE
 p1
-DWORD
+uint32
 p2
 )
 {
@@ -4720,7 +4720,7 @@ call_one
 {
 CALL_ONE_TAG
 VOIDPTR_TYPE
-ULONG_TYPE
+UINT32_TYPE
 }
 reinterpret_cast
 <
@@ -4744,7 +4744,7 @@ call_two
 {
 CALL_TWO_TAG
 VOIDPTR_TYPE
-ULONG_TYPE
+UINT32_TYPE
 }
 reinterpret_cast
 <

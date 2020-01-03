@@ -150,7 +150,7 @@ namespace
 {
 static
 const
-DWORD
+uint32
 kAllowedRegFlags
 =
 KEY_QUERY_VALUE
@@ -727,7 +727,7 @@ before
 the
 call
 .
-DWORD
+uint32
 restricted_flags
 =
 ~

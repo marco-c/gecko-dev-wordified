@@ -467,7 +467,7 @@ set
 the
 type
 to
-ULONG_TYPE
+UINT32_TYPE
 so
 this
 /
@@ -651,7 +651,7 @@ need_specialization
 )
 ;
 return
-ULONG_TYPE
+UINT32_TYPE
 ;
 }
 private
