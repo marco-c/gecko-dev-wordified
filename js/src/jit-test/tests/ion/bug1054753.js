@@ -75,3 +75,15 @@ g
 )
 ;
 }
+else
+{
+throw
+new
+TypeError
+(
+"
+pass
+"
+)
+;
+}
