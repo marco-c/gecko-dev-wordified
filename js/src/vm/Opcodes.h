@@ -452,6 +452,8 @@ Operators
 Stack
 Operations
 *
+Debugger
+*
 [
 Literals
 ]
@@ -12164,7 +12166,7 @@ after
 '
 yield
 '
-statements
+expressions
 to
 help
 the
@@ -12188,6 +12190,10 @@ interpreter
 *
 *
 Category
+:
+Operator
+*
+Type
 :
 Debugger
 *
