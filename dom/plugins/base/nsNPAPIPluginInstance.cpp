@@ -2730,7 +2730,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-newResult
+NS_OK
 ;
 }
 nsresult
