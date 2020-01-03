@@ -21247,6 +21247,12 @@ MOZ_COUNT_CTOR
 nsStyleVariables
 )
 ;
+mVariables
+=
+aSource
+.
+mVariables
+;
 }
 nsStyleVariables
 :
