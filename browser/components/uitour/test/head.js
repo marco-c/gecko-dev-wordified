@@ -1303,16 +1303,6 @@ function
 delete
 window
 .
-UITour
-;
-delete
-window
-.
-UITourMetricsProvider
-;
-delete
-window
-.
 gContentWindow
 ;
 delete
