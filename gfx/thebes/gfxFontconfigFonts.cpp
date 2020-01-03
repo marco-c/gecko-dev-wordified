@@ -7617,6 +7617,7 @@ gfxFontGroup
 (
 aFontFamilyList
 aStyle
+nullptr
 aUserFontSet
 )
 mPangoLanguage

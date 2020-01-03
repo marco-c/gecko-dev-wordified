@@ -9612,6 +9612,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxTextPerfMetrics
+*
+aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
@@ -9641,7 +9644,7 @@ aUserFontSet
 )
 mTextPerf
 (
-nullptr
+aTextPerf
 )
 mPageLang
 (
@@ -12323,15 +12326,8 @@ gfxFontGroup
 (
 mFamilyList
 aStyle
-mUserFontSet
-)
-;
-fg
--
->
-SetTextPerfMetrics
-(
 mTextPerf
+mUserFontSet
 )
 ;
 return

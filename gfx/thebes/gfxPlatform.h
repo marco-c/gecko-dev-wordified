@@ -242,6 +242,9 @@ nsIObserver
 class
 SRGBOverrideObserver
 ;
+class
+gfxTextPerfMetrics
+;
 namespace
 mozilla
 {
@@ -2040,6 +2043,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxTextPerfMetrics
+*
+aTextPerf
 gfxUserFontSet
 *
 aUserFontSet

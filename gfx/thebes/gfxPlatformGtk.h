@@ -293,7 +293,6 @@ aFamilyName
 )
 override
 ;
-virtual
 gfxFontGroup
 *
 CreateFontGroup
@@ -309,6 +308,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxTextPerfMetrics
+*
+aTextPerf
 gfxUserFontSet
 *
 aUserFontSet

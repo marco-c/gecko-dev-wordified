@@ -662,6 +662,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxTextPerfMetrics
+*
+aTextPerf
 gfxUserFontSet
 *
 aUserFontSet

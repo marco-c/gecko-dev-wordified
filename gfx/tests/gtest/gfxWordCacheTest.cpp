@@ -678,6 +678,7 @@ serif
 &
 style
 nullptr
+nullptr
 )
 ;
 gfxTextRunFactory

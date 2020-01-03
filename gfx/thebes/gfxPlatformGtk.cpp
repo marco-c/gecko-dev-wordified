@@ -1390,6 +1390,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxTextPerfMetrics
+*
+aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
@@ -1406,6 +1409,7 @@ gfxFontGroup
 (
 aFontFamilyList
 aStyle
+aTextPerf
 aUserFontSet
 )
 ;

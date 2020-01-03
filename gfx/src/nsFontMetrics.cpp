@@ -908,15 +908,8 @@ aFont
 fontlist
 &
 style
-aUserFontSet
-)
-;
-mFontGroup
--
->
-SetTextPerfMetrics
-(
 aTextPerf
+aUserFontSet
 )
 ;
 return

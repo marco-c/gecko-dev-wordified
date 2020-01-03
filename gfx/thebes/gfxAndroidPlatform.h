@@ -396,7 +396,6 @@ nsAString
 aFamilyName
 )
 ;
-virtual
 gfxFontGroup
 *
 CreateFontGroup
@@ -412,10 +411,14 @@ const
 gfxFontStyle
 *
 aStyle
+gfxTextPerfMetrics
+*
+aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
 )
+override
 ;
 virtual
 bool
