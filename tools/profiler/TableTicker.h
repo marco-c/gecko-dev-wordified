@@ -1215,6 +1215,14 @@ JSStreamWriter
 b
 )
 ;
+void
+FlushOnJSShutdown
+(
+JSRuntime
+*
+aRuntime
+)
+;
 bool
 HasUnwinderThread
 (
