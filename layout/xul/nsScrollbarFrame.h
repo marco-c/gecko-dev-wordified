@@ -501,6 +501,16 @@ curpos
 attribute
 .
 *
+returns
+The
+new
+position
+after
+clamping
+in
+CSS
+Pixels
+*
 note
 This
 method
