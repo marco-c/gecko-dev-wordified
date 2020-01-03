@@ -7,7 +7,7 @@ test
 |
 error
 :
-TypeError
+InternalError
 Array
 .
 prototype
