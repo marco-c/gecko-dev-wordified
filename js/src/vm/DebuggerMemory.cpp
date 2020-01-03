@@ -992,7 +992,7 @@ enabling
 {
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
@@ -1062,7 +1062,7 @@ false
 }
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
@@ -5685,7 +5685,7 @@ zones
 .
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range

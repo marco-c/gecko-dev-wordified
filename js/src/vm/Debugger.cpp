@@ -13161,7 +13161,7 @@ false
 ;
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
@@ -13295,7 +13295,7 @@ observing
 {
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
@@ -14420,7 +14420,7 @@ getNext
 )
 )
 {
-GlobalObjectSet
+WeakGlobalObjectSet
 &
 debuggees
 =
@@ -14431,7 +14431,7 @@ debuggees
 ;
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Enum
@@ -14490,7 +14490,10 @@ e
 .
 rekeyFront
 (
+ReadBarrieredGlobalObject
+(
 global
+)
 )
 ;
 }
@@ -15078,7 +15081,7 @@ time
 /
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Enum
@@ -17331,7 +17334,7 @@ args
 ;
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
@@ -18446,7 +18449,7 @@ false
 ;
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Enum
@@ -18786,7 +18789,7 @@ nogc
 ;
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Enum
@@ -18824,6 +18827,10 @@ setObject
 e
 .
 front
+(
+)
+.
+get
 (
 )
 )
@@ -19160,7 +19167,7 @@ dbg
 ;
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
@@ -20445,7 +20452,7 @@ fop
 GlobalObject
 *
 global
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Enum
@@ -22836,7 +22843,7 @@ globals
 /
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
