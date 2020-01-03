@@ -10390,7 +10390,7 @@ vp
 obj
 -
 >
-getDenseElements
+getDenseElementsAllowCopyOnWrite
 (
 )
 ;
@@ -10737,7 +10737,7 @@ vp
 obj
 -
 >
-getDenseElements
+getDenseElementsAllowCopyOnWrite
 (
 )
 ;
