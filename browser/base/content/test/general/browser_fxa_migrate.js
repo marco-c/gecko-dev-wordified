@@ -97,7 +97,7 @@ FxA
 user
 .
 let
-fxaPanelUIPromise
+buttonPromise
 =
 promiseButtonMutation
 (
@@ -122,7 +122,7 @@ let
 buttonState
 =
 yield
-fxaPanelUIPromise
+buttonPromise
 ;
 assertButtonState
 (
@@ -132,6 +132,7 @@ migrate
 -
 signup
 "
+true
 )
 ;
 Assert
@@ -184,7 +185,7 @@ verified
 FxA
 user
 .
-fxaPanelUIPromise
+buttonPromise
 =
 promiseButtonMutation
 (
@@ -244,7 +245,7 @@ STATE_USER_FXA_VERIFIED
 buttonState
 =
 yield
-fxaPanelUIPromise
+buttonPromise
 ;
 assertButtonState
 (
@@ -254,6 +255,7 @@ migrate
 -
 verify
 "
+true
 "
 foo
 example
@@ -344,7 +346,7 @@ migration
 is
 needed
 .
-fxaPanelUIPromise
+buttonPromise
 =
 promiseButtonMutation
 (
@@ -364,7 +366,7 @@ null
 buttonState
 =
 yield
-fxaPanelUIPromise
+buttonPromise
 ;
 /
 /
@@ -415,6 +417,7 @@ assertButtonState
 buttonState
 "
 "
+true
 )
 ;
 Assert
@@ -463,6 +466,7 @@ assertButtonState
 (
 buttonState
 expectedStatus
+expectedVisible
 expectedLabel
 =
 undefined
@@ -480,6 +484,21 @@ expectedStatus
 Button
 fxstatus
 attribute
+"
+)
+;
+Assert
+.
+equal
+(
+!
+buttonState
+.
+hidden
+expectedVisible
+"
+Button
+visibility
 "
 )
 ;
@@ -590,7 +609,7 @@ fxastatus
 :
 gFxAccounts
 .
-panelUIFooter
+button
 .
 getAttribute
 (
@@ -598,11 +617,18 @@ getAttribute
 fxastatus
 "
 )
+hidden
+:
+gFxAccounts
+.
+button
+.
+hidden
 label
 :
 gFxAccounts
 .
-panelUILabel
+button
 .
 label
 }
@@ -618,7 +644,7 @@ observe
 (
 gFxAccounts
 .
-panelUIFooter
+button
 {
 attributes
 :
