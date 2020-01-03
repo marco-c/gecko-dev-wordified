@@ -313,7 +313,7 @@ typename
 T
 void
 (
-*
+&
 Destroyer
 )
 (
@@ -504,7 +504,7 @@ typename
 T
 void
 (
-*
+&
 Destroyer
 )
 (
@@ -548,7 +548,7 @@ typename
 T
 void
 (
-*
+&
 Destroyer
 )
 (
@@ -592,7 +592,7 @@ typename
 T
 void
 (
-*
+&
 Destroyer
 )
 (
@@ -636,7 +636,7 @@ typename
 T
 void
 (
-*
+&
 Destroyer
 )
 (
