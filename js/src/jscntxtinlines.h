@@ -1971,7 +1971,7 @@ cx
 GetterOp
 op
 HandleObject
-receiver
+obj
 HandleId
 id
 MutableHandleValue
@@ -1988,7 +1988,7 @@ false
 assertSameCompartment
 (
 cx
-receiver
+obj
 id
 vp
 )
@@ -1999,7 +1999,7 @@ ok
 op
 (
 cx
-receiver
+obj
 id
 vp
 )
