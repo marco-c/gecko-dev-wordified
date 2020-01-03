@@ -186,6 +186,13 @@ h
 #
 include
 "
+nsTObserverArray
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
@@ -2519,7 +2526,7 @@ nsIDocument
 >
 mThrottledFrameRequestCallbackDocs
 ;
-nsTArray
+nsTObserverArray
 <
 nsAPostRefreshObserver
 *
