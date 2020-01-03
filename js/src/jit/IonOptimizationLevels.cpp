@@ -243,6 +243,10 @@ inliningWarmUpThresholdFactor_
 .
 125
 ;
+inliningRecompileThresholdFactor_
+=
+4
+;
 }
 void
 OptimizationInfo
