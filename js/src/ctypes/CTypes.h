@@ -3391,9 +3391,8 @@ DefineBuiltin
 JSContext
 *
 cx
-JSObject
-*
-parent
+HandleObject
+ctypesObj
 const
 char
 *
