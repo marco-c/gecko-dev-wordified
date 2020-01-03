@@ -259,14 +259,17 @@ frame
 40fps
 )
 private
+final
 Activity
 mActivity
 ;
 private
+final
 Solo
 mSolo
 ;
 private
+final
 String
 mRootPath
 ;
@@ -274,8 +277,6 @@ private
 static
 String
 mLogFile
-=
-null
 ;
 private
 static
@@ -308,6 +309,7 @@ ERROR
 )
 ;
 private
+final
 int
 mValue
 ;
@@ -515,6 +517,7 @@ gecko_layout
 ;
 }
 }
+Override
 public
 int
 getGeckoTop
@@ -536,6 +539,7 @@ return
 mGeckoTop
 ;
 }
+Override
 public
 int
 getGeckoLeft
@@ -557,6 +561,7 @@ return
 mGeckoLeft
 ;
 }
+Override
 public
 int
 getGeckoHeight
@@ -578,6 +583,7 @@ return
 mGeckoHeight
 ;
 }
+Override
 public
 int
 getGeckoWidth
@@ -628,6 +634,7 @@ found
 .
 *
 /
+Override
 public
 Element
 findElement
@@ -647,6 +654,7 @@ activity
 )
 ;
 }
+Override
 public
 void
 startFrameRecording
@@ -660,6 +668,7 @@ startFrameTimeRecording
 )
 ;
 }
+Override
 public
 int
 stopFrameRecording
@@ -808,6 +817,7 @@ return
 badness
 ;
 }
+Override
 public
 void
 startCheckerboardRecording
@@ -821,6 +831,7 @@ startCheckerboardRecording
 )
 ;
 }
+Override
 public
 float
 stopCheckerboardRecording
@@ -941,6 +952,7 @@ return
 layerView
 ;
 }
+Override
 public
 PaintedSurface
 getPaintedSurface
@@ -1315,6 +1327,7 @@ mPageHeight
 =
 10
 ;
+Override
 public
 int
 getScrollHeight
@@ -1325,6 +1338,7 @@ return
 mScrollHeight
 ;
 }
+Override
 public
 int
 getPageHeight
@@ -1335,6 +1349,7 @@ return
 mPageHeight
 ;
 }
+Override
 public
 int
 getHeight
@@ -1345,6 +1360,7 @@ return
 mHeight
 ;
 }
+Override
 public
 void
 setupScrollHandling

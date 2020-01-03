@@ -185,9 +185,6 @@ syncCall
 "
 check_js_int_arg
 "
-(
-int
-)
 1
 )
 ;
@@ -225,12 +222,9 @@ syncCall
 "
 check_js_double_arg
 "
-(
-double
-)
 3
 .
-0
+0D
 )
 ;
 }
@@ -269,9 +263,6 @@ syncCall
 "
 check_js_boolean_arg
 "
-(
-boolean
-)
 false
 )
 ;
@@ -309,9 +300,6 @@ syncCall
 "
 check_js_string_arg
 "
-(
-String
-)
 "
 foo
 "

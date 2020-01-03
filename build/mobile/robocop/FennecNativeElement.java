@@ -117,6 +117,7 @@ Activity
 mActivity
 ;
 private
+final
 Integer
 mId
 ;
@@ -138,6 +139,7 @@ mActivity
 activity
 ;
 }
+Override
 public
 Integer
 getId
@@ -152,6 +154,7 @@ private
 boolean
 mClickSuccess
 ;
+Override
 public
 boolean
 click
@@ -172,6 +175,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -181,9 +185,6 @@ run
 View
 view
 =
-(
-View
-)
 mActivity
 .
 findViewById
@@ -275,6 +276,7 @@ private
 Object
 mText
 ;
+Override
 public
 String
 getText
@@ -295,6 +297,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -588,6 +591,7 @@ private
 boolean
 mDisplayed
 ;
+Override
 public
 boolean
 isDisplayed
@@ -608,6 +612,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -617,9 +622,6 @@ run
 View
 view
 =
-(
-View
-)
 mActivity
 .
 findViewById

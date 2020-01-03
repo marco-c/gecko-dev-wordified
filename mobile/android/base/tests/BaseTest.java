@@ -594,6 +594,7 @@ int
 mScreenMidHeight
 ;
 private
+final
 HashSet
 <
 Integer
@@ -712,10 +713,6 @@ arguments
 .
 mBaseUrl
 =
-(
-(
-String
-)
 mConfig
 .
 get
@@ -723,7 +720,6 @@ get
 "
 host
 "
-)
 )
 .
 replaceAll
@@ -739,10 +735,6 @@ replaceAll
 ;
 mRawBaseUrl
 =
-(
-(
-String
-)
 mConfig
 .
 get
@@ -750,7 +742,6 @@ get
 "
 rawhost
 "
-)
 )
 .
 replaceAll
@@ -777,9 +768,6 @@ ACTION_MAIN
 ;
 mProfile
 =
-(
-String
-)
 mConfig
 .
 get
@@ -811,9 +799,6 @@ mProfile
 String
 envString
 =
-(
-String
-)
 mConfig
 .
 get
@@ -1983,10 +1968,12 @@ implements
 Condition
 {
 private
+final
 TextView
 mTextView
 ;
 private
+final
 String
 mExpected
 ;
@@ -2168,7 +2155,7 @@ necessarily
 warrant
 a
 test
-asssertion
+assertion
 /
 failure
 .
@@ -5263,10 +5250,12 @@ class
 Navigation
 {
 private
+final
 String
 devType
 ;
 private
+final
 String
 osVersion
 ;
@@ -5945,10 +5934,12 @@ T
 mView
 ;
 private
+final
 String
 mDescr
 ;
 private
+final
 Class
 <
 T

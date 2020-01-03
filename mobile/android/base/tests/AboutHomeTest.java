@@ -1368,9 +1368,6 @@ isSatisfied
 ViewPager
 pager
 =
-(
-ViewPager
-)
 mSolo
 .
 getView
@@ -1677,9 +1674,6 @@ focusUrlBar
 ViewPager
 pager
 =
-(
-ViewPager
-)
 mSolo
 .
 getView
