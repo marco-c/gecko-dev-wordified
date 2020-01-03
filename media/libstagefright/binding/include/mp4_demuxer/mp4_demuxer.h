@@ -224,10 +224,6 @@ MP4Demuxer
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-MP4Demuxer
-)
 explicit
 MP4Demuxer
 (
@@ -237,6 +233,11 @@ aSource
 Monitor
 *
 aMonitor
+)
+;
+~
+MP4Demuxer
+(
 )
 ;
 bool
@@ -408,13 +409,6 @@ this
 .
 Microseconds
 GetNextKeyframeTime
-(
-)
-;
-protected
-:
-~
-MP4Demuxer
 (
 )
 ;
