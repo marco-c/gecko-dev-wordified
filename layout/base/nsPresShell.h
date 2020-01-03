@@ -763,6 +763,10 @@ nsAString
 aAnchorName
 bool
 aScroll
+uint32_t
+aAdditionalScrollFlags
+=
+0
 )
 MOZ_OVERRIDE
 ;
