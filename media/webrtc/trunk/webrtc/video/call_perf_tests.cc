@@ -1372,6 +1372,9 @@ return
 ;
 if
 (
+std
+:
+:
 abs
 (
 latest_audio_ntp

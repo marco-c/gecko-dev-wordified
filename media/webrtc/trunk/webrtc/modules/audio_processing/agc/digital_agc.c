@@ -2391,11 +2391,7 @@ valid
 pointer
 if
 (
-&
 stt
--
->
-vadFarend
 =
 =
 NULL

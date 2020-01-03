@@ -1019,6 +1019,9 @@ true
 else
 if
 (
+std
+:
+:
 abs
 (
 next_render_time_ms
@@ -1070,6 +1073,9 @@ static_cast
 int
 >
 (
+std
+:
+:
 abs
 (
 next_render_time_ms

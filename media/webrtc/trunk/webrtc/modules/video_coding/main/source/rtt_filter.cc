@@ -632,7 +632,7 @@ rttMs
 ;
 if
 (
-abs
+fabs
 (
 diffFromAvg
 )
