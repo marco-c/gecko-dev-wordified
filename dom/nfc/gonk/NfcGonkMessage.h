@@ -76,7 +76,7 @@ NFCD_MINOR_VERSION
 enum
 NfcRequest
 {
-PowerReq
+ChangeRFStateReq
 =
 0
 ConnectReq
@@ -92,7 +92,7 @@ NfcResponse
 GeneralRsp
 =
 1000
-PowerRsp
+ChangeRFStateRsp
 ReadNDEFRsp
 }
 ;

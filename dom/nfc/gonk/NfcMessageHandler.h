@@ -150,7 +150,7 @@ aOptions
 )
 ;
 bool
-PowerRequest
+ChangeRFStateRequest
 (
 android
 :
@@ -165,7 +165,7 @@ options
 )
 ;
 bool
-PowerResponse
+ChangeRFStateResponse
 (
 const
 android
