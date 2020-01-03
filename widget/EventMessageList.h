@@ -1798,7 +1798,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_LOADEDDATA
+eLoadedData
 eMediaEventFirst
 +
 8
