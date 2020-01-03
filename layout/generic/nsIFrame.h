@@ -23600,11 +23600,13 @@ void
 DumpFrameTree
 (
 )
+const
 ;
 void
 DumpFrameTreeLimited
 (
 )
+const
 ;
 virtual
 nsresult

@@ -38138,6 +38138,7 @@ nsIFrame
 DumpFrameTree
 (
 )
+const
 {
 RootFrameList
 (
@@ -38155,6 +38156,7 @@ nsIFrame
 DumpFrameTreeLimited
 (
 )
+const
 {
 List
 (
