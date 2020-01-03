@@ -1906,7 +1906,7 @@ return
 media
 :
 :
-CreateMediaChild
+AllocPMediaChild
 (
 )
 ;
@@ -1925,11 +1925,14 @@ PMediaChild
 aActor
 )
 {
-delete
-aActor
-;
 return
-true
+media
+:
+:
+DeallocPMediaChild
+(
+aActor
+)
 ;
 }
 }

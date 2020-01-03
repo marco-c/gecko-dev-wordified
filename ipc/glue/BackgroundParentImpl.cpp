@@ -1601,7 +1601,7 @@ return
 media
 :
 :
-CreateParent
+AllocPMediaParent
 (
 )
 ;
@@ -1620,11 +1620,14 @@ PMediaParent
 aActor
 )
 {
-delete
-aActor
-;
 return
-true
+media
+:
+:
+DeallocPMediaParent
+(
+aActor
+)
 ;
 }
 namespace
