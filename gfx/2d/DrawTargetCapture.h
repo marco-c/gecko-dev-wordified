@@ -281,14 +281,7 @@ aSigma
 CompositionOp
 aOperator
 )
-{
-/
-*
-Not
-implemented
-*
-/
-}
+;
 virtual
 void
 ClearRect
