@@ -4666,9 +4666,8 @@ AsContentCommandEvent
 break
 ;
 case
-NS_CONTENT_COMMAND_SCROLL
+eContentCommandScroll
 :
-{
 DoContentCommandScrollEvent
 (
 aEvent
@@ -4679,7 +4678,6 @@ AsContentCommandEvent
 )
 )
 ;
-}
 break
 ;
 case

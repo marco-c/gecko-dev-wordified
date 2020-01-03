@@ -2137,7 +2137,7 @@ eContentCommandEventFirst
 )
 /
 /
-NS_CONTENT_COMMAND_SCROLL
+eContentCommandScroll
 scrolls
 the
 nearest
@@ -2218,7 +2218,7 @@ occur
 .
 NS_EVENT_MESSAGE
 (
-NS_CONTENT_COMMAND_SCROLL
+eContentCommandScroll
 eContentCommandEventFirst
 +
 7

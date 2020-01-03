@@ -433,7 +433,7 @@ in
 ]
 /
 /
-NS_CONTENT_COMMAND_SCROLL
+eContentCommandScroll
 /
 /
 for
