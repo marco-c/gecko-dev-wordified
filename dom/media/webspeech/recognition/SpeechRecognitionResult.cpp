@@ -349,7 +349,7 @@ bool
 SpeechRecognitionResult
 :
 :
-IsFinal
+Final
 (
 )
 const
