@@ -269,6 +269,7 @@ def
 default_formatter_options
 (
 log_type
+overrides
 )
 :
     
@@ -324,6 +325,20 @@ log_type
 {
 }
 )
+)
+    
+if
+overrides
+is
+not
+None
+:
+        
+rv
+.
+update
+(
+overrides
 )
     
 return
@@ -1233,6 +1248,9 @@ args
 defaults
 =
 None
+formatter_defaults
+=
+None
 )
 :
     
@@ -1373,6 +1391,33 @@ raw
 logs
 otherwise
 )
+.
+    
+:
+param
+formatter_defaults
+:
+A
+dictionary
+of
+{
+option_name
+:
+default_value
+}
+to
+provide
+                               
+to
+the
+formatters
+in
+the
+absence
+of
+command
+line
+overrides
 .
     
 :
@@ -1697,6 +1742,8 @@ formatter
 default_formatter_options
 (
 formatter
+                                                                             
+formatter_defaults
 )
                 
 formatter_options
@@ -1816,6 +1863,7 @@ name
 default_formatter_options
 (
 name
+formatter_defaults
 )
     
 setup_handlers
