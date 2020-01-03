@@ -1641,6 +1641,12 @@ Clear
 (
 )
 ;
+mBound3DTextures
+.
+Clear
+(
+)
+;
 mBoundArrayBuffer
 =
 nullptr
@@ -10173,6 +10179,7 @@ GetSize
 )
 .
 height
+1
 effectiveinternalformat
 WebGLImageDataStatus
 :
@@ -10497,6 +10504,7 @@ mCanvasElement
 mExtensions
 mBound2DTextures
 mBoundCubeMapTextures
+mBound3DTextures
 mBoundArrayBuffer
 mBoundTransformFeedbackBuffer
 mCurrentProgram
