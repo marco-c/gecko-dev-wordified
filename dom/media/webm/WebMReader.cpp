@@ -1848,15 +1848,10 @@ HasInitializationData
 (
 )
 ?
-mDecoder
+mBufferedState
 -
 >
-GetResource
-(
-)
--
->
-GetLength
+GetInitEndOffset
 (
 )
 :
