@@ -1323,8 +1323,8 @@ new
 Promise
 (
 (
-resolve
-reject
+aResolve
+aReject
 )
 =
 >
