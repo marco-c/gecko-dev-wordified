@@ -3440,6 +3440,14 @@ ParseNode
 pn
 )
 ;
+bool
+emitComputedPropertyName
+(
+ParseNode
+*
+computedPropName
+)
+;
 /
 /
 Emit
