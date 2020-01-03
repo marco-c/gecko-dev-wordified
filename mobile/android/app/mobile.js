@@ -10972,17 +10972,6 @@ enabled
 true
 )
 ;
-/
-/
-TODO
-:
-Disabled
-until
-bug
-1190301
-is
-fixed
-.
 pref
 (
 "
@@ -10992,6 +10981,6 @@ tabs
 .
 showAudioPlayingIcon
 "
-false
+true
 )
 ;
