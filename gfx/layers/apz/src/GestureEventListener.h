@@ -136,6 +136,10 @@ Units
 .
 h
 "
+/
+/
+for
+ScreenIntPoint
 #
 include
 "
@@ -1431,7 +1435,7 @@ tap
 .
 *
 /
-ParentLayerPoint
+ScreenIntPoint
 mTouchStartPosition
 ;
 /
