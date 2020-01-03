@@ -385,6 +385,10 @@ const
 SurfaceCaps
 &
 caps
+bool
+*
+const
+out_success
 )
 ;
 virtual
