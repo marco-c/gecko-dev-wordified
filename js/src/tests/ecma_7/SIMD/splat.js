@@ -605,7 +605,7 @@ x
 x
 )
 ;
-assertEqX4
+assertEqX2
 (
 SIMD
 .

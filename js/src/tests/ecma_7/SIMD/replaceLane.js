@@ -1054,7 +1054,7 @@ Float64x2inputs
 0
 ]
 ;
-assertEqX4
+assertEqX2
 (
 Float64x2
 .
@@ -1073,7 +1073,7 @@ NaN
 )
 )
 ;
-assertEqX4
+assertEqX2
 (
 Float64x2
 .
