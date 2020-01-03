@@ -987,13 +987,6 @@ the
 callback
 .
 *
-Note
-not
-compat
-with
-e10s
-!
-*
 param
 aURL
 The
