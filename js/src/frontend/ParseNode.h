@@ -723,11 +723,6 @@ CATCHLIST
 \
 F
 (
-FINALLY
-)
-\
-F
-(
 THROW
 )
 \
