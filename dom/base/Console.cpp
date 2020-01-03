@@ -1126,6 +1126,17 @@ ConsoleRunnable
 (
 )
 {
+/
+/
+Shutdown
+the
+StructuredCloneHelperInternal
+class
+.
+Shutdown
+(
+)
+;
 }
 bool
 Dispatch
