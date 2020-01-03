@@ -9520,8 +9520,6 @@ MediaManager
 :
 GetUserMedia
 (
-bool
-aPrivileged
 nsPIDOMWindow
 *
 aWindow
@@ -9567,6 +9565,22 @@ NS_ENSURE_TRUE
 (
 aOnSuccess
 NS_ERROR_NULL_POINTER
+)
+;
+bool
+privileged
+=
+nsContentUtils
+:
+:
+IsChromeDoc
+(
+aWindow
+-
+>
+GetExtantDoc
+(
+)
 )
 ;
 nsCOMPtr
@@ -9701,7 +9715,7 @@ mPicture
 &
 &
 !
-aPrivileged
+privileged
 )
 {
 if
@@ -10077,7 +10091,7 @@ false
 )
 )
 {
-aPrivileged
+privileged
 =
 true
 ;
@@ -10364,7 +10378,7 @@ IsMediaTrackConstraints
 &
 &
 !
-aPrivileged
+privileged
 )
 {
 auto
@@ -10844,7 +10858,7 @@ endif
 endif
 (
 !
-aPrivileged
+privileged
 &
 &
 !
@@ -11017,7 +11031,7 @@ if
 isLoop
 )
 {
-aPrivileged
+privileged
 =
 true
 ;
@@ -11040,7 +11054,7 @@ UI
 )
 if
 (
-aPrivileged
+privileged
 |
 |
 (
