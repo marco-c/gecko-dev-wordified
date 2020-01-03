@@ -18931,17 +18931,15 @@ nscoord
 prefWidth
 ;
 {
-nsRefPtr
-<
 nsRenderingContext
->
 rcx
-=
+(
 presShell
 -
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 prefWidth
@@ -18951,6 +18949,7 @@ root
 >
 GetPrefISize
 (
+&
 rcx
 )
 ;

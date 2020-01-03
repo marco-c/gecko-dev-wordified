@@ -250,6 +250,9 @@ class
 gfxASurface
 ;
 class
+gfxContext
+;
+class
 gfxTextPerfMetrics
 ;
 class
@@ -281,9 +284,6 @@ nsIWidget
 ;
 struct
 nsRect
-;
-class
-nsRenderingContext
 ;
 class
 nsDeviceContext
@@ -416,7 +416,7 @@ null
 /
 already_AddRefed
 <
-nsRenderingContext
+gfxContext
 >
 CreateRenderingContext
 (

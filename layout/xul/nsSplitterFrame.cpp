@@ -3279,12 +3279,9 @@ Grow
 return
 NS_OK
 ;
-nsRefPtr
-<
 nsRenderingContext
->
 rc
-=
+(
 outerPresContext
 -
 >
@@ -3296,11 +3293,13 @@ PresShell
 CreateReferenceRenderingContext
 (
 )
+)
 ;
 nsBoxLayoutState
 state
 (
 outerPresContext
+&
 rc
 )
 ;

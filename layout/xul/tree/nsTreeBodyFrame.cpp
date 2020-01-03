@@ -1331,12 +1331,9 @@ nsTreeColumn
 *
 col
 ;
-nsRefPtr
-<
 nsRenderingContext
->
 rc
-=
+(
 PresContext
 (
 )
@@ -1349,6 +1346,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 for
@@ -1405,6 +1403,7 @@ GetCellWidth
 (
 row
 col
+&
 rc
 desiredWidth
 currentWidth
@@ -6531,12 +6530,9 @@ cellContext
 cellRect
 )
 ;
-nsRefPtr
-<
 nsRenderingContext
->
 rc
-=
+(
 presContext
 -
 >
@@ -6547,6 +6543,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 /
@@ -6741,7 +6738,6 @@ currCol
 imageRect
 twistyRect
 presContext
-*
 rc
 twistyContext
 )
@@ -7312,7 +7308,6 @@ AdjustForCellText
 cellText
 aRow
 currCol
-*
 rc
 *
 fm
@@ -8696,12 +8691,9 @@ PresContext
 (
 )
 ;
-nsRefPtr
-<
 nsRenderingContext
->
 rc
-=
+(
 presContext
 -
 >
@@ -8712,6 +8704,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 if
@@ -8915,7 +8908,6 @@ aColumn
 imageSize
 twistyRect
 presContext
-*
 rc
 twistyContext
 )
@@ -9423,7 +9415,6 @@ AdjustForCellText
 cellText
 aRowIndex
 aColumn
-*
 rc
 *
 fm
@@ -10285,12 +10276,9 @@ col
 return
 NS_ERROR_INVALID_ARG
 ;
-nsRefPtr
-<
 nsRenderingContext
->
 rc
-=
+(
 PresContext
 (
 )
@@ -10304,6 +10292,7 @@ PresShell
 CreateReferenceRenderingContext
 (
 )
+)
 ;
 rv
 =
@@ -10311,6 +10300,7 @@ GetCellWidth
 (
 aRow
 col
+&
 rc
 desiredSize
 currentSize

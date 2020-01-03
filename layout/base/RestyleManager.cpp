@@ -3065,12 +3065,9 @@ to
 a
 reflow
 .
-nsRefPtr
-<
 nsRenderingContext
->
 rc
-=
+(
 aFrame
 -
 >
@@ -3086,6 +3083,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 /
@@ -3171,6 +3169,7 @@ PresContext
 (
 )
 parentFrame
+&
 rc
 parentSize
 )

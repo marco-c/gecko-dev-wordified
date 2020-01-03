@@ -2008,12 +2008,9 @@ scrollbar
 size
 information
 .
-nsRefPtr
-<
 nsRenderingContext
->
 context
-=
+(
 aPresContext
 -
 >
@@ -2025,6 +2022,7 @@ PresShell
 CreateReferenceRenderingContext
 (
 )
+)
 ;
 nsMargin
 sizes
@@ -2035,6 +2033,7 @@ scrollFrame
 GetDesiredScrollbarSizes
 (
 aPresContext
+&
 context
 )
 )
