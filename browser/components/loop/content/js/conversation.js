@@ -1023,13 +1023,6 @@ setAttribute
 "
 dir
 "
-"
-rtl
-"
-)
-;
-/
-/
 mozL10n
 .
 getDirection
