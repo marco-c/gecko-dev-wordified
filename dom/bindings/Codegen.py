@@ -82514,11 +82514,6 @@ deleted
 decls
 =
 "
-bool
-result
-;
-\
-n
 "
                     
 if
