@@ -33786,6 +33786,16 @@ nsIDOMMouseEvent
 MOZ_SOURCE_PEN
 )
 ;
+InkCollector
+:
+:
+sInkCollector
+-
+>
+ClearTarget
+(
+)
+;
 }
 break
 ;
