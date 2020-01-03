@@ -1512,7 +1512,6 @@ nsISupports
 *
 result
 )
-\
 override
 \
 {

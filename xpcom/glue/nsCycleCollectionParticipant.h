@@ -4353,7 +4353,6 @@ void
 *
 closure
 )
-\
 override
 ;
 \
