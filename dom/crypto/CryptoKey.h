@@ -1199,6 +1199,15 @@ proofOfLock
 /
 )
 ;
+static
+bool
+PublicKeyValid
+(
+SECKEYPublicKey
+*
+aPubKey
+)
+;
 /
 /
 Structured
