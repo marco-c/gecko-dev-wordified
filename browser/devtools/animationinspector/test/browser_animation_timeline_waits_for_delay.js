@@ -178,9 +178,7 @@ timeLabel
 .
 textContent
 "
-0
-.
-00s
+0s
 "
 "
 The
