@@ -953,17 +953,6 @@ AnimationPlayerCollection
 aElement
 propName
 this
-mPresContext
--
->
-RefreshDriver
-(
-)
--
->
-MostRecentRefresh
-(
-)
 )
 ;
 nsresult
