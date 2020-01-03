@@ -3088,7 +3088,7 @@ internalEvent
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 sISMLog
 PR_LOG_ALWAYS

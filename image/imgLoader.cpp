@@ -5127,7 +5127,7 @@ hasNoProxies
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (
@@ -5917,7 +5917,7 @@ entry
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (
@@ -8470,7 +8470,7 @@ pointer
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (
@@ -9823,7 +9823,7 @@ if
 key
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (
@@ -16028,7 +16028,7 @@ ToIURI
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (

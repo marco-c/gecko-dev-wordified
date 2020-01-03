@@ -864,7 +864,7 @@ NS_IsMainThread
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (
@@ -1280,7 +1280,7 @@ NS_IsMainThread
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (

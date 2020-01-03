@@ -264,7 +264,7 @@ aEmpty
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -633,7 +633,7 @@ continue
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1501,7 +1501,7 @@ aProperty
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG

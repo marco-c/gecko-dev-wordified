@@ -8099,7 +8099,7 @@ DEBUG
 )
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocShellLog
 PR_LOG_DEBUG
@@ -11459,7 +11459,7 @@ if
 gDocShellLeakLog
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocShellLeakLog
 PR_LOG_DEBUG
@@ -29162,7 +29162,7 @@ DEBUG
 )
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocShellLog
 PR_LOG_DEBUG
@@ -55057,7 +55057,7 @@ if
 gDocShellLeakLog
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocShellLeakLog
 PR_LOG_DEBUG
@@ -64638,7 +64638,7 @@ DEBUG
 )
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocShellLog
 PR_LOG_DEBUG
@@ -69035,7 +69035,7 @@ DEBUG
 )
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocShellLog
 PR_LOG_DEBUG

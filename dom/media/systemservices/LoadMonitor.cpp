@@ -411,7 +411,7 @@ define
 LOG_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLoadManagerLog
 4
@@ -421,7 +421,7 @@ define
 LOG_MANY_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLoadManagerLog
 5

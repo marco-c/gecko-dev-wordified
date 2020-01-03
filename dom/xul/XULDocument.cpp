@@ -2466,7 +2466,7 @@ aSink
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULLog
 PR_LOG_WARNING
@@ -3733,7 +3733,7 @@ true
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULLog
 PR_LOG_WARNING
@@ -13149,7 +13149,7 @@ proto
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULLog
 PR_LOG_ERROR
@@ -14772,7 +14772,7 @@ false
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULLog
 PR_LOG_DEBUG
@@ -21733,7 +21733,7 @@ NS_OK
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULLog
 PR_LOG_NOTICE
@@ -23446,7 +23446,7 @@ eResolve_Error
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULLog
 PR_LOG_NOTICE
@@ -24585,7 +24585,7 @@ OverlayForwardReference
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULLog
 PR_LOG_WARNING
@@ -24877,7 +24877,7 @@ BroadcasterHookup
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULLog
 PR_LOG_WARNING
@@ -26251,7 +26251,7 @@ we
 succeeded
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULLog
 PR_LOG_NOTICE

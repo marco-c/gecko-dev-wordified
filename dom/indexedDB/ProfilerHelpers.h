@@ -1520,7 +1520,7 @@ PR_LOG_WARNING
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 logModule
 logLevel

@@ -658,7 +658,7 @@ aWindow
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -3612,7 +3612,7 @@ NS_ERROR_NULL_POINTER
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gSecureDocLog
 PR_LOG_DEBUG

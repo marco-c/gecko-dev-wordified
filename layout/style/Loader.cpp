@@ -1854,7 +1854,7 @@ define
 LOG_FORCE_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetLoaderLog
 (
@@ -1866,7 +1866,7 @@ define
 LOG_ERROR_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetLoaderLog
 (
@@ -1878,7 +1878,7 @@ define
 LOG_WARN_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetLoaderLog
 (
@@ -1890,7 +1890,7 @@ define
 LOG_DEBUG_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetLoaderLog
 (

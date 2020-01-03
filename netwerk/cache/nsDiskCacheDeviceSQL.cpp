@@ -1467,7 +1467,7 @@ i
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCacheLog
 PR_LOG_DEBUG
