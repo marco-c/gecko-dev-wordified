@@ -320,6 +320,13 @@ CompositorTypes
 .
 h
 "
+#
+include
+"
+nsIWebBrowserChrome3
+.
+h
+"
 class
 nsICachedFileDescriptorListener
 ;
@@ -1297,6 +1304,12 @@ layout
 :
 ScrollingBehavior
 mScrolling
+;
+nsCOMPtr
+<
+nsIWebBrowserChrome3
+>
+mWebBrowserChrome
 ;
 }
 ;
