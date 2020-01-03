@@ -404,6 +404,9 @@ Monitor
 mMonitor
 ;
 bool
+mFlushing
+;
+bool
 mDraining
 ;
 bool
