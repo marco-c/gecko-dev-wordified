@@ -516,7 +516,6 @@ NS_IMPL_ISUPPORTS
 (
 nsNSSCertificate
 nsIX509Cert
-nsIIdentityInfo
 nsISerializable
 nsIClassInfo
 )
@@ -7657,7 +7656,7 @@ endif
 /
 /
 MOZ_NO_EV_CERTS
-NS_IMETHODIMP
+nsresult
 nsNSSCertificate
 :
 :

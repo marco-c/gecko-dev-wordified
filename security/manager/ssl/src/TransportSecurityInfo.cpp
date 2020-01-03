@@ -5075,8 +5075,8 @@ TransportSecurityInfo
 :
 SetStatusErrorBits
 (
-nsIX509Cert
-&
+nsNSSCertificate
+*
 cert
 uint32_t
 collected_errors
@@ -5093,6 +5093,7 @@ if
 !
 mSSLStatus
 )
+{
 mSSLStatus
 =
 new
@@ -5100,12 +5101,12 @@ nsSSLStatus
 (
 )
 ;
+}
 mSSLStatus
 -
 >
 SetServerCert
 (
-&
 cert
 nsNSSCertificate
 :

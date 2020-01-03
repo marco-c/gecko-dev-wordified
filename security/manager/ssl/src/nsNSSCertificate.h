@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIIdentityInfo
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -210,8 +203,6 @@ MOZ_FINAL
 public
 nsIX509Cert
 public
-nsIIdentityInfo
-public
 nsISerializable
 public
 nsIClassInfo
@@ -222,7 +213,6 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIX509CERT
-NS_DECL_NSIIDENTITYINFO
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
 friend
@@ -288,6 +278,14 @@ char
 certDER
 int
 derLen
+)
+;
+nsresult
+GetIsExtendedValidation
+(
+bool
+*
+aIsEV
 )
 ;
 enum
