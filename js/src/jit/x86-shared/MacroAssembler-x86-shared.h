@@ -9741,14 +9741,6 @@ dest
 ;
 }
 void
-callAndPushReturnAddress
-(
-Label
-*
-label
-)
-;
-void
 checkStackAlignment
 (
 )
