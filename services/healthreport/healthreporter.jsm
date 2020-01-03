@@ -2957,6 +2957,11 @@ currentProviderInInit
 this
 .
 _currentProviderInInit
+currentProviderInCollect
+:
+this
+.
+_currentProviderInCollect
 }
 )
 )
