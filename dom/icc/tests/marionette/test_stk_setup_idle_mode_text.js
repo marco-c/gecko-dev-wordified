@@ -360,7 +360,7 @@ false
 icons
 :
 [
-colorIcon
+colorTransparencyIcon
 ]
 }
 }
