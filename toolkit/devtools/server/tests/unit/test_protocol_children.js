@@ -1539,11 +1539,6 @@ DebuggerServer
 .
 init
 (
-(
-)
-=
->
-true
 )
 ;
 let

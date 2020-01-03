@@ -84,11 +84,6 @@ DebuggerServer
 .
 init
 (
-(
-)
-=
->
-true
 )
 ;
 DebuggerServer
