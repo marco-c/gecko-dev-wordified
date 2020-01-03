@@ -2207,8 +2207,9 @@ TerminateChildProcess
 MessageLoop
 *
 aMsgLoop
+const
 nsAString
-*
+&
 aBrowserDumpId
 )
 ;
