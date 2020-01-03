@@ -111,11 +111,13 @@ vector
 >
 #
 include
-<
-assert
+"
+mozilla
+/
+Assertions
 .
 h
->
+"
 #
 include
 "
@@ -693,7 +695,7 @@ ReadContinuation
 aContinuation
 )
 {
-assert
+MOZ_ASSERT
 (
 aContinuation
 )
@@ -786,7 +788,7 @@ GMPRecordClient
 aClient
 )
 {
-assert
+MOZ_ASSERT
 (
 g_platform_api
 )
@@ -812,7 +814,7 @@ GMPTask
 aTask
 )
 {
-assert
+MOZ_ASSERT
 (
 g_platform_api
 )
@@ -938,7 +940,7 @@ OpenContinuation
 aContinuation
 )
 {
-assert
+MOZ_ASSERT
 (
 aContinuation
 )
