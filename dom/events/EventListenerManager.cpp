@@ -1921,7 +1921,7 @@ onuserproximity
 {
 EnableDevice
 (
-NS_DEVICE_PROXIMITY
+eDeviceProximity
 )
 ;
 }
@@ -2592,7 +2592,7 @@ case
 NS_DEVICE_LIGHT
 :
 case
-NS_DEVICE_PROXIMITY
+eDeviceProximity
 :
 case
 NS_USER_PROXIMITY
@@ -2657,7 +2657,7 @@ SENSOR_ORIENTATION
 break
 ;
 case
-NS_DEVICE_PROXIMITY
+eDeviceProximity
 :
 case
 NS_USER_PROXIMITY
@@ -2809,7 +2809,7 @@ SENSOR_GYROSCOPE
 break
 ;
 case
-NS_DEVICE_PROXIMITY
+eDeviceProximity
 :
 case
 NS_USER_PROXIMITY

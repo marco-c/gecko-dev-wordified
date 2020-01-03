@@ -1795,7 +1795,7 @@ eBasicEventClass
 WINDOW_ONLY_EVENT
 (
 deviceproximity
-NS_DEVICE_PROXIMITY
+eDeviceProximity
 EventNameType_None
 eBasicEventClass
 )
