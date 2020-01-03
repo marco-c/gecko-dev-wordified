@@ -4670,7 +4670,7 @@ sandbox
 asyncComplete
 (
 new
-ScriptTimeout
+ScriptTimeoutError
 (
 "
 timed
