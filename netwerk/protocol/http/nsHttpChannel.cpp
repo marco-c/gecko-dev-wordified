@@ -344,6 +344,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
