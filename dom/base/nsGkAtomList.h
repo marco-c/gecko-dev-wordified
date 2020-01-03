@@ -4584,13 +4584,6 @@ mozaudiochannel
 )
 GK_ATOM
 (
-mozasyncpanzoom
-"
-mozasyncpanzoom
-"
-)
-GK_ATOM
-(
 mozfullscreenchange
 "
 mozfullscreenchange
