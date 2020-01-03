@@ -2926,6 +2926,7 @@ Stack
 callee
 this
 args
+newTarget
 =
 >
 rval
@@ -2941,7 +2942,7 @@ spreadnew
 "
 NULL
 1
-3
+4
 1
 JOF_BYTE
 |
@@ -5768,6 +5769,7 @@ argc
 -
 1
 ]
+newTarget
 =
 >
 rval
@@ -5777,7 +5779,7 @@ nuses
 (
 argc
 +
-2
+3
 )
 *
 /
