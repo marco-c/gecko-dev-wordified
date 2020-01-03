@@ -587,6 +587,10 @@ mEnableSandboxLogging
 (
 false
 )
+mEnableNPAPISandbox
+(
+false
+)
 #
 if
 defined
@@ -5153,6 +5157,9 @@ GeckoProcessType_Plugin
 :
 if
 (
+mEnableNPAPISandbox
+&
+&
 !
 PR_GetEnv
 (
