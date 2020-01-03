@@ -7633,6 +7633,12 @@ SyncWithCacheIOThread
 (
 )
 ;
+mActiveEntries
+.
+Shutdown
+(
+)
+;
 /
 /
 obtain
