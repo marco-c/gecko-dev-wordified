@@ -2443,11 +2443,17 @@ evicted
 {
 nsRefPtr
 <
+dom
+:
+:
 TimeRanges
 >
 ranges
 =
 new
+dom
+:
+:
 TimeRanges
 (
 )
