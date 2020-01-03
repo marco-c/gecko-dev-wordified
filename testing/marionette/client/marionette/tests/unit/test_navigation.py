@@ -222,9 +222,17 @@ chrome
             
 self
 .
-assertRaises
+assertRaisesRegexp
 (
 MarionetteException
+"
+Cannot
+navigate
+in
+chrome
+context
+"
+                                    
 self
 .
 marionette

@@ -8508,6 +8508,8 @@ Firefox
 "
 )
 {
+this
+.
 sendError
 (
 "
