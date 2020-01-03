@@ -5685,8 +5685,6 @@ show
 browser
 "
 password
--
-save
 "
 notificationText
 "
@@ -5711,6 +5709,13 @@ now
 persistWhileVisible
 :
 true
+passwordNotificationType
+:
+"
+password
+-
+save
+"
 }
 )
 ;
@@ -5899,8 +5904,6 @@ getNotification
 (
 "
 password
--
-save
 "
 )
 ;
@@ -6747,8 +6750,6 @@ show
 browser
 "
 password
--
-change
 "
 notificationText
 "
@@ -6773,6 +6774,13 @@ now
 persistWhileVisible
 :
 true
+passwordNotificationType
+:
+"
+password
+-
+change
+"
 }
 )
 ;
