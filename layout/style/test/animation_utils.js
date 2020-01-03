@@ -527,7 +527,7 @@ is
 gEventsReceived
 .
 length
-gEventsReceived
+eventsExpected
 .
 length
 "
