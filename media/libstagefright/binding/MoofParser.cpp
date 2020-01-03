@@ -315,6 +315,13 @@ IsType
 moov
 "
 )
+&
+&
+mInitRange
+.
+IsNull
+(
+)
 )
 {
 mInitRange
