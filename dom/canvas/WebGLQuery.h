@@ -867,7 +867,7 @@ mType
 FRIENDSHIPS
 friend
 class
-WebGLContext
+WebGL2Context
 ;
 }
 ;
