@@ -5928,9 +5928,11 @@ cls
 WS
 |
 |
+(
 cls
 &
 WSflag
+)
 )
 s
 -

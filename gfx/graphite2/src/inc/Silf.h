@@ -644,6 +644,16 @@ return
 m_flags
 ;
 }
+byte
+dir
+(
+)
+const
+{
+return
+m_dir
+;
+}
 uint8
 numJustLevels
 (
@@ -761,6 +771,7 @@ m_pPass
 m_jPass
 m_bPass
 m_flags
+m_dir
 ;
 uint8
 m_aPseudo

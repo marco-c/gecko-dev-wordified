@@ -320,6 +320,8 @@ m_prefixLength
 (
 ePrefixLength
 )
+/
+/
 m_maxCachedSegLength
 (
 eMaxSpliceSize
@@ -574,6 +576,8 @@ length
 return
 NULL
 ;
+/
+/
 assert
 (
 length

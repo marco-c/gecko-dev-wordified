@@ -941,6 +941,17 @@ _posm
 0
 )
 {
+#
+if
+!
+defined
+GRAPHITE2_NTRACING
+_dbg
+=
+0
+;
+#
+endif
 _exclusions
 .
 reserve
