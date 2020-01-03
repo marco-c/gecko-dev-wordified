@@ -845,7 +845,7 @@ capacity
 gettable
 with
 *
-getDenseElementsCapacity
+getDenseCapacity
 (
 )
 .
@@ -860,7 +860,7 @@ length
 accessible
 with
 *
-getDenseElementsInitializedLength
+getDenseInitializedLength
 (
 )
 .
