@@ -445,11 +445,6 @@ delta
 size
 )
 ;
-mProducedDuration
-+
-=
-delta
-;
 /
 /
 This

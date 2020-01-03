@@ -265,15 +265,15 @@ MediaEngineTabVideoSource
 (
 )
 :
-mProducedDuration
-(
-0
-)
 mMonitor
 (
 "
 MediaEngineTabVideoSource
 "
+)
+mTabSource
+(
+nullptr
 )
 {
 }
@@ -1211,6 +1211,9 @@ TrackID
 aID
 StreamTime
 aDesiredTime
+StreamTime
+&
+aLastEndTime
 )
 {
 VideoSegment
@@ -1250,7 +1253,7 @@ delta
 =
 aDesiredTime
 -
-mProducedDuration
+aLastEndTime
 ;
 if
 (
@@ -1355,7 +1358,7 @@ segment
 )
 )
 {
-mProducedDuration
+aLastEndTime
 =
 aDesiredTime
 ;

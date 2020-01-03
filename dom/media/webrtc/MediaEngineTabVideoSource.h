@@ -204,8 +204,12 @@ mozilla
 :
 :
 StreamTime
+mozilla
+:
+:
+StreamTime
+&
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -452,9 +456,6 @@ nsCOMPtr
 nsITimer
 >
 mTimer
-;
-StreamTime
-mProducedDuration
 ;
 Monitor
 mMonitor

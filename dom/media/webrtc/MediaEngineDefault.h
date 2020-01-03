@@ -288,8 +288,10 @@ TrackID
 aId
 StreamTime
 aDesiredTime
+StreamTime
+&
+aLastEndTime
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -453,9 +455,6 @@ mCb
 int
 mCr
 ;
-StreamTime
-mProducedDuration
-;
 }
 ;
 class
@@ -578,6 +577,9 @@ TrackID
 aId
 StreamTime
 aDesiredTime
+StreamTime
+&
+aLastEndTime
 )
 {
 }

@@ -290,10 +290,6 @@ mCr
 (
 16
 )
-mProducedDuration
-(
-0
-)
 {
 mImageContainer
 =
@@ -1317,6 +1313,9 @@ TrackID
 aID
 StreamTime
 aDesiredTime
+StreamTime
+&
+aLastEndTime
 )
 {
 /
@@ -1374,7 +1373,7 @@ delta
 =
 aDesiredTime
 -
-mProducedDuration
+aLastEndTime
 ;
 if
 (
@@ -1465,7 +1464,7 @@ segment
 )
 )
 {
-mProducedDuration
+aLastEndTime
 =
 aDesiredTime
 ;
