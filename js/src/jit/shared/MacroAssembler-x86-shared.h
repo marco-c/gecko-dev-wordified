@@ -542,6 +542,10 @@ scratch
 Label
 *
 label
+bool
+maybeNonZero
+=
+true
 )
 ;
 void

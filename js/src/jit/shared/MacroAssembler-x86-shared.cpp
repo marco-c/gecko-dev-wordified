@@ -1401,6 +1401,8 @@ scratch
 Label
 *
 label
+bool
+maybeNonZero
 )
 {
 /
@@ -1435,6 +1437,19 @@ JS_CODEGEN_X86
 Label
 nonZero
 ;
+/
+/
+if
+not
+already
+compared
+to
+zero
+if
+(
+maybeNonZero
+)
+{
 /
 /
 Compare
@@ -1476,6 +1491,7 @@ ScratchDoubleReg
 nonZero
 )
 ;
+}
 /
 /
 Input
