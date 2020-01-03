@@ -845,6 +845,7 @@ imgRequest
 GetProgressTracker
 (
 )
+const
 {
 MutexAutoLock
 lock
@@ -2410,6 +2411,7 @@ imgRequest
 HasConsumers
 (
 )
+const
 {
 nsRefPtr
 <

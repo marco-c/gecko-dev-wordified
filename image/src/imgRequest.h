@@ -207,9 +207,6 @@ class
 imgCacheEntry
 ;
 class
-imgMemoryReporter
-;
-class
 nsIApplicationCache
 ;
 class
@@ -774,6 +771,7 @@ ProgressTracker
 GetProgressTracker
 (
 )
+const
 ;
 /
 /
@@ -1233,6 +1231,12 @@ return
 mProperties
 ;
 }
+bool
+HasConsumers
+(
+)
+const
+;
 private
 :
 friend
@@ -1267,11 +1271,6 @@ container
 .
 void
 UpdateCacheEntrySize
-(
-)
-;
-bool
-HasConsumers
 (
 )
 ;
@@ -1332,10 +1331,6 @@ aContentDisposition
 ;
 private
 :
-friend
-class
-imgMemoryReporter
-;
 friend
 class
 FinishPreparingForNewPartRunnable
