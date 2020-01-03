@@ -19352,9 +19352,6 @@ usedBytes
 >
 =
 igcThresholdBytes
-&
-&
-interFrameGC
 )
 {
 /
