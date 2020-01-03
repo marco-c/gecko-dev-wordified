@@ -2043,6 +2043,9 @@ and
 children
 )
 .
+nsAutoScriptBlocker
+scriptBlocker
+;
 AutoJSContext
 cx
 ;
