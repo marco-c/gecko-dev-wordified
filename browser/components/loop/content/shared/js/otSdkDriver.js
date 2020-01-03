@@ -6112,6 +6112,7 @@ event
 changedProperty
 =
 =
+=
 STREAM_PROPERTIES
 .
 VIDEO_DIMENSIONS
@@ -6138,6 +6139,7 @@ stream
 connection
 .
 id
+=
 =
 =
 this
@@ -7089,12 +7091,14 @@ if
 startTime
 =
 =
+=
 this
 .
 CONNECTION_START_TIME_ALREADY_NOTED
 |
 |
 startTime
+=
 =
 =
 this

@@ -2947,6 +2947,7 @@ newRoomName
 oldRoomName
 !
 =
+=
 newRoomName
 )
 {
