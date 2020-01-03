@@ -620,6 +620,13 @@ mac
 -
 cyrillic
 "
+"
+x
+-
+mac
+-
+ukrainian
+"
 ]
 ;
 function
