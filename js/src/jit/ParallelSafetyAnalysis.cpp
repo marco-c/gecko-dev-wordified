@@ -1778,6 +1778,18 @@ RecompileCheck
 )
 UNSAFE_OP
 (
+CompareExchangeTypedArrayElement
+)
+UNSAFE_OP
+(
+AtomicTypedArrayElementBinop
+)
+UNSAFE_OP
+(
+MemoryBarrier
+)
+UNSAFE_OP
+(
 UnknownValue
 )
 UNSAFE_OP
@@ -1793,7 +1805,7 @@ ThrowUninitializedLexical
 It
 looks
 like
-this
+these
 could
 easily
 be

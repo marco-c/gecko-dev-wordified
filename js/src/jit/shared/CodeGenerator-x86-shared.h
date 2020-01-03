@@ -1454,6 +1454,15 @@ LAsmJSPassStackArg
 ins
 )
 ;
+virtual
+bool
+visitMemoryBarrier
+(
+LMemoryBarrier
+*
+ins
+)
+;
 bool
 visitOutOfLineLoadTypedArrayOutOfBounds
 (
