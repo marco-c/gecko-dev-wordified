@@ -449,6 +449,7 @@ nscoord_MAX
 if
 necessary
 .
+MOZ_WARN_UNUSED_RESULT
 nsRect
 SaturatingUnion
 (
@@ -503,6 +504,7 @@ aRect
 ;
 }
 }
+MOZ_WARN_UNUSED_RESULT
 nsRect
 SaturatingUnionEdges
 (
@@ -852,6 +854,7 @@ methods
 be
 saturating
 .
+MOZ_WARN_UNUSED_RESULT
 nsRect
 UnionEdges
 (
@@ -893,6 +896,7 @@ aRect2
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 nsRect
 Union
 (
@@ -1095,6 +1099,7 @@ aToAPP
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ScaleToNearestPixels
@@ -1108,6 +1113,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ToNearestPixels
@@ -1133,6 +1139,7 @@ non
 -
 empty
 rectangle
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ScaleToOutsidePixels
@@ -1162,6 +1169,7 @@ non
 -
 empty
 rectangle
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ToOutsidePixels
@@ -1171,6 +1179,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ScaleToInsidePixels
@@ -1184,6 +1193,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ToInsidePixels
@@ -1335,6 +1345,7 @@ aHeight
 )
 {
 }
+MOZ_WARN_UNUSED_RESULT
 inline
 nsRect
 ToAppUnits
