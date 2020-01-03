@@ -520,7 +520,16 @@ i
 ;
 i
 <
-32
+PR_ARRAY_SIZE
+(
+_PR_RUNQ
+(
+t
+-
+>
+cpu
+)
+)
 ;
 i
 +

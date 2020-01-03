@@ -658,9 +658,13 @@ index
 ;
 index
 <
-PR_PRIORITY_LAST
-+
-1
+PR_ARRAY_SIZE
+(
+cpuQueue
+-
+>
+runQ
+)
 ;
 index
 +

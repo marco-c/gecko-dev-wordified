@@ -5044,10 +5044,15 @@ rv
 )
 {
 DWORD
-rc
+err
 =
 GetLastError
 (
+)
+;
+_PR_MD_MAP_DEFAULT_ERROR
+(
+err
 )
 ;
 PR_LOG
@@ -5066,7 +5071,7 @@ Error
 %
 d
 "
-rc
+err
 )
 )
 ;
