@@ -17483,6 +17483,12 @@ GetOverscrollTransform
 )
 const
 {
+ReentrantMonitorAutoEnter
+lock
+(
+mMonitor
+)
+;
 if
 (
 !
