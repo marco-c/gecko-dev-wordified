@@ -7826,6 +7826,9 @@ the
 correct
 compartment
 .
+if
+(
+!
 HelperThreadState
 (
 )
@@ -7837,6 +7840,13 @@ parseFinishedList
 append
 (
 parseTask
+)
+)
+CrashAtUnhandlableOOM
+(
+"
+handleParseWorkload
+"
 )
 ;
 parseTask
