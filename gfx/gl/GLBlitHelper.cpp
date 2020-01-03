@@ -124,13 +124,6 @@ h
 #
 include
 "
-AndroidSurfaceTexture
-.
-h
-"
-#
-include
-"
 GLContext
 .
 h
@@ -4046,9 +4039,6 @@ UpdateTexImage
 (
 )
 ;
-gfx
-:
-:
 Matrix4x4
 transform
 ;
