@@ -1032,7 +1032,7 @@ Reason
 ;
 MOZ_ASSERT
 (
-OnDecodeThread
+OnTaskQueue
 (
 )
 )
@@ -2108,7 +2108,7 @@ Shutdown
 {
 MOZ_ASSERT
 (
-OnDecodeThread
+OnTaskQueue
 (
 )
 )
