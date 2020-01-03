@@ -176,6 +176,9 @@ class
 GetRemoteServiceRecordResultHandler
 ;
 class
+GetRemoteServicesResultHandler
+;
+class
 InitResultHandler
 ;
 class
@@ -198,6 +201,9 @@ GetDeviceRequest
 ;
 struct
 GetRemoteServiceRecordRequest
+;
+struct
+GetRemoteServicesRequest
 ;
 public
 :
@@ -1516,6 +1522,12 @@ nsTArray
 GetRemoteServiceRecordRequest
 >
 mGetRemoteServiceRecordArray
+;
+nsTArray
+<
+GetRemoteServicesRequest
+>
+mGetRemoteServicesArray
 ;
 }
 ;
