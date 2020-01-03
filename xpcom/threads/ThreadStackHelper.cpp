@@ -3079,7 +3079,6 @@ lineno
 =
 JS_PCToLineNumber
 (
-nullptr
 aEntry
 -
 >

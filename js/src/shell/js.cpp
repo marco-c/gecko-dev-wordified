@@ -10735,9 +10735,8 @@ jsbytecode
 *
 pc
 =
-JS_LineNumberToPC
+js_LineNumberToPC
 (
-cx
 script
 lineno
 )
@@ -10833,9 +10832,8 @@ false
 ;
 lineno
 =
-JS_PCToLineNumber
+PCToLineNumber
 (
-cx
 script
 script
 -
@@ -13525,9 +13523,8 @@ lines
 /
 line2
 =
-JS_PCToLineNumber
+PCToLineNumber
 (
-cx
 script
 pc
 )
@@ -13607,9 +13604,8 @@ end
 {
 line2
 =
-JS_PCToLineNumber
+PCToLineNumber
 (
-cx
 script
 pc
 )
@@ -16029,9 +16025,8 @@ fpscript
 filename
 (
 )
-JS_PCToLineNumber
+PCToLineNumber
 (
-cx
 fpscript
 fi
 .
@@ -36496,7 +36491,10 @@ if
 (
 enableDisassemblyDumps
 )
-JS_DumpCompartmentPCCounts
+js
+:
+:
+DumpCompartmentPCCounts
 (
 cx
 )

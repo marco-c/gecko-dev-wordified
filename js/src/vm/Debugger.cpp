@@ -22545,9 +22545,8 @@ false
 unsigned
 lineno
 =
-JS_PCToLineNumber
+PCToLineNumber
 (
-cx
 script
 script
 -

@@ -309,9 +309,7 @@ JS
 #
 include
 "
-js
-/
-OldDebugAPI
+jsfriendapi
 .
 h
 "
@@ -926,7 +924,6 @@ lineno
 =
 JS_PCToLineNumber
 (
-nullptr
 entry
 .
 script
@@ -944,7 +941,6 @@ lineno
 =
 JS_PCToLineNumber
 (
-nullptr
 entry
 .
 script

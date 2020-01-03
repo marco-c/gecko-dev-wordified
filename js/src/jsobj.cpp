@@ -43658,9 +43658,8 @@ script
 unsigned
 line
 =
-JS_PCToLineNumber
+PCToLineNumber
 (
-cx
 i
 .
 script

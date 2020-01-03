@@ -5226,6 +5226,14 @@ IonScriptCounts
 ionCounts
 )
 ;
+void
+DumpCompartmentPCCounts
+(
+JSContext
+*
+cx
+)
+;
 }
 #
 endif
