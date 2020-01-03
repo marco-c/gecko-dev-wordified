@@ -2541,7 +2541,7 @@ reached
 nsresult
 Await
 (
-nsAutoPtr
+nsRefPtr
 <
 AudioData
 >
@@ -2572,7 +2572,7 @@ mMonitor
 nsresult
 mStatus
 ;
-nsAutoPtr
+nsRefPtr
 <
 AudioData
 >

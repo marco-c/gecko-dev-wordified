@@ -6832,7 +6832,7 @@ in
 the
 media
 .
-nsAutoPtr
+nsRefPtr
 <
 VideoData
 >

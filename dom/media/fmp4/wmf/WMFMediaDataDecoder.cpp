@@ -453,7 +453,7 @@ ProcessOutput
 (
 )
 {
-nsAutoPtr
+nsRefPtr
 <
 MediaData
 >
@@ -490,10 +490,6 @@ mCallback
 Output
 (
 output
-.
-forget
-(
-)
 )
 ;
 }

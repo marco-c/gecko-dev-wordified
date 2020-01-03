@@ -1217,7 +1217,6 @@ IsEmpty
 )
 )
 {
-delete
 mReorderQueue
 .
 Pop
@@ -1441,7 +1440,7 @@ SetSurface
 macSurface
 )
 ;
-nsAutoPtr
+nsRefPtr
 <
 VideoData
 >
@@ -1539,10 +1538,6 @@ mReorderQueue
 Push
 (
 data
-.
-forget
-(
-)
 )
 ;
 /
@@ -1571,8 +1566,10 @@ Length
 0
 )
 {
+nsRefPtr
+<
 VideoData
-*
+>
 readyData
 =
 mReorderQueue

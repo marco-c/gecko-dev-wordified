@@ -1075,8 +1075,10 @@ GetSize
 0
 )
 {
+nsRefPtr
+<
 VideoData
-*
+>
 v
 =
 VideoQueue
@@ -1323,8 +1325,10 @@ GetSize
 0
 )
 {
+nsRefPtr
+<
 AudioData
-*
+>
 a
 =
 AudioQueue
@@ -1628,7 +1632,7 @@ AudioDecodeRendezvous
 :
 Await
 (
-nsAutoPtr
+nsRefPtr
 <
 AudioData
 >

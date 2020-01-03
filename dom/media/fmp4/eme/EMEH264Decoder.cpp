@@ -1045,8 +1045,10 @@ width
 height
 )
 ;
+nsRefPtr
+<
 VideoData
-*
+>
 v
 =
 VideoData

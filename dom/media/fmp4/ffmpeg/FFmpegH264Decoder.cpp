@@ -817,8 +817,10 @@ mSkip
 =
 0
 ;
+nsRefPtr
+<
 VideoData
-*
+>
 v
 =
 VideoData

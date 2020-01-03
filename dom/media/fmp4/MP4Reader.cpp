@@ -3819,9 +3819,6 @@ data
 mIsFlushing
 )
 {
-delete
-aSample
-;
 LOG
 (
 "

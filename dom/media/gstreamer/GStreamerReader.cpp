@@ -4482,8 +4482,10 @@ location
 in
 media
 .
+nsRefPtr
+<
 VideoData
-*
+>
 video
 =
 VideoData

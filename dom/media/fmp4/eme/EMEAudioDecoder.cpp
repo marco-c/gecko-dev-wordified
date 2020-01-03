@@ -1023,7 +1023,7 @@ Error
 return
 ;
 }
-nsAutoPtr
+nsRefPtr
 <
 AudioData
 >
@@ -1090,10 +1090,6 @@ mCallback
 Output
 (
 audio
-.
-forget
-(
-)
 )
 ;
 }
