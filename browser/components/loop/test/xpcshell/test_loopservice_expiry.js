@@ -52,6 +52,10 @@ run_test
 (
 )
 {
+setupFakeLoopServer
+(
+)
+;
 Services
 .
 prefs
