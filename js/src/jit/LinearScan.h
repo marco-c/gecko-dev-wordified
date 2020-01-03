@@ -427,6 +427,9 @@ finishedSlots_
 SlotList
 finishedDoubleSlots_
 ;
+SlotList
+finishedQuadSlots_
+;
 #
 ifdef
 JS_NUNBOX32
