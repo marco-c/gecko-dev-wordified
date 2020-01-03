@@ -470,6 +470,14 @@ return
 mSize
 ;
 }
+void
+GetAsURI
+(
+nsAString
+&
+aRetVal
+)
+;
 private
 :
 MozNDEFRecord
