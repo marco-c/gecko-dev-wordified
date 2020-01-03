@@ -864,16 +864,6 @@ onFrameCommitted
 ;
 virtual
 void
-dump
-(
-String8
-&
-result
-)
-const
-;
-virtual
-void
 resizeBuffers
 (
 const
