@@ -2464,9 +2464,26 @@ sandbox
 MozbuildSandbox
 (
 context
+{
+                
+'
+templates
+'
+:
 self
 .
 metadata
+.
+get
+(
+'
+templates
+'
+{
+}
+)
+            
+}
 )
             
 for
