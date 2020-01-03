@@ -116,7 +116,7 @@ _lwThemePrefName
 "
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 _devtoolsThemePrefName
 :
@@ -574,11 +574,13 @@ try
 {
 lightweightThemeSelected
 =
+!
+!
 Services
 .
 prefs
 .
-getBoolPref
+getCharPref
 (
 this
 .

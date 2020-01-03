@@ -470,12 +470,12 @@ Services
 .
 prefs
 .
-getBoolPref
+prefHasUserValue
 (
 "
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 )
 false

@@ -5691,7 +5691,7 @@ sync
 .
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 true
 )

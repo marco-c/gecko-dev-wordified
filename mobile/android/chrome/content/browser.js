@@ -54980,7 +54980,7 @@ prefs
 "
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 ]
 )
