@@ -12061,9 +12061,8 @@ font
 aFontGroup
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 ;
 if
@@ -37359,9 +37358,8 @@ GetFontGroup
 )
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 ;
 if
@@ -41445,9 +41443,8 @@ firstFont
 fontGroup
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 ;
 if

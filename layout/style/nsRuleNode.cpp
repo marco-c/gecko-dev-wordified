@@ -3421,9 +3421,8 @@ GetThebesFontGroup
 )
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 -
 >

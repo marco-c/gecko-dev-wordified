@@ -3443,9 +3443,8 @@ font
 fontGroup
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 ;
 gfxFontEntry
@@ -4717,9 +4716,8 @@ font
 fontGroup
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 ;
 /
