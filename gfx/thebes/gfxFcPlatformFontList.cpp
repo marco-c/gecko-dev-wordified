@@ -2248,7 +2248,13 @@ rv
 ;
 bool
 symbolFont
+=
+false
 ;
+/
+/
+currently
+ignored
 if
 (
 aFontInfoData
@@ -2313,9 +2319,6 @@ cmapTable
 {
 bool
 unicodeFont
-=
-false
-symbolFont
 =
 false
 ;

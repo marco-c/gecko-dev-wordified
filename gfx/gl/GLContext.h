@@ -6931,7 +6931,7 @@ fStencilFunc
 GLenum
 func
 GLint
-ref
+reference
 GLuint
 mask
 )
@@ -6943,7 +6943,7 @@ mSymbols
 fStencilFunc
 (
 func
-ref
+reference
 mask
 )
 ;
@@ -6958,7 +6958,7 @@ frontfunc
 GLenum
 backfunc
 GLint
-ref
+reference
 GLuint
 mask
 )
@@ -6971,7 +6971,7 @@ fStencilFuncSeparate
 (
 frontfunc
 backfunc
-ref
+reference
 mask
 )
 ;

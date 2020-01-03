@@ -6006,7 +6006,7 @@ gfxFontconfigUtils
 :
 DepFcStrEntry
 *
-entry
+familyEntry
 =
 existingFamilies
 .
@@ -6017,12 +6017,12 @@ family
 ;
 if
 (
-entry
+familyEntry
 )
 {
 if
 (
-entry
+familyEntry
 -
 >
 mKey
@@ -6033,7 +6033,7 @@ old
 entry
 continue
 ;
-entry
+familyEntry
 -
 >
 mKey
@@ -6206,7 +6206,7 @@ r
 const
 LangSupportEntry
 &
-entry
+langEntry
 =
 requiredLangs
 [
@@ -6222,7 +6222,7 @@ gfxFontconfigUtils
 GetLangSupport
 (
 font
-entry
+langEntry
 .
 mLang
 )
@@ -6232,7 +6232,7 @@ if
 support
 <
 =
-entry
+langEntry
 .
 mBestSupport
 )

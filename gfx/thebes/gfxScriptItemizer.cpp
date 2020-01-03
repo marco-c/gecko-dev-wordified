@@ -654,7 +654,7 @@ push
 uint32_t
 endPairChar
 int32_t
-scriptCode
+newScriptCode
 )
 {
 pushCount
@@ -694,7 +694,7 @@ parenSP
 .
 scriptCode
 =
-scriptCode
+newScriptCode
 ;
 }
 void
@@ -780,7 +780,7 @@ gfxScriptItemizer
 fixup
 (
 int32_t
-scriptCode
+newScriptCode
 )
 {
 int32_t
@@ -815,7 +815,7 @@ fixupSP
 .
 scriptCode
 =
-scriptCode
+newScriptCode
 ;
 }
 }
