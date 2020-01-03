@@ -2185,17 +2185,6 @@ mq
 MQ_INFO
 )
         
-self
-.
-prompt_external_extension
-(
-c
-'
-bzexport
-'
-BZEXPORT_INFO
-)
-        
 if
 '
 reviewboard
@@ -2287,6 +2276,17 @@ projects
 path
 =
 p
+)
+        
+self
+.
+prompt_external_extension
+(
+c
+'
+bzexport
+'
+BZEXPORT_INFO
 )
         
 if
