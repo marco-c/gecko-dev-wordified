@@ -724,13 +724,13 @@ case
 nsIGfxInfo
 :
 :
-FEATURE_DXVA
+FEATURE_HARDWARE_VIDEO_DECODING
 :
 name
 =
 BLACKLIST_PREF_BRANCH
 "
-dxva
+hardwarevideodecoding
 "
 ;
 break
@@ -1622,7 +1622,7 @@ aFeature
 EqualsLiteral
 (
 "
-DXVA
+HARDWARE_VIDEO_DECODING
 "
 )
 )
@@ -1630,7 +1630,7 @@ return
 nsIGfxInfo
 :
 :
-FEATURE_DXVA
+FEATURE_HARDWARE_VIDEO_DECODING
 ;
 else
 if
@@ -5020,7 +5020,7 @@ FEATURE_DIRECT3D_11_LAYERS
 nsIGfxInfo
 :
 :
-FEATURE_DXVA
+FEATURE_HARDWARE_VIDEO_DECODING
 nsIGfxInfo
 :
 :

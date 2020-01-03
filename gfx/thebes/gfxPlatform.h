@@ -3114,7 +3114,7 @@ CanUseDirect3D11
 ;
 static
 bool
-CanUseDXVA
+CanUseHardwareVideoDecoding
 (
 )
 ;
