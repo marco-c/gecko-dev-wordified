@@ -205,6 +205,13 @@ h
 #
 include
 "
+nsBaseHashtable
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h
