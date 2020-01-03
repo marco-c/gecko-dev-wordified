@@ -186,6 +186,17 @@ delete
 #
 include
 "
+nsDebug
+.
+h
+"
+/
+/
+for
+NS_WARN_IF
+#
+include
+"
 yuv_convert
 .
 h
