@@ -38581,7 +38581,7 @@ isEllipsis
 )
 )
 return
-nullptr
+false
 ;
 if
 (
