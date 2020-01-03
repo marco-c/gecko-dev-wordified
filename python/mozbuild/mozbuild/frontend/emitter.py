@@ -3732,6 +3732,13 @@ defaultdict
 list
 )
             
+srcdir_pattern_files
+=
+defaultdict
+(
+list
+)
+            
 objdir_files
 =
 defaultdict
@@ -3850,6 +3857,25 @@ s
 )
                         
 if
+'
+*
+'
+in
+s
+:
+                            
+srcdir_pattern_files
+[
+path
+]
+.
+append
+(
+s
+)
+;
+                        
+elif
 not
 os
 .
@@ -3882,6 +3908,9 @@ s
 context
 )
                         
+else
+:
+                            
 srcdir_files
 [
 path
@@ -3897,6 +3926,8 @@ TestHarnessFiles
 (
 context
 srcdir_files
+                                   
+srcdir_pattern_files
 objdir_files
 )
         
