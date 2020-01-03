@@ -814,6 +814,7 @@ template
 size_t
 Size
 >
+explicit
 Buffer
 (
 const
