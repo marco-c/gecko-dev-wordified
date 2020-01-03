@@ -1176,7 +1176,6 @@ purpose
 is
 to
 support
-an
 /
 /
 some
@@ -1190,9 +1189,9 @@ imgRequest
 That
 stuff
 could
+/
+/
 probably
-/
-/
 be
 improved
 but
