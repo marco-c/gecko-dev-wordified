@@ -1436,9 +1436,6 @@ nsStyleLinkElement
 :
 IsImportEnabled
 (
-NodePrincipal
-(
-)
 )
 )
 {
