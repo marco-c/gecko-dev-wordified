@@ -1036,7 +1036,11 @@ aStrokeOptions
 const
 Matrix
 &
-aTransform
+aToBoundsSpace
+const
+Matrix
+*
+aToNonScalingStrokeSpace
 )
 {
 const
@@ -1086,6 +1090,9 @@ aStrokeOptions
 mLineWidth
 >
 0
+|
+|
+aToNonScalingStrokeSpace
 )
 {
 /
@@ -1095,6 +1102,12 @@ don
 '
 t
 handle
+non
+-
+scaling
+-
+stroke
+or
 stroke
 -
 miterlimit
@@ -1107,7 +1120,7 @@ false
 }
 if
 (
-aTransform
+aToBoundsSpace
 .
 IsRectilinear
 (
@@ -1182,7 +1195,7 @@ i
 *
 aBounds
 =
-aTransform
+aToBoundsSpace
 .
 TransformBounds
 (
@@ -1197,7 +1210,7 @@ aBounds
 =
 Rect
 (
-aTransform
+aToBoundsSpace
 *
 points
 [
@@ -1233,7 +1246,7 @@ aBounds
 >
 ExpandToEnclose
 (
-aTransform
+aToBoundsSpace
 *
 points
 [
