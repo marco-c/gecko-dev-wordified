@@ -2609,7 +2609,7 @@ this
 .
 networkSelectionMode
 =
-null
+GECKO_NETWORK_SELECTION_UNKNOWN
 ;
 this
 .
