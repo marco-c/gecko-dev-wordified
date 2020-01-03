@@ -2145,8 +2145,6 @@ InsertPerformanceEntry
 PerformanceEntry
 *
 aEntry
-bool
-aShouldPrint
 )
 ;
 void
