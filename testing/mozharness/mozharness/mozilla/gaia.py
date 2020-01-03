@@ -3269,6 +3269,9 @@ abs_gaia_dir
 '
 ]
 ]
+cleanup
+=
+cleanup_node_modules
 kwargs
 =
 kwargs
