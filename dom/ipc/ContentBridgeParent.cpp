@@ -496,9 +496,9 @@ IPC
 Principal
 &
 aPrincipal
-InfallibleTArray
+nsTArray
 <
-nsString
+OwningSerializedStructuredCloneBuffer
 >
 *
 aRetvals

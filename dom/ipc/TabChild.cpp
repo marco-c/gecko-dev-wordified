@@ -16686,12 +16686,12 @@ aCpows
 nsIPrincipal
 *
 aPrincipal
-InfallibleTArray
+nsTArray
 <
-nsString
+OwningSerializedStructuredCloneBuffer
 >
 *
-aJSONRetVal
+aRetVal
 bool
 aIsSync
 )
@@ -16769,7 +16769,7 @@ Principal
 (
 aPrincipal
 )
-aJSONRetVal
+aRetVal
 )
 ;
 }
@@ -16786,7 +16786,7 @@ Principal
 (
 aPrincipal
 )
-aJSONRetVal
+aRetVal
 )
 ;
 }

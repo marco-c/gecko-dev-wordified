@@ -22350,9 +22350,9 @@ IPC
 Principal
 &
 aPrincipal
-InfallibleTArray
+nsTArray
 <
-nsString
+OwningSerializedStructuredCloneBuffer
 >
 *
 aRetvals
@@ -22403,9 +22403,9 @@ IPC
 Principal
 &
 aPrincipal
-InfallibleTArray
+nsTArray
 <
-nsString
+OwningSerializedStructuredCloneBuffer
 >
 *
 aRetvals

@@ -178,6 +178,13 @@ nsIContentParent
 public
 nsIObserver
 {
+typedef
+mozilla
+:
+:
+OwningSerializedStructuredCloneBuffer
+OwningSerializedStructuredCloneBuffer
+;
 public
 :
 explicit
@@ -384,9 +391,9 @@ IPC
 Principal
 &
 aPrincipal
-InfallibleTArray
+nsTArray
 <
-nsString
+OwningSerializedStructuredCloneBuffer
 >
 *
 aRetvals
