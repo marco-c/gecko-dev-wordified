@@ -121,7 +121,7 @@ SamplesWaitingForKey_h_
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -183,7 +183,7 @@ SamplesWaitingForKey
 MediaDataDecoder
 *
 aDecoder
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueue
 CDMProxy
@@ -288,7 +288,7 @@ mDecoder
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

@@ -564,7 +564,7 @@ mReader
 void
 SetTaskQueue
 (
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueue
 )
@@ -877,7 +877,7 @@ initialization
 .
 RefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

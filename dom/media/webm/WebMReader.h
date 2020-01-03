@@ -917,7 +917,7 @@ WebMReader
 AbstractMediaDecoder
 *
 aDecoder
-MediaTaskQueue
+TaskQueue
 *
 aBorrowedTaskQueue
 =
@@ -1218,7 +1218,7 @@ return
 mLayersBackendType
 ;
 }
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 GetVideoTaskQueue
 (
@@ -1790,7 +1790,7 @@ decoding
 .
 nsRefPtr
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 mVideoTaskQueue
 ;

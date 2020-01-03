@@ -257,7 +257,7 @@ const
 AudioInfo
 &
 aConfig
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback

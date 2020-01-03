@@ -1969,7 +1969,7 @@ IsCurrentThreadIn
 }
 RefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

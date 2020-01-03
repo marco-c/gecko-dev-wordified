@@ -152,7 +152,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -431,7 +431,7 @@ aType
 mTaskQueue
 =
 new
-MediaTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
@@ -712,7 +712,7 @@ __func__
 ;
 RefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 queue
 =

@@ -205,7 +205,7 @@ machine
 also
 has
 a
-MediaTaskQueue
+TaskQueue
 which
 runs
 in
@@ -909,7 +909,7 @@ class
 AudioSegment
 ;
 class
-MediaTaskQueue
+TaskQueue
 ;
 class
 AudioSink
@@ -1797,7 +1797,7 @@ machine
 task
 queue
 .
-MediaTaskQueue
+TaskQueue
 *
 OwnerThread
 (
@@ -5107,7 +5107,7 @@ machine
 .
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -6427,7 +6427,7 @@ they
 re
 called
 .
-MediaTaskQueue
+TaskQueue
 *
 DecodeTaskQueue
 (

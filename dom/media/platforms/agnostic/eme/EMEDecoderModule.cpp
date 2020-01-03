@@ -247,7 +247,7 @@ aCallback
 CDMProxy
 *
 aProxy
-MediaTaskQueue
+TaskQueue
 *
 aDecodeTaskQueue
 )
@@ -867,7 +867,7 @@ mCallback
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -917,7 +917,7 @@ aCallback
 CDMProxy
 *
 aProxy
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 )
@@ -1139,7 +1139,7 @@ aCallback
 CDMProxy
 *
 aProxy
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 )
@@ -1259,7 +1259,7 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -1421,7 +1421,7 @@ const
 AudioInfo
 &
 aConfig
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback

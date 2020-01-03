@@ -266,7 +266,7 @@ namespace
 mozilla
 {
 class
-FlushableMediaTaskQueue
+FlushableTaskQueue
 ;
 class
 MP3FrameParser
@@ -484,7 +484,7 @@ public
 /
 Flush
 the
-MediaTaskQueue
+TaskQueue
 flush
 MediaCodec
 and
@@ -879,7 +879,7 @@ mDiscontinuity
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -1287,7 +1287,7 @@ mVideoPromise
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mReleaseBufferTaskQueue
 ;

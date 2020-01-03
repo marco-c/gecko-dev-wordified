@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -138,10 +138,10 @@ h
 namespace
 mozilla
 {
-MediaTaskQueue
+TaskQueue
 :
 :
-MediaTaskQueue
+TaskQueue
 (
 already_AddRefed
 <
@@ -163,7 +163,7 @@ aPool
 mQueueMonitor
 (
 "
-MediaTaskQueue
+TaskQueue
 :
 :
 Queue
@@ -188,15 +188,15 @@ false
 {
 MOZ_COUNT_CTOR
 (
-MediaTaskQueue
+TaskQueue
 )
 ;
 }
-MediaTaskQueue
+TaskQueue
 :
 :
 ~
-MediaTaskQueue
+TaskQueue
 (
 )
 {
@@ -213,13 +213,13 @@ mIsShutdown
 ;
 MOZ_COUNT_DTOR
 (
-MediaTaskQueue
+TaskQueue
 )
 ;
 }
 TaskDispatcher
 &
-MediaTaskQueue
+TaskQueue
 :
 :
 TailDispatcher
@@ -244,7 +244,7 @@ mTailDispatcher
 ;
 }
 nsresult
-MediaTaskQueue
+TaskQueue
 :
 :
 DispatchLocked
@@ -411,7 +411,7 @@ dispatch
 runnable
 to
 run
-MediaTaskQueue
+TaskQueue
 "
 )
 ;
@@ -428,7 +428,7 @@ NS_OK
 ;
 }
 class
-MediaTaskQueueSyncRunnable
+TaskQueueSyncRunnable
 :
 public
 nsRunnable
@@ -436,7 +436,7 @@ nsRunnable
 public
 :
 explicit
-MediaTaskQueueSyncRunnable
+TaskQueueSyncRunnable
 (
 already_AddRefed
 <
@@ -452,7 +452,7 @@ aRunnable
 mMonitor
 (
 "
-MediaTaskQueueSyncRunnable
+TaskQueueSyncRunnable
 "
 )
 mDone
@@ -540,7 +540,7 @@ mDone
 }
 ;
 void
-MediaTaskQueue
+TaskQueue
 :
 :
 SyncDispatch
@@ -555,7 +555,7 @@ aRunnable
 NS_WARNING
 (
 "
-MediaTaskQueue
+TaskQueue
 :
 :
 SyncDispatch
@@ -573,12 +573,12 @@ this
 ;
 nsRefPtr
 <
-MediaTaskQueueSyncRunnable
+TaskQueueSyncRunnable
 >
 task
 (
 new
-MediaTaskQueueSyncRunnable
+TaskQueueSyncRunnable
 (
 Move
 (
@@ -651,7 +651,7 @@ this
 ;
 nsRefPtr
 <
-MediaTaskQueueSyncRunnable
+TaskQueueSyncRunnable
 >
 taskRef
 =
@@ -677,7 +677,7 @@ WaitUntilDone
 ;
 }
 void
-MediaTaskQueue
+TaskQueue
 :
 :
 AwaitIdle
@@ -696,7 +696,7 @@ AwaitIdleLocked
 ;
 }
 void
-MediaTaskQueue
+TaskQueue
 :
 :
 AwaitIdleLocked
@@ -784,7 +784,7 @@ Wait
 }
 }
 void
-MediaTaskQueue
+TaskQueue
 :
 :
 AwaitShutdownAndIdle
@@ -868,7 +868,7 @@ nsRefPtr
 <
 ShutdownPromise
 >
-MediaTaskQueue
+TaskQueue
 :
 :
 BeginShutdown
@@ -968,7 +968,7 @@ p
 ;
 }
 void
-FlushableMediaTaskQueue
+FlushableTaskQueue
 :
 :
 Flush
@@ -997,7 +997,7 @@ AwaitIdleLocked
 ;
 }
 nsresult
-FlushableMediaTaskQueue
+FlushableTaskQueue
 :
 :
 FlushAndDispatch
@@ -1069,7 +1069,7 @@ NS_OK
 ;
 }
 void
-FlushableMediaTaskQueue
+FlushableTaskQueue
 :
 :
 FlushLocked
@@ -1153,7 +1153,7 @@ using
 a
 /
 /
-FlushableMediaTaskQueue
+FlushableTaskQueue
 .
 while
 (
@@ -1174,7 +1174,7 @@ pop
 }
 }
 bool
-MediaTaskQueue
+TaskQueue
 :
 :
 IsEmpty
@@ -1196,7 +1196,7 @@ empty
 ;
 }
 bool
-MediaTaskQueue
+TaskQueue
 :
 :
 IsCurrentThreadIn
@@ -1233,7 +1233,7 @@ in
 ;
 }
 nsresult
-MediaTaskQueue
+TaskQueue
 :
 :
 Runner

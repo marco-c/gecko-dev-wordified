@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-MediaTaskQueue_h_
+TaskQueue_h_
 #
 define
-MediaTaskQueue_h_
+TaskQueue_h_
 #
 include
 <
@@ -217,7 +217,7 @@ runnables
 dispatched
 to
 the
-MediaTaskQueue
+TaskQueue
 will
 be
 executed
@@ -272,7 +272,7 @@ already
 threadsafe
 .
 class
-MediaTaskQueue
+TaskQueue
 :
 public
 AbstractThread
@@ -280,7 +280,7 @@ AbstractThread
 public
 :
 explicit
-MediaTaskQueue
+TaskQueue
 (
 already_AddRefed
 <
@@ -300,7 +300,7 @@ TailDispatcher
 )
 override
 ;
-MediaTaskQueue
+TaskQueue
 *
 AsTaskQueue
 (
@@ -565,7 +565,7 @@ protected
 :
 virtual
 ~
-MediaTaskQueue
+TaskQueue
 (
 )
 ;
@@ -841,7 +841,7 @@ public
 explicit
 AutoTaskGuard
 (
-MediaTaskQueue
+TaskQueue
 *
 aQueue
 )
@@ -990,7 +990,7 @@ nullptr
 }
 private
 :
-MediaTaskQueue
+TaskQueue
 *
 mQueue
 ;
@@ -1079,7 +1079,7 @@ public
 explicit
 Runner
 (
-MediaTaskQueue
+TaskQueue
 *
 aQueue
 )
@@ -1100,7 +1100,7 @@ private
 :
 RefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mQueue
 ;
@@ -1109,15 +1109,15 @@ mQueue
 }
 ;
 class
-FlushableMediaTaskQueue
+FlushableTaskQueue
 :
 public
-MediaTaskQueue
+TaskQueue
 {
 public
 :
 explicit
-FlushableMediaTaskQueue
+FlushableTaskQueue
 (
 already_AddRefed
 <
@@ -1126,7 +1126,7 @@ SharedThreadPool
 aPool
 )
 :
-MediaTaskQueue
+TaskQueue
 (
 Move
 (
@@ -1171,7 +1171,7 @@ public
 explicit
 AutoSetFlushing
 (
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 )
@@ -1222,7 +1222,7 @@ false
 }
 private
 :
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 mTaskQueue
 ;
@@ -1244,4 +1244,4 @@ mozilla
 endif
 /
 /
-MediaTaskQueue_h_
+TaskQueue_h_

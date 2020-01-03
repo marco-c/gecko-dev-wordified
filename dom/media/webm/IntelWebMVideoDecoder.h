@@ -183,7 +183,7 @@ MediaData
 h
 "
 class
-MediaTaskQueue
+TaskQueue
 ;
 namespace
 mozilla
@@ -419,7 +419,7 @@ created
 .
 nsRefPtr
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 mTaskQueue
 ;

@@ -1299,7 +1299,7 @@ NewDecoder
 .
 RefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

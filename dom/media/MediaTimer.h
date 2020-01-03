@@ -297,7 +297,7 @@ code
 that
 operates
 with
-MediaTaskQueues
+TaskQueues
 .
 This
 class

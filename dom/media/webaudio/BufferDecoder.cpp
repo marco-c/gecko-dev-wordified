@@ -231,7 +231,7 @@ BufferDecoder
 :
 BeginDecoding
 (
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueueIdentity
 )

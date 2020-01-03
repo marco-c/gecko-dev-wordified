@@ -176,7 +176,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -5864,7 +5864,7 @@ DispatchWhenNotEnoughBuffered
 (
 TrackID
 aID
-MediaTaskQueue
+TaskQueue
 *
 aSignalQueue
 nsIRunnable
@@ -6246,7 +6246,7 @@ ThreadAndRunnable
 void
 Init
 (
-MediaTaskQueue
+TaskQueue
 *
 aTarget
 nsIRunnable
@@ -6265,7 +6265,7 @@ aRunnable
 }
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTarget
 ;

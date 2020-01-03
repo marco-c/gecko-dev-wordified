@@ -870,7 +870,7 @@ WebMReader
 AbstractMediaDecoder
 *
 aDecoder
-MediaTaskQueue
+TaskQueue
 *
 aBorrowedTaskQueue
 )
@@ -1147,7 +1147,7 @@ InitLayersBackendType
 mVideoTaskQueue
 =
 new
-FlushableMediaTaskQueue
+FlushableTaskQueue
 (
 SharedThreadPool
 :

@@ -338,7 +338,7 @@ layers
 ImageContainer
 *
 aImageContainer
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallbackProxy
@@ -394,7 +394,7 @@ layers
 ImageContainer
 *
 aImageContainer
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallbackProxy

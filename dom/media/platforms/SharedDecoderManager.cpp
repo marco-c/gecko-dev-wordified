@@ -384,7 +384,7 @@ SharedDecoderManager
 mTaskQueue
 (
 new
-FlushableMediaTaskQueue
+FlushableTaskQueue
 (
 GetMediaThreadPool
 (
@@ -480,7 +480,7 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback

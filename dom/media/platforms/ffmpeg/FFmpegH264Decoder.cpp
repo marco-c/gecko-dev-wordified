@@ -115,7 +115,7 @@ MPL
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -196,7 +196,7 @@ LIBAV_VER
 :
 FFmpegH264Decoder
 (
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

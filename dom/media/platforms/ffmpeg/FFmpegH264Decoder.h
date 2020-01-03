@@ -191,7 +191,7 @@ public
 :
 FFmpegH264Decoder
 (
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

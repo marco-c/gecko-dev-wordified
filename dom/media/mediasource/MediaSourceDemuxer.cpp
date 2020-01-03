@@ -226,7 +226,7 @@ MediaSourceDemuxer
 mTaskQueue
 (
 new
-MediaTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (

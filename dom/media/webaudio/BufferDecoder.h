@@ -130,7 +130,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -241,7 +241,7 @@ begins
 void
 BeginDecoding
 (
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueueIdentity
 )
@@ -515,7 +515,7 @@ mReentrantMonitor
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueueIdentity
 ;

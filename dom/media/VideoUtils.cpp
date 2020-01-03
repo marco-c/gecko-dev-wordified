@@ -156,7 +156,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -2788,7 +2788,7 @@ NS_IsMainThread
 mTaskQueue
 =
 new
-MediaTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
@@ -2805,7 +2805,7 @@ NS_OK
 }
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -2834,7 +2834,7 @@ NS_IsMainThread
 mTaskQueue
 =
 new
-FlushableMediaTaskQueue
+FlushableTaskQueue
 (
 GetMediaThreadPool
 (
@@ -2851,7 +2851,7 @@ NS_OK
 }
 nsRefPtr
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 mTaskQueue
 ;
@@ -2859,7 +2859,7 @@ mTaskQueue
 ;
 already_AddRefed
 <
-MediaTaskQueue
+TaskQueue
 >
 CreateMediaDecodeTaskQueue
 (
@@ -2871,7 +2871,7 @@ We
 must
 create
 the
-MediaTaskQueue
+TaskQueue
 /
 SharedThreadPool
 on
@@ -2919,7 +2919,7 @@ forget
 }
 already_AddRefed
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 CreateFlushableMediaDecodeTaskQueue
 (
@@ -2931,7 +2931,7 @@ We
 must
 create
 the
-MediaTaskQueue
+TaskQueue
 /
 SharedThreadPool
 on

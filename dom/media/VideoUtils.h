@@ -1842,14 +1842,14 @@ aLength
 )
 ;
 class
-MediaTaskQueue
+TaskQueue
 ;
 class
-FlushableMediaTaskQueue
+FlushableTaskQueue
 ;
 already_AddRefed
 <
-MediaTaskQueue
+TaskQueue
 >
 CreateMediaDecodeTaskQueue
 (
@@ -1857,7 +1857,7 @@ CreateMediaDecodeTaskQueue
 ;
 already_AddRefed
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 CreateFlushableMediaDecodeTaskQueue
 (

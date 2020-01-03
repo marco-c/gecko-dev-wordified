@@ -170,7 +170,7 @@ namespace
 mozilla
 {
 class
-MediaTaskQueue
+TaskQueue
 ;
 class
 TaskDispatcher
@@ -211,7 +211,7 @@ namely
 *
 nsIThread
 and
-MediaTaskQueue
+TaskQueue
 .
 Note
 that
@@ -268,7 +268,7 @@ supported
 AbstractThread
 implementations
 are
-MediaTaskQueue
+TaskQueue
 *
 and
 AbstractThread
@@ -440,7 +440,7 @@ guard
 /
 /
 against
-FlushableMediaTaskQueues
+FlushableTaskQueues
 which
 should
 go
@@ -566,7 +566,7 @@ aThread
 const
 ;
 virtual
-MediaTaskQueue
+TaskQueue
 *
 AsTaskQueue
 (

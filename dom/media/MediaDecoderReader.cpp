@@ -440,7 +440,7 @@ MediaDecoderReader
 AbstractMediaDecoder
 *
 aDecoder
-MediaTaskQueue
+TaskQueue
 *
 aBorrowedTaskQueue
 )
@@ -460,7 +460,7 @@ aBorrowedTaskQueue
 aBorrowedTaskQueue
 :
 new
-MediaTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
