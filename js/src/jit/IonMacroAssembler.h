@@ -8151,6 +8151,13 @@ Register
 textId
 )
 ;
+void
+tracelogStop
+(
+Register
+logger
+)
+;
 #
 endif
 #

@@ -4969,12 +4969,13 @@ Baseline
 TraceLogStopEvent
 (
 logger
-TraceLogger
-:
-:
-Scripts
 )
 ;
+/
+/
+Leave
+script
+.
 return
 false
 ;
