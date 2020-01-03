@@ -1350,6 +1350,7 @@ JS_DefineFunctions
 cx
 proto
 funs
+DontDefineLateProperties
 )
 )
 return
@@ -1408,6 +1409,7 @@ JS_DefineFunctions
 cx
 ctor
 funs
+DontDefineLateProperties
 )
 )
 return
