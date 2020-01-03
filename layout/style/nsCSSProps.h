@@ -4068,8 +4068,7 @@ modify
 its
 entries
 when
-the
-pref
+various
 /
 /
 "
@@ -4077,10 +4076,11 @@ layout
 .
 css
 .
-grid
+*
 .
 enabled
 "
+prefs
 changes
 :
 static
