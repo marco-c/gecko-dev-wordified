@@ -1905,15 +1905,9 @@ cx
 request
 -
 >
-GetCallerLocation
+FillScriptErrorEvent
 (
 init
-.
-mFilename
-&
-init
-.
-mLineno
 )
 ;
 init
