@@ -6384,6 +6384,7 @@ Not
 specifying
 a
 -
+-
 profile
 or
 -
@@ -6410,6 +6411,7 @@ CommandArgument
 (
 '
 -
+-
 remote
 '
 '
@@ -6433,6 +6435,7 @@ not
 pass
 the
 -
+-
 no
 -
 remote
@@ -6446,6 +6449,7 @@ default
 CommandArgument
 (
 '
+-
 -
 background
 '
@@ -6470,6 +6474,7 @@ not
 pass
 the
 -
+-
 foreground
 argument
 by
@@ -6483,6 +6488,7 @@ Mac
 CommandArgument
 (
 '
+-
 -
 noprofile
 '
@@ -6506,6 +6512,7 @@ Do
 not
 pass
 the
+-
 -
 profile
 argument
