@@ -2630,14 +2630,11 @@ frame
 nsIntSize
 oldSize
 =
-ThebesIntSize
-(
 aPreviousFrame
 -
 >
 GetImageSize
 (
-)
 )
 ;
 bool

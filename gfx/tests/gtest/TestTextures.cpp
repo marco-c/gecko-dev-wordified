@@ -1585,14 +1585,11 @@ hostDataSurface
 GetData
 (
 )
-ThebesIntSize
-(
 hostDataSurface
 -
 >
 GetSize
 (
-)
 )
 hostDataSurface
 -

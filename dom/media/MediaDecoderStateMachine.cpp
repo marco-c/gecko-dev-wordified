@@ -18314,13 +18314,10 @@ container
 >
 SetCurrentFrame
 (
-ThebesIntSize
-(
 aData
 -
 >
 mDisplay
-)
 aData
 -
 >

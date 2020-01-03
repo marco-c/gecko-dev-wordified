@@ -682,10 +682,7 @@ VideoFrame
 frame
 (
 aImage
-ThebesIntSize
-(
 aIntrinsicSize
-)
 )
 ;
 frame

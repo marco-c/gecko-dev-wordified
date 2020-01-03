@@ -23611,8 +23611,6 @@ res
 .
 mSize
 =
-ThebesIntSize
-(
 res
 .
 mSourceSurface
@@ -23620,7 +23618,6 @@ mSourceSurface
 >
 GetSize
 (
-)
 )
 ;
 res
@@ -25095,10 +25092,7 @@ mImageRequest
 res
 .
 mSourceSurface
-ThebesIntSize
-(
 imgSize
-)
 )
 ;
 }

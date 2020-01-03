@@ -732,13 +732,7 @@ gfxXlibSurface
 screen
 mId
 pictFormat
-gfx
-:
-:
-ThebesIntSize
-(
 mSize
-)
 )
 ;
 }
@@ -777,13 +771,7 @@ gfxXlibSurface
 display
 mId
 visual
-gfx
-:
-:
-ThebesIntSize
-(
 mSize
-)
 )
 ;
 }

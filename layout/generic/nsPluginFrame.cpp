@@ -8666,10 +8666,7 @@ GetSize
 )
 !
 =
-ThebesIntSize
-(
 size
-)
 )
 {
 /
@@ -8705,10 +8702,7 @@ readback
 >
 SetSize
 (
-ThebesIntSize
-(
 size
-)
 )
 ;
 if

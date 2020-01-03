@@ -44104,10 +44104,7 @@ result
 .
 mSize
 =
-ThebesIntSize
-(
 size
-)
 ;
 result
 .

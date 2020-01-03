@@ -6641,10 +6641,7 @@ mVideo
 .
 mDisplay
 =
-ThebesIntSize
-(
 displaySize
-)
 ;
 mInfo
 .

@@ -654,10 +654,7 @@ Create
 (
 screen
 xrenderFormat
-ThebesIntSize
-(
 size
-)
 )
 ;
 }
@@ -693,10 +690,7 @@ newSurface
 new
 gfxImageSurface
 (
-ThebesIntSize
-(
 size
-)
 imageFormat
 )
 ;
@@ -776,10 +770,7 @@ newSurface
 new
 gfxImageSurface
 (
-ThebesIntSize
-(
 size
-)
 imageFormat
 )
 ;

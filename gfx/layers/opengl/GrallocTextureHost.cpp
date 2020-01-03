@@ -1299,13 +1299,7 @@ return
 LayerRenderState
 (
 graphicBuffer
-gfx
-:
-:
-ThebesIntSize
-(
 mDescriptorSize
-)
 flags
 this
 )

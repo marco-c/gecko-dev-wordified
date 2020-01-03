@@ -747,10 +747,7 @@ newSurface
 new
 gfxImageSurface
 (
-ThebesIntSize
-(
 size
-)
 OptimalFormatForContent
 (
 contentType
