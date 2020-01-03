@@ -10306,7 +10306,7 @@ DeviceContext
 )
 -
 >
-GetPixelScale
+GetFullZoom
 (
 )
 ;
