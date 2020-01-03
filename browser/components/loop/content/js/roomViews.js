@@ -996,7 +996,7 @@ mozL10n
 get
 (
 "
-share_button2
+email_link_button
 "
 )
 )
