@@ -7369,6 +7369,7 @@ String
 )
 true
 aNotify
+eImageLoadType_Normal
 )
 ;
 }
@@ -7945,6 +7946,7 @@ LoadImage
 src
 false
 aNotify
+eImageLoadType_Normal
 )
 ;
 }
@@ -25076,6 +25078,7 @@ LoadImage
 uri
 false
 true
+eImageLoadType_Normal
 )
 )
 |

@@ -244,6 +244,7 @@ UseAsPrimaryRequest
 (
 aImageRequest
 false
+eImageLoadType_Normal
 )
 ;
 }

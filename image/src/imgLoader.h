@@ -1111,6 +1111,8 @@ aLoadFlags
 nsISupports
 *
 aCacheKey
+nsContentPolicyType
+aContentPolicyType
 const
 nsAString
 &
@@ -1666,6 +1668,8 @@ nsISupports
 aCX
 nsLoadFlags
 aLoadFlags
+nsContentPolicyType
+aContentPolicyType
 bool
 aCanMakeNewChannel
 imgRequestProxy
@@ -1705,6 +1709,8 @@ nsISupports
 aCX
 nsLoadFlags
 aLoadFlags
+nsContentPolicyType
+aContentPolicyType
 imgRequestProxy
 *
 *

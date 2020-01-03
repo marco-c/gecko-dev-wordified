@@ -12423,6 +12423,14 @@ nsIRequest
 :
 LOAD_NORMAL
 ;
+nsContentPolicyType
+contentPolicyType
+=
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
+;
 return
 il
 -
@@ -12497,6 +12505,7 @@ document
 /
 loadFlags
 nullptr
+contentPolicyType
 EmptyString
 (
 )
