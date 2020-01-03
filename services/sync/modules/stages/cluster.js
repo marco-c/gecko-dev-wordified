@@ -494,6 +494,11 @@ errorHandler
 checkServerError
 (
 node
+"
+node
+/
+weave
+"
 )
 ;
 fail
@@ -551,6 +556,11 @@ errorHandler
 checkServerError
 (
 e
+"
+node
+/
+weave
+"
 )
 ;
 fail
