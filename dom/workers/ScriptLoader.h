@@ -127,6 +127,13 @@ Workers
 .
 h
 "
+#
+include
+"
+nsIContentPolicyBase
+.
+h
+"
 class
 nsIPrincipal
 ;
@@ -186,6 +193,8 @@ const
 nsAString
 &
 aScriptURL
+nsContentPolicyType
+aContentPolicyType
 nsIChannel
 *
 *
