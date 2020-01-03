@@ -14827,7 +14827,7 @@ RootedObject
 arrobj
 (
 cx
-NewDenseAllocatedArray
+NewDenseFullyAllocatedArray
 (
 cx
 dbg
@@ -20209,7 +20209,7 @@ RootedObject
 result
 (
 cx
-NewDenseAllocatedArray
+NewDenseFullyAllocatedArray
 (
 cx
 scripts
@@ -35659,7 +35659,7 @@ RootedObject
 result
 (
 cx
-NewDenseAllocatedArray
+NewDenseFullyAllocatedArray
 (
 cx
 fun

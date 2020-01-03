@@ -18914,7 +18914,7 @@ class_
 ;
 obj
 =
-NewDenseAllocatedArray
+NewDenseFullyAllocatedArray
 (
 cx
 count
