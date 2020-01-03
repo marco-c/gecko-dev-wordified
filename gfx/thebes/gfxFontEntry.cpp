@@ -5348,6 +5348,11 @@ nullptr
 )
 ;
 }
+hb_set_destroy
+(
+featurelookups
+)
+;
 }
 hb_face_destroy
 (
