@@ -2089,7 +2089,7 @@ editor
 ;
 editor
 .
-commit
+apply
 (
 )
 ;
