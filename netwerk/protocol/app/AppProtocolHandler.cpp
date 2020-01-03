@@ -632,12 +632,6 @@ this
 mListenerContext
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 mPending
 =
 false
@@ -652,12 +646,6 @@ OnStopRequest
 this
 mListenerContext
 NS_ERROR_FILE_NOT_FOUND
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
