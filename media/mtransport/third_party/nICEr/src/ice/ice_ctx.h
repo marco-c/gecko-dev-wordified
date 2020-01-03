@@ -767,6 +767,12 @@ void
 *
 trickle_cb_arg
 ;
+char
+force_net_interface
+[
+MAXIFNAME
+]
+;
 }
 ;
 int
