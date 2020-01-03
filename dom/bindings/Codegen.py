@@ -14517,7 +14517,7 @@ generatePrefableArray
 self
 array
 name
-specFormatter
+specTemplate
 specTerminator
                               
 specType
@@ -14560,26 +14560,17 @@ passed
 to
 generateArray
         
-specFormatter
+specTemplate
 is
 a
-function
-that
-takes
-a
-single
-argument
-a
-tuple
-          
-and
-returns
-a
-string
-a
+template
+for
+each
+entry
+of
+the
 spec
 array
-entry
         
 specTerminator
 is
@@ -14650,11 +14641,10 @@ returns
 a
 tuple
 suitable
-to
-be
-passed
-to
-specFormatter
+for
+substitution
+into
+specTemplate
 .
         
 "
@@ -15000,12 +14990,11 @@ specs
 .
 append
 (
-specFormatter
-(
+specTemplate
+%
 getDataTuple
 (
 member
-)
 )
 )
         
@@ -17172,67 +17161,15 @@ m
 selfHostedName
 )
         
-def
-formatSpec
-(
-fields
-)
-:
-            
-if
-fields
-[
-0
-]
+return
+self
 .
-startswith
+generatePrefableArray
 (
-"
-"
-)
-:
-                
-fields
-=
-(
-fields
-[
-0
-]
-[
-2
-:
-]
-)
-+
-fields
-[
-1
-:
-]
-                
-return
-'
-JS_SYM_FNSPEC
-(
-%
-s
-%
-s
-%
-s
-%
-s
-%
-s
-%
-s
-)
-'
-%
-fields
             
-return
+array
+name
+            
 '
 JS_FNSPEC
 (
@@ -17252,19 +17189,6 @@ s
 s
 )
 '
-%
-fields
-        
-return
-self
-.
-generatePrefableArray
-(
-            
-array
-name
-            
-formatSpec
             
 '
 JS_FS_END
@@ -18038,9 +17962,6 @@ generatePrefableArray
 array
 name
             
-lambda
-fields
-:
 '
 {
 "
@@ -18055,8 +17976,6 @@ s
 s
 }
 '
-%
-fields
             
 '
 JS_PS_END
@@ -18239,9 +18158,6 @@ generatePrefableArray
 array
 name
             
-lambda
-fields
-:
 '
 {
 "
@@ -18252,8 +18168,6 @@ s
 s
 }
 '
-%
-fields
             
 '
 {

@@ -716,7 +716,9 @@ does
 not
 override
 its
+'
 iterator
+'
 property
 .
 *
@@ -871,7 +873,9 @@ s
 slot
 number
 for
+'
 iterator
+'
 (
 arrayProtoIteratorSlot_
 )
@@ -884,7 +888,9 @@ s
 canonical
 value
 for
+'
 iterator
+'
 (
 canonicalIteratorFunc_
 )
@@ -1001,7 +1007,9 @@ containing
 /
 /
 the
+'
 iterator
+'
 for
 it
 and

@@ -90,9 +90,13 @@ it
 2
 ]
 [
-Symbol
-.
-iterator
+'
+"
++
+std_iterator
++
+"
+'
 ]
 (
 )

@@ -385,9 +385,11 @@ intermediate
 value
 )
 [
-Symbol
-.
+\
+'
 iterator
+\
+'
 ]
 (
 .

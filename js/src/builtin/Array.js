@@ -4391,7 +4391,9 @@ usingIterator
 =
 items
 [
-std_iterator
+"
+iterator
+"
 ]
 ;
 if

@@ -125,9 +125,6 @@ Symbol
 iterator
 "
 )
-Symbol
-.
-iterator
 ]
 ;
 /

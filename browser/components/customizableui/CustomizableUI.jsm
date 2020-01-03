@@ -18169,12 +18169,12 @@ windows
 windows
 :
 {
-*
-[
-Symbol
-.
+"
 iterator
-]
+"
+:
+function
+*
 (
 )
 {

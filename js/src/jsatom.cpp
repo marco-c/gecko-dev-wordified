@@ -1187,12 +1187,11 @@ ImmutablePropertyNamePtr
 *
 descriptions
 =
+&
 commonNames
 -
 >
-wellKnownSymbolDescriptions
-(
-)
+Symbol_iterator
 ;
 ImmutableSymbolPtr
 *
