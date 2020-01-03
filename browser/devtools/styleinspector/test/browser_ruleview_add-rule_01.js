@@ -240,6 +240,8 @@ expected
 "
 .
 class1
+.
+class2
 "
 }
 {
