@@ -3533,12 +3533,15 @@ manifest_items
 for
 manifest
 in
+sorted
+(
 self
 .
 manifests
 .
 keys
 (
+)
 )
 :
             

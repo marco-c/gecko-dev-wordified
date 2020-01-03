@@ -338,6 +338,7 @@ executor_kwargs
 test_type
 server_config
 cache_manager
+run_info_data
 *
 *
 kwargs
