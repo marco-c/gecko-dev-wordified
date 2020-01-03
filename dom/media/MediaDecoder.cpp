@@ -759,6 +759,13 @@ InitStatics
 (
 )
 ;
+SharedThreadPool
+:
+:
+InitStatics
+(
+)
+;
 /
 /
 Log
