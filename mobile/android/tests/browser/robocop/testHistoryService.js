@@ -570,7 +570,7 @@ BrowserApp
 .
 getTabForBrowser
 (
-browser
+gBrowser
 )
 )
 ;
