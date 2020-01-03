@@ -13272,6 +13272,11 @@ border
 -
 box
 "
+"
+padding
+-
+box
+"
 ]
 invalid_values
 :
@@ -13292,11 +13297,6 @@ border
 "
 "
 margin
-"
-"
-padding
--
-box
 "
 ]
 }
@@ -13354,6 +13354,11 @@ border
 -
 box
 "
+"
+padding
+-
+box
+"
 ]
 invalid_values
 :
@@ -13374,11 +13379,6 @@ border
 "
 "
 margin
-"
-"
-padding
--
-box
 "
 ]
 }
