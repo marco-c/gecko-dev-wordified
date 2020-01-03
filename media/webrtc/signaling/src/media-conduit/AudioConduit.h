@@ -409,6 +409,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -449,6 +450,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -531,6 +533,7 @@ AudioCodecConfig
 *
 codecConfig
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -629,6 +632,7 @@ AudioCodecConfig
 &
 codecConfigList
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -658,6 +662,7 @@ enabled
 uint8_t
 id
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -704,6 +709,7 @@ TransportInterface
 >
 aTransport
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -893,6 +899,7 @@ samplingFreqHz
 int32_t
 capture_time
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1082,6 +1089,7 @@ int
 &
 lengthSamples
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1121,6 +1129,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1160,12 +1169,14 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t
 CodecPluginID
 (
 )
+MOZ_OVERRIDE
 {
 return
 0
@@ -1287,6 +1298,7 @@ int
 *
 ssrc
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRemoteSSRC
@@ -1296,6 +1308,7 @@ int
 *
 ssrc
 )
+MOZ_OVERRIDE
 ;
 bool
 SetLocalCNAME
@@ -1326,6 +1339,7 @@ uint32_t
 *
 droppedFrames
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -1350,6 +1364,7 @@ uint32_t
 *
 discardedPackets
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -1368,6 +1383,7 @@ int32_t
 *
 avSyncOffsetMs
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRTPStats
@@ -1381,6 +1397,7 @@ int
 *
 cumulativeLost
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRTCPReceiverReport
@@ -1404,6 +1421,7 @@ int32_t
 *
 rttMs
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRTCPSenderReport
@@ -1419,6 +1437,7 @@ uint64_t
 *
 bytesSent
 )
+MOZ_OVERRIDE
 ;
 private
 :

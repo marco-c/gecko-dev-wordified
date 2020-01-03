@@ -358,6 +358,7 @@ GetUniquePayloadTypes
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mUniquePayloadTypes

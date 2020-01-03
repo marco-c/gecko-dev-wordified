@@ -538,12 +538,14 @@ VideoRenderer
 >
 aVideoRenderer
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 DetachRenderer
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -584,6 +586,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -624,6 +627,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -706,6 +710,7 @@ VideoCodecConfig
 *
 codecInfo
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -804,6 +809,7 @@ VideoCodecConfig
 &
 codecConfigList
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -849,6 +855,7 @@ TransportInterface
 >
 aTransport
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -884,7 +891,6 @@ the
 frame
 *
 /
-virtual
 bool
 SelectSendResolution
 (
@@ -1026,6 +1032,7 @@ video_type
 uint64_t
 capture_time
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1065,6 +1072,7 @@ VideoEncoder
 *
 encoder
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1104,6 +1112,7 @@ VideoDecoder
 *
 decoder
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1143,6 +1152,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1182,6 +1192,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1218,6 +1229,7 @@ int
 unsigned
 int
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1233,6 +1245,7 @@ void
 *
 handle
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1287,6 +1300,7 @@ bool
 IsTextureSupported
 (
 )
+MOZ_OVERRIDE
 {
 #
 ifdef
@@ -1307,12 +1321,14 @@ uint64_t
 CodecPluginID
 (
 )
+MOZ_OVERRIDE
 ;
 unsigned
 short
 SendingWidth
 (
 )
+MOZ_OVERRIDE
 {
 return
 mSendingWidth
@@ -1323,6 +1339,7 @@ short
 SendingHeight
 (
 )
+MOZ_OVERRIDE
 {
 return
 mSendingHeight
@@ -1333,6 +1350,7 @@ int
 SendingMaxFs
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1355,6 +1373,7 @@ int
 SendingMaxFr
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1429,6 +1448,7 @@ unsigned
 int
 ssrc
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRemoteSSRC
@@ -1438,6 +1458,7 @@ int
 *
 ssrc
 )
+MOZ_OVERRIDE
 ;
 bool
 SetLocalCNAME
@@ -1468,6 +1489,7 @@ uint32_t
 *
 droppedFrames
 )
+MOZ_OVERRIDE
 ;
 bool
 GetVideoDecoderStats
@@ -1488,6 +1510,7 @@ uint32_t
 *
 discardedPackets
 )
+MOZ_OVERRIDE
 ;
 bool
 GetAVStats
@@ -1502,6 +1525,7 @@ int32_t
 *
 avSyncOffsetMs
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRTPStats
@@ -1515,6 +1539,7 @@ int
 *
 cumulativeLost
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRTCPReceiverReport
@@ -1538,6 +1563,7 @@ int32_t
 *
 rttMs
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRTCPSenderReport
@@ -1553,6 +1579,7 @@ uint64_t
 *
 bytesSent
 )
+MOZ_OVERRIDE
 ;
 uint64_t
 MozVideoLatencyAvg

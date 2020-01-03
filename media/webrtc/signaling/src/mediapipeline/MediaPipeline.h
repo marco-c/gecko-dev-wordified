@@ -2161,6 +2161,7 @@ void
 DetachMediaStream
 (
 )
+MOZ_OVERRIDE
 {
 ASSERT_ON_THREAD
 (
@@ -2223,6 +2224,7 @@ TransportInfo
 &
 info
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -3071,6 +3073,7 @@ void
 DetachMediaStream
 (
 )
+MOZ_OVERRIDE
 {
 ASSERT_ON_THREAD
 (
@@ -3384,6 +3387,7 @@ void
 DetachMediaStream
 (
 )
+MOZ_OVERRIDE
 {
 ASSERT_ON_THREAD
 (
