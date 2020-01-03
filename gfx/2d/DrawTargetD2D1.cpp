@@ -4650,6 +4650,13 @@ BeginDraw
 (
 )
 ;
+mDC
+-
+>
+Clear
+(
+)
+;
 mFormat
 =
 aFormat
