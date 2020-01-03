@@ -527,9 +527,6 @@ mTouchEventsFiltered
 bool
 mEnabledUniformityInfo
 ;
-int
-mTouchDownCount
-;
 /
 /
 All
