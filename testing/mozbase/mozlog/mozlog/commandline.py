@@ -280,7 +280,7 @@ buffer_limit
 return
 handlers
 .
-BufferingLogFilter
+BufferHandler
 (
 handler
 buffer_limit
