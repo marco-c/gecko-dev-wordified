@@ -164,6 +164,8 @@ WMFH264Decoder
 HRESULT
 Init
 (
+int32_t
+aCoreCount
 )
 ;
 HRESULT

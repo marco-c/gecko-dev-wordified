@@ -315,6 +315,7 @@ mDecoder
 >
 Init
 (
+aCoreCount
 )
 ;
 if
