@@ -429,11 +429,10 @@ actor
 ;
 }
 for
-each
 (
 let
 key
-in
+of
 [
 "
 type

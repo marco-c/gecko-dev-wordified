@@ -83,6 +83,7 @@ run_test
 add_task
 (
 function
+*
 (
 )
 {

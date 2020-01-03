@@ -226,6 +226,7 @@ init
 add_task
 (
 function
+*
 (
 )
 {

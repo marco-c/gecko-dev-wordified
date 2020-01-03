@@ -231,6 +231,7 @@ add_test_bulk_actor
 add_task
 (
 function
+*
 (
 )
 {

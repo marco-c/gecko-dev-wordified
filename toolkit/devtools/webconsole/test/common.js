@@ -1250,6 +1250,7 @@ aEndCallback
 )
 {
 function
+*
 driver
 (
 )
@@ -1361,7 +1362,7 @@ gTestState
 .
 driver
 .
-send
+next
 (
 aMessage
 )

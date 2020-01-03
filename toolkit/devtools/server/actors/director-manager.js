@@ -2756,14 +2756,13 @@ function
 (
 )
 {
-var
-enabled_script_ids
+let
+enabledScriptIds
 =
 [
-for
-(
-id
-of
+.
+.
+.
 this
 .
 _directorScriptActorsMap
@@ -2771,8 +2770,6 @@ _directorScriptActorsMap
 keys
 (
 )
-)
-id
 ]
 ;
 return
@@ -2786,7 +2783,7 @@ list
 )
 enabled
 :
-enabled_script_ids
+enabledScriptIds
 }
 ;
 }
