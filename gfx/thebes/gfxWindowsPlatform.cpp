@@ -8821,6 +8821,10 @@ n
 ;
 #
 endif
+gANGLESupportsD3D11
+=
+false
+;
 return
 false
 ;
@@ -8866,6 +8870,10 @@ n
 ;
 #
 endif
+gANGLESupportsD3D11
+=
+false
+;
 return
 false
 ;

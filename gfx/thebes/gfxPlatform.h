@@ -638,6 +638,10 @@ kMaxLenPrefLangList
 =
 32
 ;
+extern
+bool
+gANGLESupportsD3D11
+;
 #
 define
 UNINITIALIZED_VALUE
