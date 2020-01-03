@@ -244,9 +244,6 @@ evaluate
 (
 code
 {
-compileAndGo
-:
-true
 isRunOnce
 :
 true

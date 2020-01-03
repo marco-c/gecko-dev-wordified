@@ -395,11 +395,6 @@ n
 }
 )
 "
-{
-compileAndGo
-:
-false
-}
 )
 ;
 var

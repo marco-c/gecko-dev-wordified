@@ -523,11 +523,6 @@ x
 }
 )
 "
-{
-compileAndGo
-:
-false
-}
 )
 )
 ;

@@ -278,11 +278,6 @@ a
 }
 )
 "
-{
-compileAndGo
-:
-false
-}
 )
 ;
 var

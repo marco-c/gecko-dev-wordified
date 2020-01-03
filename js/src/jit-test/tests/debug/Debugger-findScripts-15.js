@@ -35,11 +35,6 @@ x
 ;
 }
 "
-{
-compileAndGo
-:
-false
-}
 )
 ;
 var

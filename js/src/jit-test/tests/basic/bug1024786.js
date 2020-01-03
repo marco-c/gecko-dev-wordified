@@ -523,9 +523,6 @@ null
 lineNumber
 :
 42
-compileAndGo
-:
-9
 isRunOnce
 :
 9
