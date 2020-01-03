@@ -477,6 +477,10 @@ aWhy
 )
 override
 {
+CheckDocTree
+(
+)
+;
 if
 (
 !
