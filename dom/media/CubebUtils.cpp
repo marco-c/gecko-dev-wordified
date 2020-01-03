@@ -920,9 +920,11 @@ AudioChannel
 :
 Normal
 :
-return
-CUBEB_STREAM_TYPE_SYSTEM
-;
+/
+*
+FALLTHROUGH
+*
+/
 case
 dom
 :
