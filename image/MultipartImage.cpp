@@ -368,6 +368,12 @@ image
 finishes
 decoding
 .
+nsRefPtr
+<
+SourceSurface
+>
+surface
+=
 mImage
 -
 >
