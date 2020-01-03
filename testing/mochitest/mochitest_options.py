@@ -9920,6 +9920,13 @@ is_b2g
 (
 build_obj
 )
+or
+conditions
+.
+is_b2g_desktop
+(
+build_obj
+)
 :
                 
 self
