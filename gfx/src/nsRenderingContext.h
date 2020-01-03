@@ -446,15 +446,6 @@ nscoord
 aY1
 )
 ;
-void
-FillRect
-(
-const
-nsRect
-&
-aRect
-)
-;
 /
 /
 Text

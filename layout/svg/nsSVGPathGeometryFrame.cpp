@@ -5062,8 +5062,12 @@ GetStateBits
 NS_STATE_SVG_CLIPPATH_CHILD
 )
 {
-Color
+ColorPattern
 white
+(
+ToDeviceColor
+(
+Color
 (
 1
 .
@@ -5077,6 +5081,8 @@ white
 1
 .
 0f
+)
+)
 )
 ;
 drawTarget
@@ -5085,13 +5091,7 @@ drawTarget
 Fill
 (
 path
-ColorPattern
-(
-ToDeviceColor
-(
 white
-)
-)
 DrawOptions
 (
 1
