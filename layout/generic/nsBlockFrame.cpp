@@ -37095,9 +37095,11 @@ nsLineBox
 RFindLineContaining
 (
 aPrevSibling
-lineList
+overflowLines
 -
 >
+mLines
+.
 begin
 (
 )
@@ -37166,7 +37168,7 @@ does
 .
 .
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 prev
