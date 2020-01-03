@@ -976,6 +976,13 @@ mPlatform
 nullptr
 ;
 }
+MediaDecoderReader
+:
+:
+Shutdown
+(
+)
+;
 }
 void
 MP4Reader

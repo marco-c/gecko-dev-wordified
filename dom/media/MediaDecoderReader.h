@@ -2175,6 +2175,9 @@ mAudioDiscontinuity
 bool
 mVideoDiscontinuity
 ;
+bool
+mShutdown
+;
 }
 ;
 /

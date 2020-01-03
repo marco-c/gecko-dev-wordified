@@ -699,6 +699,13 @@ mPlugin
 nullptr
 ;
 }
+MediaDecoderReader
+:
+:
+Shutdown
+(
+)
+;
 }
 /
 /

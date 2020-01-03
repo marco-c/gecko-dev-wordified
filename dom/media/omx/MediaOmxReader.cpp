@@ -1017,7 +1017,10 @@ NS_DispatchToMainThread
 cancelEvent
 )
 ;
-ReleaseMediaResources
+MediaDecoderReader
+:
+:
+Shutdown
 (
 )
 ;
