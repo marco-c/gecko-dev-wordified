@@ -732,7 +732,7 @@ kwargs
 :
 {
 '
-test_file
+tests
 '
 :
 None
@@ -1083,6 +1083,28 @@ reftest
 '
 :
 {
+        
+'
+mach_command
+'
+:
+'
+reftest
+'
+        
+'
+kwargs
+'
+:
+{
+'
+tests
+'
+:
+[
+]
+}
+    
 }
     
 '
