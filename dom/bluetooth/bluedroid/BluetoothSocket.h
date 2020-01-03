@@ -141,6 +141,9 @@ h
 class
 MessageLoop
 ;
+class
+nsIThread
+;
 BEGIN_BLUETOOTH_NAMESPACE
 class
 BluetoothSocketObserver
@@ -192,6 +195,9 @@ bool
 aAuth
 bool
 aEncrypt
+nsIThread
+*
+aConsumerThread
 MessageLoop
 *
 aIOLoop
@@ -237,6 +243,9 @@ bool
 aAuth
 bool
 aEncrypt
+nsIThread
+*
+aConsumerThread
 MessageLoop
 *
 aIOLoop

@@ -645,6 +645,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
+nsIThread
+*
+aConsumerThread
 MessageLoop
 *
 aIOLoop
