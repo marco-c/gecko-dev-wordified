@@ -2013,7 +2013,7 @@ data
 .
 *
 /
-nsAutoPtr
+nsRefPtr
 <
 CustomElementData
 >

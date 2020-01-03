@@ -1890,6 +1890,10 @@ flag
 struct
 CustomElementData
 {
+NS_INLINE_DECL_REFCOUNTING
+(
+CustomElementData
+)
 explicit
 CustomElementData
 (
@@ -2073,6 +2077,15 @@ RunCallbackQueue
 (
 )
 ;
+private
+:
+virtual
+~
+CustomElementData
+(
+)
+{
+}
 }
 ;
 /
@@ -8643,6 +8656,8 @@ Maybe
 <
 nsTArray
 <
+nsRefPtr
+<
 mozilla
 :
 :
@@ -8650,7 +8665,7 @@ dom
 :
 :
 CustomElementData
-*
+>
 >
 >
 sProcessingStack
