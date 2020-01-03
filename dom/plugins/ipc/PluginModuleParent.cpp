@@ -9764,6 +9764,18 @@ return
 NS_OK
 ;
 }
+#
+if
+defined
+(
+XP_WIN
+)
+|
+|
+defined
+(
+XP_MACOSX
+)
 nsresult
 PluginModuleContentParent
 :
@@ -9832,6 +9844,8 @@ return
 rv
 ;
 }
+#
+endif
 nsresult
 PluginModuleChromeParent
 :
