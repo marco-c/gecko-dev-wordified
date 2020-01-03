@@ -116,13 +116,6 @@ Tests
 devtools
 API
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 toolId1
 =
 "

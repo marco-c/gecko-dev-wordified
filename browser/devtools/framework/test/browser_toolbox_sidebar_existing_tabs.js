@@ -47,13 +47,6 @@ existing
 tabs
 .
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 {
 ToolSidebar
 }

@@ -33,13 +33,6 @@ zero
 Tests
 devtools
 API
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 test
 (
