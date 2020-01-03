@@ -158,9 +158,10 @@ iceServers
 [
 {
 "
-url
+urls
 "
 :
+[
 "
 stun
 :
@@ -172,6 +173,7 @@ mozilla
 .
 com
 "
+]
 }
 ]
 }
