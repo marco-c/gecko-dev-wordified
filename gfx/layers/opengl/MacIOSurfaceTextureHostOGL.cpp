@@ -156,9 +156,10 @@ aDescriptor
 scaleFactor
 (
 )
+!
 aDescriptor
 .
-hasAlpha
+isOpaque
 (
 )
 )
