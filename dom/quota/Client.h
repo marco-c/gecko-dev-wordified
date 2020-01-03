@@ -504,6 +504,14 @@ aCallback
 ;
 virtual
 void
+PerformIdleMaintenance
+(
+)
+=
+0
+;
+virtual
+void
 ShutdownWorkThreads
 (
 )
