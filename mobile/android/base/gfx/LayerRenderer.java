@@ -1060,7 +1060,7 @@ R
 .
 color
 .
-background_normal
+toolbar_grey
 )
 ;
 Bitmap
@@ -4503,7 +4503,7 @@ R
 .
 color
 .
-background_normal
+toolbar_grey
 )
 ;
 setOverscrollColor

@@ -1114,7 +1114,7 @@ R
 .
 color
 .
-background_normal
+toolbar_grey
 )
 ;
 }
