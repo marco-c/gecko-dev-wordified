@@ -2019,18 +2019,6 @@ searchbar
 "
 )
 ;
-if
-(
-searchbar
-.
-getAttribute
-(
-"
-oneoffui
-"
-)
-)
-{
 done
 (
 )
@@ -2051,7 +2039,6 @@ being
 tested
 here
 .
-}
 gContentAPI
 .
 showMenu
