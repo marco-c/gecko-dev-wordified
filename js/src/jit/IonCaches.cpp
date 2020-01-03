@@ -11325,6 +11325,7 @@ anyway
 .
 reset
 (
+Reprotect
 )
 ;
 }
@@ -13406,6 +13407,8 @@ GetPropertyIC
 :
 reset
 (
+ReprotectCode
+reprotect
 )
 {
 IonCache
@@ -13413,6 +13416,7 @@ IonCache
 :
 reset
 (
+reprotect
 )
 ;
 hasTypedArrayLengthStub_
@@ -13442,24 +13446,11 @@ IonCache
 :
 disable
 (
-IonScript
-*
-ion
 )
 {
-AutoWritableJitCode
-awjc
-(
-ion
--
->
-method
-(
-)
-)
-;
 reset
 (
+Reprotect
 )
 ;
 this
@@ -13476,6 +13467,8 @@ IonCache
 :
 reset
 (
+ReprotectCode
+reprotect
 )
 {
 this
@@ -13489,6 +13482,7 @@ PatchJump
 (
 initialJump_
 fallbackLabel_
+reprotect
 )
 ;
 lastJump_
@@ -21820,6 +21814,7 @@ cache
 .
 reset
 (
+Reprotect
 )
 ;
 if
@@ -22478,6 +22473,8 @@ SetPropertyIC
 :
 reset
 (
+ReprotectCode
+reprotect
 )
 {
 IonCache
@@ -22485,6 +22482,7 @@ IonCache
 :
 reset
 (
+reprotect
 )
 ;
 hasGenericProxyStub_
@@ -27613,7 +27611,6 @@ cache
 .
 disable
 (
-ion
 )
 ;
 }
@@ -27657,6 +27654,8 @@ GetElementIC
 :
 reset
 (
+ReprotectCode
+reprotect
 )
 {
 IonCache
@@ -27664,6 +27663,7 @@ IonCache
 :
 reset
 (
+reprotect
 )
 ;
 hasDenseStub_
@@ -29775,6 +29775,8 @@ SetElementIC
 :
 reset
 (
+ReprotectCode
+reprotect
 )
 {
 IonCache
@@ -29782,6 +29784,7 @@ IonCache
 :
 reset
 (
+reprotect
 )
 ;
 hasDenseStub_
