@@ -339,11 +339,6 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
-nsIURI
-*
-aBaseURI
-=
-nullptr
 )
 ;
 private
@@ -481,12 +476,6 @@ mSecurityFlags
 ;
 nsContentPolicyType
 mContentPolicyType
-;
-nsCOMPtr
-<
-nsIURI
->
-mBaseURI
 ;
 bool
 mUpgradeInsecureRequests
