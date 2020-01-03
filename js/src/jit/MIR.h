@@ -381,9 +381,9 @@ Movable
 /
 *
 Allow
+passes
+like
 LICM
-and
-GVN
 to
 move
 this
@@ -1255,10 +1255,6 @@ MNode
 public
 TempObject
 {
-friend
-class
-MDefinition
-;
 protected
 :
 MBasicBlock
