@@ -152,6 +152,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 nsIDOMWakeLockListener
 .
 h
@@ -289,6 +296,11 @@ JS
 stack
 >
 "
+)
+;
+JS_smprintf_free
+(
+jsstack
 )
 ;
 }
