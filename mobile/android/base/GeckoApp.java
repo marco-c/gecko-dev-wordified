@@ -7625,7 +7625,7 @@ try
 {
 Favicons
 .
-attachToContext
+initializeWithContext
 (
 this
 )

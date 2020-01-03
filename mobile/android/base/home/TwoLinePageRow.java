@@ -1279,6 +1279,9 @@ Favicons
 .
 getSizedFaviconForPageFromLocal
 (
+getContext
+(
+)
 url
 mFaviconListener
 )
