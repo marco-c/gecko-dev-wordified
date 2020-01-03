@@ -25120,7 +25120,7 @@ WidgetQueryContentEvent
 event
 (
 true
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 mWidget
 )
 ;
@@ -25170,7 +25170,7 @@ due
 to
 "
 "
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 failure
 "
 this

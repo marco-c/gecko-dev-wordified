@@ -324,7 +324,7 @@ NS_QUERY_TEXT_RECT
 aEventMessage
 =
 =
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 |
 |
 aEventMessage

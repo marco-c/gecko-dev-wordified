@@ -11204,7 +11204,7 @@ WidgetQueryContentEvent
 editorRect
 (
 true
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 aWindow
 )
 ;
@@ -11248,7 +11248,7 @@ Error
 IMM
 :
 HandleQueryCharPosition
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 failed
 "
 )
@@ -16175,7 +16175,7 @@ WidgetQueryContentEvent
 editorRectEvent
 (
 true
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 aWindow
 )
 ;
@@ -16221,7 +16221,7 @@ SetIMERelatedWindowsPosOnPlugin
 FAILED
 due
 to
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 failure
 "
 )

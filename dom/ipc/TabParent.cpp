@@ -12214,7 +12214,7 @@ case
 eQueryCaretRect
 :
 case
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 :
 aEvent
 .

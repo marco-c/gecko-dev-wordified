@@ -320,7 +320,7 @@ aEvent
 ;
 /
 /
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 event
 handler
 nsresult

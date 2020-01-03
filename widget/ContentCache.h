@@ -1560,7 +1560,7 @@ input
 *
 *
 For
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 always
 success
 *

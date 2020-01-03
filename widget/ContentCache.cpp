@@ -1662,7 +1662,7 @@ WidgetQueryContentEvent
 editorRectEvent
 (
 true
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 aWidget
 )
 ;
@@ -5031,7 +5031,7 @@ get
 break
 ;
 case
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 :
 MOZ_LOG
 (
@@ -5056,7 +5056,7 @@ aEvent
 {
 mMessage
 =
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 }
 aWidget
 =
