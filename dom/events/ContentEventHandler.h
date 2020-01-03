@@ -333,7 +333,7 @@ aEvent
 ;
 /
 /
-NS_QUERY_CONTENT_STATE
+eQueryContentState
 event
 handler
 nsresult

@@ -428,11 +428,11 @@ eQueryEditorRect
 "
 ;
 case
-NS_QUERY_CONTENT_STATE
+eQueryContentState
 :
 return
 "
-NS_QUERY_CONTENT_STATE
+eQueryContentState
 "
 ;
 case

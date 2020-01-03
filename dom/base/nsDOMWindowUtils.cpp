@@ -9661,7 +9661,7 @@ WidgetQueryContentEvent
 dummyEvent
 (
 true
-NS_QUERY_CONTENT_STATE
+eQueryContentState
 widget
 )
 ;

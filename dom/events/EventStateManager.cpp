@@ -4865,7 +4865,7 @@ mode
 yet
 .
 case
-NS_QUERY_CONTENT_STATE
+eQueryContentState
 :
 case
 eQuerySelectionAsTransferable
