@@ -366,7 +366,7 @@ DevToolsUtils
 reportException
 (
 "
-registerNewActor
+unregisterNewActor
 "
 e
 )
