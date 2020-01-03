@@ -1778,6 +1778,8 @@ nsMenuFrame
 aMenuItem
 bool
 aSelectFirstItem
+bool
+aFromKey
 )
 {
 if

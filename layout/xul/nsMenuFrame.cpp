@@ -2894,6 +2894,7 @@ ChangeMenuItem
 (
 nullptr
 false
+false
 )
 ;
 }
@@ -2963,6 +2964,7 @@ menuParent
 ChangeMenuItem
 (
 this
+false
 false
 )
 ;
@@ -8391,6 +8393,7 @@ ChangeMenuItem
 (
 nullptr
 false
+false
 )
 ;
 return
@@ -8433,6 +8436,7 @@ popupFrame
 ChangeMenuItem
 (
 menu
+false
 false
 )
 ;

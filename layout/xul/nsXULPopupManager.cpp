@@ -13097,6 +13097,7 @@ ChangeMenuItem
 (
 result
 false
+true
 )
 ;
 if
@@ -13570,6 +13571,7 @@ ChangeMenuItem
 (
 nextItem
 true
+true
 )
 ;
 return
@@ -13791,6 +13793,7 @@ ChangeMenuItem
 (
 nextItem
 false
+true
 )
 ;
 return
@@ -14046,6 +14049,7 @@ ChangeMenuItem
 (
 nextItem
 false
+true
 )
 ;
 return
