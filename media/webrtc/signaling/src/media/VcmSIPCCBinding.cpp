@@ -1080,11 +1080,6 @@ HasPluginForAPI
 NS_LITERAL_CSTRING
 (
 "
-"
-)
-NS_LITERAL_CSTRING
-(
-"
 encode
 -
 video
@@ -1122,11 +1117,6 @@ mGMPService
 >
 HasPluginForAPI
 (
-NS_LITERAL_CSTRING
-(
-"
-"
-)
 NS_LITERAL_CSTRING
 (
 "
