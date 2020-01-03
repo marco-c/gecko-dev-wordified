@@ -3091,7 +3091,7 @@ geometry
 object
 must
 be
-specifed
+specified
 to
 retain
 *
