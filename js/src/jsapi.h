@@ -12857,6 +12857,7 @@ JSPROP_GETTER
 )
 \
 {
+{
 nullptr
 JS_CAST_STRING_TO
 (
@@ -12865,6 +12866,7 @@ const
 JSJitInfo
 *
 )
+}
 }
 \
 JSNATIVE_WRAPPER
