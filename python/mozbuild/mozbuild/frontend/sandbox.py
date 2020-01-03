@@ -1552,6 +1552,8 @@ old_sandbox
             
 if
 path
+and
+becomes_current_path
 :
                 
 self
