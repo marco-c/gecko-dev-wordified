@@ -2478,12 +2478,8 @@ FlushIceCtxOperationQueueIfReady
 void
 PerformOrEnqueueIceCtxOperation
 (
-const
-nsRefPtr
-<
 nsIRunnable
->
-&
+*
 runnable
 )
 ;

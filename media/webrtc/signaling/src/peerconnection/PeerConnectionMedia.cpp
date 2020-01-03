@@ -3059,12 +3059,8 @@ PeerConnectionMedia
 :
 PerformOrEnqueueIceCtxOperation
 (
-const
-nsRefPtr
-<
 nsIRunnable
->
-&
+*
 runnable
 )
 {
