@@ -3508,6 +3508,9 @@ STK_PRESENTATION_TYPE_NOT_SPECIFIED
 options
 :
 {
+title
+:
+null
 items
 :
 [
@@ -4078,6 +4081,9 @@ true
 isHelpAvailable
 :
 true
+defaultText
+:
+null
 iconSelfExplanatory
 :
 false
@@ -4154,6 +4160,9 @@ true
 isHelpAvailable
 :
 false
+defaultText
+:
+null
 iconSelfExplanatory
 :
 true
@@ -4422,6 +4431,9 @@ isVibrate
 options
 :
 {
+text
+:
+null
 isVibrate
 :
 true
@@ -4617,6 +4629,9 @@ RFU
 options
 :
 {
+text
+:
+null
 }
 }
 /
@@ -4732,6 +4747,9 @@ RFU
 options
 :
 {
+text
+:
+null
 iconSelfExplanatory
 :
 false
