@@ -2690,9 +2690,6 @@ _nfcContentHelper
 notifyUserAcceptedP2P
 (
 appID
-this
-.
-_tabId
 )
 ;
 }
