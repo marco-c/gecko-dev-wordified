@@ -141,6 +141,13 @@ MediaStreamGraph
 .
 h
 "
+#
+include
+"
+MediaTrackConstraints
+.
+h
+"
 namespace
 mozilla
 {
