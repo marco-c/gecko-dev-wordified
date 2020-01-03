@@ -3099,6 +3099,9 @@ nsIFrame
 aSelf
 nsRestyleHint
 aRestyleHint
+uint32_t
+*
+aSwappedStructs
 )
 ;
 /
