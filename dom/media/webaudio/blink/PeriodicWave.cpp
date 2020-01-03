@@ -1231,8 +1231,6 @@ halfSize
 fftSize
 /
 2
-+
-1
 ;
 unsigned
 i
@@ -1246,6 +1244,8 @@ min
 (
 numberOfComponents
 halfSize
++
+1
 )
 ;
 m_bandLimitedTables
@@ -1303,6 +1303,8 @@ new
 float
 [
 halfSize
++
+1
 ]
 )
 ;
@@ -1316,6 +1318,8 @@ new
 float
 [
 halfSize
++
+1
 ]
 )
 ;
@@ -1380,6 +1384,8 @@ numberOfComponents
 i
 <
 halfSize
++
+1
 ;
 +
 +
@@ -1429,6 +1435,8 @@ AudioBufferInPlaceScale
 imagP
 minusOne
 halfSize
++
+1
 )
 ;
 /
@@ -1492,6 +1500,8 @@ numberOfPartials
 i
 <
 halfSize
++
+1
 ;
 +
 +
@@ -1525,12 +1535,12 @@ if
 numberOfPartials
 <
 halfSize
++
+1
 )
 realP
 [
 halfSize
--
-1
 ]
 =
 0
@@ -1569,8 +1579,6 @@ imagP
 imagP
 [
 halfSize
--
-1
 ]
 =
 0
@@ -1737,19 +1745,21 @@ halfSize
 fftSize
 /
 2
-+
-1
 ;
 AudioFloatArray
 real
 (
 halfSize
++
+1
 )
 ;
 AudioFloatArray
 imag
 (
 halfSize
++
+1
 )
 ;
 float
@@ -1796,8 +1806,6 @@ imagP
 realP
 [
 halfSize
--
-1
 ]
 =
 0
@@ -1805,8 +1813,6 @@ halfSize
 imagP
 [
 halfSize
--
-1
 ]
 =
 0
@@ -1821,6 +1827,8 @@ n
 n
 <
 halfSize
++
+1
 ;
 +
 +
@@ -2183,6 +2191,8 @@ createBandLimitedTables
 realP
 imagP
 halfSize
++
+1
 )
 ;
 }
