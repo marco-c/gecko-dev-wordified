@@ -1192,6 +1192,9 @@ unsigned
 line
 =
 0
+column
+=
+0
 ;
 DescribeScriptedCaller
 (
@@ -1200,6 +1203,8 @@ cx
 filename
 &
 line
+&
+column
 )
 ;
 /
@@ -1235,6 +1240,9 @@ s
 :
 %
 u
+:
+%
+u
 )
 "
 NS_LossyConvertUTF16toASCII
@@ -1252,6 +1260,7 @@ get
 (
 )
 line
+column
 )
 .
 get
@@ -1622,7 +1631,7 @@ EmptyString
 (
 )
 line
-0
+column
 nsIScriptError
 :
 :
