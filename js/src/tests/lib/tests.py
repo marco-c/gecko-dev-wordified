@@ -1008,7 +1008,7 @@ def
 get_command
 (
 self
-js_cmd_prefix
+prefix
 )
 :
         
@@ -1028,7 +1028,7 @@ path
         
 cmd
 =
-js_cmd_prefix
+prefix
 +
 self
 .
@@ -1064,7 +1064,7 @@ def
 run
 (
 self
-js_cmd_prefix
+prefix
 timeout
 =
 30
@@ -1079,7 +1079,7 @@ self
 .
 get_command
 (
-js_cmd_prefix
+prefix
 )
         
 out
@@ -1130,10 +1130,6 @@ result
 "
 "
 "
-    
-js_cmd_prefix
-=
-None
     
 def
 __init__
@@ -1365,12 +1361,11 @@ debugMode
 return
 ans
     
-classmethod
+staticmethod
     
 def
-set_js_cmd_prefix
+build_js_cmd_prefix
 (
-self
 js_path
 js_args
 debugger_prefix
@@ -1407,10 +1402,7 @@ parts
 =
 js_args
         
-self
-.
-js_cmd_prefix
-=
+return
 parts
     
 def

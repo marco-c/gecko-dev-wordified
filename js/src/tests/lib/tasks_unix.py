@@ -61,6 +61,7 @@ __init__
 (
 self
 test
+prefix
 pid
 stdout
 stderr
@@ -81,9 +82,7 @@ test
 .
 get_command
 (
-test
-.
-js_cmd_prefix
+prefix
 )
         
 self
@@ -131,6 +130,7 @@ def
 spawn_test
 (
 test
+prefix
 passthrough
 =
 False
@@ -213,6 +213,7 @@ return
 Task
 (
 test
+prefix
 rv
 rout
 rerr
@@ -258,9 +259,7 @@ test
 .
 get_command
 (
-test
-.
-js_cmd_prefix
+prefix
 )
     
 os
@@ -1305,6 +1304,7 @@ def
 run_all_tests
 (
 tests
+prefix
 results
 options
 )
@@ -1387,6 +1387,7 @@ tests
 pop
 (
 )
+prefix
 options
 .
 passthrough
