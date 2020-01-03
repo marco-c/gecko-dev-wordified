@@ -43400,7 +43400,10 @@ uint32
         
 return
 "
-UINT_TO_JSVAL
+JS
+:
+:
+NumberValue
 (
 %
 sU

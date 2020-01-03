@@ -2116,11 +2116,12 @@ name
 {
 #
 name
-UINT_TO_JSVAL
-(
+JS
+:
+:
+NumberValue
 (
 name
-)
 )
 }
 /
@@ -5523,7 +5524,10 @@ umask_cs
 "
 umask
 "
-UINT_TO_JSVAL
+JS
+:
+:
+NumberValue
 (
 gUserUmask
 )
