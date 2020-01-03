@@ -529,6 +529,14 @@ TextRange
 class
 TextRangeArray
 ;
+/
+/
+FontRange
+.
+h
+struct
+FontRange
+;
 }
 /
 /
