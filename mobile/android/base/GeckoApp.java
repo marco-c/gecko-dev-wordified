@@ -5397,18 +5397,6 @@ ReasonHidden
 reason
 )
 {
-if
-(
-reason
-=
-=
-ButtonToast
-.
-ReasonHidden
-.
-TIMEOUT
-)
-{
 GeckoAppShell
 .
 sendEventToGecko
@@ -5426,7 +5414,6 @@ buttonId
 )
 )
 ;
-}
 }
 }
 )
