@@ -652,7 +652,7 @@ service
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;

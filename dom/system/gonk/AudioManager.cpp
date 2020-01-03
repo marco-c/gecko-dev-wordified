@@ -1894,11 +1894,11 @@ service
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;
-NS_ENSURE_TRUE_VOID
+MOZ_ASSERT
 (
 service
 )

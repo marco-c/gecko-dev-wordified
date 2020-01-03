@@ -3312,7 +3312,7 @@ AudioChannelService
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 )
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (

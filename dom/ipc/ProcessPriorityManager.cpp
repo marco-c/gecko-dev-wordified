@@ -5292,7 +5292,7 @@ service
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;

@@ -615,7 +615,7 @@ service
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;
@@ -718,7 +718,7 @@ service
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;
@@ -800,7 +800,7 @@ service
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;
@@ -855,7 +855,7 @@ service
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;
