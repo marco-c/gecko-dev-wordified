@@ -280,6 +280,12 @@ GeckoProcessType
 type
 )
 ;
+static
+uint32_t
+GetUniqueID
+(
+)
+;
 /
 /
 Block
@@ -1215,6 +1221,10 @@ IPC
 Message
 >
 mQueue
+;
+static
+uint32_t
+sNextUniqueID
 ;
 }
 ;
