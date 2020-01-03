@@ -3306,6 +3306,12 @@ MediaDecoder
 mWatchManager
 (
 this
+AbstractThread
+:
+:
+MainThread
+(
+)
 )
 mNextFrameStatus
 (
