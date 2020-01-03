@@ -240,6 +240,11 @@ RetVal
 protocol
 ;
 const
+ENABLE_AUTOMATION
+=
+false
+;
+const
 AUTOMATION_GRANULARITY
 =
 2000
@@ -4474,6 +4479,9 @@ functionCall
 else
 if
 (
+ENABLE_AUTOMATION
+&
+&
 WebAudioFront
 .
 AUTOMATION_METHODS
