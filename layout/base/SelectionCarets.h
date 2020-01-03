@@ -488,6 +488,8 @@ itself
 void
 NotifyBlur
 (
+bool
+aIsLeavingDocument
 )
 ;
 /

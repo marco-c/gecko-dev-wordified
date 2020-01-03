@@ -6243,6 +6243,8 @@ SelectionCarets
 :
 NotifyBlur
 (
+bool
+aIsLeavingDocument
 )
 {
 SetVisibility
@@ -6250,10 +6252,16 @@ SetVisibility
 false
 )
 ;
+if
+(
+aIsLeavingDocument
+)
+{
 CancelLongTapDetector
 (
 )
 ;
+}
 DispatchSelectionStateChangedEvent
 (
 nullptr
