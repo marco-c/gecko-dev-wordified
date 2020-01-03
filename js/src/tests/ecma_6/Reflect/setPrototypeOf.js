@@ -275,12 +275,12 @@ setPrototypeOf
 obj
 proto
 )
-false
+true
 )
 ;
 /
 /
-even
+except
 if
 not
 changing

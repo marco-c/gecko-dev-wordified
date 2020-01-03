@@ -2700,6 +2700,14 @@ obj
 is
 a
 proxy
+*
+with
+a
+relevant
+getPrototype
+(
+)
+handler
 .
 *
 2
@@ -2826,7 +2834,7 @@ const
 MOZ_ASSERT
 (
 !
-uninlinedIsProxy
+hasLazyPrototype
 (
 )
 )
