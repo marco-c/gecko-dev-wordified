@@ -269,7 +269,7 @@ bool
 &
 aClientSetPingTimeout
 const
-WebSocketLoadInfoArgs
+LoadInfoArgs
 &
 aLoadInfoArgs
 )
