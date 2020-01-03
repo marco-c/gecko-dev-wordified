@@ -113,13 +113,6 @@ updatehelper
 h
 "
 #
-include
-"
-errors
-.
-h
-"
-#
 define
 MAX_KEY_LENGTH
 255
@@ -269,7 +262,7 @@ maintenanceServiceKey
 )
 {
 return
-SERVICE_UPDATER_SIGN_CALC_PATH
+FALSE
 ;
 }
 /
@@ -463,7 +456,7 @@ retCode
 )
 ;
 return
-SERVICE_UPDATER_SIGN_REG_OPEN
+FALSE
 ;
 }
 else
@@ -569,7 +562,7 @@ retCode
 )
 ;
 return
-SERVICE_UPDATER_SIGN_REG_QUERY
+FALSE
 ;
 }
 /
@@ -653,7 +646,7 @@ retCode
 )
 ;
 return
-SERVICE_UPDATER_SIGN_REG_ENUM
+FALSE
 ;
 }
 /
@@ -1009,7 +1002,7 @@ a
 match
 !
 return
-OK
+TRUE
 ;
 }
 /
@@ -1021,6 +1014,6 @@ match
 '
 (
 return
-SERVICE_UPDATER_SIGN_ERROR
+FALSE
 ;
 }

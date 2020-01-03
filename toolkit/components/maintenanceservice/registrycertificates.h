@@ -69,7 +69,7 @@ certificatecheck
 .
 h
 "
-int
+BOOL
 DoesBinaryMatchAllowedCertificates
 (
 LPCWSTR
