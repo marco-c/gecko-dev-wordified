@@ -111,7 +111,12 @@ path
 .
 dirname
 (
-__file__
+sys
+.
+argv
+[
+0
+]
 )
 )
 )
