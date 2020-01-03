@@ -1452,7 +1452,7 @@ GetWeakmapKeyDelegate
 &
 aKey
 .
-to
+as
 <
 JSObject
 >
@@ -1803,7 +1803,7 @@ GetWeakmapKeyDelegate
 &
 aKey
 .
-to
+as
 <
 JSObject
 >
@@ -2424,7 +2424,7 @@ NoteJSObject
 &
 aThing
 .
-to
+as
 <
 JSObject
 >
@@ -2442,7 +2442,7 @@ NoteJSScript
 &
 aThing
 .
-to
+as
 <
 JSScript
 >
@@ -3353,7 +3353,7 @@ obj
 &
 aThing
 .
-to
+as
 <
 JSObject
 >
@@ -4090,7 +4090,7 @@ obj
 &
 aThing
 .
-to
+as
 <
 JSObject
 >

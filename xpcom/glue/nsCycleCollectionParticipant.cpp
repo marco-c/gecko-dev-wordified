@@ -232,7 +232,7 @@ NoteJSObject
 &
 aGCThing
 .
-to
+as
 <
 JSObject
 >
@@ -262,7 +262,7 @@ NoteJSScript
 &
 aGCThing
 .
-to
+as
 <
 JSScript
 >

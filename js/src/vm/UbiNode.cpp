@@ -952,7 +952,7 @@ JSString
 &
 thing
 .
-to
+as
 <
 JSString
 >
@@ -982,7 +982,7 @@ Symbol
 &
 thing
 .
-to
+as
 <
 JS
 :

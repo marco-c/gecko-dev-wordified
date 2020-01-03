@@ -1293,7 +1293,7 @@ trc
 &
 shape
 .
-to
+as
 <
 Shape
 >
@@ -1339,7 +1339,7 @@ trc
 &
 group
 .
-to
+as
 <
 ObjectGroup
 >
@@ -5208,7 +5208,7 @@ GetWeakmapKeyDelegate
 &
 key
 .
-to
+as
 <
 JSObject
 >

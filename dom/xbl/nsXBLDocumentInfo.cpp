@@ -589,7 +589,7 @@ ExposeObjectToActiveJS
 &
 aPtr
 .
-to
+as
 <
 JSObject
 >
