@@ -1262,13 +1262,6 @@ aLayer
 MOZ_OVERRIDE
 ;
 virtual
-FenceHandle
-GetReleaseFence
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 void
 EndFrameForExternalComposition
 (
@@ -2360,9 +2353,6 @@ calculation
 /
 GLint
 mHeight
-;
-FenceHandle
-mReleaseFenceHandle
 ;
 }
 ;
