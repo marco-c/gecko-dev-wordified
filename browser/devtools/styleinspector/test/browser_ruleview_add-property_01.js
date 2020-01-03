@@ -357,6 +357,7 @@ editor
 yield
 focusEditableField
 (
+view
 elementRuleEditor
 .
 closeBrace

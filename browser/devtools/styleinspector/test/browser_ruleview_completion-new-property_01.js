@@ -431,6 +431,7 @@ editor
 yield
 focusEditableField
 (
+view
 brace
 )
 ;

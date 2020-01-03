@@ -260,6 +260,7 @@ editor
 yield
 focusEditableField
 (
+view
 propEditor
 .
 valueSpan
