@@ -337,6 +337,13 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+OnSurfaceDiscarded
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 SetInnerWindowID
 (
 uint64_t
