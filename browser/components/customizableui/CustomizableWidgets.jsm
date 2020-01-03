@@ -6738,7 +6738,7 @@ loop
 -
 call
 -
-button3
+button2
 .
 tooltiptext
 "
