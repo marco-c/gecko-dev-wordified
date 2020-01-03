@@ -417,15 +417,6 @@ prnetdb
 .
 h
 "
-#
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
 typedef
 struct
 nr_resolver_

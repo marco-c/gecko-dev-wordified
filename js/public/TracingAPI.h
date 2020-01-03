@@ -117,15 +117,6 @@ js_TracingAPI_h
 #
 include
 "
-mozilla
-/
-NullPtr
-.
-h
-"
-#
-include
-"
 jsalloc
 .
 h

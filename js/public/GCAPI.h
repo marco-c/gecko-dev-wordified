@@ -117,15 +117,6 @@ js_GCAPI_h
 #
 include
 "
-mozilla
-/
-NullPtr
-.
-h
-"
-#
-include
-"
 js
 /
 HeapAPI

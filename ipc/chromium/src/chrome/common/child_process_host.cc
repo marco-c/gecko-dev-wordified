@@ -350,7 +350,7 @@ false
 )
 process_event_
 (
-NULL
+nullptr
 )
 {
 Singleton

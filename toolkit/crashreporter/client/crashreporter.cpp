@@ -156,15 +156,6 @@ string
 .
 h
 >
-#
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
 using
 std
 :
