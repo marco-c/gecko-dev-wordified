@@ -9550,7 +9550,7 @@ enumerable
 true
 configurable
 :
-false
+true
 }
 )
 ;
