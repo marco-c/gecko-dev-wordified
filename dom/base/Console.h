@@ -193,6 +193,9 @@ class
 nsIConsoleAPIStorage
 ;
 class
+nsIProfiler
+;
+class
 nsIXPConnectJSObjectHolder
 ;
 namespace
@@ -1194,6 +1197,17 @@ nsIXPConnectJSObjectHolder
 >
 mSandbox
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
+nsCOMPtr
+<
+nsIProfiler
+>
+mProfiler
+;
+#
+endif
 nsDataHashtable
 <
 nsStringHashKey
