@@ -17846,16 +17846,13 @@ MaybeTransform
 TMatrix4x4
 )
 {
-gfx3DMatrix
+Matrix4x4
 matrix
 =
-To3DMatrix
-(
 transform
 .
 get_Matrix4x4
 (
-)
 )
 ;
 cssValue

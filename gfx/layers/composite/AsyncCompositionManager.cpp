@@ -3055,7 +3055,7 @@ perspective
 )
 )
 ;
-gfx3DMatrix
+Matrix4x4
 transform
 =
 nsDisplayTransform
@@ -3118,7 +3118,7 @@ appUnitsPerDevPixel
 ;
 transform
 .
-Translate
+PreTranslate
 (
 scaledOrigin
 )
@@ -3135,10 +3135,7 @@ AppendElement
 (
 TransformMatrix
 (
-ToMatrix4x4
-(
 transform
-)
 )
 )
 ;

@@ -203,13 +203,6 @@ h
 #
 include
 "
-gfx3DMatrix
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
@@ -6183,7 +6176,7 @@ nsRect
 &
 aBounds
 const
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 float
@@ -6278,7 +6271,7 @@ nsRect
 &
 aBounds
 const
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 float
@@ -6363,7 +6356,7 @@ nsPoint
 &
 aPoint
 const
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 float

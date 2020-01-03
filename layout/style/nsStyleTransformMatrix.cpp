@@ -1444,7 +1444,7 @@ static
 void
 ProcessMatrix
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -1656,18 +1656,17 @@ Height
 )
 ;
 aMatrix
-.
-PreMultiply
-(
+=
 result
-)
+*
+aMatrix
 ;
 }
 static
 void
 ProcessMatrix3D
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -1709,7 +1708,7 @@ array
 "
 )
 ;
-gfx3DMatrix
+Matrix4x4
 temp
 ;
 temp
@@ -1990,11 +1989,10 @@ nullptr
 )
 ;
 aMatrix
-.
-PreMultiply
-(
+=
 temp
-)
+*
+aMatrix
 ;
 }
 /
@@ -2016,7 +2014,7 @@ between
 void
 ProcessInterpolateMatrix
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -2058,7 +2056,7 @@ array
 "
 )
 ;
-gfx3DMatrix
+Matrix4x4
 matrix1
 matrix2
 ;
@@ -2203,7 +2201,7 @@ static
 void
 ProcessTranslateX
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -2275,7 +2273,7 @@ Width
 ;
 aMatrix
 .
-Translate
+PreTranslate
 (
 temp
 )
@@ -2297,7 +2295,7 @@ static
 void
 ProcessTranslateY
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -2369,7 +2367,7 @@ Height
 ;
 aMatrix
 .
-Translate
+PreTranslate
 (
 temp
 )
@@ -2379,7 +2377,7 @@ static
 void
 ProcessTranslateZ
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -2442,7 +2440,7 @@ nullptr
 ;
 aMatrix
 .
-Translate
+PreTranslate
 (
 temp
 )
@@ -2464,7 +2462,7 @@ static
 void
 ProcessTranslate
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -2600,7 +2598,7 @@ Height
 }
 aMatrix
 .
-Translate
+PreTranslate
 (
 temp
 )
@@ -2610,7 +2608,7 @@ static
 void
 ProcessTranslate3D
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -2726,7 +2724,7 @@ nullptr
 ;
 aMatrix
 .
-Translate
+PreTranslate
 (
 temp
 )
@@ -2749,7 +2747,7 @@ static
 void
 ProcessScaleHelper
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 float
@@ -2762,7 +2760,7 @@ aZScale
 {
 aMatrix
 .
-Scale
+PreScale
 (
 aXScale
 aYScale
@@ -2783,7 +2781,7 @@ static
 void
 ProcessScaleX
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -2849,7 +2847,7 @@ static
 void
 ProcessScaleY
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -2906,7 +2904,7 @@ static
 void
 ProcessScaleZ
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -2963,7 +2961,7 @@ static
 void
 ProcessScale3D
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -3045,7 +3043,7 @@ static
 void
 ProcessScale
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -3202,7 +3200,7 @@ static
 void
 ProcessSkewHelper
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 double
@@ -3238,7 +3236,7 @@ static
 void
 ProcessSkewX
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -3306,7 +3304,7 @@ static
 void
 ProcessSkewY
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -3374,7 +3372,7 @@ static
 void
 ProcessSkew
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -3487,7 +3485,7 @@ static
 void
 ProcessRotateZ
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -3544,7 +3542,7 @@ static
 void
 ProcessRotateX
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -3601,7 +3599,7 @@ static
 void
 ProcessRotateY
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -3658,7 +3656,7 @@ static
 void
 ProcessRotate3D
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -4055,7 +4053,7 @@ Normalize
 (
 )
 ;
-gfx3DMatrix
+Matrix4x4
 temp
 ;
 /
@@ -4351,7 +4349,7 @@ static
 void
 ProcessPerspective
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -4443,7 +4441,7 @@ static
 void
 MatrixForTransformFunction
 (
-gfx3DMatrix
+Matrix4x4
 &
 aMatrix
 const
@@ -4893,7 +4891,7 @@ GetKeywordValue
 )
 ;
 }
-gfx3DMatrix
+Matrix4x4
 ReadTransforms
 (
 const
@@ -4916,7 +4914,7 @@ float
 aAppUnitsPerMatrixUnit
 )
 {
-gfx3DMatrix
+Matrix4x4
 result
 ;
 for
@@ -5069,7 +5067,7 @@ aAppUnitsPerMatrixUnit
 ;
 result
 .
-Scale
+PreScale
 (
 1
 /
@@ -5084,7 +5082,7 @@ scale
 ;
 result
 .
-ScalePost
+PostScale
 (
 scale
 scale
