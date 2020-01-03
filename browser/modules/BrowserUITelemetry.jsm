@@ -3921,6 +3921,8 @@ Services
 search
 .
 currentEngine
+.
+name
 ;
 }
 return
