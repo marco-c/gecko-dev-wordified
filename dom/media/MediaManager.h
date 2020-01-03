@@ -602,7 +602,7 @@ AsSourceStream
 ;
 }
 void
-StopScreenWindowSharing
+StopSharing
 (
 )
 ;
