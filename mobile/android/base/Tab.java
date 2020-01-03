@@ -3327,9 +3327,10 @@ setHasOpenSearch
 false
 )
 ;
-updateIdentityData
+mSiteIdentity
+.
+reset
 (
-null
 )
 ;
 setZoomConstraints
@@ -3433,9 +3434,10 @@ STATE_LOADING
 STATE_SUCCESS
 )
 ;
-updateIdentityData
+mSiteIdentity
+.
+reset
 (
-null
 )
 ;
 }
