@@ -272,7 +272,7 @@ h
 #
 include
 "
-TelephonyDialCallback
+TelephonyCallback
 .
 h
 "
@@ -1191,12 +1191,12 @@ forget
 }
 nsCOMPtr
 <
-nsITelephonyDialCallback
+nsITelephonyCallback
 >
 callback
 =
 new
-TelephonyDialCallback
+TelephonyCallback
 (
 GetOwner
 (
