@@ -352,6 +352,12 @@ finish
 '
 )
 {
+worker
+.
+terminate
+(
+)
+;
 SpecialPowers
 .
 forceGC
