@@ -1263,7 +1263,7 @@ location
 ;
 AppManager
 .
-validateProject
+validateAndUpdateProject
 (
 project
 )
@@ -1306,7 +1306,7 @@ then
 {
 AppManager
 .
-validateProject
+validateAndUpdateProject
 (
 project
 )
