@@ -36138,7 +36138,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_ACTIVATE
+eMouseActivate
 this
 WidgetMouseEvent
 :

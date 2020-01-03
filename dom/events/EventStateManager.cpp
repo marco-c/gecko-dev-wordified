@@ -20807,7 +20807,7 @@ break
 ifdef
 XP_MACOSX
 case
-NS_MOUSE_ACTIVATE
+eMouseActivate
 :
 if
 (
