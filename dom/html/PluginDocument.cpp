@@ -961,6 +961,7 @@ MediaDocument
 UpdateTitleAndCharset
 (
 mMimeType
+aChannel
 )
 ;
 mStreamListener
