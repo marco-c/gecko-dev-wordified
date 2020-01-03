@@ -4462,11 +4462,11 @@ mWebBrowser
 {
 mPrompter
 =
-0
+nullptr
 ;
 mAuthPrompter
 =
-0
+nullptr
 ;
 }
 mWebBrowser
@@ -4601,7 +4601,7 @@ nullptr
 ;
 mWebBrowserChromeWeak
 =
-0
+nullptr
 ;
 }
 else
