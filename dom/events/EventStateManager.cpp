@@ -3900,7 +3900,7 @@ case
 ePointerDown
 :
 case
-NS_POINTER_MOVE
+ePointerMove
 :
 {
 /
@@ -25452,7 +25452,7 @@ refPoint
 ;
 }
 case
-NS_POINTER_MOVE
+ePointerMove
 :
 case
 ePointerDown

@@ -3420,7 +3420,7 @@ pointermove
 {
 msg
 =
-NS_POINTER_MOVE
+ePointerMove
 ;
 }
 else
