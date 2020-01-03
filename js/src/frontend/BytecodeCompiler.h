@@ -265,11 +265,7 @@ JS
 SourceBufferHolder
 &
 srcBuf
-Handle
-<
-ScopeObject
-*
->
+HandleObject
 enclosingStaticScope
 )
 ;
