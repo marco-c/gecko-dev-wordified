@@ -243,6 +243,7 @@ usp
 new
 URLSearchParams
 (
+nullptr
 )
 ;
 nsAutoString
@@ -580,6 +581,7 @@ usp
 new
 URLSearchParams
 (
+nullptr
 )
 ;
 usp
@@ -599,7 +601,6 @@ Length
 -
 1
 )
-nullptr
 )
 ;
 PopulateFromSuffixIterator

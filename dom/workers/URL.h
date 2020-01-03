@@ -635,14 +635,6 @@ SearchParams
 )
 ;
 void
-SetSearchParams
-(
-URLSearchParams
-&
-aSearchParams
-)
-;
-void
 GetHash
 (
 nsAString

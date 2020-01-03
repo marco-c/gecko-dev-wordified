@@ -8599,6 +8599,7 @@ params
 new
 URLSearchParams
 (
+nullptr
 )
 ;
 params
@@ -8607,12 +8608,6 @@ params
 ParseInput
 (
 data
-/
-*
-aObserver
-*
-/
-nullptr
 )
 ;
 nsRefPtr
