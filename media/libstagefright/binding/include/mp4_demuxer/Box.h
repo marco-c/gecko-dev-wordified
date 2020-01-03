@@ -388,6 +388,9 @@ MediaByteRange
 mRange
 ;
 uint64_t
+mBodyOffset
+;
+uint64_t
 mChildOffset
 ;
 AtomType
