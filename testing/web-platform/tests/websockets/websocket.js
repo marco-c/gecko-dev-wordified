@@ -64,7 +64,7 @@ default
 for
 now
 var
-__NEW_SECURE_PORT
+__NEW__SECURE__PORT
 =
 __PORT
 ;
