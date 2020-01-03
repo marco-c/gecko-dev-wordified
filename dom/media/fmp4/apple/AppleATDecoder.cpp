@@ -1616,8 +1616,10 @@ Length
 )
 )
 ;
+nsRefPtr
+<
 AudioData
-*
+>
 audio
 =
 new
