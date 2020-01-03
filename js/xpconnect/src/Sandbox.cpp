@@ -9587,6 +9587,16 @@ filename
 IsVoid
 (
 )
+&
+&
+filename
+.
+Length
+(
+)
+!
+=
+0
 )
 {
 filenameBuf
