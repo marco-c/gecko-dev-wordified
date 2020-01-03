@@ -982,7 +982,7 @@ CurrentThreadId
 /
 Create
 a
-hang
+crash
 report
 with
 two
