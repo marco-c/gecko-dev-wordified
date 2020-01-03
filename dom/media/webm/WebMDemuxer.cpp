@@ -774,6 +774,10 @@ mSeekPreroll
 (
 0
 )
+mLastAudioFrameTime
+(
+0
+)
 mLastVideoFrameTime
 (
 0
@@ -4040,6 +4044,14 @@ offset
 )
 ;
 }
+mLastAudioFrameTime
+=
+0
+;
+mLastVideoFrameTime
+=
+0
+;
 return
 NS_OK
 ;
