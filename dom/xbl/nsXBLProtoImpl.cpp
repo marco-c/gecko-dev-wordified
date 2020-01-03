@@ -3464,14 +3464,6 @@ nsXBLProtoImpl
 ;
 if
 (
-!
-impl
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-if
-(
 aClassName
 )
 impl
