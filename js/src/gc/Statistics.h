@@ -1037,6 +1037,8 @@ Reason
 reason
 int64_t
 start
+double
+startTimestamp
 size_t
 startFaults
 )
@@ -1056,6 +1058,10 @@ nullptr
 start
 (
 start
+)
+startTimestamp
+(
+startTimestamp
 )
 startFaults
 (
@@ -1107,6 +1113,10 @@ resetReason
 int64_t
 start
 end
+;
+double
+startTimestamp
+endTimestamp
 ;
 size_t
 startFaults
