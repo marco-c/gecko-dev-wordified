@@ -9097,6 +9097,8 @@ this
 mSourceBuffer
 targetSize
 aFlags
+mRequestedSampleSize
+mRequestedResolution
 mHasBeenDecoded
 mTransient
 imageIsLocked
@@ -9400,6 +9402,8 @@ CreateMetadataDecoder
 mDecoderType
 this
 mSourceBuffer
+mRequestedSampleSize
+mRequestedResolution
 )
 ;
 /
