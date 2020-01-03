@@ -3522,12 +3522,11 @@ HasExternalReference
 (
 )
 )
-XPCJSRuntime
-:
-:
-SuspectWrappedNative
-(
 wrapper
+-
+>
+Suspect
+(
 cb
 )
 ;
