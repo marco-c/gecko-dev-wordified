@@ -38103,13 +38103,6 @@ JS_BIT
 ;
 #
 endif
-pn
--
->
-pn_index
-=
-index
-;
 if
 (
 !
