@@ -2063,6 +2063,10 @@ lazyArrayBuffersTable
 &
 cStats
 .
+objectMetadataTable
+&
+cStats
+.
 crossCompartmentWrappersTable
 &
 cStats

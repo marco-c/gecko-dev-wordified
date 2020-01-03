@@ -23606,17 +23606,6 @@ getObjectFlags
 !
 =
 0
-|
-|
-shape
--
->
-getObjectMetadata
-(
-)
-!
-=
-nullptr
 )
 {
 return
