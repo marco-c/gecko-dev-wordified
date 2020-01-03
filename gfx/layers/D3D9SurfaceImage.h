@@ -311,6 +311,8 @@ aRegion
 D3D9RecycleAllocator
 *
 aAllocator
+bool
+aIsFirstFrame
 )
 :
 mSurface
@@ -324,6 +326,10 @@ aRegion
 mAllocator
 (
 aAllocator
+)
+mIsFirstFrame
+(
+aIsFirstFrame
 )
 {
 }
@@ -344,6 +350,9 @@ RefPtr
 D3D9RecycleAllocator
 >
 mAllocator
+;
+bool
+mIsFirstFrame
 ;
 }
 ;
@@ -497,6 +506,9 @@ mTextureClient
 ;
 bool
 mValid
+;
+bool
+mIsFirstFrame
 ;
 }
 ;

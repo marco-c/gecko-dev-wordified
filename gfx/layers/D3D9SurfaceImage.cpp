@@ -189,6 +189,10 @@ mValid
 (
 false
 )
+mIsFirstFrame
+(
+false
+)
 {
 }
 D3D9SurfaceImage
@@ -628,6 +632,12 @@ mQuery
 =
 query
 ;
+mIsFirstFrame
+=
+aData
+.
+mIsFirstFrame
+;
 return
 S_OK
 ;
@@ -690,7 +700,13 @@ while
 (
 iterations
 <
+(
+mIsFirstFrame
+?
+100
+:
 10
+)
 )
 {
 HRESULT

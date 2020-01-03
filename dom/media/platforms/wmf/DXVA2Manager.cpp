@@ -426,6 +426,9 @@ mDecoderService
 UINT32
 mResetToken
 ;
+bool
+mFirstFrame
+;
 }
 ;
 void
@@ -1107,6 +1110,10 @@ D3D9DXVA2Manager
 mResetToken
 (
 0
+)
+mFirstFrame
+(
+true
 )
 {
 MOZ_COUNT_CTOR
@@ -2087,8 +2094,13 @@ Data
 surface
 aRegion
 mTextureClientAllocator
+mFirstFrame
 )
 )
+;
+mFirstFrame
+=
+false
 ;
 image
 .
