@@ -2542,6 +2542,15 @@ js
 EXTRA_COMPONENTS
 +
 =
+dummy
+.
+manifest
+'
+                
+'
+EXTRA_COMPONENTS
++
+=
 foo
 .
 js

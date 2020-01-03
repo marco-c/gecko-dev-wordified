@@ -1047,6 +1047,11 @@ EXTRA_COMPONENTS
 :
 [
 '
+dummy
+.
+manifest
+'
+'
 fans
 .
 js
