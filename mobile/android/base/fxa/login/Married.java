@@ -1010,7 +1010,7 @@ clientState
 ;
 }
 public
-Cohabiting
+State
 makeCohabitingState
 (
 )
