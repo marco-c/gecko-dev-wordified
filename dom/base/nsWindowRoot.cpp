@@ -262,6 +262,10 @@ mWindow
 =
 aWindow
 ;
+SetIsNotDOMBinding
+(
+)
+;
 }
 nsWindowRoot
 :

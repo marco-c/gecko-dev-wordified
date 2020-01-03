@@ -9433,13 +9433,6 @@ network
 :
 Connection
 (
-)
-;
-mConnection
--
->
-Init
-(
 mWindow
 )
 ;

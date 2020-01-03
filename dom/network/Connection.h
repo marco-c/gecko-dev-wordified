@@ -190,11 +190,6 @@ DOMEventTargetHelper
 )
 Connection
 (
-)
-;
-void
-Init
-(
 nsPIDOMWindow
 *
 aWindow
