@@ -37666,7 +37666,7 @@ assert
 .
 *
 /
-MOZ_ALWAYS_TRUE
+MOZ_RELEASE_ASSERT
 (
 !
 rt
@@ -38469,7 +38469,7 @@ JS_AbortIfWrongThread
 rt
 )
 ;
-MOZ_ALWAYS_TRUE
+MOZ_RELEASE_ASSERT
 (
 !
 rt
