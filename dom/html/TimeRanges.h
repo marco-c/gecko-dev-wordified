@@ -304,6 +304,12 @@ object
 void
 Normalize
 (
+double
+aError
+=
+0
+.
+0
 )
 ;
 /
@@ -327,6 +333,8 @@ const
 TimeRanges
 *
 aOtherRanges
+double
+aError
 )
 ;
 /
