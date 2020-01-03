@@ -4056,6 +4056,11 @@ return
 length
 ;
 }
+bool
+improveThisTypesForCall
+(
+)
+;
 MDefinition
 *
 getCallee
