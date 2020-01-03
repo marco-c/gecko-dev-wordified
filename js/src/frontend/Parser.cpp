@@ -49070,6 +49070,16 @@ newRegExp
 (
 )
 {
+MOZ_ASSERT
+(
+!
+options
+(
+)
+.
+selfHostingMode
+)
+;
 /
 /
 Create
