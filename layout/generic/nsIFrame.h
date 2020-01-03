@@ -11716,9 +11716,6 @@ virtual
 IntrinsicISizeOffsetData
 IntrinsicISizeOffsets
 (
-nsRenderingContext
-*
-aRenderingContext
 )
 =
 0
@@ -11754,9 +11751,6 @@ parent
 IntrinsicISizeOffsetData
 IntrinsicBSizeOffsets
 (
-nsRenderingContext
-*
-aRenderingContext
 )
 ;
 virtual

@@ -30322,7 +30322,6 @@ aFrame
 >
 IntrinsicISizeOffsets
 (
-aRenderingContext
 )
 ;
 result

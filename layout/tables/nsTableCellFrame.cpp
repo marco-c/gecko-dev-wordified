@@ -4802,9 +4802,6 @@ nsTableCellFrame
 :
 IntrinsicISizeOffsets
 (
-nsRenderingContext
-*
-aRenderingContext
 )
 {
 IntrinsicISizeOffsetData
@@ -4815,7 +4812,6 @@ nsContainerFrame
 :
 IntrinsicISizeOffsets
 (
-aRenderingContext
 )
 ;
 result

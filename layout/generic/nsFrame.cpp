@@ -26939,9 +26939,6 @@ const
 nsStyleCoord
 &
 aStyle
-nsRenderingContext
-*
-aRenderingContext
 nsIFrame
 *
 aFrame
@@ -27158,9 +27155,6 @@ IntrinsicSizeOffsets
 nsIFrame
 *
 aFrame
-nsRenderingContext
-*
-aRenderingContext
 bool
 aForISize
 )
@@ -27226,7 +27220,6 @@ mMargin
 GetLeft
 (
 )
-aRenderingContext
 aFrame
 &
 result
@@ -27260,7 +27253,6 @@ mMargin
 GetRight
 (
 )
-aRenderingContext
 aFrame
 &
 result
@@ -27306,7 +27298,6 @@ mPadding
 GetLeft
 (
 )
-aRenderingContext
 aFrame
 &
 result
@@ -27340,7 +27331,6 @@ mPadding
 GetRight
 (
 )
-aRenderingContext
 aFrame
 &
 result
@@ -27642,16 +27632,12 @@ nsFrame
 :
 IntrinsicISizeOffsets
 (
-nsRenderingContext
-*
-aRC
 )
 {
 return
 IntrinsicSizeOffsets
 (
 this
-aRC
 true
 )
 ;
@@ -27665,16 +27651,12 @@ nsIFrame
 :
 IntrinsicBSizeOffsets
 (
-nsRenderingContext
-*
-aRC
 )
 {
 return
 IntrinsicSizeOffsets
 (
 this
-aRC
 false
 )
 ;

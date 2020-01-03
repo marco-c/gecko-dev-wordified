@@ -644,7 +644,6 @@ aFrame
 >
 IntrinsicISizeOffsets
 (
-aRenderingContext
 )
 ;
 /
