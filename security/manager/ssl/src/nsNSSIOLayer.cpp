@@ -6252,12 +6252,12 @@ false
 }
 /
 /
-Allow
+Disallow
 PR_CONNECT_RESET_ERROR
-only
-for
-whitelisted
-sites
+if
+fallback
+limit
+reached
 .
 if
 (
@@ -6267,7 +6267,6 @@ err
 PR_CONNECT_RESET_ERROR
 &
 &
-!
 socketInfo
 -
 >
@@ -6279,7 +6278,7 @@ IOLayerHelpers
 (
 )
 .
-isInsecureFallbackSite
+fallbackLimitReached
 (
 socketInfo
 -
@@ -6287,6 +6286,9 @@ socketInfo
 GetHostName
 (
 )
+range
+.
+max
 )
 )
 {
