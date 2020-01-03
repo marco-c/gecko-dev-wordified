@@ -1168,9 +1168,7 @@ timeout_ms
 #
 Set
 a
-1
-.
-5x
+3x
 timeout
 margin
 to
@@ -1183,9 +1181,7 @@ failures
 timeout
 *
 =
-1
-.
-5
+3
         
 #
 Tap
