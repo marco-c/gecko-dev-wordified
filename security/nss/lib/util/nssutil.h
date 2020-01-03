@@ -153,8 +153,9 @@ NSSUTIL_VERSION
 "
 3
 .
-18
-Beta
+17
+.
+3
 "
 #
 define
@@ -163,11 +164,11 @@ NSSUTIL_VMAJOR
 #
 define
 NSSUTIL_VMINOR
-18
+17
 #
 define
 NSSUTIL_VPATCH
-0
+3
 #
 define
 NSSUTIL_VBUILD
@@ -175,7 +176,7 @@ NSSUTIL_VBUILD
 #
 define
 NSSUTIL_BETA
-PR_TRUE
+PR_FALSE
 SEC_BEGIN_PROTOS
 /
 *
