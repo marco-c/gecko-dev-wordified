@@ -2584,7 +2584,7 @@ return
 nsIContentPolicy
 :
 :
-TYPE_SCRIPT
+TYPE_INTERNAL_SERVICE_WORKER
 ;
 default
 :
