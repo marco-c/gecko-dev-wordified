@@ -191,3 +191,10 @@ CSS_SELECTOR
 css
 selector
 "
+    
+ANON_ATTRIBUTE
+=
+"
+anon
+attribute
+"
