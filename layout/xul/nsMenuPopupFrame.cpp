@@ -3360,7 +3360,7 @@ nsLayoutUtils
 :
 HasCurrentAnimations
 (
-mContent
+this
 nsGkAtoms
 :
 :

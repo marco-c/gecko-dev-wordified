@@ -7088,7 +7088,7 @@ nsLayoutUtils
 :
 HasAnimationsForCompositor
 (
-mContent
+this
 eCSSProperty_transform
 )
 &
@@ -7185,7 +7185,7 @@ nsLayoutUtils
 :
 HasAnimationsForCompositor
 (
-mContent
+this
 eCSSProperty_opacity
 )
 &
@@ -12511,7 +12511,7 @@ nsLayoutUtils
 :
 HasAnimations
 (
-mContent
+this
 eCSSProperty_opacity
 )
 &

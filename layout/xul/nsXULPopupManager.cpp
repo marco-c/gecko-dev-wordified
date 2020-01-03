@@ -9486,7 +9486,7 @@ nsLayoutUtils
 :
 HasCurrentAnimations
 (
-aPopup
+popupFrame
 nsGkAtoms
 :
 :
