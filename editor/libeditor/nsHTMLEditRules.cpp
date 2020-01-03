@@ -40861,6 +40861,8 @@ Length
 ;
 nsresult
 res
+=
+NS_OK
 ;
 /
 /
@@ -41088,7 +41090,6 @@ aArrayOfRanges
 nsDOMSubtreeIterator
 iter
 ;
-nsresult
 res
 =
 iter
