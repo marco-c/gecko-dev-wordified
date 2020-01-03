@@ -5413,6 +5413,10 @@ const
 nsIntRegion
 &
 aPaintRegion
+const
+nsIntRegion
+&
+aDirtyRegion
 LayerManager
 :
 :
@@ -5767,6 +5771,7 @@ mCallback
 mPaintedLayer
 ctxt
 aPaintRegion
+aDirtyRegion
 DrawRegionClip
 :
 :
@@ -6910,6 +6915,7 @@ mCallback
 (
 mPaintedLayer
 ctx
+aPaintRegion
 aPaintRegion
 DrawRegionClip
 :
@@ -11191,6 +11197,7 @@ PaintThebes
 (
 validOrStale
 regionToPaint
+aInvalidRegion
 aCallback
 aCallbackData
 )

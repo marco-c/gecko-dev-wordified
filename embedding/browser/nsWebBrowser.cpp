@@ -9235,6 +9235,10 @@ const
 nsIntRegion
 &
 aRegionToDraw
+const
+nsIntRegion
+&
+aDirtyRegion
 DrawRegionClip
 aClip
 const
