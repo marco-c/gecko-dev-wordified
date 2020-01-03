@@ -121,11 +121,11 @@ marionette
 .
 absolute_url
 (
-'
+"
 empty
 .
 html
-'
+"
 )
         
 self
@@ -176,12 +176,14 @@ marionette
 .
 _send_message
 (
-'
+"
 getContext
-'
-'
+"
+key
+=
+"
 value
-'
+"
 )
     
 def
