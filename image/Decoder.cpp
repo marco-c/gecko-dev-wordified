@@ -2482,7 +2482,7 @@ aFrameOpacity
 Opacity
 :
 :
-TRANSPARENT
+SOME_TRANSPARENCY
 *
 /
 DisposalMethod
