@@ -422,9 +422,6 @@ sdk
 :
 {
 }
-pendingCallTimeout
-:
-1000
 }
 )
 ;

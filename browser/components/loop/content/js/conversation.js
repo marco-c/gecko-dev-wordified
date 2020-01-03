@@ -2759,6 +2759,9 @@ sharedViews
 ConversationView
 (
 {
+initiate
+:
+true
 sdk
 :
 OT
@@ -2945,6 +2948,16 @@ FeedbackView
 feedbackApiClient
 :
 feedbackClient
+onAfterFeedbackReceived
+:
+window
+.
+close
+.
+bind
+(
+window
+)
 }
 )
 )
