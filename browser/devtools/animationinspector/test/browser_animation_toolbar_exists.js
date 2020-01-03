@@ -100,7 +100,6 @@ html
 let
 {
 inspector
-panel
 window
 }
 =

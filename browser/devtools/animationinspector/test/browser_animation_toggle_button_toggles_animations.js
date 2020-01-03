@@ -137,7 +137,6 @@ html
 ;
 let
 {
-inspector
 panel
 }
 =
