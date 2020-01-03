@@ -4217,7 +4217,7 @@ AddMediaElementToURITable
 Call
 this
 before
-clearing
+modifying
 mLoadingSrc
 .
 *
