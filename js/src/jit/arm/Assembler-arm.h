@@ -1347,7 +1347,7 @@ true
 static
 const
 uint32_t
-StackAlignment
+ABIStackAlignment
 =
 8
 ;
@@ -1357,13 +1357,6 @@ uint32_t
 CodeAlignment
 =
 8
-;
-static
-const
-bool
-StackKeptAligned
-=
-true
 ;
 /
 /
@@ -1440,6 +1433,13 @@ uint32_t
 SimdStackAlignment
 =
 8
+;
+static
+const
+uint32_t
+AsmJSStackAlignment
+=
+SimdStackAlignment
 ;
 static
 const

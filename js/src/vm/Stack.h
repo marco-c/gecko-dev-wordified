@@ -9115,7 +9115,7 @@ prevAsmJSForModule_
 ;
 void
 *
-errorRejoinSP_
+entrySP_
 ;
 SPSProfiler
 *
@@ -9301,7 +9301,7 @@ code
 :
 static
 unsigned
-offsetOfErrorRejoinSP
+offsetOfEntrySP
 (
 )
 {
@@ -9309,7 +9309,7 @@ return
 offsetof
 (
 AsmJSActivation
-errorRejoinSP_
+entrySP_
 )
 ;
 }
