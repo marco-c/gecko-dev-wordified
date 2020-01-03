@@ -130,13 +130,6 @@ set
 #
 include
 "
-MP4Reader
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h

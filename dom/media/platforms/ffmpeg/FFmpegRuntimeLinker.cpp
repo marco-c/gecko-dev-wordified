@@ -444,6 +444,13 @@ sLinkStatus
 LinkStatus_SUCCEEDED
 ;
 }
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 for
 (
 size_t
