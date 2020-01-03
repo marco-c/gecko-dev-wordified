@@ -1675,7 +1675,10 @@ return
 mPaletteDepth
 ?
 (
+size_t
+(
 1
+)
 <
 <
 mPaletteDepth
