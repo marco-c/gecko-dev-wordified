@@ -232,17 +232,6 @@ MaybeCompletePlaceholder
 (
 )
 ;
-void
-HandleSearchResult
-(
-nsIAutoCompleteSearch
-*
-aSearch
-nsIAutoCompleteResult
-*
-aResult
-)
-;
 nsresult
 ProcessResult
 (
