@@ -2876,6 +2876,14 @@ clip
 to
 a
 rect
+void
+Clip
+(
+Path
+*
+aPath
+)
+;
 /
 *
 *
