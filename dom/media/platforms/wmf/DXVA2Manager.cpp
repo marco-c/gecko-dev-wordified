@@ -2489,6 +2489,7 @@ adapter
 .
 VendorId
 =
+=
 0x1022
 )
 {
@@ -3877,6 +3878,7 @@ hr
 )
 &
 &
+(
 id
 =
 =
@@ -3887,6 +3889,7 @@ id
 =
 =
 DXVA2_Intel_ModeH264_E
+)
 )
 {
 mDecoderGUID
@@ -4156,6 +4159,7 @@ if
 adapterDesc
 .
 VendorId
+=
 =
 0x1022
 )
