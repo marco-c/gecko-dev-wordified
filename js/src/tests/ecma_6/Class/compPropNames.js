@@ -2244,6 +2244,18 @@ get
 and
 set
 .
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 expr
 =
 Symbol
@@ -2331,6 +2343,7 @@ expr
 4
 )
 ;
+}
 /
 /
 expressions
