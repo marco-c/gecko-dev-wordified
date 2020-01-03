@@ -2445,6 +2445,24 @@ message
 jobs
 )
         
+#
+once
+everything
+uses
+in
+-
+tree
+mozharness
+(
+bug
+1187706
+)
+this
+can
+go
+away
+.
+        
 mozharness
 =
 load_mozharness_info
