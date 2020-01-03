@@ -4308,12 +4308,7 @@ ccx
 JS_CALLER
 cx
 obj
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 name
 args
 .

@@ -1800,9 +1800,7 @@ NewObjectWithGivenProto
 (
 cx
 clasp
-NullPtr
-(
-)
+nullptr
 SingletonObject
 )
 ;
@@ -3701,9 +3699,7 @@ NewNativeObjectWithGivenProto
 cx
 &
 GlobalDebuggees_class
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

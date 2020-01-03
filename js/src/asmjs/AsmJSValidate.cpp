@@ -52307,9 +52307,7 @@ mir
 graph
 (
 )
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

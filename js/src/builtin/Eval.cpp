@@ -3734,12 +3734,8 @@ script
 CloneScript
 (
 cx
-NullPtr
-(
-)
-NullPtr
-(
-)
+nullptr
+nullptr
 script
 )
 ;

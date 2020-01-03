@@ -1443,9 +1443,7 @@ ReportIsNullOrUndefined
 cx
 spindex
 v
-NullPtr
-(
-)
+nullptr
 )
 ;
 return

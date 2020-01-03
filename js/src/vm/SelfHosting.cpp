@@ -1214,9 +1214,7 @@ DecompileValueGenerator
 cx
 JSDVG_SEARCH_STACK
 val
-NullPtr
-(
-)
+nullptr
 )
 ;
 if
@@ -11823,9 +11821,7 @@ JSREPORT_ERROR
 JSMSG_NO_SUCH_SELF_HOSTED_PROP
 JSDVG_IGNORE_STACK
 value
-NullPtr
-(
-)
+nullptr
 nullptr
 nullptr
 )
@@ -11868,9 +11864,7 @@ JSREPORT_ERROR
 JSMSG_NO_SUCH_SELF_HOSTED_PROP
 JSDVG_IGNORE_STACK
 value
-NullPtr
-(
-)
+nullptr
 nullptr
 nullptr
 )
@@ -13002,9 +12996,7 @@ clone
 NewDenseEmptyArray
 (
 cx
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 ;
@@ -13032,9 +13024,7 @@ selfHostedObject
 getClass
 (
 )
-NullPtr
-(
-)
+nullptr
 selfHostedObject
 -
 >
@@ -13514,9 +13504,7 @@ cscript
 CloneScript
 (
 cx
-NullPtr
-(
-)
+nullptr
 targetFun
 sourceScript
 )

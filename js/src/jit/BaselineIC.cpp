@@ -41070,9 +41070,7 @@ JSMSG_IN_NOT_OBJECT
 -
 1
 objValue
-NullPtr
-(
-)
+nullptr
 )
 ;
 return
@@ -66344,9 +66342,7 @@ NewDenseUnallocatedArray
 (
 cx
 count
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 )
@@ -66410,9 +66406,7 @@ NewDenseUnallocatedArray
 (
 cx
 0
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 )
@@ -66642,9 +66636,7 @@ NewDenseUnallocatedArray
 (
 cx
 0
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 )
@@ -69151,9 +69143,7 @@ NewDenseFullyAllocatedArray
 (
 cx
 length
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 )
@@ -81656,9 +81646,7 @@ JSMSG_BAD_INSTANCEOF_RHS
 -
 1
 rhs
-NullPtr
-(
-)
+nullptr
 )
 ;
 return
@@ -87374,9 +87362,7 @@ NewDenseCopiedArray
 cx
 numRest
 rest
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

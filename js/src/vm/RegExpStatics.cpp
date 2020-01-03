@@ -421,9 +421,7 @@ RegExpStaticsObject
 >
 (
 cx
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

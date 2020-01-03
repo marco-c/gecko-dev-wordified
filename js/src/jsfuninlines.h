@@ -348,9 +348,7 @@ parent
 HandleObject
 proto
 =
-NullPtr
-(
-)
+nullptr
 NewObjectKind
 newKind
 =

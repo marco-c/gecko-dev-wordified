@@ -1199,12 +1199,7 @@ port
 WrapObject
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 )
 ;

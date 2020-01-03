@@ -2152,9 +2152,7 @@ SharedArrayBufferObject
 :
 byteLengthGetter
 0
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

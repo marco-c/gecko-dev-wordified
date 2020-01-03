@@ -5722,9 +5722,7 @@ NewDenseCopiedArray
 cx
 length
 rest
-NullPtr
-(
-)
+nullptr
 newKind
 )
 ;

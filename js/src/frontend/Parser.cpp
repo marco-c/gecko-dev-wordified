@@ -8235,9 +8235,7 @@ context
 nullptr
 0
 flags
-NullPtr
-(
-)
+nullptr
 atom
 proto
 allocKind
@@ -42320,9 +42318,7 @@ functionDef
 (
 inHandling
 yieldHandling
-NullPtr
-(
-)
+nullptr
 Arrow
 NotGenerator
 )
@@ -47441,9 +47437,7 @@ atom
 =
 *
 /
-NullPtr
-(
-)
+nullptr
 Expression
 proto
 )

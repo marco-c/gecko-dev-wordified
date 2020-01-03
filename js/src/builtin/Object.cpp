@@ -4441,9 +4441,7 @@ DecompileValueGenerator
 cx
 JSDVG_SEARCH_STACK
 v
-NullPtr
-(
-)
+nullptr
 )
 ;
 if
@@ -7339,9 +7337,7 @@ PlainObject
 >
 (
 cx
-NullPtr
-(
-)
+nullptr
 SingletonObject
 )
 )

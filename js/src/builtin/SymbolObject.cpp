@@ -1153,12 +1153,7 @@ JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 arg
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 "
 not
 a

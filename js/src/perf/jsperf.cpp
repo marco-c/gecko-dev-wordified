@@ -1194,9 +1194,7 @@ DecompileValueGenerator
 cx
 JSDVG_SEARCH_STACK
 value
-NullPtr
-(
-)
+nullptr
 )
 ;
 if
@@ -1351,12 +1349,7 @@ JS_InitClass
 (
 cx
 global
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 /
 *
 parent

@@ -1032,12 +1032,7 @@ aNode
 true
 aDeep
 aNewNodeInfoManager
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 aNodesWithProperties
 nullptr
 aResult
@@ -1090,12 +1085,7 @@ aNode
 true
 aDeep
 nullptr
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 dummyNodeWithProperties
 aNode
 -

@@ -1144,12 +1144,7 @@ JS_Stringify
 cx
 &
 vp
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 JS
 :
 :
@@ -1555,12 +1550,7 @@ JS_Stringify
 cx
 &
 val
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 JS
 :
 :

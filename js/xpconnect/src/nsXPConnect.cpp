@@ -7311,9 +7311,7 @@ WriteScriptOrFunction
 stream
 cx
 script
-NullPtr
-(
-)
+nullptr
 )
 ;
 }

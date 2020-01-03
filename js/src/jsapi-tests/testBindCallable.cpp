@@ -219,12 +219,7 @@ called
 JS_CallFunctionValue
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 fun
 JS
 :

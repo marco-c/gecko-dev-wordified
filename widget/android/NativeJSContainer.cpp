@@ -5768,12 +5768,7 @@ JS_Stringify
 cx
 &
 value
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 JS
 :
 :

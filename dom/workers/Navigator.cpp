@@ -822,12 +822,7 @@ workerStore
 WrapObject
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

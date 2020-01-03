@@ -272,10 +272,8 @@ JS
 :
 :
 GCCellPtr
-:
-:
-NullPtr
 (
+nullptr
 )
 )
 ;
@@ -424,10 +422,8 @@ JS
 :
 :
 GCCellPtr
-:
-:
-NullPtr
 (
+nullptr
 )
 )
 ;

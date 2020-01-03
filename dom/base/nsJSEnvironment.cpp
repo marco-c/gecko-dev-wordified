@@ -13473,12 +13473,7 @@ key
 WrapObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 }
@@ -13828,12 +13823,7 @@ ndefRecord
 WrapObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 :
 nullptr

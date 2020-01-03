@@ -155,12 +155,7 @@ JS_InitClass
 (
 cx
 global
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 &
 ObjectEmulatingUndefinedClass
 ObjectEmulatingUndefinedConstructor
@@ -341,12 +336,7 @@ JS_InitClass
 (
 cx
 global
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 &
 ObjectEmulatingUndefinedClass
 ObjectEmulatingUndefinedConstructor

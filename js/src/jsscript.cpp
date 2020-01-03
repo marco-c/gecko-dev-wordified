@@ -7887,9 +7887,7 @@ Create
 (
 cx
 fun
-NullPtr
-(
-)
+nullptr
 enclosingScope
 enclosingScript
 packedFields
@@ -9190,9 +9188,7 @@ NewObjectWithGivenProto
 cx
 &
 class_
-NullPtr
-(
-)
+nullptr
 )
 )
 ;
@@ -22186,9 +22182,7 @@ StaticEvalObject
 create
 (
 cx
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

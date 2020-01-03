@@ -2463,12 +2463,7 @@ blob
 WrapObject
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 )
 ;
@@ -2778,12 +2773,7 @@ formData
 WrapObject
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 )
 ;

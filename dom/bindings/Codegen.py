@@ -21679,12 +21679,7 @@ JSCLASS_DOM_GLOBAL
 {
               
 return
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 ;
             
 }
@@ -78588,12 +78583,7 @@ return
 AppendNamedPropertyIds
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 names
 true
 props

@@ -4654,9 +4654,7 @@ NewObjectWithClassProto
 (
 cx
 clasp
-NullPtr
-(
-)
+nullptr
 allocKind
 newKind
 )

@@ -1123,12 +1123,7 @@ cx
 JSMSG_INVALID_TRAP_RESULT
 JSDVG_IGNORE_STACK
 v
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 bytes
 .
 ptr
@@ -4182,12 +4177,7 @@ cx
 JSMSG_CANT_DELETE
 JSDVG_IGNORE_STACK
 v
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 return

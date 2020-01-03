@@ -3506,12 +3506,7 @@ if
 JS_CallFunctionValue
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 callback
 JS
 :

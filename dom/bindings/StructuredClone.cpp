@@ -309,12 +309,7 @@ imageData
 WrapObject
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 &
 result
 )

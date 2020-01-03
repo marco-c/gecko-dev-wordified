@@ -954,12 +954,7 @@ cx
 JSMSG_BAD_TRAP_RETURN_VALUE
 JSDVG_SEARCH_STACK
 val
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 bytes
 .
 ptr
@@ -3646,12 +3641,7 @@ Jsvalify
 &
 CallConstructHolder
 )
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 )
 ;

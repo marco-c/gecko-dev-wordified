@@ -9854,12 +9854,7 @@ ArrayBufferObject
 :
 byteLengthGetter
 0
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

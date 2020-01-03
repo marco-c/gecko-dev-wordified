@@ -328,12 +328,7 @@ JS_InitClass
 (
 cx
 global
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 &
 ptestClass
 PTest

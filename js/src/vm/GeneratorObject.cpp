@@ -634,9 +634,7 @@ cx
 JSMSG_BAD_GENERATOR_YIELD
 JSDVG_IGNORE_STACK
 val
-NullPtr
-(
-)
+nullptr
 )
 ;
 return
@@ -2286,9 +2284,7 @@ JSFunction
 :
 :
 NATIVE_CTOR
-NullPtr
-(
-)
+nullptr
 name
 proto
 )

@@ -2138,12 +2138,7 @@ cur
 HandleAtom
 prefixArg
 =
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 {
 RootedAtom

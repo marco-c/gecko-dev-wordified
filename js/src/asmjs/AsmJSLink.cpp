@@ -6303,9 +6303,7 @@ enclosingScope
 =
 *
 /
-NullPtr
-(
-)
+nullptr
 )
 )
 return

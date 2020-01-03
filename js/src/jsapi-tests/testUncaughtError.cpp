@@ -160,12 +160,7 @@ CreateError
 (
 cx
 JSEXN_TYPEERR
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 empty
 0
 0

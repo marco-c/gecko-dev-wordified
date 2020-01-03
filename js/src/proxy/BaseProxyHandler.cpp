@@ -1874,12 +1874,7 @@ cx
 JSMSG_BAD_INSTANCEOF_RHS
 JSDVG_SEARCH_STACK
 val
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 return
