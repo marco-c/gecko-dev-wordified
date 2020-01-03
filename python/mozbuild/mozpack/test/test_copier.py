@@ -89,6 +89,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 unittest
 import
@@ -1388,9 +1390,7 @@ all_dirs
 .
 add
 (
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1440,15 +1440,11 @@ all_files
 add
 (
                     
-mozpack
-.
-path
+mozpath
 .
 join
 (
-mozpack
-.
-path
+mozpath
 .
 relpath
 (

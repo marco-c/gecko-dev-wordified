@@ -126,12 +126,6 @@ from
 configenvironment
 import
 ConfigEnvironment
-import
-mozpack
-.
-path
-as
-mozpath
 class
 BackendConsumeSummary
 (

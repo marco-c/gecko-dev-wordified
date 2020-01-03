@@ -79,6 +79,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 from
 mozpack
 .
@@ -308,9 +310,7 @@ includes
 =
 set
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -348,9 +348,7 @@ self
 bases
 =
 [
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -566,9 +564,7 @@ ManifestChrome
             
 base
 =
-mozpack
-.
-path
+mozpath
 .
 basedir
 (
@@ -648,9 +644,7 @@ ManifestEntryWithRelPath
             
 base
 =
-mozpack
-.
-path
+mozpath
 .
 basedir
 (
@@ -774,9 +768,7 @@ bases
             
 path
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -973,9 +965,7 @@ else
             
 base
 =
-mozpack
-.
-path
+mozpath
 .
 basedir
 (
@@ -993,9 +983,7 @@ base
                 
 subpath
 =
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1005,15 +993,11 @@ base
                 
 path
 =
-mozpack
-.
-path
+mozpath
 .
 normpath
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1169,9 +1153,7 @@ base
         
 path
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1215,9 +1197,7 @@ l10n_manifests
         
 base
 =
-mozpack
-.
-path
+mozpath
 .
 basedir
 (
@@ -1264,9 +1244,7 @@ add
 Manifest
 (
 base
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1280,9 +1258,7 @@ packager
 .
 add
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1331,9 +1307,7 @@ l10n_finder
 .
 find
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (

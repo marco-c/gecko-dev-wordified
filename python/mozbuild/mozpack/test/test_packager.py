@@ -120,6 +120,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 MANIFEST
 =
 '
@@ -641,9 +643,7 @@ files
 :
             
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (

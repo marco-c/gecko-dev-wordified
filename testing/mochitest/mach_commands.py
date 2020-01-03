@@ -65,6 +65,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 mozpack
 .
@@ -1075,9 +1077,7 @@ chrome
                 
 test_root_file
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1098,9 +1098,7 @@ else
                 
 test_root_file
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (

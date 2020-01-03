@@ -57,6 +57,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 from
 mozpack
 .
@@ -318,9 +320,7 @@ continue
             
 base
 =
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -408,9 +408,7 @@ and
 \
                     
 (
-mozpack
-.
-path
+mozpath
 .
 basename
 (
@@ -462,9 +460,7 @@ self
 .
 omnijar
 =
-mozpack
-.
-path
+mozpath
 .
 basename
 (
@@ -638,9 +634,7 @@ jar
             
 path
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -681,9 +675,7 @@ path
 else
 ManifestFile
 (
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -955,9 +947,7 @@ jars
                 
 base
 =
-mozpack
-.
-path
+mozpath
 .
 splitext
 (
@@ -985,9 +975,7 @@ files
 .
 add
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1312,9 +1300,7 @@ entry
 .
 rebase
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1335,16 +1321,12 @@ jar
 .
 move
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
 base
-mozpack
-.
-path
+mozpath
 .
 splitext
 (
@@ -1364,9 +1346,7 @@ base
 )
         
 return
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1447,9 +1427,7 @@ find
 :
         
 if
-mozpack
-.
-path
+mozpath
 .
 split
 (

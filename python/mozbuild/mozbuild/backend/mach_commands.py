@@ -65,10 +65,6 @@ glob
 import
 logging
 import
-mozpack
-.
-path
-import
 os
 import
 sys

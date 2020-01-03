@@ -63,6 +63,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 os
 import
@@ -122,12 +124,6 @@ from
 tempfile
 import
 mkdtemp
-import
-mozpack
-.
-path
-as
-mozpath
 DEFAULT_PORT
 =
 8080
