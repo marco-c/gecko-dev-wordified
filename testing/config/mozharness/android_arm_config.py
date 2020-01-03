@@ -498,7 +498,7 @@ run_filename
 "
 :
 "
-runtestsremote
+runrobocop
 .
 py
 "
@@ -697,18 +697,6 @@ apk
 robocop
 .
 apk
-"
-                
-"
--
--
-robocop
--
-ids
-=
-fennec_ids
-.
-txt
 "
                 
 "

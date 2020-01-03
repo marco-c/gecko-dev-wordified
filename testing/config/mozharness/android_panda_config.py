@@ -1142,7 +1142,7 @@ run_filename
 "
 :
 "
-runtestsremote
+runrobocop
 .
 py
 "

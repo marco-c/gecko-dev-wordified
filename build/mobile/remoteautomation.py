@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+datetime
+import
 glob
 import
 time
@@ -1119,6 +1121,27 @@ pullFile
 traces
 )
                 
+if
+t
+:
+                    
+stripped
+=
+t
+.
+strip
+(
+)
+                    
+if
+len
+(
+stripped
+)
+>
+0
+:
+                        
 print
 "
 Contents
@@ -1129,7 +1152,7 @@ s
 "
 %
 traces
-                
+                        
 print
 t
                 
@@ -2317,18 +2340,6 @@ self
 procName
 =
 app
-                
-print
-"
-Robocop
-process
-name
-:
-"
-+
-self
-.
-procName
             
 #
 Setting
@@ -2957,7 +2968,7 @@ noOutputTimer
             
 interval
 =
-20
+10
             
 if
 timeout
@@ -2976,15 +2987,19 @@ status
 =
 0
             
-while
-(
+top
+=
 self
 .
-dm
-.
-getTopActivity
+procName
+            
+slowLog
+=
+False
+            
+while
 (
-)
+top
 =
 =
 self
@@ -2994,21 +3009,53 @@ procName
 :
                 
 #
-retrieve
+Get
 log
 updates
+on
+each
+interval
+but
+if
+it
+is
+taking
+                
+#
+too
+long
+only
+do
+it
 every
 60
 seconds
                 
 if
+(
+not
+slowLog
+)
+or
+(
 timer
 %
 60
 =
 =
 0
+)
 :
+                    
+startRead
+=
+datetime
+.
+datetime
+.
+now
+(
+)
                     
 messages
 =
@@ -3017,6 +3064,33 @@ self
 read_stdout
 (
 )
+                    
+if
+(
+datetime
+.
+datetime
+.
+now
+(
+)
+-
+startRead
+)
+>
+datetime
+.
+timedelta
+(
+seconds
+=
+5
+)
+:
+                        
+slowLog
+=
+True
                     
 if
 messages
@@ -3072,6 +3146,16 @@ status
 2
                     
 break
+                
+top
+=
+self
+.
+dm
+.
+getTopActivity
+(
+)
             
 #
 Flush

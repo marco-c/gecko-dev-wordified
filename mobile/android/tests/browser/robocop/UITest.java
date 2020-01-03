@@ -512,7 +512,16 @@ takeScreenshot
 robocop
 -
 screenshot
+-
 "
++
+getClass
+(
+)
+.
+getName
+(
+)
 )
 ;
 if
