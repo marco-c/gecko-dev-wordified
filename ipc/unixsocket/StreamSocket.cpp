@@ -1879,7 +1879,6 @@ ReceiveData
 GetFd
 (
 )
-this
 )
 ;
 if
@@ -1973,7 +1972,6 @@ SendPendingData
 GetFd
 (
 )
-this
 )
 ;
 if

@@ -1604,7 +1604,6 @@ res
 ReceiveData
 (
 aFd
-this
 )
 ;
 if
@@ -2243,7 +2242,6 @@ rv
 SendPendingData
 (
 aFd
-this
 )
 ;
 if
