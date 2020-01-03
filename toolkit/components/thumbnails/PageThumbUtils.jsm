@@ -904,6 +904,18 @@ return
 false
 ;
 }
+let
+webNav
+=
+aDocShell
+.
+QueryInterface
+(
+Ci
+.
+nsIWebNavigation
+)
+;
 /
 /
 Don
@@ -918,7 +930,7 @@ pages
 .
 if
 (
-aDocShell
+webNav
 .
 currentURI
 .
