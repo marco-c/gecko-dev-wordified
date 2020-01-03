@@ -1655,7 +1655,7 @@ mPrefFonts
 }
 ;
 bool
-DoesD3D11DeviceSupportResourceSharing
+DoesD3D11DeviceWork
 (
 ID3D11Device
 *
