@@ -3561,6 +3561,7 @@ kIsJumpLinesOk
 kIsScrollViewAStop
 kIsKeyboardSelect
 kIsVisualBidi
+false
 aWordMovementType
 )
 ;
