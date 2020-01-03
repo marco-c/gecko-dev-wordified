@@ -681,6 +681,17 @@ url
 *
 param
 {
+String
+}
+simplepushUrl
+a
+registered
+Simple
+Push
+URL
+*
+param
+{
 string
 }
 nickname
