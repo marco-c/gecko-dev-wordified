@@ -1461,6 +1461,7 @@ hadOutOfMemory
 (
 )
 )
+{
 c1Printer_
 .
 exportInto
@@ -1468,6 +1469,13 @@ exportInto
 c1Out
 )
 ;
+c1Out
+.
+flush
+(
+)
+;
+}
 c1Printer_
 .
 clear
@@ -1499,6 +1507,12 @@ put
 {
 }
 "
+)
+;
+jsonOut
+.
+flush
+(
 )
 ;
 jsonPrinter_
