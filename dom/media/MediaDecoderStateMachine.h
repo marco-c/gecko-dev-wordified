@@ -1195,6 +1195,8 @@ ShutdownReader
 void
 FinishShutdown
 (
+bool
+aSuccess
 )
 ;
 /
