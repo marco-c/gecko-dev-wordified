@@ -129,12 +129,6 @@ inspector
 )
 ;
 }
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 /
 /
 Wait
