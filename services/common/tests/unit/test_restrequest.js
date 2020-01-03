@@ -5484,9 +5484,16 @@ onComplete
 error
 )
 {
-do_check_eq
+do_check_true
 (
 error
+.
+toString
+(
+)
+.
+contains
+(
 "
 ReferenceError
 :
@@ -5495,6 +5502,7 @@ is
 not
 defined
 "
+)
 )
 ;
 do_check_eq
