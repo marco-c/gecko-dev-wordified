@@ -17974,6 +17974,9 @@ false
 If
 in
 aurora
+/
+dev
+edition
 (
 40
 .
@@ -17999,11 +18002,8 @@ TODO
 bug
 1160313
 #
-if
-MOZ_UPDATE_CHANNEL
-=
-=
-aurora
+ifdef
+MOZ_DEV_EDITION
 pref
 (
 "
