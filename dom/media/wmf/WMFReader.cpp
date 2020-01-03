@@ -799,7 +799,7 @@ mDXVA2Manager
 DXVA2Manager
 :
 :
-Create
+CreateD3D9DXVA
 (
 )
 ;
