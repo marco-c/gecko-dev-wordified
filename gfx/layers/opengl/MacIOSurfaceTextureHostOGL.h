@@ -377,6 +377,12 @@ SurfaceDescriptorMacIOSurface
 aDescriptor
 )
 ;
+virtual
+~
+MacIOSurfaceTextureHostOGL
+(
+)
+;
 /
 /
 MacIOSurfaceTextureSourceOGL

@@ -1587,6 +1587,11 @@ mCompositableCount
 0
 )
 {
+MOZ_COUNT_CTOR
+(
+TextureHost
+)
+;
 }
 TextureHost
 :
@@ -1596,6 +1601,11 @@ TextureHost
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+TextureHost
+)
+;
 }
 void
 TextureHost
