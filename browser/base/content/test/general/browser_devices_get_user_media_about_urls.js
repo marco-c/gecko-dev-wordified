@@ -274,10 +274,14 @@ if
 (
 kObservedTopics
 .
-contains
+indexOf
 (
 aTopic
 )
+!
+=
+-
+1
 )
 {
 if

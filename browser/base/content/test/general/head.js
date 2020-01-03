@@ -4527,12 +4527,16 @@ closed
 "
 ]
 .
-contains
+indexOf
 (
 element
 .
 state
 )
+!
+=
+-
+1
 ;
 /
 /
