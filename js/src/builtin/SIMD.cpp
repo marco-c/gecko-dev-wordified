@@ -1989,6 +1989,15 @@ proto
 return
 nullptr
 ;
+proto
+-
+>
+initTypeDescrSlot
+(
+*
+typeDescr
+)
+;
 typeDescr
 -
 >

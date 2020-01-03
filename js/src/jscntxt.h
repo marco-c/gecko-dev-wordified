@@ -2324,9 +2324,9 @@ Class
 clasp
 TaggedProto
 proto
-JSObject
+JSFunction
 *
-associated
+fun
 =
 nullptr
 )
