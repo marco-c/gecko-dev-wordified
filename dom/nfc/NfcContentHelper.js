@@ -2171,8 +2171,14 @@ return
 let
 ndefMsg
 =
-[
-]
+new
+this
+.
+_window
+.
+Array
+(
+)
 ;
 let
 records
