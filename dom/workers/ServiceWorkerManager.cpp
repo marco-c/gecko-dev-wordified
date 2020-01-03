@@ -6944,7 +6944,7 @@ documentURI
 doc
 -
 >
-GetBaseURI
+GetDocumentURI
 (
 )
 ;
