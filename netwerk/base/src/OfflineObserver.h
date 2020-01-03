@@ -265,6 +265,8 @@ uint32_t
 GetAppId
 (
 )
+=
+0
 ;
 /
 /

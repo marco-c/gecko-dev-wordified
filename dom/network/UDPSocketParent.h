@@ -295,6 +295,13 @@ nsISupports
 )
 MOZ_OVERRIDE
 ;
+virtual
+uint32_t
+GetAppId
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 virtual

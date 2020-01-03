@@ -312,6 +312,17 @@ nsISupports
 MOZ_OVERRIDE
 ;
 virtual
+uint32_t
+GetAppId
+(
+)
+MOZ_OVERRIDE
+{
+return
+NECKO_UNKNOWN_APP_ID
+;
+}
+virtual
 void
 CloneManagees
 (
