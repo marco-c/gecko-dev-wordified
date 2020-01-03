@@ -644,7 +644,7 @@ selection
 caret
 relative
 to
-canvas
+root
 *
 frame
 .
@@ -786,7 +786,7 @@ to
 document
 '
 s
-canvas
+root
 frame
 *
 in
@@ -831,7 +831,7 @@ to
 document
 '
 s
-canvas
+root
 frame
 in
 app
@@ -863,7 +863,7 @@ to
 document
 '
 s
-canvas
+root
 frame
 in
 app
