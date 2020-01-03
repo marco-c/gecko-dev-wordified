@@ -1072,6 +1072,7 @@ bool
 IsPlaceholderTile
 (
 )
+const
 {
 return
 mBackBuffer
