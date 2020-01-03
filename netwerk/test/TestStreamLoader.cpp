@@ -397,7 +397,7 @@ systemPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_INHERITS
 nsIContentPolicy
 :
 :
@@ -468,10 +468,9 @@ rv
 chan
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 loader
-nullptr
 )
 ;
 if
