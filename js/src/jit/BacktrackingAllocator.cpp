@@ -1587,7 +1587,7 @@ script
 script
 -
 >
-argumentsAliasesFormals
+argumentsHasVarBinding
 (
 )
 )
