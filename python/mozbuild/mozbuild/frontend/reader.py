@@ -2026,23 +2026,14 @@ path
 is
 a
 SourcePath
-and
-needs
-to
-be
-coerced
-to
-unicode
-.
         
 self
 .
 exec_file
 (
-unicode
-(
 path
-)
+.
+full_path
 )
     
 def
@@ -8962,12 +8953,15 @@ mozpath
 relpath
 (
 d
+.
+full_path
 context
 .
 srcdir
 )
 var
 )
+                        
 context
 )
                 
@@ -9043,6 +9037,8 @@ moz
 build
 '
 )
+.
+full_path
             
 #
 Ensure
