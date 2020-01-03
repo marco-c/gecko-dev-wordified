@@ -1017,6 +1017,13 @@ uint32_t
 aLength
 )
 ;
+virtual
+bool
+CanUseHardwareVideoDecoding
+(
+)
+override
+;
 /
 *
 *
@@ -1593,6 +1600,9 @@ mIsWARP
 ;
 bool
 mHasDeviceReset
+;
+bool
+mDoesD3D11TextureSharingWork
 ;
 DeviceResetReason
 mDeviceResetReason
