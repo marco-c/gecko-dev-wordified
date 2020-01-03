@@ -1969,6 +1969,8 @@ Release
 .
 /
 /
+/
+/
 This
 is
 necessary
@@ -2014,6 +2016,8 @@ implementations
 .
 /
 /
+/
+/
 This
 should
 be
@@ -2029,9 +2033,9 @@ T
 |
 provides
 a
+/
+/
 const
-/
-/
 view
 of
 an
@@ -2040,16 +2044,17 @@ the
 object
 itself
 should
+not
 be
 const
 (
 it
+/
+/
 would
 have
 to
 be
-/
-/
 allocated
 as
 |
@@ -2060,7 +2065,6 @@ T
 or
 similar
 to
-itself
 be
 const
 )
