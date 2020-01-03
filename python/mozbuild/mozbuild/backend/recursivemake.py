@@ -139,6 +139,8 @@ ExternalLibrary
     
 FinalTargetFiles
     
+GeneratedFile
+    
 GeneratedInclude
     
 GeneratedSources
@@ -2696,6 +2698,33 @@ obj
 .
 exports
 backend_file
+)
+        
+elif
+isinstance
+(
+obj
+GeneratedFile
+)
+:
+            
+backend_file
+.
+write
+(
+'
+GENERATED_FILES
++
+=
+%
+s
+\
+n
+'
+%
+obj
+.
+filename
 )
         
 elif

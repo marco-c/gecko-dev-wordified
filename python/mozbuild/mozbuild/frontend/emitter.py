@@ -127,6 +127,8 @@ FinalTargetFiles
     
 GeneratedEventWebIDLFile
     
+GeneratedFile
+    
 GeneratedInclude
     
 GeneratedSources
@@ -3057,10 +3059,6 @@ USE_STATIC_LIBS
 '
             
 '
-GENERATED_FILES
-'
-            
-'
 IS_GYP_DIR
 '
             
@@ -3994,6 +3992,34 @@ NO_DIST_INSTALL
 '
 False
 )
+)
+        
+generated_files
+=
+context
+.
+get
+(
+'
+GENERATED_FILES
+'
+)
+        
+if
+generated_files
+:
+            
+for
+f
+in
+generated_files
+:
+                
+yield
+GeneratedFile
+(
+context
+f
 )
         
 test_harness_files
