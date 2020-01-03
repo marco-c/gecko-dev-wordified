@@ -327,13 +327,6 @@ h
 #
 include
 "
-jsgcinlines
-.
-h
-"
-#
-include
-"
 jsscriptinlines
 .
 h

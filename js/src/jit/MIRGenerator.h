@@ -193,6 +193,15 @@ JitCompartment
 h
 "
 #
+include
+"
+jit
+/
+MIR
+.
+h
+"
+#
 ifdef
 JS_ION_PERF
 #

@@ -258,6 +258,15 @@ include
 "
 js
 /
+Class
+.
+h
+"
+#
+include
+"
+js
+/
 Conversions
 .
 h

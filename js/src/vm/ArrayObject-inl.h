@@ -126,6 +126,15 @@ h
 #
 include
 "
+gc
+/
+GCTrace
+.
+h
+"
+#
+include
+"
 vm
 /
 String

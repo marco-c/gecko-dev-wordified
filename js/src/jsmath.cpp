@@ -252,6 +252,15 @@ h
 #
 include
 "
+js
+/
+Class
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
