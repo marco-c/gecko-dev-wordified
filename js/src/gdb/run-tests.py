@@ -1341,10 +1341,21 @@ LD_LIBRARY_PATH
 s
 '
 %
+os
+.
+path
+.
+join
 (
 OPTIONS
 .
-libdir
+objdir
+'
+js
+'
+'
+src
+'
 )
                 
 '
@@ -1979,19 +1990,24 @@ script_path
 )
     
 #
-LIBDIR
+OBJDIR
 is
-the
+a
+standalone
+SpiderMonkey
+build
 directory
-in
-which
+.
+This
+is
+where
 we
+    
+#
 find
 the
 SpiderMonkey
 shared
-    
-#
 library
 to
 link
@@ -2042,7 +2058,7 @@ prog
 [
 options
 ]
-LIBDIR
+OBJDIR
 [
 TESTS
 .
@@ -2648,14 +2664,14 @@ error
 (
 '
 missing
-LIBDIR
+OBJDIR
 argument
 '
 )
     
 OPTIONS
 .
-libdir
+objdir
 =
 os
 .
@@ -2707,7 +2723,7 @@ ve
 computed
 OPTIONS
 .
-libdir
+objdir
 .
     
 if
@@ -2729,7 +2745,13 @@ join
 (
 OPTIONS
 .
-libdir
+objdir
+'
+js
+'
+'
+src
+'
 '
 gdb
 '
