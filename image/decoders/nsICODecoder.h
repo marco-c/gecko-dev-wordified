@@ -619,7 +619,7 @@ index
 of
 the
 line
-nsAutoPtr
+nsRefPtr
 <
 Decoder
 >
