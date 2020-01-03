@@ -21910,3 +21910,15 @@ true
 ;
 #
 endif
+pref
+(
+"
+browser
+.
+defaultbrowser
+.
+notificationbar
+"
+false
+)
+;
