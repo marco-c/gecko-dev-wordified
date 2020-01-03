@@ -185,6 +185,7 @@ int32_t
 *
 aDestLength
 )
+override
 ;
 NS_IMETHOD
 Finish
@@ -196,6 +197,7 @@ int32_t
 *
 aDestLength
 )
+override
 ;
 MOZ_WARN_UNUSED_RESULT
 NS_IMETHOD
@@ -211,11 +213,13 @@ int32_t
 *
 aDestLength
 )
+override
 ;
 NS_IMETHOD
 Reset
 (
 )
+override
 ;
 NS_IMETHOD
 SetOutputErrorBehavior
@@ -228,6 +232,7 @@ aEncoder
 char16_t
 aChar
 )
+override
 ;
 private
 :
