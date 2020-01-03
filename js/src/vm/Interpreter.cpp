@@ -21907,12 +21907,6 @@ PlainObject
 (
 cx
 proto
-cx
--
->
-global
-(
-)
 )
 ;
 if

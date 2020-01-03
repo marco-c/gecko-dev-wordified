@@ -7939,7 +7939,6 @@ AtomicsObject
 :
 class_
 objProto
-global
 SingletonObject
 )
 )

@@ -2224,9 +2224,6 @@ NewObjectWithGivenProto
 cx
 clasp
 proto
-NullPtr
-(
-)
 allocKind
 newKind
 )
@@ -2261,9 +2258,6 @@ NewObjectWithGivenProto
 cx
 clasp
 proto
-NullPtr
-(
-)
 newKind
 )
 )

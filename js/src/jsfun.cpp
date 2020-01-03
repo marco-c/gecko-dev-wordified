@@ -2765,9 +2765,6 @@ PlainObject
 (
 cx
 objProto
-NullPtr
-(
-)
 SingletonObject
 )
 )

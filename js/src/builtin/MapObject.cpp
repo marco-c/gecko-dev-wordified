@@ -6838,7 +6838,6 @@ MapIteratorObject
 (
 cx
 base
-global
 )
 )
 ;
@@ -7008,7 +7007,6 @@ MapIteratorObject
 (
 cx
 proto
-global
 )
 ;
 if
@@ -11488,7 +11486,6 @@ SetIteratorObject
 (
 cx
 base
-global
 )
 )
 ;
@@ -11658,7 +11655,6 @@ SetIteratorObject
 (
 cx
 proto
-global
 )
 ;
 if

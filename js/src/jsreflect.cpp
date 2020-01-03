@@ -21511,7 +21511,6 @@ PlainObject
 (
 cx
 proto
-obj
 SingletonObject
 )
 )

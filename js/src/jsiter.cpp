@@ -5901,12 +5901,6 @@ PlainObject
 (
 cx
 proto
-cx
--
->
-global
-(
-)
 )
 )
 ;

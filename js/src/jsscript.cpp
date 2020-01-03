@@ -8943,12 +8943,6 @@ class_
 NullPtr
 (
 )
-cx
--
->
-global
-(
-)
 )
 )
 ;

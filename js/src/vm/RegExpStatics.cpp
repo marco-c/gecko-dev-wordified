@@ -418,13 +418,6 @@ cx
 NullPtr
 (
 )
-GlobalObject
-:
-:
-upcast
-(
-parent
-)
 )
 ;
 if

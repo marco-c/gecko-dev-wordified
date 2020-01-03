@@ -1756,9 +1756,6 @@ clasp
 NullPtr
 (
 )
-NullPtr
-(
-)
 SingletonObject
 )
 ;

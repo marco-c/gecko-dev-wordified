@@ -2009,7 +2009,6 @@ PlainObject
 (
 cx
 proto
-global
 SingletonObject
 )
 ;
@@ -2059,7 +2058,6 @@ PlainObject
 (
 cx
 proto
-global
 SingletonObject
 )
 ;
