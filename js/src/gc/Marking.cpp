@@ -7987,7 +7987,7 @@ runtime
 )
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 )
