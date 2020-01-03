@@ -1118,6 +1118,9 @@ mIsInCertifiedApp
 bool
 mIndexedDBAllowed
 ;
+bool
+mPrivateBrowsing
+;
 WorkerLoadInfo
 (
 )
