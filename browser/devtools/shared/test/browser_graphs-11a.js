@@ -40,9 +40,7 @@ as
 expected
 .
 let
-{
 BarGraphWidget
-}
 =
 devtools
 .
@@ -55,7 +53,7 @@ shared
 /
 widgets
 /
-Graphs
+BarGraphWidget
 "
 )
 ;

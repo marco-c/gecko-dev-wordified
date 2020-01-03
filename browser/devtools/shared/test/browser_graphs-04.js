@@ -41,9 +41,7 @@ and
 cursors
 .
 let
-{
 LineGraphWidget
-}
 =
 devtools
 .
@@ -56,7 +54,7 @@ shared
 /
 widgets
 /
-Graphs
+LineGraphWidget
 "
 )
 ;

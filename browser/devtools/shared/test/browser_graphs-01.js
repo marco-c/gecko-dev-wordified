@@ -37,9 +37,7 @@ works
 properly
 .
 let
-{
 LineGraphWidget
-}
 =
 devtools
 .
@@ -52,7 +50,7 @@ shared
 /
 widgets
 /
-Graphs
+LineGraphWidget
 "
 )
 ;
