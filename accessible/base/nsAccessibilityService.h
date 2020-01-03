@@ -1273,9 +1273,9 @@ return
 XRE_GetProcessType
 (
 )
-!
 =
-GeckoProcessType_Default
+=
+GeckoProcessType_Content
 ;
 #
 endif
