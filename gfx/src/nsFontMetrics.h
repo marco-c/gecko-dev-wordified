@@ -494,6 +494,8 @@ aFont
 nsIAtom
 *
 aLanguage
+bool
+aExplicitLanguage
 gfxFont
 :
 :

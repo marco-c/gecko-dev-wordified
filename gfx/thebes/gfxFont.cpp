@@ -23242,6 +23242,10 @@ noFallbackVariantFeatures
 (
 true
 )
+explicitLanguage
+(
+false
+)
 variantCaps
 (
 NS_FONT_VARIANT_CAPS_NORMAL
@@ -23268,6 +23272,8 @@ aSize
 nsIAtom
 *
 aLanguage
+bool
+aExplicitLanguage
 float
 aSizeAdjust
 bool
@@ -23344,6 +23350,10 @@ aAllowStyleSynthesis
 noFallbackVariantFeatures
 (
 true
+)
+explicitLanguage
+(
+aExplicitLanguage
 )
 variantCaps
 (
@@ -23566,6 +23576,12 @@ noFallbackVariantFeatures
 aStyle
 .
 noFallbackVariantFeatures
+)
+explicitLanguage
+(
+aStyle
+.
+explicitLanguage
 )
 variantCaps
 (

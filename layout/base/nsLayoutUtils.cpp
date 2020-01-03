@@ -24376,6 +24376,10 @@ styleFont
 -
 >
 mLanguage
+styleFont
+-
+>
+mExplicitLanguage
 orientation
 fs
 tp
@@ -24421,6 +24425,10 @@ styleFont
 -
 >
 mLanguage
+styleFont
+-
+>
+mExplicitLanguage
 orientation
 fs
 tp

@@ -5550,6 +5550,10 @@ imageSmoothingEnabled
 (
 true
 )
+fontExplicitLanguage
+(
+false
+)
 {
 }
 ContextState
@@ -5727,6 +5731,12 @@ imageSmoothingEnabled
 other
 .
 imageSmoothingEnabled
+)
+fontExplicitLanguage
+(
+other
+.
+fontExplicitLanguage
 )
 {
 }
@@ -6167,6 +6177,9 @@ filterAdditionalImages
 ;
 bool
 imageSmoothingEnabled
+;
+bool
+fontExplicitLanguage
 ;
 }
 ;

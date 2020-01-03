@@ -4503,6 +4503,7 @@ mPD
 >
 mHeadFootFont
 nullptr
+false
 gfxFont
 :
 :
