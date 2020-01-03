@@ -3454,7 +3454,6 @@ pcLocal
 .
 getStats
 (
-null
 )
 .
 then
@@ -3491,7 +3490,6 @@ pcRemote
 .
 getStats
 (
-null
 )
 .
 then
@@ -3528,7 +3526,6 @@ pcLocal
 .
 getStats
 (
-null
 )
 .
 then
@@ -3562,7 +3559,6 @@ pcRemote
 .
 getStats
 (
-null
 )
 .
 then
@@ -3596,7 +3592,6 @@ pcLocal
 .
 getStats
 (
-null
 )
 .
 then
@@ -3639,7 +3634,6 @@ pcRemote
 .
 getStats
 (
-null
 )
 .
 then
