@@ -484,15 +484,6 @@ updater
 .
 update_all
 (
-map
-(
-os
-.
-path
-.
-expanduser
-config_paths
-)
 )
         
 else

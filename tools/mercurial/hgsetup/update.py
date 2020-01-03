@@ -174,7 +174,6 @@ def
 update_all
 (
 self
-config_paths
 )
 :
         
