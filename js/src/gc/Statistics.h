@@ -151,6 +151,13 @@ h
 #
 include
 "
+jsgc
+.
+h
+"
+#
+include
+"
 jspubtd
 .
 h
@@ -407,6 +414,8 @@ const
 ZoneGCStats
 &
 zoneStats
+JSGCInvocationKind
+gckind
 JS
 :
 :
@@ -580,6 +589,9 @@ gcDepth
 ;
 ZoneGCStats
 zoneStats
+;
+JSGCInvocationKind
+gckind
 ;
 const
 char
@@ -864,6 +876,8 @@ sliceCallback
 void
 beginGC
 (
+JSGCInvocationKind
+kind
 )
 ;
 void
@@ -958,6 +972,8 @@ const
 ZoneGCStats
 &
 zoneStats
+JSGCInvocationKind
+gckind
 JS
 :
 :
@@ -981,6 +997,7 @@ stats
 beginSlice
 (
 zoneStats
+gckind
 reason
 )
 ;
@@ -1242,6 +1259,15 @@ start
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
+;
+const
+char
+*
+ExplainInvocationKind
+(
+JSGCInvocationKind
+gckind
+)
 ;
 const
 char
