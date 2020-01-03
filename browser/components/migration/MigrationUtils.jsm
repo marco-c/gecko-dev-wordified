@@ -3281,6 +3281,11 @@ ie
 windows
 )
 *
+edge
+(
+windows
+)
+*
 safari
 (
 mac
