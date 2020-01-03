@@ -57,7 +57,6 @@ from
 marionette_test
 import
 MarionetteTestCase
-skip_if_b2g
 from
 errors
 import
@@ -85,26 +84,6 @@ testvalue
 "
 blabla
 "
-    
-#
-fails
-in
-b2g
-'
-s
-test
--
-container
-:
-"
-Error
-getting
-pref
-"
-Bug
-1060061
-    
-skip_if_b2g
     
 def
 test_prefs

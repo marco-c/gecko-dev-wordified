@@ -57,7 +57,6 @@ from
 marionette_test
 import
 MarionetteTestCase
-skip_if_b2g
 from
 errors
 import
@@ -944,8 +943,6 @@ due
 to
 Bug
 977899
-    
-skip_if_b2g
     
 def
 test_navigate_frame
