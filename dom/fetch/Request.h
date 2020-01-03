@@ -225,6 +225,7 @@ JSContext
 *
 aCx
 )
+MOZ_OVERRIDE
 {
 return
 RequestBinding
