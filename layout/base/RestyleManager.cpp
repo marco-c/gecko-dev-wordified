@@ -11432,10 +11432,9 @@ mPostAnimationRestyles
 =
 true
 ;
-mPendingRestyles
-.
 ProcessRestyles
 (
+mPendingRestyles
 )
 ;
 mPostAnimationRestyles
@@ -11586,10 +11585,9 @@ mIsProcessingAnimationStyleChange
 =
 true
 ;
-mPendingAnimationRestyles
-.
 ProcessRestyles
 (
+mPendingAnimationRestyles
 )
 ;
 MOZ_ASSERT
@@ -11958,10 +11956,9 @@ AddStyleUpdatesTo
 tracker
 )
 ;
-tracker
-.
 ProcessRestyles
 (
+tracker
 )
 ;
 transitionManager
