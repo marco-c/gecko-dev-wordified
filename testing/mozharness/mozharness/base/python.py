@@ -3747,7 +3747,7 @@ register_virtualenv_module
 (
 '
 psutil
-=
+>
 =
 0
 .
