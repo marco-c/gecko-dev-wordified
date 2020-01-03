@@ -2680,6 +2680,9 @@ mOfflineObserver
 bool
 mIsFlashPlugin
 ;
+bool
+mIsBlocklisted
+;
 }
 ;
 }
