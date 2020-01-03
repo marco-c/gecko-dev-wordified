@@ -9125,7 +9125,7 @@ NS_NETWORK_UPLOAD_EVENT
 ;
 DisableNetworkEvent
 (
-NS_NETWORK_DOWNLOAD_EVENT
+eNetworkDownload
 )
 ;
 #
@@ -79964,7 +79964,7 @@ false
 break
 ;
 case
-NS_NETWORK_DOWNLOAD_EVENT
+eNetworkDownload
 :
 if
 (
@@ -80067,7 +80067,7 @@ NS_NETWORK_ACTIVITY_BLIP_UPLOAD_TOPIC
 break
 ;
 case
-NS_NETWORK_DOWNLOAD_EVENT
+eNetworkDownload
 :
 if
 (

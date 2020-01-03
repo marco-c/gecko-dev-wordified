@@ -1833,7 +1833,7 @@ eBasicEventClass
 WINDOW_ONLY_EVENT
 (
 moznetworkdownload
-NS_NETWORK_DOWNLOAD_EVENT
+eNetworkDownload
 EventNameType_None
 eBasicEventClass
 )
