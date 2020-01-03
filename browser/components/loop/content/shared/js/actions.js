@@ -2051,6 +2051,13 @@ emailRoomUrl
 roomUrl
 :
 String
+/
+/
+roomDescription
+:
+String
+Optional
+.
 }
 )
 /
