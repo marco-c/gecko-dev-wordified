@@ -389,7 +389,7 @@ CPMethod
 policyMethod
 SCPMethod
 simplePolicyMethod
-uint32_t
+nsContentPolicyType
 contentType
 nsIURI
 *
@@ -612,6 +612,17 @@ GetDocumentURI
 ;
 }
 }
+nsContentPolicyType
+externalType
+=
+nsContentUtils
+:
+:
+InternalContentPolicyTypeToExternal
+(
+contentType
+)
+;
 /
 *
 *
@@ -695,7 +706,7 @@ i
 policyMethod
 )
 (
-contentType
+externalType
 contentLocation
 requestingLocation
 requestingContext
@@ -1005,7 +1016,7 @@ i
 simplePolicyMethod
 )
 (
-contentType
+externalType
 contentLocation
 requestingLocation
 topFrameElement
