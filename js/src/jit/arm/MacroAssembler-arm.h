@@ -4689,6 +4689,13 @@ Label
 label
 )
 {
+AutoForbidPools
+afp
+(
+this
+2
+)
+;
 ma_push
 (
 pc
