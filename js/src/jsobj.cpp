@@ -22478,6 +22478,11 @@ ReportOutOfMemory
 cx
 )
 ;
+js_delete
+(
+wpmap
+)
+;
 return
 false
 ;
