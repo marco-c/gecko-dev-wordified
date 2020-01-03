@@ -454,6 +454,9 @@ BaseElf
 (
 path
 )
+link_map
+(
+)
 mappable
 (
 mappable
