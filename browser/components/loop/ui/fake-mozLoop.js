@@ -479,6 +479,7 @@ getAll
 :
 function
 (
+version
 callback
 )
 {
@@ -488,6 +489,13 @@ null
 fakeRooms
 )
 ;
+}
+on
+:
+function
+(
+)
+{
 }
 }
 fxAEnabled
