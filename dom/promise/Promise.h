@@ -498,7 +498,7 @@ NativePromiseCallback
 ;
 friend
 class
-PromiseCallbackTask
+PromiseReactionJob
 ;
 friend
 class
@@ -1692,16 +1692,13 @@ by
 then
 (
 )
-catch
-(
-)
 or
-done
+catch
 (
 )
 .
 void
-EnqueueCallbackTasks
+TriggerPromiseReactions
 (
 )
 ;
