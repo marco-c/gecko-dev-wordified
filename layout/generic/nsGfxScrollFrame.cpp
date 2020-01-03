@@ -8995,6 +8995,7 @@ nullptr
 NS_INLINE_DECL_REFCOUNTING
 (
 AsyncSmoothMSDScroll
+MOZ_OVERRIDE
 )
 nsSize
 GetVelocity
@@ -10100,6 +10101,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 AsyncScroll
+MOZ_OVERRIDE
 )
 /
 *
