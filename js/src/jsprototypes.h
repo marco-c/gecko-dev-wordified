@@ -1239,6 +1239,17 @@ ImportEntry
 )
 )
 \
+real
+(
+ExportEntry
+58
+InitExportEntryClass
+OCLASP
+(
+ExportEntry
+)
+)
+\
 #
 define
 JS_FOR_EACH_PROTOTYPE
