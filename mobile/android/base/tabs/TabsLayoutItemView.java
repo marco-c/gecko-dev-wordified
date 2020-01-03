@@ -150,6 +150,15 @@ android
 .
 widget
 .
+ImageView
+.
+ScaleType
+;
+import
+android
+.
+widget
+.
 LinearLayout
 ;
 import
@@ -521,9 +530,7 @@ thumbnailImage
 null
 )
 {
-mThumbnail
-.
-setImageDrawable
+setThumbnail
 (
 thumbnailImage
 )
