@@ -5372,7 +5372,14 @@ NetUtil
 .
 asyncFetch
 (
+{
+uri
+:
 url
+loadUsingSystemPrincipal
+:
+true
+}
 callback
 |
 |
