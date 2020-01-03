@@ -840,6 +840,7 @@ rt
 >
 transformToPermanentAtoms
 (
+cx
 )
 ;
 JS_EndRequest
