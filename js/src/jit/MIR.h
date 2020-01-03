@@ -48032,6 +48032,15 @@ func
 )
 const
 ;
+bool
+hasObjectGroup
+(
+ObjectGroup
+*
+group
+)
+const
+;
 TemporaryTypeSet
 *
 buildTypeSetForFunction
