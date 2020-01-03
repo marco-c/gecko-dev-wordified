@@ -263,6 +263,8 @@ fnmatch
 import
 subprocess
 import
+ctypes
+import
 urlparse
 import
 multiprocessing
@@ -6370,6 +6372,22 @@ file
 result
 =
 file
+        
+ctypes
+.
+windll
+.
+kernel32
+.
+SetErrorMode
+(
+ctypes
+.
+c_uint
+(
+1
+)
+)
         
 (
 path
