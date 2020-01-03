@@ -1056,7 +1056,10 @@ currently
 computed
 col
 sizes
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 mFirstDragPoint
 ;
 int32_t
