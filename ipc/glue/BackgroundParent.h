@@ -108,7 +108,7 @@ class
 ContentParent
 ;
 class
-DOMFileImpl
+FileImpl
 ;
 class
 PBlobParent
@@ -181,8 +181,8 @@ mozilla
 dom
 :
 :
-DOMFileImpl
-DOMFileImpl
+FileImpl
+FileImpl
 ;
 typedef
 mozilla
@@ -393,7 +393,7 @@ GetOrCreateActorForBlobImpl
 PBackgroundParent
 *
 aBackgroundActor
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )

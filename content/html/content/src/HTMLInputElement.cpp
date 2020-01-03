@@ -563,6 +563,17 @@ file
 #
 include
 "
+mozilla
+/
+dom
+/
+File
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -571,13 +582,6 @@ h
 include
 "
 nsNetUtil
-.
-h
-"
-#
-include
-"
-nsDOMFile
 .
 h
 "
@@ -1477,7 +1481,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -1497,7 +1501,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -1551,7 +1555,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 mFiles
@@ -1820,7 +1824,7 @@ namespace
 This
 enumerator
 returns
-DOMFile
+File
 objects
 after
 wrapping
@@ -2179,11 +2183,11 @@ thread
 .
 nsRefPtr
 <
-DOMFile
+File
 >
 domFile
 =
-DOMFile
+File
 :
 :
 CreateFromFile
@@ -2291,13 +2295,13 @@ on
 the
 path
 .
-DOMFileImplFile
+FileImplFile
 *
 fileImpl
 =
 static_cast
 <
-DOMFileImplFile
+FileImplFile
 *
 >
 (
@@ -2876,7 +2880,7 @@ Build
 up
 list
 of
-DOMFile
+File
 objects
 on
 this
@@ -2957,7 +2961,7 @@ AppendElement
 (
 static_cast
 <
-DOMFile
+File
 *
 >
 (
@@ -3163,7 +3167,7 @@ NS_OK
 /
 /
 Recreate
-DOMFile
+File
 with
 the
 correct
@@ -3228,7 +3232,7 @@ i
 ]
 =
 new
-DOMFile
+File
 (
 global
 mFileList
@@ -3546,7 +3550,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 mFileList
@@ -3694,7 +3698,7 @@ up
 the
 list
 of
-DOMFile
+File
 objects
 .
 Since
@@ -3909,7 +3913,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 newFiles
@@ -4029,7 +4033,7 @@ AppendElement
 (
 static_cast
 <
-DOMFile
+File
 *
 >
 (
@@ -4099,7 +4103,7 @@ AppendElement
 (
 static_cast
 <
-DOMFile
+File
 *
 >
 (
@@ -5401,7 +5405,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -9608,7 +9612,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 files
@@ -12891,7 +12895,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 files
@@ -13046,11 +13050,11 @@ GetScopeObject
 ;
 nsRefPtr
 <
-DOMFile
+File
 >
 domFile
 =
-DOMFile
+File
 :
 :
 CreateFromFile
@@ -14043,7 +14047,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -14140,7 +14144,7 @@ i
 {
 nsRefPtr
 <
-DOMFile
+File
 >
 file
 =
@@ -15059,7 +15063,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -32143,7 +32147,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -33517,7 +33521,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -35570,7 +35574,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &

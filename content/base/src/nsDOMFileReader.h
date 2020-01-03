@@ -220,7 +220,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 }
 }
@@ -266,8 +266,8 @@ mozilla
 dom
 :
 :
-DOMFile
-DOMFile
+File
+File
 ;
 public
 :
@@ -378,7 +378,7 @@ ReadAsArrayBuffer
 JSContext
 *
 aCx
-DOMFile
+File
 &
 aBlob
 ErrorResult
@@ -401,7 +401,7 @@ aRv
 void
 ReadAsText
 (
-DOMFile
+File
 &
 aBlob
 const
@@ -426,7 +426,7 @@ aRv
 void
 ReadAsDataURL
 (
-DOMFile
+File
 &
 aBlob
 ErrorResult
@@ -538,7 +538,7 @@ loadend
 void
 ReadAsBinaryString
 (
-DOMFile
+File
 &
 aBlob
 ErrorResult
@@ -596,7 +596,7 @@ ReadFileContent
 JSContext
 *
 aCx
-DOMFile
+File
 &
 aBlob
 const

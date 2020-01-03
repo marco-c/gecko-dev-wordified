@@ -584,7 +584,7 @@ realPath
 ;
 nsRefPtr
 <
-DOMFile
+File
 >
 blobData
 ;
@@ -1124,7 +1124,7 @@ realPath
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 file
 ;

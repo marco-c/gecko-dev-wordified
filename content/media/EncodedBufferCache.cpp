@@ -122,14 +122,18 @@ h
 #
 include
 "
-nsAnonymousTemporaryFile
+mozilla
+/
+dom
+/
+File
 .
 h
 "
 #
 include
 "
-nsDOMFile
+nsAnonymousTemporaryFile
 .
 h
 "
@@ -334,7 +338,7 @@ already_AddRefed
 dom
 :
 :
-DOMFile
+File
 >
 EncodedBufferCache
 :
@@ -361,7 +365,7 @@ nsRefPtr
 dom
 :
 :
-DOMFile
+File
 >
 blob
 ;
@@ -383,7 +387,7 @@ blob
 dom
 :
 :
-DOMFile
+File
 :
 :
 CreateTemporaryFileBlob
@@ -516,7 +520,7 @@ blob
 dom
 :
 :
-DOMFile
+File
 :
 :
 CreateMemoryFile

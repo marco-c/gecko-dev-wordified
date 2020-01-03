@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsDOMFile
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
@@ -174,6 +167,17 @@ include
 mozilla
 /
 unused
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+File
 .
 h
 "
@@ -803,7 +807,7 @@ GetOrCreateActorForBlob
 (
 static_cast
 <
-DOMFile
+File
 *
 >
 (
@@ -994,7 +998,7 @@ parent
 is
 fine
 because
-DOMFile
+File
 are
 not
 used
@@ -1015,7 +1019,7 @@ nsIDOMFile
 >
 domfile
 =
-DOMFile
+File
 :
 :
 CreateFromFile
@@ -1066,7 +1070,7 @@ parent
 is
 fine
 because
-DOMFile
+File
 are
 not
 used
@@ -1087,7 +1091,7 @@ nsIDOMFile
 >
 domfile
 =
-DOMFile
+File
 :
 :
 CreateFromFile

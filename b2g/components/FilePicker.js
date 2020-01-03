@@ -1247,14 +1247,14 @@ from
 /
 /
 the
-DOMFile
+File
 (
 if
 the
 blob
 is
 a
-DOMFile
+File
 )
 .
 let

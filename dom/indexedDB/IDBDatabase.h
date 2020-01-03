@@ -231,7 +231,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 class
 DOMStringList
@@ -673,7 +673,7 @@ PBackgroundIDBDatabaseFileChild
 *
 GetOrCreateFileActorForBlob
 (
-DOMFile
+File
 *
 aBlob
 )
@@ -689,7 +689,7 @@ aFileActor
 void
 NoteReceivedBlob
 (
-DOMFile
+File
 *
 aBlob
 )

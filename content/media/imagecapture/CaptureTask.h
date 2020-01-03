@@ -139,10 +139,10 @@ namespace
 dom
 {
 class
-ImageCapture
+File
 ;
 class
-DOMFile
+ImageCapture
 ;
 }
 /
@@ -383,7 +383,7 @@ already_AddRefed
 dom
 :
 :
-DOMFile
+File
 >
 aBlob
 nsresult

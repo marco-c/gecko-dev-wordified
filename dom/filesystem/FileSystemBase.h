@@ -144,7 +144,7 @@ class
 Directory
 ;
 class
-DOMFileImpl
+FileImpl
 ;
 class
 FileSystemBase
@@ -365,7 +365,7 @@ virtual
 bool
 GetRealPath
 (
-DOMFileImpl
+FileImpl
 *
 aFile
 nsAString

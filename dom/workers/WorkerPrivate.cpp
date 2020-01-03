@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsIDOMFile
-.
-h
-"
-#
-include
-"
 nsIDOMMessageEvent
 .
 h
@@ -1675,7 +1668,7 @@ MOZ_ASSERT
 aData
 )
 ;
-DOMFileImpl
+FileImpl
 *
 blobImpl
 ;
@@ -1765,12 +1758,12 @@ nsRefPtr
 .
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 =
 new
-DOMFile
+File
 (
 nullptr
 blobImpl
@@ -1950,7 +1943,7 @@ File
 object
 .
 {
-DOMFile
+File
 *
 blob
 =
@@ -1969,7 +1962,7 @@ blob
 )
 )
 {
-DOMFileImpl
+FileImpl
 *
 blobImpl
 =
@@ -2179,7 +2172,7 @@ MOZ_ASSERT
 aData
 )
 ;
-DOMFileImpl
+FileImpl
 *
 blobImpl
 ;
@@ -2253,7 +2246,7 @@ endif
 /
 nsRefPtr
 <
-DOMFile
+File
 >
 needs
 to
@@ -2338,12 +2331,12 @@ aCx
 {
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 =
 new
-DOMFile
+File
 (
 nullptr
 blobImpl
@@ -2486,7 +2479,7 @@ File
 object
 .
 {
-DOMFile
+File
 *
 blob
 =
@@ -2505,7 +2498,7 @@ blob
 )
 )
 {
-DOMFileImpl
+FileImpl
 *
 blobImpl
 =
