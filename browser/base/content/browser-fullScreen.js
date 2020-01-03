@@ -145,7 +145,9 @@ messageManager
 addMessageListener
 (
 "
-MozEnteredDomFullscreen
+DOMFullscreen
+:
+Entered
 "
 this
 )
@@ -157,7 +159,9 @@ messageManager
 addMessageListener
 (
 "
-MozExitedDomFullscreen
+DOMFullscreen
+:
+Exited
 "
 this
 )
@@ -188,7 +192,9 @@ messageManager
 removeMessageListener
 (
 "
-MozEnteredDomFullscreen
+DOMFullscreen
+:
+Entered
 "
 this
 )
@@ -200,7 +206,9 @@ messageManager
 removeMessageListener
 (
 "
-MozExitedDomFullscreen
+DOMFullscreen
+:
+Exited
 "
 this
 )
@@ -693,7 +701,9 @@ name
 {
 case
 "
-MozEnteredDomFullscreen
+DOMFullscreen
+:
+Entered
 "
 :
 {
@@ -842,7 +852,9 @@ break
 }
 case
 "
-MozExitedDomFullscreen
+DOMFullscreen
+:
+Exited
 "
 :
 {
