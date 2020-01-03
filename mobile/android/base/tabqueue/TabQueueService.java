@@ -105,7 +105,7 @@ mozilla
 .
 gecko
 .
-BrowserApp
+AppConstants
 ;
 import
 org
@@ -1493,14 +1493,14 @@ intent
 ;
 forwardIntent
 .
-setClass
+setClassName
 (
 getApplicationContext
 (
 )
-BrowserApp
+AppConstants
 .
-class
+BROWSER_INTENT_CLASS_NAME
 )
 ;
 forwardIntent

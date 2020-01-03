@@ -373,12 +373,12 @@ NOTIFICATION_INTENT
 ;
 intent
 .
-setClass
+setClassName
 (
 context
-BrowserApp
+AppConstants
 .
-class
+BROWSER_INTENT_CLASS_NAME
 )
 ;
 return
