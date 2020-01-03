@@ -371,7 +371,7 @@ OptionalInputStreamParams
 &
 aUploadStream
 const
-LoadInfoArgs
+OptionalLoadInfoArgs
 &
 aLoadInfoArgs
 )
