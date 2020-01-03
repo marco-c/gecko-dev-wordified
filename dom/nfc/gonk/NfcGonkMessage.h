@@ -74,17 +74,6 @@ define
 NFCD_MINOR_VERSION
 21
 enum
-NfcRequest
-{
-ChangeRFStateReq
-ReadNDEFReq
-WriteNDEFReq
-MakeReadOnlyReq
-FormatReq
-TransceiveReq
-}
-;
-enum
 NfcResponse
 {
 ChangeRFStateRsp
