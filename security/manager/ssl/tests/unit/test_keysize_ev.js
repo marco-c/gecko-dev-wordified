@@ -928,7 +928,7 @@ rootOKName
 let
 expectedNamesForOCSP
 =
-isDebugBuild
+gEVExpected
 ?
 [
 intFullName
@@ -947,7 +947,7 @@ rootOKCertFileName
 intFullName
 ]
 eeFullName
-isDebugBuild
+gEVExpected
 )
 ;
 /
@@ -1063,7 +1063,7 @@ rootOKName
 ;
 expectedNamesForOCSP
 =
-isDebugBuild
+gEVExpected
 ?
 [
 intFullName
