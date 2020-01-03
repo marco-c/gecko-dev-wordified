@@ -4735,7 +4735,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 ?
@@ -4772,7 +4772,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 ?
@@ -4797,7 +4797,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -4835,7 +4835,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -4913,7 +4913,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 &
@@ -5304,7 +5304,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -6206,7 +6206,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -6347,7 +6347,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -6459,7 +6459,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -6910,7 +6910,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -7051,7 +7051,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -7176,7 +7176,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -7432,7 +7432,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -7699,7 +7699,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -7851,7 +7851,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isIonScripted
 (
 )
 )
@@ -9072,7 +9072,7 @@ MOZ_ASSERT
 (
 iter
 .
-isIonJS
+isIonScripted
 (
 )
 )
