@@ -150,7 +150,7 @@ nsIconDecoder
 nsIconDecoder
 (
 RasterImage
-&
+*
 aImage
 )
 :
