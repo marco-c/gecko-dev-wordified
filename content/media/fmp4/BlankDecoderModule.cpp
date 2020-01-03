@@ -630,10 +630,12 @@ d
 memory
 anyway
 .
+nsAutoArrayPtr
+<
 uint8_t
-*
+>
 frame
-=
+(
 new
 uint8_t
 [
@@ -641,6 +643,7 @@ mFrameWidth
 *
 mFrameHeight
 ]
+)
 ;
 memset
 (
