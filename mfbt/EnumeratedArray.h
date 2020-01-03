@@ -248,10 +248,10 @@ Example
 :
 *
 *
-MOZ_BEGIN_ENUM_CLASS
-(
+enum
+class
 AnimalSpecies
-)
+{
 *
 Cow
 *
@@ -259,10 +259,8 @@ Sheep
 *
 Count
 *
-MOZ_END_ENUM_CLASS
-(
-AnimalSpecies
-)
+}
+;
 *
 *
 EnumeratedArray
