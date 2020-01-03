@@ -5758,9 +5758,8 @@ global
 scripts
 without
 a
-non
--
-syntactic
+polluted
+global
 scope
 the
 scope
@@ -5783,9 +5782,7 @@ scripts
 /
 with
 a
-non
--
-syntactic
+polluted
 global
 scope
 )
@@ -5796,10 +5793,10 @@ that
 it
 '
 s
-/
-/
 invalid
 to
+/
+/
 resume
 into
 the
@@ -5808,10 +5805,10 @@ in
 this
 case
 because
-/
-/
 the
 prologue
+/
+/
 expects
 the
 scope
@@ -5821,8 +5818,6 @@ R1
 for
 eval
 and
-/
-/
 global
 scripts
 .
@@ -5843,7 +5838,7 @@ MOZ_ASSERT
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )

@@ -2279,7 +2279,7 @@ JSOP_SETGNAME
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 scope
@@ -2306,7 +2306,7 @@ JSOP_STRICTSETGNAME
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 scope
