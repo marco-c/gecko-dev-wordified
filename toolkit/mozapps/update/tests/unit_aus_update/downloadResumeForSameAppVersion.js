@@ -65,7 +65,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

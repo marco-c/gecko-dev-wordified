@@ -82,7 +82,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

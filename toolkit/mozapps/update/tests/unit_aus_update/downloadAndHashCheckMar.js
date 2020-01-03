@@ -71,7 +71,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -330,7 +330,7 @@ gExpectedStatusResult
 =
 aExpectedStatusResult
 ;
-logTestInfo
+debugDump
 (
 aMsg
 Components
@@ -515,7 +515,7 @@ gExpectedStatusResult
 =
 aExpectedStatusResult
 ;
-logTestInfo
+debugDump
 (
 aMsg
 Components

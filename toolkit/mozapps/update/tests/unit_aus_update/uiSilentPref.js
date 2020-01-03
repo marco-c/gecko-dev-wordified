@@ -69,7 +69,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -164,7 +164,7 @@ standardInit
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -229,7 +229,7 @@ do_check_true
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -342,7 +342,7 @@ do_check_true
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

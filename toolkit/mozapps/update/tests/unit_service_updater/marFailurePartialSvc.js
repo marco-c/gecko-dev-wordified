@@ -272,7 +272,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -357,7 +357,7 @@ running
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 checking

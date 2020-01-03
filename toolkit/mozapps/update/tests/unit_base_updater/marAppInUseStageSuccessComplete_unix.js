@@ -569,7 +569,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -718,7 +718,7 @@ init
 helperBin
 )
 ;
-logTestInfo
+debugDump
 (
 "
 Running

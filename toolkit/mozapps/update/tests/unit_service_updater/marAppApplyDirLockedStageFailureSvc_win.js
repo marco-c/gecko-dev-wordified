@@ -468,7 +468,7 @@ running
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 checking

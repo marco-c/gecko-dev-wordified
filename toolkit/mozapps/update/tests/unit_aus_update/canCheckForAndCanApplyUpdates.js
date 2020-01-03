@@ -75,7 +75,7 @@ the
 custom
 app
 dir
-logTestInfo
+debugDump
 (
 "
 testing
@@ -166,7 +166,7 @@ or
 apply
 updates
 .
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -186,7 +186,7 @@ getPerInstallationMutexName
 )
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -226,7 +226,7 @@ for
 this
 installation
 .
-logTestInfo
+debugDump
 (
 "
 testing
@@ -272,7 +272,7 @@ this
 /
 installation
 .
-logTestInfo
+debugDump
 (
 "
 testing
@@ -299,7 +299,7 @@ gAUS
 canApplyUpdates
 )
 ;
-logTestInfo
+debugDump
 (
 "
 destroying
@@ -322,7 +322,7 @@ can
 be
 checked
 for
-logTestInfo
+debugDump
 (
 "
 testing
@@ -349,7 +349,7 @@ updates
 can
 be
 applied
-logTestInfo
+debugDump
 (
 "
 testing
@@ -394,7 +394,7 @@ the
 same
 name
 .
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -414,7 +414,7 @@ getPerInstallationMutexName
 )
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

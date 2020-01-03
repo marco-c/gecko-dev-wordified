@@ -656,7 +656,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -767,7 +767,7 @@ getUpdatesPatchDir
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -805,7 +805,7 @@ append
 FILE_UPDATE_LOG
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -845,7 +845,7 @@ append
 FILE_LAST_LOG
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -883,7 +883,7 @@ append
 FILE_BACKUP_LOG
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

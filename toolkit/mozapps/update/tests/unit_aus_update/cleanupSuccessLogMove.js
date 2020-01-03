@@ -65,7 +65,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -175,7 +175,7 @@ standardInit
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -217,7 +217,7 @@ append
 FILE_LAST_LOG
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -242,7 +242,7 @@ exists
 )
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -285,7 +285,7 @@ append
 FILE_BACKUP_LOG
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -321,7 +321,7 @@ append
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

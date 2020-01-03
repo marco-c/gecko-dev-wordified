@@ -310,7 +310,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing

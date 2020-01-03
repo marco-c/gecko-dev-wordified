@@ -521,7 +521,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -605,7 +605,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -629,7 +629,7 @@ location
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -669,7 +669,7 @@ testFile
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -710,7 +710,7 @@ testFile
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -747,7 +747,7 @@ distribution
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -790,7 +790,7 @@ location
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -823,7 +823,7 @@ exist
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

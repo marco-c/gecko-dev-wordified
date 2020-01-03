@@ -96,7 +96,7 @@ standardInit
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
