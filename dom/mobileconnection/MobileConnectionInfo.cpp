@@ -672,7 +672,7 @@ mType
 /
 Update
 mSignalStrength
-AutoSafeJSContext
+AutoJSContext
 cx
 ;
 JS
