@@ -437,6 +437,8 @@ aURI
 )
 {
 return
+this
+.
 newChannel2
 (
 aURI
