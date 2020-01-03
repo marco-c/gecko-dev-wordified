@@ -280,6 +280,8 @@ openComment
 "
 Exception
 :
+Error
+:
 Ouch
 !
 \
@@ -323,6 +325,8 @@ openComment
 +
 "
 Exception
+:
+SyntaxError
 :
 expected
 expression
@@ -390,6 +394,8 @@ openComment
 "
 Exception
 :
+Error
+:
 Ouch
 !
 \
@@ -433,6 +439,8 @@ openComment
 +
 "
 Exception
+:
+SyntaxError
 :
 expected
 expression

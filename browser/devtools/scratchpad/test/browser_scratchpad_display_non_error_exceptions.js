@@ -316,6 +316,8 @@ openComment
 "
 Exception
 :
+Error
+:
 Ouch
 !
 \
@@ -457,6 +459,8 @@ openComment
 +
 "
 Exception
+:
+HierarchyRequestError
 :
 Node
 cannot
@@ -552,6 +556,8 @@ openComment
 "
 Exception
 :
+Error
+:
 Ouch
 !
 \
@@ -693,6 +699,8 @@ openComment
 +
 "
 Exception
+:
+HierarchyRequestError
 :
 Node
 cannot
