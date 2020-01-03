@@ -1285,6 +1285,10 @@ if
 mRegistered
 )
 {
+mWidget
+=
+nullptr
+;
 nsContentUtils
 :
 :
