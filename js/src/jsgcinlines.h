@@ -2833,9 +2833,7 @@ if
 rt
 -
 >
-hasPendingInterrupt
-(
-)
+interrupt
 )
 {
 /

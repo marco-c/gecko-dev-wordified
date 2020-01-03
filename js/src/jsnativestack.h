@@ -155,14 +155,6 @@ GetNativeStackBaseImpl
 MOZ_ASSERT
 (
 stackBase
-!
-=
-0
-)
-;
-MOZ_ASSERT
-(
-stackBase
 %
 sizeof
 (

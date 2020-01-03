@@ -8187,7 +8187,7 @@ GetIonContext
 runtime
 -
 >
-addressOfInterruptParUint32
+addressOfInterruptPar
 (
 )
 )

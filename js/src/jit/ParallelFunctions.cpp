@@ -1267,8 +1267,6 @@ perThreadData
 -
 >
 jitStackLimit
-(
-)
 &
 stackDummy_
 )
