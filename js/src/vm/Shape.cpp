@@ -8533,7 +8533,7 @@ unbarrieredGet
 ;
 if
 (
-IsBaseShapeAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 base
