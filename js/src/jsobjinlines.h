@@ -3486,7 +3486,10 @@ const
 Class
 *
 clasp
+Handle
+<
 TaggedProto
+>
 proto
 HandleObject
 parent
@@ -3511,7 +3514,10 @@ const
 Class
 *
 clasp
+Handle
+<
 TaggedProto
+>
 proto
 HandleObject
 parent
@@ -3560,7 +3566,10 @@ NewObjectWithGivenTaggedProto
 ExclusiveContext
 *
 cx
+Handle
+<
 TaggedProto
+>
 proto
 HandleObject
 parent
@@ -3634,7 +3643,7 @@ NewObjectWithGivenTaggedProto
 (
 cx
 clasp
-TaggedProto
+AsTaggedProto
 (
 proto
 )
@@ -3671,7 +3680,7 @@ NewObjectWithGivenTaggedProto
 (
 cx
 clasp
-TaggedProto
+AsTaggedProto
 (
 proto
 )
@@ -3710,7 +3719,7 @@ T
 >
 (
 cx
-TaggedProto
+AsTaggedProto
 (
 proto
 )
@@ -3759,7 +3768,7 @@ T
 :
 :
 class_
-TaggedProto
+AsTaggedProto
 (
 proto
 )
