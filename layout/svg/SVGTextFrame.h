@@ -217,6 +217,9 @@ dom
 class
 SVGIRect
 ;
+class
+SVGPathElement
+;
 }
 /
 *
@@ -3357,9 +3360,15 @@ textPath
 >
 frame
 .
-nsIFrame
+mozilla
+:
+:
+dom
+:
+:
+SVGPathElement
 *
-GetTextPathPathFrame
+GetTextPathPathElement
 (
 nsIFrame
 *
