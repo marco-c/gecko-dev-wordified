@@ -10448,6 +10448,15 @@ mWebGL
 ;
 }
 ;
+size_t
+RoundUpToMultipleOf
+(
+size_t
+value
+size_t
+multiple
+)
+;
 }
 /
 /
