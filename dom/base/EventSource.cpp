@@ -4679,7 +4679,7 @@ securityFlags
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_EVENTSOURCE
+TYPE_DATAREQUEST
 mLoadGroup
 /
 /
@@ -4717,7 +4717,7 @@ securityFlags
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_EVENTSOURCE
+TYPE_DATAREQUEST
 mLoadGroup
 /
 /
