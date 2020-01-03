@@ -3022,7 +3022,7 @@ return
 true
 ;
 }
-already_AddRefed
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -3270,10 +3270,6 @@ otherPackets
 Push
 (
 holder
-.
-forget
-(
-)
 )
 ;
 continue
@@ -3309,10 +3305,6 @@ Track
 {
 return
 holder
-.
-forget
-(
-)
 ;
 }
 }
@@ -3322,7 +3314,7 @@ true
 )
 ;
 }
-already_AddRefed
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -3575,10 +3567,6 @@ nullptr
 }
 return
 holder
-.
-forget
-(
-)
 ;
 }
 bool
@@ -3705,10 +3693,6 @@ aEndTime
 PushVideoPacket
 (
 holder
-.
-forget
-(
-)
 )
 ;
 return
@@ -3722,10 +3706,6 @@ aOutput
 PushFront
 (
 holder
-.
-forget
-(
-)
 )
 ;
 }
@@ -3880,10 +3860,6 @@ skipPacketQueue
 PushFront
 (
 holder
-.
-forget
-(
-)
 )
 ;
 }
@@ -4021,10 +3997,8 @@ WebMReader
 :
 PushVideoPacket
 (
-already_AddRefed
-<
 NesteggPacketHolder
->
+*
 aItem
 )
 {
@@ -4032,10 +4006,7 @@ mVideoPackets
 .
 PushFront
 (
-Move
-(
 aItem
-)
 )
 ;
 }
