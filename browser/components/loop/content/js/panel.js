@@ -1850,6 +1850,7 @@ legal_text_privacy
 )
 ;
 return
+(
 React
 .
 createElement
@@ -1896,6 +1897,7 @@ __html
 tosHTML
 }
 }
+)
 )
 )
 ;
@@ -4384,6 +4386,7 @@ i
 )
 {
 return
+(
 React
 .
 createElement
@@ -4406,6 +4409,7 @@ room
 :
 room
 }
+)
 )
 ;
 }

@@ -4172,6 +4172,7 @@ clientShortname2
 )
 ;
 return
+(
 React
 .
 createElement
@@ -4208,6 +4209,7 @@ initiate_audio_video_call_button2
 "
 )
 }
+)
 )
 )
 ;
@@ -4293,6 +4295,7 @@ status_error
 )
 ;
 return
+(
 React
 .
 createElement
@@ -4329,6 +4332,7 @@ retry_call_button
 "
 )
 }
+)
 )
 )
 ;

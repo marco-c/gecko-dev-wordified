@@ -1138,6 +1138,7 @@ HAS_PARTICIPANTS
 )
 {
 return
+(
 React
 .
 createElement
@@ -1159,6 +1160,7 @@ props
 .
 dispatcher
 }
+)
 )
 ;
 }
@@ -1621,6 +1623,7 @@ on
 desktop
 .
 return
+(
 React
 .
 createElement
@@ -1638,6 +1641,7 @@ this
 closeWindow
 }
 )
+)
 ;
 }
 case
@@ -1647,6 +1651,7 @@ ENDED
 :
 {
 return
+(
 React
 .
 createElement
@@ -1661,6 +1666,7 @@ this
 .
 closeWindow
 }
+)
 )
 ;
 }
