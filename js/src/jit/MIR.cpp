@@ -19056,6 +19056,12 @@ MIRType_Int32
 )
 ;
 return
+MTruncateToInt32
+:
+:
+New
+(
+alloc
 input
 -
 >
@@ -19064,9 +19070,9 @@ toBitNot
 )
 -
 >
-getOperand
+input
 (
-0
+)
 )
 ;
 /
@@ -19077,6 +19083,8 @@ x
 =
 >
 x
+|
+0
 }
 return
 this
