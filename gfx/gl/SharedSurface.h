@@ -1304,6 +1304,14 @@ DrawTarget
 dst
 )
 ;
+uint32_t
+ReadPixel
+(
+SharedSurface
+*
+src
+)
+;
 }
 /
 /
