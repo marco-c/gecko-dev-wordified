@@ -434,16 +434,12 @@ false
 )
                 
 return
-False
-if
 skip_value
-=
+!
 =
 "
 true
 "
-else
-True
             
 except
 KeyError
@@ -841,6 +837,25 @@ node
 append
 (
 new_node
+)
+                
+new_node
+.
+set
+(
+"
+skip
+"
+node
+.
+get
+(
+"
+skip
+"
+{
+}
+)
 )
             
 node
