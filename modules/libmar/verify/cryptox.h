@@ -441,6 +441,9 @@ unsigned
 char
 *
 aCertData
+unsigned
+int
+aDataSize
 CryptoX_PublicKey
 *
 aPublicKey
@@ -545,6 +548,7 @@ aPublicKey
 CryptoMac_LoadPublicKey
 (
 aCertData
+aDataSize
 aPublicKey
 )
 #
