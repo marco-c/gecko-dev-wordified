@@ -296,12 +296,16 @@ ArchiveZipBlobImpl
 Overrides
 :
 virtual
-nsresult
+void
 GetInternalStream
 (
 nsIInputStream
 *
 *
+aInputStream
+ErrorResult
+&
+aRv
 )
 override
 ;

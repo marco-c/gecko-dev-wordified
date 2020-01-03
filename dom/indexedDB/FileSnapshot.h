@@ -342,13 +342,16 @@ aRv
 override
 ;
 virtual
-nsresult
+void
 GetInternalStream
 (
 nsIInputStream
 *
 *
 aStream
+ErrorResult
+&
+aRv
 )
 override
 ;

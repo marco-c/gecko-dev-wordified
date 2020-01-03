@@ -1704,8 +1704,6 @@ GetAsBlob
 (
 )
 ;
-aRv
-=
 blob
 .
 GetInternalStream
@@ -1714,6 +1712,7 @@ getter_AddRefs
 (
 stream
 )
+aRv
 )
 ;
 if
