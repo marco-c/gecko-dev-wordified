@@ -308,6 +308,16 @@ get
 )
 ;
 }
+virtual
+const
+nsCString
+&
+GetDisplayName
+(
+)
+const
+MOZ_OVERRIDE
+;
 /
 /
 GMPSharedMemManager

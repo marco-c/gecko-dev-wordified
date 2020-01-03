@@ -406,6 +406,17 @@ Close
 =
 0
 ;
+virtual
+const
+nsCString
+&
+GetDisplayName
+(
+)
+const
+=
+0
+;
 }
 ;
 #

@@ -662,6 +662,14 @@ mNodeId
 const
 nsCString
 &
+GetDisplayName
+(
+)
+const
+;
+const
+nsCString
+&
 GetVersion
 (
 )
