@@ -20742,7 +20742,6 @@ aContainerReferenceFrame
 aLayer
 mScrollParentID
 scrollport
-false
 isRoot
 aParameters
 )

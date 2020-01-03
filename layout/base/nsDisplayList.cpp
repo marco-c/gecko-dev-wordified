@@ -4768,8 +4768,6 @@ nsRect
 &
 aViewport
 bool
-aForceNullScrollId
-bool
 aIsRoot
 const
 ContainerLayerParameters
@@ -4853,12 +4851,6 @@ if
 content
 )
 {
-if
-(
-!
-aForceNullScrollId
-)
-{
 scrollId
 =
 nsLayoutUtils
@@ -4869,7 +4861,6 @@ FindOrCreateIDFor
 content
 )
 ;
-}
 nsRect
 dp
 ;
@@ -10999,8 +10990,6 @@ FrameMetrics
 :
 NULL_SCROLL_ID
 viewport
-!
-isRoot
 isRoot
 containerParameters
 )
@@ -25915,7 +25904,6 @@ ReferenceFrame
 aLayer
 mScrollParentId
 viewport
-false
 isRootContentDocument
 params
 )
@@ -27738,7 +27726,6 @@ ReferenceFrame
 aLayer
 mScrollParentId
 viewport
-false
 false
 params
 )
