@@ -18490,6 +18490,7 @@ NULL
 0
 }
 ;
+const
 char
 *
 slotname
@@ -18498,6 +18499,7 @@ slotname
 internal
 "
 ;
+const
 char
 *
 certPrefix
@@ -18512,6 +18514,7 @@ sourceDir
 "
 "
 ;
+const
 char
 *
 srcCertPrefix
@@ -19207,8 +19210,6 @@ NULL
 else
 slotname
 =
-PL_strdup
-(
 certutil
 .
 options
@@ -19217,7 +19218,6 @@ opt_TokenName
 ]
 .
 arg
-)
 ;
 }
 /
@@ -19670,8 +19670,6 @@ arg
 {
 certPrefix
 =
-strdup
-(
 certutil
 .
 options
@@ -19680,7 +19678,6 @@ opt_DBPrefix
 ]
 .
 arg
-)
 ;
 }
 else
@@ -19730,8 +19727,6 @@ arg
 {
 srcCertPrefix
 =
-strdup
-(
 certutil
 .
 options
@@ -19740,7 +19735,6 @@ opt_SourcePrefix
 ]
 .
 arg
-)
 ;
 }
 else
