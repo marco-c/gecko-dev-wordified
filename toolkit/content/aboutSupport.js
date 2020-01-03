@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 classes
@@ -2684,10 +2689,9 @@ children
 .
 forEach
 (
-function
-(
 c
-)
+=
+>
 parent
 .
 appendChild
@@ -2762,7 +2766,6 @@ tuples
 .
 sort
 (
-function
 (
 [
 prop1
@@ -2773,6 +2776,8 @@ prop2
 v2
 ]
 )
+=
+>
 prop1
 .
 localeCompare
