@@ -752,7 +752,7 @@ Metrics
 gfxFT2FontBase
 :
 :
-GetMetrics
+GetHorizontalMetrics
 (
 )
 {
@@ -1114,7 +1114,7 @@ font
 "
 )
 ;
-GetMetrics
+GetHorizontalMetrics
 (
 )
 ;

@@ -729,7 +729,7 @@ Metrics
 gfxDWriteFont
 :
 :
-GetMetrics
+GetHorizontalMetrics
 (
 )
 {
