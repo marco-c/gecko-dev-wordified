@@ -502,12 +502,14 @@ txIMatchContext
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 \
 double
 getDefaultPriority
 (
 )
+MOZ_OVERRIDE
 ;
 \
 virtual
@@ -518,6 +520,7 @@ getSubExprAt
 uint32_t
 aPos
 )
+MOZ_OVERRIDE
 ;
 \
 virtual
@@ -530,6 +533,7 @@ Expr
 *
 aExpr
 )
+MOZ_OVERRIDE
 ;
 \
 virtual
@@ -540,6 +544,7 @@ getSubPatternAt
 uint32_t
 aPos
 )
+MOZ_OVERRIDE
 ;
 \
 virtual
@@ -552,6 +557,7 @@ txPattern
 *
 aPattern
 )
+MOZ_OVERRIDE
 #
 ifndef
 TX_TO_STRING
@@ -575,6 +581,7 @@ nsAString
 &
 aDest
 )
+MOZ_OVERRIDE
 #
 endif
 #
