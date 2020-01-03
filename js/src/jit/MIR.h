@@ -14070,6 +14070,11 @@ for
 bailout
 paths
 .
+setResultType
+(
+MIRType_Object
+)
+;
 setRecoveredOnBailout
 (
 )
