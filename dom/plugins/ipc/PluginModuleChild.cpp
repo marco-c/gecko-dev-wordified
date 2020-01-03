@@ -921,6 +921,11 @@ true
 #
 ifdef
 XP_MACOSX
+if
+(
+aIsChrome
+)
+{
 mac_plugin_interposing
 :
 :
@@ -931,6 +936,7 @@ SetUpCocoaInterposing
 (
 )
 ;
+}
 #
 endif
 }
