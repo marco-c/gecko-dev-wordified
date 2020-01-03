@@ -434,6 +434,15 @@ MOZ_OVERRIDE
 ;
 private
 :
+class
+CloseSocketTask
+;
+class
+ReadFileTask
+;
+class
+SendSocketDataTask
+;
 BluetoothOppManager
 (
 )
