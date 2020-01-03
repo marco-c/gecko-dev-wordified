@@ -10610,7 +10610,7 @@ AsyncPanZoomController
 ConvertToGecko
 (
 const
-ParentLayerPoint
+ScreenIntPoint
 &
 aPoint
 CSSPoint
@@ -10629,6 +10629,17 @@ GetApzcTreeManager
 )
 )
 {
+Matrix4x4
+transformToApzc
+=
+treeManagerLocal
+-
+>
+GetScreenToApzcTransform
+(
+this
+)
+;
 Matrix4x4
 transformToGecko
 =
@@ -10682,6 +10693,8 @@ TransformTo
 LayoutDevicePixel
 >
 (
+transformToApzc
+*
 transformToGecko
 aPoint
 )
@@ -12736,7 +12749,7 @@ ConvertToGecko
 (
 aEvent
 .
-mLocalPoint
+mPoint
 &
 geckoScreenPoint
 )
@@ -12854,7 +12867,7 @@ GenerateSingleTap
 (
 aEvent
 .
-mLocalPoint
+mPoint
 aEvent
 .
 modifiers
@@ -12868,7 +12881,7 @@ AsyncPanZoomController
 GenerateSingleTap
 (
 const
-ParentLayerPoint
+ScreenIntPoint
 &
 aPoint
 mozilla
@@ -13159,7 +13172,7 @@ GenerateSingleTap
 (
 aEvent
 .
-mLocalPoint
+mPoint
 aEvent
 .
 modifiers
@@ -13210,7 +13223,7 @@ GenerateSingleTap
 (
 aEvent
 .
-mLocalPoint
+mPoint
 aEvent
 .
 modifiers
@@ -13291,7 +13304,7 @@ ConvertToGecko
 (
 aEvent
 .
-mLocalPoint
+mPoint
 &
 geckoScreenPoint
 )

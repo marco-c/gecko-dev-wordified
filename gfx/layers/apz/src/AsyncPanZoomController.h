@@ -4294,8 +4294,8 @@ Convert
 ScreenPoint
 relative
 to
-this
-APZC
+the
+screen
 to
 CSSPoint
 relative
@@ -4331,6 +4331,10 @@ before
 sending
 over
 IPC
+to
+a
+child
+process
 .
 *
 /
@@ -4338,7 +4342,7 @@ bool
 ConvertToGecko
 (
 const
-ParentLayerPoint
+ScreenIntPoint
 &
 aPoint
 CSSPoint
@@ -4410,7 +4414,7 @@ nsEventStatus
 GenerateSingleTap
 (
 const
-ParentLayerPoint
+ScreenIntPoint
 &
 aPoint
 mozilla
