@@ -317,6 +317,7 @@ runUpdate
 (
 1
 STATE_FAILED_WRITE_ERROR
+checkUpdateApplied
 )
 ;
 }

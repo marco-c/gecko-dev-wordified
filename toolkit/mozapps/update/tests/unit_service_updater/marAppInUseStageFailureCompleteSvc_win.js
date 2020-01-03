@@ -43,6 +43,16 @@ failure
 test
 *
 /
+const
+START_STATE
+=
+STATE_PENDING_SVC
+;
+const
+END_STATE
+=
+STATE_FAILED_WRITE_ERROR
+;
 function
 run_test
 (
@@ -199,7 +209,7 @@ doUpdate
 {
 runUpdateUsingService
 (
-STATE_PENDING_SVC
+START_STATE
 STATE_APPLIED
 )
 ;
@@ -237,7 +247,8 @@ true
 runUpdate
 (
 1
-STATE_FAILED_WRITE_ERROR
+END_STATE
+checkUpdateApplied
 )
 ;
 }

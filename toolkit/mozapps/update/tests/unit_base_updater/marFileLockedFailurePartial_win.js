@@ -276,11 +276,12 @@ runUpdate
 (
 1
 STATE_FAILED_READ_ERROR
+checkUpdateFinished
 )
 ;
 }
 function
-checkUpdateApplied
+checkUpdateFinished
 (
 )
 {

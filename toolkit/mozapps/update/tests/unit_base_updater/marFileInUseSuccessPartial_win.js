@@ -180,11 +180,12 @@ runUpdate
 (
 0
 STATE_SUCCEEDED
+checkUpdateFinished
 )
 ;
 }
 function
-checkUpdateApplied
+checkUpdateFinished
 (
 )
 {

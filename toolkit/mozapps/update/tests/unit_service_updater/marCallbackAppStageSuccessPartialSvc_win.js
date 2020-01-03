@@ -135,6 +135,7 @@ runUpdate
 (
 0
 STATE_SUCCEEDED
+checkUpdateApplied
 )
 ;
 }
