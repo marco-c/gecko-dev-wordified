@@ -1498,6 +1498,12 @@ mSizeOfQueue
 =
 0
 ;
+mNextStreamSourceID
+.
+reset
+(
+)
+;
 }
 /
 /
@@ -1523,6 +1529,12 @@ monitoring
 .
 uint32_t
 mLastStreamSourceID
+;
+Maybe
+<
+uint32_t
+>
+mNextStreamSourceID
 ;
 media
 :
