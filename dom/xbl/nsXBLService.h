@@ -540,6 +540,9 @@ aDocumentURI
 nsIURI
 *
 aBindingURI
+nsIPrincipal
+*
+aOriginPrincipal
 bool
 aForceSyncLoad
 nsIDocument
