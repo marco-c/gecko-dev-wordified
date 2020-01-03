@@ -437,7 +437,6 @@ MakeUnique
 TimelineMarker
 >
 (
-aDocShell
 aName
 aMetaData
 )
@@ -492,7 +491,6 @@ MakeUnique
 TimelineMarker
 >
 (
-aDocShell
 aName
 aTime
 aMetaData

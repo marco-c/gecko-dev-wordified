@@ -36963,11 +36963,9 @@ TimelineMarker
 {
 public
 :
+explicit
 LayerTimelineMarker
 (
-nsDocShell
-*
-aDocShell
 const
 nsIntRegion
 &
@@ -36976,7 +36974,6 @@ aRegion
 :
 TimelineMarker
 (
-aDocShell
 "
 Layer
 "
@@ -38381,7 +38378,6 @@ MakeUnique
 LayerTimelineMarker
 >
 (
-docShell
 aRegionToDraw
 )
 ;
