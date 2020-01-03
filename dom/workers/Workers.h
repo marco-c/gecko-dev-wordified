@@ -1344,6 +1344,14 @@ JSObject
 global
 )
 ;
+bool
+IsDebuggerSandbox
+(
+JSObject
+*
+object
+)
+;
 /
 /
 Throws
