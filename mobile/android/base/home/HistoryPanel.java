@@ -2929,11 +2929,8 @@ moveToNext
 private
 class
 CursorLoaderCallbacks
-implements
-LoaderCallbacks
-<
-Cursor
->
+extends
+TransitionAwareCursorLoaderCallbacks
 {
 Override
 public
@@ -2962,7 +2959,7 @@ getActivity
 Override
 public
 void
-onLoadFinished
+onLoadFinishedAfterTransitions
 (
 Loader
 <
@@ -2998,6 +2995,13 @@ Cursor
 loader
 )
 {
+super
+.
+onLoaderReset
+(
+loader
+)
+;
 mAdapter
 .
 swapCursor
