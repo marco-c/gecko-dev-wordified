@@ -524,9 +524,6 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_TEXT_PAGE_TITLE
-StringHelper
-.
-ROBOCOP_TEXT_PAGE_URL
 )
 ;
 /
@@ -1289,9 +1286,6 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_TEXT_PAGE_TITLE
-StringHelper
-.
-ROBOCOP_TEXT_PAGE_URL
 )
 ;
 /
@@ -1423,9 +1417,6 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_TEXT_PAGE_TITLE
-StringHelper
-.
-ROBOCOP_TEXT_PAGE_URL
 )
 ;
 /
