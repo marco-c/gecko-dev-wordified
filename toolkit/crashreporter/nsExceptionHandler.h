@@ -344,6 +344,14 @@ UpdateCrashEventsDir
 (
 )
 ;
+void
+SetMemoryReportFile
+(
+nsIFile
+*
+aFile
+)
+;
 /
 *
 *
