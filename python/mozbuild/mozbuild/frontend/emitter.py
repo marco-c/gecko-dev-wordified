@@ -6509,7 +6509,7 @@ self
 .
 info
 )
-                
+            
 missing
 =
 [
@@ -6539,11 +6539,11 @@ path
 ]
 )
 ]
-                
+            
 if
 missing
 :
-                    
+                
 raise
 SandboxValidationError
 (
@@ -6556,7 +6556,7 @@ s
 )
 lists
 '
-                        
+                    
 '
 test
 that
@@ -6569,7 +6569,7 @@ s
 '
 %
 (
-                        
+                    
 path
 '
 '
