@@ -577,7 +577,7 @@ in
 there
 already
 .
-clearImageCache
+clearAllImageCaches
 (
 )
 ;
