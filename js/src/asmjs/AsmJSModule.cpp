@@ -1828,7 +1828,7 @@ masm
 bytesNeeded
 (
 )
-SimdStackAlignment
+SimdMemoryAlignment
 )
 ;
 /

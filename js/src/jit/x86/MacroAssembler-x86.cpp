@@ -1338,7 +1338,7 @@ masm
 .
 align
 (
-SimdStackAlignment
+SimdMemoryAlignment
 )
 ;
 for

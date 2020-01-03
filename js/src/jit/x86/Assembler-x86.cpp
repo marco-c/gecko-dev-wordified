@@ -264,14 +264,14 @@ visitAsmJSPassArg
 assumes
 /
 /
-SimdStackAlignment
+SimdMemoryAlignment
 .
 stackOffset_
 =
 AlignBytes
 (
 stackOffset_
-SimdStackAlignment
+SimdMemoryAlignment
 )
 ;
 current_

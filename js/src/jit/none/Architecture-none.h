@@ -164,7 +164,7 @@ false
 static
 const
 uint32_t
-SimdStackAlignment
+SimdMemoryAlignment
 =
 4
 ;
