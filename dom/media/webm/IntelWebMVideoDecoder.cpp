@@ -1976,6 +1976,10 @@ mSampleQueue
 front
 (
 )
+.
+forget
+(
+)
 ;
 mSampleQueue
 .
