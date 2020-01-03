@@ -450,6 +450,13 @@ imageLoader
 >
 DecrementVisibleCount
 (
+/
+*
+aRequestDiscard
+=
+*
+/
+false
 )
 ;
 }
