@@ -22641,7 +22641,13 @@ caret
 PaintCaret
 (
 nullptr
+*
 aContext
+-
+>
+GetDrawTarget
+(
+)
 frame
 nsPoint
 (
