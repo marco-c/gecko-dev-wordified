@@ -905,10 +905,17 @@ accounts
 ]
 =
 fxAccount
+!
+=
+null
+?
+fxAccount
 .
 getAndroidAccount
 (
 )
+:
+null
 ;
 }
 finally
