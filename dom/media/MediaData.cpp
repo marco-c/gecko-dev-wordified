@@ -1510,10 +1510,6 @@ aTimecode
 aInfo
 .
 mDisplay
-.
-ToIntSize
-(
-)
 )
 )
 ;
@@ -1873,10 +1869,6 @@ aTimecode
 aInfo
 .
 mDisplay
-.
-ToIntSize
-(
-)
 )
 )
 ;
@@ -2431,10 +2423,6 @@ aTimecode
 aInfo
 .
 mDisplay
-.
-ToIntSize
-(
-)
 )
 )
 ;
@@ -2548,10 +2536,6 @@ aTimecode
 aInfo
 .
 mDisplay
-.
-ToIntSize
-(
-)
 )
 )
 ;
@@ -2742,10 +2726,6 @@ aTimecode
 aInfo
 .
 mDisplay
-.
-ToIntSize
-(
-)
 )
 )
 ;

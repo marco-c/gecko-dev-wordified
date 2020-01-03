@@ -7760,10 +7760,6 @@ mDefaultRT
 SetSize
 (
 mSize
-.
-ToIntSize
-(
-)
 )
 ;
 }

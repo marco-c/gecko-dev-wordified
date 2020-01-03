@@ -2819,10 +2819,6 @@ SurfaceCache
 CanHold
 (
 aTargetSize
-.
-ToIntSize
-(
-)
 )
 )
 {
@@ -2956,10 +2952,6 @@ get
 RasterSurfaceKey
 (
 aTargetSize
-.
-ToIntSize
-(
-)
 aDecodeFlags
 aFrameNum
 )

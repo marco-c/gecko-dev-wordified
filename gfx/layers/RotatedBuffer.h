@@ -257,9 +257,6 @@ LayersTypes
 .
 h
 "
-struct
-nsIntSize
-;
 namespace
 mozilla
 {
@@ -2579,7 +2576,10 @@ bool
 BufferSizeOkFor
 (
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )

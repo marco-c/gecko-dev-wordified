@@ -1444,10 +1444,6 @@ NS_ERROR_FAILURE
 mImageSize
 =
 aImageSize
-.
-ToIntSize
-(
-)
 ;
 mOffset
 .
@@ -1819,10 +1815,6 @@ NS_ERROR_FAILURE
 mImageSize
 =
 aSize
-.
-ToIntSize
-(
-)
 ;
 mOffset
 .

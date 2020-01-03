@@ -635,10 +635,6 @@ GetPlatform
 CreateOffscreenContentDrawTarget
 (
 mSize
-.
-ToIntSize
-(
-)
 format
 )
 ;

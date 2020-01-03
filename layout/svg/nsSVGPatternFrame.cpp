@@ -2541,10 +2541,6 @@ Size
 &
 resultOverflows
 )
-.
-ToIntSize
-(
-)
 ;
 /
 /

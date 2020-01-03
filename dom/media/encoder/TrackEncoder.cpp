@@ -1384,10 +1384,6 @@ mFrame
 GetIntrinsicSize
 (
 )
-.
-ToIntSize
-(
-)
 chunk
 .
 mFrame

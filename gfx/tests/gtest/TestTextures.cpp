@@ -2338,10 +2338,6 @@ ySurface
 GetSize
 (
 )
-.
-ToIntSize
-(
-)
 ;
 clientData
 .
@@ -2353,10 +2349,6 @@ ySurface
 GetSize
 (
 )
-.
-ToIntSize
-(
-)
 ;
 clientData
 .
@@ -2366,10 +2358,6 @@ cbSurface
 -
 >
 GetSize
-(
-)
-.
-ToIntSize
 (
 )
 ;

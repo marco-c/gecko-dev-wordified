@@ -6644,10 +6644,6 @@ mDisplay
 ThebesIntSize
 (
 displaySize
-.
-ToIntSize
-(
-)
 )
 ;
 mInfo

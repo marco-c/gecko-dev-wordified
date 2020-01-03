@@ -711,9 +711,6 @@ TextRenderer
 class
 gfxContext
 ;
-struct
-nsIntSize
-;
 namespace
 mozilla
 {

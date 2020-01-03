@@ -102,6 +102,13 @@ nsNPAPIPluginInstance_h_
 #
 include
 "
+nsSize
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

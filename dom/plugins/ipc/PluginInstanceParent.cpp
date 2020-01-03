@@ -3279,10 +3279,6 @@ surface
 GetSize
 (
 )
-.
-ToIntSize
-(
-)
 ;
 cairoData
 .

@@ -133,9 +133,6 @@ UniquePtr
 .
 h
 >
-struct
-nsIntSize
-;
 namespace
 mozilla
 {

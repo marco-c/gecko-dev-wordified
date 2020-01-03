@@ -935,9 +935,6 @@ implementations
 class
 nsIWidget
 ;
-struct
-nsIntSize
-;
 class
 nsIntRegion
 ;

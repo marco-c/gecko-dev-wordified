@@ -33476,6 +33476,8 @@ result
 .
 SetSize
 (
+IntSizeToAppUnits
+(
 nsSVGIntegrationUtils
 :
 :
@@ -33488,9 +33490,6 @@ ToNearestPixels
 (
 appUnitsPerDevPixel
 )
-.
-ToAppUnits
-(
 appUnitsPerDevPixel
 )
 )
