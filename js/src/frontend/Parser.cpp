@@ -13607,8 +13607,8 @@ addExprAndGetNextTemplStrToken
 Node
 nodeList
 TokenKind
-&
-tt
+*
+ttp
 )
 {
 Node
@@ -13633,6 +13633,9 @@ addList
 nodeList
 pn
 )
+;
+TokenKind
+tt
 ;
 if
 (
@@ -13675,8 +13678,7 @@ tokenStream
 .
 getToken
 (
-&
-tt
+ttp
 TokenStream
 :
 :
@@ -13769,6 +13771,7 @@ if
 addExprAndGetNextTemplStrToken
 (
 nodeList
+&
 tt
 )
 )
@@ -13847,6 +13850,7 @@ if
 addExprAndGetNextTemplStrToken
 (
 nodeList
+&
 tt
 )
 )
