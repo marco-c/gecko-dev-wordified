@@ -5000,6 +5000,14 @@ Node
 importSpecSet
 )
 ;
+bool
+addExportName
+(
+JSAtom
+*
+exportName
+)
+;
 enum
 ClassContext
 {

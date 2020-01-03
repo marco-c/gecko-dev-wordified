@@ -2847,6 +2847,13 @@ public
 Bindings
 bindings
 ;
+TraceableVector
+<
+JSAtom
+*
+>
+exportNames
+;
 template
 <
 typename
