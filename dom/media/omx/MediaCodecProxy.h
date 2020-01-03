@@ -797,6 +797,11 @@ IsDormantNeeded
 )
 ;
 void
+RequestMediaResources
+(
+)
+;
+void
 ReleaseMediaResources
 (
 )
