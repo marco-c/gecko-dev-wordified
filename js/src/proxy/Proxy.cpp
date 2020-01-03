@@ -3019,12 +3019,6 @@ allowed
 )
 )
 {
-AutoIdVector
-props
-(
-cx
-)
-;
 return
 policy
 .
@@ -3033,12 +3027,10 @@ returnValue
 )
 &
 &
-EnumeratedIdVectorToIterator
+NewEmptyPropertyIterator
 (
 cx
-proxy
 flags
-props
 vp
 )
 ;
