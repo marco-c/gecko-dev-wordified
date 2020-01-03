@@ -197,6 +197,11 @@ GetAppId
 (
 )
 ;
+bool
+GetInBrowser
+(
+)
+;
 void
 AddIPDLReference
 (

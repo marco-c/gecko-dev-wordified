@@ -260,6 +260,7 @@ aPort
 aUseSSL
 aBinaryType
 aAppId
+aInBrowser
 )
 {
 let
@@ -333,6 +334,13 @@ setAppId
 aAppId
 )
 ;
+socketInternal
+.
+setInBrowser
+(
+aInBrowser
+)
+;
 /
 /
 Handle
@@ -398,6 +406,7 @@ aLocalPort
 aBacklog
 aBinaryType
 aAppId
+aInBrowser
 )
 {
 let
@@ -520,6 +529,13 @@ socketInternal
 setAppId
 (
 aAppId
+)
+;
+socketInternal
+.
+setInBrowser
+(
+aInBrowser
 )
 ;
 socketInternal

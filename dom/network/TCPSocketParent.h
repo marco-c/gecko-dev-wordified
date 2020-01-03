@@ -351,6 +351,11 @@ GetAppId
 )
 MOZ_OVERRIDE
 ;
+bool
+GetInBrowser
+(
+)
+;
 private
 :
 virtual
