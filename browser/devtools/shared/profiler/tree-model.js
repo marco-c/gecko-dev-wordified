@@ -97,6 +97,8 @@ L10N
 "
 devtools
 /
+shared
+/
 profiler
 /
 global
@@ -115,6 +117,8 @@ CATEGORY_MAPPINGS
 "
 devtools
 /
+shared
+/
 profiler
 /
 global
@@ -132,6 +136,8 @@ CATEGORY_JIT
 "
 "
 devtools
+/
+shared
 /
 profiler
 /

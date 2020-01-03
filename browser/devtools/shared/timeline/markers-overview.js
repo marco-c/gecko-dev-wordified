@@ -207,6 +207,8 @@ L10N
 "
 devtools
 /
+shared
+/
 timeline
 /
 global

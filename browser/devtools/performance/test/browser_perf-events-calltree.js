@@ -62,6 +62,8 @@ require
 "
 devtools
 /
+shared
+/
 profiler
 /
 tree

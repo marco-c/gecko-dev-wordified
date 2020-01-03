@@ -57,6 +57,8 @@ require
 "
 devtools
 /
+shared
+/
 profiler
 /
 global

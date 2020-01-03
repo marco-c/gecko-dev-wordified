@@ -227,6 +227,8 @@ TIMELINE_BLUEPRINT
 "
 devtools
 /
+shared
+/
 timeline
 /
 global
@@ -244,6 +246,8 @@ L10N
 "
 "
 devtools
+/
+shared
 /
 profiler
 /
@@ -303,6 +307,8 @@ MarkersOverview
 "
 devtools
 /
+shared
+/
 timeline
 /
 markers
@@ -322,6 +328,8 @@ MemoryOverview
 "
 "
 devtools
+/
+shared
 /
 timeline
 /
@@ -343,6 +351,8 @@ Waterfall
 "
 devtools
 /
+shared
+/
 timeline
 /
 waterfall
@@ -360,6 +370,8 @@ MarkerDetails
 "
 "
 devtools
+/
+shared
 /
 timeline
 /
@@ -381,6 +393,8 @@ CallView
 "
 devtools
 /
+shared
+/
 profiler
 /
 tree
@@ -401,6 +415,8 @@ ThreadNode
 "
 devtools
 /
+shared
+/
 profiler
 /
 tree
@@ -420,6 +436,8 @@ FrameNode
 "
 "
 devtools
+/
+shared
 /
 profiler
 /

@@ -119,6 +119,8 @@ L10N
 "
 devtools
 /
+shared
+/
 timeline
 /
 global
@@ -136,6 +138,8 @@ TIMELINE_BLUEPRINT
 "
 "
 devtools
+/
+shared
 /
 timeline
 /

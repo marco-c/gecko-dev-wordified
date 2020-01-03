@@ -87,6 +87,8 @@ L10N
 "
 devtools
 /
+shared
+/
 profiler
 /
 global

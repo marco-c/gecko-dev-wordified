@@ -73,6 +73,8 @@ require
 "
 devtools
 /
+shared
+/
 profiler
 /
 tree
@@ -92,6 +94,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 profiler
 /
