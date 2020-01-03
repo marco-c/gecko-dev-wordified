@@ -220,8 +220,6 @@ SharedPlanarYCbCrImage
 :
 public
 PlanarYCbCrImage
-public
-ISharedImage
 {
 public
 :
@@ -242,18 +240,6 @@ SharedPlanarYCbCrImage
 ;
 public
 :
-virtual
-ISharedImage
-*
-AsSharedImage
-(
-)
-MOZ_OVERRIDE
-{
-return
-this
-;
-}
 virtual
 TextureClient
 *

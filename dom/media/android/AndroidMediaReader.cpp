@@ -2612,11 +2612,6 @@ return
 image
 -
 >
-AsSharedImage
-(
-)
--
->
 GetBuffer
 (
 )
