@@ -128,13 +128,6 @@ nsContentCID
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 using
 namespace
 mozilla
