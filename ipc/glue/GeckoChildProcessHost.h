@@ -85,6 +85,15 @@ include
 "
 base
 /
+scoped_ptr
+.
+h
+"
+#
+include
+"
+base
+/
 waitable_event
 .
 h

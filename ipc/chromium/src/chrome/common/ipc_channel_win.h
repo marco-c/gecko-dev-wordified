@@ -75,15 +75,6 @@ message_loop
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 class
 NonThreadSafe
 ;
@@ -637,10 +628,7 @@ ChannelImpl
 >
 factory_
 ;
-mozilla
-:
-:
-UniquePtr
+scoped_ptr
 <
 NonThreadSafe
 >
