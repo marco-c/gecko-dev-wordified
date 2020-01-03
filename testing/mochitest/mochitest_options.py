@@ -530,15 +530,6 @@ binary
 .
 "
           
-"
-suppress
-"
-:
-build_obj
-is
-not
-None
-          
 }
 ]
         
