@@ -273,11 +273,6 @@ endif
 /
 anonymous
 namespace
-#
-if
-ANDROID_VERSION
->
-17
 /
 *
 *
@@ -441,8 +436,6 @@ break
 ;
 }
 }
-#
-endif
 NS_IMETHODIMP
 BluetoothA2dpManager
 :
