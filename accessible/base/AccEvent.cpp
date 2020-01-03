@@ -1539,6 +1539,8 @@ aTarget
 nsINode
 *
 aTargetNode
+bool
+aNeedsShutdown
 )
 :
 AccMutationEvent
@@ -1551,6 +1553,10 @@ nsIAccessibleEvent
 EVENT_HIDE
 aTarget
 aTargetNode
+)
+mNeedsShutdown
+(
+aNeedsShutdown
 )
 {
 mNextSibling
