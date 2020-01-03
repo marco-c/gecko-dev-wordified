@@ -559,6 +559,7 @@ Adreno205
 AdrenoTM200
 AdrenoTM205
 AdrenoTM320
+AdrenoTM420
 SGX530
 SGX540
 Tegra
@@ -17359,6 +17360,9 @@ mMaxSamples
 ;
 bool
 mNeedsTextureSizeChecks
+;
+bool
+mNeedsFlushBeforeDeleteFB
 ;
 bool
 mWorkAroundDriverBugs
