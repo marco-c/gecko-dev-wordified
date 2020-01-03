@@ -20705,9 +20705,9 @@ eKeyUp
 ;
 _ASSIGN_eventName
 (
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 "
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 "
 )
 ;
@@ -22006,7 +22006,7 @@ aGuiEvent
 mMessage
 =
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 |
 |
 aGuiEvent

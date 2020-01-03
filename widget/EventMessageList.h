@@ -368,7 +368,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 eMouseEventFirst
 +
 22

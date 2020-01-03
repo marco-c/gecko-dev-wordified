@@ -2198,7 +2198,7 @@ top
 window
 )
 /
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 (
 for
 new

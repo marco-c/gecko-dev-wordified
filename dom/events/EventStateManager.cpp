@@ -2961,16 +2961,16 @@ Do
 not
 take
 account
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 /
-EXIT_WIDGET
+ExitFromWidget
 so
 that
 loading
+/
+/
 a
 page
-/
-/
 when
 user
 is
@@ -3025,7 +3025,7 @@ mouseEvent
 mMessage
 !
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 &
 &
 mouseEvent
@@ -3478,7 +3478,7 @@ break
 ;
 }
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 /
 /
@@ -3487,7 +3487,7 @@ some
 cases
 on
 e10s
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 /
 /
 event
@@ -3701,7 +3701,7 @@ see
 comment
 above
 at
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 case
 .
 aEvent
@@ -6965,7 +6965,7 @@ case
 NS_CONTEXTMENU
 :
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 case
 NS_MOUSE_EXIT_WIDGET
@@ -20767,7 +20767,7 @@ dispatchedToContentProcess
 break
 ;
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 if
 (
@@ -23210,7 +23210,7 @@ remoteEvent
 CreateMouseOrPointerWidgetEvent
 (
 aMouseEvent
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 aRelatedContent
 remoteEvent
 )

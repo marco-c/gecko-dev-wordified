@@ -4708,7 +4708,7 @@ mouseEvent
 mMessage
 !
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 )
 |
 |

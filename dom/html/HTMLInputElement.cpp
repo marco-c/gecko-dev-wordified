@@ -16205,7 +16205,7 @@ case
 eMouseMove
 :
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 case
 NS_MOUSE_EXIT_WIDGET
