@@ -195,12 +195,6 @@ let
 OverviewView
 =
 {
-_beginAt
-:
-null
-_endAt
-:
-null
 /
 *
 *
