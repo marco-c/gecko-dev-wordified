@@ -1749,6 +1749,7 @@ mDecodedStream
 new
 DecodedStream
 (
+mTaskQueue
 mAudioQueue
 mVideoQueue
 )
