@@ -324,12 +324,6 @@ NS_GetCurrentThread
 mThread
 )
 ;
-if
-(
-mIsDisabled
-)
-return
-;
 MOZ_ASSERT
 (
 mIsTimerRunning
@@ -338,6 +332,12 @@ mIsTimerRunning
 mIsTimerRunning
 =
 false
+;
+if
+(
+mIsDisabled
+)
+return
 ;
 /
 /
@@ -501,7 +501,6 @@ DisableTimer
 {
 if
 (
-!
 mIsDisabled
 )
 return
