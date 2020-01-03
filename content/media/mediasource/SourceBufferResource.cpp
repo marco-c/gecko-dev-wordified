@@ -929,7 +929,7 @@ return
 rv
 ;
 }
-bool
+uint32_t
 SourceBufferResource
 :
 :
