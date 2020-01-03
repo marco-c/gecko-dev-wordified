@@ -1438,6 +1438,12 @@ TakeFocus
 ;
 ProxyAccessible
 *
+FocusedChild
+(
+)
+;
+ProxyAccessible
+*
 ChildAtPoint
 (
 int32_t
