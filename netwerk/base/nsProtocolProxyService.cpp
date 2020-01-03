@@ -11343,9 +11343,6 @@ valid
 proxy
 list
 .
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIProxyInfo
@@ -11375,6 +11372,11 @@ PruneProxyInfo
 info
 list
 )
+;
+nsresult
+rv
+=
+NS_OK
 ;
 if
 (
