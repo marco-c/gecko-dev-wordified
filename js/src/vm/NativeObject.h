@@ -9369,10 +9369,7 @@ HandleNativeObject
 obj
 HandleShape
 shape
-MutableHandle
-<
-Value
->
+MutableHandleValue
 vp
 )
 ;
