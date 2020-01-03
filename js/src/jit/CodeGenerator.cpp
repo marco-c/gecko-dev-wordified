@@ -16550,7 +16550,7 @@ bool
 CopyElementsForWriteFn
 )
 (
-ThreadSafeContext
+ExclusiveContext
 *
 NativeObject
 *
