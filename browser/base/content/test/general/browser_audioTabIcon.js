@@ -2536,14 +2536,6 @@ set
 [
 [
 "
-media
-.
-useAudioChannelService
-"
-true
-]
-[
-"
 browser
 .
 tabs

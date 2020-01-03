@@ -1784,14 +1784,6 @@ true
 '
 media
 .
-useAudioChannelService
-'
-true
-]
-[
-'
-media
-.
 recorder
 .
 audio_node

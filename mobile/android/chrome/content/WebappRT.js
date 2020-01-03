@@ -371,15 +371,6 @@ true
 pref
 (
 "
-media
-.
-useAudioChannelService
-"
-true
-)
-pref
-(
-"
 dom
 .
 mozTCPSocket
