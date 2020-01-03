@@ -283,9 +283,6 @@ readNDEF
 (
 this
 .
-_window
-this
-.
 session
 )
 ;
@@ -305,9 +302,6 @@ _nfcContentHelper
 .
 writeNDEF
 (
-this
-.
-_window
 records
 this
 .
@@ -329,9 +323,6 @@ _nfcContentHelper
 .
 makeReadOnlyNDEF
 (
-this
-.
-_window
 this
 .
 session
@@ -520,9 +511,6 @@ _nfcContentHelper
 .
 writeNDEF
 (
-this
-.
-_window
 records
 this
 .
@@ -583,9 +571,6 @@ _nfcContentHelper
 .
 sendFile
 (
-this
-.
-_window
 Cu
 .
 cloneInto
@@ -909,9 +894,6 @@ _nfcContentHelper
 .
 checkP2PRegistration
 (
-this
-.
-_window
 appID
 )
 ;
@@ -950,9 +932,6 @@ _nfcContentHelper
 .
 notifyUserAcceptedP2P
 (
-this
-.
-_window
 appID
 )
 ;
@@ -972,9 +951,6 @@ _nfcContentHelper
 .
 notifySendFileStatus
 (
-this
-.
-_window
 status
 requestId
 )
@@ -994,9 +970,6 @@ _nfcContentHelper
 .
 startPoll
 (
-this
-.
-_window
 )
 ;
 }
@@ -1014,9 +987,6 @@ _nfcContentHelper
 .
 stopPoll
 (
-this
-.
-_window
 )
 ;
 }
@@ -1034,9 +1004,6 @@ _nfcContentHelper
 .
 powerOff
 (
-this
-.
-_window
 )
 ;
 }
@@ -1230,9 +1197,6 @@ _nfcContentHelper
 .
 registerTargetForPeerReady
 (
-this
-.
-_window
 appId
 )
 ;
@@ -1277,9 +1241,6 @@ _nfcContentHelper
 .
 unregisterTargetForPeerReady
 (
-this
-.
-_window
 appId
 )
 ;
