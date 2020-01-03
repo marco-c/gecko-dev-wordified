@@ -138,13 +138,6 @@ nsString
 .
 h
 "
-#
-include
-"
-nsWeakPtr
-.
-h
-"
 class
 nsDOMDeviceStorage
 ;
@@ -249,7 +242,8 @@ mStorageType
 nsString
 mStorageName
 ;
-nsWeakPtr
+nsDOMDeviceStorage
+*
 mDeviceStorage
 ;
 }
