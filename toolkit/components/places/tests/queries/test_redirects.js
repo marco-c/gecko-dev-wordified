@@ -1450,7 +1450,12 @@ test_add_visits_to_database
 (
 )
 {
-remove_all_bookmarks
+yield
+PlacesUtils
+.
+bookmarks
+.
+eraseEverything
 (
 )
 ;
@@ -2382,7 +2387,12 @@ sorting_options
 check_results_callback
 )
 ;
-remove_all_bookmarks
+yield
+PlacesUtils
+.
+bookmarks
+.
+eraseEverything
 (
 )
 ;

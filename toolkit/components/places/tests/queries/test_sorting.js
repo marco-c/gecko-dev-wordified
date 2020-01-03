@@ -8211,7 +8211,12 @@ check_reverse
 Execute
 cleanup
 tasks
-remove_all_bookmarks
+yield
+PlacesUtils
+.
+bookmarks
+.
+eraseEverything
 (
 )
 ;
