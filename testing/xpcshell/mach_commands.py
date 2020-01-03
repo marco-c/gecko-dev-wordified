@@ -417,6 +417,9 @@ False
 log
 =
 None
+test_tags
+=
+None
                  
 #
 ignore
@@ -614,6 +617,9 @@ verbose
 log
 =
 log
+test_tags
+=
+test_tags
 )
             
 return
@@ -838,6 +844,12 @@ log
 '
 :
 log
+            
+'
+test_tags
+'
+:
+test_tags
         
 }
         
@@ -898,6 +910,9 @@ verbose
 =
 False
 log
+=
+None
+test_tags
 =
 None
 )
@@ -1227,6 +1242,12 @@ jsDebuggerPort
 '
 :
 jsDebuggerPort
+            
+'
+test_tags
+'
+:
+test_tags
         
 }
         
@@ -3618,6 +3639,69 @@ failures
 from
 last
 time
+.
+'
+)
+    
+CommandArgument
+(
+'
+-
+-
+tag
+'
+action
+=
+'
+append
+'
+dest
+=
+'
+test_tags
+'
+        
+help
+=
+'
+Filter
+out
+tests
+that
+don
+\
+'
+t
+have
+the
+given
+tag
+.
+Can
+be
+used
+'
+             
+'
+multiple
+times
+in
+which
+case
+the
+test
+must
+contain
+at
+least
+one
+'
+             
+'
+of
+the
+given
+tags
 .
 '
 )
