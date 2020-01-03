@@ -766,7 +766,7 @@ the
 actual
 method
 .
-HeapPtrJitCode
+RelocatablePtrJitCode
 method_
 ;
 /
@@ -800,7 +800,7 @@ enclosing
 scope
 )
 .
-HeapPtrObject
+RelocatablePtrObject
 templateScope_
 ;
 /
