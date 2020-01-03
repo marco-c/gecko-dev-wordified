@@ -317,7 +317,7 @@ length
 <
 1
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -593,7 +593,7 @@ length
 <
 1
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -857,7 +857,7 @@ length
 <
 1
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1140,15 +1140,11 @@ n
 <
 0
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_NEGATIVE_REPETITION_COUNT
 )
 ;
-/
-/
-a
-RangeError
 if
 (
 !
@@ -1167,15 +1163,11 @@ length
 )
 )
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_RESULTING_STRING_TOO_LARGE
 )
 ;
-/
-/
-a
-RangeError
 /
 /
 Communicate
@@ -1902,7 +1894,7 @@ Number_isNaN
 nextCP
 )
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_NOT_A_CODEPOINT
 ToString
@@ -1927,7 +1919,7 @@ nextCP
 >
 0x10FFFF
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_NOT_A_CODEPOINT
 ToString
@@ -2337,7 +2329,7 @@ length
 <
 1
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
