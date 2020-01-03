@@ -122,13 +122,33 @@ autoconf213
 '
             
 '
-dbus
--
-glib
+gmake
 '
             
 '
-gmake
+mercurial
+'
+            
+'
+pkgconf
+'
+            
+'
+zip
+'
+        
+]
+        
+self
+.
+browser_packages
+=
+[
+            
+'
+dbus
+-
+glib
 '
             
 '
@@ -146,14 +166,6 @@ libGL
 '
             
 '
-mercurial
-'
-            
-'
-pkgconf
-'
-            
-'
 pulseaudio
 '
             
@@ -163,10 +175,6 @@ v4l_compat
             
 '
 yasm
-'
-            
-'
-zip
 '
         
 ]
@@ -220,7 +228,7 @@ version
             
 self
 .
-packages
+browser_packages
 .
 append
 (
@@ -304,6 +312,23 @@ pkg_install
 self
 .
 packages
+)
+    
+def
+install_browser_packages
+(
+self
+)
+:
+        
+self
+.
+pkg_install
+(
+*
+self
+.
+browser_packages
 )
     
 def
