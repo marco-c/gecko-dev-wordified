@@ -308,7 +308,7 @@ reset
 state
 loadUrl
 (
-mStringHelper
+StringHelper
 .
 ABOUT_BLANK_URL
 )
@@ -319,7 +319,7 @@ ok
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 ABOUT_BLANK_URL
 )
@@ -328,7 +328,7 @@ Loaded
 blank
 page
 "
-mStringHelper
+StringHelper
 .
 ABOUT_BLANK_URL
 )

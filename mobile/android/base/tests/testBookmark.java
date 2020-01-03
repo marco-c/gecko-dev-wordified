@@ -107,7 +107,7 @@ BOOKMARK_URL
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -217,7 +217,7 @@ for
 String
 url
 :
-mStringHelper
+StringHelper
 .
 DEFAULT_BOOKMARKS_URLS
 )
@@ -258,7 +258,7 @@ mDatabaseHelper
 .
 addOrUpdateMobileBookmark
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 BOOKMARK_URL
@@ -281,7 +281,7 @@ BOOKMARK_URL
 ;
 verifyUrlBarTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -402,7 +402,7 @@ BOOKMARK_URL
 ;
 waitForText
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 )
@@ -417,7 +417,7 @@ is
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 BOOKMARK_ADDED_LABEL
 )
@@ -452,7 +452,7 @@ BOOKMARK_URL
 ;
 waitForText
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 )
@@ -467,7 +467,7 @@ is
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 BOOKMARK_REMOVED_LABEL
 )

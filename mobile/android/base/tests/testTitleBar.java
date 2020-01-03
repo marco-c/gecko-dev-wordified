@@ -115,7 +115,7 @@ blank1
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -123,7 +123,7 @@ ROBOCOP_BLANK_PAGE_01_URL
 String
 title
 =
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 ;
@@ -155,7 +155,7 @@ URL
 Bar
 selectOption
 (
-mStringHelper
+StringHelper
 .
 SHOW_PAGE_TITLE_LABEL
 )
@@ -184,7 +184,7 @@ URL
 Bar
 selectOption
 (
-mStringHelper
+StringHelper
 .
 SHOW_PAGE_ADDRESS_LABEL
 )
@@ -243,10 +243,10 @@ option
 {
 selectSettingsItem
 (
-mStringHelper
+StringHelper
 .
 DISPLAY_SECTION_LABEL
-mStringHelper
+StringHelper
 .
 TITLE_BAR_LABEL
 )
@@ -257,7 +257,7 @@ ok
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 SHOW_PAGE_TITLE_LABEL
 )
@@ -295,7 +295,7 @@ ok
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 CHARACTER_ENCODING_LABEL
 )
@@ -349,7 +349,7 @@ ok
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 CUSTOMIZE_SECTION_LABEL
 )
@@ -384,7 +384,7 @@ ok
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -421,7 +421,7 @@ ok
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
