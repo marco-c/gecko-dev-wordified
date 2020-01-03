@@ -4334,7 +4334,7 @@ enabled
 #
     
 def
-test_contenteditable_minimum_select_one_character
+test_contenteditable2_minimum_select_one_character
 (
 self
 )
