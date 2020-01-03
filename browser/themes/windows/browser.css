@@ -12572,6 +12572,12 @@ searchbar
 textbox
 {
 navbarTextboxCustomBorder
+border
+-
+radius
+:
+1px
+;
 }
 media
 (
