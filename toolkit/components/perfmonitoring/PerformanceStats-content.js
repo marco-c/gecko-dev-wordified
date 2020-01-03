@@ -717,7 +717,7 @@ probes
 =
 gMonitor
 .
-getProbeNames
+probeNames
 .
 filter
 (
