@@ -18426,6 +18426,7 @@ const
 nsACString
 &
 aCategory
+const
 nsIDocument
 *
 aDocument
@@ -18568,6 +18569,7 @@ const
 nsACString
 &
 aCategory
+const
 nsIDocument
 *
 aDocument

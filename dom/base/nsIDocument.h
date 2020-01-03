@@ -5806,6 +5806,7 @@ uint64_t
 InnerWindowID
 (
 )
+const
 {
 nsPIDOMWindow
 *
@@ -13142,6 +13143,7 @@ HasWarnedAbout
 DeprecatedOperations
 aOperation
 )
+const
 ;
 void
 WarnOnceAbout
@@ -13153,6 +13155,7 @@ asError
 =
 false
 )
+const
 ;
 #
 define
@@ -13186,6 +13189,7 @@ HasWarnedAbout
 DocumentWarnings
 aWarning
 )
+const
 ;
 void
 WarnOnceAbout
@@ -13208,6 +13212,7 @@ aParamsLength
 =
 0
 )
+const
 ;
 virtual
 void
@@ -14447,6 +14452,7 @@ nsAString
 &
 aInputEncoding
 )
+const
 ;
 already_AddRefed
 <
@@ -14751,13 +14757,7 @@ bool
 MozHidden
 (
 )
-/
-/
-Not
 const
-because
-of
-WarnOnceAbout
 {
 WarnOnceAbout
 (
@@ -14780,6 +14780,7 @@ VisibilityState
 VisibilityState
 (
 )
+const
 {
 return
 mVisibilityState
@@ -14795,6 +14796,7 @@ VisibilityState
 MozVisibilityState
 (
 )
+const
 {
 WarnOnceAbout
 (
@@ -15625,9 +15627,11 @@ mDidFireDOMContentLoaded
 }
 private
 :
+mutable
 uint64_t
 mDeprecationWarnedAbout
 ;
+mutable
 uint64_t
 mDocWarningWarnedAbout
 ;
