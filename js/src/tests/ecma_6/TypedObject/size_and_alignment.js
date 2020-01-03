@@ -298,10 +298,6 @@ new
 ArrayType
 (
 uint8
-)
-.
-dimension
-(
 32
 )
 size
@@ -318,10 +314,6 @@ new
 ArrayType
 (
 uint16
-)
-.
-dimension
-(
 16
 )
 size
@@ -338,10 +330,6 @@ new
 ArrayType
 (
 uint32
-)
-.
-dimension
-(
 8
 )
 size

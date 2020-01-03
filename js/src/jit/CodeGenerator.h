@@ -1390,14 +1390,6 @@ ins
 )
 ;
 bool
-visitTypedObjectUnsizedLength
-(
-LTypedObjectUnsizedLength
-*
-ins
-)
-;
-bool
 visitStringLength
 (
 LStringLength

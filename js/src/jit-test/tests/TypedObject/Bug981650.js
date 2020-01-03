@@ -7,7 +7,6 @@ bug
 Test
 creating
 an
-unsized
 array
 type
 based
@@ -42,7 +41,7 @@ T
 TypedObject
 ;
 var
-AT
+v
 =
 new
 T
@@ -52,19 +51,11 @@ ArrayType
 T
 .
 int32
-)
-;
-var
-v
-=
-new
-AT
-(
 10
 )
 ;
 new
-AT
+v
 (
 v
 )
