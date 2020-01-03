@@ -4798,7 +4798,7 @@ else
 {
 rv
 =
-NS_OpenURIInternal
+NS_OpenURI
 (
 mDownloader
 nullptr
@@ -4806,10 +4806,6 @@ nullptr
 /
 aContext
 mJarBaseURI
-nullptr
-/
-/
-aRequestingNode
 nsContentUtils
 :
 :
