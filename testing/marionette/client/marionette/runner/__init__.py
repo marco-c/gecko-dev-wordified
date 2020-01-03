@@ -67,7 +67,6 @@ MarionetteTest
 MarionetteTestResult
 MarionetteTextTestRunner
         
-MozHttpd
 OptionParser
 TestManifest
 TestResult
