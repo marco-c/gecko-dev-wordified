@@ -332,6 +332,13 @@ h
 #
 include
 "
+nsIProgrammingLanguage
+.
+h
+"
+#
+include
+"
 nsWindowMemoryReporter
 .
 h

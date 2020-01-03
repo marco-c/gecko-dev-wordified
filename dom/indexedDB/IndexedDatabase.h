@@ -120,13 +120,6 @@ mozilla_dom_indexeddb_indexeddatabase_h__
 #
 include
 "
-nsIProgrammingLanguage
-.
-h
-"
-#
-include
-"
 js
 /
 StructuredClone

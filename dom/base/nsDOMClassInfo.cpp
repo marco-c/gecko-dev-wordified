@@ -335,6 +335,13 @@ h
 #
 include
 "
+nsIProgrammingLanguage
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

@@ -251,6 +251,13 @@ h
 #
 include
 "
+nsIProgrammingLanguage
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
