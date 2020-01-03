@@ -393,6 +393,15 @@ aRelatedTarget
 )
 ;
 }
+void
+InitializeExtraMouseEventDictionaryMembers
+(
+const
+MouseEventInit
+&
+aParam
+)
+;
 bool
 GetModifierState
 (
@@ -434,7 +443,7 @@ aRv
 )
 ;
 int32_t
-MozMovementX
+MovementX
 (
 )
 {
@@ -447,7 +456,7 @@ x
 ;
 }
 int32_t
-MozMovementY
+MovementY
 (
 )
 {
