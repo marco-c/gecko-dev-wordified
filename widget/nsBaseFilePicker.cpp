@@ -509,6 +509,7 @@ nsISupports
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -600,6 +601,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 return
 mIterator

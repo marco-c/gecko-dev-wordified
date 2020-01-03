@@ -136,6 +136,7 @@ nsMenuObjectTypeX
 MenuObjectType
 (
 )
+MOZ_OVERRIDE
 {
 return
 eStandaloneNativeMenuObjectType
@@ -146,6 +147,7 @@ void
 NativeData
 (
 )
+MOZ_OVERRIDE
 {
 return
 mMenu

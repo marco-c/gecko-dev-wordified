@@ -705,6 +705,7 @@ nsIDOMEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 {
 nsString
 type

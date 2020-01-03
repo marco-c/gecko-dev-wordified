@@ -244,6 +244,7 @@ nsIPrintSettings
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 nsresult
 _Assign
@@ -252,6 +253,7 @@ nsIPrintSettings
 *
 aPS
 )
+MOZ_OVERRIDE
 ;
 /
 /

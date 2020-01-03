@@ -85,6 +85,7 @@ uint32_t
 *
 aIdleTime
 )
+MOZ_OVERRIDE
 ;
 static
 already_AddRefed
@@ -155,6 +156,7 @@ bool
 UsePollMode
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

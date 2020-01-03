@@ -526,6 +526,7 @@ CaptureMouse
 bool
 aCapture
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIWidgetListener
@@ -533,6 +534,7 @@ nsIWidgetListener
 GetWidgetListener
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -542,11 +544,13 @@ nsIWidgetListener
 *
 alistener
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Destroy
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetParent
@@ -555,6 +559,7 @@ nsIWidget
 *
 aNewParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIWidget
@@ -563,6 +568,7 @@ GetParent
 (
 void
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIWidget
@@ -570,6 +576,7 @@ nsIWidget
 GetTopLevelWidget
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIWidget
@@ -578,12 +585,14 @@ GetSheetWindowParent
 (
 void
 )
+MOZ_OVERRIDE
 ;
 virtual
 float
 GetDPI
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -593,6 +602,7 @@ nsIWidget
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -602,6 +612,7 @@ nsIWidget
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 void
 SetZIndex
@@ -609,6 +620,7 @@ SetZIndex
 int32_t
 aZIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PlaceBehind
@@ -621,6 +633,7 @@ aWidget
 bool
 aActivate
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetSizeMode
@@ -628,6 +641,7 @@ SetSizeMode
 int32_t
 aMode
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -645,6 +659,7 @@ nsCursor
 GetCursor
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCursor
@@ -652,6 +667,7 @@ SetCursor
 nsCursor
 aCursor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCursor
@@ -664,12 +680,14 @@ aHotspotX
 uint32_t
 aHotspotY
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ClearCachedCursor
 (
 )
+MOZ_OVERRIDE
 {
 mUpdateCursor
 =
@@ -683,12 +701,14 @@ SetTransparencyMode
 nsTransparencyMode
 aMode
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsTransparencyMode
 GetTransparencyMode
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -701,6 +721,7 @@ nsIntRect
 *
 aRects
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetWindowShadowStyle
@@ -708,6 +729,7 @@ SetWindowShadowStyle
 int32_t
 aStyle
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -716,6 +738,7 @@ SetShowsToolbarButton
 bool
 aShow
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -725,6 +748,7 @@ SetShowsFullScreenButton
 bool
 aShow
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -734,6 +758,7 @@ SetWindowAnimationType
 WindowAnimationType
 aType
 )
+MOZ_OVERRIDE
 {
 }
 NS_IMETHOD
@@ -742,6 +767,7 @@ HideWindowChrome
 bool
 aShouldHide
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 MakeFullScreen
@@ -754,6 +780,7 @@ aScreen
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsDeviceContext
@@ -761,6 +788,7 @@ nsDeviceContext
 GetDeviceContext
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 LayerManager
@@ -795,6 +823,7 @@ aAllowRetaining
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 CompositorVsyncDispatcher
 *
@@ -803,7 +832,6 @@ GetCompositorVsyncDispatcher
 )
 MOZ_OVERRIDE
 ;
-virtual
 void
 CreateCompositorVsyncDispatcher
 (
@@ -841,6 +869,7 @@ void
 PrepareWindowEffects
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -848,6 +877,7 @@ void
 CleanupWindowEffects
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -858,6 +888,7 @@ LayerManagerComposite
 *
 aManager
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -871,6 +902,7 @@ LayerManagerComposite
 *
 aManager
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -883,6 +915,7 @@ aManager
 nsIntRect
 aRect
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -895,6 +928,7 @@ aManager
 nsIntRect
 aRect
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -914,12 +948,14 @@ DrawTarget
 StartRemoteDrawing
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 EndRemoteDrawing
 (
 )
+MOZ_OVERRIDE
 {
 }
 ;
@@ -928,6 +964,7 @@ void
 CleanupRemoteDrawing
 (
 )
+MOZ_OVERRIDE
 {
 }
 ;
@@ -943,6 +980,7 @@ ThemeGeometry
 &
 aThemeGeometries
 )
+MOZ_OVERRIDE
 {
 }
 NS_IMETHOD
@@ -951,6 +989,7 @@ SetModal
 bool
 aModal
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -958,6 +997,7 @@ GetMaxTouchPoints
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetWindowClass
@@ -967,6 +1007,7 @@ nsAString
 &
 xulWinType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -982,6 +1023,7 @@ aRects
 bool
 aIntersectWithExisting
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1112,6 +1154,7 @@ aX
 double
 aY
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ResizeClient
@@ -1123,6 +1166,7 @@ aHeight
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ResizeClient
@@ -1138,6 +1182,7 @@ aHeight
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetBounds
@@ -1146,6 +1191,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetClientBounds
@@ -1154,6 +1200,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetScreenBounds
@@ -1162,6 +1209,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRestoredBounds
@@ -1179,6 +1227,7 @@ nsIntMargin
 &
 margins
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetNonClientMargins
@@ -1187,12 +1236,14 @@ nsIntMargin
 &
 margins
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIntPoint
 GetClientOffset
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 EnableDragDrop
@@ -1200,6 +1251,7 @@ EnableDragDrop
 bool
 aEnable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAttention
@@ -1207,12 +1259,14 @@ GetAttention
 int32_t
 aCycleCount
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 HasPendingInputEvent
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetIcon
@@ -1222,6 +1276,7 @@ nsAString
 &
 anIconSpec
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetWindowTitlebarColor
@@ -1231,6 +1286,7 @@ aColor
 bool
 aActive
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1239,6 +1295,7 @@ SetDrawsInTitlebar
 bool
 aState
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -1249,6 +1306,7 @@ nsIntRect
 *
 aResizerRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1260,6 +1318,7 @@ data
 uint32_t
 aDataType
 )
+MOZ_OVERRIDE
 {
 }
 NS_IMETHOD
@@ -1276,6 +1335,7 @@ aHorizontal
 int32_t
 aVertical
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BeginMoveDrag
@@ -1287,6 +1347,7 @@ WidgetMouseEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1297,6 +1358,7 @@ nsAString
 &
 indexString
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1311,6 +1373,7 @@ nsAString
 &
 indexString
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1379,17 +1442,8 @@ SetLayersAcceleration
 bool
 aEnabled
 )
+MOZ_OVERRIDE
 ;
-virtual
-bool
-GetLayersAcceleration
-(
-)
-{
-return
-mUseLayersAcceleration
-;
-}
 virtual
 bool
 ComputeShouldAccelerate
@@ -1407,6 +1461,7 @@ bool
 *
 aLEDState
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1433,6 +1488,7 @@ nsIntRect
 &
 aButtonRect
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1452,6 +1508,7 @@ double
 &
 aOverriddenDeltaY
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1477,6 +1534,7 @@ aForceUseIWidgetParent
 =
 false
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttachViewToTopLevel
@@ -1487,6 +1545,7 @@ nsDeviceContext
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIWidgetListener
@@ -1494,6 +1553,7 @@ nsIWidgetListener
 GetAttachedWidgetListener
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1503,16 +1563,19 @@ nsIWidgetListener
 *
 aListener
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RegisterTouchWindow
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UnregisterTouchWindow
 (
 )
+MOZ_OVERRIDE
 ;
 void
 NotifyWindowDestroyed
@@ -1615,6 +1678,7 @@ nsIntSize
 &
 aClientSize
 )
+MOZ_OVERRIDE
 {
 return
 aClientSize
@@ -1667,6 +1731,7 @@ nsIWidget
 *
 aNewParent
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -1685,6 +1750,7 @@ GetSizeConstraints
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1695,6 +1761,7 @@ SizeConstraints
 &
 aConstraints
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1887,7 +1954,6 @@ Shutdown
 ;
 protected
 :
-virtual
 void
 ResolveIconName
 (
@@ -2014,6 +2080,7 @@ nsIContent
 GetLastRollup
 (
 )
+MOZ_OVERRIDE
 {
 return
 mLastRollup
@@ -2038,6 +2105,7 @@ nsAString
 &
 aUnmodifiedCharacters
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_UNEXPECTED
@@ -2054,6 +2122,7 @@ aNativeMessage
 uint32_t
 aModifierFlags
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_UNEXPECTED
@@ -2066,6 +2135,7 @@ SynthesizeNativeMouseMove
 nsIntPoint
 aPoint
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_UNEXPECTED
@@ -2090,6 +2160,7 @@ aModifierFlags
 uint32_t
 aAdditionalFlags
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_UNEXPECTED
@@ -2110,6 +2181,7 @@ aPointerPressure
 uint32_t
 aPointerOrientation
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_UNEXPECTED

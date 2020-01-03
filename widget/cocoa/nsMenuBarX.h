@@ -201,6 +201,7 @@ nsIContent
 *
 aMenuBarNode
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -748,6 +749,7 @@ void
 NativeData
 (
 )
+MOZ_OVERRIDE
 {
 return
 (
@@ -761,6 +763,7 @@ nsMenuObjectTypeX
 MenuObjectType
 (
 )
+MOZ_OVERRIDE
 {
 return
 eMenuBarObjectType
