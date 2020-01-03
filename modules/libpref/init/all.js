@@ -48261,7 +48261,7 @@ struct
 -
 assertions
 .
-enabed
+enabled
 "
 false
 )

@@ -9268,7 +9268,7 @@ struct
 -
 assertions
 .
-enabed
+enabled
 "
 )
 ;
