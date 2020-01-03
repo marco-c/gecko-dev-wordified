@@ -1718,6 +1718,14 @@ if
 mIsUsingFormatReader
 )
 {
+mDemuxer
+-
+>
+GetMozDebugReaderData
+(
+aString
+)
+;
 return
 ;
 }
