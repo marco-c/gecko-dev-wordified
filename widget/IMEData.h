@@ -2073,6 +2073,11 @@ IMENotification
 &
 aOther
 )
+:
+mMessage
+(
+NOTIFY_IME_OF_NOTHING
+)
 {
 Assign
 (
