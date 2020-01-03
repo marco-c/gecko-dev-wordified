@@ -838,7 +838,7 @@ PR_LOG_DEBUG
 pkpin
 :
 certArray
-common_name
+issuer
 :
 '
 %
@@ -847,16 +847,10 @@ s
 \
 n
 "
-CERT_GetCommonName
-(
-&
-(
 currentCert
 -
 >
-issuer
-)
-)
+issuerName
 )
 )
 ;
