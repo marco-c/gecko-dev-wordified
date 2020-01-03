@@ -668,7 +668,7 @@ void
 *
 ptr
 =
-calloc
+js_calloc
 (
 1
 length
