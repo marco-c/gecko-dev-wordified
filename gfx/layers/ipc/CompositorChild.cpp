@@ -2385,6 +2385,14 @@ const
 uint64_t
 &
 aTransactionId
+const
+TimeStamp
+&
+aCompositeStart
+const
+TimeStamp
+&
+aCompositeEnd
 )
 {
 if
@@ -2406,6 +2414,8 @@ mLayerManager
 DidComposite
 (
 aTransactionId
+aCompositeStart
+aCompositeEnd
 )
 ;
 }
@@ -2447,6 +2457,8 @@ child
 DidComposite
 (
 aTransactionId
+aCompositeStart
+aCompositeEnd
 )
 ;
 }

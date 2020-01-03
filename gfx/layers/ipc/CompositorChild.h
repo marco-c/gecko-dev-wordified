@@ -493,6 +493,14 @@ const
 uint64_t
 &
 aTransactionId
+const
+TimeStamp
+&
+aCompositeStart
+const
+TimeStamp
+&
+aCompositeEnd
 )
 override
 ;
