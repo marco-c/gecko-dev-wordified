@@ -339,6 +339,11 @@ updateDebug
 if
 (
 DEBUG
+|
+|
+NFC
+.
+DEBUG_CONTENT_HELPER
 )
 {
 debug
@@ -645,6 +650,12 @@ NFC_IPC_MSG_NAMES
 ;
 if
 (
+!
+NFC
+.
+DEBUG_CONTENT_HELPER
+&
+&
 this
 .
 _window
