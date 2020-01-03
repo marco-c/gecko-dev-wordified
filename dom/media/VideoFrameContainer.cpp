@@ -200,6 +200,10 @@ mMutex
 nsVideoFrameContainer
 "
 )
+mFrameID
+(
+0
+)
 mIntrinsicSizeChanged
 (
 false
@@ -401,6 +405,10 @@ GetCurrentImages
 kungFuDeathGrip
 )
 ;
++
++
+mFrameID
+;
 if
 (
 aImage
@@ -427,6 +435,7 @@ NonOwningImage
 (
 aImage
 aTargetTime
+mFrameID
 )
 )
 ;

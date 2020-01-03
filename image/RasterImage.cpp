@@ -5938,9 +5938,6 @@ result
 second
 (
 )
-TimeStamp
-(
-)
 )
 )
 ;
