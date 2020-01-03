@@ -82,6 +82,7 @@ _do_work
 (
 qTasks
 qResults
+prefix
 timeout
 )
 :
@@ -423,6 +424,7 @@ def
 run_all_tests
 (
 tests
+prefix
 results
 options
 )
@@ -434,6 +436,7 @@ in
 run_all_tests_gen
 (
 tests
+prefix
 results
 options
 )
