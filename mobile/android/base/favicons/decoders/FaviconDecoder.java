@@ -910,12 +910,8 @@ image
 )
 )
 {
-Log
-.
-w
-(
-LOG_TAG
-"
+/
+/
 Can
 '
 t
@@ -927,9 +923,6 @@ data
 :
 URI
 .
-"
-)
-;
 return
 null
 ;
