@@ -350,7 +350,7 @@ IsExpectingMoreData
 MOZ_OVERRIDE
 ;
 void
-SetDecodedDuration
+SetInitialDuration
 (
 int64_t
 aDuration
