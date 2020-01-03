@@ -10015,6 +10015,11 @@ MaybeRescheduleAnimationFrameNotifications
 (
 )
 ;
+void
+MaybeClearBoxObjectTable
+(
+)
+;
 /
 /
 These
