@@ -11010,9 +11010,9 @@ Count
 0
 )
 {
-+
-+
-mAnimationGeneration
+IncrementAnimationGeneration
+(
+)
 ;
 UpdateOnlyAnimationStyles
 (
