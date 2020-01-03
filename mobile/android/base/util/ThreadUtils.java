@@ -979,6 +979,7 @@ getUiThread
 )
 ;
 }
+RobocopTarget
 public
 static
 boolean
@@ -1005,6 +1006,7 @@ sBackgroundThread
 )
 ;
 }
+RobocopTarget
 public
 static
 boolean
