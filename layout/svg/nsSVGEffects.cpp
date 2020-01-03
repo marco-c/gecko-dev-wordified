@@ -199,15 +199,6 @@ mozilla
 :
 dom
 ;
-/
-/
-nsSVGRenderingObserver
-impl
-NS_IMPL_ISUPPORTS
-(
-nsSVGRenderingObserver
-nsIMutationObserver
-)
 void
 nsSVGRenderingObserver
 :
@@ -1135,6 +1126,11 @@ return
 mFrame
 ;
 }
+NS_IMPL_ISUPPORTS
+(
+nsSVGRenderingObserverProperty
+nsIMutationObserver
+)
 void
 nsSVGRenderingObserverProperty
 :
