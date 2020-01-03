@@ -5120,17 +5120,6 @@ JSStructuredCloneCallbacks
 *
 WorkerStructuredCloneCallbacks
 (
-bool
-aMainRuntime
-)
-;
-const
-JSStructuredCloneCallbacks
-*
-ChromeWorkerStructuredCloneCallbacks
-(
-bool
-aMainRuntime
 )
 ;
 class
