@@ -2517,8 +2517,11 @@ PMemoryReportRequestParent
 {
 public
 :
+explicit
 MemoryReportRequestParent
 (
+uint32_t
+aGeneration
 )
 ;
 virtual
@@ -2540,10 +2543,6 @@ virtual
 bool
 Recv__delete__
 (
-const
-uint32_t
-&
-aGeneration
 InfallibleTArray
 <
 MemoryReport
@@ -2556,6 +2555,10 @@ override
 ;
 private
 :
+const
+uint32_t
+mGeneration
+;
 ContentParent
 *
 Owner
@@ -2582,6 +2585,13 @@ MemoryReportRequestParent
 :
 MemoryReportRequestParent
 (
+uint32_t
+aGeneration
+)
+:
+mGeneration
+(
+aGeneration
 )
 {
 MOZ_COUNT_CTOR
@@ -2614,10 +2624,6 @@ MemoryReportRequestParent
 :
 Recv__delete__
 (
-const
-uint32_t
-&
-generation
 nsTArray
 <
 MemoryReport
@@ -2650,7 +2656,7 @@ mgr
 >
 HandleChildReports
 (
-generation
+mGeneration
 childReports
 )
 ;
@@ -19975,6 +19981,7 @@ parent
 new
 MemoryReportRequestParent
 (
+aGeneration
 )
 ;
 return

@@ -1703,8 +1703,6 @@ public
 NS_DECL_ISUPPORTS
 MemoryReportRequestChild
 (
-uint32_t
-aGeneration
 bool
 aAnonymize
 const
@@ -1727,9 +1725,6 @@ MemoryReportRequestChild
 (
 )
 ;
-uint32_t
-mGeneration
-;
 bool
 mAnonymize
 ;
@@ -1748,8 +1743,6 @@ MemoryReportRequestChild
 :
 MemoryReportRequestChild
 (
-uint32_t
-aGeneration
 bool
 aAnonymize
 const
@@ -1758,10 +1751,6 @@ MaybeFileDesc
 aDMDFile
 )
 :
-mGeneration
-(
-aGeneration
-)
 mAnonymize
 (
 aAnonymize
@@ -4562,7 +4551,6 @@ actor
 new
 MemoryReportRequestChild
 (
-aGeneration
 aAnonymize
 aDMDFile
 )
@@ -5022,7 +5010,6 @@ sent
 Send__delete__
 (
 this
-mGeneration
 reports
 )
 ;
