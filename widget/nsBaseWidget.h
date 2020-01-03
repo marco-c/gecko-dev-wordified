@@ -822,14 +822,6 @@ aShouldHide
 )
 override
 ;
-virtual
-void
-PrepareForDOMFullscreenTransition
-(
-)
-override
-{
-}
 NS_IMETHOD
 MakeFullScreen
 (
