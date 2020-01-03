@@ -25649,6 +25649,9 @@ JSPROP_ENUMERATE
 }
 #
 ifdef
+JS_TRACE_LOGGING
+#
+ifdef
 NIGHTLY_BUILD
 bool
 Debugger
@@ -26412,6 +26415,9 @@ true
 }
 #
 endif
+/
+/
+NIGHTLY_BUILD
 bool
 Debugger
 :
@@ -27164,6 +27170,8 @@ return
 true
 ;
 }
+#
+endif
 const
 JSPropertySpec
 Debugger
@@ -27477,6 +27485,9 @@ makeGlobalObjectReference
 1
 0
 )
+#
+ifdef
+JS_TRACE_LOGGING
 JS_FN
 (
 "
@@ -27552,6 +27563,8 @@ drainTraceLogger
 0
 0
 )
+#
+endif
 #
 endif
 JS_FS_END
