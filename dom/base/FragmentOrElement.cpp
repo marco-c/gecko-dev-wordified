@@ -5291,7 +5291,7 @@ case
 NS_IMAGE_ABORT
 :
 case
-NS_LOAD_ERROR
+eLoadError
 :
 case
 NS_FORM_SELECTED

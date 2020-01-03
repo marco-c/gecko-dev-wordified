@@ -583,7 +583,7 @@ eStreamEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_LOAD_ERROR
+eLoadError
 eStreamEventFirst
 +
 4

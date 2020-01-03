@@ -384,7 +384,7 @@ aResult
 ?
 NS_LOAD
 :
-NS_LOAD_ERROR
+eLoadError
 ;
 WidgetEvent
 event
