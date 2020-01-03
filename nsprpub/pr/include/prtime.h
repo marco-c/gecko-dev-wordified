@@ -2539,7 +2539,7 @@ fmt
 const
 PRExplodedTime
 *
-tm
+time
 )
 ;
 /
@@ -2559,8 +2559,8 @@ in
 US
 English
 format
-regardless
 *
+regardless
 of
 locale
 setting
@@ -2585,7 +2585,7 @@ format
 const
 PRExplodedTime
 *
-tm
+time
 )
 ;
 PR_END_EXTERN_C
