@@ -186,16 +186,6 @@ QPalette
 >
 #
 include
-<
-QStyle
->
-#
-include
-<
-QStyleFactory
->
-#
-include
 "
 nsLookAndFeel
 .
