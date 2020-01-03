@@ -17966,7 +17966,7 @@ opt_CertVersion
 *
 /
 0
-PR_FALSE
+PR_TRUE
 0
 PR_FALSE
 "
