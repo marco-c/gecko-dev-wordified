@@ -210,7 +210,7 @@ ok
 !
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 There
 is
@@ -255,7 +255,7 @@ ok
 !
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -314,7 +314,7 @@ ok
 (
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -384,7 +384,7 @@ ok
 !
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 There
 is
@@ -442,7 +442,7 @@ ok
 (
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -565,7 +565,7 @@ ok
 (
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -658,7 +658,7 @@ ok
 (
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -755,7 +755,7 @@ ok
 (
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -925,7 +925,7 @@ ok
 (
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -953,7 +953,7 @@ ok
 !
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -993,7 +993,7 @@ ok
 !
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -1021,7 +1021,7 @@ ok
 (
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -1048,7 +1048,7 @@ ok
 !
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -1097,7 +1097,7 @@ ok
 (
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
@@ -1131,7 +1131,7 @@ ok
 !
 DevEdition
 .
-styleSheet
+isStyleSheetEnabled
 "
 The
 devedition
