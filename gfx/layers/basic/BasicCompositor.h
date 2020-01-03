@@ -294,11 +294,6 @@ Initialize
 (
 )
 override
-{
-return
-true
-;
-}
 ;
 virtual
 void
