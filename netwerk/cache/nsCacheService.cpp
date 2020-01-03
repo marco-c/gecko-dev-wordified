@@ -2214,7 +2214,7 @@ data
 data_unicode
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -10144,7 +10144,7 @@ CreateOfflineDevice
 (
 )
 {
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -10236,7 +10236,7 @@ if
 MOZ_LOG_TEST
 (
 gCacheLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -10251,7 +10251,7 @@ GetNativePath
 profilePath
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18401,7 +18401,7 @@ mCacheMisses
 100
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18418,7 +18418,7 @@ n
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18433,7 +18433,7 @@ mTotalEntries
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18449,7 +18449,7 @@ mCacheHits
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18465,7 +18465,7 @@ mCacheMisses
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18485,7 +18485,7 @@ hitPercentage
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18502,7 +18502,7 @@ mMaxKeyLength
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18519,7 +18519,7 @@ mMaxMetaSize
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18536,7 +18536,7 @@ mMaxDataSize
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18546,7 +18546,7 @@ n
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "
@@ -18562,7 +18562,7 @@ mDeactivateFailures
 )
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "

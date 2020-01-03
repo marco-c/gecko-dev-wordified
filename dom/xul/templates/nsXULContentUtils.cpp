@@ -2232,7 +2232,7 @@ get
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 Error

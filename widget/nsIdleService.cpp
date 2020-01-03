@@ -4432,7 +4432,7 @@ currentIdleTimeInMS
 MOZ_LOG
 (
 sLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 idleService

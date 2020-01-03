@@ -875,7 +875,7 @@ KeymapWrapperWidgets
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -975,7 +975,7 @@ true
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1034,7 +1034,7 @@ this
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1192,7 +1192,7 @@ xkbMinorVer
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1315,7 +1315,7 @@ xkbMinorVer
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1365,7 +1365,7 @@ XkbModifierStateMask
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1417,7 +1417,7 @@ XkbPerKeyRepeatMask
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1467,7 +1467,7 @@ mKeyboardState
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1504,7 +1504,7 @@ return
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1532,7 +1532,7 @@ InitBySystemSettings
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1613,7 +1613,7 @@ xkeymap
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1656,7 +1656,7 @@ xmodmap
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1689,7 +1689,7 @@ return
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -1946,7 +1946,7 @@ i
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -2135,7 +2135,7 @@ j
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -2566,7 +2566,7 @@ sBidiKeyboard
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -3006,7 +3006,7 @@ mKeyboardState
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -3073,7 +3073,7 @@ aGdkKeymap
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -3136,7 +3136,7 @@ aKeymapWrapper
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -5862,7 +5862,7 @@ break
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -8155,7 +8155,7 @@ charCode
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -8283,7 +8283,7 @@ IsOS
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -8344,7 +8344,7 @@ level
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -8642,7 +8642,7 @@ needLatinKeyCodes
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -8731,7 +8731,7 @@ minGroup
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper
@@ -9031,7 +9031,7 @@ ch
 MOZ_LOG
 (
 gKeymapWrapperLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 KeymapWrapper

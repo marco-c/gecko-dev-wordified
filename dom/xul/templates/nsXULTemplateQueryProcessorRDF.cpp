@@ -2626,7 +2626,7 @@ mvar
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_DEBUG
 (
 "
 QueryProcessor
@@ -4568,7 +4568,7 @@ targetStr
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_DEBUG
 (
 "
 nsXULTemplateQueryProcessorRDF
@@ -5175,7 +5175,7 @@ targetStr
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_DEBUG
 (
 "
 nsXULTemplateQueryProcessorRDF
@@ -6877,7 +6877,7 @@ if
 MOZ_LOG_TEST
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -6905,7 +6905,7 @@ tagstr
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 xultemplate

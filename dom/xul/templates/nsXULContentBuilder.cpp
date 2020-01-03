@@ -2640,7 +2640,7 @@ PR_LOG_DEBUG
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_DEBUG
 (
 "
 nsXULContentBuilder
@@ -2673,7 +2673,7 @@ id
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_DEBUG
 (
 "
 Tags
@@ -5908,7 +5908,7 @@ result
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 nsXULContentBuilder
@@ -6111,7 +6111,7 @@ true
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 nsXULContentBuilder
@@ -6613,7 +6613,7 @@ id
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_ALWAYS
+PR_LOG_DEBUG
 (
 "
 nsXULContentBuilder

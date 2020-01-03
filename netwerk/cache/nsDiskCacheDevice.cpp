@@ -6870,7 +6870,7 @@ DIRECTORY_TYPE
 ;
 CACHE_LOG_PATH
 (
-PR_LOG_ALWAYS
+PR_LOG_INFO
 "
 \
 ncreate
@@ -6885,7 +6885,7 @@ n
 mCacheDirectory
 )
 ;
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 (
 "

@@ -149,7 +149,7 @@ log
 /
 this
 enables
-PR_LOG_ALWAYS
+PR_LOG_DEBUG
 level
 information
 and
