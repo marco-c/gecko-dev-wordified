@@ -122,6 +122,13 @@ EncodingUtils
 .
 h
 "
+#
+include
+"
+nsDOMString
+.
+h
+"
 namespace
 mozilla
 {
@@ -1157,10 +1164,9 @@ nsString
 aRetval
 )
 {
-aRetval
-.
-Truncate
+SetDOMStringToNull
 (
+aRetval
 )
 ;
 for
