@@ -2185,7 +2185,7 @@ context
 s
 /
 /
-unscaledAppUnitsPerDevPixel
+AppUnitsPerDevPixelAtUnitFullZoom
 value
 .
 On
@@ -2254,7 +2254,7 @@ scale
 dx
 -
 >
-UnscaledAppUnitsPerDevPixel
+AppUnitsPerDevPixelAtUnitFullZoom
 (
 )
 )
@@ -2277,7 +2277,7 @@ invScale
 dx
 -
 >
-UnscaledAppUnitsPerDevPixel
+AppUnitsPerDevPixelAtUnitFullZoom
 (
 )
 /
