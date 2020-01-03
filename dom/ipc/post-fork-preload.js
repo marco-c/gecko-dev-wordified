@@ -169,7 +169,9 @@ service
 .
 getService
 (
-Ci
+Components
+.
+interfaces
 [
 "
 nsIProtocolProxyService
