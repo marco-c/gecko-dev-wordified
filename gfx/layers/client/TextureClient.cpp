@@ -3608,16 +3608,6 @@ if
 mDrawTarget
 )
 {
-mDrawTarget
--
->
-SetTransform
-(
-Matrix
-(
-)
-)
-;
 return
 mDrawTarget
 ;
@@ -3876,6 +3866,10 @@ mDrawTarget
 Flush
 (
 )
+;
+mDrawTarget
+=
+nullptr
 ;
 }
 bool
