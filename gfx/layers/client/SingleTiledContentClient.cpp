@@ -127,6 +127,9 @@ aManager
 TiledContentClient
 (
 aManager
+"
+Single
+"
 )
 {
 MOZ_COUNT_CTOR
