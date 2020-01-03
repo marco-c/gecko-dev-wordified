@@ -1911,6 +1911,9 @@ get
 )
 )
 ;
+#
+ifdef
+PR_LOGGING
 if
 (
 gPIPNSSLog
@@ -1933,6 +1936,8 @@ n
 )
 ;
 }
+#
+endif
 if
 (
 type
