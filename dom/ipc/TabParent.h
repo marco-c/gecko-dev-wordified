@@ -706,6 +706,9 @@ const
 nsString
 &
 aBaseURI
+nsresult
+*
+aResult
 bool
 *
 aWindowIsNew
