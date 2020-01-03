@@ -275,6 +275,7 @@ specifying
 /
 mozilla
 -
+-
 chrome
 "
 file
@@ -328,6 +329,7 @@ you
 must
 enclose
 the
+-
 -
 chrome
 option

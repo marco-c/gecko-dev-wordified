@@ -440,6 +440,7 @@ dump
 "
 Use
 -
+-
 chrome
 <
 uri
@@ -3206,6 +3207,7 @@ helpInfo
 :
 "
 -
+-
 browser
 Open
 a
@@ -3217,6 +3219,7 @@ n
 "
 +
 "
+-
 -
 new
 -
@@ -3239,6 +3242,7 @@ n
 +
 "
 -
+-
 new
 -
 tab
@@ -3259,6 +3263,7 @@ n
 "
 +
 "
+-
 -
 private
 -
@@ -3285,6 +3290,7 @@ ifdef
 XP_WIN
 "
 -
+-
 preferences
 Open
 Options
@@ -3298,6 +3304,7 @@ n
 else
 "
 -
+-
 preferences
 Open
 Preferences
@@ -3310,6 +3317,7 @@ n
 #
 endif
 "
+-
 -
 search
 <

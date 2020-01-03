@@ -315,6 +315,7 @@ helpInfo
 :
 "
 -
+-
 jsconsole
 Open
 the

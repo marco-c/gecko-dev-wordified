@@ -592,6 +592,7 @@ helpInfo
 :
 "
 -
+-
 jsconsole
 Open
 the
@@ -603,6 +604,7 @@ n
 "
 +
 "
+-
 -
 jsdebugger
 Open

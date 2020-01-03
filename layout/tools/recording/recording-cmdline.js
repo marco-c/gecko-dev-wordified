@@ -500,6 +500,7 @@ helpInfo
 :
 "
 -
+-
 recording
 <
 file
@@ -516,6 +517,7 @@ n
 "
 +
 "
+-
 -
 recording
 -

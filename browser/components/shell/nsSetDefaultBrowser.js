@@ -60,6 +60,7 @@ MPL
 *
 *
 -
+-
 setDefaultBrowser
 commandline
 handler
@@ -183,6 +184,7 @@ true
 helpInfo
 :
 "
+-
 -
 setDefaultBrowser
 Set

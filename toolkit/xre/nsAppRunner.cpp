@@ -2683,6 +2683,7 @@ Error
 :
 argument
 -
+-
 osint
 is
 invalid
@@ -7247,6 +7248,7 @@ printf
 h
 or
 -
+-
 help
 Print
 this
@@ -7259,6 +7261,7 @@ n
 -
 v
 or
+-
 -
 version
 Print
@@ -7286,6 +7289,7 @@ n
 "
 "
 -
+-
 profile
 <
 path
@@ -7303,6 +7307,7 @@ n
 "
 "
 -
+-
 migration
 Start
 with
@@ -7314,6 +7319,7 @@ n
 "
 "
 -
+-
 ProfileManager
 Start
 with
@@ -7323,6 +7329,7 @@ ProfileManager
 n
 "
 "
+-
 -
 no
 -
@@ -7337,6 +7344,7 @@ commands
 ;
 implies
 -
+-
 new
 -
 instance
@@ -7345,6 +7353,7 @@ instance
 n
 "
 "
+-
 -
 new
 -
@@ -7365,6 +7374,7 @@ n
 "
 "
 -
+-
 UILocale
 <
 locale
@@ -7383,6 +7393,7 @@ Locale
 n
 "
 "
+-
 -
 safe
 -
@@ -7413,6 +7424,7 @@ XP_WIN
 printf
 (
 "
+-
 -
 console
 Start
@@ -7456,6 +7468,7 @@ new
 command
 line
 handler
+-
 -
 help
 /
@@ -10393,6 +10406,7 @@ lock
 check
 for
 -
+-
 profile
 <
 path
@@ -10414,6 +10428,7 @@ name
 )
 check
 for
+-
 -
 ProfileManager
 /
@@ -10534,11 +10549,13 @@ Error
 :
 argument
 -
+-
 offline
 is
 invalid
 when
 argument
+-
 -
 osint
 is
@@ -10643,6 +10660,7 @@ Error
 :
 argument
 -
+-
 reset
 -
 profile
@@ -10650,6 +10668,7 @@ is
 invalid
 when
 argument
+-
 -
 osint
 is
@@ -10703,11 +10722,13 @@ Error
 :
 argument
 -
+-
 migration
 is
 invalid
 when
 argument
+-
 -
 osint
 is
@@ -11117,6 +11138,7 @@ Error
 :
 argument
 -
+-
 profile
 requires
 a
@@ -11335,6 +11357,7 @@ Error
 :
 argument
 -
+-
 createprofile
 requires
 a
@@ -11432,6 +11455,7 @@ rv
 /
 As
 with
+-
 -
 profile
 assume
@@ -11742,6 +11766,7 @@ invalid
 when
 argument
 -
+-
 osint
 is
 specified
@@ -11805,6 +11830,7 @@ is
 invalid
 when
 argument
+-
 -
 osint
 is
@@ -11974,11 +12000,13 @@ Error
 :
 argument
 -
+-
 profilemanager
 is
 invalid
 when
 argument
+-
 -
 osint
 is
@@ -16200,6 +16228,7 @@ arguments
 passed
 to
 -
+-
 override
 "
 )
@@ -17673,6 +17702,7 @@ Error
 :
 argument
 -
+-
 safe
 -
 mode
@@ -17680,6 +17710,7 @@ is
 invalid
 when
 argument
+-
 -
 osint
 is
@@ -17846,10 +17877,12 @@ endif
 /
 Handle
 -
+-
 no
 -
 remote
 and
+-
 -
 new
 -
@@ -17903,6 +17936,7 @@ Error
 :
 argument
 -
+-
 no
 -
 remote
@@ -17910,6 +17944,7 @@ is
 invalid
 when
 argument
+-
 -
 osint
 is
@@ -17970,6 +18005,7 @@ Error
 :
 argument
 -
+-
 new
 -
 instance
@@ -17977,6 +18013,7 @@ is
 invalid
 when
 argument
+-
 -
 osint
 is
@@ -18013,8 +18050,10 @@ MOZ_NEW_INSTANCE
 /
 Handle
 -
+-
 help
 and
+-
 -
 version
 command
@@ -18136,6 +18175,7 @@ rv
 Check
 for
 -
+-
 register
 which
 registers
@@ -18171,11 +18211,13 @@ Error
 :
 argument
 -
+-
 register
 is
 invalid
 when
 argument
+-
 -
 osint
 is
@@ -19565,6 +19607,7 @@ MOZ_ENABLE_XREMOTE
 /
 /
 handle
+-
 -
 remote
 now
@@ -24937,6 +24980,7 @@ Error
 :
 argument
 -
+-
 greomni
 requires
 a
@@ -24992,6 +25036,7 @@ Error
 :
 argument
 -
+-
 greomni
 requires
 a
@@ -25033,6 +25078,7 @@ PR_STDERR
 Error
 :
 argument
+-
 -
 appomni
 requires
@@ -25085,6 +25131,7 @@ PR_STDERR
 Error
 :
 argument
+-
 -
 appomni
 requires
