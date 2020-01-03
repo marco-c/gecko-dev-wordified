@@ -523,12 +523,6 @@ StartupTimeline
 h
 "
 #
-if
-defined
-(
-MOZ_ENABLE_PROFILER_SPS
-)
-#
 include
 "
 mozilla
@@ -537,6 +531,12 @@ HangMonitor
 .
 h
 "
+#
+if
+defined
+(
+MOZ_ENABLE_PROFILER_SPS
+)
 #
 include
 "
