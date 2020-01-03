@@ -2761,6 +2761,16 @@ aDeltaY
 )
 const
 ;
+void
+NotifyMozMouseScrollEvent
+(
+const
+nsString
+&
+aString
+)
+const
+;
 protected
 :
 /
