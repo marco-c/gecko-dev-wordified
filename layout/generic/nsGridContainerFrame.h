@@ -589,9 +589,9 @@ LineRange
 {
 LineRange
 (
-uint32_t
+int32_t
 aStart
-uint32_t
+int32_t
 aEnd
 )
 :
@@ -672,7 +672,7 @@ IsAuto
 void
 ResolveAutoPosition
 (
-uint32_t
+int32_t
 aStart
 )
 {
@@ -707,8 +707,11 @@ number
 ;
 MOZ_ASSERT
 (
+int32_t
+(
 Extent
 (
+)
 )
 =
 =
@@ -916,7 +919,7 @@ aLength
 )
 const
 ;
-uint32_t
+int32_t
 mStart
 ;
 /
@@ -930,7 +933,7 @@ for
 '
 auto
 '
-uint32_t
+int32_t
 mEnd
 ;
 /
@@ -1425,7 +1428,7 @@ found
 .
 *
 /
-uint32_t
+int32_t
 ResolveLine
 (
 const
@@ -2695,8 +2698,8 @@ std
 :
 pair
 <
-uint32_t
-uint32_t
+int32_t
+int32_t
 >
 LinePair
 ;
