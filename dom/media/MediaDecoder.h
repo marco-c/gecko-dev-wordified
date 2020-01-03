@@ -7298,7 +7298,7 @@ SeekTarget
 aTarget
 )
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 SeekPromise
 >

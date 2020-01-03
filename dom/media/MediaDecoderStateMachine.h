@@ -5985,7 +5985,7 @@ MediaTimer
 >
 mMediaTimer
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 mozilla
 :
@@ -8346,7 +8346,7 @@ any
 given
 moment
 .
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -8355,7 +8355,7 @@ AudioDataPromise
 >
 mAudioDataRequest
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -8425,7 +8425,7 @@ idle
 "
 ;
 }
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -8434,7 +8434,7 @@ WaitForDataPromise
 >
 mVideoWaitRequest
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -8504,7 +8504,7 @@ idle
 "
 ;
 }
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -9232,7 +9232,7 @@ by
 the
 reader
 .
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -9289,7 +9289,7 @@ from
 the
 reader
 .
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :

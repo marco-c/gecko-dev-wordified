@@ -1071,7 +1071,7 @@ bug
 1168008
 land
 .
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaResourcePromise
 >

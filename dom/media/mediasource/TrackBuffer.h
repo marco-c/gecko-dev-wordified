@@ -1605,7 +1605,7 @@ from
 the
 reader
 .
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
