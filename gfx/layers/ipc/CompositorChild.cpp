@@ -114,6 +114,10 @@ MPL
 #
 include
 "
+mozilla
+/
+layers
+/
 CompositorChild
 .
 h
