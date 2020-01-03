@@ -42421,16 +42421,6 @@ aButton
 )
 {
 case
--
-1
-:
-return
-WidgetMouseEvent
-:
-:
-eNoButtonFlag
-;
-case
 WidgetMouseEvent
 :
 :
