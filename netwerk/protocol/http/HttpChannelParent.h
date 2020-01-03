@@ -605,7 +605,7 @@ OptionalHttpResponseHead
 &
 aSynthesizedResponseHead
 const
-OptionalHttpChannelCacheKey
+uint32_t
 &
 aCacheKey
 )

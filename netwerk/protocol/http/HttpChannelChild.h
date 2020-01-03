@@ -659,7 +659,7 @@ int16_t
 &
 redirectCount
 const
-HttpChannelCacheKey
+uint32_t
 &
 cacheKey
 )
@@ -1214,7 +1214,7 @@ NetAddr
 &
 peerAddr
 const
-HttpChannelCacheKey
+uint32_t
 &
 cacheKey
 )
