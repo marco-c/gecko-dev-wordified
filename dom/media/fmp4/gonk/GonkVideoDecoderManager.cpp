@@ -3899,6 +3899,17 @@ ReleseMediaResources
 "
 )
 ;
+if
+(
+mDecoder
+=
+=
+nullptr
+)
+{
+return
+;
+}
 ReleaseAllPendingVideoBuffers
 (
 )

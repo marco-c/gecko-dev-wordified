@@ -702,8 +702,11 @@ bool
 IsDormantNeeded
 (
 )
-MOZ_OVERRIDE
+{
+return
+true
 ;
+}
 virtual
 void
 AllocateMediaResources

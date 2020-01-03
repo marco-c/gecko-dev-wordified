@@ -384,7 +384,11 @@ bool
 IsDormantNeeded
 (
 )
+{
+return
+true
 ;
+}
 /
 /
 Release

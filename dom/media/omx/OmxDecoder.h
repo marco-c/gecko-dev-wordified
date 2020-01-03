@@ -988,11 +988,6 @@ MediaExtractor
 extractor
 )
 ;
-bool
-IsDormantNeeded
-(
-)
-;
 /
 /
 Called
