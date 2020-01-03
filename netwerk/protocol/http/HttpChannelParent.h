@@ -498,9 +498,9 @@ bool
 &
 allowSTS
 const
-bool
+uint32_t
 &
-forceAllowThirdPartyCookie
+thirdPartyFlags
 const
 bool
 &

@@ -7328,9 +7328,12 @@ httpChannelInternal
 httpChannelInternal
 -
 >
-SetForceAllowThirdPartyCookie
+SetThirdPartyFlags
 (
-true
+nsIHttpChannelInternal
+:
+:
+THIRD_PARTY_FORCE_ALLOW
 )
 ;
 }
