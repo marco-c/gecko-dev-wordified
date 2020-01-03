@@ -2892,15 +2892,6 @@ subject
 .
 wrappedJSObject
 ;
-let
-location
-=
-{
-line
-:
-1
-}
-;
 for
 (
 let
@@ -2929,7 +2920,7 @@ sourceActor
 .
 setBreakpoint
 (
-location
+1
 )
 ;
 }
