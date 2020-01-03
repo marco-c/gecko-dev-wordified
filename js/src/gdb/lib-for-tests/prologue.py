@@ -207,7 +207,6 @@ expected
         
 raise
 AssertionError
-(
 "
 "
 "
@@ -229,7 +228,6 @@ r
 (
 expected
 actual
-)
 )
 #
 Assert
@@ -475,7 +473,7 @@ printer
 \
 n
 "
-                             
+                               
 "
 %
 s
@@ -485,7 +483,7 @@ s
 \
 n
 "
-                             
+                               
 "
 '
 info
@@ -498,7 +496,7 @@ says
 \
 n
 "
-                             
+                               
 "
 %
 s
@@ -642,16 +640,9 @@ testscript
 .
 .
     
-exec
-(
-open
+execfile
 (
 testscript
-)
-.
-read
-(
-)
 )
 except
 AssertionError
