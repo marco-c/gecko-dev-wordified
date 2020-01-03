@@ -180,6 +180,7 @@ searches
 true
 )
 )
+;
 run_test_subset
 (
 tests
