@@ -814,8 +814,7 @@ char16_t
 aClassName
 )
 {
-GlobalNameMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -824,9 +823,11 @@ GlobalNameMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 aTable
+-
+>
+Add
+(
 aKey
 fallible
 )

@@ -3925,8 +3925,7 @@ flags
 name
 )
 ;
-Entry
-*
+auto
 entry
 =
 static_cast
@@ -3935,9 +3934,11 @@ Entry
 *
 >
 (
-PL_DHashTableAdd
-(
 mTable
+-
+>
+Add
+(
 &
 key
 fallible

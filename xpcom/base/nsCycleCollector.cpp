@@ -5568,8 +5568,7 @@ return
 nullptr
 ;
 }
-PtrToNodeEntry
-*
+auto
 e
 =
 static_cast
@@ -5578,10 +5577,10 @@ PtrToNodeEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mPtrToNodeMap
+.
+Add
+(
 aPtr
 fallible
 )

@@ -4963,9 +4963,11 @@ BroadcasterMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 mBroadcasterMap
+-
+>
+Add
+(
 &
 aBroadcaster
 fallible

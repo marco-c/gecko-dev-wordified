@@ -847,8 +847,7 @@ key
 strPtr
 )
 ;
-NameTableEntry
-*
+auto
 entry
 =
 static_cast
@@ -857,10 +856,10 @@ NameTableEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mNameTable
+.
+Add
+(
 &
 key
 fallible

@@ -268,10 +268,10 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableAdd
-(
-&
 mMap
+.
+Add
+(
 aElement
 mozilla
 :

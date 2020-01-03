@@ -2955,8 +2955,7 @@ nsMappedAttributes
 aMapped
 )
 {
-MappedAttrTableEntry
-*
+auto
 entry
 =
 static_cast
@@ -2965,10 +2964,10 @@ MappedAttrTableEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mMappedAttrTable
+.
+Add
+(
 aMapped
 fallible
 )
@@ -3105,8 +3104,7 @@ nsString
 aLanguage
 )
 {
-LangRuleTableEntry
-*
+auto
 entry
 =
 static_cast
@@ -3115,10 +3113,10 @@ LangRuleTableEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mLangRuleTable
+.
+Add
+(
 &
 aLanguage
 fallible

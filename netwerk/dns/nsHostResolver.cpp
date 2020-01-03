@@ -5390,8 +5390,7 @@ af
 netInterface
 }
 ;
-nsHostDBEnt
-*
+auto
 he
 =
 static_cast
@@ -5400,10 +5399,10 @@ nsHostDBEnt
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mDB
+.
+Add
+(
 &
 key
 fallible

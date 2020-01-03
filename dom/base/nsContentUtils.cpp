@@ -22697,8 +22697,7 @@ return
 nullptr
 ;
 }
-EventListenerManagerMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -22707,9 +22706,11 @@ EventListenerManagerMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 sEventListenerManagersHash
+-
+>
+Add
+(
 aNode
 fallible
 )

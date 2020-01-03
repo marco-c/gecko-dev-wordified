@@ -22113,8 +22113,7 @@ to
 the
 hash
 table
-SubDocMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -22123,9 +22122,11 @@ SubDocMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 mSubDocuments
+-
+>
+Add
+(
 aElement
 fallible
 )

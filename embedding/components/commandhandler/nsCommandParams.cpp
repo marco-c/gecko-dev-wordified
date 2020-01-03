@@ -1128,10 +1128,10 @@ HashEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mValuesHash
+.
+Add
+(
 (
 void
 *

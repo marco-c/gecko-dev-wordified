@@ -2878,8 +2878,7 @@ PromiseFlatCString
 aKey
 )
 ;
-PropertyTableEntry
-*
+auto
 entry
 =
 static_cast
@@ -2888,10 +2887,10 @@ PropertyTableEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mTable
+.
+Add
+(
 flatKey
 .
 get

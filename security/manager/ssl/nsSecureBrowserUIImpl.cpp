@@ -4934,10 +4934,10 @@ lock
 mReentrantMonitor
 )
 ;
-PL_DHashTableAdd
-(
-&
 mTransferringRequests
+.
+Add
+(
 aRequest
 fallible
 )

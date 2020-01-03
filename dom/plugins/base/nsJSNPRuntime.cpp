@@ -10733,8 +10733,7 @@ nullptr
 ;
 }
 }
-NPObjWrapperHashEntry
-*
+auto
 entry
 =
 static_cast
@@ -10743,9 +10742,11 @@ NPObjWrapperHashEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 sNPObjWrappers
+-
+>
+Add
+(
 npobj
 fallible
 )
@@ -11619,8 +11620,7 @@ o
 mNpp
 ;
 }
-NPObjWrapperHashEntry
-*
+auto
 entry
 =
 static_cast
@@ -11629,9 +11629,11 @@ NPObjWrapperHashEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 sNPObjWrappers
+-
+>
+Add
+(
 npobj
 fallible
 )

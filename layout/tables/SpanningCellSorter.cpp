@@ -427,8 +427,7 @@ i
 }
 else
 {
-HashTableEntry
-*
+auto
 entry
 =
 static_cast
@@ -437,10 +436,10 @@ HashTableEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mHashTable
+.
+Add
+(
 NS_INT32_TO_PTR
 (
 aColSpan

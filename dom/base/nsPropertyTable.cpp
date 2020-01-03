@@ -1247,8 +1247,7 @@ result
 =
 NS_OK
 ;
-PropertyListMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -1257,13 +1256,13 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 propertyList
 -
 >
 mObjectValueMap
+.
+Add
+(
 aObject
 mozilla
 :
