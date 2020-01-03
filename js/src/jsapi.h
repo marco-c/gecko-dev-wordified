@@ -28558,6 +28558,12 @@ match
 Symbol
 .
 match
+species
+/
+/
+Symbol
+.
+species
 InSymbolRegistry
 =
 0xfffffffe
@@ -28617,7 +28623,7 @@ const
 size_t
 WellKnownSymbolLimit
 =
-2
+3
 ;
 /
 *
