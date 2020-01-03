@@ -354,7 +354,7 @@ nargs
 0
 ;
 unsigned
-numActualArgs
+argSlots
 =
 Max
 (
@@ -375,7 +375,7 @@ RematerializedFrame
 )
 +
 (
-numActualArgs
+argSlots
 +
 iter
 .
@@ -441,7 +441,11 @@ RematerializedFrame
 (
 cx
 top
+iter
+.
 numActualArgs
+(
+)
 iter
 )
 ;
