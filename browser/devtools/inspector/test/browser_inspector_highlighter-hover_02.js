@@ -131,7 +131,6 @@ let
 {
 toolbox
 inspector
-testActor
 }
 =
 yield
@@ -206,10 +205,9 @@ let
 isVisible
 =
 yield
-testActor
-.
 isHighlighting
 (
+toolbox
 )
 ;
 ok
@@ -240,8 +238,6 @@ event
 let
 onHidden
 =
-testActor
-.
 waitForHighlighterEvent
 (
 "
@@ -277,10 +273,9 @@ onHidden
 isVisible
 =
 yield
-testActor
-.
 isHighlighting
 (
+toolbox
 )
 ;
 ok
@@ -327,10 +322,9 @@ inspector
 isVisible
 =
 yield
-testActor
-.
 isHighlighting
 (
+toolbox
 )
 ;
 ok
