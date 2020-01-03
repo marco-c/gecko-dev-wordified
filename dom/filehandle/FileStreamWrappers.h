@@ -358,15 +358,6 @@ nsIOutputStream
 >
 mOutputStream
 ;
-#
-ifdef
-DEBUG
-void
-*
-mWriteThread
-;
-#
-endif
 }
 ;
 }
