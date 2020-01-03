@@ -1637,8 +1637,8 @@ PaintFrameWithEffects
 nsIFrame
 *
 aFrame
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix
