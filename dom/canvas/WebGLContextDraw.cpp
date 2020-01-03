@@ -3364,9 +3364,7 @@ mBoundArrayBuffer
 mBoundArrayBuffer
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 )
@@ -3541,9 +3539,7 @@ attrib0
 buf
 -
 >
-GLName
-(
-)
+mGLName
 )
 ;
 if
@@ -3640,9 +3636,7 @@ mBoundArrayBuffer
 mBoundArrayBuffer
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 )

@@ -278,9 +278,7 @@ buffer
 buffer
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 )
@@ -320,9 +318,7 @@ buffer
 buffer
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 )
@@ -366,9 +362,7 @@ buffer
 buffer
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 offset
