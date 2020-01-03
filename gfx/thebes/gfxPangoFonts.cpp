@@ -8379,6 +8379,8 @@ uint32_t
 aCh
 uint32_t
 aPrevCh
+uint32_t
+aNextCh
 int32_t
 aRunScript
 gfxFont
