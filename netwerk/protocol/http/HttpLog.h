@@ -459,7 +459,7 @@ args
 MOZ_LOG
 (
 gHttpLog
-1
+PR_LOG_ERROR
 args
 )
 #
@@ -471,7 +471,7 @@ args
 MOZ_LOG
 (
 gHttpLog
-2
+PR_LOG_WARNING
 args
 )
 #
@@ -483,7 +483,7 @@ args
 MOZ_LOG
 (
 gHttpLog
-3
+PR_LOG_INFO
 args
 )
 #
@@ -495,7 +495,7 @@ args
 MOZ_LOG
 (
 gHttpLog
-4
+PR_LOG_DEBUG
 args
 )
 #
@@ -507,7 +507,7 @@ args
 MOZ_LOG
 (
 gHttpLog
-5
+PR_LOG_VERBOSE
 args
 )
 #
@@ -528,7 +528,7 @@ LOG1_ENABLED
 MOZ_LOG_TEST
 (
 gHttpLog
-1
+PR_LOG_ERROR
 )
 #
 define
@@ -538,7 +538,7 @@ LOG2_ENABLED
 MOZ_LOG_TEST
 (
 gHttpLog
-2
+PR_LOG_WARNING
 )
 #
 define
@@ -548,7 +548,7 @@ LOG3_ENABLED
 MOZ_LOG_TEST
 (
 gHttpLog
-3
+PR_LOG_INFO
 )
 #
 define
@@ -558,7 +558,7 @@ LOG4_ENABLED
 MOZ_LOG_TEST
 (
 gHttpLog
-4
+PR_LOG_DEBUG
 )
 #
 define
@@ -568,7 +568,7 @@ LOG5_ENABLED
 MOZ_LOG_TEST
 (
 gHttpLog
-5
+PR_LOG_VERBOSE
 )
 #
 define
