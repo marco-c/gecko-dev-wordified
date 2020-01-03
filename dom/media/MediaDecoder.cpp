@@ -2490,7 +2490,7 @@ false
 )
 mPlayState
 (
-PLAY_STATE_PAUSED
+PLAY_STATE_LOADING
 )
 mNextState
 (
@@ -3063,11 +3063,6 @@ them
 now
 SetStateMachineParameters
 (
-)
-;
-ChangeState
-(
-PLAY_STATE_LOADING
 )
 ;
 return
