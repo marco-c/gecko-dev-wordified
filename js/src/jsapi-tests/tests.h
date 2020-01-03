@@ -2793,13 +2793,12 @@ cx_
 JS
 :
 :
-GCForReason
+ShrinkingGC
 (
 JS_GetRuntime
 (
 cx_
 )
-GC_SHRINK
 JS
 :
 :
