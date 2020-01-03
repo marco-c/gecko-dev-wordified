@@ -3105,7 +3105,10 @@ GLContextProviderWGL
 :
 CreateHeadless
 (
-CreateContextFlags
+bool
+requireCompatProfile
+bool
+forceEnabled
 )
 {
 if
@@ -3263,8 +3266,8 @@ const
 SurfaceCaps
 &
 caps
-CreateContextFlags
-flags
+bool
+requireCompatProfile
 )
 {
 nsRefPtr
@@ -3275,7 +3278,7 @@ glContext
 =
 CreateHeadless
 (
-flags
+requireCompatProfile
 )
 ;
 if

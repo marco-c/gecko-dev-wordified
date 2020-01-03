@@ -157,7 +157,7 @@ IntSize
 const
 SurfaceCaps
 &
-CreateContextFlags
+bool
 )
 {
 return
@@ -173,7 +173,7 @@ GLContextProviderNull
 :
 CreateHeadless
 (
-CreateContextFlags
+bool
 )
 {
 return

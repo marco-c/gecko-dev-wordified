@@ -587,6 +587,11 @@ if
 sPluginContext
 )
 {
+bool
+requireCompatProfile
+=
+true
+;
 sPluginContext
 =
 GLContextProvider
@@ -594,10 +599,7 @@ GLContextProvider
 :
 CreateHeadless
 (
-CreateContextFlags
-:
-:
-REQUIRE_COMPAT_PROFILE
+requireCompatProfile
 )
 ;
 }

@@ -233,7 +233,7 @@ ASSERT_FALSE
 gfxPrefs
 :
 :
-LayersDumpTexture
+CanvasAzureAccelerated
 (
 )
 )
@@ -488,7 +488,7 @@ ASSERT_FALSE
 gfxPrefs
 :
 :
-LayersDumpTexture
+CanvasAzureAccelerated
 (
 )
 )
@@ -496,7 +496,7 @@ LayersDumpTexture
 gfxPrefs
 :
 :
-SetLayersDumpTexture
+SetCanvasAzureAccelerated
 (
 true
 )
@@ -506,7 +506,7 @@ ASSERT_TRUE
 gfxPrefs
 :
 :
-LayersDumpTexture
+CanvasAzureAccelerated
 (
 )
 )
@@ -514,7 +514,7 @@ LayersDumpTexture
 gfxPrefs
 :
 :
-SetLayersDumpTexture
+SetCanvasAzureAccelerated
 (
 false
 )
@@ -524,7 +524,7 @@ ASSERT_FALSE
 gfxPrefs
 :
 :
-LayersDumpTexture
+CanvasAzureAccelerated
 (
 )
 )

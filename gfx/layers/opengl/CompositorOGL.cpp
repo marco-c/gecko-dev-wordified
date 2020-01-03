@@ -980,6 +980,11 @@ gfxImageFormat
 :
 RGB16_565
 ;
+bool
+requireCompatProfile
+=
+true
+;
 context
 =
 GLContextProvider
@@ -989,10 +994,7 @@ CreateOffscreen
 (
 mSurfaceSize
 caps
-CreateContextFlags
-:
-:
-REQUIRE_COMPAT_PROFILE
+requireCompatProfile
 )
 ;
 }
