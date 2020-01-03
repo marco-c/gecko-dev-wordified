@@ -37589,9 +37589,6 @@ subproperties
 :
 [
 "
--
-moz
--
 text
 -
 decoration
@@ -37599,9 +37596,6 @@ decoration
 color
 "
 "
--
-moz
--
 text
 -
 decoration
@@ -37609,9 +37603,6 @@ decoration
 line
 "
 "
--
-moz
--
 text
 -
 decoration
@@ -37752,9 +37743,6 @@ underline
 ]
 }
 "
--
-moz
--
 text
 -
 decoration
@@ -37766,7 +37754,7 @@ color
 domProp
 :
 "
-MozTextDecorationColor
+textDecorationColor
 "
 inherited
 :
@@ -37863,9 +37851,6 @@ ff00ff
 ]
 }
 "
--
-moz
--
 text
 -
 decoration
@@ -37877,7 +37862,7 @@ line
 domProp
 :
 "
-MozTextDecorationLine
+textDecorationLine
 "
 inherited
 :
@@ -37987,9 +37972,6 @@ blink
 ]
 }
 "
--
-moz
--
 text
 -
 decoration
@@ -38001,7 +37983,7 @@ style
 domProp
 :
 "
-MozTextDecorationStyle
+textDecorationStyle
 "
 inherited
 :

@@ -16748,7 +16748,7 @@ style
 &
 &
 "
-MozTextDecorationColor
+textDecorationColor
 "
 in
 node
@@ -16757,7 +16757,7 @@ style
 &
 &
 "
-MozTextDecorationLine
+textDecorationLine
 "
 in
 node
@@ -16766,7 +16766,7 @@ style
 &
 &
 "
-MozTextDecorationStyle
+textDecorationStyle
 "
 in
 node
