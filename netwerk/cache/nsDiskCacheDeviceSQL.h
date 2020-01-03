@@ -330,6 +330,7 @@ nsresult
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 InitWithSqlite
@@ -344,6 +345,7 @@ nsresult
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -353,6 +355,7 @@ GetDeviceID
 (
 void
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsCacheEntry
@@ -366,6 +369,7 @@ bool
 *
 collision
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -375,6 +379,7 @@ nsCacheEntry
 *
 entry
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -384,6 +389,7 @@ nsCacheEntry
 *
 entry
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -393,6 +399,7 @@ nsCacheEntry
 *
 entry
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -410,6 +417,7 @@ nsIInputStream
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -427,6 +435,7 @@ nsIOutputStream
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -440,6 +449,7 @@ nsIFile
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -451,6 +461,7 @@ entry
 int32_t
 deltaSize
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -460,6 +471,7 @@ nsICacheVisitor
 *
 visitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -470,6 +482,7 @@ char
 *
 clientID
 )
+MOZ_OVERRIDE
 ;
 /
 *

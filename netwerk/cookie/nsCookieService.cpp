@@ -3073,6 +3073,7 @@ mozIStorageError
 *
 aError
 )
+MOZ_OVERRIDE
 {
 int32_t
 result
@@ -3360,6 +3361,7 @@ char
 GetOpType
 (
 )
+MOZ_OVERRIDE
 {
 return
 "
@@ -3396,6 +3398,7 @@ HandleResult
 mozIStorageResultSet
 *
 )
+MOZ_OVERRIDE
 {
 NS_NOTREACHED
 (
@@ -3420,6 +3423,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -3690,6 +3694,7 @@ char
 GetOpType
 (
 )
+MOZ_OVERRIDE
 {
 return
 "
@@ -3726,6 +3731,7 @@ HandleResult
 mozIStorageResultSet
 *
 )
+MOZ_OVERRIDE
 {
 NS_NOTREACHED
 (
@@ -3750,6 +3756,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -3949,6 +3956,7 @@ char
 GetOpType
 (
 )
+MOZ_OVERRIDE
 {
 return
 "
@@ -3985,6 +3993,7 @@ HandleResult
 mozIStorageResultSet
 *
 )
+MOZ_OVERRIDE
 {
 NS_NOTREACHED
 (
@@ -4009,6 +4018,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -4208,6 +4218,7 @@ char
 GetOpType
 (
 )
+MOZ_OVERRIDE
 {
 return
 "
@@ -4262,6 +4273,7 @@ mozIStorageResultSet
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -4396,6 +4408,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -4843,6 +4856,7 @@ nsresult
 nsISupports
 *
 )
+MOZ_OVERRIDE
 {
 gCookieService
 -
@@ -4901,6 +4915,7 @@ char16_t
 *
 data
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (

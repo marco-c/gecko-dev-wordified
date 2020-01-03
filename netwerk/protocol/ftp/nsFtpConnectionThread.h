@@ -449,6 +449,7 @@ CloseWithStatus
 nsresult
 status
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Available
@@ -457,6 +458,7 @@ uint64_t
 *
 result
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ReadSegments
@@ -472,6 +474,7 @@ uint32_t
 *
 result
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -489,6 +492,7 @@ data
 uint32_t
 dataLen
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -497,6 +501,7 @@ OnControlError
 nsresult
 status
 )
+MOZ_OVERRIDE
 ;
 nsFtpState
 (
@@ -525,6 +530,7 @@ void
 OnCallbackPending
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

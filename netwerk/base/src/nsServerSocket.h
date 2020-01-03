@@ -235,6 +235,7 @@ fd
 int16_t
 outFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -244,6 +245,7 @@ PRFileDesc
 *
 fd
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -253,6 +255,7 @@ bool
 *
 aIsLocal
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -262,12 +265,14 @@ bool
 *
 aKeepWhenOffline
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t
 ByteCountSent
 (
 )
+MOZ_OVERRIDE
 {
 return
 0
@@ -278,6 +283,7 @@ uint64_t
 ByteCountReceived
 (
 )
+MOZ_OVERRIDE
 {
 return
 0

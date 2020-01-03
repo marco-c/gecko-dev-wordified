@@ -282,6 +282,7 @@ nsHttpPipeline
 QueryPipeline
 (
 )
+MOZ_OVERRIDE
 ;
 nsRefPtr
 <

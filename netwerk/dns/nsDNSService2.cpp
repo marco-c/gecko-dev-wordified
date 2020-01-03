@@ -1648,6 +1648,7 @@ nsHostRecord
 *
 nsresult
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1690,6 +1691,7 @@ nsIDNSListener
 *
 aListener
 )
+MOZ_OVERRIDE
 ;
 size_t
 SizeOfIncludingThis
@@ -1700,6 +1702,7 @@ mozilla
 MallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 nsRefPtr
 <

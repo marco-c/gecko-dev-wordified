@@ -39738,6 +39738,7 @@ nsACString
 &
 aData
 )
+MOZ_OVERRIDE
 {
 return
 mSupportsCString
@@ -39757,6 +39758,7 @@ nsACString
 &
 aData
 )
+MOZ_OVERRIDE
 {
 return
 mSupportsCString

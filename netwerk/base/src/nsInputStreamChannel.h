@@ -238,6 +238,7 @@ nsIChannel
 *
 channel
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

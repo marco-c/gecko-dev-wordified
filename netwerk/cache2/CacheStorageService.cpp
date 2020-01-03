@@ -7774,6 +7774,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -7792,6 +7793,7 @@ aBuf
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -7809,6 +7811,7 @@ aBuf
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -7823,6 +7826,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnEOFSet
@@ -7833,6 +7837,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -7847,6 +7852,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK

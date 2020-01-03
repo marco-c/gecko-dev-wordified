@@ -880,6 +880,7 @@ OnTunnelNudged
 TLSFilterTransaction
 *
 )
+MOZ_OVERRIDE
 ;
 class
 TLSFilterTransaction
@@ -949,6 +950,7 @@ size
 bool
 forceCommitment
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetTransactionSecurityInfo
@@ -957,6 +959,7 @@ nsISupports
 *
 *
 )
+MOZ_OVERRIDE
 ;
 nsresult
 NudgeTunnel
@@ -1292,6 +1295,7 @@ SpdyConnectTransaction
 QuerySpdyConnectTransaction
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

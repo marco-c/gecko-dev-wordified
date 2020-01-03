@@ -226,11 +226,13 @@ bool
 nsIInterfaceRequestor
 *
 )
+MOZ_OVERRIDE
 ;
 bool
 CanReuse
 (
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -245,6 +247,7 @@ bool
 RoomForMoreStreams
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -303,6 +306,7 @@ ReadTimeoutTick
 PRIntervalTime
 now
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -329,6 +333,7 @@ PRIntervalTime
 IdleTime
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1393,6 +1398,7 @@ TransactionHasDataToWrite
 nsAHttpTransaction
 *
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1423,6 +1429,7 @@ size
 bool
 forceCommitment
 )
+MOZ_OVERRIDE
 ;
 nsresult
 BufferOutput
@@ -1506,6 +1513,7 @@ nsCString
 &
 log
 )
+MOZ_OVERRIDE
 ;
 /
 /

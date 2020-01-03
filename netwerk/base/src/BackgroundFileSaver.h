@@ -397,6 +397,7 @@ void
 virtualDestroyNSSReference
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -2530,6 +2531,7 @@ void
 virtualDestroyNSSReference
 (
 )
+MOZ_OVERRIDE
 {
 }
 private

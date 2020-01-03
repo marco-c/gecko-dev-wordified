@@ -852,11 +852,13 @@ uint32_t
 *
 result
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Close
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -1295,11 +1297,13 @@ uint32_t
 *
 result
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Close
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

@@ -2879,6 +2879,7 @@ record
 nsresult
 status
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -2923,6 +2924,7 @@ nsITimer
 *
 timer
 )
+MOZ_OVERRIDE
 {
 if
 (

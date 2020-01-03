@@ -991,6 +991,7 @@ PRFileDesc
 int16_t
 outFlags
 )
+MOZ_OVERRIDE
 ;
 void
 OnSocketDetached
@@ -998,6 +999,7 @@ OnSocketDetached
 PRFileDesc
 *
 )
+MOZ_OVERRIDE
 ;
 void
 IsLocal
@@ -1006,6 +1008,7 @@ bool
 *
 aIsLocal
 )
+MOZ_OVERRIDE
 ;
 void
 OnKeepaliveEnabledPrefChange
@@ -1041,6 +1044,7 @@ uint64_t
 ByteCountReceived
 (
 )
+MOZ_OVERRIDE
 {
 return
 mInput
@@ -1054,6 +1058,7 @@ uint64_t
 ByteCountSent
 (
 )
+MOZ_OVERRIDE
 {
 return
 mOutput
