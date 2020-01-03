@@ -1781,7 +1781,7 @@ Reset
 via
 Reset
 or
-FinishParsing
+EndFrameSession
 .
 const
 Frame
@@ -1954,7 +1954,7 @@ was
 parsed
 yet
 void
-FinishParsing
+EndFrameSession
 (
 )
 ;
