@@ -267,11 +267,13 @@ attribute
 }
 }
 public
-void
+View
 addTab
 (
+final
 int
 imageResId
+final
 int
 stringResId
 )
@@ -375,6 +377,9 @@ setOnFocusChangeListener
 (
 this
 )
+;
+return
+button
 ;
 }
 public
