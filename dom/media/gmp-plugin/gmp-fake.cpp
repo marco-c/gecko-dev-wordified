@@ -462,6 +462,12 @@ encoded
 h
 "
 #
+if
+defined
+(
+GMP_FAKE_SUPPORT_DECRYPT
+)
+#
 include
 "
 gmp
@@ -492,6 +498,8 @@ storage
 .
 h
 "
+#
+endif
 #
 if
 defined
@@ -2395,6 +2403,12 @@ aHostAPI
 return
 GMPNoErr
 ;
+#
+if
+defined
+(
+GMP_FAKE_SUPPORT_DECRYPT
+)
 }
 else
 if
@@ -2457,6 +2471,8 @@ aHostAPI
 return
 GMPNoErr
 ;
+#
+endif
 }
 return
 GMPGenericErr
