@@ -694,6 +694,11 @@ getPropertyValue
 direction
 "
 )
+tooltip
+:
+child
+.
+title
 /
 /
 XXX
