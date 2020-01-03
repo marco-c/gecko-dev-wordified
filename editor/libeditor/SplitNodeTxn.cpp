@@ -338,7 +338,7 @@ Failed
 clone
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 )

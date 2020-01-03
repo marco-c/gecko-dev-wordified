@@ -11877,7 +11877,7 @@ Failed
 )
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 )

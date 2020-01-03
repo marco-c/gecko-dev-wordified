@@ -12180,7 +12180,7 @@ NS_ENSURE_TRUE
 workerPrivate
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 )

@@ -294,11 +294,12 @@ aCanBubble
 aCancelable
 )
 ;
-NS_ENSURE_SUCCESS_VOID
+NS_ENSURE_TRUE_VOID
 (
+!
 aRv
 .
-ErrorCode
+Failed
 (
 )
 )
