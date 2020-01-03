@@ -7907,7 +7907,7 @@ MaskType
 >
 static
 bool
-BitSelect
+SelectBits
 (
 JSContext
 *

@@ -23035,7 +23035,7 @@ i4sel
 =
 i4
 .
-bitselect
+selectBits
 ;
 '
 const
@@ -23047,7 +23047,7 @@ f4sel
 =
 f4
 .
-bitselect
+selectBits
 ;
 '
 assertAsmTypeFail
@@ -23809,7 +23809,7 @@ with
 select
 but
 not
-bitselect
+selectBits
 assertEqX4
 (
 asmLink
@@ -24514,7 +24514,7 @@ for
 both
 select
 and
-bitselect
+selectBits
 assertEqX4
 (
 asmLink
@@ -25878,7 +25878,7 @@ this
 /
 /
 Specific
-bitselect
+selectBits
 tests
 var
 masks
@@ -26060,7 +26060,7 @@ SIMD
 .
 Int32x4
 .
-bitselect
+selectBits
 (
 mask
 x
@@ -26273,7 +26273,7 @@ SIMD
 .
 Float32x4
 .
-bitselect
+selectBits
 (
 mask
 x

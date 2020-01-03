@@ -49183,7 +49183,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_bitselect
+AsmJSSimdOperation_selectBits
 :
 return
 CheckSimdSelect

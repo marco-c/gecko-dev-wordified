@@ -2787,7 +2787,7 @@ native
 js
 :
 :
-simd_int32x4_bitselect
+simd_int32x4_selectBits
 )
 return
 inlineSimdSelect
@@ -2837,7 +2837,7 @@ native
 js
 :
 :
-simd_float32x4_bitselect
+simd_float32x4_selectBits
 )
 return
 inlineSimdSelect
