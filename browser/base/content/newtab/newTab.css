@@ -1071,10 +1071,6 @@ radius
 :
 2px
 ;
-cursor
-:
-pointer
-;
 font
 -
 size
@@ -1126,6 +1122,15 @@ left
 top
 :
 215px
+;
+-
+moz
+-
+user
+-
+select
+:
+none
 ;
 }
 .
@@ -1297,6 +1302,9 @@ enhanced
 type
 =
 sponsored
+]
+[
+suggested
 ]
 )
 .
