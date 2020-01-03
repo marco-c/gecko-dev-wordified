@@ -729,12 +729,6 @@ aWindow
 DOMError
 (
 aEvent
-.
-target
-.
-error
-.
-name
 )
 ;
 }
