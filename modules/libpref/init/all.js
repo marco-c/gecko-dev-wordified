@@ -49667,16 +49667,6 @@ enabled
 false
 )
 ;
-pref
-(
-"
-selectioncaret
-.
-noneditable
-"
-false
-)
-;
 /
 /
 This
