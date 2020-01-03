@@ -135,6 +135,7 @@ WorkerThread
 {
 public
 :
+explicit
 WorkerThreadPosix
 (
 MultiThreadedTaskQueue

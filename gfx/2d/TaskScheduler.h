@@ -817,6 +817,7 @@ Task
 {
 public
 :
+explicit
 SetEventTask
 (
 MultiThreadedTaskQueue
@@ -1447,6 +1448,7 @@ helper
 struct
 MutexAutoLock
 {
+explicit
 MutexAutoLock
 (
 Mutex
@@ -1526,6 +1528,7 @@ Run
 ;
 protected
 :
+explicit
 WorkerThread
 (
 MultiThreadedTaskQueue
