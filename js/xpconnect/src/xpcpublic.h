@@ -992,6 +992,14 @@ JSObject
 obj
 )
 ;
+uint64_t
+GetCompartmentCPOWMicroseconds
+(
+JSCompartment
+*
+compartment
+)
+;
 }
 /
 *
