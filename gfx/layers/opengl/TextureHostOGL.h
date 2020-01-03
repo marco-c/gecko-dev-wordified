@@ -2665,8 +2665,6 @@ TextureFlags
 aFlags
 EGLImage
 aImage
-EGLSync
-aSync
 gfx
 :
 :
@@ -2815,10 +2813,6 @@ protected
 const
 EGLImage
 mImage
-;
-const
-EGLSync
-mSync
 ;
 const
 gfx
