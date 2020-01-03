@@ -4686,9 +4686,6 @@ enumAsHex
 }
 }
 bool
-WebGLContext
-:
-:
 IsCompressedTextureFormat
 (
 GLenum
@@ -4777,9 +4774,6 @@ false
 }
 }
 bool
-WebGLContext
-:
-:
 IsTextureFormatCompressed
 (
 TexInternalFormat
