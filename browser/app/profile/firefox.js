@@ -1172,10 +1172,7 @@ autoDisableScopes
 ;
 /
 /
-Don
-'
-t
-require
+Require
 signed
 add
 -
@@ -1191,7 +1188,7 @@ signatures
 .
 required
 "
-false
+true
 )
 ;
 pref
