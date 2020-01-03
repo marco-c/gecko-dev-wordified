@@ -4228,14 +4228,6 @@ return
 false
 ;
 }
-mShadowLayersManager
--
->
-ApplyAsyncProperties
-(
-this
-)
-;
 *
 aOpacity
 =
