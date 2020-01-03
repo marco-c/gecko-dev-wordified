@@ -3601,7 +3601,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 srcFormat
 mPixelStorePremultiplyAlpha
 )
@@ -4056,7 +4056,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 srcFormat
 mPixelStorePremultiplyAlpha
 )
@@ -8211,9 +8211,9 @@ helpers
 /
 /
 If
-isArrayType
+jsArrayType
 is
-TypeMax
+MaxTypedArrayViewType
 it
 means
 no

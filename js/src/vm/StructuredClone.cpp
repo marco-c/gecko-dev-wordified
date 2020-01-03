@@ -749,7 +749,7 @@ SCTAG_TYPED_ARRAY_V1_MIN
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 -
 1
 /

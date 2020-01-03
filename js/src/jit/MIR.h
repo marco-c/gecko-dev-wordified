@@ -42228,7 +42228,7 @@ arrayType
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 )
 ;
 }
@@ -42663,7 +42663,7 @@ arrayType
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 )
 ;
 }
@@ -43292,7 +43292,7 @@ arrayType
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 )
 ;
 }
@@ -43697,7 +43697,7 @@ arrayType
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 )
 ;
 }

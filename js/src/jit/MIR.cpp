@@ -25326,7 +25326,7 @@ arrayType
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 )
 return
 true
@@ -25349,7 +25349,7 @@ arrayType
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 ;
 }
 bool

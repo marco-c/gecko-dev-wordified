@@ -4820,7 +4820,7 @@ or
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 .
 *
 /
@@ -4850,7 +4850,7 @@ or
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 .
 *
 /
