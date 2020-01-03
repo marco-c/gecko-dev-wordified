@@ -170,11 +170,6 @@ RtspMetaData
 (
 )
 ;
-~
-RtspMetaData
-(
-)
-;
 nsresult
 DeserializeRtspMetaData
 (
@@ -185,6 +180,13 @@ RtspMetadataParam
 >
 &
 metaArray
+)
+;
+protected
+:
+~
+RtspMetaData
+(
 )
 ;
 private

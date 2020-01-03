@@ -381,11 +381,6 @@ nsIURI
 aUri
 )
 ;
-~
-RtspChannelChild
-(
-)
-;
 /
 /
 nsBaseChannel
@@ -554,6 +549,13 @@ GetController
 ;
 void
 ReleaseController
+(
+)
+;
+protected
+:
+~
+RtspChannelChild
 (
 )
 ;

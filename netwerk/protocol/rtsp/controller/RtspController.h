@@ -179,6 +179,8 @@ nsIChannel
 channel
 )
 ;
+protected
+:
 ~
 RtspController
 (

@@ -199,11 +199,6 @@ RtspControllerParent
 (
 )
 ;
-~
-RtspControllerParent
-(
-)
-;
 bool
 RecvAsyncOpen
 (
@@ -249,6 +244,13 @@ RecvStop
 ;
 bool
 RecvPlaybackEnded
+(
+)
+;
+protected
+:
+~
+RtspControllerParent
 (
 )
 ;

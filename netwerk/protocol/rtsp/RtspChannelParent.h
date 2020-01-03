@@ -365,11 +365,6 @@ nsIURI
 aUri
 )
 ;
-~
-RtspChannelParent
-(
-)
-;
 /
 /
 nsBaseChannel
@@ -528,6 +523,11 @@ aArgs
 ;
 protected
 :
+~
+RtspChannelParent
+(
+)
+;
 /
 /
 Used

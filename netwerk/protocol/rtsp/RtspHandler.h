@@ -160,12 +160,6 @@ RtspHandler
 )
 {
 }
-~
-RtspHandler
-(
-)
-{
-}
 const
 static
 int32_t
@@ -173,6 +167,14 @@ kDefaultRtspPort
 =
 554
 ;
+protected
+:
+~
+RtspHandler
+(
+)
+{
+}
 }
 ;
 }
