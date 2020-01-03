@@ -861,10 +861,15 @@ DrawTargetSkia
 (
 )
 :
+#
+ifdef
+USE_SKIA_GPU
 mTexture
 (
 0
 )
+#
+endif
 mSnapshot
 (
 nullptr
@@ -5211,6 +5216,9 @@ NativeSurfaceType
 aType
 )
 {
+#
+ifdef
+USE_SKIA_GPU
 if
 (
 aType
@@ -5235,6 +5243,8 @@ mTexture
 )
 ;
 }
+#
+endif
 return
 nullptr
 ;
