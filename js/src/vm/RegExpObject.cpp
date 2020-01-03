@@ -4643,11 +4643,12 @@ names
 .
 index
 index
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
+{
 return
 matchResultTemplateObject_
 ;
@@ -4655,6 +4656,7 @@ matchResultTemplateObject_
 /
 =
 nullptr
+}
 /
 *
 Set
@@ -4700,11 +4702,12 @@ names
 .
 input
 inputVal
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
+{
 return
 matchResultTemplateObject_
 ;
@@ -4712,6 +4715,7 @@ matchResultTemplateObject_
 /
 =
 nullptr
+}
 /
 /
 Make
