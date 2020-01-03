@@ -7896,6 +7896,8 @@ TransformShadowTree
 (
 TimeStamp
 aCurrentFrame
+TransformsToSkip
+aSkip
 )
 {
 PROFILER_LABEL
@@ -7980,6 +7982,19 @@ root
 aCurrentFrame
 )
 ;
+if
+(
+!
+(
+aSkip
+&
+TransformsToSkip
+:
+:
+APZ
+)
+)
+{
 /
 /
 FIXME
@@ -8198,6 +8213,7 @@ i
 ]
 )
 ;
+}
 }
 }
 }
