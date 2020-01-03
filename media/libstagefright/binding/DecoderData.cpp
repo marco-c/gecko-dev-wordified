@@ -1113,6 +1113,11 @@ MEDIA_MIMETYPE_AUDIO_AAC
 aac_profile
 >
 0
+|
+|
+extended_profile
+>
+0
 )
 ;
 }
