@@ -302,11 +302,13 @@ void
 Shutdown
 (
 )
+override
 ;
 nsresult
 ResetDecode
 (
 )
+override
 ;
 nsresult
 DecodeHeader
@@ -319,6 +321,7 @@ aData
 size_t
 aLength
 )
+override
 ;
 nsresult
 FinishInit
@@ -327,6 +330,7 @@ AudioInfo
 &
 aInfo
 )
+override
 ;
 bool
 Decode
@@ -348,6 +352,7 @@ int32_t
 *
 aTotalFrames
 )
+override
 ;
 explicit
 VorbisDecoder
@@ -1358,11 +1363,13 @@ void
 Shutdown
 (
 )
+override
 ;
 nsresult
 ResetDecode
 (
 )
+override
 ;
 nsresult
 DecodeHeader
@@ -1375,6 +1382,7 @@ aData
 size_t
 aLength
 )
+override
 ;
 nsresult
 FinishInit
@@ -1404,6 +1412,7 @@ int32_t
 *
 aTotalFrames
 )
+override
 ;
 explicit
 OpusDecoder
