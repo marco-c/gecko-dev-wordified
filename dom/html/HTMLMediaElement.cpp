@@ -26019,6 +26019,14 @@ Create
 (
 global
 aRv
+NS_LITERAL_CSTRING
+(
+"
+HTMLMediaElement
+.
+setMediaKeys
+"
+)
 )
 ;
 if

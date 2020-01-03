@@ -403,6 +403,15 @@ int32_t
 aOutMinCDMVersion
 )
 ;
+void
+LogToBrowserConsole
+(
+const
+nsAString
+&
+aMsg
+)
+;
 }
 /
 /
