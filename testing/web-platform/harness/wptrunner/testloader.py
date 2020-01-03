@@ -3542,6 +3542,14 @@ manifests
 keys
 (
 )
+key
+=
+lambda
+x
+:
+x
+.
+url_base
 )
 :
             

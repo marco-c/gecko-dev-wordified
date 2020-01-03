@@ -220,6 +220,19 @@ kwargs
 debug_info
 "
 ]
+            
+"
+user_stylesheets
+"
+:
+kwargs
+.
+get
+(
+"
+user_stylesheets
+"
+)
 }
 def
 executor_kwargs
@@ -322,6 +335,9 @@ binary
 debug_info
 =
 None
+user_stylesheets
+=
+None
 )
 :
         
@@ -344,6 +360,15 @@ self
 debug_info
 =
 debug_info
+        
+self
+.
+user_stylesheets
+=
+user_stylesheets
+or
+[
+]
     
 def
 executor_browser
@@ -370,4 +395,12 @@ debug_info
 self
 .
 debug_info
+                                 
+"
+user_stylesheets
+"
+:
+self
+.
+user_stylesheets
 }
