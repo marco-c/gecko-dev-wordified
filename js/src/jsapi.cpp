@@ -29223,7 +29223,7 @@ requestInterrupt
 JSRuntime
 :
 :
-RequestInterruptAnyThread
+RequestInterruptUrgent
 )
 ;
 }
