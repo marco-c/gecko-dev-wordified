@@ -513,8 +513,16 @@ const
 override
 {
 return
+mBlobImpls
+.
+Length
+(
+)
+?
 &
 mBlobImpls
+:
+nullptr
 ;
 }
 virtual
