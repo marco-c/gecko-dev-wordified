@@ -10140,7 +10140,7 @@ cardState
 :
 Ci
 .
-nsIIccProvider
+nsIIcc
 .
 CARD_STATE_UNKNOWN
 iccInfo
@@ -10762,7 +10762,7 @@ cardState
 =
 Ci
 .
-nsIIccProvider
+nsIIcc
 .
 CARD_STATE_UNDETECTED
 &
@@ -10773,7 +10773,7 @@ cardState
 =
 Ci
 .
-nsIIccProvider
+nsIIcc
 .
 CARD_STATE_UNKNOWN
 ;
