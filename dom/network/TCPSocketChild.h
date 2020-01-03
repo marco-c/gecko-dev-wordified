@@ -197,7 +197,7 @@ nsITCPSocketChild
 {
 public
 :
-NS_DECL_CYCLE_COLLECTION_CLASS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 TCPSocketChildBase
 )
@@ -229,6 +229,16 @@ nsCOMPtr
 nsITCPSocketInternal
 >
 mSocket
+;
+JS
+:
+:
+Heap
+<
+JSObject
+*
+>
+mWindowObj
 ;
 bool
 mIPCOpen
@@ -326,10 +336,6 @@ override
 ;
 private
 :
-JSObject
-*
-mWindowObj
-;
 nsString
 mHost
 ;
