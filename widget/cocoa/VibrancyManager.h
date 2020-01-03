@@ -169,6 +169,9 @@ NSGeometry
 h
 >
 class
+NSColor
+;
+class
 NSView
 ;
 class
