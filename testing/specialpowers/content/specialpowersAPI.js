@@ -14345,7 +14345,7 @@ loadExtension
 :
 function
 (
-url
+name
 handler
 )
 {
@@ -14446,8 +14446,6 @@ let
 extension
 =
 {
-id
-url
 startup
 (
 )
@@ -14520,7 +14518,7 @@ _sendAsyncMessage
 SPLoadExtension
 "
 {
-url
+name
 id
 }
 )
