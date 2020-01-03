@@ -336,7 +336,7 @@ SetSelectionBoundsAt
 domSel
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 aStartOffset

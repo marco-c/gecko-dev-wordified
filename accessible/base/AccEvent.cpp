@@ -1984,7 +1984,7 @@ return
 mSel
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 =

@@ -19884,7 +19884,7 @@ aIsSelectionEditable
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 &
@@ -27776,7 +27776,7 @@ rangeCount
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
