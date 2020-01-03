@@ -781,6 +781,7 @@ not
 NULL
 *
 /
+GR_MAYBE_UNUSED
 const
 gr_face
 *
@@ -811,15 +812,6 @@ y
 if
 (
 font
-&
-&
-(
-face
-|
-|
-!
-face
-)
 )
 return
 res

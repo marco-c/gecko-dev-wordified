@@ -250,11 +250,11 @@ GR2_VERSION_MAJOR
 #
 define
 GR2_VERSION_MINOR
-2
+3
 #
 define
 GR2_VERSION_BUGFIX
-4
+0
 #
 ifdef
 __cplusplus

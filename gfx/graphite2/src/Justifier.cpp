@@ -460,7 +460,7 @@ float
 width
 GR_MAYBE_UNUSED
 justFlags
-flags
+jflags
 Slot
 *
 pFirst
@@ -606,7 +606,7 @@ scale
 if
 (
 (
-flags
+jflags
 &
 gr_justEndInline
 )
@@ -641,6 +641,7 @@ x
 =
 0
 .
+f
 |
 |
 bbox
@@ -652,6 +653,7 @@ y
 =
 0
 .
+f
 |
 |
 bbox
@@ -663,6 +665,7 @@ x
 =
 0
 .
+f
 |
 |
 bbox
@@ -674,6 +677,7 @@ y
 =
 0
 .
+f
 )
 break
 ;
@@ -893,26 +897,14 @@ this
 numLevels
 ;
 }
+Vector
+<
 JustifyTotal
-*
+>
 stats
-=
-new
-JustifyTotal
-[
-numLevels
-]
-;
-if
 (
-!
-stats
+numLevels
 )
-return
--
-1
-.
-0
 ;
 for
 (
@@ -1014,7 +1006,7 @@ width
 <
 0
 .
-0
+0f
 )
 ?
 -
@@ -1526,6 +1518,7 @@ width
 =
 0
 .
+f
 |
 |
 (

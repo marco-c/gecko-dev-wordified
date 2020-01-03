@@ -844,10 +844,6 @@ m_pNamedFeats
 (
 NULL
 )
-m_defaultFeatures
-(
-NULL
-)
 {
 }
 ~
@@ -864,9 +860,6 @@ delete
 [
 ]
 m_pNamedFeats
-;
-delete
-m_defaultFeatures
 ;
 }
 bool
@@ -1003,7 +996,6 @@ m_pNamedFeats
 /
 owned
 FeatureVal
-*
 m_defaultFeatures
 ;
 /

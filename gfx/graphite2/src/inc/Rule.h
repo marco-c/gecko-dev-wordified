@@ -345,12 +345,6 @@ Rule
 (
 )
 {
-delete
-constraint
-;
-delete
-action
-;
 }
 struct
 RuleEntry

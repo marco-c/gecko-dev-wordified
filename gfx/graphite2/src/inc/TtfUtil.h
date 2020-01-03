@@ -1785,6 +1785,13 @@ const
 void
 *
 pCmap31
+/
+*
+unsigned
+int
+maxgid
+*
+/
 )
 ;
 gid16
@@ -1828,6 +1835,13 @@ const
 void
 *
 pCmap310
+/
+*
+unsigned
+int
+maxgid
+*
+/
 )
 ;
 gid16
