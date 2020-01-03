@@ -425,7 +425,7 @@ ended
 )
 virtual
 void
-NotifyMainThreadStateChanged
+NotifyMainThreadStreamFinished
 (
 )
 override
@@ -529,9 +529,6 @@ mDetune
 ;
 bool
 mStartCalled
-;
-bool
-mStopped
 ;
 }
 ;

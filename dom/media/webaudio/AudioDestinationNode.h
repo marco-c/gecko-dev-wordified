@@ -357,7 +357,7 @@ aRv
 ;
 virtual
 void
-NotifyMainThreadStateChanged
+NotifyMainThreadStreamFinished
 (
 )
 override
@@ -546,9 +546,6 @@ mAudioChannel
 ;
 bool
 mIsOffline
-;
-bool
-mHasFinished
 ;
 bool
 mAudioChannelAgentPlaying

@@ -1016,12 +1016,14 @@ state
 of
 the
 MediaStream
-changed
+goes
+to
+finished
 .
 *
 /
 void
-NotifyStreamStateChanged
+NotifyStreamFinished
 (
 )
 ;
