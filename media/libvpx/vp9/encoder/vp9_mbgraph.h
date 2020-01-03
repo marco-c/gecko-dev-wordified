@@ -114,7 +114,7 @@ union
 int_mv
 mv
 ;
-MB_PREDICTION_MODE
+PREDICTION_MODE
 mode
 ;
 }

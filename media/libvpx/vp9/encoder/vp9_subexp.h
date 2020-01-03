@@ -102,11 +102,6 @@ C
 #
 endif
 void
-vp9_compute_update_table
-(
-)
-;
-void
 vp9_write_prob_diff_update
 (
 vp9_writer
@@ -168,9 +163,7 @@ bestp
 vp9_prob
 upd
 int
-b
-int
-r
+stepsize
 )
 ;
 #

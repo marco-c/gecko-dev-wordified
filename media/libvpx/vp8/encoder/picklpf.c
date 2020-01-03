@@ -185,8 +185,9 @@ YV12_BUFFER_CONFIG
 dest
 )
 ;
+static
 void
-vp8_yv12_copy_partial_frame_c
+yv12_copy_partial_frame
 (
 YV12_BUFFER_CONFIG
 *
@@ -1110,7 +1111,7 @@ new
 buffer
 *
 /
-vp8_yv12_copy_partial_frame
+yv12_copy_partial_frame
 (
 saved_frame
 cm
@@ -1178,7 +1179,7 @@ loop
 filter
 *
 /
-vp8_yv12_copy_partial_frame
+yv12_copy_partial_frame
 (
 saved_frame
 cm
@@ -1355,7 +1356,7 @@ loop
 filter
 *
 /
-vp8_yv12_copy_partial_frame
+yv12_copy_partial_frame
 (
 saved_frame
 cm

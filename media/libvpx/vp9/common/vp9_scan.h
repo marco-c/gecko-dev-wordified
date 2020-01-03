@@ -145,11 +145,6 @@ endif
 define
 MAX_NEIGHBORS
 2
-void
-vp9_init_neighbors
-(
-)
-;
 typedef
 struct
 {
