@@ -225,6 +225,10 @@ aUri
 const
 float
 &
+aVolume
+const
+float
+&
 aRate
 const
 float
