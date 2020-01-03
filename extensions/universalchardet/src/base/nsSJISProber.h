@@ -181,6 +181,7 @@ nsCharSetProber
 {
 public
 :
+explicit
 nsSJISProber
 (
 bool

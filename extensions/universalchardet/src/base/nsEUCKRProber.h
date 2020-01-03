@@ -126,6 +126,7 @@ nsCharSetProber
 {
 public
 :
+explicit
 nsEUCKRProber
 (
 bool

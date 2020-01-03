@@ -158,6 +158,7 @@ nsCharSetProber
 {
 public
 :
+explicit
 nsMBCSGroupProber
 (
 uint32_t

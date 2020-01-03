@@ -174,6 +174,7 @@ nsUniversalDetector
 {
 public
 :
+explicit
 nsUniversalDetector
 (
 uint32_t
