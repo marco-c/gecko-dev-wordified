@@ -4705,6 +4705,7 @@ aElement
 )
 {
 return
+false
 ;
 }
 this
@@ -4827,6 +4828,9 @@ this
 _updateMenu
 (
 )
+;
+return
+true
 ;
 }
 /
