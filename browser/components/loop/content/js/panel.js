@@ -2196,6 +2196,11 @@ _isSignedIn
 SettingsDropdownEntry
 (
 {
+icon
+:
+"
+tour
+"
 label
 :
 mozL10n
