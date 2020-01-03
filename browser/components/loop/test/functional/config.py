@@ -160,16 +160,6 @@ seenToS
 seen
 "
     
-"
-loop
-.
-screenshare
-.
-enabled
-"
-:
-True
-    
 #
 this
 dialog
