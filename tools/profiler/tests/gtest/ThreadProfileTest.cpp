@@ -125,7 +125,13 @@ Initialization
 )
 {
 PseudoStack
+*
 stack
+=
+new
+PseudoStack
+(
+)
 ;
 Thread
 :
@@ -143,7 +149,6 @@ testThread
 "
 tid
 true
-&
 stack
 nullptr
 )
@@ -176,7 +181,13 @@ InsertOneTag
 )
 {
 PseudoStack
+*
 stack
+=
+new
+PseudoStack
+(
+)
 ;
 Thread
 :
@@ -194,7 +205,6 @@ testThread
 "
 tid
 true
-&
 stack
 nullptr
 )
@@ -287,7 +297,13 @@ InsertTagsNoWrap
 )
 {
 PseudoStack
+*
 stack
+=
+new
+PseudoStack
+(
+)
 ;
 Thread
 :
@@ -305,7 +321,6 @@ testThread
 "
 tid
 true
-&
 stack
 nullptr
 )
@@ -446,7 +461,13 @@ InsertTagsWrap
 )
 {
 PseudoStack
+*
 stack
+=
+new
+PseudoStack
+(
+)
 ;
 Thread
 :
@@ -492,7 +513,6 @@ testThread
 "
 tid
 true
-&
 stack
 nullptr
 )
