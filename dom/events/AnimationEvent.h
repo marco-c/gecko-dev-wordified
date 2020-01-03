@@ -179,7 +179,7 @@ aRv
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

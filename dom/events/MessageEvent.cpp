@@ -311,7 +311,7 @@ JSObject
 MessageEvent
 :
 :
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

@@ -206,7 +206,7 @@ JSObject
 MediaKeyError
 :
 :
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

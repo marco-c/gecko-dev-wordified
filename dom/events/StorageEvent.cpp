@@ -233,7 +233,7 @@ JSObject
 StorageEvent
 :
 :
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

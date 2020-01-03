@@ -262,7 +262,7 @@ AsStorageEvent
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

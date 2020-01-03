@@ -334,7 +334,7 @@ JSObject
 CustomEvent
 :
 :
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

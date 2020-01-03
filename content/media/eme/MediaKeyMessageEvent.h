@@ -266,7 +266,7 @@ AsMediaKeyMessageEvent
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

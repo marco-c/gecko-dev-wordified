@@ -173,7 +173,7 @@ NS_FORWARD_TO_MOUSEEVENT
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

@@ -196,7 +196,7 @@ MediaKeyError
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *
