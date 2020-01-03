@@ -257,20 +257,6 @@ chunks
 =
 16
 "
-                
-"
--
--
-run
--
-only
--
-tests
-=
-android23
-.
-json
-"
             
 ]
         
