@@ -847,13 +847,13 @@ searchHeader
 searchPlaceholder
 "
 "
-searchFor
-"
-"
-searchWith
+searchForKeywordsWith
 "
 "
 searchWithHeader
+"
+"
+searchSettings
 "
 ]
 ;
