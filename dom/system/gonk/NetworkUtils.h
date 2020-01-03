@@ -1743,6 +1743,13 @@ wifiOperationModeSuccess
 PARAMS
 )
 ;
+static
+void
+setDnsSuccess
+(
+PARAMS
+)
+;
 #
 undef
 PARAMS
