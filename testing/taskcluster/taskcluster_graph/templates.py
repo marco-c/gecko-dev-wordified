@@ -65,8 +65,13 @@ to
     
 for
 key
+value
 in
 source
+.
+items
+(
+)
 :
         
 #
@@ -79,10 +84,7 @@ types
 if
 type
 (
-source
-[
-key
-]
+value
 )
 !
 =
@@ -116,20 +118,14 @@ dict
 if
 isinstance
 (
-source
-[
-key
-]
+value
 dict
 )
 :
             
 merge_to
 (
-source
-[
-key
-]
+value
 dest
 [
 key
@@ -141,10 +137,7 @@ continue
 if
 isinstance
 (
-source
-[
-key
-]
+value
 list
 )
 :
