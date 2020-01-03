@@ -1955,17 +1955,11 @@ region
 .
 Transform
 (
-gfx
-:
-:
-To3DMatrix
-(
 mLayer
 -
 >
 GetTransform
 (
-)
 )
 )
 ;

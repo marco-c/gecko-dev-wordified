@@ -148,17 +148,6 @@ etc
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-/
-/
-for
-ToMatrix4x4
-#
-include
-"
 gfxPrefs
 .
 h

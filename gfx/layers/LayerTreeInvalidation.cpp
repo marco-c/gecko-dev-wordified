@@ -2254,17 +2254,11 @@ result
 .
 Transform
 (
-gfx
-:
-:
-To3DMatrix
-(
 mLayer
 -
 >
 GetLocalTransform
 (
-)
 )
 )
 ;
