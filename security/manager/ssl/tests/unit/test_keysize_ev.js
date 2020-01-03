@@ -623,9 +623,6 @@ are
 greater
 *
 than
-or
-equal
-to
 the
 requirements
 for

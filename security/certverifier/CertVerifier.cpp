@@ -882,7 +882,7 @@ static
 const
 unsigned
 int
-MINIMUM_NON_ECC_BITS
+MIN_RSA_BITS
 =
 2048
 ;
@@ -890,7 +890,7 @@ static
 const
 unsigned
 int
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 =
 1024
 ;
@@ -1329,7 +1329,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 nullptr
 builtChain
 )
@@ -1462,7 +1462,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 mPinningMode
-MINIMUM_NON_ECC_BITS
+MIN_RSA_BITS
 hostname
 builtChain
 )
@@ -1569,7 +1569,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 mPinningMode
-MINIMUM_NON_ECC_BITS
+MIN_RSA_BITS
 hostname
 builtChain
 )
@@ -1668,7 +1668,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 mPinningMode
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 hostname
 builtChain
 )
@@ -1769,7 +1769,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 nullptr
 builtChain
 )
@@ -1816,7 +1816,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 nullptr
 builtChain
 )
@@ -1944,7 +1944,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 nullptr
 builtChain
 )
@@ -2037,7 +2037,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 nullptr
 builtChain
 )
@@ -2206,7 +2206,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 nullptr
 builtChain
 )
@@ -2248,7 +2248,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 nullptr
 builtChain
 )
@@ -2290,7 +2290,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
-MINIMUM_NON_ECC_BITS_WEAK
+MIN_RSA_BITS_WEAK
 nullptr
 builtChain
 )

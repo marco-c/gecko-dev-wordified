@@ -374,7 +374,7 @@ PinningMode
 pinningMode
 unsigned
 int
-minimumNonECCKeyBits
+minRSABits
 /
 *
 optional
@@ -825,7 +825,7 @@ mPinningMode
 const
 unsigned
 int
-mMinimumNonECCBits
+mMinRSABits
 ;
 const
 char

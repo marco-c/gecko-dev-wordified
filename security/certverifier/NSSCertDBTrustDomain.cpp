@@ -367,7 +367,7 @@ PinningMode
 pinningMode
 unsigned
 int
-minimumNonECCKeyBits
+minRSABits
 /
 *
 optional
@@ -411,9 +411,9 @@ mPinningMode
 (
 pinningMode
 )
-mMinimumNonECCBits
+mMinRSABits
 (
-minimumNonECCKeyBits
+minRSABits
 )
 mHostname
 (
@@ -4902,7 +4902,7 @@ if
 (
 modulusSizeInBits
 <
-mMinimumNonECCBits
+mMinRSABits
 )
 {
 return
