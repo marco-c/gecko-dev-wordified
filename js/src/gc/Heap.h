@@ -3165,11 +3165,6 @@ unsetAllocDuringSweep
 (
 )
 ;
-void
-unmarkAll
-(
-)
-;
 }
 ;
 struct

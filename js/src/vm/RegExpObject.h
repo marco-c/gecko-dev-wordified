@@ -1173,6 +1173,11 @@ clearMarked
 (
 )
 {
+JS_ASSERT
+(
+marked_
+)
+;
 marked_
 =
 false
