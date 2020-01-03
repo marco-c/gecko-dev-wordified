@@ -4658,7 +4658,12 @@ OtherPid
 )
 =
 =
-kCurrentProcessId
+base
+:
+:
+GetCurrentProcId
+(
+)
 ;
 }
 /

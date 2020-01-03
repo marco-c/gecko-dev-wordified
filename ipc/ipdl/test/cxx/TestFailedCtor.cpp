@@ -635,10 +635,12 @@ OtherPid
 )
 !
 =
-ipc
+base
 :
 :
-kCurrentProcessId
+GetCurrentProcId
+(
+)
 )
 /
 /

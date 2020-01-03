@@ -1349,7 +1349,12 @@ if
 aTargetProcessId
 =
 =
-kCurrentProcessId
+base
+:
+:
+GetCurrentProcId
+(
+)
 )
 {
 return
@@ -1640,7 +1645,12 @@ kInvalidProcessId
 aOtherPid
 !
 =
-kCurrentProcessId
+base
+:
+:
+GetCurrentProcId
+(
+)
 )
 {
 ScopedProcessHandle

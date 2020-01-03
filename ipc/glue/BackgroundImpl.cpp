@@ -10201,7 +10201,12 @@ parentActor
 >
 SetOtherProcessId
 (
-kCurrentProcessId
+base
+:
+:
+GetCurrentProcId
+(
+)
 )
 ;
 /
