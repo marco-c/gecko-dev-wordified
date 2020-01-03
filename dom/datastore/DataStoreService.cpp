@@ -6755,6 +6755,9 @@ nsString
 >
 dbs
 ;
+if
+(
+!
 dbs
 .
 AppendElement
@@ -6764,7 +6767,12 @@ NS_LITERAL_STRING
 DATASTOREDB_REVISION
 )
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 return
 db
 -

@@ -1712,6 +1712,9 @@ rv
 StringOrStringSequence
 objectStores
 ;
+if
+(
+!
 objectStores
 .
 RawSetAsStringSequence
@@ -1722,7 +1725,12 @@ AppendElements
 (
 mObjectStores
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 nsRefPtr
 <
 IDBTransaction
