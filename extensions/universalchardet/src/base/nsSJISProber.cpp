@@ -177,14 +177,12 @@ mContextAnalyser
 .
 Reset
 (
-mIsPreferredLanguage
 )
 ;
 mDistributionAnalyser
 .
 Reset
 (
-mIsPreferredLanguage
 )
 ;
 }
