@@ -257,8 +257,6 @@ Exception
 {
 Cursor
 c
-=
-null
 ;
 String
 guid
@@ -287,15 +285,6 @@ PARAM_IS_SYNC
 1
 "
 )
-guid
-+
-"
-!
-=
-?
-AND
-"
-+
 guid
 +
 "
@@ -383,11 +372,6 @@ BrowserContract
 Bookmarks
 .
 UNFILED_FOLDER_GUID
-BrowserContract
-.
-Bookmarks
-.
-READING_LIST_FOLDER_GUID
 }
 )
 ;
