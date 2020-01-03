@@ -543,7 +543,7 @@ gStyleCache
 -
 >
 mNumberControlSheet
-false
+true
 )
 ;
 }
