@@ -672,6 +672,7 @@ aObj
 )
 {
 }
+virtual
 bool
 ToObject
 (
@@ -688,6 +689,7 @@ JSObject
 >
 aObjp
 )
+MOZ_OVERRIDE
 ;
 private
 :
