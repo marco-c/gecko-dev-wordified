@@ -954,6 +954,12 @@ kUnsequenced
 )
 ;
 }
+nsCSSProperty
+TransitionProperty
+(
+)
+const
+;
 bool
 IsUsingCustomCompositeOrder
 (
