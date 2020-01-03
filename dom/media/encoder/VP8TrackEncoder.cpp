@@ -2978,6 +2978,9 @@ Category
 OTHER
 )
 ;
+bool
+EOS
+;
 {
 /
 /
@@ -3094,6 +3097,10 @@ AppendFrom
 &
 mRawSegment
 )
+;
+EOS
+=
+mEndOfStream
 ;
 }
 VideoSegment
@@ -3559,7 +3566,7 @@ encoder
 .
 if
 (
-mEndOfStream
+EOS
 )
 {
 VP8LOG
