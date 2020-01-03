@@ -9460,10 +9460,6 @@ void
 *
 entrySP_
 ;
-SPSProfiler
-*
-profiler_
-;
 void
 *
 resumePC_
