@@ -607,6 +607,7 @@ a
 valid
 one
 .
+explicit
 TaggedUWord
 (
 uintptr_t
@@ -1276,6 +1277,7 @@ rw
 -
 lock
 .
+explicit
 LUL
 (
 void

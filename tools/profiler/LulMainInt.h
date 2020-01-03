@@ -2142,6 +2142,7 @@ denote
 this
 case
 .
+explicit
 SecMap
 (
 void

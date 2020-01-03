@@ -3876,6 +3876,7 @@ PriMap
 {
 public
 :
+explicit
 PriMap
 (
 void
@@ -7048,6 +7049,7 @@ CFICache
 {
 public
 :
+explicit
 CFICache
 (
 PriMap
