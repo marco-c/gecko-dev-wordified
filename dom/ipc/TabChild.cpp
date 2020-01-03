@@ -15582,6 +15582,9 @@ cpows
 ;
 if
 (
+aCpows
+&
+&
 !
 Manager
 (
@@ -15704,6 +15707,9 @@ cpows
 ;
 if
 (
+aCpows
+&
+&
 !
 Manager
 (
