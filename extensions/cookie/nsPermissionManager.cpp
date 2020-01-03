@@ -1861,6 +1861,7 @@ manager
 .
 *
 /
+explicit
 DeleteFromMozHostListener
 (
 nsPermissionManager
