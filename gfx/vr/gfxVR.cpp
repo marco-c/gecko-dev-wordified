@@ -706,6 +706,15 @@ one
 failed
 to
 load
+;
+otherwise
+/
+/
+we
+might
+initialize
+oculus
+twice
 bool
 useOculus050
 =
