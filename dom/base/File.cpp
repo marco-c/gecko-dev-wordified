@@ -2928,6 +2928,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 mImpl
 -
@@ -2952,6 +2953,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 mImpl
 -
@@ -4247,6 +4249,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 NS_ASSERTION
 (
@@ -4344,6 +4347,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 if
 (
@@ -5336,6 +5340,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 NS_ASSERTION
 (

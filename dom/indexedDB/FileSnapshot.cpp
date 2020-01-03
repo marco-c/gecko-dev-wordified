@@ -631,6 +631,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 AssertSanity
 (

@@ -521,6 +521,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 virtual

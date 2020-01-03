@@ -1419,6 +1419,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 void
 GetMozFullPathInternal
@@ -1430,6 +1431,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 protected
 :
@@ -1598,6 +1600,7 @@ ErrorResult
 &
 aRv
 )
+const
 =
 0
 ;
@@ -1612,6 +1615,7 @@ ErrorResult
 &
 aRv
 )
+const
 =
 0
 ;
@@ -2272,6 +2276,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 virtual
@@ -2285,6 +2290,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 virtual
@@ -4076,6 +4082,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 virtual
