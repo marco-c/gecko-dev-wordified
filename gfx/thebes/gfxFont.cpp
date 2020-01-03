@@ -18818,6 +18818,10 @@ explicitLanguage
 mStyle
 .
 language
+.
+get
+(
+)
 :
 nullptr
 charsToMergeArray

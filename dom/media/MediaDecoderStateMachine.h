@@ -2697,8 +2697,11 @@ void
 OnAudioPopped
 (
 const
+nsRefPtr
+<
 MediaData
-*
+>
+&
 aSample
 )
 ;
@@ -2706,8 +2709,11 @@ void
 OnVideoPopped
 (
 const
+nsRefPtr
+<
 MediaData
-*
+>
+&
 aSample
 )
 ;

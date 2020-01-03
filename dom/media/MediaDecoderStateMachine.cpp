@@ -4796,8 +4796,11 @@ MediaDecoderStateMachine
 OnAudioPopped
 (
 const
+nsRefPtr
+<
 MediaData
-*
+>
+&
 aSample
 )
 {
@@ -4856,8 +4859,11 @@ MediaDecoderStateMachine
 OnVideoPopped
 (
 const
+nsRefPtr
+<
 MediaData
-*
+>
+&
 aSample
 )
 {
