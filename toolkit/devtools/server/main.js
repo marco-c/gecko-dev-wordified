@@ -3842,7 +3842,6 @@ DebuggerSocket
 .
 createListener
 (
-this
 )
 ;
 listener
