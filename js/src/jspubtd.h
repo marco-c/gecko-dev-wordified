@@ -239,12 +239,6 @@ OwningCompileOptions
 )
 ;
 class
-JS_FRIEND_API
-(
-TransitiveCompileOptions
-)
-;
-class
 JS_PUBLIC_API
 (
 CompartmentOptions
