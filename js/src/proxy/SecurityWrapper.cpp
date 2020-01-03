@@ -409,7 +409,7 @@ wrappers
 we
 run
 the
-DefaultValue
+OrdinaryToPrimitive
 algorithm
 on
 the
@@ -469,7 +469,7 @@ vp
 const
 {
 return
-DefaultValue
+OrdinaryToPrimitive
 (
 cx
 wrapper

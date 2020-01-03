@@ -2141,9 +2141,6 @@ true
 ;
 }
 return
-JS
-:
-:
 OrdinaryToPrimitive
 (
 cx

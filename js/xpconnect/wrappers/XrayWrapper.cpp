@@ -15046,7 +15046,7 @@ we
 /
 run
 the
-DefaultValue
+OrdinaryToPrimitive
 algorithm
 directly
 on
@@ -15093,10 +15093,7 @@ to
 them
 .
 return
-js
-:
-:
-DefaultValue
+OrdinaryToPrimitive
 (
 cx
 wrapper
