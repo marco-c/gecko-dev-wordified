@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -1061,6 +1070,7 @@ reset
 )
 ;
 }
+MOZ_IMPLICIT
 Maybe
 (
 Nothing
