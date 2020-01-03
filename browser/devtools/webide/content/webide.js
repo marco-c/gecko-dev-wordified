@@ -1682,13 +1682,6 @@ break
 ;
 case
 "
-runtime
--
-targets
-"
-:
-case
-"
 project
 -
 removed
@@ -1698,7 +1691,6 @@ projectList
 .
 update
 (
-details
 )
 ;
 break
@@ -1749,6 +1741,7 @@ projectList
 .
 update
 (
+details
 )
 ;
 break
