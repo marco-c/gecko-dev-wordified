@@ -2482,6 +2482,17 @@ aGamepadEvent
 )
 override
 ;
+virtual
+bool
+RecvTestGraphicsDeviceReset
+(
+const
+uint32_t
+&
+aResetReason
+)
+override
+;
 private
 :
 virtual
