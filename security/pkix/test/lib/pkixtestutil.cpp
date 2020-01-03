@@ -1217,7 +1217,6 @@ prefixed
 )
 ;
 }
-static
 ByteString
 Boolean
 (
@@ -1250,7 +1249,6 @@ encodedValue
 )
 ;
 }
-static
 ByteString
 Integer
 (
