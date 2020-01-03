@@ -1439,9 +1439,6 @@ map
 mNPNToken
 )
 ;
-return
-false
-;
 }
 void
 AltSvcMapping
