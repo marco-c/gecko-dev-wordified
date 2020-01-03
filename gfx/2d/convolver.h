@@ -1559,8 +1559,6 @@ unsigned
 char
 *
 output
-bool
-use_sse2
 )
 ;
 }
