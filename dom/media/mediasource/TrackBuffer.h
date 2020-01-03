@@ -157,6 +157,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1032,7 +1041,10 @@ only
 int64_t
 mLastStartTimestamp
 ;
+Maybe
+<
 int64_t
+>
 mLastEndTimestamp
 ;
 /
