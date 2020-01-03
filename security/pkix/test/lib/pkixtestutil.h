@@ -547,6 +547,13 @@ ByteString
 bs
 )
 ;
+ByteString
+InputToByteString
+(
+Input
+input
+)
+;
 /
 /
 python
