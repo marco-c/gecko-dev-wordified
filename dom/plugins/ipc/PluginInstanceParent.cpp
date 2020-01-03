@@ -9079,10 +9079,7 @@ mSharedSurfaceDib
 .
 ShareToProcess
 (
-mParent
--
->
-ChildProcessHandle
+OtherProcess
 (
 )
 &

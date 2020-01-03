@@ -223,7 +223,7 @@ child
 PluginModuleChild
 :
 :
-current
+GetChrome
 (
 )
 ;
