@@ -9660,10 +9660,6 @@ EmptyString
 )
 UINT64_MAX
 INT64_MAX
-BlobDirState
-:
-:
-eUnknownIfDir
 )
 mIsSlice
 (

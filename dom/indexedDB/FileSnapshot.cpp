@@ -237,10 +237,6 @@ aMetadataParams
 LastModified
 (
 )
-BlobDirState
-:
-:
-eUnknownIfDir
 )
 mFile
 (
