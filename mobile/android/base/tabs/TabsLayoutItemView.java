@@ -257,7 +257,7 @@ ImageView
 mThumbnail
 ;
 private
-ImageButton
+ImageView
 mCloseButton
 ;
 private
@@ -320,6 +320,17 @@ STATE_CHECKED
 }
 return
 drawableState
+;
+}
+Override
+public
+boolean
+isEnabled
+(
+)
+{
+return
+true
 ;
 }
 Override
@@ -488,7 +499,7 @@ thumbnail
 mCloseButton
 =
 (
-ImageButton
+ImageView
 )
 findViewById
 (
