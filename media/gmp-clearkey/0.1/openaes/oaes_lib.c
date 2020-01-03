@@ -527,15 +527,6 @@ h
 #
 include
 <
-sys
-/
-timeb
-.
-h
->
-#
-include
-<
 string
 .
 h
@@ -5072,6 +5063,8 @@ return
 OAES_RET_SUCCESS
 ;
 }
+/
+*
 #
 ifdef
 OAES_HAVE_ISAAC
@@ -5344,6 +5337,8 @@ endif
 /
 /
 OAES_HAVE_ISAAC
+*
+/
 static
 OAES_RET
 oaes_key_destroy
