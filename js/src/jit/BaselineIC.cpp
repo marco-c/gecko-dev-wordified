@@ -22491,9 +22491,6 @@ getClass
 -
 >
 resolve
-!
-=
-JS_ResolveStub
 )
 return
 false
@@ -23352,9 +23349,6 @@ If
 object
 has
 a
-non
--
-default
 resolve
 hook
 don
@@ -23372,9 +23366,6 @@ getClass
 -
 >
 resolve
-!
-=
-JS_ResolveStub
 )
 return
 false
@@ -23561,9 +23552,6 @@ getClass
 -
 >
 resolve
-!
-=
-JS_ResolveStub
 )
 return
 false

@@ -4109,7 +4109,7 @@ JSProto_Object
 )
 |
 JSCLASS_BACKGROUND_FINALIZE
-JS_PropertyStub
+nullptr
 /
 *
 addProperty
@@ -4130,7 +4130,12 @@ setProperty
 /
 args_enumerate
 args_resolve
-JS_ConvertStub
+nullptr
+/
+*
+convert
+*
+/
 ArgumentsObject
 :
 :
@@ -4219,7 +4224,7 @@ JSProto_Object
 )
 |
 JSCLASS_BACKGROUND_FINALIZE
-JS_PropertyStub
+nullptr
 /
 *
 addProperty
@@ -4240,7 +4245,12 @@ setProperty
 /
 strictargs_enumerate
 strictargs_resolve
-JS_ConvertStub
+nullptr
+/
+*
+convert
+*
+/
 ArgumentsObject
 :
 :
