@@ -965,10 +965,6 @@ Appearance
 Normal
 )
 ;
-LaunchCaretTimeoutTimer
-(
-)
-;
 }
 else
 {
@@ -984,6 +980,10 @@ NormalNotShown
 )
 ;
 }
+LaunchCaretTimeoutTimer
+(
+)
+;
 mSecondCaret
 -
 >
