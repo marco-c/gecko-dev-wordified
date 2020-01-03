@@ -152,6 +152,7 @@ specification
 signature
 :
 {
+sha1WithRSAEncryption
 sha256WithRSAEncryption
 ecdsaWithSHA256
 }
@@ -2121,7 +2122,34 @@ algorithm
 =
 None
     
+name
+=
+None
+    
 if
+string
+=
+=
+'
+sha1WithRSAEncryption
+'
+:
+        
+name
+=
+'
+SHA
+-
+1
+'
+        
+algorithm
+=
+rfc2459
+.
+sha1WithRSAEncryption
+    
+elif
 string
 =
 =
@@ -2129,6 +2157,14 @@ string
 sha256WithRSAEncryption
 '
 :
+        
+name
+=
+'
+SHA
+-
+256
+'
         
 algorithm
 =
@@ -2161,6 +2197,45 @@ string
 ecdsaWithSHA256
 '
 :
+        
+#
+Note
+that
+this
+value
+is
+only
+used
+by
+pykey
+.
+py
+to
+tell
+if
+        
+#
+ECDSA
+is
+allowed
+.
+It
+does
+not
+conform
+to
+the
+pyECC
+syntax
+.
+        
+name
+=
+'
+SHA
+-
+256
+'
         
 algorithm
 =
@@ -2205,7 +2280,10 @@ algorithm
 )
     
 return
+(
 algorithmIdentifier
+name
+)
 def
 datetimeToTime
 (
@@ -4586,7 +4664,10 @@ self
 )
 :
         
+(
 signatureOID
+hashAlg
+)
 =
 self
 .
@@ -4818,6 +4899,7 @@ issuerKey
 sign
 (
 tbsDER
+hashAlg
 )
 )
         

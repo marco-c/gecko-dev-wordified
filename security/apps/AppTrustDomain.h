@@ -386,6 +386,14 @@ pkix
 :
 EndEntityOrCA
 endEntityOrCA
+mozilla
+:
+:
+pkix
+:
+:
+Time
+notBefore
 )
 override
 ;

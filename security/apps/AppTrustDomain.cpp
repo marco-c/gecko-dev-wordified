@@ -1475,6 +1475,7 @@ CheckSignatureDigestAlgorithm
 (
 DigestAlgorithm
 EndEntityOrCA
+Time
 )
 {
 /

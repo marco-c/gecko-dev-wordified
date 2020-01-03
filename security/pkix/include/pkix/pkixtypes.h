@@ -2123,6 +2123,8 @@ DigestAlgorithm
 digestAlg
 EndEntityOrCA
 endEntityOrCA
+Time
+notBefore
 )
 =
 0

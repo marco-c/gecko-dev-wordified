@@ -848,6 +848,7 @@ CheckSignatureDigestAlgorithm
 (
 DigestAlgorithm
 EndEntityOrCA
+Time
 )
 override
 {
@@ -1067,6 +1068,7 @@ CheckSignatureDigestAlgorithm
 (
 DigestAlgorithm
 EndEntityOrCA
+Time
 )
 override
 {

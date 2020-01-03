@@ -128,6 +128,8 @@ uint32_t
 certShortLifetimeInDays
 PinningMode
 pinningMode
+SHA1Mode
+sha1Mode
 )
 :
 mozilla
@@ -143,6 +145,7 @@ osc
 ogc
 certShortLifetimeInDays
 pinningMode
+sha1Mode
 )
 {
 }
