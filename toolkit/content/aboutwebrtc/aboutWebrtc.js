@@ -445,7 +445,7 @@ textContent
 getString
 (
 "
-cannot_retieve_log
+cannot_retrieve_log
 "
 )
 ;
