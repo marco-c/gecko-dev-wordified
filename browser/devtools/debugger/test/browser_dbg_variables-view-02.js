@@ -34,7 +34,7 @@ zero
 Tests
 that
 creating
-collapsing
+collpasing
 and
 expanding
 variables
@@ -198,7 +198,7 @@ scope
 is
 (
 duplVar
-testVar
+null
 "
 Shouldn
 '
