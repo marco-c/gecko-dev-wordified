@@ -68,7 +68,7 @@ USE_DEBUG
 #
 define
 USE_DEBUG
-0
+1
 #
 if
 !
