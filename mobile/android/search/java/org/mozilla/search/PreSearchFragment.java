@@ -1224,7 +1224,7 @@ R
 .
 drawable
 .
-search_fox
+icon_search_empty_firefox
 )
 ;
 (
