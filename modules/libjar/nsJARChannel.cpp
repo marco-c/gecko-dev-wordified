@@ -1882,6 +1882,8 @@ nsJARChannel
 :
 LookupFile
 (
+bool
+aAllowAsync
 )
 {
 LOG
@@ -2369,6 +2371,20 @@ fd
 #
 endif
 }
+}
+if
+(
+!
+aAllowAsync
+)
+{
+mJarFile
+=
+nullptr
+;
+return
+NS_OK
+;
 }
 mOpeningRemote
 =
@@ -4376,6 +4392,7 @@ rv
 =
 LookupFile
 (
+false
 )
 ;
 if
@@ -4560,6 +4577,7 @@ rv
 =
 LookupFile
 (
+true
 )
 ;
 if
@@ -5042,6 +5060,7 @@ rv
 =
 LookupFile
 (
+false
 )
 ;
 if
