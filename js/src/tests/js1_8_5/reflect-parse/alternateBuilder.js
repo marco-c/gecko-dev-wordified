@@ -364,10 +364,9 @@ val
 }
 expressionStatement
 :
-function
-(
 expr
-)
+=
+>
 expr
 conditionalExpression
 :
@@ -1050,9 +1049,10 @@ letExpression
 reject
 emptyStatement
 :
-function
 (
 )
+=
+>
 [
 "
 EmptyStmt
@@ -1457,9 +1457,10 @@ expr
 }
 debuggerStatement
 :
-function
 (
 )
+=
+>
 [
 "
 DebuggerStmt

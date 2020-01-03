@@ -169,9 +169,10 @@ message
 }
 toString
 :
-function
 (
 )
+=
+>
 "
 [
 object
