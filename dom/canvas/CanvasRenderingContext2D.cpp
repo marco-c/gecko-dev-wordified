@@ -726,6 +726,17 @@ mozilla
 /
 dom
 /
+CanvasPath
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLImageElement
 .
 h
