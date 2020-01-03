@@ -1050,7 +1050,7 @@ ProfilerMarker
 :
 SetGeneration
 (
-int
+uint32_t
 aGenID
 )
 {

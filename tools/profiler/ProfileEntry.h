@@ -774,7 +774,7 @@ has
 wrapped
 around
 .
-int
+uint32_t
 mGeneration
 ;
 /
@@ -1042,17 +1042,6 @@ bufferGeneration
 )
 const
 {
-MOZ_ASSERT
-(
-mBuffer
--
->
-mGeneration
->
-=
-0
-)
-;
 return
 mBuffer
 -
