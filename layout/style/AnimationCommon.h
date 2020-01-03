@@ -1326,13 +1326,6 @@ Animation
 >
 AnimationPtrArray
 ;
-enum
-EnsureStyleRuleFlags
-{
-EnsureStyleRule_IsThrottled
-EnsureStyleRule_IsNotThrottled
-}
-;
 struct
 AnimationCollection
 :
@@ -1491,8 +1484,6 @@ EnsureStyleRuleFor
 (
 TimeStamp
 aRefreshTime
-EnsureStyleRuleFlags
-aFlags
 )
 ;
 enum
