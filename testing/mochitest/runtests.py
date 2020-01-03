@@ -15448,6 +15448,16 @@ L42
     
 debuggerInfo
 =
+None
+    
+if
+options
+.
+debugger
+:
+        
+debuggerInfo
+=
 mozdebug
 .
 get_debugger_info
@@ -15455,11 +15465,11 @@ get_debugger_info
 options
 .
 debugger
-                                              
+                                                  
 options
 .
 debuggerArgs
-                                              
+                                                  
 options
 .
 debuggerInteractive
