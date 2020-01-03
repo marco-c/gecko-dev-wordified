@@ -635,7 +635,7 @@ AppendPrintf
 \
 \
 %
-hX
+hx
 "
 *
 in
@@ -1193,7 +1193,7 @@ AppendPrintf
 \
 \
 %
-hX
+hx
 "
 *
 in
@@ -1283,7 +1283,7 @@ AppendPrintf
 \
 \
 %
-hX
+hx
 "
 *
 in
