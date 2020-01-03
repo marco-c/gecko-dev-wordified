@@ -11083,6 +11083,9 @@ return
 true
 ;
 }
+#
+ifdef
+JS_TRACE_LOGGING
 static
 bool
 EnableTraceLogger
@@ -11201,6 +11204,8 @@ return
 true
 ;
 }
+#
+endif
 #
 ifdef
 DEBUG
@@ -17006,6 +17011,9 @@ tasks
 .
 "
 )
+#
+ifdef
+JS_TRACE_LOGGING
 JS_FN_HELP
 (
 "
@@ -17071,6 +17079,8 @@ mainThread
 .
 "
 )
+#
+endif
 JS_FN_HELP
 (
 "
