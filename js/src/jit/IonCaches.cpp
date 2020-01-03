@@ -2739,6 +2739,7 @@ entry
 init
 (
 code
+code
 -
 >
 raw
@@ -2844,6 +2845,7 @@ entry
 .
 init
 (
+code
 code
 -
 >
