@@ -376,6 +376,9 @@ fontinspector
 "
 layoutview
 "
+"
+animationinspector
+"
 ]
 ;
 /
