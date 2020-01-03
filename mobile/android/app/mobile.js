@@ -5140,9 +5140,9 @@ ui
 .
 zoomedview
 .
-enabled
+disabled
 "
-true
+false
 )
 ;
 pref
