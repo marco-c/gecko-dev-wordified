@@ -485,7 +485,7 @@ true
 .
 ruleview
 -
-propertycontainer
+propertyvaluecontainer
 >
 .
 ruleview
@@ -752,7 +752,7 @@ namecontainer
 .
 ruleview
 -
-propertycontainer
+propertyvaluecontainer
 .
 ruleview
 -
@@ -1173,7 +1173,7 @@ right
 .
 ruleview
 -
-property
+propertycontainer
 >
 *
 {
@@ -1245,7 +1245,7 @@ propertyname
 .
 ruleview
 -
-propertycontainer
+propertyvaluecontainer
 >
 .
 ruleview
@@ -1275,7 +1275,7 @@ propertyname
 .
 ruleview
 -
-propertycontainer
+propertyvaluecontainer
 :
 hover
 >
