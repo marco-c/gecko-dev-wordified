@@ -10752,6 +10752,13 @@ _target
 .
 client
 ;
+let
+pseudoClasses
+=
+element
+.
+pseudoClassLocks
+;
 if
 (
 !
@@ -10772,6 +10779,7 @@ pageStyle
 addNewRule
 (
 element
+pseudoClasses
 )
 .
 then
