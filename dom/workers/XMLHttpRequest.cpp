@@ -9852,6 +9852,8 @@ ThrowUncatchableException
 (
 )
 ;
+return
+;
 }
 if
 (
