@@ -59059,7 +59059,10 @@ module
 LifoAlloc
 lifo
 (
-LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+TempAllocator
+:
+:
+PreferredLifoChunkSize
 )
 ;
 TempAllocator
