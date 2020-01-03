@@ -29352,6 +29352,7 @@ TempAllocator
 &
 alloc
 )
+MOZ_OVERRIDE
 ;
 void
 printOpcode
