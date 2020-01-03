@@ -272,6 +272,8 @@ DEPRECATION_HINTS
     
 SPECIAL_VARIABLES
     
+SUBCONTEXTS
+    
 TemplateContext
 )
 if
@@ -766,6 +768,23 @@ key
 if
 key
 in
+SUBCONTEXTS
+:
+            
+return
+self
+.
+_create_subcontext
+(
+SUBCONTEXTS
+[
+key
+]
+)
+        
+if
+key
+in
 self
 .
 templates
@@ -810,6 +829,10 @@ or
 key
 in
 FUNCTIONS
+or
+key
+in
+SUBCONTEXTS
 :
             
 raise
@@ -2164,6 +2187,59 @@ self
 _context
 .
 current_path
+    
+memoize
+    
+def
+_create_subcontext
+(
+self
+cls
+)
+:
+        
+"
+"
+"
+Return
+a
+function
+object
+that
+creates
+SubContext
+instances
+.
+"
+"
+"
+        
+def
+fn
+(
+*
+args
+*
+*
+kwargs
+)
+:
+            
+return
+cls
+(
+self
+.
+_context
+*
+args
+*
+*
+kwargs
+)
+        
+return
+fn
     
 memoize
     
@@ -8145,18 +8221,29 @@ context
 objdir
 )
 )
+            
+sandbox
+.
+subcontexts
+.
+append
+(
+gyp_context
+)
         
 yield
 context
         
 for
-gyp_context
+subcontext
 in
-gyp_contexts
+sandbox
+.
+subcontexts
 :
             
 yield
-gyp_context
+subcontext
         
 #
 Traverse
