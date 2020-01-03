@@ -25325,6 +25325,7 @@ mozilla
 :
 Telemetry
 :
+:
 E10S_STILL_ACCEPTED_FROM_PROMPT
 gBrowserTabsRemoteAutostart
 )
