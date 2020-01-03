@@ -3346,6 +3346,11 @@ gcPreserveJitCode
 ;
 }
 void
+sweepAfterMinorGC
+(
+)
+;
+void
 sweepInnerViews
 (
 )
