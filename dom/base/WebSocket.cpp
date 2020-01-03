@@ -11683,7 +11683,7 @@ WebSocket
 :
 Send
 (
-File
+Blob
 &
 aData
 ErrorResult

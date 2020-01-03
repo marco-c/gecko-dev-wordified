@@ -932,7 +932,7 @@ ImageCapture
 :
 PostBlobEvent
 (
-File
+Blob
 *
 aBlob
 )

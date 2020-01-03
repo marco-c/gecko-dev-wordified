@@ -296,7 +296,7 @@ the
 parameter
 *
 param
-aBlob
+aFile
 the
 file
 to
@@ -328,7 +328,7 @@ dom
 :
 File
 *
-aBlob
+aFile
 )
 =
 0
@@ -841,7 +841,7 @@ dom
 :
 File
 *
-aBlob
+aFile
 )
 override
 ;

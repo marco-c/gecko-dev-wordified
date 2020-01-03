@@ -7508,13 +7508,13 @@ picture
 }
 nsRefPtr
 <
-File
+Blob
 >
 blob
 =
 static_cast
 <
-File
+Blob
 *
 >
 (

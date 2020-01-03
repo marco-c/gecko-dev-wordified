@@ -1002,7 +1002,7 @@ nsTArray
 <
 nsRefPtr
 <
-File
+Blob
 >
 >
 &
@@ -2406,7 +2406,7 @@ nsTArray
 <
 nsRefPtr
 <
-File
+Blob
 >
 >
 &
