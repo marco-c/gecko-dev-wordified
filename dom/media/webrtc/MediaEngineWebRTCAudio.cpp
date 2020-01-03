@@ -368,7 +368,7 @@ Clear
 (
 )
 ;
-moz_free
+free
 (
 mSaved
 )
@@ -398,7 +398,7 @@ size
 0
 )
 {
-moz_free
+free
 (
 mPlayoutFifo
 -
@@ -2864,7 +2864,7 @@ Size
 1
 )
 {
-moz_free
+free
 (
 gFarendObserver
 -
@@ -2960,7 +2960,7 @@ mPlayoutDelay
 length
 )
 ;
-moz_free
+free
 (
 buffer
 )

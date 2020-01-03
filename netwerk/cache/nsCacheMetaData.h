@@ -148,7 +148,7 @@ mMetaSize
 =
 0
 ;
-moz_free
+free
 (
 mBuffer
 )

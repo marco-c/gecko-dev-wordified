@@ -3500,7 +3500,7 @@ AutoFreeBuffer
 (
 )
 {
-moz_free
+free
 (
 mBuffer
 )

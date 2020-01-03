@@ -2909,7 +2909,7 @@ size_t
 )
 )
 moz_xrealloc
-moz_free
+free
 }
 ;
 static

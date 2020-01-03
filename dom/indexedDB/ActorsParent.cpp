@@ -68249,7 +68249,7 @@ pointer
 class
 that
 calls
-moz_free
+free
 so
 we
 need
@@ -68276,7 +68276,7 @@ uncompressedLength
 ;
 /
 /
-moz_malloc
+malloc
 is
 equivalent
 to
@@ -68310,7 +68310,7 @@ char
 *
 >
 (
-moz_malloc
+malloc
 (
 compressedLength
 )
@@ -68413,7 +68413,7 @@ rv
 )
 )
 {
-moz_free
+free
 (
 compressed
 )

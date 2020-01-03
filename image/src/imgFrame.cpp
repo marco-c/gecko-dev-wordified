@@ -940,7 +940,7 @@ IsImageCompleteInternal
 ;
 #
 endif
-moz_free
+free
 (
 mPalettedImageData
 )
@@ -1240,7 +1240,7 @@ mVBufPtr
 =
 nullptr
 ;
-moz_free
+free
 (
 mPalettedImageData
 )
@@ -1574,7 +1574,7 @@ uint8_t
 *
 >
 (
-moz_malloc
+malloc
 (
 PaletteDataLength
 (
@@ -1600,7 +1600,7 @@ mPalettedImageData
 NS_WARNING
 (
 "
-moz_malloc
+malloc
 for
 paletted
 image

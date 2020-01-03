@@ -254,9 +254,11 @@ we
 need
 to
 use
-moz_free
+free
 (
 )
+not
+delete
 uint32_t
 mSamplesSaved
 ;

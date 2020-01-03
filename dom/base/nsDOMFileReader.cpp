@@ -1760,7 +1760,7 @@ mFileData
 char
 *
 )
-moz_realloc
+realloc
 (
 mFileData
 mDataLen

@@ -971,7 +971,7 @@ zeroBuffer
 uint8_t
 *
 )
-moz_calloc
+calloc
 (
 size
 1

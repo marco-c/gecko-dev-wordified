@@ -277,7 +277,7 @@ _retval
 char
 *
 )
-moz_malloc
+malloc
 (
 *
 aOutLen
@@ -339,7 +339,7 @@ return
 NS_OK
 ;
 }
-moz_free
+free
 (
 *
 _retval
@@ -438,7 +438,7 @@ rv
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-moz_free
+free
 (
 str
 )
@@ -483,7 +483,7 @@ _retval
 char
 *
 )
-moz_malloc
+malloc
 (
 finLength
 )
@@ -524,7 +524,7 @@ aLength
 finLength
 ;
 else
-moz_free
+free
 (
 *
 _retval
@@ -706,7 +706,7 @@ rv
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-moz_free
+free
 (
 str
 )
@@ -880,7 +880,7 @@ buf
 char16_t
 *
 )
-moz_malloc
+malloc
 (
 (
 outLength
@@ -962,7 +962,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-moz_free
+free
 (
 buf
 )
@@ -1104,7 +1104,7 @@ data
 len
 )
 ;
-moz_free
+free
 (
 data
 )
@@ -1132,7 +1132,7 @@ uint8_t
 *
 >
 (
-moz_malloc
+malloc
 (
 str
 .
@@ -1302,7 +1302,7 @@ rv
 )
 )
 {
-moz_free
+free
 (
 data
 )

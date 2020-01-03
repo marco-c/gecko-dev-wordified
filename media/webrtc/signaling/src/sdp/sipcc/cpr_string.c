@@ -150,7 +150,7 @@ cpr_free
 (
 a
 )
-moz_free
+free
 (
 a
 )

@@ -649,7 +649,7 @@ FreeFileData
 (
 )
 {
-moz_free
+free
 (
 mFileData
 )

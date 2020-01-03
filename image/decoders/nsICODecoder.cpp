@@ -453,7 +453,7 @@ if
 mRow
 )
 {
-moz_free
+free
 (
 mRow
 )
@@ -3630,7 +3630,7 @@ mRow
 uint8_t
 *
 )
-moz_realloc
+realloc
 (
 mRow
 rowSize

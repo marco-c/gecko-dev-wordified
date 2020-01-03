@@ -449,7 +449,7 @@ QueuedDataMessage
 (
 )
 {
-moz_free
+free
 (
 mData
 )

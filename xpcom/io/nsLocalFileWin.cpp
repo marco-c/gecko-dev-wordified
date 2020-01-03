@@ -10887,7 +10887,7 @@ break
 }
 }
 }
-moz_free
+free
 (
 ver
 )

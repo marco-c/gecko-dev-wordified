@@ -4018,7 +4018,7 @@ the
 /
 sanitized
 copy
-moz_free
+free
 (
 (
 void
@@ -4089,7 +4089,7 @@ is
 eventually
 deleted
 via
-moz_free
+free
 (
 )
 .
@@ -4212,7 +4212,7 @@ if
 aFontData
 )
 {
-moz_free
+free
 (
 (
 void

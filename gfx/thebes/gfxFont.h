@@ -7517,7 +7517,7 @@ void
 *
 storage
 =
-moz_malloc
+malloc
 (
 size
 )
@@ -7716,7 +7716,7 @@ void
 *
 storage
 =
-moz_malloc
+malloc
 (
 size
 )
@@ -7762,7 +7762,7 @@ was
 /
 allocated
 via
-moz_malloc
+malloc
 .
 void
 operator
@@ -7773,7 +7773,7 @@ void
 p
 )
 {
-moz_free
+free
 (
 p
 )

@@ -540,7 +540,7 @@ in
 the
 allocator
 return
-moz_malloc
+malloc
 (
 aSize
 )

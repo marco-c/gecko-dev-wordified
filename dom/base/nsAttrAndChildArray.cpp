@@ -668,7 +668,7 @@ Clear
 (
 )
 ;
-moz_free
+free
 (
 mImpl
 )
@@ -3792,7 +3792,7 @@ mImpl
 mMappedAttrs
 )
 {
-moz_free
+free
 (
 mImpl
 )
@@ -3821,7 +3821,7 @@ Impl
 *
 >
 (
-moz_realloc
+realloc
 (
 mImpl
 (
@@ -4654,7 +4654,7 @@ Impl
 *
 >
 (
-moz_realloc
+realloc
 (
 mImpl
 size

@@ -72,7 +72,7 @@ and
 friends
 to
 call
-moz_malloc
+moz_xmalloc
 (
 )
 etc
@@ -121,10 +121,6 @@ moz_xcalloc
 define
 realloc
 moz_xrealloc
-#
-define
-free
-moz_free
 #
 endif
 /

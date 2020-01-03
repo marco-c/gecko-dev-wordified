@@ -7699,12 +7699,12 @@ destructor
 "
 )
 ;
-moz_free
+free
 (
 mBuffer
 )
 ;
-moz_free
+free
 (
 mDynamicOutput
 )
@@ -9068,7 +9068,7 @@ mBuffer
 uint8_t
 *
 )
-moz_realloc
+realloc
 (
 mBuffer
 mBufferSize
@@ -11619,7 +11619,7 @@ mBufferSize
 =
 kIncomingBufferStableSize
 ;
-moz_free
+free
 (
 mBuffer
 )

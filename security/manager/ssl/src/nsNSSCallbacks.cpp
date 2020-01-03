@@ -3005,7 +3005,7 @@ if
 mResultData
 )
 {
-moz_free
+free
 (
 const_cast
 <

@@ -784,7 +784,7 @@ void
 *
 storage
 =
-moz_malloc
+malloc
 (
 aSize
 +

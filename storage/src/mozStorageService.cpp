@@ -2677,13 +2677,13 @@ Note
 the
 wrappers
 for
-moz_malloc
-moz_realloc
+malloc
+realloc
 and
 moz_malloc_usable_size
-/
-/
 are
+/
+/
 necessary
 because
 the
@@ -2718,7 +2718,7 @@ need
 a
 wrapper
 for
-moz_free
+free
 .
 #
 ifdef
@@ -2925,7 +2925,7 @@ p
 =
 :
 :
-moz_malloc
+malloc
 (
 n
 )
@@ -2971,7 +2971,7 @@ p
 endif
 :
 :
-moz_free
+free
 (
 p
 )
@@ -3006,7 +3006,7 @@ pnew
 =
 :
 :
-moz_realloc
+realloc
 (
 p
 n
@@ -3055,7 +3055,7 @@ else
 return
 :
 :
-moz_realloc
+realloc
 (
 p
 n

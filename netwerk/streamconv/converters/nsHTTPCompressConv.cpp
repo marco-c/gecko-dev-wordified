@@ -866,7 +866,7 @@ unsigned
 char
 *
 )
-moz_realloc
+realloc
 (
 mInpBuffer
 mInpBufferLen
@@ -889,7 +889,7 @@ unsigned
 char
 *
 )
-moz_realloc
+realloc
 (
 mOutBuffer
 mOutBufferLen
@@ -930,7 +930,7 @@ unsigned
 char
 *
 )
-moz_malloc
+malloc
 (
 mInpBufferLen
 =
@@ -951,7 +951,7 @@ unsigned
 char
 *
 )
-moz_malloc
+malloc
 (
 mOutBufferLen
 =

@@ -2150,12 +2150,12 @@ delete
 addrElement
 ;
 }
-moz_free
+free
 (
 mHostName
 )
 ;
-moz_free
+free
 (
 mCanonicalName
 )

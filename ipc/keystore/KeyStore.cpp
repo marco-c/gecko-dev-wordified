@@ -1111,7 +1111,7 @@ data
 dataLength
 )
 ;
-moz_free
+free
 (
 data
 )
@@ -1225,7 +1225,7 @@ data
 dataLength
 )
 ;
-moz_free
+free
 (
 data
 )
@@ -1402,7 +1402,7 @@ signResult
 signResultSize
 )
 ;
-moz_free
+free
 (
 signResult
 )
@@ -2666,7 +2666,7 @@ buf
 char
 *
 )
-moz_malloc
+malloc
 (
 bufSize
 )
@@ -3963,7 +3963,7 @@ buf
 char
 *
 )
-moz_malloc
+malloc
 (
 bufSize
 )
@@ -4393,7 +4393,7 @@ buf
 uint8_t
 *
 )
-moz_malloc
+malloc
 (
 signItem
 -
@@ -6312,7 +6312,7 @@ int
 dataLength
 )
 ;
-moz_free
+free
 (
 (
 void

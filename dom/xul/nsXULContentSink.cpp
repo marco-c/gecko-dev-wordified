@@ -1104,7 +1104,7 @@ Clear
 (
 )
 ;
-moz_free
+free
 (
 mText
 )
@@ -6006,7 +6006,7 @@ mText
 char16_t
 *
 )
-moz_malloc
+malloc
 (
 sizeof
 (
@@ -6127,7 +6127,7 @@ mText
 char16_t
 *
 )
-moz_realloc
+realloc
 (
 mText
 sizeof

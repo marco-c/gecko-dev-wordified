@@ -399,7 +399,7 @@ if
 mRow
 )
 {
-moz_free
+free
 (
 mRow
 )
@@ -2802,7 +2802,7 @@ mRow
 uint8_t
 *
 )
-moz_malloc
+malloc
 (
 (
 mBIH

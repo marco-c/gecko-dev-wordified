@@ -457,7 +457,7 @@ ComputeLengthAndData
 /
 We
 use
-moz_malloc
+malloc
 here
 rather
 than
@@ -477,7 +477,7 @@ gfxUserFontEntry
 will
 be
 calling
-moz_free
+free
 /
 /
 on
@@ -489,7 +489,7 @@ aBuffer
 uint8_t
 *
 )
-moz_malloc
+malloc
 (
 aObject
 .

@@ -33487,7 +33487,7 @@ void
 *
 blobData
 =
-moz_malloc
+malloc
 (
 blobLen
 )

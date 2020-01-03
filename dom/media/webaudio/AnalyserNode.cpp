@@ -1538,7 +1538,7 @@ float
 *
 >
 (
-moz_malloc
+malloc
 (
 FftSize
 (
@@ -1729,7 +1729,7 @@ if
 allocated
 )
 {
-moz_free
+free
 (
 inputBuffer
 )

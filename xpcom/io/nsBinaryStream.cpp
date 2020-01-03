@@ -1156,7 +1156,7 @@ char16_t
 *
 >
 (
-moz_malloc
+malloc
 (
 byteCount
 )
@@ -1231,7 +1231,7 @@ copy
 temp
 )
 {
-moz_free
+free
 (
 copy
 )
@@ -3928,7 +3928,7 @@ char
 *
 >
 (
-moz_malloc
+malloc
 (
 aLength
 )
@@ -3962,7 +3962,7 @@ rv
 )
 )
 {
-moz_free
+free
 (
 s
 )
@@ -3979,7 +3979,7 @@ bytesRead
 aLength
 )
 {
-moz_free
+free
 (
 s
 )

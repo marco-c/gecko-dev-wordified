@@ -1152,7 +1152,7 @@ void
 aPtr
 )
 {
-moz_free
+free
 (
 aPtr
 )
