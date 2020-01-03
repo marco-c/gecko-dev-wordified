@@ -135,6 +135,9 @@ loop
 pinnedTab
 "
 "
+privateWindow
+"
+"
 quit
 "
 "
@@ -262,6 +265,9 @@ home
 "
 "
 pinnedTab
+"
+"
+privateWindow
 "
 "
 quit
@@ -442,6 +448,9 @@ loop
 "
 "
 pinnedTab
+"
+"
+privateWindow
 "
 "
 quit
