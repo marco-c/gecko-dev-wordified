@@ -22199,11 +22199,6 @@ WritingMode
 wm
 (
 aStyleContext
--
->
-StyleVisibility
-(
-)
 )
 ;
 return
@@ -37646,11 +37641,6 @@ WritingMode
 wm
 (
 aStyleContext
--
->
-StyleVisibility
-(
-)
 )
 ;
 if

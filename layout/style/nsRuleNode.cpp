@@ -1734,11 +1734,6 @@ WritingMode
 wm
 (
 aStyleContext
--
->
-StyleVisibility
-(
-)
 )
 ;
 if

@@ -4585,7 +4585,7 @@ mozilla
 :
 WritingMode
 (
-StyleVisibility
+StyleContext
 (
 )
 )
