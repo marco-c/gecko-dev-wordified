@@ -2743,7 +2743,7 @@ scope
 depth
 so
 that
-EmitTree
+emitTree
 can
 assert
 /
@@ -2850,11 +2850,10 @@ nullptr
 if
 (
 !
-EmitTree
-(
-cx
-&
 bce
+.
+emitTree
+(
 pn
 )
 )
