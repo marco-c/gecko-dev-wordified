@@ -171,7 +171,7 @@ dom
 /
 cache
 /
-CacheTypes
+PCacheTypes
 .
 h
 "
@@ -403,7 +403,7 @@ aStream
 void
 Serialize
 (
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 *
 aReadStreamOut
 )
@@ -411,7 +411,7 @@ aReadStreamOut
 void
 Serialize
 (
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 )
@@ -1310,7 +1310,7 @@ Inner
 :
 Serialize
 (
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 *
 aReadStreamOut
 )
@@ -1330,7 +1330,7 @@ MOZ_ASSERT
 aReadStreamOut
 )
 ;
-CacheReadStream
+PCacheReadStream
 stream
 ;
 Serialize
@@ -1354,7 +1354,7 @@ Inner
 :
 Serialize
 (
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 )
@@ -2292,7 +2292,7 @@ ReadStream
 Create
 (
 const
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 &
 aReadStreamOrVoid
 )
@@ -2306,7 +2306,7 @@ type
 )
 =
 =
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 :
 :
 Tvoid_t
@@ -2321,7 +2321,7 @@ Create
 (
 aReadStreamOrVoid
 .
-get_CacheReadStream
+get_PCacheReadStream
 (
 )
 )
@@ -2340,7 +2340,7 @@ ReadStream
 Create
 (
 const
-CacheReadStream
+PCacheReadStream
 &
 aReadStream
 )
@@ -2710,7 +2710,7 @@ ReadStream
 :
 Serialize
 (
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 *
 aReadStreamOut
 )
@@ -2730,7 +2730,7 @@ ReadStream
 :
 Serialize
 (
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 )
