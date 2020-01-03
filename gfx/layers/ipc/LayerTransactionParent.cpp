@@ -5435,6 +5435,7 @@ ClearCachedResources
 mRoot
 )
 ;
+}
 mShadowLayersManager
 -
 >
@@ -5443,7 +5444,6 @@ NotifyClearCachedResources
 this
 )
 ;
-}
 return
 true
 ;
