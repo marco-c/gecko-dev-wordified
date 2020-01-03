@@ -347,7 +347,10 @@ aCurrentTime
 )
 ;
 virtual
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )

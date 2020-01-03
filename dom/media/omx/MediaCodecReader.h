@@ -402,7 +402,10 @@ is
 reversible
 .
 virtual
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )
