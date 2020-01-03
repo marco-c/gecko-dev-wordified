@@ -654,6 +654,8 @@ production
 )
 :
         
+from
+xpidl
 import
 xpidl
         
@@ -1499,6 +1501,8 @@ interfaces
 import
 os
         
+from
+xpidl
 import
 xpidl
         
