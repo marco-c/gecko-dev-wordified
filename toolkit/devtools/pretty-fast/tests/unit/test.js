@@ -3,6 +3,16 @@
 -
 *
 -
+Mode
+:
+js
+;
+tab
+-
+width
+:
+2
+;
 indent
 -
 tabs
