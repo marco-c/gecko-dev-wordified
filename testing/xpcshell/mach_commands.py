@@ -2154,11 +2154,9 @@ if
 test_paths
 =
 =
-[
 '
 all
 '
-]
 :
             
 testdirs
