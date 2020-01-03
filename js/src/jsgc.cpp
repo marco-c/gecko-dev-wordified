@@ -15275,10 +15275,10 @@ cpuCount
 2
 minTasks
 )
-maxTasks
-)
 +
 1
+maxTasks
+)
 ;
 UpdateCellPointersTask
 updateTasks
