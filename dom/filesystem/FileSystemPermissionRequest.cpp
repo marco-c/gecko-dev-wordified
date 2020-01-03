@@ -598,10 +598,11 @@ NS_OK
 }
 if
 (
+!
 filesystem
 -
 >
-IsTesting
+RequiresPermissionChecks
 (
 )
 )

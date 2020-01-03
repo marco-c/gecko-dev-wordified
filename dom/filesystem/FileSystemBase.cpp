@@ -295,9 +295,9 @@ mShutdown
 (
 false
 )
-mIsTesting
+mRequiresPermissionChecks
 (
-false
+true
 )
 {
 }

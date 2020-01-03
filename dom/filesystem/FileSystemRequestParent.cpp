@@ -375,11 +375,10 @@ false
 }
 if
 (
-!
 mFileSystem
 -
 >
-IsTesting
+RequiresPermissionChecks
 (
 )
 )

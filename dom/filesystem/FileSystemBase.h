@@ -408,13 +408,13 @@ mPermission
 ;
 }
 bool
-IsTesting
+RequiresPermissionChecks
 (
 )
 const
 {
 return
-mIsTesting
+mRequiresPermissionChecks
 ;
 }
 protected
@@ -457,7 +457,7 @@ nsCString
 mPermission
 ;
 bool
-mIsTesting
+mRequiresPermissionChecks
 ;
 }
 ;
