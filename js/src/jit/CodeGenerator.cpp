@@ -12247,12 +12247,7 @@ nargs
 =
 info
 .
-fun
--
->
 nargs
-(
-)
 ;
 u
 .
