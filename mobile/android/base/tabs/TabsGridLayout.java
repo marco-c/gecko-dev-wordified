@@ -1383,6 +1383,17 @@ clear
 )
 ;
 }
+Override
+public
+boolean
+shouldExpand
+(
+)
+{
+return
+true
+;
+}
 private
 void
 autoHidePanel
