@@ -15591,7 +15591,7 @@ false
 ;
 }
 return
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 promise

@@ -5481,7 +5481,7 @@ if
 NS_WARN_IF
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 target

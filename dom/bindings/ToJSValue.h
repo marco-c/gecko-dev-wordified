@@ -941,7 +941,7 @@ IsDOMBinding
 )
 ;
 return
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 aArgument

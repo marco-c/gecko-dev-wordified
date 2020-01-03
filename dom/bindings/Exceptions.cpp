@@ -567,7 +567,7 @@ false
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 aException

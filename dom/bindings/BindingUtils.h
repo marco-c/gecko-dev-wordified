@@ -5359,7 +5359,7 @@ T
 >
 MOZ_ALWAYS_INLINE
 bool
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 JSContext
 *
@@ -7984,7 +7984,7 @@ be
 much
 slower
 than
-WrapNewBindingObject
+GetOrCreateDOMReflector
 .
 "
 cache
@@ -7995,9 +7995,9 @@ be
 null
 or
 be
+/
+/
 the
-/
-/
 nsWrapperCache
 for
 "
@@ -9919,7 +9919,7 @@ obj
 Helper
 for
 calling
-WrapNewBindingObject
+GetOrCreateDOMReflector
 with
 smart
 pointers
@@ -9951,12 +9951,12 @@ T
 Value
 >
 struct
-WrapNewBindingObjectHelper
+GetOrCreateDOMReflectorHelper
 {
 static
 inline
 bool
-Wrap
+GetOrCreate
 (
 JSContext
 *
@@ -9979,7 +9979,7 @@ rval
 )
 {
 return
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 value
@@ -9999,7 +9999,7 @@ class
 T
 >
 struct
-WrapNewBindingObjectHelper
+GetOrCreateDOMReflectorHelper
 <
 T
 false
@@ -10008,7 +10008,7 @@ false
 static
 inline
 bool
-Wrap
+GetOrCreate
 (
 JSContext
 *
@@ -10030,7 +10030,7 @@ rval
 )
 {
 return
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 &
@@ -10048,7 +10048,7 @@ T
 >
 inline
 bool
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 JSContext
 *
@@ -10070,13 +10070,13 @@ rval
 )
 {
 return
-WrapNewBindingObjectHelper
+GetOrCreateDOMReflectorHelper
 <
 T
 >
 :
 :
-Wrap
+GetOrCreate
 (
 cx
 value
@@ -10091,7 +10091,7 @@ need
 this
 version
 of
-WrapNewBindingObject
+GetOrCreateDOMReflector
 for
 codegen
 so
@@ -10099,9 +10099,9 @@ it
 '
 ll
 have
+/
+/
 the
-/
-/
 same
 signature
 as
@@ -10123,7 +10123,7 @@ T
 >
 inline
 bool
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 JSContext
 *
@@ -10154,7 +10154,7 @@ rval
 )
 {
 return
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 value

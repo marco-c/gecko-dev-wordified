@@ -5259,7 +5259,7 @@ setNull
 return
 ;
 }
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 mResponseBlob

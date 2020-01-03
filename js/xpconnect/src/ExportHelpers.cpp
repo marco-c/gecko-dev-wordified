@@ -703,7 +703,7 @@ idx
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 blob

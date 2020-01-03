@@ -33707,7 +33707,7 @@ NS_ERROR_OUT_OF_MEMORY
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 blob

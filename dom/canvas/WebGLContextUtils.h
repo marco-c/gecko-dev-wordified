@@ -590,7 +590,7 @@ if
 dom
 :
 :
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 const_cast

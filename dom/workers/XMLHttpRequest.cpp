@@ -4587,7 +4587,7 @@ cx
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 mXHR
@@ -9589,7 +9589,7 @@ cx
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 &

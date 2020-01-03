@@ -1733,7 +1733,7 @@ cx
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 this
@@ -2611,7 +2611,7 @@ if
 dom
 :
 :
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 aPromise
@@ -2766,7 +2766,7 @@ if
 dom
 :
 :
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 aPromise

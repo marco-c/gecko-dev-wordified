@@ -11068,7 +11068,7 @@ can
 '
 t
 use
-WrapNewBindingObject
+GetOrCreateDOMReflector
 /
 /
 because
