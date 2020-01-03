@@ -3090,6 +3090,11 @@ computeScopeChain
 (
 Value
 scopeChainValue
+bool
+*
+hasCallObj
+=
+nullptr
 )
 const
 ;
@@ -3280,6 +3285,9 @@ JSObject
 *
 *
 scopeChain
+bool
+*
+hasCallObj
 Value
 *
 rval
@@ -3339,6 +3347,7 @@ scopeChain
 computeScopeChain
 (
 scopeChainValue
+hasCallObj
 )
 ;
 /
@@ -3879,6 +3888,7 @@ readFrameArgsAndLocals
 cx
 op
 nop
+nullptr
 nullptr
 nullptr
 nullptr
