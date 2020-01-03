@@ -1654,6 +1654,14 @@ mPrefFonts
 ;
 }
 ;
+bool
+DoesD3D11DeviceSupportResourceSharing
+(
+ID3D11Device
+*
+device
+)
+;
 #
 endif
 /
