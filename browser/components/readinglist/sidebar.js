@@ -1781,18 +1781,6 @@ url
 event
 )
 {
-/
-/
-TODO
-:
-Disabled
-while
-working
-on
-the
-listbox
-mechanics
-.
 log
 .
 debug
@@ -1803,8 +1791,6 @@ page
 url
 }
 )
-;
-return
 ;
 let
 mainWindow
