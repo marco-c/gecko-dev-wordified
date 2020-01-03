@@ -388,6 +388,17 @@ mStoredAttrValue
 nullptr
 ;
 }
+const
+nsAttrValue
+*
+GetAttrValue
+(
+)
+{
+return
+mAttrValue
+;
+}
 /
 *
 *
