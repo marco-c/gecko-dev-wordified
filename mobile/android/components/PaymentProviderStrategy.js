@@ -300,14 +300,6 @@ this
 _iccInfo
 )
 {
-this
-.
-__DOM_IMPL_
-.
-_clearCachedIccInfoValue
-(
-)
-;
 /
 /
 XXX
