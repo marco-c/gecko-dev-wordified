@@ -201,11 +201,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 SharedICHelpers
 -
-mips
+mips32
 .
 h
 "

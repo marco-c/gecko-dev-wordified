@@ -113,11 +113,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 Architecture
 -
-mips
+mips32
 .
 h
 "

@@ -113,11 +113,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 MacroAssembler
 -
-mips
+mips32
 .
 h
 "
@@ -180,11 +180,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 Simulator
 -
-mips
+mips32
 .
 h
 "

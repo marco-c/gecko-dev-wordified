@@ -227,11 +227,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 CodeGenerator
 -
-mips
+mips32
 .
 h
 "

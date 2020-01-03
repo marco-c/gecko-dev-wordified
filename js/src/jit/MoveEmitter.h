@@ -192,11 +192,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 MoveEmitter
 -
-mips
+mips32
 .
 h
 "
