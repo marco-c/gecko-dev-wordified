@@ -201,11 +201,7 @@ DisableAcceleration
 (
 )
 const
-{
-return
-sDisableAcceleration
 ;
-}
 /
 /
 These
@@ -318,10 +314,6 @@ aState
 ;
 private
 :
-static
-bool
-sDisableAcceleration
-;
 static
 bool
 sEnvironmentHasBeenUpdated
