@@ -21269,7 +21269,7 @@ pref
 "
 loop
 .
-contextInConverations
+contextInConversations
 .
 enabled
 "
@@ -22956,7 +22956,7 @@ pocket
 .
 enabled
 "
-true
+false
 )
 ;
 pref
