@@ -4719,6 +4719,11 @@ actor
 this
 .
 __poolMap
+&
+&
+this
+.
+__poolMap
 .
 delete
 (
