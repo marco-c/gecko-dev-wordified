@@ -35899,7 +35899,7 @@ mColGroup
 >
 SetContinuousBCBorderWidth
 (
-NS_SIDE_BOTTOM
+eLogicalSideBEnd
 currentBorder
 .
 width
