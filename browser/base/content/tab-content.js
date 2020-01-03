@@ -1561,7 +1561,7 @@ chromeGlobal
 addEventListener
 (
 "
-AboutPrivateBrowsingEnableTrackingProtection
+AboutPrivateBrowsingToggleTrackingProtection
 "
 this
 false
@@ -1634,7 +1634,7 @@ break
 ;
 case
 "
-AboutPrivateBrowsingEnableTrackingProtection
+AboutPrivateBrowsingToggleTrackingProtection
 "
 :
 sendAsyncMessage
@@ -1642,7 +1642,7 @@ sendAsyncMessage
 "
 AboutPrivateBrowsing
 :
-EnableTrackingProtection
+ToggleTrackingProtection
 "
 )
 ;
