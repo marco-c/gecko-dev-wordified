@@ -300,11 +300,11 @@ toString
 return
 ;
 }
-testProfileCreationDeletion
+checkProfileCreationDeletion
 (
 )
 ;
-testGuestProfile
+checkGuestProfile
 (
 )
 ;
@@ -325,7 +325,7 @@ throw
 .
 private
 void
-testDefaultGetter
+checkDefaultGetter
 (
 )
 {
@@ -476,7 +476,7 @@ String
 methods
 private
 void
-testNamedGetter
+checkNamedGetter
 (
 String
 name
@@ -598,7 +598,7 @@ String
 methods
 private
 void
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 String
 name
@@ -616,7 +616,7 @@ name
 )
 )
 {
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 name
 null
@@ -626,7 +626,7 @@ createBefore
 }
 else
 {
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 name
 name
@@ -651,7 +651,7 @@ String
 methods
 private
 void
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 String
 name
@@ -923,7 +923,7 @@ path
 }
 private
 void
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 String
 name
@@ -941,7 +941,7 @@ name
 )
 )
 {
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 name
 null
@@ -951,7 +951,7 @@ createBefore
 }
 else
 {
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 name
 new
@@ -971,7 +971,7 @@ createBefore
 }
 private
 void
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 String
 name
@@ -1188,14 +1188,14 @@ f
 }
 private
 void
-testProfileCreationDeletion
+checkProfileCreationDeletion
 (
 )
 {
 /
 /
 Test
-testDefaultGetter
+checkDefaultGetter
 (
 )
 ;
@@ -1204,7 +1204,7 @@ index
 =
 0
 ;
-testNamedGetter
+checkNamedGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1218,13 +1218,13 @@ index
 /
 /
 0
-testNamedGetter
+checkNamedGetter
 (
 "
 "
 )
 ;
-testNamedGetter
+checkNamedGetter
 (
 null
 )
@@ -1234,7 +1234,7 @@ null
 name
 and
 path
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1249,7 +1249,7 @@ true
 /
 /
 1
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1270,7 +1270,7 @@ null
 name
 and
 path
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 null
 TEST_PROFILE_NAME
@@ -1290,7 +1290,7 @@ true
 /
 /
 3
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 null
 TEST_PROFILE_NAME
@@ -1310,7 +1310,7 @@ false
 /
 /
 4
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 "
 "
@@ -1331,7 +1331,7 @@ true
 /
 /
 5
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 "
 "
@@ -1358,7 +1358,7 @@ name
 and
 null
 path
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1374,7 +1374,7 @@ false
 /
 /
 7
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1398,14 +1398,14 @@ name
 and
 null
 path
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 null
 null
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 "
 "
@@ -1413,7 +1413,7 @@ null
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 null
 "
@@ -1421,7 +1421,7 @@ null
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 "
 "
@@ -1435,7 +1435,7 @@ false
 name
 and
 path
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1450,7 +1450,7 @@ true
 /
 /
 9
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1471,7 +1471,7 @@ null
 name
 and
 path
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 null
 new
@@ -1496,7 +1496,7 @@ true
 /
 /
 11
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 null
 new
@@ -1521,7 +1521,7 @@ false
 /
 /
 12
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 "
 "
@@ -1547,7 +1547,7 @@ true
 /
 /
 13
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 "
 "
@@ -1579,7 +1579,7 @@ name
 and
 null
 path
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1602,7 +1602,7 @@ name
 and
 null
 path
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 null
 null
@@ -1619,7 +1619,7 @@ profile
 methods
 private
 void
-testGuestProfile
+checkGuestProfile
 (
 )
 {
