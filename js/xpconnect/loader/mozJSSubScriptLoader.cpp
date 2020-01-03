@@ -3057,6 +3057,12 @@ true
 ;
 options
 .
+compileAndGo
+=
+true
+;
+options
+.
 installedFile
 =
 true

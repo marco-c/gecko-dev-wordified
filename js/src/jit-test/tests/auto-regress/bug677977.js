@@ -208,6 +208,11 @@ a
 }
 )
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var

@@ -278,6 +278,11 @@ a
 }
 )
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var

@@ -122,7 +122,7 @@ lfVarx
 noScriptRval
 :
 true
-isRunOnce
+compileAndGo
 :
 true
 }

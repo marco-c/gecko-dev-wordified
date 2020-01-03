@@ -35,6 +35,11 @@ x
 ;
 }
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var

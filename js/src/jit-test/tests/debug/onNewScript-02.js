@@ -523,6 +523,11 @@ x
 }
 )
 "
+{
+compileAndGo
+:
+false
+}
 )
 )
 ;

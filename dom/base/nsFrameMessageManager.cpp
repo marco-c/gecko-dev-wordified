@@ -8947,6 +8947,11 @@ scope
 .
 options
 .
+setCompileAndGo
+(
+false
+)
+.
 setHasPollutedScope
 (
 true

@@ -6997,9 +6997,12 @@ mJSVersion
 aOptions
 -
 >
-setIsRunOnce
+setCompileAndGo
 (
-true
+JS_IsGlobalObject
+(
+aScopeChain
+)
 )
 ;
 /
