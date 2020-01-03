@@ -327,6 +327,10 @@ mIsPreviousStateFinished
 (
 false
 )
+mFinishedAtLastComposeStyle
+(
+false
+)
 mIsRelevant
 (
 false
@@ -2586,6 +2590,9 @@ previous
 finished
 state
 "
+bool
+mFinishedAtLastComposeStyle
+;
 /
 /
 Indicates
