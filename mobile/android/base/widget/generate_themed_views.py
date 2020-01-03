@@ -305,6 +305,10 @@ ImageButton
 STYLE_CONSTRUCTOR
 =
 1
+         
+TINT_FOREGROUND_DRAWABLE
+=
+1
 )
     
 dict
@@ -326,6 +330,10 @@ ImageView
 '
          
 STYLE_CONSTRUCTOR
+=
+1
+         
+TINT_FOREGROUND_DRAWABLE
 =
 1
 )
