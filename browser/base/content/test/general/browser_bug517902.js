@@ -121,7 +121,7 @@ true
 ;
 pageInfo
 .
-onImagePreviewShown
+onFinished
 .
 push
 (
