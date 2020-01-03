@@ -6689,7 +6689,7 @@ is
 implemented
 in
 *
-JSCompartment
+Zone
 :
 :
 sweepBreakpoints
