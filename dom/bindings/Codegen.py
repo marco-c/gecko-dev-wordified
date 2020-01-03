@@ -46298,7 +46298,7 @@ recTemplate
 result
 =
 result
-        
+            
 setNull
 =
 setNull
@@ -125575,16 +125575,15 @@ Obj
 "
 "
 "
-                            
+                                
 varname
 =
 name
-                            
+                                
 srcname
 =
 srcname
 )
-;
                         
 else
 :
@@ -125621,7 +125620,7 @@ Obj
 "
 "
 "
-                            
+                                
 varname
 =
 name
@@ -125629,7 +125628,6 @@ srcname
 =
 srcname
 )
-;
                     
 else
 :
