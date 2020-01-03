@@ -10169,10 +10169,6 @@ the
 name
 "
 "
-css
-selector
-"
-"
 link
 text
 "
@@ -10469,10 +10465,6 @@ that
 the
 "
 name
-"
-"
-css
-selector
 "
 "
 link
