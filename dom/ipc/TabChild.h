@@ -3684,9 +3684,6 @@ bool
 mParentIsActive
 ;
 bool
-mAudioChannelActive
-;
-bool
 mAsyncPanZoomEnabled
 ;
 CSSSize
