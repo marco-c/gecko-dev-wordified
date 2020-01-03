@@ -290,16 +290,7 @@ bool
 IPCOpen
 (
 )
-const
-{
-return
-mIPCOpen
-&
-&
-!
-mDestroyed
 ;
-}
 void
 SetForwarder
 (

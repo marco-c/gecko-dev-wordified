@@ -482,6 +482,12 @@ Close
 (
 )
 ;
+bool
+Connected
+(
+)
+const
+;
 /
 /
 Force
@@ -2040,12 +2046,6 @@ return
 mDispatchingSyncMessagePriority
 ;
 }
-bool
-Connected
-(
-)
-const
-;
 private
 :
 /
