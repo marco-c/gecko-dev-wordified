@@ -7553,6 +7553,7 @@ numtoks
 )
 &
 &
+(
 toklen
 [
 0
@@ -7560,6 +7561,16 @@ toklen
 =
 =
 8
+|
+|
+toklen
+[
+0
+]
+=
+=
+10
+)
 &
 &
 toklen
