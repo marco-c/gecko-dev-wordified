@@ -1894,6 +1894,12 @@ createCompositorResumeEvent
 )
 )
 ;
+mView
+.
+requestRender
+(
+)
+;
 }
 }
 public
