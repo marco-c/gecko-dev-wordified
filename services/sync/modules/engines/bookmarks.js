@@ -1368,6 +1368,9 @@ BookmarksTracker
 version
 :
 2
+syncPriority
+:
+4
 _sync
 :
 function

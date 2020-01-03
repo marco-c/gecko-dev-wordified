@@ -737,6 +737,9 @@ FormRec
 applyIncomingBatchSize
 :
 FORMS_STORE_BATCH_SIZE
+syncPriority
+:
+6
 get
 prefName
 (

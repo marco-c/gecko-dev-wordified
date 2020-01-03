@@ -352,6 +352,9 @@ PrefRec
 version
 :
 2
+syncPriority
+:
+1
 getChangedIDs
 :
 function

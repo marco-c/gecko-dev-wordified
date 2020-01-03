@@ -292,6 +292,9 @@ LoginRec
 applyIncomingBatchSize
 :
 PASSWORDS_STORE_BATCH_SIZE
+syncPriority
+:
+2
 _syncFinish
 :
 function
