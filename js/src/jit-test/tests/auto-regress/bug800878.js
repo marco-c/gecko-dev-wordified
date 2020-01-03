@@ -34,6 +34,17 @@ ion
 eager
 /
 /
+load
+(
+libdir
++
+"
+evalInFrame
+.
+js
+"
+)
+;
 [
 1
 2
