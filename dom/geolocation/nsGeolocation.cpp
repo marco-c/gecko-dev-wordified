@@ -308,6 +308,15 @@ WindowsLocationProvider
 h
 "
 #
+include
+"
+mozilla
+/
+WindowsVersion
+.
+h
+"
+#
 endif
 /
 /
@@ -4054,6 +4063,11 @@ windows
 location
 "
 false
+)
+&
+&
+IsWin8OrLater
+(
 )
 )
 {
