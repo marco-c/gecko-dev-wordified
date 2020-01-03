@@ -1827,6 +1827,15 @@ uneval
 \
 macro
 (
+unicode
+unicode
+"
+unicode
+"
+)
+\
+macro
+(
 uninitialized
 uninitialized
 "
