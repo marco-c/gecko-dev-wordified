@@ -13165,12 +13165,8 @@ pc
 ;
 counts
 .
-get
+numExec
 (
-PCCounts
-:
-:
-BASE_INTERP
 )
 +
 +
