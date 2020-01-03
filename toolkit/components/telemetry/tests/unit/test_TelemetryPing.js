@@ -1171,6 +1171,15 @@ payload
 info
 )
 ;
+if
+(
+Services
+.
+appinfo
+.
+isOfficial
+)
+{
 do_check_true
 (
 payload
@@ -1187,6 +1196,7 @@ http
 )
 )
 ;
+}
 try
 {
 /
