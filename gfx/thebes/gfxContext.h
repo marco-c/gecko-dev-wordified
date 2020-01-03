@@ -1999,6 +1999,12 @@ gfx
 SourceSurface
 *
 surface
+float
+alpha
+=
+1
+.
+0f
 const
 mozilla
 :

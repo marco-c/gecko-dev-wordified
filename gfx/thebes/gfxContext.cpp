@@ -4241,6 +4241,9 @@ GetDeviceOffset
 Mask
 (
 sourceSurf
+1
+.
+0f
 Point
 (
 offset
@@ -4270,6 +4273,8 @@ Mask
 SourceSurface
 *
 surface
+float
+alpha
 const
 Point
 &
@@ -4304,9 +4309,7 @@ surface
 offset
 DrawOptions
 (
-1
-.
-0f
+alpha
 CurrentState
 (
 )
