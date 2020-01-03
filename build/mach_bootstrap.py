@@ -235,6 +235,20 @@ which
 '
     
 '
+python
+/
+pystache
+'
+    
+'
+python
+/
+pyyaml
+/
+lib
+'
+    
+'
 build
 /
 pymake
@@ -284,6 +298,12 @@ parser
     
 '
 testing
+'
+    
+'
+testing
+/
+taskcluster
 '
     
 '
@@ -606,6 +626,16 @@ py
 '
 testing
 /
+taskcluster
+/
+mach_commands
+.
+py
+'
+    
+'
+testing
+/
 marionette
 /
 mach_commands
@@ -813,6 +843,37 @@ priority
 '
 :
 60
+    
+}
+    
+'
+ci
+'
+:
+{
+        
+'
+short
+'
+:
+'
+CI
+'
+        
+'
+long
+'
+:
+'
+Taskcluster
+commands
+'
+        
+'
+priority
+'
+:
+59
     
 }
     
