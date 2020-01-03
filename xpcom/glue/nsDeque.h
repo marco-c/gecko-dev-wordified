@@ -669,6 +669,12 @@ fallible_t
 NS_ABORT_OOM
 (
 mSize
+*
+sizeof
+(
+void
+*
+)
 )
 ;
 }
@@ -732,6 +738,12 @@ fallible_t
 NS_ABORT_OOM
 (
 mSize
+*
+sizeof
+(
+void
+*
+)
 )
 ;
 }

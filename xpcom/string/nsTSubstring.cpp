@@ -1787,7 +1787,7 @@ mLength
 )
 )
 {
-NS_ABORT_OOM
+AllocFailed
 (
 mLength
 )
@@ -1865,7 +1865,7 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+AllocFailed
 (
 char_traits
 :
@@ -1905,7 +1905,7 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+AllocFailed
 (
 aLength
 =
@@ -2070,7 +2070,7 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+AllocFailed
 (
 aLength
 )
@@ -2247,7 +2247,7 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+AllocFailed
 (
 aStr
 .
@@ -2526,7 +2526,7 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+AllocFailed
 (
 aTuple
 .
@@ -2935,7 +2935,7 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+AllocFailed
 (
 Length
 (
@@ -3433,7 +3433,7 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+AllocFailed
 (
 aCapacity
 )
@@ -4274,7 +4274,7 @@ do
 this
 lazily
 ?
-NS_ABORT_OOM
+AllocFailed
 (
 mLength
 )
@@ -4414,7 +4414,7 @@ do
 this
 lazily
 ?
-NS_ABORT_OOM
+AllocFailed
 (
 mLength
 )
