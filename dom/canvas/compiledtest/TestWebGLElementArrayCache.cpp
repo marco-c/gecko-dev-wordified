@@ -771,7 +771,7 @@ sizeof
 T
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 numBytes
 =
@@ -972,7 +972,7 @@ numElems
 numElems
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 numElems
 >
@@ -1099,7 +1099,7 @@ sizeof
 T
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 numBytes
 =
