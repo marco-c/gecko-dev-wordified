@@ -323,6 +323,7 @@ LOGTAG
 GeckoThread
 "
 ;
+WrapForJNI
 public
 enum
 State
@@ -3175,6 +3176,7 @@ maxState
 )
 ;
 }
+WrapForJNI
 private
 static
 void
