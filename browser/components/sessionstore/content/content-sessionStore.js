@@ -4716,6 +4716,9 @@ isFinal
 |
 |
 false
+epoch
+:
+gCurrentEpoch
 }
 )
 ;
