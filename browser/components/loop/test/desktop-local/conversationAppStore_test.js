@@ -368,9 +368,6 @@ windowType
 "
 incoming
 "
-windowData
-:
-fakeWindowData
 }
 )
 ;
