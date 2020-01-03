@@ -3135,7 +3135,7 @@ getOperand
 1
 )
 ;
-LUDiv
+LUDivOrMod
 *
 lir
 =
@@ -3145,7 +3145,7 @@ alloc
 (
 )
 )
-LUDiv
+LUDivOrMod
 ;
 lir
 -
@@ -3228,7 +3228,7 @@ getOperand
 1
 )
 ;
-LUMod
+LUDivOrMod
 *
 lir
 =
@@ -3238,7 +3238,7 @@ alloc
 (
 )
 )
-LUMod
+LUDivOrMod
 ;
 lir
 -
