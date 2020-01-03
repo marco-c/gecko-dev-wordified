@@ -626,10 +626,12 @@ this
 handoff
 chain
 is
-overscrolled
+panned
+into
+overscroll
 .
 bool
-HasOverscrolledApzc
+HasApzcPannedIntoOverscroll
 (
 )
 const
