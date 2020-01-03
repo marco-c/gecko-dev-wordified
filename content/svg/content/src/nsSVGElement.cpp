@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsSVGPathGeometryElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 InternalMutationEvent
@@ -10279,6 +10286,10 @@ uint8_t
 aAttrEnum
 )
 {
+ClearAnyCachedPath
+(
+)
+;
 nsIFrame
 *
 frame
@@ -11474,6 +11485,10 @@ data
 "
 )
 ;
+ClearAnyCachedPath
+(
+)
+;
 nsIFrame
 *
 frame
@@ -11617,6 +11632,10 @@ path
 data
 ?
 "
+)
+;
+ClearAnyCachedPath
+(
 )
 ;
 nsIFrame

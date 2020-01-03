@@ -395,7 +395,7 @@ TemporaryRef
 <
 Path
 >
-GetPathForLengthOrPositionMeasuring
+GetOrBuildPathForMeasuring
 (
 )
 MOZ_OVERRIDE

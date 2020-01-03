@@ -255,6 +255,9 @@ class
 nsSVGNumberPair
 ;
 class
+nsSVGPathGeometryElement
+;
+class
 nsSVGString
 ;
 class
@@ -1942,6 +1945,13 @@ nullptr
 return
 mClassAnimAttr
 ;
+}
+virtual
+void
+ClearAnyCachedPath
+(
+)
+{
 }
 virtual
 nsIDOMNode

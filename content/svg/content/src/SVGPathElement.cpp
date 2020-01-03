@@ -598,7 +598,7 @@ Path
 >
 flat
 =
-GetPathForLengthOrPositionMeasuring
+GetOrBuildPathForMeasuring
 (
 )
 ;
@@ -639,7 +639,7 @@ Path
 >
 path
 =
-GetPathForLengthOrPositionMeasuring
+GetOrBuildPathForMeasuring
 (
 )
 ;
@@ -1936,7 +1936,7 @@ Path
 SVGPathElement
 :
 :
-GetPathForLengthOrPositionMeasuring
+GetOrBuildPathForMeasuring
 (
 )
 {
@@ -1947,7 +1947,7 @@ GetAnimValue
 (
 )
 .
-ToPathForLengthOrPositionMeasuring
+BuildPathForMeasuring
 (
 )
 ;
@@ -2156,7 +2156,7 @@ Path
 >
 path
 =
-GetPathForLengthOrPositionMeasuring
+GetOrBuildPathForMeasuring
 (
 )
 ;

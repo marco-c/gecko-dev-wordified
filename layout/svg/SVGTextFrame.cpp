@@ -29849,7 +29849,7 @@ path
 element
 -
 >
-GetPathForLengthOrPositionMeasuring
+GetOrBuildPathForMeasuring
 (
 )
 ;

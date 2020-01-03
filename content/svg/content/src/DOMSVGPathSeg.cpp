@@ -1244,11 +1244,6 @@ propName
 )
 ;
 \
-InvalidateCachedList
-(
-)
-;
-\
 }
 else
 {

@@ -1613,7 +1613,7 @@ mPath
 pathElem
 -
 >
-GetPathForLengthOrPositionMeasuring
+GetOrBuildPathForMeasuring
 (
 )
 ;
@@ -1763,7 +1763,7 @@ mPath
 =
 path
 .
-ToPathForLengthOrPositionMeasuring
+BuildPathForMeasuring
 (
 )
 ;
