@@ -281,6 +281,13 @@ SEEK_LOGGING
 #
 ifdef
 PR_LOGGING
+#
+include
+"
+prprf
+.
+h
+"
 extern
 PRLogModuleInfo
 *
