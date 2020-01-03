@@ -129,7 +129,7 @@ h
 #
 include
 "
-nsICellBroadcastProvider
+nsICellBroadcastService
 .
 h
 "
@@ -187,7 +187,7 @@ and
 passes
 it
 to
-nsICellBroadcastProvider
+nsICellBroadcastService
 .
 The
 onreceived
@@ -272,9 +272,9 @@ CellBroadcast
 nsPIDOMWindow
 *
 aWindow
-nsICellBroadcastProvider
+nsICellBroadcastService
 *
-aProvider
+aService
 )
 ;
 nsPIDOMWindow
@@ -307,12 +307,6 @@ received
 )
 private
 :
-nsCOMPtr
-<
-nsICellBroadcastProvider
->
-mProvider
-;
 nsRefPtr
 <
 Listener
