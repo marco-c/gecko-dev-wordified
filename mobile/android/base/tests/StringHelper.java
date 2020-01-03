@@ -1590,8 +1590,8 @@ LOCATION_SERVICES_LABEL
 =
 "
 Mozilla
-location
-services
+Location
+Service
 "
 ;
 public
