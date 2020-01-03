@@ -1942,6 +1942,8 @@ self
 )
 :
         
+from
+.
 import
 mozinfo
         
