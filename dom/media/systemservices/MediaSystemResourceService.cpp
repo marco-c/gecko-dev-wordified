@@ -1299,8 +1299,6 @@ erase
 it
 )
 ;
-return
-;
 }
 else
 {
