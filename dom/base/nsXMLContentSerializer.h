@@ -202,9 +202,6 @@ class
 nsIAtom
 ;
 class
-nsIDOMNode
-;
-class
 nsINode
 ;
 class

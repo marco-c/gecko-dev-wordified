@@ -109,9 +109,6 @@ h
 class
 nsDOMAttributeMap
 ;
-class
-nsIContent
-;
 #
 define
 NS_IATTRIBUTE_IID

@@ -587,9 +587,6 @@ dom
 /
 namespace
 mozilla
-class
-nsAXPCNativeCallContext
-;
 struct
 nsMessageListenerInfo
 {

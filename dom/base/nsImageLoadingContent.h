@@ -249,12 +249,6 @@ class
 nsIDocument
 ;
 class
-imgILoader
-;
-class
-nsIIOService
-;
-class
 nsPresContext
 ;
 class

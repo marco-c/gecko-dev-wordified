@@ -84,13 +84,7 @@ nsITransferable
 h
 "
 class
-nsIDOMNode
-;
-class
 nsPIDOMWindow
-;
-class
-nsIDOMDragEvent
 ;
 class
 nsISelection
@@ -102,13 +96,7 @@ class
 nsIContent
 ;
 class
-nsIURI
-;
-class
 nsIFile
-;
-class
-nsISimpleEnumerator
 ;
 namespace
 mozilla

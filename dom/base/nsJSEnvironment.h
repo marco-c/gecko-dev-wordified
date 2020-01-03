@@ -189,13 +189,7 @@ class
 nsICycleCollectorListener
 ;
 class
-nsIXPConnectJSObjectHolder
-;
-class
 nsScriptNameSpaceManager
-;
-class
-nsCycleCollectionNoteRootCallback
 ;
 namespace
 JS
@@ -950,12 +944,6 @@ cx
 )
 ;
 }
-;
-class
-nsIJSRuntimeService
-;
-class
-nsIPrincipal
 ;
 class
 nsPIDOMWindow

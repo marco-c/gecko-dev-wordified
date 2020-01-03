@@ -378,9 +378,6 @@ class
 nsNodeWeakReference
 ;
 class
-nsXPCClassInfo
-;
-class
 nsDOMMutationObserver
 ;
 namespace
@@ -555,9 +552,6 @@ Element
 ;
 class
 EventHandlerNonNull
-;
-class
-OnErrorEventHandlerNonNull
 ;
 template
 <

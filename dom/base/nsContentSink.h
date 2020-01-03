@@ -239,9 +239,6 @@ class
 nsIDocShell
 ;
 class
-nsIParser
-;
-class
 nsIAtom
 ;
 class
@@ -249,9 +246,6 @@ nsIChannel
 ;
 class
 nsIContent
-;
-class
-nsViewManager
 ;
 class
 nsNodeInfoManager

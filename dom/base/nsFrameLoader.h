@@ -284,14 +284,6 @@ GtkWidget
 ;
 #
 endif
-#
-ifdef
-MOZ_WIDGET_QT
-class
-QX11EmbedContainer
-;
-#
-endif
 class
 nsFrameLoader
 final

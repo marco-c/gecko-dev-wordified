@@ -152,9 +152,6 @@ h
 class
 nsString
 ;
-class
-nsCString
-;
 /
 /
 XXX

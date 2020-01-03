@@ -449,13 +449,7 @@ mConstructorEnabled
 }
 ;
 class
-nsIScriptContext
-;
-class
 nsICategoryManager
-;
-class
-GlobalNameMapEntry
 ;
 class
 nsScriptNameSpaceManager

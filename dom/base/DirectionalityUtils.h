@@ -108,12 +108,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
-nsINode
-;
-class
 nsAString
 ;
 class

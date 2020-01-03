@@ -168,9 +168,6 @@ h
 class
 nsIURI
 ;
-class
-nsCycleCollectionCallback
-;
 /
 *
 *

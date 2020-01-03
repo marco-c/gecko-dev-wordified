@@ -506,9 +506,6 @@ class
 nsIDocument
 ;
 class
-nsIChannel
-;
-class
 nsIPrincipal
 ;
 class

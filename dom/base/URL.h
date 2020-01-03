@@ -143,12 +143,6 @@ nsString
 h
 "
 class
-nsIDOMBlob
-;
-class
-nsIPrincipal
-;
-class
 nsISupports
 ;
 class

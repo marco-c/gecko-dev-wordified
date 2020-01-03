@@ -211,9 +211,6 @@ class
 nsIIdleObserver
 ;
 class
-nsIPrincipal
-;
-class
 nsIScriptTimeoutHandler
 ;
 class

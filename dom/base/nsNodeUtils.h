@@ -152,12 +152,6 @@ h
 struct
 CharacterDataChangeInfo
 ;
-class
-nsIVariant
-;
-class
-nsIDOMNode
-;
 template
 <
 class

@@ -140,15 +140,6 @@ NS_IDOM_SCRIPT_OBJECT_FACTORY_IID
 0xab
 }
 }
-class
-nsIScriptContext
-;
-class
-nsIScriptGlobalObject
-;
-class
-nsIDOMEventListener
-;
 typedef
 nsXPCClassInfo
 *
