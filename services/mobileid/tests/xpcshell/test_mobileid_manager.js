@@ -5525,6 +5525,13 @@ client
 =
 client
 ;
+MobileIdentityManager
+.
+iccInfo
+=
+[
+]
+;
 let
 promiseId
 =
@@ -6113,6 +6120,13 @@ MobileIdentityManager
 client
 =
 client
+;
+MobileIdentityManager
+.
+iccInfo
+=
+[
+]
 ;
 let
 promiseId
