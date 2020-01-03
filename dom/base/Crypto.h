@@ -83,7 +83,7 @@ h
 #
 include
 "
-nsPIDOMWindow
+nsIGlobalObject
 .
 h
 "
@@ -194,7 +194,7 @@ Subtle
 /
 /
 WebIDL
-nsPIDOMWindow
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -202,7 +202,7 @@ GetParentObject
 const
 {
 return
-mWindow
+mParent
 ;
 }
 virtual
@@ -229,9 +229,9 @@ private
 :
 nsCOMPtr
 <
-nsPIDOMWindow
+nsIGlobalObject
 >
-mWindow
+mParent
 ;
 nsRefPtr
 <
