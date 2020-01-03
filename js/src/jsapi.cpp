@@ -10508,9 +10508,6 @@ clasp
 NullPtr
 (
 )
-NullPtr
-(
-)
 )
 ;
 if
@@ -14721,9 +14718,6 @@ NewObjectWithClassProto
 (
 cx
 clasp
-NullPtr
-(
-)
 NullPtr
 (
 )
