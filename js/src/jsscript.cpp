@@ -10498,9 +10498,16 @@ if
 !
 decompressed
 )
+{
+JS_ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 if
 (
 !

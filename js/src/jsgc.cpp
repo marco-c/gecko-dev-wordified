@@ -39372,9 +39372,16 @@ init
 isSystem
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 }
 ScopedJSDeletePtr
 <

@@ -1777,9 +1777,16 @@ if
 !
 buffer
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 frameCount_
 +
 +

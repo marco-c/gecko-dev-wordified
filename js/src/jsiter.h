@@ -520,7 +520,7 @@ allocateSentinel
 (
 JSContext
 *
-cx
+maybecx
 )
 ;
 static

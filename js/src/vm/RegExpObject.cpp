@@ -5470,6 +5470,17 @@ JSRuntime
 rt
 )
 {
+if
+(
+!
+set_
+.
+initialized
+(
+)
+)
+return
+;
 for
 (
 Set
