@@ -21,3 +21,4 @@ undefined
 doSomething
 ;
 }
+;
