@@ -275,4 +275,10 @@ close
 (
 )
 ;
+public
+void
+processDelayed
+(
+)
+;
 }
