@@ -4985,10 +4985,6 @@ const
 nsIntSize
 &
 size
-const
-nsIntPoint
-&
-aChromeDisp
 )
 {
 if
@@ -5066,9 +5062,13 @@ mOrientation
 =
 orientation
 ;
-mChromeDisp
+nsIntPoint
+chromeOffset
 =
-aChromeDisp
+-
+GetChildProcessOffset
+(
+)
 ;
 unused
 <
@@ -5078,7 +5078,7 @@ SendUpdateDimensions
 mRect
 mDimensions
 mOrientation
-mChromeDisp
+chromeOffset
 )
 ;
 }
@@ -14077,7 +14077,6 @@ UpdateDimensions
 (
 windowDims
 mDimensions
-mChromeDisp
 )
 ;
 return
