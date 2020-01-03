@@ -4559,13 +4559,6 @@ setPrivateMode
 isPrivate
 )
 ;
-menuIcon
-.
-setPrivateMode
-(
-isPrivate
-)
-;
 urlEditLayout
 .
 setPrivateMode
