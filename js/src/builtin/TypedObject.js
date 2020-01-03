@@ -101,7 +101,7 @@ DESCR_KIND
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetInt32FromReservedSlot
 (
 obj
 JS_DESCR_SLOT_KIND
@@ -113,7 +113,7 @@ DESCR_STRING_REPR
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetStringFromReservedSlot
 (
 obj
 JS_DESCR_SLOT_STRING_REPR
@@ -125,7 +125,7 @@ DESCR_ALIGNMENT
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetInt32FromReservedSlot
 (
 obj
 JS_DESCR_SLOT_ALIGNMENT
@@ -137,7 +137,7 @@ DESCR_SIZE
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetInt32FromReservedSlot
 (
 obj
 JS_DESCR_SLOT_SIZE
@@ -149,7 +149,7 @@ DESCR_OPAQUE
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetBooleanFromReservedSlot
 (
 obj
 JS_DESCR_SLOT_OPAQUE
@@ -161,7 +161,7 @@ DESCR_TYPE
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetInt32FromReservedSlot
 (
 obj
 JS_DESCR_SLOT_TYPE
@@ -173,7 +173,7 @@ DESCR_ARRAY_ELEMENT_TYPE
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetObjectFromReservedSlot
 (
 obj
 JS_DESCR_SLOT_ARRAY_ELEM_TYPE
@@ -187,7 +187,7 @@ obj
 \
 TO_INT32
 (
-UnsafeGetReservedSlot
+UnsafeGetInt32FromReservedSlot
 (
 obj
 JS_DESCR_SLOT_ARRAY_LENGTH
@@ -200,7 +200,7 @@ DESCR_STRUCT_FIELD_NAMES
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetObjectFromReservedSlot
 (
 obj
 JS_DESCR_SLOT_STRUCT_FIELD_NAMES
@@ -212,7 +212,7 @@ DESCR_STRUCT_FIELD_TYPES
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetObjectFromReservedSlot
 (
 obj
 JS_DESCR_SLOT_STRUCT_FIELD_TYPES
@@ -224,7 +224,7 @@ DESCR_STRUCT_FIELD_OFFSETS
 obj
 )
 \
-UnsafeGetReservedSlot
+UnsafeGetObjectFromReservedSlot
 (
 obj
 JS_DESCR_SLOT_STRUCT_FIELD_OFFSETS
