@@ -571,6 +571,13 @@ nsDebug
 h
 "
 #
+include
+"
+nsIXULRuntime
+.
+h
+"
+#
 ifdef
 MOZ_ENABLE_D3D9_LAYER
 #
