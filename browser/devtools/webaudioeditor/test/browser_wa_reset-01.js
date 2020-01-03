@@ -109,8 +109,10 @@ reloading
 .
 *
 /
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -574,11 +576,9 @@ toolbox
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

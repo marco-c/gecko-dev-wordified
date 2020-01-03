@@ -94,8 +94,10 @@ GC
 .
 *
 /
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -467,11 +469,9 @@ collected
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

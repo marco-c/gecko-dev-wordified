@@ -48,8 +48,10 @@ graph
 .
 *
 /
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -232,11 +234,9 @@ edges
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

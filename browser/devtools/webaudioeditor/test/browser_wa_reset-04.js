@@ -96,8 +96,10 @@ fine
 .
 *
 /
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -566,11 +568,9 @@ reload
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

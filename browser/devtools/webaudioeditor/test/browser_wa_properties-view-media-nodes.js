@@ -231,8 +231,10 @@ deferred
 promise
 ;
 }
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -443,7 +445,7 @@ mediaPermissionPref
 yield
 teardown
 (
-panel
+target
 )
 ;
 yield
@@ -451,8 +453,6 @@ waitForDeviceClosed
 (
 )
 ;
-finish
-(
+}
 )
 ;
-}

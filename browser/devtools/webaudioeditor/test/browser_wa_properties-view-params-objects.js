@@ -53,8 +53,10 @@ AudioNodes
 .
 *
 /
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -365,11 +367,9 @@ dropdown
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

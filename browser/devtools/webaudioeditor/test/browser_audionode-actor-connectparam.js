@@ -56,8 +56,10 @@ state
 .
 *
 /
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -193,11 +195,9 @@ emitted
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

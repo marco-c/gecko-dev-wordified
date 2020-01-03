@@ -44,8 +44,10 @@ VariablesView
 .
 *
 /
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -274,11 +276,9 @@ updated
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

@@ -44,8 +44,10 @@ isBypassed
 )
 *
 /
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -210,8 +212,6 @@ target
 tab
 )
 ;
-finish
-(
+}
 )
 ;
-}
