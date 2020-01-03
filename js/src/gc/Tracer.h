@@ -1486,6 +1486,14 @@ Shape
 shape
 )
 ;
+void
+lazilyMarkChildren
+(
+ObjectGroup
+*
+group
+)
+;
 /
 /
 We
