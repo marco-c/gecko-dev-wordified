@@ -310,9 +310,6 @@ h
 /
 for
 HitTestResult
-class
-nsIntRegion
-;
 namespace
 mozilla
 {

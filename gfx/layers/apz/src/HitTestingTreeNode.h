@@ -700,7 +700,7 @@ aTransform
 const
 Maybe
 <
-nsIntRegion
+ParentLayerIntRegion
 >
 &
 aClipRegion
@@ -1060,7 +1060,7 @@ ParentLayerPixels
 /
 Maybe
 <
-nsIntRegion
+ParentLayerIntRegion
 >
 mClipRegion
 ;
