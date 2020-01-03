@@ -158,7 +158,7 @@ aExecutor
 >
 SetSpeculationReferrerPolicy
 (
-mReferrerPolicy
+mMetaReferrerPolicy
 )
 ;
 break
@@ -175,7 +175,6 @@ mUrl
 mCrossOrigin
 mSrcset
 mSizes
-mReferrerPolicy
 )
 ;
 break
