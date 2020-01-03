@@ -444,13 +444,6 @@ h
 #
 include
 "
-nsCORSListenerProxy
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

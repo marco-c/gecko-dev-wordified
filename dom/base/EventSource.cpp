@@ -350,13 +350,6 @@ h
 #
 include
 "
-nsCORSListenerProxy
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h

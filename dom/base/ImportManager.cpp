@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsCORSListenerProxy
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h
