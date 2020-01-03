@@ -4978,6 +4978,11 @@ obj
 js
 :
 :
+HandleObject
+receiver
+js
+:
+:
 HandleId
 id
 js
@@ -5001,6 +5006,11 @@ js
 :
 HandleObject
 obj
+js
+:
+:
+HandleObject
+receiver
 uint32_t
 index
 js
