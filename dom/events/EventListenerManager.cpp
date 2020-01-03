@@ -8516,11 +8516,6 @@ HasEventHandler
 )
 )
 {
-JS
-:
-:
-ExposeObjectToActiveJS
-(
 typedHandler
 .
 Ptr
@@ -8528,9 +8523,8 @@ Ptr
 )
 -
 >
-Callable
+MarkForCC
 (
-)
 )
 ;
 }
@@ -8575,13 +8569,6 @@ Listener
 eWebIDLListener
 )
 {
-/
-/
-Callback
-(
-)
-unmarks
-gray
 listener
 .
 mListener
@@ -8591,7 +8578,7 @@ GetWebIDLCallback
 )
 -
 >
-Callback
+MarkForCC
 (
 )
 ;
