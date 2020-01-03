@@ -55132,9 +55132,6 @@ obj
 BarrierKind
 PropertyReadNeedsTypeBarrier
 (
-JSContext
-*
-propertycx
 types
 :
 :
@@ -55163,9 +55160,6 @@ updateObserved
 BarrierKind
 PropertyReadNeedsTypeBarrier
 (
-JSContext
-*
-propertycx
 types
 :
 :
