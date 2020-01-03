@@ -6856,7 +6856,7 @@ views
 {
 if
 (
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 pkey
 )
@@ -6896,7 +6896,7 @@ i
 {
 if
 (
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 &
 views
