@@ -418,6 +418,11 @@ MediaSegmentRange
 (
 )
 ;
+MediaByteRange
+InitSegmentRange
+(
+)
+;
 static
 ContainerParser
 *
@@ -447,7 +452,10 @@ bool
 mHasInitData
 ;
 MediaByteRange
-mCompleteByteRange
+mCompleteMediaSegmentRange
+;
+MediaByteRange
+mCompleteInitSegmentRange
 ;
 const
 nsCString
