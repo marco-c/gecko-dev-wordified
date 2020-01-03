@@ -10374,7 +10374,7 @@ JS_SaveFrameChain
 and
 not
 yet
-retored
+restored
 /
 /
 by
