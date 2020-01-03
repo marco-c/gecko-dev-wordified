@@ -816,11 +816,6 @@ float
 aTime
 )
 ;
-void
-TickRefreshDriver
-(
-)
-;
 /
 *
 *
