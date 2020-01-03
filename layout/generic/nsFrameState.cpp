@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsRubyTextFrame
-.
-h
-"
-#
-include
-"
 nsSVGContainerFrame
 .
 h
