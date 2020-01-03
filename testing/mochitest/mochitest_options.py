@@ -5690,6 +5690,27 @@ of
 bug
 1051230
 .
+            
+"
+geckomediaplugin
+"
+:
+1000
+#
+GMP
+rarely
+gets
+a
+log
+but
+when
+it
+does
+it
+leaks
+a
+little
+.
         
 }
         
