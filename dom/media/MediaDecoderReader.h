@@ -1366,6 +1366,12 @@ int64_t
 aStartTime
 )
 ;
+virtual
+int64_t
+ComputeStartTime
+(
+)
+;
 /
 /
 Returns
