@@ -22882,11 +22882,11 @@ of
 .
 0
 *
-3
+5
 *
 10
 =
-270k
+450k
 .
 const
 size_t
@@ -22900,7 +22900,7 @@ const
 size_t
 kTrustedScriptBuffer
 =
-270
+450
 *
 1024
 ;
