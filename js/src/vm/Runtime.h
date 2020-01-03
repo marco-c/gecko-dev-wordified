@@ -515,6 +515,9 @@ SimulatorRuntime
 struct
 AutoFlushICache
 ;
+class
+CompileRuntime
+;
 }
 /
 *
@@ -3259,6 +3262,16 @@ js
 :
 :
 AsmJSActivation
+;
+friend
+class
+js
+:
+:
+jit
+:
+:
+CompileRuntime
 ;
 #
 ifdef
