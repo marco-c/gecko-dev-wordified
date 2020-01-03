@@ -2975,7 +2975,10 @@ Value
 v
 (
 cx
-INT_TO_JSVAL
+JS
+:
+:
+Int32Value
 (
 x
 )
@@ -3006,8 +3009,8 @@ return
 ;
 }
 v
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 y
 )
@@ -3037,8 +3040,8 @@ return
 ;
 }
 v
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 w
 )
@@ -3068,8 +3071,8 @@ return
 ;
 }
 v
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 h
 )

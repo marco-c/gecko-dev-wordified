@@ -478,12 +478,9 @@ vp
 {
 vp
 .
-set
-(
-INT_TO_JSVAL
+setInt32
 (
 17
-)
 )
 ;
 return

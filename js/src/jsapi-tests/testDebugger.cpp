@@ -499,10 +499,11 @@ hits
 hitsv
 )
 ;
-CHECK_SAME
+CHECK
 (
 hitsv
-INT_TO_JSVAL
+.
+isInt32
 (
 1
 )

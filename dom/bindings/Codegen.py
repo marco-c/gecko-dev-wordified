@@ -43231,7 +43231,10 @@ int32
         
 return
 "
-INT_TO_JSVAL
+JS
+:
+:
+Int32Value
 (
 %
 s

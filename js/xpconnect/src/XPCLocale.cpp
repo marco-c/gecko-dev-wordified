@@ -909,12 +909,9 @@ false
 }
 rval
 .
-set
-(
-INT_TO_JSVAL
+setInt32
 (
 result
-)
 )
 ;
 return

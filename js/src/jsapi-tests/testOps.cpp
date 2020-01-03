@@ -392,10 +392,11 @@ rval
 )
 )
 ;
-CHECK_SAME
+CHECK
 (
 rval
-INT_TO_JSVAL
+.
+isInt32
 (
 123
 )

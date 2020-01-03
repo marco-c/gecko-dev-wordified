@@ -863,13 +863,14 @@ k
 +
 +
 )
-CHECK_SAME
+CHECK
 (
 elems
 [
 k
 ]
-INT_TO_JSVAL
+.
+isInt32
 (
 i
 +
@@ -906,7 +907,7 @@ isNull
 )
 )
 ;
-CHECK_SAME
+CHECK
 (
 elems
 [
@@ -914,7 +915,8 @@ MAX_ELEMS
 -
 1
 ]
-INT_TO_JSVAL
+.
+isInt32
 (
 42
 )
