@@ -5313,7 +5313,7 @@ Register
 result
 Register
 temp
-JSObject
+NativeObject
 *
 templateObj
 gc
@@ -5357,7 +5357,7 @@ Register
 obj
 Register
 temp
-JSObject
+NativeObject
 *
 templateObj
 bool
