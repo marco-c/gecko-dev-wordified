@@ -169,6 +169,11 @@ s
 onGarbageCollection
 hook
 .
+gczeal
+(
+0
+)
+;
 const
 debuggeree
 =

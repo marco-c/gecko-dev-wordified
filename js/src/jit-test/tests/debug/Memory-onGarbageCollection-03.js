@@ -9,6 +9,11 @@ is
 not
 reentrant
 .
+gczeal
+(
+0
+)
+;
 const
 root
 =

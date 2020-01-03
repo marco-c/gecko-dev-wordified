@@ -11,6 +11,11 @@ with
 each
 other
 .
+gczeal
+(
+0
+)
+;
 const
 root1
 =
