@@ -472,8 +472,6 @@ proposal
 .
 *
 /
-/
-/
 #
 define
 JS_HAS_EXPONENTIATION
