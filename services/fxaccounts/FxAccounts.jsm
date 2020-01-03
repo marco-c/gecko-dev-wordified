@@ -10527,7 +10527,7 @@ string
 Used
 by
 the
-FxAccountsWebChannel
+FxAccountsProfileChannel
 .
 *
 Defaults
@@ -10549,7 +10549,7 @@ string
 Used
 by
 the
-FxAccountsWebChannel
+FxAccountsProfileChannel
 .
 *
 Defaults
