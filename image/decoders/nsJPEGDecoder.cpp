@@ -2118,8 +2118,6 @@ colorpsace
 ;
 return
 ;
-break
-;
 }
 }
 /
