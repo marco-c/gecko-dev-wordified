@@ -11386,10 +11386,13 @@ the
 order
 added
 .
+nsTArray
+<
 MediaQueryList
 :
 :
-NotifyList
+HandleChangeData
+>
 notifyList
 ;
 for
