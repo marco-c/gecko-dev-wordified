@@ -18760,7 +18760,7 @@ if
 aMsg
 =
 =
-NS_DRAGDROP_OVER
+eDragOver
 )
 {
 InitDragEvent

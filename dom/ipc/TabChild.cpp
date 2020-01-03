@@ -11609,7 +11609,7 @@ aEvent
 mMessage
 =
 =
-NS_DRAGDROP_OVER
+eDragOver
 )
 {
 nsCOMPtr

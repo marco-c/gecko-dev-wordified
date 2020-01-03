@@ -30647,7 +30647,7 @@ aDragEvent
 mMessage
 =
 =
-NS_DRAGDROP_OVER
+eDragOver
 )
 {
 uint32_t

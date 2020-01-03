@@ -1930,7 +1930,7 @@ the
 event
 ProcessDrag
 (
-NS_DRAGDROP_OVER
+eDragOver
 grfKeyState
 ptl
 pdwEffect
