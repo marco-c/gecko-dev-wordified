@@ -5733,7 +5733,6 @@ downloads
 operations
 to
 the
-Error
 Console
 .
 pref
@@ -5743,9 +5742,11 @@ browser
 .
 download
 .
-debug
+loglevel
 "
-false
+"
+Error
+"
 )
 ;
 /
