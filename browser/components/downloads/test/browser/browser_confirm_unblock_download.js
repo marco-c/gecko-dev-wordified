@@ -282,7 +282,7 @@ confirmUnblockDownload
 (
 DownloadsCommon
 .
-UNBLOCK_MALWARE
+BLOCK_VERDICT_MALWARE
 window
 )
 ;
@@ -332,7 +332,7 @@ confirmUnblockDownload
 (
 DownloadsCommon
 .
-UNBLOCK_MALWARE
+BLOCK_VERDICT_MALWARE
 window
 )
 ;
