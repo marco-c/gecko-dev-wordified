@@ -2955,6 +2955,13 @@ createDefault
 void
 )
 ;
+static
+void
+U_EXPORT2
+recreateDefault
+(
+)
+;
 /
 *
 *
