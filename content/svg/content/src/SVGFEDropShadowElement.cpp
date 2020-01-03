@@ -118,6 +118,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsSVGFilterInstance
 .
 h
