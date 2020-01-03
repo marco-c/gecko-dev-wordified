@@ -3039,9 +3039,7 @@ notificationBox
 =
 browserWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 getNotificationBox
 (
@@ -3226,9 +3224,7 @@ notificationBox
 =
 browserWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 getNotificationBox
 (
@@ -3432,9 +3428,7 @@ browsers
 =
 aBrowserWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 browsers
 ;
