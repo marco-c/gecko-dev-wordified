@@ -892,6 +892,9 @@ oldOffset
 =
 mOffset
 ;
+uint32_t
+bytesRead
+;
 nsresult
 rv
 =
@@ -900,7 +903,8 @@ ReadAt
 aOffset
 aBuffer
 aCount
-nullptr
+&
+bytesRead
 )
 ;
 mOffset

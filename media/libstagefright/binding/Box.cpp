@@ -287,7 +287,7 @@ mContext
 mSource
 -
 >
-ReadAt
+CachedReadAt
 (
 aOffset
 header
@@ -389,7 +389,7 @@ mContext
 mSource
 -
 >
-ReadAt
+CachedReadAt
 (
 aOffset
 bigLength
@@ -604,7 +604,7 @@ mContext
 mSource
 -
 >
-ReadAt
+CachedReadAt
 (
 mChildOffset
 &
