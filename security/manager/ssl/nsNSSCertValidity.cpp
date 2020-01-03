@@ -313,7 +313,7 @@ dateFormatter
 FormatPRExplodedTime
 (
 nullptr
-kDateFormatLong
+kDateFormatShort
 kTimeFormatSecondsForce24Hour
 &
 explodedTime
@@ -393,7 +393,7 @@ dateFormatter
 FormatPRExplodedTime
 (
 nullptr
-kDateFormatLong
+kDateFormatShort
 kTimeFormatNone
 &
 explodedTime
@@ -473,7 +473,7 @@ dateFormatter
 FormatPRExplodedTime
 (
 nullptr
-kDateFormatLong
+kDateFormatShort
 kTimeFormatSecondsForce24Hour
 &
 explodedTime
@@ -593,7 +593,7 @@ dateFormatter
 FormatPRExplodedTime
 (
 nullptr
-kDateFormatLong
+kDateFormatShort
 kTimeFormatSecondsForce24Hour
 &
 explodedTime
@@ -673,7 +673,7 @@ dateFormatter
 FormatPRExplodedTime
 (
 nullptr
-kDateFormatLong
+kDateFormatShort
 kTimeFormatNone
 &
 explodedTime
@@ -753,7 +753,7 @@ dateFormatter
 FormatPRExplodedTime
 (
 nullptr
-kDateFormatLong
+kDateFormatShort
 kTimeFormatSecondsForce24Hour
 &
 explodedTime
