@@ -23933,7 +23933,7 @@ StyleTableBorder
 )
 -
 >
-mBorderSpacingX
+mBorderSpacingCol
 ;
 }
 /
@@ -24175,7 +24175,7 @@ StyleTableBorder
 )
 -
 >
-mBorderSpacingY
+mBorderSpacingRow
 ;
 }
 /

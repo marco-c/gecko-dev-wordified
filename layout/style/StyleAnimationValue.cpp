@@ -20873,7 +20873,7 @@ nscoordToCSSValue
 styleTableBorder
 -
 >
-mBorderSpacingX
+mBorderSpacingCol
 pair
 -
 >
@@ -20885,7 +20885,7 @@ nscoordToCSSValue
 styleTableBorder
 -
 >
-mBorderSpacingY
+mBorderSpacingRow
 pair
 -
 >

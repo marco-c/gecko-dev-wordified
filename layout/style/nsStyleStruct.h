@@ -14252,7 +14252,7 @@ nsChangeHint_ClearAncestorIntrinsics
 ;
 }
 nscoord
-mBorderSpacingX
+mBorderSpacingCol
 ;
 /
 /
@@ -14260,7 +14260,7 @@ mBorderSpacingX
 inherited
 ]
 nscoord
-mBorderSpacingY
+mBorderSpacingRow
 ;
 /
 /
