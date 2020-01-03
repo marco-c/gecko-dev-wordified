@@ -109,7 +109,10 @@ return
 result
 ;
 }
+add_task
+(
 function
+*
 test
 (
 )
@@ -366,6 +369,7 @@ one
 /
 Clear
 it
+yield
 s
 .
 sanitize
@@ -401,3 +405,5 @@ with
 )
 ;
 }
+)
+;
