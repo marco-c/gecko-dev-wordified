@@ -4792,9 +4792,7 @@ mCurrentProgram
 mCurrentProgram
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 ;
