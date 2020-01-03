@@ -3025,15 +3025,8 @@ const
 return
 mEntries
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-/
-*
-sizeOfEntryExcludingThis
-=
-*
-/
-nullptr
 aMallocSizeOf
 )
 ;

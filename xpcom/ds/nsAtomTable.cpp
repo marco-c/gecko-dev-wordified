@@ -3127,9 +3127,10 @@ don
 '
 t
 need
-a
-SizeOfEntry
-function
+to
+measure
+entries
+separately
 .
 *
 aStatic
@@ -3139,9 +3140,8 @@ gStaticAtomTable
 gStaticAtomTable
 -
 >
-SizeOfIncludingThis
+ShallowSizeOfIncludingThis
 (
-nullptr
 aMallocSizeOf
 )
 :

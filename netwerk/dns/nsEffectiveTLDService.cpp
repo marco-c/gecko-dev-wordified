@@ -879,9 +879,8 @@ n
 =
 mHash
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;

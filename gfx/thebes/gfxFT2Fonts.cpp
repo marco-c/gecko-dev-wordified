@@ -1389,9 +1389,8 @@ mFontInstances
 =
 mCharGlyphCache
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;

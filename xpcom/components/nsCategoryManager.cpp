@@ -1480,9 +1480,8 @@ owning
 return
 mTable
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;
