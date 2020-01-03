@@ -155,15 +155,6 @@ mozilla
 .
 gecko
 .
-NewTabletUI
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 R
 ;
 import
@@ -1035,7 +1026,7 @@ isTablet
 toolbar
 =
 new
-BrowserToolbarNewTablet
+BrowserToolbarTablet
 (
 context
 attrs
