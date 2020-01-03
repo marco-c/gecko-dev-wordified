@@ -3586,6 +3586,7 @@ aDoc
 ProxyCreated
 (
 aDoc
+0
 )
 ;
 }

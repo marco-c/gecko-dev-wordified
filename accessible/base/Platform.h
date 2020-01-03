@@ -339,6 +339,9 @@ ProxyCreated
 (
 ProxyAccessible
 *
+aProxy
+uint32_t
+aInterfaces
 )
 ;
 /
