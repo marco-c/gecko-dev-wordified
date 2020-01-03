@@ -937,6 +937,12 @@ DEVICES_ONLY
 |
 |
 clientrecords
+=
+=
+null
+|
+|
+clientrecords
 .
 length
 <
@@ -1576,7 +1582,6 @@ getIntent
 ;
 state
 =
-(
 intent
 .
 getBooleanExtra
@@ -1592,7 +1597,6 @@ DEVICES_ONLY
 State
 .
 DEFAULT
-)
 ;
 /
 /
