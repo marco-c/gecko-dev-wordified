@@ -325,7 +325,7 @@ const
 uint32_t
 XDR_BYTECODE_VERSION_SUBTRAHEND
 =
-228
+230
 ;
 static_assert
 (
@@ -369,7 +369,7 @@ static_assert
 JSErr_Limit
 =
 =
-366
+367
 "
 GREETINGS
 POTENTIAL
