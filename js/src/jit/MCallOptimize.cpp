@@ -10103,7 +10103,7 @@ JSContext
 *
 cx
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -10371,7 +10371,7 @@ JSContext
 *
 cx
 =
-GetIonContext
+GetJitContext
 (
 )
 -

@@ -3710,7 +3710,7 @@ LifoAlloc
 *
 alloc
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -3762,7 +3762,7 @@ LifoAlloc
 *
 alloc
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -5495,7 +5495,7 @@ fp
 Sprinter
 sp
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -8731,7 +8731,7 @@ toString
 )
 =
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -9206,7 +9206,7 @@ LifoAlloc
 *
 alloc
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -9383,7 +9383,7 @@ LifoAlloc
 *
 alloc
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -14481,7 +14481,7 @@ LifoAlloc
 *
 alloc
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -16716,7 +16716,7 @@ StringValue
 TypeName
 (
 type
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -21439,11 +21439,11 @@ fp
 ;
 if
 (
-IonContext
+JitContext
 *
 context
 =
-MaybeGetIonContext
+MaybeGetJitContext
 (
 )
 )
@@ -23546,7 +23546,7 @@ LifoAlloc
 *
 alloc
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -26319,7 +26319,7 @@ types
 [
 0
 ]
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -27087,7 +27087,7 @@ LifoAlloc
 *
 alloc
 =
-GetIonContext
+GetJitContext
 (
 )
 -

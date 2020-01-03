@@ -126,7 +126,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrameIterator
 .
 h
 "
@@ -135,7 +135,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JitFrames
 .
 h
 "
@@ -886,7 +886,7 @@ bailout
 table
 .
 See
-IonFrames
+JitFrames
 .
 h
 for

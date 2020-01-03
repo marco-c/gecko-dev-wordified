@@ -119,7 +119,7 @@ include
 "
 jit
 /
-IonAllocPolicy
+JitAllocPolicy
 .
 h
 "
@@ -229,7 +229,7 @@ HashSet
 MDefinition
 *
 ValueHasher
-IonAllocPolicy
+JitAllocPolicy
 >
 ValueSet
 ;
@@ -346,7 +346,7 @@ Vector
 MBasicBlock
 *
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 BlockWorklist
 ;
@@ -356,7 +356,7 @@ Vector
 MDefinition
 *
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 DefWorklist
 ;

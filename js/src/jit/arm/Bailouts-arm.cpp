@@ -551,7 +551,7 @@ ScriptFromCalleeToken
 (
 (
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 framePointer_

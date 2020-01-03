@@ -113,7 +113,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -208,15 +208,6 @@ include
 "
 jit
 /
-IonMacroAssembler
-.
-h
-"
-#
-include
-"
-jit
-/
 JitcodeMap
 .
 h
@@ -236,6 +227,15 @@ include
 jit
 /
 JitSpewer
+.
+h
+"
+#
+include
+"
+jit
+/
+MacroAssembler
 .
 h
 "
@@ -413,7 +413,7 @@ from
 an
 /
 /
-IonJSFrameLayout
+JitFrameLayout
 .
 Slot
 distances
@@ -455,7 +455,7 @@ inline
 uintptr_t
 ReadFrameSlot
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 int32_t
@@ -487,7 +487,7 @@ inline
 void
 WriteFrameSlot
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 int32_t
@@ -522,7 +522,7 @@ inline
 double
 ReadFrameDoubleSlot
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 int32_t
@@ -554,7 +554,7 @@ inline
 float
 ReadFrameFloat32Slot
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 int32_t
@@ -586,7 +586,7 @@ inline
 int32_t
 ReadFrameInt32Slot
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 int32_t
@@ -618,7 +618,7 @@ inline
 bool
 ReadFrameBooleanSlot
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 int32_t
@@ -1164,7 +1164,7 @@ const
 return
 (
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 current_
@@ -1725,7 +1725,7 @@ case
 JitFrame_Entry
 :
 return
-IonEntryFrameLayout
+EntryFrameLayout
 :
 :
 Size
@@ -1748,7 +1748,7 @@ case
 JitFrame_Unwound_IonJS
 :
 return
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 Size
@@ -1759,7 +1759,7 @@ case
 JitFrame_BaselineStub
 :
 return
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 :
 :
 Size
@@ -1770,7 +1770,7 @@ case
 JitFrame_Rectifier
 :
 return
-IonRectifierFrameLayout
+RectifierFrameLayout
 :
 :
 Size
@@ -1792,7 +1792,7 @@ case
 JitFrame_Exit
 :
 return
-IonExitFrameLayout
+ExitFrameLayout
 :
 :
 Size
@@ -5606,7 +5606,7 @@ return
 }
 }
 }
-IonJSFrameLayout
+JitFrameLayout
 *
 current
 =
@@ -5896,7 +5896,7 @@ fp
 void
 EnsureExitFrame
 (
-IonCommonFrameLayout
+CommonFrameLayout
 *
 frame
 )
@@ -6465,7 +6465,7 @@ top
 level
 frame
 .
-IonJSFrameLayout
+JitFrameLayout
 *
 layout
 =
@@ -6731,12 +6731,12 @@ JitFrameIterator
 frame
 )
 {
-IonJSFrameLayout
+JitFrameLayout
 *
 layout
 =
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 frame
@@ -7250,12 +7250,12 @@ JitFrameIterator
 frame
 )
 {
-IonJSFrameLayout
+JitFrameLayout
 *
 layout
 =
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 frame
@@ -7521,12 +7521,12 @@ in
 this
 frame
 .
-IonJSFrameLayout
+JitFrameLayout
 *
 layout
 =
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 frame
@@ -7903,12 +7903,12 @@ type
 JitFrame_BaselineStub
 )
 ;
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 *
 layout
 =
 (
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 *
 )
 frame
@@ -8007,7 +8007,7 @@ fp
 }
 else
 {
-IonExitFrameLayout
+ExitFrameLayout
 *
 exitFrame
 =
@@ -8017,7 +8017,7 @@ exitFrame
 (
 )
 ;
-IonExitFooterFrame
+ExitFooterFrame
 *
 footer
 =
@@ -8282,7 +8282,7 @@ const
 VMFunction
 *
 f
-IonExitFooterFrame
+ExitFooterFrame
 *
 footer
 )
@@ -8473,7 +8473,7 @@ const
 VMFunction
 *
 f
-IonExitFooterFrame
+ExitFooterFrame
 *
 footer
 )
@@ -8525,7 +8525,7 @@ isFakeExitFrame
 )
 return
 ;
-IonExitFooterFrame
+ExitFooterFrame
 *
 footer
 =
@@ -8676,13 +8676,13 @@ frame
 .
 isExitFrameLayout
 <
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 >
 (
 )
 )
 {
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 *
 native
 =
@@ -8695,7 +8695,7 @@ exitFrame
 >
 as
 <
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 >
 (
 )
@@ -9936,12 +9936,12 @@ a
 primitive
 value
 .
-IonRectifierFrameLayout
+RectifierFrameLayout
 *
 layout
 =
 (
-IonRectifierFrameLayout
+RectifierFrameLayout
 *
 )
 frame
@@ -11043,7 +11043,7 @@ RInstructionResults
 :
 RInstructionResults
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 )
@@ -11287,7 +11287,7 @@ return
 initialized_
 ;
 }
-IonJSFrameLayout
+JitFrameLayout
 *
 RInstructionResults
 :
@@ -11407,7 +11407,7 @@ IonScript
 ionScript
 SnapshotOffset
 snapshotOffset
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 const
@@ -13309,7 +13309,7 @@ numInstructions
 return
 true
 ;
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 =
@@ -14116,7 +14116,7 @@ return
 s
 ;
 }
-IonJSFrameLayout
+JitFrameLayout
 *
 JitFrameIterator
 :
@@ -14141,7 +14141,7 @@ isBailoutJS
 )
 return
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 activation_
@@ -14158,7 +14158,7 @@ fp
 ;
 return
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 fp
@@ -15893,7 +15893,7 @@ MOZ_ASSERT
 (
 isExitFrameLayout
 <
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 >
 (
 )
@@ -15907,7 +15907,7 @@ exitFrame
 >
 as
 <
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 >
 (
 )
@@ -17621,7 +17621,7 @@ endif
 /
 /
 DEBUG
-IonJSFrameLayout
+JitFrameLayout
 *
 InvalidationBailoutStack
 :
@@ -17633,7 +17633,7 @@ const
 {
 return
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 (
@@ -17662,7 +17662,7 @@ const
 #
 ifdef
 DEBUG
-IonJSFrameLayout
+JitFrameLayout
 *
 frame
 =

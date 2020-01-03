@@ -172,15 +172,6 @@ include
 "
 jit
 /
-IonLinker
-.
-h
-"
-#
-include
-"
-jit
-/
 JitcodeMap
 .
 h
@@ -191,6 +182,15 @@ include
 jit
 /
 JitSpewer
+.
+h
+"
+#
+include
+"
+jit
+/
+Linker
 .
 h
 "
@@ -249,7 +249,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -8204,7 +8204,7 @@ IonScript
 *
 ion
 =
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -11220,7 +11220,7 @@ RootedScript
 outerScript
 (
 cx
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 &
@@ -12200,7 +12200,7 @@ IonScript
 *
 ion
 =
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -18373,7 +18373,7 @@ RootedScript
 script
 (
 cx
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 &
@@ -19029,7 +19029,7 @@ IonScript
 *
 ion
 =
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -23030,7 +23030,7 @@ RootedScript
 outerScript
 (
 cx
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 &
@@ -25569,7 +25569,7 @@ RootedScript
 outerScript
 (
 cx
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -25939,7 +25939,7 @@ IonScript
 *
 ion
 =
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -26436,7 +26436,7 @@ IonScript
 *
 ion
 =
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -27754,7 +27754,7 @@ RootedScript
 outerScript
 (
 cx
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -28656,7 +28656,7 @@ RootedScript
 outerScript
 (
 cx
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 &
@@ -29126,7 +29126,7 @@ RootedScript
 outerScript
 (
 cx
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )

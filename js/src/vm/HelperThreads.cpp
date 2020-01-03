@@ -5870,8 +5870,8 @@ runtime
 jit
 :
 :
-IonContext
-icx
+JitContext
+jcx
 (
 asmData
 -
@@ -6368,8 +6368,8 @@ runtimeFromAnyThread
 jit
 :
 :
-IonContext
-ictx
+JitContext
+jctx
 (
 jit
 :

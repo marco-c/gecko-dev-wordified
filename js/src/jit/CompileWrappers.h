@@ -268,7 +268,7 @@ addressOfJitStackLimit
 &
 mainThread
 .
-ionJSContext
+jitJSContext
 const
 void
 *
@@ -292,7 +292,7 @@ addressOfActivation
 /
 /
 &
-GetIonContext
+GetJitContext
 (
 )
 -

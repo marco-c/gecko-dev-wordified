@@ -573,11 +573,11 @@ return
 ;
 if
 (
-IonContext
+JitContext
 *
 context
 =
-MaybeGetIonContext
+MaybeGetJitContext
 (
 )
 )

@@ -223,7 +223,7 @@ namespace
 jit
 {
 class
-IonContext
+JitContext
 ;
 class
 CompileCompartment
@@ -1909,7 +1909,7 @@ class
 jit
 :
 :
-IonContext
+JitContext
 ;
 /
 /

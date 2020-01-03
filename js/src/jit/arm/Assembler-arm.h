@@ -7355,14 +7355,14 @@ to
 wait
 until
 an
-AutoIonContextAlloc
+AutoJitContextAlloc
 is
 created
 by
 the
 /
 /
-IonMacroAssembler
+MacroAssembler
 before
 allocating
 any

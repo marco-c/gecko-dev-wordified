@@ -128,7 +128,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 .
 h
 "
@@ -137,7 +137,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+MacroAssembler
 .
 h
 "
@@ -1257,7 +1257,7 @@ framePushed
 =
 initialDepth
 +
-IonExitFrameLayout
+ExitFrameLayout
 :
 :
 Size

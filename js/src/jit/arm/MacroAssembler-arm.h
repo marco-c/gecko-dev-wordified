@@ -166,7 +166,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 .
 h
 "
@@ -3392,7 +3392,7 @@ aligned
 )
 .
 void
-ma_callIon
+ma_callJit
 (
 const
 Register
@@ -3414,7 +3414,7 @@ been
 decremented
 .
 void
-ma_callIonNoPush
+ma_callJitNoPush
 (
 const
 Register
@@ -3441,7 +3441,7 @@ byte
 aligned
 .
 void
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 const
 Register
@@ -3468,7 +3468,7 @@ byte
 aligned
 .
 void
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 Label
 *
@@ -4621,7 +4621,7 @@ Always
 rs
 )
 ;
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 ScratchRegister
 )
@@ -9904,8 +9904,7 @@ dynStack
 /
 /
 Makes
-an
-Ion
+a
 call
 using
 the
@@ -9927,7 +9926,7 @@ a
 call
 .
 void
-callIon
+callJit
 (
 Register
 callee

@@ -119,7 +119,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 .
 h
 "
@@ -167,7 +167,7 @@ arguments
 fp
 +
 x
-IonJSFrameLayout
+JitFrameLayout
 (
 frame
 header
@@ -2150,7 +2150,7 @@ return
 false
 ;
 }
-IonJSFrameLayout
+JitFrameLayout
 *
 framePrefix
 (
@@ -2175,7 +2175,7 @@ FramePointerOffset
 ;
 return
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 fp
@@ -2206,7 +2206,7 @@ js
 jit
 :
 :
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfCalleeToken
@@ -2229,7 +2229,7 @@ js
 jit
 :
 :
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfThis
@@ -2254,7 +2254,7 @@ js
 jit
 :
 :
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfActualArg
@@ -2278,7 +2278,7 @@ js
 jit
 :
 :
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfNumActualArgs

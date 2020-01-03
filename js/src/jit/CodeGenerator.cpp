@@ -263,15 +263,6 @@ include
 "
 jit
 /
-IonLinker
-.
-h
-"
-#
-include
-"
-jit
-/
 IonOptimizationLevels
 .
 h
@@ -291,6 +282,15 @@ include
 jit
 /
 JitSpewer
+.
+h
+"
+#
+include
+"
+jit
+/
+Linker
 .
 h
 "
@@ -4368,7 +4368,7 @@ Label
 *
 res
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -5448,7 +5448,7 @@ JSAtomState
 &
 names
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -5581,7 +5581,7 @@ movePtr
 ImmPtr
 (
 &
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -6075,7 +6075,7 @@ JSAtomState
 &
 names
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -13835,7 +13835,7 @@ frameSize
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfCalleeToken
@@ -13887,7 +13887,7 @@ frameSize
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfCalleeToken
@@ -18367,7 +18367,7 @@ mov
 (
 ImmPtr
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -19266,7 +19266,7 @@ enterFakeExitFrame
 argContextReg
 tempReg
 executionMode
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 :
 :
 Token
@@ -19426,7 +19426,7 @@ loadValue
 Address
 (
 StackPointer
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 :
 :
 offsetOfResult
@@ -19479,7 +19479,7 @@ masm
 .
 adjustStack
 (
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 :
 :
 Size
@@ -21304,7 +21304,7 @@ callOffset
 =
 masm
 .
-callIon
+callJit
 (
 objreg
 )
@@ -21352,7 +21352,7 @@ prefixGarbage
 =
 sizeof
 (
-IonJSFrameLayout
+JitFrameLayout
 )
 -
 sizeof
@@ -22016,7 +22016,7 @@ callOffset
 =
 masm
 .
-callIon
+callJit
 (
 objreg
 )
@@ -22064,7 +22064,7 @@ prefixGarbage
 =
 sizeof
 (
-IonJSFrameLayout
+JitFrameLayout
 )
 -
 sizeof
@@ -22487,7 +22487,7 @@ frameSize
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfActualArgs
@@ -23528,7 +23528,7 @@ callOffset
 =
 masm
 .
-callIon
+callJit
 (
 objreg
 )
@@ -23622,7 +23622,7 @@ prefixGarbage
 =
 sizeof
 (
-IonJSFrameLayout
+JitFrameLayout
 )
 -
 sizeof
@@ -25241,7 +25241,7 @@ void
 *
 limitAddr
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -26092,7 +26092,7 @@ finishes
 if
 (
 !
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -26552,7 +26552,7 @@ masm
 )
 printer
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -34017,7 +34017,7 @@ NewIonArgumentsObjectFn
 JSContext
 *
 cx
-IonJSFrameLayout
+JitFrameLayout
 *
 frame
 HandleObject
@@ -41994,7 +41994,7 @@ JSAtomState
 &
 names
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -44178,7 +44178,7 @@ Imm32
 (
 sizeof
 (
-IonExitFrameLayout
+ExitFrameLayout
 )
 )
 )
@@ -44512,7 +44512,7 @@ movePtr
 ImmPtr
 (
 &
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -50412,7 +50412,7 @@ loadPtr
 (
 AbsoluteAddress
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -52059,7 +52059,7 @@ frameSize
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfNumActualArgs
@@ -52117,7 +52117,7 @@ frameSize
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfActualArgs
@@ -52221,7 +52221,7 @@ frameSize
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfActualArgs
@@ -52361,7 +52361,7 @@ frameSize
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfActualArgs
@@ -52439,7 +52439,7 @@ frameSize
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfActualArgs
@@ -52656,7 +52656,7 @@ frameSize
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfActualArgs
@@ -61952,7 +61952,7 @@ JSAtomState
 &
 names
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -62877,7 +62877,7 @@ movePtr
 (
 ImmPtr
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -71888,7 +71888,7 @@ false
 AbsoluteAddress
 interruptAddr
 (
-GetIonContext
+GetJitContext
 (
 )
 -

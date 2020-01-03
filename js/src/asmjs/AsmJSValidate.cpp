@@ -14950,9 +14950,9 @@ mirGen_
 ;
 Maybe
 <
-IonContext
+JitContext
 >
-ionContext_
+jitContext_
 ;
 MBasicBlock
 *
@@ -15663,7 +15663,7 @@ TempAllocator
 lifo_
 )
 ;
-ionContext_
+jitContext_
 .
 emplace
 (
@@ -51368,8 +51368,8 @@ PRMJ_Now
 (
 )
 ;
-IonContext
-icx
+JitContext
+jcx
 (
 m
 .
@@ -52051,8 +52051,8 @@ the
 main
 thread
 .
-IonContext
-ionContext
+JitContext
+jitContext
 (
 m
 .
@@ -62726,8 +62726,8 @@ alloc
 lifo
 )
 ;
-IonContext
-ionContext
+JitContext
+jitContext
 (
 m
 .

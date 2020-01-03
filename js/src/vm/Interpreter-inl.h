@@ -4956,8 +4956,8 @@ script_
 /
 /
 Constructing
-an
-IonContext
+a
+JitContext
 is
 pretty
 expensive
@@ -5206,7 +5206,7 @@ Method_Compiled
 jit
 :
 :
-IonExecStatus
+JitExecStatus
 result
 =
 jit
@@ -5237,7 +5237,7 @@ result
 jit
 :
 :
-IonExec_Ok
+JitExec_Ok
 )
 ;
 return

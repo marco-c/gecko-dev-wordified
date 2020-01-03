@@ -122,7 +122,7 @@ include
 "
 jit
 /
-IonLinker
+Linker
 .
 h
 "
@@ -131,7 +131,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+MacroAssembler
 .
 h
 "
@@ -1434,8 +1434,8 @@ alloc
 lifo
 )
 ;
-IonContext
-ic
+JitContext
+jc
 (
 cx
 &
@@ -1916,8 +1916,8 @@ alloc
 lifo
 )
 ;
-IonContext
-ic
+JitContext
+jc
 (
 cx
 &
@@ -3249,8 +3249,8 @@ alloc
 lifo
 )
 ;
-IonContext
-ic
+JitContext
+jc
 (
 cx
 &
@@ -4741,8 +4741,8 @@ alloc
 lifo
 )
 ;
-IonContext
-ic
+JitContext
+jc
 (
 cx
 &

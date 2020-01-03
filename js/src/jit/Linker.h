@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_IonLinker_h
+jit_Linker_h
 #
 define
-jit_IonLinker_h
+jit_Linker_h
 #
 include
 "
@@ -158,7 +158,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+JitCompartment
 .
 h
 "
@@ -167,7 +167,7 @@ include
 "
 jit
 /
-JitCompartment
+MacroAssembler
 .
 h
 "
@@ -628,6 +628,6 @@ js
 endif
 /
 *
-jit_IonLinker_h
+jit_Linker_h
 *
 /

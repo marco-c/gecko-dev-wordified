@@ -132,7 +132,7 @@ include
 "
 jit
 /
-IonAllocPolicy
+JitAllocPolicy
 .
 h
 "
@@ -734,7 +734,7 @@ Vector
 <
 LinearTerm
 2
-IonAllocPolicy
+JitAllocPolicy
 >
 terms_
 ;

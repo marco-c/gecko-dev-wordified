@@ -12678,7 +12678,7 @@ Vector
 MBasicBlock
 *
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 worklist
 (
@@ -16994,7 +16994,7 @@ DefaultHasher
 <
 uint32_t
 >
-IonAllocPolicy
+JitAllocPolicy
 >
 BoundsCheckMap
 ;
@@ -19383,7 +19383,7 @@ Vector
 MBasicBlock
 *
 1
-IonAllocPolicy
+JitAllocPolicy
 >
 worklist
 (
@@ -20525,7 +20525,7 @@ const
 Sprinter
 sp
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -22821,8 +22821,8 @@ temp
 alloc
 )
 ;
-IonContext
-ictx
+JitContext
+jctx
 (
 cx
 &
@@ -24580,8 +24580,8 @@ temp
 alloc
 )
 ;
-IonContext
-ictx
+JitContext
+jctx
 (
 cx
 &

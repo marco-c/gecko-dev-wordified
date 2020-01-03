@@ -1128,7 +1128,7 @@ changes
 here
 .
 See
-IonMacroAssembler
+MacroAssembler
 :
 :
 branchIfNotInterpretedConstructor

@@ -10791,7 +10791,7 @@ Up
 Make
 a
 new
-IonContext
+JitContext
 for
 the
 slice
@@ -10810,8 +10810,8 @@ enter
 the
 VM
 .
-IonContext
-icx
+JitContext
+jcx
 (
 CompileRuntime
 :

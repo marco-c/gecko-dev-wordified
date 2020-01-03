@@ -534,7 +534,7 @@ Vector
 <
 LMove
 2
-IonAllocPolicy
+JitAllocPolicy
 >
 moves_
 ;

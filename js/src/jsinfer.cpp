@@ -5618,7 +5618,7 @@ thread
 using
 the
 current
-Ion
+JIT
 context
 '
 s
@@ -5833,7 +5833,7 @@ CompilerConstraint
 jit
 :
 :
-IonAllocPolicy
+JitAllocPolicy
 >
 constraints
 ;
@@ -5857,7 +5857,7 @@ FrozenScript
 jit
 :
 :
-IonAllocPolicy
+JitAllocPolicy
 >
 frozenScripts
 ;

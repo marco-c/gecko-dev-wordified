@@ -985,7 +985,7 @@ AliasSet
 :
 :
 NumCategories
-IonAllocPolicy
+JitAllocPolicy
 >
 stores
 (

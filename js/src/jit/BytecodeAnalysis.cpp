@@ -347,7 +347,7 @@ Vector
 <
 CatchFinallyRange
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 catchFinallyRanges
 (

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_IonMacroAssembler_h
+jit_MacroAssembler_h
 #
 define
-jit_IonMacroAssembler_h
+jit_MacroAssembler_h
 #
 include
 "
@@ -936,16 +936,16 @@ mozilla
 :
 Maybe
 <
-IonContext
+JitContext
 >
-ionContext_
+jitContext_
 ;
 mozilla
 :
 :
 Maybe
 <
-AutoIonContextAlloc
+AutoJitContextAlloc
 >
 alloc_
 ;
@@ -1099,11 +1099,11 @@ sps_
 nullptr
 )
 {
-IonContext
+JitContext
 *
-icx
+jcx
 =
-GetIonContext
+GetJitContext
 (
 )
 ;
@@ -1111,7 +1111,7 @@ JSContext
 *
 cx
 =
-icx
+jcx
 -
 >
 cx
@@ -1128,7 +1128,7 @@ cx
 if
 (
 !
-icx
+jcx
 -
 >
 temp
@@ -1152,7 +1152,7 @@ moveResolver_
 setAllocator
 (
 *
-icx
+jcx
 -
 >
 temp
@@ -1169,7 +1169,7 @@ m_buffer
 .
 id
 =
-icx
+jcx
 -
 >
 getNextAssemblerId
@@ -1191,7 +1191,7 @@ when
 there
 is
 no
-IonContext
+JitContext
 active
 /
 /
@@ -1244,7 +1244,7 @@ constructRoot
 cx
 )
 ;
-ionContext_
+jitContext_
 .
 emplace
 (
@@ -1274,7 +1274,7 @@ moveResolver_
 setAllocator
 (
 *
-ionContext_
+jitContext_
 -
 >
 temp
@@ -1291,7 +1291,7 @@ m_buffer
 .
 id
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -1407,7 +1407,7 @@ compilation
 handles
 its
 own
-IonContext
+JitContext
 -
 pushing
 struct
@@ -2507,7 +2507,7 @@ loadPtr
 (
 AbsoluteAddress
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -2534,7 +2534,7 @@ loadPtr
 (
 AbsoluteAddress
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -4284,7 +4284,7 @@ CompileZone
 *
 zone
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -4372,7 +4372,7 @@ JitRuntime
 *
 rt
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -5775,7 +5775,7 @@ e
 .
 g
 .
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 :
 :
 Token
@@ -5847,7 +5847,7 @@ movePtr
 (
 ImmPtr
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -5944,7 +5944,7 @@ leaveExitFrame
 {
 freeStack
 (
-IonExitFooterFrame
+ExitFooterFrame
 :
 :
 Size
@@ -6262,7 +6262,7 @@ what
 is
 returned
 uint32_t
-callIon
+callJit
 (
 Register
 callee
@@ -6275,7 +6275,7 @@ leaveSPSFrame
 MacroAssemblerSpecific
 :
 :
-callIon
+callJit
 (
 callee
 )
@@ -9914,6 +9914,6 @@ js
 endif
 /
 *
-jit_IonMacroAssembler_h
+jit_MacroAssembler_h
 *
 /

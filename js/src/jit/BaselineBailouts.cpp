@@ -234,7 +234,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -647,7 +647,7 @@ JitFrameIterator
 &
 iter_
 ;
-IonJSFrameLayout
+JitFrameLayout
 *
 frame_
 ;
@@ -709,7 +709,7 @@ frame_
 (
 static_cast
 <
-IonJSFrameLayout
+JitFrameLayout
 *
 >
 (
@@ -1942,7 +1942,7 @@ bufferUsed_
 ;
 }
 inline
-IonJSFrameLayout
+JitFrameLayout
 *
 startFrame
 (
@@ -1954,7 +1954,7 @@ frame_
 }
 BufferPointer
 <
-IonJSFrameLayout
+JitFrameLayout
 >
 topFrameAddress
 (
@@ -1963,7 +1963,7 @@ topFrameAddress
 return
 pointerAtStackOffset
 <
-IonJSFrameLayout
+JitFrameLayout
 >
 (
 0
@@ -2110,7 +2110,7 @@ frame
 .
 BufferPointer
 <
-IonJSFrameLayout
+JitFrameLayout
 >
 topFrame
 =
@@ -2214,7 +2214,7 @@ pointer
 /
 STACK_START_ADDR
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 Size
@@ -2225,7 +2225,7 @@ PREV_FRAME_SIZE
 /
 /
 -
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 :
 :
 reverseOffsetOfSavedFramePtr
@@ -2242,7 +2242,7 @@ JitFrame_BaselineStub
 size_t
 offset
 =
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 Size
@@ -2256,7 +2256,7 @@ prevFrameLocalSize
 (
 )
 +
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 :
 :
 reverseOffsetOfSavedFramePtr
@@ -2345,7 +2345,7 @@ frame
 size_t
 priorOffset
 =
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 Size
@@ -2448,13 +2448,13 @@ frame
 .
 BufferPointer
 <
-IonRectifierFrameLayout
+RectifierFrameLayout
 >
 priorFrame
 =
 pointerAtStackOffset
 <
-IonRectifierFrameLayout
+RectifierFrameLayout
 >
 (
 priorOffset
@@ -2538,7 +2538,7 @@ X
 =
 STACK_START_ADDR
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 Size
@@ -2550,7 +2550,7 @@ PREV_FRAME_SIZE
 /
 X
 +
-IonRectifierFrameLayout
+RectifierFrameLayout
 :
 :
 Size
@@ -2561,7 +2561,7 @@ Size
 +
 (
 (
-IonRectifierFrameLayout
+RectifierFrameLayout
 *
 )
 X
@@ -2583,7 +2583,7 @@ reverseOffsetOfSavedFramePtr
 size_t
 extraOffset
 =
-IonRectifierFrameLayout
+RectifierFrameLayout
 :
 :
 Size
@@ -2597,7 +2597,7 @@ prevFrameLocalSize
 (
 )
 +
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 :
 :
 reverseOffsetOfSavedFramePtr
@@ -5901,7 +5901,7 @@ framePushed
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfThis
@@ -6139,7 +6139,7 @@ framePushed
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfActualArg

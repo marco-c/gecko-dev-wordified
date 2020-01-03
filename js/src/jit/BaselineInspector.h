@@ -508,7 +508,7 @@ Vector
 Shape
 *
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 ShapeVector
 ;

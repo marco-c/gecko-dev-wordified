@@ -176,7 +176,7 @@ include
 "
 jit
 /
-IonAllocPolicy
+JitAllocPolicy
 .
 h
 "
@@ -6017,7 +6017,7 @@ Vector
 MNode
 *
 2
-IonAllocPolicy
+JitAllocPolicy
 >
 Instructions
 ;
@@ -6917,7 +6917,7 @@ Vector
 <
 uint32_t
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 SlotList
 ;
@@ -6926,7 +6926,7 @@ Vector
 <
 NunboxEntry
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 NunboxList
 ;
@@ -9264,7 +9264,7 @@ Vector
 <
 Value
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 constantPool_
 ;
@@ -9274,7 +9274,7 @@ HashMap
 Value
 uint32_t
 ValueHasher
-IonAllocPolicy
+JitAllocPolicy
 >
 ConstantPoolMap
 ;
@@ -9286,7 +9286,7 @@ Vector
 LInstruction
 *
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 safepoints_
 ;
@@ -9295,7 +9295,7 @@ Vector
 LInstruction
 *
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 nonCallSafepoints_
 ;

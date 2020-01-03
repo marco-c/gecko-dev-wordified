@@ -283,7 +283,7 @@ FAKE_JIT_TOP_FOR_BAILOUT
 +
 sizeof
 (
-IonCommonFrameLayout
+CommonFrameLayout
 )
 0
 0x1000
@@ -1221,7 +1221,7 @@ functionNonDelazifying
 popSPSFrame
 )
 ;
-IonJSFrameLayout
+JitFrameLayout
 *
 frame
 =

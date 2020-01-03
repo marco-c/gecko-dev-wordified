@@ -126,7 +126,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrameIterator
 .
 h
 "
@@ -135,7 +135,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JitFrames
 .
 h
 "
@@ -501,12 +501,12 @@ outerScript
 )
 const
 {
-IonJSFrameLayout
+JitFrameLayout
 *
 jsFrame
 =
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 top_

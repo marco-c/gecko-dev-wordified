@@ -374,7 +374,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -2687,7 +2687,7 @@ Method_Compiled
 jit
 :
 :
-IonExecStatus
+JitExecStatus
 status
 =
 jit
@@ -2761,7 +2761,7 @@ Method_Compiled
 jit
 :
 :
-IonExecStatus
+JitExecStatus
 status
 =
 jit
@@ -10850,7 +10850,7 @@ hasPushedSPSFrame
 jit
 :
 :
-IonExecStatus
+JitExecStatus
 maybeOsr
 =
 jit
@@ -10893,7 +10893,7 @@ maybeOsr
 jit
 :
 :
-IonExec_Aborted
+JitExec_Aborted
 )
 goto
 error
@@ -10907,7 +10907,7 @@ maybeOsr
 jit
 :
 :
-IonExec_Ok
+JitExec_Ok
 )
 ;
 /
@@ -15869,7 +15869,7 @@ Method_Compiled
 jit
 :
 :
-IonExecStatus
+JitExecStatus
 exec
 =
 jit
@@ -15961,7 +15961,7 @@ Method_Compiled
 jit
 :
 :
-IonExecStatus
+JitExecStatus
 exec
 =
 jit

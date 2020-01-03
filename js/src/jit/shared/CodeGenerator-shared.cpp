@@ -155,15 +155,6 @@ include
 "
 jit
 /
-IonMacroAssembler
-.
-h
-"
-#
-include
-"
-jit
-/
 JitcodeMap
 .
 h
@@ -174,6 +165,15 @@ include
 jit
 /
 JitSpewer
+.
+h
+"
+#
+include
+"
+jit
+/
+MacroAssembler
 .
 h
 "
@@ -218,7 +218,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -371,7 +371,7 @@ nativeToBytecodeScriptListLength_
 sps_
 (
 &
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -1997,7 +1997,7 @@ int32_t
 (
 sizeof
 (
-IonJSFrameLayout
+JitFrameLayout
 )
 )
 <
@@ -2021,7 +2021,7 @@ int32_t
 (
 sizeof
 (
-IonJSFrameLayout
+JitFrameLayout
 )
 +
 a
@@ -6921,7 +6921,7 @@ outParam
 =
 =
 Type_Double
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -7249,7 +7249,7 @@ framePop
 =
 sizeof
 (
-IonExitFrameLayout
+ExitFrameLayout
 )
 -
 sizeof

@@ -144,7 +144,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 .
 h
 "
@@ -2036,7 +2036,7 @@ byte
 alinged
 )
 void
-ma_callIon
+ma_callJit
 (
 const
 Register
@@ -2057,7 +2057,7 @@ already
 been
 decremented
 void
-ma_callIonNoPush
+ma_callJitNoPush
 (
 const
 Register
@@ -2081,7 +2081,7 @@ not
 byte
 aligned
 void
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 const
 Register
@@ -2089,7 +2089,7 @@ reg
 )
 ;
 void
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 Label
 *
@@ -2781,7 +2781,7 @@ raw
 )
 )
 ;
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 ScratchRegister
 )
@@ -2849,7 +2849,7 @@ Label
 label
 )
 {
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 label
 )
@@ -7988,8 +7988,7 @@ dynStack
 /
 /
 Makes
-an
-Ion
+a
 call
 using
 the
@@ -8001,16 +8000,17 @@ it
 is
 sane
 for
-/
-/
 indep
 code
+/
+/
 to
 make
 a
 call
+.
 void
-callIon
+callJit
 (
 Register
 callee

@@ -1370,7 +1370,7 @@ to
 get
 a
 valid
-IonJSFrameLayout
+JitFrameLayout
 .
 uint32_t
 frameSize_

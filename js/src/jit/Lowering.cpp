@@ -13832,7 +13832,7 @@ JSAtomState
 &
 names
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -13878,7 +13878,7 @@ JSAtomState
 &
 names
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -16139,7 +16139,7 @@ installed
 .
 if
 (
-GetIonContext
+GetJitContext
 (
 )
 -

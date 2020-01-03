@@ -165,7 +165,7 @@ include
 "
 jit
 /
-IonFrames
+JitCompartment
 .
 h
 "
@@ -174,7 +174,7 @@ include
 "
 jit
 /
-JitCompartment
+JitFrames
 .
 h
 "
@@ -8044,7 +8044,7 @@ Vector
 <
 CodeLabel
 8
-IonAllocPolicy
+JitAllocPolicy
 >
 codeLabels_
 ;

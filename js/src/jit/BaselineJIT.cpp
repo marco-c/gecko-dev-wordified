@@ -231,7 +231,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -539,7 +539,7 @@ true
 ;
 }
 static
-IonExecStatus
+JitExecStatus
 EnterBaseline
 (
 JSContext
@@ -609,7 +609,7 @@ JS_CHECK_RECURSION_WITH_SP
 cx
 checkSp
 return
-IonExec_Aborted
+JitExec_Aborted
 )
 ;
 }
@@ -619,7 +619,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-IonExec_Aborted
+JitExec_Aborted
 )
 ;
 }
@@ -923,12 +923,12 @@ isMagic
 (
 )
 ?
-IonExec_Error
+JitExec_Error
 :
-IonExec_Ok
+JitExec_Ok
 ;
 }
-IonExecStatus
+JitExecStatus
 jit
 :
 :
@@ -997,9 +997,9 @@ vals
 )
 )
 return
-IonExec_Error
+JitExec_Error
 ;
-IonExecStatus
+JitExecStatus
 status
 =
 EnterBaseline
@@ -1013,7 +1013,7 @@ if
 status
 !
 =
-IonExec_Ok
+JitExec_Ok
 )
 return
 status
@@ -1028,10 +1028,10 @@ result
 )
 ;
 return
-IonExec_Ok
+JitExec_Ok
 ;
 }
-IonExecStatus
+JitExecStatus
 jit
 :
 :
@@ -1449,7 +1449,7 @@ TraceLogger
 Baseline
 )
 ;
-IonExecStatus
+JitExecStatus
 status
 =
 EnterBaseline
@@ -1463,7 +1463,7 @@ if
 status
 !
 =
-IonExec_Ok
+JitExec_Ok
 )
 return
 status
@@ -1479,7 +1479,7 @@ result
 )
 ;
 return
-IonExec_Ok
+JitExec_Ok
 ;
 }
 MethodStatus
@@ -1567,8 +1567,8 @@ temp
 return
 Method_Error
 ;
-IonContext
-ictx
+JitContext
+jctx
 (
 cx
 temp

@@ -1207,7 +1207,7 @@ struct
 IonScript
 ;
 class
-IonAllocPolicy
+JitAllocPolicy
 ;
 class
 TempAllocator

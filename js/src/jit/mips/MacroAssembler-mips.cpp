@@ -171,7 +171,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 .
 h
 "
@@ -8225,7 +8225,7 @@ framePushed
 =
 initialDepth
 +
-IonExitFrameLayout
+ExitFrameLayout
 :
 :
 Size
@@ -8318,7 +8318,7 @@ descriptor
 /
 /
 descriptor
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 target
 )
@@ -8393,7 +8393,7 @@ raw
 )
 )
 ;
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 ScratchRegister
 )
@@ -8474,7 +8474,7 @@ raw
 )
 )
 ;
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 ScratchRegister
 )
@@ -8484,7 +8484,7 @@ void
 MacroAssemblerMIPSCompat
 :
 :
-callIon
+callJit
 (
 Register
 callee
@@ -8518,7 +8518,7 @@ framePushed
 4
 )
 {
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 callee
 )
@@ -8534,7 +8534,7 @@ uint32_t
 )
 )
 ;
-ma_callIon
+ma_callJit
 (
 callee
 )
@@ -8551,7 +8551,7 @@ Register
 callee
 )
 {
-ma_callIonNoPush
+ma_callJitNoPush
 (
 callee
 )
@@ -17215,7 +17215,7 @@ void
 MacroAssemblerMIPS
 :
 :
-ma_callIonNoPush
+ma_callJitNoPush
 (
 const
 Register
@@ -17281,7 +17281,7 @@ void
 MacroAssemblerMIPS
 :
 :
-ma_callIon
+ma_callJit
 (
 const
 Register
@@ -17361,7 +17361,7 @@ void
 MacroAssemblerMIPS
 :
 :
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 const
 Register
@@ -17439,7 +17439,7 @@ void
 MacroAssemblerMIPS
 :
 :
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 Label
 *
@@ -19499,7 +19499,7 @@ JitCode
 *
 excTail
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -20316,7 +20316,7 @@ Nursery
 &
 nursery
 =
-GetIonContext
+GetJitContext
 (
 )
 -

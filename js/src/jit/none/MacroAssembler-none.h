@@ -1293,7 +1293,7 @@ MOZ_CRASH
 ;
 }
 void
-callIon
+callJit
 (
 Register
 callee

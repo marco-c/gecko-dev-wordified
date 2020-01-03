@@ -190,7 +190,7 @@ include
 "
 jit
 /
-IonAllocPolicy
+JitAllocPolicy
 .
 h
 "
@@ -199,7 +199,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+MacroAssembler
 .
 h
 "
@@ -5427,7 +5427,7 @@ Vector
 MDefinition
 *
 8
-IonAllocPolicy
+JitAllocPolicy
 >
 MDefinitionVector
 ;
@@ -5437,7 +5437,7 @@ Vector
 MInstruction
 *
 6
-IonAllocPolicy
+JitAllocPolicy
 >
 MInstructionVector
 ;
@@ -12398,7 +12398,7 @@ Vector
 MBasicBlock
 *
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 successors_
 ;
@@ -12406,7 +12406,7 @@ Vector
 <
 size_t
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 cases_
 ;
@@ -12428,7 +12428,7 @@ Vector
 MBasicBlock
 *
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 blocks_
 ;
@@ -31416,7 +31416,7 @@ Vector
 <
 MUse
 2
-IonAllocPolicy
+JitAllocPolicy
 >
 inputs_
 ;
@@ -44899,7 +44899,7 @@ Vector
 JSObject
 *
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 ObjectVector
 ;
@@ -44908,7 +44908,7 @@ Vector
 <
 bool
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 BoolVector
 ;
@@ -44975,7 +44975,7 @@ Vector
 Entry
 *
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 entries_
 ;
@@ -45743,7 +45743,7 @@ Vector
 <
 Entry
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 shapes_
 ;
@@ -46104,7 +46104,7 @@ Vector
 <
 Entry
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 shapes_
 ;
@@ -46396,7 +46396,7 @@ Vector
 <
 Entry
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 map_
 ;
@@ -47665,7 +47665,7 @@ Vector
 Shape
 *
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 shapes_
 ;

@@ -514,7 +514,7 @@ bailouts
 .
 if
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -562,7 +562,7 @@ if
 !
 ReconstructStackDepth
 (
-GetIonContext
+GetJitContext
 (
 )
 -

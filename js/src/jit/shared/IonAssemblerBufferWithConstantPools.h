@@ -1634,7 +1634,7 @@ Vector
 <
 BufferOffset
 512
-OldIonAllocPolicy
+OldJitAllocPolicy
 >
 LoadOffsets
 ;
@@ -1655,7 +1655,7 @@ struct
 Pool
 :
 public
-OldIonAllocPolicy
+OldJitAllocPolicy
 {
 private
 :
@@ -3655,7 +3655,7 @@ unique
 id
 within
 each
-IonContext
+JitContext
 to
 identify
 pools
@@ -3669,7 +3669,7 @@ spew
 Set
 by
 the
-IonMacroAssembler
+MacroAssembler
 see
 getNextAssemblerId
 (
@@ -3879,14 +3879,14 @@ to
 wait
 until
 an
-AutoIonContextAlloc
+AutoJitContextAlloc
 is
 created
 by
 the
 /
 /
-IonMacroAssembler
+MacroAssembler
 before
 allocating
 any

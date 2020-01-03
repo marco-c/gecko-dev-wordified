@@ -131,7 +131,7 @@ include
 "
 jit
 /
-IonLinker
+JitcodeMap
 .
 h
 "
@@ -140,7 +140,7 @@ include
 "
 jit
 /
-JitcodeMap
+Linker
 .
 h
 "
@@ -158,7 +158,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -1280,7 +1280,7 @@ prevFrameStubPtr
 =
 reinterpret_cast
 <
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 *
 >
 (
@@ -2075,7 +2075,7 @@ below
 .
 /
 /
-IonCommonFrameLayout
+CommonFrameLayout
 *
 prev
 =
@@ -3271,13 +3271,13 @@ recompiled
 )
 break
 ;
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 *
 layout
 =
 reinterpret_cast
 <
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 *
 >
 (
