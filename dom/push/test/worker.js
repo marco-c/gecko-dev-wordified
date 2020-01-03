@@ -23,12 +23,14 @@ licenses
 /
 publicdomain
 /
-addEventListener
-(
-"
-push
-"
+this
+.
+onpush
+=
+handlePush
+;
 function
+handlePush
 (
 event
 )
@@ -124,5 +126,3 @@ no
 )
 ;
 }
-)
-;
