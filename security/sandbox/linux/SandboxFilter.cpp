@@ -1261,6 +1261,14 @@ writev
 )
 )
 ;
+Allow
+(
+SYSCALL
+(
+pread64
+)
+)
+;
 AllowThreadClone
 (
 )
