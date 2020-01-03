@@ -14466,6 +14466,10 @@ aURI
 =
 nullptr
 ;
+PLACES_WARN_DEPRECATED
+(
+)
+;
 /
 /
 Shortcuts
