@@ -3737,6 +3737,12 @@ TrackType
 aTrack
 )
 {
+MonitorAutoLock
+mon
+(
+mIndexMonitor
+)
+;
 switch
 (
 aTrack
