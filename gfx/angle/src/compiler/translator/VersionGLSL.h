@@ -396,9 +396,6 @@ version
 ;
 private
 :
-ShShaderType
-mShaderType
-;
 int
 mVersion
 ;

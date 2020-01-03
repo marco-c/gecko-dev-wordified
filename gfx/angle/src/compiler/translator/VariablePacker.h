@@ -64,7 +64,7 @@ compiler
 /
 translator
 /
-ShHandle
+VariableInfo
 .
 h
 "

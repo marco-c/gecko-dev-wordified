@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2013
+2014
 The
 ANGLE
 Project
@@ -271,18 +271,6 @@ EOpPostIncrement
 EOpPostDecrement
 EOpPreIncrement
 EOpPreDecrement
-EOpConvIntToBool
-EOpConvUIntToBool
-EOpConvFloatToBool
-EOpConvBoolToFloat
-EOpConvIntToFloat
-EOpConvUIntToFloat
-EOpConvFloatToInt
-EOpConvBoolToInt
-EOpConvUIntToInt
-EOpConvIntToUInt
-EOpConvFloatToUInt
-EOpConvBoolToUInt
 /
 /
 /
