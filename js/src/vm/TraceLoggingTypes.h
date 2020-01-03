@@ -242,6 +242,11 @@ ParserCompileScript
 \
 _
 (
+ParserCompileModule
+)
+\
+_
+(
 Scripts
 )
 \
