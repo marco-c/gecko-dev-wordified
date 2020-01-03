@@ -790,6 +790,14 @@ h
 NSPR
     
 '
+prerror
+.
+h
+'
+#
+NSPR
+    
+'
 prinit
 .
 h
