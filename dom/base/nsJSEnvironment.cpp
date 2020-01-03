@@ -1070,13 +1070,6 @@ it
 define
 NS_CC_PURPLE_LIMIT
 200
-#
-define
-JAVASCRIPT
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 /
 /
 Large
