@@ -583,6 +583,17 @@ getToolbarView
 (
 )
 {
+mSolo
+.
+waitForView
+(
+R
+.
+id
+.
+browser_toolbar
+)
+;
 return
 mSolo
 .
