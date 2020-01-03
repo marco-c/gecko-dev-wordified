@@ -14740,11 +14740,6 @@ clipboardHelper
 copyString
 (
 str
-this
-.
-markup
-.
-doc
 )
 ;
 }

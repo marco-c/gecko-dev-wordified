@@ -3721,6 +3721,8 @@ getReversedHost
 (
 url
 )
+{
+return
 url
 .
 host
@@ -3744,6 +3746,8 @@ join
 "
 .
 "
+;
+}
 /
 *
 *

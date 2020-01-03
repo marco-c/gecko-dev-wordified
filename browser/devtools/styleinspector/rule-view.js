@@ -9955,9 +9955,6 @@ clipboardHelper
 copyString
 (
 text
-this
-.
-doc
 )
 ;
 event
@@ -10010,9 +10007,6 @@ copyString
 this
 .
 _colorToCopy
-this
-.
-styleDocument
 )
 ;
 }

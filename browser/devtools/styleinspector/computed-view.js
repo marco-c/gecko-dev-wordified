@@ -5345,9 +5345,6 @@ copyString
 this
 .
 _colorToCopy
-this
-.
-styleDocument
 )
 ;
 }
@@ -5565,9 +5562,6 @@ clipboardHelper
 copyString
 (
 result
-this
-.
-styleDocument
 )
 ;
 if
