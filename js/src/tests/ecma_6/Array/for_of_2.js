@@ -169,9 +169,7 @@ iter
 ]
 )
 [
-'
-iterator
-'
+std_iterator
 ]
 (
 )

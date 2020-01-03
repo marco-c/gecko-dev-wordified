@@ -168,9 +168,7 @@ String
 .
 prototype
 [
-"
-iterator
-"
+std_iterator
 ]
 =
 function
@@ -220,9 +218,7 @@ String
 .
 prototype
 [
-"
-iterator
-"
+std_iterator
 ]
 ;
 assertDeepEq

@@ -1707,11 +1707,9 @@ star_generator_methods
 ]
 =
 {
-JS_SELF_HOSTED_FN
+JS_SELF_HOSTED_SYM_FN
 (
-"
 iterator
-"
 "
 IteratorIdentity
 "
@@ -1759,11 +1757,9 @@ legacy_generator_methods
 ]
 =
 {
-JS_SELF_HOSTED_FN
+JS_SELF_HOSTED_SYM_FN
 (
-"
 iterator
-"
 "
 LegacyGeneratorIteratorShim
 "
