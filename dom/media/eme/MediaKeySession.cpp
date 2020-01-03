@@ -1482,6 +1482,8 @@ MediaKeySession
 :
 DispatchKeyMessage
 (
+MediaKeyMessageType
+aMessageType
 const
 nsTArray
 <
@@ -1489,10 +1491,6 @@ uint8_t
 >
 &
 aMessage
-const
-nsAString
-&
-aURL
 )
 {
 nsRefPtr
@@ -1507,7 +1505,7 @@ MediaKeyMessageEvent
 Constructor
 (
 this
-aURL
+aMessageType
 aMessage
 )
 )

@@ -614,6 +614,7 @@ sessionId
 length
 (
 )
+kGMPLicenseRequest
 (
 uint8_t
 *
@@ -628,15 +629,6 @@ request
 length
 (
 )
-"
-"
-/
-*
-destination
-url
-*
-/
-0
 )
 ;
 }

@@ -678,6 +678,7 @@ sid
 size
 (
 )
+kGMPLicenseRequest
 (
 const
 uint8_t
@@ -693,8 +694,6 @@ aMessage
 size
 (
 )
-nullptr
-0
 )
 ;
 }

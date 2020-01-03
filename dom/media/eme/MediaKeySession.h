@@ -225,6 +225,17 @@ MediaKeysBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+MediaKeyMessageEventBinding
+.
+h
+"
 struct
 JSContext
 ;
@@ -493,6 +504,8 @@ aRv
 void
 DispatchKeyMessage
 (
+MediaKeyMessageType
+aMessageType
 const
 nsTArray
 <
@@ -500,10 +513,6 @@ uint8_t
 >
 &
 aMessage
-const
-nsAString
-&
-aURL
 )
 ;
 void
