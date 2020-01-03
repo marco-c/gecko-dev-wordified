@@ -5349,7 +5349,7 @@ window
 .
 wrappedJSObject
 .
-System
+Service
 .
 currentApp
 ;

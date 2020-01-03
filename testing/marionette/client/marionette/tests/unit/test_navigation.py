@@ -200,6 +200,15 @@ marionette
 title
 )
     
+skip_if_b2g
+#
+we
+currently
+allow
+this
+in
+b2g
+    
 def
 test_navigate_chrome_error
 (
