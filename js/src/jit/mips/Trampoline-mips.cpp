@@ -5285,8 +5285,6 @@ cx
 AllocatableGeneralRegisterSet
 regs
 (
-GeneralRegisterSet
-(
 Register
 :
 :
@@ -5294,7 +5292,6 @@ Codes
 :
 :
 WrapperMask
-)
 )
 ;
 static_assert
