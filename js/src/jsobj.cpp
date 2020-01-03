@@ -29394,9 +29394,6 @@ JS_ResolveStub
 resolve
 !
 =
-(
-JSResolveOp
-)
 js
 :
 :
