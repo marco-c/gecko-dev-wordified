@@ -469,6 +469,9 @@ const
 nsAString
 &
 aURL
+ErrorResult
+&
+aRv
 )
 ;
 void

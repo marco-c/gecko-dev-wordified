@@ -395,6 +395,9 @@ const
 nsAString
 &
 aUrl
+ErrorResult
+&
+aRv
 )
 ;
 void
