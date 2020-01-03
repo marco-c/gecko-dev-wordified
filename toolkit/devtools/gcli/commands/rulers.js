@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+/
+*
+globals
+getBrowserForTab
+*
+/
 "
 use
 strict
@@ -175,7 +181,7 @@ server
 /
 actors
 /
-highlighter
+highlighters
 "
 )
 ;

@@ -716,7 +716,7 @@ server
 /
 actors
 /
-highlighter
+highlighters
 "
 )
 ;

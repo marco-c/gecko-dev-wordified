@@ -1084,7 +1084,7 @@ server
 /
 actors
 /
-highlighter
+highlighters
 .
 js
 )
@@ -1113,7 +1113,7 @@ server
 /
 actors
 /
-highlighter
+highlighters
 .
 js
 )

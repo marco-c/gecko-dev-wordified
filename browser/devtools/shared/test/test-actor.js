@@ -312,7 +312,7 @@ server
 /
 actors
 /
-highlighter
+highlighters
 .
 js
 *
