@@ -4955,7 +4955,7 @@ time
 =
 TimeScale
 .
-distanceToTime
+distanceToRelativeTime
 (
 offset
 this
