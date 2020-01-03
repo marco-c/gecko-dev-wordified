@@ -1497,14 +1497,6 @@ return
 false
 ;
 }
-NS_IMETHOD
-SetLayersAcceleration
-(
-bool
-aEnabled
-)
-MOZ_OVERRIDE
-;
 virtual
 bool
 ComputeShouldAccelerate
