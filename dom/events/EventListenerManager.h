@@ -173,6 +173,9 @@ nsTObserverArray
 h
 "
 class
+nsIDocShell
+;
+class
 nsIDOMEvent
 ;
 class
@@ -1975,6 +1978,12 @@ dom
 EventTarget
 *
 aCurrentTarget
+)
+;
+nsIDocShell
+*
+GetDocShellForTarget
+(
 )
 ;
 /
