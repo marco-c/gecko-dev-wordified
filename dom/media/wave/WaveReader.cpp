@@ -1633,6 +1633,13 @@ GetBuffered
 (
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 if
 (
 !

@@ -1755,6 +1755,13 @@ GetBuffered
 (
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 return
 media
 :
