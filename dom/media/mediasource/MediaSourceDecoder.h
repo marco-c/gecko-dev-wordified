@@ -175,6 +175,11 @@ SourceBufferDecoder
 class
 TrackBuffer
 ;
+enum
+MSRangeRemovalAction
+:
+uint8_t
+;
 namespace
 dom
 {
@@ -356,6 +361,8 @@ SetMediaSourceDuration
 (
 double
 aDuration
+MSRangeRemovalAction
+aAction
 )
 ;
 double

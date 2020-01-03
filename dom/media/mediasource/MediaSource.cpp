@@ -1137,6 +1137,10 @@ return
 SetDuration
 (
 aDuration
+MSRangeRemovalAction
+:
+:
+RUN
 )
 ;
 }
@@ -1148,6 +1152,8 @@ SetDuration
 (
 double
 aDuration
+MSRangeRemovalAction
+aAction
 )
 {
 MOZ_ASSERT
@@ -1185,6 +1191,7 @@ mDecoder
 SetMediaSourceDuration
 (
 aDuration
+aAction
 )
 ;
 }
@@ -1827,6 +1834,10 @@ mSourceBuffers
 GetHighestBufferedEndTime
 (
 )
+MSRangeRemovalAction
+:
+:
+SKIP
 )
 ;
 if

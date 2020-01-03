@@ -2147,6 +2147,10 @@ mMediaSource
 SetDuration
 (
 endTime
+MSRangeRemovalAction
+:
+:
+SKIP
 )
 ;
 }
