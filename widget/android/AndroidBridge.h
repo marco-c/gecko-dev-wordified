@@ -1113,6 +1113,16 @@ EmptyString
 )
 )
 ;
+bool
+GetHWEncoderCapability
+(
+)
+;
+bool
+GetHWDecoderCapability
+(
+)
+;
 void
 GetMimeTypeFromExtensions
 (
