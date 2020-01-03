@@ -4244,8 +4244,7 @@ IonScript
 *
 ionScript_
 ;
-Value
-*
+MutableHandleValue
 rval_
 ;
 bool
@@ -4263,8 +4262,7 @@ AutoDetectInvalidation
 JSContext
 *
 cx
-Value
-*
+MutableHandleValue
 rval
 IonScript
 *

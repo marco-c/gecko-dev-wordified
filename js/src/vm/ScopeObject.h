@@ -4436,9 +4436,11 @@ mode
 xdr
 HandleObject
 enclosingScope
+MutableHandle
+<
 StaticBlockObject
 *
-*
+>
 objp
 )
 ;
@@ -4458,9 +4460,11 @@ mode
 xdr
 HandleObject
 enclosingScope
+MutableHandle
+<
 StaticWithObject
 *
-*
+>
 objp
 )
 ;

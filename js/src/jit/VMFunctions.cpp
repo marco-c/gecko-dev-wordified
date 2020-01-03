@@ -338,8 +338,7 @@ AutoDetectInvalidation
 JSContext
 *
 cx
-Value
-*
+MutableHandleValue
 rval
 IonScript
 *
@@ -682,11 +681,8 @@ obj
 )
 argc
 argvWithoutThis
+&
 rv
-.
-address
-(
-)
 )
 )
 return
@@ -2318,10 +2314,6 @@ adi
 (
 cx
 rval
-.
-address
-(
-)
 )
 ;
 JS
@@ -2692,10 +2684,6 @@ adi
 (
 cx
 rval
-.
-address
-(
-)
 )
 ;
 JS
@@ -6889,8 +6877,11 @@ jitRuntime
 >
 setIonReturnOverride
 (
-*
 rval_
+.
+get
+(
+)
 )
 ;
 }
