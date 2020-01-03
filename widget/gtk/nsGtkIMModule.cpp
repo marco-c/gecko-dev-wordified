@@ -6252,7 +6252,7 @@ mCompositionStart
 ;
 textEvent
 .
-theText
+mData
 =
 mDispatchedCompositionString
 =

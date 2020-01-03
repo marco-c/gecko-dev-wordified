@@ -5129,7 +5129,7 @@ InsertText
 widgetTextEvent
 -
 >
-theText
+mData
 )
 ;
 if

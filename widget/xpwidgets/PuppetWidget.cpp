@@ -1909,7 +1909,7 @@ aCancel
 &
 textEvent
 .
-theText
+mData
 )
 )
 {

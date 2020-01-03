@@ -754,7 +754,7 @@ PR_IntervalNow
 ;
 textEvent
 .
-theText
+mData
 =
 mString
 ;

@@ -574,7 +574,7 @@ mLastData
 aEvent
 -
 >
-theText
+mData
 )
 {
 return
@@ -622,7 +622,7 @@ data
 aEvent
 -
 >
-theText
+mData
 ;
 compositionUpdate
 .
@@ -1152,7 +1152,7 @@ AsTextEvent
 )
 -
 >
-theText
+mData
 ;
 break
 ;
@@ -1930,7 +1930,7 @@ widget
 ;
 textEvent
 .
-theText
+mData
 =
 commitData
 ;
@@ -2292,7 +2292,7 @@ mLastData
 aTextEvent
 -
 >
-theText
+mData
 "
 The
 text
@@ -3018,7 +3018,7 @@ widget
 ;
 textEvent
 .
-theText
+mData
 =
 mData
 ;

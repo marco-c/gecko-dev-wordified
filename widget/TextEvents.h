@@ -1917,7 +1917,7 @@ commit
 string
 .
 nsString
-theText
+mData
 ;
 /
 /
