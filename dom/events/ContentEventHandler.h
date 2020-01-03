@@ -268,7 +268,7 @@ aEvent
 ;
 /
 /
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 event
 handler
 nsresult

@@ -13703,7 +13703,7 @@ WidgetQueryContentEvent
 querySelection
 (
 true
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 mWidget
 )
 ;

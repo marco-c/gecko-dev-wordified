@@ -12711,7 +12711,7 @@ WidgetQueryContentEvent
 selection
 (
 true
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 mLastFocusedWindow
 )
 ;
@@ -13157,7 +13157,7 @@ aEvent
 mMessage
 =
 =
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 )
 ;
 MOZ_ASSERT

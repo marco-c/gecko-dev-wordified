@@ -34051,7 +34051,7 @@ WidgetQueryContentEvent
 query
 (
 true
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 this
 )
 ;

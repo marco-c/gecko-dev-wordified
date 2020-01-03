@@ -18830,7 +18830,7 @@ WidgetQueryContentEvent
 selection
 (
 true
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 aWindow
 )
 ;
@@ -18889,9 +18889,7 @@ Init
 FAILED
 due
 to
-NS_QUERY_SELECTED_TEXT
-"
-"
+eQuerySelectedText
 failure
 "
 )

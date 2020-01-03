@@ -1394,7 +1394,7 @@ mReply
 *
 *
 For
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 fail
 if
 the

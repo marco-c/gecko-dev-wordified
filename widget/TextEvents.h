@@ -3500,7 +3500,7 @@ NS_ASSERTION
 mMessage
 =
 =
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 "
 not
 querying
@@ -3542,7 +3542,7 @@ NS_ASSERTION
 mMessage
 =
 =
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 "
 not
 querying
@@ -3587,7 +3587,7 @@ NS_ASSERTION
 mMessage
 =
 =
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 |
 |
 mMessage

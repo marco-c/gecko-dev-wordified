@@ -10226,9 +10226,9 @@ nsTextStore
 GetSelection
 not
 sending
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 *
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 not
 handled
 by
@@ -10236,7 +10236,7 @@ ContentEventHandler
 *
 Bug
 in
-NS_QUERY_SELECTED_TEXT
+eQuerySelectedText
 handler
 *
 nsTextStore
