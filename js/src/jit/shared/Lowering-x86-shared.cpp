@@ -467,11 +467,10 @@ input
 )
 )
 ;
-defineReuseInput
+define
 (
 lir
 ins
-0
 )
 ;
 }

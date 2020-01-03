@@ -1542,7 +1542,7 @@ sign
 of
 input
 .
-movmskpd
+vmovmskpd
 (
 reg
 scratch
