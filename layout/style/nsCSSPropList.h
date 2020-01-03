@@ -5560,7 +5560,7 @@ kClearKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-CSS_PROP_POSITION
+CSS_PROP_DISPLAY
 (
 clip
 clip
@@ -5574,7 +5574,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 nullptr
 offsetof
 (
-nsStylePosition
+nsStyleDisplay
 mClip
 )
 eStyleAnimType_Custom
@@ -10044,7 +10044,7 @@ kTextTransformKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-CSS_PROP_POSITION
+CSS_PROP_DISPLAY
 (
 transform
 transform
@@ -10060,12 +10060,12 @@ CSS_PROPERTY_CREATES_STACKING_CONTEXT
 nullptr
 offsetof
 (
-nsStylePosition
+nsStyleDisplay
 mSpecifiedTransform
 )
 eStyleAnimType_Custom
 )
-CSS_PROP_POSITION
+CSS_PROP_DISPLAY
 (
 transform
 -
@@ -10084,7 +10084,7 @@ kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )
-CSS_PROP_POSITION
+CSS_PROP_DISPLAY
 (
 perspective
 -
@@ -10103,7 +10103,7 @@ kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )
-CSS_PROP_POSITION
+CSS_PROP_DISPLAY
 (
 perspective
 perspective
@@ -10123,12 +10123,12 @@ VARIANT_POSITIVE_DIMENSION
 nullptr
 offsetof
 (
-nsStylePosition
+nsStyleDisplay
 mChildPerspective
 )
 eStyleAnimType_Coord
 )
-CSS_PROP_POSITION
+CSS_PROP_DISPLAY
 (
 transform
 -
@@ -10145,7 +10145,7 @@ kTransformStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-CSS_PROP_POSITION
+CSS_PROP_DISPLAY
 (
 backface
 -
@@ -10159,7 +10159,7 @@ VARIANT_HK
 kBackfaceVisibilityKTable
 offsetof
 (
-nsStylePosition
+nsStyleDisplay
 mBackfaceVisibility
 )
 eStyleAnimType_None
@@ -11849,7 +11849,7 @@ mVectorEffect
 )
 eStyleAnimType_EnumU8
 )
-CSS_PROP_POSITION
+CSS_PROP_DISPLAY
 (
 will
 -

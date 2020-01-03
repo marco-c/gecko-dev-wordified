@@ -2247,7 +2247,7 @@ aChange
 /
 We
 check
-StylePosition
+StyleDisplay
 (
 )
 -
@@ -2303,7 +2303,7 @@ IsTransformed
 aFrame
 -
 >
-StylePosition
+StyleDisplay
 (
 )
 -
@@ -17912,7 +17912,7 @@ TYPE_TRANSFORM
 mFrame
 -
 >
-StylePosition
+StyleDisplay
 (
 )
 -
