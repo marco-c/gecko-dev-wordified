@@ -77,9 +77,7 @@ const
 ManifestObtainer
 }
 =
-Components
-.
-utils
+Cu
 .
 import
 (
@@ -92,7 +90,7 @@ gre
 /
 modules
 /
-WebManifest
+ManifestObtainer
 .
 jsm
 '
@@ -1533,14 +1531,6 @@ aTest
 :
 null
 ;
-const
-obtainer
-=
-new
-ManifestObtainer
-(
-)
-;
 let
 manifest
 ;
@@ -1570,9 +1560,9 @@ try
 manifest
 =
 yield
-obtainer
+ManifestObtainer
 .
-obtainManifest
+browserObtainManifest
 (
 aBrowser
 )
