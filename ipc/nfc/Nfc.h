@@ -303,13 +303,6 @@ size_t
 aSize
 )
 ;
-ConnectionOrientedSocketIO
-*
-GetIO
-(
-)
-override
-;
 private
 :
 void

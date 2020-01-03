@@ -190,13 +190,6 @@ Shutdown
 (
 )
 ;
-ConnectionOrientedSocketIO
-*
-GetIO
-(
-)
-override
-;
 private
 :
 RilConsumer
