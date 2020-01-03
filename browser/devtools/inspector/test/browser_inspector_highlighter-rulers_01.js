@@ -197,6 +197,7 @@ let
 {
 inspector
 toolbox
+testActor
 }
 =
 yield
@@ -230,6 +231,7 @@ isHiddenByDefault
 (
 highlighter
 inspector
+testActor
 )
 ;
 yield
@@ -237,6 +239,7 @@ hasRightLabelsContent
 (
 highlighter
 inspector
+testActor
 )
 ;
 yield
@@ -255,6 +258,7 @@ isHiddenByDefault
 (
 highlighterFront
 inspector
+testActor
 )
 {
 info
@@ -274,9 +278,10 @@ let
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -285,6 +290,7 @@ elements
 "
 hidden
 "
+highlighterFront
 )
 ;
 is
@@ -362,9 +368,10 @@ body
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -373,6 +380,7 @@ elements
 "
 hidden
 "
+highlighterFront
 )
 ;
 isnot
@@ -397,6 +405,7 @@ hasRightLabelsContent
 (
 highlighterFront
 inspector
+testActor
 )
 {
 info
@@ -421,9 +430,10 @@ let
 contentX
 =
 yield
+testActor
+.
 getHighlighterNodeTextContent
 (
-highlighterFront
 {
 ID
 }
@@ -432,15 +442,17 @@ x
 axis
 -
 text
+highlighterFront
 )
 ;
 let
 contentY
 =
 yield
+testActor
+.
 getHighlighterNodeTextContent
 (
-highlighterFront
 {
 ID
 }
@@ -449,6 +461,7 @@ y
 axis
 -
 text
+highlighterFront
 )
 ;
 let

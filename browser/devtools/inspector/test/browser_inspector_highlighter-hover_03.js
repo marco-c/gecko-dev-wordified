@@ -399,6 +399,9 @@ VK_DOWN
 "
 {
 }
+inspector
+.
+panelWin
 )
 ;
 yield
@@ -426,6 +429,9 @@ VK_DOWN
 "
 {
 }
+inspector
+.
+panelWin
 )
 ;
 yield
@@ -488,6 +494,9 @@ VK_UP
 "
 {
 }
+inspector
+.
+panelWin
 )
 ;
 yield
