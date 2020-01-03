@@ -9235,10 +9235,10 @@ wrapper
 |
 |
 !
-AccessCheck
+WrapperFactory
 :
 :
-wrapperSubsumes
+AllowWaiver
 (
 wrapper
 )
@@ -9653,10 +9653,10 @@ IDX_WRAPPED_JSOBJECT
 )
 &
 &
-AccessCheck
+WrapperFactory
 :
 :
-wrapperSubsumes
+AllowWaiver
 (
 wrapper
 )
