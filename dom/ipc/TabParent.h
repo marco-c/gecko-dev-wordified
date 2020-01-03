@@ -244,13 +244,6 @@ TypeDecls
 .
 h
 "
-#
-include
-"
-nsIDOMEventListener
-.
-h
-"
 class
 nsFrameLoader
 ;
@@ -329,8 +322,6 @@ TabParent
 :
 public
 PBrowserParent
-public
-nsIDOMEventListener
 public
 nsITabParent
 public
@@ -504,11 +495,6 @@ mBrowserDOMWindow
 aBrowserDOMWindow
 ;
 }
-/
-/
-nsIDOMEventListener
-interfaces
-NS_DECL_NSIDOMEVENTLISTENER
 already_AddRefed
 <
 nsILoadContext
@@ -1512,6 +1498,10 @@ const
 nsIntSize
 &
 size
+const
+nsIntPoint
+&
+chromeDisp
 )
 ;
 void
