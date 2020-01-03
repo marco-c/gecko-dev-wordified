@@ -271,6 +271,10 @@ Assertions
 .
 h
 >
+extern
+"
+C
+"
 void
 moz_abort
 (
