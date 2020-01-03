@@ -575,7 +575,7 @@ aCertCmpFnArg
 nsresult
 GetCertsByTypeFromCache
 (
-nsINSSCertCache
+nsIX509CertList
 *
 aCache
 uint32_t
