@@ -186,7 +186,7 @@ aPDU
 ;
 virtual
 void
-StoreResultHandler
+StoreUserData
 (
 const
 DaemonSocketPDU
