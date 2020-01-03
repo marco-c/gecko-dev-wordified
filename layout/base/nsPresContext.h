@@ -4841,6 +4841,7 @@ virtual
 bool
 HasAuthorSpecifiedRules
 (
+const
 nsIFrame
 *
 aFrame
