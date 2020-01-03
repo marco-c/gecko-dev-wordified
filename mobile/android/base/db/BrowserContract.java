@@ -884,6 +884,16 @@ IMAGEURL
 imageurl
 "
 ;
+public
+static
+final
+String
+TRACKING_ID
+=
+"
+tracking_id
+"
+;
 }
 RobocopTarget
 public
