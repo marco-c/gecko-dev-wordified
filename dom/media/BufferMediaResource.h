@@ -204,6 +204,10 @@ mLength
 (
 aLength
 )
+mOffset
+(
+0
+)
 mPrincipal
 (
 aPrincipal
