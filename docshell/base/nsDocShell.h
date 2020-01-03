@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsINetworkInterceptController
-.
-h
-"
-#
-include
-"
 nsIScrollable
 .
 h
@@ -1009,8 +1002,6 @@ nsIClipboardCommands
 public
 nsIDOMStorageManager
 public
-nsINetworkInterceptController
-public
 mozilla
 :
 :
@@ -1061,7 +1052,6 @@ NS_DECL_NSIWEBPAGEDESCRIPTOR
 NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSICLIPBOARDCOMMANDS
 NS_DECL_NSIWEBSHELLSERVICES
-NS_DECL_NSINETWORKINTERCEPTCONTROLLER
 NS_FORWARD_SAFE_NSIDOMSTORAGEMANAGER
 (
 TopSessionStorageManager

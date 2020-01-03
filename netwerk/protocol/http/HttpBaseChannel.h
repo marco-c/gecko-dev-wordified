@@ -1625,11 +1625,6 @@ only
 .
 *
 /
-bool
-IsNavigation
-(
-)
-;
 /
 /
 Return
