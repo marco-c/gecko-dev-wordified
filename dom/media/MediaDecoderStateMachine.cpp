@@ -1648,6 +1648,14 @@ mAmpleAudioThresholdUsecs
 (
 AMPLE_AUDIO_USECS
 )
+mIsAudioPrerolling
+(
+false
+)
+mIsVideoPrerolling
+(
+false
+)
 mAudioRequestStatus
 (
 RequestStatus
