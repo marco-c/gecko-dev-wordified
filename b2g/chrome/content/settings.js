@@ -4393,15 +4393,6 @@ true
 '
 layers
 .
-simple
--
-tiles
-'
-:
-false
-'
-layers
-.
 effect
 .
 invert
