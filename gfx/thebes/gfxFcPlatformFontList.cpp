@@ -272,7 +272,7 @@ LOG_FONTLIST
 (
 args
 )
-MOZ_LOG
+PR_LOG
 (
 gfxPlatform
 :
@@ -6601,7 +6601,7 @@ default
 in
 /
 /
-gFontsDialog
+FontBuilder
 .
 readFontSelection
 (

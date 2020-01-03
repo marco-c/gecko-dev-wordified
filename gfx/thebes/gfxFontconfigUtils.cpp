@@ -2025,7 +2025,7 @@ default
 in
 /
 /
-gFontsDialog
+FontBuilder
 .
 readFontSelection
 (
