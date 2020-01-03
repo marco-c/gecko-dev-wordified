@@ -643,12 +643,6 @@ mChangedResource
 ;
 }
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 PRLogModuleInfo
 *
@@ -681,8 +675,6 @@ return
 gNativeWatcherPRLog
 ;
 }
-#
-endif
 #
 define
 FILEWATCHERLOG

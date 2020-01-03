@@ -765,12 +765,6 @@ ClearCompleteCache
 #
 if
 DEBUG
-&
-&
-defined
-(
-PR_LOGGING
-)
 void
 Dump
 (
