@@ -6381,7 +6381,7 @@ Handle
 |
 from
 |
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 |
 .
 The
@@ -6554,7 +6554,7 @@ BluetoothDaemonProtocol
 final
 :
 public
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 public
 BluetoothDaemonSetupModule
 public

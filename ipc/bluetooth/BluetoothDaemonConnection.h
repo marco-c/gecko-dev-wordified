@@ -169,7 +169,7 @@ class
 BluetoothDaemonConnectionIO
 ;
 class
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 ;
 /
 *
@@ -389,7 +389,7 @@ BluetoothDaemonPDU
 void
 SetConsumer
 (
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 *
 aConsumer
 )
@@ -482,7 +482,7 @@ int
 aErrno
 )
 ;
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 *
 mConsumer
 ;
@@ -499,7 +499,7 @@ mReceivedFd
 *
 *
 |
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 |
 processes
 incoming
@@ -531,13 +531,13 @@ thread
 *
 /
 class
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 {
 public
 :
 virtual
 ~
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 (
 )
 ;
@@ -566,7 +566,7 @@ aPDU
 ;
 protected
 :
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 (
 )
 ;
@@ -604,7 +604,7 @@ is
 performed
 by
 |
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 |
 .
 *
@@ -619,9 +619,9 @@ public
 :
 BluetoothDaemonConnection
 (
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 *
-aPDUConsumer
+aIOConsumer
 DaemonSocketConsumer
 *
 aConsumer
@@ -720,9 +720,9 @@ BluetoothDaemonConnectionIO
 *
 mIO
 ;
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 *
-mPDUConsumer
+mIOConsumer
 ;
 DaemonSocketConsumer
 *
