@@ -4280,12 +4280,6 @@ complete
 "
 )
 ;
-gSyncUtils
-.
-openFirstSyncProgressPage
-(
-)
-;
 }
 Weave
 .
