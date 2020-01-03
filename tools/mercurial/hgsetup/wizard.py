@@ -1588,10 +1588,14 @@ importing
 existing
 Mercurial
 config
-!
+:
+%
+s
 \
 n
 '
+%
+config_path
 )
             
 for
@@ -1617,6 +1621,24 @@ HgIncludeException
 as
 e
 :
+            
+print
+(
+'
+Error
+importing
+existing
+Mercurial
+config
+:
+%
+s
+\
+n
+'
+%
+config_path
+)
             
 print
 (
