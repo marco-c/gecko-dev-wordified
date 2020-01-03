@@ -1496,12 +1496,6 @@ PreloadSlowThings
 (
 )
 ;
-static
-void
-PostForkPreload
-(
-)
-;
 /
 *
 *
