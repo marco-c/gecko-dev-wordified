@@ -1449,7 +1449,7 @@ aNullParent
 )
 ;
 nsresult
-OnStopRequest
+OnLoadComplete
 (
 imgIRequest
 *

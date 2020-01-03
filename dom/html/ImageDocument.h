@@ -441,7 +441,7 @@ mode
 )
 ;
 nsresult
-OnStartContainer
+OnSizeAvailable
 (
 imgIRequest
 *
@@ -452,7 +452,7 @@ aImage
 )
 ;
 nsresult
-OnStopRequest
+OnLoadComplete
 (
 imgIRequest
 *

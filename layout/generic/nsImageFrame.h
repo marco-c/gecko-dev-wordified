@@ -1110,7 +1110,7 @@ class
 nsImageLoadingContent
 ;
 nsresult
-OnStartContainer
+OnSizeAvailable
 (
 imgIRequest
 *
@@ -1121,7 +1121,7 @@ aImage
 )
 ;
 nsresult
-OnDataAvailable
+OnFrameUpdate
 (
 imgIRequest
 *
@@ -1129,11 +1129,11 @@ aRequest
 const
 nsIntRect
 *
-rect
+aRect
 )
 ;
 nsresult
-OnStopRequest
+OnLoadComplete
 (
 imgIRequest
 *

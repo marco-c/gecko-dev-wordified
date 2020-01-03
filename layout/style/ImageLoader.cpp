@@ -2137,7 +2137,7 @@ image
 )
 ;
 return
-OnStartContainer
+OnSizeAvailable
 (
 aRequest
 image
@@ -2174,7 +2174,7 @@ FRAME_COMPLETE
 )
 {
 return
-OnStopFrame
+OnFrameComplete
 (
 aRequest
 )
@@ -2192,7 +2192,7 @@ FRAME_UPDATE
 )
 {
 return
-FrameChanged
+OnFrameUpdate
 (
 aRequest
 )
@@ -2206,7 +2206,7 @@ nsresult
 ImageLoader
 :
 :
-OnStartContainer
+OnSizeAvailable
 (
 imgIRequest
 *
@@ -2346,7 +2346,7 @@ nsresult
 ImageLoader
 :
 :
-OnStopFrame
+OnFrameComplete
 (
 imgIRequest
 *
@@ -2472,7 +2472,7 @@ nsresult
 ImageLoader
 :
 :
-FrameChanged
+OnFrameUpdate
 (
 imgIRequest
 *

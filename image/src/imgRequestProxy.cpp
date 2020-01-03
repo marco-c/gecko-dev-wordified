@@ -4083,7 +4083,7 @@ void
 imgRequestProxy
 :
 :
-OnStartContainer
+OnSizeAvailable
 (
 )
 {
@@ -4170,7 +4170,7 @@ GetImgLog
 imgRequestProxy
 :
 :
-OnDataAvailable
+OnFrameUpdate
 "
 )
 ;
@@ -4227,7 +4227,7 @@ void
 imgRequestProxy
 :
 :
-OnStopFrame
+OnFrameComplete
 (
 )
 {
@@ -4240,7 +4240,7 @@ GetImgLog
 imgRequestProxy
 :
 :
-OnStopFrame
+OnFrameComplete
 "
 )
 ;
@@ -4297,7 +4297,7 @@ void
 imgRequestProxy
 :
 :
-OnStopDecode
+OnDecodeComplete
 (
 )
 {
@@ -4310,7 +4310,7 @@ GetImgLog
 imgRequestProxy
 :
 :
-OnStopDecode
+OnDecodeComplete
 "
 )
 ;
@@ -4723,10 +4723,10 @@ void
 imgRequestProxy
 :
 :
-OnStopRequest
+OnLoadComplete
 (
 bool
-lastPart
+aLastPart
 )
 {
 #
@@ -4935,7 +4935,7 @@ is
 .
 if
 (
-lastPart
+aLastPart
 |
 |
 (
@@ -4953,7 +4953,7 @@ LOAD_BACKGROUND
 {
 RemoveFromLoadGroup
 (
-lastPart
+aLastPart
 )
 ;
 /
@@ -4984,7 +4984,7 @@ loadgroup
 if
 (
 !
-lastPart
+aLastPart
 )
 {
 mLoadFlags
@@ -5006,7 +5006,7 @@ if
 mListenerIsStrongRef
 &
 &
-lastPart
+aLastPart
 )
 {
 NS_PRECONDITION

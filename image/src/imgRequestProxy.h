@@ -785,7 +785,7 @@ OnStartDecode
 )
 ;
 void
-OnStartContainer
+OnSizeAvailable
 (
 )
 ;
@@ -799,12 +799,12 @@ aRect
 )
 ;
 void
-OnStopFrame
+OnFrameComplete
 (
 )
 ;
 void
-OnStopDecode
+OnDecodeComplete
 (
 )
 ;
@@ -842,7 +842,7 @@ methods
 *
 /
 void
-OnStopRequest
+OnLoadComplete
 (
 bool
 aLastPart

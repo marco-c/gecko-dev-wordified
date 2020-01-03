@@ -4222,7 +4222,7 @@ image
 )
 ;
 return
-OnStartContainer
+OnSizeAvailable
 (
 aRequest
 image
@@ -4592,7 +4592,7 @@ nsresult
 nsBulletFrame
 :
 :
-OnStartContainer
+OnSizeAvailable
 (
 imgIRequest
 *

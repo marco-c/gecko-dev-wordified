@@ -2337,7 +2337,7 @@ image
 )
 ;
 return
-OnStartContainer
+OnSizeAvailable
 (
 aRequest
 image
@@ -2441,7 +2441,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 return
-OnStopRequest
+OnLoadComplete
 (
 aRequest
 status
@@ -2632,7 +2632,7 @@ nsresult
 ImageDocument
 :
 :
-OnStartContainer
+OnSizeAvailable
 (
 imgIRequest
 *
@@ -2727,7 +2727,7 @@ nsresult
 ImageDocument
 :
 :
-OnStopRequest
+OnLoadComplete
 (
 imgIRequest
 *

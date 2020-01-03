@@ -217,7 +217,7 @@ nsAlertsIconListener
 )
 ;
 nsresult
-OnStopRequest
+OnLoadComplete
 (
 imgIRequest
 *
@@ -225,7 +225,7 @@ aRequest
 )
 ;
 nsresult
-OnStopFrame
+OnFrameComplete
 (
 imgIRequest
 *
