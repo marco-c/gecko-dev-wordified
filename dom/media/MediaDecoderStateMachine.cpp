@@ -9329,10 +9329,8 @@ AssertCurrentThreadInMonitor
 if
 (
 aDuration
-=
-=
--
-1
+<
+0
 )
 {
 mDurationSet
