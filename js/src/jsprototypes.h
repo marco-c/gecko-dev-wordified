@@ -1228,6 +1228,17 @@ Module
 )
 )
 \
+real
+(
+ImportEntry
+57
+InitImportEntryClass
+OCLASP
+(
+ImportEntry
+)
+)
+\
 #
 define
 JS_FOR_EACH_PROTOTYPE
