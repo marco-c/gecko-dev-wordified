@@ -1069,11 +1069,6 @@ F
 NEWTARGET
 )
 \
-F
-(
-POSHOLDER
-)
-\
 \
 /
 *
