@@ -174,11 +174,14 @@ aSource
 )
 ;
 static
+already_AddRefed
+<
 mozilla
 :
 :
-MediaByteRange
-MetadataRange
+MediaByteBuffer
+>
+Metadata
 (
 Stream
 *
