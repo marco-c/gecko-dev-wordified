@@ -98,7 +98,6 @@ setPrefAndVerify
 prefKey
 setVal
 service
-attrName
 expectedVal
 deferred
 )
@@ -173,15 +172,20 @@ let
 defaultVal
 =
 service
-[
-attrName
-]
+.
+getDefaultItem
+(
+)
+.
+serviceId
 ;
 is
 (
 defaultVal
 expectedVal
-attrName
+"
+serviceId
+"
 )
 ;
 deferred
@@ -343,7 +347,6 @@ promise
 function
 checkInitialEquality
 (
-attrName
 prefKey
 service
 )
@@ -417,15 +420,20 @@ let
 defaultVal
 =
 service
-[
-attrName
-]
+.
+getDefaultItem
+(
+)
+.
+serviceId
 ;
 is
 (
 defaultVal
 origPrefVal
-attrName
+"
+serviceId
+"
 )
 ;
 deferred
@@ -448,7 +456,6 @@ promise
 function
 checkSetToNegtiveValue
 (
-attrName
 prefKey
 service
 )
@@ -481,7 +488,6 @@ prefKey
 -
 1
 service
-attrName
 0
 deferred
 )
@@ -495,7 +501,6 @@ promise
 function
 checkSetToOverflowedValue
 (
-attrName
 prefKey
 numRil
 service
@@ -531,7 +536,6 @@ setPrefAndVerify
 prefKey
 numRil
 service
-attrName
 0
 deferred
 )
@@ -545,7 +549,6 @@ promise
 function
 checkValueChange
 (
-attrName
 prefKey
 numRil
 service
@@ -588,7 +591,6 @@ numRil
 -
 1
 service
-attrName
 numRil
 -
 1
@@ -629,7 +631,6 @@ verify
 (
 contractId
 ifaceName
-attrName
 prefKey
 numRil
 )
@@ -656,7 +657,6 @@ checkInitialEquality
 bind
 (
 null
-attrName
 prefKey
 )
 )
@@ -668,7 +668,6 @@ checkSetToNegtiveValue
 bind
 (
 null
-attrName
 prefKey
 )
 )
@@ -680,7 +679,6 @@ checkSetToOverflowedValue
 bind
 (
 null
-attrName
 prefKey
 numRil
 )
@@ -693,7 +691,6 @@ checkValueChange
 bind
 (
 null
-attrName
 prefKey
 numRil
 )
@@ -748,9 +745,6 @@ null
 VOICEMAIL_SERVICE_CONTRACTID
 "
 nsIVoicemailService
-"
-"
-voicemailDefaultServiceId
 "
 PREF_DEFAULT_SERVICE_ID
 )
