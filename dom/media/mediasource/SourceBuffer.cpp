@@ -2882,6 +2882,12 @@ NotifyWaitingForResourcesStatusChanged
 ;
 }
 }
+}
+if
+(
+mActive
+)
+{
 /
 /
 Tell
