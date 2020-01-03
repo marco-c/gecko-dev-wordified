@@ -2111,6 +2111,14 @@ ins
 )
 ;
 bool
+visitSimdSwizzle
+(
+MSimdSwizzle
+*
+ins
+)
+;
+bool
 visitSimdUnaryArith
 (
 MSimdUnaryArith

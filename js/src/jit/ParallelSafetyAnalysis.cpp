@@ -789,6 +789,10 @@ SimdSignMask
 )
 SAFE_OP
 (
+SimdSwizzle
+)
+SAFE_OP
+(
 SimdUnaryArith
 )
 SAFE_OP
