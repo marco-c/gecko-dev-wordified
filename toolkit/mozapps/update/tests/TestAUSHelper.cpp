@@ -399,8 +399,10 @@ if
 !
 outFP
 )
+{
 return
 ;
+}
 fprintf
 (
 outFP

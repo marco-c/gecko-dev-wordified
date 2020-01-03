@@ -104,10 +104,7 @@ Bug
 "
 )
 ;
-var
-patches
-updates
-;
+let
 patches
 =
 getLocalPatchString
@@ -121,6 +118,7 @@ null
 STATE_DOWNLOADING
 )
 ;
+let
 updates
 =
 getLocalUpdateString

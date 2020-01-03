@@ -145,7 +145,7 @@ HELPER_SLEEP_TIMEOUT
 let
 fileInUseProcess
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -162,7 +162,7 @@ util
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIProcess
 )

@@ -234,10 +234,10 @@ gResponseBody
 ;
 try
 {
-var
+let
 parser
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -254,7 +254,7 @@ domparser
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIDOMParser
 )
@@ -288,7 +288,7 @@ responseXML
 null
 ;
 }
-var
+let
 e
 =
 {
@@ -376,7 +376,7 @@ gCheckFunc
 =
 check_test_pt02
 ;
-var
+let
 patches
 =
 getRemotePatchString
@@ -430,7 +430,7 @@ e6678ca40ae7582316acdeddf3c133c9c8577de4
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -597,7 +597,7 @@ xml
 .
 /
 /
-var
+let
 defaultDetailsURL
 ;
 /
@@ -629,10 +629,10 @@ one
 .
 /
 /
-var
+let
 formatter
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -651,7 +651,7 @@ URLFormatterService
 /
 getService
 (
-AUS_Ci
+Ci
 .
 nsIURLFormatter
 )
@@ -691,7 +691,7 @@ gUpdateCount
 1
 )
 ;
-var
+let
 bestUpdate
 =
 gAUS
@@ -704,7 +704,7 @@ gUpdateCount
 .
 QueryInterface
 (
-AUS_Ci
+Ci
 .
 nsIPropertyBag
 )
@@ -1015,7 +1015,7 @@ value
 "
 )
 ;
-var
+let
 patch
 =
 bestUpdate
@@ -1332,7 +1332,7 @@ gCheckFunc
 =
 check_test_pt03
 ;
-var
+let
 patches
 =
 getRemotePatchString
@@ -1359,7 +1359,7 @@ SHA1
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -1438,7 +1438,7 @@ gUpdateCount
 1
 )
 ;
-var
+let
 bestUpdate
 =
 gAUS
@@ -1716,7 +1716,7 @@ test
 nsIUpdate
 :
 serialize
-var
+let
 patch
 =
 bestUpdate
@@ -1964,7 +1964,7 @@ run_test_pt06
 (
 )
 {
-var
+let
 patches
 =
 getRemotePatchString
@@ -1984,7 +1984,7 @@ partial
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -2026,7 +2026,7 @@ run_test_pt07
 (
 )
 {
-var
+let
 patches
 =
 getRemotePatchString
@@ -2046,7 +2046,7 @@ partial
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -2114,7 +2114,7 @@ run_test_pt08
 (
 )
 {
-var
+let
 patches
 =
 getRemotePatchString
@@ -2146,7 +2146,7 @@ null
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -2204,7 +2204,7 @@ run_test_pt09
 (
 )
 {
-var
+let
 patches
 =
 getRemotePatchString
@@ -2220,7 +2220,7 @@ null
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -2273,7 +2273,7 @@ run_test_pt10
 (
 )
 {
-var
+let
 patches
 =
 getRemotePatchString
@@ -2289,7 +2289,7 @@ null
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -2342,7 +2342,7 @@ run_test_pt11
 (
 )
 {
-var
+let
 patches
 =
 getRemotePatchString
@@ -2362,7 +2362,7 @@ partial
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -2427,7 +2427,7 @@ check_test_pt11
 (
 )
 {
-var
+let
 bestUpdate
 =
 gAUS
@@ -2468,7 +2468,7 @@ run_test_pt12
 (
 )
 {
-var
+let
 patches
 =
 getRemotePatchString
@@ -2488,7 +2488,7 @@ partial
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -2535,7 +2535,7 @@ check_test_pt12
 (
 )
 {
-var
+let
 bestUpdate
 =
 gAUS

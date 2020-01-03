@@ -90,7 +90,7 @@ getLocalUpdatesXMLString
 false
 )
 ;
-var
+let
 patches
 =
 getLocalPatchString
@@ -104,7 +104,7 @@ null
 STATE_PENDING
 )
 ;
-var
+let
 updates
 =
 getLocalUpdateString
@@ -126,14 +126,14 @@ writeStatusFile
 STATE_SUCCEEDED
 )
 ;
-var
+let
 dir
 =
 getUpdatesDir
 (
 )
 ;
-var
+let
 log
 =
 dir

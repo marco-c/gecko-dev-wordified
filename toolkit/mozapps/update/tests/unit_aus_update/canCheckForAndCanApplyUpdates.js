@@ -108,7 +108,7 @@ testFile
 .
 create
 (
-AUS_Ci
+Ci
 .
 nsIFile
 .
@@ -492,7 +492,7 @@ platform
 let
 hasher
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -509,7 +509,7 @@ hash
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsICryptoHash
 )
@@ -533,7 +533,7 @@ dirsvc
 get
 (
 XRE_EXECUTABLE_FILE
-AUS_Ci
+Ci
 .
 nsILocalFile
 )
@@ -541,7 +541,7 @@ nsILocalFile
 let
 converter
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -556,7 +556,7 @@ scriptableunicodeconverter
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIScriptableUnicodeConverter
 )

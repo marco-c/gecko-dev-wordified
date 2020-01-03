@@ -135,7 +135,7 @@ HELPER_SLEEP_TIMEOUT
 let
 callbackAppProcess
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -152,7 +152,7 @@ util
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIProcess
 )

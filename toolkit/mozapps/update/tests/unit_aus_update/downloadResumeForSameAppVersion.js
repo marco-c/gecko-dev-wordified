@@ -94,10 +94,7 @@ Bug
 "
 )
 ;
-var
-patches
-updates
-;
+let
 patches
 =
 getLocalPatchString
@@ -111,6 +108,7 @@ null
 STATE_DOWNLOADING
 )
 ;
+let
 updates
 =
 getLocalUpdateString
@@ -287,9 +285,8 @@ reloadUpdateManagerData
 (
 )
 ;
-do_timeout
+do_execute_soon
 (
-TEST_CHECK_TIMEOUT
 doTestFinish
 )
 ;

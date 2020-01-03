@@ -636,6 +636,7 @@ aUpdates
 "
 "
 )
+{
 return
 "
 <
@@ -664,6 +665,7 @@ update
 /
 >
 "
+}
 return
 (
 "

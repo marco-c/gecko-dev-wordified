@@ -236,7 +236,7 @@ lockFileRelPath
 let
 lockFileProcess
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -253,7 +253,7 @@ util
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIProcess
 )

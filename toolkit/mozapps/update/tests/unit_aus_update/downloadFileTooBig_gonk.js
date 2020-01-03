@@ -112,7 +112,7 @@ XPCOMUtils
 generateQI
 (
 [
-AUS_Ci
+Ci
 .
 nsIDirectoryServiceProvider
 ]
@@ -142,7 +142,7 @@ gActiveUpdate
 .
 errorCode
 =
-AUS_Cr
+Cr
 .
 NS_ERROR_FILE_TOO_BIG
 ;
@@ -218,7 +218,7 @@ FakeDirProvider
 let
 cm
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -233,7 +233,7 @@ categorymanager
 .
 getService
 (
-AUS_Ci
+Ci
 .
 nsICategoryManager
 )
@@ -279,7 +279,7 @@ getNext
 .
 QueryInterface
 (
-AUS_Ci
+Ci
 .
 nsISupportsCString
 )
@@ -307,14 +307,14 @@ gOldProviders
 .
 push
 (
-AUS_Cc
+Cc
 [
 contractID
 ]
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIDirectoryServiceProvider
 )
@@ -323,7 +323,7 @@ nsIDirectoryServiceProvider
 }
 gDirService
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -340,7 +340,7 @@ directory_service
 .
 getService
 (
-AUS_Ci
+Ci
 .
 nsIProperties
 )
@@ -406,10 +406,10 @@ gResponseBody
 ;
 try
 {
-var
+let
 parser
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -426,7 +426,7 @@ domparser
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIDOMParser
 )
@@ -460,7 +460,7 @@ responseXML
 null
 ;
 }
-var
+let
 e
 =
 {
@@ -577,7 +577,7 @@ errorCode
 >
 >
 0
-AUS_Cr
+Cr
 .
 NS_ERROR_FILE_TOO_BIG
 )
