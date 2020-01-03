@@ -4351,7 +4351,7 @@ false
 }
 aCallback
 .
-notifySuccessWithString
+notifyGetPreferredNetworkTypeSuccess
 (
 aResponse
 .
