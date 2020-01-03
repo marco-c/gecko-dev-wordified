@@ -13824,6 +13824,11 @@ response
 code
 if
 (
+!
+head
+|
+|
+(
 head
 -
 >
@@ -13834,17 +13839,15 @@ Status
 =
 200
 )
+)
+{
 return
 ;
+}
 mContentLength
 =
 contentLength
 ;
-if
-(
-head
-)
-{
 const
 char
 *
@@ -13867,6 +13870,7 @@ if
 (
 val
 )
+{
 mETag
 .
 Assign
@@ -13874,6 +13878,7 @@ Assign
 val
 )
 ;
+}
 val
 =
 head
@@ -13891,6 +13896,7 @@ if
 (
 val
 )
+{
 mLastModified
 .
 Assign
@@ -13898,6 +13904,7 @@ Assign
 val
 )
 ;
+}
 val
 =
 head
@@ -13915,6 +13922,7 @@ if
 (
 val
 )
+{
 mContentRange
 .
 Assign
@@ -13922,6 +13930,7 @@ Assign
 val
 )
 ;
+}
 val
 =
 head
@@ -13939,6 +13948,7 @@ if
 (
 val
 )
+{
 mContentEncoding
 .
 Assign
@@ -13946,6 +13956,7 @@ Assign
 val
 )
 ;
+}
 val
 =
 head
@@ -13963,6 +13974,7 @@ if
 (
 val
 )
+{
 mTransferEncoding
 .
 Assign
@@ -13970,6 +13982,7 @@ Assign
 val
 )
 ;
+}
 /
 /
 We
@@ -14007,13 +14020,14 @@ IsEmpty
 (
 )
 )
+{
 return
 ;
+}
 mSetup
 =
 true
 ;
-}
 }
 }
 /
