@@ -81,10 +81,6 @@ from
 selection
 import
 SelectionManager
-from
-gestures
-import
-long_press_without_contextmenu
 class
 SelectionCaretsTest
 (
@@ -445,17 +441,22 @@ be
 selected
 .
         
-long_press_without_contextmenu
-(
 self
 .
-marionette
+actions
+.
+long_press
+(
 el
 self
 .
 _long_press_time
 x
 y
+)
+.
+perform
+(
 )
     
 def
@@ -2937,6 +2938,20 @@ enabled
 True
 )
         
+#
+Currently
+selection
+carets
+do
+not
+show
+on
+non
+-
+editable
+elements
+.
+        
 self
 .
 _test_minimum_select_one_character
@@ -2946,5 +2961,5 @@ self
 _content
 self
 .
-assertEqual
+assertNotEqual
 )
