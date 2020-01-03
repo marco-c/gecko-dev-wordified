@@ -2008,17 +2008,6 @@ getter
 lambda
 x
 :
-(
-not
-x
-.
-interface
-.
-isExternal
-(
-)
-and
-                                    
 x
 .
 interface
@@ -2026,7 +2015,6 @@ interface
 isExposedInAnyWorker
 (
 )
-)
             
 elif
 key
@@ -2042,24 +2030,12 @@ getter
 lambda
 x
 :
-(
-not
-x
-.
-interface
-.
-isExternal
-(
-)
-and
-                                    
 x
 .
 interface
 .
 isExposedInSystemGlobals
 (
-)
 )
             
 elif
@@ -2076,24 +2052,12 @@ getter
 lambda
 x
 :
-(
-not
-x
-.
-interface
-.
-isExternal
-(
-)
-and
-                                    
 x
 .
 interface
 .
 isExposedInWindow
 (
-)
 )
             
 else
