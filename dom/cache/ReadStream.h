@@ -458,6 +458,15 @@ const
 =
 0
 ;
+virtual
+bool
+HasEverBeenRead
+(
+)
+const
+=
+0
+;
 NS_IMETHOD_
 (
 MozExternalRefCountType
