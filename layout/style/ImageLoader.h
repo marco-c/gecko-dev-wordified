@@ -486,6 +486,8 @@ DoRedraw
 FrameSet
 *
 aFrameSet
+bool
+aForcePaint
 )
 ;
 static
