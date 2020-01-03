@@ -4526,6 +4526,7 @@ NPRemoteEvent
 event
 Shmem
 &
+&
 mem
 int16_t
 *
@@ -4858,6 +4859,7 @@ NPRemoteEvent
 &
 event
 Shmem
+&
 &
 mem
 int16_t

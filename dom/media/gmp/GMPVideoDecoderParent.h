@@ -451,6 +451,7 @@ RecvParentShmemForPool
 (
 Shmem
 &
+&
 aEncodedBuffer
 )
 MOZ_OVERRIDE

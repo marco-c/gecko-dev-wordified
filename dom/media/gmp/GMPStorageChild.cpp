@@ -1131,11 +1131,11 @@ const
 GMPErr
 &
 aStatus
-const
 InfallibleTArray
 <
 uint8_t
 >
+&
 &
 aBytes
 )
@@ -1506,11 +1506,11 @@ GMPStorageChild
 :
 RecvRecordNames
 (
-const
 InfallibleTArray
 <
 nsCString
 >
+&
 &
 aRecordNames
 const

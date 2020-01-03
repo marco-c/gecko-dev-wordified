@@ -1628,6 +1628,7 @@ RecvParentShmemForPool
 (
 Shmem
 &
+&
 aEncodedBuffer
 )
 {

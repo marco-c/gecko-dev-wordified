@@ -230,11 +230,11 @@ const
 uint8_t
 &
 index
-const
 InfallibleTArray
 <
 RtspMetadataParam
 >
+&
 &
 meta
 )
@@ -258,11 +258,11 @@ const
 uint32_t
 &
 offset
-const
 InfallibleTArray
 <
 RtspMetadataParam
 >
+&
 &
 meta
 )

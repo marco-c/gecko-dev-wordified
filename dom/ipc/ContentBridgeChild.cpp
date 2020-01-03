@@ -438,7 +438,6 @@ const
 ClonedMessageData
 &
 aData
-const
 InfallibleTArray
 <
 jsipc
@@ -446,6 +445,7 @@ jsipc
 :
 CpowEntry
 >
+&
 &
 aCpows
 const
@@ -465,7 +465,10 @@ RecvAsyncMessage
 (
 aMsg
 aData
+Move
+(
 aCpows
+)
 aPrincipal
 )
 ;

@@ -809,8 +809,8 @@ ImageBridgeParent
 :
 RecvUpdate
 (
-const
 EditArray
+&
 &
 aEdits
 EditReplyArray
@@ -1009,8 +1009,8 @@ ImageBridgeParent
 :
 RecvUpdateNoSwap
 (
-const
 EditArray
+&
 &
 aEdits
 )
@@ -1026,7 +1026,10 @@ success
 =
 RecvUpdate
 (
+Move
+(
 aEdits
+)
 &
 noReplies
 )
@@ -1666,11 +1669,11 @@ ImageBridgeParent
 :
 RecvChildAsyncMessages
 (
-const
 InfallibleTArray
 <
 AsyncChildMessageData
 >
+&
 &
 aMessages
 )

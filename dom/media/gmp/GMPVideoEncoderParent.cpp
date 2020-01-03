@@ -1624,11 +1624,11 @@ const
 GMPVideoEncodedFrameData
 &
 aEncodedFrame
-const
-nsTArray
+InfallibleTArray
 <
 uint8_t
 >
+&
 &
 aCodecSpecificInfo
 )
@@ -1779,6 +1779,7 @@ GMPVideoEncoderParent
 RecvParentShmemForPool
 (
 Shmem
+&
 &
 aFrameBuffer
 )
