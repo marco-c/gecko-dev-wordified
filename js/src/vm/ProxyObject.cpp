@@ -481,7 +481,7 @@ RootedObject
 obj
 (
 cx
-NewObjectWithGivenProto
+NewObjectWithGivenTaggedProto
 (
 cx
 clasp
