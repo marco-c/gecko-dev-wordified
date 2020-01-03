@@ -82,7 +82,12 @@ vector
 #
 define
 CLEARKEY_KEY_LEN
+(
+(
+size_t
+)
 16
+)
 #
 if
 0
