@@ -15790,7 +15790,14 @@ GetReentrantMonitor
 mDecodeTaskQueue
 -
 >
-Shutdown
+BeginShutdown
+(
+)
+;
+mDecodeTaskQueue
+-
+>
+AwaitShutdownAndIdle
 (
 )
 ;
