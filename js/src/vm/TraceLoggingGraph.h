@@ -1357,12 +1357,6 @@ stack
 uint32_t
 treeOffset
 ;
-ContinuousSpace
-<
-EventEntry
->
-events
-;
 /
 /
 Helper
@@ -1546,8 +1540,6 @@ timestamp
 Flush
 the
 tree
-and
-events
 .
 bool
 flush
