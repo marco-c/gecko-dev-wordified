@@ -244,6 +244,9 @@ nsIAtom
 class
 nsIObserver
 ;
+class
+SRGBOverrideObserver
+;
 struct
 gfxRGBA
 ;
@@ -820,6 +823,9 @@ switch
 class
 gfxPlatform
 {
+friend
+SRGBOverrideObserver
+;
 public
 :
 typedef
