@@ -185,15 +185,13 @@ if
 mContent
 -
 >
-Tag
+IsMathMLElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 mtext_
+)
 )
 {
 mPresentationData
