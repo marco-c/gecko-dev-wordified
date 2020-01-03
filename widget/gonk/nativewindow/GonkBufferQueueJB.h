@@ -2241,7 +2241,7 @@ a
 String
 virtual
 void
-dump
+dumpToString
 (
 String8
 &
@@ -2251,7 +2251,7 @@ const
 ;
 virtual
 void
-dump
+dumpToString
 (
 String8
 &

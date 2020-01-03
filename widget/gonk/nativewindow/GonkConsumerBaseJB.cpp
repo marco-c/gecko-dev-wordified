@@ -1229,7 +1229,7 @@ mAbandoned
 mBufferQueue
 -
 >
-dump
+dumpToString
 (
 result
 prefix
