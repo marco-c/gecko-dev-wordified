@@ -9276,7 +9276,7 @@ null
 ;
 pc
 .
-_onReplaceTrackError
+_onReplaceTrackFailure
 (
 this
 .
