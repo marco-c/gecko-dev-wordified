@@ -15015,11 +15015,7 @@ listener
 .
 isElementSelected
 (
-{
 id
-:
-id
-}
 )
 ;
 break
