@@ -1102,7 +1102,7 @@ resultString
 T
 *
 )
-moz_xmalloc
+malloc
 (
 sizeof
 (
@@ -1213,7 +1213,7 @@ resultString
 T
 *
 )
-moz_xmalloc
+malloc
 (
 sizeof
 (
@@ -1402,7 +1402,7 @@ resultString
 T
 *
 )
-moz_xmalloc
+malloc
 (
 sizeof
 (
@@ -2134,7 +2134,7 @@ resultString
 T
 *
 )
-moz_xmalloc
+malloc
 (
 sizeof
 (
