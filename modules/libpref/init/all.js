@@ -6438,13 +6438,6 @@ if
 !
 defined
 (
-MOZ_WIDGET_GONK
-)
-&
-&
-!
-defined
-(
 MOZ_WIDGET_ANDROID
 )
 /
@@ -6461,10 +6454,6 @@ pass
 tests
 on
 Android
-/
-/
-or
-B2G
 .
 pref
 (
