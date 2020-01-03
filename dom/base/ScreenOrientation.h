@@ -458,6 +458,14 @@ aConfiguration
 )
 override
 ;
+static
+void
+UpdateActiveOrientationLock
+(
+ScreenOrientationInternal
+aOrientation
+)
+;
 private
 :
 virtual
