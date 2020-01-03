@@ -2228,7 +2228,7 @@ See
 comment
 above
 '
-debugMode
+isDebuggee
 '
 in
 jscompartment
