@@ -2583,7 +2583,7 @@ public
 void
 onTextChange
 (
-String
+CharSequence
 text
 int
 start
