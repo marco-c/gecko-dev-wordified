@@ -1770,12 +1770,7 @@ void
 FinishedRestoringSelection
 (
 )
-{
-mRestoringSelection
-=
-nullptr
 ;
-}
 mozilla
 :
 :
@@ -1893,8 +1888,10 @@ nsTextInputSelectionImpl
 >
 mSelCon
 ;
+nsRefPtr
+<
 RestoreSelectionState
-*
+>
 mRestoringSelection
 ;
 nsCOMPtr
