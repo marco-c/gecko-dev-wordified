@@ -1530,7 +1530,7 @@ addNativeToBytecodeEntry
 (
 const
 BytecodeSite
-&
+*
 site
 )
 ;
@@ -3187,7 +3187,7 @@ OutOfLineCode
 code
 const
 BytecodeSite
-&
+*
 site
 )
 ;
@@ -3514,7 +3514,9 @@ rejoin_
 uint32_t
 framePushed_
 ;
+const
 BytecodeSite
+*
 site_
 ;
 public
@@ -3612,7 +3614,7 @@ setBytecodeSite
 (
 const
 BytecodeSite
-&
+*
 site
 )
 {
@@ -3623,7 +3625,7 @@ site
 }
 const
 BytecodeSite
-&
+*
 bytecodeSite
 (
 )
@@ -3642,7 +3644,8 @@ const
 {
 return
 site_
-.
+-
+>
 pc
 (
 )
@@ -3657,7 +3660,8 @@ const
 {
 return
 site_
-.
+-
+>
 script
 (
 )
