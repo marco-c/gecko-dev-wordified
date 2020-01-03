@@ -1796,6 +1796,7 @@ TrustDomain
 {
 public
 :
+explicit
 ExpiredCertTrustDomain
 (
 ByteString
