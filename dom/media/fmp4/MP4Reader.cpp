@@ -999,6 +999,8 @@ mDecoder
 GetResource
 (
 )
+&
+mIndexMonitor
 )
 &
 mIndexMonitor
@@ -1741,6 +1743,13 @@ if
 mDemuxerInitialized
 )
 {
+{
+MonitorAutoLock
+mon
+(
+mIndexMonitor
+)
+;
 bool
 ok
 =
@@ -1755,13 +1764,6 @@ NS_ENSURE_TRUE
 (
 ok
 NS_ERROR_FAILURE
-)
-;
-{
-MonitorAutoLock
-mon
-(
-mIndexMonitor
 )
 ;
 mIndexReady
