@@ -3323,6 +3323,7 @@ if
 MissingRequiredTabChild
 (
 tabChild
+nullptr
 "
 wyciwyg
 "

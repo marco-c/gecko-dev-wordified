@@ -299,6 +299,9 @@ const
 PBrowserOrId
 &
 aBrowser
+nsIPrincipal
+*
+aRequestingPrincipal
 PContentParent
 *
 aContent
@@ -662,6 +665,10 @@ const
 SerializedLoadContext
 &
 aSerialized
+const
+PrincipalInfo
+&
+requestingPrincipal
 )
 override
 ;

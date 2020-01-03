@@ -971,6 +971,7 @@ NeckoParent
 CreateChannelLoadContext
 (
 aParent
+nullptr
 Manager
 (
 )
