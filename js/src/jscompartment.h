@@ -4554,7 +4554,7 @@ js
 ArgumentsObject
 *
 >
-normalArgumentsTemplate_
+mappedArgumentsTemplate_
 ;
 js
 :
@@ -4567,7 +4567,7 @@ js
 ArgumentsObject
 *
 >
-strictArgumentsTemplate_
+unmappedArgumentsTemplate_
 ;
 public
 :
@@ -4693,7 +4693,7 @@ JSContext
 *
 cx
 bool
-strict
+mapped
 )
 ;
 private
