@@ -2068,6 +2068,11 @@ delayed
 destruction
 callback
 .
+if
+(
+sCallbackRuntime
+)
+{
 sCallbackRuntime
 -
 >
@@ -2093,6 +2098,7 @@ sCallbackRuntime
 =
 nullptr
 ;
+}
 }
 static
 bool
