@@ -3046,6 +3046,7 @@ property
 expected
 runningOn
 desc
+pseudo
 )
 {
 return
@@ -3060,6 +3061,7 @@ desc
 ExpectComparisonTo
 .
 Fail
+pseudo
 )
 ;
 }
@@ -3075,6 +3077,7 @@ property
 expected
 runningOn
 desc
+pseudo
 )
 {
 return
@@ -3086,6 +3089,10 @@ expected
 0
 runningOn
 desc
+ExpectComparisonTo
+.
+Pass
+pseudo
 )
 ;
 }
@@ -3120,6 +3127,7 @@ tolerance
 runningOn
 desc
 expectedComparisonResult
+pseudo
 )
 {
 /
@@ -3245,6 +3253,7 @@ getOMTAStyle
 (
 elem
 property
+pseudo
 )
 ;
 var
@@ -3255,6 +3264,7 @@ window
 getComputedStyle
 (
 elem
+pseudo
 )
 [
 property
