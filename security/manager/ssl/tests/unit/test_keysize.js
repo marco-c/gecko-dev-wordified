@@ -89,8 +89,6 @@ strict
 Checks
 that
 RSA
-and
-DSA
 certs
 with
 key
@@ -717,15 +715,6 @@ checkForKeyType
 rsa
 "
 1016
-1024
-)
-;
-checkForKeyType
-(
-"
-dsa
-"
-960
 1024
 )
 ;
