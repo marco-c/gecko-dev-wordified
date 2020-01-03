@@ -1180,6 +1180,16 @@ if
 numDynamic
 )
 {
+MOZ_ASSERT
+(
+clasp
+-
+>
+isNative
+(
+)
+)
+;
 slots
 =
 static_cast
