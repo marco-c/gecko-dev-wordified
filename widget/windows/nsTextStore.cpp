@@ -20430,7 +20430,7 @@ MoveBy
 refWindow
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 )
@@ -21420,7 +21420,7 @@ MoveBy
 refWindow
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 )
@@ -28115,7 +28115,7 @@ MoveBy
 toplevelWindow
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 )
@@ -28128,7 +28128,7 @@ MoveBy
 window
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 )

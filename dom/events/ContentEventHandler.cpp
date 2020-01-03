@@ -7272,11 +7272,6 @@ eventOnRoot
 refPoint
 +
 =
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 aEvent
 -
 >
@@ -7292,7 +7287,6 @@ rootWidget
 >
 WidgetToScreenOffset
 (
-)
 )
 ;
 }
@@ -7717,11 +7711,6 @@ aEvent
 >
 refPoint
 +
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 aEvent
 -
 >
@@ -7730,7 +7719,6 @@ widget
 >
 WidgetToScreenOffset
 (
-)
 )
 ;
 nsIntRect

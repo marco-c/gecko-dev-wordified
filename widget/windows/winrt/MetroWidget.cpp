@@ -7836,7 +7836,7 @@ return
 NS_OK
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 MetroWidget
 :
 :
@@ -7845,7 +7845,7 @@ WidgetToScreenOffset
 )
 {
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
