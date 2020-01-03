@@ -32784,6 +32784,9 @@ bool
 wasPropagatingForcedReturn
 ;
 bool
+wasOverRecursed
+;
+bool
 wasThrowing
 ;
 RootedValue
@@ -32891,6 +32894,10 @@ drop
 )
 {
 wasPropagatingForcedReturn
+=
+false
+;
+wasOverRecursed
 =
 false
 ;

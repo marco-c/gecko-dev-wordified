@@ -2659,6 +2659,7 @@ if
 (
 maybecx
 )
+{
 JS_ReportErrorNumber
 (
 maybecx
@@ -2667,6 +2668,14 @@ nullptr
 JSMSG_OVER_RECURSED
 )
 ;
+maybecx
+-
+>
+overRecursed_
+=
+true
+;
+}
 }
 void
 js_ReportOverRecursed
@@ -6185,6 +6194,10 @@ UndefinedValue
 options_
 (
 )
+overRecursed_
+(
+false
+)
 propagatingForcedReturn_
 (
 false
@@ -6323,6 +6336,11 @@ compartment
 return
 true
 ;
+bool
+wasOverRecursed
+=
+overRecursed_
+;
 clearPendingException
 (
 )
@@ -6354,6 +6372,10 @@ setPendingException
 (
 rval
 )
+;
+overRecursed_
+=
+wasOverRecursed
 ;
 return
 true
