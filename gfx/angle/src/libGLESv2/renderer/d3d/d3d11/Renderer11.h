@@ -757,6 +757,12 @@ getAdapterVendor
 )
 const
 ;
+SIZE_T
+getMaxResourceSize
+(
+)
+const
+;
 virtual
 std
 :
