@@ -5015,7 +5015,7 @@ ui
 .
 zoomedview
 .
-enabled
+disabled
 "
 false
 )
