@@ -399,6 +399,11 @@ return
 mReentrantMonitor
 ;
 }
+size_t
+Count
+(
+)
+;
 private
 :
 bool
