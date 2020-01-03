@@ -632,6 +632,9 @@ CompositorVsyncObserver
 CompositorParent
 *
 aCompositorParent
+nsIWidget
+*
+aWidget
 )
 ;
 virtual
@@ -708,6 +711,12 @@ nsRefPtr
 CompositorParent
 >
 mCompositorParent
+;
+nsRefPtr
+<
+VsyncDispatcher
+>
+mVsyncDispatcher
 ;
 mozilla
 :
