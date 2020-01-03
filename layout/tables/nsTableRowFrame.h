@@ -129,9 +129,13 @@ nsTablePainter
 .
 h
 "
-class
-nsTableFrame
-;
+#
+include
+"
+nsTableRowGroupFrame
+.
+h
+"
 class
 nsTableCellFrame
 ;

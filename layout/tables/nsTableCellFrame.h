@@ -178,9 +178,13 @@ nsTArray
 .
 h
 "
-class
-nsTableFrame
-;
+#
+include
+"
+nsTableRowFrame
+.
+h
+"
 /
 *
 *
