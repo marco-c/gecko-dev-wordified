@@ -138,7 +138,7 @@ nsTArray
 .
 h
 "
-class
+struct
 nsCSSSelector
 ;
 /
