@@ -157,6 +157,13 @@ mCompositor
 (
 aCompositor
 )
+mMap
+(
+{
+nullptr
+0
+}
+)
 {
 }
 void
