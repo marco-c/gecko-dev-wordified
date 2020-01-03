@@ -342,10 +342,6 @@ n
 "
 "
 "
-SEC_CT_CERTIFICATE_ID
-SEC_CT_PKCS7
-SEC_CT_CRL
-SEC_CT_NAME
 )
 ;
 fprintf

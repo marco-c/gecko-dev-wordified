@@ -14330,6 +14330,7 @@ unsigned
 int
 numAlgorithms
 i
+j
 ;
 /
 *
@@ -14571,6 +14572,8 @@ for
 (
 i
 =
+j
+=
 0
 ;
 i
@@ -14660,7 +14663,7 @@ hs
 .
 clientSigAndHash
 [
-i
+j
 ]
 .
 hashAlg
@@ -14676,13 +14679,19 @@ hs
 .
 clientSigAndHash
 [
-i
+j
 ]
 .
 sigAlg
 =
 tls_sig
 ;
++
++
+j
+;
++
++
 ss
 -
 >
@@ -14691,8 +14700,6 @@ ssl3
 hs
 .
 numClientSigAndHash
-+
-+
 ;
 }
 if

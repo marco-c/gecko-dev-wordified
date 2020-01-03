@@ -807,7 +807,7 @@ priority
 0
 corresponds
 to
-a
+the
 highest
 priority
 )
@@ -975,7 +975,7 @@ methodType
 PKIX_UInt32
 methodFlags
 PKIX_UInt32
-mathodPriority
+methodPriority
 PKIX_PL_VerifyCallback
 verificationFn
 PKIX_Boolean

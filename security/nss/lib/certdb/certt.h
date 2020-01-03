@@ -6638,7 +6638,7 @@ the
 array
 that
 *
-preferred_revocation_methods
+preferred_methods
 points
 to
 .
@@ -6709,7 +6709,7 @@ the
 method
 with
 highest
-preferrence
+preference
 .
 *
 These
