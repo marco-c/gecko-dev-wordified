@@ -5127,6 +5127,9 @@ behavior
 .
 if
 (
+false
+&
+&
 desc
 .
 isPermanent
