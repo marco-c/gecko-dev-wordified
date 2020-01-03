@@ -554,7 +554,10 @@ ccx
 .
 SetRetVal
 (
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 str
 )

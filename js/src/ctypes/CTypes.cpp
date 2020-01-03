@@ -25737,7 +25737,7 @@ JS_SetReservedSlot
 (
 typeObj
 SLOT_NAME
-STRING_TO_JSVAL
+StringValue
 (
 name
 )
@@ -27945,7 +27945,7 @@ JS_SetReservedSlot
 (
 obj
 SLOT_NAME
-STRING_TO_JSVAL
+StringValue
 (
 name
 )
@@ -47919,7 +47919,7 @@ JS_SetReservedSlot
 (
 dataObj
 SLOT_OWNS
-BOOLEAN_TO_JSVAL
+BooleanValue
 (
 ownResult
 )
