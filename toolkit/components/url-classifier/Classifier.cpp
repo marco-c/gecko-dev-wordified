@@ -1804,9 +1804,6 @@ if
 LOG_ENABLED
 (
 )
-|
-|
-true
 )
 {
 clockStart
@@ -2070,9 +2067,6 @@ if
 LOG_ENABLED
 (
 )
-|
-|
-true
 )
 {
 PRIntervalTime
