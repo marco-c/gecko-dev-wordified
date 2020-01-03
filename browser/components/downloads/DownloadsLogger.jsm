@@ -249,9 +249,6 @@ DownloadsLogger
 =
 {
 _generateLogMessage
-:
-function
-_generateLogMessage
 (
 args
 )
@@ -431,9 +428,6 @@ debug
 *
 /
 log
-:
-function
-DL_log
 (
 .
 .
@@ -506,9 +500,6 @@ function
 *
 /
 reportError
-:
-function
-DL_reportError
 (
 .
 .

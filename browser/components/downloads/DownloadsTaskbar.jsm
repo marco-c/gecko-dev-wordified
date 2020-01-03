@@ -767,8 +767,6 @@ attached
 *
 /
 registerIndicator
-:
-function
 (
 aBrowserWindow
 )
@@ -1032,8 +1030,6 @@ window
 *
 /
 _attachIndicator
-:
-function
 (
 aWindow
 )
@@ -1351,8 +1347,6 @@ false
 DownloadSummary
 view
 onSummaryChanged
-:
-function
 (
 )
 {
