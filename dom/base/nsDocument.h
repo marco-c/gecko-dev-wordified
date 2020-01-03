@@ -3651,6 +3651,16 @@ nsIDocument
 :
 GetElementsByTagName
 ;
+typedef
+mozilla
+:
+:
+net
+:
+:
+ReferrerPolicy
+ReferrerPolicy
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_SIZEOF_EXCLUDING_THIS
 virtual
