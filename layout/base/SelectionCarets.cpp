@@ -1296,7 +1296,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 |
 |
 (
@@ -1342,7 +1342,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 &
 &
 mActiveTouchId

@@ -279,7 +279,7 @@ mMessage
 )
 {
 case
-NS_TOUCH_START
+eTouchStart
 :
 mType
 =
@@ -515,7 +515,7 @@ MULTITOUCH_START
 :
 touchEventMessage
 =
-NS_TOUCH_START
+eTouchStart
 ;
 break
 ;

@@ -11873,7 +11873,7 @@ nsCoreUtils
 :
 DispatchTouchEvent
 (
-NS_TOUCH_START
+eTouchStart
 x
 y
 aContent

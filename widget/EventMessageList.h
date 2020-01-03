@@ -2462,7 +2462,7 @@ eTouchEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_TOUCH_START
+eTouchStart
 eTouchEventFirst
 )
 NS_EVENT_MESSAGE

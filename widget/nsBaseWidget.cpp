@@ -7694,7 +7694,7 @@ touchEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 )
 {
 if

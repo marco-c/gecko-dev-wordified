@@ -10678,7 +10678,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 )
 {
 if
@@ -11323,7 +11323,7 @@ localEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 &
 &
 AsyncPanZoomEnabled

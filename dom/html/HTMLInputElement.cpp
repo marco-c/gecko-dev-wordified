@@ -23446,7 +23446,7 @@ case
 eMouseDown
 :
 case
-NS_TOUCH_START
+eTouchStart
 :
 {
 if

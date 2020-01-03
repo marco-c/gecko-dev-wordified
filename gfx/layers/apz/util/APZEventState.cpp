@@ -1446,7 +1446,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 &
 &
 aEvent
@@ -1507,7 +1507,7 @@ mMessage
 )
 {
 case
-NS_TOUCH_START
+eTouchStart
 :
 {
 mTouchEndCancelled

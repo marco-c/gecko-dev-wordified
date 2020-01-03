@@ -4111,7 +4111,7 @@ mMessage
 )
 {
 case
-NS_TOUCH_START
+eTouchStart
 :
 status
 =
@@ -5750,7 +5750,7 @@ TOUCHCARET_TOUCHDRAG_INACTIVE
 /
 /
 Consume
-NS_TOUCH_START
+eTouchStart
 event
 .
 status
