@@ -279,7 +279,7 @@ class
 ErrorResult
 ;
 class
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 template
 <
@@ -873,7 +873,7 @@ Algorithm
 "
 .
 Returns
-MediaLargeByteBuffer
+MediaByteBuffer
 object
 /
 /
@@ -891,7 +891,7 @@ error
 .
 already_AddRefed
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 PrepareAppend
 (

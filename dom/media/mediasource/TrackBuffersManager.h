@@ -198,7 +198,7 @@ class
 ContainerParser
 ;
 class
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 class
 MediaRawData
@@ -303,7 +303,7 @@ aType
 bool
 AppendData
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 TimeUnit
@@ -667,7 +667,7 @@ Pair
 <
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 TimeUnit
 >
@@ -718,7 +718,7 @@ input
 buffer
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 mInputBuffer
 ;

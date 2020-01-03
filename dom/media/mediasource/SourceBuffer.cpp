@@ -2576,7 +2576,7 @@ aLength
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 data
 =
@@ -3105,7 +3105,7 @@ dummy
 }
 already_AddRefed
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 SourceBuffer
 :
@@ -3507,12 +3507,12 @@ nullptr
 }
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 data
 =
 new
-MediaLargeByteBuffer
+MediaByteBuffer
 (
 )
 ;

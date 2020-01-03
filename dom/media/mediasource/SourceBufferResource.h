@@ -240,7 +240,7 @@ class
 MediaDecoder
 ;
 class
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 namespace
 dom
@@ -812,7 +812,7 @@ SourceBuffer
 void
 AppendData
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 )

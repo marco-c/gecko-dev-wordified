@@ -89,7 +89,7 @@ namespace
 mozilla
 {
 class
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 }
 namespace
@@ -144,7 +144,7 @@ BufferStream
 mozilla
 :
 :
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aBuffer
 )
@@ -236,7 +236,7 @@ nsRefPtr
 mozilla
 :
 :
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 mData
 ;

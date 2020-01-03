@@ -198,9 +198,6 @@ ImageContainer
 ;
 }
 class
-MediaLargeByteBuffer
-;
-class
 MediaByteBuffer
 ;
 /
@@ -2069,7 +2066,7 @@ mTarget
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 mBuffer
 ;
@@ -2291,7 +2288,7 @@ aSize
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 mBuffer
 ;

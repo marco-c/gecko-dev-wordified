@@ -259,7 +259,7 @@ ResourceItem
 explicit
 ResourceItem
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 )
@@ -274,7 +274,7 @@ const
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 mData
 ;
@@ -370,7 +370,7 @@ aDest
 void
 AppendItem
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 )

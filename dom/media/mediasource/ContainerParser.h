@@ -145,7 +145,7 @@ namespace
 mozilla
 {
 class
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 class
 SourceBufferResource
@@ -211,7 +211,7 @@ virtual
 bool
 IsInitSegmentPresent
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 )
@@ -256,7 +256,7 @@ virtual
 bool
 IsMediaSegmentPresent
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 )
@@ -306,7 +306,7 @@ virtual
 bool
 ParseStartAndEndTimestamps
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 int64_t
@@ -371,7 +371,7 @@ GetRoundingError
 (
 )
 ;
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 InitData
 (
@@ -488,7 +488,7 @@ protected
 :
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 mInitData
 ;

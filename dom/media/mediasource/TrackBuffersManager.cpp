@@ -361,7 +361,7 @@ aType
 mInputBuffer
 (
 new
-MediaLargeByteBuffer
+MediaByteBuffer
 )
 mAppendState
 (
@@ -574,7 +574,7 @@ TrackBuffersManager
 :
 AppendData
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 TimeUnit
@@ -2163,7 +2163,7 @@ mFirstInitializationSegmentReceived
 {
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 initData
 =
@@ -2243,7 +2243,7 @@ Loop
 mInputBuffer
 =
 new
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 MOZ_ALWAYS_TRUE
 (
@@ -7309,12 +7309,12 @@ Length
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 segment
 =
 new
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 MOZ_ASSERT
 (
@@ -10722,7 +10722,7 @@ part
 TODO
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 initData
 =

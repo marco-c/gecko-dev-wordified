@@ -208,7 +208,7 @@ class
 MediaSourceDecoder
 ;
 class
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 class
 TrackBuffer
@@ -241,7 +241,7 @@ Shutdown
 bool
 AppendData
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 TimeUnit
@@ -820,7 +820,7 @@ SourceBufferResource
 bool
 AppendDataToCurrentResource
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 uint32_t
@@ -1141,7 +1141,7 @@ mParser
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 mInputBuffer
 ;

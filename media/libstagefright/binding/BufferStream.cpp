@@ -108,7 +108,7 @@ new
 mozilla
 :
 :
-MediaLargeByteBuffer
+MediaByteBuffer
 )
 {
 }
@@ -120,7 +120,7 @@ BufferStream
 mozilla
 :
 :
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aBuffer
 )
