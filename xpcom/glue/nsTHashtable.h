@@ -130,7 +130,7 @@ h
 #
 include
 "
-pldhash
+PLDHashTable
 .
 h
 "
@@ -397,12 +397,12 @@ version
 of
 KeyType
 because
-pldhash
-.
-h
 *
 /
 /
+PLDHashTable
+.
+h
 requires
 keys
 to

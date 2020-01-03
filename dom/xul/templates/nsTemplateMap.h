@@ -102,7 +102,7 @@ nsTemplateMap_h__
 #
 include
 "
-pldhash
+PLDHashTable
 .
 h
 "

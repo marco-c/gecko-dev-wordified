@@ -138,7 +138,7 @@ nsStaticNameTable_h___
 #
 include
 "
-pldhash
+PLDHashTable
 .
 h
 "

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-pldhash_h___
+PLDHashTable_h
 #
 define
-pldhash_h___
+PLDHashTable_h
 #
 include
 "
@@ -4539,9 +4539,9 @@ the
 /
 /
 generic
-pldhash
+PLDHashTable
 .
-c
+cpp
 code
 .
 Hooks
@@ -4828,6 +4828,6 @@ key
 endif
 /
 *
-pldhash_h___
+PLDHashTable_h
 *
 /

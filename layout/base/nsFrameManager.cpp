@@ -697,7 +697,7 @@ should
 also
 be
 using
-pldhash
+PLDHashTable
 rather
 than
 plhash

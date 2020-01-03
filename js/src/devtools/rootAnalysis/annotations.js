@@ -1320,7 +1320,7 @@ They
 just
 use
 a
-pldhash
+PLDHashTable
 which
 has
 function

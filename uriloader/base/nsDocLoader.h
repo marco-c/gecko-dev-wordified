@@ -225,7 +225,7 @@ h
 #
 include
 "
-pldhash
+PLDHashTable
 .
 h
 "
@@ -1409,7 +1409,7 @@ be
 first
 for
 the
-pldhash
+PLDHashTable
 stubs
 to
 work

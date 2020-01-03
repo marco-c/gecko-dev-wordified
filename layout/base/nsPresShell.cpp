@@ -708,7 +708,7 @@ ScrollContentIntoView
 #
 include
 "
-pldhash
+PLDHashTable
 .
 h
 "

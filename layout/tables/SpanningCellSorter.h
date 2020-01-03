@@ -134,7 +134,7 @@ BasicTableLayoutStrategy
 #
 include
 "
-pldhash
+PLDHashTable
 .
 h
 "

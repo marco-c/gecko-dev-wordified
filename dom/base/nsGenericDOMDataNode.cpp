@@ -312,7 +312,7 @@ h
 #
 include
 "
-pldhash
+PLDHashTable
 .
 h
 "
