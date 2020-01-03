@@ -102,9 +102,9 @@ import
     
 config_file
     
-HgIncludeException
-    
 MercurialConfig
+    
+ParseException
 )
 INITIAL_MESSAGE
 =
@@ -1617,7 +1617,7 @@ return
 1
         
 except
-HgIncludeException
+ParseException
 as
 e
 :

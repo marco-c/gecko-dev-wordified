@@ -308,7 +308,7 @@ files
 0
 ]
 class
-HgIncludeException
+ParseException
 (
 Exception
 )
@@ -454,7 +454,7 @@ include
 :
                         
 raise
-HgIncludeException
+ParseException
 (
                             
 '
@@ -466,6 +466,40 @@ not
 supported
 by
 MercurialConfig
+'
+)
+                    
+if
+line
+.
+startswith
+(
+'
+;
+'
+)
+:
+                        
+raise
+ParseException
+(
+                            
+'
+semicolon
+(
+;
+)
+comments
+are
+not
+supported
+;
+'
+                            
+'
+use
+#
+instead
 '
 )
         
