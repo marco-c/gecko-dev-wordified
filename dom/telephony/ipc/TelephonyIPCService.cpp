@@ -745,7 +745,7 @@ nsAString
 aNumber
 bool
 aIsEmergency
-nsITelephonyCallback
+nsITelephonyDialCallback
 *
 aCallback
 )

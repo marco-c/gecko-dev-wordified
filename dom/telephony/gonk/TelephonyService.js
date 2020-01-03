@@ -3322,7 +3322,7 @@ Drop
 ;
 aCallback
 .
-notifyDialError
+notifyError
 (
 DIAL_ERROR_BAD_NUMBER
 )
@@ -3427,7 +3427,7 @@ aIsDialEmergency
 {
 aCallback
 .
-notifyDialError
+notifyError
 (
 DIAL_ERROR_BAD_NUMBER
 )
@@ -3505,7 +3505,7 @@ call
 ;
 aCallback
 .
-notifyDialError
+notifyError
 (
 DIAL_ERROR_INVALID_STATE_ERROR
 )
@@ -3567,7 +3567,7 @@ line
 ;
 aCallback
 .
-notifyDialError
+notifyError
 (
 DIAL_ERROR_INVALID_STATE_ERROR
 )
@@ -3634,7 +3634,7 @@ sim
 ;
 aCallback
 .
-notifyDialError
+notifyError
 (
 DIAL_ERROR_OTHER_CONNECTION_IN_USE
 )
@@ -3713,7 +3713,7 @@ call
 ;
 aCallback
 .
-notifyDialError
+notifyError
 (
 DIAL_ERROR_INVALID_STATE_ERROR
 )
@@ -3876,7 +3876,7 @@ success
 {
 aCallback
 .
-notifyDialError
+notifyError
 (
 response
 .
