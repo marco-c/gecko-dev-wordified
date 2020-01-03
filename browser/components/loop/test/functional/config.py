@@ -145,16 +145,6 @@ seen
 :
 True
     
-"
-loop
-.
-seenToS
-"
-:
-"
-seen
-"
-    
 #
 this
 dialog
