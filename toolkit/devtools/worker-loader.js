@@ -2687,6 +2687,7 @@ let
 Debugger
 createSandbox
 dump
+rpc
 loadSubScript
 reportError
 setImmediate
@@ -2879,6 +2880,11 @@ false
 }
 ;
 let
+rpc
+=
+undefined
+;
+let
 subScriptLoader
 =
 Cc
@@ -3005,6 +3011,7 @@ return
 Debugger
 createSandbox
 dump
+rpc
 loadSubScript
 reportError
 setImmediate
@@ -3124,6 +3131,11 @@ dump
 this
 .
 dump
+rpc
+:
+this
+.
+rpc
 loadSubScript
 :
 this
@@ -3206,6 +3218,11 @@ reportError
 "
 :
 reportError
+"
+rpc
+"
+:
+rpc
 "
 setImmediate
 "
