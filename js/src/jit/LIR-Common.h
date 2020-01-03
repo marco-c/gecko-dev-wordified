@@ -963,7 +963,6 @@ getOperand
 )
 ;
 }
-const
 SimdLane
 lane
 (
