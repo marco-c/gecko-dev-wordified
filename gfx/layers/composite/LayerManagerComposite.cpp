@@ -4505,6 +4505,14 @@ if
 mTarget
 &
 &
+gfxPrefs
+:
+:
+Composer2DCompositionEnabled
+(
+)
+&
+&
 composer2D
 &
 &
