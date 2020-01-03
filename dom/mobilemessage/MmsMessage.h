@@ -185,7 +185,7 @@ namespace
 dom
 {
 class
-Blob
+File
 ;
 namespace
 mobilemessage
@@ -231,7 +231,7 @@ final
 {
 nsRefPtr
 <
-Blob
+File
 >
 content
 ;

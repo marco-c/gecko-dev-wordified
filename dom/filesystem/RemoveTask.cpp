@@ -612,14 +612,12 @@ mTargetFileImpl
 {
 nsRefPtr
 <
-Blob
+File
 >
-blob
+file
 =
-Blob
-:
-:
-Create
+new
+File
 (
 mFileSystem
 -
@@ -644,7 +642,7 @@ GetSingleton
 >
 GetOrCreateActorForBlob
 (
-blob
+file
 )
 ;
 if

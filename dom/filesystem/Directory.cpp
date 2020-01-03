@@ -586,7 +586,7 @@ realPath
 ;
 nsRefPtr
 <
-Blob
+File
 >
 blobData
 ;

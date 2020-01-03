@@ -151,6 +151,13 @@ h
 #
 include
 "
+nsIDOMFile
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -165,9 +172,6 @@ dom
 {
 struct
 ArchiveReaderOptions
-;
-class
-Blob
 ;
 class
 File
@@ -230,7 +234,7 @@ const
 GlobalObject
 &
 aGlobal
-Blob
+File
 &
 aBlob
 const
@@ -244,7 +248,7 @@ aError
 ;
 ArchiveReader
 (
-Blob
+File
 &
 aBlob
 nsPIDOMWindow
@@ -371,9 +375,9 @@ Ready
 (
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
-File
+nsIDOMFile
 >
 >
 &
@@ -564,9 +568,9 @@ struct
 {
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
-File
+nsIDOMFile
 >
 >
 fileList

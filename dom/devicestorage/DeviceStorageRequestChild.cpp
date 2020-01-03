@@ -561,14 +561,12 @@ GetBlobImpl
 ;
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
-Blob
-:
-:
-Create
+new
+File
 (
 mRequest
 -

@@ -2428,10 +2428,14 @@ fullPath
 ;
 nsRefPtr
 <
-FileImpl
+File
 >
 blob
 =
+new
+File
+(
+nullptr
 new
 FileImplFile
 (
@@ -2443,6 +2447,7 @@ mFile
 >
 mFile
 mLastModificationDate
+)
 )
 ;
 ContentParent
@@ -2470,7 +2475,7 @@ actor
 cp
 -
 >
-GetOrCreateActorForFileImpl
+GetOrCreateActorForBlob
 (
 blob
 )

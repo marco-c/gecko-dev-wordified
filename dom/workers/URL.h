@@ -165,7 +165,7 @@ namespace
 dom
 {
 class
-Blob
+File
 ;
 struct
 objectURLOptions
@@ -368,7 +368,7 @@ const
 GlobalObject
 &
 aGlobal
-Blob
+File
 &
 aArg
 const

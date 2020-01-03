@@ -191,7 +191,7 @@ already_AddRefed
 dom
 :
 :
-Blob
+File
 >
 aBlob
 nsresult
@@ -217,7 +217,7 @@ nsRefPtr
 dom
 :
 :
-Blob
+File
 >
 blob
 (
@@ -250,13 +250,11 @@ blob
 {
 blob
 =
+new
 dom
 :
 :
-Blob
-:
-:
-Create
+File
 (
 mImageCapture
 -
@@ -629,7 +627,7 @@ already_AddRefed
 dom
 :
 :
-Blob
+File
 >
 aBlob
 )
@@ -640,7 +638,7 @@ nsRefPtr
 dom
 :
 :
-Blob
+File
 >
 blob
 (

@@ -3010,14 +3010,12 @@ blobImpl
 ;
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
-Blob
-:
-:
-Create
+new
+File
 (
 aDatabase
 -
@@ -3113,7 +3111,7 @@ file
 file
 -
 >
-mBlob
+mFile
 .
 swap
 (

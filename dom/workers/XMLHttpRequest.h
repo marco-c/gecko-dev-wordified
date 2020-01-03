@@ -187,7 +187,7 @@ namespace
 dom
 {
 class
-Blob
+File
 ;
 }
 }
@@ -715,7 +715,7 @@ aRv
 void
 Send
 (
-Blob
+File
 &
 aBody
 ErrorResult

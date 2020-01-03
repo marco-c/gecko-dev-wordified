@@ -9526,7 +9526,7 @@ XMLHttpRequest
 :
 Send
 (
-Blob
+File
 &
 aBody
 ErrorResult

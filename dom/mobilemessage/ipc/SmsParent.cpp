@@ -591,14 +591,12 @@ global
 ;
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
-Blob
-:
-:
-Create
+new
+File
 (
 global
 blobImpl
@@ -607,7 +605,7 @@ blobImpl
 if
 (
 !
-ToJSValue
+GetOrCreateDOMReflector
 (
 aContext
 blob
