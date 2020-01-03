@@ -339,7 +339,7 @@ nsUint64HashKey
 *
 nsFloatHashKey
 *
-nsPtrHashkey
+nsPtrHashKey
 *
 nsClearingPtrHashKey
 *
