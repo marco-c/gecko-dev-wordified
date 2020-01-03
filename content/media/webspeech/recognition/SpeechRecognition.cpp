@@ -3884,6 +3884,10 @@ aResult
 AppendElement
 (
 chunk
+.
+forget
+(
+)
 )
 ;
 chunkStart
@@ -4206,11 +4210,11 @@ chunksToSend
 AppendElement
 (
 mAudioSamplesBuffer
+.
+forget
+(
 )
-;
-mAudioSamplesBuffer
-=
-nullptr
+)
 ;
 mBufferedSamples
 =
