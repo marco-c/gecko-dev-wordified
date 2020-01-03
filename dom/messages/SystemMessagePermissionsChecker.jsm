@@ -851,6 +851,14 @@ request
 "
 :
 {
+"
+wifi
+-
+manage
+"
+:
+[
+]
 }
 "
 first
