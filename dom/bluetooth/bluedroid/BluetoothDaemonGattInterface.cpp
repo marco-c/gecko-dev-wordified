@@ -12974,7 +12974,7 @@ BluetoothStatus
 aStatus
 )
 {
-DaemonResultRunnable1
+BluetoothResultRunnable1
 <
 BluetoothGattClientResultHandler
 void
@@ -13057,7 +13057,7 @@ BluetoothStatus
 aStatus
 )
 {
-DaemonResultRunnable1
+BluetoothResultRunnable1
 <
 BluetoothGattServerResultHandler
 void
@@ -13140,7 +13140,7 @@ BluetoothStatus
 aStatus
 )
 {
-DaemonResultRunnable1
+BluetoothResultRunnable1
 <
 BluetoothGattResultHandler
 void

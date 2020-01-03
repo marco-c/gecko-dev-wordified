@@ -1739,7 +1739,7 @@ BluetoothStatus
 aStatus
 )
 {
-DaemonResultRunnable1
+BluetoothResultRunnable1
 <
 BluetoothSocketResultHandler
 void
