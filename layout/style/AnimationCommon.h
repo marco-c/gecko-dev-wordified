@@ -1763,7 +1763,7 @@ PostUpdateLayerAnimations
 )
 ;
 bool
-HasAnimationOfProperty
+HasCurrentAnimationOfProperty
 (
 nsCSSProperty
 aProperty
