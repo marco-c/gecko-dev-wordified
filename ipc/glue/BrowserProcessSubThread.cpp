@@ -224,7 +224,12 @@ BACKGROUND_X11
 endif
 }
 ;
-Lock
+/
+*
+static
+*
+/
+StaticMutex
 BrowserProcessSubThread
 :
 :
@@ -305,7 +310,7 @@ mNotificationService
 nullptr
 )
 {
-AutoLock
+StaticMutexAutoLock
 lock
 (
 sLock
@@ -356,7 +361,7 @@ Stop
 )
 ;
 {
-AutoLock
+StaticMutexAutoLock
 lock
 (
 sLock
@@ -477,7 +482,7 @@ ID
 aId
 )
 {
-AutoLock
+StaticMutexAutoLock
 lock
 (
 sLock
