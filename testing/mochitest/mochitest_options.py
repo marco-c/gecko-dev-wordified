@@ -6156,23 +6156,6 @@ little
         
 #
 Bug
-1051230
--
-Leak
-logging
-does
-not
-yet
-work
-for
-tab
-processes
-on
-desktop
-.
-        
-#
-Bug
 1065098
 -
 The
@@ -6194,9 +6177,6 @@ options
 ignoreMissingLeaks
 =
 [
-"
-tab
-"
 "
 geckomediaplugin
 "
@@ -7967,23 +7947,16 @@ on
 B2G
 .
         
-assert
-"
-tab
-"
-in
 options
 .
 ignoreMissingLeaks
+.
+append
+(
 "
-Ignore
-failures
-for
 tab
-processes
-on
-B2G
 "
+)
         
 return
 options
