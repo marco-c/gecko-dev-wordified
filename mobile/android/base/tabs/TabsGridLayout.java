@@ -2792,7 +2792,7 @@ R
 .
 layout
 .
-tablet_tabs_item_cell
+tabs_layout_item_view
 )
 ;
 mCloseClickListener
