@@ -3664,11 +3664,9 @@ FIXUP_FLAG_ALLOW_KEYWORD_LOOKUP
 ;
 do_check_eq
 (
-!
-!
 info
 .
-keywordProviderName
+fixupUsedKeyword
 couldDoKeywordLookup
 &
 &
