@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_IMAGELIB_IMAGEFACTORY_H_
+mozilla_image_src_ImageFactory_h
 #
 define
-MOZILLA_IMAGELIB_IMAGEFACTORY_H_
+mozilla_image_src_ImageFactory_h
 #
 include
 "
@@ -429,4 +429,4 @@ mozilla
 endif
 /
 /
-MOZILLA_IMAGELIB_IMAGEFACTORY_H_
+mozilla_image_src_ImageFactory_h

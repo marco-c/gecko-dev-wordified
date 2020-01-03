@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_IMAGELIB_IMAGE_REGION_H_
+mozilla_image_src_ImageRegion_h
 #
 define
-MOZILLA_IMAGELIB_IMAGE_REGION_H_
+mozilla_image_src_ImageRegion_h
 #
 include
 "
@@ -747,3 +747,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_image_src_ImageRegion_h

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_IMAGELIB_FROZENIMAGE_H_
+mozilla_image_src_FrozenImage_h
 #
 define
-MOZILLA_IMAGELIB_FROZENIMAGE_H_
+mozilla_image_src_FrozenImage_h
 #
 include
 "
@@ -450,4 +450,4 @@ mozilla
 endif
 /
 /
-MOZILLA_IMAGELIB_FROZENIMAGE_H_
+mozilla_image_src_FrozenImage_h
