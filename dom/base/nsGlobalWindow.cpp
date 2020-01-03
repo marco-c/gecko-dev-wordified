@@ -39055,8 +39055,14 @@ aYScrollDif
 {
 ScrollBy
 (
+double
+(
 aXScrollDif
+)
+double
+(
 aYScrollDif
+)
 )
 ;
 return
