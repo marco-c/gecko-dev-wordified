@@ -1641,7 +1641,7 @@ Init
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -3484,7 +3484,7 @@ GetSamples
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -3841,7 +3841,7 @@ GetSamples
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -6597,7 +6597,7 @@ aTimeThreshold
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -7188,7 +7188,7 @@ seekTime
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -7366,7 +7366,7 @@ seekTime
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (

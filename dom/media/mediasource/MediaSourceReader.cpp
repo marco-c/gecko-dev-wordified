@@ -1002,7 +1002,7 @@ mLastAudioTime
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -1131,7 +1131,7 @@ RequestAudioData
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -1277,7 +1277,7 @@ RequestAudioData
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -1775,7 +1775,7 @@ mLastAudioTime
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -2151,7 +2151,7 @@ mLastVideoTime
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -2285,7 +2285,7 @@ mTimeThreshold
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -2683,7 +2683,7 @@ mLastVideoTime
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -5658,7 +5658,7 @@ seekTime
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
@@ -6022,7 +6022,7 @@ seekTime
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (
