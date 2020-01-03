@@ -1335,7 +1335,6 @@ aOverfill
 )
 override
 ;
-virtual
 void
 DidComposite
 (

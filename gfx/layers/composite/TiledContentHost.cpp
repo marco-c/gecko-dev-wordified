@@ -2316,6 +2316,9 @@ TiledContentHost
 :
 Composite
 (
+LayerComposite
+*
+aLayer
 EffectChain
 &
 aEffectChain

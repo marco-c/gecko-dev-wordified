@@ -1407,9 +1407,13 @@ SurfaceDescriptorTiles
 aTiledDescriptor
 )
 ;
+virtual
 void
 Composite
 (
+LayerComposite
+*
+aLayer
 EffectChain
 &
 aEffectChain

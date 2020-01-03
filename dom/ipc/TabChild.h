@@ -371,6 +371,9 @@ layers
 class
 APZEventState
 ;
+class
+ImageCompositeNotification
+;
 struct
 SetTargetAPZCCallback
 ;

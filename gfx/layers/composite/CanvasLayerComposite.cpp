@@ -589,6 +589,7 @@ mCompositableHost
 >
 Composite
 (
+this
 effectChain
 GetEffectiveOpacity
 (

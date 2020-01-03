@@ -266,6 +266,9 @@ class
 ImageBridgeChild
 ;
 class
+ImageContainer
+;
+class
 CompositableForwarder
 ;
 class
@@ -936,6 +939,11 @@ virtual
 bool
 Connect
 (
+ImageContainer
+*
+aImageContainer
+=
+nullptr
 )
 ;
 void

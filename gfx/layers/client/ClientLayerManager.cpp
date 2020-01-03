@@ -316,6 +316,17 @@ mozilla
 /
 layers
 /
+ShadowLayerChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureClientPool
 .
 h

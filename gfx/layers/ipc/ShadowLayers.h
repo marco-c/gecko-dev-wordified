@@ -285,6 +285,9 @@ class
 EditReply
 ;
 class
+ImageContainer
+;
+class
 Layer
 ;
 class
@@ -1086,12 +1089,16 @@ transactions
 .
 *
 /
+virtual
 void
 Connect
 (
 CompositableClient
 *
 aCompositable
+ImageContainer
+*
+aImageContainer
 )
 override
 ;
