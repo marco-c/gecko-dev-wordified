@@ -77939,6 +77939,12 @@ thread
 if
 (
 !
+IsNavigationAllowed
+(
+)
+|
+|
+!
 IsOKToLoadURI
 (
 aURI
@@ -78208,6 +78214,12 @@ nullptr
 }
 if
 (
+!
+IsNavigationAllowed
+(
+)
+|
+|
 !
 IsOKToLoadURI
 (
