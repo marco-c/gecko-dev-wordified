@@ -12544,6 +12544,12 @@ true
 }
 else
 {
+mediaType
+=
+"
+unrecognized
+"
+;
 CSFLogError
 (
 logTag
