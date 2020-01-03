@@ -27,15 +27,11 @@ ws
 var
 __SECURE__PORT
 =
-null
-;
-/
-/
 {
 {
 ports
 [
-ws
+wss
 ]
 [
 0
@@ -43,11 +39,6 @@ ws
 }
 }
 ;
-/
-/
-Should
-be
-wss
 var
 __NEW__PORT
 =
@@ -66,7 +57,7 @@ now
 var
 __NEW__SECURE__PORT
 =
-__PORT
+__SECURE__PORT
 ;
 /
 /
