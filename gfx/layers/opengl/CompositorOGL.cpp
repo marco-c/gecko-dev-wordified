@@ -970,6 +970,11 @@ gfxImageFormat
 :
 RGB16_565
 ;
+bool
+requireCompatProfile
+=
+true
+;
 context
 =
 GLContextProvider
@@ -987,6 +992,7 @@ mSurfaceSize
 height
 )
 caps
+requireCompatProfile
 )
 ;
 }

@@ -115,6 +115,11 @@ include
 bitset
 >
 #
+include
+<
+vector
+>
+#
 if
 defined
 (

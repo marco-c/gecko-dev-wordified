@@ -897,11 +897,6 @@ destFormat
 mGLContext
 -
 >
-Screen
-(
-)
--
->
 Readback
 (
 frontbuffer
@@ -1000,11 +995,6 @@ Flush
 MarkDirty
 .
 mGLContext
--
->
-Screen
-(
-)
 -
 >
 Readback

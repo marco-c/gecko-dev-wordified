@@ -340,6 +340,7 @@ gCompWidth
 gCompHeight
 )
 caps
+true
 )
 ;
 return
