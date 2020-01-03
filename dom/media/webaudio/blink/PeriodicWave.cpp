@@ -1046,9 +1046,9 @@ higher
 .
 tableInterpolationFactor
 =
-pitchRange
+rangeIndex2
 -
-rangeIndex1
+pitchRange
 ;
 }
 unsigned
