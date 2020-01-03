@@ -140,6 +140,7 @@ int32_t
 aDestLength
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 NS_IMETHOD
 GetMaxLength
 (
@@ -153,6 +154,7 @@ int32_t
 *
 aDestLength
 )
+override
 ;
 NS_IMETHOD
 Reset

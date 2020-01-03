@@ -918,6 +918,10 @@ length
 was
 computed
 *
+NS_ERROR_OUT_OF_MEMORY
+if
+OOM
+*
 NS_OK
 is
 all
@@ -928,6 +932,7 @@ an
 approximation
 *
 /
+MOZ_WARN_UNUSED_RESULT
 NS_IMETHOD
 GetMaxLength
 (
