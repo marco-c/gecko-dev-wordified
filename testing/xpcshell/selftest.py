@@ -2067,6 +2067,25 @@ mkdtemp
 (
 )
         
+self
+.
+utility_path
+=
+os
+.
+path
+.
+join
+(
+objdir
+'
+dist
+'
+'
+bin
+'
+)
+        
 logger
 =
 structured
@@ -2464,6 +2483,12 @@ verbose
 sequential
 =
 True
+                                          
+utility_path
+=
+self
+.
+utility_path
 )
                           
 msg

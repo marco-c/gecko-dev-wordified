@@ -1246,6 +1246,14 @@ test_tags
 '
 :
 test_tags
+            
+'
+utility_path
+'
+:
+self
+.
+bindir
         
 }
         
