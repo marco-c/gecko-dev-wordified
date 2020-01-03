@@ -1004,6 +1004,9 @@ mWorkerType
 TimeStamp
 mCreationTimeStamp
 ;
+TimeStamp
+mNowBaseTimeStamp
+;
 protected
 :
 /
@@ -1914,6 +1917,16 @@ const
 {
 return
 mCreationTimeStamp
+;
+}
+TimeStamp
+NowBaseTimeStamp
+(
+)
+const
+{
+return
+mNowBaseTimeStamp
 ;
 }
 nsIPrincipal

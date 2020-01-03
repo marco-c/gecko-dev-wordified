@@ -148,6 +148,9 @@ class
 WorkerNavigator
 ;
 class
+Performance
+;
+class
 WorkerGlobalScope
 :
 public
@@ -172,6 +175,12 @@ nsRefPtr
 WorkerNavigator
 >
 mNavigator
+;
+nsRefPtr
+<
+Performance
+>
+mPerformance
 ;
 protected
 :
@@ -541,6 +550,12 @@ nsAString
 aString
 )
 const
+;
+Performance
+*
+GetPerformance
+(
+)
 ;
 }
 ;
