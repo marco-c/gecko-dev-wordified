@@ -1117,11 +1117,9 @@ nsIAtom
 >
 nameAtom
 =
-mNodeInfo
--
->
-NameAtom
+GetNameAtom
 (
+element
 )
 ;
 element
@@ -1193,11 +1191,9 @@ nsIAtom
 >
 nameAtom
 =
-mNodeInfo
--
->
-NameAtom
+GetNameAtom
 (
+element
 )
 ;
 aRv
