@@ -679,7 +679,7 @@ types
 :
 GetValueType
 (
-elements
+elements_
 [
 index
 -
@@ -1019,14 +1019,14 @@ HeapSlot
 *
 sp
 =
-elements
+elements_
 +
 initlen
 ;
 sp
 !
 =
-elements
+elements_
 +
 (
 index
@@ -1852,7 +1852,7 @@ endif
 memcpy
 (
 &
-elements
+elements_
 [
 dstStart
 ]

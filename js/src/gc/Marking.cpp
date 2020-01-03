@@ -10641,7 +10641,7 @@ start
 obj
 -
 >
-slots
+slots_
 &
 &
 arr
@@ -10653,7 +10653,7 @@ end
 obj
 -
 >
-slots
+slots_
 +
 obj
 -
@@ -10679,7 +10679,7 @@ start
 obj
 -
 >
-slots
+slots_
 )
 +
 nfixed
@@ -10950,7 +10950,7 @@ vpp
 obj
 -
 >
-slots
+slots_
 +
 start
 -
@@ -10962,7 +10962,7 @@ endp
 obj
 -
 >
-slots
+slots_
 +
 nslots
 -
@@ -12038,7 +12038,7 @@ if
 nobj
 -
 >
-slots
+slots_
 )
 {
 unsigned
@@ -12072,7 +12072,7 @@ vp
 nobj
 -
 >
-slots
+slots_
 ;
 end
 =

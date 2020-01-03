@@ -3155,7 +3155,7 @@ oldCount
 obj
 -
 >
-slots
+slots_
 =
 AllocateSlots
 (
@@ -3170,7 +3170,7 @@ if
 obj
 -
 >
-slots
+slots_
 )
 return
 false
@@ -3180,7 +3180,7 @@ Debug_SetSlotRangeToCrashOnTouch
 obj
 -
 >
-slots
+slots_
 newCount
 )
 ;
@@ -3199,7 +3199,7 @@ obj
 obj
 -
 >
-slots
+slots_
 oldCount
 newCount
 )
@@ -3226,7 +3226,7 @@ size
 obj
 -
 >
-slots
+slots_
 =
 newslots
 ;
@@ -3235,7 +3235,7 @@ Debug_SetSlotRangeToCrashOnTouch
 obj
 -
 >
-slots
+slots_
 +
 oldCount
 newCount
@@ -3406,13 +3406,13 @@ cx
 obj
 -
 >
-slots
+slots_
 )
 ;
 obj
 -
 >
-slots
+slots_
 =
 nullptr
 ;
@@ -3448,7 +3448,7 @@ obj
 obj
 -
 >
-slots
+slots_
 oldCount
 newCount
 )
@@ -3474,7 +3474,7 @@ size
 obj
 -
 >
-slots
+slots_
 =
 newslots
 ;
@@ -6005,7 +6005,7 @@ capacity
 =
 newCapacity
 ;
-elements
+elements_
 =
 newheader
 -
@@ -6016,7 +6016,7 @@ elements
 ;
 Debug_SetSlotRangeToCrashOnTouch
 (
-elements
+elements_
 +
 initlen
 newCapacity
@@ -6205,7 +6205,7 @@ capacity
 =
 newCapacity
 ;
-elements
+elements_
 =
 newheader
 -
@@ -6403,7 +6403,7 @@ clearCopyOnWrite
 obj
 -
 >
-elements
+elements_
 =
 newheader
 -
@@ -6417,7 +6417,7 @@ Debug_SetSlotRangeToCrashOnTouch
 obj
 -
 >
-elements
+elements_
 +
 initlen
 newCapacity

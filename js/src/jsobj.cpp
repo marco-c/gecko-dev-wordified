@@ -16031,15 +16031,15 @@ priv
 ;
 if
 (
-slots
+slots_
 )
 {
 js_free
 (
-slots
+slots_
 )
 ;
-slots
+slots_
 =
 nullptr
 ;
@@ -16063,7 +16063,7 @@ getClass
 )
 )
 {
-slots
+slots_
 =
 cx
 -
@@ -16084,7 +16084,7 @@ ndynamic
 if
 (
 !
-slots
+slots_
 )
 CrashAtUnhandlableOOM
 (
@@ -16095,7 +16095,7 @@ fillInAfterSwap
 ;
 Debug_SetSlotRangeToCrashOnTouch
 (
-slots
+slots_
 ndynamic
 )
 ;
@@ -19079,7 +19079,7 @@ NativeObject
 (
 )
 .
-elements
+elements_
 =
 owner
 -
@@ -28784,7 +28784,7 @@ NativeObject
 (
 )
 .
-slots
+slots_
 )
 ;
 if

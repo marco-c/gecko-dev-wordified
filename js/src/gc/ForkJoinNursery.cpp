@@ -5822,7 +5822,7 @@ isInsideFromspace
 src
 -
 >
-slots
+slots_
 )
 )
 {
@@ -5836,7 +5836,7 @@ remove
 src
 -
 >
-slots
+slots_
 )
 ;
 if
@@ -5854,7 +5854,7 @@ put
 src
 -
 >
-slots
+slots_
 )
 ;
 return
@@ -5874,7 +5874,7 @@ numDynamicSlots
 dst
 -
 >
-slots
+slots_
 =
 allocateInTospace
 <
@@ -5890,7 +5890,7 @@ if
 dst
 -
 >
-slots
+slots_
 )
 CrashAtUnhandlableOOM
 (
@@ -5911,11 +5911,11 @@ js_memcpy
 dst
 -
 >
-slots
+slots_
 src
 -
 >
-slots
+slots_
 count
 *
 sizeof
@@ -5929,11 +5929,11 @@ setSlotsForwardingPointer
 src
 -
 >
-slots
+slots_
 dst
 -
 >
-slots
+slots_
 count
 )
 ;
@@ -6038,13 +6038,13 @@ MOZ_ASSERT
 src
 -
 >
-elements
+elements_
 =
 =
 dst
 -
 >
-elements
+elements_
 )
 ;
 hugeSlots
@@ -6260,7 +6260,7 @@ nslots
 dst
 -
 >
-elements
+elements_
 =
 dstHeader
 -
