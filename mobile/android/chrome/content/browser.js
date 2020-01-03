@@ -32113,11 +32113,7 @@ fixedURI
 let
 webNav
 =
-BrowserApp
-.
-selectedTab
-.
-window
+contentWin
 .
 QueryInterface
 (
