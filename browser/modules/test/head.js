@@ -99,6 +99,9 @@ waitForConditionPromise
 (
 condition
 timeoutMsg
+tryCount
+=
+NUMBER_OF_TRIES
 )
 {
 let
@@ -125,7 +128,7 @@ if
 tries
 >
 =
-NUMBER_OF_TRIES
+tryCount
 )
 {
 defer
