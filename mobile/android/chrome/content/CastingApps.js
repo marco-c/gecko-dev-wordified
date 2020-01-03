@@ -4531,6 +4531,17 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+session
+)
+{
+return
+;
+}
 this
 .
 session
