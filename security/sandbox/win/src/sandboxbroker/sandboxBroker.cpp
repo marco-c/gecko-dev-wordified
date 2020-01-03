@@ -1597,6 +1597,11 @@ mitigations
 sandbox
 :
 :
+MITIGATION_STRICT_HANDLE_CHECKS
+|
+sandbox
+:
+:
 MITIGATION_DLL_SEARCH_ORDER
 ;
 result
