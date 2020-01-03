@@ -19360,10 +19360,10 @@ else
 {
 shouldBuildLayer
 =
-nsLayoutUtils
+gfxPrefs
 :
 :
-WantSubAPZC
+AsyncPanZoomEnabled
 (
 )
 &
