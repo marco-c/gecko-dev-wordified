@@ -501,10 +501,6 @@ loop
 shared
 .
 utils
-.
-Helper
-.
-prototype
 "
 locationData
 "
