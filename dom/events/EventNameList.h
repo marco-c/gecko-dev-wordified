@@ -2390,7 +2390,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 gamepadbuttonup
-NS_GAMEPAD_BUTTONUP
+eGamepadButtonUp
 EventNameType_None
 eBasicEventClass
 )
