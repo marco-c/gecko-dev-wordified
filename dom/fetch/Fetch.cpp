@@ -1942,7 +1942,7 @@ DerivedClass
 )
 -
 >
-Headers_
+GetInternalHeaders
 (
 )
 )
@@ -1952,7 +1952,7 @@ DerivedClass
 )
 -
 >
-Headers_
+GetInternalHeaders
 (
 )
 -

@@ -224,7 +224,7 @@ copy
 mHeaders
 =
 new
-Headers
+InternalHeaders
 (
 *
 mHeaders
