@@ -418,7 +418,7 @@ aFactory
 ;
 static
 nsresult
-CreateForChromeJS
+CreateForMainThreadJS
 (
 JSContext
 *

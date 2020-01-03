@@ -5958,15 +5958,6 @@ if
 indexedDB
 &
 &
-AccessCheck
-:
-:
-isChrome
-(
-obj
-)
-&
-&
 !
 IndexedDatabaseManager
 :
