@@ -2041,6 +2041,10 @@ int
 aIndex
 )
 :
+mIO
+(
+nullptr
+)
 mPDUConsumer
 (
 aPDUConsumer
@@ -2052,10 +2056,6 @@ aConsumer
 mIndex
 (
 aIndex
-)
-mIO
-(
-nullptr
 )
 {
 MOZ_ASSERT
@@ -2087,6 +2087,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
+MessageLoop
+*
+aIOLoop
 ConnectionOrientedSocketIO
 *
 &
@@ -2165,9 +2168,7 @@ mIO
 new
 BluetoothDaemonConnectionIO
 (
-XRE_GetIOMessageLoop
-(
-)
+aIOLoop
 -
 1
 UnixSocketWatcher
@@ -2214,7 +2215,10 @@ MOZ_ASSERT
 mIO
 )
 ;
-XRE_GetIOMessageLoop
+mIO
+-
+>
+GetIOLoop
 (
 )
 -
@@ -2275,7 +2279,10 @@ disconnected
 return
 ;
 }
-XRE_GetIOMessageLoop
+mIO
+-
+>
+GetIOLoop
 (
 )
 -
