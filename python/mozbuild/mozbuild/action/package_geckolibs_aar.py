@@ -802,6 +802,7 @@ package_geckolibs_aar
 (
 topsrcdir
 distdir
+appname
 output_file
 )
 :
@@ -903,9 +904,7 @@ path
 join
 (
 distdir
-'
-fennec
-'
+appname
 '
 lib
 '
@@ -1048,9 +1047,7 @@ path
 join
 (
 distdir
-'
-fennec
-'
+appname
 '
 assets
 '
@@ -1108,6 +1105,7 @@ package_geckoview_aar
 (
 topsrcdir
 distdir
+appname
 output_file
 )
 :
@@ -1121,7 +1119,7 @@ optimize
 False
 )
     
-fennec_path
+app_path
 =
 os
 .
@@ -1130,9 +1128,7 @@ path
 join
 (
 distdir
-'
-fennec
-'
+appname
 )
     
 assets
@@ -1145,7 +1141,7 @@ path
 .
 join
 (
-fennec_path
+app_path
 '
 assets
 '
@@ -1271,7 +1267,7 @@ f
 in
 JarFinder
 (
-p
+base_path
 resjar
 )
 .
@@ -1579,6 +1575,33 @@ dist
 '
 )
     
+parser
+.
+add_argument
+(
+'
+-
+-
+appname
+'
+                        
+help
+=
+'
+Application
+name
+(
+usually
+MOZ_APP_NAME
+like
+"
+fennec
+"
+)
+.
+'
+)
+    
 args
 =
 parser
@@ -1746,6 +1769,9 @@ topsrcdir
 args
 .
 distdir
+args
+.
+appname
 gecklibs_aar
 )
     
@@ -1757,6 +1783,9 @@ topsrcdir
 args
 .
 distdir
+args
+.
+appname
 geckoview_aar
 )
     
