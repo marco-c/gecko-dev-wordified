@@ -174,11 +174,15 @@ include
 "
 jit
 /
-mips32
+mips
+-
+shared
 /
 Bailouts
 -
-mips32
+mips
+-
+shared
 .
 h
 "

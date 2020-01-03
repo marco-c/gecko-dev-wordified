@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_mips32_Bailouts_mips32_h
+jit_mips_shared_Bailouts_mips_shared_h
 #
 define
-jit_mips32_Bailouts_mips32_h
+jit_mips_shared_Bailouts_mips_shared_h
 #
 include
 "
@@ -457,6 +457,6 @@ js
 endif
 /
 *
-jit_mips32_Bailouts_mips32_h
+jit_mips_shared_Bailouts_mips_shared_h
 *
 /
