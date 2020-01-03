@@ -14315,15 +14315,6 @@ purge
 (
 )
 ;
-rt
--
->
-regExpTestCache
-.
-purge
-(
-)
-;
 }
 /
 *

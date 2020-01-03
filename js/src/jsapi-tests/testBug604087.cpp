@@ -200,6 +200,12 @@ false
 isWrappedNative
 *
 /
+nullptr
+/
+*
+objectMoved
+*
+/
 )
 )
 ;
