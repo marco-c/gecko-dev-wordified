@@ -228,7 +228,7 @@ jsm
 Lazy
 load
 |
-ProfileTimesAccessor
+ProfileAge
 |
 as
 it
@@ -244,7 +244,7 @@ defineLazyModuleGetter
 (
 this
 "
-ProfileTimesAccessor
+ProfileAge
 "
 "
 resource
@@ -255,11 +255,7 @@ gre
 /
 modules
 /
-services
-/
-healthreport
-/
-profile
+ProfileAge
 .
 jsm
 "
@@ -1139,7 +1135,7 @@ gIsAndroid
 {
 /
 /
-ProfileTimesAccessor
+ProfileAge
 is
 not
 available
@@ -1154,7 +1150,7 @@ let
 profileAccessor
 =
 new
-ProfileTimesAccessor
+ProfileAge
 (
 )
 ;
