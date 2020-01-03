@@ -1128,6 +1128,16 @@ int32_t
 aOut
 )
 ;
+nsresult
+Convert
+(
+nsresult
+aIn
+BluetoothStatus
+&
+aOut
+)
+;
 /
 /
 /

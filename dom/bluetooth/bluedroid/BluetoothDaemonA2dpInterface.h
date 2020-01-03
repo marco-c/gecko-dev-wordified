@@ -137,13 +137,6 @@ h
 #
 include
 "
-BluetoothInterfaceHelpers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ipc
