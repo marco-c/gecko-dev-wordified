@@ -289,7 +289,7 @@ indexOf
 0
 )
 {
-safeInfo
+info
 (
 "
 Network
@@ -317,7 +317,7 @@ address
 is
 not
 available
-safeInfo
+info
 (
 "
 Network
@@ -336,7 +336,7 @@ return
 false
 ;
 }
-safeInfo
+info
 (
 "
 Network
@@ -780,8 +780,6 @@ then
 )
 =
 >
-SimpleTest
-.
 finish
 (
 )
