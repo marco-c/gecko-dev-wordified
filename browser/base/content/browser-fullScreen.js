@@ -3310,6 +3310,13 @@ requestAnimationFrame
 =
 >
 {
+if
+(
+this
+.
+_element
+)
+{
 this
 .
 _element
@@ -3320,6 +3327,7 @@ newState
 true
 )
 ;
+}
 }
 )
 ;
