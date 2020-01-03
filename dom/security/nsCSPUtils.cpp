@@ -3054,6 +3054,11 @@ mPort
 =
 aPort
 ;
+ToLowerCase
+(
+mPort
+)
+;
 }
 void
 nsCSPHostSrc
@@ -3072,6 +3077,11 @@ mPath
 Append
 (
 aPath
+)
+;
+ToLowerCase
+(
+mPath
 )
 ;
 }
