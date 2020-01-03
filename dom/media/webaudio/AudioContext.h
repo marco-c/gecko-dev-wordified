@@ -1037,16 +1037,6 @@ MozAudioChannelType
 )
 const
 ;
-void
-SetMozAudioChannelType
-(
-AudioChannel
-aValue
-ErrorResult
-&
-aRv
-)
-;
 AudioChannel
 TestAudioChannelInAudioNodeStream
 (
