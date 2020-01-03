@@ -4894,7 +4894,7 @@ kValue
 )
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INVALID_LOCALES_ELEMENT
 )
@@ -4915,7 +4915,7 @@ IsStructurallyValidLanguageTag
 tag
 )
 )
-ThrowError
+ThrowRangeError
 (
 JSMSG_INVALID_LANGUAGE_TAG
 tag
