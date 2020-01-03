@@ -12068,7 +12068,7 @@ nsWindow
 :
 SetSizeMode
 (
-int32_t
+nsSizeMode
 aMode
 )
 {

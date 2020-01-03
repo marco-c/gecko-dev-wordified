@@ -262,6 +262,13 @@ h
 #
 include
 "
+nsIWidgetListener
+.
+h
+"
+#
+include
+"
 FrameMetrics
 .
 h
@@ -288,9 +295,6 @@ nsIContent
 ;
 class
 ViewWrapper
-;
-class
-nsIWidgetListener
 ;
 class
 nsIntRegion
@@ -4400,7 +4404,7 @@ h
 NS_IMETHOD
 SetSizeMode
 (
-int32_t
+nsSizeMode
 aMode
 )
 =
@@ -4434,7 +4438,7 @@ h
 *
 /
 virtual
-int32_t
+nsSizeMode
 SizeMode
 (
 )

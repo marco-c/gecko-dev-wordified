@@ -1882,7 +1882,7 @@ normalZ
 mWindow
 )
 {
-int32_t
+nsSizeMode
 sizeMode
 =
 mWindow
@@ -7720,7 +7720,7 @@ MODE_ATTRIBUTE
 stateString
 )
 ;
-int32_t
+nsSizeMode
 sizeMode
 =
 nsSizeMode_Normal
@@ -9782,7 +9782,7 @@ mPersistentAttributesDirty
 PAD_MISC
 )
 {
-int32_t
+nsSizeMode
 sizeMode
 =
 mWindow
