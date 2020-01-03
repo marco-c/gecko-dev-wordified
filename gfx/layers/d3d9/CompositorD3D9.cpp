@@ -3560,7 +3560,7 @@ mCurrentRT
 &
 &
 !
-mFinalDestinationTarget
+mDefaultRT
 "
 Shouldn
 '
@@ -3869,7 +3869,7 @@ GetBackBuffer
 (
 )
 ;
-mFinalDestinationTarget
+mDefaultRT
 =
 new
 CompositingRenderTargetD3D9
@@ -3887,6 +3887,11 @@ mSize
 .
 height
 )
+)
+;
+SetRenderTarget
+(
+mDefaultRT
 )
 ;
 }
@@ -3955,7 +3960,7 @@ mCurrentRT
 =
 nullptr
 ;
-mFinalDestinationTarget
+mDefaultRT
 =
 nullptr
 ;

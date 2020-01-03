@@ -5185,9 +5185,10 @@ mAttachments
 mRasterizerState
 )
 ;
-mFinalDestinationTarget
-=
+SetRenderTarget
+(
 mDefaultRT
+)
 ;
 }
 void
@@ -5251,10 +5252,6 @@ PaintToTarget
 }
 }
 mCurrentRT
-=
-nullptr
-;
-mFinalDestinationTarget
 =
 nullptr
 ;
