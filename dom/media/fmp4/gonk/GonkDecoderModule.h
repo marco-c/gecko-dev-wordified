@@ -235,6 +235,17 @@ aConfig
 const
 override
 ;
+virtual
+bool
+SupportsMimeType
+(
+const
+nsACString
+&
+aMimeType
+)
+override
+;
 }
 ;
 }

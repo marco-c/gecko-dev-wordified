@@ -927,7 +927,7 @@ NS_OK
 NS_WARNING
 (
 "
-GonkAudioDecoder
+GonkMediaDataDecoder
 failed
 to
 input

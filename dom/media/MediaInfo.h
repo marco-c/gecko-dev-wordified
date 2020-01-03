@@ -529,6 +529,11 @@ aWidth
 aHeight
 )
 )
+mCodecSpecificConfig
+(
+new
+MediaByteBuffer
+)
 mExtraData
 (
 new
@@ -617,6 +622,12 @@ image
 .
 nsIntSize
 mImage
+;
+nsRefPtr
+<
+MediaByteBuffer
+>
+mCodecSpecificConfig
 ;
 nsRefPtr
 <
