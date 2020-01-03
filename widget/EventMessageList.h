@@ -926,7 +926,7 @@ eCompositionEventFirst
 )
 /
 /
-NS_COMPOSITION_END
+eCompositionEnd
 is
 the
 message
@@ -954,7 +954,7 @@ available
 .
 NS_EVENT_MESSAGE
 (
-NS_COMPOSITION_END
+eCompositionEnd
 eCompositionEventFirst
 +
 1
@@ -1122,7 +1122,7 @@ After
 that
 /
 /
-NS_COMPOSITION_END
+eCompositionEnd
 will
 be
 dispatched
@@ -1188,7 +1188,7 @@ information
 /
 After
 that
-NS_COMPOSITION_END
+eCompositionEnd
 will
 be
 dispatched

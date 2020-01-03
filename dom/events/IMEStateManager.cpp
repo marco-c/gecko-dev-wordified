@@ -862,11 +862,11 @@ eCompositionStart
 "
 ;
 case
-NS_COMPOSITION_END
+eCompositionEnd
 :
 return
 "
-NS_COMPOSITION_END
+eCompositionEnd
 "
 ;
 case
