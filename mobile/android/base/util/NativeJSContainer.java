@@ -109,17 +109,6 @@ annotation
 .
 WrapForJNI
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
-JNITarget
-;
 /
 *
 *

@@ -177,7 +177,9 @@ mozilla
 .
 gecko
 .
-R
+annotation
+.
+RobocopTarget
 ;
 import
 org
@@ -186,9 +188,7 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-RobocopTarget
+R
 ;
 import
 org

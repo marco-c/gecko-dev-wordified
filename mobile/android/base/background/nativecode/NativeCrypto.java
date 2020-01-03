@@ -81,7 +81,9 @@ mozilla
 .
 gecko
 .
-AppConstants
+annotation
+.
+RobocopTarget
 ;
 import
 org
@@ -90,9 +92,7 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-RobocopTarget
+AppConstants
 ;
 import
 android

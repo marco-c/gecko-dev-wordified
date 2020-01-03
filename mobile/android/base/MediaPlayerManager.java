@@ -194,9 +194,9 @@ mozilla
 .
 gecko
 .
-AppConstants
+annotation
 .
-Versions
+JNITarget
 ;
 import
 org
@@ -205,9 +205,9 @@ mozilla
 .
 gecko
 .
-mozglue
+AppConstants
 .
-JNITarget
+Versions
 ;
 import
 org

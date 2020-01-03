@@ -276,7 +276,7 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
 JNITarget
 ;

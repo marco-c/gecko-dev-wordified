@@ -243,7 +243,7 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
 JNITarget
 ;
@@ -254,7 +254,7 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
 RobocopTarget
 ;

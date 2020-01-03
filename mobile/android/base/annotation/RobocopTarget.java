@@ -63,7 +63,7 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 ;
 import
 java
@@ -126,6 +126,6 @@ CLASS
 )
 public
 interface
-JNITarget
+RobocopTarget
 {
 }
