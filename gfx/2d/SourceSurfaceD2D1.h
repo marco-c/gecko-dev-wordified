@@ -387,10 +387,8 @@ mFormat
 IntSize
 mSize
 ;
-RefPtr
-<
 DrawTargetD2D1
->
+*
 mDrawTarget
 ;
 }
