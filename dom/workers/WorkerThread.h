@@ -255,9 +255,6 @@ WorkerPrivateParent
 WorkerPrivate
 >
 ;
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
 WorkerThreadFriendKey
 (
 )
@@ -267,8 +264,6 @@ WorkerThreadFriendKey
 (
 )
 ;
-#
-endif
 }
 ;
 class

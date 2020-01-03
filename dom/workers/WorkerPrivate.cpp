@@ -7999,9 +7999,6 @@ true
 }
 }
 ;
-#
-ifdef
-DEBUG
 PRThread
 *
 PRThreadFromThread
@@ -8044,11 +8041,6 @@ return
 result
 ;
 }
-#
-endif
-/
-/
-DEBUG
 }
 /
 *

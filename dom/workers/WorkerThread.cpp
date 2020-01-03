@@ -228,9 +228,6 @@ size_t
 /
 anonymous
 namespace
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
 WorkerThreadFriendKey
 :
 :
@@ -258,8 +255,6 @@ WorkerThreadFriendKey
 )
 ;
 }
-#
-endif
 class
 WorkerThread
 :
