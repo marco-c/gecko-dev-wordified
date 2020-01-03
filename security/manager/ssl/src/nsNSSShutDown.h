@@ -921,11 +921,11 @@ nsNSSShutDownList
 *
 singleton
 ;
-PLDHashTable
-mObjects
-;
 uint32_t
 mActiveSSLSockets
+;
+PLDHashTable
+mObjects
 ;
 PLDHashTable
 mPK11LogoutCancelObjects
