@@ -201,6 +201,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+HTMLCanvasElement
+.
+h
+"
+#
+include
+"
 MediaStreamGraph
 .
 h
