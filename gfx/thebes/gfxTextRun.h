@@ -6332,13 +6332,15 @@ a
 different
 appUnitsPerDev
 value
+or
+flags
 )
 for
 the
 font
+/
+/
 group
-/
-/
 or
 until
 UpdateUserFonts
@@ -6380,6 +6382,8 @@ GetEllipsisTextRun
 (
 int32_t
 aAppUnitsPerDevPixel
+uint32_t
+aFlags
 LazyReferenceContextGetter
 &
 aRefContextGetter
@@ -7197,6 +7201,8 @@ a
 specific
 appUnitsPerDevPixel
 size
+and
+orientation
 nsAutoPtr
 <
 gfxTextRun
