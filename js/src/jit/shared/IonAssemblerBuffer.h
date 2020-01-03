@@ -589,6 +589,8 @@ Inst
 class
 AssemblerBuffer
 {
+protected
+:
 typedef
 BufferSlice
 <
@@ -604,8 +606,6 @@ Inst
 >
 AssemblerBuffer_
 ;
-protected
-:
 /
 /
 Doubly
