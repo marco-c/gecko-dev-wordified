@@ -2344,7 +2344,9 @@ nsINfcGonkEventListener
 )
 rfState
 :
-null
+NFC
+.
+NFC_RF_STATE_IDLE
 nfcService
 :
 null
