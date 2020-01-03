@@ -1256,6 +1256,11 @@ HasPendingEvents
 (
 )
 ;
+void
+ProcessPendingRequests
+(
+)
+;
 bool
 ProcessPendingRequest
 (
