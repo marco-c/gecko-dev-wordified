@@ -58,6 +58,10 @@ undefined
 .
 source
 '
+(
+?
+:
+)
 '
 )
 ;
@@ -104,6 +108,10 @@ undefined
 .
 source
 '
+(
+?
+:
+)
 '
 )
 ;
