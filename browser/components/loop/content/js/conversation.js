@@ -2664,6 +2664,17 @@ reason
 "
 cancel
 "
+|
+|
+progressData
+.
+reason
+=
+=
+=
+"
+closed
+"
 )
 {
 this
