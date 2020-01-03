@@ -5765,6 +5765,7 @@ Assert
 ok
 (
 condition
+stack
 )
 ;
 }
