@@ -1099,6 +1099,11 @@ values
 {
 if
 (
+room
+.
+deleted
+|
+|
 !
 (
 "
