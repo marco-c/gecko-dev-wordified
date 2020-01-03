@@ -1538,6 +1538,10 @@ Clear
 (
 )
 ;
+mDecodingRequested
+=
+false
+;
 mOutputRequested
 =
 false

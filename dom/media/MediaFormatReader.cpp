@@ -4005,12 +4005,6 @@ timeThreshold
 )
 )
 {
-mVideo
-.
-mDecodingRequested
-=
-false
-;
 Flush
 (
 TrackInfo
@@ -6237,7 +6231,7 @@ samples
 )
 )
 ;
-ScheduleUpdate
+NotifyDecodingRequested
 (
 aTrack
 )
@@ -6370,7 +6364,7 @@ Complete
 self
 -
 >
-ScheduleUpdate
+NotifyDecodingRequested
 (
 aTrack
 )
