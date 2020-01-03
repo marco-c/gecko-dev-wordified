@@ -527,7 +527,7 @@ nsID
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -562,7 +562,7 @@ rv
 )
 )
 {
-NS_Free
+free
 (
 id
 )

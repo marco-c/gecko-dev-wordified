@@ -1655,7 +1655,7 @@ error
 FT_Err_Ok
 )
 {
-NS_Free
+free
 (
 (
 void
@@ -1685,7 +1685,7 @@ FT_Done_Face
 face
 )
 ;
-NS_Free
+free
 (
 (
 void
@@ -1823,7 +1823,7 @@ if
 mFontData
 )
 {
-NS_Free
+free
 (
 (
 void

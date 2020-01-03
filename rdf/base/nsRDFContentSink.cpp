@@ -2619,7 +2619,7 @@ me
 /
 )
 ;
-NS_Free
+free
 (
 tagCStr
 )

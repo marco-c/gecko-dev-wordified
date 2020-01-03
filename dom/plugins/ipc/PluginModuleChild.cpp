@@ -4007,7 +4007,7 @@ AppendElement
 iterator
 )
 ;
-NS_Free
+free
 (
 *
 iterator
@@ -4018,7 +4018,7 @@ iterator
 iterator
 ;
 }
-NS_Free
+free
 (
 result
 )
@@ -6910,7 +6910,7 @@ AssertPluginThread
 (
 )
 ;
-NS_Free
+free
 (
 aPtr
 )
@@ -7174,7 +7174,7 @@ AssertPluginThread
 )
 ;
 return
-NS_Alloc
+moz_xmalloc
 (
 aSize
 )

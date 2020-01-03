@@ -7894,7 +7894,7 @@ stuffToPaste
 ;
 }
 }
-NS_Free
+free
 (
 flav
 )

@@ -6638,7 +6638,7 @@ char16_t
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 arrayLen
 *
@@ -6710,7 +6710,7 @@ array
 )
 )
 ;
-NS_Free
+free
 (
 array
 )
@@ -6968,7 +6968,7 @@ charArray
 i
 ]
 )
-NS_Free
+free
 (
 charArray
 [
@@ -7052,7 +7052,7 @@ be
 freed
 .
 }
-NS_Free
+free
 (
 array
 )
@@ -7133,7 +7133,7 @@ i
 ]
 )
 {
-NS_Free
+free
 (
 tags
 )
@@ -7211,7 +7211,7 @@ tag
 )
 )
 {
-NS_Free
+free
 (
 tags
 [
@@ -7219,7 +7219,7 @@ i
 ]
 )
 ;
-NS_Free
+free
 (
 tags
 )
@@ -7229,7 +7229,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-NS_Free
+free
 (
 tags
 [
@@ -7238,7 +7238,7 @@ i
 )
 ;
 }
-NS_Free
+free
 (
 tags
 )
@@ -7517,7 +7517,7 @@ uint32_t
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 count
 *

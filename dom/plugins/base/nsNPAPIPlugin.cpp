@@ -9935,7 +9935,7 @@ break
 }
 #
 else
-NS_Free
+free
 (
 (
 void

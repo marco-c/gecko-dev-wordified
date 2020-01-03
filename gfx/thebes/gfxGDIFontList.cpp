@@ -4568,7 +4568,7 @@ the
 font
 data
 with
-NS_Free
+free
 /
 /
 so
@@ -4614,7 +4614,7 @@ FontDataDeleter
 (
 )
 {
-NS_Free
+free
 (
 (
 void

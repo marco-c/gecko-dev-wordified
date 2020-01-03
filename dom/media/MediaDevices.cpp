@@ -555,7 +555,7 @@ nsIDataType
 VTYPE_INTERFACE
 )
 {
-NS_Free
+free
 (
 rawArray
 )
@@ -633,7 +633,7 @@ refcount
 for
 rawptr
 }
-NS_Free
+free
 (
 rawArray
 )

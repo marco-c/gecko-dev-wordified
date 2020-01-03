@@ -823,7 +823,7 @@ if
 mBrandName
 )
 {
-NS_Free
+free
 (
 mBrandName
 )

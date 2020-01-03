@@ -1120,7 +1120,7 @@ nsITVProgramData
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 1
 *

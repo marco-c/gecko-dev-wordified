@@ -1597,7 +1597,7 @@ idx
 +
 +
 )
-NS_Free
+free
 (
 (
 void

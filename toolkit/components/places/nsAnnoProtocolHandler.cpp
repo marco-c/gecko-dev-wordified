@@ -1094,7 +1094,7 @@ our
 favicon
 array
 .
-NS_Free
+free
 (
 favicon
 )

@@ -1833,7 +1833,7 @@ char16_t
 *
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -1888,7 +1888,7 @@ ans
 .
 count
 ;
-NS_Free
+free
 (
 ans
 .
@@ -1901,7 +1901,7 @@ count
 )
 ;
 }
-NS_Free
+free
 (
 ans
 .

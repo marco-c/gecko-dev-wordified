@@ -3562,7 +3562,7 @@ data
 allocated
 with
 *
-NS_Alloc
+moz_xmalloc
 such
 as
 "

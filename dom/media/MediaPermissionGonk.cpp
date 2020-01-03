@@ -1944,7 +1944,7 @@ nsIDataType
 VTYPE_INTERFACE
 )
 {
-NS_Free
+free
 (
 rawArray
 )
@@ -2039,7 +2039,7 @@ for
 raw
 pointer
 }
-NS_Free
+free
 (
 rawArray
 )

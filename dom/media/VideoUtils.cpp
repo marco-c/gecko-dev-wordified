@@ -2557,7 +2557,7 @@ randomData
 temp
 )
 ;
-NS_Free
+free
 (
 buffer
 )

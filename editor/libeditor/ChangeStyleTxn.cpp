@@ -249,17 +249,6 @@ h
 /
 for
 nsCaseInsensitiveStringComparator
-#
-include
-"
-nsXPCOM
-.
-h
-"
-/
-/
-for
-NS_Free
 using
 namespace
 mozilla
@@ -530,7 +519,7 @@ start
 end
 ;
 }
-NS_Free
+free
 (
 value
 )

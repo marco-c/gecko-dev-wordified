@@ -887,7 +887,7 @@ if
 mSourceBuffer
 )
 {
-NS_Free
+free
 (
 mSourceBuffer
 )

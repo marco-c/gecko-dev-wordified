@@ -1557,7 +1557,7 @@ WriteID
 cidptr
 )
 ;
-NS_Free
+free
 (
 cidptr
 )

@@ -543,7 +543,7 @@ pBuf
 char
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 outlen
 +
@@ -704,7 +704,7 @@ pBuf
 buf
 )
 {
-NS_Free
+free
 (
 pBuf
 )
@@ -925,7 +925,7 @@ pBuf
 char16_t
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 (
 outlen
@@ -990,7 +990,7 @@ pBuf
 }
 else
 {
-NS_Free
+free
 (
 pBuf
 )
@@ -998,7 +998,7 @@ pBuf
 }
 }
 }
-NS_Free
+free
 (
 unescaped
 )
@@ -1333,7 +1333,7 @@ ustr
 char16_t
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 dstLen
 *
@@ -1383,7 +1383,7 @@ ustr
 dstLen
 )
 ;
-NS_Free
+free
 (
 ustr
 )

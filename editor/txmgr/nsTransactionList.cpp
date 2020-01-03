@@ -608,7 +608,7 @@ nsISupports
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 data
 .

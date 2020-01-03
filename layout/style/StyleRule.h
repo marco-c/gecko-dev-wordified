@@ -566,9 +566,9 @@ mString
 and
 mNumbers
 use
-NS_Alloc
+moz_xmalloc
 /
-NS_Free
+free
 char16_t
 *
 mString

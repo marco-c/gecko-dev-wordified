@@ -2893,7 +2893,7 @@ oldEntry
 }
 else
 {
-NS_Free
+free
 (
 oldEntry
 )

@@ -907,7 +907,7 @@ to
 ensure
 aFontData
 is
-NS_Free
+free
 (
 )
 '

@@ -932,7 +932,7 @@ base
 =
 escapedSpec
 ;
-NS_Free
+free
 (
 escapedSpec
 )

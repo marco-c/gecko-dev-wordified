@@ -4950,7 +4950,7 @@ nsDirectoryService
 gService
 )
 ;
-NS_Free
+free
 (
 gGREBinPath
 )

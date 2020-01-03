@@ -1840,7 +1840,7 @@ e2
 T
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 (
 1
@@ -2059,7 +2059,7 @@ break
 ;
 }
 }
-NS_Free
+free
 (
 e2
 )
@@ -3109,7 +3109,7 @@ expr
 T
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 (
 nsCharTraits
@@ -3295,7 +3295,7 @@ aCaseInsensitive
 )
 ;
 }
-NS_Free
+free
 (
 expr
 )

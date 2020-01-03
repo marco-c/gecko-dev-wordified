@@ -333,7 +333,7 @@ type
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 elemSize
 *
@@ -392,7 +392,7 @@ bLength
 aLength
 ;
 \
-NS_Free
+free
 (
 *
 b
@@ -408,7 +408,7 @@ type
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 elemSize
 *
@@ -994,7 +994,7 @@ org
 en
 /
 XPIDL
-NS_Free
+free
 (
 const_cast
 <
@@ -1144,7 +1144,7 @@ org
 en
 /
 XPIDL
-NS_Free
+free
 (
 (
 void
@@ -2234,7 +2234,7 @@ nsIID
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -2501,7 +2501,7 @@ nsIID
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (

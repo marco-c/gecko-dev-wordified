@@ -4766,7 +4766,7 @@ n
 valueCStr
 )
 ;
-NS_Free
+free
 (
 valueCStr
 )

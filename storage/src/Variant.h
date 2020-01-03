@@ -1473,7 +1473,7 @@ aData
 first
 )
 {
-NS_Free
+free
 (
 aData
 .

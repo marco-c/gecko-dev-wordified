@@ -2709,7 +2709,7 @@ then
 be
 released
 with
-NS_Free
+free
 (
 )
 .
@@ -2975,7 +2975,7 @@ FT_Done_Face
 mFace
 )
 ;
-NS_Free
+free
 (
 (
 void
@@ -10268,7 +10268,7 @@ error
 0
 )
 {
-NS_Free
+free
 (
 (
 void

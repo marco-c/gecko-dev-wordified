@@ -6302,7 +6302,7 @@ result
 char
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 len
 +

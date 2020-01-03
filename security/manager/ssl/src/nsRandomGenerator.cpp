@@ -188,7 +188,7 @@ uint8_t
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 aLength
 )
@@ -222,7 +222,7 @@ srv
 SECSuccess
 )
 {
-NS_Free
+free
 (
 buf
 )

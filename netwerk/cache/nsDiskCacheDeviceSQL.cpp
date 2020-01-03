@@ -13020,7 +13020,7 @@ char
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 *
 count

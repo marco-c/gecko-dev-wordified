@@ -3594,7 +3594,7 @@ is
 eventually
 deleted
 with
-NS_Free
+free
 (
 )
 .
@@ -3651,7 +3651,7 @@ is
 eventually
 deleted
 with
-NS_Free
+free
 (
 )
 .

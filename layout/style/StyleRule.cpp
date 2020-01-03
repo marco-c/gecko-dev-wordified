@@ -1270,7 +1270,7 @@ u
 mMemory
 )
 {
-NS_Free
+free
 (
 u
 .

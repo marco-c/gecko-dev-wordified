@@ -590,7 +590,7 @@ if
 (
 location
 )
-NS_Free
+free
 (
 location
 )

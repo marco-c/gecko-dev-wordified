@@ -777,7 +777,7 @@ sqlite3_result_blob
 aCtx
 aData
 aSize
-NS_Free
+free
 )
 ;
 return

@@ -172,7 +172,7 @@ will
 be
 allocated
 with
-NS_Alloc
+moz_xmalloc
 and
 interface
 pointers

@@ -853,7 +853,7 @@ aDoDeleteSelection
 ;
 }
 }
-NS_Free
+free
 (
 bestFlavor
 )

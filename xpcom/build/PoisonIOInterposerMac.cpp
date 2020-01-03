@@ -619,7 +619,7 @@ if
 mFilename
 )
 {
-NS_Free
+free
 (
 mFilename
 )

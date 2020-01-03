@@ -373,7 +373,7 @@ mOff
 {
 mPtr
 =
-NS_Alloc
+moz_xmalloc
 (
 mLength
 )
@@ -384,7 +384,7 @@ ExpandingMemoryStream
 (
 )
 {
-NS_Free
+free
 (
 mPtr
 )
@@ -410,7 +410,7 @@ becomes
 responsible
 to
 call
-NS_Free
+free
 /
 /
 when
@@ -527,7 +527,7 @@ mLimit
 }
 mPtr
 =
-NS_Realloc
+moz_xrealloc
 (
 mPtr
 newLength

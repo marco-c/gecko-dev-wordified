@@ -938,7 +938,7 @@ data
 is
 released
 with
-NS_Free
+free
 when
 no
 longer

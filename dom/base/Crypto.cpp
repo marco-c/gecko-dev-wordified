@@ -639,7 +639,7 @@ buf
 dataLen
 )
 ;
-NS_Free
+free
 (
 buf
 )

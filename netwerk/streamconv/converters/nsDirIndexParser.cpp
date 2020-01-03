@@ -1443,7 +1443,7 @@ success
 true
 ;
 }
-NS_Free
+free
 (
 result
 )

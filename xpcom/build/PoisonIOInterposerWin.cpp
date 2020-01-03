@@ -1012,7 +1012,7 @@ MOZ_ASSERT
 mHasQueriedFilename
 )
 ;
-NS_Free
+free
 (
 mFilename
 )

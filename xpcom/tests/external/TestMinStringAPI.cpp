@@ -378,7 +378,7 @@ return
 false
 ;
 }
-NS_Free
+free
 (
 clone
 )
@@ -656,7 +656,7 @@ return
 false
 ;
 }
-NS_Free
+free
 (
 clone
 )
