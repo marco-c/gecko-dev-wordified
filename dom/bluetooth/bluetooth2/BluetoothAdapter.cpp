@@ -3649,7 +3649,6 @@ handle
 .
 BT_ENSURE_TRUE_REJECT
 (
-!
 mLeScanHandleArray
 .
 Contains
