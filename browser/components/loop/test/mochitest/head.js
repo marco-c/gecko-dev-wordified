@@ -210,8 +210,6 @@ getElementById
 "
 loop
 -
-call
--
 button
 "
 )

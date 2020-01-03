@@ -1647,8 +1647,6 @@ endif
 #
 loop
 -
-call
--
 button
 >
 .
@@ -1704,8 +1702,6 @@ brighttext
 #
 loop
 -
-call
--
 button
 >
 .
@@ -1744,8 +1740,6 @@ png
 #
 loop
 -
-call
--
 button
 [
 state
@@ -1763,8 +1757,6 @@ badge
 container
 #
 loop
--
-call
 -
 button
 [
@@ -1800,8 +1792,6 @@ rect
 }
 #
 loop
--
-call
 -
 button
 :
@@ -1849,8 +1839,6 @@ rect
 #
 loop
 -
-call
--
 button
 :
 not
@@ -1896,8 +1884,6 @@ rect
 }
 #
 loop
--
-call
 -
 button
 :
@@ -1961,8 +1947,6 @@ rect
 #
 loop
 -
-call
--
 button
 :
 not
@@ -2008,8 +1992,6 @@ rect
 }
 #
 loop
--
-call
 -
 button
 :

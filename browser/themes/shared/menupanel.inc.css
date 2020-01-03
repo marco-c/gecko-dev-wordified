@@ -1696,8 +1696,6 @@ rect
 #
 loop
 -
-call
--
 button
 [
 cui
@@ -1728,8 +1726,6 @@ palette
 >
 #
 loop
--
-call
 -
 button
 >
@@ -1809,8 +1805,6 @@ palette
 #
 loop
 -
-call
--
 button
 >
 .
@@ -1841,8 +1835,6 @@ important
 #
 loop
 -
-call
--
 button
 [
 cui
@@ -1871,8 +1863,6 @@ badge
 container
 #
 loop
--
-call
 -
 button
 [
@@ -1919,8 +1909,6 @@ rect
 }
 #
 loop
--
-call
 -
 button
 [
@@ -1979,8 +1967,6 @@ rect
 #
 loop
 -
-call
--
 button
 [
 cui
@@ -2037,8 +2023,6 @@ rect
 }
 #
 loop
--
-call
 -
 button
 [
@@ -2113,8 +2097,6 @@ rect
 #
 loop
 -
-call
--
 button
 [
 cui
@@ -2171,8 +2153,6 @@ rect
 }
 #
 loop
--
-call
 -
 button
 [

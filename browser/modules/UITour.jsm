@@ -847,8 +847,6 @@ query
 #
 loop
 -
-call
--
 button
 "
 }
