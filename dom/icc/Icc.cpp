@@ -1993,9 +1993,7 @@ Icc
 :
 MatchMvno
 (
-const
-nsAString
-&
+IccMvnoType
 aMvnoType
 const
 nsAString
@@ -2041,7 +2039,13 @@ mClientId
 GetOwner
 (
 )
+static_cast
+<
+uint32_t
+>
+(
 aMvnoType
+)
 aMvnoData
 getter_AddRefs
 (
