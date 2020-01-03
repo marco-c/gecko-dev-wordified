@@ -1192,7 +1192,7 @@ the
 stream
 .
 param
-latency
+latency_ms
 The
 latency
 value
@@ -1253,7 +1253,7 @@ fastpaths
 param
 context
 param
-samplerate
+rate
 The
 samplerate
 (
@@ -1582,7 +1582,7 @@ volume
 .
 *
 param
-volumes
+volume
 a
 float
 between
@@ -1598,7 +1598,7 @@ and
 0
 (
 maximum
-volumes
+volume
 )
 *
 return
