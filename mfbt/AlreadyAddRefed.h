@@ -259,6 +259,7 @@ T
 >
 struct
 MOZ_MUST_USE
+MOZ_NON_AUTOABLE
 already_AddRefed
 {
 /

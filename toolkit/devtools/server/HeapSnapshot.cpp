@@ -3884,7 +3884,10 @@ Failed
 return
 nullptr
 ;
-auto
+nsRefPtr
+<
+HeapSnapshot
+>
 snapshot
 =
 HeapSnapshot
@@ -3938,6 +3941,10 @@ start
 ;
 return
 snapshot
+.
+forget
+(
+)
 ;
 }
 }
