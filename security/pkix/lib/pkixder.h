@@ -546,6 +546,11 @@ TeletexString
 UNIVERSAL
 |
 0x14
+IA5String
+=
+UNIVERSAL
+|
+0x16
 UTCTime
 =
 UNIVERSAL
