@@ -7602,7 +7602,7 @@ WidgetEvent
 event
 (
 true
-NS_PAGE_UNLOAD
+eUnload
 )
 ;
 event

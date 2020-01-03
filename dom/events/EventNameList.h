@@ -1768,7 +1768,7 @@ undo
 WINDOW_EVENT
 (
 unload
-NS_PAGE_UNLOAD
+eUnload
 (
 EventNameType_XUL
 |
