@@ -233,6 +233,9 @@ class
 DataTransfer
 ;
 class
+Element
+;
+class
 TabParent
 ;
 }
@@ -939,9 +942,16 @@ nsIContent
 aContent
 )
 ;
-bool
+static
+void
 GetAccessKeyLabelPrefix
 (
+dom
+:
+:
+Element
+*
+aElement
 nsAString
 &
 aPrefix
