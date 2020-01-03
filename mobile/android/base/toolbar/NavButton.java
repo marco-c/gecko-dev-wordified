@@ -372,7 +372,7 @@ as
 per
 drawable
 /
-new_tablet_url_bar_nav_button
+url_bar_nav_button
 .
 Override
 public
@@ -522,7 +522,7 @@ R
 .
 drawable
 .
-new_tablet_url_bar_nav_button
+url_bar_nav_button
 )
 ;
 }
