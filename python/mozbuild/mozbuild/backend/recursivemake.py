@@ -2727,14 +2727,33 @@ SSRCS
             
 }
             
-var
+variables
 =
+[
 suffix_map
 [
 obj
 .
 canonical_suffix
 ]
+]
+            
+if
+isinstance
+(
+obj
+GeneratedSources
+)
+:
+                
+variables
+.
+append
+(
+'
+GARBAGE
+'
+)
             
 for
 f
@@ -2747,6 +2766,12 @@ files
 )
 :
                 
+for
+var
+in
+variables
+:
+                    
 backend_file
 .
 write
