@@ -175,6 +175,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

@@ -103,6 +103,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -138,6 +145,13 @@ h
 include
 "
 nsDeviceContext
+.
+h
+"
+#
+include
+"
+nsFontMetrics
 .
 h
 "

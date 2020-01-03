@@ -196,6 +196,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsIImageLoadingContent
 .
 h

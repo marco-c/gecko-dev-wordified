@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

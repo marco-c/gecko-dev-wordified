@@ -112,6 +112,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsTextControlFrame
 .
 h
