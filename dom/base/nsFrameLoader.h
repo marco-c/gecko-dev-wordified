@@ -1148,6 +1148,14 @@ nsITabParent
 aTabParent
 )
 ;
+nsresult
+SwapRemoteBrowser
+(
+nsITabParent
+*
+aTabParent
+)
+;
 /
 *
 *
