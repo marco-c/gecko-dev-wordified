@@ -10204,7 +10204,7 @@ delete
 )
 msg
 =
-NS_CONTENT_COMMAND_DELETE
+eContentCommandDelete
 ;
 else
 if
