@@ -7449,6 +7449,13 @@ defined
 (
 MOZ_WIDGET_QT
 )
+|
+|
+\
+defined
+(
+MOZ_WIDGET_UIKIT
+)
 bool
 accelerateByDefault
 =
