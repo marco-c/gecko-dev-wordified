@@ -738,6 +738,11 @@ nsCString
 mDottedOidForStoringNewHashes
 ;
 void
+CountPermanentOverrideTelemetry
+(
+)
+;
+void
 RemoveAllFromMemory
 (
 )
