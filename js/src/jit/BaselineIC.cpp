@@ -38892,11 +38892,10 @@ callee
 {
 MOZ_ASSERT
 (
-!
 script
 -
 >
-strict
+hasMappedArgsObj
 (
 )
 )
@@ -42990,7 +42989,6 @@ callee
 ;
 MOZ_ASSERT
 (
-!
 frame
 -
 >
@@ -42999,7 +42997,7 @@ script
 )
 -
 >
-strict
+hasMappedArgsObj
 (
 )
 )

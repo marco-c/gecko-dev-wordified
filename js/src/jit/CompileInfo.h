@@ -2577,13 +2577,12 @@ return
 scriptNeedsArgsObj_
 &
 &
-!
 script
 (
 )
 -
 >
-strict
+hasMappedArgsObj
 (
 )
 ;
