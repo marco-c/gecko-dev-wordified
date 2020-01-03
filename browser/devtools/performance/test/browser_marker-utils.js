@@ -59,7 +59,7 @@ devtools
 /
 performance
 /
-global
+markers
 "
 )
 ;

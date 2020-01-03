@@ -164,7 +164,7 @@ devtools
 /
 performance
 /
-global
+markers
 "
 )
 ;
