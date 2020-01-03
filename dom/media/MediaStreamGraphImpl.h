@@ -1974,7 +1974,7 @@ blocked
 *
 /
 StreamTime
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 MediaStream
 *
@@ -2138,7 +2138,7 @@ INCLUDE_TRAILING_BLOCKED_INTERVAL
 *
 /
 GraphTime
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 MediaStream
 *

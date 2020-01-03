@@ -3751,7 +3751,7 @@ graphTime
 aDestination
 -
 >
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 destinationStreamTime
 )
@@ -3872,7 +3872,7 @@ SampleRate
 GraphTime
 graphTime
 =
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 aPosition
 )

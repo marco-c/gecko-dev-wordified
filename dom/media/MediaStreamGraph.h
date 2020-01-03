@@ -3724,7 +3724,7 @@ interval
 *
 /
 StreamTime
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 GraphTime
 aTime
@@ -3812,7 +3812,7 @@ mStateComputedTime
 *
 /
 GraphTime
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 StreamTime
 aTime

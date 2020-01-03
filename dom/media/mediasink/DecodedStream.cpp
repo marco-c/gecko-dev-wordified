@@ -295,7 +295,7 @@ StreamTimeToMicroseconds
 mStream
 -
 >
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 aCurrentTime
 )
