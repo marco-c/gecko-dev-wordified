@@ -316,7 +316,7 @@ client
 copy
 -
 >
-mContext
+mContentPolicyType
 =
 nsIContentPolicy
 :
