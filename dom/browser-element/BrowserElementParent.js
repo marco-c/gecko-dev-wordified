@@ -1441,7 +1441,7 @@ this
 .
 _fullscreenOriginChange
 "
-exit
+exited
 -
 dom
 -
@@ -1450,7 +1450,7 @@ fullscreen
 :
 this
 .
-_exitDomFullscreen
+_exitedDomFullscreen
 "
 got
 -
@@ -6573,7 +6573,7 @@ originNoSuffix
 )
 ;
 }
-_exitDomFullscreen
+_exitedDomFullscreen
 :
 function
 (
