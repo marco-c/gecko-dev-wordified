@@ -136,10 +136,6 @@ ToolbarComponent
 import
 com
 .
-jayway
-.
-android
-.
 robotium
 .
 solo
