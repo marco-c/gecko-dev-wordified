@@ -7267,9 +7267,6 @@ MediaDecoderOwner
 :
 NextFrameStatus
 >
-:
-:
-Holder
 mNextFrameStatus
 ;
 /
