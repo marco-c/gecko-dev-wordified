@@ -1977,10 +1977,16 @@ exception
 ?
 *
 /
-js
+JS
+:
+:
+PersistentRooted
+<
+JS
 :
 :
 Value
+>
 unwrappedException_
 ;
 /
