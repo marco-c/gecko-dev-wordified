@@ -131,7 +131,7 @@ kAnnexBDelimiter
 1
 }
 ;
-void
+bool
 AnnexB
 :
 :
@@ -157,6 +157,7 @@ aSample
 )
 {
 return
+true
 ;
 }
 MOZ_ASSERT
@@ -194,6 +195,7 @@ corrupted
 anyway
 .
 return
+true
 ;
 }
 ByteReader
@@ -340,6 +342,9 @@ aSample
 extra_data
 )
 ;
+if
+(
+!
 aSample
 -
 >
@@ -358,8 +363,16 @@ Length
 (
 )
 )
+)
+{
+return
+false
 ;
 }
+}
+return
+true
+;
 }
 already_AddRefed
 <

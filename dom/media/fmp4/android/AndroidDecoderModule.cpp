@@ -370,6 +370,9 @@ aSample
 )
 MOZ_OVERRIDE
 {
+if
+(
+!
 mp4_demuxer
 :
 :
@@ -380,7 +383,12 @@ ConvertSampleToAnnexB
 (
 aSample
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 return
 MediaCodecDataDecoder
 :

@@ -1390,6 +1390,9 @@ AVC
 Annex
 B
 .
+if
+(
+!
 mp4_demuxer
 :
 :
@@ -1400,7 +1403,12 @@ ConvertSampleToAnnexB
 (
 aSample
 )
+)
+{
+return
+E_FAIL
 ;
+}
 }
 /
 /

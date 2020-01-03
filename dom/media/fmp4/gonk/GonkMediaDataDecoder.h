@@ -479,7 +479,7 @@ codec
 type
 .
 virtual
-void
+bool
 PerformFormatSpecificProcess
 (
 mp4_demuxer
@@ -490,6 +490,9 @@ MP4Sample
 aSample
 )
 {
+return
+true
+;
 }
 /
 /

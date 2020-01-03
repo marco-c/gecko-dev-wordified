@@ -790,7 +790,7 @@ composition_timestamp
 )
 ;
 }
-void
+bool
 GonkAudioDecoderManager
 :
 :
@@ -860,8 +860,14 @@ header
 "
 )
 ;
+return
+false
+;
 }
 }
+return
+true
+;
 }
 nsresult
 GonkAudioDecoderManager
