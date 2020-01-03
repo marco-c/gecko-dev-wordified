@@ -226,6 +226,7 @@ nsRunnable
 {
 public
 :
+explicit
 SurfaceHelper
 (
 TemporaryRef

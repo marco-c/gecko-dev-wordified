@@ -164,6 +164,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 MobileCellInfo
 )
+explicit
 MobileCellInfo
 (
 nsPIDOMWindow

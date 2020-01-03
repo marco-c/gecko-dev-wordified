@@ -156,6 +156,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 MobileConnectionArray
 )
+explicit
 MobileConnectionArray
 (
 nsPIDOMWindow
