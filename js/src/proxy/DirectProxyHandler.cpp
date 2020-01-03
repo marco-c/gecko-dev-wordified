@@ -987,9 +987,9 @@ JSContext
 cx
 HandleObject
 proxy
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -1017,7 +1017,7 @@ PreventExtensions
 (
 cx
 target
-succeeded
+result
 )
 ;
 }

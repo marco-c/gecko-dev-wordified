@@ -600,9 +600,6 @@ objId
 ReturnStatus
 *
 rs
-bool
-*
-succeeded
 )
 {
 AutoJSAPI
@@ -636,11 +633,6 @@ cx
 (
 )
 ;
-*
-succeeded
-=
-false
-;
 RootedObject
 obj
 (
@@ -664,6 +656,9 @@ cx
 rs
 )
 ;
+ObjectOpResult
+success
+;
 if
 (
 !
@@ -671,7 +666,7 @@ JS_PreventExtensions
 (
 cx
 obj
-succeeded
+success
 )
 )
 return
@@ -701,6 +696,7 @@ return
 ok
 (
 rs
+success
 )
 ;
 }

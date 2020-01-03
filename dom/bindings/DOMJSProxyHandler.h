@@ -991,9 +991,12 @@ JSObject
 *
 >
 proxy
-bool
-*
-succeeded
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE

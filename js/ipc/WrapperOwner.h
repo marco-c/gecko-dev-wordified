@@ -345,9 +345,12 @@ JS
 :
 HandleObject
 proxy
-bool
-*
-succeeded
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 ;
 bool
@@ -972,9 +975,6 @@ objId
 ReturnStatus
 *
 rs
-bool
-*
-succeeded
 )
 =
 0

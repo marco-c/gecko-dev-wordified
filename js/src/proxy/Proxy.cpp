@@ -1610,9 +1610,9 @@ JSContext
 cx
 HandleObject
 proxy
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 {
 JS_CHECK_RECURSION
@@ -1649,7 +1649,7 @@ preventExtensions
 (
 cx
 proxy
-succeeded
+result
 )
 ;
 }

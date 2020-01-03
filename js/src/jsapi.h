@@ -15228,8 +15228,7 @@ return
 true
 with
 |
-*
-succeeded
+result
 |
 set
 *
@@ -15268,9 +15267,12 @@ JS
 :
 HandleObject
 obj
-bool
-*
-succeeded
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 ;
 extern
