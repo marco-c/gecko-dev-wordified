@@ -264,6 +264,9 @@ ReleaseAudioBuffer
 (
 )
 ;
+int64_t
+mLastDecodedTime
+;
 uint32_t
 mAudioChannels
 ;
