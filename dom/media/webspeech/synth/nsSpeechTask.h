@@ -209,6 +209,12 @@ Cancel
 (
 )
 ;
+virtual
+void
+ForceEnd
+(
+)
+;
 float
 GetCurrentTime
 (

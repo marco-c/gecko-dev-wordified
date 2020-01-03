@@ -284,11 +284,6 @@ bool
 aIsSpeaking
 )
 ;
-void
-DropGlobalQueue
-(
-)
-;
 static
 nsSynthVoiceRegistry
 *
