@@ -9175,6 +9175,15 @@ obj_hasOwnProperty
 JS_FN
 (
 "
+std_Object_toString
+"
+obj_toString
+0
+0
+)
+JS_FN
+(
+"
 std_Reflect_getPrototypeOf
 "
 Reflect_getPrototypeOf

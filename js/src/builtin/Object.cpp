@@ -2306,8 +2306,10 @@ errata
 .
 *
 /
-static
 bool
+js
+:
+:
 obj_toString
 (
 JSContext
