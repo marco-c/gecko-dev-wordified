@@ -891,10 +891,6 @@ nullptr
 )
 #
 endif
-debugMode
-(
-false
-)
 spsProfiler
 (
 thisFromCtor

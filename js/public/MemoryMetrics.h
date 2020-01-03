@@ -3110,13 +3110,6 @@ macro
 (
 Other
 NotLiveGCThing
-debuggeesSet
-)
-\
-macro
-(
-Other
-NotLiveGCThing
 savedStacksSet
 )
 CompartmentStats
