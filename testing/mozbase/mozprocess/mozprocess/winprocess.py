@@ -318,13 +318,16 @@ THIS
 SOFTWARE
 .
 from
+__future__
+import
+mozprocess
+from
 ctypes
 import
 c_void_p
 POINTER
 sizeof
 Structure
-Union
 windll
 WinError
 WINFUNCTYPE
@@ -342,8 +345,8 @@ LPCWSTR
 LPWSTR
 UINT
 WORD
-ULONG
 from
+.
 qijo
 import
 QueryInformationJobObject
