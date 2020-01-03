@@ -8190,6 +8190,8 @@ _windowDestroyed
 this
 .
 window
+null
+true
 )
 ;
 DevToolsUtils
@@ -8694,6 +8696,9 @@ window
 id
 =
 null
+isFrozen
+=
+false
 )
 {
 events
@@ -8727,6 +8732,9 @@ getWindowID
 (
 window
 )
+isFrozen
+:
+isFrozen
 }
 )
 ;
@@ -12604,6 +12612,8 @@ _tabActor
 _windowDestroyed
 (
 window
+null
+true
 )
 ;
 }

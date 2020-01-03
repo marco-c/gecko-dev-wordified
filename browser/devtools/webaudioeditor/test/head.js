@@ -447,6 +447,19 @@ param
 html
 "
 ;
+const
+IFRAME_CONTEXT_URL
+=
+EXAMPLE_URL
++
+"
+doc_iframe
+-
+context
+.
+html
+"
+;
 /
 /
 All
@@ -1227,6 +1240,7 @@ return
 target
 debuggee
 panel
+toolbox
 ]
 ;
 }
