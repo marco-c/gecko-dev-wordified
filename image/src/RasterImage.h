@@ -303,6 +303,15 @@ WeakPtr
 h
 "
 #
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -3712,8 +3721,10 @@ on
 draw
 )
 .
+UniquePtr
+<
 FrameAnimator
-*
+>
 mAnim
 ;
 /
