@@ -15375,7 +15375,7 @@ bool
 JS
 :
 :
-ParsePropertyDescriptorObject
+ObjectToCompletePropertyDescriptor
 (
 JSContext
 *
@@ -15413,6 +15413,12 @@ descObj
 )
 return
 false
+;
+d
+.
+complete
+(
+)
 ;
 d
 .

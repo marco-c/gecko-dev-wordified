@@ -452,7 +452,7 @@ if
 JS
 :
 :
-ParsePropertyDescriptorObject
+ObjectToCompletePropertyDescriptor
 (
 cx
 target

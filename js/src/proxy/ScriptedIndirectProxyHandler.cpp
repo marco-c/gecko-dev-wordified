@@ -1073,10 +1073,6 @@ value
 (
 value
 .
-get
-(
-)
-.
 isUndefined
 (
 )
@@ -1106,7 +1102,7 @@ value
 )
 &
 &
-ParsePropertyDescriptorObject
+ObjectToCompletePropertyDescriptor
 (
 cx
 proxy
@@ -1191,10 +1187,6 @@ value
 (
 value
 .
-get
-(
-)
-.
 isUndefined
 (
 )
@@ -1224,7 +1216,7 @@ value
 )
 &
 &
-ParsePropertyDescriptorObject
+ObjectToCompletePropertyDescriptor
 (
 cx
 proxy
