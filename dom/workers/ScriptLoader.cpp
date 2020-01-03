@@ -5028,14 +5028,12 @@ WorkerPrivate
 *
 aWorkerPrivate
 const
-nsTArray
+Sequence
 <
 nsString
 >
 &
 aScriptURLs
-WorkerScriptType
-aWorkerScriptType
 ErrorResult
 &
 aRv
@@ -5128,7 +5126,7 @@ aCx
 aWorkerPrivate
 loadInfos
 false
-aWorkerScriptType
+WorkerScript
 )
 )
 {

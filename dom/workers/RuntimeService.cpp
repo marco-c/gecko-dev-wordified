@@ -4631,13 +4631,6 @@ IsDebuggerGlobal
 (
 targetGlobal
 )
-&
-&
-!
-IsDebuggerSandbox
-(
-targetGlobal
-)
 )
 {
 MOZ_CRASH
@@ -4684,12 +4677,6 @@ nullptr
 if
 (
 IsDebuggerGlobal
-(
-originGlobal
-)
-|
-|
-IsDebuggerSandbox
 (
 originGlobal
 )
