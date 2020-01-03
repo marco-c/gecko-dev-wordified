@@ -3427,10 +3427,12 @@ PREF_HAS_DEFAULT
 )
 )
 {
-PL_DHashTableRemove
-(
 gHashTable
-pref_name
+-
+>
+RemoveEntry
+(
+pref
 )
 ;
 }
