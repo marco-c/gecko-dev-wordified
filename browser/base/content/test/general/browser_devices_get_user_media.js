@@ -1084,6 +1084,7 @@ none
 ;
 }
 function
+*
 closeStream
 (
 aAlreadyClosed
@@ -1153,6 +1154,8 @@ ended
 "
 )
 ;
+yield
+*
 assertWebRTCIndicatorStatus
 (
 null
@@ -1256,6 +1259,7 @@ hidden
 ;
 }
 function
+*
 checkSharingUI
 (
 aExpected
@@ -1271,6 +1275,8 @@ sharingDevices
 "
 )
 ;
+yield
+*
 assertWebRTCIndicatorStatus
 (
 aExpected
@@ -1278,6 +1284,7 @@ aExpected
 ;
 }
 function
+*
 checkNotSharing
 (
 )
@@ -1322,6 +1329,8 @@ notification
 "
 )
 ;
+yield
+*
 assertWebRTCIndicatorStatus
 (
 null
@@ -2508,6 +2517,7 @@ ended
 "
 )
 ;
+yield
 checkNotSharing
 (
 )
@@ -2628,6 +2638,7 @@ ended
 "
 )
 ;
+yield
 checkNotSharing
 (
 )
@@ -2902,6 +2913,7 @@ expectNoObserverCalled
 (
 )
 ;
+yield
 checkNotSharing
 (
 )
