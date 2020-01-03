@@ -597,6 +597,11 @@ traceList_
 )
 ;
 }
+void
+detachFromCompartment
+(
+)
+;
 const
 PropertyVector
 &
