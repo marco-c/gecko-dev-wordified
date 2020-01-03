@@ -6031,6 +6031,14 @@ hierarchy
 uint32_t
 mOwnOrContainingAppId
 ;
+nsString
+mPaymentRequestId
+;
+nsString
+GetInheritedPaymentRequestId
+(
+)
+;
 private
 :
 nsCString
