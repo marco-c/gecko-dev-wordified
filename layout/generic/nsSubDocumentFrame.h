@@ -894,7 +894,11 @@ marginwidth
 &
 marginheight
 attributes
-nsIntSize
+.
+mozilla
+:
+:
+CSSIntSize
 GetMarginAttributes
 (
 )
