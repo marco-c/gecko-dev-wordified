@@ -6497,6 +6497,17 @@ ScopeObject
 scope
 )
 ;
+static
+void
+unsetPrevUpToDateUntil
+(
+JSContext
+*
+cx
+AbstractFramePtr
+frame
+)
+;
 /
 /
 When
