@@ -512,6 +512,15 @@ h
 #
 include
 "
+asmjs
+/
+AsmJSModule
+.
+h
+"
+#
+include
+"
 jit
 /
 AtomicOperations

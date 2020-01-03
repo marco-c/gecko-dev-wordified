@@ -900,11 +900,9 @@ AutoClearPendingException
 (
 )
 {
-cx
--
->
-clearPendingException
+JS_ClearPendingException
 (
+cx
 )
 ;
 }

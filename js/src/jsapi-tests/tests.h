@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h

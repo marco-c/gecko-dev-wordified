@@ -25792,6 +25792,9 @@ class
 SprintOptimizationTypeInfoOp
 :
 public
+JS
+:
+:
 ForEachTrackedOptimizationTypeInfoOp
 {
 Sprinter
@@ -25997,6 +26000,9 @@ operator
 (
 )
 (
+JS
+:
+:
 TrackedTypeSite
 site
 const
@@ -26122,6 +26128,9 @@ class
 SprintOptimizationAttemptsOp
 :
 public
+JS
+:
+:
 ForEachTrackedOptimizationAttemptOp
 {
 Sprinter
@@ -26149,8 +26158,14 @@ operator
 (
 )
 (
+JS
+:
+:
 TrackedStrategy
 strategy
+JS
+:
+:
 TrackedOutcome
 outcome
 )

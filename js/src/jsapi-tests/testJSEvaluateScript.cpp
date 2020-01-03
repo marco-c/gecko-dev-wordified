@@ -64,6 +64,12 @@ tests
 .
 h
 "
+using
+mozilla
+:
+:
+ArrayLength
+;
 BEGIN_TEST
 (
 testJSEvaluateScript

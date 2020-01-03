@@ -399,6 +399,9 @@ Non
 -
 strict
 setter
+JS
+:
+:
 ObjectOpResult
 result
 ;
