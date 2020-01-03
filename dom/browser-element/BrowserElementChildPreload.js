@@ -2184,7 +2184,7 @@ content
 sendAsyncMsg
 (
 '
-mediaplaybackchange
+audioplaybackchange
 '
 {
 _payload_

@@ -31,7 +31,7 @@ zero
 /
 Test
 the
-mozbrowsermediaplaybackchange
+mozbrowseraudioplaybackchange
 event
 is
 fired
@@ -101,7 +101,7 @@ iframe
 *
 /
 function
-playMediaScript
+playAudioScript
 (
 )
 {
@@ -286,7 +286,7 @@ data
 (
 '
 +
-playMediaScript
+playAudioScript
 .
 toString
 (
@@ -359,7 +359,7 @@ iframe
 addEventListener
 (
 '
-mozbrowsermediaplaybackchange
+mozbrowseraudioplaybackchange
 '
 (
 e
@@ -444,7 +444,7 @@ iframe2
 addEventListener
 (
 '
-mozbrowsermediaplaybackchange
+mozbrowseraudioplaybackchange
 '
 (
 e
@@ -456,7 +456,7 @@ ok
 (
 false
 '
-mozbrowsermediaplaybackchange
+mozbrowseraudioplaybackchange
 should
 dispatch
 to
