@@ -140,6 +140,13 @@ h
 #
 include
 "
+AudioSegment
+.
+h
+"
+#
+include
+"
 AudioStream
 .
 h
@@ -197,13 +204,6 @@ h
 include
 "
 nsAutoRef
-.
-h
-"
-#
-include
-"
-GraphDriver
 .
 h
 "
