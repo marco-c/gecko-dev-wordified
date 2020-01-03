@@ -3174,6 +3174,11 @@ AutoLockGC
 lock
 )
 ;
+void
+releaseHeldRelocatedArenas
+(
+)
+;
 private
 :
 void
