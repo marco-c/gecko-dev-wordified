@@ -119,8 +119,6 @@ include
 "
 mozilla
 /
-dom
-/
 OwningNonNull
 .
 h
@@ -5194,9 +5192,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsIEditActionListener
@@ -5216,9 +5211,6 @@ change
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -5246,9 +5238,6 @@ etc
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull

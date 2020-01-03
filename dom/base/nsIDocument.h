@@ -579,6 +579,13 @@ PendingAnimationTracker
 class
 SVGAttrAnimationRuleProcessor
 ;
+template
+<
+typename
+>
+class
+OwningNonNull
+;
 namespace
 css
 {
@@ -717,13 +724,6 @@ XPathNSResolver
 ;
 class
 XPathResult
-;
-template
-<
-typename
->
-class
-OwningNonNull
 ;
 template
 <
@@ -15383,9 +15383,6 @@ Sequence
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 mozilla
@@ -15423,9 +15420,6 @@ dom
 Sequence
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull

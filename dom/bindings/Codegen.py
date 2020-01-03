@@ -101773,8 +101773,6 @@ bindingHeaders
 "
 mozilla
 /
-dom
-/
 OwningNonNull
 .
 h
@@ -122999,8 +122997,6 @@ add
 (
 "
 mozilla
-/
-dom
 /
 OwningNonNull
 .

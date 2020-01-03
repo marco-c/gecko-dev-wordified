@@ -156,9 +156,6 @@ nsRange
 namespace
 mozilla
 {
-namespace
-dom
-{
 template
 <
 class
@@ -167,6 +164,9 @@ T
 class
 OwningNonNull
 ;
+namespace
+dom
+{
 class
 Selection
 ;
@@ -1465,9 +1465,6 @@ functor
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull

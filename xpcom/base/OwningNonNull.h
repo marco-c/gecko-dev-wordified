@@ -134,10 +134,10 @@ objects
 /
 #
 ifndef
-mozilla_dom_OwningNonNull_h
+mozilla_OwningNonNull_h
 #
 define
-mozilla_dom_OwningNonNull_h
+mozilla_OwningNonNull_h
 #
 include
 "
@@ -154,9 +154,6 @@ h
 "
 namespace
 mozilla
-{
-namespace
-dom
 {
 template
 <
@@ -624,11 +621,6 @@ aFlags
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
 /
 /
@@ -657,9 +649,6 @@ nsCOMPtr
 (
 const
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -706,9 +695,6 @@ operator
 (
 const
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -762,9 +748,6 @@ const
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 U
@@ -809,9 +792,6 @@ operator
 (
 const
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -838,4 +818,4 @@ get
 endif
 /
 /
-mozilla_dom_OwningNonNull_h
+mozilla_OwningNonNull_h

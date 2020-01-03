@@ -1375,9 +1375,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -1426,9 +1423,6 @@ aNode
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -1951,9 +1945,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -1983,9 +1974,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2007,9 +1995,6 @@ aOperation
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -2042,9 +2027,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2075,9 +2057,6 @@ GetListActionNodes
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -2126,9 +2105,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2151,9 +2127,6 @@ LookInsideDivBQandList
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -2184,9 +2157,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2215,9 +2185,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2241,9 +2208,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2259,9 +2223,6 @@ ApplyBlockStyle
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -2282,9 +2243,6 @@ MakeBlockquote
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -2629,9 +2587,6 @@ ListIsEmptyLine
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull

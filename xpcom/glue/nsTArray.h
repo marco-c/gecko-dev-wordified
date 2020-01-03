@@ -1954,9 +1954,6 @@ Derived
 namespace
 mozilla
 {
-namespace
-dom
-{
 template
 <
 class
@@ -1965,11 +1962,6 @@ T
 class
 OwningNonNull
 ;
-}
-/
-/
-namespace
-dom
 }
 /
 /
@@ -1986,9 +1978,6 @@ struct
 nsTArray_SafeElementAtHelper
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull

@@ -10513,9 +10513,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsIEditorObserver
