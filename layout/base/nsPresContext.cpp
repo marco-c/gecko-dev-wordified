@@ -10771,6 +10771,15 @@ here
 return
 ;
 }
+/
+/
+FIXME
+:
+Pass
+through
+from
+callers
+.
 RestyleManager
 (
 )
@@ -10779,6 +10788,7 @@ RestyleManager
 PostRebuildAllStyleDataEvent
 (
 aExtraHint
+eRestyle_Subtree
 )
 ;
 }
