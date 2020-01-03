@@ -8263,11 +8263,6 @@ MarkChanged
 (
 )
 ;
-CGContextSaveGState
-(
-mCg
-)
-;
 CGContextClearRect
 (
 mCg
@@ -8275,11 +8270,6 @@ RectToCGRect
 (
 aRect
 )
-)
-;
-CGContextRestoreGState
-(
-mCg
 )
 ;
 }
