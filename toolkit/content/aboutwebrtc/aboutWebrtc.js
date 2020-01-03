@@ -4123,7 +4123,7 @@ priority
 :
 pair
 .
-mozPriority
+priority
 nominated
 :
 pair

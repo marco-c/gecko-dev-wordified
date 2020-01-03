@@ -17546,7 +17546,7 @@ nominated
 ;
 s
 .
-mMozPriority
+mPriority
 .
 Construct
 (

@@ -1329,7 +1329,7 @@ WriteParam
 aMsg
 aParam
 .
-mMozPriority
+mPriority
 )
 ;
 WriteParam
@@ -1438,7 +1438,7 @@ aIter
 aResult
 -
 >
-mMozPriority
+mPriority
 )
 )
 |
