@@ -723,17 +723,6 @@ access
 the
 zip
 *
-param
-aMustCacheFd
-Optional
-flag
-to
-keep
-the
-PRFileDesc
-in
-nsZipHandle
-*
 return
 status
 code
@@ -745,10 +734,6 @@ OpenArchive
 nsIFile
 *
 aFile
-bool
-aMustCacheFd
-=
-false
 )
 ;
 /
@@ -2096,8 +2081,6 @@ Init
 nsIFile
 *
 file
-bool
-aMustCacheFd
 nsZipHandle
 *
 *

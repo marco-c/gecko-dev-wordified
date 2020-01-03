@@ -1169,8 +1169,6 @@ Init
 nsIFile
 *
 file
-bool
-aMustCacheFd
 nsZipHandle
 *
 *
@@ -1382,11 +1380,6 @@ forget
 }
 #
 else
-if
-(
-aMustCacheFd
-)
-{
 handle
 -
 >
@@ -1398,7 +1391,6 @@ forget
 (
 )
 ;
-}
 #
 endif
 handle
@@ -1678,6 +1670,16 @@ aNSPRFileDesc
 =
 mNSPRFileDesc
 ;
+if
+(
+!
+mNSPRFileDesc
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 return
 NS_OK
 ;
@@ -2048,8 +2050,6 @@ OpenArchive
 nsIFile
 *
 aFile
-bool
-aMustCacheFd
 )
 {
 nsRefPtr
@@ -2079,7 +2079,6 @@ nsZipHandle
 Init
 (
 aFile
-aMustCacheFd
 getter_AddRefs
 (
 handle
@@ -2103,7 +2102,6 @@ nsZipHandle
 Init
 (
 aFile
-aMustCacheFd
 getter_AddRefs
 (
 handle

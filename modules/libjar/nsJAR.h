@@ -1157,15 +1157,6 @@ nsJAR
 reader
 )
 ;
-bool
-IsMustCacheFdEnabled
-(
-)
-{
-return
-mMustCacheFd
-;
-}
 typedef
 nsRefPtrHashtable
 <
@@ -1193,9 +1184,6 @@ mCacheSize
 ;
 ZipsHashtable
 mZips
-;
-bool
-mMustCacheFd
 ;
 #
 ifdef
