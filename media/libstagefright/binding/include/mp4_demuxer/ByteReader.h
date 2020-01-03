@@ -186,6 +186,7 @@ template
 size_t
 S
 >
+explicit
 ByteReader
 (
 const
