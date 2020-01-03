@@ -549,14 +549,13 @@ return
 false
 ;
 }
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_REFCOUNTING
 (
 cache
 :
 :
 Action
 )
-NS_DECL_OWNINGTHREAD
 protected
 :
 Action
