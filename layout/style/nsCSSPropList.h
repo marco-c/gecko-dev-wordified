@@ -9276,6 +9276,8 @@ For
 position
 :
 sticky
+/
+fixed
 CSS_PROPERTY_CREATES_STACKING_CONTEXT
 "
 "
