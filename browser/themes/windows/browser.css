@@ -6686,7 +6686,7 @@ duration
 150ms
 ;
 }
-toolbarbutton
+toolbaritem
 [
 cui
 -
@@ -6887,7 +6887,7 @@ width
 nav
 -
 bar
-toolbarbutton
+toolbaritem
 [
 cui
 -
@@ -6946,6 +6946,18 @@ cui
 -
 areatype
 ]
+)
+)
+:
+not
+(
+:
+-
+moz
+-
+any
+(
+nestedButtons
 )
 )
 >
