@@ -8487,6 +8487,9 @@ const
 nsStylePosition
 &
 aOther
+nsStyleContext
+*
+aContext
 )
 const
 ;
