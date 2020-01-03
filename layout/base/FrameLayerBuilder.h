@@ -2878,13 +2878,6 @@ aFrame
 nullptr
 )
 ;
-DisplayItemData
-(
-DisplayItemData
-&
-toCopy
-)
-;
 /
 *
 *
