@@ -461,6 +461,10 @@ aDst
 .
 *
 /
+MOZ_NONNULL
+(
+1
+)
 static
 inline
 void
@@ -503,6 +507,10 @@ template
 typename
 U
 >
+MOZ_NONNULL
+(
+1
+)
 static
 inline
 void
