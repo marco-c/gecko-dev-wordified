@@ -248,7 +248,7 @@ virtual
 GMPErr
 Encode
 (
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoi420Frame
 >

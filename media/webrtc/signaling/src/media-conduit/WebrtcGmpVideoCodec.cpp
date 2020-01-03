@@ -1703,7 +1703,7 @@ return
 WEBRTC_VIDEO_CODEC_ERROR
 ;
 }
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoi420Frame
 >
@@ -3908,7 +3908,7 @@ return
 WEBRTC_VIDEO_CODEC_ERROR
 ;
 }
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >

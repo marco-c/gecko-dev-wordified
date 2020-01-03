@@ -633,7 +633,7 @@ GMPVideoDecoderParent
 :
 Decode
 (
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >
@@ -690,7 +690,7 @@ NS_GetCurrentThread
 )
 )
 ;
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrameImpl
 >

@@ -726,7 +726,7 @@ GMPVideoEncoderParent
 :
 Encode
 (
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoi420Frame
 >
@@ -786,7 +786,7 @@ NS_GetCurrentThread
 )
 )
 ;
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoi420FrameImpl
 >

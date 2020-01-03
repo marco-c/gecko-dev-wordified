@@ -278,7 +278,7 @@ GetNodeId
 )
 ;
 }
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >
@@ -292,7 +292,7 @@ MediaRawData
 aSample
 )
 {
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >

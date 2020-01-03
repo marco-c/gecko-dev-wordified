@@ -275,7 +275,7 @@ GetNodeId
 override
 ;
 virtual
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >

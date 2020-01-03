@@ -326,7 +326,7 @@ Decode
 mozilla
 :
 :
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >

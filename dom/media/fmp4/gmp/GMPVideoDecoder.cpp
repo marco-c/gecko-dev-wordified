@@ -177,7 +177,7 @@ GMPVideoi420Frame
 aDecodedFrame
 )
 {
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoi420Frame
 >
@@ -666,7 +666,7 @@ NS_LITERAL_CSTRING
 )
 ;
 }
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >
@@ -718,7 +718,7 @@ return
 nullptr
 ;
 }
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >
@@ -1480,7 +1480,7 @@ sample
 mOffset
 )
 ;
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >
