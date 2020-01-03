@@ -13518,12 +13518,8 @@ addPrivateTab
 (
 )
 ;
-showTrackingProtectionPromptIfApplicable
-(
-)
-;
 }
-private
+public
 void
 showTrackingProtectionPromptIfApplicable
 (
