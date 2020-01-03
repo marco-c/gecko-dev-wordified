@@ -263,6 +263,17 @@ IsOnCSSUnprefixingWhitelist
 )
 override
 ;
+bool
+IsCodebasePrincipal
+(
+)
+const
+override
+{
+return
+true
+;
+}
 nsresult
 GetOriginInternal
 (
