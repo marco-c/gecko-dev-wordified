@@ -1238,11 +1238,6 @@ roots
 bool
 bufferingGrayRootsFailed
 ;
-void
-resetBufferedGrayRoots
-(
-)
-;
 static
 void
 GrayCallback

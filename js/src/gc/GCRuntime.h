@@ -7749,6 +7749,12 @@ GrayBufferState
 Okay
 ;
 }
+void
+resetBufferedGrayRoots
+(
+)
+const
+;
 /
 *
 *
