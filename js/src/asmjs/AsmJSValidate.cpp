@@ -18775,7 +18775,7 @@ a
 FunctionCompiler
 .
 class
-FunctionBuilder
+FunctionValidator
 {
 public
 :
@@ -18854,7 +18854,7 @@ hasAlreadyReturned_
 ;
 public
 :
-FunctionBuilder
+FunctionValidator
 (
 ModuleValidator
 &
@@ -32390,7 +32390,7 @@ static
 bool
 ArgFail
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 PropertyName
@@ -32454,7 +32454,7 @@ static
 bool
 CheckArgumentType
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -32674,7 +32674,7 @@ static
 bool
 CheckArguments
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -32822,7 +32822,7 @@ static
 bool
 IsLiteralOrConst
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -32940,7 +32940,7 @@ static
 bool
 CheckFinalReturn
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -33046,7 +33046,7 @@ static
 bool
 CheckVariable
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -33227,7 +33227,7 @@ static
 bool
 CheckVariables
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -33313,7 +33313,7 @@ static
 bool
 CheckExpr
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -33328,7 +33328,7 @@ static
 bool
 CheckNumericLiteral
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -33601,7 +33601,7 @@ static
 bool
 CheckVarRef
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -33626,7 +33626,7 @@ name
 if
 (
 const
-FunctionBuilder
+FunctionValidator
 :
 :
 Local
@@ -34327,7 +34327,7 @@ inline
 bool
 IsLiteralOrConstInt
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -34367,7 +34367,7 @@ static
 bool
 FoldMaskedArrayIndex
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -34560,7 +34560,7 @@ static
 bool
 CheckArrayAccess
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -35281,7 +35281,7 @@ static
 bool
 CheckAndPrepareArrayAccess
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -35411,7 +35411,7 @@ static
 bool
 CheckLoadArray
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -35816,7 +35816,7 @@ static
 bool
 CheckDotAccess
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -36067,7 +36067,7 @@ static
 bool
 CheckStoreArray
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -36901,7 +36901,7 @@ static
 bool
 CheckAssignName
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -36969,7 +36969,7 @@ false
 if
 (
 const
-FunctionBuilder
+FunctionValidator
 :
 :
 Local
@@ -37611,7 +37611,7 @@ static
 bool
 CheckAssign
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -37721,7 +37721,7 @@ static
 bool
 CheckMathIMul
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -37902,7 +37902,7 @@ static
 bool
 CheckMathClz32
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -38025,7 +38025,7 @@ static
 bool
 CheckMathAbs
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -38228,7 +38228,7 @@ static
 bool
 CheckMathSqrt
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -38398,7 +38398,7 @@ static
 bool
 CheckMathMinMax
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -38951,7 +38951,7 @@ static
 bool
 CheckSharedArrayAtomicAccess
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -39160,7 +39160,7 @@ static
 bool
 CheckAtomicsFence
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -39225,7 +39225,7 @@ static
 bool
 CheckAtomicsLoad
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -39455,7 +39455,7 @@ static
 bool
 CheckAtomicsStore
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -39760,7 +39760,7 @@ static
 bool
 CheckAtomicsBinop
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -40109,7 +40109,7 @@ static
 bool
 CheckAtomicsIsLockFree
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -40222,7 +40222,7 @@ static
 bool
 CheckAtomicsCompareExchange
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -40604,7 +40604,7 @@ static
 bool
 CheckAtomicsExchange
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -40910,7 +40910,7 @@ static
 bool
 CheckAtomicsBuiltinCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -41074,7 +41074,7 @@ bool
 CheckArgType
 )
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -41088,7 +41088,7 @@ static
 bool
 CheckCallArgs
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -41784,7 +41784,7 @@ static
 bool
 CheckIsVarType
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -41837,7 +41837,7 @@ static
 void
 WriteCallLineCol
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -41928,7 +41928,7 @@ static
 bool
 CheckInternalCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -42598,7 +42598,7 @@ static
 bool
 CheckFuncPtrCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -43356,7 +43356,7 @@ static
 bool
 CheckIsExternType
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -43406,7 +43406,7 @@ static
 bool
 CheckFFICall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -43949,7 +43949,7 @@ static
 bool
 CheckFloatCoercionArg
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -44090,7 +44090,7 @@ static
 bool
 CheckCoercedCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -44107,7 +44107,7 @@ static
 bool
 CheckCoercionArg
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -44316,7 +44316,7 @@ static
 bool
 CheckMathFRound
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -44409,7 +44409,7 @@ static
 bool
 CheckMathBuiltinCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -45600,7 +45600,7 @@ static
 bool
 CheckSimdCallArgs
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -45734,7 +45734,7 @@ static
 bool
 CheckSimdCallArgsPatchable
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -45895,7 +45895,7 @@ operator
 (
 )
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -46034,7 +46034,7 @@ operator
 (
 )
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -46275,7 +46275,7 @@ operator
 (
 )
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -46420,7 +46420,7 @@ operator
 (
 )
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -46620,7 +46620,7 @@ operator
 (
 )
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -46806,7 +46806,7 @@ operator
 (
 )
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -47057,7 +47057,7 @@ static
 void
 SwitchPackOp
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 AsmJSSimdType
@@ -47112,7 +47112,7 @@ static
 bool
 CheckSimdUnary
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -47259,7 +47259,7 @@ inline
 bool
 CheckSimdBinaryGuts
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -47314,7 +47314,7 @@ static
 bool
 CheckSimdBinary
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -47482,7 +47482,7 @@ static
 bool
 CheckSimdBinary
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -47572,7 +47572,7 @@ static
 bool
 CheckSimdBinary
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -47757,7 +47757,7 @@ static
 bool
 CheckSimdBinary
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -47912,7 +47912,7 @@ static
 bool
 CheckSimdExtractLane
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -48184,7 +48184,7 @@ static
 bool
 CheckSimdReplaceLane
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -48491,7 +48491,7 @@ static
 bool
 CheckSimdCast
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -48635,7 +48635,7 @@ static
 bool
 CheckSimdShuffleSelectors
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -48753,7 +48753,7 @@ static
 bool
 CheckSimdSwizzle
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -49048,7 +49048,7 @@ static
 bool
 CheckSimdShuffle
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -49382,7 +49382,7 @@ static
 bool
 CheckSimdLoadStoreArgs
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -49765,7 +49765,7 @@ static
 bool
 CheckSimdLoad
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -50003,7 +50003,7 @@ static
 bool
 CheckSimdStore
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -50338,7 +50338,7 @@ static
 bool
 CheckSimdSelect
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -50511,7 +50511,7 @@ static
 bool
 CheckSimdCheck
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -50579,7 +50579,7 @@ static
 bool
 CheckSimdSplat
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -50690,7 +50690,7 @@ static
 bool
 CheckSimdOperationCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -51364,7 +51364,7 @@ static
 bool
 CheckSimdCtorCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -51666,7 +51666,7 @@ static
 bool
 CheckUncoercedCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -51881,7 +51881,7 @@ static
 bool
 CoerceResult
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -52450,7 +52450,7 @@ static
 bool
 CheckCoercedMathBuiltinCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -52508,7 +52508,7 @@ static
 bool
 CheckCoercedSimdCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -52635,7 +52635,7 @@ static
 bool
 CheckCoercedAtomicsBuiltinCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -52693,7 +52693,7 @@ static
 bool
 CheckCoercedCall
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -53101,7 +53101,7 @@ static
 bool
 CheckPos
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -53199,7 +53199,7 @@ static
 bool
 CheckNot
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -53305,7 +53305,7 @@ static
 bool
 CheckNeg
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -53605,7 +53605,7 @@ static
 bool
 CheckCoerceToInt
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -53776,7 +53776,7 @@ static
 bool
 CheckBitNot
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -53900,7 +53900,7 @@ static
 bool
 CheckAsExprStatement
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -53912,7 +53912,7 @@ static
 bool
 CheckComma
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -54209,7 +54209,7 @@ static
 bool
 CheckConditional
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -54878,7 +54878,7 @@ static
 bool
 CheckMultiply
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -55253,7 +55253,7 @@ static
 bool
 CheckAddOrSub
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -55838,7 +55838,7 @@ static
 bool
 CheckDivOrMod
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -56346,7 +56346,7 @@ static
 bool
 CheckComparison
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -57561,7 +57561,7 @@ static
 bool
 CheckBitwise
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -58279,7 +58279,7 @@ static
 bool
 CheckExpr
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -58668,7 +58668,7 @@ static
 bool
 CheckStatement
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -58680,7 +58680,7 @@ static
 bool
 CheckAsExprStatement
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -58856,7 +58856,7 @@ static
 bool
 CheckExprStatement
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -58924,7 +58924,7 @@ static
 void
 MaybeAddInterruptCheck
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 InterruptCheckPosition
@@ -59113,7 +59113,7 @@ static
 bool
 CheckWhile
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -59343,7 +59343,7 @@ static
 bool
 CheckFor
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -59821,7 +59821,7 @@ static
 bool
 CheckDoWhile
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -60040,7 +60040,7 @@ static
 bool
 CheckLabel
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -60242,7 +60242,7 @@ static
 bool
 CheckIf
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -60677,7 +60677,7 @@ static
 bool
 CheckCaseExpr
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -60844,7 +60844,7 @@ static
 bool
 CheckDefaultAtEnd
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -60930,7 +60930,7 @@ static
 bool
 CheckSwitchRange
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -61151,7 +61151,7 @@ true
 void
 PatchSwitch
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 size_t
@@ -61212,7 +61212,7 @@ static
 bool
 CheckSwitch
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -61897,7 +61897,7 @@ static
 bool
 CheckReturnType
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -61991,7 +61991,7 @@ static
 bool
 CheckReturn
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -62360,7 +62360,7 @@ static
 bool
 CheckStatementList
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -62503,7 +62503,7 @@ static
 bool
 CheckBreakOrContinue
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 PropertyName
@@ -62666,7 +62666,7 @@ static
 bool
 CheckStatement
 (
-FunctionBuilder
+FunctionValidator
 &
 f
 ParseNode
@@ -69042,7 +69042,7 @@ AsmFunction
 lifo
 )
 ;
-FunctionBuilder
+FunctionValidator
 f
 (
 m

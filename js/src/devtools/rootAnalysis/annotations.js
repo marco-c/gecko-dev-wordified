@@ -279,7 +279,7 @@ cpp
 uint8
 CheckCallArgs
 (
-FunctionBuilder
+FunctionValidator
 *
 js
 :
@@ -293,7 +293,7 @@ ParseNode
 uint8
 )
 (
-FunctionBuilder
+FunctionValidator
 *
 js
 :
