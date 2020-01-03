@@ -219,6 +219,7 @@ MP4Sample
 *
 aSample
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -234,6 +235,7 @@ nsresult
 Drain
 (
 )
+MOZ_OVERRIDE
 =
 0
 ;
