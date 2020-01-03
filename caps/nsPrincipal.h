@@ -299,10 +299,10 @@ Init
 nsIURI
 *
 aCodebase
-uint32_t
-aAppId
-bool
-aInMozBrowser
+const
+OriginAttributes
+&
+aOriginAttributes
 )
 ;
 virtual
