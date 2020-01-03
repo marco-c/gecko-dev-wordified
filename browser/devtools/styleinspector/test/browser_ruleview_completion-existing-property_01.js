@@ -621,7 +621,6 @@ editor
 yield
 focusEditableField
 (
-view
 propertyName
 )
 ;

@@ -330,7 +330,6 @@ onShown
 yield
 simulateColorPickerChange
 (
-ruleView
 picker
 [
 0
