@@ -310,6 +310,8 @@ td
 .
 microseconds
 )
+\
+            
 +
 (
 td
@@ -881,11 +883,14 @@ No
 such
 pid
 :
-%
-s
+{
+}
 "
-%
+.
+format
+(
 pid
+)
 )
     
 out
@@ -1185,15 +1190,15 @@ out
 =
 TestOutput
 (
-                   
+            
 ended
 .
 test
-                   
+            
 ended
 .
 cmd
-                   
+            
 '
 '
 .
@@ -1203,7 +1208,7 @@ ended
 .
 out
 )
-                   
+            
 '
 '
 .
@@ -1213,9 +1218,9 @@ ended
 .
 err
 )
-                   
+            
 returncode
-                   
+            
 total_seconds
 (
 datetime
@@ -1228,7 +1233,7 @@ ended
 .
 start
 )
-                   
+            
 timed_out
 (
 ended

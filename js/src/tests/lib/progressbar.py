@@ -408,7 +408,8 @@ write
 (
 (
 '
-%
+{
+:
 '
 +
 str
@@ -420,9 +421,13 @@ limit_digits
 +
 '
 d
+}
 '
 )
-%
+.
+format
+(
+                
 data
 [
 layout
@@ -432,6 +437,7 @@ value
 '
 ]
 ]
+)
 )
             
 Terminal
@@ -506,13 +512,17 @@ stdout
 write
 (
 '
-%
+{
+:
 3d
-%
+}
 %
 '
-%
+.
+format
+(
 pct
+)
 )
         
 barlen
@@ -613,13 +623,19 @@ stdout
 write
 (
 '
-%
+{
+:
 6
 .
-1fs
+1f
+}
+s
 '
-%
+.
+format
+(
 dt
+)
 )
         
 Terminal

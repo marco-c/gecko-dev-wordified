@@ -60,6 +60,7 @@ times
 with
 the
 following
+#
 arguments
 .
 TBPL_FLAGS
@@ -123,6 +124,7 @@ compile
 =
 off
 '
+     
 '
 -
 -
@@ -633,6 +635,25 @@ to
 tests
 root
 dir
+        
+self
+.
+options
+=
+[
+]
+#
+[
+str
+]
+:
+Extra
+options
+to
+pass
+to
+the
+shell
     
 staticmethod
     
@@ -664,6 +685,7 @@ test
 with
 the
 given
+        
 path
 .
 "
@@ -710,6 +732,8 @@ prefix_command
 (
 head
 )
+\
+            
 +
 [
 '
@@ -767,6 +791,8 @@ prefix_command
 (
 dirname
 )
+\
+              
 +
 [
 '
@@ -941,25 +967,6 @@ test
 may
 run
 slowly
-        
-self
-.
-options
-=
-[
-]
-#
-[
-str
-]
-:
-Extra
-options
-to
-pass
-to
-the
-shell
         
 #
 The

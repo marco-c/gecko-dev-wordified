@@ -3123,6 +3123,8 @@ match
         
 if
 requested_paths
+\
+           
 and
 not
 any
