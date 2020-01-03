@@ -1323,7 +1323,7 @@ n
 nsXPTCStubBase
 UAG
 ?
-AW4tag_nsresult
+AW4nsresult
 XZ
 \
 "
@@ -1347,7 +1347,7 @@ n
 nsXPTCStubBase
 UAG
 ?
-AW4tag_nsresult
+AW4nsresult
 XZ
 \
 "
@@ -1399,7 +1399,7 @@ n
 nsXPTCStubBase
 UAG
 ?
-AW4tag_nsresult
+AW4nsresult
 XZ
 \
 "
