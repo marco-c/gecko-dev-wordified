@@ -7323,11 +7323,12 @@ bufContents
 kind
 (
 )
-&
+=
+=
 ArrayBufferObject
 :
 :
-MAPPED_BUFFER
+MAPPED
 )
 ownership
 =

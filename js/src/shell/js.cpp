@@ -6495,7 +6495,7 @@ create
 ArrayBufferObject
 :
 :
-PLAIN_BUFFER
+PLAIN
 >
 (
 buffer
