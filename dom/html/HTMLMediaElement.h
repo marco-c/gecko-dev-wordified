@@ -3114,7 +3114,7 @@ VideoTracks
 ;
 TextTrackList
 *
-TextTracks
+GetTextTracks
 (
 )
 ;

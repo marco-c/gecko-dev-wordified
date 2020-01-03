@@ -264,7 +264,7 @@ aMediaElement
 ;
 TextTrackList
 *
-TextTracks
+GetTextTracks
 (
 )
 const

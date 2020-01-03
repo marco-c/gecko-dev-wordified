@@ -24224,6 +24224,7 @@ mVideoTrackList
 readonly
 attribute
 TextTrackList
+?
 textTracks
 ;
 *
@@ -24233,7 +24234,7 @@ TextTrackList
 HTMLMediaElement
 :
 :
-TextTracks
+GetTextTracks
 (
 )
 {
@@ -24243,7 +24244,7 @@ GetOrCreateTextTrackManager
 )
 -
 >
-TextTracks
+GetTextTracks
 (
 )
 ;
