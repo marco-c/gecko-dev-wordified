@@ -241,6 +241,14 @@ MediaDataDecoderCallback
 *
 mCallback
 ;
+const
+mp4_demuxer
+:
+:
+AudioDecoderConfig
+&
+mConfig
+;
 }
 ;
 }
