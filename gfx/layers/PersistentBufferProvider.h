@@ -427,6 +427,7 @@ BackendType
 aBackend
 )
 ;
+explicit
 PersistentBufferProviderBasic
 (
 gfx
