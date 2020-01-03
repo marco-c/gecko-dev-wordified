@@ -136,6 +136,12 @@ BEGIN_TEST
 testGCHeapPostBarriers
 )
 {
+AutoLeaveZeal
+nozeal
+(
+cx
+)
+;
 /
 *
 Sanity
