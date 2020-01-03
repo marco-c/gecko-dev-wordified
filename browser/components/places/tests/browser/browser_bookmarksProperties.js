@@ -2076,8 +2076,6 @@ dialog
 not
 default
 anymore
-/
-*
 gTests
 .
 push
@@ -2288,6 +2286,12 @@ focus
 (
 )
 ;
+namePicker
+.
+select
+(
+)
+;
 EventUtils
 .
 synthesizeKey
@@ -2400,8 +2404,6 @@ _itemId
 }
 )
 ;
-*
-/
 /
 /
 -
