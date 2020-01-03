@@ -717,6 +717,11 @@ ARIARoleAtom
 const
 ;
 int32_t
+GetLevelInternal
+(
+)
+;
+int32_t
 CaretLineNumber
 (
 )
@@ -1643,6 +1648,14 @@ DocType
 nsString
 &
 aType
+)
+;
+void
+Title
+(
+nsString
+&
+aTitle
 )
 ;
 void
