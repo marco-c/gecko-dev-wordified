@@ -640,8 +640,6 @@ com
 submit
 /
 sslreports
--
-stg
 "
 )
 ;
