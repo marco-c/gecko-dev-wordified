@@ -213,6 +213,7 @@ JSContext
 Accept
 strings
 .
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -241,6 +242,7 @@ aValue
 Accept
 booleans
 .
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -768,6 +770,7 @@ true
 /
 Accept
 CallbackObjects
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -858,6 +861,7 @@ template
 class
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -964,6 +968,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -1139,6 +1144,7 @@ template
 class
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -1244,6 +1250,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1289,6 +1296,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1339,6 +1347,7 @@ template
 class
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -1403,6 +1412,7 @@ same
 compartment
 with
 us
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -1468,6 +1478,7 @@ same
 compartment
 with
 us
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -1533,6 +1544,7 @@ same
 compartment
 with
 us
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -1601,6 +1613,7 @@ representing
 that
 nsresult
 .
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1658,6 +1671,7 @@ Failure
 returning
 true
 .
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1694,6 +1708,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -1753,6 +1768,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1898,6 +1914,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1947,6 +1964,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1998,6 +2016,7 @@ T
 int
 N
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
