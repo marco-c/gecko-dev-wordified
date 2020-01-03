@@ -2194,6 +2194,12 @@ function
 (
 )
 {
+DebuggerServer
+.
+destroy
+(
+)
+;
 do_test_finished
 (
 )
