@@ -155,6 +155,9 @@ recording
 ;
 ok
 (
+!
+isVisible
+(
 (
 "
 #
@@ -163,8 +166,7 @@ memory
 overview
 "
 )
-.
-hidden
+)
 "
 memory
 graph
@@ -188,6 +190,9 @@ true
 ;
 ok
 (
+!
+isVisible
+(
 (
 "
 #
@@ -196,8 +201,7 @@ memory
 overview
 "
 )
-.
-hidden
+)
 "
 memory
 graph
@@ -230,7 +234,8 @@ panel
 ;
 ok
 (
-!
+isVisible
+(
 (
 "
 #
@@ -239,8 +244,7 @@ memory
 overview
 "
 )
-.
-hidden
+)
 "
 memory
 graph

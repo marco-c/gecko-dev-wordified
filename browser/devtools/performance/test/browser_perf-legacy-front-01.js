@@ -504,6 +504,8 @@ frames
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -512,9 +514,8 @@ overview
 pane
 "
 )
-.
-hidden
-false
+)
+true
 "
 overview
 pane
@@ -1065,6 +1066,8 @@ frames
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -1073,9 +1076,8 @@ overview
 pane
 "
 )
-.
-hidden
-true
+)
+false
 "
 overview
 pane

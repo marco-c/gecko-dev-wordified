@@ -142,6 +142,8 @@ true
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -150,9 +152,8 @@ overview
 pane
 "
 )
-.
-hidden
-true
+)
+false
 "
 overview
 graphs
@@ -322,6 +323,8 @@ completion
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -330,9 +333,8 @@ overview
 pane
 "
 )
-.
-hidden
-false
+)
+true
 "
 overview
 graphs
@@ -358,6 +360,8 @@ true
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -366,9 +370,8 @@ overview
 pane
 "
 )
-.
-hidden
-true
+)
+false
 "
 overview
 graphs
@@ -389,6 +392,8 @@ selectedIndex
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -397,9 +402,8 @@ overview
 pane
 "
 )
-.
-hidden
-false
+)
+true
 "
 overview
 graphs
@@ -424,6 +428,8 @@ selectedIndex
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -432,9 +438,8 @@ overview
 pane
 "
 )
-.
-hidden
-true
+)
+false
 "
 overview
 graphs
@@ -458,6 +463,8 @@ panel
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -466,9 +473,8 @@ overview
 pane
 "
 )
-.
-hidden
-false
+)
+true
 "
 overview
 graphs
