@@ -297,6 +297,16 @@ clasp
 =
 &
 OuterWindowProxyClass
+&
+&
+!
+jsipc
+:
+:
+IsWrappedCPOW
+(
+unwrapped
+)
 )
 {
 return
