@@ -3215,6 +3215,8 @@ gDevToolsBrowser
 .
 forgetBrowserWindow
 }
+}
+;
 /
 *
 *
@@ -3229,10 +3231,15 @@ toolboxes
 .
 *
 /
-'
+Devtools
+.
+prototype
+[
+Symbol
+.
 iterator
-'
-:
+]
+=
 function
 *
 (
@@ -3251,7 +3258,6 @@ _toolboxes
 yield
 toolbox
 ;
-}
 }
 }
 ;

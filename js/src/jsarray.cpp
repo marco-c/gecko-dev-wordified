@@ -19786,11 +19786,9 @@ ArrayFill
 3
 0
 )
-JS_SELF_HOSTED_FN
+JS_SELF_HOSTED_SYM_FN
 (
-"
 iterator
-"
 "
 ArrayValues
 "

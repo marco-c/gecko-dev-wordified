@@ -385,11 +385,10 @@ intermediate
 value
 )
 [
-\
-'
-iterator
-\
-'
+(
+intermediate
+value
+)
 ]
 (
 .

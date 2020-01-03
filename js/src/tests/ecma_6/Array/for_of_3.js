@@ -174,9 +174,9 @@ iter
 ]
 )
 [
-'
+Symbol
+.
 iterator
-'
 ]
 (
 )
