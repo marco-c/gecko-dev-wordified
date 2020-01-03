@@ -10098,6 +10098,7 @@ obj2
 s
 children
 .
+N
 pushValueArray
 (
 obj
