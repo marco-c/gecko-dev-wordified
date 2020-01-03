@@ -2158,6 +2158,9 @@ template
 argument
 types
 .
+namespace
+base
+{
 inline
 Tuple0
 MakeTuple
@@ -2555,6 +2558,12 @@ g
 )
 ;
 }
+}
+/
+/
+end
+namespace
+base
 /
 /
 The

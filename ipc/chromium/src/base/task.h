@@ -908,6 +908,9 @@ Init
 (
 object_
 method
+base
+:
+:
 MakeTuple
 (
 )
@@ -972,6 +975,9 @@ Init
 (
 object_
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -1044,6 +1050,9 @@ Init
 (
 object_
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -1124,6 +1133,9 @@ Init
 (
 object_
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -1212,6 +1224,9 @@ Init
 (
 object_
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -1308,6 +1323,9 @@ Init
 (
 object_
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -2364,6 +2382,9 @@ Tuple0
 (
 object
 method
+base
+:
+:
 MakeTuple
 (
 )
@@ -2409,6 +2430,9 @@ A
 (
 object
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -2462,6 +2486,9 @@ B
 (
 object
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -2523,6 +2550,9 @@ C
 (
 object
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -2592,6 +2622,9 @@ D
 (
 object
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -2669,6 +2702,9 @@ E
 (
 object
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -2754,6 +2790,9 @@ F
 (
 object
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -2847,6 +2886,9 @@ G
 (
 object
 method
+base
+:
+:
 MakeTuple
 (
 a
@@ -2989,6 +3031,9 @@ Tuple0
 >
 (
 function
+base
+:
+:
 MakeTuple
 (
 )
@@ -3027,6 +3072,9 @@ A
 >
 (
 function
+base
+:
+:
 MakeTuple
 (
 a
@@ -3073,6 +3121,9 @@ B
 >
 (
 function
+base
+:
+:
 MakeTuple
 (
 a
@@ -3127,6 +3178,9 @@ C
 >
 (
 function
+base
+:
+:
 MakeTuple
 (
 a
@@ -3189,6 +3243,9 @@ D
 >
 (
 function
+base
+:
+:
 MakeTuple
 (
 a
@@ -3259,6 +3316,9 @@ E
 >
 (
 function
+base
+:
+:
 MakeTuple
 (
 a
@@ -3700,6 +3760,9 @@ callback
 >
 RunWithParams
 (
+base
+:
+:
 MakeTuple
 (
 5
