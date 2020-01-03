@@ -106,11 +106,10 @@ std
 :
 queue
 <
-mp4_demuxer
-:
-:
-MP4Sample
-*
+nsRefPtr
+<
+MediaRawData
+>
 >
 SampleQueue
 ;
@@ -292,10 +291,7 @@ virtual
 nsresult
 Input
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

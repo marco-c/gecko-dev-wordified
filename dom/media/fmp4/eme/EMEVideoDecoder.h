@@ -283,10 +283,7 @@ GMPVideoEncodedFrame
 Ptr
 CreateFrame
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

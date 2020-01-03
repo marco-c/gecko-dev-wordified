@@ -135,6 +135,13 @@ CDMProxy
 .
 h
 "
+#
+include
+"
+MediaData
+.
+h
+"
 namespace
 mozilla
 {
@@ -283,10 +290,7 @@ EMEVideoDecoder
 :
 CreateFrame
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
@@ -316,7 +320,7 @@ frame
 aSample
 -
 >
-crypto
+mCrypto
 .
 valid
 )
@@ -343,7 +347,7 @@ InitCrypto
 aSample
 -
 >
-crypto
+mCrypto
 )
 ;
 }

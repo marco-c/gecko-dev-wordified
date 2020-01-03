@@ -246,10 +246,7 @@ virtual
 bool
 PerformFormatSpecificProcess
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
@@ -259,10 +256,7 @@ virtual
 status_t
 SendSampleToOMX
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
