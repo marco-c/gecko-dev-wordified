@@ -9193,7 +9193,6 @@ count
 const
 GLchar
 *
-const
 *
 strings
 const
