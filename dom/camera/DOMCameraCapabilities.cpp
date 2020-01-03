@@ -1704,11 +1704,6 @@ __LINE__
 this
 )
 ;
-MOZ_COUNT_CTOR
-(
-CameraCapabilities
-)
-;
 if
 (
 mCameraControl
