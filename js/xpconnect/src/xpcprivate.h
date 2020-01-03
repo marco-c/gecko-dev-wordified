@@ -19269,9 +19269,6 @@ extern
 bool
 xpc_DumpJSStack
 (
-JSContext
-*
-cx
 bool
 showArgs
 bool
