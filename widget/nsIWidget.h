@@ -9941,6 +9941,14 @@ aStatus
 =
 0
 ;
+virtual
+bool
+IsMultiProcessWindow
+(
+)
+=
+0
+;
 /
 *
 *
