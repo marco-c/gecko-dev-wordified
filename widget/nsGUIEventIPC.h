@@ -4624,7 +4624,7 @@ aParam
 .
 mTextChangeData
 .
-mOldEndOffset
+mRemovedEndOffset
 )
 ;
 WriteParam
@@ -4634,7 +4634,7 @@ aParam
 .
 mTextChangeData
 .
-mNewEndOffset
+mAddedEndOffset
 )
 ;
 WriteParam
@@ -4972,7 +4972,7 @@ aResult
 >
 mTextChangeData
 .
-mOldEndOffset
+mRemovedEndOffset
 )
 &
 &
@@ -4986,7 +4986,7 @@ aResult
 >
 mTextChangeData
 .
-mNewEndOffset
+mAddedEndOffset
 )
 &
 &

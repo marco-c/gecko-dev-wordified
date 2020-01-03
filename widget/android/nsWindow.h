@@ -1103,7 +1103,7 @@ aIMENotification
 .
 mTextChangeData
 .
-mOldEndOffset
+mRemovedEndOffset
 )
 mNewEnd
 (
@@ -1111,7 +1111,7 @@ aIMENotification
 .
 mTextChangeData
 .
-mNewEndOffset
+mAddedEndOffset
 )
 {
 MOZ_ASSERT

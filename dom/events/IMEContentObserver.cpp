@@ -13871,7 +13871,7 @@ notification
 .
 mTextChangeData
 .
-mOldEndOffset
+mRemovedEndOffset
 =
 mData
 .
@@ -13881,7 +13881,7 @@ notification
 .
 mTextChangeData
 .
-mNewEndOffset
+mAddedEndOffset
 =
 mData
 .
