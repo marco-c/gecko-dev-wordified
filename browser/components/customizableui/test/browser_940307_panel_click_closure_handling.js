@@ -882,6 +882,12 @@ enabled
 suggestEnabled
 )
 ;
+CustomizableUI
+.
+reset
+(
+)
+;
 }
 )
 ;
