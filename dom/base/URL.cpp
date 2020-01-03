@@ -277,8 +277,7 @@ aURI
 )
 {
 }
-JSObject
-*
+bool
 URL
 :
 :
@@ -287,6 +286,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aReflector
 )
 {
 return
@@ -297,6 +305,7 @@ Wrap
 (
 aCx
 this
+aReflector
 )
 ;
 }

@@ -328,8 +328,7 @@ forget
 )
 ;
 }
-JSObject
-*
+bool
 FileReaderSync
 :
 :
@@ -338,6 +337,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aReflector
 )
 {
 return
@@ -348,6 +356,7 @@ Wrap
 (
 aCx
 this
+aReflector
 )
 ;
 }
