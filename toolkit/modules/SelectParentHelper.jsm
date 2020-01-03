@@ -513,6 +513,16 @@ option
 textContent
 )
 ;
+item
+.
+style
+.
+direction
+=
+option
+.
+textDirection
+;
 element
 .
 appendChild
