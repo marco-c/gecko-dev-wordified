@@ -237,6 +237,8 @@ assert
 .
 equal
 (
+haystack
+[
 binarySearch
 .
 search
@@ -245,6 +247,7 @@ needle
 haystack
 numberCompare
 )
+]
 20
 )
 ;
@@ -318,7 +321,8 @@ needle
 haystack
 numberCompare
 )
-null
+-
+1
 )
 ;
 }
@@ -363,6 +367,8 @@ assert
 .
 equal
 (
+haystack
+[
 binarySearch
 .
 search
@@ -371,6 +377,7 @@ needle
 haystack
 numberCompare
 )
+]
 4
 )
 ;
@@ -416,6 +423,8 @@ assert
 .
 equal
 (
+haystack
+[
 binarySearch
 .
 search
@@ -424,6 +433,7 @@ needle
 haystack
 numberCompare
 )
+]
 18
 )
 ;
