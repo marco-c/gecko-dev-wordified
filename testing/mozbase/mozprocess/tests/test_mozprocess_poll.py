@@ -111,7 +111,7 @@ self
 .
 assertRaises
 (
-AttributeError
+RuntimeError
 p
 .
 poll
