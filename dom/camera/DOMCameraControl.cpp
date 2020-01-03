@@ -1524,6 +1524,11 @@ MOZ_WIDGET_GONK
 }
 else
 {
+if
+(
+haveInitialConfig
+)
+{
 rv
 =
 mCameraControl
@@ -1534,6 +1539,14 @@ SetConfiguration
 config
 )
 ;
+}
+else
+{
+rv
+=
+NS_OK
+;
+}
 }
 #
 endif
