@@ -138,6 +138,9 @@ MOZ_FINAL
 :
 public
 WebGLBindableName
+<
+GLenum
+>
 public
 nsWrapperCache
 public
