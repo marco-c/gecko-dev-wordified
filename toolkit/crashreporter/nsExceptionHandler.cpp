@@ -2575,11 +2575,11 @@ const
 SIZE_T
 kReserveSize
 =
-0x2800000
+0x3200000
 ;
 /
 /
-40
+50
 MB
 static
 void
