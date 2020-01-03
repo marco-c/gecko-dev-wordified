@@ -109,7 +109,7 @@ h
 #
 include
 "
-GMPService
+GMPServiceParent
 .
 h
 "
@@ -300,7 +300,7 @@ GMPParent
 nsresult
 Init
 (
-GeckoMediaPluginService
+GeckoMediaPluginServiceParent
 *
 aService
 nsIFile
@@ -821,7 +821,7 @@ GMPParent
 ;
 nsRefPtr
 <
-GeckoMediaPluginService
+GeckoMediaPluginServiceParent
 >
 mService
 ;

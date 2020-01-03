@@ -702,7 +702,7 @@ getService
 (
 Ci
 .
-mozIGeckoMediaPluginService
+mozIGeckoMediaPluginChromeService
 )
 )
 ;
