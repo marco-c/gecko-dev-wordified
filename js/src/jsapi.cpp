@@ -25802,6 +25802,14 @@ if
 !
 parser
 .
+checkOptions
+(
+)
+|
+|
+!
+parser
+.
 parse
 (
 obj
