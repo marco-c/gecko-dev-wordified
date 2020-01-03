@@ -10066,8 +10066,6 @@ const
 JSClass
 *
 jsclasp
-HandleObject
-parent
 )
 {
 MOZ_ASSERT
@@ -10100,12 +10098,6 @@ cx
 CHECK_REQUEST
 (
 cx
-)
-;
-assertSameCompartment
-(
-cx
-parent
 )
 ;
 const
@@ -10175,7 +10167,9 @@ clasp
 NullPtr
 (
 )
-parent
+NullPtr
+(
+)
 )
 ;
 MOZ_ASSERT_IF
