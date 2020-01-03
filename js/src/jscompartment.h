@@ -1656,6 +1656,11 @@ checkWrapperMapAfterMovingGC
 (
 )
 ;
+void
+checkBaseShapeTableAfterMovingGC
+(
+)
+;
 #
 endif
 /
