@@ -1092,18 +1092,18 @@ repository
 default
 =
 '
-http
+https
 :
 /
 /
-hg
+github
 .
-mozilla
-.
-org
+com
+/
+lightsofapollo
 /
 build
-/
+-
 mozharness
 '
         
@@ -1246,7 +1246,9 @@ rev
 default
 =
 '
-tip
+emulator
+-
+perf
 '
         
 help
