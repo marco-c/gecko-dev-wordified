@@ -1740,8 +1740,6 @@ ba
 getAddress
 (
 )
-;
-sUniqueID
 .
 toLowerCase
 (
