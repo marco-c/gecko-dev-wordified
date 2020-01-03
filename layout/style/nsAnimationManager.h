@@ -420,6 +420,9 @@ virtual
 void
 Pause
 (
+ErrorResult
+&
+aRv
 )
 override
 ;
