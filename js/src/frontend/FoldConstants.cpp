@@ -2361,6 +2361,9 @@ asserted
 itself
 .
 case
+PNK_OBJECT_PROPERTY_NAME
+:
+case
 PNK_COMPUTED_NAME
 :
 case
