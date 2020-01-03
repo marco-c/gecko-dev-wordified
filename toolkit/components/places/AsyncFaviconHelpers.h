@@ -565,12 +565,6 @@ AsyncFaviconHelperBase
 (
 )
 ;
-nsRefPtr
-<
-Database
->
-mDB
-;
 /
 /
 Strong

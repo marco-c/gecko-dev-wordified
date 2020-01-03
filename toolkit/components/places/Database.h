@@ -708,13 +708,7 @@ Database
 GetDatabase
 (
 )
-{
-return
-GetSingleton
-(
-)
 ;
-}
 /
 *
 *
