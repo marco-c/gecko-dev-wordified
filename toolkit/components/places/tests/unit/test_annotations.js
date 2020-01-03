@@ -2363,7 +2363,7 @@ getItemLastModified
 testItemId
 )
 ;
-LOG
+do_print
 (
 "
 verify
@@ -2379,7 +2379,7 @@ date
 "
 )
 ;
-LOG
+do_print
 (
 "
 lastModified3
@@ -2389,7 +2389,7 @@ lastModified3
 lastModified3
 )
 ;
-LOG
+do_print
 (
 "
 lastModified4

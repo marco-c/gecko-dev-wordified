@@ -659,7 +659,7 @@ bugzilla
 ]
 }
 ;
-LOG
+do_print
 (
 "
 Adding
@@ -668,6 +668,7 @@ to
 query
 "
 )
+;
 yield
 task_populateDB
 (
@@ -676,7 +677,7 @@ change1
 ]
 )
 ;
-LOG
+do_print
 (
 "
 These
@@ -722,7 +723,7 @@ removing
 search
 term
 .
-LOG
+do_print
 (
 "
 Updating
@@ -861,7 +862,7 @@ tag
 updates
 us
 .
-LOG
+do_print
 (
 "
 Deleting
