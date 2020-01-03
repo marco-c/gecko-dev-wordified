@@ -189,6 +189,7 @@ BluetoothValue
 ;
 class
 BluetoothManager
+final
 :
 public
 DOMEventTargetHelper
