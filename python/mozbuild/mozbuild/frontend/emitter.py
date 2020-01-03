@@ -5866,6 +5866,25 @@ chrome
 True
 )
             
+MOCHITEST_WEBAPPRT_CONTENT
+=
+(
+'
+webapprt
+-
+content
+'
+'
+testing
+/
+mochitest
+'
+'
+webapprtContent
+'
+True
+)
+            
 MOCHITEST_WEBAPPRT_CHROME
 =
 (
