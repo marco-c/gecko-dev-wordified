@@ -27460,7 +27460,7 @@ LSimdBinaryCompIx4
 )
 ;
 return
-lowerForFPU
+lowerForCompIx4
 (
 add
 ins
@@ -27510,7 +27510,7 @@ LSimdBinaryCompFx4
 )
 ;
 return
-lowerForFPU
+lowerForCompFx4
 (
 add
 ins
