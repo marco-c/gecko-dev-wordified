@@ -304,6 +304,10 @@ mProgress
 =
 =
 NoProgress
+|
+|
+!
+mImage
 "
 Destroying
 Decoder
@@ -323,6 +327,10 @@ mInvalidRect
 IsEmpty
 (
 )
+|
+|
+!
+mImage
 "
 Destroying
 Decoder
@@ -1647,6 +1655,11 @@ aPaletteDepth
 ;
 if
 (
+ShouldUseSurfaceCache
+(
+)
+&
+&
 !
 SurfaceCache
 :
@@ -1772,6 +1785,13 @@ RawAccessFrameRef
 )
 ;
 }
+if
+(
+ShouldUseSurfaceCache
+(
+)
+)
+{
 InsertOutcome
 outcome
 =
@@ -1844,9 +1864,9 @@ system
 recover
 ;
 otherwise
+/
+/
 we
-/
-/
 might
 just
 end
@@ -1926,6 +1946,7 @@ RawAccessFrameRef
 (
 )
 ;
+}
 }
 nsIntRect
 refreshArea
@@ -2116,6 +2137,11 @@ mFrameCount
 +
 +
 ;
+if
+(
+mImage
+)
+{
 mImage
 -
 >
@@ -2125,6 +2151,7 @@ mFrameCount
 refreshArea
 )
 ;
+}
 return
 ref
 ;
