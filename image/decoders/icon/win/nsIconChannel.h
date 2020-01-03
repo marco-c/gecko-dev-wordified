@@ -240,9 +240,6 @@ nsIURI
 >
 mOriginalURI
 ;
-int64_t
-mContentLength
-;
 nsCOMPtr
 <
 nsILoadGroup
