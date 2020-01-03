@@ -3261,6 +3261,7 @@ JS
 TraceKind
 kind
 )
+override
 {
 /
 /
