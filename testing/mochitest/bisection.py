@@ -275,6 +275,8 @@ we
 need
 this
 for
+        
+#
 bisecting
 tests
 .
@@ -316,18 +318,22 @@ directory
 =
 directory
 [
+                    
 0
 :
 min
 (
+                        
 options
 .
 chunkByDir
+                        
 len
 (
 directory
 )
 -
+                        
 1
 )
 ]
@@ -344,8 +350,8 @@ directory
 )
                 
 if
-not
 directory
+not
 in
 tests_by_dir
 :
@@ -666,6 +672,8 @@ verify
 that
 the
 failing
+        
+#
 test
 is
 the
@@ -861,6 +869,8 @@ to
 run
 a
 sanity
+            
+#
 check
 will
 take
@@ -928,6 +938,8 @@ dependent
 on
 some
 other
+            
+#
 test
 .
             
@@ -1854,6 +1866,8 @@ the
 tests
 have
 successfully
+            
+#
 passed
 .
             
@@ -1894,6 +1908,7 @@ summary
 .
 append
 (
+                
 "
 \
 tFound
@@ -1905,6 +1920,7 @@ test
 s
 "
 %
+                
 options
 .
 bisectChunk
@@ -1930,6 +1946,8 @@ need
 to
 move
 to
+        
+#
 the
 next
 run
@@ -1996,6 +2014,7 @@ summary
 .
 append
 (
+                
 "
 \
 t
@@ -2024,6 +2043,7 @@ s
 (
 len
 (
+                    
 self
 .
 contents
@@ -2033,6 +2053,7 @@ testsToRun
 '
 ]
 )
+                    
 self
 .
 contents
@@ -2044,6 +2065,7 @@ testsToRun
 [
 0
 ]
+                    
 self
 .
 contents
@@ -2053,9 +2075,11 @@ testsToRun
 '
 ]
 [
+                    
 -
 2
 ]
+                    
 self
 .
 contents
@@ -2065,6 +2089,7 @@ testsToRun
 '
 ]
 [
+                    
 -
 1
 ]
@@ -2080,6 +2105,7 @@ summary
 .
 append
 (
+                
 "
 \
 t
@@ -2093,6 +2119,7 @@ s
 ]
 "
 %
+                
 self
 .
 contents
@@ -2230,6 +2257,7 @@ failed
 .
 "
 %
+                                    
 self
 .
 contents
@@ -2257,6 +2285,7 @@ self
 .
 expectedError
 [
+                    
 options
 .
 bisectChunk
@@ -2293,6 +2322,7 @@ summary
 .
 append
 (
+                    
 "
 \
 t
@@ -2351,6 +2381,8 @@ Should
 work
 for
 any
+                
+#
 algorithm
 .
                 
@@ -2388,6 +2420,8 @@ Since
 the
 last
 test
+                    
+#
 is
 the
 failing
@@ -2396,6 +2430,8 @@ itself
 therefore
 the
 bleedthrough
+                    
+#
 test
 is
 the
@@ -2408,6 +2444,7 @@ summary
 .
 append
 (
+                        
 "
 TEST
 -
@@ -2434,6 +2471,7 @@ above
 failures
 "
 %
+                        
 self
 .
 contents
@@ -2461,6 +2499,7 @@ summary
 .
 append
 (
+                    
 "
 \
 t
@@ -2543,6 +2582,7 @@ summary
 .
 append
 (
+                
 "
 \
 t
@@ -2555,6 +2595,7 @@ passed
 .
 "
 %
+                
 self
 .
 contents
@@ -2711,6 +2752,7 @@ summary
 .
 append
 (
+                
 "
 \
 t
@@ -2723,6 +2765,7 @@ failed
 .
 "
 %
+                
 self
 .
 contents
@@ -2857,6 +2900,7 @@ summary
 .
 append
 (
+                    
 "
 TEST
 -
@@ -2883,6 +2927,7 @@ above
 failures
 "
 %
+                    
 self
 .
 contents
