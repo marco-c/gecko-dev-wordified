@@ -4084,10 +4084,6 @@ mDrawTarget
 >
 CreatePathBuilder
 (
-FillRule
-:
-:
-FILL_EVEN_ODD
 )
 ;
 RectCornerRadii
@@ -10845,10 +10841,6 @@ mDrawTarget
 >
 CreatePathBuilder
 (
-FillRule
-:
-:
-FILL_EVEN_ODD
 )
 ;
 AppendRoundedRectToPath
