@@ -145,10 +145,10 @@ GMPDecryptorProxyCallback
 }
 virtual
 void
-ResolveNewSessionPromise
+SetSessionId
 (
 uint32_t
-aPromiseId
+aCreateSessionId
 const
 nsCString
 &
@@ -359,6 +359,8 @@ virtual
 void
 CreateSession
 (
+uint32_t
+aCreateSessionToken
 uint32_t
 aPromiseId
 const

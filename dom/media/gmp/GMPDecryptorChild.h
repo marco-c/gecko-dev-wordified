@@ -203,10 +203,10 @@ aSession
 GMPDecryptorCallback
 virtual
 void
-ResolveNewSessionPromise
+SetSessionId
 (
 uint32_t
-aPromiseId
+aCreateSessionToken
 const
 char
 *
@@ -442,6 +442,10 @@ virtual
 bool
 RecvCreateSession
 (
+const
+uint32_t
+&
+aCreateSessionToken
 const
 uint32_t
 &

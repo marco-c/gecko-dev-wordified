@@ -259,6 +259,8 @@ GMPDecryptorParent
 CreateSession
 (
 uint32_t
+aCreateSessionToken
+uint32_t
 aPromiseId
 const
 nsCString
@@ -334,6 +336,7 @@ unused
 <
 SendCreateSession
 (
+aCreateSessionToken
 aPromiseId
 aInitDataType
 aInitData
@@ -815,12 +818,12 @@ bool
 GMPDecryptorParent
 :
 :
-RecvResolveNewSessionPromise
+RecvSetSessionId
 (
 const
 uint32_t
 &
-aPromiseId
+aCreateSessionId
 const
 nsCString
 &
@@ -854,9 +857,9 @@ false
 mCallback
 -
 >
-ResolveNewSessionPromise
+SetSessionId
 (
-aPromiseId
+aCreateSessionId
 aSessionId
 )
 ;

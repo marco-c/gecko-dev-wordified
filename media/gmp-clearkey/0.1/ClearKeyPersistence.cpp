@@ -519,6 +519,8 @@ ClearKeyDecryptionManager
 *
 aTarget
 uint32_t
+aCreateSessionToken
+uint32_t
 aPromiseId
 const
 uint8_t
@@ -533,6 +535,10 @@ aSessionType
 mTarget
 (
 aTarget
+)
+mCreateSessionToken
+(
+aCreateSessionToken
 )
 mPromiseId
 (
@@ -571,6 +577,7 @@ mTarget
 >
 CreateSession
 (
+mCreateSessionToken
 mPromiseId
 "
 cenc
@@ -616,6 +623,9 @@ ClearKeyDecryptionManager
 mTarget
 ;
 uint32_t
+mCreateSessionToken
+;
+uint32_t
 mPromiseId
 ;
 vector
@@ -643,6 +653,8 @@ DeferCreateSessionIfNotReady
 ClearKeyDecryptionManager
 *
 aInstance
+uint32_t
+aCreateSessionToken
 uint32_t
 aPromiseId
 const
@@ -675,6 +687,7 @@ new
 CreateSessionTask
 (
 aInstance
+aCreateSessionToken
 aPromiseId
 aInitData
 aInitDataSize

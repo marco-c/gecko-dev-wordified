@@ -423,6 +423,8 @@ contents
 void
 CreateSession
 (
+uint32_t
+aCreateSessionToken
 dom
 :
 :
@@ -781,10 +783,10 @@ thread
 only
 .
 void
-OnResolveNewSessionPromise
+OnSetSessionId
 (
 uint32_t
-aPromiseId
+aCreateSessionToken
 const
 nsAString
 &
@@ -1108,6 +1110,9 @@ dom
 :
 SessionType
 mSessionType
+;
+uint32_t
+mCreateSessionToken
 ;
 PromiseId
 mPromiseId

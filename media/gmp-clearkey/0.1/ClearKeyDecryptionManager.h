@@ -151,6 +151,8 @@ void
 CreateSession
 (
 uint32_t
+aCreateSessionToken
+uint32_t
 aPromiseId
 const
 char

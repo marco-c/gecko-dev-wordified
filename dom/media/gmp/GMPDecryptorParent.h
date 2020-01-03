@@ -192,6 +192,8 @@ void
 CreateSession
 (
 uint32_t
+aCreateSessionToken
+uint32_t
 aPromiseId
 const
 nsCString
@@ -331,12 +333,12 @@ GMPDecryptorParent
 PGMPDecryptorParent
 virtual
 bool
-RecvResolveNewSessionPromise
+RecvSetSessionId
 (
 const
 uint32_t
 &
-aPromiseId
+aCreateSessionToken
 const
 nsCString
 &
