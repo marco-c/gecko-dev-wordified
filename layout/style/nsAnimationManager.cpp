@@ -1691,7 +1691,7 @@ isSameIteration
 {
 message
 =
-NS_ANIMATION_ITERATION
+eAnimationIteration
 ;
 }
 else
@@ -1801,7 +1801,7 @@ eAnimationStart
 message
 =
 =
-NS_ANIMATION_ITERATION
+eAnimationIteration
 )
 {
 TimeDuration
