@@ -1732,6 +1732,7 @@ completionEvent
 )
 |
 |
+(
 !
 aWait
 &
@@ -1744,6 +1745,7 @@ GetLastError
 =
 =
 ERROR_IO_PENDING
+)
 )
 {
 mRegWait

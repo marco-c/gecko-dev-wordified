@@ -4706,6 +4706,7 @@ if
 needsCancel
 |
 |
+(
 !
 mIsTimerReset
 &
@@ -4715,6 +4716,7 @@ mHangUIParent
 >
 WasShown
 (
+)
 )
 )
 {
