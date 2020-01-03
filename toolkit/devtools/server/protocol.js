@@ -103,7 +103,15 @@ promise
 require
 (
 "
-promise
+devtools
+/
+toolkit
+/
+deprecated
+-
+sync
+-
+thenables
 "
 )
 ;
