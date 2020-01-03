@@ -2726,10 +2726,15 @@ SystemAllocPolicy
 >
 TypeList
 ;
+template
+<
+class
+TypeListT
+>
 bool
 enumerateTypes
 (
-TypeList
+TypeListT
 *
 list
 )

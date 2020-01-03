@@ -1163,10 +1163,7 @@ HashNumber
 HashTypeList
 (
 const
-TypeSet
-:
-:
-TypeList
+TempTypeList
 &
 types
 )
@@ -6932,6 +6929,9 @@ off
 OptimizationTypeInfo
 typeInfo
 (
+alloc
+(
+)
 kind
 mirType
 )
@@ -7029,6 +7029,9 @@ off
 OptimizationTypeInfo
 typeInfo
 (
+alloc
+(
+)
 kind
 MIRType_Object
 )
