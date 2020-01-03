@@ -2445,7 +2445,7 @@ don
 t
 need
 prefix
-snprintf
+PR_snprintf
 (
 command
 COMMAND_SIZE
@@ -2459,7 +2459,7 @@ cmd
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 COMMAND_SIZE

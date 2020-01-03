@@ -136,6 +136,13 @@ h
 "
 #
 include
+"
+prprf
+.
+h
+"
+#
+include
 <
 android
 /
@@ -1991,7 +1998,7 @@ key
 PROPERTY_KEY_MAX
 ]
 ;
-snprintf
+PR_snprintf
 (
 key
 PROPERTY_KEY_MAX
@@ -2018,7 +2025,7 @@ gateway
 "
 )
 ;
-snprintf
+PR_snprintf
 (
 key
 PROPERTY_KEY_MAX
@@ -2045,7 +2052,7 @@ dns1
 "
 )
 ;
-snprintf
+PR_snprintf
 (
 key
 PROPERTY_KEY_MAX
@@ -2676,7 +2683,7 @@ callback
 =
 GET_CURRENT_CALLBACK
 ;
-snprintf
+PR_snprintf
 (
 gCurrentCommand
 .
@@ -2848,7 +2855,7 @@ SDK_VERSION
 16
 )
 {
-snprintf
+PR_snprintf
 (
 (
 char
@@ -2872,7 +2879,7 @@ aCommand
 }
 else
 {
-snprintf
+PR_snprintf
 (
 (
 char
@@ -2994,7 +3001,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -3094,7 +3101,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -3188,7 +3195,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -3439,7 +3446,7 @@ SDK_VERSION
 19
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -3497,7 +3504,7 @@ SDK_VERSION
 16
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -3546,7 +3553,7 @@ get
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -3632,7 +3639,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -3687,7 +3694,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -3909,7 +3916,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -3960,7 +3967,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4008,7 +4015,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4070,7 +4077,7 @@ SDK_VERSION
 16
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4109,7 +4116,7 @@ mLink
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4178,7 +4185,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4271,7 +4278,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4397,7 +4404,7 @@ ip
 prefix
 )
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4465,7 +4472,7 @@ SDK_VERSION
 16
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4481,7 +4488,7 @@ list
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4538,7 +4545,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4882,7 +4889,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -4992,7 +4999,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5050,7 +5057,7 @@ mEnable
 )
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5106,7 +5113,7 @@ Length
 1
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5122,7 +5129,7 @@ DUMMY_COMMAND
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5239,7 +5246,7 @@ Length
 1
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5255,7 +5262,7 @@ DUMMY_COMMAND
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5339,7 +5346,7 @@ started
 kNotFound
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5440,7 +5447,7 @@ IsEmpty
 )
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5479,7 +5486,7 @@ mUsbEndIp
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5535,7 +5542,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5628,7 +5635,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5686,7 +5693,7 @@ SDK_VERSION
 20
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5720,7 +5727,7 @@ mDns2
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5847,7 +5854,7 @@ routing
 table
 exists
 .
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5885,7 +5892,7 @@ mPrefix
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -5997,7 +6004,7 @@ ip
 prefix
 )
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -6035,7 +6042,7 @@ mPrefix
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -6091,7 +6098,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -6203,7 +6210,7 @@ get
 )
 )
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -6416,7 +6423,7 @@ SDK_VERSION
 {
 written
 =
-snprintf
+PR_snprintf
 (
 command
 sizeof
@@ -6444,7 +6451,7 @@ else
 {
 written
 =
-snprintf
+PR_snprintf
 (
 command
 sizeof
@@ -6517,7 +6524,7 @@ i
 int
 ret
 =
-snprintf
+PR_snprintf
 (
 command
 +
@@ -6627,7 +6634,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -6675,7 +6682,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -6723,7 +6730,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -6771,7 +6778,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -7152,7 +7159,7 @@ add
 remove
 "
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -7297,7 +7304,7 @@ get
 )
 )
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -7496,7 +7503,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -7553,7 +7560,7 @@ SDK_VERSION
 20
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -7600,7 +7607,7 @@ mGateway
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -7677,7 +7684,7 @@ SDK_VERSION
 20
 )
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -7724,7 +7731,7 @@ mGateway
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -7795,7 +7802,7 @@ command
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 command
 MAX_COMMAND_SIZE
@@ -9511,7 +9518,7 @@ linkdownReason
 MAX_COMMAND_SIZE
 ]
 ;
-snprintf
+PR_snprintf
 (
 linkdownReason
 MAX_COMMAND_SIZE
@@ -9948,7 +9955,7 @@ dns_prop_key
 PROPERTY_VALUE_MAX
 ]
 ;
-snprintf
+PR_snprintf
 (
 dns_prop_key
 sizeof
@@ -10057,7 +10064,7 @@ num
 PROPERTY_VALUE_MAX
 ]
 ;
-snprintf
+PR_snprintf
 (
 num
 PROPERTY_VALUE_MAX
@@ -11130,7 +11137,7 @@ gateway
 PROPERTY_KEY_MAX
 ]
 ;
-snprintf
+PR_snprintf
 (
 key
 sizeof
