@@ -22493,7 +22493,7 @@ bool
 ContentParent
 :
 :
-RecvFormProcessValue
+RecvKeygenProcessValue
 (
 const
 nsString
@@ -22565,7 +22565,7 @@ bool
 ContentParent
 :
 :
-RecvFormProvideContent
+RecvKeygenProvideContent
 (
 nsString
 *
