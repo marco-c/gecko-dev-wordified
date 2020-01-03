@@ -3358,13 +3358,9 @@ eCaseMatters
 nsLayoutUtils
 :
 :
-HasCurrentAnimations
+HasCurrentTransitions
 (
 this
-nsGkAtoms
-:
-:
-transitionsProperty
 )
 )
 {

@@ -9484,13 +9484,9 @@ if
 nsLayoutUtils
 :
 :
-HasCurrentAnimations
+HasCurrentTransitions
 (
 popupFrame
-nsGkAtoms
-:
-:
-transitionsProperty
 )
 )
 {
