@@ -1006,6 +1006,17 @@ intoleranceReason
 )
 ;
 void
+forgetIntolerance
+(
+const
+nsACString
+&
+hostname
+int16_t
+port
+)
+;
+void
 adjustForTLSIntolerance
 (
 const
