@@ -4610,10 +4610,6 @@ getDoorHangerAnchor
 {
 return
 urlDisplayLayout
-.
-getDoorHangerAnchor
-(
-)
 ;
 }
 public
