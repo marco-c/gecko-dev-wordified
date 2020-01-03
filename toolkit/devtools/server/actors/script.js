@@ -7621,7 +7621,7 @@ resp
 =
 sourceActor
 .
-_setBreakpoint
+setBreakpoint
 (
 location
 )
@@ -12776,7 +12776,7 @@ endLine
 {
 source
 .
-_setBreakpoint
+setBreakpoint
 (
 bpActor
 .
@@ -17027,7 +17027,7 @@ then
 return
 this
 .
-_setBreakpoint
+setBreakpoint
 (
 {
 line
@@ -18139,7 +18139,7 @@ else
 .
 *
 /
-_setBreakpoint
+setBreakpoint
 :
 function
 (
