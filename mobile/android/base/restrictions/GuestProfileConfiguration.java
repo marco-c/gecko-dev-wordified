@@ -240,6 +240,11 @@ about
 :
 config
 "
+"
+about
+:
+addons
+"
 )
 ;
 Override
@@ -325,6 +330,14 @@ return
 false
 ;
 }
+url
+=
+url
+.
+toLowerCase
+(
+)
+;
 for
 (
 String
