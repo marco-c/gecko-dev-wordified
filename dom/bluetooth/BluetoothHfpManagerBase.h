@@ -157,6 +157,14 @@ IsScoConnected
 =
 0
 ;
+virtual
+bool
+IsNrecEnabled
+(
+)
+=
+0
+;
 }
 ;
 #
