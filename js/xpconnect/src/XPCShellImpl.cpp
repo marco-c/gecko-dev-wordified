@@ -2077,6 +2077,11 @@ setCompileAndGo
 (
 true
 )
+.
+setIsRunOnce
+(
+true
+)
 ;
 JS
 :
@@ -5116,6 +5121,11 @@ setCompileAndGo
 (
 true
 )
+.
+setIsRunOnce
+(
+true
+)
 ;
 if
 (
@@ -5358,6 +5368,11 @@ startline
 )
 .
 setCompileAndGo
+(
+true
+)
+.
+setIsRunOnce
 (
 true
 )

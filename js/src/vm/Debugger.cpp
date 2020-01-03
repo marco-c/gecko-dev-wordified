@@ -41590,6 +41590,11 @@ setHasPollutedScope
 true
 )
 .
+setIsRunOnce
+(
+true
+)
+.
 setForEval
 (
 true

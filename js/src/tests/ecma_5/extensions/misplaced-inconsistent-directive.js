@@ -247,6 +247,9 @@ code
 compileAndGo
 :
 true
+isRunOnce
+:
+true
 noScriptRval
 :
 true

@@ -7005,6 +7005,14 @@ aScopeChain
 )
 )
 ;
+aOptions
+-
+>
+setIsRunOnce
+(
+true
+)
+;
 /
 /
 We
