@@ -152,8 +152,8 @@ Import
 common
 head
 .
+{
 let
-(
 commonFile
 =
 do_get_file
@@ -168,8 +168,7 @@ js
 "
 false
 )
-)
-{
+;
 let
 uri
 =

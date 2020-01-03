@@ -315,7 +315,6 @@ false
 )
 ;
 let
-(
 array
 =
 aPropertyListRoot
@@ -326,8 +325,7 @@ get
 Array
 "
 )
-)
-{
+;
 checkValue
 (
 array
@@ -567,15 +565,13 @@ dataAsString
 /
 Dict
 let
-(
 dict
 =
 array
 [
 7
 ]
-)
-{
+;
 checkValue
 (
 dict
@@ -657,8 +653,6 @@ TYPE_INT64
 "
 )
 ;
-}
-}
 }
 function
 readPropertyList

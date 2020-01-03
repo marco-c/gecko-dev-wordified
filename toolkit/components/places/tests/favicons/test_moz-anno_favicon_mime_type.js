@@ -1567,7 +1567,6 @@ image
 png
 .
 let
-(
 channel
 =
 ios
@@ -1603,8 +1602,7 @@ nsIContentPolicy
 .
 TYPE_IMAGE
 )
-)
-{
+;
 channel
 .
 asyncOpen
@@ -1625,7 +1623,6 @@ do_test_pending
 (
 )
 ;
-}
 /
 /
 Test
@@ -1654,8 +1651,6 @@ image
 /
 png
 .
-let
-(
 channel
 =
 ios
@@ -1701,8 +1696,7 @@ nsIContentPolicy
 .
 TYPE_IMAGE
 )
-)
-{
+;
 channel
 .
 asyncOpen
@@ -1723,7 +1717,6 @@ do_test_pending
 (
 )
 ;
-}
 /
 /
 Test
@@ -1744,7 +1737,6 @@ image
 png
 .
 let
-(
 testURI
 =
 uri
@@ -1760,8 +1752,7 @@ org
 /
 "
 )
-)
-{
+;
 /
 /
 Add
@@ -1799,7 +1790,6 @@ now
 Open
 the
 channel
-let
 channel
 =
 ios
@@ -1860,5 +1850,4 @@ do_test_pending
 (
 )
 ;
-}
 }
