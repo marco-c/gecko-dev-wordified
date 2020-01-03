@@ -6229,6 +6229,16 @@ true
 ;
 chatbox
 .
+setAttribute
+(
+"
+large
+"
+true
+)
+;
+chatbox
+.
 addEventListener
 (
 "
