@@ -115,6 +115,10 @@ MPL
 #
 include
 "
+mozilla
+/
+dom
+/
 MobileConnectionInfo
 .
 h
