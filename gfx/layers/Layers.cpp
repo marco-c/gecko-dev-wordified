@@ -5994,9 +5994,12 @@ mChildrenChanged
 (
 false
 )
-mForceDispatchToContentRegion
+mEventRegionsOverride
 (
-false
+EventRegionsOverride
+:
+:
+NoOverride
 )
 {
 mContentFlags
@@ -6828,7 +6831,7 @@ mInheritedXScale
 mInheritedYScale
 mPresShellResolution
 mScaleToResolution
-mForceDispatchToContentRegion
+mEventRegionsOverride
 reinterpret_cast
 <
 uint64_t
@@ -11483,7 +11486,12 @@ get
 }
 if
 (
-mForceDispatchToContentRegion
+mEventRegionsOverride
+&
+EventRegionsOverride
+:
+:
+ForceDispatchToContent
 )
 {
 aStream
