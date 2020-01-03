@@ -366,6 +366,13 @@ aLineNumber
 )
 override
 ;
+virtual
+uint32_t
+GetLineNumber
+(
+)
+override
+;
 enum
 RelValue
 {
