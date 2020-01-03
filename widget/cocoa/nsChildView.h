@@ -3857,6 +3857,12 @@ ConfigureAPZCTreeManager
 override
 ;
 void
+ConfigureAPZControllerThread
+(
+)
+override
+;
+void
 DoRemoteComposition
 (
 const
