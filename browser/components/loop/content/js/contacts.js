@@ -4357,7 +4357,7 @@ mozL10n
 get
 (
 "
-new_contact_phone_placeholder
+new_contact_fxos_phone_placeholder
 "
 )
 )
