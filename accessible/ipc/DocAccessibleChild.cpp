@@ -482,6 +482,14 @@ aID
 )
 const
 {
+if
+(
+!
+aID
+)
+return
+mDoc
+;
 return
 mDoc
 -
