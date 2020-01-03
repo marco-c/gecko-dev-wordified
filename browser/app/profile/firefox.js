@@ -23333,3 +23333,13 @@ ru
 "
 )
 ;
+pref
+(
+"
+view_source
+.
+tab
+"
+true
+)
+;
