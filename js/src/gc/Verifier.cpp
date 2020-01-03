@@ -3275,9 +3275,11 @@ next
 {
 for
 (
-ALL_ALLOC_KINDS
-(
+auto
 kind
+:
+AllAllocKinds
+(
 )
 )
 {

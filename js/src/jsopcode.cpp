@@ -1973,9 +1973,11 @@ lineno
 }
 for
 (
-OBJECT_ALLOC_KINDS
-(
+auto
 thingKind
+:
+ObjectAllocKinds
+(
 )
 )
 {
