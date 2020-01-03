@@ -666,9 +666,6 @@ py
 -
 tlv
 unknownExtensionOID
-\
-/
-/
 1
 .
 3
