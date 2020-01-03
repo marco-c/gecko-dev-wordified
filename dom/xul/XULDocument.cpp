@@ -5415,11 +5415,12 @@ IsEmpty
 (
 )
 )
-PL_DHashTableRemove
-(
 mBroadcasterMap
-&
-aBroadcaster
+-
+>
+RemoveEntry
+(
+entry
 )
 ;
 break
