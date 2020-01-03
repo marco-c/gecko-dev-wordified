@@ -1700,13 +1700,6 @@ FrameMetrics
 :
 NULL_SCROLL_ID
 ;
-float
-scrollbarThumbRatio
-=
-0
-.
-0f
-;
 aBuilder
 -
 >
@@ -1892,7 +1885,9 @@ this
 masterList
 flags
 scrollTargetId
-scrollbarThumbRatio
+GetThumbRatio
+(
+)
 )
 )
 ;
