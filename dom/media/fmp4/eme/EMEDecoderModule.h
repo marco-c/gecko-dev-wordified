@@ -145,9 +145,6 @@ class
 CDMProxy
 ;
 class
-FlushableMediaTaskQueue
-;
-class
 EMEDecoderModule
 :
 public
@@ -289,7 +286,7 @@ queue
 .
 nsRefPtr
 <
-FlushableMediaTaskQueue
+MediaTaskQueue
 >
 mTaskQueue
 ;
