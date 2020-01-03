@@ -602,13 +602,6 @@ SetHasImage
 )
 override
 ;
-virtual
-void
-OnStartDecode
-(
-)
-override
-;
 /
 /
 Whether

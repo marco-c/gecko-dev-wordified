@@ -1789,11 +1789,6 @@ Progress
 aProgress
 )
 ;
-void
-NotifyForDecodeOnlyOnDraw
-(
-)
-;
 /
 *
 *

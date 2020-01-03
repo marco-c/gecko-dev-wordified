@@ -364,13 +364,6 @@ SetHasImage
 override
 ;
 virtual
-void
-OnStartDecode
-(
-)
-override
-;
-virtual
 bool
 NotificationsDeferred
 (
