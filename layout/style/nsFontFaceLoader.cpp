@@ -550,7 +550,7 @@ else
 mUserFontEntry
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 gfxUserFontEntry
 :
@@ -664,7 +664,7 @@ if
 ufe
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 =
 gfxUserFontEntry
@@ -775,7 +775,7 @@ expires
 ufe
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 gfxUserFontEntry
 :
@@ -910,7 +910,7 @@ updateUserFontSet
 ufe
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 gfxUserFontEntry
 :
@@ -1372,7 +1372,7 @@ valid
 /
 /
 after
-OnLoadComplete
+FontDataDownloadComplete
 returns
 .
 /
@@ -1418,11 +1418,8 @@ page
 and
 we
 need
-the
-fontSet
 to
-initiate
-loading
+load
 the
 next
 source
@@ -1433,7 +1430,7 @@ fontUpdate
 mUserFontEntry
 -
 >
-OnLoadComplete
+FontDataDownloadComplete
 (
 aString
 aStringLen
@@ -1543,7 +1540,7 @@ Cancel
 mUserFontEntry
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 gfxUserFontEntry
 :
