@@ -190,7 +190,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 "
 example
 .
@@ -295,7 +295,7 @@ win
 .
 gURLBar
 .
-value
+textValue
 "
 example
 .
@@ -407,7 +407,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 "
 example
 .
@@ -550,7 +550,7 @@ win
 .
 gURLBar
 .
-value
+textValue
 "
 example
 .

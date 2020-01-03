@@ -222,7 +222,7 @@ is
 (
 gURLBar
 .
-_value
+value
 testActionURL
 "
 gURLBar
@@ -239,7 +239,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 testURL
 "
 gURLBar
@@ -295,7 +295,7 @@ is
 (
 gURLBar
 .
-_value
+value
 testActionURL
 "
 gURLBar
@@ -372,7 +372,7 @@ is
 (
 gURLBar
 .
-_value
+value
 testActionURL
 "
 gURLBar
@@ -504,7 +504,7 @@ is
 (
 gURLBar
 .
-_value
+value
 testActionURL
 "
 gURLBar
@@ -521,7 +521,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 testURL
 "
 gURLBar

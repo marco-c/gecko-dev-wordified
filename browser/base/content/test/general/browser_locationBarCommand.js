@@ -323,7 +323,7 @@ aWindow
 .
 gURLBar
 .
-value
+textValue
 TEST_VALUE
 "
 New
