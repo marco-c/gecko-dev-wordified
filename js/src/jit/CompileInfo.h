@@ -999,7 +999,7 @@ osrPc
 script
 -
 >
-getStaticBlockScope
+getStaticScope
 (
 osrPc
 )

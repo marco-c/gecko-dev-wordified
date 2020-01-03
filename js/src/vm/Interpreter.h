@@ -1491,7 +1491,7 @@ scopes
 .
 extern
 void
-UnwindAllScopesInFrame
+UnwindAllScopes
 (
 JSContext
 *

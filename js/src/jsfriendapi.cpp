@@ -2243,7 +2243,7 @@ NoGC
 >
 :
 :
-Function
+FUNCTION
 )
 curr
 =
