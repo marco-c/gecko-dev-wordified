@@ -62,6 +62,8 @@ functools
 import
 wraps
 import
+socket
+import
 sys
 import
 traceback
@@ -265,8 +267,13 @@ kwargs
 except
 (
 MarionetteException
+socket
+.
+error
 IOError
 )
+as
+e
 :
             
 exc
@@ -281,9 +288,25 @@ exc_info
             
 if
 not
-always
+isinstance
+(
+e
+MarionetteException
+)
+or
+type
+(
+e
+)
+is
+MarionetteException
 :
                 
+if
+not
+always
+:
+                    
 check
 (
 )
