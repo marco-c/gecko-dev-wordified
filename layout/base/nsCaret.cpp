@@ -3145,6 +3145,10 @@ true
 if
 (
 mReadOnly
+|
+|
+!
+mVisible
 )
 {
 StopBlinking
