@@ -939,6 +939,8 @@ objAddr
 obj
 )
 {
+/
+*
 if
 (
 !
@@ -980,6 +982,8 @@ String
 obj
 )
 ;
+*
+/
 }
 function
 log
