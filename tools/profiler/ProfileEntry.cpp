@@ -1018,10 +1018,6 @@ mWritePos
 =
 0
 ;
-deleteExpiredStoredMarkers
-(
-)
-;
 }
 #
 define
