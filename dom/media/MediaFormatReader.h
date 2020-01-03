@@ -1480,6 +1480,10 @@ mNumSamplesOutput
 =
 0
 ;
+mSizeOfQueue
+=
+0
+;
 }
 /
 /
