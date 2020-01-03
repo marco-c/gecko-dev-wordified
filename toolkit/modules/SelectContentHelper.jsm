@@ -635,6 +635,11 @@ tagName
 textContent
 :
 textContent
+disabled
+:
+child
+.
+disabled
 /
 /
 We
