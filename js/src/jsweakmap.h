@@ -825,8 +825,7 @@ of
 if
 any
 .
-JSObject
-*
+HeapPtrObject
 memberOf
 ;
 /
