@@ -6037,15 +6037,6 @@ aTime
 )
 {
 }
-~
-InternalProfileTimelineMarker
-(
-)
-{
-delete
-mPayload
-;
-}
 const
 char
 *
@@ -6062,8 +6053,10 @@ mTime
 ;
 nsTArray
 <
+nsAutoPtr
+<
 InternalProfileTimelineMarker
-*
+>
 >
 mProfileTimelineMarkers
 ;
