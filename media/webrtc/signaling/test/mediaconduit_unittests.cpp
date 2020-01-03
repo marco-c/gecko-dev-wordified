@@ -3662,6 +3662,7 @@ VideoSessionConduit
 :
 Create
 nullptr
+false
 &
 mVideoSession
 )
@@ -3710,6 +3711,7 @@ VideoSessionConduit
 :
 Create
 nullptr
+true
 &
 mVideoSession2
 )
@@ -4490,6 +4492,7 @@ VideoSessionConduit
 :
 Create
 nullptr
+true
 &
 videoSession
 )
@@ -6085,6 +6088,7 @@ VideoSessionConduit
 :
 Create
 nullptr
+false
 &
 mVideoSession
 )

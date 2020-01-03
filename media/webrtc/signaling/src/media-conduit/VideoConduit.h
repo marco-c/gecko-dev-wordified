@@ -1408,6 +1408,8 @@ Init
 WebrtcVideoConduit
 *
 other
+bool
+receiving
 )
 ;
 int
