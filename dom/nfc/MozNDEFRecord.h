@@ -262,11 +262,6 @@ TNF
 Empty
 )
 ;
-~
-MozNDEFRecord
-(
-)
-;
 nsISupports
 *
 GetParentObject
@@ -521,6 +516,13 @@ aCx
 JSStructuredCloneReader
 *
 aReader
+)
+;
+protected
+:
+~
+MozNDEFRecord
+(
 )
 ;
 private
