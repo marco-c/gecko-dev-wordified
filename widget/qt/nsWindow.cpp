@@ -5570,7 +5570,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 this
 WidgetMouseEvent
 :

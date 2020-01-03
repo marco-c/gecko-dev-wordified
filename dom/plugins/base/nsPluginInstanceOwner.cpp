@@ -11830,7 +11830,7 @@ t
 synthesize
 anything
 for
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 since
 that
 /
@@ -12043,7 +12043,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 |
 |
 anEvent
@@ -12388,7 +12388,7 @@ case
 NS_MOUSE_CLICK
 :
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 /
 /
@@ -13497,7 +13497,7 @@ case
 NS_MOUSE_CLICK
 :
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 /
 /

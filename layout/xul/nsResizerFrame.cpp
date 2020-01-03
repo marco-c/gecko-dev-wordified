@@ -2038,7 +2038,7 @@ break
 ;
 }
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 if
 (

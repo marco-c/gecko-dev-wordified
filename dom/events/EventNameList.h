@@ -1053,7 +1053,7 @@ cuechange
 EVENT
 (
 dblclick
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 EventNameType_HTMLXUL
 eMouseEventClass
 )

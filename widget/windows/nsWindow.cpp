@@ -28780,7 +28780,7 @@ aEventMessage
 )
 {
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 event
 .
@@ -29139,7 +29139,7 @@ break
 break
 ;
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 switch
 (
@@ -35347,7 +35347,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 wParam
 lParam
 false
@@ -35425,7 +35425,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 wParam
 lParam
 false
@@ -35509,7 +35509,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 0
 lParamToClient
 (
@@ -35590,7 +35590,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 wParam
 lParam
 false
@@ -35674,7 +35674,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 0
 lParamToClient
 (
@@ -35894,7 +35894,7 @@ WM_NCLBUTTONDBLCLK
 :
 DispatchMouseEvent
 (
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 0
 lParamToClient
 (

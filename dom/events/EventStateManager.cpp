@@ -27701,7 +27701,7 @@ aEvent
 mFlags
 .
 mIsTrusted
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 aEvent
 -
 >

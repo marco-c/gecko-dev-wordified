@@ -20745,9 +20745,9 @@ NS_MOUSE_CLICK
 ;
 _ASSIGN_eventName
 (
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 "
-NS_MOUSE_DBLCLICK
+eMouseDoubleClick
 "
 )
 ;

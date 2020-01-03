@@ -5564,7 +5564,7 @@ event
 mMessage
 !
 =
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 )
 #
 endif

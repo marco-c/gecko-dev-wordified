@@ -1691,7 +1691,7 @@ case
 eMouseDown
 :
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 case
 NS_MOUSE_CLICK
