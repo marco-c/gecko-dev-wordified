@@ -6130,6 +6130,7 @@ comp
 >
 putStubCode
 (
+cx
 stubKey
 newStubCode
 )
