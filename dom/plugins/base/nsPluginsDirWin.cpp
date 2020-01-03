@@ -470,7 +470,7 @@ StringFileInfo
 \
 \
 %
-s
+ls
 "
 ;
 WCHAR
