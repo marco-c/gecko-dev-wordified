@@ -7424,6 +7424,10 @@ GetBounds
 aTile
 .
 mUpdateRect
+=
+aTile
+.
+mUpdateRect
 .
 Union
 (
