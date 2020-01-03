@@ -3171,6 +3171,10 @@ AssertCurrentThreadIn
 ;
 return
 mDecodedStream
+.
+GetData
+(
+)
 ;
 }
 /
@@ -7345,10 +7349,7 @@ holding
 the
 monitor
 .
-nsAutoPtr
-<
-DecodedStreamData
->
+DecodedStream
 mDecodedStream
 ;
 /
