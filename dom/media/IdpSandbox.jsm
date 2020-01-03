@@ -1636,6 +1636,9 @@ crypto
 '
 rtcIdentityProvider
 '
+'
+fetch
+'
 ]
 }
 )
