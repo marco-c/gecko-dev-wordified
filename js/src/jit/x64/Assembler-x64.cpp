@@ -1295,7 +1295,7 @@ table
 .
 masm
 .
-align
+haltingAlign
 (
 SizeOfJumpTableEntry
 )

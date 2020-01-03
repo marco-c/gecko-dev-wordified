@@ -11443,7 +11443,7 @@ mir
 ;
 masm
 .
-align
+haltingAlign
 (
 sizeof
 (
