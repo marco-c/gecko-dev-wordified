@@ -128,17 +128,8 @@ true
 )
 ;
 #
-if
-defined
-(
-NIGHTLY_BUILD
-)
-|
-|
-defined
-(
-MOZ_DEV_EDITION
-)
+ifdef
+RELEASE_BUILD
 pref
 (
 "
@@ -148,7 +139,7 @@ tls
 .
 unrestricted_rc4_fallback
 "
-false
+true
 )
 ;
 #
@@ -162,7 +153,7 @@ tls
 .
 unrestricted_rc4_fallback
 "
-true
+false
 )
 ;
 #
