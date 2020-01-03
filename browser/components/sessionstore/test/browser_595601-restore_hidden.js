@@ -232,6 +232,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 registerCleanupFunction
 (
 function
