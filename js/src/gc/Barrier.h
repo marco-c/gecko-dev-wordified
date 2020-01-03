@@ -3381,7 +3381,7 @@ or
 before
 the
 containing
-obect
+object
 becomes
 part
 of
