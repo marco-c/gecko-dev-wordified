@@ -1564,6 +1564,16 @@ aPDU
 nsresult
 PackPDU
 (
+BluetoothTransport
+aIn
+BluetoothDaemonPDU
+&
+aPDU
+)
+;
+nsresult
+PackPDU
+(
 ControlPlayStatus
 aIn
 BluetoothDaemonPDU
