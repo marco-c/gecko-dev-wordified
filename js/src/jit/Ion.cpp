@@ -12384,7 +12384,7 @@ MOZ_ASSERT
 frame
 -
 >
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 )

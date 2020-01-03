@@ -28589,7 +28589,7 @@ interpFrame
 )
 -
 >
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 )
@@ -28598,6 +28598,7 @@ fprintf
 stderr
 "
 debugger
+eval
 "
 )
 ;

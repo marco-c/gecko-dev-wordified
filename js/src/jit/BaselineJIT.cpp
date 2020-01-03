@@ -416,7 +416,7 @@ if
 fp
 -
 >
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 )

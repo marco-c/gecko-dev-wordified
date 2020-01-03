@@ -1331,7 +1331,7 @@ const
 ;
 inline
 bool
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 const
@@ -2077,7 +2077,7 @@ frame
 .
 *
 /
-DEBUGGER
+DEBUGGER_EVAL
 =
 0x8
 CONSTRUCTING
@@ -2460,17 +2460,17 @@ eval
 in
 -
 frame
-DEBUGGER
+DEBUGGER_EVAL
 frame
 the
 frame
 in
 whose
 scope
+*
 we
 '
 re
-*
 evaluating
 code
 .
@@ -5476,7 +5476,7 @@ USE_NEW_TYPE
 ;
 }
 bool
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 const
@@ -5487,7 +5487,7 @@ return
 (
 flags_
 &
-DEBUGGER
+DEBUGGER_EVAL
 )
 ;
 }

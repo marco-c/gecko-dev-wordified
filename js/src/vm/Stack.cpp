@@ -658,7 +658,7 @@ nullptr
 MOZ_ASSERT_IF
 (
 evalInFramePrev
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 )
@@ -1707,7 +1707,7 @@ isDirectEvalFrame
 {
 if
 (
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 )
@@ -1778,7 +1778,7 @@ bindings
 /
 if
 (
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 )
@@ -4833,7 +4833,7 @@ interpFrame
 )
 -
 >
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 &
