@@ -783,6 +783,16 @@ format
 ;
 if
 (
+!
+size
+)
+{
+return
+false
+;
+}
+if
+(
 IsSameProcess
 (
 )
