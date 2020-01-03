@@ -1964,13 +1964,11 @@ cx
 /
 *
 *
-Reuse
+Use
 the
-API
--
-only
-JSPROP_INDEX
+reserved
 attribute
+bit
 to
 mean
 shadowability
@@ -1980,7 +1978,7 @@ shadowability
 #
 define
 JSPROP_SHADOWABLE
-JSPROP_INDEX
+JSPROP_INTERNAL_USE_BIT
 /
 *
 *
