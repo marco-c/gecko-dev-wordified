@@ -321,8 +321,8 @@ on
 with
 mWorkerPrivateCondVar
 .
-bool
-mOtherThreadDispatchingViaEventTarget
+uint32_t
+mOtherThreadsDispatchingViaEventTarget
 ;
 /
 /
