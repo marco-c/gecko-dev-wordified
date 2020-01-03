@@ -3339,8 +3339,8 @@ if
 (
 !
 mAudioTrack
-|
-|
+&
+&
 !
 mVideoTrack
 )
