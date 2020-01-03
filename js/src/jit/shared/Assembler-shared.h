@@ -3934,8 +3934,6 @@ Scalar
 :
 :
 Uint8Clamped
-Float32x4
-Int32x4
 }
 ;
 private
@@ -4126,8 +4124,6 @@ uint32_t
 offset
 uint8_t
 after
-ViewType
-viewType
 uint32_t
 cmp
 =
@@ -4159,7 +4155,11 @@ offset
 )
 viewType_
 (
-viewType
+ViewType
+(
+-
+1
+)
 )
 loadedReg_
 (
