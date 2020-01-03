@@ -141,6 +141,9 @@ class
 nsIDocument
 ;
 class
+nsIGlobalObject
+;
+class
 nsIURI
 ;
 namespace
@@ -449,6 +452,14 @@ InitFromChannel
 nsIChannel
 *
 aChannel
+)
+;
+void
+InitFromChromeGlobal
+(
+nsIGlobalObject
+*
+aGlobal
 )
 ;
 void
