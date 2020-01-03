@@ -293,7 +293,7 @@ organizer
 .
 gEditItemOverlay
 .
-initialized
+_initialized
 "
 gEditItemOverlay
 is
