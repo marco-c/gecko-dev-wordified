@@ -986,8 +986,11 @@ nor
 be
 deallocated
 .
+DebugOnly
+<
 PRThread
 *
+>
 thread
 =
 PR_CreateThread
