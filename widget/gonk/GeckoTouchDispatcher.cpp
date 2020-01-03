@@ -550,7 +550,7 @@ TouchResampling
 gfxPrefs
 :
 :
-FrameUniformityHWVsyncEnabled
+HardwareVsyncEnabled
 (
 )
 ;
