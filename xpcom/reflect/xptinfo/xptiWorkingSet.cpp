@@ -173,6 +173,17 @@ MOZ_COUNT_CTOR
 xptiWorkingSet
 )
 ;
+fprintf
+(
+stderr
+"
+Working
+set
+\
+n
+"
+)
+;
 gXPTIStructArena
 =
 XPT_NewArena
