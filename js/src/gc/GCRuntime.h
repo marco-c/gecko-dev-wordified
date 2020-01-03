@@ -6919,8 +6919,6 @@ shouldCompact
 IncrementalProgress
 compactPhase
 (
-bool
-lastGC
 JS
 :
 :
