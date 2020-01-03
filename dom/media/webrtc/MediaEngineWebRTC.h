@@ -854,7 +854,7 @@ override
 }
 ;
 class
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 public
 MediaEngineAudioSource
@@ -868,7 +868,7 @@ MediaConstraintsHelper
 {
 public
 :
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 (
 nsIThread
 *
@@ -1226,7 +1226,7 @@ override
 protected
 :
 ~
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 (
 )
 {
@@ -1692,7 +1692,7 @@ mVideoSources
 nsRefPtrHashtable
 <
 nsStringHashKey
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 >
 mAudioSources
 ;
