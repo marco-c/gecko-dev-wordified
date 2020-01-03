@@ -181,6 +181,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 nsAlgorithm
 .
 h
@@ -19624,10 +19631,7 @@ mColor
 ColorPattern
 colorPatt
 (
-nsLayoutUtils
-:
-:
-NSColorToColor
+ToDeviceColor
 (
 color
 )

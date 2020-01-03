@@ -156,6 +156,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 LookAndFeel
 .
 h
@@ -17443,12 +17450,9 @@ aOutPattern
 >
 InitColorPattern
 (
-ToColor
-(
-gfxRGBA
+ToDeviceColor
 (
 mColor
-)
 )
 )
 ;

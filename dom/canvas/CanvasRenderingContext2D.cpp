@@ -1447,10 +1447,7 @@ mPattern
 .
 InitColorPattern
 (
-Color
-:
-:
-FromABGR
+ToDeviceColor
 (
 state
 .

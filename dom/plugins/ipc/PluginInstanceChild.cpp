@@ -17546,6 +17546,14 @@ ToColor
 aColor
 )
 )
+/
+/
+aColor
+is
+already
+a
+device
+color
 DrawOptions
 (
 1
