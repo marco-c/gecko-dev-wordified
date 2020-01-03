@@ -1024,11 +1024,16 @@ source
 code
 line
 number
+and
+column
+number
 where
 the
 Event
 Source
 object
+/
+/
 was
 constructed
 .
@@ -1078,6 +1083,9 @@ mScriptFile
 ;
 uint32_t
 mScriptLine
+;
+uint32_t
+mScriptColumn
 ;
 uint64_t
 mInnerWindowID
