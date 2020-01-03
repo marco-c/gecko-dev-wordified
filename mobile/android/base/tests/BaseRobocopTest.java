@@ -458,10 +458,6 @@ Actions
 mActions
 ;
 protected
-Activity
-mActivity
-;
-protected
 String
 mProfile
 ;
@@ -964,12 +960,6 @@ setActivityIntent
 intent
 )
 ;
-mActivity
-=
-getActivity
-(
-)
-;
 /
 /
 Set
@@ -980,6 +970,13 @@ solo
 and
 Driver
 objects
+Activity
+tempActivity
+=
+getActivity
+(
+)
+;
 mSolo
 =
 new
@@ -988,7 +985,7 @@ Solo
 getInstrumentation
 (
 )
-mActivity
+tempActivity
 )
 ;
 mDriver
@@ -996,7 +993,7 @@ mDriver
 new
 FennecNativeDriver
 (
-mActivity
+tempActivity
 mSolo
 mRootPath
 )
@@ -1006,7 +1003,7 @@ mActions
 new
 FennecNativeActions
 (
-mActivity
+tempActivity
 mSolo
 getInstrumentation
 (
