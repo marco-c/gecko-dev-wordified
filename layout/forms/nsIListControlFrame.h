@@ -296,7 +296,8 @@ aGrabMouseEvents
 *
 Returns
 the
-height
+block
+size
 of
 a
 single
@@ -312,7 +313,8 @@ the
 maximum
 of
 the
-heights
+block
+sizes
 of
 all
 the
@@ -324,7 +326,7 @@ optgroups
 /
 virtual
 nscoord
-GetHeightOfARow
+GetBSizeOfARow
 (
 )
 =

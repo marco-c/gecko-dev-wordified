@@ -5609,15 +5609,15 @@ return
 false
 if
 computed
-height
+bsize
 /
 min
 -
-height
+bsize
 /
 max
 -
-height
+bsize
 *
 should
 NOT
@@ -5636,7 +5636,7 @@ this
 /
 virtual
 bool
-ShouldPropagateComputedHeightToScrolledContent
+ShouldPropagateComputedBSizeToScrolledContent
 (
 )
 const

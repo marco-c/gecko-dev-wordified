@@ -2942,7 +2942,7 @@ ComputedMaxBSize
 if
 (
 !
-ShouldPropagateComputedHeightToScrolledContent
+ShouldPropagateComputedBSizeToScrolledContent
 (
 )
 )

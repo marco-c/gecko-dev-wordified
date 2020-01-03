@@ -538,7 +538,7 @@ override
 ;
 virtual
 bool
-ShouldPropagateComputedHeightToScrolledContent
+ShouldPropagateComputedBSizeToScrolledContent
 (
 )
 const
@@ -668,7 +668,7 @@ override
 ;
 virtual
 nscoord
-GetHeightOfARow
+GetBSizeOfARow
 (
 )
 override
@@ -1132,13 +1132,16 @@ Function
 to
 calculate
 the
-height
+block
+size
+of
 a
 row
 for
 use
 with
 the
+*
 "
 size
 "
@@ -1162,7 +1165,7 @@ const
 *
 /
 nscoord
-CalcHeightOfARow
+CalcBSizeOfARow
 (
 )
 ;
@@ -1866,7 +1869,8 @@ guess
 at
 a
 row
-height
+block
+size
 based
 on
 our
@@ -1874,7 +1878,7 @@ own
 style
 .
 nscoord
-CalcFallbackRowHeight
+CalcFallbackRowBSize
 (
 float
 aFontSizeInflation
@@ -1886,15 +1890,16 @@ CalcIntrinsicBSize
 computes
 our
 intrinsic
-height
+block
+size
 (
 taking
 the
+/
+/
 "
 size
 "
-/
-/
 attribute
 into
 account
@@ -1906,6 +1911,8 @@ only
 be
 called
 in
+/
+/
 non
 -
 dropdown
@@ -1915,7 +1922,7 @@ nscoord
 CalcIntrinsicBSize
 (
 nscoord
-aHeightOfARow
+aBSizeOfARow
 int32_t
 aNumberOfOptions
 )
@@ -2162,7 +2169,7 @@ GetScrolledFrame
 protected
 :
 nscoord
-HeightOfARow
+BSizeOfARow
 (
 )
 {
@@ -2172,7 +2179,7 @@ GetOptionsContainer
 )
 -
 >
-HeightOfARow
+BSizeOfARow
 (
 )
 ;
@@ -2413,7 +2420,8 @@ mForceSelection
 The
 last
 computed
-height
+block
+size
 we
 reflowed
 at
@@ -2423,6 +2431,8 @@ we
 re
 a
 combobox
+/
+/
 dropdown
 .
 /
@@ -2450,7 +2460,7 @@ on
 listboxes
 ?
 nscoord
-mLastDropdownComputedHeight
+mLastDropdownComputedBSize
 ;
 /
 /
