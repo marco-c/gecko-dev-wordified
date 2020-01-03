@@ -3432,13 +3432,6 @@ CreateCompositor
 override
 ;
 virtual
-bool
-IsMultiProcessWindow
-(
-)
-override
-;
-virtual
 void
 PrepareWindowEffects
 (
