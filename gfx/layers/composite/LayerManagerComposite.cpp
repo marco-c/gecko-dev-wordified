@@ -4137,6 +4137,14 @@ gfxPrefs
 LayersDump
 (
 )
+|
+|
+profiler_feature_active
+(
+"
+layersdump
+"
+)
 )
 {
 this
