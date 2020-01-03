@@ -2887,7 +2887,7 @@ filter
 (
 this
 .
-isAboutPreferences
+isNotAboutPreferences
 )
 ;
 }
@@ -2912,7 +2912,7 @@ about
 preferences
 *
 /
-isAboutPreferences
+isNotAboutPreferences
 :
 function
 (
@@ -2930,6 +2930,8 @@ linkedBrowser
 currentURI
 .
 spec
+.
+startsWith
 !
 =
 "
