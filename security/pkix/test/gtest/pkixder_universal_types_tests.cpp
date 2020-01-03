@@ -325,8 +325,6 @@ using
 namespace
 std
 ;
-namespace
-{
 class
 pkixder_universal_types_tests
 :
@@ -8505,8 +8503,3 @@ expectedOID
 )
 ;
 }
-}
-/
-/
-unnamed
-namespace
