@@ -972,7 +972,7 @@ which
 has
 its
 specified
-gbroup
+group
 .
 This
 *
@@ -1197,7 +1197,8 @@ After
 creating
 an
 object
-tobjects
+the
+objects
 for
 which
 /
