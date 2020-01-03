@@ -16842,14 +16842,10 @@ enclosingScope
 ;
 MOZ_ASSERT
 (
-!
-enclosing
-.
-is
-<
-ScopeObject
->
+IsValidTerminatingScope
 (
+&
+enclosing
 )
 )
 ;
