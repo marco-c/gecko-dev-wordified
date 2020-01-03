@@ -1447,20 +1447,6 @@ uint32_t
 length
 )
 {
-JS
-:
-:
-Zone
-*
-zone
-=
-this
--
->
-zone
-(
-)
-;
 HeapSlot
 *
 fixedStart
@@ -1512,7 +1498,6 @@ sp
 >
 set
 (
-zone
 this
 HeapSlot
 :
@@ -1548,7 +1533,6 @@ sp
 >
 set
 (
-zone
 this
 HeapSlot
 :
