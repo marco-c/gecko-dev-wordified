@@ -388,6 +388,25 @@ TEST_DIRS
 TOOL_DIRS
 '
     
+#
+XXX
+config
+/
+Makefile
+.
+in
+specifies
+this
+in
+a
+make
+invocation
+    
+#
+'
+USE_EXTENSION_MANIFEST
+'
+    
 '
 XPCSHELL_TESTS
 '
