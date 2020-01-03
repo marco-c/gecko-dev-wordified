@@ -1686,11 +1686,6 @@ extern
 bool
 gXPCOMThreadsShutDown
 ;
-extern
-char16_t
-*
-gGREPath
-;
 /
 /
 Needed
@@ -1703,6 +1698,11 @@ off
 the
 main
 thread
+extern
+char16_t
+*
+gGREBinPath
+;
 namespace
 mozilla
 {
