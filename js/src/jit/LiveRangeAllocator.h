@@ -3923,8 +3923,9 @@ type
 bool
 moveInput
 (
-CodePosition
-pos
+LInstruction
+*
+ins
 LiveInterval
 *
 from
@@ -3966,7 +3967,7 @@ moves
 =
 getInputMoveGroup
 (
-pos
+ins
 )
 ;
 return
@@ -3982,8 +3983,9 @@ type
 bool
 moveAfter
 (
-CodePosition
-pos
+LInstruction
+*
+ins
 LiveInterval
 *
 from
@@ -4025,7 +4027,7 @@ moves
 =
 getMoveGroupAfter
 (
-pos
+ins
 )
 ;
 return

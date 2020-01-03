@@ -597,8 +597,9 @@ b
 bool
 moveInputAlloc
 (
-CodePosition
-pos
+LInstruction
+*
+ins
 LAllocation
 *
 from
