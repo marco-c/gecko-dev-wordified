@@ -333,7 +333,7 @@ nscolor
 sButtonHoverText
 ;
 nscolor
-sFrameBackground
+sButtonBackground
 ;
 nscolor
 sFrameOuterLightBorder
