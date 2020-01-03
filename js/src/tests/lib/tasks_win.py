@@ -77,6 +77,7 @@ ProgressBar
 from
 results
 import
+NullTestOutput
 TestOutput
 from
 threading
@@ -104,6 +105,7 @@ qTasks
 qResults
 qWatch
 prefix
+run_skipped
 timeout
 )
 :
@@ -149,6 +151,28 @@ EndMarker
 )
             
 return
+        
+if
+not
+test
+.
+enable
+and
+not
+run_skipped
+:
+            
+qResults
+.
+put
+(
+NullTestOutput
+(
+test
+)
+)
+            
+continue
         
 #
 Spawn
@@ -536,6 +560,10 @@ qResults
 qWatch
                                                
 prefix
+options
+.
+run_skipped
+                                               
 options
 .
 timeout
