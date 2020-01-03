@@ -696,7 +696,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -710,7 +710,7 @@ optdata
 (
 GXV_mort_subtable_type2_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -842,7 +842,7 @@ FT_UShort
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_UShort
@@ -870,7 +870,7 @@ optdata
 (
 GXV_mort_subtable_type2_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -1004,7 +1004,7 @@ l
 buff
 6
 table_size
-valid
+gxvalid
 )
 ;
 GXV_TRACE
@@ -1184,7 +1184,7 @@ table
 FT_UShort
 ligActionOffset
 GXV_Validator
-valid
+gxvalid
 )
 {
 /
@@ -1199,7 +1199,7 @@ optdata
 (
 GXV_mort_subtable_type2_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -1581,7 +1581,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 #
@@ -1671,7 +1671,7 @@ gxv_mort_subtable_type2_ligActionOffset_validate
 (
 table
 offset
-valid
+gxvalid
 )
 ;
 }
@@ -1682,7 +1682,7 @@ gxv_mort_subtable_type2_ligatureTable_validate
 FT_Bytes
 table
 GXV_Validator
-valid
+gxvalid
 )
 {
 GXV_mort_subtable_type2_StateOptRecData
@@ -1691,7 +1691,7 @@ optdata
 (
 GXV_mort_subtable_type2_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -1782,7 +1782,7 @@ p
 ;
 if
 (
-valid
+gxvalid
 -
 >
 face
@@ -1813,7 +1813,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -1843,7 +1843,7 @@ GXV_LIMIT_CHECK
 GXV_MORT_SUBTABLE_TYPE2_HEADER_SIZE
 )
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1853,7 +1853,7 @@ optdata
 &
 lig_rec
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1862,7 +1862,7 @@ optdata_load_func
 =
 gxv_mort_subtable_type2_opttable_load
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1871,7 +1871,7 @@ subtable_setup_func
 =
 gxv_mort_subtable_type2_subtable_setup
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1880,7 +1880,7 @@ entry_glyphoffset_fmt
 =
 GXV_GLYPHOFFSET_NONE
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1893,13 +1893,13 @@ gxv_StateTable_validate
 (
 p
 limit
-valid
+gxvalid
 )
 ;
 p
 +
 =
-valid
+gxvalid
 -
 >
 subtable_length
@@ -1907,10 +1907,10 @@ subtable_length
 gxv_mort_subtable_type2_ligatureTable_validate
 (
 table
-valid
+gxvalid
 )
 ;
-valid
+gxvalid
 -
 >
 subtable_length

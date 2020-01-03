@@ -113,6 +113,7 @@ only
 Copyright
 2008
 2013
+2014
 by
 *
 /
@@ -482,6 +483,15 @@ outlines
 if
 possible
 .
+*
+*
+order
+:
+*
+FT_Get_Advance
+*
+FT_Get_Advances
+*
 *
 /
 /

@@ -125,6 +125,7 @@ Copyright
 -
 2010
 2013
+2014
 by
 *
 /
@@ -791,6 +792,15 @@ Mac
 PS
 glyph
 names
+;
+see
+file
+tools
+/
+glnames
+.
+py
+'
 *
 /
 static
@@ -818,7 +828,7 @@ notdef
 null
 "
 "
-CR
+nonmarkingreturn
 "
 "
 space
@@ -1413,7 +1423,7 @@ guillemotright
 ellipsis
 "
 "
-nbspace
+nonbreakingspace
 "
 "
 Agrave
@@ -1687,7 +1697,7 @@ gbreve
 *
 /
 "
-Idot
+Idotaccent
 "
 "
 Scedilla
@@ -1708,7 +1718,7 @@ Ccaron
 ccaron
 "
 "
-dmacron
+dcroat
 "
 }
 ;

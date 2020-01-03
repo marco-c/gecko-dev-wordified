@@ -681,7 +681,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -695,7 +695,7 @@ optdata
 (
 GXV_mort_subtable_type1_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -740,7 +740,7 @@ FT_UShort
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_UShort
@@ -768,7 +768,7 @@ optdata
 (
 GXV_mort_subtable_type1_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -847,7 +847,7 @@ l
 buff
 4
 table_size
-valid
+gxvalid
 )
 ;
 }
@@ -864,7 +864,7 @@ tag
 FT_Byte
 state
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_UShort
@@ -891,7 +891,7 @@ GXV_mort_subtable_type1_StateOptRec
 *
 )
 (
-valid
+gxvalid
 -
 >
 statetable
@@ -917,7 +917,7 @@ GXV_mort_subtable_type1_StateOptRec
 *
 )
 (
-valid
+gxvalid
 -
 >
 statetable
@@ -930,7 +930,7 @@ optdata
 substitutionTable_length
 )
 ;
-valid
+gxvalid
 -
 >
 min_gid
@@ -950,7 +950,7 @@ wordOffset
 2
 )
 ;
-valid
+gxvalid
 -
 >
 max_gid
@@ -970,7 +970,7 @@ wordOffset
 2
 )
 ;
-valid
+gxvalid
 -
 >
 max_gid
@@ -981,11 +981,11 @@ FT_UShort
 (
 FT_MAX
 (
-valid
+gxvalid
 -
 >
 max_gid
-valid
+gxvalid
 -
 >
 face
@@ -1033,7 +1033,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 #
@@ -1175,7 +1175,7 @@ markOffset
 markOffset
 "
 state
-valid
+gxvalid
 )
 ;
 gxv_mort_subtable_type1_offset_to_subst_validate
@@ -1185,7 +1185,7 @@ currentOffset
 currentOffset
 "
 state
-valid
+gxvalid
 )
 ;
 }
@@ -1198,7 +1198,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -1219,7 +1219,7 @@ GXV_mort_subtable_type1_StateOptRec
 *
 )
 (
-valid
+gxvalid
 -
 >
 statetable
@@ -1290,13 +1290,13 @@ if
 (
 dst_gid
 <
-valid
+gxvalid
 -
 >
 min_gid
 |
 |
-valid
+gxvalid
 -
 >
 max_gid
@@ -1340,11 +1340,11 @@ n
 "
 i
 dst_gid
-valid
+gxvalid
 -
 >
 min_gid
-valid
+gxvalid
 -
 >
 max_gid
@@ -1403,7 +1403,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -1434,7 +1434,7 @@ GXV_LIMIT_CHECK
 GXV_MORT_SUBTABLE_TYPE1_HEADER_SIZE
 )
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1444,7 +1444,7 @@ optdata
 &
 st_rec
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1453,7 +1453,7 @@ optdata_load_func
 =
 gxv_mort_subtable_type1_substitutionTable_load
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1462,7 +1462,7 @@ subtable_setup_func
 =
 gxv_mort_subtable_type1_subtable_setup
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1471,7 +1471,7 @@ entry_glyphoffset_fmt
 =
 GXV_GLYPHOFFSET_ULONG
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1484,7 +1484,7 @@ gxv_StateTable_validate
 (
 p
 limit
-valid
+gxvalid
 )
 ;
 gxv_mort_subtable_type1_substTable_validate
@@ -1503,7 +1503,7 @@ substitutionTable
 st_rec
 .
 substitutionTable_length
-valid
+gxvalid
 )
 ;
 GXV_EXIT

@@ -675,7 +675,7 @@ fonts
 enum
 :
 *
-FT_PropertyType
+BDF_PropertyType
 *
 *
 description

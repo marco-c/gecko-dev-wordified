@@ -1756,7 +1756,7 @@ n
 char
 )
 (
-0xff
+0xFF
 &
 (
 tag_internal
@@ -1769,7 +1769,7 @@ tag_internal
 char
 )
 (
-0xff
+0xFF
 &
 (
 tag_internal
@@ -1782,7 +1782,7 @@ tag_internal
 char
 )
 (
-0xff
+0xFF
 &
 (
 tag_internal
@@ -1795,7 +1795,7 @@ tag_internal
 char
 )
 (
-0xff
+0xFF
 &
 (
 tag_internal

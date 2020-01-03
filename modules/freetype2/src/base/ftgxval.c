@@ -118,6 +118,7 @@ Copyright
 2006
 2010
 2013
+2014
 by
 *
 /
@@ -572,10 +573,8 @@ Exit
 }
 if
 (
+!
 tables
-=
-=
-NULL
 )
 {
 error
@@ -702,10 +701,8 @@ Exit
 }
 if
 (
+!
 ckern_table
-=
-=
-NULL
 )
 {
 error

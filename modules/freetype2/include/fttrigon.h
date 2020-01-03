@@ -1998,8 +1998,7 @@ angle
 :
 *
 The
-address
-of
+input
 angle
 .
 *
@@ -2136,8 +2135,7 @@ angle
 :
 *
 The
-address
-of
+input
 angle
 .
 *

@@ -106,7 +106,7 @@ FT_ANGLE_2PI
 i
 +
 =
-0x10000
+0x10000L
 )
 {
 FT_Fixed
@@ -231,7 +231,7 @@ FT_ANGLE_2PI
 i
 +
 =
-0x10000
+0x10000L
 )
 {
 FT_Fixed
@@ -353,12 +353,12 @@ i
 <
 FT_ANGLE_PI2
 -
-0x2000000
+0x2000000L
 ;
 i
 +
 =
-0x10000
+0x10000L
 )
 {
 FT_Fixed
@@ -483,7 +483,7 @@ FT_ANGLE_2PI
 i
 +
 =
-0x10000
+0x10000L
 )
 {
 FT_Fixed
@@ -658,7 +658,7 @@ FT_ANGLE_2PI
 i
 +
 =
-0x10000
+0x10000L
 )
 {
 FT_Vector
@@ -838,7 +838,7 @@ FT_ANGLE_2PI
 i
 +
 =
-0x10000
+0x10000L
 )
 {
 FT_Vector
@@ -999,7 +999,7 @@ FT_ANGLE_2PI
 rotate
 +
 =
-0x10000
+0x10000L
 )
 {
 double
@@ -1043,7 +1043,7 @@ FT_ANGLE_2PI
 i
 +
 =
-0x10000
+0x10000L
 )
 {
 FT_Fixed

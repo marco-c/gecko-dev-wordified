@@ -118,6 +118,7 @@ Copyright
 2003
 2006
 2008
+2014
 by
 *
 /
@@ -1201,7 +1202,7 @@ recorder
 /
 FT_LOCAL
 (
-FT_Error
+void
 )
 ps_hints_init
 (

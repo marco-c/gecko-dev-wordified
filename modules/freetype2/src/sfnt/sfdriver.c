@@ -577,7 +577,7 @@ tag
 )
 {
 case
-ft_sfnt_head
+FT_SFNT_HEAD
 :
 table
 =
@@ -590,7 +590,7 @@ header
 break
 ;
 case
-ft_sfnt_hhea
+FT_SFNT_HHEA
 :
 table
 =
@@ -603,7 +603,7 @@ horizontal
 break
 ;
 case
-ft_sfnt_vhea
+FT_SFNT_VHEA
 :
 table
 =
@@ -618,12 +618,12 @@ face
 >
 vertical
 :
-0
+NULL
 ;
 break
 ;
 case
-ft_sfnt_os2
+FT_SFNT_OS2
 :
 table
 =
@@ -637,7 +637,7 @@ version
 =
 0xFFFFU
 ?
-0
+NULL
 :
 &
 face
@@ -648,7 +648,7 @@ os2
 break
 ;
 case
-ft_sfnt_post
+FT_SFNT_POST
 :
 table
 =
@@ -661,7 +661,7 @@ postscript
 break
 ;
 case
-ft_sfnt_maxp
+FT_SFNT_MAXP
 :
 table
 =
@@ -674,7 +674,7 @@ max_profile
 break
 ;
 case
-ft_sfnt_pclt
+FT_SFNT_PCLT
 :
 table
 =
@@ -691,7 +691,7 @@ face
 >
 pclt
 :
-0
+NULL
 ;
 break
 ;
@@ -699,7 +699,7 @@ default
 :
 table
 =
-0
+NULL
 ;
 }
 return
@@ -1966,7 +1966,7 @@ module_interface
 /
 *
 SFNT_SERVICES_GET
-derefers
+dereferences
 library
 '
 in

@@ -110,6 +110,7 @@ Copyright
 2001
 2002
 2003
+2014
 by
 *
 /
@@ -1225,7 +1226,7 @@ org_width
 endif
 FT_LOCAL
 (
-FT_Error
+void
 )
 psh_globals_set_scale
 (

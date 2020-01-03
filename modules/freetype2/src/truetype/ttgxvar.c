@@ -108,7 +108,7 @@ loader
 Copyright
 2004
 -
-2013
+2014
 by
 *
 /
@@ -7053,6 +7053,8 @@ cvt
 =
 NULL
 ;
+error
+=
 tt_face_load_cvt
 (
 face
@@ -7101,6 +7103,8 @@ any
 .
 *
 /
+error
+=
 tt_face_vary_cvt
 (
 face

@@ -118,7 +118,8 @@ Copyright
 2008
 2010
 2012
-2013
+-
+2014
 by
 *
 /
@@ -2635,6 +2636,17 @@ if
 (
 !
 target
+|
+|
+!
+source
+|
+|
+!
+source
+-
+>
+clazz
 )
 {
 error
@@ -2651,7 +2663,7 @@ Exit
 *
 target
 =
-0
+NULL
 ;
 if
 (
@@ -2800,7 +2812,7 @@ FT_Glyph_Class
 *
 clazz
 =
-0
+NULL
 ;
 if
 (
@@ -3498,7 +3510,7 @@ clazz
 /
 *
 FT_BITMAP_GLYPH_CLASS_GET
-derefers
+dereferences
 library
 '
 in

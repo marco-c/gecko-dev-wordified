@@ -439,7 +439,7 @@ otv_BaseCoord_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -558,7 +558,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 break
@@ -578,7 +578,7 @@ otv_BaseTagList_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -647,7 +647,7 @@ otv_BaseValues_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -736,7 +736,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 OTV_EXIT
@@ -749,7 +749,7 @@ otv_MinMax_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -841,7 +841,7 @@ otv_BaseCoord_validate
 table
 +
 MinCoord
-valid
+otvalid
 )
 ;
 OTV_SIZE_CHECK
@@ -858,7 +858,7 @@ otv_BaseCoord_validate
 table
 +
 MaxCoord
-valid
+otvalid
 )
 ;
 OTV_LIMIT_CHECK
@@ -920,7 +920,7 @@ otv_BaseCoord_validate
 table
 +
 MinCoord
-valid
+otvalid
 )
 ;
 OTV_SIZE_CHECK
@@ -937,7 +937,7 @@ otv_BaseCoord_validate
 table
 +
 MaxCoord
-valid
+otvalid
 )
 ;
 }
@@ -951,7 +951,7 @@ otv_BaseScript_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1043,7 +1043,7 @@ otv_BaseValues_validate
 table
 +
 BaseValues
-valid
+otvalid
 )
 ;
 OTV_SIZE_CHECK
@@ -1060,7 +1060,7 @@ otv_MinMax_validate
 table
 +
 DefaultMinMax
-valid
+otvalid
 )
 ;
 OTV_LIMIT_CHECK
@@ -1106,7 +1106,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 }
@@ -1120,7 +1120,7 @@ otv_BaseScriptList_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1215,7 +1215,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 }
@@ -1229,7 +1229,7 @@ otv_Axis_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1280,7 +1280,7 @@ otv_BaseTagList_validate
 table
 +
 BaseTagList
-valid
+otvalid
 )
 ;
 /
@@ -1296,7 +1296,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 OTV_EXIT
@@ -1315,13 +1315,13 @@ ftvalid
 )
 {
 OTV_ValidatorRec
-validrec
+otvalidrec
 ;
 OTV_Validator
-valid
+otvalid
 =
 &
-validrec
+otvalidrec
 ;
 FT_Bytes
 p
@@ -1341,7 +1341,7 @@ OTV_OPTIONAL_TABLE
 VertAxis
 )
 ;
-valid
+otvalid
 -
 >
 root
@@ -1408,7 +1408,7 @@ otv_Axis_validate
 table
 +
 HorizAxis
-valid
+otvalid
 )
 ;
 OTV_OPTIONAL_OFFSET
@@ -1430,7 +1430,7 @@ otv_Axis_validate
 table
 +
 VertAxis
-valid
+otvalid
 )
 ;
 FT_TRACE4

@@ -123,6 +123,7 @@ Copyright
 2008
 2010
 2013
+2014
 by
 *
 /
@@ -591,7 +592,7 @@ precision
 )
 0x80
 /
-0xff
+0xFF
 fraction
 of
 that

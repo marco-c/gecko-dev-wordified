@@ -158,6 +158,7 @@ Copyright
 2007
 2009
 2012
+2014
 by
 *
 /
@@ -714,7 +715,7 @@ aglobals
 )
 ;
 typedef
-FT_Error
+void
 (
 *
 PSH_Globals_SetScaleFunc

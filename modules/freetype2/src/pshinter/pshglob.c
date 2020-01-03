@@ -129,7 +129,8 @@ Copyright
 2006
 2010
 2012
-2013
+-
+2014
 by
 *
 /
@@ -4717,7 +4718,7 @@ error
 }
 FT_LOCAL_DEF
 (
-FT_Error
+void
 )
 psh_globals_set_scale
 (
@@ -4851,9 +4852,6 @@ y_delta
 )
 ;
 }
-return
-0
-;
 }
 FT_LOCAL_DEF
 (

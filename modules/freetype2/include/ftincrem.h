@@ -111,9 +111,10 @@ Copyright
 2002
 2003
 2006
-2007
+-
 2008
 2010
+2014
 by
 *
 /
@@ -490,6 +491,7 @@ by
 the
 client
 application
+.
 *
 *
 Apart

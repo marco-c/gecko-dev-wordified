@@ -539,7 +539,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -553,7 +553,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -567,7 +567,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -581,7 +581,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -595,7 +595,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 #

@@ -115,7 +115,8 @@ Copyright
 -
 2008
 2012
-2013
+-
+2014
 by
 *
 /
@@ -2748,7 +2749,7 @@ service_id
 /
 *
 PSCMAPS_SERVICES_GET
-derefers
+dereferences
 library
 '
 in

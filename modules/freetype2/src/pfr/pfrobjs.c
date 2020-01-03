@@ -116,6 +116,7 @@ Copyright
 -
 2011
 2013
+2014
 by
 *
 /
@@ -329,6 +330,9 @@ FT_OUTLINE_H
 #
 include
 FT_INTERNAL_DEBUG_H
+#
+include
+FT_INTERNAL_CALC_H
 #
 include
 FT_TRUETYPE_IDS_H
@@ -3883,14 +3887,11 @@ pair_size
 FT_UInt
 power
 =
+1
+<
+<
+FT_MSB
 (
-FT_UInt
-)
-ft_highpow2
-(
-(
-FT_UInt32
-)
 count
 )
 ;

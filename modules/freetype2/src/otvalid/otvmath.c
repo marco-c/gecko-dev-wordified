@@ -798,7 +798,7 @@ otv_MathConstants_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -919,7 +919,7 @@ otv_Device_validate
 table
 +
 DeviceTableOffset
-valid
+otvalid
 )
 ;
 }
@@ -1288,7 +1288,7 @@ otv_MathItalicsCorrectionInfo_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 FT_Int
 isItalic
 )
@@ -1383,7 +1383,7 @@ otv_Coverage_validate
 table
 +
 Coverage
-valid
+otvalid
 cnt
 )
 ;
@@ -1433,7 +1433,7 @@ otv_Device_validate
 table
 +
 DeviceTableOffset
-valid
+otvalid
 )
 ;
 }
@@ -1785,7 +1785,7 @@ otv_MathKern_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1894,7 +1894,7 @@ otv_Device_validate
 table
 +
 DeviceTableOffset
-valid
+otvalid
 )
 ;
 }
@@ -1954,7 +1954,7 @@ otv_Device_validate
 table
 +
 DeviceTableOffset
-valid
+otvalid
 )
 ;
 }
@@ -1968,7 +1968,7 @@ otv_MathKernInfo_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2041,7 +2041,7 @@ otv_Coverage_validate
 table
 +
 Coverage
-valid
+otvalid
 cnt
 )
 ;
@@ -2094,7 +2094,7 @@ otv_MathKern_validate
 table
 +
 MKRecordOffset
-valid
+otvalid
 )
 ;
 }
@@ -2448,7 +2448,7 @@ otv_MathGlyphInfo_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2513,7 +2513,7 @@ otv_MathItalicsCorrectionInfo_validate
 table
 +
 MathItalicsCorrectionInfo
-valid
+otvalid
 TRUE
 )
 ;
@@ -2540,7 +2540,7 @@ otv_MathItalicsCorrectionInfo_validate
 table
 +
 MathTopAccentAttachment
-valid
+otvalid
 FALSE
 )
 ;
@@ -2561,7 +2561,7 @@ otv_Coverage_validate
 table
 +
 ExtendedShapeCoverage
-valid
+otvalid
 -
 1
 )
@@ -2578,7 +2578,7 @@ otv_MathKernInfo_validate
 table
 +
 MathKernInfo
-valid
+otvalid
 )
 ;
 OTV_EXIT
@@ -2930,7 +2930,7 @@ otv_GlyphAssembly_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -3021,7 +3021,7 @@ otv_Device_validate
 table
 +
 DeviceTableOffset
-valid
+otvalid
 )
 ;
 for
@@ -3054,7 +3054,7 @@ if
 gid
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -3095,7 +3095,7 @@ otv_MathGlyphConstruction_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -3188,7 +3188,7 @@ if
 gid
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -3222,7 +3222,7 @@ otv_GlyphAssembly_validate
 table
 +
 GlyphAssembly
-valid
+otvalid
 )
 ;
 /
@@ -3239,7 +3239,7 @@ otv_MathVariants_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -3354,7 +3354,7 @@ otv_Coverage_validate
 table
 +
 VCoverage
-valid
+otvalid
 vcnt
 )
 ;
@@ -3372,7 +3372,7 @@ otv_Coverage_validate
 table
 +
 HCoverage
-valid
+otvalid
 hcnt
 )
 ;
@@ -3406,7 +3406,7 @@ otv_MathGlyphConstruction_validate
 table
 +
 Offset
-valid
+otvalid
 )
 ;
 }
@@ -3440,7 +3440,7 @@ otv_MathGlyphConstruction_validate
 table
 +
 Offset
-valid
+otvalid
 )
 ;
 }
@@ -3788,7 +3788,7 @@ TABLE
 /
 *
 sets
-valid
+otvalid
 -
 >
 glyph_count
@@ -3809,13 +3809,13 @@ ftvalid
 )
 {
 OTV_ValidatorRec
-validrec
+otvalidrec
 ;
 OTV_Validator
-valid
+otvalid
 =
 &
-validrec
+otvalidrec
 ;
 FT_Bytes
 p
@@ -3827,7 +3827,7 @@ MathConstants
 MathGlyphInfo
 MathVariants
 ;
-valid
+otvalid
 -
 >
 root
@@ -3892,7 +3892,7 @@ FT_NEXT_USHORT
 p
 )
 ;
-valid
+otvalid
 -
 >
 glyph_count
@@ -3904,7 +3904,7 @@ otv_MathConstants_validate
 table
 +
 MathConstants
-valid
+otvalid
 )
 ;
 otv_MathGlyphInfo_validate
@@ -3912,7 +3912,7 @@ otv_MathGlyphInfo_validate
 table
 +
 MathGlyphInfo
-valid
+otvalid
 )
 ;
 otv_MathVariants_validate
@@ -3920,7 +3920,7 @@ otv_MathVariants_validate
 table
 +
 MathVariants
-valid
+otvalid
 )
 ;
 FT_TRACE4

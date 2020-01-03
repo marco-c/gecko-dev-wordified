@@ -595,7 +595,7 @@ machine
 )
 /
 *
-0x014c
+0x014C
 -
 i386
 *
@@ -622,7 +622,7 @@ magic32
 )
 /
 *
-0x10b
+0x10B
 *
 /
 FT_FRAME_SKIP_BYTES
@@ -2087,7 +2087,7 @@ pe32_header
 machine
 !
 =
-0x014c
+0x014C
 /
 *
 i386
@@ -2100,7 +2100,7 @@ pe32_header
 size_of_optional_header
 !
 =
-0xe0
+0xE0
 /
 *
 FIXME
@@ -2113,7 +2113,7 @@ pe32_header
 magic32
 !
 =
-0x10b
+0x10B
 )
 {
 FT_TRACE2
@@ -2932,6 +2932,8 @@ fnt_cmap_init
 (
 FNT_CMap
 cmap
+FT_Pointer
+pointer
 )
 {
 FNT_Face
@@ -2952,6 +2954,11 @@ face
 -
 >
 font
+;
+FT_UNUSED
+(
+pointer
+)
 ;
 cmap
 -
@@ -4730,7 +4737,7 @@ error
 =
 FT_THROW
 (
-Invalid_Argument
+Invalid_Face_Handle
 )
 ;
 goto

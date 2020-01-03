@@ -324,6 +324,8 @@ pfr_cmap_init
 (
 PFR_CMap
 cmap
+FT_Pointer
+pointer
 )
 {
 FT_Error
@@ -340,6 +342,11 @@ PFR_Face
 FT_CMAP_FACE
 (
 cmap
+)
+;
+FT_UNUSED
+(
+pointer
 )
 ;
 cmap

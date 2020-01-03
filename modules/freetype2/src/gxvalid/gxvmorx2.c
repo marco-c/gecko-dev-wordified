@@ -697,7 +697,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -711,7 +711,7 @@ optdata
 (
 GXV_morx_subtable_type2_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 xstatetable
@@ -843,7 +843,7 @@ FT_ULong
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_ULong
@@ -871,7 +871,7 @@ optdata
 (
 GXV_morx_subtable_type2_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1005,7 +1005,7 @@ l
 buff
 6
 table_size
-valid
+gxvalid
 )
 ;
 GXV_TRACE
@@ -1189,7 +1189,7 @@ table
 FT_UShort
 ligActionIndex
 GXV_Validator
-valid
+gxvalid
 )
 {
 /
@@ -1204,7 +1204,7 @@ optdata
 (
 GXV_morx_subtable_type2_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1433,7 +1433,7 @@ offset
 /
 gid_limit
 =
-valid
+gxvalid
 -
 >
 face
@@ -1505,7 +1505,7 @@ offset
 )
 =
 =
-0x0000000UL
+0x00000000UL
 )
 {
 /
@@ -1521,7 +1521,7 @@ FT_Long
 )
 offset
 <
-valid
+gxvalid
 -
 >
 face
@@ -1625,7 +1625,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 #
@@ -1761,7 +1761,7 @@ gxv_morx_subtable_type2_ligActionIndex_validate
 (
 table
 ligActionIndex
-valid
+gxvalid
 )
 ;
 }
@@ -1772,7 +1772,7 @@ gxv_morx_subtable_type2_ligatureTable_validate
 FT_Bytes
 table
 GXV_Validator
-valid
+gxvalid
 )
 {
 GXV_morx_subtable_type2_StateOptRecData
@@ -1781,7 +1781,7 @@ optdata
 (
 GXV_morx_subtable_type2_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1874,7 +1874,7 @@ if
 (
 lig_gid
 <
-valid
+gxvalid
 -
 >
 face
@@ -1903,7 +1903,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -1933,7 +1933,7 @@ GXV_LIMIT_CHECK
 GXV_MORX_SUBTABLE_TYPE2_HEADER_SIZE
 )
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1943,7 +1943,7 @@ optdata
 &
 lig_rec
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1952,7 +1952,7 @@ optdata_load_func
 =
 gxv_morx_subtable_type2_opttable_load
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1961,7 +1961,7 @@ subtable_setup_func
 =
 gxv_morx_subtable_type2_subtable_setup
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1970,7 +1970,7 @@ entry_glyphoffset_fmt
 =
 GXV_GLYPHOFFSET_USHORT
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1983,7 +1983,7 @@ gxv_XStateTable_validate
 (
 p
 limit
-valid
+gxvalid
 )
 ;
 #
@@ -1992,7 +1992,7 @@ if
 p
 +
 =
-valid
+gxvalid
 -
 >
 subtable_length
@@ -2002,7 +2002,7 @@ endif
 gxv_morx_subtable_type2_ligatureTable_validate
 (
 table
-valid
+gxvalid
 )
 ;
 GXV_EXIT

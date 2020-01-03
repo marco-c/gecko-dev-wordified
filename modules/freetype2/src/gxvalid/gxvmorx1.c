@@ -684,7 +684,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -698,7 +698,7 @@ optdata
 (
 GXV_morx_subtable_type1_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 xstatetable
@@ -743,7 +743,7 @@ FT_ULong
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_ULong
@@ -771,7 +771,7 @@ optdata
 (
 GXV_morx_subtable_type1_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 xstatetable
@@ -850,7 +850,7 @@ l
 buff
 4
 table_size
-valid
+gxvalid
 )
 ;
 }
@@ -869,7 +869,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 #
@@ -898,7 +898,7 @@ optdata
 (
 GXV_morx_subtable_type1_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1126,7 +1126,7 @@ glyph
 GXV_LookupValueCPtr
 value_p
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_UNUSED
@@ -1178,7 +1178,7 @@ value_p
 >
 u
 >
-valid
+gxvalid
 -
 >
 face
@@ -1200,7 +1200,7 @@ base_value_p
 FT_Bytes
 lookuptbl_limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -1245,7 +1245,7 @@ FT_UShort
 ;
 p
 =
-valid
+gxvalid
 -
 >
 lookuptbl_head
@@ -1296,7 +1296,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -1313,7 +1313,7 @@ optdata
 (
 GXV_morx_subtable_type1_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1333,21 +1333,21 @@ each
 lookupTables
 *
 /
-valid
+gxvalid
 -
 >
 lookupval_sign
 =
 GXV_LOOKUPVALUE_UNSIGNED
 ;
-valid
+gxvalid
 -
 >
 lookupval_func
 =
 gxv_morx_subtable_type1_LookupValue_validate
 ;
-valid
+gxvalid
 -
 >
 lookupfmt4_trans
@@ -1393,7 +1393,7 @@ table
 +
 offset
 limit
-valid
+gxvalid
 )
 ;
 }
@@ -1450,7 +1450,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -1487,7 +1487,7 @@ substitutionTable_num_lookupTables
 =
 0
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1497,7 +1497,7 @@ optdata
 &
 st_rec
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1506,7 +1506,7 @@ optdata_load_func
 =
 gxv_morx_subtable_type1_substitutionTable_load
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1515,7 +1515,7 @@ subtable_setup_func
 =
 gxv_morx_subtable_type1_subtable_setup
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1524,7 +1524,7 @@ entry_glyphoffset_fmt
 =
 GXV_GLYPHOFFSET_ULONG
 ;
-valid
+gxvalid
 -
 >
 xstatetable
@@ -1537,7 +1537,7 @@ gxv_XStateTable_validate
 (
 p
 limit
-valid
+gxvalid
 )
 ;
 gxv_morx_subtable_type1_substitutionTable_validate
@@ -1556,7 +1556,7 @@ substitutionTable
 st_rec
 .
 substitutionTable_length
-valid
+gxvalid
 )
 ;
 GXV_EXIT

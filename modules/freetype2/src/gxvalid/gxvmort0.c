@@ -768,7 +768,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_UShort
@@ -1127,7 +1127,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -1156,7 +1156,7 @@ GXV_LIMIT_CHECK
 GXV_STATETABLE_HEADER_SIZE
 )
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1165,7 +1165,7 @@ optdata
 =
 NULL
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1174,7 +1174,7 @@ optdata_load_func
 =
 NULL
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1183,7 +1183,7 @@ subtable_setup_func
 =
 NULL
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1192,7 +1192,7 @@ entry_glyphoffset_fmt
 =
 GXV_GLYPHOFFSET_NONE
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -1205,7 +1205,7 @@ gxv_StateTable_validate
 (
 p
 limit
-valid
+gxvalid
 )
 ;
 GXV_EXIT

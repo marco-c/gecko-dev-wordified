@@ -117,6 +117,7 @@ Copyright
 2009
 2011
 2013
+2014
 by
 *
 /
@@ -3412,10 +3413,6 @@ font_info
 .
 italic_angle
 ;
-break
-;
-default
-:
 break
 ;
 }

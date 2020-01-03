@@ -1232,7 +1232,6 @@ table
 level
 *
 /
-register
 uInt
 i
 ;
@@ -1243,7 +1242,6 @@ current
 code
 *
 /
-register
 uInt
 j
 ;
@@ -1252,7 +1250,6 @@ j
 counter
 *
 /
-register
 int
 k
 ;
@@ -1304,7 +1301,6 @@ on
 HP
 *
 /
-register
 uIntf
 *
 p
@@ -1363,7 +1359,6 @@ table
 stack
 *
 /
-register
 int
 w
 ;

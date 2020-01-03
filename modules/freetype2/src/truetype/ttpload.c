@@ -3199,15 +3199,12 @@ is
 0xFFFF
 +
 2
-;
-this
-is
+thus
 *
 /
 /
 *
-the
-reason
+explaining
 why
 record_size
 '
@@ -3233,6 +3230,7 @@ In
 practice
 two
 bytes
+are
 *
 /
 /
@@ -3355,6 +3353,11 @@ num_records
 record_size
 >
 0x10001L
+|
+|
+record_size
+<
+4
 )
 {
 error

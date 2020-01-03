@@ -117,6 +117,7 @@ Copyright
 2010
 2011
 2013
+2014
 by
 *
 /
@@ -368,6 +369,9 @@ face
 >
 phy_font
 ;
+(
+void
+)
 pfr_face_get_kerning
 (
 pfrface
@@ -736,7 +740,7 @@ return
 FT_Err_Ok
 ;
 }
-FT_CALLBACK_TABLE_DEF
+static
 const
 FT_Service_PfrMetricsRec
 pfr_metrics_service_rec

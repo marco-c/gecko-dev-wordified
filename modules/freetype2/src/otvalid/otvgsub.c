@@ -776,7 +776,7 @@ TYPE
 /
 *
 uses
-valid
+otvalid
 -
 >
 glyph_count
@@ -789,7 +789,7 @@ otv_SingleSubst_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -882,7 +882,7 @@ p
 otv_Coverage_validate
 (
 Coverage
-valid
+otvalid
 -
 1
 )
@@ -921,7 +921,7 @@ FT_UInt
 idx
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -985,7 +985,7 @@ otv_Coverage_validate
 table
 +
 Coverage
-valid
+otvalid
 GlyphCount
 )
 ;
@@ -1020,7 +1020,7 @@ p
 )
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -1381,7 +1381,7 @@ TYPE
 /
 *
 sets
-valid
+otvalid
 -
 >
 extra1
@@ -1398,7 +1398,7 @@ otv_MultipleSubst_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1452,12 +1452,12 @@ SubstFormat
 case
 1
 :
-valid
+otvalid
 -
 >
 extra1
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -1471,7 +1471,7 @@ Sequence
 OTV_RUN
 (
 table
-valid
+otvalid
 )
 ;
 break
@@ -1827,7 +1827,7 @@ TYPE
 /
 *
 sets
-valid
+otvalid
 -
 >
 extra1
@@ -1844,7 +1844,7 @@ otv_AlternateSubst_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1898,12 +1898,12 @@ SubstFormat
 case
 1
 :
-valid
+otvalid
 -
 >
 extra1
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -1917,7 +1917,7 @@ AlternateSet
 OTV_RUN
 (
 table
-valid
+otvalid
 )
 ;
 break
@@ -2277,7 +2277,7 @@ otv_Ligature_validate
 /
 *
 uses
-valid
+otvalid
 -
 >
 glyph_count
@@ -2290,7 +2290,7 @@ otv_Ligature_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2321,7 +2321,7 @@ if
 LigatureGlyph
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -2399,7 +2399,7 @@ otv_LigatureSubst_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2463,7 +2463,7 @@ Ligature
 OTV_RUN
 (
 table
-valid
+otvalid
 )
 ;
 break
@@ -2819,7 +2819,7 @@ TYPE
 /
 *
 sets
-valid
+otvalid
 -
 >
 extra1
@@ -2836,7 +2836,7 @@ otv_ContextSubst_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2927,12 +2927,12 @@ meaningful
 results
 *
 /
-valid
+otvalid
 -
 >
 extra1
 =
-valid
+otvalid
 -
 >
 lookup_count
@@ -2947,7 +2947,7 @@ SubRule
 OTV_RUN
 (
 table
-valid
+otvalid
 )
 ;
 break
@@ -3002,7 +3002,7 @@ SubClassRule
 OTV_RUN
 (
 table
-valid
+otvalid
 )
 ;
 break
@@ -3018,7 +3018,7 @@ ContextSubstFormat3
 OTV_RUN
 (
 table
-valid
+otvalid
 )
 ;
 break
@@ -3374,7 +3374,7 @@ TYPE
 /
 *
 sets
-valid
+otvalid
 -
 >
 extra1
@@ -3391,7 +3391,7 @@ otv_ChainContextSubst_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -3482,12 +3482,12 @@ meaningful
 results
 *
 /
-valid
+otvalid
 -
 >
 extra1
 =
-valid
+otvalid
 -
 >
 lookup_count
@@ -3502,7 +3502,7 @@ ChainSubRule
 OTV_RUN
 (
 table
-valid
+otvalid
 )
 ;
 break
@@ -3557,7 +3557,7 @@ ChainSubClassRule
 OTV_RUN
 (
 table
-valid
+otvalid
 )
 ;
 break
@@ -3573,7 +3573,7 @@ ChainContextSubstFormat3
 OTV_RUN
 (
 table
-valid
+otvalid
 )
 ;
 break
@@ -3929,7 +3929,7 @@ TYPE
 /
 *
 uses
-valid
+otvalid
 -
 >
 type_funcs
@@ -3942,7 +3942,7 @@ otv_ExtensionSubst_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -4052,7 +4052,7 @@ FT_INVALID_DATA
 ;
 validate
 =
-valid
+otvalid
 -
 >
 type_funcs
@@ -4067,7 +4067,7 @@ validate
 table
 +
 ExtensionOffset
-valid
+otvalid
 )
 ;
 }
@@ -4424,7 +4424,7 @@ TYPE
 /
 *
 uses
-valid
+otvalid
 -
 >
 glyph_count
@@ -4437,7 +4437,7 @@ otv_ReverseChainSingleSubst_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -4543,7 +4543,7 @@ BacktrackGlyphCount
 otv_Coverage_validate
 (
 Coverage
-valid
+otvalid
 -
 1
 )
@@ -4576,7 +4576,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 -
 1
 )
@@ -4633,7 +4633,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 -
 1
 )
@@ -4705,7 +4705,7 @@ p
 )
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -5082,7 +5082,7 @@ TABLE
 /
 *
 sets
-valid
+otvalid
 -
 >
 type_count
@@ -5091,7 +5091,7 @@ type_count
 /
 *
 sets
-valid
+otvalid
 -
 >
 type_funcs
@@ -5100,7 +5100,7 @@ type_funcs
 /
 *
 sets
-valid
+otvalid
 -
 >
 glyph_count
@@ -5121,13 +5121,13 @@ ftvalid
 )
 {
 OTV_ValidatorRec
-validrec
+otvalidrec
 ;
 OTV_Validator
-valid
+otvalid
 =
 &
-validrec
+otvalidrec
 ;
 FT_Bytes
 p
@@ -5139,7 +5139,7 @@ ScriptList
 FeatureList
 LookupList
 ;
-valid
+otvalid
 -
 >
 root
@@ -5204,14 +5204,14 @@ FT_NEXT_USHORT
 p
 )
 ;
-valid
+otvalid
 -
 >
 type_count
 =
 8
 ;
-valid
+otvalid
 -
 >
 type_funcs
@@ -5222,7 +5222,7 @@ OTV_Validate_Func
 )
 otv_gsub_validate_funcs
 ;
-valid
+otvalid
 -
 >
 glyph_count
@@ -5234,7 +5234,7 @@ otv_LookupList_validate
 table
 +
 LookupList
-valid
+otvalid
 )
 ;
 otv_FeatureList_validate
@@ -5245,7 +5245,7 @@ FeatureList
 table
 +
 LookupList
-valid
+otvalid
 )
 ;
 otv_ScriptList_validate
@@ -5256,7 +5256,7 @@ ScriptList
 table
 +
 FeatureList
-valid
+otvalid
 )
 ;
 FT_TRACE4

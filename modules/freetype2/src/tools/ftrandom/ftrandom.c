@@ -2322,7 +2322,7 @@ putc
 getRandom
 (
 0
-0xff
+0xFF
 )
 new
 )
@@ -2340,7 +2340,7 @@ putc
 getRandom
 (
 0x20
-0x7e
+0x7E
 )
 new
 )

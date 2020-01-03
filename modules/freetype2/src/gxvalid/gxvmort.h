@@ -615,7 +615,7 @@ limit
 FT_ULong
 nFeatureFlags
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -627,7 +627,7 @@ gxv_mort_coverage_validate
 FT_UShort
 coverage
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -641,7 +641,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -655,7 +655,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -669,7 +669,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -683,7 +683,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -697,7 +697,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 #

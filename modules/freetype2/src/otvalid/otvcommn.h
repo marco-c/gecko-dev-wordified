@@ -113,6 +113,7 @@ Copyright
 2005
 2007
 2009
+2014
 by
 *
 /
@@ -662,7 +663,7 @@ OTV_Validate_Func
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 typedef
@@ -736,20 +737,19 @@ FT_INVALID_
 define
 FT_INVALID_
 (
-_prefix
 _error
 )
 \
 ft_validator_error
 (
-valid
+otvalid
 -
 >
 root
-_prefix
-#
-#
+FT_THROW
+(
 _error
+)
 )
 #
 define
@@ -809,7 +809,7 @@ p
 _count
 )
 >
-valid
+otvalid
 -
 >
 root
@@ -847,7 +847,7 @@ table_size
 \
 if
 (
-valid
+otvalid
 -
 >
 root
@@ -1009,7 +1009,7 @@ x
 \
 FT_BEGIN_STMNT
 \
-valid
+otvalid
 -
 >
 nesting_level
@@ -1017,7 +1017,7 @@ nesting_level
 0
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1031,7 +1031,7 @@ x
 )
 ;
 \
-valid
+otvalid
 -
 >
 debug_function_name
@@ -1056,7 +1056,7 @@ y
 \
 FT_BEGIN_STMNT
 \
-valid
+otvalid
 -
 >
 nesting_level
@@ -1064,7 +1064,7 @@ nesting_level
 0
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1078,7 +1078,7 @@ x
 )
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1092,7 +1092,7 @@ y
 )
 ;
 \
-valid
+otvalid
 -
 >
 debug_function_name
@@ -1106,7 +1106,7 @@ x
 )
 ;
 \
-valid
+otvalid
 -
 >
 debug_function_name
@@ -1132,7 +1132,7 @@ z
 \
 FT_BEGIN_STMNT
 \
-valid
+otvalid
 -
 >
 nesting_level
@@ -1140,7 +1140,7 @@ nesting_level
 0
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1154,7 +1154,7 @@ x
 )
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1168,7 +1168,7 @@ y
 )
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1182,7 +1182,7 @@ z
 )
 ;
 \
-valid
+otvalid
 -
 >
 debug_function_name
@@ -1196,7 +1196,7 @@ x
 )
 ;
 \
-valid
+otvalid
 -
 >
 debug_function_name
@@ -1210,7 +1210,7 @@ y
 )
 ;
 \
-valid
+otvalid
 -
 >
 debug_function_name
@@ -1228,7 +1228,7 @@ FT_END_STMNT
 #
 define
 OTV_INIT
-valid
+otvalid
 -
 >
 debug_indent
@@ -1240,7 +1240,7 @@ OTV_ENTER
 \
 FT_BEGIN_STMNT
 \
-valid
+otvalid
 -
 >
 debug_indent
@@ -1258,7 +1258,7 @@ FT_TRACE4
 .
 s
 "
-valid
+otvalid
 -
 >
 debug_indent
@@ -1278,12 +1278,12 @@ table
 n
 "
 \
-valid
+otvalid
 -
 >
 debug_function_name
 [
-valid
+otvalid
 -
 >
 nesting_level
@@ -1302,7 +1302,7 @@ name
 \
 FT_BEGIN_STMNT
 \
-valid
+otvalid
 -
 >
 debug_indent
@@ -1320,7 +1320,7 @@ FT_TRACE4
 .
 s
 "
-valid
+otvalid
 -
 >
 debug_indent
@@ -1348,7 +1348,7 @@ FT_END_STMNT
 #
 define
 OTV_EXIT
-valid
+otvalid
 -
 >
 debug_indent
@@ -1373,7 +1373,7 @@ FT_TRACE4
 .
 s
 "
-valid
+otvalid
 -
 >
 debug_indent
@@ -1406,7 +1406,7 @@ x
 \
 FT_BEGIN_STMNT
 \
-valid
+otvalid
 -
 >
 nesting_level
@@ -1414,7 +1414,7 @@ nesting_level
 0
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1439,7 +1439,7 @@ y
 \
 FT_BEGIN_STMNT
 \
-valid
+otvalid
 -
 >
 nesting_level
@@ -1447,7 +1447,7 @@ nesting_level
 0
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1461,7 +1461,7 @@ x
 )
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1487,7 +1487,7 @@ z
 \
 FT_BEGIN_STMNT
 \
-valid
+otvalid
 -
 >
 nesting_level
@@ -1495,7 +1495,7 @@ nesting_level
 0
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1509,7 +1509,7 @@ x
 )
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1523,7 +1523,7 @@ y
 )
 ;
 \
-valid
+otvalid
 -
 >
 func
@@ -1605,7 +1605,7 @@ FT_DEBUG_LEVEL_TRACE
 #
 define
 OTV_RUN
-valid
+otvalid
 -
 >
 func
@@ -1959,7 +1959,7 @@ otv_Coverage_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 FT_Int
 expected_count
 )
@@ -2367,7 +2367,7 @@ otv_ClassDef_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 /
@@ -2717,7 +2717,7 @@ otv_Device_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 /
@@ -3066,7 +3066,7 @@ otv_Lookup_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 FT_LOCAL
@@ -3078,7 +3078,7 @@ otv_LookupList_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 /
@@ -3427,7 +3427,7 @@ otv_Feature_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 /
@@ -3450,7 +3450,7 @@ table
 FT_Bytes
 lookups
 OTV_Validator
-valid
+otvalid
 )
 ;
 /
@@ -3800,7 +3800,7 @@ otv_LangSys_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 /
@@ -4149,7 +4149,7 @@ otv_Script_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 /
@@ -4172,7 +4172,7 @@ table
 FT_Bytes
 features
 OTV_Validator
-valid
+otvalid
 )
 ;
 /
@@ -4574,7 +4574,7 @@ otv_x_Ox
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 #
@@ -4614,7 +4614,7 @@ otv_u_C_x_Ox
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 #
@@ -4650,7 +4650,7 @@ otv_x_ux
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 #
@@ -4678,7 +4678,7 @@ otv_x_y_ux_sy
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 #
@@ -4706,7 +4706,7 @@ otv_x_ux_y_uy_z_uz_p_sp
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 #
@@ -4726,7 +4726,7 @@ otv_u_O_O_x_Onx
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 #
@@ -4746,7 +4746,7 @@ otv_u_x_y_Ox_sy
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 #
@@ -4766,7 +4766,7 @@ otv_u_O_O_O_O_x_Onx
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 #
@@ -4786,7 +4786,7 @@ otv_u_x_Ox_y_Oy_z_Oz_p_sp
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 FT_LOCAL

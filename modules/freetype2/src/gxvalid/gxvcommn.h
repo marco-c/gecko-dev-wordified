@@ -114,6 +114,7 @@ Copyright
 2004
 2005
 2012
+2014
 *
 /
 /
@@ -703,7 +704,7 @@ purpose
 define
 IS_PARANOID_VALIDATION
 (
-valid
+gxvalid
 -
 >
 root
@@ -1089,7 +1090,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 /
@@ -1186,7 +1187,7 @@ glyph
 GXV_LookupValueCPtr
 value_p
 GXV_Validator
-valid
+gxvalid
 )
 ;
 typedef
@@ -1203,7 +1204,7 @@ base_value_p
 FT_Bytes
 lookuptbl_limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 /
@@ -1290,7 +1291,7 @@ table
 )
 \
 (
-valid
+gxvalid
 -
 >
 table
@@ -1305,7 +1306,7 @@ table
 )
 \
 (
-valid
+gxvalid
 -
 >
 table
@@ -1441,7 +1442,7 @@ FT_UShort
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 ;
 typedef
@@ -1462,7 +1463,7 @@ statetable_table
 FT_Bytes
 statetable_limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 typedef
@@ -1477,7 +1478,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 typedef
@@ -1596,7 +1597,7 @@ FT_ULong
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 ;
 typedef
@@ -1617,7 +1618,7 @@ xstatetable_table
 FT_Bytes
 xstatetable_limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 typedef
@@ -1807,7 +1808,7 @@ tag
 #
 _Data
 )
-valid
+gxvalid
 -
 >
 table_data
@@ -1823,20 +1824,19 @@ FT_INVALID_
 define
 FT_INVALID_
 (
-_prefix
 _error
 )
 \
 ft_validator_error
 (
-valid
+gxvalid
 -
 >
 root
-_prefix
-#
-#
+FT_THROW
+(
 _error
+)
 )
 #
 define
@@ -1858,7 +1858,7 @@ limit
 ?
 limit
 :
-valid
+gxvalid
 -
 >
 root
@@ -1878,7 +1878,7 @@ FT_DEBUG_LEVEL_TRACE
 #
 define
 GXV_INIT
-valid
+gxvalid
 -
 >
 debug_indent
@@ -1893,7 +1893,7 @@ name
 \
 FT_BEGIN_STMNT
 \
-valid
+gxvalid
 -
 >
 debug_indent
@@ -1911,7 +1911,7 @@ FT_TRACE4
 .
 s
 "
-valid
+gxvalid
 -
 >
 debug_indent
@@ -1939,7 +1939,7 @@ FT_END_STMNT
 #
 define
 GXV_EXIT
-valid
+gxvalid
 -
 >
 debug_indent
@@ -1964,7 +1964,7 @@ FT_TRACE4
 .
 s
 "
-valid
+gxvalid
 -
 >
 debug_indent
@@ -2852,7 +2852,7 @@ b
 *
 b
 <
-0x7e
+0x7E
 )
 \
 FT_TRACE1
@@ -3260,7 +3260,7 @@ FT_UShort
 *
 nUnits_p
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -3274,7 +3274,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 /
@@ -3624,7 +3624,7 @@ gxv_glyphid_validate
 FT_UShort
 gid
 GXV_Validator
-valid
+gxvalid
 )
 ;
 /
@@ -3976,7 +3976,7 @@ gid
 FT_Short
 ctl_point
 GXV_Validator
-valid
+gxvalid
 )
 ;
 /
@@ -4330,7 +4330,7 @@ min_index
 FT_UShort
 max_index
 GXV_Validator
-valid
+gxvalid
 )
 ;
 /
@@ -4695,7 +4695,7 @@ FT_UShort
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -4722,7 +4722,7 @@ FT_ULong
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -4736,7 +4736,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -4750,7 +4750,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 /
@@ -5110,7 +5110,7 @@ FT_Byte
 *
 max
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -5130,7 +5130,7 @@ FT_UShort
 *
 max
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -5154,7 +5154,7 @@ nmemb
 FT_UShort
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 FT_LOCAL
@@ -5178,7 +5178,7 @@ nmemb
 FT_ULong
 limit
 GXV_Validator
-valid
+gxvalid
 )
 ;
 #
@@ -5196,7 +5196,7 @@ if
 _offset
 )
 >
-valid
+gxvalid
 -
 >
 subtable_length
@@ -5224,14 +5224,14 @@ p
 _count
 )
 -
-valid
+gxvalid
 -
 >
 subtable_start
 )
 >
 \
-valid
+gxvalid
 -
 >
 subtable_length
@@ -5700,7 +5700,7 @@ gxv_odtect_validate
 GXV_odtect_Range
 odtect
 GXV_Validator
-valid
+gxvalid
 )
 ;
 #

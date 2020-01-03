@@ -112,7 +112,7 @@ body
 Copyright
 2000
 -
-2013
+2014
 by
 *
 /
@@ -6552,6 +6552,8 @@ outline
 now
 *
 /
+error
+=
 hinter
 -
 >
@@ -6577,6 +6579,13 @@ decoder
 >
 hint_mode
 )
+;
+if
+(
+error
+)
+goto
+Fail
 ;
 }
 /

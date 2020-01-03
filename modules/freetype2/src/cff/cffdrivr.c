@@ -111,7 +111,7 @@ body
 Copyright
 1996
 -
-2013
+2014
 by
 *
 /
@@ -4737,7 +4737,7 @@ result
 /
 *
 CFF_SERVICES_GET
-derefers
+dereferences
 library
 '
 in

@@ -111,7 +111,7 @@ body
 Copyright
 1996
 -
-2013
+2014
 by
 *
 /
@@ -2460,6 +2460,13 @@ tt_size_reset
 ttsize
 )
 ;
+/
+*
+ignore
+return
+value
+*
+/
 }
 else
 {
@@ -3056,7 +3063,7 @@ face
 return
 FT_THROW
 (
-Invalid_Argument
+Invalid_Face_Handle
 )
 ;
 #
@@ -3906,7 +3913,7 @@ sfnt
 /
 *
 TT_SERVICES_GET
-derefers
+dereferences
 library
 '
 in

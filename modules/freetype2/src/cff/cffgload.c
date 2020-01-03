@@ -110,7 +110,7 @@ body
 Copyright
 1996
 -
-2013
+2014
 by
 *
 /
@@ -10728,15 +10728,6 @@ glyph_width
 }
 else
 {
-if
-(
-!
-error
-)
-error
-=
-FT_Err_Ok
-;
 cff_builder_close_contour
 (
 builder
@@ -10790,6 +10781,8 @@ outline
 now
 *
 /
+error
+=
 hinter
 -
 >
@@ -10815,6 +10808,13 @@ decoder
 >
 hint_mode
 )
+;
+if
+(
+error
+)
+goto
+Fail
 ;
 }
 /
@@ -15201,6 +15201,9 @@ widths
 *
 /
 (
+void
+)
+(
 (
 SFNT_Service
 )
@@ -15272,6 +15275,9 @@ if
 has_vertical_info
 )
 {
+(
+void
+)
 (
 (
 SFNT_Service
@@ -16634,6 +16640,9 @@ vertAdvance
 =
 0
 ;
+(
+void
+)
 (
 (
 SFNT_Service
