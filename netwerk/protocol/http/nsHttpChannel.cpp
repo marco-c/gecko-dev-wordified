@@ -32054,16 +32054,6 @@ this
 tp
 )
 ;
-/
-/
-See
-bug
-1122691
-if
-(
-tp
-)
-{
 nsresult
 response
 =
@@ -32100,8 +32090,6 @@ principal
 on
 local
 blocklist
-"
-"
 [
 this
 =
@@ -32117,7 +32105,6 @@ mLocalBlocklist
 =
 true
 ;
-}
 }
 }
 }
