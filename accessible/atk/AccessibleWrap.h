@@ -461,7 +461,6 @@ gAvailableAtkSignals
 uint16_t
 CreateMaiInterfaces
 (
-void
 )
 ;
 }
