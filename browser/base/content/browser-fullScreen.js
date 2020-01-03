@@ -1201,14 +1201,6 @@ window
 is
 refocused
 .
-if
-(
-!
-this
-.
-useLionFullScreen
-)
-{
 window
 .
 addEventListener
@@ -1219,7 +1211,6 @@ activate
 this
 )
 ;
-}
 /
 /
 Cancel
@@ -1374,13 +1365,6 @@ this
 exitDomFullScreen
 )
 ;
-if
-(
-!
-this
-.
-useLionFullScreen
-)
 window
 .
 removeEventListener
