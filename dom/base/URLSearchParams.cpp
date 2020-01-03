@@ -1778,7 +1778,8 @@ AppendPrintf
 %
 %
 %
-X
+.
+2X
 "
 *
 p
