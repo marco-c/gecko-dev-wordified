@@ -477,10 +477,6 @@ nCount
 1
 ;
 }
-mRowIdColumnIndex
-=
-0
-;
 }
 }
 }
