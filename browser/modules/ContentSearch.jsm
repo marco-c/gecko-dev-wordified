@@ -1755,13 +1755,11 @@ priv
 =
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isBrowserPrivate
 (
 msg
 .
 target
-.
-contentWindow
 )
 ;
 /
