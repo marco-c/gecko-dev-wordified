@@ -88,7 +88,7 @@ defaults
 /
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 /
 *
 we
