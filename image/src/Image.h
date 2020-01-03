@@ -1845,6 +1845,11 @@ ImageURL
 aURI
 )
 ;
+~
+ImageResource
+(
+)
+;
 /
 /
 Shared
