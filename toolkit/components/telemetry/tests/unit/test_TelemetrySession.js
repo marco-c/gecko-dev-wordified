@@ -8173,6 +8173,13 @@ clearPendingPings
 (
 )
 ;
+yield
+TelemetrySend
+.
+reset
+(
+)
+;
 PingServer
 .
 clearRequests
