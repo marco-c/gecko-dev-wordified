@@ -1424,6 +1424,7 @@ void
 NotifyDataArrived
 (
 const
+unsigned
 char
 *
 aBuffer
