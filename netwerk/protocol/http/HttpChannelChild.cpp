@@ -178,7 +178,7 @@ include
 "
 mozilla
 /
-dom
+ipc
 /
 FileDescriptorSetChild
 .

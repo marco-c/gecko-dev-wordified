@@ -1098,7 +1098,9 @@ is
 (
 index
 .
-storeName
+objectStore
+.
+name
 objectStore
 .
 name

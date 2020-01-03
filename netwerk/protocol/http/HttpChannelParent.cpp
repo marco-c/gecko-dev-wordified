@@ -133,7 +133,7 @@ include
 "
 mozilla
 /
-dom
+ipc
 /
 FileDescriptorSetParent
 .
