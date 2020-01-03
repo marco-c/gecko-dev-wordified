@@ -456,7 +456,10 @@ void
 DecomposeIntoNoRepeatTriangles
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aTexCoordRect
 const
@@ -480,7 +483,10 @@ false
 /
 normalize
 this
-nsIntRect
+gfx
+:
+:
+IntRect
 tcr
 (
 aTexCoordRect

@@ -336,7 +336,10 @@ GLContext
 *
 mGLContext
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mUpdateRect
 ;
 gfx
