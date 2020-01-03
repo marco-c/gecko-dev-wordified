@@ -118,7 +118,7 @@ _ACCESSIBLE_TEXT_H
 #
 include
 "
-nsISupports
+nsIAccessibleText
 .
 h
 "
