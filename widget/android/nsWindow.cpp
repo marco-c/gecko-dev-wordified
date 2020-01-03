@@ -3612,7 +3612,7 @@ Truncate
 break
 ;
 case
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 :
 MOZ_ASSERT
 (
@@ -9647,7 +9647,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 this
 )
 ;
@@ -10492,7 +10492,7 @@ WidgetTextEvent
 event
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 this
 )
 ;
@@ -11221,7 +11221,7 @@ WidgetTextEvent
 event
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 this
 )
 ;
@@ -11952,7 +11952,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 this
 )
 ;

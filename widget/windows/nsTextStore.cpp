@@ -10139,7 +10139,7 @@ FlushPendingActions
 "
 "
 dispatching
-text
+compositionchange
 event
 .
 .
@@ -10153,7 +10153,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 mWidget
 )
 ;
@@ -10353,7 +10353,7 @@ FlushPendingActions
 "
 "
 dispatching
-text
+compositionchange
 event
 .
 .
@@ -10367,7 +10367,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 mWidget
 )
 ;
@@ -14113,7 +14113,7 @@ be
 /
 sent
 in
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 nsRefPtr
 <
 ITfProperty
@@ -14490,7 +14490,7 @@ least
 one
 range
 to
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 newRange
 .
 mStartOffset
@@ -31648,7 +31648,7 @@ to
 be
 sent
 in
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 not
 just
 the
@@ -31659,15 +31659,15 @@ part
 /
 The
 actual
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 will
 be
 sent
 in
 SetSelection
+/
+/
 or
-/
-/
 OnUpdateComposition
 .
 MOZ_ASSERT

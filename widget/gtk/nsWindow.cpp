@@ -17188,7 +17188,7 @@ event
 Otherwise
 send
 a
-text
+compositionchange
 event
 with
 the
@@ -17196,6 +17196,8 @@ equivalent
 UTF
 -
 16
+/
+/
 string
 .
 if
@@ -17222,7 +17224,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 this
 )
 ;
@@ -33117,7 +33119,7 @@ which
 are
 caused
 by
-text
+compositionchange
 events
 handled
 .

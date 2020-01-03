@@ -4607,7 +4607,7 @@ DispatchTextEvent
 )
 dispatches
 a
-text
+compositionchange
 event
 on
 mWidget

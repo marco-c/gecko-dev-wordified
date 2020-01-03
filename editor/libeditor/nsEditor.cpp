@@ -5884,7 +5884,7 @@ done
 by
 /
 /
-text
+compositionchange
 event
 handler
 .
@@ -29200,10 +29200,8 @@ false
 /
 /
 If
+a
 composition
-event
-or
-text
 event
 isn
 '
@@ -29211,13 +29209,13 @@ t
 dispatched
 via
 widget
-/
-/
 we
 need
 to
 ignore
 them
+/
+/
 since
 they
 cannot
@@ -29226,8 +29224,6 @@ managed
 by
 TextComposition
 .
-/
-/
 E
 .
 g
@@ -29235,6 +29231,8 @@ g
 the
 event
 was
+/
+/
 created
 by
 chrome
@@ -29315,7 +29313,7 @@ return
 false
 ;
 case
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 :
 /
 /
@@ -29323,7 +29321,7 @@ Don
 '
 t
 allow
-text
+compositionchange
 events
 whose
 internal

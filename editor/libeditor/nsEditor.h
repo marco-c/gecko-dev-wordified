@@ -2338,16 +2338,14 @@ EnsureComposition
 )
 should
 be
+called
+by
 composition
 event
 handlers
-or
-text
-event
-*
-handler
 .
 This
+*
 tries
 to
 get
@@ -2360,7 +2358,6 @@ and
 set
 it
 to
-*
 mComposition
 .
 *

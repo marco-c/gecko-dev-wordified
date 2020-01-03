@@ -2558,10 +2558,6 @@ with
 proper
 composition
 events
-and
-a
-text
-event
 .
 /
 /
@@ -6154,7 +6150,9 @@ be
 removed
 by
 following
-text
+/
+/
+compositionchange
 event
 .
 if
@@ -6186,7 +6184,7 @@ selection
 at
 handling
 this
-text
+compositionchange
 event
 .
 WidgetQueryContentEvent
@@ -6236,7 +6234,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 mLastFocusedWindow
 )
 ;
@@ -6351,7 +6349,9 @@ destroyed
 /
 changed
 by
-text
+"
+"
+compositionchange
 event
 "
 )

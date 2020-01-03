@@ -10572,10 +10572,13 @@ this
 /
 API
 .
+A
 compositionupdate
 is
 dispatched
 when
+a
+DOM
 text
 event
 modifies

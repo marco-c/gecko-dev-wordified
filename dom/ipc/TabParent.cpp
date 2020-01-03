@@ -8147,14 +8147,14 @@ widget
 usually
 sends
 a
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 event
 to
 finalize
 or
+*
 clear
 the
-*
 composition
 respectively
 *

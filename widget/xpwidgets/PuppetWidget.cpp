@@ -1854,7 +1854,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 this
 )
 ;

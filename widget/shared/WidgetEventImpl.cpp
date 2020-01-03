@@ -992,9 +992,6 @@ message
 )
 {
 case
-NS_TEXT_TEXT
-:
-case
 NS_COMPOSITION_START
 :
 case
@@ -1002,6 +999,9 @@ NS_COMPOSITION_END
 :
 case
 NS_COMPOSITION_UPDATE
+:
+case
+NS_COMPOSITION_CHANGE
 :
 return
 true
