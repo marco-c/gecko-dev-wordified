@@ -168,9 +168,6 @@ socket_timeout
 360
 .
 0
-instance
-=
-None
 )
 :
         
@@ -217,12 +214,6 @@ actor
 '
 root
 '
-        
-self
-.
-instance
-=
-instance
     
 def
 _recv_n_bytes
@@ -400,8 +391,7 @@ socket_timeout
 try
 :
                 
-response
-+
+data
 =
 self
 .
@@ -411,6 +401,11 @@ recv
 (
 bytes_to_recv
 )
+                
+response
++
+=
+data
             
 except
 socket
@@ -420,92 +415,20 @@ timeout
                 
 pass
             
-if
-self
-.
-instance
-and
-not
-hasattr
-(
-self
-.
-instance
-'
-detached
-'
-)
+else
 :
                 
-#
-If
-we
-'
-ve
-launched
-the
-binary
-we
-'
-ve
-connected
-to
-make
-                
-#
-sure
-it
-hasn
-'
-t
-died
-.
-                
-poll
-=
-self
-.
-instance
-.
-runner
-.
-process_handler
-.
-proc
-.
-poll
-(
-)
-                
 if
-poll
-is
 not
-None
+data
 :
-                    
-#
-process
-isn
-'
-t
-alive
                     
 raise
 IOError
 (
-"
-process
-has
-died
-with
-return
-code
-%
-d
-"
-%
-poll
+self
+.
+connection_lost_msg
 )
             
 sep
@@ -579,11 +502,23 @@ remaining
 )
         
 raise
-IOError
+socket
+.
+timeout
 (
+'
+connection
+timed
+out
+after
+%
+d
+s
+'
+%
 self
 .
-connection_lost_msg
+socket_timeout
 )
     
 def
