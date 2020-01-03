@@ -11477,7 +11477,7 @@ if
 (
 detectCrashes
 .
-DisableAcceleration
+Crashed
 (
 )
 )
