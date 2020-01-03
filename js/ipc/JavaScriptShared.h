@@ -710,6 +710,9 @@ public
 :
 ObjectToIdMap
 (
+JSRuntime
+*
+rt
 )
 ;
 ~
@@ -786,8 +789,11 @@ void
 data
 )
 ;
-Table
+JSRuntime
 *
+rt_
+;
+Table
 table_
 ;
 }
