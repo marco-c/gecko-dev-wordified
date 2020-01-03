@@ -34251,6 +34251,7 @@ nsIClipboard
 :
 :
 kSelectionClipboard
+false
 )
 ;
 }

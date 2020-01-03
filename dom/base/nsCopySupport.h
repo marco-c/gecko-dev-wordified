@@ -163,6 +163,8 @@ nsIDocument
 aDoc
 int16_t
 aClipboardID
+bool
+aWithRubyAnnotation
 )
 ;
 static
