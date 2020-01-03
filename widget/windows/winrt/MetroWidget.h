@@ -915,6 +915,9 @@ const
 nsAString
 &
 aUnmodifiedCharacters
+nsIObserver
+*
+aObserver
 )
 ;
 virtual
@@ -930,6 +933,9 @@ uint32_t
 aNativeMessage
 uint32_t
 aModifierFlags
+nsIObserver
+*
+aObserver
 )
 ;
 virtual
@@ -953,6 +959,9 @@ uint32_t
 aModifierFlags
 uint32_t
 aAdditionalFlags
+nsIObserver
+*
+aObserver
 )
 ;
 virtual

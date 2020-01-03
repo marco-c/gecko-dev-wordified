@@ -24969,6 +24969,7 @@ widget
 WidgetToScreenOffset
 (
 )
+nullptr
 )
 ;
 }
@@ -25848,6 +25849,7 @@ aWidget
 WidgetToScreenOffset
 (
 )
+nullptr
 )
 ;
 /
@@ -25950,6 +25952,7 @@ aWidget
 WidgetToScreenOffset
 (
 )
+nullptr
 )
 ;
 /

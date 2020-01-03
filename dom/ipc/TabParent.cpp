@@ -11704,6 +11704,7 @@ widget
 SynthesizeNativeMouseMove
 (
 aPoint
+nullptr
 )
 ;
 }
