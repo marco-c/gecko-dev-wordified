@@ -1126,6 +1126,16 @@ return
 nullptr
 ;
 }
+virtual
+bool
+IsValid
+(
+)
+{
+return
+true
+;
+}
 protected
 :
 Image
