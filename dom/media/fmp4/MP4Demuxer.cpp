@@ -636,7 +636,7 @@ CreateAndReject
 DemuxerFailureReason
 :
 :
-WAITING_FOR_DATA
+DEMUXER_ERROR
 __func__
 )
 ;
