@@ -1864,11 +1864,10 @@ this
 n
 +
 =
-PL_DHashTableSizeOfExcludingThis
-(
-&
 mObjectValueMap
-nullptr
+.
+ShallowSizeOfExcludingThis
+(
 aMallocSizeOf
 )
 ;

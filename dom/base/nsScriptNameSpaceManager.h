@@ -1148,6 +1148,7 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
+const
 ;
 private
 :
