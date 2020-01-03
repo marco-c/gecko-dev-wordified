@@ -272,7 +272,7 @@ value
 if
 (
 !
-SendReply1
+CallReply1
 (
 value
 )
@@ -323,7 +323,7 @@ true
 if
 (
 !
-SendReply2
+CallReply2
 (
 &
 value
@@ -728,7 +728,7 @@ bool
 TestUrgencyChild
 :
 :
-RecvReply1
+AnswerReply1
 (
 uint32_t
 *
@@ -749,7 +749,7 @@ wrong
 test
 #
 in
-RecvReply1
+AnswerReply1
 "
 )
 ;
@@ -770,7 +770,7 @@ bool
 TestUrgencyChild
 :
 :
-RecvReply2
+AnswerReply2
 (
 uint32_t
 *
@@ -791,7 +791,7 @@ wrong
 test
 #
 in
-RecvReply2
+AnswerReply2
 "
 )
 ;

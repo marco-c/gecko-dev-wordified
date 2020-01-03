@@ -5828,7 +5828,7 @@ bool
 TabParent
 :
 :
-RecvRpcMessage
+AnswerRpcMessage
 (
 const
 nsString
