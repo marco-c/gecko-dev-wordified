@@ -1082,7 +1082,7 @@ SampleIterator
 mIndex
 )
 ;
-NotifyDataArrived
+EnsureUpToDateIndex
 (
 )
 ;
@@ -1308,6 +1308,10 @@ int32_t
 aNumSamples
 )
 {
+EnsureUpToDateIndex
+(
+)
+;
 nsRefPtr
 <
 SamplesHolder
