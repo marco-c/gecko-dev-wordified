@@ -2221,9 +2221,6 @@ aPubKey
 CERTSubjectPublicKeyInfo
 *
 aSpki
-PLArenaPool
-*
-aArena
 )
 {
 SECItem
@@ -2234,7 +2231,10 @@ params
 :
 SECITEM_AllocItem
 (
-aArena
+aSpki
+-
+>
+arena
 nullptr
 0
 )
@@ -2255,7 +2255,10 @@ rvItem
 =
 SEC_ASN1EncodeItem
 (
-aArena
+aSpki
+-
+>
+arena
 params
 aPubKey
 SECKEY_DHParamKeyTemplate
@@ -2276,7 +2279,10 @@ rv
 =
 SECOID_SetAlgorithmID
 (
-aArena
+aSpki
+-
+>
+arena
 &
 aSpki
 -
@@ -2302,7 +2308,10 @@ rvItem
 =
 SEC_ASN1EncodeItem
 (
-aArena
+aSpki
+-
+>
+arena
 &
 aSpki
 -
@@ -2542,7 +2551,6 @@ PublicDhKeyToSpki
 (
 aPubKey
 spki
-arena
 )
 ;
 NS_ENSURE_SUCCESS
