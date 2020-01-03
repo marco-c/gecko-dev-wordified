@@ -5010,10 +5010,6 @@ return
 false
 ;
 }
-mLastVideoFrameTime
-=
-tstamp
-;
 /
 /
 The
@@ -5144,6 +5140,10 @@ tstamp
 mLastVideoFrameTime
 ;
 }
+mLastVideoFrameTime
+=
+tstamp
+;
 int64_t
 tstamp_usecs
 =
