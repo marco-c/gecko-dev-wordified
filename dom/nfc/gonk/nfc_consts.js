@@ -748,6 +748,12 @@ TAG_EVENT_LOST
 =
 0x04
 ;
+this
+.
+PEER_EVENT_FOUND
+=
+0x05
+;
 /
 /
 Allow
