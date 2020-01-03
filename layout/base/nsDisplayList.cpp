@@ -8570,6 +8570,15 @@ nsGkAtoms
 :
 :
 scrollFrame
+|
+|
+parentType
+=
+=
+nsGkAtoms
+:
+:
+listControlFrame
 )
 {
 nsIScrollableFrame
