@@ -2373,8 +2373,6 @@ stringEntityWithContentTypeApplicationJSON
 String
 s
 )
-throws
-UnsupportedEncodingException
 {
 StringEntity
 e
@@ -2432,8 +2430,6 @@ jsonEntity
 JSONObject
 body
 )
-throws
-UnsupportedEncodingException
 {
 return
 stringEntityWithContentTypeApplicationJSON
@@ -2474,8 +2470,6 @@ jsonEntity
 ExtendedJSONObject
 body
 )
-throws
-UnsupportedEncodingException
 {
 return
 stringEntityWithContentTypeApplicationJSON
@@ -2940,8 +2934,6 @@ post
 ExtendedJSONObject
 o
 )
-throws
-UnsupportedEncodingException
 {
 post
 (

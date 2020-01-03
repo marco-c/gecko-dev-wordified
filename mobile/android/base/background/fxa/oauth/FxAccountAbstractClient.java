@@ -79,13 +79,6 @@ IOException
 import
 java
 .
-io
-.
-UnsupportedEncodingException
-;
-import
-java
-.
 security
 .
 GeneralSecurityException
@@ -975,7 +968,7 @@ requestBody
 }
 catch
 (
-UnsupportedEncodingException
+Exception
 e
 )
 {
