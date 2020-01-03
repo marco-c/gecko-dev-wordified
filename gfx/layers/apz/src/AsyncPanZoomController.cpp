@@ -12595,6 +12595,11 @@ aEvent
 mTime
 )
 ;
+SetState
+(
+NOTHING
+)
+;
 RequestContentRepaint
 (
 )
