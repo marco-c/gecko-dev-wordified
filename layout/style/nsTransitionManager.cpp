@@ -4556,6 +4556,12 @@ mProperty
 =
 aProperty
 ;
+prop
+.
+mWinsInCascade
+=
+true
+;
 AnimationPropertySegment
 &
 segment
