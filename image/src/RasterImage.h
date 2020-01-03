@@ -160,10 +160,10 @@ ca
 /
 #
 ifndef
-mozilla_imagelib_RasterImage_h_
+mozilla_image_src_RasterImage_h
 #
 define
-mozilla_imagelib_RasterImage_h_
+mozilla_image_src_RasterImage_h
 #
 include
 "
@@ -2669,6 +2669,8 @@ as
 to
 which
 one
+/
+/
 should
 be
 used
@@ -3237,6 +3239,8 @@ decode
 with
 the
 given
+/
+/
 parameters
 .
 bool
@@ -3445,6 +3449,6 @@ mozilla
 endif
 /
 *
-mozilla_imagelib_RasterImage_h_
+mozilla_image_src_RasterImage_h
 *
 /
