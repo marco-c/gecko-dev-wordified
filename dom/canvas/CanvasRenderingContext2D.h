@@ -3415,6 +3415,7 @@ int32_t
 *
 aFormat
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -3442,6 +3443,7 @@ Point
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -3470,6 +3472,7 @@ nsRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 protected
 :

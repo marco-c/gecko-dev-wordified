@@ -881,6 +881,7 @@ char16_t
 *
 aSomeData
 )
+MOZ_OVERRIDE
 {
 if
 (
