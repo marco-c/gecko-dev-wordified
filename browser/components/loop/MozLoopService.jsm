@@ -2663,6 +2663,9 @@ this
 .
 hawkRequest
 (
+LOOP_SESSION_TYPE
+.
+GUEST
 "
 /
 calls
