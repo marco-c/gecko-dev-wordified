@@ -2078,15 +2078,11 @@ keycode
 =
 aStepUp
 ?
-content
-.
-KeyEvent
+evt
 .
 DOM_VK_DOWN
 :
-content
-.
-KeyEvent
+evt
 .
 DOM_VK_UP
 ;
