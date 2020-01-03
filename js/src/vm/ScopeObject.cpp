@@ -10872,7 +10872,7 @@ HandleObject
 proxy
 HandleId
 id
-MutableHandle
+Handle
 <
 PropertyDescriptor
 >

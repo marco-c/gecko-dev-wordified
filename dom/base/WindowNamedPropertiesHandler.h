@@ -229,7 +229,7 @@ aId
 JS
 :
 :
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
