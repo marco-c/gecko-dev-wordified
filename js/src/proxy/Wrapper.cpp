@@ -367,17 +367,6 @@ Wrapper
 handler
 )
 {
-JS_ASSERT
-(
-!
-obj
--
->
-isCallable
-(
-)
-)
-;
 existing
 -
 >

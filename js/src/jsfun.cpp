@@ -11342,13 +11342,15 @@ Step
 .
 *
 /
-Value
+RootedValue
 thisv
-=
+(
+cx
 args
 .
 thisv
 (
+)
 )
 ;
 /
