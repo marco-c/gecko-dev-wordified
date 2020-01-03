@@ -6962,6 +6962,12 @@ mGLMaxUniformBufferBindings
 GLsizei
 mGLMaxSamples
 ;
+GLuint
+mGLMax3DTextureSize
+;
+GLuint
+mGLMaxArrayTextureLayers
+;
 public
 :
 GLuint
