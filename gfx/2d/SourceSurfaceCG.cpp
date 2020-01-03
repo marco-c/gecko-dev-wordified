@@ -285,8 +285,10 @@ SurfaceType
 DATA
 .
 return
-new
+MakeAndAddRef
+<
 DataSourceSurfaceWrapper
+>
 (
 dataSurf
 )

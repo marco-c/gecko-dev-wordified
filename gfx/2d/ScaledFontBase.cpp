@@ -477,8 +477,10 @@ aBuffer
 )
 ;
 return
-new
+MakeAndAddRef
+<
 PathSkia
+>
 (
 path
 FillRule

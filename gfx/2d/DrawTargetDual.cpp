@@ -1216,8 +1216,10 @@ nullptr
 ;
 }
 return
-new
+MakeAndAddRef
+<
 DrawTargetDual
+>
 (
 dtA
 dtB

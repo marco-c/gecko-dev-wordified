@@ -424,8 +424,10 @@ nullptr
 ;
 }
 return
-new
+MakeAndAddRef
+<
 DataSourceSurfaceD2D1
+>
 (
 softwareBitmap
 mFormat

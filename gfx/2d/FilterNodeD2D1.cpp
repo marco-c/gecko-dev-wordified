@@ -2374,8 +2374,10 @@ CONVOLVE_MATRIX
 )
 {
 return
-new
+MakeAndAddRef
+<
 FilterNodeConvolveD2D1
+>
 (
 aDC
 )

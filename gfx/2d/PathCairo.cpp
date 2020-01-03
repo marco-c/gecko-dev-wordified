@@ -767,8 +767,10 @@ Finish
 )
 {
 return
-new
+MakeAndAddRef
+<
 PathCairo
+>
 (
 mFillRule
 mPathData

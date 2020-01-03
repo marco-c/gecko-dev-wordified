@@ -3107,8 +3107,10 @@ aFormat
 )
 ;
 return
-new
+MakeAndAddRef
+<
 DrawTargetRecording
+>
 (
 mRecorder
 .
@@ -3148,8 +3150,10 @@ aFillRule
 )
 ;
 return
-new
+MakeAndAddRef
+<
 PathBuilderRecording
+>
 (
 builder
 aFillRule

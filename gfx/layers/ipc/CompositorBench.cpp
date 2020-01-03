@@ -895,8 +895,10 @@ red
 )
 ;
 return
-new
+MakeAndAddRef
+<
 EffectSolidColor
+>
 (
 gfx
 :
@@ -1032,8 +1034,10 @@ red
 )
 ;
 return
-new
+MakeAndAddRef
+<
 EffectSolidColor
+>
 (
 gfx
 :

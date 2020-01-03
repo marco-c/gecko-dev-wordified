@@ -1929,8 +1929,10 @@ WaitForBufferOwnership
 )
 ;
 return
-new
+MakeAndAddRef
+<
 ShSurfHandle
+>
 (
 this
 Move

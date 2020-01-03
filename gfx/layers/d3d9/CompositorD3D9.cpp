@@ -523,8 +523,10 @@ aFlags
 )
 {
 return
-new
+MakeAndAddRef
+<
 DataTextureSourceD3D9
+>
 (
 SurfaceFormat
 :

@@ -1700,8 +1700,10 @@ B8G8R8X8
 )
 ;
 return
-new
+MakeAndAddRef
+<
 EffectComponentAlpha
+>
 (
 aSource
 aSourceOnWhite

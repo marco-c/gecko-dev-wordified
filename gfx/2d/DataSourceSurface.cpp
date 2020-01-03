@@ -121,7 +121,12 @@ GetDataSurface
 (
 )
 {
-return
+RefPtr
+<
+DataSourceSurface
+>
+surface
+=
 (
 GetType
 (
@@ -140,6 +145,13 @@ new
 DataSourceSurfaceWrapper
 (
 this
+)
+;
+return
+surface
+.
+forget
+(
 )
 ;
 }

@@ -1641,8 +1641,10 @@ nullptr
 ;
 }
 return
-new
+MakeAndAddRef
+<
 PathD2D
+>
 (
 mGeometry
 mFigureActive

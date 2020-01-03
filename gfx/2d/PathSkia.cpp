@@ -594,8 +594,10 @@ Finish
 )
 {
 return
-new
+MakeAndAddRef
+<
 PathSkia
+>
 (
 mPath
 mFillRule
@@ -665,8 +667,10 @@ aFillRule
 const
 {
 return
-new
+MakeAndAddRef
+<
 PathBuilderSkia
+>
 (
 aTransform
 mPath

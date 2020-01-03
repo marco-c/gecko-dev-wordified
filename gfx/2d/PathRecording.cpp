@@ -409,8 +409,10 @@ Finish
 )
 ;
 return
-new
+MakeAndAddRef
+<
 PathRecording
+>
 (
 path
 mPathOps
