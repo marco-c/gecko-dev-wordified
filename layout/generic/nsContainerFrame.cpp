@@ -4575,7 +4575,7 @@ nsSize
 aMaxSize
 )
 {
-nsIntSize
+LayoutDeviceIntSize
 devMinSize
 (
 aPresContext
@@ -4598,7 +4598,7 @@ height
 )
 )
 ;
-nsIntSize
+LayoutDeviceIntSize
 devMaxSize
 (
 aMaxSize

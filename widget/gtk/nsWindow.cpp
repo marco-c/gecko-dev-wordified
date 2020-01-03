@@ -23429,13 +23429,13 @@ aState
 }
 }
 }
-nsIntSize
+LayoutDeviceIntSize
 nsWindow
 :
 :
 GetSafeWindowSize
 (
-nsIntSize
+LayoutDeviceIntSize
 aSize
 )
 {
@@ -23501,7 +23501,7 @@ by
 signed
 shorts
 .
-nsIntSize
+LayoutDeviceIntSize
 result
 =
 aSize
