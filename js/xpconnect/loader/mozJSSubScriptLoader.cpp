@@ -2160,6 +2160,17 @@ EqualsLiteral
 chrome
 "
 )
+&
+&
+!
+scheme
+.
+EqualsLiteral
+(
+"
+app
+"
+)
 )
 {
 /
