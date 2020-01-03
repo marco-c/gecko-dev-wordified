@@ -5311,9 +5311,6 @@ eResize
 case
 eScroll
 :
-case
-NS_SELECT_START
-:
 stopEvent
 =
 true
@@ -5421,6 +5418,16 @@ EqualsLiteral
 (
 "
 scroll
+"
+)
+|
+|
+eventType
+.
+EqualsLiteral
+(
+"
+selectstart
 "
 )
 )
