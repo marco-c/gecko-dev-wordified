@@ -1752,11 +1752,16 @@ aHost
 {
 mSucceeded
 =
+(
+mHost
+&
+&
 mHost
 -
 >
 Lock
 (
+)
 )
 ;
 }
@@ -1768,6 +1773,9 @@ AutoLockCompositableHost
 if
 (
 mSucceeded
+&
+&
+mHost
 )
 {
 mHost

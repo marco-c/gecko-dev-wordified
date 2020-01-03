@@ -1630,6 +1630,16 @@ if
 (
 !
 mFrontBuffer
+)
+{
+return
+false
+;
+}
+if
+(
+!
+mFrontBuffer
 -
 >
 Lock
@@ -1662,6 +1672,11 @@ MOZ_ASSERT
 mLocked
 )
 ;
+if
+(
+mFrontBuffer
+)
+{
 mFrontBuffer
 -
 >
@@ -1669,6 +1684,7 @@ Unlock
 (
 )
 ;
+}
 mLocked
 =
 false
