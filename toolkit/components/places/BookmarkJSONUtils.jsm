@@ -2956,6 +2956,9 @@ if
 feedURI
 )
 {
+let
+lmPromise
+=
 PlacesUtils
 .
 livemarks
@@ -3044,9 +3047,15 @@ annos
 )
 ;
 }
-Cu
+)
+;
+this
 .
-reportError
+_importPromises
+.
+push
+(
+lmPromise
 )
 ;
 }
