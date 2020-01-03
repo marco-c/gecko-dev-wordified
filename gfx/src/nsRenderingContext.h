@@ -431,15 +431,6 @@ nscolor
 aColor
 )
 ;
-void
-Scale
-(
-float
-aSx
-float
-aSy
-)
-;
 /
 /
 Shapes
