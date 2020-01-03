@@ -1875,7 +1875,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_VOLUMECHANGE
+eVolumeChange
 eMediaEventFirst
 +
 19
