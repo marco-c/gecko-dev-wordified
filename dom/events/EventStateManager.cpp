@@ -4275,7 +4275,7 @@ case
 eAfterKeyDown
 :
 case
-NS_KEY_BEFORE_UP
+eBeforeKeyUp
 :
 case
 eKeyUp
@@ -20730,7 +20730,7 @@ AsDragEvent
 break
 ;
 case
-NS_KEY_BEFORE_UP
+eBeforeKeyUp
 :
 case
 eKeyUp

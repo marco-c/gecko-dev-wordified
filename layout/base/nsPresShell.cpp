@@ -40967,7 +40967,7 @@ eKeyDown
 ?
 eBeforeKeyDown
 :
-NS_KEY_BEFORE_UP
+eBeforeKeyUp
 ;
 nsCOMPtr
 <

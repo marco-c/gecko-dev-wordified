@@ -2075,7 +2075,7 @@ mMessage
 :
 eBeforeKeyDown
 *
-NS_KEY_BEFORE_UP
+eBeforeKeyUp
 *
 eAfterKeyDown
 *
