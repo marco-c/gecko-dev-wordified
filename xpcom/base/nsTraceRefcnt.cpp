@@ -1146,7 +1146,7 @@ HT_FREE_ENTRY
 )
 {
 delete
-reinterpret_cast
+static_cast
 <
 SerialNumberRecord
 *
@@ -1195,7 +1195,7 @@ char
 *
 >
 (
-reinterpret_cast
+static_cast
 <
 const
 char
@@ -2420,7 +2420,7 @@ BloatEntry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 BloatEntry
 *
@@ -2694,7 +2694,7 @@ SerialNumberRecord
 *
 record
 =
-reinterpret_cast
+static_cast
 <
 SerialNumberRecord
 *
@@ -3460,7 +3460,7 @@ hep
 )
 {
 return
-reinterpret_cast
+static_cast
 <
 SerialNumberRecord
 *
@@ -3511,7 +3511,7 @@ HashNumber
 aPtr
 )
 aPtr
-reinterpret_cast
+static_cast
 <
 void
 *
@@ -3566,8 +3566,7 @@ hep
 return
 &
 (
-(
-reinterpret_cast
+static_cast
 <
 SerialNumberRecord
 *
@@ -3580,7 +3579,6 @@ hep
 -
 >
 value
-)
 )
 -
 >
@@ -3644,8 +3642,7 @@ hep
 return
 &
 (
-(
-reinterpret_cast
+static_cast
 <
 SerialNumberRecord
 *
@@ -3658,7 +3655,6 @@ hep
 -
 >
 value
-)
 )
 -
 >
