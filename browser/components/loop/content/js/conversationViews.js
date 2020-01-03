@@ -1013,7 +1013,7 @@ d
 /
 ;
 var
-IncomingCallView
+AcceptCallView
 =
 React
 .
@@ -1023,7 +1023,7 @@ createClass
 displayName
 :
 "
-IncomingCallView
+AcceptCallView
 "
 mixins
 :
@@ -2771,7 +2771,7 @@ React
 .
 createElement
 (
-IncomingCallView
+AcceptCallView
 {
 model
 :
@@ -6065,7 +6065,7 @@ displaying
 *
 /
 var
-OutgoingConversationView
+CallControllerView
 =
 React
 .
@@ -6075,7 +6075,7 @@ createClass
 displayName
 :
 "
-OutgoingConversationView
+CallControllerView
 "
 mixins
 :
@@ -6487,18 +6487,18 @@ _getContactDisplayName
 GenericFailureView
 :
 GenericFailureView
-IncomingCallView
+AcceptCallView
 :
-IncomingCallView
+AcceptCallView
 IncomingConversationView
 :
 IncomingConversationView
 OngoingConversationView
 :
 OngoingConversationView
-OutgoingConversationView
+CallControllerView
 :
-OutgoingConversationView
+CallControllerView
 }
 ;
 }

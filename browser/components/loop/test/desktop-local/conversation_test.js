@@ -1017,7 +1017,7 @@ it
 should
 display
 the
-OutgoingConversationView
+CallControllerView
 for
 outgoing
 calls
@@ -1054,7 +1054,7 @@ loop
 .
 conversationViews
 .
-OutgoingConversationView
+CallControllerView
 )
 ;
 }
