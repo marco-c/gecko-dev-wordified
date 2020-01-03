@@ -827,6 +827,11 @@ allowSpdy
 )
 a
 .
+allowAltSvc
+(
+)
+a
+.
 fds
 (
 )
@@ -1662,6 +1667,10 @@ bool
 &
 allowSpdy
 const
+bool
+&
+allowAltSvc
+const
 OptionalFileDescriptorSet
 &
 aFds
@@ -2488,6 +2497,14 @@ mChannel
 SetAllowSpdy
 (
 allowSpdy
+)
+;
+mChannel
+-
+>
+SetAllowAltSvc
+(
+allowAltSvc
 )
 ;
 nsCOMPtr
