@@ -1836,7 +1836,7 @@ a
 state
 of
 fast
-motion
+flinging
 .
 This
 affects
@@ -1856,7 +1856,7 @@ block
 *
 /
 void
-SetDuringFastMotion
+SetDuringFastFling
 (
 )
 ;
@@ -1867,7 +1867,7 @@ SetDuringFastMotion
 return
 true
 iff
-SetDuringFastMotion
+SetDuringFastFling
 was
 called
 on
@@ -1877,7 +1877,7 @@ block
 *
 /
 bool
-IsDuringFastMotion
+IsDuringFastFling
 (
 )
 const
@@ -1924,7 +1924,7 @@ if
 for
 example
 *
-SetDuringFastMotion
+SetDuringFastFling
 was
 previously
 called
@@ -2169,7 +2169,7 @@ bool
 mAllowedTouchBehaviorSet
 ;
 bool
-mDuringFastMotion
+mDuringFastFling
 ;
 bool
 mSingleTapOccurred

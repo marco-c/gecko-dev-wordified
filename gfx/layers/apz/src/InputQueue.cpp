@@ -786,7 +786,7 @@ GetOverscrollHandoffChain
 )
 -
 >
-HasFastMovingApzc
+HasFastFlungApzc
 (
 )
 &
@@ -877,7 +877,7 @@ moving
 block
 -
 >
-SetDuringFastMotion
+SetDuringFastFling
 (
 )
 ;
@@ -1165,7 +1165,7 @@ if
 block
 -
 >
-IsDuringFastMotion
+IsDuringFastFling
 (
 )
 )

@@ -921,12 +921,13 @@ along
 this
 handoff
 chain
-is
-moving
+has
+been
+flung
 fast
 .
 bool
-HasFastMovingApzc
+HasFastFlungApzc
 (
 )
 const
