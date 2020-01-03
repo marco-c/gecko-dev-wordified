@@ -25603,6 +25603,9 @@ lifoAlloc
 ;
 }
 return
+type
+&
+&
 replaceTypeSet
 (
 ins
