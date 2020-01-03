@@ -270,6 +270,7 @@ InterceptedChannelBase
 ;
 public
 :
+explicit
 InterceptedChannelBase
 (
 nsINetworkInterceptController
