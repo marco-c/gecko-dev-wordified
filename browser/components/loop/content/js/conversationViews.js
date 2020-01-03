@@ -2221,6 +2221,11 @@ failureReason
 case
 FAILURE_DETAILS
 .
+NO_MEDIA
+:
+case
+FAILURE_DETAILS
+.
 UNABLE_TO_PUBLISH_MEDIA
 :
 errorString
