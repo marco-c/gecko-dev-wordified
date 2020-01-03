@@ -304,9 +304,6 @@ F
 '
 }
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -337,8 +334,6 @@ return
 sLog
 ;
 }
-#
-endif
 /
 *
 *
@@ -6063,18 +6058,6 @@ length
 =
 0
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
-|
-|
-defined
-(
-DEBUG
-)
 if
 (
 blocked
@@ -6244,8 +6227,6 @@ get
 )
 ;
 }
-#
-endif
 }
 else
 {

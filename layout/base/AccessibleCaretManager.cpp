@@ -221,9 +221,6 @@ namespace
 mozilla
 {
 #
-ifdef
-PR_LOGGING
-#
 undef
 AC_LOG
 #
@@ -283,13 +280,6 @@ this
 __VA_ARGS__
 )
 ;
-#
-endif
-/
-/
-#
-ifdef
-PR_LOGGING
 using
 namespace
 dom

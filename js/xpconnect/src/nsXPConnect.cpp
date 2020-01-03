@@ -1421,16 +1421,11 @@ aReport
 isMuted
 ;
 }
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gJSDiagnostics
 ;
-#
-endif
 void
 xpc
 :
@@ -1582,9 +1577,6 @@ stderr
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 /
 /
 Log
@@ -1658,8 +1650,6 @@ get
 )
 ;
 }
-#
-endif
 /
 /
 Log

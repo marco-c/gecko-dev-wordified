@@ -456,17 +456,9 @@ aData
 )
 override
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 nsCString
 mSpec
 ;
-#
-endif
 bool
 mOpened
 ;

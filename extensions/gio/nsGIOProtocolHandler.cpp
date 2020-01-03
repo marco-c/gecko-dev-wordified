@@ -308,9 +308,6 @@ NSPR_LOG_MODULES
 gio
 :
 5
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -328,16 +325,6 @@ sGIOLog
 PR_LOG_DEBUG
 args
 )
-#
-else
-#
-define
-LOG
-(
-args
-)
-#
-endif
 /
 /
 -
@@ -5468,9 +5455,6 @@ Init
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 sGIOLog
 =
 PR_NewLogModule
@@ -5480,8 +5464,6 @@ gio
 "
 )
 ;
-#
-endif
 nsCOMPtr
 <
 nsIPrefBranch
