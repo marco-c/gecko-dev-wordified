@@ -1473,7 +1473,7 @@ SetOverflowAreasToDesiredBounds
 ;
 if
 (
-IsAbsoluteContainer
+HasAbsolutelyPositionedChildren
 (
 )
 )
