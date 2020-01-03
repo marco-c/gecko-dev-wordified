@@ -1032,6 +1032,8 @@ aLineWM
 nscoord
 &
 aLineWidth
+nscoord
+aStart
 )
 ;
 /
@@ -2945,6 +2947,9 @@ aLineWM
 nscoord
 &
 aLineWidth
+nscoord
+&
+aStart
 )
 ;
 /
