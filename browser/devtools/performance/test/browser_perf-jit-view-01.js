@@ -53,9 +53,7 @@ focus
 *
 /
 const
-{
 RecordingUtils
-}
 =
 devtools
 .

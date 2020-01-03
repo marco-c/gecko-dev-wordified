@@ -714,12 +714,6 @@ line
 }
 }
 ;
-exports
-.
-MarkerDetails
-=
-MarkerDetails
-;
 /
 *
 *
@@ -850,3 +844,9 @@ return
 null
 ;
 }
+exports
+.
+MarkerDetails
+=
+MarkerDetails
+;

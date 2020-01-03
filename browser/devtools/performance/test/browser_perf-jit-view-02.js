@@ -73,9 +73,7 @@ global
 )
 ;
 const
-{
 RecordingUtils
-}
 =
 devtools
 .

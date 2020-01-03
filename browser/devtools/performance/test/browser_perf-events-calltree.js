@@ -71,9 +71,7 @@ model
 )
 ;
 const
-{
 RecordingUtils
-}
 =
 devtools
 .

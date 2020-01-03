@@ -64,9 +64,7 @@ expected
 *
 /
 const
-{
 RecordingUtils
-}
 =
 devtools
 .

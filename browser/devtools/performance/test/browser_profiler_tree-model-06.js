@@ -57,9 +57,7 @@ samples
 *
 /
 const
-{
 RecordingUtils
-}
 =
 devtools
 .

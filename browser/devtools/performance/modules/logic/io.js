@@ -113,7 +113,6 @@ recording
 -
 utils
 "
-true
 )
 ;
 loader
@@ -774,12 +773,6 @@ promise
 }
 }
 ;
-exports
-.
-PerformanceIO
-=
-PerformanceIO
-;
 /
 *
 *
@@ -1016,3 +1009,9 @@ return
 data
 ;
 }
+exports
+.
+PerformanceIO
+=
+PerformanceIO
+;

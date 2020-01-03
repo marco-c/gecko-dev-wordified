@@ -1107,10 +1107,6 @@ id
 const
 OptimizationSite
 =
-exports
-.
-OptimizationSite
-=
 function
 (
 id
@@ -1375,10 +1371,6 @@ this
 *
 /
 const
-JITOptimizations
-=
-exports
-.
 JITOptimizations
 =
 function
@@ -1789,3 +1781,15 @@ line
 )
 ;
 }
+exports
+.
+OptimizationSite
+=
+OptimizationSite
+;
+exports
+.
+JITOptimizations
+=
+JITOptimizations
+;

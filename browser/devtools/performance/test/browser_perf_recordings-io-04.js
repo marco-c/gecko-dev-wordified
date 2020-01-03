@@ -67,9 +67,7 @@ loaded
 *
 /
 let
-{
 RecordingUtils
-}
 =
 devtools
 .
