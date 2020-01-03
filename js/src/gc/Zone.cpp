@@ -249,6 +249,10 @@ gc
 .
 usage
 )
+gcDelayBytes
+(
+0
+)
 data
 (
 nullptr
