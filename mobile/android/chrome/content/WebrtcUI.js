@@ -805,9 +805,6 @@ aCallID
 )
 ;
 }
-positive
-:
-true
 }
 ]
 ;

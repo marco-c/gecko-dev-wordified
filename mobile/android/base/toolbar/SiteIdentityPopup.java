@@ -1384,7 +1384,7 @@ buttons
 .
 config
 .
-setButton
+appendButton
 (
 mContext
 .
@@ -1403,12 +1403,11 @@ CANCEL
 ordinal
 (
 )
-false
 )
 ;
 config
 .
-setButton
+appendButton
 (
 mContext
 .
@@ -1427,7 +1426,6 @@ COPY
 ordinal
 (
 )
-true
 )
 ;
 /
@@ -2381,7 +2379,7 @@ blocked
 {
 config
 .
-setButton
+appendButton
 (
 mContext
 .
@@ -2400,12 +2398,11 @@ DISABLE
 ordinal
 (
 )
-false
 )
 ;
 config
 .
-setButton
+appendButton
 (
 mContext
 .
@@ -2424,7 +2421,6 @@ KEEP_BLOCKING
 ordinal
 (
 )
-true
 )
 ;
 }
@@ -2432,7 +2428,7 @@ else
 {
 config
 .
-setButton
+appendButton
 (
 mContext
 .
@@ -2451,7 +2447,6 @@ ENABLE
 ordinal
 (
 )
-true
 )
 ;
 }
