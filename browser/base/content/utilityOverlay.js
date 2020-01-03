@@ -200,19 +200,6 @@ getNewTabPageURL
 {
 if
 (
-!
-Services
-.
-prefs
-.
-prefHasUserValue
-(
-PREF
-)
-)
-{
-if
-(
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -226,6 +213,7 @@ PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
 )
+{
 return
 "
 about
