@@ -410,7 +410,7 @@ AutoKeepAtoms
 ifdef
 JS_TRACE_LOGGING
 class
-TraceLoggerThread
+TraceLogger
 ;
 #
 endif
@@ -3184,7 +3184,7 @@ regexpStack
 #
 ifdef
 JS_TRACE_LOGGING
-TraceLoggerThread
+TraceLogger
 *
 traceLogger
 ;

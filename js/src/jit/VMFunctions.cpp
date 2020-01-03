@@ -4943,7 +4943,7 @@ the
 exception
 handler
 .
-TraceLoggerThread
+TraceLogger
 *
 logger
 =

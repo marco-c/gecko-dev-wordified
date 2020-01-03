@@ -10222,7 +10222,7 @@ Address
 enabledAddress
 (
 logger
-TraceLoggerThread
+TraceLogger
 :
 :
 offsetOfEnabled
@@ -10411,7 +10411,7 @@ Address
 enabledAddress
 (
 logger
-TraceLoggerThread
+TraceLogger
 :
 :
 offsetOfEnabled

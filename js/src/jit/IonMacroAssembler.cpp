@@ -11167,7 +11167,7 @@ void
 TraceLogFunc
 )
 (
-TraceLoggerThread
+TraceLogger
 *
 uint32_t
 )
@@ -11274,7 +11274,7 @@ void
 TraceLogFunc
 )
 (
-TraceLoggerThread
+TraceLogger
 *
 uint32_t
 )

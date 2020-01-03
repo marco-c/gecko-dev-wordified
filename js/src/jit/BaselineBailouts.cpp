@@ -11427,7 +11427,7 @@ MOZ_ASSERT
 poppedLastSPSFrameOut
 )
 ;
-TraceLoggerThread
+TraceLogger
 *
 logger
 =

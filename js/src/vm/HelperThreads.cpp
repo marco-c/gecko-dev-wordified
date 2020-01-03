@@ -6282,7 +6282,7 @@ setPauseFlag
 pause
 )
 ;
-TraceLoggerThread
+TraceLogger
 *
 logger
 =
@@ -6840,7 +6840,7 @@ PauseCurrentHelperThread
 (
 )
 {
-TraceLoggerThread
+TraceLogger
 *
 logger
 =
