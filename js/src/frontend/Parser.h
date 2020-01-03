@@ -3815,6 +3815,15 @@ return
 isUnexpectedEOF_
 ;
 }
+bool
+checkUnescapedName
+(
+const
+Token
+&
+token
+)
+;
 private
 :
 Parser
