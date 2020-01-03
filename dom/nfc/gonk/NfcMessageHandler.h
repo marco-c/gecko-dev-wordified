@@ -154,8 +154,6 @@ aOptions
 bool
 GeneralResponse
 (
-int32_t
-aResponse
 const
 android
 :
