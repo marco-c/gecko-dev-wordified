@@ -3551,7 +3551,7 @@ element
 /
 Answers
 true
-is
+if
 the
 property
 can
@@ -3574,10 +3574,10 @@ bool
 nsHTMLCSSUtils
 :
 :
-IsCSSInvertable
+IsCSSInvertible
 (
 nsIAtom
-*
+&
 aProperty
 const
 nsAString
@@ -3592,6 +3592,7 @@ nsGkAtoms
 b
 =
 =
+&
 aProperty
 ;
 }

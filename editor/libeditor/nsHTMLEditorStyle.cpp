@@ -8919,8 +8919,9 @@ if
 mHTMLCSSUtils
 -
 >
-IsCSSInvertable
+IsCSSInvertible
 (
+*
 aProperty
 aAttribute
 )
@@ -9218,8 +9219,9 @@ style
 mHTMLCSSUtils
 -
 >
-IsCSSInvertable
+IsCSSInvertible
 (
+*
 aProperty
 aAttribute
 )
