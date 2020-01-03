@@ -272,6 +272,7 @@ GonkMediaDataDecoder
 new
 GonkVideoDecoderManager
 (
+aVideoTaskQueue
 aImageContainer
 aConfig
 )
@@ -323,6 +324,7 @@ GonkMediaDataDecoder
 new
 GonkAudioDecoderManager
 (
+aAudioTaskQueue
 aConfig
 )
 aAudioTaskQueue

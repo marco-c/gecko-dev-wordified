@@ -265,6 +265,9 @@ public
 :
 GonkVideoDecoderManager
 (
+MediaTaskQueue
+*
+aTaskQueue
 mozilla
 :
 :
@@ -781,6 +784,11 @@ int64_t
 aDuration
 )
 ;
+void
+ClearQueueFrameTime
+(
+)
+;
 uint32_t
 mVideoWidth
 ;
@@ -928,14 +936,6 @@ MediaCodec
 error
 or
 seeking
-.
-/
-/
-It
-is
-protected
-by
-mMonitor
 .
 nsTArray
 <

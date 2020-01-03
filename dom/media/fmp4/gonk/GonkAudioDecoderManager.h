@@ -185,6 +185,9 @@ public
 :
 GonkAudioDecoderManager
 (
+MediaTaskQueue
+*
+aTaskQueue
 const
 mp4_demuxer
 :
