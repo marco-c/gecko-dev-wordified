@@ -4498,17 +4498,6 @@ return
 nullptr
 ;
 }
-NS_ASSERTION
-(
-success
-"
-Failed
-to
-map
-surface
-"
-)
-;
 RefPtr
 <
 DrawTarget
