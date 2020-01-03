@@ -43,6 +43,9 @@ network
 netwarn
 "
 "
+netxhr
+"
+"
 networkinfo
 "
 ]
