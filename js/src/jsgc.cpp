@@ -12736,14 +12736,6 @@ if
 srcNative
 -
 >
-hasDynamicElements
-(
-)
-&
-&
-srcNative
--
->
 denseElementsAreCopyOnWrite
 (
 )
@@ -12753,7 +12745,7 @@ HeapPtrNativeObject
 &
 owner
 =
-srcNative
+dstNative
 -
 >
 getElementsHeader
