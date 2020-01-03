@@ -47642,7 +47642,7 @@ picture
 .
 enabled
 "
-false
+true
 )
 ;
 /
