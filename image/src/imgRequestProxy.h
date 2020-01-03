@@ -217,9 +217,6 @@ class
 imgINotificationObserver
 ;
 class
-imgRequestNotifyRunnable
-;
-class
 imgStatusNotifyRunnable
 ;
 struct
@@ -733,10 +730,6 @@ ProgressTracker
 friend
 class
 imgStatusNotifyRunnable
-;
-friend
-class
-imgRequestNotifyRunnable
 ;
 class
 imgCancelRunnable

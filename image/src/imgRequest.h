@@ -210,9 +210,6 @@ class
 imgMemoryReporter
 ;
 class
-imgRequestNotifyRunnable
-;
-class
 nsIApplicationCache
 ;
 class
@@ -877,10 +874,6 @@ imgCacheValidator
 friend
 class
 imgCacheExpirationTracker
-;
-friend
-class
-imgRequestNotifyRunnable
 ;
 friend
 class
