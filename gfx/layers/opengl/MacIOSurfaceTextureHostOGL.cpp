@@ -111,17 +111,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-CompositorOGL
-.
-h
-"
-#
-include
-"
 GLContextCGL
 .
 h
