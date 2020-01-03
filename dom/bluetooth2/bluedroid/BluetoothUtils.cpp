@@ -885,7 +885,6 @@ JS_NewPlainObject
 cx
 )
 )
-)
 ;
 if
 (
