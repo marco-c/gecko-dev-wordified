@@ -11607,8 +11607,11 @@ runnable
 ;
 if
 (
+NS_WARN_IF
+(
 !
 serviceWorker
+)
 )
 {
 return
