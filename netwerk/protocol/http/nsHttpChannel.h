@@ -2904,6 +2904,12 @@ mIsCorsPreflightDone
 :
 1
 ;
+nsCOMPtr
+<
+nsIChannel
+>
+mPreflightChannel
+;
 nsTArray
 <
 nsContinueRedirectionFunc
