@@ -161,6 +161,7 @@ require
 (
 "
 .
+.
 /
 lib
 /
@@ -232,6 +233,7 @@ prefixURI
 require
 (
 '
+.
 .
 /
 fixtures
@@ -458,6 +460,13 @@ b
 contentWindow
 .
 wrappedJSObject
+/
+/
+TODO
+:
+remove
+this
+CPOW
 function
 (
 )
