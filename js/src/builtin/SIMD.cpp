@@ -3479,6 +3479,7 @@ CreateSimd
 JSContext
 *
 cx
+const
 typename
 V
 :
@@ -3603,6 +3604,7 @@ Float32x4
 JSContext
 *
 cx
+const
 Float32x4
 :
 :
@@ -3625,6 +3627,7 @@ Float64x2
 JSContext
 *
 cx
+const
 Float64x2
 :
 :
@@ -3647,6 +3650,7 @@ Int32x4
 JSContext
 *
 cx
+const
 Int32x4
 :
 :

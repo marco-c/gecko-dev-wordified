@@ -2818,6 +2818,7 @@ CreateSimd
 JSContext
 *
 cx
+const
 typename
 V
 :
