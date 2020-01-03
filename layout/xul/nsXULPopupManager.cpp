@@ -3253,7 +3253,7 @@ PopupResized
 nsIFrame
 *
 aFrame
-nsIntSize
+LayoutDeviceIntSize
 aSize
 )
 {
@@ -3385,7 +3385,7 @@ PresContext
 (
 )
 ;
-nsIntSize
+CSSIntSize
 newCSS
 (
 presContext
