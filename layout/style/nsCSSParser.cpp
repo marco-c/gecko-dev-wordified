@@ -56687,10 +56687,9 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aPropID
-nsCSSProps
-:
-:
-eEnabledForAllContent
+PropertyEnabledState
+(
+)
 )
 {
 nsCSSValueTokenStream
