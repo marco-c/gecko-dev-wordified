@@ -2456,8 +2456,6 @@ aClient
 ImageContainer
 *
 aContainer
-bool
-aExceptFront
 AsyncTransactionWaiter
 *
 aWaiter
@@ -2478,10 +2476,6 @@ BeginTransaction
 if
 (
 aContainer
-&
-&
-!
-aExceptFront
 )
 {
 aContainer
@@ -2497,7 +2491,6 @@ aClient
 >
 FlushAllImages
 (
-aExceptFront
 aWaiter
 )
 ;
@@ -2579,8 +2572,6 @@ aClient
 ImageContainer
 *
 aContainer
-bool
-aExceptFront
 )
 {
 if
@@ -2690,7 +2681,6 @@ NewRunnableFunction
 FlushAllImagesSync
 aClient
 aContainer
-aExceptFront
 waiter
 )
 )

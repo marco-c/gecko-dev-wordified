@@ -523,8 +523,6 @@ virtual
 void
 FlushAllImages
 (
-bool
-aExceptFront
 AsyncTransactionWaiter
 *
 aAsyncTransactionWaiter
@@ -667,8 +665,6 @@ virtual
 void
 FlushAllImages
 (
-bool
-aExceptFront
 AsyncTransactionWaiter
 *
 aAsyncTransactionWaiter
