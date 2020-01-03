@@ -323,7 +323,7 @@ true
 auto
 handle
 =
-GetModuleHandle
+GetModuleHandleA
 (
 "
 mfplat
@@ -419,7 +419,7 @@ LinkMfplat
 &
 !
 !
-GetModuleHandle
+GetModuleHandleA
 (
 "
 msauddecmft
@@ -431,7 +431,7 @@ dll
 &
 !
 !
-GetModuleHandle
+GetModuleHandleA
 (
 "
 msmpeg2adec
@@ -443,7 +443,7 @@ dll
 &
 !
 !
-GetModuleHandle
+GetModuleHandleA
 (
 "
 msmpeg2vdec
@@ -1101,7 +1101,7 @@ module
 =
 :
 :
-GetModuleHandle
+GetModuleHandleA
 (
 aDllName
 )

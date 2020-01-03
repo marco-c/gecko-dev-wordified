@@ -146,6 +146,11 @@ stdint
 .
 h
 >
+#
+include
+<
+vector
+>
 using
 std
 :
