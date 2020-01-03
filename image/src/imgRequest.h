@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-imgRequest_h__
+mozilla_image_src_imgRequest_h
 #
 define
-imgRequest_h__
+mozilla_image_src_imgRequest_h
 #
 include
 "
@@ -1480,6 +1480,8 @@ image
 .
 Used
 when
+/
+/
 validating
 for
 CORS
@@ -1543,12 +1545,6 @@ mTimedChannel
 nsCString
 mContentType
 ;
-nsRefPtr
-<
-imgCacheEntry
->
-mCacheEntry
-;
 /
 *
 we
@@ -1566,6 +1562,12 @@ have
 observers
 *
 /
+nsRefPtr
+<
+imgCacheEntry
+>
+mCacheEntry
+;
 void
 *
 mLoadId
@@ -1755,3 +1757,6 @@ mHadInsecureRedirect
 ;
 #
 endif
+/
+/
+mozilla_image_src_imgRequest_h

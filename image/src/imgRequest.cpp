@@ -335,6 +335,7 @@ if
 !
 sImgLog
 )
+{
 sImgLog
 =
 PR_NewLogModule
@@ -344,6 +345,7 @@ imgRequest
 "
 )
 ;
+}
 return
 sImgLog
 ;
@@ -1433,9 +1435,11 @@ RemoveObserver
 proxy
 )
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 progressTracker
@@ -1743,6 +1747,7 @@ aStatus
 =
 NS_IMAGELIB_CHANGING_OWNER
 )
+{
 proxy
 -
 >
@@ -1751,6 +1756,7 @@ RemoveFromLoadGroup
 true
 )
 ;
+}
 return
 NS_OK
 ;
@@ -2691,6 +2697,7 @@ if
 (
 p
 )
+{
 p
 -
 >
@@ -2700,6 +2707,7 @@ GetPriority
 priority
 )
 ;
+}
 return
 priority
 ;
@@ -2821,8 +2829,10 @@ FirstObserverIs
 proxy
 )
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 nsISupportsPriority
@@ -2838,6 +2848,7 @@ if
 (
 p
 )
+{
 p
 -
 >
@@ -2846,6 +2857,7 @@ AdjustPriority
 delta
 )
 ;
+}
 }
 bool
 imgRequest
@@ -3100,6 +3112,7 @@ GetExpiryTime
 =
 0
 )
+{
 aCacheEntry
 -
 >
@@ -3108,6 +3121,7 @@ SetExpiryTime
 expiration
 )
 ;
+}
 }
 }
 }
@@ -3126,10 +3140,10 @@ we
 try
 to
 use
+/
+/
 it
 .
-/
-/
 Currently
 only
 HTTP
@@ -3279,6 +3293,7 @@ if
 (
 bMustRevalidate
 )
+{
 aCacheEntry
 -
 >
@@ -3287,6 +3302,7 @@ SetMustValidate
 bMustRevalidate
 )
 ;
+}
 }
 }
 }
@@ -3453,9 +3469,11 @@ newAppCache
 =
 mApplicationCache
 )
+{
 return
 false
 ;
+}
 /
 /
 In
@@ -3532,9 +3550,11 @@ oldAppCacheClientId
 =
 newAppCacheClientId
 )
+{
 return
 false
 ;
+}
 }
 /
 /
@@ -4023,6 +4043,8 @@ this
 gets
 hit
 ?
+/
+/
 Probably
 multipart
 /
@@ -4244,7 +4266,6 @@ request
 in
 nsISupports
 ctxt
-in
 nsresult
 status
 )
@@ -4436,6 +4457,7 @@ if
 (
 mpchan
 )
+{
 mpchan
 -
 >
@@ -4445,6 +4467,7 @@ GetIsLastPart
 lastPart
 )
 ;
+}
 bool
 isPartial
 =
@@ -4616,10 +4639,12 @@ NS_SUCCEEDED
 status
 )
 )
+{
 status
 =
 rv
 ;
+}
 }
 /
 /
@@ -5137,6 +5162,8 @@ imgRequest
 :
 :
 PrepareForNewPart
+"
+"
 -
 -
 Content
@@ -6254,6 +6281,7 @@ count
 >
 0
 )
+{
 imgLoader
 :
 :
@@ -6268,6 +6296,7 @@ closure
 newType
 )
 ;
+}
 *
 writeCount
 =
@@ -6317,6 +6346,7 @@ nsIChannelEventSink
 )
 )
 )
+{
 return
 QueryInterface
 (
@@ -6324,6 +6354,7 @@ aIID
 aResult
 )
 ;
+}
 NS_ASSERTION
 (
 mPrevChannelSink
@@ -6616,6 +6647,7 @@ if
 (
 mCurrentURI
 )
+{
 mCurrentURI
 -
 >
@@ -6624,6 +6656,7 @@ GetSpec
 spec
 )
 ;
+}
 LOG_MSG_WITH_PARAM
 (
 GetImgLog
@@ -6811,6 +6844,7 @@ if
 (
 mCurrentURI
 )
+{
 mCurrentURI
 -
 >
@@ -6819,6 +6853,7 @@ GetSpec
 spec
 )
 ;
+}
 LOG_MSG_WITH_PARAM
 (
 GetImgLog
@@ -6898,10 +6933,12 @@ rv
 &
 doesNotReturnData
 )
+{
 rv
 =
 NS_ERROR_ABORT
 ;
+}
 if
 (
 NS_FAILED
