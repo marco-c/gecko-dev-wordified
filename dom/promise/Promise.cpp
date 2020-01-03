@@ -9165,9 +9165,7 @@ NS_IsMainThread
 MutexAutoLock
 lock
 (
-GetCleanUpLock
-(
-)
+mCleanUpLock
 )
 ;
 /
@@ -9192,9 +9190,7 @@ Promise
 .
 if
 (
-IsClean
-(
-)
+mCleanedUp
 )
 {
 return
