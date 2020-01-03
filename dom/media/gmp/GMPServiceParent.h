@@ -680,6 +680,14 @@ mAsyncShutdownPlugins
 #
 ifdef
 MOZ_CRASHREPORTER
+Mutex
+mAsyncShutdownPluginStatesMutex
+;
+/
+/
+Protects
+mAsyncShutdownPluginStates
+.
 class
 AsyncShutdownPluginStates
 {
