@@ -150,11 +150,12 @@ WebGL2Context
 ;
 public
 :
+explicit
 WebGLSync
 (
 WebGLContext
 *
-context
+aContext
 )
 ;
 void
