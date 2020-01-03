@@ -529,15 +529,6 @@ override
 ;
 UserFontSet
 *
-EnsureUserFontSet
-(
-nsPresContext
-*
-aPresContext
-)
-;
-UserFontSet
-*
 GetUserFontSet
 (
 )
