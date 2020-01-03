@@ -18603,7 +18603,6 @@ nullptr
 parent
 aScriptURL
 aIsChromeWorker
-InheritLoadGroup
 stackLoadInfo
 .
 ptr
@@ -18875,8 +18874,6 @@ nsAString
 aScriptURL
 bool
 aIsChromeWorker
-LoadGroupBehavior
-aLoadGroupBehavior
 LoadInfo
 *
 aLoadInfo
@@ -20500,12 +20497,6 @@ if
 loadInfo
 .
 mLoadGroup
-|
-|
-aLoadGroupBehavior
-=
-=
-ForceNewLoadGroup
 )
 {
 rv
@@ -20521,9 +20512,6 @@ mLoadGroup
 loadInfo
 .
 mPrincipal
-loadInfo
-.
-mLoadGroup
 )
 ;
 NS_ENSURE_SUCCESS
