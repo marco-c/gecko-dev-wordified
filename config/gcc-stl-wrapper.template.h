@@ -142,6 +142,12 @@ ObjC
 .
 #
 if
+defined
+(
+__EXCEPTIONS
+)
+&
+&
 __EXCEPTIONS
 &
 &
