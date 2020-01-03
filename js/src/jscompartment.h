@@ -869,6 +869,9 @@ marked
 bool
 warnedAboutNoSuchMethod
 ;
+bool
+warnedAboutFlagsArgument
+;
 /
 /
 A

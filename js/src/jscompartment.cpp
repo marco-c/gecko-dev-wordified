@@ -366,6 +366,10 @@ warnedAboutNoSuchMethod
 (
 false
 )
+warnedAboutFlagsArgument
+(
+false
+)
 addonId
 (
 options
