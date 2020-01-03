@@ -385,6 +385,12 @@ mGLContext
 GLuint
 mCanvasFrontbufferTexID
 ;
+RefPtr
+<
+PersistentBufferProvider
+>
+mBufferProvider
+;
 mozilla
 :
 :
