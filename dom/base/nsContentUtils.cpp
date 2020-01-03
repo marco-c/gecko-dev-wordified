@@ -40967,6 +40967,11 @@ imgIContainer
 FLAG_SYNC_DECODE
 )
 ;
+if
+(
+surface
+)
+{
 mozilla
 :
 :
@@ -41136,6 +41141,7 @@ GetFormat
 )
 )
 ;
+}
 continue
 ;
 }
