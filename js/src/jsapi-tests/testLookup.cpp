@@ -350,6 +350,7 @@ js
 :
 IsInternalFunctionObject
 (
+*
 funobj
 )
 )

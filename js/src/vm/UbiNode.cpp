@@ -741,7 +741,6 @@ js
 :
 IsInternalFunctionObject
 (
-&
 obj
 )
 )
