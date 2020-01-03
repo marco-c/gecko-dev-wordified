@@ -350,6 +350,7 @@ nsNodeWeakReference
 ;
 nsINode
 *
+MOZ_NON_OWNING_REF
 mNode
 ;
 }
