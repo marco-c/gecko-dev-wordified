@@ -1908,7 +1908,7 @@ eMutationEventClass
 NON_IDL_EVENT
 (
 DOMNodeRemoved
-NS_MUTATION_NODEREMOVED
+eLegacyNodeRemoved
 EventNameType_HTMLXUL
 eMutationEventClass
 )
