@@ -523,6 +523,9 @@ mFrameIsHidden
 bool
 mDisablePremultipliedAlpha
 ;
+bool
+mSuccessfulEarlyFinish
+;
 struct
 AnimFrameInfo
 {

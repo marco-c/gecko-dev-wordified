@@ -260,6 +260,10 @@ mImageIsLocked
 (
 false
 )
+mFirstFrameDecode
+(
+false
+)
 mInFrame
 (
 false
