@@ -5369,6 +5369,15 @@ HandleObject
 b
 )
 ;
+private
+:
+void
+fixDictionaryShapeAfterSwap
+(
+)
+;
+public
+:
 inline
 void
 initArrayClass
