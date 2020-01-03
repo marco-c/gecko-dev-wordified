@@ -180,6 +180,10 @@ const
 ;
 protected
 :
+ActorChild
+(
+)
+;
 ~
 ActorChild
 (
