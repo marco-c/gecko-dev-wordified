@@ -4625,7 +4625,10 @@ class
 AutoWrapperVector
 :
 public
-AutoVectorRooter
+JS
+:
+:
+AutoVectorRooterBase
 <
 WrapperValue
 >
@@ -4641,7 +4644,7 @@ cx
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
-AutoVectorRooter
+AutoVectorRooterBase
 <
 WrapperValue
 >

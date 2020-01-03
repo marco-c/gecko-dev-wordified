@@ -209,7 +209,10 @@ MOZ_STACK_CLASS
 AutoIdValueVector
 :
 public
-AutoVectorRooter
+JS
+:
+:
+AutoVectorRooterBase
 <
 IdValuePair
 >
@@ -225,7 +228,7 @@ cx
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
-AutoVectorRooter
+AutoVectorRooterBase
 <
 IdValuePair
 >

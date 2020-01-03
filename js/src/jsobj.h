@@ -273,7 +273,11 @@ ClassInfo
 namespace
 js
 {
-class
+typedef
+AutoVectorRooter
+<
+PropertyDescriptor
+>
 AutoPropertyDescriptorVector
 ;
 class
