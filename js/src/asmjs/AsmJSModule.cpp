@@ -5431,10 +5431,7 @@ uses
 size_t
 scalarByteSize
 =
-1
-<
-<
-TypedArrayShift
+TypedArrayElemSize
 (
 access
 .
@@ -5687,10 +5684,7 @@ codegen
 size_t
 scalarByteSize
 =
-1
-<
-<
-TypedArrayShift
+TypedArrayElemSize
 (
 access
 .
