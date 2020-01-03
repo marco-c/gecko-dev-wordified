@@ -430,6 +430,10 @@ databaseSampleRate
 ;
 return
 loader
+.
+forget
+(
+)
 ;
 }
 loader
@@ -456,6 +460,10 @@ loadAsynchronously
 ;
 return
 loader
+.
+forget
+(
+)
 ;
 }
 HRTFDatabaseLoader

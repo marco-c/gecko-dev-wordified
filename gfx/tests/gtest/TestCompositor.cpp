@@ -898,6 +898,10 @@ abort
 }
 return
 compositor
+.
+forget
+(
+)
 ;
 }
 /
@@ -1139,12 +1143,7 @@ CreateDT
 (
 )
 {
-RefPtr
-<
-DrawTarget
->
-dt
-=
+return
 gfxPlatform
 :
 :
@@ -1165,9 +1164,6 @@ SurfaceFormat
 :
 B8G8R8A8
 )
-;
-return
-dt
 ;
 }
 static

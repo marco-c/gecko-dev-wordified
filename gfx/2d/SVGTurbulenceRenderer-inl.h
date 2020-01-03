@@ -2809,6 +2809,10 @@ result1234
 }
 return
 target
+.
+forget
+(
+)
 ;
 }
 }

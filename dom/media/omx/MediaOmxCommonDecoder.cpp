@@ -650,6 +650,10 @@ TaskQueue
 Dispatch
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
@@ -782,6 +786,10 @@ TaskQueue
 Dispatch
 (
 event
+.
+forget
+(
+)
 )
 ;
 mNextState
@@ -829,6 +837,10 @@ TaskQueue
 Dispatch
 (
 event
+.
+forget
+(
+)
 )
 ;
 UpdateLogicalPosition

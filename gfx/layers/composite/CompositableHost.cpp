@@ -1067,6 +1067,10 @@ CompositableType
 }
 return
 result
+.
+forget
+(
+)
 ;
 }
 void

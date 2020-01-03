@@ -750,6 +750,10 @@ this
 ;
 return
 textureClient
+.
+forget
+(
+)
 ;
 }
 /

@@ -2035,6 +2035,10 @@ elf
 ;
 return
 elf
+.
+forget
+(
+)
 ;
 }
 CustomElf

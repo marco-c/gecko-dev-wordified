@@ -3475,6 +3475,10 @@ true
 }
 return
 retVal
+.
+forget
+(
+)
 ;
 }
 gfxWarning

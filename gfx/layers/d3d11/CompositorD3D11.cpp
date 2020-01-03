@@ -2573,6 +2573,10 @@ clear
 }
 return
 rt
+.
+forget
+(
+)
 ;
 }
 TemporaryRef
@@ -2962,6 +2966,10 @@ Size
 ;
 return
 rt
+.
+forget
+(
+)
 ;
 }
 void

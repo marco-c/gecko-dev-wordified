@@ -1803,6 +1803,10 @@ mTaskQueue
 Dispatch
 (
 task
+.
+forget
+(
+)
 )
 ;
 }
@@ -1852,6 +1856,10 @@ mTaskQueue
 Dispatch
 (
 task
+.
+forget
+(
+)
 )
 ;
 }
@@ -4211,6 +4219,10 @@ mReleaseBufferTaskQueue
 Dispatch
 (
 task
+.
+forget
+(
+)
 )
 ;
 }
@@ -10889,6 +10901,10 @@ mTaskQueue
 Dispatch
 (
 task
+.
+forget
+(
+)
 )
 ;
 }

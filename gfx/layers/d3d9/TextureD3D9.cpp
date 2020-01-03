@@ -1049,6 +1049,10 @@ nullptr
 }
 return
 result
+.
+forget
+(
+)
 ;
 }
 /
@@ -1252,6 +1256,10 @@ surface
 ;
 return
 texture
+.
+forget
+(
+)
 ;
 }
 TemporaryRef
@@ -1345,6 +1353,10 @@ nullptr
 }
 return
 texture
+.
+forget
+(
+)
 ;
 }
 TemporaryRef
@@ -1579,6 +1591,10 @@ surface
 ;
 return
 texture
+.
+forget
+(
+)
 ;
 }
 DataTextureSourceD3D9
@@ -2939,6 +2955,10 @@ nullptr
 }
 return
 tex
+.
+forget
+(
+)
 ;
 }
 bool
@@ -3928,6 +3948,10 @@ Height
 }
 return
 texture
+.
+forget
+(
+)
 ;
 }
 bool

@@ -1232,6 +1232,10 @@ elf
 ;
 return
 elf
+.
+forget
+(
+)
 ;
 }
 bool

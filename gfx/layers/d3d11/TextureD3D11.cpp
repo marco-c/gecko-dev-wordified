@@ -844,6 +844,10 @@ type
 }
 return
 result
+.
+forget
+(
+)
 ;
 }
 TextureClientD3D11
@@ -1152,6 +1156,10 @@ aSize
 ;
 return
 texture
+.
+forget
+(
+)
 ;
 }
 TemporaryRef
@@ -1205,6 +1213,10 @@ nullptr
 }
 return
 tex
+.
+forget
+(
+)
 ;
 }
 void
@@ -3047,6 +3059,10 @@ aSizeCbCr
 ;
 return
 texture
+.
+forget
+(
+)
 ;
 }
 bool

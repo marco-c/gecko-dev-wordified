@@ -1975,6 +1975,10 @@ flags
 ;
 return
 handle
+.
+forget
+(
+)
 ;
 }
 /

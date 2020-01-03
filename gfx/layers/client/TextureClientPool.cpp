@@ -672,6 +672,10 @@ mOutstandingClients
 ;
 return
 textureClient
+.
+forget
+(
+)
 ;
 }
 /
@@ -849,6 +853,10 @@ mOutstandingClients
 ;
 return
 textureClient
+.
+forget
+(
+)
 ;
 }
 void
