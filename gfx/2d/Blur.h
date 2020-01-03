@@ -709,7 +709,7 @@ method
 .
 If
 *
-negative
+zero
 the
 class
 is
@@ -762,7 +762,7 @@ bytes
 .
 *
 /
-int32_t
+size_t
 GetSurfaceAllocationSize
 (
 )
@@ -1086,7 +1086,7 @@ operation
 .
 *
 /
-int32_t
+size_t
 mSurfaceAllocationSize
 ;
 /
