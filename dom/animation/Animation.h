@@ -653,6 +653,9 @@ virtual
 void
 Play
 (
+ErrorResult
+&
+aRv
 LimitBehavior
 aLimitBehavior
 )
@@ -794,10 +797,14 @@ virtual
 void
 PlayFromJS
 (
+ErrorResult
+&
+aRv
 )
 {
 Play
 (
+aRv
 LimitBehavior
 :
 :
@@ -2179,6 +2186,9 @@ DoCancel
 void
 DoPlay
 (
+ErrorResult
+&
+aRv
 LimitBehavior
 aLimitBehavior
 )
