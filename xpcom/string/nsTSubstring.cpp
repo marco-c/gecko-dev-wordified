@@ -182,7 +182,10 @@ STRING_STAT_INCREMENT
 Adopt
 )
 ;
-MOZ_LOG_CTOR
+#
+ifdef
+NS_BUILD_REFCNT_LOGGING
+NS_LogCtor
 (
 mData
 "
@@ -191,6 +194,8 @@ StringAdopt
 1
 )
 ;
+#
+endif
 }
 }
 #
@@ -2737,6 +2742,9 @@ STRING_STAT_INCREMENT
 Adopt
 )
 ;
+#
+ifdef
+NS_BUILD_REFCNT_LOGGING
 /
 /
 Treat
@@ -2756,7 +2764,7 @@ leak
 tracking
 purposes
 .
-MOZ_LOG_CTOR
+NS_LogCtor
 (
 mData
 "
@@ -2765,6 +2773,11 @@ StringAdopt
 1
 )
 ;
+#
+endif
+/
+/
+NS_BUILD_REFCNT_LOGGING
 }
 else
 {
