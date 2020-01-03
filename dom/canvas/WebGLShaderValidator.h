@@ -210,17 +210,6 @@ source
 )
 ;
 void
-GetInfo
-(
-ShShaderInfo
-pname
-size_t
-*
-params
-)
-const
-;
-void
 GetInfoLog
 (
 nsACString

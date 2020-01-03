@@ -680,6 +680,11 @@ new
 FenceSync
 (
 mRenderer
+-
+>
+createFenceSync
+(
+)
 handle
 )
 ;

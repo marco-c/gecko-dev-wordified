@@ -552,6 +552,13 @@ EGLNativeDisplayType
 native_display
 )
 ;
+#
+if
+!
+defined
+(
+ANGLE_ENABLE_WINDOWS_STORE
+)
 /
 /
 Validate
@@ -580,6 +587,8 @@ EGL_NO_DISPLAY
 )
 ;
 }
+#
+endif
 EGLint
 requestedDisplayType
 =

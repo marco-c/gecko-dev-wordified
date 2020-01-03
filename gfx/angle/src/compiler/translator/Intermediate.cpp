@@ -1213,6 +1213,9 @@ EOpPreDecrement
 case
 EOpNegative
 :
+case
+EOpPositive
+:
 if
 (
 child

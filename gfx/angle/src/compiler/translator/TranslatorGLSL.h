@@ -96,6 +96,14 @@ root
 private
 :
 void
+writeVersion
+(
+TIntermNode
+*
+root
+)
+;
+void
 writeExtensionBehavior
 (
 )

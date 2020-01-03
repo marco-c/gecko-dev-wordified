@@ -1141,6 +1141,8 @@ const
 char
 *
 value
+bool
+stdgl
 )
 ;
 bool

@@ -694,8 +694,15 @@ supportsSSE2
 )
 {
 #
-ifdef
+if
 ANGLE_PLATFORM_WINDOWS
+&
+&
+!
+defined
+(
+_M_ARM
+)
 static
 bool
 checked

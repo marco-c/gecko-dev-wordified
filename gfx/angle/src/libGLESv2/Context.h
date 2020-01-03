@@ -404,8 +404,6 @@ createTransformFeedback
 GLsync
 createFenceSync
 (
-GLenum
-condition
 )
 ;
 void
@@ -1182,7 +1180,7 @@ RangeUI
 indexRange
 )
 ;
-void
+Error
 sync
 (
 bool

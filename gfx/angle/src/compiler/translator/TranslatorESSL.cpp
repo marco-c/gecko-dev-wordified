@@ -118,6 +118,10 @@ getInfoSink
 .
 obj
 ;
+writePragma
+(
+)
+;
 /
 /
 Write

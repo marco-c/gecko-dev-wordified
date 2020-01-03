@@ -167,6 +167,8 @@ std
 string
 &
 value
+bool
+stdgl
 )
 =
 0
