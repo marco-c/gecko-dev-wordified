@@ -441,6 +441,9 @@ objId
 ReturnStatus
 *
 rs
+bool
+*
+succeeded
 )
 {
 AutoSafeJSContext
@@ -489,6 +492,7 @@ JS_PreventExtensions
 (
 cx
 obj
+succeeded
 )
 )
 return

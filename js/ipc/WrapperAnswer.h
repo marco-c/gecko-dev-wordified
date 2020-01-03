@@ -158,6 +158,9 @@ objId
 ReturnStatus
 *
 rs
+bool
+*
+succeeded
 )
 ;
 bool

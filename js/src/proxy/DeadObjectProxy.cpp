@@ -223,6 +223,9 @@ JSContext
 cx
 HandleObject
 proxy
+bool
+*
+succeeded
 )
 const
 {
