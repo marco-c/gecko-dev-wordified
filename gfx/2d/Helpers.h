@@ -110,12 +110,12 @@ namespace
 gfx
 {
 class
-AutoSaveTransform
+AutoRestoreTransform
 {
 public
 :
 explicit
-AutoSaveTransform
+AutoRestoreTransform
 (
 DrawTarget
 *
@@ -179,7 +179,7 @@ GetTransform
 }
 }
 ~
-AutoSaveTransform
+AutoRestoreTransform
 (
 )
 {
