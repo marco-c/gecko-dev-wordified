@@ -13858,9 +13858,11 @@ inline
 .
 if
 (
-sizeof
+UnboxedPlainObject
+:
+:
+offsetOfData
 (
-JSObject
 )
 +
 layoutSize
