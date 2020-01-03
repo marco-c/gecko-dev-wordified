@@ -7737,6 +7737,13 @@ aWorkerPrivate
 IsServiceWorker
 (
 )
+&
+&
+!
+JSREPORT_IS_WARNING
+(
+mFlags
+)
 )
 {
 nsRefPtr
