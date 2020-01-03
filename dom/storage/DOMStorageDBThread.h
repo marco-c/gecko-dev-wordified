@@ -146,6 +146,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Monitor
 .
 h
@@ -1941,7 +1950,11 @@ I
 /
 O
 thread
+Atomic
+<
 bool
+ReleaseAcquire
+>
 mDBReady
 ;
 /
