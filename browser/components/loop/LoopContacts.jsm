@@ -2759,6 +2759,11 @@ event
 =
 >
 {
+if
+(
+contact
+)
+{
 eventEmitter
 .
 emit
@@ -2769,6 +2774,7 @@ remove
 contact
 )
 ;
+}
 callback
 (
 null
@@ -4242,6 +4248,8 @@ found
 )
 )
 ;
+return
+;
 }
 LoopStorage
 .
@@ -4528,6 +4536,8 @@ found
 )
 )
 ;
+return
+;
 }
 contact
 .
@@ -4686,6 +4696,8 @@ found
 "
 )
 )
+;
+return
 ;
 }
 contact
