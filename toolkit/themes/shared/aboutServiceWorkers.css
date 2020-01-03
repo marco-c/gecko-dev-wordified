@@ -212,3 +212,11 @@ display
 block
 ;
 }
+.
+inactive
+{
+display
+:
+none
+;
+}
