@@ -40625,9 +40625,12 @@ null
 ;
 if
 (
+!
 matched
 )
-{
+return
+pn
+;
 Node
 seq
 =
@@ -40731,10 +40734,6 @@ break
 }
 return
 seq
-;
-}
-return
-pn
 ;
 }
 static
