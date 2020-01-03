@@ -260,6 +260,10 @@ mManager
 (
 aManager
 )
+mWasLastPaintProgressive
+(
+false
+)
 {
 }
 void
@@ -411,6 +415,7 @@ xScale
 mFrameResolution
 .
 yScale
+mWasLastPaintProgressive
 )
 ;
 }
@@ -476,8 +481,14 @@ aCallback
 void
 *
 aCallbackData
+bool
+aIsProgressive
 )
 {
+mWasLastPaintProgressive
+=
+aIsProgressive
+;
 /
 /
 Compare
