@@ -2962,6 +2962,17 @@ in
 build
 :
                 
+#
+copy
+over
+the
+old
+parameters
+to
+update
+the
+template
+                
 post_parameters
 =
 copy
@@ -2974,16 +2985,13 @@ build_parameters
 post_parameters
 [
 '
-artifact_taskid
+taskId
 '
 ]
 =
-build_parameters
-[
-'
-build_slugid
-'
-]
+slugid
+(
+)
                 
 post_task
 =
@@ -3005,17 +3013,6 @@ task
 '
 ]
 post_parameters
-)
-                
-post_task
-[
-'
-taskId
-'
-]
-=
-slugid
-(
 )
                 
 if
