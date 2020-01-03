@@ -2272,6 +2272,13 @@ Shutdown
 (
 )
 ;
+AudioChannelService
+:
+:
+Shutdown
+(
+)
+;
 DataStoreService
 :
 :
