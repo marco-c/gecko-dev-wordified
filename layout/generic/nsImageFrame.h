@@ -101,7 +101,6 @@ for
 replaced
 elements
 with
-bitmap
 image
 data
 *
