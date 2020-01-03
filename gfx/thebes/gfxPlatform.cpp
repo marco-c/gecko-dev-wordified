@@ -6549,6 +6549,9 @@ UseAcceleratedSkiaCanvas
 )
 )
 {
+#
+ifdef
+USE_SKIA_GPU
 bool
 usingDynamicCache
 =
@@ -6698,9 +6701,6 @@ cacheItemLimit
 ;
 #
 endif
-#
-ifdef
-USE_SKIA_GPU
 mSkiaGlue
 -
 >
