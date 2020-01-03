@@ -7412,17 +7412,6 @@ if
 aPlaybackRate
 =
 =
-mInitialPlaybackRate
-)
-{
-return
-;
-}
-if
-(
-aPlaybackRate
-=
-=
 0
 .
 0
