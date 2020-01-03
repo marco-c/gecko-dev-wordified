@@ -4919,16 +4919,15 @@ self
 .
 enabled
 =
-not
 context
-.
-get
-(
+[
 '
-NO_DIST_INSTALL
+DIST_INSTALL
 '
+]
+is
+not
 False
-)
     
 def
 is_custom

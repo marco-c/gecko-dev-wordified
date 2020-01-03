@@ -4008,10 +4008,6 @@ USE_STATIC_LIBS
 '
             
 '
-NO_DIST_INSTALL
-'
-            
-'
 PYTHON_UNIT_TESTS
 '
             
@@ -4263,6 +4259,49 @@ IS_GYP_DIR
 =
 True
         
+dist_install
+=
+context
+[
+'
+DIST_INSTALL
+'
+]
+        
+if
+dist_install
+is
+True
+:
+            
+passthru
+.
+variables
+[
+'
+DIST_INSTALL
+'
+]
+=
+True
+        
+elif
+dist_install
+is
+False
+:
+            
+passthru
+.
+variables
+[
+'
+NO_DIST_INSTALL
+'
+]
+=
+True
+        
 for
 obj
 in
@@ -4301,16 +4340,10 @@ exports
                 
 dist_install
 =
+dist_install
+is
 not
-context
-.
-get
-(
-'
-NO_DIST_INSTALL
-'
 False
-)
 )
         
 for
@@ -5930,9 +5963,11 @@ and
 context
 [
 '
-NO_DIST_INSTALL
+DIST_INSTALL
 '
 ]
+is
+False
 :
             
 self
@@ -5960,7 +5995,9 @@ main_path
 path
 }
 :
-NO_DIST_INSTALL
+DIST_INSTALL
+=
+False
 has
 no
 effect
