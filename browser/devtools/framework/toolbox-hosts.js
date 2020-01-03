@@ -1692,6 +1692,15 @@ ownerDocument
 .
 defaultView
 ;
+if
+(
+!
+topWindow
+)
+{
+return
+;
+}
 let
 json
 =
