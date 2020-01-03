@@ -872,6 +872,18 @@ formatMessage
 )
 ;
 UniqueChars
+formatCompactSliceMessage
+(
+)
+const
+;
+UniqueChars
+formatCompactSummaryMessage
+(
+)
+const
+;
+UniqueChars
 formatJsonMessage
 (
 uint64_t
@@ -1154,6 +1166,7 @@ times
 /
 typedef
 int64_t
+const
 (
 *
 PhaseTimeTable
@@ -1370,6 +1383,7 @@ us
 .
 *
 /
+mutable
 int64_t
 maxPauseInInterval
 ;
@@ -1548,6 +1562,7 @@ int64_t
 *
 maxPause
 )
+const
 ;
 void
 sccDurations
@@ -1574,6 +1589,14 @@ ss
 uint64_t
 timestamp
 )
+;
+UniqueChars
+formatCompactSlicePhaseTimes
+(
+PhaseTimeTable
+phaseTimes
+)
+const
 ;
 UniqueChars
 formatDetailedDescription
@@ -1634,6 +1657,7 @@ computeMMU
 int64_t
 resolution
 )
+const
 ;
 }
 ;
