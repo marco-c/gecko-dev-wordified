@@ -150,6 +150,9 @@ class
 nsITextServicesFilter
 ;
 class
+nsRange
+;
+class
 nsFilteredContentIterator
 MOZ_FINAL
 :
@@ -389,9 +392,9 @@ nsITextServicesFilter
 >
 mFilter
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMRange
+nsRange
 >
 mRange
 ;

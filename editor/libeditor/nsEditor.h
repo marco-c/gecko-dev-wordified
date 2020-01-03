@@ -381,9 +381,6 @@ class
 nsIDOMNode
 ;
 class
-nsIDOMRange
-;
-class
 nsIDocument
 ;
 class
@@ -3830,7 +3827,7 @@ nsIDOMNode
 aEndParent
 int32_t
 aEndOffset
-nsIDOMRange
+nsRange
 *
 *
 aRange

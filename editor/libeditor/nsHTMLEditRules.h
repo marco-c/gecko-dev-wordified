@@ -202,9 +202,6 @@ class
 nsIDOMNode
 ;
 class
-nsIDOMRange
-;
-class
 nsIEditor
 ;
 class
@@ -1878,9 +1875,12 @@ dom
 Selection
 *
 aSelection
-nsCOMArray
+nsTArray
 <
-nsIDOMRange
+nsRefPtr
+<
+nsRange
+>
 >
 &
 outArrayOfRanges
@@ -1891,7 +1891,7 @@ inOperationType
 nsresult
 PromoteRange
 (
-nsIDOMRange
+nsRange
 *
 inRange
 EditAction
@@ -1901,9 +1901,12 @@ inOperationType
 nsresult
 GetNodesForOperation
 (
-nsCOMArray
+nsTArray
 <
-nsIDOMRange
+nsRefPtr
+<
+nsRange
+>
 >
 &
 inArrayOfRanges
@@ -2443,7 +2446,7 @@ aResult
 nsresult
 UpdateDocChangeRange
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )

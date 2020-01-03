@@ -490,9 +490,9 @@ mSelEndIndex
 int32_t
 mSelEndOffset
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMRange
+nsRange
 >
 mExtent
 ;
@@ -927,7 +927,7 @@ static
 nsresult
 GetRangeEndPoints
 (
-nsIDOMRange
+nsRange
 *
 aRange
 nsIDOMNode
@@ -960,7 +960,7 @@ nsIDOMNode
 aEndParent
 int32_t
 aEndOffset
-nsIDOMRange
+nsRange
 *
 *
 aRange
@@ -979,7 +979,7 @@ methods
 nsresult
 CreateContentIterator
 (
-nsIDOMRange
+nsRange
 *
 aRange
 nsIContentIterator
@@ -1000,7 +1000,7 @@ aNode
 nsresult
 CreateDocumentContentRange
 (
-nsIDOMRange
+nsRange
 *
 *
 aRange
@@ -1016,7 +1016,7 @@ int32_t
 aOffset
 bool
 aToStart
-nsIDOMRange
+nsRange
 *
 *
 aRange
@@ -1242,7 +1242,7 @@ aIterator
 TSDIteratorStatus
 *
 aIteratorStatus
-nsIDOMRange
+nsRange
 *
 aIterRange
 nsString

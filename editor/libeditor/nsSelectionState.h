@@ -141,9 +141,6 @@ class
 nsIDOMCharacterData
 ;
 class
-nsIDOMRange
-;
-class
 nsRange
 ;
 namespace

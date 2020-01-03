@@ -238,18 +238,6 @@ nsIDOMNode
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-/
-/
-for
-nsIDOMRange
-etc
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -1191,7 +1179,7 @@ nsRangeUpdater
 class
 for
 updating
-nsIDOMRanges
+nsRanges
 in
 response
 to
