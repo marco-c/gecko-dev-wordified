@@ -53234,7 +53234,9 @@ mHTMLEditor
 >
 JoinNodes
 (
+*
 nodeLeft
+*
 nodeRight
 )
 ;
@@ -53339,7 +53341,9 @@ mHTMLEditor
 >
 JoinNodes
 (
+*
 nodeLeft
+*
 nodeRight
 )
 ;

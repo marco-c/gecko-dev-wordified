@@ -3118,7 +3118,9 @@ res
 =
 JoinNodes
 (
+*
 previousSibling
+*
 nextSibling
 )
 ;
