@@ -531,6 +531,13 @@ totalLengthOfGaps
 .
 0
 ;
+Float
+pathScale
+=
+1
+.
+0
+;
 if
 (
 aContextPaint
@@ -696,13 +703,6 @@ return
 eContinuousStroke
 ;
 }
-Float
-pathScale
-=
-1
-.
-0
-;
 if
 (
 aElement
@@ -1183,6 +1183,8 @@ aStyleSVG
 >
 mStrokeDashoffset
 )
+*
+pathScale
 ;
 }
 return
