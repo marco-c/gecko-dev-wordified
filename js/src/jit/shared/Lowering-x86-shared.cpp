@@ -4702,7 +4702,7 @@ operation
 MSimdBinaryArith
 :
 :
-Mul
+Op_mul
 &
 &
 !
@@ -4798,7 +4798,7 @@ operation
 MSimdBinaryArith
 :
 :
-Max
+Op_max
 |
 |
 ins
@@ -4812,7 +4812,7 @@ operation
 MSimdBinaryArith
 :
 :
-MinNum
+Op_minNum
 |
 |
 ins
@@ -4826,7 +4826,7 @@ operation
 MSimdBinaryArith
 :
 :
-MaxNum
+Op_maxNum
 ;
 lir
 -
