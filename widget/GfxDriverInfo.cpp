@@ -1121,6 +1121,11 @@ APPEND_DEVICE
 IntelQ45_2
 *
 /
+break
+;
+case
+IntelHDGraphicsToIvyBridge
+:
 APPEND_DEVICE
 (
 0x0042
