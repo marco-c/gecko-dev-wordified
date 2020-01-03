@@ -3224,6 +3224,13 @@ unused
 /
 )
 ;
+enum
+LoadGroupBehavior
+{
+InheritLoadGroup
+ForceNewLoadGroup
+}
+;
 static
 nsresult
 GetLoadInfo
@@ -3243,6 +3250,8 @@ nsAString
 aScriptURL
 bool
 aIsChromeWorker
+LoadGroupBehavior
+aLoadGroupBehavior
 LoadInfo
 *
 aLoadInfo

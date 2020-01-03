@@ -11124,6 +11124,10 @@ window
 nullptr
 aScriptURL
 false
+WorkerPrivate
+:
+:
+ForceNewLoadGroup
 &
 loadInfo
 )
