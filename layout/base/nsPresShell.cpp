@@ -43710,6 +43710,11 @@ if
 defaultPrevented
 )
 {
+*
+aStatus
+=
+nsEventStatus_eConsumeNoDefault
+;
 DispatchAfterKeyboardEventInternal
 (
 chain
