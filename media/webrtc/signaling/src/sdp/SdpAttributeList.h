@@ -597,10 +597,7 @@ const
 ;
 virtual
 const
-std
-:
-:
-string
+SdpMsidSemanticAttributeList
 &
 GetMsidSemantic
 (
