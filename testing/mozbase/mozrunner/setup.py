@@ -70,7 +70,7 @@ PACKAGE_VERSION
 '
 6
 .
-7
+8
 '
 desc
 =
