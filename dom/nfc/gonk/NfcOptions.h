@@ -563,6 +563,11 @@ mMinorVersion
 -
 1
 )
+mIsP2P
+(
+-
+1
+)
 mTagType
 (
 -
@@ -626,6 +631,9 @@ nsTArray
 uint8_t
 >
 mTechList
+;
+bool
+mIsP2P
 ;
 nsTArray
 <

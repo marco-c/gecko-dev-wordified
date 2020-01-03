@@ -231,10 +231,7 @@ is
 (
 msg
 .
-techList
-[
-0
-]
+isP2P
 "
 P2P
 "
@@ -312,10 +309,7 @@ is
 (
 msg
 .
-techList
-[
-0
-]
+isP2P
 "
 P2P
 "

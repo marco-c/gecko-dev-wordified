@@ -1082,6 +1082,12 @@ Elements
 }
 }
 }
+COPY_OPT_FIELD
+(
+mIsP2P
+-
+1
+)
 if
 (
 mEvent
