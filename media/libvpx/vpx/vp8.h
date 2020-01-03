@@ -232,10 +232,10 @@ decoder
 /
 #
 ifndef
-VP8_H
+VPX_VP8_H_
 #
 define
-VP8_H
+VPX_VP8_H_
 #
 include
 "
@@ -980,3 +980,6 @@ C
 endif
 #
 endif
+/
+/
+VPX_VP8_H_

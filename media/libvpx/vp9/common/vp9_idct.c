@@ -762,7 +762,7 @@ dest
 }
 static
 void
-idct4_1d
+idct4
 (
 const
 int16_t
@@ -1016,7 +1016,7 @@ i
 i
 )
 {
-idct4_1d
+idct4
 (
 input
 outptr
@@ -1079,7 +1079,7 @@ j
 i
 ]
 ;
-idct4_1d
+idct4
 (
 temp_in
 temp_out
@@ -1265,7 +1265,7 @@ dest_stride
 }
 static
 void
-idct8_1d
+idct8
 (
 const
 int16_t
@@ -1448,7 +1448,7 @@ stage
 -
 even
 half
-idct4_1d
+idct4
 (
 step1
 step1
@@ -1788,7 +1788,7 @@ i
 i
 )
 {
-idct8_1d
+idct8
 (
 input
 outptr
@@ -1853,7 +1853,7 @@ j
 i
 ]
 ;
-idct8_1d
+idct8
 (
 temp_in
 temp_out
@@ -2009,7 +2009,7 @@ stride
 }
 static
 void
-iadst4_1d
+iadst4
 (
 const
 int16_t
@@ -2317,8 +2317,8 @@ IHT_4
 =
 {
 {
-idct4_1d
-idct4_1d
+idct4
+idct4
 }
 /
 /
@@ -2326,8 +2326,8 @@ DCT_DCT
 =
 0
 {
-iadst4_1d
-idct4_1d
+iadst4
+idct4
 }
 /
 /
@@ -2335,8 +2335,8 @@ ADST_DCT
 =
 1
 {
-idct4_1d
-iadst4_1d
+idct4
+iadst4
 }
 /
 /
@@ -2344,8 +2344,8 @@ DCT_ADST
 =
 2
 {
-iadst4_1d
-iadst4_1d
+iadst4
+iadst4
 }
 /
 /
@@ -2533,7 +2533,7 @@ i
 }
 static
 void
-iadst8_1d
+iadst8
 (
 const
 int16_t
@@ -3104,8 +3104,8 @@ IHT_8
 =
 {
 {
-idct8_1d
-idct8_1d
+idct8
+idct8
 }
 /
 /
@@ -3113,8 +3113,8 @@ DCT_DCT
 =
 0
 {
-iadst8_1d
-idct8_1d
+iadst8
+idct8
 }
 /
 /
@@ -3122,8 +3122,8 @@ ADST_DCT
 =
 1
 {
-idct8_1d
-iadst8_1d
+idct8
+iadst8
 }
 /
 /
@@ -3131,8 +3131,8 @@ DCT_ADST
 =
 2
 {
-iadst8_1d
-iadst8_1d
+iadst8
+iadst8
 }
 /
 /
@@ -3338,7 +3338,7 @@ i
 }
 }
 void
-vp9_idct8x8_10_add_c
+vp9_idct8x8_12_add_c
 (
 const
 int16_t
@@ -3414,7 +3414,7 @@ i
 i
 )
 {
-idct8_1d
+idct8
 (
 input
 outptr
@@ -3479,7 +3479,7 @@ j
 i
 ]
 ;
-idct8_1d
+idct8
 (
 temp_in
 temp_out
@@ -3533,7 +3533,7 @@ i
 }
 static
 void
-idct16_1d
+idct16
 (
 const
 int16_t
@@ -5467,7 +5467,7 @@ i
 i
 )
 {
-idct16_1d
+idct16
 (
 input
 outptr
@@ -5532,7 +5532,7 @@ j
 i
 ]
 ;
-idct16_1d
+idct16
 (
 temp_in
 temp_out
@@ -5586,7 +5586,7 @@ i
 }
 static
 void
-iadst16_1d
+iadst16
 (
 const
 int16_t
@@ -6924,8 +6924,8 @@ IHT_16
 =
 {
 {
-idct16_1d
-idct16_1d
+idct16
+idct16
 }
 /
 /
@@ -6933,8 +6933,8 @@ DCT_DCT
 =
 0
 {
-iadst16_1d
-idct16_1d
+iadst16
+idct16
 }
 /
 /
@@ -6942,8 +6942,8 @@ ADST_DCT
 =
 1
 {
-idct16_1d
-iadst16_1d
+idct16
+iadst16
 }
 /
 /
@@ -6951,8 +6951,8 @@ DCT_ADST
 =
 2
 {
-iadst16_1d
-iadst16_1d
+iadst16
+iadst16
 }
 /
 /
@@ -7244,7 +7244,7 @@ i
 i
 )
 {
-idct16_1d
+idct16
 (
 input
 outptr
@@ -7309,7 +7309,7 @@ j
 i
 ]
 ;
-idct16_1d
+idct16
 (
 temp_in
 temp_out
@@ -7465,7 +7465,7 @@ stride
 }
 static
 void
-idct32_1d
+idct32
 (
 const
 int16_t
@@ -12035,7 +12035,7 @@ zero_coeff
 1
 ]
 )
-idct32_1d
+idct32
 (
 input
 outptr
@@ -12111,7 +12111,7 @@ j
 i
 ]
 ;
-idct32_1d
+idct32
 (
 temp_in
 temp_out
@@ -12239,7 +12239,7 @@ i
 i
 )
 {
-idct32_1d
+idct32
 (
 input
 outptr
@@ -12302,7 +12302,7 @@ j
 i
 ]
 ;
-idct32_1d
+idct32
 (
 temp_in
 temp_out
@@ -12647,11 +12647,6 @@ here
 if
 (
 eob
-)
-{
-if
-(
-eob
 =
 =
 1
@@ -12675,9 +12670,9 @@ if
 eob
 <
 =
-10
+12
 )
-vp9_idct8x8_10_add
+vp9_idct8x8_12_add
 (
 input
 dest
@@ -12692,7 +12687,6 @@ dest
 stride
 )
 ;
-}
 }
 void
 vp9_idct16x16_add
@@ -12741,11 +12735,6 @@ cases
 if
 (
 eob
-)
-{
-if
-(
-eob
 =
 =
 1
@@ -12790,7 +12779,6 @@ stride
 )
 ;
 }
-}
 void
 vp9_idct32x32_add
 (
@@ -12804,11 +12792,6 @@ dest
 int
 stride
 int
-eob
-)
-{
-if
-(
 eob
 )
 {
@@ -12861,7 +12844,6 @@ dest
 stride
 )
 ;
-}
 }
 /
 /
@@ -12946,13 +12928,6 @@ eob
 }
 else
 {
-if
-(
-eob
->
-0
-)
-{
 vp9_iht8x8_64_add
 (
 input
@@ -12961,7 +12936,6 @@ stride
 tx_type
 )
 ;
-}
 }
 }
 void
@@ -13001,13 +12975,6 @@ eob
 }
 else
 {
-if
-(
-eob
->
-0
-)
-{
 vp9_iht16x16_256_add
 (
 input
@@ -13016,6 +12983,5 @@ stride
 tx_type
 )
 ;
-}
 }
 }

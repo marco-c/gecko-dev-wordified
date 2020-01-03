@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPXSCALE_H
+VPX_SCALE_VPX_SCALE_H_
 #
 define
-VPXSCALE_H
+VPX_SCALE_VPX_SCALE_H_
 #
 include
 "
@@ -136,3 +136,6 @@ interlaced
 ;
 #
 endif
+/
+/
+VPX_SCALE_VPX_SCALE_H_

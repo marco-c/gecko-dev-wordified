@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-__VPX_MEM_INTRNL_H__
+VPX_MEM_INCLUDE_VPX_MEM_INTRNL_H_
 #
 define
-__VPX_MEM_INTRNL_H__
+VPX_MEM_INCLUDE_VPX_MEM_INTRNL_H_
 #
 include
 "
@@ -549,7 +549,5 @@ align
 #
 endif
 /
-*
-__VPX_MEM_INTRNL_H__
-*
 /
+VPX_MEM_INCLUDE_VPX_MEM_INTRNL_H_

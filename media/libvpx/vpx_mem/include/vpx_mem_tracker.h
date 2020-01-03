@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-__VPX_MEM_TRACKER_H__
+VPX_MEM_INCLUDE_VPX_MEM_TRACKER_H_
 #
 define
-__VPX_MEM_TRACKER_H__
+VPX_MEM_INCLUDE_VPX_MEM_TRACKER_H_
 /
 *
 vpx_mem_tracker
@@ -1036,4 +1036,4 @@ endif
 endif
 /
 /
-__VPX_MEM_TRACKER_H__
+VPX_MEM_INCLUDE_VPX_MEM_TRACKER_H_

@@ -6340,7 +6340,7 @@ q6
 }
 }
 void
-vp9_mb_lpf_horizontal_edge_w_avx2
+vp9_lpf_horizontal_16_avx2
 (
 unsigned
 char

@@ -7174,6 +7174,9 @@ vp8_bits_per_mb
 mode_cost
 =
 (
+int64_t
+)
+(
 (
 (
 (
@@ -16076,6 +16079,9 @@ twopass
 alt_extra_bits
 =
 (
+int
+)
+(
 cpi
 -
 >
@@ -16551,6 +16557,9 @@ gf_group_bits
 )
 target_frame_size
 =
+(
+int
+)
 cpi
 -
 >
@@ -16876,7 +16885,6 @@ with
 its
 current
 meaning
-but
 this
 code
 is
@@ -16908,7 +16916,7 @@ is
 *
 temporary
 code
-till
+until
 we
 decide
 what
@@ -19108,14 +19116,14 @@ coded_error
 ;
 /
 *
-load
-a
+Load
 the
 next
 frame
 '
 s
 stats
+.
 *
 /
 vpx_memcpy

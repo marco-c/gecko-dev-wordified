@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_PORTS_MEM_H
+VPX_PORTS_MEM_H_
 #
 define
-VPX_PORTS_MEM_H
+VPX_PORTS_MEM_H_
 #
 include
 "
@@ -380,3 +380,6 @@ x
 x
 #
 endif
+/
+/
+VPX_PORTS_MEM_H_

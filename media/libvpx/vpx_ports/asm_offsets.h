@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_PORTS_ASM_OFFSETS_H
+VPX_PORTS_ASM_OFFSETS_H_
 #
 define
-VPX_PORTS_ASM_OFFSETS_H
+VPX_PORTS_ASM_OFFSETS_H_
 #
 include
 <
@@ -219,7 +219,5 @@ endif
 #
 endif
 /
-*
-VPX_PORTS_ASM_OFFSETS_H
-*
 /
+VPX_PORTS_ASM_OFFSETS_H_
