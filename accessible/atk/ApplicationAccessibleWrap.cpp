@@ -511,7 +511,7 @@ nightly
 Thunderbird
 )
 .
-GetAppName
+AppName
 (
 aName
 )
