@@ -6129,12 +6129,6 @@ gestures
 /
 private
 :
-UniquePtr
-<
-InputBlockState
->
-mPanGestureState
-;
 /
 *
 =
