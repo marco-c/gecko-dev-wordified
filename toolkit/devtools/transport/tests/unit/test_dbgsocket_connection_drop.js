@@ -383,7 +383,15 @@ allowConnection
 )
 =
 >
-true
+{
+return
+DebuggerServer
+.
+AuthenticationResult
+.
+ALLOW
+;
+}
 ;
 let
 listener
