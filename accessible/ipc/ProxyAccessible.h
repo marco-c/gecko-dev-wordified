@@ -503,6 +503,9 @@ protected
 :
 ProxyAccessible
 (
+DocAccessibleParent
+*
+aThisAsDoc
 )
 :
 mParent
@@ -511,7 +514,7 @@ nullptr
 )
 mDoc
 (
-nullptr
+aThisAsDoc
 )
 mWrapper
 (
@@ -520,6 +523,13 @@ mWrapper
 mID
 (
 0
+)
+mRole
+(
+roles
+:
+:
+DOCUMENT
 )
 {
 MOZ_COUNT_CTOR
