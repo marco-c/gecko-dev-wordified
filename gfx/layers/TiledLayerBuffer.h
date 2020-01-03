@@ -4235,7 +4235,6 @@ range
 )
 ;
 Tile
-&
 newTile
 =
 newRetainedTiles
@@ -4381,6 +4380,8 @@ tileStartX
 tileStartY
 )
 ;
+newTile
+=
 AsDerived
 (
 )
@@ -4442,6 +4443,13 @@ index
 ;
 #
 endif
+newRetainedTiles
+[
+index
+]
+=
+newTile
+;
 y
 +
 =

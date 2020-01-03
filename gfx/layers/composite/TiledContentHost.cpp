@@ -1147,14 +1147,13 @@ ClearPaintedRegion
 )
 ;
 }
-void
+TileHost
 TiledLayerBufferComposite
 :
 :
 ValidateTile
 (
 TileHost
-&
 aTile
 const
 nsIntPoint
@@ -1188,6 +1187,7 @@ region
 )
 ;
 return
+aTile
 ;
 }
 #
@@ -1401,6 +1401,9 @@ start
 }
 #
 endif
+return
+aTile
+;
 }
 void
 TiledLayerBufferComposite
