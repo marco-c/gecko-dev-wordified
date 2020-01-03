@@ -428,6 +428,16 @@ ErrorResult
 aRv
 )
 ;
+static
+void
+ForceClose
+(
+const
+MessagePortIdentifier
+&
+aIdentifier
+)
+;
 virtual
 JSObject
 *
