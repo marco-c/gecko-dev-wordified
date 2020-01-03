@@ -1142,7 +1142,7 @@ break
 ;
 }
 case
-NS_BLUR_CONTENT
+eBlur
 :
 {
 OnFocusBlurPlugin
@@ -1451,7 +1451,7 @@ t
 necessarily
 sent
 an
-NS_BLUR_CONTENT
+eBlur
 event
 .
 See

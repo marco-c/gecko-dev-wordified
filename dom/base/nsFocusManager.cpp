@@ -5836,7 +5836,7 @@ presShell
 {
 SendFocusOrBlurEvent
 (
-NS_BLUR_CONTENT
+eBlur
 presShell
 oldFocusedContent
 -
@@ -10818,7 +10818,7 @@ nullptr
 ;
 SendFocusOrBlurEvent
 (
-NS_BLUR_CONTENT
+eBlur
 presShell
 content
 -
@@ -11174,7 +11174,7 @@ doc
 )
 SendFocusOrBlurEvent
 (
-NS_BLUR_CONTENT
+eBlur
 presShell
 doc
 doc
@@ -11191,7 +11191,7 @@ nullptr
 )
 SendFocusOrBlurEvent
 (
-NS_BLUR_CONTENT
+eBlur
 presShell
 doc
 window
@@ -12931,7 +12931,7 @@ eFocus
 aEventMessage
 =
 =
-NS_BLUR_CONTENT
+eBlur
 "
 Wrong
 event

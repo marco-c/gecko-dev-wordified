@@ -1548,7 +1548,7 @@ eBasicEventClass
 FORWARDED_EVENT
 (
 blur
-NS_BLUR_CONTENT
+eBlur
 EventNameType_HTMLXUL
 eFocusEventClass
 )

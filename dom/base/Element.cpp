@@ -16502,7 +16502,7 @@ case
 eMouseOut
 :
 case
-NS_BLUR_CONTENT
+eBlur
 :
 break
 ;
@@ -16713,7 +16713,7 @@ nsEventStatus_eConsumeNoDefault
 FALL
 THROUGH
 case
-NS_BLUR_CONTENT
+eBlur
 :
 rv
 =

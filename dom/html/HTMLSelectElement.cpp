@@ -8207,7 +8207,7 @@ mEvent
 mMessage
 =
 =
-NS_BLUR_CONTENT
+eBlur
 )
 {
 mCanShowInvalidUI

@@ -672,7 +672,7 @@ eFocusEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_BLUR_CONTENT
+eBlur
 eFocusEventFirst
 +
 1

@@ -13475,7 +13475,7 @@ break
 ;
 }
 case
-NS_BLUR_CONTENT
+eBlur
 :
 {
 nsIFormControlFrame

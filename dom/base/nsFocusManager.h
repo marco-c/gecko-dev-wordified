@@ -1818,7 +1818,7 @@ be
 either
 eFocus
 or
-NS_BLUR_CONTENT
+eBlur
 .
 *
 For

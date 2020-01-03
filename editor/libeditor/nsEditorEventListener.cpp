@@ -2902,7 +2902,7 @@ aEvent
 /
 blur
 case
-NS_BLUR_CONTENT
+eBlur
 :
 return
 Blur
