@@ -1060,7 +1060,7 @@ eMouseEventClass
 EVENT
 (
 drag
-NS_DRAGDROP_DRAG
+eDrag
 EventNameType_HTMLXUL
 eDragEventClass
 )
