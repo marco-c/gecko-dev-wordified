@@ -227,8 +227,6 @@ nsISupports
 *
 *
 ppArgRef
-MutableHandleValue
-vp
 )
 {
 nsISupports
@@ -451,18 +449,6 @@ nsISupports
 (
 *
 ppArg
-)
-;
-vp
-.
-setObjectOrNull
-(
-wrappedJS
--
->
-GetJSObject
-(
-)
 )
 ;
 }

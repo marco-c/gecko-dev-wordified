@@ -169,11 +169,6 @@ nsISupports
 *
 *
 ppArgRef
-JS
-:
-:
-MutableHandleValue
-vp
 )
 ;
 #
