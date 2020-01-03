@@ -951,11 +951,6 @@ String
 {
 mStringHelper
 .
-PAINT_FLASHING_LABEL
-}
-{
-mStringHelper
-.
 REMOTE_DEBUGGING_LABEL
 }
 {
