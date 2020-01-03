@@ -5513,6 +5513,16 @@ addStunServer
 (
 stun_addr
 stun_port
+kNrIceTransportUdp
+)
+;
+cfg_
+.
+addStunServer
+(
+stun_addr
+stun_port
+kNrIceTransportTcp
 )
 ;
 PeerConnectionImpl

@@ -2175,6 +2175,13 @@ local
 >
 osock
 PEER_REFLEXIVE
+pair
+-
+>
+local
+-
+>
+tcp_type
 0
 pair
 -

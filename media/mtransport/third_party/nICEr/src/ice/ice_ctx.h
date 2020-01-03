@@ -391,6 +391,9 @@ u
 int
 index
 ;
+int
+transport
+;
 }
 nr_ice_stun_server
 ;
@@ -400,9 +403,6 @@ nr_ice_turn_server_
 {
 nr_ice_stun_server
 turn_server
-;
-int
-transport
 ;
 char
 *

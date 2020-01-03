@@ -1981,7 +1981,7 @@ stun_server_ct
 }
 /
 *
-255
+31
 is
 the
 max
@@ -1998,7 +1998,7 @@ ctx
 >
 stun_server_ct
 >
-255
+31
 )
 {
 r_log
@@ -2020,7 +2020,7 @@ specified
 :
 max
 =
-255
+31
 "
 ctx
 -
@@ -2033,7 +2033,7 @@ ctx
 >
 stun_server_ct
 =
-255
+31
 ;
 }
 if
@@ -2206,7 +2206,7 @@ local_addr_ct
 ;
 /
 *
-255
+31
 is
 the
 max
@@ -2230,7 +2230,7 @@ ctx
 turn_server_ct
 )
 >
-255
+31
 )
 {
 r_log
@@ -2254,7 +2254,7 @@ specified
 :
 max
 =
-255
+31
 "
 ctx
 -
@@ -2267,7 +2267,7 @@ ctx
 >
 turn_server_ct
 =
-255
+31
 -
 ctx
 -
