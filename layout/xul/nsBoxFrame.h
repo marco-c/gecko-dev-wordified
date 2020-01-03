@@ -215,6 +215,8 @@ nsBoxFrame
 public
 nsContainerFrame
 {
+protected
+:
 typedef
 mozilla
 :
