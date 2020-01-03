@@ -9186,6 +9186,9 @@ const
 #
 ifdef
 DEBUG
+workers
+:
+:
 WorkerPrivate
 *
 worker
