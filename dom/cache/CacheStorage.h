@@ -270,6 +270,8 @@ aGlobal
 nsIPrincipal
 *
 aPrincipal
+bool
+aPrivateBrowsing
 ErrorResult
 &
 aRv
