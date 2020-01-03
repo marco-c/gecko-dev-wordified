@@ -359,8 +359,7 @@ aMayBlock
 =
 *
 /
-!
-aBytes
+true
 )
 ;
 }
@@ -736,8 +735,7 @@ aMayBlock
 =
 *
 /
-!
-aBytes
+true
 )
 ;
 }
