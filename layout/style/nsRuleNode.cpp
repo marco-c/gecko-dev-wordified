@@ -6970,15 +6970,6 @@ mSize
 NS_STYLE_GRADIENT_SIZE_FARTHEST_CORNER
 ;
 }
-aResult
-.
-mLegacySyntax
-=
-gradient
--
->
-mIsLegacySyntax
-;
 /
 /
 bg

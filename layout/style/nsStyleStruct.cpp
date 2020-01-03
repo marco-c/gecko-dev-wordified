@@ -10409,14 +10409,6 @@ aOther
 mRepeating
 |
 |
-mLegacySyntax
-!
-=
-aOther
-.
-mLegacySyntax
-|
-|
 mBgPosX
 !
 =
@@ -10585,10 +10577,6 @@ mSize
 NS_STYLE_GRADIENT_SIZE_FARTHEST_CORNER
 )
 mRepeating
-(
-false
-)
-mLegacySyntax
 (
 false
 )
