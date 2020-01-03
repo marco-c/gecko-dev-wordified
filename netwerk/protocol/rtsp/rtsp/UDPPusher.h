@@ -224,9 +224,7 @@ enum
 {
 kWhatPush
 =
-'
-push
-'
+1
 }
 ;
 FILE
