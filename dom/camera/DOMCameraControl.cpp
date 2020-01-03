@@ -1628,6 +1628,17 @@ __LINE__
 this
 )
 ;
+/
+*
+invoke
+DOMMdediastream
+destroy
+*
+/
+Destroy
+(
+)
+;
 }
 JSObject
 *
