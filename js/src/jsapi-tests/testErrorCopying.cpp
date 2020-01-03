@@ -167,7 +167,7 @@ testErrorCopying_columnCopied
 2
 /
 /
-0123456789012345678901234567
+1234567890123456789012345678
 EXEC
 (
 "
@@ -228,7 +228,7 @@ CHECK
 column
 =
 =
-27
+28
 )
 ;
 return
