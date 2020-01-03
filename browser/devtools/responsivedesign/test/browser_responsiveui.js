@@ -1881,7 +1881,8 @@ expectedValue
 initialWidth
 +
 "
-x
+\
+u00D7
 "
 +
 initialHeight
