@@ -5666,7 +5666,9 @@ inspect
 ;
 jsterm
 .
-focusInput
+inputNode
+.
+focus
 (
 )
 ;
