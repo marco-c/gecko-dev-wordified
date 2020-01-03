@@ -45,6 +45,7 @@ snapshot
 *
 /
 function
+*
 ifTestingSupported
 (
 )

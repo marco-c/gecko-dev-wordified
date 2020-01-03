@@ -50,6 +50,7 @@ recording
 *
 /
 function
+*
 ifTestingSupported
 (
 )

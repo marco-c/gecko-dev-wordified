@@ -46,6 +46,7 @@ properly
 *
 /
 function
+*
 ifTestingSupported
 (
 )

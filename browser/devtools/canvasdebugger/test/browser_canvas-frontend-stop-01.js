@@ -49,6 +49,7 @@ cycle
 *
 /
 function
+*
 ifTestingSupported
 (
 )

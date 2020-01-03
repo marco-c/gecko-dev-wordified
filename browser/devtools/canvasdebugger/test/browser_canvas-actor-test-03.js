@@ -52,6 +52,7 @@ context
 *
 /
 function
+*
 ifTestingSupported
 (
 )

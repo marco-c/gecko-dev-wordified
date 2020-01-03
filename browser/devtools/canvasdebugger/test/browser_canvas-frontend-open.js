@@ -47,6 +47,7 @@ tool
 *
 /
 function
+*
 ifTestingSupported
 (
 )

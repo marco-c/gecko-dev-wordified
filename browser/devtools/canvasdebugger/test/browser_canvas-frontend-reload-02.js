@@ -45,6 +45,7 @@ reloading
 *
 /
 function
+*
 ifTestingSupported
 (
 )

@@ -59,6 +59,7 @@ call
 *
 /
 function
+*
 ifTestingSupported
 (
 )

@@ -52,6 +52,7 @@ timeout
 *
 /
 function
+*
 ifTestingSupported
 (
 )

@@ -55,6 +55,7 @@ retrieved
 *
 /
 function
+*
 ifTestingSupported
 (
 )

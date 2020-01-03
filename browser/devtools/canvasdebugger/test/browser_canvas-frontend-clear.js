@@ -44,6 +44,7 @@ expected
 *
 /
 function
+*
 ifTestingSupported
 (
 )

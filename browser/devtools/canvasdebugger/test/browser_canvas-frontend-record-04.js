@@ -75,6 +75,7 @@ start
 *
 /
 function
+*
 ifTestingSupported
 (
 )

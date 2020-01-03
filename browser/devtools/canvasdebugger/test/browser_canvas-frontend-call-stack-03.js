@@ -59,6 +59,7 @@ item
 *
 /
 function
+*
 ifTestingSupported
 (
 )

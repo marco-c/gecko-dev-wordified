@@ -48,6 +48,7 @@ advertised
 *
 /
 function
+*
 ifTestingSupported
 (
 )

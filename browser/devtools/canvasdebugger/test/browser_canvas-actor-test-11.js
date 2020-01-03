@@ -56,6 +56,7 @@ correct
 *
 /
 function
+*
 ifTestingSupported
 (
 )

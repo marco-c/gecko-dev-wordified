@@ -53,6 +53,7 @@ frame
 *
 /
 function
+*
 ifTestingSupported
 (
 )

@@ -54,6 +54,7 @@ actor
 *
 /
 function
+*
 ifTestingSupported
 (
 )

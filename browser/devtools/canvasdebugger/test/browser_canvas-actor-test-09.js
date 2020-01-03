@@ -65,6 +65,7 @@ Bug
 *
 /
 function
+*
 ifTestingSupported
 (
 )

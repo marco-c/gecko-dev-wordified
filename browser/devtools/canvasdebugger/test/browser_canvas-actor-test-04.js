@@ -51,6 +51,7 @@ thumbnails
 *
 /
 function
+*
 ifTestingSupported
 (
 )

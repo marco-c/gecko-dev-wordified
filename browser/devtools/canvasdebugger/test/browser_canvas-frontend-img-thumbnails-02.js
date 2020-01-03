@@ -54,6 +54,7 @@ screenshots
 *
 /
 function
+*
 ifTestingSupported
 (
 )

@@ -53,6 +53,7 @@ found
 *
 /
 function
+*
 ifTestingSupported
 (
 )
