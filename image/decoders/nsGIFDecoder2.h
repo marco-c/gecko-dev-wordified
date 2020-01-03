@@ -213,7 +213,7 @@ explicit
 nsGIFDecoder2
 (
 RasterImage
-*
+&
 aImage
 )
 ;
@@ -280,7 +280,7 @@ BeginGIF
 (
 )
 ;
-nsresult
+void
 BeginImageFrame
 (
 uint16_t
