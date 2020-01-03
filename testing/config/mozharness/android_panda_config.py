@@ -795,7 +795,7 @@ xpcshell
 /
 tests
 /
-xpcshell_android
+xpcshell
 .
 ini
 "
