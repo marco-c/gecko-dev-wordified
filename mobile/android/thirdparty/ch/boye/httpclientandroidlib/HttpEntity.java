@@ -1643,6 +1643,11 @@ occurs
 *
 *
 deprecated
+(
+4
+.
+1
+)
 Use
 {
 link
@@ -1676,6 +1681,7 @@ OutputStream
 )
 *
 /
+Deprecated
 void
 consumeContent
 (

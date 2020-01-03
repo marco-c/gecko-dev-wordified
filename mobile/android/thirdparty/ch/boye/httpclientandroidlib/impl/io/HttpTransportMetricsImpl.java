@@ -365,6 +365,17 @@ boye
 .
 httpclientandroidlib
 .
+annotation
+.
+NotThreadSafe
+;
+import
+ch
+.
+boye
+.
+httpclientandroidlib
+.
 io
 .
 HttpTransportMetrics
@@ -389,6 +400,7 @@ since
 0
 *
 /
+NotThreadSafe
 public
 class
 HttpTransportMetricsImpl
@@ -427,6 +439,7 @@ public
 void
 setBytesTransferred
 (
+final
 long
 count
 )
@@ -442,6 +455,7 @@ public
 void
 incrementBytesTransferred
 (
+final
 long
 count
 )

@@ -1,13 +1,6 @@
 /
 *
 *
-HeadURL
-*
-Revision
-*
-Date
-*
-*
 =
 =
 =
@@ -475,6 +468,7 @@ filter
 ;
 PublicSuffixListParser
 (
+final
 PublicSuffixFilter
 filter
 )
@@ -556,12 +550,14 @@ public
 void
 parse
 (
+final
 Reader
 list
 )
 throws
 IOException
 {
+final
 Collection
 <
 String
@@ -576,6 +572,7 @@ String
 (
 )
 ;
+final
 Collection
 <
 String
@@ -590,6 +587,7 @@ String
 (
 )
 ;
+final
 BufferedReader
 r
 =
@@ -599,6 +597,7 @@ BufferedReader
 list
 )
 ;
+final
 StringBuilder
 sb
 =
@@ -646,8 +645,10 @@ length
 =
 0
 )
+{
 continue
 ;
+}
 if
 (
 line
@@ -660,6 +661,7 @@ startsWith
 "
 )
 )
+{
 continue
 ;
 /
@@ -673,6 +675,7 @@ commented
 using
 /
 /
+}
 if
 (
 line
@@ -684,6 +687,7 @@ startsWith
 "
 )
 )
+{
 line
 =
 line
@@ -700,6 +704,7 @@ leading
 dot
 is
 optional
+}
 /
 /
 An
@@ -722,6 +727,7 @@ a
 previous
 wildcard
 rule
+final
 boolean
 isException
 =
@@ -738,6 +744,7 @@ if
 (
 isException
 )
+{
 line
 =
 line
@@ -747,6 +754,7 @@ substring
 1
 )
 ;
+}
 if
 (
 isException
@@ -816,8 +824,10 @@ private
 boolean
 readLine
 (
+final
 Reader
 r
+final
 StringBuilder
 sb
 )
@@ -856,6 +866,7 @@ read
 1
 )
 {
+final
 char
 c
 =
@@ -874,8 +885,10 @@ c
 n
 '
 )
+{
 break
 ;
+}
 /
 /
 Each
@@ -897,15 +910,18 @@ isWhitespace
 c
 )
 )
+{
 hitWhitespace
 =
 true
 ;
+}
 if
 (
 !
 hitWhitespace
 )
+{
 sb
 .
 append
@@ -913,6 +929,7 @@ append
 c
 )
 ;
+}
 if
 (
 sb
@@ -923,6 +940,7 @@ length
 >
 MAX_LINE_LEN
 )
+{
 throw
 new
 IOException
@@ -940,6 +958,7 @@ prevent
 excess
 memory
 usage
+}
 }
 return
 (

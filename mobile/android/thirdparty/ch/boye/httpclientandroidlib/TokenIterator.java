@@ -416,6 +416,9 @@ interface
 TokenIterator
 extends
 Iterator
+<
+Object
+>
 {
 /
 *

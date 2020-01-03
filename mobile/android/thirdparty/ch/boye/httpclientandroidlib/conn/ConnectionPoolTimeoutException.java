@@ -468,6 +468,7 @@ message
 public
 ConnectionPoolTimeoutException
 (
+final
 String
 message
 )

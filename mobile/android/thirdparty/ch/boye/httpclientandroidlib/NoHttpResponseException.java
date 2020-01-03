@@ -427,6 +427,7 @@ message
 public
 NoHttpResponseException
 (
+final
 String
 message
 )

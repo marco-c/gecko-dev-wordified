@@ -383,7 +383,7 @@ URI
 Usually
 the
 *
-resolved
+mapped
 request
 handler
 will
@@ -407,7 +407,15 @@ since
 .
 0
 *
+deprecated
+see
+{
+link
+HttpRequestHandlerMapper
+}
+*
 /
+Deprecated
 public
 interface
 HttpRequestHandlerResolver

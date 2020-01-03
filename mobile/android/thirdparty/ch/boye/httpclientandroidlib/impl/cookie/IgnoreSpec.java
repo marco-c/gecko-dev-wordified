@@ -471,8 +471,10 @@ Cookie
 >
 parse
 (
+final
 Header
 header
+final
 CookieOrigin
 origin
 )
@@ -494,6 +496,7 @@ Header
 >
 formatCookies
 (
+final
 List
 <
 Cookie

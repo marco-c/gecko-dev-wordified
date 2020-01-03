@@ -354,15 +354,6 @@ boye
 .
 httpclientandroidlib
 ;
-import
-ch
-.
-boye
-.
-httpclientandroidlib
-.
-ProtocolException
-;
 /
 *
 *

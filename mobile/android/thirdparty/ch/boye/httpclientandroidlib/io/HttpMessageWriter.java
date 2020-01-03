@@ -411,6 +411,11 @@ since
 public
 interface
 HttpMessageWriter
+<
+T
+extends
+HttpMessage
+>
 {
 /
 *
@@ -434,6 +439,8 @@ sink
 *
 *
 param
+message
+HTTP
 message
 *
 throws
@@ -460,7 +467,7 @@ violation
 void
 write
 (
-HttpMessage
+T
 message
 )
 throws

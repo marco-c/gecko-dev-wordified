@@ -1,13 +1,6 @@
 /
 *
 *
-HeadURL
-*
-Revision
-*
-Date
-*
-*
 =
 =
 =
@@ -573,6 +566,7 @@ suffixes
 public
 PublicSuffixFilter
 (
+final
 CookieAttributeHandler
 wrapped
 )
@@ -630,6 +624,7 @@ public
 void
 setPublicSuffixes
 (
+final
 Collection
 <
 String
@@ -683,6 +678,7 @@ public
 void
 setExceptions
 (
+final
 Collection
 <
 String
@@ -727,8 +723,10 @@ public
 boolean
 match
 (
+final
 Cookie
 cookie
+final
 CookieOrigin
 origin
 )
@@ -740,9 +738,11 @@ isForPublicSuffix
 cookie
 )
 )
+{
 return
 false
 ;
+}
 return
 wrapped
 .
@@ -757,8 +757,10 @@ public
 void
 parse
 (
+final
 SetCookie
 cookie
+final
 String
 value
 )
@@ -778,8 +780,10 @@ public
 void
 validate
 (
+final
 Cookie
 cookie
+final
 CookieOrigin
 origin
 )
@@ -799,6 +803,7 @@ private
 boolean
 isForPublicSuffix
 (
+final
 Cookie
 cookie
 )
@@ -823,6 +828,7 @@ startsWith
 "
 )
 )
+{
 domain
 =
 domain
@@ -832,6 +838,7 @@ substring
 1
 )
 ;
+}
 domain
 =
 Punycode
@@ -875,9 +882,11 @@ contains
 domain
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -888,9 +897,11 @@ suffixes
 =
 null
 )
+{
 return
 false
 ;
+}
 do
 {
 if
@@ -904,9 +915,11 @@ contains
 domain
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 patterns
@@ -922,6 +935,7 @@ startsWith
 "
 )
 )
+{
 domain
 =
 domain
@@ -931,6 +945,8 @@ substring
 2
 )
 ;
+}
+final
 int
 nextdot
 =
@@ -951,8 +967,10 @@ nextdot
 -
 1
 )
+{
 break
 ;
+}
 domain
 =
 "

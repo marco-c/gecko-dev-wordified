@@ -470,6 +470,7 @@ message
 public
 CookieRestrictionViolationException
 (
+final
 String
 message
 )

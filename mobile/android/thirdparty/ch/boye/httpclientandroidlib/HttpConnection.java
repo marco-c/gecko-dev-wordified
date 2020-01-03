@@ -359,6 +359,13 @@ java
 .
 io
 .
+Closeable
+;
+import
+java
+.
+io
+.
 IOException
 ;
 /
@@ -387,6 +394,8 @@ since
 public
 interface
 HttpConnection
+extends
+Closeable
 {
 /
 *
@@ -446,7 +455,6 @@ instead
 .
 *
 /
-public
 void
 close
 (
@@ -480,7 +488,6 @@ closed
 .
 *
 /
-public
 boolean
 isOpen
 (
@@ -646,7 +653,6 @@ be
 closed
 *
 /
-public
 boolean
 isStale
 (
@@ -794,7 +800,6 @@ socket
 .
 *
 /
-public
 void
 shutdown
 (

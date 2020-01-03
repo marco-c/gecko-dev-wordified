@@ -565,6 +565,7 @@ Cookie
 c2
 )
 {
+final
 String
 path1
 =
@@ -573,6 +574,7 @@ normalizePath
 c1
 )
 ;
+final
 String
 path2
 =

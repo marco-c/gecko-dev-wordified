@@ -466,6 +466,7 @@ message
 public
 ProtocolException
 (
+final
 String
 message
 )
@@ -548,8 +549,10 @@ tt
 public
 ProtocolException
 (
+final
 String
 message
+final
 Throwable
 cause
 )

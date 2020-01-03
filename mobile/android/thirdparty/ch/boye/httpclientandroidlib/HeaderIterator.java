@@ -390,6 +390,9 @@ interface
 HeaderIterator
 extends
 Iterator
+<
+Object
+>
 {
 /
 *

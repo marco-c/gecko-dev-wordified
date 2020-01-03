@@ -508,6 +508,7 @@ code
 public
 ParseException
 (
+final
 String
 message
 )

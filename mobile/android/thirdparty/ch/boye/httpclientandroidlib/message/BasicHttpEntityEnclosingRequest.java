@@ -408,6 +408,17 @@ boye
 .
 httpclientandroidlib
 .
+annotation
+.
+NotThreadSafe
+;
+import
+ch
+.
+boye
+.
+httpclientandroidlib
+.
 protocol
 .
 HTTP
@@ -432,6 +443,7 @@ since
 0
 *
 /
+NotThreadSafe
 public
 class
 BasicHttpEntityEnclosingRequest
@@ -532,6 +544,7 @@ expectContinue
 (
 )
 {
+final
 Header
 expect
 =
