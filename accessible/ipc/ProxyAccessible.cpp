@@ -4297,7 +4297,7 @@ mID
 )
 ;
 }
-int32_t
+ssize_t
 ProxyAccessible
 :
 :
