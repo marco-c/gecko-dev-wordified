@@ -219,6 +219,12 @@ private
 uint32_t
 mCurrentChar
 ;
+uint8_t
+mVersion
+;
+uint8_t
+mFlags
+;
 uint32_t
 mHeaderLength
 ;
