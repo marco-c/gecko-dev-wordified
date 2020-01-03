@@ -2265,7 +2265,7 @@ skipProfilingInstrumentation
 ;
 masm
 .
-ma_add
+ma_addu
 (
 realFramePtr
 StackPointer
@@ -7334,7 +7334,7 @@ scratch3
 t2
 ;
 Register
-scratch3
+scratch4
 =
 t3
 ;
@@ -8301,7 +8301,7 @@ Size
 ;
 masm
 .
-ma_add
+ma_addu
 (
 scratch2
 StackPointer
@@ -8310,7 +8310,7 @@ scratch1
 ;
 masm
 .
-ma_add
+ma_addu
 (
 scratch2
 scratch2
@@ -8546,7 +8546,7 @@ handle_BaselineStub
 {
 masm
 .
-ma_add
+ma_addu
 (
 scratch3
 StackPointer
@@ -8959,7 +8959,7 @@ Size
 ;
 masm
 .
-ma_add
+ma_addu
 (
 scratch2
 StackPointer
@@ -9001,7 +9001,7 @@ scratch3
 ;
 masm
 .
-ma_lsr
+ma_srl
 (
 scratch1
 scratch3
@@ -9155,7 +9155,7 @@ Size
 )
 masm
 .
-ma_add
+ma_addu
 (
 scratch3
 scratch2
@@ -9260,7 +9260,7 @@ checkOk
 endif
 masm
 .
-ma_add
+ma_addu
 (
 scratch3
 scratch2
