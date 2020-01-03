@@ -433,6 +433,13 @@ aOffset
 override
 ;
 virtual
+void
+NotifyDataRemoved
+(
+)
+override
+;
+virtual
 media
 :
 :

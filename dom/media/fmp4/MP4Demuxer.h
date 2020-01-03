@@ -285,6 +285,13 @@ aOffset
 )
 override
 ;
+virtual
+void
+NotifyDataRemoved
+(
+)
+override
+;
 private
 :
 friend
