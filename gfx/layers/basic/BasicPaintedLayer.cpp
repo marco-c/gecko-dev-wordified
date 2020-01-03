@@ -726,7 +726,7 @@ toDraw
 DrawRegionClip
 :
 :
-CLIP_NONE
+NONE
 nsIntRegion
 (
 )

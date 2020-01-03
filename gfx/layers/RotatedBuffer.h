@@ -1574,7 +1574,7 @@ mClip
 DrawRegionClip
 :
 :
-CLIP_NONE
+NONE
 )
 mContentType
 (
