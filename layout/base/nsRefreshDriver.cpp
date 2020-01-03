@@ -7377,7 +7377,6 @@ AddProfileTimelineMarker
 "
 Styles
 "
-mStyleCause
 TRACING_INTERVAL_START
 )
 ;
