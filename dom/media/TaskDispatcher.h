@@ -558,6 +558,11 @@ rv
 unused
 <
 <
+assertDispatchSuccess
+;
+unused
+<
+<
 rv
 ;
 }
