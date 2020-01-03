@@ -775,6 +775,10 @@ const
 nsHttpResponseHead
 &
 responseHead
+const
+nsCString
+&
+securityInfoSerialization
 )
 override
 ;
@@ -1385,6 +1389,10 @@ const
 nsHttpResponseHead
 &
 responseHead
+const
+nsACString
+&
+securityInfoSerialization
 )
 ;
 void
