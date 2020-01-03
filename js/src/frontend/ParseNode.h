@@ -929,11 +929,6 @@ F
 SUPERELEM
 )
 \
-F
-(
-NEWTARGET
-)
-\
 \
 /
 *
