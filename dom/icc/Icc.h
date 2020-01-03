@@ -149,6 +149,9 @@ nsIIccInfo
 class
 nsIIccProvider
 ;
+class
+nsIStkProactiveCmd
+;
 namespace
 mozilla
 {
@@ -219,10 +222,9 @@ const
 nsAString
 &
 aName
-const
-nsAString
-&
-aMessage
+nsIStkProactiveCmd
+*
+aStkProactiveCmd
 )
 ;
 nsString

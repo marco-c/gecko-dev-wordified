@@ -881,10 +881,9 @@ IccParent
 :
 NotifyStkCommand
 (
-const
-nsAString
-&
-aMessage
+nsIStkProactiveCmd
+*
+aStkProactiveCmd
 )
 {
 /
