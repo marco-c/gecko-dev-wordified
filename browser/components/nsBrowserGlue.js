@@ -4866,7 +4866,7 @@ resetBundle
 formatStringFromName
 (
 "
-resetProfile
+refreshProfile
 .
 resetButton
 .
@@ -4884,7 +4884,7 @@ resetBundle
 GetStringFromName
 (
 "
-resetProfile
+refreshProfile
 .
 resetButton
 .
