@@ -17,9 +17,9 @@ version
 .
 6
 .
-17
-March
-25
+18
+July
+23
 2015
 *
 *
@@ -2431,7 +2431,7 @@ PNGARG
 args
 )
 \
-extern
+PNG_LINKAGE_API
 attributes
 )
 #

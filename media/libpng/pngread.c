@@ -21,7 +21,7 @@ libpng
 17
 [
 March
-25
+26
 2015
 ]
 *
@@ -376,10 +376,7 @@ handled
 /
 #
 if
-PNG_LIBPNG_BUILD_BASE_TYPE
->
-=
-PNG_LIBPNG_BUILD_RC
+PNG_RELEASE_BUILD
 png_ptr
 -
 >
