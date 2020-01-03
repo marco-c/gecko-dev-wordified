@@ -1434,6 +1434,8 @@ int32_t
 aCount
 bool
 aValidate
+bool
+aTruncate
 CacheFileIOListener
 *
 aCallback
@@ -1848,6 +1850,8 @@ int32_t
 aCount
 bool
 aValidate
+bool
+aTruncate
 )
 ;
 nsresult

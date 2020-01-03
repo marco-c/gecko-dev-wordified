@@ -9400,6 +9400,7 @@ mSkipEntries
 =
 =
 mProcessEntries
+false
 this
 )
 ;
@@ -11731,6 +11732,7 @@ sizeof
 CacheIndexHeader
 )
 true
+false
 nullptr
 )
 ;
