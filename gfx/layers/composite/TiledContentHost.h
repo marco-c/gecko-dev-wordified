@@ -1007,10 +1007,11 @@ aClosure
 ;
 protected
 :
-TileHost
+void
 ValidateTile
 (
 TileHost
+&
 aTile
 const
 nsIntPoint

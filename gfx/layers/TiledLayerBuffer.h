@@ -4380,8 +4380,6 @@ tileStartX
 tileStartY
 )
 ;
-newTile
-=
 AsDerived
 (
 )
