@@ -3006,7 +3006,7 @@ Method
 head
 -
 >
-RequestURI
+Path
 (
 )
 authorityHeader
