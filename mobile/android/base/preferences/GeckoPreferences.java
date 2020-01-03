@@ -5127,11 +5127,15 @@ key
 )
 &
 &
+!
 RestrictedProfiles
 .
-isUserRestricted
+isAllowed
 (
 this
+Restriction
+.
+DISALLOW_DEVELOPER_TOOLS
 )
 )
 {
