@@ -1579,6 +1579,13 @@ params
 .
 allowPinnedTabHostChange
 ;
+var
+aNoReferrer
+=
+params
+.
+noReferrer
+;
 if
 (
 where
@@ -2347,6 +2354,9 @@ aSkipTabAnimation
 allowMixedContent
 :
 aAllowMixedContent
+noReferrer
+:
+aNoReferrer
 }
 )
 ;
