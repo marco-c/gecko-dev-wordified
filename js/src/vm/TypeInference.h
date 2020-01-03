@@ -5887,6 +5887,15 @@ jsbytecode
 pc
 )
 ;
+bool
+ClassCanHaveExtraProperties
+(
+const
+Class
+*
+clasp
+)
+;
 /
 *
 *
