@@ -2422,7 +2422,7 @@ packages
 ;
 InfallibleTArray
 <
-ResourceMapping
+SubstitutionMapping
 >
 resources
 ;
