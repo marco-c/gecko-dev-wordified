@@ -1040,6 +1040,10 @@ mNeedDraining
 (
 false
 )
+mDraining
+(
+false
+)
 mDrainComplete
 (
 false
@@ -1271,6 +1275,9 @@ bool
 mNeedDraining
 ;
 bool
+mDraining
+;
+bool
 mDrainComplete
 ;
 /
@@ -1467,6 +1474,10 @@ mInputExhausted
 false
 ;
 mNeedDraining
+=
+false
+;
+mDraining
 =
 false
 ;
