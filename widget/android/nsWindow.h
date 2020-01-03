@@ -372,12 +372,14 @@ nsWidgetInitData
 *
 aInitData
 )
+override
 ;
 NS_IMETHOD
 Destroy
 (
 void
 )
+override
 ;
 NS_IMETHOD
 ConfigureChildren
@@ -392,6 +394,7 @@ Configuration
 >
 &
 )
+override
 ;
 NS_IMETHOD
 SetParent
@@ -400,6 +403,7 @@ nsIWidget
 *
 aNewParent
 )
+override
 ;
 virtual
 nsIWidget
@@ -408,18 +412,21 @@ GetParent
 (
 void
 )
+override
 ;
 virtual
 float
 GetDPI
 (
 )
+override
 ;
 virtual
 double
 GetDefaultScaleInternal
 (
 )
+override
 ;
 NS_IMETHOD
 Show
@@ -427,6 +434,7 @@ Show
 bool
 aState
 )
+override
 ;
 NS_IMETHOD
 SetModal
@@ -434,6 +442,7 @@ SetModal
 bool
 aModal
 )
+override
 ;
 virtual
 bool
@@ -441,6 +450,7 @@ IsVisible
 (
 )
 const
+override
 ;
 NS_IMETHOD
 ConstrainPosition
@@ -454,6 +464,7 @@ int32_t
 *
 aY
 )
+override
 ;
 NS_IMETHOD
 Move
@@ -463,6 +474,7 @@ aX
 double
 aY
 )
+override
 ;
 NS_IMETHOD
 Resize
@@ -474,6 +486,7 @@ aHeight
 bool
 aRepaint
 )
+override
 ;
 NS_IMETHOD
 Resize
@@ -489,6 +502,7 @@ aHeight
 bool
 aRepaint
 )
+override
 ;
 void
 SetZIndex
@@ -496,6 +510,7 @@ SetZIndex
 int32_t
 aZIndex
 )
+override
 ;
 NS_IMETHOD
 PlaceBehind
@@ -508,6 +523,7 @@ aWidget
 bool
 aActivate
 )
+override
 ;
 NS_IMETHOD
 SetSizeMode
@@ -515,6 +531,7 @@ SetSizeMode
 int32_t
 aMode
 )
+override
 ;
 NS_IMETHOD
 Enable
@@ -522,6 +539,7 @@ Enable
 bool
 aState
 )
+override
 ;
 virtual
 bool
@@ -529,6 +547,7 @@ IsEnabled
 (
 )
 const
+override
 ;
 NS_IMETHOD
 Invalidate
@@ -538,6 +557,7 @@ nsIntRect
 &
 aRect
 )
+override
 ;
 NS_IMETHOD
 SetFocus
@@ -547,6 +567,7 @@ aRaise
 =
 false
 )
+override
 ;
 NS_IMETHOD
 GetScreenBounds
@@ -555,6 +576,7 @@ nsIntRect
 &
 aRect
 )
+override
 ;
 virtual
 mozilla
@@ -564,6 +586,7 @@ LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
+override
 ;
 NS_IMETHOD
 DispatchEvent
@@ -578,6 +601,7 @@ nsEventStatus
 &
 aStatus
 )
+override
 ;
 nsEventStatus
 DispatchEvent
@@ -601,6 +625,7 @@ aTargetScreen
 =
 nullptr
 )
+override
 ;
 NS_IMETHOD
 SetWindowClass
@@ -610,6 +635,7 @@ nsAString
 &
 xulWinType
 )
+override
 ;
 NS_IMETHOD
 SetCursor
@@ -617,6 +643,7 @@ SetCursor
 nsCursor
 aCursor
 )
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -633,6 +660,7 @@ aHotspotX
 uint32_t
 aHotspotY
 )
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -671,6 +699,7 @@ HideWindowChrome
 bool
 aShouldHide
 )
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -684,6 +713,7 @@ GetNativeData
 uint32_t
 aDataType
 )
+override
 ;
 NS_IMETHOD
 SetTitle
@@ -693,6 +723,7 @@ nsAString
 &
 aTitle
 )
+override
 {
 return
 NS_OK
@@ -706,6 +737,7 @@ nsAString
 &
 aIconSpec
 )
+override
 {
 return
 NS_OK
@@ -717,6 +749,7 @@ EnableDragDrop
 bool
 aEnable
 )
+override
 {
 return
 NS_OK
@@ -728,6 +761,7 @@ CaptureMouse
 bool
 aCapture
 )
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -742,6 +776,7 @@ aListener
 bool
 aDoCapture
 )
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -753,6 +788,7 @@ GetAttention
 int32_t
 aCycleCount
 )
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -772,6 +808,7 @@ aHorizontal
 int32_t
 aVertical
 )
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -792,6 +829,7 @@ InputContextAction
 &
 aAction
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -800,6 +838,7 @@ InputContext
 GetInputContext
 (
 )
+override
 ;
 nsresult
 NotifyIMEOfTextChange
@@ -815,6 +854,7 @@ nsIMEUpdatePreference
 GetIMEUpdatePreference
 (
 )
+override
 ;
 LayerManager
 *
@@ -848,6 +888,7 @@ aAllowRetaining
 =
 nullptr
 )
+override
 ;
 NS_IMETHOD
 ReparentNativeWidget
@@ -856,12 +897,14 @@ nsIWidget
 *
 aNewParent
 )
+override
 ;
 virtual
 bool
 NeedsPaint
 (
 )
+override
 ;
 virtual
 void
@@ -873,6 +916,7 @@ aManager
 nsIntRect
 aRect
 )
+override
 ;
 virtual
 void
@@ -884,6 +928,7 @@ aManager
 nsIntRect
 aRect
 )
+override
 ;
 virtual
 mozilla
@@ -1025,6 +1070,7 @@ bool
 WidgetPaintsBackground
 (
 )
+override
 ;
 virtual
 uint32_t

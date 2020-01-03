@@ -1502,6 +1502,7 @@ float
 *
 aLeft
 )
+override
 {
 *
 aLeft
@@ -1520,6 +1521,7 @@ float
 *
 aTop
 )
+override
 {
 *
 aTop
@@ -1538,6 +1540,7 @@ float
 *
 aRight
 )
+override
 {
 *
 aRight
@@ -1556,6 +1559,7 @@ float
 *
 aBottom
 )
+override
 {
 *
 aBottom
@@ -1574,6 +1578,7 @@ float
 *
 aResolution
 )
+override
 {
 *
 aResolution
@@ -1591,6 +1596,7 @@ SetLeft
 float
 aLeft
 )
+override
 {
 mLeft
 =
@@ -1607,6 +1613,7 @@ SetTop
 float
 aTop
 )
+override
 {
 mTop
 =
@@ -1623,6 +1630,7 @@ SetRight
 float
 aRight
 )
+override
 {
 mRight
 =
@@ -1639,6 +1647,7 @@ SetBottom
 float
 aBottom
 )
+override
 {
 mBottom
 =
@@ -1655,6 +1664,7 @@ SetResolution
 float
 aResolution
 )
+override
 {
 mResolution
 =

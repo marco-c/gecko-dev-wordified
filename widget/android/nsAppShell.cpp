@@ -798,6 +798,7 @@ nsAString
 &
 state
 )
+override
 {
 widget
 :
