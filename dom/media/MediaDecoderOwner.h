@@ -1061,6 +1061,14 @@ provided
 init
 data
 .
+Actual
+dispatch
+may
+be
+delayed
+until
+HAVE_METADATA
+.
 /
 /
 Main
@@ -1088,6 +1096,9 @@ aInitDataType
 ;
 #
 endif
+/
+/
+MOZ_EME
 }
 ;
 }
