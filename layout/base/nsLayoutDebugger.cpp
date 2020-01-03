@@ -774,11 +774,14 @@ layerRect
 =
 rect
 -
-aItem
--
->
-AnimatedGeometryRoot
+nsLayoutUtils
+:
+:
+GetAnimatedGeometryRootFor
 (
+aItem
+aBuilder
+nullptr
 )
 -
 >
@@ -1208,7 +1211,7 @@ aItem
 >
 ShouldFixToViewport
 (
-aBuilder
+nullptr
 )
 )
 {
