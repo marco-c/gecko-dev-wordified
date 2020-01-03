@@ -353,7 +353,7 @@ ifdef
 XP_WIN
 nsAutoPtr
 <
-WinWifiScanner
+WindowsWifiScannerInterface
 >
 mWinWifiScanner
 ;
