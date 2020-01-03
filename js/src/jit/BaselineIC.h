@@ -29312,6 +29312,9 @@ native_
 HeapPtrObject
 templateObject_
 ;
+uint32_t
+pcOffset_
+;
 ICCall_ClassHook
 (
 JitCode
@@ -29328,6 +29331,8 @@ Native
 native
 HandleObject
 templateObject
+uint32_t
+pcOffset
 )
 ;
 public
@@ -29355,6 +29360,8 @@ Native
 native
 HandleObject
 templateObject
+uint32_t
+pcOffset
 )
 {
 if
@@ -29379,6 +29386,7 @@ firstMonitorStub
 clasp
 native
 templateObject
+pcOffset
 )
 ;
 }
@@ -29460,6 +29468,20 @@ native_
 )
 ;
 }
+static
+size_t
+offsetOfPCOffset
+(
+)
+{
+return
+offsetof
+(
+ICCall_ClassHook
+pcOffset_
+)
+;
+}
 /
 /
 Compiler
@@ -29493,6 +29515,9 @@ native_
 ;
 RootedObject
 templateObject_
+;
+uint32_t
+pcOffset_
 ;
 bool
 generateStubCode
@@ -29550,6 +29575,8 @@ Native
 native
 HandleObject
 templateObject
+uint32_t
+pcOffset
 bool
 isConstructing
 )
@@ -29583,6 +29610,10 @@ templateObject_
 cx
 templateObject
 )
+pcOffset_
+(
+pcOffset
+)
 {
 }
 ICStub
@@ -29608,6 +29639,7 @@ firstMonitorStub_
 clasp_
 native_
 templateObject_
+pcOffset_
 )
 ;
 }
