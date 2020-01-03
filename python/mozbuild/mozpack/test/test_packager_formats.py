@@ -507,6 +507,9 @@ def
 get_contents
 (
 registry
+read_all
+=
+False
 )
 :
     
@@ -584,6 +587,8 @@ isinstance
 v
 ManifestFile
 )
+or
+read_all
 :
             
 result

@@ -1375,9 +1375,10 @@ jar
 )
 entry
 def
-unpack
+unpack_to_registry
 (
 source
+registry
 )
 :
     
@@ -1399,15 +1400,20 @@ flat
 package
 .
     
-'
-'
-'
+The
+given
+registry
+is
+filled
+with
+the
+flat
+package
+.
     
-copier
-=
-FileCopier
-(
-)
+'
+'
+'
     
 finder
 =
@@ -1422,7 +1428,7 @@ SimplePackager
 (
 FlatFormatter
 (
-copier
+registry
 )
 )
     
@@ -1469,6 +1475,46 @@ packager
 .
 close
 (
+)
+def
+unpack
+(
+source
+)
+:
+    
+'
+'
+'
+    
+Transform
+a
+jar
+chrome
+or
+omnijar
+packaged
+directory
+into
+a
+flat
+package
+.
+    
+'
+'
+'
+    
+copier
+=
+FileCopier
+(
+)
+    
+unpack_to_registry
+(
+source
+copier
 )
     
 copier
