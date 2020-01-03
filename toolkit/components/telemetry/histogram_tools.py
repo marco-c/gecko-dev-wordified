@@ -2303,7 +2303,7 @@ context
 name
 =
 '
-USE_COUNTER2_DEPRECATED_
+USE_COUNTER_DEPRECATED_
 %
 s_
 %
@@ -2613,7 +2613,7 @@ We
 require
 that
 all
-USE_COUNTER2_
+USE_COUNTER_
 *
 histograms
 be
@@ -2641,7 +2641,7 @@ x
 startswith
 (
 "
-USE_COUNTER2_
+USE_COUNTER_
 "
 )
                                  
