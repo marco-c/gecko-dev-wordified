@@ -2312,13 +2312,6 @@ return
 false
 ;
 }
-/
-/
-XXX
-should
-be
-4
-.
 if
 (
 Moveable
@@ -2329,7 +2322,7 @@ Count
 )
 !
 =
-8
+4
 )
 return
 false
@@ -2354,7 +2347,7 @@ Count
 )
 !
 =
-8
+4
 )
 return
 false
@@ -2378,7 +2371,7 @@ Count
 )
 !
 =
-12
+8
 )
 return
 false
@@ -2418,7 +2411,7 @@ Count
 )
 !
 =
-12
+8
 )
 return
 false
@@ -2445,7 +2438,7 @@ Count
 )
 !
 =
-12
+8
 )
 return
 false
@@ -2577,7 +2570,7 @@ Count
 )
 !
 =
-12
+8
 )
 return
 false
