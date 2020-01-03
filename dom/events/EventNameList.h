@@ -1694,7 +1694,7 @@ enough
 WINDOW_EVENT
 (
 message
-NS_MESSAGE
+eMessage
 EventNameType_None
 eBasicEventClass
 )
