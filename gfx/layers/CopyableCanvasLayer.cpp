@@ -703,7 +703,8 @@ get
 }
 else
 {
-auto
+GLScreenBuffer
+*
 screen
 =
 mGLContext
@@ -713,7 +714,8 @@ Screen
 (
 )
 ;
-auto
+ShSurfHandle
+*
 front
 =
 screen

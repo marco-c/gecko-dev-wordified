@@ -3425,7 +3425,7 @@ SharedSurfaceTextureHost
 TextureFlags
 aFlags
 const
-ShSurfDescriptor
+SharedSurfaceDescriptor
 &
 aDesc
 )
@@ -3553,7 +3553,7 @@ false
 ;
 }
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSources
 (
@@ -3639,7 +3639,7 @@ mCompositor
 ;
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 mTexSource
 ;

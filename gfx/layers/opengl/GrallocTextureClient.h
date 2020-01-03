@@ -668,7 +668,7 @@ TemporaryRef
 <
 TextureClient
 >
-FromShSurf
+FromSharedSurface
 (
 gl
 :
