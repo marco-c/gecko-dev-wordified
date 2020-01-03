@@ -229,6 +229,10 @@ const
 nsAString
 &
 aNewCacheName
+const
+nsACString
+&
+aMaxScope
 )
 =
 0

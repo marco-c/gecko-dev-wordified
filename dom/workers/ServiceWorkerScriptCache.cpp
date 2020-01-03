@@ -1861,6 +1861,7 @@ aIsEqual
 *
 /
 mNewCacheName
+mMaxScope
 )
 ;
 Cleanup
@@ -2017,6 +2018,9 @@ aIsEqual
 EmptyString
 (
 )
+EmptyCString
+(
+)
 )
 ;
 Cleanup
@@ -2100,6 +2104,7 @@ aIsEqual
 EmptyString
 (
 )
+mMaxScope
 )
 ;
 Cleanup
