@@ -282,7 +282,7 @@ created
 .
 *
 /
-int64_t
+PRIntervalTime
 startInterval_
 ;
 }
