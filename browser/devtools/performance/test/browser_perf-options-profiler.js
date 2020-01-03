@@ -111,8 +111,14 @@ interval
 yield
 gFront
 .
-getConfiguration
+_request
 (
+"
+profiler
+"
+"
+getStartOptions
+"
 )
 ;
 yield
