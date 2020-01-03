@@ -705,9 +705,7 @@ foo
 )
 =
 =
-"
-foo
-"
+undefined
 )
 ;
 gc
