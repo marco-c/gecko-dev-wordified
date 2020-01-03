@@ -4393,7 +4393,6 @@ getString
 "
 resource
 "
-null
 )
 )
 )
