@@ -9857,10 +9857,8 @@ runtime
 )
 )
 ;
-uint32_t
-scriptLogId
-=
-TraceLogCreateTextId
+TraceLoggerEvent
+scriptEvent
 (
 logger
 TraceLogger_Scripts
@@ -9870,7 +9868,7 @@ script
 TraceLogStartEvent
 (
 logger
-scriptLogId
+scriptEvent
 )
 ;
 TraceLogStartEvent
@@ -16285,10 +16283,9 @@ script
 )
 )
 ;
-uint32_t
-scriptLogId
-=
-TraceLogCreateTextId
+{
+TraceLoggerEvent
+event
 (
 logger
 TraceLogger_Scripts
@@ -16298,7 +16295,7 @@ script
 TraceLogStartEvent
 (
 logger
-scriptLogId
+event
 )
 ;
 TraceLogStartEvent
@@ -16307,6 +16304,7 @@ logger
 TraceLogger_Interpreter
 )
 ;
+}
 if
 (
 !
@@ -21493,7 +21491,7 @@ TraceLogger_Engine
 TraceLogStopEvent
 (
 logger
-scriptLogId
+scriptEvent
 )
 ;
 /
