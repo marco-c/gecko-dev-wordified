@@ -1934,11 +1934,10 @@ indexOptions
 )
 ;
 for
-each
 (
 let
 data
-in
+of
 dbData
 )
 {

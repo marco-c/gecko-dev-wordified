@@ -74,11 +74,10 @@ version
 1
 ;
 for
-each
 (
 let
 name
-in
+of
 names
 )
 {

@@ -408,11 +408,10 @@ options
 )
 ;
 for
-each
 (
 let
 data
-in
+of
 objectStoreData
 )
 {
