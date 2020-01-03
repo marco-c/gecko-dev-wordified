@@ -499,6 +499,15 @@ aRv
 )
 MOZ_OVERRIDE
 ;
+virtual
+nsresult
+SetMutable
+(
+bool
+aMutable
+)
+MOZ_OVERRIDE
+;
 void
 SetName
 (
