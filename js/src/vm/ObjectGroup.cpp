@@ -1493,7 +1493,7 @@ script
 will
 have
 a
-JSTRY_ITER
+JSTRY_FOR_IN
 or
 JSTRY_LOOP
 try
@@ -1579,7 +1579,7 @@ tn
 kind
 !
 =
-JSTRY_ITER
+JSTRY_FOR_IN
 &
 &
 tn

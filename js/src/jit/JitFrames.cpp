@@ -2918,7 +2918,7 @@ kind
 )
 {
 case
-JSTRY_ITER
+JSTRY_FOR_IN
 :
 {
 MOZ_ASSERT
@@ -4352,7 +4352,7 @@ return
 break
 ;
 case
-JSTRY_ITER
+JSTRY_FOR_IN
 :
 {
 Value

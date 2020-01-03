@@ -6748,7 +6748,7 @@ tn
 kind
 =
 =
-JSTRY_ITER
+JSTRY_FOR_IN
 )
 {
 Value
@@ -7553,7 +7553,7 @@ return
 FinallyContinuation
 ;
 case
-JSTRY_ITER
+JSTRY_FOR_IN
 :
 {
 /

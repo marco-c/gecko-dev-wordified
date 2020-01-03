@@ -13236,7 +13236,7 @@ JSTRY_FINALLY
 ;
 JS_STATIC_ASSERT
 (
-JSTRY_ITER
+JSTRY_FOR_IN
 =
 =
 2
@@ -13259,7 +13259,9 @@ catch
 finally
 "
 "
-iter
+for
+-
+in
 "
 "
 for
