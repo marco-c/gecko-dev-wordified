@@ -7166,7 +7166,7 @@ rt
 )
 ;
 void
-TraceInside
+TraceSelf
 (
 JSTracer
 *
@@ -7191,6 +7191,15 @@ mGlobalJSObject
 "
 )
 ;
+}
+void
+TraceInside
+(
+JSTracer
+*
+trc
+)
+{
 if
 (
 mContentXBLScope
@@ -12199,7 +12208,7 @@ GetScope
 )
 -
 >
-TraceInside
+TraceSelf
 (
 trc
 )
@@ -14073,7 +14082,7 @@ GetScope
 )
 -
 >
-TraceInside
+TraceSelf
 (
 trc
 )
