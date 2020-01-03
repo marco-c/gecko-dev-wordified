@@ -919,6 +919,7 @@ aElement
 aNameSpaceID
 aAttribute
 aModType
+aNewValue
 )
 )
 ;
