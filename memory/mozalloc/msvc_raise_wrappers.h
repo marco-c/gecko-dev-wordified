@@ -216,7 +216,7 @@ this
 at
 home
 !
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn
@@ -229,7 +229,7 @@ char
 *
 )
 ;
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn
@@ -242,7 +242,7 @@ char
 *
 )
 ;
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn
@@ -255,7 +255,7 @@ char
 *
 )
 ;
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn
@@ -268,7 +268,7 @@ char
 *
 )
 ;
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn
