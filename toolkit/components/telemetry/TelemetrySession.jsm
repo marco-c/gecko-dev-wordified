@@ -489,6 +489,17 @@ payload
 "
 ;
 const
+REASON_GATHER_SUBSESSION_PAYLOAD
+=
+"
+gather
+-
+subsession
+-
+payload
+"
+;
+const
 REASON_TEST_PING
 =
 "
