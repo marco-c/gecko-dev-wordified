@@ -329,6 +329,9 @@ success_cb
 NR_async_cb
 error_cb
 ;
+int
+last_error_code
+;
 STAILQ_ENTRY
 (
 nr_turn_stun_ctx_
@@ -645,6 +648,17 @@ newsize
 nr_transport_addr
 *
 remote_addr
+)
+;
+int
+nr_turn_client_ensure_perm
+(
+nr_turn_client_ctx
+*
+ctx
+nr_transport_addr
+*
+addr
 )
 ;
 #

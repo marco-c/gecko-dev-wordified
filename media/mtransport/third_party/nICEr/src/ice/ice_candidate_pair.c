@@ -2902,9 +2902,6 @@ int
 r
 _status
 ;
-UINT4
-mode
-;
 /
 *
 Register
