@@ -139,7 +139,7 @@ class
 Promise
 ;
 struct
-RegistrationOptionList
+RegistrationOptions
 ;
 namespace
 workers
@@ -216,7 +216,7 @@ nsAString
 &
 aScriptURL
 const
-RegistrationOptionList
+RegistrationOptions
 &
 aOptions
 ErrorResult
