@@ -56,6 +56,7 @@ MPL
 from
 __future__
 import
+absolute_import
 unicode_literals
 import
 gyp
@@ -65,10 +66,6 @@ import
 time
 import
 os
-from
-itertools
-import
-chain
 import
 mozpack
 .
