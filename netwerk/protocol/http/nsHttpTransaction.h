@@ -1785,9 +1785,6 @@ mResponseTimeoutEnabled
 bool
 mDontRouteViaWildCard
 ;
-bool
-mForceRestart
-;
 /
 /
 mClosed
