@@ -305,7 +305,7 @@ aRv
 ;
 BluetoothDevice
 *
-Device
+GetDevice
 (
 )
 const
