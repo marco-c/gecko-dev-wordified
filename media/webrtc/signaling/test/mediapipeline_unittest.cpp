@@ -1459,7 +1459,7 @@ AudioSegment
 audio
 -
 >
-AddTrack
+AddAudioTrack
 (
 0
 100

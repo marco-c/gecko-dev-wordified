@@ -326,7 +326,7 @@ AsSourceStream
 )
 -
 >
-AddTrack
+AddAudioTrack
 (
 1
 16000
@@ -656,17 +656,6 @@ AsSourceStream
 AddTrack
 (
 1
-mStream
--
->
-GetStream
-(
-)
--
->
-GraphRate
-(
-)
 0
 segment
 )
