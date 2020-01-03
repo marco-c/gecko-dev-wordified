@@ -191,7 +191,7 @@ void
 RtspOmxDecoder
 :
 :
-ApplyStateToStateMachine
+ChangeState
 (
 PlayState
 aState
@@ -207,7 +207,7 @@ NS_IsMainThread
 MediaDecoder
 :
 :
-ApplyStateToStateMachine
+ChangeState
 (
 aState
 )
@@ -240,7 +240,7 @@ state
 .
 if
 (
-aState
+mPlayState
 =
 =
 PLAY_STATE_ENDED
