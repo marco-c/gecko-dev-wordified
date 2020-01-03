@@ -8416,6 +8416,7 @@ f
 f
 )
 )
+)
 ;
 DrawTarget
 *
@@ -8612,7 +8613,9 @@ green
 (
 ToDeviceColor
 (
-Color0
+Color
+(
+0
 .
 f
 1
@@ -8655,6 +8658,7 @@ aDrawTarget
 nsPoint
 aPt
 )
+{
 nsMargin
 border
 ;
