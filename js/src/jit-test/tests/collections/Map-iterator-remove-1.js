@@ -28,6 +28,7 @@ pairs
 var
 map
 =
+new
 Map
 (
 pairs

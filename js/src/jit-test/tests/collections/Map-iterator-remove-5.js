@@ -23,6 +23,7 @@ skipped
 var
 map
 =
+new
 Map
 (
 )

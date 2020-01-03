@@ -27,6 +27,7 @@ js
 var
 m
 =
+new
 Map
 (
 )
@@ -57,6 +58,7 @@ undefined
 ;
 m
 =
+new
 Map
 (
 [
@@ -129,6 +131,7 @@ log
 ;
 m
 =
+new
 Map
 (
 [

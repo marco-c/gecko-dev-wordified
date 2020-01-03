@@ -14,6 +14,7 @@ Map
 var
 map
 =
+new
 Map
 (
 [

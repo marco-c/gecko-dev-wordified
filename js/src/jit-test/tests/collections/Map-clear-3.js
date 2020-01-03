@@ -14,6 +14,7 @@ works
 var
 m
 =
+new
 Map
 (
 )

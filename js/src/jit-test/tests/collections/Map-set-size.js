@@ -26,6 +26,7 @@ k
 var
 m
 =
+new
 Map
 (
 )

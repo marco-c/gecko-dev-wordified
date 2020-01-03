@@ -20,6 +20,7 @@ removed
 var
 m
 =
+new
 Map
 (
 )

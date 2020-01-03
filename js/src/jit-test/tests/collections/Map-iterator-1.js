@@ -16,6 +16,7 @@ twice
 var
 map
 =
+new
 Map
 (
 [

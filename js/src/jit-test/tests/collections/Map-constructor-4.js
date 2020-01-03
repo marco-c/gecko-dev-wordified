@@ -1,5 +1,6 @@
 /
 /
+new
 Map
 (
 x
@@ -59,6 +60,7 @@ function
 (
 )
 {
+new
 Map
 (
 k

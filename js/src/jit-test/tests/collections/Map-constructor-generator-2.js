@@ -28,6 +28,7 @@ red
 var
 m
 =
+new
 Map
 (
 [

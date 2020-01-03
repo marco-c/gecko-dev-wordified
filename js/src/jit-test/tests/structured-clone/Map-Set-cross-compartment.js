@@ -56,6 +56,7 @@ serialize
 evalcx
 (
 "
+new
 Map
 (
 [

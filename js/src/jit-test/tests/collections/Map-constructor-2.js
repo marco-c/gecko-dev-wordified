@@ -41,6 +41,7 @@ two
 var
 m
 =
+new
 Map
 (
 arr

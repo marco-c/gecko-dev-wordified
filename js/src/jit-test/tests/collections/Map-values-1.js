@@ -25,6 +25,7 @@ iterators
 var
 m
 =
+new
 Map
 (
 )

@@ -30,6 +30,7 @@ js
 var
 m
 =
+new
 Map
 (
 )

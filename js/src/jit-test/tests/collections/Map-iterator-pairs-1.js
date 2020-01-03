@@ -30,6 +30,7 @@ key
 var
 map
 =
+new
 Map
 (
 [

@@ -46,8 +46,11 @@ Object
 .
 getPrototypeOf
 (
+(
+new
 Map
 (
+)
 )
 [
 Symbol

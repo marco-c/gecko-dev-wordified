@@ -33,6 +33,7 @@ map
 var
 map
 =
+new
 Map
 (
 )

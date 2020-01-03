@@ -16,6 +16,7 @@ afterwards
 var
 m
 =
+new
 Map
 (
 [

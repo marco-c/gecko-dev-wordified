@@ -18,6 +18,7 @@ visited
 var
 map
 =
+new
 Map
 (
 )

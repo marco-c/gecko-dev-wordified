@@ -92,6 +92,7 @@ element
 ;
 test
 (
+new
 Map
 (
 [

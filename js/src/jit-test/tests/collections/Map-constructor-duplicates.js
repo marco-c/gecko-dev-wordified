@@ -61,6 +61,7 @@ zero
 var
 m
 =
+new
 Map
 (
 arg

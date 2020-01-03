@@ -64,6 +64,7 @@ true
 var
 m
 =
+new
 Map
 (
 data

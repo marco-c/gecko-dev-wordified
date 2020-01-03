@@ -1,5 +1,6 @@
 /
 /
+new
 Map
 (
 arr
@@ -32,6 +33,7 @@ function
 (
 )
 {
+new
 Map
 (
 [
@@ -49,6 +51,7 @@ function
 (
 )
 {
+new
 Map
 (
 [
@@ -66,6 +69,7 @@ function
 (
 )
 {
+new
 Map
 (
 [
@@ -94,6 +98,7 @@ function
 (
 )
 {
+new
 Map
 (
 [
@@ -114,6 +119,7 @@ TypeError
 ;
 /
 /
+new
 Map
 (
 iterable
@@ -135,6 +141,7 @@ function
 (
 )
 {
+new
 Map
 (
 [

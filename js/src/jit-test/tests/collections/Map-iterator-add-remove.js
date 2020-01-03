@@ -22,6 +22,7 @@ again
 var
 map
 =
+new
 Map
 (
 [

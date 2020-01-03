@@ -11,6 +11,7 @@ effect
 var
 m
 =
+new
 Map
 (
 )

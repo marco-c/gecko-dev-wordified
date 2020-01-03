@@ -37,6 +37,7 @@ c
 var
 m
 =
+new
 Map
 (
 arr

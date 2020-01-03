@@ -71,6 +71,7 @@ function
 (
 )
 {
+new
 Map
 (
 it

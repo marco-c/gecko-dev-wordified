@@ -92,6 +92,7 @@ iterator_fn
 .
 call
 (
+new
 Map
 (
 )
@@ -180,8 +181,11 @@ next_fn
 .
 call
 (
+(
+new
 Map
 (
+)
 )
 [
 Symbol

@@ -13,6 +13,7 @@ properties
 var
 m
 =
+new
 Map
 (
 )
