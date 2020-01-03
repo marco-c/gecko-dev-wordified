@@ -38,7 +38,7 @@ paste
 selectall
 "
 and
-selectionchange
+selectionstatechanged
 event
 works
 from
@@ -1258,7 +1258,7 @@ iframe
 addEventListener
 (
 "
-mozbrowserselectionchange
+mozbrowserselectionstatechanged
 "
 function
 selectchangeforselectall
@@ -1271,7 +1271,7 @@ iframe
 removeEventListener
 (
 "
-mozbrowserselectionchange
+mozbrowserselectionstatechanged
 "
 selectchangeforselectall
 true
@@ -1282,7 +1282,7 @@ ok
 true
 "
 got
-mozbrowserselectionchange
+mozbrowserselectionstatechanged
 event
 .
 "
@@ -1412,7 +1412,7 @@ after
 calling
 this
 the
-selectionchange
+selectionstatechanged
 event
 should
 be
