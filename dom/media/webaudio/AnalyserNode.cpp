@@ -1508,7 +1508,7 @@ float
 *
 inputBuffer
 ;
-AlignedFallibleTArray
+AlignedTArray
 <
 float
 >
