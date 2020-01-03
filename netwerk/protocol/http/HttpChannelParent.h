@@ -219,6 +219,13 @@ IdType
 .
 h
 "
+#
+include
+"
+nsINetworkInterceptController
+.
+h
+"
 class
 nsICacheEntry
 ;
@@ -261,6 +268,8 @@ ADivertableParentChannel
 public
 nsIAuthPromptProvider
 public
+nsINetworkInterceptController
+public
 DisconnectableParent
 {
 virtual
@@ -279,6 +288,7 @@ NS_DECL_NSIPARENTREDIRECTINGCHANNEL
 NS_DECL_NSIPROGRESSEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIAUTHPROMPTPROVIDER
+NS_DECL_NSINETWORKINTERCEPTCONTROLLER
 HttpChannelParent
 (
 const
@@ -588,6 +598,10 @@ const
 uint32_t
 &
 aInnerWindowID
+const
+OptionalHttpResponseHead
+&
+aSynthesizedResponseHead
 )
 ;
 virtual
@@ -916,6 +930,12 @@ nsRefPtr
 nsHttpHandler
 >
 mHttpHandler
+;
+nsAutoPtr
+<
+nsHttpResponseHead
+>
+mSynthesizedResponseHead
 ;
 nsRefPtr
 <
