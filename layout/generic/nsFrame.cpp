@@ -38230,11 +38230,7 @@ parameter
 nsRect
 contentRect
 =
-GetContentRect
-(
-)
--
-GetPosition
+GetContentRectRelativeToSelf
 (
 )
 ;

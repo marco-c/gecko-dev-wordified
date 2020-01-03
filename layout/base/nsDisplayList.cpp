@@ -14632,14 +14632,7 @@ clipRect
 frame
 -
 >
-GetContentRect
-(
-)
--
-frame
--
->
-GetPosition
+GetContentRectRelativeToSelf
 (
 )
 +
