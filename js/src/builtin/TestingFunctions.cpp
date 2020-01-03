@@ -13618,10 +13618,10 @@ succeeded
 if
 (
 !
-JSObject
+js
 :
 :
-setImmutablePrototype
+SetImmutablePrototype
 (
 cx
 obj

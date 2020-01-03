@@ -6335,10 +6335,7 @@ throwTypeError
 |
 |
 !
-JSObject
-:
-:
-preventExtensions
+PreventExtensions
 (
 cx
 throwTypeError

@@ -19408,10 +19408,7 @@ succeeded
 if
 (
 !
-JSObject
-:
-:
-setProto
+SetPrototype
 (
 cx
 obj

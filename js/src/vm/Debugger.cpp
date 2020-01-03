@@ -42419,10 +42419,7 @@ refobj
 if
 (
 !
-JSObject
-:
-:
-getProto
+GetPrototype
 (
 cx
 refobj
@@ -45470,9 +45467,9 @@ true
 enum
 SealHelperOp
 {
-Seal
-Freeze
-PreventExtensions
+OpSeal
+OpFreeze
+OpPreventExtensions
 }
 ;
 static
@@ -45533,7 +45530,7 @@ if
 op
 =
 =
-Seal
+OpSeal
 )
 {
 ok
@@ -45554,7 +45551,7 @@ if
 op
 =
 =
-Freeze
+OpFreeze
 )
 {
 ok
@@ -45576,7 +45573,7 @@ MOZ_ASSERT
 op
 =
 =
-PreventExtensions
+OpPreventExtensions
 )
 ;
 bool
@@ -45584,10 +45581,7 @@ succeeded
 ;
 ok
 =
-JSObject
-:
-:
-preventExtensions
+PreventExtensions
 (
 cx
 obj
@@ -45664,7 +45658,7 @@ DebuggerObject_sealHelper
 cx
 argc
 vp
-Seal
+OpSeal
 "
 seal
 "
@@ -45691,7 +45685,7 @@ DebuggerObject_sealHelper
 cx
 argc
 vp
-Freeze
+OpFreeze
 "
 freeze
 "
@@ -45718,7 +45712,7 @@ DebuggerObject_sealHelper
 cx
 argc
 vp
-PreventExtensions
+OpPreventExtensions
 "
 preventExtensions
 "
@@ -45783,7 +45777,7 @@ if
 op
 =
 =
-Seal
+OpSeal
 )
 {
 if
@@ -45810,7 +45804,7 @@ if
 op
 =
 =
-Freeze
+OpFreeze
 )
 {
 if
@@ -45836,10 +45830,7 @@ else
 if
 (
 !
-JSObject
-:
-:
-isExtensible
+IsExtensible
 (
 cx
 obj
@@ -45886,7 +45877,7 @@ DebuggerObject_isSealedHelper
 cx
 argc
 vp
-Seal
+OpSeal
 "
 isSealed
 "
@@ -45913,7 +45904,7 @@ DebuggerObject_isSealedHelper
 cx
 argc
 vp
-Freeze
+OpFreeze
 "
 isFrozen
 "
@@ -45940,7 +45931,7 @@ DebuggerObject_isSealedHelper
 cx
 argc
 vp
-PreventExtensions
+OpPreventExtensions
 "
 isExtensible
 "

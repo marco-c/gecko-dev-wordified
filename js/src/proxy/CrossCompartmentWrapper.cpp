@@ -496,10 +496,7 @@ wrapped
 if
 (
 !
-JSObject
-:
-:
-getProto
+GetPrototype
 (
 cx
 wrapped

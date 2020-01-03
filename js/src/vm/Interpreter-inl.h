@@ -4391,10 +4391,7 @@ extensible
 if
 (
 !
-JSObject
-:
-:
-isExtensible
+IsExtensible
 (
 cx
 cso

@@ -3081,10 +3081,7 @@ extensible
 if
 (
 !
-JSObject
-:
-:
-isExtensible
+IsExtensible
 (
 cx
 obj
@@ -6464,10 +6461,7 @@ extensible
 if
 (
 !
-JSObject
-:
-:
-isExtensible
+IsExtensible
 (
 cx
 obj
@@ -9499,10 +9493,7 @@ extensible
 if
 (
 !
-JSObject
-:
-:
-isExtensible
+IsExtensible
 (
 cx
 obj

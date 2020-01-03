@@ -649,10 +649,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProto
+GetPrototype
 (
 cx
 proxy
