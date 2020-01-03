@@ -178,6 +178,9 @@ OutputStreamListener
 class
 ReentrantMonitor
 ;
+class
+MediaStreamGraph
+;
 namespace
 layers
 {
@@ -683,9 +686,9 @@ RecreateData
 (
 int64_t
 aInitialTime
-SourceMediaStream
+MediaStreamGraph
 *
-aStream
+aGraph
 )
 ;
 nsTArray
