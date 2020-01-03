@@ -15021,6 +15021,9 @@ if
 copyFromContinuation
 )
 {
+uint32_t
+equalStructs
+;
 DebugOnly
 <
 nsChangeHint
@@ -15037,6 +15040,8 @@ nsChangeHint
 (
 0
 )
+&
+equalStructs
 )
 ;
 /
@@ -15547,6 +15552,9 @@ context
 /
 resolved
 .
+uint32_t
+equalStructs
+;
 DebugOnly
 <
 nsChangeHint
@@ -15563,6 +15571,8 @@ nsChangeHint
 (
 0
 )
+&
+equalStructs
 )
 ;
 /
@@ -16392,6 +16402,9 @@ pseudo
 "
 )
 ;
+uint32_t
+equalStructs
+;
 nsChangeHint
 ourChange
 =
@@ -16402,6 +16415,8 @@ CalcStyleDifference
 (
 aNewContext
 mParentFrameHintsNotHandledForDescendants
+&
+equalStructs
 )
 ;
 NS_ASSERTION
