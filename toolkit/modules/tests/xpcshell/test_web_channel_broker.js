@@ -427,6 +427,10 @@ origin
 :
 URL_STRING
 }
+objects
+:
+{
+}
 }
 ;
 WebChannelBroker
