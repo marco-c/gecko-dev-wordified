@@ -9184,6 +9184,7 @@ aClosure
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 AssertIsOnMainThread
 (

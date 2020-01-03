@@ -190,6 +190,7 @@ nsPIDOMWindow
 aWindow
 )
 ;
+virtual
 JSObject
 *
 WrapObject
@@ -198,6 +199,7 @@ JSContext
 *
 aCx
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <

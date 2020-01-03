@@ -537,6 +537,7 @@ UnregisterSucceeded
 bool
 aState
 )
+MOZ_OVERRIDE
 {
 AssertIsOnMainThread
 (
@@ -558,6 +559,7 @@ NS_IMETHODIMP
 UnregisterFailed
 (
 )
+MOZ_OVERRIDE
 {
 AssertIsOnMainThread
 (
