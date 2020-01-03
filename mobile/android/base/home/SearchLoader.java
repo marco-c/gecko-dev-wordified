@@ -201,13 +201,6 @@ content
 .
 Loader
 ;
-import
-android
-.
-util
-.
-Log
-;
 /
 *
 *
@@ -703,7 +696,7 @@ start
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 TELEMETRY_HISTOGRAM_LOAD_CURSOR
 (

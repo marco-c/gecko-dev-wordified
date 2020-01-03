@@ -318,7 +318,7 @@ json
 public
 static
 void
-HistogramAdd
+addToHistogram
 (
 String
 name
@@ -527,7 +527,7 @@ histogram
 return
 ;
 }
-HistogramAdd
+addToHistogram
 (
 mName
 (

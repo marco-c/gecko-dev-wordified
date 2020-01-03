@@ -3500,7 +3500,7 @@ start
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 TELEMETRY_HISTOGRAM_LOAD_CURSOR
 (

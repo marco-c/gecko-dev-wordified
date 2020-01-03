@@ -2001,7 +2001,7 @@ e
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_MALFORMED_DISTRIBUTION
@@ -2034,7 +2034,7 @@ e
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_MALFORMED_DISTRIBUTION
@@ -2122,7 +2122,7 @@ e
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_MALFORMED_DISTRIBUTION
@@ -2155,7 +2155,7 @@ e
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_MALFORMED_DISTRIBUTION
@@ -2757,7 +2757,7 @@ null
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_DOWNLOAD_TIME_MS
 clamp
@@ -2902,7 +2902,7 @@ e
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_POST_FETCH_SECURITY_EXCEPTION
@@ -2933,7 +2933,7 @@ e
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_POST_FETCH_EXCEPTION
@@ -3175,7 +3175,7 @@ status
 }
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 value
@@ -3210,7 +3210,7 @@ distribution
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_FETCH_NON_SUCCESS_RESPONSE
@@ -3266,7 +3266,7 @@ Type
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_FETCH_INVALID_CONTENT_TYPE
@@ -3319,7 +3319,7 @@ happen
 .
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_FETCH_EXCEPTION
@@ -3348,7 +3348,7 @@ offline
 .
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_OFFLINE
@@ -3366,7 +3366,7 @@ SSLException
 {
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_FETCH_SSL_ERROR
@@ -3389,7 +3389,7 @@ SocketException
 {
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_FETCH_SOCKET_ERROR
@@ -3400,7 +3400,7 @@ return
 }
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_CODE_CATEGORY
 CODE_CATEGORY_FETCH_EXCEPTION
@@ -4414,7 +4414,7 @@ content
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 HISTOGRAM_REFERRER_INVALID
 1
