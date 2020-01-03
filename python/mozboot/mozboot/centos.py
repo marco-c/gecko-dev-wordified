@@ -277,7 +277,7 @@ self
         
 self
 .
-yum_groupinstall
+dnf_groupinstall
 (
 *
 self
@@ -287,7 +287,7 @@ group_packages
         
 self
 .
-yum_install
+dnf_install
 (
 *
 self
@@ -304,7 +304,7 @@ self
         
 self
 .
-yum_groupinstall
+dnf_groupinstall
 (
 *
 self
@@ -314,7 +314,7 @@ browser_group_packages
         
 self
 .
-yum_install
+dnf_install
 (
 *
 self
@@ -435,7 +435,7 @@ current
         
 self
 .
-yum_update
+dnf_update
 (
 '
 mercurial
