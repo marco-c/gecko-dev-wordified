@@ -181,9 +181,6 @@ GMPUnique
 <
 GMPVideoi420Frame
 >
-:
-:
-Ptr
 decodedFrame
 (
 aDecodedFrame
@@ -673,9 +670,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 GMPVideoDecoder
 :
 :
@@ -728,9 +722,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 frame
 (
 static_cast
@@ -1493,9 +1484,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 frame
 =
 CreateFrame

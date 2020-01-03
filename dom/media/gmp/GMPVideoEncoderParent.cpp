@@ -730,9 +730,6 @@ GMPUnique
 <
 GMPVideoi420Frame
 >
-:
-:
-Ptr
 aInputFrame
 const
 nsTArray
@@ -793,9 +790,6 @@ GMPUnique
 <
 GMPVideoi420FrameImpl
 >
-:
-:
-Ptr
 inputFrameImpl
 (
 static_cast
