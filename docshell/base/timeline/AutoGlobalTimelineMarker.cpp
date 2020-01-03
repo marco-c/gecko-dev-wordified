@@ -184,7 +184,7 @@ return
 TimelineConsumers
 :
 :
-AddMarkerToAllObservedDocShells
+AddMarkerForAllObservedDocShells
 (
 mName
 TRACING_INTERVAL_START
@@ -215,7 +215,7 @@ return
 TimelineConsumers
 :
 :
-AddMarkerToAllObservedDocShells
+AddMarkerForAllObservedDocShells
 (
 mName
 TRACING_INTERVAL_END

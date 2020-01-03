@@ -312,7 +312,7 @@ aMetaData
 ;
 static
 void
-AddMarkerToDocShellsList
+AddMarkerForDocShellsList
 (
 Vector
 <
@@ -333,7 +333,7 @@ aMetaData
 ;
 static
 void
-AddMarkerToAllObservedDocShells
+AddMarkerForAllObservedDocShells
 (
 const
 char
