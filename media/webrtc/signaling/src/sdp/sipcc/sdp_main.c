@@ -1337,8 +1337,8 @@ msid
 semantic
 "
 )
-sdp_parse_attr_simple_string
-sdp_build_attr_simple_string
+sdp_parse_attr_msid_semantic
+sdp_build_attr_msid_semantic
 }
 {
 "
