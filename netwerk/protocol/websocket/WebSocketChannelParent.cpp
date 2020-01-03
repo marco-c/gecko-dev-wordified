@@ -805,6 +805,16 @@ aLoadInfoArgs
 innerWindowID
 (
 )
+aLoadInfoArgs
+.
+outerWindowID
+(
+)
+aLoadInfoArgs
+.
+parentOuterWindowID
+(
+)
 )
 ;
 rv
