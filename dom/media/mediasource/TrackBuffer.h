@@ -1430,6 +1430,13 @@ int64_t
 >
 mLastEndTimestamp
 ;
+void
+AdjustDecodersTimestampOffset
+(
+int32_t
+aOffset
+)
+;
 /
 /
 The
@@ -1445,6 +1452,9 @@ microseconds
 .
 int64_t
 mLastTimestampOffset
+;
+int64_t
+mAdjustedTimestamp
 ;
 /
 /
