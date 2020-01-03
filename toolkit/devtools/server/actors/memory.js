@@ -925,7 +925,7 @@ _clearDebuggees
 (
 )
 ;
-nthis
+this
 .
 _frameCache
 .
