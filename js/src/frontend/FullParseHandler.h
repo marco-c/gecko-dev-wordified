@@ -1095,8 +1095,6 @@ newCallSiteObject
 (
 uint32_t
 begin
-unsigned
-blockidGen
 )
 {
 ParseNode
@@ -1132,7 +1130,6 @@ callSite
 )
 .
 begin
-blockidGen
 )
 ;
 if
@@ -1882,8 +1879,6 @@ newArrayComprehension
 ParseNode
 *
 body
-unsigned
-blockid
 const
 TokenPos
 &
@@ -1944,13 +1939,6 @@ nullptr
 pn
 -
 >
-pn_blockid
-=
-blockid
-;
-pn
--
->
 append
 (
 body
@@ -1966,8 +1954,6 @@ newArrayLiteral
 (
 uint32_t
 begin
-unsigned
-blockid
 )
 {
 ParseNode
@@ -2006,7 +1992,6 @@ if
 (
 literal
 )
-{
 literal
 -
 >
@@ -2015,14 +2000,6 @@ setOp
 JSOP_NEWINIT
 )
 ;
-literal
--
->
-pn_blockid
-=
-blockid
-;
-}
 return
 literal
 ;
@@ -6031,7 +6008,7 @@ isLexical
 dn
 -
 >
-pn_cookie
+pn_scopecoord
 .
 slot
 (

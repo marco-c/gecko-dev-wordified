@@ -1618,8 +1618,6 @@ newCallSiteObject
 (
 uint32_t
 begin
-unsigned
-blockidGen
 )
 {
 return
@@ -1879,8 +1877,6 @@ newArrayComprehension
 (
 Node
 body
-unsigned
-blockid
 const
 TokenPos
 &
@@ -1896,8 +1892,6 @@ newArrayLiteral
 (
 uint32_t
 begin
-unsigned
-blockid
 )
 {
 return
