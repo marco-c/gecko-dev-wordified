@@ -370,6 +370,7 @@ ImageContainer
 aImageContainer
 )
 ;
+virtual
 ~
 AppleVDADecoder
 (

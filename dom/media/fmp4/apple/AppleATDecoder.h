@@ -193,6 +193,7 @@ MediaDataDecoderCallback
 aCallback
 )
 ;
+virtual
 ~
 AppleATDecoder
 (
