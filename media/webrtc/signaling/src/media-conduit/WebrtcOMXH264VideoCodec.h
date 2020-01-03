@@ -280,7 +280,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-RefPtr
+nsAutoPtr
 <
 android
 :
