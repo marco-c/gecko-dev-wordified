@@ -1167,11 +1167,6 @@ audioLevelDisplayMode
 "
 off
 "
-bugDisplayMode
-:
-"
-off
-"
 buttonDisplayMode
 :
 "
