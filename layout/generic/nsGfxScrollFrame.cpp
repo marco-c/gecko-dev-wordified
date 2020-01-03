@@ -24049,7 +24049,7 @@ mHorizontalOverflow
 mVerticalOverflow
 )
 ?
-NS_SCROLLPORT_OVERFLOW
+eScrollPortOverflow
 :
 NS_SCROLLPORT_UNDERFLOW
 nullptr
