@@ -41160,7 +41160,7 @@ mMessage
 eKeyDown
 )
 ?
-NS_KEY_AFTER_DOWN
+eAfterKeyDown
 :
 NS_KEY_AFTER_UP
 ;
