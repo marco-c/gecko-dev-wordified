@@ -185,7 +185,10 @@ TimelineConsumers
 AddMarkerForAllObservedDocShells
 (
 mName
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 ;
 }
@@ -216,7 +219,10 @@ TimelineConsumers
 AddMarkerForAllObservedDocShells
 (
 mName
-TRACING_INTERVAL_END
+MarkerTracingType
+:
+:
+END
 )
 ;
 }

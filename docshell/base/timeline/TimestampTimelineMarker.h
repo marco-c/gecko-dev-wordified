@@ -163,7 +163,10 @@ TimelineMarker
 "
 TimeStamp
 "
-TRACING_TIMESTAMP
+MarkerTracingType
+:
+:
+TIMESTAMP
 )
 mCause
 (

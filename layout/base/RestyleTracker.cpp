@@ -2454,7 +2454,10 @@ data
 -
 >
 mRestyleHint
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 ;
 TimelineConsumers
@@ -2566,7 +2569,10 @@ data
 -
 >
 mRestyleHint
-TRACING_INTERVAL_END
+MarkerTracingType
+:
+:
+END
 )
 ;
 TimelineConsumers
@@ -2870,7 +2876,10 @@ currentRestyle
 -
 >
 mRestyleHint
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 ;
 TimelineConsumers
@@ -2926,7 +2935,10 @@ currentRestyle
 -
 >
 mRestyleHint
-TRACING_INTERVAL_END
+MarkerTracingType
+:
+:
+END
 )
 ;
 TimelineConsumers

@@ -79609,7 +79609,10 @@ aReason
 aFunctionName
 aFilename
 aLineNumber
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 ;
 TimelineConsumers
@@ -79681,7 +79684,10 @@ this
 "
 Javascript
 "
-TRACING_INTERVAL_END
+MarkerTracingType
+:
+:
+END
 )
 ;
 }

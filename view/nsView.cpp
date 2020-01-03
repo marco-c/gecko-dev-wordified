@@ -6775,7 +6775,10 @@ docShell
 Composite
 "
 aCompositeStart
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 ;
 TimelineConsumers
@@ -6788,7 +6791,10 @@ docShell
 Composite
 "
 aCompositeEnd
-TRACING_INTERVAL_END
+MarkerTracingType
+:
+:
+END
 )
 ;
 }

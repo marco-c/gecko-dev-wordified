@@ -215,7 +215,10 @@ AddMarkerForDocShell
 (
 mDocShell
 mName
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 ;
 }
@@ -251,7 +254,10 @@ AddMarkerForDocShell
 (
 mDocShell
 mName
-TRACING_INTERVAL_END
+MarkerTracingType
+:
+:
+END
 )
 ;
 }
