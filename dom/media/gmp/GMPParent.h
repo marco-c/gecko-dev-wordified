@@ -216,9 +216,6 @@ ThreadSafeRefcountingWithMainThreadDestruction
 h
 "
 class
-nsILineInputStream
-;
-class
 nsIThread
 ;
 #

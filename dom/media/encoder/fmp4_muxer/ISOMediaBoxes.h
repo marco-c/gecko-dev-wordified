@@ -231,9 +231,6 @@ class
 VideoTrackMetadata
 ;
 class
-ES_Descriptor
-;
-class
 ISOControl
 ;
 /

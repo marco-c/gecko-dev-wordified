@@ -76,9 +76,6 @@ namespace
 system
 {
 class
-ResultListener
-;
-class
 AutoMounterSetting
 :
 public

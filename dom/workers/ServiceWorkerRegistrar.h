@@ -162,9 +162,6 @@ content
 class
 nsIFile
 ;
-class
-nsRunnable
-;
 namespace
 mozilla
 {

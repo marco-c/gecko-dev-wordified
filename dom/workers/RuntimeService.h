@@ -164,9 +164,6 @@ nsTArray
 h
 "
 class
-nsIRunnable
-;
-class
 nsITimer
 ;
 class

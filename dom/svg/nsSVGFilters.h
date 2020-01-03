@@ -161,9 +161,6 @@ class
 nsSVGFilterInstance
 ;
 class
-nsSVGFilterResource
-;
-class
 nsSVGNumberPair
 ;
 struct

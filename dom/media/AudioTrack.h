@@ -131,9 +131,6 @@ namespace
 dom
 {
 class
-AudioTrackList
-;
-class
 AudioTrack
 :
 public

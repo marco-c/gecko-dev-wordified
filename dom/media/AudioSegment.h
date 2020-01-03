@@ -277,9 +277,6 @@ mBuffers
 }
 ;
 class
-AudioStream
-;
-class
 AudioMixer
 ;
 /

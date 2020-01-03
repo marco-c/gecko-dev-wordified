@@ -100,9 +100,6 @@ class
 Volume
 ;
 class
-VolumeMountLock
-;
-class
 nsVolume
 :
 public

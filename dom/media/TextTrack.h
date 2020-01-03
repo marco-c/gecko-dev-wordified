@@ -174,9 +174,6 @@ class
 TextTrackCueList
 ;
 class
-TextTrackRegion
-;
-class
 HTMLTrackElement
 ;
 enum

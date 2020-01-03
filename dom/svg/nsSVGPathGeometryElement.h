@@ -117,9 +117,6 @@ SVGGraphicsElement
 .
 h
 "
-class
-gfxMatrix
-;
 struct
 nsSVGMark
 {

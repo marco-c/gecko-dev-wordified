@@ -144,9 +144,6 @@ h
 struct
 PRFileDesc
 ;
-class
-nsIDOMBlob
-;
 namespace
 mozilla
 {
@@ -157,9 +154,6 @@ class
 File
 ;
 }
-class
-ReentrantMonitor
-;
 /
 *
 *

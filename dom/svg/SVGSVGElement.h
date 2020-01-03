@@ -214,9 +214,6 @@ nsSVGOuterSVGFrame
 class
 nsSVGInnerSVGFrame
 ;
-class
-nsSVGImageFrame
-;
 namespace
 mozilla
 {

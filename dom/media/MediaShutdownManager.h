@@ -190,9 +190,6 @@ mozilla
 class
 MediaDecoder
 ;
-class
-StateMachineThread
-;
 /
 /
 The

@@ -145,9 +145,6 @@ h
 class
 nsIContent
 ;
-class
-nsSVGElement
-;
 namespace
 mozilla
 {

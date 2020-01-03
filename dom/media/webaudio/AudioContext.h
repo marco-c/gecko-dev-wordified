@@ -281,9 +281,6 @@ class
 MediaStreamGraph
 ;
 class
-AudioNodeEngine
-;
-class
 AudioNodeStream
 ;
 namespace

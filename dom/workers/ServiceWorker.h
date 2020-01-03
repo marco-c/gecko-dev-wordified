@@ -144,9 +144,6 @@ mozilla
 namespace
 dom
 {
-class
-Promise
-;
 namespace
 workers
 {

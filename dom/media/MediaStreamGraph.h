@@ -1772,9 +1772,6 @@ AudioNodeExternalInputStream
 class
 AudioNodeStream
 ;
-struct
-AudioChunk
-;
 class
 CameraPreviewMediaStream
 ;

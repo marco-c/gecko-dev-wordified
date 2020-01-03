@@ -135,9 +135,6 @@ DOMSVGPointList
 .
 h
 "
-class
-nsSVGElement
-;
 /
 /
 {

@@ -161,9 +161,6 @@ include
 <
 queue
 >
-class
-nsIThreadPool
-;
 namespace
 mozilla
 {
@@ -179,9 +176,6 @@ VideoInfo
 class
 MediaRawData
 ;
-class
-MediaByteBuffer
-;
 namespace
 layers
 {
@@ -194,9 +188,6 @@ MediaDataDecoder
 ;
 class
 MediaDataDecoderCallback
-;
-class
-MediaInputQueue
 ;
 class
 FlushableMediaTaskQueue

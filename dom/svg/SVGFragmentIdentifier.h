@@ -109,9 +109,6 @@ h
 class
 nsIDocument
 ;
-class
-nsSVGViewElement
-;
 namespace
 mozilla
 {

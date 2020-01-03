@@ -161,9 +161,6 @@ CORSMode
 .
 h
 "
-class
-nsXPCClassInfo
-;
 /
 /
 GetCurrentTime

@@ -253,9 +253,6 @@ nsTObserverArray
 .
 h
 "
-class
-nsIScriptError
-;
 namespace
 mozilla
 {

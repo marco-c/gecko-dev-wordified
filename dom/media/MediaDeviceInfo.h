@@ -109,12 +109,6 @@ mozilla
 namespace
 dom
 {
-class
-Promise
-;
-struct
-MediaStreamConstraints
-;
 #
 define
 MOZILLA_DOM_MEDIADEVICEINFO_IMPLEMENTATION_IID

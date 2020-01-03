@@ -175,9 +175,6 @@ class
 VideoFrameContainer
 ;
 class
-TimedMetadata
-;
-class
 MediaDecoderOwner
 ;
 #

@@ -155,9 +155,6 @@ URLSearchParams
 .
 h
 "
-class
-nsIPrincipal
-;
 namespace
 mozilla
 {

@@ -272,9 +272,6 @@ SpeechRecognitionError
 .
 h
 "
-class
-nsIDOMWindow
-;
 namespace
 mozilla
 {

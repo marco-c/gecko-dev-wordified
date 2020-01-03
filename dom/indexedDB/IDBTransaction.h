@@ -206,9 +206,6 @@ DOMError
 class
 DOMStringList
 ;
-class
-PBlobChild
-;
 namespace
 indexedDB
 {
@@ -244,9 +241,6 @@ ObjectStoreSpec
 ;
 class
 OpenCursorParams
-;
-class
-PBackgroundIDBDatabaseFileChild
 ;
 class
 RequestParams

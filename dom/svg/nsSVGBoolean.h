@@ -133,9 +133,6 @@ class
 nsIAtom
 ;
 class
-nsISupports
-;
-class
 nsSMILValue
 ;
 class

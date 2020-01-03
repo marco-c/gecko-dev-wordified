@@ -101,9 +101,6 @@ class
 DataStore
 ;
 class
-DataStoreImpl
-;
-class
 StringOrUnsignedLong
 ;
 class

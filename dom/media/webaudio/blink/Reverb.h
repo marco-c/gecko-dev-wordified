@@ -331,12 +331,6 @@ ThreadSharedFloatArrayBufferList
 namespace
 WebCore
 {
-class
-DirectConvolver
-;
-class
-FFTConvolver
-;
 /
 /
 Multi
