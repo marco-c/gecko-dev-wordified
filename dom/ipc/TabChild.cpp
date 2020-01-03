@@ -1246,8 +1246,8 @@ kDefaultViewportSize
 ;
 mLastRootMetrics
 .
-mCompositionBounds
-=
+SetCompositionBounds
+(
 ParentLayerRect
 (
 ParentLayerPoint
@@ -1265,6 +1265,7 @@ PixelCastJustification
 :
 :
 ScreenIsParentLayerForRoot
+)
 )
 )
 )
@@ -2298,8 +2299,8 @@ viewport
 ;
 metrics
 .
-mCompositionBounds
-=
+SetCompositionBounds
+(
 ParentLayerRect
 (
 ParentLayerPoint
@@ -2317,6 +2318,7 @@ PixelCastJustification
 :
 :
 ScreenIsParentLayerForRoot
+)
 )
 )
 )

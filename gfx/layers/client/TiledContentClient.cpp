@@ -9035,7 +9035,9 @@ Metrics
 (
 )
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 )
 ;
 }

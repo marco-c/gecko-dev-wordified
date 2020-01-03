@@ -4011,7 +4011,9 @@ GetFrameMetrics
 (
 )
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 )
 ;
 }
@@ -4110,7 +4112,9 @@ screenCompositionBounds
 =
 metrics
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 /
 ParentLayerToParentLayerScale
 (

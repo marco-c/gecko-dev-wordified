@@ -1612,7 +1612,9 @@ Metrics
 (
 )
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 )
 ;
 }
@@ -1900,7 +1902,9 @@ tcb
 <
 metrics
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 <
 <
 "
@@ -2073,7 +2077,9 @@ Metrics
 (
 )
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 )
 )
 )

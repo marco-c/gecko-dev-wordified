@@ -1203,7 +1203,9 @@ AppendToString
 aStream
 m
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 "
 {
 [

@@ -3232,7 +3232,9 @@ i
 1
 )
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 ;
 aManager
 -

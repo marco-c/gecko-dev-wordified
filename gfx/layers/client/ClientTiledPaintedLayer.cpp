@@ -1262,7 +1262,9 @@ GetZoom
 +
 displayportMetrics
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 .
 TopLeft
 (
@@ -1428,7 +1430,9 @@ ApplyParentLayerToLayerTransform
 transformToBounds
 scrollMetrics
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 )
 ;
 TILING_LOG
