@@ -5926,10 +5926,9 @@ IsTransportSeekable
 (
 )
 {
-ReentrantMonitorAutoEnter
-mon
+MOZ_ASSERT
 (
-GetReentrantMonitor
+NS_IsMainThread
 (
 )
 )
