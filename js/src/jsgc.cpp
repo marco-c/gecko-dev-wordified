@@ -18011,14 +18011,9 @@ nullptr
 JS
 :
 :
-PrepareZoneForGC
+PrepareForFullGC
 (
-cx
--
->
-zone
-(
-)
+rt
 )
 ;
 AutoKeepAtoms
@@ -18037,7 +18032,7 @@ gc
 .
 gc
 (
-GC_NORMAL
+GC_SHRINK
 JS
 :
 :
