@@ -364,6 +364,7 @@ mFileHandle
 ;
 public
 :
+explicit
 BackgroundFileHandleChild
 (
 DEBUGONLY
@@ -500,6 +501,7 @@ created
 by
 FileHandleBase
 .
+explicit
 BackgroundFileRequestChild
 (
 DEBUGONLY
