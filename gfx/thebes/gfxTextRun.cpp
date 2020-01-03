@@ -1380,17 +1380,6 @@ constitutes
 a
 cluster
 .
-NS_WARNING
-(
-"
-Break
-suggested
-inside
-cluster
-!
-"
-)
-;
 canBreak
 =
 CompressedGlyph
