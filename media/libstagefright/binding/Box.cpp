@@ -573,6 +573,8 @@ mSource
 CachedReadAt
 (
 aOffset
++
+8
 bigLength
 sizeof
 (
