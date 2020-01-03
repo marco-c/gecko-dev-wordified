@@ -707,10 +707,10 @@ AudioNodeStream
 *
 aStream
 const
-AudioChunk
+AudioBlock
 &
 aInput
-AudioChunk
+AudioBlock
 *
 aOutput
 bool
@@ -970,10 +970,12 @@ Length
 (
 )
 ;
-AllocateAudioBlock
+aOutput
+-
+>
+AllocateChannels
 (
 numberOfChannels
-aOutput
 )
 ;
 StreamTime

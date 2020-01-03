@@ -732,7 +732,7 @@ audioNodeInputValue
 0f
 ;
 const
-AudioChunk
+AudioBlock
 &
 lastAudioNodeChunk
 =

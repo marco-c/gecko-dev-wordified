@@ -324,8 +324,8 @@ h
 namespace
 mozilla
 {
-struct
-AudioChunk
+class
+AudioBlock
 ;
 }
 /
@@ -339,7 +339,7 @@ using
 mozilla
 :
 :
-AudioChunk
+AudioBlock
 ;
 /
 /
@@ -435,10 +435,10 @@ void
 process
 (
 const
-AudioChunk
+AudioBlock
 *
 sourceChunk
-AudioChunk
+AudioBlock
 *
 destinationChunk
 unsigned

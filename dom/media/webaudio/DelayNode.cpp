@@ -420,10 +420,10 @@ AudioNodeStream
 *
 aStream
 const
-AudioChunk
+AudioBlock
 &
 aInput
-AudioChunk
+AudioBlock
 *
 aOutput
 bool
@@ -670,7 +670,7 @@ NextBlock
 void
 UpdateOutputBlock
 (
-AudioChunk
+AudioBlock
 *
 aOutput
 double
@@ -916,7 +916,7 @@ virtual
 void
 ProduceBlockBeforeInput
 (
-AudioChunk
+AudioBlock
 *
 aOutput
 )

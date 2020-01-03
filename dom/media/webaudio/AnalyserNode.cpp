@@ -369,10 +369,10 @@ AudioNodeStream
 *
 aStream
 const
-AudioChunk
+AudioBlock
 &
 aInput
-AudioChunk
+AudioBlock
 *
 aOutput
 bool
@@ -397,6 +397,10 @@ TransferBuffer
 (
 aStream
 aInput
+.
+AsAudioChunk
+(
+)
 )
 ;
 NS_DispatchToMainThread

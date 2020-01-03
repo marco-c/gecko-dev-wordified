@@ -288,7 +288,7 @@ h
 #
 include
 "
-AudioSegment
+AudioBlock
 .
 h
 "
@@ -1082,10 +1082,10 @@ DynamicsCompressor
 process
 (
 const
-AudioChunk
+AudioBlock
 *
 sourceChunk
-AudioChunk
+AudioBlock
 *
 destinationChunk
 unsigned

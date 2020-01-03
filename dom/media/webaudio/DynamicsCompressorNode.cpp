@@ -477,10 +477,10 @@ AudioNodeStream
 *
 aStream
 const
-AudioChunk
+AudioBlock
 &
 aInput
-AudioChunk
+AudioBlock
 *
 aOutput
 bool
@@ -663,10 +663,12 @@ pos
 )
 )
 ;
-AllocateAudioBlock
+aOutput
+-
+>
+AllocateChannels
 (
 channelCount
-aOutput
 )
 ;
 mCompressor
