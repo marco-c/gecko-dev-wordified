@@ -344,6 +344,13 @@ return
 nullptr
 ;
 }
+virtual
+bool
+IsValid
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 /

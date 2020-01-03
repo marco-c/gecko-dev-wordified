@@ -561,6 +561,13 @@ VideoIsHardwareAccelerated
 const
 MOZ_OVERRIDE
 ;
+virtual
+void
+DisableHardwareAcceleration
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 bool

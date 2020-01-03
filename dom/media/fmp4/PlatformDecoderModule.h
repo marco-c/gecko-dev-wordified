@@ -1138,6 +1138,13 @@ VideoDecoderConfig
 aConfig
 )
 ;
+virtual
+void
+DisableHardwareAcceleration
+(
+)
+{
+}
 protected
 :
 PlatformDecoderModule
