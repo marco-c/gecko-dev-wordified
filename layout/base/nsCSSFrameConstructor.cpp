@@ -30973,7 +30973,7 @@ NS_NewMathMLmunderoverFrame
 SIMPLE_MATHML_CREATE
 (
 mphantom_
-NS_NewMathMLmphantomFrame
+NS_NewMathMLmrowFrame
 )
 SIMPLE_MATHML_CREATE
 (
