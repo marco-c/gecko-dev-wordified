@@ -1295,7 +1295,7 @@ is
 Scalar
 Reference
 or
-x4
+Simd
 (
 as
 appropriate
