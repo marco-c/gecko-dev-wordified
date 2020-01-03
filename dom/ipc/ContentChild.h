@@ -2285,7 +2285,11 @@ void
 ProcessingError
 (
 Result
-what
+aCode
+const
+char
+*
+aReason
 )
 MOZ_OVERRIDE
 ;

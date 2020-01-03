@@ -1204,6 +1204,11 @@ mContentParent
 >
 KillHard
 (
+"
+PBackground
+CheckPrincipal
+1
+"
 )
 ;
 return
@@ -1244,6 +1249,11 @@ mContentParent
 >
 KillHard
 (
+"
+PBackground
+CheckPrincipal
+2
+"
 )
 ;
 return
@@ -1275,6 +1285,11 @@ mContentParent
 >
 KillHard
 (
+"
+PBackground
+CheckPrincipal
+3
+"
 )
 ;
 return

@@ -48748,6 +48748,11 @@ aContentParent
 >
 KillHard
 (
+"
+IndexedDB
+CheckPermission
+1
+"
 )
 ;
 }
@@ -48981,6 +48986,11 @@ aContentParent
 >
 KillHard
 (
+"
+IndexedDB
+CheckPermission
+2
+"
 )
 ;
 IDB_REPORT_INTERNAL_ERR
@@ -49011,6 +49021,11 @@ aContentParent
 >
 KillHard
 (
+"
+IndexedDB
+CheckPermission
+3
+"
 )
 ;
 IDB_REPORT_INTERNAL_ERR

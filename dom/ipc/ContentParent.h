@@ -1224,6 +1224,10 @@ process
 void
 KillHard
 (
+const
+char
+*
+aWhy
 )
 ;
 /
@@ -4130,7 +4134,11 @@ void
 ProcessingError
 (
 Result
-what
+aCode
+const
+char
+*
+aMsgName
 )
 MOZ_OVERRIDE
 ;

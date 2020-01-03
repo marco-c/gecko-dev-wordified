@@ -3423,6 +3423,9 @@ mContentParent
 >
 KillHard
 (
+"
+HangMonitor
+"
 )
 ;
 return

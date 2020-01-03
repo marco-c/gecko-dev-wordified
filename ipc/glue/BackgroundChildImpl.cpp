@@ -710,7 +710,11 @@ BackgroundChildImpl
 ProcessingError
 (
 Result
-aWhat
+aCode
+const
+char
+*
+aReason
 )
 {
 /
@@ -726,7 +730,7 @@ abortMessage
 ;
 switch
 (
-aWhat
+aCode
 )
 {
 #

@@ -312,6 +312,10 @@ OnProcessingError
 (
 Result
 aError
+const
+char
+*
+aMsgName
 )
 =
 0

@@ -621,7 +621,11 @@ TestFailedCtorChild
 ProcessingError
 (
 Result
-what
+aCode
+const
+char
+*
+aReason
 )
 {
 if
