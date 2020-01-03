@@ -25259,6 +25259,11 @@ MOZ_LSAN_INTENTIONALLY_LEAK_OBJECT
 statistics_recorder
 )
 ;
+unused
+<
+<
+statistics_recorder
+;
 int
 result
 =
