@@ -321,12 +321,6 @@ class
 nsContainerFrame
 ;
 class
-gfxASurface
-;
-class
-gfxDrawable
-;
-class
 nsView
 ;
 class
@@ -11548,7 +11542,7 @@ aFrame
 *
 Obtain
 a
-gfxASurface
+SourceSurface
 from
 the
 given
@@ -11871,7 +11865,7 @@ SurfaceFromElementResult
 ;
 /
 *
-mSurface
+mSourceSurface
 will
 contain
 the
@@ -11885,12 +11879,6 @@ on
 error
 *
 /
-nsRefPtr
-<
-gfxASurface
->
-mSurface
-;
 mozilla
 :
 :

@@ -146,6 +146,9 @@ nsIFrame
 h
 "
 class
+gfxDrawable
+;
+class
 nsStyleContext
 ;
 class
