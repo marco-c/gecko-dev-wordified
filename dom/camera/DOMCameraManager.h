@@ -227,13 +227,7 @@ CameraConfiguration
 typedef
 nsTArray
 <
-nsRefPtr
-<
-mozilla
-:
-:
-nsDOMCameraControl
->
+nsWeakPtr
 >
 CameraControls
 ;

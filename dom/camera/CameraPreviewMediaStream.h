@@ -166,12 +166,11 @@ and
 no
 buffering
 stream
-.
 *
-But
+but
 the
 SourceMediaStream
-do
+does
 not
 support
 it
@@ -290,6 +289,7 @@ void
 Destroy
 (
 )
+MOZ_OVERRIDE
 ;
 void
 OnPreviewStateChange

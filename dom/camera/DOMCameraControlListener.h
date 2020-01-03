@@ -252,7 +252,7 @@ DOMCameraControlListener
 ;
 nsMainThreadPtrHandle
 <
-nsDOMCameraControl
+nsISupports
 >
 mDOMCameraControl
 ;

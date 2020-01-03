@@ -1026,6 +1026,9 @@ int32_t
 aRotation
 )
 ;
+uint32_t
+mCameraId
+;
 android
 :
 :

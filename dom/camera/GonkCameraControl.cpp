@@ -463,7 +463,7 @@ uint32_t
 aCameraId
 )
 :
-CameraControlImpl
+mCameraId
 (
 aCameraId
 )
