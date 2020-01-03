@@ -27,14 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-XPCOMUtils
-Services
-Assert
-*
-/
 "
 use
 strict
@@ -407,6 +399,8 @@ fakeCharPrefName
 true
 )
 ;
+Assert
+.
 ok
 (
 true

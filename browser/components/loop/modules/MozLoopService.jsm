@@ -1390,9 +1390,6 @@ return
 5000
 ;
 }
-return
-initialDelay
-;
 }
 /
 *

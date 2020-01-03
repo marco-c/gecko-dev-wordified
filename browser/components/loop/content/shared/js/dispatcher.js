@@ -58,14 +58,6 @@ MPL
 /
 /
 *
-global
-loop
-:
-true
-*
-/
-/
-*
 *
 *
 The

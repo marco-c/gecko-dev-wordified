@@ -28,13 +28,6 @@ zero
 /
 *
 /
-var
-expect
-=
-chai
-.
-expect
-;
 describe
 (
 "
@@ -48,6 +41,13 @@ function
 (
 )
 {
+var
+expect
+=
+chai
+.
+expect
+;
 var
 sharedActions
 =

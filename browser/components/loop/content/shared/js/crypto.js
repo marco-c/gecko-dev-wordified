@@ -59,9 +59,7 @@ MPL
 /
 *
 global
-loop
-:
-true
+Components
 *
 /
 var

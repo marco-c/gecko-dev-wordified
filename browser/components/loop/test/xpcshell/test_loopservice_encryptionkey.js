@@ -27,13 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-Services
-Assert
-*
-/
 "
 use
 strict

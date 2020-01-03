@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-global
-loop
-:
-true
-*
-/
 var
 loop
 =

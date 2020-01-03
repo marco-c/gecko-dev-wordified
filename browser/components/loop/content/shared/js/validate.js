@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-jshint
-unused
-:
-false
-*
-/
 var
 loop
 =
