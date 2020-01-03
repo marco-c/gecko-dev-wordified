@@ -10245,9 +10245,9 @@ nsTextStore
 SetSelection
 not
 sending
-NS_SELECTION_SET
+eSetSelection
 *
-NS_SELECTION_SET
+eSetSelection
 not
 handled
 by
@@ -10255,7 +10255,7 @@ ContentEventHandler
 *
 Bug
 in
-NS_SELECTION_SET
+eSetSelection
 handler
 *
 /
@@ -10581,7 +10581,7 @@ SetSelection
 or
 InsertTextAtSelection
 *
-NS_SELECTION_SET
+eSetSelection
 bug
 or
 NS_COMPOSITION_

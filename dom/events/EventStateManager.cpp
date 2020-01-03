@@ -4611,7 +4611,7 @@ wheelEvent
 break
 ;
 case
-NS_SELECTION_SET
+eSetSelection
 :
 IMEStateManager
 :

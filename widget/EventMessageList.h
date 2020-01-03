@@ -2067,7 +2067,7 @@ the
 selection
 NS_EVENT_MESSAGE
 (
-NS_SELECTION_SET
+eSetSelection
 eSelectionEventFirst
 )
 /

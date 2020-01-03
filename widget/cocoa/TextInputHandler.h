@@ -1889,7 +1889,7 @@ SetSelection
 (
 )
 dispatches
-NS_SELECTION_SET
+eSetSelection
 event
 for
 the

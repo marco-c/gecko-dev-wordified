@@ -12249,7 +12249,7 @@ WidgetSelectionEvent
 selectionEvent
 (
 true
-NS_SELECTION_SET
+eSetSelection
 mLastFocusedWindow
 )
 ;

@@ -10729,7 +10729,7 @@ WidgetSelectionEvent
 selectionSet
 (
 true
-NS_SELECTION_SET
+eSetSelection
 mWidget
 )
 ;
@@ -10813,7 +10813,7 @@ FlushPendingActions
 FAILED
 due
 to
-NS_SELECTION_SET
+eSetSelection
 failure
 "
 this
@@ -11726,7 +11726,7 @@ case
 PendingAction
 :
 :
-SELECTION_SET
+SET_SELECTION
 :
 {
 MOZ_LOG
@@ -11752,7 +11752,7 @@ FlushPendingActions
 "
 "
 flushing
-SELECTION_SET
+SET_SELECTION
 =
 {
 mSelectionStart
@@ -11791,7 +11791,7 @@ WidgetSelectionEvent
 selectionSet
 (
 true
-NS_SELECTION_SET
+eSetSelection
 mWidget
 )
 ;
@@ -18050,7 +18050,7 @@ mType
 PendingAction
 :
 :
-SELECTION_SET
+SET_SELECTION
 ;
 action
 -
