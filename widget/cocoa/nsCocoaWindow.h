@@ -2045,7 +2045,10 @@ virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage

@@ -3416,7 +3416,7 @@ MetroWidget
 :
 SynthesizeNativeMouseEvent
 (
-nsIntPoint
+LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage
@@ -3629,7 +3629,7 @@ MetroWidget
 :
 SynthesizeNativeMouseScrollEvent
 (
-nsIntPoint
+LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage

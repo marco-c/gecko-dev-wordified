@@ -136,6 +136,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 /
 /
 This
@@ -1038,7 +1045,10 @@ NSPoint
 DevPixelsToCocoaPoints
 (
 const
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 &
 aPt
 CGFloat

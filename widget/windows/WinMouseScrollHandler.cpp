@@ -1514,7 +1514,7 @@ nsWindowBase
 *
 aWidget
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 uint32_t
