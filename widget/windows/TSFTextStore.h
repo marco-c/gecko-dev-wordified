@@ -4439,7 +4439,7 @@ mPendingDestroy
 If
 this
 is
-true
+false
 MaybeFlushPendingNotifications
 (
 )
@@ -4451,7 +4451,7 @@ the
 mLockedContent
 .
 bool
-mPendingClearLockedContent
+mDeferClearingLockedContent
 ;
 /
 /
