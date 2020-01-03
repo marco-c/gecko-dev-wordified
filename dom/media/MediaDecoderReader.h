@@ -845,7 +845,7 @@ OnTaskQueue
 )
 {
 return
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -2235,7 +2235,7 @@ aLength
 )
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -2456,7 +2456,7 @@ UpdateBuffered
 }
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -2473,7 +2473,7 @@ forget
 }
 MediaTaskQueue
 *
-TaskQueue
+OwnerThread
 (
 )
 {

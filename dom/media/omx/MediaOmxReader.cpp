@@ -1452,7 +1452,7 @@ AllocateMediaResources
 >
 Then
 (
-TaskQueue
+OwnerThread
 (
 )
 __func__
@@ -3422,7 +3422,7 @@ DecodeToFirstVideoData
 >
 Then
 (
-TaskQueue
+OwnerThread
 (
 )
 __func__
@@ -3842,7 +3842,7 @@ Run
 }
 else
 {
-TaskQueue
+OwnerThread
 (
 )
 -
