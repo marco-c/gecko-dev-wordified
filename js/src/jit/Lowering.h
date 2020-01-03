@@ -2315,6 +2315,14 @@ MNewTarget
 ins
 )
 ;
+void
+visitArrowNewTarget
+(
+MArrowNewTarget
+*
+ins
+)
+;
 }
 ;
 }

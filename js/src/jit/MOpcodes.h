@@ -1421,6 +1421,11 @@ _
 (
 NewTarget
 )
+\
+_
+(
+ArrowNewTarget
+)
 /
 /
 Forward
