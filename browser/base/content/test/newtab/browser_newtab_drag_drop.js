@@ -101,6 +101,11 @@ requestLongerTimeout
 2
 )
 ;
+yield
+addNewTabPageTab
+(
+)
+;
 /
 /
 test
