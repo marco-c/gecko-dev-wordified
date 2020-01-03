@@ -1224,7 +1224,7 @@ loop
 .
 roomViews
 .
-DesktopRoomView
+DesktopRoomControllerView
 )
 ;
 }
