@@ -4678,6 +4678,9 @@ shell_handleCmdLine
 (
 )
 {
+#
+ifndef
+MOZ_WIDGET_GONK
 let
 b2gcmds
 =
@@ -4787,6 +4790,8 @@ with
 no
 params
 }
+#
+endif
 }
 }
 ;
