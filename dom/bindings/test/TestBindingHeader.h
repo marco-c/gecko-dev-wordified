@@ -5898,6 +5898,16 @@ Dict
 )
 ;
 void
+PassDictionary2
+(
+JSContext
+*
+const
+Dict
+&
+)
+;
+void
 GetReadonlyDictionary
 (
 JSContext
