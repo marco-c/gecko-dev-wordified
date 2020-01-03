@@ -2790,6 +2790,11 @@ aReason
 void
 OnSeekCompleted
 (
+)
+;
+void
+OnSeekFailed
+(
 nsresult
 aResult
 )

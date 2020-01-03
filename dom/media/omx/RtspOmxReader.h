@@ -323,7 +323,10 @@ based
 .
 .
 virtual
-void
+nsRefPtr
+<
+SeekPromise
+>
 Seek
 (
 int64_t

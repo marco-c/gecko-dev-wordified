@@ -356,7 +356,10 @@ aInfo
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsRefPtr
+<
+SeekPromise
+>
 Seek
 (
 int64_t

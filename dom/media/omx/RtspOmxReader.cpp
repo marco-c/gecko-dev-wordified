@@ -263,7 +263,13 @@ return
 NS_OK
 ;
 }
-void
+nsRefPtr
+<
+MediaDecoderReader
+:
+:
+SeekPromise
+>
 RtspOmxReader
 :
 :
@@ -411,6 +417,7 @@ a
 v
 decoders
 .
+return
 MediaOmxReader
 :
 :
