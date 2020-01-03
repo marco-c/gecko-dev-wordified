@@ -526,6 +526,10 @@ padding
 #
 UITourTooltipButtons
 >
+label
+#
+UITourTooltipButtons
+>
 button
 {
 margin
@@ -534,6 +538,14 @@ margin
 15px
 ;
 }
+#
+UITourTooltipButtons
+>
+label
+:
+first
+-
+child
 #
 UITourTooltipButtons
 >
@@ -589,6 +601,10 @@ end
 5px
 ;
 }
+#
+UITourTooltipButtons
+>
+label
 #
 UITourTooltipButtons
 >
@@ -764,6 +780,10 @@ hsla
 inset
 ;
 }
+#
+UITourTooltipButtons
+>
+label
 #
 UITourTooltipButtons
 >
