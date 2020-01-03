@@ -447,8 +447,8 @@ mDecoder
 ;
 }
 ;
-MOZ_STACK_CLASS
 class
+MOZ_STACK_CLASS
 DecodersToInitialize
 MOZ_FINAL
 {
