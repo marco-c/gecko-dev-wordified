@@ -2498,6 +2498,11 @@ nsAutoAnimationMutationBatch
 mb
 (
 aElement
+-
+>
+OwnerDoc
+(
+)
 )
 ;
 /
