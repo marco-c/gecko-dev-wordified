@@ -1025,6 +1025,8 @@ nsACString
 hostName
 int16_t
 port
+PRErrorCode
+intoleranceReason
 )
 ;
 void

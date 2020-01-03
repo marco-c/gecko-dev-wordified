@@ -258,6 +258,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -316,6 +317,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -392,6 +394,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -468,6 +471,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -544,6 +548,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -1417,6 +1422,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -1717,6 +1723,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -1891,6 +1898,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -1951,6 +1959,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -2066,6 +2075,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
@@ -2253,6 +2263,7 @@ rememberStrongCiphersFailed
 (
 HOST
 PORT
+0
 )
 )
 ;
