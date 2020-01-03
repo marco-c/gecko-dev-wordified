@@ -809,11 +809,6 @@ if
 response
 .
 trustSSL
-=
-=
-"
-true
-"
 )
 aTrust
 .
@@ -831,11 +826,6 @@ if
 response
 .
 trustEmail
-=
-=
-"
-true
-"
 )
 aTrust
 .
@@ -853,11 +843,6 @@ if
 response
 .
 trustSign
-=
-=
-"
-true
-"
 )
 aTrust
 .
