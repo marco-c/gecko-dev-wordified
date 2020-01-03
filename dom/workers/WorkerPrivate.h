@@ -2705,7 +2705,7 @@ mMessagePortSerial
 ;
 }
 bool
-IsStorageAllowed
+IsIndexedDBAllowed
 (
 )
 const
@@ -2713,7 +2713,7 @@ const
 return
 mLoadInfo
 .
-mStorageAllowed
+mIndexedDBAllowed
 ;
 }
 bool

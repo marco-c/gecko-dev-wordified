@@ -1787,7 +1787,7 @@ if
 mWorkerPrivate
 -
 >
-IsStorageAllowed
+IsIndexedDBAllowed
 (
 )
 )
@@ -1805,10 +1805,6 @@ worker
 !
 "
 )
-;
-aErrorResult
-=
-NS_ERROR_DOM_SECURITY_ERR
 ;
 return
 nullptr
