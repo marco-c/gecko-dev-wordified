@@ -904,11 +904,6 @@ implementationFile
 append
 (
 "
-\
-n
-"
-+
-"
 }
 /
 *
@@ -935,11 +930,6 @@ headerFile
 .
 append
 (
-"
-\
-n
-"
-+
 "
 }
 /
@@ -984,11 +974,6 @@ nativesFile
 .
 append
 (
-"
-\
-n
-"
-+
 "
 }
 /
