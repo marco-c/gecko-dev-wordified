@@ -84,6 +84,17 @@ gecko
 R
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+ThemedImageButton
+;
+import
 android
 .
 content
@@ -117,7 +128,7 @@ public
 class
 MenuItemActionBar
 extends
-ImageButton
+ThemedImageButton
 implements
 GeckoMenuItem
 .
