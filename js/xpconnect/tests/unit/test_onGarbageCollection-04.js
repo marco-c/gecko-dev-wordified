@@ -200,7 +200,7 @@ debuggeree
 .
 eval
 (
-const
+var
 dbg
 =
 new
@@ -211,7 +211,7 @@ this
 debuggee
 )
 ;
-let
+var
 fired
 =
 0
