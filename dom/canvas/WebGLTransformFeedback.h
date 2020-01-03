@@ -160,6 +160,10 @@ friend
 class
 WebGLContext
 ;
+friend
+class
+WebGL2Context
+;
 public
 :
 explicit
@@ -168,6 +172,8 @@ WebGLTransformFeedback
 WebGLContext
 *
 webgl
+GLuint
+tf
 )
 ;
 void
@@ -207,6 +213,15 @@ private
 WebGLTransformFeedback
 (
 )
+;
+GLenum
+mMode
+;
+bool
+mIsActive
+;
+bool
+mIsPaused
 ;
 }
 ;
