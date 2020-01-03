@@ -1104,7 +1104,7 @@ style
 .
 width
 "
-528px
+32em
 "
 "
 Width
@@ -1132,7 +1132,7 @@ style
 .
 height
 "
-280px
+40em
 "
 "
 Height
