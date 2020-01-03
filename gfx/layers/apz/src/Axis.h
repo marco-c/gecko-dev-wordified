@@ -927,7 +927,7 @@ updateWithTouchAtDevicePoint
 .
 *
 /
-float
+ScreenCoord
 PanDistance
 (
 )
@@ -960,7 +960,7 @@ position
 .
 *
 /
-float
+ScreenCoord
 PanDistance
 (
 ScreenCoord

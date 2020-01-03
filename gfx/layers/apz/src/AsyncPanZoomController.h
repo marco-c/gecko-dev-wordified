@@ -3558,10 +3558,10 @@ locks
 void
 HandlePanningUpdate
 (
-float
-aDX
-float
-aDY
+const
+ScreenPoint
+&
+aDelta
 )
 ;
 /
