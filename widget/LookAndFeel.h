@@ -652,6 +652,10 @@ eColorID__moz_comboboxtext
 eColorID__moz_combobox
 /
 /
+GtkInfoBar
+eColorID__moz_gtk_info_bar_text
+/
+/
 keep
 this
 one

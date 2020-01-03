@@ -1103,6 +1103,17 @@ page
 *
 /
 MOZ_GTK_WINDOW
+/
+*
+Paints
+a
+GtkInfoBar
+for
+notifications
+.
+*
+/
+MOZ_GTK_INFO_BAR
 }
 GtkThemeWidgetType
 ;
