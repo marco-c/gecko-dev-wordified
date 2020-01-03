@@ -1739,8 +1739,6 @@ Entry
 sOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 HashIIDPtrKey
 MatchIIDPtrKey
 PL_DHashMoveEntryStub
@@ -1931,8 +1929,6 @@ Entry
 sOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 HashIIDPtrKey
 MatchIIDPtrKey
 PL_DHashMoveEntryStub
@@ -3292,8 +3288,6 @@ Entry
 sOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 HashNativeKey
 Match
 PL_DHashMoveEntryStub
@@ -3671,8 +3665,6 @@ Entry
 sOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 HashIIDPtrKey
 Match
 PL_DHashMoveEntryStub
@@ -4125,8 +4117,6 @@ Entry
 sOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 Hash
 Match
 PL_DHashMoveEntryStub

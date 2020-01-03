@@ -1136,8 +1136,6 @@ PLDHashTableOps
 MappedAttrTable_Ops
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 MappedAttrTable_HashKey
 MappedAttrTable_MatchEntry
 PL_DHashMoveEntryStub
@@ -1441,8 +1439,6 @@ PLDHashTableOps
 LangRuleTable_Ops
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 LangRuleTable_HashKey
 LangRuleTable_MatchEntry
 PL_DHashMoveEntryStub
