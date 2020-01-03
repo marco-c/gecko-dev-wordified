@@ -858,10 +858,10 @@ mUseAlphaData
 {
 PostFrameStop
 (
-FrameBlender
+Opacity
 :
 :
-kFrameHasAlpha
+SOME_TRANSPARENCY
 )
 ;
 }
@@ -869,10 +869,10 @@ else
 {
 PostFrameStop
 (
-FrameBlender
+Opacity
 :
 :
-kFrameOpaque
+OPAQUE
 )
 ;
 }

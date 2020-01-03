@@ -3147,10 +3147,10 @@ NotifyDone
 {
 PostFrameStop
 (
-FrameBlender
+Opacity
 :
 :
-kFrameOpaque
+OPAQUE
 )
 ;
 PostDecodeDone
