@@ -699,13 +699,6 @@ nsVolumeService
 .
 h
 "
-#
-include
-"
-SpeakerManagerService
-.
-h
-"
 using
 namespace
 mozilla
@@ -2152,13 +2145,6 @@ Shutdown
 ifdef
 MOZ_WIDGET_GONK
 nsVolumeService
-:
-:
-Shutdown
-(
-)
-;
-SpeakerManagerService
 :
 :
 Shutdown
