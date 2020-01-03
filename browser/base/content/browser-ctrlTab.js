@@ -3654,11 +3654,12 @@ hides
 .
 setTimeout
 (
-function
 (
 )
+=
+>
 {
-allTabs
+this
 .
 toolbarButton
 .
