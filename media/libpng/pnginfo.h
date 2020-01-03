@@ -1218,7 +1218,7 @@ write
 endif
 /
 *
-PNG_TEXT_SUPPORTED
+TEXT
 *
 /
 #

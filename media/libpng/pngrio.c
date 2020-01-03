@@ -18,10 +18,10 @@ libpng
 .
 6
 .
-9
+15
 [
-February
-6
+November
+20
 2014
 ]
 *
@@ -783,6 +783,6 @@ endif
 endif
 /
 *
-PNG_READ_SUPPORTED
+READ
 *
 /
