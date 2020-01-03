@@ -2150,6 +2150,13 @@ type
 "
 reload
 "
+options
+:
+{
+force
+:
+true
+}
 manifestURL
 :
 manifestURL
