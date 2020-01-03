@@ -977,11 +977,10 @@ name
 )
         
 if
+not
 command
 .
 conditions
-is
-None
 and
 Registrar
 .
