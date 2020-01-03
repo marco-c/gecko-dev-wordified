@@ -2059,6 +2059,10 @@ innerViewsTable
 &
 cStats
 .
+lazyArrayBuffersTable
+&
+cStats
+.
 crossCompartmentWrappersTable
 &
 cStats

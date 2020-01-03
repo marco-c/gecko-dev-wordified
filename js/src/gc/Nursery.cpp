@@ -2371,7 +2371,7 @@ obj
 >
 is
 <
-InlineOpaqueTypedObject
+InlineTypedObject
 >
 (
 )
@@ -2427,7 +2427,7 @@ obj
 >
 as
 <
-InlineOpaqueTypedObject
+InlineTypedObject
 >
 (
 )
@@ -2436,8 +2436,17 @@ typeDescr
 (
 )
 ;
+MOZ_ASSERT
+(
+!
+IsInsideNursery
+(
+descr
+)
+)
+;
 return
-InlineOpaqueTypedObject
+InlineTypedObject
 :
 :
 allocKindForTypeDescriptor
