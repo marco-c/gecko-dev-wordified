@@ -166,6 +166,7 @@ mozilla
 TimeDuration
 TimeDuration
 ;
+explicit
 AsyncScrollBase
 (
 nsPoint
