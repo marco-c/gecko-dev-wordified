@@ -1262,8 +1262,6 @@ ToUpperCase
 uint8_t
 *
 p
-int
-len
 )
 {
 if
@@ -1558,7 +1556,6 @@ kUppercaseFirst
 ToUpperCase
 (
 uppercase
-len
 )
 ;
 }
@@ -1584,7 +1581,6 @@ step
 ToUpperCase
 (
 uppercase
-len
 )
 ;
 uppercase

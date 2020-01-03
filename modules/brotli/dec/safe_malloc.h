@@ -125,10 +125,10 @@ allocation
 /
 #
 ifndef
-BROTLI_UTILS_UTILS_H_
+BROTLI_DEC_SAFE_MALLOC_H_
 #
 define
-BROTLI_UTILS_UTILS_H_
+BROTLI_DEC_SAFE_MALLOC_H_
 #
 include
 <
@@ -322,6 +322,6 @@ endif
 endif
 /
 *
-BROTLI_UTILS_UTILS_H_
+BROTLI_DEC_SAFE_MALLOC_H_
 *
 /
