@@ -722,8 +722,7 @@ profilerActor
 }
 /
 /
-Or
-when
+When
 we
 are
 debugging

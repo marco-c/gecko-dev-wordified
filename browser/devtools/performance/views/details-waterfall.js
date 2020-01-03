@@ -67,6 +67,10 @@ strict
 *
 Waterfall
 view
+containing
+the
+timeline
+markers
 controlled
 by
 DetailsView
