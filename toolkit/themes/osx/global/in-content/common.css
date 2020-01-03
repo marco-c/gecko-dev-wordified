@@ -121,6 +121,9 @@ none
 xul
 |
 button
+html
+|
+button
 xul
 |
 colorpicker
@@ -143,6 +146,9 @@ top
 ;
 }
 xul
+|
+button
+html
 |
 button
 {
