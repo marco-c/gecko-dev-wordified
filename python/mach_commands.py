@@ -464,7 +464,23 @@ files
 for
 test
 in
+[
+mozpack
+.
+path
+.
+join
+(
+self
+.
+topsrcdir
+t
+)
+for
+t
+in
 tests
+]
 :
             
 if
@@ -595,12 +611,23 @@ python
 -
 test
 '
+                         
 {
 '
 test
 '
 :
+mozpack
+.
+path
+.
+relpath
+(
 test
+self
+.
+topsrcdir
+)
 }
                          
 '
