@@ -7883,6 +7883,8 @@ gfxPangoFontGroup
 :
 GetFirstValidFont
 (
+uint32_t
+aCh
 )
 {
 return
@@ -7901,6 +7903,8 @@ GetFontAt
 (
 int32_t
 i
+uint32_t
+aCh
 )
 {
 /
