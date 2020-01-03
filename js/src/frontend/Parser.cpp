@@ -25433,6 +25433,13 @@ init
 =
 assignExpr
 (
+pc
+-
+>
+parsingForInit
+?
+InProhibited
+:
 InAllowed
 yieldHandling
 )
@@ -25863,6 +25870,13 @@ init
 =
 assignExpr
 (
+pc
+-
+>
+parsingForInit
+?
+InProhibited
+:
 InAllowed
 yieldHandling
 )
