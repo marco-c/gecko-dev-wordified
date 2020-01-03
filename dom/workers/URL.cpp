@@ -409,7 +409,7 @@ FileImpl
 *
 mBlobImpl
 ;
-nsString
+nsAString
 &
 mURL
 ;
@@ -433,7 +433,7 @@ dom
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aURL
 )
@@ -755,7 +755,7 @@ GetPrincipal
 )
 ;
 }
-nsCString
+nsAutoCString
 url
 ;
 nsresult
@@ -1507,7 +1507,7 @@ WorkerPrivate
 aWorkerPrivate
 GetterType
 aType
-nsString
+nsAString
 &
 aValue
 URLProxy
@@ -1783,7 +1783,7 @@ true
 }
 private
 :
-nsString
+nsAString
 &
 mValue
 ;
@@ -2569,7 +2569,7 @@ URL
 :
 GetHref
 (
-nsString
+nsAString
 &
 aHref
 ErrorResult
@@ -2698,7 +2698,7 @@ URL
 :
 GetOrigin
 (
-nsString
+nsAString
 &
 aOrigin
 ErrorResult
@@ -2760,7 +2760,7 @@ URL
 :
 GetProtocol
 (
-nsString
+nsAString
 &
 aProtocol
 ErrorResult
@@ -2888,7 +2888,7 @@ URL
 :
 GetUsername
 (
-nsString
+nsAString
 &
 aUsername
 ErrorResult
@@ -3016,7 +3016,7 @@ URL
 :
 GetPassword
 (
-nsString
+nsAString
 &
 aPassword
 ErrorResult
@@ -3144,7 +3144,7 @@ URL
 :
 GetHost
 (
-nsString
+nsAString
 &
 aHost
 ErrorResult
@@ -3272,7 +3272,7 @@ URL
 :
 GetHostname
 (
-nsString
+nsAString
 &
 aHostname
 ErrorResult
@@ -3400,7 +3400,7 @@ URL
 :
 GetPort
 (
-nsString
+nsAString
 &
 aPort
 ErrorResult
@@ -3528,7 +3528,7 @@ URL
 :
 GetPathname
 (
-nsString
+nsAString
 &
 aPathname
 ErrorResult
@@ -3656,7 +3656,7 @@ URL
 :
 GetSearch
 (
-nsString
+nsAString
 &
 aSearch
 ErrorResult
@@ -3861,7 +3861,7 @@ AddObserver
 this
 )
 ;
-nsString
+nsAutoString
 search
 ;
 mSearchParams
@@ -3884,7 +3884,7 @@ URL
 :
 GetHash
 (
-nsString
+nsAString
 &
 aHash
 ErrorResult
@@ -4032,7 +4032,7 @@ dom
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 mozilla
@@ -4232,7 +4232,7 @@ mSearchParams
 aSearchParams
 )
 ;
-nsString
+nsAutoString
 search
 ;
 mSearchParams
@@ -4262,7 +4262,7 @@ if
 mSearchParams
 )
 {
-nsString
+nsAutoString
 search
 ;
 ErrorResult

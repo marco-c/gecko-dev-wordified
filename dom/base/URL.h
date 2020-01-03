@@ -296,7 +296,7 @@ const
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -319,7 +319,7 @@ const
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -342,7 +342,7 @@ const
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -367,7 +367,7 @@ aURL
 void
 GetHref
 (
-nsString
+nsAString
 &
 aHref
 ErrorResult
@@ -391,7 +391,7 @@ aRv
 void
 GetOrigin
 (
-nsString
+nsAString
 &
 aOrigin
 ErrorResult
@@ -403,7 +403,7 @@ const
 void
 GetProtocol
 (
-nsString
+nsAString
 &
 aProtocol
 ErrorResult
@@ -427,7 +427,7 @@ aRv
 void
 GetUsername
 (
-nsString
+nsAString
 &
 aUsername
 ErrorResult
@@ -451,7 +451,7 @@ aRv
 void
 GetPassword
 (
-nsString
+nsAString
 &
 aPassword
 ErrorResult
@@ -475,7 +475,7 @@ aRv
 void
 GetHost
 (
-nsString
+nsAString
 &
 aHost
 ErrorResult
@@ -499,7 +499,7 @@ aRv
 void
 GetHostname
 (
-nsString
+nsAString
 &
 aHostname
 ErrorResult
@@ -523,7 +523,7 @@ aRv
 void
 GetPort
 (
-nsString
+nsAString
 &
 aPort
 ErrorResult
@@ -547,7 +547,7 @@ aRv
 void
 GetPathname
 (
-nsString
+nsAString
 &
 aPathname
 ErrorResult
@@ -571,7 +571,7 @@ aRv
 void
 GetSearch
 (
-nsString
+nsAString
 &
 aRetval
 ErrorResult
@@ -609,7 +609,7 @@ aSearchParams
 void
 GetHash
 (
-nsString
+nsAString
 &
 aRetval
 ErrorResult
@@ -633,7 +633,7 @@ aRv
 void
 Stringify
 (
-nsString
+nsAString
 &
 aRetval
 ErrorResult
@@ -712,7 +712,7 @@ const
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
