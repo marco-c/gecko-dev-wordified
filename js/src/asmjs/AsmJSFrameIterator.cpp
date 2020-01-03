@@ -825,6 +825,12 @@ defined
 (
 JS_CODEGEN_X64
 )
+#
+if
+defined
+(
+DEBUG
+)
 static
 const
 unsigned
@@ -832,6 +838,8 @@ PushedRetAddr
 =
 0
 ;
+#
+endif
 static
 const
 unsigned
@@ -852,6 +860,12 @@ defined
 (
 JS_CODEGEN_X86
 )
+#
+if
+defined
+(
+DEBUG
+)
 static
 const
 unsigned
@@ -859,6 +873,8 @@ PushedRetAddr
 =
 0
 ;
+#
+endif
 static
 const
 unsigned
@@ -933,6 +949,12 @@ defined
 (
 JS_CODEGEN_NONE
 )
+#
+if
+defined
+(
+DEBUG
+)
 static
 const
 unsigned
@@ -940,6 +962,8 @@ PushedRetAddr
 =
 0
 ;
+#
+endif
 static
 const
 unsigned
