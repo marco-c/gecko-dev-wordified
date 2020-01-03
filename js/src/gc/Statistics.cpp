@@ -6049,7 +6049,9 @@ PHASE_MUTATOR
 timedGCTime
 +
 =
-now
+PRMJ_Now
+(
+)
 -
 timedGCStart
 ;
