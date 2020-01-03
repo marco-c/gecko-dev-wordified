@@ -1019,11 +1019,13 @@ if
 !
 mHwc
 )
-{
 return
-true
+eglSwapBuffers
+(
+dpy
+sur
+)
 ;
-}
 mHwc
 -
 >
