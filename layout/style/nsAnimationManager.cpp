@@ -257,6 +257,8 @@ CSSAnimationPlayer
 :
 Play
 (
+LimitBehavior
+aLimitBehavior
 )
 {
 mPauseShouldStick
@@ -268,6 +270,7 @@ AnimationPlayer
 :
 Play
 (
+aLimitBehavior
 )
 ;
 }
@@ -412,6 +415,13 @@ mPauseShouldStick
 {
 DoPlay
 (
+AnimationPlayer
+:
+:
+LimitBehavior
+:
+:
+Continue
 )
 ;
 }

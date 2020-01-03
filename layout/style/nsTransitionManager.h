@@ -772,6 +772,13 @@ PlayFromStyle
 {
 DoPlay
 (
+AnimationPlayer
+:
+:
+LimitBehavior
+:
+:
+Continue
 )
 ;
 }
