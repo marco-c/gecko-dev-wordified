@@ -722,6 +722,7 @@ Release
 support
 for
 clipboard
+virtual
 void
 AddDataFlavor
 (

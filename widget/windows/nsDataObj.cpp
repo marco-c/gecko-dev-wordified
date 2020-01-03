@@ -5181,7 +5181,7 @@ pFEOut
 )
 {
 return
-E_FAIL
+E_NOTIMPL
 ;
 }
 /
@@ -6233,7 +6233,7 @@ pdwConn
 )
 {
 return
-E_FAIL
+OLE_E_ADVISENOTSUPPORTED
 ;
 }
 /
@@ -6302,7 +6302,7 @@ dwConn
 )
 {
 return
-E_FAIL
+OLE_E_ADVISENOTSUPPORTED
 ;
 }
 /
@@ -6372,7 +6372,7 @@ ppEnum
 )
 {
 return
-E_FAIL
+OLE_E_ADVISENOTSUPPORTED
 ;
 }
 /
