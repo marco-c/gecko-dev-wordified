@@ -163,7 +163,7 @@ jsonText
 manifestURL
 :
 manifestURL
-docURL
+docLocation
 :
 docLocation
 }
