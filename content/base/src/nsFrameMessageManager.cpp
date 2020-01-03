@@ -5076,7 +5076,7 @@ nativeGlobal
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 js
 :

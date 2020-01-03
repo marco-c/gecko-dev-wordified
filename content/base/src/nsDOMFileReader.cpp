@@ -538,7 +538,7 @@ BindToOwner
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 xpc
 :

@@ -3188,7 +3188,7 @@ globalObject
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 xpc
 :
@@ -13981,7 +13981,7 @@ global
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 JS
 :

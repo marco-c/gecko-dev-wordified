@@ -8735,7 +8735,7 @@ Init
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 xpc
 :

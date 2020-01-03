@@ -954,7 +954,7 @@ return
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 global
 )
@@ -1045,7 +1045,7 @@ return
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 global
 )

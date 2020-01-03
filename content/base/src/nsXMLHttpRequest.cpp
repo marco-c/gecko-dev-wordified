@@ -2168,7 +2168,7 @@ subjectPrincipal
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 xpc
 :
