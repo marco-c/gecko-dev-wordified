@@ -2349,6 +2349,10 @@ aName
 aContentType
 aSize
 aLastModifiedDate
+BlobDirState
+:
+:
+eUnknownIfDir
 )
 ;
 }
