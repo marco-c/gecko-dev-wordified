@@ -20,8 +20,6 @@ Flags
 /
 /
 const
-x
-;
 [
 x
 ]

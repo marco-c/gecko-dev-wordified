@@ -377,17 +377,6 @@ printStatus
 summary
 )
 ;
-expect
-=
-/
-TypeError
-:
-redeclaration
-of
-const
-b
-/
-;
 try
 {
 eval
@@ -435,7 +424,7 @@ ex
 '
 ;
 }
-reportMatch
+reportCompare
 (
 expect
 actual

@@ -2109,11 +2109,12 @@ table
 "
 js_var_str
 js_const_str
+js_const_str
 js_let_str
-js_function_str
 "
 argument
 "
+js_function_str
 "
 unknown
 "
@@ -3591,7 +3592,7 @@ pn_dflags
 =
 ~
 (
-PND_LET
+PND_LEXICAL
 |
 PND_BOUND
 )
