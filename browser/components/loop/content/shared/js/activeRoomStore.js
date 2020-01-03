@@ -2559,7 +2559,7 @@ shared
 .
 utils
 .
-hasAudioDevices
+hasAudioOrVideoDevices
 (
 function
 (
