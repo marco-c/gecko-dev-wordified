@@ -914,7 +914,7 @@ bookmark
 keyword
 :
 "
-test
+tEsT
 "
 }
 )
@@ -971,6 +971,14 @@ checkBookmarkObject
 bm2
 )
 ;
+/
+/
+Keywords
+are
+case
+-
+insensitive
+.
 Assert
 .
 equal

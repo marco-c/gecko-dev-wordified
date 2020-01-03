@@ -2637,6 +2637,18 @@ bm
 dateAdded
 )
 ;
+/
+/
+While
+here
+also
+check
+keywords
+are
+case
+-
+insensitive
+.
 bm
 =
 yield
@@ -2677,7 +2689,7 @@ com
 keyword
 :
 "
-test
+tEsT
 "
 }
 )
