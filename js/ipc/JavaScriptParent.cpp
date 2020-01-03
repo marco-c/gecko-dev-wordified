@@ -157,8 +157,6 @@ h
 #
 include
 "
-js
-/
 HeapAPI
 .
 h
